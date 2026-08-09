@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any, Callable, Callable
+from typing import Any, Callable
 
 from fastapi import Request
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -28,6 +28,24 @@ def _json_error(
     if hint:
         body["hint"] = hint
     return JSONResponse(status_code=status, content=body, headers=cors_headers(origin))
+
+
+def _attach_billing_to_auth_result(result: dict[str, Any]) -> None:
+    email = (result.get("email") or "").strip().lower()
+    if not email:
+        return
+    from billing import billing_enabled, ensure_user_billing, get_balance_millicents
+    from billing_rates import millicents_to_cents
+
+    if not billing_enabled():
+        return
+    trial = ensure_user_billing(email)
+    if trial.get("granted"):
+        result["trialCreditGranted"] = True
+    balance = trial.get("balance_millicents")
+    if balance is None:
+        balance = get_balance_millicents(email)
+    result["creditBalanceCents"] = millicents_to_cents(int(balance or 0))
 
 
 def register_oauth_bff_routes(
@@ -80,20 +98,7 @@ def register_oauth_bff_routes(
                 err_body["detail"] = result["detail"]
             return JSONResponse(status_code=status, content=err_body, headers=cors_headers(origin))
         if result.get("email"):
-            try:
-                from billing import billing_enabled, get_balance_millicents, grant_trial_if_new
-                from billing_rates import millicents_to_cents
-
-                if billing_enabled():
-                    trial = grant_trial_if_new(result["email"])
-                    if trial.get("granted"):
-                        result["trialCreditGranted"] = True
-                    balance = trial.get("balance_millicents")
-                    if balance is None:
-                        balance = get_balance_millicents(result["email"])
-                    result["creditBalanceCents"] = millicents_to_cents(int(balance or 0))
-            except Exception:
-                pass
+            _attach_billing_to_auth_result(result)
         return JSONResponse(content=result, headers=cors_headers(origin))
 
     @app.post("/auth/google/refresh")
@@ -129,6 +134,8 @@ def register_oauth_bff_routes(
                 content=body,
                 headers=cors_headers(origin),
             )
+        if result.get("email"):
+            _attach_billing_to_auth_result(result)
         return JSONResponse(content=result, headers=cors_headers(origin))
 
     @app.get("/auth/google/session")
@@ -158,6 +165,8 @@ def register_oauth_bff_routes(
                 content={"error": result["error"], "detail": result.get("detail")},
                 headers=cors_headers(origin),
             )
+        if result.get("email"):
+            _attach_billing_to_auth_result(result)
         return JSONResponse(content=result, headers=cors_headers(origin))
 
     @app.post("/auth/google/logout")

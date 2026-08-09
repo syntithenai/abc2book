@@ -14,11 +14,12 @@ import {
 } from '../playbackNavigationUtils'
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import PlaybackVolumeSlider from '../components/PlaybackVolumeSlider'
+import OutputDevicePicker, { isSetSinkIdSupported } from '../components/OutputDevicePicker'
 import TuneArtwork from '../components/TuneArtwork'
 import { hasTuneArtwork } from '../nowPlayingArtwork'
 import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
-import RemoteOutputButton from '../components/RemoteOutputButton'
+import { isAndroidApp } from '../platformUtils'
 import { useDocumentTitle } from '../pageTitle'
 import './NowPlayingPage.css'
 
@@ -45,12 +46,15 @@ export default function NowPlayingPage(props) {
   const transportControlsEngine = !!(engineTuneId && activeTuneId && engineTuneId === activeTuneId)
   const showQueueNavigation = queueActive
   const playingTune = activeTuneId && props.tunes ? props.tunes[activeTuneId] : (mediaController && mediaController.tune)
+  const isEngaged = isQueuePlaybackEngaged(mediaController)
+  const showPlaybackProgress = !!(mediaController && playingTune && engineTuneId && (
+    transportControlsEngine || (!showViewedFocus && isEngaged)
+  ))
   const tuneName = playingTune && playingTune.name ? playingTune.name : 'Now playing'
   const composer = playingTune && playingTune.composer ? playingTune.composer : ''
   const positionLabel = showQueueNavigation ? getQueuePositionLabel(nowPlayingQueue) : null
   const mediaIsPlaying = !!(mediaController && mediaController.isPlaying)
   const isLoading = !!(mediaController && mediaController.isLoading)
-  const isEngaged = isQueuePlaybackEngaged(mediaController)
   const transportControlsDisplay = !showViewedFocus || transportControlsEngine
   const showTransportLoading = isLoading && isEngaged && transportControlsDisplay
   const showTransportPause = transportControlsDisplay && mediaIsPlaying
@@ -282,12 +286,40 @@ export default function NowPlayingPage(props) {
                 {positionLabel ? <span className="now-playing-page-title-position"> ({positionLabel})</span> : null}
               </div>
 
+              {showPlaybackProgress ? (
+                <div className="now-playing-page-seek-row now-playing-page-seek-row--title">
+                  <div className="now-playing-page-seek-row-controls">
+                    <Button
+                      variant="outline-secondary"
+                      size="sm"
+                      className="now-playing-page-rewind-btn"
+                      aria-label="Rewind to start"
+                      title="Rewind to start"
+                      data-testid="now-playing-rewind-button"
+                      onClick={handleRewindToStart}
+                    >
+                      {props.tunebook.icons.skipback}
+                    </Button>
+                  </div>
+                  <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
+                </div>
+              ) : null}
+
               {mediaController ? (
-                <PlaybackVolumeSlider
-                  mediaController={mediaController}
-                  className="now-playing-page-volume"
-                  volumeIcon={props.tunebook.icons.volume}
-                />
+                <div className="now-playing-page-audio-controls">
+                  <PlaybackVolumeSlider
+                    mediaController={mediaController}
+                    className="now-playing-page-volume"
+                    volumeIcon={props.tunebook.icons.volume}
+                  />
+                  {!isAndroidApp() && isSetSinkIdSupported() ? (
+                    <OutputDevicePicker
+                      mediaController={mediaController}
+                      minimal
+                      inline
+                    />
+                  ) : null}
+                </div>
               ) : null}
             </div>
           </div>
@@ -307,42 +339,35 @@ export default function NowPlayingPage(props) {
 
         {mediaController && playingTune ? (
           <>
-            {transportControlsEngine ? (
-              <div className="now-playing-page-seek-row">
-                <div className="now-playing-page-seek-row-controls">
-                  <Button
-                    variant="outline-secondary"
-                    size="sm"
-                    className="now-playing-page-rewind-btn"
-                    aria-label="Rewind to start"
-                    title="Rewind to start"
-                    data-testid="now-playing-rewind-button"
-                    onClick={handleRewindToStart}
-                  >
-                    {props.tunebook.icons.skipback}
-                  </Button>
-                  <RemoteOutputButton
-                    mediaController={mediaController}
-                    tunebook={props.tunebook}
-                    nowPlayingQueue={props.nowPlayingQueue}
-                    tunes={props.tunes}
-                    largeIcon
-                  />
-                </div>
-                <MediaSeekSlider mediaController={mediaController} className="now-playing-page-seek" />
-              </div>
-            ) : null}
             <div className="now-playing-page-media-sources">
-              <MediaSourcePlaybackButtons
-                tune={playingTune}
-                tunebook={props.tunebook}
-                mediaController={mediaController}
-                suppressRouteNavigation
-                presentation="both"
-                login={props.login}
-                accessToken={props.token}
-                className="now-playing-page-media-sources-picker"
-              />
+              <div className="now-playing-page-media-sources-header">
+                <MediaSourcePlaybackButtons
+                  tune={playingTune}
+                  tunebook={props.tunebook}
+                  mediaController={mediaController}
+                  suppressRouteNavigation
+                  presentation="both"
+                  login={props.login}
+                  accessToken={props.token}
+                  className="now-playing-page-media-sources-picker"
+                />
+                {typeof props.onOpenLinksEditor === 'function' ? (
+                  <Button
+                    variant="outline-primary"
+                    size="sm"
+                    className="now-playing-page-media-sources-add"
+                    aria-label="Edit media links"
+                    title="Edit media links"
+                    onClick={function() {
+                      if (playingTune && playingTune.id) {
+                        props.onOpenLinksEditor(playingTune.id)
+                      }
+                    }}
+                  >
+                    {props.tunebook.icons.add}
+                  </Button>
+                ) : null}
+              </div>
             </div>
           </>
         ) : null}
@@ -364,6 +389,8 @@ export default function NowPlayingPage(props) {
             tunes={props.tunes}
             onPlaylistCleared={handleClose}
             elevatedPlaylistModal={true}
+            token={props.token}
+            login={props.login}
           />
         </div>
       ) : null}

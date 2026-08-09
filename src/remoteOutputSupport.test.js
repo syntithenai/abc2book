@@ -14,10 +14,21 @@ import {
 } from './preferredRemoteOutputSettings';
 
 describe('remoteOutputSupport', function() {
+  const originalEnv = process.env.REACT_APP_REMOTE_OUTPUT_UI;
+
   beforeEach(function() {
+    process.env.REACT_APP_REMOTE_OUTPUT_UI = 'true';
     localStorage.clear();
     setSnapcastOutputEnabled(true);
     setChromecastOutputEnabled(true);
+  });
+
+  afterEach(function() {
+    if (originalEnv === undefined) {
+      delete process.env.REACT_APP_REMOTE_OUTPUT_UI;
+    } else {
+      process.env.REACT_APP_REMOTE_OUTPUT_UI = originalEnv;
+    }
   });
   test('usesNativeElementRemoteHandoff for AirPlay', function() {
     const ref = { current: { mode: 'airplay', connected: true } };
@@ -95,6 +106,18 @@ describe('remoteOutputSupport', function() {
     expect(needsCastHlsSession(mediaController, {
       source: 'https://youtu.be/x',
       sourceType: 'youtube',
+    })).toBe(true);
+  });
+
+  test('needsCastHlsSession for midifile sources', function() {
+    const mediaController = {
+      resolverFeatures: { castPlayback: false },
+      tune: { links: [{ link: 'https://example.com/a.mid' }] },
+      isExternalOutputActive: function() { return false; },
+    };
+    expect(needsCastHlsSession(mediaController, {
+      source: 'https://example.com/a.mid',
+      sourceType: 'midifile',
     })).toBe(true);
   });
 

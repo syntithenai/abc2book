@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, ButtonGroup, Form } from 'react-bootstrap';
 import {
   formatSecondsToMs,
   parseMsToSeconds,
@@ -8,6 +8,9 @@ import {
   syncLegacyLinkLoopFields,
 } from '../mediaPlaybackUtils';
 import { buildMediaSourceOptions } from '../mediaSourceMenuAccess';
+import { formatLinkPlayRangeLabel } from '../linkPlaybackRegionScanUtils';
+import { getLinkSrcType } from '../checkTuneLinkPlayback';
+import LinkPlayRangeModal from './LinkPlayRangeModal';
 
 function formatLoopStartAt(startAt) {
   if (!startAt && startAt !== 0) return '';
@@ -38,8 +41,12 @@ export default function MediaPlaybackRegionPanel({
   linkIndex,
   disabled = false,
   disabledMessage = 'Choose media to loop',
+  token = null,
+  login = null,
+  dialogZIndex,
 }) {
   const [loops, setLoops] = useState([]);
+  const [showPlayRangeModal, setShowPlayRangeModal] = useState(false);
   const saveTimerRef = useRef(null);
 
   const tuneId = tune ? tune.id : null
@@ -163,23 +170,61 @@ export default function MediaPlaybackRegionPanel({
 
   if (!tune || linkIndex === null || !tune.links || !tune.links[linkIndex]) return null;
 
+  const link = tune.links[linkIndex];
+  const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink;
+  const linkSrcType = getLinkSrcType(link, isYoutubeLink);
+  const showPlayRangeButton = linkSrcType !== 'midifile';
+  const playRangeLabel = formatLinkPlayRangeLabel(link);
+
   const mediaSourceOptions = buildMediaSourceOptions(tune, tunebook);
   const activeSource = mediaSourceOptions.find(function(option) {
     return option.kind === 'link' && option.linkIndex === linkIndex;
   });
   const mediaLinkLabel = activeSource
     ? activeSource.label
-    : (tune.links[linkIndex].title || ('Link ' + (linkIndex + 1)));
+    : (link.title || ('Link ' + (linkIndex + 1)));
+
+  function handleLinksUpdated(nextLinks) {
+    if (!tune || !tunebook) return;
+    tunebook.saveTune(Object.assign({}, tune, { links: nextLinks }));
+  }
 
   return (
     <div className="media-playback-region-panel">
-      {disabled ? (
-        <p className="text-muted small mb-2">{disabledMessage}</p>
-      ) : (
-        <p className="scope-note mb-2">
-          Loops apply to: <strong>{mediaLinkLabel}</strong>
-        </p>
-      )}
+      <div className="media-playback-region-panel-header">
+        {disabled ? (
+          <p className="text-muted small mb-0">{disabledMessage}</p>
+        ) : (
+          <p className="scope-note mb-0">
+            Loops apply to: <strong>{mediaLinkLabel}</strong>
+          </p>
+        )}
+        {showPlayRangeButton ? (
+          <ButtonGroup
+            size="sm"
+            className="media-playback-region-play-range-group"
+            aria-label="Play range"
+          >
+            {playRangeLabel ? (
+              <Button
+                variant="outline-secondary"
+                disabled
+                className="media-playback-region-play-range-label"
+                title="Current play range"
+              >
+                {playRangeLabel}
+              </Button>
+            ) : null}
+            <Button
+              variant="primary"
+              disabled={disabled}
+              onClick={function() { setShowPlayRangeModal(true); }}
+            >
+              Play Range
+            </Button>
+          </ButtonGroup>
+        ) : null}
+      </div>
       <p className="scope-note">
         Create named loops with start and end times (m:ss). Check a loop to enable looping for that region; uncheck to turn looping off.
       </p>
@@ -260,6 +305,21 @@ export default function MediaPlaybackRegionPanel({
       <Button variant="outline-primary" size="sm" disabled={disabled} onClick={handleAddLoop}>
         Add loop
       </Button>
+
+      <LinkPlayRangeModal
+        show={showPlayRangeModal}
+        onHide={function() { setShowPlayRangeModal(false); }}
+        link={link}
+        linkIndex={linkIndex}
+        links={tune.links}
+        onLinksUpdated={handleLinksUpdated}
+        tune={tune}
+        tunebook={tunebook}
+        token={token}
+        login={login}
+        icons={tunebook && tunebook.icons}
+        dialogZIndex={dialogZIndex}
+      />
     </div>
   );
 }

@@ -103,7 +103,7 @@ import {
     shouldBlockWebViewAudioPlay,
 } from './androidPlaybackGate'
 import { startAndroidProcessedBlobPlayback } from './androidProcessedPlayback'
-import { isStandaloneExternalPlaybackEngaged, stopStandaloneMediaPlayback } from './standaloneMediaPlayback'
+import { isStandaloneExternalPlaybackEngaged, stopStandaloneMediaPlayback, getStandaloneHtmlAudioElement } from './standaloneMediaPlayback'
 import {
     shouldAdvancePlaybackOnEnd,
     isTuneListPath,
@@ -119,7 +119,12 @@ import {
     adjustPlaybackVolume as persistAdjustPlaybackVolume,
     PLAYBACK_VOLUME_STEP,
 } from './playbackVolumeSettings'
-import { getOutputDeviceId, setOutputDeviceId } from './outputDeviceSettings'
+import {
+  getOutputDeviceId,
+  setOutputDeviceId,
+  notifyOutputDeviceChanged,
+  OUTPUT_DEVICE_CHANGED_EVENT,
+} from './outputDeviceSettings';
 import {
     applyOutputDeviceToAudioContext,
     applyOutputDeviceToElement,
@@ -1167,6 +1172,8 @@ export default function useTuneBookMediaController(props) {
         const elements = []
         if (playerRef && playerRef.current) elements.push(playerRef.current)
         if (filteredPlayerRef && filteredPlayerRef.current) elements.push(filteredPlayerRef.current)
+        const standaloneEl = getStandaloneHtmlAudioElement()
+        if (standaloneEl) elements.push(standaloneEl)
         const contexts = collectPlaybackAudioContexts()
         let applied = 0
         let lastError = null
@@ -1203,25 +1210,44 @@ export default function useTuneBookMediaController(props) {
             return reapplyStoredOutputDevice()
         }
         const sinkId = setOutputDeviceId(deviceId || '')
-        try {
-            const result = await applyStoredOutputDeviceToActiveRoute({
-                deviceId: sinkId,
-                throwOnError: true,
+
+        async function tryApply(id, throwOnError) {
+            return applyStoredOutputDeviceToActiveRoute({
+                deviceId: id,
+                throwOnError: !!throwOnError,
             })
-            return Object.assign({}, result, { deviceId: sinkId })
-        } catch (err) {
-            if (sinkId && isSelectAudioOutputSupported()) {
-                const permittedId = await ensurePermittedOutputDeviceId(sinkId)
-                const nextId = setOutputDeviceId(permittedId || '')
-                const result = await applyStoredOutputDeviceToActiveRoute({
-                    deviceId: nextId,
-                    throwOnError: true,
-                })
-                return Object.assign({}, result, { deviceId: nextId })
-            }
-            throw err
         }
+
+        let result = await tryApply(sinkId, false)
+
+        if (result.applied === 0 && sinkId && isSelectAudioOutputSupported()) {
+            try {
+                const permittedId = await ensurePermittedOutputDeviceId(sinkId)
+                const nextId = setOutputDeviceId(permittedId || sinkId)
+                result = await tryApply(nextId, false)
+            } catch (err) {
+                if (err && err.name === 'NotAllowedError') {
+                    throw err
+                }
+            }
+        }
+
+        if (result.applied === 0 && sinkId) {
+            result = await tryApply(getOutputDeviceId(), true)
+        }
+
+        return Object.assign({}, result, { deviceId: getOutputDeviceId() })
     }
+
+    useEffect(function() {
+        function onOutputDeviceChanged() {
+            reapplyStoredOutputDevice().catch(function() {})
+        }
+        window.addEventListener(OUTPUT_DEVICE_CHANGED_EVENT, onOutputDeviceChanged)
+        return function() {
+            window.removeEventListener(OUTPUT_DEVICE_CHANGED_EVENT, onOutputDeviceChanged)
+        }
+    }, [])
 
     function getPlaybackAudioContexts() {
         return collectPlaybackAudioContexts()
@@ -4136,7 +4162,9 @@ export default function useTuneBookMediaController(props) {
 
     function isCastSdkRemoteActive() {
         const remote = remoteOutputEngineRef.current
-        return isRemoteOutputActive() && remote.mode === 'cast' && remote.subMode === 'sdk'
+        return isRemoteOutputActive()
+            && remote.mode === 'cast'
+            && (remote.subMode === 'sdk' || remote.handoffInFlight)
     }
 
     function setRemoteOutputHandlers(handlers) {
@@ -4188,7 +4216,6 @@ export default function useTuneBookMediaController(props) {
 
     function tryPreferredSnapcastDefaultRoute(opts, continueLocalPlay) {
         if (isSnapcastRemoteActive() || isCastSdkRemoteActive()) {
-            continueLocalPlay()
             return
         }
         const routeSnapshot = captureCurrentPlaybackSnapshot(opts)
@@ -4234,10 +4261,31 @@ export default function useTuneBookMediaController(props) {
 
     function muteLocalOutputsForRemote() {
         muteNativePlayers()
-        silencePlaybackOutputs()
+        cleanupTimers()
+        stopProgressSync()
         stopMidiPlayback()
         stopMidiFilePlayback()
-        stopProgressSync()
+        if (externalMediaRef.current) {
+            destroyExternalMedia()
+        } else {
+            silencePlaybackOutputs()
+        }
+        clearCachedNativePlaybackUrl()
+        setNativePlaybackSrcOverride(null)
+        proxiedNativeBlobSrcRef.current = null
+        if (playerRef && playerRef.current) {
+            try {
+                playerRef.current.pause()
+                playerRef.current.muted = true
+            } catch (e) {}
+        }
+        if (filteredPlayerRef && filteredPlayerRef.current) {
+            try {
+                filteredPlayerRef.current.pause()
+                filteredPlayerRef.current.muted = true
+            } catch (e) {}
+        }
+        pauseYoutubeOutputOnly()
         setIsPlaying(false)
     }
 

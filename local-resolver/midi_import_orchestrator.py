@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import os
-import shutil
 from typing import Any
 
 from midi_analysis import analyze_midi_bytes, apply_profile_overrides
@@ -12,7 +11,7 @@ from midi_convert import convert_midi_bytes_to_musicxml_sync
 from midi_harmony_voice import build_harmony_voice_abc
 from midi_import_score import pick_best_candidate, score_abc_import, score_musicxml_candidate
 from midi_to_abc import MidiAbcBuildOptions, convert_midi_to_abc_note_events
-from musescore_fetch import convert_midi_bytes_to_musicxml_via_musescore
+from musescore_convert import convert_midi_bytes_to_musicxml_via_musescore, musescore_cli_available
 
 MUSESCORE_BACKUP_SCORE_THRESHOLD = 0.45
 MUSESCORE_TIE_DELTA = 0.05
@@ -25,12 +24,7 @@ def _musescore_disabled_by_env() -> bool:
 def _musescore_cli_available() -> bool:
     if _musescore_disabled_by_env():
         return False
-    return bool(
-        shutil.which("mscore")
-        or shutil.which("musescore")
-        or shutil.which("MuseScore4")
-        or os.path.isfile("/opt/musescore/AppRun")
-    )
+    return musescore_cli_available()
 
 
 def _try_musescore_musicxml(midi_bytes: bytes, filename: str) -> str:

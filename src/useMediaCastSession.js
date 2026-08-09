@@ -17,8 +17,10 @@ import {
   canRouteToCastSdk,
   needsCastHlsSession,
 } from './remoteOutputSupport';
+import { isLocalhostCastBase } from './castSupport';
 import { getChromecastOutputEnabled } from './preferredRemoteOutputSettings';
 import { enrichPayloadWithYoutubeAudioPrefetch } from './youtubeRemoteAudioPrefetch';
+import { enrichPayloadWithMidiPrefetch } from './midiRemotePrefetch';
 import { normalizeRemotePlaybackPayload } from './youtubePlaybackUri';
 
 const CAST_STORAGE_KEY = 'abc2book.castSession';
@@ -575,6 +577,15 @@ export default function useMediaCastSession({ mediaController }) {
     let activeSessionId = null;
     const requestOpts = castRequestOptions();
     try {
+      updateEngine({
+        connected: true,
+        subMode: 'sdk',
+        handoffInFlight: true,
+        isPlaying: false,
+      });
+      if (mediaController.muteLocalOutputsForRemote) {
+        mediaController.muteLocalOutputsForRemote();
+      }
       const context = castContextRef.current || await initCast();
       const tune = mediaController.tune;
       const startSeconds = payload && payload.startSeconds != null
@@ -598,6 +609,7 @@ export default function useMediaCastSession({ mediaController }) {
         if (sessionPayload.sourceType === 'youtube') {
           sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
         }
+        sessionPayload = await enrichPayloadWithMidiPrefetch(sessionPayload, mediaController);
       }
       const useHlsSession = !!(payload && needsCastHlsSession(mediaController, payload));
       if (useHlsSession) {
@@ -610,14 +622,20 @@ export default function useMediaCastSession({ mediaController }) {
       } else {
         throw new Error('No media payload for Cast');
       }
+      if (isLocalhostCastBase(contentUrl)) {
+        throw new Error(
+          'Chromecast cannot fetch media from localhost. Set CAST_PUBLIC_URL on your resolver '
+          + '(LAN IP or public URL), or REACT_APP_CAST_RESOLVER_BASE in .env.'
+        );
+      }
       castHandoffInFlightRef.current = true;
       await requestCastSession(context);
       const castSession = context.getCurrentSession();
       const device = castSession && castSession.getCastDevice ? castSession.getCastDevice() : null;
-      if (mediaController.muteLocalOutputsForRemote) {
-        mediaController.muteLocalOutputsForRemote();
-      } else if (mediaController.pause) {
-        mediaController.pause();
+      if (!mediaController.muteLocalOutputsForRemote) {
+        if (mediaController.pause) {
+          mediaController.pause();
+        }
       }
       if (!useHlsSession && queueRef.current.length > 1 && castSession) {
         const queueData = buildCastQueueItems(queueRef.current, startSeconds, requestOpts);
@@ -648,6 +666,7 @@ export default function useMediaCastSession({ mediaController }) {
         currentTime: startSeconds,
         duration: duration,
         isPlaying: true,
+        handoffInFlight: false,
       });
       startStatusPoll(activeSessionId);
       if (activeSessionId) startHeartbeatPoll(activeSessionId);
@@ -655,6 +674,7 @@ export default function useMediaCastSession({ mediaController }) {
     } catch (err) {
       castHandoffInFlightRef.current = false;
       castMediaLoadedRef.current = false;
+      updateEngine({ handoffInFlight: false });
       userStopCastRef.current = true;
       if (activeSessionId) {
         try { await deleteCastSession(activeSessionId, requestOpts); } catch (e) { /* ignore */ }
@@ -674,6 +694,11 @@ export default function useMediaCastSession({ mediaController }) {
   }, [castRequestOptions, initCast, loadMediaOnCast, mediaController, startHeartbeatPoll, startStatusPoll, updateEngine, endCastSdkSession]);
 
   const castPlay = useCallback(function() {
+    const controller = remoteControllerRef.current;
+    if (controller && controller.isPaused) {
+      controller.playOrPause();
+      return;
+    }
     const context = castContextRef.current;
     if (!context) return;
     const session = context.getCurrentSession();
@@ -683,6 +708,11 @@ export default function useMediaCastSession({ mediaController }) {
   }, []);
 
   const castPause = useCallback(function() {
+    const controller = remoteControllerRef.current;
+    if (controller && !controller.isPaused) {
+      controller.playOrPause();
+      return;
+    }
     const context = castContextRef.current;
     if (!context) return;
     const session = context.getCurrentSession();

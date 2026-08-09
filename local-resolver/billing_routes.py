@@ -14,6 +14,7 @@ from billing import (
     admin_set_balance,
     billing_enabled,
     billing_health_fields,
+    ensure_user_billing,
     get_account,
     get_available_balance_millicents,
     get_balance_cents,
@@ -46,6 +47,8 @@ def register_billing_routes(
         email = (verified.get("email") or "").strip().lower()
         if not email:
             raise HTTPException(status_code=401, detail="Missing email on token")
+        if billing_enabled():
+            ensure_user_billing(email)
         return email
 
     async def _require_admin(authorization: str | None) -> str:

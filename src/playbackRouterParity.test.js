@@ -29,9 +29,20 @@ import {
 const { prefersNativeMediaPlayback } = require('./platformUtils');
 
 describe('playbackRouterParity', function() {
+  const originalEnv = process.env.REACT_APP_REMOTE_OUTPUT_UI;
+
   beforeEach(function() {
+    process.env.REACT_APP_REMOTE_OUTPUT_UI = 'true';
     localStorage.clear();
     prefersNativeMediaPlayback.mockReturnValue(false);
+  });
+
+  afterEach(function() {
+    if (originalEnv === undefined) {
+      delete process.env.REACT_APP_REMOTE_OUTPUT_UI;
+    } else {
+      process.env.REACT_APP_REMOTE_OUTPUT_UI = originalEnv;
+    }
   });
 
   test('mapActiveEngineToRouterEngine covers getActivePlaybackEngine values', function() {

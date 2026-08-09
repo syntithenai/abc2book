@@ -18,6 +18,9 @@ __all__ = [
     "classify_lyric_chord_lines",
     "has_chord_lines",
     "split_into_blocks",
+    "coalesce_section_header_blocks",
+    "split_blocks_on_interior_headers",
+    "normalize_lyric_blocks",
     "normalize_section_type",
     "build_sections_from_lines",
     "reconstruct_chord_sheet_details",
@@ -50,19 +53,126 @@ def has_chord_lines(lines: list[str]) -> bool:
 
 
 def split_into_blocks(lines: list[str]) -> list[list[str]]:
+    source = list(lines or [])
+    soft_single_blanks = _should_soft_join_single_blanks(source)
     blocks: list[list[str]] = []
     current: list[str] = []
-    for raw in lines or []:
+    blank_run = 0
+    for raw in source:
         line = "" if raw is None else str(raw)
         if not line.strip():
-            if current:
+            blank_run += 1
+            if not soft_single_blanks:
+                if current:
+                    blocks.append(current)
+                    current = []
+                continue
+            if blank_run >= 2 and current:
                 blocks.append(current)
                 current = []
             continue
+        blank_run = 0
         current.append(line)
     if current:
         blocks.append(current)
     return blocks
+
+
+def _source_uses_double_blank_stanzas(lines: list[str]) -> bool:
+    blank_run = 0
+    for raw in lines or []:
+        line = "" if raw is None else str(raw)
+        if not line.strip():
+            blank_run += 1
+            if blank_run >= 2:
+                return True
+        else:
+            blank_run = 0
+    return False
+
+
+def _has_consecutive_nonempty_lyric_lines(lines: list[str]) -> bool:
+    source = list(lines or [])
+    for i in range(len(source) - 1):
+        line = str(source[i] or "").strip()
+        next_line = str(source[i + 1] or "").strip()
+        if line and next_line and not is_section_header(line) and not is_section_header(next_line):
+            return True
+    return False
+
+
+def _source_uses_per_line_double_spacing(lines: list[str]) -> bool:
+    source = list(lines or [])
+    followed_by_blank = 0
+    followed_by_nonempty = 0
+    for i in range(len(source) - 1):
+        line = str(source[i] or "").strip()
+        if not line or is_section_header(line):
+            continue
+        next_line = str(source[i + 1] or "").strip()
+        if not next_line:
+            followed_by_blank += 1
+        else:
+            followed_by_nonempty += 1
+    if followed_by_blank < 2:
+        return False
+    if followed_by_blank >= 3:
+        return True
+    if followed_by_blank == 2 and followed_by_nonempty == 0:
+        return False
+    return followed_by_blank > followed_by_nonempty
+
+
+def _should_soft_join_single_blanks(lines: list[str]) -> bool:
+    source = list(lines or [])
+    if _source_uses_double_blank_stanzas(source):
+        return True
+    if _has_consecutive_nonempty_lyric_lines(source):
+        return False
+    return _source_uses_per_line_double_spacing(source)
+
+
+def coalesce_section_header_blocks(blocks: list[list[str]]) -> list[list[str]]:
+    merged: list[list[str]] = []
+    source = list(blocks or [])
+    i = 0
+    while i < len(source):
+        block = source[i]
+        next_block = source[i + 1] if i + 1 < len(source) else None
+        if (
+            len(block) == 1
+            and is_section_header(block[0])
+            and next_block
+            and len(next_block) > 0
+            and not is_section_header(next_block[0])
+        ):
+            merged.append([block[0]] + list(next_block))
+            i += 2
+        elif block:
+            merged.append(list(block))
+            i += 1
+        else:
+            i += 1
+    return merged
+
+
+def split_blocks_on_interior_headers(blocks: list[list[str]]) -> list[list[str]]:
+    split: list[list[str]] = []
+    for block in blocks or []:
+        current: list[str] = []
+        for line in block or []:
+            if current and is_section_header(line):
+                split.append(current)
+                current = [line]
+            else:
+                current.append(line)
+        if current:
+            split.append(current)
+    return split
+
+
+def normalize_lyric_blocks(lines: list[str]) -> list[list[str]]:
+    return split_blocks_on_interior_headers(coalesce_section_header_blocks(split_into_blocks(lines)))
 
 
 def normalize_section_type(header: str | None) -> str | None:

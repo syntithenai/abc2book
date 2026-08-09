@@ -1,3 +1,4 @@
+import { normalizeLyricBlocks } from './chordSheetUtils'
 import {
   isTabStaffLine,
   isUsenetOrTabMetaLine,
@@ -27,21 +28,10 @@ export function isNoiseLine(line) {
   return false
 }
 
-function linesToStanzas(lines) {
-  const stanzas = []
-  let current = []
-  lines.forEach(function(line) {
-    if (!line) {
-      if (current.length) {
-        stanzas.push(current)
-        current = []
-      }
-      return
-    }
-    current.push(line)
+function blocksToStanzas(lines) {
+  return normalizeLyricBlocks(lines).filter(function(block) {
+    return Array.isArray(block) && block.length > 0
   })
-  if (current.length) stanzas.push(current)
-  return stanzas
 }
 
 export function finalizeLyricsLines(rawLines) {
@@ -66,7 +56,7 @@ export function finalizeLyricsLines(rawLines) {
     return [[], [], '']
   }
 
-  const stanzas = linesToStanzas(lines)
+  const stanzas = blocksToStanzas(lines)
   if (!stanzas.length) return [[], [], '']
 
   const flatLines = []

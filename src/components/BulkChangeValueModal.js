@@ -15,6 +15,10 @@ import { applyBulkCacheAction } from '../bulkCacheActions'
 import useMediaCacheQueue from '../useMediaCacheQueue'
 import KeySignatureInput from './KeySignatureInput'
 import VoiceFillInput from './VoiceFillInput'
+import BulkOperationProgressModal from './BulkOperationProgressModal'
+import useBulkOperationProgress from '../useBulkOperationProgress'
+import { shouldShowBulkOperationProgress } from '../bulkOperationProgress'
+import MediaCacheQueueModal, { useMediaCacheQueueModal } from './MediaCacheQueueModal'
 
 var nextRowId = 1
 
@@ -118,9 +122,12 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId, token,
 
 export default function BulkChangeValueModal({tunebook, selected, onClose, forceRefresh, token}) {
   const [show, setShow] = useState(false)
+  const [applying, setApplying] = useState(false)
   const [rows, setRows] = useState([createEmptyRow()])
   const listRef = useRef(null)
   const mediaCacheQueue = useMediaCacheQueue()
+  const bulkProgress = useBulkOperationProgress()
+  const mediaCacheQueueModal = useMediaCacheQueueModal()
 
   const selectedCount = Object.keys(selected).filter(function(item) {
     return (selected[item] ? true : false)
@@ -190,33 +197,56 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
     })
   }
 
-  function apply() {
+  async function apply() {
     var changes = prepareBulkChanges(rows)
     var actions = prepareBulkActions(rows)
     if (!changes.length && !actions.length) return
 
     var currentSelection = selectedTuneIds()
     var tunes = tunebook.fromSelection(selected)
+    setApplying(true)
 
-    if (changes.length) {
-      tunebook.bulkChangeTunes(currentSelection, changes)
-    }
-
-    actions.forEach(function(action) {
-      if (action.key === 'cache') {
-        applyBulkCacheAction({
-          action: action.value,
-          tunes: tunes,
-          tuneIds: currentSelection,
-          tunebook: tunebook,
-          token: token,
-          mediaCacheQueue: mediaCacheQueue,
-        })
+    try {
+      if (changes.length) {
+        const deferOpts = { deferSave: true }
+        if (shouldShowBulkOperationProgress(currentSelection.length)) {
+          await bulkProgress.runTunebook({
+            tunebook: tunebook,
+            items: currentSelection,
+            title: 'Applying bulk update',
+            messageForIndex: function(current, total) {
+              return 'Updating tune ' + current + ' of ' + total
+            },
+            processChunk: function(chunk) {
+              tunebook.bulkChangeTunes(chunk, changes, null, deferOpts)
+            },
+          })
+        } else {
+          tunebook.bulkChangeTunes(currentSelection, changes)
+        }
       }
-    })
 
-    forceRefresh()
-    handleClose()
+      for (let i = 0; i < actions.length; i += 1) {
+        const action = actions[i]
+        if (action.key === 'cache') {
+          await applyBulkCacheAction({
+            action: action.value,
+            tunes: tunes,
+            tuneIds: currentSelection,
+            tunebook: tunebook,
+            token: token,
+            mediaCacheQueue: mediaCacheQueue,
+            bulkProgress: bulkProgress,
+            onOpenMediaCacheQueue: mediaCacheQueueModal.openQueueModal,
+          })
+        }
+      }
+
+      forceRefresh()
+      handleClose()
+    } finally {
+      setApplying(false)
+    }
   }
 
   function fieldsUsedExcept(rowId) {
@@ -231,6 +261,17 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
 
   return (
     <>
+      <BulkOperationProgressModal
+        show={bulkProgress.show}
+        title={bulkProgress.title}
+        progress={bulkProgress.progress}
+      />
+      <MediaCacheQueueModal
+        show={mediaCacheQueueModal.show}
+        onHide={mediaCacheQueueModal.closeQueueModal}
+        tunebook={tunebook}
+        title="Media download queue"
+      />
       <Button
         className="bulk-ops-action-btn"
         variant="warning"
@@ -323,13 +364,13 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
 
           <div className="bulk-change-footer">
             {canApply ? (
-              <Button variant="success" onClick={apply}>
-                Apply {applyCount} change{applyCount === 1 ? '' : 's'}
+              <Button variant="success" onClick={apply} disabled={applying}>
+                {applying ? 'Applying…' : ('Apply ' + applyCount + ' change' + (applyCount === 1 ? '' : 's'))}
               </Button>
             ) : (
               <Button variant="secondary" disabled>Apply changes</Button>
             )}
-            <Button variant="danger" onClick={handleClose}>Cancel</Button>
+            <Button variant="danger" onClick={handleClose} disabled={applying}>Cancel</Button>
           </div>
         </Modal.Body>
       </Modal>

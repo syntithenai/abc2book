@@ -982,9 +982,13 @@ function formatCastPlaybackResolverError(error, bases) {
     );
   }
   if (castBase) {
+    const extra = message && message.indexOf('Media proxy error') < 0 && message !== 'fetch failed'
+      ? message
+      : '';
     throw new Error(
       'Could not reach your home resolver for Chromecast (' + castBase + '). '
-      + 'Check that your resolver is running and CAST_PUBLIC_URL is set.'
+      + (extra ? extra + '. ' : '')
+      + 'Check that your resolver is running, you are signed in, and CAST_PUBLIC_URL is set on that host.'
     );
   }
   throw new Error(
@@ -1457,7 +1461,7 @@ export function getResolverLoginWarning(resolverStatus, accessToken) {
   });
   if (insufficientCredit && hasToken) {
     return {
-      message: 'Your resolver credit balance is empty. Buy credit to use hosted features, or add your own API keys under Providers.',
+      message: 'Your resolver credit balance is empty. Buy credit to use hosted features.',
       showLoginButton: false,
       showBuyCreditButton: true,
     };

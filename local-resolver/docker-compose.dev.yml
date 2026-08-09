@@ -109,6 +109,9 @@ services:
       - ./midi_cleanup.py:/app/midi_cleanup.py
       - ./midi_drum_map.py:/app/midi_drum_map.py
       - ./musescore_fetch.py:/app/musescore_fetch.py
+      - ./musescore_convert.py:/app/musescore_convert.py
+      - ./score_convert_client.py:/app/score_convert_client.py
+      - ./score_convert_midi.py:/app/score_convert_midi.py
       - ./notation_title_variants.py:/app/notation_title_variants.py
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
@@ -127,6 +130,8 @@ services:
       - ./scripts/snapcast_tunebook_plugin.py:/app/scripts/snapcast_tunebook_plugin.py
     environment:
       REQUIRE_AUTH: "true"
+      RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:-peppertrees.syntithenai.com}
+      CAST_PUBLIC_URL: ${CAST_PUBLIC_URL:-https://peppertrees.syntithenai.com}
       STATIC_SITE_DIR: /app/www
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources
@@ -143,3 +148,15 @@ services:
       - --reload
       - --reload-dir
       - /app
+
+  score-convert:
+    build:
+      context: .
+      dockerfile: Dockerfile.score-convert
+    ports:
+      - "8790:8790"
+    environment:
+      SCORE_CONVERT_SECRET: ${SCORE_CONVERT_SECRET:-dev-score-convert-secret}
+      PORT: "8790"
+    profiles:
+      - score-convert

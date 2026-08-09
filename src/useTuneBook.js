@@ -3,6 +3,7 @@ import {useState, useEffect, useRef, useCallback} from 'react'
 import axios from 'axios'
 import useUtils from './useUtils'
 import { getAudioFilterSettings } from './pitchTempoUtils'
+import { applyPersonalFieldPolicy, resolvePersonalFieldPolicy } from './shareImportPersonalFields'
 import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
 import { allArtists, allTitles, tuneMatchesArtistFilter, tuneMatchesGenreFilter } from './tuneBibliographicUtils'
@@ -873,7 +874,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   }
   
     
-  function deleteTunes(tuneIds) {
+  function deleteTunes(tuneIds, options) {
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
       var tombstones = []
@@ -907,9 +908,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         recordHistoryChange(change)
       })
       removeDeletedTunesFromPlaylists(tuneIds)
-      setTunes(tunes)
-      saveTunesOnline()
-      if (typeof forceRefresh === 'function') forceRefresh()
+      if (!options || !options.deferSave) {
+        setTunes(tunes)
+        saveTunesOnline()
+        if (typeof forceRefresh === 'function') forceRefresh()
+      }
     }
   }
   
@@ -924,7 +927,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
 }
   
   
-  function addTunesToBook(tuneIds,book) {
+  function addTunesToBook(tuneIds, book, options) {
     if (Array.isArray(tuneIds) && book && book.trim()) {
        pauseSheetUpdates.current = true
        tuneIds.forEach(function(id) {
@@ -936,12 +939,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           }
         }
       })
-      setTunes(tunes)
-      saveTunesOnline()
+      if (!options || !options.deferSave) {
+        setTunes(tunes)
+        saveTunesOnline()
+      }
     }
   }
   
-  function removeTunesFromBook(tuneIds,book) {
+  function removeTunesFromBook(tuneIds, book, options) {
     if (Array.isArray(tuneIds) && book && book.trim()) {
       pauseSheetUpdates.current = true
       tuneIds.forEach(function(id) {
@@ -953,13 +958,15 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           }
         }
       })
-      setTunes(tunes)
-      saveTunesOnline()
+      if (!options || !options.deferSave) {
+        setTunes(tunes)
+        saveTunesOnline()
+      }
     }
   }
   
   
-  function addTunesToTag(tuneIds,tag) {
+  function addTunesToTag(tuneIds, tag, options) {
     if (Array.isArray(tuneIds) && tag && tag.trim()) {
        pauseSheetUpdates.current = true
        tuneIds.forEach(function(id) {
@@ -971,12 +978,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           }
         }
       })
-      setTunes(tunes)
-      saveTunesOnline()
+      if (!options || !options.deferSave) {
+        setTunes(tunes)
+        saveTunesOnline()
+      }
     }
   }
   
-  function removeTunesFromTag(tuneIds,tag) {
+  function removeTunesFromTag(tuneIds, tag, options) {
     if (Array.isArray(tuneIds) && tag && tag.trim()) {
       pauseSheetUpdates.current = true
       tuneIds.forEach(function(id) {
@@ -988,14 +997,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           }
         }
       })
-      setTunes(tunes)
-      saveTunesOnline()
+      if (!options || !options.deferSave) {
+        setTunes(tunes)
+        saveTunesOnline()
+      }
     }
   }
   
   //props.tunebook.bulkChangeTunes(Object.keys(props.selected), key, value)
   // Second argument may be a single field key or an array of { key, value } changes.
-  function bulkChangeTunes(tuneIds, keyOrChanges, value) {
+  function bulkChangeTunes(tuneIds, keyOrChanges, value, options) {
     var changes = []
     if (Array.isArray(keyOrChanges)) {
       changes = keyOrChanges.filter(function(change) {
@@ -1047,8 +1058,12 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       historyChanges.forEach(function(change) {
         recordHistoryChange(change)
       })
-      setTunes(Object.assign({}, tunes))
-      
+      if (!options || !options.deferSave) {
+        setTunes(Object.assign({}, tunes))
+      }
+    }
+    if (options && options.deferSave) {
+      return Promise.resolve()
     }
     return saveTunesOnline()
   }
@@ -1661,6 +1676,7 @@ The main difference between the two functions is the additional condition in app
   function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null, limitToTuneIds=null, options) {
       var opts = options && typeof options === 'object' ? options : {}
       var classifyOnly = !!opts.classifyOnly
+      var personalFieldPolicy = resolvePersonalFieldPolicy(opts)
       var currentTunesHash = buildTunesHash(tunes) || tunesHash
       var duplicates=[]
       var inserts=[]
@@ -1685,7 +1701,10 @@ The main difference between the two functions is the additional condition in app
               }
             var hasNotes = false
             var hasChords = false
-            tune.boost = 0 // reset boost on import
+            if (personalFieldPolicy !== 'full') {
+              var localTuneForPersonalFields = tune.id ? tunes[tune.id] : null
+              applyPersonalFieldPolicy(tune, localTuneForPersonalFields, personalFieldPolicy)
+            }
             if (tune.voices) {
                 Object.values(tune.voices).forEach(function(voice) {
                     if (Array.isArray(voice.notes)) {

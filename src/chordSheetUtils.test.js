@@ -1,4 +1,5 @@
 import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor } from './chordSheetUtils';
+import { normalizeLyricStructure } from './lyricStructureUtils';
 
 describe('chordSheetUtils', function() {
   test('recognises chord tokens', function() {
@@ -279,6 +280,54 @@ describe('chordSheetUtils', function() {
     expect(splitIntoBlocks(['a', 'b', '', 'c', '', 'd'])).toEqual([['a', 'b'], ['c'], ['d']]);
     // Double-blank stanza sheet: single blanks soft-join verse lines
     expect(splitIntoBlocks(['a', 'b', '', 'c', '', '', 'd'])).toEqual([['a', 'b', 'c'], ['d']]);
+  });
+
+  test('splitIntoBlocks soft-joins per-line double-spaced verses', function() {
+    const doubledVerse = [
+      'There were rooms of forgiveness',
+      '',
+      'In the house that we share',
+      '',
+      'But the space has been emptied',
+      '',
+      'Of whatever was there',
+      '',
+      '[Chorus]',
+      '',
+      'After today, consider me gone',
+      '',
+      '[Verse 2]',
+      '',
+      'Roses have thorns, and shining waters mud',
+      '',
+      'Clouds and eclipses stain the moon and the sun',
+    ];
+    expect(splitIntoBlocks(doubledVerse)).toEqual([
+      doubledVerse.filter(function(line) { return String(line || '').trim().length > 0; }),
+    ]);
+    const blocks = normalizeLyricBlocks(doubledVerse);
+    expect(blocks).toEqual([
+      [
+        'There were rooms of forgiveness',
+        'In the house that we share',
+        'But the space has been emptied',
+        'Of whatever was there',
+      ],
+      ['[Chorus]', 'After today, consider me gone'],
+      ['[Verse 2]', 'Roses have thorns, and shining waters mud', 'Clouds and eclipses stain the moon and the sun'],
+    ]);
+    const structure = normalizeLyricStructure(doubledVerse);
+    expect(structure.length).toBe(3);
+    expect(structure[0].lines.length).toBe(4);
+    expect(structure[1].type).toBe('chorus');
+  });
+
+  test('shouldSoftJoinSingleBlanks distinguishes legacy from per-line doubling', function() {
+    const { shouldSoftJoinSingleBlanks } = require('./chordSheetUtils');
+    expect(shouldSoftJoinSingleBlanks(['a', 'b', '', 'c', '', 'd'])).toBe(false);
+    expect(shouldSoftJoinSingleBlanks(['a', '', 'b', '', 'c'])).toBe(false);
+    expect(shouldSoftJoinSingleBlanks(['a', '', 'b', '', 'c', '', 'd'])).toBe(true);
+    expect(shouldSoftJoinSingleBlanks(['a', 'b', '', 'c', '', '', 'd'])).toBe(true);
   });
 
   test('normalizeSectionType groups repeated sections', function() {

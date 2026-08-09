@@ -121,7 +121,10 @@ export function isSectionHeader(line) {
   if (!raw) return false;
   if (isBracketChordOnly(raw)) return false;
   if (/^\[.+\]$/.test(raw)) return true;
-  if (/^#+\s+/.test(raw)) return true;
+  if (/^#+\s+/.test(raw)) {
+    const withoutHash = raw.replace(/^#+\s+/, '').trim();
+    return matchesSectionHeaderText(withoutHash);
+  }
   return matchesSectionHeaderText(raw);
 }
 
@@ -731,6 +734,53 @@ function sourceUsesDoubleBlankStanzas(lines) {
 }
 
 /**
+ * Legacy UG/ChordPro sheets run verse lines together without blanks between them.
+ */
+function hasConsecutiveNonemptyLyricLines(lines) {
+  const source = Array.isArray(lines) ? lines : [];
+  for (let i = 0; i < source.length - 1; i++) {
+    const line = String(source[i] == null ? '' : source[i]).trim();
+    const next = String(source[i + 1] == null ? '' : source[i + 1]).trim();
+    if (line && next && !isSectionHeader(line) && !isSectionHeader(next)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/**
+ * Per-line double spacing: most non-header lines are immediately followed by a blank.
+ */
+function sourceUsesPerLineDoubleSpacing(lines) {
+  const source = Array.isArray(lines) ? lines : [];
+  let followedByBlank = 0;
+  let followedByNonempty = 0;
+  for (let i = 0; i < source.length - 1; i++) {
+    const line = String(source[i] == null ? '' : source[i]).trim();
+    if (!line || isSectionHeader(line)) continue;
+    const next = String(source[i + 1] == null ? '' : source[i + 1]).trim();
+    if (!next) followedByBlank += 1;
+    else followedByNonempty += 1;
+  }
+  if (followedByBlank < 2) return false;
+  // Three or more line-blank pairs suggests multi-line stanzas doubled per line.
+  if (followedByBlank >= 3) return true;
+  // Two line-blank pairs with no consecutive lines is usually separate one-line verses.
+  if (followedByBlank === 2 && followedByNonempty === 0) return false;
+  return followedByBlank > followedByNonempty;
+}
+
+/**
+ * Whether single blank lines are soft spacing inside a verse rather than stanza breaks.
+ */
+export function shouldSoftJoinSingleBlanks(lines) {
+  const source = Array.isArray(lines) ? lines : [];
+  if (sourceUsesDoubleBlankStanzas(source)) return true;
+  if (hasConsecutiveNonemptyLyricLines(source)) return false;
+  return sourceUsesPerLineDoubleSpacing(source);
+}
+
+/**
  * Split an array of lines into blocks.
  * When the sheet uses double blank lines between stanzas, a single blank is
  * treated as soft spacing inside a verse (dropped). Otherwise any blank still
@@ -738,7 +788,7 @@ function sourceUsesDoubleBlankStanzas(lines) {
  */
 export function splitIntoBlocks(lines) {
   const source = Array.isArray(lines) ? lines : [];
-  const softSingleBlanks = sourceUsesDoubleBlankStanzas(source);
+  const softSingleBlanks = shouldSoftJoinSingleBlanks(source);
   const blocks = [];
   let current = [];
   let blankRun = 0;
@@ -785,6 +835,47 @@ export function coalesceSectionHeaderBlocks(blocks) {
     }
   }
   return merged;
+}
+
+/**
+ * Attach chord-only rows to the nearest lyric block so they do not stand alone.
+ */
+export function mergeChordOnlyRowsIntoBlocks(blocks) {
+  const source = Array.isArray(blocks) ? blocks : [];
+  const result = [];
+
+  function blockIsChordOnly(lines) {
+    const body = (Array.isArray(lines) ? lines : []).filter(function(line) {
+      return String(line || '').trim().length > 0 && !isSectionHeader(line);
+    });
+    if (!body.length) return false;
+    return body.every(function(line) {
+      const classified = classifyLyricChordLines([line])[0];
+      return classified && classified.type === 'chord';
+    });
+  }
+
+  source.forEach(function(block) {
+    const lines = Array.isArray(block) ? block.slice() : [];
+    if (!lines.length) return;
+    if (blockIsChordOnly(lines) && result.length > 0) {
+      const prev = result[result.length - 1];
+      lines.forEach(function(line) {
+        if (String(line || '').trim()) prev.push(line);
+      });
+      return;
+    }
+    result.push(lines);
+  });
+
+  for (let i = 0; i < result.length - 1; i++) {
+    if (!blockIsChordOnly(result[i])) continue;
+    result[i + 1] = result[i].concat(result[i + 1]);
+    result.splice(i, 1);
+    i -= 1;
+  }
+
+  return result;
 }
 
 /**
@@ -879,7 +970,9 @@ export function splitEmbeddedRepeatedStanzas(blocks) {
 
 export function normalizeLyricBlocks(lyricLines) {
   return splitEmbeddedRepeatedStanzas(splitBlocksOnInteriorHeaders(
-    coalesceSectionHeaderBlocks(splitIntoBlocks(lyricLines))
+    mergeChordOnlyRowsIntoBlocks(
+      coalesceSectionHeaderBlocks(splitIntoBlocks(lyricLines))
+    )
   ));
 }
 
@@ -1269,7 +1362,11 @@ export function isLeadingTitleComposerLine(line, options) {
   if (title && composer) {
     return normalized.indexOf(title) !== -1 && normalized.indexOf(composer) !== -1;
   }
-  if (title && normalized === title) return true;
+  if (title && normalized === title) {
+    const blockLines = options && options.firstBlockLineCount;
+    if (typeof blockLines === 'number' && blockLines > 1) return false;
+    return true;
+  }
   return false;
 }
 
@@ -1901,7 +1998,9 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   if (rawBlocks.length > 0 && rawBlocks[0].length > 0) {
     const firstLine = rawBlocks[0][0];
     const nextLine = rawBlocks[0][1] || (rawBlocks[1] && rawBlocks[1][0]) || '';
-    const likelyPreface = isLeadingTitleComposerLine(firstLine, options)
+    const likelyPreface = isLeadingTitleComposerLine(firstLine, Object.assign({}, options, {
+      firstBlockLineCount: rawBlocks[0].length,
+    }))
       || (!options && rawBlocks[0].length === 1 && !isSectionHeader(firstLine) && isSectionHeader(nextLine));
     if (likelyPreface) {
       prefaceLines.push(firstLine);

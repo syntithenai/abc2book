@@ -14,6 +14,7 @@ import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 import { saveBlobToDevice } from './nativeFileSave'
 
 export const TUNE_DOWNLOAD_FORMATS = [
+  { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file (.abc)' },
   { id: 'csv', label: 'CSV', icon: 'filelist', description: 'Spreadsheet metadata export' },
   { id: 'json', label: 'JSON', icon: 'stack', description: 'Tune data as JSON' },
   { id: 'midi', label: 'MIDI', icon: 'midi', description: 'Generated MIDI playback' },
@@ -280,6 +281,18 @@ async function downloadLinkedAudioForTune(tune, tunebook, token, formatId) {
   }
 }
 
+function reportDownloadProgress(options, current, total, message) {
+  if (!options || typeof options.onProgress !== 'function') return
+  const safeTotal = total > 0 ? total : 0
+  const safeCurrent = current > 0 ? current : 0
+  options.onProgress({
+    current: safeCurrent,
+    total: safeTotal,
+    percent: safeTotal > 0 ? Math.round((safeCurrent / safeTotal) * 100) : 0,
+    message: message || '',
+  })
+}
+
 export async function executeTuneDownload(formatId, options) {
   var tunes = Array.isArray(options.tunes) ? options.tunes.filter(Boolean) : []
   var tunebook = options.tunebook
@@ -287,6 +300,11 @@ export async function executeTuneDownload(formatId, options) {
   var utils = tunebook.utils
   var abcTools = tunebook.abcTools
   var token = options.token
+  var onOpenQueue = options.onOpenQueue
+
+  function progressAt(index, total, label) {
+    reportDownloadProgress(options, index + 1, total, label + ' ' + (index + 1) + ' of ' + total)
+  }
 
   if (!tunes.length) {
     throw new Error('No tunes selected for download')
@@ -320,6 +338,7 @@ export async function executeTuneDownload(formatId, options) {
     case 'midi-notation': {
       var notationFriendly = formatId === 'midi-notation'
       for (var midiIndex = 0; midiIndex < tunes.length; midiIndex++) {
+        progressAt(midiIndex, tunes.length, 'Downloading MIDI')
         tunebook.downloadMidi(tunes[midiIndex], { notationFriendly: notationFriendly })
         if (midiIndex < tunes.length - 1) {
           await pauseBetweenDownloads(350)
@@ -332,6 +351,7 @@ export async function executeTuneDownload(formatId, options) {
         throw new Error('MuseScore export needs a media resolver for MIDI to MusicXML conversion.')
       }
       for (var xmlIndex = 0; xmlIndex < tunes.length; xmlIndex++) {
+        progressAt(xmlIndex, tunes.length, 'Exporting MuseScore')
         await downloadMusicXmlForTune(tunes[xmlIndex], tunebook, token)
         if (xmlIndex < tunes.length - 1) {
           await pauseBetweenDownloads(500)
@@ -353,13 +373,31 @@ export async function executeTuneDownload(formatId, options) {
         throw new Error('No linked media or notation audio was found on the selected tune(s).')
       }
       const audioFormat = linkedAudioDownloadFormat(formatId)
-      for (var linkedIndex = 0; linkedIndex < linkedTunes.length; linkedIndex++) {
-        await downloadLinkedAudioForTune(linkedTunes[linkedIndex], tunebook, token, formatId)
-        if (linkedIndex < linkedTunes.length - 1) {
-          await pauseBetweenDownloads(500)
+      if (linkedTunes.length > 1) {
+        const mediaCacheQueue = await import('./mediaCacheQueue')
+        const { showAudioExportStartToast } = await import('./audioExportDownloadToast')
+        const tunebookAdapter = {
+          utils: tunebook.utils,
+          getGoogleAccessToken: function() {
+            return token && token.access_token ? token.access_token : null
+          },
         }
+        const jobIds = mediaCacheQueue.enqueueTunesDownloadJobs(linkedTunes, tunebookAdapter, null, formatId)
+        if (!jobIds.length) {
+          throw new Error('Could not queue audio downloads for the selected tunes.')
+        }
+        showAudioExportStartToast({ tuneName: linkedTunes.length + ' tunes', processed: false })
+        mediaCacheQueue.start()
+        reportDownloadProgress(options, linkedTunes.length, linkedTunes.length, 'Queued audio downloads')
+        if (typeof onOpenQueue === 'function') {
+          onOpenQueue()
+        }
+      } else if (linkedTunes.length === 1) {
+        progressAt(0, 1, 'Downloading audio')
+        await downloadLinkedAudioForTune(linkedTunes[0], tunebook, token, formatId)
       }
       for (var notationIndex = 0; notationIndex < notationTunes.length; notationIndex++) {
+        progressAt(notationIndex, notationTunes.length, 'Exporting notation audio')
         await downloadNotationAudioForTune(notationTunes[notationIndex], tunebook, audioFormat)
         if (notationIndex < notationTunes.length - 1) {
           await pauseBetweenDownloads(500)
@@ -368,13 +406,17 @@ export async function executeTuneDownload(formatId, options) {
       return
     }
     case 'chordpro': {
+      var chordproTunes = tunes.filter(function(tune) { return tuneHasChordSheetContent(tune) })
+      var chordproIndex = 0
       for (var choIndex = 0; choIndex < tunes.length; choIndex++) {
         var choTune = tunes[choIndex]
         if (!tuneHasChordSheetContent(choTune)) continue
+        progressAt(chordproIndex, chordproTunes.length, 'Downloading ChordPro')
         utils.download(
           sanitizeDownloadFilename(choTune.name, 'tune') + '.cho',
           exportTuneToChordPro(choTune)
         )
+        chordproIndex += 1
         if (choIndex < tunes.length - 1) {
           await pauseBetweenDownloads(350)
         }
@@ -382,13 +424,17 @@ export async function executeTuneDownload(formatId, options) {
       return
     }
     case 'onsong': {
+      var onsongTunes = tunes.filter(function(tune) { return tuneHasChordSheetContent(tune) })
+      var onsongProgressIndex = 0
       for (var onsongIndex = 0; onsongIndex < tunes.length; onsongIndex++) {
         var onsongTune = tunes[onsongIndex]
         if (!tuneHasChordSheetContent(onsongTune)) continue
+        progressAt(onsongProgressIndex, onsongTunes.length, 'Downloading OnSong')
         utils.download(
           sanitizeDownloadFilename(onsongTune.name, 'tune') + '.onsong',
           exportTuneToOnSong(onsongTune)
         )
+        onsongProgressIndex += 1
         if (onsongIndex < tunes.length - 1) {
           await pauseBetweenDownloads(350)
         }

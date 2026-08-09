@@ -26,6 +26,8 @@ export default function MediaPlaybackSettingsTabs({
   tunes,
   onPlaylistCleared,
   elevatedPlaylistModal,
+  token = null,
+  login = null,
 }) {
   const showPlaylistTab = isQueueActive(nowPlayingQueue)
     && Array.isArray(nowPlayingQueue.items)
@@ -251,6 +253,9 @@ export default function MediaPlaybackSettingsTabs({
               linkIndex={loopLinkIndex}
               disabled={!loopTabEnabled}
               disabledMessage="Choose media to loop"
+              token={token}
+              login={login}
+              dialogZIndex={elevatedPlaylistModal ? 1300 : undefined}
             />
           </Tab>
         ) : null}

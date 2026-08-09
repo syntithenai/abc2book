@@ -43,8 +43,18 @@ function idsFromIndex(index, keys) {
 
 function idsForBook(bookIndex, bookName) {
   if (!bookName || !bookIndex) return null
-  const bucket = bookIndex[bookName]
-  return Array.isArray(bucket) ? bucket.slice() : []
+  const trimmed = String(bookName).trim()
+  if (!trimmed) return null
+  if (Array.isArray(bookIndex[trimmed])) return bookIndex[trimmed].slice()
+  const lower = trimmed.toLowerCase()
+  const keys = Object.keys(bookIndex)
+  for (let i = 0; i < keys.length; i += 1) {
+    const key = keys[i]
+    if (key.toLowerCase() === lower && Array.isArray(bookIndex[key])) {
+      return bookIndex[key].slice()
+    }
+  }
+  return []
 }
 
 function idsForTags(tagIndex, tagFilters) {

@@ -266,6 +266,12 @@ export default function ChordsPage(props) {
           <div style={{minWidth:'400px', float:'left'}} ref={chordsRef} id="chords" ></div>
           <div style={{ float:'left',marginTop:'1em'}} >{(secondaries && secondaries.length > 0) && <h3>{secondaryHeading}</h3>}<div ref={schordsRef} id="secondarychords" ></div></div>
         </div>
+        <div
+          style={{ clear: 'both', paddingBottom: 'calc(var(--app-playlist-transport-offset, 0px) + 1rem)' }}
+          aria-hidden="true"
+        >
+          <br/><br/><br/>
+        </div>
     </div>
       
 }      

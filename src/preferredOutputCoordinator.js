@@ -18,6 +18,7 @@ import {
   isCloudLightResolverBase,
   resolveSnapcastPlaybackBase,
 } from './mediaProxyClient';
+import { isRemoteOutputUiEnabled } from './remoteOutputUi';
 
 function candidateSupportsSnapcastPlayback(candidate) {
   return !!(candidate
@@ -87,6 +88,7 @@ export function createPreferredOutputCoordinator({
   }
 
   async function tryRouteOnPlay(playOpts) {
+    if (!isRemoteOutputUiEnabled()) return false;
     if (!getSnapcastOutputEnabled()) return false;
     if (!isSnapcastPreferredOutput()) return false;
     if (!mediaController) return false;

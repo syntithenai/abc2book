@@ -414,6 +414,16 @@ class BillingEstimatesTests(unittest.TestCase):
 
         self.assertIn("tts_speech", OPERATION_CATALOG)
 
+    def test_score_convert_operations_in_catalog(self):
+        from billing_estimates import OPERATION_CATALOG, estimate_operation_millicents
+
+        self.assertIn("midi_import", OPERATION_CATALOG)
+        self.assertIn("score_file_convert", OPERATION_CATALOG)
+        midi_est = estimate_operation_millicents("midi_import", {"file_bytes": 1024, "response_bytes": 2048})
+        score_est = estimate_operation_millicents("score_file_convert", {"file_bytes": 1024, "response_bytes": 2048})
+        self.assertGreater(midi_est, 0)
+        self.assertGreater(score_est, 0)
+
 
 class BillingAdminRouteTests(unittest.TestCase):
     def setUp(self):
@@ -733,6 +743,57 @@ class BillingPaymentMethodTests(unittest.TestCase):
 
         self.assertEqual(result["total"], 2)
         self.assertEqual(result["accounts"][0]["email"], "beta@example.com")
+
+
+class BillingTrialProvisioningTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.db_path = os.path.join(self.tmp.name, "billing.sqlite")
+        self.env = patch.dict(
+            os.environ,
+            {
+                "BILLING_ENABLED": "true",
+                "BILLING_STORE": "sqlite",
+                "BILLING_DB_PATH": self.db_path,
+                "BILLING_TRIAL_CREDIT_CENTS": "30",
+            },
+            clear=False,
+        )
+        self.env.start()
+        billing.BILLING_ENABLED = True
+        billing.BILLING_STORE = "sqlite"
+        billing.BILLING_DB_PATH = self.db_path
+        billing._db_initialized = False
+        billing._firestore_client = None
+        billing_rates.TRIAL_CREDIT_CENTS = 30.0
+        billing.ensure_db()
+
+    def tearDown(self):
+        self.env.stop()
+        self.tmp.cleanup()
+
+    def test_ensure_user_billing_grants_trial_and_creates_account(self):
+        email = "new-user@example.com"
+        self.assertIsNone(billing.get_account(email))
+
+        result = billing.ensure_user_billing(email)
+        self.assertTrue(result.get("granted"))
+        self.assertEqual(billing.get_balance_cents(email), 30.0)
+
+        account = billing.get_account(email)
+        self.assertIsNotNone(account)
+        self.assertTrue(account["trial_granted"])
+
+        listed = billing.list_accounts(query=email)
+        self.assertEqual(listed["total"], 1)
+        self.assertEqual(listed["accounts"][0]["email"], email)
+
+    def test_billing_health_fields_provisions_trial_for_new_user(self):
+        email = "health-user@example.com"
+        fields = billing.billing_health_fields(email)
+        self.assertTrue(fields["billingEnabled"])
+        self.assertEqual(fields["creditBalanceCents"], 30.0)
+        self.assertIsNotNone(billing.get_account(email))
 
 
 if __name__ == "__main__":

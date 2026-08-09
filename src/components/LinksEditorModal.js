@@ -6,21 +6,48 @@ import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
 export default function LinksEditorModal(props) {
     var {tunebook, tune, onChange} = props
-  const [show, setShow] = useState(false);
+  const isControlled = typeof props.show === 'boolean'
+  const [internalShow, setInternalShow] = useState(false)
+  const visible = isControlled ? props.show : internalShow
   const responsiveModalProps = useResponsiveModalProps();
   var [links, setLinks] = useState(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
   // Freeze the tune for the whole edit session so navigation while the modal is
   // open cannot apply these links to a different tune on close (or via auto-scan).
   const [editingTune, setEditingTune] = useState(null)
   const linksRef = useRef(links)
+  const openedSessionRef = useRef(false)
   linksRef.current = links
 
+  function setVisible(next) {
+    if (isControlled) {
+      if (props.onShowChange) props.onShowChange(next)
+      return
+    }
+    setInternalShow(next)
+  }
+
+  function snapshotTune(sourceTune) {
+    return sourceTune
+      ? Object.assign({}, sourceTune, {
+          links: Array.isArray(sourceTune.links)
+            ? sourceTune.links.map(function(link) { return Object.assign({}, link) })
+            : [],
+        })
+      : null
+  }
+
+  function beginEditSession(sourceTune) {
+    const snapshot = snapshotTune(sourceTune)
+    setEditingTune(snapshot)
+    setLinks(snapshot && Array.isArray(snapshot.links) ? JSON.stringify(snapshot.links) : '[]')
+  }
 
   const handleClose = () => {
-      setShow(false);
+      setVisible(false);
       const targetTune = editingTune
       const targetId = targetTune && targetTune.id
       setEditingTune(null)
+      openedSessionRef.current = false
       if (!targetId || !onChange) return
       try {
         onChange(JSON.parse(linksRef.current), targetId)
@@ -29,31 +56,34 @@ export default function LinksEditorModal(props) {
       }
   }
   const handleShow = () => {
-      const t = props.tune
-      const snapshot = t
-        ? Object.assign({}, t, {
-            links: Array.isArray(t.links) ? t.links.map(function(link) { return Object.assign({}, link) }) : [],
-          })
-        : null
-      setEditingTune(snapshot)
-      setLinks(snapshot && Array.isArray(snapshot.links) ? JSON.stringify(snapshot.links) : '[]')
-      setShow(true);
+      beginEditSession(props.tune)
+      setVisible(true);
   }
 
   useEffect(function() {
-    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(show)
+    if (!visible) {
+      openedSessionRef.current = false
+      return
+    }
+    if (!isControlled || openedSessionRef.current) return
+    openedSessionRef.current = true
+    beginEditSession(props.tune)
+  }, [visible, isControlled, props.tune, props.tune && props.tune.id])
+
+  useEffect(function() {
+    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(visible)
     return function() {
       if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
     }
-  }, [show, props.setBlockKeyboardShortcuts]);
+  }, [visible, props.setBlockKeyboardShortcuts]);
 
     useEffect(function() {
-      if (!show) {
+      if (!visible) {
         setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
       }
-  },[props.tune, show])
+  },[props.tune, visible])
 
-  const activeTune = show && editingTune ? editingTune : tune
+  const activeTune = visible && editingTune ? editingTune : tune
   const linkCount = (function() {
     try {
       return JSON.parse(links).length
@@ -64,11 +94,12 @@ export default function LinksEditorModal(props) {
 
   return (
     <>
-        
-      <Button className="tune-meta-modal-btn" aria-label="Media" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
+      {!props.hideTrigger ? (
+        <Button className="tune-meta-modal-btn" aria-label="Media" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
+      ) : null}
 
       <Modal
-        show={show}
+        show={visible}
         onHide={handleClose}
         size="xl"
         dialogClassName="links-editor-modal-dialog"
@@ -80,7 +111,7 @@ export default function LinksEditorModal(props) {
         <Modal.Body>
             <div  >
                 <LinksEditor
-                    isOpen={show}
+                    isOpen={visible}
                     mediaController={props.mediaController}
                     onChange={function(nextLinks) {
                         setLinks(JSON.stringify(nextLinks))

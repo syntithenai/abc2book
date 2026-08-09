@@ -27,6 +27,8 @@ import {
   initDraftFromProfile,
   sortTracksByNoteCount,
 } from '../midiImportWizardState';
+import { useScoreConvertAffordance, scoreConvertCreditMessage } from '../scoreConvertAffordance';
+import useMediaResolverHealth from '../useMediaResolverHealth';
 import './MidiImportWizard.css';
 
 const STEPS = [
@@ -586,6 +588,14 @@ export default function MidiImportWizard(props) {
   const [draft, setDraft] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const { status } = useMediaResolverHealth();
+  const billingEnabled = !!(status && status.billingEnabled);
+  const creditAffordance = useScoreConvertAffordance(
+    props.accessToken,
+    'midi_import',
+    !!props.accessToken && billingEnabled
+  );
+  const creditMessage = scoreConvertCreditMessage(creditAffordance, 'MIDI import');
 
   useEffect(function() {
     if (!show) return;
@@ -715,6 +725,10 @@ export default function MidiImportWizard(props) {
   }
 
   function handleContinue() {
+    if (creditAffordance.blocked && (activeStep === 'interpret' || activeStep === 'preview')) {
+      setError(creditMessage || 'Insufficient resolver credit for MIDI import.');
+      return;
+    }
     if (activeStep === 'tracks') {
       setActiveStep('cleanup');
       return;
@@ -742,7 +756,7 @@ export default function MidiImportWizard(props) {
           setActiveStep(STEPS[stepIndex - 1].key);
         }}>Back</Button>
       ) : null}
-      <Button variant="primary" size="sm" disabled={loading || !draft} onClick={handleContinue}>
+      <Button variant="primary" size="sm" disabled={loading || !draft || creditAffordance.blocked} onClick={handleContinue}>
         {loading ? <Spinner animation="border" size="sm" /> : null}
         {activeStep === 'preview' ? 'Import' : 'Continue'}
       </Button>
@@ -785,6 +799,9 @@ export default function MidiImportWizard(props) {
             <div className="text-center py-4"><Spinner animation="border" /> Analyzing MIDI…</div>
           ) : null}
           {error ? <Alert variant="danger">{error}</Alert> : null}
+          {creditMessage && !error ? (
+            <Alert variant={creditAffordance.blocked ? 'warning' : 'info'}>{creditMessage}</Alert>
+          ) : null}
           {draft && activeStep === 'tracks' ? <TrackMapStep draft={draft} onChange={setDraft} /> : null}
           {draft && activeStep === 'cleanup' ? (
             <CleanupStep draft={draft} onChange={setDraft} onContinue={function() { setActiveStep('interpret'); }} />

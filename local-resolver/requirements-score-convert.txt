@@ -1,0 +1,5 @@
+# Score-convert sidecar: MuseScore CLI + music21 MIDI orchestrator.
+fastapi>=0.110,<1
+uvicorn[standard]>=0.27,<1
+python-multipart>=0.0.9
+music21>=9,<10

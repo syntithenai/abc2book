@@ -52,7 +52,7 @@ async def resolve_session_audio_bytes(
     proxy: str | None,
 ) -> tuple[bytes, str]:
     source_type = str(source_type or "").strip().lower()
-    if source_type in ("abc-midi", "abc", "notation-midi") or body.get("midiBase64"):
+    if source_type in ("abc-midi", "abc", "notation-midi", "midifile", "midi") or body.get("midiBase64"):
         if not remote_playback_render_enabled():
             raise HTTPException(status_code=503, detail="MIDI render is not available")
         midi_bytes = decode_midi_base64(body)

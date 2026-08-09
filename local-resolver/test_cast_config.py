@@ -11,11 +11,27 @@ class CastConfigTests(unittest.TestCase):
         with mock.patch.dict(os.environ, {"CAST_PUBLIC_URL": "https://example.com"}, clear=False):
             self.assertEqual(cast_public_url(), "https://example.com")
 
-    def test_build_cast_public_base_uses_request_host(self):
+    def test_cast_public_url_defaults_to_resolver_domain(self):
+        with mock.patch.dict(
+            os.environ,
+            {"CAST_PUBLIC_URL": "", "RESOLVER_DOMAIN": "peppertrees.example.com"},
+            clear=False,
+        ):
+            self.assertEqual(cast_public_url(), "https://peppertrees.example.com")
+
+    def test_cast_public_url_defaults_to_peppertrees(self):
+        with mock.patch.dict(os.environ, {"CAST_PUBLIC_URL": "", "RESOLVER_DOMAIN": ""}, clear=False):
+            self.assertEqual(cast_public_url(), "https://peppertrees.syntithenai.com")
+
+    def test_build_cast_public_base_uses_cast_public_url_default(self):
         request = mock.Mock()
-        request.headers = {"host": "peppertrees.example.com"}
-        request.url = mock.Mock(scheme="https")
-        with mock.patch.dict(os.environ, {"CAST_PUBLIC_URL": ""}, clear=False):
+        request.headers = {"host": "localhost:8787"}
+        request.url = mock.Mock(scheme="http")
+        with mock.patch.dict(
+            os.environ,
+            {"CAST_PUBLIC_URL": "", "RESOLVER_DOMAIN": "peppertrees.example.com"},
+            clear=False,
+        ):
             self.assertEqual(
                 build_cast_public_base(request),
                 "https://peppertrees.example.com",

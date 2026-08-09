@@ -410,6 +410,26 @@ class LyricsFetchTests(unittest.TestCase):
         import asyncio
         asyncio.run(run())
 
+    def test_finalize_lyrics_lines_groups_per_line_double_spacing(self):
+        raw = [
+            "There were rooms of forgiveness",
+            "",
+            "In the house that we share",
+            "",
+            "But the space has been emptied",
+            "",
+            "Of whatever was there",
+            "",
+            "[Chorus]",
+            "",
+            "After today, consider me gone",
+        ]
+        stanzas, flat_lines, text = finalize_lyrics_lines(raw)
+        self.assertEqual(len(stanzas), 2)
+        self.assertEqual(len(stanzas[0]), 4)
+        self.assertEqual(stanzas[1][0], "[Chorus]")
+        self.assertIn("After today", stanzas[1][1])
+
 
 if __name__ == "__main__":
     unittest.main()

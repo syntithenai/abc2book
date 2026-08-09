@@ -7,6 +7,8 @@ import useAbcjsParser from '../useAbcjsParser';
 import { resolvePrintViewMode } from '../printTuneViewMode';
 import { generateTunesPdf } from '../generateTunesPdf';
 import { useDocumentTitle } from '../pageTitle';
+import SearchProgressBar from '../components/SearchProgressBar';
+import { buildBulkProgressEvent } from '../bulkOperationProgress';
 
 function sanitizeFilename(name) {
   const base = String(name || 'tunes').trim() || 'tunes';
@@ -39,6 +41,7 @@ export default function PrintPage(props) {
   const [generating, setGenerating] = useState(false);
   const [renderForPdf, setRenderForPdf] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
+  const [pdfProgress, setPdfProgress] = useState(buildBulkProgressEvent(0, 0, ''));
 
   const goBack = useCallback(function() {
     if (window.history.length > 1) {
@@ -126,7 +129,11 @@ export default function PrintPage(props) {
       if (!host) {
         throw new Error('Print layout failed to render.');
       }
-      await generateTunesPdf(host, pdfFilename);
+      await generateTunesPdf(host, pdfFilename, {
+        onProgress: function(event) {
+          setPdfProgress(event)
+        },
+      });
       setShow(false);
       goBack();
     } catch (err) {
@@ -159,6 +166,16 @@ export default function PrintPage(props) {
             </Form>
           )}
           {errorMessage ? <Alert variant="danger" className="mt-3 mb-0">{errorMessage}</Alert> : null}
+          {generating && pdfProgress.total > 0 ? (
+            <div className="mt-3">
+              <SearchProgressBar
+                visible={true}
+                percent={pdfProgress.percent}
+                message={pdfProgress.message}
+                defaultMessage="Preparing print…"
+              />
+            </div>
+          ) : null}
           <div style={{ marginTop: '2em', paddingBottom: '1em' }}>
             <Button
               key="create-pdf"

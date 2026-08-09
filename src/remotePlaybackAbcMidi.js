@@ -1,3 +1,5 @@
+import { normalizeMidiBinaryData } from './midiFileUtils';
+
 function bytesToBase64(bytes) {
   if (!bytes) return '';
   if (typeof bytes === 'string') return bytes;
@@ -13,8 +15,8 @@ function bytesToBase64(bytes) {
 export function exportAbcMidiBase64(tune, tunebook) {
   if (!tune || !tunebook || typeof tunebook.getMidiData !== 'function') return null;
   const midi = tunebook.getMidiData(tune, 'binary');
-  if (!midi) return null;
-  const bytes = midi instanceof Uint8Array ? midi : new Uint8Array(midi);
+  const bytes = normalizeMidiBinaryData(midi);
+  if (!bytes) return null;
   return bytesToBase64(bytes);
 }
 

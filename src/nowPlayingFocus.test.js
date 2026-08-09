@@ -68,6 +68,11 @@ function makeMediaController(overrides) {
     isPlaying: true,
     isLoading: false,
     mediaLinkNumber: null,
+    duration: 100,
+    currentTime: 10,
+    getPlaybackProgress: function() {
+      return { currentTime: 10, duration: 100, ratio: 0.1 }
+    },
     getSrc: jest.fn(),
     getSrcType: jest.fn(),
   }, overrides || {})
@@ -243,6 +248,7 @@ describe('now playing focus entry points', function() {
 
     expect(container.querySelector('[data-testid="now-playing-pause-button"]')).toBeTruthy()
     expect(container.querySelector('[data-testid="now-playing-play-button"]')).toBeFalsy()
+    expect(container.querySelector('[data-testid="media-seek-slider"]')).toBeTruthy()
   })
 
   test('playlist-focus fullscreen play button shows waiting while loading', function() {

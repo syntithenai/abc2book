@@ -100,7 +100,15 @@ function ImportFileModal(props) {
   }
 
   function doImportAbc(abcText) {
-    const importResults = props.tunebook.importAbc(abcText, props.currentTuneBook)
+    const importResults = props.tunebook.importAbc(
+      abcText,
+      props.currentTuneBook,
+      null,
+      null,
+      null,
+      null,
+      { personalFieldPolicy: 'full' }
+    )
     finishImport(importResults)
   }
 

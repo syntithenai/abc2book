@@ -11,6 +11,7 @@ import {
   preparePlaylistMergeFromAbc,
 } from './playlistIncomingMergeUtils';
 import { buildMergedPlaylists, parsePlaylistsFromAbc } from './playlistSync';
+import { applyExternalSharePersonalFieldsToPlaylistStorage } from './shareImportPersonalFields';
 
 function playlistsMapWithIds(storageMap) {
   const withIds = {};
@@ -114,6 +115,12 @@ export function importSinglePlaylistFromAbc(abcText, playlistId) {
     if (!mergeResult.changed) {
       return { changed: false };
     }
+
+    applyExternalSharePersonalFieldsToPlaylistStorage(
+      mergeResult.storagePlaylists,
+      playlistId,
+      localStoragePlaylists
+    );
 
     writePlaylistsMap(mergeResult.storagePlaylists);
     writeDeletedPlaylists(mergeResult.mergedDeleted);

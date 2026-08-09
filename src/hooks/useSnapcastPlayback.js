@@ -10,6 +10,7 @@ import {
   seekSnapcastSession,
 } from '../snapcastPlaybackClient';
 import { enrichPayloadWithYoutubeAudioPrefetch } from '../youtubeRemoteAudioPrefetch';
+import { enrichPayloadWithMidiPrefetch } from '../midiRemotePrefetch';
 import { normalizeRemotePlaybackPayload } from '../youtubePlaybackUri';
 
 const POLL_MS = 1000;
@@ -152,6 +153,7 @@ export default function useSnapcastPlayback({ mediaController, snapcastControl }
         if (sessionPayload.sourceType === 'youtube') {
           sessionPayload = await enrichPayloadWithYoutubeAudioPrefetch(sessionPayload, youtubeGetId);
         }
+        sessionPayload = await enrichPayloadWithMidiPrefetch(sessionPayload, mediaController);
       }
       return createSnapcastPlaybackSession(sessionPayload);
     }

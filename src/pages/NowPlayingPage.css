@@ -109,6 +109,23 @@
   border-radius: 0.375rem;
 }
 
+.now-playing-page-media-sources-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.now-playing-page-media-sources-header .now-playing-page-media-sources-picker {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.now-playing-page-media-sources-add {
+  flex: 0 0 auto;
+  margin-left: auto;
+  line-height: 1;
+}
+
 .now-playing-page-media-sources-picker.media-source-both {
   display: flex;
   flex-direction: column;
@@ -233,6 +250,10 @@
   width: 100%;
 }
 
+.now-playing-page-title-row .now-playing-page-seek-row--title {
+  align-self: stretch;
+}
+
 .now-playing-page-seek-row-controls {
   display: flex;
   align-items: center;
@@ -320,9 +341,33 @@
 .now-playing-page-volume.playback-volume-slider {
   flex: 0 1 auto;
   min-width: 0;
-  max-width: 9rem;
+  max-width: none;
   margin-left: 0;
   align-self: center;
+}
+
+.now-playing-page-audio-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  align-self: center;
+  width: 100%;
+}
+
+.now-playing-page-audio-controls .output-device-picker--inline {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.now-playing-page-audio-controls .output-device-picker--inline .form-select {
+  max-width: 11rem;
+  min-width: 6.5rem;
+  flex: 0 1 auto;
 }
 
 .now-playing-page-volume .playback-volume-slider-input {
@@ -398,7 +443,12 @@
   }
 
   .now-playing-page-volume.playback-volume-slider {
-    max-width: 7rem;
+    max-width: none;
+  }
+
+  .now-playing-page-audio-controls .output-device-picker--inline .form-select {
+    max-width: 8.5rem;
+    min-width: 5.5rem;
   }
 
   .now-playing-page-volume .playback-volume-slider-input {

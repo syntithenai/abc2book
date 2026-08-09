@@ -1,0 +1,48 @@
+# MuseScore-backed score conversion sidecar for Cloud Run (internal only).
+FROM python:3.11-slim-bookworm
+
+WORKDIR /app
+
+ARG MUSESCORE_APPIMAGE_URL=https://github.com/musescore/MuseScore/releases/download/v4.4.3/MuseScore-Studio-4.4.3.242971445-x86_64.AppImage
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    wget \
+    unzip \
+    xvfb \
+    libgl1 \
+    libglib2.0-0 \
+    && wget -qO /tmp/musescore.AppImage "${MUSESCORE_APPIMAGE_URL}" \
+    && chmod +x /tmp/musescore.AppImage \
+    && cd /tmp && ./musescore.AppImage --appimage-extract \
+    && mv /tmp/squashfs-root /opt/musescore \
+    && ln -sf /opt/musescore/AppRun /usr/local/bin/mscore \
+    && ln -sf /opt/musescore/AppRun /usr/local/bin/musescore \
+    && rm -f /tmp/musescore.AppImage \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-score-convert.txt /app/requirements-score-convert.txt
+RUN pip install --no-cache-dir -r /app/requirements-score-convert.txt
+
+COPY musescore_convert.py /app/musescore_convert.py
+COPY midi_convert.py /app/midi_convert.py
+COPY midi_analysis.py /app/midi_analysis.py
+COPY midi_to_abc.py /app/midi_to_abc.py
+COPY midi_note_events.py /app/midi_note_events.py
+COPY midi_cleanup.py /app/midi_cleanup.py
+COPY midi_chord_infer.py /app/midi_chord_infer.py
+COPY midi_harmony_voice.py /app/midi_harmony_voice.py
+COPY midi_import_score.py /app/midi_import_score.py
+COPY midi_drum_map.py /app/midi_drum_map.py
+COPY midi_import_orchestrator.py /app/midi_import_orchestrator.py
+COPY chord_processing.py /app/chord_processing.py
+COPY score_convert_midi.py /app/score_convert_midi.py
+COPY subprocess_utils.py /app/subprocess_utils.py
+COPY server_score_convert.py /app/server_score_convert.py
+
+ENV PORT=8790
+ENV MAX_CONCURRENT_HEAVY_JOBS=1
+
+EXPOSE 8790
+
+CMD ["sh", "-c", "python3 -m uvicorn server_score_convert:app --host 0.0.0.0 --port ${PORT:-8790}"]

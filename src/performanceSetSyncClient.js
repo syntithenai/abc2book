@@ -11,6 +11,7 @@ import {
   preparePerformanceSetMergeFromAbc,
 } from './performanceSetIncomingMergeUtils';
 import { buildMergedPerformanceSets, parsePerformanceSetsFromAbc } from './performanceSetSync';
+import { applyExternalSharePersonalFieldsToSetStorage } from './shareImportPersonalFields';
 import { showPerformanceSetSyncToast } from './performanceSetSyncToast';
 
 function setsMapWithIds(storageMap) {
@@ -130,6 +131,12 @@ export function importSinglePerformanceSetFromAbc(abcText, setId) {
     if (!mergeResult.changed) {
       return { changed: false };
     }
+
+    applyExternalSharePersonalFieldsToSetStorage(
+      mergeResult.storageSets,
+      setId,
+      localStorageSets
+    );
 
     writePerformanceSetsMap(mergeResult.storageSets);
     writeDeletedPerformanceSets(mergeResult.mergedDeleted);

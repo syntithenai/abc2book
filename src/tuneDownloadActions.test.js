@@ -9,6 +9,7 @@ import {
   getTuneDownloadFormatsForContext,
   shouldShowRestrictedTuneDownloads,
   canShowRestrictedTuneDownloads,
+  executeTuneDownload,
 } from './tuneDownloadActions'
 import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
 
@@ -81,6 +82,12 @@ describe('tuneDownloadActions', function() {
     expect(getTuneDownloadStartToastMessage('midi', 1)).toContain('Starting MIDI download')
   })
 
+  test('lists ABC as the first download format', function() {
+    const formats = getTuneDownloadFormatsForContext({ allowRestrictedFormats: true })
+    expect(formats[0].id).toBe('abc')
+    expect(formats[0].label).toBe('ABC')
+  })
+
   test('hides audio download formats except for the download admin user', function() {
     const adminUser = { email: FEED_FEEDBACK_ADMIN_EMAIL }
     const otherUser = { email: 'someone@example.com' }
@@ -88,6 +95,7 @@ describe('tuneDownloadActions', function() {
     const guestFormats = getTuneDownloadFormatsForContext({ user: null })
     const bulkFormats = getTuneDownloadFormatsForContext({ allowRestrictedFormats: true })
 
+    expect(bulkFormats[0].id).toBe('abc')
     expect(adminFormats.some(function(format) { return format.id === 'linked-audio' })).toBe(true)
     expect(guestFormats.some(function(format) { return format.id === 'linked-audio' })).toBe(false)
     expect(getTuneDownloadFormatsForContext({ user: otherUser }).some(function(format) {
@@ -99,4 +107,42 @@ describe('tuneDownloadActions', function() {
     expect(shouldShowRestrictedTuneDownloads({ allowRestrictedFormats: true })).toBe(true)
     expect(shouldShowRestrictedTuneDownloads({ user: otherUser })).toBe(false)
   })
+
+  test('executeTuneDownload reports MIDI download progress per tune', async function() {
+    const downloadMidi = jest.fn()
+    const tunes = [
+      { id: 't1', name: 'Tune 1', notes: 'CDEF' },
+      { id: 't2', name: 'Tune 2', notes: 'GABc' },
+      { id: 't3', name: 'Tune 3', notes: 'defg' },
+    ]
+    const progressEvents = []
+
+    await executeTuneDownload('midi', {
+      tunes: tunes,
+      tunebook: {
+        downloadMidi: downloadMidi,
+        utils: {},
+        abcTools: {},
+      },
+      archiveBaseName: 'selected',
+      onProgress: function(event) {
+        progressEvents.push(event)
+      },
+    })
+
+    expect(downloadMidi).toHaveBeenCalledTimes(3)
+    expect(progressEvents).toHaveLength(3)
+    expect(progressEvents[0]).toEqual({
+      current: 1,
+      total: 3,
+      percent: 33,
+      message: 'Downloading MIDI 1 of 3',
+    })
+    expect(progressEvents[2]).toEqual({
+      current: 3,
+      total: 3,
+      percent: 100,
+      message: 'Downloading MIDI 3 of 3',
+    })
+  }, 10000)
 })

@@ -6,10 +6,15 @@ import { FormLabelWithHelp } from './FormFieldHelp'
 import { LINKS_FIELD_HELP } from '../formFieldHelpText'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { fetchDirectOrProxy } from '../mediaProxyClient'
+import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from '../externalMediaAudioCache'
 import {
-  isOwnedMediaLinkUri,
+  findCachedExternalMediaForLink,
+  isOwnedMediaLink,
+  parseRecordingIdFromLinkUri,
   resolveRecordingLinkAudio,
+  resolveTuneLinkCacheSrc,
 } from '../linkRecording'
+import { linkUriString } from '../tuneLinkUri'
 import useGoogleDocument from '../useGoogleDocument'
 import './LinkPlayRangeModal.css'
 
@@ -36,6 +41,24 @@ function formatClock(seconds) {
   const minutes = Math.floor(total / 60)
   const remainder = total % 60
   return minutes + ':' + String(remainder).padStart(2, '0')
+}
+
+function normalizePreviewLink(link) {
+  if (!link) return link
+  const uri = linkUriString(link).trim()
+  const recordingId = link.recordingId || parseRecordingIdFromLinkUri(uri)
+  return Object.assign({}, link, {
+    link: uri || link.link,
+    recordingId: recordingId || link.recordingId,
+  })
+}
+
+function shouldProxyAudioPreviewSrc(src, srcType) {
+  if (srcType !== 'audio') return false
+  const value = String(src || '').trim()
+  if (!value) return false
+  if (value.startsWith('blob:') || value.startsWith('data:')) return false
+  return value.startsWith('http://') || value.startsWith('https://')
 }
 
 function DualRangeSlider({ duration, startSeconds, endSeconds, onChangeStart, onChangeEnd, onSeek, disabled }) {
@@ -175,6 +198,7 @@ export default function LinkPlayRangeModal({
   token,
   login,
   icons,
+  dialogZIndex,
 }) {
   const driveDocs = useGoogleDocument(token, function() {})
   const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink
@@ -289,17 +313,22 @@ export default function LinkPlayRangeModal({
   }
 
   async function resolveAudioSrc(mediaLink, options) {
-    const src = String(mediaLink.link).trim()
-    const type = getLinkSrcType(mediaLink, isYoutubeLink)
+    const opts = options || {}
+    const linkForResolve = normalizePreviewLink(mediaLink)
+    const src = linkUriString(linkForResolve).trim()
+    const type = getLinkSrcType(linkForResolve, isYoutubeLink)
+    const tuneId = tune && tune.id
+
     if (type === 'recording') {
-      const tuneId = tune && tune.id
       if (!tuneId) {
         throw new Error('Save the tune before previewing recordings.')
       }
-      const resolved = await resolveRecordingLinkAudio(mediaLink, tuneId, linkIndex, {
+      const resolved = await resolveRecordingLinkAudio(linkForResolve, tuneId, linkIndex, {
         accessToken: token,
         driveApi: driveDocs,
         forPlayback: true,
+        tune: tune,
+        linkCount: tune.links ? tune.links.length : 0,
       })
       if (!resolved || !resolved.blob) {
         throw new Error('Recording is not available for preview.')
@@ -309,11 +338,33 @@ export default function LinkPlayRangeModal({
       blobUrlRef.current = blobUrl
       return blobUrl
     }
-    if (src.indexOf('data:audio/') === 0 || isOwnedMediaLinkUri(src) || src.indexOf('blob:') === 0) {
+
+    if (tuneId && src) {
+      const cacheSrc = resolveTuneLinkCacheSrc(tune, linkIndex) || src
+      const cached = isOwnedMediaLink(linkForResolve)
+        ? await findCachedExternalMediaForLink(
+          tuneId,
+          linkIndex,
+          linkForResolve,
+          tune.links ? tune.links.length : 0
+        )
+        : await getCachedExternalMediaBlob(getExternalMediaCacheKey(tuneId, linkIndex, cacheSrc))
+      if (cached && cached.blob) {
+        clearBlobUrl()
+        const blobUrl = URL.createObjectURL(cached.blob)
+        blobUrlRef.current = blobUrl
+        return blobUrl
+      }
+    }
+
+    if (src.indexOf('data:audio/') === 0 || src.indexOf('blob:') === 0) {
       return src
     }
-    if (!options || !options.forceFetch) {
+    if (!opts.forceFetch && !shouldProxyAudioPreviewSrc(src, type)) {
       return src
+    }
+    if (!src) {
+      throw new Error('Enter a media link first.')
     }
     const response = await fetchDirectOrProxy({
       src: src,
@@ -337,7 +388,7 @@ export default function LinkPlayRangeModal({
     let cancelled = false
 
     async function loadPreview() {
-      if (!link || !link.link || !String(link.link).trim()) {
+      if (!link || !linkUriString(link).trim()) {
         setWarning('Enter a media link first.')
         return
       }
@@ -354,7 +405,7 @@ export default function LinkPlayRangeModal({
 
       try {
         if (isYoutube) {
-          const videoId = youtubeGetId ? youtubeGetId(String(link.link).trim()) : null
+          const videoId = youtubeGetId ? youtubeGetId(linkUriString(link).trim()) : null
           if (!videoId) throw new Error('Invalid YouTube link.')
           if (!cancelled) {
             setAudioSrc(null)
@@ -387,7 +438,7 @@ export default function LinkPlayRangeModal({
     }
     // Intentionally re-run when the modal opens or the link URL/type changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [show, link && link.link, srcType, linkIndex])
+  }, [show, link && linkUriString(link), srcType, linkIndex])
 
   useEffect(function() {
     return function() {
@@ -551,12 +602,20 @@ export default function LinkPlayRangeModal({
 
   const playIcon = icons && (icons.play || icons.playwhite)
   const pauseIcon = icons && icons.pause
-  const title = (link && link.title && String(link.title).trim())
-    || (link && link.link && String(link.link).trim())
+  const previewLink = normalizePreviewLink(link)
+  const title = (previewLink && previewLink.title && String(previewLink.title).trim())
+    || linkUriString(previewLink).trim()
     || 'Link'
 
   return (
-    <Modal show={show} onHide={onHide} centered dialogClassName="link-play-range-modal-dialog">
+    <Modal
+      show={show}
+      onHide={onHide}
+      centered
+      dialogClassName="link-play-range-modal-dialog"
+      style={dialogZIndex ? { zIndex: dialogZIndex } : undefined}
+      backdropClassName={dialogZIndex ? 'link-play-range-modal-backdrop-elevated' : undefined}
+    >
       <Modal.Header closeButton>
         <Modal.Title>Play Range</Modal.Title>
       </Modal.Header>

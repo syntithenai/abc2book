@@ -5,6 +5,7 @@ import BookSelectorModal from './BookSelectorModal'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { detectScoreFormat, importMusicXmlText, importScoreFile } from '../scoreImportClient'
 import { openMidiImportWizard } from '../midiImportWizard'
+import { useScoreConvertAffordance, scoreConvertCreditMessage } from '../scoreConvertAffordance'
 
 const OFFLINE_ACCEPT = '.xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/xml'
 const MIDI_ACCEPT = ',.mid,.midi,audio/midi,audio/mid'
@@ -17,7 +18,14 @@ function ImportXmlModal(props) {
   const [statusText, setStatusText] = useState('');
   const [error, setError] = useState(null);
   const accessToken = props.token && props.token.access_token ? props.token.access_token : null
-  const { available: resolverAvailable } = useMediaResolverHealth()
+  const { available: resolverAvailable, status: resolverStatus } = useMediaResolverHealth()
+  const billingEnabled = !!(resolverStatus && resolverStatus.billingEnabled)
+  const scoreAffordance = useScoreConvertAffordance(
+    accessToken,
+    'score_file_convert',
+    billingEnabled && resolverAvailable
+  )
+  const scoreCreditMessage = scoreConvertCreditMessage(scoreAffordance, 'MuseScore file conversion')
   const scoreAccept = resolverAvailable ? OFFLINE_ACCEPT + MIDI_ACCEPT : OFFLINE_ACCEPT
   const handleClose = () => {
       setError(null)
@@ -52,7 +60,15 @@ function ImportXmlModal(props) {
     setStatusText('Converting MusicXML to ABC...')
     try {
       const result = importMusicXmlText(xmlText, 'pasted.musicxml')
-      const importResults = props.tunebook.importAbc(result.abc, props.currentTuneBook)
+      const importResults = props.tunebook.importAbc(
+        result.abc,
+        props.currentTuneBook,
+        null,
+        null,
+        null,
+        null,
+        { personalFieldPolicy: 'full' }
+      )
       finishImport(importResults)
     } catch (e) {
       setError(e.message || 'Import failed')
@@ -75,7 +91,15 @@ function ImportXmlModal(props) {
         throw new Error('MIDI import produced no notation')
       }
       setStatusText('Importing tunes...')
-      const importResults = props.tunebook.importAbc(abc, props.currentTuneBook)
+      const importResults = props.tunebook.importAbc(
+        abc,
+        props.currentTuneBook,
+        null,
+        null,
+        null,
+        null,
+        { personalFieldPolicy: 'full' }
+      )
       finishImport(importResults)
     }).catch(function(e) {
       if (e && e.message && e.message.indexOf('cancelled') === -1) {
@@ -87,11 +111,16 @@ function ImportXmlModal(props) {
   }
 
   function doImportFile(file) {
-    if (detectScoreFormat(file.name) === 'midi' && !resolverAvailable) {
+    const format = detectScoreFormat(file.name)
+    if (format === 'midi' && !resolverAvailable) {
       setError('MIDI import needs the media resolver. Log in with an authorized Google account and make sure the resolver is running.')
       return
     }
-    if (detectScoreFormat(file.name) === 'midi') {
+    if (format === 'mscx' && scoreAffordance.blocked) {
+      setError(scoreCreditMessage || 'Insufficient resolver credit for MuseScore file conversion.')
+      return
+    }
+    if (format === 'midi') {
       doImportMidiFile(file)
       return
     }
@@ -104,7 +133,15 @@ function ImportXmlModal(props) {
       onProgress: setStatusText,
     }).then(function(result) {
       setStatusText('Importing tunes...')
-      const importResults = props.tunebook.importAbc(result.abc, props.currentTuneBook)
+      const importResults = props.tunebook.importAbc(
+        result.abc,
+        props.currentTuneBook,
+        null,
+        null,
+        null,
+        null,
+        { personalFieldPolicy: 'full' }
+      )
       finishImport(importResults)
     }).catch(function(e) {
       setError(e.message || 'Import failed')
@@ -149,10 +186,15 @@ function ImportXmlModal(props) {
           </div>
           <textarea placeholder="Paste MusicXML text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both', marginTop:'0.5em'}} disabled={loading} />
           {error && <Alert variant="danger" style={{marginTop:'0.5em'}}>{error}</Alert>}
+          {scoreCreditMessage && billingEnabled && resolverAvailable ? (
+            <Alert variant={scoreAffordance.blocked ? 'warning' : 'info'} style={{marginTop:'0.5em'}}>
+              {scoreCreditMessage}
+            </Alert>
+          ) : null}
           <div style={{fontSize:'0.85em', color:'#444', marginTop:'0.5em'}}>
             {resolverAvailable
-              ? 'MIDI import uses the media resolver to convert MIDI to MusicXML, then to ABC. Results may be approximate.'
-              : 'MusicXML and MXL import work offline. MIDI import is unavailable until you log in and the media resolver is reachable.'}
+              ? 'MIDI and native MuseScore (.mscx) imports use the hosted resolver (MuseScore-backed) and consume resolver credit. MusicXML/MXL import works offline in the browser.'
+              : 'MusicXML and MXL import work offline. MIDI and native MuseScore imports need the media resolver.'}
           </div>
         </Modal.Body>
       </Modal>

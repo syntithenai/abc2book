@@ -1,5 +1,6 @@
 import { classifyLyricChordLines, charOffsetToWordIndex, wrapChordGridBars } from './chordSheetUtils'
 import { normalizeLyricStructure } from './lyricStructureUtils'
+import { anchorsFromCowPair } from './inlineChordTimingUtils'
 
 function mapLyricTokens(lyricTokens) {
   return (Array.isArray(lyricTokens) ? lyricTokens : []).map(function(token) {
@@ -185,7 +186,20 @@ export function buildChordSheetAlignmentFromLines(sheetLines) {
 
       if (pendingChordLines.length > 0) {
         const lyricRun = collectLyricRun(classified, index)
-        const pairs = distributeAnchorsAcrossLyrics(pendingChordLines, lyricRun)
+        let pairs
+        if (pendingChordLines.length === lyricRun.length) {
+          pairs = lyricRun.map(function(lyricItem, lineIndex) {
+            const chordLine = pendingChordLines[lineIndex]
+            return {
+              lyricLine: lyricItem.text,
+              lyricTokens: mapLyricTokens(lyricItem.tokens),
+              chordLines: [chordLine.text],
+              anchors: anchorsFromCowPair(chordLine.text, lyricItem.text),
+            }
+          })
+        } else {
+          pairs = distributeAnchorsAcrossLyrics(pendingChordLines, lyricRun)
+        }
         pairs.forEach(function(pair) {
           current.lines.push(pair.lyricLine)
           current.linePairs.push(pair)

@@ -2,6 +2,10 @@
   max-width: min(96vw, 40rem);
 }
 
+.link-play-range-modal-backdrop-elevated {
+  z-index: 1295 !important;
+}
+
 .link-play-range-modal-body {
   display: flex;
   flex-direction: column;

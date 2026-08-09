@@ -33,7 +33,9 @@ COPY billing_paypal.py /app/billing_paypal.py
 COPY billing_stripe.py /app/billing_stripe.py
 COPY billing_reservation.py /app/billing_reservation.py
 COPY billing_hooks.py /app/billing_hooks.py
-COPY billing_routes.py /app/billing_routes.py
+COPY billing_reservation.py /app/billing_reservation.py
+COPY score_convert_client.py /app/score_convert_client.py
+COPY score_convert_midi.py /app/score_convert_midi.py
 
 ENV RESOLVER_LIGHT_MODE=true
 ENV REQUIRE_AUTH=true

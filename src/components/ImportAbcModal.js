@@ -22,7 +22,15 @@ function ImportAbcModal(props) {
   var [message, setMessage] = useState(null)
   
   function doImport(list) {
-          var results = props.tunebook.importAbc(list,props.currentTuneBook)
+          var results = props.tunebook.importAbc(
+            list,
+            props.currentTuneBook,
+            null,
+            null,
+            null,
+            null,
+            { personalFieldPolicy: 'full' }
+          )
       if (!props.tunebook.showImportWarning(results)) {
           props.tunebook.applyImportData(results).then(function() {
               //setTimeout(function() {

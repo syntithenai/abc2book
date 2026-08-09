@@ -220,6 +220,29 @@ done
 
 Recommended defaults: `--memory=512Mi --cpu=1 --timeout=120`. Bump timeout to 180 only if YouTube+Webshare often stalls; bump memory to 1Gi only if midi2xml OOMs.
 
+### Score-convert sidecar (MuseScore `/midi2abc` + `/score2xml`)
+
+Premium notation conversion runs on a **second** Cloud Run service (`tunebook-score-convert`, `Dockerfile.score-convert`):
+
+| Service | Memory | CPU | Timeout | Concurrency | Auth |
+|---------|--------|-----|---------|-------------|------|
+| `tunebook-resolver-light` | 512Mi | 1 | 120s | default | public + Google token |
+| `tunebook-score-convert` | 2Gi | 2 | 180s | **1** | internal only (`--no-allow-unauthenticated`) |
+
+Deploy order:
+
+```bash
+./deploy/setup-cloud-score-convert-secret.sh
+./deploy-cloud-score-convert.sh
+# grant run.invoker to light resolver SA (command printed by deploy script)
+# set SCORE_CONVERT_URL + SCORE_CONVERT_USE_ID_TOKEN in deploy/cloud-run-env.yaml
+./deploy-cloud-light.sh
+```
+
+Billing: `/midi2abc` and `/score2xml` on the light gateway reserve and charge `midi_import` / `score_file_convert` credits. `/midi2xml` (music21 only) stays on the light image and is not premium-billed.
+
+See [deploy/README.md](deploy/README.md) for the smoke checklist.
+
 ```bash
 cd local-resolver
 
@@ -378,7 +401,82 @@ Env/secrets persist on the service unless you change them with another `deploy` 
 
 ---
 
-## 8. Home stack (not Cloud Run)
+## 8. Firestore backups (billing + OAuth)
+
+Production billing and OAuth sessions live in **Cloud Firestore** (`abc2book`, `australia-southeast1`). Backups protect against accidental deletes or bad writes — regional replication alone is not a backup.
+
+### Collections
+
+| Collection | Purpose |
+|------------|---------|
+| `billing_accounts` | Balances, trial flags |
+| `billing_ledger` | Append-only credit/debit history |
+| `billing_holds` | Active credit reservations |
+| `billing_payment_events` | Purchase idempotency (Stripe/PayPal) |
+| `billing_stripe_events` | Legacy Stripe event dedup |
+| `oauth_sessions` | OAuth BFF refresh tokens |
+
+Stripe Dashboard remains the financial source of truth for charges; Firestore is the operational ledger.
+
+### What is configured
+
+| Mechanism | Details |
+|-----------|---------|
+| **Daily managed backups** | Schedule on `(default)` database, 30-day retention. View in [Firebase Console → Firestore → Backups](https://console.firebase.google.com/project/abc2book/firestore/backups). |
+| **GCS export bucket** | `gs://abc2book-firestore-backups` in `australia-southeast1`, 90-day object lifecycle (`deploy/firestore-backups-lifecycle.json`). |
+| **Firestore service agent** | `service-927667106833@gcp-sa-firestore.iam.gserviceaccount.com` has `roles/storage.objectAdmin` on the bucket. |
+
+### Manual export (collection-scoped)
+
+```bash
+gcloud firestore export gs://abc2book-firestore-backups/manual/$(date +%Y%m%d) \
+  --project=abc2book \
+  --collection-ids=billing_accounts,billing_ledger,billing_holds,billing_payment_events,billing_stripe_events,oauth_sessions
+```
+
+First drill export (2026-08-08): **SUCCESSFUL** — 10 documents across all six collections in `gs://abc2book-firestore-backups/manual/20260808/`.
+
+### Restore (do not run over production casually)
+
+**From managed backup** (daily schedule):
+
+```bash
+# List backups
+gcloud firestore backups list --database='(default)' --project=abc2book
+
+# Restore to a new database (preferred) or during a maintenance window
+gcloud firestore databases restore \
+  --source-backup=BACKUP_NAME \
+  --destination-database=RESTORED_DB
+```
+
+**From GCS export:**
+
+```bash
+gcloud firestore import gs://abc2book-firestore-backups/manual/YYYYMMDD \
+  --project=abc2book
+```
+
+Import **overwrites** existing documents with matching IDs. Test restores in a separate GCP project or a new Firestore database before touching production.
+
+### Optional: point-in-time recovery (PITR)
+
+For sub-day recovery (last 7 days), enable once:
+
+```bash
+gcloud firestore databases update --database='(default)' --enable-pitr --project=abc2book
+```
+
+Adds per-GB cost; nightly backups are sufficient for most cases.
+
+### Monitoring
+
+- Firebase Console → Firestore → Backups: confirm daily runs succeed.
+- GCS bucket: new objects under `manual/` after drill exports; scheduled managed backups appear in the backups list (not necessarily as GCS objects).
+
+---
+
+## 9. Home stack (not Cloud Run)
 
 - Fat resolver: expose **only Caddy :443** (`docker compose --profile https`).
 - Optional Ollama: `docker compose -f docker-compose.yml -f docker-compose.ollama.yml --profile ollama up -d`.

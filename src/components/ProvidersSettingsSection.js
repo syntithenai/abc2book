@@ -11,7 +11,6 @@ import {
   setUseCloudResolver,
 } from '../mediaProxyConfig'
 import { getResolverLoginWarning } from '../mediaProxyClient'
-import { openCreditSettings } from '../resolverCreditAccess'
 import CreditSettingsSection from './CreditSettingsSection'
 import {
   PROVIDER_CAPABILITIES,
@@ -741,13 +740,6 @@ export default function ProvidersSettingsSection({
             <div className="mt-2">
               <Button variant="outline-danger" size="sm" onClick={login}>
                 Log in with Google
-              </Button>
-            </div>
-          ) : null}
-          {loginWarning.showBuyCreditButton ? (
-            <div className="mt-2">
-              <Button variant="outline-danger" size="sm" onClick={openCreditSettings}>
-                Buy credit
               </Button>
             </div>
           ) : null}

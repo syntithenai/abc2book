@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { getOutputDeviceId, setOutputDeviceId } from '../outputDeviceSettings';
+import { getOutputDeviceId, setOutputDeviceId, OUTPUT_DEVICE_CHANGED_EVENT } from '../outputDeviceSettings';
 import {
   applyOutputDeviceToMediaController,
   enumerateAudioOutputDevices,
@@ -23,6 +23,7 @@ export default function OutputDevicePicker({
   disabledReason,
   menuOpen,
   minimal,
+  inline,
 }) {
   const [devices, setDevices] = useState([]);
   const [selectedId, setSelectedId] = useState(getOutputDeviceId);
@@ -57,11 +58,30 @@ export default function OutputDevicePicker({
     refreshDevices();
   }, [menuOpen, refreshDevices]);
 
+  useEffect(function() {
+    function onOutputDeviceChanged() {
+      setSelectedId(getOutputDeviceId());
+    }
+    window.addEventListener(OUTPUT_DEVICE_CHANGED_EVENT, onOutputDeviceChanged);
+    return function() {
+      window.removeEventListener(OUTPUT_DEVICE_CHANGED_EVENT, onOutputDeviceChanged);
+    };
+  }, []);
+
   const applySink = useCallback(async function(deviceId) {
-    const nextId = setOutputDeviceId(deviceId || '');
-    setSelectedId(nextId);
     setError(null);
     try {
+      if (mediaController && typeof mediaController.applyOutputDevice === 'function') {
+        const result = await mediaController.applyOutputDevice(deviceId || '');
+        const resolvedId = result && result.deviceId ? result.deviceId : getOutputDeviceId();
+        setSelectedId(resolvedId);
+        if (result && result.applied === 0 && resolvedId) {
+          setError('Use Choose speaker… to allow this browser to route audio.');
+        }
+        return;
+      }
+      const nextId = setOutputDeviceId(deviceId || '');
+      setSelectedId(nextId);
       const result = await applyOutputDeviceToMediaController(mediaController, nextId);
       if (result.applied === 0 && nextId) {
         setError('Use Choose speaker… to allow this browser to route audio.');
@@ -112,7 +132,11 @@ export default function OutputDevicePicker({
   const canChooseSpeaker = isSelectAudioOutputSupported();
 
   return (
-    <div className={'output-device-picker' + (minimal ? ' output-device-picker--minimal' : '')}>
+    <div className={
+      'output-device-picker'
+      + (minimal ? ' output-device-picker--minimal' : '')
+      + (inline ? ' output-device-picker--inline' : '')
+    }>
       {minimal ? null : (
         <Form.Label className="small mb-1">Local audio output</Form.Label>
       )}
@@ -140,7 +164,7 @@ export default function OutputDevicePicker({
         <Button
           size="sm"
           variant="outline-secondary"
-          className={minimal ? 'mt-1' : 'mt-2'}
+          className={inline ? '' : (minimal ? 'mt-1' : 'mt-2')}
           disabled={disabled || pickingDevice}
           onClick={handleChooseDevice}
         >

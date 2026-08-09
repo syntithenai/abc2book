@@ -5,6 +5,9 @@ import { configureTuneRepository, setMonolithTunesRef } from './tuneRepository'
 import { getTuneHash, getTuneImportHash } from './tuneHashUtils'
 import { loadActiveQueue, persistActiveQueue, normalizeQueuePlaybackModes } from './nowPlayingQueue'
 import { isAndroidApp } from './platformUtils'
+import { readSearchFilterParamsFromHash } from './searchFilterParams'
+
+const initialSearchFiltersFromHash = readSearchFilterParamsFromHash()
 
 /**
  * Top level state for tunebook application
@@ -23,11 +26,21 @@ export default function useAppData() {
   const [googleDocumentId, setGoogleDocumentId] = useState(null)
   
   // list search filters
-  var [filter, setFilter] = useState('')
-  var [groupBy, setGroupBy] = useState('')
-  var [tagFilter, setTagFilter] = useState('')
-  var [genreFilter, setGenreFilter] = useState([])
-  var [artistFilter, setArtistFilter] = useState([])
+  var [filter, setFilter] = useState(function() {
+    return initialSearchFiltersFromHash ? initialSearchFiltersFromHash.q : ''
+  })
+  var [groupBy, setGroupBy] = useState(function() {
+    return initialSearchFiltersFromHash ? initialSearchFiltersFromHash.group : ''
+  })
+  var [tagFilter, setTagFilter] = useState(function() {
+    return initialSearchFiltersFromHash ? initialSearchFiltersFromHash.tags : ''
+  })
+  var [genreFilter, setGenreFilter] = useState(function() {
+    return initialSearchFiltersFromHash ? initialSearchFiltersFromHash.genres : []
+  })
+  var [artistFilter, setArtistFilter] = useState(function() {
+    return initialSearchFiltersFromHash ? initialSearchFiltersFromHash.artists : []
+  })
   var [starredFilter, setStarredFilter] = useState(false)
   // list display: compact | detailed | preview
   var [listDisplayMode, setListDisplayModeInner] = useState(function() {
@@ -45,7 +58,14 @@ export default function useAppData() {
     } catch (e) {}
   }
   // currentTuneBook is used as list filter and in many other places
-  const [currentTuneBook, setCurrentTuneBookInner] = useState(localStorage.getItem('bookstorage_current_tunebook') ? localStorage.getItem('bookstorage_current_tunebook') : 0);
+  const [currentTuneBook, setCurrentTuneBookInner] = useState(function() {
+    if (initialSearchFiltersFromHash && initialSearchFiltersFromHash.book) {
+      return initialSearchFiltersFromHash.book
+    }
+    return localStorage.getItem('bookstorage_current_tunebook')
+      ? localStorage.getItem('bookstorage_current_tunebook')
+      : 0
+  });
   function setCurrentTuneBook(val) {
     setCurrentTuneBookInner(val)
     setScrollOffsetReal(0)

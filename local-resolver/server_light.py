@@ -35,12 +35,19 @@ from providers import (
 )
 from oauth_bff_routes import register_oauth_bff_routes
 from provider_stems_cloud import demucs_stems_for_model
+from score_convert_client import (
+    proxy_midi2abc,
+    proxy_score2xml,
+    refresh_score_convert_health,
+    score_convert_features,
+)
 
 try:
     from billing import (
         billing_enabled,
         billing_health_fields,
         ensure_db as ensure_billing_db,
+        ensure_user_billing,
         get_balance_millicents,
     )
     from billing_hooks import BillingContext
@@ -48,6 +55,7 @@ try:
 except ImportError:
     billing_enabled = lambda: False  # type: ignore[assignment]
     ensure_billing_db = lambda: None  # type: ignore[assignment]
+    ensure_user_billing = lambda email: {"granted": False}  # type: ignore[assignment]
     get_balance_millicents = lambda email: 0  # type: ignore[assignment]
     billing_health_fields = lambda email: {"billingEnabled": False}  # type: ignore[assignment]
     BillingContext = None  # type: ignore[assignment,misc]
@@ -134,6 +142,7 @@ def _resolver_host_access(email: str) -> dict[str, bool]:
             "allowed": True,
             "embeddedCreds": True,
         }
+    ensure_user_billing(email)
     has_credit = get_balance_millicents(email) > 0
     return {
         "resolverAccess": True,
@@ -209,6 +218,20 @@ def auth_flags(verified: dict | None) -> dict[str, bool]:
     }
 
 
+def _billing_reservation(
+    verified: dict | None,
+    operation_id: str,
+    params: dict | None = None,
+):
+    from billing_reservation import require_credit_reservation
+
+    return require_credit_reservation(
+        _billing_email(verified),
+        operation_id,
+        params or {},
+    )
+
+
 def light_features(allow_embedded: bool = False) -> dict[str, Any]:
     host_proxy = bool(os.getenv("YTDLP_PROXY", "").strip())
     require_egress = os.getenv("YTDLP_REQUIRE_USER_PROXY", "true").lower() in ("1", "true", "yes")
@@ -219,6 +242,7 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
     )
     stems_available = is_cloud_stems_provider(stems_cfg)
     oauth_bff = oauth_bff_available()
+    convert_flags = score_convert_features()
     return {
         "proxy": True,
         "stems": stems_available,
@@ -234,6 +258,8 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
         "soundfonts": False,
         "lightMode": True,
         "midiConvert": True,
+        "midiImport": convert_flags.get("midiImport", False),
+        "scoreConvert": convert_flags.get("scoreConvert", False),
         "wordTools": True,
         "youtubeAudio": bool(host_proxy) or not require_egress,
         "youtubeEgressRequired": require_egress and not host_proxy,
@@ -318,6 +344,7 @@ async def _health_body(authorization: str | None) -> dict:
     flags = auth_flags(verified if body.get("authorized") else None)
     if not REQUIRE_AUTH:
         flags = auth_flags(None)
+    await refresh_score_convert_health()
     body["features"] = light_features(allow_embedded=flags["embeddedCreds"])
     body["providers"] = providers_health_payload(
         allow_embedded=flags["embeddedCreds"],
@@ -497,27 +524,48 @@ async def score2xml(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    reservation = None
     try:
-        await require_auth(authorization)
-        import os
-        import tempfile
-        from musescore_fetch import _convert_score_file_to_musicxml
-
+        verified = await require_auth(authorization)
         if file is None:
             raise HTTPException(status_code=400, detail="Missing score file upload")
         data = await file.read()
         if not data:
             raise HTTPException(status_code=400, detail="Score file is empty")
-        suffix = os.path.splitext(file.filename or "")[1].lower() or ".mscx"
-        with tempfile.TemporaryDirectory() as temp_dir:
-            in_path = os.path.join(temp_dir, "upload" + suffix)
-            with open(in_path, "wb") as handle:
-                handle.write(data)
-            xml = _convert_score_file_to_musicxml(in_path, temp_dir, output_stem="score_import")
+
+        from midi_convert import MAX_MIDI_IMPORT_BYTES
+
+        if len(data) > MAX_MIDI_IMPORT_BYTES:
+            raise HTTPException(status_code=413, detail="Score file too large")
+
+        reservation = _billing_reservation(
+            verified,
+            "score_file_convert",
+            {"file_bytes": len(data)},
+        )
+        xml, meta = await proxy_score2xml(data, file.filename or "score.mscx")
+        ctx = billing_context()
+        email = _billing_email(verified)
+        if ctx and email:
+            ctx.record_score_file_convert(
+                email,
+                file_bytes=meta.get("file_bytes", len(data)),
+                response_bytes=meta.get("response_bytes", len(xml.encode("utf-8"))),
+                duration_ms=meta.get("duration_ms", 0),
+            )
+        if reservation:
+            reservation.finalize()
         return Response(content=xml, media_type="application/xml", headers=cors_headers(origin))
     except HTTPException as exc:
-        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+        if reservation:
+            reservation.release()
+        detail = exc.detail
+        if isinstance(detail, dict):
+            return JSONResponse({"error": detail}, status_code=exc.status_code, headers=cors_headers(origin))
+        return JSONResponse({"error": str(detail)}, status_code=exc.status_code, headers=cors_headers(origin))
     except Exception as exc:
+        if reservation:
+            reservation.release()
         return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
 
 
@@ -530,11 +578,10 @@ async def midi2abc_light(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    reservation = None
     try:
-        await require_auth(authorization)
+        verified = await require_auth(authorization)
         from midi_convert import MAX_MIDI_IMPORT_BYTES
-        from midi_import_orchestrator import import_midi_bytes
-        import asyncio
 
         if file is None:
             raise HTTPException(status_code=400, detail="Missing MIDI file upload")
@@ -544,27 +591,41 @@ async def midi2abc_light(
         if len(data) > MAX_MIDI_IMPORT_BYTES:
             raise HTTPException(status_code=413, detail="MIDI file too large")
 
-        forced_mode = (mode or "").strip().lower() or None
-        if forced_mode not in (None, "melody", "multi_voice"):
-            forced_mode = None
-        include_chords_param = (request.query_params.get("include_chords") or "").strip().lower()
-        forced_include_chords = None
-        if include_chords_param in ("1", "true", "yes"):
-            forced_include_chords = True
-        elif include_chords_param in ("0", "false", "no"):
-            forced_include_chords = False
-        result = await asyncio.to_thread(
-            import_midi_bytes,
+        reservation = _billing_reservation(
+            verified,
+            "midi_import",
+            {"file_bytes": len(data)},
+        )
+        result, meta = await proxy_midi2abc(
+            request,
             data,
             file.filename or "import.mid",
-            mode=forced_mode,
-            strategy=(strategy or "auto").strip().lower() or "auto",
-            include_chords=forced_include_chords,
+            mode=mode,
+            strategy=strategy,
         )
+        ctx = billing_context()
+        email = _billing_email(verified)
+        if ctx and email:
+            ctx.record_midi_import_job(
+                email,
+                file_bytes=meta.get("file_bytes", len(data)),
+                response_bytes=meta.get("response_bytes", 0),
+                strategy=meta.get("strategy", ""),
+                duration_ms=meta.get("duration_ms", 0),
+            )
+        if reservation:
+            reservation.finalize()
         return JSONResponse(result, headers=cors_headers(origin))
     except HTTPException as exc:
-        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+        if reservation:
+            reservation.release()
+        detail = exc.detail
+        if isinstance(detail, dict):
+            return JSONResponse({"error": detail}, status_code=exc.status_code, headers=cors_headers(origin))
+        return JSONResponse({"error": str(detail)}, status_code=exc.status_code, headers=cors_headers(origin))
     except Exception as exc:
+        if reservation:
+            reservation.release()
         return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
 
 

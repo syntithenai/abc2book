@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, forwardRef, memo, useMemo } from 'react'
+import { useRef, useCallback, forwardRef, memo, useMemo } from 'react'
 import { ListGroup } from 'react-bootstrap'
 import { FixedSizeList } from 'react-window'
 import AutoSizer from 'react-virtualized-auto-sizer'
@@ -88,17 +88,6 @@ function VirtualizedTuneList(props) {
   const rows = props.rows || []
   const listRef = useRef(null)
   const rowHeight = props.rowHeight > 0 ? props.rowHeight : COMPACT_ROW_HEIGHT
-
-  const scrollToOffset = useCallback(function(offset) {
-    if (!listRef.current || typeof offset !== 'number' || offset <= 0) return
-    listRef.current.scrollTo(offset)
-  }, [])
-
-  useEffect(function() {
-    if (props.initialScrollOffset > 0) {
-      scrollToOffset(props.initialScrollOffset)
-    }
-  }, [props.initialScrollOffset, scrollToOffset])
 
   const itemData = useMemo(function() {
     return {
@@ -192,11 +181,6 @@ function VirtualizedTuneList(props) {
                 itemData={itemData}
                 overscanCount={8}
                 outerElementType={TuneListScrollOuter}
-                onScroll={function(info) {
-                  if (typeof props.onScrollOffset === 'function') {
-                    props.onScrollOffset(info.scrollOffset)
-                  }
-                }}
               >
                 {rowRenderer}
               </FixedSizeList>

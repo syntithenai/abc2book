@@ -22,6 +22,7 @@ import {
   rebalanceChartPulseSlots,
   parseChartStructureMarkers,
   stripChartStructureMarkers,
+  alignChordBlocksToLyrics,
 } from './chordSheetUtils'
 import { listLyricSections, sectionDisplayTitle } from './lyricStructureUtils'
 import { normalizeMeter, getBarModel, beatPositionsForBarChords } from './barModel'
@@ -531,6 +532,30 @@ function structureMetaFromDisplayChart(displayChart, strain) {
   }
 }
 
+function lyricMetaForStrainIndex(strainIndex, alignedBlocks, lyricSections) {
+  const aligned = Array.isArray(alignedBlocks) ? alignedBlocks[strainIndex] : null
+  if (aligned) {
+    return {
+      header: aligned.header || '',
+      type: aligned.type || null,
+      title: sectionDisplayTitle({ header: aligned.header, lines: aligned.lyricLines || [] }),
+      lines: Array.isArray(aligned.lyricLines) ? aligned.lyricLines.slice() : [],
+      chartRevisit: !!aligned.chartRevisit,
+      alignedChart: String(aligned.chart || ''),
+    }
+  }
+  const section = lyricSections[strainIndex]
+  if (!section) return null
+  return {
+    header: section.header || '',
+    type: section.type || null,
+    title: section.title,
+    lines: Array.isArray(section.lines) ? section.lines.slice() : [],
+    chartRevisit: false,
+    alignedChart: '',
+  }
+}
+
 /**
  * Build unified chord blocks: one per melody strain (canonical).
  */
@@ -550,8 +575,13 @@ export function buildUnifiedBlocks(options) {
     : []
   const strains = splitMelodyStrainsWithBarlines(noteLines)
   const lyricSections = listLyricSections(lyricLines)
-  const warnings = []
   const chordSectionLabels = Array.isArray(opts.chordSectionLabels) ? opts.chordSectionLabels : null
+  const alignedLyricBlocks = alignChordBlocksToLyrics(lyricLines, chartBlocks, {
+    chordSectionLabels: chordSectionLabels,
+    title: opts.title,
+    composer: opts.composer,
+  })
+  const warnings = []
 
   if (strains.length === 0) {
     // No melody — treat chart blocks as blocks (scaffold / paste create).
@@ -572,9 +602,11 @@ export function buildUnifiedBlocks(options) {
       previousMeter = meter
       previousTempo = tempo
       previousKey = abcKey
-      const lyricSection = lyricSections[index] || null
+      const lyricSection = lyricMetaForStrainIndex(index, alignedLyricBlocks, lyricSections)
       const header = (lyricSection && lyricSection.header) || ''
-      const type = header ? normalizeSectionType(header) : null
+      const type = lyricSection && lyricSection.type
+        ? lyricSection.type
+        : (header ? normalizeSectionType(header) : null)
       return {
         id: sectionKeyForIndex(index, type, header),
         key: sectionKeyForIndex(index, type, header),
@@ -694,9 +726,11 @@ export function buildUnifiedBlocks(options) {
       previousKey = abcKey
     }
 
-    const lyricSection = lyricSections[index] || null
+    const lyricSection = lyricMetaForStrainIndex(index, alignedLyricBlocks, lyricSections)
     const header = (lyricSection && lyricSection.header) || ''
-    const type = header ? normalizeSectionType(header) : null
+    const type = lyricSection && lyricSection.type
+      ? lyricSection.type
+      : (header ? normalizeSectionType(header) : null)
     const title = lyricSection
       ? lyricSection.title
       : sectionDisplayTitle({ header: header, lines: [] }) || ('Section ' + (index + 1))

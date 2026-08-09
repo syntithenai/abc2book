@@ -17,6 +17,7 @@ import {
 import { buildRemoteOutputQueue } from '../remoteOutputQueue';
 import { buildRemotePlaybackSessionPayload } from '../remotePlaybackSessionPayload';
 import { isAndroidApp, isCastWebSdkSupported } from '../platformUtils';
+import { isRemoteOutputUiEnabled } from '../remoteOutputUi';
 
 export default function RemoteOutputButton({
   mediaController,
@@ -30,6 +31,10 @@ export default function RemoteOutputButton({
   const castSession = useCastSession();
   const snapcast = useSnapcast();
   const airplayCast = useAirplayCast();
+
+  if (!isRemoteOutputUiEnabled()) {
+    return null;
+  }
 
   const snapcastEnabled = !!(mediaController.resolverFeatures && mediaController.resolverFeatures.snapcastControl);
   const castSdkEnabled = !!(mediaController.resolverFeatures && (
@@ -157,7 +162,7 @@ export default function RemoteOutputButton({
               <div className="fw-semibold small mb-1">Chromecast</div>
               <p className="text-muted small mb-0">
                 The Cast device picker is not available in the Android app. Use Snapcast below,
-                pair Bluetooth speakers in Android Settings, or open <Link to="/settings?tab=audio">Settings → Audio</Link>.
+                pair Bluetooth speakers in Android Settings, or open <Link to="/now-playing">Now Playing</Link>.
               </p>
             </div>
           ) : null}
@@ -178,7 +183,7 @@ export default function RemoteOutputButton({
               {!snapcastEnabled ? (
                 <p className="text-muted small mb-1">
                   Enable Snapcast on your home resolver, or set a control URL in{' '}
-                  <Link to="/settings?tab=audio">Settings → Audio</Link>.
+                  <Link to="/settings?tab=providers">Settings → Providers</Link>.
                 </p>
               ) : null}
               {snapcastReason ? <p className="text-muted small mb-1">{snapcastReason}</p> : null}
@@ -221,7 +226,7 @@ export default function RemoteOutputButton({
               </div>
               <div className="d-flex gap-2 flex-wrap">
                 <Link to="/snapcast" className="small align-self-center">Snapcast manager →</Link>
-                <Link to="/settings?tab=audio" className="small align-self-center">Audio settings →</Link>
+                <Link to="/now-playing" className="small align-self-center">Now Playing →</Link>
               </div>
             </div>
           ) : null}

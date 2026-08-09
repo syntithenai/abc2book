@@ -41,7 +41,6 @@ import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
 import BillingAdminSettingsSection from '../components/BillingAdminSettingsSection'
 import AndroidLocalMediaSettingsSection from '../components/AndroidLocalMediaSettingsSection'
-import AudioSettingsSection from '../components/AudioSettingsSection'
 import VoiceSettingsSection from '../components/VoiceSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
@@ -74,7 +73,6 @@ import {
 const TAB_BACKGROUND_JOBS = 'background-jobs'
 const TAB_APPEARANCE = 'appearance'
 const TAB_MEDIA = 'media'
-const TAB_AUDIO = 'audio'
 const TAB_VOICE = 'voice'
 const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
@@ -163,7 +161,8 @@ export default function SettingsPage(props) {
     const tab = typeof window !== 'undefined'
       ? new URLSearchParams(window.location.search).get('tab')
       : null
-    if (tab === TAB_AUDIO) return TAB_AUDIO
+    if (tab === 'audio') return TAB_BACKGROUND_JOBS
+    if (tab) return tab
     return TAB_BACKGROUND_JOBS
   })
   const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
@@ -236,13 +235,6 @@ export default function SettingsPage(props) {
       return result
     })
   }, [])
-
-  useEffect(function() {
-    const tab = searchParams.get('tab')
-    if (tab === TAB_AUDIO) {
-      setActiveTab(TAB_AUDIO)
-    }
-  }, [searchParams])
 
   useEffect(function() {
     if (activeTab === TAB_MUSIC_COLLECTION && !showMusicCollectionTab) {
@@ -336,7 +328,9 @@ export default function SettingsPage(props) {
       navigate('/billing/cancel', { replace: true })
       return undefined
     }
-    if (tab) {
+    if (tab === 'audio') {
+      setActiveTab(TAB_BACKGROUND_JOBS)
+    } else if (tab) {
       setActiveTab(tab)
     }
     if (tab === TAB_PROVIDERS && creditFlag === '1') {
@@ -508,9 +502,6 @@ export default function SettingsPage(props) {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_MEDIA}>Media</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_AUDIO}>Audio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_VOICE}>Voice</Nav.Link>
@@ -845,13 +836,6 @@ export default function SettingsPage(props) {
               </Button>
             </div>
           </div>
-        </Tab.Pane>
-
-        <Tab.Pane eventKey={TAB_AUDIO}>
-          <AudioSettingsSection
-            mediaController={props.mediaController}
-            mediaResolverStatus={resolverStatus}
-          />
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_VOICE}>

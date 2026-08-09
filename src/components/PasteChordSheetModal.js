@@ -14,6 +14,7 @@ import {
 } from '../chordsEditorSections'
 import { hasChordLines, hasLyricEmbeddedChords } from '../chordSheetUtils'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
+import ImportStructureReviewPanel from './ImportStructureReviewPanel'
 import './PasteChordSheetModal.css'
 
 const PASTE_CHORD_SHEET_PLACEHOLDER = [
@@ -420,6 +421,17 @@ export default function PasteChordSheetModal(props) {
           {pasteError ? <Alert className="mt-2 mb-0" variant="danger">{pasteError}</Alert> : null}
           {meterAssumedNotice ? (
             <Alert className="mt-2 mb-0" variant="warning">{meterAssumedNotice}</Alert>
+          ) : null}
+
+          {parsed && Array.isArray(parsed.lyricLines) && parsed.lyricLines.length > 0 ? (
+            <ImportStructureReviewPanel
+              lyricLines={parsed.lyricLines}
+              chordChart={parsed.chordText || ''}
+              chordSectionLabels={tune.chordSectionLabels}
+              title={tune.name}
+              composer={tune.composer}
+              strainCount={pasteSections.length}
+            />
           ) : null}
 
           {pasteSections.length > 0 ? (

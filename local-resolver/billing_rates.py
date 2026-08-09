@@ -54,6 +54,21 @@ LINKED_COVER_JOB_COST_MILLICENTS = int(os.getenv("BILLING_LINKED_COVER_JOB_COST_
 # TTS speech synthesis (upstream millicents flat per call, before markup)
 TTS_SPEECH_FLAT_COST_MILLICENTS = int(os.getenv("BILLING_TTS_SPEECH_FLAT_COST_MILLICENTS", "20"))
 
+# MuseScore score-convert sidecar (upstream millicents, before markup)
+MIDI_IMPORT_JOB_COST_MILLICENTS = int(os.getenv("BILLING_MIDI_IMPORT_JOB_COST_MILLICENTS", "400"))
+SCORE_FILE_CONVERT_JOB_COST_MILLICENTS = int(
+    os.getenv("BILLING_SCORE_FILE_CONVERT_JOB_COST_MILLICENTS", "300")
+)
+BILLING_SCORE_CONVERT_MAX_MILLICENTS = int(
+    os.getenv("BILLING_SCORE_CONVERT_MAX_MILLICENTS", "5000")
+)
+SCORE_CONVERT_RESERVE_RESPONSE_BYTES = int(
+    os.getenv("BILLING_SCORE_CONVERT_RESERVE_RESPONSE_BYTES", str(2 * 1024 * 1024))
+)
+SCORE_CONVERT_MAX_FILE_BYTES = int(
+    os.getenv("MAX_MIDI_IMPORT_BYTES", str(4 * 1024 * 1024))
+)
+
 # BYO API key proxy flat fees (upstream millicents, before markup)
 API_PROXY_FLAT_MILLICENTS = {
     "llm": int(os.getenv("BILLING_API_PROXY_LLM_FLAT_MILLICENTS", "5")),
@@ -117,6 +132,40 @@ def practice_track_job_cost_millicents() -> int:
 
 def linked_cover_job_cost_millicents() -> int:
     return apply_markup(LINKED_COVER_JOB_COST_MILLICENTS)
+
+
+def _cap_score_convert_millicents(millicents: int) -> int:
+    if BILLING_SCORE_CONVERT_MAX_MILLICENTS <= 0:
+        return millicents
+    return min(millicents, BILLING_SCORE_CONVERT_MAX_MILLICENTS)
+
+
+def midi_import_job_cost_millicents(
+    *,
+    file_bytes: int = 0,
+    response_bytes: int = 0,
+) -> int:
+    flat = apply_markup(MIDI_IMPORT_JOB_COST_MILLICENTS)
+    egress = egress_cost_millicents(max(0, int(file_bytes)) + max(0, int(response_bytes)))
+    return _cap_score_convert_millicents(max(flat, egress))
+
+
+def score_file_convert_cost_millicents(
+    *,
+    file_bytes: int = 0,
+    response_bytes: int = 0,
+) -> int:
+    flat = apply_markup(SCORE_FILE_CONVERT_JOB_COST_MILLICENTS)
+    egress = egress_cost_millicents(max(0, int(file_bytes)) + max(0, int(response_bytes)))
+    return _cap_score_convert_millicents(max(flat, egress))
+
+
+def score_convert_reserve_file_bytes() -> int:
+    return SCORE_CONVERT_MAX_FILE_BYTES
+
+
+def score_convert_reserve_response_bytes() -> int:
+    return SCORE_CONVERT_RESERVE_RESPONSE_BYTES
 
 
 def tts_speech_cost_millicents(

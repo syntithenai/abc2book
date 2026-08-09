@@ -19,8 +19,19 @@ import {
 } from './preferredRemoteOutputSettings';
 
 describe('preferredRemoteOutputSettings', function() {
+  const originalEnv = process.env.REACT_APP_REMOTE_OUTPUT_UI;
+
   beforeEach(function() {
+    process.env.REACT_APP_REMOTE_OUTPUT_UI = 'true';
     localStorage.clear();
+  });
+
+  afterEach(function() {
+    if (originalEnv === undefined) {
+      delete process.env.REACT_APP_REMOTE_OUTPUT_UI;
+    } else {
+      process.env.REACT_APP_REMOTE_OUTPUT_UI = originalEnv;
+    }
   });
 
   test('defaults to local output', function() {

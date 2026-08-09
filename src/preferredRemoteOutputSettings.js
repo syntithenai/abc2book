@@ -1,4 +1,5 @@
 import { isAndroidApp } from './platformUtils';
+import { isRemoteOutputUiEnabled } from './remoteOutputUi';
 
 const PREFERRED_OUTPUT_KEY = 'bookstorage_preferred_remote_output';
 const YOUTUBE_ACK_KEY = 'bookstorage_snapcast_youtube_ack';
@@ -130,6 +131,7 @@ function writeOutputEnabledFlag(key, enabled) {
 }
 
 export function getSnapcastOutputEnabled() {
+  if (!isRemoteOutputUiEnabled()) return false;
   return readOutputEnabledFlag(SNAPCAST_OUTPUT_KEY, true);
 }
 
@@ -143,6 +145,7 @@ export function setSnapcastOutputEnabled(enabled) {
 }
 
 export function getChromecastOutputEnabled() {
+  if (!isRemoteOutputUiEnabled()) return false;
   return readOutputEnabledFlag(CHROMECAST_OUTPUT_KEY, !isAndroidApp());
 }
 

@@ -1,0 +1,17 @@
+# Build the score-convert Cloud Run image (Dockerfile.score-convert).
+# Usage from local-resolver/:
+#   export IMAGE=australia-southeast1-docker.pkg.dev/abc2book/tunebook/score-convert
+#   gcloud builds submit --config=cloudbuild.score-convert.yaml --project=abc2book \
+#     --substitutions=_IMAGE="$IMAGE" .
+
+substitutions:
+  _IMAGE: australia-southeast1-docker.pkg.dev/abc2book/tunebook/score-convert
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '${_IMAGE}', '-f', 'Dockerfile.score-convert', '.']
+
+images:
+  - '${_IMAGE}'
+
+timeout: 1800s

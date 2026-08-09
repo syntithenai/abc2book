@@ -3,6 +3,10 @@ import { normalizeSourceUrlKey } from './incomingMergePrefs';
 import { toTuneUpdatedMs } from './tuneBookSync';
 import { applyTuneImportSelections, buildDefaultTuneImportSelections, buildTuneImportFieldRows } from './tuneImportMergeUtils';
 import {
+  preserveLocalPersonalFields,
+  stripIncomingPersonalFields,
+} from './shareImportPersonalFields';
+import {
   listActiveSyncSources,
   sourceSyncKey,
   tuneMatchesSourceFilters,
@@ -230,13 +234,15 @@ export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
       return;
     }
     if (record.kind === 'insert') {
-      next[record.id] = stampSourceUrlOnTune(record.incomingTune, sourceUrl);
+      const nextTune = stripIncomingPersonalFields(JSON.parse(JSON.stringify(record.incomingTune)));
+      next[record.id] = stampSourceUrlOnTune(nextTune, sourceUrl);
       return;
     }
     const selections = state && state.fieldSelections
       ? state.fieldSelections
       : buildDefaultTuneImportSelections(buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; }));
     const merged = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
+    preserveLocalPersonalFields(merged, record.localTune);
     merged.lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
     next[record.id] = stampSourceUrlOnTune(merged, sourceUrl);
   });

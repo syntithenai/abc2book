@@ -146,6 +146,60 @@ class BillingContext:
             },
         )
 
+    def record_midi_import_job(
+        self,
+        email: str | None,
+        *,
+        file_bytes: int = 0,
+        response_bytes: int = 0,
+        strategy: str = "",
+        duration_ms: int = 0,
+    ) -> dict[str, Any]:
+        from billing_rates import midi_import_job_cost_millicents
+
+        millicents = midi_import_job_cost_millicents(
+            file_bytes=file_bytes,
+            response_bytes=response_bytes,
+        )
+        return self.record(
+            email,
+            millicents,
+            usage_type="midi_import",
+            detail={
+                "file_bytes": int(file_bytes),
+                "response_bytes": int(response_bytes),
+                "strategy": strategy,
+                "duration_ms": int(duration_ms),
+                "converter": strategy or "unknown",
+            },
+        )
+
+    def record_score_file_convert(
+        self,
+        email: str | None,
+        *,
+        file_bytes: int = 0,
+        response_bytes: int = 0,
+        duration_ms: int = 0,
+    ) -> dict[str, Any]:
+        from billing_rates import score_file_convert_cost_millicents
+
+        millicents = score_file_convert_cost_millicents(
+            file_bytes=file_bytes,
+            response_bytes=response_bytes,
+        )
+        return self.record(
+            email,
+            millicents,
+            usage_type="score_file_convert",
+            detail={
+                "file_bytes": int(file_bytes),
+                "response_bytes": int(response_bytes),
+                "duration_ms": int(duration_ms),
+                "path": "score2xml",
+            },
+        )
+
     def record_api_proxy(
         self,
         email: str | None,

@@ -16,9 +16,16 @@ import { useAutoLinkPlaybackRegionScan } from '../useAutoLinkPlaybackRegionScan'
 import { isScannableLink } from '../linkPlaybackRegionScanUtils'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
 import BulkComposerDiscoveryModal from './BulkComposerDiscoveryModal'
+import BulkComposerDiscoveryQueueModal from './BulkComposerDiscoveryQueueModal'
+import BulkBackgroundResearchQueueModal from './BulkBackgroundResearchQueueModal'
+import StemCreateQueueModal from './StemCreateQueueModal'
+import TuneFieldLookupQueueModal from './TuneFieldLookupQueueModal'
 import { capitalizeSongTitle, isSongTitleCapitalized } from '../titleCaseUtils'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings'
+import BulkOperationProgressModal from './BulkOperationProgressModal'
+import useBulkOperationProgress from '../useBulkOperationProgress'
+import { shouldShowBulkOperationProgress } from '../bulkOperationProgress'
 
 function formatPreviewSummary(preview) {
   const parts = []
@@ -104,11 +111,16 @@ export default function BulkSearchModal({
   const icons = tunebook.icons
   const [backgroundShow, setBackgroundShow] = useState(false)
   const [artistsShow, setArtistsShow] = useState(false)
+  const [showFieldLookupQueue, setShowFieldLookupQueue] = useState(false)
+  const [showResearchQueue, setShowResearchQueue] = useState(false)
+  const [showComposerQueue, setShowComposerQueue] = useState(false)
+  const [showStemQueue, setShowStemQueue] = useState(false)
   const [retrying, setRetrying] = useState(false)
   const queue = useBulkBackgroundResearchQueue()
   const composerQueue = useBulkComposerDiscoveryQueue()
   const fieldLookupQueue = useTuneFieldLookupQueue()
   const stemCreateQueue = useStemCreateQueue()
+  const bulkProgress = useBulkOperationProgress()
   const { maybeAutoScan } = useAutoLinkPlaybackRegionScan()
   const {
     available: resolverAvailable,
@@ -165,6 +177,7 @@ export default function BulkSearchModal({
     })
     queue.start()
     setBackgroundShow(false)
+    setShowResearchQueue(true)
   }
 
   async function handleRetryHealth() {
@@ -214,6 +227,7 @@ export default function BulkSearchModal({
       toast.success(
         'Queued ' + queued + ' ' + kindLabels + ' search' + (queued === 1 ? '' : 'es') + '.'
       )
+      setShowFieldLookupQueue(true)
     } else {
       toast.info(
         skippedNoTitle > 0
@@ -268,6 +282,7 @@ export default function BulkSearchModal({
     const count = Array.isArray(ids) ? ids.length : (ids ? 1 : 0)
     if (count > 0) {
       toast.success('Queued stems for ' + count + ' tune' + (count === 1 ? '' : 's') + '.')
+      setShowStemQueue(true)
     } else {
       toast.info('No stems queued — selected tunes need a playable link.')
     }
@@ -306,16 +321,40 @@ export default function BulkSearchModal({
     }
   }
 
-  function handleAllWebLookups() {
+  async function handleAllWebLookups() {
     const tunes = selectedTunes()
-    let capitalized = 0
-    tunes.forEach(function(tune) {
-      if (!tune || !tune.id || !tune.name) return
-      if (isSongTitleCapitalized(tune.name)) return
-      const next = Object.assign({}, tune, { name: capitalizeSongTitle(tune.name) })
-      tunebook.saveTune(next, false, { historyLabel: 'Capitalise title', immediate: true })
-      capitalized += 1
+    const toCapitalize = tunes.filter(function(tune) {
+      return tune && tune.id && tune.name && !isSongTitleCapitalized(tune.name)
     })
+    let capitalized = 0
+
+    async function capitalizeTunes() {
+      if (!toCapitalize.length) return
+      if (shouldShowBulkOperationProgress(toCapitalize.length)) {
+        await bulkProgress.run({
+          items: toCapitalize,
+          title: 'Capitalising titles',
+          messageForIndex: function(current, total) {
+            return 'Capitalising title ' + current + ' of ' + total
+          },
+          processChunk: function(chunk) {
+            chunk.forEach(function(tune) {
+              const next = Object.assign({}, tune, { name: capitalizeSongTitle(tune.name) })
+              tunebook.saveTune(next, false, { historyLabel: 'Capitalise title', immediate: true })
+              capitalized += 1
+            })
+          },
+        })
+      } else {
+        toCapitalize.forEach(function(tune) {
+          const next = Object.assign({}, tune, { name: capitalizeSongTitle(tune.name) })
+          tunebook.saveTune(next, false, { historyLabel: 'Capitalise title', immediate: true })
+          capitalized += 1
+        })
+      }
+    }
+
+    await capitalizeTunes()
     if (capitalized > 0) {
       toast.success(
         'Capitalised ' + capitalized + ' title' + (capitalized === 1 ? '' : 's') + '.'
@@ -332,6 +371,7 @@ export default function BulkSearchModal({
         'Queued artist discovery for ' + discoveryPreview.willDiscover
         + ' tune' + (discoveryPreview.willDiscover === 1 ? '' : 's') + '.'
       )
+      setShowComposerQueue(true)
     }
     setBackgroundShow(true)
   }
@@ -352,6 +392,11 @@ export default function BulkSearchModal({
 
   return (
     <>
+      <BulkOperationProgressModal
+        show={bulkProgress.show}
+        title={bulkProgress.title}
+        progress={bulkProgress.progress}
+      />
       <Dropdown as={ButtonGroup} className="bulk-ops-search-dropdown">
         <Dropdown.Toggle
           variant="warning"
@@ -414,6 +459,7 @@ export default function BulkSearchModal({
         token={token}
         show={artistsShow}
         onHide={function() { setArtistsShow(false) }}
+        onQueueStarted={function() { setShowComposerQueue(true) }}
         hideTrigger
       />
 
@@ -459,6 +505,27 @@ export default function BulkSearchModal({
           )}
         </Modal.Footer>
       </Modal>
+
+      <TuneFieldLookupQueueModal
+        show={showFieldLookupQueue}
+        onHide={function() { setShowFieldLookupQueue(false) }}
+        tunebook={tunebook}
+      />
+      <BulkBackgroundResearchQueueModal
+        show={showResearchQueue}
+        onHide={function() { setShowResearchQueue(false) }}
+        tunebook={tunebook}
+      />
+      <BulkComposerDiscoveryQueueModal
+        show={showComposerQueue}
+        onHide={function() { setShowComposerQueue(false) }}
+        tunebook={tunebook}
+      />
+      <StemCreateQueueModal
+        show={showStemQueue}
+        onHide={function() { setShowStemQueue(false) }}
+        tunebook={tunebook}
+      />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { resolverHasFeature } from './resolverFeatures'
+import { formatSecondsToMs, parseMsToSeconds } from './mediaPlaybackUtils'
 
 export function isScannableLink(url) {
   if (!url || typeof url !== 'string') return false
@@ -26,4 +27,21 @@ export function linkHasConfiguredPlayRange(link) {
   const hasStart = link.startAt != null && String(link.startAt).trim() !== ''
   const hasEnd = link.endAt != null && String(link.endAt).trim() !== ''
   return hasStart || hasEnd
+}
+
+function formatPlayRangeBoundary(value) {
+  if (value == null || String(value).trim() === '') return ''
+  const seconds = parseMsToSeconds(value)
+  return seconds > 0 ? formatSecondsToMs(seconds) : ''
+}
+
+/** Human-readable play range for link startAt/endAt, or empty string when unset. */
+export function formatLinkPlayRangeLabel(link) {
+  if (!link) return ''
+  const start = formatPlayRangeBoundary(link.startAt)
+  const end = formatPlayRangeBoundary(link.endAt)
+  if (start && end) return start + ' – ' + end
+  if (start) return start + ' – end'
+  if (end) return 'start – ' + end
+  return ''
 }

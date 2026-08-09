@@ -30,7 +30,8 @@ PROVIDER_WHISPER_API_KEY=provider-groq-api-key:latest,\
 PROVIDER_LLM_API_KEY=provider-groq-api-key:latest,\
 PROVIDER_OCR_API_KEY=provider-groq-api-key:latest,\
 STRIPE_SECRET_KEY=stripe-secret-key:latest,\
-STRIPE_WEBHOOK_SECRET=stripe-webhook-secret:latest"
+STRIPE_WEBHOOK_SECRET=stripe-webhook-secret:latest,\
+SCORE_CONVERT_SECRET=score-convert-secret:latest"
 
 echo "Building $IMAGE ..."
 gcloud builds submit \

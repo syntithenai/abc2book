@@ -62,6 +62,8 @@ services:
       AUDIO_CPP_URL: ${AUDIO_CPP_URL:-http://audio-cpp:8788}
       AUDIO_CPP_INPUT_DIR: ${AUDIO_CPP_INPUT_DIR:-/audio-cpp-incoming}
       PORT: "8787"
+      RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:-peppertrees.syntithenai.com}
+      CAST_PUBLIC_URL: ${CAST_PUBLIC_URL:-https://peppertrees.syntithenai.com}
       STATIC_SITE_DIR: /app/www
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources

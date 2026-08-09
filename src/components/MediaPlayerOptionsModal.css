@@ -2,6 +2,25 @@
   padding-top: 0.25em;
 }
 
+.media-playback-region-panel-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.media-playback-region-play-range-group {
+  margin-left: auto;
+  flex: 0 0 auto;
+}
+
+.media-playback-region-play-range-group .media-playback-region-play-range-label {
+  font-variant-numeric: tabular-nums;
+  opacity: 1;
+}
+
 .media-playback-region-panel .playback-loop-row {
   display: flex;
   flex-wrap: wrap;

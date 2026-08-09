@@ -425,6 +425,22 @@ def apply_delta(
     )
 
 
+def ensure_user_billing(email: str) -> dict[str, Any]:
+    """Create a billing account and grant trial credit for first-time users."""
+    if not billing_enabled():
+        return {"granted": False, "reason": "billing_disabled"}
+    email = _normalize_email(email)
+    if not email:
+        return {"granted": False, "reason": "missing_email"}
+    try:
+        return grant_trial_if_new(email)
+    except Exception:
+        logging.getLogger("tunebook.billing").exception(
+            "ensure_user_billing failed for %s", email
+        )
+        return {"granted": False, "reason": "error"}
+
+
 def grant_trial_if_new(email: str) -> dict[str, Any]:
     if not billing_enabled():
         return {"granted": False, "reason": "billing_disabled"}
@@ -955,6 +971,8 @@ def billing_health_fields(email: str | None) -> dict[str, Any]:
             "creditUnlimited": True,
         }
     normalized = _normalize_email(email or "")
+    if normalized:
+        ensure_user_billing(normalized)
     balance_cents = millicents_to_cents(get_balance_millicents(normalized)) if normalized else 0.0
     return {
         "billingEnabled": True,

@@ -15,6 +15,7 @@ import {
 } from './externalMediaAudioCache';
 import { playAndroidNativeUri } from './androidNativePlayback';
 import { prefersNativeMediaPlayback } from './platformUtils';
+import { applyStoredOutputDeviceToElement } from './outputDeviceSupport';
 import {
   loadNativePlayer,
   stopNativePlayer,
@@ -110,6 +111,10 @@ function bindStandaloneNativeListeners() {
       } catch (e) { /* ignore */ }
     }
   });
+}
+
+export function getStandaloneHtmlAudioElement() {
+  return activeHtmlAudio;
 }
 
 export function subscribeStandaloneMediaPlayback(listener) {
@@ -257,6 +262,7 @@ async function playAudioBlob(blob, meta, options) {
   audio.preload = 'auto';
   stopHtmlAudio();
   activeHtmlAudio = audio;
+  applyStoredOutputDeviceToElement(audio).catch(function() {});
   audio.addEventListener('ended', function() {
     if (activeHtmlAudio === audio) {
       activeHtmlAudio = null;

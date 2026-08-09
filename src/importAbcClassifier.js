@@ -186,7 +186,10 @@ export function classifyAbcTextForReview(tunebook, abcText, options) {
     opts.limitToBookName || null,
     opts.limitToTagName || null,
     opts.limitToTuneIds || null,
-    { classifyOnly: true }
+    {
+      classifyOnly: true,
+      personalFieldPolicy: opts.personalFieldPolicy || 'preserveLocal',
+    }
   );
   let classified = classifyImportAbcResults(results, opts);
   if (opts.tunes) {

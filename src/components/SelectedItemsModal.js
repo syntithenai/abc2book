@@ -3,6 +3,7 @@ import {Button, ButtonGroup, Dropdown, Form, Modal, Tabs, Tab, ListGroup} from '
 import BulkChangeValueModal from './BulkChangeValueModal'
 import BulkCheckModal from './BulkCheckModal'
 import BulkSearchModal from './BulkSearchModal'
+import BulkOperationProgressModal from './BulkOperationProgressModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import AddTunesToListModal from './AddTunesToListModal'
 import {appendTunesToPerformanceSet, savePerformanceSet} from '../performanceSetStore'
@@ -12,6 +13,9 @@ import {createQueue} from '../nowPlayingQueue'
 import {Link, useNavigate} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
+import useBulkOperationProgress from '../useBulkOperationProgress'
+import { shouldShowBulkOperationProgress } from '../bulkOperationProgress'
+import MediaCacheQueueModal, { useMediaCacheQueueModal } from './MediaCacheQueueModal'
 
 function BulkOpsDualIcon({leading, trailing}) {
   return (
@@ -104,6 +108,8 @@ function applyFilterChange(value, setFilter, setResults, getDefaultResults, sear
 export default function SelectedItemsModal(props) {
   const icons = props.tunebook.icons
   const navigate = useNavigate()
+  const bulkProgress = useBulkOperationProgress()
+  const mediaCacheQueueModal = useMediaCacheQueueModal()
   const [show, setShow] = useState(false)
   const [filterAdd, setFilterAdd] = useState('')
   const [filterRemove, setFilterRemove] = useState('')
@@ -162,16 +168,23 @@ export default function SelectedItemsModal(props) {
   function newTag() {
     if (filterAddTag && filterAddTag.trim()) {
       if (window.confirm('Are you sure that you want to add the tag ' + filterAddTag + ' to all the ' + props.selectedCount + ' selected tunes?')) {
-        var currentSelection = Object.keys(props.selected).filter(function(item) {
-          return (props.selected[item] ? true : false)
-        })
+        var currentSelection = selectedTuneIds()
         props.tunebook.indexes.addTagToIndex(filterAddTag)
-        props.tunebook.addTunesToTag(currentSelection, filterAddTag)
-        setFilterAddTag('')
-        setFilterRemoveTag('')
-        setTagOptions(props.defaultTagOptions())
-        props.forceRefresh()
-        handleClose()
+        runChunkedTunebookAction({
+          tuneIds: currentSelection,
+          title: 'Adding tag',
+          verb: 'Tagging',
+          processChunk: function(chunk, deferOpts) {
+            props.tunebook.addTunesToTag(chunk, filterAddTag, deferOpts)
+          },
+          onComplete: function() {
+            setFilterAddTag('')
+            setFilterRemoveTag('')
+            setTagOptions(props.defaultTagOptions())
+            props.forceRefresh()
+            handleClose()
+          },
+        })
       }
     }
   }
@@ -179,14 +192,21 @@ export default function SelectedItemsModal(props) {
   function clickAddTagOption(option) {
     if (option && option.trim()) {
       if (window.confirm('Are you sure that you want to add the tag ' + option + ' to all the ' + props.selectedCount + ' selected tunes ?')) {
-        var currentSelection = Object.keys(props.selected).filter(function(item) {
-          return (props.selected[item] ? true : false)
+        var currentSelection = selectedTuneIds()
+        runChunkedTunebookAction({
+          tuneIds: currentSelection,
+          title: 'Adding tag',
+          verb: 'Tagging',
+          processChunk: function(chunk, deferOpts) {
+            props.tunebook.addTunesToTag(chunk, option, deferOpts)
+          },
+          onComplete: function() {
+            setFilterAdd('')
+            setFilterRemove('')
+            props.forceRefresh()
+            handleClose()
+          },
         })
-        props.tunebook.addTunesToTag(currentSelection, option)
-        setFilterAdd('')
-        setFilterRemove('')
-        props.forceRefresh()
-        handleClose()
       }
     }
   }
@@ -194,14 +214,21 @@ export default function SelectedItemsModal(props) {
   function clickRemoveTagOption(option) {
     if (option && option.trim()) {
       if (window.confirm('Are you sure that you want to remove the tag ' + option + ' from all the ' + props.selectedCount + ' selected tunes ?')) {
-        var currentSelection = Object.keys(props.selected).filter(function(item) {
-          return (props.selected[item] ? true : false)
+        var currentSelection = selectedTuneIds()
+        runChunkedTunebookAction({
+          tuneIds: currentSelection,
+          title: 'Removing tag',
+          verb: 'Updating',
+          processChunk: function(chunk, deferOpts) {
+            props.tunebook.removeTunesFromTag(chunk, option, deferOpts)
+          },
+          onComplete: function() {
+            setFilterAdd('')
+            setFilterRemove('')
+            props.forceRefresh()
+            handleClose()
+          },
         })
-        props.tunebook.removeTunesFromTag(currentSelection, option)
-        setFilterAdd('')
-        setFilterRemove('')
-        props.forceRefresh()
-        handleClose()
       }
     }
   }
@@ -231,16 +258,23 @@ export default function SelectedItemsModal(props) {
   function newBook() {
     if (filterAdd && filterAdd.trim()) {
       if (window.confirm('Are you sure that you want to add all the selected tunes to the new book  ' + filterAdd + ' ?')) {
-        var currentSelection = Object.keys(props.selected).filter(function(item) {
-          return (props.selected[item] ? true : false)
-        })
+        var currentSelection = selectedTuneIds()
         props.tunebook.indexes.addBookToIndex(filterAdd)
-        props.tunebook.addTunesToBook(currentSelection, filterAdd)
-        setFilterAdd('')
-        setFilterRemove('')
-        setOptions(props.defaultOptions())
-        props.forceRefresh()
-        handleClose()
+        runChunkedTunebookAction({
+          tuneIds: currentSelection,
+          title: 'Adding to book',
+          verb: 'Updating',
+          processChunk: function(chunk, deferOpts) {
+            props.tunebook.addTunesToBook(chunk, filterAdd, deferOpts)
+          },
+          onComplete: function() {
+            setFilterAdd('')
+            setFilterRemove('')
+            setOptions(props.defaultOptions())
+            props.forceRefresh()
+            handleClose()
+          },
+        })
       }
     }
   }
@@ -248,14 +282,21 @@ export default function SelectedItemsModal(props) {
   function clickAddOption(option) {
     if (option && option.trim()) {
       if (window.confirm('Are you sure that you want to add all the selected tunes to the book ' + option + ' ?')) {
-        var currentSelection = Object.keys(props.selected).filter(function(item) {
-          return (props.selected[item] ? true : false)
+        var currentSelection = selectedTuneIds()
+        runChunkedTunebookAction({
+          tuneIds: currentSelection,
+          title: 'Adding to book',
+          verb: 'Updating',
+          processChunk: function(chunk, deferOpts) {
+            props.tunebook.addTunesToBook(chunk, option, deferOpts)
+          },
+          onComplete: function() {
+            setFilterAdd('')
+            setFilterRemove('')
+            props.forceRefresh()
+            handleClose()
+          },
         })
-        props.tunebook.addTunesToBook(currentSelection, option)
-        setFilterAdd('')
-        setFilterRemove('')
-        props.forceRefresh()
-        handleClose()
       }
     }
   }
@@ -263,28 +304,42 @@ export default function SelectedItemsModal(props) {
   function clickRemoveOption(option) {
     if (option && option.trim()) {
       if (window.confirm('Are you sure that you want to remove all the selected tunes from the book ' + option + ' ?')) {
-        var currentSelection = Object.keys(props.selected).filter(function(item) {
-          return (props.selected[item] ? true : false)
+        var currentSelection = selectedTuneIds()
+        runChunkedTunebookAction({
+          tuneIds: currentSelection,
+          title: 'Removing from book',
+          verb: 'Updating',
+          processChunk: function(chunk, deferOpts) {
+            props.tunebook.removeTunesFromBook(chunk, option, deferOpts)
+          },
+          onComplete: function() {
+            setFilterAdd('')
+            setFilterRemove('')
+            props.forceRefresh()
+            handleClose()
+          },
         })
-        props.tunebook.removeTunesFromBook(currentSelection, option)
-        setFilterAdd('')
-        setFilterRemove('')
-        props.forceRefresh()
-        handleClose()
       }
     }
   }
 
   function clickDelete() {
     if (window.confirm('Are you sure that you want to delete all the ' + props.selectedCount + ' selected tunes?')) {
-      var currentSelection = Object.keys(props.selected).filter(function(item) {
-        return (props.selected[item] ? true : false)
+      var currentSelection = selectedTuneIds()
+      runChunkedTunebookAction({
+        tuneIds: currentSelection,
+        title: 'Deleting tunes',
+        verb: 'Deleting',
+        processChunk: function(chunk, deferOpts) {
+          props.tunebook.deleteTunes(chunk, deferOpts)
+        },
+        onComplete: function() {
+          props.setSelected({})
+          props.setSelectedCount(0)
+          handleClose()
+          props.forceRefresh()
+        },
       })
-      props.tunebook.deleteTunes(currentSelection)
-      props.setSelected({})
-      props.setSelectedCount(0)
-      handleClose()
-      props.forceRefresh()
     }
   }
 
@@ -296,6 +351,34 @@ export default function SelectedItemsModal(props) {
     return Object.keys(props.selected).filter(function(item) {
       return props.selected[item] ? true : false
     })
+  }
+
+  function runChunkedTunebookAction(options) {
+    const tuneIds = options.tuneIds || selectedTuneIds()
+    const deferOpts = { deferSave: true }
+    const runAction = function(chunk) {
+      options.processChunk(chunk, deferOpts)
+    }
+    if (shouldShowBulkOperationProgress(tuneIds.length)) {
+      return bulkProgress.runTunebook({
+        tunebook: props.tunebook,
+        items: tuneIds,
+        title: options.title,
+        messageForIndex: function(current, total) {
+          return (options.verb || 'Processing') + ' tune ' + current + ' of ' + total
+        },
+        processChunk: function(chunk) {
+          runAction(chunk)
+        },
+      }).then(function() {
+        if (options.onComplete) options.onComplete()
+      })
+    }
+    props.tunebook.beginTunesBatchCommit()
+    runAction(tuneIds)
+    props.tunebook.commitTunesBatch()
+    if (options.onComplete) options.onComplete()
+    return Promise.resolve()
   }
 
   function createSetlistFromSelected() {
@@ -395,8 +478,17 @@ export default function SelectedItemsModal(props) {
     )) {
       return
     }
-    props.tunebook.bulkChangeTunes(tuneIds, [{ key: 'starred', value: starred }])
-    props.forceRefresh()
+    runChunkedTunebookAction({
+      tuneIds: tuneIds,
+      title: starred ? 'Starring tunes' : 'Unstarring tunes',
+      verb: starred ? 'Starring' : 'Unstarring',
+      processChunk: function(chunk, deferOpts) {
+        props.tunebook.bulkChangeTunes(chunk, [{ key: 'starred', value: starred }], null, deferOpts)
+      },
+      onComplete: function() {
+        props.forceRefresh()
+      },
+    })
   }
 
   function handleAddToList(list) {
@@ -445,6 +537,17 @@ export default function SelectedItemsModal(props) {
 
   return (
     <>
+      <BulkOperationProgressModal
+        show={bulkProgress.show}
+        title={bulkProgress.title}
+        progress={bulkProgress.progress}
+      />
+      <MediaCacheQueueModal
+        show={mediaCacheQueueModal.show}
+        onHide={mediaCacheQueueModal.closeQueueModal}
+        tunebook={props.tunebook}
+        title="Media download queue"
+      />
       <Button
         variant="secondary"
         className="tune-list-bulk-ops-btn"
@@ -577,6 +680,7 @@ export default function SelectedItemsModal(props) {
                 token={props.token}
                 allowRestrictedFormats={true}
                 onComplete={handleClose}
+                onOpenQueue={mediaCacheQueueModal.openQueueModal}
               />
               <BulkOpsButton as={Link} to="/print" variant="primary" icon={icons.printer} label="Print" />
               <BulkOpsButton variant="danger" icon={icons.deletebin} label="Delete" onClick={clickDelete} />

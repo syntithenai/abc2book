@@ -5,6 +5,7 @@ Three deployments share one codebase (`local-resolver/`) but **different config*
 | Target | Config file | Billing | Session store | Deploy |
 |--------|-------------|---------|---------------|--------|
 | **Cloud Run** (`tunebook-resolver-light`) | `deploy/cloud-run-env.yaml` + Secret Manager | `BILLING_ENABLED=true`, Stripe secrets | Firestore | `./deploy-cloud-light.sh` |
+| **Cloud Run** (`tunebook-score-convert`) | internal sidecar | none (billed on light gateway) | n/a | `./deploy-cloud-score-convert.sh` |
 | **Peppertrees** (home Docker) | `.env` on home machine | `BILLING_ENABLED=false` | SQLite in `./data` | `docker compose --profile https up -d --build` |
 | **Local laptop** | `.env` in `local-resolver/` | `BILLING_ENABLED=false` | optional SQLite | `uvicorn` or `docker compose -f docker-compose.dev.yml` |
 
@@ -56,3 +57,49 @@ Your laptop `.env` is convenient but mixes roles. Minimum split:
 - **Local:** `.env` with `BILLING_ENABLED=false`
 
 See also [CLOUD_RUN.md](../CLOUD_RUN.md) and [PEPPERTREES_OAUTH.md](../PEPPERTREES_OAUTH.md).
+
+## Score-convert sidecar (hosted MuseScore conversions)
+
+Hosted MIDI→ABC (`/midi2abc`) and native MuseScore file conversion (`/score2xml`) run on a **separate internal** Cloud Run service so the light gateway stays small.
+
+1. Create the shared secret (once):
+
+   ```bash
+   ./deploy/setup-cloud-score-convert-secret.sh
+   ```
+
+2. Deploy the sidecar:
+
+   ```bash
+   ./deploy-cloud-score-convert.sh
+   ```
+
+3. Grant the light resolver service account `roles/run.invoker` on `tunebook-score-convert` (command printed at end of deploy).
+
+4. Set on `tunebook-resolver-light` in `deploy/cloud-run-env.yaml`:
+
+   - `SCORE_CONVERT_URL` — sidecar URL from deploy output
+   - `SCORE_CONVERT_USE_ID_TOKEN: "true"`
+
+5. Redeploy the light gateway:
+
+   ```bash
+   ./deploy-cloud-light.sh
+   ```
+
+**Smoke checklist**
+
+- `curl -sS "$LIGHT_URL/health" | jq '.features.midiImport, .features.scoreConvert'` → both `true` when sidecar is healthy
+- Import a `.mid` file via the SPA (Midi Import Wizard) — ledger shows `midi_import`
+- Import a native `.mscx` via Score import — ledger shows `score_file_convert`
+- `/midi2xml` on the light gateway remains unbilled (music21 utility path)
+
+**Local dev with sidecar**
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.dev.yml --profile score-convert up -d score-convert
+# Run server_light with:
+# SCORE_CONVERT_URL=http://localhost:8790 SCORE_CONVERT_SECRET=dev-score-convert-secret
+```
+
+When `SCORE_CONVERT_URL` is unset, the full home resolver converts inline (no sidecar).

@@ -13,6 +13,8 @@ import {
 } from '../tuneDownloadActions'
 import useStemDownloadQueue from '../useStemDownloadQueue'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
+import SearchProgressBar from './SearchProgressBar'
+import { buildBulkProgressEvent } from '../bulkOperationProgress'
 
 const STEMS_FORMAT = {
   id: 'stems',
@@ -44,10 +46,12 @@ function DownloadOptionButton({ format, icons, disabled, busy, onClick, classNam
 function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplete, onOpenQueue) {
   const [busyFormatId, setBusyFormatId] = useState('')
   const [errorMessage, setErrorMessage] = useState('')
+  const [downloadProgress, setDownloadProgress] = useState(buildBulkProgressEvent(0, 0, ''))
 
   async function runDownload(formatId) {
     setErrorMessage('')
     setBusyFormatId(formatId)
+    setDownloadProgress(buildBulkProgressEvent(0, tunes.length, 'Starting download…'))
     if (!isLinkedAudioDownloadFormat(formatId)) {
       toast.info(getTuneDownloadStartToastMessage(formatId, tunes.length), { autoClose: 3000 })
     }
@@ -58,6 +62,9 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
         archiveBaseName: archiveBaseName,
         token: token,
         onOpenQueue: onOpenQueue,
+        onProgress: function(event) {
+          setDownloadProgress(event)
+        },
       })
       if (onComplete) onComplete(formatId)
     } catch (error) {
@@ -66,10 +73,11 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
       toast.error(message, { autoClose: 5000 })
     } finally {
       setBusyFormatId('')
+      setDownloadProgress(buildBulkProgressEvent(0, 0, ''))
     }
   }
 
-  return { busyFormatId, errorMessage, runDownload }
+  return { busyFormatId, errorMessage, downloadProgress, runDownload }
 }
 
 function buildStemQueueTunebook(tunebook, token) {
@@ -79,6 +87,20 @@ function buildStemQueueTunebook(tunebook, token) {
     accessToken: token && token.access_token ? token.access_token : null,
     demucsModel: health.status && health.status.demucsModel ? health.status.demucsModel : 'htdemucs',
   }
+}
+
+function DownloadProgressSection({ progress, busy }) {
+  if (!busy || !progress || !progress.total) return null
+  return (
+    <div className="tune-download-progress">
+      <SearchProgressBar
+        visible={true}
+        percent={progress.percent}
+        message={progress.message}
+        defaultMessage="Downloading…"
+      />
+    </div>
+  )
 }
 
 function StemsDownloadSection({ tunes, tunebook, token, icons, layout }) {
@@ -180,7 +202,7 @@ export function TuneDownloadModal({
   }, [user, allowRestrictedFormats])
   const showStemsDownload = isStemsDownloadAvailable()
     && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
-  const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
+  const { busyFormatId, errorMessage, downloadProgress, runDownload } = useTuneDownloadState(
     tuneList,
     tunebook,
     archiveBaseName,
@@ -202,6 +224,7 @@ export function TuneDownloadModal({
           Choose a format for {tuneList.length} tune{tuneList.length === 1 ? '' : 's'}.
         </p>
         {errorMessage ? <Alert variant="danger">{errorMessage}</Alert> : null}
+        <DownloadProgressSection progress={downloadProgress} busy={!!busyFormatId} />
         <div className="tune-download-options">
           {downloadFormats.map(function(format) {
             return (
@@ -254,7 +277,7 @@ export default function TuneDownloadDropdown({
   const showStemsDownload = isStemsDownloadAvailable()
     && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const toggleLabelClassName = labelClassName || 'bulk-ops-btn-label'
-  const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
+  const { busyFormatId, errorMessage, downloadProgress, runDownload } = useTuneDownloadState(
     tuneList,
     tunebook,
     archiveBaseName,
@@ -306,6 +329,11 @@ export default function TuneDownloadDropdown({
         {errorMessage ? (
           <Dropdown.ItemText className="text-danger tune-download-dropdown-error">
             {errorMessage}
+          </Dropdown.ItemText>
+        ) : null}
+        {busyFormatId && downloadProgress.total > 0 ? (
+          <Dropdown.ItemText className="tune-download-dropdown-progress">
+            <DownloadProgressSection progress={downloadProgress} busy={true} />
           </Dropdown.ItemText>
         ) : null}
         <div className="tune-download-dropdown-options">

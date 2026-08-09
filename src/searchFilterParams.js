@@ -67,6 +67,32 @@ export function parseSearchFilterParams(searchParams) {
   }
 }
 
+/**
+ * True when the hash targets the tune search list (not a tune detail URL).
+ */
+export function isSearchListHash(hash) {
+  const value = String(hash || '')
+  return value === '#/tunes' || value.startsWith('#/tunes?')
+}
+
+/**
+ * Read search filter params from the current location hash, if present.
+ * Used on first load so /tunes?book=... applies before the list filter runs.
+ */
+export function readSearchFilterParamsFromHash(location) {
+  const loc = location || (typeof window !== 'undefined' ? window.location : null)
+  if (!loc) return null
+  const hash = loc.hash || ''
+  if (!isSearchListHash(hash)) return null
+  const qIndex = hash.indexOf('?')
+  if (qIndex < 0) return null
+  try {
+    return parseSearchFilterParams(new URLSearchParams(hash.slice(qIndex + 1)))
+  } catch (e) {
+    return null
+  }
+}
+
 export function hasAnySearchFilterParams(searchParams) {
   if (!searchParams || typeof searchParams.get !== 'function') return false
   return SEARCH_FILTER_PARAM_KEYS.some(function(key) {

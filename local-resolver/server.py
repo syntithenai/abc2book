@@ -150,6 +150,7 @@ try:
         billing_enabled,
         billing_health_fields,
         ensure_db as ensure_billing_db,
+        ensure_user_billing,
         get_balance_millicents,
         grant_trial_if_new,
         has_credit_access,
@@ -165,6 +166,7 @@ except ImportError as _billing_import_err:
     logging.getLogger(__name__).warning("Billing module not available: %s", _billing_import_err)
     billing_enabled = lambda: False  # type: ignore[assignment]
     ensure_billing_db = lambda: None  # type: ignore[assignment]
+    ensure_user_billing = lambda email: {"granted": False}  # type: ignore[assignment]
     grant_trial_if_new = lambda email: {"granted": False}  # type: ignore[assignment]
     has_credit_access = lambda email: True  # type: ignore[assignment]
     should_bill_user = lambda email: False  # type: ignore[assignment]
@@ -897,6 +899,7 @@ def _resolver_host_access(email: str) -> dict[str, bool]:
             "allowed": True,
             "embeddedCreds": True,
         }
+    ensure_user_billing(email)
     has_credit = get_balance_millicents(email) > 0
     return {
         "resolverAccess": True,

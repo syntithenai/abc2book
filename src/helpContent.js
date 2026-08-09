@@ -335,7 +335,7 @@ export function HelpMediaResolver() {
       </div>
       <h4>Used for</h4>
       <ul>
-        <li>MIDI import (convert to ABC)</li>
+        <li>MIDI import (convert to ABC; uses resolver credit on hosted)</li>
         <li>Pitch/tempo adjustment and stem separation on linked media</li>
         <li><strong>Search Lyrics</strong> (extra lyric sites via resolver) and <strong>Search Chords</strong> (Ultimate Guitar, e-chords, and similar — local bundled ABC with embedded chords works without a resolver)</li>
         <li><strong>Research Background</strong> (web + LLM summary when configured)</li>

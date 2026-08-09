@@ -324,8 +324,11 @@ export function openPdfForPrint(blob, filename) {
 
 /**
  * Render each .print-pdf-tune-page in container to a multi-page A4 PDF.
+ * options.onProgress({ current, total, percent, message })
  */
-export async function generateTunesPdf(container, filename) {
+export async function generateTunesPdf(container, filename, options) {
+  const opts = options || {}
+  const onProgress = typeof opts.onProgress === 'function' ? opts.onProgress : function() {}
   if (!container) {
     throw new Error('Nothing to print.');
   }
@@ -352,7 +355,14 @@ export async function generateTunesPdf(container, filename) {
     const pdfHeight = pdf.internal.pageSize.getHeight();
 
     let pdfPageIndex = 0;
+    const pageCount = pages.length
     for (let i = 0; i < pages.length; i += 1) {
+      onProgress({
+        current: i + 1,
+        total: pageCount,
+        percent: pageCount > 0 ? Math.round(((i + 1) / pageCount) * 100) : 0,
+        message: 'Preparing tune ' + (i + 1) + ' of ' + pageCount,
+      })
       const pageEl = pages[i];
       const pageTop = pageEl.offsetTop;
       container.style.transform = 'translateY(-' + pageTop + 'px)';

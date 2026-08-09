@@ -10,6 +10,7 @@ import {
 } from './preferredRemoteOutputSettings';
 import { castHttpOnHttpsPageWarning, resolveCastMediaBase } from './castSupport';
 import { isYoutubePlaybackUri } from './youtubePlaybackUri';
+import { isRemoteOutputUiEnabled } from './remoteOutputUi';
 
 export function isRemoteOutputActive(remoteOutputEngineRef) {
   const engine = remoteOutputEngineRef && remoteOutputEngineRef.current;
@@ -73,6 +74,7 @@ export function canRouteAbcMidiToRemote(mediaController) {
 }
 
 export function canRouteToSnapcastPlayback(mediaController) {
+  if (!isRemoteOutputUiEnabled()) return false;
   if (!getSnapcastOutputEnabled()) return false;
   if (!mediaController) return false;
   const features = resolverFeatures(mediaController);
@@ -109,6 +111,7 @@ export function needsCastHlsSession(mediaController, payload) {
   const features = resolverFeatures(mediaController);
   if (needsCastTranscodeSession(mediaController)) return true;
   if (payload.sourceType === 'abc-midi') return true;
+  if (payload.sourceType === 'midifile' || payload.sourceType === 'midi') return true;
   if (payload.sourceType === 'youtube' && features.castPlayback) return true;
   if (features.castPlayback && isYoutubePlaybackUri(payload.source)) return true;
   if (payload.concatSet && Array.isArray(payload.queue) && payload.queue.length > 1) return true;
@@ -117,6 +120,7 @@ export function needsCastHlsSession(mediaController, payload) {
 }
 
 export function canRouteToCastSdk(mediaController) {
+  if (!isRemoteOutputUiEnabled()) return false;
   if (!getChromecastOutputEnabled()) return false;
   if (!mediaController) return false;
   const features = resolverFeatures(mediaController);

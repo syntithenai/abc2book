@@ -22,6 +22,9 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   snapcastPlayback: false,
   castPlayback: false,
   midiRender: false,
+  midiConvert: false,
+  midiImport: false,
+  scoreConvert: false,
   tts: false,
 });
 
@@ -51,6 +54,9 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   snapcastPlayback: false,
   castPlayback: false,
   midiRender: false,
+  midiConvert: true,
+  midiImport: false,
+  scoreConvert: false,
   tts: false,
 });
 
@@ -86,6 +92,9 @@ export function normalizeResolverFeatures(raw, options) {
     snapcastPlayback: raw.snapcastPlayback === true,
     castPlayback: raw.castPlayback === true,
     midiRender: raw.midiRender === true,
+    midiConvert: raw.midiConvert === true,
+    midiImport: raw.midiImport === true,
+    scoreConvert: raw.scoreConvert === true,
     tts: raw.tts === true,
   };
 }

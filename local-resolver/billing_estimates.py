@@ -10,9 +10,13 @@ from billing_rates import (
     egress_cost_millicents,
     linked_cover_job_cost_millicents,
     llm_token_cost_millicents,
+    midi_import_job_cost_millicents,
     millicents_to_cents,
     ocr_flat_cost_millicents,
     practice_track_job_cost_millicents,
+    score_convert_reserve_file_bytes,
+    score_convert_reserve_response_bytes,
+    score_file_convert_cost_millicents,
     scrape_cost_millicents,
     stem_job_cost_millicents,
     tts_speech_cost_millicents,
@@ -98,6 +102,14 @@ OPERATION_CATALOG: dict[str, dict[str, str]] = {
     "tts_speech": {
         "label": "Text-to-speech",
         "description": "Speak track titles and voice feedback via resolver TTS.",
+    },
+    "midi_import": {
+        "label": "MIDI import",
+        "description": "Hosted MIDI to ABC conversion via MuseScore-backed orchestrator.",
+    },
+    "score_file_convert": {
+        "label": "MuseScore file convert",
+        "description": "Native MuseScore or score upload converted to MusicXML.",
     },
 }
 
@@ -224,6 +236,30 @@ def estimate_operation_millicents(
             response_bytes = min(500_000, max(_TTS_DEFAULT_RESPONSE_BYTES, text_chars * 2500))
         return tts_speech_cost_millicents(
             request_bytes=request_bytes,
+            response_bytes=response_bytes,
+        )
+
+    if op == "midi_import":
+        file_bytes = int(p.get("file_bytes") or p.get("fileBytes") or 0)
+        if file_bytes <= 0:
+            file_bytes = score_convert_reserve_file_bytes()
+        response_bytes = int(p.get("response_bytes") or p.get("responseBytes") or 0)
+        if response_bytes <= 0:
+            response_bytes = score_convert_reserve_response_bytes()
+        return midi_import_job_cost_millicents(
+            file_bytes=file_bytes,
+            response_bytes=response_bytes,
+        )
+
+    if op == "score_file_convert":
+        file_bytes = int(p.get("file_bytes") or p.get("fileBytes") or 0)
+        if file_bytes <= 0:
+            file_bytes = score_convert_reserve_file_bytes()
+        response_bytes = int(p.get("response_bytes") or p.get("responseBytes") or 0)
+        if response_bytes <= 0:
+            response_bytes = score_convert_reserve_response_bytes()
+        return score_file_convert_cost_millicents(
+            file_bytes=file_bytes,
             response_bytes=response_bytes,
         )
 

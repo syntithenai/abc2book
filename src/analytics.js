@@ -266,6 +266,7 @@ const RESOLVER_EVENTS = new Set([
   'stem-audio',
   'midi2xml',
   'midi2abc',
+  'score2xml',
   'abc2xml',
   'transcribe-sheet-image',
   'search-images',

@@ -169,6 +169,7 @@ function reviewAbcText(abcText, ctx) {
       forceBook: ctx.book || null,
       tunes: ctx.tunes || {},
       includeSkipped: false,
+      personalFieldPolicy: 'full',
     });
     if (!classified.candidates.length && !(classified.summary && classified.summary.deletes)) {
       return errorResult('No tunes found in that import.');

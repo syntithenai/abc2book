@@ -31,3 +31,6 @@ BILLING_TRIAL_CREDIT_CENTS: "30"
 BILLING_CHECKOUT_SUCCESS_URL: "https://tunebook.net/#/billing/success?session_id={CHECKOUT_SESSION_ID}"
 BILLING_CHECKOUT_CANCEL_URL: "https://tunebook.net/#/billing/cancel"
 BILLING_CHECKOUT_ALLOWED_RETURN_ORIGINS: "https://tunebook.net,https://www.tunebook.net,http://localhost:3000,http://127.0.0.1:3000,http://localhost:5173,http://127.0.0.1:5173"
+# Score-convert sidecar (internal MuseScore conversions). Set URL after deploy-cloud-score-convert.sh.
+SCORE_CONVERT_URL: "https://tunebook-score-convert-927667106833.australia-southeast1.run.app"
+SCORE_CONVERT_USE_ID_TOKEN: "true"

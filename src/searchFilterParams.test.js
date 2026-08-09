@@ -1,9 +1,11 @@
 import {
   buildSearchFilterParams,
   hasAnySearchFilterParams,
+  isSearchListHash,
   normalizeFilterList,
   onlyTextFilterDiffers,
   parseSearchFilterParams,
+  readSearchFilterParamsFromHash,
   searchFilterParamsEqual,
 } from './searchFilterParams'
 
@@ -113,5 +115,24 @@ describe('searchFilterParams', function() {
     expect(onlyTextFilterDiffers(base, textChanged)).toBe(true)
     expect(onlyTextFilterDiffers(base, bookChanged)).toBe(false)
     expect(onlyTextFilterDiffers(base, same)).toBe(false)
+  })
+
+  test('isSearchListHash distinguishes list route from tune detail', function() {
+    expect(isSearchListHash('#/tunes')).toBe(true)
+    expect(isSearchListHash('#/tunes?book=songs')).toBe(true)
+    expect(isSearchListHash('#/tunes/abc-123')).toBe(false)
+    expect(isSearchListHash('#/practice')).toBe(false)
+  })
+
+  test('readSearchFilterParamsFromHash parses tune list hash query', function() {
+    const parsed = readSearchFilterParamsFromHash({ hash: '#/tunes?book=songs&tags=fiddle,jig' })
+    expect(parsed).toEqual({
+      book: 'songs',
+      tags: ['fiddle', 'jig'],
+      genres: [],
+      artists: [],
+      q: '',
+      group: '',
+    })
   })
 })

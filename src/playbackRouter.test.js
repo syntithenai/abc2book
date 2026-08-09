@@ -41,11 +41,22 @@ function applyFixtureSettings(settings) {
 }
 
 describe('playbackRouter', function() {
+  const originalEnv = process.env.REACT_APP_REMOTE_OUTPUT_UI;
+
   beforeEach(function() {
+    process.env.REACT_APP_REMOTE_OUTPUT_UI = 'true';
     localStorage.clear();
     setSnapcastOutputEnabled(true);
     setChromecastOutputEnabled(true);
     prefersNativeMediaPlayback.mockReturnValue(false);
+  });
+
+  afterEach(function() {
+    if (originalEnv === undefined) {
+      delete process.env.REACT_APP_REMOTE_OUTPUT_UI;
+    } else {
+      process.env.REACT_APP_REMOTE_OUTPUT_UI = originalEnv;
+    }
   });
 
   test.each(PLAYBACK_ROUTER_FIXTURES.map(function(f) { return [f.name, f]; }))(

@@ -28,6 +28,17 @@ describe('tuneCandidateFilter', function() {
     expect(ids).toEqual(['a', 'b'])
   })
 
+  test('resolveCandidateTuneIds matches book names case-insensitively', function() {
+    const indexes = {
+      bookIndex: { Songs: ['a', 'b'] },
+      tagIndex: {},
+      genreIndex: {},
+      artistIndex: {},
+    }
+    const ids = resolveCandidateTuneIds({ currentTuneBook: 'songs' }, indexes, ['a', 'b', 'c'])
+    expect(ids).toEqual(['a', 'b'])
+  })
+
   test('intersects tag filters', function() {
     const indexes = {
       bookIndex: {},

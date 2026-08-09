@@ -42,6 +42,7 @@ export default function BulkComposerDiscoveryModal({
   show: controlledShow,
   onHide,
   hideTrigger = false,
+  onQueueStarted,
 }) {
   const icons = tunebook.icons
   const isControlled = controlledShow !== undefined
@@ -85,6 +86,9 @@ export default function BulkComposerDiscoveryModal({
       accessToken: accessToken(),
     })
     queue.start()
+    if (typeof onQueueStarted === 'function') {
+      onQueueStarted()
+    }
     close()
   }
 

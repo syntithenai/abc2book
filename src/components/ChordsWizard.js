@@ -65,6 +65,34 @@ import { tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay'
 import { allGenres } from '../tuneBibliographicUtils'
 
 const AUTOSAVE_MS = 400
+const WHOLE_DRAFT_WARNING_KEY = '__whole__'
+
+function editableSectionsList(sections) {
+  return (sections || []).filter(function(s) { return s && !s.chartRevisit })
+}
+
+function sectionKeyForBlockIndex(sections, blockIndex) {
+  const editable = editableSectionsList(sections)
+  const idx = Number(blockIndex)
+  if (!Number.isFinite(idx) || idx < 0 || idx >= editable.length) return null
+  return editable[idx].key
+}
+
+function warningTargetKeyForFailure(sections, failure, fallbackKey) {
+  if (failure && failure.blockIndex != null) {
+    const key = sectionKeyForBlockIndex(sections, failure.blockIndex)
+    if (key) return key
+  }
+  return fallbackKey || WHOLE_DRAFT_WARNING_KEY
+}
+
+function draftSaveFailure(message, extras) {
+  return Object.assign({
+    code: 'chart_save_blocked',
+    message: message,
+    fixHint: 'Your chord chart was kept as you typed it. Fix the issue above, then try again.',
+  }, extras || {})
+}
 
 function chartLooksComplete(text) {
   const lines = String(text || '').split(/\n/)
@@ -95,7 +123,7 @@ export default function ChordsWizard(props) {
   const [pasteInitialText, setPasteInitialText] = useState(null)
   const [pasteInitialUpdateLyrics, setPasteInitialUpdateLyrics] = useState(false)
   const [highlightKey, setHighlightKey] = useState(null)
-  const [mergeFailure, setMergeFailure] = useState(null)
+  const [draftWarnings, setDraftWarnings] = useState({})
   const [savingLabel, setSavingLabel] = useState('')
   const [addSectionDialog, setAddSectionDialog] = useState(null)
   const [newSectionName, setNewSectionName] = useState('')
@@ -184,7 +212,7 @@ export default function ChordsWizard(props) {
     committedSectionsRef.current = next
     setSectionDrafts({})
     setWholeDraft(null)
-    setMergeFailure(null)
+    setDraftWarnings({})
     toast.info('Chord grid refreshed from notation.')
   }
 
@@ -218,7 +246,7 @@ export default function ChordsWizard(props) {
     committedSectionsRef.current = next
     setSectionDrafts({})
     setWholeDraft(null)
-    setMergeFailure(null)
+    setDraftWarnings({})
   }, [props.notes, props.abc])
 
   const onConsumePendingChordImport = props.onConsumePendingChordImport
@@ -267,6 +295,48 @@ export default function ChordsWizard(props) {
     root.querySelectorAll('textarea.chords-wizard-textarea').forEach(fitChordTextarea)
   }, [sections, sectionDrafts, wholeDraft, hideSections])
 
+  function clearDraftWarning(targetKey) {
+    if (!targetKey) return
+    setDraftWarnings(function(prev) {
+      if (!prev[targetKey]) return prev
+      const next = Object.assign({}, prev)
+      delete next[targetKey]
+      return next
+    })
+  }
+
+  function setDraftWarning(targetKey, failure) {
+    if (!targetKey || !failure) return
+    setDraftWarnings(function(prev) {
+      return Object.assign({}, prev, { [targetKey]: failure })
+    })
+  }
+
+  function mergeFailureRefreshHandler(failure) {
+    if (
+      failure
+      && (
+        failure.code === 'block_count_mismatch'
+        || failure.code === 'invariant_violation'
+      )
+    ) {
+      return refreshSectionsFromMelody
+    }
+    return null
+  }
+
+  function renderDraftWarning(targetKey) {
+    const failure = draftWarnings[targetKey]
+    if (!failure) return null
+    return (
+      <ChordMergeFailureToast
+        failure={failure}
+        onDismiss={function() { clearDraftWarning(targetKey) }}
+        onRefresh={mergeFailureRefreshHandler(failure)}
+      />
+    )
+  }
+
   function saveSectionsTransaction(nextSections, options) {
     const opts = options || {}
     const wouldWriteMarkers = (nextSections || []).some(function(s) {
@@ -275,6 +345,7 @@ export default function ChordsWizard(props) {
     if (wouldWriteMarkers && !markerNoticeShownRef.current) {
       pendingSaveRef.current = { nextSections: nextSections, options: opts }
       setShowMarkerConfirm(true)
+      setSavingLabel('')
       return false
     }
     return commitSectionsTransaction(nextSections, opts)
@@ -329,12 +400,17 @@ export default function ChordsWizard(props) {
     })
 
     if (!result.ok) {
-      setMergeFailure(result.error)
+      const targetKey = warningTargetKeyForFailure(
+        nextSections,
+        result.error,
+        opts.draftWarningKey
+      )
+      setDraftWarning(targetKey, result.error)
       setSavingLabel('')
       return false
     }
 
-    setMergeFailure(null)
+    setDraftWarnings({})
     melodyHashRef.current = hashAbcNotes(primaryNoteLines())
     localSectionsRef.current = true
     const committed = Array.isArray(nextSections) ? nextSections.slice() : (result.blocks || [])
@@ -369,9 +445,6 @@ export default function ChordsWizard(props) {
     setShowMarkerConfirm(false)
     pendingSaveRef.current = null
     setSavingLabel('')
-    setSections(committedSectionsRef.current.slice())
-    setSectionDrafts({})
-    setWholeDraft(null)
   }
 
   function handleSectionsChange(nextSections) {
@@ -715,7 +788,10 @@ export default function ChordsWizard(props) {
             return sectionsWithDrafts(committedSectionsRef.current, drafts)
           } catch (e) {
             if (e && e.chartSaveBlocked) {
-              toast.warning(e.message || 'Could not save chart')
+              setDraftWarning(
+                sectionKey,
+                draftSaveFailure(e.message || 'Could not save chart')
+              )
               setSavingLabel('')
               return null
             }
@@ -733,6 +809,7 @@ export default function ChordsWizard(props) {
             historyLabel: historyLabel || 'Save chords',
             updateLyrics: prepared.updateLyrics,
             lyricLines: prepared.lyricLines,
+            draftWarningKey: sectionKey,
           })
         }, 0)
         return drafts
@@ -741,6 +818,7 @@ export default function ChordsWizard(props) {
   }
 
   function handleSectionDraftChange(section, value) {
+    clearDraftWarning(section.key)
     setSectionDrafts(function(prev) {
       return Object.assign({}, prev, { [section.key]: value })
     })
@@ -763,7 +841,10 @@ export default function ChordsWizard(props) {
       const alignedText = splitChordGridAcrossMelodyStrains(text, primaryNoteLines())
       const prep = prepareChordGridDraft(sections, alignedText, noteLength)
       if (!prep.ok) {
-        toast.warning(prep.error || 'Could not save chart')
+        setDraftWarning(
+          WHOLE_DRAFT_WARNING_KEY,
+          draftSaveFailure(prep.error || 'Could not save chart')
+        )
         setSavingLabel('')
         return
       }
@@ -798,6 +879,7 @@ export default function ChordsWizard(props) {
         historyLabel: 'Save chords',
         updateLyrics: lyricRename.updated,
         lyricLines: lyricRename.lines,
+        draftWarningKey: WHOLE_DRAFT_WARNING_KEY,
       })
       if (lyricRename.updated && typeof props.onLyricsImport === 'function') {
         props.onLyricsImport(lyricRename.lines)
@@ -806,6 +888,7 @@ export default function ChordsWizard(props) {
   }
 
   function handleWholeDraftChange(value) {
+    clearDraftWarning(WHOLE_DRAFT_WARNING_KEY)
     setWholeDraft(value)
     scheduleWholeAutosave(value)
   }
@@ -904,6 +987,7 @@ export default function ChordsWizard(props) {
               setHideSections(!!e.target.checked)
               setWholeDraft(null)
               setSectionDrafts({})
+              setDraftWarnings({})
             }}
           />
           {savingLabel ? (
@@ -988,6 +1072,7 @@ export default function ChordsWizard(props) {
           <div className="d-flex flex-wrap align-items-center gap-2 mb-2">
             <Button size="sm" variant="outline-secondary" onClick={openRecordAll}>Record</Button>
           </div>
+          {renderDraftWarning(WHOLE_DRAFT_WARNING_KEY)}
           <Form.Control
             as="textarea"
             className="chords-wizard-textarea chords-wizard-textarea--whole"
@@ -1123,36 +1208,26 @@ export default function ChordsWizard(props) {
                     />
                   </>
                 ) : (
-                  <Form.Control
-                    as="textarea"
-                    className="chords-wizard-textarea"
-                    placeholder={"eg \nC|F# C|Cmin . . G |Cb"}
-                    value={sectionChartValue(section)}
-                    onChange={function(e) {
-                      fitChordTextarea(e.target)
-                      handleSectionDraftChange(section, e.target.value)
-                    }}
-                    ref={fitChordTextarea}
-                  />
+                  <>
+                    {renderDraftWarning(section.key)}
+                    <Form.Control
+                      as="textarea"
+                      className="chords-wizard-textarea"
+                      placeholder={"eg \nC|F# C|Cmin . . G |Cb"}
+                      value={sectionChartValue(section)}
+                      onChange={function(e) {
+                        fitChordTextarea(e.target)
+                        handleSectionDraftChange(section, e.target.value)
+                      }}
+                      ref={fitChordTextarea}
+                    />
+                  </>
                 )}
               </div>
             )
           })}
         </div>
       )}
-
-      <ChordMergeFailureToast
-        failure={mergeFailure}
-        onDismiss={function() { setMergeFailure(null) }}
-        onRefresh={
-          mergeFailure && (
-            mergeFailure.code === 'block_count_mismatch'
-            || mergeFailure.code === 'invariant_violation'
-          )
-            ? refreshSectionsFromMelody
-            : null
-        }
-      />
 
       <ChordSectionRecordModal
         show={!!recordTarget}

@@ -8,6 +8,7 @@ import httpx
 from browser_fetch import fetch_html_with_fallback, is_manual_only_host, is_playwright_eligible_host
 from polite_fetch import BROWSER_USER_AGENT
 from recording_artists import discover_recording_artists, is_generic_artist
+from chord_sheet_utils import normalize_lyric_blocks
 
 LYRICS_FETCH_TIMEOUT_SECONDS = 20.0
 LRCLIB_USER_AGENT = "ABC2BookResolver/1.0 (+https://tunebook.net)"
@@ -323,19 +324,8 @@ def is_usable_lyric_content(lines_or_text):
     return True, kept
 
 
-def lines_to_stanzas(lines):
-    stanzas = []
-    current = []
-    for line in lines:
-        if not line:
-            if current:
-                stanzas.append(current)
-                current = []
-            continue
-        current.append(line)
-    if current:
-        stanzas.append(current)
-    return stanzas
+def blocks_to_stanzas(lines):
+    return [block for block in normalize_lyric_blocks(lines) if block]
 
 
 def finalize_lyrics_lines(raw_lines):
@@ -363,7 +353,7 @@ def finalize_lyrics_lines(raw_lines):
         return [], [], ""
     lines = usable2 or usable or lines
 
-    stanzas = lines_to_stanzas(lines)
+    stanzas = blocks_to_stanzas(lines)
     if not stanzas:
         return [], [], ""
 

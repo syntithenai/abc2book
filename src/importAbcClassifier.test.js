@@ -173,7 +173,7 @@ describe('importAbcClassifier', function() {
       },
     };
     const classified = classifyAbcTextForReview(tunebook, 'X:1\nT:Solo\nK:C\nC');
-    expect(seenOptions).toEqual({ classifyOnly: true });
+    expect(seenOptions).toEqual({ classifyOnly: true, personalFieldPolicy: 'preserveLocal' });
     expect(classified.candidates).toHaveLength(1);
   });
 });
