@@ -788,8 +788,8 @@ function LinksEditorBody(props) {
     }
 
     function getTuneId() {
-        if (props.tune && props.tune.id) return props.tune.id
         if (props.tuneId) return props.tuneId
+        if (props.tune && props.tune.id) return props.tune.id
         return ''
     }
 
@@ -1448,6 +1448,7 @@ function LinksEditorBody(props) {
                     token={props.token}
                     login={props.login}
                     icons={props.tunebook && props.tunebook.icons}
+                    mediaController={props.mediaController}
                 />
             )}
             <ScratchpadWorkspacePickerModal

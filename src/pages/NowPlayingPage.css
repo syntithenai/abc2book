@@ -159,6 +159,24 @@
   margin-top: 0.5rem;
 }
 
+.now-playing-page-media-sources-picker .media-source-select-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.now-playing-page-media-sources-picker .media-source-select-row .media-source-select {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.now-playing-page-play-range-btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  margin-top: 0;
+}
+
 .now-playing-page-main-row {
   display: flex;
   align-items: center;

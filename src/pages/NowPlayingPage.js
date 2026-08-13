@@ -19,6 +19,10 @@ import TuneArtwork from '../components/TuneArtwork'
 import { hasTuneArtwork } from '../nowPlayingArtwork'
 import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
+import LinkPlayRangeModal from '../components/LinkPlayRangeModal'
+import { resolveLoopEditorLinkIndex } from '../mediaPlaybackUtils'
+import { getLinkSrcType } from '../checkTuneLinkPlayback'
+import { formatLinkPlayRangeLabel } from '../linkPlaybackRegionScanUtils'
 import { isAndroidApp } from '../platformUtils'
 import { useDocumentTitle } from '../pageTitle'
 import './NowPlayingPage.css'
@@ -65,6 +69,7 @@ export default function NowPlayingPage(props) {
     ? hasTuneArtwork(playingTune, props.tunebook, { linkIndex: activeLinkIndex })
     : false
   const [showArtwork, setShowArtwork] = useState(!!showArtworkCandidate)
+  const [showPlayRangeModal, setShowPlayRangeModal] = useState(false)
 
   useDocumentTitle(tuneName + ' — Now Playing')
 
@@ -101,13 +106,14 @@ export default function NowPlayingPage(props) {
     if (props.blockKeyboardShortcuts) return undefined
     function onKeyDown(event) {
       if (event.key === 'Escape') {
+        if (showPlayRangeModal) return
         event.preventDefault()
         handleClose()
       }
     }
     window.addEventListener('keydown', onKeyDown)
     return function() { window.removeEventListener('keydown', onKeyDown) }
-  }, [props.blockKeyboardShortcuts, handleClose])
+  }, [props.blockKeyboardShortcuts, handleClose, showPlayRangeModal])
 
   const queueContext = {
     tunes: props.tunes,
@@ -115,6 +121,32 @@ export default function NowPlayingPage(props) {
     setNowPlayingQueue: props.setNowPlayingQueue,
     setQueuePlayConfirm: props.setQueuePlayConfirm,
     skipQueueConfirm: true,
+  }
+
+  const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
+  const playRangeLinkIndex = playingTune && mediaController
+    ? resolveLoopEditorLinkIndex(playingTune, mediaController, isYoutubeLink)
+    : null
+  const playRangeLink = playRangeLinkIndex != null
+    && playingTune
+    && Array.isArray(playingTune.links)
+    ? playingTune.links[playRangeLinkIndex]
+    : null
+  const showPlayRangeButton = !!(
+    playRangeLink
+    && getLinkSrcType(playRangeLink, isYoutubeLink) !== 'midifile'
+  )
+  const playRangeLabel = showPlayRangeButton ? formatLinkPlayRangeLabel(playRangeLink) : ''
+
+  useEffect(function() {
+    if (!showPlayRangeButton && showPlayRangeModal) {
+      setShowPlayRangeModal(false)
+    }
+  }, [showPlayRangeButton, showPlayRangeModal])
+
+  function handlePlayRangeLinksUpdated(nextLinks) {
+    if (!playingTune || !props.tunebook || typeof props.tunebook.saveTune !== 'function') return
+    props.tunebook.saveTune(Object.assign({}, playingTune, { links: nextLinks }))
   }
 
   function handlePlayPause() {
@@ -351,6 +383,18 @@ export default function NowPlayingPage(props) {
                   login={props.login}
                   accessToken={props.token}
                   className="now-playing-page-media-sources-picker"
+                  selectTrailing={showPlayRangeButton ? (
+                    <Button
+                      variant="outline-primary"
+                      size="sm"
+                      className="now-playing-page-play-range-btn"
+                      aria-label="Play Range"
+                      title={playRangeLabel ? ('Play Range (' + playRangeLabel + ')') : 'Play Range'}
+                      onClick={function() { setShowPlayRangeModal(true) }}
+                    >
+                      Play Range
+                    </Button>
+                  ) : null}
                 />
                 {typeof props.onOpenLinksEditor === 'function' ? (
                   <Button
@@ -369,6 +413,23 @@ export default function NowPlayingPage(props) {
                   </Button>
                 ) : null}
               </div>
+              {showPlayRangeButton && playRangeLinkIndex != null ? (
+                <LinkPlayRangeModal
+                  show={showPlayRangeModal}
+                  onHide={function() { setShowPlayRangeModal(false) }}
+                  link={playRangeLink}
+                  linkIndex={playRangeLinkIndex}
+                  links={playingTune.links}
+                  onLinksUpdated={handlePlayRangeLinksUpdated}
+                  tune={playingTune}
+                  tunebook={props.tunebook}
+                  token={props.token}
+                  login={props.login}
+                  icons={props.tunebook && props.tunebook.icons}
+                  dialogZIndex={1300}
+                  mediaController={mediaController}
+                />
+              ) : null}
             </div>
           </>
         ) : null}

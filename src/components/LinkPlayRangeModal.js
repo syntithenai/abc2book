@@ -192,6 +192,20 @@ function DualRangeSlider({ duration, startSeconds, endSeconds, onChangeStart, on
   )
 }
 
+function pauseOtherPlayback(mediaController) {
+  if (!mediaController) return
+  if (mediaController.stopMidiFileRef && mediaController.stopMidiFileRef.current) {
+    mediaController.stopMidiFileRef.current()
+  }
+  if (typeof mediaController.abortPlayingIntent === 'function') {
+    mediaController.abortPlayingIntent()
+    return
+  }
+  if (typeof mediaController.pause === 'function') {
+    mediaController.pause()
+  }
+}
+
 export default function LinkPlayRangeModal({
   show,
   onHide,
@@ -205,6 +219,7 @@ export default function LinkPlayRangeModal({
   login,
   icons,
   dialogZIndex,
+  mediaController,
 }) {
   const driveDocs = useGoogleDocument(token, function() {})
   const { status: resolverStatus } = useMediaResolverHealth()
@@ -413,6 +428,12 @@ export default function LinkPlayRangeModal({
     blobUrlRef.current = blobUrl
     return blobUrl
   }
+
+  useEffect(function() {
+    if (!show) return undefined
+    pauseOtherPlayback(mediaController)
+    return undefined
+  }, [show, mediaController])
 
   useEffect(function() {
     if (!show) {

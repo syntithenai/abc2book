@@ -319,6 +319,7 @@ export default function MediaPlaybackRegionPanel({
         login={login}
         icons={tunebook && tunebook.icons}
         dialogZIndex={dialogZIndex}
+        mediaController={mediaController}
       />
     </div>
   );

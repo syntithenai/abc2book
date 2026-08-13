@@ -20,6 +20,7 @@ export default function MediaSourcePlaybackButtons({
   login,
   accessToken,
   className,
+  selectTrailing = null,
 }) {
   const navigate = useNavigate()
   const location = useLocation()
@@ -235,19 +236,37 @@ export default function MediaSourcePlaybackButtons({
 
   if (!hasLinks && !hasMusic) return null
 
+  function renderSelectWithTrailing(selectClassName) {
+    const select = renderSourceSelect(selectClassName)
+    if (!selectTrailing) return select
+    if (!select) {
+      return (
+        <div className="media-source-select-row">
+          {selectTrailing}
+        </div>
+      )
+    }
+    return (
+      <div className="media-source-select-row">
+        {select}
+        {selectTrailing}
+      </div>
+    )
+  }
+
   if (presentation === 'both') {
     return (
       <div className={'media-source-both' + (className ? ' ' + className : '')}>
         <div className="media-source-buttons-row">
           {renderSourceLinkButtons()}
         </div>
-        {renderSourceSelect('media-source-both-select')}
+        {renderSelectWithTrailing('media-source-both-select')}
       </div>
     )
   }
 
   if (presentation === 'select') {
-    return renderSourceSelect(className)
+    return renderSelectWithTrailing(className)
   }
 
   return (

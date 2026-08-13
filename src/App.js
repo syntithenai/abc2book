@@ -458,18 +458,24 @@ function AppQueueLayer(props) {
           googleDocumentId={props.googleDocumentId}
           login={props.login}
           onTuneChange={function(updated) {
-            if (props.tunebook && props.tunebook.saveTune) {
-              props.tunebook.saveTune(updated)
+            const tuneId = (updated && updated.id) || linksEditorTuneId
+            if (!tuneId || !props.tunebook || !props.tunebook.saveTune) return
+            const live = props.tunes && props.tunes[tuneId]
+            const toSave = Object.assign({}, live || {}, updated || {}, { id: tuneId })
+            if (Array.isArray(updated && updated.links)) {
+              toSave.links = updated.links
+            } else if (live && Array.isArray(live.links)) {
+              toSave.links = live.links
             }
+            props.tunebook.saveTune(toSave)
             if (typeof props.forceRefresh === 'function') props.forceRefresh()
           }}
           onChange={function(nextLinks, targetId) {
             const tuneId = targetId || linksEditorTuneId
             const tune = tuneId && props.tunes ? props.tunes[tuneId] : null
             if (!tune) return
-            tune.links = nextLinks
             if (props.tunebook && props.tunebook.saveTune) {
-              props.tunebook.saveTune(tune)
+              props.tunebook.saveTune(Object.assign({}, tune, { id: tuneId, links: nextLinks }))
             }
             if (typeof props.forceRefresh === 'function') props.forceRefresh()
           }}

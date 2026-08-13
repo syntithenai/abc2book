@@ -790,14 +790,23 @@ export default function MusicSingle(props) {
                     <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
                     <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
                     <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} user={props.user} googleDocumentId={props.googleDocumentId} login={props.login} onTuneChange={function(updated) {
-                      setTune(updated)
+                      if (!updated || !updated.id) return
                       props.tunebook.saveTune(updated)
-                      props.forceRefresh()
+                      if (props.forceRefresh) props.forceRefresh()
+                      if (tune && String(tune.id) === String(updated.id)) {
+                        setTune(updated)
+                      }
                     }} onChange={
-                      function(links) {
-                        if (tune) {
-                          tune.links = links
-                          props.tunebook.saveTune(tune)
+                      function(links, targetId) {
+                        const id = targetId || (tune && tune.id)
+                        if (!id) return
+                        const base = (props.tunes && props.tunes[id])
+                          || (tune && String(tune.id) === String(id) ? tune : null)
+                        if (!base) return
+                        const next = Object.assign({}, base, { id: id, links: links })
+                        props.tunebook.saveTune(next)
+                        if (tune && String(tune.id) === String(id)) {
+                          setTune(next)
                         }
                       }
                     } />

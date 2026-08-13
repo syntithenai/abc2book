@@ -3,19 +3,44 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import LinksEditor from './LinksEditor'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
+function snapshotTune(sourceTune) {
+  return sourceTune
+    ? Object.assign({}, sourceTune, {
+        links: Array.isArray(sourceTune.links)
+          ? sourceTune.links.map(function(link) { return Object.assign({}, link) })
+          : [],
+      })
+    : null
+}
+
+function sessionFromTune(sourceTune) {
+  const snapshot = snapshotTune(sourceTune)
+  if (!snapshot || !snapshot.id) return null
+  return { id: snapshot.id, tune: snapshot }
+}
+
+function applySessionTuneUpdate(session, updated) {
+  if (!session || !session.id) return session
+  const nextTune = Object.assign({}, session.tune, {
+    links: Array.isArray(updated && updated.links) ? updated.links : session.tune.links,
+  })
+  if (updated && updated.mediaCacheLocked !== undefined) {
+    nextTune.mediaCacheLocked = updated.mediaCacheLocked
+  }
+  nextTune.id = session.id
+  return { id: session.id, tune: nextTune }
+}
 
 export default function LinksEditorModal(props) {
-    var {tunebook, tune, onChange} = props
+  var {tunebook, tune, onChange} = props
   const isControlled = typeof props.show === 'boolean'
   const [internalShow, setInternalShow] = useState(false)
   const visible = isControlled ? props.show : internalShow
   const responsiveModalProps = useResponsiveModalProps();
   var [links, setLinks] = useState(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
-  // Freeze the tune for the whole edit session so navigation while the modal is
-  // open cannot apply these links to a different tune on close (or via auto-scan).
-  const [editingTune, setEditingTune] = useState(null)
+  const [session, setSession] = useState(null)
   const linksRef = useRef(links)
-  const openedSessionRef = useRef(false)
+  const sessionIdRef = useRef(null)
   linksRef.current = links
 
   function setVisible(next) {
@@ -26,49 +51,40 @@ export default function LinksEditorModal(props) {
     setInternalShow(next)
   }
 
-  function snapshotTune(sourceTune) {
-    return sourceTune
-      ? Object.assign({}, sourceTune, {
-          links: Array.isArray(sourceTune.links)
-            ? sourceTune.links.map(function(link) { return Object.assign({}, link) })
-            : [],
-        })
-      : null
+  if (visible && !session && tune) {
+    const nextSession = sessionFromTune(tune)
+    if (nextSession) {
+      sessionIdRef.current = nextSession.id
+      setSession(nextSession)
+      setLinks(JSON.stringify(Array.isArray(nextSession.tune.links) ? nextSession.tune.links : []))
+    }
   }
-
-  function beginEditSession(sourceTune) {
-    const snapshot = snapshotTune(sourceTune)
-    setEditingTune(snapshot)
-    setLinks(snapshot && Array.isArray(snapshot.links) ? JSON.stringify(snapshot.links) : '[]')
+  if (!visible && session) {
+    sessionIdRef.current = null
+    setSession(null)
   }
 
   const handleClose = () => {
-      setVisible(false);
-      const targetTune = editingTune
-      const targetId = targetTune && targetTune.id
-      setEditingTune(null)
-      openedSessionRef.current = false
-      if (!targetId || !onChange) return
+      const targetId = sessionIdRef.current || (session && session.id)
+      let parsedLinks = []
       try {
-        onChange(JSON.parse(linksRef.current), targetId)
+        parsedLinks = JSON.parse(linksRef.current)
       } catch (e) {
-        // ignore invalid links JSON
+        parsedLinks = []
       }
+      setVisible(false);
+      if (!targetId || !onChange) return
+      onChange(parsedLinks, targetId)
   }
   const handleShow = () => {
-      beginEditSession(props.tune)
+      const nextSession = sessionFromTune(props.tune)
+      if (nextSession) {
+        sessionIdRef.current = nextSession.id
+        setSession(nextSession)
+        setLinks(JSON.stringify(Array.isArray(nextSession.tune.links) ? nextSession.tune.links : []))
+      }
       setVisible(true);
   }
-
-  useEffect(function() {
-    if (!visible) {
-      openedSessionRef.current = false
-      return
-    }
-    if (!isControlled || openedSessionRef.current) return
-    openedSessionRef.current = true
-    beginEditSession(props.tune)
-  }, [visible, isControlled, props.tune, props.tune && props.tune.id])
 
   useEffect(function() {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(visible)
@@ -77,13 +93,16 @@ export default function LinksEditorModal(props) {
     }
   }, [visible, props.setBlockKeyboardShortcuts]);
 
-    useEffect(function() {
-      if (!visible) {
-        setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
-      }
+  useEffect(function() {
+    if (!visible) {
+      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+    }
   },[props.tune, visible])
 
-  const activeTune = visible && editingTune ? editingTune : tune
+  const activeTune = (visible && session && session.tune) ? session.tune : tune
+  const activeTuneId = (visible && (sessionIdRef.current || (session && session.id)))
+    || (activeTune && activeTune.id)
+    || null
   const linkCount = (function() {
     try {
       return JSON.parse(links).length
@@ -119,7 +138,7 @@ export default function LinksEditorModal(props) {
                     tunebook={tunebook}
                     links={JSON.parse(links)}
                     tune={activeTune}
-                    tuneId={activeTune && activeTune.id}
+                    tuneId={activeTuneId}
                     handleClose={handleClose}
                     token={props.token}
                     user={props.user}
@@ -127,10 +146,13 @@ export default function LinksEditorModal(props) {
                     forceRefresh={props.forceRefresh}
                     login={props.login}
                     onTuneChange={function(updated) {
-                        setEditingTune(updated)
-                        setLinks(JSON.stringify(Array.isArray(updated.links) ? updated.links : []))
+                        const nextSession = applySessionTuneUpdate(session || sessionFromTune(activeTune), updated)
+                        if (!nextSession) return
+                        sessionIdRef.current = nextSession.id
+                        setSession(nextSession)
+                        setLinks(JSON.stringify(Array.isArray(nextSession.tune.links) ? nextSession.tune.links : []))
                         if (typeof props.onTuneChange === 'function') {
-                            props.onTuneChange(updated)
+                            props.onTuneChange(nextSession.tune)
                         }
                     }}
                 />
