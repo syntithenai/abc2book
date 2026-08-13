@@ -13,7 +13,7 @@ import { lyricLinesToText } from '../wLinesUtils'
 import { requestTuneMediaAnalysis } from '../useTuneMediaAnalysis'
 import { tuneHasAudioForFix } from '../bulkCheckFixActions'
 import { useAutoLinkPlaybackRegionScan } from '../useAutoLinkPlaybackRegionScan'
-import { isScannableLink } from '../linkPlaybackRegionScanUtils'
+import { isPlayRangeScannableLink } from '../linkPlaybackRegionScanUtils'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
 import BulkComposerDiscoveryModal from './BulkComposerDiscoveryModal'
 import BulkComposerDiscoveryQueueModal from './BulkComposerDiscoveryQueueModal'
@@ -296,8 +296,7 @@ export default function BulkSearchModal({
       const links = Array.isArray(tune.links) ? tune.links : []
       let tuneStarted = false
       links.forEach(function(link, linkIndex) {
-        const url = link && link.link ? String(link.link).trim() : ''
-        if (!isScannableLink(url)) return
+        if (!isPlayRangeScannableLink(link)) return
         maybeAutoScan(tune.id, linkIndex, link, {
           force: true,
           currentLinks: links,

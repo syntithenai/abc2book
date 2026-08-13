@@ -78,28 +78,28 @@ describe('mediaLinkSearchClient', function() {
       empty: false,
       multiple: true,
       candidates: [
-        { title: 'Sally Gardens', source: 'internet-archive', link: 'https://archive.org/details/foo', matchScore: 80 },
+        { title: 'Archive take of Sally Gardens', artist: 'Archive Folk', source: 'internet-archive', link: 'https://archive.org/details/foo', matchScore: 80 },
       ],
     });
     searchEuropeana.mockResolvedValue({
       empty: false,
       multiple: true,
       candidates: [
-        { title: 'Sally Gardens', source: 'europeana', link: 'https://example.com/audio.mp3', matchScore: 75 },
+        { title: 'Europeana Sally Gardens recording', artist: 'Europeana Folk', source: 'europeana', link: 'https://example.com/audio.mp3', matchScore: 75 },
       ],
     });
     searchLocAudio.mockResolvedValue({
       empty: false,
       multiple: true,
       candidates: [
-        { title: 'Sally Gardens', source: 'loc', link: 'https://www.loc.gov/item/123/', matchScore: 70 },
+        { title: 'LoC Sally Gardens cylinder', artist: 'LoC Folk', source: 'loc', link: 'https://www.loc.gov/item/123/', matchScore: 70 },
       ],
     });
     searchYouTubeVideos.mockResolvedValue({
       empty: false,
       multiple: true,
       candidates: [
-        { title: 'Sally Gardens', source: 'youtube', link: 'https://youtube.com/watch?v=abc' },
+        { title: 'YouTube Sally Gardens session', artist: 'YT Folk', source: 'youtube', link: 'https://youtube.com/watch?v=abc' },
       ],
     });
 
@@ -110,7 +110,7 @@ describe('mediaLinkSearchClient', function() {
     expect(result.candidates[3].source).toBe('youtube');
   });
 
-  test('prefers collection matches before YouTube even when YouTube scores higher', async function() {
+  test('prefers strong collection matches before YouTube', async function() {
     searchMusicCollection.mockResolvedValue({
       empty: false,
       multiple: true,
@@ -133,7 +133,7 @@ describe('mediaLinkSearchClient', function() {
       multiple: true,
       candidates: [
         {
-          title: 'Sally Gardens',
+          title: 'Sally Gardens - Live Session',
           artist: 'Altan',
           source: 'youtube',
           link: 'https://youtube.com/watch?v=abc',
@@ -149,6 +149,46 @@ describe('mediaLinkSearchClient', function() {
     expect(result.candidates[1].source).toBe('youtube');
   });
 
+  test('keeps YouTube ahead of weak collection token hits when results are capped', async function() {
+    const weakCollection = Array.from({ length: 10 }, function(_, index) {
+      return {
+        title: 'Maudabawn Chapel ' + index,
+        artist: 'Someone',
+        source: 'music-collection',
+        link: 'https://resolver/music-collection/' + index + '.mp3',
+        matchScore: 44,
+      };
+    });
+    searchMusicCollection.mockResolvedValue({
+      empty: false,
+      multiple: true,
+      candidates: weakCollection,
+    });
+    searchBandcamp.mockResolvedValue({ empty: true, candidates: [] });
+    searchInternetArchive.mockResolvedValue({ empty: true, candidates: [] });
+    searchEuropeana.mockResolvedValue({ empty: true, candidates: [] });
+    searchLocAudio.mockResolvedValue({ empty: true, candidates: [] });
+    searchYouTubeVideos.mockResolvedValue({
+      empty: false,
+      multiple: true,
+      candidates: [
+        {
+          title: "Maud McQuillan's Reel - Aly Bain",
+          source: 'youtube',
+          link: 'https://youtube.com/watch?v=real',
+        },
+      ],
+    });
+
+    const result = await searchMediaLinks({
+      title: "Maud McQuillan's Reel",
+      maxResults: 8,
+    });
+    expect(result.candidates.some(function(c) { return c.source === 'youtube'; })).toBe(true);
+    expect(result.candidates[0].source).toBe('youtube');
+    expect(result.candidates).toHaveLength(8);
+  });
+
   test('ranks higher-scoring collection results above weaker sources', async function() {
     searchMusicCollection.mockResolvedValue({
       empty: false,
@@ -161,7 +201,7 @@ describe('mediaLinkSearchClient', function() {
       empty: false,
       multiple: true,
       candidates: [
-        { title: 'Sally Gardens', source: 'bandcamp', link: 'https://altan.bandcamp.com/track/sally', matchScore: 70 },
+        { title: 'Sally Gardens Bandcamp edition', source: 'bandcamp', link: 'https://altan.bandcamp.com/track/sally', matchScore: 70 },
       ],
     });
     searchInternetArchive.mockResolvedValue({ empty: true, candidates: [] });
@@ -171,7 +211,7 @@ describe('mediaLinkSearchClient', function() {
       empty: false,
       multiple: true,
       candidates: [
-        { title: 'Sally Gardens', source: 'youtube', link: 'https://youtube.com/watch?v=abc' },
+        { title: 'Sally Gardens YouTube edition', source: 'youtube', link: 'https://youtube.com/watch?v=abc' },
       ],
     });
 

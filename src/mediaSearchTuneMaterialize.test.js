@@ -34,6 +34,17 @@ describe('mediaSearchTuneMaterialize', function() {
     })).toBe('bandcamp:https://artist.bandcamp.com/track/song');
   });
 
+  test('materializeKey keeps distinct YouTube watch URLs', function() {
+    expect(materializeKey({
+      source: 'youtube',
+      link: 'https://www.youtube.com/watch?v=aaaaaaaaaaa',
+    })).toBe('youtube:https://www.youtube.com/watch?v=aaaaaaaaaaa');
+    expect(materializeKey({
+      source: 'youtube',
+      link: 'https://www.youtube.com/watch?v=bbbbbbbbbbb',
+    })).toBe('youtube:https://www.youtube.com/watch?v=bbbbbbbbbbb');
+  });
+
   test('isMaterializableMediaSearchCandidate includes web media sources', function() {
     expect(isMaterializableMediaSearchCandidate({ source: 'bandcamp', link: 'https://x.bandcamp.com/track/a' }))
       .toBe(true);

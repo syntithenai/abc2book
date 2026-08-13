@@ -4,6 +4,8 @@ import {
   resolveLoopEditorLinkIndex,
   isMediaLoopTabEnabled,
   tuneHasPlayableMediaLinks,
+  getLinkRegionStart,
+  getLinkRegionEnd,
 } from './mediaPlaybackUtils';
 
 describe('mediaPlaybackUtils loop helpers', function() {
@@ -81,5 +83,38 @@ describe('mediaPlaybackUtils loop helpers', function() {
       isMediaPlaybackRoute: function() { return false; },
     };
     expect(isMediaLoopTabEnabled(tuneYoutubeOnly, mediaController, isYoutubeLink)).toBe(true);
+  });
+});
+
+describe('mediaPlaybackUtils play range', function() {
+  test('getLinkRegionStart/End use audio startAt/endAt when no loops exist', function() {
+    const link = { link: 'https://example.com/a.mp3', startAt: '12.5', endAt: '200' };
+    expect(getLinkRegionStart(link)).toBe(12.5);
+    expect(getLinkRegionEnd(link)).toBe(200);
+  });
+
+  test('getLinkRegionStart/End ignore play range on MIDI files', function() {
+    const httpMidi = { link: 'https://example.com/tune.mid', startAt: '12.5', endAt: '200' };
+    const ownedMidi = {
+      link: 'abcbook-recording:rec1',
+      mediaKind: 'midi',
+      startAt: '8',
+      endAt: '90',
+    };
+    expect(getLinkRegionStart(httpMidi)).toBe(0);
+    expect(getLinkRegionEnd(httpMidi)).toBe(0);
+    expect(getLinkRegionStart(ownedMidi)).toBe(0);
+    expect(getLinkRegionEnd(ownedMidi)).toBe(0);
+  });
+
+  test('getLinkRegionStart/End still honor an active practice loop on MIDI files', function() {
+    const midi = {
+      link: 'https://example.com/tune.mid',
+      startAt: '12.5',
+      endAt: '200',
+      playbackLoops: [{ id: 'loop1', startAt: '4', endAt: '20', active: true }],
+    };
+    expect(getLinkRegionStart(midi)).toBe(4);
+    expect(getLinkRegionEnd(midi)).toBe(20);
   });
 });

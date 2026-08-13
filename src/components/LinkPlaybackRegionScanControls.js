@@ -3,13 +3,13 @@ import { Alert, Button } from 'react-bootstrap';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import usePlaybackRegionScan from '../usePlaybackRegionScan';
 import SearchProgressBar from './SearchProgressBar';
-import { isScannableLink } from '../linkPlaybackRegionScanUtils';
+import { isPlayRangeScannableLink } from '../linkPlaybackRegionScanUtils';
 import { getGatedActionLabel } from '../resolverCreditAccess';
 import { getLinkPlayRangeAccess } from '../midiExportNotationAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
 
 function getScanTitle(access, whisper, link) {
-  if (!isScannableLink(link && link.link)) {
+  if (!isPlayRangeScannableLink(link)) {
     return 'Enter a media link URL first';
   }
   if (!access.showButton) return 'Media resolver is not available';
@@ -51,7 +51,7 @@ export default function LinkPlaybackRegionScanControls({
   }, [resolverAvailable, checked, status, features, accessToken]);
 
   const whisper = !!features.whisper;
-  const scannable = isScannableLink(link && link.link);
+  const scannable = isPlayRangeScannableLink(link);
   const canScan = scanAccess.canOpen && whisper && scannable;
   const resolvedAccessToken = resolveResolverAccessToken(accessToken);
 

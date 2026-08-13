@@ -10,8 +10,18 @@ import { getActiveResolverAccessToken, getMediaResolverHealthState, probeMediaRe
 import { resolveResolverAccessToken } from './resolverAccessToken';
 import { inferTitleArtistFromQuery } from './mediaSearchQueryUtils';
 import { dedupeMediaSearchCandidates } from './artistDiscographyCatalog';
+import { parseTitleArtistFromYouTubeLabel } from './youtubeTitleParse';
 
 export const MAX_MEDIA_SEARCH_RESULTS = 50;
+
+/** Title/artist score at or above this counts as a strong collection hit. */
+export const STRONG_COLLECTION_TITLE_SCORE = 45;
+
+/**
+ * Soft-cap for collection token hits with no title/artist string match, so they
+ * cannot crowd out better YouTube/archive results when the result list is capped.
+ */
+export const WEAK_COLLECTION_SCORE_CAP = 25;
 
 const SOURCE_FETCH_LIMITS = {
   collection: 20,
@@ -20,6 +30,15 @@ const SOURCE_FETCH_LIMITS = {
   europeana: 8,
   loc: 8,
   youtube: 25,
+};
+
+const SOURCE_ORDER = {
+  'music-collection': 0,
+  bandcamp: 1,
+  'internet-archive': 2,
+  europeana: 3,
+  loc: 4,
+  youtube: 5,
 };
 
 function dedupeCandidates(candidates) {
@@ -31,14 +50,49 @@ function sortByMatchScore(candidates) {
     const scoreA = Number(a && a.matchScore) || 0;
     const scoreB = Number(b && b.matchScore) || 0;
     if (scoreB !== scoreA) return scoreB - scoreA;
+    const sourceA = SOURCE_ORDER[a && a.source];
+    const sourceB = SOURCE_ORDER[b && b.source];
+    const rankA = Number.isFinite(sourceA) ? sourceA : 99;
+    const rankB = Number.isFinite(sourceB) ? sourceB : 99;
+    if (rankA !== rankB) return rankA - rankB;
     return String(a && a.title || '').localeCompare(String(b && b.title || ''));
   });
 }
 
-function mergeSourceGroups(groups) {
-  return groups.reduce(function(merged, group) {
-    return merged.concat(sortByMatchScore(group));
-  }, []);
+function isCollectionCandidate(candidate) {
+  return candidate && candidate.source === 'music-collection';
+}
+
+function isStrongCollectionMatch(candidate) {
+  return isCollectionCandidate(candidate)
+    && Number(candidate.titleScore) >= STRONG_COLLECTION_TITLE_SCORE;
+}
+
+/**
+ * Prefer real collection title hits, then other sources, then weak collection
+ * token noise — so a small maxResults cap cannot hide YouTube/archive matches.
+ */
+export function mergeSourceGroups(groups) {
+  const collection = [];
+  const external = [];
+  (groups || []).forEach(function(group) {
+    (group || []).forEach(function(candidate) {
+      if (!candidate) return;
+      if (isCollectionCandidate(candidate)) collection.push(candidate);
+      else external.push(candidate);
+    });
+  });
+
+  const strongCollection = [];
+  const weakCollection = [];
+  collection.forEach(function(candidate) {
+    if (isStrongCollectionMatch(candidate)) strongCollection.push(candidate);
+    else weakCollection.push(candidate);
+  });
+
+  return sortByMatchScore(strongCollection)
+    .concat(sortByMatchScore(external))
+    .concat(sortByMatchScore(weakCollection));
 }
 
 function collectCandidates(result) {
@@ -51,18 +105,46 @@ function collectCandidates(result) {
   return [];
 }
 
+function candidateMatchFields(candidate) {
+  const title = candidate && candidate.title || '';
+  const artist = candidate && candidate.artist || '';
+  if (candidate && candidate.source === 'youtube') {
+    const parsed = parseTitleArtistFromYouTubeLabel(title, artist);
+    if (parsed && parsed.title) {
+      return {
+        title: parsed.title,
+        artist: parsed.artist || artist,
+      };
+    }
+  }
+  return { title: title, artist: artist };
+}
+
 function withComputedMatchScores(candidates, title, artist) {
   return candidates.map(function(candidate) {
     if (!candidate) return candidate;
-    if (Number(candidate.matchScore) > 0) return candidate;
-    const computed = scoreTitleArtistMatch(
-      candidate.title,
-      candidate.artist,
+    const fields = candidateMatchFields(candidate);
+    const titleScore = scoreTitleArtistMatch(
+      fields.title,
+      fields.artist,
       title,
       artist
     );
-    if (!computed) return candidate;
-    return Object.assign({}, candidate, { matchScore: computed });
+    const serverScore = Number(candidate.matchScore) || 0;
+    let matchScore = Math.max(titleScore, serverScore);
+    if (
+      isCollectionCandidate(candidate)
+      && titleScore < STRONG_COLLECTION_TITLE_SCORE
+      && serverScore > WEAK_COLLECTION_SCORE_CAP
+    ) {
+      // Token-index hits without a real title match stay discoverable but
+      // ranked below close external matches.
+      matchScore = Math.min(serverScore, WEAK_COLLECTION_SCORE_CAP);
+    }
+    return Object.assign({}, candidate, {
+      matchScore: matchScore,
+      titleScore: titleScore,
+    });
   });
 }
 
@@ -122,7 +204,8 @@ async function ensureResolverHealthForSearch(accessToken) {
 
 /**
  * Search personal music collection, folk/trad archives, and YouTube in parallel.
- * Collection matches are listed first when present, then other sources by relevance.
+ * Strong collection title matches lead; other sources follow; weak collection
+ * token hits are listed last so they cannot crowd out YouTube when capped.
  */
 export async function searchMediaLinks(options) {
   const opts = options || {};

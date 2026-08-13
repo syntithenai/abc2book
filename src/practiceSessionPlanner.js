@@ -8,6 +8,7 @@ import {
 import { getRecentTunes } from './recentTunes'
 import { filterOutRecentlyPracticedTunes } from './practiceRecentHistory'
 import { tuneHasLyrics } from './practiceTuneViewUtils'
+import { resolveLinkPlaybackSrcType } from './mediaLinkSrcType'
 
 const WARMUP_SECONDS_EACH = 30
 const DEFAULT_TUNE_SECONDS = 120
@@ -232,9 +233,11 @@ function parseRegionSeconds(value) {
 export function estimateTuneDurationSeconds(tune, route) {
   if (route === 'media' && tune && Array.isArray(tune.links) && tune.links[0]) {
     const link = tune.links[0]
-    const start = parseRegionSeconds(link.startAt)
-    const end = parseRegionSeconds(link.endAt)
-    if (end > start) return end - start
+    if (resolveLinkPlaybackSrcType(link) !== 'midifile') {
+      const start = parseRegionSeconds(link.startAt)
+      const end = parseRegionSeconds(link.endAt)
+      if (end > start) return end - start
+    }
   }
   if (tune && tune.tempo && tune.tempo > 0) {
     return Math.min(180, Math.max(60, 3600 / tune.tempo))

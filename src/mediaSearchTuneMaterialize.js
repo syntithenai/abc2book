@@ -58,31 +58,34 @@ export function materializeKey(candidate) {
 
 /**
  * Canonical path for the same music-collection file across id/path/link variants.
+ * Non-collection URLs (YouTube, Bandcamp, etc.) return ''.
  */
 export function normalizeMusicCollectionRelativePath(value) {
   let text = String(value || '').trim();
   if (!text) return '';
-  text = text.replace(/^\/+/, '');
   const prefix = 'music-collection/';
-  if (text.toLowerCase().startsWith(prefix)) {
-    text = text.slice(prefix.length);
-  }
   if (/^https?:\/\//i.test(text)) {
     try {
       const url = new URL(text);
       text = String(url.pathname || '').replace(/^\/+/, '');
-      if (text.toLowerCase().startsWith(prefix)) {
-        text = text.slice(prefix.length);
-      }
     } catch (e) {
-      // keep text as-is
+      return '';
     }
+    if (text.toLowerCase().indexOf('music-collection') === -1) {
+      return '';
+    }
+  }
+  text = text.replace(/^\/+/, '');
+  if (text.toLowerCase().startsWith(prefix)) {
+    text = text.slice(prefix.length);
   }
   return text.replace(/^\/+/, '').toLowerCase();
 }
 
 export function musicCollectionCandidateIdentityKey(candidate) {
   if (!candidate) return '';
+  const source = String(candidate.source || '').trim();
+  if (source && source !== 'music-collection') return '';
   const path = normalizeMusicCollectionRelativePath(candidate.path);
   const linkPath = normalizeMusicCollectionRelativePath(candidate.link);
   const id = String(candidate.id || '').trim();

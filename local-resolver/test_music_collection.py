@@ -263,6 +263,53 @@ class MusicCollectionIndexTests(unittest.TestCase):
             self.assertEqual(by_life[0]["title"], "The Life That's in You")
             self.assertEqual(by_okee[0]["artist"], "The Okee Dokee Brothers")
 
+    def test_rejects_single_token_hits_for_multi_word_titles(self):
+        index = {
+            "version": 1,
+            "entries": {
+                "10": {
+                    "title": "Maudabawn Chapel",
+                    "artist": "Altan",
+                    "path": "folk/maudabawn.mp3",
+                    "duration": 180,
+                    "hasArt": False,
+                },
+                "11": {
+                    "title": "Bob McQuillan's",
+                    "artist": "Arcady",
+                    "path": "folk/bob_mcquillan.mp3",
+                    "duration": 180,
+                    "hasArt": False,
+                },
+                "12": {
+                    "title": "Maud McQuillan's Reel",
+                    "artist": "Aly Bain",
+                    "path": "folk/maud_mcquillan.mp3",
+                    "duration": 180,
+                    "hasArt": False,
+                },
+            },
+            "tokens": {
+                "maud": ["10", "12"],
+                "maudabawn": ["10"],
+                "chapel": ["10"],
+                "bob": ["11"],
+                "mcquillan": ["11", "12"],
+                "reel": ["12"],
+            },
+        }
+        with open(os.path.join(self.root, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump(index, handle)
+        with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
+            from music_collection import load_music_collection_index
+
+            load_music_collection_index(force_reload=True)
+            matches = search_music_collection("Maud McQuillan's Reel", artist="")
+            titles = [item["title"] for item in matches]
+            self.assertEqual(titles, ["Maud McQuillan's Reel"])
+            self.assertNotIn("Maudabawn Chapel", titles)
+            self.assertNotIn("Bob McQuillan's", titles)
+
     def test_resolve_file(self):
         with patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root}):
             from music_collection import load_music_collection_index

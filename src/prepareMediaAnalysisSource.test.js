@@ -1,6 +1,12 @@
 jest.mock('./linkRecording', function() {
   return {
     resolveRecordingLinkAudio: jest.fn(),
+    isOwnedMediaLinkUri: function(uri) {
+      return !!(uri && String(uri).trim().startsWith('abcbook-recording:'));
+    },
+    isMidiOwnedMediaLink: function(link) {
+      return !!(link && link.mediaKind === 'midi');
+    },
   };
 });
 
@@ -37,6 +43,25 @@ describe('prepareMediaAnalysisSource', function() {
     expect(prepared.startAt).toBe(12.5);
     expect(prepared.endAt).toBe(200);
     expect(prepared.blob).toBeUndefined();
+  });
+
+  test('does not attach play-range bounds for MIDI files', async function() {
+    const source = {
+      id: 'link-0',
+      kind: 'link',
+      srcType: 'midifile',
+      src: 'https://example.com/tune.mid',
+      label: 'MIDI',
+      linkIndex: 0,
+    };
+    const tune = {
+      id: 't1',
+      links: [{ link: source.src, title: 'MIDI', startAt: '12.5', endAt: '200' }],
+    };
+    const prepared = await prepareMediaAnalysisSource(source, tune, {});
+    expect(prepared).toBe(source);
+    expect(prepared.startAt).toBeUndefined();
+    expect(prepared.endAt).toBeUndefined();
   });
 
   test('resolves recording sources to blob uploads', async function() {

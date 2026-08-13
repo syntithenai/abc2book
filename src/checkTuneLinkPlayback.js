@@ -74,6 +74,7 @@ export function buildLinkCheckQueue(tunes) {
 
 function linkMissingRegionFields(link) {
   if (!link || !link.link || !String(link.link).trim()) return null
+  if (getLinkSrcType(link) === 'midifile') return null
   const missing = []
   if (!link.startAt || !String(link.startAt).trim()) missing.push('startAt')
   if (!link.endAt || !String(link.endAt).trim()) missing.push('endAt')

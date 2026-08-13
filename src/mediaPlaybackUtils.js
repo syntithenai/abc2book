@@ -75,36 +75,32 @@ export function getActivePlaybackLoop(link) {
   return loops.find(function(loop) { return loop.active; }) || null;
 }
 
-export function getLinkRegionStart(link) {
-  if (!link) return 0;
-  if (Array.isArray(link.playbackLoops)) {
-    const active = getActivePlaybackLoop(link);
-    if (!active) return 0;
-    const candidate = active.startAt && String(active.startAt).trim() ? active.startAt : '';
-    if (!candidate) return 0;
-    const startAt = parseMsToSeconds(candidate);
-    return startAt > 0 ? startAt : 0;
-  }
-  const candidate = link.startAt && String(link.startAt).trim() ? link.startAt : '';
-  if (!candidate) return 0;
-  const startAt = parseMsToSeconds(candidate);
-  return startAt > 0 ? startAt : 0;
+function parseRegionBoundary(value) {
+  if (!value || !String(value).trim()) return 0;
+  const seconds = parseMsToSeconds(value);
+  return seconds > 0 ? seconds : 0;
 }
 
-export function getLinkRegionEnd(link) {
+export function getLinkRegionStart(link, isYoutubeLink) {
   if (!link) return 0;
   if (Array.isArray(link.playbackLoops)) {
     const active = getActivePlaybackLoop(link);
     if (!active) return 0;
-    const candidate = active.endAt && String(active.endAt).trim() ? active.endAt : '';
-    if (!candidate) return 0;
-    const endAt = parseMsToSeconds(candidate);
-    return endAt > 0 ? endAt : 0;
+    return parseRegionBoundary(active.startAt);
   }
-  const candidate = link.endAt && String(link.endAt).trim() ? link.endAt : '';
-  if (!candidate) return 0;
-  const endAt = parseMsToSeconds(candidate);
-  return endAt > 0 ? endAt : 0;
+  if (resolveLinkPlaybackSrcType(link, isYoutubeLink) === 'midifile') return 0;
+  return parseRegionBoundary(link.startAt);
+}
+
+export function getLinkRegionEnd(link, isYoutubeLink) {
+  if (!link) return 0;
+  if (Array.isArray(link.playbackLoops)) {
+    const active = getActivePlaybackLoop(link);
+    if (!active) return 0;
+    return parseRegionBoundary(active.endAt);
+  }
+  if (resolveLinkPlaybackSrcType(link, isYoutubeLink) === 'midifile') return 0;
+  return parseRegionBoundary(link.endAt);
 }
 
 export function syncLegacyLinkLoopFields(link) {

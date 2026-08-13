@@ -342,8 +342,8 @@ export default function AudioGenerationWizard(props) {
           stylePrompt: coverStylePrompt.trim(),
           lyrics: coverLyrics.trim(),
           title: link.link.title || tune.name || '',
-          startAt: parseFloat(link.link.startAt) || 0,
-          endAt: parseFloat(link.link.endAt) || 0,
+          startAt: link.srcType === 'midifile' ? 0 : (parseFloat(link.link.startAt) || 0),
+          endAt: link.srcType === 'midifile' ? 0 : (parseFloat(link.link.endAt) || 0),
         };
         const started = await startLinkedCoverGeneration(requestPayload, {
           token: token,

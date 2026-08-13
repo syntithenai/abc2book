@@ -12,6 +12,7 @@ import { buildAnalysisProcessingPayload, resolveDemucsModelForSettings } from '.
 import { getLinkedMediaSourceByIndex } from '../../mediaTranscriptionSources';
 import { useAutoLinkPlaybackRegionScan } from '../../useAutoLinkPlaybackRegionScan';
 import { linkHasConfiguredPlayRange } from '../../linkPlaybackRegionScanUtils';
+import { linkSupportsPlayRange } from '../../mediaLinkSrcType';
 import { getMediaResolverHealthState } from '../../mediaResolverHealthStore';
 
 function formatAnalysisStatusLine(analysis) {
@@ -84,7 +85,7 @@ export default function MediaImportAnalyzeToolbar(props) {
       return currentTune;
     }
     const link = Array.isArray(currentTune.links) ? currentTune.links[source.linkIndex] : null;
-    if (!link || linkHasConfiguredPlayRange(link)) {
+    if (!link || !linkSupportsPlayRange(link) || linkHasConfiguredPlayRange(link)) {
       return currentTune;
     }
     const result = await maybeAutoScan(currentTune.id, source.linkIndex, link, {

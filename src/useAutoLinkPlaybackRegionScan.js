@@ -1,7 +1,7 @@
 import { useCallback, useRef } from 'react'
 import useMediaResolverHealth from './useMediaResolverHealth'
 import { usePlaybackRegionScanDeps, requestPlaybackRegionScan } from './usePlaybackRegionScan'
-import { canAutoScanPlaybackRegion, isScannableLink } from './linkPlaybackRegionScanUtils'
+import { canAutoScanPlaybackRegion, isPlayRangeScannableLink } from './linkPlaybackRegionScanUtils'
 
 export function useAutoLinkPlaybackRegionScan() {
   const deps = usePlaybackRegionScanDeps()
@@ -14,7 +14,7 @@ export function useAutoLinkPlaybackRegionScan() {
     if (!checked || !available || !features.whisper) return Promise.resolve(null)
 
     const url = link && link.link ? String(link.link).trim() : ''
-    if (!isScannableLink(url)) return Promise.resolve(null)
+    if (!isPlayRangeScannableLink(link)) return Promise.resolve(null)
 
     const dedupeKey = tuneId + ':' + linkIndex
     if (!opts.force && lastScannedRef.current[dedupeKey] === url) {
@@ -34,7 +34,7 @@ export function autoScanLinkPlaybackRegionIfAvailable(deps, tuneId, linkIndex, l
   if (!canAutoScanPlaybackRegion()) return Promise.resolve(null)
 
   const url = link && link.link ? String(link.link).trim() : ''
-  if (!isScannableLink(url)) return Promise.resolve(null)
+  if (!isPlayRangeScannableLink(link)) return Promise.resolve(null)
 
   const scanLink = Object.assign({}, link, { link: url })
   return requestPlaybackRegionScan(deps, tuneId, linkIndex, scanLink, options || {})

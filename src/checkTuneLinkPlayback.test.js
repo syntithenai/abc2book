@@ -93,4 +93,20 @@ describe('checkTuneLinkPlayback', function() {
     ])
     expect(warnings).toHaveLength(0)
   })
+
+  test('getLinkRegionWarnings skips MIDI files', function() {
+    const warnings = getLinkRegionWarnings([
+      {
+        id: 'm',
+        name: 'MIDI Tune',
+        links: [{ link: 'https://example.com/tune.mid', startAt: '', endAt: '' }],
+      },
+      {
+        id: 'r',
+        name: 'Owned MIDI',
+        links: [{ link: 'abcbook-recording:rec1', mediaKind: 'midi', startAt: '', endAt: '' }],
+      },
+    ])
+    expect(warnings).toHaveLength(0)
+  })
 })

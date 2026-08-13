@@ -510,6 +510,11 @@ def search_music_collection(title, artist="", limit=MAX_MUSIC_COLLECTION_SEARCH_
             matches[entry_id] += 1
 
     query_token_count = len(query_parts)
+    min_token_hits = 1
+    if query_token_count > 1:
+        # Multi-word titles need real coverage (or a close title string match).
+        # Otherwise a lone "Maud" / "Reel" token floods results for "Maud McQuillan's Reel".
+        min_token_hits = max(2, (query_token_count + 1) // 2)
     scored = []
     for entry_id, token_hits in matches.items():
         entry = entries.get(entry_id)
@@ -529,7 +534,19 @@ def search_music_collection(title, artist="", limit=MAX_MUSIC_COLLECTION_SEARCH_
             artist,
             query_parts,
         )
+        title_artist_score = score_title_artist_match(entry_title, entry_artist, title, artist)
+        if title and not artist:
+            title_artist_score = max(
+                title_artist_score,
+                score_title_artist_match(entry_title, entry_artist, "", title),
+            )
         if (title or artist) and text_score <= 0 and not metadata_overlap:
+            continue
+        if (
+            query_token_count > 1
+            and token_hits < min_token_hits
+            and title_artist_score < 45
+        ):
             continue
         coverage = token_hits / max(query_token_count, 1)
         match_score = int((token_hits * 28) + (coverage * 42) + text_score)

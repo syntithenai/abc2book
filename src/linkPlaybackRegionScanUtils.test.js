@@ -1,5 +1,6 @@
 import {
   isScannableLink,
+  isPlayRangeScannableLink,
   canAutoScanPlaybackRegion,
   formatLinkPlayRangeLabel,
   linkHasConfiguredPlayRange,
@@ -11,6 +12,27 @@ describe('linkPlaybackRegionScanUtils', function() {
     expect(isScannableLink('data:audio/mp3;base64,abc')).toBe(true)
     expect(isScannableLink('data:text/plain,hi')).toBe(false)
     expect(isScannableLink('')).toBe(false)
+  })
+
+  test('isScannableLink rejects MIDI URLs', function() {
+    expect(isScannableLink('https://example.com/tune.mid')).toBe(false)
+    expect(isScannableLink('https://example.com/tune.MIDI')).toBe(false)
+    expect(isScannableLink('data:audio/midi;base64,abc')).toBe(false)
+  })
+
+  test('isPlayRangeScannableLink rejects MIDI links even with leftover startAt', function() {
+    expect(isPlayRangeScannableLink({
+      link: 'https://example.com/a.mp3',
+    })).toBe(true)
+    expect(isPlayRangeScannableLink({
+      link: 'https://example.com/tune.mid',
+      startAt: '12',
+      endAt: '90',
+    })).toBe(false)
+    expect(isPlayRangeScannableLink({
+      link: 'abcbook-recording:rec1',
+      mediaKind: 'midi',
+    })).toBe(false)
   })
 
   test('formatLinkPlayRangeLabel formats configured start and end times', function() {

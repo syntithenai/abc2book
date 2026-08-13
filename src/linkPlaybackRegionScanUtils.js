@@ -1,14 +1,31 @@
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { resolverHasFeature } from './resolverFeatures'
 import { formatSecondsToMs, parseMsToSeconds } from './mediaPlaybackUtils'
+import { linkSupportsPlayRange } from './mediaLinkSrcType'
+import { isHttpMidiUrl, isMidiMimeType } from './midiFileUtils'
+
+function dataAudioMimeType(url) {
+  const comma = String(url || '').indexOf(',')
+  const header = comma >= 0 ? url.slice(5, comma) : String(url || '').slice(5)
+  return header.split(';')[0].trim().toLowerCase()
+}
 
 export function isScannableLink(url) {
   if (!url || typeof url !== 'string') return false
   const trimmed = url.trim()
   if (!trimmed) return false
-  if (trimmed.startsWith('data:audio/')) return true
+  if (trimmed.startsWith('data:audio/')) {
+    return !isMidiMimeType(dataAudioMimeType(trimmed))
+  }
   if (trimmed.startsWith('data:')) return false
+  if (isHttpMidiUrl(trimmed)) return false
   return trimmed.indexOf('http://') === 0 || trimmed.indexOf('https://') === 0
+}
+
+export function isPlayRangeScannableLink(link, isYoutubeLink) {
+  if (!linkSupportsPlayRange(link, isYoutubeLink)) return false
+  const url = link && link.link ? String(link.link).trim() : ''
+  return isScannableLink(url)
 }
 
 export function canAutoScanPlaybackRegion(healthState) {

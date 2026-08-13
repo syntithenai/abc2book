@@ -1,6 +1,7 @@
 import {
   resolveLinkPlaybackSrcType,
   resolveUriPlaybackSrcType,
+  linkSupportsPlayRange,
 } from './mediaLinkSrcType'
 
 describe('mediaLinkSrcType', function() {
@@ -42,5 +43,21 @@ describe('mediaLinkSrcType', function() {
       link: { link: 'abcbook-recording:rec1', recordingId: 'rec1' },
       title: 'Rec',
     }, isYoutubeLink)).toBe('recording')
+  })
+
+  test('resolveLinkPlaybackSrcType treats inline MIDI data as midifile', function() {
+    expect(resolveLinkPlaybackSrcType({
+      link: 'data:audio/midi;base64,TVRoZA==',
+    }, isYoutubeLink)).toBe('midifile')
+  })
+
+  test('linkSupportsPlayRange is false for MIDI files', function() {
+    expect(linkSupportsPlayRange({ link: 'https://example.com/a.mp3' }, isYoutubeLink)).toBe(true)
+    expect(linkSupportsPlayRange({ link: 'https://youtu.be/abc' }, isYoutubeLink)).toBe(true)
+    expect(linkSupportsPlayRange({ link: 'https://example.com/tune.mid' }, isYoutubeLink)).toBe(false)
+    expect(linkSupportsPlayRange({
+      link: 'abcbook-recording:rec1',
+      mediaKind: 'midi',
+    }, isYoutubeLink)).toBe(false)
   })
 })

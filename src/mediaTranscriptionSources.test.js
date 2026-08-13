@@ -43,4 +43,16 @@ describe('mediaTranscriptionSources', function() {
       linkIndex: 3,
     });
   });
+
+  test('buildLinkedMediaSource skips MIDI files', function() {
+    expect(buildLinkedMediaSource({
+      link: 'https://example.com/tune.mid',
+      title: 'MIDI',
+    }, 0, tunebook)).toBeNull();
+    expect(buildLinkedMediaSource({
+      link: RECORDING_LINK_PREFIX + 'rec1',
+      title: 'Owned MIDI',
+      mediaKind: 'midi',
+    }, 1, tunebook)).toBeNull();
+  });
 });

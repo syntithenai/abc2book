@@ -1,8 +1,21 @@
 import { isOwnedMediaLinkUri } from './linkRecording'
-import { isHttpMidiUrl, isMidiFileName, isMidiOwnedMediaLink } from './midiFileUtils'
+import { isHttpMidiUrl, isMidiFileName, isMidiMimeType, isMidiOwnedMediaLink } from './midiFileUtils'
 import { isMusicCollectionLinkUri } from './musicCollectionLinkUtils'
 import { linkUriString } from './tuneLinkUri'
 import { isYoutubePlaybackUri } from './youtubePlaybackUri'
+
+const PLAY_RANGE_SRC_TYPES = {
+  audio: true,
+  recording: true,
+  youtube: true,
+  inline: true,
+}
+
+function dataAudioMimeType(src) {
+  const comma = String(src || '').indexOf(',')
+  const header = comma >= 0 ? src.slice(5, comma) : String(src || '').slice(5)
+  return header.split(';')[0].trim().toLowerCase()
+}
 
 /**
  * Resolve playback source type for a tune link.
@@ -20,7 +33,7 @@ export function resolveLinkPlaybackSrcType(link, isYoutubeLink) {
     return 'recording'
   }
   if (src.startsWith('data:audio/')) {
-    return 'inline'
+    return isMidiMimeType(dataAudioMimeType(src)) ? 'midifile' : 'inline'
   }
   if (src.startsWith('data:')) {
     return 'skip'
@@ -47,7 +60,9 @@ export function resolveUriPlaybackSrcType(src, isYoutubeLink) {
   if (!src || !String(src).trim()) return 'abc'
   const trimmed = String(src).trim()
   if (isOwnedMediaLinkUri(trimmed)) return 'recording'
-  if (trimmed.startsWith('data:audio/')) return 'inline'
+  if (trimmed.startsWith('data:audio/')) {
+    return isMidiMimeType(dataAudioMimeType(trimmed)) ? 'midifile' : 'inline'
+  }
   if (trimmed.startsWith('data:')) return 'skip'
   if (typeof isYoutubeLink === 'function' && isYoutubeLink(trimmed)) return 'youtube'
   if (isHttpMidiUrl(trimmed)) return 'midifile'
@@ -61,4 +76,9 @@ export function isCacheablePlaybackSrcType(srcType) {
     || srcType === 'youtube'
     || srcType === 'recording'
     || srcType === 'midifile'
+}
+
+/** Play range (startAt/endAt) applies to audio/video, not MIDI files. Practice loops still can. */
+export function linkSupportsPlayRange(link, isYoutubeLink) {
+  return !!PLAY_RANGE_SRC_TYPES[resolveLinkPlaybackSrcType(link, isYoutubeLink)]
 }
