@@ -1,6 +1,22 @@
 import { curatedScrapeUrl } from './resourceBase'
 
 /**
+ * Build /importlink/... path for a curated collection entry.
+ */
+export function buildCuratedImportPath(bookMeta) {
+  const meta = bookMeta || {}
+  if (!meta.link) return null
+  let path = '/importlink/' + encodeURIComponent(curatedScrapeUrl(meta.link))
+  if (meta.book) {
+    path += '/book/' + encodeURIComponent(meta.book)
+  }
+  if (meta.tag) {
+    path += '/tag/' + encodeURIComponent(meta.tag)
+  }
+  return path
+}
+
+/**
  * Resolve a curated-book display title from an import-link route.
  * Many curated entries share a scrape file; prefer book/tag matches.
  */

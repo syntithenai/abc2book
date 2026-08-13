@@ -2,6 +2,7 @@ import {
   caretIndexAndAnchorFromStaffClick,
   eventIndexFromStaffClick,
   eventIndexFromStaffNoteElement,
+  findStaffClickNoteEl,
   staffCaretAnchorRect,
   staffSelectionAnchorRects,
 } from './staffCaretPosition';
@@ -45,17 +46,24 @@ export function voiceStaffIndexFromDom(mouseEvent) {
 }
 
 /** Prefer abcjs analysis.voice; fall back to DOM class or an explicit default index. */
-export function voiceStaffIndexFromAnalysisOrDom(analysis, mouseEvent, fallbackIndex) {
+export function voiceStaffIndexFromAnalysisOrDom(analysis, mouseEvent, fallbackIndex, wrapEl) {
   if (analysis && typeof analysis.voice === 'number' && analysis.voice >= 0) {
     return analysis.voice;
   }
   const fromDom = voiceStaffIndexFromDom(mouseEvent);
   if (fromDom != null) return fromDom;
+  if (wrapEl && mouseEvent) {
+    const noteEl = findStaffClickNoteEl(wrapEl, analysis, mouseEvent);
+    if (noteEl) {
+      const m = elementClassName(noteEl).match(/\babcjs-v(\d+)\b/);
+      if (m) return parseInt(m[1], 10);
+    }
+  }
   return typeof fallbackIndex === 'number' && fallbackIndex >= 0 ? fallbackIndex : 0;
 }
 
 /** Map staff click metadata to a displayed voice key (original tune key). */
-export function voiceKeyFromStaffAnalysis(displayedVoiceKeys, analysis, mouseEvent, fallbackVoiceKey) {
+export function voiceKeyFromStaffAnalysis(displayedVoiceKeys, analysis, mouseEvent, fallbackVoiceKey, wrapEl) {
   const keys = Array.isArray(displayedVoiceKeys) ? displayedVoiceKeys : [];
   if (!keys.length) return fallbackVoiceKey || null;
   let fallbackIdx = 0;
@@ -63,7 +71,7 @@ export function voiceKeyFromStaffAnalysis(displayedVoiceKeys, analysis, mouseEve
     const fi = keys.indexOf(fallbackVoiceKey);
     if (fi >= 0) fallbackIdx = fi;
   }
-  const idx = voiceStaffIndexFromAnalysisOrDom(analysis, mouseEvent, fallbackIdx);
+  const idx = voiceStaffIndexFromAnalysisOrDom(analysis, mouseEvent, fallbackIdx, wrapEl);
   const clamped = Math.max(0, Math.min(idx, keys.length - 1));
   return keys[clamped];
 }
@@ -103,9 +111,9 @@ export function resolveStaffClickForVoice(params) {
  * Unified staff click resolver.
  *
  * Selection (eventIndex):
- *   1. Strict DOM glyph hit (pointer inside note/rest bbox)
- *   2. abcjs startChar when DOM miss (matches rendered ABC ↔ session events)
- *   3. Geometry hitEventIndex when clicking a glyph via caret bisection
+ *   1. Geometry hitEventIndex / caret bisection (bbox fallback when paths lack hit-testing)
+ *   2. Strict DOM glyph hit (pointer inside note/rest bbox)
+ *   3. abcjs startChar when both miss (matches rendered ABC ↔ session events)
  *
  * Caret (caretIndex):
  *   Always prefer DOM geometry so empty-bar / between-note clicks place the insert slot.
@@ -135,8 +143,30 @@ export function resolveStaffClick(params) {
       ? analysis.selectableElement
       : null);
 
-  // 1. Strict DOM glyph hit — authoritative when pointer is inside a note/rest bbox.
+  // 1. Geometry caret for gaps / empty measures and bbox-fallback note hits (before strict
+  // DOM and startChar — avoids Copper-style abcjs-n / startChar mis-identification).
   if (wrapEl && mouseEvent) {
+    const pos = caretIndexAndAnchorFromStaffClick(wrapEl, list, mouseEvent, analysis, voiceStaffIndex);
+    if (pos && typeof pos.caretIndex === 'number') {
+      caretIndex = Math.max(0, Math.min(pos.caretIndex, list.length));
+      anchorRect = pos.anchor || null;
+      if (typeof pos.hitEventIndex === 'number'
+        && pos.hitEventIndex >= 0
+        && pos.hitEventIndex < list.length
+        && isNoteLike(list[pos.hitEventIndex])) {
+        eventIndex = pos.hitEventIndex;
+        caretIndex = Math.max(caretIndex, eventIndex);
+        selectedFromNoteHit = true;
+        source = 'dom';
+      } else if (!selectedFromNoteHit) {
+        source = source === 'fallback' ? 'dom' : source;
+        eventIndex = Math.min(caretIndex, list.length > 0 ? list.length - 1 : 0);
+      }
+    }
+  }
+
+  // 2. Strict DOM glyph hit — authoritative when pointer is inside a note/rest bbox.
+  if (!selectedFromNoteHit && wrapEl && mouseEvent) {
     const domIdx = eventIndexFromStaffNoteElement(
       wrapEl,
       list,
@@ -155,7 +185,7 @@ export function resolveStaffClick(params) {
     }
   }
 
-  // 2. abcjs startChar when DOM miss — reliable when display ABC === serializeVoiceEvents.
+  // 3. abcjs startChar when DOM + geometry miss — reliable when display ABC === serializeVoiceEvents.
   if (!selectedFromNoteHit && abcElem && typeof abcElem.startChar === 'number'
     && fullAbc && displayedVoiceKeys && displayedVoiceKeys.length) {
     const idx = eventIndexFromStaffAbcElem(
@@ -172,30 +202,6 @@ export function resolveStaffClick(params) {
       eventIndex = idx;
       caretIndex = idx;
       selectedFromNoteHit = true;
-    }
-  }
-
-  // 3. Geometry caret for gaps / empty measures. Also recovers selection via hitEventIndex.
-  if (wrapEl && mouseEvent) {
-    const pos = caretIndexAndAnchorFromStaffClick(wrapEl, list, mouseEvent, analysis, voiceStaffIndex);
-    if (pos && typeof pos.caretIndex === 'number') {
-      caretIndex = Math.max(0, Math.min(pos.caretIndex, list.length));
-      anchorRect = pos.anchor || null;
-      if (!selectedFromNoteHit
-        && typeof pos.hitEventIndex === 'number'
-        && pos.hitEventIndex >= 0
-        && pos.hitEventIndex < list.length
-        && isNoteLike(list[pos.hitEventIndex])) {
-        eventIndex = pos.hitEventIndex;
-        selectedFromNoteHit = true;
-        source = source === 'fallback' ? 'dom' : source;
-      } else if (!selectedFromNoteHit) {
-        // Gap / empty-bar click: caret only — do not invent a selection from caretIndex.
-        source = source === 'fallback' ? 'dom' : source;
-        eventIndex = Math.min(caretIndex, list.length > 0 ? list.length - 1 : 0);
-      }
-      // When we already have a note selection from startChar/DOM, keep eventIndex but
-      // still allow geometry to move the caret (e.g. right-half → insert after).
     }
   }
 

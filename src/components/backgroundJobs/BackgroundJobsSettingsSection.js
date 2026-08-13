@@ -26,6 +26,7 @@ import { subscribeLongRunningJobs } from '../../longRunningJobRegistry'
 import { subscribeStemAnalysisJob, getStemAnalysisJobRevision } from '../../stemAnalysisJobStore'
 import { subscribe as subscribeAudioGenerationJobs } from '../../audioGenerationJobStore'
 import * as tuneFieldLookupQueue from '../../tuneFieldLookupQueue'
+import { subscribe as subscribeChordReadinessCleanup } from '../../chordReadinessCleanupQueue'
 import JobQueueTabPanel from './JobQueueTabPanel'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import { fifoStatusVariant } from './jobQueueUtils'
@@ -37,6 +38,7 @@ import BulkCheckTabPanel from './BulkCheckTabPanel'
 import ImportEnrichmentTabPanel from './ImportEnrichmentTabPanel'
 import StemCreateTabPanel from './StemCreateTabPanel'
 import AudioGenerationTabPanel from './AudioGenerationTabPanel'
+import ChordReadinessCleanupTabPanel from './ChordReadinessCleanupTabPanel'
 import ActiveSearchesTabPanel from './ActiveSearchesTabPanel'
 import { isMusicGenerationAdmin } from '../../musicGenerationAdmin'
 
@@ -45,6 +47,7 @@ const TAB_COMPOSER_DISCOVERY = 'composer-discovery'
 const TAB_MEDIA_CACHE = 'media-cache'
 const TAB_STEM_CREATE = 'stem-create'
 const TAB_AUDIO_GENERATION = 'audio-generation'
+const TAB_CHORD_CLEANUP = 'chord-cleanup'
 const TAB_PLAYBACK_SCANS = 'playback-scans'
 const TAB_MEDIA_ANALYSIS = 'media-analysis'
 const TAB_FILE_OCR = 'file-ocr'
@@ -69,6 +72,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribeLongRunningJobs(listener),
     subscribeStemAnalysisJob(listener),
     subscribeAudioGenerationJobs(listener),
+    subscribeChordReadinessCleanup(listener),
     tuneFieldLookupQueue.subscribe(listener),
   ]
   return function unsubscribeAll() {
@@ -119,24 +123,34 @@ function composerDiscoveryStatusLabel(job) {
 
 export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user }) {
   const showAudioGeneration = isMusicGenerationAdmin(user)
+  const showChordCleanup = isMusicGenerationAdmin(user)
   const [activeTab, setActiveTab] = useState(function() {
-    if (initialJobsTab && (initialJobsTab !== TAB_AUDIO_GENERATION || showAudioGeneration)) {
+    if (initialJobsTab) {
+      if (initialJobsTab === TAB_AUDIO_GENERATION && !showAudioGeneration) {
+        return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
+      }
+      if (initialJobsTab === TAB_CHORD_CLEANUP && !showChordCleanup) {
+        return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
+      }
       return initialJobsTab
     }
     return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
   })
 
   useEffect(function() {
-    if (initialJobsTab && (initialJobsTab !== TAB_AUDIO_GENERATION || showAudioGeneration)) {
-      setActiveTab(initialJobsTab)
-    }
-  }, [initialJobsTab, showAudioGeneration])
+    if (!initialJobsTab) return
+    if (initialJobsTab === TAB_AUDIO_GENERATION && !showAudioGeneration) return
+    if (initialJobsTab === TAB_CHORD_CLEANUP && !showChordCleanup) return
+    setActiveTab(initialJobsTab)
+  }, [initialJobsTab, showAudioGeneration, showChordCleanup])
 
   useEffect(function() {
     if (!showAudioGeneration && activeTab === TAB_AUDIO_GENERATION) {
       setActiveTab(getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH)
+    } else if (!showChordCleanup && activeTab === TAB_CHORD_CLEANUP) {
+      setActiveTab(getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH)
     }
-  }, [showAudioGeneration, activeTab, mediaController])
+  }, [showAudioGeneration, showChordCleanup, activeTab, mediaController])
   const researchQueue = useBulkBackgroundResearchQueue()
   const composerDiscoveryQueue = useBulkComposerDiscoveryQueue()
   const mediaCacheQueueHook = useMediaCacheQueue()
@@ -226,6 +240,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
             <Nav.Item>
               <Nav.Link eventKey={TAB_AUDIO_GENERATION}>
                 {renderTabTitle('Audio generation', tabCounts.audioGeneration)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
+          {showChordCleanup ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_CHORD_CLEANUP}>
+                {renderTabTitle('Chord cleanup', tabCounts.chordCleanup)}
               </Nav.Link>
             </Nav.Item>
           ) : null}
@@ -491,6 +512,15 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
                 Practice tracks and linked-media cover variants run in the background after you start them from a tune.
               </p>
               <AudioGenerationTabPanel />
+            </Tab.Pane>
+          ) : null}
+
+          {showChordCleanup ? (
+            <Tab.Pane eventKey={TAB_CHORD_CLEANUP}>
+              <p className="text-muted settings-background-jobs-tab-note">
+                Chord readiness audits, tagging, and fixes from Settings → Cleanup. Safe to leave this page while jobs run.
+              </p>
+              <ChordReadinessCleanupTabPanel />
             </Tab.Pane>
           ) : null}
 

@@ -4,7 +4,8 @@ import useUtils from './useUtils'
 import { abcForAbcjs } from './melodyBarlineNormalize'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
-import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader } from './chordSheetUtils'
+import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader, collapseSoundingToBeats, formatBeatSoundingForDisplay } from './chordSheetUtils'
+import { normalizeKeySignature, transposeKeySignature } from './keySignatureNormalize'
 
 /**
  * Utilities for converting to/from abcjs object format
@@ -309,16 +310,15 @@ export default function useAbcjsParser() {
         }
         var renderChord = chordRendererFactory(renderOptions);
         var renderedChord = renderChord(parsedChord)
-        
-        var parsedKey = parseChord(key)
-        var keyRenderOptions = { useShortNamings: true }
+
+        // Prefer mode-aware key spelling (Dm, Ddorian, …). chord-symbol only
+        // understands chord-like keys (Dm works; Ddorian does not).
+        var spellingKey = normalizeKeySignature(key) || key
         if (transpose > 0 || transpose < 0) {
-            keyRenderOptions.transposeValue = Number(transpose)
+            spellingKey = transposeKeySignature(spellingKey, Number(transpose)) || spellingKey
         }
-        var renderKey = chordRendererFactory(keyRenderOptions);
-        var renderedKey = renderKey(parsedKey)
         
-        var renderedChord2 = utils.canonicalChordForKey(renderedKey,renderedChord)
+        var renderedChord2 = utils.canonicalChordForKey(spellingKey, renderedChord)
         return renderedChord2
     }
    
@@ -340,6 +340,8 @@ export default function useAbcjsParser() {
         var meter = forceMeter ? forceMeter : abcJson.meter
         var noteLength = getNoteLengthDecimal("L:"+noteLengthText+"\nM:"+meter)
         var barSize = abcTools.getNoteLengthsPerBar(noteLengthText, meter)
+        var barModel = getBarModel(meter, noteLengthText)
+        var beatCount = barModel.beatCount
         //var meter = getMeter(abcString)
         var abc = parse(abcString)
         var final = []
@@ -350,6 +352,18 @@ export default function useAbcjsParser() {
         var pendingStartRepeat = false
         var pendingEndingLabel = null
         var pendingLineSectionMarker = null
+        // Attach [M:] to the next written bar so meter changes are not orphan
+        // tokens that inflate chart bar counts when slicing by strain.
+        var pendingMeterMarker = null
+        // Display charts: carry harmony across beats and barlines.
+        var lastSoundingChord = ''
+        
+        function beatChordFromLayout(layout, beatIndex) {
+            if (Array.isArray(layout[beatIndex]) && layout[beatIndex].length > 0) {
+                return layout[beatIndex].join(' ').trim()
+            }
+            return ''
+        }
         
         function writeBar(barLayout, closeBarline) {
             var close = closeBarline || '|'
@@ -357,6 +371,10 @@ export default function useAbcjsParser() {
             if (pendingLineSectionMarker && showDots) {
               final.push(pendingLineSectionMarker)
               pendingLineSectionMarker = null
+            }
+            if (pendingMeterMarker) {
+                chunks.push(pendingMeterMarker)
+                pendingMeterMarker = null
             }
             if (!showDots) {
                 if (pendingStartRepeat) {
@@ -368,16 +386,41 @@ export default function useAbcjsParser() {
                     pendingEndingLabel = null
                 }
             }
-            for (var i=0; i < barSize; i++) {
-               if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
-                    // push the chords on beat i
-                    chunks.push(barLayout[i].join(' ').trim())
-                } else {
-                    if (showDots) {
+            if (showDots) {
+                for (var i=0; i < barSize; i++) {
+                   if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
+                        chunks.push(barLayout[i].join(' ').trim())
+                    } else {
                         chunks.push(".")
                     }
+                 }
+            } else {
+                var prevBarEndChord = lastSoundingChord
+                var hadExplicitChord = false
+                var unitSounding = []
+                var carry = prevBarEndChord
+                for (var si = 0; si < barSize; si++) {
+                    var explicit = beatChordFromLayout(barLayout, si)
+                    if (explicit) {
+                        hadExplicitChord = true
+                        carry = explicit
+                    }
+                    unitSounding.push(carry)
                 }
-             }
+                var beatSounding = collapseSoundingToBeats(unitSounding, beatCount)
+                var formatted = formatBeatSoundingForDisplay(beatSounding)
+                if (!hadExplicitChord
+                    && formatted.tokens.length === 1
+                    && formatted.tokens[0] === prevBarEndChord) {
+                    formatted.tokens = []
+                }
+                chunks = chunks.concat(formatted.tokens)
+                if (beatSounding.length > 0 && beatSounding[beatSounding.length - 1]) {
+                    lastSoundingChord = beatSounding[beatSounding.length - 1]
+                } else if (formatted.barEndChord) {
+                    lastSoundingChord = formatted.barEndChord
+                }
+            }
             // One final[] entry per bar (content + close) so join(' ') cannot
             // insert spaces inside |: / :| / :|: markers.
             var body = chunks.filter(Boolean).join(' ').trim()
@@ -410,8 +453,10 @@ export default function useAbcjsParser() {
                             meter = normalizeMeter(nextMeter)
                             noteLength = getNoteLengthDecimal("L:"+noteLengthText+"\nM:"+meter)
                             barSize = abcTools.getNoteLengthsPerBar(noteLengthText, meter)
+                            barModel = getBarModel(meter, noteLengthText)
+                            beatCount = barModel.beatCount
                             fullBarDuration = barSize * noteLength
-                            final.push('[M:' + meter + ']')
+                            pendingMeterMarker = '[M:' + meter + ']'
                             barLayout = []
                             for (var mi = 0; mi < barSize; mi++) {
                                 barLayout.push([])
@@ -504,11 +549,18 @@ export default function useAbcjsParser() {
                 }) 
                 if (lastSymbol && lastSymbol.el_type == 'bar') {
                     final.push("\n")
-                    if (lastSymbol.type === 'bar_thin_thin') {
+                    // || and section-ending :| start a new chord chart block.
+                    // Volta mid-strain :| keeps [2 on the same line, so lastSymbol
+                    // is not bar_right_repeat at EOL in that case.
+                    if (lastSymbol.type === 'bar_thin_thin'
+                        || lastSymbol.type === 'bar_right_repeat') {
                        final.push("\n" )
                     }
                 } else if (lastSymbol && lastSymbol.el_type !== 'bar') {
-                    if (showDots || noteLengthsSinceLastBar > 0) {
+                    // Only flush a trailing bar when it has notes/rests. A line that
+                    // ends on [M:]/[Q:] after || must not invent an empty bar — the
+                    // meter marker stays pending for the next strain's first bar.
+                    if (noteLengthsSinceLastBar > 0) {
                         writeBar(barLayout)
                     }
                     final.push("\n")

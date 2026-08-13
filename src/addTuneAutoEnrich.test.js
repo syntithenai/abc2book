@@ -406,20 +406,58 @@ describe('addTuneAutoEnrich', function() {
     expect(state.needsChordPaste).toBe(false)
   })
 
-  test('shouldSkipAbcMergeForChordPaste when real melody and lyrics exist', function() {
-    const { shouldSkipAbcMergeForChordPaste } = require('./addTuneAutoEnrich')
-    expect(shouldSkipAbcMergeForChordPaste({
-      voices: { '1': { notes: ['C D E F |'] } },
-      words: ['Dans un sommeil'],
+  test('does not offer chord paste for non-UG manuals', async function() {
+    const tune = { id: 't-noug', name: 'Song', composer: 'Artist' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://www.azchords.com/s/song.html',
+        title: 'Song',
+        source: 'azchords.com',
+        host: 'azchords.com',
+        contentType: 'chords',
+      }],
+    })
+    searchLyrics.mockResolvedValue({ text: 'lyrics' })
+    searchNotation.mockResolvedValue({ empty: true })
+    commitChordSearchResultToTune.mockReturnValue({ ok: false })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
+    })
+    applyCandidateToTune.mockReturnValue(true)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t-noug')
+    expect(state.needsChordPaste).toBe(false)
+  })
+
+  test('offerAddTuneAutoEnrichChordPaste requires concrete UG url', function() {
+    const { offerAddTuneAutoEnrichChordPaste, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichChordPaste } = require('./addTuneAutoEnrich')
+    expect(offerAddTuneAutoEnrichChordPaste('t-offer', {
+      manualCandidates: [{ url: 'https://www.azchords.com/x', title: 'X' }],
+    })).toBe(false)
+    expect(offerAddTuneAutoEnrichChordPaste('t-offer', {
+      manualCandidates: [{
+        url: 'https://tabs.ultimate-guitar.com/tab/x/y-1',
+        title: 'Y',
+        source: 'ultimate-guitar.com',
+      }],
     })).toBe(true)
-    expect(shouldSkipAbcMergeForChordPaste({
-      voices: { '1': { notes: ['z4 |'] } },
-      words: ['Dans un sommeil'],
-    })).toBe(false)
-    expect(shouldSkipAbcMergeForChordPaste({
-      voices: { '1': { notes: ['C D E F |'] } },
-      words: [],
-    })).toBe(false)
+    expect(getAddTuneAutoEnrichState('t-offer').needsChordPaste).toBe(true)
+    dismissAddTuneAutoEnrichChordPaste('t-offer')
   })
 
   test('prompts for MuseScore paste when notation finds only gated scores', async function() {

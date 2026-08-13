@@ -26,7 +26,7 @@ import {
 import { advanceQueueAfterPlaybackFailure } from './playlistPlaybackSkip'
 import { playLessonYoutube } from './lessonYoutubePlayer'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
-import { announcePlaylistTrack } from './playlistTitleAnnouncement'
+import { queuePlaylistTrackAnnouncement } from './playlistTitleAnnouncement'
 
 function resolveActiveQueue(params) {
   const queue = params && params.queue
@@ -198,7 +198,7 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
-  announcePlaylistTrack(tune)
+  queuePlaylistTrackAnnouncement(tune)
 
   const shouldFollow = nextQueue.followTune && navigate && !shouldSuppressFollowNavigate({
     pathname: location && location.pathname,
@@ -238,18 +238,33 @@ export async function advanceQueueToPlayableAndStart(params) {
 
   const tunesMap = resolveQueueTunesMap(tunes, tunebook)
   const synced = syncQueueIndex(queue, currentPlayingTuneId)
-  const result = await advanceQueueToNextPlayable(synced, tunesMap, tunebook, {
+  const playabilityOpts = {
     direction: direction != null ? direction : 1,
     advanceFirst: advanceFirst !== false,
     isYoutubeLink: isYoutubeLink,
     playbackMode: playbackMode,
-  })
+  }
+  // Prefer the live session token from the media controller over the health-store
+  // token so mid-session logout still skips uncached library links.
+  if (params && Object.prototype.hasOwnProperty.call(params, 'accessToken')) {
+    playabilityOpts.accessToken = params.accessToken
+  }
+  if (params && params.resolverStatus !== undefined) {
+    playabilityOpts.resolverStatus = params.resolverStatus
+  }
+  if (params && params.resolverHealth !== undefined) {
+    playabilityOpts.resolverHealth = params.resolverHealth
+  }
+  const result = await advanceQueueToNextPlayable(synced, tunesMap, tunebook, playabilityOpts)
 
   if (result.atEnd || !result.item) {
     if (queue && queue.autoAdvance) {
       const skipResult = await advanceQueueAfterPlaybackFailure(queue, tunesMap, tunebook, {
         isYoutubeLink: isYoutubeLink,
         playbackMode: playbackMode,
+        accessToken: playabilityOpts.accessToken,
+        resolverStatus: playabilityOpts.resolverStatus,
+        resolverHealth: playabilityOpts.resolverHealth,
       })
       if (!skipResult.atEnd && skipResult.item) {
         if (isExternalQueueItem(skipResult.item)) {

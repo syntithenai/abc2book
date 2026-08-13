@@ -1,8 +1,114 @@
 import React from 'react'
 
-export function AudioAnalysisHelpBody() {
+var AUDIO_ANALYSIS_HELP_PRINT_STYLES = [
+  '@page { size: A4; margin: 0.6in; }',
+  'body { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.45; color: #111; }',
+  'h1.print-help-title { font-family: system-ui, sans-serif; font-size: 18pt; margin: 0 0 0.35in; }',
+  '.audio-analysis-help-body h5 { font-family: system-ui, sans-serif; font-size: 13pt; margin: 0.35in 0 0.12in; page-break-after: avoid; }',
+  '.audio-analysis-help-body h6 { font-family: system-ui, sans-serif; font-size: 11pt; margin: 0.22in 0 0.08in; page-break-after: avoid; }',
+  '.audio-analysis-help-body p, .audio-analysis-help-body li { margin: 0 0 0.1in; }',
+  '.audio-analysis-help-body ol, .audio-analysis-help-body ul { margin: 0 0 0.12in; padding-left: 1.2em; }',
+  '.audio-analysis-help-body code { font-family: ui-monospace, monospace; font-size: 0.92em; }',
+  '.help-figure { margin: 0.15in 0 0.25in; max-width: 4.8in; page-break-inside: avoid; break-inside: avoid; }',
+  '.help-figure img { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid #ccc; }',
+  '.help-figure figcaption { font-family: system-ui, sans-serif; font-size: 9pt; color: #444; margin-top: 0.06in; }',
+  '.text-muted { color: #555 !important; }',
+  '.mb-0 { margin-bottom: 0 !important; }'
+].join('\n')
+
+function absolutizeHelpImageSrcs(rootEl) {
+  if (!rootEl || typeof rootEl.querySelectorAll !== 'function') return
+  var imgs = rootEl.querySelectorAll('img')
+  for (var i = 0; i < imgs.length; i++) {
+    var img = imgs[i]
+    img.removeAttribute('loading')
+    var src = img.getAttribute('src')
+    if (!src || /^(https?:|data:|blob:)/i.test(src)) continue
+    try {
+      img.setAttribute('src', new URL(src, document.baseURI).href)
+    } catch (err) {
+      // leave relative src
+    }
+  }
+}
+
+function whenDocumentImagesReady(doc, callback) {
+  var finished = false
+  function done() {
+    if (finished) return
+    finished = true
+    callback()
+  }
+  var imgs = Array.prototype.slice.call((doc && doc.images) || [])
+  if (!imgs.length) {
+    done()
+    return
+  }
+  var pending = imgs.length
+  function oneDone() {
+    pending -= 1
+    if (pending <= 0) done()
+  }
+  imgs.forEach(function(img) {
+    if (img.complete) {
+      oneDone()
+      return
+    }
+    img.addEventListener('load', oneDone)
+    img.addEventListener('error', oneDone)
+  })
+  setTimeout(done, 4000)
+}
+
+/** Open a print dialog for the Audio Analysis help body (works despite app @media print hiding modals). */
+export function printAudioAnalysisHelp(rootEl) {
+  if (!rootEl || typeof document === 'undefined') return
+
+  var clone = rootEl.cloneNode(true)
+  absolutizeHelpImageSrcs(clone)
+
+  var title = 'Audio Analysis help'
+  var html =
+    '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' +
+    title +
+    '</title><style>' +
+    AUDIO_ANALYSIS_HELP_PRINT_STYLES +
+    '</style></head><body>' +
+    '<h1 class="print-help-title">ABC Tune Book — Audio Analysis help</h1>' +
+    clone.outerHTML +
+    '</body></html>'
+
+  var iframe = document.createElement('iframe')
+  iframe.setAttribute('title', title)
+  iframe.setAttribute('aria-hidden', 'true')
+  iframe.style.position = 'fixed'
+  iframe.style.right = '0'
+  iframe.style.bottom = '0'
+  iframe.style.width = '0'
+  iframe.style.height = '0'
+  iframe.style.border = '0'
+  document.body.appendChild(iframe)
+
+  var printWindow = iframe.contentWindow
+  var printDoc = printWindow.document
+  printDoc.open()
+  printDoc.write(html)
+  printDoc.close()
+
+  whenDocumentImagesReady(printDoc, function() {
+    printWindow.focus()
+    setTimeout(function() {
+      printWindow.print()
+      setTimeout(function() {
+        if (iframe.parentNode) iframe.parentNode.removeChild(iframe)
+      }, 1000)
+    }, 100)
+  })
+}
+
+export const AudioAnalysisHelpBody = React.forwardRef(function AudioAnalysisHelpBody(props, ref) {
   return (
-    <div className="audio-analysis-help-body">
+    <div ref={ref} className="audio-analysis-help-body">
       <h5>Using the tool</h5>
       <ol>
         <li>
@@ -67,6 +173,163 @@ export function AudioAnalysisHelpBody() {
         Compare overlays solid L curves (radiation) and dashed R curves (piezo). Body modes lists L and R peak shifts separately.
         Timbre / soundpost heuristics still use the radiated (L) channel only.
       </p>
+
+      <h5>Hardware setups for consistent taps</h5>
+      <p>
+        TuneBook tap mode does not need a force-calibrated lab hammer, but <strong>repeatable excitation</strong> matters.
+        The biggest gains come from fixing tap location, strike style, mic distance, and gains — then keeping them identical
+        between baseline A and candidate B sets.
+      </p>
+
+      <h6 className="h6">Home / workshop setup</h6>
+      <p>
+        This is enough for useful before/after soundpost or setup comparisons:
+      </p>
+      <ul>
+        <li>
+          <strong>Excitation</strong> — fingertip or pencil eraser on the <strong>same bridge spot</strong> every tap.
+          A small wooden dowel (~8–12 mm) gives a slightly sharper impulse than a fingertip. Mark the spot with tape if needed.
+        </li>
+        <li>
+          <strong>Radiated mic</strong> — phone at 30–50 cm on the treble side, on a small tripod or stack of books so it
+          cannot move; or a budget USB interface (e.g. Behringer UMC22, Focusrite Scarlett Solo) with a flat small-diaphragm
+          condenser on the XLR input (+48 V phantom).
+        </li>
+        <li>
+          <strong>Optional stereo</strong> — add a contact piezo on channel R (see below). Good condenser choices at this tier
+          include Behringer TM1, Audio-Technica AT2020, Rode NT1, or any “measurement” or “instrument” mic with EQ/Air switched off.
+        </li>
+        <li>
+          <strong>Room &amp; handling</strong> — quiet space, damped strings, notifications off, same mic stand height and angle
+          for every set. Do not change interface gain between A and B.
+        </li>
+      </ul>
+
+      <h6 className="h6">Pro / luthier workshop setup</h6>
+      <p>
+        For laboratory-grade repeatability, violin acoustics researchers use a <strong>pendulum- or stage-mounted impulse hammer</strong>
+        with a force sensor in the tip, plus a flat omnidirectional measurement microphone at a fixed distance. Joseph Curtin’s
+        impulse measurement rig is a widely used example: the violin hangs on elastic supports, a miniature PCB impact hammer
+        (model 086C80 / 086E80 class) swings on a consistent arc to the bass corner of the bridge, and a precision mic records
+        radiated sound. A 3-axis positioning stage keeps strike point and angle identical across dozens of taps.
+      </p>
+      <figure className="help-figure">
+        <img
+          alt="Joseph Curtin impulse measurement rig with violin, microphone boom, and pendulum impact hammer"
+          src="helpimages/audio-analysis-curtin-rig.jpg"
+          loading="lazy"
+        />
+        <figcaption className="text-muted small">
+          Pro sound-radiation rig (Joseph Curtin Studios) — elastic violin support, fixed mic distance, pendulum impact hammer.
+        </figcaption>
+      </figure>
+      <figure className="help-figure">
+        <img
+          alt="Pendulum-mounted miniature impact hammer aligned to violin bridge"
+          src="helpimages/audio-analysis-hammer-mount.jpg"
+          loading="lazy"
+        />
+        <figcaption className="text-muted small">
+          Hammer mount detail — consistent swing path and bridge contact point across taps.
+        </figcaption>
+      </figure>
+      <figure className="help-figure">
+        <img
+          alt="PCB Piezotronics miniature impact hammer with force sensor in the tip"
+          src="helpimages/audio-analysis-impulse-hammer.jpg"
+          loading="lazy"
+        />
+        <figcaption className="text-muted small">
+          Miniature force-calibrated impact hammer (PCB 086C80 class) — the pro standard for repeatable bridge taps.
+        </figcaption>
+      </figure>
+      <p>
+        Pro-tier additions beyond TuneBook’s Tier‑1 tap workflow:
+      </p>
+      <ul>
+        <li>
+          <strong>Force channel</strong> — hammer output into a dedicated IEPE/ICP conditioner (e.g. PCB 485B39) so software
+          can compute true radiativity (sound per unit force). TuneBook uses mic-only tap spectra, which are still excellent for
+          A/B peak shifts when protocol is matched.
+        </li>
+        <li>
+          <strong>Measurement mic</strong> — flat omnidirectional models at 20 cm–1 m: Earthworks M30/M50, GRAS 46AE, PCB 378B02,
+          or similar calibrated condensers. Avoid vocal mics with presence boosts.
+        </li>
+        <li>
+          <strong>Bridge admittance</strong> — lightweight accelerometer (&lt;0.5 g, e.g. PCB 352A73) on the bridge plus hammer
+          force gives bridge mobility; useful for modal work but separate from radiated tap capture in this app.
+        </li>
+        <li>
+          <strong>Mounting</strong> — instrument on soft elastic bands (ponytail ties work); damp strings with foam or ribbon;
+          mark mic distance on a boom stand. Curtin-style rigs pack into a carry-on for hall measurements.
+        </li>
+      </ul>
+
+      <h5>Microphones &amp; piezos for recording</h5>
+
+      <h6 className="h6">Radiated microphone (L channel, or mono tap)</h6>
+      <p>
+        Choose a mic with the <strong>flattest frequency response</strong> you can manage — no “vocal warmth” or Air/EQ enhancement.
+        Omnidirectional capsules are preferred for measurement; cardioids work close if aimed at the bridge and kept at the same distance.
+      </p>
+      <ul>
+        <li>
+          <strong>Phone mic</strong> — acceptable for relative A/B work at 30–50 cm when the phone is clamped in place. Near-field
+          placement reduces room colouration.
+        </li>
+        <li>
+          <strong>Home USB / XLR</strong> — Behringer TM1, AT2020, Rode NT1, sE X1, or any entry condenser on a 2-in interface
+          (UMC22, Scarlett 2i2). Enable +48 V phantom; set gain once and leave it.
+        </li>
+        <li>
+          <strong>Pro measurement</strong> — Earthworks M30/M50, GRAS 46AE ½″, PCB 378B02, or B&amp;K class-I condensers with
+          known calibration curves. Often used at 37 cm–1 m on a boom for radiation maps.
+        </li>
+      </ul>
+      <figure className="help-figure">
+        <img
+          alt="PCB precision measurement microphone for acoustic testing"
+          src="helpimages/audio-analysis-pcb-mic.jpg"
+          loading="lazy"
+        />
+        <figcaption className="text-muted small">
+          Example precision measurement microphone (PCB 378B02 class) — flat omnidirectional response for radiated tap capture.
+        </figcaption>
+      </figure>
+
+      <h6 className="h6">Contact / piezo pickup (R channel, stereo tap)</h6>
+      <p>
+        For the R channel you want a <strong>structure-borne</strong> sensor, not an amplified bridge pickup meant for stage volume.
+        A small disc or film piezo on the bridge top (bass or treble foot — pick one and mark it) senses bridge motion directly
+        and is less sensitive to room reflections than the air mic.
+      </p>
+      <ul>
+        <li>
+          <strong>Placement</strong> — Blu‑Tack or double-sided tape under the piezo; same mass and position for every set.
+          Route the cable so it does not pull on the bridge.
+        </li>
+        <li>
+          <strong>Preamp / interface</strong> — piezos need a <strong>high-impedance (Hi‑Z)</strong> input: instrument jack on a
+          guitar interface, Radial StageBug PZ, Fishman Aura DI, or a dedicated piezo preamp. Never apply +48 V phantom to a raw piezo.
+        </li>
+        <li>
+          <strong>Hardware examples</strong> — K&amp;K or Fishman bridge transducers, cheap disc piezos with a buffer, or a spare
+          under-saddle film element taped lightly to the bridge. Commercial violin bridge pickups (see below) can work if buffered
+          and kept off the strings.
+        </li>
+      </ul>
+      <figure className="help-figure">
+        <img
+          alt="Piezoelectric transducer embedded in a violin bridge pickup"
+          src="helpimages/audio-analysis-piezo-bridge.jpg"
+          loading="lazy"
+        />
+        <figcaption className="text-muted small">
+          Piezo element in a violin bridge pickup (Wikimedia Commons) — for measurement, use a small contact disc on the bridge
+          top rather than a full performance pickup when possible.
+        </figcaption>
+      </figure>
 
       <h5>Timbre metrics (Meyda-style)</h5>
       <ul>
@@ -138,4 +401,4 @@ export function AudioAnalysisHelpBody() {
       </p>
     </div>
   )
-}
+})

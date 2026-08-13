@@ -3,6 +3,7 @@ import { Alert, Badge, Button, Form, Modal, Table } from 'react-bootstrap';
 import {
   buildDefaultFieldSelectionsForRecord,
   buildFieldSelectionsForRecord,
+  MASS_DELETE_ABSOLUTE_THRESHOLD,
 } from '../incomingMergeUtils';
 import { toTuneUpdatedMs } from '../tuneBookSync';
 import {
@@ -328,11 +329,18 @@ export default function IncomingMergeModal(props) {
   // "Accept All" must take every differing incoming field, not the recommended
   // defaults. Otherwise fields like tags/links stay different from the remote
   // copy and the same tunes keep coming back as updates to merge.
+  // Mass delete batches (wiped Drive heads) default to rejected so Accept All
+  // cannot empty a restored library.
   function buildAcceptAllRecordState() {
+    const records = batch && batch.records ? batch.records : [];
+    const deleteCount = records.filter(function(record) {
+      return record && record.kind === 'delete';
+    }).length;
+    const rejectMassDeletes = deleteCount >= MASS_DELETE_ABSOLUTE_THRESHOLD;
     const next = {};
-    (batch && batch.records ? batch.records : []).forEach(function(record) {
+    records.forEach(function(record) {
       next[record.id] = {
-        accept: true,
+        accept: !(rejectMassDeletes && record.kind === 'delete'),
         fieldSelections: buildFieldSelectionsForRecord(record, true),
       };
     });

@@ -1,6 +1,7 @@
 import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
+import AccountModal from './AccountModal'
 import { useState, useEffect, useRef, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
@@ -25,6 +26,7 @@ import {
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
 import useMediaResolverHealth from '../useMediaResolverHealth';
+import { resolveTunesListPath } from '../searchFilterParams';
 import {
   getImportReviewSessionRevision,
   hasActiveImportReviewSession,
@@ -40,6 +42,7 @@ export default function Header(props) {
     var parts = location.pathname.split("/")
     var params = {tuneId: parts.length >= 3 ? parts[2] : null}
     const [userImageError, setUserImageError] = useState(false)
+    const [showAccount, setShowAccount] = useState(false)
     const [showPlaylists, setShowPlaylists] = useState(false)
     const [navMenuOpen, setNavMenuOpen] = useState(false)
     const [listsMenuOpen, setListsMenuOpen] = useState(false)
@@ -205,6 +208,12 @@ export default function Header(props) {
         )
     }
 
+    function openAccountDialog() {
+        setNavMenuOpen(false)
+        setListsMenuOpen(false)
+        setShowAccount(true)
+    }
+
     function renderAuthButton(inHeader) {
         const className = inHeader ? 'header-auth-btn' : 'header-dropdown-btn'
         const size = inHeader ? undefined : navButtonSize
@@ -218,17 +227,18 @@ export default function Header(props) {
                     size={size}
                     variant="danger"
                     className={className + (profileUrl ? ' header-auth-btn-profile' : '')}
-                    aria-label="Log out"
-                    onClick={function() { props.logout() }}
+                    aria-label="Account"
+                    title="Account"
+                    onClick={openAccountDialog}
                 >
                     {profileUrl
                         ? <img src={profileUrl} onError={function() { setUserImageError(true) }} className="header-auth-profile-img" style={imgSize ? { height: imgSize, width: imgSize } : undefined} alt="" />
-                        : props.tunebook.icons.logout}
+                        : props.tunebook.icons.login}
                 </Button>
             )
         }
         return (
-            <Button size={size} variant="success" className={className} aria-label="Log in" onClick={function() {
+            <Button size={size} variant="success" className={className} aria-label="Log in" title="Log in" onClick={function() {
                 if (typeof props.login === 'function') props.login()
             }}>
                 {props.tunebook.icons.login}
@@ -423,6 +433,13 @@ export default function Header(props) {
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
+                        <Link to="/audioanalysis">
+                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
+                                Audio Analysis
+                            </Button>
+                        </Link>
+                    </Dropdown.Item>
+                    <Dropdown.Item as="div">
                         <Link to="/chords">
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 {props.tunebook.icons.guitar} Chords
@@ -501,7 +518,15 @@ export default function Header(props) {
             <ButtonGroup className="header-nav-buttons">
                 <Button
                     as={Link}
-                    to="/tunes"
+                    to={resolveTunesListPath({
+                      currentTuneBook: props.currentTuneBook,
+                      filter: props.filter,
+                      tagFilter: props.tagFilter,
+                      genreFilter: props.genreFilter,
+                      artistFilter: props.artistFilter,
+                      albumFilter: props.albumFilter,
+                      groupBy: props.groupBy,
+                    })}
                     variant="info"
                     className="header-nav-btn header-nav-tunes-btn"
                     title="Tunes"
@@ -584,6 +609,16 @@ export default function Header(props) {
             token={props.token}
             login={props.login}
             googleDocumentId={props.googleDocumentId}
+        />
+        <AccountModal
+            show={showAccount}
+            onHide={function() { setShowAccount(false) }}
+            user={props.user}
+            token={props.token}
+            logout={props.logout}
+            icons={props.tunebook.icons}
+            imageError={userImageError}
+            onImageError={function() { setUserImageError(true) }}
         />
     </header>
 }

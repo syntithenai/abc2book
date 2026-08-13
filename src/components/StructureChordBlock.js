@@ -5,12 +5,51 @@ import {
   alignChordBlocksToLyrics,
   chartBlockHasChords,
   formatChordChartForDisplay,
-  splitChordChartIntoBlocks,
+  ensureLeadingMeterMarker,
+  parseChordChartDisplayLine,
 } from '../chordSheetUtils';
+import {
+  chordChartBlocksForTuneDisplay,
+  chordNoteLinesFromTune,
+  splitMelodyStrainsWithBarlines,
+} from '../chordBlockMerge';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import { displaySectionHeader } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
 import StructureCapoControl from './StructureCapoControl';
+
+function renderChordMeterMark(part, key) {
+  if (!part || part.type !== 'meter') return null;
+  if (!part.den) {
+    return (
+      <span key={key} className="chord-meter-mark chord-meter-mark--plain" title={part.label} aria-label={part.label}>
+        {part.label}
+      </span>
+    );
+  }
+  return (
+    <span key={key} className="chord-meter-mark" title={part.label} aria-label={part.label}>
+      <span className="chord-meter-num">{part.num}</span>
+      <span className="chord-meter-den">{part.den}</span>
+    </span>
+  );
+}
+
+function renderChartLineParts(line, keyPrefix) {
+  return parseChordChartDisplayLine(line).map(function(part, partKey) {
+    if (part.type === 'meter') {
+      return renderChordMeterMark(part, keyPrefix + '-m-' + partKey);
+    }
+    if (part.type === 'repeat') {
+      return (
+        <span key={keyPrefix + '-rm-' + partKey} className="chord-repeat-mark">
+          {part.text}
+        </span>
+      );
+    }
+    return part.text || '';
+  });
+}
 
 /**
  * Structure (chord block) panel.
@@ -29,7 +68,9 @@ export default function StructureChordBlock(props) {
     title,
     composer,
     fitHeight,
+    fitHeightGrow,
     inheritScale,
+    melodyNoteLines,
     capoOffset,
     capoEnabled,
     onCapoToggle,
@@ -37,51 +78,84 @@ export default function StructureChordBlock(props) {
     showCapoControl,
   } = props;
 
+  const melodyKey = useMemo(function() {
+    return chordNoteLinesFromTune(tune, melodyNoteLines).join('\n');
+  }, [tune, melodyNoteLines]);
+
   const structureSections = useMemo(function() {
     const chart = chords || '';
-    const chordBlocks = splitChordChartIntoBlocks(chart);
     const lyricLines = tune ? getLyricLinesForDisplay(tune) : [];
     const hasLyricContent = lyricLines.some(function(line) {
       return String(line || '').trim().length > 0;
     });
+    const tuneMeter = tune && tune.meter ? tune.meter : null;
+
+    const noteLines = chordNoteLinesFromTune(tune, melodyNoteLines);
+    const chordBlocks = chordChartBlocksForTuneDisplay(tune, chart, noteLines);
+    const strainCount = splitMelodyStrainsWithBarlines(noteLines).length;
+
+    function formatSectionChart(chartText, applyLeadingMeter) {
+      const withMeter = applyLeadingMeter
+        ? ensureLeadingMeterMarker(chartText, tuneMeter)
+        : chartText;
+      return formatChordChartForDisplay(withMeter);
+    }
 
     if (hasLyricContent && chordBlocks.length > 0) {
       const aligned = alignChordBlocksToLyrics(lyricLines, chordBlocks, {
         title: title || (tune && tune.name),
         composer: composer || (tune && tune.composer),
-        chordSectionLabels: tune && Array.isArray(tune.chordSectionLabels)
-          ? tune.chordSectionLabels
-          : null,
+        melodyNoteLines: noteLines,
       });
       const sections = [];
+      let visibleChartCount = 0;
+      let leadingMeterPending = !!tuneMeter;
       aligned.forEach(function(block) {
         const label = displaySectionHeader(block.header);
         const showChart = !block.chartRevisit && chartBlockHasChords(block.chart);
-        const showExtra = chartBlockHasChords(block.extraChart);
+        const showExtra = !block.chartRevisit && chartBlockHasChords(block.extraChart);
         if (!label && !showChart && !showExtra) return;
+        if (showChart || showExtra) visibleChartCount += 1;
+        const applyLeading = leadingMeterPending && showChart;
+        if (applyLeading) leadingMeterPending = false;
         sections.push({
           label: label,
-          chart: showChart ? formatChordChartForDisplay(block.chart) : '',
+          chart: showChart ? formatSectionChart(block.chart, applyLeading) : '',
           extraChart: showExtra ? formatChordChartForDisplay(block.extraChart) : '',
           headingOnly: !!block.chartRevisit && !!label,
         });
       });
-      if (sections.length > 0) return sections;
+      if (sections.length > 0) {
+        const typedBlocks = aligned.filter(function(b) { return b && b.type; }).length;
+        if (visibleChartCount <= 1 && typedBlocks > 2 && strainCount <= 1) {
+          sections.unshift({
+            label: null,
+            chart: '',
+            extraChart: '',
+            headingOnly: false,
+            hint: 'Add || double barlines in the ABC notation at each section boundary (verse, pre-chorus, chorus) to split structure chords.',
+          });
+        }
+        return sections;
+      }
     }
 
     const display = formatChordChartForDisplay(chart);
     if (!display) return [];
-    return splitChordChartIntoBlocks(display).map(function(block) {
+    let leadingMeterPending = !!tuneMeter;
+    return chordChartBlocksForTuneDisplay(tune, display, noteLines).map(function(block) {
+      const applyLeading = leadingMeterPending;
+      if (applyLeading) leadingMeterPending = false;
       return {
         label: null,
-        chart: formatChordChartForDisplay(block),
+        chart: formatSectionChart(block, applyLeading),
         extraChart: '',
         headingOnly: false,
       };
     }).filter(function(section) {
       return !!section.chart;
     });
-  }, [chords, tune, title, composer]);
+  }, [chords, tune, title, composer, melodyKey, melodyNoteLines]);
 
   const sectionsKey = useMemo(function() {
     return structureSections.map(function(s) {
@@ -91,11 +165,13 @@ export default function StructureChordBlock(props) {
 
   const useOwnFit = !inheritScale;
 
+  const heightGrow = fitHeightGrow !== false;
+
   const { containerRef, contentRef, fontScale, overflows } = useFitTextScale({
     fitHeight: useOwnFit && !!fitHeight,
     measureLongestLine: useOwnFit,
     minScale: 0.35,
-    maxScale: fitHeight ? 4.5 : 3.2,
+    maxScale: fitHeight ? (heightGrow ? 4.5 : 1) : 3.2,
     padX: 16,
     padY: 16,
     // Heading-only stanzas (repeated verses/choruses with no chart of their
@@ -113,25 +189,11 @@ export default function StructureChordBlock(props) {
       if (!line.trim()) {
         return <div key={keyPrefix + '-sp-' + idx} className="chord-block-spacer" />;
       }
-      // Highlight |: / :| / :|: / [1 / [2 / |] so markers cannot be lost to overflow clipping.
-      const parts = [];
-      const re = /:\|:|\|:|:\||\|\]|\[\d+|\d+\./g;
-      let last = 0;
-      let match;
-      let partKey = 0;
-      while ((match = re.exec(line)) !== null) {
-        if (match.index > last) {
-          parts.push(line.slice(last, match.index));
-        }
-        parts.push(
-          <span key={keyPrefix + '-rm-' + idx + '-' + (partKey++)} className="chord-repeat-mark">
-            {match[0]}
-          </span>
-        );
-        last = match.index + match[0].length;
-      }
-      if (last < line.length) parts.push(line.slice(last));
-      return <div key={keyPrefix + '-' + idx} className="chord-block-line">{parts}</div>;
+      return (
+        <div key={keyPrefix + '-' + idx} className="chord-block-line">
+          {renderChartLineParts(line, keyPrefix + '-' + idx)}
+        </div>
+      );
     });
   }
 
@@ -173,7 +235,7 @@ export default function StructureChordBlock(props) {
       <div
         className="chord-block-lines"
         ref={useOwnFit ? contentRef : null}
-        style={useOwnFit ? { fontSize: fontScale + 'em', flex: '0 0 auto' } : { flex: '0 0 auto' }}
+        style={useOwnFit ? { fontSize: fontScale + 'em' } : undefined}
       >
         {structureSections.map(function(section, si) {
           const noChart = !section.chart && !section.extraChart;
@@ -192,8 +254,13 @@ export default function StructureChordBlock(props) {
                   {section.label}
                 </div>
               ) : null}
-              {section.extraChart ? renderChartLines(section.extraChart, 'extra-' + si) : null}
+              {section.hint ? (
+                <div className="structure-section-hint text-muted small mb-2">
+                  {section.hint}
+                </div>
+              ) : null}
               {section.chart ? renderChartLines(section.chart, 'chart-' + si) : null}
+              {section.extraChart ? renderChartLines(section.extraChart, 'extra-' + si) : null}
             </div>
           );
         })}

@@ -1,4 +1,4 @@
-import { getRecentTunes } from './recentTunes'
+import { getRecentlyUpdatedTunes } from './recentTunes'
 import { primaryArtist, allArtists, allTitles } from './tuneBibliographicUtils'
 import { extractFactsFromTune, factsToNewsBody, factHash } from './feedFactExtractors'
 import { buildQuizBundle, shuffleChoices } from './feedQuizUtils'
@@ -325,7 +325,7 @@ export function generateLocalFeedItems(options) {
   const tunes = opts.tunes || {}
   let viewIds = Array.isArray(opts.viewIds) ? opts.viewIds.slice() : []
   if (!viewIds.length) {
-    viewIds = getRecentTunes(tunes, 20).map(function(t) { return t.id })
+    viewIds = getRecentlyUpdatedTunes(tunes, 20).map(function(t) { return t.id })
   }
   const items = []
   const rng = opts.rng

@@ -89,6 +89,7 @@ import {
 import {
   runAddTuneAutoEnrich,
 } from '../addTuneAutoEnrich'
+import { tuneHasMusicCollectionLink } from '../mediaSearchTuneMaterialize'
 import { inferNotationSongType } from '../textSearchIndexUtils'
 import {
   getPendingAbcImportBatch,
@@ -1240,6 +1241,7 @@ export default function ImportReviewBridge(props) {
   const handleFinishCandidate = useCallback(function(updatedSession, done) {
     const fromAdd = isAddTunesChrome(updatedSession)
       || (updatedSession && updatedSession.entryMode === 'add')
+    const finishedCandidate = currentCandidate(updatedSession)
     finishCandidate(updatedSession, function(savedTune) {
       if (fromAdd) {
         clearImportReviewEnrichmentBridge()
@@ -1247,17 +1249,21 @@ export default function ImportReviewBridge(props) {
         dismissContentHashDuplicateToast()
         dismissBackgroundReviewToast()
         if (savedTune && savedTune.id) {
-          Promise.resolve(runAddTuneAutoEnrich({
-            tune: savedTune,
-            tunebook: props.tunebook,
-            abcjsParser: abcjsParser,
-            accessToken: props.token && props.token.access_token ? props.token.access_token : '',
-            resolverAvailable: resolverAvailable,
-            searchIndex: props.searchIndex,
-            loadTuneTexts: props.loadTuneTexts,
-            forceRefresh: props.forceRefresh,
-            songType: inferNotationSongType(savedTune.rhythm || '', savedTune.composer || ''),
-          })).catch(function() {})
+          const skipAutoEnrich = !!(finishedCandidate && finishedCandidate.skipEnrich)
+            || tuneHasMusicCollectionLink(savedTune)
+          if (!skipAutoEnrich) {
+            Promise.resolve(runAddTuneAutoEnrich({
+              tune: savedTune,
+              tunebook: props.tunebook,
+              abcjsParser: abcjsParser,
+              accessToken: props.token && props.token.access_token ? props.token.access_token : '',
+              resolverAvailable: resolverAvailable,
+              searchIndex: props.searchIndex,
+              loadTuneTexts: props.loadTuneTexts,
+              forceRefresh: props.forceRefresh,
+              songType: inferNotationSongType(savedTune.rhythm || '', savedTune.composer || ''),
+            })).catch(function() {})
+          }
           navigate('/tunes/' + encodeURIComponent(savedTune.id))
         } else {
           navigate('/tunes')
@@ -1337,6 +1343,7 @@ export default function ImportReviewBridge(props) {
         tunebook={props.tunebook}
         tunes={props.tunes}
         token={props.token}
+        user={props.user}
         login={props.login}
         logout={props.logout}
         requestGoogleScopes={props.requestGoogleScopes}

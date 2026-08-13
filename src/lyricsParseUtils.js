@@ -1,4 +1,7 @@
-import { normalizeLyricBlocks } from './chordSheetUtils'
+import {
+  normalizeLyricBlocks,
+  stripLeadingBibliographicLyricPreface,
+} from './chordSheetUtils'
 import {
   isTabStaffLine,
   isUsenetOrTabMetaLine,
@@ -34,8 +37,8 @@ function blocksToStanzas(lines) {
   })
 }
 
-export function finalizeLyricsLines(rawLines) {
-  const lines = []
+export function finalizeLyricsLines(rawLines, options) {
+  let lines = []
   ;(rawLines || []).forEach(function(rawLine) {
     const line = cleanLyricsLine(rawLine)
     if (!line) {
@@ -56,6 +59,9 @@ export function finalizeLyricsLines(rawLines) {
     return [[], [], '']
   }
 
+  // Drop "Title Artist 2020" / "Title - Artist" first lines separated by blank space.
+  lines = stripLeadingBibliographicLyricPreface(lines, options)
+
   const stanzas = blocksToStanzas(lines)
   if (!stanzas.length) return [[], [], '']
 
@@ -68,9 +74,9 @@ export function finalizeLyricsLines(rawLines) {
   return [stanzas, flatLines, flatLines.join('\n')]
 }
 
-export function parsePlainLyricsText(text) {
+export function parsePlainLyricsText(text, options) {
   const rawLines = String(text || '').replace(/\r/g, '').split('\n')
-  return finalizeLyricsLines(rawLines)
+  return finalizeLyricsLines(rawLines, options)
 }
 
 export function lyricsPreview(lines, maxLines) {

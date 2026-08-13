@@ -43,6 +43,20 @@ describe('lyricsParseUtils', function() {
     expect(parsed[1].join('\n')).not.toMatch(/contributors/i)
   })
 
+  test('parsePlainLyricsText drops blank-separated title/composer/date first line', function() {
+    const text = [
+      'AI Opium Pipe - Steve Ryan 2024',
+      '',
+      'Since the earliest of days, I have always loved to read.',
+      '',
+      '# chorus',
+      'Blood on my teeth.',
+    ].join('\n')
+    const parsed = parsePlainLyricsText(text)
+    expect(parsed[1][0]).toBe('Since the earliest of days, I have always loved to read.')
+    expect(parsed[2]).not.toMatch(/Opium Pipe/)
+  })
+
   test('isNoiseLine rejects contributor chrome', function() {
     expect(isNoiseLine('12 Contributors')).toBe(true)
     expect(isNoiseLine('Verse one')).toBe(false)

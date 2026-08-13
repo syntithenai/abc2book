@@ -1,5 +1,9 @@
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
-import { normalizeToTokenResponse, mergeScopeStrings } from './googleLoginTokenAdapter'
+import {
+  normalizeToTokenResponse,
+  mergeScopeStrings,
+  tokenHasFreshAccess,
+} from './googleLoginTokenAdapter'
 import {
   exchangeAuthCode,
   loadAuthSession,
@@ -302,7 +306,7 @@ export function createOAuthBffController(ctx) {
       var health = getMediaResolverHealthState()
       var probed = health && health.status && health.status.candidates
         ? health.status.candidates : []
-      var base = pickAuthResolverBaseForLogin(probed)
+      var base = pickAuthResolverBaseForLogin(probed) || getAuthBase()
       if (base) {
         storeAuthBase(base)
         if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(base)
@@ -336,17 +340,25 @@ export function createOAuthBffController(ctx) {
     // navigation leaves a never-settling promise on the previous try).
     loginInFlight = null
     setOAuthLoginInFlight(true)
-    var needConsent = !!forceConsentNext
+    // Offline access (refresh token / BFF session) is only issued on consent.
+    // Token Client grants do not produce one, so first BFF login must re-consent.
+    var needConsent = !!forceConsentNext || !readStoredAuthSessionId()
+    function requestCode() {
+      return requestAuthorizationCode(null, { forceConsent: needConsent })
+    }
+    var existingBase = getAuthBase()
+    var oauth2Ready = !!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)
+    // Open GIS on the click stack when the resolver is already known. Waiting
+    // for the probe first lets browsers treat the popup as blocked.
+    var codePromise = (!shouldUseAndroidBrowserOAuth() && oauth2Ready && existingBase)
+      ? requestCode()
+      : null
     loginInFlight = resolveLoginAuthBase().then(function(base) {
       if (!base) {
         throw new Error('No OAuth resolver available. Check Settings → Providers or your network connection.')
       }
-      return requestAuthorizationCode(null, {
-        forceConsent: needConsent,
-      }).then(function(codePayload) {
-        return exchangeCodeWithResolverFallback(codePayload, base, 0, function() {
-          return requestAuthorizationCode(null, { forceConsent: needConsent })
-        })
+      return (codePromise || requestCode()).then(function(codePayload) {
+        return exchangeCodeWithResolverFallback(codePayload, base, 0, requestCode)
       })
     }).catch(function(err) {
       if (err && err.name === 'AndroidOAuthNavigateAway') return null
@@ -449,11 +461,23 @@ export function createOAuthBffController(ctx) {
       return Promise.resolve(null)
     }
     var current = ctx.getAccessToken && ctx.getAccessToken()
-    var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
-    if (current && current.access_token && expiresAt > Date.now() + 120000) {
+    // Reuse a still-fresh bearer. Missing expires_at used to force silentRefresh
+    // on every media-proxy 401 and could clear the session / log the user out.
+    if (tokenHasFreshAccess(current)) {
       return Promise.resolve(current)
     }
     return silentRefresh()
+  }
+
+  function clearRememberedLogin() {
+    storeAuthSessionId('')
+    storeAuthBase('')
+    if (ctx.setUser) ctx.setUser(null)
+    if (ctx.setAccessToken) ctx.setAccessToken(null)
+    try {
+      localStorage.setItem('google_login_user', '')
+    } catch (e) {}
+    clearLoginProfile()
   }
 
   function resumeSession() {
@@ -475,7 +499,7 @@ export function createOAuthBffController(ctx) {
         resumeInFlight = null
         console.warn('OAuth BFF session resume failed', err)
         if (isTerminalAuthError(err)) {
-          storeAuthSessionId('')
+          clearRememberedLogin()
         }
         return null
       })
@@ -496,15 +520,16 @@ export function createOAuthBffController(ctx) {
         localStorage.setItem('google_login_hint_email', profile.email)
       }
     } catch (e) {}
-    return logoutAuthSession(authBase, sessionId).finally(function() {
-      // Drop BFF session; clear OAuth host so the next login uses probe priority (local first).
-      storeAuthSessionId('')
-      storeAuthBase('')
-      ctx.setUser(null)
-      ctx.setAccessToken(null)
-      localStorage.setItem('google_login_user', '')
-      clearLoginProfile()
-    })
+    // Drop local session immediately so a follow-up Login on the same click
+    // can open GIS without waiting on network logout (and cannot race a later
+    // finally() that would wipe a newly created BFF session).
+    storeAuthSessionId('')
+    storeAuthBase('')
+    ctx.setUser(null)
+    ctx.setAccessToken(null)
+    localStorage.setItem('google_login_user', '')
+    clearLoginProfile()
+    return logoutAuthSession(authBase, sessionId)
   }
 
   function refresh() {

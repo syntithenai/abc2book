@@ -192,8 +192,10 @@
   margin-top: 0.25em;
 }
 
-.print-pdf-lyrics-fit .lyrics-line-spacer {
-  height: 0.35em;
+.print-pdf-lyrics-fit .lyrics-line-spacer,
+.print-pdf-lyrics-fit .chordpro-line-spacer,
+.print-pdf-lyrics-fit .chord-sheet-spacer {
+  height: 0.75em;
 }
 
 .print-pdf-lyrics-columns {
@@ -1528,6 +1530,64 @@ a.header-now-playing-label:focus {
   object-fit: cover;
 }
 
+.account-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0 0.25rem;
+}
+
+.account-modal-photo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.account-modal-photo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9ecef;
+  color: #495057;
+}
+
+.account-modal-photo-fallback svg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.account-modal-name {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.account-modal-email {
+  font-size: 0.95rem;
+  color: #6c757d;
+  word-break: break-word;
+}
+
+.account-modal-footer {
+  justify-content: space-between;
+}
+
+.account-modal-logout-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.account-modal-logout-btn svg {
+  width: 1.15em;
+  height: 1.15em;
+}
+
 .header-auth-separator {
   display: inline-flex;
   align-items: stretch;
@@ -1739,6 +1799,216 @@ a.header-now-playing-label:focus {
   padding-right: 0.65em;
 }
 
+.books-page-browse-library-btn {
+  white-space: nowrap;
+  flex-shrink: 0;
+  color: #fff !important;
+}
+
+.books-page-browse-library-btn:hover,
+.books-page-browse-library-btn:focus,
+.books-page-browse-library-btn:active,
+.books-page-browse-library-btn:focus-visible {
+  color: #fff !important;
+}
+
+.books-page-browse-library-btn svg {
+  fill: currentColor;
+  color: inherit;
+}
+
+.library-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75em;
+  margin: 0.35em 0 0.75em;
+}
+
+.library-page-title {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.library-page-nav {
+  position: sticky;
+  top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
+  z-index: 1000;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+  margin: 0 -0.2em 0.5em -0.1em;
+  width: auto;
+  padding-left: 0.65em;
+  padding-right: 0.65em;
+}
+
+.library-nav-label {
+  margin-left: 0.25em;
+}
+
+.library-nav-item--active {
+  font-weight: 600;
+}
+
+.library-page-search {
+  max-width: 36rem;
+}
+
+.library-page-layout {
+  display: grid;
+  grid-template-columns: minmax(12rem, 22rem) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .library-page-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.library-page-browse-panel {
+  min-width: 0;
+  max-height: calc(100vh - 14rem);
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.35rem;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.library-page-tracks-panel {
+  min-width: 0;
+}
+
+.library-page-tracks-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.library-page-tracks-empty {
+  padding: 1rem 0;
+  font-style: italic;
+}
+
+.library-shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 0.5rem;
+}
+
+.library-shelf-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.35rem;
+  background: #fff;
+  padding: 0.55rem 0.65rem;
+}
+
+.library-shelf-card--active {
+  border-color: #0d6efd;
+  box-shadow: inset 0 0 0 1px #0d6efd;
+}
+
+.library-shelf-card-title {
+  font-weight: 600;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.library-shelf-card-meta {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.15rem;
+}
+
+.library-shelf-show-more {
+  margin-top: 0.35rem;
+}
+
+.mc-folder-tree-row {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0.1rem 0;
+}
+
+.mc-folder-tree-toggle {
+  border: none;
+  background: transparent;
+  color: #666;
+  width: 1.1rem;
+  height: 1.1rem;
+  padding: 0;
+  font-size: 0.65rem;
+  line-height: 1;
+  transform: rotate(0deg);
+  transition: transform 0.15s ease;
+}
+
+.mc-folder-tree-toggle--open {
+  transform: rotate(90deg);
+}
+
+.mc-folder-tree-label {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  border: none;
+  background: transparent;
+  text-align: left;
+  padding: 0.15rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.mc-folder-tree-label--active {
+  background: rgba(13, 110, 253, 0.12);
+}
+
+.mc-folder-tree-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mc-folder-tree-count {
+  font-size: 0.75rem;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.library-track-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.library-track-row {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 0.65rem;
+}
+
+.library-track-row:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.library-track-row-title {
+  line-height: 1.25;
+}
+
 .books-page-section {
   margin-top: 1.5em;
   padding-top: 0.5em;
@@ -1800,7 +2070,7 @@ a.header-now-playing-label:focus {
   gap: 0;
   vertical-align: middle;
   border-radius: 0.375rem;
-  overflow: visible;
+  overflow: hidden;
   background-color: var(--bs-primary);
 }
 
@@ -1860,19 +2130,23 @@ a.header-now-playing-label:focus {
 }
 
 .books-page-song-link > .btn + a > .btn,
-.books-page-song-link > a + .play-with-queue-dropdown .play-with-queue-dropdown-play {
+.books-page-song-link > a + .play-with-queue-dropdown .play-with-queue-dropdown-play,
+.books-page-song-link > a + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play {
   border-left: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .books-page-song-link > .play-with-queue-dropdown:last-child .play-with-queue-dropdown-toggle,
-.books-page-song-link > .play-with-queue-dropdown:last-child .play-with-queue-dropdown-play-only {
-  border-top-right-radius: 0.375rem;
-  border-bottom-right-radius: 0.375rem;
+.books-page-song-link > .play-with-queue-dropdown:last-child .play-with-queue-dropdown-play-only,
+.books-page-song-link > .play-with-queue-dropdown-anchor:last-child .play-with-queue-dropdown-toggle,
+.books-page-song-link > .play-with-queue-dropdown-anchor:last-child .play-with-queue-dropdown-play-only {
+  border-top-right-radius: 0.375rem !important;
+  border-bottom-right-radius: 0.375rem !important;
 }
 
-.books-page-song-link > .play-with-queue-dropdown:last-child .play-with-queue-dropdown-play:not(:last-child) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+.books-page-song-link > .play-with-queue-dropdown:last-child .play-with-queue-dropdown-play:not(:last-child),
+.books-page-song-link > .play-with-queue-dropdown-anchor:last-child .play-with-queue-dropdown-play:not(:last-child) {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .books-page-song-play.play-with-queue-dropdown--compact > .btn {
@@ -1971,18 +2245,22 @@ a.header-now-playing-label:focus {
   gap: 0;
   border: 1px solid #000;
   border-radius: 10px;
-  overflow: visible;
+  overflow: hidden;
   vertical-align: top;
   box-shadow: none;
 }
 
 .books-page-book-card > .play-with-queue-dropdown,
-.books-page-tag-card > .play-with-queue-dropdown {
+.books-page-tag-card > .play-with-queue-dropdown,
+.books-page-book-card > .play-with-queue-dropdown-anchor,
+.books-page-tag-card > .play-with-queue-dropdown-anchor {
   align-self: stretch;
 }
 
 .books-page-book-card > .play-with-queue-dropdown > .btn,
-.books-page-tag-card > .play-with-queue-dropdown > .btn {
+.books-page-tag-card > .play-with-queue-dropdown > .btn,
+.books-page-book-card > .play-with-queue-dropdown-anchor .play-with-queue-dropdown > .btn,
+.books-page-tag-card > .play-with-queue-dropdown-anchor .play-with-queue-dropdown > .btn {
   height: 90px;
   margin: 0 !important;
   border: 0;
@@ -1994,20 +2272,26 @@ a.header-now-playing-label:focus {
 }
 
 .books-page-book-card > .play-with-queue-dropdown .dropdown-toggle::after,
-.books-page-tag-card > .play-with-queue-dropdown .dropdown-toggle::after {
+.books-page-tag-card > .play-with-queue-dropdown .dropdown-toggle::after,
+.books-page-book-card > .play-with-queue-dropdown-anchor .dropdown-toggle::after,
+.books-page-tag-card > .play-with-queue-dropdown-anchor .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.35em;
   vertical-align: 0.2em;
 }
 
 .books-page-book-card > .play-with-queue-dropdown:last-child > .btn:last-child,
-.books-page-tag-card > .play-with-queue-dropdown:last-child > .btn:last-child {
+.books-page-tag-card > .play-with-queue-dropdown:last-child > .btn:last-child,
+.books-page-book-card > .play-with-queue-dropdown-anchor:last-child .btn:last-child,
+.books-page-tag-card > .play-with-queue-dropdown-anchor:last-child .btn:last-child {
   border-top-right-radius: 9px;
   border-bottom-right-radius: 9px;
 }
 
 .books-page-book-card > .play-with-queue-dropdown .play-with-queue-dropdown-toggle,
-.books-page-tag-card > .play-with-queue-dropdown .play-with-queue-dropdown-toggle {
+.books-page-tag-card > .play-with-queue-dropdown .play-with-queue-dropdown-toggle,
+.books-page-book-card > .play-with-queue-dropdown-anchor .play-with-queue-dropdown-toggle,
+.books-page-tag-card > .play-with-queue-dropdown-anchor .play-with-queue-dropdown-toggle {
   border-left: 1px solid rgba(255, 255, 255, 0.25) !important;
 }
 
@@ -2058,7 +2342,9 @@ a.header-now-playing-label:focus {
 .books-page-book-card > .btn.books-page-collection-card-side,
 .books-page-tag-card > .btn.books-page-collection-card-side,
 .books-page-book-card > .play-with-queue-dropdown > .btn.books-page-collection-card-side,
-.books-page-tag-card > .play-with-queue-dropdown > .btn.books-page-collection-card-side {
+.books-page-tag-card > .play-with-queue-dropdown > .btn.books-page-collection-card-side,
+.books-page-book-card > .play-with-queue-dropdown-anchor .btn.books-page-collection-card-side,
+.books-page-tag-card > .play-with-queue-dropdown-anchor .btn.books-page-collection-card-side {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2088,7 +2374,9 @@ a.header-now-playing-label:focus {
 
 .books-page-book-card > .btn + .books-page-collection-card-link .btn,
 .books-page-book-card > .books-page-collection-card-link + .btn,
-.books-page-tag-card > .btn + .btn {
+.books-page-book-card > .books-page-collection-card-link + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play,
+.books-page-tag-card > .btn + .btn,
+.books-page-tag-card > .btn + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -3542,6 +3830,41 @@ button.btn-primary {
 .playlist .btn-group {
   margin-bottom: 0.3rem;
 }
+.playlist-mode-buttons > .btn {
+  font-weight: 600;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35em;
+  line-height: 1;
+}
+
+.playlist-mode-buttons .playlist-mode-btn-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35em;
+  line-height: 1;
+  min-width: 0;
+}
+
+.playlist-mode-buttons .playlist-mode-btn-label {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.playlist-mode-buttons .playlist-toggle-icon,
+.playlist-mode-buttons .playlist-repeat-icon,
+.playlist-mode-buttons .playlist-follow-icon {
+  flex-shrink: 0;
+  display: block;
+  width: 1.125rem;
+  height: 1.125rem;
+  object-fit: contain;
+}
+
 .playlist-modal-toolbar .playlist-mode-buttons > .btn {
   font-weight: 600;
   white-space: nowrap;
@@ -3996,6 +4319,13 @@ button img:after {
 /* Fixed-strategy menus escape toolbar overflow clipping. */
 .music-buttons .dropdown-menu[data-bs-popper],
 .music-buttons .dropdown-menu[style*="position: fixed"] {
+  z-index: 10020;
+}
+
+.music-editor-buttons .dropdown-menu[data-bs-popper],
+.music-editor-buttons .dropdown-menu[style*="position: fixed"],
+.editor-edit-mode-group .dropdown-menu[data-bs-popper],
+.editor-edit-mode-group .dropdown-menu[style*="position: fixed"] {
   z-index: 10020;
 }
 
@@ -4528,16 +4858,18 @@ button img:after {
   overflow-x: hidden;
 }
 
-/* Structure side column: sticky under nav, always height-fitted (no vertical scroll). */
+/* Structure side column: sticky under nav; scroll when content exceeds viewport. */
 .tune-layout-notation-structure .tune-panel-structure,
 .tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .tune-panel-structure,
 .tune-layout-notation-lyrics-structure .tune-panel-structure {
+  --structure-panel-sticky-top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
   position: sticky;
-  top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
+  top: var(--structure-panel-sticky-top);
   align-self: start;
-  max-height: calc(100dvh - 8rem);
-  height: calc(100dvh - 8rem);
-  overflow: hidden;
+  max-height: calc(100dvh - var(--structure-panel-sticky-top) - 0.75rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
   min-height: 0;
@@ -4548,21 +4880,37 @@ button img:after {
 .tune-layout-notation-lyrics-structure .tune-panel-structure .structure-chord-block,
 .tune-layout-structure-only .tune-panel-structure .structure-chord-block,
 .tune-lyrics-structure-sync-structure .structure-chord-block {
+  flex: 0 0 auto;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tune-layout-notation-structure .tune-panel-structure .structure-chord-block--fit-height,
+.tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .tune-panel-structure .structure-chord-block--fit-height,
+.tune-layout-notation-lyrics-structure .tune-panel-structure .structure-chord-block--fit-height,
+.tune-layout-structure-only .tune-panel-structure .structure-chord-block--fit-height,
+.tune-lyrics-structure-sync-structure .structure-chord-block--fit-height {
   flex: 1 1 auto;
   min-height: 0;
   height: 100%;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
 }
 
 .tune-layout-structure-only .tune-panel-structure {
-  height: calc(100dvh - 8rem);
   max-height: calc(100dvh - 8rem);
-  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
   min-height: 0;
+}
+
+.tune-layout-structure-only .tune-panel-structure .music-structure-only-heading {
+  flex: 0 0 auto;
+  padding: 0.5em 0.7em 0;
+  margin-bottom: 0.35em;
 }
 
 /* Three blocks: notation top-left, structure top-right, lyrics below */
@@ -4702,10 +5050,20 @@ button img:after {
 }
 
 .structure-chord-block--fit-height .chord-block-lines {
-  /* Must size to text, not stretch — otherwise scrollHeight == panel and font never scales */
   flex: 0 0 auto;
   min-height: 0;
   overflow: visible;
+}
+
+.structure-chord-block--fit-height {
+  box-sizing: border-box;
+}
+
+.structure-chord-block--scroll .chord-block-lines {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Lyrics + structure (no notation): one scroll host, side-by-side columns */
@@ -4733,16 +5091,17 @@ button img:after {
 }
 
 .tune-lyrics-structure-sync-structure {
+  --structure-panel-sticky-top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
   flex: 1 1 0;
   min-width: 0;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   position: sticky;
-  top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
+  top: var(--structure-panel-sticky-top);
   align-self: flex-start;
-  max-height: calc(100dvh - 8rem);
-  height: calc(100dvh - 8rem);
-  overflow-y: hidden;
+  max-height: calc(100dvh - var(--structure-panel-sticky-top) - 0.75rem);
   display: flex;
   flex-direction: column;
   min-height: 0;
@@ -4815,11 +5174,6 @@ button img:after {
   -webkit-overflow-scrolling: touch;
 }
 
-.structure-chord-block--fit-height {
-  height: 100%;
-  box-sizing: border-box;
-}
-
 /* Side-by-side fit-height: pin notation and lyrics under the toolbar together. */
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation {
   position: sticky;
@@ -4846,8 +5200,8 @@ button img:after {
 .gig-mode-content .tune-layout-notation-lyrics-structure .tune-panel-structure,
 .gig-mode-content .tune-lyrics-structure-sync-structure {
   top: 0.25rem;
-  max-height: calc(100dvh - 8rem);
-  height: calc(100dvh - 8rem);
+  --structure-panel-sticky-top: 0.25rem;
+  max-height: calc(100dvh - var(--structure-panel-sticky-top) - 0.75rem);
 }
 
 /* ── Single-view flex layout panels (legacy classes kept for compatibility) ─ */
@@ -5425,11 +5779,13 @@ button img:after {
 }
 
 .chord-block-line {
-  padding: 0.1em 0.4em;
+  padding: 0.2em 0.4em;
   border-bottom: 1px solid #e0e0e0;
   background-color: #f8f9fa;
   white-space: nowrap;
-  overflow: hidden;
+  /* Clip long lines horizontally; keep vertical visible so stacked metres are not cut off. */
+  overflow-x: auto;
+  overflow-y: visible;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -5438,6 +5794,49 @@ button img:after {
   /* Keep |: / :| from being letter-spaced apart; trailing pad protects "|" from clip */
   letter-spacing: 0;
   padding-right: 0.2em;
+}
+
+/* Compact stacked metre (5 over 4) — align near chord text, tiny optical drop only. */
+.chord-meter-mark {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 0.5em;
+  font-weight: 700;
+  margin: 0 0.4em 0 0.12em;
+  padding: 0;
+  position: relative;
+  top: 0.02em;
+  overflow: visible;
+}
+
+.chord-meter-mark .chord-meter-num,
+.chord-meter-mark .chord-meter-den {
+  display: block;
+  line-height: 1.05;
+  padding: 0 0.14em;
+}
+
+.chord-meter-mark .chord-meter-num {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.06em;
+  margin-bottom: 0.06em;
+}
+
+.chord-meter-mark--plain {
+  font-size: 0.75em;
+  display: inline;
+  padding: 0;
+  top: 0;
+  overflow: visible;
+}
+
+.chord-chart-line .chord-meter-mark {
+  font-size: 0.58em;
+  top: 0.01em;
 }
 
 .chord-block-spacer {
@@ -5750,7 +6149,7 @@ button img:after {
 
 .music-actions-dropdown-autoscroll .lyrics-autoscroll-bar-panel--inline {
   background: var(--bs-secondary-bg, #e9ecef);
-  border: 1px solid var(--bs-border-color, #ced4da);
+  border: 1px solid #9aa8b8;
   border-radius: 0.375rem;
   padding: 0.15rem;
   box-shadow: none;
@@ -6177,6 +6576,10 @@ button img:after {
 .tune-list-item-detailed .tune-list-item-row {
   align-items: center;
   flex-wrap: wrap;
+}
+
+.tune-list-window-content {
+  overflow-anchor: auto;
 }
 
 .tune-list-item-detailed .tune-list-item-title-block {
@@ -6614,7 +7017,7 @@ button img:after {
 
 .music-buttons .lyrics-autoscroll-bar-panel--inline {
   background: var(--bs-secondary-bg, #e9ecef);
-  border: 1px solid var(--bs-border-color, #ced4da);
+  border: 1px solid #9aa8b8;
   border-radius: 0.375rem;
   padding: 0.15rem;
   box-shadow: none;
@@ -6876,6 +7279,15 @@ button img:after {
   height: 0.35em;
 }
 
+/* Blank lyric lines (verse / stanza breaks). ChordPro rows are ~2 lines tall, so
+   this needs more than ordinary line gap to read as a clear section break. */
+.lyrics-line-spacer,
+.chordpro-line-spacer,
+.chord-sheet-spacer {
+  height: 1.5em;
+  flex-shrink: 0;
+}
+
 .lyrics-section-header {
   font-weight: bold;
   font-size: 1.05em;
@@ -7121,8 +7533,8 @@ button img:after {
 
 .lyrics-autoscroll-bar-panel {
   pointer-events: auto;
-  background: #f8f9fa;
-  border: 1px solid #bbb;
+  background: var(--app-surface-raised, #f8f9fa);
+  border: 1px solid #9aa8b8;
   border-radius: 0.375rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   padding: 0.25em 0.5em;
@@ -7431,6 +7843,32 @@ button img:after {
 .editor-view-mode-selector {
   margin-right: 0.65rem;
 }
+.editor-edit-mode-group {
+  margin-right: 0.65rem;
+}
+.editor-edit-mode-dropdown-toggle.dropdown-toggle {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.85rem;
+  font-weight: 600;
+  color: #111 !important;
+  background: var(--bs-body-bg, #fff);
+  white-space: nowrap;
+  line-height: 1;
+}
+.editor-edit-mode-dropdown-toggle.dropdown-toggle::after {
+  margin-left: 0.35rem;
+  color: #111;
+  border-top-color: #111;
+}
+.music-editor-buttons .editor-edit-mode-group .editor-edit-mode-dropdown-toggle {
+  min-height: var(--music-editor-control-height);
+  height: var(--music-editor-control-height);
+}
 .editor-view-mode-selector .dropdown-toggle {
   display: inline-flex;
   flex-direction: row;
@@ -7565,6 +8003,15 @@ button img:after {
 .editor-view-mode-btn-icon svg path:not([fill="none"]) {
   fill: currentColor;
 }
+.editor-view-mode-text-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
 .editor-view-mode-btn-label {
   display: inline-flex;
   align-items: center;
@@ -7584,6 +8031,9 @@ button img:after {
 @media (max-width: 768px) {
   .view-mode-label {
     display: none;
+  }
+  .editor-edit-mode-dropdown-toggle .view-mode-label {
+    display: inline-flex;
   }
 }
 
@@ -7773,6 +8223,81 @@ button img:after {
   flex-shrink: 0;
   width: 100%;
 }
+
+.lyric-chord-align-panel {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.lyric-chord-align-panel--empty {
+  display: flex;
+  align-items: center;
+}
+
+.lyric-chord-align-panel--empty p {
+  margin: 0;
+  max-width: 36em;
+  line-height: 1.45;
+}
+
+.lyric-chord-align-hint {
+  margin: 0 0 0.85em;
+}
+
+.lyric-chord-align-line {
+  position: relative;
+  padding-top: 1.35em;
+}
+
+.lyric-chord-align-letter {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.lyric-chord-align-letter--space {
+  min-width: 0.35em;
+}
+
+.lyric-chord-align-chord {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.lyric-chord-align-chord--draggable:active {
+  cursor: grabbing;
+}
+
+.lyric-chord-align-char {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  display: inline-block;
+}
+
+.lyric-chord-align-token--target .lyric-chord-align-word--cursor,
+.lyric-chord-align-word--cursor {
+  outline: 2px solid #0d6efd;
+  outline-offset: 1px;
+  border-radius: 2px;
+  background: rgba(13, 110, 253, 0.12);
+}
+
+.lyric-chord-align-token--source .lyric-chord-align-chord {
+  opacity: 0.45;
+}
+
+
+
 
 .abc-editor-toolbar-end,
 .chords-wizard-toolbar-end {
@@ -8368,6 +8893,31 @@ button img:after {
   height: auto;
   border: 1px solid var(--app-border);
   border-radius: 4px;
+}
+
+.audio-analysis-help-body .help-figure {
+  max-width: 32rem;
+}
+
+.audio-analysis-help-body .help-figure img {
+  width: 100%;
+}
+
+.audio-analysis-help-body h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+/* Fixed-width play control so "Play" ↔ "Playing…" does not reflow the notes table. */
+.audio-analysis-play-btn {
+  min-width: 5.75rem;
+  box-sizing: border-box;
+}
+
+.audio-analysis-play-btn-label {
+  display: inline-block;
+  min-width: 4.75rem;
+  text-align: center;
 }
 
 #youtube .help-figure img {

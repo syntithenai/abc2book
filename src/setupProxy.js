@@ -54,6 +54,7 @@ const STATIC_RESOURCE_PREFIXES = [
 ];
 
 function isMusicCollectionApiPath(pathname) {
+  if (pathname.startsWith('/music-collection-by-entry/')) return true;
   if (pathname.startsWith('/music-collection/')) return true;
   if (pathname.startsWith('/music-collection-art/')) return true;
   if (pathname.startsWith('/music-collection-')) return true;

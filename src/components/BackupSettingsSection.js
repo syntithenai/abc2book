@@ -134,6 +134,7 @@ export default function BackupSettingsSection(props) {
         label: formatRevisionDate(revision.modifiedTime),
         versionTuneCount: versionTunes.length,
         summary: summarizeBackupDiff(props.tunes, versionTunes),
+        revision: revision,
       })
     })
   }
@@ -177,8 +178,12 @@ export default function BackupSettingsSection(props) {
   }
 
   var diffSummary = pendingDiff && pendingDiff.summary
+  var recoveryCandidate = !!(pendingDiff && diffSummary
+    && pendingDiff.versionTuneCount > currentTuneCount
+    && (diffSummary.onlyInVersion || []).length > 0
+    && (diffSummary.onlyInVersion || []).length >= Math.max(10, (diffSummary.onlyInCurrent || []).length))
   var defaultDiffTab = diffSummary
-    ? (['changed', 'onlyInVersion', 'onlyInCurrent'].find(function(key) {
+    ? ((recoveryCandidate ? ['onlyInVersion', 'changed', 'onlyInCurrent'] : ['changed', 'onlyInVersion', 'onlyInCurrent']).find(function(key) {
       return (diffSummary[key] || []).length > 0
     }) || 'changed')
     : 'changed'
@@ -205,10 +210,14 @@ export default function BackupSettingsSection(props) {
       <p className="app-text-muted">
         Download a backup of your current songbook, or delete all tunes from this device
         {signedIn ? ' and every device where you are logged in' : ''}.
+        ABC is the restore format; JSON keeps full tune data for offline analysis (e.g. chord readiness audit).
       </p>
       <div className="App-settings-actions">
-        <Button variant="success" title="Download" onClick={function() { tunebook.downloadTuneBookAbc() }}>
-          {tunebook.icons.save} Download Tunebook
+        <Button variant="success" title="Download ABC backup (use for restore)" onClick={function() { tunebook.downloadTuneBookAbc() }}>
+          {tunebook.icons.save} Download ABC
+        </Button>
+        <Button variant="outline-success" title="Download JSON for analysis tools" onClick={function() { tunebook.downloadTuneBookJson() }}>
+          {tunebook.icons.stack || tunebook.icons.save} Download JSON
         </Button>
         <Button variant="danger" onClick={handleDeleteAllTunes}>
           Delete All Tunes
@@ -241,33 +250,58 @@ export default function BackupSettingsSection(props) {
             </Button>
           </div>
           {revisions !== null && revisions.length > 0 ? (
-            <ul className="settings-backup-revision-list" style={{ listStyle: 'none', padding: 0, marginTop: '1rem', marginBottom: 0 }}>
-              {revisions.map(function(revision) {
-                var size = formatRevisionSize(revision.size)
-                var user = revision.lastModifyingUser && revision.lastModifyingUser.displayName
-                var busy = busyRevisionId === revision.id
-                return (
-                  <li key={revision.id} style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 0', borderTop: '1px solid var(--bs-border-color, #dee2e6)' }}>
-                    <span style={{ flex: '1 1 auto' }}>
-                      <strong>{formatRevisionDate(revision.modifiedTime)}</strong>
-                      <span className="app-text-muted">
-                        {size ? ' · ' + size : ''}
-                        {user ? ' · ' + user : ''}
+            <>
+              <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
+                Prefer a large version (megabytes) from before any sudden drop to tens of KB — that drop is usually an emptied songbook.
+                Use <strong>Restore</strong> on that version to bring tunes back. <strong>Changes</strong> only compares; it does not restore.
+              </p>
+              <ul className="settings-backup-revision-list" style={{ listStyle: 'none', padding: 0, marginTop: '1rem', marginBottom: 0 }}>
+                {revisions.map(function(revision) {
+                  var sizeBytes = parseInt(revision.size, 10)
+                  var size = formatRevisionSize(revision.size)
+                  var looksEmptied = Number.isFinite(sizeBytes) && sizeBytes > 0 && sizeBytes < 200 * 1024
+                  var looksFull = Number.isFinite(sizeBytes) && sizeBytes >= 1024 * 1024
+                  var user = revision.lastModifyingUser && revision.lastModifyingUser.displayName
+                  var busy = busyRevisionId === revision.id
+                  return (
+                    <li key={revision.id} style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 0', borderTop: '1px solid var(--bs-border-color, #dee2e6)' }}>
+                      <span style={{ flex: '1 1 auto' }}>
+                        <strong>{formatRevisionDate(revision.modifiedTime)}</strong>
+                        <span className="app-text-muted">
+                          {size ? ' · ' + size : ''}
+                          {user ? ' · ' + user : ''}
+                        </span>
+                        {looksEmptied ? (
+                          <span className="text-danger" style={{ display: 'block', fontSize: '0.85em' }}>
+                            Looks emptied — avoid restoring this unless you intend to wipe the book
+                          </span>
+                        ) : null}
+                        {looksFull ? (
+                          <span className="text-success" style={{ display: 'block', fontSize: '0.85em' }}>
+                            Full-size backup — good restore candidate
+                          </span>
+                        ) : null}
                       </span>
-                    </span>
-                    <Button size="sm" variant="outline-primary" disabled={busy} onClick={function() { showRevisionChanges(revision) }}>
-                      {busy && busyAction === 'changes' ? 'Comparing…' : 'Changes'}
-                    </Button>
-                    <Button size="sm" variant="outline-secondary" disabled={busy} onClick={function() { downloadRevision(revision) }}>
-                      {busy && busyAction === 'download' ? 'Working…' : 'Download'}
-                    </Button>
-                    <Button size="sm" variant="outline-danger" disabled={busy} onClick={function() { requestRevisionRestore(revision) }}>
-                      {busy && busyAction === 'restore' ? 'Working…' : 'Restore'}
-                    </Button>
-                  </li>
-                )
-              })}
-            </ul>
+                      <Button size="sm" variant="outline-primary" disabled={busy} onClick={function() { showRevisionChanges(revision) }}>
+                        {busy && busyAction === 'changes' ? 'Comparing…' : 'Changes'}
+                      </Button>
+                      <Button size="sm" variant="outline-secondary" disabled={busy} onClick={function() { downloadRevision(revision) }}>
+                        {busy && busyAction === 'download' ? 'Working…' : 'Download'}
+                      </Button>
+                      <Button
+                        size="sm"
+                        variant={looksFull ? 'danger' : 'outline-danger'}
+                        disabled={busy || looksEmptied}
+                        title={looksEmptied ? 'This version looks emptied' : 'Replace current songbook with this version'}
+                        onClick={function() { requestRevisionRestore(revision) }}
+                      >
+                        {busy && busyAction === 'restore' ? 'Working…' : 'Restore'}
+                      </Button>
+                    </li>
+                  )
+                })}
+              </ul>
+            </>
           ) : null}
         </>
       )}
@@ -276,7 +310,7 @@ export default function BackupSettingsSection(props) {
     <div className="app-surface-panel App-settings-section">
       <h2>Restore from file</h2>
       <p className="app-text-muted">
-        Replace your songbook with a backup file you downloaded earlier (via "Download Tunebook" or the Download button above).
+        Replace your songbook with an ABC backup file you downloaded earlier (via "Download ABC" or the Download button above).
         {!signedIn ? ' You are not logged in, so the restored songbook will only be saved on this device until you log in with Google.' : ''}
       </p>
       <div className="App-settings-actions">
@@ -338,14 +372,21 @@ export default function BackupSettingsSection(props) {
               {' '}({countLabel(pendingDiff.versionTuneCount, 'tune')})
               {' '}to your current songbook ({countLabel(currentTuneCount, 'tune')}).
             </p>
+            {recoveryCandidate ? (
+              <p>
+                This looks like a recovery: the Drive version has many tunes that are missing from your current songbook.
+                That is expected after a wipe. Click <strong>Restore this version</strong> to bring them back — you are not
+                importing duplicates into a full book.
+              </p>
+            ) : null}
             {diffSummary.totalChanges === 0 ? (
               <p className="app-text-muted">This version matches your current songbook.</p>
             ) : (
               <>
                 <div style={{ marginBottom: '0.75rem' }}>
                   {diffSummary.changed.length ? <div><strong>{diffSummary.changed.length}</strong> tune{diffSummary.changed.length === 1 ? '' : 's'} changed</div> : null}
-                  {diffSummary.onlyInVersion.length ? <div><strong>{diffSummary.onlyInVersion.length}</strong> only in this version</div> : null}
-                  {diffSummary.onlyInCurrent.length ? <div><strong>{diffSummary.onlyInCurrent.length}</strong> only in your current songbook</div> : null}
+                  {diffSummary.onlyInVersion.length ? <div><strong>{diffSummary.onlyInVersion.length}</strong> only in this version (would be restored)</div> : null}
+                  {diffSummary.onlyInCurrent.length ? <div><strong>{diffSummary.onlyInCurrent.length}</strong> only in your current songbook (would be removed on restore)</div> : null}
                 </div>
                 <Tabs key={defaultDiffTab} defaultActiveKey={defaultDiffTab}>
                   {diffSummary.changed.length > 0 ? (
@@ -420,6 +461,19 @@ export default function BackupSettingsSection(props) {
         <Button variant="secondary" onClick={function() { setPendingDiff(null) }}>
           Close
         </Button>
+        {recoveryCandidate && pendingDiff && pendingDiff.revision ? (
+          <Button
+            variant="danger"
+            disabled={!!busyRevisionId}
+            onClick={function() {
+              var revision = pendingDiff.revision
+              setPendingDiff(null)
+              requestRevisionRestore(revision)
+            }}
+          >
+            Restore this version
+          </Button>
+        ) : null}
       </Modal.Footer>
     </Modal>
   </>

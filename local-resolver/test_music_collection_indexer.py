@@ -3,7 +3,7 @@ import os
 import tempfile
 import unittest
 
-from music_collection_analytics import read_standard_tags
+from music_collection_analytics import quick_content_fingerprint, read_standard_tags
 from music_collection_indexer import (
     BuildErrorLog,
     BuildLock,
@@ -111,6 +111,78 @@ class MusicCollectionIndexerTests(unittest.TestCase):
         self.assertEqual(standard["title"], "Tune")
         self.assertEqual(standard["artist"], "Player")
         self.assertIn("tit2", keys)
+
+    def test_build_index_preserves_entry_id_for_moved_file_by_fingerprint(self):
+        moved_dir = os.path.join(self.root, "moved")
+        os.makedirs(moved_dir, exist_ok=True)
+        track = os.path.join(moved_dir, "song.mp3")
+        with open(track, "wb") as handle:
+            handle.write(b"ID3moved-song")
+        size = os.path.getsize(track)
+        fingerprint = quick_content_fingerprint(track, size)
+        with open(os.path.join(self.metadata, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump({
+                "version": 2,
+                "entries": {
+                    "7": {
+                        "title": "Song",
+                        "artist": "Band",
+                        "path": "old/song.mp3",
+                        "fingerprint": fingerprint,
+                    },
+                },
+                "tokens": {},
+            }, handle)
+        index = build_index(self._opts())
+        self.assertIn("7", index["entries"])
+        self.assertEqual(index["entries"]["7"]["path"], "moved/song.mp3")
+
+    def test_build_index_prunes_deleted_entries(self):
+        with open(os.path.join(self.metadata, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump({
+                "version": 2,
+                "entries": {
+                    "3": {
+                        "title": "Gone",
+                        "artist": "Band",
+                        "path": "gone/song.mp3",
+                        "fingerprint": "deadbeef",
+                    },
+                },
+                "tokens": {"gone": ["3"]},
+            }, handle)
+        index = build_index(self._opts())
+        self.assertEqual(index["count"], 0)
+        self.assertEqual(index["entries"], {})
+        self.assertEqual(index["tokens"], {})
+
+    def test_build_index_claims_previous_entry_id_once_for_duplicate_fingerprint(self):
+        left = os.path.join(self.root, "a.mp3")
+        right = os.path.join(self.root, "b.mp3")
+        for path in (left, right):
+            with open(path, "wb") as handle:
+                handle.write(b"ID3duplicate")
+        fingerprint = quick_content_fingerprint(left, os.path.getsize(left))
+        with open(os.path.join(self.metadata, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump({
+                "version": 2,
+                "entries": {
+                    "9": {
+                        "title": "Song",
+                        "artist": "Band",
+                        "path": "old/song.mp3",
+                        "fingerprint": fingerprint,
+                    },
+                },
+                "tokens": {},
+            }, handle)
+        index = build_index(self._opts())
+        holders = sorted([
+            entry_id for entry_id, entry in index["entries"].items()
+            if entry.get("fingerprint") == fingerprint
+        ], key=int)
+        self.assertEqual(holders[0], "9")
+        self.assertEqual(len(holders), 2)
 
 
 if __name__ == "__main__":

@@ -23,6 +23,7 @@ import useAbcjsParser from '../useAbcjsParser';
 import useNotationCheck from '../useNotationCheck';
 import { voiceBodiesFromTune } from '../notationCheckSnapshot';
 import NotationIssuesPanel from './NotationIssuesPanel';
+import AbcNotesTextarea from './AbcNotesTextarea';
 import NotationPasteModeModal from './NotationPasteModeModal';
 import { consumeFocusNotationChecks } from '../bulkCheckReturnContext';
 import { notationViewToEditorViewMode } from '../viewModeUtils';
@@ -275,6 +276,17 @@ export default function NotationEditor(props) {
     return null;
   }
 
+  function resolveClickedStaffEvent(resolved, sessionEvents, abcelem) {
+    const noteEv = resolveClickedNoteEvent(resolved, sessionEvents, abcelem);
+    if (noteEv) return noteEv;
+    const idx = resolved.eventIndex;
+    if (idx >= 0 && idx < sessionEvents.length) {
+      const ev = sessionEvents[idx];
+      if (ev && ev.type === 'rest') return ev;
+    }
+    return null;
+  }
+
   function auditionSelection(sessionLike) {
     const s = sessionLike || sessionRef.current;
     if (!s || !s.selection || !s.selection.eventIds || !s.selection.eventIds.length) return;
@@ -363,17 +375,22 @@ export default function NotationEditor(props) {
     });
   }
 
-  const setCaretIndex = useCallback(function(index, insertAnchor) {
+  const setCaretIndex = useCallback(function(index, insertAnchor, options) {
+    const opts = options || {};
     if (insertAnchor && typeof insertAnchor.left === 'number') {
       setStaffInsertAnchor(insertAnchor);
-    } else {
+    } else if (!opts.keepInsertAnchor) {
       setStaffInsertAnchor(null);
     }
-    dispatch({ type: 'SET_CARET', index: index });
+    dispatch({
+      type: 'SET_CARET',
+      index: index,
+      spliceAtCaret: opts.spliceAtCaret === true,
+    });
   }, [dispatch]);
 
   function setInsertCaret(index, insertAnchor) {
-    setCaretIndex(index, insertAnchor || null);
+    setCaretIndex(index, insertAnchor || null, { spliceAtCaret: true, keepInsertAnchor: true });
   }
 
   function placeInsertCaretAtClientPoint(clientX, clientY) {
@@ -425,6 +442,25 @@ export default function NotationEditor(props) {
     setCaretIndex(idx >= 0 ? idx : sessionLike.caretIndex);
     focusStaffEditor();
   }
+
+  function applyStaffRestSelection(ev, sessionLike, caretIndex) {
+    if (!ev || ev.type !== 'rest') return;
+    setStaffInsertAnchor(null);
+    const idx = typeof caretIndex === 'number'
+      ? caretIndex
+      : sessionLike.events.findIndex(function(x) { return x.id === ev.id; });
+    dispatch({
+      type: 'SET_SELECTION',
+      selection: {
+        eventIds: [ev.id],
+        toneIndex: null,
+        anchorId: ev.id,
+        startBeat: typeof ev.startBeat === 'number' ? ev.startBeat : undefined,
+      },
+    });
+    setCaretIndex(idx >= 0 ? idx : sessionLike.caretIndex);
+    focusStaffEditor();
+  }
   const [showQuantize, setShowQuantize] = useState(false);
   const [showTuneMeta, setShowTuneMeta] = useState(false);
   const [tuneMetaFocus, setTuneMetaFocus] = useState(null);
@@ -464,6 +500,7 @@ export default function NotationEditor(props) {
   const abcSaveDebounce = useRef(null);
   const midiRecordBufferRef = useRef([]);
   const skipExternalLoad = useRef(false);
+  const activeVoiceKeyRef = useRef(props.voiceKey);
   const prevLoadedVoiceKeyRef = useRef(props.voiceKey);
   const prevLoadedVoiceBodyRef = useRef('');
   const textareaRefs = useRef({});
@@ -472,6 +509,10 @@ export default function NotationEditor(props) {
   const abcDraftsRef = useRef({});
   const abcEditingRef = useRef(false);
   const prevViewRef = useRef(session.view);
+
+  useEffect(function() {
+    activeVoiceKeyRef.current = props.voiceKey;
+  }, [props.voiceKey]);
 
   useEffect(function() {
     if (typeof props.onHelpModeChange === 'function') {
@@ -648,6 +689,18 @@ export default function NotationEditor(props) {
     // Own save echo: keep the textarea draft and caret. Parent echo may go through
     // justNotes (strip/reformat) or lag behind further keystrokes; rewriting drafts
     // here resets selection to the end and can cancel an in-flight abcSaveDebounce.
+    if (skipExternalLoad.current && voiceKeyChanged) {
+      // handleVoiceSelect already dispatched LOAD_VOICE from tune; props.voiceNotes
+      // may still be the previous voice for one render — do not clobber session.
+      skipExternalLoad.current = false;
+      const s = sessionRef.current;
+      if (s && Array.isArray(s.events)) {
+        prevLoadedVoiceBodyRef.current = voiceBodyForSession(
+          serializeVoiceEvents(s.events, tuneMeta)
+        );
+      }
+      return;
+    }
     if (skipExternalLoad.current && !voiceKeyChanged) {
       skipExternalLoad.current = false;
       const voiceBody = voiceBodyForSession(props.voiceNotes);
@@ -810,6 +863,7 @@ export default function NotationEditor(props) {
       type: 'SET_EVENTS',
       events: patch.events,
       caretIndex: patch.caretIndex,
+      spliceAtCaret: patch.spliceAtCaret,
       lastEvent: patch.lastEvent,
       selection: patch.selection,
       sourceView: sourceView,
@@ -859,6 +913,24 @@ export default function NotationEditor(props) {
         return;
       }
       if (!moved && s && s.mode !== EDITOR_MODES.NOTE_INPUT && pending.eventId) {
+        if (pending.shiftKey && s.selection.anchorId) {
+          const ids = selectEventRange(s.events, s.selection.anchorId, pending.eventId);
+          dispatch({
+            type: 'SET_SELECTION',
+            selection: { eventIds: ids, toneIndex: null, anchorId: s.selection.anchorId },
+          });
+          clearSelectionClickRects();
+          let minIdx = s.events.length;
+          ids.forEach(function(id) {
+            const i = s.events.findIndex(function(ev) { return ev.id === id; });
+            if (i >= 0 && i < minIdx) minIdx = i;
+          });
+          setCaretIndex(minIdx);
+          focusStaffEditor();
+          staffDragSuppressClickRef.current = true;
+          window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
+          return;
+        }
         const ev = s.events.find(function(e) { return e.id === pending.eventId; });
         if (ev && (ev.type === 'note' || ev.type === 'chord')) {
           const idx = s.events.findIndex(function(e) { return e.id === ev.id; });
@@ -1551,6 +1623,12 @@ export default function NotationEditor(props) {
 
   function switchToVoiceKeyIfNeeded(targetKey) {
     const voiceNamesList = props.voiceNames || [];
+    if (targetKey && (targetKey === activeVoiceKeyRef.current || targetKey === props.voiceKey)) {
+      const keys = displayedVoiceKeysRef.current.length
+        ? displayedVoiceKeysRef.current
+        : displayedVoiceKeys;
+      return Math.max(0, keys.indexOf(targetKey));
+    }
     const idx = voiceNamesList.indexOf(targetKey);
     if (idx >= 0 && idx !== props.voiceIndex) {
       handleVoiceSelect(idx);
@@ -1566,7 +1644,7 @@ export default function NotationEditor(props) {
     const keys = displayedVoiceKeysRef.current.length
       ? displayedVoiceKeysRef.current
       : displayedVoiceKeys;
-    const targetKey = voiceKeyFromStaffAnalysis(keys, analysis, e, props.voiceKey);
+    const targetKey = voiceKeyFromStaffAnalysis(keys, analysis, e, props.voiceKey, staffWrapRef.current);
     const targetEvents = eventsForVoiceKey(targetKey);
     const fullAbc = renderedAbc || displayAbc;
     const pointerEvent = e && typeof e.clientX === 'number'
@@ -1604,10 +1682,33 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     if (s.mode !== EDITOR_MODES.NOTE_INPUT) return false;
 
-    const resolved = resolveStaffClickFromEditor(e, analysis, null, renderedAbc);
+    const interaction = resolveStaffInteraction(e, analysis, null, renderedAbc);
+    const resolved = interaction.resolved;
     if (!resolved) return false;
 
-    dispatch({ type: 'SET_CARET', index: resolved.caretIndex });
+    const wrap = staffWrapRef.current;
+    const events = sessionRef.current.events;
+    const insertPos = wrap
+      ? caretIndexAndAnchorFromStaffClick(
+        wrap,
+        events,
+        e,
+        analysis,
+        interaction.voiceStaffIdx
+      )
+      : null;
+    const caretIdx = insertPos && typeof insertPos.caretIndex === 'number'
+      ? insertPos.caretIndex
+      : resolved.caretIndex;
+
+    dispatch({
+      type: 'SET_CARET',
+      index: caretIdx,
+      spliceAtCaret: true,
+    });
+    if (insertPos && insertPos.anchor) {
+      setStaffInsertAnchor(insertPos.anchor);
+    }
     dispatch({
       type: 'SET_SELECTION',
       selection: { eventIds: [], toneIndex: null, anchorId: null },
@@ -1722,11 +1823,14 @@ export default function NotationEditor(props) {
     }
     if (slurDragRef.current) return;
     if (e && e.target && isStaffHeaderDomTarget(e.target)) {
-      staffPendingGestureRef.current = null;
-      staffDragPointerRef.current = null;
-      staffMarqueeRef.current = null;
-      setMarqueeClientRect(null);
-      return;
+      // Note input: clef/key/meter clicks still place the insert caret (e.g. at score start).
+      if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
+        staffPendingGestureRef.current = null;
+        staffDragPointerRef.current = null;
+        staffMarqueeRef.current = null;
+        setMarqueeClientRect(null);
+        return;
+      }
     }
     staffPointerRef.current = { clientX: e.clientX, clientY: e.clientY };
     const pointerAnalysis = staffPointerAnalysis(e);
@@ -1737,7 +1841,7 @@ export default function NotationEditor(props) {
         if (staffDragPointerRef.current || staffMarqueeRef.current || staffPendingGestureRef.current) return;
 
         const keys = displayedVoiceKeysRef.current;
-        const targetKey = voiceKeyFromStaffAnalysis(keys, pointerAnalysis, e, props.voiceKey);
+        const targetKey = voiceKeyFromStaffAnalysis(keys, pointerAnalysis, e, props.voiceKey, wrap);
         switchToVoiceKeyIfNeeded(targetKey);
         const voiceStaffIdx = Math.max(0, keys.indexOf(targetKey));
         const activeSession = sessionRef.current;
@@ -1766,8 +1870,8 @@ export default function NotationEditor(props) {
         const staffMarqueeTool = activeSession.staffSelectionTool === STAFF_SELECTION_TOOLS.MARQUEE;
         const desktopShiftMarquee = shiftMarquee && !coarse && !staffMarqueeTool;
 
-        // Shift+drag or marquee tool → marquee anywhere (including over notes).
-        if ((modRange || staffMarqueeTool) && e.button === 0) {
+        // Shift+drag marquee on gaps/staff; shift+click on a note extends range (click handler).
+        if ((staffMarqueeTool || (modRange && !noteHit)) && e.button === 0) {
           clearStaffLongPress();
           beginStaffMarquee(e.clientX, e.clientY, e.currentTarget, e.pointerId);
           e.preventDefault();
@@ -1809,7 +1913,8 @@ export default function NotationEditor(props) {
             clientY: e.clientY,
             eventId: eventId,
             stepPx: stepPx,
-            allowPitch: isSelected && noteheadHit,
+            allowPitch: noteHit,
+            shiftKey: modRange,
           };
           staffDragSuppressClickRef.current = false;
           if (coarse && shiftMarquee) {
@@ -1896,7 +2001,7 @@ export default function NotationEditor(props) {
       return;
     }
 
-    if (placeNoteInputCaretFromPointer(e, null, null)) {
+    if (placeNoteInputCaretFromPointer(e, pointerAnalysis, null)) {
       staffInputHandledRef.current = true;
       e.preventDefault();
       e.stopPropagation();
@@ -1949,13 +2054,14 @@ export default function NotationEditor(props) {
   }
 
   function handleStaffClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbc) {
+    const noteInputClick = sessionRef.current.mode === EDITOR_MODES.NOTE_INPUT;
     const domKind = staffHeaderKindFromDomTarget(mouseEvent && mouseEvent.target);
-    if (domKind && domKind !== 'tempo') {
+    if (!noteInputClick && domKind && domKind !== 'tempo') {
       if (openSignatureDialogFromStaffClick(abcelem, mouseEvent, renderedAbc, domKind)) return;
     }
     const headerType = abcelem && (abcelem.el_type || abcelem.type);
     const signatureHeaderTypes = ['keySignature', 'timeSignature', 'key', 'meter'];
-    if (headerType && (headerType === 'clef' || signatureHeaderTypes.indexOf(headerType) >= 0)) {
+    if (!noteInputClick && headerType && (headerType === 'clef' || signatureHeaderTypes.indexOf(headerType) >= 0)) {
       if (openSignatureDialogFromStaffClick(abcelem, mouseEvent, renderedAbc, null)) return;
     }
     if (headerType && ['tempo', 'part'].indexOf(headerType) >= 0) {
@@ -2004,10 +2110,6 @@ export default function NotationEditor(props) {
       return;
     }
     if (s.mode === EDITOR_MODES.NOTE_INPUT) {
-      if (staffInputHandledRef.current) {
-        staffInputHandledRef.current = false;
-        return;
-      }
       if (mouseEvent && mouseEvent.shiftKey && s.selection.anchorId) {
         const targetEv = ev || (idx > 0 ? s.events[idx - 1] : null);
         const ids = selectEventRange(s.events, s.selection.anchorId, targetEv && targetEv.id);
@@ -2041,7 +2143,9 @@ export default function NotationEditor(props) {
           return;
         }
       }
+      // Always re-resolve caret from geometry on click (abcjs analysis + renderedAbc).
       placeNoteInputCaretFromPointer(mouseEvent, analysis, renderedAbc);
+      staffInputHandledRef.current = false;
       return;
     }
 
@@ -2132,6 +2236,13 @@ export default function NotationEditor(props) {
       clearSelectionClickRects();
       setCaretIndex(s.events.findIndex(function(x) { return x.id === barEv.id; }));
       focusStaffEditor();
+      return;
+    }
+
+    const staffEv = resolveClickedStaffEvent(resolved, s.events, abcelem);
+    if (staffEv && staffEv.type === 'rest') {
+      applyStaffRestSelection(staffEv, s, idx);
+      clearSelectionClickRects();
       return;
     }
 
@@ -2273,6 +2384,7 @@ export default function NotationEditor(props) {
     const voiceNamesList = props.voiceNames || [];
     const newKey = voiceNamesList[index];
     if (newKey) {
+      activeVoiceKeyRef.current = newKey;
       const voiceBody = voiceBodyForSession(voiceNotesForKey(newKey));
       skipExternalLoad.current = true;
       dispatch({ type: 'LOAD_VOICE', tuneMeta: tuneMeta, voiceBody: voiceBody });
@@ -2648,6 +2760,7 @@ export default function NotationEditor(props) {
     return buildAbcPreviewFromBodies(props.tune, props.tunebook, displayedVoiceKeys, bodies, {
       staffPlaceholder: staffPlaceholder,
       stripSectionMarkerChords: staffPlaceholder,
+      includeLyrics: false,
     });
   }, [props.tune, props.tunebook, displayedVoiceKeys, displayedVoiceBodiesKey, session.view]);
 
@@ -3084,7 +3197,8 @@ export default function NotationEditor(props) {
       onPointerDownCapture={handleStaffWrapPointerDown}
       onPointerMove={handleStaffWrapPointerMove}
       onMouseDownCapture={function(e) {
-        // Puppeteer/some browsers may not synthesize pointerdown for mouse drags.
+        // Pointer-capable browsers fire both pointerdown and mousedown; avoid double caret resolve.
+        if (typeof window.PointerEvent !== 'undefined') return;
         if (!staffDragPointerRef.current && !staffMarqueeRef.current && !staffPendingGestureRef.current) {
           handleStaffWrapPointerDown(e);
         }
@@ -3543,11 +3657,11 @@ export default function NotationEditor(props) {
                       <div className="notation-abc-textarea-label fw-semibold small text-muted">
                         {voiceDisplayLabel(props.tune, vk)}
                       </div>
-                      <textarea
+                      <AbcNotesTextarea
                         key={'abc-draft-' + vk}
-                        ref={function(el) { textareaRefs.current[vk] = el; }}
+                        textareaRef={function(el) { textareaRefs.current[vk] = el; }}
                         value={abcDrafts[vk] != null ? abcDrafts[vk] : voiceNotesForKey(vk)}
-                        className={'notation-abc-textarea' + (focusedAbcVoiceKey === vk ? ' notation-abc-textarea--focused' : '')}
+                        className={focusedAbcVoiceKey === vk ? 'notation-abc-textarea--focused' : ''}
                         rows={5}
                         data-testid="notation-abc-textarea"
                         aria-label={'ABC notes for ' + voiceDisplayLabel(props.tune, vk)}

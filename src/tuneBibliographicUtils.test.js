@@ -1,4 +1,5 @@
 import {
+  allAlbums,
   allArtists,
   allTitles,
   mergeBibliographicList,
@@ -6,6 +7,7 @@ import {
   primaryArtist,
   renderBibliographicComposerLines,
   renderBibliographicTitleLines,
+  tuneMatchesAlbumFilter,
   tuneMatchesArtistFilter,
 } from './tuneBibliographicUtils'
 
@@ -64,5 +66,13 @@ describe('tuneBibliographicUtils', function() {
     expect(tuneMatchesArtistFilter(tune, ['Band'])).toBe(true)
     expect(tuneMatchesArtistFilter(tune, ['Other'])).toBe(false)
     expect(tuneMatchesArtistFilter({ composer: '', artists: [] }, ['Band'])).toBe(false)
+  })
+
+  test('allAlbums and tuneMatchesAlbumFilter', function() {
+    const tune = { albums: ['Abbey Road (1969)', 'abbey road (1969)', 'Let It Be'] }
+    expect(allAlbums(tune)).toEqual(['Abbey Road (1969)', 'Let It Be'])
+    expect(tuneMatchesAlbumFilter(tune, [])).toBe(true)
+    expect(tuneMatchesAlbumFilter(tune, ['let it be'])).toBe(true)
+    expect(tuneMatchesAlbumFilter(tune, ['Rubber Soul'])).toBe(false)
   })
 })

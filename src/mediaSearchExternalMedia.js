@@ -59,6 +59,7 @@ export function externalMediaFromCandidate(candidate) {
       source: 'music-collection',
       title: candidate.title || 'Track',
       artist: candidate.artist || '',
+      collectionEntryId: candidate.id || '',
       collectionLink: link,
       collectionPath: candidate.path || '',
       image: candidate.image || '',

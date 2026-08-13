@@ -11,6 +11,7 @@ const speechCache = new Map()
 let announcementGeneration = 0
 let activePlayer = null
 let activeObjectUrl = null
+let pendingAnnouncementTune = null
 
 function getSpeechContainer() {
   if (typeof document === 'undefined') return null
@@ -72,6 +73,7 @@ function playSpeechBlob(blob, generation) {
 
 export function cancelPlaylistTitleAnnouncement() {
   announcementGeneration += 1
+  pendingAnnouncementTune = null
   stopActiveSpeech()
 }
 
@@ -134,4 +136,26 @@ export function announcePlaylistTrack(tune) {
       console.warn('Playlist title announcement failed:', err && err.message ? err.message : err)
     })
   })
+}
+
+export function queuePlaylistTrackAnnouncement(tune) {
+  pendingAnnouncementTune = tune || null
+}
+
+export function confirmQueuedPlaylistTrackAnnouncement(tune) {
+  if (!pendingAnnouncementTune) return
+  if (!tune || !pendingAnnouncementTune) {
+    pendingAnnouncementTune = null
+    return
+  }
+  const pendingId = pendingAnnouncementTune.id
+  const currentId = tune.id
+  if (pendingId && currentId && pendingId !== currentId) return
+  if (!pendingId && !currentId) {
+    const pendingName = typeof pendingAnnouncementTune.name === 'string' ? pendingAnnouncementTune.name.trim() : ''
+    const currentName = typeof tune.name === 'string' ? tune.name.trim() : ''
+    if (!pendingName || pendingName !== currentName) return
+  }
+  pendingAnnouncementTune = null
+  announcePlaylistTrack(tune)
 }

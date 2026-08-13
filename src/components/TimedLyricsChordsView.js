@@ -1,25 +1,55 @@
 import { getLyricLinesForDisplay } from '../wLinesUtils';
-import { buildLinesFromTune } from '../timedLyricsChordsDisplay';
+import { buildLinesFromTune, tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay';
 import {
   classifyLyricChordLines,
   alignChordBlocksToLyrics,
-  splitChordChartIntoBlocks,
-  mergeChordsIntoLyricLines,
+  mergeAlignedLyricBlockChords,
   hasChordLines,
   chartBlockHasChords,
   formatChordChartForDisplay,
   linesHaveChordProInlineChords,
   parseChordProInlineLyricLine,
   isSectionHeader,
+  stripChordsFromLyricLines,
+  ensureLeadingMeterMarker,
+  parseChordChartDisplayLine,
 } from '../chordSheetUtils';
+import { chordChartBlocksForTuneDisplay, chordNoteLinesFromTune } from '../chordBlockMerge';
+import { resolveChordRenderPlan } from '../chordLyricRenderPlan';
+import {
+  resolveLyricBeatAnchorWordIndex,
+  stripLyricBeatMarkersFromLine,
+  stripLyricBeatMarkersFromTokenLines,
+} from '../lyricBeatMarkers';
 import useAbcjsParser from '../useAbcjsParser';
 import LyricsDisplayLines, { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
 
 export { displaySectionHeader } from '../LyricsDisplayLines';
 
+function renderChordMeterMark(part, key) {
+  if (!part || part.type !== 'meter') return null;
+  if (!part.den) {
+    return (
+      <span key={key} className="chord-meter-mark chord-meter-mark--plain" title={part.label} aria-label={part.label}>
+        {part.label}
+      </span>
+    );
+  }
+  return (
+    <span key={key} className="chord-meter-mark" title={part.label} aria-label={part.label}>
+      <span className="chord-meter-num">{part.num}</span>
+      <span className="chord-meter-den">{part.den}</span>
+    </span>
+  );
+}
+
 function ChordChartBlock(props) {
-  const chart = formatChordChartForDisplay(props.chart);
+  const chart = formatChordChartForDisplay(
+    props.applyLeadingMeter
+      ? ensureLeadingMeterMarker(props.chart, props.meter)
+      : props.chart
+  );
   if (!chart) return null;
   const lines = chart.split('\n');
   return (
@@ -28,7 +58,18 @@ function ChordChartBlock(props) {
         if (!line.trim()) {
           return <div key={i} className="chord-chart-line-spacer" aria-hidden="true" />;
         }
-        return <div key={i} className="chord-chart-line">{line}</div>;
+        const parts = parseChordChartDisplayLine(line).map(function(part, partKey) {
+          if (part.type === 'meter') return renderChordMeterMark(part, i + '-m-' + partKey);
+          if (part.type === 'repeat') {
+            return (
+              <span key={i + '-rm-' + partKey} className="chord-repeat-mark">
+                {part.text}
+              </span>
+            );
+          }
+          return part.text || '';
+        });
+        return <div key={i} className="chord-chart-line">{parts}</div>;
       })}
     </div>
   );
@@ -36,14 +77,27 @@ function ChordChartBlock(props) {
 
 /** Render a multi-block chord chart (no synthetic section labels). */
 function ChordChartBlocksFromText(props) {
-  const blocks = splitChordChartIntoBlocks(props.chart || '')
-    .map(function(block) { return formatChordChartForDisplay(block); })
-    .filter(Boolean);
+  const tuneMeter = props.tune && props.tune.meter ? props.tune.meter : null;
+  let leadingMeterPending = !!tuneMeter;
+  const blocks = chordChartBlocksForTuneDisplay(props.tune, props.chart || '', props.melodyNoteLines || [])
+    .map(function(block) {
+      const applyLeading = leadingMeterPending;
+      if (applyLeading) leadingMeterPending = false;
+      return {
+        chart: block,
+        applyLeadingMeter: applyLeading,
+      };
+    })
+    .filter(function(item) { return chartBlockHasChords(item.chart); });
   if (blocks.length === 0) return null;
-  return blocks.map(function(chart, i) {
+  return blocks.map(function(item, i) {
     return (
       <div key={i} className="chord-lyric-block">
-        <ChordChartBlock chart={chart} />
+        <ChordChartBlock
+          chart={item.chart}
+          meter={tuneMeter}
+          applyLeadingMeter={item.applyLeadingMeter}
+        />
       </div>
     );
   });
@@ -68,11 +122,12 @@ function ChordsOnlyBlockView(props) {
 }
 
 function ChordProLines(props) {
-  const tokenLines = props.tokenLines;
+  const rawTokenLines = props.tokenLines;
+  const tokenLines = stripLyricBeatMarkersFromTokenLines(rawTokenLines);
   if (!tokenLines || tokenLines.length === 0) return null;
   return tokenLines.map(function(tokens, lineIndex) {
     if (!tokens || tokens.length === 0) {
-      return <div key={lineIndex} className="chordpro-line-spacer" style={{ height: '0.4em' }} />;
+      return <div key={lineIndex} className="chordpro-line-spacer" aria-hidden="true" />;
     }
     return (
       <div key={lineIndex} className="chordpro-line" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', marginBottom: '0.35em', pageBreakInside: 'avoid' }}>
@@ -84,6 +139,92 @@ function ChordProLines(props) {
             </span>
           );
         })}
+      </div>
+    );
+  });
+}
+
+function renderPerLineAbcBlocks(props) {
+  const tune = props.tune;
+  const suppressLeadingTitle = props.suppressLeadingTitle;
+  const forceBlockLayout = props.forceBlockLayout;
+  const melodyNoteLines = props.melodyNoteLines;
+  const chordBlocks = props.chordBlocks;
+  const lines = props.lines;
+
+  const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, {
+    title: suppressLeadingTitle ? undefined : tune.name,
+    composer: suppressLeadingTitle ? undefined : tune.composer,
+    melodyNoteLines: melodyNoteLines,
+  });
+  const sheetAlignment = tune && tune.meta && Array.isArray(tune.meta.chordSheetAlignment)
+    ? tune.meta.chordSheetAlignment
+    : null;
+  const tuneMeter = tune && tune.meter ? tune.meter : null;
+  let leadingMeterPending = !!tuneMeter;
+
+  return alignedBlocks.map(function(block, bi) {
+    const hasWords = block.lyricLines.some(function(line) {
+      return String(line).trim().length > 0;
+    });
+    // Structure/block charts skip revisits; inline lyrics still merge chords so
+    // repeated verses/choruses keep under-lyric chords when sourcing from ABC.
+    const inlineTokens = !forceBlockLayout && block.inlineChords && block.chart && hasWords
+      ? mergeAlignedLyricBlockChords(block, melodyNoteLines, (function() {
+        const mergeOpts = {};
+        if (sheetAlignment && sheetAlignment[bi]) {
+          mergeOpts.anchorWordIndexForBar = function(info) {
+            const blockAlignment = sheetAlignment[bi];
+            const linePair = blockAlignment && Array.isArray(blockAlignment.linePairs)
+              ? blockAlignment.linePairs[info.lineIndex]
+              : null;
+            const anchors = linePair && Array.isArray(linePair.anchors) ? linePair.anchors : [];
+            if (anchors.length > 0) {
+              const anchorIndex = Math.min(info.barIndex, anchors.length - 1);
+              const anchor = anchors[anchorIndex];
+              if (anchor && Number.isFinite(anchor.wordIndex)) {
+                return anchor.wordIndex;
+              }
+            }
+            const beatIdx = resolveLyricBeatAnchorWordIndex(info);
+            if (beatIdx != null) return beatIdx;
+            return Math.round((info.barIndex * info.wordCount) / info.barCount);
+          };
+        }
+        return mergeOpts;
+      })())
+      : null;
+    const useInline = !forceBlockLayout
+      && inlineTokens
+      && inlineTokens.length > 0
+      && inlineTokens.some(function(row) { return row.length > 0; });
+    const showChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(block.chart);
+    const showExtraChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(block.extraChart);
+    const applyLeadingMeter = leadingMeterPending && showChartAbove;
+    if (applyLeadingMeter) leadingMeterPending = false;
+    return (
+      <div key={bi} className="chord-lyric-block" style={{ marginBottom: '1.3em', pageBreakInside: 'avoid' }}>
+        {Array.isArray(block.prefaceLines) && block.prefaceLines.map(function(line, pi) {
+          return <div key={'preface-' + pi} className="lyrics-preface music-tune-heading">{line}</div>;
+        })}
+        <SectionHeader label={displaySectionHeader(block.header)} />
+        {useInline ? (
+          <ChordProLines tokenLines={inlineTokens} />
+        ) : (
+          <>
+            {showChartAbove && (
+              <ChordChartBlock
+                chart={block.chart}
+                meter={tuneMeter}
+                applyLeadingMeter={applyLeadingMeter}
+              />
+            )}
+            {showExtraChartAbove && <ChordChartBlock chart={block.extraChart} />}
+            {block.lyricLines.map(function(line, li) {
+              return <div key={li} className="lyrics-line">{stripLyricBeatMarkersFromLine(line)}</div>;
+            })}
+          </>
+        )}
       </div>
     );
   });
@@ -125,7 +266,6 @@ export default function TimedLyricsChordsView(props) {
   function contentFontStyle(extraStyle) {
     const style = Object.assign({ padding: '0.3em', marginTop: '1em' }, extraStyle || {});
     if (fitHeight && !chordsOnly) {
-      // Scale is applied on the fit wrapper; keep inner at 1em relative to that.
       style.fontSize = '1em';
       style.marginTop = '0.25em';
     } else if (!inheritZoom) {
@@ -160,21 +300,30 @@ export default function TimedLyricsChordsView(props) {
       </div>
     );
   }
+
   const chordTranspose = props.chordTranspose != null
     ? Number(props.chordTranspose) || 0
     : (Number(tune.transpose) || 0);
   const displayLines = getLyricLinesForDisplay(tune);
   const classified = classifyLyricChordLines(displayLines);
-  const isChordSheet = hasChordLines(displayLines);
   const lines = buildLinesFromTune(tune);
+  const renderPlan = resolveChordRenderPlan(tune, { hideChords: hideChords, chordsOnly: chordsOnly });
+
+  if (renderPlan.mode === 'strip') {
+    if (lines.length === 0) return null;
+    return wrapFit(
+      <div className="timed-lyrics-chords-view" style={contentFontStyle()}>
+        <LyricsDisplayLines lines={stripChordsFromLyricLines(displayLines)} />
+      </div>
+    );
+  }
+
+  const melodyNoteLines = chordNoteLinesFromTune(tune);
 
   let chordChart = '';
   try {
-    const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
-      ? Object.values(tune.voices)[0]
-      : { notes: [] };
     const melodyAbc = tunebook && tunebook.abcTools
-      ? tunebook.abcTools.emptyABC(tune.name) + firstVoice.notes.join('\n')
+      ? tunebook.abcTools.emptyABC(tune.name) + melodyNoteLines.join('\n')
       : '';
     chordChart = melodyAbc
       ? abcjsParser.renderChords(melodyAbc, false, chordTranspose, tune.key, tune.noteLength, tune.meter)
@@ -183,11 +332,11 @@ export default function TimedLyricsChordsView(props) {
     chordChart = '';
   }
 
-  const chordBlocks = splitChordChartIntoBlocks(chordChart);
+  const chordBlocks = chordChartBlocksForTuneDisplay(tune, chordChart, melodyNoteLines);
   const melodyHasChords = chordBlocks.some(chartBlockHasChords);
 
-  if (chordsOnly && !hideChords) {
-    if (isChordSheet) {
+  if (chordsOnly) {
+    if (renderPlan.mode === 'passthrough_cow') {
       const hasHeaders = classified.some(function(item) { return item.type === 'header'; });
       const hasChords = classified.some(function(item) { return item.type === 'chord'; });
       if (hasChords) {
@@ -195,7 +344,7 @@ export default function TimedLyricsChordsView(props) {
           <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
             {hasHeaders ? classified.map(function(item, index) {
               if (item.type === 'blank') {
-                return <div key={index} className="chord-sheet-spacer" style={{ height: '0.6em' }} />;
+                return <div key={index} className="chord-sheet-spacer" aria-hidden="true" />;
               }
               if (item.type === 'header') {
                 return (
@@ -208,7 +357,9 @@ export default function TimedLyricsChordsView(props) {
               return null;
             }) : (
               <ChordChartBlocksFromText
+                tune={tune}
                 chart={classified.filter(function(item) { return item.type === 'chord'; }).map(function(item) { return item.text; }).join('\n')}
+                melodyNoteLines={melodyNoteLines}
               />
             )}
           </ChordsOnlyBlockView>
@@ -216,7 +367,7 @@ export default function TimedLyricsChordsView(props) {
       }
     }
 
-    if (linesHaveChordProInlineChords(displayLines)) {
+    if (renderPlan.mode === 'passthrough_chordpro') {
       const chordOnlyTokens = displayLines.map(function(line) {
         const trimmed = String(line || '').trim();
         if (!trimmed || isSectionHeader(trimmed)) return null;
@@ -228,31 +379,41 @@ export default function TimedLyricsChordsView(props) {
       if (chordOnlyTokens.length > 0) {
         return (
           <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
-            <ChordChartBlocksFromText chart={chordOnlyTokens.join('\n')} />
+            <ChordChartBlocksFromText tune={tune} chart={chordOnlyTokens.join('\n')} melodyNoteLines={melodyNoteLines} />
           </ChordsOnlyBlockView>
         );
       }
     }
 
-    if (melodyHasChords && lines.length > 0) {
+    if (melodyHasChords && lines.length > 0 && !tuneHasLyricEmbeddedChords(tune)) {
       const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, {
-        chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
+        melodyNoteLines: melodyNoteLines,
       });
       const blocksWithCharts = alignedBlocks.filter(function(block) {
         if (block.chartRevisit) {
           return !!displaySectionHeader(block.header);
         }
-        return chartBlockHasChords(block.chart) || chartBlockHasChords(block.extraChart);
+        return chartBlockHasChords(block.chart);
       });
       if (blocksWithCharts.length > 0) {
+        const tuneMeter = tune && tune.meter ? tune.meter : null;
+        let leadingMeterPending = !!tuneMeter;
         return (
           <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
             {blocksWithCharts.map(function(block, bi) {
+              const showChart = !block.chartRevisit && chartBlockHasChords(block.chart);
+              const applyLeadingMeter = leadingMeterPending && showChart;
+              if (applyLeadingMeter) leadingMeterPending = false;
               return (
                 <div key={bi} className="chord-lyric-block">
                   <SectionHeader label={displaySectionHeader(block.header)} />
-                  {!block.chartRevisit && chartBlockHasChords(block.chart) && <ChordChartBlock chart={block.chart} />}
-                  {!block.chartRevisit && chartBlockHasChords(block.extraChart) && <ChordChartBlock chart={block.extraChart} />}
+                  {showChart && (
+                    <ChordChartBlock
+                      chart={block.chart}
+                      meter={tuneMeter}
+                      applyLeadingMeter={applyLeadingMeter}
+                    />
+                  )}
                 </div>
               );
             })}
@@ -264,7 +425,7 @@ export default function TimedLyricsChordsView(props) {
     if (melodyHasChords && chordChart.trim()) {
       return (
         <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
-          <ChordChartBlocksFromText chart={chordChart} />
+          <ChordChartBlocksFromText tune={tune} chart={chordChart} melodyNoteLines={melodyNoteLines} />
         </ChordsOnlyBlockView>
       );
     }
@@ -276,48 +437,38 @@ export default function TimedLyricsChordsView(props) {
     );
   }
 
-  // 1) ChordPro-style w: lines (chord rows above lyric rows).
-  if (isChordSheet) {
+  if (renderPlan.mode === 'passthrough_cow') {
     return wrapFit(
       <div className="timed-lyrics-chords-view chord-sheet" style={contentFontStyle({ fontFamily: 'monospace', overflowX: 'auto' })}>
         {classified.map(function(item, index) {
           if (item.type === 'blank') {
-            return <div key={index} className="chord-sheet-spacer" style={{ height: '0.9em' }} />;
+            return <div key={index} className="chord-sheet-spacer" aria-hidden="true" />;
           }
           if (item.type === 'header') {
             return <SectionHeader key={index} label={displaySectionHeader(item.text)} />;
           }
-          if (item.type === 'chord' && !hideChords) {
+          if (item.type === 'chord') {
             return <ChordChartBlock key={index} chart={item.text} />;
           }
-          if (item.type === 'chord' && hideChords) {
-            return null;
-          }
-          return <div key={index} className="lyrics-line" style={{ whiteSpace: 'pre' }}>{item.text}</div>;
+          return <div key={index} className="lyrics-line" style={{ whiteSpace: 'pre' }}>{stripLyricBeatMarkersFromLine(item.text)}</div>;
         })}
       </div>
     );
   }
 
-  // 1b) ChordPro inline markers in lyrics ([Am]word). Prefer over ABC merge.
-  if (linesHaveChordProInlineChords(displayLines)) {
-    const tokenLines = displayLines.map(function(line) {
+  if (renderPlan.mode === 'passthrough_chordpro') {
+    const tokenLines = stripLyricBeatMarkersFromTokenLines(displayLines.map(function(line) {
       const trimmed = String(line || '').trim();
       if (!trimmed) return [];
       if (isSectionHeader(trimmed)) return null;
-      if (hideChords) {
-        return parseChordProInlineLyricLine(line).map(function(token) {
-          return { chord: '', text: token.text };
-        });
-      }
       return parseChordProInlineLyricLine(line);
-    });
+    }));
     return wrapFit(
       <div className="timed-lyrics-chords-view chordpro-inline" style={contentFontStyle()}>
         {displayLines.map(function(line, index) {
           const trimmed = String(line || '').trim();
           if (!trimmed) {
-            return <div key={index} className="chordpro-line-spacer" style={{ height: '0.4em' }} />;
+            return <div key={index} className="chordpro-line-spacer" aria-hidden="true" />;
           }
           if (isSectionHeader(trimmed)) {
             return <SectionHeader key={index} label={displaySectionHeader(trimmed)} />;
@@ -328,80 +479,21 @@ export default function TimedLyricsChordsView(props) {
     );
   }
 
-  // 2) Clean lyrics with chords only in the melody notation. Split the melody
-  // into chord blocks at the double barlines and align them to the lyric blocks
-  // by section so every word shows and the chords stay grouped per block (verse
-  // / chorus / bridge) rather than running continuously down the page.
-  if (melodyHasChords && lines.length > 0) {
-    const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, {
-      title: suppressLeadingTitle ? undefined : tune.name,
-      composer: suppressLeadingTitle ? undefined : tune.composer,
-      chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
-    });
-    const sheetAlignment = tune && tune.meta && Array.isArray(tune.meta.chordSheetAlignment)
-      ? tune.meta.chordSheetAlignment
-      : null;
+  if (renderPlan.mode === 'per_line_abc' && melodyHasChords && lines.length > 0) {
     return wrapFit(
       <div className="timed-lyrics-chords-view chord-blocks" style={contentFontStyle()}>
-        {alignedBlocks.map(function(block, bi) {
-          // Structure: suppress repeating the block chart on revisit.
-          // Lyrics: still merge chords above each line when the block has words.
-          const hasWords = block.lyricLines.some(function(line) {
-            return String(line).trim().length > 0;
-          });
-          const inlineTokens = !forceBlockLayout && !hideChords && block.inlineChords && block.chart && hasWords
-            ? mergeChordsIntoLyricLines(block.lyricLines, block.chart, sheetAlignment && sheetAlignment[bi]
-              ? {
-                anchorWordIndexForBar: function(info) {
-                  const blockAlignment = sheetAlignment[bi];
-                  const linePair = blockAlignment && Array.isArray(blockAlignment.linePairs)
-                    ? blockAlignment.linePairs[info.lineIndex]
-                    : null;
-                  const anchors = linePair && Array.isArray(linePair.anchors) ? linePair.anchors : [];
-                  if (anchors.length > 0) {
-                    const anchorIndex = Math.min(info.barIndex, anchors.length - 1);
-                    const anchor = anchors[anchorIndex];
-                    if (anchor && Number.isFinite(anchor.wordIndex)) {
-                      return anchor.wordIndex;
-                    }
-                  }
-                  return Math.round((info.barIndex * info.wordCount) / info.barCount);
-                },
-              }
-              : undefined)
-            : null;
-          const useInline = !forceBlockLayout
-            && inlineTokens
-            && inlineTokens.length > 0
-            && inlineTokens.some(function(row) { return row.length > 0; });
-          // Block chart above lyrics only on first occurrence when not using inline merge.
-          const showChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(block.chart);
-          const showExtraBefore = chartBlockHasChords(block.extraChart);
-          return (
-            <div key={bi} className="chord-lyric-block" style={{ marginBottom: '1.3em', pageBreakInside: 'avoid' }}>
-              {Array.isArray(block.prefaceLines) && block.prefaceLines.map(function(line, pi) {
-                return <div key={'preface-' + pi} className="lyrics-preface music-tune-heading">{line}</div>;
-              })}
-              <SectionHeader label={displaySectionHeader(block.header)} />
-              {showExtraBefore && !hideChords ? <ChordChartBlock chart={block.extraChart} /> : null}
-              {useInline && !hideChords ? (
-                <ChordProLines tokenLines={inlineTokens} />
-              ) : (
-                <>
-                  {showChartAbove && !hideChords && <ChordChartBlock chart={block.chart} />}
-                  {block.lyricLines.map(function(line, li) {
-                    return <div key={li} className="lyrics-line">{line}</div>;
-                  })}
-                </>
-              )}
-            </div>
-          );
+        {renderPerLineAbcBlocks({
+          tune: tune,
+          suppressLeadingTitle: suppressLeadingTitle,
+          forceBlockLayout: forceBlockLayout,
+          melodyNoteLines: melodyNoteLines,
+          chordBlocks: chordBlocks,
+          lines: lines,
         })}
       </div>
     );
   }
 
-  // 3) Plain lyrics (no chords available anywhere).
   if (lines.length > 0) {
     return wrapFit(
       <div className="timed-lyrics-chords-view" style={contentFontStyle()}>

@@ -3,6 +3,7 @@ import { Button, Form, Modal } from 'react-bootstrap';
 import {
   PRESET_ORDER,
   TASK_LINKED_COVER,
+  audioGenerationUnavailableMessage,
   defaultPresetForTask,
   mergeBackendsPresets,
   presetLabel,
@@ -21,12 +22,15 @@ export default function RegenerateCoverModal(props) {
     onConfirm,
   } = props;
 
+  const providerUnavailableMessage = audioGenerationUnavailableMessage(backends);
   const presetOptions = mergeBackendsPresets(backends, TASK_LINKED_COVER);
   const availablePresets = presetOptions.length
     ? presetOptions.filter(function(preset) { return preset.available !== false; })
-    : PRESET_ORDER.map(function(id) {
-      return { id: id, label: presetLabel(id), available: true };
-    });
+    : (providerUnavailableMessage
+      ? []
+      : PRESET_ORDER.map(function(id) {
+        return { id: id, label: presetLabel(id), available: true };
+      }));
 
   const [stylePrompt, setStylePrompt] = useState('');
   const [lyrics, setLyrics] = useState('');
@@ -38,11 +42,14 @@ export default function RegenerateCoverModal(props) {
     setStylePrompt(defaultStylePrompt || '');
     setLyrics('');
     setValidationError('');
+    const unavailable = audioGenerationUnavailableMessage(backends);
     const options = presetOptions.length
       ? presetOptions.filter(function(preset) { return preset.available !== false; })
-      : PRESET_ORDER.map(function(id) {
-        return { id: id, label: presetLabel(id), available: true };
-      });
+      : (unavailable
+        ? []
+        : PRESET_ORDER.map(function(id) {
+          return { id: id, label: presetLabel(id), available: true };
+        }));
     const defaultPreset = options.find(function(item) { return item.default; })
       || options[0];
     setPresetId(defaultPreset ? defaultPreset.id : defaultPresetForTask(TASK_LINKED_COVER));
@@ -50,6 +57,10 @@ export default function RegenerateCoverModal(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    if (providerUnavailableMessage || availablePresets.length === 0) {
+      setValidationError(providerUnavailableMessage || 'Audio generation is not available.');
+      return;
+    }
     const trimmed = stylePrompt.trim();
     if (!trimmed) {
       setValidationError('Enter a style prompt for the cover.');
@@ -76,6 +87,11 @@ export default function RegenerateCoverModal(props) {
           <p className="text-muted mb-3">
             Create a new AI cover from <strong>{linkTitle}</strong>. Describe the style you want.
           </p>
+          {providerUnavailableMessage ? (
+            <div className="alert alert-warning py-2" role="alert">
+              {providerUnavailableMessage}
+            </div>
+          ) : null}
           {availablePresets.length > 1 ? (
             <Form.Group className="mb-3">
               <Form.Label>Quality</Form.Label>
@@ -124,7 +140,11 @@ export default function RegenerateCoverModal(props) {
           <Button variant="secondary" onClick={onHide} disabled={busy}>
             Cancel
           </Button>
-          <Button variant="primary" type="submit" disabled={busy}>
+          <Button
+            variant="primary"
+            type="submit"
+            disabled={busy || !!providerUnavailableMessage || availablePresets.length === 0}
+          >
             {busy ? 'Starting…' : 'Regenerate'}
           </Button>
         </Modal.Footer>

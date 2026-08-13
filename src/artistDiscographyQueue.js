@@ -1,11 +1,12 @@
 import {
   appendTunesToQueue,
   createQueue,
+  getCurrentItem,
   insertTunesAfterCurrentInQueue,
 } from './nowPlayingQueue'
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
 import { yieldToMain } from './tuneListFilter'
-import { startTunePlayback } from './tunePlaybackActions'
+import { playQueueItem, navigateToQueueTune } from './nowPlayingQueuePlayback'
 import {
   candidateMatchesArtistTitle,
   candidateMatchesSeenArtistTitles,
@@ -20,6 +21,28 @@ import {
   musicCollectionCandidateIdentityKey,
   scheduleMediaSearchTuneEnrichment,
 } from './mediaSearchTuneMaterialize'
+
+/**
+ * Start playlist playback the same way as list "Play all": arm intent with
+ * deferPlaybackEngine, then navigate to the playMedia/playMidi route so the
+ * host mounts without list suppressAutostart leaving isLoading stuck.
+ */
+function startDiscographyPlayback(context, tunebook, tunesMap, queue, tuneIds) {
+  const mediaController = context.mediaController
+  if (!mediaController || !tuneIds || !tuneIds.length) return false
+  const tuneId = tuneIds[0]
+  const tune = tunesMap && tunesMap[tuneId]
+  const item = getCurrentItem(queue) || (queue && queue.items && queue.items[0])
+  if (!tune || !item) return false
+  if (context.setCurrentTune) {
+    context.setCurrentTune(tuneId)
+  }
+  playQueueItem(mediaController, tunebook, tune, item, { deferPlaybackEngine: true })
+  if (context.navigate) {
+    navigateToQueueTune(context.navigate, tuneId, item, tunebook, tunesMap)
+  }
+  return true
+}
 
 const MATERIALIZE_YIELD_INTERVAL = 25
 
@@ -176,18 +199,13 @@ export async function queueResolvedCandidates(candidates, context, options) {
     if (context.setNowPlayingQueue) {
       context.setNowPlayingQueue(queue)
     }
-    if (context.mediaController) {
-      startTunePlayback(
-        context.mediaController,
-        tunebook,
-        context.navigate,
-        context.location,
-        Object.assign({}, queueContext, {
-          playTuneId: tuneIds[0],
-          nowPlayingQueue: queue,
-        })
-      )
-    }
+    startDiscographyPlayback(
+      queueContext,
+      tunebook,
+      materializeOptions.tunes,
+      queue,
+      tuneIds
+    )
     return { played: tuneIds.length, tuneIds: tuneIds, queue: queue }
   }
 

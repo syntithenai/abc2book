@@ -15,14 +15,12 @@ const NOTATION_VIEW_MODES = [
   { id: EDITOR_VIEWS.PIANO_ROLL, label: 'Piano roll' },
   { id: EDITOR_VIEWS.SPLIT, label: 'Staff + Roll' },
   { id: EDITOR_VIEWS.ABC, label: 'ABC' },
-  { id: EDITOR_VIEWS.CHORDS, label: 'Chords' },
 ];
 
 const TOOLBAR_VIEW_MODES = [
   { id: EDITOR_VIEWS.STAFF, label: 'Staff', iconKey: 'trebleclef' },
   { id: EDITOR_VIEWS.PIANO_ROLL, label: 'Piano roll', iconKey: 'pianoroll' },
   { id: EDITOR_VIEWS.ABC, label: 'ABC', textIcon: 'ABC' },
-  { id: EDITOR_VIEWS.CHORDS, label: 'Chords', iconKey: 'guitar' },
 ];
 
 function renderToolbarViewContent(mode, tunebook) {

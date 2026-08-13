@@ -1,5 +1,5 @@
 import { allArtists } from './tuneBibliographicUtils'
-import { getRecentViewedTuneIds, getRecentPlayedTuneIds } from './tuneViewHistoryStore'
+import { getRecentViewedTuneIds } from './tuneViewHistoryStore'
 
 export const RECENT_TUNES_DEFAULT = 10
 export const RECENT_TUNES_EXPANDED = 60
@@ -14,12 +14,28 @@ function tuneLastUpdated(tune) {
   return Number.isFinite(n) ? n : 0
 }
 
-export function getRecentTunes(tunes, limit) {
+/**
+ * Tunes ordered by lastUpdated (edit/sync time). Not for "recently visited" UI —
+ * imports bump lastUpdated and would flood the Books Recent list.
+ */
+export function getRecentlyUpdatedTunes(tunes, limit) {
   if (!tunes) return []
   var max = typeof limit === 'number' && limit > 0 ? limit : RECENT_TUNES_DEFAULT
   return Object.values(tunes)
     .filter(function(tune) { return tune && tune.id && tuneLastUpdated(tune) > 0 })
     .sort(function(a, b) { return tuneLastUpdated(b) - tuneLastUpdated(a) })
+    .slice(0, max)
+}
+
+/**
+ * Recently visited tunes from open/view history (not lastUpdated / imports).
+ */
+export function getRecentTunes(tunes, limit) {
+  if (!tunes) return []
+  const max = typeof limit === 'number' && limit > 0 ? limit : RECENT_TUNES_DEFAULT
+  return getRecentViewedTuneIds(RECENT_TUNES_EXPANDED)
+    .map(function(id) { return tunes[id] })
+    .filter(function(tune) { return tune && tune.id })
     .slice(0, max)
 }
 
@@ -46,10 +62,7 @@ export function getRecentArtists(tunes, limit) {
     addFromTune(tunes[id])
   })
 
-  Object.values(tunes)
-    .filter(function(tune) { return tune && tune.id && tuneLastUpdated(tune) > 0 })
-    .sort(function(a, b) { return tuneLastUpdated(b) - tuneLastUpdated(a) })
-    .forEach(addFromTune)
+  getRecentlyUpdatedTunes(tunes, RECENT_TUNES_EXPANDED).forEach(addFromTune)
 
   if (typeof limit === 'number' && limit > 0) return ordered.slice(0, limit)
   return ordered
@@ -74,25 +87,24 @@ export function getStarredTunes(tunes, limit) {
   return list
 }
 
-export function getRecentlyPlayedTunes(tunes, limit) {
-  if (!tunes) return []
-  const max = typeof limit === 'number' && limit > 0 ? limit : RECENT_TUNES_DEFAULT
-  return getRecentPlayedTuneIds(RECENT_TUNES_EXPANDED)
-    .map(function(id) { return tunes[id] })
-    .filter(function(tune) { return tune && tune.id })
-    .slice(0, max)
-}
-
 export const BOOKS_PAGE_SECTIONS = {
   filters: 'books-page-filters',
   recent: 'books-page-recent',
-  recentlyPlayed: 'books-page-recently-played',
   starred: 'books-page-starred',
   books: 'books-page-books',
   tags: 'books-page-tags',
   genres: 'books-page-genres',
   artists: 'books-page-artists',
 }
+
+export const LIBRARY_PAGE_SECTIONS = {
+  artists: 'library-page-artists',
+  albums: 'library-page-albums',
+  genres: 'library-page-genres',
+}
+
+export const LIBRARY_OPTIONS_DEFAULT = 20
+export const LIBRARY_OPTIONS_EXPANDED = 60
 
 export function queueBooksPageScroll(sectionId) {
   if (!sectionId) return
@@ -118,7 +130,7 @@ export function consumeBooksPageScrollTarget() {
 /** Clearance for fixed header + sticky collection nav on the books page. */
 export function getBooksPageScrollOffset() {
   if (typeof document === 'undefined') return 120
-  var nav = document.querySelector('.books-page-nav')
+  var nav = document.querySelector('.books-page-nav') || document.querySelector('.library-page-nav')
   if (nav) {
     var style = window.getComputedStyle(nav)
     var stickyTop = parseFloat(style.top) || 0

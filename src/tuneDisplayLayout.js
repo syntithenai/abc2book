@@ -108,6 +108,12 @@ export function resolveTuneDisplayLayout(flags) {
   };
 }
 
+/** True when structure is the only block panel (no notation or lyrics). */
+export function isStructureOnlyLayout(flags) {
+  const visible = getVisibleBlocks(flags);
+  return visible.structure && !visible.notation && !visible.lyrics;
+}
+
 export function isViewModesEmpty(flags, available) {
   const avail = available || {
     notation: true,

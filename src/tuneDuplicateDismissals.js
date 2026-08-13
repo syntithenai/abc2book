@@ -32,18 +32,37 @@ export function getDuplicateDismissal(tuneIdA, tuneIdB) {
 }
 
 /**
+ * Normalize fingerprints so hashA/hashB always follow sorted tune-id order.
  * @param {string} tuneIdA
  * @param {string} tuneIdB
  * @param {{ hashA?: string, hashB?: string }} fingerprints
  */
+function fingerprintsInKeyOrder(tuneIdA, tuneIdB, fingerprints) {
+  const fp = fingerprints || {};
+  const a = String(tuneIdA || '');
+  const b = String(tuneIdB || '');
+  const hashForA = fp.hashA || '';
+  const hashForB = fp.hashB || '';
+  if (a && b && a > b) {
+    return { hashA: hashForB, hashB: hashForA };
+  }
+  return { hashA: hashForA, hashB: hashForB };
+}
+
+/**
+ * @param {string} tuneIdA
+ * @param {string} tuneIdB
+ * @param {{ hashA?: string, hashB?: string }} fingerprints
+ *   hashA/hashB are for tuneIdA/tuneIdB respectively (any call order).
+ */
 export function recordDuplicateDismissal(tuneIdA, tuneIdB, fingerprints) {
   const key = duplicatePairKey(tuneIdA, tuneIdB);
   if (!key) return;
-  const fp = fingerprints || {};
+  const ordered = fingerprintsInKeyOrder(tuneIdA, tuneIdB, fingerprints);
   const all = readDuplicateDismissals();
   all[key] = {
-    hashA: fp.hashA || '',
-    hashB: fp.hashB || '',
+    hashA: ordered.hashA || '',
+    hashB: ordered.hashB || '',
     dismissedAt: Date.now(),
   };
   writeDuplicateDismissals(all);
@@ -80,22 +99,29 @@ export function clearDuplicateDismissalsForTuneIds(tuneIds) {
 }
 
 /**
- * True when pair was dismissed and neither tune's import hash has changed since.
+ * True when pair was dismissed and content has not clearly changed since.
+ *
+ * Incomplete fingerprints (empty stored or current hashes) keep the pair
+ * dismissed — recomputed hashes from unhydrated tune bodies must not
+ * accidentally re-surface a Keep separate decision after refresh.
+ *
+ * hashA/hashB are for tuneIdA/tuneIdB respectively. Stored fingerprints are
+ * written in sorted-id order going forward; matchReverse covers older records.
  */
 export function isDuplicatePairDismissed(tuneIdA, tuneIdB, hashA, hashB) {
   const dismissed = getDuplicateDismissal(tuneIdA, tuneIdB);
   if (!dismissed) return false;
-  const a = String(tuneIdA || '');
-  const b = String(tuneIdB || '');
   const storedA = dismissed.hashA || '';
   const storedB = dismissed.hashB || '';
   const currentA = String(hashA || '');
   const currentB = String(hashB || '');
-  // Fingerprints may be stored in either order relative to sorted key
+
+  // Ambiguous fingerprints: trust the dismissal by pair id
+  if (!storedA || !storedB || !currentA || !currentB) return true;
+
   const matchForward = storedA === currentA && storedB === currentB;
   const matchReverse = storedA === currentB && storedB === currentA;
-  if (!matchForward && !matchReverse) return false;
-  return true;
+  return matchForward || matchReverse;
 }
 
 /**

@@ -22,6 +22,7 @@ import {
   sliceChartAcrossStrainBarCounts,
   reanchorEditorBlocksToMelody,
   chordBlockCacheMatchesMelody,
+  chordChartBlocksForLyrics,
   melodyBodyFingerprint,
   restorePartBreakMarkers,
   melodiesMatchForChordEdit,
@@ -38,6 +39,17 @@ import { getPlainLyricLines } from './wLinesUtils'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { flattenMelodyText, extractBarsFromMelodyText } from './lyricBarAlignmentUtils'
 import { ANACRUSIS_THREE_STRAINS } from './testFixtures/anacrusisDoubleBarlineFixtures'
+
+const POP_VERSE = '"F"zzzzzz|"F"zzzzzz|"Bb"zzzzzz|"F"zzzzzz||'
+const POP_CHORUS = '"C"zzzzzz|"C"zzzzzz|"Bb"zzzzzz|"Bb"zzzzzz||'
+const POP_BRIDGE = '"Gm"zzzzzz|"C"zzzzzz|"F"zzzzzz|'
+
+function chartForPopStrains(noteLines) {
+  const abcjsParser = useAbcjsParser()
+  const abcTools = useAbcTools()
+  const melodyAbc = abcTools.emptyABC('Test') + noteLines.join('\n')
+  return abcjsParser.renderChords(melodyAbc, false, 0, 'F', '1/8', '6/8')
+}
 
 function tools() {
   return { abcTools: useAbcTools(), abcjsParser: useAbcjsParser() }
@@ -136,6 +148,64 @@ describe('chordBlockMerge', function() {
     expect(blocks[1].chart).toContain('Am')
   })
 
+  test('buildUnifiedBlocks names chorus-first strains after title preface (Cold Goodbye)', function() {
+    const noteLines = [
+      '"Em"zzzzzzzz|"Am"zzzzzzzz|"Em"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|"F"zzzzzzzz||',
+      '"Em"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|"Bm"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|',
+    ]
+    const lyricLines = [
+      'Cold Goodbye - Steve Ryan 28/9/2025',
+      '',
+      '[chorus]',
+      'Strange affair, while we all stared',
+      "Made up face and hair but she's not there",
+      "She's cold and dead",
+      '',
+      '[verse]',
+      'The golden night, we said goodbye',
+      'From afternoon of glowing color, warm and bright',
+      'Down deep into the soil where you lie cold and dark',
+      'To travel through the universe without a spark',
+      '',
+      '[chorus]',
+      '',
+      '[verse]',
+      'The bite and spite, when we ignite',
+    ]
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: noteLines,
+      chordChart: [
+        'Em | Am | Em | Am | F | F |',
+        '',
+        'Em | Am | F | G | Am | Bm | C | Em |',
+      ].join('\n'),
+      lyricLines: lyricLines,
+      title: 'Cold Goodbye',
+      composer: 'Steve Ryan',
+      defaultMeter: '4/4',
+    })
+    expect(blocks.length).toBe(2)
+    expect(blocks.map(function(b) { return b.lyricSectionType || b.sourceTypeKey; }))
+      .toEqual(['chorus', 'verse'])
+    expect(String(blocks[0].title || '').toLowerCase()).toContain('chorus')
+    expect(String(blocks[1].title || '').toLowerCase()).toContain('verse')
+    expect(blocks.some(function(b) {
+      return b.lyricSectionType === 'bridge'
+        || b.sourceTypeKey === 'bridge'
+        || /bridge/i.test(String(b.title || ''))
+    })).toBe(false)
+  })
+
+  test('chordChartBlocksForLyrics slices one chart across || melody strains', function() {
+    const noteLines = [POP_VERSE, POP_CHORUS, POP_BRIDGE]
+    const chart = chartForPopStrains(noteLines)
+    const blocks = chordChartBlocksForLyrics(chart, noteLines)
+    expect(blocks.length).toBe(3)
+    expect(blocks[0]).toContain('F')
+    expect(blocks[1]).toContain('C')
+    expect(blocks[2]).toContain('Gm')
+  })
+
   test('splitMelodyStrainsWithBarlines splits repeat strains on |:', function() {
     const strains = splitMelodyStrainsWithBarlines([
       REPEAT_STRAIN_LINE_A,
@@ -144,6 +214,56 @@ describe('chordBlockMerge', function() {
     expect(strains.length).toBe(2)
     expect(strains[0].text).toMatch(/E2A2/)
     expect(strains[1].text).toMatch(/a2e2/)
+  })
+
+  test('splitMelodyStrainsWithBarlines splits section-ending :| without following |:', function() {
+    // Ars Facere shape: verse :| then chorus || then bridge :|
+    const noteLines = [
+      '"Dm"F2FEGEE2|E2G2G2F2|F2FEGEE2|E2G2F4:|',
+      '"Dm"a2 ab ag f2|f2a2"Gm"g2d2|f2g2aba2|agf2"Dm"gfd2|',
+      '"Dm"a2 ab ag f2|f2fa "Gm"g2d2|f2g2a2ab|afef  "Dm"d4||',
+      '"Gm"f3e gee2|e2g2"Dm"g2f2|"Gm"f3e gee2|e2g2"Dm"g2f2:|',
+    ]
+    const strains = splitMelodyStrainsWithBarlines(noteLines)
+    expect(strains.length).toBe(3)
+    expect(strains[0].endBarline).toBe(':|')
+    expect(strains[1].endBarline).toBe('||')
+    expect(strains[2].endBarline).toBe(':|')
+    expect(extractBarsFromMelodyText(strains[0].text).length).toBe(4)
+    expect(extractBarsFromMelodyText(strains[1].text).length).toBe(8)
+    expect(extractBarsFromMelodyText(strains[2].text).length).toBe(4)
+    expect(strains[0].text).toMatch(/:\|\s*$/)
+    expect(strains[0].text).not.toMatch(/a2 ab/)
+  })
+
+  test('splitMelodyStrainsWithBarlines keeps volta :| mid-strain', function() {
+    const strains = splitMelodyStrainsWithBarlines([
+      '|: "C"c2 "G"d2 | [1 "Am"e2 "F"f2 :| [2 "G"g2 "C"c2 |]',
+    ])
+    expect(strains.length).toBe(1)
+    expect(strains[0].text).toMatch(/:\|/)
+    expect(strains[0].text).toMatch(/\[2/)
+  })
+
+  test('chordChartBlocksForLyrics does not borrow chorus chords into verse after :|', function() {
+    const { abcTools, abcjsParser } = tools()
+    const noteLines = [
+      '"Dm"F2FEGEE2|E2G2G2F2|F2FEGEE2|E2G2F4:|',
+      '"Dm"a2 ab ag f2|f2a2"Gm"g2d2|f2g2aba2|agf2"Dm"gfd2|',
+      '"Dm"a2 ab ag f2|f2fa "Gm"g2d2|f2g2a2ab|afef  "Dm"d4||',
+      '"Gm"f3e gee2|e2g2"Dm"g2f2|"Gm"f3e gee2|e2g2"Dm"g2f2:|',
+    ]
+    const abc = baseAbc(noteLines.join('\n'), { key: 'Dm', noteLength: '1/8', meter: '4/4' })
+    const chart = abcjsParser.renderChords(abc, false, 0, 'Dm', '1/8', '4/4')
+    const blocks = chordChartBlocksForLyrics(chart, noteLines)
+    expect(blocks.length).toBe(3)
+    expect(extractChordBars(blocks[0]).length).toBe(4)
+    expect(extractChordBars(blocks[1]).length).toBe(8)
+    expect(extractChordBars(blocks[2]).length).toBe(4)
+    // Verse is Dm-only; chorus introduces Gm
+    const verseChords = extractChordBars(blocks[0]).flat()
+    expect(verseChords.every(function(c) { return /^Dm/.test(c) })).toBe(true)
+    expect(blocks[1]).toMatch(/Gm/)
   })
 
   test('sliceChartAcrossStrainBarCounts splits single chart by strain bar counts', function() {
@@ -159,6 +279,60 @@ describe('chordBlockMerge', function() {
     expect(slices.length).toBe(2)
     expect(countChartBars(slices[0])).toBe(strainBarCounts[0])
     expect(countChartBars(slices[1])).toBe(strainBarCounts[1])
+  })
+
+  test('sliceChartAcrossStrainBarCounts preserves 5/4 slash timing and seeds section starts', function() {
+    const chart = [
+      'Dm / / Cm / | A# / / Am / | Gm | F | Gm / / Dm / |',
+      '[M:4/4] F | Dm | A# F | C | F C | F C | F |',
+    ].join(' ')
+    const slices = sliceChartAcrossStrainBarCounts(chart, [5, 7])
+    expect(slices[0]).toContain('Dm / / Cm /')
+    expect(slices[0]).toContain('Gm / / Dm /')
+    expect(slices[1]).toMatch(/^\[M:4\/4\]\s+F\b/)
+    expect(slices[1].trim().charAt(0)).not.toBe('/')
+  })
+
+  test('sliceChartAcrossStrainBarCounts preserves ABC system line breaks', function() {
+    const chart = [
+      'Dm / / Cm / | A# / / Am / |',
+      'Gm | F | Gm / / Dm / |',
+      '[M:4/4] F | Dm | A# F | C |',
+      'F C | F C | F |',
+    ].join('\n')
+    const slices = sliceChartAcrossStrainBarCounts(chart, [5, 7])
+    expect(slices[0]).toBe('Dm / / Cm / | A# / / Am / |\nGm | F | Gm / / Dm / |')
+    expect(slices[1]).toBe('[M:4/4] F | Dm | A# F | C |\nF C | F C | F |')
+  })
+
+  test('chordChartBlocksForLyrics keeps Flight-style 5/4 timing across || meter changes', function() {
+    const { abcjsParser } = tools()
+    const abc = [
+      'X:1',
+      'T:FlightStyle',
+      'M:5/4',
+      'L:1/8',
+      'K:C',
+      '"Dm"zzzzzz"Cm"zzzz | "A#"zzzzzz"Am"zzzz |',
+      '"Gm"zzzzzzzzzz | "F"zzzzzzzzzz | "Gm"zzzzzz"Dm"zzzz || [M:4/4]',
+      '"F"zzzzzzzz | "Dm"zzzzzzzz | "A#"zzzzz"F"zzz | "C"zzzzzzzz |',
+      '"F"zzzzz"C"zzz | "F"zzzzz"C"zzz | "F"zzzzzzzz ||',
+    ].join('\n')
+    const noteLines = [
+      '"Dm"zzzzzz"Cm"zzzz | "A#"zzzzzz"Am"zzzz |',
+      '"Gm"zzzzzzzzzz | "F"zzzzzzzzzz | "Gm"zzzzzz"Dm"zzzz || [M:4/4]',
+      '"F"zzzzzzzz | "Dm"zzzzzzzz | "A#"zzzzz"F"zzz | "C"zzzzzzzz |',
+      '"F"zzzzz"C"zzz | "F"zzzzz"C"zzz | "F"zzzzzzzz ||',
+    ]
+    const display = abcjsParser.renderChords(abc, false)
+    const blocks = chordChartBlocksForLyrics(display, noteLines)
+    expect(blocks.length).toBe(2)
+    expect(blocks[0]).toContain('Dm / / Cm /')
+    expect(blocks[0]).toContain('\n')
+    expect(blocks[0]).toMatch(/Am \/\s*\|\nGm/)
+    expect(blocks[1].trim().charAt(0)).not.toBe('/')
+    expect(blocks[1]).toMatch(/^(?:\[M:4\/4\]\s+)?F\b/)
+    expect(blocks[1]).toContain('\n')
   })
 
   test('repeat strains split chord chart across unified blocks', function() {

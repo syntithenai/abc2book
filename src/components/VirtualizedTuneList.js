@@ -165,6 +165,9 @@ function VirtualizedTuneList(props) {
     rows.length * rowHeight,
     typeof props.maxHeight === 'number' && props.maxHeight > 0 ? props.maxHeight : 720
   )
+  const overscanCount = typeof props.overscanCount === 'number' && props.overscanCount > 0
+    ? props.overscanCount
+    : 8
 
   return (
     <ListGroup id={props.listId || 'tune-index'} style={{ clear: 'both', width: '100%' }} className="virtualized-tune-list">
@@ -179,7 +182,7 @@ function VirtualizedTuneList(props) {
                 itemCount={rows.length}
                 itemSize={rowHeight}
                 itemData={itemData}
-                overscanCount={8}
+                overscanCount={overscanCount}
                 outerElementType={TuneListScrollOuter}
               >
                 {rowRenderer}

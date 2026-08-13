@@ -1,4 +1,8 @@
 import { scanDuplicateGroups, scanExactContentDuplicates, scanSimilarTitleDuplicates, filterDuplicateGroupsByName } from './tuneDuplicateScan';
+import {
+  dismissDuplicateGroup,
+  isDuplicatePairDismissed,
+} from './tuneDuplicateDismissals';
 
 describe('tuneDuplicateScan', function() {
   const getTuneImportHash = function(tune) {
@@ -112,5 +116,51 @@ describe('tuneDuplicateScan', function() {
     expect(filterDuplicateGroupsByName(groups, 'aughrim')[0].id).toBe('g2');
     expect(filterDuplicateGroupsByName(groups, 'wild')).toHaveLength(1);
     expect(filterDuplicateGroupsByName(groups, '')).toHaveLength(2);
+  });
+});
+
+describe('tuneDuplicateScan dismissals', function() {
+  beforeEach(function() {
+    localStorage.clear();
+  });
+
+  const getTuneImportHash = function(tune) {
+    return tune && tune._hash ? tune._hash : 'default-hash';
+  };
+
+  test('similar title group disappears after keep separate', function() {
+    const tunes = {
+      a: { id: 'a', name: 'The Sally Gardens', _hash: 'hash-a' },
+      b: { id: 'b', name: 'Sally Gardens', _hash: 'hash-b' },
+    };
+    let groups = scanSimilarTitleDuplicates({ tunes, getTuneImportHash, exactGroupTuneIds: {} });
+    expect(groups.length).toBeGreaterThanOrEqual(1);
+    dismissDuplicateGroup(['a', 'b'], getTuneImportHash, tunes);
+    expect(isDuplicatePairDismissed('a', 'b', 'hash-a', 'hash-b')).toBe(true);
+    groups = scanSimilarTitleDuplicates({ tunes, getTuneImportHash, exactGroupTuneIds: {} });
+    expect(groups).toHaveLength(0);
+  });
+
+  test('exact content group disappears after keep separate', function() {
+    const tunes = {
+      a: { id: 'a', name: 'Same Song', _hash: 'shared' },
+      b: { id: 'b', name: 'Same Song', _hash: 'shared' },
+    };
+    const tunesHash = { importhashes: { shared: ['a', 'b'] } };
+    let groups = scanExactContentDuplicates({ tunes, tunesHash, getTuneImportHash });
+    expect(groups).toHaveLength(1);
+    dismissDuplicateGroup(['a', 'b'], getTuneImportHash, tunes);
+    groups = scanExactContentDuplicates({ tunes, tunesHash, getTuneImportHash });
+    expect(groups).toHaveLength(0);
+  });
+
+  test('empty fingerprint dismissal still hides group on rescan', function() {
+    const tunes = {
+      a: { id: 'a', name: 'The Sally Gardens', _hash: 'hash-a' },
+      b: { id: 'b', name: 'Sally Gardens', _hash: 'hash-b' },
+    };
+    dismissDuplicateGroup(['a', 'b'], function() { return ''; }, tunes);
+    const groups = scanSimilarTitleDuplicates({ tunes, getTuneImportHash, exactGroupTuneIds: {} });
+    expect(groups).toHaveLength(0);
   });
 });

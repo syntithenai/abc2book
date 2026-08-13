@@ -45,6 +45,30 @@ describe('noteSpacingUtils', function() {
     expect(fitted).toBe('Amazing grace how sweet');
   });
 
+  test('beat markers place marked words on bar-start slots and strip /', function() {
+    const noteLine = 'C D E F | G A B c |';
+    const fitted = fitLyricLineToNoteCount(
+      '/Amazing grace /how sweet',
+      8,
+      { noteLine: noteLine, meter: '4/4', noteLength: '1/8', key: 'C' }
+    );
+    expect(fitted).not.toMatch(/\//);
+    const parts = fitted.split(/\s+/);
+    expect(parts.length).toBe(8);
+    expect(parts[0].toLowerCase()).toContain('amazing');
+    expect(parts[4].toLowerCase()).toContain('how');
+  });
+
+  test('mid-word beat markers strip for note-aligned output', function() {
+    const fitted = fitLyricLineToNoteCount(
+      'a/mazing /grace',
+      4,
+      { noteLine: 'C D | E F |', meter: '4/4', noteLength: '1/8', key: 'C' }
+    );
+    expect(fitted).not.toMatch(/\//);
+    expect(fitted.toLowerCase()).toContain('mazing');
+  });
+
   test('skips section headers when applying to lyric lists', function() {
     const noteLine = 'C D E F G A B c |';
     const result = applyNoteSpacingToLyrics(

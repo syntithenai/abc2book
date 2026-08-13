@@ -62,6 +62,30 @@ def practice_track_health() -> dict:
     return _provider_health()
 
 
+def require_audio_generation_provider_ready() -> dict:
+    """Raise HTTP 503 with a clear message when the configured provider is down."""
+    health = _provider_health()
+    if health.get("ok"):
+        return health
+    provider = str(health.get("provider") or "audio generation")
+    detail = str(health.get("message") or "not available").strip()
+    if provider in ("audio_cpp", "audiocpp", "audio.cpp"):
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "audio.cpp sidecar is not available"
+                + (f" ({detail})" if detail else "")
+                + ". Start abc2book-audio-cpp (systemctl --user start abc2book-audio-cpp) "
+                "or set PRACTICE_TRACK_PROVIDER=mock for synthetic covers."
+            ),
+        )
+    raise HTTPException(
+        status_code=503,
+        detail=f"Audio generation provider '{provider}' is not available"
+        + (f": {detail}" if detail else ""),
+    )
+
+
 async def get_audio_generation_backends(
     request: Request,
     authorization: str | None,
@@ -193,6 +217,7 @@ async def post_generate_audio(
         await maybe_require_auth(authorization)
         if not audio_generation_feature_enabled():
             raise HTTPException(status_code=503, detail="Audio generation disabled")
+        require_audio_generation_provider_ready()
 
         task = (task_id or TASK_PRACTICE_TRACK).strip()
         preset = (preset_id or "fast").strip()

@@ -88,6 +88,7 @@ export function createInitialSession(tuneMeta, voiceBody) {
     view: EDITOR_VIEWS.STAFF,
     events: events,
     caretIndex: 0,
+    spliceAtCaret: false,
     selection: { eventIds: [], toneIndex: null, anchorId: null },
     durationKey: 5,
     dotted: false,
@@ -153,7 +154,10 @@ export function notationSessionReducer(state, action) {
       });
     }
     case 'SET_MODE':
-      return Object.assign({}, state, { mode: action.mode });
+      return Object.assign({}, state, {
+        mode: action.mode,
+        spliceAtCaret: action.mode === EDITOR_MODES.NOTE_INPUT ? state.spliceAtCaret : false,
+      });
     case 'SET_NOTE_INPUT_METHOD':
       return Object.assign({}, state, {
         noteInputMethod: action.method || NOTE_INPUT_METHODS.NOTE_NAME,
@@ -169,6 +173,7 @@ export function notationSessionReducer(state, action) {
         events: reassignEventTiming(action.events, state.tuneMeta),
         dirty: true,
         caretIndex: typeof action.caretIndex === 'number' ? action.caretIndex : state.caretIndex,
+        spliceAtCaret: action.spliceAtCaret != null ? !!action.spliceAtCaret : state.spliceAtCaret,
         lastEvent: action.lastEvent != null ? action.lastEvent : state.lastEvent,
         selection: action.selection != null ? action.selection : state.selection,
         lastEditedView: action.sourceView || state.lastEditedView,
@@ -176,6 +181,7 @@ export function notationSessionReducer(state, action) {
     case 'SET_CARET':
       return Object.assign({}, state, {
         caretIndex: Math.max(0, Math.min(action.index, state.events.length)),
+        spliceAtCaret: action.spliceAtCaret === true,
       });
     case 'SET_SELECTION':
       return Object.assign({}, state, { selection: action.selection });

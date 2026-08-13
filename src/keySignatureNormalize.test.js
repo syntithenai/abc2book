@@ -5,6 +5,8 @@ import {
   suggestKeySignature,
   filterKeySignatureOption,
   keySignatureMatchKey,
+  keyPrefersFlats,
+  transposeKeySignature,
 } from './keySignatureNormalize';
 
 describe('keySignatureNormalize', function() {
@@ -139,5 +141,37 @@ describe('keySignatureNormalize', function() {
     expect(normalizeKeySignature('Aionian')).toBe('A');
     expect(values.length).toBeGreaterThan(200);
     expect(values.length).toBeLessThan(400);
+  });
+
+  test('keyPrefersFlats uses relative major for minors and modes', function() {
+    expect(keyPrefersFlats('Dm')).toBe(true);
+    expect(keyPrefersFlats('Gm')).toBe(true);
+    expect(keyPrefersFlats('Cm')).toBe(true);
+    expect(keyPrefersFlats('Fm')).toBe(true);
+    expect(keyPrefersFlats('F')).toBe(true);
+    expect(keyPrefersFlats('Bb')).toBe(true);
+    expect(keyPrefersFlats('Eb')).toBe(true);
+
+    expect(keyPrefersFlats('D')).toBe(false);
+    expect(keyPrefersFlats('G')).toBe(false);
+    expect(keyPrefersFlats('Em')).toBe(false);
+    expect(keyPrefersFlats('Bm')).toBe(false);
+    expect(keyPrefersFlats('F#m')).toBe(false);
+    expect(keyPrefersFlats('Am')).toBe(false);
+    expect(keyPrefersFlats('C')).toBe(false);
+    expect(keyPrefersFlats('Ddorian')).toBe(false);
+    expect(keyPrefersFlats('Fdorian')).toBe(true);
+    expect(keyPrefersFlats('')).toBe(false);
+    expect(keyPrefersFlats('HP')).toBe(false);
+  });
+
+  test('transposeKeySignature preserves mode and prefers flat roots when needed', function() {
+    expect(transposeKeySignature('Dm', 0)).toBe('Dm');
+    expect(transposeKeySignature('Dm', 2)).toBe('Em');
+    expect(transposeKeySignature('Dm', 5)).toBe('Gm');
+    expect(transposeKeySignature('D', 3)).toBe('F');
+    expect(transposeKeySignature('Ddorian', 0)).toBe('Ddorian');
+    expect(transposeKeySignature('Ddorian', 5)).toBe('Gdorian');
+    expect(transposeKeySignature('A', -2)).toBe('G');
   });
 });

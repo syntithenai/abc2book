@@ -15,7 +15,6 @@ import {
   consumeBooksPageScrollTarget,
   getRecentArtists,
   getRecentTunes,
-  getRecentlyPlayedTunes,
   getStarredTunes,
   scrollBooksPageSection,
 } from '../recentTunes'
@@ -31,13 +30,13 @@ import TuneListPlaybackButtons from '../components/TuneListPlaybackButtons'
 import PlayWithQueueDropdown from '../components/PlayWithQueueDropdown'
 import { getPlayableTuneIdsForCollection } from '../collectionQueueUtils'
 import { appendTunesToQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
-import { getRecentPlayedTuneIds } from '../tuneViewHistoryStore'
 import { useDocumentTitle } from '../pageTitle'
+import useMediaResolverHealth from '../useMediaResolverHealth'
+import { getMusicCollectionBrowseAccess } from '../musicCollectionBrowseAccess'
 
 const BOOK_SECTION_NAMES = {
   [BOOKS_PAGE_SECTIONS.filters]: 'filters',
   [BOOKS_PAGE_SECTIONS.recent]: 'recent',
-  [BOOKS_PAGE_SECTIONS.recentlyPlayed]: 'recently_played',
   [BOOKS_PAGE_SECTIONS.starred]: 'starred',
   [BOOKS_PAGE_SECTIONS.books]: 'books',
   [BOOKS_PAGE_SECTIONS.tags]: 'tags',
@@ -55,6 +54,15 @@ function matchesSectionSearch(option, searchValue) {
 export default function BooksPage(props) {
     const { defaultTab, tunebook } = props
     const navigate = useNavigate()
+    const { status: resolverStatus } = useMediaResolverHealth()
+    const libraryBrowseAccess = getMusicCollectionBrowseAccess({
+        resolverStatus: resolverStatus,
+        accessToken: props.token,
+    })
+    const showLibraryBrowseButton = !!(
+        libraryBrowseAccess.canBrowse
+        || (libraryBrowseAccess.accessToken && libraryBrowseAccess.homeHasCollection)
+    )
     useDocumentTitle(defaultTab === 'tags' ? 'Tags' : 'Books')
     const [sectionSearch, setSectionSearch] = useState('')
     const [tagImageIsHidden, setTagImageIsHidden] = useState({})
@@ -63,7 +71,6 @@ export default function BooksPage(props) {
     const [myBookImageIsHidden, setMyBookImageIsHidden] = useState({})
     const [savedFilterCount, setSavedFilterCount] = useState(0)
     const [showMoreRecent, setShowMoreRecent] = useState(false)
-    const [showMoreRecentlyPlayed, setShowMoreRecentlyPlayed] = useState(false)
     const [showMoreStarred, setShowMoreStarred] = useState(false)
     const [showMoreArtists, setShowMoreArtists] = useState(false)
     const sectionSearchRef = useRef(null)
@@ -164,14 +171,6 @@ export default function BooksPage(props) {
         ? recentTunesExpanded
         : recentTunesExpanded.slice(0, RECENT_TUNES_DEFAULT)
     const canToggleRecent = recentTunesExpanded.length > RECENT_TUNES_DEFAULT
-    const recentlyPlayedExpanded = getRecentlyPlayedTunes(props.tunes, RECENT_TUNES_EXPANDED)
-        .filter(function(tune) {
-            return matchesSectionSearch(tune && tune.name ? tune.name : '', sectionSearch)
-        })
-    const recentlyPlayedTunes = showMoreRecentlyPlayed
-        ? recentlyPlayedExpanded
-        : recentlyPlayedExpanded.slice(0, RECENT_TUNES_DEFAULT)
-    const canToggleRecentlyPlayed = recentlyPlayedExpanded.length > RECENT_TUNES_DEFAULT
     const starredTunesExpanded = getStarredTunes(props.tunes)
         .filter(function(tune) {
             return matchesSectionSearch(tune && tune.name ? tune.name : '', sectionSearch)
@@ -257,29 +256,11 @@ export default function BooksPage(props) {
         )
     }
 
-    function handlePlayRecentlyPlayed() {
-        const tuneIds = getRecentPlayedTuneIds(RECENT_TUNES_EXPANDED).filter(function(id) {
-            return props.tunes && props.tunes[id]
-        })
-        if (!tuneIds.length) {
-            toast.warn('No recently played tunes yet.')
-            return
-        }
-        const queue = createQueue({
-            tuneIds: tuneIds,
-            name: 'Recently played',
-            source: 'manual',
-        })
-        props.tunebook.startNowPlayingQueue(queue, navigate, {
-            startPlayback: true,
-            mediaController: props.mediaController,
-        })
-    }
-
     function clearCollectionFilters() {
         props.setTagFilter([])
         if (props.setGenreFilter) props.setGenreFilter([])
         if (props.setArtistFilter) props.setArtistFilter([])
+        if (props.setAlbumFilter) props.setAlbumFilter([])
         props.setCurrentTuneBook('')
         props.setFilter('')
     }
@@ -289,6 +270,7 @@ export default function BooksPage(props) {
         props.setTagFilter([])
         if (props.setGenreFilter) props.setGenreFilter([])
         if (props.setArtistFilter) props.setArtistFilter([])
+        if (props.setAlbumFilter) props.setAlbumFilter([])
         props.setFilter('')
     }
 
@@ -422,7 +404,22 @@ export default function BooksPage(props) {
                 </InputGroup>
 
                 <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section">
-                    <h3 className="books-page-section-title">Filters</h3>
+                    <div className="books-page-section-title-row">
+                        <h3 className="books-page-section-title">Filters</h3>
+                        {showLibraryBrowseButton ? (
+                            <Button
+                                as={Link}
+                                to="/library"
+                                variant="secondary"
+                                size="sm"
+                                className="books-page-browse-library-btn"
+                                data-testid="browse-library-button"
+                                title="Browse resolver music collection by folder, artist, album, and genre"
+                            >
+                                {props.tunebook.icons.album} Browse Library
+                            </Button>
+                        ) : null}
+                    </div>
                     <YourFilters
                         embedded
                         showWhenEmpty
@@ -434,6 +431,7 @@ export default function BooksPage(props) {
                         setTagFilter={props.setTagFilter}
                         setGenreFilter={props.setGenreFilter}
                         setArtistFilter={props.setArtistFilter}
+                        setAlbumFilter={props.setAlbumFilter}
                         setCurrentTuneBook={props.setCurrentTuneBook}
                         forceRefresh={props.forceRefresh}
                     />
@@ -464,42 +462,6 @@ export default function BooksPage(props) {
                             {sectionSearch.trim()
                                 ? 'No matching recent tunes.'
                                 : 'Open a tune from search to see it here.'}
-                        </p>
-                    )}
-                </section>
-
-                <section id={BOOKS_PAGE_SECTIONS.recentlyPlayed} className="books-page-section">
-                    <div className="books-page-section-title-row">
-                        <h3 className="books-page-section-title">Recently played</h3>
-                        {recentlyPlayedExpanded.length > 0 ? (
-                            <Button variant="success" size="sm" onClick={handlePlayRecentlyPlayed}>
-                                {props.tunebook.icons.play} Play all
-                            </Button>
-                        ) : null}
-                    </div>
-                    {recentlyPlayedTunes.length > 0 ? (
-                        <>
-                            <div className="books-page-recent-list">
-                                {recentlyPlayedTunes.map(function(tune) {
-                                    return renderSongLinkButton(tune)
-                                })}
-                            </div>
-                            {canToggleRecentlyPlayed ? (
-                                <Button
-                                    variant="outline-secondary"
-                                    size="sm"
-                                    className="books-page-recent-toggle"
-                                    onClick={function() { setShowMoreRecentlyPlayed(!showMoreRecentlyPlayed) }}
-                                >
-                                    {showMoreRecentlyPlayed ? 'show less' : 'show more'}
-                                </Button>
-                            ) : null}
-                        </>
-                    ) : (
-                        <p className="books-page-recent-empty">
-                            {sectionSearch.trim()
-                                ? 'No matching recently played tunes.'
-                                : 'Play a tune to see it here.'}
                         </p>
                     )}
                 </section>

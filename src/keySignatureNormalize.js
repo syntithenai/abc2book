@@ -180,6 +180,115 @@ export function suggestKeySignature(keyText) {
   return canonical;
 }
 
+/** Pitch class for common root spellings. */
+const ROOT_TO_PC = {
+  C: 0, 'B#': 0,
+  'C#': 1, Db: 1,
+  D: 2,
+  'D#': 3, Eb: 3,
+  E: 4, Fb: 4,
+  F: 5, 'E#': 5,
+  'F#': 6, Gb: 6,
+  G: 7,
+  'G#': 8, Ab: 8,
+  A: 9,
+  'A#': 10, Bb: 10,
+  B: 11, Cb: 11,
+};
+
+const PC_TO_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const PC_TO_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+
+/**
+ * Standard major-key accidental count by relative-major pitch class.
+ * Positive = sharps, negative = flats. PC 6 uses F# (6 sharps), not Gb.
+ */
+const MAJOR_PC_ACCIDENTALS = {
+  0: 0,
+  1: -5,
+  2: 2,
+  3: -3,
+  4: 4,
+  5: -1,
+  6: 6,
+  7: 1,
+  8: -4,
+  9: 3,
+  10: -2,
+  11: 5,
+};
+
+/**
+ * Semitone offset from mode tonic to the major key with the same signature.
+ * major/ionian: 0; minor/aeolian: +3; dorian: -2; etc.
+ */
+function relativeMajorOffset(parsed) {
+  if (!parsed) return 0;
+  if (parsed.kind === 'minor') return 3;
+  if (parsed.kind === 'mode') {
+    switch (parsed.canonicalSuffix) {
+      case 'dorian': return -2;
+      case 'phrygian': return -4;
+      case 'lydian': return -5;
+      case 'mixolydian': return -7;
+      case 'locrian': return 1;
+      default: return 0;
+    }
+  }
+  return 0;
+}
+
+function pitchClassForRoot(root) {
+  if (!root || ROOT_TO_PC[root] == null) return null;
+  return ROOT_TO_PC[root];
+}
+
+function formatKeyFromParsed(root, parsed) {
+  if (!parsed) return root;
+  if (parsed.kind === 'major') return root;
+  if (parsed.kind === 'minor') return root + 'm';
+  return root + (parsed.canonicalSuffix || '');
+}
+
+/**
+ * True when the key signature uses flats (accidentals &lt; 0).
+ * Zero-accidental keys (C, Am, Ddorian, …) return false (prefer sharps).
+ * Pipe keys and unrecognized input return false.
+ */
+export function keyPrefersFlats(keyText) {
+  const trimmed = String(keyText || '').trim();
+  if (!trimmed || normalizePipeKey(trimmed)) return false;
+  const parsed = parseKeySignatureMode(trimmed);
+  if (!parsed) return false;
+  const rootPc = pitchClassForRoot(parsed.root);
+  if (rootPc == null) return false;
+  const relativeMajorPc = (rootPc + relativeMajorOffset(parsed) + 12) % 12;
+  const accidentals = MAJOR_PC_ACCIDENTALS[relativeMajorPc];
+  return typeof accidentals === 'number' && accidentals < 0;
+}
+
+/**
+ * Transpose a key signature by semitones, preserving mode and spelling the
+ * new root with flats/sharps appropriate to the resulting signature.
+ */
+export function transposeKeySignature(keyText, semitones) {
+  const trimmed = String(keyText || '').trim();
+  if (!trimmed) return '';
+  const pipe = normalizePipeKey(trimmed);
+  if (pipe) return pipe;
+  const parsed = parseKeySignatureMode(trimmed);
+  if (!parsed) return trimmed;
+  const rootPc = pitchClassForRoot(parsed.root);
+  if (rootPc == null) return trimmed;
+  const amount = Number(semitones) || 0;
+  const nextPc = (rootPc + (amount % 12) + 12) % 12;
+  const relativeMajorPc = (nextPc + relativeMajorOffset(parsed) + 12) % 12;
+  const accidentals = MAJOR_PC_ACCIDENTALS[relativeMajorPc];
+  const preferFlats = typeof accidentals === 'number' && accidentals < 0;
+  const nextRoot = preferFlats ? PC_TO_FLAT[nextPc] : PC_TO_SHARP[nextPc];
+  return formatKeyFromParsed(nextRoot, parsed);
+}
+
 function option(value) {
   return { value: value, label: value };
 }

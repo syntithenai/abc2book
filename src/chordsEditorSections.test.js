@@ -424,6 +424,42 @@ describe('chordsEditorSections', function() {
     expect(sections).toHaveLength(1);
     expect(sections[0].type).toBe('verse');
     expect(sections[0].chart).toContain('Am');
+    expect(sections[0].chart.trim()).toMatch(/Am G\s*\|/);
+  });
+
+  test('listPasteChordSections maps ChordPro lyric lines to one bar per line', function() {
+    const { buildChordSheetAlignmentFromLines } = require('./chordSheetImportUtils');
+    const lyricLines = [
+      '# Chorus',
+      '[C]Health and time and love that [C]make worthwhile',
+      '',
+      '# Verse I',
+      '[C]In our younger days we are taught to save',
+      '[C]Putting it away for a rainy [D]day',
+      '',
+      'As we [C]grow and take our form',
+      '[C]choices make it harder [D]now',
+      '',
+      '# Chorus',
+    ];
+    const alignment = buildChordSheetAlignmentFromLines(lyricLines);
+    const sections = listPasteChordSections({
+      chordSheetAlignment: alignment,
+      meter: '4/4',
+      key: 'C',
+    });
+    expect(sections.map(function(s) { return s.header; })).toEqual([
+      '# Chorus',
+      '# Verse I',
+      '# Chorus',
+    ]);
+    expect(sections[0].chart.split('\n').filter(Boolean).length).toBe(1);
+    expect(sections[0].chart).toMatch(/C C\s*\|/);
+    expect(sections[1].chart.split('\n').filter(Boolean).length).toBe(4);
+    expect(sections[1].chart).not.toMatch(/ {4,}/);
+    const built = buildTuneSectionsFromPaste(sections, '4/4');
+    expect(built[2].chartRevisit).toBe(true);
+    expect(built[2].chart).toBe(built[0].chart);
   });
 
   test('buildTuneSectionsFromPaste keeps intro/outro and marks chorus revisits', function() {
@@ -502,10 +538,11 @@ describe('chordsEditorSections', function() {
     expect(next[0].chart).toContain('# Bridge');
     expect(next[0].chart).toContain('D');
     expect(next[0].writeNotationMarker).toBe(true);
-    expect(next[0].title).toBe('Bridge');
+    // Chart # headers must not retitle the section — lyrics own the name.
+    expect(next[0].title).toBe('Verse');
   });
 
-  test('renameChordsEditorSection rewrites matching lyric header', function() {
+  test('renameChordsEditorSection does not rewrite lyric headers', function() {
     const sections = [
       {
         key: 'verse-0',
@@ -522,11 +559,12 @@ describe('chordsEditorSections', function() {
     const lyrics = ['[Verse 1]', 'line one', '', '[Chorus]', 'chorus'];
     const renamed = renameChordsEditorSection(sections, 'verse-0', 'Intro', lyrics);
     expect(renamed.ok).toBe(true);
-    expect(renamed.updateLyrics).toBe(true);
-    expect(renamed.lyricLines[0]).toBe('[Intro]');
+    expect(renamed.updateLyrics).toBe(false);
+    expect(renamed.sections[0].title).toBe('Intro');
+    expect(renamed.lyricLines[0]).toBe('[Verse 1]');
   });
 
-  test('lyricLinesAfterHeaderPatches rewrites lyrics when chart # header changes', function() {
+  test('lyricLinesAfterHeaderPatches never rewrites lyrics', function() {
     const sections = [
       {
         key: 'verse-0',
@@ -552,8 +590,8 @@ describe('chordsEditorSections', function() {
       }],
       lyrics
     );
-    expect(result.updated).toBe(true);
-    expect(result.lines[0]).toBe('[Bridge]');
+    expect(result.updated).toBe(false);
+    expect(result.lines[0]).toBe('[Verse 1]');
   });
 
   test('buildTuneSectionsFromPaste preserves inline meter in chart', function() {

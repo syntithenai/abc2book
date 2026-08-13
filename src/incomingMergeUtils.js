@@ -9,6 +9,49 @@ import { mergeTuneCollectionExtras } from './tuneMergeExtras';
 import { isLocallyDeletedTune, isIncomingTuneNewer, toTuneUpdatedMs } from './tuneBookSync';
 import { isSourceMergeDismissed } from './sourceMergeDismissals';
 
+/** Absolute count of deletes that counts as a dangerous mass wipe. */
+export const MASS_DELETE_ABSOLUTE_THRESHOLD = 50
+/** Fraction of the local library that counts as a dangerous mass wipe. */
+export const MASS_DELETE_FRACTION_THRESHOLD = 0.25
+
+export function isMassDeleteBatch(deleteCount, localTuneCount) {
+  const deletes = deleteCount > 0 ? deleteCount : 0
+  const local = localTuneCount > 0 ? localTuneCount : 0
+  if (deletes <= 0) return false
+  if (deletes >= MASS_DELETE_ABSOLUTE_THRESHOLD) return true
+  if (local > 0 && (deletes / local) >= MASS_DELETE_FRACTION_THRESHOLD) return true
+  return false
+}
+
+/**
+ * Toast "Accept" must not apply a wiped Drive head's delete list.
+ * Returns sheet results with deletes cleared when the batch is mass-delete sized.
+ */
+export function stripMassDeletesFromSheetResults(sheetResults, localTuneCount) {
+  if (!sheetResults) return sheetResults
+  const deleteCount = sheetResults.deletes ? Object.keys(sheetResults.deletes).length : 0
+  if (!isMassDeleteBatch(deleteCount, localTuneCount)) return sheetResults
+  return Object.assign({}, sheetResults, { deletes: {} })
+}
+
+/**
+ * After a local restore, remote wipe tombstones must not be re-imported for
+ * tunes that still exist locally — otherwise the next sync deletes them again.
+ */
+export function sanitizeRemoteDeletedAgainstLocalTunes(remoteDeleted, localTunes) {
+  const remote = remoteDeleted || {}
+  const local = localTunes || {}
+  const localCount = Object.keys(local).length
+  const remoteCount = Object.keys(remote).length
+  if (!isMassDeleteBatch(remoteCount, localCount)) return remote
+  const cleaned = {}
+  Object.keys(remote).forEach(function(id) {
+    if (local[id]) return
+    cleaned[id] = remote[id]
+  })
+  return cleaned
+}
+
 export function sheetUpdateResultsNeedAttention(results) {
   if (!results) return false;
   if (results.deletes && Object.keys(results.deletes).length > 0) return true;
@@ -208,7 +251,13 @@ export function applyDriveRecordStateToTunes(currentTunes, sheetUpdateResults, r
         incomingTune: pair[1],
       }, state.fieldSelections);
     } else {
-      tunes[id] = pair[1];
+      // Stamp newer than incoming so a follow-up sync cannot re-offer this update.
+      const accepted = Object.assign({}, pair[1]);
+      accepted.lastUpdated = Math.max(
+        Date.now(),
+        toTuneUpdatedMs(pair[1] && pair[1].lastUpdated) + 1
+      );
+      tunes[id] = accepted;
     }
   });
 
@@ -245,7 +294,12 @@ export function applyDriveFieldMergeBatch(sheetUpdateResults, recordSelections) 
         incomingTune: pair[1],
       }, sel.fieldSelections);
     } else {
-      nextTunes[id] = pair[1];
+      const accepted = Object.assign({}, pair[1]);
+      accepted.lastUpdated = Math.max(
+        Date.now(),
+        toTuneUpdatedMs(pair[1] && pair[1].lastUpdated) + 1
+      );
+      nextTunes[id] = accepted;
     }
   });
 

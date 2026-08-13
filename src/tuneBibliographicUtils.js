@@ -157,6 +157,38 @@ export function tuneMatchesGenreFilter(tune, filterGenres) {
   })
 }
 
+export function allAlbums(tune) {
+  const result = []
+  const seen = {}
+  function add(value) {
+    const text = String(value || '').trim()
+    if (!text) return
+    const key = normalizeKey(text)
+    if (seen[key]) return
+    seen[key] = true
+    result.push(text)
+  }
+  if (tune && Array.isArray(tune.albums)) {
+    tune.albums.forEach(add)
+  }
+  return result
+}
+
+/** True if any selected album filter matches albums[] (case-insensitive). */
+export function tuneMatchesAlbumFilter(tune, filterAlbums) {
+  if (!Array.isArray(filterAlbums) || filterAlbums.length === 0) return true
+  const albums = allAlbums(tune)
+  if (albums.length === 0) return false
+  const albumKeys = {}
+  albums.forEach(function(album) {
+    albumKeys[normalizeKey(album)] = true
+  })
+  return filterAlbums.some(function(filter) {
+    const key = normalizeKey(filter)
+    return key && albumKeys[key]
+  })
+}
+
 export function renderBibliographicGenreLines(tune) {
   const lines = []
   allGenres(tune).forEach(function(genre) {

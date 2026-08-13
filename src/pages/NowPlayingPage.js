@@ -330,6 +330,7 @@ export default function NowPlayingPage(props) {
                 tune={playingTune}
                 tunebook={props.tunebook}
                 linkIndex={activeLinkIndex}
+                token={props.token}
                 className="now-playing-page-artwork"
                 onHidden={function() { setShowArtwork(false) }}
               />

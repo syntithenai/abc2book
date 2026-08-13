@@ -52,10 +52,6 @@
   min-width: 0;
 }
 
-.now-playing-transport-secondary .media-seek-slider.transport .media-seek-time {
-  display: none;
-}
-
 .now-playing-transport-btn-spacer {
   min-width: 3rem;
   flex: 0 0 auto;
@@ -158,6 +154,11 @@
 .now-playing-transport-fullscreen-btn img {
   width: 1.15em;
   height: 1.15em;
+  min-width: 1.15em;
+  min-height: 1.15em;
+  flex-shrink: 0;
+  display: block;
+  fill: currentColor;
 }
 
 .now-playing-transport-fullscreen-btn {
@@ -169,6 +170,7 @@
   justify-content: center;
   position: relative;
   z-index: 2;
+  color: inherit;
 }
 
 .now-playing-transport-repeat-btn {
@@ -179,10 +181,14 @@
   align-items: center;
   justify-content: center;
   padding: 0;
+  color: inherit;
 }
 
 .now-playing-transport-repeat-btn .playlist-repeat-icon {
   display: block;
+  min-width: 1.15em;
+  min-height: 1.15em;
+  flex-shrink: 0;
 }
 
 .now-playing-transport-mode-buttons {

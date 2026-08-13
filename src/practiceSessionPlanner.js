@@ -286,7 +286,9 @@ export function buildPracticeSessionPlan(options) {
     minCount: 1,
   })
 
-  if (candidates.length === 0) {
+  const hasCandidates = candidates.length > 0
+
+  if (!hasCandidates && !includeWarmups) {
     const hasPracticeList = practiceListTuneIds.length > 0
     return {
       error: !hasPracticeList
@@ -301,8 +303,10 @@ export function buildPracticeSessionPlan(options) {
     }
   }
 
-  const practiceKey = pickPracticeKey(candidates)
-  const partitioned = partitionByPracticeKey(candidates, practiceKey)
+  const practiceKey = hasCandidates ? pickPracticeKey(candidates) : 'C'
+  const partitioned = hasCandidates
+    ? partitionByPracticeKey(candidates, practiceKey)
+    : { matching: [], other: [] }
   const orderedTunes = partitioned.matching.concat(partitioned.other)
 
   const warmupSeconds = warmupBudgetSeconds(totalMinutes, includeWarmups)
@@ -380,6 +384,16 @@ export function buildPracticeSessionPlan(options) {
         tempoEnd: tempos.tempoEnd,
         estimatedSeconds: estimateTuneDurationSeconds(first, routeInfo.route),
       })
+    }
+  }
+
+  if (steps.length === 0) {
+    return {
+      error: 'No practice steps could be planned.',
+      steps: [],
+      practiceKey: 'C',
+      totalMinutes,
+      warmupMinutes: 0,
     }
   }
 

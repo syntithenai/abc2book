@@ -152,7 +152,9 @@ export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsBy
     });
   });
   if (!Object.keys(tuneCopy.voices).length) return '';
-  const abc = notationDisplayAbc(tuneCopy, tunebook);
+  const abc = notationDisplayAbc(tuneCopy, tunebook, {
+    includeLyrics: opts.includeLyrics,
+  });
   if (opts.stripSectionMarkerChords) {
     return applyStaffChordDisplayPolicy(abc, { chordsAnnotate: true });
   }

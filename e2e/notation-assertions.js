@@ -129,6 +129,20 @@ async function getSelection(page) {
   })
 }
 
+async function assertCaretIndex(page, expected, label) {
+  const caret = await getCaretIndex(page)
+  if (caret !== expected) {
+    const dbg = await page.evaluate(function() {
+      const h = window.__abc2bookNotationTest
+      return h.getResolverDebug && h.getResolverDebug()
+    })
+    throw new Error(
+      (label || 'caret') + ': expected ' + expected + ', got ' + caret
+        + (dbg ? ' resolver=' + JSON.stringify(dbg) : '')
+    )
+  }
+}
+
 async function assertSelectionMatchesClick(page, expectedEventSummary, label) {
   const state = await page.evaluate(function() {
     const events = window.__abc2bookNotationTest.getSessionEvents()
@@ -176,5 +190,6 @@ module.exports = {
   assertVoiceAbc,
   getCaretIndex,
   getSelection,
+  assertCaretIndex,
   assertSelectionMatchesClick,
 }

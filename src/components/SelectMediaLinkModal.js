@@ -52,6 +52,7 @@ export default function SelectMediaLinkModal(props) {
     currentLinkIndex,
     forceRefresh,
     token,
+    user,
     googleDocumentId,
     login,
   } = props
@@ -169,6 +170,7 @@ export default function SelectMediaLinkModal(props) {
             tuneId={tune && tune.id}
             handleClose={handleEditorClose}
             token={token}
+            user={user}
             googleDocumentId={googleDocumentId}
             forceRefresh={forceRefresh}
             login={login}

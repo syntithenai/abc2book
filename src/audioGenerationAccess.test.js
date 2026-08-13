@@ -52,4 +52,27 @@ describe('getAudioGenerationAccess', function() {
     expect(access.showButton).toBe(true);
     expect(access.linkedCoverAvailable).toBe(true);
   });
+
+  test('keeps admin buttons visible while resolver auth is still settling after login', function() {
+    const access = getAudioGenerationAccess({
+      user: adminUser,
+      resolverChecked: true,
+      resolverAvailable: false,
+      features: { practiceTrack: false },
+      accessToken: 'token',
+      resolverStatus: {
+        available: false,
+        candidates: [{
+          base: 'https://resolver.example',
+          reachable: true,
+          available: false,
+          requireAuth: true,
+          authReason: 'login_required',
+        }],
+      },
+    });
+    expect(access.showButton).toBe(true);
+    expect(access.practiceTrackAvailable).toBe(true);
+    expect(access.linkedCoverAvailable).toBe(true);
+  });
 });

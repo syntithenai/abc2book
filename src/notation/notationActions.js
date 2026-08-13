@@ -21,9 +21,6 @@ import {
 import {
   applyRestDurationChange,
   finalizeRestOps,
-  beatSpanForEvent,
-  removeBeatRangeAndRefillLongestRests,
-  restSpansForIds,
 } from './staffRestEdit';
 import { collapseAdjacentRests } from './timingEdit';
 import { EDITOR_MODES } from './notationConstants';
@@ -304,7 +301,8 @@ export function replaceOrInsertAtCaret(session, pitch, options) {
 
 export function insertPitchAtCaret(session, pitch, options) {
   const opts = options || {};
-  if (session.fillMeasures && session.mode === EDITOR_MODES.NOTE_INPUT && !opts.forceNew) {
+  const spliceInsert = !!(opts.forceNew || session.spliceAtCaret);
+  if (session.fillMeasures && session.mode === EDITOR_MODES.NOTE_INPUT && !spliceInsert) {
     return replaceOrInsertAtCaret(session, pitch, opts);
   }
   const events = session.events.map(cloneVoiceEvent);
@@ -323,6 +321,7 @@ export function insertPitchAtCaret(session, pitch, options) {
   return patchSession(session, {
     events: events,
     caretIndex: idx + 1,
+    spliceAtCaret: false,
     lastEvent: ev,
     accidentalCarry: null,
     tupletMode: advanceTupletMode(session.tupletMode),
@@ -410,12 +409,10 @@ export function deleteSelectionToRest(session, options) {
     }
 
     if (restIds.length) {
-      const spans = restSpansForIds(next, restIds, tuneMeta);
-      spans.sort(function(a, b) { return b.start - a.start; });
-      spans.forEach(function(span) {
-        next = removeBeatRangeAndRefillLongestRests(
-          next, span.start, span.end - span.start, tuneMeta);
+      next = next.filter(function(ev) {
+        if (restIds.indexOf(ev.id) < 0) return true;
         changed = true;
+        return false;
       });
     }
 
@@ -458,14 +455,8 @@ export function deleteSelectionToRest(session, options) {
     });
   }
 
-  const timedTarget = assignTimingToEvents(events, tuneMeta.meter, unit)[idx]
-    || assignTimingToEvents(events, tuneMeta.meter, unit).find(function(ev) { return ev.id === target.id; });
-
-  if (target.type === 'rest' && timedTarget) {
-    const span = beatSpanForEvent(timedTarget, unit);
-    if (!span) return null;
-    let next = removeBeatRangeAndRefillLongestRests(
-      events, span.start, span.end - span.start, tuneMeta);
+  if (target.type === 'rest') {
+    let next = events.filter(function(ev) { return ev.id !== target.id; });
     next = finalizeRestOps(next, session);
     return patchSession(session, { events: next });
   }
@@ -817,11 +808,13 @@ export function resolveEditTargetIds(session, lastSelection) {
   if (!ids.length) {
     const caret = typeof session.caretIndex === 'number' ? session.caretIndex : 0;
     const atCaret = session.events[caret];
-    if (atCaret && (atCaret.type === 'note' || atCaret.type === 'chord')) {
+    if (atCaret && (atCaret.type === 'note' || atCaret.type === 'chord' || atCaret.type === 'rest')) {
       ids = [atCaret.id];
     } else if (caret > 0) {
       const prev = session.events[caret - 1];
-      if (prev && (prev.type === 'note' || prev.type === 'chord')) ids = [prev.id];
+      if (prev && (prev.type === 'note' || prev.type === 'chord' || prev.type === 'rest')) {
+        ids = [prev.id];
+      }
     }
   }
   if (!ids.length) return null;
@@ -949,7 +942,7 @@ export function toggleDotOnSelection(session) {
   let changed = false;
   events.forEach(function(ev) {
     if (ids.indexOf(ev.id) < 0) return;
-    if (isLayoutEventType(ev.type) || ev.type === 'rest') return;
+    if (isLayoutEventType(ev.type)) return;
     if (!ev.duration) return;
     ev.duration = Object.assign({}, ev.duration, { dotted: !ev.duration.dotted });
     changed = true;

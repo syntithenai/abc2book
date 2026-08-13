@@ -1,5 +1,5 @@
 import abcjs from 'abcjs';
-import { isSectionHeader } from './chordSheetUtils';
+import { isSectionHeader, stripChordsFromLyricLines } from './chordSheetUtils';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import {
   getPlainLyricLines,
@@ -11,7 +11,13 @@ import {
   lyricAssignmentsForMelody,
   lyricTextForBarRange,
   countNotesInBarRange,
+  extractBarsFromMelodyText,
 } from './lyricBarAlignmentUtils';
+import {
+  lyricBeatAnchorWordIndices,
+  stripLyricBeatMarkerFromWord,
+  wordHasLyricBeatMarker,
+} from './lyricBeatMarkers';
 
 export { lyricLineHasNoteSpacing };
 
@@ -19,23 +25,27 @@ function getBoundaryAwareLyricLines(tune) {
   const alignment = tune && tune.meta && Array.isArray(tune.meta.chordSheetAlignment)
     ? tune.meta.chordSheetAlignment
     : [];
-  if (alignment.length === 0) return getPlainLyricLines(tune);
-
-  const lines = [];
-  alignment.forEach(function(block, blockIndex) {
-    if (block && block.header) {
-      lines.push(String(block.header));
-    }
-    const linePairs = block && Array.isArray(block.linePairs) ? block.linePairs : [];
-    linePairs.forEach(function(pair) {
-      const text = pair && pair.lyricLine != null ? String(pair.lyricLine) : '';
-      if (text.trim().length > 0) lines.push(text);
-      else lines.push('');
+  let lines;
+  if (alignment.length === 0) {
+    lines = getPlainLyricLines(tune);
+  } else {
+    lines = [];
+    alignment.forEach(function(block, blockIndex) {
+      if (block && block.header) {
+        lines.push(String(block.header));
+      }
+      const linePairs = block && Array.isArray(block.linePairs) ? block.linePairs : [];
+      linePairs.forEach(function(pair) {
+        const text = pair && pair.lyricLine != null ? String(pair.lyricLine) : '';
+        if (text.trim().length > 0) lines.push(text);
+        else lines.push('');
+      });
+      if (blockIndex < alignment.length - 1) lines.push('');
     });
-    if (blockIndex < alignment.length - 1) lines.push('');
-  });
-
-  return lines.length > 0 ? lines : getPlainLyricLines(tune);
+    if (lines.length === 0) lines = getPlainLyricLines(tune);
+  }
+  // Keep / beat markers; drop ChordPro/COW chords before note-aligned generation.
+  return stripChordsFromLyricLines(lines);
 }
 
 /**
@@ -222,9 +232,117 @@ function splitLongestUnit(units) {
 }
 
 /**
- * Fit one plain lyric line to a target number of ABC w: syllable slots.
+ * Note-slot counts per bar on one melody line (for / beat-marker alignment).
  */
-export function fitLyricLineToNoteCount(line, noteCount) {
+export function barLyricSlotCountsForNoteLine(noteLine, options) {
+  const bars = extractBarsFromMelodyText(noteLine);
+  if (!bars.length) {
+    const total = countLyricSlotsInNoteLine(noteLine, options);
+    return total > 0 ? [total] : [];
+  }
+  return bars.map(function(bar) {
+    return countLyricSlotsInNoteLine(bar, options);
+  }).filter(function(count) { return count > 0; });
+}
+
+function stripBeatMarkersKeepingWords(line) {
+  return wordsFromPlainLine(line)
+    .map(stripLyricBeatMarkerFromWord)
+    .filter(Boolean)
+    .join(' ');
+}
+
+/**
+ * Fit a lyric line that carries / beat markers so marked words land on bar starts
+ * (strong beats). Output syllables never include the / markers.
+ */
+function fitLyricLineWithBeatMarkers(line, noteCount, barNoteCounts) {
+  const target = Math.max(0, parseInt(noteCount, 10) || 0);
+  const words = wordsFromPlainLine(line);
+  if (!words.length || target <= 0) {
+    return words.map(stripLyricBeatMarkerFromWord).filter(Boolean).join(' ');
+  }
+
+  const bars = (Array.isArray(barNoteCounts) && barNoteCounts.length)
+    ? barNoteCounts.slice()
+    : [target];
+  const barStarts = [];
+  let cursor = 0;
+  bars.forEach(function(count) {
+    barStarts.push(cursor);
+    cursor += count;
+  });
+  const slotLimit = Math.max(target, cursor);
+
+  const slots = [];
+  for (let i = 0; i < slotLimit; i += 1) slots.push(null);
+
+  const anchorIndices = lyricBeatAnchorWordIndices(words);
+  const placedWord = Object.create(null);
+
+  anchorIndices.forEach(function(wordIndex, markerIndex) {
+    const plain = stripLyricBeatMarkerFromWord(words[wordIndex]);
+    if (!plain) return;
+    let barIndex;
+    if (anchorIndices.length === barStarts.length) {
+      barIndex = markerIndex;
+    } else if (anchorIndices.length === 1) {
+      barIndex = 0;
+    } else {
+      barIndex = Math.round(
+        (markerIndex * (barStarts.length - 1)) / Math.max(1, anchorIndices.length - 1)
+      );
+    }
+    barIndex = Math.max(0, Math.min(barIndex, barStarts.length - 1));
+    let slot = barStarts[barIndex];
+    while (slot < slots.length && slots[slot] != null) slot += 1;
+    if (slot >= slots.length) return;
+    slots[slot] = { text: plain, hyphenAfter: false };
+    placedWord[wordIndex] = true;
+  });
+
+  const remainingWords = [];
+  words.forEach(function(word, index) {
+    if (placedWord[index]) return;
+    const plain = stripLyricBeatMarkerFromWord(word);
+    if (!plain) return;
+    remainingWords.push(plain);
+  });
+
+  const freeSlots = [];
+  for (let i = 0; i < target; i += 1) {
+    if (!slots[i]) freeSlots.push(i);
+  }
+
+  if (remainingWords.length > 0 && freeSlots.length > 0) {
+    const fitted = fitLyricLineToNoteCount(remainingWords.join(' '), freeSlots.length);
+    const parts = fitted.split(/\s+/).filter(Boolean);
+    parts.forEach(function(part, index) {
+      if (index >= freeSlots.length) return;
+      const slot = freeSlots[index];
+      const hyphenAfter = /-$/.test(part);
+      slots[slot] = {
+        text: hyphenAfter ? part.slice(0, -1) : part,
+        hyphenAfter: hyphenAfter,
+      };
+    });
+  }
+
+  const units = [];
+  for (let i = 0; i < target; i += 1) {
+    if (slots[i]) units.push(slots[i]);
+    else units.push({ text: '*', hyphenAfter: false });
+  }
+  return formatUnits(units);
+}
+
+/**
+ * Fit one plain lyric line to a target number of ABC w: syllable slots.
+ * When options.barNoteCounts (or options.noteLine) is provided and the line has
+ * / beat markers, marked words are placed on strong-beat (bar-start) slots.
+ */
+export function fitLyricLineToNoteCount(line, noteCount, options) {
+  const opts = options || {};
   const target = Math.max(0, parseInt(noteCount, 10) || 0);
   const trimmed = String(line || '').trim();
   if (!trimmed || target === 0) return trimmed;
@@ -232,6 +350,19 @@ export function fitLyricLineToNoteCount(line, noteCount) {
 
   const words = wordsFromPlainLine(trimmed);
   if (words.length === 0) return trimmed;
+
+  const hasBeatMarkers = words.some(wordHasLyricBeatMarker);
+  if (hasBeatMarkers) {
+    let barCounts = Array.isArray(opts.barNoteCounts) ? opts.barNoteCounts : null;
+    if ((!barCounts || !barCounts.length) && opts.noteLine) {
+      barCounts = barLyricSlotCountsForNoteLine(opts.noteLine, opts);
+    }
+    if (barCounts && barCounts.length) {
+      return fitLyricLineWithBeatMarkers(trimmed, target, barCounts);
+    }
+    // No bar geometry — still strip markers before plain syllable fit.
+    return fitLyricLineToNoteCount(stripBeatMarkersKeepingWords(trimmed), target);
+  }
 
   // Word count already matches note slots: keep the line as-is (no hyphenation).
   if (words.length === target) return trimmed;
@@ -270,7 +401,9 @@ export function applyNoteSpacingToLyrics(lyricLines, noteLines, options) {
     const noteCount = countLyricSlotsInNoteLine(noteLine, opts);
     if (noteCount <= 0) continue;
 
-    lyrics[i] = fitLyricLineToNoteCount(line, noteCount);
+    lyrics[i] = fitLyricLineToNoteCount(line, noteCount, Object.assign({}, opts, {
+      noteLine: noteLine,
+    }));
   }
 
   return lyrics;
@@ -307,7 +440,9 @@ export function buildNotationWLines(tune) {
 
     const noteCount = countLyricSlotsInNoteLine(noteLine, opts);
     if (noteCount <= 0) return text;
-    return fitLyricLineToNoteCount(text, noteCount);
+    return fitLyricLineToNoteCount(text, noteCount, Object.assign({}, opts, {
+      noteLine: noteLine,
+    }));
   });
 }
 
@@ -348,7 +483,9 @@ export function resolveNoteAlignedWLines(tune) {
       if (lyricLineHasNoteSpacing(line)) return line;
       const noteCount = countLyricSlotsInNoteLine(noteLine, opts);
       if (noteCount <= 0) return line;
-      return fitLyricLineToNoteCount(line, noteCount);
+      return fitLyricLineToNoteCount(line, noteCount, Object.assign({}, opts, {
+        noteLine: noteLine,
+      }));
     });
   }
   return buildNotationWLines(tune);

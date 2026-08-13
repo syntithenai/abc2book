@@ -11,6 +11,7 @@ import {
   markSetsSynced,
   saveNoteAudioBlob,
   getNoteAudioBlob,
+  findOrCreateGroupByLabel,
   __clearAudioAnalysisStoreForTests
 } from './soundpostSetStore'
 
@@ -56,6 +57,21 @@ describe('soundpostSetStore', function() {
     expect((await listUnsyncedSets()).some(function(x) { return x.id === s.id })).toBe(true)
     await markSetsSynced([s.id])
     expect((await listUnsyncedSets()).some(function(x) { return x.id === s.id })).toBe(false)
+  })
+
+  test('rename set', async function() {
+    const s = await saveSet({ label: 'Before', notes: [] })
+    await saveSet(Object.assign({}, s, { label: 'After' }))
+    const list = await listSets()
+    expect(list[0].id).toBe(s.id)
+    expect(list[0].label).toBe('After')
+  })
+
+  test('findOrCreateGroupByLabel reuses existing group name', async function() {
+    const a = await findOrCreateGroupByLabel('Workshop')
+    const b = await findOrCreateGroupByLabel('workshop')
+    expect(a.id).toBe(b.id)
+    expect((await listGroups()).length).toBe(1)
   })
 
   test('move set between groups', async function() {

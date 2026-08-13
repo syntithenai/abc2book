@@ -100,7 +100,7 @@ describe('mediaSearchTuneMaterialize', function() {
     expect(tune.books).toEqual([MYMEDIA_BOOK]);
     expect(tune.albums).toEqual(['The Gap']);
     expect(tune.genres).toEqual(['Folk']);
-    expect(tune.tags).toEqual(['1998', 'track:2']);
+    expect(tune.tags).toEqual([]);
     expect(tune.mediaCacheLocked).toBe(true);
     expect(tune.links[0].collectionEntryId).toBe('9');
     expect(tune.links[0].collectionPath).toBe('Altan/sally.mp3');
@@ -219,5 +219,20 @@ describe('mediaSearchTuneMaterialize', function() {
     });
     expect(runAddTuneAutoEnrich).toHaveBeenCalledTimes(1);
     expect(runAddTuneAutoEnrich.mock.calls[0][0].tune).toBe(tune);
+  });
+
+  test('scheduleMediaSearchTuneEnrichment skips music-collection tunes', function() {
+    const tune = {
+      id: 't1',
+      name: 'Song',
+      composer: 'Band',
+      links: [{ link: '/music-collection/a.mp3', source: 'music-collection' }],
+    };
+    const tunebook = { saveTune: jest.fn() };
+    scheduleMediaSearchTuneEnrichment(tune, tunebook, {
+      accessToken: 'token',
+      resolverAvailable: true,
+    });
+    expect(runAddTuneAutoEnrich).not.toHaveBeenCalled();
   });
 });

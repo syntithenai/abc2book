@@ -1,5 +1,5 @@
 /**
- * Persist tune book/tag/genre/artist indexes in IndexedDB (replaces localStorage).
+ * Persist tune book/tag/genre/artist/album indexes in IndexedDB (replaces localStorage).
  */
 import localforage from 'localforage'
 
@@ -10,6 +10,7 @@ export const INDEX_STORE_KEYS = {
   tags: 'bookstorage_index_tags',
   genres: 'bookstorage_index_genres',
   artists: 'bookstorage_index_artists',
+  albums: 'bookstorage_index_albums',
   tagGroups: 'bookstorage_tag_groups',
   meta: 'bookstorage_index_meta',
 }
@@ -19,6 +20,7 @@ const LEGACY_LOCAL_KEYS = [
   INDEX_STORE_KEYS.tags,
   INDEX_STORE_KEYS.genres,
   INDEX_STORE_KEYS.artists,
+  INDEX_STORE_KEYS.albums,
   'bookstorage_tag_groups',
 ]
 
@@ -31,6 +33,7 @@ function emptyIndexes() {
     tags: {},
     genres: {},
     artists: {},
+    albums: {},
     tagGroups: {},
     meta: { revision: 0, builtAt: null },
   }
@@ -75,6 +78,7 @@ export async function migrateLegacyIndexesToStore() {
   migrated.tags = readLegacyLocal(INDEX_STORE_KEYS.tags)
   migrated.genres = readLegacyLocal(INDEX_STORE_KEYS.genres)
   migrated.artists = readLegacyLocal(INDEX_STORE_KEYS.artists)
+  migrated.albums = readLegacyLocal(INDEX_STORE_KEYS.albums)
   migrated.tagGroups = readLegacyLocal('bookstorage_tag_groups')
   migrated.meta = { revision: Date.now(), builtAt: new Date().toISOString(), source: 'legacy-migration' }
   await saveAllIndexes(migrated)
@@ -92,12 +96,14 @@ export async function loadAllIndexes() {
     const tags = (await store.getItem(INDEX_STORE_KEYS.tags)) || {}
     const genres = (await store.getItem(INDEX_STORE_KEYS.genres)) || {}
     const artists = (await store.getItem(INDEX_STORE_KEYS.artists)) || {}
+    const albums = (await store.getItem(INDEX_STORE_KEYS.albums)) || {}
     const tagGroups = (await store.getItem(INDEX_STORE_KEYS.tagGroups)) || {}
     const meta = (await store.getItem(INDEX_STORE_KEYS.meta)) || { revision: 0 }
     const hasAny = Object.keys(books).length > 0
       || Object.keys(tags).length > 0
       || Object.keys(genres).length > 0
       || Object.keys(artists).length > 0
+      || Object.keys(albums).length > 0
     if (!hasAny && hasLegacyLocalIndexes()) {
       await migrateLegacyIndexesToStore()
       return loadAllIndexes()
@@ -107,6 +113,7 @@ export async function loadAllIndexes() {
       tags: tags,
       genres: genres,
       artists: artists,
+      albums: albums,
       tagGroups: tagGroups,
       meta: meta,
     }
@@ -127,6 +134,7 @@ export async function saveIndexSlice(key, data) {
     else if (key === INDEX_STORE_KEYS.tags) cache.tags = payload
     else if (key === INDEX_STORE_KEYS.genres) cache.genres = payload
     else if (key === INDEX_STORE_KEYS.artists) cache.artists = payload
+    else if (key === INDEX_STORE_KEYS.albums) cache.albums = payload
     else if (key === INDEX_STORE_KEYS.tagGroups) cache.tagGroups = payload
     else if (key === INDEX_STORE_KEYS.meta) cache.meta = payload
   }
@@ -139,6 +147,7 @@ export async function saveAllIndexes(indexes) {
     saveIndexSlice(INDEX_STORE_KEYS.tags, data.tags || {}),
     saveIndexSlice(INDEX_STORE_KEYS.genres, data.genres || {}),
     saveIndexSlice(INDEX_STORE_KEYS.artists, data.artists || {}),
+    saveIndexSlice(INDEX_STORE_KEYS.albums, data.albums || {}),
     saveIndexSlice(INDEX_STORE_KEYS.tagGroups, data.tagGroups || {}),
     saveIndexSlice(INDEX_STORE_KEYS.meta, Object.assign({}, data.meta || {}, {
       revision: Date.now(),

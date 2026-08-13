@@ -5,7 +5,11 @@ import LinkPlaybackRegionScanControls from './LinkPlaybackRegionScanControls'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { LINKS_FIELD_HELP } from '../formFieldHelpText'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
-import { fetchDirectOrProxy } from '../mediaProxyClient'
+import {
+  fetchDirectOrProxy,
+  normalizeAccessToken,
+  requiresResolverProxiedPlayback,
+} from '../mediaProxyClient'
 import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from '../externalMediaAudioCache'
 import {
   findCachedExternalMediaForLink,
@@ -15,7 +19,9 @@ import {
   resolveTuneLinkCacheSrc,
 } from '../linkRecording'
 import { linkUriString } from '../tuneLinkUri'
+import { showResolverLoginToastForAuthError } from '../resolverLoginToast'
 import useGoogleDocument from '../useGoogleDocument'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 import './LinkPlayRangeModal.css'
 
 const YT_PLAYING = 1
@@ -201,6 +207,7 @@ export default function LinkPlayRangeModal({
   dialogZIndex,
 }) {
   const driveDocs = useGoogleDocument(token, function() {})
+  const { status: resolverStatus } = useMediaResolverHealth()
   const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink
   const youtubeGetId = tunebook && tunebook.utils && tunebook.utils.YouTubeGetID
 
@@ -224,6 +231,26 @@ export default function LinkPlayRangeModal({
 
   const startSeconds = parseBoundarySeconds(link && link.startAt)
   const endSeconds = parseBoundarySeconds(link && link.endAt)
+
+  function promptLoginForProxiedMedia() {
+    showResolverLoginToastForAuthError(null, {
+      force: true,
+      accessToken: token,
+      resolverStatus: resolverStatus,
+      message: 'Login to continue',
+    })
+  }
+
+  function handleMediaAuthFailure(error) {
+    if (showResolverLoginToastForAuthError(error, {
+      accessToken: token,
+      resolverStatus: resolverStatus,
+    })) {
+      setWarning('Login required to load this media.')
+      return true
+    }
+    return false
+  }
 
   function clearBlobUrl() {
     if (blobUrlRef.current) {
@@ -366,11 +393,19 @@ export default function LinkPlayRangeModal({
     if (!src) {
       throw new Error('Enter a media link first.')
     }
+    if (requiresResolverProxiedPlayback(src)
+      || (linkForResolve && linkForResolve.collectionEntryId)) {
+      if (!normalizeAccessToken(token)) {
+        promptLoginForProxiedMedia()
+        throw new Error('Login required to load this media.')
+      }
+    }
     const response = await fetchDirectOrProxy({
       src: src,
       srcType: type,
       youtubeGetId: youtubeGetId,
       accessToken: token,
+      collectionLink: linkForResolve,
     }).then(function(result) { return result.response })
     const blob = await response.blob()
     clearBlobUrl()
@@ -420,7 +455,9 @@ export default function LinkPlayRangeModal({
         }
       } catch (e) {
         if (!cancelled) {
-          setWarning(e && e.message ? e.message : 'Could not load preview.')
+          if (!handleMediaAuthFailure(e)) {
+            setWarning(e && e.message ? e.message : 'Could not load preview.')
+          }
           setAudioSrc(null)
           setYoutubeVideoId(null)
         }
@@ -487,7 +524,9 @@ export default function LinkPlayRangeModal({
       setAudioSrc(src)
       setWarning('')
     }).catch(function(e) {
-      setWarning(e && e.message ? e.message : 'Could not load this audio link.')
+      if (!handleMediaAuthFailure(e)) {
+        setWarning(e && e.message ? e.message : 'Could not load this audio link.')
+      }
     })
   }
 

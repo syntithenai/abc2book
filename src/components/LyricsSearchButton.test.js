@@ -49,6 +49,12 @@ jest.mock('../genreSideSuggestions', function() {
   }
 })
 
+jest.mock('../addTuneAutoEnrich', function() {
+  return {
+    offerAddTuneAutoEnrichChordPaste: jest.fn(),
+  }
+})
+
 jest.mock('../useFieldLookupSearchJob', function() {
   return {
     buildFieldLookupTargetKey: function(tuneId, candidateId) {
@@ -121,7 +127,6 @@ describe('LyricsSearchButton import chords fallback', function() {
           candidateId: 'cand-1',
           title: 'Am I Ever Going to See Your Face Again',
           artist: 'The Angels',
-          defaultImportChords: true,
           onChords: jest.fn(),
           leaveAwaiting: true,
           forceReview: true,

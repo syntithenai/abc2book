@@ -52,6 +52,7 @@ export default function YourFilters(props) {
             if (props.setTagFilter) props.setTagFilter(item.tagFilter || [])
             if (props.setGenreFilter) props.setGenreFilter(item.genreFilter || [])
             if (props.setArtistFilter) props.setArtistFilter(item.artistFilter || [])
+            if (props.setAlbumFilter) props.setAlbumFilter(item.albumFilter || [])
             if (props.setCurrentTuneBook) props.setCurrentTuneBook(item.currentTuneBook || '')
             if (typeof props.forceRefresh === 'function') {
                 // ensure list updates (grouping, filtering) after applying saved criteria

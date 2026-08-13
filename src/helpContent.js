@@ -2,6 +2,7 @@ import { Accordion, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NotationEditorHelp from './components/NotationEditorHelp';
 import ScratchpadAudioEditorHelp from './components/scratchpad/ScratchpadAudioEditorHelp';
+import { LyricsChordsHelpBody } from './lyricsChordsHelpContent';
 
 export const HELP_NAV = [
   { id: 'start-here', title: 'Start here' },
@@ -243,23 +244,26 @@ export function HelpTuner() {
 export function HelpLyricsChords() {
   return (
     <>
-      <p><strong>Lyrics tab:</strong> <strong>Search</strong> fills lyrics from bundled collections and lyrics.ovh (always available); the ↗ button opens Google. With a resolver, Genius and other sites are searched too.</p>
+      <LyricsChordsHelpBody />
+      <p className="mt-3">
+        <strong>Lyrics tab:</strong> <strong>Search</strong> fills lyrics from bundled collections and lyrics.ovh
+        (always available); the ↗ button opens Google. With a resolver, Genius and other sites are searched too.
+      </p>
       <p>
         <strong>Chords tab:</strong> sections come from melody strains in the ABC (titles from lyrics when present).
         Chord grids autosave as you edit (incomplete lines wait until they end with <code>|</code>).
-        Use <strong>Record</strong> for a full-screen tapping session. Repeated sections (same type) show only a reuse label — edit the first occurrence.
-        Each editable section has its own time signature (first section sets the ABC <code>M:</code> header; later changes become inline <code>[M:]</code>).
-        <strong>Hide sections</strong> shows one chord grid (blank lines = breaks) with the same autosave and Record.
-        <strong>Paste</strong> (lyrics or chords tab) replaces all existing notation with a scaffold from the paste. On the Chords tab you can optionally tick <strong>Update lyrics too</strong>; from the Lyrics tab, lyrics are always updated.
+        Use <strong>Record</strong> for a full-screen tapping session. Repeated sections (same type) show only a
+        reuse label — edit the first occurrence. <strong>From Lyrics</strong> rebuilds ABC chord scaffold from
+        embedded lyric chords. <strong>Hide sections</strong> shows one chord grid (blank lines = breaks).
       </p>
       <p>
-        Chord search has two tiers. <strong>Without a resolver</strong>, <strong>Search</strong> looks in bundled ABC collections for tunes whose notation already includes chord symbols (quoted names in the notes, e.g. <code>&quot;Am&quot;</code> <code>&quot;G&quot;</code>) and builds a chord scaffold from those matches. That works offline and needs no extra setup, but only helps when a matching tune in the collection already has chords. <strong>With a resolver</strong>, <strong>Search</strong> can also fetch chord sheets from Ultimate Guitar, e-chords, and similar sites. Use ↗ for manual web search when automatic lookup cannot reach a site or finds nothing.
+        Chord lookup uses ↗ for web search. With a resolver, field search elsewhere in the app can still fetch
+        Ultimate Guitar and similar sites. Prefer pasting chorded lyrics into the Lyrics editor when you already
+        have a sheet.
       </p>
       <p>
-        <strong>Background:</strong> edit <strong>Background information</strong> in the <strong>Info</strong> tab, or use <strong>Research Background</strong> when the resolver is available. Read it on the tune page via the view dropdown → <strong>Info</strong>.
-      </p>
-      <p>
-        <strong>Import from media</strong> (Wizards or Add tune): analyse linked/uploaded audio for lyrics and chord suggestions when the resolver is available.
+        <strong>Background:</strong> edit <strong>Background information</strong> in the <strong>Info</strong> tab,
+        or use <strong>Research Background</strong> when the resolver is available.
       </p>
     </>
   );
@@ -636,7 +640,7 @@ F C G`}</pre>
       <h4>Ultimate Guitar / chord-sheet paste</h4>
       <p>
         Prefer <strong>Add → Import → Chord sheet</strong> or <strong>Chord URL</strong> for ChordPro files and supported chord sites (Ultimate Guitar, e-chords, WorshipTogether).
-        In the editor Lyrics or Chords tab, <strong>Paste</strong> opens a review modal that replaces existing notation with a scaffold from the paste. The Chords tab can optionally update lyrics; the Lyrics tab always updates lyrics.
+        Or paste chorded lyrics into the <strong>Lyrics</strong> editor and use <strong>From Lyrics</strong> on the Chords tab to build an ABC scaffold.
       </p>
 
       <h4>Double bar lines in ABC (display spacing)</h4>

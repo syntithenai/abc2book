@@ -27,6 +27,7 @@ async function srcToBlob(src, srcType, options) {
     srcType: srcType,
     youtubeGetId: options.youtubeGetId,
     accessToken: options.token,
+    collectionLink: options.collectionLink || null,
   })
   return result.response.blob()
 }
@@ -157,6 +158,7 @@ export async function resolveTuneLinkAudioBlob(options) {
     blob = await srcToBlob(link.link, srcType, {
       youtubeGetId: opts.tunebook && opts.tunebook.utils && opts.tunebook.utils.youtubeGetId,
       token: opts.token && opts.token.access_token,
+      collectionLink: link,
     })
   }
 

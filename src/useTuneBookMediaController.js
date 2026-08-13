@@ -49,6 +49,10 @@ import {
     getResolverProxiedPlaybackBlock,
     getResolverLoginWarning,
 } from './mediaProxyClient'
+import {
+    setResolverLoginToastBeforeLogin,
+    showResolverLoginToast,
+} from './resolverLoginToast'
 import { linkedMediaPitchPathAvailableSync } from './linkedMediaPitchPath'
 import { maybeNotifyYoutubeProxyLimitation } from './youtubeProxyLimitationToast'
 import { openCreditSettings } from './resolverCreditAccess'
@@ -72,9 +76,13 @@ import {
 } from './stemAnalysisJobStore'
 import { syncPlaybackRoute } from './playbackRouteSync'
 import { isQueueActive, getCurrentTuneId, getCurrentItem, isStandaloneExternalQueueItem } from './nowPlayingQueue'
-import { isQueueItemPlayable } from './playlistPlaybackResilience'
+import { isQueueItemPlayable, getResolverProxiedMediaAuthBlock } from './playlistPlaybackResilience'
 import { handleQueueAdvanceOnEnded, advanceQueueToPlayableAndStart } from './nowPlayingQueuePlayback'
 import { prefetchUpcomingQueueItem } from './queueMediaPrefetch'
+import {
+    cancelPlaylistTitleAnnouncement,
+    confirmQueuedPlaylistTrackAnnouncement,
+} from './playlistTitleAnnouncement'
 import {
   findNextPlayableLinkIndex,
   getCurrentQueueItemLinkIndex,
@@ -424,6 +432,7 @@ export default function useTuneBookMediaController(props) {
     var seekFromSecondsRef = useRef(0)
     var seekHoldUntilRef = useRef(0)
     var playingIntentRef = useRef(false)
+    var pendingPlaybackAfterLoginRef = useRef(null)
     var pendingPlayRequestRef = useRef(null)
     var playbackKickoffNeededRef = useRef(false)
     var playbackStartedRef = useRef(false)
@@ -2383,28 +2392,44 @@ export default function useTuneBookMediaController(props) {
         })
     }
 
+    function handleResolverLoginRequired(loginWarning) {
+        const warning = loginWarning && loginWarning.message
+            ? loginWarning
+            : (getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken()) || {
+                message: 'Login to continue',
+                showLoginButton: true,
+            })
+        pendingPlaybackAfterLoginRef.current = { at: Date.now() }
+        playingIntentRef.current = true
+        userPausedRef.current = false
+        setPlayCancelled(false)
+        setTapToPlay(false)
+        setIsLoading(false)
+        showResolverLoginToast(warning, { autoClose: 12000 })
+    }
+
+    function preparePlaybackGestureForLogin() {
+        if (!pendingPlaybackAfterLoginRef.current && !playingIntentRef.current) {
+            return
+        }
+        pendingPlaybackAfterLoginRef.current = pendingPlaybackAfterLoginRef.current || { at: Date.now() }
+        playingIntentRef.current = true
+        userPausedRef.current = false
+        userGesturePlayRef.current = true
+        setPlayCancelled(false)
+        setTapToPlay(false)
+        resumeSynthAudioContextFromGesture()
+        resumeExternalAudioContextFromGesture()
+    }
+
     async function ensureProxiedNativeAudioBlob(src) {
         if (!src || !requiresResolverProxiedPlayback(src)) {
             return true
         }
-        if (blockProxiedPlaybackForInsufficientCredit(src)) {
-            return false
-        }
         const useTune = tuneRef.current || tune
         const linkIndex = getActiveMediaLinkNumber()
-        if (isRouterEnforcedForPath(ROUTER_ENFORCE_KEYS.resolverPrecheck)) {
-            const routeSnapshot = captureCurrentPlaybackSnapshot({})
-            const route = resolvePlaybackRouteForEnforce(routeSnapshot)
-            if (route.resolverRequired) {
-                const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
-                if (loginWarning && loginWarning.message) {
-                    toast.warning(loginWarning.message, { autoClose: 8000 })
-                    if (onError) onError(loginWarning.message)
-                    setIsLoading(false)
-                    return false
-                }
-            }
-        }
+        // Prefer a local cache before any login/credit gate so playlists can keep
+        // playing downloaded tracks after mid-session logout.
         if (useTune && linkIndex !== null && linkIndex !== undefined) {
             const cacheKey = getExternalMediaCacheKey(useTune.id, linkIndex, src)
             const cached = await getCachedExternalMediaBlob(cacheKey)
@@ -2414,16 +2439,32 @@ export default function useTuneBookMediaController(props) {
                 await attachNativeBlobUrlForPlayback(blobUrl, cached.duration, settings)
                 return hasActivePlaybackIntent()
             }
+            if (await isLinkMediaCached(useTune, linkIndex)) {
+                const played = await playCachedNativeMedia('audio', { preservePosition: false })
+                if (played) return hasActivePlaybackIntent()
+            }
         }
         if (cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src) {
             return true
         }
+        if (blockProxiedPlaybackForInsufficientCredit(src)) {
+            return false
+        }
+        if (isRouterEnforcedForPath(ROUTER_ENFORCE_KEYS.resolverPrecheck)) {
+            const routeSnapshot = captureCurrentPlaybackSnapshot({})
+            const route = resolvePlaybackRouteForEnforce(routeSnapshot)
+            if (route.resolverRequired) {
+                const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
+                if (loginWarning && loginWarning.message) {
+                    handleResolverLoginRequired(loginWarning)
+                    return 'login_required'
+                }
+            }
+        }
         const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
         if (loginWarning && loginWarning.message) {
-            toast.warning(loginWarning.message, { autoClose: 8000 })
-            if (onError) onError(loginWarning.message)
-            setIsLoading(false)
-            return false
+            handleResolverLoginRequired(loginWarning)
+            return 'login_required'
         }
         if (proxiedNativeBlobPromiseRef.current && proxiedNativeBlobSrcRef.current === src) {
             return proxiedNativeBlobPromiseRef.current
@@ -2437,6 +2478,9 @@ export default function useTuneBookMediaController(props) {
                     srcType: 'audio',
                     youtubeGetId: props.tunebook.utils.YouTubeGetID,
                     accessToken: getGoogleAccessToken(),
+                    collectionLink: useTune && Array.isArray(useTune.links)
+                        ? useTune.links[linkIndex]
+                        : null,
                 })
                 const blob = await response.blob()
                 const mime = response.headers && typeof response.headers.get === 'function'
@@ -2840,6 +2884,25 @@ export default function useTuneBookMediaController(props) {
             if (played) {
                 scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
                 return
+            }
+            // Cache was present but could not start; do not fall through to a
+            // resolver fetch when login/credit would block (playlist would stall).
+            if (src && requiresResolverProxiedPlayback(src)) {
+                const authBlock = getResolverProxiedMediaAuthBlock({
+                    resolverStatus: mediaResolverStatus,
+                    accessToken: getGoogleAccessToken(),
+                })
+                if (authBlock) {
+                    if (authBlock.kind === 'login') {
+                        handleResolverLoginRequired({
+                            message: authBlock.message || 'Login to continue',
+                            showLoginButton: true,
+                        })
+                        return
+                    }
+                    handleMediaPlaybackFailure()
+                    return
+                }
             }
         }
 
@@ -5133,6 +5196,7 @@ export default function useTuneBookMediaController(props) {
         ensureYoutubeProgressPolling()
         updateMediaSessionState()
         maybePrefetchNextQueueTrack(false)
+        confirmQueuedPlaylistTrackAnnouncement(tuneRef.current)
     }
 
     function pollConfirmYoutubePlaying() {
@@ -5174,6 +5238,7 @@ export default function useTuneBookMediaController(props) {
         playingIntentRef.current = false
         playbackStartedRef.current = false
         userGesturePlayRef.current = false
+        pendingPlaybackAfterLoginRef.current = null
         clearAutoplayRecoveryGuard()
         clearQueueAdvanceAutoplayRetry()
         clearPlaybackKickoffTimer()
@@ -5187,6 +5252,7 @@ export default function useTuneBookMediaController(props) {
         clearYoutubeAutostartWatchdog()
         setIsPlaying(false)
         setIsLoading(false)
+        cancelPlaylistTitleAnnouncement()
         silencePlaybackOutputs()
         stopPlaybackKeepAlive()
         updateMediaSessionState()
@@ -5415,6 +5481,31 @@ export default function useTuneBookMediaController(props) {
         resumeExternalAudioContextFromGesture()
         play(opts)
     }
+
+    useEffect(function() {
+        setResolverLoginToastBeforeLogin(preparePlaybackGestureForLogin)
+        return function() {
+            setResolverLoginToastBeforeLogin(null)
+        }
+    })
+
+    useEffect(function() {
+        if (!pendingPlaybackAfterLoginRef.current) return
+        const accessToken = props.token && props.token.access_token
+            ? props.token.access_token
+            : null
+        if (!accessToken) return
+        if (!mediaResolverChecked) return
+        const warning = getResolverLoginWarning(mediaResolverStatus, accessToken)
+        if (warning) {
+            if (!warning.showLoginButton) {
+                pendingPlaybackAfterLoginRef.current = null
+            }
+            return
+        }
+        pendingPlaybackAfterLoginRef.current = null
+        playFromUserGesture({ fresh: true })
+    }, [props.token, mediaResolverStatus, mediaResolverChecked])
 
     // Clear YouTube/autoplay residue when a practice session ends so the next
     // session gets a clean media engine (stale yt refs block the second start).
@@ -6809,6 +6900,9 @@ export default function useTuneBookMediaController(props) {
             : (playbackRouteRef.current.mode === 'media' ? 'media' : playbackModeFromPathname(pathname))
         const queueAdvanceParams = {
             getLatestQueue: getActiveNowPlayingQueue,
+            // Explicit null when logged out — do not fall back to a stale health-store token.
+            accessToken: getGoogleAccessToken(),
+            resolverStatus: mediaResolverStatus,
         }
         let advanceEndRetried = false
         const failCallback = function(reason) {
@@ -7902,8 +7996,10 @@ export default function useTuneBookMediaController(props) {
             if (activeSrc && requiresResolverProxiedPlayback(activeSrc) && !cachedNativeBlobUrlRef.current) {
                 setIsLoading(true)
                 ensureProxiedNativeAudioBlob(activeSrc).then(function(ok) {
-                    if (ok && hasActivePlaybackIntent()) {
+                    if (ok === true && hasActivePlaybackIntent()) {
                         playNativeMedia(srcType, opts)
+                    } else if (ok === 'login_required') {
+                        // Waiting for login; toast already shown. Resume after auth.
                     } else if (!ok) {
                         handleMediaPlaybackFailure()
                     }
@@ -8207,6 +8303,7 @@ export default function useTuneBookMediaController(props) {
         userGesturePlayRef.current = false
         setIsPlaying(false)
         setIsLoading(false)
+        cancelPlaylistTitleAnnouncement()
         if (isMidiPlaybackRoute() && !isAndroidNativeOutputActive()) {
             if (invalidatePendingMidiStartsRef.current) {
                 invalidatePendingMidiStartsRef.current()
@@ -8260,6 +8357,7 @@ export default function useTuneBookMediaController(props) {
         setIsLoading(false)
         setTapToPlay(false)
         setPlayCancelled(false)
+        cancelPlaylistTitleAnnouncement()
         clearYoutubeAutostartWatchdog()
         cleanupTimers()
         stopPlaybackKeepAlive()
@@ -8443,7 +8541,7 @@ export default function useTuneBookMediaController(props) {
     }, [])
     
     
-    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, hasPendingPlayRequest, flushPendingPlayRequest, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, getProcessedMediaExportFilename, buildProcessedMediaExport, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, getSynthAudioContextRef, resumeMidiFileAudioContextRef, getMidiFileAudioContextRef, pauseSynthRef, suspendSynthAudioContextForNativeRef, stopMetronomeRef, invalidatePendingMidiStartsRef, isMidiKickoffActiveRef, armPlaybackFromZeroRef, getRhythmPlaybackPhaseRef, getRhythmDiagnosticsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, tapToPlayReason, setTapToPlay, dismissLoadFailurePrompt, reportPlaybackFailure: handleMediaPlaybackFailure, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, isAndroidNativeOutputActive, isAndroidNativePlaybackStarting, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, shouldSuppressPlaybackEndSeek, shouldAdvanceQueueOnPlaybackEnd, usesExternalPitchTempo, shouldSuppressHtml5AudioSrc, shouldSuppressYoutubeEmbed, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, clearMidiEngineRegistrationFallback, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, needsPlaybackKickoff, kickPlaybackAfterEngineReady, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, isLinkedMediaPlaybackInFlight, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl, remoteOutputEngineRef, setRemoteOutputHandlers, setSnapcastOutputHandlers, setPreferredOutputCoordinator, isRemoteOutputActive, muteLocalOutputsForRemote, applyOutputDevice, reapplyStoredOutputDevice, getPlaybackAudioContexts, prefetchTuneMediaLink}
+    return {play, playFromUserGesture, preparePlaybackFromUserGesture, requestPlayback, hasPendingPlayRequest, flushPendingPlayRequest, consumePendingPlayRequest, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, seekToSeconds, seekBySeconds, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyLivePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, stemAnalysisProgress, stemsReadyForMedia, hasStemsForCurrentMedia, analyseMediaStems, cancelStemAnalysis, getProcessedMediaExportFilename, buildProcessedMediaExport, saveProcessedMediaToFile, getDemucsModel, getAvailableAudioFilterKeys, getAvailableStemNames, availableStemNames, pitchShiftPreparing, finishPitchShiftPrepareRef, applyPlaybackSettingsLiveRef, applyMidiTempoRef, applyPlaybackVolumeRef, resumeSynthAudioContextRef, getSynthAudioContextRef, resumeMidiFileAudioContextRef, getMidiFileAudioContextRef, pauseSynthRef, suspendSynthAudioContextForNativeRef, stopMetronomeRef, invalidatePendingMidiStartsRef, isMidiKickoffActiveRef, armPlaybackFromZeroRef, getRhythmPlaybackPhaseRef, getRhythmDiagnosticsRef, stopMidiSynthRef, playMidiRef, pendingMidiPlayRef, notationPlaybackStartSecondsRef, notationPlaybackSeekRef, notationStaffCursorRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, playMidiFileRef, pauseMidiFileRef, seekMidiFileRef, getMidiFilePlaybackSecondsRef, applyMidiFileTempoRef, prepareMidiFileLinkRef, pendingMidiFilePlayRef, flushPendingMidiFilePlay, stopMidiFileRef, userGesturePlayRef, mediaLinkNumber, playbackRouteMode, requestedPlayState, setMediaLinkNumber, getSrc, getSrcType, getLinkedMediaResolveOptions, getGoogleAccessToken, playbackSpeed, setPlaybackSpeed, playbackVolume, setPlaybackVolume, adjustPlaybackVolume, playbackVolumeStep: PLAYBACK_VOLUME_STEP, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, tapToPlayReason, setTapToPlay, dismissLoadFailurePrompt, reportPlaybackFailure: handleMediaPlaybackFailure, playlistStalled, clearPlaylistStall, playCancelled, setPlayCancelled, notationMidiOwner, setNotationMidiOwner, startNotationMidiPlayback, stopNotationMidiPlayback, clearNotationPlayRetry, prepareExternalMedia, destroyExternalMedia, notifyYoutubeSrcChanged, clearYoutubePlayerRef, resetPracticeMediaPlayback, pauseYoutubeOutputOnly, silencePlaybackOutputs, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, isExternalOutputActive, isAndroidNativeOutputActive, isAndroidNativePlaybackStarting, nativePlaybackFallbackRequired, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, recoverUnexpectedNativePause, shouldSuppressPlaybackEndSeek, shouldAdvanceQueueOnPlaybackEnd, usesExternalPitchTempo, shouldSuppressHtml5AudioSrc, shouldSuppressYoutubeEmbed, mediaResolverAvailable, mediaResolverChecked, mediaResolverStatus, resolverFeatures, stemsCapabilityAvailable, mediaResolverFeaturesEnabled: stemsCapabilityAvailable, refreshMediaResolverHealth, resumeAudioContextAndPlay, resumeExternalAudioContextFromGesture, clearMidiEngineRegistrationFallback, ensureStemLivePlaybackHandoff, primeStemPlaybackEngine, prepareStemFilterHandoff, confirmPlayingStarted, abortPlayingIntent, armPlaybackIntent, needsPlaybackKickoff, kickPlaybackAfterEngineReady, hasPlayingIntent, hasActivePlaybackIntent, isPracticeSessionActive, isSeekGuardActive, isMidiPlaybackRoute, isMidiFileMediaRoute, isMediaPlaybackRoute, isLinkedMediaPlaybackInFlight, applyPlaybackRoute, maybeAutostart, setPracticeSessionHandler, setPracticeSessionActive, invokePracticeSessionHandler, captureSuspendedQueuePlayback, restoreSuspendedQueuePlayback, consumeQueuePlaybackResume, getPlaybackHandoffPosition, applyPreservedPlaybackPosition, getActivePreparedMediaSrc, shouldPreserveMediaEngineOnHostHandoff, nativePlaybackSrcOverride, clearCachedNativePlaybackUrl, remoteOutputEngineRef, setRemoteOutputHandlers, setSnapcastOutputHandlers, setPreferredOutputCoordinator, isRemoteOutputActive, muteLocalOutputsForRemote, applyOutputDevice, reapplyStoredOutputDevice, getPlaybackAudioContexts, prefetchTuneMediaLink}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

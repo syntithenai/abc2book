@@ -13,7 +13,10 @@ import {
   flattenMelodyText,
   splitMelodyIntoBlocks,
 } from './lyricBarAlignmentUtils';
-import { melodyHasAnacrusisDoubleBarlines } from './melodyBarlineNormalize';
+import {
+  melodyHasAnacrusisDoubleBarlines,
+  melodyHasMidBlockDoubleBarlines,
+} from './melodyBarlineNormalize';
 import { analyzeSectionPickupVoltaBoundaries } from './sectionPickupVolta';
 import { hasOpenRepeatBeforeDoubleBar } from './repeatStrainFix';
 
@@ -372,6 +375,17 @@ function checkAnacrusisDoubleBarline(noteLines) {
   return issues;
 }
 
+function checkMidBlockDoubleBarline(noteLines) {
+  const issues = [];
+  if (!melodyHasMidBlockDoubleBarlines(noteLines)) return issues;
+  issues.push(issue(
+    'mid_block_double_barline',
+    'Double barlines (||) appear between bars inside a section; use single | mid-section and || only at section ends',
+    'warning'
+  ));
+  return issues;
+}
+
 function checkSectionPickupAsVolta(noteLines, durationIssues, parsedTune) {
   const issues = [];
   const boundaries = analyzeSectionPickupVoltaBoundaries(noteLines, durationIssues, parsedTune);
@@ -483,6 +497,7 @@ export function checkTuneAbcStructure(tune, options) {
   issues.push.apply(issues, checkScoreFinish(noteLines));
   issues.push.apply(issues, checkStanzaStrain(tune, noteLines));
   issues.push.apply(issues, checkAnacrusisDoubleBarline(noteLines));
+  issues.push.apply(issues, checkMidBlockDoubleBarline(noteLines));
   issues.push.apply(issues, checkHeaderConsistency(tune, abcText, abcTools));
 
   const abcForParse = abcForAbcjs(abcText);

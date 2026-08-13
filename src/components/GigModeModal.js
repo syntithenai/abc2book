@@ -30,7 +30,7 @@ import {
   defaultViewModeForTune,
   getAvailableDisplayFlags,
 } from '../viewModeUtils';
-import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout';
+import { resolveTuneDisplayLayout, isViewModesEmpty, isStructureOnlyLayout } from '../tuneDisplayLayout';
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings';
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
 import {
@@ -165,14 +165,17 @@ export default function GigModeModal(props) {
     return chordTransposeWithCapo(totalTranspose, capoState.capoOffset, capoState.capoEnabled);
   }, [currentTune, setItem, capoState.capoOffset, capoState.capoEnabled]);
 
+  const structureMelodyNoteLines = useMemo(function() {
+    if (!currentTune || !currentTune.voices || Object.keys(currentTune.voices).length === 0) return [];
+    const firstVoice = Object.values(currentTune.voices)[0];
+    return firstVoice && Array.isArray(firstVoice.notes) ? firstVoice.notes : [];
+  }, [currentTune]);
+
   const melodyChordChart = useMemo(function() {
     if (!currentTune || !tunebook) return '';
     try {
-      const firstVoice = currentTune.voices && Object.keys(currentTune.voices).length > 0
-        ? Object.values(currentTune.voices)[0]
-        : { notes: [] };
       return abcjsParser.renderChords(
-        tunebook.abcTools.emptyABC(currentTune.name) + (firstVoice.notes || []).join('\n'),
+        tunebook.abcTools.emptyABC(currentTune.name) + structureMelodyNoteLines.join('\n'),
         false,
         chordTranspose,
         currentTune.key,
@@ -182,7 +185,7 @@ export default function GigModeModal(props) {
     } catch (e) {
       return '';
     }
-  }, [currentTune, tunebook, abcjsParser, chordTranspose]);
+  }, [currentTune, tunebook, abcjsParser, chordTranspose, structureMelodyNoteLines]);
 
   const hasAbcChords = useMemo(function() {
     if (!currentTune || !tunebook) return false;
@@ -474,8 +477,9 @@ export default function GigModeModal(props) {
   const syncLyricsStructure = !!layout.syncLyricsStructure;
   const lyricsStructureFitHeight = fitHeightOn && !showNotation && syncLyricsStructure;
   const lyricsFitHeight = fitHeightOn && !showNotation && showLyrics && !syncLyricsStructure;
-  // Structure always height-fits the viewport; Fit height only controls lyrics/notation.
+  const structureOnlyView = showStructure && !syncLyricsStructure && isStructureOnlyLayout(displayFlags);
   const structureFitHeight = showStructure && !syncLyricsStructure;
+  const structureFitHeightGrow = structureOnlyView;
 
   const structureChordChart = melodyChordChart;
 
@@ -489,6 +493,7 @@ export default function GigModeModal(props) {
         zoom={displayZoom}
         fitHeight={lyricsStructureFitHeight}
         chords={structureChordChart}
+        melodyNoteLines={structureMelodyNoteLines}
         showCapoControl={false}
         capoOffset={capoState.capoOffset}
         capoEnabled={capoState.capoEnabled}
@@ -499,14 +504,14 @@ export default function GigModeModal(props) {
   ) : null;
 
   const lyricsPanel = currentTune && showLyricsContent && !syncLyricsStructure ? (
-    <div className={`music-view-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
+    <div className={`music-view-lyrics tune-panel-lyrics lyrics-zoom-host${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`} style={{ fontSize: displayZoom + 'em' }}>
       <TimedLyricsChordsView
         tune={currentTune}
         tunebook={tunebook}
         chordTranspose={chordTranspose}
         hideChords={hideChordsInText}
         suppressLeadingTitle={true}
-        zoom={displayZoom}
+        inheritZoom={true}
         fitHeight={lyricsFitHeight}
       />
     </div>
@@ -517,7 +522,9 @@ export default function GigModeModal(props) {
       <StructureChordBlock
         chords={structureChordChart}
         tune={currentTune}
+        melodyNoteLines={structureMelodyNoteLines}
         fitHeight={structureFitHeight}
+        fitHeightGrow={structureFitHeightGrow}
         showCapoControl={false}
         capoOffset={capoState.capoOffset}
         capoEnabled={capoState.capoEnabled}
@@ -611,7 +618,7 @@ export default function GigModeModal(props) {
                 <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
                 <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
               </ButtonGroup>
-              {availableFlags.lyrics && !fitHeightOn ? (
+              {showLyricsContent && availableFlags.lyrics && !fitHeightOn ? (
                 <LyricsZoomControls
                   className="gig-mode-zoom-group"
                   zoom={fontScale}

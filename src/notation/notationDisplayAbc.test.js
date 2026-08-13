@@ -179,6 +179,26 @@ describe('buildAbcPreviewFromBodies', function() {
     expect(displayAbc).not.toMatch(/"\[Verse\]"/);
     expect(displayAbc).toMatch(/"C"/);
   });
+
+  test('includeLyrics false omits under-staff w: lines', function() {
+    const tuneWithLyrics = Object.assign({}, tune, {
+      words: ['Hel- lo'],
+      wLines: ['Hel- lo'],
+      voices: {
+        1: { meta: 'Melody', notes: ['C D E |'] },
+      },
+    });
+    const withLyrics = buildAbcPreviewFromBodies(tuneWithLyrics, tunebook, ['1'], {
+      1: 'C D E |',
+    });
+    const withoutLyrics = buildAbcPreviewFromBodies(tuneWithLyrics, tunebook, ['1'], {
+      1: 'C D E |',
+    }, { includeLyrics: false });
+    expect(withLyrics).toMatch(/^w:/im);
+    expect(withoutLyrics).not.toMatch(/^w:/im);
+    expect(withoutLyrics).not.toMatch(/^W:/m);
+    expect(withoutLyrics).toMatch(/C D E/);
+  });
 });
 
 describe('applyStaffChordDisplayPolicy', function() {

@@ -1,5 +1,5 @@
 /**
- * Resolve playable tune IDs for a Books hub collection filter (book / tag / genre / artist).
+ * Resolve playable tune IDs for a Books hub collection filter (book / tag / genre / artist / album).
  */
 
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
@@ -22,9 +22,11 @@ export function getPlayableTuneIdsForCollection(tunebook, tunes, filter) {
   } else if (opts.tags && opts.tags.length) {
     list = tunebook.fromSearch('', null, opts.tags)
   } else if (opts.genres && opts.genres.length) {
-    list = tunebook.fromSearch('', null, [], tunes, opts.genres, opts.artists || [])
+    list = tunebook.fromSearch('', null, [], opts.genres, opts.artists || [], false, opts.albums || [])
   } else if (opts.artists && opts.artists.length) {
-    list = tunebook.fromSearch('', null, [], tunes, [], opts.artists)
+    list = tunebook.fromSearch('', null, [], [], opts.artists, false, opts.albums || [])
+  } else if (opts.albums && opts.albums.length) {
+    list = tunebook.fromSearch('', null, [], [], [], false, opts.albums)
   }
   if (!Array.isArray(list)) return []
   return list.filter(function(tune) {

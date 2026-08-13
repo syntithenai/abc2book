@@ -15,6 +15,7 @@ import { downloadAudioAnalysisComparePdf } from '../generateAudioAnalysisCompare
 import ShareAudioAnalysisCompareModal from './ShareAudioAnalysisCompareModal'
 import { labelLikelyModes, tapPeakShifts } from '../audioAnalysisTapCapture'
 import { drawSpectrum, drawSaunders, drawPerNoteHighlights } from '../audioAnalysisCompareCharts'
+import { captureSetupMismatch } from '../audioAnalysisShareUtils'
 
 const ALL_GROUPS = '__all__'
 const UNGROUPED = '__ungrouped__'
@@ -39,11 +40,18 @@ function DeltaHint(props) {
   )
 }
 
+function normalizeInitialGroupFilter(value) {
+  if (value == null || value === '' || value === ALL_GROUPS) return ALL_GROUPS
+  return value
+}
+
 export default function AudioAnalysisCompare(props) {
   const sharedMode = !!props.sharedMode
   const [groups, setGroups] = useState([])
   const [sets, setSets] = useState([])
-  const [groupFilter, setGroupFilter] = useState(ALL_GROUPS)
+  const [groupFilter, setGroupFilter] = useState(function() {
+    return normalizeInitialGroupFilter(props.initialGroupFilter)
+  })
   const [baselineId, setBaselineId] = useState('')
   const [candidateId, setCandidateId] = useState('')
   const spectrumRef = useRef(null)
@@ -52,6 +60,11 @@ export default function AudioAnalysisCompare(props) {
   const [pdfBusy, setPdfBusy] = useState(false)
   const [pdfError, setPdfError] = useState(null)
   const [tab, setTab] = useState('overview')
+
+  useEffect(function() {
+    if (sharedMode) return
+    setGroupFilter(normalizeInitialGroupFilter(props.initialGroupFilter))
+  }, [props.initialGroupFilter, sharedMode])
 
   useEffect(function() {
     if (sharedMode) return
@@ -142,6 +155,9 @@ export default function AudioAnalysisCompare(props) {
   }, [delta, baseline, candidate, bothBowed])
 
   const instrumentWarn = baseline && candidate && baseline.instrument !== candidate.instrument
+  const setupMismatch = useMemo(function() {
+    return captureSetupMismatch(baseline, candidate)
+  }, [baseline, candidate])
 
   const redrawCharts = useCallback(function() {
     if (!baseline || !candidate) return
@@ -264,9 +280,6 @@ export default function AudioAnalysisCompare(props) {
                 })}
               </Form.Select>
             </Form.Group>
-            <Button variant="secondary" onClick={function() { if (props.onBack) props.onBack() }}>
-              Back
-            </Button>
             {baseline && candidate ? (
               <>
                 <Button
@@ -315,6 +328,9 @@ export default function AudioAnalysisCompare(props) {
               {TUNER_INSTRUMENT_LABELS[candidate.instrument] || candidate.instrument}).
               Compare overlapping pitches only; treat results as relative tonality.
             </Alert>
+          ) : null}
+          {setupMismatch.message ? (
+            <Alert variant="warning">{setupMismatch.message}</Alert>
           ) : null}
           <Alert variant="info" className="small">
             {bothTap

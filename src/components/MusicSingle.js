@@ -36,16 +36,16 @@ import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
 import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFit'
 import { prepareTuneViewNotationAbc } from '../notation/notationDisplayAbc'
-import { isSectionMarkerChordName } from '../chordSheetUtils'
-import {
-  SINGLE_VIEW_EDIT_MODES,
+import { buildUniqueChordsMap, isSectionMarkerChordName } from '../chordSheetUtils'
+import { resolveTunesListPath } from '../searchFilterParams'
+import { SINGLE_VIEW_EDIT_MODES,
   viewModeToDisplayFlags,
   resolveDisplayFlagsForTune,
   defaultViewModeForTune,
   getAvailableDisplayFlags,
   showsMusicNotation,
 } from '../viewModeUtils'
-import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout'
+import { resolveTuneDisplayLayout, isViewModesEmpty, isStructureOnlyLayout } from '../tuneDisplayLayout'
 import { clampGigZoom, getTuneGigZoom } from '../gigDisplaySettings'
 import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
@@ -72,7 +72,7 @@ import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useTuneSnapshotRouteSync, { applyTuneSnapshotFromSearchParams } from '../useTuneSnapshotRouteSync'
-import { ensurePlainWordsFromNoteAlignedLyrics, getPlainLyricLines } from '../wLinesUtils'
+import { ensurePlainWordsFromNoteAlignedLyrics } from '../wLinesUtils'
 import { isMobilePlatform } from '../platformUtils'
 import useMusicToolbarWidth from '../useMusicToolbarWidth'
 import { isMusicToolbarCompact, isMusicToolbarFolded } from '../musicToolbarLayout'
@@ -85,6 +85,7 @@ import {
   filterActionableNotationManualCandidates,
   isMuseScoreUrl,
 } from '../chordSearchSites'
+import { melodyHasMidBlockDoubleBarlines } from '../melodyBarlineNormalize'
 
 function museScoreManualCandidates(manualCandidates) {
   return filterActionableNotationManualCandidates(manualCandidates).filter(function(item) {
@@ -131,7 +132,6 @@ export default function MusicSingle(props) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [autoStart, setAutoStart] = useState(false)
     const [hasSpoken, setHasSpoken] = useState(false)
-    const [squashLyrics, setSquashLyrics] = useState(false)
     const [tune, setTune] = useState(null)
     const [tuneLoadState, setTuneLoadState] = useState('idle')
     const [notationFitMode, setNotationFitModeState] = useState(function() {
@@ -156,6 +156,11 @@ export default function MusicSingle(props) {
     const [pdfToolbarHost, setPdfToolbarHost] = useState(null)
     const [showScratchpadCopyPicker, setShowScratchpadCopyPicker] = useState(false)
     const [copyToScratchpadBusy, setCopyToScratchpadBusy] = useState(false)
+    const [dismissMidBlockDoubleBarWarning, setDismissMidBlockDoubleBarWarning] = useState(false)
+
+    useEffect(function() {
+      setDismissMidBlockDoubleBarWarning(false)
+    }, [params.tuneId])
 
     useTuneSnapshotRouteSync(tune, function(next) {
       setTune(next)
@@ -388,7 +393,6 @@ export default function MusicSingle(props) {
     function setupTune() {
         let tune = props.tunes ? props.tunes[params.tuneId] : null
         if (tune) {
-           setLyricsZoom(getTuneGigZoom(tune))
            setFileViewZoom(1)
            if (tune.viewMode) {
                setNotationFitModeState(getTuneNotationFitMode(tune))
@@ -448,6 +452,11 @@ export default function MusicSingle(props) {
     },[params.tuneId,props.tunes])  //, params.mediaLinkNumber, params.playState
 
     useEffect(function() {
+        const saved = props.tunes && props.tunes[params.tuneId]
+        if (saved) setLyricsZoom(getTuneGigZoom(saved))
+    }, [params.tuneId])
+
+    useEffect(function() {
         setupTune()
         //return function() {
             //props.mediaController.setTune(null)
@@ -481,29 +490,26 @@ export default function MusicSingle(props) {
           <Alert variant="warning" className="m-2" role="status">
             <div>This tune could not be found. It may have been deleted or is not loaded yet.</div>
             <div className="mt-2">
-              <Button as={Link} to="/tunes" variant="primary" size="sm">Back to tune list</Button>
+              <Button as={Link} to={resolveTunesListPath({
+                currentTuneBook: props.currentTuneBook,
+                filter: props.filter,
+                tagFilter: props.tagFilter,
+                genreFilter: props.genreFilter,
+                artistFilter: props.artistFilter,
+                albumFilter: props.albumFilter,
+                groupBy: props.groupBy,
+              })} variant="primary" size="sm">Back to tune list</Button>
             </div>
           </Alert>
         )
     }
 
-    var words = {}
-        
     if (tune) {
-        var current = 0
-        getPlainLyricLines(tune).forEach(function(line) {
-          if (line && line.trim().length > 0) {
-              if (!Array.isArray(words[current])) words[current] = []
-              words[current].push(line)
-          } else {
-              current++
-          }
-        })
-        
         //<iframe src={link} ></iframe>
         const previewTune = filterTuneVoices(tune, getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune)))
         var firstVoice = previewTune.voices && Object.keys(previewTune.voices).length > 0 ? Object.values(previewTune.voices)[0] : {notes:[]}
         const hasAbcChords = props.tunebook.abcTools.hasChords(firstVoice.notes.join('\n'))
+        const hasMidBlockDoubleBarlines = melodyHasMidBlockDoubleBarlines(firstVoice.notes)
         function handleNotationChordClick(abcelem) {
           if (abcelem && Array.isArray(abcelem.chord) && abcelem.chord.length > 0) {
             const name = String(abcelem.chord[0].name || '')
@@ -521,15 +527,7 @@ export default function MusicSingle(props) {
         var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
         
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
-        var uniqueChords={}
-        chords.replaceAll("|",' ').split(' ').forEach(function(chord) {
-            var token = chord.trim()
-            if (!token) return
-            // Repeat / ending markers are not chord symbols (|: :| [1 …).
-            if (token === ':' || token === '|:' || token === ':|' || token === ':|:' || /^\[\d+$/.test(token) || /^\d+\.$/.test(token)) return
-            if (isSectionMarkerChordName(token)) return
-            uniqueChords[token] = true
-        })
+        var uniqueChords = buildUniqueChordsMap(chords)
         
         function getYouTubeId(url) {
             const arr = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -632,7 +630,12 @@ export default function MusicSingle(props) {
                 // Structure always height-fits the viewport (see StructureChordBlock).
                 const lyricsStructureFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && syncLyricsStructure
                 const lyricsFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && lyricsVisible && !syncLyricsStructure
+                const structureOnlyView = !fileOverlayActive
+                  && structureVisible
+                  && !syncLyricsStructure
+                  && isStructureOnlyLayout(viewFlags)
                 const structureFitHeight = !fileOverlayActive && structureVisible && !syncLyricsStructure
+                const structureFitHeightGrow = structureOnlyView
                 const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string'
                   ? tune.backgroundInfo.trim()
                   : ''
@@ -766,7 +769,7 @@ export default function MusicSingle(props) {
                     onChange={handleFileViewZoomChange}
                     tunebook={props.tunebook}
                   />
-                ) : availableFlags.lyrics && !fitHeightOn ? (
+                ) : showLyricsUi && availableFlags.lyrics && !fitHeightOn ? (
                   <LyricsZoomControls
                     zoom={lyricsZoom}
                     onChange={handleLyricsZoomChange}
@@ -906,7 +909,15 @@ export default function MusicSingle(props) {
                           if (window.confirm('Do you really want to delete this tune ?')) {
                             props.tunebook.deleteTune(tune.id)
                           }
-                          navigate('/tunes')
+                          navigate(resolveTunesListPath({
+                            currentTuneBook: props.currentTuneBook,
+                            filter: props.filter,
+                            tagFilter: props.tagFilter,
+                            genreFilter: props.genreFilter,
+                            artistFilter: props.artistFilter,
+                            albumFilter: props.albumFilter,
+                            groupBy: props.groupBy,
+                          }))
                         }}
                       >
                         {props.tunebook.icons.bin}
@@ -1203,6 +1214,32 @@ export default function MusicSingle(props) {
           {autoEnrichState.failure}
         </Alert>
       ) : null}
+      {hasMidBlockDoubleBarlines && !dismissMidBlockDoubleBarWarning ? (
+        <Alert
+          variant="warning"
+          className="m-2 mb-0"
+          data-testid="mid-block-double-barline-alert"
+          dismissible
+          onClose={function() { setDismissMidBlockDoubleBarWarning(true) }}
+        >
+          <div>
+            Double barlines (<code>||</code>) appear between bars inside a section.
+            That usually comes from an older chord import and breaks notation-based chord layout.
+            Use single <code>|</code> mid-section and keep <code>||</code> only at section ends.
+          </div>
+          <div className="mt-2">
+            <Button
+              size="sm"
+              variant="outline-primary"
+              as={Link}
+              to={'/editor/' + params.tuneId + '/notationAbc'}
+              data-testid="mid-block-double-barline-edit"
+            >
+              Edit ABC
+            </Button>
+          </div>
+        </Alert>
+      ) : null}
       <PasteChordSheetModal
         show={showAutoEnrichChordPaste}
         onHide={function() {
@@ -1210,20 +1247,17 @@ export default function MusicSingle(props) {
           dismissAddTuneAutoEnrichChordPaste(params.tuneId)
         }}
         tune={tune || {}}
-        forceUpdateLyrics={false}
-        initialUpdateLyrics={!shouldSkipAbcMergeForChordPaste(tune)}
+        forceAbcMerge={false}
         initialLyricSheetOnly={shouldSkipAbcMergeForChordPaste(tune)}
         externalUrl={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.url
           ? autoEnrichState.chordPasteCandidate.url
           : ''}
-        externalLinkLabel={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.searchFallback
-          ? 'Search Ultimate Guitar'
-          : ('Open ' + ((autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.source) || 'Ultimate Guitar'))}
+        externalLinkLabel={'Open ' + ((autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.source) || 'Ultimate Guitar')}
         externalSourceTitle={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.title
           ? autoEnrichState.chordPasteCandidate.title
           : ''}
         externalHelpText={shouldSkipAbcMergeForChordPaste(tune)
-          ? 'Notation and lyrics are already on this tune. Open the page, copy chords (and lyrics if needed), paste below, then Import — ABC notation will be left unchanged.'
+          ? 'Notation is already on this tune. Open the page, copy chords and lyrics, paste below, then Import — ABC notation will be left unchanged.'
           : 'Chords were found on a site that blocks automatic import. Open the page, copy the lyrics and chords, paste them below, then Import.'}
         onSaveSections={function(result) {
           if (!result || !tune) return
@@ -1233,12 +1267,12 @@ export default function MusicSingle(props) {
             tune: tune,
             tunebook: props.tunebook,
             abcjsParser: abcjsParser,
-            forceUpdateLyrics: false,
+            forceUpdateLyrics: true,
             skipAbcMerge: skipAbc,
             historyLabel: result.historyLabel
               || (skipAbc
                 ? 'Paste chords (keep notation)'
-                : (result.updateLyrics ? 'Paste chords and lyrics' : 'Paste chords')),
+                : 'Paste chords and lyrics'),
           })
           if (!committed || !committed.ok) return
           setTune(Object.assign({}, tune))
@@ -1331,7 +1365,7 @@ export default function MusicSingle(props) {
 
 
               
-             <div className={`music-single-panels tune-display-panels ${layout.layoutClass}${!fileOverlayActive && notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : ''}${fileOverlayActive ? ' music-single-panels--file-overlay' : ''}`}>
+             <div className={`music-single-panels tune-display-panels ${layout.layoutClass}${!fileOverlayActive && fitHeightOn ? ' music-panels-fit-height' : ''}${fileOverlayActive ? ' music-single-panels--file-overlay' : ''}`}>
                {viewModesEmpty ? (
                  <div className="tune-view-modes-empty" role="status">
                    <div className="tune-view-modes-empty-title">
@@ -1356,55 +1390,47 @@ export default function MusicSingle(props) {
                {lyricsVisible && (
                  <div className={`music-body-lyrics tune-panel-lyrics${syncLyricsStructure ? ' tune-panel-lyrics-structure-sync' : ''}${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`} style={showLyricsUi ? undefined : {display:'none'}}>
                    <div className="lyrics-panel-inner">
-                     <div className="lyrics-panel-header">
-                       {Object.keys(words).length > 0 && <Button style={{marginRight:'1em'}} onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
-                       <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} forceRefresh={props.forceRefresh} token={props.token} />
-                       {tune.composer && <span className="lyrics-panel-composer"> - {tune.composer}</span>}
-                     </div>
-                     {!squashLyrics ? (
-                       syncLyricsStructure ? (
-                         <LyricsStructureSyncPanel
-                           tune={tune}
-                           tunebook={props.tunebook}
-                           chordTranspose={chordTranspose}
-                           hideChords={!chordsAnnotate}
-                           zoom={lyricsZoom > 0 ? lyricsZoom : 1}
-                           fitHeight={lyricsStructureFitHeight}
-                           chords={chords}
-                           uniqueChords={uniqueChords}
-                           useInstrument={useInstrument}
-                           showCapoControl={structureVisible}
-                           capoOffset={capoState.capoOffset}
-                           capoEnabled={capoState.capoEnabled}
-                           onCapoToggle={capoState.toggleCapo}
-                           onCapoOffsetChange={handleCapoOffsetChange}
-                         />
-                       ) : (
+                     {!syncLyricsStructure ? (
+                       <div className="lyrics-panel-header">
+                         <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} forceRefresh={props.forceRefresh} token={props.token} />
+                         {tune.composer && <span className="lyrics-panel-composer"> - {tune.composer}</span>}
+                       </div>
+                     ) : null}
+                     {syncLyricsStructure ? (
+                       <LyricsStructureSyncPanel
+                         tune={tune}
+                         tunebook={props.tunebook}
+                         chordTranspose={chordTranspose}
+                         hideChords={!chordsAnnotate}
+                         zoom={lyricsZoom > 0 ? lyricsZoom : 1}
+                         fitHeight={lyricsStructureFitHeight}
+                         chords={chords}
+                         melodyNoteLines={firstVoice.notes}
+                         uniqueChords={uniqueChords}
+                         useInstrument={useInstrument}
+                         showCapoControl={structureVisible}
+                         capoOffset={capoState.capoOffset}
+                         capoEnabled={capoState.capoEnabled}
+                         onCapoToggle={capoState.toggleCapo}
+                         onCapoOffsetChange={handleCapoOffsetChange}
+                         lyricsHeader={(
+                           <>
+                             <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} forceRefresh={props.forceRefresh} token={props.token} />
+                             {tune.composer && <span className="lyrics-panel-composer"> - {tune.composer}</span>}
+                           </>
+                         )}
+                       />
+                     ) : (
+                       <div className="lyrics-zoom-host" style={{ fontSize: (lyricsZoom > 0 ? lyricsZoom : 1) + 'em' }}>
                          <TimedLyricsChordsView
                            tune={tune}
                            tunebook={props.tunebook}
                            chordTranspose={chordTranspose}
                            hideChords={!chordsAnnotate}
                            suppressLeadingTitle={true}
-                           zoom={lyricsZoom > 0 ? lyricsZoom : 1}
+                           inheritZoom={true}
                            fitHeight={lyricsFitHeight}
                          />
-                       )
-                     ) : (
-                       <div className="lyrics" style={{fontSize:(lyricsZoom > 0 ? lyricsZoom : 1) * 100+'%', paddingLeft:'0.3em', marginTop:'2.5em'}}>
-                         {Object.keys(words).map(function(key) {
-                           return <div key={key} className="lyrics-block" style={{paddingTop:'1em', paddingBottom:'1em', pageBreakInside:'avoid'}}>
-                             <div className="lyrics-line">{words[key][0]}</div>
-                             {words[key].length > 1 && (
-                               <div className="lyrics-line-first words">
-                                 {words[key].slice(1).map(function(line, lk) {
-                                   var parts = line.trim().split(' ')
-                                   return <span key={lk}>{parts[0]} {parts[1]}...</span>
-                                 })}
-                               </div>
-                             )}
-                           </div>
-                         })}
                        </div>
                      )}
                    </div>
@@ -1414,12 +1440,20 @@ export default function MusicSingle(props) {
                {/* Structure (chord block) panel */}
                {structureVisible && !syncLyricsStructure && (
                  <div className={`music-body-chords tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}`} style={showStructureUi ? undefined : {display:'none'}}>
+                   {structureOnlyView && showStructureUi ? (
+                     <div className="title music-tune-heading music-structure-only-heading">
+                       {tune.name}
+                       {tune.composer ? <span className="music-tune-composer"> - {tune.composer}</span> : null}
+                     </div>
+                   ) : null}
                    <StructureChordBlock
                      chords={chords}
                      uniqueChords={uniqueChords}
                      useInstrument={useInstrument}
                      tune={tune}
+                     melodyNoteLines={firstVoice.notes}
                      fitHeight={structureFitHeight}
+                     fitHeightGrow={structureFitHeightGrow}
                      showCapoControl={true}
                      capoOffset={capoState.capoOffset}
                      capoEnabled={capoState.capoEnabled}
@@ -1433,7 +1467,7 @@ export default function MusicSingle(props) {
              
              
              {mountMediaEngine && (
-               <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook} tune={tune} onEnded={onEnded} />
+               <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook} tune={tune} token={props.token} user={props.user} googleDocumentId={props.googleDocumentId} login={props.login} onEnded={onEnded} />
              )}
 
              {(viewFlags.info && backgroundInfoText) || tuneBooks.length > 0 || tuneTags.length > 0 || tuneAlbums.length > 0 ? (

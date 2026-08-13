@@ -2,10 +2,12 @@ import json
 import os
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import AsyncMock, patch
 
+from fastapi.testclient import TestClient
 from music_collection import (
     build_music_collection_candidate,
+    build_music_collection_entry_url,
     build_music_collection_public_url,
     ensure_music_collection_art_file,
     infer_title_artist_from_query,
@@ -41,6 +43,12 @@ class MusicCollectionHelperTests(unittest.TestCase):
             "/music-collection/Altan/Sally%20Gardens.mp3",
         )
 
+    def test_build_entry_url(self):
+        self.assertEqual(
+            build_music_collection_entry_url("42", request_base_url="https://resolver.example"),
+            "https://resolver.example/music-collection-by-entry/42",
+        )
+
     def test_build_candidate(self):
         candidate = build_music_collection_candidate({
             "id": "0",
@@ -54,6 +62,7 @@ class MusicCollectionHelperTests(unittest.TestCase):
         }, request_base_url="https://resolver.example")
         self.assertEqual(candidate["source"], "music-collection")
         self.assertEqual(candidate["path"], "Altan/sally.mp3")
+        self.assertIn("/music-collection-by-entry/0", candidate["collectionEntryLink"])
         self.assertIn("/music-collection/Altan/sally.mp3", candidate["link"])
         self.assertIn("/music-collection-art/0", candidate["image"])
 
@@ -314,6 +323,48 @@ class MusicCollectionAccessTests(unittest.TestCase):
             clear=False,
         ):
             self.assertTrue(music_collection_access_allowed(None, require_auth=False))
+
+
+class MusicCollectionServerTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = self.tmp.name
+        os.makedirs(os.path.join(self.root, "folk"), exist_ok=True)
+        with open(os.path.join(self.root, "folk", "sally.mp3"), "wb") as handle:
+            handle.write(b"ID3demo")
+        with open(os.path.join(self.root, "music_collection_index.json"), "w", encoding="utf-8") as handle:
+            json.dump({
+                "version": 1,
+                "entries": {
+                    "42": {
+                        "title": "Sally",
+                        "artist": "Altan",
+                        "path": "folk/sally.mp3",
+                    },
+                },
+                "tokens": {},
+            }, handle)
+        self.env = patch.dict(os.environ, {"MUSIC_COLLECTION_DIR": self.root})
+        self.env.start()
+        import server
+
+        self.server = server
+        self.client = TestClient(server.app)
+
+    def tearDown(self):
+        self.env.stop()
+        self.tmp.cleanup()
+
+    def test_music_collection_by_entry_serves_audio(self):
+        with patch.object(self.server, "require_music_collection_access", new=AsyncMock(return_value=None)):
+            response = self.client.get("/music-collection-by-entry/42")
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.content, b"ID3demo")
+
+    def test_music_collection_by_entry_404s_for_missing_id(self):
+        with patch.object(self.server, "require_music_collection_access", new=AsyncMock(return_value=None)):
+            response = self.client.get("/music-collection-by-entry/999")
+        self.assertEqual(response.status_code, 404)
 
 
 if __name__ == "__main__":

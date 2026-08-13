@@ -7,6 +7,7 @@ import GroupBySelectorModal from './GroupBySelectorModal'
 import TagsSearchSelectorModal from './TagsSearchSelectorModal'
 import GenreSearchSelectorModal from './GenreSearchSelectorModal'
 import ArtistSearchSelectorModal from './ArtistSearchSelectorModal'
+import AlbumSearchSelectorModal from './AlbumSearchSelectorModal'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import VoiceFillInput from './VoiceFillInput'
 import { trackSearch } from '../analytics'
@@ -30,6 +31,7 @@ export default function IndexSearchForm(props) {
         || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0)
         || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0)
         || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0)
+        || (Array.isArray(props.albumFilter) && props.albumFilter.length > 0)
     )
     const tuneCount = props.tunes ? Object.keys(props.tunes).length : 0
 
@@ -101,6 +103,7 @@ export default function IndexSearchForm(props) {
         props.setTagFilter([])
         if (props.setGenreFilter) props.setGenreFilter([])
         if (props.setArtistFilter) props.setArtistFilter([])
+        if (props.setAlbumFilter) props.setAlbumFilter([])
         if (props.setStarredFilter) props.setStarredFilter(false)
         props.setSelected({})
         props.setSelectedCount(0)
@@ -123,7 +126,7 @@ export default function IndexSearchForm(props) {
                 setOverwriteWarning(true)
                 return
             }
-            var payload = { name: saveName, filter: props.filter || '', groupBy: props.groupBy || '', tagFilter: props.tagFilter || [], genreFilter: props.genreFilter || [], artistFilter: props.artistFilter || [], currentTuneBook: props.currentTuneBook || '' }
+            var payload = { name: saveName, filter: props.filter || '', groupBy: props.groupBy || '', tagFilter: props.tagFilter || [], genreFilter: props.genreFilter || [], artistFilter: props.artistFilter || [], albumFilter: props.albumFilter || [], currentTuneBook: props.currentTuneBook || '' }
             list[saveName] = payload
             window.localStorage.setItem('bookstorage_saved_filters', JSON.stringify(list))
             toast.success('Saved filter "' + saveName + '"')
@@ -164,6 +167,7 @@ export default function IndexSearchForm(props) {
         var hasTags = Array.isArray(props.tagFilter) && props.tagFilter.length > 0
         var hasGenres = Array.isArray(props.genreFilter) && props.genreFilter.length > 0
         var hasArtists = Array.isArray(props.artistFilter) && props.artistFilter.length > 0
+        var hasAlbums = Array.isArray(props.albumFilter) && props.albumFilter.length > 0
 
         return <>
             {(!activeOnly || props.starredFilter) ? renderStarredFilterToggle(hideSelection) : null}
@@ -239,6 +243,22 @@ export default function IndexSearchForm(props) {
                     hideSelection={hideSelection}
                     onChange={function(val) {
                         props.setArtistFilter(val)
+                        props.forceRefresh()
+                    }}
+                />
+            ) : null}
+
+            {(!activeOnly || hasAlbums) ? (
+                <AlbumSearchSelectorModal
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                    forceRefresh={props.forceRefresh}
+                    tunebook={props.tunebook}
+                    defaultOptions={props.tunebook.getTuneAlbumOptions}
+                    searchOptions={props.tunebook.getSearchTuneAlbumOptions}
+                    value={props.albumFilter}
+                    hideSelection={hideSelection}
+                    onChange={function(val) {
+                        props.setAlbumFilter(val)
                         props.forceRefresh()
                     }}
                 />

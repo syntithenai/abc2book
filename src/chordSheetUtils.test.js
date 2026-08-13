@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
 import { normalizeLyricStructure } from './lyricStructureUtils';
 
 describe('chordSheetUtils', function() {
@@ -9,6 +9,24 @@ describe('chordSheetUtils', function() {
     ['I', 'really', 'like', 'Christmas', 'Oh'].forEach(function(w) {
       expect(tokenIsChord(w)).toBe(false);
     });
+  });
+
+  test('ensureLeadingMeterMarker prepends header metre when missing', function() {
+    expect(ensureLeadingMeterMarker('Dm / / Cm / |', '5/4')).toBe('[M:5/4] Dm / / Cm / |');
+    expect(ensureLeadingMeterMarker('[M:4/4] F |', '5/4')).toBe('[M:4/4] F |');
+    expect(ensureLeadingMeterMarker('', '5/4')).toBe('');
+  });
+
+  test('parseChordChartDisplayLine extracts stacked metre parts', function() {
+    const parts = parseChordChartDisplayLine('[M:5/4] Dm / / Cm / |');
+    expect(parts[0]).toEqual({
+      type: 'meter',
+      label: '5/4',
+      num: '5',
+      den: '4',
+      text: '[M:5/4]',
+    });
+    expect(parts.some(function(p) { return p.type === 'text' && /Dm/.test(p.text); })).toBe(true);
   });
 
   test('identifies chord-only lines', function() {
@@ -59,6 +77,9 @@ describe('chordSheetUtils', function() {
   test('normalizeSectionType maps v1 to verse', function() {
     expect(normalizeSectionType('v1')).toBe('verse');
     expect(normalizeSectionType('[V2]')).toBe('verse');
+    expect(normalizeSectionType('Verse2')).toBe('verse');
+    expect(normalizeSectionType('[Verse2]')).toBe('verse');
+    expect(normalizeSectionType('verse-2')).toBe('verse');
   });
 
   test('wrapChordGridBars wraps every 8 bars and keeps section blanks', function() {
@@ -95,8 +116,19 @@ describe('chordSheetUtils', function() {
     expect(isSectionHeader('– solo')).toBe(true);
     expect(isSectionHeader('- Instrumental')).toBe(true);
     expect(isSectionHeader('— Solo (x 2)')).toBe(true);
-    expect(isSectionHeader('# I really like Christmas')).toBe(false);
+    expect(isSectionHeader('# I really like Christmas')).toBe(true);
     expect(isSectionHeader('first verse words here')).toBe(false);
+  });
+
+  test('recognises hash section headers with optional meter and without a space after #', function() {
+    expect(isSectionHeader('# bridge  3/4')).toBe(true);
+    expect(isSectionHeader('#bridge  3/4')).toBe(true);
+    expect(isSectionHeader('#bridge 3/4')).toBe(true);
+    expect(isSectionHeader('#verse 4/4')).toBe(true);
+    expect(isSectionHeader('#chorus 6/8')).toBe(true);
+    expect(normalizeSectionType('#bridge  3/4')).toBe('bridge');
+    expect(normalizeSectionType('# bridge  3/4')).toBe('bridge');
+    expect(normalizeSectionType('#verse 4/4')).toBe('verse');
   });
 
   test('splitBlocksOnInteriorHeaders separates consecutive section markers', function() {
@@ -105,6 +137,150 @@ describe('chordSheetUtils', function() {
       ['# Verse 3'],
       ['– solo'],
       ['# Chorus 3', 'sing'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks merges mid-verse blanks before a later section header', function() {
+    const lyrics = [
+      '# Verse I',
+      'first half one',
+      'first half two',
+      '',
+      'second half one',
+      'second half two',
+      '',
+      '# Chorus',
+      'hook line one',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['# Verse I', 'first half one', 'first half two', 'second half one', 'second half two'],
+      ['# Chorus', 'hook line one'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks does not absorb unlabeled verses into a labeled chorus', function() {
+    const lyrics = [
+      'verse one a',
+      'verse one b',
+      'verse one c',
+      'verse one d',
+      '',
+      '# CHORUS',
+      'hook a',
+      'hook b',
+      'hook c',
+      'hook d',
+      '',
+      'verse two a',
+      'verse two b',
+      'verse two c',
+      'verse two d',
+      '',
+      '# CHORUS',
+      'hook a',
+      'hook b',
+      'hook c',
+      'hook d',
+      '',
+      'hook a',
+      'hook b',
+      'hook c',
+      'hook d',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['verse one a', 'verse one b', 'verse one c', 'verse one d'],
+      ['# CHORUS', 'hook a', 'hook b', 'hook c', 'hook d'],
+      ['verse two a', 'verse two b', 'verse two c', 'verse two d'],
+      ['# CHORUS', 'hook a', 'hook b', 'hook c', 'hook d'],
+      ['hook a', 'hook b', 'hook c', 'hook d'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks keeps verses separate when a double blank follows the title (Ripples)', function() {
+    const chorus = [
+      'Wibble wobble wending warp',
+      'Precocious paths parading',
+      'Historic hints highlight the way to the',
+      "here and now we're making",
+    ];
+    const lyrics = [
+      'Ripples - Steve Ryan 08/10/2024  (word=ripple, + earworm)',
+      '',
+      '',
+      'Mum would sit with, me each morning, for a tinkle, on the keys',
+      'From /such beginnings my teen band it used to cover ACDC',
+      'To The Pogues and the tunes and a festival life that fired in me a spark',
+      'Now my bestest friends are those who, I can jam it out with',
+      '',
+      '# CHORUS',
+    ].concat(chorus).concat([
+      '',
+      'Little Elon raised in Africa, he learned survivors  ways. At',
+      'nine, he lost his mummy when his folks went seperate ways',
+      'Veldskool and machismo pa, he learned he had to fight',
+      'Step over others on the way to psychopathic president Musk',
+      '',
+      '# CHORUS',
+    ]).concat(chorus).concat(['']).concat(chorus);
+
+    expect(normalizeLyricBlocks(lyrics).map(function(b) {
+      return { header: isSectionHeader(b[0]) ? b[0] : null, n: b.length };
+    })).toEqual([
+      { header: null, n: 1 },
+      { header: null, n: 4 },
+      { header: '# CHORUS', n: 5 },
+      { header: null, n: 4 },
+      { header: '# CHORUS', n: 5 },
+      { header: null, n: 4 },
+    ]);
+
+    const aligned = alignChordBlocksToLyrics(lyrics, [
+      '"Dm"zzzzzzzz|"C"zzzzzzzz||',
+      '"Dm"zzzz"F"zzzz||',
+    ], { title: 'Ripples', composer: 'Steve Ryan' });
+    expect(aligned.map(function(b) { return { type: b.type, n: b.lyricLines.length }; })).toEqual([
+      { type: 'verse', n: 4 },
+      { type: 'chorus', n: 4 },
+      { type: 'verse', n: 4 },
+      { type: 'chorus', n: 4 },
+      { type: 'chorus', n: 4 },
+    ]);
+  });
+
+  test('normalizeLyricBlocks leaves trailing unlabeled blocks after the last header', function() {
+    const lyrics = [
+      '[Verse 1]',
+      'verse words',
+      '',
+      'outro words with no section header',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['[Verse 1]', 'verse words'],
+      ['outro words with no section header'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks does not absorb verses into bare chorus markers', function() {
+    const lyrics = [
+      'With a hundred pipers, and all, and all',
+      'With a hundred pipers, and all, and all',
+      '',
+      'Oh it is over the border away, away',
+      'We will march to Carlisle Hall',
+      '',
+      '(chorus)',
+      '',
+      'Oh our soldier lads looked stout, looked stout',
+      'With their tartan kilts and all, and all',
+      '',
+      '(chorus)',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['With a hundred pipers, and all, and all', 'With a hundred pipers, and all, and all'],
+      ['Oh it is over the border away, away', 'We will march to Carlisle Hall'],
+      ['(chorus)'],
+      ['Oh our soldier lads looked stout, looked stout', 'With their tartan kilts and all, and all'],
+      ['(chorus)'],
     ]);
   });
 
@@ -328,6 +504,18 @@ describe('chordSheetUtils', function() {
     expect(shouldSoftJoinSingleBlanks(['a', '', 'b', '', 'c'])).toBe(false);
     expect(shouldSoftJoinSingleBlanks(['a', '', 'b', '', 'c', '', 'd'])).toBe(true);
     expect(shouldSoftJoinSingleBlanks(['a', 'b', '', 'c', '', '', 'd'])).toBe(true);
+    // Title double-blank + multi-line stanzas + # Chorus must not soft-join.
+    expect(shouldSoftJoinSingleBlanks([
+      'Ripples - Steve Ryan 08/10/2024',
+      '',
+      '',
+      'verse line one',
+      'verse line two',
+      '',
+      '# CHORUS',
+      'hook one',
+      'hook two',
+    ])).toBe(false);
   });
 
   test('normalizeSectionType groups repeated sections', function() {
@@ -347,6 +535,48 @@ describe('chordSheetUtils', function() {
       title: 'Verse',
       composer: 'Someone',
     })).toBe(false);
+  });
+
+  test('identifies whitespace-separated title/composer/date first lines as preface', function() {
+    expect(isLeadingTitleComposerLine('AI Opium Pipe - Steve Ryan 2024', {
+      firstBlockLineCount: 1,
+    })).toBe(true);
+    expect(isLeadingTitleComposerLine('Acid Charlotte Lyngbye (2019)', {
+      firstBlockLineCount: 1,
+    })).toBe(true);
+    expect(isLeadingTitleComposerLine('Since the earliest of days', {
+      firstBlockLineCount: 1,
+    })).toBe(false);
+    // Title sung as first line of a multi-line stanza must stay.
+    expect(isLeadingTitleComposerLine('Thula Mama', {
+      title: 'Thula Mama',
+      firstBlockLineCount: 3,
+    })).toBe(false);
+  });
+
+  test('stripLeadingBibliographicLyricPreface drops blank-separated meta line', function() {
+    const stripped = stripLeadingBibliographicLyricPreface([
+      'Song Title - Artist Name 2020',
+      '',
+      'first real lyric line',
+      '',
+      'second lyric line',
+    ]);
+    expect(stripped[0]).toBe('first real lyric line');
+    expect(stripped).not.toContain('Song Title - Artist Name 2020');
+  });
+
+  test('leading title/composer/date line does not consume first chord block', function() {
+    const lyrics = [
+      'Song Title - Composer Name 2018', '',
+      '[Verse 1]', 'first verse words', '',
+      '[Chorus]', 'chorus words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS']);
+    expect(aligned.length).toBe(2);
+    expect(aligned[0].prefaceLines).toEqual(['Song Title - Composer Name 2018']);
+    expect(aligned[0]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS' });
+    expect(aligned[1]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS' });
   });
 
   test('splitChordChartIntoBlocks splits at the blank lines emitted for double barlines', function() {
@@ -373,6 +603,40 @@ describe('chordSheetUtils', function() {
     expect(fillEmptyBarsWithSlash('| Am |')).toBe('/ | Am |');
     expect(fillEmptyBarsWithSlash('Fm | / | Am |')).toBe('Fm | / | Am |');
     expect(fillEmptyBarsWithSlash('Am G | D |')).toBe('Am G | D |');
+  });
+
+  test('expandHeldChordsForDisplay shows carried chord before mid-bar change', function() {
+    expect(expandHeldChordsForDisplay('D . . . | . . A . |')).toBe('D | D A |');
+    expect(formatChordChartForDisplay('D . . . | . . A . |')).toBe('D | D A |');
+    expect(expandHeldChordsForDisplay('D . . . | . . . A |')).toBe('D | D / / A |');
+    expect(expandHeldChordsForDisplay('G . F . |')).toBe('G F |');
+  });
+
+  test('expandHeldChordsForDisplay keeps 5/4 slash timing with leading [M:]', function() {
+    expect(expandHeldChordsForDisplay('[M:5/4] C / / G / |')).toBe('[M:5/4] C / / G / |');
+    expect(formatChordChartForDisplay('[M:5/4] C / / G / |')).toBe('[M:5/4] C / / G / |');
+    expect(formatChordChartForDisplay('C | [M:5/4] C / / G / |')).toBe('C | [M:5/4] C / / G / |');
+  });
+
+  test('expandHeldChordsForDisplay keeps pulse-level 5/4 timing after [M:]', function() {
+    expect(expandHeldChordsForDisplay('[M:5/4] C . . . . . . . G . |'))
+      .toBe('[M:5/4] C / / / G |');
+    expect(formatChordChartForDisplay('[M:5/4] C . . . . . . . G . |'))
+      .toBe('[M:5/4] C / / / G |');
+  });
+
+  test('fillEmptyBarsWithSlash preserves leading [M:] on empty bars', function() {
+    expect(fillEmptyBarsWithSlash('C | [M:5/4] | Am |')).toBe('C | [M:5/4] / | Am |');
+  });
+
+  test('formatBeatSoundingForDisplay omits slash when hold lengths are equal', function() {
+    expect(formatBeatSoundingForDisplay(['D', 'D', 'D', 'D']).tokens).toEqual(['D']);
+    expect(formatBeatSoundingForDisplay(['G', 'G', 'F', 'F']).tokens).toEqual(['G', 'F']);
+    expect(formatBeatSoundingForDisplay(['D', 'D', 'A', 'A']).tokens).toEqual(['D', 'A']);
+    expect(formatBeatSoundingForDisplay(['D', 'D', 'D', 'A']).tokens).toEqual(['D', '/', '/', 'A']);
+    expect(formatBeatSoundingForDisplay(['G', 'A', 'A', 'A']).tokens).toEqual(['G', 'A', '/', '/']);
+    expect(collapseSoundingToBeats(['D', 'D', 'D', 'D', 'D', 'D', 'D', 'A'], 4))
+      .toEqual(['D', 'D', 'D', 'A']);
   });
 
   test('formatChordChartForDisplay drops blocks with no chord symbols', function() {
@@ -403,6 +667,12 @@ describe('chordSheetUtils', function() {
     expect(normalizeChordChartRepeatMarks('Am F :')).toBe('Am F :|');
     expect(normalizeChordChartRepeatMarks('Am F :\nG |')).toBe('Am F :|\nG |');
     expect(formatChordChartForDisplay('| : C | [1 Dm : | [2 F |')).toBe('|: C | [1 Dm :| [2 F |');
+  });
+
+  test('normalizeChordChartRepeatMarks does not turn bar-close plus :| into |:', function() {
+    // renderChords joins empty bars as "Dm | | | :|" — must not become "Dm | | |:|".
+    expect(normalizeChordChartRepeatMarks('Dm | | | :|')).toBe('Dm | | | :|');
+    expect(formatChordChartForDisplay('Dm | | | :|')).toBe('Dm | / | / | / :|');
   });
 
   test('fillEmptyBarsWithSlash keeps ending markers on empty bars', function() {
@@ -464,8 +734,8 @@ describe('chordSheetUtils', function() {
     const aligned = alignChordBlocksToLyrics(lyrics, chordBlocks);
 
     expect(aligned.length).toBe(5);
-    // every section reuses the correct chord block by type; first occurrence
-    // and revisits with words both merge inline; structure uses chartRevisit.
+    // every section reuses the correct chord block by type; only the first
+    // occurrence of each type shows a chart (Verse 2 / chorus repeats are revisits).
     expect(aligned[0]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true, chartRevisit: false });
     expect(aligned[1]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: true, chartRevisit: false });
     expect(aligned[2]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true, chartRevisit: true });
@@ -474,6 +744,63 @@ describe('chordSheetUtils', function() {
 
     // every lyric line is preserved
     expect(aligned[2].lyricLines).toEqual(['second verse words']);
+  });
+
+  test('chartRevisit blocks with words still merge inline chords for lyrics display', function() {
+    const lyrics = [
+      '[Verse 1]', 'first verse words here', '',
+      '[Chorus]', 'chorus words here now', '',
+      '[Verse 2]', 'second verse words here', '',
+      '[Chorus]', 'chorus words again now',
+    ];
+    const chordBlocks = [
+      'C . . . | G . . . |',
+      'Am . . . | F . . . |',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, chordBlocks);
+    expect(aligned[2].chartRevisit).toBe(true);
+    expect(aligned[2].inlineChords).toBe(true);
+    expect(aligned[3].chartRevisit).toBe(true);
+    expect(aligned[3].inlineChords).toBe(true);
+
+    const verse2Merged = mergeAlignedLyricBlockChords(aligned[2], null);
+    const chorus2Merged = mergeAlignedLyricBlockChords(aligned[3], null);
+    expect(verse2Merged).toBeTruthy();
+    expect(chorus2Merged).toBeTruthy();
+    const verseChords = verse2Merged.map(function(row) {
+      return row.map(function(t) { return t.chord; }).filter(Boolean).join(' ');
+    }).join(' | ');
+    const chorusChords = chorus2Merged.map(function(row) {
+      return row.map(function(t) { return t.chord; }).filter(Boolean).join(' ');
+    }).join(' | ');
+    expect(verseChords).toMatch(/C/);
+    expect(verseChords).toMatch(/G/);
+    expect(chorusChords).toMatch(/Am/);
+    expect(chorusChords).toMatch(/F/);
+  });
+
+  test('expanded bare chorus revisit keeps words for lyrics and chartRevisit for structure', function() {
+    const lyrics = [
+      '[Verse 1]', 'first verse words', '',
+      '# Chorus', 'chorus line one', 'chorus line two', '',
+      '[Verse 2]', 'second verse words', '',
+      '# Chorus',
+    ];
+    const expanded = expandRepeatedSectionLyrics(lyrics);
+    const aligned = alignChordBlocksToLyrics(expanded, [
+      'C . . . | G . . . |',
+      'Am . . . | F . . . |',
+    ]);
+    const lastChorus = aligned[aligned.length - 1];
+    expect(lastChorus.type).toBe('chorus');
+    expect(lastChorus.chartRevisit).toBe(true);
+    expect(lastChorus.lyricLines).toEqual(['chorus line one', 'chorus line two']);
+    expect(lastChorus.inlineChords).toBe(true);
+    const merged = mergeAlignedLyricBlockChords(lastChorus, null);
+    expect(merged).toBeTruthy();
+    expect(merged.some(function(row) {
+      return row.some(function(t) { return t.chord === 'Am' || t.chord === 'F'; });
+    })).toBe(true);
   });
 
   test('a repeated section with no words of its own shows the chord chart, not inline', function() {
@@ -488,9 +815,31 @@ describe('chordSheetUtils', function() {
     expect(aligned[2].lyricLines).toEqual([]);
   });
 
-  test('chordSectionLabels match charts by name when lyric order differs', function() {
+  test('alignChordBlocksToLyrics infers verse types and matches charts when only chorus is labeled', function() {
+    const lyrics = [
+      'v1a', 'v1b', 'v1c', 'v1d', '',
+      '[Chorus]',
+      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
+      'v2a', 'v2b', 'v2c', 'v2d', '',
+      'c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS'], {
+      chordSectionLabels: [
+        { header: '[Verse]', title: 'Verse', type: 'verse', chartRevisit: false },
+        { header: '[Chorus]', title: 'Chorus', type: 'chorus', chartRevisit: false },
+      ],
+    });
+    expect(aligned.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
+    expect(aligned.map(function(b) { return b.chart; })).toEqual([
+      'VERSECHORDS', 'CHORUSCHORDS', 'VERSECHORDS', 'CHORUSCHORDS',
+    ]);
+    expect(aligned[2].chartRevisit).toBe(true);
+    expect(aligned[3].chartRevisit).toBe(true);
+  });
+
+  test('chordSectionLabels are ignored; lyric order maps charts sequentially', function() {
     // Charts are Verse then Chorus; lyrics are Chorus then Verse.
-    // Without labels, sequential mapping would put VERSECHORDS on the chorus.
+    // Labels must not rematch by name — first lyric section gets first chart.
     const lyrics = [
       '[Chorus]', 'chorus words', '',
       '[Verse 1]', 'first verse words',
@@ -502,8 +851,57 @@ describe('chordSheetUtils', function() {
       ],
     });
     expect(aligned.length).toBe(2);
-    expect(aligned[0]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS' });
-    expect(aligned[1]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS' });
+    expect(aligned[0]).toMatchObject({ type: 'chorus', chart: 'VERSECHORDS' });
+    expect(aligned[1]).toMatchObject({ type: 'verse', chart: 'CHORUSCHORDS' });
+  });
+
+  test('incomplete chordSectionLabels that omit chorus fall back to lyric order (Cold Goodbye)', function() {
+    // Melody strains are chorus then verse; lyrics start with # chorus.
+    // Stale labels only tag the first strain as verse — ignored; lyric order wins.
+    const lyrics = [
+      '# chorus',
+      'Strange affair, while we all stared',
+      "Made up face and hair but she's not there",
+      "She's cold and dead",
+      '',
+      '# verse',
+      'The golden night, we said goodbye',
+      'From afternoon of glowing color, warm and bright',
+      'Down deep into the soil where you lie cold and dark',
+      'To travel through the universe without a spark',
+      '',
+      '# chorus',
+      '',
+      '# verse',
+      'The bite and spite, when we ignite',
+    ];
+    const chorusChart = 'Em | Am | Em | Am | F | F |';
+    const verseChart = 'Em | Am | F | G | Am | Bm | C | Em |';
+    const aligned = alignChordBlocksToLyrics(lyrics, [chorusChart, verseChart], {
+      chordSectionLabels: [
+        { header: '[verse]', title: 'verse', type: 'verse', chartRevisit: false },
+        { header: '', title: '', type: null, chartRevisit: false },
+      ],
+    });
+    expect(aligned[0]).toMatchObject({ type: 'chorus', chart: chorusChart, inlineChords: true });
+    expect(aligned[1]).toMatchObject({ type: 'verse', chart: verseChart, inlineChords: true });
+    expect(aligned[0].chart).not.toBe(aligned[1].chart);
+  });
+
+  test('empty chordSectionLabels fall back to sequential mapping', function() {
+    const lyrics = [
+      '[Verse 1]', 'first verse words', '',
+      '[Chorus]', 'chorus words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS'], {
+      chordSectionLabels: [
+        { header: '', title: '', type: null, chartRevisit: false },
+        { header: '', title: '', type: null, chartRevisit: false },
+      ],
+    });
+    expect(aligned[0]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS' });
+    expect(aligned[1]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS' });
+    expect(aligned[1].extraChart).toBeFalsy();
   });
 
   test('leading title/composer line does not consume first chord block', function() {
@@ -615,6 +1013,20 @@ describe('chordSheetUtils', function() {
     expect(blocks[1].type).toBeNull();
   });
 
+  test('inferSectionTypesFromLineCounts labels single unlabeled verse when only chorus is labeled', function() {
+    const blocks = [
+      { lyricLines: ['v1a', 'v1b', 'v1c', 'v1d'], type: null, header: null },
+      {
+        lyricLines: ['c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f'],
+        type: 'chorus',
+        header: '[Chorus]',
+      },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks.map(function(b) { return b.type; })).toEqual(['verse', 'chorus']);
+    expect(blocks[0].header).toBe('[Verse]');
+  });
+
   test('inferSectionTypesFromLineCounts fills unlabeled verses around a labeled chorus', function() {
     const blocks = [
       { lyricLines: ['v1a', 'v1b', 'v1c', 'v1d'], type: null, header: null },
@@ -647,6 +1059,99 @@ describe('chordSheetUtils', function() {
     expect(blocks[2].type).toBe('verse');
   });
 
+  test('isSectionHeader recognises parenthetical section markers', function() {
+    expect(isSectionHeader('(chorus)')).toBe(true);
+    expect(isSectionHeader('(Chorus)')).toBe(true);
+    expect(isSectionHeader('(Outro)')).toBe(true);
+    expect(isSectionHeader('(A Part)')).toBe(true);
+    expect(isSectionHeader('  (Spoken Bridge)  ')).toBe(true);
+    expect(isSectionHeader('(whispered)')).toBe(true);
+    expect(isSectionHeader('sing (quietly)')).toBe(false);
+    expect(isSectionHeader('()')).toBe(false);
+  });
+
+  test('splitIntoBlocks drops bare URL metadata lines', function() {
+    const blocks = splitIntoBlocks(['verse one', 'https://lyricstranslate.com']);
+    expect(blocks).toEqual([['verse one']]);
+  });
+
+  test('inferSectionTypesFromLineCounts labels cumulative folk verses', function() {
+    const blocks = [
+      { lyricLines: ['c1', 'c2'], type: null, header: null },
+      { lyricLines: ['v1', 'v2', 'v3', 'v4'], type: null, header: null },
+      { lyricLines: ['c1', 'c2'], type: null, header: null },
+      { lyricLines: ['v1', 'v2', 'v3', 'v4', 'v5'], type: null, header: null },
+      { lyricLines: ['c1', 'c2'], type: null, header: null },
+      { lyricLines: ['v1', 'v2', 'v3', 'v4', 'v5', 'v6'], type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks.map(function(b) { return b.type; })).toEqual([
+      'chorus', 'verse', 'chorus', 'verse', 'chorus', 'verse',
+    ]);
+    expect(blocks[3].header).toBe('[Verse 2]');
+  });
+
+  test('inferSectionTypesFromLineCounts keeps first verse before explicit Verse 2/3', function() {
+    const blocks = [
+      { lyricLines: ['a', 'b', 'c', 'd'], type: null, header: null },
+      { lyricLines: ['p1', 'p2'], type: 'prechorus', header: '[Pre-Chorus]' },
+      { lyricLines: ['c1', 'c2'], type: 'chorus', header: '[Chorus]' },
+      { lyricLines: ['e', 'f', 'g', 'h'], type: 'verse', header: '[Verse 2]' },
+      { lyricLines: ['i', 'j', 'k', 'l'], type: 'verse', header: '[Verse 3]' },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks[0].header).toBe('[Verse]');
+  });
+
+  test('inferSectionTypesFromLineCounts does not label title/meta leftovers as bridge', function() {
+    const blocks = [
+      {
+        lyricLines: ['Cold Goodbye - Steve Ryan 28/9/2025'],
+        type: null,
+        header: null,
+      },
+      {
+        lyricLines: [
+          'Strange affair, while we all stared',
+          "Made up face and hair but she's not there",
+          "She's cold and dead",
+        ],
+        type: 'chorus',
+        header: '[chorus]',
+      },
+      {
+        lyricLines: [
+          'The golden night, we said goodbye',
+          'From afternoon of glowing color, warm and bright',
+          'Down deep into the soil where you lie cold and dark',
+          'To travel through the universe without a spark',
+        ],
+        type: 'verse',
+        header: '[verse]',
+      },
+      {
+        lyricLines: [],
+        type: 'chorus',
+        header: '[chorus]',
+      },
+      {
+        lyricLines: [
+          'The bite and spite, when we ignite',
+          'The words that hurt and spiral late into the night',
+          'Our last goodbye, your words were filled with lye',
+          'I bit my tongue in pain, it was a cold goodbye',
+        ],
+        type: 'verse',
+        header: '[verse]',
+      },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks[0].type).toBeNull();
+    expect(blocks.map(function(b) { return b.type; })).toEqual([
+      null, 'chorus', 'verse', 'chorus', 'verse',
+    ]);
+  });
+
   test('inferSectionTypesFromLineCounts labels bridge when verse and chorus lengths are known', function() {
     const blocks = [
       { lyricLines: ['a', 'b', 'c', 'd'], type: 'verse', header: '[Verse]' },
@@ -676,7 +1181,7 @@ describe('chordSheetUtils', function() {
     expect(chordChartFingerprint(verseChart)).toBe(chordChartFingerprint(verseChart));
   });
 
-  test('alignChordBlocksToLyrics reuses charts for inferred verse/chorus alternation', function() {
+  test('alignChordBlocksToLyrics cycles charts positionally without section headers', function() {
     const lyrics = [
       'verse one line a', 'verse one line b', 'verse one line c', 'verse one line d', 'verse one line e', 'verse one line f', '',
       'chorus line a', 'chorus line b', 'chorus line c', 'chorus line d', '',
@@ -684,21 +1189,21 @@ describe('chordSheetUtils', function() {
       'chorus two a', 'chorus two b', 'chorus two c', 'chorus two d',
     ];
     const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS']);
-    expect(aligned.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
-    expect(aligned[0]).toMatchObject({ chart: 'VERSECHORDS', chartRevisit: false });
-    expect(aligned[1]).toMatchObject({ chart: 'CHORUSCHORDS', chartRevisit: false });
-    expect(aligned[2]).toMatchObject({ chart: 'VERSECHORDS', chartRevisit: true });
-    expect(aligned[3]).toMatchObject({ chart: 'CHORUSCHORDS', chartRevisit: true });
+    expect(aligned.map(function(b) { return b.chart; })).toEqual([
+      'VERSECHORDS', 'CHORUSCHORDS', 'VERSECHORDS', 'CHORUSCHORDS',
+    ]);
+    expect(aligned[2].chartRevisit).toBe(true);
+    expect(aligned[3].chartRevisit).toBe(true);
   });
 
-  test('alignChordBlocksToLyrics infers bridge for a third line-count group', function() {
+  test('alignChordBlocksToLyrics maps explicit section headers to charts', function() {
     const lyrics = [
-      'v1a', 'v1b', 'v1c', 'v1d', 'v1e', 'v1f', '',
-      'c1a', 'c1b', 'c1c', 'c1d', '',
-      'v2a', 'v2b', 'v2c', 'v2d', 'v2e', 'v2f', '',
-      'c2a', 'c2b', 'c2c', 'c2d', '',
-      'b1a', 'b1b', 'b1c', 'b1d', 'b1e', '',
-      'c3a', 'c3b', 'c3c', 'c3d',
+      '[Verse]', 'v1a', 'v1b', 'v1c', 'v1d', 'v1e', 'v1f', '',
+      '[Chorus]', 'c1a', 'c1b', 'c1c', 'c1d', '',
+      '[Verse]', 'v2a', 'v2b', 'v2c', 'v2d', 'v2e', 'v2f', '',
+      '[Chorus]', 'c2a', 'c2b', 'c2c', 'c2d', '',
+      '[Bridge]', 'b1a', 'b1b', 'b1c', 'b1d', 'b1e', '',
+      '[Chorus]', 'c3a', 'c3b', 'c3c', 'c3d',
     ];
     const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS', 'BRIDGECHORDS']);
     expect(aligned.map(function(b) { return b.type; })).toEqual([
@@ -717,8 +1222,9 @@ describe('chordSheetUtils', function() {
     // both blocks have words and a chart, so both merge inline
     expect(aligned[0].inlineChords).toBe(true);
     expect(aligned[1].inlineChords).toBe(true);
-    expect(aligned[2].chart).toBe(''); // no chord block left, but words still shown
-    expect(aligned[2].inlineChords).toBe(false);
+    expect(aligned[2].chart).toBe('A1');
+    expect(aligned[2].chartRevisit).toBe(true);
+    expect(aligned[2].inlineChords).toBe(true);
     expect(aligned[2].lyricLines).toEqual(['line three']);
   });
 
@@ -758,6 +1264,12 @@ describe('chordSheetUtils', function() {
     expect(extractChordSequence('F | F | Bb | F |')).toEqual(['F', 'Bb', 'F']);
   });
 
+  test('buildUniqueChordsMap excludes slash placeholders and keeps slash chords', function() {
+    const map = buildUniqueChordsMap('D | D / A / | Fm | / | Dm/C |');
+    expect(Object.keys(map).sort()).toEqual(['A', 'D', 'Dm/C', 'Fm']);
+    expect(map['/']).toBeUndefined();
+  });
+
   test('extractChordBars preserves the bar grid including held (empty) bars', function() {
     expect(extractChordBars('Fm | Am | Em | F |')).toEqual([['Fm'], ['Am'], ['Em'], ['F']]);
     // an empty bar (no chord token) means the previous chord is held
@@ -791,6 +1303,52 @@ describe('chordSheetUtils', function() {
       }
     );
     expect(merged[0].map(function(token) { return token.chord; })).toEqual(['F', '', 'Bb', 'C']);
+  });
+
+  test('mergeChordsIntoLyricLines uses lyric / beat markers as bar anchors and keeps markers in text', function() {
+    const merged = mergeChordsIntoLyricLines(
+      ['/I really /like Christmas'],
+      'F | Bb |'
+    );
+    expect(merged[0].map(function(token) { return token.text; })).toEqual(['/I ', 'really ', '/like ', 'Christmas ']);
+    expect(merged[0].map(function(token) { return token.chord; })).toEqual(['F', '', 'Bb', '']);
+  });
+
+  test('mergeChordsIntoLyricLines honors mid-word / beat markers', function() {
+    const merged = mergeChordsIntoLyricLines(
+      ['a/mazing /grace how /sweet the /sound'],
+      'G | C | Em | D |'
+    );
+    expect(merged[0].map(function(token) { return token.text; })).toEqual([
+      'a/mazing ', '/grace ', 'how ', '/sweet ', 'the ', '/sound ',
+    ]);
+    expect(merged[0].map(function(token) { return token.chord; })).toEqual([
+      'G', 'C', '', 'Em', '', 'D',
+    ]);
+  });
+
+  test('mergeChordsIntoLyricLines spreads mid-bar chord changes across words', function() {
+    const merged = mergeChordsIntoLyricLines(
+      ['Pontentized by mass dilution, a memory trace in water,'],
+      'F C | F C | F C | C Am | Am | Am |'
+    );
+    const chords = merged[0].map(function(token) { return token.chord; });
+    const texts = merged[0].map(function(token) { return token.text; });
+    expect(texts[0]).toBe('Pontentized ');
+    // Do not jam both half-bar chords onto the first word as "F C".
+    expect(chords[0]).toBe('F');
+    expect(chords).toContain('C');
+    expect(chords).toContain('Am');
+    expect(chords.some(function(c) { return String(c).indexOf(' ') >= 0; })).toBe(false);
+    // Later identical F C bars still emit the mid-bar C change.
+    const fIndexes = [];
+    const cIndexes = [];
+    chords.forEach(function(c, i) {
+      if (c === 'F') fIndexes.push(i);
+      if (c === 'C') cIndexes.push(i);
+    });
+    expect(fIndexes.length).toBeGreaterThanOrEqual(2);
+    expect(cIndexes.length).toBeGreaterThanOrEqual(2);
   });
 
   test('attaches unmapped chord blocks before the last unidentified lyric block', function() {
@@ -866,10 +1424,88 @@ describe('chordSheetUtils', function() {
     expect(isSectionMarkerChordName('[Verse 1]')).toBe(true);
     expect(isSectionMarkerChordName('Am')).toBe(false);
     expect(sectionMarkerChartLine('[Bridge]')).toBe('# Bridge');
+    expect(sectionMarkerChartLine('(Outro)')).toBe('# Outro');
     expect(sectionMarkerAbcChordName('Bridge')).toBe('[Bridge]');
+    expect(sectionMarkerAbcChordName('(A Part)')).toBe('[A Part]');
     const split = splitChartHeaderAndBody('# Bridge\nC . . . |');
     expect(split.headerLine).toBe('# Bridge');
     expect(split.body).toContain('C');
+  });
+
+  test('normalizeLyricBlocks treats lone parenthetical lines as section headers', function() {
+    const lyrics = ['(A Part)', 'first line', '', '(Spoken Bridge)', 'whispered words'];
+    const blocks = normalizeLyricBlocks(lyrics);
+    expect(blocks).toEqual([
+      ['(A Part)', 'first line'],
+      ['(Spoken Bridge)', 'whispered words'],
+    ]);
+    expect(normalizeSectionType('(A Part)')).toBe('a-part');
+    expect(normalizeSectionType('(Spoken Bridge)')).toBe('spoken-bridge');
+  });
+
+  test('alignChordBlocksToLyrics maps strains in lyric order (Clawhammer)', function() {
+    // Three melody strains appear as verse / pre-chorus / chorus in the lyrics.
+    // A later bridge with no dedicated strain must not steal the chorus chart.
+    const noteLines = [
+      '"Em"zzzzzzzz|"F#m"zzzzzzzz|"Em"zzzzzzzz|"F#m"zzzzzzzz|',
+      '"Am"zzzzzzzz|"C"zzzzzzzz|"Bm"zzzz"C"zzzz|"Em"zzzzzzzz||',
+      '"Am"zzzzzzzz|"C"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz|',
+      '"Am"zzzzzzzz|"C"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz||',
+      '"F"zzzzzzzz|"E"zzzzzzzz|"G"zzzz"F"zzzz|"E"zzzzzzzz|',
+      '"F"zzzzzzzz|"E"zzzzzzzz|"G"zzzz"F"zzzz|"E"zzzzzzzz||',
+    ];
+    const lyrics = [
+      'In the shadows he emerges, a force to be reckoned',
+      'A phantom of darkness, his presence not mistaken',
+      'With eyes like a predator, he strikes with precision',
+      'A villainous mastermind, the name is Clawhammer',
+      '',
+      '(Pre-Chorus)',
+      "He's a man of secrets, hiding in the night",
+      'A deadly touch that freezes',
+      "He'll twist your every move, leaving no trace behind",
+      "Clawhammer's reign of terror, there's no escape to find",
+      '',
+      '(Chorus)',
+      'Clawhammer, the man with a heart of steel',
+      "He'll break you down, no mercy he will feel",
+      'From the ashes he rises, the ultimate foe',
+      "Bond, beware, he's ready to overthrow",
+      '',
+      '(Verse 2)',
+      'His lair is a fortress, guarded by loyal minions',
+      'A web of deception, his empire keeps expanding',
+      'He weaves intricate plans, with cunning and precision',
+      'A symphony of chaos, orchestrated by Clawhammer',
+      '',
+      '(Bridge)',
+      "He's got a taste for power, a hunger that won't fade",
+      'No boundaries he respects, as darkness leads the way',
+      "But Bond won't back down, he'll face him in the night",
+      'With courage and resilience, he\'ll restore the light',
+      '',
+      '(Chorus)',
+      'Clawhammer, the man with a heart of steel',
+      "He'll break you down, no mercy he will feel",
+      'From the ashes he rises, the ultimate foe',
+      "Bond, beware, he's ready to overthrow",
+    ];
+    const verseChart = 'Em | F#m | Em | F#m | Am | C | Bm C | Em |';
+    const preChorusChart = 'Am | C | Bm | Em | Am | C | Bm | Em |';
+    const chorusChart = 'F | E | G F | E | F | E | G F | E |';
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, preChorusChart, chorusChart], {
+      melodyNoteLines: noteLines,
+    });
+    expect(aligned.map(function(b) { return b.type; })).toEqual([
+      'verse', 'prechorus', 'chorus', 'verse', 'bridge', 'chorus',
+    ]);
+    expect(aligned[0].chart).toBe(verseChart);
+    expect(aligned[1].chart).toBe(preChorusChart);
+    expect(aligned[2].chart).toBe(chorusChart);
+    expect(aligned[3].chart).toBe(verseChart);
+    expect(aligned[4].chart).toBe('');
+    expect(aligned[5].chart).toBe(chorusChart);
+    expect(aligned[5].chartRevisit).toBe(true);
   });
 
   test('rebalanceChartPulseSlots adjusts slots on meter change', function() {

@@ -25,6 +25,8 @@ function buildCollectionTuneStub(candidate, options) {
       links: [link],
     },
     sourceKind: 'media-link',
+    // Library audio is already present; skip lyrics/chords/notation auto-enrich.
+    skipEnrich: true,
   };
 }
 
@@ -91,4 +93,29 @@ export async function stageMediaCandidateToTunebook(candidate, options) {
   }
 
   throw new Error('Unsupported media source');
+}
+
+export function stageMediaCandidatesToTunebook(candidates, options) {
+  const opts = options || {};
+  const list = Array.isArray(candidates) ? candidates.filter(Boolean) : [];
+  if (!list.length) return [];
+
+  const reviewCandidates = list.map(function(candidate) {
+    if (!isMusicCollectionResult(candidate)) {
+      throw new Error('Unsupported media source');
+    }
+    return asIndependentReviewCandidate(
+      buildCollectionTuneStub(candidate, opts),
+      { tune: { books: opts.book ? [opts.book] : [], tags: opts.tags || [] } }
+    );
+  });
+
+  requestImportReview(reviewCandidates, {
+    entryMode: 'add',
+    book: opts.book || '',
+    tags: Array.isArray(opts.tags) ? opts.tags : [],
+    addPanelMode: 'form',
+  });
+  showImportReviewUi();
+  return reviewCandidates;
 }

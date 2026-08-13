@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button, ListGroup } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { resolveMediaLinkPlaybackButton, mediaLinkPlaybackIcon } from '../mediaLinkPlaybackButton'
@@ -13,6 +13,70 @@ import {
 } from '../nowPlayingQueue'
 import { navigateToQueueTune, playQueueItem } from '../nowPlayingQueuePlayback'
 import { playLessonYoutube } from '../lessonYoutubePlayer'
+import {
+  getActiveResolverAccessToken,
+  getMediaResolverHealthState,
+  subscribeMediaResolverHealth,
+} from '../mediaResolverHealthStore'
+import { getResolverProxiedMediaPlayBlock } from '../playlistPlaybackResilience'
+
+function mediaLinkPlayBlockKey(tuneId, linkIndex) {
+  return String(tuneId) + ':' + String(linkIndex)
+}
+
+function resolveSessionAccessToken(token) {
+  if (token && token.access_token) return token.access_token
+  if (typeof token === 'string' && token.trim()) return token
+  return null
+}
+
+function useQueueMediaLinkPlayBlocks(queue, tunes, token) {
+  const [blocks, setBlocks] = useState({})
+  const [health, setHealth] = useState(function() {
+    return getMediaResolverHealthState() || {}
+  })
+
+  useEffect(function() {
+    setHealth(getMediaResolverHealthState() || {})
+    return subscribeMediaResolverHealth(function(next) {
+      setHealth(next || {})
+    })
+  }, [])
+
+  useEffect(function() {
+    let cancelled = false
+    const healthState = health || {}
+
+    async function refresh() {
+      const next = {}
+      const items = queue && Array.isArray(queue.items) ? queue.items : []
+      const opts = {
+        resolverStatus: healthState.status,
+        resolverHealth: healthState,
+        // Prefer the live Google session. When the parent passes token (including
+        // null after logout), do not fall back to a stale health-store token.
+        accessToken: token !== undefined
+          ? resolveSessionAccessToken(token)
+          : getActiveResolverAccessToken(),
+      }
+      for (let i = 0; i < items.length; i++) {
+        const item = items[i]
+        const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
+        if (!tune || !tune.id || !Array.isArray(tune.links)) continue
+        for (let lk = 0; lk < tune.links.length; lk++) {
+          const block = await getResolverProxiedMediaPlayBlock(tune, lk, opts)
+          if (block) next[mediaLinkPlayBlockKey(tune.id, lk)] = block
+        }
+      }
+      if (!cancelled) setBlocks(next)
+    }
+
+    refresh()
+    return function() { cancelled = true }
+  }, [queue, tunes, health, token])
+
+  return blocks
+}
 
 export default function NowPlayingQueueManager(props) {
   const [filter, setFilter] = useState('')
@@ -20,6 +84,7 @@ export default function NowPlayingQueueManager(props) {
   const queue = props.nowPlayingQueue
   const tunes = props.tunes || {}
   const currentId = getCurrentTuneId(queue)
+  const mediaLinkPlayBlocks = useQueueMediaLinkPlayBlocks(queue, tunes, props.token)
 
   if (!queue || !Array.isArray(queue.items) || queue.items.length === 0) {
     return null
@@ -95,12 +160,7 @@ export default function NowPlayingQueueManager(props) {
                   variant="link"
                   className="p-0 align-baseline"
                   style={{ marginRight: '1em', fontWeight: 'bold', textDecoration: 'none' }}
-                  onClick={function() {
-                    props.setNowPlayingQueue(setQueueIndex(queue, index))
-                    navigate('/tunes/' + tune.id)
-                    setFilter('')
-                    if (props.handleClose) props.handleClose()
-                  }}
+                  onClick={function() { jumpToItem() }}
                 >
                   {tuneName}
                   {composer ? (
@@ -138,14 +198,24 @@ export default function NowPlayingQueueManager(props) {
                 {tune ? links.map(function(link, lk) {
                   const isYoutubeLink = props.tunebook.utils && props.tunebook.utils.isYoutubeLink
                   const buttonProps = resolveMediaLinkPlaybackButton(link, isYoutubeLink)
+                  const playBlock = mediaLinkPlayBlocks[mediaLinkPlayBlockKey(tune.id, lk)]
+                  const playDisabled = !!playBlock
+                  const titleBase = buttonProps.label
+                    ? buttonProps.label + ' link ' + lk
+                    : 'Media link ' + lk
                   return (
                     <Button
                       key={lk}
                       style={{ marginRight: '0.1em' }}
-                      variant={buttonProps.variant}
+                      variant={playDisabled ? 'secondary' : buttonProps.variant}
                       className={buttonProps.className}
-                      title={buttonProps.label ? buttonProps.label + ' link ' + lk : 'Media link ' + lk}
-                      onClick={function() { jumpToItem({ prefer: 'media', linkIndex: lk }) }}
+                      disabled={playDisabled}
+                      title={playDisabled && playBlock.message ? playBlock.message : titleBase}
+                      data-testid={'playlist-media-play-' + index + '-' + lk}
+                      onClick={function() {
+                        if (playDisabled) return
+                        jumpToItem({ prefer: 'media', linkIndex: lk })
+                      }}
                     >
                       {mediaLinkPlaybackIcon(props.tunebook, buttonProps.iconKey)}
                       {' '}

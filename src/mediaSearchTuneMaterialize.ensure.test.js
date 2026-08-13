@@ -13,6 +13,7 @@ jest.mock('./addTuneAutoEnrich', function() {
 
 describe('ensureMediaSearchTune', function() {
   test('saves a new collection tune in mymedia', async function() {
+    const { runAddTuneAutoEnrich } = require('./addTuneAutoEnrich');
     const tunes = {};
     const tunebook = {
       tunes: tunes,
@@ -33,14 +34,16 @@ describe('ensureMediaSearchTune', function() {
     expect(saved.id).toBe('new-tune');
     expect(saved.books).toEqual([MYMEDIA_BOOK]);
     expect(tunebook.saveTune).toHaveBeenCalledTimes(1);
+    expect(runAddTuneAutoEnrich).not.toHaveBeenCalled();
   });
 
   test('reuses existing collection tune without saving again', async function() {
+    const { runAddTuneAutoEnrich } = require('./addTuneAutoEnrich');
     const tunes = {
       existing: {
         id: 'existing',
         name: 'Track',
-        links: [{ link: 'http://x', collectionEntryId: '7' }],
+        links: [{ link: 'http://x', collectionEntryId: '7', source: 'music-collection' }],
       },
     };
     const tunebook = {
@@ -59,5 +62,6 @@ describe('ensureMediaSearchTune', function() {
     expect(tunebook.saveTune).not.toHaveBeenCalled();
     expect(findExistingMediaSearchTune(tunes, { source: 'music-collection', id: '7' }).id)
       .toBe('existing');
+    expect(runAddTuneAutoEnrich).not.toHaveBeenCalled();
   });
 });

@@ -6,10 +6,11 @@ import * as localForage from "localforage";
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 import { normalizeDriveFileId } from './googleDrivePickerClient'
 import { normalizeAccessToken } from './mediaProxyClient'
+import { tokenHasFreshAccess } from './googleLoginTokenAdapter'
 
 var unauthorizedRefreshInFlight = null
 
-function handleDriveUnauthorized(logout) {
+function handleDriveUnauthorized(logout, currentToken) {
   if (!unauthorizedRefreshInFlight) {
     unauthorizedRefreshInFlight = tryRefreshAccessToken().finally(function() {
       unauthorizedRefreshInFlight = null
@@ -19,9 +20,18 @@ function handleDriveUnauthorized(logout) {
     if (refreshed && refreshed.access_token) {
       return refreshed
     }
+    // A failed silent refresh must not wipe an otherwise usable bearer. Media
+    // proxy 401 retries used to force refresh (missing expires_at) and then
+    // Drive's 401 handler logged the user out mid audio-generation.
+    if (tokenHasFreshAccess(currentToken, 5000)) {
+      return currentToken
+    }
     if (typeof logout === 'function') logout()
     return null
   }).catch(function() {
+    if (tokenHasFreshAccess(currentToken, 5000)) {
+      return currentToken
+    }
     if (typeof logout === 'function') logout()
     return null
   })
@@ -187,6 +197,10 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 	
     function findTuneBookFolderInDrive() {
 		return new Promise(function(resolve,reject) {
+				if (!accessToken) {
+					resolve(null)
+					return
+				}
 				var xhr = new XMLHttpRequest();
 				xhr.onload = function (res) {
 					if (res.target.responseText) {
@@ -479,7 +493,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes.data)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve()
         })
@@ -514,7 +528,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 						} 
 					}).catch(function(e) {
 						if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 						}
 						resolve()
 					})
@@ -542,7 +556,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           //getToken()
           //refresh()
           if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve()
         })
@@ -589,7 +603,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes.data)
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           //getToken()
           //refresh()
@@ -615,7 +629,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           //getToken()
           //refresh()
@@ -641,7 +655,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           //getToken()
           //refresh()
@@ -657,8 +671,12 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   function getDocumentBlob(id, force_token = null) {
     return new Promise(function(resolve,reject) {
       var fileId = driveId(id)
-      var useToken = bearerToken(force_token)
-      if (fileId && useToken) {
+      function attempt(useToken, allowRetry) {
+        if (!fileId || !useToken) {
+          if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh()
+          resolve({error: 'missing token'})
+          return
+        }
         axios({
           method: 'get',
           url: 'https://www.googleapis.com/drive/v3/files/'+fileId+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
@@ -666,19 +684,29 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           responseType: 'blob'
         }).then(function(postRes) {
           resolve(postRes.data)
-          
         }).catch(function(e) {
+          if (e && e.response && e.response.status == '401' && allowRetry) {
+            handleDriveUnauthorized(logout, token).then(function(refreshed) {
+              var nextToken = refreshed && refreshed.access_token
+                ? refreshed.access_token
+                : bearerToken(force_token)
+              if (nextToken && nextToken !== useToken) {
+                attempt(nextToken, false)
+                return
+              }
+              resolve({error: e})
+            }).catch(function() {
+              resolve({error: e})
+            })
+            return
+          }
           if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
-		  }
-          //getToken()
-          //refresh()
+            handleDriveUnauthorized(logout, token)
+          }
           resolve({error: e})
         })
-      } else {
-        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
-        resolve({error: 'missing token'})
       }
+      attempt(bearerToken(force_token), true)
     })
   }
   
@@ -694,7 +722,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes.data)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           //getToken()
           //refresh()
@@ -733,7 +761,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           }
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
-            handleDriveUnauthorized(logout)
+            handleDriveUnauthorized(logout, token)
           }
           resolve()
         })
@@ -766,7 +794,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes.data)
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
-            handleDriveUnauthorized(logout)
+            handleDriveUnauthorized(logout, token)
           }
           resolve()
         })
@@ -781,7 +809,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         resolve(postRes.data)
       }).catch(function(e) {
         if (e && e.response && e.response.status == '401') {
-          handleDriveUnauthorized(logout)
+          handleDriveUnauthorized(logout, token)
           resolve()
         } else {
           fetchExportFallback()
@@ -824,7 +852,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
             //getToken()
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
             resolve({error:e})
           })
@@ -849,7 +877,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
             resolve()
           }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 			}
 			resolve({error: e})
           })
@@ -876,7 +904,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes)
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve({error: e})
         })
@@ -899,7 +927,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve({error: e})
         })
@@ -923,7 +951,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve({error: e})
         })
@@ -945,7 +973,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve({error: e})
         })
@@ -968,7 +996,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 		  }
           resolve({error: e})
         })
@@ -989,7 +1017,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve(postRes)
         }).catch(function(e) {
 			if (e && e.response && e.response.status == '401') {
-			  handleDriveUnauthorized(logout)
+			  handleDriveUnauthorized(logout, token)
 			}
 			resolve({error: e})
         })

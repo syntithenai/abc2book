@@ -14,16 +14,106 @@ import {
   isOwnedMediaLink,
   getRecording,
   parseRecordingIdFromLinkUri,
+  resolveTuneLinkCacheSrc,
 } from './linkRecording'
 import { cancelPlaylistTitleAnnouncement } from './playlistTitleAnnouncement'
 import { isBackgroundCapablePlayback } from './backgroundPlaybackCapability'
 import { prefersNativeMediaPlayback } from './platformUtils'
 import { getPlaybackSettings } from './pitchTempoUtils'
 import { stopStandaloneMediaPlayback } from './standaloneMediaPlayback'
+import {
+  requiresResolverProxiedPlayback,
+  getResolverLoginWarning,
+  getResolverProxiedPlaybackBlock,
+} from './mediaProxyClient'
+import {
+  getMediaResolverHealthState,
+  getActiveResolverAccessToken,
+} from './mediaResolverHealthStore'
 
 export function isQueueItemPlayable(tune, item, tunebook) {
   if (isExternalQueueItem(item)) return true
   return !!resolvePlaybackForItem(tune, item, tunebook)
+}
+
+/**
+ * Auth / availability block for resolver-proxied media, ignoring cache.
+ * Returns { message, kind } or null when playback through the resolver is OK.
+ */
+export function getResolverProxiedMediaAuthBlock(options) {
+  const opts = options || {}
+  const health = opts.resolverHealth || getMediaResolverHealthState()
+  const status = opts.resolverStatus !== undefined
+    ? opts.resolverStatus
+    : (health && health.status)
+  const accessToken = opts.accessToken !== undefined
+    ? opts.accessToken
+    : getActiveResolverAccessToken()
+  const hasToken = !!(accessToken && String(accessToken).trim())
+
+  // Logged out: uncached resolver media cannot play. Do not wait for a health
+  // probe (HMR / mid-session logout often leaves checked=false while a playlist
+  // is still advancing). Cached copies are allowed by getResolverProxiedMediaPlayBlock.
+  if (!hasToken) {
+    if (status && status.available) return null
+    const loginWarning = getResolverLoginWarning(status, accessToken)
+    if (loginWarning) {
+      return {
+        kind: 'login',
+        message: loginWarning.message
+          || 'Log in to play this library link (or play a cached copy).',
+      }
+    }
+    if (status && !status.available) {
+      return { kind: 'unavailable', message: 'Media resolver is unavailable.' }
+    }
+    return {
+      kind: 'login',
+      message: 'Log in to play this library link (or play a cached copy).',
+    }
+  }
+
+  // Avoid treating links as blocked before the first health probe finishes.
+  if (opts.resolverStatus === undefined && health && !health.checked) return null
+
+  const loginWarning = getResolverLoginWarning(status, accessToken)
+  if (loginWarning) {
+    return {
+      kind: 'login',
+      message: loginWarning.message
+        || 'Log in to play this library link (or play a cached copy).',
+    }
+  }
+  const creditBlock = getResolverProxiedPlaybackBlock(status, accessToken)
+  if (creditBlock) {
+    return {
+      kind: 'credit',
+      message: creditBlock.message || 'Resolver credit required to play this link.',
+    }
+  }
+  if (status && !status.available) {
+    return { kind: 'unavailable', message: 'Media resolver is unavailable.' }
+  }
+  if (health && health.checked && !health.available) {
+    return { kind: 'unavailable', message: 'Media resolver is unavailable.' }
+  }
+  return null
+}
+
+/**
+ * Uncached library / Bandcamp / archive links need the resolver. When login (or
+ * credit) blocks resolver use, return a block reason so UI can disable play
+ * buttons and the playlist can skip ahead instead of toasting and stalling.
+ */
+export async function getResolverProxiedMediaPlayBlock(tune, linkIndex, options) {
+  const src = resolveTuneLinkCacheSrc(tune, linkIndex)
+  if (!src || !requiresResolverProxiedPlayback(src)) return null
+  if (await isLinkMediaCached(tune, linkIndex)) return null
+  return getResolverProxiedMediaAuthBlock(options)
+}
+
+export async function isResolverProxiedMediaPlayable(tune, linkIndex, options) {
+  return !(await getResolverProxiedMediaPlayBlock(tune, linkIndex, options))
 }
 
 export function isQueueItemBackgroundCapable(tune, item, tunebook, options) {
@@ -72,7 +162,8 @@ export async function isQueueItemFullyPlayable(tune, item, tunebook, options) {
   if (!isNavigatorOffline()) {
     if (target && target.type === 'media') {
       const linkIndex = target.linkNum != null ? target.linkNum : 0
-      return isOwnedMediaLinkLocallyAvailable(tune, linkIndex)
+      if (!(await isOwnedMediaLinkLocallyAvailable(tune, linkIndex))) return false
+      return isResolverProxiedMediaPlayable(tune, linkIndex, opts)
     }
     return true
   }
@@ -100,7 +191,8 @@ export function findFirstPlayableQueueIndex(queue, tunes, tunebook) {
 
 /**
  * Walk the queue in the given direction until a playable item is found.
- * When offline, also requires cached/offline-ready media.
+ * When offline, also requires cached/offline-ready media. When online but
+ * resolver login blocks library links, skips uncached proxied media.
  */
 export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options) {
   const opts = options || {}
@@ -141,6 +233,9 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
     const playable = await isQueueItemFullyPlayable(tune, item, tunebook, {
       isYoutubeLink: isYoutubeLink,
       playbackMode: playbackMode,
+      resolverStatus: opts.resolverStatus,
+      resolverHealth: opts.resolverHealth,
+      accessToken: opts.accessToken,
     })
     if (playable) {
       return { queue: workingQueue, tune: tune, item: item, atEnd: false, skipped: skipped }

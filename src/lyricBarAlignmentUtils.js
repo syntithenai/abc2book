@@ -2,34 +2,31 @@ import { splitIntoBlocks, coalesceSectionHeaderBlocks, normalizeLyricBlocks, isS
 import {
   collapseAnacrusisDoubleBarlines,
   normalizeMelodyBarlines,
+  ensureBarlinesAtMusicLineJoins,
 } from './melodyBarlineNormalize';
+import { splitMelodyNoteLinesByStrain, splitMelodyStrainsWithBarlines } from './melodyStrainSplit';
 
 export { collapseAnacrusisDoubleBarlines, normalizeMelodyBarlines } from './melodyBarlineNormalize';
 
 /**
- * Join ABC note lines for bar/block parsing. Visual line breaks are layout
- * only and must not create extra musical units.
+ * Join ABC note lines for bar/block parsing. Visual line breaks are treated as
+ * bar boundaries when the previous line omits a trailing | (common ABC wrap).
  */
 export function flattenMelodyText(noteLines) {
-  const flat = (Array.isArray(noteLines) ? noteLines : [])
-    .map(function(line) { return String(line || '').trim(); })
-    .filter(Boolean)
-    .join(' ');
+  const flat = ensureBarlinesAtMusicLineJoins(noteLines).join(' ');
   return normalizeMelodyBarlines(flat);
 }
 
 /**
- * Split flattened melody into sections at double barlines or strain markers (||, ::).
+ * Split flattened melody into sections at double barlines or strain markers
+ * (||, ::, |:, and section-ending :| — not volta mid-strain :|).
+ * @deprecated import from melodyStrainSplit for strain-aware APIs; kept for bar-count helpers.
  */
 export function splitMelodyIntoBlocks(noteLines) {
-  const flat = flattenMelodyText(noteLines);
-  if (!flat) return [];
-  // || and :: are explicit strain breaks; |: also starts a new strain in
-  // hymns that open the chorus with a repeat mark instead of a double bar.
-  // Do not split on :| alone — first endings use it mid-strain.
-  return flat.split(/\|\||::|\|:/)
-    .map(function(part) { return part.trim(); })
-    .filter(Boolean);
+  const lines = typeof noteLines === 'string' ? [noteLines] : noteLines;
+  return splitMelodyStrainsWithBarlines(lines).map(function(strain) {
+    return strain.text;
+  });
 }
 
 /**
@@ -52,6 +49,222 @@ export function countBarsOnNotationLine(noteLine) {
 }
 
 /**
+ * Drop %%MIDI and %Z:/%Q: style comment rows before notation alignment.
+ */
+export function filterNotationNoteLinesForAlignment(noteLines) {
+  return (Array.isArray(noteLines) ? noteLines : []).filter(function(line) {
+    const trimmed = String(line || '').trim();
+    if (!trimmed) return false;
+    if (/^%%MIDI\s/i.test(trimmed)) return false;
+    if (/^%/.test(trimmed)) return false;
+    return true;
+  });
+}
+
+function notationLineHasRepeatMark(text) {
+  const t = String(text || '');
+  return /\|:/.test(t) || /:\|/.test(t);
+}
+
+/**
+ * When every lyric in a block sits on one notation row and that row carries
+ * repeat marks, the sung lines usually span two melodic passes (|: … :|).
+ */
+function effectiveRowBarCount(noteLine, rowBarCount, lyricsForRow, totalLyricCount) {
+  if (lyricsForRow !== totalLyricCount || rowBarCount <= 0) return rowBarCount;
+  if (notationLineHasRepeatMark(noteLine)) return rowBarCount * 2;
+  return rowBarCount;
+}
+
+function melodyBlockHasRepeat(blockText) {
+  const t = String(blockText || '');
+  return (/\|:/.test(t) && /:\|/.test(t)) || /:\|\s*$/.test(t.trim());
+}
+
+/** True when lyric lines should cycle through a :| strain twice (2 bars per line). */
+export function strainLyricsUseRepeatDoubling(strainNoteLines, lineCount) {
+  const opening = splitMelodyIntoBlocks(flattenMelodyText(strainNoteLines))[0] || '';
+  if (!melodyBlockHasRepeat(opening)) return false;
+  const openingBars = extractBarsFromMelodyText(opening).length;
+  return openingBars > 0 && lineCount > 0 && lineCount * 2 <= openingBars * 2;
+}
+
+function assignTwoBarsPerLyricLine(lines) {
+  return lines.map(function(text, lineIndex) {
+    return {
+      text: text,
+      lineIndex: lineIndex,
+      startBar: lineIndex * 2,
+      endBar: lineIndex * 2 + 1,
+    };
+  });
+}
+
+/**
+ * Split long lyric blocks into verse-sized groups (blank lines, or chunks of 4).
+ */
+export function lyricStanzaGroups(lyricLines) {
+  const groups = [];
+  let current = [];
+  (Array.isArray(lyricLines) ? lyricLines : []).forEach(function(line) {
+    if (!String(line || '').trim()) {
+      if (current.length) {
+        groups.push(current);
+        current = [];
+      }
+      return;
+    }
+    current.push(line);
+  });
+  if (current.length) groups.push(current);
+
+  return groups;
+}
+
+const STANZA_BAR_WINDOW = 8;
+
+/**
+ * When one chart covers many verse-sized lyric groups, assign each group its own
+ * bar window (eg. 8 bars / 4 lines) cycling through the chart.
+ */
+export function assignLyricLinesToBarsForStanzaGroups(lyricLines, bars, options) {
+  const groups = lyricStanzaGroups(lyricLines);
+  if (groups.length <= 1) return null;
+
+  const opts = options || {};
+  const assignments = [];
+  let lineIndex = 0;
+  groups.forEach(function(group, groupIndex) {
+    const singable = group.map(function(line) { return String(line || '').trim(); })
+      .filter(function(line) { return line.split(/\s+/).filter(Boolean).length > 0; });
+    if (!singable.length) return;
+
+    const offset = (groupIndex * STANZA_BAR_WINDOW) % Math.max(1, bars.length);
+    const windowBars = [];
+    for (let i = 0; i < STANZA_BAR_WINDOW; i += 1) {
+      windowBars.push(bars[(offset + i) % bars.length]);
+    }
+    const chunk = assignLyricLinesToBarsForChart(singable, windowBars.length, windowBars, opts);
+    chunk.assignments.forEach(function(assignment) {
+      assignments.push({
+        text: assignment.text,
+        lineIndex: lineIndex + assignment.lineIndex,
+        startBar: offset + assignment.startBar,
+        endBar: offset + assignment.endBar,
+      });
+    });
+    lineIndex += singable.length;
+  });
+
+  return assignments.length ? assignments : null;
+}
+
+function totalBarsInBarMap(barMap) {
+  return (Array.isArray(barMap) ? barMap : []).reduce(function(sum, row) {
+    return sum + row.barCount;
+  }, 0);
+}
+
+function assignLyricLinesToBarsFromNotationOnRows(lines, noteLines, barMap) {
+  if (!lines.length || !barMap.length) return null;
+
+  if (lines.length === barMap.length) {
+    return lines.map(function(text, lineIndex) {
+      const row = barMap[lineIndex];
+      return {
+        text: text,
+        lineIndex: lineIndex,
+        startBar: row.startBar,
+        endBar: row.endBar,
+      };
+    });
+  }
+
+  if (lines.length > barMap.length) {
+    if (lines.length % barMap.length === 0) {
+      const lyricsPerRow = lines.length / barMap.length;
+      const assignments = [];
+      let lyricIndex = 0;
+      barMap.forEach(function(row, rowIndex) {
+        const rowBars = effectiveRowBarCount(
+          noteLines[row.lineIndex],
+          row.barCount,
+          lyricsPerRow,
+          lines.length
+        );
+        const barsPerLyric = rowBars / lyricsPerRow;
+        const repeats = rowBars > row.barCount;
+        for (let j = 0; j < lyricsPerRow; j += 1) {
+          const effStart = Math.floor(j * barsPerLyric);
+          const effEnd = Math.floor((j + 1) * barsPerLyric) - 1;
+          const startBar = repeats
+            ? row.startBar + (effStart % row.barCount)
+            : row.startBar + effStart;
+          const endBar = repeats
+            ? row.startBar + (effEnd % row.barCount)
+            : row.startBar + effEnd;
+          assignments.push({
+            text: lines[lyricIndex],
+            lineIndex: lyricIndex,
+            startBar: startBar,
+            endBar: Math.max(startBar, endBar),
+          });
+          lyricIndex += 1;
+        }
+      });
+      if (assignments.length === lines.length) return assignments;
+    }
+
+    const assignments = [];
+    let lyricIndex = 0;
+    barMap.forEach(function(row, rowIndex) {
+      const isLastRow = rowIndex === barMap.length - 1;
+      const lyricsForRow = isLastRow ? (lines.length - lyricIndex) : 1;
+      if (lyricsForRow <= 0) return;
+      const rowBars = effectiveRowBarCount(
+        noteLines[row.lineIndex],
+        row.barCount,
+        lyricsForRow,
+        lines.length
+      );
+      const barsPerLyric = rowBars / lyricsForRow;
+      const repeats = rowBars > row.barCount;
+      for (let j = 0; j < lyricsForRow; j += 1) {
+        const effStart = Math.floor(j * barsPerLyric);
+        const effEnd = Math.floor((j + 1) * barsPerLyric) - 1;
+        const startBar = repeats
+          ? row.startBar + (effStart % row.barCount)
+          : row.startBar + effStart;
+        const endBar = repeats
+          ? row.startBar + (effEnd % row.barCount)
+          : row.startBar + effEnd;
+        assignments.push({
+          text: lines[lyricIndex],
+          lineIndex: lyricIndex,
+          startBar: startBar,
+          endBar: Math.max(startBar, endBar),
+        });
+        lyricIndex += 1;
+      }
+    });
+    return assignments.length === lines.length ? assignments : null;
+  }
+
+  if (lines.length < barMap.length) {
+    const totalBars = totalBarsInBarMap(barMap);
+    const twoBarsPerLine = lines.length * 2;
+    if (twoBarsPerLine > 0 && twoBarsPerLine <= totalBars) {
+      const natural = totalBars / lines.length;
+      if (natural >= 2) {
+        return assignTwoBarsPerLyricLine(lines);
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
  * Global bar index range for each ABC notation line (visual staff line).
  */
 export function buildNotationLineBarMap(noteLines) {
@@ -67,6 +280,133 @@ export function buildNotationLineBarMap(noteLines) {
       barCount: barCount,
     };
   });
+}
+
+/**
+ * Split ABC note lines into strains using the same || / :: / |: breaks as
+ * splitMelodyStrainsWithBarlines, preserving per-line structure for notation
+ * alignment in lyrics.
+ */
+export { splitMelodyNoteLinesByStrain } from './melodyStrainSplit';
+
+/**
+ * When lyric lines align with ABC notation rows (one sung line per staff line),
+ * map each lyric line to that row's bar span. Extra lyric lines beyond the
+ * notation row count share the last row's bars evenly.
+ */
+export function assignLyricLinesToBarsFromNotation(singableLines, noteLines, options) {
+  const opts = options || {};
+  const lines = Array.isArray(singableLines) ? singableLines : [];
+  const filtered = filterNotationNoteLinesForAlignment(noteLines);
+  if (!lines.length || !filtered.length) return null;
+
+  const fullBarMap = buildNotationLineBarMap(filtered);
+  const strains = splitMelodyNoteLinesByStrain(filtered);
+
+  if (strains.length > 1 && !opts.strainScopedNotation) {
+    const openingLines = strains[0];
+    const openingBarMap = buildNotationLineBarMap(openingLines);
+    const openingBlock = splitMelodyIntoBlocks(openingLines)[0] || '';
+    const openingBarCount = extractBarsFromMelodyText(openingBlock).length;
+    const hasRepeat = melodyBlockHasRepeat(openingBlock);
+    const repeatExpanded = hasRepeat ? openingBarCount * 2 : openingBarCount;
+
+    if (lines.length * 2 <= openingBarCount && openingBarCount / lines.length > 2) {
+      return assignTwoBarsPerLyricLine(lines);
+    }
+
+    if (hasRepeat && lines.length <= repeatExpanded && lines.length > openingBarMap.length) {
+      const openingAssignment = assignLyricLinesToBarsFromNotationOnRows(
+        lines,
+        openingLines,
+        openingBarMap
+      );
+      if (openingAssignment) return openingAssignment;
+    }
+  } else {
+    const blocks = splitMelodyIntoBlocks(filtered);
+    if (blocks.length > 1) {
+      const firstBarCount = extractBarsFromMelodyText(blocks[0]).length;
+      if (lines.length * 2 <= firstBarCount && firstBarCount / lines.length > 2) {
+        return assignTwoBarsPerLyricLine(lines);
+      }
+    }
+  }
+
+  return assignLyricLinesToBarsFromNotationOnRows(lines, filtered, fullBarMap);
+}
+
+/**
+ * Find the melody strain whose bar count matches a section chart block.
+ */
+export function notationNoteLinesForChart(noteLines, chartBarCount) {
+  const count = Math.max(0, Number(chartBarCount) || 0);
+  if (!count) return null;
+  const filtered = filterNotationNoteLinesForAlignment(noteLines);
+  if (!filtered.length) return null;
+  const strains = splitMelodyNoteLinesByStrain(filtered);
+
+  function strainBarTotal(strain) {
+    return buildNotationLineBarMap(strain).reduce(function(sum, row) {
+      return sum + row.barCount;
+    }, 0);
+  }
+
+  for (let i = 0; i < strains.length; i++) {
+    if (strainBarTotal(strains[i]) === count) return strains[i];
+  }
+
+  if (strains.length > 0) {
+    const opening = strains[0];
+    const openingBars = strainBarTotal(opening);
+    if (count >= openingBars - 1 && count <= openingBars + 1) return opening;
+    const totalStrainBars = strains.reduce(function(sum, strain) {
+      return sum + strainBarTotal(strain);
+    }, 0);
+    if (count >= totalStrainBars - 1 || count > openingBars) return opening;
+  }
+
+  return filtered;
+}
+
+function sliceBarsFromNotationLine(noteLine, startBarInLine, endBarInLine) {
+  const bars = extractBarsFromMelodyText(noteLine);
+  if (!bars.length) return '';
+  const start = Math.max(0, Math.min(startBarInLine, bars.length - 1));
+  const end = Math.max(start, Math.min(endBarInLine, bars.length - 1));
+  return bars.slice(start, end + 1).join('|');
+}
+
+/**
+ * ABC note lines for one melody strain (double-barline split), for per-section
+ * chord-to-lyric alignment when strains differ in bars-per-line ratio.
+ */
+export function notationNoteLinesForStrainIndex(noteLines, strainIndex) {
+  const filtered = filterNotationNoteLinesForAlignment(noteLines);
+  if (!filtered.length) return null;
+  const strains = splitMelodyStrainsWithBarlines(filtered);
+  const idx = Number(strainIndex);
+  if (!Number.isFinite(idx) || idx < 0 || idx >= strains.length) return null;
+
+  const strainBarCounts = strains.map(function(strain) {
+    return extractBarsFromMelodyText(strain.text).length;
+  });
+  const startBar = strainBarCounts.slice(0, idx).reduce(function(sum, count) {
+    return sum + count;
+  }, 0);
+  const endBar = startBar + strainBarCounts[idx] - 1;
+  const barMap = buildNotationLineBarMap(filtered);
+  const lines = [];
+  barMap.forEach(function(row) {
+    if (row.endBar < startBar || row.startBar > endBar) return;
+    const overlapStart = Math.max(startBar, row.startBar);
+    const overlapEnd = Math.min(endBar, row.endBar);
+    const sliceStartBar = overlapStart - row.startBar;
+    const sliceEndBar = overlapEnd - row.startBar;
+    const sliced = sliceBarsFromNotationLine(filtered[row.lineIndex], sliceStartBar, sliceEndBar);
+    if (sliced) lines.push(sliced);
+  });
+  return lines.length ? lines : null;
 }
 
 export function splitLyricBlocks(lyricLines) {
@@ -205,15 +545,61 @@ export function detectBarsPerLyricLine(lineCount, barCount, chordChangeBars) {
       best = barsPerLine;
     }
   });
+
+  // ABC chord scaffolds are usually four bars per staff line; when the even
+  // split would be fractional (eg. 28 bars / 8 lines → 3.5), prefer four bars
+  // per line so a notation row does not spill onto the next lyric line.
+  if (!Number.isInteger(natural) && barCount % 4 === 0 && candidates.indexOf(4) >= 0) {
+    if (lineCount * 4 >= barCount && (lineCount - 1) * 4 <= barCount) {
+      return 4;
+    }
+  }
+
   return best;
 }
 
-export function assignLyricLinesToBarsForChart(singableLines, barCount, chordBars) {
+export function assignLyricLinesToBarsForChart(singableLines, barCount, chordBars, options) {
+  const opts = options || {};
   const lines = Array.isArray(singableLines) ? singableLines : [];
-  const barsPerLine = detectBarsPerLyricLine(lines.length, barCount, chordChangeBarIndices(chordBars));
+  const allBars = Array.isArray(chordBars) ? chordBars : [];
+  const natural = lines.length > 0 ? barCount / lines.length : barCount;
+  let scopedBarCount = barCount;
+  let scopedBars = allBars;
+  // Only apply the 2-bars-per-line heuristic when the caller did not already
+  // choose an explicit bars-per-line (eg. chorus 4 bars/line for a full staff).
+  if (opts.barsPerLyricLine == null
+      && lines.length > 1
+      && lines.length * 2 <= barCount
+      && natural > 2) {
+    scopedBarCount = lines.length * 2;
+    scopedBars = allBars.slice(0, scopedBarCount);
+  }
+  if (opts.repeatWrap && opts.barsPerLyricLine === 2) {
+    return {
+      barsPerLyricLine: 2,
+      assignments: assignTwoBarsPerLyricLine(lines),
+    };
+  }
+  if (Array.isArray(opts.notationNoteLines) && opts.notationNoteLines.length > 0) {
+    const notationNoteLines = filterNotationNoteLinesForAlignment(opts.notationNoteLines);
+    const fromNotation = assignLyricLinesToBarsFromNotation(lines, notationNoteLines, opts);
+    if (fromNotation) {
+      const effectiveBars = fromNotation.reduce(function(sum, assignment) {
+        return sum + (assignment.endBar - assignment.startBar + 1);
+      }, 0);
+      return {
+        barsPerLyricLine: effectiveBars / Math.max(1, lines.length),
+        assignments: fromNotation,
+        fromNotation: true,
+      };
+    }
+  }
+  const barsPerLine = opts.barsPerLyricLine != null
+    ? opts.barsPerLyricLine
+    : detectBarsPerLyricLine(lines.length, scopedBarCount, chordChangeBarIndices(scopedBars));
   return {
     barsPerLyricLine: barsPerLine,
-    assignments: assignLyricLinesToBars(lines, barCount, barsPerLine),
+    assignments: assignLyricLinesToBars(lines, scopedBarCount, barsPerLine),
   };
 }
 

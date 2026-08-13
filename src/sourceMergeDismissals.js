@@ -65,15 +65,14 @@ export function isSourceMergeDismissed(sourceKey, tuneId, incomingTune, getTuneI
 
 export function applyMergeDismissalState(sourceKey, batch, recordState, getTuneImportHash) {
   if (!sourceKey || !batch) return;
+  // Accept and reject both mark this incoming version handled. Clearing on
+  // accept let a stale in-flight Drive compare re-toast the same tune as soon
+  // as "Apply selected" ran. recordState is kept for call-site compatibility.
   (batch.records || []).forEach(function(record) {
-    if (!record || !record.incomingTune) return;
-    const state = recordState && recordState[record.id];
-    const rejected = recordState && state && state.accept === false;
-    if (rejected) {
-      recordSourceMergeDismissal(sourceKey, record.id, record.incomingTune, getTuneImportHash);
-      return;
-    }
-    clearSourceMergeDismissal(sourceKey, record.id);
+    if (!record) return;
+    const tuneForDismissal = record.incomingTune || record.localTune;
+    if (!tuneForDismissal) return;
+    recordSourceMergeDismissal(sourceKey, record.id, tuneForDismissal, getTuneImportHash);
   });
 }
 

@@ -49,6 +49,19 @@ export async function listGroups() {
   })
 }
 
+/** Find a group by label (case-insensitive) or create one. Empty label → null (ungrouped). */
+export async function findOrCreateGroupByLabel(label) {
+  const trimmed = String(label || '').trim()
+  if (!trimmed) return null
+  const groups = await listGroups()
+  const needle = trimmed.toLowerCase()
+  const existing = groups.find(function(g) {
+    return String(g.label || '').trim().toLowerCase() === needle
+  })
+  if (existing) return existing
+  return saveGroup({ label: trimmed })
+}
+
 export async function saveGroup(group) {
   const groups = await readJson(GROUPS_KEY, [])
   const now = nowIso()

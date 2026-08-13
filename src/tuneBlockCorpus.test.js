@@ -1,9 +1,10 @@
 import fs from 'fs'
 import path from 'path'
 import useAbcTools from './useAbcTools'
-import { auditCorpus, auditTuneBlockStructure, classifyLyricPattern, critiqueBlocksAgainstLyrics } from './tuneBlockCorpusAudit'
+import { auditCorpus, auditTuneBlockStructure, classifyLyricPattern, classifyStrainLyricMapping, critiqueBlocksAgainstLyrics } from './tuneBlockCorpusAudit'
 import { blocksFromLyricLines } from './tuneBlockModel'
 import { lyricLinesForChecks } from './tuneDisplayLayers'
+import { SONGS_DOUBLE_SPACED_CHORUS_LABEL } from './importSampleFixtures'
 
 const { abc2Tunebook } = useAbcTools()
 
@@ -26,16 +27,7 @@ function tunesWithLyrics(tunes) {
 
 describe('tuneBlockCorpusAudit', function() {
   test('classifyLyricPattern tags double-spaced and section labels', function() {
-    const lines = [
-      'line one',
-      '',
-      'line two',
-      '',
-      'Chorus',
-      '',
-      'chorus hook',
-    ]
-    const patterns = classifyLyricPattern(lines)
+    const patterns = classifyLyricPattern(SONGS_DOUBLE_SPACED_CHORUS_LABEL)
     expect(patterns).toContain('section_label')
     expect(patterns).toContain('double_spaced')
   })
@@ -45,6 +37,20 @@ describe('tuneBlockCorpusAudit', function() {
     const blocks = blocksFromLyricLines(lines)
     const critique = critiqueBlocksAgainstLyrics(lines, blocks)
     expect(critique.ok).toBe(true)
+  })
+
+  test('classifyStrainLyricMapping buckets typical shapes', function() {
+    expect(classifyStrainLyricMapping(0, 2, []).bucket).toBe('instrumental')
+    expect(classifyStrainLyricMapping(4, 0, []).bucket).toBe('lyrics_no_melody')
+    expect(classifyStrainLyricMapping(3, 3, []).bucket).toBe('aligned')
+    expect(classifyStrainLyricMapping(10, 1, []).bucket).toBe('one_progression')
+    expect(classifyStrainLyricMapping(8, 3, []).bucket).toBe('pop_mismatch')
+    expect(classifyStrainLyricMapping(2, 5, []).bucket).toBe('strain_heavy')
+    expect(classifyStrainLyricMapping(10, 1, [
+      { chartRevisit: false },
+      { chartRevisit: true },
+      { chartRevisit: true },
+    ]).bucket).toBe('hymn_like')
   })
 })
 

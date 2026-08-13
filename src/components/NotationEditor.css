@@ -911,23 +911,87 @@
   flex-direction: column;
   min-height: 0;
 }
-.notation-abc-textarea {
+.notation-abc-textarea-shell {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  width: 100%;
   flex: 0 0 auto;
-  resize: both;
+}
+.notation-abc-textarea-shell:has(.notation-abc-textarea--focused) {
+  flex: 1 1 auto;
+}
+.notation-abc-textarea-highlight,
+.notation-abc-textarea {
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
   font-size: 1em;
   line-height: 1.4;
+  font-family: monospace;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  tab-size: 4;
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+.notation-abc-textarea-highlight {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  color: #212529;
+  background-color: #fff;
+  border-color: transparent;
+  /* Keep scroll metrics aligned with the textarea; hide the duplicate bar. */
+  scrollbar-width: none;
+}
+.notation-abc-textarea-highlight::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.notation-abc-textarea {
+  position: relative;
+  z-index: 1;
+  display: block;
   width: 100%;
+  resize: both;
   min-height: calc(1.4em * 5 + 0.75rem);
   height: calc(1.4em * 5 + 0.75rem);
-  font-family: monospace;
-  background-color: #fff;
-  box-sizing: border-box;
+  /* Transparent ink so the highlight <pre> shows through; keep caret visible. */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  caret-color: #212529;
+  background-color: transparent;
   transition: min-height 0.15s ease, height 0.15s ease;
 }
 .notation-abc-textarea--focused {
-  flex: 1 1 auto;
   min-height: calc(1.4em * 14 + 0.75rem);
   height: calc(1.4em * 14 + 0.75rem);
+}
+.notation-abc-textarea::selection {
+  background-color: rgba(13, 110, 253, 0.28);
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.notation-abc-double-bar {
+  /* No padding/margin — any extra width desyncs wrap vs the transparent textarea. */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0.15em;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  background-color: rgba(13, 110, 253, 0.22);
+}
+.notation-abc-double-bar--mid-block {
+  background-color: rgba(255, 193, 7, 0.55);
+  box-shadow: inset 0 0 0 1px rgba(146, 94, 0, 0.35);
 }
 .notation-abc-preview {
   width: 100%;

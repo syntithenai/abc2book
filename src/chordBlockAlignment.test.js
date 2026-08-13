@@ -51,8 +51,8 @@ describe('chord block alignment against melody double barlines', function() {
     expect(aligned[4].type).toBe('bridge');
     expect(aligned[4].chart).toContain('Gm');
 
-    // first verse and chorus merge inline; second verse reuses verse chords
-    // (structure shows title only via chartRevisit; lyrics still merge inline).
+    // first verse and chorus show charts; later same-type stanzas are revisits
+    // (Verse 2 / chorus repeats keep headings but hide duplicate charts).
     expect(aligned[0].inlineChords).toBe(true);
     expect(aligned[0].chartRevisit).toBe(false);
     expect(aligned[1].inlineChords).toBe(true);
@@ -64,8 +64,7 @@ describe('chord block alignment against melody double barlines', function() {
 
     const verseInline = mergeChordsIntoLyricLines(aligned[0].lyricLines, aligned[0].chart);
     expect(verseInline.flat().some(function(t) { return t.chord; })).toBe(true);
-    const verseTwoInline = mergeChordsIntoLyricLines(aligned[2].lyricLines, aligned[2].chart);
-    expect(verseTwoInline.flat().some(function(t) { return t.chord; })).toBe(true);
+    expect(aligned[2].chart).toBe(aligned[0].chart);
 
     // no words dropped
     expect(aligned[0].lyricLines).toEqual(['verse one line a', 'verse one line b']);
@@ -139,7 +138,7 @@ describe('chord block alignment against melody double barlines', function() {
       'Gloria in excelsis Deo.',
     ];
     const aligned = alignChordBlocksToLyrics(lyrics, blocks);
-    expect(aligned[0].type).toBe(null);
+    expect(aligned[0].type).toBe('verse');
     expect(aligned[0].inlineChords).toBe(true);
     expect(aligned[1].type).toBe('chorus');
     expect(aligned[1].inlineChords).toBe(true);
@@ -201,6 +200,51 @@ describe('chord block alignment against melody double barlines', function() {
     expect(formatChordChartForDisplay(displayChart)).toBe('C | / | G |');
     // Editor grid still includes empty slots for editing.
     expect(extractChordBars(editorChart).length).toBeGreaterThan(3);
+  });
+
+  test('display charts show held chord before mid-bar change', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('MidBarChange')
+      + 'M:4/4\nL:1/4\n"D"z z z z| z z "A"z z|';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'D', '1/4', '4/4');
+    expect(formatChordChartForDisplay(displayChart)).toBe('D | D A |');
+    expect(extractChordBars(displayChart)).toEqual([['D'], ['D', 'A']]);
+  });
+
+  test('display charts collapse pulse slots to beats for structure view', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('BeatChange')
+      + 'M:4/4\nL:1/8\n"D"z2 z2 z2 z2| z2 z2 z2 "A"z2|';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'D', '1/8', '4/4');
+    expect(formatChordChartForDisplay(displayChart)).toBe('D | D / / A |');
+  });
+
+  test('display charts carry held chords in compound meter', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('SixEight')
+      + 'M:6/8\nL:1/8\n"D"z2 z2 z2| z2 z2 z2| z2 z2 "A"z2|';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'D', '1/8', '6/8');
+    expect(formatChordChartForDisplay(displayChart)).toBe('D | / | D A |');
+  });
+
+  test('display charts keep 5/4 slash timing when inline [M:] is present', function() {
+    const abcjsParser = useAbcjsParser();
+    // Mid-tune [M:] after a completed bar (abcjs emits timeSignature there).
+    const abc = [
+      'X:1',
+      'T:FiveFourInline',
+      'M:4/4',
+      'L:1/4',
+      'K:C',
+      '"C"z z z z | [M:5/4] "C"z z z "G"z z |',
+    ].join('\n');
+    const displayChart = abcjsParser.renderChords(abc, false, 0, 'C', '1/4', '4/4');
+    expect(displayChart).toContain('[M:5/4]');
+    expect(displayChart).toMatch(/\[M:5\/4\]\s+C \/ \/ G \//);
+    expect(formatChordChartForDisplay(displayChart)).toBe('C | [M:5/4] C / / G / |');
   });
 
   test('editor grid omits empty bar before leading |: repeat', function() {

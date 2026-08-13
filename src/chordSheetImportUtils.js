@@ -1,6 +1,11 @@
-import { classifyLyricChordLines, charOffsetToWordIndex, wrapChordGridBars } from './chordSheetUtils'
+import {
+  classifyLyricChordLines,
+  charOffsetToWordIndex,
+  wrapChordGridBars,
+  lineHasChordProInlineChords,
+} from './chordSheetUtils'
 import { normalizeLyricStructure } from './lyricStructureUtils'
-import { anchorsFromCowPair } from './inlineChordTimingUtils'
+import { anchorsFromCowPair, anchorsFromChordProLine } from './inlineChordTimingUtils'
 
 function mapLyricTokens(lyricTokens) {
   return (Array.isArray(lyricTokens) ? lyricTokens : []).map(function(token) {
@@ -207,12 +212,20 @@ export function buildChordSheetAlignmentFromLines(sheetLines) {
         pendingChordLines = []
         skipUntil = index + lyricRun.length - 1
       } else {
+        // ChordPro inline `[C]words` — extract anchors into chordLines so paste
+        // / From Lyrics can build one chart bar per lyric line.
+        const chordProAnchors = lineHasChordProInlineChords(item.text)
+          ? anchorsFromChordProLine(item.text)
+          : []
+        const chordLine = chordProAnchors.length
+          ? chordProAnchors.map(function(anchor) { return anchor.chord; }).join(' ')
+          : ''
         current.lines.push(item.text)
         current.linePairs.push({
           lyricLine: item.text,
           lyricTokens: mapLyricTokens(item.tokens),
-          chordLines: [],
-          anchors: [],
+          chordLines: chordLine ? [chordLine] : [],
+          anchors: chordProAnchors,
         })
       }
     }

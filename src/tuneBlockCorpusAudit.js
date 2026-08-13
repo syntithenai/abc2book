@@ -2,7 +2,6 @@
  * Corpus audit for tune block structure analysis.
  * Treats stored lyrics as ground truth and critiques parser output.
  */
-import useAbcTools from './useAbcTools'
 import { blocksFromTune } from './tuneBlockModel'
 import { assessTuneBlockStructure } from './tuneBlockQualityAssessment'
 import { lyricLinesForChecks } from './tuneDisplayLayers'
@@ -20,8 +19,6 @@ import {
 import { stripNoteSpacingFromLine, lyricLineHasNoteSpacing } from './wLinesUtils'
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
 import { noteLinesForMelodyMerge, splitMelodyStrainsWithBarlines } from './chordBlockMerge'
-
-const { abc2Tunebook } = useAbcTools()
 
 function normalizeSourceLine(line) {
   const raw = String(line == null ? '' : line)
@@ -272,6 +269,76 @@ function strainCountForTune(tune) {
 }
 
 /**
+ * How lyric section blocks relate to ABC melody strains.
+ *
+ * Buckets:
+ * - instrumental: no lyrics
+ * - lyrics_no_melody: lyrics but no melody strains in ABC
+ * - aligned: block count matches strain count (1:1 progression mapping)
+ * - hymn_like: one melody strain, many lyric blocks (revisit/hymn pattern)
+ * - one_progression: one strain, many lyric blocks without revisit markers
+ * - pop_mismatch: more lyric blocks than strains (typical verse/chorus repeats)
+ * - strain_heavy: more strains than lyric blocks
+ */
+export function classifyStrainLyricMapping(blockCount, strainCount, blocks) {
+  const list = Array.isArray(blocks) ? blocks : []
+  const blocksN = Math.max(0, Number(blockCount) || 0)
+  const strainsN = Math.max(0, Number(strainCount) || 0)
+  const ratio = strainsN > 0 ? blocksN / strainsN : null
+  const hasRevisitBlocks = list.some(function(block) {
+    return block && (block.chartRevisit || block.chordMode === 'revisit')
+  })
+  const revisitAfterFirst = blocksN > strainsN && list.length > 1
+    && list.every(function(block, index) {
+      if (index === 0) return true
+      return block && (block.chartRevisit || block.chordMode === 'revisit')
+    })
+
+  let bucket = 'instrumental'
+  let description = 'No lyrics to map.'
+
+  if (blocksN > 0 && strainsN === 0) {
+    bucket = 'lyrics_no_melody'
+    description = 'Lyrics present but ABC has no melody strains.'
+  } else if (blocksN > 0 && strainsN > 0) {
+    if (blocksN === strainsN) {
+      bucket = 'aligned'
+      description = 'Lyric sections match melody strain count.'
+    } else if (strainsN === 1 && blocksN > 1) {
+      if (hasRevisitBlocks || revisitAfterFirst) {
+        bucket = 'hymn_like'
+        description = 'One progression with many lyric stanzas (hymn/revisit).'
+      } else {
+        bucket = 'one_progression'
+        description = 'One ABC progression with many written lyric sections.'
+      }
+    } else if (blocksN > strainsN) {
+      bucket = 'pop_mismatch'
+      description = 'More lyric sections than melody strains (repeated chorus/verse blocks).'
+    } else {
+      bucket = 'strain_heavy'
+      description = 'More melody strains than lyric sections.'
+    }
+  }
+
+  const outlier = blocksN > 0 && strainsN > 0 && (
+    blocksN >= 15
+    || ratio >= 3
+    || (strainsN === 1 && blocksN >= 8)
+  )
+
+  return {
+    bucket: bucket,
+    description: description,
+    blockCount: blocksN,
+    strainCount: strainsN,
+    ratio: ratio,
+    outlier: outlier,
+    hasRevisitBlocks: hasRevisitBlocks,
+  }
+}
+
+/**
  * Full audit for one tune snapshot.
  */
 export function auditTuneBlockStructure(tune) {
@@ -285,6 +352,9 @@ export function auditTuneBlockStructure(tune) {
     composer: tune && tune.composer,
   })
   const patterns = hasLyrics ? classifyLyricPattern(sourceLines) : ['no_lyrics']
+  const strainLyric = hasLyrics
+    ? classifyStrainLyricMapping(blocks.length, strainCount, blocks)
+    : classifyStrainLyricMapping(0, strainCount, [])
 
   return {
     tuneId: tune && tune.id,
@@ -293,6 +363,7 @@ export function auditTuneBlockStructure(tune) {
     patterns: patterns,
     blockCount: blocks.length,
     strainCount: strainCount,
+    strainLyric: strainLyric,
     blocks: blocks,
     assessment: assessment,
     critique: critique,
@@ -309,7 +380,9 @@ export function auditCorpus(tunes, options) {
   const results = []
   const byPattern = Object.create(null)
   const byIssueCode = Object.create(null)
+  const byStrainLyricBucket = Object.create(null)
   const issueCounts = Object.create(null)
+  const strainLyricOutliers = []
   let lyricsCount = 0
   let passCount = 0
   let failCount = 0
@@ -319,6 +392,9 @@ export function auditCorpus(tunes, options) {
     const result = auditTuneBlockStructure(tune)
     if (!result.hasLyrics) {
       skippedCount += 1
+      const bucket = 'instrumental'
+      if (!byStrainLyricBucket[bucket]) byStrainLyricBucket[bucket] = 0
+      byStrainLyricBucket[bucket] += 1
       if (opts.includeInstrumental) results.push(result)
       return
     }
@@ -326,6 +402,21 @@ export function auditCorpus(tunes, options) {
     if (result.ok) passCount += 1
     else failCount += 1
     results.push(result)
+
+    const mapping = result.strainLyric || {}
+    const bucket = mapping.bucket || 'unknown'
+    if (!byStrainLyricBucket[bucket]) byStrainLyricBucket[bucket] = 0
+    byStrainLyricBucket[bucket] += 1
+    if (mapping.outlier && strainLyricOutliers.length < (opts.maxOutlierExamples || 15)) {
+      strainLyricOutliers.push({
+        tuneId: result.tuneId,
+        tuneName: result.tuneName,
+        blockCount: mapping.blockCount,
+        strainCount: mapping.strainCount,
+        ratio: mapping.ratio,
+        bucket: mapping.bucket,
+      })
+    }
 
     result.patterns.forEach(function(pattern) {
       if (!byPattern[pattern]) byPattern[pattern] = { total: 0, pass: 0, fail: 0 }
@@ -362,6 +453,8 @@ export function auditCorpus(tunes, options) {
     passRate: passRate,
     issueCounts: issueCounts,
     byPattern: byPattern,
+    byStrainLyricBucket: byStrainLyricBucket,
+    strainLyricOutliers: strainLyricOutliers,
     byIssueCode: byIssueCode,
     failures: results.filter(function(r) { return r.hasLyrics && !r.ok }),
     results: opts.includeAll ? results : undefined,
@@ -381,6 +474,8 @@ export function summarizeAuditReport(report) {
     passRate: report.passRate,
     issueCounts: report.issueCounts,
     byPattern: report.byPattern,
+    byStrainLyricBucket: report.byStrainLyricBucket,
+    strainLyricOutliers: report.strainLyricOutliers,
     byIssueCode: report.byIssueCode,
     failures: (report.failures || []).map(function(item) {
       return {
@@ -389,11 +484,10 @@ export function summarizeAuditReport(report) {
         patterns: item.patterns,
         blockCount: item.blockCount,
         strainCount: item.strainCount,
+        strainLyric: item.strainLyric,
         issues: item.critique.issues,
         assessmentIssues: item.assessment.issues,
       }
     }),
   }
 }
-
-export { abc2Tunebook }

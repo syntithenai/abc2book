@@ -1,10 +1,11 @@
 import { createQueue } from './nowPlayingQueue'
 import {
   isQueueItemPlayable,
-  isQueueItemBackgroundCapable,
   advanceQueueToNextPlayable,
   findFirstPlayableQueueIndex,
   isOwnedMediaLinkLocallyAvailable,
+  getResolverProxiedMediaPlayBlock,
+  isResolverProxiedMediaPlayable,
   stopPlaylistPlayback,
 } from './playlistPlaybackResilience'
 
@@ -19,6 +20,29 @@ jest.mock('./linkRecording', function() {
       if (!uri || String(uri).indexOf('abcbook-recording:') !== 0) return null
       return String(uri).slice('abcbook-recording:'.length) || null
     },
+    resolveTuneLinkCacheSrc: function(tune, linkIndex) {
+      if (!tune || !Array.isArray(tune.links) || !tune.links[linkIndex]) return ''
+      return String(tune.links[linkIndex].link || '').trim()
+    },
+  }
+})
+
+jest.mock('./mediaProxyClient', function() {
+  return {
+    requiresResolverProxiedPlayback: function(src) {
+      return String(src || '').indexOf('/music-collection/') >= 0
+    },
+    getResolverLoginWarning: jest.fn(function() { return null }),
+    getResolverProxiedPlaybackBlock: jest.fn(function() { return null }),
+  }
+})
+
+jest.mock('./mediaResolverHealthStore', function() {
+  return {
+    getMediaResolverHealthState: jest.fn(function() {
+      return { checked: true, available: true, status: { available: true } }
+    }),
+    getActiveResolverAccessToken: jest.fn(function() { return '' }),
   }
 })
 
@@ -40,6 +64,28 @@ describe('playlistPlaybackResilience', function() {
     media: { id: 'media', links: [{ link: 'https://example.com/a.mp3' }] },
     empty: { id: 'empty' },
   }
+
+  beforeEach(function() {
+    const linkRecording = require('./linkRecording')
+    const mediaProxyClient = require('./mediaProxyClient')
+    const healthStore = require('./mediaResolverHealthStore')
+    linkRecording.isLinkMediaCached.mockReset()
+    linkRecording.isLinkMediaCached.mockResolvedValue(false)
+    linkRecording.getRecording.mockReset()
+    linkRecording.getRecording.mockResolvedValue(null)
+    mediaProxyClient.getResolverLoginWarning.mockReset()
+    mediaProxyClient.getResolverLoginWarning.mockReturnValue(null)
+    mediaProxyClient.getResolverProxiedPlaybackBlock.mockReset()
+    mediaProxyClient.getResolverProxiedPlaybackBlock.mockReturnValue(null)
+    healthStore.getMediaResolverHealthState.mockReset()
+    healthStore.getMediaResolverHealthState.mockReturnValue({
+      checked: true,
+      available: true,
+      status: { available: true },
+    })
+    healthStore.getActiveResolverAccessToken.mockReset()
+    healthStore.getActiveResolverAccessToken.mockReturnValue('')
+  })
 
   test('isQueueItemPlayable reflects resolvePlaybackForItem', function() {
     expect(isQueueItemPlayable(tunes.midi, { tuneId: 'midi' }, tunebook)).toBe(true)
@@ -112,6 +158,112 @@ describe('playlistPlaybackResilience', function() {
     const result = await advanceQueueToNextPlayable(queue, tunes, tunebook, { direction: 1 })
     expect(result.atEnd).toBe(true)
     expect(result.tune).toBeNull()
+  })
+
+  test('isResolverProxiedMediaPlayable allows cached library links without login', async function() {
+    const linkRecording = require('./linkRecording')
+    const mediaProxyClient = require('./mediaProxyClient')
+    linkRecording.isLinkMediaCached.mockResolvedValue(true)
+    mediaProxyClient.getResolverLoginWarning.mockReturnValue({
+      message: 'need login',
+      showLoginButton: true,
+    })
+    const tune = {
+      id: 'lib',
+      links: [{ link: 'https://resolver.example/music-collection/a.mp3' }],
+    }
+    await expect(isResolverProxiedMediaPlayable(tune, 0)).resolves.toBe(true)
+    await expect(getResolverProxiedMediaPlayBlock(tune, 0)).resolves.toBeNull()
+  })
+
+  test('isResolverProxiedMediaPlayable blocks uncached library links when login required', async function() {
+    const mediaProxyClient = require('./mediaProxyClient')
+    mediaProxyClient.getResolverLoginWarning.mockReturnValue({
+      message: 'need login',
+      showLoginButton: true,
+    })
+    const tune = {
+      id: 'lib',
+      links: [{ link: 'https://resolver.example/music-collection/a.mp3' }],
+    }
+    await expect(isResolverProxiedMediaPlayable(tune, 0, {
+      resolverStatus: { available: false },
+      accessToken: null,
+    })).resolves.toBe(false)
+    const block = await getResolverProxiedMediaPlayBlock(tune, 0, {
+      resolverStatus: { available: false },
+      accessToken: null,
+    })
+    expect(block).toEqual(expect.objectContaining({
+      kind: 'login',
+      message: 'need login',
+    }))
+  })
+
+  test('advanceQueueToNextPlayable skips uncached library links when logged out', async function() {
+    const mediaProxyClient = require('./mediaProxyClient')
+    mediaProxyClient.getResolverLoginWarning.mockReturnValue({
+      message: 'Shared resolver providers need a Google login.',
+      showLoginButton: true,
+    })
+    const library = {
+      id: 'library',
+      links: [{ link: 'https://resolver.example/music-collection/uncached.mp3' }],
+    }
+    const cachedDirect = {
+      id: 'cached',
+      links: [{ link: 'https://example.com/cached.mp3' }],
+    }
+    const mix = { library: library, cached: cachedDirect }
+    const queue = createQueue({
+      tuneIds: ['library', 'cached'],
+      currentIndex: 0,
+    })
+    const result = await advanceQueueToNextPlayable(queue, mix, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+      resolverStatus: { available: false },
+      accessToken: null,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(1)
+    expect(result.tune.id).toBe('cached')
+  })
+
+  test('advanceQueueToNextPlayable skips uncached when logged out before health probe settles', async function() {
+    const linkRecording = require('./linkRecording')
+    const healthStore = require('./mediaResolverHealthStore')
+    healthStore.getMediaResolverHealthState.mockReturnValue({
+      checked: false,
+      available: false,
+      status: null,
+    })
+    healthStore.getActiveResolverAccessToken.mockReturnValue('stale-token')
+    linkRecording.isLinkMediaCached.mockImplementation(function(tune) {
+      return Promise.resolve(!!(tune && tune.id === 'cached'))
+    })
+    const uncached = {
+      id: 'uncached',
+      links: [{ link: 'https://resolver.example/music-collection/uncached.mp3' }],
+    }
+    const cached = {
+      id: 'cached',
+      links: [{ link: 'https://resolver.example/music-collection/cached.mp3' }],
+    }
+    const mix = { uncached: uncached, cached: cached }
+    const queue = createQueue({
+      tuneIds: ['uncached', 'cached'],
+      currentIndex: 0,
+    })
+    const result = await advanceQueueToNextPlayable(queue, mix, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+      // Explicit null must win over the stale health-store token.
+      accessToken: null,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(1)
+    expect(result.tune.id).toBe('cached')
   })
 
   test('stopPlaylistPlayback clears controller playback state', function() {

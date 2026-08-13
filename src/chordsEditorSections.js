@@ -17,11 +17,13 @@ import {
   formatSectionChartForEditor,
   parseSectionChartFromEditor,
   stripChartStructureMarkers,
+  wrapChordGridBars,
+  lineHasChordProInlineChords,
 } from './chordSheetUtils'
+import { anchorsFromChordProLine } from './inlineChordTimingUtils'
 import {
   formatLyricSectionHeader,
   listLyricSections,
-  renameLyricSectionHeader,
   sectionDisplayTitle,
 } from './lyricStructureUtils'
 import { normalizeMeter } from './barModel'
@@ -258,11 +260,16 @@ export function listChordsEditorSections(options) {
   }
 
   const aligned = alignChordBlocksToLyrics(lyricLines, blocks, Object.assign({}, opts.alignOptions || null, {
+    title: opts.title || (opts.alignOptions && opts.alignOptions.title) || null,
+    composer: opts.composer || (opts.alignOptions && opts.alignOptions.composer) || null,
     chordSectionLabels: Array.isArray(opts.chordSectionLabels)
       ? opts.chordSectionLabels
       : (opts.alignOptions && opts.alignOptions.chordSectionLabels) || null,
   }))
-  const lyricSections = listLyricSections(lyricLines)
+  const lyricSections = listLyricSections(lyricLines, {
+    title: opts.title || (opts.alignOptions && opts.alignOptions.title) || null,
+    composer: opts.composer || (opts.alignOptions && opts.alignOptions.composer) || null,
+  })
   let previousMeter = null
   let previousTempo = null
   let previousKey = null
@@ -383,11 +390,8 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter,
         isSectionMarkerToken(split.headerLine)
         || /^#+\s+/.test(String(split.headerLine).trim())
       )) {
+        // Notation marker flag only — do not retitle from chart # headers.
         sectionPatch.writeNotationMarker = true
-        const headerResult = sectionPatchFromChartHeaderLine(section, split.headerLine)
-        if (headerResult.changed && headerResult.patch) {
-          sectionPatch = Object.assign(sectionPatch, headerResult.patch)
-        }
       }
       list[idx] = Object.assign({}, section, sectionPatch, {
         chart: chart,
@@ -874,7 +878,42 @@ export function firstSectionTempo(sections, fallback) {
 }
 
 /**
+ * Compact a COW / ChordPro chord row into one chart bar (tokens + trailing |).
+ * Space-padded COW rows collapse to "C G Am F |" so lyric lines map 1:1 to bars.
+ */
+function chordRowToChartBar(line) {
+  const tokens = String(line == null ? '' : line).trim().split(/\s+/).filter(Boolean)
+  if (!tokens.length) return ''
+  return tokens.join(' ') + ' |'
+}
+
+/**
+ * Chord rows for one lyric/chord pair: prefer chordLines, else ChordPro anchors
+ * on the lyric line, else anchors[].chord.
+ */
+function chartBarsFromLinePair(pair) {
+  const bars = []
+  const chordLines = Array.isArray(pair && pair.chordLines) ? pair.chordLines : []
+  chordLines.forEach(function(line) {
+    const bar = chordRowToChartBar(line)
+    if (bar) bars.push(bar)
+  })
+  if (bars.length) return bars
+
+  let anchors = Array.isArray(pair && pair.anchors) ? pair.anchors : []
+  if (!anchors.length && pair && lineHasChordProInlineChords(pair.lyricLine)) {
+    anchors = anchorsFromChordProLine(pair.lyricLine)
+  }
+  if (anchors.length) {
+    const bar = chordRowToChartBar(anchors.map(function(a) { return a.chord; }).join(' '))
+    if (bar) bars.push(bar)
+  }
+  return bars
+}
+
+/**
  * Paste sheet → section list for review (chords only; lyrics used for labels/match).
+ * Alignment path: one chart bar per lyric line (and wrap within the section).
  */
 export function listPasteChordSections(parsedSheet) {
   const parsed = parsedSheet || {}
@@ -885,14 +924,18 @@ export function listPasteChordSections(parsedSheet) {
       const type = block.type != null ? block.type : (header ? normalizeSectionType(header) : null)
       const chordLines = []
       ;(Array.isArray(block.linePairs) ? block.linePairs : []).forEach(function(pair) {
-        ;(Array.isArray(pair.chordLines) ? pair.chordLines : []).forEach(function(line) {
-          let text = String(line || '').trim()
-          if (!text) return
-          if (!text.endsWith('|')) text += '|'
-          chordLines.push(text)
+        chartBarsFromLinePair(pair).forEach(function(bar) {
+          chordLines.push(bar)
         })
       })
-      const chart = chordLines.join('\n')
+      // One lyric line → one chart line. Only wrap a line that already has >8 bars.
+      const chart = chordLines.map(function(line) {
+        const barCount = String(line).split('|').filter(function(part) {
+          return String(part || '').trim()
+        }).length
+        if (barCount > 8) return wrapChordGridBars(line, 8)
+        return line
+      }).join('\n')
       return {
         key: 'paste-' + index,
         title: sectionDisplayTitle({ header: header, lines: block.lines || [] }),
@@ -907,7 +950,9 @@ export function listPasteChordSections(parsedSheet) {
           || 120,
       }
     }).filter(function(section) {
-      return chartBlockHasChords(section.chart) || (section.lyricLines && section.lyricLines.length)
+      return chartBlockHasChords(section.chart)
+        || (section.lyricLines && section.lyricLines.length)
+        || !!(section.header && String(section.header).trim())
     })
   }
 
@@ -1072,37 +1117,25 @@ export function findStanzaNameConflict(sections, sectionKey, newName) {
 
 /**
  * Rewrite lyric section headers when chord chart # headers are edited in bulk.
+ * Deprecated: chord edits must not rewrite lyric markers. Always a no-op.
  * @returns {{ lines: string[], updated: boolean }}
  */
 export function lyricLinesAfterHeaderPatches(sections, headerPatches, lyricLines) {
-  if (!Array.isArray(headerPatches) || headerPatches.length === 0) {
-    return { lines: lyricLines, updated: false }
+  void sections
+  void headerPatches
+  return {
+    lines: Array.isArray(lyricLines)
+      ? lyricLines.map(function(line) { return String(line == null ? '' : line) })
+      : [],
+    updated: false,
   }
-  let lines = Array.isArray(lyricLines)
-    ? lyricLines.map(function(line) { return String(line == null ? '' : line) })
-    : []
-  let updated = false
-  const list = Array.isArray(sections) ? sections : []
-  headerPatches.forEach(function(entry) {
-    if (!entry || !entry.patch || entry.index < 0 || entry.index >= list.length) return
-    const section = list[entry.index]
-    if (!section) return
-    const oldHeader = section.header || section.title || ''
-    const newName = entry.patch.title || entry.patch.header || ''
-    const renamed = renameLyricSectionHeader(lines, oldHeader, newName)
-    if (renamed.updated) {
-      updated = true
-      lines = renamed.lines
-    }
-  })
-  return { lines: lines, updated: updated }
 }
 
 /**
  * Rename a chord-editor section. Refuses when the name conflicts with another
- * section. Does not rewrite lyrics text.
+ * section. Does not rewrite lyrics — lyric markers are the source of truth.
  *
- * @returns {{ ok: true, sections: array } | { ok: false, error: string, conflict: object }}
+ * @returns {{ ok: true, sections: array, updateLyrics: false, lyricLines } | { ok: false, error: string, conflict: object }}
  */
 export function renameChordsEditorSection(sections, sectionKey, newName, lyricLines) {
   const list = Array.isArray(sections) ? sections.map(function(s) {
@@ -1124,7 +1157,6 @@ export function renameChordsEditorSection(sections, sectionKey, newName, lyricLi
       conflict: conflict,
     }
   }
-  const oldHeader = list[index].header || list[index].title || ''
   const header = formatLyricSectionHeader(trimmed)
   const type = normalizeSectionType(header)
   const title = sectionDisplayTitle({ header: header, lines: list[index].lyricLines || [] })
@@ -1137,15 +1169,6 @@ export function renameChordsEditorSection(sections, sectionKey, newName, lyricLi
     lyricSectionType: type,
     writeNotationMarker: true,
   })
-  let updateLyrics = false
-  let lyricLinesOut = lyricLines
-  if (Array.isArray(lyricLines) && oldHeader) {
-    const renamedLyrics = renameLyricSectionHeader(lyricLines, oldHeader, trimmed)
-    if (renamedLyrics.updated) {
-      updateLyrics = true
-      lyricLinesOut = renamedLyrics.lines
-    }
-  }
   return {
     ok: true,
     sections: list.map(function(section, i) {
@@ -1155,8 +1178,8 @@ export function renameChordsEditorSection(sections, sectionKey, newName, lyricLi
         startLine: i,
       })
     }),
-    updateLyrics: updateLyrics,
-    lyricLines: lyricLinesOut,
+    updateLyrics: false,
+    lyricLines: lyricLines,
   }
 }
 
@@ -1200,6 +1223,10 @@ export function applyChordSectionLabels(blocks, labels, lyricLines) {
     if (!block) return block
     const label = labelList[index]
     if (!label) return block
+    const hasLabelContent = label.type != null
+      || String(label.header || '').trim()
+      || String(label.title || '').trim()
+    if (!hasLabelContent) return block
     const header = label.header
       ? String(label.header)
       : formatLyricSectionHeader(label.title || '')

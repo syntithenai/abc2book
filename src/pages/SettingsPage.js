@@ -34,6 +34,7 @@ import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
 import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
+import CleanupSettingsSection from '../components/CleanupSettingsSection'
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import { isMusicCollectionSettingsAvailable } from '../musicCollectionAdminClient'
 import { isBillingAdminAvailable } from '../creditAdminClient'
@@ -79,6 +80,7 @@ const TAB_PEDAL = 'pedal'
 const TAB_BACKUP = 'backup'
 const TAB_SOURCES = 'sources'
 const TAB_DUPLICATES = 'duplicates'
+const TAB_CLEANUP = 'cleanup'
 const TAB_LIBRARY = 'library'
 const TAB_MUSIC_COLLECTION = 'music-collection'
 const TAB_BILLING_ADMIN = 'billing-admin'
@@ -170,6 +172,7 @@ export default function SettingsPage(props) {
     && isMusicCollectionSettingsAvailable(resolverStatus)
     && isMusicGenerationAdmin(props.user)
   const showDuplicatesTab = isMusicGenerationAdmin(props.user)
+  const showCleanupTab = isMusicGenerationAdmin(props.user)
   const showBillingAdminTab = checked && isBillingAdminAvailable(resolverStatus, props.user)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
 
@@ -241,8 +244,10 @@ export default function SettingsPage(props) {
       setActiveTab(TAB_BACKGROUND_JOBS)
     } else if (activeTab === TAB_DUPLICATES && !showDuplicatesTab) {
       setActiveTab(TAB_BACKGROUND_JOBS)
+    } else if (activeTab === TAB_CLEANUP && !showCleanupTab) {
+      setActiveTab(TAB_BACKGROUND_JOBS)
     }
-  }, [activeTab, showMusicCollectionTab, showDuplicatesTab])
+  }, [activeTab, showMusicCollectionTab, showDuplicatesTab, showCleanupTab])
 
   useEffect(function() {
     function onHelperSettingsChanged() {
@@ -515,6 +520,11 @@ export default function SettingsPage(props) {
         {showDuplicatesTab ? (
           <Nav.Item>
             <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
+          </Nav.Item>
+        ) : null}
+        {showCleanupTab ? (
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_CLEANUP}>Cleanup</Nav.Link>
           </Nav.Item>
         ) : null}
         <Nav.Item>
@@ -882,7 +892,22 @@ export default function SettingsPage(props) {
                 tunes={tunes}
                 tunesHash={tunesHash}
                 tunebook={tunebook}
+                indexes={props.indexes}
                 currentTuneBook={props.currentTuneBook}
+              />
+            ) : null}
+          </Tab.Pane>
+        ) : null}
+
+        {showCleanupTab ? (
+          <Tab.Pane eventKey={TAB_CLEANUP}>
+            {activeTab === TAB_CLEANUP ? (
+              <CleanupSettingsSection
+                tunes={tunes}
+                tunebook={tunebook}
+                indexes={props.indexes}
+                currentTuneBook={props.currentTuneBook}
+                forceRefresh={props.forceRefresh}
               />
             ) : null}
           </Tab.Pane>

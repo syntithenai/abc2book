@@ -1,6 +1,6 @@
 import jwt_decode from 'jwt-decode'
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
-import { normalizeToTokenResponse } from './googleLoginTokenAdapter'
+import { normalizeToTokenResponse, tokenHasFreshAccess } from './googleLoginTokenAdapter'
 import { shouldUseAndroidBrowserOAuth } from './androidGoogleAuth'
 
 var GOOGLE_LOGIN_PROFILE_KEY = 'google_login_profile'
@@ -234,8 +234,7 @@ export function createTokenClientController(ctx) {
     if (!localStorage.getItem('google_login_user')) return
     if (refreshInFlight || refreshPendingTimeout) return
     var current = ctx.getAccessToken && ctx.getAccessToken()
-    var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
-    if (current && current.access_token && expiresAt > Date.now() + 60000) {
+    if (tokenHasFreshAccess(current, 60000)) {
       scheduleRenew(current)
       return
     }

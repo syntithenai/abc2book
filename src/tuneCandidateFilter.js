@@ -57,6 +57,17 @@ function idsForBook(bookIndex, bookName) {
   return []
 }
 
+/**
+ * When an index-backed lookup returns no IDs but tunes exist, fall back to a full
+ * scan (null) instead of []. filterSearchFn still applies structural filters.
+ * Empty indexes must never blank the whole list.
+ */
+export function fallbackToFullScanIfEmpty(candidateIds, allTuneIds) {
+  if (Array.isArray(candidateIds) && candidateIds.length > 0) return candidateIds
+  if (Array.isArray(allTuneIds) && allTuneIds.length > 0) return null
+  return Array.isArray(candidateIds) ? candidateIds : []
+}
+
 function idsForTags(tagIndex, tagFilters) {
   const tags = normalizeFilterList(tagFilters)
   if (tags.length === 0) return null
@@ -75,6 +86,12 @@ function idsForArtists(artistIndex, artistFilters) {
   return idsFromIndex(artistIndex, artists)
 }
 
+function idsForAlbums(albumIndex, albumFilters) {
+  const albums = normalizeFilterList(albumFilters)
+  if (albums.length === 0) return null
+  return idsFromIndex(albumIndex, albums)
+}
+
 /**
  * Resolve candidate tune IDs from index-backed structural filters.
  * Returns null when all tune keys should be scanned (no structural narrowing).
@@ -86,17 +103,20 @@ export function resolveCandidateTuneIds(filters, indexes, allTuneIds) {
   const tagIndex = idx.tagIndex || idx.tags || {}
   const genreIndex = idx.genreIndex || idx.genres || {}
   const artistIndex = idx.artistIndex || idx.artists || {}
+  const albumIndex = idx.albumIndex || idx.albums || {}
 
   const bookName = f.currentTuneBook || f.bookFilter || ''
   const tagFilters = f.tagFilter || []
   const genreFilters = f.genreFilter || []
   const artistFilters = f.artistFilter || []
+  const albumFilters = f.albumFilter || []
   const starredOnly = !!f.starredFilter
 
   const hasStructural = !!(bookName && String(bookName).trim())
     || (Array.isArray(tagFilters) && tagFilters.length > 0)
     || (Array.isArray(genreFilters) && genreFilters.length > 0)
     || (Array.isArray(artistFilters) && artistFilters.length > 0)
+    || (Array.isArray(albumFilters) && albumFilters.length > 0)
 
   if (!hasStructural && !starredOnly) {
     return null
@@ -106,7 +126,11 @@ export function resolveCandidateTuneIds(filters, indexes, allTuneIds) {
 
   if (bookName && String(bookName).trim()) {
     candidates = idsForBook(bookIndex, String(bookName).trim())
-    if (!candidates || candidates.length === 0) return []
+    // Missing/empty book index must not blank the list when tunes exist.
+    // Fall back to a full scan; filterSearchFn still applies the book filter.
+    const bookFallback = fallbackToFullScanIfEmpty(candidates, allTuneIds)
+    if (bookFallback === null) return null
+    candidates = bookFallback
   }
 
   const tagIds = idsForTags(tagIndex, tagFilters)
@@ -124,11 +148,31 @@ export function resolveCandidateTuneIds(filters, indexes, allTuneIds) {
     candidates = candidates ? intersectIds(candidates, artistIds) : artistIds
   }
 
+  const albumIds = idsForAlbums(albumIndex, albumFilters)
+  if (albumIds) {
+    candidates = candidates ? intersectIds(candidates, albumIds) : albumIds
+  }
+
   if (!candidates) {
     candidates = Array.isArray(allTuneIds) ? allTuneIds.slice() : []
   }
 
   return candidates
+}
+
+/**
+ * True when tunes carry book membership but the book index has no keys.
+ * Used to trigger a one-shot rebuild so book filters stay index-backed.
+ */
+export function bookIndexNeedsRepair(tunes, bookIndex) {
+  if (!tunes || typeof tunes !== 'object') return false
+  if (bookIndex && Object.keys(bookIndex).length > 0) return false
+  const list = Array.isArray(tunes) ? tunes : Object.values(tunes)
+  for (let i = 0; i < list.length; i += 1) {
+    const tune = list[i]
+    if (tune && Array.isArray(tune.books) && tune.books.length > 0) return true
+  }
+  return false
 }
 
 export function isLargeBookIndex(bookIndex, bookName) {

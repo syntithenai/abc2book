@@ -1,5 +1,6 @@
 import {
   collapseAnacrusisDoubleBarlines,
+  flattenMelodyText,
   splitMelodyIntoBlocks,
   extractBarsFromMelodyText,
   assignLyricLinesToBars,
@@ -10,7 +11,12 @@ import {
   assignLyricLinesToBarsForChart,
   chordChangeBarIndices,
   wordIndexToNoteIndex,
+  assignLyricLinesToBarsFromNotation,
+  splitMelodyNoteLinesByStrain,
+  notationNoteLinesForStrainIndex,
+  filterNotationNoteLinesForAlignment,
 } from './lyricBarAlignmentUtils';
+import { splitMelodyStrainsWithBarlines } from './melodyStrainSplit';
 
 const ASHOKAN_A = 'Ac | d3 cBA | F4 EF | G3 FED | B,2 D3 B, | A,2 D2 F2 | A2 d2 f2 | f3 gf2 | e4 Ac |';
 const ASHOKAN_B = 'd3 cBA | F4 EF | G3 FED | B,2 D3 B, | A,2 D2 F2 | A2 d2 f2 | A2 c2 e2 | d4 FG ::';
@@ -18,6 +24,22 @@ const ASHOKAN_C = 'A3 FD2 | d4 A2 | B3 cd2 | A F3 E2 | F3 ED2 | B,4 G,2 | A,6 | 
 const ASHOKAN_D = 'D2 F2 A2 | =c6 | B3 cd2 | A2 F2 D2 | A,2 D2 F2 | A2 d2 F2 | E3 DC2 | D4 :|';
 
 describe('lyricBarAlignmentUtils', function() {
+  test('flattenMelodyText keeps bars separate when a wrap omits trailing |', function() {
+    const notes = [
+      '"Dm"zzzzzzzz|"C"zzzzzzzz|"A#"zzzzzzzz|"Am"zzzzzzzz|',
+      '"Gm"zzzzzzzz|"F"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|',
+      '"Dm"zzzzzzzz|"C"zzzzzzzz|"A#"zzzzzzzz|"Am"zzzzzzzz|',
+      '"Gm"zzzzzzzz|"F"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz||',
+      '"Dm"zzzz"F"zzzz|"Dm"zzzz"F"zzzz|"Dm"zzzz"F"zzzz|"Dm"zzzz"F"zzzz',
+      '"Dm"zzzz"F"zzzz|"Dm"zzzz"F"zzzz|"Dm"zzzz"F"zzzz|"Dm"zzzz"F"zzzz ||',
+    ];
+    const strains = splitMelodyStrainsWithBarlines(notes);
+    expect(strains.length).toBe(2);
+    expect(extractBarsFromMelodyText(strains[0].text).length).toBe(16);
+    expect(extractBarsFromMelodyText(strains[1].text).length).toBe(8);
+    expect(extractBarsFromMelodyText(flattenMelodyText(notes)).length).toBe(24);
+  });
+
   test('collapseAnacrusisDoubleBarlines turns pickup || into a single barline', function() {
     expect(collapseAnacrusisDoubleBarlines('|:FG||"D"AFDF AFDF|'))
       .toBe('|:FG|"D"AFDF AFDF|');
@@ -111,6 +133,87 @@ describe('lyricBarAlignmentUtils', function() {
     expect(result.barsPerLyricLine).toBe(2);
     expect(result.assignments[0]).toMatchObject({ startBar: 0, endBar: 1 });
     expect(result.assignments[1]).toMatchObject({ startBar: 2, endBar: 3 });
+  });
+
+  test('assignLyricLinesToBarsFromNotation maps four lines onto repeat opening strain', function() {
+    const noteLines = [
+      '"A"e (a/e/"G"g) a/(g/ | "A"e) (a/e/) "G"df | "A"e a/e/ "G"(g/f/)g/(f/ | "E"e/)(d/c) "A"A2 :|',
+      '|: "A"A A "C"[ce]2 | "A"A A "G"G2 | "A"A (A/B/ c/)B/c/(d/ | "E"e/d/) c "A"A A :|',
+    ];
+    const lyrics = ['line one', 'line two', 'line three', 'line four'];
+    const firstStrainOnly = [noteLines[0]];
+    const viaChart = assignLyricLinesToBarsForChart(lyrics, 4, [['A'], ['G'], ['A'], ['E']], {
+      notationNoteLines: firstStrainOnly,
+    });
+    expect(viaChart.fromNotation).toBe(true);
+    expect(viaChart.barsPerLyricLine).toBe(2);
+    expect(viaChart.assignments[0]).toMatchObject({ startBar: 0, endBar: 1 });
+    const result = assignLyricLinesToBarsFromNotation(lyrics, noteLines);
+    expect(result).toEqual([
+      expect.objectContaining({ startBar: 0, endBar: 1 }),
+      expect.objectContaining({ startBar: 2, endBar: 3 }),
+      expect.objectContaining({ startBar: 0, endBar: 1 }),
+      expect.objectContaining({ startBar: 2, endBar: 3 }),
+    ]);
+  });
+
+  test('assignLyricLinesToBarsFromNotation maps Ashokan verse at two bars per line', function() {
+    const noteLines = [
+      '"Am"zzzzzz|"E7"zzzzzz|"C"zzzzzz|"D"zzzzzz|',
+      '"Fmaj7"zzzzzz|"C"zzzzzz|"E"zzzzzz|"E7"zzzzzz|',
+    ];
+    const lyrics = [
+      'Song and melodies change and change',
+      'And sway, but they still stay the same',
+    ];
+    const result = assignLyricLinesToBarsForChart(lyrics, 8, [
+      ['Am'], ['E7'], ['C'], ['D'], ['FM7'], ['C'], ['E'], ['E7'],
+    ], { notationNoteLines: noteLines });
+    expect(result.fromNotation).toBe(true);
+    expect(result.assignments[0]).toMatchObject({ startBar: 0, endBar: 3 });
+    expect(result.assignments[1]).toMatchObject({ startBar: 4, endBar: 7 });
+  });
+
+  test('detectBarsPerLyricLine prefers four bars per line for ABC scaffold verses', function() {
+    const bars = new Array(28).fill(null).map(function(_, i) {
+      return [['Am'], ['E7'], ['C'], ['D'], ['FM7'], ['C'], ['E'], ['E7']][i % 8];
+    });
+    expect(detectBarsPerLyricLine(8, 28, chordChangeBarIndices(bars))).toBe(4);
+  });
+
+  test('assignLyricLinesToBarsForChart maps two lyrics per chord row on one notation line', function() {
+    const lines = [
+      'Blood on my teeth. Fire in my gut.',
+      'Spark in my eye. Butterflies in flight.',
+    ];
+    const noteLine = '"G"zzzz"Bm"zzzz|"G"zzzz"A"zzzz||';
+    const bars = [['G', 'Bm'], ['G', 'A']];
+    const result = assignLyricLinesToBarsForChart(lines, 2, bars, {
+      notationNoteLines: [noteLine],
+      strainScopedNotation: true,
+    });
+    expect(result.assignments[0]).toMatchObject({ lineIndex: 0, startBar: 0, endBar: 0 });
+    expect(result.assignments[1]).toMatchObject({ lineIndex: 1, startBar: 1, endBar: 1 });
+  });
+
+  test('notationNoteLinesForStrainIndex slices staff lines at strain boundaries', function() {
+    const noteLines = [
+      '"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"G"zzzz"A"zzzz|',
+      '"Em"zzzzzzzz|"Em"zzzzzzzz||"G"zzzz"Bm"zzzz|"G"zzzz"A"zzzz||',
+    ];
+    const filtered = filterNotationNoteLinesForAlignment(noteLines);
+    const strain0 = notationNoteLinesForStrainIndex(filtered, 0);
+    const strain1 = notationNoteLinesForStrainIndex(filtered, 1);
+    function barsInLines(lines) {
+      return lines.reduce(function(sum, line) {
+        return sum + extractBarsFromMelodyText(line).length;
+      }, 0);
+    }
+    expect(barsInLines(strain0)).toBe(6);
+    expect(barsInLines(strain1)).toBe(2);
+    expect(strain1.length).toBe(1);
+    expect(strain1[0]).toContain('"G"');
+    expect(strain1[0]).not.toContain('"Em"');
   });
 
   test('wordIndexToNoteIndex maps word positions into note slots', function() {

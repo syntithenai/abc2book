@@ -1,7 +1,7 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
 import {
   isShareableCollectionLink,
-  musicCollectionProxyPathFromUri,
+  musicCollectionPlaybackProxyPathFromLink,
 } from './musicCollectionLinkUtils';
 import { createOwnedMediaLink } from './linkRecording';
 
@@ -25,7 +25,7 @@ export async function uploadCollectionLinksForTune(tune, options) {
     if (!isShareableCollectionLink(link)) continue;
     if (Array.isArray(opts.linkIndices) && opts.linkIndices.indexOf(i) === -1) continue;
 
-    const proxyPath = musicCollectionProxyPathFromUri(link.link);
+    const proxyPath = musicCollectionPlaybackProxyPathFromLink(link);
     if (!proxyPath) {
       errors.push('Invalid music collection link for "' + (link.title || 'link ' + (i + 1)) + '".');
       continue;

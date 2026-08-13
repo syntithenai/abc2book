@@ -1682,6 +1682,7 @@ export default function ImportReviewModal(props) {
           candidateId={activeCandidate && activeCandidate.id}
           tunebook={props.tunebook}
           token={props.token}
+          user={props.user}
           forceRefresh={props.forceRefresh}
           resolverAvailable={props.resolverAvailable}
           setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}

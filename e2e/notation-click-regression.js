@@ -93,7 +93,7 @@ async function runClickRegressionTests(page, ctx) {
     await sleep(300)
     await assertNoteSteps(page, ['C', 'D', 'E', 'F', 'A'], 'A appended after human end-gap')
     await assertEvents(page, ['note:C4', 'note:D4', 'note:E4', 'note:F4', 'bar:|', 'note:A4:2'], 'A event after bar')
-    await assertVoiceAbc(page, 'C D E F | A2', 'ABC append after terminal gap')
+    await assertVoiceAbc(page, 'CDEF | A2', 'ABC append after terminal gap')
   })
 
   await runScenario(results, 'Click: note input after last note appends at end', async function() {
@@ -191,7 +191,7 @@ async function runClickRegressionTests(page, ctx) {
     }
     await pressKey(page, 'c')
     await sleep(300)
-    await assertVoiceAbc(page, 'A2 A2 ^F2 B E | G G F E C2', 'Copper append after last E (no trailing bar)')
+    await assertVoiceAbc(page, 'A2A2^F2BE | GGFEC2', 'Copper append after last E (no trailing bar)')
   })
 
   await runScenario(results, 'Click: Copper mid-bar — drag ^F (index 2) does not rematch as measure-2 F', async function() {

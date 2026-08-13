@@ -1,10 +1,11 @@
 import { useEffect, useRef } from 'react'
-import { useLocation, useNavigate, useSearchParams } from 'react-router-dom'
+import { useLocation, useNavigate, useNavigationType, useSearchParams } from 'react-router-dom'
 import {
   buildSearchFilterParams,
   hasAnySearchFilterParams,
   onlyTextFilterDiffers,
   parseSearchFilterParams,
+  saveLastSearchFilters,
   SEARCH_FILTER_PARAM_KEYS,
 } from './searchFilterParams'
 import { buildPathWithSearch } from './routeSyncUtils'
@@ -15,12 +16,19 @@ function serializeParams(params) {
   }).join('&')
 }
 
+function stateHasAnyFilters(stateParams) {
+  const p = stateParams || {}
+  return SEARCH_FILTER_PARAM_KEYS.some(function(key) {
+    return p[key] != null && String(p[key]).trim() !== ''
+  })
+}
+
 export function isSearchListRoute(pathname) {
   return pathname === '/tunes'
 }
 
 /**
- * Keeps the tune list search criteria (book, tags, genres, artists, text filter,
+ * Keeps the tune list search criteria (book, tags, genres, artists, albums, text filter,
  * groupBy) in sync with the URL query string on /tunes so browser history
  * restores the list that was on screen.
  *
@@ -29,10 +37,13 @@ export function isSearchListRoute(pathname) {
  * - Back/forward (URL changes) are applied back onto the filter state.
  * - Arriving on /tunes without filter params writes the current state into the
  *   URL with replace, so the URL always describes the visible list.
+ * - In-app links to bare `/tunes` (Header, Back to list) must not wipe filters;
+ *   only POP navigation applies an empty URL onto state.
  */
 export default function useSearchFilterRouteSync(props) {
   const location = useLocation()
   const navigate = useNavigate()
+  const navigationType = useNavigationType()
   const [searchParams] = useSearchParams()
   const onListRoute = isSearchListRoute(location.pathname)
 
@@ -48,12 +59,14 @@ export default function useSearchFilterRouteSync(props) {
   const tagFilter = props.tagFilter
   const genreFilter = props.genreFilter
   const artistFilter = props.artistFilter
+  const albumFilter = props.albumFilter
   const groupBy = props.groupBy
   const setCurrentTuneBook = props.setCurrentTuneBook
   const setFilter = props.setFilter
   const setTagFilter = props.setTagFilter
   const setGenreFilter = props.setGenreFilter
   const setArtistFilter = props.setArtistFilter
+  const setAlbumFilter = props.setAlbumFilter
   const setGroupBy = props.setGroupBy
 
   useEffect(function() {
@@ -70,6 +83,7 @@ export default function useSearchFilterRouteSync(props) {
       tagFilter: parsed.tags,
       genreFilter: parsed.genres,
       artistFilter: parsed.artists,
+      albumFilter: parsed.albums,
       filter: parsed.q,
       groupBy: parsed.group,
     })
@@ -78,11 +92,22 @@ export default function useSearchFilterRouteSync(props) {
       tagFilter: tagFilter,
       genreFilter: genreFilter,
       artistFilter: artistFilter,
+      albumFilter: albumFilter,
       filter: filter,
       groupBy: groupBy,
     })
     const urlKey = serializeParams(urlParams)
     const stateKey = serializeParams(stateParams)
+
+    saveLastSearchFilters({
+      currentTuneBook: currentTuneBook,
+      tagFilter: tagFilter,
+      genreFilter: genreFilter,
+      artistFilter: artistFilter,
+      albumFilter: albumFilter,
+      filter: filter,
+      groupBy: groupBy,
+    })
 
     function applyUrlToState() {
       if (urlParams.book !== stateParams.book) setCurrentTuneBook(parsed.book)
@@ -90,6 +115,9 @@ export default function useSearchFilterRouteSync(props) {
       if (urlParams.tags !== stateParams.tags) setTagFilter(parsed.tags)
       if (urlParams.genres !== stateParams.genres) setGenreFilter(parsed.genres)
       if (urlParams.artists !== stateParams.artists) setArtistFilter(parsed.artists)
+      if (urlParams.albums !== stateParams.albums && typeof setAlbumFilter === 'function') {
+        setAlbumFilter(parsed.albums)
+      }
       if (urlParams.group !== stateParams.group) setGroupBy(parsed.group)
       pendingApplyRef.current = urlKey
       lastUrlKeyRef.current = urlKey
@@ -97,6 +125,7 @@ export default function useSearchFilterRouteSync(props) {
 
     function writeStateToUrl(replace) {
       pendingWriteRef.current = stateKey
+      lastUrlKeyRef.current = stateKey
       navigate(buildPathWithSearch(location.pathname, searchParams, stateParams), { replace: !!replace })
     }
 
@@ -122,7 +151,18 @@ export default function useSearchFilterRouteSync(props) {
     }
 
     if (urlKey !== lastUrlKeyRef.current) {
-      // URL changed underneath us (back/forward navigation).
+      // URL changed underneath us.
+      // Bare `/tunes` from an in-app Link/navigate must keep active filters and
+      // put them back in the URL. Only browser back/forward (POP) should apply
+      // an empty query string onto state.
+      if (
+        navigationType !== 'POP'
+        && !hasAnySearchFilterParams(searchParams)
+        && stateHasAnyFilters(stateParams)
+      ) {
+        writeStateToUrl(true)
+        return
+      }
       applyUrlToState()
       return
     }
@@ -135,17 +175,20 @@ export default function useSearchFilterRouteSync(props) {
     location.pathname,
     searchParams,
     navigate,
+    navigationType,
     currentTuneBook,
     filter,
     tagFilter,
     genreFilter,
     artistFilter,
+    albumFilter,
     groupBy,
     setCurrentTuneBook,
     setFilter,
     setTagFilter,
     setGenreFilter,
     setArtistFilter,
+    setAlbumFilter,
     setGroupBy,
   ])
 }

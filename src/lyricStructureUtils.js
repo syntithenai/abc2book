@@ -1,14 +1,28 @@
-import { inferSectionTypesFromLineCounts, isSectionHeader, normalizeLyricBlocks, normalizeSectionType, normalizeStanzaNameKey } from './chordSheetUtils';
+import {
+  inferSectionTypesFromLineCounts,
+  isSectionHeader,
+  normalizeLyricBlocks,
+  normalizeSectionType,
+  normalizeStanzaNameKey,
+  stripLeadingBibliographicLyricPreface,
+} from './chordSheetUtils';
 
 /**
  * Normalize lyric/section lines into typed blocks.
  * Blank lines flush blocks; section headers start blocks.
+ * When verse-like section headers are present, blank lines mid-verse (before the
+ * next header) stay inside that section. Chorus/refrain headers do not absorb
+ * following unlabeled stanzas (so verse/chorus alternation can be inferred).
  * When no headers exist, may infer verse/chorus/bridge from alternating line counts.
+ * Leading title/composer bibliographic lines are dropped (same preface rule as
+ * chord/lyric alignment) so they are not treated as stanzas or inferred bridges.
  *
  * @returns {Array<{ type: string|null, header: string, lines: string[] }>}
  */
-export function normalizeLyricStructure(lines) {
-  const blocks = normalizeLyricBlocks(lines).map(function(block) {
+export function normalizeLyricStructure(lines, options) {
+  const raw = Array.isArray(lines) ? lines : toLyricLines(lines);
+  const working = stripLeadingBibliographicLyricPreface(raw, options || {});
+  const blocks = normalizeLyricBlocks(working).map(function(block) {
     const source = Array.isArray(block) ? block : [];
     let header = '';
     let body = source;
@@ -40,6 +54,7 @@ export function sectionDisplayTitle(section) {
     const cleaned = header
       .replace(/^\[/, '')
       .replace(/\]$/, '')
+      .replace(/^\(([^)]+)\)$/, '$1')
       .replace(/^#+\s*/, '')
       .replace(/^[-–—−•*]\s*/, '')
       .trim();
@@ -56,12 +71,14 @@ export function sectionDisplayTitle(section) {
 /**
  * Like normalizeLyricStructure, plus startLine (0-based) in the original lines
  * and a display title for navigation UI.
+ * Leading bibliographic preface lines are not listed as sections; startLine still
+ * points into the original text so callers can preserve the preface on rewrite.
  *
  * @returns {Array<{ type: string|null, header: string, lines: string[], startLine: number, title: string }>}
  */
-export function listLyricSections(textOrLines) {
+export function listLyricSections(textOrLines, options) {
   const source = toLyricLines(textOrLines);
-  const sections = normalizeLyricStructure(source);
+  const sections = normalizeLyricStructure(source, options);
   let cursor = 0;
   return sections.map(function(section) {
     let startLine = cursor;
@@ -162,7 +179,15 @@ export function reorderLyricSections(textOrLines, fromIndex, toIndex) {
   const moved = next.splice(from, 1)[0];
   if (insertBefore > from) insertBefore -= 1;
   next.splice(insertBefore, 0, moved);
-  return serializeLyricStructure(next);
+  const body = serializeLyricStructure(next);
+  // Preserve a leading bibliographic preface that is not a listed section.
+  const firstStart = sections[0] && Number.isFinite(sections[0].startLine)
+    ? sections[0].startLine
+    : 0;
+  if (firstStart <= 0) return body;
+  const preface = lines.slice(0, firstStart).join('\n').replace(/\s+$/, '');
+  if (!preface) return body;
+  return body ? (preface + '\n\n' + body) : preface;
 }
 
 /**

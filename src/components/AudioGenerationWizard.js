@@ -406,6 +406,11 @@ export default function AudioGenerationWizard(props) {
   }, [pendingGenerate, access.canGenerate, resolvedToken, startGeneration]);
 
   const requestLoginForGeneration = useCallback(function() {
+    if (resolvedToken) {
+      setPendingGenerate(false);
+      startGeneration();
+      return;
+    }
     if (typeof login !== 'function') {
       setError('Log in to generate audio');
       return;
@@ -414,7 +419,7 @@ export default function AudioGenerationWizard(props) {
     login().catch(function() {
       setPendingGenerate(false);
     });
-  }, [login]);
+  }, [login, resolvedToken, startGeneration]);
 
   const handleGenerateClick = useCallback(function() {
     if (access.needsLogin) {

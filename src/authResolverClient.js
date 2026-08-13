@@ -125,8 +125,9 @@ export function clearAuthSessionStorage() {
 }
 
 /**
- * Pick SPA auth mode from resolver probe: OAuth BFF only when a session exists
- * (or native builds that require BFF). Otherwise Token Client for silent GIS renew.
+ * Pick SPA auth mode from resolver probe for silent resume: OAuth BFF only when
+ * a session exists (or native builds that require BFF). Otherwise Token Client
+ * for silent GIS renew. Explicit Login clicks use selectLoginAuthMode instead.
  */
 export function selectAuthModeForBase(base, options) {
   var mustUseOAuthBff = !!(options && options.mustUseOAuthBff)
@@ -134,6 +135,23 @@ export function selectAuthModeForBase(base, options) {
   if (mustUseOAuthBff) return 'oauth'
   if (readStoredAuthSessionId()) return 'oauth'
   return 'token'
+}
+
+/**
+ * Pick auth mode for an explicit Login click.
+ * A reachable OAuth BFF host must be used even when no session exists yet —
+ * that is how silent refresh is established after Token Client sign-in.
+ * Returns 'pending' when the probe has not settled and no BFF host is known.
+ */
+export function selectLoginAuthMode(options) {
+  var mustUseOAuthBff = !!(options && options.mustUseOAuthBff)
+  var knownBase = options && options.knownBase
+  var authMode = options && options.authMode ? options.authMode : 'pending'
+  if (mustUseOAuthBff) return 'oauth'
+  if (knownBase) return 'oauth'
+  if (authMode === 'token') return 'token'
+  if (authMode !== 'pending') return 'token'
+  return 'pending'
 }
 
 /**

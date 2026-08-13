@@ -10,6 +10,10 @@ import {
   stampSrcUrlOnImportResults,
 } from '../syncSourceImportUtils'
 import { setPendingShareImportSourceRegistration } from '../shareImportSession'
+import {
+  buildImportLinkNavigateAfterImport,
+  handleImportNavigation,
+} from '../shareImportNavigation'
 
 const IMPORT_SOURCE_TIMEOUT_MS = 30000
 const RESOLVER_HINT = 'Start the local resolver with `npm run start:resolver` (or `cd local-resolver && docker compose up`).'
@@ -26,12 +30,31 @@ function looksLikeAbc(text) {
   return /^(%abc|X:|T:)/im.test(trimmed)
 }
 
+function buildNavigationPayload(routeParams, extras) {
+  const extra = extras || {}
+  if (extra.autoplay) {
+    return Object.assign({}, routeParams, extra)
+  }
+  return Object.assign({}, buildImportLinkNavigateAfterImport(routeParams), extra)
+}
+
+function importScopeOption(routeParams) {
+  const params = routeParams || {}
+  return {
+    scope: params.tuneId ? 'tune' : (params.tagName ? 'tag' : (params.bookName ? 'book' : 'all')),
+    tuneId: params.tuneId || null,
+    bookName: params.bookName || null,
+    tagName: params.tagName || null,
+  }
+}
+
 export default function ImportLinkPage({
   tunebook,
   tunesHydrated,
   autoplay,
   setCurrentTuneBook,
   setTagFilter,
+  setFilter,
   setNavigateAfterImport,
   setImportResults,
   importResults,
@@ -71,68 +94,39 @@ export default function ImportLinkPage({
       if (res.data && looksLikeAbc(res.data)) {
         var results = tunebook.importAbc(res.data, null, params.tuneId, params.bookName, params.tagName)
         const stampedResults = stampSrcUrlOnImportResults(results, sourceUrl)
-        setCurrentTuneBook('')
-        if (params.bookName) {
-          setCurrentTuneBook(params.bookName)
-        }
-        setTagFilter([])
-        if (params.tagName) {
-          setTagFilter([params.tagName])
+        const navPayload = buildNavigationPayload(params, {
+          autoplay: autoplay,
+          curatedTitle: curatedTitle || null,
+          importKind: curatedTitle ? 'curated' : 'shared',
+        })
+        const navHelpers = {
+          navigate: navigate,
+          tunebook: tunebook,
+          setCurrentTuneBook: setCurrentTuneBook,
+          setTagFilter: setTagFilter,
+          setFilter: setFilter,
         }
         if (!tunebook.showImportWarning(stampedResults)) {
           tunebook.applyMergeData(stampedResults).then(function(mergedTunes) {
             registerSyncSourceAfterImport({
               url: sourceUrl,
               label: curatedTitle || 'Imported collection',
-              scopeOption: {
-                scope: params.tuneId ? 'tune' : (params.tagName ? 'tag' : (params.bookName ? 'book' : 'all')),
-                tuneId: params.tuneId || null,
-                bookName: params.bookName || null,
-                tagName: params.tagName || null,
-              },
+              scopeOption: importScopeOption(params),
               results: stampedResults,
             })
-            if (autoplay && mergedTunes) {
-              if (params.tuneId) {
-                navigate('/tunes' + (params.tuneId ? '/' + params.tuneId + (autoplay ? '/playMedia' : '') : ''))
-              } else {
-                var firstTuneId = tunebook.fillMediaPlaylist(
-                  params.bookName,
-                  (Array.isArray(results) ? results.map(function(result) {
-                    return result.id
-                  }).join(',') : ''),
-                  (params.tagName && params.tagName.trim() ? [params.tagName] : []),
-                  mergedTunes
-                )
-                navigate('/tunes' + (firstTuneId ? '/' + firstTuneId + (autoplay ? '/playMedia' : '') : ''))
-              }
-            } else {
-              if (params.tuneId) {
-                navigate('/tunes/' + params.tuneId + (autoplay ? '/playMedia' : ''))
-              } else if (params.bookName || params.tagName) {
-                navigate('/tunes')
-              } else {
-                navigate('/books')
-              }
-            }
+            navHelpers.tunes = mergedTunes
+            handleImportNavigation(navPayload, navHelpers, !!autoplay)
           })
         } else {
           setPendingShareImportSourceRegistration({
             url: sourceUrl,
             label: curatedTitle || 'Imported collection',
-            scopeOption: {
-              scope: params.tuneId ? 'tune' : (params.tagName ? 'tag' : (params.bookName ? 'book' : 'all')),
-              tuneId: params.tuneId || null,
-              bookName: params.bookName || null,
-              tagName: params.tagName || null,
-            },
+            scopeOption: importScopeOption(params),
             results: stampedResults,
           })
-          setNavigateAfterImport(Object.assign({}, params, {
-            autoplay: autoplay,
-            curatedTitle: curatedTitle || null,
-            importKind: curatedTitle ? 'curated' : 'shared',
-          }))
+          if (setNavigateAfterImport) {
+            setNavigateAfterImport(navPayload)
+          }
           if (setImportResults) setImportResults(stampedResults)
           setFinished(true)
         }

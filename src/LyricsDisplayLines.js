@@ -1,4 +1,5 @@
 import { isSectionHeader } from './chordSheetUtils';
+import { stripLyricBeatMarkersFromLine } from './lyricBeatMarkers';
 
 /** Title-case section labels: "verse 1" → "Verse 1", "pre-chorus" → "Pre-Chorus". */
 export function capitalizeSectionHeader(text) {
@@ -11,13 +12,16 @@ export function capitalizeSectionHeader(text) {
   }).join(' ');
 }
 
-/** Clean "[Verse 1]" / "# Chorus" for display. Returns null when no lyric label. */
+/** Clean "[Verse 1]" / "(Chorus)" / "# Chorus" for display. Returns null when no lyric label. */
 export function displaySectionHeader(header) {
   if (!header) return null;
   let t = String(header).trim();
   t = t.replace(/^#+\s*/, '');
   t = t.replace(/^[-–—−•*]\s*/, '');
   if (t.length >= 2 && t.charAt(0) === '[' && t.charAt(t.length - 1) === ']') {
+    t = t.slice(1, -1).trim();
+  }
+  if (t.length >= 2 && t.charAt(0) === '(' && t.charAt(t.length - 1) === ')') {
     t = t.slice(1, -1).trim();
   }
   t = t.trim();
@@ -42,14 +46,14 @@ export default function LyricsDisplayLines(props) {
     <div className={className} style={panelStyle}>
       {lines.map(function(line, index) {
         if (!line || String(line).trim().length === 0) {
-          return <div key={index} className="lyrics-line-spacer" style={{ height: '0.6em' }} />;
+          return <div key={index} className="lyrics-line-spacer" aria-hidden="true" />;
         }
         if (isSectionHeader(line)) {
           const label = displaySectionHeader(line);
           if (!label) return null;
           return <SectionHeader key={index} label={label} />;
         }
-        return <div key={index} className="lyrics-line" style={lineStyle}>{line}</div>;
+        return <div key={index} className="lyrics-line" style={lineStyle}>{stripLyricBeatMarkersFromLine(line)}</div>;
       })}
     </div>
   );

@@ -14,6 +14,7 @@ export default function PlaybackPromptModal(props) {
     src,
     forceRefresh,
     token,
+    user,
     googleDocumentId,
     login,
     onLinksSaved,
@@ -148,6 +149,7 @@ export default function PlaybackPromptModal(props) {
         currentLinkIndex={currentLinkIndex}
         forceRefresh={forceRefresh}
         token={token}
+        user={user}
         googleDocumentId={googleDocumentId}
         login={login}
         onLinksSaved={onLinksSaved}

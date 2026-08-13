@@ -1,3 +1,6 @@
+import { buildSearchFilterParams } from './searchFilterParams'
+import { buildPathWithSearch } from './routeSyncUtils'
+
 export function buildNavigateAfterImport(scope, details) {
   const d = details || {}
   return {
@@ -8,6 +11,51 @@ export function buildNavigateAfterImport(scope, details) {
     playlistId: d.playlistId || null,
     tagName: d.tagName || null,
   }
+}
+
+/**
+ * Build scope payload for curated / importlink routes from route params.
+ */
+export function buildImportLinkNavigateAfterImport(routeParams) {
+  const params = routeParams || {}
+  if (params.tuneId) {
+    return buildNavigateAfterImport('tune', { tuneId: params.tuneId })
+  }
+  if (params.tagName) {
+    return buildNavigateAfterImport('tag', {
+      bookName: params.bookName || null,
+      tagName: params.tagName,
+    })
+  }
+  if (params.bookName) {
+    return buildNavigateAfterImport('book', { bookName: params.bookName })
+  }
+  return buildNavigateAfterImport('all')
+}
+
+/**
+ * Apply list filters to state and navigate to /tunes with matching query params.
+ */
+export function navigateToFilteredTuneList(navigate, filterState, helpers) {
+  const state = filterState || {}
+  const setCurrentTuneBook = helpers && helpers.setCurrentTuneBook
+  const setTagFilter = helpers && helpers.setTagFilter
+  const setFilter = helpers && helpers.setFilter
+
+  const bookName = state.bookName || ''
+  const tagName = state.tagName || null
+  const tagFilter = tagName ? [tagName] : []
+
+  if (setFilter) setFilter('')
+  if (setTagFilter) setTagFilter(tagFilter)
+  if (setCurrentTuneBook) setCurrentTuneBook(bookName)
+
+  const urlParams = buildSearchFilterParams({
+    currentTuneBook: bookName,
+    tagFilter: tagFilter,
+    filter: '',
+  })
+  navigate(buildPathWithSearch('/tunes', null, urlParams))
 }
 
 export function applyShareImportNavigation(navigateAfterImport, helpers) {
@@ -30,23 +78,22 @@ export function applyShareImportNavigation(navigateAfterImport, helpers) {
   }
 
   if (params.scope === 'playlist' && params.playlistId) {
-    navigate('/tunes')
+    navigateToFilteredTuneList(navigate, {}, { setCurrentTuneBook, setTagFilter, setFilter })
     return true
   }
 
   if (params.scope === 'book' && params.bookName) {
-    if (setTagFilter) setTagFilter([])
-    if (setFilter) setFilter('')
-    if (setCurrentTuneBook) setCurrentTuneBook(params.bookName)
-    navigate('/tunes')
+    navigateToFilteredTuneList(navigate, {
+      bookName: params.bookName,
+    }, { setCurrentTuneBook, setTagFilter, setFilter })
     return true
   }
 
   if (params.scope === 'tag' && params.tagName) {
-    if (setTagFilter) setTagFilter([params.tagName])
-    if (setFilter) setFilter('')
-    if (setCurrentTuneBook) setCurrentTuneBook('')
-    navigate('/tunes')
+    navigateToFilteredTuneList(navigate, {
+      bookName: params.bookName || '',
+      tagName: params.tagName,
+    }, { setCurrentTuneBook, setTagFilter, setFilter })
     return true
   }
 
@@ -70,6 +117,9 @@ export function handleImportNavigation(navigateAfterImport, helpers, legacyAutop
   const navigate = helpers.navigate
   const tunebook = helpers.tunebook
   const tunes = helpers.tunes
+  const setCurrentTuneBook = helpers.setCurrentTuneBook
+  const setTagFilter = helpers.setTagFilter
+  const setFilter = helpers.setFilter
 
   if (legacyAutoplay && params.autoplay && tunes) {
     if (params.tuneId) {
@@ -91,7 +141,10 @@ export function handleImportNavigation(navigateAfterImport, helpers, legacyAutop
     return true
   }
   if (params.bookName || params.tagName) {
-    navigate('/tunes')
+    navigateToFilteredTuneList(navigate, {
+      bookName: params.bookName || '',
+      tagName: params.tagName || null,
+    }, { setCurrentTuneBook, setTagFilter, setFilter })
     return true
   }
   navigate('/books')

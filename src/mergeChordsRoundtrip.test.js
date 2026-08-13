@@ -155,6 +155,9 @@ describe('mergeChords note length roundtrip', function() {
     const abc = 'X:1\nT:MeterChange\nM:4/4\nL:1/8\nK:C\n"C"z2"G"z2"C"z2"G"z2 | [M:3/4] "Am"z2"G"z2"F"z2 |\n';
     const chart = abcjsParser.renderChords(abc, true);
     expect(chart).toContain('[M:3/4]');
+    // Meter marker is attached to the following bar, not an orphan empty bar.
+    expect(chart).toMatch(/\[M:3\/4\]\s+Am/);
+    expect(chart).not.toMatch(/\[M:3\/4\]\s+(\.(\s+\.)*\s+\|)/);
   });
 
   test('mergeChords writes inline [M:] from chord grid meter tokens', function() {

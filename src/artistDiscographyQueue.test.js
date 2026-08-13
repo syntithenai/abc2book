@@ -1,16 +1,19 @@
 import { queueResolvedCandidates } from './artistDiscographyQueue'
 import { createQueue } from './nowPlayingQueue'
-import { startTunePlayback } from './tunePlaybackActions'
+import { playQueueItem, navigateToQueueTune } from './nowPlayingQueuePlayback'
 
-jest.mock('./tunePlaybackActions', function() {
+jest.mock('./nowPlayingQueuePlayback', function() {
   return {
-    startTunePlayback: jest.fn(),
+    playQueueItem: jest.fn(function() { return true }),
+    navigateToQueueTune: jest.fn(),
   }
 })
 
 describe('artistDiscographyQueue', function() {
   beforeEach(function() {
-    startTunePlayback.mockReset()
+    playQueueItem.mockReset()
+    playQueueItem.mockReturnValue(true)
+    navigateToQueueTune.mockReset()
   })
 
   function buildTunebook(tunes) {
@@ -68,7 +71,9 @@ describe('artistDiscographyQueue', function() {
     const tunes = {}
     const tunebook = buildTunebook(tunes)
     const setNowPlayingQueue = jest.fn()
+    const setCurrentTune = jest.fn()
     const mediaController = {}
+    const navigate = jest.fn()
     await queueResolvedCandidates([{
       source: 'music-collection',
       id: '1',
@@ -81,16 +86,31 @@ describe('artistDiscographyQueue', function() {
       tunes: tunes,
       mediaController: mediaController,
       setNowPlayingQueue: setNowPlayingQueue,
+      setCurrentTune: setCurrentTune,
       nowPlayingQueue: createQueue({ tuneIds: ['old'], source: 'manual' }),
-      navigate: jest.fn(),
-      location: {},
+      navigate: navigate,
+      location: { pathname: '/tunes' },
       materializeOptions: { tunes: tunes },
     }, { mode: 'play' })
 
     expect(setNowPlayingQueue).toHaveBeenCalled()
     const queue = setNowPlayingQueue.mock.calls[0][0]
     expect(queue.items).toHaveLength(1)
-    expect(startTunePlayback).toHaveBeenCalled()
+    expect(playQueueItem).toHaveBeenCalledWith(
+      mediaController,
+      tunebook,
+      expect.objectContaining({ id: queue.items[0].tuneId }),
+      queue.items[0],
+      { deferPlaybackEngine: true }
+    )
+    expect(navigateToQueueTune).toHaveBeenCalledWith(
+      navigate,
+      queue.items[0].tuneId,
+      queue.items[0],
+      tunebook,
+      expect.any(Object)
+    )
+    expect(setCurrentTune).toHaveBeenCalledWith(queue.items[0].tuneId)
   })
 
   test('queueResolvedCandidates reuses existing tunes via lookup', async function() {

@@ -45,34 +45,97 @@ export function clampListWindow(window, total, viewportHeight, rowHeight) {
   return { start: start, end: end }
 }
 
-export function advanceListWindowDown(windowStart, windowEnd, total, viewportHeight, rowHeight) {
+export function advanceListWindowDown(windowStart, windowEnd, total, viewportHeight, rowHeight, options) {
   const safeTotal = Math.max(0, total)
   if (windowEnd >= safeTotal) return null
+  const deferTrim = !!(options && options.deferTrim)
   const chunk = computeListWindowChunkSize(viewportHeight, rowHeight)
   const maxRows = computeListWindowMaxRows(viewportHeight, rowHeight)
   let start = Math.max(0, windowStart)
   let end = Math.min(safeTotal, windowEnd + chunk)
   if (end - start > maxRows) {
-    start = end - maxRows
+    if (deferTrim) {
+      start = windowStart
+    } else {
+      start = end - maxRows
+    }
   }
   const next = clampListWindow({ start: start, end: end }, safeTotal)
   if (next.start === windowStart && next.end === windowEnd) return null
   return next
 }
 
-export function advanceListWindowUp(windowStart, windowEnd, total, viewportHeight, rowHeight) {
+export function advanceListWindowUp(windowStart, windowEnd, total, viewportHeight, rowHeight, options) {
   if (windowStart <= 0) return null
+  const deferTrim = !!(options && options.deferTrim)
   const safeTotal = Math.max(0, total)
   const chunk = computeListWindowChunkSize(viewportHeight, rowHeight)
   const maxRows = computeListWindowMaxRows(viewportHeight, rowHeight)
   let end = Math.max(windowStart, windowEnd)
   let start = Math.max(0, windowStart - chunk)
   if (end - start > maxRows) {
-    end = start + maxRows
+    if (deferTrim) {
+      end = windowEnd
+    } else {
+      end = start + maxRows
+    }
   }
   const next = clampListWindow({ start: start, end: end }, safeTotal)
   if (next.start === windowStart && next.end === windowEnd) return null
   return next
+}
+
+export function trimListWindowForScroll(current, total, viewportHeight, rowHeight, direction) {
+  const safeTotal = Math.max(0, total)
+  const maxRows = computeListWindowMaxRows(viewportHeight, rowHeight)
+  const start = Math.max(0, current.start)
+  const end = Math.min(safeTotal, current.end)
+  if (end - start <= maxRows) return null
+  if (direction < 0) {
+    return clampListWindow({ start: start, end: start + maxRows }, safeTotal)
+  }
+  return clampListWindow({ start: end - maxRows, end: end }, safeTotal)
+}
+
+export function measureListWindowEdgeHeight(contentEl, count, fromTop) {
+  if (!contentEl || count <= 0) return 0
+  const children = contentEl.children
+  if (!children || children.length === 0) return 0
+  let height = 0
+  if (fromTop) {
+    const limit = Math.min(count, children.length)
+    for (let i = 0; i < limit; i += 1) {
+      height += children[i].getBoundingClientRect().height
+    }
+    return height
+  }
+  let remaining = count
+  for (let i = children.length - 1; i >= 0 && remaining > 0; i -= 1) {
+    height += children[i].getBoundingClientRect().height
+    remaining -= 1
+  }
+  return height
+}
+
+export function computeListWindowScrollAdjust(prevWindow, nextWindow, edgeHeight, rowHeight) {
+  const estimated = Math.max(1, rowHeight)
+  if (nextWindow.start > prevWindow.start) {
+    const trimCount = nextWindow.start - prevWindow.start
+    return edgeHeight - trimCount * estimated
+  }
+  if (nextWindow.start < prevWindow.start) {
+    const prependCount = prevWindow.start - nextWindow.start
+    return prependCount * estimated - edgeHeight
+  }
+  if (nextWindow.end < prevWindow.end) {
+    const trimCount = prevWindow.end - nextWindow.end
+    return -(edgeHeight - trimCount * estimated)
+  }
+  if (nextWindow.end > prevWindow.end) {
+    const appendCount = nextWindow.end - prevWindow.end
+    return appendCount * estimated - edgeHeight
+  }
+  return 0
 }
 
 export function computeListWindowSpacerHeights(windowStart, windowEnd, total, rowHeight) {
@@ -95,6 +158,11 @@ export function usesListScrollWindow(displayMode, paginated) {
   return paginated && displayMode !== 'compact'
 }
 
+export function listWindowsEqual(left, right) {
+  if (!left || !right) return false
+  return left.start === right.start && left.end === right.end
+}
+
 export function resolveListWindowScrollSync(params) {
   const {
     viewportTop,
@@ -107,18 +175,34 @@ export function resolveListWindowScrollSync(params) {
     viewportHeight,
     rowHeight,
     preloadMargin,
+    deferTrim,
   } = params || {}
 
   const preload = preloadMargin != null
     ? preloadMargin
     : getListWindowPreloadMargin(viewportHeight)
   const current = clampListWindow({ start: windowStart, end: windowEnd }, total)
+  const options = { deferTrim: deferTrim }
 
   if (viewportBottom >= contentBottom - preload) {
-    return advanceListWindowDown(current.start, current.end, total, viewportHeight, rowHeight)
+    return advanceListWindowDown(
+      current.start,
+      current.end,
+      total,
+      viewportHeight,
+      rowHeight,
+      options
+    )
   }
   if (viewportTop <= contentTop + preload && current.start > 0) {
-    return advanceListWindowUp(current.start, current.end, total, viewportHeight, rowHeight)
+    return advanceListWindowUp(
+      current.start,
+      current.end,
+      total,
+      viewportHeight,
+      rowHeight,
+      options
+    )
   }
   return null
 }

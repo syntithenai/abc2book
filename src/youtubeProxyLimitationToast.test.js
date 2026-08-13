@@ -83,7 +83,7 @@ describe('maybeNotifyYoutubeProxyLimitation', function() {
     })
     expect(toast.warning).toHaveBeenCalledTimes(1)
     expect(String(toast.warning.mock.calls[0][0])).toMatch(/YouTube pitch shift/i)
-    expect(String(toast.warning.mock.calls[0][0])).toMatch(/Google login/i)
+    expect(String(toast.warning.mock.calls[0][0])).toMatch(/Login to continue/i)
   })
 
   test('warns on non-chrome when pitch shift needs cloud youtube proxy', function() {

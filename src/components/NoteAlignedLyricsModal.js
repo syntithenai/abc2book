@@ -59,13 +59,15 @@ function buildRowPreviewAbc(tune, noteLine, lyricLine) {
 function fitWordsToNoteLine(tune, noteLine, lyricLine) {
   const plain = stripNoteSpacingFromLine(lyricLine)
   if (!plain) return String(lyricLine || '').trim()
-  const noteCount = countLyricSlotsInNoteLine(noteLine, {
+  const opts = {
     meter: (tune && tune.meter) || '4/4',
     noteLength: (tune && tune.noteLength) || '1/8',
     key: (tune && tune.key) || 'C',
-  })
+    noteLine: noteLine,
+  }
+  const noteCount = countLyricSlotsInNoteLine(noteLine, opts)
   if (noteCount <= 0) return plain
-  return fitLyricLineToNoteCount(plain, noteCount)
+  return fitLyricLineToNoteCount(plain, noteCount, opts)
 }
 
 function NoteAlignedLyricsRow(props) {

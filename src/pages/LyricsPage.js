@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import {
   Alert,
@@ -18,10 +18,18 @@ import {
   lookupLookupHub,
   lookupReverseDictionary,
 } from '../lyricsWordToolsApi'
+import { getLyricsToolsAccess } from '../lyricsToolsAccess'
+import { normalizeAccessToken } from '../mediaProxyClient'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { useDocumentTitle } from '../pageTitle'
+import { resolveResolverAccessToken } from '../resolverAccessToken'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import FieldVoiceFillButton from '../components/FieldVoiceFillButton'
 import { LYRICS_TOOLS_CLOSE_MESSAGE } from '../embedFrameUtils'
+
+function resolvedLyricsAccessToken(token) {
+  return resolveResolverAccessToken(token) || getActiveResolverAccessToken() || ''
+}
 
 function ResultPillList(props) {
   if (!props.items || props.items.length === 0) {
@@ -167,12 +175,25 @@ function LookupSearchPanel(props) {
   }
 
   useEffect(function() {
-    if (!props.autoSearch || didAutoSearchRef.current) return undefined
+    if (!props.autoSearch) {
+      didAutoSearchRef.current = false
+      return undefined
+    }
     const term = String(query || '').trim()
     if (!term) return undefined
-    didAutoSearchRef.current = true
+    const tokenKey = normalizeAccessToken(props.accessToken) || ''
+    const searchKey = term + '|' + tokenKey
+    if (didAutoSearchRef.current === searchKey) return undefined
+    didAutoSearchRef.current = searchKey
     runSearch(term)
-  }, [props.autoSearch, query])
+  }, [props.autoSearch, query, props.accessToken])
+
+  useEffect(function() {
+    if (!props.searchNonce) return undefined
+    const term = String(query || '').trim()
+    if (!term) return undefined
+    runSearch(term)
+  }, [props.searchNonce])
 
   function handleSubmit(event) {
     event.preventDefault()
@@ -389,10 +410,24 @@ function ExpandableSection(props) {
 export default function LyricsPage(props) {
   useDocumentTitle('Lyrics')
   const [searchParams, setSearchParams] = useSearchParams()
-  const accessToken = props.token || ''
+  const accessToken = resolvedLyricsAccessToken(props.token)
   const [lookupQuery, setLookupQuery] = useState(searchParams.get('q') || searchParams.get('toolQ') || '')
-  const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
+  const [searchNonce, setSearchNonce] = useState(0)
+  const {
+    available: resolverAvailable,
+    checked: resolverChecked,
+    status: resolverStatus,
+    refreshMediaResolverHealth,
+  } = useMediaResolverHealth()
   const embedded = searchParams.get('embed') === '1'
+  const toolsAccess = useMemo(function() {
+    return getLyricsToolsAccess({
+      resolverChecked: resolverChecked,
+      resolverAvailable: resolverAvailable,
+      resolverStatus: resolverStatus,
+      accessToken: accessToken,
+    })
+  }, [resolverChecked, resolverAvailable, resolverStatus, accessToken])
 
   useEffect(function() {
     setLookupQuery(searchParams.get('q') || searchParams.get('toolQ') || '')
@@ -446,6 +481,19 @@ export default function LyricsPage(props) {
     setSearchParams(nextParams, { replace: true })
   }
 
+  function handleLogin() {
+    if (typeof props.login !== 'function') return
+    Promise.resolve(props.login()).then(function(tokenResponse) {
+      const nextToken = resolveResolverAccessToken(tokenResponse)
+        || resolvedLyricsAccessToken(props.token)
+        || getActiveResolverAccessToken()
+        || ''
+      return refreshMediaResolverHealth(nextToken || null)
+    }).then(function() {
+      setSearchNonce(function(n) { return n + 1 })
+    }).catch(function() {})
+  }
+
   return (
     <Container className={embedded ? 'py-2 lyrics-page-embedded' : 'py-3'}>
       {!embedded ? (
@@ -458,19 +506,34 @@ export default function LyricsPage(props) {
         </div>
       ) : null}
 
-      {!resolverChecked ? (
+      {toolsAccess.warming ? (
         <Card className="shadow-sm border-0">
-          <Card.Body className="text-muted">Checking media resolver...</Card.Body>
+          <Card.Body className="text-muted">
+            {resolverChecked ? 'Signing in…' : 'Checking media resolver...'}
+          </Card.Body>
         </Card>
       ) : null}
 
-      {resolverChecked && !resolverAvailable ? (
-        <Alert variant="warning" className="mb-0">
-          Lyrics tools are available only when the media resolver is running and reachable.
+      {!toolsAccess.warming && toolsAccess.loginWarning ? (
+        <Alert variant="warning" className="mb-3">
+          <div className="d-flex flex-wrap align-items-center gap-2 justify-content-between">
+            <span>{toolsAccess.loginWarning.message}</span>
+            {toolsAccess.loginWarning.showLoginButton && typeof props.login === 'function' ? (
+              <Button variant="outline-warning" size="sm" onClick={handleLogin}>
+                Log in with Google
+              </Button>
+            ) : null}
+          </div>
         </Alert>
       ) : null}
 
-      {resolverChecked && resolverAvailable ? (
+      {!toolsAccess.warming && toolsAccess.unreachable ? (
+        <Alert variant="warning" className="mb-0">
+          {toolsAccess.unreachableMessage}
+        </Alert>
+      ) : null}
+
+      {toolsAccess.ready ? (
       <Card className="shadow-sm border-0">
         <Card.Body>
           <LookupSearchPanel
@@ -481,7 +544,8 @@ export default function LyricsPage(props) {
             accessToken={accessToken}
             voiceToken={props.token}
             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-            autoSearch={embedded && !!lookupQuery.trim()}
+            autoSearch={embedded && toolsAccess.ready && !!lookupQuery.trim()}
+            searchNonce={searchNonce}
             onQueryChange={function(nextQuery) { updateLookupQuery(nextQuery) }}
             onSearchComplete={function(term) { updateLookupQuery(term) }}
             renderResult={function(result, currentQuery) {

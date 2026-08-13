@@ -1,4 +1,5 @@
 import {
+  audioGenerationUnavailableMessage,
   defaultPresetForTask,
   isTaskAvailable,
   linkTitleForTask,
@@ -34,5 +35,13 @@ describe('audioGenerationPresets', function() {
     };
     expect(isTaskAvailable(backends, TASK_LINKED_COVER)).toBe(true);
     expect(isTaskAvailable(backends, TASK_PRACTICE_TRACK)).toBe(false);
+  });
+
+  test('audioGenerationUnavailableMessage explains audio.cpp outage', function() {
+    expect(audioGenerationUnavailableMessage({
+      ok: false,
+      provider: { provider: 'audio_cpp', message: 'Sidecar not reachable' },
+    })).toMatch(/audio\.cpp sidecar is not available/);
+    expect(audioGenerationUnavailableMessage({ ok: true })).toBe('');
   });
 });

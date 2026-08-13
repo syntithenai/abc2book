@@ -6,6 +6,7 @@ import {
   oauthBffCandidatesForLogin,
   resolveStickyAuthBase,
   selectAuthModeForBase,
+  selectLoginAuthMode,
   AUTH_SESSION_ID_KEY,
   AUTH_BASE_KEY,
 } from './authResolverClient'
@@ -106,18 +107,57 @@ describe('authResolverClient', function() {
     expect(selectAuthModeForBase('', {})).toBe('token')
     expect(selectAuthModeForBase('http://resolver', { mustUseOAuthBff: true })).toBe('oauth')
   })
+
+  test('selectLoginAuthMode prefers BFF when a resolver is reachable even without a session', function() {
+    expect(selectLoginAuthMode({
+      knownBase: 'http://localhost:3000',
+      authMode: 'token',
+    })).toBe('oauth')
+    expect(selectLoginAuthMode({
+      knownBase: '',
+      authMode: 'token',
+    })).toBe('token')
+    expect(selectLoginAuthMode({
+      knownBase: '',
+      authMode: 'pending',
+    })).toBe('pending')
+    expect(selectLoginAuthMode({
+      knownBase: '',
+      authMode: 'pending',
+      mustUseOAuthBff: true,
+    })).toBe('oauth')
+  })
 })
 
 describe('googleLoginTokenAdapter', function() {
   test('normalizeToTokenResponse requires access_token', function() {
     expect(normalizeToTokenResponse(null)).toBe(null)
     expect(normalizeToTokenResponse({})).toBe(null)
-    expect(normalizeToTokenResponse({ access_token: 'abc', expires_in: 10, scope: 'email' }))
-      .toEqual({ access_token: 'abc', expires_in: 10, scope: 'email' })
+    var normalized = normalizeToTokenResponse({ access_token: 'abc', expires_in: 10, scope: 'email' })
+    expect(normalized.access_token).toBe('abc')
+    expect(normalized.expires_in).toBe(10)
+    expect(normalized.scope).toBe('email')
+    expect(typeof normalized.expires_at).toBe('number')
+    expect(normalized.expires_at).toBeGreaterThan(Date.now())
+    expect(typeof normalized.issued_at).toBe('number')
   })
 
   test('normalizeToTokenResponse defaults expires_in', function() {
     expect(normalizeToTokenResponse({ access_token: 'abc' }).expires_in).toBe(3600)
+  })
+
+  test('tokenHasFreshAccess reuses tokens without expires_at', function() {
+    const { tokenHasFreshAccess } = require('./googleLoginTokenAdapter')
+    expect(tokenHasFreshAccess({ access_token: 'abc' })).toBe(true)
+    expect(tokenHasFreshAccess({
+      access_token: 'abc',
+      expires_at: Date.now() + 600000,
+    })).toBe(true)
+    expect(tokenHasFreshAccess({
+      access_token: 'abc',
+      expires_at: Date.now() + 1000,
+    })).toBe(false)
+    expect(tokenHasFreshAccess(null)).toBe(false)
   })
 
   test('mergeScopeStrings dedupes', function() {

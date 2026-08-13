@@ -8,10 +8,27 @@ import { backfillSourcesFromTunes } from '../syncSourcesStore';
 import {
   applyMergeDismissalState,
   dismissEntireMergeBatch,
+  isSourceMergeDismissed,
 } from '../sourceMergeDismissals';
 
 function getTuneImportHash(tunebook) {
   return tunebook && tunebook.abcTools && tunebook.abcTools.getTuneImportHash;
+}
+
+function filterDismissedRecords(batch, tunebook) {
+  if (!batch || !Array.isArray(batch.records)) return batch;
+  const getHash = getTuneImportHash(tunebook);
+  const records = batch.records.filter(function(record) {
+    if (!record) return false;
+    const tune = record.incomingTune || record.localTune;
+    if (!tune || !batch.sourceKey) return true;
+    return !isSourceMergeDismissed(batch.sourceKey, record.id, tune, getHash);
+  });
+  if (records.length === batch.records.length) return batch;
+  return Object.assign({}, batch, {
+    records: records,
+    summary: records.length ? batch.summary : '',
+  });
 }
 
 export default function SyncSourcesHost(props) {
@@ -21,6 +38,8 @@ export default function SyncSourcesHost(props) {
   const deletedTunes = props.deletedTunes;
   const tunebook = props.tunebook;
   const driveApi = props.driveApi;
+  const onApplySourceUrlMerge = props.onApplySourceUrlMerge;
+  const onSourceUrlAbcFetched = props.onSourceUrlAbcFetched;
   const [pendingBatch, setPendingBatch] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const queueRef = useRef([]);
@@ -30,12 +49,13 @@ export default function SyncSourcesHost(props) {
   const processQueue = useCallback(function() {
     if (showingToastRef.current || pendingBatch) return;
     while (queueRef.current.length > 0) {
-      const next = queueRef.current.shift();
+      let next = queueRef.current.shift();
+      next = filterDismissedRecords(next, tunebook);
       const pref = getSourceMergePref(next.sourceKey);
       if (pref === 'alwaysReject') continue;
       if (pref === 'alwaysAccept') {
-        if (typeof props.onApplySourceUrlMerge === 'function') {
-          props.onApplySourceUrlMerge(next, null);
+        if (typeof onApplySourceUrlMerge === 'function') {
+          onApplySourceUrlMerge(next, null);
         }
         continue;
       }
@@ -48,8 +68,8 @@ export default function SyncSourcesHost(props) {
           showingToastRef.current = false;
           dismissMergeToast();
           applyMergeDismissalState(next.sourceKey, next, null, getTuneImportHash(tunebook));
-          if (typeof props.onApplySourceUrlMerge === 'function') {
-            props.onApplySourceUrlMerge(next, null);
+          if (typeof onApplySourceUrlMerge === 'function') {
+            onApplySourceUrlMerge(next, null);
           }
           setPendingBatch(null);
           setShowModal(false);
@@ -61,21 +81,27 @@ export default function SyncSourcesHost(props) {
       });
       return;
     }
-  }, [pendingBatch, props, tunebook]);
+  }, [pendingBatch, onApplySourceUrlMerge, tunebook]);
 
   const applyBatch = useCallback(function(recordState, options) {
-    if (!pendingBatch || typeof props.onApplySourceUrlMerge !== 'function') return;
+    if (!pendingBatch || typeof onApplySourceUrlMerge !== 'function') return;
     if (options && options.acceptAllFromSource) {
       setSourceMergePref(pendingBatch.sourceKey, 'alwaysAccept');
     }
     applyMergeDismissalState(pendingBatch.sourceKey, pendingBatch, recordState, getTuneImportHash(tunebook));
-    props.onApplySourceUrlMerge(pendingBatch, recordState);
+    // Drop any queued copies of this source so an in-flight poll cannot
+    // immediately re-offer the same merge.
+    const appliedKey = pendingBatch.sourceKey;
+    queueRef.current = queueRef.current.filter(function(batch) {
+      return !batch || batch.sourceKey !== appliedKey;
+    });
+    onApplySourceUrlMerge(pendingBatch, recordState);
     setPendingBatch(null);
     setShowModal(false);
     showingToastRef.current = false;
     dismissMergeToast();
     processQueue();
-  }, [pendingBatch, props, processQueue, tunebook]);
+  }, [pendingBatch, onApplySourceUrlMerge, processQueue, tunebook]);
 
   const rejectBatch = useCallback(function(options) {
     if (pendingBatch) {
@@ -84,6 +110,10 @@ export default function SyncSourcesHost(props) {
       } else {
         dismissEntireMergeBatch(pendingBatch.sourceKey, pendingBatch, getTuneImportHash(tunebook));
       }
+      const rejectedKey = pendingBatch.sourceKey;
+      queueRef.current = queueRef.current.filter(function(batch) {
+        return !batch || batch.sourceKey !== rejectedKey;
+      });
     }
     setPendingBatch(null);
     setShowModal(false);
@@ -103,13 +133,13 @@ export default function SyncSourcesHost(props) {
       deletedTunes: deletedTunes,
       tunebook: tunebook,
       driveApi: driveApi,
-      onSourceUrlAbcFetched: props.onSourceUrlAbcFetched,
+      onSourceUrlAbcFetched: onSourceUrlAbcFetched,
     });
     if (batches.length > 0) {
       queueRef.current = queueRef.current.concat(batches);
       processQueue();
     }
-  }, [token, tunes, tunesHydrated, deletedTunes, tunebook, driveApi, processQueue, props.onSourceUrlAbcFetched]);
+  }, [token, tunes, tunesHydrated, deletedTunes, tunebook, driveApi, processQueue, onSourceUrlAbcFetched]);
 
   const handlePollRef = useRef(handlePoll);
   handlePollRef.current = handlePoll;

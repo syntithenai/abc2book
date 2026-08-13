@@ -12,7 +12,12 @@ import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClien
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
 import { getActiveProviderHeaders, loadProviderSettings } from './providerSettings';
 import { getYoutubeEgressHeaders } from './youtubeUnlock';
-import { isMusicCollectionLinkUri, musicCollectionPlaybackProxyPathFromUri } from './musicCollectionLinkUtils';
+import {
+  isMusicCollectionByEntryUri,
+  isMusicCollectionLinkUri,
+  musicCollectionPlaybackProxyPathFromLink,
+  musicCollectionPlaybackProxyPathFromUri,
+} from './musicCollectionLinkUtils';
 import { isBandcampLinkUri } from './bandcampLinkUtils';
 import { isArchiveOrgLinkUri, isArchiveOrgDirectDownloadUri } from './archiveOrgLinkUtils';
 import { isLocGovLinkUri } from './locGovLinkUtils';
@@ -545,6 +550,9 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/music-collection-move-plan') === 0) return 'music-collection-move-plan';
   if (pathAndQuery.indexOf('/music-collection-registry') === 0) return 'music-collection-registry';
   if (pathAndQuery.indexOf('/music-collection-artists') === 0) return 'music-collection-artists';
+  if (pathAndQuery.indexOf('/music-collection-albums') === 0) return 'music-collection-albums';
+  if (pathAndQuery.indexOf('/music-collection-genres') === 0) return 'music-collection-genres';
+  if (pathAndQuery.indexOf('/music-collection-tree') === 0) return 'music-collection-tree';
   if (pathAndQuery.indexOf('/music-collection-chunks') === 0) return 'music-collection-chunks';
   if (pathAndQuery.indexOf('/music-collection-triage/bulk') === 0) return 'music-collection-triage-bulk';
   if (pathAndQuery.indexOf('/search-bandcamp') === 0) return 'search-bandcamp';
@@ -552,6 +560,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/search-europeana') === 0) return 'search-europeana';
   if (pathAndQuery.indexOf('/search-loc-audio') === 0) return 'search-loc-audio';
   if (pathAndQuery.indexOf('/rebuild-music-collection-index') === 0) return 'rebuild-music-collection-index';
+  if (pathAndQuery.indexOf('/music-collection-by-entry/') === 0) return 'music-collection-by-entry';
   if (pathAndQuery.indexOf('/music-collection/') === 0) return 'music-collection';
   if (pathAndQuery.indexOf('/music-collection-art/') === 0) return 'music-collection-art';
   if (pathAndQuery.indexOf('/research-tune-background') === 0) return 'research-tune-background';
@@ -929,7 +938,11 @@ function pathNeedsMusicCollection(pathAndQuery) {
     || endpoint === 'music-collection-triage-bulk'
     || endpoint === 'music-collection-move-plan'
     || endpoint === 'music-collection-registry'
+    || endpoint === 'music-collection-by-entry'
     || endpoint === 'music-collection-artists'
+    || endpoint === 'music-collection-albums'
+    || endpoint === 'music-collection-genres'
+    || endpoint === 'music-collection-tree'
     || endpoint === 'music-collection-chunks'
     || endpoint === 'rebuild-music-collection-index'
     || endpoint === 'music-collection'
@@ -1130,6 +1143,16 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
         if (billingAdminPath) {
           throw proxyError;
         }
+        if (response.status === 404
+          && pathNeedsMusicCollection(pathAndQuery)
+          && musicCollectionProxyBase
+          && proxyBase === musicCollectionProxyBase) {
+          throw new Error(
+            'Media proxy error 404: Music collection browse API not found on '
+            + musicCollectionProxyBase
+            + '. Rebuild and restart your home local-resolver container.'
+          );
+        }
         if ((response.status === 401 || response.status === 403 || response.status === 404 || response.status === 405) && i < bases.length - 1) {
           lastError = proxyError;
           activeProxyBase = null;
@@ -1151,6 +1174,15 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
     }
     if (pathNeedsHomeRemotePlayback(pathAndQuery)) {
       formatRemotePlaybackResolverError(lastError || new Error('fetch failed'), bases, pathAndQuery);
+    }
+    if (pathNeedsMusicCollection(pathAndQuery)) {
+      const message = lastError && lastError.message ? String(lastError.message) : '';
+      if (message.indexOf('Media proxy error 404') === 0) {
+        throw new Error(
+          'Music collection browse API was not found on your home resolver. '
+          + 'Rebuild and restart the local-resolver container (docker compose build local-resolver && docker compose up -d local-resolver).'
+        );
+      }
     }
     if (billingAdminPath) {
       const message = lastError && lastError.message ? String(lastError.message) : '';
@@ -1220,7 +1252,7 @@ function isPrivateOrLocalHost(hostname) {
 export function normalizeMediaProxyTargetUrl(url) {
   const trimmed = String(url || '').trim();
   if (!trimmed || !/^http:\/\//i.test(trimmed)) return trimmed;
-  if (isMusicCollectionLinkUri(trimmed)) return trimmed;
+  if (isMusicCollectionLinkUri(trimmed) || isMusicCollectionByEntryUri(trimmed)) return trimmed;
   try {
     const parsed = new URL(trimmed);
     if (isPrivateOrLocalHost(parsed.hostname)) return trimmed;
@@ -1232,7 +1264,7 @@ export function normalizeMediaProxyTargetUrl(url) {
 }
 
 export async function fetchDirectOrProxy(options) {
-  const { srcType, youtubeGetId, accessToken, resolveDirectUrl } = options;
+  const { srcType, youtubeGetId, accessToken, resolveDirectUrl, collectionLink } = options;
   const src = normalizeMediaProxyTargetUrl(options.src);
 
   if (srcType === 'youtube') {
@@ -1259,11 +1291,13 @@ export async function fetchDirectOrProxy(options) {
     );
   }
 
-  if (isMusicCollectionLinkUri(src)) {
+  if (isMusicCollectionLinkUri(src) || isMusicCollectionByEntryUri(src) || (collectionLink && collectionLink.collectionEntryId)) {
     if (!isMediaProxyConfigured()) {
       throw new Error('Music collection playback requires a configured media resolver');
     }
-    const proxyPath = musicCollectionPlaybackProxyPathFromUri(src);
+    const proxyPath = collectionLink
+      ? musicCollectionPlaybackProxyPathFromLink(collectionLink)
+      : musicCollectionPlaybackProxyPathFromUri(src);
     if (!proxyPath) {
       throw new Error('Invalid music collection link');
     }
@@ -1315,11 +1349,13 @@ export async function fetchDirectOrProxy(options) {
     throw new Error('Owned recording links must be resolved locally before proxy playback');
   }
 
-  if (isMusicCollectionLinkUri(src)) {
+  if (isMusicCollectionLinkUri(src) || isMusicCollectionByEntryUri(src) || (collectionLink && collectionLink.collectionEntryId)) {
     if (!isMediaProxyConfigured()) {
       throw new Error('Music collection playback requires a configured media resolver');
     }
-    const proxyPath = musicCollectionPlaybackProxyPathFromUri(src);
+    const proxyPath = collectionLink
+      ? musicCollectionPlaybackProxyPathFromLink(collectionLink)
+      : musicCollectionPlaybackProxyPathFromUri(src);
     if (!proxyPath) {
       throw new Error('Invalid music collection link');
     }
@@ -1348,6 +1384,7 @@ export function requiresResolverProxiedPlayback(src) {
   const trimmed = String(src || '').trim();
   if (!trimmed) return false;
   return isMusicCollectionLinkUri(trimmed)
+    || isMusicCollectionByEntryUri(trimmed)
     || isBandcampLinkUri(trimmed)
     || isArchiveOrgLinkUri(trimmed)
     || isLocGovLinkUri(trimmed);
@@ -1446,9 +1483,22 @@ export function getResolverLoginWarning(resolverStatus, accessToken) {
 
   if (loginRequired && !hasToken) {
     return {
-      message: 'Shared resolver providers (LLM, Whisper, OCR, Stems) are online but need a Google login. Log in to use them, or run your own local resolver.',
+      message: 'Login to continue',
       showLoginButton: true,
     };
+  }
+  // Client has a token but /health still reports login_required — usually a
+  // stale pre-login probe. Do not flash "not available / please login".
+  if (
+    loginRequired
+    && hasToken
+    && !invalidToken
+    && !notAuthorized
+    && !authBlocked.some(function(candidate) {
+      return candidate.authReason === 'insufficient_credit';
+    })
+  ) {
+    return null;
   }
   if (invalidToken) {
     return {
@@ -1477,6 +1527,14 @@ export function getResolverLoginWarning(resolverStatus, accessToken) {
     message: 'Shared resolver providers are reachable but not available to this account. Log in with an authorized Google account or configure your own API keys.',
     showLoginButton: !hasToken,
   };
+}
+
+export function isMediaProxyAuthorizationError(error) {
+  const message = error && error.message ? String(error.message) : '';
+  if (!message) return false;
+  return message.indexOf('Media proxy error 401') === 0
+    || message.indexOf('Missing Authorization') >= 0
+    || message.indexOf('Invalid or expired Google token') >= 0;
 }
 
 export function isMediaResolverInfrastructureError(error) {

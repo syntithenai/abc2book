@@ -18,3 +18,22 @@
 .media-seek-slider.compact .mediaprogressslider {
   height: 24px;
 }
+
+/* Mini player (collapsed + fullscreen): time to the left of the bar */
+.media-seek-slider.transport {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.media-seek-slider.transport .media-seek-time {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.media-seek-slider.transport .mediaprogressslider {
+  flex: 1 1 auto;
+  min-width: 0;
+}

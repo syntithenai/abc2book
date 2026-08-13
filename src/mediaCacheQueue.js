@@ -6,7 +6,17 @@ import {
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { getMediaPlaybackSettings } from './pitchTempoUtils'
 import { sanitizeDownloadFilename } from './tuneDownloadActions'
-import { getMediaResolverHealthState } from './mediaResolverHealthStore'
+import {
+  getActiveResolverAccessToken,
+  getMediaResolverHealthState,
+  subscribeMediaResolverHealth,
+} from './mediaResolverHealthStore'
+import {
+  getResolverLoginWarning,
+  getResolverProxiedPlaybackBlock,
+  requiresResolverProxiedPlayback,
+} from './mediaProxyClient'
+import { isNavigatorOffline } from './offlinePlayback'
 import {
   getAudioCompressExtension,
   getAudioCompressFormat,
@@ -14,12 +24,22 @@ import {
 } from './audioCompressSettings'
 import { createReadyDownload, revokeReadyDownload } from './offerBlobDownload'
 
+/** Failed cache attempts before the job is dropped from the queue. */
+export const MAX_CACHE_ATTEMPTS = 3
+let cacheRetryBaseDelayMs = 5000
+
+export function __setCacheRetryDelayForTests(ms) {
+  cacheRetryBaseDelayMs = typeof ms === 'number' ? ms : 5000
+}
+
 let jobCounter = 0
 let running = false
 let paused = false
 let jobs = []
 const listeners = new Set()
 let currentJobId = null
+let resumeListenersAttached = false
+let retryWakeTimer = null
 
 function revokeJobReadyDownload(job) {
   if (!job || !job.readyDownload) return
@@ -41,6 +61,7 @@ export function getSnapshotRevision() {
       job.id,
       job.type,
       job.status,
+      job.attempts || 0,
       job.readyDownload ? '1' : '0',
       job.error || '',
       job.message || '',
@@ -107,6 +128,8 @@ function publicJob(job) {
     filename: job.filename,
     awaitingSave: !!(job.readyDownload),
     message: job.message || '',
+    attempts: job.attempts || 0,
+    maxAttempts: job.type === 'cache' ? MAX_CACHE_ATTEMPTS : 0,
   }
 }
 
@@ -150,10 +173,12 @@ export function enqueueCacheJob(options) {
     error: null,
     filename: null,
     cancelled: false,
+    attempts: 0,
     youtubeGetId: options.youtubeGetId,
     accessToken: options.accessToken,
   }
   jobs.push(job)
+  ensureCacheQueueResumeListeners()
   notify()
   return job.id
 }
@@ -380,6 +405,7 @@ export function clearFinishedJobs() {
 
 export function start() {
   paused = false
+  ensureCacheQueueResumeListeners()
   if (!running) {
     running = true
     processQueue()
@@ -390,6 +416,126 @@ export function start() {
 export function stop() {
   paused = true
   notify()
+}
+
+function resolveCacheJobAccessToken(job) {
+  return getActiveResolverAccessToken() || (job && job.accessToken) || null
+}
+
+/**
+ * Cache jobs that need the resolver should wait (without burning attempts) until
+ * we are online and logged in / resolver is reachable.
+ */
+export function canAttemptCacheJob(job, options) {
+  if (!job || job.type !== 'cache') return true
+  const opts = options || {}
+  const now = opts.now !== undefined ? opts.now : Date.now()
+  if (job.nextRetryAt && now < job.nextRetryAt) return false
+  if (opts.offline !== undefined ? opts.offline : isNavigatorOffline()) {
+    return false
+  }
+  const src = job.src
+  if (!src || !requiresResolverProxiedPlayback(src)) return true
+
+  const health = opts.resolverHealth || getMediaResolverHealthState()
+  const status = opts.resolverStatus !== undefined
+    ? opts.resolverStatus
+    : (health && health.status)
+  const accessToken = opts.accessToken !== undefined
+    ? opts.accessToken
+    : resolveCacheJobAccessToken(job)
+
+  // First probe still running — allow the attempt; failure will retry later.
+  if (opts.resolverStatus === undefined && health && !health.checked) return true
+
+  if (getResolverLoginWarning(status, accessToken)) return false
+  if (getResolverProxiedPlaybackBlock(status, accessToken)) return false
+  if (status && !status.available) return false
+  if (health && health.checked && !health.available) return false
+  return true
+}
+
+function cacheJobBlockedMessage(job) {
+  if (job && job.nextRetryAt && Date.now() < job.nextRetryAt) {
+    return job.message || ('Retry ' + (job.attempts || 0) + '/' + MAX_CACHE_ATTEMPTS + ' scheduled…')
+  }
+  if (isNavigatorOffline()) return 'Waiting for connection…'
+  if (!job || !requiresResolverProxiedPlayback(job.src)) return 'Waiting…'
+  const health = getMediaResolverHealthState()
+  const status = health && health.status
+  const accessToken = resolveCacheJobAccessToken(job)
+  if (getResolverLoginWarning(status, accessToken)) {
+    return 'Waiting for login…'
+  }
+  if (getResolverProxiedPlaybackBlock(status, accessToken)) {
+    return 'Waiting for resolver credit…'
+  }
+  return 'Waiting for media resolver…'
+}
+
+function removeJobById(jobId) {
+  jobs = jobs.filter(function(item) { return item.id !== jobId })
+}
+
+function scheduleRetryWakeup(delayMs) {
+  if (typeof setTimeout !== 'function') return
+  const delay = Math.max(0, delayMs || 0)
+  if (retryWakeTimer) clearTimeout(retryWakeTimer)
+  retryWakeTimer = setTimeout(function() {
+    retryWakeTimer = null
+    if (jobs.some(function(job) { return job.status === 'pending' })) {
+      start()
+    }
+  }, delay)
+}
+
+function handleCacheJobFailure(job, error) {
+  const message = error && error.message ? error.message : 'Job failed'
+  job.attempts = (job.attempts || 0) + 1
+  job.error = message
+  if (job.attempts >= MAX_CACHE_ATTEMPTS) {
+    removeJobById(job.id)
+    return
+  }
+  const delay = cacheRetryBaseDelayMs * job.attempts
+  job.status = 'pending'
+  job.nextRetryAt = Date.now() + delay
+  job.message = 'Retry ' + job.attempts + '/' + MAX_CACHE_ATTEMPTS
+    + ' after reconnect/login if needed'
+  scheduleRetryWakeup(delay)
+}
+
+function findNextRunnableJob() {
+  let blockedCache = false
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i]
+    if (job.status !== 'pending') continue
+    if (job.type === 'cache' && !canAttemptCacheJob(job)) {
+      job.message = cacheJobBlockedMessage(job)
+      blockedCache = true
+      continue
+    }
+    return job
+  }
+  if (blockedCache) notify()
+  return null
+}
+
+function ensureCacheQueueResumeListeners() {
+  if (resumeListenersAttached || typeof window === 'undefined') return
+  resumeListenersAttached = true
+  window.addEventListener('online', function() {
+    if (jobs.some(function(job) { return job.status === 'pending' && job.type === 'cache' })) {
+      start()
+    }
+  })
+  subscribeMediaResolverHealth(function() {
+    if (jobs.some(function(job) {
+      return job.status === 'pending' && job.type === 'cache' && canAttemptCacheJob(job)
+    })) {
+      start()
+    }
+  })
 }
 
 async function runExportDownloadJob(job) {
@@ -470,6 +616,13 @@ async function runJob(job) {
 
   job.status = 'running'
   currentJobId = job.id
+  if (job.type === 'cache') {
+    job.accessToken = resolveCacheJobAccessToken(job)
+    job.nextRetryAt = 0
+    job.message = job.attempts
+      ? ('Caching (attempt ' + (job.attempts + 1) + '/' + MAX_CACHE_ATTEMPTS + ')…')
+      : 'Caching…'
+  }
   notify()
 
   try {
@@ -495,6 +648,7 @@ async function runJob(job) {
       }
       job.status = 'done'
       job.error = null
+      job.message = ''
       return
     }
 
@@ -515,6 +669,8 @@ async function runJob(job) {
     if (job.cancelled) {
       job.status = 'cancelled'
       revokeJobReadyDownload(job)
+    } else if (job.type === 'cache') {
+      handleCacheJobFailure(job, e)
     } else {
       job.status = 'error'
       job.error = e && e.message ? e.message : 'Job failed'
@@ -529,7 +685,7 @@ async function runJob(job) {
 
 async function processQueue() {
   while (running && !paused) {
-    const next = jobs.find(function(job) { return job.status === 'pending' })
+    const next = findNextRunnableJob()
     if (!next) {
       running = false
       notify()
@@ -550,6 +706,30 @@ export function removeJobsForCacheKey(tuneId, linkIndex, src) {
   notify()
 }
 
+/** Cancel active cache/download jobs for deleted tunes so they do not re-write cache. */
+export function removeJobsForTuneIds(tuneIds) {
+  const idSet = {}
+  ;(tuneIds || []).forEach(function(id) {
+    if (id == null || id === '') return
+    idSet[String(id)] = true
+  })
+  if (!Object.keys(idSet).length) return 0
+
+  let cancelled = 0
+  jobs.forEach(function(job) {
+    if (!idSet[String(job.tuneId)]) return
+    if (job.status !== 'pending' && job.status !== 'running') return
+    job.cancelled = true
+    if (job.status === 'pending') {
+      job.status = 'cancelled'
+      revokeJobReadyDownload(job)
+    }
+    cancelled += 1
+  })
+  if (cancelled) notify()
+  return cancelled
+}
+
 export function getExternalMediaCacheKeyForJob(job) {
   return getExternalMediaCacheKey(job.tuneId, job.linkIndex, job.src)
 }
@@ -559,4 +739,10 @@ export function __resetMediaCacheQueueForTests() {
   paused = false
   currentJobId = null
   jobs = []
+  resumeListenersAttached = false
+  cacheRetryBaseDelayMs = 5000
+  if (retryWakeTimer) {
+    clearTimeout(retryWakeTimer)
+    retryWakeTimer = null
+  }
 }

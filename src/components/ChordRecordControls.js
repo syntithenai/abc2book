@@ -26,7 +26,7 @@ function uniqueChordTokens(chordText) {
   const tokens = new Set();
   String(chordText || '').split(/[\s|]+/).forEach(function(tok) {
     const clean = tok.trim();
-    if (clean && clean !== '.') tokens.add(clean);
+    if (clean && clean !== '.' && clean !== '/') tokens.add(clean);
   });
   return Array.from(tokens);
 }

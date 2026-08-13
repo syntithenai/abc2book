@@ -6,6 +6,7 @@ import {
   listPasteChordSections,
 } from './chordsEditorSections'
 import { commitPasteChordSheetToTune } from './commitPasteChordSheetToTune'
+import { shouldSkipAbcMergeForChordPaste } from './chordPastePolicy'
 
 function chordSheetTextFromSearchResult(result) {
   if (!result || typeof result !== 'object') return ''
@@ -39,8 +40,9 @@ function lyricLinesFromParsed(parsed, result) {
 }
 
 /**
- * Parse a chords-search result and merge it into the tune (wipe notation,
- * optional lyrics) without opening the paste modal.
+ * Parse a chords-search result and merge it into the tune.
+ * Always writes chords+lyrics into the lyrics block. Merges into ABC only when
+ * notation is empty (no real melody), unless skipAbcMerge is explicitly set.
  */
 export function commitChordSearchResultToTune(options) {
   const opts = options || {}
@@ -75,8 +77,12 @@ export function commitChordSearchResultToTune(options) {
   const meterDecision = buildMeterMergeOptions(parsed.meter, tune.meter)
   const selectedMeterOption = (meterDecision.options && meterDecision.options[0])
     || { meter: defaultMeter, id: 'first-section' }
-  const updateLyrics = !!opts.updateLyrics
+  // Always update lyrics from chord sheet when importing chords.
+  const updateLyrics = opts.updateLyrics !== false
   const lyricLines = updateLyrics ? lyricLinesFromParsed(parsed, result) : undefined
+  const skipAbcMerge = opts.skipAbcMerge != null
+    ? !!opts.skipAbcMerge
+    : shouldSkipAbcMergeForChordPaste(tune)
 
   return commitPasteChordSheetToTune({
     result: {
@@ -102,8 +108,11 @@ export function commitChordSearchResultToTune(options) {
     tunebook: opts.tunebook,
     abcjsParser: opts.abcjsParser,
     forceUpdateLyrics: updateLyrics,
+    skipAbcMerge: skipAbcMerge,
     skipSave: !!opts.skipSave,
     historyLabel: opts.historyLabel
-      || (updateLyrics ? 'Search chords and lyrics' : 'Search chords'),
+      || (skipAbcMerge
+        ? 'Search chords and lyrics'
+        : (updateLyrics ? 'Search chords and lyrics' : 'Search chords')),
   })
 }

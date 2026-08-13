@@ -23,6 +23,9 @@ describe('commitChordSearchResultToTune', function() {
       justNotes: function() {
         return 'z4 |'
       },
+      isNoteLine: function(line) {
+        return /[A-Ga-gz]/.test(String(line || ''))
+      },
       emptyABC: function(name) {
         return 'X:1\nT:' + (name || '') + '\nM:4/4\nK:C\n'
       },
@@ -67,5 +70,42 @@ describe('commitChordSearchResultToTune', function() {
       abcjsParser: {},
     })
     expect(result.ok).toBe(false)
+  })
+
+  test('skips ABC merge when tune already has real melody', function() {
+    const saved = []
+    const tune = {
+      id: 't2',
+      name: 'Melodic Song',
+      meter: '4/4',
+      key: 'C',
+      voices: { '1': { meta: '', notes: ['C D E F |'] } },
+      words: [],
+      wLines: [],
+    }
+    const tunebook = {
+      abcTools: {
+        abc2json: function() { return Object.assign({}, tune) },
+        json2abc: function() { return 'X:1\nT:Melodic Song\nM:4/4\nK:C\nC D E F |' },
+        isNoteLine: function() { return true },
+      },
+      saveTune: function(next, skip, options) {
+        saved.push({ next: next, options: options })
+        return next
+      },
+    }
+    const result = commitChordSearchResultToTune({
+      result: {
+        chordText: '[Verse]\nC | G |\nhello',
+        lyricLines: ['[Verse]', 'hello'],
+      },
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: function() { return 'C | G |' } },
+    })
+    expect(result.ok).toBe(true)
+    expect(result.updateLyrics).toBe(true)
+    expect(saved.length).toBe(1)
+    expect(tune.voices['1'].notes).toEqual(['C D E F |'])
   })
 })

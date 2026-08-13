@@ -104,9 +104,11 @@ export default function PracticeSessionConfigModal(props) {
   }, [practiceLists])
   const effectiveTuneCount = practiceListId ? selectedListTuneCount : allListsTuneCount
   const hasPracticeLists = practiceLists.length > 0
-  const canStart = hasPracticeLists && effectiveTuneCount > 0
-  const showEmptyListWarning = !!practiceListId && selectedListTuneCount === 0
-  const showNoTunesAnywhereWarning = !practiceListId && hasPracticeLists && allListsTuneCount === 0
+  const canStartWithTunes = hasPracticeLists && effectiveTuneCount > 0
+  const canStart = includeWarmups || canStartWithTunes
+  const showEmptyListWarning = !!practiceListId && selectedListTuneCount === 0 && !includeWarmups
+  const showNoTunesAnywhereWarning = !practiceListId && hasPracticeLists && allListsTuneCount === 0 && !includeWarmups
+  const showWarmupsOnlyHint = includeWarmups && effectiveTuneCount === 0
   const showLowCountWarning = effectiveTuneCount > 0
     && effectiveTuneCount < MIN_RECOMMENDED_PRACTICE_LIST_TUNES
 
@@ -336,7 +338,7 @@ export default function PracticeSessionConfigModal(props) {
               <Alert variant="info" className="mb-0">
                 You do not have any practice lists yet.{' '}
                 <Link to="/practice-lists" onClick={props.onHide}>Create a practice list</Link>
-                {' '}and add tunes before starting a session.
+                {' '}to practice tunes{includeWarmups ? ', or start with warmups only below' : ' before starting a session'}.
               </Alert>
             )}
             {hasPracticeLists ? (
@@ -379,6 +381,12 @@ export default function PracticeSessionConfigModal(props) {
                 ? ('This list only has ' + effectiveTuneCount + ' tune' + (effectiveTuneCount === 1 ? '' : 's') + '.')
                 : ('You only have ' + effectiveTuneCount + ' tune' + (effectiveTuneCount === 1 ? '' : 's') + ' across all practice lists.')}
               {' '}Consider adding more to {MIN_RECOMMENDED_PRACTICE_LIST_TUNES}+ for a fuller session.
+            </Alert>
+          ) : null}
+
+          {showWarmupsOnlyHint ? (
+            <Alert variant="info">
+              No tunes on {practiceListId ? 'this list' : 'your practice lists'} — this session will run warmups only.
             </Alert>
           ) : null}
 

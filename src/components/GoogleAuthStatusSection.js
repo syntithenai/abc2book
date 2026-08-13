@@ -35,7 +35,10 @@ export default function GoogleAuthStatusSection({
       return
     }
     if (action.label.indexOf('Sign out') === 0 && typeof logout === 'function' && typeof login === 'function') {
-      Promise.resolve(logout()).then(function() { login() })
+      // Start logout, then open Google sign-in on this click so the GIS popup
+      // is not treated as blocked. Do not wait for network logout to finish.
+      Promise.resolve(logout()).catch(function() {})
+      login()
       return
     }
     if (action.label === 'Log in with Google' && typeof login === 'function') {

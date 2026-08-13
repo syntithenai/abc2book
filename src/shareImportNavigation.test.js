@@ -1,7 +1,9 @@
 import {
   applyShareImportNavigation,
+  buildImportLinkNavigateAfterImport,
   buildNavigateAfterImport,
   handleImportNavigation,
+  navigateToFilteredTuneList,
 } from './shareImportNavigation'
 
 describe('shareImportNavigation', function() {
@@ -12,7 +14,63 @@ describe('shareImportNavigation', function() {
       bookName: 'Reels',
       setId: null,
       playlistId: null,
+      tagName: null,
     })
+  })
+
+  test('buildImportLinkNavigateAfterImport prefers tune, then tag, then book', function() {
+    expect(buildImportLinkNavigateAfterImport({ tuneId: 'abc' })).toEqual({
+      scope: 'tune',
+      tuneId: 'abc',
+      bookName: null,
+      setId: null,
+      playlistId: null,
+      tagName: null,
+    })
+    expect(buildImportLinkNavigateAfterImport({
+      bookName: 'tunes',
+      tagName: 'begged borrowed and stolen',
+    })).toEqual({
+      scope: 'tag',
+      tuneId: null,
+      bookName: 'tunes',
+      setId: null,
+      playlistId: null,
+      tagName: 'begged borrowed and stolen',
+    })
+    expect(buildImportLinkNavigateAfterImport({ bookName: 'kids songs' })).toEqual({
+      scope: 'book',
+      tuneId: null,
+      bookName: 'kids songs',
+      setId: null,
+      playlistId: null,
+      tagName: null,
+    })
+    expect(buildImportLinkNavigateAfterImport({})).toEqual({
+      scope: 'all',
+      tuneId: null,
+      bookName: null,
+      setId: null,
+      playlistId: null,
+      tagName: null,
+    })
+  })
+
+  test('navigateToFilteredTuneList applies filters and URL params', function() {
+    const navigate = jest.fn()
+    const setCurrentTuneBook = jest.fn()
+    const setTagFilter = jest.fn()
+    const setFilter = jest.fn()
+
+    navigateToFilteredTuneList(navigate, {
+      bookName: 'tunes',
+      tagName: 'begged borrowed and stolen',
+    }, { setCurrentTuneBook, setTagFilter, setFilter })
+
+    expect(setFilter).toHaveBeenCalledWith('')
+    expect(setTagFilter).toHaveBeenCalledWith(['begged borrowed and stolen'])
+    expect(setCurrentTuneBook).toHaveBeenCalledWith('tunes')
+    expect(navigate).toHaveBeenCalledWith('/tunes?book=tunes&tags=begged+borrowed+and+stolen')
   })
 
   test('applyShareImportNavigation routes by scope', function() {
@@ -37,7 +95,18 @@ describe('shareImportNavigation', function() {
     applyShareImportNavigation(buildNavigateAfterImport('book', { bookName: 'Reels' }), helpers)
     expect(setTagFilter).toHaveBeenCalledWith([])
     expect(setCurrentTuneBook).toHaveBeenCalledWith('Reels')
-    expect(navigate).toHaveBeenCalledWith('/tunes')
+    expect(navigate).toHaveBeenCalledWith('/tunes?book=Reels')
+
+    navigate.mockClear()
+    setCurrentTuneBook.mockClear()
+    setTagFilter.mockClear()
+    applyShareImportNavigation(buildNavigateAfterImport('tag', {
+      bookName: 'tunes',
+      tagName: 'begged borrowed and stolen',
+    }), helpers)
+    expect(setTagFilter).toHaveBeenCalledWith(['begged borrowed and stolen'])
+    expect(setCurrentTuneBook).toHaveBeenCalledWith('tunes')
+    expect(navigate).toHaveBeenCalledWith('/tunes?book=tunes&tags=begged+borrowed+and+stolen')
 
     navigate.mockClear()
     setCurrentTuneBook.mockClear()
@@ -46,9 +115,18 @@ describe('shareImportNavigation', function() {
     expect(navigate).toHaveBeenCalledWith('/books')
   })
 
-  test('handleImportNavigation keeps legacy importlink behavior', function() {
+  test('handleImportNavigation keeps legacy importlink behavior with URL params', function() {
     const navigate = jest.fn()
-    handleImportNavigation({ bookName: 'B' }, { navigate }, false)
-    expect(navigate).toHaveBeenCalledWith('/tunes')
+    const setCurrentTuneBook = jest.fn()
+    const setTagFilter = jest.fn()
+    const setFilter = jest.fn()
+    handleImportNavigation({ bookName: 'B' }, {
+      navigate,
+      setCurrentTuneBook,
+      setTagFilter,
+      setFilter,
+    }, false)
+    expect(setCurrentTuneBook).toHaveBeenCalledWith('B')
+    expect(navigate).toHaveBeenCalledWith('/tunes?book=B')
   })
 })

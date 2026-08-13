@@ -2,6 +2,7 @@ import {
   buildUltimateGuitarSearchUrl,
   isUltimateGuitarUrl,
   pickChordPasteCandidate,
+  pickUltimateGuitarPasteCandidate,
 } from './chordSearchSites'
 
 describe('chordSearchSites paste helpers', function() {
@@ -32,6 +33,21 @@ describe('chordSearchSites paste helpers', function() {
     const picked = pickChordPasteCandidate([], 'Wonderwall', 'Oasis')
     expect(picked.searchFallback).toBe(true)
     expect(picked.url).toBe(buildUltimateGuitarSearchUrl('Wonderwall', 'Oasis'))
+  })
+
+  test('pickUltimateGuitarPasteCandidate returns only concrete UG matches', function() {
+    expect(pickUltimateGuitarPasteCandidate([])).toBeNull()
+    expect(pickUltimateGuitarPasteCandidate([{
+      url: 'https://www.azchords.com/w/wonderwall.html',
+      title: 'Wonderwall',
+    }])).toBeNull()
+    const ug = pickUltimateGuitarPasteCandidate([{
+      url: 'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-1',
+      title: 'Wonderwall',
+      source: 'ultimate-guitar.com',
+    }])
+    expect(ug.url).toContain('tabs.ultimate-guitar.com')
+    expect(ug.searchFallback).toBeFalsy()
   })
 
   test('pickNotationPasteCandidate prefers MuseScore manuals then search', function() {

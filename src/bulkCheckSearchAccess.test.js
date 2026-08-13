@@ -77,7 +77,7 @@ describe('bulkCheckSearchAccess', function() {
       accessToken: null,
     })
     expect(warning).not.toBeNull()
-    expect(warning.message).toMatch(/Google login/i)
+    expect(warning.message).toBe('Login to continue')
     expect(warning.showLoginButton).toBe(true)
   })
 

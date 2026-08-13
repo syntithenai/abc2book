@@ -12,6 +12,7 @@ import {
 import {
   scanDuplicateGroupsWithScope,
   shouldDefaultBookScope,
+  stableTuneImportHash,
 } from '../tuneDuplicateScanWorkerBridge';
 import { LARGE_LIST_WARNING_THRESHOLD } from '../tuneScaleConstants';
 import { dismissDuplicateGroup } from '../tuneDuplicateDismissals';
@@ -21,8 +22,33 @@ import DuplicateMergeModal from './DuplicateMergeModal';
 const FILTER_ALL = 'all';
 const FILTER_EXACT = 'exactContent';
 const FILTER_SIMILAR = 'similarTitle';
+const ALL_BOOKS = '';
 
 const EMPTY_SCAN_RESULT = { groups: [], exactCount: 0, similarCount: 0 };
+
+function collectBooks(indexes) {
+  const books = [];
+  if (indexes && indexes.bookIndex) {
+    Object.keys(indexes.bookIndex).forEach(function(book) {
+      if (book) books.push(book);
+    });
+  }
+  books.sort(function(a, b) { return a.localeCompare(b); });
+  return books;
+}
+
+function removeGroupFromScanResult(prev, groupId) {
+  const groups = (prev && Array.isArray(prev.groups) ? prev.groups : []).filter(function(group) {
+    return group && group.id !== groupId;
+  });
+  let exactCount = 0;
+  let similarCount = 0;
+  groups.forEach(function(group) {
+    if (group.kind === 'exactContent') exactCount += 1;
+    else if (group.kind === 'similarTitle') similarCount += 1;
+  });
+  return { groups: groups, exactCount: exactCount, similarCount: similarCount };
+}
 
 function formatLastUpdated(ts) {
   if (!ts) return '—';
@@ -58,11 +84,28 @@ export default function DuplicateManagerSettingsSection(props) {
   const [scanResult, setScanResult] = useState(EMPTY_SCAN_RESULT);
   const [scanning, setScanning] = useState(true);
   const tuneCount = Object.keys(tunes || {}).length;
-  const [scopeCurrentBookOnly, setScopeCurrentBookOnly] = useState(
-    shouldDefaultBookScope(tuneCount, props.currentTuneBook)
-  );
+  const books = useMemo(function() {
+    const list = collectBooks(props.indexes);
+    if (props.currentTuneBook && list.indexOf(props.currentTuneBook) < 0) {
+      return list.concat([props.currentTuneBook]).sort(function(a, b) { return a.localeCompare(b); });
+    }
+    return list;
+  }, [props.indexes, props.currentTuneBook]);
+  const [scopeBook, setScopeBook] = useState(function() {
+    return shouldDefaultBookScope(tuneCount, props.currentTuneBook)
+      ? (props.currentTuneBook || ALL_BOOKS)
+      : ALL_BOOKS;
+  });
 
+  useEffect(function() {
+    if (!scopeBook) return;
+    if (books.length === 0) return;
+    if (books.indexOf(scopeBook) >= 0) return;
+    setScopeBook(ALL_BOOKS);
+  }, [books, scopeBook]);
   const getTuneImportHashRef = useRef(function() { return ''; });
+  const tunesHashRef = useRef(tunesHash);
+  tunesHashRef.current = tunesHash;
   useEffect(function() {
     getTuneImportHashRef.current = function(tune) {
       if (!tunebook || !tunebook.abcTools || typeof tunebook.abcTools.getTuneImportHash !== 'function') {
@@ -71,6 +114,12 @@ export default function DuplicateManagerSettingsSection(props) {
       return tunebook.abcTools.getTuneImportHash(tune);
     };
   }, [tunebook]);
+
+  const resolveImportHash = useCallback(function(tune) {
+    return stableTuneImportHash(tune, function(t) {
+      return getTuneImportHashRef.current(t);
+    }, tunesHashRef.current);
+  }, []);
 
   useEffect(function() {
     let cancelled = false;
@@ -94,8 +143,7 @@ export default function DuplicateManagerSettingsSection(props) {
           tunesHash: tunesHash,
           getTuneImportHash: function(tune) { return getTuneImportHashRef.current(tune); },
           shouldCancel: function() { return cancelled; },
-          scopeCurrentBookOnly: scopeCurrentBookOnly,
-          currentTuneBook: props.currentTuneBook,
+          scopeBook: scopeBook || '',
         });
         if (cancelled || !result) return;
         setScanResult(result);
@@ -112,7 +160,7 @@ export default function DuplicateManagerSettingsSection(props) {
     };
     // scanVersion forces rescan when user clicks Rescan; tuneCount debounces library edits
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tuneCount, scanVersion, scopeCurrentBookOnly, props.currentTuneBook]);
+  }, [tuneCount, scanVersion, scopeBook]);
 
   const filteredGroups = useMemo(function() {
     const byKind = filterDuplicateGroupsByKind(scanResult.groups, filterKind);
@@ -139,10 +187,12 @@ export default function DuplicateManagerSettingsSection(props) {
 
   const handleKeepSeparate = useCallback(function(group) {
     if (!group || !Array.isArray(group.tuneIds)) return;
-    dismissDuplicateGroup(group.tuneIds, function(tune) { return getTuneImportHashRef.current(tune); }, tunes);
+    dismissDuplicateGroup(group.tuneIds, resolveImportHash, tunes);
+    setScanResult(function(prev) { return removeGroupFromScanResult(prev, group.id); });
+    setExpandedGroupId(function(id) { return id === group.id ? null : id; });
     setScanVersion(function(v) { return v + 1; });
     toast.success('Marked as separate versions. They will not appear again unless content changes.');
-  }, [tunes]);
+  }, [tunes, resolveImportHash]);
 
   const handleQuickMerge = useCallback(function(group) {
     if (!group || !tunebook) return;
@@ -222,21 +272,26 @@ export default function DuplicateManagerSettingsSection(props) {
 
         {tuneCount > LARGE_LIST_WARNING_THRESHOLD ? (
           <Alert variant="info" className="mb-3">
-            Large library ({tuneCount} tunes). Scanning the full library can be slow — consider limiting to the current book.
+            Large library ({tuneCount} tunes). Scanning the full library can be slow — pick a book below to limit the scan.
           </Alert>
         ) : null}
 
-        {props.currentTuneBook ? (
-          <Form.Check
-            type="switch"
-            id="duplicate-scope-current-book"
-            className="mb-3"
-            label={'Scan current book only (' + props.currentTuneBook + ')'}
-            checked={scopeCurrentBookOnly}
-            onChange={function(e) { setScopeCurrentBookOnly(!!e.target.checked); }}
+        <Form.Group className="mb-3" controlId="duplicate-manager-book-scope">
+          <Form.Label className="mb-1">Scan book</Form.Label>
+          <Form.Select
+            value={scopeBook}
+            onChange={function(e) { setScopeBook(e.target.value || ALL_BOOKS); }}
             disabled={scanning}
-          />
-        ) : null}
+            aria-label="Filter duplicate scan by book"
+          >
+            <option value={ALL_BOOKS}>All books</option>
+            {books.map(function(book) {
+              return (
+                <option key={book} value={book}>{book}</option>
+              );
+            })}
+          </Form.Select>
+        </Form.Group>
 
         <Form.Group className="mb-3" controlId="duplicate-manager-name-filter">
           <Form.Label className="mb-1">Filter by name</Form.Label>

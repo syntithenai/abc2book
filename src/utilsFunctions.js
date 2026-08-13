@@ -14,6 +14,7 @@ import {
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import {unzip} from 'unzipit';
 import { toSearchText as foldToSearchText } from './searchTextUtils';
+import { keyPrefersFlats } from './keySignatureNormalize';
 
 
 /**
@@ -22,14 +23,14 @@ import { toSearchText as foldToSearchText } from './searchTextUtils';
 export default function utilsFunctions(props) {
 
     /**
-     * Convert a chord symbol to use sharps or flats appropriate to the 
-     * key signature
+     * Respell a single chord/bass root token for the given key (A#↔Bb).
      */
-    function canonicalChordForKey(key,chord) {
+    function canonicalChordRootForKey(key, token) {
         var letters=['A','B','C','D','E','F','G']
-        var keyLetter = (chord && chord.length > 0 && chord[0].toUpperCase)  ? chord[0].toUpperCase() : ''
+        var text = String(token || '')
+        var keyLetter = (text.length > 0 && text[0].toUpperCase)  ? text[0].toUpperCase() : ''
         if (!keyLetter) return ''
-        var modifierLetter =(chord.length > 1 && (chord[1] === 'b' || chord[1] === '#')) ? chord[1] : ''
+        var modifierLetter =(text.length > 1 && (text[1] === 'b' || text[1] === '#')) ? text[1] : ''
         if (showFlats(key)) {
             if (modifierLetter == '#') {
                 var letterIndex = letters.indexOf(keyLetter)
@@ -52,41 +53,34 @@ export default function utilsFunctions(props) {
             }
         }
         if (modifierLetter.length > 0) {
-            return keyLetter + modifierLetter + chord.slice(2)
+            return keyLetter + modifierLetter + text.slice(2)
         } else {
-            return keyLetter + chord.slice(1)
+            return keyLetter + text.slice(1)
         }
     }
 
     /**
+     * Convert a chord symbol to use sharps or flats appropriate to the 
+     * key signature. Slash bass notes are respelt the same way as roots.
+     */
+    function canonicalChordForKey(key,chord) {
+        var text = String(chord || '')
+        if (!text) return ''
+        var slashIndex = text.indexOf('/')
+        if (slashIndex < 0) {
+            return canonicalChordRootForKey(key, text)
+        }
+        var rootPart = text.slice(0, slashIndex)
+        var bassPart = text.slice(slashIndex + 1)
+        return canonicalChordRootForKey(key, rootPart) + '/' + canonicalChordRootForKey(key, bassPart)
+    }
+
+    /**
      * Given a key signature, return a boolean indicating whether the key
-     * uses sharps(false) or flats(true)
+     * uses sharps(false) or flats(true). Mode-aware (Dm → flats via F).
      */
     function showFlats(key) {
-        var keyMap = {
-            "A": false, "A#": true, "Ab": true, 
-            "B": false, "B#": false, "Bb": true, 
-            "C": false, "C#": true, "Cb": false, 
-            "D": false, "D#": true, "Db": true, 
-            "E": false, "E#": true, "Eb": true, 
-            "F": true, "F#": false, "Fb": false, 
-            "G": false, "G#": true, "Gb": true
-        }
-        var keyLetter =''
-        var modifierLetter =''
-        if (key && key.length > 1) {
-            if (key[1] == 'b' || key[1] == '#') {
-                keyLetter = key[0].toUpperCase() 
-                modifierLetter = key[1]
-            } else {
-                keyLetter = key[0].toUpperCase() 
-            }
-        } else if (key && key.length > 0) {
-            keyLetter = key[0].toUpperCase() 
-        } else {
-            return false
-        }
-        return keyMap[keyLetter + modifierLetter]
+        return keyPrefersFlats(key)
     }
 
     /**

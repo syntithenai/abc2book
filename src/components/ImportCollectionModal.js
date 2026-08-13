@@ -2,7 +2,7 @@ import {useState, useEffect, useCallback} from 'react'
 import {Button, Modal, ListGroup, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {useNavigate} from 'react-router-dom'
-import { curatedScrapeUrl } from '../resourceBase'
+import { buildCuratedImportPath } from '../curatedImportMatch'
 import VoiceFillInput from './VoiceFillInput'
 
 function ImportCollectionModal(props) {
@@ -64,10 +64,12 @@ function ImportCollectionModal(props) {
   const doImport = useCallback(function(collection) {
     setCurrentTuneBook(collection)
     if (tunebook.curatedTuneBooks[collection]) {
-      if (tunebook.curatedTuneBooks[collection].link) {
-        navigate("/importlink/"+encodeURIComponent(curatedScrapeUrl(tunebook.curatedTuneBooks[collection].link)))
-      } else if (tunebook.curatedTuneBooks[collection].googleDocumentId) {
-        navigate("/importdoc/"+tunebook.curatedTuneBooks[collection].googleDocumentId)
+      const meta = tunebook.curatedTuneBooks[collection]
+      if (meta.link) {
+        const importPath = buildCuratedImportPath(meta)
+        if (importPath) navigate(importPath)
+      } else if (meta.googleDocumentId) {
+        navigate("/importdoc/"+meta.googleDocumentId)
       } 
     }
     

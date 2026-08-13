@@ -1,7 +1,7 @@
 /**
- * Rebuild book/tag/genre/artist indexes from tune objects.
+ * Rebuild book/tag/genre/artist/album indexes from tune objects.
  */
-import { allArtists, allGenres } from './tuneBibliographicUtils'
+import { allAlbums, allArtists, allGenres } from './tuneBibliographicUtils'
 import { saveAllIndexes, invalidateIndexCache } from './tuneIndexStore'
 
 function addId(index, key, tuneId) {
@@ -18,6 +18,7 @@ export function buildIndexesFromTunes(tunes) {
   const tags = {}
   const genres = {}
   const artists = {}
+  const albums = {}
   const list = tunes && typeof tunes === 'object'
     ? (Array.isArray(tunes) ? tunes : Object.values(tunes))
     : []
@@ -33,9 +34,10 @@ export function buildIndexesFromTunes(tunes) {
     }
     allGenres(tune).forEach(function(genre) { addId(genres, genre, tuneId) })
     allArtists(tune).forEach(function(artist) { addId(artists, artist, tuneId) })
+    allAlbums(tune).forEach(function(album) { addId(albums, album, tuneId) })
   })
 
-  return { books: books, tags: tags, genres: genres, artists: artists, tagGroups: {} }
+  return { books: books, tags: tags, genres: genres, artists: artists, albums: albums, tagGroups: {} }
 }
 
 /**
@@ -48,12 +50,12 @@ export async function rebuildIndexesFromTunes(tunes, options) {
     : []
   const total = list.length
   const chunkSize = opts.chunkSize > 0 ? opts.chunkSize : 500
-  const built = { books: {}, tags: {}, genres: {}, artists: {}, tagGroups: {} }
+  const built = { books: {}, tags: {}, genres: {}, artists: {}, albums: {}, tagGroups: {} }
 
   for (let start = 0; start < list.length; start += chunkSize) {
     const slice = list.slice(start, start + chunkSize)
     const partial = buildIndexesFromTunes(slice)
-    ;['books', 'tags', 'genres', 'artists'].forEach(function(field) {
+    ;['books', 'tags', 'genres', 'artists', 'albums'].forEach(function(field) {
       Object.keys(partial[field] || {}).forEach(function(key) {
         if (!Array.isArray(built[field][key])) built[field][key] = []
         partial[field][key].forEach(function(id) {
@@ -75,6 +77,7 @@ export async function rebuildIndexesFromTunes(tunes, options) {
     tags: built.tags,
     genres: built.genres,
     artists: built.artists,
+    albums: built.albums,
     tagGroups: built.tagGroups,
     meta: { revision: Date.now(), builtAt: new Date().toISOString(), tuneCount: total },
   })

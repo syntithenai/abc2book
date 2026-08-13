@@ -31,6 +31,7 @@ const NOTATION_ISSUE_CODES = new Set([
   'voice_bar_count_mismatch',
   'anacrusis_inconsistent',
   'anacrusis_double_barline',
+  'mid_block_double_barline',
   'section_pickup_should_be_ending',
   'unexpected_melody',
   'sparse_melody',

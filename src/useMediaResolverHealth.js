@@ -3,6 +3,10 @@ import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes';
 import { isAndroidApp } from './platformUtils';
 import { getResolverFeaturesFromStatus } from './resolverFeatures';
 import {
+  setResolverLoginToastLogin,
+  startResolverLoginToastSync,
+} from './resolverLoginToast';
+import {
   ensureMediaResolverHealthSettingsListener,
   getMediaResolverHealthState,
   probeMediaResolverHealth,
@@ -11,7 +15,11 @@ import {
   subscribeMediaResolverHealth,
 } from './mediaResolverHealthStore';
 
-export function useInitMediaResolverHealth(accessToken, requestGoogleScopes) {
+export function useInitMediaResolverHealth(accessToken, requestGoogleScopes, login) {
+  useEffect(function() {
+    setResolverLoginToastLogin(login);
+  });
+
   useEffect(function() {
     ensureMediaResolverHealthSettingsListener();
     if (requestGoogleScopes) {
@@ -23,7 +31,12 @@ export function useInitMediaResolverHealth(accessToken, requestGoogleScopes) {
     }
     var probeTimer = null
     function runProbe() {
-      probeMediaResolverHealth(accessToken);
+      if (accessToken) {
+        probeMediaResolverHealth(accessToken);
+      } else {
+        // Explicit logout / signed-out mount: drop any stale bearer.
+        probeMediaResolverHealth(null, { clearActiveToken: true });
+      }
     }
     if (isAndroidApp() && !accessToken) {
       // Defer cold-start probe — useGoogleLogin also probes after login.
@@ -33,9 +46,11 @@ export function useInitMediaResolverHealth(accessToken, requestGoogleScopes) {
     } else {
       runProbe()
     }
+    const stopLoginToast = startResolverLoginToastSync(accessToken);
     return function() {
       if (probeTimer) clearTimeout(probeTimer)
       setMediaResolverIdentityScopeRequest(null);
+      stopLoginToast();
     };
   }, [accessToken, requestGoogleScopes]);
 

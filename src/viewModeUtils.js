@@ -416,20 +416,29 @@ export function defaultViewModeForTune(tune, tunebook, options) {
   return displayFlagsToViewMode(flags);
 }
 
-/** Editor panel modes (replaces Music / Info / Lyrics / Chords / ABC tabs). */
+/** Editor panel modes (Info / Music / Lyrics / Chords). */
 export const EDITOR_VIEW_MODES = [
   { id: 'info', label: 'Info' },
   { id: 'music', label: 'Music' },
   { id: 'lyrics', label: 'Lyrics' },
+  { id: 'chords', label: 'Chords' },
 ];
 
-/** Single tune view edit pencil — includes Chords deep link into notation editor. */
-export const SINGLE_VIEW_EDIT_MODES = EDITOR_VIEW_MODES.concat([
+/**
+ * Editor header view modes (toolbar toggles / compact dropdown): main panels
+ * plus Music subviews (piano roll, ABC).
+ */
+export const SINGLE_VIEW_EDIT_MODES = [
+  { id: 'info', label: 'Info' },
+  { id: 'music', label: 'Music' },
+  { id: 'pianoRoll', label: 'Piano roll' },
+  { id: 'lyrics', label: 'Lyrics' },
   { id: 'chords', label: 'Chords' },
-]);
+  { id: 'notationAbc', label: 'ABC' },
+];
 
-/** Editor URL segments that are Music subviews (not header tabs). */
-export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc', 'chords'];
+/** Editor URL segments that are Music subviews (not primary header tabs). */
+export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc'];
 
 function isCompositeViewMode(mode) {
   if (!mode || typeof mode !== 'string') return false;
@@ -504,7 +513,7 @@ export function normalizeEditorViewMode(mode) {
 
 export function isNotationEditorView(mode) {
   const normalized = normalizeEditorViewMode(mode);
-  return normalized === 'music' || normalized === 'pianoRoll' || normalized === 'notationAbc' || normalized === 'chords';
+  return normalized === 'music' || normalized === 'pianoRoll' || normalized === 'notationAbc';
 }
 
 /**
@@ -533,17 +542,16 @@ export function getEditorViewModeLabel(mode) {
   var normalized = normalizeEditorViewMode(mode);
   var entry = EDITOR_VIEW_MODES.find(function(item) { return item.id === normalized; });
   if (entry) return entry.label;
-  // Handle music subviews (pianoRoll, notationAbc, chords) which are not in EDITOR_VIEW_MODES
+  // Handle music subviews which are not in EDITOR_VIEW_MODES
   if (normalized === 'pianoRoll') return 'Piano roll';
   if (normalized === 'notationAbc') return 'ABC Notes';
-  if (normalized === 'chords') return 'Chords';
   return 'Info';
 }
 
 /** Header tab id for highlighting (pianoRoll/notationAbc → music). */
 export function getPrimaryEditorViewMode(mode) {
   var normalized = normalizeEditorViewMode(mode);
-  if (normalized === 'pianoRoll' || normalized === 'notationAbc' || normalized === 'chords') return 'music';
+  if (normalized === 'pianoRoll' || normalized === 'notationAbc') return 'music';
   return normalized;
 }
 

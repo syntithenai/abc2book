@@ -307,7 +307,7 @@ function buildBackgroundInfo(candidate) {
   return lines.join('\n');
 }
 
-function buildCollectionTags(candidate) {
+function buildMediaCandidateTags(candidate) {
   const tags = [];
   const year = String(candidate.year || '').trim();
   const tracknumber = String(candidate.tracknumber || '').trim();
@@ -335,7 +335,8 @@ export function buildCollectionTuneFromCandidate(candidate) {
     books: [MYMEDIA_BOOK],
     albums: album ? [album] : [],
     genres: genre ? [genre] : [],
-    tags: buildCollectionTags(candidate),
+    // Collection imports go in mymedia only — do not promote year/track metadata into tags.
+    tags: [],
     backgroundInfo: buildBackgroundInfo(candidate),
     links: [link],
     mediaCacheLocked: true,
@@ -360,7 +361,7 @@ export function buildWebMediaTuneFromCandidate(candidate) {
     composer: artist,
     books: [MYMEDIA_BOOK],
     albums: album ? [album] : [],
-    tags: buildCollectionTags(candidate),
+    tags: buildMediaCandidateTags(candidate),
     backgroundInfo: buildBackgroundInfo(candidate),
     links: [link],
   };
@@ -409,9 +410,22 @@ async function buildDeviceFileTuneFromCandidate(candidate) {
   return Object.assign({}, tuneBase, { links: [link] });
 }
 
+export function tuneHasMusicCollectionLink(tune) {
+  if (!tune || !Array.isArray(tune.links)) return false;
+  return tune.links.some(function(link) {
+    return !!(link && (
+      String(link.source || '').trim() === 'music-collection'
+      || link.collectionEntryId
+      || link.collectionPath
+    ));
+  });
+}
+
 export function scheduleMediaSearchTuneEnrichment(tune, tunebook, options) {
   const opts = options || {};
   if (!tune || !tune.id || !tunebook) return;
+  // Library imports already have audio; do not auto-pull lyrics/chords/notation.
+  if (opts.skipEnrich || tuneHasMusicCollectionLink(tune)) return;
   if (isAddTuneAutoEnrichPending(tune.id)) return;
   Promise.resolve(runAddTuneAutoEnrich({
     tune: tune,
@@ -434,9 +448,11 @@ export async function ensureMediaSearchTune(candidate, tunebook, options) {
   }
 
   const tunes = opts.tunes || tunebook.tunes || {};
+  const skipEnrich = !!opts.skipEnrich || isMusicCollectionResult(candidate);
+  const enrichOpts = Object.assign({}, opts, { skipEnrich: skipEnrich });
   const existing = findExistingMediaSearchTune(tunes, candidate);
   if (existing) {
-    scheduleMediaSearchTuneEnrichment(existing, tunebook, opts);
+    scheduleMediaSearchTuneEnrichment(existing, tunebook, enrichOpts);
     return existing;
   }
 
@@ -448,7 +464,7 @@ export async function ensureMediaSearchTune(candidate, tunebook, options) {
   const promise = (async function() {
     const again = findExistingMediaSearchTune(tunes, candidate);
     if (again) {
-      scheduleMediaSearchTuneEnrichment(again, tunebook, opts);
+      scheduleMediaSearchTuneEnrichment(again, tunebook, enrichOpts);
       return again;
     }
     let tuneDraft;
@@ -463,7 +479,7 @@ export async function ensureMediaSearchTune(candidate, tunebook, options) {
       skipHistory: true,
       deferCommit: !!opts.deferCommit,
     });
-    scheduleMediaSearchTuneEnrichment(saved, tunebook, opts);
+    scheduleMediaSearchTuneEnrichment(saved, tunebook, enrichOpts);
     return saved;
   })();
 

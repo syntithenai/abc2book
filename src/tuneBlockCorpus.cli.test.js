@@ -31,6 +31,20 @@ function formatMarkdown(summary, sourceFiles) {
     lines.push('- **' + pattern + '**: ' + stats.pass + '/' + stats.total + ' pass (' + rate + '%)')
   })
 
+  lines.push('', '## Lyric blocks vs melody strains', '')
+  Object.keys(summary.byStrainLyricBucket || {}).sort().forEach(function(bucket) {
+    lines.push('- **' + bucket + '**: ' + summary.byStrainLyricBucket[bucket])
+  })
+
+  if (summary.strainLyricOutliers && summary.strainLyricOutliers.length) {
+    lines.push('', '## Strain/lyric outliers (extreme ratios)', '')
+    summary.strainLyricOutliers.forEach(function(item) {
+      lines.push('- ' + item.tuneName + ': ' + item.blockCount + ' lyric blocks / '
+        + item.strainCount + ' strains (' + item.bucket + ', ratio '
+        + (item.ratio != null ? item.ratio.toFixed(1) : 'n/a') + ')')
+    })
+  }
+
   lines.push('', '## Issue counts', '')
   Object.keys(summary.issueCounts || {}).sort().forEach(function(code) {
     lines.push('- **' + code + '**: ' + summary.issueCounts[code])

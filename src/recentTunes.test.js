@@ -1,5 +1,53 @@
-import { getRecentArtists, getStarredTunes } from './recentTunes'
+import { getRecentArtists, getRecentTunes, getRecentlyUpdatedTunes, getStarredTunes } from './recentTunes'
 import { TUNE_VIEW_HISTORY_STORAGE_KEY } from './tuneViewHistoryStore'
+
+describe('getRecentTunes', () => {
+  beforeEach(function() {
+    localStorage.removeItem(TUNE_VIEW_HISTORY_STORAGE_KEY)
+  })
+
+  it('returns empty array for missing tunes', () => {
+    expect(getRecentTunes(null)).toEqual([])
+    expect(getRecentTunes(undefined)).toEqual([])
+  })
+
+  it('orders by view history and ignores lastUpdated-only imports', () => {
+    localStorage.setItem(TUNE_VIEW_HISTORY_STORAGE_KEY, JSON.stringify({
+      visited: { lastViewed: 100, viewCount: 1 },
+    }))
+    const tunes = {
+      visited: { id: 'visited', name: 'Visited', lastUpdated: 10 },
+      importedA: { id: 'importedA', name: 'Imported A', lastUpdated: 9000 },
+      importedB: { id: 'importedB', name: 'Imported B', lastUpdated: 8000 },
+    }
+    expect(getRecentTunes(tunes).map(function(t) { return t.id })).toEqual(['visited'])
+  })
+
+  it('respects limit', () => {
+    localStorage.setItem(TUNE_VIEW_HISTORY_STORAGE_KEY, JSON.stringify({
+      a: { lastViewed: 3, viewCount: 1 },
+      b: { lastViewed: 2, viewCount: 1 },
+      c: { lastViewed: 1, viewCount: 1 },
+    }))
+    const tunes = {
+      a: { id: 'a', name: 'A' },
+      b: { id: 'b', name: 'B' },
+      c: { id: 'c', name: 'C' },
+    }
+    expect(getRecentTunes(tunes, 2).map(function(t) { return t.id })).toEqual(['a', 'b'])
+  })
+})
+
+describe('getRecentlyUpdatedTunes', () => {
+  it('orders by lastUpdated', () => {
+    const tunes = {
+      older: { id: 'older', lastUpdated: 100 },
+      newer: { id: 'newer', lastUpdated: 300 },
+      mid: { id: 'mid', lastUpdated: 200 },
+    }
+    expect(getRecentlyUpdatedTunes(tunes).map(function(t) { return t.id })).toEqual(['newer', 'mid', 'older'])
+  })
+})
 
 describe('getStarredTunes', () => {
   it('returns empty array for missing tunes', () => {

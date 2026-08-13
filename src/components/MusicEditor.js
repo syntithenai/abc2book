@@ -9,8 +9,7 @@ import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
 import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
-import { isNotationEditorView, normalizeEditorViewMode, editorViewModeToNotationView, notationViewToEditorViewMode } from '../viewModeUtils'
-import NotationViewSelector from './NotationViewSelector'
+import { isNotationEditorView, normalizeEditorViewMode } from '../viewModeUtils'
 import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
 import { showBackgroundJobsContinuingNotice } from '../backgroundReviewToast'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
@@ -336,17 +335,6 @@ export default function MusicEditor(props) {
                 </span>
             </div>
             <div className="music-editor-header-view-groups">
-                {isNotationView && !notationOnly ? (
-                  <NotationViewSelector
-                    variant="buttonGroup"
-                    className="music-editor-notation-views"
-                    tunebook={props.tunebook}
-                    view={editorViewModeToNotationView(editorViewMode)}
-                    onChange={function(nextView) {
-                      handleEditorViewChange(notationViewToEditorViewMode(nextView))
-                    }}
-                  />
-                ) : null}
                 <ViewModeSelectorModal
                   variant="editor"
                   viewMode={editorViewMode}
@@ -360,6 +348,7 @@ export default function MusicEditor(props) {
           logout={props.logout}
           login={props.login}
           token={props.token}
+          user={props.user}
           mediaController={props.mediaController}
           audioProps={props.audioProps}
           forceRefresh={notifyRefresh}
@@ -370,7 +359,7 @@ export default function MusicEditor(props) {
           tune={tune}
           editorViewMode={editorViewMode}
           onEditorViewModeChange={handleEditorViewChange}
-          suppressInlineViewSelector={!notationOnly && isNotationView}
+          suppressInlineViewSelector={!notationOnly}
           autoActivateChordRecord={autoActivateChordRecord}
           autoStartChordSearch={props.autoStartChordSearch}
           searchIndex={props.searchIndex}

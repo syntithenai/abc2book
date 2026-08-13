@@ -2,6 +2,8 @@ import {
   announcePlaylistTrack,
   buildPlaylistTrackAnnouncementText,
   cancelPlaylistTitleAnnouncement,
+  confirmQueuedPlaylistTrackAnnouncement,
+  queuePlaylistTrackAnnouncement,
 } from './playlistTitleAnnouncement'
 import * as voiceSettings from './voiceSettings'
 import * as ttsClient from './ttsClient'
@@ -49,6 +51,8 @@ describe('playlistTitleAnnouncement', function() {
     getActiveResolverAccessToken.mockReturnValue(null)
     URL.createObjectURL = jest.fn(function() { return 'blob:test' })
     URL.revokeObjectURL = jest.fn()
+    HTMLMediaElement.prototype.play = jest.fn(function() { return Promise.resolve() })
+    HTMLMediaElement.prototype.pause = jest.fn()
   })
 
   test('buildPlaylistTrackAnnouncementText uses title only by default', function() {
@@ -130,5 +134,26 @@ describe('playlistTitleAnnouncement', function() {
     announcePlaylistTrack({ name: 'Cached Tune' })
 
     expect(ttsClient.synthesizeSpeech).toHaveBeenCalledTimes(1)
+  })
+
+  test('queued announcement waits for playback confirmation', async function() {
+    const blob = new Blob(['wav'], { type: 'audio/wav' })
+    ttsClient.synthesizeSpeech.mockResolvedValue(blob)
+
+    queuePlaylistTrackAnnouncement({ id: 't1', name: 'Confirmed Tune' })
+    expect(ttsClient.synthesizeSpeech).not.toHaveBeenCalled()
+
+    confirmQueuedPlaylistTrackAnnouncement({ id: 't1', name: 'Confirmed Tune' })
+    await Promise.resolve()
+
+    expect(ttsClient.synthesizeSpeech).toHaveBeenCalledWith('Confirmed Tune')
+  })
+
+  test('queued announcement is dropped when a different tune starts', async function() {
+    queuePlaylistTrackAnnouncement({ id: 't1', name: 'Blue Moon' })
+    confirmQueuedPlaylistTrackAnnouncement({ id: 't2', name: 'Wild Rover' })
+    await Promise.resolve()
+
+    expect(ttsClient.synthesizeSpeech).not.toHaveBeenCalled()
   })
 })

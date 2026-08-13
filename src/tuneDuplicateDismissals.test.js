@@ -28,9 +28,31 @@ describe('tuneDuplicateDismissals', function() {
     expect(isDuplicatePairDismissed('t1', 't2', 'h1-changed', 'h2')).toBe(false);
   });
 
-  test('isDuplicatePairDismissed accepts reversed hash order', function() {
-    recordDuplicateDismissal('a', 'b', { hashA: 'x', hashB: 'y' });
+  test('recordDuplicateDismissal stores hashes in sorted id order', function() {
+    recordDuplicateDismissal('b', 'a', { hashA: 'hash-b', hashB: 'hash-a' });
+    const stored = getDuplicateDismissal('a', 'b');
+    expect(stored).toMatchObject({ hashA: 'hash-a', hashB: 'hash-b' });
+    expect(isDuplicatePairDismissed('a', 'b', 'hash-a', 'hash-b')).toBe(true);
+    expect(isDuplicatePairDismissed('b', 'a', 'hash-b', 'hash-a')).toBe(true);
+  });
+
+  test('isDuplicatePairDismissed accepts reversed hash order from legacy records', function() {
+    writeDuplicateDismissals({
+      'a|b': { hashA: 'x', hashB: 'y', dismissedAt: 1 },
+    });
     expect(isDuplicatePairDismissed('b', 'a', 'y', 'x')).toBe(true);
+  });
+
+  test('empty fingerprints keep pair dismissed', function() {
+    recordDuplicateDismissal('a', 'b', { hashA: '', hashB: '' });
+    expect(isDuplicatePairDismissed('a', 'b', 'real-a', 'real-b')).toBe(true);
+    expect(isDuplicatePairDismissed('a', 'b', '', '')).toBe(true);
+  });
+
+  test('incomplete current hashes keep pair dismissed', function() {
+    recordDuplicateDismissal('a', 'b', { hashA: 'h1', hashB: 'h2' });
+    expect(isDuplicatePairDismissed('a', 'b', 'h1', '')).toBe(true);
+    expect(isDuplicatePairDismissed('a', 'b', '', 'h2')).toBe(true);
   });
 
   test('clearDuplicateDismissal removes entry', function() {

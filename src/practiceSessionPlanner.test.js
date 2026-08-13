@@ -13,6 +13,7 @@ import {
   tuneMatchesRecentPracticeContext,
 } from './practiceSessionPlanner'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { TUNE_VIEW_HISTORY_STORAGE_KEY } from './tuneViewHistoryStore'
 
 const helpers = {
   hasLinks: function(tune) {
@@ -54,6 +55,10 @@ function makeTune(id, overrides) {
 }
 
 describe('practiceSessionPlanner', function() {
+  beforeEach(function() {
+    localStorage.removeItem(TUNE_VIEW_HISTORY_STORAGE_KEY)
+  })
+
   it('picks majority practice key', function() {
     const tunes = [
       makeTune('a', { key: 'G' }),
@@ -253,9 +258,14 @@ describe('practiceSessionPlanner', function() {
   })
 
   it('derives recent practice context from viewed tunes', function() {
+    localStorage.setItem(TUNE_VIEW_HISTORY_STORAGE_KEY, JSON.stringify({
+      a: { lastViewed: 300, viewCount: 1 },
+      b: { lastViewed: 200, viewCount: 1 },
+    }))
     const tunes = {
       a: makeTune('a', { books: ['Reels'], tags: ['party'], lastUpdated: 300 }),
       b: makeTune('b', { books: ['Jigs'], tags: ['fast'], lastUpdated: 200 }),
+      imported: makeTune('imported', { books: ['Imports'], tags: ['new'], lastUpdated: 9999 }),
     }
     const context = derivePracticeContextFromRecentTunes(tunes, 2)
     expect(context.recentBooks.sort()).toEqual(['Jigs', 'Reels'])
@@ -297,11 +307,45 @@ describe('practiceSessionPlanner', function() {
 
   it('reports a clearer error when no practice list tunes are available', function() {
     const plan = buildPracticeSessionPlan({
+      includeWarmups: false,
       tunes: { x: makeTune('x', { voices: null, links: [] }) },
       helpers,
       filters: { practiceListTuneIds: [] },
     })
     delete plan.steps
     expect(plan.error).toBe('Add tunes to your practice lists before starting a session.')
+  })
+
+  it('builds warmup-only plan when practice lists are empty', function() {
+    const plan = buildPracticeSessionPlan({
+      totalMinutes: 10,
+      includeWarmups: true,
+      instrument: 'mandolin',
+      tunes: {},
+      helpers,
+      filters: { practiceListTuneIds: [] },
+    })
+    expect(plan.error).toBeUndefined()
+    expect(plan.steps.length).toBeGreaterThan(0)
+    expect(plan.steps.every(function(s) { return s.type === 'warmup' })).toBe(true)
+    expect(plan.tuneCount).toBe(0)
+    expect(plan.practiceKey).toBe('C')
+  })
+
+  it('builds warmup-only plan when list tunes do not match instrument', function() {
+    const tunes = {
+      chords: makeTune('chords', { voices: { v: { notes: ['"C" "G" "Am"'] } } }),
+    }
+    const plan = buildPracticeSessionPlan({
+      totalMinutes: 10,
+      includeWarmups: true,
+      instrument: 'mandolin',
+      tunes,
+      helpers,
+      filters: { practiceListTuneIds: ['chords'] },
+    })
+    expect(plan.error).toBeUndefined()
+    expect(plan.steps.every(function(s) { return s.type === 'warmup' })).toBe(true)
+    expect(plan.tuneCount).toBe(0)
   })
 })

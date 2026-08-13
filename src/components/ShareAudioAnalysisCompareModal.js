@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { Alert, Button, Modal, Spinner } from 'react-bootstrap'
+import { Alert, Button, Modal, ProgressBar, Spinner } from 'react-bootstrap'
 import { QRCodeSVG } from 'qrcode.react'
 import { prepareAudioAnalysisCompareShare } from '../audioAnalysisShare'
-import { shareEmailBody, shareEmailSubject } from '../audioAnalysisShareUtils'
+import {
+  audioAnalysisProgressPercent,
+  shareEmailBody,
+  shareEmailSubject
+} from '../audioAnalysisShareUtils'
 
 const SHARE_UPLOAD_NOTICE =
   'Sharing uploads this comparison report and its note audio to Google Drive so recipients can open the interactive report. This can take a moment. Continue?'
@@ -17,6 +21,7 @@ export default function ShareAudioAnalysisCompareModal(props) {
   const [link, setLink] = useState('')
   const [error, setError] = useState(null)
   const [summary, setSummary] = useState('')
+  const [progress, setProgress] = useState(null)
   const [pendingOpen, setPendingOpen] = useState(false)
 
   useEffect(function() {
@@ -32,10 +37,12 @@ export default function ShareAudioAnalysisCompareModal(props) {
     setBusy(true)
     setError(null)
     setSummary('')
+    setProgress({ phase: 'start', message: 'Starting share…' })
     try {
       const result = await prepareAudioAnalysisCompareShare(driveApi, {
         baselineId: baseline.id,
-        candidateId: candidate.id
+        candidateId: candidate.id,
+        onProgress: function(info) { setProgress(info || null) }
       })
       if (!result.ok) {
         if (!result.cancelled) setError(result.error || 'Share failed')
@@ -53,6 +60,7 @@ export default function ShareAudioAnalysisCompareModal(props) {
       setError((err && err.message) || String(err))
     } finally {
       setBusy(false)
+      setProgress(null)
     }
   }
 
@@ -75,6 +83,7 @@ export default function ShareAudioAnalysisCompareModal(props) {
     ? 'mailto:?subject=' + encodeURIComponent(shareEmailSubject(baseline, candidate))
       + '&body=' + encodeURIComponent(shareEmailBody(link))
     : null
+  const pct = audioAnalysisProgressPercent(progress)
 
   return (
     <>
@@ -83,10 +92,34 @@ export default function ShareAudioAnalysisCompareModal(props) {
         disabled={busy || !baseline || !candidate}
         onClick={handleClick}
       >
-        {busy ? <span><Spinner animation="border" size="sm" className="me-1" /> Uploading…</span> : 'Share'}
+        {busy ? (
+          <span><Spinner animation="border" size="sm" className="me-1" /> Uploading…</span>
+        ) : (
+          (props.token && props.token.access_token) ? 'Share' : 'Login To Share'
+        )}
       </Button>
 
       {error ? <Alert variant="danger" className="py-2 mt-2 mb-0">{error}</Alert> : null}
+
+      <Modal show={busy} backdrop="static" keyboard={false} centered>
+        <Modal.Header>
+          <Modal.Title>Sharing comparison…</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="d-flex align-items-center gap-2 mb-2">
+            <Spinner animation="border" size="sm" />
+            <span>{(progress && progress.message) || 'Working…'}</span>
+          </div>
+          {pct != null ? (
+            <ProgressBar now={pct} label={pct + '%'} />
+          ) : (
+            <ProgressBar animated now={100} />
+          )}
+          <p className="small text-muted mb-0 mt-2">
+            Syncing note audio and uploading the report to Google Drive can take a while.
+          </p>
+        </Modal.Body>
+      </Modal>
 
       <Modal show={show} onHide={function() { setShow(false) }} size="lg" centered scrollable>
         <Modal.Header closeButton>

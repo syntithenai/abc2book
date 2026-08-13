@@ -231,6 +231,19 @@
   margin-right: 0;
 }
 
+/* Keep autoscroll as its own bordered block inside the shared toolbar cluster. */
+.gig-mode-toolbar-cluster .lyrics-autoscroll-bar-panel--inline {
+  background: var(--app-surface-raised);
+  border: 1px solid #9aa8b8;
+}
+
+.gig-mode-modal.gig-mode-night .lyrics-autoscroll-bar-panel--inline,
+.gig-mode-modal.gig-mode-night .gig-mode-toolbar-cluster .lyrics-autoscroll-bar-panel--inline,
+.gig-mode-modal.gig-mode-night .lyrics-autoscroll-bar--gig .lyrics-autoscroll-bar-panel {
+  border-color: var(--app-border-strong);
+  background: var(--app-surface-raised);
+}
+
 .gig-mode-modal.gig-mode-night .gig-mode-toolbar-cluster {
   border-color: var(--app-border-strong);
   background: var(--app-brand-muted);
@@ -645,8 +658,8 @@
 }
 
 .gig-mode-modal .lyrics-autoscroll-bar-panel--inline {
-  background: var(--app-brand-muted);
-  border: 1px solid var(--app-border-strong);
+  background: var(--app-surface-raised);
+  border: 1px solid #9aa8b8;
   border-radius: var(--app-radius);
   padding: 0.2rem 0.45rem;
   box-shadow: none;

@@ -3,7 +3,6 @@ import { Alert, Button, Form, ProgressBar } from 'react-bootstrap'
 import {
   AUDIO_ANALYSIS_INSTRUMENTS,
   TUNER_INSTRUMENT_LABELS,
-  normalizeAudioAnalysisInstrument,
   presetsForInstrument,
   defaultPresetForInstrument
 } from '../instrumentTuningPresets'
@@ -20,23 +19,21 @@ import { listAudioInputDevices } from '../tunerlib/app'
 import VoiceFillInput from './VoiceFillInput'
 
 const UNGROUPED = ''
+const DEFAULT_INSTRUMENT = 'violin'
+const DEFAULT_MEASUREMENT_MODE = 'tap'
 
 export default function AudioAnalysisWizard(props) {
-  const fromProps = normalizeAudioAnalysisInstrument(props.instrument)
-  const initialInstrument = fromProps && AUDIO_ANALYSIS_INSTRUMENTS.indexOf(fromProps) >= 0
-    ? fromProps
-    : 'violin'
   const [step, setStep] = useState('form')
-  const [measurementMode, setMeasurementMode] = useState('bowed') // bowed | tap
+  const [measurementMode, setMeasurementMode] = useState(DEFAULT_MEASUREMENT_MODE) // bowed | tap
   const [label, setLabel] = useState('')
   const [groupId, setGroupId] = useState(UNGROUPED)
   const [newGroupName, setNewGroupName] = useState('')
   const [groups, setGroups] = useState([])
-  const [instrument, setInstrument] = useState(initialInstrument)
+  const [instrument, setInstrument] = useState(DEFAULT_INSTRUMENT)
   const [tuningPresetId, setTuningPresetId] = useState(
-    props.tuningPresetId || (defaultPresetForInstrument(initialInstrument) || {}).id
+    (defaultPresetForInstrument(DEFAULT_INSTRUMENT) || {}).id
   )
-  const [sequencePresetId, setSequencePresetId] = useState(defaultSequencePresetId(initialInstrument))
+  const [sequencePresetId, setSequencePresetId] = useState(defaultSequencePresetId(DEFAULT_INSTRUMENT))
   const [a4] = useState(440)
   const [noteIndex, setNoteIndex] = useState(0)
   const [progress, setProgress] = useState(null)
@@ -128,11 +125,21 @@ export default function AudioAnalysisWizard(props) {
         needsSync: true
       }
       if (measurementMode === 'tap') {
+        const stereo = !!stereoTapRef.current
+        const deviceId = inputDeviceIdRef.current || ''
+        const device = inputDevices.find(function(d) { return d && d.deviceId === deviceId })
+        payload.stereoTap = stereo
+        payload.inputDeviceId = deviceId || null
+        payload.inputDeviceLabel = device && device.label
+          ? device.label
+          : (deviceId ? 'Selected microphone' : 'Default microphone')
         payload.tapPeaks = labelLikelyModes(averageTapPeaks(notes))
         const hasR = notes.some(function(n) { return n.channelCount === 2 && n.featuresR })
         if (hasR) {
           payload.tapPeaksR = labelLikelyModes(averageTapPeaks(notes, 15, 'featuresR'))
           payload.channelCount = 2
+        } else {
+          payload.channelCount = stereo ? 2 : 1
         }
       }
       const saved = await saveSet(payload)
@@ -275,7 +282,7 @@ export default function AudioAnalysisWizard(props) {
       <div>
         <Alert variant="success">{status}</Alert>
         <Button variant="primary" onClick={function() { if (props.onCancel) props.onCancel() }}>
-          Back to history
+          Back To List
         </Button>
       </div>
     )
@@ -350,19 +357,6 @@ export default function AudioAnalysisWizard(props) {
       {error ? <Alert variant="danger">{error}</Alert> : null}
 
       <Form.Group className="mb-3">
-        <Form.Label>Measurement mode</Form.Label>
-        <Form.Select value={measurementMode} onChange={function(e) { setMeasurementMode(e.target.value) }}>
-          <option value="bowed">Bowed notes (pitch-gated)</option>
-          <option value="tap">Tap body response (Tier‑1)</option>
-        </Form.Select>
-        <Form.Text muted>
-          {measurementMode === 'tap'
-            ? 'Records ' + TAP_TARGET_COUNT + ' bridge taps to map body resonances (A0 / B1±). Best with damped strings.'
-            : 'Records a note sequence for tonality / soundpost A–B compare.'}
-        </Form.Text>
-      </Form.Group>
-
-      <Form.Group className="mb-3">
         <Form.Label>Label</Form.Label>
         <VoiceFillInput
           value={label}
@@ -373,6 +367,19 @@ export default function AudioAnalysisWizard(props) {
           token={props.token}
           setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         />
+      </Form.Group>
+
+      <Form.Group className="mb-3">
+        <Form.Label>Measurement mode</Form.Label>
+        <Form.Select value={measurementMode} onChange={function(e) { setMeasurementMode(e.target.value) }}>
+          <option value="bowed">Bowed notes (pitch-gated)</option>
+          <option value="tap">Tap body response (Tier‑1)</option>
+        </Form.Select>
+        <Form.Text muted>
+          {measurementMode === 'tap'
+            ? 'Records ' + TAP_TARGET_COUNT + ' bridge taps to map body resonances (A0 / B1±). Best with damped strings.'
+            : 'Records a note sequence for tonality / soundpost A–B compare.'}
+        </Form.Text>
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Group</Form.Label>

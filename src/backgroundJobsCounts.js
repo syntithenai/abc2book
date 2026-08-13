@@ -18,6 +18,7 @@ import { enrichmentSummary } from './importReviewEnrichmentQueue'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 import { isMediaAnalysisLookupJob } from './mediaAnalysisSuggestions'
 import { countActiveAudioGenerationJobs } from './audioGenerationJobStore'
+import { countActiveChordReadinessJobs } from './chordReadinessCleanupQueue'
 import { getStemAnalysisJobSnapshot } from './stemAnalysisJobStore'
 
 export function countBackgroundResearchIncomplete() {
@@ -50,6 +51,10 @@ export function countStemCreateIncomplete(mediaController) {
 
 export function countAudioGenerationIncomplete() {
   return countActiveAudioGenerationJobs()
+}
+
+export function countChordCleanupIncomplete() {
+  return countActiveChordReadinessJobs()
 }
 
 export function countPlaybackScanIncomplete() {
@@ -100,6 +105,7 @@ export const BACKGROUND_JOB_TAB_ORDER = [
   { eventKey: 'media-cache', countKey: 'mediaCache' },
   { eventKey: 'stem-create', countKey: 'stemCreate' },
   { eventKey: 'audio-generation', countKey: 'audioGeneration' },
+  { eventKey: 'chord-cleanup', countKey: 'chordCleanup' },
   { eventKey: 'playback-scans', countKey: 'playbackScans' },
   { eventKey: 'bulk-check', countKey: 'bulkCheck' },
   { eventKey: 'media-analysis', countKey: 'mediaAnalysis' },
@@ -116,6 +122,7 @@ export function getBackgroundJobTabCounts(mediaController) {
     mediaCache: countMediaCacheIncomplete(),
     stemCreate: countStemCreateIncomplete(mediaController),
     audioGeneration: countAudioGenerationIncomplete(),
+    chordCleanup: countChordCleanupIncomplete(),
     playbackScans: countPlaybackScanIncomplete(),
     mediaAnalysis: countMediaAnalysisIncomplete(),
     fileOcr: countFileOcrIncomplete(),
@@ -144,6 +151,7 @@ export function getBackgroundJobTabCountsKey(mediaController) {
     counts.mediaCache,
     counts.stemCreate,
     counts.audioGeneration,
+    counts.chordCleanup,
     counts.playbackScans,
     counts.mediaAnalysis,
     counts.fileOcr,

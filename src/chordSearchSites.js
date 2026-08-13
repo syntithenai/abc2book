@@ -73,6 +73,31 @@ export function buildMuseScoreSearchUrl(title, artist) {
   return 'https://musescore.com/sheetmusic?text=' + encodeURIComponent(parts.join(' '))
 }
 
+function chordPasteCandidateFromItem(item) {
+  if (!item || !item.url) return null
+  return {
+    url: String(item.url),
+    title: String(item.title || '').trim(),
+    source: String(item.source || item.host || '').trim() || hostFromUrl(item.url),
+    host: String(item.host || hostFromUrl(item.url)).trim(),
+    contentType: item.contentType || 'chords',
+    reason: String(item.reason || '').trim(),
+  }
+}
+
+/**
+ * Concrete Ultimate Guitar tab from chord-search manualCandidates only.
+ * Does not invent a UG search fallback URL.
+ */
+export function pickUltimateGuitarPasteCandidate(manualCandidates) {
+  const list = Array.isArray(manualCandidates) ? manualCandidates : []
+  for (let i = 0; i < list.length; i++) {
+    const candidate = chordPasteCandidateFromItem(list[i])
+    if (candidate && isUltimateGuitarUrl(candidate.url)) return candidate
+  }
+  return null
+}
+
 /**
  * Prefer a concrete Ultimate Guitar tab from chord-search manualCandidates,
  * then any other locked chord page, then a UG search URL.
@@ -82,15 +107,8 @@ export function pickChordPasteCandidate(manualCandidates, title, artist) {
   let ug = null
   let other = null
   list.forEach(function(item) {
-    if (!item || !item.url) return
-    const candidate = {
-      url: String(item.url),
-      title: String(item.title || '').trim(),
-      source: String(item.source || item.host || '').trim() || hostFromUrl(item.url),
-      host: String(item.host || hostFromUrl(item.url)).trim(),
-      contentType: item.contentType || 'chords',
-      reason: String(item.reason || '').trim(),
-    }
+    const candidate = chordPasteCandidateFromItem(item)
+    if (!candidate) return
     if (!ug && isUltimateGuitarUrl(candidate.url)) ug = candidate
     else if (!other) other = candidate
   })

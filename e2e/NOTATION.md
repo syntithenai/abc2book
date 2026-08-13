@@ -28,6 +28,7 @@ Staff click and caret behavior must satisfy these contracts (verified by unit te
 | 6 | **Barline-adjacent clicks** — click on or beside a barline resolves to the barline event index or the slot immediately after | Click trailing bar → caret at append index | Caret jumps to measure start |
 | 7 | **Empty staff** — click on empty staff places caret at index 0 | Empty tune click → caret 0, ready to type | Crash or caret undefined |
 | 8 | **Single highlight** — overlay box is the visible selection; abcjs native highlight suppressed | One blue overlay box only | Note fill and overlay disagree |
+| 9 | **Insert placement** — note input: post-insert event index equals pre-insert `caretIndex`; normal mode layout: insert before leftmost selected event | Click between D–E, caret 2, type `g` → G at index 2; select E, barline → `\|` before E | Note appears at index 0, prior edit location, or wrong measure |
 
 ### Known limitations
 
@@ -112,8 +113,8 @@ Semantics pinned by tests (see help for full list):
 | **+ / = / -** | Sharp / natural / flat carry for next letter |
 | **.** | Toggle dotted duration |
 | **0** | Insert rest at caret |
-| **Delete** | Selection → rest; else rest event **at** caret (forward) |
-| **Backspace** | Selection → rest; else rest event **before** caret |
+| **Delete** | Notes → rest; selected rests removed; bar lines removed; else event **at** caret (forward) |
+| **Backspace** | Notes → rest; selected rests removed; else event **before** caret |
 | **Ctrl+Delete** | Remove selected events from timeline |
 | **Arrow ←/→** | Normal: select previous/next event (works with focus on body); note input: move caret. On editor music tab these do **not** change tune (use header skip buttons) |
 | **Shift+←/→** | Extend selection from fixed `anchorId` to newly focused event |
@@ -153,6 +154,7 @@ Semantics pinned by tests (see help for full list):
 | 6 | `clipboard` | P0/P1 | workflow + notation-staff-full |
 | 7 | `transpose` (drag) | P0 | notation-staff-core |
 | 7b | click regression | P0 | notation-click-regression |
+| 7c | insert placement | P0 | notation-insert-placement |
 | 8 | `transpose` (↑) | P0 | notation-staff-core |
 | 8b | cursor ←/→ | P0 | notation-staff-core |
 | 9 | `barlines` | P0 | notation-staff-core |

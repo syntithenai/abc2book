@@ -345,7 +345,9 @@ export default function Abc(props) {
           }
 
           var useStaffWidth = pageStaffWidth
-          if (!verticalFitOptions) {
+          // topAlign alone must not skip the staffwidth search — otherwise
+          // notation+lyrics layouts stay page-wide and fail to fill height.
+          if (!(verticalFitOptions && verticalFitOptions.preferWidthFit)) {
             var staffFit = findStaffWidthForVerticalFit(function(staffWidth) {
               return renderAtStaffWidth(staffWidth, 'measure')
             }, paper.availW, paper.availH, pageStaffWidth)

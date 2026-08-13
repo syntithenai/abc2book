@@ -50,6 +50,7 @@ from midi_resources import (
 )
 from music_collection import (
     build_music_collection_candidate,
+    get_music_collection_entry,
     guess_audio_mime_type,
     infer_title_artist_from_query,
     load_music_collection_stats,
@@ -5753,10 +5754,12 @@ async def browse_music_collection_endpoint(
     phase: str = "",
     genre: str = "",
     artist: str = "",
+    album: str = "",
     collectionId: str = "",
     triageStatus: str = "",
     unplayedOnly: bool = False,
     query: str = "",
+    pathPrefix: str = "",
     limit: int = 50,
     offset: int = 0,
 ):
@@ -5772,13 +5775,38 @@ async def browse_music_collection_endpoint(
             phase=phase,
             genre=genre,
             artist=artist,
+            album=album,
             collection_id=collectionId,
             triage_status=triageStatus,
             unplayed_only=unplayedOnly,
             query=query,
+            path_prefix=pathPrefix,
             limit=limit,
             offset=offset,
         )
+        return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-tree")
+async def music_collection_tree_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    prefix: str = "",
+    query: str = "",
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection_browse import list_music_collection_tree_children
+
+        track_resolver_usage("music-collection-tree")
+        body = list_music_collection_tree_children(prefix=prefix, query=query)
         return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
@@ -5804,6 +5832,56 @@ async def music_collection_artists_endpoint(
 
         track_resolver_usage("music-collection-artists")
         body = aggregate_artists(phase=phase, query=query, limit=limit, offset=offset)
+        return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-albums")
+async def music_collection_albums_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    phase: str = "",
+    query: str = "",
+    limit: int = 50,
+    offset: int = 0,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection_browse import aggregate_albums
+
+        track_resolver_usage("music-collection-albums")
+        body = aggregate_albums(phase=phase, query=query, limit=limit, offset=offset)
+        return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
+@app.get("/music-collection-genres")
+async def music_collection_genres_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+    phase: str = "",
+    query: str = "",
+    limit: int = 50,
+    offset: int = 0,
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        from music_collection_browse import aggregate_genres
+
+        track_resolver_usage("music-collection-genres")
+        body = aggregate_genres(phase=phase, query=query, limit=limit, offset=offset)
         return JSONResponse({"ok": True, **body}, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
@@ -6011,6 +6089,58 @@ async def music_collection_move_plan_endpoint(
         return json_error(500, str(exc), origin)
 
 
+async def serve_music_collection_audio(abs_path: str, *, origin: str | None, playable: bool):
+    filename = os.path.basename(abs_path)
+    if playable:
+        from music_collection_transcode import resolve_playable_audio_path
+
+        serve_path, mime = await resolve_playable_audio_path(
+            abs_path,
+            playable=True,
+            timeout_seconds=FFMPEG_TIMEOUT_SECONDS,
+        )
+        if serve_path != abs_path:
+            base, _ext = os.path.splitext(filename)
+            filename = (base or "audio") + ".mp3"
+    else:
+        serve_path = abs_path
+        mime = guess_audio_mime_type(abs_path)
+    return FileResponse(
+        serve_path,
+        media_type=mime,
+        filename=filename,
+        headers=cors_headers(origin),
+    )
+
+
+@app.get("/music-collection-by-entry/{entry_id}")
+async def get_music_collection_file_by_entry(
+    entry_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+    playable: bool = Query(default=False),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_music_collection_access(authorization)
+        if not music_collection_enabled():
+            return json_error(404, "Music collection is not available", origin)
+        track_resolver_usage("music-collection-by-entry")
+        entry = get_music_collection_entry(entry_id)
+        if not entry:
+            raise FileNotFoundError("Audio file not found")
+        abs_path = resolve_music_collection_file(entry.get("path") or "")
+        return await serve_music_collection_audio(abs_path, origin=origin, playable=playable)
+    except FileNotFoundError:
+        return json_error(404, "Audio file not found", origin)
+    except RuntimeError as exc:
+        return json_error(502, str(exc) or "Audio transcode failed", origin)
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.get("/music-collection/{resource_path:path}")
 async def get_music_collection_file(
     resource_path: str,
@@ -6025,32 +6155,11 @@ async def get_music_collection_file(
             return json_error(404, "Music collection is not available", origin)
         track_resolver_usage("music-collection")
         abs_path = resolve_music_collection_file(resource_path)
-        filename = os.path.basename(abs_path)
-        if playable:
-            from music_collection_transcode import resolve_playable_audio_path
-
-            try:
-                serve_path, mime = await resolve_playable_audio_path(
-                    abs_path,
-                    playable=True,
-                    timeout_seconds=FFMPEG_TIMEOUT_SECONDS,
-                )
-            except RuntimeError as exc:
-                return json_error(502, str(exc) or "Audio transcode failed", origin)
-            if serve_path != abs_path:
-                base, _ext = os.path.splitext(filename)
-                filename = (base or "audio") + ".mp3"
-        else:
-            serve_path = abs_path
-            mime = guess_audio_mime_type(abs_path)
-        return FileResponse(
-            serve_path,
-            media_type=mime,
-            filename=filename,
-            headers=cors_headers(origin),
-        )
+        return await serve_music_collection_audio(abs_path, origin=origin, playable=playable)
     except FileNotFoundError:
         return json_error(404, "Audio file not found", origin)
+    except RuntimeError as exc:
+        return json_error(502, str(exc) or "Audio transcode failed", origin)
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:

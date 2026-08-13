@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import {useParams} from 'react-router-dom'
 import abcjs from "abcjs";
-import {Container, Row, Col, Tabs, Tab, Form, Button, ButtonGroup, Modal} from 'react-bootstrap'
+import {Container, Row, Col, Tabs, Tab, Form, Button, ButtonGroup, Modal, Alert} from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import Abc from './Abc'
 import NotationEditor from './NotationEditor'
@@ -11,14 +11,14 @@ import LinksEditor from './LinksEditor'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
 import LyricsSectionsDropdown from './LyricsSectionsDropdown'
-import PasteChordSheetModal from './PasteChordSheetModal'
-import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
+import LyricsChordsHelpModal from './LyricsChordsHelpModal'
+import LyricChordAlignPanel from './LyricChordAlignPanel'
 import useAbcjsParser from '../useAbcjsParser'
-import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import TablatureSelector from './TablatureSelector'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
+import { normalizeVoiceNotesText } from '../melodyBarlineNormalize'
 import CreatableSelect from 'react-select/creatable';
 import ComposerNameInput from './ComposerNameInput'
 import CollapsibleButtonRow from './CollapsibleButtonRow'
@@ -53,7 +53,9 @@ import {
   syncChordSectionLabelsFromPrimaryVoice,
 } from '../chordBlockMerge'
 import { hasLyricEmbeddedChords, stripChordsFromLyricLines } from '../chordSheetUtils'
+import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
+import { StripChordsWarningBody } from '../stripChordsConfirmContent'
 
 
 export default function AbcEditor(props) {
@@ -74,8 +76,9 @@ export default function AbcEditor(props) {
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
-  const [showLyricsPaste, setShowLyricsPaste] = useState(false)
-  const [showLyricChordSheet, setShowLyricChordSheet] = useState(false)
+  const [showLyricsChordsHelp, setShowLyricsChordsHelp] = useState(false)
+  const [showStripChordsConfirm, setShowStripChordsConfirm] = useState(false)
+  const [lyricsEditorSubTab, setLyricsEditorSubTab] = useState('text')
   const wLyricsTextareaRef = useRef(null)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
@@ -164,8 +167,8 @@ export default function AbcEditor(props) {
 
   function tuneNotesChanged(voice, notes, historyLabel, historyOptions) {
     if (tune && tune.voices && tune.voices.hasOwnProperty(voice)) {
-      var v = props.tunebook.abcTools.justNotes(notes); 
-      tune.voices[voice].notes = v.split("\n")
+      var v = normalizeVoiceNotesText(props.tunebook.abcTools.justNotes(notes));
+      tune.voices[voice].notes = v ? v.split("\n") : []
       tune.id = params.tuneId
       const primaryVoice = resolvePrimaryVoiceKey(tune.voices)
       if (String(voice) === String(primaryVoice)) {
@@ -319,11 +322,14 @@ export default function AbcEditor(props) {
         autoStartChordSearch={props.autoStartChordSearch}
         onChordsSaveTune={function() { saveTune(tune) }}
         onGenreAccept={acceptSuggestedGenre}
-        onChordsLyricsImport={function(lines) {
+        onChordsLyricsImport={function(lines, options) {
           setBlockLyricsText(lines.join('\n'))
           setPlainLyricLines(tune, lines)
           tune.id = params.tuneId
-          saveTune(tune, { historyLabel: 'Search chords and lyrics', immediate: true })
+          saveTune(tune, {
+            historyLabel: (options && options.historyLabel) || 'Update lyrics from chords',
+            immediate: true,
+          })
         }}
       />
     )
@@ -377,16 +383,32 @@ export default function AbcEditor(props) {
       toast.warning('Lyrics tools are unavailable because the local resolver is not running.')
       return
     }
-    setLyricsToolsQuery(firstLine)
+    const strippedLines = stripChordsFromLyricLines([firstLine])
+    const query = String(strippedLines[0] != null ? strippedLines[0] : '').trim() || firstLine
+    setLyricsToolsQuery(query)
     setShowLyricsTools(true)
   }
 
-  function stripChordsFromBlockLyrics() {
+  function tuneHasNotationForStripWarning() {
+    if (!tune || !tune.voices) return false
+    const voiceKey = resolvePrimaryVoiceKey(tune.voices)
+    const voice = tune.voices[voiceKey]
+    const notes = voice && Array.isArray(voice.notes) ? voice.notes : []
+    if (noteLinesHaveRealMelody(notes)) return true
+    return notes.some(function(line) { return String(line || '').trim().length > 0 })
+  }
+
+  function requestStripChordsFromBlockLyrics() {
     const lines = blockLyricsText.split('\n')
     if (!hasLyricEmbeddedChords(lines)) {
       toast.info('No chords to strip')
       return
     }
+    setShowStripChordsConfirm(true)
+  }
+
+  function confirmStripChordsFromBlockLyrics() {
+    const lines = blockLyricsText.split('\n')
     const stripped = stripChordsFromLyricLines(lines)
     const next = stripped.join('\n')
     if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
@@ -394,7 +416,12 @@ export default function AbcEditor(props) {
     setPlainLyricLines(tune, stripped)
     tune.id = params.tuneId
     saveTune(tune, { historyLabel: 'Strip chords from lyrics', immediate: true })
+    setShowStripChordsConfirm(false)
     toast.success('Chords stripped from lyrics')
+  }
+
+  function stripChordsFromBlockLyrics() {
+    requestStripChordsFromBlockLyrics()
   }
 
   function renderNoteAlignedLyricsButton(extraStyle) {
@@ -428,7 +455,7 @@ export default function AbcEditor(props) {
         </div>
       )
     }
-    if (isNotationEditorView(editorViewMode)) {
+    if (isNotationEditorView(editorViewMode) || editorViewMode === 'chords') {
       return renderMusicEditor()
     }
     if (editorViewMode === 'info') {
@@ -949,6 +976,7 @@ export default function AbcEditor(props) {
                           tunebook={props.tunebook}
                           abc={props.abc}
                           token={props.token}
+                          user={props.user}
                           searchIndex={props.searchIndex}
                           loadTuneTexts={props.loadTuneTexts}
                           forceRefresh={props.forceRefresh}
@@ -1059,101 +1087,113 @@ export default function AbcEditor(props) {
       return (
                     <div className="abc-editor-lyrics-panel">
                     <div className="abc-editor-lyrics-toolbar">
-                      <LyricsSectionsDropdown
-                        lyricsText={blockLyricsText}
-                        textareaRef={wLyricsTextareaRef}
-                        tunebook={props.tunebook}
-                        onChange={handleBlockLyricsTextChange}
-                      />
-                      {renderNoteAlignedLyricsButton()}
-                      <Button
-                        variant="outline-primary"
-                        style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
-                        title="Open lyrics tools with selected text"
-                        onClick={openLyricsToolsFromSelection}
-                      >
-                        {props.tunebook.icons.quillpen} Tools
-                      </Button>
-                      <div className="abc-editor-toolbar-end">
-                        <LyricsSearchButton
-                          tuneId={params.tuneId || tune.id}
-                          title={tune.name}
-                          artist={tune.composer || ''}
-                          rhythm={tune.rhythm || ''}
-                          currentGenres={allGenres(tune)}
-                          onGenreAccept={acceptSuggestedGenre}
-                          token={props.token}
+                      {lyricsEditorSubTab === 'text' ? (
+                        <LyricsSectionsDropdown
+                          lyricsText={blockLyricsText}
+                          textareaRef={wLyricsTextareaRef}
                           tunebook={props.tunebook}
-                          existingLyrics={blockLyricsText}
-                          confirmOverwriteChords={true}
-                          onLyrics={function(result) {
-                            const text = result && (result.text
-                              || (Array.isArray(result.lines) ? result.lines.join('\n') : ''))
-                            if (text) setBlockLyricsText(text)
-                          }}
-                          onChords={function(result, options) {
-                            const committed = commitChordSearchResultToTune({
-                              result: result,
-                              tune: tune,
-                              abc: props.abc,
-                              tunebook: props.tunebook,
-                              abcjsParser: abcjsParser,
-                              updateLyrics: !!(options && options.updateLyrics),
-                              historyLabel: (options && options.updateLyrics)
-                                ? 'Search chords and lyrics'
-                                : 'Search chords',
-                            })
-                            if (!committed.ok) {
-                              toast.error(
-                                (committed.error && committed.error.message)
-                                  ? committed.error.message
-                                  : 'Could not apply chord search result'
-                              )
-                              return
-                            }
-                            if (committed.updateLyrics && Array.isArray(committed.lyricLines)) {
-                              setBlockLyricsText(committed.lyricLines.join('\n'))
-                            }
-                            toast.success(
-                              committed.updateLyrics
-                                ? 'Chords and lyrics updated from search'
-                                : 'Chords updated from search'
-                            )
-                          }}
+                          onChange={handleBlockLyricsTextChange}
                         />
+                      ) : null}
+                      <ButtonGroup className="abc-editor-lyrics-subtabs" aria-label="Lyrics editor mode">
                         <Button
-                          variant="outline-primary"
-                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
-                          title="Remove chord lines and inline ChordPro chords"
-                          onClick={stripChordsFromBlockLyrics}
+                          variant={lyricsEditorSubTab === 'text' ? 'primary' : 'outline-primary'}
+                          data-testid="lyrics-editor-tab-text"
+                          onClick={function() { setLyricsEditorSubTab('text') }}
                         >
-                          {props.tunebook.icons.eraser}
-                          Strip chords
+                          Text
                         </Button>
                         <Button
-                          variant="outline-primary"
-                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
-                          title="Edit lyric chord sheet (ChordPro)"
-                          onClick={function() {
-                            setShowLyricChordSheet(true)
-                          }}
+                          variant={lyricsEditorSubTab === 'align' ? 'primary' : 'outline-primary'}
+                          data-testid="lyrics-editor-tab-align"
+                          onClick={function() { setLyricsEditorSubTab('align') }}
                         >
-                          {props.tunebook.icons.words}
-                          Lyric chord sheet
+                          Align
                         </Button>
+                      </ButtonGroup>
+                      {lyricsEditorSubTab === 'text' ? (
+                        <>
+                          {renderNoteAlignedLyricsButton()}
+                          <Button
+                            variant="outline-primary"
+                            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                            title="Open lyrics tools with selected text"
+                            onClick={openLyricsToolsFromSelection}
+                          >
+                            {props.tunebook.icons.quillpen} Tools
+                          </Button>
+                        </>
+                      ) : null}
+                      <div className="abc-editor-toolbar-end">
                         <Button
-                          variant="outline-primary"
+                          variant="outline-secondary"
                           style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
-                          title="Paste lyrics and chords"
-                          onClick={function() {
-                            setShowLyricsPaste(true)
-                          }}
+                          title="Help: lyrics formats and section mapping"
+                          onClick={function() { setShowLyricsChordsHelp(true) }}
                         >
-                          {props.tunebook.icons.paste}
-                          Paste chords and lyrics
+                          Help
                         </Button>
+                        {lyricsEditorSubTab === 'text' ? (
+                          <>
+                            <LyricsSearchButton
+                              tuneId={params.tuneId || tune.id}
+                              title={tune.name}
+                              artist={tune.composer || ''}
+                              rhythm={tune.rhythm || ''}
+                              currentGenres={allGenres(tune)}
+                              onGenreAccept={acceptSuggestedGenre}
+                              token={props.token}
+                              tunebook={props.tunebook}
+                              existingLyrics={blockLyricsText}
+                              confirmOverwriteChords={true}
+                              onLyrics={function(result) {
+                                const text = result && (result.text
+                                  || (Array.isArray(result.lines) ? result.lines.join('\n') : ''))
+                                if (text) setBlockLyricsText(text)
+                              }}
+                              onChords={function(result) {
+                                const committed = commitChordSearchResultToTune({
+                                  result: result,
+                                  tune: tune,
+                                  abc: props.abc,
+                                  tunebook: props.tunebook,
+                                  abcjsParser: abcjsParser,
+                                  updateLyrics: true,
+                                  historyLabel: 'Search chords and lyrics',
+                                })
+                                if (!committed.ok) {
+                                  toast.error(
+                                    (committed.error && committed.error.message)
+                                      ? committed.error.message
+                                      : 'Could not apply chord search result'
+                                  )
+                                  return
+                                }
+                                if (committed.updateLyrics && Array.isArray(committed.lyricLines)) {
+                                  setBlockLyricsText(committed.lyricLines.join('\n'))
+                                }
+                                toast.success('Chords and lyrics updated from search')
+                              }}
+                            />
+                            <Button
+                              variant="warning"
+                              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                              title="Remove chord lines and inline ChordPro chords"
+                              onClick={requestStripChordsFromBlockLyrics}
+                            >
+                              {props.tunebook.icons.eraser}
+                              Strip chords
+                            </Button>
+                          </>
+                        ) : null}
                       </div>
                     </div>
+                    {lyricsEditorSubTab === 'align' ? (
+                      <LyricChordAlignPanel
+                        lyricsText={blockLyricsText}
+                        onChange={handleBlockLyricsTextChange}
+                      />
+                    ) : (
                     <textarea
                       ref={wLyricsTextareaRef}
                       className="abc-editor-lyrics-textarea"
@@ -1161,6 +1201,7 @@ export default function AbcEditor(props) {
                       aria-label="Lyrics"
                       onChange={function(e) { handleBlockLyricsTextChange(e.target.value) }}
                     />
+                    )}
                     <NoteAlignedLyricsModal
                       show={showNoteAlignedLyrics}
                       onHide={function() { setShowNoteAlignedLyrics(false) }}
@@ -1176,58 +1217,34 @@ export default function AbcEditor(props) {
                       show={showLyricsTools}
                       onHide={function() { setShowLyricsTools(false) }}
                       query={lyricsToolsQuery}
+                      token={props.token}
                     />
-                    <PasteChordSheetModal
-                      show={showLyricsPaste}
-                      onHide={function() {
-                        setShowLyricsPaste(false)
-                      }}
-                      tune={tune}
-                      tuneSections={[]}
-                      forceUpdateLyrics={true}
-                      initialUpdateLyrics={true}
-                      onSaveSections={function(result) {
-                        const committed = commitPasteChordSheetToTune({
-                          result: result,
-                          tune: tune,
-                          abc: props.abc,
-                          tunebook: props.tunebook,
-                          abcjsParser: abcjsParser,
-                          forceUpdateLyrics: true,
-                          skipAbcMerge: !!result.skipAbcMerge,
-                          historyLabel: result.historyLabel
-                            || (result.skipAbcMerge
-                              ? 'Update lyric chord sheet'
-                              : 'Paste chords and lyrics'),
-                        })
-                        if (!committed.ok) {
-                          toast.error(
-                            (committed.error && committed.error.message)
-                              ? committed.error.message
-                              : 'Could not apply pasted chords and lyrics'
-                          )
-                          return
-                        }
-                        if (Array.isArray(committed.lyricLines)) {
-                          setBlockLyricsText(committed.lyricLines.join('\n'))
-                        }
-                        setShowLyricsPaste(false)
-                        toast.success(
-                          result.skipAbcMerge
-                            ? 'Lyric chord sheet updated'
-                            : 'Chords and lyrics updated'
-                        )
-                      }}
+                    <LyricsChordsHelpModal
+                      show={showLyricsChordsHelp}
+                      onHide={function() { setShowLyricsChordsHelp(false) }}
                     />
-                    <LyricChordSheetEditorModal
-                      show={showLyricChordSheet}
-                      onHide={function() { setShowLyricChordSheet(false) }}
-                      tune={tune}
-                      tunebook={props.tunebook}
-                      forceRefresh={function() {
-                        setBlockLyricsText(lyricLinesToText(tune))
-                      }}
-                    />
+                    <Modal
+                      show={showStripChordsConfirm}
+                      onHide={function() { setShowStripChordsConfirm(false) }}
+                      centered
+                    >
+                      <Modal.Header closeButton>
+                        <Modal.Title>Strip chords from lyrics?</Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body>
+                        <Alert variant="warning" className="mb-0">
+                          <StripChordsWarningBody hasNotation={tuneHasNotationForStripWarning()} />
+                        </Alert>
+                      </Modal.Body>
+                      <Modal.Footer>
+                        <Button variant="secondary" onClick={function() { setShowStripChordsConfirm(false) }}>
+                          Cancel
+                        </Button>
+                        <Button variant="warning" onClick={confirmStripChordsFromBlockLyrics}>
+                          Strip chords
+                        </Button>
+                      </Modal.Footer>
+                    </Modal>
                     </div>
       )
     }

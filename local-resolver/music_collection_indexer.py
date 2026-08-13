@@ -636,6 +636,35 @@ def _add_entry_tokens(tokens: dict, entry_id: str, entry: dict) -> None:
         bucket.append(entry_id)
 
 
+def _load_existing_index(index_path: str) -> dict[str, Any]:
+    if not os.path.isfile(index_path):
+        return {}
+    try:
+        with open(index_path, "r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def _max_entry_id(existing_entries: dict[str, Any]) -> int:
+    max_id = -1
+    for entry_id in existing_entries.keys():
+        try:
+            max_id = max(max_id, int(entry_id))
+        except (TypeError, ValueError):
+            continue
+    return max_id
+
+
+def _rebuild_tokens(entries: dict[str, Any]) -> dict[str, list]:
+    tokens: dict[str, list] = {}
+    for entry_id, entry in entries.items():
+        if isinstance(entry, dict):
+            _add_entry_tokens(tokens, entry_id, entry)
+    return tokens
+
+
 def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
     root_dir = os.path.abspath(opts.root_dir)
     started_at = _utc_now()
@@ -645,6 +674,22 @@ def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
     tokens: dict[str, list] = {}
     processed_files: dict[str, Any] = {}
     next_id = 0
+    existing_index = _load_existing_index(os.path.join(opts.metadata_dir, MUSIC_COLLECTION_INDEX_NAME))
+    existing_entries = dict(existing_index.get("entries") or {})
+    existing_path_to_id: dict[str, str] = {}
+    existing_fingerprint_to_ids: dict[str, list[str]] = {}
+    for existing_entry_id, existing_entry in existing_entries.items():
+        if not isinstance(existing_entry, dict):
+            continue
+        existing_path = str(existing_entry.get("path") or "").strip()
+        if existing_path and existing_path not in existing_path_to_id:
+            existing_path_to_id[existing_path] = str(existing_entry_id)
+        fingerprint = str(existing_entry.get("fingerprint") or "").strip()
+        if fingerprint:
+            existing_fingerprint_to_ids.setdefault(fingerprint, []).append(str(existing_entry_id))
+    next_id = max(next_id, _max_entry_id(existing_entries) + 1)
+    claimed_entry_ids: set[str] = set()
+    seen_paths: set[str] = set()
 
     if opts.resume:
         checkpoint = load_checkpoint(opts.checkpoint_path)
@@ -663,6 +708,27 @@ def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
                 except (OSError, json.JSONDecodeError):
                     entries = {}
                     tokens = {}
+    claimed_entry_ids.update(str(entry_id) for entry_id in entries.keys())
+    next_id = max(next_id, _max_entry_id(entries) + 1)
+
+    def pick_entry_id(rel_path: str, abs_path: str, signature: dict[str, Any] | None) -> str:
+        nonlocal next_id
+        path_entry_id = existing_path_to_id.get(rel_path)
+        if path_entry_id and path_entry_id not in claimed_entry_ids:
+            claimed_entry_ids.add(path_entry_id)
+            return path_entry_id
+        if signature:
+            fingerprint = quick_content_fingerprint(abs_path, int(signature.get("size") or 0))
+            if fingerprint:
+                for fingerprint_entry_id in existing_fingerprint_to_ids.get(fingerprint) or []:
+                    if fingerprint_entry_id in claimed_entry_ids:
+                        continue
+                    claimed_entry_ids.add(fingerprint_entry_id)
+                    return fingerprint_entry_id
+        entry_id = str(next_id)
+        next_id += 1
+        claimed_entry_ids.add(entry_id)
+        return entry_id
 
     file_list = sorted(iter_audio_files(root_dir))
     total_files = len(file_list)
@@ -692,6 +758,8 @@ def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
                     and not (entries.get(cached["entryId"]) or {}).get("readIssues")
                 ):
                     state.skipped += 1
+                    claimed_entry_ids.add(str(cached.get("entryId")))
+                    seen_paths.add(rel_path)
                     if (index + 1) % PROGRESS_EVERY == 0 or index + 1 == total_files:
                         elapsed = max(time.time() - loop_started, 0.001)
                         rate = (index + 1) / elapsed
@@ -700,8 +768,7 @@ def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
                         ))
                     continue
 
-            entry_id = str(next_id)
-            next_id += 1
+            entry_id = pick_entry_id(rel_path, abs_path, signature)
 
             try:
                 entry, issues, reset_executor = process_file_safe(rel_path, abs_path, entry_id, opts, executor)
@@ -722,7 +789,7 @@ def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
                 error_log.append(err)
 
             entries[entry_id] = entry
-            _add_entry_tokens(tokens, entry_id, entry)
+            seen_paths.add(rel_path)
             if signature:
                 processed_files[rel_path] = {
                     "mtime": signature["mtime"],
@@ -751,6 +818,20 @@ def build_index(opts: IndexBuildOptions) -> dict[str, Any]:
                 ))
     finally:
         executor.shutdown(wait=False, cancel_futures=True)
+
+    entries = {
+        str(entry_id): entry
+        for entry_id, entry in entries.items()
+        if str(entry_id) in claimed_entry_ids
+        and isinstance(entry, dict)
+        and str(entry.get("path") or "") in seen_paths
+    }
+    processed_files = {
+        str(path): meta
+        for path, meta in processed_files.items()
+        if str(path) in seen_paths and str((meta or {}).get("entryId") or "") in entries
+    }
+    tokens = _rebuild_tokens(entries)
 
     stats = build_collection_stats(entries)
     if isinstance(stats, dict):

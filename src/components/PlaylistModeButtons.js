@@ -23,6 +23,7 @@ function PlaylistToggleIcon({ path, className }) {
       width="18"
       height="18"
       aria-hidden="true"
+      style={{ display: 'block', flexShrink: 0 }}
       className={'playlist-toggle-icon' + (className ? ' ' + className : '')}
     >
       <path fill="currentColor" d={path} />
@@ -40,6 +41,7 @@ export function PlaylistRepeatIcon({ mode, className, size }) {
       width={dimension}
       height={dimension}
       aria-hidden="true"
+      style={{ display: 'block', flexShrink: 0 }}
       className={'playlist-repeat-icon' + (active ? ' playlist-repeat-icon--active' : '') + (className ? ' ' + className : '')}
     >
       <g transform="translate(12 12) scale(0.82) translate(-12 -12)">
@@ -102,6 +104,7 @@ export function PlaylistFollowIcon({ className, size, active }) {
       height={dimension}
       alt=""
       aria-hidden="true"
+      style={{ display: 'block', flexShrink: 0 }}
       className={
         'playlist-follow-icon playlist-toggle-icon'
         + (active ? ' playlist-follow-icon--active' : '')
@@ -155,6 +158,7 @@ export default function PlaylistModeButtons({
   compact = false,
 }) {
   const isLesson = isLessonQueue(nowPlayingQueue)
+  const iconSize = size === 'sm' ? 16 : 18
 
   return (
     <ButtonGroup
@@ -176,8 +180,10 @@ export default function PlaylistModeButtons({
             setNowPlayingQueue(setShuffle(nowPlayingQueue, e.currentTarget.checked))
           }}
         >
-          <PlaylistToggleIcon path={SHUFFLE_ICON_PATH} />
-          {compact ? null : 'Shuffle'}
+          <span className="playlist-mode-btn-content">
+            <PlaylistToggleIcon path={SHUFFLE_ICON_PATH} />
+            {compact ? null : <span className="playlist-mode-btn-label">Shuffle</span>}
+          </span>
         </ToggleButton>
       ) : null}
       {showRepeat && !isLesson ? (
@@ -193,8 +199,10 @@ export default function PlaylistModeButtons({
             setNowPlayingQueue(cycleRepeatMode(nowPlayingQueue))
           }}
         >
-          <PlaylistRepeatIcon mode={getRepeatMode(nowPlayingQueue)} />
-          {compact ? null : 'Repeat'}
+          <span className="playlist-mode-btn-content">
+            <PlaylistRepeatIcon mode={getRepeatMode(nowPlayingQueue)} size={iconSize} />
+            {compact ? null : <span className="playlist-mode-btn-label">Repeat</span>}
+          </span>
         </Button>
       ) : null}
       {showFollow && !isLesson ? (
@@ -212,8 +220,10 @@ export default function PlaylistModeButtons({
             setNowPlayingQueue(setFollowTune(nowPlayingQueue, !nowPlayingQueue.followTune))
           }}
         >
-          <PlaylistFollowIcon active={!!nowPlayingQueue.followTune} />
-          {compact ? null : 'Follow'}
+          <span className="playlist-mode-btn-content">
+            <PlaylistFollowIcon active={!!nowPlayingQueue.followTune} size={iconSize} />
+            {compact ? null : <span className="playlist-mode-btn-label">Follow</span>}
+          </span>
         </Button>
       ) : null}
     </ButtonGroup>

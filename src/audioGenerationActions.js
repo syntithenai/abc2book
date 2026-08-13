@@ -31,6 +31,12 @@ import {
 import { isMidiFileName, isMidiOwnedMediaLink } from './midiFileUtils';
 import { renderMidiBytesToWavBlob, renderMidiLinkToWavBlob } from './midiRenderClient';
 import { noteLinesHaveRealMelody } from './timedImportFinalizer';
+import { resolveResolverAccessToken } from './resolverAccessToken';
+import { getActiveResolverAccessToken } from './mediaResolverHealthStore';
+
+function resolveGenerationAccessToken(token) {
+  return resolveResolverAccessToken(token) || getActiveResolverAccessToken() || '';
+}
 
 export function tuneHasRenderableMelody(tune) {
   if (!tune || !tune.voices) return false;
@@ -157,12 +163,17 @@ export async function resolveLinkedCoverSourceBlob(options) {
     if (tuneId == null || linkIndex == null) {
       throw new Error('Missing tune context for recording regeneration.');
     }
+    const accessToken = resolveGenerationAccessToken(opts.token);
+    if (!accessToken && !(link && link.googleId)) {
+      // Local-only recordings can still resolve from IndexedDB without a token.
+      // Drive-backed recordings need sign-in; missing both fails later with a clear error.
+    }
     if (await ownedMediaLinkIsMidi(link)) {
       return resolveOwnedMidiToWavBlob(link, tuneId, linkIndex, opts);
     }
     try {
       const resolved = await resolveRecordingLinkAudio(link, tuneId, linkIndex, {
-        accessToken: opts.token,
+        accessToken: accessToken || opts.token,
         driveApi: opts.driveApi,
         forPlayback: true,
       });
@@ -172,7 +183,9 @@ export async function resolveLinkedCoverSourceBlob(options) {
       return resolved.blob;
     } catch (audioErr) {
       try {
-        return await resolveOwnedMidiToWavBlob(link, tuneId, linkIndex, opts);
+        return await resolveOwnedMidiToWavBlob(link, tuneId, linkIndex, Object.assign({}, opts, {
+          token: accessToken || opts.token,
+        }));
       } catch (midiErr) {
         throw audioErr;
       }
@@ -262,7 +275,7 @@ export async function enqueueLinkedCoverJob(options) {
   const tune = opts.tune;
   const tunebook = opts.tunebook;
   const abcjsParser = opts.abcjsParser;
-  const token = opts.token;
+  const token = resolveGenerationAccessToken(opts.token) || opts.token;
   const onTuneChange = opts.onTuneChange;
   const forceRefresh = opts.forceRefresh;
   const link = opts.link;

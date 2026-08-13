@@ -328,15 +328,16 @@ describe('isEditorNotationPath', function() {
     expect(isEditorNotationPath('/editor/abc123/music')).toBe(true);
     expect(isEditorNotationPath('/editor/abc123/pianoRoll')).toBe(true);
     expect(isEditorNotationPath('/editor/abc123/notationAbc')).toBe(true);
-    expect(isEditorNotationPath('/editor/abc123/chords')).toBe(true);
+    expect(isEditorNotationPath('/editor/abc123/chords')).toBe(false);
     expect(isNotationEditorView('music')).toBe(true);
-    expect(isNotationEditorView('chords')).toBe(true);
+    expect(isNotationEditorView('chords')).toBe(false);
   });
 
-  it('leaves info/lyrics and non-editor routes for tune-skip arrows', function() {
+  it('leaves info/lyrics/chords and non-editor routes for tune-skip arrows', function() {
     expect(isEditorNotationPath('/editor/abc123')).toBe(false);
     expect(isEditorNotationPath('/editor/abc123/info')).toBe(false);
     expect(isEditorNotationPath('/editor/abc123/lyrics')).toBe(false);
+    expect(isEditorNotationPath('/editor/abc123/chords')).toBe(false);
     expect(isEditorNotationPath('/editor/abc123/sourceAbc')).toBe(false);
     expect(isEditorNotationPath('/editor/abc123/abc')).toBe(false);
     expect(isEditorNotationPath('/tunes/abc123')).toBe(false);
@@ -379,12 +380,12 @@ describe('normalizeEditorViewMode and helpers', function() {
 });
 
 describe('SINGLE_VIEW_EDIT_MODES', function() {
-  it('extends editor header tabs with chords after lyrics', function() {
+  it('includes piano roll and ABC in editor view modes', function() {
     expect(EDITOR_VIEW_MODES.map(function(mode) { return mode.id; })).toEqual([
-      'info', 'music', 'lyrics',
+      'info', 'music', 'lyrics', 'chords',
     ]);
     expect(SINGLE_VIEW_EDIT_MODES.map(function(mode) { return mode.id; })).toEqual([
-      'info', 'music', 'lyrics', 'chords',
+      'info', 'music', 'pianoRoll', 'lyrics', 'chords', 'notationAbc',
     ]);
   });
 });

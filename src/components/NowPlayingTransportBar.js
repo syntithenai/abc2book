@@ -35,6 +35,7 @@ export default function NowPlayingTransportBar({
   nowPlayingExpanded,
   onNowPlayingExpandedChange,
   onOpenNowPlaying,
+  token,
 }) {
   const location = useLocation()
   const navigate = useNavigate()
@@ -300,7 +301,7 @@ export default function NowPlayingTransportBar({
       data-testid="now-playing-expand-button"
       onClick={handleFullscreenToggle}
     >
-      {tunebook.icons.fullscreen}
+      {tunebook.icons.fullscreen || tunebook.icons.expand}
     </Button>
   )
 
@@ -369,6 +370,7 @@ export default function NowPlayingTransportBar({
                     tune={playingTune}
                     tunebook={tunebook}
                     linkIndex={activeLinkIndex}
+                    token={token}
                     className="now-playing-transport-artwork"
                   />
                 </button>

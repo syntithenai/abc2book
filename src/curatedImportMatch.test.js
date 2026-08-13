@@ -1,4 +1,4 @@
-import { findCuratedImportTitle } from './curatedImportMatch'
+import { buildCuratedImportPath, findCuratedImportTitle } from './curatedImportMatch'
 
 describe('findCuratedImportTitle', function() {
   const curated = {
@@ -32,5 +32,20 @@ describe('findCuratedImportTitle', function() {
 
   test('returns null when nothing matches', function() {
     expect(findCuratedImportTitle(curated, 'missing.abc', null, null)).toBe(null)
+  })
+
+  test('buildCuratedImportPath includes book and tag segments', function() {
+    expect(buildCuratedImportPath({
+      link: 'tunes.abc',
+      book: 'tunes',
+      tag: 'begged borrowed and stolen',
+    })).toBe('/importlink/%2Fscrape%2Ftunes.abc/book/tunes/tag/begged%20borrowed%20and%20stolen')
+
+    expect(buildCuratedImportPath({
+      link: 'kids songs.abc',
+      book: 'kids songs',
+    })).toBe('/importlink/%2Fscrape%2Fkids%20songs.abc/book/kids%20songs')
+
+    expect(buildCuratedImportPath({})).toBe(null)
   })
 })

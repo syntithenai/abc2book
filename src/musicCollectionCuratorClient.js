@@ -30,6 +30,8 @@ export async function browseMusicCollection(options) {
   if (opts.triageStatus) params.set('triageStatus', opts.triageStatus);
   if (opts.unplayedOnly) params.set('unplayedOnly', 'true');
   if (opts.query) params.set('query', opts.query);
+  if (opts.pathPrefix) params.set('pathPrefix', opts.pathPrefix);
+  if (opts.album) params.set('album', opts.album);
   if (opts.limit) params.set('limit', String(opts.limit));
   if (opts.offset) params.set('offset', String(opts.offset));
   const response = await fetchViaMediaProxy('/browse-music-collection?' + params.toString(), resolveToken(opts), {
@@ -79,6 +81,55 @@ export async function fetchMusicCollectionArtists(options) {
   });
   const body = await response.json();
   if (!response.ok) throw new Error(body && body.error ? body.error : 'Artist list failed');
+  return body;
+}
+
+export async function fetchMusicCollectionTree(options) {
+  const opts = options || {};
+  const params = new URLSearchParams();
+  if (opts.prefix) params.set('prefix', opts.prefix);
+  if (opts.query) params.set('query', opts.query);
+  const response = await fetchViaMediaProxy('/music-collection-tree?' + params.toString(), resolveToken(opts), {
+    method: 'GET',
+    headers: { Accept: 'application/json' },
+    signal: opts.signal,
+  });
+  const body = await response.json();
+  if (!response.ok) throw new Error(body && body.error ? body.error : 'Folder tree fetch failed');
+  return body;
+}
+
+export async function fetchMusicCollectionAlbums(options) {
+  const opts = options || {};
+  const params = new URLSearchParams();
+  if (opts.phase) params.set('phase', opts.phase);
+  if (opts.query) params.set('query', opts.query);
+  if (opts.limit) params.set('limit', String(opts.limit));
+  if (opts.offset) params.set('offset', String(opts.offset));
+  const response = await fetchViaMediaProxy('/music-collection-albums?' + params.toString(), resolveToken(opts), {
+    method: 'GET',
+    headers: { Accept: 'application/json' },
+    signal: opts.signal,
+  });
+  const body = await response.json();
+  if (!response.ok) throw new Error(body && body.error ? body.error : 'Album list failed');
+  return body;
+}
+
+export async function fetchMusicCollectionGenres(options) {
+  const opts = options || {};
+  const params = new URLSearchParams();
+  if (opts.phase) params.set('phase', opts.phase);
+  if (opts.query) params.set('query', opts.query);
+  if (opts.limit) params.set('limit', String(opts.limit));
+  if (opts.offset) params.set('offset', String(opts.offset));
+  const response = await fetchViaMediaProxy('/music-collection-genres?' + params.toString(), resolveToken(opts), {
+    method: 'GET',
+    headers: { Accept: 'application/json' },
+    signal: opts.signal,
+  });
+  const body = await response.json();
+  if (!response.ok) throw new Error(body && body.error ? body.error : 'Genre list failed');
   return body;
 }
 

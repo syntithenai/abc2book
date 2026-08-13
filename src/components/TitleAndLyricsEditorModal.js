@@ -1,5 +1,5 @@
 import {useState, useEffect, useRef} from 'react'
-import {Button, Modal, Form} from 'react-bootstrap'
+import {Button, Modal, Form, Alert} from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import useMusicBrainz from '../useMusicBrainz'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -7,6 +7,9 @@ import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import { hasLyricEmbeddedChords, stripChordsFromLyricLines } from '../chordSheetUtils'
+import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
+import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
+import { StripChordsWarningBody } from '../stripChordsConfirmContent'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
@@ -14,7 +17,6 @@ import VoiceFillInput from './VoiceFillInput'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
 import LyricsSectionsDropdown from './LyricsSectionsDropdown'
-import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
@@ -42,7 +44,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
   const [show, setShow] = useState(false)
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
-  const [showLyricChordSheet, setShowLyricChordSheet] = useState(false)
+  const [showStripChordsConfirm, setShowStripChordsConfirm] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
   const lyricsTextareaRef = useRef(null)
   const responsiveModalProps = useResponsiveModalProps()
@@ -53,11 +55,11 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
   const handleShow = () => setShow(true);
 
   useEffect(function() {
-    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show || showNoteAlignedLyrics || showLyricsTools || showLyricChordSheet)
+    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show || showNoteAlignedLyrics || showLyricsTools || showStripChordsConfirm)
     return function() {
       if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(false)
     }
-  }, [show, showNoteAlignedLyrics, showLyricsTools, showLyricChordSheet, setBlockKeyboardShortcuts])
+  }, [show, showNoteAlignedLyrics, showLyricsTools, showStripChordsConfirm, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
   const abcjsParser = useAbcjsParser()
   let params = useParams();
@@ -105,14 +107,33 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
     setShowLyricsTools(true)
   }
 
-  function stripChordsFromLyrics() {
+  function tuneHasNotationForStripWarning() {
+    if (!tune || !tune.voices) return false
+    const voiceKey = resolvePrimaryVoiceKey(tune.voices)
+    const voice = tune.voices[voiceKey]
+    const notes = voice && Array.isArray(voice.notes) ? voice.notes : []
+    if (noteLinesHaveRealMelody(notes)) return true
+    return notes.some(function(line) { return String(line || '').trim().length > 0 })
+  }
+
+  function requestStripChordsFromLyrics() {
     const lines = lyricLinesToText(tune).split('\n')
     if (!hasLyricEmbeddedChords(lines)) {
       toast.info('No chords to strip')
       return
     }
+    setShowStripChordsConfirm(true)
+  }
+
+  function confirmStripChordsFromLyrics() {
+    const lines = lyricLinesToText(tune).split('\n')
     saveLyrics(stripChordsFromLyricLines(lines))
+    setShowStripChordsConfirm(false)
     toast.success('Chords stripped from lyrics')
+  }
+
+  function stripChordsFromLyrics() {
+    requestStripChordsFromLyrics()
   }
 
   return (
@@ -270,14 +291,6 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                         <Button
                           variant="outline-primary"
                           style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}
-                          title="Edit lyric chord sheet (ChordPro)"
-                          onClick={function() { setShowLyricChordSheet(true) }}
-                        >
-                          {tunebook.icons.words} Lyric chord sheet
-                        </Button>
-                        <Button
-                          variant="outline-primary"
-                          style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}
                           title="Remove chord lines and inline ChordPro chords"
                           onClick={stripChordsFromLyrics}
                         >
@@ -320,13 +333,30 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
         show={showLyricsTools}
         onHide={function() { setShowLyricsTools(false) }}
         query={lyricsToolsQuery}
+        token={token}
       />
-      <LyricChordSheetEditorModal
-        show={showLyricChordSheet}
-        onHide={function() { setShowLyricChordSheet(false) }}
-        tune={tune}
-        tunebook={tunebook}
-      />
+      <Modal
+        show={showStripChordsConfirm}
+        onHide={function() { setShowStripChordsConfirm(false) }}
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Strip chords from lyrics?</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Alert variant="warning" className="mb-0">
+            <StripChordsWarningBody hasNotation={tuneHasNotationForStripWarning()} />
+          </Alert>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={function() { setShowStripChordsConfirm(false) }}>
+            Cancel
+          </Button>
+          <Button variant="warning" onClick={confirmStripChordsFromLyrics}>
+            Strip chords
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 }

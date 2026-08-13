@@ -1,7 +1,6 @@
 /* global window */
 import { useNavigate } from 'react-router-dom'
-import { Button, Badge, ButtonGroup, Alert } from 'react-bootstrap'
-import { ListGroup } from 'react-bootstrap'
+import { Button, Badge, ButtonGroup, Alert, ListGroup } from 'react-bootstrap'
 import { useState, useEffect, useRef, memo, useMemo, useCallback } from 'react'
 import IndexSearchForm from './IndexSearchForm'
 import SelectedItemsModal from './SelectedItemsModal'
@@ -46,24 +45,6 @@ import {
   BULK_SELECTION_LIMIT,
 } from '../tuneListFilter'
 import { isCatalogStorageEnabled } from '../tuneStorageFlags'
-import {
-  clampListWindow,
-  computeListWindowSpacerHeights,
-  createInitialListWindow,
-  getListWindowPreloadMargin,
-  resolveListWindowScrollSync,
-  usesListScrollWindow,
-} from '../listScrollWindow'
-
-function hasStructuralListFilters(props) {
-  return !!(
-    props.currentTuneBook
-    || props.starredFilter
-    || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0)
-    || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0)
-    || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0)
-  )
-}
 
 function isGroupedListView(grouped) {
   return grouped && typeof grouped === 'object' && Object.keys(grouped).length > 0
@@ -98,11 +79,7 @@ function IndexLayout(props) {
     var tagCollation = props.tagCollation
     var setTagCollation = props.setTagCollation
     var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false)
-    var [listWindow, setListWindow] = useState({ start: 0, end: 0 })
     var [listPageMeta, setListPageMeta] = useState(null)
-    var listWindowRef = useRef({ start: 0, end: 0 })
-    var listPageTotalRef = useRef(0)
-    var listWindowSyncFrameRef = useRef(0)
     var [mediaSearchResults, setMediaSearchResults] = useState([])
     var [mediaSearchBusy, setMediaSearchBusy] = useState(false)
     var [deviceAudioNeedsPermission, setDeviceAudioNeedsPermission] = useState(false)
@@ -127,18 +104,17 @@ function IndexLayout(props) {
 
     useEffect(function() {
         const base = props.searchTitleBase || SEARCH_PAGE_TITLE_BASE
-        setDocumentTitle(buildSearchPageTitle(props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, base))
+        setDocumentTitle(buildSearchPageTitle(props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, base, props.albumFilter))
         return function() {
             setDocumentTitle(DEFAULT_APP_TITLE)
         }
-    }, [props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.searchTitleBase])
+    }, [props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.albumFilter, props.searchTitleBase])
 
     // reset selection when grouping, book, tag or genre filters change (but not text filter)
     useEffect(function() {
         setSelected({})
         setSelectedCount(0)
-        setListWindow({ start: 0, end: 0 })
-    },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, props.filter, setSelected, setSelectedCount])
+    },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.albumFilter, props.starredFilter, props.filter, setSelected, setSelectedCount])
 
     useEffect(function() {
       const query = String(props.filter || '').trim()
@@ -217,7 +193,7 @@ function IndexLayout(props) {
     }
     
     function filterSearch(tune) {
-       return props.tunebook.filterSearch(tune, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter)
+       return props.tunebook.filterSearch(tune, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, props.albumFilter)
     }
 
     function applyFilterResult(result) {
@@ -227,8 +203,6 @@ function IndexLayout(props) {
       setTuneStatus(result.tuneStatus)
       setTagCollation(result.tagCollation)
       setListPageMeta(result.listPage || null)
-      const total = Array.isArray(result.filtered) ? result.filtered.length : 0
-      initListWindowForTotal(total)
       setSelected(function(prev) {
         const pruned = pruneSelectionForStatus(prev, result.filtered)
         setSelectedCount(pruned.selectedCount)
@@ -244,109 +218,6 @@ function IndexLayout(props) {
       if (!isCatalogStorageEnabled()) return false
       return getListScrollTotal() > CATALOG_PAGE_SIZE
     }
-
-    function getVisibleFilteredTunes() {
-      if (!Array.isArray(filtered) || filtered.length === 0) return filtered
-      if (!usesPaginatedList()) return filtered
-      const displayMode = props.listDisplayMode || 'compact'
-      if (!usesListScrollWindow(displayMode, true)) return filtered
-      const total = getListScrollTotal()
-      const window = clampListWindow(listWindow, total)
-      return filtered.slice(window.start, window.end)
-    }
-
-    function getListPageTotal() {
-      return getListScrollTotal()
-    }
-
-    function getListWindowRowHeight() {
-      return (props.listDisplayMode || 'compact') === 'compact'
-        ? COMPACT_ROW_HEIGHT
-        : DETAILED_ROW_HEIGHT
-    }
-
-    function initListWindowForTotal(total) {
-      const nextWindow = createInitialListWindow(
-        total,
-        typeof window !== 'undefined' ? window.innerHeight : 800,
-        getListWindowRowHeight()
-      )
-      listWindowRef.current = nextWindow
-      setListWindow(nextWindow)
-    }
-
-    useEffect(function() {
-      listWindowRef.current = listWindow
-    }, [listWindow])
-
-    useEffect(function() {
-      const displayMode = props.listDisplayMode || 'compact'
-      const paginated = usesPaginatedList()
-      if (!paginated || isGroupedListView(grouped) || !usesListScrollWindow(displayMode, paginated)) {
-        return undefined
-      }
-
-      function runListWindowSync() {
-        const listElement = document.getElementById('tune-index')
-        if (!listElement) return false
-
-        const total = getListScrollTotal()
-        if (total <= 0) return false
-
-        const rowHeight = getListWindowRowHeight()
-        const viewportHeight = window.innerHeight
-        const preloadMargin = getListWindowPreloadMargin(viewportHeight)
-        const current = listWindowRef.current
-        const spacers = computeListWindowSpacerHeights(
-          current.start,
-          current.end,
-          total,
-          rowHeight
-        )
-        const listTop = listElement.getBoundingClientRect().top + window.scrollY
-        const contentTop = listTop + spacers.top
-        const contentBottom = contentTop + Math.max(0, current.end - current.start) * rowHeight
-        const nextWindow = resolveListWindowScrollSync({
-          viewportTop: window.scrollY,
-          viewportBottom: window.scrollY + viewportHeight,
-          contentTop: contentTop,
-          contentBottom: contentBottom,
-          windowStart: current.start,
-          windowEnd: current.end,
-          total: total,
-          viewportHeight: viewportHeight,
-          rowHeight: rowHeight,
-          preloadMargin: preloadMargin,
-        })
-        if (!nextWindow) return false
-        listWindowRef.current = nextWindow
-        setListWindow(nextWindow)
-        return true
-      }
-
-      function scheduleListWindowSync() {
-        if (listWindowSyncFrameRef.current) return
-        listWindowSyncFrameRef.current = window.requestAnimationFrame(function() {
-          listWindowSyncFrameRef.current = 0
-          if (runListWindowSync()) {
-            scheduleListWindowSync()
-          }
-        })
-      }
-
-      scheduleListWindowSync()
-      window.addEventListener('scroll', scheduleListWindowSync, { passive: true })
-      window.addEventListener('resize', scheduleListWindowSync)
-      return function() {
-        window.removeEventListener('scroll', scheduleListWindowSync)
-        window.removeEventListener('resize', scheduleListWindowSync)
-        if (listWindowSyncFrameRef.current) {
-          window.cancelAnimationFrame(listWindowSyncFrameRef.current)
-          listWindowSyncFrameRef.current = 0
-        }
-      }
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- scroll sync follows rendered list bounds
-    }, [grouped, props.listDisplayMode, filtered, listPageMeta, listWindow.start, listWindow.end])
 
     function runFilter() {
       const runId = filterRunIdRef.current + 1
@@ -367,6 +238,7 @@ function IndexLayout(props) {
           tagFilter: props.tagFilter,
           genreFilter: props.genreFilter,
           artistFilter: props.artistFilter,
+          albumFilter: props.albumFilter,
           starredFilter: props.starredFilter,
           filter: props.filter,
           textFilter: props.filter,
@@ -392,6 +264,7 @@ function IndexLayout(props) {
           tagFilter: props.tagFilter,
           genreFilter: props.genreFilter,
           artistFilter: props.artistFilter,
+          albumFilter: props.albumFilter,
           starredFilter: props.starredFilter,
           filter: props.filter,
           textFilter: props.filter,
@@ -412,7 +285,6 @@ function IndexLayout(props) {
       } else {
         setListPageMeta(null)
       }
-      initListWindowForTotal(total)
       props.stopWaiting()
     }
 
@@ -480,11 +352,8 @@ function IndexLayout(props) {
     
     useEffect(function() {
         if (!props.tunesHydrated) return
-        if (hasStructuralListFilters(props)
-          && props.indexes
-          && !props.indexes.indexesReady) {
-          return
-        }
+        // Do not wait for indexesReady: empty/loading indexes must not leave the
+        // list blank. resolveCandidateTuneIds falls back to a full tune scan.
         var tuneCount = props.tunes ? Object.keys(props.tunes).length : 0
         var indexBookCount = props.indexes && props.indexes.bookIndex
           ? Object.keys(props.indexes.bookIndex).length
@@ -496,6 +365,7 @@ function IndexLayout(props) {
           props.tagFilter,
           props.genreFilter,
           props.artistFilter,
+          props.albumFilter,
           props.starredFilter,
           tuneCount,
           props.tunesContentRevision || 0,
@@ -503,7 +373,7 @@ function IndexLayout(props) {
           indexBookCount,
         ])
       if (listHash !== newHash) {
-            if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| props.starredFilter || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0) || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0) || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0)) {
+            if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| props.starredFilter || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0) || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0) || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0) || (Array.isArray(props.albumFilter) && props.albumFilter.length > 0)) {
                 runFilter()
                 setTimeout(function() {
                     window.scroll(0,props.scrollOffset)
@@ -517,18 +387,19 @@ function IndexLayout(props) {
             setListHash(newHash)
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- listHash comparison prevents redundant filter runs
-    },[props.groupBy, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, listHash, props.tunes ? Object.keys(props.tunes).length : 0, props.tunesContentRevision, props.tunesHydrated, props.indexes && props.indexes.indexesReady, props.indexes && props.indexes.bookIndex ? Object.keys(props.indexes.bookIndex).length : 0])
+    },[props.groupBy, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.albumFilter, props.starredFilter, listHash, props.tunes ? Object.keys(props.tunes).length : 0, props.tunesContentRevision, props.tunesHydrated, props.indexes && props.indexes.indexesReady, props.indexes && props.indexes.bookIndex ? Object.keys(props.indexes.bookIndex).length : 0])
 
     useEffect(function() {
       const displayMode = props.listDisplayMode || 'compact'
       if (displayMode !== 'detailed' && displayMode !== 'preview') {
         listSelectionCurtailedToastKeyRef.current = null
-        return
+        return undefined
       }
-      const tunesForStatus = usesPaginatedList() ? getVisibleFilteredTunes() : filtered
-      ensureTuneStatusForVisibleList(tunesForStatus)
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- rebuild status metadata when detailed/preview list is shown
-    }, [props.listDisplayMode, filtered, props.tunebook, listWindow.start, listWindow.end, listPageMeta])
+      if (!Array.isArray(filtered) || filtered.length === 0 || filtered.length >= LIST_PROTECTION_LIMIT) {
+        return undefined
+      }
+      ensureTuneStatusForVisibleList(filtered)
+    }, [props.listDisplayMode, filtered, props.tunebook])
 
     function listRowsForTunes(tunes) {
       const list = Array.isArray(tunes) ? tunes : []
@@ -800,64 +671,49 @@ function IndexLayout(props) {
         }
 
         if (isPreview || isDetailed) {
-          const paginatedWindow = usesPaginatedList()
-            && usesListScrollWindow(displayMode, true)
-          const listPageTotal = getListPageTotal()
-          const windowForSpacers = paginatedWindow
-            ? clampListWindow(listWindow, listPageTotal)
-            : { start: 0, end: listPageTotal }
-          const spacerHeights = paginatedWindow
-            ? computeListWindowSpacerHeights(
-              windowForSpacers.start,
-              windowForSpacers.end,
-              listPageTotal,
-              DETAILED_ROW_HEIGHT
-            )
-            : { top: 0, bottom: 0 }
-          return (
-            <ListGroup id="tune-index" style={{clear:'both', width: '100%'}}>
-              {spacerHeights.top > 0 ? (
-                <div aria-hidden="true" style={{ height: spacerHeights.top, clear: 'both' }} />
-              ) : null}
-              {rows.map(function(row, tk) {
-                if (isSearchSectionHeaderRow(row)) {
-                  return (
-                    <SearchListSectionHeader
-                      key={getSearchRowKey(row, tk)}
-                      label={row.label}
-                    />
-                  )
-                }
-                if (isMediaSearchRow(row)) {
-                  return (
-                    <MediaListRow
-                      key={getSearchRowKey(row, tk)}
-                      row={row}
-                      rowKey={getSearchRowKey(row, tk)}
-                      index={tk}
-                      {...rowProps}
-                    />
-                  )
-                }
+          if (!usesPaginatedList()) {
+            const rowNodes = rows.map(function(row, tk) {
+              if (isSearchSectionHeaderRow(row)) {
                 return (
-                  <TuneListRow key={getSearchRowKey(row, tk)} row={row} index={tk} {...rowProps} />
+                  <SearchListSectionHeader
+                    key={getSearchRowKey(row, tk)}
+                    label={row.label}
+                  />
                 )
-              })}
-              {spacerHeights.bottom > 0 ? (
-                <div aria-hidden="true" style={{ height: spacerHeights.bottom, clear: 'both' }} />
-              ) : null}
-            </ListGroup>
-          )
+              }
+              if (isMediaSearchRow(row)) {
+                return (
+                  <MediaListRow
+                    key={getSearchRowKey(row, tk)}
+                    row={row}
+                    rowKey={getSearchRowKey(row, tk)}
+                    index={tk}
+                    {...rowProps}
+                  />
+                )
+              }
+              return (
+                <TuneListRow key={getSearchRowKey(row, tk)} row={row} index={tk} {...rowProps} />
+              )
+            })
+            return (
+              <ListGroup id="tune-index" style={{clear:'both', width: '100%'}}>
+                {rowNodes}
+              </ListGroup>
+            )
+          }
         }
 
+        const rowHeight = (isPreview || isDetailed) ? DETAILED_ROW_HEIGHT : COMPACT_ROW_HEIGHT
         return (
           <VirtualizedTuneList
             rows={rows}
             listId="tune-index"
-            rowHeight={COMPACT_ROW_HEIGHT}
+            rowHeight={rowHeight}
             maxHeight={Math.max(320, (typeof window !== 'undefined' ? window.innerHeight : 800) - 220)}
+            overscanCount={(isPreview || isDetailed) ? 12 : 8}
             isCompact={isCompact}
-            isPreview={false}
+            isPreview={isPreview}
             showRowExtras={showRowExtras}
             showStarToggle={showStarToggle}
             showFilterChips={showFilterChips}
@@ -902,14 +758,8 @@ function IndexLayout(props) {
       props.nowPlayingQueue && props.nowPlayingQueue.previewOnce && props.nowPlayingQueue.previewOnce.tuneId,
     ])
 
-    var visibleFiltered = getVisibleFilteredTunes()
-    var listPageTotal = getListPageTotal()
-    listPageTotalRef.current = listPageTotal
+    var listPageTotal = getListScrollTotal()
     var listDisplayMode = props.listDisplayMode || 'compact'
-    var showPagination = usesPaginatedList() && listPageTotal > CATALOG_PAGE_SIZE
-    var showListWindowStatus = showPagination
-      && usesListScrollWindow(listDisplayMode, true)
-      && clampListWindow(listWindow, listPageTotal).end > clampListWindow(listWindow, listPageTotal).start
     var tuneSearchPanelClass = fixedSingleMenu
         ? 'tune-search-panel tune-search-panel-fixed'
         : 'tune-search-panel'
@@ -917,11 +767,8 @@ function IndexLayout(props) {
     var showListSelectionControls = listDisplayMode !== 'compact'
 
     const visibleListRows = useMemo(function() {
-      const tunesForRows = usesListScrollWindow(listDisplayMode, showPagination)
-        ? visibleFiltered
-        : filtered
-      return listRowsForTunes(tunesForRows)
-    }, [visibleFiltered, filtered, props.filter, mediaSearchResults, showPagination, listDisplayMode])
+      return listRowsForTunes(filtered)
+    }, [filtered, props.filter, mediaSearchResults])
 
     function getListTuneIds() {
         var selectedIds = Object.keys(selected).filter(function(id) {
@@ -939,7 +786,6 @@ function IndexLayout(props) {
             toast.warn('No playable tunes found in the current list.')
             return
         }
-        var tuneId = tuneIds[0]
         var playingSelection = freshSelectedCount > 0
         var queue = createQueue({
             tuneIds: tuneIds,
@@ -948,6 +794,18 @@ function IndexLayout(props) {
             followTune: false,
             repeatMode: 'off',
         })
+        var mediaController = props.mediaController
+        if (mediaController && mediaController.preparePlaybackFromUserGesture) {
+            mediaController.preparePlaybackFromUserGesture()
+        }
+        if (props.tunebook.startNowPlayingQueue && mediaController) {
+            props.tunebook.startNowPlayingQueue(queue, navigate, {
+                startPlayback: true,
+                mediaController: mediaController,
+                navigate: true,
+            })
+            return
+        }
         if (props.tunebook.startNowPlayingQueue) {
             props.tunebook.startNowPlayingQueue(queue, null, {
                 startPlayback: false,
@@ -957,15 +815,11 @@ function IndexLayout(props) {
             props.setNowPlayingQueue(queue)
         }
 
-        var mediaController = props.mediaController
+        var tuneId = tuneIds[0]
         var tune = props.tunes && props.tunes[tuneId]
         if (!mediaController || !tune) {
             navigate('/tunes/' + tuneId)
             return
-        }
-
-        if (mediaController.preparePlaybackFromUserGesture) {
-            mediaController.preparePlaybackFromUserGesture()
         }
 
         var item = { tuneId: tuneId, prefer: 'auto' }
@@ -1008,7 +862,7 @@ function IndexLayout(props) {
                     return ''
                 }
             }).join(",") 
-            } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter} starredFilter={props.starredFilter} setStarredFilter={props.setStarredFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
+            } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter} albumFilter={props.albumFilter} setAlbumFilter={props.setAlbumFilter} starredFilter={props.starredFilter} setStarredFilter={props.setStarredFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
         
         {isAndroidLocalMediaAvailable()
           && deviceAudioNeedsPermission
@@ -1031,12 +885,6 @@ function IndexLayout(props) {
         ) : null}
 
 			{props.tunes && <div className={'tune-list-toolbar-row' + (showListSelectionControls ? '' : ' tune-list-toolbar-row--compact')}>
-
-				{showListWindowStatus ? (
-          <span className="app-text-muted" style={{ marginRight: '0.5em' }}>
-            Showing {clampListWindow(listWindow, listPageTotal).start + 1}–{Math.min(clampListWindow(listWindow, listPageTotal).end, listPageTotal)} of {listPageTotal}
-          </span>
-        ) : null}
 			
 				{(showListSelectionControls && filtered && filtered.length > 0) && (
           <SelectAllToggle
@@ -1122,10 +970,7 @@ function IndexLayout(props) {
             Updating tune list...
           </div>
         )}
-        {!isGroupedListView(grouped) && renderListItems(
-          usesListScrollWindow(listDisplayMode, showPagination) ? visibleFiltered : filtered,
-          visibleListRows
-        )}
+        {!isGroupedListView(grouped) && renderListItems(filtered, visibleListRows)}
         
         {isGroupedListView(grouped) && <div>{ Object.keys(grouped).sort(function(a,b) {
             return compareSearchGroupKeys(props.groupBy, a, b)

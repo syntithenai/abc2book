@@ -1,4 +1,4 @@
-import { expandRepeatedSectionLyrics } from './chordSheetUtils';
+import { expandRepeatedSectionLyrics, stripLeadingBibliographicLyricPreface } from './chordSheetUtils';
 
 /**
  * Whether a lyric line already uses ABC w: note-spacing markers (hyphenated
@@ -123,7 +123,11 @@ export function getLyricLines(tune) {
 }
 
 export function getLyricLinesForDisplay(tune) {
-  return expandRepeatedSectionLyrics(getPlainLyricLines(tune));
+  const lines = expandRepeatedSectionLyrics(getPlainLyricLines(tune));
+  return stripLeadingBibliographicLyricPreface(lines, {
+    title: tune && tune.name,
+    composer: tune && tune.composer,
+  });
 }
 
 /** @deprecated Prefer setPlainLyricLines. */

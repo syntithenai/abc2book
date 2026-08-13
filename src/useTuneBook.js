@@ -6,7 +6,7 @@ import { getAudioFilterSettings } from './pitchTempoUtils'
 import { applyPersonalFieldPolicy, resolvePersonalFieldPolicy } from './shareImportPersonalFields'
 import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
-import { allArtists, allTitles, tuneMatchesArtistFilter, tuneMatchesGenreFilter } from './tuneBibliographicUtils'
+import { allAlbums, allArtists, allTitles, tuneMatchesAlbumFilter, tuneMatchesArtistFilter, tuneMatchesGenreFilter } from './tuneBibliographicUtils'
 import { tuneMatchesPdfSnapshotSearch } from './pdfSnapshotIndex'
 import { matchesMainSearchText } from './searchTextUtils'
 import {icons} from './Icons'
@@ -21,6 +21,7 @@ import { resolveCandidateTuneIds } from './tuneCandidateFilter'
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 import { applyDuplicateBookMerges } from './importDuplicateBooks'
+import { mergeTuneCollectionExtras } from './tuneMergeExtras'
 import { importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch'
 import { matchesShareImportScope } from './shareTunebookUtils'
 import {
@@ -48,7 +49,7 @@ import {
 } from './nowPlayingQueuePlayback'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
-import { announcePlaylistTrack } from './playlistTitleAnnouncement'
+import { queuePlaylistTrackAnnouncement } from './playlistTitleAnnouncement'
 import { announceFootPedalOpeningTune } from './footPedalOpeningToast'
 import { playLessonYoutube, isLessonYoutubePlaying } from './lessonYoutubePlayer'
 import { pruneDeletedTunesFromPlaylists } from './playlistTunePrune'
@@ -75,13 +76,19 @@ import { parseTempoBpm, tempoRangeLabel } from './tempoRange'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
 import {
+  filterStateHasAnyFilters,
+  resolveSearchFilterState,
+} from './searchFilterParams'
+import {
   purgeTuneFromSecondaryStores,
   getTuneSync,
   rememberTuneBody,
   saveTuneToRepository,
 } from './tuneRepository'
+import { clearCachedMediaForDeletedTuneIds } from './deletedTuneMediaCleanup'
+import { tunesToJson } from './tuneDownloadActions'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, ownedMediaUpload, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, ownedMediaUpload, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, albumFilter, setAlbumFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
   const utils = useUtils()
   const abcTools = useAbcTools()
   // from old data
@@ -89,6 +96,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   var saveOnlineTimeout = null
   const persistedTunesRef = useRef({})
   const saveTuneInProgressRef = useRef(false)
+  const liveTunesRef = useRef(tunes)
+  liveTunesRef.current = tunes
+  const tunesHydratedRef = useRef(!!tunesHydrated)
+  tunesHydratedRef.current = !!tunesHydrated
 
   function syncTuneToCatalogStores(tune) {
     if (!tune || tune.id == null) return
@@ -193,6 +204,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     var opts = options || {}
     var filterGenres = opts.genreFilter
     var filterArtists = opts.artistFilter
+    var filterAlbums = opts.albumFilter
     var fillTunes = []
     var useBook = book
     var selectedArray = selected && selected.split ? selected.split(",").filter(function(v) { return !!v }) : []
@@ -211,13 +223,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         if (filterArtists && filterArtists.length > 0) {
           return tuneMatchesArtistFilter(tune, filterArtists)
         }
-        if (book || (filterTags && filterTags.length > 0) || (filterGenres && filterGenres.length > 0) || (filterArtists && filterArtists.length > 0)) return false
+        if (filterAlbums && filterAlbums.length > 0) {
+          return tuneMatchesAlbumFilter(tune, filterAlbums)
+        }
+        if (book || (filterTags && filterTags.length > 0) || (filterGenres && filterGenres.length > 0) || (filterArtists && filterArtists.length > 0) || (filterAlbums && filterAlbums.length > 0)) return false
         return true
       })
       shuffleArray(fillTunes)
       useBook = 'Selection'
     } else {
-      fillTunes = mediaFromSearch('', book, filterTags, mergedTunes, filterGenres, filterArtists)
+      fillTunes = mediaFromSearch('', book, filterTags, mergedTunes, filterGenres, filterArtists, false, filterAlbums)
       shuffleArray(fillTunes)
     }
     if (opts.mediaOnly) {
@@ -257,25 +272,59 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       if (opts.mediaController.preparePlaybackFromUserGesture) {
         opts.mediaController.preparePlaybackFromUserGesture()
       }
-      const target = resolvePlaybackForItem(tune, item, playbackApi())
-      if (target && target.type !== 'external') {
-        const normalizedTarget = target.type === 'midi'
-          ? { type: 'midi' }
-          : { type: 'media', linkNum: target.linkNum != null ? target.linkNum : 0 }
-        if (opts.navigate !== false && navigateFn) {
+      var tunebookApi = playbackApi()
+      advanceQueueToNextPlayable(queue, tunes, tunebookApi, {
+        direction: 1,
+        advanceFirst: false,
+        isYoutubeLink: utils.isYoutubeLink,
+        playbackMode: 'auto',
+      }).then(function(result) {
+        if (result.atEnd || !result.item) {
+          stopPlaylistPlayback(opts.mediaController)
+          return
+        }
+        if (result.queue && result.queue !== queue) {
+          setNowPlayingQueue(result.queue)
+        }
+        if (isExternalQueueItem(result.item)) {
+          if (opts.mediaController.abortPlayingIntent) {
+            opts.mediaController.abortPlayingIntent()
+          }
+          if (isLessonExternalMedia(result.item.externalMedia)) {
+            playLessonYoutube({ fromUserGesture: true })
+          } else {
+            playExternalMediaItem(result.item.externalMedia, opts.mediaController, {
+              play: true,
+              fromUserGesture: true,
+            })
+          }
+          return
+        }
+        var nextTune = result.tune
+        var nextItem = result.item
+        var nextTuneId = nextItem && nextItem.tuneId ? nextItem.tuneId : null
+        if (!nextTune || !nextTuneId) {
+          stopPlaylistPlayback(opts.mediaController)
+          return
+        }
+        setCurrentTune(nextTuneId)
+        const target = resolvePlaybackForItem(nextTune, nextItem, tunebookApi)
+        if (opts.navigate !== false && navigateFn && target && target.type !== 'external') {
+          const normalizedTarget = target.type === 'midi'
+            ? { type: 'midi' }
+            : { type: 'media', linkNum: target.linkNum != null ? target.linkNum : 0 }
           requestNavigatePlayback(
             opts.mediaController,
-            playbackApi(),
+            tunebookApi,
             navigateFn,
-            tune,
+            nextTune,
             normalizedTarget
           )
         } else {
-          playQueueItem(opts.mediaController, playbackApi(), tune, item, { fromUserGesture: true })
+          playQueueItem(opts.mediaController, tunebookApi, nextTune, nextItem, { fromUserGesture: true })
         }
-      } else if (opts.navigate !== false && navigateFn) {
-        navigateToQueueTune(navigateFn, tuneId, item, { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }, tunes)
-      }
+      })
+      return tuneId
     } else if (opts.navigate !== false && navigateFn) {
       if (tune) {
         navigateToQueueTune(navigateFn, tuneId, item, { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }, tunes)
@@ -370,7 +419,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
 
       if (mediaController && startPlayback && tune) {
         playQueueItem(mediaController, tunebookApi, tune, item, { fromUserGesture: true })
-        announcePlaylistTrack(tune)
+        queuePlaylistTrackAnnouncement(tune)
       }
 
       var shouldFollow = forceNavigate || nextQueue.followTune
@@ -394,23 +443,66 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     return true
   }
 
-  function buildSearchListOrderedIds() {
-    // Prefer the list IndexLayout last rendered (includes tuneStatus groups, etc.).
-    var fromListState = buildOrderedSearchListIds(filtered, grouped, groupBy)
-    if (fromListState && fromListState.length > 0) return fromListState
+  function liveSearchFilterState() {
+    return {
+      currentTuneBook: currentTuneBook,
+      filter: filter,
+      tagFilter: tagFilter,
+      genreFilter: genreFilter,
+      artistFilter: artistFilter,
+      albumFilter: albumFilter,
+      groupBy: groupBy,
+    }
+  }
 
-    var useTunes = fromSearch(filter, currentTuneBook, tagFilter, genreFilter, artistFilter, starredFilter)
+  function restoreSearchFiltersFromSnapshot(snapshot) {
+    if (!snapshot || !filterStateHasAnyFilters(snapshot)) return
+    if (filterStateHasAnyFilters(liveSearchFilterState())) return
+    if (setCurrentTuneBook) setCurrentTuneBook(snapshot.currentTuneBook || '')
+    if (setFilter) setFilter(snapshot.filter || '')
+    if (setTagFilter) setTagFilter(snapshot.tagFilter || [])
+    if (setGenreFilter) setGenreFilter(snapshot.genreFilter || [])
+    if (setArtistFilter) setArtistFilter(snapshot.artistFilter || [])
+    if (setAlbumFilter) setAlbumFilter(snapshot.albumFilter || [])
+    if (setGroupBy) setGroupBy(snapshot.groupBy || '')
+  }
+
+  function buildSearchListOrderedIds() {
+    var live = liveSearchFilterState()
+    var resolved = resolveSearchFilterState(live)
+    var usingSnapshot = filterStateHasAnyFilters(resolved) && !filterStateHasAnyFilters(live)
+
+    // Prefer the list IndexLayout last rendered (includes tuneStatus groups, etc.).
+    // Skip stale list cache when live filters were cleared but a snapshot remains —
+    // that cache is the empty/default list, not the last search.
+    if (!usingSnapshot) {
+      var fromListState = buildOrderedSearchListIds(filtered, grouped, groupBy)
+      if (fromListState && fromListState.length > 0) return fromListState
+    }
+
+    // Off-list (tune/editor), React filters may have been cleared while the last
+    // list search snapshot still exists — same source as Header Tunes restore.
+    var useTunes = fromSearch(
+      resolved.filter,
+      resolved.currentTuneBook,
+      resolved.tagFilter,
+      resolved.genreFilter,
+      resolved.artistFilter,
+      starredFilter,
+      resolved.albumFilter
+    )
+    var resolvedGroupBy = resolved.groupBy
     useTunes.sort(function(a, b) {
       return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
     })
-    if (!groupBy || groupBy === 'tuneStatus') {
+    if (!resolvedGroupBy || resolvedGroupBy === 'tuneStatus') {
       // tuneStatus groups are computed in IndexLayout; without list state, fall back to alpha order.
       return useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
     }
-    var rebuiltGroups = groupTunes(useTunes, groupBy)
+    var rebuiltGroups = groupTunes(useTunes, resolvedGroupBy)
     var orderedIds = []
     Object.keys(rebuiltGroups).sort(function(a, b) {
-      return compareSearchGroupKeys(groupBy, a, b)
+      return compareSearchGroupKeys(resolvedGroupBy, a, b)
     }).forEach(function(groupKey) {
       var indexes = rebuiltGroups[groupKey]
       if (!Array.isArray(indexes) || indexes.length === 0) return
@@ -508,6 +600,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         if (navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, stepOpts)) return
       }
     }
+
+    // Re-apply last list search into React state when live filters were cleared
+    // so later Tunes/back-to-list navigation stays consistent with next/prev.
+    restoreSearchFiltersFromSnapshot(resolveSearchFilterState(liveSearchFilterState()))
 
     var orderedIds = buildSearchListOrderedIds()
     if (!orderedIds || orderedIds.length === 0) {
@@ -735,7 +831,12 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   
   function saveTune(tune, skipTimestampUpdate = false, options = {}) {
       
-    if (!tune || !tunes) return tune
+    if (!tune) return tune
+    // Never mutate/persist against the empty pre-hydrate book (or a stale
+    // closure that still points at it after hydrate completed).
+    if (!tunesHydratedRef.current) return tune
+    var liveTunes = liveTunesRef.current
+    if (!liveTunes) return tune
     if (saveTuneInProgressRef.current) return tune
     saveTuneInProgressRef.current = true
     try {
@@ -750,7 +851,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       tune.links = Array.isArray(tune.links) ? tune.links.filter(function(link) {
           return (link && (link.title || link.link || link.startAt || link.endAt))
       }) : [] 
-      tunes[tune.id] = tune
+      liveTunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
       savePersistedTuneSnapshot(tune)
@@ -769,7 +870,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         })
       }
       if (!options.deferCommit) {
-        setTunes(Object.assign({}, tunes))
+        setTunes(Object.assign({}, liveTunes))
         saveTunesOnline()
       }
       if (tune.id && Array.isArray(tune.links) && tune.links.length > 0) {
@@ -804,8 +905,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   }
 
   function commitTunesBatch() {
+    if (!tunesHydratedRef.current) return
+    var liveTunes = liveTunesRef.current || {}
     pauseSheetUpdates.current = true
-    setTunes(Object.assign({}, tunes))
+    setTunes(Object.assign({}, liveTunes))
     saveTunesOnline()
   }
   
@@ -830,9 +933,19 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     return commitTombstones([{id: tuneId, name: name}])
   }
 
+  function purgeDeletedTunesStorage(tuneIds) {
+    const ids = (tuneIds || []).filter(function(id) { return id != null && id !== '' })
+    if (!ids.length) return
+    ids.forEach(function(tuneId) {
+      purgeTuneFromSecondaryStores(tuneId).catch(function() {})
+    })
+    // Always clear media caches on delete (ignore mediaCacheLocked locks).
+    clearCachedMediaForDeletedTuneIds(ids).catch(function() {})
+  }
+
   function purgeDeletedTuneStorage(tuneId) {
     if (!tuneId) return
-    purgeTuneFromSecondaryStores(tuneId).catch(function() {})
+    purgeDeletedTunesStorage([tuneId])
   }
 
   function removeDeletedTunesFromPlaylists(tuneIds) {
@@ -879,6 +992,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       pauseSheetUpdates.current = true
       var tombstones = []
       var historyChanges = []
+      var purgedIds = []
       tuneIds.forEach(function(tuneId) {
         var existing = tunes[tuneId]
         if (existing) {
@@ -899,10 +1013,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         } else if (tuneId && indexes.unindexTune) {
           indexes.unindexTune({ id: tuneId })
         }
-        purgeDeletedTuneStorage(tuneId)
+        if (tuneId) purgedIds.push(tuneId)
         delete tunes[tuneId]
         deletePersistedTuneSnapshot(tuneId)
       })
+      purgeDeletedTunesStorage(purgedIds)
       commitTombstones(tombstones)
       historyChanges.forEach(function(change) {
         recordHistoryChange(change)
@@ -1303,9 +1418,7 @@ The main difference between the two functions is the additional condition in app
                 .forEach(function(id) {
                   if (tunes[id]) syncTuneToCatalogStores(tunes[id])
                 })
-              Object.keys(deletes || {}).forEach(function(id) {
-                purgeDeletedTuneStorage(id)
-              })
+              purgeDeletedTunesStorage(Object.keys(deletes || {}))
               setTunes(tunes)
               buildTunesHash()
               reindexImportBuckets({ updates: updates, inserts: inserts, localUpdates: localUpdates, duplicates: duplicates, deletes: deletes }, deleteSnapshots)
@@ -1346,7 +1459,15 @@ The main difference between the two functions is the additional condition in app
               if (updates[u] && updates[u].id) {
                 // preserve boost
                 //if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
-                tunes[updates[u].id] = updates[u]
+                // Preserve collection extras (especially `links`) when a notation/score
+                // import updates an existing tune that already has playback media links
+                // attached from your library.
+                const id = updates[u].id
+                const existing = tunes && tunes[id] ? tunes[id] : null
+                let merged = Object.assign({}, existing || {}, updates[u])
+                merged.id = id
+                if (existing) mergeTuneCollectionExtras(merged, existing, updates[u])
+                tunes[id] = merged
                 if (forceBook) {
                     var books = Array.isArray(tunes[updates[u].id].books) ? tunes[updates[u].id].books : []
                     books.push(forceBook)
@@ -1547,9 +1668,7 @@ The main difference between the two functions is the additional condition in app
                 .forEach(function(id) {
                   if (tunes[id]) syncTuneToCatalogStores(tunes[id])
                 })
-              Object.keys(deletes || {}).forEach(function(id) {
-                purgeDeletedTuneStorage(id)
-              })
+              purgeDeletedTunesStorage(Object.keys(deletes || {}))
               setTunes(tunes)
               buildTunesHash()
               reindexImportBuckets({ updates: updates, inserts: inserts, localUpdates: localUpdates, skippedUpdates: skippedUpdates, duplicates: duplicates, deletes: deletes }, beforeSnapshots)
@@ -1933,6 +2052,33 @@ The main difference between the two functions is the additional condition in app
       })
       return filtered
   }
+
+  function getTuneAlbumOptions() {
+      var final = {}
+      Object.keys(indexes.albumIndex || {}).forEach(function(tuneAlbumKey) {
+          if (tuneAlbumKey && String(tuneAlbumKey).trim()) {
+              final[tuneAlbumKey] = tuneAlbumKey
+          }
+      })
+      Object.values(tunes || {}).forEach(function(tune) {
+          allAlbums(tune).forEach(function(album) {
+              final[album] = album
+          })
+      })
+      return final
+  }
+
+  function getSearchTuneAlbumOptions(filter) {
+      var opts = getTuneAlbumOptions()
+      var filtered = {}
+      Object.keys(opts).forEach(function(key) {
+          var val = opts[key]
+          if (val && val.indexOf(filter) !== -1) {
+              filtered[key] = val
+          }
+      })
+      return filtered
+  }
     
   function resetTuneBook() {
     pauseSheetUpdates.current = true
@@ -1941,6 +2087,7 @@ The main difference between the two functions is the additional condition in app
     indexes.resetTagIndex()
     if (indexes.resetGenreIndex) indexes.resetGenreIndex()
     if (indexes.resetArtistIndex) indexes.resetArtistIndex()
+    if (indexes.resetAlbumIndex) indexes.resetAlbumIndex()
     buildTunesHash()
     saveTunesOnline()
   }
@@ -1965,6 +2112,7 @@ The main difference between the two functions is the additional condition in app
       }
     })
     commitTombstones(tombstones)
+    purgeDeletedTunesStorage(deletedTuneIds)
     removeDeletedTunesFromPlaylists(deletedTuneIds)
     indexes.removeBookFromIndex(book)
     setTunes(final)
@@ -1986,6 +2134,7 @@ The main difference between the two functions is the additional condition in app
         setDeletedTunes({})
       }
     }
+    purgeDeletedTunesStorage(allTuneIds)
     removeDeletedTunesFromPlaylists(allTuneIds)
     if (setNowPlayingQueue) setNowPlayingQueue(null)
     setTunes({})
@@ -1997,9 +2146,21 @@ The main difference between the two functions is the additional condition in app
     utils.copyText(toAbc(book))
   }
 
+  function tunesForBook(book) {
+    return Object.values(tunes).filter(function(tune) {
+      if (!book) return true
+      return Array.isArray(tune.books) && tune.books.indexOf(book) !== -1
+    })
+  }
+
   function downloadTuneBookAbc(book) {
     var name = book ? book+'.abc' : 'tunebook.abc'
     utils.download(name,toAbc(book))
+  }
+
+  function downloadTuneBookJson(book) {
+    var name = book ? book + '.json' : 'tunebook.json'
+    utils.download(name, tunesToJson(tunesForBook(book)))
   }
   
   function clearBoost() {
@@ -2026,20 +2187,21 @@ The main difference between the two functions is the additional condition in app
     return filterTunes(tunes, function(tune) { return true }, candidateIds)
   }
   
-  function fromSearch(filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly) {
+  function fromSearch(filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly, albumFilter) {
     const candidateIds = resolveCandidateTuneIds(
       {
         currentTuneBook: bookFilter,
         tagFilter: tagFilter,
         genreFilter: genreFilter,
         artistFilter: artistFilter,
+        albumFilter: albumFilter,
         starredFilter: starredOnly,
       },
       indexes && indexes.getIndexBundle ? indexes.getIndexBundle() : null,
       tunes ? Object.keys(tunes) : []
     )
     return filterTunes(tunes, function(tune) {
-      return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
+      return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly, albumFilter)
     }, candidateIds)
   }
   
@@ -2151,12 +2313,13 @@ The main difference between the two functions is the additional condition in app
     return res
   }
   
-  function filterSearch(tune, filter, bookFilter, tagFilter = [], genreFilter = [], artistFilter = [], starredOnly = false) {
+  function filterSearch(tune, filter, bookFilter, tagFilter = [], genreFilter = [], artistFilter = [], starredOnly = false, albumFilter = []) {
         var filterOk = false
         var bookFilterOk = false
         var tagFilterOk = false
         var genreFilterOk = false
         var artistFilterOk = false
+        var albumFilterOk = false
         var tagFilterClean = Array.isArray(tagFilter) ? tagFilter.filter(function(t) {
             return (t) ? true : false
         }) : []
@@ -2166,8 +2329,11 @@ The main difference between the two functions is the additional condition in app
         var artistFilterClean = Array.isArray(artistFilter) ? artistFilter.filter(function(a) {
             return (a) ? true : false
         }) : []
+        var albumFilterClean = Array.isArray(albumFilter) ? albumFilter.filter(function(a) {
+            return (a) ? true : false
+        }) : []
         // no filters means show tunes with NO book selected
-        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0) && (!genreFilter || genreFilter.length === 0) && (!artistFilter || artistFilter.length === 0) && !starredOnly) {
+        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0) && (!genreFilter || genreFilter.length === 0) && (!artistFilter || artistFilter.length === 0) && (!albumFilter || albumFilter.length === 0) && !starredOnly) {
             if (tune.books && tune.books.length > 0) {
                 return false
             } else {
@@ -2224,15 +2390,20 @@ The main difference between the two functions is the additional condition in app
             } else {
                 artistFilterOk = tuneMatchesArtistFilter(tune, artistFilterClean)
             }
+            if (!Array.isArray(albumFilterClean) || albumFilterClean.length === 0) {
+                albumFilterOk = true
+            } else {
+                albumFilterOk = tuneMatchesAlbumFilter(tune, albumFilterClean)
+            }
             var starredFilterOk = !starredOnly || !!(tune && tune.starred)
-            return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk && starredFilterOk)
+            return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk && albumFilterOk && starredFilterOk)
         }
     }
   
-  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null, genreFilter = [], artistFilter = [], starredOnly = false) {
+  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null, genreFilter = [], artistFilter = [], starredOnly = false, albumFilter = []) {
     if (!useTunes) useTunes = tunes
     var res = Object.values(useTunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
+        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly, albumFilter)
     })
     res = shuffle(res)
     return res
@@ -2261,17 +2432,7 @@ The main difference between the two functions is the additional condition in app
   }
   
   function toAbc(book) {
-    var res = Object.values(tunes).filter(function(tune) {
-        if (book) {
-          if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
-            return true
-          } else {
-            return false
-          }
-        } else {
-          return true
-        }
-    }).map(function(tune, k) {
+    var res = tunesForBook(book).map(function(tune, k) {
       //var newTune = tune
       if (tune && tune.meta) tune.meta.X = k
       return abcTools.json2abc(tune)
@@ -2281,8 +2442,8 @@ The main difference between the two functions is the additional condition in app
   }
   
   
-  function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null, navigateFn, filterGenres = null, filterArtists = null) {
-        var built = buildQueueTunesFromContext(book, selectedIds, filterTags, mergedTunes, { mediaOnly: true, limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists })
+  function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null, navigateFn, filterGenres = null, filterArtists = null, filterAlbums = null) {
+        var built = buildQueueTunesFromContext(book, selectedIds, filterTags, mergedTunes, { mediaOnly: true, limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists, albumFilter: filterAlbums })
         if (!built.tunes.length) return null
         var queue = createQueue({
           tuneIds: tuneIdsFromTunes(built.tunes, PLAYLIST_MAX_ITEMS),
@@ -2326,8 +2487,8 @@ The main difference between the two functions is the additional condition in app
         }
     }
 
-    function fillAbcPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists) {
-        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists })
+    function fillAbcPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists, filterAlbums) {
+        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists, albumFilter: filterAlbums })
         var midiTunes = built.tunes.filter(function(tune) { return hasNotesOrChords(tune) })
         if (!midiTunes.length) return null
         var queue = createQueue({
@@ -2341,8 +2502,8 @@ The main difference between the two functions is the additional condition in app
         return startNowPlayingQueue(queue, navigateFn)
     }
     
-    function fillAnyPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists) {
-        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists })
+    function fillAnyPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists, filterAlbums) {
+        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists, albumFilter: filterAlbums })
         if (!built.tunes.length) return null
         var queue = createQueue({
           tuneIds: tuneIdsFromTunes(built.tunes, PLAYLIST_MAX_ITEMS),
@@ -2455,6 +2616,6 @@ The main difference between the two functions is the additional condition in app
         }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, beginTunesBatchCommit, commitTunesBatch, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, downloadTuneBookJson, resetTuneBook, saveTune, beginTunesBatchCommit, commitTunesBatch, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions, getTuneAlbumOptions, getSearchTuneAlbumOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
 }
 export default useTuneBook

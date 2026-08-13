@@ -36,7 +36,15 @@ export function getFirstArtistFilter(artistFilter) {
   return artist.length > 0 ? artist : null
 }
 
-export function buildSearchPageTitle(currentTuneBook, tagFilter, genreFilter, artistFilter, baseTitle) {
+export function getFirstAlbumFilter(albumFilter) {
+  if (!Array.isArray(albumFilter) || albumFilter.length === 0) {
+    return null
+  }
+  const album = String(albumFilter[0]).trim()
+  return album.length > 0 ? album : null
+}
+
+export function buildSearchPageTitle(currentTuneBook, tagFilter, genreFilter, artistFilter, baseTitle, albumFilter) {
   const base = (baseTitle && String(baseTitle).trim()) ? String(baseTitle).trim() : SEARCH_PAGE_TITLE_BASE
   const book = getActiveBookFilter(currentTuneBook)
   if (book) {
@@ -53,6 +61,10 @@ export function buildSearchPageTitle(currentTuneBook, tagFilter, genreFilter, ar
   const artist = getFirstArtistFilter(artistFilter)
   if (artist) {
     return `${base} – ${artist}`
+  }
+  const album = getFirstAlbumFilter(albumFilter)
+  if (album) {
+    return `${base} – ${album}`
   }
   return base
 }

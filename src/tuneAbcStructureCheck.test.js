@@ -124,6 +124,28 @@ describe('tuneAbcStructureCheck', function() {
     expect(codes).not.toContain('anacrusis_double_barline');
   });
 
+  test('detects mid_block_double_barline on every-bar || scaffolds', function() {
+    const tune = tuneFromAbc(
+      abcTools,
+      abcTools.emptyABC('Concrete') + '"D"zzzzzzzz||"F"zzzzzzzz||"C"zzzzzzzz||"G"zzzzzzzz||'
+    );
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(result).not.toBeNull();
+    expect(result.issues.some(function(i) { return i.code === 'mid_block_double_barline'; })).toBe(true);
+  });
+
+  test('does not flag section-ending || as mid_block_double_barline', function() {
+    const tune = tuneFromAbc(
+      abcTools,
+      abcTools.emptyABC('Sections')
+        + '"Am"zzzz|"E7"zzzz|"C"zzzz|"D"zzzz||\n'
+        + '"Fmaj7"zzzz|"C"zzzz|"E"zzzz|"E7"zzzz||'
+    );
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('mid_block_double_barline');
+  });
+
   test('detects underfull bar', function() {
     const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Underfull') + 'C D E | G A B c |');
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });

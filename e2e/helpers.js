@@ -319,11 +319,18 @@ async function staffNoteCenters(page, voiceClass) {
     if (!wrap) return []
     let notes
     if (vc != null) {
-      notes = Array.from(wrap.querySelectorAll('.abcjs-v' + vc + ' .abcjs-note, .abcjs-v' + vc + ' .abcjs-rest'))
+      const voiceClass = 'abcjs-v' + vc
+      notes = Array.from(wrap.querySelectorAll('.abcjs-note, .abcjs-rest')).filter(function(el) {
+        return className(el).split(/\s+/).indexOf(voiceClass) >= 0
+      })
     }
     if (!notes || !notes.length) {
       notes = Array.from(wrap.querySelectorAll('.abcjs-note, .abcjs-rest'))
     }
+    const interactive = notes.filter(function(el) {
+      return window.getComputedStyle(el).pointerEvents !== 'none'
+    })
+    if (interactive.length) notes = interactive
     notes = sortReadingOrder(notes)
     return notes.map(function(el) {
       const r = el.getBoundingClientRect()
@@ -385,15 +392,34 @@ async function staffStepPixels(page) {
 
 async function dragStaffNoteByIndex(page, noteIndex, staffSteps) {
   const stepPx = await staffStepPixels(page)
-  // Extra half-step bias so rounding never under-counts intentional multi-step drags.
   const deltaY = -((staffSteps + 0.45) * stepPx)
   const centers = await staffNoteCenters(page, 0)
   const pt = centers[noteIndex]
   if (!pt) throw new Error('staff note index ' + noteIndex + ' not found (' + centers.length + ' notes)')
-  await page.mouse.move(pt.x, pt.y)
-  await page.mouse.down()
-  await page.mouse.move(pt.x, pt.y + deltaY, { steps: Math.max(8, Math.abs(staffSteps) * 4) })
-  await page.mouse.up()
+  await page.mouse.click(pt.x, pt.y)
+  await sleep(150)
+  await page.evaluate(async function(x, y, dy) {
+    const wrap = document.querySelector('[data-testid="notation-staff-wrap"]')
+    if (!wrap) throw new Error('staff wrap missing for drag')
+    function pe(type, cy, buttons) {
+      wrap.dispatchEvent(new PointerEvent(type, {
+        bubbles: true,
+        cancelable: true,
+        pointerId: 1,
+        pointerType: 'mouse',
+        isPrimary: true,
+        buttons: buttons,
+        clientX: x,
+        clientY: cy,
+      }))
+    }
+    pe('pointerdown', y, 1)
+    await new Promise(function(r) { setTimeout(r, 40) })
+    pe('pointermove', y + dy * 0.5, 1)
+    pe('pointermove', y + dy, 1)
+    await new Promise(function(r) { setTimeout(r, 40) })
+    pe('pointerup', y + dy, 0)
+  }, pt.x, pt.y, deltaY)
   await sleep(500)
 }
 

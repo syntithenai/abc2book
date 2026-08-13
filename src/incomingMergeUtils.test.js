@@ -1,6 +1,9 @@
 import {
   buildSourceUrlMergeRecords,
   summarizeMergeRecords,
+  isMassDeleteBatch,
+  stripMassDeletesFromSheetResults,
+  sanitizeRemoteDeletedAgainstLocalTunes,
 } from './incomingMergeUtils';
 
 describe('incomingMergeUtils source URL merge', function() {
@@ -168,5 +171,39 @@ describe('incomingMergeUtils source URL merge', function() {
       { kind: 'insert' },
     ]);
     expect(summary).toBe('1 to add, 1 to update');
+  });
+});
+
+describe('mass delete guards', function() {
+  test('isMassDeleteBatch uses absolute and fraction thresholds', function() {
+    expect(isMassDeleteBatch(0, 1000)).toBe(false);
+    expect(isMassDeleteBatch(49, 1000)).toBe(false);
+    expect(isMassDeleteBatch(50, 1000)).toBe(true);
+    expect(isMassDeleteBatch(30, 100)).toBe(true);
+    expect(isMassDeleteBatch(20, 100)).toBe(false);
+  });
+
+  test('stripMassDeletesFromSheetResults clears wipe-sized delete lists', function() {
+    const deletes = {};
+    for (let i = 0; i < 80; i += 1) deletes['t' + i] = { id: 't' + i };
+    const stripped = stripMassDeletesFromSheetResults({
+      inserts: { a: { id: 'a' } },
+      deletes: deletes,
+    }, 3000);
+    expect(stripped.inserts).toEqual({ a: { id: 'a' } });
+    expect(stripped.deletes).toEqual({});
+  });
+
+  test('sanitizeRemoteDeletedAgainstLocalTunes drops tombstones for live local tunes', function() {
+    const remoteDeleted = {};
+    for (let i = 0; i < 60; i += 1) {
+      remoteDeleted['t' + i] = { id: 't' + i, deletedAt: 1 };
+    }
+    const localTunes = { t0: { id: 't0' }, t1: { id: 't1' }, missing: { id: 'missing' } };
+    const cleaned = sanitizeRemoteDeletedAgainstLocalTunes(remoteDeleted, localTunes);
+    expect(cleaned.t0).toBeUndefined();
+    expect(cleaned.t1).toBeUndefined();
+    expect(cleaned.t2).toEqual({ id: 't2', deletedAt: 1 });
+    expect(cleaned.missing).toBeUndefined();
   });
 });

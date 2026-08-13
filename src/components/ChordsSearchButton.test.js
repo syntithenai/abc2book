@@ -81,8 +81,6 @@ describe('ChordsSearchButton overwrite confirm', function() {
           title: 'Song',
           artist: 'Artist',
           confirmOverwrite: true,
-          forceUpdateLyrics: true,
-          showLyricsCheckbox: false,
         })
       )
     })
@@ -91,7 +89,7 @@ describe('ChordsSearchButton overwrite confirm', function() {
       container.querySelector('[data-testid="search-review"]').click()
     })
 
-    expect(container.textContent).not.toContain('overwrite all existing notation')
+    expect(container.textContent).not.toContain('Replace chords from search')
     expect(mockStartSearch).toHaveBeenCalledTimes(1)
     expect(mockStartSearch.mock.calls[0][0].options.searchMode).toBe('review')
   })
@@ -104,8 +102,6 @@ describe('ChordsSearchButton overwrite confirm', function() {
           title: 'Song',
           artist: 'Artist',
           confirmOverwrite: true,
-          forceUpdateLyrics: true,
-          showLyricsCheckbox: false,
         })
       )
     })
@@ -116,6 +112,6 @@ describe('ChordsSearchButton overwrite confirm', function() {
 
     expect(mockStartSearch).not.toHaveBeenCalled()
     expect(document.body.textContent).toContain('Replace chords from search')
-    expect(document.body.textContent).toContain('overwrite all existing notation')
+    expect(document.body.textContent).toContain('import chords and lyrics')
   })
 })

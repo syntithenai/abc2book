@@ -7,7 +7,7 @@ import os
 import shutil
 from datetime import datetime, timezone
 
-from music_collection import load_music_collection_index, music_collection_root
+from music_collection import load_music_collection_index, music_collection_root, save_music_collection_index
 from music_collection_analytics import build_duplicate_groups
 from music_collection_curation import save_move_plan, triage_map
 from music_collection_registry import (
@@ -174,6 +174,9 @@ def apply_move_plan(payload, *, apply=False, staging=False):
     root = music_collection_root()
     moves = payload.get("moves") or []
     log = []
+    index = load_music_collection_index(force_reload=True) or {}
+    entries = index.get("entries") or {}
+    index_changed = False
     for move in moves:
         src_rel = str(move.get("from") or "").replace("\\", "/").lstrip("/")
         dest_rel = str(move.get("to") or "").replace("\\", "/").lstrip("/")
@@ -196,8 +199,26 @@ def apply_move_plan(payload, *, apply=False, staging=False):
         dest_abs = os.path.join(root, dest_rel)
         shutil.move(src_abs, dest_abs)
         record["dest"] = dest_rel
+        entry_id = str(move.get("entryId") or "").strip()
+        indexed_entry = entries.get(entry_id) if entry_id else None
+        if not isinstance(indexed_entry, dict):
+            indexed_entry = next(
+                (
+                    candidate
+                    for candidate in entries.values()
+                    if isinstance(candidate, dict) and str(candidate.get("path") or "") == src_rel
+                ),
+                None,
+            )
+        if isinstance(indexed_entry, dict):
+            indexed_entry["path"] = dest_rel
+            index_changed = True
         record["status"] = "moved"
         log.append(record)
+    if index_changed:
+        if isinstance(index, dict):
+            index["entries"] = entries
+            save_music_collection_index(index)
     result = {
         "applied": bool(apply),
         "staging": bool(staging),

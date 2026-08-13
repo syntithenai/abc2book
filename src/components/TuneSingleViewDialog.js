@@ -15,7 +15,7 @@ import {
   getAvailableDisplayFlags,
   defaultViewModeForTune,
 } from '../viewModeUtils';
-import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout';
+import { resolveTuneDisplayLayout, isViewModesEmpty, isStructureOnlyLayout } from '../tuneDisplayLayout';
 import { getTuneNotationFitMode } from '../notationFitSettings';
 import { prepareTuneViewNotationAbc } from '../notation/notationDisplayAbc';
 import { getTuneGigZoom } from '../gigDisplaySettings';
@@ -23,19 +23,7 @@ import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 import { tuneImportTitle } from '../importTitleMatch';
 import { useCapoViewState } from '../useCapoViewState';
 import { chordTransposeWithCapo } from '../capoViewUtils';
-import { isSectionMarkerChordName } from '../chordSheetUtils';
-
-function buildUniqueChords(chordsText) {
-  const uniqueChords = {};
-  String(chordsText || '').replaceAll('|', ' ').split(' ').forEach(function(chord) {
-    const token = chord.trim();
-    if (!token) return;
-    if (token === ':' || token === '|:' || token === ':|' || token === ':|:' || /^\[\d+$/.test(token) || /^\d+\.$/.test(token)) return;
-    if (isSectionMarkerChordName(token)) return;
-    uniqueChords[token] = true;
-  });
-  return uniqueChords;
-}
+import { buildUniqueChordsMap } from '../chordSheetUtils';
 
 /**
  * Read-only single-view tune panels (no toolbar, no media engine).
@@ -93,9 +81,11 @@ export function TuneSingleViewContent(props) {
   const syncLyricsStructure = !!layout.syncLyricsStructure;
   const viewModesEmpty = isViewModesEmpty(viewFlags, availableFlags);
   const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL;
+  const structureOnlyView = structureVisible && !syncLyricsStructure && isStructureOnlyLayout(viewFlags);
   const lyricsStructureFitHeight = fitHeightOn && !notationVisible && syncLyricsStructure;
   const lyricsFitHeight = fitHeightOn && !notationVisible && lyricsVisible && !syncLyricsStructure;
   const structureFitHeight = structureVisible && !syncLyricsStructure;
+  const structureFitHeightGrow = structureOnlyView;
 
   const firstVoice = notationTune.voices && Object.keys(notationTune.voices).length > 0
     ? Object.values(notationTune.voices)[0]
@@ -108,7 +98,7 @@ export function TuneSingleViewContent(props) {
     tune.noteLength,
     tune.meter
   );
-  const uniqueChords = buildUniqueChords(chords);
+  const uniqueChords = buildUniqueChordsMap(chords);
   const useInstrument = localStorage.getItem('bookstorage_last_chord_instrument')
     ? localStorage.getItem('bookstorage_last_chord_instrument')
     : 'guitar';
@@ -184,6 +174,7 @@ export function TuneSingleViewContent(props) {
                   zoom={lyricsZoom > 0 ? lyricsZoom : 1}
                   fitHeight={lyricsStructureFitHeight}
                   chords={chords}
+                  melodyNoteLines={firstVoice.notes}
                   uniqueChords={uniqueChords}
                   useInstrument={useInstrument}
                   showCapoControl={structureVisible}
@@ -193,15 +184,17 @@ export function TuneSingleViewContent(props) {
                   onCapoOffsetChange={capoState.applyCapoOffset}
                 />
               ) : (
-                <TimedLyricsChordsView
-                  tune={tune}
-                  tunebook={tunebook}
-                  chordTranspose={chordTranspose}
-                  hideChords={!chordsAnnotate}
-                  suppressLeadingTitle={true}
-                  zoom={lyricsZoom > 0 ? lyricsZoom : 1}
-                  fitHeight={lyricsFitHeight}
-                />
+                <div className="lyrics-zoom-host" style={{ fontSize: (lyricsZoom > 0 ? lyricsZoom : 1) + 'em' }}>
+                  <TimedLyricsChordsView
+                    tune={tune}
+                    tunebook={tunebook}
+                    chordTranspose={chordTranspose}
+                    hideChords={!chordsAnnotate}
+                    suppressLeadingTitle={true}
+                    inheritZoom={true}
+                    fitHeight={lyricsFitHeight}
+                  />
+                </div>
               )}
             </div>
           </div>
@@ -211,12 +204,20 @@ export function TuneSingleViewContent(props) {
           <div
             className={'music-body-chords tune-panel-structure' + (layout.main === 'structure' ? ' tune-slot-main' : '') + (layout.side === 'structure' ? ' tune-slot-side' : '')}
           >
+            {structureOnlyView ? (
+              <div className="title music-tune-heading music-structure-only-heading">
+                {tune.name}
+                {tune.composer ? <span className="music-tune-composer"> - {tune.composer}</span> : null}
+              </div>
+            ) : null}
             <StructureChordBlock
               chords={chords}
               uniqueChords={uniqueChords}
               useInstrument={useInstrument}
               tune={tune}
+              melodyNoteLines={firstVoice.notes}
               fitHeight={structureFitHeight}
+              fitHeightGrow={structureFitHeightGrow}
               showCapoControl={true}
               capoOffset={capoState.capoOffset}
               capoEnabled={capoState.capoEnabled}

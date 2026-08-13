@@ -1,7 +1,10 @@
 import {
+  isMusicCollectionByEntryUri,
   isMusicCollectionLinkUri,
   isShareableCollectionLink,
   getCollectionLinkSyncStatus,
+  musicCollectionPlaybackProxyPathFromLink,
+  musicCollectionPlaybackUriForLink,
   musicCollectionProxyPathFromUri,
   musicCollectionPlaybackProxyPathFromUri,
   musicCollectionNeedsBrowserTranscode,
@@ -12,6 +15,11 @@ describe('musicCollectionLinkUtils', function() {
   test('detects resolver collection links', function() {
     expect(isMusicCollectionLinkUri('https://peppertrees.syntithenai.com/music-collection/Altan/track.mp3')).toBe(true);
     expect(isMusicCollectionLinkUri('https://youtube.com/watch?v=abc')).toBe(false);
+  });
+
+  test('detects resolver collection entry links', function() {
+    expect(isMusicCollectionByEntryUri('https://peppertrees.syntithenai.com/music-collection-by-entry/42')).toBe(true);
+    expect(isMusicCollectionByEntryUri('/music-collection/Altan/track.mp3')).toBe(false);
   });
 
   test('shareable only when no googleId', function() {
@@ -37,6 +45,8 @@ describe('musicCollectionLinkUtils', function() {
   test('extracts proxy path from absolute url', function() {
     expect(musicCollectionProxyPathFromUri('https://example.com/music-collection/Altan/a.mp3'))
       .toBe('/music-collection/Altan/a.mp3');
+    expect(musicCollectionProxyPathFromUri('https://example.com/music-collection-by-entry/42'))
+      .toBe('/music-collection-by-entry/42');
   });
 
   test('detects browser-incompatible collection formats', function() {
@@ -55,6 +65,17 @@ describe('musicCollectionLinkUtils', function() {
     expect(musicCollectionPlaybackProxyPathFromUri(
       'http://localhost:8787/music-collection/Altan/track.mp3'
     )).toBe('/music-collection/Altan/track.mp3');
+  });
+
+  test('prefers entry id for playback when available', function() {
+    expect(musicCollectionPlaybackUriForLink({
+      link: 'http://localhost:8787/music-collection/Altan/track.wma',
+      collectionEntryId: '42',
+    })).toBe('/music-collection-by-entry/42');
+    expect(musicCollectionPlaybackProxyPathFromLink({
+      link: 'http://localhost:8787/music-collection/Altan/track.wma',
+      collectionEntryId: '42',
+    })).toBe('/music-collection-by-entry/42?playable=1');
   });
 
   test('extracts art proxy path from absolute url', function() {

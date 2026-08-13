@@ -207,6 +207,7 @@ export default function MediaPlaybackSettingsTabs({
                 tunes={tunes}
                 mediaController={mediaController}
                 handleClose={onPlaylistCleared}
+                token={token}
               />
             </div>
           </Tab>

@@ -438,14 +438,7 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
         return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
     }
 
-    if (tune && item && isQueueItemPlayable(tune, item, tunebook)) {
-        return tryResumeCurrent()
-    }
-
-    advanceQueueToNextPlayable(queue, tunes, tunebook, {
-        direction: 1,
-        advanceFirst: false,
-    }).then(function(result) {
+    function finishResumeAt(result) {
         if (result.atEnd || !result.item) {
             stopPlaylistPlayback(mediaController)
             return
@@ -468,6 +461,36 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
             navigateToQueueTune(navigate, nextItem.tuneId, nextItem, tunebook, tunes)
         }
         playQueueItem(mediaController, tunebook, nextTune, nextItem, { fromUserGesture: true })
+    }
+
+    // Always settle on a fully-playable item (skips uncached library links when
+    // resolver login is required) before resuming.
+    const resumePlayability = {
+        direction: 1,
+        advanceFirst: false,
+    }
+    if (navOpts.accessToken !== undefined) {
+        resumePlayability.accessToken = navOpts.accessToken
+    } else if (mediaController && typeof mediaController.getGoogleAccessToken === 'function') {
+        resumePlayability.accessToken = mediaController.getGoogleAccessToken()
+    }
+    if (navOpts.resolverStatus !== undefined) {
+        resumePlayability.resolverStatus = navOpts.resolverStatus
+    }
+    advanceQueueToNextPlayable(queue, tunes, tunebook, resumePlayability).then(function(result) {
+        if (
+            tune
+            && item
+            && isQueueItemPlayable(tune, item, tunebook)
+            && !result.atEnd
+            && result.item
+            && result.queue
+            && result.queue.currentIndex === queue.currentIndex
+        ) {
+            tryResumeCurrent()
+            return
+        }
+        finishResumeAt(result)
     })
 
     return true

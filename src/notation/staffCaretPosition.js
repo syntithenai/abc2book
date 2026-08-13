@@ -117,6 +117,45 @@ function staffRenderRoot(wrapEl) {
     || wrapEl;
 }
 
+function dedupeInteractiveDrawables(elements) {
+  if (!elements.length || typeof window === 'undefined' || !window.getComputedStyle) {
+    return elements;
+  }
+  const byKey = {};
+  elements.forEach(function(el) {
+    const l = elementClassNumber(el, 'abcjs-l');
+    const m = elementClassNumber(el, 'abcjs-m');
+    const n = elementClassNumber(el, 'abcjs-n');
+    if (n == null) return;
+    const key = String(l != null ? l : 'x') + ':' + String(m != null ? m : 'x') + ':' + n;
+    const pe = window.getComputedStyle(el).pointerEvents;
+    const existing = byKey[key];
+    if (!existing) {
+      byKey[key] = el;
+      return;
+    }
+    const existingPe = window.getComputedStyle(existing).pointerEvents;
+    if (existingPe === 'none' && pe !== 'none') {
+      byKey[key] = el;
+      return;
+    }
+    if (pe !== 'none' && existingPe !== 'none') {
+      const er = existing.getBoundingClientRect();
+      const r = el.getBoundingClientRect();
+      if (r.top > er.top) byKey[key] = el;
+    }
+  });
+  const deduped = elements.filter(function(el) {
+    const l = elementClassNumber(el, 'abcjs-l');
+    const m = elementClassNumber(el, 'abcjs-m');
+    const n = elementClassNumber(el, 'abcjs-n');
+    if (n == null) return true;
+    const key = String(l != null ? l : 'x') + ':' + String(m != null ? m : 'x') + ':' + n;
+    return byKey[key] === el;
+  });
+  return deduped.length ? deduped : elements;
+}
+
 function noteElementsIn(root) {
   if (!root) return [];
   const direct = Array.from(root.querySelectorAll('.abcjs-note, .abcjs-rest'));
@@ -124,12 +163,13 @@ function noteElementsIn(root) {
     ? direct
     : Array.from(root.querySelectorAll('[class*="abcjs-note"], [class*="abcjs-rest"]'));
   // Grace notes are extra DOM glyphs and must not consume drawable ordinals.
-  return raw.filter(function(el) {
+  const filtered = raw.filter(function(el) {
     const cls = elementClassName(el);
     if (cls.indexOf('abcjs-grace') >= 0) return false;
     if (el.closest && el.closest('.abcjs-grace')) return false;
     return true;
   });
+  return dedupeInteractiveDrawables(filtered);
 }
 
 function barlineElementsIn(root) {
@@ -582,6 +622,20 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
     return a.getBoundingClientRect().left - b.getBoundingClientRect().left;
   });
 
+  if (clickX != null && sortedNotes.length) {
+    const firstRect = sortedNotes[0].getBoundingClientRect();
+    if (clickX < firstRect.left - 4) {
+      const firstDomIdx = findDrawableDomIndex(drawables, sortedNotes[0]);
+      const caretIndex = firstDomIdx > 0
+        ? caretIndexForDrawableDomIndex(list, firstDomIdx, false)
+        : 0;
+      return {
+        caretIndex: caretIndex,
+        anchor: anchorAtClick(clickX, clickY, sortedNotes, wrapRect, wrapEl),
+      };
+    }
+  }
+
   const targets = [];
   let rightmostNoteDomIdx = -1;
   sortedNotes.forEach(function(el) {
@@ -741,7 +795,13 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
 }
 
 function caretIndexBeforeLine(drawables, events, lineDrawables) {
-  if (!lineDrawables.length) return events.length > 0 ? events.length : 0;
+  if (!lineDrawables.length) {
+    if (drawables.length) {
+      const domIdx = findDrawableDomIndex(drawables, drawables[0]);
+      return domIdx > 0 ? caretIndexForDrawableDomIndex(events, domIdx, false) : 0;
+    }
+    return 0;
+  }
   const domIdx = findDrawableDomIndex(drawables, lineDrawables[0]);
   if (domIdx <= 0) return 0;
   return caretIndexForDrawableDomIndex(events, domIdx, false);
@@ -759,7 +819,10 @@ export function caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, an
   const list = Array.isArray(events) ? events : [];
   const clickX = mouseEvent ? mouseEvent.clientX : null;
   const clickY = mouseEvent ? mouseEvent.clientY : null;
-  const lineDrawables = systemLineForClick(drawables, clickY, wrapEl);
+  let lineDrawables = systemLineForClick(drawables, clickY, wrapEl);
+  if (!lineDrawables.length) {
+    lineDrawables = elementsOnSameSystemLine(drawables, clickY, 48);
+  }
   // Bars are thin vertical strokes — widen Y so a click at notehead height still sees them.
   const lineBars = elementsOnSameSystemLine(bars, clickY, 48);
 

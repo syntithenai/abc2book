@@ -1,7 +1,8 @@
 import {
   mergeById,
   mergeTombstones,
-  applyTombstones
+  applyTombstones,
+  noteNeedsDriveUpload
 } from './audioAnalysisCloudSync'
 
 describe('audioAnalysisCloudSync merge', function() {
@@ -43,5 +44,23 @@ describe('audioAnalysisCloudSync merge', function() {
       [{ id: 'a', deletedAt: '2026-01-02T00:00:00.000Z', label: 'new' }]
     )
     expect(merged[0].label).toBe('new')
+  })
+})
+
+describe('noteNeedsDriveUpload', function() {
+  test('false when already linked to Drive (avoids re-upload jam)', function() {
+    expect(noteNeedsDriveUpload({
+      audioBlobKey: 'blob-1',
+      driveFileId: 'drive-abc'
+    })).toBe(false)
+  })
+
+  test('true when local blob key has no driveFileId', function() {
+    expect(noteNeedsDriveUpload({ audioBlobKey: 'blob-1' })).toBe(true)
+  })
+
+  test('false when note has no audio', function() {
+    expect(noteNeedsDriveUpload({ driveFileId: 'x' })).toBe(false)
+    expect(noteNeedsDriveUpload(null)).toBe(false)
   })
 })

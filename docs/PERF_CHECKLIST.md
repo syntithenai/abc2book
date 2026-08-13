@@ -38,8 +38,8 @@ Use this checklist on a mid-range laptop after performance-related changes.
 
 ## Duplicate manager (large library)
 
-1. With 1k+ tunes, Settings → Duplicates defaults to **current book only**.
-2. Toggle off to scan full library — UI should remain responsive (chunked scan).
+1. With 1k+ tunes, Settings → Duplicates defaults the book selector to the **current book**.
+2. Choose **All books** to scan the full library — UI should remain responsive (chunked scan).
 
 ## Single tune edit
 

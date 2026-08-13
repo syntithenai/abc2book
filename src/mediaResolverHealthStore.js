@@ -215,11 +215,20 @@ export function probeMediaResolverHealth(accessToken, options) {
     return probePromise;
   }
 
-  activeAccessToken = accessToken;
   // Only the most recently issued probe may write state. Without this guard,
   // an earlier probe (e.g. the pre-login null-token request that returns
   // unauthorized) can resolve after a later authorized probe and clobber the
   // good result, making resolver-backed buttons disappear intermittently.
+  //
+  // When probing without a token for OAuth discovery, keep any already-known
+  // bearer so TTS / collection art / cache jobs do not suddenly strip Authorization
+  // and trip media-proxy 401 → refresh → logout races.
+  if (accessToken) {
+    activeAccessToken = accessToken;
+  } else if (options && options.clearActiveToken) {
+    activeAccessToken = null;
+  }
+  // else: leave activeAccessToken unchanged
   probeSeq += 1;
   const mySeq = probeSeq;
   probeInFlight = true;

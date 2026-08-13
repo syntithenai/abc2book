@@ -930,6 +930,7 @@ export default function TuneRecordForm(props) {
           tuneId={props.previewTune && props.previewTune.id}
           tunebook={tunebook}
           token={props.token}
+          user={props.user}
           forceRefresh={props.forceRefresh}
           simplified={true}
           onChange={function(next) { setField('links', next); }}
@@ -996,6 +997,7 @@ export default function TuneRecordForm(props) {
         show={showLyricsTools}
         onHide={function() { setShowLyricsTools(false); }}
         query={lyricsToolsQuery}
+        token={props.token}
       />
 
       {props.extraSections ? props.extraSections : null}

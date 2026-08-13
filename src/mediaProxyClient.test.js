@@ -58,7 +58,21 @@ describe('mediaProxyClient', function() {
     const warning = mediaProxyClient.getResolverLoginWarning(status, null);
     expect(warning).not.toBeNull();
     expect(warning.showLoginButton).toBe(true);
-    expect(warning.message).toMatch(/Google login/i);
+    expect(warning.message).toBe('Login to continue');
+  });
+
+  test('getResolverLoginWarning ignores stale login_required once a token is present', function() {
+    const status = {
+      available: false,
+      candidates: [{
+        base: 'https://resolver.example',
+        reachable: true,
+        available: false,
+        requireAuth: true,
+        authReason: 'login_required',
+      }],
+    };
+    expect(mediaProxyClient.getResolverLoginWarning(status, 'ya29.token')).toBeNull();
   });
 
   test('getResolverLoginWarning is null when resolver is available', function() {
@@ -98,6 +112,18 @@ describe('mediaProxyClient', function() {
     expect(warning).not.toBeNull();
     expect(warning.showBuyCreditButton).toBe(true);
     expect(warning.showLoginButton).toBe(false);
+  });
+
+  test('isMediaProxyAuthorizationError detects 401 and missing bearer', function() {
+    expect(mediaProxyClient.isMediaProxyAuthorizationError(
+      new Error('Media proxy error 401: Missing Authorization Bearer token')
+    )).toBe(true);
+    expect(mediaProxyClient.isMediaProxyAuthorizationError(
+      new Error('Media proxy error 403: forbidden')
+    )).toBe(false);
+    expect(mediaProxyClient.isMediaProxyAuthorizationError(
+      new Error('Could not reach any media resolver')
+    )).toBe(false);
   });
 
   test('pickBillingProxyBase prefers Cloud Run over peppertrees and local billing', function() {
@@ -445,9 +471,36 @@ describe('mediaProxyClient', function() {
     expect(global.fetch.mock.calls[0][0]).toContain('/loc/audio?url=');
   });
 
+  test('fetchDirectOrProxy prefers music collection entry ids when provided', async function() {
+    getMediaProxyBaseCandidates.mockReturnValue(['https://resolver.example']);
+
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      arrayBuffer: async function() { return new ArrayBuffer(0); },
+    });
+
+    const result = await mediaProxyClient.fetchDirectOrProxy({
+      src: 'http://localhost:8787/music-collection/Altan/track.wma',
+      srcType: 'audio',
+      accessToken: 'token',
+      collectionLink: {
+        link: 'http://localhost:8787/music-collection/Altan/track.wma',
+        collectionEntryId: '42',
+      },
+    });
+
+    expect(result.viaProxy).toBe(true);
+    expect(global.fetch.mock.calls[0][0]).toContain('/music-collection-by-entry/42');
+    expect(global.fetch.mock.calls[0][0]).toContain('playable=1');
+  });
+
   test('requiresResolverProxiedPlayback detects music collection links', function() {
     expect(mediaProxyClient.requiresResolverProxiedPlayback(
       'http://localhost:8787/music-collection/clementine/track.mp3'
+    )).toBe(true);
+    expect(mediaProxyClient.requiresResolverProxiedPlayback(
+      'http://localhost:8787/music-collection-by-entry/42'
     )).toBe(true);
     expect(mediaProxyClient.requiresResolverProxiedPlayback(
       'https://example.com/tunes/foo.mp3'

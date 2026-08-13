@@ -34,6 +34,7 @@ import {
   selectAllPitchedEvents,
   insertEmptyMeasureAtCaret,
   respellEnharmonicSelection,
+  toggleDotOnSelection,
 } from './notationActions';
 import { DURATION_KEY_MULTIPLIERS } from './notationConstants';
 import { serializeVoiceEvents } from './abcVoiceSerializer';
@@ -136,6 +137,19 @@ describe('notationActions', function() {
     session = insertPitchAtCaret(session, pitchFromLetter('A', session));
     const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
     expect(notes.map(function(n) { return n.pitch.step; })).toEqual(['C', 'D', 'G', 'A']);
+  });
+
+  test('insertPitchAtCaret splices when spliceAtCaret after staff click', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    session = Object.assign({}, session, {
+      mode: 'noteInput',
+      caretIndex: 2,
+      spliceAtCaret: true,
+    });
+    session = insertPitchAtCaret(session, pitchFromLetter('G', session));
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notes.map(function(n) { return n.pitch.step; })).toEqual(['C', 'D', 'G', 'E', 'F']);
+    expect(session.spliceAtCaret).toBe(false);
   });
 
   test('inserts notes at caret and serializes', function() {
@@ -549,6 +563,48 @@ describe('notationActions', function() {
     expect(resolved.eventIds[0]).toBe(cId);
     expect(resolved.eventIds[1]).toBe(eId);
     expect(resolved.startMs).toBe(500);
+  });
+
+  test('resolveEditTargetIds targets rest at caret instead of previous note', function() {
+    let session = createInitialSession(tuneMeta, 'C z D |');
+    const rest = session.events.find(function(ev) { return ev.type === 'rest'; });
+    const restIdx = session.events.findIndex(function(ev) { return ev.id === rest.id; });
+    session = Object.assign({}, session, {
+      caretIndex: restIdx,
+      selection: { eventIds: [], toneIndex: null, anchorId: null },
+    });
+    const resolved = resolveEditTargetIds(session, { eventIds: [], toneIndex: null, anchorId: null });
+    expect(resolved.eventIds).toEqual([rest.id]);
+  });
+
+  test('toggleDotOnSelection toggles dotted on selected rest', function() {
+    let session = createInitialSession(tuneMeta, 'C z D |');
+    const rest = session.events.find(function(ev) { return ev.type === 'rest'; });
+    session = Object.assign({}, session, {
+      selection: { eventIds: [rest.id], toneIndex: null, anchorId: rest.id },
+    });
+    const patch = toggleDotOnSelection(session);
+    expect(patch).not.toBeNull();
+    const updated = patch.events.find(function(ev) { return ev.id === rest.id; });
+    expect(updated.duration.dotted).toBe(true);
+    const notes = patch.events.filter(function(ev) { return ev.type === 'note'; });
+    notes.forEach(function(ev) {
+      expect(ev.duration.dotted).toBeFalsy();
+    });
+  });
+
+  test('deleteSelectionToRest with selected rest does not remove adjacent notes', function() {
+    let session = createInitialSession(tuneMeta, 'C z D |');
+    const rest = session.events.find(function(ev) { return ev.type === 'rest'; });
+    const notesBefore = session.events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notesBefore.length).toBe(2);
+    session = Object.assign({}, session, {
+      selection: { eventIds: [rest.id], toneIndex: null, anchorId: rest.id },
+    });
+    session = deleteSelectionToRest(session, { backward: false });
+    const notesAfter = session.events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notesAfter.length).toBe(2);
+    expect(notesAfter.map(function(ev) { return ev.pitch.step; })).toEqual(['C', 'D']);
   });
 
   test('selectEventRange returns contiguous ids inclusive', function() {

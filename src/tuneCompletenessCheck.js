@@ -117,9 +117,7 @@ export function checkPathA(tune, options) {
   if (typeof opts.renderChords === 'function' && opts.abcText && singable.length > 0) {
     try {
       const chordChart = opts.renderChords(opts.abcText, true);
-      const aligned = alignChordBlocksToLyrics(lyrics, chordChart, {
-        chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
-      });
+      const aligned = alignChordBlocksToLyrics(lyrics, chordChart, {});
       const unmatched = aligned.filter(function(block) {
         return block.lyricLines.length > 0 && !chartBlockHasChords(block.chart) && !block.inlineChords;
       });

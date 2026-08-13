@@ -351,7 +351,7 @@ export default function NotationEditorHelp(props) {
                 <li><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> — swap selection with clipboard.</li>
                 <li><kbd>R</kbd> — repeat last note or repeat selection at caret.</li>
                 <li><kbd>Q</kbd> / <kbd>W</kbd> — halve / double duration; <kbd>Shift</kbd>+<kbd>Q</kbd>/<kbd>W</kbd> dot-aware.</li>
-                <li><kbd>Delete</kbd> — turn selected notes into rests; on rests, refill with longest fitting rests; remove selected bar lines / system breaks. Duration keys split a selected rest into shorter rests. <kbd>Ctrl</kbd>+<kbd>Delete</kbd> removes any selected events entirely.</li>
+                <li><kbd>Delete</kbd> — turn selected notes into rests; remove selected rests; remove selected bar lines / system breaks. Underfull measures are padded automatically (padding rests are internal and omitted from ABC). Duration keys split a selected rest into shorter rests. <kbd>Ctrl</kbd>+<kbd>Delete</kbd> removes any selected events entirely.</li>
                 <li><kbd>↑</kbd>/<kbd>↓</kbd> — chromatic transpose; <kbd>Ctrl</kbd>+↑/↓ octave; <kbd>Alt</kbd>+<kbd>Shift</kbd>+↑/↓ diatonic.</li>
                 <li><kbd>J</kbd> — enharmonic respell of selected pitches.</li>
                 <li><kbd>Insert</kbd> or <kbd>Ctrl</kbd>+<kbd>B</kbd> — insert an empty measure (full-bar rest + bar line) at the caret.</li>

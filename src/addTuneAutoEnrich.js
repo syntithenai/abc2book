@@ -2,7 +2,7 @@ import { searchChords } from './chordsSearchClient'
 import { searchLyrics } from './lyricsSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
-import { pickChordPasteCandidate, pickNotationPasteCandidate } from './chordSearchSites'
+import { pickUltimateGuitarPasteCandidate, pickNotationPasteCandidate, isUltimateGuitarUrl } from './chordSearchSites'
 import { pickAutoApplyNotationCandidate, hasSolidAbcNotationMatch, pickRankedSolidAbcNotationCandidate } from './notationMatchUtils'
 import { inferNotationSongType } from './textSearchIndexUtils'
 import {
@@ -10,10 +10,10 @@ import {
   historyLabelForKind,
   isTuneFieldEmptyForKind,
 } from './fieldLookupApplyUtils'
-import { noteLinesHaveRealMelody } from './timedImportFinalizer'
-import { getPlainLyricLines } from './wLinesUtils'
 import { enrichTuneMetadataFromMusicBrainz } from './tuneMetadataEnhance'
 import { isAbortError } from './abortUtils'
+
+export { shouldSkipAbcMergeForChordPaste } from './chordPastePolicy'
 
 const enrichByTuneId = {}
 const listeners = new Set()
@@ -190,6 +190,38 @@ export function dismissAddTuneAutoEnrichChordPaste(tuneId) {
   notify()
 }
 
+/**
+ * Seed single-view Ultimate Guitar paste warning when chord search found
+ * concrete UG tabs but chords were not auto-applied.
+ */
+export function offerAddTuneAutoEnrichChordPaste(tuneId, options) {
+  const key = String(tuneId || '').trim()
+  if (!key) return false
+  const opts = options && typeof options === 'object' ? options : {}
+  const manuals = Array.isArray(opts.manualCandidates) ? opts.manualCandidates : []
+  const ugManuals = manuals.filter(function(item) {
+    return item && item.url && isUltimateGuitarUrl(item.url)
+  })
+  const candidate = opts.chordPasteCandidate
+    || pickUltimateGuitarPasteCandidate(manuals)
+  if (!candidate || !candidate.url) return false
+  const existing = enrichByTuneId[key] || emptyState()
+  if (existing.pending) return false
+  updateState(tuneId, {
+    pending: false,
+    progress: 100,
+    message: opts.message || 'Chords need a manual paste from Ultimate Guitar.',
+    failure: '',
+    needsChordPaste: true,
+    chordPasteCandidate: candidate,
+    chordManualCandidates: ugManuals.length ? ugManuals : manuals.filter(function(item) {
+      return item && item.url
+    }),
+    summary: existing.summary || '',
+  })
+  return true
+}
+
 export function dismissAddTuneAutoEnrichNotationPaste(tuneId) {
   const key = String(tuneId || '').trim()
   if (!key || !enrichByTuneId[key]) return
@@ -236,6 +268,9 @@ export function manualCandidatesFromSearchResult(result) {
   })
 }
 
+/**
+ * Whether notation is empty/rest-only and may receive chord scaffold merge.
+ */
 function notationLooksReplaceable(tune) {
   if (!tune || !tune.voices || typeof tune.voices !== 'object') return true
   const voiceKeys = Object.keys(tune.voices)
@@ -258,25 +293,6 @@ function notationLooksReplaceable(tune) {
   })
   if (!hasMusic) return true
   return hasOnlyRests
-}
-
-/**
- * When MuseScore (or other real melody) and lyrics are already on the tune,
- * Ultimate Guitar paste should update chords/lyrics only — not rebuild ABC.
- */
-export function shouldSkipAbcMergeForChordPaste(tune) {
-  if (!tune) return false
-  const voices = tune.voices && typeof tune.voices === 'object' ? tune.voices : null
-  const noteLines = []
-  if (voices) {
-    Object.keys(voices).forEach(function(key) {
-      const notes = voices[key] && Array.isArray(voices[key].notes) ? voices[key].notes : []
-      notes.forEach(function(line) { noteLines.push(line) })
-    })
-  }
-  if (!noteLinesHaveRealMelody(noteLines)) return false
-  const lyrics = getPlainLyricLines(tune)
-  return lyrics.some(function(line) { return String(line || '').trim() })
 }
 
 function saveAppliedCandidate(tune, kind, candidate, tunebook, forceRefresh) {
@@ -647,8 +663,8 @@ export async function runAddTuneAutoEnrich(options) {
         musescorePaywalled: notationMusescorePaywalled,
       })
       : null
-    const chordPasteCandidate = stillNeedsChords && chordManualCandidates.length > 0
-      ? pickChordPasteCandidate(chordManualCandidates, title, artist)
+    const chordPasteCandidate = stillNeedsChords
+      ? pickUltimateGuitarPasteCandidate(chordManualCandidates)
       : null
     const bothFailed = artist && lyricsSearchFailed
       && (notationAttempted ? notationSearchFailed : false)

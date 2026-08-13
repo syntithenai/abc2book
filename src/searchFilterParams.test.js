@@ -1,11 +1,18 @@
 import {
   buildSearchFilterParams,
+  buildTunesListPath,
+  filterStateHasAnyFilters,
   hasAnySearchFilterParams,
   isSearchListHash,
+  LAST_SEARCH_FILTERS_STORAGE_KEY,
+  loadLastSearchFilters,
   normalizeFilterList,
   onlyTextFilterDiffers,
   parseSearchFilterParams,
   readSearchFilterParamsFromHash,
+  resolveSearchFilterState,
+  resolveTunesListPath,
+  saveLastSearchFilters,
   searchFilterParamsEqual,
 } from './searchFilterParams'
 
@@ -24,9 +31,10 @@ describe('searchFilterParams', function() {
       tagFilter: '',
       genreFilter: [],
       artistFilter: [],
+      albumFilter: [],
       filter: '',
       groupBy: '',
-    })).toEqual({ book: null, tags: null, genres: null, artists: null, q: null, group: null })
+    })).toEqual({ book: null, tags: null, genres: null, artists: null, albums: null, q: null, group: null })
   })
 
   test('buildSearchFilterParams encodes active filters', function() {
@@ -35,6 +43,7 @@ describe('searchFilterParams', function() {
       tagFilter: ['fiddle', 'jig'],
       genreFilter: ['Jazz'],
       artistFilter: ['Trad Band'],
+      albumFilter: [],
       filter: 'kesh',
       groupBy: 'rhythm',
     })).toEqual({
@@ -42,6 +51,7 @@ describe('searchFilterParams', function() {
       tags: 'fiddle,jig',
       genres: 'Jazz',
       artists: 'Trad Band',
+      albums: null,
       q: 'kesh',
       group: 'rhythm',
     })
@@ -53,6 +63,7 @@ describe('searchFilterParams', function() {
       tagFilter: ['fiddle', 'jig'],
       genreFilter: [],
       artistFilter: ['Trad Band'],
+      albumFilter: [],
       filter: 'the kesh',
       groupBy: '',
     }
@@ -67,6 +78,7 @@ describe('searchFilterParams', function() {
       tags: ['fiddle', 'jig'],
       genres: [],
       artists: ['Trad Band'],
+      albums: [],
       q: 'the kesh',
       group: '',
     })
@@ -86,6 +98,7 @@ describe('searchFilterParams', function() {
       tags: [],
       genres: [],
       artists: [],
+      albums: [],
       q: '',
       group: '',
     })
@@ -131,8 +144,144 @@ describe('searchFilterParams', function() {
       tags: ['fiddle', 'jig'],
       genres: [],
       artists: [],
+      albums: [],
       q: '',
       group: '',
     })
+  })
+
+  test('buildTunesListPath encodes filters on /tunes', function() {
+    expect(buildTunesListPath({
+      currentTuneBook: 'Session',
+      filter: 'kesh',
+      tagFilter: ['fiddle'],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })).toBe('/tunes?book=Session&tags=fiddle&q=kesh')
+    expect(buildTunesListPath({})).toBe('/tunes')
+  })
+
+  test('save/load last search filters round-trip', function() {
+    localStorage.removeItem(LAST_SEARCH_FILTERS_STORAGE_KEY)
+    expect(loadLastSearchFilters()).toBeNull()
+    saveLastSearchFilters({
+      currentTuneBook: 'Session',
+      filter: 'kesh',
+      tagFilter: ['fiddle', 'jig'],
+      genreFilter: ['Jazz'],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: 'rhythm',
+    })
+    expect(loadLastSearchFilters()).toEqual({
+      currentTuneBook: 'Session',
+      filter: 'kesh',
+      tagFilter: ['fiddle', 'jig'],
+      genreFilter: ['Jazz'],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: 'rhythm',
+    })
+    // Empty saves must not wipe the last real search (cleared React state / bare /tunes).
+    saveLastSearchFilters({
+      currentTuneBook: '',
+      filter: '',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+    expect(loadLastSearchFilters()).toEqual({
+      currentTuneBook: 'Session',
+      filter: 'kesh',
+      tagFilter: ['fiddle', 'jig'],
+      genreFilter: ['Jazz'],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: 'rhythm',
+    })
+  })
+
+  test('resolveSearchFilterState prefers live filters then last snapshot', function() {
+    localStorage.removeItem(LAST_SEARCH_FILTERS_STORAGE_KEY)
+    expect(resolveSearchFilterState({})).toEqual({
+      currentTuneBook: '',
+      filter: '',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+
+    saveLastSearchFilters({
+      currentTuneBook: 'SavedBook',
+      filter: 'saved',
+      tagFilter: ['jig'],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+    expect(resolveSearchFilterState({})).toEqual({
+      currentTuneBook: 'SavedBook',
+      filter: 'saved',
+      tagFilter: ['jig'],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+    expect(resolveSearchFilterState({
+      currentTuneBook: 'Live',
+      filter: '',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })).toEqual({
+      currentTuneBook: 'Live',
+      filter: '',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+  })
+
+  test('resolveTunesListPath prefers current filters then last snapshot', function() {
+    localStorage.removeItem(LAST_SEARCH_FILTERS_STORAGE_KEY)
+    expect(resolveTunesListPath({})).toBe('/tunes')
+
+    saveLastSearchFilters({
+      currentTuneBook: 'SavedBook',
+      filter: 'saved',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+    expect(resolveTunesListPath({})).toBe('/tunes?book=SavedBook&q=saved')
+    expect(resolveTunesListPath({
+      currentTuneBook: 'Live',
+      filter: '',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })).toBe('/tunes?book=Live')
+  })
+
+  test('filterStateHasAnyFilters', function() {
+    expect(filterStateHasAnyFilters({})).toBe(false)
+    expect(filterStateHasAnyFilters({ filter: 'a' })).toBe(true)
+    expect(filterStateHasAnyFilters({ currentTuneBook: 'Book' })).toBe(true)
   })
 })

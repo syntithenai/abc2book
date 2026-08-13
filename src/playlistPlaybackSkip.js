@@ -39,6 +39,9 @@ export async function advanceQueueAfterPlaybackFailure(queue, tunes, tunebook, o
       advanceFirst: true,
       isYoutubeLink: opts.isYoutubeLink,
       playbackMode: opts.playbackMode || 'auto',
+      accessToken: opts.accessToken,
+      resolverStatus: opts.resolverStatus,
+      resolverHealth: opts.resolverHealth,
     })
     if (!result.atEnd && result.item) {
       return result

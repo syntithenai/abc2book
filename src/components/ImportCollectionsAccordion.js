@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import {Link, useNavigate} from 'react-router-dom'
 import {Button} from 'react-bootstrap'
 import {useState} from 'react'
-import { curatedScrapeUrl } from '../resourceBase'
+import { buildCuratedImportPath } from '../curatedImportMatch'
 import PlayWithQueueDropdown from './PlayWithQueueDropdown'
 
 function buildCuratedGroups() {
@@ -37,7 +37,7 @@ export default function ImportCollectionsAccordion(props) {
 
     function renderBookButton(bookTitle, bookMeta, imageKey) {
         if (bookMeta.link) {
-            const importPath = '/importlink/' + encodeURIComponent(curatedScrapeUrl(bookMeta.link)) + (bookMeta.book ? "/book/"+encodeURIComponent(bookMeta.book) : "") + (bookMeta.tag ? "/tag/"+encodeURIComponent(bookMeta.tag) : "")
+            const importPath = buildCuratedImportPath(bookMeta)
             const playPath = importPath + (bookMeta.book ? "/play" : "")
             return <div key={bookTitle} className="books-page-book-card" role="group">
                 <Link to={importPath} className="books-page-collection-card-link" style={{textDecoration:'none'}}>

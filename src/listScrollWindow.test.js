@@ -2,12 +2,15 @@ import {
   advanceListWindowDown,
   advanceListWindowUp,
   clampListWindow,
+  computeListWindowScrollAdjust,
   computeListWindowChunkSize,
   computeListWindowMaxRows,
   computeListWindowSpacerHeights,
   createInitialListWindow,
   getListWindowPreloadMargin,
+  listWindowsEqual,
   resolveListWindowScrollSync,
+  trimListWindowForScroll,
 } from './listScrollWindow'
 
 describe('listScrollWindow', function() {
@@ -27,6 +30,29 @@ describe('listScrollWindow', function() {
   test('clamps invalid windows back into range', function() {
     expect(clampListWindow({ start: 400, end: 425 }, 200, viewportHeight, rowHeight)).toEqual({ start: 0, end: 15 })
     expect(clampListWindow({ start: 10, end: 10 }, 100, viewportHeight, rowHeight)).toEqual({ start: 0, end: 15 })
+  })
+
+  test('defers trimming while scrolling down', function() {
+    expect(advanceListWindowDown(0, 25, 100, viewportHeight, rowHeight, { deferTrim: true }))
+      .toEqual({ start: 0, end: 30 })
+    expect(advanceListWindowDown(0, 25, 100, viewportHeight, rowHeight))
+      .toEqual({ start: 5, end: 30 })
+  })
+
+  test('trims idle windows based on scroll direction', function() {
+    expect(trimListWindowForScroll({ start: 0, end: 40 }, 100, viewportHeight, rowHeight, 1))
+      .toEqual({ start: 15, end: 40 })
+    expect(trimListWindowForScroll({ start: 10, end: 50 }, 100, viewportHeight, rowHeight, -1))
+      .toEqual({ start: 10, end: 35 })
+  })
+
+  test('computes scroll adjustment from measured edge height', function() {
+    expect(computeListWindowScrollAdjust(
+      { start: 0, end: 25 },
+      { start: 5, end: 25 },
+      600,
+      rowHeight
+    )).toBe(120)
   })
 
   test('appends half-screen chunks and trims from the start', function() {
@@ -72,5 +98,10 @@ describe('listScrollWindow', function() {
       rowHeight: rowHeight,
       preloadMargin: preload,
     })).toEqual({ start: 0, end: 20 })
+  })
+
+  test('compares list windows', function() {
+    expect(listWindowsEqual({ start: 0, end: 15 }, { start: 0, end: 15 })).toBe(true)
+    expect(listWindowsEqual({ start: 0, end: 15 }, { start: 5, end: 20 })).toBe(false)
   })
 })

@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
 import {
-  EDITOR_VIEW_MODES,
-  EDITOR_MUSIC_SUBVIEWS,
+  SINGLE_VIEW_EDIT_MODES,
   normalizeEditorViewMode,
   getEditorViewModeLabel,
   viewModeToDisplayFlags,
@@ -79,7 +78,9 @@ function NotationFitButton(props) {
 function renderEditorModeIcon(modeId, tunebook) {
   if (modeId === 'music') return tunebook.icons.music;
   if (modeId === 'pianoRoll') return tunebook.icons.pianoroll;
-  if (modeId === 'notationAbc') return tunebook.icons.music;
+  if (modeId === 'notationAbc') {
+    return <span className="editor-view-mode-text-icon" aria-hidden="true">ABC</span>;
+  }
   if (modeId === 'sourceAbc') return tunebook.icons.filelist;
   if (modeId === 'chords') return tunebook.icons.guitar;
   if (modeId === 'info') return tunebook.icons.question;
@@ -241,12 +242,8 @@ function EditorViewModeToolbar(props) {
       className={'editor-view-mode-toolbar' + (className ? ' ' + className : '')}
       aria-label="Editor view"
     >
-      {EDITOR_VIEW_MODES.map(function(mode) {
-        // For music subviews (pianoRoll, notationAbc), highlight the Music tab as active
-        var active = currentMode === mode.id;
-        if (!active && EDITOR_MUSIC_SUBVIEWS.indexOf(currentMode) !== -1) {
-          active = mode.id === 'music';
-        }
+      {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
+        const active = currentMode === mode.id;
         const icon = renderEditorModeIcon(mode.id, tunebook);
         return (
           <Button
@@ -264,6 +261,73 @@ function EditorViewModeToolbar(props) {
         );
       })}
     </ButtonGroup>
+  );
+}
+
+function EditorEditModeDropdown(props) {
+  const { currentMode, tunebook, onSelect, className } = props;
+  const [show, setShow] = useState(false);
+  const label = getEditorViewModeLabel(currentMode);
+  const currentIcon = renderEditorModeIcon(currentMode, tunebook);
+
+  return (
+    <Dropdown
+      as={ButtonGroup}
+      show={show}
+      onToggle={function(next) { setShow(!!next); }}
+      align="end"
+      className={
+        'editor-edit-mode-group editor-view-mode-selector'
+        + (className ? ' ' + className : '')
+      }
+    >
+      <Dropdown.Toggle
+        variant="outline-secondary"
+        className="editor-edit-mode-dropdown-toggle"
+        id="editor-view-mode-dropdown"
+        aria-label={'Edit view: ' + label}
+        title={'Edit view: ' + label}
+      >
+        {currentIcon ? (
+          <span className="editor-view-mode-btn-icon" aria-hidden="true">{currentIcon}</span>
+        ) : null}
+        <span className="view-mode-label">{label}</span>
+      </Dropdown.Toggle>
+      <Dropdown.Menu
+        className="music-actions-edit-submenu-menu"
+        popperConfig={{
+          strategy: 'fixed',
+          modifiers: [
+            {
+              name: 'preventOverflow',
+              options: { boundary: 'viewport', padding: 8, altAxis: true },
+            },
+            {
+              name: 'flip',
+              options: { fallbackPlacements: ['top-end', 'bottom-start', 'top-start'] },
+            },
+          ],
+        }}
+      >
+        {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
+          const icon = renderEditorModeIcon(mode.id, tunebook);
+          const active = currentMode === mode.id;
+          return (
+            <Dropdown.Item
+              key={mode.id}
+              active={active}
+              onClick={function() {
+                onSelect(mode.id);
+                setShow(false);
+              }}
+            >
+              {icon ? <span className="view-mode-item-icon">{icon}</span> : null}
+              {mode.label}
+            </Dropdown.Item>
+          );
+        })}
+      </Dropdown.Menu>
+    </Dropdown>
   );
 }
 
@@ -483,12 +547,7 @@ export default function ViewModeSelectorModal(props) {
   const currentMode = isEditor
     ? normalizeEditorViewMode(props.viewMode)
     : displayFlagsToViewMode(displayFlags);
-  const label = isEditor ? getEditorViewModeLabel(currentMode) : null;
-  const toggleIcon = isEditor
-    ? renderEditorModeIcon(currentMode, props.tunebook)
-    : props.tunebook.icons.eye;
   const forceDropdown = !!props.forceDropdown;
-  const useEditorToolbar = isEditor && !isNarrowViewport;
   const useDisplayToolbar = !isEditor && !isNarrowViewport && !forceDropdown;
   const separateInlineFitButton = !isEditor && !!props.separateInlineFitButton;
   const fileOverlayActive = !!props.fileOverlayActive;
@@ -508,7 +567,28 @@ export default function ViewModeSelectorModal(props) {
     props.onChange(nextMode);
   }
 
-  if (!isEditor && embeddedPanel) {
+  if (isEditor) {
+    if (!isNarrowViewport) {
+      return (
+        <EditorViewModeToolbar
+          className={props.className}
+          currentMode={currentMode}
+          tunebook={props.tunebook}
+          onSelect={handleSelect}
+        />
+      );
+    }
+    return (
+      <EditorEditModeDropdown
+        className={props.className}
+        currentMode={currentMode}
+        tunebook={props.tunebook}
+        onSelect={handleSelect}
+      />
+    );
+  }
+
+  if (embeddedPanel) {
     return (
       <ViewModeMenuSection
         displayFlags={displayFlags}
@@ -526,17 +606,6 @@ export default function ViewModeSelectorModal(props) {
         extraMenuContent={props.extraMenuContent}
         afterDisplayModes={props.afterDisplayModes}
         stopMenuClose={props.stopMenuClose}
-      />
-    );
-  }
-
-  if (useEditorToolbar) {
-    return (
-      <EditorViewModeToolbar
-        className={props.className}
-        currentMode={currentMode}
-        tunebook={props.tunebook}
-        onSelect={handleSelect}
       />
     );
   }
@@ -577,22 +646,21 @@ export default function ViewModeSelectorModal(props) {
     <Dropdown
       show={show}
       onToggle={function(next) { setShow(next); }}
-      autoClose={isEditor ? true : 'outside'}
+      autoClose="outside"
       align="end"
-      className={(props.className ? props.className + ' ' : '') + (isEditor ? 'editor-view-mode-selector' : 'view-mode-selector')}
+      className={(props.className ? props.className + ' ' : '') + 'view-mode-selector'}
     >
       <Dropdown.Toggle
         variant="secondary"
-        id={isEditor ? 'editor-view-mode-dropdown' : 'view-mode-dropdown'}
-        aria-label={isEditor ? (label || 'View') : 'View options'}
-        title={isEditor ? (label || 'View') : 'View options'}
+        id="view-mode-dropdown"
+        aria-label="View options"
+        title="View options"
       >
-        {toggleIcon}
-        {label ? <span className="view-mode-label">{label}</span> : null}
+        {props.tunebook.icons.eye}
       </Dropdown.Toggle>
       <Dropdown.Menu
-        className={isEditor ? '' : 'view-mode-selector-menu'}
-        popperConfig={isEditor ? undefined : {
+        className="view-mode-selector-menu"
+        popperConfig={{
           strategy: 'fixed',
           modifiers: [
             {
@@ -606,39 +674,23 @@ export default function ViewModeSelectorModal(props) {
           ],
         }}
       >
-        {isEditor ? (
-          EDITOR_VIEW_MODES.map(function(mode) {
-            const icon = renderEditorModeIcon(mode.id, props.tunebook);
-            return (
-              <Dropdown.Item
-                key={mode.id}
-                active={currentMode === mode.id}
-                onClick={function() { handleSelect(mode.id); }}
-              >
-                <span className="view-mode-item-icon">{icon}</span>
-                {mode.label}
-              </Dropdown.Item>
-            );
-          })
-        ) : (
-          <ViewModeDisplayPanel
-            displayFlags={displayFlags}
-            available={available}
-            tune={props.tune}
-            tunebook={props.tunebook}
-            onFlagsChange={handleFlagsChange}
-            onVoiceSettingsChange={props.onVoiceSettingsChange}
-            notationFitMode={props.notationFitMode}
-            onNotationFitModeChange={props.onNotationFitModeChange}
-            hideInlineVoiceControls={props.hideInlineVoiceControls}
-            fileControls={props.fileControls}
-            fileOverlayActive={fileOverlayActive}
-            tablatureSelector={props.tablatureSelector}
-            extraMenuContent={props.extraMenuContent}
-            afterDisplayModes={props.afterDisplayModes}
-            stopMenuClose={true}
-          />
-        )}
+        <ViewModeDisplayPanel
+          displayFlags={displayFlags}
+          available={available}
+          tune={props.tune}
+          tunebook={props.tunebook}
+          onFlagsChange={handleFlagsChange}
+          onVoiceSettingsChange={props.onVoiceSettingsChange}
+          notationFitMode={props.notationFitMode}
+          onNotationFitModeChange={props.onNotationFitModeChange}
+          hideInlineVoiceControls={props.hideInlineVoiceControls}
+          fileControls={props.fileControls}
+          fileOverlayActive={fileOverlayActive}
+          tablatureSelector={props.tablatureSelector}
+          extraMenuContent={props.extraMenuContent}
+          afterDisplayModes={props.afterDisplayModes}
+          stopMenuClose={true}
+        />
       </Dropdown.Menu>
     </Dropdown>
   );

@@ -1,7 +1,7 @@
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 import {useState, useRef, useEffect} from 'react'
-import { allArtists, allGenres } from './tuneBibliographicUtils'
+import { allAlbums, allArtists, allGenres } from './tuneBibliographicUtils'
 import { isCapacitorNative } from './platformUtils'
 import { yieldToMain } from './tuneListFilter'
 import { rebuildIndexesFromTunes } from './tuneIndexRebuilder'
@@ -57,6 +57,10 @@ var useIndexes = () => {
       if (isCapacitorNative()) return {}
       return utils.loadLocalObject('bookstorage_index_artists')
     })
+    var [albumIndex, setAlbumIndex] = useState(function() {
+      if (isCapacitorNative()) return {}
+      return utils.loadLocalObject('bookstorage_index_albums')
+    })
     var [tagGroups, setTagGroups] = useState(function() {
       if (isCapacitorNative()) return {}
       return utils.loadLocalObject('bookstorage_tag_groups')
@@ -65,6 +69,7 @@ var useIndexes = () => {
     var lastTagIndexRef = useRef(tagIndex)
     var lastGenreIndexRef = useRef(genreIndex)
     var lastArtistIndexRef = useRef(artistIndex)
+    var lastAlbumIndexRef = useRef(albumIndex)
 
     useEffect(function() {
       let cancelled = false
@@ -74,11 +79,13 @@ var useIndexes = () => {
         setTagIndex(data.tags || {})
         setGenreIndex(data.genres || {})
         setArtistIndex(data.artists || {})
+        setAlbumIndex(data.albums || {})
         setTagGroups(data.tagGroups || {})
         lastBookIndexRef.current = data.books || {}
         lastTagIndexRef.current = data.tags || {}
         lastGenreIndexRef.current = data.genres || {}
         lastArtistIndexRef.current = data.artists || {}
+        lastAlbumIndexRef.current = data.albums || {}
         setIndexesReady(true)
       })
       return function() { cancelled = true }
@@ -106,6 +113,12 @@ var useIndexes = () => {
         setArtistIndex(next)
         lastArtistIndexRef.current = next
         saveIndexSlice(INDEX_STORE_KEYS.artists, next)
+    }
+
+    function persistAlbumIndex(next) {
+        setAlbumIndex(next)
+        lastAlbumIndexRef.current = next
+        saveIndexSlice(INDEX_STORE_KEYS.albums, next)
     }
     
     function indexTune(tune) {
@@ -148,6 +161,16 @@ var useIndexes = () => {
         if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
             persistArtistIndex(artistIndexNew)
         }
+
+        var albumIndexNew = removeTune(tune, Object.assign({}, lastAlbumIndexRef.current || albumIndex))
+        if (tune && tune.id) {
+            allAlbums(tune).forEach(function(albumName) {
+                addTuneIdToIndexKey(albumIndexNew, albumName, tune.id)
+            })
+        }
+        if (!indexSnapshotEqual(albumIndexNew, lastAlbumIndexRef.current)) {
+            persistAlbumIndex(albumIndexNew)
+        }
     }
     
     function removeTune(tune, bookIndex) {
@@ -177,6 +200,10 @@ var useIndexes = () => {
 
     function resetArtistIndex() {
         persistArtistIndex({})
+    }
+
+    function resetAlbumIndex() {
+        persistAlbumIndex({})
     }
     
     function addTagToIndex(tag) {
@@ -218,16 +245,19 @@ var useIndexes = () => {
         const tags = built.tags || {}
         const genres = built.genres || {}
         const artists = built.artists || {}
+        const albums = built.albums || {}
         const groups = built.tagGroups || {}
         setBookIndex(books)
         setTagIndex(tags)
         setGenreIndex(genres)
         setArtistIndex(artists)
+        setAlbumIndex(albums)
         setTagGroups(groups)
         lastBookIndexRef.current = books
         lastTagIndexRef.current = tags
         lastGenreIndexRef.current = genres
         lastArtistIndexRef.current = artists
+        lastAlbumIndexRef.current = albums
         return built
     }
 
@@ -253,6 +283,11 @@ var useIndexes = () => {
         if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
             persistArtistIndex(artistIndexNew)
         }
+
+        var albumIndexNew = removeTune(tune, Object.assign({}, lastAlbumIndexRef.current || albumIndex))
+        if (!indexSnapshotEqual(albumIndexNew, lastAlbumIndexRef.current)) {
+            persistAlbumIndex(albumIndexNew)
+        }
     }
 
     function indexChangedTunes(tunes, tuneIds) {
@@ -271,6 +306,7 @@ var useIndexes = () => {
         tagIndex: lastTagIndexRef.current || tagIndex,
         genreIndex: lastGenreIndexRef.current || genreIndex,
         artistIndex: lastArtistIndexRef.current || artistIndex,
+        albumIndex: lastAlbumIndexRef.current || albumIndex,
       }
     }
 
@@ -281,11 +317,13 @@ var useIndexes = () => {
       setTagIndex(data.tags || {})
       setGenreIndex(data.genres || {})
       setArtistIndex(data.artists || {})
+      setAlbumIndex(data.albums || {})
       setTagGroups(data.tagGroups || {})
       lastBookIndexRef.current = data.books || {}
       lastTagIndexRef.current = data.tags || {}
       lastGenreIndexRef.current = data.genres || {}
       lastArtistIndexRef.current = data.artists || {}
+      lastAlbumIndexRef.current = data.albums || {}
       setIndexesReady(true)
       return data
     }
@@ -308,6 +346,8 @@ var useIndexes = () => {
       resetGenreIndex,
       artistIndex,
       resetArtistIndex,
+      albumIndex,
+      resetAlbumIndex,
       indexesReady,
       getIndexBundle,
       reloadFromStore,

@@ -8,6 +8,7 @@ import {
   readStoredAuthBase,
   readStoredAuthSessionId,
   selectAuthModeForBase,
+  selectLoginAuthMode,
 } from './authResolverClient'
 import {
   isMediaProxyConfigured,
@@ -35,6 +36,7 @@ import {
   readStoredLoginProfile,
 } from './googleLoginTokenClient'
 import { createOAuthBffController } from './googleLoginOAuthBff'
+import { tokenHasFreshAccess } from './googleLoginTokenAdapter'
 import {
   notifyAccessTokenUpdated,
   setTryRefreshAccessTokenHandler,
@@ -119,10 +121,9 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         },
         onFallbackToTokenClient: function() {
           var current = accessTokenRef.current
-          var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
-          var stillValid = current && current.access_token
-            && (!expiresAt || expiresAt > Date.now() + 60000)
-          if (stillValid) return
+          // Keep the existing bearer when it is still fresh; opening a GIS popup
+          // mid-session (e.g. during audio generation) feels like a logout.
+          if (tokenHasFreshAccess(current, 60000)) return
           if (isAndroidApp()) return
           var tokenCtrl = ensureTokenController()
           activeControllerRef.current = tokenCtrl
@@ -266,19 +267,17 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       })
     }
 
-    function startLoginWithFreshAuthBase(controller) {
-      return waitForAuthBase(5000).then(function(base) {
-        if (base) selectController('oauth', base)
-        else if (authModeRef.current !== 'token') selectController('token', '')
-        return runWithController(controller)
-      })
-    }
-
     var knownBase = authBaseRef.current || getAuthResolverBase()
-    if (authModeRef.current === 'oauth' && knownBase) {
-      return startLoginWithFreshAuthBase(ensureOauthController())
+    var loginMode = selectLoginAuthMode({
+      knownBase: knownBase,
+      authMode: authModeRef.current,
+    })
+    // Explicit Login must use BFF whenever a resolver is known, even if this
+    // browser is currently on Token Client. That is how silent refresh starts.
+    if (loginMode === 'oauth') {
+      return runWithController(selectController('oauth', knownBase))
     }
-    if (authModeRef.current === 'token' || (authModeRef.current !== 'pending' && !knownBase)) {
+    if (loginMode === 'token') {
       return runWithController(ensureTokenController())
     }
     // Mode still pending: wait briefly for oauthBff probe, then pick controller.

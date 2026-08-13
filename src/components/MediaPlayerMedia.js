@@ -5,7 +5,7 @@ import {useParams, Link, useLocation, useNavigate} from 'react-router-dom'
 import {useState, useEffect, useMemo, useRef} from 'react'
 import { applyStoredOutputDeviceToElement } from '../outputDeviceSupport'
 
-export default function MediaPlayerMedia({mediaController, tunebook, tune, routePlayState, routeMediaLinkNumber, suppressAutostart, suppressTapModal, onMediaEngineReady, instanceId, compactPlayer, forceRefresh, token, googleDocumentId, login, onLinksSaved}) {
+export default function MediaPlayerMedia({mediaController, tunebook, tune, routePlayState, routeMediaLinkNumber, suppressAutostart, suppressTapModal, onMediaEngineReady, instanceId, compactPlayer, forceRefresh, token, user, googleDocumentId, login, onLinksSaved}) {
     const params = useParams()
     const location = useLocation()
     const playState = routePlayState != null ? routePlayState : params.playState
@@ -279,6 +279,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
                 src={src}
                 forceRefresh={forceRefresh}
                 token={token}
+                user={user}
                 googleDocumentId={googleDocumentId}
                 login={login}
                 onLinksSaved={onLinksSaved}

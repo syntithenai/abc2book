@@ -31,6 +31,7 @@ const { runVoiceTests } = require('./notation-voices')
 const { runPianoRollTests } = require('./notation-piano-roll')
 const { runAdvancedTests } = require('./notation-advanced')
 const { runClickRegressionTests } = require('./notation-click-regression')
+const { runInsertPlacementTests } = require('./notation-insert-placement')
 
 const TIER = process.env.NOTATION_E2E_TIER || '0'
 const BASIC_URL = process.env.NOTATION_TEST_URL || editorMusicUrl(BASE, NOTATION_E2E_TUNE_ID)
@@ -59,6 +60,7 @@ async function main() {
 
     const ctx = {
       results: results,
+      tier: TIER,
       basicEditorUrl: BASIC_URL,
       twoVoiceEditorUrl: TWO_VOICE_URL,
       timeoutMs: TIMEOUT_MS,
@@ -82,6 +84,9 @@ async function main() {
 
     console.log('\n--- P0 click regression ---')
     await runClickRegressionTests(page, ctx)
+
+    console.log('\n--- P0 insert placement ---')
+    await runInsertPlacementTests(page, ctx)
 
     if (TIER === '1' || TIER === 'full' || TIER === 'p1') {
       console.log('\n--- P1 staff full ---')

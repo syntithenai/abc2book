@@ -27,6 +27,7 @@ import {
   getNativePlayerUri,
 } from './nativeMediaPlayer';
 import { hardSilenceWebViewOutputs } from './androidPlaybackGate';
+import { musicCollectionPlaybackProxyPathFromLink } from './musicCollectionLinkUtils';
 
 export { externalMediaFromCandidate, isStandaloneExternalMedia } from './mediaSearchExternalMedia';
 
@@ -232,7 +233,12 @@ export async function stopStandaloneMediaPlayback() {
 }
 
 function buildCollectionProxyPath(candidate) {
-  const path = String(candidate.path || '').trim();
+  const proxyPath = musicCollectionPlaybackProxyPathFromLink({
+    link: candidate.link || candidate.collectionLink || '',
+    collectionEntryId: candidate.id || candidate.collectionEntryId || '',
+  });
+  if (proxyPath) return proxyPath;
+  const path = String(candidate.path || candidate.collectionPath || '').trim();
   if (!path) return '';
   if (path.indexOf('/music-collection/') === 0) return path;
   return '/music-collection/' + path.split('/').map(encodeURIComponent).join('/');
@@ -405,6 +411,7 @@ export async function playExternalMediaItem(externalMedia, mediaController, opti
   }
   if (externalMedia.collectionLink || externalMedia.collectionPath) {
     const collectionCandidate = {
+      id: externalMedia.collectionEntryId,
       title: externalMedia.title,
       artist: externalMedia.artist,
       path: externalMedia.collectionPath,

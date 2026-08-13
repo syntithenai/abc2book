@@ -48,3 +48,20 @@ export function isTaskAvailable(backends, taskId) {
   const presets = mergeBackendsPresets(backends, taskId);
   return presets.some(function(preset) { return preset.available !== false; });
 }
+
+/** Human-readable reason when /generate-audio/backends reports the sidecar down. */
+export function audioGenerationUnavailableMessage(backends) {
+  if (!backends || backends.ok !== false) return '';
+  const provider = backends.provider || {};
+  const name = String(provider.provider || '').toLowerCase();
+  const detail = String(provider.message || '').trim();
+  if (name === 'audio_cpp' || name === 'audiocpp' || name === 'audio.cpp') {
+    return (
+      'audio.cpp sidecar is not available'
+      + (detail ? ' (' + detail + ')' : '')
+      + '. Start it with: systemctl --user start abc2book-audio-cpp'
+    );
+  }
+  if (detail) return detail;
+  return 'Audio generation backends are not available right now.';
+}

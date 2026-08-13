@@ -204,6 +204,13 @@ def build_music_collection_public_url(relative_path, public_base=None):
     return base + "/" + "/".join(segments)
 
 
+def build_music_collection_entry_url(entry_id, request_base_url=None):
+    base = "/music-collection-by-entry"
+    if request_base_url:
+        base = str(request_base_url).rstrip("/") + "/music-collection-by-entry"
+    return base.rstrip("/") + "/" + quote(str(entry_id or "").strip())
+
+
 def build_music_collection_art_url(entry_id, request_base_url=None):
     base = "/music-collection-art"
     if request_base_url:
@@ -365,6 +372,14 @@ def load_music_collection_index(force_reload=False):
         _INDEX_CACHE = data
         _INDEX_MTIME = mtime
         return _INDEX_CACHE
+
+
+def save_music_collection_index(payload):
+    index_path = music_collection_index_path()
+    with open(index_path + ".tmp", "w", encoding="utf-8") as handle:
+        json.dump(payload, handle, separators=(",", ":"))
+    os.replace(index_path + ".tmp", index_path)
+    return load_music_collection_index(force_reload=True)
 
 
 def load_music_collection_stats(force_reload=False):
@@ -559,6 +574,7 @@ def build_music_collection_candidate(entry, *, public_base=None, request_base_ur
         public_base = str(request_base_url).rstrip("/") + MUSIC_COLLECTION_PUBLIC_BASE
     link = build_music_collection_public_url(path, public_base=public_base)
     image = build_music_collection_art_url(entry_id, request_base_url=request_base_url) if entry_id else ""
+    entry_link = build_music_collection_entry_url(entry_id, request_base_url=request_base_url) if entry_id else ""
 
     candidate = {
         "id": entry_id,
@@ -567,6 +583,7 @@ def build_music_collection_candidate(entry, *, public_base=None, request_base_ur
         "path": path,
         "description": description,
         "image": image,
+        "collectionEntryLink": entry_link,
         "link": link,
         "source": "music-collection",
         "matchScore": int(entry.get("matchScore") or 0),

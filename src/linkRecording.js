@@ -324,7 +324,14 @@ async function writeRecordingCache(tuneId, linkIndex, linkUri, mp3Blob, duration
 }
 
 function getAccessToken(token) {
-  return getMediaProxyClient().normalizeAccessToken(token)
+  const fromArg = getMediaProxyClient().normalizeAccessToken(token)
+  if (fromArg) return fromArg
+  try {
+    const { getActiveResolverAccessToken } = require('./mediaResolverHealthStore')
+    return getMediaProxyClient().normalizeAccessToken(getActiveResolverAccessToken())
+  } catch (e) {
+    return ''
+  }
 }
 
 function normalizeMediaKind(kind) {
@@ -653,11 +660,29 @@ async function blobToCachedMediaResult(blob, mediaKind) {
   if (mediaKind === 'midi' || mediaKind === 'video') {
     return { blob: blob, duration: null }
   }
-  if (blob.type === 'audio/mpeg') {
+  const mime = blob.type ? String(blob.type) : ''
+  if (mime === 'audio/mpeg' || mime.indexOf('audio/') === 0 || mime === 'application/octet-stream' || !mime) {
+    // Prefer the downloaded bytes as-is for regeneration / playback. Re-encoding
+    // through audio-decode can fail on valid Drive MP3s and previously surfaced as
+    // a false "sign in" error after the Drive fetch appeared to fail.
+    if (mime === 'audio/mpeg' || mime.indexOf('audio/') === 0) {
+      return { blob: blob, duration: null }
+    }
+    if (typeof blob.arrayBuffer === 'function') {
+      try {
+        return await blobToMp3Blob(blob)
+      } catch (e) {
+        return { blob: blob, duration: null }
+      }
+    }
     return { blob: blob, duration: null }
   }
   if (typeof blob.arrayBuffer === 'function') {
-    return blobToMp3Blob(blob)
+    try {
+      return await blobToMp3Blob(blob)
+    } catch (e) {
+      return null
+    }
   }
   return null
 }
@@ -769,15 +794,29 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
   }
 
   if (googleId && !recording && !accessToken) {
-    throw new Error('Recording not shared publicly — owner may need to log in and save again.')
+    throw new Error('Recording not shared publicly — sign in and try again, or use MIDI playback.')
   }
 
   const online = typeof navigator !== 'undefined' && navigator.onLine
-  throw new Error(online
-    ? (googleId && !recording
-      ? 'Recording could not be downloaded from Google Drive — sign in and try again, or use MIDI playback.'
-      : 'Recording audio is not available — sign in and try again, or use MIDI playback.')
-    : 'Recording audio is not available offline')
+  if (!online) {
+    throw new Error('Recording audio is not available offline')
+  }
+  if (!accessToken && googleId) {
+    throw new Error('Sign in to download this recording from Google Drive, or use MIDI playback.')
+  }
+  if (googleId && accessToken) {
+    throw new Error(
+      'Could not download this recording from Google Drive. '
+      + 'Check that the file is still in your TuneBook Drive folder, then try again.'
+    )
+  }
+  if (recording && !googleId) {
+    throw new Error(
+      'Recording audio is missing from this device and was never synced to Drive. '
+      + 'Re-import or re-record the audio, then try again.'
+    )
+  }
+  throw new Error('Recording audio is not available on this device.')
 }
 
 async function blobToArrayBuffer(blob) {

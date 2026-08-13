@@ -4,13 +4,13 @@ import { toast } from 'react-toastify'
 import useAbcjsParser from '../useAbcjsParser'
 import CreatableSelect from 'react-select/creatable'
 import ChordsSearchButton from './ChordsSearchButton'
-import { getLyricLines, getPlainLyricLines } from '../wLinesUtils'
+import { getLyricLines, getPlainLyricLines, setPlainLyricLines } from '../wLinesUtils'
 import ChordSectionsDropdown from './ChordSectionsDropdown'
 import ChordSectionRecordModal from './ChordSectionRecordModal'
-import PasteChordSheetModal from './PasteChordSheetModal'
 import ChordMergeFailureToast from './ChordMergeFailureToast'
 import VoiceFillInput from './VoiceFillInput'
 import KeySignatureInput from './KeySignatureInput'
+import LyricsChordsHelpModal from './LyricsChordsHelpModal'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import {
@@ -20,25 +20,30 @@ import {
   stripChartStructureMarkers,
   normalizeChordChartRepeatMarks,
   splitChartHeaderAndBody,
+  hasLyricEmbeddedChords,
+  chartBlockHasChords,
 } from '../chordSheetUtils'
+import { applyNotationChordsToLyricChordPro } from '../applyNotationChordsToLyrics'
+import { parseChordSheetText } from '../chordProFormatUtils'
+import { buildChordSheetAlignmentFromLines } from '../chordSheetImportUtils'
 import {
+  buildTuneSectionsFromPaste,
   firstSectionMeter,
   firstSectionKey,
   firstSectionTempo,
   insertChordsEditorSectionAfter,
+  listPasteChordSections,
   rebuildChordGridFromSections,
   reconcileChordSectionsFromGrid,
   removeChordsEditorSection,
-  renameChordsEditorSection,
   replaceSectionChart,
   replaceSectionKey,
   replaceSectionMeter,
   replaceSectionTempo,
-  applyChordSectionLabels,
   prepareSectionChartDraft,
   prepareChordGridDraft,
   reindexChordsEditorSectionKeys,
-  lyricLinesAfterHeaderPatches,
+  chordSectionLabelsFromSections,
 } from '../chordsEditorSections'
 import {
   applyBlockMergeToTune,
@@ -48,19 +53,17 @@ import {
   enrichBlocksWithNotationMarkerFlags,
   hashAbcNotes,
   invalidateChordBlockCache,
-  normalizeChartToBarCount,
   readChordBlockCache,
   reconcileBlocksFromGrid,
   reanchorEditorBlocksToMelody,
   splitChordGridAcrossMelodyStrains,
-  splitMelodyStrainsWithBarlines,
+  syncChordSectionLabelsFromPrimaryVoice,
   writeChordBlockCache,
+  chordNoteLinesFromTune,
 } from '../chordBlockMerge'
-import { extractBarsFromMelodyText } from '../lyricBarAlignmentUtils'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 import { fillEmptyTuneFieldsFromMeta } from '../applyChordSheetToTune'
 import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
-import { listLyricSections, renameLyricSectionHeader } from '../lyricStructureUtils'
 import { tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay'
 import { allGenres } from '../tuneBibliographicUtils'
 
@@ -94,13 +97,36 @@ function draftSaveFailure(message, extras) {
   }, extras || {})
 }
 
+function remapSectionDraftKeys(beforeSections, afterSections, drafts) {
+  if (!drafts || !Object.keys(drafts).length) return {}
+  const next = {}
+  const beforeList = Array.isArray(beforeSections) ? beforeSections : []
+  const afterList = Array.isArray(afterSections) ? afterSections : []
+  afterList.forEach(function(section, index) {
+    const before = beforeList[index]
+    if (!section) return
+    if (before && Object.prototype.hasOwnProperty.call(drafts, before.key)) {
+      next[section.key] = drafts[before.key]
+      return
+    }
+    if (Object.prototype.hasOwnProperty.call(drafts, section.key)) {
+      next[section.key] = drafts[section.key]
+    }
+  })
+  return next
+}
+
 function chartLooksComplete(text) {
   const lines = String(text || '').split(/\n/)
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim()
     if (!line) continue
-    // Incomplete chord line: has content but no closing |
-    if (!/\|\s*$/.test(line) && !/^\[M:/i.test(line)) return false
+    if (/^\[M:/i.test(line)) continue
+    // Prefer trailing |, but allow pasted lines like "Em | Am" that already
+    // have bar separators and end on a chord token.
+    if (/\|\s*$/.test(line)) continue
+    if (/\|/.test(line) && /[A-Ga-g][#b]?[^\s|]*\s*$/.test(line)) continue
+    return false
   }
   return true
 }
@@ -119,9 +145,10 @@ export default function ChordsWizard(props) {
   const [sectionDrafts, setSectionDrafts] = useState({})
   const [wholeDraft, setWholeDraft] = useState(null)
   const [recordTarget, setRecordTarget] = useState(null)
-  const [showPaste, setShowPaste] = useState(false)
-  const [pasteInitialText, setPasteInitialText] = useState(null)
-  const [pasteInitialUpdateLyrics, setPasteInitialUpdateLyrics] = useState(false)
+  const [showOverrideFromLyricsConfirm, setShowOverrideFromLyricsConfirm] = useState(false)
+  const [showApplyToLyricsConfirm, setShowApplyToLyricsConfirm] = useState(false)
+  const [showLyricsChordsHelp, setShowLyricsChordsHelp] = useState(false)
+  const [melodyConflict, setMelodyConflict] = useState(null)
   const [highlightKey, setHighlightKey] = useState(null)
   const [draftWarnings, setDraftWarnings] = useState({})
   const [savingLabel, setSavingLabel] = useState('')
@@ -133,11 +160,23 @@ export default function ChordsWizard(props) {
   const sectionSaveTimers = useRef({})
   const wholeSaveTimer = useRef(null)
   const committedSectionsRef = useRef([])
+  const sectionDraftsRef = useRef({})
+  const wholeDraftRef = useRef(null)
   const markerNoticeShownRef = useRef(false)
   const melodyHashRef = useRef(null)
+  const ownChordSaveRef = useRef(false)
   const pendingSaveRef = useRef(null)
+  const flushPendingSavesRef = useRef(null)
   const [showMarkerConfirm, setShowMarkerConfirm] = useState(false)
   const warningsBanner = useRef([])
+
+  useEffect(function() {
+    sectionDraftsRef.current = sectionDrafts
+  }, [sectionDrafts])
+
+  useEffect(function() {
+    wholeDraftRef.current = wholeDraft
+  }, [wholeDraft])
 
   const meterOptions = (props.tunebook && props.tunebook.abcTools
     ? props.tunebook.abcTools.getTimeSignatureTypes()
@@ -164,7 +203,6 @@ export default function ChordsWizard(props) {
     const lyricLines = getLyricLines(tune)
     const noteLines = primaryNoteLines()
     const abcHash = hashAbcNotes(noteLines)
-    const labels = Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null
     const cache = readChordBlockCache(tune)
     if (
       cache
@@ -173,11 +211,8 @@ export default function ChordsWizard(props) {
       && cache.blocks.length
     ) {
       if (chordBlockCacheMatchesMelody(noteLines, cache.blocks)) {
-        const cached = labels && labels.length
-          ? applyChordSectionLabels(cache.blocks, labels, lyricLines)
-          : cache.blocks
         return enrichBlocksWithNotationMarkerFlags(
-          alignBlockChartsToMelody(noteLines, cached),
+          alignBlockChartsToMelody(noteLines, cache.blocks),
           noteLines
         )
       }
@@ -190,14 +225,16 @@ export default function ChordsWizard(props) {
       chordChart: chordChart,
       displayChordChart: displayChordChart,
       lyricLines: lyricLines,
+      title: tune.name || tune.title,
+      composer: tune.composer,
       defaultMeter: tune.meter || '4/4',
       defaultKey: tune.key || 'C',
       defaultTempo: tune.tempo || 120,
       defaultNoteLength: tune.noteLength || '1/8',
-      chordSectionLabels: labels,
     })
     warningsBanner.current = extracted.warnings || []
     writeChordBlockCache(tune, extracted.abcHash, extracted.blocks)
+    tune.chordSectionLabels = chordSectionLabelsFromSections(extracted.blocks)
     return enrichBlocksWithNotationMarkerFlags(
       alignBlockChartsToMelody(noteLines, extracted.blocks),
       noteLines
@@ -206,23 +243,49 @@ export default function ChordsWizard(props) {
 
   function refreshSectionsFromMelody() {
     invalidateChordBlockCache(tune)
+    const noteLines = primaryNoteLines()
+    syncChordSectionLabelsFromPrimaryVoice(tune, noteLines)
     const next = loadSectionsFromAbc()
+    tune.chordSectionLabels = chordSectionLabelsFromSections(next)
     localSectionsRef.current = true
     setSections(next)
     committedSectionsRef.current = next
     setSectionDrafts({})
     setWholeDraft(null)
     setDraftWarnings({})
-    toast.info('Chord grid refreshed from notation.')
+    setMelodyConflict(null)
+    melodyHashRef.current = hashAbcNotes(noteLines)
   }
 
   function hasPendingChordDrafts() {
     return Object.keys(sectionDrafts).length > 0 || wholeDraft != null
   }
 
+  function hasIncompleteChordDrafts() {
+    if (wholeDraft != null && !chartLooksComplete(wholeDraft)) return true
+    return Object.keys(sectionDrafts).some(function(key) {
+      return !chartLooksComplete(sectionDrafts[key])
+    })
+  }
+
+  function discardDraftsAndReloadFromNotation() {
+    setSectionDrafts({})
+    setWholeDraft(null)
+    setDraftWarnings({})
+    setMelodyConflict(null)
+    refreshSectionsFromMelody()
+    toast.info('Chord grid refreshed from notation.')
+  }
+
   useEffect(function() {
     if (localSectionsRef.current) {
       localSectionsRef.current = false
+      return
+    }
+    if (ownChordSaveRef.current) {
+      ownChordSaveRef.current = false
+      melodyHashRef.current = hashAbcNotes(primaryNoteLines())
+      setMelodyConflict(null)
       return
     }
     if (!Array.isArray(props.notes) && !props.abc) return
@@ -237,9 +300,11 @@ export default function ChordsWizard(props) {
     }
 
     if (hashChanged && hasPendingChordDrafts()) {
-      toast.warning('Melody changed elsewhere; unsaved chord edits were discarded.')
+      setMelodyConflict({ abcHash: abcHash })
+      return
     }
 
+    setMelodyConflict(null)
     melodyHashRef.current = abcHash
     const next = loadSectionsFromAbc()
     setSections(next)
@@ -249,16 +314,14 @@ export default function ChordsWizard(props) {
     setDraftWarnings({})
   }, [props.notes, props.abc])
 
-  const onConsumePendingChordImport = props.onConsumePendingChordImport
   useEffect(function() {
     if (props.pendingChordImport && String(props.pendingChordImport).trim()) {
-      setPasteInitialText(String(props.pendingChordImport))
-      setShowPaste(true)
-      if (typeof onConsumePendingChordImport === 'function') {
-        onConsumePendingChordImport()
+      toast.info('Paste chord sheets via Import → Chord sheet. Lyrics with chords can be pasted into the Lyrics editor.')
+      if (typeof props.onConsumePendingChordImport === 'function') {
+        props.onConsumePendingChordImport()
       }
     }
-  }, [props.pendingChordImport, onConsumePendingChordImport])
+  }, [props.pendingChordImport, props.onConsumePendingChordImport])
 
   useEffect(function() {
     if (!props.autoActivateChordRecord || autoRecordOpenedRef.current) return
@@ -278,12 +341,71 @@ export default function ChordsWizard(props) {
     }
   }, [props.autoActivateChordRecord, sections, hideSections])
 
+  function flushPendingChordSaves() {
+    const pendingSectionKeys = Object.keys(sectionSaveTimers.current)
+    pendingSectionKeys.forEach(function(key) {
+      window.clearTimeout(sectionSaveTimers.current[key])
+      delete sectionSaveTimers.current[key]
+    })
+    if (wholeSaveTimer.current) {
+      window.clearTimeout(wholeSaveTimer.current)
+      wholeSaveTimer.current = null
+    }
+
+    const whole = wholeDraftRef.current
+    if (whole != null && chartLooksComplete(whole)) {
+      const noteLength = tune.noteLength || '1/8'
+      const alignedText = splitChordGridAcrossMelodyStrains(whole, primaryNoteLines())
+      const prep = prepareChordGridDraft(committedSectionsRef.current, alignedText, noteLength)
+      if (prep.ok) {
+        let baseSections = committedSectionsRef.current.slice()
+        if (prep.headerPatches && prep.headerPatches.length) {
+          prep.headerPatches.forEach(function(entry) {
+            if (!entry || entry.index < 0 || entry.index >= baseSections.length) return
+            baseSections[entry.index] = Object.assign({}, baseSections[entry.index], entry.patch)
+          })
+          baseSections = reindexChordsEditorSectionKeys(baseSections)
+        }
+        const asSections = reconcileChordSectionsFromGrid(
+          baseSections,
+          prep.grid,
+          firstSectionMeter(baseSections, tune.meter),
+          firstSectionTempo(baseSections, tune.tempo),
+          firstSectionKey(baseSections, tune.key)
+        )
+        saveSectionsTransaction(reindexChordsEditorSectionKeys(asSections), {
+          historyLabel: 'Save chords',
+        })
+      }
+      return
+    }
+
+    const drafts = sectionDraftsRef.current || {}
+    const draftKeys = Object.keys(drafts)
+    if (!draftKeys.length) return
+    const incomplete = draftKeys.some(function(key) {
+      return !chartLooksComplete(drafts[key])
+    })
+    if (incomplete) return
+    try {
+      const prepared = sectionsWithDrafts(committedSectionsRef.current, drafts)
+      saveSectionsTransaction(prepared.sections, {
+        historyLabel: 'Save section chords',
+        updateLyrics: prepared.updateLyrics,
+        lyricLines: prepared.lyricLines,
+      })
+    } catch (e) {
+      if (!(e && e.chartSaveBlocked)) throw e
+    }
+  }
+
+  flushPendingSavesRef.current = flushPendingChordSaves
+
   useEffect(function() {
     return function() {
-      Object.keys(sectionSaveTimers.current).forEach(function(key) {
-        window.clearTimeout(sectionSaveTimers.current[key])
-      })
-      if (wholeSaveTimer.current) window.clearTimeout(wholeSaveTimer.current)
+      if (typeof flushPendingSavesRef.current === 'function') {
+        flushPendingSavesRef.current()
+      }
     }
   }, [])
 
@@ -412,12 +534,26 @@ export default function ChordsWizard(props) {
 
     setDraftWarnings({})
     melodyHashRef.current = hashAbcNotes(primaryNoteLines())
+    ownChordSaveRef.current = true
     localSectionsRef.current = true
+    const beforeSections = committedSectionsRef.current
     const committed = Array.isArray(nextSections) ? nextSections.slice() : (result.blocks || [])
     setSections(committed)
     committedSectionsRef.current = committed
-    setSectionDrafts({})
-    setWholeDraft(null)
+    if (opts.clearDraftsOnSuccess) {
+      setSectionDrafts({})
+      setWholeDraft(null)
+    } else if (opts.clearSectionDraftKey) {
+      setSectionDrafts(function(prev) {
+        const next = remapSectionDraftKeys(beforeSections, committed, prev)
+        delete next[opts.clearSectionDraftKey]
+        return next
+      })
+    } else {
+      setSectionDrafts(function(prev) {
+        return remapSectionDraftKeys(beforeSections, committed, prev)
+      })
+    }
 
     props.tunebook.saveTune(tune, false, {
       historyLabel: opts.historyLabel || 'Save chords',
@@ -554,17 +690,16 @@ export default function ChordsWizard(props) {
       const gridText = prep.ok ? prep.grid : chartText
       let baseSections = sections.slice()
       if (prep.ok && prep.headerPatches && prep.headerPatches.length) {
+        // Chart # headers may set notation-marker flags only — never retitle
+        // sections or rewrite lyric markers from the chords editor.
         prep.headerPatches.forEach(function(entry) {
           if (!entry || entry.index < 0 || entry.index >= baseSections.length) return
-          baseSections[entry.index] = Object.assign({}, baseSections[entry.index], entry.patch)
+          if (!entry.patch || !entry.patch.writeNotationMarker) return
+          baseSections[entry.index] = Object.assign({}, baseSections[entry.index], {
+            writeNotationMarker: true,
+          })
         })
-        baseSections = reindexChordsEditorSectionKeys(baseSections)
       }
-      const lyricRename = lyricLinesAfterHeaderPatches(
-        baseSections,
-        prep.ok ? prep.headerPatches : [],
-        getLyricLines(tune)
-      )
       if (!prep.ok) {
         toast.warning(prep.error || 'Could not save recorded chords')
         return
@@ -579,16 +714,13 @@ export default function ChordsWizard(props) {
       saveSectionsTransaction(reindexChordsEditorSectionKeys(reconciled), {
         historyLabel: 'Save recorded chords',
         firstTempo: payload.tempo,
-        updateLyrics: lyricRename.updated,
-        lyricLines: lyricRename.lines,
+        clearDraftsOnSuccess: true,
       })
-      if (lyricRename.updated && typeof props.onLyricsImport === 'function') {
-        props.onLyricsImport(lyricRename.lines)
-      }
     } else if (recordTarget.section) {
+      const sectionKey = recordTarget.section.key
       const next = replaceSectionChart(
         sections,
-        recordTarget.section.key,
+        sectionKey,
         payload.chart,
         payload.meter || recordTarget.section.meter,
         payload.tempo != null ? payload.tempo : recordTarget.section.tempo
@@ -596,6 +728,7 @@ export default function ChordsWizard(props) {
       saveSectionsTransaction(next, {
         historyLabel: 'Save recorded section chords',
         firstTempo: firstSectionTempo(next, payload.tempo || tune.tempo),
+        clearSectionDraftKey: sectionKey,
       })
     }
     setRecordTarget(null)
@@ -647,42 +780,6 @@ export default function ChordsWizard(props) {
     })
   }
 
-  function handleStanzaNameChange(section, nextName) {
-    if (!section) return
-    const base = sectionsWithDrafts(sections, sectionDrafts).sections
-    const renamed = renameChordsEditorSection(base, section.key, nextName, getLyricLines(tune))
-    if (!renamed.ok) {
-      toast.warning(renamed.error || 'Could not rename stanza')
-      return
-    }
-    if (renamed.updateLyrics && Array.isArray(renamed.lyricLines)
-      && typeof props.onLyricsImport === 'function') {
-      props.onLyricsImport(renamed.lyricLines)
-    }
-    setSectionDrafts(function(prev) {
-      const nextDrafts = {}
-      renamed.sections.forEach(function(s, i) {
-        const old = base[i]
-        if (old && Object.prototype.hasOwnProperty.call(prev, old.key)) {
-          nextDrafts[s.key] = prev[old.key]
-        }
-      })
-      return nextDrafts
-    })
-    saveSectionsTransaction(renamed.sections, {
-      historyLabel: 'Rename chord section',
-      updateLyrics: !!renamed.updateLyrics,
-      lyricLines: renamed.lyricLines,
-    })
-  }
-
-  function lyricStanzaOptions() {
-    return listLyricSections(getLyricLines(tune)).map(function(section) {
-      const label = section.title || section.header || 'Untitled'
-      return { value: label, label: label }
-    })
-  }
-
   function sectionChartValue(section) {
     if (Object.prototype.hasOwnProperty.call(sectionDrafts, section.key)) {
       return sectionDrafts[section.key]
@@ -694,10 +791,6 @@ export default function ChordsWizard(props) {
     let next = Array.isArray(baseSections) ? baseSections.slice() : []
     const d = drafts || sectionDrafts
     const noteLength = tune.noteLength || '1/8'
-    const noteLines = primaryNoteLines()
-    const strains = splitMelodyStrainsWithBarlines(noteLines)
-    let updateLyrics = false
-    let lyricLinesOut = null
     Object.keys(d).forEach(function(key) {
       const sectionIndex = next.findIndex(function(s) { return s && s.key === key })
       if (sectionIndex < 0) return
@@ -711,11 +804,9 @@ export default function ChordsWizard(props) {
         throw err
       }
       let chart = stripChartStructureMarkers(prep.chart)
-      const strainIdx = section.melodyStrainIndex
-      if (strainIdx != null && strainIdx >= 0 && strains[strainIdx]) {
-        const targetBars = extractBarsFromMelodyText(strains[strainIdx].text).length
-        chart = normalizeChartToBarCount(chart, targetBars)
-      }
+      // Do not trim the chart to the current ABC bar count here — that silently
+      // dropped bars the user just added. Rest scaffolds expand on merge;
+      // pitched melody fails closed with a draft warning instead.
       const draftSplit = splitChartHeaderAndBody(d[key])
       const structurePatch = {
         strainStartBarline: parsed.strainStartBarline,
@@ -723,20 +814,10 @@ export default function ChordsWizard(props) {
         endingMarkers: parsed.endingMarkers,
         displayChart: normalizeChordChartRepeatMarks(draftSplit.body || ''),
       }
-      if (prep.headerPatch) {
-        const oldHeader = section.header || section.title || ''
-        next[sectionIndex] = Object.assign({}, section, prep.headerPatch, {
-          key: section.key,
+      if (prep.headerPatch && prep.headerPatch.writeNotationMarker) {
+        next[sectionIndex] = Object.assign({}, section, {
+          writeNotationMarker: true,
         })
-        const renamed = renameLyricSectionHeader(
-          lyricLinesOut || getLyricLines(tune),
-          oldHeader,
-          prep.headerPatch.title || prep.headerPatch.header
-        )
-        if (renamed.updated) {
-          updateLyrics = true
-          lyricLinesOut = renamed.lines
-        }
       }
       const opts = {}
       if (prep.writeNotationMarker) opts.writeNotationMarker = true
@@ -763,8 +844,8 @@ export default function ChordsWizard(props) {
     })
     return {
       sections: reindexChordsEditorSectionKeys(next),
-      updateLyrics: updateLyrics,
-      lyricLines: lyricLinesOut,
+      updateLyrics: false,
+      lyricLines: null,
     }
   }
 
@@ -801,14 +882,8 @@ export default function ChordsWizard(props) {
         if (!prepared) return drafts
         // Defer save so we return drafts synchronously from this updater
         window.setTimeout(function() {
-          if (prepared.updateLyrics && Array.isArray(prepared.lyricLines)
-            && typeof props.onLyricsImport === 'function') {
-            props.onLyricsImport(prepared.lyricLines)
-          }
           saveSectionsTransaction(prepared.sections, {
             historyLabel: historyLabel || 'Save chords',
-            updateLyrics: prepared.updateLyrics,
-            lyricLines: prepared.lyricLines,
             draftWarningKey: sectionKey,
           })
         }, 0)
@@ -849,19 +924,15 @@ export default function ChordsWizard(props) {
         return
       }
       let baseSections = sections.slice()
-      const sectionsBeforeReindex = sections.slice()
       if (prep.headerPatches && prep.headerPatches.length) {
         prep.headerPatches.forEach(function(entry) {
           if (!entry || entry.index < 0 || entry.index >= baseSections.length) return
-          baseSections[entry.index] = Object.assign({}, baseSections[entry.index], entry.patch)
+          if (!entry.patch || !entry.patch.writeNotationMarker) return
+          baseSections[entry.index] = Object.assign({}, baseSections[entry.index], {
+            writeNotationMarker: true,
+          })
         })
-        baseSections = reindexChordsEditorSectionKeys(baseSections)
       }
-      const lyricRename = lyricLinesAfterHeaderPatches(
-        sectionsBeforeReindex,
-        prep.headerPatches,
-        getLyricLines(tune)
-      )
       const reconciled = reconcileBlocksFromGrid(
         baseSections,
         prep.grid,
@@ -877,13 +948,8 @@ export default function ChordsWizard(props) {
       void reconciled
       saveSectionsTransaction(reindexChordsEditorSectionKeys(asSections), {
         historyLabel: 'Save chords',
-        updateLyrics: lyricRename.updated,
-        lyricLines: lyricRename.lines,
         draftWarningKey: WHOLE_DRAFT_WARNING_KEY,
       })
-      if (lyricRename.updated && typeof props.onLyricsImport === 'function') {
-        props.onLyricsImport(lyricRename.lines)
-      }
     }, AUTOSAVE_MS)
   }
 
@@ -893,58 +959,205 @@ export default function ChordsWizard(props) {
     scheduleWholeAutosave(value)
   }
 
-  function handlePasteSave(result) {
-    if (!result) return
-    if (result.skipAbcMerge) {
-      const committed = commitPasteChordSheetToTune({
-        result: result,
-        tune: tune,
-        tunebook: props.tunebook,
-        skipAbcMerge: true,
-        historyLabel: result.historyLabel || 'Update lyric chord sheet',
-      })
-      if (!committed.ok) {
-        toast.error(
-          (committed.error && committed.error.message)
-            ? committed.error.message
-            : 'Could not update lyric chord sheet'
-        )
-        return
-      }
-      setShowPaste(false)
-      setPasteInitialText(null)
-      setPasteInitialUpdateLyrics(false)
-      toast.success('Lyric chord sheet updated')
-      if (Array.isArray(committed.lyricLines) && typeof props.onLyricsImport === 'function') {
-        props.onLyricsImport(committed.lyricLines)
-      }
+  function applyChordsFromLyricsSheet() {
+    const lyricLines = getPlainLyricLines(tune)
+    if (!hasLyricEmbeddedChords(lyricLines)) {
+      toast.warning('Lyrics do not contain chords to apply')
       return
     }
-    const lyricLines = result.updateLyrics
-      ? (Array.isArray(result.lyricLines) ? result.lyricLines : getPlainLyricLines(tune))
-      : undefined
-    const ok = saveSectionsTransaction(result.sections || [], {
-      historyLabel: result.historyLabel || (result.updateLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
-      meta: result.meta,
-      chordSheetAlignment: result.chordSheetAlignment,
-      selectedMeterOption: result.selectedMeterOption,
-      firstMeter: firstSectionMeter(result.sections || [], tune.meter),
-      firstKey: firstSectionKey(result.sections || [], tune.key),
-      wipeNotation: true,
-      updateLyrics: !!result.updateLyrics,
-      lyricLines: lyricLines,
-      successToast: result.updateLyrics
-        ? 'Chords and lyrics updated'
-        : 'Chords updated',
-    })
-    if (ok) {
-      setShowPaste(false)
-      setPasteInitialText(null)
-      setPasteInitialUpdateLyrics(false)
-      if (result.updateLyrics && Array.isArray(lyricLines) && typeof props.onLyricsImport === 'function') {
-        props.onLyricsImport(lyricLines)
-      }
+    // Build alignment from the lyrics field so section headers and ChordPro
+    // inline chords survive ChordSheetJS round-tripping (which drops # headers).
+    const alignment = buildChordSheetAlignmentFromLines(lyricLines)
+    let parsedMeta = {
+      title: tune.name,
+      composer: tune.composer,
+      key: tune.key,
+      capo: tune.capo,
+      tempo: tune.tempo,
+      meter: tune.meter || '4/4',
+      chordProSource: lyricLines.join('\n'),
+      chordSheetAlignment: alignment,
     }
+    try {
+      const parsed = parseChordSheetText(lyricLines.join('\n'), { fallbackTitle: tune.name })
+      parsedMeta = Object.assign({}, parsedMeta, {
+        title: parsed.title || parsedMeta.title,
+        composer: parsed.composer || parsedMeta.composer,
+        key: parsed.key || parsedMeta.key,
+        capo: parsed.capo != null ? parsed.capo : parsedMeta.capo,
+        tempo: parsed.tempo != null ? parsed.tempo : parsedMeta.tempo,
+        meter: parsed.meter || parsedMeta.meter,
+        chordProSource: parsed.chordProSource || parsedMeta.chordProSource,
+      })
+    } catch (e) {
+      // Alignment from lyrics is enough when ChordSheetJS cannot parse.
+    }
+    const pasteSections = listPasteChordSections({
+      chordSheetAlignment: alignment,
+      meter: parsedMeta.meter,
+      key: parsedMeta.key,
+      tempo: parsedMeta.tempo,
+    })
+    if (!pasteSections.length) {
+      toast.error('No chord sections found in lyrics')
+      return
+    }
+    const defaultMeter = firstSectionMeter(pasteSections, tune.meter || parsedMeta.meter || '4/4')
+    const nextSections = buildTuneSectionsFromPaste(pasteSections, defaultMeter)
+    const committed = commitPasteChordSheetToTune({
+      result: {
+        sections: nextSections,
+        meta: {
+          title: parsedMeta.title || tune.name,
+          name: parsedMeta.title || tune.name,
+          composer: parsedMeta.composer || tune.composer,
+          key: parsedMeta.key || tune.key,
+          capo: parsedMeta.capo != null ? parsedMeta.capo : tune.capo,
+          tempo: parsedMeta.tempo != null ? parsedMeta.tempo : tune.tempo,
+          meter: defaultMeter,
+          chordProSource: parsedMeta.chordProSource,
+        },
+        chordSheetAlignment: alignment,
+        chordProSource: parsedMeta.chordProSource,
+        selectedMeterOption: { meter: defaultMeter, id: 'first-section' },
+        updateLyrics: true,
+        lyricLines: lyricLines,
+      },
+      tune: tune,
+      abc: currentAbcString(),
+      tunebook: props.tunebook,
+      abcjsParser: abcjsParser,
+      forceUpdateLyrics: true,
+      skipAbcMerge: false,
+      historyLabel: 'Apply chords from lyrics sheet',
+    })
+    if (!committed.ok) {
+      toast.error(
+        (committed.error && committed.error.message)
+          ? committed.error.message
+          : 'Could not apply chords from lyrics'
+      )
+      return
+    }
+    localSectionsRef.current = true
+    ownChordSaveRef.current = true
+    melodyHashRef.current = hashAbcNotes(primaryNoteLines())
+    // Keep lyric-line structured paste charts; ABC reload can flatten bars.
+    const fromAbc = loadSectionsFromAbc()
+    const structured = nextSections.map(function(pasteSection, index) {
+      const abcSection = fromAbc[index]
+      if (!abcSection) return pasteSection
+      return Object.assign({}, abcSection, {
+        chart: pasteSection.chartRevisit
+          ? (abcSection.chart || pasteSection.chart)
+          : (pasteSection.chart || abcSection.chart),
+        chartRevisit: pasteSection.chartRevisit,
+        header: pasteSection.header || abcSection.header,
+        title: pasteSection.title || abcSection.title,
+        type: pasteSection.type || abcSection.type,
+        lyricLines: pasteSection.lyricLines && pasteSection.lyricLines.length
+          ? pasteSection.lyricLines
+          : abcSection.lyricLines,
+      })
+    })
+    setSections(structured.length ? structured : fromAbc)
+    committedSectionsRef.current = structured.length ? structured : fromAbc
+    setShowOverrideFromLyricsConfirm(false)
+    toast.success('Chords and ABC updated from lyrics sheet')
+    if (Array.isArray(committed.lyricLines) && typeof props.onLyricsImport === 'function') {
+      props.onLyricsImport(committed.lyricLines)
+    }
+  }
+
+  function requestApplyFromLyrics() {
+    const lyricLines = getPlainLyricLines(tune)
+    if (!hasLyricEmbeddedChords(lyricLines)) {
+      toast.warning('Lyrics do not contain chords to apply')
+      return
+    }
+    if (noteLinesHaveRealMelody(primaryNoteLines())) {
+      setShowOverrideFromLyricsConfirm(true)
+      return
+    }
+    applyChordsFromLyricsSheet()
+  }
+
+  function buildNotationChordChart() {
+    const melodyNoteLines = chordNoteLinesFromTune(tune, primaryNoteLines())
+    if (!melodyNoteLines.length) return { chordChart: '', melodyNoteLines: [] }
+    let chordChart = ''
+    try {
+      const melodyAbc = props.tunebook && props.tunebook.abcTools
+        ? props.tunebook.abcTools.emptyABC(tune.name) + melodyNoteLines.join('\n')
+        : ''
+      chordChart = melodyAbc
+        ? abcjsParser.renderChords(
+          melodyAbc,
+          false,
+          Number(tune.transpose) || 0,
+          tune.key,
+          tune.noteLength,
+          tune.meter
+        )
+        : ''
+    } catch (e) {
+      chordChart = ''
+    }
+    return { chordChart: chordChart, melodyNoteLines: melodyNoteLines }
+  }
+
+  function applyChordsToLyricsSheet() {
+    const lyricLines = getPlainLyricLines(tune)
+    if (!lyricLines.some(function(line) { return String(line || '').trim() })) {
+      toast.warning('No lyrics to apply chords onto')
+      setShowApplyToLyricsConfirm(false)
+      return
+    }
+    const built = buildNotationChordChart()
+    const applied = applyNotationChordsToLyricChordPro(tune, {
+      chordChart: built.chordChart,
+      melodyNoteLines: built.melodyNoteLines,
+      lyricLines: lyricLines,
+    })
+    if (!applied.ok) {
+      toast.warning(applied.error || 'Could not apply notation chords to lyrics')
+      setShowApplyToLyricsConfirm(false)
+      return
+    }
+    setPlainLyricLines(tune, applied.lyricLines)
+    tune.meta = Object.assign({}, tune.meta || {})
+    tune.meta.chordProSource = applied.lyricLines.join('\n')
+    setShowApplyToLyricsConfirm(false)
+    if (typeof props.onLyricsImport === 'function') {
+      props.onLyricsImport(applied.lyricLines, {
+        historyLabel: 'Apply notation chords to lyrics',
+      })
+    } else {
+      props.tunebook.saveTune(tune, false, {
+        historyLabel: 'Apply notation chords to lyrics',
+        immediate: true,
+      })
+    }
+    toast.success('Notation chords applied to lyrics as ChordPro')
+  }
+
+  function requestApplyToLyrics() {
+    const lyricLines = getPlainLyricLines(tune)
+    if (!lyricLines.some(function(line) { return String(line || '').trim() })) {
+      toast.warning('No lyrics to apply chords onto')
+      return
+    }
+    const built = buildNotationChordChart()
+    if (!String(built.chordChart || '').trim()
+      || !chartBlockHasChords(built.chordChart)) {
+      toast.warning('Notation has no chords to apply')
+      return
+    }
+    if (hasLyricEmbeddedChords(lyricLines)) {
+      setShowApplyToLyricsConfirm(true)
+      return
+    }
+    applyChordsToLyricsSheet()
   }
 
   function firstReuseTitle(section) {
@@ -960,6 +1173,8 @@ export default function ChordsWizard(props) {
   const strainWarning = (warningsBanner.current || []).find(function(w) {
     return w && w.code === 'strain_lyric_count_mismatch'
   })
+  const incompleteDrafts = hasIncompleteChordDrafts()
+  const hasDraftSaveErrors = Object.keys(draftWarnings).length > 0
 
   return (
     <div className="chords-wizard">
@@ -967,6 +1182,25 @@ export default function ChordsWizard(props) {
         <Alert variant="info" className="mb-2 py-2">
           Lyric chords in the lyrics field are the singing-view source of truth.
           This editor changes ABC staff/structure chords only.
+        </Alert>
+      ) : null}
+      {melodyConflict ? (
+        <Alert variant="warning" className="mb-2 py-2 d-flex flex-wrap align-items-center gap-2">
+          <span className="flex-grow-1">
+            Notation changed while you have unsaved chord edits. Saving these edits
+            would overwrite ABC chords from the new notation. Discard drafts to sync,
+            or keep editing (cannot save safely until resolved).
+          </span>
+          <Button size="sm" variant="outline-secondary" onClick={discardDraftsAndReloadFromNotation}>
+            Discard drafts
+          </Button>
+        </Alert>
+      ) : null}
+      {!melodyConflict && (incompleteDrafts || hasDraftSaveErrors) ? (
+        <Alert variant="warning" className="mb-2 py-2">
+          {incompleteDrafts
+            ? 'Chord edits cannot be saved until each non-empty line ends with | (or is a complete bar line).'
+            : 'Chord edits could not be saved without a destructive change. Fix the chart or discard drafts.'}
         </Alert>
       ) : null}
       <Form.Group controlId="chordwiz">
@@ -994,6 +1228,33 @@ export default function ChordsWizard(props) {
             <span className="text-muted small align-self-center">{savingLabel}</span>
           ) : null}
           <div className="chords-wizard-toolbar-end">
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              onClick={function() { setShowLyricsChordsHelp(true) }}
+              title="Help: lyrics formats and section mapping"
+            >
+              Help
+            </Button>
+            <Button
+              variant="warning"
+              size="sm"
+              onClick={requestApplyFromLyrics}
+              disabled={!tuneHasLyricEmbeddedChords(tune)}
+              title="Override chords and ABC notation from the lyrics chord sheet"
+              data-testid="chords-apply-from-lyrics"
+            >
+              From Lyrics
+            </Button>
+            <Button
+              variant="outline-warning"
+              size="sm"
+              onClick={requestApplyToLyrics}
+              title="Write notation chords into lyrics as ChordPro (lossy timing)"
+              data-testid="chords-apply-to-lyrics"
+            >
+              To Lyrics
+            </Button>
             <ChordsSearchButton
               tuneId={tune && tune.id}
               title={tune.name}
@@ -1003,22 +1264,19 @@ export default function ChordsWizard(props) {
               onGenreAccept={props.onGenreAccept}
               token={props.token}
               tunebook={props.tunebook}
-              autoStartSearch={props.autoStartChordSearch}
-              showLyricsCheckbox={false}
-              defaultUpdateLyrics={false}
+              autoStartSearch={false}
+              externalOnly={true}
               confirmOverwrite={true}
               existingLyrics={getLyricLines(tune).join('\n')}
-              onChords={function(result, options) {
+              onChords={function(result) {
                 const committed = commitChordSearchResultToTune({
                   result: result,
                   tune: tune,
                   abc: currentAbcString(),
                   tunebook: props.tunebook,
                   abcjsParser: abcjsParser,
-                  updateLyrics: !!(options && options.updateLyrics),
-                  historyLabel: (options && options.updateLyrics)
-                    ? 'Search chords and lyrics'
-                    : 'Search chords',
+                  updateLyrics: true,
+                  historyLabel: 'Search chords and lyrics',
                 })
                 if (!committed.ok) {
                   toast.error(
@@ -1029,6 +1287,8 @@ export default function ChordsWizard(props) {
                   return
                 }
                 localSectionsRef.current = true
+                ownChordSaveRef.current = true
+                melodyHashRef.current = hashAbcNotes(primaryNoteLines())
                 const next = loadSectionsFromAbc()
                 setSections(next)
                 committedSectionsRef.current = next
@@ -1038,27 +1298,10 @@ export default function ChordsWizard(props) {
                   && typeof props.onLyricsImport === 'function') {
                   props.onLyricsImport(committed.lyricLines)
                 }
-                toast.success(
-                  committed.updateLyrics
-                    ? 'Chords and lyrics updated from search'
-                    : 'Chords updated from search'
-                )
+                toast.success('Chords and lyrics updated from search')
               }}
-              onLyrics={function() { /* lyrics applied via merge when empty */ }}
+              onLyrics={function() { /* lyrics applied via merge */ }}
             />
-            <Button
-              variant="outline-primary"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
-              title="Paste lyrics and chords"
-              onClick={function() {
-                setPasteInitialUpdateLyrics(false)
-                setPasteInitialText(null)
-                setShowPaste(true)
-              }}
-            >
-              {props.tunebook && props.tunebook.icons ? props.tunebook.icons.paste : null}
-              Paste chords and lyrics
-            </Button>
           </div>
         </div>
       </Form.Group>
@@ -1153,27 +1396,12 @@ export default function ChordsWizard(props) {
                       }}
                     />
                   ) : null}
-                  <div style={{ flex: '1 1 12rem', minWidth: '10rem', maxWidth: '22rem' }}>
-                    <CreatableSelect
-                      value={section.title ? { value: section.title, label: section.title } : null}
-                      onChange={function(val) {
-                        if (!val) return
-                        handleStanzaNameChange(section, val.label || val.value)
-                      }}
-                      options={lyricStanzaOptions()}
-                      placeholder="Stanza name"
-                      isClearable={false}
-                      blurInputOnSelect={true}
-                      createOptionPosition="first"
-                      allowCreateWhileLoading={true}
-                      allowCreate={true}
-                      formatCreateLabel={function(input) { return 'Use "' + input + '"' }}
-                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-                      styles={{
-                        container: function(base) { return Object.assign({}, base, { width: '100%' }) },
-                        menuPortal: function(base) { return Object.assign({}, base, { zIndex: 9999 }) },
-                      }}
-                    />
+                  <div
+                    className="text-muted small"
+                    style={{ flex: '1 1 12rem', minWidth: '10rem', maxWidth: '22rem', padding: '0.35rem 0' }}
+                    title="Section name comes from lyric markers — edit it in the Lyrics tab"
+                  >
+                    {section.title || section.header || 'Untitled'}
                   </div>
                   {!isRevisit ? (
                     <>
@@ -1219,6 +1447,11 @@ export default function ChordsWizard(props) {
                         fitChordTextarea(e.target)
                         handleSectionDraftChange(section, e.target.value)
                       }}
+                      onBlur={function() {
+                        if (typeof flushPendingSavesRef.current === 'function') {
+                          flushPendingSavesRef.current()
+                        }
+                      }}
                       ref={fitChordTextarea}
                     />
                   </>
@@ -1261,19 +1494,67 @@ export default function ChordsWizard(props) {
         onSave={handleRecordSave}
       />
 
-      <PasteChordSheetModal
-        show={showPaste}
-        onHide={function() {
-          setShowPaste(false)
-          setPasteInitialText(null)
-          setPasteInitialUpdateLyrics(false)
-        }}
-        tune={tune}
-        tuneSections={sections}
-        initialText={pasteInitialText}
-        initialUpdateLyrics={pasteInitialUpdateLyrics}
-        onSaveSections={handlePasteSave}
+      <LyricsChordsHelpModal
+        show={showLyricsChordsHelp}
+        onHide={function() { setShowLyricsChordsHelp(false) }}
       />
+
+      <Modal
+        show={showOverrideFromLyricsConfirm}
+        onHide={function() { setShowOverrideFromLyricsConfirm(false) }}
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Apply chords from lyrics?</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Alert variant="warning" className="mb-0">
+            This will rebuild chord sections and <strong>replace ABC notation</strong> from the
+            lyrics chord sheet. Existing pitched notes are not preserved.
+          </Alert>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={function() { setShowOverrideFromLyricsConfirm(false) }}>
+            Cancel
+          </Button>
+          <Button
+            variant="warning"
+            data-testid="chords-apply-from-lyrics-confirm"
+            onClick={applyChordsFromLyricsSheet}
+          >
+            Override chords and ABC
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal
+        show={showApplyToLyricsConfirm}
+        onHide={function() { setShowApplyToLyricsConfirm(false) }}
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Apply notation chords to lyrics?</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Alert variant="warning" className="mb-0">
+            This writes notation chords into the lyrics as ChordPro (<code>[Am]word</code>).
+            Timing is <strong>lossy</strong>, and any existing lyric-embedded chords will be
+            <strong> replaced</strong>. ABC notation is not changed.
+          </Alert>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={function() { setShowApplyToLyricsConfirm(false) }}>
+            Cancel
+          </Button>
+          <Button
+            variant="warning"
+            data-testid="chords-apply-to-lyrics-confirm"
+            onClick={applyChordsToLyricsSheet}
+          >
+            Replace lyrics chords
+          </Button>
+        </Modal.Footer>
+      </Modal>
 
       <Modal
         show={showMarkerConfirm}

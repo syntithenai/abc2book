@@ -27,9 +27,26 @@ import {
   readPracticeListsMap,
   readDeletedPracticeLists,
 } from './practiceListStore'
+import {
+  buildDriveUploadShrinkWarning,
+  readLastDriveUploadSnapshot,
+  writeLastDriveUploadSnapshot,
+} from './driveUploadShrinkGuard'
+import { shouldRefuseTunesPersist } from './tunesPersistenceGuard'
     
 export default function useGoogleSheet(props) {
-  const {token, logout, refresh, tunes, pollingInterval, onMerge, pausePolling, setGoogleDocumentId, googleDocumentId} = props
+  const {
+    token,
+    logout,
+    refresh,
+    tunes,
+    pollingInterval,
+    onMerge,
+    pausePolling,
+    setGoogleDocumentId,
+    googleDocumentId,
+    onUploadShrinkWarning,
+  } = props
   var tuneBookName="ABC Tune Book"
 
   var googleSheetId = useRef(null)
@@ -38,12 +55,17 @@ export default function useGoogleSheet(props) {
   var utils = useUtils()
   var updateSheetTimer = useRef(null)
   var onMergeRef = useRef(onMerge)
+  var onUploadShrinkWarningRef = useRef(onUploadShrinkWarning)
   var tunesRef = useRef(tunes)
   var docsRef = useRef(null)
 
   useEffect(function() {
     onMergeRef.current = onMerge
   }, [onMerge])
+
+  useEffect(function() {
+    onUploadShrinkWarningRef.current = onUploadShrinkWarning
+  }, [onUploadShrinkWarning])
 
   useEffect(function() {
     tunesRef.current = tunes
@@ -72,9 +94,42 @@ export default function useGoogleSheet(props) {
   }, pausePolling, pollingInterval)
 
   docsRef.current = docs
+
+  function performUpload(nowTunes, deletedTunes) {
+    var performanceSets = readPerformanceSetsMap()
+    var deletedPerformanceSets = readDeletedPerformanceSets()
+    var playlists = readPlaylistsMap()
+    var deletedPlaylists = readDeletedPlaylists()
+    var practiceLists = readPracticeListsMap()
+    var deletedPracticeLists = readDeletedPracticeLists()
+    var tuneCount = Object.keys(nowTunes || {}).length
+    var tuneAbcBody
+    if (isShardedSyncEnabled() && tuneCount > SYNC_SHARD_SIZE) {
+      tuneAbcBody = buildShardedTuneAbc(nowTunes, function(chunkMap, del) {
+        return abcTools.tunesToAbc(chunkMap, del)
+      }, deletedTunes)
+    } else {
+      tuneAbcBody = abcTools.tunesToAbc(nowTunes, deletedTunes)
+    }
+    var abc = appendTuneBookSyncSectionsToAbc(
+      tuneAbcBody,
+      performanceSets,
+      deletedPerformanceSets,
+      playlists,
+      deletedPlaylists,
+      practiceLists,
+      deletedPracticeLists
+    )
+    return docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
+      writeLastDriveUploadSnapshot(nowTunes)
+      pausePolling.current = false
+    })
+  }
   
   // save current tunes database online
-  function updateSheet(delay=3000) {
+  function updateSheet(delay=3000, options) {
+    const opts = options || {}
+    const forceShrinkUpload = !!opts.forceShrinkUpload
     return new Promise(function(resolve,reject) {
       pausePolling.current = true
       if (googleSheetId.current) { 
@@ -86,34 +141,37 @@ export default function useGoogleSheet(props) {
           ]).then(function(results) {
               var nowTunes = results[0] || {}
               var deletedTunes = results[1] || {}
-              var performanceSets = readPerformanceSetsMap()
-              var deletedPerformanceSets = readDeletedPerformanceSets()
-              var playlists = readPlaylistsMap()
-              var deletedPlaylists = readDeletedPlaylists()
-              var practiceLists = readPracticeListsMap()
-              var deletedPracticeLists = readDeletedPracticeLists()
-              var tuneCount = Object.keys(nowTunes).length
-              var tuneAbcBody
-              if (isShardedSyncEnabled() && tuneCount > SYNC_SHARD_SIZE) {
-                tuneAbcBody = buildShardedTuneAbc(nowTunes, function(chunkMap, del) {
-                  return abcTools.tunesToAbc(chunkMap, del)
-                }, deletedTunes)
-              } else {
-                tuneAbcBody = abcTools.tunesToAbc(nowTunes, deletedTunes)
+              // If IndexedDB looks wiped but memory still has the full book,
+              // upload the in-memory copy and heal local storage.
+              var memoryTunes = tunesRef.current || {}
+              if (shouldRefuseTunesPersist(nowTunes, memoryTunes)) {
+                console.warn(
+                  'Local songbook storage is much smaller than in-memory library; uploading memory copy and healing storage.'
+                )
+                nowTunes = memoryTunes
+                utils.saveLocalforageObject('bookstorage_tunes', nowTunes)
               }
-              var abc = appendTuneBookSyncSectionsToAbc(
-                tuneAbcBody,
-                performanceSets,
-                deletedPerformanceSets,
-                playlists,
-                deletedPlaylists,
-                practiceLists,
-                deletedPracticeLists
-              )
-              docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
+              var warning = forceShrinkUpload
+                ? null
+                : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), nowTunes)
+              if (warning && typeof onUploadShrinkWarningRef.current === 'function') {
+                return Promise.resolve(onUploadShrinkWarningRef.current(warning)).then(function(confirmed) {
+                  if (!confirmed) {
+                    pausePolling.current = false
+                    resolve({ cancelled: true, warning: warning })
+                    return
+                  }
+                  return performUpload(nowTunes, deletedTunes).then(function() {
+                    resolve({ uploaded: true })
+                  })
+                }).catch(function() {
                   pausePolling.current = false
+                  resolve({ cancelled: true })
+                })
+              }
+              return performUpload(nowTunes, deletedTunes).then(function() {
+                resolve({ uploaded: true })
               })
-              resolve()
             })
         },delay)
       } else {
@@ -121,7 +179,6 @@ export default function useGoogleSheet(props) {
       }
     })
   }
-
 
 	const findTuneBookInDrive = useCallback(function() {
 		if (!token || !token.access_token) return

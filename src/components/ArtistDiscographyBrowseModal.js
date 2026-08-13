@@ -118,14 +118,27 @@ export default function ArtistDiscographyBrowseModal(props) {
   }, [])
 
   async function runQueueAction(action) {
-    if (queueBusy) return
+    if (queueBusy) return null
     setQueueBusy(true)
     setProgress('Preparing playlist…')
     try {
-      await action()
+      return await action()
     } finally {
       setQueueBusy(false)
       setProgress('')
+    }
+  }
+
+  function preparePlaybackGesture() {
+    const mediaController = props.mediaController
+    if (mediaController && mediaController.preparePlaybackFromUserGesture) {
+      mediaController.preparePlaybackFromUserGesture()
+    }
+  }
+
+  function closeAfterPlay(result) {
+    if (result && result.played > 0 && typeof props.onHide === 'function') {
+      props.onHide()
     }
   }
 
@@ -133,9 +146,11 @@ export default function ArtistDiscographyBrowseModal(props) {
     event.preventDefault()
     const candidates = allArtistCandidates(albums)
     if (!candidates.length) return
-    await runQueueAction(function() {
+    preparePlaybackGesture()
+    const result = await runQueueAction(function() {
       return queueResolvedCandidates(candidates, playbackContext, { mode: 'play', name: displayName + ' — artist' })
     })
+    closeAfterPlay(result)
   }
 
   async function handleArtistQueue(event, mode) {
@@ -151,12 +166,14 @@ export default function ArtistDiscographyBrowseModal(props) {
     event.preventDefault()
     const candidates = albumCandidates(album)
     if (!candidates.length) return
-    await runQueueAction(function() {
+    preparePlaybackGesture()
+    const result = await runQueueAction(function() {
       return queueResolvedCandidates(candidates, playbackContext, {
         mode: 'play',
         name: (album && album.title ? album.title : 'Album') + ' — ' + displayName,
       })
     })
+    closeAfterPlay(result)
   }
 
   async function handleAlbumQueue(album, mode, event) {
@@ -174,9 +191,11 @@ export default function ArtistDiscographyBrowseModal(props) {
   async function handleTrackPlay(candidate, event) {
     event.preventDefault()
     if (!candidate) return
-    await runQueueAction(function() {
+    preparePlaybackGesture()
+    const result = await runQueueAction(function() {
       return playResolvedCandidate(candidate, playbackContext)
     })
+    closeAfterPlay(result)
   }
 
   async function handleTrackQueue(candidate, mode, event) {

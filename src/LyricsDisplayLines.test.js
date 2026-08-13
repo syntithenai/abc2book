@@ -5,6 +5,8 @@ describe('LyricsDisplayLines helpers', function() {
     expect(displaySectionHeader('[Verse 1]')).toBe('Verse 1');
     expect(displaySectionHeader('# Chorus')).toBe('Chorus');
     expect(displaySectionHeader('## Bridge')).toBe('Bridge');
+    expect(displaySectionHeader('(Outro)')).toBe('Outro');
+    expect(displaySectionHeader('(spoken bridge)')).toBe('Spoken Bridge');
   });
 
   test('displaySectionHeader capitalises section labels', function() {

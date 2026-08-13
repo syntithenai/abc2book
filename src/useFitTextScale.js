@@ -57,20 +57,44 @@ export function useFitTextScale(options) {
     let cancelled = false;
     let raf = null;
 
+    function layoutColumn() {
+      return typeof container.closest === 'function'
+        ? container.closest('.tune-lyrics-structure-sync-structure, .tune-panel-structure, .music-chords-block-col, .music-body-chords')
+        : null;
+    }
+
     function columnWidth() {
       const widthCol = widthColumnRef && widthColumnRef.current;
       if (widthCol && widthCol.clientWidth > 0) {
         return widthCol.clientWidth;
       }
-      // Prefer the layout column width so a content-sized container cannot
-      // inflate availW and skip shrinking (which clips on the right).
-      const col = typeof container.closest === 'function'
-        ? container.closest('.tune-lyrics-structure-sync-structure, .tune-panel-structure, .music-chords-block-col, .music-body-chords')
-        : null;
+      const col = layoutColumn();
       const colW = col && col.clientWidth > 0 ? col.clientWidth : 0;
       const selfW = container.clientWidth || 0;
       if (colW > 0 && selfW > 0) return Math.min(colW, selfW);
       return colW || selfW;
+    }
+
+    /**
+     * Stable vertical budget for sticky structure panels.
+     * Uses the configured sticky `top` — not getBoundingClientRect — so scroll
+     * does not change the fit target or zoom the chord text.
+     */
+    function structurePanelBudget(col) {
+      if (!col || typeof window.getComputedStyle !== 'function') {
+        return Math.max(40, container.clientHeight || 0);
+      }
+      const style = window.getComputedStyle(col);
+      const stickyTop = parseFloat(style.top);
+      if (style.position === 'sticky' && !isNaN(stickyTop) && stickyTop >= 0) {
+        return Math.max(40, measureViewportBottomLimit() - stickyTop - 12);
+      }
+      const maxHeight = parseFloat(style.maxHeight);
+      if (!isNaN(maxHeight) && maxHeight > 0 && isFinite(maxHeight)) {
+        return maxHeight;
+      }
+      if (col.clientHeight > 80) return col.clientHeight;
+      return Math.max(40, measureViewportBottomLimit() - 96);
     }
 
     function availableSize() {
@@ -80,22 +104,20 @@ export function useFitTextScale(options) {
         return { availW: availW, availH: availH };
       }
 
-      const top = container.getBoundingClientRect().top;
-      const viewportH = Math.max(40, measureViewportBottomLimit() - top - 12 - py);
-
-      // Prefer the visible viewport remainder so we fill what the user sees,
-      // not an oversized panel that extends below the fold.
-      if (container.clientHeight > 80) {
-        availH = Math.min(availH, viewportH);
-        Array.prototype.forEach.call(container.children, function(child) {
-          if (child !== content) {
-            availH -= child.offsetHeight || 0;
-          }
-        });
-        availH = Math.max(40, availH);
+      const col = layoutColumn();
+      const inFitHost = col && col.closest('.tune-lyrics-structure-sync-host--fit-height');
+      if (inFitHost && col.clientHeight > 80) {
+        availH = Math.max(40, col.clientHeight - py);
       } else {
-        availH = viewportH;
+        availH = Math.max(40, structurePanelBudget(col) - py);
       }
+
+      Array.prototype.forEach.call(container.children, function(child) {
+        if (child !== content) {
+          availH -= child.offsetHeight || 0;
+        }
+      });
+      availH = Math.max(40, availH);
       return { availW: availW, availH: availH };
     }
 
@@ -119,7 +141,6 @@ export function useFitTextScale(options) {
       }
       if (!longest) return 0;
 
-      // Match the real line font (monospace/bold), not the container's default.
       const styleSrc = sampleEl || content;
       const cs = window.getComputedStyle(styleSrc);
       const probe = document.createElement('span');
@@ -136,8 +157,6 @@ export function useFitTextScale(options) {
         'letter-spacing:' + cs.letterSpacing,
         'word-spacing:' + cs.wordSpacing,
       ].join(';');
-      // Probe is parented on the container so em is relative to the same base
-      // as content's fontScale (content.style.fontSize = N em).
       probe.style.fontSize = scaleEm + 'em';
       probe.textContent = longest;
       container.appendChild(probe);
@@ -150,12 +169,7 @@ export function useFitTextScale(options) {
       content.style.fontSize = scale + 'em';
       const size = availableSize();
       let widthOk = true;
-      // Structure: keep longest chord line on one row.
-      // Lyrics fit-height: ignore scrollWidth — nowrap/pre lines would otherwise
-      // cap the scale and leave most of the panel empty.
       if (wantLongest) {
-        // Prefer scrollWidth (includes padding) once the column is constrained;
-        // probe covers the case where layout has not clipped yet.
         const lineW = Math.max(longestLineWidthAt(scale), content.scrollWidth || 0);
         widthOk = !(lineW > 0) || lineW <= size.availW + 2;
       } else if (!wantHeight) {
@@ -164,8 +178,6 @@ export function useFitTextScale(options) {
       if (!wantHeight) {
         return { ok: widthOk, size: size };
       }
-      // Excluded children (eg. heading-only stanzas) still render but do not
-      // count toward the fit — the chord-bearing stanzas set the font size.
       let excludedH = 0;
       if (excludeSelector) {
         content.querySelectorAll(excludeSelector).forEach(function(el) {
@@ -206,8 +218,6 @@ export function useFitTextScale(options) {
       content.style.fontSize = best.toFixed(3) + 'em';
       const finalFit = fitsAt(best);
       setFontScale(Number(best.toFixed(3)));
-      // Report overflow against the full content so callers can enable
-      // scrolling when excluded sections extend past the panel.
       setOverflows(wantHeight && !finalFit.rawHeightOk);
     }
 
@@ -221,9 +231,7 @@ export function useFitTextScale(options) {
     schedule();
     const observer = new ResizeObserver(schedule);
     observer.observe(container);
-    const col = typeof container.closest === 'function'
-      ? container.closest('.tune-lyrics-structure-sync-structure, .tune-panel-structure, .music-chords-block-col, .music-body-chords')
-      : null;
+    const col = layoutColumn();
     if (col && col !== container) observer.observe(col);
     window.addEventListener('resize', schedule);
     return function() {

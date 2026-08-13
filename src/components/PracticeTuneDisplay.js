@@ -10,7 +10,7 @@ import {
   resolveDisplayFlagsForTune,
   getAvailableDisplayFlags,
 } from '../viewModeUtils'
-import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout'
+import { resolveTuneDisplayLayout, isViewModesEmpty, isStructureOnlyLayout } from '../tuneDisplayLayout'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
@@ -99,6 +99,9 @@ export default function PracticeTuneDisplay(props) {
   const showNotation = displayFlags.notation !== 'off' && hasNotes
   const hideChordsInText = !showChordsAnnotate
   const syncLyricsStructure = !!layout.syncLyricsStructure
+  const structureOnlyView = showStructure && !syncLyricsStructure && isStructureOnlyLayout(displayFlags)
+  const structureFitHeight = showStructure && !syncLyricsStructure
+  const structureFitHeightGrow = structureOnlyView
   const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showStructure
 
   const visibleVoiceKeys = useMemo(function() {
@@ -183,14 +186,17 @@ export default function PracticeTuneDisplay(props) {
     })
   }, [fitHeight, needsNotationScroll, notationLineCount, tune, props.onLayoutNeeds])
 
+  const structureMelodyNoteLines = useMemo(function() {
+    if (!tune || !tune.voices || Object.keys(tune.voices).length === 0) return []
+    const firstVoice = Object.values(tune.voices)[0]
+    return firstVoice && Array.isArray(firstVoice.notes) ? firstVoice.notes : []
+  }, [tune])
+
   const structureChordChart = useMemo(function() {
     if (!tune || !showStructure || !tunebook) return ''
     try {
-      const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
-        ? Object.values(tune.voices)[0]
-        : { notes: [] }
       return abcjsParser.renderChords(
-        tunebook.abcTools.emptyABC(tune.name || 'Tune') + (firstVoice.notes || []).join('\n'),
+        tunebook.abcTools.emptyABC(tune.name || 'Tune') + structureMelodyNoteLines.join('\n'),
         false,
         chordTranspose,
         tune.key,
@@ -200,7 +206,7 @@ export default function PracticeTuneDisplay(props) {
     } catch (e) {
       return ''
     }
-  }, [tune, tunebook, abcjsParser, showStructure, chordTranspose])
+  }, [tune, tunebook, abcjsParser, showStructure, chordTranspose, structureMelodyNoteLines])
 
   if (!tune) return null
 
@@ -220,6 +226,7 @@ export default function PracticeTuneDisplay(props) {
         chordTranspose={chordTranspose}
         hideChords={hideChordsInText}
         chords={structureChordChart}
+        melodyNoteLines={structureMelodyNoteLines}
         showCapoControl={showStructure}
         capoOffset={capoState.capoOffset}
         capoEnabled={capoState.capoEnabled}
@@ -246,6 +253,9 @@ export default function PracticeTuneDisplay(props) {
       <StructureChordBlock
         chords={structureChordChart}
         tune={tune}
+        melodyNoteLines={structureMelodyNoteLines}
+        fitHeight={structureFitHeight}
+        fitHeightGrow={structureFitHeightGrow}
         showCapoControl={true}
         capoOffset={capoState.capoOffset}
         capoEnabled={capoState.capoEnabled}

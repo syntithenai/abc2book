@@ -27,11 +27,12 @@ var useAbcTools = () => {
 
     
     function isCommentLine(line) {
-        return ((line.startsWith('% ') || line.startsWith('%%')) && !isDataLine(line) && !line.startsWith('%%MIDI '))
+        var t = String(line || '').trim()
+        return ((t.startsWith('% ') || t.startsWith('%%')) && !isDataLine(t) && !t.startsWith('%%MIDI '))
     }
-    
+
     function isDataLine(line) {
-        return (line.startsWith('% abcbook-'))
+        return String(line || '').trim().startsWith('% abcbook-')
     }
 
     function abcbookFieldValue(line, prefix) {
@@ -87,7 +88,7 @@ var useAbcTools = () => {
     }
     
     function isVoiceMeta(line) {
-        return (line.startsWith('V:'))
+        return String(line || '').trim().startsWith('V:')
     }
     
     function isNoteLine(line) {
@@ -95,18 +96,31 @@ var useAbcTools = () => {
     }
     
     function isMetaLine(line) {
-        return (line.length > 1 && line[1] === ":" && line[0] !=='|')
+        var t = String(line || '').trim()
+        return (t.length > 1 && t[1] === ":" && t[0] !=='|')
     }
     
+    function justNotesHasCollectedBody(lines) {
+        // Leading blank lines before the first V: must not count — otherwise the
+        // first voice header aborts extraction and chord saves wipe the tune.
+        for (var i = 0; i < lines.length; i++) {
+            if (String(lines[i] || '').trim() !== '') return true
+        }
+        return false
+    }
+
     function justNotes(text) {
         var final = []
-        var parts = text.split("\n")
+        var parts = String(text || '').split("\n")
         for (var lineNumber in parts) {
             var line = parts[lineNumber]
-            if (line.trim() === "" || isNoteLine(line)) {
-                final.push(line)
+            var trimmed = String(line || '').trim()
+            // Drop blanks: ABC end-of-tune blanks truncate chords in abcjs.
+            if (!trimmed) continue
+            if (isNoteLine(trimmed)) {
+                final.push(trimmed)
             }
-            if (isVoiceMeta(line) && final.length > 0) {
+            if (isVoiceMeta(trimmed) && justNotesHasCollectedBody(final)) {
                 break
             }
         }
@@ -118,13 +132,15 @@ var useAbcTools = () => {
     
     function justNotesNoMeta(text) {
         var final = []
-        var parts = text.split("\n")
+        var parts = String(text || '').split("\n")
         for (var lineNumber in parts) {
             var line = parts[lineNumber]
-            if ((line.trim() === "" || isNoteLine(line)) && !isDataLine(line) && !line.startsWith('%%MIDI ')) {
-                final.push(line)
+            var trimmed = String(line || '').trim()
+            if (!trimmed) continue
+            if (isNoteLine(trimmed) && !isDataLine(trimmed) && !trimmed.startsWith('%%MIDI ')) {
+                final.push(trimmed)
             }
-            if (isVoiceMeta(line) && final.length > 0) {
+            if (isVoiceMeta(trimmed) && justNotesHasCollectedBody(final)) {
                 break
             }
         }
@@ -260,7 +276,9 @@ var useAbcTools = () => {
          var abcbookJsonChunks = {}
          var hLines = []
          abc.split("\n").forEach(function(line) {
-            var capoMatch = line.trim().match(/^capo:\s*(\d+)/i) || line.trim().match(/^%%capo\s+(\d+)/i)
+            line = String(line || '').trim()
+            if (!line) return
+            var capoMatch = line.match(/^capo:\s*(\d+)/i) || line.match(/^%%capo\s+(\d+)/i)
             if (capoMatch) {
                 tune.capo = parseInt(capoMatch[1], 10) || 0
                 return

@@ -15,7 +15,7 @@ function hiddenAudioGenerationAccess(base) {
 export function getAudioGenerationAccess(context) {
   const opts = context || {};
   const base = getPracticeTrackAccess(opts);
-  if (!isMusicGenerationAdmin(opts.user)) {
+  if (!isMusicGenerationAdmin(opts.user, opts.resolverStatus)) {
     return hiddenAudioGenerationAccess(base);
   }
   const backends = opts.backends || null;
@@ -29,7 +29,6 @@ export function getAudioGenerationAccess(context) {
 
   const practiceAvailable = practiceFromBackends || base.hasCapability || featureEnabled || backendsOk;
   const coverAvailable = coverFromBackends || base.hasCapability || featureEnabled || backendsOk;
-  const hasAnyTask = practiceAvailable || coverAvailable;
 
   const cannotAfford = !!base.cannotAfford
 
@@ -39,15 +38,14 @@ export function getAudioGenerationAccess(context) {
     || (featureEnabled && resolverAvailable && resolverChecked)
   ) && !base.needsLogin && !base.needsCredit && !cannotAfford;
 
-  const showButton = resolverChecked
-    && resolverAvailable
-    && hasAnyTask
-    && (canGenerate || base.needsLogin || base.needsCredit || cannotAfford);
+  // Admin-only UI: show Generate/Regenerate as soon as resolver health has been
+  // checked, including after login while availability is still catching up.
+  const showButton = resolverChecked;
 
   return Object.assign({}, base, {
-    practiceTrackAvailable: practiceAvailable,
-    linkedCoverAvailable: coverAvailable,
-    hasAnyTask: hasAnyTask,
+    practiceTrackAvailable: practiceAvailable || showButton,
+    linkedCoverAvailable: coverAvailable || showButton,
+    hasAnyTask: practiceAvailable || coverAvailable || showButton,
     showButton: showButton,
     canGenerate: canGenerate,
   });

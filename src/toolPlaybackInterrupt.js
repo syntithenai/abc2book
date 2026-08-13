@@ -5,6 +5,7 @@ import { resumeTunePlayback } from './tunePlaybackActions'
 export const PLAYBACK_INTERRUPT_PATH_PREFIXES = [
   '/metronome',
   '/tuner',
+  '/audioanalysis',
   '/piano',
   '/scratchpad',
   '/settings',

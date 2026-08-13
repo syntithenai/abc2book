@@ -24,6 +24,10 @@ Run on `http://localhost:3000/#/editor/<tuneId>/music` after changes to staff cl
 
 - [ ] Press N — note input mode; caret visible
 - [ ] Click between D and E — type `a` — A appears between D and E
+- [ ] Click at start (left of C) — type `g` — G appears before C
+- [ ] Click between every adjacent pair (C–D, D–E, E–F) — typed note lands at clicked slot
+- [ ] Edit at end, then click between C–D — new note lands between C–D (not at end)
+- [ ] Select E in normal mode — barline toolbar — `|` appears before E (not after F)
 - [ ] Right-click between notes — exactly one rest inserted (not two)
 - [ ] Barline toolbar at caret — bar appears at caret position
 - [ ] Esc exits note input; N re-enters without stuck caret

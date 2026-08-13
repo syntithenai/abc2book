@@ -32,11 +32,16 @@ import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { isDeviceFileResult, isMusicCollectionResult } from '../mediaLinkSearchDisplay'
 import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile, readAudioFileMetadata } from '../audioFileMetadata'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
-import { fetchDirectOrProxy } from '../mediaProxyClient'
+import {
+    fetchDirectOrProxy,
+    normalizeAccessToken,
+    requiresResolverProxiedPlayback,
+} from '../mediaProxyClient'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import { createScratchpadItemFromLink, linkCanOpenInScratchpad } from '../scratchpadFromLink'
 import { exportMidiLinkToScratchpad } from '../exportMidiLinkToScratchpad'
 import { scratchpadItemPath } from '../scratchpadExportToast'
+import { showResolverLoginToastForAuthError } from '../resolverLoginToast'
 import { getGatedActionLabel } from '../resolverCreditAccess'
 import { getMidiExportNotationAccess } from '../midiExportNotationAccess'
 import useMidiFilePlayback from '../useMidiFilePlayback'
@@ -44,6 +49,7 @@ import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
 import useAbcjsParser from '../useAbcjsParser'
 import { fetchAudioGenerationBackends } from '../musicGenerationClient'
 import { getAudioGenerationAccess } from '../audioGenerationAccess'
+import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
 import { useCreditAffordance } from '../useCreditAffordance'
 import {
   defaultCoverStylePrompt,
@@ -261,23 +267,15 @@ function LinksEditorBody(props) {
         if (!tune) return false
         return hasPracticeTrackMidiData(tune, props.tunebook, abcjsParser)
     }, [tuneForMedia, props.tune, props.tunebook, abcjsParser])
-    const showPracticeGenerate = resolverChecked
-        && (resolverAvailable || resolverFeatures.practiceTrack)
+    // Music generation UI is admin-only (see musicGenerationAdmin / getAudioGenerationAccess).
+    const showAudioGenerationControls = isMusicGenerationAdmin(props.user, resolverStatus)
+    const showPracticeGenerate = showAudioGenerationControls
+        && resolverChecked
         && practiceTrackReady
-        && (audioGenerationAccess.practiceTrackAvailable || resolverFeatures.practiceTrack)
-        && (audioGenerationAccess.showButton
-            || audioGenerationAccess.canGenerate
-            || audioGenerationAccess.needsLogin
-            || audioGenerationAccess.needsCredit
-            || resolverFeatures.practiceTrack)
-    const showLinkedCoverRegenerate = resolverChecked
-        && (resolverAvailable || resolverFeatures.practiceTrack)
-        && (audioGenerationAccess.linkedCoverAvailable || resolverFeatures.practiceTrack)
-        && (audioGenerationAccess.showButton
-            || audioGenerationAccess.canGenerate
-            || audioGenerationAccess.needsLogin
-            || audioGenerationAccess.needsCredit
-            || resolverFeatures.practiceTrack)
+        && audioGenerationAccess.showButton
+    const showLinkedCoverRegenerate = showAudioGenerationControls
+        && resolverChecked
+        && audioGenerationAccess.showButton
 
     const midiFilePreview = useMidiFilePlayback({
         onEnded: function() {
@@ -404,6 +402,15 @@ function LinksEditorBody(props) {
             setPending: setPendingLinkRegenerateIndex,
             clearPending: function() { setPendingLinkRegenerateIndex(null) },
             onReady: function(index) {
+                if (!normalizeAccessToken(props.token) && !getActiveResolverAccessToken()) {
+                    showResolverLoginToastForAuthError(null, {
+                        force: true,
+                        accessToken: props.token,
+                        resolverStatus: resolverStatus,
+                        message: 'Log in to regenerate audio from this link',
+                    })
+                    return
+                }
                 setRegenerateCoverError('')
                 setRegenerateCoverLinkIndex(index)
             },
@@ -431,6 +438,13 @@ function LinksEditorBody(props) {
         const opts = options || {}
         if (!access.showButton) return
         if (access.needsLogin) {
+            // Admin Generate can show while health is still login_required; if we
+            // already have a bearer, do not open Login (that probes with a null
+            // token and can look like a logout + "Login to continue" toast).
+            if (normalizeAccessToken(props.token)) {
+                if (opts.onReady) opts.onReady(linkIndex)
+                return
+            }
             if (typeof props.login !== 'function') {
                 setWarning(opts.loginRequiredMessage || 'Log in to continue')
                 return
@@ -816,6 +830,19 @@ function LinksEditorBody(props) {
     }
 
     async function openLinkInScratchpad(link, linkIndex) {
+        const linkSrc = linkUriString(link).trim()
+        const needsResolver = requiresResolverProxiedPlayback(linkSrc)
+            || !!(link && link.collectionEntryId)
+            || isMusicCollectionResult(link)
+        if (needsResolver && !normalizeAccessToken(props.token)) {
+            showResolverLoginToastForAuthError(null, {
+                force: true,
+                accessToken: props.token,
+                resolverStatus: resolverStatus,
+                message: 'Login to continue',
+            })
+            return
+        }
         setScratchpadLinkIndex(linkIndex)
         setWarning('')
         try {
@@ -831,6 +858,12 @@ function LinksEditorBody(props) {
             })
             navigate('/scratchpad/' + encodeURIComponent(item.id))
         } catch (e) {
+            if (showResolverLoginToastForAuthError(e, {
+                accessToken: props.token,
+                resolverStatus: resolverStatus,
+            })) {
+                return
+            }
             setWarning(e && e.message ? e.message : 'Could not open in scratchpad')
         } finally {
             setScratchpadLinkIndex(null)

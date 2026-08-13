@@ -8,8 +8,10 @@ import {
 } from './chordSheetUtils';
 import { noteLinesHaveRealMelody } from './timedImportFinalizer';
 import { getLyricLinesForDisplay } from './wLinesUtils';
+import { lyricLinesForViews } from './tuneDisplayLayers';
 
 export { hasLyricEmbeddedChords };
+export { resolveChordRenderPlan } from './chordLyricRenderPlan';
 
 /**
  * True when the tune's lyric field embeds chord placement (COW or ChordPro).
@@ -72,7 +74,7 @@ export function melodyChordsHaveNotes(tune, tunebook, abcjsParser) {
  */
 export function chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser) {
   if (!tune) return false;
-  const lyrics = getLyricLinesForDisplay(tune);
+  const lyrics = lyricLinesForViews(tune);
   const singable = lyrics.filter(function(line) {
     return String(line || '').trim().length > 0 && !isSectionHeader(line);
   });
@@ -80,9 +82,7 @@ export function chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser) {
   const chordChart = getMelodyChordChart(tune, tunebook, abcjsParser);
   if (!chordChart.trim()) return false;
   try {
-    const aligned = alignChordBlocksToLyrics(lyrics, chordChart, {
-      chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
-    });
+    const aligned = alignChordBlocksToLyrics(lyrics, chordChart, {});
     if (aligned.length === 0) return false;
     const unmatched = aligned.filter(function(block) {
       return block.lyricLines.length > 0
@@ -98,8 +98,9 @@ export function chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser) {
   }
 }
 
-/** Prefer inline chords when enabling chords in view-mode settings. */
+/** Prefer inline chords when lyrics already embed chord timing. */
 export function preferInlineChords(tune, tunebook, abcjsParser) {
+  if (tuneHasLyricEmbeddedChords(tune)) return true;
   return melodyChordsHaveNotes(tune, tunebook, abcjsParser)
     || chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser);
 }

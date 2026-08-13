@@ -172,7 +172,9 @@ export default memo(TuneListRow, function tuneListRowPropsEqual(prev, next) {
   if (prev.showRowExtras !== next.showRowExtras) return false
   if (prev.showStarToggle !== next.showStarToggle) return false
   if (prev.showFilterChips !== next.showFilterChips) return false
-  if (prev.selected !== next.selected) return false
+  const prevSelected = !!(prev.selected && prevId && prev.selected[prevId])
+  const nextSelected = !!(next.selected && nextId && next.selected[nextId])
+  if (prevSelected !== nextSelected) return false
   if (prevId && (prev.tuneStatus && prev.tuneStatus[prevId]) !== (next.tuneStatus && next.tuneStatus[nextId])) return false
   return true
 })
