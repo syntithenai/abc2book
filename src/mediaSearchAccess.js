@@ -3,6 +3,7 @@ import {
   isMediaProxyConfigured,
   normalizeAccessToken,
 } from './mediaProxyClient';
+import { getOfflineBlock } from './offlineNetwork';
 
 function mediaSearchLoginMessage(baseWarning) {
   if (!baseWarning) return '';
@@ -40,6 +41,15 @@ function onlyLoginRequiredBlocked(resolverStatus) {
  */
 export function getMediaSearchAccess(context) {
   const opts = context || {};
+  const offlineBlock = getOfflineBlock();
+  if (offlineBlock) {
+    return {
+      loginWarning: offlineBlock,
+      needsLogin: false,
+      needsCredit: false,
+      needsNetwork: true,
+    };
+  }
   if (!isMediaProxyConfigured()) {
     return {
       loginWarning: null,

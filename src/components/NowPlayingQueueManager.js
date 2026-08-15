@@ -18,7 +18,11 @@ import {
   getMediaResolverHealthState,
   subscribeMediaResolverHealth,
 } from '../mediaResolverHealthStore'
-import { getResolverProxiedMediaPlayBlock } from '../playlistPlaybackResilience'
+import {
+  getTuneMediaLinkPlayBlock,
+  isQueueItemFullyPlayable,
+} from '../playlistPlaybackResilience'
+import { useNavigatorOnline, OFFLINE_PLAYBACK_MESSAGE } from '../offlineNetwork'
 
 function mediaLinkPlayBlockKey(tuneId, linkIndex) {
   return String(tuneId) + ':' + String(linkIndex)
@@ -30,7 +34,7 @@ function resolveSessionAccessToken(token) {
   return null
 }
 
-function useQueueMediaLinkPlayBlocks(queue, tunes, token) {
+function useQueueMediaLinkPlayBlocks(queue, tunes, token, online) {
   const [blocks, setBlocks] = useState({})
   const [health, setHealth] = useState(function() {
     return getMediaResolverHealthState() || {}
@@ -64,7 +68,7 @@ function useQueueMediaLinkPlayBlocks(queue, tunes, token) {
         const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
         if (!tune || !tune.id || !Array.isArray(tune.links)) continue
         for (let lk = 0; lk < tune.links.length; lk++) {
-          const block = await getResolverProxiedMediaPlayBlock(tune, lk, opts)
+          const block = await getTuneMediaLinkPlayBlock(tune, lk, opts)
           if (block) next[mediaLinkPlayBlockKey(tune.id, lk)] = block
         }
       }
@@ -73,9 +77,42 @@ function useQueueMediaLinkPlayBlocks(queue, tunes, token) {
 
     refresh()
     return function() { cancelled = true }
-  }, [queue, tunes, health, token])
+  }, [queue, tunes, health, token, online])
 
   return blocks
+}
+
+function useQueueItemFullyPlayable(queue, tunes, tunebook, token, online) {
+  const [playableByIndex, setPlayableByIndex] = useState({})
+
+  useEffect(function() {
+    let cancelled = false
+    const healthState = getMediaResolverHealthState() || {}
+    const opts = {
+      resolverStatus: healthState.status,
+      resolverHealth: healthState,
+      accessToken: token !== undefined
+        ? resolveSessionAccessToken(token)
+        : getActiveResolverAccessToken(),
+      isYoutubeLink: tunebook && tunebook.utils && tunebook.utils.isYoutubeLink,
+    }
+
+    async function refresh() {
+      const next = {}
+      const items = queue && Array.isArray(queue.items) ? queue.items : []
+      for (let i = 0; i < items.length; i++) {
+        const item = items[i]
+        const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
+        next[i] = await isQueueItemFullyPlayable(tune, item, tunebook, opts)
+      }
+      if (!cancelled) setPlayableByIndex(next)
+    }
+
+    refresh()
+    return function() { cancelled = true }
+  }, [queue, tunes, tunebook, token, online])
+
+  return playableByIndex
 }
 
 export default function NowPlayingQueueManager(props) {
@@ -84,7 +121,9 @@ export default function NowPlayingQueueManager(props) {
   const queue = props.nowPlayingQueue
   const tunes = props.tunes || {}
   const currentId = getCurrentTuneId(queue)
-  const mediaLinkPlayBlocks = useQueueMediaLinkPlayBlocks(queue, tunes, props.token)
+  const navigatorOnline = useNavigatorOnline()
+  const mediaLinkPlayBlocks = useQueueMediaLinkPlayBlocks(queue, tunes, props.token, navigatorOnline)
+  const itemFullyPlayable = useQueueItemFullyPlayable(queue, tunes, props.tunebook, props.token, navigatorOnline)
 
   if (!queue || !Array.isArray(queue.items) || queue.items.length === 0) {
     return null
@@ -125,6 +164,9 @@ export default function NowPlayingQueueManager(props) {
             : !!(tune && tune.id === currentId)
           const links = tune && Array.isArray(tune.links) ? tune.links : []
           const hasMusic = tune && props.tunebook.hasNotesOrChords(tune)
+          const defaultPlayable = itemFullyPlayable[index] !== false
+          const titleDisabled = !defaultPlayable
+          const titleDisableMessage = titleDisabled ? OFFLINE_PLAYBACK_MESSAGE : undefined
 
           function jumpToItem(playbackPatch) {
             let nextQueue = setQueueIndex(queue, index)
@@ -160,7 +202,10 @@ export default function NowPlayingQueueManager(props) {
                   variant="link"
                   className="p-0 align-baseline"
                   style={{ marginRight: '1em', fontWeight: 'bold', textDecoration: 'none' }}
-                  onClick={function() { jumpToItem() }}
+                  disabled={titleDisabled}
+                  title={titleDisableMessage}
+                  data-testid={'playlist-item-title-' + index}
+                  onClick={function() { if (!titleDisabled) jumpToItem() }}
                 >
                   {tuneName}
                   {composer ? (
@@ -172,7 +217,10 @@ export default function NowPlayingQueueManager(props) {
                   variant="link"
                   className="p-0 align-baseline"
                   style={{ marginRight: '1em', fontWeight: 'bold', textDecoration: 'none' }}
-                  onClick={function() { jumpToItem() }}
+                  disabled={titleDisabled}
+                  title={titleDisableMessage}
+                  data-testid={'playlist-item-title-' + index}
+                  onClick={function() { if (!titleDisabled) jumpToItem() }}
                 >
                   {tuneName}
                   {composer ? (
@@ -189,8 +237,10 @@ export default function NowPlayingQueueManager(props) {
                   <Button
                     variant="link"
                     size="sm"
-                    title="Play"
-                    onClick={function() { jumpToItem() }}
+                    title={titleDisabled ? OFFLINE_PLAYBACK_MESSAGE : 'Play'}
+                    disabled={titleDisabled}
+                    data-testid={'playlist-external-play-' + index}
+                    onClick={function() { if (!titleDisabled) jumpToItem() }}
                   >
                     {props.tunebook.icons.play}
                   </Button>
@@ -229,6 +279,7 @@ export default function NowPlayingQueueManager(props) {
                   <Button
                     style={{ marginRight: '0.1em' }}
                     variant="success"
+                    data-testid={'playlist-midi-play-' + index}
                     onClick={function() { jumpToItem({ prefer: 'midi' }) }}
                   >
                     {props.tunebook.icons.music} {props.tunebook.icons.play}

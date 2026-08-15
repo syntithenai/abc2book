@@ -11,5 +11,7 @@ describe('notationSearchSites', () => {
   test('notationSourceBadgeLabel', () => {
     expect(notationSourceBadgeLabel('cpdl.org')).toBe('CPDL')
     expect(notationSourceBadgeLabel('josquin.stanford.edu')).toBe('Josquin')
+    expect(notationSourceBadgeLabel('midi-resources')).toBe('Local MIDI')
+    expect(notationSourceBadgeLabel('musescore.com')).toBe('MuseScore')
   })
 })

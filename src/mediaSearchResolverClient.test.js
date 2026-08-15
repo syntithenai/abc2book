@@ -36,4 +36,16 @@ describe('mediaSearchResolverClient', function() {
     getMediaResolverHealthState.mockReturnValue({ checked: true, available: false });
     expect(isResolverMediaSearchAvailable()).toBe(false);
   });
+
+  test('returns false when the device is offline', function() {
+    const originalOnLine = navigator.onLine;
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false });
+    try {
+      isMediaProxyConfigured.mockReturnValue(true);
+      getMediaResolverHealthState.mockReturnValue({ checked: false, available: false });
+      expect(isResolverMediaSearchAvailable()).toBe(false);
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine });
+    }
+  });
 });

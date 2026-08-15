@@ -9,6 +9,7 @@ import {
   formatLedgerDeltaMillicents,
   formatPaymentMethodsCopy,
 } from '../creditClient'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 
 export default function CreditSettingsSection(props) {
   const accessToken = props.accessToken
@@ -26,6 +27,11 @@ export default function CreditSettingsSection(props) {
     if (!billingEnabled || !accessToken) {
       setBalanceCents(null)
       setEntries([])
+      return Promise.resolve()
+    }
+    if (isNavigatorOffline()) {
+      setError(OFFLINE_MESSAGE)
+      setLoading(false)
       return Promise.resolve()
     }
     setLoading(true)
@@ -75,6 +81,10 @@ export default function CreditSettingsSection(props) {
 
   async function handleBuyPack(packId) {
     if (!accessToken || !packId) return
+    if (isNavigatorOffline()) {
+      setError(OFFLINE_MESSAGE)
+      return
+    }
     setCheckoutPackId(packId)
     setError('')
     try {

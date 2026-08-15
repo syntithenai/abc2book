@@ -69,4 +69,35 @@ describe('practiceListSync', function() {
     });
     expect(Object.keys(result.deletes)).toEqual(['pl-1']);
   });
+
+  test('own-upload echo with stale local updatedAt is not an incoming update', function() {
+    const result = comparePracticeLists({
+      localPracticeLists: {
+        'pl-1': { id: 'pl-1', name: 'Old', updatedAt: 100, tuneIds: ['a'] },
+      },
+      localDeleted: {},
+      remotePracticeLists: {
+        'pl-1': { id: 'pl-1', name: 'New', updatedAt: 500, tuneIds: ['a'] },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { 'pl-1': 500 },
+    });
+    expect(Object.keys(result.updates)).toEqual([]);
+    expect(Object.keys(result.inserts)).toEqual([]);
+  });
+
+  test('newer other-device practice list update still flags as incoming', function() {
+    const result = comparePracticeLists({
+      localPracticeLists: {
+        'pl-1': { id: 'pl-1', name: 'Mine', updatedAt: 500, tuneIds: ['a'] },
+      },
+      localDeleted: {},
+      remotePracticeLists: {
+        'pl-1': { id: 'pl-1', name: 'Theirs', updatedAt: 900, tuneIds: ['a'] },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { 'pl-1': 500 },
+    });
+    expect(Object.keys(result.updates)).toEqual(['pl-1']);
+  });
 });

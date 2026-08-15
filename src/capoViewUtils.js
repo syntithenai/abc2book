@@ -67,3 +67,13 @@ export function chordTransposeWithCapo(tuneTranspose, capoOffset, capoEnabled) {
   const capo = capoEnabled ? clampCapoOffset(capoOffset) : 0
   return base - capo
 }
+
+/**
+ * Chord-name transpose used when printing. Matches single-view structure
+ * chords: stored transpose minus stored capo (capo still printed in the header).
+ */
+export function printChordTransposeForTune(tune) {
+  const transpose = Number(tune && tune.transpose) || 0
+  const capo = Number(tune && tune.capo) || 0
+  return chordTransposeWithCapo(transpose, capo, capo > 0)
+}

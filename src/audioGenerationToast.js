@@ -4,11 +4,11 @@ import { toast } from 'react-toastify';
 export const AUDIO_GENERATION_JOBS_TAB = 'audio-generation';
 
 export function backgroundJobsAudioGenerationPath() {
-  return '/settings?tab=background-jobs&jobsTab=' + AUDIO_GENERATION_JOBS_TAB;
+  return '/#/settings?tab=background-jobs&jobsTab=' + AUDIO_GENERATION_JOBS_TAB;
 }
 
 export function tuneSingleViewPath(tuneId) {
-  return '/tunes/' + encodeURIComponent(String(tuneId || ''));
+  return '/#/tunes/' + encodeURIComponent(String(tuneId || ''));
 }
 
 function renderToastWithButton(message, buttonLabel, onClick, renderProps) {

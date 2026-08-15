@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, Button, Form, ListGroup, Modal } from 'react-bootstrap';
 import {
   buildPracticeTrackRequestPayload,
@@ -146,6 +146,8 @@ export default function AudioGenerationWizard(props) {
 
   const resolvedToken = resolveResolverAccessToken(token);
   const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink;
+  const hideTrigger = !!props.hideTrigger;
+  const isControlled = props.show != null;
 
   const [showModal, setShowModal] = useState(false);
   const [activeStep, setActiveStep] = useState('task');
@@ -237,13 +239,33 @@ export default function AudioGenerationWizard(props) {
     }
   }, [token, resolvedToken]);
 
-  const openModal = useCallback(function() {
+  const resetWizard = useCallback(function() {
     setError('');
     setActiveStep('task');
     setAckBarEstimate(false);
-    setShowModal(true);
     loadBackends();
   }, [loadBackends]);
+
+  const openModal = useCallback(function() {
+    resetWizard();
+    if (!isControlled) setShowModal(true);
+  }, [resetWizard, isControlled]);
+
+  const closeModal = useCallback(function() {
+    if (starting) return;
+    setShowModal(false);
+    if (typeof props.onHide === 'function') props.onHide();
+  }, [starting, props.onHide]);
+
+  const prevShowRef = useRef(false);
+  useEffect(function() {
+    if (!isControlled) return undefined;
+    if (props.show && !prevShowRef.current) resetWizard();
+    prevShowRef.current = !!props.show;
+    return undefined;
+  }, [isControlled, props.show, resetWizard]);
+
+  const modalVisible = isControlled ? !!props.show : showModal;
 
   const goNext = useCallback(function() {
     const next = steps[stepIndex + 1];
@@ -368,6 +390,7 @@ export default function AudioGenerationWizard(props) {
       });
 
       setShowModal(false);
+      if (typeof props.onHide === 'function') props.onHide();
     } catch (err) {
       setError(err && err.message ? err.message : 'Could not start audio generation.');
     } finally {
@@ -395,6 +418,7 @@ export default function AudioGenerationWizard(props) {
     onTuneChange,
     getTuneContext,
     playableLinks,
+    props.onHide,
   ]);
 
   useEffect(function() {
@@ -451,13 +475,13 @@ export default function AudioGenerationWizard(props) {
   }, [access.practiceTrackAvailable, access.linkedCoverAvailable]);
 
   useEffect(function() {
-    if (!showModal || availableTasks.length === 0) return;
+    if (!modalVisible || availableTasks.length === 0) return;
     if (!availableTasks.some(function(item) { return item.id === taskId; })) {
       setTaskId(availableTasks[0].id);
     }
-  }, [showModal, availableTasks, taskId]);
+  }, [modalVisible, availableTasks, taskId]);
 
-  if (!access.showButton || !tune || !abc) return null;
+  if (!hideTrigger && (!access.showButton || !tune || !abc)) return null;
 
   function renderStepBody() {
     if (activeStep === 'task') {
@@ -705,16 +729,18 @@ export default function AudioGenerationWizard(props) {
 
   return (
     <>
-      <Button
-        variant="outline-primary"
-        style={{ marginLeft: '0.5em' }}
-        onClick={openModal}
-        title="Generate practice tracks or linked-media cover variants"
-      >
-        {buttonLabel(access, backends)}
-      </Button>
+      {hideTrigger ? null : (
+        <Button
+          variant="outline-primary"
+          style={{ marginLeft: '0.5em' }}
+          onClick={openModal}
+          title="Generate practice tracks or linked-media cover variants"
+        >
+          {buttonLabel(access, backends)}
+        </Button>
+      )}
 
-      <Modal show={showModal} onHide={function() { if (!starting) setShowModal(false); }} size="lg">
+      <Modal show={modalVisible} onHide={closeModal} size="lg">
         <Modal.Header closeButton={!starting}>
           <Modal.Title>Generate audio</Modal.Title>
         </Modal.Header>
@@ -738,7 +764,7 @@ export default function AudioGenerationWizard(props) {
           {error ? <Alert variant="danger" className="mt-3">{error}</Alert> : null}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" disabled={starting} onClick={function() { setShowModal(false); }}>
+          <Button variant="secondary" disabled={starting} onClick={closeModal}>
             Cancel
           </Button>
           {stepIndex > 0 ? (

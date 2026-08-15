@@ -18,11 +18,12 @@ import {
   musicCollectionPlaybackProxyPathFromLink,
   musicCollectionPlaybackProxyPathFromUri,
 } from './musicCollectionLinkUtils';
-import { isBandcampLinkUri } from './bandcampLinkUtils';
+import { isBandcampLinkUri, repairBandcampLinkUri } from './bandcampLinkUtils';
 import { isArchiveOrgLinkUri, isArchiveOrgDirectDownloadUri } from './archiveOrgLinkUtils';
 import { isLocGovLinkUri } from './locGovLinkUtils';
 import { isOwnedMediaLinkUri } from './linkRecording';
 import { isLocalhostCastBase, setCastPublicBaseFromHealth } from './castSupport';
+import { isNavigatorOffline } from './offlineNetwork';
 
 let activeProxyBase = null;
 let heavyMlProxyBase = null;
@@ -578,6 +579,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
   if (pathAndQuery.indexOf('/midi2abc') === 0) return 'midi2abc';
   if (pathAndQuery.indexOf('/midi2xml') === 0) return 'midi2xml';
+  if (pathAndQuery.indexOf('/midi-resources/') === 0) return 'midi-resources';
   if (pathAndQuery.indexOf('/score2xml') === 0) return 'score2xml';
   if (pathAndQuery.indexOf('/abc2xml') === 0) return 'abc2xml';
   if (/^\/stems\/[^/]+\/status/.test(pathAndQuery)) return 'stem-status';
@@ -926,7 +928,10 @@ function pathNeedsYoutubeEgress(pathAndQuery) {
 
 function pathNeedsMidiAnalyze(pathAndQuery) {
   const path = String(pathAndQuery || '').split('?')[0];
-  return path.indexOf('/midi2analyze') === 0;
+  return path.indexOf('/midi2analyze') === 0
+    || path.indexOf('/midi2abc') === 0
+    || path.indexOf('/midi2xml') === 0
+    || path.indexOf('/midi-resources/') === 0;
 }
 
 function pathNeedsMusicCollection(pathAndQuery) {
@@ -1224,6 +1229,84 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
   }
 }
 
+const inFlightAudioProxyFetches = new Map();
+
+function shouldCoalesceMediaProxyAudio(pathAndQuery) {
+  const path = String(pathAndQuery || '');
+  return path.indexOf('/bandcamp/audio') === 0
+    || path.indexOf('/internet-archive/audio') === 0
+    || path.indexOf('/loc/audio') === 0
+    || path.indexOf('/proxy-audio') === 0
+    || /^\/youtube\/[^/]+\/audio(?:\?|$)/.test(path);
+}
+
+function mediaProxyAudioCoalesceKey(pathAndQuery, accessToken) {
+  return String(pathAndQuery || '') + '\0' + String(accessToken || '');
+}
+
+async function readResponseArrayBuffer(response) {
+  if (response && typeof response.arrayBuffer === 'function') {
+    return response.arrayBuffer();
+  }
+  if (response && typeof response.blob === 'function') {
+    const blob = await response.blob();
+    if (blob && typeof blob.arrayBuffer === 'function') {
+      return blob.arrayBuffer();
+    }
+  }
+  return new ArrayBuffer(0);
+}
+
+function responseFromBufferedAudio(buffer, contentType, status) {
+  const copy = buffer && buffer.slice ? buffer.slice(0) : new ArrayBuffer(0);
+  const mime = sniffAudioMimeFromBytes(bytesPrefixFromBuffer(copy, 16))
+    || declaredAudioMime(contentType)
+    || 'audio/mpeg';
+  return {
+    ok: true,
+    status: status || 200,
+    headers: {
+      get: function(name) {
+        return String(name).toLowerCase() === 'content-type' ? mime : null;
+      },
+    },
+    arrayBuffer: async function() { return copy.slice(0); },
+    blob: async function() { return new Blob([copy], { type: mime }); },
+  };
+}
+
+/** Share one yt-dlp stream body between playback and cache jobs. */
+async function fetchViaMediaProxyCoalesced(pathAndQuery, accessToken) {
+  if (!shouldCoalesceMediaProxyAudio(pathAndQuery)) {
+    return fetchViaMediaProxy(pathAndQuery, accessToken);
+  }
+  const key = mediaProxyAudioCoalesceKey(pathAndQuery, accessToken);
+  const existing = inFlightAudioProxyFetches.get(key);
+  if (existing) {
+    const buffered = await existing;
+    return responseFromBufferedAudio(buffered.buffer, buffered.contentType, buffered.status);
+  }
+  const pending = (async function() {
+    const response = await fetchViaMediaProxy(pathAndQuery, accessToken);
+    const buffer = await readResponseArrayBuffer(response);
+    const contentType = response && response.headers && typeof response.headers.get === 'function'
+      ? response.headers.get('Content-Type')
+      : '';
+    return {
+      buffer: buffer,
+      contentType: contentType || '',
+      status: response && response.status ? response.status : 200,
+    };
+  })();
+  inFlightAudioProxyFetches.set(key, pending);
+  try {
+    const buffered = await pending;
+    return responseFromBufferedAudio(buffered.buffer, buffered.contentType, buffered.status);
+  } finally {
+    inFlightAudioProxyFetches.delete(key);
+  }
+}
+
 async function tryDirectFetch(url) {
   try {
     const response = await fetch(url);
@@ -1263,6 +1346,131 @@ export function normalizeMediaProxyTargetUrl(url) {
   }
 }
 
+export function sniffAudioMimeFromBytes(bytes) {
+  const b = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes || []);
+  if (b.length >= 3 && b[0] === 0x49 && b[1] === 0x44 && b[2] === 0x33) return 'audio/mpeg';
+  if (b.length >= 2 && b[0] === 0xff && (b[1] & 0xe0) === 0xe0) return 'audio/mpeg';
+  if (b.length >= 4 && b[0] === 0x4f && b[1] === 0x67 && b[2] === 0x67 && b[3] === 0x53) {
+    return 'audio/ogg';
+  }
+  if (b.length >= 4 && b[0] === 0x66 && b[1] === 0x4c && b[2] === 0x61 && b[3] === 0x43) {
+    return 'audio/flac';
+  }
+  if (b.length >= 12 && b[4] === 0x66 && b[5] === 0x74 && b[6] === 0x79 && b[7] === 0x70) {
+    const brand = b.length >= 12
+      ? String.fromCharCode(b[8] || 0, b[9] || 0, b[10] || 0, b[11] || 0)
+      : '';
+    if (brand === 'M4A ' || brand === 'M4B ') return 'audio/x-m4a';
+    return 'audio/mp4';
+  }
+  if (b.length >= 4 && b[0] === 0x52 && b[1] === 0x49 && b[2] === 0x46 && b[3] === 0x46) {
+    return 'audio/wav';
+  }
+  if (b.length >= 4 && b[0] === 0x1a && b[1] === 0x45 && b[2] === 0xdf && b[3] === 0xa3) {
+    return 'audio/webm';
+  }
+  return '';
+}
+
+function declaredAudioMime(contentType) {
+  const declared = String(contentType || '').split(';')[0].trim().toLowerCase();
+  if (declared.indexOf('audio/') === 0 || declared.indexOf('video/') === 0) return declared;
+  return '';
+}
+
+function bytesPrefixFromBuffer(buffer, length) {
+  const max = length || 16;
+  if (!buffer) return new Uint8Array(0);
+  if (buffer instanceof Uint8Array) {
+    return buffer.subarray(0, Math.min(max, buffer.length));
+  }
+  if (ArrayBuffer.isView(buffer)) {
+    return new Uint8Array(buffer.buffer, buffer.byteOffset, Math.min(max, buffer.byteLength));
+  }
+  try {
+    const view = new Uint8Array(buffer);
+    return view.subarray(0, Math.min(max, view.length));
+  } catch (e) {
+    return new Uint8Array(0);
+  }
+}
+
+function readBlobArrayBufferViaFileReader(blob) {
+  return new Promise(function(resolve) {
+    if (typeof FileReader === 'undefined' || !blob) {
+      resolve(new ArrayBuffer(0));
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = function() {
+      resolve(reader.result || new ArrayBuffer(0));
+    };
+    reader.onerror = function() {
+      resolve(new ArrayBuffer(0));
+    };
+    try {
+      reader.readAsArrayBuffer(blob);
+    } catch (e) {
+      resolve(new ArrayBuffer(0));
+    }
+  });
+}
+
+async function readBlobArrayBuffer(blob) {
+  if (blob && typeof blob.arrayBuffer === 'function') {
+    try {
+      const buffer = await blob.arrayBuffer();
+      if (buffer && buffer.byteLength) return buffer;
+    } catch (e) {}
+  }
+  if (blob && blob.size > 0) {
+    return readBlobArrayBufferViaFileReader(blob);
+  }
+  return new ArrayBuffer(0);
+}
+
+/** Alternate MIME types to try when HTML <audio> rejects the sniffed type (error 4). */
+export function htmlAudioMimeFallbackTypes(currentType) {
+  const current = String(currentType || '').split(';')[0].trim().toLowerCase();
+  const mp4Family = current === 'audio/mp4'
+    || current === 'audio/x-m4a'
+    || current === 'audio/m4a'
+    || current === 'audio/aac'
+    || current === 'audio/mp4a-latm';
+  const candidates = mp4Family
+    ? ['audio/x-m4a', 'audio/aac', 'audio/mp4', 'audio/mpeg']
+    : ['audio/mpeg', 'audio/mp4', 'audio/x-m4a', 'audio/aac'];
+  return candidates.filter(function(type) { return type !== current; });
+}
+
+/** Bandcamp lossless m4a is often ALAC, which HTML <audio> cannot play. */
+export function looksLikeAlacAudio(bytes) {
+  const b = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes || []);
+  if (b.length < 12) return false;
+  const hasFtyp = b[4] === 0x66 && b[5] === 0x74 && b[6] === 0x79 && b[7] === 0x70;
+  if (!hasFtyp) return false;
+  const limit = Math.min(b.length, 262144);
+  for (let i = 8; i < limit - 3; i++) {
+    if (b[i] === 0x61 && b[i + 1] === 0x6c && b[i + 2] === 0x61 && b[i + 3] === 0x63) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/** yt-dlp streams arrive as octet-stream; HTML audio needs a real audio MIME type. */
+export async function blobForHtmlAudioPlayback(blob, contentType) {
+  if (!blob) return blob;
+  const buffer = await readBlobArrayBuffer(blob);
+  const sniffed = sniffAudioMimeFromBytes(bytesPrefixFromBuffer(buffer, 16));
+  const declared = declaredAudioMime(contentType) || declaredAudioMime(blob.type);
+  const mime = sniffed || declared || 'audio/mpeg';
+  if (buffer && buffer.byteLength) {
+    return new Blob([buffer], { type: mime });
+  }
+  return new Blob([blob], { type: mime });
+}
+
 export async function fetchDirectOrProxy(options) {
   const { srcType, youtubeGetId, accessToken, resolveDirectUrl, collectionLink } = options;
   const src = normalizeMediaProxyTargetUrl(options.src);
@@ -1272,7 +1480,10 @@ export async function fetchDirectOrProxy(options) {
     if (!videoId) throw new Error('Invalid YouTube URL');
 
     if (isMediaProxyConfigured()) {
-      const response = await fetchViaMediaProxy('/youtube/' + encodeURIComponent(videoId) + '/audio', accessToken);
+      const response = await fetchViaMediaProxyCoalesced(
+        '/youtube/' + encodeURIComponent(videoId) + '/audio',
+        accessToken
+      );
       return { response: response, viaProxy: true };
     }
 
@@ -1291,26 +1502,13 @@ export async function fetchDirectOrProxy(options) {
     );
   }
 
-  if (isMusicCollectionLinkUri(src) || isMusicCollectionByEntryUri(src) || (collectionLink && collectionLink.collectionEntryId)) {
-    if (!isMediaProxyConfigured()) {
-      throw new Error('Music collection playback requires a configured media resolver');
-    }
-    const proxyPath = collectionLink
-      ? musicCollectionPlaybackProxyPathFromLink(collectionLink)
-      : musicCollectionPlaybackProxyPathFromUri(src);
-    if (!proxyPath) {
-      throw new Error('Invalid music collection link');
-    }
-    const response = await fetchViaMediaProxy(proxyPath, accessToken);
-    return { response: response, viaProxy: true };
-  }
-
   if (isBandcampLinkUri(src)) {
     if (!isMediaProxyConfigured()) {
       throw new Error('Bandcamp playback requires a configured media resolver');
     }
-    const response = await fetchViaMediaProxy(
-      '/bandcamp/audio?url=' + encodeURIComponent(src),
+    const bandcampUrl = repairBandcampLinkUri(src)
+    const response = await fetchViaMediaProxyCoalesced(
+      '/bandcamp/audio?url=' + encodeURIComponent(bandcampUrl),
       accessToken
     );
     return { response: response, viaProxy: true };
@@ -1321,13 +1519,13 @@ export async function fetchDirectOrProxy(options) {
       throw new Error('Internet Archive playback requires a configured media resolver');
     }
     if (isArchiveOrgDirectDownloadUri(src)) {
-      const response = await fetchViaMediaProxy(
+      const response = await fetchViaMediaProxyCoalesced(
         '/proxy-audio?url=' + encodeURIComponent(src),
         accessToken
       );
       return { response: response, viaProxy: true };
     }
-    const response = await fetchViaMediaProxy(
+    const response = await fetchViaMediaProxyCoalesced(
       '/internet-archive/audio?url=' + encodeURIComponent(src),
       accessToken
     );
@@ -1338,7 +1536,7 @@ export async function fetchDirectOrProxy(options) {
     if (!isMediaProxyConfigured()) {
       throw new Error('Library of Congress playback requires a configured media resolver');
     }
-    const response = await fetchViaMediaProxy(
+    const response = await fetchViaMediaProxyCoalesced(
       '/loc/audio?url=' + encodeURIComponent(src),
       accessToken
     );
@@ -1372,7 +1570,7 @@ export async function fetchDirectOrProxy(options) {
     throw new Error('Direct fetch failed and media proxy is not configured');
   }
 
-  const response = await fetchViaMediaProxy(
+  const response = await fetchViaMediaProxyCoalesced(
     '/proxy-audio?url=' + encodeURIComponent(src),
     accessToken
   );
@@ -1390,8 +1588,8 @@ export function requiresResolverProxiedPlayback(src) {
     || isLocGovLinkUri(trimmed);
 }
 
-/** Fetch audio through the media resolver and return a blob: URL for <audio> playback. */
-export async function fetchProxiedAudioBlobUrl(src, srcType, options) {
+/** Fetch resolver/direct audio as a playable Blob (no decode/re-encode). */
+export async function fetchPlayableAudioBlob(src, srcType, options) {
   const opts = options || {};
   const { response } = await fetchDirectOrProxy({
     src: src,
@@ -1399,11 +1597,21 @@ export async function fetchProxiedAudioBlobUrl(src, srcType, options) {
     youtubeGetId: opts.youtubeGetId,
     accessToken: opts.accessToken,
     resolveDirectUrl: opts.resolveDirectUrl,
+    collectionLink: opts.collectionLink,
   });
-  const blob = await response.blob();
-  if (!blob || !blob.size) {
+  const rawBlob = await response.blob();
+  if (!rawBlob || !rawBlob.size) {
     throw new Error('Could not load audio');
   }
+  const mime = response.headers && typeof response.headers.get === 'function'
+    ? response.headers.get('Content-Type')
+    : null;
+  return blobForHtmlAudioPlayback(rawBlob, mime);
+}
+
+/** Fetch audio through the media resolver and return a blob: URL for <audio> playback. */
+export async function fetchProxiedAudioBlobUrl(src, srcType, options) {
+  const blob = await fetchPlayableAudioBlob(src, srcType, options);
   return URL.createObjectURL(blob);
 }
 
@@ -1462,6 +1670,7 @@ export function getResolverCreditLowBalanceWarning(resolverStatus) {
  * Returns { message, showLoginButton } or null.
  */
 export function getResolverLoginWarning(resolverStatus, accessToken) {
+  if (isNavigatorOffline()) return null;
   if (!resolverStatus || resolverStatus.available) return null;
 
   const candidates = resolverStatus.candidates || [];

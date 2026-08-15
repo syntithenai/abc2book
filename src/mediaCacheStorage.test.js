@@ -18,6 +18,7 @@ import {
   mediaCacheSettingsPath,
   MEDIA_CACHE_SETTINGS_TAB,
   tuneIdFromExternalMediaCacheKey,
+  parseExternalMediaCacheKey,
   tuneIdFromStemCacheKey,
   tuneIdFromMidiCacheKey,
   resolveTuneIdFromMidiCacheKey,
@@ -71,6 +72,19 @@ describe('mediaCacheStorage', function() {
 
   test('parses tune ids from cache keys', function() {
     expect(tuneIdFromExternalMediaCacheKey('extmedia:tune1:0:https://x')).toBe('tune1')
+    expect(parseExternalMediaCacheKey('extmedia:tune1:0:https://ex.com/a:b.mp3')).toEqual({
+      standalone: false,
+      tuneId: 'tune1',
+      linkIndex: '0',
+      src: 'https://ex.com/a:b.mp3',
+    })
+    expect(parseExternalMediaCacheKey('extmedia:src:https://ex.com/a.mp3')).toEqual({
+      standalone: true,
+      tuneId: null,
+      linkIndex: null,
+      src: 'https://ex.com/a.mp3',
+    })
+    expect(tuneIdFromExternalMediaCacheKey('extmedia:src:https://ex.com/a.mp3')).toBe(null)
     expect(tuneIdFromStemCacheKey('stems:tune2:1:https://y:htdemucs')).toBe('tune2')
     expect(tuneIdFromMidiCacheKey('abc123-120-0-987654321')).toBe('abc123')
     expect(tuneIdFromMidiCacheKey('legacykey')).toBe('legacykey')

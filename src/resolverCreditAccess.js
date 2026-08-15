@@ -1,7 +1,13 @@
 /** Shared resolver credit + gating helpers for SPA feature buttons. */
 
+import { toast } from 'react-toastify'
 import { formatEstimateCents } from './creditAffordabilityClient'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import {
+  OFFLINE_MESSAGE,
+  getOfflineBlock,
+  isNavigatorOffline,
+} from './offlineNetwork'
 
 export function normalizeAccessToken(token) {
   if (!token) return null
@@ -22,6 +28,7 @@ export function resolverBillingEnabled(resolverStatus) {
 export function getGatedActionLabel(access, actionLabel) {
   const label = actionLabel || ''
   if (!access) return label
+  if (access.needsNetwork) return label
   if (access.needsLogin) return 'Login to ' + label
   if (access.needsCredit) return 'Buy Credit to ' + label
   if (access.cannotAfford) {
@@ -62,16 +69,21 @@ export function getResolverGatedActionAccess(context, options) {
   const resolverChecked = !!opts.resolverChecked
   const features = opts.features || {}
   const hasFeature = !requiresFeature || !!features[requiresFeature]
-  const loginWarning = getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
-  const hasCapability = resolverAvailable && hasFeature
+  const offlineBlock = getOfflineBlock()
+  const needsNetwork = !!offlineBlock
+  const loginWarning = needsNetwork
+    ? offlineBlock
+    : getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
+  const hasCapability = resolverAvailable && hasFeature && !needsNetwork
   const showButton = resolverChecked && (hasCapability || needsLogin || needsCredit)
 
   return {
     showButton: showButton,
     needsLogin: needsLogin && showButton,
     needsCredit: needsCredit && showButton,
+    needsNetwork: needsNetwork,
     canUse: hasCapability && !needsLogin && !needsCredit,
     loginWarning: loginWarning,
   }
@@ -90,7 +102,16 @@ export function openCreditSettings() {
 
 export function runResolverGatedAction(access, handlers) {
   const opts = handlers || {}
-  if (!access || !access.showButton && !access.showOption) return false
+  if (!access) return false
+  if (access.needsNetwork || isNavigatorOffline()) {
+    if (typeof opts.onOffline === 'function') {
+      opts.onOffline()
+    } else {
+      toast.info(OFFLINE_MESSAGE)
+    }
+    return true
+  }
+  if (!access.showButton && !access.showOption) return false
   if (access.needsLogin) {
     if (typeof opts.login === 'function') {
       opts.login()

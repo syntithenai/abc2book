@@ -1,5 +1,6 @@
 import { getMusicCollectionStatusFromHealth, isMusicCollectionSettingsAvailable } from './musicCollectionAdminClient';
 import { getResolverLoginWarning, normalizeAccessToken } from './mediaProxyClient';
+import { OFFLINE_MESSAGE, getOfflineBlock } from './offlineNetwork';
 
 function candidateHasMusicCollectionHost(status) {
   const candidates = (status && status.candidates) || [];
@@ -18,21 +19,24 @@ export function getMusicCollectionBrowseAccess(context) {
   const status = opts.resolverStatus || null;
   const accessToken = normalizeAccessToken(opts.accessToken);
   const browseVerified = opts.browseVerified === true;
-  const loginWarning = getResolverLoginWarning(status, accessToken);
+  const offlineBlock = getOfflineBlock();
+  const loginWarning = offlineBlock || getResolverLoginWarning(status, accessToken);
   const collectionAccess = isMusicCollectionSettingsAvailable(status);
   const collectionDetails = getMusicCollectionStatusFromHealth(status);
   const homeHasCollection = candidateHasMusicCollectionHost(status);
 
-  const needsLogin = !accessToken && (
+  const needsLogin = !offlineBlock && !accessToken && (
     (loginWarning && loginWarning.showLoginButton)
     || (homeHasCollection && !collectionAccess)
     || !!(status && status.requireAuth && !status.available)
   );
 
-  const canBrowse = collectionAccess || browseVerified;
+  const canBrowse = !offlineBlock && (collectionAccess || browseVerified);
 
   let blockedMessage = '';
-  if (!accessToken && !homeHasCollection && !collectionAccess) {
+  if (offlineBlock) {
+    blockedMessage = OFFLINE_MESSAGE;
+  } else if (!accessToken && !homeHasCollection && !collectionAccess) {
     blockedMessage = 'Music collection browsing needs your home local resolver with an indexed library. '
       + 'The cloud resolver does not host your files. Open Settings → Music collection to configure and rebuild the index.';
   }
@@ -44,6 +48,7 @@ export function getMusicCollectionBrowseAccess(context) {
     collectionDetails: collectionDetails,
     homeHasCollection: homeHasCollection,
     needsLogin: needsLogin,
+    needsNetwork: !!offlineBlock,
     blockedMessage: blockedMessage,
     canBrowse: canBrowse,
     resolverBase: collectionDetails.resolverBase || (status && status.musicCollectionBase) || '',
@@ -51,6 +56,7 @@ export function getMusicCollectionBrowseAccess(context) {
 }
 
 export function formatMusicCollectionBrowseError(error) {
+  if (getOfflineBlock()) return OFFLINE_MESSAGE;
   const message = error && error.message ? String(error.message) : '';
   if (!message) return 'Could not load music collection';
   if (message.indexOf('Media proxy error 401') === 0) {

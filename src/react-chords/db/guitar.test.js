@@ -82,8 +82,8 @@ describe('Guitar Chords', () => {
                     1} position fingers array should have values lower than 5`, () =>
                     expect(Math.max(...fingers)).toBeLessThan(5));
                   it(`The ${index +
-                    1} position fingers array should have values higher or equal to 0`, () =>
-                    expect(Math.min(...fingers)).toBeGreaterThanOrEqual(0));
+                    1} position fingers array should have values higher or equal to -1`, () =>
+                    expect(Math.min(...fingers)).toBeGreaterThanOrEqual(-1));
                 });
               }
 

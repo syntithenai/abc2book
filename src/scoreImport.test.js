@@ -8,8 +8,9 @@ import {
 } from './mxlExtract';
 import { musicXmlToAbc } from './musicXmlToAbc';
 import { detectScoreFormat } from './scoreImportClient';
-import { MINIMAL_MUSICXML, MUSICXML_WITH_NOTE_LYRICS } from './__fixtures__/musicXmlSamples';
+import { MINIMAL_MUSICXML, MUSICXML_WITH_NOTE_LYRICS, PIANO_GRAND_STAFF_MUSICXML } from './__fixtures__/musicXmlSamples';
 import { abcTextToCandidates } from './importSourceParse';
+import { parseVoiceMeta } from './notation/voiceMeta';
 import useAbcTools from './useAbcTools';
 
 describe('mxlExtract', function() {
@@ -60,6 +61,43 @@ describe('musicXmlToAbc', function() {
 
   test('rejects invalid xml', function() {
     expect(function() { musicXmlToAbc('<not-xml'); }).toThrow();
+  });
+
+  test('keeps piano bass staff in bass clef on its own voice', function() {
+    const abc = musicXmlToAbc(PIANO_GRAND_STAFF_MUSICXML, { fileName: 'piano.xml' });
+    expect(abc).toMatch(/^V:2 .*clef=bass/m);
+    const voiceHeaders = {};
+    abc.split('\n').forEach(function(line) {
+      const match = line.match(/^V:(\S+)\s*(.*)$/);
+      if (!match || !String(match[2] || '').trim() || voiceHeaders[match[1]]) return;
+      voiceHeaders[match[1]] = parseVoiceMeta(match[2] || '');
+    });
+    const bassVoice = Object.keys(voiceHeaders).find(function(id) {
+      return voiceHeaders[id].clef === 'bass';
+    });
+    expect(bassVoice).toBeTruthy();
+    expect(voiceHeaders[bassVoice].name.toLowerCase()).not.toBe('bass');
+    expect(voiceHeaders[bassVoice].clef).toBe('bass');
+
+    const voiceBodies = {};
+    let current = '1';
+    abc.split('\n').forEach(function(line) {
+      const header = line.match(/^V:(\S+)/);
+      if (header) current = header[1];
+      const inline = line.match(/\[V:([^\s\]]+)/);
+      if (inline) current = inline[1];
+      if (!voiceBodies[current]) voiceBodies[current] = [];
+      voiceBodies[current].push(line);
+    });
+    const bassBody = (voiceBodies[bassVoice] || []).join('\n');
+    const trebleIds = Object.keys(voiceHeaders).filter(function(id) {
+      return id !== bassVoice;
+    });
+    const trebleBody = trebleIds.map(function(id) {
+      return (voiceBodies[id] || []).join('\n');
+    }).join('\n');
+    expect(bassBody).toMatch(/C,/);
+    expect(trebleBody).not.toMatch(/C,/);
   });
 });
 

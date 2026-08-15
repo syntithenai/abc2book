@@ -47,6 +47,35 @@ describe('getPracticeTrackAccess', function() {
     expect(access.canGenerate).toBe(false);
   });
 
+  test('needsNetwork instead of login when offline', function() {
+    const originalOnLine = navigator.onLine;
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false });
+    try {
+      const access = getPracticeTrackAccess({
+        resolverChecked: true,
+        resolverAvailable: false,
+        features: { practiceTrack: true },
+        accessToken: null,
+        resolverStatus: {
+          available: false,
+          candidates: [{
+            base: 'https://resolver.example',
+            reachable: true,
+            available: false,
+            requireAuth: true,
+            authReason: 'login_required',
+            features: { practiceTrack: true },
+          }],
+        },
+      });
+      expect(access.needsLogin).toBe(false);
+      expect(access.needsNetwork).toBe(true);
+      expect(getPracticeTrackGenerateLabel(access, {})).toBe('Generate');
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine });
+    }
+  });
+
   test('hides when no resolver offers practiceTrack', function() {
     const access = getPracticeTrackAccess({
       resolverChecked: true,
@@ -132,5 +161,9 @@ describe('getPracticeTrackGenerateLabel', function() {
 
   test('uses generate label when ready', function() {
     expect(getPracticeTrackGenerateLabel({ needsLogin: false }, {})).toBe('Generate');
+  });
+
+  test('does not use login label when only the network is missing', function() {
+    expect(getPracticeTrackGenerateLabel({ needsNetwork: true, needsLogin: false }, {})).toBe('Generate');
   });
 });

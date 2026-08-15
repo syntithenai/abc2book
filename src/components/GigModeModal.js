@@ -523,6 +523,7 @@ export default function GigModeModal(props) {
         chords={structureChordChart}
         tune={currentTune}
         melodyNoteLines={structureMelodyNoteLines}
+        chordTranspose={chordTranspose}
         fitHeight={structureFitHeight}
         fitHeightGrow={structureFitHeightGrow}
         showCapoControl={false}

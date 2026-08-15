@@ -30,6 +30,45 @@ export function serializeChordProTokenLine(tokens) {
 }
 
 /**
+ * Build a concert-pitch chord chart from notation for writing into lyrics.
+ * Transpose/capo stay display-only so stored lyric chords match ABC.
+ *
+ * @param {object} tune
+ * @param {{ abcjsParser: object, abcTools?: object, tunebook?: object, melodyNoteLines?: string[] }} options
+ * @returns {{ chordChart: string, melodyNoteLines: string[] }}
+ */
+export function buildUntransposedNotationChordChart(tune, options) {
+  const opts = options || {}
+  const abcjsParser = opts.abcjsParser
+  const abcTools = opts.abcTools || (opts.tunebook && opts.tunebook.abcTools)
+  const melodyNoteLines = Array.isArray(opts.melodyNoteLines)
+    ? opts.melodyNoteLines
+    : chordNoteLinesFromTune(tune)
+  if (!melodyNoteLines.length || !abcjsParser || typeof abcjsParser.renderChords !== 'function') {
+    return { chordChart: '', melodyNoteLines: melodyNoteLines }
+  }
+  let chordChart = ''
+  try {
+    const melodyAbc = abcTools && typeof abcTools.emptyABC === 'function'
+      ? abcTools.emptyABC(tune && tune.name) + melodyNoteLines.join('\n')
+      : melodyNoteLines.join('\n')
+    chordChart = melodyAbc
+      ? abcjsParser.renderChords(
+        melodyAbc,
+        false,
+        0,
+        tune && tune.key,
+        tune && tune.noteLength,
+        tune && tune.meter
+      ) || ''
+      : ''
+  } catch (e) {
+    chordChart = ''
+  }
+  return { chordChart: chordChart, melodyNoteLines: melodyNoteLines }
+}
+
+/**
  * Build ChordPro lyric lines from notation chords + lyrics (display merge path).
  * Does not mutate the tune or ABC.
  *

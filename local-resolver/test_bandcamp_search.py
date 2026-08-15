@@ -93,5 +93,16 @@ class BandcampSearchTest(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(matches, [])
 
 
+class SniffAudioMediaTypeTest(unittest.TestCase):
+    def test_sniff_common_headers(self):
+        from server import sniff_audio_media_type
+        self.assertEqual(sniff_audio_media_type(b"ID3\x03"), "audio/mpeg")
+        self.assertEqual(sniff_audio_media_type(bytes([0xFF, 0xFB, 0x90, 0x00])), "audio/mpeg")
+        ftyp = bytearray(12)
+        ftyp[4:8] = b"ftyp"
+        self.assertEqual(sniff_audio_media_type(bytes(ftyp)), "audio/mp4")
+        self.assertEqual(sniff_audio_media_type(b"fLaC\x00"), "audio/flac")
+
+
 if __name__ == "__main__":
     unittest.main()

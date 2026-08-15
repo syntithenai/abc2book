@@ -212,12 +212,58 @@ async function deleteDriveFiles(driveApi, fileIds) {
 
 let syncInFlight = null
 let syncProgressHandlers = []
+const statusListeners = new Set()
+let lastDriveSyncStatus = {
+  syncing: false,
+  phase: '',
+  message: '',
+  current: 0,
+  total: 0,
+  lastError: null,
+  lastResult: null,
+}
+
+function setAudioAnalysisDriveSyncStatus(patch) {
+  lastDriveSyncStatus = Object.assign({}, lastDriveSyncStatus, patch || {})
+  statusListeners.forEach(function(listener) {
+    try { listener(lastDriveSyncStatus) } catch (e) { /* ignore */ }
+  })
+}
 
 function emitSyncProgress(info) {
   const payload = info || {}
+  setAudioAnalysisDriveSyncStatus(Object.assign({
+    syncing: !!syncInFlight,
+  }, payload))
   syncProgressHandlers.slice().forEach(function(fn) {
     try { fn(payload) } catch (e) { /* ignore progress listener errors */ }
   })
+}
+
+export function subscribeAudioAnalysisDriveSync(listener) {
+  if (typeof listener !== 'function') return function() {}
+  statusListeners.add(listener)
+  return function() { statusListeners.delete(listener) }
+}
+
+export function getAudioAnalysisDriveSyncStatus() {
+  return lastDriveSyncStatus
+}
+
+export function __resetAudioAnalysisDriveSyncStatusForTests() {
+  lastDriveSyncStatus = {
+    syncing: false,
+    phase: '',
+    message: '',
+    current: 0,
+    total: 0,
+    lastError: null,
+    lastResult: null,
+  }
+}
+
+export function __setAudioAnalysisDriveSyncStatusForTests(patch) {
+  setAudioAnalysisDriveSyncStatus(patch)
 }
 
 function countNotesInSets(sets) {
@@ -248,25 +294,59 @@ export async function syncAudioAnalysisWithDrive(driveApi, options) {
   }
 
   syncInFlight = (async function() {
+    setAudioAnalysisDriveSyncStatus({
+      syncing: true,
+      lastError: null,
+      phase: 'sync',
+      message: 'Syncing Audio Analysis with Google Drive…',
+    })
     if (!driveApi) {
-      return { ok: false, error: 'Not signed in' }
+      const result = { ok: false, error: 'Not signed in' }
+      setAudioAnalysisDriveSyncStatus({
+        syncing: false,
+        lastError: result.error,
+        lastResult: result,
+        phase: 'error',
+        message: result.error,
+      })
+      return result
     }
     if (typeof driveApi.findTuneBookFolderInDrive !== 'function') {
-      return { ok: false, error: 'Drive API unavailable' }
+      const result = { ok: false, error: 'Drive API unavailable' }
+      setAudioAnalysisDriveSyncStatus({
+        syncing: false,
+        lastError: result.error,
+        lastResult: result,
+        phase: 'error',
+        message: result.error,
+      })
+      return result
+    }
+
+    function fail(error) {
+      const result = { ok: false, error: error }
+      setAudioAnalysisDriveSyncStatus({
+        syncing: false,
+        lastError: error,
+        lastResult: result,
+        phase: 'error',
+        message: error,
+      })
+      return result
     }
 
     emitSyncProgress({ phase: 'sync', message: 'Opening TuneBook Audio Analysis folder…' })
     const parentId = await driveApi.findTuneBookFolderInDrive()
     if (!parentId) {
-      return { ok: false, error: 'TuneBook folder not found — open or create your tunebook folder first' }
+      return fail('TuneBook folder not found — open or create your tunebook folder first')
     }
     const analysisFolderId = await driveApi.findOrCreateAudioAnalysisFolderInDrive(parentId)
     if (!analysisFolderId) {
-      return { ok: false, error: 'Could not create AudioAnalysis folder' }
+      return fail('Could not create AudioAnalysis folder')
     }
     const blobsFolderId = await ensureBlobsFolder(driveApi, analysisFolderId)
     if (!blobsFolderId) {
-      return { ok: false, error: 'Could not create blobs folder' }
+      return fail('Could not create blobs folder')
     }
 
     emitSyncProgress({ phase: 'sync', message: 'Loading local and Drive indexes…' })
@@ -412,7 +492,7 @@ export async function syncAudioAnalysisWithDrive(driveApi, options) {
       sets: mergedSets.length
     })
 
-    return {
+    const result = {
       ok: true,
       uploaded: uploaded,
       downloaded: downloaded,
@@ -421,9 +501,26 @@ export async function syncAudioAnalysisWithDrive(driveApi, options) {
       sets: mergedSets.length,
       groups: mergedGroups.length
     }
-  })().finally(function() {
+    setAudioAnalysisDriveSyncStatus({
+      lastError: null,
+      lastResult: result,
+    })
+    return result
+  })().catch(function(err) {
+    const message = (err && err.message) ? err.message : String(err)
+    const result = { ok: false, error: message }
+    setAudioAnalysisDriveSyncStatus({
+      syncing: false,
+      lastError: message,
+      lastResult: result,
+      phase: 'error',
+      message: message,
+    })
+    return result
+  }).finally(function() {
     syncInFlight = null
     syncProgressHandlers = []
+    setAudioAnalysisDriveSyncStatus({ syncing: false })
   })
 
   return syncInFlight

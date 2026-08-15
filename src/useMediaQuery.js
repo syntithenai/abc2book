@@ -6,11 +6,12 @@ import { useEffect, useState } from 'react';
  */
 export default function useMediaQuery(query) {
   const [matches, setMatches] = useState(function() {
-    if (typeof window === 'undefined') return false;
+    if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') return false;
     return window.matchMedia(query).matches;
   });
 
   useEffect(function() {
+    if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') return undefined;
     const mql = window.matchMedia(query);
     function handler(e) {
       setMatches(e.matches);

@@ -5,6 +5,8 @@ import {
 import {
   buildRecordingLinkUri,
   isOwnedMediaLink,
+  getRecording,
+  parseRecordingIdFromLinkUri,
   resolveRecordingLinkAudio,
   resolveRecordingLinkMidi,
 } from './linkRecording';
@@ -21,6 +23,9 @@ export async function warmOwnedMediaCacheOnLogin(tunes, options) {
   if (!driveApi || !accessToken) {
     return { warmed: 0, errors: [] };
   }
+  if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+    return { warmed: 0, errors: [], skipped: 'offline' };
+  }
 
   let warmed = 0;
   const errors = [];
@@ -34,6 +39,15 @@ export async function warmOwnedMediaCacheOnLogin(tunes, options) {
       const link = tune.links[linkIndex];
       if (!isOwnedMediaLink(link)) continue;
       if (!link.googleId) continue;
+
+      const recordingId = link.recordingId || parseRecordingIdFromLinkUri(link.link);
+      if (recordingId) {
+        // eslint-disable-next-line no-await-in-loop
+        const recording = await getRecording(recordingId);
+        if (!recording) continue;
+      } else {
+        continue;
+      }
 
       const linkUri = link.link || buildRecordingLinkUri(link.recordingId);
       const cacheKey = getExternalMediaCacheKey(tune.id, linkIndex, linkUri);

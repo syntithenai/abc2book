@@ -732,6 +732,23 @@ async def youtube_audio(
         return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
 
 
+def _sniff_audio_media_type(first_chunk: bytes) -> str:
+    data = first_chunk or b""
+    if data.startswith(b"ID3") or (len(data) >= 2 and data[0] == 0xFF and (data[1] & 0xE0) == 0xE0):
+        return "audio/mpeg"
+    if data.startswith(b"OggS"):
+        return "audio/ogg"
+    if data.startswith(b"fLaC"):
+        return "audio/flac"
+    if len(data) >= 12 and data[4:8] == b"ftyp":
+        return "audio/mp4"
+    if data.startswith(b"RIFF"):
+        return "audio/wav"
+    if data.startswith(b"\x1aE\xdf\xa3"):
+        return "audio/webm"
+    return "audio/mpeg"
+
+
 @app.get("/bandcamp/audio")
 async def bandcamp_audio(
     request: Request,
@@ -756,7 +773,7 @@ async def bandcamp_audio(
             "--no-playlist",
             "--no-warnings",
             "-f",
-            "ba/b",
+            "bestaudio[ext=mp3]/bestaudio[acodec=mp3]/bestaudio[acodec^=mp4a]/bestaudio[acodec=aac]/bestaudio[ext=m4a][acodec^=mp4a]/mp3",
             "-o",
             "-",
             url,
@@ -793,7 +810,7 @@ async def bandcamp_audio(
 
         return StreamingResponse(
             body(),
-            media_type="application/octet-stream",
+            media_type=_sniff_audio_media_type(first),
             headers={**cors_headers(origin), "Cache-Control": "private, max-age=3600"},
         )
     except HTTPException as exc:

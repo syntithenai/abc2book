@@ -4,6 +4,7 @@ import PlaybackPromptModal from './PlaybackPromptModal'
 import {useParams, Link, useLocation, useNavigate} from 'react-router-dom'
 import {useState, useEffect, useMemo, useRef} from 'react'
 import { applyStoredOutputDeviceToElement } from '../outputDeviceSupport'
+import { requiresResolverProxiedPlayback } from '../mediaProxyClient'
 
 export default function MediaPlayerMedia({mediaController, tunebook, tune, routePlayState, routeMediaLinkNumber, suppressAutostart, suppressTapModal, onMediaEngineReady, instanceId, compactPlayer, forceRefresh, token, user, googleDocumentId, login, onLinksSaved}) {
     const params = useParams()
@@ -381,13 +382,16 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     const useCachedAudioPlayer = !!cachedPlaybackSrc
     const srcType = mediaController.getSrcType(src)
     const recordingAwaitingBlob = srcType === 'recording' && !useCachedAudioPlayer
+    const awaitingProxiedBlob = !useCachedAudioPlayer
+        && !!src
+        && requiresResolverProxiedPlayback(src)
     const suppressHtml5AudioSrc = typeof mediaController.shouldSuppressHtml5AudioSrc === 'function'
         && mediaController.shouldSuppressHtml5AudioSrc()
     const nativeAudioSrc = suppressHtml5AudioSrc
         ? ''
         : (useCachedAudioPlayer
             ? cachedPlaybackSrc
-            : (recordingAwaitingBlob ? '' : src))
+            : ((recordingAwaitingBlob || awaitingProxiedBlob) ? '' : src))
     // Keep the YouTube iframe mounted until the external stem/pitch engine is
     // actually outputting audio. usesExternalPitchTempo() becomes true as soon
     // as a stem slider moves off 100%, and unmounting the iframe immediately

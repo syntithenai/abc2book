@@ -113,24 +113,24 @@ describe('timedLyricsChordsDisplay', function() {
     expect(preferInlineChords(tune, tunebook, makeParser('C | F | G |'))).toBe(true);
   });
 
-  test('chordBlocksCompleteForLyrics is false when a stanza has no chord block', function() {
+  test('chordBlocksCompleteForLyrics reuses leftover strains across extra stanzas', function() {
     const tune = {
       name: 'Incomplete',
       voices: { '1': { notes: ['"C" z z z z || "G" z z z z |'] } },
       wLines: ['verse one', '', 'verse two', '', 'verse three'],
     };
     const tunebook = makeTunebook();
-    // Two chord blocks, three lyric stanzas, no section headers → third unmatched.
+    // Two chord blocks, three unlabeled stanzas: third stanza revisits strain A.
     expect(chordBlocksCompleteForLyrics(
       tune,
       tunebook,
       makeParser('C | F |\n\nG | D |')
-    )).toBe(false);
+    )).toBe(true);
     expect(preferInlineChords(
       tune,
       tunebook,
       makeParser('C | F |\n\nG | D |')
-    )).toBe(false);
+    )).toBe(true);
   });
 
   test('tuneHasLyricEmbeddedChords detects ChordPro inline markers', function() {

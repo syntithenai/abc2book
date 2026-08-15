@@ -2,6 +2,7 @@ import jwt_decode from 'jwt-decode'
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import { normalizeToTokenResponse, tokenHasFreshAccess } from './googleLoginTokenAdapter'
 import { shouldUseAndroidBrowserOAuth } from './androidGoogleAuth'
+import { isNavigatorOffline } from './offlineNetwork'
 
 var GOOGLE_LOGIN_PROFILE_KEY = 'google_login_profile'
 var GOOGLE_LOGIN_HINT_EMAIL_KEY = 'google_login_hint_email'
@@ -85,6 +86,10 @@ export function createTokenClientController(ctx) {
     if (!(tokenResponse && tokenResponse.expires_in > 0)) return
     clearTimeout(loginRefreshTimeout)
     loginRefreshTimeout = setTimeout(function() {
+      if (isNavigatorOffline()) {
+        scheduleRenew(tokenResponse)
+        return
+      }
       refresh()
     }, (tokenResponse.expires_in * 999))
   }
@@ -231,6 +236,7 @@ export function createTokenClientController(ctx) {
   }
 
   function refresh(scope) {
+    if (isNavigatorOffline()) return
     if (!localStorage.getItem('google_login_user')) return
     if (refreshInFlight || refreshPendingTimeout) return
     var current = ctx.getAccessToken && ctx.getAccessToken()

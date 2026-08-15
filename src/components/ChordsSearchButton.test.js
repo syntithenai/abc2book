@@ -9,6 +9,10 @@ import ChordsSearchButton from './ChordsSearchButton'
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
 const mockStartSearch = jest.fn()
+const mockChordsSearchJob = {
+  failWithNetworkError: false,
+  onError: null,
+}
 
 jest.mock('../useMediaResolverHealth', function() {
   return function useMediaResolverHealth() {
@@ -24,13 +28,19 @@ jest.mock('../useAbcjsParser', function() {
 
 jest.mock('../useFieldLookupSearchJob', function() {
   return {
-    useFieldLookupSearchJob: function() {
+    useFieldLookupSearchJob: function(opts) {
+      mockChordsSearchJob.onError = opts && opts.onError
       return {
         busy: false,
         progressPercent: 0,
         progressMessage: '',
         activeJob: null,
-        startSearch: mockStartSearch,
+        startSearch: function() {
+          mockStartSearch.apply(null, arguments)
+          if (mockChordsSearchJob.failWithNetworkError && typeof mockChordsSearchJob.onError === 'function') {
+            mockChordsSearchJob.onError({ error: 'Network Error' })
+          }
+        },
         cancel: jest.fn(),
       }
     },
@@ -63,6 +73,8 @@ describe('ChordsSearchButton overwrite confirm', function() {
 
   beforeEach(function() {
     mockStartSearch.mockClear()
+    mockChordsSearchJob.failWithNetworkError = false
+    mockChordsSearchJob.onError = null
     container = document.createElement('div')
     document.body.appendChild(container)
     root = createRoot(container)
@@ -113,5 +125,30 @@ describe('ChordsSearchButton overwrite confirm', function() {
     expect(mockStartSearch).not.toHaveBeenCalled()
     expect(document.body.textContent).toContain('Replace chords from search')
     expect(document.body.textContent).toContain('import chords and lyrics')
+  })
+
+  test('network errors show needs-internet copy while offline, not start-the-resolver', function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    mockChordsSearchJob.failWithNetworkError = true
+    try {
+      act(function() {
+        root.render(
+          React.createElement(ChordsSearchButton, {
+            tuneId: 't1',
+            title: 'Song',
+            artist: 'Artist',
+            resolverAvailable: false,
+          })
+        )
+      })
+      act(function() {
+        container.querySelector('[data-testid="search-auto"]').click()
+      })
+      expect(container.textContent).toContain('This needs an internet connection.')
+      expect(container.textContent).not.toContain('start the local resolver')
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
   })
 })

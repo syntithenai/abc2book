@@ -18,6 +18,7 @@ import {
   promoteCachedLinkToOwned,
   tuneHasPromotableLinkCandidates,
 } from '../promoteCachedLinkToOwned'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 import { getExternalMediaCacheKey, isExternalMediaCached } from '../externalMediaAudioCache'
 import {
   getTuneOwnedMediaDriveSummary,
@@ -182,6 +183,10 @@ export default function MediaCacheTunesModal(props) {
     const token = props.token
     if (!tune || !saveTune || !driveApi || !token || !token.access_token) {
       toast.warning('Log in with Google to save cached audio to Drive.')
+      return
+    }
+    if (isNavigatorOffline()) {
+      toast.info(OFFLINE_MESSAGE)
       return
     }
     if (!utils) return

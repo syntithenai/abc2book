@@ -120,4 +120,30 @@ describe('mediaSearchAccess', function() {
     expect(access.needsLogin).toBe(true);
     expect(access.loginWarning).not.toBeNull();
   });
+
+  test('needsNetwork when offline instead of login', function() {
+    const originalOnLine = navigator.onLine;
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false });
+    try {
+      const access = getMediaSearchAccess({
+        resolverAvailable: false,
+        resolverStatus: {
+          available: false,
+          candidates: [{
+            base: 'https://resolver.example',
+            reachable: true,
+            available: false,
+            requireAuth: true,
+            authReason: 'login_required',
+          }],
+        },
+        accessToken: null,
+      });
+      expect(access.needsLogin).toBe(false);
+      expect(access.needsNetwork).toBe(true);
+      expect(access.loginWarning.showLoginButton).toBe(false);
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine });
+    }
+  });
 });

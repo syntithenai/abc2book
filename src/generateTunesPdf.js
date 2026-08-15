@@ -66,12 +66,14 @@ function applyPrintCloneStyles(clonedDoc) {
     '.print-pdf-chords-lyrics-flow .chord-blocks-only{padding:0!important;margin:0!important;width:100%!important;}',
     '.print-pdf-chords-lyrics-flow .chord-chart{width:100%!important;}',
     '.print-pdf-chords-lyrics-flow .chord-chart-line{display:block!important;width:100%!important;font-size:12px!important;line-height:1.3!important;padding:0.2em 0.32em!important;white-space:pre-wrap!important;overflow-wrap:anywhere!important;box-sizing:border-box!important;}',
+    '.print-pdf-chords-lyrics-flow .print-pdf-structure-chords,.print-pdf-chords-lyrics-flow .structure-chord-block,.print-pdf-chords-lyrics-flow .chord-block-lines{width:100%!important;margin:0!important;padding:0!important;}',
+    '.print-pdf-chords-lyrics-flow .chord-block-line{display:block!important;width:100%!important;font-size:12px!important;line-height:1.3!important;padding:0.2em 0.32em!important;white-space:pre-wrap!important;overflow-wrap:anywhere!important;box-sizing:border-box!important;}',
     '.print-pdf-chords-lyrics-flow .print-pdf-lyrics-beside-chords,.print-pdf-chords-lyrics-flow .print-pdf-lyrics-beside-chords .print-pdf-lyrics-full-width,.print-pdf-chords-lyrics-flow .print-pdf-lyrics-beside-chords .music-view-lyrics{width:100%!important;max-width:none!important;}',
     '.music-notation-section,.print-pdf-notation-col,.print-pdf-notation-paper,.print-pdf-notation-render,.music-view-notation{width:100%!important;max-width:none!important;}',
     '.print-pdf-notation-render svg,.print-pdf-notation-render img{width:100%!important;max-width:100%!important;height:auto!important;display:block!important;}',
     '.print-pdf-lyrics-columns--2{column-count:2!important;column-gap:1.25em!important;width:100%!important;}',
     '.print-pdf-lyrics-columns--3{column-count:3!important;column-gap:1.25em!important;width:100%!important;}',
-    '.music-view-lyrics,.timed-lyrics-chords-view,.chord-chart,.chord-chart-line{width:100%!important;max-width:none!important;}',
+    '.music-view-lyrics,.timed-lyrics-chords-view,.chord-chart,.chord-chart-line,.structure-chord-block,.chord-block-line,.print-pdf-structure-chords{width:100%!important;max-width:none!important;}',
   ].join('');
   clonedDoc.head.appendChild(style);
 

@@ -29,6 +29,7 @@ import { loadPracticeSettings } from '../practiceSessionSettings'
 import { runFeedEnrichment } from '../feedEnrichmentClient'
 import { runFeedAiGeneration } from '../feedGenerationClient'
 import { runFeedMusixmatchEnrichment } from '../feedMusixmatchClient'
+import { isNavigatorOffline } from '../offlineNetwork'
 import { planInjectWave, streamSeenMaps } from '../feedInjectUtils'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { downloadFeedFeedbackJson, getAllFeedFeedback, clearAllFeedFeedback } from '../feedFeedbackStore'
@@ -209,6 +210,10 @@ export default function FeedPage(props) {
       if (cancelled) return
       contentRef.current = bundle
       rebuildStream(bundle)
+      if (isNavigatorOffline()) {
+        setUpdating(false)
+        return
+      }
       setUpdating(true)
       var chain = Promise.resolve()
       if (!FEED_AI_ONLY) {

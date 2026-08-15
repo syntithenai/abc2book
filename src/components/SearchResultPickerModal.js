@@ -29,6 +29,21 @@ function looksLikeMatchMeta(text) {
   return value === 'writer' || value === 'performer' || value === 'original';
 }
 
+function isDeferredMidiItem(item) {
+  if (!item || typeof item !== 'object') return false;
+  if (item.importFormat === 'midi') return true;
+  const meta = item.tuneMeta && item.tuneMeta.meta;
+  return !!(meta && meta.importFormat === 'midi') || !!item.midiBytes;
+}
+
+function midiPlaceholderLabel(item) {
+  const source = String((item && (item.source || item.matchType)) || '').toLowerCase();
+  if (source === 'midi-resources' || (item && item.sourceUrl && String(item.sourceUrl).indexOf('/midi-resources/') >= 0)) {
+    return 'Local MIDI — import with wizard';
+  }
+  return 'MIDI file — import with wizard';
+}
+
 function formatMatchType(item) {
   if (!item) return '';
   if (item.__current || item.isCurrent || item.id === 'current') return 'Original Value';
@@ -36,10 +51,9 @@ function formatMatchType(item) {
     const badge = notationSourceBadgeLabel(item.source)
     return badge ? badge + ' · Sheet PDF' : 'Sheet PDF (no MusicXML)';
   }
-  if (item.matchType) return String(item.matchType);
-  const source = item.source ? String(item.source).trim() : '';
+  const source = item.matchType || item.source || '';
   if (source && source !== 'current' && source !== 'original') {
-    return notationSourceBadgeLabel(source) || source;
+    return notationSourceBadgeLabel(source) || String(source);
   }
   const artist = item.artist ? String(item.artist).trim() : '';
   if (artist && looksLikeMatchMeta(artist)) return artist;
@@ -49,6 +63,7 @@ function formatMatchType(item) {
 
 function itemHasAbcPreview(item) {
   if (!item) return false;
+  if (isDeferredMidiItem(item)) return false;
   if (item.pdfAttachment && item.pdfAttachment.downloadUrl) return false;
   if (typeof item.abc === 'string' && item.abc.trim()) return true;
   const preview = item.preview != null ? String(item.preview) : '';
@@ -161,9 +176,11 @@ export default function SearchResultPickerModal({
             <AbcSnippetPreview item={item} metadata={previewMetadata} maxBars={8} />
           ) : (
             <div className="text-muted small">
-              {(item && item.pdfAttachment && item.pdfAttachment.downloadUrl)
-                ? 'Sheet PDF will be attached to this tune'
-                : 'No notation preview'}
+              {isDeferredMidiItem(item)
+                ? midiPlaceholderLabel(item)
+                : ((item && item.pdfAttachment && item.pdfAttachment.downloadUrl)
+                  ? 'Sheet PDF will be attached to this tune'
+                  : 'No notation preview')}
             </div>
           )}
         </div>

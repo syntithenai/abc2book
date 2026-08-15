@@ -20,6 +20,7 @@ import { isMediaAnalysisLookupJob } from './mediaAnalysisSuggestions'
 import { countActiveAudioGenerationJobs } from './audioGenerationJobStore'
 import { countActiveChordReadinessJobs } from './chordReadinessCleanupQueue'
 import { getStemAnalysisJobSnapshot } from './stemAnalysisJobStore'
+import { countDriveSyncIncomplete } from './driveSyncJobs'
 
 export function countBackgroundResearchIncomplete() {
   return countActiveFifoJobs(bulkBackgroundResearchQueue.getState().jobs)
@@ -33,6 +34,10 @@ export function countComposerDiscoveryIncomplete() {
 
 export function countMediaCacheIncomplete() {
   return countActiveFifoJobs(mediaCacheQueue.getState().jobs)
+}
+
+export function countGoogleDriveIncomplete() {
+  return countDriveSyncIncomplete()
 }
 
 export function countStemCreateIncomplete(mediaController) {
@@ -103,6 +108,7 @@ export const BACKGROUND_JOB_TAB_ORDER = [
   { eventKey: 'research', countKey: 'research' },
   { eventKey: 'composer-discovery', countKey: 'composerDiscovery' },
   { eventKey: 'media-cache', countKey: 'mediaCache' },
+  { eventKey: 'google-drive', countKey: 'googleDrive' },
   { eventKey: 'stem-create', countKey: 'stemCreate' },
   { eventKey: 'audio-generation', countKey: 'audioGeneration' },
   { eventKey: 'chord-cleanup', countKey: 'chordCleanup' },
@@ -120,6 +126,7 @@ export function getBackgroundJobTabCounts(mediaController) {
     research: countBackgroundResearchIncomplete(),
     composerDiscovery: countComposerDiscoveryIncomplete(),
     mediaCache: countMediaCacheIncomplete(),
+    googleDrive: countGoogleDriveIncomplete(),
     stemCreate: countStemCreateIncomplete(mediaController),
     audioGeneration: countAudioGenerationIncomplete(),
     chordCleanup: countChordCleanupIncomplete(),
@@ -149,6 +156,7 @@ export function getBackgroundJobTabCountsKey(mediaController) {
     counts.research,
     counts.composerDiscovery,
     counts.mediaCache,
+    counts.googleDrive,
     counts.stemCreate,
     counts.audioGeneration,
     counts.chordCleanup,

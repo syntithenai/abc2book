@@ -74,6 +74,7 @@ function shouldProxyResolver(pathname) {
   if (pathname.startsWith('/generate-practice-track')) return true;
   if (pathname.startsWith('/generate-audio')) return true;
   if (pathname.startsWith('/render-midi')) return true;
+  if (pathname.startsWith('/midi-resources/')) return true;
   if (pathname.startsWith('/stems/')) return true;
   if (pathname.startsWith('/snapcast-playback/')) return true;
   if (pathname.startsWith('/cast-playback/')) return true;

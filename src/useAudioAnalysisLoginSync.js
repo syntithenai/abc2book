@@ -7,11 +7,13 @@ import useGoogleDocument from './useGoogleDocument'
 import { syncAudioAnalysisWithDrive } from './audioAnalysisCloudSync'
 import { listUnsyncedSets, listDeletedSets, listDeletedGroups, listGroups } from './soundpostSetStore'
 import { tokenHasDriveAccess } from './googleDrivePickerClient'
+import { isNavigatorOffline } from './offlineNetwork'
 
 let inFlight = null
 
 export async function syncAudioAnalysisAfterLogin(driveApi, options) {
   const opts = options || {}
+  if (isNavigatorOffline()) return { ok: false, error: 'Offline' }
   if (!driveApi) return { ok: false, error: 'No Drive API' }
   if (inFlight) return inFlight
 

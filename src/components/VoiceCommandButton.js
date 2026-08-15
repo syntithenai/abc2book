@@ -10,6 +10,7 @@ import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
 import { buildVoiceCatalogs, formatVoiceCommandFeedback } from '../voiceCommandUtils';
 import { primaryArtist } from '../tuneBibliographicUtils';
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork';
 
 function MicIcon() {
   return (
@@ -53,6 +54,10 @@ export default function VoiceCommandButton(props) {
   }
 
   async function submitCapturedAudio(blob) {
+    if (isNavigatorOffline()) {
+      toast.info(OFFLINE_MESSAGE);
+      return;
+    }
     if (abortRef.current) abortRef.current.abort();
     const controller = new AbortController();
     abortRef.current = controller;
@@ -118,7 +123,9 @@ export default function VoiceCommandButton(props) {
     } catch (error) {
       if (error && error.name === 'AbortError') {
         if (timedOut) {
-          toast.error('Voice command timed out — check that the media resolver is running');
+          toast.error(timedOut
+            ? (isNavigatorOffline() ? OFFLINE_MESSAGE : 'Voice command timed out — check that the media resolver is running')
+            : 'Voice command timed out — check that the media resolver is running');
         }
         return;
       }

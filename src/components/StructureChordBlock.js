@@ -76,7 +76,10 @@ export default function StructureChordBlock(props) {
     onCapoToggle,
     onCapoOffsetChange,
     showCapoControl,
+    chordTranspose,
   } = props;
+
+  const displayTranspose = Number(chordTranspose) || 0;
 
   const melodyKey = useMemo(function() {
     return chordNoteLinesFromTune(tune, melodyNoteLines).join('\n');
@@ -91,7 +94,9 @@ export default function StructureChordBlock(props) {
     const tuneMeter = tune && tune.meter ? tune.meter : null;
 
     const noteLines = chordNoteLinesFromTune(tune, melodyNoteLines);
-    const chordBlocks = chordChartBlocksForTuneDisplay(tune, chart, noteLines);
+    const chordBlocks = chordChartBlocksForTuneDisplay(tune, chart, noteLines, {
+      displayTranspose: displayTranspose,
+    });
     const strainCount = splitMelodyStrainsWithBarlines(noteLines).length;
 
     function formatSectionChart(chartText, applyLeadingMeter) {
@@ -143,7 +148,9 @@ export default function StructureChordBlock(props) {
     const display = formatChordChartForDisplay(chart);
     if (!display) return [];
     let leadingMeterPending = !!tuneMeter;
-    return chordChartBlocksForTuneDisplay(tune, display, noteLines).map(function(block) {
+    return chordChartBlocksForTuneDisplay(tune, display, noteLines, {
+      displayTranspose: displayTranspose,
+    }).map(function(block) {
       const applyLeading = leadingMeterPending;
       if (applyLeading) leadingMeterPending = false;
       return {
@@ -155,7 +162,7 @@ export default function StructureChordBlock(props) {
     }).filter(function(section) {
       return !!section.chart;
     });
-  }, [chords, tune, title, composer, melodyKey, melodyNoteLines]);
+  }, [chords, tune, title, composer, melodyKey, melodyNoteLines, displayTranspose]);
 
   const sectionsKey = useMemo(function() {
     return structureSections.map(function(s) {

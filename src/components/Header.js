@@ -21,6 +21,7 @@ import {
 } from '../playbackNavigationUtils';
 import { toggleTunePlayback } from '../tunePlaybackActions';
 import { isEditorNotationPath } from '../viewModeUtils';
+import { OFFLINE_LOGIN_MESSAGE, useNavigatorOnline } from '../offlineNetwork';
 import {
   isPlaybackInterruptPath,
   useToolPagePlaybackInterrupt,
@@ -46,6 +47,7 @@ export default function Header(props) {
     const [showPlaylists, setShowPlaylists] = useState(false)
     const [navMenuOpen, setNavMenuOpen] = useState(false)
     const [listsMenuOpen, setListsMenuOpen] = useState(false)
+    const navigatorOnline = useNavigatorOnline()
     const importReviewRevision = useSyncExternalStore(
         subscribeImportReviewSession,
         getImportReviewSessionRevision,
@@ -217,7 +219,6 @@ export default function Header(props) {
     function renderAuthButton(inHeader) {
         const className = inHeader ? 'header-auth-btn' : 'header-dropdown-btn'
         const size = inHeader ? undefined : navButtonSize
-        const imgSize = inHeader ? undefined : (compactNav ? '40px' : '50px')
         if (props.token) {
             const profileUrl = props.user && props.user.picture && props.token.access_token && !userImageError
                 ? props.user.picture + '?access_token=' + props.token.access_token + '&not-from-cache-please'
@@ -232,15 +233,24 @@ export default function Header(props) {
                     onClick={openAccountDialog}
                 >
                     {profileUrl
-                        ? <img src={profileUrl} onError={function() { setUserImageError(true) }} className="header-auth-profile-img" style={imgSize ? { height: imgSize, width: imgSize } : undefined} alt="" />
+                        ? <img src={profileUrl} onError={function() { setUserImageError(true) }} className="header-auth-profile-img" alt="" />
                         : props.tunebook.icons.login}
                 </Button>
             )
         }
         return (
-            <Button size={size} variant="success" className={className} aria-label="Log in" title="Log in" onClick={function() {
-                if (typeof props.login === 'function') props.login()
-            }}>
+            <Button
+                size={size}
+                variant="success"
+                className={className}
+                aria-label="Log in"
+                title={navigatorOnline ? 'Log in' : OFFLINE_LOGIN_MESSAGE}
+                disabled={!navigatorOnline}
+                onClick={function() {
+                    if (!navigatorOnline) return
+                    if (typeof props.login === 'function') props.login()
+                }}
+            >
                 {props.tunebook.icons.login}
             </Button>
         )
@@ -349,8 +359,8 @@ export default function Header(props) {
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
                         <Link to="/privacy" onClick={function() { setTimeout(function() { props.tunebook.utils.scrollTo('topofpage') }, 300) }}>
-                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                Privacy Policy
+                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn" title="Privacy Policy">
+                                Privacy
                             </Button>
                         </Link>
                     </Dropdown.Item>
@@ -419,35 +429,28 @@ export default function Header(props) {
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-tools">
                     <Dropdown.Item as="div">
-                        <Link to="/metronome">
+                        <Link to="/metronome" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 {props.tunebook.icons.metronome} Rhythm
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
-                        <Link to="/tuner">
+                        <Link to="/tuner" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 {props.tunebook.icons.tuner} Tuner
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
-                        <Link to="/audioanalysis">
-                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                Audio Analysis
-                            </Button>
-                        </Link>
-                    </Dropdown.Item>
-                    <Dropdown.Item as="div">
-                        <Link to="/chords">
+                        <Link to="/chords" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 {props.tunebook.icons.guitar} Chords
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
-                        <Link to="/piano">
+                        <Link to="/piano" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 {props.tunebook.icons.piano} Keyboard
                             </Button>
@@ -455,7 +458,7 @@ export default function Header(props) {
                     </Dropdown.Item>
                     {resolverAvailable ? (
                         <Dropdown.Item as="div">
-                            <Link to="/lyrics">
+                            <Link to="/lyrics" onClick={function() { setNavMenuOpen(false) }}>
                                 <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                     {props.tunebook.icons.words} Lyrics
                                 </Button>

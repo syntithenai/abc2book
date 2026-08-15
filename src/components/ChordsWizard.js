@@ -23,7 +23,7 @@ import {
   hasLyricEmbeddedChords,
   chartBlockHasChords,
 } from '../chordSheetUtils'
-import { applyNotationChordsToLyricChordPro } from '../applyNotationChordsToLyrics'
+import { applyNotationChordsToLyricChordPro, buildUntransposedNotationChordChart } from '../applyNotationChordsToLyrics'
 import { parseChordSheetText } from '../chordProFormatUtils'
 import { buildChordSheetAlignmentFromLines } from '../chordSheetImportUtils'
 import {
@@ -1083,27 +1083,11 @@ export default function ChordsWizard(props) {
   }
 
   function buildNotationChordChart() {
-    const melodyNoteLines = chordNoteLinesFromTune(tune, primaryNoteLines())
-    if (!melodyNoteLines.length) return { chordChart: '', melodyNoteLines: [] }
-    let chordChart = ''
-    try {
-      const melodyAbc = props.tunebook && props.tunebook.abcTools
-        ? props.tunebook.abcTools.emptyABC(tune.name) + melodyNoteLines.join('\n')
-        : ''
-      chordChart = melodyAbc
-        ? abcjsParser.renderChords(
-          melodyAbc,
-          false,
-          Number(tune.transpose) || 0,
-          tune.key,
-          tune.noteLength,
-          tune.meter
-        )
-        : ''
-    } catch (e) {
-      chordChart = ''
-    }
-    return { chordChart: chordChart, melodyNoteLines: melodyNoteLines }
+    return buildUntransposedNotationChordChart(tune, {
+      abcjsParser: abcjsParser,
+      tunebook: props.tunebook,
+      melodyNoteLines: chordNoteLinesFromTune(tune, primaryNoteLines()),
+    })
   }
 
   function applyChordsToLyricsSheet() {

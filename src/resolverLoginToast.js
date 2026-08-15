@@ -9,6 +9,7 @@ import {
   getMediaResolverHealthState,
   subscribeMediaResolverHealth,
 } from './mediaResolverHealthStore'
+import { isNavigatorOffline } from './offlineNetwork'
 
 const TOAST_ID = 'resolver-login-required'
 
@@ -127,6 +128,11 @@ export function syncResolverLoginToast(accessToken) {
   if (arguments.length > 0) {
     latestAccessToken = accessToken
   }
+  if (isNavigatorOffline()) {
+    lastWarnedKey = ''
+    toast.dismiss(TOAST_ID)
+    return
+  }
   const token = latestAccessToken
   const hasToken = !!normalizeAccessToken(token)
   if (lastSyncedHadToken && !hasToken) {
@@ -173,6 +179,8 @@ export function startResolverLoginToastSync(accessToken) {
 
   if (typeof window !== 'undefined') {
     window.addEventListener('mediaProxySettingsChanged', onSettingsChanged)
+    window.addEventListener('offline', onSettingsChanged)
+    window.addEventListener('online', onSettingsChanged)
   }
 
   syncResolverLoginToast(latestAccessToken)
@@ -186,6 +194,8 @@ export function startResolverLoginToastSync(accessToken) {
     unsubscribe()
     if (typeof window !== 'undefined') {
       window.removeEventListener('mediaProxySettingsChanged', onSettingsChanged)
+      window.removeEventListener('offline', onSettingsChanged)
+      window.removeEventListener('online', onSettingsChanged)
     }
   }
 }

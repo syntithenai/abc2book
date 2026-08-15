@@ -29,10 +29,18 @@ describe('voiceMeta', function() {
     });
   });
 
-  test('parseVoiceMeta extracts nm= attribute as display name', function() {
-    expect(parseVoiceMeta('nm="Violin" clef=treble')).toEqual({
-      name: 'Violin',
-      clef: 'treble',
+  test('parseVoiceMeta treats xml2abc bare bass token as clef', function() {
+    expect(parseVoiceMeta('bass nm="Piano"')).toEqual({
+      name: 'Piano',
+      clef: 'bass',
+      extra: '',
+    });
+  });
+
+  test('parseVoiceMeta keeps Bass as a name when clef= is present', function() {
+    expect(parseVoiceMeta('Bass clef=bass')).toEqual({
+      name: 'Bass',
+      clef: 'bass',
       extra: '',
     });
   });

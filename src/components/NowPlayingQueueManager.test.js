@@ -95,6 +95,12 @@ jest.mock('../playlistPlaybackResilience', function() {
     getResolverProxiedMediaPlayBlock: jest.fn(function() {
       return Promise.resolve(null)
     }),
+    getTuneMediaLinkPlayBlock: jest.fn(function() {
+      return Promise.resolve(null)
+    }),
+    isQueueItemFullyPlayable: jest.fn(function() {
+      return Promise.resolve(true)
+    }),
   }
 })
 
@@ -112,6 +118,10 @@ describe('NowPlayingQueueManager', function() {
     const resilience = require('../playlistPlaybackResilience')
     resilience.getResolverProxiedMediaPlayBlock.mockReset()
     resilience.getResolverProxiedMediaPlayBlock.mockResolvedValue(null)
+    resilience.getTuneMediaLinkPlayBlock.mockReset()
+    resilience.getTuneMediaLinkPlayBlock.mockResolvedValue(null)
+    resilience.isQueueItemFullyPlayable.mockReset()
+    resilience.isQueueItemFullyPlayable.mockResolvedValue(true)
     const healthStore = require('../mediaResolverHealthStore')
     healthStore.getMediaResolverHealthState.mockReset()
     healthStore.getMediaResolverHealthState.mockReturnValue({
@@ -198,7 +208,7 @@ describe('NowPlayingQueueManager', function() {
 
   test('disables media play buttons for uncached library links when logged out', async function() {
     const resilience = require('../playlistPlaybackResilience')
-    resilience.getResolverProxiedMediaPlayBlock.mockImplementation(function(tune, linkIndex) {
+    resilience.getTuneMediaLinkPlayBlock.mockImplementation(function(tune, linkIndex) {
       if (tune && tune.id === 'lib' && linkIndex === 0) {
         return Promise.resolve({
           kind: 'login',
@@ -263,5 +273,104 @@ describe('NowPlayingQueueManager', function() {
       blocked.dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
     expect(mockPlayQueueItem).not.toHaveBeenCalled()
+  })
+
+  test('disables media play buttons for uncached audio when offline', async function() {
+    const resilience = require('../playlistPlaybackResilience')
+    resilience.getTuneMediaLinkPlayBlock.mockImplementation(function() {
+      return Promise.resolve({
+        kind: 'offline',
+        message: 'Not cached for offline playback',
+      })
+    })
+    resilience.isQueueItemFullyPlayable.mockResolvedValue(false)
+
+    const setNowPlayingQueue = jest.fn()
+    const tunebook = {
+      hasNotesOrChords: function() { return false },
+      icons: { play: '▶', music: '♪', deletebin: '✕' },
+      utils: { isYoutubeLink: function() { return false } },
+    }
+    const tunes = {
+      remote: {
+        id: 'remote',
+        name: 'Remote Tune',
+        links: [{ link: 'https://example.com/a.mp3' }],
+      },
+    }
+    const queue = {
+      items: [{ tuneId: 'remote' }],
+      currentIndex: 0,
+    }
+
+    await act(async function() {
+      root.render(React.createElement(NowPlayingQueueManager, {
+        tunebook: tunebook,
+        nowPlayingQueue: queue,
+        setNowPlayingQueue: setNowPlayingQueue,
+        tunes: tunes,
+      }))
+    })
+    await act(async function() {
+      await Promise.resolve()
+      await Promise.resolve()
+    })
+
+    const mediaBtn = container.querySelector('[data-testid="playlist-media-play-0-0"]')
+    const titleBtn = container.querySelector('[data-testid="playlist-item-title-0"]')
+    expect(mediaBtn.disabled).toBe(true)
+    expect(mediaBtn.getAttribute('title')).toBe('Not cached for offline playback')
+    expect(titleBtn.disabled).toBe(true)
+
+    act(function() {
+      titleBtn.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    expect(mockPlayQueueItem).not.toHaveBeenCalled()
+  })
+
+  test('keeps MIDI play enabled when uncached audio is disabled offline', async function() {
+    const resilience = require('../playlistPlaybackResilience')
+    resilience.getTuneMediaLinkPlayBlock.mockResolvedValue({
+      kind: 'offline',
+      message: 'Not cached for offline playback',
+    })
+    resilience.isQueueItemFullyPlayable.mockResolvedValue(true)
+
+    const setNowPlayingQueue = jest.fn()
+    const tunebook = {
+      hasNotesOrChords: function() { return true },
+      icons: { play: '▶', music: '♪', deletebin: '✕' },
+      utils: { isYoutubeLink: function() { return false } },
+    }
+    const tunes = {
+      mixed: {
+        id: 'mixed',
+        name: 'Mixed Tune',
+        notes: 'CDEF',
+        links: [{ link: 'https://example.com/a.mp3' }],
+      },
+    }
+    const queue = {
+      items: [{ tuneId: 'mixed' }],
+      currentIndex: 0,
+    }
+
+    await act(async function() {
+      root.render(React.createElement(NowPlayingQueueManager, {
+        tunebook: tunebook,
+        nowPlayingQueue: queue,
+        setNowPlayingQueue: setNowPlayingQueue,
+        tunes: tunes,
+      }))
+    })
+    await act(async function() {
+      await Promise.resolve()
+      await Promise.resolve()
+    })
+
+    const mediaBtn = container.querySelector('[data-testid="playlist-media-play-0-0"]')
+    const midiBtn = container.querySelector('[data-testid="playlist-midi-play-0"]')
+    expect(mediaBtn.disabled).toBe(true)
+    expect(midiBtn.disabled).toBe(false)
   })
 })

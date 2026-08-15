@@ -339,7 +339,11 @@ function buildProps(overrides) {
     tunes: {
       'existing-1': { id: 'existing-1', name: 'Existing Tune', composer: 'Existing Artist' },
     },
-    tunebook: {},
+    tunebook: {
+      getTuneBookOptions: function() { return {} },
+      getSearchTuneBookOptions: function() { return {} },
+      icons: {},
+    },
     resolverAvailable: true,
     onClose: jest.fn(),
     onSessionChange: jest.fn(),

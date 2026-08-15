@@ -8,7 +8,9 @@ import {
 import {
   isNavigatorOffline,
   isTuneOfflinePlayable,
+  isMediaLinkOfflineReady,
 } from './offlinePlayback'
+import { OFFLINE_PLAYBACK_MESSAGE } from './offlineNetwork'
 import {
   isLinkMediaCached,
   isOwnedMediaLink,
@@ -112,6 +114,21 @@ export async function getResolverProxiedMediaPlayBlock(tune, linkIndex, options)
   return getResolverProxiedMediaAuthBlock(options)
 }
 
+export async function getTuneMediaLinkPlayBlock(tune, linkIndex, options) {
+  if (isNavigatorOffline()) {
+    const ready = await isMediaLinkOfflineReady(
+      tune,
+      linkIndex,
+      options && options.isYoutubeLink
+    )
+    if (!ready) {
+      return { kind: 'offline', message: OFFLINE_PLAYBACK_MESSAGE }
+    }
+    return null
+  }
+  return getResolverProxiedMediaPlayBlock(tune, linkIndex, options)
+}
+
 export async function isResolverProxiedMediaPlayable(tune, linkIndex, options) {
   return !(await getResolverProxiedMediaPlayBlock(tune, linkIndex, options))
 }
@@ -157,6 +174,10 @@ export async function isOwnedMediaLinkLocallyAvailable(tune, linkIndex) {
 
 export async function isQueueItemFullyPlayable(tune, item, tunebook, options) {
   const opts = options || {}
+  if (isExternalQueueItem(item)) {
+    if (!isNavigatorOffline()) return true
+    return false
+  }
   if (!isQueueItemPlayable(tune, item, tunebook)) return false
   const target = resolvePlaybackForItem(tune, item, tunebook)
   if (!isNavigatorOffline()) {
@@ -222,14 +243,10 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const item = getCurrentItem(workingQueue)
-    if (isExternalQueueItem(item)) {
-      return { queue: workingQueue, tune: null, item: item, atEnd: false, skipped: skipped }
-    }
-    const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
     if (!item) {
       return { queue: workingQueue, tune: null, item: null, atEnd: true, skipped: skipped }
     }
-
+    const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
     const playable = await isQueueItemFullyPlayable(tune, item, tunebook, {
       isYoutubeLink: isYoutubeLink,
       playbackMode: playbackMode,

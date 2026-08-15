@@ -125,7 +125,8 @@ class MidiFetchHelperTests(unittest.TestCase):
         )
         self.assertEqual(candidate["source"], "bitmidi.com")
         self.assertEqual(candidate["tuneMeta"]["meta"]["importFormat"], "midi")
-        self.assertIn("<score-partwise", candidate["musicXml"])
+        self.assertTrue(candidate["midiBytes"])
+        self.assertEqual(candidate["musicXml"], "")
 
 
 class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
@@ -141,7 +142,7 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
         }
         midi = annotate_midi_candidate(
             MINIMAL_MUSICXML,
-            title="Clair de Lune",
+            title="Clare de Lune",
             source_url="https://bitmidi.com/files/clair.mid",
         )
         finalized = finalize_notation_candidates(
@@ -240,7 +241,7 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
         }
         midi = annotate_midi_candidate(
             MINIMAL_MUSICXML,
-            title="Clair de Lune",
+            title="Clare de Lune",
             source_url="https://bitmidi.com/files/clair.mid",
         )
 
@@ -397,8 +398,16 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
         midi = annotate_midi_candidate(
             MINIMAL_MUSICXML,
             title="Suite 1",
-            source_url="https://bitmidi.com/suite.mid",
+            source_url="/midi-resources/classical/suite_1.mid",
         )
+        midi["matchScore"] = 30
+        midi["tuneMeta"]["meta"]["midiLibrary"] = True
+        strict = finalize_notation_candidates(
+            [midi],
+            "Bach Cello Suite No. 1 For Violin",
+            "",
+        )
+        self.assertEqual(len(strict), 0)
         relaxed = finalize_notation_candidates(
             [midi],
             "Bach Cello Suite No. 1 For Violin",
@@ -406,7 +415,38 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
             relax_midi=True,
         )
         self.assertEqual(len(relaxed), 1)
-        self.assertEqual(relaxed[0]["source"], "bitmidi.com")
+        self.assertEqual(relaxed[0]["source"], "midi-resources")
+
+    def test_finalize_keeps_midi_bytes_payload(self):
+        from notation_fetch import _candidate_has_usable_payload
+
+        midi = annotate_midi_candidate(
+            MINIMAL_MUSICXML,
+            title="Moonlight Sonata",
+            artist="Beethoven",
+            source_url="/midi-resources/Various Artists/Moonlight Sonata (Beethoven).mid",
+        )
+        midi["matchScore"] = 98
+        self.assertTrue(_candidate_has_usable_payload(midi))
+        self.assertFalse(_candidate_has_usable_payload({"title": "Empty", "source": "midi"}))
+        finalized = finalize_notation_candidates(
+            [midi, {"title": "Empty", "source": "midi"}],
+            "Moonlight Sonata",
+            "",
+        )
+        self.assertEqual(len(finalized), 1)
+        self.assertEqual(finalized[0]["title"], "Moonlight Sonata")
+
+    def test_finalize_drops_local_midi_with_partial_token_coverage(self):
+        midi = annotate_midi_candidate(
+            MINIMAL_MUSICXML,
+            title="sonata practice",
+            source_url="/midi-resources/patterns/sonata_practice.mid",
+        )
+        midi["matchScore"] = 41
+        midi["tuneMeta"]["meta"]["midiLibrary"] = True
+        finalized = finalize_notation_candidates([midi], "Moonlight Sonata", "")
+        self.assertEqual(finalized, [])
 
 
 class MidiConvertSimplifyTests(unittest.TestCase):

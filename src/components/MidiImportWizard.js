@@ -615,6 +615,9 @@ export default function MidiImportWizard(props) {
           throw new Error('No MIDI data');
         }
         const profile = await analyzeMidiBytes(bytes, pending.fileName, props.accessToken);
+        if (!profile || !Array.isArray(profile.tracks) || !profile.tracks.length) {
+          throw new Error((profile && profile.reject_reason) || 'This MIDI file has no tracks');
+        }
         const initial = initDraftFromProfile(
           createMidiImportDraft({
             fileName: pending.fileName,

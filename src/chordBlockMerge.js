@@ -59,6 +59,7 @@ import {
   setPlainLyricLines,
 } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
+import { applyChordDisplayTranspose } from './chordKeyMergeOptions'
 
 const CACHE_VERSION = 5
 
@@ -581,8 +582,11 @@ export function chordChartBlocksForLyrics(chordChart, noteLines) {
  * Chord chart blocks for lyrics/structure display: strain-split rendered chart,
  * then editor cache when the tune was synced from notation but the rendered
  * chart is still one block.
+ *
+ * Cached charts are stored at concert pitch. Pass displayTranspose so print
+ * and structure view apply the same transpose/capo as renderChords.
  */
-export function chordChartBlocksForTuneDisplay(tune, renderedChart, melodyNoteLines) {
+export function chordChartBlocksForTuneDisplay(tune, renderedChart, melodyNoteLines, options) {
   const noteLines = chordNoteLinesFromTune(tune, melodyNoteLines)
   const blocks = chordChartBlocksForLyrics(renderedChart, noteLines)
   if (blocks.length > 1) return blocks
@@ -598,14 +602,27 @@ export function chordChartBlocksForTuneDisplay(tune, renderedChart, melodyNoteLi
     .filter(function(chart) { return chartHasMergeableContent(chart) })
   if (cachedCharts.length <= 1) return blocks
 
+  const displayTranspose = options && options.displayTranspose
+  const sourceKey = tune && tune.key
+
+  function cachedForDisplay(charts) {
+    const amount = Number(displayTranspose) || 0
+    const next = amount
+      ? charts.map(function(chart) {
+        return applyChordDisplayTranspose(chart, amount, sourceKey)
+      })
+      : charts
+    return ensureChartBlocksStartWithExplicitChord(next)
+  }
+
   if (chordBlockCacheMatchesMelody(noteLines, cache.blocks)) {
     const strains = splitMelodyStrainsWithBarlines(noteLines)
     if (strains.length <= 1 || cachedCharts.length === strains.length) {
-      return ensureChartBlocksStartWithExplicitChord(cachedCharts)
+      return cachedForDisplay(cachedCharts)
     }
     const expanded = expandChartsToStrainSlices(cachedCharts, noteLines)
     if (expanded.length === strains.length) {
-      return ensureChartBlocksStartWithExplicitChord(expanded)
+      return cachedForDisplay(expanded)
     }
   }
 
@@ -624,7 +641,7 @@ export function chordChartBlocksForTuneDisplay(tune, renderedChart, melodyNoteLi
     && totalStrainBars > 0
     && totalCacheBars === totalStrainBars
   ) {
-    return ensureChartBlocksStartWithExplicitChord(cachedCharts)
+    return cachedForDisplay(cachedCharts)
   }
 
   return blocks

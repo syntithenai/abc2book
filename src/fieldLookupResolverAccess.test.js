@@ -24,4 +24,18 @@ describe('fieldLookupResolverAccess', function() {
       features: {},
     })).toBe(false)
   })
+
+  test('blocks automatic lookup when offline', function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    try {
+      expect(fieldLookupAutomaticLookup('composer', {
+        needsLogin: false,
+        resolverAvailable: true,
+        features: {},
+      })).toBe(false)
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
+  })
 })

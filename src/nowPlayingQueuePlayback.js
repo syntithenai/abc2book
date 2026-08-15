@@ -648,6 +648,8 @@ export function shouldMusicSingleOwnMidiEngine(viewedTuneId, queue) {
 export function shouldMusicSingleMountMediaEngine(opts) {
   const o = opts || {}
   if (o.practiceSessionActive) return false
-  if (shouldMusicSingleOwnPlayback(o.viewedTuneId, o.queue)) return true
-  return !shouldNowPlayingHostOwnPlayback(o)
+  // Only preview-once keeps a page-local engine. Normal single-view play mounts
+  // in NowPlayingHost; a MusicSingle engine would unmount on first play and
+  // abort the Bandcamp/blob <audio> element.
+  return shouldMusicSingleOwnPlayback(o.viewedTuneId, o.queue)
 }

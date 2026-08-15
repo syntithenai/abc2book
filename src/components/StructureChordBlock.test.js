@@ -7,6 +7,7 @@ import { act } from 'react-dom/test-utils'
 import StructureChordBlock from './StructureChordBlock'
 import useAbcjsParser from '../useAbcjsParser'
 import useAbcTools from '../useAbcTools'
+import { hashAbcNotes } from '../chordBlockMerge'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
@@ -216,5 +217,71 @@ describe('StructureChordBlock height-fit sections', function() {
     expect(meters[0].querySelector('.chord-meter-num').textContent).toBe('5')
     expect(meters[0].querySelector('.chord-meter-den').textContent).toBe('4')
     expect(meters[1].getAttribute('aria-label')).toBe('4/4')
+  })
+
+  test('applies chordTranspose to cached structure charts', function() {
+    const noteLines = [
+      '"C"C4 D4 |"G"G4 A4 ||',
+      '"Am"A4 B4 |"F"F4 G4 ||',
+    ]
+    const tune = {
+      key: 'C',
+      words: ['[Verse]', 'la la', '', '[Chorus]', 'na na'],
+      voices: { '1': { notes: noteLines } },
+      meta: {
+        chordBlockCache: {
+          version: 5,
+          abcHash: hashAbcNotes(noteLines),
+          blocks: [
+            { key: 'v', chart: 'C | G |', melodyStrainIndex: 0, chartRevisit: false },
+            { key: 'c', chart: 'Am | F |', melodyStrainIndex: 1, chartRevisit: false },
+          ],
+        },
+      },
+    }
+
+    act(function() {
+      root.render(React.createElement(StructureChordBlock, {
+        chords: '',
+        tune: tune,
+        melodyNoteLines: noteLines,
+        chordTranspose: 2,
+      }))
+    })
+
+    const text = container.textContent
+    expect(text).toContain('D |')
+    expect(text).toContain('A |')
+    expect(text).toContain('Bm')
+    expect(text).not.toMatch(/C \|/)
+  })
+
+  test('does not repeat a chord block when a later stanza pins it with @1', function() {
+    const tune = {
+      name: 'Pinned Chorus',
+      words: [
+        '# verse',
+        'first verse line',
+        '',
+        '# chorus @1',
+        'chorus line',
+      ],
+    }
+
+    act(function() {
+      root.render(React.createElement(StructureChordBlock, {
+        chords: 'C G Am F\n\nG C F G',
+        tune: tune,
+        fitHeight: false,
+      }))
+    })
+
+    const sections = container.querySelectorAll('.structure-section')
+    expect(sections.length).toBe(2)
+    expect(sections[0].querySelector('.chord-block-line')).toBeTruthy()
+    expect(sections[0].classList.contains('structure-section--no-chart')).toBe(false)
+    expect(sections[1].querySelector('.chord-section-header').textContent).toMatch(/Chorus/i)
+    expect(sections[1].querySelector('.chord-block-line')).toBeFalsy()
+    expect(sections[1].classList.contains('structure-section--no-chart')).toBe(true)
   })
 })

@@ -10,6 +10,7 @@ import {
   scratchpadHasPendingSync,
 } from './scratchpadStore'
 import { tokenHasDriveAccess } from './googleDrivePickerClient'
+import { isNavigatorOffline } from './offlineNetwork'
 import {
   registerScratchpadDriveApi,
   flushScratchpadDriveDeletes,
@@ -35,6 +36,7 @@ function formatSyncSuccessMessage(result) {
 
 export async function syncScratchpadAfterLogin(driveApi, options) {
   const opts = options || {}
+  if (isNavigatorOffline()) return { ok: false, error: 'Offline' }
   if (!driveApi) return { ok: false, error: 'No Drive API' }
   if (inFlight) return inFlight
 

@@ -135,4 +135,68 @@ describe('tuneBookSync', function() {
     expect(Object.keys(result.updates)).toEqual([])
     expect(Object.keys(result.localUpdates)).toEqual([])
   })
+
+  test('own-upload echo with stale local lastUpdated is not an incoming update', function() {
+    const localTunes = {
+      t1: { id: 't1', name: 'Old Title', lastUpdated: 100, voices: { '1': { notes: ['C'] } } },
+    }
+    const remoteTunes = {
+      t1: { id: 't1', name: 'New Title', lastUpdated: 500, voices: { '1': { notes: ['C'] } } },
+    }
+    const result = compareTuneBooks({
+      localTunes,
+      localDeleted: {},
+      remoteTunes,
+      remoteDeleted: {},
+      lastUpdatedById: { t1: 500 },
+    })
+    expect(Object.keys(result.updates)).toEqual([])
+    expect(Object.keys(result.inserts)).toEqual([])
+    expect(Object.keys(result.deletes)).toEqual([])
+  })
+
+  test('own-upload echo does not insert a tune this browser already uploaded', function() {
+    const result = compareTuneBooks({
+      localTunes: {},
+      localDeleted: {},
+      remoteTunes: {
+        t1: { id: 't1', name: 'Uploaded', lastUpdated: 500, voices: { '1': { notes: ['C'] } } },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { t1: 500 },
+    })
+    expect(Object.keys(result.inserts)).toEqual([])
+  })
+
+  test('own-upload tombstone echo is not an incoming delete', function() {
+    const result = compareTuneBooks({
+      localTunes: {
+        t1: { id: 't1', name: 'Still local', lastUpdated: 100 },
+      },
+      localDeleted: {},
+      remoteTunes: {},
+      remoteDeleted: {
+        t1: { id: 't1', deletedAt: 500, name: 'Still local' },
+      },
+      lastDeletedAtById: { t1: 500 },
+    })
+    expect(Object.keys(result.deletes)).toEqual([])
+  })
+
+  test('newer other-device update still flags as incoming', function() {
+    const localTunes = {
+      t1: { id: 't1', name: 'Mine', lastUpdated: 500, voices: { '1': { notes: ['C'] } } },
+    }
+    const remoteTunes = {
+      t1: { id: 't1', name: 'Theirs', lastUpdated: 900, voices: { '1': { notes: ['C'] } } },
+    }
+    const result = compareTuneBooks({
+      localTunes,
+      localDeleted: {},
+      remoteTunes,
+      remoteDeleted: {},
+      lastUpdatedById: { t1: 500 },
+    })
+    expect(Object.keys(result.updates)).toEqual(['t1'])
+  })
 })

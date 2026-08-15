@@ -1,5 +1,6 @@
 import { getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import { getOfflineBlock } from './offlineNetwork'
 
 export const SCRATCHPAD_NOTATION_ABC_ACCEPT = '.abc,.txt,text/plain'
 export const SCRATCHPAD_NOTATION_FULL_ACCEPT =
@@ -15,9 +16,11 @@ export function getScratchpadNotationImportAccess(context) {
   const opts = context || {}
   const resolverChecked = !!opts.resolverChecked
   const resolverAvailable = !!opts.resolverAvailable
-  const loginWarning = getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
+  const loginWarning = getOfflineBlock()
+    || getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
+  const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
 
   if (!resolverChecked) {
     return {
@@ -28,6 +31,20 @@ export function getScratchpadNotationImportAccess(context) {
       needsLogin: false,
       abcOnly: false,
       loginWarning: null,
+    }
+  }
+
+  if (needsNetwork) {
+    return {
+      mode: 'abcOnly',
+      importLabel: 'Import ABC',
+      fileAccept: SCRATCHPAD_NOTATION_ABC_ACCEPT,
+      canPickFile: true,
+      needsLogin: false,
+      needsCredit: false,
+      needsNetwork: true,
+      abcOnly: true,
+      loginWarning: loginWarning,
     }
   }
 

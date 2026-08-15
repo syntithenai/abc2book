@@ -21,6 +21,7 @@ import { describeResolverAuthReason } from '../mediaProxyClient'
 import { pingYoutubeExtension } from '../youtubeExtensionClient'
 import { pingYoutubeNative } from '../youtubeNativeClient'
 import { isAndroidApp } from '../platformUtils'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 import { openBatteryOptimizationSettings } from '../androidNativePlayback'
 import {
   isYoutubeHelperDisabled,
@@ -48,6 +49,15 @@ import {
   loadAudioCompressSettings,
   saveAudioCompressSettings,
 } from '../audioCompressSettings'
+import {
+  loadMediaCacheDriveBackupSettings,
+  saveMediaCacheDriveBackupSettings,
+} from '../mediaCacheDriveBackupSettings'
+import {
+  CACHED_MEDIA_BACKUP_CHANGED_EVENT,
+  getMediaCacheDriveBackupStatus,
+  syncOutstandingCachedMediaBackup,
+} from '../mediaCacheDriveBackup'
 import {
   coerceAudioCompressFormat,
   getAudioCompressCapabilities,
@@ -159,6 +169,10 @@ export default function SettingsPage(props) {
   const [cacheStats, setCacheStats] = useState(null)
   const [cacheStatsLoading, setCacheStatsLoading] = useState(true)
   const [showMediaCacheTunes, setShowMediaCacheTunes] = useState(false)
+  const [driveBackupCachedMedia, setDriveBackupCachedMedia] = useState(function() {
+    return loadMediaCacheDriveBackupSettings().driveBackupCachedMedia
+  })
+  const [driveBackupStatus, setDriveBackupStatus] = useState(getMediaCacheDriveBackupStatus)
   const [activeTab, setActiveTab] = useState(function() {
     const tab = typeof window !== 'undefined'
       ? new URLSearchParams(window.location.search).get('tab')
@@ -248,6 +262,19 @@ export default function SettingsPage(props) {
       setActiveTab(TAB_BACKGROUND_JOBS)
     }
   }, [activeTab, showMusicCollectionTab, showDuplicatesTab, showCleanupTab])
+
+  useEffect(function() {
+    function onBackupChanged() {
+      setDriveBackupCachedMedia(loadMediaCacheDriveBackupSettings().driveBackupCachedMedia)
+      setDriveBackupStatus(getMediaCacheDriveBackupStatus())
+    }
+    window.addEventListener(CACHED_MEDIA_BACKUP_CHANGED_EVENT, onBackupChanged)
+    window.addEventListener('mediaCacheDriveBackupSettingsChanged', onBackupChanged)
+    return function() {
+      window.removeEventListener(CACHED_MEDIA_BACKUP_CHANGED_EVENT, onBackupChanged)
+      window.removeEventListener('mediaCacheDriveBackupSettingsChanged', onBackupChanged)
+    }
+  }, [])
 
   useEffect(function() {
     function onHelperSettingsChanged() {
@@ -464,6 +491,10 @@ export default function SettingsPage(props) {
   }
 
   async function handleCheckMergeNow() {
+    if (isNavigatorOffline()) {
+      toast.info(OFFLINE_MESSAGE)
+      return
+    }
     if (!props.token || !props.token.access_token) {
       if (typeof props.login === 'function') {
         pendingMergeCheckAfterLoginRef.current = true
@@ -566,6 +597,8 @@ export default function SettingsPage(props) {
             mediaController={props.mediaController}
             initialJobsTab={searchParams.get('jobsTab')}
             user={props.user}
+            token={token}
+            driveApi={props.driveApi}
           />
         </Tab.Pane>
 
@@ -812,6 +845,37 @@ export default function SettingsPage(props) {
                 <p className="app-text-muted">Could not measure cache storage.</p>
               )}
             </div>
+            <Form.Group className="mb-3">
+              <Form.Check
+                type="switch"
+                id="drive-backup-cached-media"
+                label="Back up cached media to Google Drive"
+                checked={driveBackupCachedMedia}
+                onChange={function(e) {
+                  const enabled = e.target.checked
+                  saveMediaCacheDriveBackupSettings({ driveBackupCachedMedia: enabled })
+                  setDriveBackupCachedMedia(enabled)
+                  setDriveBackupStatus(getMediaCacheDriveBackupStatus())
+                  if (enabled && token && token.access_token && props.driveApi) {
+                    syncOutstandingCachedMediaBackup({
+                      token: token,
+                      driveApi: props.driveApi,
+                    }).catch(function() {})
+                  }
+                }}
+              />
+              <p className="app-text-muted settings-cache-details-text">
+                {!accessToken
+                  ? 'Log in with Google to sync cached media to Drive.'
+                  : driveBackupStatus.syncing
+                    ? 'Syncing cached media with Google Drive…'
+                    : driveBackupStatus.lastError
+                      ? driveBackupStatus.lastError
+                      : (driveBackupStatus.backedUpCount
+                        ? driveBackupStatus.backedUpCount + ' file' + (driveBackupStatus.backedUpCount === 1 ? '' : 's') + ' backed up on Drive.'
+                        : 'When on, downloaded cache (not stems or MIDI) is copied to your Drive. Files are pulled onto this device when you play them.')}
+              </p>
+            </Form.Group>
             <div className="App-settings-actions">
               <Button
                 variant="info"

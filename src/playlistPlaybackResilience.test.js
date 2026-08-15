@@ -1,6 +1,7 @@
 import { createQueue } from './nowPlayingQueue'
 import {
   isQueueItemPlayable,
+  isQueueItemFullyPlayable,
   advanceQueueToNextPlayable,
   findFirstPlayableQueueIndex,
   isOwnedMediaLinkLocallyAvailable,
@@ -24,6 +25,10 @@ jest.mock('./linkRecording', function() {
       if (!tune || !Array.isArray(tune.links) || !tune.links[linkIndex]) return ''
       return String(tune.links[linkIndex].link || '').trim()
     },
+    isOwnedMediaLinkUri: function(uri) {
+      return !!(uri && String(uri).indexOf('abcbook-recording:') === 0)
+    },
+    findCachedExternalMediaForLink: jest.fn(function() { return Promise.resolve(null) }),
   }
 })
 
@@ -277,5 +282,44 @@ describe('playlistPlaybackResilience', function() {
     }
     stopPlaylistPlayback(mediaController)
     expect(calls).toEqual(['abort', 'pause', 'loading:false', 'playing:false', 'ready:false'])
+  })
+
+  test('advanceQueueToNextPlayable skips uncached external items when offline', async function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    try {
+      const queue = {
+        id: 'q',
+        items: [
+          { externalMedia: { youtubeId: 'abc123' } },
+          { tuneId: 'midi' },
+        ],
+        currentIndex: 0,
+      }
+      const result = await advanceQueueToNextPlayable(queue, tunes, tunebook, {
+        direction: 1,
+        advanceFirst: false,
+      })
+      expect(result.atEnd).toBe(false)
+      expect(result.tune.id).toBe('midi')
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
+  })
+
+  test('isQueueItemFullyPlayable allows owned recording when cache reports ready offline', async function() {
+    const originalOnLine = navigator.onLine
+    const linkRecording = require('./linkRecording')
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    linkRecording.isLinkMediaCached.mockResolvedValue(true)
+    try {
+      const owned = {
+        id: 'owned',
+        links: [{ link: 'abcbook-recording:rec1', recordingId: 'rec1' }],
+      }
+      await expect(isQueueItemFullyPlayable(owned, { tuneId: 'owned' }, tunebook, {})).resolves.toBe(true)
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
   })
 })

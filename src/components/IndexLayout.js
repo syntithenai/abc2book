@@ -9,6 +9,7 @@ import TuneListRow from './TuneListRow'
 import MediaListRow from './MediaListRow'
 import ArtistDiscographyBrowseModal from './ArtistDiscographyBrowseModal'
 import { searchMainMediaSources } from '../mainMediaSearchClient'
+import { isNavigatorOffline } from '../offlineNetwork'
 import {
   isAndroidLocalMediaAvailable,
   requestAndroidAudioPermission,
@@ -124,6 +125,12 @@ function IndexLayout(props) {
         mediaSearchAbortRef.current = null
       }
       if (query.length < 3) {
+        setMediaSearchResults([])
+        setMediaSearchBusy(false)
+        setDeviceAudioNeedsPermission(false)
+        return undefined
+      }
+      if (isNavigatorOffline()) {
         setMediaSearchResults([])
         setMediaSearchBusy(false)
         setDeviceAudioNeedsPermission(false)

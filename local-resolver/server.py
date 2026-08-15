@@ -1195,13 +1195,22 @@ def build_ytdlp_cmd(video_id, stream_to_stdout=False, proxy=None):
     )
 
 
-def build_ytdlp_cmd_for_url(target_url, stream_to_stdout=False, proxy=None):
+# Prefer MP3/AAC that HTML <audio> can play. Bandcamp "best" is often
+# FLAC/ALAC (m4a), which browsers reject with MEDIA_ERR_SRC_NOT_SUPPORTED.
+HTML_AUDIO_YTDLP_FORMAT = (
+    "bestaudio[ext=mp3]/bestaudio[acodec=mp3]/"
+    "bestaudio[acodec^=mp4a]/bestaudio[acodec=aac]/"
+    "bestaudio[ext=m4a][acodec^=mp4a]/mp3"
+)
+
+
+def build_ytdlp_cmd_for_url(target_url, stream_to_stdout=False, proxy=None, format_selector=None):
     cmd = [
         "yt-dlp",
         "--no-playlist",
         "--no-warnings",
         "-f",
-        "ba/b",
+        format_selector or "ba/b",
     ]
 
     cookies_path = prepare_ytdlp_cookies_path()
@@ -1332,8 +1341,36 @@ async def stream_youtube_via_ytdlp(video_id, proxy=None, billing_email=None, bil
     )
 
 
-async def stream_url_via_ytdlp(target_url, proxy=None, billing_email=None, billing_path="ytdlp-audio"):
-    cmd = build_ytdlp_cmd_for_url(target_url, stream_to_stdout=True, proxy=proxy)
+def sniff_audio_media_type(first_chunk: bytes) -> str:
+    data = first_chunk or b""
+    if data.startswith(b"ID3") or (len(data) >= 2 and data[0] == 0xFF and (data[1] & 0xE0) == 0xE0):
+        return "audio/mpeg"
+    if data.startswith(b"OggS"):
+        return "audio/ogg"
+    if data.startswith(b"fLaC"):
+        return "audio/flac"
+    if len(data) >= 12 and data[4:8] == b"ftyp":
+        return "audio/mp4"
+    if data.startswith(b"RIFF"):
+        return "audio/wav"
+    if data.startswith(b"\x1aE\xdf\xa3"):
+        return "audio/webm"
+    return "audio/mpeg"
+
+
+async def stream_url_via_ytdlp(
+    target_url,
+    proxy=None,
+    billing_email=None,
+    billing_path="ytdlp-audio",
+    format_selector=None,
+):
+    cmd = build_ytdlp_cmd_for_url(
+        target_url,
+        stream_to_stdout=True,
+        proxy=proxy,
+        format_selector=format_selector,
+    )
 
     proc = await asyncio.create_subprocess_exec(
         *cmd,
@@ -1372,7 +1409,7 @@ async def stream_url_via_ytdlp(target_url, proxy=None, billing_email=None, billi
 
     return StreamingResponse(
         body(),
-        media_type="application/octet-stream",
+        media_type=sniff_audio_media_type(first_chunk),
         headers={"Cache-Control": "private, max-age=3600", "Accept-Ranges": "none"},
     ), None
 
@@ -3255,6 +3292,7 @@ async def bandcamp_audio(
             proxy=proxy,
             billing_email=_billing_email(verified),
             billing_path="bandcamp-audio",
+            format_selector=HTML_AUDIO_YTDLP_FORMAT,
         )
         if error:
             return json_error(502, "Could not resolve Bandcamp audio stream", origin, error)

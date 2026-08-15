@@ -26,9 +26,10 @@ export default function PrivacyContent() {
           </li>
           <li>
             <strong>Google Drive content related to this app:</strong> tunebook documents, audio
-            recordings, and other files that the app creates or that you open with the app (OAuth
+            recordings, cached media backups, and other files that the app creates or that you open with the app (OAuth
             scope <code>https://www.googleapis.com/auth/drive.file</code>), typically stored under an
-            “ABC Tune Book” folder in your Drive.
+            “ABC Tune Book” folder in your Drive. Cached media backups live in a CachedMedia folder
+            and are copies of audio you already downloaded in the app (not stems or MIDI playback cache).
           </li>
           <li>
             <strong>Google Drive files you choose to import (optional):</strong> if you use the Drive

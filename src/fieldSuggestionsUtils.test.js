@@ -74,6 +74,28 @@ describe('fieldSuggestionsUtils dedupe', function() {
     ])
   })
 
+  test('collateUniqueSuggestions keeps deferred MIDI without ABC', function() {
+    const list = collateUniqueSuggestions('notation', [
+      {
+        title: 'Moonlight Sonata',
+        importFormat: 'midi',
+        source: 'midi-resources',
+        sourceUrl: '/midi-resources/a.mid',
+        abc: '',
+        preview: '',
+      },
+      {
+        title: 'Moonlight Sonata',
+        importFormat: 'midi',
+        source: 'midi-resources',
+        sourceUrl: '/midi-resources/b.mid',
+        abc: '',
+        preview: 'MIDI file (wizard import)',
+      },
+    ])
+    expect(list).toHaveLength(2)
+  })
+
   test('empty Original does not block empty-looking hits incorrectly', function() {
     const out = nonCurrentCandidates(
       [{ genre: 'Reel', source: 'a' }],

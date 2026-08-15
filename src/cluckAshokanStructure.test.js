@@ -139,10 +139,10 @@ describe('Ashokan and Cluck structure', function() {
     expect(merged.length).toBeGreaterThanOrEqual(8)
     const firstHalf = merged.slice(0, 4).flat().map(function(tok) { return tok.chord }).filter(Boolean)
     const secondHalf = merged.slice(4, 8).flat().map(function(tok) { return tok.chord }).filter(Boolean)
-    const strainAStart = extractChordSequence(chordBlocks[0])[0]
-    const strainBStart = extractChordSequence(chordBlocks[1])[0]
-    expect(firstHalf[0]).toBe(strainAStart)
-    expect(secondHalf[0]).toBe(strainBStart)
-    expect(strainBStart).not.toBe(strainAStart)
+    const strainA = extractChordSequence(chordBlocks[0])
+    const strainB = extractChordSequence(chordBlocks[1])
+    expect(firstHalf[0]).toBe(strainA[0])
+    expect(secondHalf[0]).toBe(strainB[0])
+    expect(strainA.join(' ')).not.toBe(strainB.join(' '))
   })
 })

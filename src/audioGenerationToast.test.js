@@ -27,9 +27,9 @@ describe('audioGenerationToast', function() {
 
   test('backgroundJobsAudioGenerationPath targets audio generation tab', function() {
     expect(backgroundJobsAudioGenerationPath()).toBe(
-      '/settings?tab=background-jobs&jobsTab=' + AUDIO_GENERATION_JOBS_TAB
+      '/#/settings?tab=background-jobs&jobsTab=' + AUDIO_GENERATION_JOBS_TAB
     )
-    expect(tuneSingleViewPath('tune-1')).toBe('/tunes/tune-1')
+    expect(tuneSingleViewPath('tune-1')).toBe('/#/tunes/tune-1')
   })
 
   test('showAudioGenerationStartedToast renders View jobs button', function() {
@@ -59,6 +59,6 @@ describe('audioGenerationToast', function() {
     expect(button.props.children).toBe('Open tune')
     button.props.onClick()
     expect(closeToast).toHaveBeenCalled()
-    expect(window.location.assign).toHaveBeenCalledWith('/tunes/tune-1')
+    expect(window.location.assign).toHaveBeenCalledWith('/#/tunes/tune-1')
   })
 })

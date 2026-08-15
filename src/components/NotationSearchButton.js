@@ -30,6 +30,7 @@ import { restoreFieldLookupOriginalToTune } from '../fieldSuggestionApply'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import useAbcjsParser from '../useAbcjsParser'
+import { applyNotationSearchCandidate, isDeferredMidiNotationCandidate } from '../notationMidiImport'
 
 function buildMidiSearchUrl(title, artist) {
   const parts = [String(title || '').trim(), String(artist || '').trim()].filter(Boolean)
@@ -116,7 +117,7 @@ export default function NotationSearchButton({
   const [manualCandidates, setManualCandidates] = useState([])
   const [musescorePaywalled, setMusescorePaywalled] = useState(false)
   const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
-  const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
+  const { available: resolverAvailableFromHealth, checked: resolverHealthChecked } = useMediaResolverHealth()
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
     ? resolverAvailableProp
     : resolverAvailableFromHealth
@@ -126,7 +127,7 @@ export default function NotationSearchButton({
   const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'notation')
   const fieldEmpty = !String(currentValue || '').trim()
 
-  function finishApply(result, jobId) {
+  function deliverAppliedNotation(result, jobId) {
     if (jobId) void applyFieldLookupChoice(jobId, result)
     if (typeof onNotation === 'function') onNotation(result)
     maybeOfferGenreFromSearchResult({
@@ -139,6 +140,27 @@ export default function NotationSearchButton({
       currentGenres: currentGenres,
       onGenreAccept: onGenreAccept,
     })
+  }
+
+  function finishApply(result, jobId) {
+    const hasAbc = !!(result && result.abc && String(result.abc).indexOf('K:') >= 0)
+    if (isDeferredMidiNotationCandidate(result) && !hasAbc) {
+      applyNotationSearchCandidate(result, {
+        accessToken: token,
+        tunebook: tunebook,
+        onAbc: function(abcText, _label, imported) {
+          const next = Object.assign({}, result, { abc: abcText })
+          if (imported && imported.tune) next.tune = imported.tune
+          deliverAppliedNotation(next, jobId)
+        },
+      }).catch(function(e) {
+        if (e && e.message && String(e.message).indexOf('cancelled') === -1) {
+          setError(e.message)
+        }
+      })
+      return
+    }
+    deliverAppliedNotation(result, jobId)
   }
   applyRef.current = finishApply
 
@@ -172,10 +194,8 @@ export default function NotationSearchButton({
       const actionableManuals = filterActionableNotationManualCandidates(manuals)
       const candidates = searchableSuggestions(job)
       setMusescorePaywalled(!!job.musescorePaywalled)
-      if (job.status === 'done' || (job.appliedCandidate && fieldEmpty)) {
-        if (job.appliedCandidate && typeof onNotation === 'function') {
-          onNotation(job.appliedCandidate)
-        }
+      if (job.appliedCandidate && (job.status === 'done' || fieldEmpty)) {
+        if (typeof onNotation === 'function') onNotation(job.appliedCandidate)
         return
       }
       if (actionableManuals.length > 0 && candidates.length === 0) {
@@ -253,7 +273,9 @@ export default function NotationSearchButton({
       accessToken: token,
       options: buildSearchModeOptions('review', { songType: songType, midiFallback: true }),
       searchOptions: {
-        resolverAvailable: resolverAvailable,
+        resolverAvailable: (typeof resolverAvailableProp === 'boolean' || resolverHealthChecked)
+          ? resolverAvailable
+          : undefined,
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
         midiFallback: true,
       },
@@ -286,7 +308,9 @@ export default function NotationSearchButton({
       accessToken: token,
       options: buildSearchModeOptions('review', { songType: songType }),
       searchOptions: {
-        resolverAvailable: resolverAvailable,
+        resolverAvailable: (typeof resolverAvailableProp === 'boolean' || resolverHealthChecked)
+          ? resolverAvailable
+          : undefined,
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
       },
     })
@@ -315,6 +339,8 @@ export default function NotationSearchButton({
       matchType: candidate.source || '',
       pdfAttachment: candidate.pdfAttachment || null,
       importFormat: candidate.importFormat || '',
+      midiBytes: candidate.midiBytes || '',
+      tuneMeta: candidate.tuneMeta || null,
     }
   }))
 

@@ -79,4 +79,35 @@ describe('performanceSetSync', function() {
     expect(parsed['set-x'].deletedAt).toBe(9000);
     expect(parsed['set-x'].name).toBe('Deleted set');
   });
+
+  test('own-upload echo with stale local updatedAt is not an incoming update', function() {
+    const result = comparePerformanceSets({
+      localSets: {
+        'set-1': { id: 'set-1', name: 'Old', updatedAt: 100, items: [] },
+      },
+      localDeleted: {},
+      remoteSets: {
+        'set-1': { id: 'set-1', name: 'New', updatedAt: 500, items: [] },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { 'set-1': 500 },
+    });
+    expect(Object.keys(result.updates)).toEqual([]);
+    expect(Object.keys(result.inserts)).toEqual([]);
+  });
+
+  test('newer other-device set update still flags as incoming', function() {
+    const result = comparePerformanceSets({
+      localSets: {
+        'set-1': { id: 'set-1', name: 'Mine', updatedAt: 500, items: [] },
+      },
+      localDeleted: {},
+      remoteSets: {
+        'set-1': { id: 'set-1', name: 'Theirs', updatedAt: 900, items: [] },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { 'set-1': 500 },
+    });
+    expect(Object.keys(result.updates)).toEqual(['set-1']);
+  });
 });

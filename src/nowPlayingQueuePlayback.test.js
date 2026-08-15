@@ -396,6 +396,19 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(false)
   })
 
+  test('shouldMusicSingleMountMediaEngine does not mount an idle single-view engine', function() {
+    const tunes = { t1: { id: 't1', links: [{ link: 'https://artist.bandcamp.com/track/foo' }] } }
+    expect(shouldMusicSingleMountMediaEngine({
+      viewedTuneId: 't1',
+      queue: { items: [] },
+      mediaController: {},
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/t1',
+      tunes: tunes,
+    })).toBe(false)
+  })
+
   test('shouldMusicSingleMountMediaEngine keeps preview-once engine in MusicSingle', function() {
     const previewQueue = Object.assign({}, queue, {
       previewOnce: { tuneId: 'other', returnIndex: 0 },

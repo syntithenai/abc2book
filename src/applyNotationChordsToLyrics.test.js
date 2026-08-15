@@ -4,6 +4,7 @@ import useAbcTools from './useAbcTools'
 import { setPlainLyricLines, getPlainLyricLines } from './wLinesUtils'
 import {
   applyNotationChordsToLyricChordPro,
+  buildUntransposedNotationChordChart,
   serializeChordProTokenLine,
 } from './applyNotationChordsToLyrics'
 import { linesHaveChordProInlineChords, hasLyricEmbeddedChords } from './chordSheetUtils'
@@ -149,5 +150,41 @@ describe('applyNotationChordsToLyricChordPro', function() {
     expect(joined).toMatch(/\/bow/)
     expect(joined).toMatch(/\[C\]/)
     expect(joined).toMatch(/\[B\]/)
+  })
+
+  test('buildUntransposedNotationChordChart ignores tune.transpose', function() {
+    const notes = [
+      '"G"zzzz|"C"zzzz|"G"zzzz|"D"zzzz||',
+    ]
+    const tune = buildTune(notes, ['Amazing grace how sweet'])
+    tune.transpose = 2
+    const abcjsParser = useAbcjsParser()
+    const abcTools = useAbcTools()
+    const melodyNoteLines = chordNoteLinesFromTune(tune)
+    const melodyAbc = abcTools.emptyABC(tune.name) + melodyNoteLines.join('\n')
+    const concertChart = abcjsParser.renderChords(
+      melodyAbc, false, 0, tune.key, tune.noteLength, tune.meter
+    )
+    const transposedChart = abcjsParser.renderChords(
+      melodyAbc, false, 2, tune.key, tune.noteLength, tune.meter
+    )
+    const built = buildUntransposedNotationChordChart(tune, {
+      abcjsParser: abcjsParser,
+      abcTools: abcTools,
+      melodyNoteLines: melodyNoteLines,
+    })
+
+    expect(concertChart).toMatch(/G/)
+    expect(transposedChart).not.toBe(concertChart)
+    expect(built.chordChart).toBe(concertChart)
+
+    const result = applyNotationChordsToLyricChordPro(tune, {
+      chordChart: built.chordChart,
+      melodyNoteLines: built.melodyNoteLines,
+    })
+    expect(result.ok).toBe(true)
+    const joined = result.lyricLines.join('\n')
+    expect(joined).toMatch(/\[G\]/)
+    expect(joined).not.toMatch(/\[A\]/)
   })
 })

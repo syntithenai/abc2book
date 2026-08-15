@@ -19,6 +19,7 @@ import {
   writePerformanceSetsMap,
   notifyPerformanceSetsChanged,
 } from './performanceSetStore';
+import { readLastDriveUploadSnapshot } from './driveUploadShrinkGuard';
 
 function setsMapWithIds(storageMap) {
   const withIds = {};
@@ -115,11 +116,14 @@ export function preparePerformanceSetMergeFromAbc(abcText, tunesById) {
   const localStorageSets = readPerformanceSetsMap();
   const localDeleted = readDeletedPerformanceSets();
   const localSets = setsMapWithIds(localStorageSets);
+  const lastUpload = readLastDriveUploadSnapshot() || {};
   const compared = comparePerformanceSets({
     localSets: localSets,
     localDeleted: localDeleted,
     remoteSets: remote.sets,
     remoteDeleted: remote.deleted,
+    lastUpdatedById: lastUpload.setUpdatedAtById,
+    lastDeletedAtById: lastUpload.setDeletedAtById,
   });
   const records = buildPerformanceSetMergeRecords(compared);
   const hasIncoming = records.length > 0;

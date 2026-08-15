@@ -22,6 +22,7 @@ import {
 } from './mediaResolverHealthStore'
 import { toast } from 'react-toastify'
 import { isAndroidApp, isCapacitorNative } from './platformUtils'
+import { isNavigatorOffline, OFFLINE_LOGIN_MESSAGE } from './offlineNetwork'
 import {
   clearAndroidOAuthResumeGuard,
   clearAndroidOAuthSession,
@@ -206,6 +207,10 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   /** Prefer BFF code login when an oauthBff resolver is available so renewals
    * stay silent. Fall back to Token Client when no BFF base is known. */
   function login() {
+    if (isNavigatorOffline()) {
+      toast.info(OFFLINE_LOGIN_MESSAGE)
+      return Promise.resolve()
+    }
     clearAndroidOAuthResumeGuard()
     if (!hasPendingAndroidOAuthCallback()) {
       clearAndroidOAuthSession()

@@ -9,6 +9,9 @@ jest.mock('./mediaCacheStorage', function() {
     clearMidiCacheForTuneIds: jest.fn(function() {
       return Promise.resolve({ removed: 3 })
     }),
+    clearExternalMediaCacheForTuneIdAndSrcs: jest.fn(function() {
+      return Promise.resolve({ removed: 1 })
+    }),
   }
 })
 
@@ -23,6 +26,18 @@ jest.mock('./timedMediaCache', function() {
 jest.mock('./mediaCacheQueue', function() {
   return {
     removeJobsForTuneIds: jest.fn(function() { return 1 }),
+    removeJobsForTuneIdAndSrcs: jest.fn(function() { return 1 }),
+  }
+})
+
+jest.mock('./mediaCacheDriveBackup', function() {
+  return {
+    enqueueCachedMediaDriveDeletesForTuneIds: jest.fn(function() {
+      return Promise.resolve([])
+    }),
+    enqueueCachedMediaDriveDeletesForSrcs: jest.fn(function() {
+      return Promise.resolve([])
+    }),
   }
 })
 
@@ -30,10 +45,12 @@ const {
   clearAudioCacheForTuneIds,
   clearStemCacheForTuneIds,
   clearMidiCacheForTuneIds,
+  clearExternalMediaCacheForTuneIdAndSrcs,
 } = require('./mediaCacheStorage')
 const { clearTimedMediaDraft } = require('./timedMediaCache')
-const { removeJobsForTuneIds } = require('./mediaCacheQueue')
-const { clearCachedMediaForDeletedTuneIds } = require('./deletedTuneMediaCleanup')
+const { removeJobsForTuneIds, removeJobsForTuneIdAndSrcs } = require('./mediaCacheQueue')
+const { enqueueCachedMediaDriveDeletesForTuneIds, enqueueCachedMediaDriveDeletesForSrcs } = require('./mediaCacheDriveBackup')
+const { clearCachedMediaForDeletedTuneIds, clearCachedMediaForRemovedLinkSrcs } = require('./deletedTuneMediaCleanup')
 
 describe('clearCachedMediaForDeletedTuneIds', function() {
   beforeEach(function() {
@@ -42,6 +59,11 @@ describe('clearCachedMediaForDeletedTuneIds', function() {
     clearMidiCacheForTuneIds.mockClear()
     clearTimedMediaDraft.mockClear()
     removeJobsForTuneIds.mockClear()
+    removeJobsForTuneIdAndSrcs.mockClear()
+    enqueueCachedMediaDriveDeletesForTuneIds.mockClear()
+    enqueueCachedMediaDriveDeletesForSrcs.mockClear()
+    clearExternalMediaCacheForTuneIdAndSrcs.mockClear()
+    clearExternalMediaCacheForTuneIdAndSrcs.mockResolvedValue({ removed: 1 })
   })
 
   test('no-ops for empty tune id lists', async function() {
@@ -66,6 +88,7 @@ describe('clearCachedMediaForDeletedTuneIds', function() {
     expect(clearMidiCacheForTuneIds).toHaveBeenCalledWith(['t1', 't2'])
     expect(clearTimedMediaDraft).toHaveBeenCalledWith('t1')
     expect(clearTimedMediaDraft).toHaveBeenCalledWith('t2')
+    expect(enqueueCachedMediaDriveDeletesForTuneIds).toHaveBeenCalledWith(['t1', 't2'])
   })
 
   test('does not pass respectLock options (force-clear on delete)', async function() {
@@ -73,5 +96,13 @@ describe('clearCachedMediaForDeletedTuneIds', function() {
     expect(clearAudioCacheForTuneIds.mock.calls[0].length).toBe(1)
     expect(clearStemCacheForTuneIds.mock.calls[0].length).toBe(1)
     expect(clearMidiCacheForTuneIds.mock.calls[0].length).toBe(1)
+  })
+
+  test('clears matching cache keys and Drive copies for removed link srcs', async function() {
+    const result = await clearCachedMediaForRemovedLinkSrcs('t1', ['https://a.example/x.mp3', 'https://a.example/x.mp3'])
+    expect(removeJobsForTuneIdAndSrcs).toHaveBeenCalledWith('t1', ['https://a.example/x.mp3'])
+    expect(enqueueCachedMediaDriveDeletesForSrcs).toHaveBeenCalledWith('t1', ['https://a.example/x.mp3'])
+    expect(clearExternalMediaCacheForTuneIdAndSrcs).toHaveBeenCalledWith('t1', ['https://a.example/x.mp3'])
+    expect(result).toEqual({ removed: 1 })
   })
 })

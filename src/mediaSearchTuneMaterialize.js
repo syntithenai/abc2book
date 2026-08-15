@@ -16,13 +16,16 @@ import {
 import { inferNotationSongType } from './textSearchIndexUtils';
 import { mediaArtistTitleIdentityKey } from './importTitleMatch';
 import { artistNamesMatch } from './artistDiscographyPlaybackResolver';
+import { isBandcampLinkUri, repairBandcampLinkUri } from './bandcampLinkUtils';
 
 export const MYMEDIA_BOOK = 'mymedia';
 
 const inFlightByKey = new Map();
 
 function normalizeLinkUri(uri) {
-  return String(uri || '').trim();
+  const src = String(uri || '').trim();
+  if (src && isBandcampLinkUri(src)) return repairBandcampLinkUri(src);
+  return src;
 }
 
 function candidateYoutubeId(candidate) {

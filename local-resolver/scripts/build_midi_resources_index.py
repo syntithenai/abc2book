@@ -15,7 +15,7 @@ if ROOT not in sys.path:
 from midi_resources import (  # noqa: E402
     MIDI_RESOURCES_INDEX_NAME,
     _tokenize_index_text,
-    title_from_midi_relative_path,
+    metadata_from_midi_relative_path,
 )
 
 
@@ -37,18 +37,26 @@ def build_index(root_dir):
     for rel_path in sorted(iter_midi_files(root_dir)):
         entry_id = str(next_id)
         next_id += 1
-        title = title_from_midi_relative_path(rel_path)
-        category = ""
-        parts = rel_path.split("/")
-        if len(parts) > 1:
-            category = parts[0]
+        meta = metadata_from_midi_relative_path(rel_path)
+        title = meta.get("title") or ""
+        artist = meta.get("artist") or ""
+        aliases = list(meta.get("aliases") or [])
+        category = meta.get("category") or ""
         entries[entry_id] = {
             "title": title,
+            "artist": artist,
+            "aliases": aliases,
             "path": rel_path,
             "category": category,
         }
 
-        token_source = " ".join([title, rel_path.replace("/", " "), category])
+        token_source = " ".join([
+            title,
+            artist,
+            " ".join(aliases),
+            rel_path.replace("/", " "),
+            category,
+        ])
         for token in _tokenize_index_text(token_source):
             bucket = tokens.setdefault(token, [])
             bucket.append(entry_id)

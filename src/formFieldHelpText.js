@@ -144,7 +144,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   offlineMedia: {
     title: 'Cache',
-    body: 'Shows local media cache size and lets you clear audio, MIDI, or stem caches. Cached recordings use the Compress Audio setting. Playback still applies your saved tempo, pitch, trim, and filters at play time.',
+    body: 'Shows local media cache size and lets you clear audio, MIDI, or stem caches. Cached recordings use the Compress Audio setting. Playback still applies your saved tempo, pitch, trim, and filters at play time. Back up cached media copies Bandcamp, Archive, and similar downloaded audio into your Google Drive — not stems, MIDI playback cache, or YouTube. A file is pulled onto this device when you play it if it is missing locally. Media from an imported share is cached when you play it, and copied into your Drive if backup is on.',
   },
   colorScheme: {
     title: 'Color scheme',
@@ -168,7 +168,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   backgroundJobs: {
     title: 'Background jobs',
-    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, audio generation, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, file OCR, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
+    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, Google Drive sync, stems, audio generation, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, file OCR, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
   },
   sources: {
     title: 'Sources',

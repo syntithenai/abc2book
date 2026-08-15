@@ -18,6 +18,7 @@ import SearchResultPickerModal from './SearchResultPickerModal'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
@@ -285,7 +286,12 @@ export default function ChordsSearchButton({
               <div style={{ marginTop: '0.5em' }}>
                 <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
                 {error.indexOf('Could not reach') >= 0 || error === 'Network Error' ? (
-                  <span> — or start the local resolver with <code>cd local-resolver &amp;&amp; docker compose up</code></span>
+                  <span>
+                    {' — '}
+                    {isNavigatorOffline()
+                      ? OFFLINE_MESSAGE
+                      : 'or start the local resolver with `cd local-resolver && docker compose up`'}
+                  </span>
                 ) : null}
               </div>
             )}

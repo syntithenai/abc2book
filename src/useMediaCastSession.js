@@ -22,6 +22,7 @@ import { getChromecastOutputEnabled } from './preferredRemoteOutputSettings';
 import { enrichPayloadWithYoutubeAudioPrefetch } from './youtubeRemoteAudioPrefetch';
 import { enrichPayloadWithMidiPrefetch } from './midiRemotePrefetch';
 import { normalizeRemotePlaybackPayload } from './youtubePlaybackUri';
+import { isNavigatorOffline } from './offlineNetwork';
 
 const CAST_STORAGE_KEY = 'abc2book.castSession';
 
@@ -49,6 +50,9 @@ function invokeCastSdk(tryPromise, tryCallbacks) {
 }
 
 function requestCastSession(context) {
+  if (isNavigatorOffline()) {
+    return Promise.reject(new Error('This needs an internet connection.'));
+  }
   return withAsyncTimeout(
     invokeCastSdk(
       function() { return context.requestSession(); },

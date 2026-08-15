@@ -27,6 +27,7 @@ import { subscribeStemAnalysisJob, getStemAnalysisJobRevision } from '../../stem
 import { subscribe as subscribeAudioGenerationJobs } from '../../audioGenerationJobStore'
 import * as tuneFieldLookupQueue from '../../tuneFieldLookupQueue'
 import { subscribe as subscribeChordReadinessCleanup } from '../../chordReadinessCleanupQueue'
+import { subscribeDriveSyncJobs } from '../../driveSyncJobs'
 import JobQueueTabPanel from './JobQueueTabPanel'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import { fifoStatusVariant } from './jobQueueUtils'
@@ -40,11 +41,13 @@ import StemCreateTabPanel from './StemCreateTabPanel'
 import AudioGenerationTabPanel from './AudioGenerationTabPanel'
 import ChordReadinessCleanupTabPanel from './ChordReadinessCleanupTabPanel'
 import ActiveSearchesTabPanel from './ActiveSearchesTabPanel'
+import DriveSyncTabPanel from './DriveSyncTabPanel'
 import { isMusicGenerationAdmin } from '../../musicGenerationAdmin'
 
 const TAB_RESEARCH = 'research'
 const TAB_COMPOSER_DISCOVERY = 'composer-discovery'
 const TAB_MEDIA_CACHE = 'media-cache'
+const TAB_GOOGLE_DRIVE = 'google-drive'
 const TAB_STEM_CREATE = 'stem-create'
 const TAB_AUDIO_GENERATION = 'audio-generation'
 const TAB_CHORD_CLEANUP = 'chord-cleanup'
@@ -74,6 +77,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribeAudioGenerationJobs(listener),
     subscribeChordReadinessCleanup(listener),
     tuneFieldLookupQueue.subscribe(listener),
+    subscribeDriveSyncJobs(listener),
   ]
   return function unsubscribeAll() {
     unsubs.forEach(function(unsub) { unsub() })
@@ -121,7 +125,7 @@ function composerDiscoveryStatusLabel(job) {
   return job.status
 }
 
-export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user }) {
+export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user, token, driveApi }) {
   const showAudioGeneration = isMusicGenerationAdmin(user)
   const showChordCleanup = isMusicGenerationAdmin(user)
   const [activeTab, setActiveTab] = useState(function() {
@@ -229,6 +233,11 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
           <Nav.Item>
             <Nav.Link eventKey={TAB_MEDIA_CACHE}>
               {renderTabTitle('Media cache', tabCounts.mediaCache)}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_GOOGLE_DRIVE}>
+              {renderTabTitle('Google Drive', tabCounts.googleDrive)}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -445,6 +454,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
                 )
               }}
             />
+          </Tab.Pane>
+
+          <Tab.Pane eventKey={TAB_GOOGLE_DRIVE}>
+            <p className="text-muted settings-background-jobs-tab-note">
+              Songbook saves, cached media backup, scratchpad, and Audio Analysis sync with your Google Drive.
+            </p>
+            <DriveSyncTabPanel tunes={tunes} token={token} driveApi={driveApi} />
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_STEM_CREATE}>

@@ -21,10 +21,13 @@ import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
 import LinkPlayRangeModal from '../components/LinkPlayRangeModal'
 import { resolveLoopEditorLinkIndex } from '../mediaPlaybackUtils'
+import { getActiveMediaSourceId } from '../mediaSourceMenuAccess'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { formatLinkPlayRangeLabel } from '../linkPlaybackRegionScanUtils'
 import { isAndroidApp } from '../platformUtils'
 import { useDocumentTitle } from '../pageTitle'
+import { useOfflinePlayDisabled } from '../components/MediaPlayerButtons'
+import { OFFLINE_PLAYBACK_MESSAGE } from '../offlineNetwork'
 import './NowPlayingPage.css'
 
 export default function NowPlayingPage(props) {
@@ -70,6 +73,12 @@ export default function NowPlayingPage(props) {
     : false
   const [showArtwork, setShowArtwork] = useState(!!showArtworkCandidate)
   const [showPlayRangeModal, setShowPlayRangeModal] = useState(false)
+  const playDisabled = useOfflinePlayDisabled(
+    mediaController,
+    props.tunebook,
+    location,
+    playingTune
+  )
 
   useDocumentTitle(tuneName + ' — Now Playing')
 
@@ -132,10 +141,9 @@ export default function NowPlayingPage(props) {
     && Array.isArray(playingTune.links)
     ? playingTune.links[playRangeLinkIndex]
     : null
-  const showPlayRangeButton = !!(
-    playRangeLink
-    && getLinkSrcType(playRangeLink, isYoutubeLink) !== 'midifile'
-  )
+  const midiSourceSelected = getActiveMediaSourceId(mediaController) === 'midi'
+    || getLinkSrcType(playRangeLink, isYoutubeLink) === 'midifile'
+  const showPlayRangeButton = !!(playRangeLink && !midiSourceSelected)
   const playRangeLabel = showPlayRangeButton ? formatLinkPlayRangeLabel(playRangeLink) : ''
 
   useEffect(function() {
@@ -151,6 +159,7 @@ export default function NowPlayingPage(props) {
 
   function handlePlayPause() {
     if (!mediaController) return
+    if (playDisabled && !showTransportPause && !showTransportLoading) return
     if (showViewedFocus) {
       if (isLoading) {
         mediaController.pause()
@@ -281,7 +290,8 @@ export default function NowPlayingPage(props) {
                     variant={showTransportLoading ? 'secondary' : (showTransportPause ? 'warning' : 'success')}
                     className="now-playing-page-play-btn"
                     aria-label={showTransportLoading ? 'Cancel loading' : (showTransportPause ? 'Pause' : 'Play')}
-                    title={showTransportLoading ? 'Cancel loading' : undefined}
+                    title={showTransportLoading ? 'Cancel loading' : (playDisabled && !showTransportPause ? OFFLINE_PLAYBACK_MESSAGE : undefined)}
+                    disabled={!showTransportPause && !showTransportLoading && playDisabled}
                     data-testid={showTransportLoading
                       ? 'now-playing-waiting-button'
                       : (showTransportPause ? 'now-playing-pause-button' : 'now-playing-play-button')}

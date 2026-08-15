@@ -1,4 +1,5 @@
 import { buildRecentPlaylistTuneIds, generateCurrentPlaylist, CURRENT_PLAYLIST_TAG } from './generateCurrentPlaylist'
+import { TUNE_VIEW_HISTORY_STORAGE_KEY } from './tuneViewHistoryStore'
 
 function makeTune(id, name, books, tags, lastUpdated) {
   return { id, name, books: books || [], tags: tags || [], lastUpdated }
@@ -10,7 +11,15 @@ describe('generateCurrentPlaylist', function() {
     hasLinks: function() { return true },
   }
 
+  beforeEach(function() {
+    localStorage.removeItem(TUNE_VIEW_HISTORY_STORAGE_KEY)
+  })
+
   it('buildRecentPlaylistTuneIds picks matches from recent books/tags', function() {
+    localStorage.setItem(TUNE_VIEW_HISTORY_STORAGE_KEY, JSON.stringify({
+      r1: { lastViewed: 100, viewCount: 1 },
+      r2: { lastViewed: 90, viewCount: 1 },
+    }))
     const tunes = {
       r1: makeTune('r1', 'Recent 1', ['Book A'], ['folk'], 100),
       r2: makeTune('r2', 'Recent 2', [], ['jig'], 90),
@@ -27,6 +36,9 @@ describe('generateCurrentPlaylist', function() {
   })
 
   it('generateCurrentPlaylist returns tune ids without mutating tags', function() {
+    localStorage.setItem(TUNE_VIEW_HISTORY_STORAGE_KEY, JSON.stringify({
+      r1: { lastViewed: 100, viewCount: 1 },
+    }))
     const tunes = {
       r1: makeTune('r1', 'Recent 1', ['Book A'], ['folk'], 100),
       m1: makeTune('m1', 'Match book', ['Book A'], [], 1),

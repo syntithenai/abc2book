@@ -9,10 +9,27 @@ import {
   wordIndexNearestClientX,
   parseChordProLineToAnchors,
   serializeAnchorsToChordProLine,
+  hideLyricBeatMarkersForAlign,
+  splitAlignPrefaceLines,
   moveChordAnchor,
+  upsertChordAnchor,
+  removeChordAnchor,
+  isWordStartOffset,
   letterIndexNearestClientX,
   snapOffsetToLetter,
+  snapAlignOffset,
   anchorsFromCowPair,
+  ALIGN_TRAILING_PAD_SLOTS,
+  padAlignLineToOffset,
+  trimAlignLinePadding,
+  alignLineDisplayChars,
+  applyAlignChordAnchors,
+  insertAlignLyricRow,
+  insertAlignSectionAfter,
+  deleteAlignRow,
+  deleteAlignSection,
+  setAlignLyricText,
+  setAlignHeaderText,
 } from './lyricChordAlignUtils'
 
 describe('lyricChordAlignUtils', function() {
@@ -62,6 +79,32 @@ describe('lyricChordAlignUtils', function() {
   test('snapOffsetToLetter skips spaces', function() {
     expect(snapOffsetToLetter('Amazing grace', 7)).toBe(8)
     expect(snapOffsetToLetter('Amazing grace', 0)).toBe(0)
+  })
+
+  test('isWordStartOffset marks first letters of words', function() {
+    expect(isWordStartOffset('Amazing grace', 0)).toBe(true)
+    expect(isWordStartOffset('Amazing grace', 1)).toBe(false)
+    expect(isWordStartOffset('Amazing grace', 8)).toBe(true)
+    expect(isWordStartOffset('Amazing grace', 7)).toBe(false)
+    expect(isWordStartOffset('', 0)).toBe(true)
+  })
+
+  test('upsertChordAnchor adds, replaces, and clears at a letter', function() {
+    const text = 'Amazing grace'
+    let anchors = upsertChordAnchor([], 0, 'G', text)
+    expect(serializeAnchorsToChordProLine(text, anchors)).toBe('[G]Amazing grace')
+    anchors = upsertChordAnchor(anchors, 8, 'C', text)
+    expect(serializeAnchorsToChordProLine(text, anchors)).toBe('[G]Amazing [C]grace')
+    anchors = upsertChordAnchor(anchors, 0, 'Am', text)
+    expect(serializeAnchorsToChordProLine(text, anchors)).toBe('[Am]Amazing [C]grace')
+    anchors = upsertChordAnchor(anchors, 0, '', text)
+    expect(serializeAnchorsToChordProLine(text, anchors)).toBe('Amazing [C]grace')
+  })
+
+  test('removeChordAnchor drops one chord', function() {
+    const parsed = parseChordProLineToAnchors('[G]Amazing [C]grace')
+    const next = removeChordAnchor(parsed.anchors, 0)
+    expect(serializeAnchorsToChordProLine(parsed.text, next)).toBe('Amazing [C]grace')
   })
 
   test('moveChordBetweenWordSlots swaps when target occupied', function() {
@@ -130,15 +173,153 @@ describe('lyricChordAlignUtils', function() {
     expect(wordIndexNearestClientX([], 10)).toBe(-1)
   })
 
-  test('letterIndexNearestClientX skips spaces', function() {
+  test('letterIndexNearestClientX includes spaces and trailing slots', function() {
     const text = 'A B'
     const rects = [
       { left: 0, right: 10 },
       { left: 10, right: 20 },
       { left: 20, right: 30 },
+      { left: 30, right: 50 },
     ]
-    expect(letterIndexNearestClientX(rects, 15, text)).toBe(0)
+    expect(letterIndexNearestClientX(rects, 15, text)).toBe(1)
     expect(letterIndexNearestClientX(rects, 22, text)).toBe(2)
+    expect(letterIndexNearestClientX(rects, 40, text)).toBe(3)
+  })
+
+  test('hideLyricBeatMarkersForAlign strips slashes and remaps chords onto letters', function() {
+    const hidden = hideLyricBeatMarkersForAlign('a/mazing /grace', [{ chord: 'G', offset: 0 }])
+    expect(hidden.text).toBe('amazing grace')
+    expect(hidden.sourceText).toBe('a/mazing /grace')
+    expect(hidden.text.indexOf('/')).toBe(-1)
+    expect(hidden.anchors[0]).toEqual({ chord: 'G', offset: 0 })
+    expect(serializeAnchorsToChordProLine(hidden.text, hidden.anchors, hidden.sourceText))
+      .toBe('[G]a/mazing /grace')
+  })
+
+  test('chords on a slash snap to the following letter', function() {
+    const hidden = hideLyricBeatMarkersForAlign('/grace', [{ chord: 'C', offset: 0 }])
+    expect(hidden.text).toBe('grace')
+    expect(hidden.anchors[0].offset).toBe(0)
+    expect(serializeAnchorsToChordProLine(hidden.text, hidden.anchors, hidden.sourceText))
+      .toBe('[C]/grace')
+  })
+
+  test('lyricLinesToAlignRows hides beat markers and restores them on serialize', function() {
+    const rows = lyricLinesToAlignRows(['[G]a/mazing /grace how /sweet'])
+    expect(rows[0].type).toBe('lyric')
+    expect(rows[0].text).toBe('amazing grace how sweet')
+    expect(rows[0].text.indexOf('/')).toBe(-1)
+    expect(alignRowsToChordProLines(rows)[0]).toBe('[G]a/mazing /grace how /sweet')
+  })
+
+  test('splitAlignPrefaceLines drops a blank-separated song title', function() {
+    const split = splitAlignPrefaceLines([
+      'Amazing Grace',
+      '',
+      'Amazing grace how sweet',
+    ], { title: 'Amazing Grace' })
+    expect(split.preface[0]).toBe('Amazing Grace')
+    expect(split.rest[0]).toBe('Amazing grace how sweet')
+  })
+
+  test('lyricLinesToAlignRows keeps a sung title that starts a stanza', function() {
+    const rows = lyricLinesToAlignRows([
+      'Thula Mama',
+      'thula mama, thula sana',
+    ], { title: 'Thula Mama' })
+    expect(rows.some(function(row) { return row.type === 'preface' })).toBe(false)
+    expect(rows[0].type).toBe('lyric')
+    expect(rows[0].text).toBe('Thula Mama')
+  })
+
+  test('lyricLinesToAlignRows hides title preface but serializes it back', function() {
+    const lines = [
+      'Amazing Grace',
+      '',
+      '[G]Amazing grace how sweet',
+    ]
+    const rows = lyricLinesToAlignRows(lines, { title: 'Amazing Grace' })
+    expect(rows[0]).toEqual({ type: 'preface', text: 'Amazing Grace' })
+    expect(rows.some(function(row) { return row.type === 'lyric' && row.text.indexOf('Amazing grace') === 0 })).toBe(true)
+    expect(alignRowsToChordProLines(rows)).toEqual([
+      'Amazing Grace',
+      '',
+      '[G]Amazing grace how sweet',
+    ])
+  })
+
+  test('snapAlignOffset keeps spaces and trailing pad indexes', function() {
+    expect(snapAlignOffset('Amazing grace', 7)).toBe(7)
+    expect(snapAlignOffset('Amazing grace', 0)).toBe(0)
+    expect(snapAlignOffset('hello', 8)).toBe(8)
+    expect(snapAlignOffset('', 2)).toBe(2)
+  })
+
+  test('chords on spaces and trailing pads round-trip in ChordPro', function() {
+    const text = 'hello  '
+    const anchors = [
+      { chord: 'C', offset: 5 },
+      { chord: 'G', offset: 6 },
+    ]
+    const line = serializeAnchorsToChordProLine(text, anchors)
+    expect(line).toBe('hello[C] [G] ')
+    const parsed = parseChordProLineToAnchors(line)
+    expect(parsed.text).toBe('hello  ')
+    expect(parsed.anchors).toEqual(anchors)
+  })
+
+  test('Align round-trip keeps start-and-end ChordPro chords as lyrics', function() {
+    const text = 'Amazing grace '
+    const line = serializeAnchorsToChordProLine(text, [
+      { chord: 'G', offset: 0 },
+      { chord: 'C', offset: 13 },
+    ])
+    expect(line.trim().charAt(0)).toBe('[')
+    expect(line.trim().charAt(line.trim().length - 1)).toBe(']')
+    const rows = lyricLinesToAlignRows([line])
+    expect(rows[0].type).toBe('lyric')
+    expect(rows[0].text.trim()).toBe('Amazing grace')
+    expect(rows[0].anchors.map(function(a) { return a.chord })).toEqual(['G', 'C'])
+  })
+
+  test('applyAlignChordAnchors pads the line for end-of-line chords', function() {
+    const row = { type: 'lyric', text: 'hello', sourceText: 'hello', anchors: [] }
+    const next = applyAlignChordAnchors(row, 7, function(text, anchors) {
+      return upsertChordAnchor(anchors, 7, 'Am', text)
+    })
+    expect(next.text).toBe('hello   ')
+    expect(next.anchors).toEqual([{ chord: 'Am', offset: 7 }])
+    expect(serializeAnchorsToChordProLine(next.text, next.anchors)).toMatch(/\[Am\]/)
+    expect(alignLineDisplayChars(next.text).length).toBe(next.text.length + ALIGN_TRAILING_PAD_SLOTS)
+  })
+
+  test('trimAlignLinePadding keeps spaces through the last chord', function() {
+    expect(trimAlignLinePadding('hello    ', [{ chord: 'C', offset: 6 }])).toBe('hello  ')
+    expect(trimAlignLinePadding('hello    ', [])).toBe('hello')
+    expect(padAlignLineToOffset('hello', 7)).toBe('hello   ')
+  })
+
+  test('insert and delete lyric lines and sections', function() {
+    const rows = [
+      { type: 'header', text: '[Verse]' },
+      { type: 'lyric', text: 'hello', sourceText: 'hello', anchors: [] },
+    ]
+    const withLine = insertAlignLyricRow(rows, 1)
+    expect(withLine).toHaveLength(3)
+    expect(withLine[2].type).toBe('lyric')
+    expect(withLine[2].text).toBe('')
+
+    const withSection = insertAlignSectionAfter(rows, 1, 'Chorus')
+    expect(withSection.some(function(row) { return row.type === 'header' && row.text === '[Chorus]' })).toBe(true)
+
+    expect(setAlignHeaderText(rows, 0, 'Verse 1')[0].text).toBe('[Verse 1]')
+    expect(setAlignLyricText(rows, 1, 'how sweet')[1].text).toBe('how sweet')
+
+    const droppedLine = deleteAlignRow(rows, 1)
+    expect(droppedLine).toHaveLength(1)
+    expect(droppedLine[0].type).toBe('header')
+
+    expect(deleteAlignSection(rows, 0)).toHaveLength(0)
   })
 })
 

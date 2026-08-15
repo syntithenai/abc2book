@@ -5,6 +5,7 @@ import {
   normalizeSectionType,
   normalizeStanzaNameKey,
   stripLeadingBibliographicLyricPreface,
+  stripLyricBlockPinTokens,
 } from './chordSheetUtils';
 
 /**
@@ -51,14 +52,14 @@ function toLyricLines(textOrLines) {
 export function sectionDisplayTitle(section) {
   const header = section && section.header ? String(section.header).trim() : '';
   if (header) {
-    const cleaned = header
+    const cleaned = stripLyricBlockPinTokens(header
       .replace(/^\[/, '')
       .replace(/\]$/, '')
       .replace(/^\(([^)]+)\)$/, '$1')
       .replace(/^#+\s*/, '')
-      .replace(/^[-–—−•*]\s*/, '')
+      .replace(/^[-–—−•*]\s*/, ''))
       .trim();
-    return cleaned || header;
+    return cleaned || stripLyricBlockPinTokens(header) || header;
   }
   const body = section && Array.isArray(section.lines) ? section.lines : [];
   const first = body.map(function(line) { return String(line || '').trim(); }).find(Boolean);

@@ -1,5 +1,6 @@
 import {
   createTombstone,
+  effectiveLocalUpdatedMs,
   mergeDeletedTuneMaps,
 } from './tuneBookSync';
 import { practiceListPairHasDifferingFields, normalizePracticeListTuneIds } from './practiceListMergeUtils';
@@ -208,7 +209,14 @@ export function stripPracticeListLines(abcText) {
   }).join('\n');
 }
 
-export function comparePracticeLists({ localPracticeLists, localDeleted, remotePracticeLists, remoteDeleted }) {
+export function comparePracticeLists({
+  localPracticeLists,
+  localDeleted,
+  remotePracticeLists,
+  remoteDeleted,
+  lastUpdatedById,
+  lastDeletedAtById,
+}) {
   const inserts = {};
   const updates = {};
   const deletes = {};
@@ -217,6 +225,8 @@ export function comparePracticeLists({ localPracticeLists, localDeleted, remoteP
 
   const localDel = localDeleted || {};
   const remoteDel = remoteDeleted || {};
+  const uploadedUpdated = lastUpdatedById || {};
+  const uploadedDeleted = lastDeletedAtById || {};
   const remoteActiveIds = {};
 
   Object.values(remotePracticeLists || {}).forEach(function(remoteList) {
@@ -228,11 +238,16 @@ export function comparePracticeLists({ localPracticeLists, localDeleted, remoteP
     const localTomb = localDel[id];
     const remoteTomb = remoteDel[id];
     const remoteAt = toMs(remoteList.updatedAt);
-    const localAt = localList ? toMs(localList.updatedAt) : 0;
+    const uploadedAt = toMs(uploadedUpdated[id]);
+    const uploadedDeletedAt = toMs(uploadedDeleted[id]);
+    const localAt = effectiveLocalUpdatedMs(localList && localList.updatedAt, uploadedAt);
     const localTombAt = localTomb ? toMs(localTomb.deletedAt) : 0;
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0;
 
     if (tombstoneWinsOverList(remoteTombAt, localAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return;
+      }
       if (localList) {
         deletes[id] = Object.assign({ id: id }, localList, { name: listDisplayName(localList) });
       }
@@ -250,7 +265,7 @@ export function comparePracticeLists({ localPracticeLists, localDeleted, remoteP
       } else if (remoteAt < localAt) {
         if (hasFieldDiff) localUpdates[id] = [remoteList, localList];
       }
-    } else {
+    } else if (!(uploadedAt > 0 && remoteAt <= uploadedAt)) {
       inserts[id] = remoteList;
     }
   });
@@ -261,9 +276,14 @@ export function comparePracticeLists({ localPracticeLists, localDeleted, remoteP
     const localList = localPracticeLists[listId];
     const remoteTomb = remoteDel[listId];
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0;
-    const localAt = toMs(localList.updatedAt);
+    const uploadedAt = toMs(uploadedUpdated[listId]);
+    const uploadedDeletedAt = toMs(uploadedDeleted[listId]);
+    const localAt = effectiveLocalUpdatedMs(localList && localList.updatedAt, uploadedAt);
 
     if (tombstoneWinsOverList(remoteTombAt, localAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return;
+      }
       deletes[listId] = Object.assign({ id: listId }, localList, { name: listDisplayName(localList) });
       return;
     }

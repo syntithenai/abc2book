@@ -40,6 +40,19 @@ export function candidateDisplayValue(kind, candidate) {
     if (isNotationPdfCandidate(candidate)) {
       return String(candidate.preview || 'Sheet PDF').trim()
     }
+    const midiMeta = candidate.tuneMeta && candidate.tuneMeta.meta
+    const isMidi = candidate.importFormat === 'midi'
+      || !!candidate.midiBytes
+      || !!(midiMeta && midiMeta.importFormat === 'midi')
+      || String(candidate.source || '').toLowerCase() === 'midi-resources'
+      || String(candidate.sourceUrl || '').indexOf('/midi-resources/') >= 0
+    if (isMidi) {
+      const title = String(candidate.title || '').trim()
+      const sourceUrl = String(candidate.sourceUrl || '').trim()
+      const preview = String(candidate.preview || '').trim()
+      if (sourceUrl) return [title || preview || 'MIDI file', sourceUrl].join(' — ')
+      return preview || title || 'MIDI file'
+    }
     return String(candidate.abc || candidate.preview || '').trim()
   }
   if (kind === 'links') {

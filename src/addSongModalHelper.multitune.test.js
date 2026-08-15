@@ -23,7 +23,7 @@ describe('processReviewResult multi-tune redirect', function() {
   });
 
   test('inline apply for single stayOnForm candidate', function() {
-    const apply = jest.fn();
+    const apply = jest.fn(function() { return true });
     const startImportReview = jest.fn();
     const result = processReviewResult(
       {

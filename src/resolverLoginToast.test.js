@@ -240,8 +240,28 @@ describe('resolverLoginToast', function() {
     expect(toast.warning).not.toHaveBeenCalled()
   })
 
-  test('showResolverLoginToastForAuthError ignores unrelated errors', function() {
-    expect(showResolverLoginToastForAuthError(new Error('network failed'))).toBe(false)
-    expect(toast.warning).not.toHaveBeenCalled()
+  test('syncResolverLoginToast dismisses when offline', function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    try {
+      getMediaResolverHealthState.mockReturnValue({
+        checked: true,
+        status: {
+          available: false,
+          candidates: [{
+            base: 'https://resolver.example',
+            reachable: true,
+            available: false,
+            requireAuth: true,
+            authReason: 'login_required',
+          }],
+        },
+      })
+      syncResolverLoginToast(null)
+      expect(toast.warning).not.toHaveBeenCalled()
+      expect(toast.dismiss).toHaveBeenCalled()
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
   })
 })

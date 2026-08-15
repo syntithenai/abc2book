@@ -178,7 +178,7 @@ export function HelpPractise() {
 export function HelpTuner() {
   return (
     <>
-      <p>Open from the header menu → <strong>Tuner</strong>, or from a tune editor link when tuning is suggested for that tune. The tuner uses your device microphone — tap anywhere on the page the first time to enable it.</p>
+      <p>Open from the header menu → <strong>Tuner</strong>, or from a tune editor link when tuning is suggested for that tune. The tuner uses your device microphone — tap anywhere on the page the first time to enable it. <strong>Audio Analysis</strong> (recording sets and comparisons) opens from the Tuner page.</p>
 
       <h4>Instrument and tuning presets</h4>
       <ul>

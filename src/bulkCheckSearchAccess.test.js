@@ -39,6 +39,33 @@ describe('bulkCheckSearchAccess', function() {
     expect(access.externalUrl).toContain('google.com')
   })
 
+  test('searchArtist is blocked for needs-internet when the device is offline', function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    try {
+      const access = getBulkCheckSearchActionAccess('searchArtist', {
+        tune: tune,
+        resolverAvailable: true,
+        resolverStatus: {
+          available: false,
+          candidates: [{
+            reachable: true,
+            requireAuth: true,
+            available: false,
+            authReason: 'login_required',
+          }],
+        },
+        accessToken: null,
+      })
+      expect(access.needsLogin).toBe(false)
+      expect(access.needsNetwork).toBe(true)
+      expect(access.automaticLookup).toBe(false)
+      expect(access.searchDisabled).toBe(true)
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
+  })
+
   test('backgroundInfo falls back to external search without resolver LLM', function() {
     const access = getBulkCheckSearchActionAccess('backgroundInfo', {
       tune: tune,

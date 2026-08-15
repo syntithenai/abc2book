@@ -1,12 +1,14 @@
 import { useMemo } from 'react'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import { getOfflineBlock, isNavigatorOffline } from './offlineNetwork'
 import useMediaResolverHealth from './useMediaResolverHealth'
 import { useCreditAffordance } from './useCreditAffordance'
 import { isCapabilityAvailable, loadProviderSettings } from './providerSettings'
 
 export function fieldLookupAutomaticLookup(kind, context) {
   const opts = context || {}
-  if (opts.needsLogin || opts.needsCredit) return false
+  if (opts.needsLogin || opts.needsCredit || opts.needsNetwork) return false
+  if (isNavigatorOffline()) return false
   if (kind === 'background' && opts.cannotAffordBackground) return false
 
   const resolverAvailable = !!opts.resolverAvailable
@@ -38,10 +40,11 @@ export function useFieldLookupResolverAccess(accessToken) {
   const health = useMediaResolverHealth()
   const backgroundAffordance = useCreditAffordance(accessToken, 'background_research')
   const loginWarning = useMemo(function() {
-    return getResolverLoginWarning(health.status, accessToken)
+    return getOfflineBlock() || getResolverLoginWarning(health.status, accessToken)
   }, [health.status, accessToken])
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
+  const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
   const cannotAffordBackground = backgroundAffordance.checked
     && !backgroundAffordance.creditUnlimited
     && !backgroundAffordance.affordable
@@ -55,6 +58,7 @@ export function useFieldLookupResolverAccess(accessToken) {
       loginWarning: loginWarning,
       needsLogin: needsLogin,
       needsCredit: needsCredit,
+      needsNetwork: needsNetwork,
       cannotAffordBackground: cannotAffordBackground,
       backgroundAffordance: backgroundAffordance,
     }
@@ -71,6 +75,7 @@ export function useFieldLookupResolverAccess(accessToken) {
     loginWarning,
     needsLogin,
     needsCredit,
+    needsNetwork,
     cannotAffordBackground,
     backgroundAffordance,
   ])

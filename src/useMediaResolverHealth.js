@@ -67,6 +67,7 @@ export function useInitMediaResolverHealth(accessToken, requestGoogleScopes, log
       const downloading = !!(status && status.available && status.soundfontsRunning && !status.soundfontsReady);
       if (!downloading) return;
       timer = setInterval(function() {
+        if (typeof navigator !== 'undefined' && navigator.onLine === false) return;
         refreshStoredMediaResolverHealth();
       }, 20000);
     }

@@ -4,6 +4,7 @@ import {
   probeMediaResolverCandidates,
 } from './mediaProxyClient';
 import { readStoredAuthBase, readStoredAuthSessionId, isOAuthLoginInFlight, resolveStickyAuthBase } from './authResolverClient';
+import { isNavigatorOffline, registerOnlineResume } from './offlineNetwork';
 
 const initialState = {
   available: false,
@@ -189,8 +190,23 @@ export function waitForAuthBase(timeoutMs, options) {
   });
 }
 
+export function __resetMediaResolverHealthForTests() {
+  state = Object.assign({}, initialState);
+  listeners.clear();
+  activeAccessToken = null;
+  probePromise = null;
+  probeSeq = 0;
+  probeInFlight = false;
+  lastUnreachableProbeAt = 0;
+  identityScopeRequestFn = null;
+}
+
 export function probeMediaResolverHealth(accessToken, options) {
   const force = !!(options && options.force);
+
+  if (isNavigatorOffline()) {
+    return Promise.resolve(!!(state && state.available));
+  }
 
   if (!isMediaProxyConfigured()) {
     probeSeq += 1;
@@ -249,6 +265,7 @@ export function ensureMediaResolverHealthSettingsListener() {
   if (settingsListenerAttached || typeof window === 'undefined') return;
   settingsListenerAttached = true;
   window.addEventListener('mediaProxySettingsChanged', function() {
+    if (isNavigatorOffline()) return;
     clearActiveMediaProxyBase();
     probeMediaResolverHealth(activeAccessToken, { force: true });
   });
@@ -258,6 +275,7 @@ export function ensureMediaResolverHealthSettingsListener() {
   // actions that immediately fail. Rate-limited: a burst of failing requests
   // must not turn into a burst of /health probes.
   window.addEventListener('mediaProxyUnreachable', function() {
+    if (isNavigatorOffline()) return;
     const now = Date.now();
     if (probeInFlight) return;
     if (now - lastUnreachableProbeAt < UNREACHABLE_REPROBE_COOLDOWN_MS) return;
@@ -265,3 +283,7 @@ export function ensureMediaResolverHealthSettingsListener() {
     probeMediaResolverHealth(activeAccessToken, { force: true });
   });
 }
+
+registerOnlineResume(function() {
+  probeMediaResolverHealth(activeAccessToken, { force: true });
+});

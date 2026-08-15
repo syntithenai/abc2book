@@ -15,6 +15,7 @@ import {
 import { listPerformanceSets } from '../performanceSetStore'
 import { listSavedPlaylists } from '../savedPlaylistsStore'
 import ShareOwnedMediaProgressModal from './ShareOwnedMediaProgressModal'
+import { OFFLINE_LOGIN_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 
 const PUBLIC_CONFIRM_KEY = 'bookstorage_tunebook_public'
 
@@ -219,6 +220,7 @@ export default function ShareTunebookModal({
   }
 
   function prepareShare() {
+    if (isNavigatorOffline()) return
     if (!googleDocumentId || !token || busy) return
 
     function finishShare() {
@@ -298,7 +300,13 @@ export default function ShareTunebookModal({
           variant={variant || 'info'}
           className={buttonClassName || undefined}
           size={buttonSize || undefined}
-          onClick={function() { setPendingOpen(true); if (login) login() }}
+          onClick={function() {
+            if (isNavigatorOffline()) return
+            setPendingOpen(true)
+            if (login) login()
+          }}
+          title={isNavigatorOffline() ? OFFLINE_LOGIN_MESSAGE : undefined}
+          disabled={isNavigatorOffline()}
           aria-label="Share"
         >
           {tunebook.icons.share}

@@ -23,6 +23,7 @@ import {
   reanchorEditorBlocksToMelody,
   chordBlockCacheMatchesMelody,
   chordChartBlocksForLyrics,
+  chordChartBlocksForTuneDisplay,
   melodyBodyFingerprint,
   restorePartBreakMarkers,
   melodiesMatchForChordEdit,
@@ -1642,6 +1643,35 @@ describe('chordBlockMerge', function() {
     const notesText = tune.voices['1'].notes.join('\n')
     expect(notesText).toMatch(/\[M:3\/4\]/)
     expect(notesText).toMatch(/\[aa\]/)
+  })
+
+  test('chordChartBlocksForTuneDisplay transposes cached charts for display', function() {
+    const noteLines = [
+      '"C"C4 D4 |"G"G4 A4 ||',
+      '"Am"A4 B4 |"F"F4 G4 ||',
+    ]
+    const tune = {
+      key: 'C',
+      voices: { '1': { notes: noteLines } },
+      meta: {
+        chordBlockCache: {
+          version: 5,
+          abcHash: hashAbcNotes(noteLines),
+          blocks: [
+            { key: 'v', chart: 'C | G |', melodyStrainIndex: 0, chartRevisit: false },
+            { key: 'c', chart: 'Am | F |', melodyStrainIndex: 1, chartRevisit: false },
+          ],
+        },
+      },
+    }
+    const fromCache = chordChartBlocksForTuneDisplay(tune, '', noteLines)
+    expect(fromCache.length).toBe(2)
+    expect(fromCache[0]).toMatch(/\bC\b/)
+    const transposed = chordChartBlocksForTuneDisplay(tune, '', noteLines, { displayTranspose: 2 })
+    expect(transposed.length).toBe(2)
+    expect(transposed.join('\n')).toMatch(/\bD\b/)
+    expect(transposed.join('\n')).toMatch(/\bA\b/)
+    expect(transposed.join('\n')).not.toMatch(/\bC\b/)
   })
 })
 

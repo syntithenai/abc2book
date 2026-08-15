@@ -27,6 +27,7 @@ import { useDocumentTitle } from '../pageTitle'
 import { normalizeAccessToken } from '../mediaProxyClient'
 import { isMobilePlatform } from '../platformUtils'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 import { finalizePlayNextQueue } from '../tunePlaybackActions'
 
 const TRACK_PAGE_SIZE = 50
@@ -97,6 +98,12 @@ export default function LibraryBrowsePage(props) {
       return
     }
     if (!checked) return
+
+    if (isNavigatorOffline()) {
+      setVerifyState(VERIFY_IDLE)
+      setError(OFFLINE_MESSAGE)
+      return
+    }
 
     let cancelled = false
     setVerifyState(VERIFY_PENDING)
@@ -286,6 +293,7 @@ export default function LibraryBrowsePage(props) {
   }
 
   function handleLoginClick() {
+    if (isNavigatorOffline()) return
     if (typeof login !== 'function') return
     login().catch(function() {})
   }

@@ -1,5 +1,6 @@
 import {
   createTombstone,
+  effectiveLocalUpdatedMs,
   mergeDeletedTuneMaps,
 } from './tuneBookSync';
 import { playlistPairHasDifferingFields } from './playlistMergeUtils';
@@ -213,7 +214,14 @@ export function stripPlaylistLines(abcText) {
   }).join('\n');
 }
 
-export function comparePlaylists({ localPlaylists, localDeleted, remotePlaylists, remoteDeleted }) {
+export function comparePlaylists({
+  localPlaylists,
+  localDeleted,
+  remotePlaylists,
+  remoteDeleted,
+  lastUpdatedById,
+  lastDeletedAtById,
+}) {
   const inserts = {};
   const updates = {};
   const deletes = {};
@@ -222,6 +230,8 @@ export function comparePlaylists({ localPlaylists, localDeleted, remotePlaylists
 
   const localDel = localDeleted || {};
   const remoteDel = remoteDeleted || {};
+  const uploadedUpdated = lastUpdatedById || {};
+  const uploadedDeleted = lastDeletedAtById || {};
   const remoteActiveIds = {};
 
   Object.values(remotePlaylists || {}).forEach(function(remotePlaylist) {
@@ -233,11 +243,16 @@ export function comparePlaylists({ localPlaylists, localDeleted, remotePlaylists
     const localTomb = localDel[id];
     const remoteTomb = remoteDel[id];
     const remoteAt = toMs(remotePlaylist.updatedAt);
-    const localAt = localPlaylist ? toMs(localPlaylist.updatedAt) : 0;
+    const uploadedAt = toMs(uploadedUpdated[id]);
+    const uploadedDeletedAt = toMs(uploadedDeleted[id]);
+    const localAt = effectiveLocalUpdatedMs(localPlaylist && localPlaylist.updatedAt, uploadedAt);
     const localTombAt = localTomb ? toMs(localTomb.deletedAt) : 0;
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0;
 
     if (tombstoneWinsOverPlaylist(remoteTombAt, localAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return;
+      }
       if (localPlaylist) {
         deletes[id] = Object.assign({ id: id }, localPlaylist, { name: playlistDisplayName(localPlaylist) });
       }
@@ -255,7 +270,7 @@ export function comparePlaylists({ localPlaylists, localDeleted, remotePlaylists
       } else if (remoteAt < localAt) {
         if (hasFieldDiff) localUpdates[id] = [remotePlaylist, localPlaylist];
       }
-    } else {
+    } else if (!(uploadedAt > 0 && remoteAt <= uploadedAt)) {
       inserts[id] = remotePlaylist;
     }
   });
@@ -266,9 +281,14 @@ export function comparePlaylists({ localPlaylists, localDeleted, remotePlaylists
     const localPlaylist = localPlaylists[playlistId];
     const remoteTomb = remoteDel[playlistId];
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0;
-    const localAt = toMs(localPlaylist.updatedAt);
+    const uploadedAt = toMs(uploadedUpdated[playlistId]);
+    const uploadedDeletedAt = toMs(uploadedDeleted[playlistId]);
+    const localAt = effectiveLocalUpdatedMs(localPlaylist && localPlaylist.updatedAt, uploadedAt);
 
     if (tombstoneWinsOverPlaylist(remoteTombAt, localAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return;
+      }
       deletes[playlistId] = Object.assign({ id: playlistId }, localPlaylist, { name: playlistDisplayName(localPlaylist) });
       return;
     }

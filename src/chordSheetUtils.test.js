@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, stripLyricBeatMarkersPreservingChordPro, lyricLinesHaveBeatMarkers, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
 import { normalizeLyricStructure } from './lyricStructureUtils';
 
 describe('chordSheetUtils', function() {
@@ -66,6 +66,26 @@ describe('chordSheetUtils', function() {
     expect(isSectionHeader('[Am]')).toBe(false);
     expect(isSectionHeader('[F#m7]')).toBe(false);
     expect(isSectionHeader('[C/G]')).toBe(false);
+  });
+
+  test('does not treat ChordPro lyric lines as section headers', function() {
+    expect(isSectionHeader('[G]Amazing grace [C]')).toBe(false);
+    expect(isSectionHeader('[C] [G]')).toBe(false);
+    expect(isSectionHeader('[G]hello [Am] [C]')).toBe(false);
+    expect(isSectionHeader('[G]Amazing grace how [C]sweet')).toBe(false);
+    expect(isSectionHeader('[Verse 1]')).toBe(true);
+    expect(isSectionHeader('[Chorus]')).toBe(true);
+    expect(isSectionHeader('[Am]')).toBe(false);
+    const classified = classifyLyricChordLines([
+      '[Verse]',
+      '[G]Amazing grace [C]',
+      '[C] [G]',
+    ]);
+    expect(classified.map(function(item) { return item.type; })).toEqual([
+      'header',
+      'lyric',
+      'lyric',
+    ]);
   });
 
   test('identifies bar-dot chord grids', function() {
@@ -433,6 +453,27 @@ describe('chordSheetUtils', function() {
       { chord: 'Am', text: '' },
     ]);
   });
+
+  test('stripLyricBeatMarkersPreservingChordPro keeps ChordPro and slash chords', function() {
+    expect(stripLyricBeatMarkersPreservingChordPro([
+      '[Verse]',
+      '[G]a/mazing /grace how /sweet',
+      '[Dm/C]hello /there',
+      'C | / | G',
+      '',
+      'plain /line',
+    ])).toEqual([
+      '[Verse]',
+      '[G]amazing grace how sweet',
+      '[Dm/C]hello there',
+      'C | / | G',
+      '',
+      'plain line',
+    ])
+    expect(lyricLinesHaveBeatMarkers(['[G]a/mazing /grace'])).toBe(true)
+    expect(lyricLinesHaveBeatMarkers(['[Dm/C]hello there'])).toBe(false)
+    expect(lyricLinesHaveBeatMarkers(['C | / | G'])).toBe(false)
+  })
 
   test('stripChordsFromLyricLines removes chord rows and inline ChordPro markers', function() {
     const lines = [
@@ -1506,6 +1547,168 @@ describe('chordSheetUtils', function() {
     expect(aligned[4].chart).toBe('');
     expect(aligned[5].chart).toBe(chorusChart);
     expect(aligned[5].chartRevisit).toBe(true);
+  });
+
+  test('parseLyricBlockPinIndexes reads @N tokens in listed order', function() {
+    const { parseLyricBlockPinIndexes, stripLyricBlockPinTokens } = require('./chordSheetUtils');
+    expect(parseLyricBlockPinIndexes('# chorus @1')).toEqual([0]);
+    expect(parseLyricBlockPinIndexes('# instrumental @1 @2')).toEqual([0, 1]);
+    expect(parseLyricBlockPinIndexes('# instrumental @2 @1')).toEqual([1, 0]);
+    expect(parseLyricBlockPinIndexes('# bridge @3', 3)).toEqual([2]);
+    expect(parseLyricBlockPinIndexes('# bridge @3', 2)).toEqual([]);
+    expect(parseLyricBlockPinIndexes('# verse @0')).toEqual([]);
+    expect(parseLyricBlockPinIndexes('# chorus')).toEqual([]);
+    expect(stripLyricBlockPinTokens('# chorus @1')).toBe('# chorus');
+    expect(stripLyricBlockPinTokens('# instrumental @1 @2')).toBe('# instrumental');
+    expect(normalizeSectionType('# chorus @1')).toBe('chorus');
+    expect(normalizeSectionType('# instrumental verse and chorus @1 @2')).toBe('instrumental');
+  });
+
+  test('alignChordBlocksToLyrics @N overrides auto allocation (Shallow Hate Grave)', function() {
+    const noteLines = [
+      '"D"zzzzzzzz|"G"zzzz"D"zzzz|"G"zzzz"Bm"zzzz|"G"zzzz"D"zzzz|',
+      '"D"zzzzzzzz|"G"zzzz"D"zzzz|"G"zzzz"Bm"zzzz|"G"zzzz"D"zzzz||',
+      '"A"zzzz"D"zzzz|"A"zzzz"Bm"zzzz|"Bm"zzzzzzzz|"Bm"zzzzzzzz|',
+      '"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||',
+      '"Bm"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|',
+      '"Bm"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz||',
+    ];
+    const verseChart = 'D | G D | G Bm | G D | D | G D | G Bm | G D |';
+    const chorusChart = 'A D | A Bm | Bm | Bm | D G | D G | D | D |';
+    const bridgeChart = 'Bm | Bm | G | D | Bm | Bm | G | D |';
+    const lyrics = [
+      '#verse',
+      'The tone that you use',
+      '',
+      '# chorus 1',
+      'It resonates to hate',
+      '',
+      '# instrumental verse and chorus @1 @2',
+      '',
+      '# bridge @3',
+      'People in trouble',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, chorusChart, bridgeChart], {
+      melodyNoteLines: noteLines,
+    });
+    expect(aligned.map(function(b) { return b.type; })).toEqual([
+      'verse', 'chorus', 'instrumental', 'bridge',
+    ]);
+    expect(aligned[0].chart).toBe(verseChart);
+    expect(aligned[1].chart).toBe(chorusChart);
+    expect(aligned[2].chart).toBe(verseChart + '\n\n' + chorusChart);
+    expect(aligned[2].chartSections).toEqual([verseChart, chorusChart]);
+    expect(aligned[2].melodyStrainIndexes).toEqual([0, 1]);
+    expect(aligned[2].header).toContain('@1 @2');
+    expect(aligned[2].chartRevisit).toBe(true);
+    expect(aligned[3].chart).toBe(bridgeChart);
+    expect(aligned[3].melodyStrainIndex).toBe(2);
+    expect(aligned[3].chartRevisit).toBe(false);
+  });
+
+  test('alignChordBlocksToLyrics unpinned instrumental still takes the next strain', function() {
+    const noteLines = [
+      '"D"zzzzzzzz|"G"zzzzzzzz||',
+      '"A"zzzzzzzz|"Bm"zzzzzzzz||',
+      '"Bm"zzzzzzzz|"G"zzzzzzzz||',
+    ];
+    const verseChart = 'D | G |';
+    const chorusChart = 'A | Bm |';
+    const bridgeChart = 'Bm | G |';
+    const lyrics = [
+      '#verse',
+      'verse words',
+      '',
+      '# chorus',
+      'chorus words',
+      '',
+      '# instrumental verse and chorus',
+      '',
+      '# bridge',
+      'bridge words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, chorusChart, bridgeChart], {
+      melodyNoteLines: noteLines,
+    });
+    expect(aligned[2].type).toBe('instrumental');
+    expect(aligned[2].chart).toBe(bridgeChart);
+    expect(aligned[3].chart).toBe('');
+  });
+
+  test('alignChordBlocksToLyrics @N overrides only the pinned block', function() {
+    const verseChart = 'VERSECHORDS';
+    const chorusChart = 'CHORUSCHORDS';
+    const lyrics = [
+      '# verse',
+      'first verse words',
+      '',
+      '# chorus @1',
+      'chorus words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, chorusChart]);
+    expect(aligned[0]).toMatchObject({ type: 'verse', chart: verseChart, chartRevisit: false });
+    expect(aligned[1]).toMatchObject({ type: 'chorus', chart: verseChart, melodyStrainIndex: 0, chartRevisit: true });
+  });
+
+  test('alignChordBlocksToLyrics @2 @1 joins charts in listed order', function() {
+    const verseChart = 'VERSECHORDS';
+    const chorusChart = 'CHORUSCHORDS';
+    const lyrics = [
+      '# verse',
+      'verse words',
+      '',
+      '# chorus',
+      'chorus words',
+      '',
+      '# instrumental @2 @1',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, chorusChart]);
+    const instrumental = aligned.find(function(b) { return b.type === 'instrumental'; });
+    expect(instrumental.chart).toBe(chorusChart + '\n\n' + verseChart);
+    expect(instrumental.chartSections).toEqual([chorusChart, verseChart]);
+    expect(instrumental.melodyStrainIndexes).toEqual([1, 0]);
+    expect(instrumental.chartRevisit).toBe(true);
+  });
+
+  test('alignChordBlocksToLyrics later unmarked chorus reuses first pinned chart', function() {
+    const verseChart = 'VERSECHORDS';
+    const chorusChart = 'CHORUSCHORDS';
+    const lyrics = [
+      '# verse',
+      'verse one',
+      '',
+      '# chorus @1',
+      'chorus one',
+      '',
+      '# verse',
+      'verse two',
+      '',
+      '# chorus',
+      'chorus two',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, chorusChart]);
+    expect(aligned[1].chart).toBe(verseChart);
+    expect(aligned[1].chartRevisit).toBe(true);
+    expect(aligned[3].chart).toBe(verseChart);
+    expect(aligned[3].chartRevisit).toBe(true);
+  });
+
+  test('alignChordBlocksToLyrics @N still shows a chart that has not been displayed', function() {
+    const verseChart = 'VERSECHORDS';
+    const chorusChart = 'CHORUSCHORDS';
+    const bridgeChart = 'BRIDGECHORDS';
+    const lyrics = [
+      '# verse',
+      'verse words',
+      '',
+      '# chorus',
+      'chorus words',
+      '',
+      '# bridge @3',
+      'bridge words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [verseChart, chorusChart, bridgeChart]);
+    expect(aligned[2]).toMatchObject({ type: 'bridge', chart: bridgeChart, chartRevisit: false });
   });
 
   test('rebalanceChartPulseSlots adjusts slots on meter change', function() {

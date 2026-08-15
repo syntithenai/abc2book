@@ -10,6 +10,7 @@ import {
   showAudioGenerationErrorToast,
   showAudioGenerationStartedToast,
 } from './audioGenerationToast';
+import { isNavigatorOffline, registerOnlineResume } from './offlineNetwork';
 
 const STORAGE_KEY = 'queue-state';
 const store = localforage.createInstance({ name: 'audiogenerationqueue' });
@@ -18,6 +19,7 @@ let jobCounter = 0;
 let jobs = [];
 let processing = false;
 let persistTimer = null;
+let lastGetTuneContext = null;
 let restored = false;
 
 const listeners = new Set();
@@ -165,6 +167,7 @@ export async function restoreAndResume(getTuneContext) {
     });
   }
   rebuildSnapshot();
+  lastGetTuneContext = getTuneContext;
   processQueue(getTuneContext);
 }
 
@@ -329,7 +332,9 @@ async function processJob(job, getTuneContext) {
 }
 
 async function processQueue(getTuneContext) {
+  if (getTuneContext) lastGetTuneContext = getTuneContext;
   if (processing) return;
+  if (isNavigatorOffline()) return;
   processing = true;
   try {
     while (true) {
@@ -349,6 +354,12 @@ export function __resetForTests() {
   jobCounter = 0;
   processing = false;
   restored = false;
+  lastGetTuneContext = null;
   cachedSnapshot = { jobs: [], processing: false };
   notify();
 }
+
+registerOnlineResume(function() {
+  processQueue(lastGetTuneContext);
+});
+

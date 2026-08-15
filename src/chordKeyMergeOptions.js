@@ -7,6 +7,7 @@ import { parseKeySignatureForTests } from './melodyPitchSpelling'
 import { normalizePracticeKey, pitchOffsetToPracticeKey } from './practiceSessionPlanner'
 import utilsFunctions from './utilsFunctions'
 import { isInlineSignatureToken, isSectionMarkerToken } from './chordSheetUtils'
+import { transposeKeySignature } from './keySignatureNormalize'
 
 const parseChord = chordParserFactory()
 const utils = utilsFunctions()
@@ -234,6 +235,17 @@ export function transposeChordGridText(text, semitones, targetKey) {
       return transposed + (barSuffix ? barSuffix[0] : '')
     })
   }).join('\n')
+}
+
+/**
+ * Transpose chord names for display (structure blocks, print, lyric sheets).
+ * Spelling follows the key after the same interval.
+ */
+export function applyChordDisplayTranspose(text, semitones, sourceKey) {
+  const amount = Number(semitones) || 0
+  if (!amount) return String(text == null ? '' : text)
+  const targetKey = transposeKeySignature(sourceKey, amount) || sourceKey
+  return transposeChordGridText(text, amount, targetKey)
 }
 
 function extractMelodyPitchClasses(melodyAbc, noteLines) {

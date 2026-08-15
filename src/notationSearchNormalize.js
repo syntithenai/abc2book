@@ -93,6 +93,18 @@ export function extractNotationSearchUrl(query) {
   return ''
 }
 
+function isMidiSearchCandidate(body) {
+  if (!body || typeof body !== 'object') return false
+  if (body.importFormat === 'midi' || body.midiBytes) return true
+  const meta = body.tuneMeta && body.tuneMeta.meta
+  if (meta && meta.importFormat === 'midi') return true
+  const source = String(body.source || '').toLowerCase()
+  if (source === 'midi-resources' || source === 'midi') return true
+  const sourceUrl = typeof body.sourceUrl === 'string' ? body.sourceUrl : ''
+  if (sourceUrl.indexOf('/midi-resources/') >= 0) return true
+  return /\.midi?(\?|#|$)/i.test(sourceUrl)
+}
+
 function convertMusicXmlCandidate(body) {
   const musicXml = typeof body.musicXml === 'string' ? body.musicXml.trim() : ''
   if (!musicXml) return null
@@ -141,7 +153,7 @@ function normalizeSingleNotationResult(body) {
   if ((!abc || abc.indexOf('K:') === -1) && body && body.musicXml) {
     abc = convertMusicXmlCandidate(body) || ''
   }
-  if ((!abc || abc.indexOf('K:') === -1) && body && body.midiBytes) {
+  if ((!abc || abc.indexOf('K:') === -1) && isMidiSearchCandidate(body)) {
     const out = {
       abc: '',
       source: typeof body.source === 'string' ? body.source : '',
@@ -156,8 +168,8 @@ function normalizeSingleNotationResult(body) {
       titleOnly: body.titleOnly === true,
       tuneMeta: tuneMeta,
       importFormat: 'midi',
-      midiBytes: body.midiBytes,
     }
+    if (body.midiBytes) out.midiBytes = body.midiBytes
     if (typeof body.matchScore === 'number' && Number.isFinite(body.matchScore)) {
       out.matchScore = body.matchScore
     }
@@ -214,7 +226,15 @@ export function normalizeNotationSearch(body) {
       try {
         candidates.push(normalizeSingleNotationResult(candidate))
       } catch (e) {
-        // Skip MusicXML candidates that fail conversion.
+        if (isMidiSearchCandidate(candidate)) {
+          try {
+            candidates.push(normalizeSingleNotationResult(Object.assign({}, candidate, {
+              importFormat: 'midi',
+              abc: '',
+              musicXml: '',
+            })))
+          } catch (e2) {}
+        }
       }
     })
     if (candidates.length === 0) {

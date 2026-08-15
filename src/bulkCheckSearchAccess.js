@@ -3,6 +3,7 @@ import { buildGoogleComposerSearchUrl } from './composerDiscoveryUtils'
 import { buildGoogleChordsSearchUrl } from './chordSearchSites'
 import { buildExternalSearchUrl } from './externalSearchLinks'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import { getOfflineBlock } from './offlineNetwork'
 import { buildTuneBackgroundSearchUrl } from './tuneBackgroundResearchClient'
 import { lyricLinesToText } from './wLinesUtils'
 
@@ -27,6 +28,7 @@ export function isBulkCheckResolverGatedAction(actionId) {
 
 function unavailableReason(access) {
   if (!access) return ''
+  if (access.needsNetwork && access.loginWarning) return access.loginWarning.message
   if ((access.needsLogin || access.needsCredit) && access.loginWarning) return access.loginWarning.message
   if (access.actionId === 'scanLinkRegion') {
     return 'Playback region scan needs the media resolver with Whisper available'
@@ -48,10 +50,12 @@ export function getBulkCheckActionAccess(actionId, context) {
   const tune = opts.tune || null
   const fields = tuneSearchFields(tune)
   const resolverAvailable = !!opts.resolverAvailable
-  const loginWarning = getResolverLoginWarning(opts.resolverStatus, opts.accessToken)
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
-  const blocked = needsLogin || needsCredit
+  const loginWarning = getOfflineBlock()
+    || getResolverLoginWarning(opts.resolverStatus, opts.accessToken)
+  const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
+  const blocked = needsLogin || needsCredit || needsNetwork
   const lookupContext = {
     needsLogin: blocked,
     resolverAvailable: resolverAvailable,
@@ -96,6 +100,7 @@ export function getBulkCheckActionAccess(actionId, context) {
     title: fields.title,
     needsLogin: needsLogin,
     needsCredit: needsCredit,
+    needsNetwork: needsNetwork,
     loginWarning: loginWarning,
     automaticLookup: automaticLookup,
     externalUrl: externalUrl,

@@ -32,6 +32,7 @@ import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { isDeviceFileResult, isMusicCollectionResult } from '../mediaLinkSearchDisplay'
 import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile, readAudioFileMetadata } from '../audioFileMetadata'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
+import { isBandcampLinkUri, repairBandcampLinkUri } from '../bandcampLinkUtils'
 import {
     fetchDirectOrProxy,
     normalizeAccessToken,
@@ -54,12 +55,12 @@ import { useCreditAffordance } from '../useCreditAffordance'
 import {
   defaultCoverStylePrompt,
   enqueueLinkedCoverJob,
-  enqueuePracticeTrackJob,
   getPracticeTrackPlan,
   hasPracticeTrackMidiData,
   linkSupportsAudioCover,
 } from '../audioGenerationActions'
 import RegenerateCoverModal from './RegenerateCoverModal'
+import AudioGenerationWizard from './AudioGenerationWizard'
 
 const YT_PLAYING = 1
 const YT_ENDED = 0
@@ -98,18 +99,21 @@ function linkUriString(link) {
 function mediaSearchCandidateUri(candidate) {
     if (!candidate) return ''
     const direct = candidate.link
+    let uri = ''
     if (direct != null && direct !== '') {
-        if (typeof direct === 'string') return direct
-        if (typeof direct === 'object' && direct.link != null) return String(direct.link)
-        if (typeof direct === 'number' || typeof direct === 'boolean') return String(direct)
+        if (typeof direct === 'string') uri = direct
+        else if (typeof direct === 'object' && direct.link != null) uri = String(direct.link)
+        else if (typeof direct === 'number' || typeof direct === 'boolean') uri = String(direct)
     }
-    const uri = String(candidate.uri || '').trim()
-    if (uri) return uri
-    const youtubeId = String(candidate.youtubeId || candidate.id || '').trim()
-    if (youtubeId && candidate.source === 'youtube') {
-        return 'https://www.youtube.com/watch?v=' + youtubeId
+    if (!uri) uri = String(candidate.uri || '').trim()
+    if (!uri) {
+        const youtubeId = String(candidate.youtubeId || candidate.id || '').trim()
+        if (youtubeId && candidate.source === 'youtube') {
+            uri = 'https://www.youtube.com/watch?v=' + youtubeId
+        }
     }
-    return ''
+    if (uri && isBandcampLinkUri(uri)) return repairBandcampLinkUri(uri)
+    return uri
 }
 
 function tuneLinkFromMediaSearchCandidate(candidate) {
@@ -120,7 +124,9 @@ function tuneLinkFromMediaSearchCandidate(candidate) {
         endAt: '',
     }
     if (candidate && candidate.source) link.source = String(candidate.source)
-    if (candidate && candidate.id) link.collectionEntryId = String(candidate.id)
+    if (candidate && candidate.id && String(candidate.source || '') === 'music-collection') {
+        link.collectionEntryId = String(candidate.id)
+    }
     if (candidate && candidate.path) link.collectionPath = String(candidate.path)
     if (candidate && candidate.uri) link.deviceFileUri = String(candidate.uri)
     if (candidate && candidate.image) link.image = candidate.image
@@ -192,12 +198,11 @@ function LinksEditorBody(props) {
     }, [resolverAccessContext])
     const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
     const [audioBackends, setAudioBackends] = useState(null)
-    const [practiceGenerating, setPracticeGenerating] = useState(false)
     const [linkRegeneratingIndex, setLinkRegeneratingIndex] = useState(null)
-    const [pendingPracticeGenerate, setPendingPracticeGenerate] = useState(false)
     const [pendingLinkRegenerateIndex, setPendingLinkRegenerateIndex] = useState(null)
     const [regenerateCoverLinkIndex, setRegenerateCoverLinkIndex] = useState(null)
     const [regenerateCoverError, setRegenerateCoverError] = useState('')
+    const [showGenerationWizard, setShowGenerationWizard] = useState(false)
     const practiceAffordance = useCreditAffordance(props.token, 'practice_track')
     const coverAffordance = useCreditAffordance(props.token, 'linked_cover')
     const combinedAffordance = useMemo(function() {
@@ -324,28 +329,13 @@ function LinksEditorBody(props) {
         }
     }
 
-    async function runPracticeTrackGeneration() {
+    function beginPracticeTrackGeneration() {
         const tune = getTuneForOwnedMedia() || tuneForMedia || props.tune
         if (!tune || !tune.id) {
             setWarning('Save the tune before generating audio.')
             return
         }
-        setPracticeGenerating(true)
-        setWarning('')
-        try {
-            await enqueuePracticeTrackJob({
-                tune: tune,
-                tunebook: props.tunebook,
-                abcjsParser: abcjsParser,
-                token: props.token,
-                onTuneChange: handleTuneChange,
-                forceRefresh: props.forceRefresh,
-            })
-        } catch (err) {
-            if (err && err.message) setWarning(err.message)
-        } finally {
-            setPracticeGenerating(false)
-        }
+        setShowGenerationWizard(true)
     }
 
     async function runLinkedCoverRegeneration(linkIndex, coverOptions) {
@@ -387,15 +377,6 @@ function LinksEditorBody(props) {
         }
     }
 
-    function beginPracticeTrackGeneration() {
-        runResolverGatedAction(audioGenerationAccess, null, {
-            loginRequiredMessage: 'Log in to generate practice tracks',
-            setPending: function() { setPendingPracticeGenerate(true) },
-            clearPending: function() { setPendingPracticeGenerate(false) },
-            onReady: function() { runPracticeTrackGeneration() },
-        })
-    }
-
     function beginLinkedCoverRegeneration(linkIndex) {
         runResolverGatedAction(audioGenerationAccess, linkIndex, {
             loginRequiredMessage: 'Log in to regenerate audio from this link',
@@ -416,14 +397,6 @@ function LinksEditorBody(props) {
             },
         })
     }
-
-    useEffect(function() {
-        if (!pendingPracticeGenerate) return undefined
-        if (!audioGenerationAccess.canGenerate) return undefined
-        setPendingPracticeGenerate(false)
-        runPracticeTrackGeneration()
-        return undefined
-    }, [pendingPracticeGenerate, audioGenerationAccess.canGenerate])
 
     useEffect(function() {
         if (pendingLinkRegenerateIndex == null) return undefined
@@ -1068,15 +1041,11 @@ function LinksEditorBody(props) {
                             label="Generate"
                             variant="primary"
                             className="links-editor-audio-action-btn"
-                            disabled={practiceGenerating || ownedMediaBusy || audioUtils.isRecording}
-                            title={audioGenerationAccess.loginWarning && (audioGenerationAccess.needsLogin || audioGenerationAccess.needsCredit)
-                                ? audioGenerationAccess.loginWarning.message
-                                : 'Generate a practice track from notation'}
+                            disabled={ownedMediaBusy || audioUtils.isRecording}
+                            title="Configure prompt, style, and quality, then generate audio"
                             onClick={beginPracticeTrackGeneration}
                         >
-                            {practiceGenerating
-                                ? 'Starting…'
-                                : getGatedActionLabel(audioGenerationAccess, 'Generate')}
+                            Generate
                         </LinksEditorToolbarButton>
                     </div>
                 ) : null}
@@ -1161,9 +1130,7 @@ function LinksEditorBody(props) {
                                         updated.mediaCacheLocked = true
                                     }
                                     handleTuneChange(updated)
-                                    if (typeof props.onTuneChange !== 'function') {
-                                        scheduleSelectedMediaLinkCache(newLink, updated, cacheOpts)
-                                    }
+                                    scheduleSelectedMediaLinkCache(newLink, updated, cacheOpts)
                                     return
                                 }
                                 props.onChange(links)
@@ -1254,7 +1221,7 @@ function LinksEditorBody(props) {
                                         size="sm"
                                         variant="primary"
                                         className="links-editor-audio-action-btn"
-                                        disabled={linkRegeneratingIndex === lk || practiceGenerating || ownedMediaBusy || audioUtils.isRecording}
+                                        disabled={linkRegeneratingIndex === lk || ownedMediaBusy || audioUtils.isRecording}
                                         title={audioGenerationAccess.loginWarning && (audioGenerationAccess.needsLogin || audioGenerationAccess.needsCredit)
                                             ? audioGenerationAccess.loginWarning.message
                                             : 'Regenerate audio from this recording using AI cover'}
@@ -1466,6 +1433,20 @@ function LinksEditorBody(props) {
                     runMidiExportToNotation(midiExportLinkIndex, workspaceId)
                 }}
             />
+            {showGenerationWizard ? (
+                <AudioGenerationWizard
+                    show
+                    hideTrigger
+                    onHide={function() { setShowGenerationWizard(false) }}
+                    tune={getTuneForOwnedMedia() || tuneForMedia || props.tune}
+                    tunebook={props.tunebook}
+                    token={props.token}
+                    login={props.login}
+                    user={props.user}
+                    onTuneChange={handleTuneChange}
+                    forceRefresh={props.forceRefresh}
+                />
+            ) : null}
             <RegenerateCoverModal
                 show={regenerateCoverLinkIndex != null}
                 link={regenerateCoverLinkIndex != null && props.links

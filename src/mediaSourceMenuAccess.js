@@ -3,6 +3,7 @@
 import { getLinkSrcType } from './checkTuneLinkPlayback';
 import { linkedMediaPitchPathAvailableSync } from './linkedMediaPitchPath';
 import { getResolverLoginWarning } from './mediaProxyClient';
+import { getOfflineBlock } from './offlineNetwork';
 import { audioFiltersAreNeutral, pitchShiftIsActive } from './pitchTempoUtils';
 import { normalizeAccessToken } from './resolverCreditAccess';
 
@@ -68,6 +69,8 @@ export function getActiveMediaSourceId(mediaController) {
 }
 
 export function getYoutubeLoginGate(resolverStatus, accessToken) {
+  const offlineBlock = getOfflineBlock();
+  if (offlineBlock) return offlineBlock;
   const warning = getResolverLoginWarning(resolverStatus, normalizeAccessToken(accessToken));
   if (!warning || !warning.showLoginButton) return null;
   return warning;

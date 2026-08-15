@@ -18,6 +18,7 @@ import {
 import { buildComposerPickerCandidates } from './composerDiscoveryUtils'
 import { sortCandidatesByConfidence } from './bibliographicSearchUtils'
 import { isAbortError } from './abortUtils'
+import { isNavigatorOffline, registerOnlineResume } from './offlineNetwork'
 import {
   buildCurrentValueSuggestion,
   collateUniqueSuggestions,
@@ -798,7 +799,8 @@ function notifyLive(job) {
     // Awaiting = open one-shot picker. Done with appliedCandidate = sync auto-apply to draft forms.
     if (
       (job.status === 'awaiting'
-        || (job.status === 'done' && job.appliedCandidate))
+        || (job.status === 'done' && job.appliedCandidate)
+        || (job.status === 'done' && job.notifyEmpty))
       && typeof handler.onAwaiting === 'function'
     ) {
       handler.onAwaiting(publicJob(job))
@@ -1295,7 +1297,10 @@ async function runJob(job) {
       job.progress = 100
       job.message = 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.'
       job.error = null
-      toastFieldSearchFinished(job.kind, { count: 0, applied: false })
+      job.notifyEmpty = true
+      if (!hasLiveHandler(job)) {
+        toastFieldSearchFinished(job.kind, { count: 0, applied: false })
+      }
       notifyLive(job)
       return
     }
@@ -1306,7 +1311,11 @@ async function runJob(job) {
       job.candidates = []
       job.progress = 100
       job.message = ''
-      toastFieldSearchFinished(job.kind, { count: 0, applied: false })
+      job.notifyEmpty = true
+      if (!hasLiveHandler(job)) {
+        toastFieldSearchFinished(job.kind, { count: 0, applied: false })
+      }
+      notifyLive(job)
       return
     }
 
@@ -1358,6 +1367,7 @@ function canStartJob(job) {
 
 async function processQueue() {
   if (processQueueRunning || paused) return
+  if (isNavigatorOffline()) return
   processQueueRunning = true
   try {
     while (running && !paused) {
@@ -1447,3 +1457,5 @@ export function __loadSavedStateForTests(saved) {
   })
   notify()
 }
+
+registerOnlineResume(start)

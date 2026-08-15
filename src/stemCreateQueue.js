@@ -4,6 +4,7 @@ import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { isAbortError } from './abortUtils'
 import { getStemSourceCacheKey, getCachedStemSet } from './audioStemCache'
 import { areStemBulkOperationsEnabled } from './stemBulkOperations'
+import { isNavigatorOffline, registerOnlineResume } from './offlineNetwork'
 
 const STORAGE_KEY = 'queue-state'
 const store = localforage.createInstance({ name: 'stemcreatequeue' })
@@ -368,6 +369,12 @@ function resetOrphanedRunningJobs() {
 }
 
 export function start() {
+  if (isNavigatorOffline()) {
+    paused = false
+    running = true
+    notify()
+    return
+  }
   paused = false
   if (!processQueueRunning) {
     resetOrphanedRunningJobs()
@@ -538,3 +545,6 @@ export function __resetForTests() {
   restored = false
   listeners.clear()
 }
+
+registerOnlineResume(start)
+

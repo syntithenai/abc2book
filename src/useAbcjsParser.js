@@ -642,6 +642,8 @@ export default function useAbcjsParser() {
             lines.forEach(function(line,lineNumber) {
               if (!Array.isArray(result[lineNumber])) result[lineNumber] = []
               var cleanLine = line.trim()
+              // Blank lines are section breaks (||), not a clear-bar token.
+              if (!cleanLine) return
               if (cleanLine.endsWith('||')) {
                   cleanLine = cleanLine.slice(0, -2)
               } else if (cleanLine.endsWith('|')) {

@@ -124,6 +124,7 @@ jest.mock('react-toastify', function() {
 
 import { searchLyrics } from './lyricsSearchClient'
 import { discoverComposers } from './composerSearchClient'
+import { searchNotation } from './notationSearchClient'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 
 async function waitForJob(predicate, attempts) {
@@ -159,6 +160,13 @@ describe('tuneFieldLookupQueue', function() {
       candidates: [
         { artist: 'Artist One', source: 'MusicBrainz', preview: 'Artist One' },
         { artist: 'Artist Two', source: 'MusicBrainz', preview: 'Artist Two' },
+      ],
+    })
+    searchNotation.mockReset()
+    searchNotation.mockResolvedValue({
+      multiple: true,
+      candidates: [
+        { title: 'Tune', abc: 'X:1\nK:G\nG', source: 'session' },
       ],
     })
   })
@@ -529,5 +537,94 @@ describe('tuneFieldLookupQueue', function() {
     expect(tune.composer).toBe('Old')
     expect(saveTune).not.toHaveBeenCalled()
     expect(tuneFieldLookupQueue.findJobById(id).appliedCandidate.artist).toBe('New Artist')
+  })
+
+  test('notation MIDI-only results stay awaiting instead of empty toast', async function() {
+    const { toast } = require('react-toastify')
+    toast.info.mockClear()
+    searchNotation.mockResolvedValueOnce({
+      multiple: true,
+      candidates: [{
+        title: 'Moonlight Sonata',
+        artist: 'Beethoven',
+        abc: '',
+        importFormat: 'midi',
+        source: 'midi-resources',
+        sourceUrl: '/midi-resources/Moonlight.mid',
+        preview: '',
+      }],
+    })
+    const onAwaiting = jest.fn()
+    tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'notation', { onAwaiting: onAwaiting })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'notation',
+      title: 'Moonlight Sonata',
+      options: { searchMode: 'review', alwaysPick: true },
+      accessToken: 'token',
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'awaiting' || item.status === 'done' || item.status === 'error')
+    })
+    expect(job.status).toBe('awaiting')
+    expect(job.candidates.length).toBe(1)
+    expect(job.candidates[0].importFormat).toBe('midi')
+    expect(onAwaiting).toHaveBeenCalled()
+    expect(toast.info.mock.calls.some(function(args) {
+      return String(args[0] || '').toLowerCase().indexOf('no notation') >= 0
+    })).toBe(false)
+  })
+
+  test('empty notation search does not toast when a live handler is registered', async function() {
+    const { toast } = require('react-toastify')
+    toast.info.mockClear()
+    searchNotation.mockResolvedValueOnce({
+      multiple: false,
+      empty: true,
+      found: false,
+      candidates: [],
+    })
+    const onAwaiting = jest.fn()
+    tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'notation', { onAwaiting: onAwaiting })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'notation',
+      title: 'Unknown Tune',
+      options: { searchMode: 'review', alwaysPick: true },
+      accessToken: 'token',
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'error')
+    })
+    expect(job.status).toBe('done')
+    expect(onAwaiting).toHaveBeenCalled()
+    expect(toast.info.mock.calls.some(function(args) {
+      return String(args[0] || '').toLowerCase().indexOf('no notation') >= 0
+    })).toBe(false)
+  })
+
+  test('does not start network lookup jobs while offline', async function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    try {
+      tuneFieldLookupQueue.enqueueLookup({
+        tuneId: 't1',
+        kind: 'lyrics',
+        title: 'Song',
+        accessToken: 'token',
+      })
+      tuneFieldLookupQueue.start()
+      await Promise.resolve()
+      await Promise.resolve()
+      expect(searchLyrics).not.toHaveBeenCalled()
+      const pending = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+        return job.status === 'pending'
+      })
+      expect(pending.length).toBe(1)
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
   })
 })

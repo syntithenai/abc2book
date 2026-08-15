@@ -13,6 +13,7 @@ import {
   isSnapcastPreferredOutput,
   PREFERRED_OUTPUT_SNAPCAST,
 } from './preferredRemoteOutputSettings';
+import { isNavigatorOffline } from './offlineNetwork';
 import {
   getSnapcastPlaybackProxyBase,
   isCloudLightResolverBase,
@@ -88,6 +89,7 @@ export function createPreferredOutputCoordinator({
   }
 
   async function tryRouteOnPlay(playOpts) {
+    if (isNavigatorOffline()) return false;
     if (!isRemoteOutputUiEnabled()) return false;
     if (!getSnapcastOutputEnabled()) return false;
     if (!isSnapcastPreferredOutput()) return false;

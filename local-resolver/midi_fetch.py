@@ -12,6 +12,7 @@ from browser_fetch import fetch_html_with_fallback
 from midi_convert import MAX_MIDI_IMPORT_BYTES
 from midi_resources import (
     MAX_LOCAL_MIDI_CANDIDATES,
+    build_midi_resource_public_url,
     midi_resources_enabled,
     read_midi_resource_bytes,
     search_midi_resources,
@@ -249,20 +250,30 @@ def extract_midi_file_urls_from_html(html, page_url=""):
 
 
 def annotate_midi_candidate(midi_bytes, title="", artist="", source_url="", music_xml=""):
+    source = str(source_url or "")
+    is_local = source.startswith("/midi-resources/") or "/midi-resources/" in source
     host = ""
-    try:
-        host = _strip_www(urlparse(source_url).hostname)
-    except Exception:
-        host = "midi"
+    if is_local:
+        host = "midi-resources"
+    else:
+        try:
+            host = _strip_www(urlparse(source_url).hostname)
+        except Exception:
+            host = "midi"
     tune_meta = {
         "srcUrl": source_url or "",
         "meta": {"importFormat": "midi"},
     }
+    if is_local:
+        tune_meta["meta"]["midiLibrary"] = True
     if title:
         tune_meta["name"] = title
     if artist:
         tune_meta["composer"] = artist
-    encoded = base64.b64encode(midi_bytes).decode("ascii") if midi_bytes else ""
+    payload = midi_bytes
+    if isinstance(payload, str):
+        payload = payload.encode("utf-8")
+    encoded = base64.b64encode(payload).decode("ascii") if payload else ""
     return {
         "abc": "",
         "musicXml": music_xml or "",
@@ -427,16 +438,17 @@ async def collect_local_midi_candidates(title, artist="", on_progress=None):
         await _emit_progress(
             on_progress,
             "midi",
-            "Converting local MIDI {0}/{1}...".format(index + 1, min(len(matches), MAX_LOCAL_MIDI_CANDIDATES)),
+            "Found local MIDI {0}/{1}...".format(index + 1, min(len(matches), MAX_LOCAL_MIDI_CANDIDATES)),
             0.55 + (0.25 * (index + 1) / max(min(len(matches), MAX_LOCAL_MIDI_CANDIDATES), 1)),
         )
         try:
-            midi_bytes = read_midi_resource_bytes(rel_path)
+            # Listing only — wizard fetches bytes on import so search JSON stays small.
+            path_artist = str(match.get("artist") or "").strip()
             candidate = annotate_midi_candidate(
-                midi_bytes,
+                b"",
                 title=str(match.get("title") or ""),
-                artist=artist or "",
-                source_url="/midi-resources/" + rel_path,
+                artist=path_artist or artist,
+                source_url=build_midi_resource_public_url(rel_path),
             )
             candidate["matchScore"] = int(match.get("matchScore") or 0)
             candidates.append(candidate)
@@ -451,17 +463,24 @@ async def collect_local_midi_candidates(title, artist="", on_progress=None):
 
 
 async def collect_midi_candidates(client, title, artist="", on_progress=None, relaxed=False):
-    """Prefer the local MIDI library, then search the web."""
+    """Prefer the local MIDI library, then search the web.
+
+    When relaxed (last-chance / fallback), still fetch web MIDI even if local
+    hits exist, so a local miss after finalize can fall through.
+    """
     local_candidates = await collect_local_midi_candidates(title, artist=artist, on_progress=on_progress)
-    if local_candidates:
+    if local_candidates and not relaxed:
         return local_candidates
-    return await collect_web_midi_candidates(
+    web_candidates = await collect_web_midi_candidates(
         client,
         title,
         artist=artist,
         on_progress=on_progress,
         relaxed=relaxed,
     )
+    if local_candidates:
+        return list(local_candidates) + list(web_candidates or [])
+    return web_candidates
 
 
 async def collect_web_midi_candidates(client, title, artist="", on_progress=None, relaxed=False):

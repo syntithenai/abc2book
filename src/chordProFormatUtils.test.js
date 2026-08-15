@@ -44,7 +44,7 @@ describe('chordProFormatUtils', function() {
     expect(parsed.capo).toBe(3);
     expect(parsed.lyricLines.join('\n')).toContain('Verse 1');
     expect(parsed.lyricLines.join('\n')).toContain('[G]Amazing grace how [C]sweet the [G]sound');
-    expect(parsed.chordText).toContain('G|');
+    expect(parsed.chordText).toContain('G |');
     expect(parsed.chordProSource).toBe(sampleChordPro);
     expect(Array.isArray(parsed.chordSheetAlignment)).toBe(true);
     expect(parsed.chordSheetAlignment.length).toBeGreaterThan(0);
@@ -146,9 +146,9 @@ Am    G    Em    F  G`;
       '',
       '[Instrumental]',
     ]);
-    expect(parsed.chordText).toContain('Am    Dm    Dm    Am9|');
-    expect(parsed.chordText).toContain('Am/E|');
-    expect(parsed.chordText).toContain('Am    G    Em    F  G|');
+    expect(parsed.chordText).toContain('Am    Dm    Dm    Am9 |');
+    expect(parsed.chordText).toContain('Am/E |');
+    expect(parsed.chordText).toContain('Am    G    Em    F  G |');
     expect(parsed.sectionCount).toBeGreaterThanOrEqual(5);
     expect(parsed.chordSheetAlignment.some(function(block) {
       return block.header === '[Chorus]';
@@ -226,7 +226,7 @@ The language of love`;
     expect(parsed.lyricLines).toContain('[Intro]');
     expect(parsed.lyricLines).toContain('Am    Dm    Dm    Am9');
     expect(parsed.lyricLines.join('\n')).not.toMatch(/Song:|By:|Tonality:|Capo|BPM:|Meter:|Tuning:/);
-    expect(parsed.chordText).toContain('Am    Dm    Dm    Am9|');
+    expect(parsed.chordText).toContain('Am    Dm    Dm    Am9 |');
   });
 
   test('parses labeled preamble with inline ChordPro lyrics', function() {

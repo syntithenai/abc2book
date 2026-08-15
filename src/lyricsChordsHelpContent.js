@@ -40,10 +40,14 @@ export function LyricsChordsHelpBody() {
         field into ABC strains. Staff and structure then follow that scaffold.
       </p>
       <p>
-        <strong>To Lyrics</strong> does the reverse: it merges notation chords onto the lyric
-        lines and saves them as ChordPro (<code>[Am]word</code>). Beat-level timing is
+        <strong>To Lyrics</strong> in the Chords editor, or <strong>Chords from notation</strong> in
+        the Lyrics editor Align tab, copies notation chords onto the lyric lines as ChordPro
+        (<code>[Am]word</code>). You then have two copies of the chords — in the music structure
+        and written into the lyrics — that are maintained independently. Beat-level timing is
         approximate (lossy). Existing lyric-embedded chords are replaced; ABC is unchanged.
-        Use the Lyrics editor <strong>Align</strong> tab afterward to drag chords onto words.
+        Use the Lyrics editor <strong>Align</strong> tab afterward to drag chords onto letters
+        or spaces, edit/add/delete lyric lines and sections, click a chord to edit or remove
+        it, or use <strong>+</strong> to add chords.
       </p>
 
       <h3 className="h5">Section mapping (lyrics ↔ notation)</h3>
@@ -68,6 +72,22 @@ export function LyricsChordsHelpBody() {
           <code># Verse I</code> do not create a second verse.
         </p>
       </div>
+      <p>
+        Optional <code>@N</code> on a header overrides that automatic assignment.
+        <code>N</code> is the 1-based chords block (first ABC strain is <code>@1</code>).
+        Several tokens join those blocks in listed order:
+      </p>
+      <ul>
+        <li><code># chorus @1</code> — that stanza uses the first chords block</li>
+        <li><code># instrumental @1 @2</code> — verse then chorus charts, in that order</li>
+        <li><code># bridge @3</code> — the third block, even if auto left this stanza empty</li>
+      </ul>
+      <p>
+        Headers without <code>@N</code> still allocate in order. Repeats without a token still
+        reuse the type (and reuse a pin from the first occurrence of that type).
+        If a pin points at a chords block that structure has already shown, that stanza
+        is listed as a heading only.
+      </p>
     </>
   )
 }

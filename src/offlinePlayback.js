@@ -1,15 +1,12 @@
-import { isExternalMediaCached } from './externalMediaAudioCache'
+import { isLinkMediaCached } from './linkRecording'
 import { getLinkSrcType } from './mediaLinkResolve'
 import {
   resolvePlaybackForItem,
-  isQueueActive,
-  getCurrentItem,
 } from './nowPlayingQueue'
+import { isNavigatorOffline } from './offlineNetwork'
 import { advanceQueueToNextPlayable } from './playlistPlaybackResilience'
 
-export function isNavigatorOffline() {
-  return typeof navigator !== 'undefined' && navigator.onLine === false
-}
+export { isNavigatorOffline } from './offlineNetwork'
 
 export function playbackModeFromPathname(pathname) {
   if (!pathname) return 'auto'
@@ -25,10 +22,7 @@ export async function isMediaLinkOfflineReady(tune, linkIndex, isYoutubeLink) {
   const srcType = getLinkSrcType(link.link, isYoutubeLink)
   if (srcType === 'inline') return true
   if (srcType === 'abc' || srcType === 'skip') return false
-  if (srcType === 'audio' || srcType === 'youtube' || srcType === 'recording') {
-    return isExternalMediaCached(tune.id, linkIndex, link.link)
-  }
-  return false
+  return isLinkMediaCached(tune, linkIndex)
 }
 
 export async function isTuneOfflinePlayable(tune, target, tunebook, isYoutubeLink, playbackMode) {

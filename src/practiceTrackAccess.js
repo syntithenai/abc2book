@@ -1,5 +1,6 @@
 import { getGatedActionLabel, mergeAffordanceIntoAccess, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import { getOfflineBlock } from './offlineNetwork'
 
 function getPracticeTrackBackendFromStatus(status) {
   if (!status) return null
@@ -49,16 +50,21 @@ export function getPracticeTrackAccess(context) {
   const features = opts.features || {}
   const resolverStatus = opts.resolverStatus
   const supportsPracticeTrack = resolverSupportsPracticeTrack(resolverStatus, features)
-  const loginWarning = getResolverLoginWarning(resolverStatus, normalizeAccessToken(opts.accessToken))
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
-  const hasCapability = resolverAvailable && supportsPracticeTrack
+  const offlineBlock = getOfflineBlock()
+  const needsNetwork = !!offlineBlock
+  const loginWarning = needsNetwork
+    ? offlineBlock
+    : getResolverLoginWarning(resolverStatus, normalizeAccessToken(opts.accessToken))
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
+  const hasCapability = resolverAvailable && supportsPracticeTrack && !needsNetwork
   const showButton = resolverChecked && supportsPracticeTrack && (hasCapability || needsLogin || needsCredit)
 
   return mergeAffordanceIntoAccess({
     showButton: showButton,
     needsLogin: needsLogin && showButton,
     needsCredit: needsCredit && showButton,
+    needsNetwork: needsNetwork,
     hasCapability: hasCapability,
     canGenerate: hasCapability && !needsLogin && !needsCredit,
     loginWarning: loginWarning,

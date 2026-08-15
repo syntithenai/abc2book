@@ -1,5 +1,6 @@
 import { mergeAffordanceIntoAccess, getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import { getOfflineBlock } from './offlineNetwork'
 
 function imageOcrAvailable(resolverAvailable, features) {
   return resolverAvailable && !!(features.sheetImageOcr || features.sheetImage)
@@ -136,9 +137,11 @@ export function getScratchpadAnalyseAccess(context, itemType) {
   const resolverChecked = !!opts.resolverChecked
   const resolverAvailable = !!opts.resolverAvailable
   const features = opts.features || {}
-  const loginWarning = getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
+  const loginWarning = getOfflineBlock()
+    || getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
+  const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
 
   if (!type) {
     return {
@@ -162,6 +165,7 @@ export function getScratchpadAnalyseAccess(context, itemType) {
     showOption: showOption,
     needsLogin: needsLogin && showOption,
     needsCredit: needsCredit && showOption,
+    needsNetwork: needsNetwork,
     canUse: hasUsableChoice && !needsLogin && !needsCredit,
     loginWarning: loginWarning,
     choices: (needsLogin || needsCredit) ? buildLoginPlaceholderChoices(type) : usableChoices,

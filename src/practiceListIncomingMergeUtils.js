@@ -10,6 +10,7 @@ import {
   writePracticeListsMap,
   notifyPracticeListsChanged,
 } from './practiceListStore';
+import { readLastDriveUploadSnapshot } from './driveUploadShrinkGuard';
 
 function practiceListsMapWithIds(storageMap) {
   const withIds = {};
@@ -24,11 +25,14 @@ export function preparePracticeListMergeFromAbc(abcText) {
   const localStoragePracticeLists = readPracticeListsMap();
   const localDeleted = readDeletedPracticeLists();
   const localPracticeLists = practiceListsMapWithIds(localStoragePracticeLists);
+  const lastUpload = readLastDriveUploadSnapshot() || {};
   const compared = comparePracticeLists({
     localPracticeLists: localPracticeLists,
     localDeleted: localDeleted,
     remotePracticeLists: remote.practiceLists,
     remoteDeleted: remote.deleted,
+    lastUpdatedById: lastUpload.practiceListUpdatedAtById,
+    lastDeletedAtById: lastUpload.practiceListDeletedAtById,
   });
   const hasIncoming = Object.keys(compared.inserts).length > 0
     || Object.keys(compared.updates).length > 0

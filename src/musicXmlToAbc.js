@@ -1,5 +1,6 @@
 import vertaal from './xml2abc';
 import { checkForMissingXmlHeader, isMusicXmlText } from './mxlExtract';
+import { formatVoiceMeta, parseVoiceMeta } from './notation/voiceMeta';
 
 export const DEFAULT_XML2ABC_OPTIONS = {
   u: 0,
@@ -46,15 +47,53 @@ export const MIDI_XML2ABC_OPTIONS = {
   mnum: -1,
 };
 
-const REDUNDANT_CLEF_MARKERS = [
-  '[K:treble]',
-  '[K:alto]',
-  '[K:alto1]',
-  '[K:alto2]',
-  '[K:tenor]',
-  '[K:bass]',
-  '[K:bass3]',
-];
+const VOICE_HEADER_RE = /^V:(\S+)\s*(.*)$/;
+const INLINE_VOICE_RE = /\[V:([^\s\]]+)/g;
+const INLINE_KEY_CLEF_RE = /\[K:(treble|alto1|alto2|alto|tenor|bass3|bass)\]/gi;
+
+function rewriteXml2AbcVoiceHeaders(abcText) {
+  return String(abcText || '').split('\n').map(function(line) {
+    const match = line.match(VOICE_HEADER_RE);
+    if (!match) return line;
+    const rest = String(match[2] || '').trim();
+    if (!rest) return line;
+    const formatted = formatVoiceMeta(parseVoiceMeta(rest));
+    return 'V:' + match[1] + (formatted ? ' ' + formatted : '');
+  }).join('\n');
+}
+
+function headerClefByVoice(abcText) {
+  const clefs = {};
+  String(abcText || '').split('\n').forEach(function(line) {
+    const match = line.match(VOICE_HEADER_RE);
+    if (!match) return;
+    if (!String(match[2] || '').trim()) return;
+    if (clefs[match[1]]) return;
+    clefs[match[1]] = String(parseVoiceMeta(match[2] || '').clef || '').toLowerCase();
+  });
+  return clefs;
+}
+
+function stripRedundantInlineClefs(abcText) {
+  const headerClefs = headerClefByVoice(abcText);
+  let currentVoice = Object.keys(headerClefs)[0] || '1';
+  return String(abcText || '').split('\n').map(function(line) {
+    const header = line.match(VOICE_HEADER_RE);
+    if (header) currentVoice = header[1];
+    INLINE_VOICE_RE.lastIndex = 0;
+    let voiceMatch;
+    while ((voiceMatch = INLINE_VOICE_RE.exec(line))) {
+      currentVoice = voiceMatch[1];
+    }
+    const headerClef = String(headerClefs[currentVoice] || '').toLowerCase();
+    if (!headerClef) return line;
+    INLINE_KEY_CLEF_RE.lastIndex = 0;
+    return line.replace(INLINE_KEY_CLEF_RE, function(marker, clefName) {
+      if (String(clefName || '').toLowerCase() === headerClef) return '';
+      return marker;
+    });
+  }).join('\n');
+}
 
 function titleFromFileName(fileName) {
   if (!fileName) {
@@ -79,10 +118,8 @@ function parseXmlDocument(musicXmlText) {
 }
 
 function applyPostConversionCleanup(abcText, fileName, options) {
-  let abc = abcText || '';
-  REDUNDANT_CLEF_MARKERS.forEach(function(marker) {
-    abc = abc.split(marker).join('');
-  });
+  let abc = rewriteXml2AbcVoiceHeaders(abcText || '');
+  abc = stripRedundantInlineClefs(abc);
 
   if (options.addq === 1 && abc.indexOf('\nQ:') === -1 && abc.indexOf('Q:') !== 0) {
     const tempo = options.q || 100;

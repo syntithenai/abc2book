@@ -24,4 +24,10 @@ describe('tuneLinkUri', function() {
     })).toBe(RECORDING_LINK_PREFIX + 'rec2');
     expect(linkUriString(null)).toBe('');
   });
+
+  test('linkUriString repairs doubled Bandcamp origins', function() {
+    expect(linkUriString({
+      link: 'https://altan.bandcamp.comhttps://altan.bandcamp.com/track/the-sally-gardens',
+    })).toBe('https://altan.bandcamp.com/track/the-sally-gardens');
+  });
 });

@@ -1,6 +1,7 @@
 import { isMassDeleteBatch } from './incomingMergeUtils'
 
 export const LAST_DRIVE_UPLOAD_STORAGE_KEY = 'bookstorage_last_drive_upload'
+export const DRIVE_UPLOAD_ECHO_PAUSE_MS = 10000
 
 const SAMPLE_LIMIT = 12
 
@@ -8,6 +9,80 @@ function tuneDisplayName(tune, id) {
   if (!tune) return id || '(untitled)'
   const name = String(tune.name || tune.title || '').trim()
   return name || id || '(untitled)'
+}
+
+function toMs(ts) {
+  return parseInt(ts, 10) || 0
+}
+
+function mapMsById(records, tsKey) {
+  const out = {}
+  Object.keys(records || {}).forEach(function(id) {
+    const rec = records[id]
+    if (!rec) return
+    const ms = toMs(rec[tsKey])
+    if (ms > 0) out[String(id)] = ms
+  })
+  return out
+}
+
+function readMsMap(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return {}
+  const out = {}
+  Object.keys(raw).forEach(function(id) {
+    const ms = toMs(raw[id])
+    if (ms > 0) out[String(id)] = ms
+  })
+  return out
+}
+
+/** Stable numeric hash of ABC text for identical-echo skips. */
+export function hashDriveAbc(abcText) {
+  const str = abcText == null ? '' : String(abcText)
+  let h1 = 0xdeadbeef
+  let h2 = 0x41c6ce57
+  for (let i = 0; i < str.length; i++) {
+    const ch = str.charCodeAt(i)
+    h1 = Math.imul(h1 ^ ch, 2654435761)
+    h2 = Math.imul(h2 ^ ch, 1597334677)
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909)
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909)
+  return String(4294967296 * (2097151 & h2) + (h1 >>> 0))
+}
+
+export function isLastDriveUploadAbcEcho(abcText) {
+  const snap = readLastDriveUploadSnapshot()
+  if (!snap || !snap.abcHash) return false
+  return snap.abcHash === hashDriveAbc(abcText)
+}
+
+/**
+ * Pause Drive change polling around an upload, then resume after the echo window.
+ * `pauseRef` is the same ref passed to useGoogleDocument as pausePolling.
+ */
+export function createDrivePollPauseController(pauseRef, delayMs) {
+  var timer = null
+  var delay = typeof delayMs === 'number' ? delayMs : DRIVE_UPLOAD_ECHO_PAUSE_MS
+  return {
+    pause: function() {
+      if (pauseRef) pauseRef.current = true
+    },
+    resumeNow: function() {
+      if (timer) {
+        clearTimeout(timer)
+        timer = null
+      }
+      if (pauseRef) pauseRef.current = false
+    },
+    resumeAfterEcho: function() {
+      if (timer) clearTimeout(timer)
+      timer = setTimeout(function() {
+        timer = null
+        if (pauseRef) pauseRef.current = false
+      }, delay)
+    },
+  }
 }
 
 export function readLastDriveUploadSnapshot() {
@@ -23,13 +98,23 @@ export function readLastDriveUploadSnapshot() {
       ids: ids,
       names: names,
       savedAt: parsed.savedAt || null,
+      abcHash: parsed.abcHash ? String(parsed.abcHash) : null,
+      lastUpdatedById: readMsMap(parsed.lastUpdatedById),
+      deletedAtById: readMsMap(parsed.deletedAtById),
+      playlistUpdatedAtById: readMsMap(parsed.playlistUpdatedAtById),
+      playlistDeletedAtById: readMsMap(parsed.playlistDeletedAtById),
+      setUpdatedAtById: readMsMap(parsed.setUpdatedAtById),
+      setDeletedAtById: readMsMap(parsed.setDeletedAtById),
+      practiceListUpdatedAtById: readMsMap(parsed.practiceListUpdatedAtById),
+      practiceListDeletedAtById: readMsMap(parsed.practiceListDeletedAtById),
     }
   } catch (e) {
     return null
   }
 }
 
-export function writeLastDriveUploadSnapshot(tunes) {
+export function writeLastDriveUploadSnapshot(tunes, extras) {
+  const extra = extras || {}
   const map = tunes || {}
   const ids = Object.keys(map)
   const names = {}
@@ -41,6 +126,19 @@ export function writeLastDriveUploadSnapshot(tunes) {
     ids: ids,
     names: names,
     savedAt: Date.now(),
+    lastUpdatedById: mapMsById(map, 'lastUpdated'),
+    deletedAtById: mapMsById(extra.deletedTunes, 'deletedAt'),
+    playlistUpdatedAtById: mapMsById(extra.playlists, 'updatedAt'),
+    playlistDeletedAtById: mapMsById(extra.deletedPlaylists, 'deletedAt'),
+    setUpdatedAtById: mapMsById(extra.performanceSets, 'updatedAt'),
+    setDeletedAtById: mapMsById(extra.deletedPerformanceSets, 'deletedAt'),
+    practiceListUpdatedAtById: mapMsById(extra.practiceLists, 'updatedAt'),
+    practiceListDeletedAtById: mapMsById(extra.deletedPracticeLists, 'deletedAt'),
+  }
+  if (extra.abcHash != null && extra.abcHash !== '') {
+    snapshot.abcHash = String(extra.abcHash)
+  } else if (typeof extra.abc === 'string') {
+    snapshot.abcHash = hashDriveAbc(extra.abc)
   }
   try {
     localStorage.setItem(LAST_DRIVE_UPLOAD_STORAGE_KEY, JSON.stringify(snapshot))

@@ -1,5 +1,9 @@
 import {
   buildDriveUploadShrinkWarning,
+  createDrivePollPauseController,
+  DRIVE_UPLOAD_ECHO_PAUSE_MS,
+  hashDriveAbc,
+  isLastDriveUploadAbcEcho,
   readLastDriveUploadSnapshot,
   writeLastDriveUploadSnapshot,
   shouldConfirmDriveUploadShrink,
@@ -19,6 +23,61 @@ describe('driveUploadShrinkGuard', function() {
     expect(snap.count).toBe(2)
     expect(snap.ids.sort()).toEqual(['a', 'b'])
     expect(snap.names.a).toBe('Alpha')
+  })
+
+  test('stores per-id timestamps and ABC hash', function() {
+    writeLastDriveUploadSnapshot(
+      { a: { id: 'a', name: 'Alpha', lastUpdated: 111 } },
+      {
+        deletedTunes: { b: { id: 'b', deletedAt: 222 } },
+        playlists: { p1: { updatedAt: 333 } },
+        deletedPlaylists: { p2: { deletedAt: 444 } },
+        performanceSets: { s1: { updatedAt: 555 } },
+        deletedPerformanceSets: { s2: { deletedAt: 666 } },
+        practiceLists: { l1: { updatedAt: 777 } },
+        deletedPracticeLists: { l2: { deletedAt: 888 } },
+        abc: 'X:1\nT:Alpha\n',
+      }
+    )
+    const snap = readLastDriveUploadSnapshot()
+    expect(snap.lastUpdatedById.a).toBe(111)
+    expect(snap.deletedAtById.b).toBe(222)
+    expect(snap.playlistUpdatedAtById.p1).toBe(333)
+    expect(snap.playlistDeletedAtById.p2).toBe(444)
+    expect(snap.setUpdatedAtById.s1).toBe(555)
+    expect(snap.setDeletedAtById.s2).toBe(666)
+    expect(snap.practiceListUpdatedAtById.l1).toBe(777)
+    expect(snap.practiceListDeletedAtById.l2).toBe(888)
+    expect(snap.abcHash).toBe(hashDriveAbc('X:1\nT:Alpha\n'))
+    expect(isLastDriveUploadAbcEcho('X:1\nT:Alpha\n')).toBe(true)
+    expect(isLastDriveUploadAbcEcho('X:1\nT:Other\n')).toBe(false)
+  })
+
+  test('resumeAfterEcho does not unpause immediately', function() {
+    jest.useFakeTimers()
+    const pauseRef = { current: false }
+    const controller = createDrivePollPauseController(pauseRef, DRIVE_UPLOAD_ECHO_PAUSE_MS)
+    controller.pause()
+    expect(pauseRef.current).toBe(true)
+    controller.resumeAfterEcho()
+    expect(pauseRef.current).toBe(true)
+    jest.advanceTimersByTime(DRIVE_UPLOAD_ECHO_PAUSE_MS - 1)
+    expect(pauseRef.current).toBe(true)
+    jest.advanceTimersByTime(1)
+    expect(pauseRef.current).toBe(false)
+    jest.useRealTimers()
+  })
+
+  test('resumeNow unpauses without waiting', function() {
+    jest.useFakeTimers()
+    const pauseRef = { current: true }
+    const controller = createDrivePollPauseController(pauseRef, DRIVE_UPLOAD_ECHO_PAUSE_MS)
+    controller.resumeAfterEcho()
+    controller.resumeNow()
+    expect(pauseRef.current).toBe(false)
+    jest.advanceTimersByTime(DRIVE_UPLOAD_ECHO_PAUSE_MS)
+    expect(pauseRef.current).toBe(false)
+    jest.useRealTimers()
   })
 
   test('no warning when shrink is small', function() {

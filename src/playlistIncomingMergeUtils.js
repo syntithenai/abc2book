@@ -12,6 +12,7 @@ import {
   mergeDeletedPlaylistMaps,
   parsePlaylistsFromAbc,
 } from './playlistSync';
+import { readLastDriveUploadSnapshot } from './driveUploadShrinkGuard';
 import {
   readDeletedPlaylists,
   readPlaylistsMap,
@@ -115,11 +116,14 @@ export function preparePlaylistMergeFromAbc(abcText, tunesById) {
   const localStoragePlaylists = readPlaylistsMap();
   const localDeleted = readDeletedPlaylists();
   const localPlaylists = playlistsMapWithIds(localStoragePlaylists);
+  const lastUpload = readLastDriveUploadSnapshot() || {};
   const compared = comparePlaylists({
     localPlaylists: localPlaylists,
     localDeleted: localDeleted,
     remotePlaylists: remote.playlists,
     remoteDeleted: remote.deleted,
+    lastUpdatedById: lastUpload.playlistUpdatedAtById,
+    lastDeletedAtById: lastUpload.playlistDeletedAtById,
   });
   const records = buildPlaylistMergeRecords(compared);
   const hasIncoming = records.length > 0;

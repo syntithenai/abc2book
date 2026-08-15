@@ -46,7 +46,7 @@ describe('chordSheetImportUtils', function() {
       '[Verse 2]',
       'G C G',
       'I once was lost but now am found,',
-    ])).toBe('G C G|\nG D G|\n\nG C G|')
+    ])).toBe('G C G | G D G |\n\nG C G |')
   })
 
   test('sheetLinesToLyricLines preserves headers and blanks', function() {
@@ -84,7 +84,7 @@ describe('chordsSearchClient', function() {
       artist: 'John Newton',
     })
 
-    expect(result.chordText).toBe('G C G|\nG D G|')
+    expect(result.chordText).toBe('G C G | G D G |')
     expect(result.lyricLines).toEqual([
       '[Verse 1]',
       'Amazing Grace, how sweet the sound,',
@@ -168,7 +168,7 @@ describe('chordsSearchClient', function() {
         source: 'azchords.com',
       },
     }, function() {})
-    expect(result.chordText).toBe('G C G|')
+    expect(result.chordText).toBe('G C G |')
     expect(result.source).toBe('azchords.com')
   })
 
@@ -223,7 +223,7 @@ describe('chordsSearchClient', function() {
       const result = await searchChordsViaResolver({ title: 'Amazing Grace' })
 
       expect(searchChordsLight).not.toHaveBeenCalled()
-      expect(result.chordText).toBe('G C G|')
+      expect(result.chordText).toBe('G C G |')
     })
   })
 })

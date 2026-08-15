@@ -35,6 +35,7 @@ import {
   stampSrcUrlOnImportResults,
 } from '../syncSourceImportUtils'
 import { buildGoogleDocUrl } from '../syncSourcesStore'
+import { OFFLINE_MESSAGE } from '../offlineNetwork'
 import {
   consumeFreshLoadAborted,
   isOffline,
@@ -100,6 +101,11 @@ export default function ImportGoogleDocumentPage({
       return
     }
     if (!accessToken) return
+    if (isOffline()) {
+      setLoading(false)
+      setError(OFFLINE_MESSAGE)
+      return
+    }
 
     var cancelled = false
     setLoading(true)

@@ -812,28 +812,41 @@ def has_strong_notation_match(candidates, title, artist):
 
 
 def _candidate_has_usable_payload(candidate):
-    abc = str((candidate or {}).get("abc") or "").strip()
+    item = candidate or {}
+    abc = str(item.get("abc") or "").strip()
     if abc and "K:" in abc:
         return True
-    music_xml = str((candidate or {}).get("musicXml") or "").strip()
+    music_xml = str(item.get("musicXml") or "").strip()
     if music_xml:
         return True
-    pdf_attachment = (candidate or {}).get("pdfAttachment")
-    return isinstance(pdf_attachment, dict) and bool(pdf_attachment.get("downloadUrl"))
+    pdf_attachment = item.get("pdfAttachment")
+    if isinstance(pdf_attachment, dict) and bool(pdf_attachment.get("downloadUrl")):
+        return True
+    if str(item.get("midiBytes") or "").strip():
+        return True
+    import_format = _candidate_import_format(item)
+    if import_format == "midi":
+        return bool(str(item.get("sourceUrl") or "").strip())
+    return False
 
 
 def _candidate_import_format(candidate):
-    meta = (candidate or {}).get("tuneMeta") or {}
+    item = candidate or {}
+    if item.get("importFormat"):
+        return str(item.get("importFormat"))
+    if str(item.get("midiBytes") or "").strip():
+        return "midi"
+    meta = item.get("tuneMeta") or {}
     if isinstance(meta, dict):
         nested = meta.get("meta") or {}
         if isinstance(nested, dict) and nested.get("importFormat"):
             return str(nested.get("importFormat"))
-    source = str((candidate or {}).get("source") or "").lower()
+    source = str(item.get("source") or "").lower()
     if source == "musescore.com":
         return "musescore"
-    if (candidate or {}).get("pdfAttachment") and not str((candidate or {}).get("musicXml") or "").strip():
+    if item.get("pdfAttachment") and not str(item.get("musicXml") or "").strip():
         return "pdf"
-    if (candidate or {}).get("musicXml") and not str((candidate or {}).get("abc") or "").strip():
+    if item.get("musicXml") and not str(item.get("abc") or "").strip():
         return "musicxml"
     return "abc"
 
@@ -959,6 +972,9 @@ def finalize_notation_candidates(candidates, title, artist, relax_midi=False, so
         base = notation_candidate_score(candidate, title, artist)
         import_format = _candidate_import_format(candidate)
         is_midi = import_format == "midi"
+        if is_midi and _candidate_is_local_midi(candidate):
+            preserved = int(candidate.get("matchScore") or 0)
+            base = max(base, preserved)
         is_pdf = import_format == "pdf"
         is_muse = (
             import_format in ("musescore", "musicxml")
@@ -989,12 +1005,31 @@ def finalize_notation_candidates(candidates, title, artist, relax_midi=False, so
     if filtered:
         return filtered[:MAX_NOTATION_CANDIDATES]
 
+    def _midi_base_score(candidate):
+        base = notation_candidate_score(candidate, title, artist)
+        if _candidate_import_format(candidate) == "midi" and _candidate_is_local_midi(candidate):
+            base = max(base, int(candidate.get("matchScore") or 0))
+        return base
+
+    def _above_source_floor(candidate):
+        import_format = _candidate_import_format(candidate)
+        base = _midi_base_score(candidate)
+        if import_format == "midi":
+            return base >= min_midi_score
+        if import_format == "pdf":
+            return base >= MIN_PDF_BASE_SCORE
+        return True
+
+    usable_for_fallback = [candidate for candidate in usable if _above_source_floor(candidate)]
+    if not usable_for_fallback:
+        return []
+
     # Prefer MuseScore MusicXML, then any MusicXML/MIDI, then any usable.
     def score_fallback(candidate):
         return notation_priority_score(candidate, title, artist, song_type=song_type)
 
     muse = [
-        candidate for candidate in usable
+        candidate for candidate in usable_for_fallback
         if str(candidate.get("source") or "").lower() == "musescore.com"
         or _candidate_import_format(candidate) in ("musescore", "musicxml")
     ]
@@ -1007,10 +1042,10 @@ def finalize_notation_candidates(candidates, title, artist, relax_midi=False, so
         return muse_scored[:MAX_NOTATION_CANDIDATES]
 
     alt = [
-        candidate for candidate in usable
+        candidate for candidate in usable_for_fallback
         if str(candidate.get("musicXml") or "").strip()
     ]
-    pool = alt if alt else usable
+    pool = alt if alt else usable_for_fallback
     scored = [
         _with_match_score(candidate, score_fallback(candidate))
         for candidate in pool
@@ -1351,7 +1386,7 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             openscore_result,
             musicalion_result,
         )
-        candidates = dedupe_candidates(
+        pooled = dedupe_candidates(
             list(session_candidates)
             + _collector_results_or_empty(web_result)
             + _collector_results_or_empty(muse_result)
@@ -1363,7 +1398,7 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             + _collector_results_or_empty(w3c_result)
         )
         candidates = finalize_notation_candidates(
-            candidates,
+            pooled,
             title,
             artist,
             song_type=song_type,
@@ -1392,6 +1427,15 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
                 )
                 if boosted:
                     candidates = boosted
+
+        if not candidates:
+            candidates = finalize_notation_candidates(
+                pooled,
+                title,
+                artist,
+                relax_midi=True,
+                song_type=song_type,
+            )
 
         if not candidates:
             midi_fallback = await _last_chance_midi_candidates(

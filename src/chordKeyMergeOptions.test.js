@@ -3,6 +3,7 @@ import {
   buildImportKeyChordSuggestions,
   inferKeyFromChordGrid,
   transposeChordGridText,
+  applyChordDisplayTranspose,
 } from './chordKeyMergeOptions'
 
 describe('chordKeyMergeOptions', function() {
@@ -83,5 +84,10 @@ describe('chordKeyMergeOptions', function() {
     expect(out).toContain('# Bridge')
     expect(out).toContain('[M:3/4]')
     expect(out).toContain('.')
+  })
+
+  test('applyChordDisplayTranspose spells chords in the transposed key', function() {
+    expect(applyChordDisplayTranspose('C | G |', 2, 'C')).toMatch(/D\s*\|\s*A/)
+    expect(applyChordDisplayTranspose('C | G |', 0, 'C')).toBe('C | G |')
   })
 })

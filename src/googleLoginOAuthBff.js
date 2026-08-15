@@ -1,4 +1,5 @@
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
+import { isNavigatorOffline } from './offlineNetwork'
 import {
   normalizeToTokenResponse,
   mergeScopeStrings,
@@ -102,6 +103,10 @@ export function createOAuthBffController(ctx) {
     clearTimeout(loginRefreshTimeout)
     // Renew at 90% of lifetime for silent BFF refresh.
     loginRefreshTimeout = setTimeout(function() {
+      if (isNavigatorOffline()) {
+        scheduleRenew(tokenResponse)
+        return
+      }
       silentRefresh().catch(function() {})
     }, Math.floor(tokenResponse.expires_in * 900))
   }
@@ -409,6 +414,7 @@ export function createOAuthBffController(ctx) {
   }
 
   function silentRefresh() {
+    if (isNavigatorOffline()) return Promise.resolve(null)
     if (refreshInFlight) return refreshInFlight
     if (refreshBackoffUntil > Date.now()) {
       return Promise.resolve(null)

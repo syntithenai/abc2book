@@ -14,6 +14,7 @@ import {
   buildImportLinkNavigateAfterImport,
   handleImportNavigation,
 } from '../shareImportNavigation'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 
 const IMPORT_SOURCE_TIMEOUT_MS = 30000
 const RESOLVER_HINT = 'Start the local resolver with `npm run start:resolver` (or `cd local-resolver && docker compose up`).'
@@ -89,6 +90,10 @@ export default function ImportLinkPage({
     if (!tunesHydrated) {
       return
     }
+    if (isNavigatorOffline()) {
+      setError(OFFLINE_MESSAGE)
+      return
+    }
     const sourceUrl = resolveImportSourceUrl(params.link)
     axios.get(sourceUrl, { timeout: IMPORT_SOURCE_TIMEOUT_MS }).then(function(res) {
       if (res.data && looksLikeAbc(res.data)) {
@@ -138,7 +143,7 @@ export default function ImportLinkPage({
       if (e && e.code === 'ECONNABORTED') {
         setError('Timed out loading import source. ' + RESOLVER_HINT)
       } else if (e && (e.code === 'ECONNREFUSED' || e.message === 'Network Error')) {
-        setError('Cannot reach the local resolver. ' + RESOLVER_HINT)
+        setError(isNavigatorOffline() ? OFFLINE_MESSAGE : ('Cannot reach the local resolver. ' + RESOLVER_HINT))
       } else {
         setError('Error loading import source')
       }

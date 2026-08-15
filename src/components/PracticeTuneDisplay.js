@@ -254,6 +254,7 @@ export default function PracticeTuneDisplay(props) {
         chords={structureChordChart}
         tune={tune}
         melodyNoteLines={structureMelodyNoteLines}
+        chordTranspose={chordTranspose}
         fitHeight={structureFitHeight}
         fitHeightGrow={structureFitHeightGrow}
         showCapoControl={true}

@@ -94,5 +94,6 @@ export function notationSourceBadgeLabel(source) {
   if (value === 'josquin.stanford.edu') return 'Josquin'
   if (value === 'musicalion.com') return 'Musicalion'
   if (value === 'musicxml.com') return 'MusicXML'
+  if (value === 'midi-resources') return 'Local MIDI'
   return source
 }

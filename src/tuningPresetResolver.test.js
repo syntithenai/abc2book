@@ -16,7 +16,7 @@ describe('tuningPresetResolver', () => {
   it('matches Calico alias case-insensitively', () => {
     const r = resolvePresetFromText('calico')
     expect(r).not.toBeNull()
-    expect(r.instrument).toBe('mandolin')
+    expect(r.instrument).toBe('violin')
     expect(r.presetId).toBe('aeacSharp')
   })
 

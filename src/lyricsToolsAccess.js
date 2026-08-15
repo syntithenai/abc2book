@@ -3,6 +3,7 @@ import {
   isMediaProxyConfigured,
   normalizeAccessToken,
 } from './mediaProxyClient'
+import { OFFLINE_MESSAGE, getOfflineBlock } from './offlineNetwork'
 
 function authBlockedCandidates(resolverStatus) {
   const candidates = (resolverStatus && resolverStatus.candidates) || []
@@ -43,6 +44,20 @@ export function getLyricsToolsAccess(context) {
   const opts = context || {}
   const token = normalizeAccessToken(opts.accessToken)
   const warming = isLyricsToolsAuthWarming(token)
+  const offlineBlock = getOfflineBlock()
+
+  if (offlineBlock) {
+    return {
+      warming: false,
+      ready: false,
+      needsLogin: false,
+      needsCredit: false,
+      needsNetwork: true,
+      loginWarning: offlineBlock,
+      unreachable: true,
+      unreachableMessage: OFFLINE_MESSAGE,
+    }
+  }
 
   if (!isMediaProxyConfigured()) {
     return {

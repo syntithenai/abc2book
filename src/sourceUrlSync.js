@@ -12,6 +12,7 @@ import {
   tuneMatchesSourceFilters,
   updateSyncSourceMeta,
 } from './syncSourcesStore';
+import { isNavigatorOffline } from './offlineNetwork';
 
 const POLL_MS = 10 * 60 * 1000;
 
@@ -254,6 +255,7 @@ export function startSourceUrlPolling(options) {
   let timer = null;
 
   async function tick() {
+    if (isNavigatorOffline()) return;
     if (typeof opts.onPoll !== 'function') return;
     try {
       await opts.onPoll();

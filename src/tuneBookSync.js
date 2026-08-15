@@ -48,6 +48,13 @@ export function toTuneUpdatedMs(ts) {
   return parseInt(ts, 10) || 0
 }
 
+/** Local clock for Drive compare: never older than this browser's last upload. */
+export function effectiveLocalUpdatedMs(localTs, uploadedTs) {
+  const local = toTuneUpdatedMs(localTs)
+  const uploaded = toTuneUpdatedMs(uploadedTs)
+  return local > uploaded ? local : uploaded
+}
+
 export function isIncomingTuneNewer(localTune, incomingTune) {
   if (!incomingTune) return false
   if (!localTune) return true
@@ -73,7 +80,14 @@ export function isLocallyDeletedTune(deletedTunes, tuneId, incomingLastUpdated) 
  * Classify differences between local state and remote/imported ABC content.
  * Returns buckets used by merge and import warning UIs.
  */
-export function compareTuneBooks({ localTunes, localDeleted, remoteTunes, remoteDeleted }) {
+export function compareTuneBooks({
+  localTunes,
+  localDeleted,
+  remoteTunes,
+  remoteDeleted,
+  lastUpdatedById,
+  lastDeletedAtById,
+}) {
   const inserts = {}
   const updates = {}
   const deletes = {}
@@ -82,6 +96,8 @@ export function compareTuneBooks({ localTunes, localDeleted, remoteTunes, remote
 
   const localDel = localDeleted || {}
   const remoteDel = remoteDeleted || {}
+  const uploadedUpdated = lastUpdatedById || {}
+  const uploadedDeleted = lastDeletedAtById || {}
   const remoteActiveIds = {}
 
   Object.values(remoteTunes || {}).forEach(function(remoteTune) {
@@ -93,11 +109,16 @@ export function compareTuneBooks({ localTunes, localDeleted, remoteTunes, remote
     const localTomb = localDel[id]
     const remoteTomb = remoteDel[id]
     const remoteTuneAt = toMs(remoteTune.lastUpdated)
-    const localTuneAt = localTune ? toMs(localTune.lastUpdated) : 0
+    const uploadedTuneAt = toMs(uploadedUpdated[id])
+    const uploadedDeletedAt = toMs(uploadedDeleted[id])
+    const localTuneAt = effectiveLocalUpdatedMs(localTune && localTune.lastUpdated, uploadedTuneAt)
     const localTombAt = localTomb ? toMs(localTomb.deletedAt) : 0
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0
 
     if (tombstoneWinsOverTune(remoteTombAt, localTuneAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return
+      }
       if (localTune) {
         deletes[id] = Object.assign({}, localTune, { name: localTune.name || (remoteTomb && remoteTomb.name) })
       }
@@ -115,7 +136,7 @@ export function compareTuneBooks({ localTunes, localDeleted, remoteTunes, remote
       } else if (remoteTuneAt < localTuneAt) {
         if (hasFieldDiff) localUpdates[id] = [remoteTune, localTune]
       }
-    } else {
+    } else if (!(uploadedTuneAt > 0 && remoteTuneAt <= uploadedTuneAt)) {
       inserts[id] = remoteTune
     }
   })
@@ -126,9 +147,14 @@ export function compareTuneBooks({ localTunes, localDeleted, remoteTunes, remote
     const localTune = localTunes[tuneId]
     const remoteTomb = remoteDel[tuneId]
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0
-    const localTuneAt = toMs(localTune.lastUpdated)
+    const uploadedTuneAt = toMs(uploadedUpdated[tuneId])
+    const uploadedDeletedAt = toMs(uploadedDeleted[tuneId])
+    const localTuneAt = effectiveLocalUpdatedMs(localTune && localTune.lastUpdated, uploadedTuneAt)
 
     if (tombstoneWinsOverTune(remoteTombAt, localTuneAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return
+      }
       deletes[tuneId] = Object.assign({}, localTune, { name: localTune.name || (remoteTomb && remoteTomb.name) })
       return
     }

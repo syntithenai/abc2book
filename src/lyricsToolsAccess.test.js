@@ -100,4 +100,30 @@ describe('lyricsToolsAccess', function() {
     expect(access.needsLogin).toBe(true)
     expect(access.unreachable).toBe(false)
   })
+
+  test('needsNetwork when offline instead of login', function() {
+    const originalOnLine = navigator.onLine
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    try {
+      const access = getLyricsToolsAccess({
+        resolverChecked: true,
+        resolverAvailable: false,
+        resolverStatus: {
+          available: false,
+          candidates: [{
+            reachable: true,
+            requireAuth: true,
+            available: false,
+            authReason: 'login_required',
+          }],
+        },
+        accessToken: '',
+      })
+      expect(access.needsLogin).toBe(false)
+      expect(access.needsNetwork).toBe(true)
+      expect(access.unreachableMessage).toMatch(/internet connection/i)
+    } finally {
+      Object.defineProperty(navigator, 'onLine', { configurable: true, value: originalOnLine })
+    }
+  })
 })

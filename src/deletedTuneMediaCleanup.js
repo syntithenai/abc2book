@@ -6,9 +6,10 @@ import {
   clearAudioCacheForTuneIds,
   clearStemCacheForTuneIds,
   clearMidiCacheForTuneIds,
+  clearExternalMediaCacheForTuneIdAndSrcs,
 } from './mediaCacheStorage'
 import { clearTimedMediaDraft } from './timedMediaCache'
-import { removeJobsForTuneIds } from './mediaCacheQueue'
+import { removeJobsForTuneIds, removeJobsForTuneIdAndSrcs } from './mediaCacheQueue'
 
 function normalizeTuneIds(tuneIds) {
   const ids = []
@@ -39,6 +40,13 @@ export function clearCachedMediaForDeletedTuneIds(tuneIds) {
 
   removeJobsForTuneIds(ids)
 
+  try {
+    const backup = require('./mediaCacheDriveBackup')
+    if (backup && typeof backup.enqueueCachedMediaDriveDeletesForTuneIds === 'function') {
+      Promise.resolve(backup.enqueueCachedMediaDriveDeletesForTuneIds(ids)).catch(function() {})
+    }
+  } catch (e) {}
+
   return Promise.all([
     clearAudioCacheForTuneIds(ids),
     clearStemCacheForTuneIds(ids),
@@ -53,4 +61,34 @@ export function clearCachedMediaForDeletedTuneIds(tuneIds) {
       midi: results[2] || { removed: 0 },
     }
   })
+}
+
+/**
+ * Clear local cache and this account's CachedMedia Drive copies for removed link URIs.
+ */
+export function clearCachedMediaForRemovedLinkSrcs(tuneId, srcs) {
+  const id = tuneId == null ? '' : String(tuneId)
+  const list = []
+  const seen = {}
+  ;(srcs || []).forEach(function(src) {
+    if (!src) return
+    const key = String(src)
+    if (seen[key]) return
+    seen[key] = true
+    list.push(key)
+  })
+  if (!id || !list.length) {
+    return Promise.resolve({ removed: 0 })
+  }
+
+  removeJobsForTuneIdAndSrcs(id, list)
+
+  try {
+    const backup = require('./mediaCacheDriveBackup')
+    if (backup && typeof backup.enqueueCachedMediaDriveDeletesForSrcs === 'function') {
+      Promise.resolve(backup.enqueueCachedMediaDriveDeletesForSrcs(id, list)).catch(function() {})
+    }
+  } catch (e) {}
+
+  return clearExternalMediaCacheForTuneIdAndSrcs(id, list)
 }

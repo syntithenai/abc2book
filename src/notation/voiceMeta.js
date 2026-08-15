@@ -19,9 +19,17 @@ const CLEF_TOKEN_RE = /^clef=(.+)$/i;
 const MIDI_PROGRAM_RE = /^%%MIDI\s+program\s+(\d+)\b/i;
 const ATTR_TOKEN_RE = /^[a-zA-Z][\w-]*=/;
 
+/** xml2abc also emits these as bare V: tokens (abcm2ps shorthand). */
+const BARE_CLEF_TOKENS = new Set(VOICE_CLEFS.concat(['alto1', 'alto2', 'bass3']));
+
+function isBareClefToken(token) {
+  return BARE_CLEF_TOKENS.has(String(token || '').toLowerCase());
+}
+
 /**
  * Parse free-form ABC V: metadata into structured fields.
  * Example: `Piano clef=bass stem=up` → { name: 'Piano', clef: 'bass', extra: 'stem=up' }
+ * xml2abc shorthand `bass nm="Piano"` is treated as clef=bass, not a voice named bass.
  */
 const NM_ATTR_RE = /^nm=(?:"([^"]*)"|'([^']*)')$/i;
 
@@ -37,6 +45,9 @@ export function parseVoiceMeta(metaStr) {
     };
   }
   const tokens = String(metaStr || '').trim().split(/\s+/).filter(Boolean);
+  const hasClefAttr = tokens.some(function(token) {
+    return CLEF_TOKEN_RE.test(token);
+  });
   let clef = DEFAULT_VOICE_CLEF;
   let nmName = '';
   const nameParts = [];
@@ -50,6 +61,10 @@ export function parseVoiceMeta(metaStr) {
     const nmMatch = token.match(NM_ATTR_RE);
     if (nmMatch) {
       nmName = (nmMatch[1] != null ? nmMatch[1] : nmMatch[2]) || '';
+      return;
+    }
+    if (!hasClefAttr && isBareClefToken(token)) {
+      clef = token.toLowerCase();
       return;
     }
     if (ATTR_TOKEN_RE.test(token) || /^nm=/i.test(token)) {

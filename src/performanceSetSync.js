@@ -1,5 +1,6 @@
 import {
   createTombstone,
+  effectiveLocalUpdatedMs,
   mergeDeletedTuneMaps,
 } from './tuneBookSync';
 import { performanceSetPairHasDifferingFields } from './performanceSetMergeUtils';
@@ -211,7 +212,14 @@ export function stripPerformanceSetLines(abcText) {
   }).join('\n');
 }
 
-export function comparePerformanceSets({ localSets, localDeleted, remoteSets, remoteDeleted }) {
+export function comparePerformanceSets({
+  localSets,
+  localDeleted,
+  remoteSets,
+  remoteDeleted,
+  lastUpdatedById,
+  lastDeletedAtById,
+}) {
   const inserts = {};
   const updates = {};
   const deletes = {};
@@ -220,6 +228,8 @@ export function comparePerformanceSets({ localSets, localDeleted, remoteSets, re
 
   const localDel = localDeleted || {};
   const remoteDel = remoteDeleted || {};
+  const uploadedUpdated = lastUpdatedById || {};
+  const uploadedDeleted = lastDeletedAtById || {};
   const remoteActiveIds = {};
 
   Object.values(remoteSets || {}).forEach(function(remoteSet) {
@@ -231,11 +241,16 @@ export function comparePerformanceSets({ localSets, localDeleted, remoteSets, re
     const localTomb = localDel[id];
     const remoteTomb = remoteDel[id];
     const remoteSetAt = toMs(remoteSet.updatedAt);
-    const localSetAt = localSet ? toMs(localSet.updatedAt) : 0;
+    const uploadedAt = toMs(uploadedUpdated[id]);
+    const uploadedDeletedAt = toMs(uploadedDeleted[id]);
+    const localSetAt = effectiveLocalUpdatedMs(localSet && localSet.updatedAt, uploadedAt);
     const localTombAt = localTomb ? toMs(localTomb.deletedAt) : 0;
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0;
 
     if (tombstoneWinsOverSet(remoteTombAt, localSetAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return;
+      }
       if (localSet) {
         deletes[id] = Object.assign({ id: id }, localSet, { name: setDisplayName(localSet) });
       }
@@ -253,7 +268,7 @@ export function comparePerformanceSets({ localSets, localDeleted, remoteSets, re
       } else if (remoteSetAt < localSetAt) {
         if (hasFieldDiff) localUpdates[id] = [remoteSet, localSet];
       }
-    } else {
+    } else if (!(uploadedAt > 0 && remoteSetAt <= uploadedAt)) {
       inserts[id] = remoteSet;
     }
   });
@@ -264,9 +279,14 @@ export function comparePerformanceSets({ localSets, localDeleted, remoteSets, re
     const localSet = localSets[setId];
     const remoteTomb = remoteDel[setId];
     const remoteTombAt = remoteTomb ? toMs(remoteTomb.deletedAt) : 0;
-    const localSetAt = toMs(localSet.updatedAt);
+    const uploadedAt = toMs(uploadedUpdated[setId]);
+    const uploadedDeletedAt = toMs(uploadedDeleted[setId]);
+    const localSetAt = effectiveLocalUpdatedMs(localSet && localSet.updatedAt, uploadedAt);
 
     if (tombstoneWinsOverSet(remoteTombAt, localSetAt)) {
+      if (uploadedDeletedAt > 0 && remoteTombAt <= uploadedDeletedAt) {
+        return;
+      }
       deletes[setId] = Object.assign({ id: setId }, localSet, { name: setDisplayName(localSet) });
       return;
     }

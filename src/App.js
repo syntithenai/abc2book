@@ -64,6 +64,7 @@ import useTextSearchIndex from './useTextSearchIndex'
 import useGoogleLogin from './useGoogleLogin' 
 import useAudioAnalysisLoginSync from './useAudioAnalysisLoginSync'
 import useScratchpadLoginSync from './useScratchpadLoginSync'
+import useMediaCacheDriveBackupSync from './useMediaCacheDriveBackupSync'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 import NowPlayingHost from './components/NowPlayingHost'
@@ -76,6 +77,7 @@ import DriveUploadShrinkConfirmModal from './components/DriveUploadShrinkConfirm
 import {
   readLastDriveUploadSnapshot,
   writeLastDriveUploadSnapshot,
+  isLastDriveUploadAbcEcho,
 } from './driveUploadShrinkGuard'
 import LinksEditorModal from './components/LinksEditorModal'
 import { getViewedTuneIdFromPath, shouldShowPlaylistTransportBar } from './playbackNavigationUtils'
@@ -162,6 +164,7 @@ import PerformanceSetMergeHost from './components/PerformanceSetMergeHost'
 import PlaylistMergeHost from './components/PlaylistMergeHost'
 import { syncPendingRecordingUploads } from './linkRecording'
 import { warmOwnedMediaCacheOnLogin } from './mediaCacheWarmOnLogin'
+import { isNavigatorOffline } from './offlineNetwork'
 import { syncPendingTuneFileUploads } from './tuneFiles'
 import {
   applyDriveRecordStateToTunes,
@@ -519,6 +522,7 @@ function App(props) {
   )
   useAudioAnalysisLoginSync(token, logout)
   const scratchpadSync = useScratchpadLoginSync(token, logout)
+  useMediaCacheDriveBackupSync(token, logout)
   const filesDocumentManager = useGoogleDocument(token, logout)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
   const {tunes, setTunes, setTunesInner, tunesContentRevision, tunesHydrated, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, albumFilter, setAlbumFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
@@ -852,6 +856,7 @@ function App(props) {
               }
               var localDeleted = results[1] || {}
               var remoteDeleted = parseDeletedTunesFromAbc(tunebookText)
+              var lastUpload = readLastDriveUploadSnapshot() || {}
               var compared
               if (tunebookText && Object.keys(localTunes).length > 500) {
                 const sharded = parseSyncManifest(tunebookText)
@@ -859,6 +864,8 @@ function App(props) {
                   localTunes: localTunes,
                   localDeleted: localDeleted,
                   remoteDeleted: remoteDeleted,
+                  lastUpdatedById: lastUpload.lastUpdatedById,
+                  lastDeletedAtById: lastUpload.deletedAtById,
                   remoteTuneIterator: function(onTune) {
                     if (sharded) {
                       return new Promise(function(resolve) {
@@ -890,6 +897,8 @@ function App(props) {
                   localDeleted: localDeleted,
                   remoteTunes: remoteTunes,
                   remoteDeleted: remoteDeleted,
+                  lastUpdatedById: lastUpload.lastUpdatedById,
+                  lastDeletedAtById: lastUpload.deletedAtById,
                 })
               }
               var ret = Object.assign({}, compared, {
@@ -1164,6 +1173,7 @@ function App(props) {
   
   
   function onMerge(fullSheet) {
+    if (!isLastDriveUploadAbcEcho(fullSheet)) {
     //var trialResults = 
     var epochAtStart = driveMergeEpochRef.current
     mergeTuneBook(fullSheet).then(function(trialResults) {
@@ -1204,7 +1214,8 @@ function App(props) {
       }
     })
     offerPracticeListMerge(fullSheet)
-    if (token && token.access_token) {
+    }
+    if (token && token.access_token && !isNavigatorOffline()) {
       syncPendingRecordingUploads({
         token: token,
         driveApi: filesDocumentManager,

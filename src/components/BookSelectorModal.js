@@ -7,7 +7,9 @@ function BookSelectorModal(props) {
   const [show, setShow] = useState(false);
   const responsiveModalProps = useResponsiveModalProps();
   const [filter, setFilter] = useState(props.value);
-  const [options, setOptions] = useState(props.defaultOptions());
+  const [options, setOptions] = useState(function() {
+    return typeof props.defaultOptions === 'function' ? props.defaultOptions() : {}
+  });
   const handleClose = () => setShow(false);
   const handleShow = (e) => {
     setShow(true);
@@ -18,11 +20,11 @@ function BookSelectorModal(props) {
   function filterChange(value) {
     setFilter(value.toLowerCase())
     if (value.trim() === '') {
-      setOptions(props.defaultOptions())
+      setOptions(typeof props.defaultOptions === 'function' ? props.defaultOptions() : {})
     } else {
       if (filterChangeTimeout) clearTimeout(filterChangeTimeout) 
       filterChangeTimeout = setTimeout(function() {
-        setOptions(props.searchOptions(value))
+        setOptions(typeof props.searchOptions === 'function' ? props.searchOptions(value) : {})
       },500)
     }
   } 

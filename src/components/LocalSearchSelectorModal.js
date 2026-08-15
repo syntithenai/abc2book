@@ -18,6 +18,7 @@ import {
   inferSongTypeFromRhythm,
   isStrongLocalMatch,
 } from '../textSearchIndexUtils'
+import { networkUnavailableMessage } from '../offlineNetwork'
 import { importedTuneFromNotationCandidate } from '../notationImportUtils'
 
 const SONG_TYPE_OPTIONS = [
@@ -264,8 +265,8 @@ function LocalSearchSelectorModal(props) {
       setResolverUnreachable(true)
       refreshMediaResolverHealth()
       setError(localResultCount > 0
-        ? 'Online search is unavailable. Showing local collection matches below.'
-        : 'Online search is unavailable. Try the external links below or start the local resolver.')
+        ? networkUnavailableMessage('Online search is unavailable. Showing local collection matches below.')
+        : networkUnavailableMessage('Online search is unavailable. Try the external links below or start the local resolver.'))
       return true
     }
     return false

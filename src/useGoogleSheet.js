@@ -15,6 +15,7 @@ import {
   normalizeDriveFileId,
   tokenHasDriveAccess,
 } from './googleDrivePickerClient'
+import { isNavigatorOffline } from './offlineNetwork'
 import {
   readPerformanceSetsMap,
   readDeletedPerformanceSets,
@@ -29,10 +30,19 @@ import {
 } from './practiceListStore'
 import {
   buildDriveUploadShrinkWarning,
+  createDrivePollPauseController,
+  hashDriveAbc,
   readLastDriveUploadSnapshot,
   writeLastDriveUploadSnapshot,
 } from './driveUploadShrinkGuard'
 import { shouldRefuseTunesPersist } from './tunesPersistenceGuard'
+import {
+  markDriveSongbookSyncCancelled,
+  markDriveSongbookSyncError,
+  markDriveSongbookSyncPending,
+  markDriveSongbookSyncRunning,
+  markDriveSongbookSyncSuccess,
+} from './driveSongbookSyncStatus'
     
 export default function useGoogleSheet(props) {
   const {
@@ -58,6 +68,11 @@ export default function useGoogleSheet(props) {
   var onUploadShrinkWarningRef = useRef(onUploadShrinkWarning)
   var tunesRef = useRef(tunes)
   var docsRef = useRef(null)
+  var pollPauseControllerRef = useRef(null)
+  if (!pollPauseControllerRef.current) {
+    pollPauseControllerRef.current = createDrivePollPauseController(pausePolling)
+  }
+  var pollPause = pollPauseControllerRef.current
 
   useEffect(function() {
     onMergeRef.current = onMerge
@@ -121,8 +136,28 @@ export default function useGoogleSheet(props) {
       deletedPracticeLists
     )
     return docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
-      writeLastDriveUploadSnapshot(nowTunes)
-      pausePolling.current = false
+      writeLastDriveUploadSnapshot(nowTunes, {
+        deletedTunes: deletedTunes,
+        playlists: playlists,
+        deletedPlaylists: deletedPlaylists,
+        performanceSets: performanceSets,
+        deletedPerformanceSets: deletedPerformanceSets,
+        practiceLists: practiceLists,
+        deletedPracticeLists: deletedPracticeLists,
+        abcHash: hashDriveAbc(abc),
+      })
+      pollPause.resumeAfterEcho()
+    })
+  }
+
+  function runSongbookUpload(nowTunes, deletedTunes) {
+    markDriveSongbookSyncRunning()
+    return performUpload(nowTunes, deletedTunes).then(function() {
+      markDriveSongbookSyncSuccess()
+    }).catch(function(err) {
+      markDriveSongbookSyncError(err)
+      pollPause.resumeNow()
+      throw err
     })
   }
   
@@ -131,8 +166,13 @@ export default function useGoogleSheet(props) {
     const opts = options || {}
     const forceShrinkUpload = !!opts.forceShrinkUpload
     return new Promise(function(resolve,reject) {
-      pausePolling.current = true
+      if (isNavigatorOffline()) {
+        resolve()
+        return
+      }
+      pollPause.pause()
       if (googleSheetId.current) { 
+        markDriveSongbookSyncPending()
         clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
           Promise.all([
@@ -157,30 +197,34 @@ export default function useGoogleSheet(props) {
               if (warning && typeof onUploadShrinkWarningRef.current === 'function') {
                 return Promise.resolve(onUploadShrinkWarningRef.current(warning)).then(function(confirmed) {
                   if (!confirmed) {
-                    pausePolling.current = false
+                    pollPause.resumeNow()
+                    markDriveSongbookSyncCancelled()
                     resolve({ cancelled: true, warning: warning })
                     return
                   }
-                  return performUpload(nowTunes, deletedTunes).then(function() {
+                  return runSongbookUpload(nowTunes, deletedTunes).then(function() {
                     resolve({ uploaded: true })
                   })
                 }).catch(function() {
-                  pausePolling.current = false
+                  pollPause.resumeNow()
+                  markDriveSongbookSyncCancelled()
                   resolve({ cancelled: true })
                 })
               }
-              return performUpload(nowTunes, deletedTunes).then(function() {
+              return runSongbookUpload(nowTunes, deletedTunes).then(function() {
                 resolve({ uploaded: true })
               })
             })
         },delay)
       } else {
+          pollPause.resumeNow()
           resolve()
       }
     })
   }
 
 	const findTuneBookInDrive = useCallback(function() {
+		if (isNavigatorOffline()) return
 		if (!token || !token.access_token) return
 		if (googleSheetId.current) return
 
@@ -249,10 +293,18 @@ export default function useGoogleSheet(props) {
 	}, [token, setGoogleDocumentId, abcTools, tuneBookName, utils])
 
   useEffect(function() {
-      if (token && token.access_token) {
-        findTuneBookInDrive()
-      } else {
-        googleSheetId.current = null
+      function tryFind() {
+        if (token && token.access_token) {
+          findTuneBookInDrive()
+        } else {
+          googleSheetId.current = null
+        }
+      }
+      tryFind()
+      if (typeof window === 'undefined') return
+      window.addEventListener('online', tryFind)
+      return function() {
+        window.removeEventListener('online', tryFind)
       }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- Drive lookup once per login token; callbacks read from refs
     },[accessToken])

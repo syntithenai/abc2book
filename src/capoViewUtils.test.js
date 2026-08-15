@@ -2,6 +2,7 @@ import {
   capoOffsetForShapeKey,
   clampCapoOffset,
   chordTransposeWithCapo,
+  printChordTransposeForTune,
   buildCapoQuickOptions,
 } from './capoViewUtils'
 
@@ -23,6 +24,13 @@ describe('capoViewUtils', function() {
   test('chordTransposeWithCapo subtracts capo when enabled', function() {
     expect(chordTransposeWithCapo(2, 3, true)).toBe(-1)
     expect(chordTransposeWithCapo(2, 3, false)).toBe(2)
+  })
+
+  test('printChordTransposeForTune applies stored capo like single view', function() {
+    expect(printChordTransposeForTune({ transpose: 2, capo: 0 })).toBe(2)
+    expect(printChordTransposeForTune({ transpose: 2, capo: 3 })).toBe(-1)
+    expect(printChordTransposeForTune({ transpose: 0, capo: 2 })).toBe(-2)
+    expect(printChordTransposeForTune({})).toBe(0)
   })
 
   test('buildCapoQuickOptions uses tune key and transpose', function() {

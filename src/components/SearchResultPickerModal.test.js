@@ -8,6 +8,13 @@ import SearchResultPickerModal from './SearchResultPickerModal'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
+jest.mock('./AbcSnippetPreview', function() {
+  const React = require('react')
+  return function MockAbcSnippet(props) {
+    return React.createElement('div', { 'data-testid': 'abc-snippet' }, 'staff preview')
+  }
+})
+
 jest.mock('react-bootstrap', function() {
   const React = require('react')
   function Modal(props) {
@@ -178,5 +185,41 @@ describe('SearchResultPickerModal multiSelect', function() {
     expect(note).toBeTruthy()
     expect(note.textContent).toContain('Composer was empty')
     expect(note.textContent).toContain('Debussy')
+  })
+
+  test('notation layout labels local MIDI without ABC preview', function() {
+    act(function() {
+      root.render(
+        React.createElement(SearchResultPickerModal, {
+          show: true,
+          layout: 'notation',
+          items: [{
+            title: 'Moonlight Sonata',
+            artist: 'Beethoven',
+            source: 'midi-resources',
+            matchType: 'midi-resources',
+            importFormat: 'midi',
+            midiBytes: 'YQ==',
+            preview: 'MIDI file (wizard import)',
+          }, {
+            title: 'Moonlight Sonata',
+            source: 'musescore.com',
+            matchType: 'musescore.com',
+            abc: 'X:1\nK:C\nC D E F|',
+          }],
+          onSelect: function() {},
+          onHide: function() {},
+        })
+      )
+    })
+    expect(container.textContent).toContain('Local MIDI — import with wizard')
+    expect(container.textContent).toMatch(/Local MIDI/)
+    expect(container.textContent).toContain('MuseScore')
+    expect(container.querySelector('[data-testid="abc-snippet"]')).toBeTruthy()
+    const midiCard = Array.from(container.querySelectorAll('button.search-result-notation-card')).find(function(btn) {
+      return (btn.textContent || '').indexOf('import with wizard') >= 0
+    })
+    expect(midiCard).toBeTruthy()
+    expect(midiCard.querySelector('[data-testid="abc-snippet"]')).toBeNull()
   })
 })

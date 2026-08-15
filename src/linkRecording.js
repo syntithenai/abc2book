@@ -770,6 +770,25 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
     return { blob: cached.blob, duration: cached.duration, source: 'cache' }
   }
 
+  try {
+    const backup = require('./mediaCacheDriveBackup')
+    if (backup && typeof backup.tryRestoreCachedMediaFromThisAccount === 'function') {
+      const restored = await backup.tryRestoreCachedMediaFromThisAccount(
+        tuneId,
+        linkUri,
+        cacheKey,
+        { driveApi: driveApi, accessToken: accessToken, token: opts.token }
+      )
+      if (restored && restored.blob) {
+        return {
+          blob: restored.blob,
+          duration: restored.duration,
+          source: 'drive-backup',
+        }
+      }
+    }
+  } catch (e) {}
+
   const recording = recordingId ? await getRecording(recordingId) : null
   if (recording) {
     let blobResult = await recordingDataToMp3(recording)

@@ -36,6 +36,10 @@ describe('resolverFeatures', function() {
       snapcastPlayback: false,
       castPlayback: false,
       midiRender: false,
+      midiConvert: false,
+      midiImport: false,
+      scoreConvert: false,
+      tts: false,
     });
   });
 
@@ -77,6 +81,10 @@ describe('resolverFeatures', function() {
       snapcastPlayback: false,
       castPlayback: false,
       midiRender: false,
+      midiConvert: false,
+      midiImport: false,
+      scoreConvert: false,
+      tts: false,
     });
   });
 

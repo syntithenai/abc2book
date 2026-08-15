@@ -11,7 +11,7 @@ import { getCurrentTuneId, isQueueActive } from '../nowPlayingQueue'
 import { isNavigatorOffline, isTuneOfflinePlayable } from '../offlinePlayback'
 import { getViewedTuneIdFromPath, isQueuePlaybackEngaged, isTuneListPath } from '../playbackNavigationUtils'
 
-function useOfflinePlayDisabled(mediaController, tunebook, location, viewedTune) {
+export function useOfflinePlayDisabled(mediaController, tunebook, location, viewedTune) {
   const [playDisabled, setPlayDisabled] = useState(false)
   const tuneId = viewedTune && viewedTune.id ? viewedTune.id : null
   const pathname = location.pathname

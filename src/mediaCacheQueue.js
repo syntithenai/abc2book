@@ -730,6 +730,30 @@ export function removeJobsForTuneIds(tuneIds) {
   return cancelled
 }
 
+export function removeJobsForTuneIdAndSrcs(tuneId, srcs) {
+  const id = tuneId == null ? '' : String(tuneId)
+  const srcSet = {}
+  ;(srcs || []).forEach(function(src) {
+    if (src) srcSet[String(src)] = true
+  })
+  if (!id || !Object.keys(srcSet).length) return 0
+
+  let cancelled = 0
+  jobs.forEach(function(job) {
+    if (String(job.tuneId) !== id) return
+    if (!srcSet[String(job.src || '')]) return
+    if (job.status !== 'pending' && job.status !== 'running') return
+    job.cancelled = true
+    if (job.status === 'pending') {
+      job.status = 'cancelled'
+      revokeJobReadyDownload(job)
+    }
+    cancelled += 1
+  })
+  if (cancelled) notify()
+  return cancelled
+}
+
 export function getExternalMediaCacheKeyForJob(job) {
   return getExternalMediaCacheKey(job.tuneId, job.linkIndex, job.src)
 }

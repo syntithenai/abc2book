@@ -279,6 +279,8 @@ describe('lyricStructureUtils', function() {
     expect(sectionDisplayTitle({ header: '[Bridge]', lines: [] })).toBe('Bridge');
     expect(sectionDisplayTitle({ header: '# Verse 2', lines: [] })).toBe('Verse 2');
     expect(sectionDisplayTitle({ header: '(Outro)', lines: [] })).toBe('Outro');
+    expect(sectionDisplayTitle({ header: '# chorus @1', lines: [] })).toBe('chorus');
+    expect(sectionDisplayTitle({ header: '# instrumental @1 @2', lines: [] })).toBe('instrumental');
     expect(sectionDisplayTitle({ header: '', lines: ['hello world'] })).toBe('hello world');
   });
 

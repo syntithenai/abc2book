@@ -1,8 +1,10 @@
 import {Link, useLocation} from 'react-router-dom'
 import {Button} from 'react-bootstrap'
+import { OFFLINE_LOGIN_MESSAGE, useNavigatorOnline } from '../offlineNetwork'
 
 export default function Footer(props) {
     var location = useLocation()
+    var navigatorOnline = useNavigatorOnline()
     if (location.pathname.startsWith('/print') || location.pathname.startsWith('/cheatsheet')) return null
 
     return (
@@ -11,7 +13,13 @@ export default function Footer(props) {
           <div className="footer-actions">
             {props.accessToken
               ? <Button size="sm" variant="danger" onClick={function() { props.logout() }}>Logout</Button>
-              : <Button size="sm" variant="success" onClick={function() { props.login() }}>Login</Button>}
+              : <Button
+                  size="sm"
+                  variant="success"
+                  title={navigatorOnline ? undefined : OFFLINE_LOGIN_MESSAGE}
+                  disabled={!navigatorOnline}
+                  onClick={function() { if (navigatorOnline && props.login) props.login() }}
+                >Login</Button>}
             <Link to="/sets">
               <Button size="sm" variant="outline-primary">Sets</Button>
             </Link>

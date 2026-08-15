@@ -95,7 +95,7 @@ describe('rhythmTimingIntegration', function() {
       },
     })
 
-    advanceAudioClock(ctx, 80, 0.05)
+    advanceAudioClock(ctx, 160, 0.05)
     expect(slots.length).toBe(4)
     expect(musicStarted).toBe(true)
     expect(getRhythmPlaybackPhase(controller)).toBe(PHASE_ENTRY_GAP)

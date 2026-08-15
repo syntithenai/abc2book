@@ -2,6 +2,7 @@ import {
   enqueueAutoCacheMediaLink,
   scheduleSelectedMediaLinkCache,
   shouldAutoCacheMediaLink,
+  shouldCacheSelectedMediaLink,
   shouldScheduleMediaLinkCache,
 } from './mediaLinkAutoCache';
 import * as mediaCacheQueue from './mediaCacheQueue';
@@ -11,14 +12,8 @@ jest.mock('./externalMediaAudioCache', function() {
   return {
     getCachedExternalMediaBlob: jest.fn(function() { return Promise.resolve(null); }),
     getStandaloneProxiedMediaCacheKey: jest.fn(function(src) { return 'extmedia:src:' + src; }),
-    cacheExternalMediaBytes: jest.fn(function() { return Promise.resolve({}); }),
+    cacheExternalMediaFromSrc: jest.fn(function() { return Promise.resolve({}); }),
     isExternalMediaCached: jest.fn(function() { return Promise.resolve(false); }),
-  };
-});
-
-jest.mock('./externalMediaAudioLoader', function() {
-  return {
-    fetchAndDecodeExternalMedia: jest.fn(function() { return Promise.resolve(null); }),
   };
 });
 
@@ -66,6 +61,40 @@ describe('mediaLinkAutoCache', function() {
       isYoutubeLink,
       true
     )).toBe(true);
+    expect(shouldScheduleMediaLinkCache(
+      'https://www.youtube.com/watch?v=abcdefghijk',
+      'youtube',
+      isYoutubeLink,
+      true
+    )).toBe(false);
+  });
+
+  test('shouldCacheSelectedMediaLink includes any non-YouTube audio', function() {
+    expect(shouldCacheSelectedMediaLink(
+      'https://example.com/a.mp3',
+      'audio',
+      isYoutubeLink
+    )).toBe(true);
+    expect(shouldCacheSelectedMediaLink(
+      'https://www.europeana.eu/item/123',
+      'audio',
+      isYoutubeLink
+    )).toBe(true);
+    expect(shouldCacheSelectedMediaLink(
+      'https://artist.bandcamp.com/track/foo',
+      'audio',
+      isYoutubeLink
+    )).toBe(true);
+    expect(shouldCacheSelectedMediaLink(
+      'https://www.youtube.com/watch?v=abcdefghijk',
+      'youtube',
+      isYoutubeLink
+    )).toBe(false);
+    expect(shouldCacheSelectedMediaLink(
+      'https://www.youtube.com/watch?v=abcdefghijk',
+      'audio',
+      isYoutubeLink
+    )).toBe(false);
   });
 
   test('scheduleSelectedMediaLinkCache enqueues tune-linked cache jobs', function() {
@@ -85,6 +114,20 @@ describe('mediaLinkAutoCache', function() {
     const jobId = enqueueAutoCacheMediaLink(tune, 0, link, { isYoutubeLink: isYoutubeLink });
     expect(jobId).toBe('job-1');
     const scheduled = scheduleSelectedMediaLinkCache(link, tune, {
+      isYoutubeLink: isYoutubeLink,
+    });
+    expect(scheduled).toBe(true);
+    expect(mediaCacheQueue.enqueueCacheJob).toHaveBeenCalled();
+  });
+
+  test('scheduleSelectedMediaLinkCache enqueues generic audio links', function() {
+    mediaCacheQueue.enqueueCacheJob.mockClear();
+    const tune = {
+      id: 't1',
+      name: 'Song',
+      links: [{ link: 'https://example.com/a.mp3', title: 'Direct', source: 'europeana' }],
+    };
+    const scheduled = scheduleSelectedMediaLinkCache(tune.links[0], tune, {
       isYoutubeLink: isYoutubeLink,
     });
     expect(scheduled).toBe(true);

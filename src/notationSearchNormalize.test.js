@@ -20,4 +20,40 @@ describe('notationSearchNormalize archives', () => {
     expect(result.abc).toBe('')
     expect(result.preview).toContain('MIDI')
   })
+
+  test('normalizeNotationSearch keeps local MIDI listed by URL without bytes', () => {
+    const result = normalizeNotationSearch({
+      title: 'Moonlight Sonata',
+      artist: 'Beethoven',
+      source: 'midi-resources',
+      sourceUrl: '/midi-resources/Various Artists/Moonlight Sonata (Beethoven).mid',
+      importFormat: 'midi',
+      abc: '',
+      preview: '',
+    })
+    expect(result.importFormat).toBe('midi')
+    expect(result.midiBytes).toBeUndefined()
+    expect(result.abc).toBe('')
+    expect(result.sourceUrl).toContain('/midi-resources/')
+    expect(result.preview).toContain('MIDI')
+  })
+
+  test('normalizeNotationSearch keeps MIDI when other candidates fail conversion', () => {
+    const result = normalizeNotationSearch({
+      multiple: true,
+      candidates: [
+        { abc: '', musicXml: '<not-xml>', title: 'Broken', source: 'musescore.com' },
+        {
+          title: 'Moonlight Sonata',
+          source: 'midi-resources',
+          sourceUrl: '/midi-resources/Moonlight.mid',
+          importFormat: 'midi',
+          abc: '',
+        },
+      ],
+    })
+    expect(result.multiple).toBe(true)
+    expect(result.candidates).toHaveLength(1)
+    expect(result.candidates[0].importFormat).toBe('midi')
+  })
 })

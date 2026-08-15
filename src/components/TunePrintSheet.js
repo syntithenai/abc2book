@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import abcjs from 'abcjs';
 import TimedLyricsChordsView from './TimedLyricsChordsView';
+import StructureChordBlock from './StructureChordBlock';
 import LyricsDisplayLines from '../LyricsDisplayLines';
 import PrintBackgroundMarkdown, { renderPrintBackgroundMeasureBlock } from './PrintBackgroundMarkdown';
 import useAbcjsParser from '../useAbcjsParser';
@@ -12,6 +13,8 @@ import {
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
 import { hasLyricEmbeddedChords } from '../chordSheetUtils';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
+import { printChordTransposeForTune } from '../capoViewUtils';
+import { chordNoteLinesFromTune } from '../chordBlockMerge';
 import {
   buildAbcWithNoteSpacing,
 } from '../noteSpacingUtils';
@@ -75,6 +78,29 @@ function PrintLyricsColumns(props) {
   return (
     <div className={'print-pdf-lyrics-columns print-pdf-lyrics-columns--' + columnCount}>
       {props.children}
+    </div>
+  );
+}
+
+function printStructureFontSize(options) {
+  const fullPage = !!(options && options.fullPage);
+  const compact = !!(options && options.compact);
+  const zoom = options && options.zoom > 0 ? Number(options.zoom) : (fullPage ? 2.4 : 1);
+  return ((compact ? zoom * 0.88 : zoom) * 100) + '%';
+}
+
+function PrintStructureChords(props) {
+  if (!props.tune) return null;
+  return (
+    <div className="print-pdf-structure-chords" style={props.fontSize ? { fontSize: props.fontSize } : undefined}>
+      <StructureChordBlock
+        chords={props.chords}
+        tune={props.tune}
+        melodyNoteLines={props.melodyNoteLines}
+        chordTranspose={props.chordTranspose}
+        inheritScale={true}
+        showCapoControl={false}
+      />
     </div>
   );
 }
@@ -168,8 +194,10 @@ export default function TunePrintSheet(props) {
   const bgHeaderMeasureRef = useRef(null);
   const bgContinuationHeaderMeasureRef = useRef(null);
 
-  // Print uses transpose only; capo is shown in the page header, not applied to chords/notation.
+  // Notation stays at stored transpose (capo is a performance mark in the header).
+  // Structure/lyric chord names match single view: transpose minus capo.
   const printDisplayTranspose = Number(tune && tune.transpose) || 0;
+  const printChordTranspose = printChordTransposeForTune(tune);
   const hasChords = !!(tune && tuneHasExplicitChords(tune, tunebook, abcjsParser));
   const displayFlags = useMemo(function() {
     return resolveDisplayFlagsForTune(
@@ -198,6 +226,33 @@ export default function TunePrintSheet(props) {
   const hideChordsInText = !showChordsAnnotate;
   const plainLyricLines = tune ? getLyricLinesForDisplay(tune) : [];
   const isLyricChordSheet = hasLyricEmbeddedChords(plainLyricLines);
+  const structureMelodyNoteLines = useMemo(function() {
+    return chordNoteLinesFromTune(tune);
+  }, [tune]);
+  const structureChordChart = useMemo(function() {
+    if (!tune || !showChordsBlockColumn || !tunebook || !abcjsParser) return '';
+    try {
+      const melodyAbc = tunebook.abcTools.emptyABC(tune.name || 'Tune')
+        + structureMelodyNoteLines.join('\n');
+      return abcjsParser.renderChords(
+        melodyAbc,
+        false,
+        printChordTranspose,
+        tune.key,
+        tune.noteLength,
+        tune.meter
+      ) || '';
+    } catch (e) {
+      return '';
+    }
+  }, [
+    tune,
+    tunebook,
+    abcjsParser,
+    showChordsBlockColumn,
+    printChordTranspose,
+    structureMelodyNoteLines,
+  ]);
   const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showChordsBlockColumn;
   const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo.trim() : '';
   const backgroundMarkdownBlocks = useMemo(function() {
@@ -483,6 +538,8 @@ export default function TunePrintSheet(props) {
     showChordsBlockColumn,
     showChordsAnnotate,
     printDisplayTranspose,
+    printChordTranspose,
+    structureChordChart,
     plainLyricLines.length,
     isLyricChordSheet,
   ]);
@@ -903,10 +960,10 @@ export default function TunePrintSheet(props) {
 
   const fullLyricsPanel = showLyrics ? (
     isLyricChordSheet
-      ? <TimedLyricsChordsView tune={tune} tunebook={tunebook} hideChords={hideChordsInText} />
+      ? <TimedLyricsChordsView tune={tune} tunebook={tunebook} hideChords={hideChordsInText} chordTranspose={printChordTranspose} />
       : (plainLyricLines.length > 0
         ? <LyricsDisplayLines className="full-lyrics-panel" lines={plainLyricLines} />
-        : <TimedLyricsChordsView tune={tune} tunebook={tunebook} hideChords={hideChordsInText} suppressLeadingTitle={true} />)
+        : <TimedLyricsChordsView tune={tune} tunebook={tunebook} hideChords={hideChordsInText} suppressLeadingTitle={true} chordTranspose={printChordTranspose} />)
   ) : null;
 
   const backgroundInfoPanel = showInfo && (backgroundInfoText || infoOnlyFullPage) && includeBackgroundOnMainPage ? (
@@ -921,7 +978,7 @@ export default function TunePrintSheet(props) {
     <TimedLyricsChordsView
       tune={tune}
       tunebook={tunebook}
-      chordTranspose={printDisplayTranspose}
+      chordTranspose={printChordTranspose}
       hideChords={hideChordsInText}
       suppressLeadingTitle={true}
     />
@@ -942,27 +999,25 @@ export default function TunePrintSheet(props) {
   ) : null;
 
   const chordsBlockContent = showChordsBlockColumn ? (
-    <TimedLyricsChordsView
+    <PrintStructureChords
       tune={tune}
-      tunebook={tunebook}
-      chordTranspose={printDisplayTranspose}
-      chordsOnly={true}
-      forceBlockLayout={true}
-      suppressLeadingTitle={true}
-      compact={!chordsBlockFullPage}
-      zoom={chordsBlockFullPage ? 2.4 : undefined}
+      chords={structureChordChart}
+      melodyNoteLines={structureMelodyNoteLines}
+      chordTranspose={printChordTranspose}
+      fontSize={printStructureFontSize({
+        fullPage: chordsBlockFullPage,
+        compact: !chordsBlockFullPage,
+        zoom: chordsBlockFullPage ? 2.4 : undefined,
+      })}
     />
   ) : null;
   const chordsBlockContentForFlow = showChordsBlockColumn ? (
-    <TimedLyricsChordsView
+    <PrintStructureChords
       tune={tune}
-      tunebook={tunebook}
-      chordTranspose={printDisplayTranspose}
-      chordsOnly={true}
-      forceBlockLayout={true}
-      suppressLeadingTitle={true}
-      compact={true}
-      zoom={0.95}
+      chords={structureChordChart}
+      melodyNoteLines={structureMelodyNoteLines}
+      chordTranspose={printChordTranspose}
+      fontSize={printStructureFontSize({ compact: true, zoom: 0.95 })}
     />
   ) : null;
 

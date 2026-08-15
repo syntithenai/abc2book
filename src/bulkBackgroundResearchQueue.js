@@ -3,6 +3,7 @@ import { checkCanAfford } from './creditAffordabilityClient'
 import { researchTuneBackground } from './tuneBackgroundResearchClient'
 import { applyGeneratedBackgroundInfo } from './viewModeUtils'
 import { isAbortError } from './abortUtils'
+import { isNavigatorOffline, registerOnlineResume } from './offlineNetwork'
 import { primaryArtist } from './tuneBibliographicUtils'
 
 const STORAGE_KEY = 'queue-state'
@@ -551,6 +552,7 @@ async function runJob(job) {
 
 async function processQueue() {
   if (processQueueRunning) return
+  if (isNavigatorOffline()) return
   processQueueRunning = true
   try {
     while (running && !paused) {
@@ -621,3 +623,6 @@ export function __resetForTests() {
   }
   listeners.clear()
 }
+
+registerOnlineResume(start)
+

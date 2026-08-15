@@ -1461,6 +1461,7 @@ export default function MusicSingle(props) {
                      useInstrument={useInstrument}
                      tune={tune}
                      melodyNoteLines={firstVoice.notes}
+                     chordTranspose={chordTranspose}
                      fitHeight={structureFitHeight}
                      fitHeightGrow={structureFitHeightGrow}
                      showCapoControl={true}

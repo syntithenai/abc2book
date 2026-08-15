@@ -1,5 +1,6 @@
 import { mergeAffordanceIntoAccess, getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
+import { getOfflineBlock } from './offlineNetwork'
 
 function audioTranscribeAvailable(resolverAvailable, features) {
   return resolverAvailable && !!features.whisper
@@ -13,9 +14,11 @@ export function getScratchpadTranscribeAccess(context) {
   const resolverChecked = !!opts.resolverChecked
   const resolverAvailable = !!opts.resolverAvailable
   const features = opts.features || {}
-  const loginWarning = getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
-  const needsLogin = !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !!(loginWarning && loginWarning.showBuyCreditButton)
+  const loginWarning = getOfflineBlock()
+    || getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
+  const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
+  const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
+  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
   const hasCapability = audioTranscribeAvailable(resolverAvailable, features)
   const showOption = resolverChecked && (hasCapability || needsLogin || needsCredit)
 
@@ -23,6 +26,7 @@ export function getScratchpadTranscribeAccess(context) {
     showOption: showOption,
     needsLogin: needsLogin && showOption,
     needsCredit: needsCredit && showOption,
+    needsNetwork: needsNetwork,
     canUse: hasCapability && !needsLogin && !needsCredit,
     loginWarning: loginWarning,
   }

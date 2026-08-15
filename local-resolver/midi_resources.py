@@ -25,6 +25,24 @@ _COMMON_WORDS = frozenset({
     "without", "would", "yes", "yet", "you", "your",
 })
 
+# Folders that are collection dumps, work-type groups, or anonymous buckets — not artists.
+_GENERIC_FOLDER_NAMES = frozenset({
+    "midi", "mid", "files", "patterns", "various", "various artists",
+    "drum patterns", "piano sonatas", "sonatas", "midi files",
+    "greats", "downloads midi", "classical piano midis", "klassik",
+})
+_GENERIC_FOLDER_RE = re.compile(
+    r"^("
+    r"\d{4}"
+    r"|\d{4}\s+midi"
+    r"|\d+\s+midi\s+files?"
+    r"|50000\s*midi\s*files?"
+    r")$",
+    re.I,
+)
+_QUOTED_NICKNAME_RE = re.compile(r"['\"]{1,2}([^'\"]+)['\"]{1,2}")
+_TRAILING_PAREN_RE = re.compile(r"\s*\(([^)]+)\)\s*$")
+
 _INDEX_LOCK = threading.Lock()
 _INDEX_CACHE = None
 _INDEX_MTIME = None
@@ -63,9 +81,23 @@ def midi_resources_health_fields():
     }
 
 
+def _split_token_boundaries(text):
+    """Insert spaces at CamelCase and letter/digit boundaries."""
+    value = str(text or "")
+    value = re.sub(r"([a-z])([A-Z])", r"\1 \2", value)
+    value = re.sub(r"([A-Za-z])(\d)", r"\1 \2", value)
+    value = re.sub(r"(\d)([A-Za-z])", r"\1 \2", value)
+    return value
+
+
+def _expand_token_text(text):
+    expanded = _split_token_boundaries(text)
+    return re.sub(r"[^a-z0-9 ]+", " ", expanded.lower())
+
+
 def _strip_common_words(text):
     parts = []
-    for word in re.sub(r"[^a-z0-9 ]+", " ", str(text or "").lower()).split():
+    for word in _expand_token_text(text).split():
         if word and word not in _COMMON_WORDS:
             parts.append(word)
     return " ".join(parts)
@@ -76,28 +108,98 @@ def tokenize_midi_search_query(text):
     return [part for part in clean.split() if len(part) >= 3]
 
 
-def title_from_midi_relative_path(relative_path):
-    rel = str(relative_path or "").replace("\\", "/").strip("/")
-    if not rel:
-        return "MIDI"
-    parts = rel.split("/")
-    filename = parts[-1]
-    name = re.sub(r"\.(mid|midi)$", "", filename, flags=re.I)
+def _normalize_folder_key(name):
+    return re.sub(r"[_\-+]+", " ", str(name or "")).strip().lower()
+
+
+def _is_generic_midi_folder(name):
+    key = _normalize_folder_key(name)
+    if not key:
+        return True
+    if key in _GENERIC_FOLDER_NAMES:
+        return True
+    return bool(_GENERIC_FOLDER_RE.fullmatch(key))
+
+
+def _clean_midi_filename_stem(filename):
+    name = re.sub(r"\.(mid|midi)$", "", str(filename or ""), flags=re.I)
     name = re.sub(r"[_\-+]+", " ", name).strip()
-    if len(parts) > 1:
-        parent = re.sub(r"[_\-+]+", " ", parts[-2]).strip()
-        skip_parents = {"midi", "mid", "files", "patterns", "various"}
-        if parent and parent.lower() not in skip_parents:
-            return parent + " — " + name if name else parent
-    return name or "MIDI"
+    aliases = []
+    seen = set()
+    for match in _QUOTED_NICKNAME_RE.finditer(name):
+        alias = re.sub(r"\s+", " ", match.group(1)).strip()
+        key = alias.lower()
+        if alias and key not in seen:
+            seen.add(key)
+            aliases.append(alias)
+    title = re.sub(r"['\"]+", " ", name)
+    title = re.sub(r"\s+", " ", title).strip()
+    return title or name or "MIDI", aliases
+
+
+def metadata_from_midi_relative_path(relative_path):
+    """Derive title, artist, category, and quoted-nickname aliases from a library path."""
+    rel = str(relative_path or "").replace("\\", "/").strip("/")
+    empty = {"title": "MIDI", "artist": "", "category": "", "aliases": []}
+    if not rel:
+        return empty
+    parts = [part for part in rel.split("/") if part]
+    filename = parts[-1]
+    title, aliases = _clean_midi_filename_stem(filename)
+    category = parts[0] if len(parts) > 1 else ""
+    artist = ""
+    category_key = _normalize_folder_key(category)
+    for folder in parts[1:-1]:
+        if _is_generic_midi_folder(folder):
+            continue
+        if category_key and _normalize_folder_key(folder) == category_key:
+            continue
+        artist = re.sub(r"[_\-+]+", " ", folder).strip()
+        break
+
+    paren = _TRAILING_PAREN_RE.search(title)
+    if paren:
+        paren_artist = paren.group(1).strip()
+        if paren_artist:
+            if not artist or _is_generic_midi_folder(artist):
+                artist = paren_artist
+                title = title[: paren.start()].strip() or title
+            elif _normalize_folder_key(paren_artist) == _normalize_folder_key(artist):
+                title = title[: paren.start()].strip() or title
+
+    return {
+        "title": title or "MIDI",
+        "artist": artist,
+        "category": category,
+        "aliases": aliases,
+    }
+
+
+def title_from_midi_relative_path(relative_path):
+    return metadata_from_midi_relative_path(relative_path).get("title") or "MIDI"
 
 
 def _tokenize_index_text(text):
     tokens = set()
-    for word in re.sub(r"[^a-z0-9 ]+", " ", str(text or "").lower()).split():
+    for word in _expand_token_text(text).split():
         if len(word) >= 3 and word not in _COMMON_WORDS:
             tokens.add(word)
     return tokens
+
+
+def _best_midi_title_artist_score(meta, title, artist):
+    titles = [str((meta or {}).get("title") or "").strip()]
+    for alias in (meta or {}).get("aliases") or []:
+        alias_text = str(alias or "").strip()
+        if alias_text:
+            titles.append(alias_text)
+    path_artist = str((meta or {}).get("artist") or "").strip()
+    best = 0
+    for candidate_title in titles:
+        if not candidate_title:
+            continue
+        best = max(best, score_title_artist_match(candidate_title, path_artist, title, artist))
+    return best
 
 
 def build_midi_resource_public_url(relative_path):
@@ -183,11 +285,11 @@ def search_midi_resources(title, artist="", limit=MAX_LOCAL_MIDI_SEARCH_RESULTS)
         entry = entries.get(entry_id)
         if not isinstance(entry, dict):
             continue
-        entry_title = str(entry.get("title") or "").strip()
         entry_path = str(entry.get("path") or "").strip()
         if not entry_path:
             continue
-        text_score = score_title_artist_match(entry_title, "", title, artist)
+        meta = metadata_from_midi_relative_path(entry_path)
+        text_score = _best_midi_title_artist_score(meta, title, artist)
         coverage = token_hits / max(query_token_count, 1)
         match_score = int((token_hits * 28) + (coverage * 42) + text_score)
         if query_token_count > 1 and token_hits < query_token_count:
@@ -196,9 +298,11 @@ def search_midi_resources(title, artist="", limit=MAX_LOCAL_MIDI_SEARCH_RESULTS)
             continue
         scored.append({
             "id": entry_id,
-            "title": entry_title or title_from_midi_relative_path(entry_path),
+            "title": meta.get("title") or title_from_midi_relative_path(entry_path),
+            "artist": meta.get("artist") or "",
+            "aliases": list(meta.get("aliases") or []),
             "path": entry_path,
-            "category": str(entry.get("category") or "").strip(),
+            "category": meta.get("category") or str(entry.get("category") or "").strip(),
             "matchScore": match_score,
             "tokenHits": token_hits,
         })
@@ -255,16 +359,18 @@ def annotate_local_midi_candidate(music_xml, *, title, path, query_title="", art
         "srcUrl": source_url,
         "meta": {"importFormat": "midi", "midiLibrary": True},
     }
-    resolved_title = str(title or "").strip() or title_from_midi_relative_path(path)
+    meta = metadata_from_midi_relative_path(path)
+    resolved_title = str(title or "").strip() or meta.get("title") or title_from_midi_relative_path(path)
+    resolved_artist = str(artist or "").strip() or meta.get("artist") or ""
     if resolved_title:
         tune_meta["name"] = resolved_title
-    if artist:
-        tune_meta["composer"] = artist
+    if resolved_artist:
+        tune_meta["composer"] = resolved_artist
     return {
         "abc": "",
         "musicXml": music_xml,
         "title": resolved_title,
-        "artist": artist or "",
+        "artist": resolved_artist,
         "source": "midi-resources",
         "sourceUrl": source_url,
         "preview": "",

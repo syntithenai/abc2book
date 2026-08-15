@@ -6,7 +6,8 @@ describe('scratchpadAudioShortcuts', function() {
     expect(ids).toContain('cut')
     expect(ids).toContain('copy')
     expect(ids).toContain('paste')
-    expect(ids).toContain('delete')
+    expect(ids).toContain('deleteKey')
+    expect(ids).toContain('deleteBackspace')
   })
 
   test('shortcutLabel formats ctrl shortcuts', function() {

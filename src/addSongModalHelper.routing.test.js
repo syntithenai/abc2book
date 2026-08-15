@@ -44,7 +44,7 @@ describe('processReviewResult add routing', function() {
   })
 
   test('single abc still inlines on Add', function() {
-    const apply = jest.fn()
+    const apply = jest.fn(function() { return true })
     const start = jest.fn()
     const outcome = processReviewResult(
       {

@@ -1,12 +1,12 @@
 import axios from 'axios'
 import {useRef, useEffect} from 'react'
-import isOnline from 'is-online';
 import useUtils from './useUtils'
 import * as localForage from "localforage";
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 import { normalizeDriveFileId } from './googleDrivePickerClient'
 import { normalizeAccessToken } from './mediaProxyClient'
 import { tokenHasFreshAccess } from './googleLoginTokenAdapter'
+import { isNavigatorOffline } from './offlineNetwork'
 
 var unauthorizedRefreshInFlight = null
 
@@ -412,6 +412,51 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 		})
 	}
 
+    function findOrCreateCachedMediaFolderInDrive(parentFolderId) {
+		return new Promise(function(resolve) {
+			if (!parentFolderId || !accessToken) {
+				resolve(null)
+				return
+			}
+			var folderName = 'CachedMedia'
+			var xhr = new XMLHttpRequest()
+			xhr.onload = function(res) {
+				if (!res.target.responseText) {
+					resolve(null)
+					return
+				}
+				var response = JSON.parse(res.target.responseText)
+				var found = null
+				if (response && Array.isArray(response.files)) {
+					response.files.forEach(function(file) {
+						if (file && file.name === folderName) {
+							found = file.id
+						}
+					})
+				}
+				if (found) {
+					resolve(found)
+				} else {
+					createDocument(
+						folderName,
+						null,
+						'application/vnd.google-apps.folder',
+						'Cached media backup from TuneBook',
+						parentFolderId
+					).then(function(newId) {
+						resolve(newId && !newId.error ? newId : null)
+					})
+				}
+			}
+			var filter = '?q=' + encodeURIComponent(
+				"name='" + folderName + "' and mimeType = 'application/vnd.google-apps.folder' and '" + parentFolderId + "' in parents and trashed = false"
+			)
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter + '&nocache=' + String(parseInt(Math.random() * 1000000000)))
+			xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken)
+			xhr.send()
+		})
+	}
+
     function findFileInFolder(parentFolderId, fileName) {
 		return new Promise(function(resolve) {
 			if (!parentFolderId || !fileName || !accessToken) {
@@ -481,8 +526,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   function getStartPageToken() {
     return new Promise(function(resolve,reject) {
       //var useToken = accessToken ? accessToken : access_token
-      var online = isOnline()
-      if (accessToken && online) {
+      if (accessToken && !isNavigatorOffline()) {
         var url = 'https://www.googleapis.com/drive/v3/changes/startPageToken'
         axios({
           method: 'get',
@@ -506,7 +550,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
 	function doPollChanges() {
 		return new Promise(function(resolve,reject) {
-			if (pausePolling && pausePolling.current) {
+			if (isNavigatorOffline()) {
+				resolve()
+			} else if (pausePolling && pausePolling.current) {
 				resolve()
 			} else {
 				if (localStorage.getItem('google_last_page_token') && accessToken) {
@@ -716,7 +762,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
       if (fileId && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+fileId  + '?fields=modifiedTime,name,kind,fileExtension,mimeType,exportLinks,thumbnailLink,size,id,description,trashed,explicitlyTrashed', //&nocache='+String(parseInt(Math.random()*1000000000)),
+          url: 'https://www.googleapis.com/drive/v3/files/'+fileId  + '?fields=modifiedTime,name,kind,fileExtension,mimeType,exportLinks,thumbnailLink,size,id,description,trashed,explicitlyTrashed,ownedByMe,owners', //&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
@@ -820,6 +866,10 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 
    function createDocument(title, documentData, documentType='application/vnd.google-apps.document', documentDescription='', documentFolderId = null, force_token = null) {
     return new Promise(function(resolve,reject) {
+		if (isNavigatorOffline()) {
+			resolve()
+			return
+		}
 		var useToken = force_token ? force_token : (token ? token.access_token : null)
       if (documentType && title && useToken) {
         var  data = {
@@ -1055,6 +1105,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
 
-  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, findOrCreateAudioAnalysisFolderInDrive, findOrCreateScratchpadFolderInDrive, findFileInFolder, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument, listRevisions, getRevisionData}
+  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, findOrCreateAudioAnalysisFolderInDrive, findOrCreateScratchpadFolderInDrive, findOrCreateCachedMediaFolderInDrive, findFileInFolder, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument, listRevisions, getRevisionData}
   
 }

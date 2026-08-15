@@ -102,12 +102,37 @@ export function setLastWarnedThresholdMb(mb) {
   }
 }
 
-export function tuneIdFromExternalMediaCacheKey(key) {
-  if (!key || key.indexOf('extmedia:') !== 0) return null
+export function parseExternalMediaCacheKey(key) {
+  if (!key || typeof key !== 'string' || key.indexOf('extmedia:') !== 0) return null
+  if (key.indexOf('extmedia:src:') === 0) {
+    return {
+      standalone: true,
+      tuneId: null,
+      linkIndex: null,
+      src: key.slice('extmedia:src:'.length),
+    }
+  }
   const rest = key.slice('extmedia:'.length)
   const firstColon = rest.indexOf(':')
   if (firstColon < 0) return null
-  return rest.slice(0, firstColon)
+  const tuneId = rest.slice(0, firstColon)
+  const afterTune = rest.slice(firstColon + 1)
+  const secondColon = afterTune.indexOf(':')
+  if (secondColon < 0) {
+    return { standalone: false, tuneId: tuneId, linkIndex: afterTune, src: '' }
+  }
+  return {
+    standalone: false,
+    tuneId: tuneId,
+    linkIndex: afterTune.slice(0, secondColon),
+    src: afterTune.slice(secondColon + 1),
+  }
+}
+
+export function tuneIdFromExternalMediaCacheKey(key) {
+  const parsed = parseExternalMediaCacheKey(key)
+  if (!parsed || parsed.standalone) return null
+  return parsed.tuneId || null
 }
 
 export function tuneIdFromStemCacheKey(key) {
@@ -458,6 +483,29 @@ export async function clearExternalMediaCacheForTuneIds(tuneIds, options) {
     await externalMediaStore.removeItem(keysToRemove[i])
   }
   scheduleMediaCacheStorageCheck(0)
+  return { removed: keysToRemove.length }
+}
+
+export async function clearExternalMediaCacheForTuneIdAndSrcs(tuneId, srcs) {
+  const id = tuneId == null ? '' : String(tuneId)
+  const srcSet = {}
+  ;(srcs || []).forEach(function(src) {
+    if (src) srcSet[String(src)] = true
+  })
+  if (!id || !Object.keys(srcSet).length) return { removed: 0 }
+
+  const keysToRemove = []
+  await externalMediaStore.iterate(function(_value, key) {
+    const parsed = parseExternalMediaCacheKey(key)
+    if (!parsed || parsed.standalone) return
+    if (String(parsed.tuneId) !== id) return
+    if (!srcSet[String(parsed.src || '')]) return
+    keysToRemove.push(key)
+  })
+  for (let i = 0; i < keysToRemove.length; i++) {
+    await externalMediaStore.removeItem(keysToRemove[i])
+  }
+  if (keysToRemove.length) scheduleMediaCacheStorageCheck(0)
   return { removed: keysToRemove.length }
 }
 

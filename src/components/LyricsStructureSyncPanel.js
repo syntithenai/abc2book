@@ -57,6 +57,7 @@ export default function LyricsStructureSyncPanel(props) {
             uniqueChords={uniqueChords}
             useInstrument={useInstrument}
             tune={tune}
+            chordTranspose={chordTranspose}
             fitHeight={true}
             fitHeightGrow={false}
             showCapoControl={showCapoControl}

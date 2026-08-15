@@ -11,6 +11,7 @@ import { syncAudioAnalysisWithDrive } from '../audioAnalysisCloudSync'
 import { icons } from '../Icons'
 import { useDocumentTitle } from '../pageTitle'
 import { isValidTunerInstrument } from '../tuningPresetResolver'
+import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
 
 export default function AudioAnalysisPage(props) {
   useDocumentTitle('Audio Analysis')
@@ -50,9 +51,14 @@ export default function AudioAnalysisPage(props) {
   }
 
   async function runSync(isAuto) {
+    if (isNavigatorOffline()) {
+      if (!isAuto) toast.info(OFFLINE_MESSAGE)
+      return
+    }
     if (!props.token || !props.token.access_token) {
+      if (isAuto) return
       toast.warning('Sign in to sync Audio Analysis with Google Drive.', { autoClose: 4000 })
-      if (!isAuto && props.login) props.login()
+      if (props.login) props.login()
       return
     }
     setSyncing(true)

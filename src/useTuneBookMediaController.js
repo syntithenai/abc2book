@@ -34,7 +34,8 @@ import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { getResolverFeaturesFromStatus } from './resolverFeatures'
 import { isStemsCapabilityAvailable, loadProviderSettings } from './providerSettings'
 import { parseMsToSeconds, getActivePlaybackLoop, getLinkRegionStart, getLinkRegionEnd, syncLegacyLinkLoopFields, ensureSingleActiveLoop, getActiveLinkIndex, getFirstPlayableMediaLinkIndex } from './mediaPlaybackUtils'
-import { isExternalMediaCached, getCachedExternalMediaBlob, getExternalMediaCacheKey, cacheExternalMediaBytes } from './externalMediaAudioCache'
+import { isExternalMediaCached, getCachedExternalMediaBlob, getExternalMediaCacheKey, cacheExternalMediaBytes, putExternalMediaCache } from './externalMediaAudioCache'
+import { tryRestoreCachedMediaFromThisAccount } from './mediaCacheDriveBackup'
 import { shouldAutoCacheMediaLink } from './mediaLinkAutoCache'
 import { getLinkTrimBounds } from './mediaAudioTrim'
 import { loadOfflineMediaSettings } from './offlineMediaSettings'
@@ -46,6 +47,8 @@ import {
     isMediaProxyConfigured,
     requiresResolverProxiedPlayback,
     fetchDirectOrProxy,
+    blobForHtmlAudioPlayback,
+    looksLikeAlacAudio,
     getResolverProxiedPlaybackBlock,
     getResolverLoginWarning,
 } from './mediaProxyClient'
@@ -412,7 +415,11 @@ export default function useTuneBookMediaController(props) {
     var cachedNativeBlobUrlRef = useRef(null)
     var proxiedNativeBlobSrcRef = useRef(null)
     var proxiedNativeBlobPromiseRef = useRef(null)
+    var nativeBlobAttachInFlightRef = useRef(false)
+    var unplayableExternalCacheSrcRef = useRef(null)
     var linkedMediaPlaybackInFlightRef = useRef(false)
+    var linkedMediaPlaybackGenerationRef = useRef(0)
+    var linkedMediaPlaybackSrcRef = useRef(null)
     const [nativePlaybackSrcOverride, setNativePlaybackSrcOverride] = useState(null)
     const [nativePlaybackFallbackRequired, setNativePlaybackFallbackRequired] = useState(false)
     var nativeFilteredCacheKeyRef = useRef(null)
@@ -1458,11 +1465,17 @@ export default function useTuneBookMediaController(props) {
     }
 
     function shouldSuppressHtml5AudioSrc() {
-        if (!prefersNativeMediaPlayback() || !isMediaPlaybackRoute()) return false
         const useTune = tuneRef.current || tune
         const linkIndex = getActiveMediaLinkNumber()
+        const activeSrc = getSrc(useTune, linkIndex)
+        if (activeSrc && requiresResolverProxiedPlayback(activeSrc)
+            && !cachedNativeBlobUrlRef.current
+            && !nativePlaybackSrcOverride) {
+            return true
+        }
+        if (!prefersNativeMediaPlayback() || !isMediaPlaybackRoute()) return false
         const activeLink = useTune && useTune.links ? useTune.links[linkIndex] : null
-        const srcType = getSrcType(getSrc(useTune, linkIndex), activeLink)
+        const srcType = getSrcType(activeSrc, activeLink)
         if (srcType === 'audio' && !nativeFilteredActiveRef.current) return true
         if (srcType === 'youtube' && shouldUseAndroidNativeYoutubeOutput(getActivePlaybackSettings(useTune))) {
             return true
@@ -2390,6 +2403,10 @@ export default function useTuneBookMediaController(props) {
         flushSync(function() {
             setNativePlaybackSrcOverride(blobUrl)
         })
+        const player = playerRef && playerRef.current
+        if (player && blobUrl && player.getAttribute('src') !== blobUrl) {
+            player.src = blobUrl
+        }
     }
 
     function handleResolverLoginRequired(loginWarning) {
@@ -2426,52 +2443,83 @@ export default function useTuneBookMediaController(props) {
         if (!src || !requiresResolverProxiedPlayback(src)) {
             return true
         }
-        const useTune = tuneRef.current || tune
-        const linkIndex = getActiveMediaLinkNumber()
-        // Prefer a local cache before any login/credit gate so playlists can keep
-        // playing downloaded tracks after mid-session logout.
-        if (useTune && linkIndex !== null && linkIndex !== undefined) {
-            const cacheKey = getExternalMediaCacheKey(useTune.id, linkIndex, src)
-            const cached = await getCachedExternalMediaBlob(cacheKey)
-            if (cached && cached.blob) {
-                const settings = getActivePlaybackSettings(useTune)
-                const blobUrl = URL.createObjectURL(cached.blob)
-                await attachNativeBlobUrlForPlayback(blobUrl, cached.duration, settings)
-                return hasActivePlaybackIntent()
-            }
-            if (await isLinkMediaCached(useTune, linkIndex)) {
-                const played = await playCachedNativeMedia('audio', { preservePosition: false })
-                if (played) return hasActivePlaybackIntent()
-            }
-        }
         if (cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src) {
             return true
-        }
-        if (blockProxiedPlaybackForInsufficientCredit(src)) {
-            return false
-        }
-        if (isRouterEnforcedForPath(ROUTER_ENFORCE_KEYS.resolverPrecheck)) {
-            const routeSnapshot = captureCurrentPlaybackSnapshot({})
-            const route = resolvePlaybackRouteForEnforce(routeSnapshot)
-            if (route.resolverRequired) {
-                const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
-                if (loginWarning && loginWarning.message) {
-                    handleResolverLoginRequired(loginWarning)
-                    return 'login_required'
-                }
-            }
-        }
-        const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
-        if (loginWarning && loginWarning.message) {
-            handleResolverLoginRequired(loginWarning)
-            return 'login_required'
         }
         if (proxiedNativeBlobPromiseRef.current && proxiedNativeBlobSrcRef.current === src) {
             return proxiedNativeBlobPromiseRef.current
         }
+        const useTune = tuneRef.current || tune
+        const linkIndex = getActiveMediaLinkNumber()
         proxiedNativeBlobSrcRef.current = src
         const loadPromise = (async function() {
             try {
+                // Prefer a local cache before any login/credit gate so playlists can keep
+                // playing downloaded tracks after mid-session logout.
+                if (useTune && linkIndex !== null && linkIndex !== undefined) {
+                    const cacheKey = getExternalMediaCacheKey(useTune.id, linkIndex, src)
+                    const cached = await getCachedExternalMediaBlob(cacheKey)
+                    if (proxiedNativeBlobSrcRef.current !== src) return false
+                    const forceRefetchUnplayable = unplayableExternalCacheSrcRef.current === src
+                    if (cached && cached.blob && !forceRefetchUnplayable) {
+                        const settings = getActivePlaybackSettings(useTune)
+                        const playBlob = await blobForHtmlAudioPlayback(
+                            cached.blob,
+                            cached.audioFormat || cached.blob.type
+                        )
+                        const blobUrl = URL.createObjectURL(playBlob)
+                        await attachNativeBlobUrlForPlayback(blobUrl, cached.duration, settings)
+                        return hasActivePlaybackIntent()
+                    }
+                    if (!forceRefetchUnplayable) {
+                        const restored = await tryRestoreCachedMediaFromThisAccount(
+                            useTune.id,
+                            src,
+                            cacheKey
+                        )
+                        if (proxiedNativeBlobSrcRef.current !== src) return false
+                        if (restored && restored.blob) {
+                            const settings = getActivePlaybackSettings(useTune)
+                            const playBlob = await blobForHtmlAudioPlayback(
+                                restored.blob,
+                                restored.audioFormat || restored.blob.type
+                            )
+                            const blobUrl = URL.createObjectURL(playBlob)
+                            await attachNativeBlobUrlForPlayback(blobUrl, restored.duration, settings)
+                            return hasActivePlaybackIntent()
+                        }
+                    }
+                    if (!forceRefetchUnplayable && await isLinkMediaCached(useTune, linkIndex)) {
+                        if (proxiedNativeBlobSrcRef.current !== src) return false
+                        const played = await playCachedNativeMedia('audio', { preservePosition: false })
+                        if (played) return hasActivePlaybackIntent()
+                    }
+                }
+                if (cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src
+                    && unplayableExternalCacheSrcRef.current !== src) {
+                    return true
+                }
+                if (blockProxiedPlaybackForInsufficientCredit(src)) {
+                    return false
+                }
+                if (isRouterEnforcedForPath(ROUTER_ENFORCE_KEYS.resolverPrecheck)
+                    && unplayableExternalCacheSrcRef.current !== src) {
+                    const routeSnapshot = captureCurrentPlaybackSnapshot({})
+                    const route = resolvePlaybackRouteForEnforce(routeSnapshot)
+                    if (route.resolverRequired) {
+                        const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
+                        if (loginWarning && loginWarning.message) {
+                            handleResolverLoginRequired(loginWarning)
+                            return 'login_required'
+                        }
+                    }
+                }
+                const loginWarning = getResolverLoginWarning(mediaResolverStatus, getGoogleAccessToken())
+                const forceRefetchUnplayable = unplayableExternalCacheSrcRef.current === src
+                if (loginWarning && loginWarning.message && !forceRefetchUnplayable) {
+                    handleResolverLoginRequired(loginWarning)
+                    return 'login_required'
+                }
                 const settings = getActivePlaybackSettings(tuneRef.current || tune)
                 const { response } = await fetchDirectOrProxy({
                     src: src,
@@ -2482,28 +2530,32 @@ export default function useTuneBookMediaController(props) {
                         ? useTune.links[linkIndex]
                         : null,
                 })
-                const blob = await response.blob()
+                if (proxiedNativeBlobSrcRef.current !== src) return false
+                const rawBlob = await response.blob()
+                if (proxiedNativeBlobSrcRef.current !== src) return false
                 const mime = response.headers && typeof response.headers.get === 'function'
                     ? response.headers.get('Content-Type')
                     : null
+                const blob = await blobForHtmlAudioPlayback(rawBlob, mime)
                 const blobUrl = URL.createObjectURL(blob)
                 await attachNativeBlobUrlForPlayback(blobUrl, null, settings)
-                if (useTune
-                    && linkIndex !== null
-                    && linkIndex !== undefined
-                    && shouldAutoCacheMediaLink(src, props.tunebook.utils.isYoutubeLink)) {
-                    blob.arrayBuffer().then(function(arrayBuffer) {
-                        return cacheExternalMediaBytes(
-                            getExternalMediaCacheKey(useTune.id, linkIndex, src),
-                            arrayBuffer,
-                            mime
-                        )
-                    }).catch(function() {})
+                if (useTune && linkIndex !== null && linkIndex !== undefined) {
+                    const cacheKey = getExternalMediaCacheKey(useTune.id, linkIndex, src)
+                    if (unplayableExternalCacheSrcRef.current === src) {
+                        putExternalMediaCache(cacheKey, blob, null, blob.type).catch(function() {})
+                        unplayableExternalCacheSrcRef.current = null
+                    } else if (shouldAutoCacheMediaLink(src, props.tunebook.utils.isYoutubeLink)) {
+                        blob.arrayBuffer().then(function(arrayBuffer) {
+                            return cacheExternalMediaBytes(cacheKey, arrayBuffer, mime)
+                        }).catch(function() {})
+                    }
                 }
                 return hasActivePlaybackIntent()
             } catch (e) {
+                if (unplayableExternalCacheSrcRef.current === src) {
+                    unplayableExternalCacheSrcRef.current = null
+                }
                 toast.error(e && e.message ? e.message : 'Could not load library audio.')
-                handleMediaPlaybackFailure()
                 return false
             } finally {
                 if (proxiedNativeBlobSrcRef.current === src) {
@@ -2648,16 +2700,20 @@ export default function useTuneBookMediaController(props) {
             )
             : await getCachedExternalMediaBlob(getExternalMediaCacheKey(useTune.id, linkIndex, cacheSrc))
         if (!cached || !cached.blob) return false
+        const playBlob = await blobForHtmlAudioPlayback(
+            cached.blob,
+            cached.audioFormat || cached.blob.type
+        )
 
         if (prefersNativeMediaPlayback()) {
-            const blobUrl = URL.createObjectURL(cached.blob)
+            const blobUrl = URL.createObjectURL(playBlob)
             const settings = getActivePlaybackSettings(useTune)
             const regionStart = getLinkStartAt()
             const positionSec = opts.preservePosition ? getCurrentPlaybackSeconds() : regionStart
             muteNativePlayers()
             setIsLoading(true)
             try {
-                await playAndroidNativeBlob(cached.blob, {
+                await playAndroidNativeBlob(playBlob, {
                     title: useTune && useTune.name ? useTune.name : 'Tunebook',
                     artist: useTune && useTune.composer ? useTune.composer : '',
                     positionSec: positionSec,
@@ -2676,7 +2732,7 @@ export default function useTuneBookMediaController(props) {
                 return false
             }
         }
-        return playLocalMediaBlob(cached.blob, cached.duration, cacheSrc, opts)
+        return playLocalMediaBlob(playBlob, cached.duration, cacheSrc, opts)
     }
 
     function getActivePlaybackSettings(useTune) {
@@ -2733,12 +2789,32 @@ export default function useTuneBookMediaController(props) {
 
     async function startLinkedMediaPlayback(useTune, linkIndex, src, srcType, opts) {
         if (linkedMediaPlaybackInFlightRef.current) {
-            logPlaybackDebug('linked-media-skip-inflight', {
+            if (src && linkedMediaPlaybackSrcRef.current === src) {
+                if (proxiedNativeBlobPromiseRef.current && proxiedNativeBlobSrcRef.current === src) {
+                    logPlaybackDebug('linked-media-reuse-inflight', {
+                        tuneId: useTune && useTune.id,
+                        linkIndex: linkIndex,
+                        srcType: srcType,
+                    })
+                    return proxiedNativeBlobPromiseRef.current
+                }
+                logPlaybackDebug('linked-media-skip-inflight', {
+                    tuneId: useTune && useTune.id,
+                    linkIndex: linkIndex,
+                    srcType: srcType,
+                })
+                return
+            }
+            logPlaybackDebug('linked-media-replace-inflight', {
                 tuneId: useTune && useTune.id,
                 linkIndex: linkIndex,
                 srcType: srcType,
             })
-            return
+        }
+        const playbackGeneration = ++linkedMediaPlaybackGenerationRef.current
+        linkedMediaPlaybackSrcRef.current = src || null
+        if (proxiedNativeBlobSrcRef.current && proxiedNativeBlobSrcRef.current !== src) {
+            clearCachedNativePlaybackUrl()
         }
         linkedMediaPlaybackInFlightRef.current = true
         let releaseInflightOnSyncExit = true
@@ -2746,12 +2822,18 @@ export default function useTuneBookMediaController(props) {
             releaseInflightOnSyncExit = false
         }
         function releaseLinkedMediaInflight() {
-            linkedMediaPlaybackInFlightRef.current = false
+            if (linkedMediaPlaybackGenerationRef.current === playbackGeneration) {
+                linkedMediaPlaybackInFlightRef.current = false
+                if (linkedMediaPlaybackSrcRef.current === src) {
+                    linkedMediaPlaybackSrcRef.current = null
+                }
+            }
         }
         function scheduleLinkedMediaInflightRelease() {
             deferLinkedMediaInflightRelease()
             const startedAt = Date.now()
             function poll() {
+                if (linkedMediaPlaybackGenerationRef.current !== playbackGeneration) return
                 if (!linkedMediaPlaybackInFlightRef.current) return
                 if (playbackStartedRef.current || Date.now() - startedAt > 10000) {
                     releaseLinkedMediaInflight()
@@ -2760,6 +2842,15 @@ export default function useTuneBookMediaController(props) {
                 setTimeout(poll, 50)
             }
             setTimeout(poll, 50)
+        }
+        function holdInflightUntilProxiedBlobSettles() {
+            const pending = proxiedNativeBlobPromiseRef.current
+            if (!pending) return false
+            deferLinkedMediaInflightRelease()
+            pending.finally(function() {
+                releaseLinkedMediaInflight()
+            })
+            return true
         }
         try {
         const settings = getActivePlaybackSettings(useTune)
@@ -2819,10 +2910,12 @@ export default function useTuneBookMediaController(props) {
                 destroyExternalMedia()
             }
             applyNativeMediaPlaybackSettings(settings.tempo)
-            scheduleLinkedMediaInflightRelease()
             playNativeMedia(srcType, {
                 preservePosition: preserveMediaPosition,
             })
+            if (!holdInflightUntilProxiedBlobSettles()) {
+                scheduleLinkedMediaInflightRelease()
+            }
             return
         }
 
@@ -2885,21 +2978,15 @@ export default function useTuneBookMediaController(props) {
                 scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
                 return
             }
-            // Cache was present but could not start; do not fall through to a
-            // resolver fetch when login/credit would block (playlist would stall).
+            // Cache was present but could not start (often an unplayable ALAC/mp4).
+            // Do not prompt login — a local copy already exists. Fall through to
+            // refetch a browser-playable stream unless credit/availability blocks.
             if (src && requiresResolverProxiedPlayback(src)) {
                 const authBlock = getResolverProxiedMediaAuthBlock({
                     resolverStatus: mediaResolverStatus,
                     accessToken: getGoogleAccessToken(),
                 })
-                if (authBlock) {
-                    if (authBlock.kind === 'login') {
-                        handleResolverLoginRequired({
-                            message: authBlock.message || 'Login to continue',
-                            showLoginButton: true,
-                        })
-                        return
-                    }
+                if (authBlock && authBlock.kind !== 'login') {
                     handleMediaPlaybackFailure()
                     return
                 }
@@ -3009,7 +3096,8 @@ export default function useTuneBookMediaController(props) {
             return
         }
 
-        if (!(cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src)) {
+        if (!(cachedNativeBlobUrlRef.current && proxiedNativeBlobSrcRef.current === src)
+            && !(proxiedNativeBlobPromiseRef.current && proxiedNativeBlobSrcRef.current === src)) {
             clearCachedNativePlaybackUrl()
         }
 
@@ -3087,6 +3175,9 @@ export default function useTuneBookMediaController(props) {
             logPlaybackDebug('plain-native', { srcType: srcType })
             playNativeMedia(srcType, Object.assign({}, opts, { preservePosition: preserveMediaPosition }))
             scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
+            if (!holdInflightUntilProxiedBlobSettles()) {
+                scheduleLinkedMediaInflightRelease()
+            }
             return
         }
 
@@ -3100,9 +3191,11 @@ export default function useTuneBookMediaController(props) {
             maybePrefetchYoutubeExternalAudio(useTune, linkIndex, src, srcType)
             maybePrefetchYoutubeNativeAudio(useTune, linkIndex, src, srcType)
         }
-        scheduleLinkedMediaInflightRelease()
         playNativeMedia(srcType, { preservePosition: false })
         scheduleOfflineMediaQueueJobs(useTune, linkIndex, src, srcType)
+        if (!holdInflightUntilProxiedBlobSettles()) {
+            scheduleLinkedMediaInflightRelease()
+        }
         } finally {
             if (releaseInflightOnSyncExit) {
                 releaseLinkedMediaInflight()
@@ -3178,9 +3271,39 @@ export default function useTuneBookMediaController(props) {
         element.playbackRate = rate
     }
 
-    function waitForMediaElementReady(element, timeoutMs) {
+    function isPlayerElementLive(element) {
+        return !!(element && element.isConnected)
+    }
+
+    function waitForLivePlayerElement(timeoutMs) {
+        const existing = playerRef && playerRef.current
+        if (isPlayerElementLive(existing)) return Promise.resolve(existing)
+        const deadline = Date.now() + (timeoutMs || 4000)
+        return new Promise(function(resolve) {
+            function poll() {
+                const el = playerRef && playerRef.current
+                if (isPlayerElementLive(el)) {
+                    resolve(el)
+                    return
+                }
+                if (Date.now() >= deadline) {
+                    resolve(isPlayerElementLive(el) ? el : null)
+                    return
+                }
+                setTimeout(poll, 50)
+            }
+            poll()
+        })
+    }
+
+    function waitForMediaElementReady(element, timeoutMs, expectedSrc) {
         if (!element) return Promise.resolve(false)
-        if (element.readyState >= 3) return Promise.resolve(true)
+        if (element.readyState >= 3) {
+            const current = element.currentSrc || element.src || ''
+            if (!expectedSrc || !current || current === expectedSrc || current.indexOf(expectedSrc) >= 0) {
+                return Promise.resolve(true)
+            }
+        }
         const deadline = Date.now() + (timeoutMs || 8000)
         return new Promise(function(resolve) {
             let settled = false
@@ -3189,20 +3312,45 @@ export default function useTuneBookMediaController(props) {
                 settled = true
                 element.removeEventListener('canplaythrough', onReady)
                 element.removeEventListener('loadeddata', onReady)
+                element.removeEventListener('canplay', onReady)
                 element.removeEventListener('error', onError)
                 clearInterval(pollTimer)
                 resolve(ok)
             }
-            function onReady() { done(true) }
-            function onError() { done(false) }
+            function srcMatches() {
+                if (!expectedSrc) return true
+                const src = element.currentSrc || element.src || ''
+                if (!src) return false
+                return src === expectedSrc || src.indexOf(expectedSrc) >= 0
+            }
+            function onReady() {
+                if (srcMatches()) done(true)
+            }
+            function onError() {
+                if (!isPlayerElementLive(element)) {
+                    done(false)
+                    return
+                }
+                const src = element.currentSrc || element.src || ''
+                if (expectedSrc && (!src || (src !== expectedSrc && src.indexOf(expectedSrc) < 0))) {
+                    return
+                }
+                if (!src) return
+                done(false)
+            }
             element.addEventListener('canplaythrough', onReady)
             element.addEventListener('loadeddata', onReady)
+            element.addEventListener('canplay', onReady)
             element.addEventListener('error', onError)
             const pollTimer = setInterval(function() {
-                if (element.readyState >= 3) {
+                if (!isPlayerElementLive(element)) {
+                    done(false)
+                    return
+                }
+                if (element.readyState >= 2 && srcMatches()) {
                     done(true)
                 } else if (Date.now() >= deadline) {
-                    done(element.readyState >= 2)
+                    done(element.readyState >= 2 && srcMatches())
                 }
             }, 50)
         })
@@ -3211,19 +3359,54 @@ export default function useTuneBookMediaController(props) {
     async function playLocalMediaBlob(blob, duration, cacheSrc, options) {
         const opts = options || {}
         if (!blob || !hasActivePlaybackIntent()) return false
-        proxiedNativeBlobSrcRef.current = cacheSrc
-        const blobUrl = URL.createObjectURL(blob)
-        applyNativePlaybackBlobUrl(blobUrl)
-        if (duration) {
-            setDuration(duration)
+        nativeBlobAttachInFlightRef.current = true
+        try {
+            let playBlob = await blobForHtmlAudioPlayback(blob, blob.type)
+            const prefixSlice = playBlob.slice ? playBlob.slice(0, 262144) : playBlob
+            const prefixBuffer = prefixSlice.arrayBuffer
+                ? await prefixSlice.arrayBuffer()
+                : await playBlob.arrayBuffer()
+            const alac = looksLikeAlacAudio(new Uint8Array(prefixBuffer || []))
+            if (alac) {
+                if (cacheSrc) unplayableExternalCacheSrcRef.current = cacheSrc
+                return false
+            }
+            proxiedNativeBlobSrcRef.current = cacheSrc
+            let blobUrl = URL.createObjectURL(playBlob)
+            applyNativePlaybackBlobUrl(blobUrl)
+            if (duration) {
+                setDuration(duration)
+            }
+            let player = await waitForLivePlayerElement(4000)
+            if (!player) {
+                clearCachedNativePlaybackUrl()
+                return false
+            }
+            if ((player.getAttribute('src') || player.src) !== blobUrl) {
+                player.src = blobUrl
+            }
+            let ready = await waitForMediaElementReady(player, 8000, blobUrl)
+            if (!ready && !isPlayerElementLive(player)) {
+                player = await waitForLivePlayerElement(4000)
+                if (!player) {
+                    clearCachedNativePlaybackUrl()
+                    return false
+                }
+                player.src = blobUrl
+                ready = await waitForMediaElementReady(player, 8000, blobUrl)
+            }
+            if (!ready) {
+                if (cacheSrc) unplayableExternalCacheSrcRef.current = cacheSrc
+                clearCachedNativePlaybackUrl()
+                return false
+            }
+            unplayableExternalCacheSrcRef.current = null
+            setIsReady(true)
+            playNativeMedia('audio', opts)
+            return true
+        } finally {
+            nativeBlobAttachInFlightRef.current = false
         }
-        const player = playerRef && playerRef.current
-        if (player) {
-            await waitForMediaElementReady(player)
-        }
-        setIsReady(true)
-        playNativeMedia('audio', opts)
-        return true
     }
 
     async function attachNativeFilteredPlayback(blobUrl, duration, settings, options) {
@@ -6531,12 +6714,18 @@ export default function useTuneBookMediaController(props) {
         if (duration) {
             setDuration(duration)
         }
-        const player = playerRef && playerRef.current
+        let player = playerRef && playerRef.current
+        if (!isPlayerElementLive(player)) {
+            player = await waitForLivePlayerElement(4000)
+        }
         if (player) {
+            if (blobUrl && (player.getAttribute('src') || player.src) !== blobUrl) {
+                player.src = blobUrl
+            }
             const tempo = settings && settings.tempo > 0 ? settings.tempo : playbackSpeed
             applyNativeMediaPlaybackSettings(tempo)
             applyPlaybackVolumeToActiveRoute(playbackVolume)
-            await waitForMediaElementReady(player)
+            await waitForMediaElementReady(player, 8000, blobUrl)
         }
         setIsReady(true)
     }
@@ -7183,6 +7372,12 @@ export default function useTuneBookMediaController(props) {
     }
     
     function shouldIgnoreMediaElementError(event) {
+        if (nativeBlobAttachInFlightRef.current) {
+            return true
+        }
+        if (unplayableExternalCacheSrcRef.current) {
+            return true
+        }
         if (!hasActivePlaybackIntent() && !isLoading) {
             return true
         }
@@ -7201,16 +7396,30 @@ export default function useTuneBookMediaController(props) {
             return true
         }
         const elementSrc = target.currentSrc || target.src || ''
-        if (!elementSrc) return false
         const activeSrc = getActiveMediaSrc()
+        if (!elementSrc) {
+            if (cachedNativeBlobUrlRef.current || nativePlaybackSrcOverride || proxiedNativeBlobPromiseRef.current) {
+                return true
+            }
+            if (activeSrc && requiresResolverProxiedPlayback(activeSrc)) return true
+            return false
+        }
+        if (
+            (requiresResolverProxiedPlayback(elementSrc) || requiresResolverProxiedPlayback(activeSrc))
+            && !cachedNativeBlobUrlRef.current
+            && !nativePlaybackSrcOverride
+        ) {
+            return true
+        }
         const preparedSrc = getActivePreparedMediaSrc()
         const expectedSrcs = [activeSrc, preparedSrc, nativePlaybackSrcOverride, externalLoadedSrcRef.current]
             .filter(function(src) { return !!src })
         if (!expectedSrcs.length) return false
         return !expectedSrcs.some(function(src) {
+            if (!src) return false
             return elementSrc === src
-                || elementSrc.indexOf(src) >= 0
-                || src.indexOf(elementSrc) >= 0
+                || (elementSrc && src && elementSrc.indexOf(src) >= 0)
+                || (elementSrc && src && src.indexOf(elementSrc) >= 0)
         })
     }
 
@@ -8071,13 +8280,34 @@ export default function useTuneBookMediaController(props) {
         if (!prefersNativeMediaPlayback()) {
             unmuteNativePlayers()
         }
-        if (srcType === 'audio' && playerRef && playerRef.current) {
+        if (srcType === 'audio') {
+            const livePlayer = playerRef && playerRef.current
+            if (!isPlayerElementLive(livePlayer)) {
+                if (!opts._waitingForPlayer) {
+                    setIsLoading(true)
+                    waitForLivePlayerElement(4000).then(function(player) {
+                        if (!hasActivePlaybackIntent()) return
+                        if (!player) {
+                            handleMediaPlaybackFailure()
+                            return
+                        }
+                        playNativeMedia(srcType, Object.assign({}, opts, { _waitingForPlayer: true }))
+                    })
+                    return
+                }
+                handleMediaPlaybackFailure()
+                return
+            }
+            if (cachedNativeBlobUrlRef.current
+                && (livePlayer.getAttribute('src') || livePlayer.src) !== cachedNativeBlobUrlRef.current) {
+                livePlayer.src = cachedNativeBlobUrlRef.current
+            }
             if (shouldBlockWebViewAudioPlay(getAndroidPlaybackGateContext(), 'playNativeMedia-fallback')) {
                 return
             }
             try {
                 const regionStart = getLinkStartAt()
-                const currentPos = playerRef.current.currentTime
+                const currentPos = livePlayer.currentTime
                 const preservedPos = currentTimeRef.current
                 const preserve = opts.preservePosition
                     || (playingIntentRef.current && !userPausedRef.current && preservedPos > regionStart + 0.05)
@@ -8085,18 +8315,18 @@ export default function useTuneBookMediaController(props) {
                     && Math.abs(currentPos - preservedPos) > 0.25) {
                     // Fresh media element after host handoff starts at 0; seek to
                     // the position we preserved in controller state.
-                    playerRef.current.currentTime = preservedPos
+                    livePlayer.currentTime = preservedPos
                     setCurrentTime(preservedPos)
                 } else if (!preserve) {
-                    if (playerRef.current.ended) {
-                        playerRef.current.currentTime = regionStart
+                    if (livePlayer.ended) {
+                        livePlayer.currentTime = regionStart
                         setCurrentTime(regionStart)
                     } else if (regionStart > 0 && currentPos < regionStart - 0.05) {
-                        playerRef.current.currentTime = regionStart
+                        livePlayer.currentTime = regionStart
                         setCurrentTime(regionStart)
                     }
                 }
-                playerRef.current.play().then(
+                livePlayer.play().then(
                     function() {
                         applyStoredOutputDeviceToActiveRoute().catch(function() {})
                         confirmPlayingStarted()
@@ -8105,6 +8335,9 @@ export default function useTuneBookMediaController(props) {
                             promptTapToPlayWhenAutoplayBlocked()
                             setIsPlaying(false)
                             setIsLoading(false)
+                            return
+                        }
+                        if (proxiedNativeBlobPromiseRef.current) {
                             return
                         }
                         handleMediaPlaybackFailure()

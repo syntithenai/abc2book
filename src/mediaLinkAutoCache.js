@@ -3,12 +3,10 @@ import { isBandcampLinkUri } from './bandcampLinkUtils';
 import { isLocGovLinkUri } from './locGovLinkUtils';
 import { isMusicCollectionLinkUri } from './musicCollectionLinkUtils';
 import {
-  cacheExternalMediaBytes,
-  getCachedExternalMediaBlob,
+  cacheExternalMediaFromSrc,
   getStandaloneProxiedMediaCacheKey,
   isExternalMediaCached,
 } from './externalMediaAudioCache';
-import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
 import { resolveUriPlaybackSrcType } from './mediaLinkSrcType';
 import * as mediaCacheQueue from './mediaCacheQueue';
 
@@ -26,8 +24,16 @@ export function shouldAutoCacheMediaLink(src, isYoutubeLink) {
     || isMusicCollectionLinkUri(trimmed);
 }
 
+/** Any non-YouTube audio link chosen in the media/links manager should be cached. */
+export function shouldCacheSelectedMediaLink(src, srcType, isYoutubeLink) {
+  if (!src || srcType !== 'audio') return false;
+  if (typeof isYoutubeLink === 'function' && isYoutubeLink(src)) return false;
+  return true;
+}
+
 export function shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, autocacheOnPlay) {
   if (!src || srcType !== 'audio') return false;
+  if (typeof isYoutubeLink === 'function' && isYoutubeLink(src)) return false;
   if (autocacheOnPlay) return true;
   return shouldAutoCacheMediaLink(src, isYoutubeLink);
 }
@@ -41,7 +47,9 @@ function enqueueCacheJobForLink(tune, linkIndex, link, options) {
   if (!src) return null;
   const isYoutubeLink = opts.isYoutubeLink;
   const srcType = resolveUriPlaybackSrcType(src, isYoutubeLink);
-  if (!shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, !!opts.autocacheOnPlay)) {
+  if (opts.selectedInLinksEditor) {
+    if (!shouldCacheSelectedMediaLink(src, srcType, isYoutubeLink)) return null;
+  } else if (!shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, !!opts.autocacheOnPlay)) {
     return null;
   }
   return mediaCacheQueue.enqueueCacheJob({
@@ -104,17 +112,16 @@ function scheduleStandaloneMediaLinkCache(link, options) {
   if (!src) return false;
   const isYoutubeLink = opts.isYoutubeLink;
   const srcType = resolveUriPlaybackSrcType(src, isYoutubeLink);
-  if (!shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, false)) {
+  if (!shouldCacheSelectedMediaLink(src, srcType, isYoutubeLink)) {
     return false;
   }
   const cacheKey = getStandaloneProxiedMediaCacheKey(src);
   Promise.resolve(
-    getCachedExternalMediaBlob(cacheKey).then(function(existing) {
-      if (existing && existing.blob) return null;
-      return fetchAndDecodeExternalMedia(src, srcType, opts.youtubeGetId, opts.accessToken);
-    }).then(function(decoded) {
-      if (!decoded) return null;
-      return cacheExternalMediaBytes(cacheKey, decoded.arrayBuffer, decoded.mime);
+    cacheExternalMediaFromSrc(cacheKey, {
+      src: src,
+      srcType: srcType,
+      youtubeGetId: opts.youtubeGetId,
+      accessToken: opts.accessToken,
     })
   ).catch(function() {});
   return true;
@@ -129,7 +136,7 @@ export function scheduleSelectedMediaLinkCache(link, tune, options) {
   if (!src) return false;
   const isYoutubeLink = opts.isYoutubeLink;
   const srcType = resolveUriPlaybackSrcType(src, isYoutubeLink);
-  if (!shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, false)) {
+  if (!shouldCacheSelectedMediaLink(src, srcType, isYoutubeLink)) {
     return false;
   }
   if (tune && tune.id && Array.isArray(tune.links)) {
@@ -141,7 +148,9 @@ export function scheduleSelectedMediaLinkCache(link, tune, options) {
       }
     }
     if (linkIndex < 0) linkIndex = 0;
-    const jobId = enqueueCacheJobForLink(tune, linkIndex, link, opts);
+    const jobId = enqueueCacheJobForLink(tune, linkIndex, link, Object.assign({}, opts, {
+      selectedInLinksEditor: true,
+    }));
     if (jobId) {
       startMediaLinkAutoCacheQueue();
       return true;

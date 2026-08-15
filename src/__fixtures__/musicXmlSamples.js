@@ -80,3 +80,41 @@ export const MUSICXML_WITH_NOTE_LYRICS = `<?xml version="1.0" encoding="UTF-8"?>
     </measure>
   </part>
 </score-partwise>`;
+
+/** Two-staff piano: treble C4 on staff 1, bass C3 on staff 2. */
+export const PIANO_GRAND_STAFF_MUSICXML = `<?xml version="1.0" encoding="UTF-8"?>
+<score-partwise version="3.1">
+  <work><work-title>Piano Grand Staff</work-title></work>
+  <part-list>
+    <score-part id="P1"><part-name>Piano</part-name></score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>1</divisions>
+        <key><fifths>0</fifths></key>
+        <time><beats>4</beats><beat-type>4</beat-type></time>
+        <staves>2</staves>
+        <clef number="1"><sign>G</sign><line>2</line></clef>
+        <clef number="2"><sign>F</sign><line>4</line></clef>
+      </attributes>
+      <note>
+        <pitch><step>C</step><octave>4</octave></pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <voice>1</voice>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>1</duration>
+      </backup>
+      <note>
+        <pitch><step>C</step><octave>3</octave></pitch>
+        <duration>1</duration>
+        <type>quarter</type>
+        <voice>2</voice>
+        <staff>2</staff>
+      </note>
+    </measure>
+  </part>
+</score-partwise>`;

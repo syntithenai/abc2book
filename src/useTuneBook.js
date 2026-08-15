@@ -85,7 +85,8 @@ import {
   rememberTuneBody,
   saveTuneToRepository,
 } from './tuneRepository'
-import { clearCachedMediaForDeletedTuneIds } from './deletedTuneMediaCleanup'
+import { clearCachedMediaForDeletedTuneIds, clearCachedMediaForRemovedLinkSrcs } from './deletedTuneMediaCleanup'
+import { collectRemovedLinkCacheSrcs } from './mediaCacheDriveBackup'
 import { tunesToJson } from './tuneDownloadActions'
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, ownedMediaUpload, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, albumFilter, setAlbumFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
@@ -850,7 +851,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       // clear invalid links
       tune.links = Array.isArray(tune.links) ? tune.links.filter(function(link) {
           return (link && (link.title || link.link || link.startAt || link.endAt))
-      }) : [] 
+      }) : []
+      if (tune.id && before && Array.isArray(before.links)) {
+        const removedSrcs = collectRemovedLinkCacheSrcs(before.links, tune.links)
+        if (removedSrcs.length > 0) {
+          clearCachedMediaForRemovedLinkSrcs(tune.id, removedSrcs)
+        }
+      } 
       liveTunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)

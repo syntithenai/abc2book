@@ -72,4 +72,35 @@ describe('playlistSync', function() {
     });
     expect(Object.keys(result.deletes)).toEqual(['pl-1']);
   });
+
+  test('own-upload echo with stale local updatedAt is not an incoming update', function() {
+    const result = comparePlaylists({
+      localPlaylists: {
+        'pl-1': { id: 'pl-1', name: 'Old', updatedAt: 100, items: [] },
+      },
+      localDeleted: {},
+      remotePlaylists: {
+        'pl-1': { id: 'pl-1', name: 'New', updatedAt: 500, items: [] },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { 'pl-1': 500 },
+    });
+    expect(Object.keys(result.updates)).toEqual([]);
+    expect(Object.keys(result.inserts)).toEqual([]);
+  });
+
+  test('newer other-device playlist update still flags as incoming', function() {
+    const result = comparePlaylists({
+      localPlaylists: {
+        'pl-1': { id: 'pl-1', name: 'Mine', updatedAt: 500, items: [] },
+      },
+      localDeleted: {},
+      remotePlaylists: {
+        'pl-1': { id: 'pl-1', name: 'Theirs', updatedAt: 900, items: [] },
+      },
+      remoteDeleted: {},
+      lastUpdatedById: { 'pl-1': 500 },
+    });
+    expect(Object.keys(result.updates)).toEqual(['pl-1']);
+  });
 });

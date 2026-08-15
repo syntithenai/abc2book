@@ -42,4 +42,18 @@ describe('tuneBookSyncStreaming', function() {
     })
     expect(Object.keys(result.deletes)).toEqual(['t1'])
   })
+
+  test('own-upload echo with stale local lastUpdated is not an incoming update', async function() {
+    const result = await compareTuneBooksStreaming({
+      localTunes: { t1: makeTune('t1', 100) },
+      localDeleted: {},
+      remoteDeleted: {},
+      lastUpdatedById: { t1: 500 },
+      remoteTuneIterator: async function(onTune) {
+        onTune(Object.assign(makeTune('t1', 500), { name: 'Renamed' }))
+      },
+    })
+    expect(Object.keys(result.updates)).toEqual([])
+    expect(Object.keys(result.inserts)).toEqual([])
+  })
 })

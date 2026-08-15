@@ -15,6 +15,7 @@ export function getMidiExportNotationAccess(context) {
     showButton: access.showButton,
     needsLogin: access.needsLogin,
     needsCredit: access.needsCredit,
+    needsNetwork: access.needsNetwork,
     canExport: access.canUse,
     loginWarning: access.loginWarning,
   }
@@ -30,6 +31,7 @@ export function getLinkPlayRangeAccess(context) {
     showButton: access.showButton,
     needsLogin: access.needsLogin,
     needsCredit: access.needsCredit,
+    needsNetwork: access.needsNetwork,
     canOpen: access.canUse,
     loginWarning: access.loginWarning,
   }

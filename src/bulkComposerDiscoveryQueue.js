@@ -3,6 +3,7 @@ import { toast } from 'react-toastify'
 import { checkCanAfford } from './creditAffordabilityClient'
 import { discoverComposers } from './composerSearchClient'
 import { isAbortError } from './abortUtils'
+import { isNavigatorOffline, registerOnlineResume } from './offlineNetwork'
 import { needsComposerDiscovery, parseTitleComposerHints, buildComposerPickerCandidates } from './composerDiscoveryUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
 
@@ -481,6 +482,7 @@ async function runJob(job) {
 
 async function processQueue() {
   if (processQueueRunning) return
+  if (isNavigatorOffline()) return
   processQueueRunning = true
   try {
     while (running && !paused) {
@@ -519,3 +521,5 @@ export function __resetForTests() {
   }
   listeners.clear()
 }
+
+registerOnlineResume(start)
