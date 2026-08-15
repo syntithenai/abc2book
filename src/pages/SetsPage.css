@@ -257,34 +257,14 @@
   margin-bottom: 0.5rem;
 }
 
-.sets-page-add-tune-row .form-control,
-.sets-page-add-tune-row .form-select {
+.sets-page-add-tune-row .voice-fill-input-group,
+.sets-page-add-tune-row .form-control {
   flex: 1 1 14rem;
   min-width: 0;
 }
 
 .sets-page-add-tune-panel {
   margin-bottom: 1rem;
-}
-
-.sets-page-add-tune-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35rem;
-  flex: 0 0 auto;
-  white-space: nowrap;
-}
-
-.sets-page-add-tune-btn svg {
-  display: block;
-  width: 1rem;
-  height: 1rem;
-  flex-shrink: 0;
-}
-
-.sets-page-add-tune-btn-label {
-  display: inline;
 }
 
 .sets-page-add-tune-count {

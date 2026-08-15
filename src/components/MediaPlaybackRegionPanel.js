@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Button, ButtonGroup, Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import {
   formatSecondsToMs,
   parseMsToSeconds,
@@ -8,9 +8,9 @@ import {
   syncLegacyLinkLoopFields,
 } from '../mediaPlaybackUtils';
 import { buildMediaSourceOptions } from '../mediaSourceMenuAccess';
-import { formatLinkPlayRangeLabel } from '../linkPlaybackRegionScanUtils';
 import { getLinkSrcType } from '../checkTuneLinkPlayback';
 import LinkPlayRangeModal from './LinkPlayRangeModal';
+import PlayRangeButtonGroup from './PlayRangeButtonGroup';
 
 function formatLoopStartAt(startAt) {
   if (!startAt && startAt !== 0) return '';
@@ -174,7 +174,6 @@ export default function MediaPlaybackRegionPanel({
   const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink;
   const linkSrcType = getLinkSrcType(link, isYoutubeLink);
   const showPlayRangeButton = linkSrcType !== 'midifile';
-  const playRangeLabel = formatLinkPlayRangeLabel(link);
 
   const mediaSourceOptions = buildMediaSourceOptions(tune, tunebook);
   const activeSource = mediaSourceOptions.find(function(option) {
@@ -200,29 +199,12 @@ export default function MediaPlaybackRegionPanel({
           </p>
         )}
         {showPlayRangeButton ? (
-          <ButtonGroup
-            size="sm"
+          <PlayRangeButtonGroup
+            link={link}
+            disabled={disabled}
             className="media-playback-region-play-range-group"
-            aria-label="Play range"
-          >
-            {playRangeLabel ? (
-              <Button
-                variant="outline-secondary"
-                disabled
-                className="media-playback-region-play-range-label"
-                title="Current play range"
-              >
-                {playRangeLabel}
-              </Button>
-            ) : null}
-            <Button
-              variant="primary"
-              disabled={disabled}
-              onClick={function() { setShowPlayRangeModal(true); }}
-            >
-              Play Range
-            </Button>
-          </ButtonGroup>
+            onClick={function() { setShowPlayRangeModal(true); }}
+          />
         ) : null}
       </div>
       <p className="scope-note">

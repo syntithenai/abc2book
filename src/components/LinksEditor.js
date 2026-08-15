@@ -4,6 +4,7 @@ import {Button, ButtonGroup, Form, Badge} from 'react-bootstrap'
 import SafeYouTube from './SafeYouTube'
 import YouTubeSearchModal from './YouTubeSearchModal'
 import LinkPlayRangeModal from './LinkPlayRangeModal'
+import PlayRangeButtonGroup from './PlayRangeButtonGroup'
 import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
 import MediaImportWizard from './MediaImportWizard'
 import {
@@ -1233,18 +1234,15 @@ function LinksEditorBody(props) {
                                     </Button>
                                 ) : null}
                                 {!simplified && linkSrcType !== 'midifile' ? (
-                                    <Button
-                                        size="sm"
-                                        variant="primary"
+                                    <PlayRangeButtonGroup
+                                        link={link}
                                         onClick={function() {
                                             if (previewLinkIndex === lk) {
                                                 stopLinkPreview()
                                             }
                                             setPlayRangeLinkIndex(lk)
                                         }}
-                                    >
-                                        Play Range
-                                    </Button>
+                                    />
                                 ) : null}
                                 {linkUri.startsWith('data:audio/') && (
                                     <Button size="sm" variant="primary" onClick={function() {

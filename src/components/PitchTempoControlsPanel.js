@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import { Button } from 'react-bootstrap';
-import { formatPitchDisplay, formatFineTuneDisplay, getPlaybackSettings } from '../pitchTempoUtils';
+import { formatPitchDisplay, formatFineTuneDisplay, getTunePlaybackSettings } from '../pitchTempoUtils';
+import { getGlobalTempoPercent, subscribeGlobalTempo } from '../globalTempoSettings';
 import { isChromiumDesktopBrowser } from '../platformUtils';
 import { requestOpenYoutubeHelperInstall } from '../youtubeHelperInstallOpen';
 import './PitchTempoControlsPanel.css';
@@ -25,6 +26,9 @@ export default function PitchTempoControlsPanel({
   const [fineTune, setFineTune] = useState(0);
   const [selectedTempoPreset, setSelectedTempoPreset] = useState('standard');
   const saveTimerRef = useRef(null);
+  const globalTempoPercent = useSyncExternalStore(subscribeGlobalTempo, getGlobalTempoPercent);
+  const globalTempoActive = globalTempoPercent > 0;
+  const tempoControlsDisabled = disabled || globalTempoActive;
 
   const tuneId = tune ? tune.id : null
   const playbackTempo = tune ? tune.playbackTempo : null
@@ -32,7 +36,7 @@ export default function PitchTempoControlsPanel({
   const playbackFineTune = tune ? tune.playbackFineTune : null
   useEffect(function() {
     if (tune) {
-      const settings = getPlaybackSettings(tune);
+      const settings = getTunePlaybackSettings(tune);
       setTempo(settings.tempo);
       setPitch(settings.pitch);
       setFineTune(settings.fineTune);
@@ -64,6 +68,7 @@ export default function PitchTempoControlsPanel({
 
   function updateSettings(nextTempo, nextPitch, nextFineTune, tempoPresetKey) {
     if (disabled) return;
+    if (globalTempoActive && nextTempo !== tempo) return;
     setTempo(nextTempo);
     setPitch(nextPitch);
     setFineTune(nextFineTune);
@@ -107,7 +112,7 @@ export default function PitchTempoControlsPanel({
 
   if (!tune) return null;
 
-  const tempoPercent = Math.round(tempo * 100);
+  const tempoPercent = Math.round((globalTempoActive ? globalTempoPercent / 100 : tempo) * 100);
   const pitchShiftPreparing = !!(mediaController && mediaController.pitchShiftPreparing);
 
   return (
@@ -116,17 +121,22 @@ export default function PitchTempoControlsPanel({
         <h6>Tempo</h6>
         <div className="control-display">
           <span className="display-value">{tempoPercent}%</span>
-          <span>100% = normal</span>
+          <span>{globalTempoActive ? 'Forced from Account' : '100% = normal'}</span>
         </div>
+        {globalTempoActive ? (
+          <p className="pitch-tempo-global-override-note">
+            Account playback tempo is set to {globalTempoPercent}%. Song tempo is ignored until that slider is Off.
+          </p>
+        ) : null}
         <input
           type="range"
           min="0.25"
           max="2.0"
           step="0.01"
-          value={tempo}
+          value={globalTempoActive ? globalTempoPercent / 100 : tempo}
           onChange={(e) => handleTempoChange(parseFloat(e.target.value))}
           className="slider tempo-slider"
-          disabled={disabled}
+          disabled={tempoControlsDisabled}
         />
         <div className="slider-labels"><span>25%</span><span>50%</span><span>100%</span><span>150%</span><span>200%</span></div>
         <div className="preset-buttons">
@@ -136,13 +146,20 @@ export default function PitchTempoControlsPanel({
                 key={key}
                 variant={selectedTempoPreset === key ? 'primary' : 'outline-primary'}
                 size="sm"
+                disabled={tempoControlsDisabled}
                 onClick={function() { applyTempoPreset(key) }}
               >
                 {preset.label}
               </Button>
             );
           })}
-          <Button variant="outline-secondary" size="sm" className="preset-reset-btn" onClick={resetTempo}>
+          <Button
+            variant="outline-secondary"
+            size="sm"
+            className="preset-reset-btn"
+            disabled={tempoControlsDisabled}
+            onClick={resetTempo}
+          >
             Reset
           </Button>
         </div>

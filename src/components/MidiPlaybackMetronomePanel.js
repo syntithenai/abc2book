@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, useSyncExternalStore } from 'react'
 import { Form } from 'react-bootstrap'
 import MetronomePanel from './MetronomePanel'
 import {
@@ -11,6 +11,7 @@ import { ENGINE_MODE_CLICK, ENGINE_MODE_DRUMS } from '../rhythmEngineTypes'
 import {
   getPlaybackSettings,
 } from '../pitchTempoUtils'
+import { getGlobalTempoPercent, subscribeGlobalTempo } from '../globalTempoSettings'
 
 function getBaseTuneTempoBpm(tune, tunebook) {
   if (!tune) return 100
@@ -31,6 +32,7 @@ function getMetronomePreviewTempo(tune, tunebook) {
 }
 
 export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaController }) {
+  const globalTempoPercent = useSyncExternalStore(subscribeGlobalTempo, getGlobalTempoPercent)
   const [settings, setSettings] = useState(function() {
     return getPlaybackMetronomeSettings(tune, tunebook)
   })
@@ -143,6 +145,7 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
     tune && tune.id,
     tune && tune.tempo,
     tune && tune.playbackTempo,
+    globalTempoPercent,
     tunebook,
   ])
 

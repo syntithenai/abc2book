@@ -61,6 +61,12 @@
   font-size: 0.875rem;
 }
 
+.pitch-tempo-panel .pitch-tempo-global-override-note {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin: 0 0 0.65rem;
+}
+
 .pitch-tempo-panel .display-value {
   font-weight: 700;
   color: #0d6efd;

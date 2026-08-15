@@ -9,6 +9,14 @@ export function formatSecondsToMs(totalSeconds) {
   return minutes + ':' + String(remainder).padStart(2, '0');
 }
 
+/** Display a time as seconds (never m:ss), matching play-range field storage. */
+export function formatPlaybackSeconds(totalSeconds) {
+  const seconds = parseFloat(totalSeconds);
+  if (!Number.isFinite(seconds) || seconds < 0) return '0';
+  const rounded = Math.round(seconds * 100) / 100;
+  return String(rounded);
+}
+
 export function parseMsToSeconds(value) {
   if (value === undefined || value === null) return 0;
   const trimmed = String(value).trim();

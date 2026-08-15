@@ -86,7 +86,6 @@ export default function PracticeListsPage(props) {
   const [lists, setLists] = useState([])
   const [editingId, setEditingId] = useState(null)
   const [draft, setDraft] = useState(emptyPracticeList())
-  const [addTuneId, setAddTuneId] = useState('')
   const [tuneSearchText, setTuneSearchText] = useState('')
   const [debouncedTuneSearchText, setDebouncedTuneSearchText] = useState('')
   const [listFilterText, setListFilterText] = useState('')
@@ -106,7 +105,11 @@ export default function PracticeListsPage(props) {
       .sort(function(a, b) { return String(a.name).localeCompare(String(b.name)) })
   }, [tunes])
 
+  const hasTuneSearch = debouncedTuneSearchText.trim().length > 0
   const filteredTuneOptions = useMemo(function() {
+    if (!hasTuneSearch) {
+      return { tunes: [], total: 0, truncated: false }
+    }
     const matches = tuneOptions.filter(function(tune) {
       return tuneMatchesSearch(tune, debouncedTuneSearchText)
     })
@@ -115,7 +118,7 @@ export default function PracticeListsPage(props) {
       total: matches.length,
       truncated: matches.length > LIST_TUNE_PICKER_LIMIT,
     }
-  }, [tuneOptions, debouncedTuneSearchText])
+  }, [tuneOptions, debouncedTuneSearchText, hasTuneSearch])
 
   const filteredLists = useMemo(function() {
     return lists.filter(function(listRecord) {
@@ -142,7 +145,6 @@ export default function PracticeListsPage(props) {
     if (tuneSearchDebounceRef.current) clearTimeout(tuneSearchDebounceRef.current)
     tuneSearchDebounceRef.current = setTimeout(function() {
       setDebouncedTuneSearchText(tuneSearchText)
-      setAddTuneId('')
     }, 250)
     return function() {
       if (tuneSearchDebounceRef.current) clearTimeout(tuneSearchDebounceRef.current)
@@ -224,16 +226,14 @@ export default function PracticeListsPage(props) {
   }
 
   function addTuneToDraft(tuneId) {
-    const id = tuneId || addTuneId
-    if (!id) return
+    if (!tuneId) return
     const nextIds = (draft.tuneIds || []).slice()
-    if (nextIds.indexOf(id) !== -1) {
+    if (nextIds.indexOf(tuneId) !== -1) {
       toast.info('That tune is already in this list.')
       return
     }
-    nextIds.push(id)
+    nextIds.push(tuneId)
     setDraft(Object.assign({}, draft, { tuneIds: nextIds }))
-    setAddTuneId('')
   }
 
   function renderEditor() {
@@ -293,13 +293,13 @@ export default function PracticeListsPage(props) {
           />
         </Form.Group>
 
-        <Form.Group className="mb-2">
-          <Form.Label>Add tune</Form.Label>
+        <div className="sets-page-add-tune-panel">
+          <Form.Label htmlFor="practice-tune-search">Add tune</Form.Label>
           <div className="sets-page-add-tune-row">
             <VoiceFillInput
+              id="practice-tune-search"
               type="search"
-              className="sets-page-add-tune-search"
-              placeholder="Search tunes by name, composer, tag, or book"
+              placeholder="Search by title, artist, book, or tag"
               value={tuneSearchText}
               onChange={function(e) { setTuneSearchText(e.target.value) }}
               token={props.token}
@@ -307,33 +307,41 @@ export default function PracticeListsPage(props) {
               fieldKind="search"
             />
           </div>
-          {filteredTuneOptions.truncated ? (
-            <p className="app-text-muted sets-page-add-tune-hint">
-              Showing {filteredTuneOptions.tunes.length} of {filteredTuneOptions.total} matches
-            </p>
+          {hasTuneSearch ? (
+            <div className="app-text-muted sets-page-add-tune-count">
+              {filteredTuneOptions.total + ' match' + (filteredTuneOptions.total === 1 ? '' : 'es')
+                + (filteredTuneOptions.truncated ? ' (showing first ' + LIST_TUNE_PICKER_LIMIT + ')' : '')}
+            </div>
           ) : null}
-          <ul className="sets-page-add-tune-options">
-            {filteredTuneOptions.tunes.map(function(tune) {
-              const alreadyAdded = tuneIds.indexOf(tune.id) !== -1
-              return (
-                <li key={tune.id}>
-                  <button
-                    type="button"
-                    className="sets-page-add-tune-option"
-                    disabled={alreadyAdded}
-                    onClick={function() { addTuneToDraft(tune.id) }}
-                  >
-                    <span className="sets-page-add-tune-option-name">{tune.name}</span>
-                    {tune.composer ? (
-                      <span className="sets-page-add-tune-option-meta">{tune.composer}</span>
-                    ) : null}
-                    {alreadyAdded ? <span className="sets-page-add-tune-option-added">Added</span> : null}
-                  </button>
-                </li>
-              )
-            })}
-          </ul>
-        </Form.Group>
+          {hasTuneSearch && filteredTuneOptions.tunes.length > 0 ? (
+            <ul className="list-unstyled sets-tune-picker-list">
+              {filteredTuneOptions.tunes.map(function(tune) {
+                const alreadyAdded = tuneIds.indexOf(tune.id) !== -1
+                const meta = [tune.composer]
+                  .concat(Array.isArray(tune.books) ? tune.books : [])
+                  .concat(Array.isArray(tune.tags) ? tune.tags : [])
+                  .filter(Boolean)
+                  .join(' · ')
+                return (
+                  <li key={tune.id}>
+                    <button
+                      type="button"
+                      className="sets-tune-picker-item"
+                      disabled={alreadyAdded}
+                      onClick={function() { addTuneToDraft(tune.id) }}
+                    >
+                      <span className="sets-tune-picker-name">{tune.name}</span>
+                      {meta ? <span className="sets-tune-picker-meta">{meta}</span> : null}
+                      {alreadyAdded ? <span className="sets-tune-picker-added">Added</span> : null}
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          ) : hasTuneSearch ? (
+            <p className="app-text-muted" style={{ marginBottom: 0 }}>No tunes match your search.</p>
+          ) : null}
+        </div>
 
         <h3 className="sets-page-set-items-heading">Tunes in list ({tuneIds.length})</h3>
         {tuneIds.length === 0 ? (

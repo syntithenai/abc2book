@@ -1064,6 +1064,16 @@ a.header-now-playing-label:focus {
   background: var(--app-brand-subtle, rgba(58, 130, 220, 0.12));
 }
 
+.sets-tune-picker-item:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.sets-tune-picker-item:disabled:hover,
+.sets-tune-picker-item:disabled:focus-visible {
+  background: transparent;
+}
+
 .sets-tune-picker-item:last-child {
   border-bottom: 0;
 }
@@ -1072,7 +1082,8 @@ a.header-now-playing-label:focus {
   font-weight: 600;
 }
 
-.sets-tune-picker-meta {
+.sets-tune-picker-meta,
+.sets-tune-picker-added {
   font-size: 0.85em;
   color: var(--app-text-muted, #666);
 }
@@ -1649,6 +1660,13 @@ a.header-now-playing-label:focus {
   font-size: 0.95rem;
   color: #6c757d;
   word-break: break-word;
+}
+
+.account-modal-tempo {
+  width: 100%;
+  margin-top: 1.25rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #dee2e6;
 }
 
 .account-modal-footer {
@@ -7370,6 +7388,25 @@ button img:after {
   flex-shrink: 0;
 }
 
+/* Isolated chords overflow the lyric column. Extra width is applied only when
+   the next chord is close enough that the labels would otherwise collide. */
+.chordpro-chord--overflow {
+  width: 0;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
+}
+
+.chordpro-token--needs-gap {
+  flex-shrink: 0;
+}
+
+.chordpro-token--needs-gap .chordpro-chord--symbol {
+  padding-right: 0.4em;
+  box-sizing: content-box;
+  word-spacing: 0.35em;
+}
+
 .lyrics-section-header {
   font-weight: bold;
   font-size: 1.05em;
@@ -8355,6 +8392,10 @@ button.lyrics-chords-transpose-preview {
   background: #fff;
 }
 
+.lyric-chord-align-from-notation {
+  margin: 0 0 0.75em;
+}
+
 .lyric-chord-align-hint {
   margin: 0 0 0.85em;
 }
@@ -8436,6 +8477,17 @@ button.lyrics-chords-transpose-preview {
   min-width: 2.4em;
 }
 
+.lyric-chord-align-letter--chord-gap {
+  flex-shrink: 0;
+  min-width: calc(var(--chord-label-ch, 1) * 0.65em + 0.4em);
+}
+
+.lyric-chord-align-letter--space.lyric-chord-align-letter--chord-gap,
+.lyric-chord-align-letter--pad.lyric-chord-align-letter--chord-gap,
+.lyric-chord-align-letter--has-chord.lyric-chord-align-letter--chord-gap {
+  min-width: max(2.4em, calc(var(--chord-label-ch, 1) * 0.65em + 0.4em));
+}
+
 .lyric-chord-align-letter--pad .lyric-chord-align-char {
   min-width: 2.4em;
   border-bottom: 1px dotted #c5d0dc;
@@ -8449,6 +8501,11 @@ button.lyrics-chords-transpose-preview {
   white-space: nowrap;
   pointer-events: auto;
   z-index: 1;
+}
+
+.lyric-chord-align-letter--chord-gap .lyric-chord-align-chord {
+  left: 0;
+  transform: none;
 }
 
 .lyric-chord-align-chord--draggable:active {

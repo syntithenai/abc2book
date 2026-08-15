@@ -22,6 +22,7 @@ import { linkUriString } from '../tuneLinkUri'
 import { showResolverLoginToastForAuthError } from '../resolverLoginToast'
 import useGoogleDocument from '../useGoogleDocument'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { formatPlaybackSeconds } from '../mediaPlaybackUtils'
 import './LinkPlayRangeModal.css'
 
 const YT_PLAYING = 1
@@ -40,13 +41,6 @@ function formatBoundarySeconds(seconds) {
   if (!Number.isFinite(seconds) || seconds <= 0) return ''
   const rounded = Math.round(seconds * 100) / 100
   return String(rounded)
-}
-
-function formatClock(seconds) {
-  const total = Math.max(0, Math.floor(seconds || 0))
-  const minutes = Math.floor(total / 60)
-  const remainder = total % 60
-  return minutes + ':' + String(remainder).padStart(2, '0')
 }
 
 function normalizePreviewLink(link) {
@@ -162,6 +156,10 @@ function DualRangeSlider({ duration, startSeconds, endSeconds, onChangeStart, on
         style={{ left: startPct + '%' }}
         disabled={inactive}
         aria-label="Play range start"
+        aria-valuemin={0}
+        aria-valuemax={max}
+        aria-valuenow={start}
+        aria-valuetext={formatPlaybackSeconds(start) + ' seconds'}
         onPointerDown={function(e) {
           if (inactive) return
           e.stopPropagation()
@@ -178,6 +176,10 @@ function DualRangeSlider({ duration, startSeconds, endSeconds, onChangeStart, on
         style={{ left: endPct + '%' }}
         disabled={inactive}
         aria-label="Play range end"
+        aria-valuemin={0}
+        aria-valuemax={max}
+        aria-valuenow={end}
+        aria-valuetext={formatPlaybackSeconds(end) + ' seconds'}
         onPointerDown={function(e) {
           if (inactive) return
           e.stopPropagation()
@@ -739,8 +741,8 @@ export default function LinkPlayRangeModal({
             {playing ? (pauseIcon || 'Pause') : (playIcon || 'Play')}
           </Button>
           <span className="link-play-range-time">
-            {formatClock(currentTime)}
-            {duration > 0 ? ' / ' + formatClock(duration) : ''}
+            {formatPlaybackSeconds(currentTime)}
+            {duration > 0 ? ' / ' + formatPlaybackSeconds(duration) : ''}
           </span>
           <div className="link-play-range-scan">
             <LinkPlaybackRegionScanControls
@@ -769,6 +771,7 @@ export default function LinkPlayRangeModal({
             value={duration > 0 ? Math.min(currentTime, duration) : 0}
             disabled={!(duration > 0)}
             aria-label="Seek playback"
+            aria-valuetext={formatPlaybackSeconds(duration > 0 ? Math.min(currentTime, duration) : 0) + ' seconds'}
             onInput={function(e) {
               const next = parseFloat(e.target.value)
               if (!Number.isFinite(next)) return
@@ -781,8 +784,8 @@ export default function LinkPlayRangeModal({
             }}
           />
           <div className="link-play-range-slider-labels">
-            <span>{formatClock(startSeconds != null ? startSeconds : 0)}</span>
-            <span>{duration > 0 ? formatClock(endSeconds != null ? endSeconds : duration) : '—'}</span>
+            <span>{formatPlaybackSeconds(startSeconds != null ? startSeconds : 0)}</span>
+            <span>{duration > 0 ? formatPlaybackSeconds(endSeconds != null ? endSeconds : duration) : '—'}</span>
           </div>
           <DualRangeSlider
             duration={duration}

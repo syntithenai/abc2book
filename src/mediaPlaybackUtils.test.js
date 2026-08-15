@@ -1,4 +1,5 @@
 import {
+  formatPlaybackSeconds,
   getFirstAudioMediaLinkIndex,
   getDefaultLoopMediaLinkIndex,
   resolveLoopEditorLinkIndex,
@@ -83,6 +84,17 @@ describe('mediaPlaybackUtils loop helpers', function() {
       isMediaPlaybackRoute: function() { return false; },
     };
     expect(isMediaLoopTabEnabled(tuneYoutubeOnly, mediaController, isYoutubeLink)).toBe(true);
+  });
+});
+
+describe('formatPlaybackSeconds', function() {
+  test('formats times as seconds never minutes:seconds', function() {
+    expect(formatPlaybackSeconds(0)).toBe('0');
+    expect(formatPlaybackSeconds(12.5)).toBe('12.5');
+    expect(formatPlaybackSeconds(200)).toBe('200');
+    expect(formatPlaybackSeconds(-3)).toBe('0');
+    expect(formatPlaybackSeconds('not-a-number')).toBe('0');
+    expect(formatPlaybackSeconds(12.5)).not.toMatch(/:/);
   });
 });
 

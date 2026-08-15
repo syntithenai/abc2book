@@ -16,6 +16,7 @@ import {
   youtubeAutoplayAppearsBlocked,
   shouldShowTapToPlayFromYoutubePoll,
   shouldSuppressTapToPlayDuringQueueAdvance,
+  shouldKeepPlayingThroughAutoplayBlock,
   shouldAllowPlaybackEndDespiteGuards,
   shouldDismissTapToPlayModalWithoutStop,
   canResumePlayback,
@@ -251,6 +252,36 @@ describe('autoplay and tap-to-play', function() {
     expect(shouldShowTapToPlayFromYoutubePoll(
       playing, 1, 1, YT_STATE.UNSTARTED, true, { playbackTransitionGuardActive: false, playbackStarted: false }
     )).toBe(true)
+  })
+
+  test('playlist skip/auto-advance keeps playing instead of showing tap-to-play', function() {
+    expect(shouldKeepPlayingThroughAutoplayBlock({
+      playingIntent: true,
+      userPaused: false,
+      queueAutoAdvance: true,
+    })).toBe(true)
+    expect(shouldKeepPlayingThroughAutoplayBlock({
+      playingIntent: true,
+      userPaused: false,
+      playlistKeepPlaying: true,
+      playbackStarted: false,
+    })).toBe(true)
+    expect(shouldSuppressTapToPlayDuringQueueAdvance({
+      playingIntent: true,
+      userPaused: false,
+      playbackStarted: false,
+      playlistKeepPlaying: true,
+    })).toBe(true)
+    expect(shouldShowTapToPlayFromYoutubePoll(
+      snap({ playingIntent: true }),
+      1, 1, YT_STATE.UNSTARTED, true,
+      { playbackStarted: false, playlistKeepPlaying: true }
+    )).toBe(false)
+    expect(shouldKeepPlayingThroughAutoplayBlock({
+      playingIntent: true,
+      userPaused: true,
+      queueAutoAdvance: true,
+    })).toBe(false)
   })
 
   test('autoplay recovery does not run while paused or during seek guard', function() {

@@ -153,12 +153,24 @@ export function youtubeAutoplayAppearsBlocked(snapshot, ytPlayerState) {
  */
 export function shouldSuppressTapToPlayDuringQueueAdvance(flags) {
   const f = flags || {}
-  return !!(
-    f.playbackTransitionGuardActive
-    && f.playingIntent
-    && !f.userPaused
-    && !f.playbackStarted
-  )
+  if (f.userPaused || f.playbackStarted) return false
+  if (!f.playingIntent) return false
+  if (f.playbackTransitionGuardActive) return true
+  if (f.manualSkipActive || f.playlistKeepPlaying) return true
+  return false
+}
+
+/**
+ * Playlist next/auto-advance must not surface the tap-to-play modal: retry or
+ * skip to the next playable track instead of stopping.
+ */
+export function shouldKeepPlayingThroughAutoplayBlock(flags) {
+  const f = flags || {}
+  if (f.userPaused) return false
+  if (!f.playingIntent) return false
+  if (f.manualSkipActive || f.playlistKeepPlaying) return true
+  if (f.queueAutoAdvance) return true
+  return shouldSuppressTapToPlayDuringQueueAdvance(f)
 }
 
 /**
@@ -190,6 +202,9 @@ export function shouldShowTapToPlayFromYoutubePoll(
     playingIntent: snapshot.playingIntent,
     userPaused: snapshot.userPaused,
     playbackStarted: opts.playbackStarted,
+    manualSkipActive: opts.manualSkipActive,
+    playlistKeepPlaying: opts.playlistKeepPlaying,
+    queueAutoAdvance: opts.queueAutoAdvance,
   })) {
     return false
   }

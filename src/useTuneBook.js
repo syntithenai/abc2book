@@ -34,7 +34,6 @@ import {
   sortTunesForQueue,
   tuneIdsFromTunes,
   clampTuneIds,
-  shouldSuppressFollowNavigate,
   resolvePlaybackForItem,
   isLessonQueue,
   isExternalQueueItem,
@@ -49,7 +48,12 @@ import {
 } from './nowPlayingQueuePlayback'
 import { playExternalMediaItem } from './standaloneMediaPlayback'
 import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
-import { queuePlaylistTrackAnnouncement } from './playlistTitleAnnouncement'
+import {
+  enqueueManualPlaylistSkip,
+  isManualPlaylistSkipActive,
+  getManualPlaylistSkipSession,
+  runPlaylistQueueSkip,
+} from './playlistManualSkip'
 import { announceFootPedalOpeningTune } from './footPedalOpeningToast'
 import { playLessonYoutube, isLessonYoutubePlaying } from './lessonYoutubePlayer'
 import { pruneDeletedTunesFromPlaylists } from './playlistTunePrune'
@@ -99,6 +103,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   const saveTuneInProgressRef = useRef(false)
   const liveTunesRef = useRef(tunes)
   liveTunesRef.current = tunes
+  const nowPlayingQueueRef = useRef(nowPlayingQueue)
+  nowPlayingQueueRef.current = nowPlayingQueue
   const tunesHydratedRef = useRef(!!tunesHydrated)
   tunesHydratedRef.current = !!tunesHydrated
 
@@ -360,86 +366,39 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   }
 
   function navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, options) {
-    if (!isQueueActive(nowPlayingQueue) || !setNowPlayingQueue) return false
+    if (!isQueueActive(nowPlayingQueueRef.current) || !setNowPlayingQueue) return false
     var opts = options || {}
-    var mediaController = opts.mediaController
-    var forceNavigate = !!opts.forceNavigate
-    var startPlayback = !!opts.startPlayback
-    var syncIndex = nowPlayingQueue.currentIndex
-    if (currentSongId) {
-      var found = nowPlayingQueue.items.findIndex(function(item) {
-        return sameTuneId(queueItemTuneId(item), currentSongId)
-      })
-      if (found === -1) return false
-      syncIndex = found
+    var keepPlaying = !!opts.startPlayback
+    if (isManualPlaylistSkipActive() && getManualPlaylistSkipSession().keepPlaying) {
+      keepPlaying = true
     }
-    var synced = Object.assign({}, nowPlayingQueue, {
-      currentIndex: syncIndex,
-      previewOnce: forceNavigate ? null : nowPlayingQueue.previewOnce,
-    })
-    var stepDirection = direction >= 0 ? 1 : -1
-    var playbackMode = playbackModeFromPathname(locationPathname)
-    var tunebookApi = playbackApi()
-
-    advanceQueueToNextPlayable(synced, tunes, tunebookApi, {
-      direction: stepDirection,
-      advanceFirst: true,
+    enqueueManualPlaylistSkip(direction, keepPlaying)
+    if (keepPlaying && opts.mediaController && opts.mediaController.unlockAudioFromUserGesture) {
+      opts.mediaController.unlockAudioFromUserGesture()
+    } else if (keepPlaying && opts.mediaController && opts.mediaController.preparePlaybackFromUserGesture) {
+      opts.mediaController.preparePlaybackFromUserGesture()
+    }
+    runPlaylistQueueSkip({
+      getQueue: function() { return nowPlayingQueueRef.current },
+      getTunes: function() { return liveTunesRef.current },
+      setQueue: setNowPlayingQueue,
+      tunes: liveTunesRef.current,
+      tunebook: playbackApi(),
+      mediaController: opts.mediaController,
+      navigate: navigateFn || navigate,
+      locationPathname: locationPathname,
+      setPlaylist: setPlaylist,
+      practiceSessionActive: isPracticeSessionActive(),
+      forceNavigate: !!opts.forceNavigate,
+      currentSongId: currentSongId,
+      failCallback: failCallback,
       isYoutubeLink: utils.isYoutubeLink,
-      playbackMode: playbackMode,
-      wrapManualNavigation: true,
-    }).then(function(result) {
-      if (result.atEnd || !result.item) {
-        if (startPlayback) stopPlaylistPlayback(mediaController)
-        if (failCallback) failCallback(stepDirection > 0 ? 'end' : 'start')
-        return
-      }
-
-      var nextQueue = result.queue
-      var item = result.item
-      var tune = result.tune
-      var tuneId = queueItemTuneId(item)
-      var isExternal = isExternalQueueItem(item)
-
-      setNowPlayingQueue(nextQueue)
-      if (isExternal) {
-        if (mediaController && startPlayback && mediaController.abortPlayingIntent) {
-          mediaController.abortPlayingIntent()
-        }
-        if (startPlayback) {
-          if (isLessonExternalMedia(item.externalMedia)) {
-            playLessonYoutube({ fromUserGesture: true })
-          } else {
-            playExternalMediaItem(item.externalMedia, mediaController, { play: true, fromUserGesture: true })
-          }
-        }
-        return
-      }
-      if (!tuneId) return
-
-      maybeAnnounceFootPedalOpening(opts, tune)
-
-      if (mediaController && startPlayback && tune) {
-        playQueueItem(mediaController, tunebookApi, tune, item, { fromUserGesture: true })
-        queuePlaylistTrackAnnouncement(tune)
-      }
-
-      var shouldFollow = forceNavigate || nextQueue.followTune
-      var allowFollow = forceNavigate
-        ? !isPracticeSessionActive()
-        : !shouldSuppressFollowNavigate({
-          pathname: locationPathname,
-          setPlaylist: setPlaylist,
-          practiceSessionActive: isPracticeSessionActive(),
-        })
-      var nav = navigateFn || navigate
-      if (shouldFollow && nav && allowFollow) {
-        setCurrentTune(tuneId)
-        if (startPlayback || !forceNavigate) {
-          navigateToQueueTune(nav, tuneId, item, tunebookApi, tunes)
-        } else {
-          nav('/tunes/' + tuneId)
-        }
-      }
+      playbackMode: playbackModeFromPathname(locationPathname),
+      setCurrentTune: setCurrentTune,
+      announceOpening: opts.announceOpening
+        ? function(tune) { maybeAnnounceFootPedalOpening(opts, tune) }
+        : null,
+      stopPlayback: stopSingleViewPlayback,
     })
     return true
   }
@@ -574,6 +533,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       mediaController,
       isLessonQueue(nowPlayingQueue) && isLessonYoutubePlaying()
     )
+    if (isManualPlaylistSkipActive() && getManualPlaylistSkipSession().keepPlaying) {
+      startPlayback = true
+    }
     // Header / media-controls skip walks search results. An active playlist
     // keeps playing in the background — do not stop it or restart the queue tune.
   // Playlist next/prev uses useQueueNavigation on the transport bar.
@@ -584,6 +546,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     )
     if (preservePlaylistAudio) {
       startPlayback = false
+    } else if (useQueueNavigation) {
+      // Rapid playlist next/prev arms the next track inside runPlaylistQueueSkip.
+      // stop() here would clear playing intent and let a leftover ended event
+      // halt the playlist.
     } else if (mediaController) {
       stopSingleViewPlayback(mediaController)
     }

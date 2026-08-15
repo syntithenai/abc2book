@@ -1,3 +1,5 @@
+import { getGlobalTempoFactor } from './globalTempoSettings';
+
 export const TEMPO_MIN = 0.25;
 export const TEMPO_MAX = 2.0;
 export const PITCH_MIN = -12;
@@ -153,7 +155,7 @@ export function getMediaPlaybackSettings(tune) {
   });
 }
 
-export function getPlaybackSettings(tune) {
+export function getTunePlaybackSettings(tune) {
   if (!tune) {
     return { tempo: 1, pitch: 0, fineTune: 0 };
   }
@@ -169,9 +171,18 @@ export function getPlaybackSettings(tune) {
   };
 }
 
+export function getPlaybackSettings(tune) {
+  const settings = getTunePlaybackSettings(tune);
+  const override = getGlobalTempoFactor();
+  if (override != null) {
+    settings.tempo = override;
+  }
+  return settings;
+}
+
 export function normalizePlaybackFields(tune) {
   if (!tune) return tune;
-  const settings = getPlaybackSettings(tune);
+  const settings = getTunePlaybackSettings(tune);
   tune.playbackTempo = settings.tempo;
   tune.playbackPitch = settings.pitch;
   tune.playbackFineTune = settings.fineTune;

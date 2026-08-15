@@ -6,6 +6,7 @@ import {
   applyNotationChordsToLyricChordPro,
   buildUntransposedNotationChordChart,
   serializeChordProTokenLine,
+  shouldOfferChordsFromNotation,
 } from './applyNotationChordsToLyrics'
 import { linesHaveChordProInlineChords, hasLyricEmbeddedChords } from './chordSheetUtils'
 import { chordNoteLinesFromTune } from './chordBlockMerge'
@@ -186,5 +187,27 @@ describe('applyNotationChordsToLyricChordPro', function() {
     const joined = result.lyricLines.join('\n')
     expect(joined).toMatch(/\[G\]/)
     expect(joined).not.toMatch(/\[A\]/)
+  })
+})
+
+describe('shouldOfferChordsFromNotation', function() {
+  test('offers the action when ABC has quoted chords and lyrics have none', function() {
+    const tune = buildTune(['"Am"CDEF|"G"ABcd|'], ['Amazing grace how sweet'])
+    expect(shouldOfferChordsFromNotation(tune, getPlainLyricLines(tune))).toBe(true)
+  })
+
+  test('hides the action when lyrics already have ChordPro chords', function() {
+    const tune = buildTune(['"Am"CDEF|"G"ABcd|'], ['[Am]Amazing [G]grace'])
+    expect(shouldOfferChordsFromNotation(tune, getPlainLyricLines(tune))).toBe(false)
+  })
+
+  test('hides the action when ABC quotes are only section labels', function() {
+    const tune = buildTune(['"[Verse 1]" CDEF|'], ['Amazing grace how sweet'])
+    expect(shouldOfferChordsFromNotation(tune, getPlainLyricLines(tune))).toBe(false)
+  })
+
+  test('hides the action when ABC has no quoted chords', function() {
+    const tune = buildTune(['CDEF|ABcd|'], ['Amazing grace how sweet'])
+    expect(shouldOfferChordsFromNotation(tune, getPlainLyricLines(tune))).toBe(false)
   })
 })

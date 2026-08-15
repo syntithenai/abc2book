@@ -5,14 +5,45 @@ import {
   alignChordBlocksToLyrics,
   chartBlockHasChords,
   hasLyricEmbeddedChords,
+  linesHaveChordProInlineChords,
   mergeAlignedLyricBlockChords,
   stripChordsFromLyricLines,
+  tokenIsChord,
 } from './chordSheetUtils'
 import {
   chordChartBlocksForTuneDisplay,
   chordNoteLinesFromTune,
 } from './chordBlockMerge'
 import { getPlainLyricLines } from './wLinesUtils'
+
+/**
+ * True when ABC note text contains quoted chord symbols (e.g. `"Am"`),
+ * ignoring section-label quotes such as `"[Verse 1]"`.
+ */
+export function abcTextHasQuotedChords(abcText) {
+  const text = String(abcText || '')
+  const re = /"([^"]*)"/g
+  let match
+  while ((match = re.exec(text)) !== null) {
+    if (tokenIsChord(String(match[1] || '').trim())) return true
+  }
+  return false
+}
+
+/**
+ * Offer a prominent copy-from-notation action when ABC has quoted chords and
+ * the lyrics are not already a ChordPro chord sheet.
+ *
+ * @param {object} tune
+ * @param {string[]|string} lyricLines
+ */
+export function shouldOfferChordsFromNotation(tune, lyricLines) {
+  const lines = Array.isArray(lyricLines)
+    ? lyricLines
+    : String(lyricLines == null ? '' : lyricLines).split(/\r?\n/)
+  if (linesHaveChordProInlineChords(lines)) return false
+  return abcTextHasQuotedChords(chordNoteLinesFromTune(tune).join('\n'))
+}
 
 /**
  * Serialize one ChordProLines token row to a ChordPro inline string.

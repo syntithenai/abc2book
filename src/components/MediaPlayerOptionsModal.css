@@ -13,12 +13,6 @@
 
 .media-playback-region-play-range-group {
   margin-left: auto;
-  flex: 0 0 auto;
-}
-
-.media-playback-region-play-range-group .media-playback-region-play-range-label {
-  font-variant-numeric: tabular-nums;
-  opacity: 1;
 }
 
 .media-playback-region-panel .playback-loop-row {

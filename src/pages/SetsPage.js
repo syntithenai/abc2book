@@ -117,7 +117,6 @@ export default function SetsPage(props) {
   const [editingId, setEditingId] = useState(null);
   const [draft, setDraft] = useState(emptySet());
   const [showGig, setShowGig] = useState(false);
-  const [addTuneId, setAddTuneId] = useState('');
   const [tuneSearchText, setTuneSearchText] = useState('');
   const [debouncedTuneSearchText, setDebouncedTuneSearchText] = useState('');
   const tuneSearchDebounceRef = useRef(null);
@@ -135,7 +134,11 @@ export default function SetsPage(props) {
       .sort(function(a, b) { return String(a.name).localeCompare(String(b.name)); });
   }, [tunes]);
 
+  const hasTuneSearch = debouncedTuneSearchText.trim().length > 0;
   const filteredTuneOptions = useMemo(function() {
+    if (!hasTuneSearch) {
+      return { tunes: [], total: 0, truncated: false };
+    }
     const matches = tuneOptions.filter(function(tune) {
       return tuneMatchesSearch(tune, debouncedTuneSearchText);
     });
@@ -144,7 +147,7 @@ export default function SetsPage(props) {
       total: matches.length,
       truncated: matches.length > SET_TUNE_PICKER_LIMIT,
     };
-  }, [tuneOptions, debouncedTuneSearchText]);
+  }, [tuneOptions, debouncedTuneSearchText, hasTuneSearch]);
 
   const filteredSets = useMemo(function() {
     return sets.filter(function(setRecord) {
@@ -182,7 +185,6 @@ export default function SetsPage(props) {
     if (tuneSearchDebounceRef.current) clearTimeout(tuneSearchDebounceRef.current);
     tuneSearchDebounceRef.current = setTimeout(function() {
       setDebouncedTuneSearchText(tuneSearchText);
-      setAddTuneId('');
     }, 250);
     return function() {
       if (tuneSearchDebounceRef.current) clearTimeout(tuneSearchDebounceRef.current);
@@ -304,12 +306,10 @@ export default function SetsPage(props) {
   }
 
   function addTuneToDraft(tuneId) {
-    const id = tuneId || addTuneId;
-    if (!id) return;
+    if (!tuneId) return;
     const nextItems = (draft.items || []).slice();
-    nextItems.push({ type: 'tune', tuneId: id });
+    nextItems.push({ type: 'tune', tuneId: tuneId });
     setDraft(Object.assign({}, draft, { items: nextItems }));
-    setAddTuneId('');
   }
 
   function updateDraftTuneNote(index, note) {
@@ -480,34 +480,14 @@ export default function SetsPage(props) {
               token={props.token}
               fieldKind="search"
             />
-            <Form.Select
-              value={addTuneId}
-              onChange={function(e) { setAddTuneId(e.target.value); }}
-            >
-              <option value="">Choose tune…</option>
-              {filteredTuneOptions.tunes.map(function(tune) {
-                const label = tune.composer ? tune.name + ' — ' + tune.composer : tune.name;
-                return <option key={tune.id} value={tune.id}>{label}</option>;
-              })}
-            </Form.Select>
-              <Button
-                size="sm"
-                variant="outline-primary"
-                className="sets-page-add-tune-btn"
-                onClick={function() { addTuneToDraft(); }}
-                disabled={!addTuneId}
-              >
-                {tunebook.icons.add}
-                <span className="sets-page-add-tune-btn-label">Add</span>
-            </Button>
           </div>
+          {hasTuneSearch ? (
             <div className="app-text-muted sets-page-add-tune-count">
-            {debouncedTuneSearchText.trim()
-              ? filteredTuneOptions.total + ' match' + (filteredTuneOptions.total === 1 ? '' : 'es')
-                + (filteredTuneOptions.truncated ? ' (showing first ' + SET_TUNE_PICKER_LIMIT + ')' : '')
-              : tuneOptions.length + ' tune' + (tuneOptions.length === 1 ? '' : 's')}
-          </div>
-          {debouncedTuneSearchText.trim() && filteredTuneOptions.tunes.length > 0 ? (
+              {filteredTuneOptions.total + ' match' + (filteredTuneOptions.total === 1 ? '' : 'es')
+                + (filteredTuneOptions.truncated ? ' (showing first ' + SET_TUNE_PICKER_LIMIT + ')' : '')}
+            </div>
+          ) : null}
+          {hasTuneSearch && filteredTuneOptions.tunes.length > 0 ? (
             <ul className="list-unstyled sets-tune-picker-list">
               {filteredTuneOptions.tunes.map(function(tune) {
                 const meta = [tune.composer]
@@ -529,7 +509,7 @@ export default function SetsPage(props) {
                 );
               })}
             </ul>
-          ) : debouncedTuneSearchText.trim() ? (
+          ) : hasTuneSearch ? (
             <p className="app-text-muted" style={{ marginBottom: 0 }}>No tunes match your search.</p>
           ) : null}
         </div>

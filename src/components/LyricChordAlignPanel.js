@@ -21,6 +21,7 @@ import {
 } from '../lyricChordAlignUtils'
 import { displaySectionHeader } from '../LyricsDisplayLines'
 import { applyChordDisplayTranspose } from '../chordKeyMergeOptions'
+import { chordLetterGapSlotChars, nextAnchorAfterOffset } from '../chordLabelGap'
 
 const DRAG_THRESHOLD_PX = 6
 const PREVENT_SCROLL_FOCUS = { preventScroll: true }
@@ -407,6 +408,18 @@ export default function LyricChordAlignPanel(props) {
       className="lyric-chord-align-panel"
       data-testid="lyric-chord-align-panel"
     >
+      {props.showChordsFromNotation && typeof props.onChordsFromNotation === 'function' ? (
+        <div className="lyric-chord-align-from-notation">
+          <Button
+            variant="warning"
+            data-testid="lyric-chord-align-chords-from-notation"
+            title="Copy chords from the music notation into the lyrics as ChordPro"
+            onClick={props.onChordsFromNotation}
+          >
+            Chords From Notation
+          </Button>
+        </div>
+      ) : null}
       <p className="lyric-chord-align-hint text-muted small">
         Drag chords onto letters or spaces. Extra space at the end of each line
         is for chords after the last word. Click a chord to edit it. Use{' '}
@@ -521,6 +534,17 @@ export default function LyricChordAlignPanel(props) {
               const isSource = dragging && dragState.fromOffset === offset
               const showAdd = !chord && (isPad || isWordStartOffset(text, offset))
               const canAddHere = !chord
+              const nextChordAnchor = displayedChord
+                ? nextAnchorAfterOffset(anchors, offset)
+                : null
+              const gapChars = displayedChord
+                ? chordLetterGapSlotChars(
+                  displayedChord,
+                  offset,
+                  nextChordAnchor && nextChordAnchor.offset
+                )
+                : 0
+              const needsGap = gapChars > 0
               return (
                 <span
                   key={offset}
@@ -529,9 +553,13 @@ export default function LyricChordAlignPanel(props) {
                     + (isSpace ? ' lyric-chord-align-letter--space' : '')
                     + (isPad ? ' lyric-chord-align-letter--pad' : '')
                     + (chord && isSpace ? ' lyric-chord-align-letter--has-chord' : '')
+                    + (needsGap ? ' lyric-chord-align-letter--chord-gap' : '')
                     + (isHover ? ' lyric-chord-align-token--target' : '')
                     + (isSource ? ' lyric-chord-align-token--source' : '')
                   }
+                  style={needsGap
+                    ? { ['--chord-label-ch']: String(gapChars) }
+                    : undefined}
                   data-testid={isPad ? 'lyric-chord-align-trailing-pad' : undefined}
                   ref={function(el) {
                     if (!letterRefs.current[rowIndex]) letterRefs.current[rowIndex] = {}

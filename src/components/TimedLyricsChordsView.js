@@ -28,6 +28,7 @@ import LyricsDisplayLines, {
   lyricBodyWithOptionalBeatMarkers,
 } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
+import { chordTokenNeedsDisplayGap } from '../chordLabelGap';
 
 function transposeChordProTokenLines(tokenLines, semitones, sourceKey) {
   const amount = Number(semitones) || 0;
@@ -158,9 +159,24 @@ function ChordProLines(props) {
     return (
       <div key={lineIndex} className="chordpro-line" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', marginBottom: '0.35em', pageBreakInside: 'avoid' }}>
         {tokens.map(function(token, ti) {
+          const hasChord = !!String(token && token.chord || '').trim();
+          const needsGap = chordTokenNeedsDisplayGap(token, tokens.slice(ti + 1));
           return (
-            <span key={ti} className="chordpro-token" style={{ display: 'inline-flex', flexDirection: 'column' }}>
-              <span className="chordpro-chord" style={{ fontWeight: 'bold', minHeight: '1.25em', lineHeight: '1.25em', whiteSpace: 'pre' }}>{token.chord || '\u00A0'}</span>
+            <span
+              key={ti}
+              className={'chordpro-token' + (needsGap ? ' chordpro-token--needs-gap' : '')}
+              style={{ display: 'inline-flex', flexDirection: 'column', flexShrink: needsGap ? 0 : undefined }}
+            >
+              <span
+                className={
+                  'chordpro-chord'
+                  + (hasChord ? ' chordpro-chord--symbol' : '')
+                  + (hasChord && !needsGap ? ' chordpro-chord--overflow' : '')
+                }
+                style={{ fontWeight: 'bold', minHeight: '1.25em', lineHeight: '1.25em', whiteSpace: 'pre' }}
+              >
+                {token.chord || '\u00A0'}
+              </span>
               <span className="chordpro-lyric" style={{ whiteSpace: 'pre' }}>
                 {lyricBodyWithOptionalBeatMarkers(token.text, keepBeatMarkers)}
               </span>

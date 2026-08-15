@@ -60,7 +60,11 @@ import {
   stripChordsFromLyricLines,
   chartBlockHasChords,
 } from '../chordSheetUtils'
-import { applyNotationChordsToLyricChordPro, buildUntransposedNotationChordChart } from '../applyNotationChordsToLyrics'
+import {
+  applyNotationChordsToLyricChordPro,
+  buildUntransposedNotationChordChart,
+  shouldOfferChordsFromNotation,
+} from '../applyNotationChordsToLyrics'
 import { transposeLyricEmbeddedChords } from '../lyricChordTranspose'
 import { printChordTransposeForTune } from '../capoViewUtils'
 import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
@@ -1189,6 +1193,8 @@ export default function AbcEditor(props) {
           onChange={handleBlockLyricsTextChange}
           chordTranspose={lyricsTransposePreview ? printChordTransposeForTune(tune) : 0}
           sourceKey={tune && tune.key}
+          showChordsFromNotation={shouldOfferChordsFromNotation(tune, blockLyricsText.split('\n'))}
+          onChordsFromNotation={requestChordsFromNotation}
         />
       ) : (
         <textarea

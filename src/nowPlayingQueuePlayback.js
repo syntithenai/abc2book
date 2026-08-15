@@ -69,7 +69,10 @@ export function playQueueItem(mediaController, tunebook, tune, item, options) {
   // Arm kickoff before route/tune commits so MediaPlayerMedia does not replay the
   // previous track while the next queue item is still loading.
   if (opts.deferPlaybackEngine && mediaController.armPlaybackIntent) {
-    mediaController.armPlaybackIntent({ fresh: true })
+    mediaController.armPlaybackIntent({
+      fresh: true,
+      fromUserGesture: !!opts.fromUserGesture,
+    })
   }
 
   mediaController.setTune(tune)
@@ -243,6 +246,7 @@ export async function advanceQueueToPlayableAndStart(params) {
     advanceFirst: advanceFirst !== false,
     isYoutubeLink: isYoutubeLink,
     playbackMode: playbackMode,
+    wrapManualNavigation: !!(params && params.wrapManualNavigation),
   }
   // Prefer the live session token from the media controller over the health-store
   // token so mid-session logout still skips uncached library links.

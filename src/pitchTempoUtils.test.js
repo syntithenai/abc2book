@@ -1,14 +1,22 @@
+import { setGlobalTempoPercent } from './globalTempoSettings';
 import {
   audioFiltersAreNeutral,
   getAudioFilterKeysForStemNames,
   getAudioFilterSettings,
   getMediaPlaybackSettings,
+  getPlaybackSettings,
+  getTunePlaybackSettings,
   normalizeAudioFilters,
+  normalizePlaybackFields,
   pitchShiftIsActive,
   playbackNeedsExternalProcessing,
 } from './pitchTempoUtils';
 
 describe('audio filter settings', function() {
+  beforeEach(function() {
+    localStorage.clear();
+  });
+
   test('defaults all stems to full volume', function() {
     expect(getAudioFilterSettings(null)).toEqual({
       percussion: 1,
@@ -62,5 +70,39 @@ describe('audio filter settings', function() {
     expect(getAudioFilterKeysForStemNames(['drums', 'bass', 'other', 'vocal'])).toEqual([
       'percussion', 'vocals', 'bass', 'other',
     ]);
+  });
+});
+
+describe('global tempo override', function() {
+  const tune = {
+    playbackTempo: 0.5,
+    playbackPitch: 2,
+    playbackFineTune: 10,
+  };
+
+  beforeEach(function() {
+    localStorage.clear();
+  });
+
+  test('uses the song tempo when the profile override is off', function() {
+    expect(getPlaybackSettings(tune).tempo).toBe(0.5);
+    expect(getTunePlaybackSettings(tune).tempo).toBe(0.5);
+  });
+
+  test('replaces the song tempo when the profile override is set', function() {
+    setGlobalTempoPercent(80);
+    expect(getTunePlaybackSettings(tune).tempo).toBe(0.5);
+    expect(getPlaybackSettings(tune)).toEqual({
+      tempo: 0.8,
+      pitch: 2,
+      fineTune: 10,
+    });
+    expect(getMediaPlaybackSettings(tune).tempo).toBe(0.8);
+  });
+
+  test('does not persist the override onto the song', function() {
+    setGlobalTempoPercent(125);
+    const next = normalizePlaybackFields(Object.assign({}, tune));
+    expect(next.playbackTempo).toBe(0.5);
   });
 });

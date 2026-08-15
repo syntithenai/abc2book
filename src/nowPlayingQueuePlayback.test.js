@@ -480,9 +480,16 @@ describe('nowPlayingQueuePlayback', function() {
       hasNotesOrChords: function() { return false },
       hasLinks: function() { return true },
     }
-    playQueueItem(mediaController, tunebook, tune, { tuneId: 'b', prefer: 'auto' }, { deferPlaybackEngine: true })
+    playQueueItem(mediaController, tunebook, tune, { tuneId: 'b', prefer: 'auto' }, {
+      deferPlaybackEngine: true,
+      fromUserGesture: true,
+    })
     expect(callOrder[0]).toBe('armPlaybackIntent')
     expect(callOrder.indexOf('setTune')).toBeGreaterThan(0)
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalledWith({
+      fresh: true,
+      fromUserGesture: true,
+    })
   })
 
   test('handleQueueAdvanceOnEnded skips unplayable tunes and stops when none remain', async function() {

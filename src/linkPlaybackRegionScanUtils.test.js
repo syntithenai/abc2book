@@ -3,6 +3,7 @@ import {
   isPlayRangeScannableLink,
   canAutoScanPlaybackRegion,
   formatLinkPlayRangeLabel,
+  getLinkPlayRangeBoundLabels,
   linkHasConfiguredPlayRange,
 } from './linkPlaybackRegionScanUtils'
 
@@ -35,12 +36,27 @@ describe('linkPlaybackRegionScanUtils', function() {
     })).toBe(false)
   })
 
-  test('formatLinkPlayRangeLabel formats configured start and end times', function() {
+  test('formatLinkPlayRangeLabel formats configured start and end times as seconds', function() {
     expect(formatLinkPlayRangeLabel({ startAt: '', endAt: '' })).toBe('')
-    expect(formatLinkPlayRangeLabel({ startAt: '12.5', endAt: '200' })).toBe('0:12 – 3:20')
-    expect(formatLinkPlayRangeLabel({ startAt: '1:05', endAt: '' })).toBe('1:05 – end')
-    expect(formatLinkPlayRangeLabel({ startAt: '', endAt: '90' })).toBe('start – 1:30')
+    expect(formatLinkPlayRangeLabel({ startAt: '12.5', endAt: '200' })).toBe('12.5 – 200')
+    expect(formatLinkPlayRangeLabel({ startAt: '1:05', endAt: '' })).toBe('65 – end')
+    expect(formatLinkPlayRangeLabel({ startAt: '', endAt: '90' })).toBe('start – 90')
     expect(linkHasConfiguredPlayRange({ startAt: '12', endAt: '' })).toBe(true)
+  })
+
+  test('getLinkPlayRangeBoundLabels uses start/end placeholders when unset', function() {
+    expect(getLinkPlayRangeBoundLabels({ startAt: '', endAt: '' })).toEqual({
+      start: 'start',
+      end: 'end',
+    })
+    expect(getLinkPlayRangeBoundLabels({ startAt: '12.5', endAt: '200' })).toEqual({
+      start: '12.5',
+      end: '200',
+    })
+    expect(getLinkPlayRangeBoundLabels({ startAt: '1:05', endAt: '' })).toEqual({
+      start: '65',
+      end: 'end',
+    })
   })
 
   test('canAutoScanPlaybackRegion requires whisper feature', function() {

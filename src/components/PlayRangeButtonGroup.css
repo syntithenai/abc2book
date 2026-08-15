@@ -1,0 +1,10 @@
+.play-range-button-group {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.play-range-button-group .play-range-button-group-bound {
+  font-variant-numeric: tabular-nums;
+  opacity: 1;
+  min-width: 3.25em;
+}

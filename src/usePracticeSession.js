@@ -4,7 +4,7 @@ import { buildPracticeSessionPlan } from './practiceSessionPlanner'
 import { configurePracticeTunePlayback } from './tunePlaybackActions'
 import { mergePracticeSettings } from './practiceSessionSettings'
 import { recordPracticedTune } from './practiceRecentHistory'
-import { getPlaybackSettings } from './pitchTempoUtils'
+import { getTunePlaybackSettings } from './pitchTempoUtils'
 import { pickPracticeTuneViewMode } from './practiceTuneViewUtils'
 import { getPracticePlaybackRampRatio, interpolatePracticeTempo } from './practiceSessionRamp'
 import * as mediaCacheQueue from './mediaCacheQueue'
@@ -167,7 +167,7 @@ export default function usePracticeSession(options) {
     const endTempo = step.tempoEnd != null ? step.tempoEnd : 1.0
     rampStartedRef.current = true
 
-    const settings = getPlaybackSettings(tune)
+    const settings = getTunePlaybackSettings(tune)
     const pitch = (settings.pitch || 0) + (step.pitchOffset || 0)
     const applyLive = mediaController.applyLivePlaybackSettings || mediaController.updateTunePlaybackSettings
     const liveOptions = { liveTempoOnly: true }
@@ -210,7 +210,7 @@ export default function usePracticeSession(options) {
     }
     const viewMode = pickPracticeTuneViewMode(tune, tunebook)
     setPracticeViewMode(viewMode)
-    const settings = getPlaybackSettings(tune)
+    const settings = getTunePlaybackSettings(tune)
     const pitch = (settings.pitch || 0) + (step.pitchOffset || 0)
     const startTempo = step.tempoStart != null ? step.tempoStart : 0.5
     setCurrentTempo(startTempo)

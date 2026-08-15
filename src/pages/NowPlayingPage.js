@@ -20,10 +20,10 @@ import { hasTuneArtwork } from '../nowPlayingArtwork'
 import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
 import LinkPlayRangeModal from '../components/LinkPlayRangeModal'
+import PlayRangeButtonGroup from '../components/PlayRangeButtonGroup'
 import { resolveLoopEditorLinkIndex } from '../mediaPlaybackUtils'
 import { getActiveMediaSourceId } from '../mediaSourceMenuAccess'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
-import { formatLinkPlayRangeLabel } from '../linkPlaybackRegionScanUtils'
 import { isAndroidApp } from '../platformUtils'
 import { useDocumentTitle } from '../pageTitle'
 import { useOfflinePlayDisabled } from '../components/MediaPlayerButtons'
@@ -144,7 +144,6 @@ export default function NowPlayingPage(props) {
   const midiSourceSelected = getActiveMediaSourceId(mediaController) === 'midi'
     || getLinkSrcType(playRangeLink, isYoutubeLink) === 'midifile'
   const showPlayRangeButton = !!(playRangeLink && !midiSourceSelected)
-  const playRangeLabel = showPlayRangeButton ? formatLinkPlayRangeLabel(playRangeLink) : ''
 
   useEffect(function() {
     if (!showPlayRangeButton && showPlayRangeModal) {
@@ -394,16 +393,12 @@ export default function NowPlayingPage(props) {
                   accessToken={props.token}
                   className="now-playing-page-media-sources-picker"
                   selectTrailing={showPlayRangeButton ? (
-                    <Button
+                    <PlayRangeButtonGroup
+                      link={playRangeLink}
                       variant="outline-primary"
-                      size="sm"
                       className="now-playing-page-play-range-btn"
-                      aria-label="Play Range"
-                      title={playRangeLabel ? ('Play Range (' + playRangeLabel + ')') : 'Play Range'}
                       onClick={function() { setShowPlayRangeModal(true) }}
-                    >
-                      Play Range
-                    </Button>
+                    />
                   ) : null}
                 />
                 {typeof props.onOpenLinksEditor === 'function' ? (

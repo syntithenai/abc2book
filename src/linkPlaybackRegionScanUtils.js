@@ -1,6 +1,6 @@
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { resolverHasFeature } from './resolverFeatures'
-import { formatSecondsToMs, parseMsToSeconds } from './mediaPlaybackUtils'
+import { formatPlaybackSeconds, parseMsToSeconds } from './mediaPlaybackUtils'
 import { linkSupportsPlayRange } from './mediaLinkSrcType'
 import { isHttpMidiUrl, isMidiMimeType } from './midiFileUtils'
 
@@ -49,7 +49,16 @@ export function linkHasConfiguredPlayRange(link) {
 function formatPlayRangeBoundary(value) {
   if (value == null || String(value).trim() === '') return ''
   const seconds = parseMsToSeconds(value)
-  return seconds > 0 ? formatSecondsToMs(seconds) : ''
+  return seconds > 0 ? formatPlaybackSeconds(seconds) : ''
+}
+
+/** Start/end labels for play-range button groups. Unset bounds use "start"/"end". */
+export function getLinkPlayRangeBoundLabels(link) {
+  if (!link) return { start: 'start', end: 'end' }
+  return {
+    start: formatPlayRangeBoundary(link.startAt) || 'start',
+    end: formatPlayRangeBoundary(link.endAt) || 'end',
+  }
 }
 
 /** Human-readable play range for link startAt/endAt, or empty string when unset. */

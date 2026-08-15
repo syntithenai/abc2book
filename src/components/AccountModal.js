@@ -1,4 +1,5 @@
 import { Modal, Button } from 'react-bootstrap'
+import GlobalTempoSlider from './GlobalTempoSlider'
 
 function profilePhotoUrl(user, token, imageError) {
   if (imageError || !(user && user.picture)) return null
@@ -19,7 +20,7 @@ function displayName(user) {
 }
 
 export default function AccountModal(props) {
-  const { show, onHide, user, token, logout, icons, imageError, onImageError } = props
+  const { show, onHide, user, token, logout, icons, imageError, onImageError, mediaController } = props
   const photoUrl = profilePhotoUrl(user, token, imageError)
   const name = displayName(user)
   const email = user && user.email ? user.email : ''
@@ -54,6 +55,9 @@ export default function AccountModal(props) {
           {email && email !== name ? (
             <div className="account-modal-email">{email}</div>
           ) : null}
+        </div>
+        <div className="account-modal-tempo">
+          <GlobalTempoSlider mediaController={mediaController} />
         </div>
       </Modal.Body>
       <Modal.Footer className="account-modal-footer">

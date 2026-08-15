@@ -180,6 +180,41 @@ describe('LyricChordAlignPanel', function() {
     act(function() { root.unmount() })
   })
 
+  test('gives adjacent letter chords a slot wide enough to keep them apart', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'[Cmaj7]A[G7sus4]mazing'} />
+      )
+    })
+    const labels = container.querySelectorAll('[data-testid="lyric-chord-align-chord-label"]')
+    expect(labels.length).toBe(2)
+    expect(labels[0].textContent).toBe('Cmaj7')
+    expect(labels[1].textContent).toBe('G7sus4')
+    const firstSlot = labels[0].closest('.lyric-chord-align-letter--chord-gap')
+    const secondSlot = labels[1].closest('.lyric-chord-align-letter')
+    expect(firstSlot).toBeTruthy()
+    expect(firstSlot.style.getPropertyValue('--chord-label-ch')).toBe('6')
+    expect(secondSlot.classList.contains('lyric-chord-align-letter--chord-gap')).toBe(false)
+    act(function() { root.unmount() })
+  })
+
+  test('does not stretch a word under an isolated chord', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'[Cmaj7]Amazing'} />
+      )
+    })
+    const label = container.querySelector('[data-testid="lyric-chord-align-chord-label"]')
+    const slot = label.closest('.lyric-chord-align-letter')
+    expect(slot.classList.contains('lyric-chord-align-letter--chord-gap')).toBe(false)
+    expect(slot.classList.contains('lyric-chord-align-letter--has-chord')).toBe(false)
+    act(function() { root.unmount() })
+  })
+
   test('saving a chord while transpose preview is on stores concert-pitch names', function() {
     const container = document.createElement('div')
     const root = createRoot(container)
@@ -248,5 +283,42 @@ describe('LyricChordAlignPanel', function() {
     document.body.removeChild(container)
     window.scrollTo = originalScrollTo
     raf.mockRestore()
+  })
+
+  test('hides chords-from-notation until notation chords are offered', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing grace'} />
+      )
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-align-chords-from-notation"]')).toBeNull()
+    act(function() { root.unmount() })
+  })
+
+  test('shows chords-from-notation at the top and calls the dropdown action', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    const onChordsFromNotation = jest.fn()
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel
+          lyricsText={'Amazing grace'}
+          showChordsFromNotation={true}
+          onChordsFromNotation={onChordsFromNotation}
+        />
+      )
+    })
+    const button = container.querySelector('[data-testid="lyric-chord-align-chords-from-notation"]')
+    expect(button).toBeTruthy()
+    expect(button.textContent).toBe('Chords From Notation')
+    const panel = container.querySelector('[data-testid="lyric-chord-align-panel"]')
+    expect(panel.firstElementChild.classList.contains('lyric-chord-align-from-notation')).toBe(true)
+    act(function() {
+      button.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    expect(onChordsFromNotation).toHaveBeenCalledTimes(1)
+    act(function() { root.unmount() })
   })
 })

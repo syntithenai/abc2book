@@ -622,6 +622,7 @@ export default function Header(props) {
             icons={props.tunebook.icons}
             imageError={userImageError}
             onImageError={function() { setUserImageError(true) }}
+            mediaController={props.mediaController}
         />
     </header>
 }

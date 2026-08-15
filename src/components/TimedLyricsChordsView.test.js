@@ -56,4 +56,37 @@ describe('TimedLyricsChordsView transpose', function() {
     expect(text).toMatch(/\bA\b/)
     expect(text).not.toMatch(/\bC\b/)
   })
+
+  test('widens only short lyric fragments that sit under closely adjacent chords', function() {
+    const tune = {
+      name: 'Test',
+      key: 'C',
+      words: ['[Cmaj7]I [G]am Amazing', '[G]Amazing grace how [C]sweet'],
+      voices: {},
+    }
+
+    act(function() {
+      root.render(React.createElement(TimedLyricsChordsView, {
+        tune: tune,
+        suppressLeadingTitle: true,
+      }))
+    })
+
+    const tokens = Array.from(container.querySelectorAll('.chordpro-token'))
+    const labeled = tokens.map(function(token) {
+      const chord = token.querySelector('.chordpro-chord--symbol')
+      return {
+        chord: chord ? chord.textContent : '',
+        needsGap: token.classList.contains('chordpro-token--needs-gap'),
+        overflow: !!token.querySelector('.chordpro-chord--overflow'),
+      }
+    }).filter(function(item) { return !!item.chord })
+
+    expect(labeled).toEqual([
+      { chord: 'Cmaj7', needsGap: true, overflow: false },
+      { chord: 'G', needsGap: false, overflow: true },
+      { chord: 'G', needsGap: true, overflow: false },
+      { chord: 'C', needsGap: false, overflow: true },
+    ])
+  })
 })
