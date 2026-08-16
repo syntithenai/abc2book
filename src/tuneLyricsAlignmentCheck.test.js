@@ -54,6 +54,51 @@ describe('tuneLyricsAlignmentCheck', function() {
     const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
     expect(codes).not.toContain('strain_lyric_count_mismatch');
   });
+
+  test('song form revisits do not count as extra strains', function() {
+    const tune = {
+      id: 'appetite',
+      name: 'Appetite',
+      composer: 'Steve Ryan',
+      meter: '4/4',
+      key: 'Am',
+      noteLength: '1/8',
+      voices: {
+        '1': {
+          notes: [
+            '"Am"zzzzzzzz | "Gm"zzzzzzzz | "F"zzzzzzzz | "Em"zzzzzzzz |',
+            '"Am"zzzzzzzz | "Gm"zzzzzzzz | "Dm"zzzzzzzz | "F"zzzzzzzz ||',
+            '"F"zzzzzzzz | "Am"zzzzzzzz |',
+            '"Em7"zzzzzzzz | "Am"zzzzzzzz |',
+            '"F"zzzzzzzz | "Am"zzzzzzzz |',
+            '"Em7"zzzzzzzz | "F"zzzzzzzz | "F"zzzzzzzz ||',
+            '"Gm"zzzzzzzz | "F"zzzzzzzz | "Gm"zzzzzzzz | "Gm"zzzzzzzz | "Am"zzzzzzzz | "Am"zzzzzzzz ||',
+          ],
+        },
+      },
+      words: [
+        'Appetite - Steve Ryan 13/9/2025',
+        '',
+        '# VERSE',
+        'to do right, got to tame my desire',
+        '',
+        '# CHORUS',
+        'Visceral, orgasmic, gorging light fantastic',
+        '',
+        '# VERSE',
+        'not devastation, to have the revelation',
+        '',
+        '# BRIDGE',
+        'Smorgasbord of finest viddles',
+        '',
+        '# CHORUS',
+      ],
+    };
+    expect(splitMelodyIntoBlocks(tune.voices['1'].notes).length).toBe(3);
+    const result = checkTuneLyricsAlignment(tune);
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('strain_lyric_count_mismatch');
+  });
 });
 
 describe('runNotationChecks', function() {

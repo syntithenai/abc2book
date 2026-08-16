@@ -7,7 +7,7 @@ import {
   normalizeSectionType,
   splitChordChartIntoBlocks,
 } from './chordSheetUtils'
-import { listLyricSections, sectionDisplayTitle } from './lyricStructureUtils'
+import { countFirstOccurrenceLyricSections, listLyricSections, sectionDisplayTitle } from './lyricStructureUtils'
 import { lyricLinesForChecks } from './tuneDisplayLayers'
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
 import { noteLinesForMelodyMerge, splitMelodyStrainsWithBarlines } from './chordBlockMerge'
@@ -128,7 +128,8 @@ export function blocksFromTune(tune, options) {
     composer: tuneObj.composer,
   })
   const withStrains = attachStrainIndicesToBlocks(blocks, strains.length)
-  if (strains.length && withStrains.length && strains.length !== withStrains.length) {
+  const uniqueLyricSections = countFirstOccurrenceLyricSections(withStrains)
+  if (strains.length && uniqueLyricSections && strains.length !== uniqueLyricSections) {
     withStrains.forEach(function(block) {
       block.warnings = (block.warnings || []).concat(['strain_lyric_count_mismatch'])
       block.confidence = Math.min(block.confidence || 1, 0.55)

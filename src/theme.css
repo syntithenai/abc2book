@@ -208,6 +208,29 @@
   --bs-body-bg: var(--app-surface);
   --app-chord-text: #1a4f8b;
   --app-lyrics-section-header: #7a3e00;
+  --app-section-tone-default-bar: #c4a070;
+  --app-section-tone-default-wash: #f4eee6;
+  --app-section-tone-verse-ink: #7a3e00;
+  --app-section-tone-verse-bar: #c48a4a;
+  --app-section-tone-verse-wash: #f6efe4;
+  --app-section-tone-chorus-ink: #1b5f56;
+  --app-section-tone-chorus-bar: #4f9a8e;
+  --app-section-tone-chorus-wash: #e8f3f0;
+  --app-section-tone-prechorus-ink: #6a4e00;
+  --app-section-tone-prechorus-bar: #c4a03a;
+  --app-section-tone-prechorus-wash: #f6f0dc;
+  --app-section-tone-bridge-ink: #5c3d72;
+  --app-section-tone-bridge-bar: #9a78b0;
+  --app-section-tone-bridge-wash: #f2eaf6;
+  --app-section-tone-intro-ink: #2c4f73;
+  --app-section-tone-intro-bar: #6d90b0;
+  --app-section-tone-intro-wash: #e8eef4;
+  --app-section-tone-outro-ink: #3e4c5a;
+  --app-section-tone-outro-bar: #7d8b99;
+  --app-section-tone-outro-wash: #eceef1;
+  --app-section-tone-instrumental-ink: #1a5a78;
+  --app-section-tone-instrumental-bar: #4f92b0;
+  --app-section-tone-instrumental-wash: #e6f2f6;
 }
 
 /* After shared defaults so night wins over [data-color-scheme]. */
@@ -218,6 +241,34 @@
   /* Pale blue so chord symbols stay readable on dark chips/panels. */
   --app-chord-text: #d8e8ff;
   --app-lyrics-section-header: #e0a86a;
+}
+
+[data-color-scheme='night'],
+.gig-mode-modal.gig-mode-night,
+.gig-mode-setlist-modal.gig-mode-night {
+  --app-section-tone-default-bar: #a07848;
+  --app-section-tone-default-wash: #2a241c;
+  --app-section-tone-verse-ink: #e0a86a;
+  --app-section-tone-verse-bar: #c48a4a;
+  --app-section-tone-verse-wash: #2c2418;
+  --app-section-tone-chorus-ink: #8ed4c8;
+  --app-section-tone-chorus-bar: #4f9a8e;
+  --app-section-tone-chorus-wash: #1a2c2a;
+  --app-section-tone-prechorus-ink: #e0c878;
+  --app-section-tone-prechorus-bar: #c4a03a;
+  --app-section-tone-prechorus-wash: #2c2818;
+  --app-section-tone-bridge-ink: #c8a8dc;
+  --app-section-tone-bridge-bar: #9a78b0;
+  --app-section-tone-bridge-wash: #2a2230;
+  --app-section-tone-intro-ink: #9cb8d4;
+  --app-section-tone-intro-bar: #6d90b0;
+  --app-section-tone-intro-wash: #1c2630;
+  --app-section-tone-outro-ink: #b8c0c8;
+  --app-section-tone-outro-bar: #7d8b99;
+  --app-section-tone-outro-wash: #22262c;
+  --app-section-tone-instrumental-ink: #8cc8e0;
+  --app-section-tone-instrumental-bar: #4f92b0;
+  --app-section-tone-instrumental-wash: #1a2830;
 }
 
 body {
@@ -306,6 +357,16 @@ body {
   flex-wrap: wrap;
   margin-bottom: 0.75rem;
   row-gap: 0.25rem;
+}
+
+.App-settings-nested-tabs {
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+  row-gap: 0.25rem;
+}
+
+.App-settings-nested-tabs .nav-link {
+  font-size: 0.95em;
 }
 
 .App-settings-tab-content {
@@ -775,7 +836,7 @@ input[type='checkbox']:not(.form-check-input):not(.settings-offline-media-check-
 }
 
 .lyrics-section-header {
-  color: var(--app-lyrics-section-header);
+  color: var(--section-header-ink, var(--app-lyrics-section-header));
 }
 
 [data-color-scheme='night'] .chord-chart-line {

@@ -309,9 +309,10 @@ export function getTightSvgDimensions(svg) {
 }
 
 /**
- * Shrink abcjs title / subtitle / composer for on-screen display.
- * Print/PDF uses TunePrintSheet HTML headers (and strips T:), so leave those paths alone.
- * Pass as renderAbc `afterParsing` so spacing lands on tune.formatting before engrave.
+ * Screen and print SVG engraving: compact meta, justify the last system, and
+ * ignore ABC page-layout directives (%%scale, %%staffwidth, margins) so our
+ * staffwidth search can fill the available box. TunePrintSheet HTML headers
+ * still own printed titles (T: is stripped from the staff ABC).
  */
 export function applyCompactScreenNotationMeta(tune) {
   if (!tune || !tune.formatting) return;
@@ -343,6 +344,17 @@ export function applyCompactScreenNotationMeta(tune) {
   f.subtitlespace = 0;
   f.musicspace = 2;
   f.topspace = 0;
+  // Always justify the last system so a 4-bar last line matches the lines above.
+  // abcjs default (~66% occupancy) leaves short last systems at natural spacing.
+  f.stretchlast = 1;
+  // Print %%scale / %%staffwidth / page margins must not shrink or inset the
+  // staff. abcjs scale<1 also sets the parent box to the scaled width, which
+  // then clips a full-page SVG via max-width:100%.
+  delete f.scale;
+  delete f.staffwidth;
+  delete f.leftmargin;
+  delete f.rightmargin;
+  delete f.pagewidth;
 }
 
 export function buildGigNotationRenderOptions(visualTranspose) {
@@ -550,6 +562,11 @@ export function applyNotationFit(svg, renderEl, fitResult) {
   renderEl.classList.remove('gig-mode-notation-render--fit-width');
   renderEl.classList.remove('gig-mode-notation-render--wide');
   renderEl.classList.remove('gig-mode-notation-render--scroll-y');
+  // abcjs scale<1 writes a pixel width onto the paper; that then caps the SVG
+  // via max-width:100% so print/gig never reach the column width.
+  renderEl.style.width = '100%';
+  renderEl.style.maxWidth = '100%';
+  renderEl.style.height = '';
   if (fitResult.mode === NOTATION_FIT_VERTICAL) {
     renderEl.classList.add('gig-mode-notation-render--fit-vertical');
     renderEl.style.overflowY = 'hidden';
@@ -746,8 +763,9 @@ function applyVerticalFitViewBox(svg, frame, options) {
 }
 
 /**
- * Scale notation into the viewport. Prefers filling the full height; if the
- * score is still too wide, falls back to contain so every note stays visible.
+ * Scale notation into the viewport. Vertical fit fills height; if the score is
+ * still wider than the page after the staffwidth search, allow horizontal scroll.
+ * Tablature uses width-fit with vertical scroll instead.
  * When paperEl is set (gig mode), measure from that container instead of the window.
  */
 export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
@@ -770,13 +788,13 @@ export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
   const targetH = verticalFitTargetHeight(paper.availH);
   const targetW = horizontalFitTargetWidth(paper.availW);
   const scaleH = targetH / frame.height;
-  const scaleW = targetW / frame.width;
   const preferWidthFit = !!options.preferWidthFit;
   // Tablature stacks extra staves; fitting width keeps notation readable and scrolls vertically.
-  const scale = preferWidthFit ? scaleW : Math.min(scaleH, scaleW);
+  const scale = preferWidthFit ? (targetW / frame.width) : scaleH;
   const width = frame.width * scale;
   const height = frame.height * scale;
   const overflowsVertically = height > targetH + 1;
+  const overflowsHorizontally = !preferWidthFit && width > targetW + 1;
 
   resetSvgInlineSize(svg);
   svg.style.width = width + 'px';
@@ -797,8 +815,9 @@ export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
   renderEl.style.boxSizing = 'border-box';
   renderEl.style.height = paper.availH + 'px';
   renderEl.style.maxHeight = paper.availH + 'px';
-  renderEl.style.overflowX = 'hidden';
+  renderEl.style.overflowX = overflowsHorizontally ? 'auto' : 'hidden';
   renderEl.style.overflowY = preferWidthFit && overflowsVertically ? 'auto' : 'hidden';
+  renderEl.classList.toggle('gig-mode-notation-render--wide', overflowsHorizontally);
   if (preferWidthFit && overflowsVertically) {
     renderEl.classList.add('gig-mode-notation-render--scroll-y');
   }
@@ -807,7 +826,7 @@ export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
     mode: NOTATION_FIT_VERTICAL,
     width: width,
     height: height,
-    overflowX: false,
+    overflowX: overflowsHorizontally,
     overflowY: preferWidthFit && overflowsVertically,
     fillsHeight: !preferWidthFit && scale >= scaleH - 1e-6,
   };

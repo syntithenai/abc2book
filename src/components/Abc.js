@@ -319,8 +319,8 @@ export default function Abc(props) {
         var res = null
         fitAppliedRef.current = false
         if (fitMode === NOTATION_FIT_VERTICAL && !props.hideSvg) {
-          // Keep source line breaks (multi-line layout). Render at page width, then
-          // scale to fill height when that still fits width; otherwise contain.
+          // Keep source line breaks (multi-line layout). Narrow staffwidth when
+          // height-scaling would overflow width, then scale to fill height.
           var renderEl = inputEl.current
           var paper = measureSingleViewPaper(renderEl)
           var pageStaffWidth = (props.staffwidth && props.staffwidth > 0)

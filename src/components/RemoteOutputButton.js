@@ -183,7 +183,7 @@ export default function RemoteOutputButton({
               {!snapcastEnabled ? (
                 <p className="text-muted small mb-1">
                   Enable Snapcast on your home resolver, or set a control URL in{' '}
-                  <Link to="/settings?tab=providers">Settings → Providers</Link>.
+                  <Link to="/settings/providers">Settings → Providers</Link>.
                 </p>
               ) : null}
               {snapcastReason ? <p className="text-muted small mb-1">{snapcastReason}</p> : null}

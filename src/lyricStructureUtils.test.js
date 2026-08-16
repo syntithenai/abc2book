@@ -1,8 +1,10 @@
 import {
   appendLyricSection,
+  firstOccurrenceLyricSectionCount,
   formatLyricSectionHeader,
   lineIndexToCharOffset,
   listLyricSections,
+  lyricLinesHaveSongFormSections,
   normalizeLyricStructure,
   reorderLyricSections,
   serializeLyricStructure,
@@ -304,6 +306,31 @@ describe('lyricStructureUtils', function() {
     expect(formatLyricSectionHeader('# Chorus')).toBe('# Chorus');
     expect(appendLyricSection('[Verse]\nwords', 'Bridge')).toBe('[Verse]\nwords\n\n[Bridge]\n');
     expect(appendLyricSection('', 'Intro')).toBe('[Intro]\n');
+  });
+
+  test('first-occurrence count ignores verse/chorus revisits and title preface', function() {
+    const lyrics = [
+      'Appetite - Steve Ryan 13/9/2025',
+      '',
+      '# VERSE',
+      'to do right, got to tame my desire',
+      '',
+      '# CHORUS',
+      'Visceral, orgasmic, gorging light fantastic',
+      '',
+      '# VERSE',
+      'not devastation, to have the revelation',
+      '',
+      '# BRIDGE',
+      'Smorgasbord of finest viddles',
+      '',
+      '# CHORUS',
+    ];
+    expect(firstOccurrenceLyricSectionCount(lyrics, {
+      title: 'Appetite',
+      composer: 'Steve Ryan',
+    })).toBe(3);
+    expect(lyricLinesHaveSongFormSections(lyrics)).toBe(true);
   });
 
   test('lineIndexToCharOffset maps lines to character offsets', function() {

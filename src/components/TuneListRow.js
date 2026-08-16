@@ -13,6 +13,12 @@ import {
   buildSnapshotTuneLink,
   displayTitleForSearchRow,
 } from '../pdfSnapshotIndex'
+import {
+  musicStatusIconProps,
+  chordStatusIconProps,
+  lyricsStatusIconProps,
+  mediaStatusIconProps,
+} from '../tuneListStatusIcon'
 
 function TuneListRow(props) {
   const row = props.row
@@ -39,6 +45,11 @@ function TuneListRow(props) {
   const showFilterChips = props.showFilterChips !== false
   const selected = props.selected || {}
   const tuneStatus = props.tuneStatus || {}
+  const status = tuneStatus[tune.id]
+  const musicIcon = musicStatusIconProps(status)
+  const chordIcon = chordStatusIconProps(status)
+  const lyricsIcon = lyricsStatusIconProps(status)
+  const mediaIcon = mediaStatusIconProps(status)
 
   const filterChips = showFilterChips ? (
     <TuneListFilterChips
@@ -118,10 +129,24 @@ function TuneListRow(props) {
           {showRowExtras ? (
             <>
               <span className="tune-list-item-icons">
-                <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" aria-label="Has music notation">{props.tunebook.icons.music}</Button> : null}</span>
-                <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary" aria-label="Has chords">{props.tunebook.icons.guitar}</Button> : null}</span>
-                <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary" aria-label="Has lyrics">{props.tunebook.icons.quillpen}</Button> : null}</span>
-                <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLinks) ? <Button variant="outline-primary" aria-label="Has media links">{props.tunebook.icons.link}</Button> : null}</span>
+                <span>{musicIcon ? <Button variant={musicIcon.variant} aria-label={musicIcon.label} title={musicIcon.label}>{props.tunebook.icons.music}</Button> : null}</span>
+                <span>{chordIcon ? <Button variant={chordIcon.variant} aria-label={chordIcon.label} title={chordIcon.label}>{props.tunebook.icons.guitar}</Button> : null}</span>
+                <span>{lyricsIcon ? <Button variant={lyricsIcon.variant} aria-label={lyricsIcon.label} title={lyricsIcon.label}>{props.tunebook.icons.quillpen}</Button> : null}</span>
+                <span>{mediaIcon ? (
+                  <Button
+                    className={mediaIcon.overlayIconKey ? 'tune-list-status-btn tune-list-status-btn--overlay' : 'tune-list-status-btn'}
+                    variant={mediaIcon.variant}
+                    aria-label={mediaIcon.label}
+                    title={mediaIcon.label}
+                  >
+                    {props.tunebook.icons.link}
+                    {mediaIcon.overlayIconKey && props.tunebook.icons[mediaIcon.overlayIconKey] ? (
+                      <span className="tune-list-status-overlay" aria-hidden="true">
+                        {props.tunebook.icons[mediaIcon.overlayIconKey]}
+                      </span>
+                    ) : null}
+                  </Button>
+                ) : null}</span>
               </span>
               <span className="tune-list-boost">
                 <BoostSettingsModal
@@ -139,6 +164,7 @@ function TuneListRow(props) {
           ) : null}
           {showStarToggle ? (
             <StarToggleButton
+              key={tune.id}
               className="tune-list-star-btn"
               tunebook={props.tunebook}
               tune={liveTune}

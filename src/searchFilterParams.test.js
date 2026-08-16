@@ -6,6 +6,7 @@ import {
   isSearchListHash,
   LAST_SEARCH_FILTERS_STORAGE_KEY,
   loadLastSearchFilters,
+  clearLastSearchFilters,
   normalizeFilterList,
   onlyTextFilterDiffers,
   parseSearchFilterParams,
@@ -203,6 +204,23 @@ describe('searchFilterParams', function() {
       albumFilter: [],
       groupBy: 'rhythm',
     })
+  })
+
+  test('clearLastSearchFilters drops the restorable snapshot', function() {
+    localStorage.removeItem(LAST_SEARCH_FILTERS_STORAGE_KEY)
+    saveLastSearchFilters({
+      currentTuneBook: 'Session',
+      filter: 'kesh',
+      tagFilter: [],
+      genreFilter: [],
+      artistFilter: [],
+      albumFilter: [],
+      groupBy: '',
+    })
+    expect(resolveTunesListPath({})).toBe('/tunes?book=Session&q=kesh')
+    clearLastSearchFilters()
+    expect(loadLastSearchFilters()).toBeNull()
+    expect(resolveTunesListPath({})).toBe('/tunes')
   })
 
   test('resolveSearchFilterState prefers live filters then last snapshot', function() {

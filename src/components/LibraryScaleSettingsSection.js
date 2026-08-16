@@ -8,9 +8,8 @@ import {
   setCatalogStorageEnabled,
   isShardedSyncEnabled,
   setShardedSyncEnabled,
-  getSchemaVersion,
 } from '../tuneStorageFlags'
-import { LARGE_LIST_WARNING_THRESHOLD, CURRENT_SCHEMA_VERSION } from '../tuneScaleConstants'
+import { LARGE_LIST_WARNING_THRESHOLD } from '../tuneScaleConstants'
 import { rebuildTextSearchIndexFromTunes } from '../tuneTextSearchIndex'
 import { yieldToMain } from '../tuneListFilter'
 
@@ -120,10 +119,7 @@ export default function LibraryScaleSettingsSection(props) {
 
   return (
     <div className="app-surface-panel App-settings-section">
-      <h2>Large library</h2>
-      <p className="app-text-muted">
-        Tools for tunebooks with thousands of entries. Schema version {getSchemaVersion()} (target {CURRENT_SCHEMA_VERSION}).
-      </p>
+      <h2>Library</h2>
 
       {error ? <Alert variant="danger" onClose={function() { setError('') }} dismissible>{error}</Alert> : null}
       {message ? <Alert variant="info" onClose={function() { setMessage('') }} dismissible>{message}</Alert> : null}

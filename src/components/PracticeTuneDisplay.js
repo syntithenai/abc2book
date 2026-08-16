@@ -19,6 +19,7 @@ import { effectiveNotationLineCount } from '../notationFitSettings'
 import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import {
+  applyCompactScreenNotationMeta,
   findStaffWidthForVerticalFit,
   fitSingleViewVertical,
   measureSingleViewPaper,
@@ -135,7 +136,9 @@ export default function PracticeTuneDisplay(props) {
         abcjs.renderAbc(notationRef.current, staffAbc, Object.assign({
           responsive: 'resize',
           staffwidth: staffWidth,
-        }, buildGigNotationRenderOptions(notationVisualTranspose)))
+        }, buildGigNotationRenderOptions(notationVisualTranspose), {
+          afterParsing: applyCompactScreenNotationMeta,
+        }))
         const svg = notationRef.current && notationRef.current.querySelector('svg')
         if (!svg) return null
         const dims = readNotationSvgDims(svg)

@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 export const AUDIO_GENERATION_JOBS_TAB = 'audio-generation';
 
 export function backgroundJobsAudioGenerationPath() {
-  return '/#/settings?tab=background-jobs&jobsTab=' + AUDIO_GENERATION_JOBS_TAB;
+  return '/#/settings/background-jobs?jobsTab=' + AUDIO_GENERATION_JOBS_TAB;
 }
 
 export function tuneSingleViewPath(tuneId) {

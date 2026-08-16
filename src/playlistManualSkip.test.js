@@ -236,4 +236,30 @@ describe('playlistManualSkip', function() {
     expect(mediaController.setTune).not.toHaveBeenCalled()
     expect(deps.navigate).toHaveBeenCalledWith('/tunes/b')
   })
+
+  test('playlist skip does not change the page when follow is off', async function() {
+    const tunes = { a: midiTune('a'), b: midiTune('b') }
+    let queue = createQueue({ tuneIds: ['a', 'b'], currentIndex: 0, followTune: false })
+    const mediaController = makeController()
+    const deps = {
+      getQueue: function() { return queue },
+      setQueue: function(next) { queue = next },
+      tunes: tunes,
+      tunebook: makeTunebook(),
+      mediaController: mediaController,
+      stopPlayback: jest.fn(),
+      forceNavigate: false,
+      navigate: jest.fn(),
+      setCurrentTune: jest.fn(),
+      locationPathname: '/tunes/a',
+    }
+
+    enqueueManualPlaylistSkip(1, true)
+    const ok = await runPlaylistQueueSkip(deps)
+    expect(ok).toBe(true)
+    expect(queue.currentIndex).toBe(1)
+    expect(mediaController.setTune).toHaveBeenCalledWith(tunes.b)
+    expect(deps.navigate).not.toHaveBeenCalled()
+    expect(deps.setCurrentTune).not.toHaveBeenCalled()
+  })
 })

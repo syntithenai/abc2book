@@ -1,9 +1,15 @@
+import { useEffect, useState } from 'react'
 import { Button } from 'react-bootstrap'
 
 export default function StarToggleButton(props) {
   const tune = props.tune
-  const starred = !!(tune && tune.starred)
+  const starredFromTune = !!(tune && tune.starred)
+  const [starred, setStarred] = useState(starredFromTune)
   const icons = props.tunebook && props.tunebook.icons ? props.tunebook.icons : {}
+
+  useEffect(function() {
+    setStarred(starredFromTune)
+  }, [starredFromTune])
 
   function toggle(e) {
     if (e) {
@@ -11,10 +17,12 @@ export default function StarToggleButton(props) {
       e.stopPropagation()
     }
     if (!tune || !props.tunebook || typeof props.tunebook.saveTune !== 'function') return
-    tune.starred = !starred
+    const nextStarred = !starred
+    tune.starred = nextStarred
+    setStarred(nextStarred)
     props.tunebook.saveTune(tune)
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
-    if (typeof props.onChange === 'function') props.onChange(!!tune.starred)
+    if (typeof props.onChange === 'function') props.onChange(nextStarred)
   }
 
   return (

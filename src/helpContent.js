@@ -463,7 +463,7 @@ export function HelpFootPedal() {
         <li><strong>Scroll down</strong> (default <strong>Page Down</strong>) — scrolls the chart down. At the bottom of the chart, the next press goes to the <strong>next tune</strong> (or next tune in an active performance set).</li>
         <li><strong>Scroll up</strong> (default <strong>Page Up</strong>) — scrolls up. At the top, the next press goes to the <strong>previous tune</strong>.</li>
       </ul>
-      <p>Configure keys and scroll step size in <Link to="/settings">Settings</Link> → <strong>Pedal</strong>. Pair the pedal in your device Bluetooth settings first.</p>
+      <p>Configure keys and scroll step size in <Link to="/settings/personalisation">Settings</Link> → <strong>Personalisation</strong>. Pair the pedal in your device Bluetooth settings first.</p>
       <p>Arrow keys on the tune page still skip directly to the previous/next tune in the list (when not typing in a field).</p>
     </>
   );
@@ -518,13 +518,13 @@ export function HelpMoreFeatures() {
       <ul>
         <li><strong>Performance sets</strong> — Header menu or footer → <strong>Sets</strong> — build gig setlists and play them in fullscreen Gig Mode (<Link to="/gig">/gig</Link>).</li>
         <li><strong>Scratchpad</strong> — Header menu → <strong>Scratchpad</strong> — local drafts (text, images, notation, audio) with tune association (<Link to="/scratchpad">/scratchpad</Link>).</li>
-        <li><strong>Foot pedal scrolling</strong> — Settings → <strong>Foot pedal / page turn</strong> — scroll through charts hands-free; see Help → Foot pedal.</li>
+        <li><strong>Foot pedal scrolling</strong> — Settings → <strong>Personalisation</strong> — scroll through charts hands-free; see Help → Foot pedal.</li>
         <li><strong>Import shared books</strong> — Add → <strong>Bulk</strong> → curated books (or Books page). Open a shared import link from another user to merge a tune book into yours.</li>
         <li><strong>File / Drive / Capture / Paste</strong> on the Add tab stage imports through a review queue (identity, match, optional enrich, field merge) instead of blocking the app. Use <strong>Add From</strong> on the Add form.</li>
         <li><strong>Bulk import</strong> — paste or load a line list (<code>Title</code>, <code>Title by Artist</code>, or <code>Title | url</code>), optionally <strong>Prepare</strong> (normalize + cautious YouTube preselect), then import each tune through the same review queue.</li>
         <li><strong>Songbook Pro</strong> — In Songbook Pro, multi-select songs → Share/Save as → <strong>ChordPro</strong> (batch creates a ZIP) and import that ZIP here. Native <code>.sbp</code> / <code>.sbpbackup</code> files are also supported. MuseScore <code>.mscz</code>, OnSong archives, and iReal Pro <code>.html</code> exports are supported too.</li>
         <li>Google Drive tunebook updates and tunes with a <strong>Source URL</strong> show a non-blocking toast with <strong>Accept</strong> or <strong>Merge</strong> (field-level choices). Whole-book Google import opens a <strong>batch summary</strong> (inserts/updates/duplicates/…) then the review queue.</li>
-        <li><strong>Undo and redo</strong> — Editor toolbar arrow buttons undo/redo recent edits. History is stored locally on this device (not synced). Each tune keeps up to 50 undo steps by default; you can raise the limit in Settings → Appearance (up to 200). Larger limits use more browser storage because each step stores full tune snapshots.</li>
+        <li><strong>Undo and redo</strong> — Editor toolbar arrow buttons undo/redo recent edits. History is stored locally on this device (not synced). Each tune keeps up to 50 undo steps by default; you can raise the limit in Settings → Personalisation (up to 200). Larger limits use more browser storage because each step stores full tune snapshots.</li>
         <li><strong>Download MIDI</strong> — Where available, export generated playback as a MIDI file.</li>
         <li><strong>Stem separation</strong> — After media analysis, <strong>Audio Filters</strong> on playback lets you mix vocals, drums, bass, and other stems for practice.</li>
         <li><strong>Tuner, rhythm, keyboard, chord lookup</strong> — Header menu: <strong>Tuner</strong>, <strong>Rhythm</strong> (metronome and drum grooves), <strong>Keyboard</strong>, <strong>Chords</strong>. See <a href="#tuner">Tuner</a> for string tuning, intonation, and advanced controls.</li>

@@ -27,7 +27,7 @@ describe('audioGenerationToast', function() {
 
   test('backgroundJobsAudioGenerationPath targets audio generation tab', function() {
     expect(backgroundJobsAudioGenerationPath()).toBe(
-      '/#/settings?tab=background-jobs&jobsTab=' + AUDIO_GENERATION_JOBS_TAB
+      '/#/settings/background-jobs?jobsTab=' + AUDIO_GENERATION_JOBS_TAB
     )
     expect(tuneSingleViewPath('tune-1')).toBe('/#/tunes/tune-1')
   })

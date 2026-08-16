@@ -11,6 +11,8 @@ import {
   isRepeatTrack,
   getRepeatMode,
   setRepeatMode,
+  setFollowTune,
+  setShuffle,
 } from './nowPlayingQueue'
 import {
   isQueuePlaybackEngaged,
@@ -35,12 +37,27 @@ function resolveActiveQueue(params) {
   return latest || queue
 }
 
-/** Keep repeat/shuffle prefs from the live queue when persisting a computed next queue. */
+/** Keep repeat/follow/shuffle prefs from the live queue when persisting a computed next queue. */
 function queueWithLatestPlaybackPreferences(nextQueue, getLatestQueue) {
   if (!nextQueue || !getLatestQueue) return nextQueue
   const latest = getLatestQueue()
   if (!latest || !isQueueActive(latest)) return nextQueue
-  return setRepeatMode(nextQueue, getRepeatMode(latest))
+  let merged = setRepeatMode(nextQueue, getRepeatMode(latest))
+  if (Object.prototype.hasOwnProperty.call(latest, 'followTune')) {
+    merged = setFollowTune(merged, latest.followTune)
+  }
+  if (!!latest.shuffle !== !!merged.shuffle) {
+    merged = setShuffle(merged, latest.shuffle)
+  }
+  return merged
+}
+
+function resolveLiveFollowTune(nextQueue, getLatestQueue) {
+  const latest = typeof getLatestQueue === 'function' ? getLatestQueue() : null
+  if (latest && isQueueActive(latest) && Object.prototype.hasOwnProperty.call(latest, 'followTune')) {
+    return !!latest.followTune
+  }
+  return !!(nextQueue && nextQueue.followTune)
 }
 
 /** Merge persisted tunes with any in-memory tunebook map (e.g. freshly materialized mymedia). */
@@ -203,11 +220,13 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
 
   queuePlaylistTrackAnnouncement(tune)
 
-  const shouldFollow = nextQueue.followTune && navigate && !shouldSuppressFollowNavigate({
-    pathname: location && location.pathname,
-    setPlaylist: setPlaylist,
-    practiceSessionActive: practiceSessionActive,
-  })
+  const shouldFollow = resolveLiveFollowTune(nextQueue, getLatestQueue)
+    && navigate
+    && !shouldSuppressFollowNavigate({
+      pathname: location && location.pathname,
+      setPlaylist: setPlaylist,
+      practiceSessionActive: practiceSessionActive,
+    })
   if (shouldFollow) {
     navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes)
   }
@@ -326,7 +345,7 @@ export function handleQueueAdvanceOnEnded(params) {
     const tune = item && tunes ? tunes[item.tuneId] : null
     if (tune && mediaController && isQueueItemPlayable(tune, item, tunebook)) {
       playQueueItem(mediaController, tunebook, tune, item, {})
-      if (restored.followTune && navigate && !shouldSuppressFollowNavigate({
+      if (resolveLiveFollowTune(restored, params.getLatestQueue) && navigate && !shouldSuppressFollowNavigate({
         pathname: location && location.pathname,
         setPlaylist: setPlaylist,
         practiceSessionActive: practiceSessionActive,

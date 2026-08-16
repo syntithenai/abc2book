@@ -28,7 +28,7 @@ import LyricsDisplayLines, {
   lyricBodyWithOptionalBeatMarkers,
 } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
-import { chordTokenNeedsDisplayGap } from '../chordLabelGap';
+import { chordTokenNeedsDisplayGap, chordTokenLyricIsPad, chordTokenShouldOverflow, splitLeadingPickupChordTokens } from '../chordLabelGap';
 
 function transposeChordProTokenLines(tokenLines, semitones, sourceKey) {
   const amount = Number(semitones) || 0;
@@ -158,20 +158,26 @@ function ChordProLines(props) {
     }
     return (
       <div key={lineIndex} className="chordpro-line" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', marginBottom: '0.35em', pageBreakInside: 'avoid' }}>
-        {tokens.map(function(token, ti) {
+        {splitLeadingPickupChordTokens(tokens).map(function(token, ti, displayTokens) {
           const hasChord = !!String(token && token.chord || '').trim();
-          const needsGap = chordTokenNeedsDisplayGap(token, tokens.slice(ti + 1));
+          const isPad = chordTokenLyricIsPad(token);
+          const needsGap = chordTokenNeedsDisplayGap(token, displayTokens.slice(ti + 1));
+          const overflow = chordTokenShouldOverflow(token, displayTokens.slice(ti + 1));
           return (
             <span
               key={ti}
-              className={'chordpro-token' + (needsGap ? ' chordpro-token--needs-gap' : '')}
-              style={{ display: 'inline-flex', flexDirection: 'column', flexShrink: needsGap ? 0 : undefined }}
+              className={
+                'chordpro-token'
+                + (needsGap ? ' chordpro-token--needs-gap' : '')
+                + (isPad && hasChord ? ' chordpro-token--pad' : '')
+              }
+              style={{ display: 'inline-flex', flexDirection: 'column', flexShrink: (needsGap || (isPad && hasChord)) ? 0 : undefined }}
             >
               <span
                 className={
                   'chordpro-chord'
                   + (hasChord ? ' chordpro-chord--symbol' : '')
-                  + (hasChord && !needsGap ? ' chordpro-chord--overflow' : '')
+                  + (overflow ? ' chordpro-chord--overflow' : '')
                 }
                 style={{ fontWeight: 'bold', minHeight: '1.25em', lineHeight: '1.25em', whiteSpace: 'pre' }}
               >
@@ -252,7 +258,7 @@ function renderPerLineAbcBlocks(props) {
         {Array.isArray(block.prefaceLines) && block.prefaceLines.map(function(line, pi) {
           return <div key={'preface-' + pi} className="lyrics-preface music-tune-heading">{line}</div>;
         })}
-        <SectionHeader label={displaySectionHeader(block.header)} />
+        <SectionHeader label={displaySectionHeader(block.header)} source={block.header} />
         {useInline ? (
           <ChordProLines tokenLines={inlineTokens} keepBeatMarkers={keepBeatMarkers} />
         ) : (
@@ -404,7 +410,7 @@ export default function TimedLyricsChordsView(props) {
               }
               if (item.type === 'header') {
                 return (
-                  <SectionHeader key={index} label={displaySectionHeader(item.text)} />
+                  <SectionHeader key={index} label={displaySectionHeader(item.text)} source={item.text} />
                 );
               }
               if (item.type === 'chord') {
@@ -475,7 +481,7 @@ export default function TimedLyricsChordsView(props) {
               if (applyLeadingMeter) leadingMeterPending = false;
               return (
                 <div key={bi} className="chord-lyric-block">
-                  <SectionHeader label={displaySectionHeader(block.header)} />
+                  <SectionHeader label={displaySectionHeader(block.header)} source={block.header} />
                   {showChart && (
                     <ChordChartBlock
                       chart={block.chart}
@@ -519,7 +525,7 @@ export default function TimedLyricsChordsView(props) {
             return <div key={index} className="chord-sheet-spacer" aria-hidden="true" />;
           }
           if (item.type === 'header') {
-            return <SectionHeader key={index} label={displaySectionHeader(item.text)} />;
+            return <SectionHeader key={index} label={displaySectionHeader(item.text)} source={item.text} />;
           }
           if (item.type === 'chord') {
             return (
@@ -561,7 +567,7 @@ export default function TimedLyricsChordsView(props) {
             return <div key={index} className="chordpro-line-spacer" aria-hidden="true" />;
           }
           if (isSectionHeader(trimmed)) {
-            return <SectionHeader key={index} label={displaySectionHeader(trimmed)} />;
+            return <SectionHeader key={index} label={displaySectionHeader(trimmed)} source={trimmed} />;
           }
           return (
             <ChordProLines

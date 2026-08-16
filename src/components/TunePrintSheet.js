@@ -22,6 +22,7 @@ import { prepareGigStaffDisplayAbc } from '../notation/notationDisplayAbc';
 import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
 import {
+  applyCompactScreenNotationMeta,
   buildGigNotationRenderOptions,
   findStaffWidthForHorizontalFit,
   fitNotationSvg,
@@ -321,7 +322,9 @@ export default function TunePrintSheet(props) {
       const displayTune = Object.assign({}, visibleTune, { transpose: printDisplayTranspose });
       const displayAbc = buildAbcWithNoteSpacing(displayTune, tunebook.abcTools, { includeLyrics: false });
       const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate);
-      const renderOptions = buildGigNotationRenderOptions(printDisplayTranspose);
+      const renderOptions = Object.assign({}, buildGigNotationRenderOptions(printDisplayTranspose), {
+        afterParsing: applyCompactScreenNotationMeta,
+      });
 
       function renderAtStaffWidth(staffWidth) {
         renderEl.innerHTML = '';

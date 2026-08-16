@@ -1,7 +1,9 @@
 import abcjs from 'abcjs';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import { formatTuneDisplayName } from './tuneDisplayName';
-import { flattenMelodyText } from './lyricBarAlignmentUtils';
+import { flattenMelodyText, splitMelodyIntoBlocks } from './lyricBarAlignmentUtils';
+import { firstOccurrenceLyricSectionCount, lyricLinesHaveSongFormSections } from './lyricStructureUtils';
+import { getLyricLines } from './wLinesUtils';
 import { parseVoiceEvents } from './notation/voiceEventModel';
 import { parseNoteLengthDecimal } from './notation/beatGrid';
 import { parseTempoBpm } from './tempoRange';
@@ -181,12 +183,20 @@ function checkDuplicateVoiceContent(tune) {
   return issues;
 }
 
-function checkMissingRepeatSecondTime(noteLines) {
+function checkMissingRepeatSecondTime(noteLines, tune) {
   const flat = flattenMelodyText(noteLines);
   if (!flat) return null;
   const strains = flat.split(/\|\||::|\|:/).filter(function(part) { return part.trim(); });
   if (strains.length < 3) return null;
   if (/\|:|:\||::/.test(flat)) return null;
+  const lyricLines = getLyricLines(tune);
+  const lyricOpts = { title: tune && tune.name, composer: tune && tune.composer };
+  // Verse/chorus/bridge songs use || as section breaks. ABC repeats would play
+  // a strain twice in a row and break V–C–V–B form.
+  if (lyricLinesHaveSongFormSections(lyricLines, lyricOpts)) return null;
+  const uniqueSections = firstOccurrenceLyricSectionCount(lyricLines, lyricOpts);
+  const melodyBlocks = splitMelodyIntoBlocks(noteLines).length;
+  if (uniqueSections >= 2 && uniqueSections === melodyBlocks) return null;
   return issue(
     'missing_repeat_second_time',
     'Multiple strains without repeat marks — second strain may need |: :|',
@@ -243,7 +253,7 @@ export function checkTuneAbcExtended(tune, options) {
 
   issues.push.apply(issues, checkDuplicateVoiceContent(tune));
 
-  const repeatIssue = checkMissingRepeatSecondTime(noteLines);
+  const repeatIssue = checkMissingRepeatSecondTime(noteLines, tune);
   if (repeatIssue) issues.push(repeatIssue);
 
   const staleChord = checkStaleChordInMelody(tune);

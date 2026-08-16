@@ -34,7 +34,7 @@ import {
   tokenIsChord,
   tokenIsChartStructureMarker,
 } from './chordSheetUtils'
-import { listLyricSections, sectionDisplayTitle } from './lyricStructureUtils'
+import { countFirstOccurrenceLyricSections, listLyricSections, sectionDisplayTitle } from './lyricStructureUtils'
 import { normalizeMeter, getBarModel, beatPositionsForBarChords } from './barModel'
 import { normalizeKeySignature } from './keySignatureNormalize'
 import {
@@ -1111,7 +1111,8 @@ export function buildUnifiedBlocks(options) {
       }
     })
     blocks = enrichBlocksWithNotationMarkerFlags(blocks, noteLines)
-    if (lyricSections.length && lyricSections.length !== blocks.length) {
+    const uniqueLyricSections = countFirstOccurrenceLyricSections(lyricSections)
+    if (uniqueLyricSections && uniqueLyricSections !== blocks.length) {
       warnings.push(mergeFailure(
         'strain_lyric_count_mismatch',
         'Lyric sections and chord blocks differ — titles are approximate.'
@@ -1120,7 +1121,8 @@ export function buildUnifiedBlocks(options) {
     return { blocks: blocks, warnings: warnings, abcHash: hashAbcNotes(noteLines) }
   }
 
-  if (lyricSections.length && lyricSections.length !== strains.length) {
+  const uniqueLyricSections = countFirstOccurrenceLyricSections(lyricSections)
+  if (uniqueLyricSections && uniqueLyricSections !== strains.length) {
     warnings.push(mergeFailure(
       'strain_lyric_count_mismatch',
       'Lyric sections and melody strains differ — titles are approximate.'

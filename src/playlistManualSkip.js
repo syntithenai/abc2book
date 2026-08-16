@@ -175,8 +175,9 @@ function landQueueItem(deps, result, keepPlaying) {
   }
 
   const nextQueue = result.queue
+  const liveQueue = typeof deps.getQueue === 'function' ? deps.getQueue() : nextQueue
   const forceNavigate = !!deps.forceNavigate
-  const shouldFollow = forceNavigate || (nextQueue && nextQueue.followTune)
+  const shouldFollow = forceNavigate || !!(liveQueue && liveQueue.followTune)
   const allowFollow = forceNavigate
     ? !deps.practiceSessionActive
     : !shouldSuppressFollowNavigate({

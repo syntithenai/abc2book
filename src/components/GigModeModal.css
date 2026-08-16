@@ -84,9 +84,9 @@
 
 .gig-mode-modal.gig-mode-night .chord-section-header,
 .gig-mode-modal.gig-mode-night .lyrics-section-header {
-  background-color: var(--app-brand-muted);
-  border-left-color: var(--app-border-strong);
-  color: var(--app-lyrics-section-header);
+  background-color: var(--section-header-wash, var(--app-brand-muted));
+  border-left-color: var(--section-header-bar, var(--app-border-strong));
+  color: var(--section-header-ink, var(--app-lyrics-section-header));
 }
 
 .gig-mode-modal.gig-mode-night .chord-block-diagram-toolbar {

@@ -1,6 +1,7 @@
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
 import { formatTuneDisplayName } from './tuneDisplayName'
 import { splitIntoBlocks } from './chordSheetUtils'
+import { firstOccurrenceLyricSectionCount } from './lyricStructureUtils'
 import {
   buildNotationLineBarMap,
   detectBarsPerLyricLine,
@@ -136,7 +137,10 @@ function checkVisualLineBreakMidBar(noteLines) {
 
 function checkStrainLyricCount(tune, noteLines) {
   const melodyBlocks = splitMelodyIntoBlocks(noteLines).length
-  const lyricsBlocks = lyricBlockCount(tune)
+  const lyricsBlocks = firstOccurrenceLyricSectionCount(getLyricLines(tune), {
+    title: tune.name,
+    composer: tune.composer,
+  })
   if (lyricsBlocks > 1 && melodyBlocks > 0 && lyricsBlocks !== melodyBlocks) {
     return issue(
       'strain_lyric_count_mismatch',

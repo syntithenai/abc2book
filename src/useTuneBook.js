@@ -16,7 +16,7 @@ import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 import { linkUriString } from './tuneLinkUri'
 import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
-import { filterTunes } from './tuneListFilter'
+import { filterTunes, GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED } from './tuneListFilter'
 import { resolveCandidateTuneIds } from './tuneCandidateFilter'
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
@@ -455,7 +455,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     useTunes.sort(function(a, b) {
       return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
     })
-    if (!resolvedGroupBy || resolvedGroupBy === 'tuneStatus') {
+    if (!resolvedGroupBy || resolvedGroupBy === GROUP_BY_TUNE_STATUS || resolvedGroupBy === GROUP_BY_TUNE_STATUS_DETAILED) {
       // tuneStatus groups are computed in IndexLayout; without list state, fall back to alpha order.
       return useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
     }
@@ -553,9 +553,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     } else if (mediaController) {
       stopSingleViewPlayback(mediaController)
     }
-    // Explicit next/prev always moves the view, even when followTune is off.
+    // Search-list next/prev always moves the view. Playlist skip follows the
+    // Follow toggle so single view can stay put while the queue advances.
     var stepOpts = {
-      forceNavigate: true,
+      forceNavigate: !useQueueNavigation,
       startPlayback: startPlayback,
     }
     if (mediaController) stepOpts.mediaController = mediaController

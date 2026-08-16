@@ -110,7 +110,7 @@ export const SETTINGS_FIELD_HELP = {
     fields: [
       {
         title: '1. Download',
-        body: 'Use Download TuneBook Helper on Settings → Media to get tunebook-helper.zip.',
+        body: 'Use Download TuneBook Helper on Settings → Providers to get tunebook-helper.zip.',
       },
       {
         title: '2. Unzip',
@@ -131,7 +131,7 @@ export const SETTINGS_FIELD_HELP = {
       {
         title: '5. Confirm connected',
         body: [
-          'Status on Settings → Media should show connected. If it stays disconnected, reload the extension on ',
+          'Status on Settings → Providers should show connected. If it stays disconnected, reload the extension on ',
           React.createElement(ChromeExtensionsAddress, { key: 'chrome-extensions-reload', showHint: false }),
           ', then hard-reload Tunebook again.',
         ],

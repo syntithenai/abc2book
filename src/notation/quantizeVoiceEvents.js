@@ -13,12 +13,12 @@ export function buildBeatUnitGrid(beatsPerBar, numBars) {
 }
 
 function resolveOverlaps(events) {
-  const sorted = events.slice().sort(function(a, b) {
-    return (a.startBeat || 0) - (b.startBeat || 0);
-  });
-  for (let i = 0; i < sorted.length - 1; i += 1) {
-    const a = sorted[i];
-    const b = sorted[i + 1];
+  // Keep original order so lineBreaks stay between the same notes. Sorting by
+  // startBeat would cluster layout events and flatten ABC to one line.
+  const next = events.slice();
+  for (let i = 0; i < next.length - 1; i += 1) {
+    const a = next[i];
+    const b = next[i + 1];
     if (a.type === 'barline' || a.type === 'lineBreak') continue;
     if (b.type === 'barline' || b.type === 'lineBreak') continue;
     const aEnd = (a.startBeat || 0) + (a.durationBeats || 0);
@@ -26,7 +26,7 @@ function resolveOverlaps(events) {
       b.startBeat = aEnd;
     }
   }
-  return sorted;
+  return next;
 }
 
 function eventsTimingEqual(a, b) {

@@ -41,6 +41,63 @@ export function normalizeLyricStructure(lines, options) {
   return blocks;
 }
 
+/** Section types that mark song form (verse/chorus/bridge), not dance AABB repeats. */
+const SONG_FORM_SECTION_TYPES = {
+  verse: true,
+  chorus: true,
+  bridge: true,
+  prechorus: true,
+  refrain: true,
+  intro: true,
+  outro: true,
+  coda: true,
+  tag: true,
+  hook: true,
+};
+
+function sectionHasBody(section) {
+  const body = section && Array.isArray(section.lines)
+    ? section.lines
+    : (section && Array.isArray(section.lyricLines) ? section.lyricLines : []);
+  return body.some(function(line) {
+    return String(line == null ? '' : line).trim().length > 0;
+  });
+}
+
+/**
+ * Count lyric sections that introduce a new chart/strain (first verse, first
+ * chorus, first bridge, unlabeled unique stanzas). Later revisits of the same
+ * type do not need their own melody strain or ABC repeats.
+ */
+export function countFirstOccurrenceLyricSections(sections) {
+  const seenTypes = {};
+  let count = 0;
+  (Array.isArray(sections) ? sections : []).forEach(function(section) {
+    if (!section) return;
+    const type = section.type;
+    if (type) {
+      if (seenTypes[type]) return;
+      seenTypes[type] = true;
+      count += 1;
+      return;
+    }
+    if (sectionHasBody(section) || String(section.header || '').trim()) {
+      count += 1;
+    }
+  });
+  return count;
+}
+
+export function firstOccurrenceLyricSectionCount(lines, options) {
+  return countFirstOccurrenceLyricSections(normalizeLyricStructure(lines, options));
+}
+
+export function lyricLinesHaveSongFormSections(lines, options) {
+  return normalizeLyricStructure(lines, options).some(function(section) {
+    return !!(section && section.type && SONG_FORM_SECTION_TYPES[section.type]);
+  });
+}
+
 function toLyricLines(textOrLines) {
   if (Array.isArray(textOrLines)) return textOrLines;
   return String(textOrLines == null ? '' : textOrLines).split(/\r?\n/);

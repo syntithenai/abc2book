@@ -39,11 +39,13 @@ import {
   filterSearchNoBooks,
   runTuneListFilterAsync,
   runTuneListFilterSync,
-  buildTuneStatusEntry,
+  fillMissingTuneStatusEntries,
   pruneSelectionForStatus,
   buildListHashKey,
+  shouldSkipListRebuildForTuneEdit,
   CATALOG_PAGE_SIZE,
   BULK_SELECTION_LIMIT,
+  shouldScanTuneStatusExtras,
 } from '../tuneListFilter'
 import { isCatalogStorageEnabled } from '../tuneStorageFlags'
 
@@ -89,10 +91,12 @@ function IndexLayout(props) {
     var [discographySeedCandidate, setDiscographySeedCandidate] = useState(null)
     var [showDiscographyModal, setShowDiscographyModal] = useState(false)
     var filterRunIdRef = useRef(0)
+    var statusFillRunIdRef = useRef(0)
     var mediaSearchRunIdRef = useRef(0)
     var mediaSearchTimerRef = useRef(null)
     var mediaSearchAbortRef = useRef(null)
     var listSelectionCurtailedToastKeyRef = useRef(null)
+    var listFilterIdentityRef = useRef(null)
     const navigate = useNavigate()
     
     const scrollOffset = props.scrollOffset
@@ -226,17 +230,21 @@ function IndexLayout(props) {
       return getListScrollTotal() > CATALOG_PAGE_SIZE
     }
 
-    function runFilter() {
+    function runFilter(options) {
+      const keepVisibleList = !!(options && options.keepVisibleList)
       const runId = filterRunIdRef.current + 1
       filterRunIdRef.current = runId
-      setGrouped(null)
-      setFiltered([])
-      props.startWaiting()
+      if (!keepVisibleList) {
+        setGrouped(null)
+        setFiltered([])
+        props.startWaiting()
+      }
 
       runTuneListFilterAsync({
         tunes: props.tunes,
         filterSearchFn: filterSearch,
         groupBy: props.groupBy,
+        listDisplayMode: props.listDisplayMode,
         tunebook: props.tunebook,
         shouldCancel: function() { return filterRunIdRef.current !== runId },
         indexes: props.indexes && props.indexes.getIndexBundle ? props.indexes.getIndexBundle() : null,
@@ -264,6 +272,7 @@ function IndexLayout(props) {
         tunes: props.tunes,
         filterSearchFn: filterSearchNoBooks,
         groupBy: props.groupBy,
+        listDisplayMode: props.listDisplayMode,
         tunebook: props.tunebook,
         indexes: props.indexes && props.indexes.getIndexBundle ? props.indexes.getIndexBundle() : null,
         filterContext: {
@@ -297,19 +306,21 @@ function IndexLayout(props) {
 
     function ensureTuneStatusForVisibleList(tuneList) {
       const list = Array.isArray(tuneList) ? tuneList : []
-      if (list.length === 0 || list.length >= LIST_PROTECTION_LIMIT) return
-      setTuneStatus(function(prev) {
-        const nextStatus = Object.assign({}, prev)
-        let changed = false
-        list.forEach(function(tune) {
-          if (!tune || !tune.id || nextStatus[tune.id]) return
-          const entry = buildTuneStatusEntry(tune, props.tunebook)
-          if (entry) {
-            nextStatus[tune.id] = entry
-            changed = true
-          }
-        })
-        return changed ? nextStatus : prev
+      if (list.length === 0 || list.length >= LIST_PROTECTION_LIMIT * 5) return
+      const extras = shouldScanTuneStatusExtras({
+        groupBy: props.groupBy,
+        listDisplayMode: props.listDisplayMode,
+      })
+      if (!extras) return
+      const runId = statusFillRunIdRef.current + 1
+      statusFillRunIdRef.current = runId
+      fillMissingTuneStatusEntries(list, tuneStatus, props.tunebook, {
+        includeExtras: true,
+        includeMusical: list.length < LIST_PROTECTION_LIMIT,
+        shouldCancel: function() { return statusFillRunIdRef.current !== runId },
+      }).then(function(nextStatus) {
+        if (statusFillRunIdRef.current !== runId || !nextStatus) return
+        setTuneStatus(nextStatus)
       })
     }
 
@@ -365,7 +376,7 @@ function IndexLayout(props) {
         var indexBookCount = props.indexes && props.indexes.bookIndex
           ? Object.keys(props.indexes.bookIndex).length
           : 0
-        var newHash = buildListHashKey([
+        var filterIdentity = buildListHashKey([
           props.groupBy,
           props.filter,
           props.currentTuneBook,
@@ -375,16 +386,28 @@ function IndexLayout(props) {
           props.albumFilter,
           props.starredFilter,
           tuneCount,
-          props.tunesContentRevision || 0,
           props.indexes && props.indexes.indexesReady ? 1 : 0,
           indexBookCount,
         ])
+        var newHash = buildListHashKey([
+          filterIdentity,
+          props.tunesContentRevision || 0,
+        ])
       if (listHash !== newHash) {
+            var prevIdentity = listFilterIdentityRef.current
+            listFilterIdentityRef.current = filterIdentity
+            var identityUnchanged = prevIdentity === filterIdentity
+            if (shouldSkipListRebuildForTuneEdit(prevIdentity, filterIdentity, props.starredFilter)) {
+                setListHash(newHash)
+                return
+            }
             if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| props.starredFilter || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0) || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0) || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0) || (Array.isArray(props.albumFilter) && props.albumFilter.length > 0)) {
-                runFilter()
-                setTimeout(function() {
-                    window.scroll(0,props.scrollOffset)
-                },300)
+                runFilter({ keepVisibleList: identityUnchanged })
+                if (!identityUnchanged) {
+                    setTimeout(function() {
+                        window.scroll(0,props.scrollOffset)
+                    },300)
+                }
             } else if (props.filter.length <= 2 && props.filter.length > 0) {
               setFiltered([])
               props.stopWaiting()
@@ -399,10 +422,11 @@ function IndexLayout(props) {
     useEffect(function() {
       const displayMode = props.listDisplayMode || 'compact'
       if (displayMode !== 'detailed' && displayMode !== 'preview') {
+        statusFillRunIdRef.current += 1
         listSelectionCurtailedToastKeyRef.current = null
         return undefined
       }
-      if (!Array.isArray(filtered) || filtered.length === 0 || filtered.length >= LIST_PROTECTION_LIMIT) {
+      if (!Array.isArray(filtered) || filtered.length === 0 || filtered.length >= LIST_PROTECTION_LIMIT * 5) {
         return undefined
       }
       ensureTuneStatusForVisibleList(filtered)

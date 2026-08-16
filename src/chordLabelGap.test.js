@@ -2,6 +2,9 @@ import {
   chordTokenNeedsDisplayGap,
   nextAnchorAfterOffset,
   chordLetterGapSlotChars,
+  chordTokenLyricIsPad,
+  chordTokenShouldOverflow,
+  splitLeadingPickupChordTokens,
 } from './chordLabelGap'
 
 describe('chordLabelGap', function() {
@@ -43,5 +46,42 @@ describe('chordLabelGap', function() {
       [{ chord: 'G', offset: 0 }, { chord: 'C', offset: 8 }],
       0
     ).offset).toBe(8)
+  })
+
+  test('treats empty or space-only lyrics as pad slots', function() {
+    expect(chordTokenLyricIsPad({ chord: 'G', text: '  ' })).toBe(true)
+    expect(chordTokenLyricIsPad({ chord: 'G', text: '' })).toBe(true)
+    expect(chordTokenLyricIsPad({ chord: 'G', text: 'Amazing' })).toBe(false)
+    expect(chordTokenShouldOverflow({ chord: 'G', text: '  ' }, null)).toBe(false)
+    expect(chordTokenShouldOverflow({ chord: 'G', text: 'Amazing' }, null)).toBe(true)
+  })
+
+  test('splits pickup chords off the first lyric word', function() {
+    expect(splitLeadingPickupChordTokens([
+      { chord: 'G', text: '  Amazing' },
+    ])).toEqual([
+      { chord: 'G', text: '  ' },
+      { chord: '', text: 'Amazing' },
+    ])
+    expect(splitLeadingPickupChordTokens([
+      { chord: 'C', text: ' ' },
+      { chord: 'G', text: ' Amazing' },
+    ])).toEqual([
+      { chord: 'C', text: ' ' },
+      { chord: 'G', text: ' ' },
+      { chord: '', text: 'Amazing' },
+    ])
+    expect(splitLeadingPickupChordTokens([
+      { chord: 'G', text: 'Amazing grace' },
+    ])).toEqual([
+      { chord: 'G', text: 'Amazing grace' },
+    ])
+    expect(splitLeadingPickupChordTokens([
+      { chord: '', text: 'hello ' },
+      { chord: 'C', text: ' there' },
+    ])).toEqual([
+      { chord: '', text: 'hello ' },
+      { chord: 'C', text: ' there' },
+    ])
   })
 })

@@ -15,6 +15,7 @@ import {
   toggleGigNightMode,
 } from '../gigDisplaySettings';
 import {
+  applyCompactScreenNotationMeta,
   buildGigNotationRenderOptions,
   findStaffWidthForVerticalFit,
   fitNotationSvg,
@@ -288,6 +289,7 @@ export default function GigModeModal(props) {
       const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate);
       const renderOptions = Object.assign({}, buildGigNotationRenderOptions(notationVisualTranspose), {
         clickListener: handleNotationChordClick,
+        afterParsing: applyCompactScreenNotationMeta,
       });
 
       function renderAtStaffWidth(staffWidth) {

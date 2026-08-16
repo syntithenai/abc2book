@@ -91,13 +91,18 @@ export function getResolverGatedActionAccess(context, options) {
 
 export function openCreditSettings() {
   if (typeof window === 'undefined') return
-  const path = '/settings'
-  const url = path + '?tab=providers&credit=1'
-  if (window.location && window.location.pathname === path) {
+  const hashPath = '#/settings/providers?credit=1'
+  const hash = String(window.location.hash || '')
+  if (hash.indexOf('#/settings') === 0) {
+    if (hash.indexOf('#/settings/providers') === 0) {
+      window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
+      return
+    }
+    window.location.hash = hashPath
     window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
     return
   }
-  window.location.assign(url)
+  window.location.assign('/' + hashPath)
 }
 
 export function runResolverGatedAction(access, handlers) {

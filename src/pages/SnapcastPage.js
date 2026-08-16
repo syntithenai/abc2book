@@ -107,7 +107,7 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
         <h1>Snapcast</h1>
         <Alert variant="warning">
           Snapcast is not enabled on your media resolver. If you run snapserver at home, set the
-          control URL in <Link to="/settings?tab=audio">Settings → Audio</Link> (for example{' '}
+          control URL in <Link to="/settings/background-jobs">Settings → Background jobs</Link> (for example{' '}
           <code>http://192.168.1.10:1780</code>), then connect below.
         </Alert>
         <div className="mb-3">
@@ -116,7 +116,7 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
             <Alert variant="danger" className="mt-2 mb-0">{snapcast.connectError}</Alert>
           ) : null}
         </div>
-        <Link to="/settings?tab=audio" className="btn btn-sm btn-outline-secondary">Audio settings</Link>
+        <Link to="/settings/background-jobs" className="btn btn-sm btn-outline-secondary">Audio settings</Link>
       </div>
     );
   }
@@ -140,7 +140,7 @@ export default function SnapcastPage({ mediaController, tunebook, nowPlayingQueu
             Manage groups, clients, and route Tune Book playback to your home speakers.
           </p>
         </div>
-        <Link to="/settings?tab=audio" className="btn btn-sm btn-outline-secondary">Audio settings</Link>
+        <Link to="/settings/background-jobs" className="btn btn-sm btn-outline-secondary">Audio settings</Link>
       </div>
 
       {snapcast.connectError ? (

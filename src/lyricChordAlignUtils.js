@@ -11,8 +11,43 @@ import {
 } from './chordSheetUtils'
 import { formatLyricSectionHeader } from './lyricStructureUtils'
 
+/** Extra start-of-line drop slots so a couple of chords can sit before the first word. */
+export const ALIGN_LEADING_PAD_SLOTS = 2
+
 /** Extra end-of-line drop slots so a few chords can sit after the last word. */
 export const ALIGN_TRAILING_PAD_SLOTS = 4
+
+export function alignDisplayIndexToOffset(displayIndex) {
+  return Number(displayIndex) - ALIGN_LEADING_PAD_SLOTS
+}
+
+/**
+ * Map a click on a displayed letter onto a caret in the stored lyric text.
+ * Leading/trailing pads go to the start/end; a click on the right half of a
+ * letter places the caret after that character.
+ */
+export function alignLetterClickToCaret(text, offset, clientX, rect) {
+  const raw = String(text == null ? '' : text)
+  const len = raw.length
+  let o = Number(offset)
+  if (!Number.isFinite(o)) o = 0
+  if (o < 0) return 0
+  if (o >= len) return len
+  const left = rect ? Number(rect.left) : NaN
+  const right = rect ? Number(rect.right) : NaN
+  const x = Number(clientX)
+  if (!Number.isFinite(left) || !Number.isFinite(right) || !(right > left) || !Number.isFinite(x)) {
+    return o
+  }
+  return x >= left + ((right - left) / 2) ? o + 1 : o
+}
+
+export function isAlignPadOffset(text, offset) {
+  const o = Number(offset)
+  if (!Number.isFinite(o)) return false
+  if (o < 0) return true
+  return o >= String(text == null ? '' : text).length
+}
 
 function tokenizeCowChordLine(line) {
   const text = String(line || '')
@@ -53,14 +88,14 @@ export function snapOffsetToLetter(text, offset) {
 }
 
 /**
- * Snap to a droppable Align slot: any character except `/`, or a trailing pad
- * index at or after the end of the stored line.
+ * Snap to a droppable Align slot: any character except `/`, a leading pad
+ * index before the stored line, or a trailing pad index at or after the end.
  */
 export function snapAlignOffset(text, offset) {
   const raw = String(text == null ? '' : text)
   let o = Number(offset)
   if (!Number.isFinite(o)) o = 0
-  if (o < 0) o = 0
+  if (o < 0) return Math.max(-ALIGN_LEADING_PAD_SLOTS, Math.trunc(o))
   if (!raw.length) return o
   if (o >= raw.length) return o
   if (raw.charAt(o) !== '/') return o
@@ -74,52 +109,81 @@ export function snapAlignOffset(text, offset) {
 }
 
 /**
- * Ensure `offset` is a valid index by appending spaces.
+ * Ensure `offset` is a valid index by prepending or appending spaces.
  */
 export function padAlignLineToOffset(text, offset) {
   const raw = String(text == null ? '' : text)
   const o = Number(offset)
-  if (!Number.isFinite(o) || o < raw.length) return raw
+  if (!Number.isFinite(o)) return raw
+  if (o < 0) return ' '.repeat(-o) + raw
+  if (o < raw.length) return raw
   return raw + ' '.repeat(o + 1 - raw.length)
 }
 
-/**
- * Drop unused trailing spaces that have no chord on or after them.
- */
-export function trimAlignLinePadding(text, anchors) {
+function alignPaddingRange(text, anchors) {
   const raw = String(text == null ? '' : text)
   let last = -1
+  let first = raw.length
   for (let i = 0; i < raw.length; i += 1) {
-    if (!/\s/.test(raw.charAt(i))) last = i
+    if (!/\s/.test(raw.charAt(i))) {
+      last = i
+      if (i < first) first = i
+    }
   }
   ;(Array.isArray(anchors) ? anchors : []).forEach(function(anchor) {
     const o = Number(anchor && anchor.offset)
-    if (Number.isFinite(o) && o > last) last = o
+    if (!Number.isFinite(o)) return
+    if (o > last) last = o
+    if (o < first) first = o
   })
-  if (last < 0) return ''
-  return raw.slice(0, last + 1)
+  if (last < 0) return { start: 0, end: 0 }
+  return { start: Math.max(0, first), end: last + 1 }
 }
 
 /**
- * Stored characters plus trailing pad spaces used as drop targets.
+ * Drop unused leading/trailing spaces that have no chord on them.
+ */
+export function trimAlignLinePadding(text, anchors) {
+  const raw = String(text == null ? '' : text)
+  const range = alignPaddingRange(raw, anchors)
+  return raw.slice(range.start, range.end)
+}
+
+/**
+ * Stored characters plus leading and trailing pad spaces used as drop targets.
  */
 export function alignLineDisplayChars(text) {
   const raw = String(text == null ? '' : text)
-  const chars = raw.length ? raw.split('') : []
+  const chars = []
+  for (let i = 0; i < ALIGN_LEADING_PAD_SLOTS; i += 1) chars.push(' ')
+  if (raw.length) chars.push.apply(chars, raw.split(''))
   for (let i = 0; i < ALIGN_TRAILING_PAD_SLOTS; i += 1) chars.push(' ')
   return chars
 }
 
 export function padAlignRowToOffset(row, offset) {
-  const text = padAlignLineToOffset(row && row.text, offset)
-  let sourceText = row && row.sourceText != null ? String(row.sourceText) : String(row && row.text || '')
-  const added = text.length - String(row && row.text || '').length
-  if (sourceText === String(row && row.text || '') || sourceText.indexOf('/') < 0) {
+  const rawText = String(row && row.text || '')
+  const o = Number(offset)
+  const shift = Number.isFinite(o) && o < 0 ? -o : 0
+  const text = padAlignLineToOffset(rawText, o)
+  const added = text.length - rawText.length
+  let sourceText = row && row.sourceText != null ? String(row.sourceText) : rawText
+  if (sourceText === rawText || sourceText.indexOf('/') < 0) {
     sourceText = text
   } else if (added > 0) {
-    sourceText += ' '.repeat(added)
+    sourceText = shift > 0
+      ? ' '.repeat(shift) + sourceText
+      : sourceText + ' '.repeat(added)
   }
-  return { text: text, sourceText: sourceText }
+  const anchors = cloneAnchors(row && row.anchors).map(function(anchor) {
+    return { chord: anchor.chord, offset: anchor.offset + shift }
+  })
+  return {
+    text: text,
+    sourceText: sourceText,
+    anchors: anchors,
+    offset: shift > 0 ? 0 : o,
+  }
 }
 
 /**
@@ -152,7 +216,9 @@ export function parseChordProLineToAnchors(line) {
       const leadingSpace = fragment.match(/^\s+/)
       const rest = leadingSpace ? fragment.slice(leadingSpace[0].length) : fragment
       // ChordPro `[C]word` sits on the word; `[C] ` (spaces only) sits on the space.
-      if (leadingSpace && rest) placeAt = offset + leadingSpace[0].length
+      // Keep chords on leading padding spaces so Align can store pickup chords
+      // before the first letter (`[C]  Amazing`).
+      if (leadingSpace && rest && /\S/.test(text)) placeAt = offset + leadingSpace[0].length
       placeAt = snapAlignOffset(text + fragment, placeAt)
       pendingChords.forEach(function(c) {
         anchors.push({ chord: c, offset: placeAt })
@@ -525,27 +591,39 @@ function emptyAlignLyricRow() {
 }
 
 export function trimAlignRowPadding(row) {
-  const anchors = Array.isArray(row && row.anchors) ? row.anchors : []
-  const text = trimAlignLinePadding(row && row.text, anchors)
-  let sourceText = row && row.sourceText != null ? String(row.sourceText) : String(row && row.text || '')
-  if (sourceText === String(row && row.text || '') || sourceText.indexOf('/') < 0) {
+  const anchors = cloneAnchors(row && row.anchors)
+  const raw = String(row && row.text || '')
+  const range = alignPaddingRange(raw, anchors)
+  const text = raw.slice(range.start, range.end)
+  const start = range.start
+  const nextAnchors = start > 0
+    ? anchors.map(function(anchor) {
+      return { chord: anchor.chord, offset: anchor.offset - start }
+    })
+    : anchors
+  let sourceText = row && row.sourceText != null ? String(row.sourceText) : raw
+  if (sourceText === raw || sourceText.indexOf('/') < 0) {
     sourceText = text
   } else {
-    const removed = String(row && row.text || '').length - text.length
-    if (removed > 0 && sourceText.length >= removed) {
-      const tail = sourceText.slice(sourceText.length - removed)
-      if (/^\s+$/.test(tail)) sourceText = sourceText.slice(0, sourceText.length - removed)
+    const endRemoved = raw.length - range.end
+    if (endRemoved > 0 && sourceText.length >= endRemoved) {
+      const tail = sourceText.slice(sourceText.length - endRemoved)
+      if (/^\s+$/.test(tail)) sourceText = sourceText.slice(0, sourceText.length - endRemoved)
+    }
+    if (start > 0 && sourceText.length >= start) {
+      const head = sourceText.slice(0, start)
+      if (/^\s+$/.test(head)) sourceText = sourceText.slice(start)
     }
   }
-  return Object.assign({}, row, { text: text, sourceText: sourceText, anchors: anchors })
+  return Object.assign({}, row, { text: text, sourceText: sourceText, anchors: nextAnchors })
 }
 
 /**
- * Place or move chords at `offset`, growing trailing spaces as needed.
+ * Place or move chords at `offset`, growing leading or trailing spaces as needed.
  */
 export function applyAlignChordAnchors(row, offset, makeAnchors) {
   const padded = padAlignRowToOffset(row, offset)
-  const anchors = makeAnchors(padded.text, Array.isArray(row && row.anchors) ? row.anchors : [])
+  const anchors = makeAnchors(padded.text, padded.anchors, padded.offset)
   return trimAlignRowPadding(Object.assign({}, row, {
     text: padded.text,
     sourceText: padded.sourceText,
@@ -682,9 +760,10 @@ export function letterIndexNearestClientX(rects, clientX, text) {
 
   let bestIndex = -1
   let bestDistance = Infinity
+  const display = text == null ? null : alignLineDisplayChars(raw)
   list.forEach(function(rect, index) {
     if (!rect) return
-    if (index < raw.length && raw.charAt(index) === '/') return
+    if (display && index < display.length && display[index] === '/') return
     const left = Number(rect.left)
     const right = Number(rect.right)
     if (!Number.isFinite(left) || !Number.isFinite(right)) return

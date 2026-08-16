@@ -12,6 +12,56 @@ function followingTokens(following) {
 }
 
 /**
+ * True when the lyric fragment is empty or only spaces (pickup/trailing pad).
+ */
+export function chordTokenLyricIsPad(token) {
+  return !/\S/.test(String(token && token.text != null ? token.text : ''))
+}
+
+/**
+ * Split pickup chords off the first word so `[G]  Amazing` renders as a chord
+ * column before the lyrics instead of overflowing across the leading spaces.
+ */
+export function splitLeadingPickupChordTokens(tokens) {
+  const source = Array.isArray(tokens) ? tokens : []
+  const out = []
+  let leading = true
+  source.forEach(function(token) {
+    if (!token) return
+    const text = token.text != null ? String(token.text) : ''
+    const chord = String(token.chord || '')
+    if (!leading) {
+      out.push(token)
+      return
+    }
+    if (chordTokenLyricIsPad(token)) {
+      out.push(token)
+      return
+    }
+    const spaces = text.match(/^\s+/)
+    if (spaces && chord.trim()) {
+      out.push({ chord: chord, text: spaces[0] })
+      out.push({ chord: '', text: text.slice(spaces[0].length) })
+    } else {
+      out.push(token)
+    }
+    leading = false
+  })
+  return out
+}
+
+/**
+ * Isolated chords overflow the lyric column except when the lyric is only
+ * padding spaces (pickup/trailing slots), which must keep the chord's width.
+ */
+export function chordTokenShouldOverflow(token, following) {
+  const chord = chordText(token && token.chord)
+  if (!chord) return false
+  if (chordTokenLyricIsPad(token)) return false
+  return !chordTokenNeedsDisplayGap(token, following)
+}
+
+/**
  * True when this token must reserve extra width so the next chord label on the
  * line cannot sit flush against it.
  *

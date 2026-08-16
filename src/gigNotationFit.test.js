@@ -353,7 +353,7 @@ describe('gigNotationFit', function() {
       expect(readNotationSvgDims(svg)).toEqual({ width: 400, height: 800 });
     });
 
-    it('contains a wide score so nothing is clipped or scrolled', function() {
+    it('fills height on a wide score and allows horizontal overflow', function() {
       const svg = makeSvg(800, 200);
       const renderEl = makeRenderEl();
       const originalInnerHeight = window.innerHeight;
@@ -365,21 +365,17 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
 
       expect(fit).not.toBeNull();
-      // Viewer width 400 (renderEl), not document width — plus horizontal title pad.
-      const availW = 400 - 8;
       const availH = 700 - 100 - 8;
-      const targetW = availW - GIG_NOTATION_FIT_SAFETY_PX;
       const targetH = availH - GIG_NOTATION_FIT_SAFETY_PX;
       const frameW = 800 + (GIG_NOTATION_FRAME_PAD_X * 2);
       const frameH = 200;
-      // Width-limited contain: scaleW < scaleH
-      expect(fit.width).toBeCloseTo(targetW, 5);
-      expect(fit.height).toBeCloseTo(frameH * (targetW / frameW), 5);
-      expect(fit.height).toBeLessThan(targetH);
-      expect(fit.overflowX).toBe(false);
-      expect(fit.fillsHeight).toBe(false);
-      expect(renderEl.style.overflowX).toBe('hidden');
+      expect(fit.height).toBeCloseTo(targetH, 5);
+      expect(fit.width).toBeCloseTo(frameW * (targetH / frameH), 5);
+      expect(fit.overflowX).toBe(true);
+      expect(fit.fillsHeight).toBe(true);
+      expect(renderEl.style.overflowX).toBe('auto');
       expect(renderEl.style.overflowY).toBe('hidden');
+      expect(renderEl.classList.contains('gig-mode-notation-render--wide')).toBe(true);
     });
 
     it('fills height when the score aspect ratio fits the page', function() {
@@ -522,6 +518,26 @@ describe('gigNotationFit', function() {
       expect(tune.formatting.titlespace).toBe(0);
       expect(tune.formatting.topspace).toBe(0);
       expect(tune.formatting.musicspace).toBe(2);
+      expect(tune.formatting.stretchlast).toBe(1);
+    });
+
+    it('clears print scale and staffwidth so screen fit can search staffwidth', function() {
+      const tune = {
+        formatting: {
+          scale: 0.71,
+          staffwidth: 490,
+          leftmargin: 60,
+          rightmargin: 60,
+          pagewidth: 612,
+        },
+      };
+      applyCompactScreenNotationMeta(tune);
+      expect(tune.formatting.scale).toBeUndefined();
+      expect(tune.formatting.staffwidth).toBeUndefined();
+      expect(tune.formatting.leftmargin).toBeUndefined();
+      expect(tune.formatting.rightmargin).toBeUndefined();
+      expect(tune.formatting.pagewidth).toBeUndefined();
+      expect(tune.formatting.stretchlast).toBe(1);
     });
 
     it('no-ops when formatting is missing', function() {

@@ -284,4 +284,63 @@ describe('StructureChordBlock height-fit sections', function() {
     expect(sections[1].querySelector('.chord-block-line')).toBeFalsy()
     expect(sections[1].classList.contains('structure-section--no-chart')).toBe(true)
   })
+
+  test('colors repeated structure headings with the same section tone', function() {
+    const tune = {
+      name: 'Tone Song',
+      words: [
+        '[Verse 1]',
+        'first verse line',
+        '',
+        '[Chorus]',
+        'chorus line',
+        '',
+        '[Verse 2]',
+        'second verse line',
+        '',
+        '[Chorus]',
+        'chorus line again',
+        '',
+        '[Bridge]',
+        'bridge line',
+      ],
+    }
+
+    act(function() {
+      root.render(React.createElement(StructureChordBlock, {
+        chords: 'C G Am F',
+        tune: tune,
+        fitHeight: false,
+      }))
+    })
+
+    const headers = Array.prototype.map.call(
+      container.querySelectorAll('.chord-section-header'),
+      function(el) {
+        return {
+          text: String(el.textContent || '').trim(),
+          tone: el.getAttribute('data-section-tone'),
+          className: el.className,
+        }
+      }
+    )
+    const verses = headers.filter(function(h) { return /^Verse/i.test(h.text) })
+    const choruses = headers.filter(function(h) { return /^Chorus/i.test(h.text) })
+    const bridges = headers.filter(function(h) { return /^Bridge/i.test(h.text) })
+
+    expect(verses.length).toBeGreaterThanOrEqual(2)
+    expect(choruses.length).toBeGreaterThanOrEqual(2)
+    expect(bridges.length).toBe(1)
+    verses.forEach(function(h) {
+      expect(h.tone).toBe('verse')
+      expect(h.className).toMatch(/lyrics-section-header--verse/)
+    })
+    choruses.forEach(function(h) {
+      expect(h.tone).toBe('chorus')
+      expect(h.className).toMatch(/lyrics-section-header--chorus/)
+    })
+    expect(bridges[0].tone).toBe('bridge')
+    expect(verses[0].tone).not.toBe(choruses[0].tone)
+    expect(choruses[0].tone).not.toBe(bridges[0].tone)
+  })
 })

@@ -2,6 +2,7 @@ import {
   LIST_PROTECTION_LIMIT,
   PREVIEW_LIST_LIMIT,
   FILTER_STATUS_CHUNK_SIZE,
+  FILTER_MUSICAL_STATUS_CHUNK_SIZE,
   LARGE_LIST_WARNING_THRESHOLD,
   LARGE_BOOK_INDEX_THRESHOLD,
   CATALOG_PAGE_SIZE,
@@ -10,13 +11,21 @@ import {
 import { resolveCandidateTuneIds } from './tuneCandidateFilter'
 import { isCatalogStorageEnabled } from './tuneStorageFlags'
 import { listCatalogPage, getTune } from './tuneRepository'
+import { hasLyricEmbeddedChords } from './chordSheetUtils'
+import { getLyricLines } from './wLinesUtils'
+import { scanTuneMusicalIssueStatus } from './tuneListMusicalStatus'
+import { attachMediaCacheFlags, emptyTuneMediaLinkStatus, scanTuneMediaLinkStatus } from './tuneListMediaStatus'
 
 import { isCapacitorNative } from './platformUtils'
+
+export const GROUP_BY_TUNE_STATUS = 'tuneStatus'
+export const GROUP_BY_TUNE_STATUS_DETAILED = 'tuneStatusDetailed'
 
 export {
   LIST_PROTECTION_LIMIT,
   PREVIEW_LIST_LIMIT,
   FILTER_STATUS_CHUNK_SIZE,
+  FILTER_MUSICAL_STATUS_CHUNK_SIZE,
   LARGE_LIST_WARNING_THRESHOLD,
   CATALOG_PAGE_SIZE,
   BULK_SELECTION_LIMIT,
@@ -109,16 +118,85 @@ function scanTuneNoteStatus(tune) {
   return { hasNotes: hasNotes, hasChords: hasChords }
 }
 
-export function buildTuneStatusEntry(tune, tunebook) {
+function scanTuneInlineChords(tune) {
+  return hasLyricEmbeddedChords(getLyricLines(tune))
+}
+
+export function shouldScanTuneStatusExtras(options) {
+  const opts = options || {}
+  if (opts.includeExtras === false) return false
+  if (opts.includeExtras === true) return true
+  if (opts.groupBy === GROUP_BY_TUNE_STATUS_DETAILED) return true
+  const mode = opts.listDisplayMode
+  return mode === 'detailed' || mode === 'preview'
+}
+
+export function shouldScanTuneMusicalStatus(options, filteredLength) {
+  if (!shouldScanTuneStatusExtras(options)) return false
+  const len = typeof filteredLength === 'number' ? filteredLength : 0
+  return len < LIST_PROTECTION_LIMIT
+}
+
+export function buildTuneStatusGroupKey(status, detailed) {
+  const flags = status || {}
+  const tuneStatusKey = []
+  if (flags.hasLyrics) tuneStatusKey.push('lyrics')
+  if (flags.hasNotes) tuneStatusKey.push('notes')
+  if (flags.hasChords) tuneStatusKey.push('chords')
+  if (detailed && flags.hasInlineChords) tuneStatusKey.push('inline')
+  if (flags.hasLinks) tuneStatusKey.push('media')
+  if (detailed) {
+    if (flags.hasMusicalErrors) tuneStatusKey.push('errors')
+    else if (flags.hasMusicalWarnings) tuneStatusKey.push('warnings')
+  }
+  return tuneStatusKey.join(',')
+}
+
+export function buildTuneStatusEntry(tune, tunebook, options) {
   if (!tune || !tune.id) return null
+  const opts = options || {}
   const noteStatus = scanTuneNoteStatus(tune)
   const hasLyrics = tunebook && typeof tunebook.hasLyrics === 'function' ? tunebook.hasLyrics(tune) : false
   const hasLinks = tunebook && typeof tunebook.hasLinks === 'function' ? tunebook.hasLinks(tune) : false
+  const includeExtras = !!opts.includeExtras
+  const includeMusical = includeExtras && opts.includeMusical !== false
+  let hasInlineChords = false
+  if (includeExtras) {
+    hasInlineChords = scanTuneInlineChords(tune)
+  }
+  let hasMusicalErrors = false
+  let hasMusicalWarnings = false
+  if (includeMusical) {
+    const abcTools = opts.abcTools || (tunebook && tunebook.abcTools) || null
+    const musical = scanTuneMusicalIssueStatus(tune, { abcTools: abcTools })
+    hasMusicalErrors = musical.hasMusicalErrors
+    hasMusicalWarnings = musical.hasMusicalWarnings
+  }
+  const isYoutubeLink = tunebook && tunebook.utils && typeof tunebook.utils.isYoutubeLink === 'function'
+    ? tunebook.utils.isYoutubeLink
+    : null
+  const media = includeExtras
+    ? scanTuneMediaLinkStatus(tune, isYoutubeLink)
+    : emptyTuneMediaLinkStatus()
   return {
     hasLyrics: hasLyrics,
     hasNotes: noteStatus.hasNotes,
     hasChords: noteStatus.hasChords,
     hasLinks: hasLinks,
+    hasInlineChords: hasInlineChords,
+    hasMusicalErrors: hasMusicalErrors,
+    hasMusicalWarnings: hasMusicalWarnings,
+    hasMidi: media.hasMidi,
+    hasYoutube: media.hasYoutube,
+    hasRecording: media.hasRecording,
+    mediaSource: media.mediaSource,
+    driveStatus: media.driveStatus,
+    hasOwnedMedia: media.hasOwnedMedia,
+    hasCachedMedia: media.hasCachedMedia,
+    hasStems: media.hasStems,
+    mediaCacheScanned: media.mediaCacheScanned,
+    extrasScanned: includeExtras,
+    musicalScanned: includeMusical,
   }
 }
 
@@ -133,17 +211,12 @@ export function buildTagCollation(filteredTunes) {
   return tc
 }
 
-export function buildTuneStatusGroups(filteredTunes, tuneStatus) {
+export function buildTuneStatusGroups(filteredTunes, tuneStatus, options) {
+  const detailed = !!(options && options.detailed)
   const tuneStatusGroups = {}
   ;(filteredTunes || []).forEach(function(tune, tuneKey) {
     if (!tune || !tune.id) return
-    const status = tuneStatus[tune.id] || {}
-    const tuneStatusKey = []
-    if (status.hasLyrics) tuneStatusKey.push('lyrics')
-    if (status.hasNotes) tuneStatusKey.push('notes')
-    if (status.hasChords) tuneStatusKey.push('chords')
-    if (status.hasLinks) tuneStatusKey.push('media')
-    const key = tuneStatusKey.join(',')
+    const key = buildTuneStatusGroupKey(tuneStatus[tune.id] || {}, detailed)
     if (!tuneStatusGroups.hasOwnProperty(key)) tuneStatusGroups[key] = []
     tuneStatusGroups[key].push(tuneKey)
   })
@@ -154,8 +227,11 @@ export function buildGroupedTunes(filteredTunes, groupBy, tunebook, tuneStatus) 
   if (!groupBy || !Array.isArray(filteredTunes) || filteredTunes.length >= LIST_PROTECTION_LIMIT * 5) {
     return null
   }
-  if (groupBy === 'tuneStatus') {
+  if (groupBy === GROUP_BY_TUNE_STATUS) {
     return buildTuneStatusGroups(filteredTunes, tuneStatus)
+  }
+  if (groupBy === GROUP_BY_TUNE_STATUS_DETAILED) {
+    return buildTuneStatusGroups(filteredTunes, tuneStatus, { detailed: true })
   }
   if (tunebook && typeof tunebook.groupTunes === 'function') {
     return tunebook.groupTunes(filteredTunes, groupBy)
@@ -163,10 +239,27 @@ export function buildGroupedTunes(filteredTunes, groupBy, tunebook, tuneStatus) 
   return null
 }
 
+function statusEntryOptions(opts) {
+  return {
+    includeExtras: !!opts.includeExtras,
+    includeMusical: opts.includeMusical !== false && !!opts.includeExtras,
+    abcTools: opts.abcTools,
+  }
+}
+
 export async function buildTuneStatusMetadata(filteredTunes, tunebook, options) {
   const opts = options || {}
   const shouldCancel = typeof opts.shouldCancel === 'function' ? opts.shouldCancel : function() { return false }
-  const chunkSize = opts.chunkSize > 0 ? opts.chunkSize : FILTER_STATUS_CHUNK_SIZE
+  const includeExtras = !!opts.includeExtras
+  const includeMusical = includeExtras && opts.includeMusical !== false
+  const chunkSize = opts.chunkSize > 0
+    ? opts.chunkSize
+    : (includeMusical ? FILTER_MUSICAL_STATUS_CHUNK_SIZE : FILTER_STATUS_CHUNK_SIZE)
+  const entryOpts = statusEntryOptions({
+    includeExtras: includeExtras,
+    includeMusical: includeMusical,
+    abcTools: opts.abcTools || (tunebook && tunebook.abcTools) || null,
+  })
   const tuneStatus = {}
   let anyTunesHaveNotes = false
   let anyTunesHaveLinks = false
@@ -181,7 +274,7 @@ export async function buildTuneStatusMetadata(filteredTunes, tunebook, options) 
     for (let i = start; i < end; i += 1) {
       const tune = filteredTunes[i]
       if (!tune || !tune.id) continue
-      const entry = buildTuneStatusEntry(tune, tunebook)
+      const entry = buildTuneStatusEntry(tune, tunebook, entryOpts)
       if (!entry) continue
       tuneStatus[tune.id] = entry
       if (entry.hasNotes) anyTunesHaveNotes = true
@@ -193,7 +286,68 @@ export async function buildTuneStatusMetadata(filteredTunes, tunebook, options) 
     }
   }
 
-  return { tuneStatus: tuneStatus, anyTunesHaveNotes: anyTunesHaveNotes, anyTunesHaveLinks: anyTunesHaveLinks }
+  let nextStatus = tuneStatus
+  if (includeExtras && opts.includeMediaCache !== false) {
+    nextStatus = await attachMediaCacheFlags(tuneStatus, shouldCancel)
+    if (!nextStatus) return null
+  }
+
+  return { tuneStatus: nextStatus, anyTunesHaveNotes: anyTunesHaveNotes, anyTunesHaveLinks: anyTunesHaveLinks }
+}
+
+function statusNeedsFill(existing, includeExtras, includeMusical) {
+  if (!existing) return true
+  if (includeExtras && !existing.extrasScanned) return true
+  if (includeMusical && !existing.musicalScanned) return true
+  return false
+}
+
+export async function fillMissingTuneStatusEntries(tuneList, prevStatus, tunebook, options) {
+  const opts = options || {}
+  const shouldCancel = typeof opts.shouldCancel === 'function' ? opts.shouldCancel : function() { return false }
+  const includeExtras = opts.includeExtras !== false
+  const includeMusical = includeExtras && opts.includeMusical !== false
+  const chunkSize = opts.chunkSize > 0
+    ? opts.chunkSize
+    : (includeMusical ? FILTER_MUSICAL_STATUS_CHUNK_SIZE : FILTER_STATUS_CHUNK_SIZE)
+  const entryOpts = statusEntryOptions({
+    includeExtras: includeExtras,
+    includeMusical: includeMusical,
+    abcTools: opts.abcTools || (tunebook && tunebook.abcTools) || null,
+  })
+  const list = Array.isArray(tuneList) ? tuneList : []
+  const toFill = []
+  list.forEach(function(tune) {
+    if (!tune || !tune.id) return
+    if (statusNeedsFill(prevStatus && prevStatus[tune.id], includeExtras, includeMusical)) {
+      toFill.push(tune)
+    }
+  })
+  let nextStatus = Object.assign({}, prevStatus || {})
+  if (toFill.length > 0) {
+    for (let start = 0; start < toFill.length; start += chunkSize) {
+      if (shouldCancel()) return null
+      const end = Math.min(start + chunkSize, toFill.length)
+      for (let i = start; i < end; i += 1) {
+        const tune = toFill[i]
+        const entry = buildTuneStatusEntry(tune, tunebook, entryOpts)
+        if (!entry) continue
+        nextStatus[tune.id] = entry
+      }
+      if (end < toFill.length) {
+        await yieldToMain()
+        if (shouldCancel()) return null
+      }
+    }
+  }
+  if (includeExtras) {
+    const withCache = await attachMediaCacheFlags(nextStatus, shouldCancel)
+    if (!withCache) return null
+    if (toFill.length === 0 && withCache === nextStatus) return null
+    return withCache
+  }
+  if (toFill.length === 0) return null
+  return nextStatus
 }
 
 export async function runTuneListFilterAsync(params) {
@@ -205,6 +359,8 @@ export async function runTuneListFilterAsync(params) {
     shouldCancel,
     indexes,
     filterContext,
+    listDisplayMode,
+    includeExtras,
   } = params || {}
 
   if (shouldCancel && shouldCancel()) return null
@@ -248,7 +404,22 @@ export async function runTuneListFilterAsync(params) {
     }
   }
   const tagCollation = buildTagCollation(filtered)
-  const statusResult = await buildTuneStatusMetadata(filtered, tunebook, { shouldCancel: shouldCancel })
+  const extras = shouldScanTuneStatusExtras({
+    groupBy: groupBy,
+    listDisplayMode: listDisplayMode,
+    includeExtras: includeExtras,
+  })
+  const musical = extras && shouldScanTuneMusicalStatus({
+    groupBy: groupBy,
+    listDisplayMode: listDisplayMode,
+    includeExtras: includeExtras,
+  }, filtered.length)
+  const statusResult = await buildTuneStatusMetadata(filtered, tunebook, {
+    shouldCancel: shouldCancel,
+    includeExtras: extras,
+    includeMusical: musical,
+    includeMediaCache: listDisplayMode === 'detailed' || listDisplayMode === 'preview',
+  })
   if (!statusResult) return null
 
   const grouped = buildGroupedTunes(filtered, groupBy, tunebook, statusResult.tuneStatus)
@@ -270,17 +441,33 @@ export function runTuneListFilterSync(params) {
     tunebook,
     indexes,
     filterContext,
+    listDisplayMode,
+    includeExtras,
   } = params || {}
 
   const allIds = tunes ? Object.keys(tunes) : []
   const candidateIds = resolveCandidateTuneIds(filterContext, indexes, allIds)
   const filtered = sortTunesByName(filterTunes(tunes, filterSearchFn, candidateIds))
   const tagCollation = buildTagCollation(filtered)
+  const extras = shouldScanTuneStatusExtras({
+    groupBy: groupBy,
+    listDisplayMode: listDisplayMode,
+    includeExtras: includeExtras,
+  })
+  const musical = extras && shouldScanTuneMusicalStatus({
+    groupBy: groupBy,
+    listDisplayMode: listDisplayMode,
+    includeExtras: includeExtras,
+  }, filtered.length)
+  const entryOpts = {
+    includeExtras: extras,
+    includeMusical: musical,
+  }
   const tuneStatus = {}
   if (Array.isArray(filtered) && filtered.length < LIST_PROTECTION_LIMIT * 5) {
     filtered.forEach(function(tune) {
       if (!tune || !tune.id) return
-      const entry = buildTuneStatusEntry(tune, tunebook)
+      const entry = buildTuneStatusEntry(tune, tunebook, entryOpts)
       if (entry) tuneStatus[tune.id] = entry
     })
   }
@@ -314,4 +501,15 @@ export function pruneSelectionForStatus(selected, filteredTunes) {
 
 export function buildListHashKey(parts) {
   return JSON.stringify(parts)
+}
+
+/**
+ * True when list membership inputs are unchanged and a full refilter can be
+ * skipped after an in-place tune edit (star, boost, and similar).
+ * Starred-only lists still refilter because starring changes membership.
+ */
+export function shouldSkipListRebuildForTuneEdit(prevIdentity, nextIdentity, starredFilter) {
+  if (prevIdentity == null || nextIdentity == null) return false
+  if (prevIdentity !== nextIdentity) return false
+  return !starredFilter
 }

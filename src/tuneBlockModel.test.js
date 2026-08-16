@@ -1,4 +1,4 @@
-import { blocksFromLyricLines, CHORD_MODES, mergeBlockSources } from './tuneBlockModel'
+import { blocksFromLyricLines, blocksFromTune, CHORD_MODES, mergeBlockSources } from './tuneBlockModel'
 import { assessTuneBlockStructure, recommendationLabel } from './tuneBlockQualityAssessment'
 import { DOUBLE_SPACED_VERSE_WITH_SECTIONS, HYMN_SINGLE_LINE_VERSES } from './importSampleFixtures'
 import { lyricLinesForChecks, lyricLinesForViews, displayEnrichmentChangesLyrics } from './tuneDisplayLayers'
@@ -10,6 +10,38 @@ describe('tuneBlockModel', function() {
     expect(blocks.length).toBe(3)
     expect(blocks[0].lyricLines.length).toBe(4)
     expect(blocks[1].type).toBe('chorus')
+  })
+
+  test('blocksFromTune does not warn when song revisits share three strains', function() {
+    const tune = {
+      id: 'appetite',
+      name: 'Appetite',
+      composer: 'Steve Ryan',
+      voices: {
+        '1': {
+          notes: [
+            'zzzzzzzz | zzzzzzzz | zzzzzzzz | zzzzzzzz ||',
+            'zzzzzzzz | zzzzzzzz | zzzzzzzz | zzzzzzzz ||',
+            'zzzzzzzz | zzzzzzzz | zzzzzzzz | zzzzzzzz ||',
+          ],
+        },
+      },
+      words: [
+        '# VERSE', 'verse one',
+        '',
+        '# CHORUS', 'chorus one',
+        '',
+        '# VERSE', 'verse two',
+        '',
+        '# BRIDGE', 'bridge',
+        '',
+        '# CHORUS',
+      ],
+    }
+    const blocks = blocksFromTune(tune)
+    expect(blocks.some(function(b) {
+      return (b.warnings || []).indexOf('strain_lyric_count_mismatch') >= 0
+    })).toBe(false)
   })
 
   test('mergeBlockSources attaches strain indices for hymn pattern', function() {

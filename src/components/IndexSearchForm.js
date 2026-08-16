@@ -11,6 +11,7 @@ import AlbumSearchSelectorModal from './AlbumSearchSelectorModal'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import VoiceFillInput from './VoiceFillInput'
 import { trackSearch } from '../analytics'
+import { clearLastSearchFilters } from '../searchFilterParams'
 import { useIsCompactViewport } from '../useMediaQuery'
 
 const SEARCH_DEBOUNCE_MS = 300
@@ -110,6 +111,7 @@ export default function IndexSearchForm(props) {
         props.setFiltered('')
         props.setGrouped({})
         props.setListHash('')
+        clearLastSearchFilters()
     }
 
     function clearBookFilter() {

@@ -11,7 +11,7 @@ import {
   extractBarsFromMelodyText,
   flattenMelodyText,
 } from './lyricBarAlignmentUtils';
-import { melodyHasAnacrusisDoubleBarlines, normalizeMelodyBarlines, abcForAbcjs } from './melodyBarlineNormalize';
+import { ensureBarlinesAtMusicLineJoins, melodyHasAnacrusisDoubleBarlines, normalizeMelodyBarlines, abcForAbcjs } from './melodyBarlineNormalize';
 import { fixTuneAbcHeaders, normalizeTuneAbc } from './tuneAbcCorrectnessCheck';
 import { getLyricLines } from './wLinesUtils';
 import { applyNoteSpacingToTune } from './noteSpacingUtils';
@@ -47,6 +47,59 @@ function lyricBlockCount(tune) {
   return blocks.filter(function(block) {
     return block.some(function(line) { return String(line || '').trim().length > 0; });
   }).length;
+}
+
+const MELODY_BARLINE_RE = /(\|\]|\[\||\|\||::|:\||\|:|\|)/;
+
+function withPrimaryVoiceNotes(tune, nextNotes) {
+  const next = Object.assign({}, tune);
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  next.voices = Object.assign({}, tune.voices);
+  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: nextNotes });
+  return next;
+}
+
+function mapMelodyNoteLineBars(line, callback) {
+  const tokens = String(line || '').split(MELODY_BARLINE_RE);
+  const out = [];
+  let changed = false;
+
+  function pushPart(part) {
+    if (part.content != null) out.push(part.content);
+    if (part.barline) out.push(part.barline);
+  }
+
+  for (let i = 0; i < tokens.length; i += 2) {
+    const content = tokens[i] != null ? tokens[i] : '';
+    const barline = tokens[i + 1];
+    const hasBarline = barline != null && barline !== '';
+    const isPrefix = i === 0 && !String(content).trim() && hasBarline;
+    const isTrailingEmpty = !hasBarline && !String(content).trim();
+    const part = {
+      content: content,
+      barline: hasBarline ? barline : '',
+      skip: isPrefix || isTrailingEmpty,
+    };
+    const result = callback(part);
+    const results = Array.isArray(result) ? result : [result || part];
+    if (results.length !== 1
+      || results[0].content !== part.content
+      || results[0].barline !== part.barline) {
+      changed = true;
+    }
+    results.forEach(pushPart);
+  }
+  return { line: out.join(''), changed: changed };
+}
+
+function mapMelodyNoteLinesBars(noteLines, callback) {
+  let changed = false;
+  const next = (noteLines || []).map(function(line) {
+    const mapped = mapMelodyNoteLineBars(line, callback);
+    if (mapped.changed) changed = true;
+    return mapped.line;
+  });
+  return changed ? next : null;
 }
 
 /**
@@ -228,23 +281,17 @@ export function fixStanzaDoubleBarlinesInTune(tune, abcTools) {
   if (bars.length < lyricBlocks || bars.length % lyricBlocks !== 0) return null;
 
   const barsPerStanza = bars.length / lyricBlocks;
-  const rebuilt = [];
-  bars.forEach(function(bar, index) {
-    rebuilt.push(bar);
-    const barNumber = index + 1;
-    if (barNumber % barsPerStanza === 0 && barNumber < bars.length) {
-      rebuilt[rebuilt.length - 1] = bar + ' ||';
+  let globalBar = 0;
+  const nextLines = mapMelodyNoteLinesBars(noteLines, function(part) {
+    if (part.skip || !String(part.content).trim()) return part;
+    globalBar += 1;
+    if (globalBar % barsPerStanza === 0 && globalBar < bars.length && part.barline === '|') {
+      return { content: part.content, barline: '||' };
     }
+    return part;
   });
-
-  const newFlat = rebuilt.join(' | ');
-  const next = Object.assign({}, tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], {
-    notes: [newFlat],
-  });
-  return next;
+  if (!nextLines) return null;
+  return withPrimaryVoiceNotes(tune, nextLines);
 }
 
 export function normalizeMelodyRepeatMarksInTune(tune) {
@@ -397,13 +444,27 @@ function tuneMetaForFix(tune) {
   };
 }
 
+function voiceBodyWithLineBreaks(noteLines) {
+  return ensureBarlinesAtMusicLineJoins(noteLines).join('\n');
+}
+
+function eventSpanBars(events, beatsPerBar) {
+  let maxBeat = 0;
+  (events || []).forEach(function(ev) {
+    const end = (ev.startBeat || 0) + (ev.durationBeats || 0);
+    if (end > maxBeat) maxBeat = end;
+  });
+  const bpb = beatsPerBar > 0 ? beatsPerBar : 4;
+  return Math.max(1, Math.ceil(maxBeat / bpb) + 1);
+}
+
 export function padBarWithRestsInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
   const meta = tuneMetaForFix(tune);
   const unit = parseNoteLengthDecimal(meta.noteLength, meta.meter);
   const beatsPerBar = beatsPerBarFromMeter(meta.meter);
-  const events = parseVoiceEvents(flattenMelodyText(noteLines), meta);
+  const events = parseVoiceEvents(voiceBodyWithLineBreaks(noteLines), meta);
   let barBeats = 0;
   let changed = false;
   const nextEvents = [];
@@ -581,23 +642,21 @@ export function padVoicesToMatchInTune(tune) {
 export function wrapEndingInRepeatInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
-  const flat = flattenMelodyText(noteLines);
-  const endingIndex = flat.search(/\[[0-9]+\]|\[[0-9]+(?=\s)/);
+  const body = voiceBodyWithLineBreaks(noteLines);
+  const endingIndex = body.search(/\[[0-9]+\]|\[[0-9]+(?=\s)/);
   if (endingIndex < 0) return null;
 
-  const before = flat.slice(0, endingIndex).replace(/\s+$/, '');
+  const before = body.slice(0, endingIndex).replace(/[ \t]+$/, '');
   if (/\|:\s*$/.test(before) || /::\s*$/.test(before)) return null;
 
-  let nextFlat = before + ' |: ' + flat.slice(endingIndex).trim();
-  if (!/:\|\s*$/.test(nextFlat.replace(/\s+/g, ' ').trim())) {
-    nextFlat = nextFlat.replace(/\|?\s*$/, '') + ' :|';
+  const after = body.slice(endingIndex).replace(/^[ \t]+/, '');
+  const glue = /\n$/.test(before) ? '|: ' : ' |: ';
+  let nextBody = before + glue + after;
+  if (!/:\|\s*$/.test(nextBody.replace(/\s+/g, ' ').trim())) {
+    nextBody = nextBody.replace(/\|?\s*$/, '') + ' :|';
   }
-
-  const next = Object.assign({}, tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
-  return next;
+  if (nextBody === body) return null;
+  return withPrimaryVoiceNotes(tune, nextBody.split(/\r?\n/));
 }
 
 export function removeEmptyVoiceInTune(tune) {
@@ -636,30 +695,22 @@ function scaffoldRestForBar(tune) {
   }], meta).trim();
 }
 
-export function convertScaffoldToRestsInTune(tune) {
+function replaceClassifiedBarsInTune(tune, kindSet) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
-  const flat = flattenMelodyText(noteLines);
-  const bars = extractBarsFromMelodyText(flat);
-  if (!bars.length) return null;
-
   const restText = scaffoldRestForBar(tune);
-  let changed = false;
-  const rebuilt = bars.map(function(bar) {
-    if (classifyBar(bar) === 'chord_scaffold') {
-      changed = true;
-      return restText;
-    }
-    return bar;
+  const nextLines = mapMelodyNoteLinesBars(noteLines, function(part) {
+    if (part.skip) return part;
+    const kind = classifyBar(part.content);
+    if (!kindSet[kind]) return part;
+    return { content: ' ' + restText + ' ', barline: part.barline || '|' };
   });
-  if (!changed) return null;
+  if (!nextLines) return null;
+  return withPrimaryVoiceNotes(tune, nextLines);
+}
 
-  const nextFlat = rebuilt.join(' | ');
-  const next = Object.assign({}, tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
-  return next;
+export function convertScaffoldToRestsInTune(tune) {
+  return replaceClassifiedBarsInTune(tune, { chord_scaffold: true });
 }
 
 export function collapseAnacrusisDoubleBarlinesInTune(tune) {
@@ -735,20 +786,15 @@ export function declarePickupLengthInTune(tune, abcTools, parseAndRender) {
 export function removeOrphanRepeatEndInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
-  const flat = flattenMelodyText(noteLines);
-  const idx = flat.indexOf(':|');
+  const body = voiceBodyWithLineBreaks(noteLines);
+  const idx = body.indexOf(':|');
   if (idx < 0) return null;
-  const before = flat.slice(0, idx);
+  const before = body.slice(0, idx);
   if (/\|:/.test(before)) return null;
 
-  const nextFlat = (before.trim() + ' ' + flat.slice(idx + 2).trim()).replace(/\s+/g, ' ').trim();
-  if (!nextFlat || nextFlat === flat.replace(/\s+/g, ' ').trim()) return null;
-
-  const next = Object.assign({}, tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
-  return next;
+  const nextBody = before.replace(/[ \t]+$/, '') + body.slice(idx + 2).replace(/^[ \t]+/, '');
+  if (!nextBody.trim() || nextBody === body) return null;
+  return withPrimaryVoiceNotes(tune, nextBody.split(/\r?\n/));
 }
 
 export function closeRepeatAtEndInTune(tune) {
@@ -777,8 +823,8 @@ function endingBarCounts(flat) {
 export function balanceEndingsInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
-  const flat = flattenMelodyText(noteLines);
-  const counts = endingBarCounts(flat);
+  const body = voiceBodyWithLineBreaks(noteLines);
+  const counts = endingBarCounts(body);
   const keys = Object.keys(counts);
   if (keys.length < 2) return null;
 
@@ -787,7 +833,7 @@ export function balanceEndingsInTune(tune) {
   if (maxBars === minBars) return null;
 
   const restText = scaffoldRestForBar(tune);
-  let nextFlat = flat;
+  let nextBody = body;
   keys.forEach(function(key) {
     const deficit = maxBars - counts[key];
     if (deficit <= 0) return;
@@ -795,26 +841,24 @@ export function balanceEndingsInTune(tune) {
     const re = new RegExp('(' + marker + '[^|]*)(\\s*\\|)', '');
     let pads = '';
     for (let i = 0; i < deficit; i += 1) pads += ' ' + restText + ' |';
-    nextFlat = nextFlat.replace(re, '$1' + pads + '$2');
+    nextBody = nextBody.replace(re, '$1' + pads + '$2');
   });
 
-  if (nextFlat === flat) return null;
-  const next = Object.assign({}, tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
-  return next;
+  if (nextBody === body) return null;
+  return withPrimaryVoiceNotes(tune, nextBody.split(/\r?\n/));
 }
 
 export function quantizeOverfullBarsInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
   const meta = tuneMetaForFix(tune);
-  const events = parseVoiceEvents(flattenMelodyText(noteLines), meta);
+  const beatsPerBar = beatsPerBarFromMeter(meta.meter);
+  const events = parseVoiceEvents(voiceBodyWithLineBreaks(noteLines), meta);
   const quantized = quantizeVoiceEvents(events, {
     meter: meta.meter,
     noteLength: meta.noteLength,
-    beatsPerBar: beatsPerBarFromMeter(meta.meter),
+    beatsPerBar: beatsPerBar,
+    numBars: eventSpanBars(events, beatsPerBar),
     strength: 1,
     slotsPerBeat: 4,
   });
@@ -830,30 +874,7 @@ export function quantizeOverfullBarsInTune(tune) {
 }
 
 export function fillSparseBarsInTune(tune) {
-  const noteLines = getNoteLines(tune);
-  if (noteLines.length === 0) return null;
-  const flat = flattenMelodyText(noteLines);
-  const bars = extractBarsFromMelodyText(flat);
-  if (!bars.length) return null;
-
-  const restText = scaffoldRestForBar(tune);
-  let changed = false;
-  const rebuilt = bars.map(function(bar) {
-    const kind = classifyBar(bar);
-    if (kind === 'empty' || kind === 'chord_scaffold') {
-      changed = true;
-      return restText;
-    }
-    return bar;
-  });
-  if (!changed) return null;
-
-  const nextFlat = rebuilt.join(' | ');
-  const next = Object.assign({}, tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  next.voices = Object.assign({}, tune.voices);
-  next.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey], { notes: [nextFlat] });
-  return next;
+  return replaceClassifiedBarsInTune(tune, { empty: true, chord_scaffold: true });
 }
 
 export function rebuildWLinesInTune(tune) {

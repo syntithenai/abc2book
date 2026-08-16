@@ -19,10 +19,12 @@ import {
   snapOffsetToLetter,
   snapAlignOffset,
   anchorsFromCowPair,
+  ALIGN_LEADING_PAD_SLOTS,
   ALIGN_TRAILING_PAD_SLOTS,
   padAlignLineToOffset,
   trimAlignLinePadding,
   alignLineDisplayChars,
+  alignLetterClickToCaret,
   applyAlignChordAnchors,
   insertAlignLyricRow,
   insertAlignSectionAfter,
@@ -173,6 +175,19 @@ describe('lyricChordAlignUtils', function() {
     expect(wordIndexNearestClientX([], 10)).toBe(-1)
   })
 
+  test('alignLetterClickToCaret maps pads and left/right half of a letter', function() {
+    const text = 'Amazing'
+    expect(alignLetterClickToCaret(text, -2)).toBe(0)
+    expect(alignLetterClickToCaret(text, 7)).toBe(7)
+    expect(alignLetterClickToCaret(text, 3)).toBe(3)
+    const rect = { left: 10, right: 20 }
+    expect(alignLetterClickToCaret(text, 3, 12, rect)).toBe(3)
+    expect(alignLetterClickToCaret(text, 3, 16, rect)).toBe(4)
+    expect(alignLetterClickToCaret(text, 0, 11, rect)).toBe(0)
+    expect(alignLetterClickToCaret(text, 6, 19, rect)).toBe(7)
+    expect(alignLetterClickToCaret(text, 3, 16, { left: 10, right: 10 })).toBe(3)
+  })
+
   test('letterIndexNearestClientX includes spaces and trailing slots', function() {
     const text = 'A B'
     const rects = [
@@ -248,11 +263,14 @@ describe('lyricChordAlignUtils', function() {
     ])
   })
 
-  test('snapAlignOffset keeps spaces and trailing pad indexes', function() {
+  test('snapAlignOffset keeps spaces, leading pads, and trailing pad indexes', function() {
     expect(snapAlignOffset('Amazing grace', 7)).toBe(7)
     expect(snapAlignOffset('Amazing grace', 0)).toBe(0)
     expect(snapAlignOffset('hello', 8)).toBe(8)
     expect(snapAlignOffset('', 2)).toBe(2)
+    expect(snapAlignOffset('hello', -1)).toBe(-1)
+    expect(snapAlignOffset('hello', -2)).toBe(-2)
+    expect(snapAlignOffset('hello', -9)).toBe(-ALIGN_LEADING_PAD_SLOTS)
   })
 
   test('chords on spaces and trailing pads round-trip in ChordPro', function() {
@@ -265,6 +283,19 @@ describe('lyricChordAlignUtils', function() {
     expect(line).toBe('hello[C] [G] ')
     const parsed = parseChordProLineToAnchors(line)
     expect(parsed.text).toBe('hello  ')
+    expect(parsed.anchors).toEqual(anchors)
+  })
+
+  test('chords on leading pads round-trip in ChordPro', function() {
+    const text = '  hello'
+    const anchors = [
+      { chord: 'C', offset: 0 },
+      { chord: 'G', offset: 1 },
+    ]
+    const line = serializeAnchorsToChordProLine(text, anchors)
+    expect(line).toBe('[C] [G] hello')
+    const parsed = parseChordProLineToAnchors(line)
+    expect(parsed.text).toBe('  hello')
     expect(parsed.anchors).toEqual(anchors)
   })
 
@@ -290,13 +321,56 @@ describe('lyricChordAlignUtils', function() {
     expect(next.text).toBe('hello   ')
     expect(next.anchors).toEqual([{ chord: 'Am', offset: 7 }])
     expect(serializeAnchorsToChordProLine(next.text, next.anchors)).toMatch(/\[Am\]/)
-    expect(alignLineDisplayChars(next.text).length).toBe(next.text.length + ALIGN_TRAILING_PAD_SLOTS)
+    expect(alignLineDisplayChars(next.text).length).toBe(
+      ALIGN_LEADING_PAD_SLOTS + next.text.length + ALIGN_TRAILING_PAD_SLOTS
+    )
+  })
+
+  test('applyAlignChordAnchors pads the line for start-of-line chords', function() {
+    const row = {
+      type: 'lyric',
+      text: 'hello',
+      sourceText: 'hello',
+      anchors: [{ chord: 'G', offset: 0 }],
+    }
+    const next = applyAlignChordAnchors(row, -2, function(text, anchors, at) {
+      return upsertChordAnchor(anchors, at, 'Am', text)
+    })
+    expect(next.text).toBe('  hello')
+    expect(next.anchors).toEqual([
+      { chord: 'Am', offset: 0 },
+      { chord: 'G', offset: 2 },
+    ])
+    expect(serializeAnchorsToChordProLine(next.text, next.anchors)).toBe('[Am]  [G]hello')
+    const parsed = parseChordProLineToAnchors('[Am]  [G]hello')
+    expect(parsed.text).toBe('  hello')
+    expect(parsed.anchors).toEqual(next.anchors)
+    expect(alignRowsToChordProLines([next])).toEqual(['[Am]  [G]hello'])
+  })
+
+  test('applyAlignChordAnchors moves an existing chord onto a leading pad', function() {
+    const row = {
+      type: 'lyric',
+      text: 'hello',
+      sourceText: 'hello',
+      anchors: [{ chord: 'G', offset: 0 }],
+    }
+    const next = applyAlignChordAnchors(row, -1, function(text, anchors, at) {
+      return moveChordAnchor(anchors, 0, at, text)
+    })
+    expect(next.text).toBe(' hello')
+    expect(next.anchors).toEqual([{ chord: 'G', offset: 0 }])
+    expect(serializeAnchorsToChordProLine(next.text, next.anchors)).toBe('[G] hello')
   })
 
   test('trimAlignLinePadding keeps spaces through the last chord', function() {
     expect(trimAlignLinePadding('hello    ', [{ chord: 'C', offset: 6 }])).toBe('hello  ')
     expect(trimAlignLinePadding('hello    ', [])).toBe('hello')
     expect(padAlignLineToOffset('hello', 7)).toBe('hello   ')
+    expect(padAlignLineToOffset('hello', -2)).toBe('  hello')
+    expect(trimAlignLinePadding('   hello', [])).toBe('hello')
+    expect(trimAlignLinePadding('   hello', [{ chord: 'C', offset: 0 }])).toBe('   hello')
+    expect(trimAlignLinePadding('   hello', [{ chord: 'C', offset: 1 }])).toBe('  hello')
   })
 
   test('insert and delete lyric lines and sections', function() {

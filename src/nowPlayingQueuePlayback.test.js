@@ -1,4 +1,4 @@
-import { createQueue, setRepeatMode } from './nowPlayingQueue'
+import { createQueue, setFollowTune, setRepeatMode } from './nowPlayingQueue'
 import {
   shouldMusicSingleOwnPlayback,
   shouldMusicSingleMountMediaEngine,
@@ -617,6 +617,120 @@ describe('nowPlayingQueuePlayback', function() {
     expect(updatedQueue.currentIndex).toBe(1)
     expect(updatedQueue.repeatMode).toBe('off')
     expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+  })
+
+  test('handleQueueAdvanceOnEnded does not navigate when follow is off', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      a: { id: 'a', notes: 'CDEF', links: [{ link: 'https://example.com/a.mp3' }] },
+      b: { id: 'b', notes: 'GABc', links: [{ link: 'https://example.com/b.mp3' }] },
+    }
+    const queue = createQueue({
+      tuneIds: ['a', 'b'],
+      currentIndex: 0,
+      followTune: false,
+      autoAdvance: true,
+    })
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+    }
+    const navigate = jest.fn()
+    handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: jest.fn(),
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      navigate: navigate,
+      location: { pathname: '/tunes/a/playMedia/0' },
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+    expect(navigate).not.toHaveBeenCalled()
+  })
+
+  test('handleQueueAdvanceOnEnded navigates when follow is on', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      a: { id: 'a', notes: 'CDEF', links: [{ link: 'https://example.com/a.mp3' }] },
+      b: { id: 'b', notes: 'GABc', links: [{ link: 'https://example.com/b.mp3' }] },
+    }
+    const queue = createQueue({
+      tuneIds: ['a', 'b'],
+      currentIndex: 0,
+      followTune: true,
+      autoAdvance: true,
+    })
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+    }
+    const navigate = jest.fn()
+    handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: jest.fn(),
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      navigate: navigate,
+      location: { pathname: '/tunes/a/playMedia/0' },
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(navigate).toHaveBeenCalledWith('/tunes/b/playMedia/0')
+  })
+
+  test('handleQueueAdvanceOnEnded keeps the page when follow was turned off before track end', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      a: { id: 'a', notes: 'CDEF', links: [{ link: 'https://example.com/a.mp3' }] },
+      b: { id: 'b', notes: 'GABc', links: [{ link: 'https://example.com/b.mp3' }] },
+    }
+    const staleQueue = createQueue({
+      tuneIds: ['a', 'b'],
+      currentIndex: 0,
+      followTune: true,
+      autoAdvance: true,
+    })
+    const liveQueue = setFollowTune(staleQueue, false)
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+    }
+    const navigate = jest.fn()
+    let updatedQueue = null
+    handleQueueAdvanceOnEnded({
+      queue: staleQueue,
+      getLatestQueue: function() { return liveQueue },
+      setQueue: function(q) { updatedQueue = q },
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      navigate: navigate,
+      location: { pathname: '/tunes/a/playMedia/0' },
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(updatedQueue).not.toBeNull()
+    expect(updatedQueue.followTune).toBe(false)
+    expect(navigate).not.toHaveBeenCalled()
   })
 
   test('handleQueueAdvanceOnEnded stops without arming intent when all tunes unplayable', async function() {

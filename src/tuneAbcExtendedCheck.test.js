@@ -110,4 +110,63 @@ describe('tuneAbcExtendedCheck', function() {
     expect(result).not.toBeNull();
     expect(result.issues.some(function(item) { return item.code === 'duplicate_voice_content'; })).toBe(true);
   });
+
+  test('flags missing repeats on unlabeled multi-strain instrumentals', function() {
+    const tune = {
+      id: 't3',
+      name: 'Reel',
+      meter: '4/4',
+      key: 'G',
+      noteLength: '1/8',
+      voices: {
+        '1': { notes: ['C D E F | G A B c ||', 'd e f g | a b c d ||', 'e f g a | b c d e ||'] },
+      },
+    };
+    const result = checkTuneAbcExtended(tune, { abcTools: { json2abc: function() { return ''; } } });
+    expect(result.issues.some(function(item) { return item.code === 'missing_repeat_second_time'; })).toBe(true);
+  });
+
+  test('does not want ABC repeats for verse/chorus/bridge songs', function() {
+    const tune = {
+      id: 'appetite',
+      name: 'Appetite',
+      composer: 'Steve Ryan',
+      meter: '4/4',
+      key: 'Am',
+      noteLength: '1/8',
+      voices: {
+        '1': {
+          notes: [
+            '"Am"zzzzzzzz | "Gm"zzzzzzzz | "F"zzzzzzzz | "Em"zzzzzzzz |',
+            '"Am"zzzzzzzz | "Gm"zzzzzzzz | "Dm"zzzzzzzz | "F"zzzzzzzz ||',
+            '"F"zzzzzzzz | "Am"zzzzzzzz |',
+            '"Em7"zzzzzzzz | "Am"zzzzzzzz |',
+            '"F"zzzzzzzz | "Am"zzzzzzzz |',
+            '"Em7"zzzzzzzz | "F"zzzzzzzz | "F"zzzzzzzz ||',
+            '"Gm"zzzzzzzz | "F"zzzzzzzz | "Gm"zzzzzzzz | "Gm"zzzzzzzz | "Am"zzzzzzzz | "Am"zzzzzzzz ||',
+          ],
+        },
+      },
+      words: [
+        'Appetite - Steve Ryan 13/9/2025',
+        '',
+        '# VERSE',
+        'to do right, got to tame my desire',
+        '',
+        '# CHORUS',
+        'Visceral, orgasmic, gorging light fantastic',
+        '',
+        '# VERSE',
+        'not devastation, to have the revelation',
+        '',
+        '# BRIDGE',
+        'Smorgasbord of finest viddles',
+        '',
+        '# CHORUS',
+      ],
+    };
+    const result = checkTuneAbcExtended(tune, { abcTools: { json2abc: function() { return ''; } } });
+    const codes = result && result.issues ? result.issues.map(function(item) { return item.code }) : [];
+    expect(codes).not.toContain('missing_repeat_second_time');
+  });
 });

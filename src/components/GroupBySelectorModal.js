@@ -1,11 +1,25 @@
 import {useState} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
+import { GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED } from '../tuneListFilter'
 
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
   const responsiveModalProps = useResponsiveModalProps();
-  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'artist', books: 'books', tags: 'tags', tuneStatus: 'tune status', tempoRange: 'tempo range'} //, tags: 'tags'}
+  const options = {
+    boost: 'confidence',
+    difficulty: 'difficulty',
+    key: 'key',
+    tuning: 'tuning',
+    meter: 'meter',
+    rhythm: 'rhythm',
+    composer: 'artist',
+    books: 'books',
+    tags: 'tags',
+    [GROUP_BY_TUNE_STATUS]: 'tune status',
+    [GROUP_BY_TUNE_STATUS_DETAILED]: 'detailed tune status',
+    tempoRange: 'tempo range',
+  }
   const handleClose = () => setShow(false);
   const handleShow = (e) => {
     setShow(true);
@@ -28,7 +42,7 @@ function GroupBySelectorModal(props) {
             <ListGroup.Item  style={{fontSize:'1.5em'}} key={'first'} className='odd'  onClick={function(e) {props.onChange(''); handleClose()}} >No Grouping</ListGroup.Item>
             <>
             {Object.keys(options).map(function(option,tk) {
-              return <ListGroup.Item  style={{fontSize:'1.5em', border: (props.value && props.value == options[option]) ? '2px solid black' : '' }} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); handleClose()}} > {options[option]} </ListGroup.Item>
+              return <ListGroup.Item  style={{fontSize:'1.5em', border: (props.value && props.value == option) ? '2px solid black' : '' }} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); handleClose()}} > {options[option]} </ListGroup.Item>
             })}
             </>
           </ListGroup>

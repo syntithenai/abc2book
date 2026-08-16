@@ -159,6 +159,7 @@ export function buildTunesListPath(filterState) {
 /**
  * Persist the last list search so Header / Back to list / next-prev can restore it.
  * Empty filter state is ignored so a cleared React state cannot wipe the snapshot.
+ * Use clearLastSearchFilters when the user explicitly clears all filters.
  */
 export function saveLastSearchFilters(state) {
   if (typeof localStorage === 'undefined') return
@@ -168,6 +169,18 @@ export function saveLastSearchFilters(state) {
     localStorage.setItem(LAST_SEARCH_FILTERS_STORAGE_KEY, JSON.stringify(params))
   } catch (e) {
     // Ignore quota / private-mode failures.
+  }
+}
+
+/**
+ * Drop the restorable last-search snapshot so Header / Back to list go to bare /tunes.
+ */
+export function clearLastSearchFilters() {
+  if (typeof localStorage === 'undefined') return
+  try {
+    localStorage.removeItem(LAST_SEARCH_FILTERS_STORAGE_KEY)
+  } catch (e) {
+    // Ignore private-mode failures.
   }
 }
 

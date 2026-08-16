@@ -5,6 +5,8 @@ import {
   collapseAnacrusisDoubleBarlinesInTune,
   collapseEmptyRepeatBarsInTune,
   convertScaffoldToRestsInTune,
+  fillSparseBarsInTune,
+  balanceEndingsInTune,
   fixSessionLineBreaksInTune,
   fixStanzaDoubleBarlinesInTune,
   normalizeMelodyRepeatMarks,
@@ -321,6 +323,66 @@ describe('tuneAbcStructureFix', function() {
     expect(flat).toContain('||');
   });
 
+  test('flattening structure fixes keep notation line breaks', function() {
+    function noteLines(tune) {
+      return tune.voices[Object.keys(tune.voices)[0]].notes.filter(function(line) {
+        return String(line || '').trim();
+      });
+    }
+
+    const stanzaTune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Stanza Lines') + 'C |', {
+      words: ['Verse one line', '', 'Verse two line'],
+    }), {
+      voices: { '1': { notes: ['C D E F | G A B c |', 'D E F G | A B c d |'] } },
+    });
+    const stanzaFixed = fixStanzaDoubleBarlinesInTune(stanzaTune, abcTools);
+    expect(stanzaFixed).not.toBeNull();
+    expect(noteLines(stanzaFixed).length).toBe(2);
+    expect(noteLines(stanzaFixed).join('\n')).toContain('||');
+
+    const wrapTune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Wrap Lines') + 'C |'), {
+      voices: { '1': { notes: ['C D E F | G A B c |', '[1 C D E F |]'] } },
+    });
+    const wrapFixed = wrapEndingInRepeatInTune(wrapTune);
+    expect(wrapFixed).not.toBeNull();
+    expect(noteLines(wrapFixed).length).toBe(2);
+    expect(noteLines(wrapFixed).join('\n')).toContain('|:');
+    expect(noteLines(wrapFixed).join('\n')).toContain('[1');
+
+    const scaffoldTune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Scaffold Lines') + 'C |', {
+      meter: '4/4',
+      noteLength: '1/8',
+    }), {
+      voices: { '1': { notes: ['"C"zzzz | "G"zzzz |', '"Am"zzzz | "F"zzzz |'] } },
+    });
+    const scaffoldFixed = convertScaffoldToRestsInTune(scaffoldTune);
+    expect(scaffoldFixed).not.toBeNull();
+    expect(noteLines(scaffoldFixed).length).toBe(2);
+
+    const orphanTune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Orphan Lines') + 'C |'), {
+      voices: { '1': { notes: [':| C D E F |', 'G A B c |'] } },
+    });
+    const orphanFixed = removeOrphanRepeatEndInTune(orphanTune);
+    expect(orphanFixed).not.toBeNull();
+    expect(noteLines(orphanFixed).length).toBe(2);
+    expect(noteLines(orphanFixed)[0].trim().startsWith(':|')).toBe(false);
+
+    const balanceTune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Balance Lines') + 'C |'), {
+      voices: { '1': { notes: ['C D E F | [1] G A B c |', '[2] D E F G | A B c d |'] } },
+    });
+    const balanceFixed = balanceEndingsInTune(balanceTune);
+    expect(balanceFixed).not.toBeNull();
+    expect(noteLines(balanceFixed).length).toBe(2);
+
+    const sparseTune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Sparse Lines') + 'C |'), {
+      voices: { '1': { notes: ['C D E F | |', 'G A B c | D E F G |'] } },
+    });
+    const sparseFixed = fillSparseBarsInTune(sparseTune);
+    expect(sparseFixed).not.toBeNull();
+    expect(noteLines(sparseFixed).length).toBe(2);
+    expect(noteLines(sparseFixed).join('\n')).toMatch(/z/i);
+  });
+
   test('appendFinalBarlineInTune adds |]', function() {
     const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Finish') + 'C D E F | G A B c |');
     const fixed = appendFinalBarlineInTune(tune, abcTools);
@@ -455,6 +517,35 @@ describe('tuneAbcStructureFix', function() {
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
     const issues = result && result.issues ? result.issues : [];
     expect(structureFixAvailable('convertSectionPickupsToVoltas', tune, abcTools, issues)).toBe(false);
+  });
+
+  test('quantizeOverfullBarsInTune keeps notation line breaks', function() {
+    const tune = Object.assign(tuneFromAbc(abcTools, abcTools.emptyABC('Overfull') + 'C |', {
+      meter: '4/4',
+      noteLength: '1/8',
+    }), {
+      voices: {
+        '1': {
+          notes: [
+            'C5/8 D5/8 E5/8 F5/8 G5/8 A5/8 B5/8 c5/8 d5/8 |',
+            'e2 f2 g2 a2 |',
+            'b2 c2 d2 e2 |',
+          ],
+        },
+      },
+    });
+    const preview = previewStructureFix('quantizeOverfullBars', tune, abcTools);
+    expect(preview).not.toBeNull();
+    const afterNotes = preview.tune.voices['1'].notes;
+    expect(afterNotes.length).toBeGreaterThan(1);
+    const bodyLines = String(preview.after || '').split('\n').filter(function(line) {
+      const trimmed = String(line || '').trim();
+      if (!trimmed) return false;
+      if (/^[A-Z]:/.test(trimmed)) return false;
+      if (/^%%/.test(trimmed)) return false;
+      return true;
+    });
+    expect(bodyLines.length).toBeGreaterThan(1);
   });
 });
 

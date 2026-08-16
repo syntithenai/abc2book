@@ -210,9 +210,7 @@ export default function useTuneBookMediaController(props) {
     
     const [tune, setTuneState] = useState(null)
     var nowPlayingQueueRef = useRef(props.nowPlayingQueue)
-    useEffect(function() {
-        nowPlayingQueueRef.current = props.nowPlayingQueue
-    }, [props.nowPlayingQueue])
+    nowPlayingQueueRef.current = props.nowPlayingQueue
     var tuneRef = useRef(null)
     var regionEndGuardUntilRef = useRef(0)
     var playbackEndLatchUntilRef = useRef(0)

@@ -38,6 +38,7 @@ import {
 import { pingYoutubeExtension } from '../youtubeExtensionClient'
 import { isYoutubeHelperDisabled } from '../youtubeHelperSettings'
 import GoogleAuthStatusSection from './GoogleAuthStatusSection'
+import YoutubeHelperSettingsSection from './YoutubeHelperSettingsSection'
 
 const CAP_LABELS = {
   llm: 'LLM',
@@ -874,6 +875,7 @@ export default function ProvidersSettingsSection({
         onConfirm={applyGroqFill}
       />
 
+      <YoutubeHelperSettingsSection />
       <GoogleAuthStatusSection
         user={user}
         token={token}

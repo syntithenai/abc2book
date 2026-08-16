@@ -5,10 +5,19 @@ import {
   filterSearchNoBooks,
   buildTagCollation,
   buildTuneStatusEntry,
+  buildTuneStatusGroupKey,
+  buildGroupedTunes,
   pruneSelectionForStatus,
   runTuneListFilterSync,
+  fillMissingTuneStatusEntries,
   buildListHashKey,
+  shouldSkipListRebuildForTuneEdit,
+  GROUP_BY_TUNE_STATUS,
+  GROUP_BY_TUNE_STATUS_DETAILED,
+  shouldScanTuneStatusExtras,
+  shouldScanTuneMusicalStatus,
 } from './tuneListFilter'
+import { LIST_PROTECTION_LIMIT } from './tuneScaleConstants'
 
 function makeTune(id, name, extra) {
   return Object.assign({
@@ -140,6 +149,138 @@ describe('tuneListFilter', function() {
     const a = buildListHashKey(['', '', '', [], [], [], 10, 0])
     const b = buildListHashKey(['', '', '', [], [], [], 10, 3])
     expect(a).not.toBe(b)
+  })
+
+  test('shouldSkipListRebuildForTuneEdit skips in-place edits unless starred filter is on', function() {
+    const identity = buildListHashKey(['book', '', true])
+    expect(shouldSkipListRebuildForTuneEdit(null, identity, false)).toBe(false)
+    expect(shouldSkipListRebuildForTuneEdit(identity, identity, false)).toBe(true)
+    expect(shouldSkipListRebuildForTuneEdit(identity, identity, true)).toBe(false)
+    expect(shouldSkipListRebuildForTuneEdit(identity, buildListHashKey(['other', '', true]), false)).toBe(false)
+  })
+
+  test('buildTuneStatusEntry skips inline chords unless extras are requested', function() {
+    const tunebook = {
+      hasLyrics: function() { return true },
+      hasLinks: function() { return false },
+    }
+    const tune = makeTune('a', 'A', { words: ['[G]Amazing grace'] })
+    const simple = buildTuneStatusEntry(tune, tunebook)
+    expect(simple.hasInlineChords).toBe(false)
+    const detailed = buildTuneStatusEntry(tune, tunebook, { includeExtras: true, includeMusical: false })
+    expect(detailed.hasInlineChords).toBe(true)
+    expect(detailed.hasChords).toBe(false)
+  })
+
+  test('buildTuneStatusEntry detects COW chord lines as inline chords', function() {
+    const tunebook = {
+      hasLyrics: function() { return true },
+      hasLinks: function() { return false },
+    }
+    const tune = makeTune('a', 'A', { words: ['G    C    D', 'Amazing grace how sweet'] })
+    const status = buildTuneStatusEntry(tune, tunebook, { includeExtras: true, includeMusical: false })
+    expect(status.hasInlineChords).toBe(true)
+  })
+
+  test('buildTuneStatusEntry keeps ABC quoted chords separate from inline lyrics', function() {
+    const tunebook = {
+      hasLyrics: function() { return false },
+      hasLinks: function() { return false },
+    }
+    const tune = makeTune('a', 'A', { voices: { V: { notes: ['"Am"CDEF|'] } } })
+    const status = buildTuneStatusEntry(tune, tunebook, { includeExtras: true, includeMusical: false })
+    expect(status.hasChords).toBe(true)
+    expect(status.hasInlineChords).toBe(false)
+  })
+
+  test('buildTuneStatusGroupKey omits extras unless detailed', function() {
+    const status = {
+      hasLyrics: true,
+      hasNotes: true,
+      hasChords: true,
+      hasInlineChords: true,
+      hasLinks: true,
+      hasMusicalErrors: true,
+      hasMusicalWarnings: true,
+    }
+    expect(buildTuneStatusGroupKey(status, false)).toBe('lyrics,notes,chords,media')
+    expect(buildTuneStatusGroupKey(status, true)).toBe('lyrics,notes,chords,inline,media,errors')
+  })
+
+  test('buildTuneStatusGroupKey prefers errors over warnings', function() {
+    expect(buildTuneStatusGroupKey({
+      hasNotes: true,
+      hasMusicalErrors: true,
+      hasMusicalWarnings: true,
+    }, true)).toBe('notes,errors')
+    expect(buildTuneStatusGroupKey({
+      hasNotes: true,
+      hasMusicalWarnings: true,
+    }, true)).toBe('notes,warnings')
+  })
+
+  test('buildGroupedTunes uses simple vs detailed tune-status keys', function() {
+    const tunes = [
+      makeTune('a', 'A', { words: ['[G]Hello'] }),
+    ]
+    const tunebook = {
+      hasLyrics: function() { return true },
+      hasLinks: function() { return false },
+    }
+    const status = {}
+    status.a = buildTuneStatusEntry(tunes[0], tunebook, { includeExtras: true, includeMusical: false })
+    const simple = buildGroupedTunes(tunes, GROUP_BY_TUNE_STATUS, tunebook, status)
+    const detailed = buildGroupedTunes(tunes, GROUP_BY_TUNE_STATUS_DETAILED, tunebook, status)
+    expect(Object.keys(simple)).toEqual(['lyrics,notes'])
+    expect(Object.keys(detailed)).toEqual(['lyrics,notes,inline'])
+  })
+
+  test('shouldScanTuneStatusExtras follows group-by and list display mode', function() {
+    expect(shouldScanTuneStatusExtras({ listDisplayMode: 'compact' })).toBe(false)
+    expect(shouldScanTuneStatusExtras({ listDisplayMode: 'detailed' })).toBe(true)
+    expect(shouldScanTuneStatusExtras({ listDisplayMode: 'preview' })).toBe(true)
+    expect(shouldScanTuneStatusExtras({ groupBy: GROUP_BY_TUNE_STATUS_DETAILED })).toBe(true)
+    expect(shouldScanTuneStatusExtras({ includeExtras: false, listDisplayMode: 'detailed' })).toBe(false)
+  })
+
+  test('shouldScanTuneMusicalStatus caps at the list protection limit', function() {
+    expect(shouldScanTuneMusicalStatus({ listDisplayMode: 'detailed' }, 10)).toBe(true)
+    expect(shouldScanTuneMusicalStatus({ listDisplayMode: 'detailed' }, LIST_PROTECTION_LIMIT)).toBe(false)
+    expect(shouldScanTuneMusicalStatus({ listDisplayMode: 'compact' }, 10)).toBe(false)
+  })
+
+  test('runTuneListFilterSync groups by detailed tune status', function() {
+    const tunes = {
+      a: makeTune('a', 'Alpha', { words: ['[C]Lyric'] }),
+    }
+    const result = runTuneListFilterSync({
+      tunes: tunes,
+      filterSearchFn: function() { return true },
+      groupBy: GROUP_BY_TUNE_STATUS_DETAILED,
+      tunebook: {
+        hasLyrics: function() { return true },
+        hasLinks: function() { return false },
+      },
+    })
+    expect(result.tuneStatus.a.hasInlineChords).toBe(true)
+    expect(result.grouped['lyrics,notes,inline']).toEqual([0])
+  })
+
+  test('fillMissingTuneStatusEntries upgrades simple entries with extras', async function() {
+    const tunebook = {
+      hasLyrics: function() { return true },
+      hasLinks: function() { return false },
+    }
+    const tune = makeTune('a', 'A', { words: ['[G]Hello'] })
+    const prev = {}
+    prev.a = buildTuneStatusEntry(tune, tunebook)
+    expect(prev.a.hasInlineChords).toBe(false)
+    const next = await fillMissingTuneStatusEntries([tune], prev, tunebook, {
+      includeExtras: true,
+      includeMusical: false,
+    })
+    expect(next.a.hasInlineChords).toBe(true)
+    expect(next.a.extrasScanned).toBe(true)
   })
 })
 

@@ -46,8 +46,9 @@ export function LyricsChordsHelpBody() {
         and written into the lyrics — that are maintained independently. Beat-level timing is
         approximate (lossy). Existing lyric-embedded chords are replaced; ABC is unchanged.
         Use the Lyrics editor <strong>Align</strong> tab afterward to drag chords onto letters
-        or spaces, edit/add/delete lyric lines and sections, click a chord to edit or remove
-        it, or use <strong>+</strong> to add chords.
+        or spaces (including extra slots at the start and end of each line), click a lyric or
+        section title to edit it in place, add or delete lyric lines and sections, click a chord
+        to edit or remove it, or use <strong>+</strong> to add chords.
       </p>
 
       <h3 className="h5">Section mapping (lyrics ↔ notation)</h3>

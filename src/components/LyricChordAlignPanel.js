@@ -1,9 +1,12 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Button, Form, Modal } from 'react-bootstrap'
 import {
+  alignDisplayIndexToOffset,
+  alignLetterClickToCaret,
   alignLineDisplayChars,
   alignRowsToChordProLines,
   applyAlignChordAnchors,
+  isAlignPadOffset,
   chordAtOffset,
   deleteAlignRow,
   deleteAlignSection,
@@ -19,12 +22,25 @@ import {
   snapAlignOffset,
   upsertChordAnchor,
 } from '../lyricChordAlignUtils'
-import { displaySectionHeader } from '../LyricsDisplayLines'
+import { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines'
 import { applyChordDisplayTranspose } from '../chordKeyMergeOptions'
 import { chordLetterGapSlotChars, nextAnchorAfterOffset } from '../chordLabelGap'
+import { icons } from '../Icons'
 
 const DRAG_THRESHOLD_PX = 6
 const PREVENT_SCROLL_FOCUS = { preventScroll: true }
+
+function clickXToCaret(text, clientX, rect) {
+  const raw = String(text == null ? '' : text)
+  const len = raw.length
+  if (!len) return 0
+  const left = rect ? Number(rect.left) : NaN
+  const right = rect ? Number(rect.right) : NaN
+  const x = Number(clientX)
+  if (!Number.isFinite(left) || !Number.isFinite(right) || !(right > left) || !Number.isFinite(x)) return 0
+  const ratio = (x - left) / (right - left)
+  return Math.max(0, Math.min(len, Math.round(ratio * len)))
+}
 
 function blurActiveAlignControl() {
   const active = typeof document !== 'undefined' ? document.activeElement : null
@@ -67,6 +83,7 @@ export default function LyricChordAlignPanel(props) {
   const panelRef = useRef(null)
   const chordInputRef = useRef(null)
   const textInputRef = useRef(null)
+  const textCaretRef = useRef(null)
   const lastEmittedRef = useRef(lyricsText)
   const lastMetaRef = useRef(title + '\0' + composer)
 
@@ -89,6 +106,7 @@ export default function LyricChordAlignPanel(props) {
   const [dragState, setDragState] = useState(null)
   const [chordDialog, setChordDialog] = useState(null)
   const [textDialog, setTextDialog] = useState(null)
+  const textDialogRef = useRef(null)
 
   useEffect(function() {
     const meta = title + '\0' + composer
@@ -106,16 +124,47 @@ export default function LyricChordAlignPanel(props) {
   }, [lyricsText, title, composer])
 
   const chordDialogOpen = !!chordDialog
-  const textDialogOpen = !!textDialog
+  const inlineTextEditing = !!(textDialog && (
+    textDialog.kind === 'lyric'
+    || textDialog.kind === 'new-lyric'
+    || textDialog.kind === 'section'
+  ))
+  const sectionDialogOpen = !!(textDialog && textDialog.kind === 'new-section')
   useLayoutEffect(function() {
     if (!chordDialogOpen) return
     focusWithoutScroll(chordInputRef.current)
   }, [chordDialogOpen])
 
+  function setTextDialogState(next) {
+    textDialogRef.current = next
+    setTextDialog(next)
+  }
+
+  function applyPendingTextCaret(el) {
+    if (!el || textCaretRef.current == null || typeof el.setSelectionRange !== 'function') return
+    const caret = Number(textCaretRef.current)
+    const value = String(el.value || '')
+    const pos = Math.max(0, Math.min(value.length, Number.isFinite(caret) ? caret : 0))
+    try {
+      el.setSelectionRange(pos, pos)
+    } catch (err) {}
+  }
+
+  function focusTextDialogInput() {
+    const el = textInputRef.current
+    focusWithoutScroll(el)
+    applyPendingTextCaret(el)
+  }
+
   useLayoutEffect(function() {
-    if (!textDialogOpen) return
-    focusWithoutScroll(textInputRef.current)
-  }, [textDialogOpen])
+    if (!inlineTextEditing) return
+    focusTextDialogInput()
+  }, [inlineTextEditing, textDialog && textDialog.kind, textDialog && textDialog.rowIndex])
+
+  useLayoutEffect(function() {
+    if (!sectionDialogOpen) return
+    focusTextDialogInput()
+  }, [sectionDialogOpen])
 
   useEffect(function() {
     return function() {
@@ -208,8 +257,8 @@ export default function LyricChordAlignPanel(props) {
     }
     replaceLyricRow(
       chordDialog.rowIndex,
-      applyAlignChordAnchors(row, chordDialog.offset, function(text, currentAnchors) {
-        return upsertChordAnchor(currentAnchors, chordDialog.offset, chord, text)
+      applyAlignChordAnchors(row, chordDialog.offset, function(text, currentAnchors, at) {
+        return upsertChordAnchor(currentAnchors, at, chord, text)
       })
     )
     setChordDialog(null)
@@ -248,10 +297,13 @@ export default function LyricChordAlignPanel(props) {
       const current = rowsRef.current[drag.rowIndex]
       if (!current || current.type !== 'lyric') return
       const rects = getLetterRects(drag.rowIndex)
-      const hoverOffset = letterIndexNearestClientX(rects, moveEvent.clientX, current.text)
+      const hoverDisplay = letterIndexNearestClientX(rects, moveEvent.clientX, current.text)
+      const hoverOffset = hoverDisplay >= 0
+        ? alignDisplayIndexToOffset(hoverDisplay)
+        : drag.hoverOffset
       const next = Object.assign({}, drag, {
         dragging: true,
-        hoverOffset: hoverOffset >= 0 ? hoverOffset : drag.hoverOffset,
+        hoverOffset: hoverOffset,
       })
       dragRef.current = next
       setDragState({
@@ -285,8 +337,8 @@ export default function LyricChordAlignPanel(props) {
       if (target === drag.fromOffset) return
       replaceLyricRow(
         drag.rowIndex,
-        applyAlignChordAnchors(current, target, function(text, currentAnchors) {
-          return moveChordAnchor(currentAnchors, drag.anchorIndex, target, text)
+        applyAlignChordAnchors(current, target, function(text, currentAnchors, at) {
+          return moveChordAnchor(currentAnchors, drag.anchorIndex, at, text)
         })
       )
     }
@@ -314,24 +366,60 @@ export default function LyricChordAlignPanel(props) {
     window.addEventListener('pointercancel', onUp)
   }
 
-  function openLyricTextDialog(rowIndex) {
-    const row = rowsRef.current[rowIndex]
-    if (!row || row.type !== 'lyric') return
-    setTextDialog({ kind: 'lyric', rowIndex: rowIndex, value: String(row.text || '') })
+  function finishInlineTextEdit() {
+    const dialog = textDialogRef.current
+    if (!dialog) return
+    if (dialog.kind === 'lyric') {
+      saveTextDialog()
+      return
+    }
+    if (dialog.kind === 'new-lyric' || dialog.kind === 'new-section' || dialog.kind === 'section') {
+      if (!String(dialog.value || '').trim()) {
+        closeTextDialog()
+        return
+      }
+      saveTextDialog()
+    }
   }
 
-  function openSectionTextDialog(rowIndex) {
+  function openLyricTextDialogAtClick(event, rowIndex, offset) {
+    const row = rowsRef.current[rowIndex]
+    if (!row || row.type !== 'lyric') return
+    const current = textDialogRef.current
+    if (current && current.kind === 'lyric' && current.rowIndex === rowIndex) return
+    finishInlineTextEdit()
+    const value = String(row.text || '')
+    const rect = event && event.currentTarget && typeof event.currentTarget.getBoundingClientRect === 'function'
+      ? event.currentTarget.getBoundingClientRect()
+      : null
+    const clientX = event && Number.isFinite(event.clientX) ? event.clientX : NaN
+    textCaretRef.current = alignLetterClickToCaret(value, offset, clientX, rect)
+    setTextDialogState({ kind: 'lyric', rowIndex: rowIndex, value: value })
+  }
+
+  function openSectionTextDialogAtClick(event, rowIndex) {
     const row = rowsRef.current[rowIndex]
     if (!row || row.type !== 'header') return
-    setTextDialog({
+    const current = textDialogRef.current
+    if (current && current.kind === 'section' && current.rowIndex === rowIndex) return
+    finishInlineTextEdit()
+    const value = displaySectionHeader(row.text) || ''
+    const rect = event && event.currentTarget && typeof event.currentTarget.getBoundingClientRect === 'function'
+      ? event.currentTarget.getBoundingClientRect()
+      : null
+    const clientX = event && Number.isFinite(event.clientX) ? event.clientX : NaN
+    textCaretRef.current = clickXToCaret(value, clientX, rect)
+    setTextDialogState({
       kind: 'section',
       rowIndex: rowIndex,
-      value: displaySectionHeader(row.text) || '',
+      value: value,
     })
   }
 
   function openNewLyricDialog(afterIndex) {
-    setTextDialog({
+    finishInlineTextEdit()
+    textCaretRef.current = 0
+    setTextDialogState({
       kind: 'new-lyric',
       rowIndex: afterIndex == null ? -1 : afterIndex,
       value: '',
@@ -339,7 +427,9 @@ export default function LyricChordAlignPanel(props) {
   }
 
   function openNewSectionDialog(afterIndex) {
-    setTextDialog({
+    finishInlineTextEdit()
+    textCaretRef.current = 0
+    setTextDialogState({
       kind: 'new-section',
       rowIndex: afterIndex == null ? -1 : afterIndex,
       value: '',
@@ -347,35 +437,42 @@ export default function LyricChordAlignPanel(props) {
   }
 
   function closeTextDialog() {
-    setTextDialog(null)
+    textCaretRef.current = null
+    setTextDialogState(null)
   }
 
   function saveTextDialog() {
-    if (!textDialog) return
-    const value = String(textDialog.value || '')
-    if (textDialog.kind === 'lyric') {
-      commitRows(setAlignLyricText(rowsRef.current, textDialog.rowIndex, value))
-    } else if (textDialog.kind === 'new-lyric') {
-      if (!value.trim()) return
+    const dialog = textDialogRef.current
+    if (!dialog) return
+    const value = String(dialog.value || '')
+    if (
+      (dialog.kind === 'section' || dialog.kind === 'new-lyric')
+      && !value.trim()
+    ) {
+      closeTextDialog()
+      return
+    }
+    if (dialog.kind === 'new-section' && !value.trim()) return
+    closeTextDialog()
+    if (dialog.kind === 'lyric') {
+      commitRows(setAlignLyricText(rowsRef.current, dialog.rowIndex, value))
+    } else if (dialog.kind === 'new-lyric') {
       const current = rowsRef.current
-      const at = Number(textDialog.rowIndex)
+      const at = Number(dialog.rowIndex)
       const insertAt = (!Number.isFinite(at) || at < 0 || at >= current.length)
         ? current.length
         : at + 1
       const next = setAlignLyricText(
-        insertAlignLyricRow(current, textDialog.rowIndex),
+        insertAlignLyricRow(current, dialog.rowIndex),
         insertAt,
         value
       )
       commitRows(next)
-    } else if (textDialog.kind === 'section') {
-      if (!value.trim()) return
-      commitRows(setAlignHeaderText(rowsRef.current, textDialog.rowIndex, value))
-    } else if (textDialog.kind === 'new-section') {
-      if (!value.trim()) return
-      commitRows(insertAlignSectionAfter(rowsRef.current, textDialog.rowIndex, value))
+    } else if (dialog.kind === 'section') {
+      commitRows(setAlignHeaderText(rowsRef.current, dialog.rowIndex, value))
+    } else if (dialog.kind === 'new-section') {
+      commitRows(insertAlignSectionAfter(rowsRef.current, dialog.rowIndex, value))
     }
-    setTextDialog(null)
   }
 
   function addLyricLine(afterIndex) {
@@ -383,10 +480,18 @@ export default function LyricChordAlignPanel(props) {
   }
 
   function removeLyricLine(rowIndex) {
+    const dialog = textDialogRef.current
+    if (dialog && (dialog.kind === 'lyric' || dialog.kind === 'new-lyric' || dialog.kind === 'section' || dialog.kind === 'new-section')) {
+      closeTextDialog()
+    }
     commitRows(deleteAlignRow(rowsRef.current, rowIndex))
   }
 
   function removeSection(rowIndex) {
+    const dialog = textDialogRef.current
+    if (dialog && (dialog.kind === 'lyric' || dialog.kind === 'new-lyric' || dialog.kind === 'section' || dialog.kind === 'new-section')) {
+      closeTextDialog()
+    }
     commitRows(deleteAlignSection(rowsRef.current, rowIndex))
   }
 
@@ -398,8 +503,165 @@ export default function LyricChordAlignPanel(props) {
     )
   }
 
+  function renderIconButton(opts) {
+    return (
+      <Button
+        key={opts.key}
+        size="sm"
+        variant={opts.variant}
+        className="lyric-chord-align-icon-btn"
+        data-testid={opts.testId}
+        title={opts.label}
+        aria-label={opts.label}
+        onClick={opts.onClick}
+      >
+        {opts.icon}
+      </Button>
+    )
+  }
+
+  function renderAddLineButton(rowIndex) {
+    return renderIconButton({
+      key: 'add-line',
+      variant: 'outline-secondary',
+      testId: 'lyric-chord-align-add-line',
+      label: 'Add line',
+      icon: icons.add,
+      onClick: function() { addLyricLine(rowIndex) },
+    })
+  }
+
+  function renderDeleteLineButton(rowIndex) {
+    return renderIconButton({
+      key: 'delete',
+      variant: 'outline-danger',
+      testId: 'lyric-chord-align-delete-line',
+      label: 'Delete line',
+      icon: icons.deletebin,
+      onClick: function() { removeLyricLine(rowIndex) },
+    })
+  }
+
+  function renderDeleteSectionButton(rowIndex) {
+    return renderIconButton({
+      key: 'delete',
+      variant: 'outline-danger',
+      testId: 'lyric-chord-align-delete-section',
+      label: 'Delete section',
+      icon: icons.deletebin,
+      onClick: function() { removeSection(rowIndex) },
+    })
+  }
+
+  function updateInlineLyricValue(value) {
+    const dialog = textDialogRef.current
+    if (!dialog) return
+    textCaretRef.current = null
+    setTextDialogState(Object.assign({}, dialog, { value: value }))
+  }
+
+  function handleInlineLyricKeyDown(event) {
+    if (event.key === 'Enter' || event.key === 'Escape') {
+      event.preventDefault()
+      saveTextDialog()
+    }
+  }
+
+  function handleInlineLyricBlur(event) {
+    if (event && event.target !== textInputRef.current) return
+    const dialog = textDialogRef.current
+    if (!dialog) return
+    saveTextDialog()
+  }
+
+  function renderInlineTextInput(opts) {
+    return (
+      <input
+        ref={textInputRef}
+        type="text"
+        className={'form-control lyric-chord-align-line-input' + (opts.className ? ' ' + opts.className : '')}
+        data-testid={opts.testId}
+        value={textDialog ? textDialog.value : ''}
+        placeholder={opts.placeholder}
+        aria-label={opts.ariaLabel}
+        onFocus={function(e) {
+          applyPendingTextCaret(e.target)
+        }}
+        onChange={function(e) {
+          updateInlineLyricValue(e.target.value)
+        }}
+        onKeyDown={handleInlineLyricKeyDown}
+        onBlur={handleInlineLyricBlur}
+      />
+    )
+  }
+
+  function renderInlineLyricInput() {
+    return renderInlineTextInput({
+      testId: 'lyric-chord-text-input',
+      placeholder: 'Lyric line',
+      ariaLabel: 'Edit lyric line',
+    })
+  }
+
+  function renderInlineSectionInput() {
+    return renderInlineTextInput({
+      testId: 'lyric-chord-section-input',
+      placeholder: 'Verse 2',
+      ariaLabel: 'Edit section name',
+      className: 'lyric-chord-align-section-input',
+    })
+  }
+
+  function lyricStripeClass(stripeIndex) {
+    return stripeIndex % 2 === 0
+      ? ' lyric-chord-align-line-row--even'
+      : ' lyric-chord-align-line-row--odd'
+  }
+
+  function lyricsBeforeOrAt(rowIndex) {
+    let count = 0
+    const end = Number(rowIndex)
+    const last = Number.isFinite(end) ? Math.min(end, rows.length - 1) : -1
+    for (let i = 0; i <= last; i += 1) {
+      if (rows[i] && rows[i].type === 'lyric') count += 1
+    }
+    return count
+  }
+
+  function renderInlineLyricEditorRow(stripeIndex) {
+    return (
+      <div
+        className={'lyric-chord-align-line-row' + lyricStripeClass(stripeIndex == null ? 0 : stripeIndex)}
+        data-testid="lyric-chord-align-line-row"
+      >
+        <div
+          className="chordpro-line lyric-chord-align-line lyric-chord-align-line--editing"
+          data-testid="lyric-chord-align-line-editor"
+        >
+          {renderInlineLyricInput()}
+        </div>
+      </div>
+    )
+  }
+
+  function newLyricAfterIndex() {
+    if (!textDialog || textDialog.kind !== 'new-lyric') return null
+    const at = Number(textDialog.rowIndex)
+    if (!Number.isFinite(at) || at < 0 || at >= rows.length) return 'end'
+    return at
+  }
+
   const hasLyricRows = rows.some(function(row) {
     return row && (row.type === 'lyric' || row.type === 'header')
+  })
+  const lyricStripeByRow = {}
+  let lyricStripeCount = 0
+  rows.forEach(function(row, index) {
+    if (row && row.type === 'lyric') {
+      lyricStripeByRow[index] = lyricStripeCount
+      lyricStripeCount += 1
+    }
   })
 
   return (
@@ -421,20 +683,14 @@ export default function LyricChordAlignPanel(props) {
         </div>
       ) : null}
       <p className="lyric-chord-align-hint text-muted small">
-        Drag chords onto letters or spaces. Extra space at the end of each line
-        is for chords after the last word. Click a chord to edit it. Use{' '}
-        <strong>+</strong> to add a chord, and Edit, + Line, or Delete to change
-        lyrics and sections.
+        Drag chords onto letters or spaces. Extra space at the start and end of
+        each line is for chords before the first word or after the last word.
+        Click a lyric or section title to edit it in place. Changes save when
+        you leave the field. Click a chord to edit it. Use <strong>+</strong> to
+        add a chord. Use the add-line icon on a section or lyric row, and delete
+        on the row you want to remove.
       </p>
       <div className="lyric-chord-align-toolbar" data-testid="lyric-chord-align-toolbar">
-        <Button
-          size="sm"
-          variant="outline-primary"
-          data-testid="lyric-chord-align-add-line-end"
-          onClick={function() { addLyricLine(-1) }}
-        >
-          + Line
-        </Button>
         <Button
           size="sm"
           variant="outline-primary"
@@ -447,7 +703,7 @@ export default function LyricChordAlignPanel(props) {
       {!hasLyricRows ? (
         <p className="text-muted" data-testid="lyric-chord-align-no-lyrics">
           Add a line or section, then place chords on words or the spaces at the
-          end of the line.
+          start and end of the line.
         </p>
       ) : null}
       {rows.map(function(row, rowIndex) {
@@ -456,73 +712,77 @@ export default function LyricChordAlignPanel(props) {
           return <div key={rowIndex} className="chordpro-line-spacer" aria-hidden="true" />
         }
         if (row.type === 'header') {
+          const editingHeader = !!(textDialog && textDialog.kind === 'section' && textDialog.rowIndex === rowIndex)
+          const headerLabel = displaySectionHeader(row.text) || 'Section'
           return (
-            <div
-              key={rowIndex}
-              className="lyric-chord-align-header-row"
-              data-testid="lyric-chord-align-header"
-            >
-              <div className="lyrics-section-header">{displaySectionHeader(row.text)}</div>
-              {renderRowActions([
-                <Button
-                  key="edit"
-                  size="sm"
-                  variant="outline-secondary"
-                  data-testid="lyric-chord-align-edit-section"
-                  onClick={function() { openSectionTextDialog(rowIndex) }}
-                >
-                  Edit
-                </Button>,
-                <Button
-                  key="add-line"
-                  size="sm"
-                  variant="outline-secondary"
-                  data-testid="lyric-chord-align-add-line"
-                  onClick={function() { addLyricLine(rowIndex) }}
-                >
-                  + Line
-                </Button>,
-                <Button
-                  key="add-section"
-                  size="sm"
-                  variant="outline-secondary"
-                  data-testid="lyric-chord-align-add-section"
-                  onClick={function() { openNewSectionDialog(rowIndex) }}
-                >
-                  + Section
-                </Button>,
-                <Button
-                  key="delete"
-                  size="sm"
-                  variant="outline-danger"
-                  data-testid="lyric-chord-align-delete-section"
-                  onClick={function() { removeSection(rowIndex) }}
-                >
-                  Delete
-                </Button>,
-              ])}
-            </div>
+            <React.Fragment key={rowIndex}>
+              <div
+                className="lyric-chord-align-header-row"
+                data-testid="lyric-chord-align-header"
+              >
+                {editingHeader ? (
+                  <div className="lyric-chord-align-header-label lyric-chord-align-header-label--editing">
+                    {renderInlineSectionInput()}
+                  </div>
+                ) : (
+                  <div
+                    className="lyric-chord-align-header-label"
+                    data-testid="lyric-chord-align-header-label"
+                    title="Click to edit section"
+                    onClick={function(e) { openSectionTextDialogAtClick(e, rowIndex) }}
+                  >
+                    <SectionHeader label={headerLabel} source={row.text} />
+                  </div>
+                )}
+                {renderRowActions([
+                  renderAddLineButton(rowIndex),
+                  <Button
+                    key="add-section"
+                    size="sm"
+                    variant="outline-secondary"
+                    data-testid="lyric-chord-align-add-section"
+                    onClick={function() { openNewSectionDialog(rowIndex) }}
+                  >
+                    + Section
+                  </Button>,
+                  renderDeleteSectionButton(rowIndex),
+                ])}
+              </div>
+              {newLyricAfterIndex() === rowIndex ? renderInlineLyricEditorRow(lyricsBeforeOrAt(rowIndex)) : null}
+            </React.Fragment>
           )
         }
         const text = String(row.text || '')
         const anchors = Array.isArray(row.anchors) ? row.anchors : []
         const dragging = dragState && dragState.rowIndex === rowIndex
         const chars = alignLineDisplayChars(text)
+        const editingThis = !!(textDialog && textDialog.kind === 'lyric' && textDialog.rowIndex === rowIndex)
+        const stripeIndex = lyricStripeByRow[rowIndex] || 0
 
         return (
+          <React.Fragment key={rowIndex}>
           <div
-            key={rowIndex}
-            className="lyric-chord-align-line-row"
+            className={'lyric-chord-align-line-row' + lyricStripeClass(stripeIndex)}
             data-testid="lyric-chord-align-line-row"
           >
+            {editingThis ? (
+              <div
+                className="chordpro-line lyric-chord-align-line lyric-chord-align-line--editing"
+                data-testid="lyric-chord-align-line"
+              >
+                {renderInlineLyricInput()}
+              </div>
+            ) : (
             <div
               className="chordpro-line lyric-chord-align-line"
               data-testid="lyric-chord-align-line"
               style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end' }}
             >
-            {chars.map(function(ch, offset) {
+            {chars.map(function(ch, displayIndex) {
               if (ch === '/') return null
-              const isPad = offset >= text.length
+              const offset = alignDisplayIndexToOffset(displayIndex)
+              const isLeadingPad = offset < 0
+              const isPad = isAlignPadOffset(text, offset)
               const isSpace = isPad || /\s/.test(ch)
               const displayChar = isSpace ? '\u00A0' : ch
               const chord = chordAtOffset(anchors, offset)
@@ -547,7 +807,7 @@ export default function LyricChordAlignPanel(props) {
               const needsGap = gapChars > 0
               return (
                 <span
-                  key={offset}
+                  key={displayIndex}
                   className={
                     'chordpro-token lyric-chord-align-token lyric-chord-align-letter'
                     + (isSpace ? ' lyric-chord-align-letter--space' : '')
@@ -560,10 +820,12 @@ export default function LyricChordAlignPanel(props) {
                   style={needsGap
                     ? { ['--chord-label-ch']: String(gapChars) }
                     : undefined}
-                  data-testid={isPad ? 'lyric-chord-align-trailing-pad' : undefined}
+                  data-testid={isLeadingPad
+                    ? 'lyric-chord-align-leading-pad'
+                    : (isPad ? 'lyric-chord-align-trailing-pad' : undefined)}
                   ref={function(el) {
                     if (!letterRefs.current[rowIndex]) letterRefs.current[rowIndex] = {}
-                    letterRefs.current[rowIndex][offset] = el
+                    letterRefs.current[rowIndex][displayIndex] = el
                   }}
                 >
                   <span
@@ -630,6 +892,14 @@ export default function LyricChordAlignPanel(props) {
                       'chordpro-lyric lyric-chord-align-word lyric-chord-align-char'
                       + (isHover ? ' lyric-chord-align-word--cursor' : '')
                     }
+                    data-testid="lyric-chord-align-lyric-char"
+                    data-offset={String(offset)}
+                    title="Click to edit lyrics"
+                    onClick={function(e) {
+                      e.preventDefault()
+                      e.stopPropagation()
+                      openLyricTextDialogAtClick(e, rowIndex, offset)
+                    }}
                   >
                     {displayChar}
                   </span>
@@ -637,38 +907,17 @@ export default function LyricChordAlignPanel(props) {
               )
             })}
             </div>
+            )}
             {renderRowActions([
-              <Button
-                key="edit"
-                size="sm"
-                variant="outline-secondary"
-                data-testid="lyric-chord-align-edit-line"
-                onClick={function() { openLyricTextDialog(rowIndex) }}
-              >
-                Edit
-              </Button>,
-              <Button
-                key="add-line"
-                size="sm"
-                variant="outline-secondary"
-                data-testid="lyric-chord-align-add-line"
-                onClick={function() { addLyricLine(rowIndex) }}
-              >
-                + Line
-              </Button>,
-              <Button
-                key="delete"
-                size="sm"
-                variant="outline-danger"
-                data-testid="lyric-chord-align-delete-line"
-                onClick={function() { removeLyricLine(rowIndex) }}
-              >
-                Delete
-              </Button>,
+              renderAddLineButton(rowIndex),
+              renderDeleteLineButton(rowIndex),
             ])}
           </div>
+          {newLyricAfterIndex() === rowIndex ? renderInlineLyricEditorRow(lyricsBeforeOrAt(rowIndex)) : null}
+          </React.Fragment>
         )
       })}
+      {newLyricAfterIndex() === 'end' ? renderInlineLyricEditorRow(lyricStripeCount) : null}
       <Modal
         show={!!chordDialog}
         onHide={closeChordDialog}
@@ -721,50 +970,35 @@ export default function LyricChordAlignPanel(props) {
         </Modal.Footer>
       </Modal>
       <Modal
-        show={!!textDialog}
+        show={sectionDialogOpen}
         onHide={closeTextDialog}
+        onEntered={focusTextDialogInput}
         centered
         autoFocus={false}
         restoreFocus={false}
         data-testid="lyric-chord-text-dialog"
       >
         <Modal.Header closeButton>
-          <Modal.Title>
-            {textDialog && textDialog.kind === 'lyric'
-              ? 'Edit lyric line'
-              : (textDialog && textDialog.kind === 'new-lyric'
-                ? 'New lyric line'
-                : (textDialog && textDialog.kind === 'section' ? 'Edit section' : 'New section'))}
-          </Modal.Title>
+          <Modal.Title>New section</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form.Group controlId="lyric-chord-text">
-            <Form.Label>
-              {textDialog && (textDialog.kind === 'lyric' || textDialog.kind === 'new-lyric') ? 'Lyrics' : 'Section name'}
-            </Form.Label>
+          <Form.Group controlId="lyric-chord-new-section">
+            <Form.Label>Section name</Form.Label>
             <Form.Control
-              as={textDialog && (textDialog.kind === 'lyric' || textDialog.kind === 'new-lyric') ? 'textarea' : undefined}
-              rows={textDialog && (textDialog.kind === 'lyric' || textDialog.kind === 'new-lyric') ? 3 : undefined}
               type="text"
               ref={textInputRef}
-              value={textDialog ? textDialog.value : ''}
-              placeholder={textDialog && (textDialog.kind === 'lyric' || textDialog.kind === 'new-lyric') ? 'Lyric line' : 'Verse 2'}
+              data-testid="lyric-chord-section-input"
+              value={textDialog && textDialog.kind === 'new-section' ? textDialog.value : ''}
+              placeholder="Verse 2"
               onChange={function(e) {
-                if (!textDialog) return
-                setTextDialog(Object.assign({}, textDialog, { value: e.target.value }))
+                const dialog = textDialogRef.current
+                if (!dialog || dialog.kind !== 'new-section') return
+                setTextDialogState(Object.assign({}, dialog, { value: e.target.value }))
               }}
               onKeyDown={function(e) {
-                const isLyric = textDialog && (textDialog.kind === 'lyric' || textDialog.kind === 'new-lyric')
-                if (e.key === 'Enter' && !(isLyric && !e.ctrlKey && !e.metaKey)) {
-                  if (isLyric && (e.ctrlKey || e.metaKey)) {
-                    e.preventDefault()
-                    saveTextDialog()
-                    return
-                  }
-                  if (!isLyric) {
-                    e.preventDefault()
-                    saveTextDialog()
-                  }
+                if (e.key === 'Enter') {
+                  e.preventDefault()
+                  saveTextDialog()
                 }
               }}
             />
@@ -775,12 +1009,10 @@ export default function LyricChordAlignPanel(props) {
           <Button
             variant="primary"
             data-testid="lyric-chord-text-save"
-            disabled={textDialog && textDialog.kind !== 'lyric' && !String(textDialog.value || '').trim()}
+            disabled={!String(textDialog && textDialog.value || '').trim()}
             onClick={saveTextDialog}
           >
-            {textDialog && (textDialog.kind === 'new-section' || textDialog.kind === 'new-lyric')
-              ? (textDialog.kind === 'new-lyric' ? 'Add line' : 'Add section')
-              : 'Save'}
+            Add section
           </Button>
         </Modal.Footer>
       </Modal>

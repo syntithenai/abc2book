@@ -28,6 +28,7 @@ jest.mock('react-bootstrap', function() {
           data-testid={props['data-testid']}
           value={props.value || ''}
           placeholder={props.placeholder}
+          onFocus={props.onFocus}
           onChange={props.onChange}
           onKeyDown={props.onKeyDown}
         />
@@ -38,9 +39,13 @@ jest.mock('react-bootstrap', function() {
     return (
       <button
         type="button"
+        className={props.className}
         data-testid={props['data-testid']}
         disabled={props.disabled}
+        title={props.title}
+        aria-label={props['aria-label']}
         onClick={props.onClick}
+        onMouseDown={props.onMouseDown}
       >
         {props.children}
       </button>
@@ -63,7 +68,8 @@ describe('LyricChordAlignPanel', function() {
     expect(container.querySelector('[data-testid="lyric-chord-align-line"]')).toBeTruthy()
     expect(container.textContent.replace(/[\s+]/g, '')).toContain('Amazinggracehowsweet')
     const addButtons = container.querySelectorAll('[data-testid="lyric-chord-add"]')
-    expect(addButtons.length).toBe(8)
+    expect(addButtons.length).toBe(10)
+    expect(container.querySelectorAll('[data-testid="lyric-chord-align-leading-pad"]').length).toBe(2)
     expect(container.querySelectorAll('[data-testid="lyric-chord-align-trailing-pad"]').length).toBe(4)
     act(function() { root.unmount() })
   })
@@ -86,6 +92,65 @@ describe('LyricChordAlignPanel', function() {
     act(function() { root.unmount() })
   })
 
+  test('clicking a lyric letter opens the line editor at that caret', function() {
+    const container = document.createElement('div')
+    document.body.appendChild(container)
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing grace'} />
+      )
+    })
+    const letters = container.querySelectorAll('[data-testid="lyric-chord-align-lyric-char"]')
+    const z = Array.prototype.find.call(letters, function(el) {
+      return el.getAttribute('data-offset') === '3'
+    })
+    expect(z).toBeTruthy()
+    z.getBoundingClientRect = function() {
+      return { left: 10, right: 20, top: 0, bottom: 12, width: 10, height: 12 }
+    }
+    act(function() {
+      z.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 12, clientY: 6 }))
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-align-lyric-char"]')).toBeNull()
+    const input = container.querySelector('[data-testid="lyric-chord-text-input"]')
+    expect(input).toBeTruthy()
+    expect(input.closest('[data-testid="lyric-chord-align-line"]')).toBeTruthy()
+    expect(document.activeElement).toBe(input)
+    expect(input.selectionStart).toBe(3)
+    expect(input.selectionEnd).toBe(3)
+    act(function() { root.unmount() })
+    document.body.removeChild(container)
+  })
+
+  test('clicking the right half of a lyric letter places the caret after it', function() {
+    const container = document.createElement('div')
+    document.body.appendChild(container)
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing'} />
+      )
+    })
+    const letters = container.querySelectorAll('[data-testid="lyric-chord-align-lyric-char"]')
+    const z = Array.prototype.find.call(letters, function(el) {
+      return el.getAttribute('data-offset') === '3'
+    })
+    z.getBoundingClientRect = function() {
+      return { left: 10, right: 20, top: 0, bottom: 12, width: 10, height: 12 }
+    }
+    act(function() {
+      z.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 17, clientY: 6 }))
+    })
+    const input = container.querySelector('[data-testid="lyric-chord-text-input"]')
+    expect(document.activeElement).toBe(input)
+    expect(input.selectionStart).toBe(4)
+    expect(input.selectionEnd).toBe(4)
+    act(function() { root.unmount() })
+    document.body.removeChild(container)
+  })
+
   test('hides the song title line and beat-marker slashes', function() {
     const container = document.createElement('div')
     const root = createRoot(container)
@@ -101,7 +166,7 @@ describe('LyricChordAlignPanel', function() {
     expect(compact).not.toContain('MySongTitle')
     expect(container.textContent).not.toContain('/')
     expect(compact).toContain('hellothere')
-    expect(container.querySelectorAll('[data-testid="lyric-chord-add"]').length).toBe(6)
+    expect(container.querySelectorAll('[data-testid="lyric-chord-add"]').length).toBe(8)
     act(function() { root.unmount() })
   })
 
@@ -115,24 +180,39 @@ describe('LyricChordAlignPanel', function() {
       )
     })
     expect(container.querySelectorAll('[data-testid="lyric-chord-align-line"]').length).toBe(1)
+    expect(container.querySelector('[data-testid="lyric-chord-align-edit-line"]')).toBeNull()
+    const addLine = container.querySelector('[data-testid="lyric-chord-align-add-line"]')
+    expect(addLine.getAttribute('aria-label')).toBe('Add line')
+    expect(addLine.textContent).not.toContain('Line')
+    expect(container.querySelector('[data-testid="lyric-chord-align-delete-line"]').getAttribute('aria-label')).toBe('Delete line')
     act(function() {
-      container.querySelector('[data-testid="lyric-chord-align-add-line"]')
-        .dispatchEvent(new MouseEvent('click', { bubbles: true }))
+      addLine.dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
-    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeTruthy()
-    expect(container.textContent).toContain('New lyric line')
+    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-text-input"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="lyric-chord-align-line-editor"]')).toBeTruthy()
 
+    const letter = container.querySelector('[data-testid="lyric-chord-align-lyric-char"]')
     act(function() {
-      container.querySelector('[data-testid="lyric-chord-align-edit-line"]')
-        .dispatchEvent(new MouseEvent('click', { bubbles: true }))
+      letter.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 0 }))
     })
-    expect(container.textContent).toContain('Edit lyric line')
+    const lineInput = container.querySelector('[data-testid="lyric-chord-text-input"]')
+    expect(lineInput).toBeTruthy()
+    expect(lineInput.value).toBe('Amazing grace')
+    expect(container.querySelector('[data-testid="lyric-chord-align-lyric-char"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-text-save"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-text-cancel"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-align-add-line-end"]')).toBeNull()
 
     act(function() {
       container.querySelector('[data-testid="lyric-chord-align-add-section-end"]')
         .dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
+    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeTruthy()
     expect(container.textContent).toContain('New section')
+    expect(container.querySelector('[data-testid="lyric-chord-section-input"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="lyric-chord-text-save"]').disabled).toBe(true)
 
     act(function() {
       container.querySelector('[data-testid="lyric-chord-align-delete-line"]')
@@ -140,6 +220,144 @@ describe('LyricChordAlignPanel', function() {
     })
     expect(onChange).toHaveBeenCalled()
     expect(onChange.mock.calls[onChange.mock.calls.length - 1][0]).toBe('')
+    act(function() { root.unmount() })
+  })
+
+  test('clicking a section title edits it inline', function() {
+    const container = document.createElement('div')
+    document.body.appendChild(container)
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'[Verse]\nAmazing grace'} />
+      )
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-align-edit-section"]')).toBeNull()
+    const headerRow = container.querySelector('[data-testid="lyric-chord-align-header"]')
+    const headerAddLine = headerRow.querySelector('[data-testid="lyric-chord-align-add-line"]')
+    expect(headerAddLine).toBeTruthy()
+    expect(headerAddLine.getAttribute('aria-label')).toBe('Add line')
+    const header = container.querySelector('[data-testid="lyric-chord-align-header-label"]')
+    expect(header).toBeTruthy()
+    expect(header.textContent).toContain('Verse')
+    act(function() {
+      header.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 0 }))
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeNull()
+    const input = container.querySelector('[data-testid="lyric-chord-section-input"]')
+    expect(input).toBeTruthy()
+    expect(input.value).toBe('Verse')
+    expect(document.activeElement).toBe(input)
+    expect(container.querySelector('[data-testid="lyric-chord-text-save"]')).toBeNull()
+    expect(container.querySelector('[data-testid="lyric-chord-text-cancel"]')).toBeNull()
+    act(function() {
+      headerAddLine.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-align-line-editor"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="lyric-chord-text-input"]')).toBeTruthy()
+    act(function() { root.unmount() })
+    document.body.removeChild(container)
+  })
+
+  test('toolbar add section asks for a name in a dialog', function() {
+    const container = document.createElement('div')
+    document.body.appendChild(container)
+    const root = createRoot(container)
+    const onChange = jest.fn()
+    const originalScrollTo = window.scrollTo
+    window.scrollTo = jest.fn()
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing grace'} onChange={onChange} />
+      )
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-align-add-line-end"]')).toBeNull()
+    act(function() {
+      container.querySelector('[data-testid="lyric-chord-align-add-section-end"]')
+        .dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    const dialog = container.querySelector('[data-testid="lyric-chord-text-dialog"]')
+    expect(dialog).toBeTruthy()
+    expect(dialog.textContent).toContain('New section')
+    const input = container.querySelector('[data-testid="lyric-chord-section-input"]')
+    expect(input).toBeTruthy()
+    expect(document.activeElement).toBe(input)
+    const save = container.querySelector('[data-testid="lyric-chord-text-save"]')
+    expect(save.disabled).toBe(true)
+    act(function() {
+      const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
+        window.HTMLInputElement.prototype,
+        'value'
+      ).set
+      nativeInputValueSetter.call(input, 'Chorus')
+      input.dispatchEvent(new Event('input', { bubbles: true }))
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-text-save"]').disabled).toBe(false)
+    act(function() {
+      container.querySelector('[data-testid="lyric-chord-text-save"]')
+        .dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-text-dialog"]')).toBeNull()
+    expect(onChange).toHaveBeenCalled()
+    expect(onChange.mock.calls[onChange.mock.calls.length - 1][0]).toContain('[Chorus]')
+    expect(container.querySelector('[data-testid="lyric-chord-align-header-label"]').textContent).toContain('Chorus')
+    act(function() { root.unmount() })
+    document.body.removeChild(container)
+    window.scrollTo = originalScrollTo
+  })
+
+  test('inline lyric edits save on blur', function() {
+    const container = document.createElement('div')
+    document.body.appendChild(container)
+    const root = createRoot(container)
+    const onChange = jest.fn()
+    const raf = jest.spyOn(window, 'requestAnimationFrame').mockImplementation(function(cb) {
+      cb()
+      return 1
+    })
+    const originalScrollTo = window.scrollTo
+    window.scrollTo = jest.fn()
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing grace'} onChange={onChange} />
+      )
+    })
+    const letter = container.querySelector('[data-testid="lyric-chord-align-lyric-char"]')
+    act(function() {
+      letter.dispatchEvent(new MouseEvent('click', { bubbles: true, clientX: 0 }))
+    })
+    const input = container.querySelector('[data-testid="lyric-chord-text-input"]')
+    act(function() {
+      const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
+        window.HTMLInputElement.prototype,
+        'value'
+      ).set
+      nativeInputValueSetter.call(input, 'Hello world')
+      input.dispatchEvent(new Event('input', { bubbles: true }))
+    })
+    act(function() {
+      input.blur()
+    })
+    expect(onChange).toHaveBeenCalled()
+    expect(onChange.mock.calls[onChange.mock.calls.length - 1][0]).toBe('Hello world')
+    act(function() { root.unmount() })
+    document.body.removeChild(container)
+    window.scrollTo = originalScrollTo
+    raf.mockRestore()
+  })
+
+  test('alternates lyric row colors', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'first line\nsecond line'} />
+      )
+    })
+    const rows = container.querySelectorAll('[data-testid="lyric-chord-align-line-row"]')
+    expect(rows.length).toBe(2)
+    expect(rows[0].className).toContain('lyric-chord-align-line-row--even')
+    expect(rows[1].className).toContain('lyric-chord-align-line-row--odd')
     act(function() { root.unmount() })
   })
 
@@ -158,6 +376,56 @@ describe('LyricChordAlignPanel', function() {
       addOnPad.dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
     expect(container.querySelector('[data-testid="lyric-chord-edit-dialog"]')).toBeTruthy()
+    act(function() { root.unmount() })
+  })
+
+  test('clicking a leading pad opens the add-chord dialog', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing'} />
+      )
+    })
+    const pads = container.querySelectorAll('[data-testid="lyric-chord-align-leading-pad"]')
+    expect(pads.length).toBe(2)
+    const addOnPad = pads[0].querySelector('[data-testid="lyric-chord-add"]')
+    act(function() {
+      addOnPad.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    expect(container.querySelector('[data-testid="lyric-chord-edit-dialog"]')).toBeTruthy()
+    act(function() { root.unmount() })
+  })
+
+  test('saving a chord on a leading pad stores it before the first word', function() {
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    const onChange = jest.fn()
+    act(function() {
+      root.render(
+        <LyricChordAlignPanel lyricsText={'Amazing'} onChange={onChange} />
+      )
+    })
+    const pads = container.querySelectorAll('[data-testid="lyric-chord-align-leading-pad"]')
+    const addOnPad = pads[0].querySelector('[data-testid="lyric-chord-add"]')
+    act(function() {
+      addOnPad.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    const input = container.querySelector('[data-testid="lyric-chord-symbol-input"]')
+    act(function() {
+      const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
+        window.HTMLInputElement.prototype,
+        'value'
+      ).set
+      nativeInputValueSetter.call(input, 'G')
+      input.dispatchEvent(new Event('input', { bubbles: true }))
+    })
+    act(function() {
+      container.querySelector('[data-testid="lyric-chord-dialog-save"]')
+        .dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    })
+    expect(onChange).toHaveBeenCalled()
+    expect(onChange.mock.calls[onChange.mock.calls.length - 1][0]).toBe('[G]  Amazing')
     act(function() { root.unmount() })
   })
 
@@ -229,9 +497,11 @@ describe('LyricChordAlignPanel', function() {
         />
       )
     })
-    const addButtons = container.querySelectorAll('[data-testid="lyric-chord-add"]')
+    const firstWordAdd = container.querySelector(
+      '.lyric-chord-align-letter:not(.lyric-chord-align-letter--pad) [data-testid="lyric-chord-add"]'
+    )
     act(function() {
-      addButtons[0].dispatchEvent(new MouseEvent('click', { bubbles: true }))
+      firstWordAdd.dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
     const input = container.querySelector('[data-testid="lyric-chord-symbol-input"]')
     act(function() {

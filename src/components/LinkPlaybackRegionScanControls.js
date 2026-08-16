@@ -4,7 +4,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import usePlaybackRegionScan from '../usePlaybackRegionScan';
 import SearchProgressBar from './SearchProgressBar';
 import { isPlayRangeScannableLink } from '../linkPlaybackRegionScanUtils';
-import { getGatedActionLabel } from '../resolverCreditAccess';
+import { getGatedActionLabel, openCreditSettings } from '../resolverCreditAccess';
 import { getLinkPlayRangeAccess } from '../midiExportNotationAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
 
@@ -88,7 +88,7 @@ export default function LinkPlaybackRegionScanControls({
     }
     if (scanAccess.needsCredit) {
       if (typeof window !== 'undefined') {
-        window.location.assign('/settings?tab=providers&credit=1');
+        openCreditSettings();
       }
       return;
     }

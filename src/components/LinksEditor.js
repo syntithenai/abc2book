@@ -44,7 +44,7 @@ import { createScratchpadItemFromLink, linkCanOpenInScratchpad } from '../scratc
 import { exportMidiLinkToScratchpad } from '../exportMidiLinkToScratchpad'
 import { scratchpadItemPath } from '../scratchpadExportToast'
 import { showResolverLoginToastForAuthError } from '../resolverLoginToast'
-import { getGatedActionLabel } from '../resolverCreditAccess'
+import { getGatedActionLabel, openCreditSettings } from '../resolverCreditAccess'
 import { getMidiExportNotationAccess } from '../midiExportNotationAccess'
 import useMidiFilePlayback from '../useMidiFilePlayback'
 import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
@@ -435,7 +435,7 @@ function LinksEditorBody(props) {
         }
         if (access.needsCredit || access.cannotAfford) {
             if (typeof window !== 'undefined') {
-                window.location.assign('/settings?tab=providers&credit=1')
+                openCreditSettings()
             }
             return
         }

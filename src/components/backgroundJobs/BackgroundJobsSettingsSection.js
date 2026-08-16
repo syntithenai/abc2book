@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState, useSyncExternalStore } from 'react'
 import { Badge, Nav, Tab } from 'react-bootstrap'
+import { useSearchParams } from 'react-router-dom'
 import FormFieldHelp from '../FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../../formFieldHelpText'
 import {
@@ -128,25 +129,39 @@ function composerDiscoveryStatusLabel(job) {
 export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user, token, driveApi }) {
   const showAudioGeneration = isMusicGenerationAdmin(user)
   const showChordCleanup = isMusicGenerationAdmin(user)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const jobsTabFromUrl = searchParams.get('jobsTab') || initialJobsTab
   const [activeTab, setActiveTab] = useState(function() {
-    if (initialJobsTab) {
-      if (initialJobsTab === TAB_AUDIO_GENERATION && !showAudioGeneration) {
+    if (jobsTabFromUrl) {
+      if (jobsTabFromUrl === TAB_AUDIO_GENERATION && !showAudioGeneration) {
         return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
       }
-      if (initialJobsTab === TAB_CHORD_CLEANUP && !showChordCleanup) {
+      if (jobsTabFromUrl === TAB_CHORD_CLEANUP && !showChordCleanup) {
         return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
       }
-      return initialJobsTab
+      return jobsTabFromUrl
     }
     return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
   })
 
+  function selectJobsTab(key) {
+    if (!key) return
+    setActiveTab(key)
+    setSearchParams(function(prev) {
+      const next = new URLSearchParams(prev)
+      next.set('jobsTab', key)
+      next.delete('tab')
+      next.delete('libraryTab')
+      return next
+    }, { replace: true })
+  }
+
   useEffect(function() {
-    if (!initialJobsTab) return
-    if (initialJobsTab === TAB_AUDIO_GENERATION && !showAudioGeneration) return
-    if (initialJobsTab === TAB_CHORD_CLEANUP && !showChordCleanup) return
-    setActiveTab(initialJobsTab)
-  }, [initialJobsTab, showAudioGeneration, showChordCleanup])
+    if (!jobsTabFromUrl) return
+    if (jobsTabFromUrl === TAB_AUDIO_GENERATION && !showAudioGeneration) return
+    if (jobsTabFromUrl === TAB_CHORD_CLEANUP && !showChordCleanup) return
+    setActiveTab(jobsTabFromUrl)
+  }, [jobsTabFromUrl, showAudioGeneration, showChordCleanup])
 
   useEffect(function() {
     if (!showAudioGeneration && activeTab === TAB_AUDIO_GENERATION) {
@@ -216,9 +231,7 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
         Monitor and manage background work from here. Red badges show incomplete jobs per tab.
       </p>
 
-      <Tab.Container activeKey={activeTab} onSelect={function(key) {
-        if (key) setActiveTab(key)
-      }}>
+      <Tab.Container activeKey={activeTab} onSelect={selectJobsTab}>
         <Nav variant="tabs" className="settings-background-jobs-tabs">
           <Nav.Item>
             <Nav.Link eventKey={TAB_RESEARCH}>

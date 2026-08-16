@@ -1,4 +1,4 @@
-import { isSectionHeader, stripLyricBlockPinTokens } from './chordSheetUtils';
+import { isSectionHeader, normalizeSectionType, stripLyricBlockPinTokens } from './chordSheetUtils';
 import { stripLyricBeatMarkersFromLine } from './lyricBeatMarkers';
 
 /** Title-case section labels: "verse 1" → "Verse 1", "pre-chorus" → "Pre-Chorus". */
@@ -29,10 +29,72 @@ export function displaySectionHeader(header) {
   return capitalizeSectionHeader(t);
 }
 
+const SECTION_HEADER_TONES = {
+  verse: 'verse',
+  chorus: 'chorus',
+  refrain: 'chorus',
+  hook: 'chorus',
+  prechorus: 'prechorus',
+  bridge: 'bridge',
+  intro: 'intro',
+  outro: 'outro',
+  coda: 'outro',
+  tag: 'outro',
+  instrumental: 'instrumental',
+  solo: 'instrumental',
+  interlude: 'instrumental',
+};
+
+const SECTION_HEADER_FALLBACK_TONES = [
+  'verse',
+  'chorus',
+  'bridge',
+  'intro',
+  'prechorus',
+  'instrumental',
+  'outro',
+];
+
+function hashSectionHeaderTone(type) {
+  let hash = 0;
+  const key = String(type || '');
+  for (let i = 0; i < key.length; i++) {
+    hash = ((hash << 5) - hash) + key.charCodeAt(i);
+    hash |= 0;
+  }
+  return SECTION_HEADER_FALLBACK_TONES[Math.abs(hash) % SECTION_HEADER_FALLBACK_TONES.length];
+}
+
+/**
+ * Stable color token for a section heading so repeats of the same kind
+ * (every chorus, every verse, …) share a subtle hue.
+ */
+export function sectionHeaderTone(header) {
+  const type = normalizeSectionType(header);
+  if (!type) return null;
+  if (SECTION_HEADER_TONES[type]) return SECTION_HEADER_TONES[type];
+  return hashSectionHeaderTone(type);
+}
+
+export function sectionHeaderClassName(header, extraClass) {
+  const classes = ['lyrics-section-header'];
+  if (extraClass) classes.push(extraClass);
+  const tone = sectionHeaderTone(header);
+  if (tone) classes.push('lyrics-section-header--' + tone);
+  return classes.join(' ');
+}
+
 export function SectionHeader(props) {
   if (!props.label) return null;
+  const source = props.source || props.label;
+  const tone = sectionHeaderTone(source);
   return (
-    <div className="lyrics-section-header">{props.label}</div>
+    <div
+      className={sectionHeaderClassName(source, props.className)}
+      data-section-tone={tone || undefined}
+    >
+      {props.label}
+    </div>
   );
 }
 
@@ -67,7 +129,7 @@ export default function LyricsDisplayLines(props) {
         if (isSectionHeader(line)) {
           const label = displaySectionHeader(line);
           if (!label) return null;
-          return <SectionHeader key={index} label={label} />;
+          return <SectionHeader key={index} label={label} source={line} />;
         }
         return (
           <div key={index} className="lyrics-line" style={lineStyle}>

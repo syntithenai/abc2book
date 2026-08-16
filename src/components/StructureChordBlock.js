@@ -14,7 +14,7 @@ import {
   splitMelodyStrainsWithBarlines,
 } from '../chordBlockMerge';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
-import { displaySectionHeader } from '../LyricsDisplayLines';
+import { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
 import StructureCapoControl from './StructureCapoControl';
 
@@ -257,9 +257,11 @@ export default function StructureChordBlock(props) {
             >
               {si > 0 ? <div className="structure-section-gap" aria-hidden="true" /> : null}
               {section.label ? (
-                <div className="chord-section-header lyrics-section-header">
-                  {section.label}
-                </div>
+                <SectionHeader
+                  label={section.label}
+                  source={section.label}
+                  className="chord-section-header"
+                />
               ) : null}
               {section.hint ? (
                 <div className="structure-section-hint text-muted small mb-2">

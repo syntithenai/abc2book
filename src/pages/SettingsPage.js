@@ -1,5 +1,5 @@
-import { useNavigate, useSearchParams } from 'react-router-dom'
-import { Button, ButtonGroup, Form, Nav, Tab } from 'react-bootstrap'
+import { Link, Navigate, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
+import { Button, ButtonGroup, Form, Nav } from 'react-bootstrap'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useDocumentTitle } from '../pageTitle'
 import { toast } from 'react-toastify'
@@ -18,18 +18,9 @@ import {
   setSavedMediaProxyBase,
 } from '../mediaProxyConfig'
 import { describeResolverAuthReason } from '../mediaProxyClient'
-import { pingYoutubeExtension } from '../youtubeExtensionClient'
-import { pingYoutubeNative } from '../youtubeNativeClient'
-import { isAndroidApp } from '../platformUtils'
 import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
-import { openBatteryOptimizationSettings } from '../androidNativePlayback'
-import {
-  isYoutubeHelperDisabled,
-  setYoutubeHelperDisabled,
-} from '../youtubeHelperSettings'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import { resolverHasFeature } from '../resolverFeatures'
-import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
+import FormFieldHelp from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
@@ -42,7 +33,6 @@ import { isBillingAdminAvailable } from '../creditAdminClient'
 import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
 import BillingAdminSettingsSection from '../components/BillingAdminSettingsSection'
-import AndroidLocalMediaSettingsSection from '../components/AndroidLocalMediaSettingsSection'
 import VoiceSettingsSection from '../components/VoiceSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
@@ -80,20 +70,23 @@ import {
   MAX_ENTRIES_HARD_CAP,
   saveConfiguredMaxEntries,
 } from '../tuneEditHistory'
-
-const TAB_BACKGROUND_JOBS = 'background-jobs'
-const TAB_APPEARANCE = 'appearance'
-const TAB_MEDIA = 'media'
-const TAB_VOICE = 'voice'
-const TAB_PROVIDERS = 'providers'
-const TAB_PEDAL = 'pedal'
-const TAB_BACKUP = 'backup'
-const TAB_SOURCES = 'sources'
-const TAB_DUPLICATES = 'duplicates'
-const TAB_CLEANUP = 'cleanup'
-const TAB_LIBRARY = 'library'
-const TAB_MUSIC_COLLECTION = 'music-collection'
-const TAB_BILLING_ADMIN = 'billing-admin'
+import {
+  LIBRARY_TAB_LIBRARY,
+  TAB_BACKGROUND_JOBS,
+  TAB_BACKUP,
+  TAB_BILLING_ADMIN,
+  TAB_CLEANUP,
+  TAB_DUPLICATES,
+  TAB_LIBRARY,
+  TAB_MEDIA,
+  TAB_PERSONALISATION,
+  TAB_PROVIDERS,
+  TAB_SOURCES,
+  buildSettingsPath,
+  isTopLevelSettingsTab,
+  legacySettingsRedirect,
+  parseSettingsSplat,
+} from '../settingsPageTabs'
 
 function formatFeatureSummary(features) {
   if (!features) return ''
@@ -149,7 +142,12 @@ function getResolverMessage(status, checked) {
 export default function SettingsPage(props) {
   useDocumentTitle('Settings')
   const navigate = useNavigate()
+  const location = useLocation()
   const [searchParams] = useSearchParams()
+  const splat = String(location.pathname || '').replace(/^\/settings\/?/, '').replace(/\/$/, '')
+  const parsed = parseSettingsSplat(splat)
+  const activeTab = parsed.tab
+  const libraryTab = parsed.libraryTab
   const tunebook = props.tunebook
   const token = props.token
   const accessToken = token && token.access_token ? token.access_token : null
@@ -173,15 +171,7 @@ export default function SettingsPage(props) {
     return loadMediaCacheDriveBackupSettings().driveBackupCachedMedia
   })
   const [driveBackupStatus, setDriveBackupStatus] = useState(getMediaCacheDriveBackupStatus)
-  const [activeTab, setActiveTab] = useState(function() {
-    const tab = typeof window !== 'undefined'
-      ? new URLSearchParams(window.location.search).get('tab')
-      : null
-    if (tab === 'audio') return TAB_BACKGROUND_JOBS
-    if (tab) return tab
-    return TAB_BACKGROUND_JOBS
-  })
-  const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
+  const { status: resolverStatus, checked, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
   const showMusicCollectionTab = checked
     && isMusicCollectionSettingsAvailable(resolverStatus)
     && isMusicGenerationAdmin(props.user)
@@ -195,73 +185,9 @@ export default function SettingsPage(props) {
       refreshMediaResolverHealth(accessToken)
     }
   }, [accessToken, refreshMediaResolverHealth])
-  const [youtubeHelperStatus, setYoutubeHelperStatus] = useState({
-    checking: true,
-    ok: false,
-    version: null,
-    error: null,
-  })
-  const [showYoutubeHelperInstallHelp, setShowYoutubeHelperInstallHelp] = useState(false)
-  const [youtubeHelperDisabled, setYoutubeHelperDisabledState] = useState(isYoutubeHelperDisabled)
   const mediaProxyUrlSkipDebounceRef = useRef(true)
-  const youtubeHelperZipHref =
-    (process.env.PUBLIC_URL || '') + '/downloads/tunebook-helper.zip'
   const isMediaCacheAdmin =
     !!(props.user && props.user.email === 'syntithenai@gmail.com')
-
-  const refreshYoutubeHelperStatus = useCallback(function() {
-    if (isAndroidApp()) {
-      return pingYoutubeNative({ force: true }).then(function(result) {
-        setYoutubeHelperStatus({
-          checking: false,
-          ok: !!result.ok,
-          version: result.version || null,
-          error: result.error || null,
-          via: result.via || 'native',
-        })
-      })
-    }
-    if (isYoutubeHelperDisabled()) {
-      setYoutubeHelperStatus({
-        checking: false,
-        ok: false,
-        version: null,
-        error: 'Disabled in settings',
-      })
-      return Promise.resolve({ ok: false, disabled: true })
-    }
-    setYoutubeHelperStatus(function(prev) {
-      return Object.assign({}, prev, { checking: true })
-    })
-    return pingYoutubeExtension({ force: true }).then(function(result) {
-      if (isYoutubeHelperDisabled()) {
-        setYoutubeHelperStatus({
-          checking: false,
-          ok: false,
-          version: null,
-          error: 'Disabled in settings',
-        })
-        return { ok: false, disabled: true }
-      }
-      setYoutubeHelperStatus({
-        checking: false,
-        ok: !!result.ok,
-        version: result.version || null,
-        error: result.error || null,
-      })
-      return result
-    })
-  }, [])
-
-  useEffect(function() {
-    if (activeTab === TAB_MUSIC_COLLECTION && !showMusicCollectionTab) {
-      setActiveTab(TAB_BACKGROUND_JOBS)
-    } else if (activeTab === TAB_DUPLICATES && !showDuplicatesTab) {
-      setActiveTab(TAB_BACKGROUND_JOBS)
-    } else if (activeTab === TAB_CLEANUP && !showCleanupTab) {
-      setActiveTab(TAB_BACKGROUND_JOBS)
-    }
-  }, [activeTab, showMusicCollectionTab, showDuplicatesTab, showCleanupTab])
 
   useEffect(function() {
     function onBackupChanged() {
@@ -275,21 +201,6 @@ export default function SettingsPage(props) {
       window.removeEventListener('mediaCacheDriveBackupSettingsChanged', onBackupChanged)
     }
   }, [])
-
-  useEffect(function() {
-    function onHelperSettingsChanged() {
-      setYoutubeHelperDisabledState(isYoutubeHelperDisabled())
-      refreshYoutubeHelperStatus()
-    }
-    window.addEventListener('youtubeHelperSettingsChanged', onHelperSettingsChanged)
-    return function() {
-      window.removeEventListener('youtubeHelperSettingsChanged', onHelperSettingsChanged)
-    }
-  }, [refreshYoutubeHelperStatus])
-
-  useEffect(function() {
-    refreshYoutubeHelperStatus()
-  }, [refreshYoutubeHelperStatus])
 
   useEffect(function() {
     if (mediaProxyUrlSkipDebounceRef.current) {
@@ -347,7 +258,6 @@ export default function SettingsPage(props) {
   }, [resolverStatus, checked])
 
   useEffect(function() {
-    const tab = searchParams.get('tab')
     const creditFlag = searchParams.get('credit')
     const checkoutFlag = searchParams.get('checkout')
     if (creditFlag === 'success' || checkoutFlag === 'success') {
@@ -360,19 +270,14 @@ export default function SettingsPage(props) {
       navigate('/billing/cancel', { replace: true })
       return undefined
     }
-    if (tab === 'audio') {
-      setActiveTab(TAB_BACKGROUND_JOBS)
-    } else if (tab) {
-      setActiveTab(tab)
-    }
-    if (tab === TAB_PROVIDERS && creditFlag === '1') {
+    if (activeTab === TAB_PROVIDERS && creditFlag === '1') {
       const timerId = setTimeout(function() {
         window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
       }, 100)
       return function() { clearTimeout(timerId) }
     }
     return undefined
-  }, [searchParams, navigate])
+  }, [activeTab, searchParams, navigate])
 
   function refreshResolverStatus() {
     setResolverMessage('Checking resolvers...')
@@ -519,6 +424,42 @@ export default function SettingsPage(props) {
   }, [props.token])
 
   const compressCommentary = compressAudioCommentary()
+  const keptSearch = new URLSearchParams()
+  if (activeTab === TAB_PROVIDERS && searchParams.get('credit') === '1') {
+    keptSearch.set('credit', '1')
+  }
+  if (activeTab === TAB_BACKGROUND_JOBS && searchParams.get('jobsTab')) {
+    keptSearch.set('jobsTab', searchParams.get('jobsTab'))
+  }
+  const billingOutcome = searchParams.get('credit') === 'success'
+    || searchParams.get('credit') === 'cancel'
+    || searchParams.get('checkout') === 'success'
+    || searchParams.get('checkout') === 'cancel'
+  const legacyPath = legacySettingsRedirect(splat, searchParams)
+  if (legacyPath) {
+    return <Navigate to={legacyPath} replace />
+  }
+  if (!isTopLevelSettingsTab(activeTab)) {
+    return <Navigate to={buildSettingsPath(TAB_BACKGROUND_JOBS)} replace />
+  }
+  if (activeTab === TAB_BILLING_ADMIN && checked && !showBillingAdminTab) {
+    return <Navigate to={buildSettingsPath(TAB_BACKGROUND_JOBS)} replace />
+  }
+  if (activeTab === TAB_LIBRARY && libraryTab === TAB_CLEANUP && !showCleanupTab) {
+    return <Navigate to={buildSettingsPath(TAB_LIBRARY, LIBRARY_TAB_LIBRARY)} replace />
+  }
+  if (activeTab === TAB_LIBRARY && libraryTab === TAB_DUPLICATES && !showDuplicatesTab) {
+    return <Navigate to={buildSettingsPath(TAB_LIBRARY, LIBRARY_TAB_LIBRARY)} replace />
+  }
+  if (!billingOutcome) {
+    const canonicalPath = buildSettingsPath(activeTab, libraryTab, keptSearch)
+    const currentPath = '/settings' + (splat ? '/' + splat : '')
+    const currentSearch = searchParams.toString()
+    const canonicalSearch = keptSearch.toString()
+    if (currentPath !== canonicalPath.split('?')[0] || currentSearch !== canonicalSearch) {
+      return <Navigate to={canonicalPath} replace />
+    }
+  }
 
   return <>
   <div className="App-settings">
@@ -526,61 +467,39 @@ export default function SettingsPage(props) {
       <h1 style={{ margin: 0, flex: '1 1 auto' }}>Settings</h1>
     </div>
 
-    <Tab.Container activeKey={activeTab} onSelect={function(key) {
-      if (key) setActiveTab(key)
-    }}>
-      <Nav variant="tabs" className="App-settings-tabs">
+    <Nav variant="tabs" className="App-settings-tabs">
+      <Nav.Item>
+        <Nav.Link as={Link} to={buildSettingsPath(TAB_BACKGROUND_JOBS)} active={activeTab === TAB_BACKGROUND_JOBS}>
+          Background jobs
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link as={Link} to={buildSettingsPath(TAB_PERSONALISATION)} active={activeTab === TAB_PERSONALISATION}>
+          Personalisation
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link as={Link} to={buildSettingsPath(TAB_PROVIDERS)} active={activeTab === TAB_PROVIDERS}>
+          Providers
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, LIBRARY_TAB_LIBRARY)} active={activeTab === TAB_LIBRARY}>
+          Library
+        </Nav.Link>
+      </Nav.Item>
+      {showBillingAdminTab ? (
         <Nav.Item>
-          <Nav.Link eventKey={TAB_BACKGROUND_JOBS}>Background jobs</Nav.Link>
+          <Nav.Link as={Link} to={buildSettingsPath(TAB_BILLING_ADMIN)} active={activeTab === TAB_BILLING_ADMIN}>
+            Billing admin
+          </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_APPEARANCE}>Appearance</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_MEDIA}>Media</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_VOICE}>Voice</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_PROVIDERS}>Providers</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_SOURCES}>Sources</Nav.Link>
-        </Nav.Item>
-        {showDuplicatesTab ? (
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
-          </Nav.Item>
-        ) : null}
-        {showCleanupTab ? (
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_CLEANUP}>Cleanup</Nav.Link>
-          </Nav.Item>
-        ) : null}
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_LIBRARY}>Library</Nav.Link>
-        </Nav.Item>
-        {showMusicCollectionTab ? (
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_MUSIC_COLLECTION}>Music collection</Nav.Link>
-          </Nav.Item>
-        ) : null}
-        {showBillingAdminTab ? (
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_BILLING_ADMIN}>Billing admin</Nav.Link>
-          </Nav.Item>
-        ) : null}
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_PEDAL}>Pedal</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey={TAB_BACKUP}>Backup</Nav.Link>
-        </Nav.Item>
-      </Nav>
+      ) : null}
+    </Nav>
 
-      <Tab.Content className="App-settings-tab-content">
-        <Tab.Pane eventKey={TAB_BACKGROUND_JOBS}>
+    <div className="App-settings-tab-content">
+        {activeTab === TAB_BACKGROUND_JOBS ? (
+          <>
           <div className="app-surface-panel App-settings-section">
             <h2>Sync &amp; merge</h2>
             <p className="app-text-muted">
@@ -600,9 +519,11 @@ export default function SettingsPage(props) {
             token={token}
             driveApi={props.driveApi}
           />
-        </Tab.Pane>
+          </>
+        ) : null}
 
-        <Tab.Pane eventKey={TAB_APPEARANCE}>
+        {activeTab === TAB_PERSONALISATION ? (
+          <>
           <div className="app-surface-panel App-settings-section">
             <h2>
               Appearance
@@ -654,358 +575,7 @@ export default function SettingsPage(props) {
               />
             </Form.Group>
           </div>
-        </Tab.Pane>
-
-        <Tab.Pane eventKey={TAB_MEDIA}>
-          <div className="app-surface-panel App-settings-section">
-            <h2>
-              Compress Audio
-              <FormFieldHelp
-                title={SETTINGS_FIELD_HELP.compressAudio.title}
-                body={SETTINGS_FIELD_HELP.compressAudio.body}
-              />
-            </h2>
-            <ButtonGroup className="settings-compress-audio-buttons" aria-label="Compress Audio format">
-              {AUDIO_COMPRESS_FORMAT_OPTIONS.map(function(option) {
-                const available = !audioCompressCapabilities || !!audioCompressCapabilities[option.value]
-                const selected = audioCompressSettings.format === option.value
-                return (
-                  <Button
-                    key={option.value}
-                    variant={selected ? 'primary' : 'outline-primary'}
-                    disabled={!available}
-                    title={!available ? option.label + ' is not available in this browser' : undefined}
-                    onClick={function() { updateAudioCompressFormat(option.value) }}
-                  >
-                    {option.label}
-                  </Button>
-                )
-              })}
-            </ButtonGroup>
-            {compressCommentary ? (
-              <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
-                {compressCommentary}
-              </p>
-            ) : null}
-          </div>
-
-          <div className="app-surface-panel App-settings-section">
-            <h2>
-              {isAndroidApp() ? 'Built-in YouTube fetch' : 'TuneBook Helper extension'}
-              <FormFieldHelp
-                title={SETTINGS_FIELD_HELP.youtubeHelper.title}
-                body={SETTINGS_FIELD_HELP.youtubeHelper.body}
-              />
-            </h2>
-            <p className="app-text-muted">
-              {isAndroidApp()
-                ? 'The Android app downloads YouTube audio on-device so pitch, filters, and caching work without a browser extension or resolver.'
-                : 'Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.'}
-            </p>
-            {isAndroidApp() ? (
-              <>
-                <p className="app-text-muted">
-                  {youtubeHelperStatus.checking
-                    ? 'Checking built-in YouTube fetch…'
-                    : youtubeHelperStatus.ok
-                      ? ('Built-in YouTube fetch: ready' +
-                        (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
-                      : 'Built-in YouTube fetch: unavailable'}
-                  {!youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
-                    <span> — {youtubeHelperStatus.error}</span>
-                  ) : null}
-                </p>
-                <div className="App-settings-actions" style={{ marginTop: '0.75rem' }}>
-                  <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus}>
-                    Refresh status
-                  </Button>
-                  <Button variant="outline-secondary" onClick={openBatteryOptimizationSettings}>
-                    Battery settings
-                  </Button>
-                </div>
-                <div style={{ marginTop: '1.25rem' }}>
-                  <AndroidLocalMediaSettingsSection />
-                </div>
-              </>
-            ) : (
-            <>
-            <Form.Group className="mb-3">
-              <Form.Check
-                type="switch"
-                id="youtube-helper-enabled"
-                label="Use TuneBook Helper for media"
-                checked={!youtubeHelperDisabled}
-                onChange={function(e) {
-                  const enabled = e.target.checked
-                  setYoutubeHelperDisabled(!enabled)
-                  setYoutubeHelperDisabledState(!enabled)
-                }}
-              />
-            </Form.Group>
-            <div className="App-settings-resolver-status">
-              <strong>
-                {youtubeHelperDisabled
-                  ? 'TuneBook Helper: disabled in settings'
-                  : youtubeHelperStatus.checking
-                    ? 'Checking TuneBook Helper…'
-                    : youtubeHelperStatus.ok
-                      ? ('TuneBook Helper: connected' +
-                        (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
-                      : 'TuneBook Helper: not connected'}
-              </strong>
-              {!youtubeHelperDisabled && !youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
-                <span className="app-text-muted"> — {youtubeHelperStatus.error}</span>
-              ) : null}
-            </div>
-            <div className="App-settings-actions" style={{ marginTop: '0.75rem' }}>
-              <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus} disabled={youtubeHelperDisabled}>
-                Refresh Helper status
-              </Button>
-              <Button
-                as="a"
-                variant="primary"
-                href={youtubeHelperZipHref}
-                download="tunebook-helper.zip"
-                style={{ color: '#fff', textDecoration: 'none' }}
-              >
-                Download TuneBook Helper
-              </Button>
-              <Button
-                variant="outline-secondary"
-                onClick={function() { setShowYoutubeHelperInstallHelp(true) }}
-              >
-                How to install
-              </Button>
-            </div>
-            <FieldHelpModal
-              show={showYoutubeHelperInstallHelp}
-              title={SETTINGS_FIELD_HELP.youtubeHelperInstall.title}
-              fields={SETTINGS_FIELD_HELP.youtubeHelperInstall.fields}
-              onHide={function() { setShowYoutubeHelperInstallHelp(false) }}
-            />
-            </>
-            )}
-          </div>
-
-          <div className="app-surface-panel App-settings-section">
-            <div className="settings-offline-media-row">
-              <span className="settings-offline-media-heading">Cache</span>
-              <FormFieldHelp
-                title={SETTINGS_FIELD_HELP.offlineMedia.title}
-                body={SETTINGS_FIELD_HELP.offlineMedia.body}
-              />
-            </div>
-            <div className="settings-cache-stats" aria-live="polite">
-              {cacheStatsLoading && !cacheStats ? (
-                <p className="app-text-muted settings-cache-stats-loading">Measuring cache storage…</p>
-              ) : cacheStats ? (
-                <>
-                  <ul className="settings-cache-stats-list">
-                    {cacheStats.caches.map(function(cache) {
-                      return (
-                        <li key={cache.id}>
-                          <span className="settings-cache-stats-label">{cache.label}</span>
-                          <span className="settings-cache-stats-value">
-                            {formatBytes(cache.bytes)}
-                            <span className="settings-cache-stats-meta">
-                              {' · '}{cache.entries} entr{cache.entries === 1 ? 'y' : 'ies'}
-                              {cache.id === 'audio' && cache.lockedEntries > 0 ? (
-                                <>
-                                  {' · '}{cache.lockedEntries} locked ({formatBytes(cache.lockedBytes)})
-                                </>
-                              ) : null}
-                            </span>
-                          </span>
-                        </li>
-                      )
-                    })}
-                    <li className="settings-cache-stats-total">
-                      <span className="settings-cache-stats-label">Total</span>
-                      <span className="settings-cache-stats-value">{formatBytes(cacheStats.totalBytes)}</span>
-                    </li>
-                  </ul>
-                  <p className="settings-cache-details-text">
-                    {(cacheStats.audio && cacheStats.audio.tuneCount) || 0} of {totalTuneCount} tune{totalTuneCount === 1 ? '' : 's'} have downloaded cache
-                    {(cacheStats.audio && cacheStats.audio.entries)
-                      ? ' (' + cacheStats.audio.entries + ' cached link' + (cacheStats.audio.entries === 1 ? '' : 's') + ')'
-                      : ''}
-                    .
-                  </p>
-                  {isMediaCacheAdmin ? (
-                    <Button
-                      variant="outline-secondary"
-                      className="settings-cache-details-toggle"
-                      onClick={function() { setShowMediaCacheTunes(true) }}
-                    >
-                      Show tunes with media cache
-                    </Button>
-                  ) : null}
-                </>
-              ) : (
-                <p className="app-text-muted">Could not measure cache storage.</p>
-              )}
-            </div>
-            <Form.Group className="mb-3">
-              <Form.Check
-                type="switch"
-                id="drive-backup-cached-media"
-                label="Back up cached media to Google Drive"
-                checked={driveBackupCachedMedia}
-                onChange={function(e) {
-                  const enabled = e.target.checked
-                  saveMediaCacheDriveBackupSettings({ driveBackupCachedMedia: enabled })
-                  setDriveBackupCachedMedia(enabled)
-                  setDriveBackupStatus(getMediaCacheDriveBackupStatus())
-                  if (enabled && token && token.access_token && props.driveApi) {
-                    syncOutstandingCachedMediaBackup({
-                      token: token,
-                      driveApi: props.driveApi,
-                    }).catch(function() {})
-                  }
-                }}
-              />
-              <p className="app-text-muted settings-cache-details-text">
-                {!accessToken
-                  ? 'Log in with Google to sync cached media to Drive.'
-                  : driveBackupStatus.syncing
-                    ? 'Syncing cached media with Google Drive…'
-                    : driveBackupStatus.lastError
-                      ? driveBackupStatus.lastError
-                      : (driveBackupStatus.backedUpCount
-                        ? driveBackupStatus.backedUpCount + ' file' + (driveBackupStatus.backedUpCount === 1 ? '' : 's') + ' backed up on Drive.'
-                        : 'When on, downloaded cache (not stems or MIDI) is copied to your Drive. Files are pulled onto this device when you play them.')}
-              </p>
-            </Form.Group>
-            <div className="App-settings-actions">
-              <Button
-                variant="info"
-                onClick={handleCleanupHalfAudioCache}
-                title="Clear the oldest cached half of the cache"
-              >
-                Cleanup Cache
-              </Button>
-              <Button
-                variant="warning"
-                onClick={function() {
-                  handleClearCache(tunebook.utils.clearDownloadedAudioCache, 'Downloaded cache cleared.')
-                }}
-              >
-                Clear Cache
-              </Button>
-              <Button
-                variant="warning"
-                onClick={function() {
-                  handleClearCache(tunebook.utils.clearMidiCache, 'MIDI playback cache cleared.')
-                }}
-              >
-                Clear Midi Cache
-              </Button>
-              <Button
-                variant="warning"
-                onClick={function() {
-                  handleClearCache(tunebook.utils.clearStemsCache, 'Stem cache cleared.')
-                }}
-              >
-                Clear Stems
-              </Button>
-            </div>
-          </div>
-        </Tab.Pane>
-
-        <Tab.Pane eventKey={TAB_VOICE}>
           <VoiceSettingsSection accessToken={accessToken} />
-        </Tab.Pane>
-
-        <Tab.Pane eventKey={TAB_PROVIDERS}>
-          <ProvidersSettingsSection
-            resolverStatus={resolverStatus}
-            mediaProxyUrl={mediaProxyUrl}
-            setMediaProxyUrl={setMediaProxyUrl}
-            clearMediaProxy={clearMediaProxy}
-            refreshResolverStatus={refreshResolverStatus}
-            resolverMessage={resolverMessage}
-            accessToken={accessToken}
-            formatCandidateStatus={formatCandidateStatus}
-            login={props.login}
-            logout={props.logout}
-            refresh={props.refresh}
-            requestGoogleScopes={props.requestGoogleScopes}
-            user={props.user}
-            token={props.token}
-            authMode={props.authMode}
-            authBase={authBase}
-            authBaseChecked={authBaseChecked}
-          />
-        </Tab.Pane>
-
-        <Tab.Pane eventKey={TAB_SOURCES}>
-          <SourcesSettingsSection
-            tunes={tunes}
-            token={token}
-            login={props.login}
-            googleDocumentId={props.googleDocumentId}
-            onCheckMergeNow={handleCheckMergeNow}
-            mergeCheckBusy={mergeCheckBusy}
-          />
-        </Tab.Pane>
-
-        {showDuplicatesTab ? (
-          <Tab.Pane eventKey={TAB_DUPLICATES}>
-            {activeTab === TAB_DUPLICATES ? (
-              <DuplicateManagerSettingsSection
-                tunes={tunes}
-                tunesHash={tunesHash}
-                tunebook={tunebook}
-                indexes={props.indexes}
-                currentTuneBook={props.currentTuneBook}
-              />
-            ) : null}
-          </Tab.Pane>
-        ) : null}
-
-        {showCleanupTab ? (
-          <Tab.Pane eventKey={TAB_CLEANUP}>
-            {activeTab === TAB_CLEANUP ? (
-              <CleanupSettingsSection
-                tunes={tunes}
-                tunebook={tunebook}
-                indexes={props.indexes}
-                currentTuneBook={props.currentTuneBook}
-                forceRefresh={props.forceRefresh}
-              />
-            ) : null}
-          </Tab.Pane>
-        ) : null}
-
-        <Tab.Pane eventKey={TAB_LIBRARY}>
-          {activeTab === TAB_LIBRARY ? (
-            <LibraryScaleSettingsSection
-              tunes={tunes}
-              indexes={props.indexes}
-              tunesContentRevision={props.tunesContentRevision}
-              forceRefresh={props.forceRefresh}
-            />
-          ) : null}
-        </Tab.Pane>
-
-        {showMusicCollectionTab ? (
-          <Tab.Pane eventKey={TAB_MUSIC_COLLECTION}>
-            <MusicCollectionSettingsSection accessToken={accessToken} />
-          </Tab.Pane>
-        ) : null}
-
-        {showBillingAdminTab ? (
-          <Tab.Pane eventKey={TAB_BILLING_ADMIN}>
-            {activeTab === TAB_BILLING_ADMIN ? (
-              <BillingAdminSettingsSection
-                accessToken={accessToken}
-                billingEnabled={!!(resolverStatus && resolverStatus.billingEnabled)}
-              />
-            ) : null}
-          </Tab.Pane>
-        ) : null}
-
-        <Tab.Pane eventKey={TAB_PEDAL}>
           <div className="app-surface-panel App-settings-section">
             <h2>Foot pedal / page turn</h2>
             <p className="app-text-muted">
@@ -1060,22 +630,290 @@ export default function SettingsPage(props) {
               Reset to defaults
             </Button>
           </div>
-        </Tab.Pane>
+          </>
+        ) : null}
 
-        <Tab.Pane eventKey={TAB_BACKUP}>
-          <BackupSettingsSection
-            tunebook={tunebook}
-            tunes={tunes}
-            token={token}
+        {activeTab === TAB_PROVIDERS ? (
+          <ProvidersSettingsSection
+            resolverStatus={resolverStatus}
+            mediaProxyUrl={mediaProxyUrl}
+            setMediaProxyUrl={setMediaProxyUrl}
+            clearMediaProxy={clearMediaProxy}
+            refreshResolverStatus={refreshResolverStatus}
+            resolverMessage={resolverMessage}
+            accessToken={accessToken}
+            formatCandidateStatus={formatCandidateStatus}
             login={props.login}
-            googleDocumentId={props.googleDocumentId}
-            overrideTuneBook={props.overrideTuneBook}
-            forceRefresh={props.forceRefresh}
-            navigate={navigate}
+            logout={props.logout}
+            refresh={props.refresh}
+            requestGoogleScopes={props.requestGoogleScopes}
+            user={props.user}
+            token={props.token}
+            authMode={props.authMode}
+            authBase={authBase}
+            authBaseChecked={authBaseChecked}
           />
-        </Tab.Pane>
-      </Tab.Content>
-    </Tab.Container>
+        ) : null}
+
+        {activeTab === TAB_LIBRARY ? (
+          <>
+            <Nav variant="tabs" className="App-settings-nested-tabs">
+              <Nav.Item>
+                <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, LIBRARY_TAB_LIBRARY)} active={libraryTab === LIBRARY_TAB_LIBRARY}>
+                  Library
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, TAB_BACKUP)} active={libraryTab === TAB_BACKUP}>
+                  Backup
+                </Nav.Link>
+              </Nav.Item>
+              {showCleanupTab ? (
+                <Nav.Item>
+                  <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, TAB_CLEANUP)} active={libraryTab === TAB_CLEANUP}>
+                    Cleanup
+                  </Nav.Link>
+                </Nav.Item>
+              ) : null}
+              {showDuplicatesTab ? (
+                <Nav.Item>
+                  <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, TAB_DUPLICATES)} active={libraryTab === TAB_DUPLICATES}>
+                    Duplicates
+                  </Nav.Link>
+                </Nav.Item>
+              ) : null}
+              <Nav.Item>
+                <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, TAB_MEDIA)} active={libraryTab === TAB_MEDIA}>
+                  Media
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link as={Link} to={buildSettingsPath(TAB_LIBRARY, TAB_SOURCES)} active={libraryTab === TAB_SOURCES}>
+                  Sources
+                </Nav.Link>
+              </Nav.Item>
+            </Nav>
+            {libraryTab === LIBRARY_TAB_LIBRARY ? (
+              <LibraryScaleSettingsSection
+                tunes={tunes}
+                indexes={props.indexes}
+                tunesContentRevision={props.tunesContentRevision}
+                forceRefresh={props.forceRefresh}
+              />
+            ) : null}
+            {libraryTab === TAB_BACKUP ? (
+              <BackupSettingsSection
+                tunebook={tunebook}
+                tunes={tunes}
+                token={token}
+                login={props.login}
+                googleDocumentId={props.googleDocumentId}
+                overrideTuneBook={props.overrideTuneBook}
+                forceRefresh={props.forceRefresh}
+                navigate={navigate}
+              />
+            ) : null}
+            {showCleanupTab && libraryTab === TAB_CLEANUP ? (
+              <CleanupSettingsSection
+                tunes={tunes}
+                tunebook={tunebook}
+                indexes={props.indexes}
+                currentTuneBook={props.currentTuneBook}
+                forceRefresh={props.forceRefresh}
+              />
+            ) : null}
+            {showDuplicatesTab && libraryTab === TAB_DUPLICATES ? (
+              <DuplicateManagerSettingsSection
+                tunes={tunes}
+                tunesHash={tunesHash}
+                tunebook={tunebook}
+                indexes={props.indexes}
+                currentTuneBook={props.currentTuneBook}
+              />
+            ) : null}
+            {libraryTab === TAB_MEDIA ? (
+              <>
+                <div className="app-surface-panel App-settings-section">
+                  <h2>
+                    Compress Audio
+                    <FormFieldHelp
+                      title={SETTINGS_FIELD_HELP.compressAudio.title}
+                      body={SETTINGS_FIELD_HELP.compressAudio.body}
+                    />
+                  </h2>
+                  <ButtonGroup className="settings-compress-audio-buttons" aria-label="Compress Audio format">
+                    {AUDIO_COMPRESS_FORMAT_OPTIONS.map(function(option) {
+                      const available = !audioCompressCapabilities || !!audioCompressCapabilities[option.value]
+                      const selected = audioCompressSettings.format === option.value
+                      return (
+                        <Button
+                          key={option.value}
+                          variant={selected ? 'primary' : 'outline-primary'}
+                          disabled={!available}
+                          title={!available ? option.label + ' is not available in this browser' : undefined}
+                          onClick={function() { updateAudioCompressFormat(option.value) }}
+                        >
+                          {option.label}
+                        </Button>
+                      )
+                    })}
+                  </ButtonGroup>
+                  {compressCommentary ? (
+                    <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
+                      {compressCommentary}
+                    </p>
+                  ) : null}
+                </div>
+                <div className="app-surface-panel App-settings-section">
+                  <div className="settings-offline-media-row">
+                    <span className="settings-offline-media-heading">Cache</span>
+                    <FormFieldHelp
+                      title={SETTINGS_FIELD_HELP.offlineMedia.title}
+                      body={SETTINGS_FIELD_HELP.offlineMedia.body}
+                    />
+                  </div>
+                  <div className="settings-cache-stats" aria-live="polite">
+                    {cacheStatsLoading && !cacheStats ? (
+                      <p className="app-text-muted settings-cache-stats-loading">Measuring cache storage…</p>
+                    ) : cacheStats ? (
+                      <>
+                        <ul className="settings-cache-stats-list">
+                          {cacheStats.caches.map(function(cache) {
+                            return (
+                              <li key={cache.id}>
+                                <span className="settings-cache-stats-label">{cache.label}</span>
+                                <span className="settings-cache-stats-value">
+                                  {formatBytes(cache.bytes)}
+                                  <span className="settings-cache-stats-meta">
+                                    {' · '}{cache.entries} entr{cache.entries === 1 ? 'y' : 'ies'}
+                                    {cache.id === 'audio' && cache.lockedEntries > 0 ? (
+                                      <>
+                                        {' · '}{cache.lockedEntries} locked ({formatBytes(cache.lockedBytes)})
+                                      </>
+                                    ) : null}
+                                  </span>
+                                </span>
+                              </li>
+                            )
+                          })}
+                          <li className="settings-cache-stats-total">
+                            <span className="settings-cache-stats-label">Total</span>
+                            <span className="settings-cache-stats-value">{formatBytes(cacheStats.totalBytes)}</span>
+                          </li>
+                        </ul>
+                        <p className="settings-cache-details-text">
+                          {(cacheStats.audio && cacheStats.audio.tuneCount) || 0} of {totalTuneCount} tune{totalTuneCount === 1 ? '' : 's'} have downloaded cache
+                          {(cacheStats.audio && cacheStats.audio.entries)
+                            ? ' (' + cacheStats.audio.entries + ' cached link' + (cacheStats.audio.entries === 1 ? '' : 's') + ')'
+                            : ''}
+                          .
+                        </p>
+                        {isMediaCacheAdmin ? (
+                          <Button
+                            variant="outline-secondary"
+                            className="settings-cache-details-toggle"
+                            onClick={function() { setShowMediaCacheTunes(true) }}
+                          >
+                            Show tunes with media cache
+                          </Button>
+                        ) : null}
+                      </>
+                    ) : (
+                      <p className="app-text-muted">Could not measure cache storage.</p>
+                    )}
+                  </div>
+                  <Form.Group className="mb-3">
+                    <Form.Check
+                      type="switch"
+                      id="drive-backup-cached-media"
+                      label="Back up cached media to Google Drive"
+                      checked={driveBackupCachedMedia}
+                      onChange={function(e) {
+                        const enabled = e.target.checked
+                        saveMediaCacheDriveBackupSettings({ driveBackupCachedMedia: enabled })
+                        setDriveBackupCachedMedia(enabled)
+                        setDriveBackupStatus(getMediaCacheDriveBackupStatus())
+                        if (enabled && token && token.access_token && props.driveApi) {
+                          syncOutstandingCachedMediaBackup({
+                            token: token,
+                            driveApi: props.driveApi,
+                          }).catch(function() {})
+                        }
+                      }}
+                    />
+                    <p className="app-text-muted settings-cache-details-text">
+                      {!accessToken
+                        ? 'Log in with Google to sync cached media to Drive.'
+                        : driveBackupStatus.syncing
+                          ? 'Syncing cached media with Google Drive…'
+                          : driveBackupStatus.lastError
+                            ? driveBackupStatus.lastError
+                            : (driveBackupStatus.backedUpCount
+                              ? driveBackupStatus.backedUpCount + ' file' + (driveBackupStatus.backedUpCount === 1 ? '' : 's') + ' backed up on Drive.'
+                              : 'When on, downloaded cache (not stems or MIDI) is copied to your Drive. Files are pulled onto this device when you play them.')}
+                    </p>
+                  </Form.Group>
+                  <div className="App-settings-actions">
+                    <Button
+                      variant="info"
+                      onClick={handleCleanupHalfAudioCache}
+                      title="Clear the oldest cached half of the cache"
+                    >
+                      Cleanup Cache
+                    </Button>
+                    <Button
+                      variant="warning"
+                      onClick={function() {
+                        handleClearCache(tunebook.utils.clearDownloadedAudioCache, 'Downloaded cache cleared.')
+                      }}
+                    >
+                      Clear Cache
+                    </Button>
+                    <Button
+                      variant="warning"
+                      onClick={function() {
+                        handleClearCache(tunebook.utils.clearMidiCache, 'MIDI playback cache cleared.')
+                      }}
+                    >
+                      Clear Midi Cache
+                    </Button>
+                    <Button
+                      variant="warning"
+                      onClick={function() {
+                        handleClearCache(tunebook.utils.clearStemsCache, 'Stem cache cleared.')
+                      }}
+                    >
+                      Clear Stems
+                    </Button>
+                  </div>
+                </div>
+              </>
+            ) : null}
+            {libraryTab === TAB_SOURCES ? (
+              <>
+                <SourcesSettingsSection
+                  tunes={tunes}
+                  token={token}
+                  login={props.login}
+                  googleDocumentId={props.googleDocumentId}
+                  onCheckMergeNow={handleCheckMergeNow}
+                  mergeCheckBusy={mergeCheckBusy}
+                />
+                {showMusicCollectionTab ? (
+                  <MusicCollectionSettingsSection accessToken={accessToken} />
+                ) : null}
+              </>
+            ) : null}
+          </>
+        ) : null}
+
+        {activeTab === TAB_BILLING_ADMIN && showBillingAdminTab ? (
+          <BillingAdminSettingsSection
+            accessToken={accessToken}
+            billingEnabled={!!(resolverStatus && resolverStatus.billingEnabled)}
+          />
+        ) : null}
+    </div>
   </div>
   <MediaCacheTunesModal
     show={showMediaCacheTunes}

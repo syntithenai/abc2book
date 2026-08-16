@@ -43,4 +43,21 @@ describe('quantizeVoiceEvents', function() {
     });
     expect(out[0].startBeat).toBeCloseTo(1, 5);
   });
+
+  test('preserves lineBreak events between the same notes', function() {
+    const events = [
+      { id: 'n1', type: 'note', startBeat: 0, durationBeats: 4, duration: { num: 8, den: 1, dotted: false } },
+      { id: 'br', type: 'lineBreak', startBeat: 4, durationBeats: 0, duration: { num: 0, den: 1, dotted: false } },
+      { id: 'n2', type: 'note', startBeat: 4.12, durationBeats: 4, duration: { num: 8, den: 1, dotted: false } },
+    ];
+    const out = quantizeVoiceEvents(events, {
+      meter: '4/4',
+      noteLength: '1/8',
+      strength: 1,
+      slotsPerBeat: 4,
+      beatsPerBar: 4,
+    });
+    expect(out.map(function(ev) { return ev.type; })).toEqual(['note', 'lineBreak', 'note']);
+    expect(out[1].id).toBe('br');
+  });
 });

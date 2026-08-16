@@ -89,4 +89,27 @@ describe('TimedLyricsChordsView transpose', function() {
       { chord: 'C', needsGap: false, overflow: true },
     ])
   })
+
+  test('keeps pickup chords in their own column before the first word', function() {
+    const tune = {
+      name: 'Test',
+      words: ['[G]  Amazing grace'],
+      voices: {},
+    }
+
+    act(function() {
+      root.render(React.createElement(TimedLyricsChordsView, {
+        tune: tune,
+        suppressLeadingTitle: true,
+      }))
+    })
+
+    const tokens = Array.from(container.querySelectorAll('.chordpro-token'))
+    expect(tokens.length).toBeGreaterThanOrEqual(2)
+    expect(tokens[0].classList.contains('chordpro-token--pad')).toBe(true)
+    expect(tokens[0].querySelector('.chordpro-chord--symbol').textContent).toBe('G')
+    expect(tokens[0].querySelector('.chordpro-chord--overflow')).toBeNull()
+    expect(tokens[0].querySelector('.chordpro-lyric').textContent).toBe('  ')
+    expect(tokens[1].querySelector('.chordpro-lyric').textContent).toMatch(/^Amazing/)
+  })
 })

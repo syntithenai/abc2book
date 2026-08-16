@@ -5,7 +5,7 @@ import { useDocumentTitle } from '../pageTitle'
 import { fetchBillingBalance, formatCreditCents } from '../creditClient'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 
-const CREDIT_SETTINGS_PATH = '/settings?tab=providers&credit=1'
+const CREDIT_SETTINGS_PATH = '/settings/providers?credit=1'
 
 export default function BillingCheckoutPage(props) {
   const outcome = props.outcome === 'cancel' ? 'cancel' : 'success'
