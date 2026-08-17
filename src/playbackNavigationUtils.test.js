@@ -80,6 +80,10 @@ describe('playbackNavigationUtils', function() {
       true,
       'z'
     )).toBe(true)
+    expect(shouldAdvancePlaybackOnEnd(
+      Object.assign({}, queue, { stopAfterCurrent: true }),
+      true
+    )).toBe(false)
   })
 
   test('isQueuePlaybackEngaged', function() {

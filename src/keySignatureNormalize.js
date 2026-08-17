@@ -201,7 +201,8 @@ const PC_TO_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 
 
 /**
  * Standard major-key accidental count by relative-major pitch class.
- * Positive = sharps, negative = flats. PC 6 uses F# (6 sharps), not Gb.
+ * Positive = sharps, negative = flats. PC 6 is F#/Gb (6 accidentals either
+ * way); transposeKeySignature breaks that tie from the source spelling.
  */
 const MAJOR_PC_ACCIDENTALS = {
   0: 0,
@@ -252,6 +253,8 @@ function formatKeyFromParsed(root, parsed) {
 
 /**
  * True when the key signature uses flats (accidentals &lt; 0).
+ * Explicit flat/sharp tonics (Ebm, Gb, D#m, F#) follow the tonic spelling
+ * so Gb/Ebm stay on the flat side even though F#/D#m share that pitch class.
  * Zero-accidental keys (C, Am, Ddorian, …) return false (prefer sharps).
  * Pipe keys and unrecognized input return false.
  */
@@ -260,6 +263,8 @@ export function keyPrefersFlats(keyText) {
   if (!trimmed || normalizePipeKey(trimmed)) return false;
   const parsed = parseKeySignatureMode(trimmed);
   if (!parsed) return false;
+  if (parsed.root && parsed.root.indexOf('b') >= 0) return true;
+  if (parsed.root && parsed.root.indexOf('#') >= 0) return false;
   const rootPc = pitchClassForRoot(parsed.root);
   if (rootPc == null) return false;
   const relativeMajorPc = (rootPc + relativeMajorOffset(parsed) + 12) % 12;
@@ -284,7 +289,10 @@ export function transposeKeySignature(keyText, semitones) {
   const nextPc = (rootPc + (amount % 12) + 12) % 12;
   const relativeMajorPc = (nextPc + relativeMajorOffset(parsed) + 12) % 12;
   const accidentals = MAJOR_PC_ACCIDENTALS[relativeMajorPc];
-  const preferFlats = typeof accidentals === 'number' && accidentals < 0;
+  // F#/Gb (and relatives D#m/Ebm) both have 6 accidentals. Stay on the
+  // source's flat/sharp side so Dm+1 is Ebm, not D#m.
+  let preferFlats = typeof accidentals === 'number' && accidentals < 0;
+  if (accidentals === 6) preferFlats = keyPrefersFlats(trimmed);
   const nextRoot = preferFlats ? PC_TO_FLAT[nextPc] : PC_TO_SHARP[nextPc];
   return formatKeyFromParsed(nextRoot, parsed);
 }

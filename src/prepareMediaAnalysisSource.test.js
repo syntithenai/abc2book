@@ -10,12 +10,27 @@ jest.mock('./linkRecording', function() {
   };
 });
 
+jest.mock('./externalMediaAudioCache', function() {
+  return {
+    getExternalMediaMp3Blob: jest.fn(),
+    getCachedExternalMediaBlob: jest.fn(function() {
+      return Promise.resolve(null);
+    }),
+    getExternalMediaCacheKey: jest.fn(function(tuneId, linkIndex, src) {
+      return 'extmedia:' + tuneId + ':' + linkIndex + ':' + src;
+    }),
+  };
+});
+
 import { resolveRecordingLinkAudio } from './linkRecording';
+import { getCachedExternalMediaBlob } from './externalMediaAudioCache';
 import { prepareMediaAnalysisSource } from './prepareMediaAnalysisSource';
 
 describe('prepareMediaAnalysisSource', function() {
   beforeEach(function() {
     resolveRecordingLinkAudio.mockReset();
+    getCachedExternalMediaBlob.mockReset();
+    getCachedExternalMediaBlob.mockResolvedValue(null);
   });
 
   test('returns non-recording sources unchanged', async function() {
@@ -93,6 +108,32 @@ describe('prepareMediaAnalysisSource', function() {
       blob: blob,
       fileName: 'My Song.mp3',
       label: 'My Song',
+      linkIndex: 0,
+    });
+  });
+
+  test('uploads cached youtube audio instead of sending the URL to yt-dlp', async function() {
+    const blob = { type: 'audio/mpeg' };
+    getCachedExternalMediaBlob.mockResolvedValue({ blob: blob, duration: 180 });
+    const source = {
+      id: 'link-0',
+      kind: 'link',
+      srcType: 'youtube',
+      src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      label: 'Copper Kettle',
+      linkIndex: 0,
+    };
+    const tune = {
+      id: 't1',
+      links: [{ link: source.src, title: 'Copper Kettle' }],
+    };
+    const prepared = await prepareMediaAnalysisSource(source, tune, {});
+    expect(prepared).toEqual({
+      id: 'link-0',
+      kind: 'recording',
+      blob: blob,
+      fileName: 'Copper Kettle.mp3',
+      label: 'Copper Kettle',
       linkIndex: 0,
     });
   });

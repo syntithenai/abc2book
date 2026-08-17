@@ -11,6 +11,7 @@ import {
   buildShuffleOrder,
   setQueueIndex,
   resolvePlaybackForItem,
+  tuneHasMidiNotes,
   shouldSuppressFollowNavigate,
   startPreviewOnce,
   endPreviewOnce,
@@ -159,6 +160,35 @@ describe('nowPlayingQueue', function() {
     })
   })
 
+  test('resolvePlaybackForItem skips midi when ABC has chords but no notes', function() {
+    const chordsOnlyTunebook = {
+      hasNotesOrChords: function() { return true },
+      hasNotes: function() { return false },
+      hasLinks: function() { return false },
+    }
+    const tune = { id: '1' }
+    expect(tuneHasMidiNotes(tune, chordsOnlyTunebook)).toBe(false)
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto' }, chordsOnlyTunebook)).toBe(null)
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'midi' }, chordsOnlyTunebook)).toBe(null)
+  })
+
+  test('resolvePlaybackForItem uses media when ABC has chords but no notes and links exist', function() {
+    const chordsOnlyTunebook = {
+      hasNotesOrChords: function() { return true },
+      hasNotes: function() { return false },
+      hasLinks: function() { return true },
+    }
+    const tune = { id: '1', links: [{ link: 'http://x' }] }
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto' }, chordsOnlyTunebook)).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'midi' }, chordsOnlyTunebook)).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+  })
+
   test('shouldSuppressFollowNavigate in editor, scratchpad, and gig', function() {
     expect(shouldSuppressFollowNavigate({ pathname: '/editor/abc' })).toBe(true)
     expect(shouldSuppressFollowNavigate({ pathname: '/scratchpad/item-1' })).toBe(true)
@@ -258,12 +288,14 @@ describe('nowPlayingQueue', function() {
     localStorage.clear()
     const q = createQueue({ tuneIds: ['a', 'b'], name: 'Sticky', currentIndex: 1 })
     q.previewOnce = { tuneId: 'z', returnIndex: 1 }
+    q.stopAfterCurrent = true
     persistActiveQueue(q)
     const loaded = loadActiveQueue()
     expect(loaded.name).toBe('Sticky')
     expect(loaded.currentIndex).toBe(1)
     expect(loaded.items).toHaveLength(2)
     expect(loaded.previewOnce).toBeUndefined()
+    expect(loaded.stopAfterCurrent).toBeUndefined()
     persistActiveQueue(null)
     expect(loadActiveQueue()).toBeNull()
   })

@@ -4,7 +4,9 @@ import React, { useCallback, useEffect, useMemo, useRef, useSyncExternalStore, u
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
 import NotationSearchButton from './NotationSearchButton'
+import NotationSelectButton from './NotationSelectButton'
 import MelodyAnalysisRefineModal from './MelodyAnalysisRefineModal'
+import { applyImportedNotationToTune, importedTuneFromCandidate } from '../notationFileImport'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
@@ -252,6 +254,7 @@ export default function MusicEditor(props) {
                 {historyButtonGroup}
                 {isNotationView ? (
                   <>
+                    <span className="music-editor-notation-import">
                     <NotationSearchButton
                       tuneId={tuneId}
                       tune={tune}
@@ -291,6 +294,24 @@ export default function MusicEditor(props) {
                         notifyRefresh()
                       }}
                     />
+                    <NotationSelectButton
+                      tune={tune}
+                      tunebook={props.tunebook}
+                      token={props.token}
+                      tunes={props.tunes}
+                      onNotation={function(candidate) {
+                        if (!props.tunebook || !tune) return
+                        const imported = importedTuneFromCandidate(candidate, props.tunebook)
+                        if (!imported) return
+                        if (candidate && candidate.sourceUrl && !imported.srcUrl) {
+                          imported.srcUrl = candidate.sourceUrl
+                        }
+                        const next = applyImportedNotationToTune(tune, imported)
+                        props.tunebook.saveTune(next, false, { historyLabel: 'Import notation file' })
+                        notifyRefresh()
+                      }}
+                    />
+                    </span>
                     {canFineTuneAnalysis ? (
                       <Button
                         size="lg"

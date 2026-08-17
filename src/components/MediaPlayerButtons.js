@@ -9,7 +9,7 @@ import {
 } from '../tunePlaybackActions'
 import { getCurrentTuneId, isQueueActive } from '../nowPlayingQueue'
 import { isNavigatorOffline, isTuneOfflinePlayable } from '../offlinePlayback'
-import { getViewedTuneIdFromPath, isQueuePlaybackEngaged, isTuneListPath } from '../playbackNavigationUtils'
+import { getViewedTuneIdFromPath, isQueuePlaybackEngaged, isTuneListPath, isTuneSingleViewPath } from '../playbackNavigationUtils'
 
 export function useOfflinePlayDisabled(mediaController, tunebook, location, viewedTune) {
   const [playDisabled, setPlayDisabled] = useState(false)
@@ -136,6 +136,7 @@ export default function MediaPlayerButtons({
          setNowPlayingQueue: setNowPlayingQueue,
          tunes: tunes,
          playTuneId: tune.id,
+         playOnceAndStop: isTuneSingleViewPath(location.pathname),
        })
    }
 

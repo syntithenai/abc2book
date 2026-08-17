@@ -1,5 +1,9 @@
 import { resolveRecordingLinkAudio } from './linkRecording';
-import { getExternalMediaMp3Blob } from './externalMediaAudioCache';
+import {
+  getCachedExternalMediaBlob,
+  getExternalMediaCacheKey,
+  getExternalMediaMp3Blob,
+} from './externalMediaAudioCache';
 import { trimAudioBuffer, getLinkTrimBounds } from './mediaAudioTrim';
 import { encodeAudioBuffer } from './audioCompressEncode';
 
@@ -75,6 +79,7 @@ async function trimLocalBlobSource(source, tune, options, bounds) {
 /**
  * Resolve recording blobs. When the link has a play range:
  * - local/recording audio is trimmed in the browser
+ * - cached YouTube audio is trimmed in the browser
  * - remote YouTube/audio URLs keep the URL and attach startAt/endAt so the
  *   resolver can fetch via yt-dlp and trim server-side (avoids Innertube 403)
  */
@@ -86,6 +91,33 @@ export async function prepareMediaAnalysisSource(source, tune, options) {
     : null;
   const bounds = link ? getLinkTrimBounds(link) : { startSec: 0, endSec: 0 };
   const needsTrim = bounds.startSec > 0 || bounds.endSec > 0;
+
+  if (
+    source.src
+    && source.srcType === 'youtube'
+    && !source.blob
+    && tune
+    && tune.id
+    && source.linkIndex != null
+  ) {
+    const cached = await getCachedExternalMediaBlob(
+      getExternalMediaCacheKey(tune.id, source.linkIndex, source.src)
+    );
+    if (cached && cached.blob) {
+      const cachedSource = {
+        id: source.id,
+        kind: 'recording',
+        blob: cached.blob,
+        fileName: (source.label || 'audio') + '.mp3',
+        label: source.label,
+        linkIndex: source.linkIndex,
+      };
+      if (needsTrim) {
+        return trimLocalBlobSource(cachedSource, tune, options, bounds);
+      }
+      return cachedSource;
+    }
+  }
 
   if (!needsTrim) {
     if (source.srcType !== 'recording') {

@@ -191,8 +191,14 @@ export function persistMediaAnalysisFieldSuggestions(tuneId, formatted, tune, op
   const cached = []
   let appliedAny = false
   let appliedOnlyCount = 0
+  const requestedKinds = options && Array.isArray(options.kinds) ? options.kinds : null
+  const kinds = requestedKinds && requestedKinds.length
+    ? MEDIA_ANALYSIS_SUGGESTION_KINDS.filter(function(kind) {
+      return requestedKinds.indexOf(kind) >= 0
+    })
+    : MEDIA_ANALYSIS_SUGGESTION_KINDS
 
-  MEDIA_ANALYSIS_SUGGESTION_KINDS.forEach(function(kind) {
+  kinds.forEach(function(kind) {
     const analysisCandidate = buildAnalysisCandidate(kind, formatted, tune, options)
     if (!analysisCandidate) return
 

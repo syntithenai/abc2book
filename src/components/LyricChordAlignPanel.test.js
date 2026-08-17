@@ -11,7 +11,14 @@ globalThis.IS_REACT_ACT_ENVIRONMENT = true
 jest.mock('react-bootstrap', function() {
   function Modal(props) {
     if (!props.show) return null
-    return <div data-testid={props['data-testid'] || 'modal'}>{props.children}</div>
+    return (
+      <div data-testid={props['data-testid'] || 'modal'}>
+        {typeof props.onHide === 'function' ? (
+          <button type="button" data-testid="modal-hide" onClick={props.onHide} />
+        ) : null}
+        {props.children}
+      </div>
+    )
   }
   Modal.Header = function Header(props) { return <div>{props.children}</div> }
   Modal.Title = function Title(props) { return <div>{props.children}</div> }
@@ -87,8 +94,12 @@ describe('LyricChordAlignPanel', function() {
     act(function() {
       addButtons[0].dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
-    expect(container.querySelector('[data-testid="lyric-chord-edit-dialog"]')).toBeTruthy()
-    expect(container.textContent).toContain('Add chord')
+    const dialog = container.querySelector('[data-testid="lyric-chord-edit-dialog"]')
+    expect(dialog).toBeTruthy()
+    expect(dialog.textContent).toContain('Add chord')
+    expect(dialog.querySelector('[data-testid="lyric-chord-dialog-save"]')).toBeNull()
+    expect(dialog.textContent).not.toMatch(/\bCancel\b/)
+    expect(dialog.textContent).not.toMatch(/\bAdd\b(?! chord)/)
     act(function() { root.unmount() })
   })
 
@@ -397,7 +408,7 @@ describe('LyricChordAlignPanel', function() {
     act(function() { root.unmount() })
   })
 
-  test('saving a chord on a leading pad stores it before the first word', function() {
+  test('closing the add-chord dialog autosaves a leading-pad chord', function() {
     const container = document.createElement('div')
     const root = createRoot(container)
     const onChange = jest.fn()
@@ -421,7 +432,7 @@ describe('LyricChordAlignPanel', function() {
       input.dispatchEvent(new Event('input', { bubbles: true }))
     })
     act(function() {
-      container.querySelector('[data-testid="lyric-chord-dialog-save"]')
+      container.querySelector('[data-testid="modal-hide"]')
         .dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
     expect(onChange).toHaveBeenCalled()
@@ -513,8 +524,7 @@ describe('LyricChordAlignPanel', function() {
       input.dispatchEvent(new Event('input', { bubbles: true }))
     })
     act(function() {
-      container.querySelector('[data-testid="lyric-chord-dialog-save"]')
-        .dispatchEvent(new MouseEvent('click', { bubbles: true }))
+      input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }))
     })
     expect(onChange).toHaveBeenCalled()
     expect(onChange.mock.calls[onChange.mock.calls.length - 1][0]).toBe('[C]Amazing')

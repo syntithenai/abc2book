@@ -210,39 +210,4 @@ describe('NotationSearchButton', function() {
     expect(String(openSpy.mock.calls[0][0] || '')).toMatch(/^https?:\/\//)
     window.open = originalOpen
   })
-
-  test('selecting a deferred MIDI candidate opens the import wizard', async function() {
-    const onNotation = jest.fn()
-    mockApplyNotationSearchCandidate.mockImplementation(function(candidate, options) {
-      if (options && options.onAbc) {
-        options.onAbc('X:1\nT:Moonlight Sonata\nK:C#m\nC', '', candidate)
-      }
-      return Promise.resolve({ result: { abc: 'X:1\nT:Moonlight Sonata\nK:C#m\nC' } })
-    })
-    renderButton({ onNotation: onNotation })
-    expect(typeof capturedOnAwaiting).toBe('function')
-    act(function() {
-      capturedOnAwaiting({
-        kind: 'notation',
-        candidates: [{
-          title: 'Moonlight Sonata',
-          artist: 'Beethoven',
-          importFormat: 'midi',
-          source: 'midi-resources',
-          sourceUrl: '/midi-resources/Various Artists/Moonlight Sonata (Beethoven).mid',
-        }],
-      })
-    })
-    expect(container.querySelector('[data-testid="notation-picker"]')).not.toBeNull()
-    expect(lastNotationPickerProps).toBeTruthy()
-    await act(async function() {
-      lastNotationPickerProps.onSelect(lastNotationPickerProps.items[1], 1)
-    })
-    expect(mockApplyNotationSearchCandidate).toHaveBeenCalled()
-    const applied = mockApplyNotationSearchCandidate.mock.calls[0][0]
-    expect(applied.importFormat).toBe('midi')
-    expect(applied.sourceUrl).toContain('/midi-resources/')
-    expect(onNotation).toHaveBeenCalled()
-    expect(onNotation.mock.calls[0][0].abc).toMatch(/K:/)
-  })
 })

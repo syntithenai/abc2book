@@ -89,5 +89,7 @@ describe('chordKeyMergeOptions', function() {
   test('applyChordDisplayTranspose spells chords in the transposed key', function() {
     expect(applyChordDisplayTranspose('C | G |', 2, 'C')).toMatch(/D\s*\|\s*A/)
     expect(applyChordDisplayTranspose('C | G |', 0, 'C')).toBe('C | G |')
+    expect(applyChordDisplayTranspose('A | E |', 1, 'Dm')).toMatch(/Bb/)
+    expect(applyChordDisplayTranspose('A | E |', 1, 'Dm')).not.toMatch(/A#/)
   })
 })

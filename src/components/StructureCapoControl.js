@@ -63,7 +63,11 @@ export default function StructureCapoControl(props) {
         aria-label="Capo options"
         className="structure-capo-menu-toggle"
       />
-      <Dropdown.Menu align="end" className="structure-capo-menu">
+      <Dropdown.Menu
+        align="end"
+        className="structure-capo-menu"
+        popperConfig={{ strategy: 'fixed' }}
+      >
         <Dropdown.Header>Guitar shapes</Dropdown.Header>
         {quickOptions.map(function(option) {
           const active = capoEnabled && capoOffset === option.offset

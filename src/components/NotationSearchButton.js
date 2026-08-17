@@ -260,7 +260,7 @@ export default function NotationSearchButton({
     </Button>
   ) : null
 
-  function runMidiFallbackSearch() {
+  function runAbcFallbackSearch() {
     if (!canSearch || busy) return
     setError('')
     setManualCandidates([])
@@ -386,7 +386,7 @@ export default function NotationSearchButton({
       <>
         {musescorePaywalled ? (
           <Alert variant="info" className="mt-2 mb-0">
-            MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.
+            MuseScore matches require PRO or purchase; try ABC or MusicXML sources instead.
           </Alert>
         ) : null}
         {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
@@ -477,7 +477,7 @@ export default function NotationSearchButton({
         <LockedSourcePasteModal
           show={!!lockedModalCandidate}
           onHide={function() { setLockedModalCandidate(null) }}
-          onAbandon={function() { runMidiFallbackSearch() }}
+          onAbandon={function() { runAbcFallbackSearch() }}
           candidate={lockedModalCandidate}
           searchTitle={title}
           searchArtist={artist}

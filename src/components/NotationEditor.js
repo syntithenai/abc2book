@@ -1,7 +1,9 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Row, Col } from 'react-bootstrap';
+import { toast } from 'react-toastify';
 import Abc from './Abc';
+import AbcTransposeDropdown from './AbcTransposeDropdown';
 import NotationToolbar from './NotationToolbar';
 import NotationPlaybackControls from './NotationPlaybackControls';
 import NotationInputHandler from './NotationInputHandler';
@@ -22,6 +24,7 @@ import NotationInlineSignatureModal from './NotationInlineSignatureModal';
 import useAbcjsParser from '../useAbcjsParser';
 import useNotationCheck from '../useNotationCheck';
 import { voiceBodiesFromTune } from '../notationCheckSnapshot';
+import { transposeTuneAbcNotes } from '../abcTuneTranspose';
 import NotationIssuesPanel from './NotationIssuesPanel';
 import AbcNotesTextarea from './AbcNotesTextarea';
 import NotationPasteModeModal from './NotationPasteModeModal';
@@ -469,6 +472,7 @@ export default function NotationEditor(props) {
   const [showWizard, setShowWizard] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [showWalkthrough, setShowWalkthrough] = useState(false);
+  const [transposePreview, setTransposePreview] = useState(false);
   const [showVirtualPiano, setShowVirtualPiano] = useState(function() {
     try {
       return localStorage.getItem('notationVirtualPianoVisible') === 'true';
@@ -2827,9 +2831,12 @@ export default function NotationEditor(props) {
     }
   }, [tuneMeta.meter, props.voiceKey]);
 
-  const handleFixTuneSaved = useCallback(function(nextTune) {
+  const handleFixTuneSaved = useCallback(function(nextTune, historyLabel) {
     if (!props.tunebook || !nextTune) return;
-    props.tunebook.saveTune(nextTune, false, { historyLabel: 'Notation fix', immediate: true });
+    props.tunebook.saveTune(nextTune, false, {
+      historyLabel: historyLabel || 'Notation fix',
+      immediate: true,
+    });
     const voiceNames = props.voiceNames || [];
     const fixedBodies = voiceBodiesFromTune(nextTune, voiceNames);
     const activeKey = props.voiceKey;
@@ -2857,7 +2864,28 @@ export default function NotationEditor(props) {
     if (props.forceRefresh) props.forceRefresh();
   }, [props.tunebook, props.forceRefresh, props.voiceNames, props.voiceKey, notationCheck, dispatch]);
 
+  const transposeAllVoicesAbc = useCallback(function(semitones) {
+    if (!props.tune || !props.tunebook || !props.tunebook.abcTools) return;
+    const snapshot = JSON.parse(JSON.stringify(props.tune));
+    const drafts = abcDraftsRef.current || {};
+    Object.keys(drafts).forEach(function(vk) {
+      if (!snapshot.voices || !snapshot.voices[vk]) return;
+      snapshot.voices[vk] = Object.assign({}, snapshot.voices[vk], {
+        notes: String(drafts[vk] || '').split('\n'),
+      });
+    });
+    const next = transposeTuneAbcNotes(snapshot, props.tunebook.abcTools, semitones);
+    if (!next) {
+      toast.info('Could not transpose notation');
+      return;
+    }
+    handleFixTuneSaved(next, 'Transpose notation');
+  }, [props.tune, props.tunebook, handleFixTuneSaved]);
+
   const abcPreviewAbc = displayAbc;
+  const abcPreviewVisualTranspose = transposePreview
+    ? (Number(props.tune && props.tune.transpose) || 0)
+    : 0;
 
   const backgroundPianoRollEvents = useMemo(function() {
     const voiceNames = props.voiceNames || [];
@@ -3389,6 +3417,15 @@ export default function NotationEditor(props) {
                 onDeleteVoice={props.onDeleteVoice}
                 onReorderVoices={props.onReorderVoices}
               />
+              {isAbcView ? (
+                <AbcTransposeDropdown
+                  tunebook={props.tunebook}
+                  size="lg"
+                  onTransposeAbc={transposeAllVoicesAbc}
+                  transposePreview={transposePreview}
+                  onTransposePreviewChange={setTransposePreview}
+                />
+              ) : null}
             </>
           ) : null}
           {props.historyControls ? (
@@ -3692,6 +3729,7 @@ export default function NotationEditor(props) {
                   playbackEngine={false}
                   tunebook={props.tunebook}
                   abc={abcPreviewAbc}
+                  visualTranspose={abcPreviewVisualTranspose}
                   onWarnings={props.onWarnings}
                   meter={tuneMeta.meter}
                   onClick={handleAbcPreviewClick}

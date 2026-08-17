@@ -1,4 +1,34 @@
-import { isVeryCloseNotationTitleMatch, shouldAutoApplyNotationCandidate, hasSolidAbcNotationMatch, pickRankedSolidAbcNotationCandidate } from './notationMatchUtils'
+import {
+  buildThesessionSearchQueries,
+  fuzzyNotationTitleSimilarity,
+  isVeryCloseNotationTitleMatch,
+  scoreNotationCandidate,
+  shouldAutoApplyNotationCandidate,
+  hasSolidAbcNotationMatch,
+  pickRankedSolidAbcNotationCandidate,
+} from './notationMatchUtils'
+
+describe('notation fuzzy title matching', function() {
+  test('buildThesessionSearchQueries retries typo variants after stripping tune type', function() {
+    const queries = buildThesessionSearchQueries('Tarboulton reel')
+    expect(queries).toContain('Tarboulton')
+    expect(queries.some(function(query) {
+      return String(query).toLowerCase() === 'tarbolton'
+    })).toBe(true)
+  })
+
+  test('scoreNotationCandidate matches common Tarbolton typo', function() {
+    const candidate = {
+      source: 'thesession.org',
+      title: 'The Tarbolton (reel)',
+      tuneMeta: { name: 'The Tarbolton' },
+      abc: 'X:1\nK:Edor\n|:D|',
+    }
+    expect(scoreNotationCandidate(candidate, 'Tarboulton reel', '')).toBeGreaterThanOrEqual(58)
+    expect(fuzzyNotationTitleSimilarity('Tarboulton reel', 'The Tarbolton')).toBeGreaterThan(0.85)
+    expect(isVeryCloseNotationTitleMatch(candidate, 'Tarboulton reel')).toBe(false)
+  })
+})
 
 describe('shouldAutoApplyNotationCandidate', function() {
   test('rejects The Session notation for named-artist songs', function() {
@@ -74,7 +104,7 @@ describe('shouldAutoApplyNotationCandidate', function() {
     }, 'Song', 'Writer', { songType: 'song' })).toBe(false)
   })
 
-  test('fallback pool requires exact title and accepts close midi matches', function() {
+  test('fallback pool requires exact title and rejects midi matches', function() {
     const candidate = {
       source: 'bitmidi.com',
       title: "Hell's Bells",
@@ -93,7 +123,7 @@ describe('shouldAutoApplyNotationCandidate', function() {
     expect(shouldAutoApplyNotationCandidate(candidate, "Hell's Bells", 'AC/DC', {
       songType: 'song',
       fallbackPool: true,
-    })).toBe(true)
+    })).toBe(false)
   })
 
   test('isVeryCloseNotationTitleMatch requires exact normalized title', function() {

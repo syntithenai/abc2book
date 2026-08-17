@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, stripLyricBeatMarkersPreservingChordPro, lyricLinesHaveBeatMarkers, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, stripLyricBeatMarkersPreservingChordPro, lyricLinesHaveBeatMarkers, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, applyChordProPatternToLine, applyRepeatedSectionChordPro, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, splitChordChartLineIntoBars, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
 import { normalizeLyricStructure } from './lyricStructureUtils';
 
 describe('chordSheetUtils', function() {
@@ -137,6 +137,10 @@ describe('chordSheetUtils', function() {
     expect(isSectionHeader('- Instrumental')).toBe(true);
     expect(isSectionHeader('— Solo (x 2)')).toBe(true);
     expect(isSectionHeader('# I really like Christmas')).toBe(true);
+    expect(isSectionHeader('[]')).toBe(true);
+    expect(isSectionHeader('#')).toBe(true);
+    expect(isSectionHeader('# @1')).toBe(true);
+    expect(isSectionHeader('# @2')).toBe(true);
     expect(isSectionHeader('first verse words here')).toBe(false);
   });
 
@@ -173,8 +177,37 @@ describe('chordSheetUtils', function() {
       'hook line one',
     ];
     expect(normalizeLyricBlocks(lyrics)).toEqual([
-      ['# Verse I', 'first half one', 'first half two', 'second half one', 'second half two'],
+      ['# Verse I', 'first half one', 'first half two', '', 'second half one', 'second half two'],
       ['# Chorus', 'hook line one'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks keeps a blank before a mid-verse tag line (Howdy Howdy)', function() {
+    const lyrics = [
+      '# verse @1',
+      'Tell me what did the riddle say to the song?',
+      "The Devil he's blowing reveille and we ain't got long",
+      "Let's play the Spider Bit The Baby-O",
+      'Last time, last rhyme, one more for the road',
+      '',
+      'One more for the road',
+      '# chorus @3',
+      'You and me are always gonna be howdy howdy',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      [
+        '# verse @1',
+        'Tell me what did the riddle say to the song?',
+        "The Devil he's blowing reveille and we ain't got long",
+        "Let's play the Spider Bit The Baby-O",
+        'Last time, last rhyme, one more for the road',
+        '',
+        'One more for the road',
+      ],
+      [
+        '# chorus @3',
+        'You and me are always gonna be howdy howdy',
+      ],
     ]);
   });
 
@@ -629,6 +662,26 @@ describe('chordSheetUtils', function() {
     ]);
   });
 
+  test('splitChordChartIntoBlocks splits at trailing repeat and double-bar section ends', function() {
+    expect(splitChordChartIntoBlocks('C | G :|\nAm | F :|')).toEqual([
+      'C | G :|',
+      'Am | F :|',
+    ]);
+    expect(splitChordChartIntoBlocks('C | G ||\nAm | F ||')).toEqual([
+      'C | G ||',
+      'Am | F ||',
+    ]);
+    expect(splitChordChartIntoBlocks('C | G :|:\nAm | F :|')).toEqual([
+      'C | G :|:',
+      'Am | F :|',
+    ]);
+  });
+
+  test('splitChordChartIntoBlocks keeps volta :| with following [2 in one block', function() {
+    const chart = '|: C | G | [1 Am | F :|\n[2 G | C |';
+    expect(splitChordChartIntoBlocks(chart)).toEqual([chart]);
+  });
+
   test('chartBlockHasChords ignores bar-only blocks', function() {
     expect(chartBlockHasChords('F | Bb | C |')).toBe(true);
     expect(chartBlockHasChords('| | | |')).toBe(false);
@@ -724,6 +777,20 @@ describe('chordSheetUtils', function() {
     expect(stripChartStructureMarkers('|: C G | [1 Am F :| [2 G C |')).toBe('C G | Am F | G C |');
   });
 
+  test('splitChordChartLineIntoBars treats || as a section-end barline, not an empty bar', function() {
+    expect(splitChordChartLineIntoBars('G | G | G | G | Dm | Dm ||')).toEqual({
+      bars: ['G ', ' G ', ' G ', ' G ', ' Dm ', ' Dm '],
+      barlines: ['|', '|', '|', '|', '|', '||'],
+    });
+    expect(splitChordChartLineIntoBars('A | A | A||')).toEqual({
+      bars: ['A ', ' A ', ' A'],
+      barlines: ['|', '|', '||'],
+    });
+    expect(stripChartStructureMarkers('G | G | Dm ||')).toBe('G | G | Dm ||');
+    expect(stripChartStructureMarkers('G | G | Dm ||')).not.toMatch(/\|\s+\|/);
+    expect(stripChartStructureMarkers('C G | Am F :|')).toBe('C G | Am F :|');
+  });
+
   test('parseChartStructureMarkers extracts volta segments', function() {
     const parsed = parseChartStructureMarkers('|: C G | [1 Am F :| [2 G C |');
     expect(parsed.strainStartBarline).toBe('|:');
@@ -743,6 +810,22 @@ describe('chordSheetUtils', function() {
     });
     expect(decorated).toMatch(/\|:.*\[1.*:\|.*\[2/);
     expect(stripChartStructureMarkers(decorated)).toBe('C G | Am F | G C |');
+  });
+
+  test('decorateChartWithRepeatMarks keeps ABC system line breaks and pulse dots', function() {
+    const decorated = decorateChartWithRepeatMarks(
+      'C . . . | G . . . |\nAm . . . | F . . . |',
+      { strainEndBarline: '||' }
+    );
+    expect(decorated).toBe('C . . . | G . . . |\nAm . . . | F . . . ||');
+  });
+
+  test('formatSectionChartForEditor keeps extracted chart newlines when adding ||', function() {
+    const editor = formatSectionChartForEditor({
+      chart: 'C . . . | G . . . |\nAm . . . | F . . . |',
+      strainEndBarline: '||',
+    });
+    expect(editor).toBe('C . . . | G . . . |\nAm . . . | F . . . ||');
   });
 
   test('formatSectionChartForEditor and parseSectionChartFromEditor round-trip voltas', function() {
@@ -1028,7 +1111,7 @@ describe('chordSheetUtils', function() {
     expect(blocks[3].header).toBe('[Verse 2]');
   });
 
-  test('inferSectionTypesFromLineCounts labels a third line-count group as bridge', function() {
+  test('inferSectionTypesFromLineCounts leaves a third line-count group untitled', function() {
     const blocks = [
       { lyricLines: ['a', 'b', 'c', 'd', 'e', 'f'], type: null, header: null },
       { lyricLines: ['g', 'h', 'i', 'j'], type: null, header: null },
@@ -1039,9 +1122,9 @@ describe('chordSheetUtils', function() {
     ];
     inferSectionTypesFromLineCounts(blocks);
     expect(blocks.map(function(b) { return b.type; })).toEqual([
-      'verse', 'chorus', 'verse', 'chorus', 'bridge', 'chorus',
+      'verse', 'chorus', 'verse', 'chorus', null, 'chorus',
     ]);
-    expect(blocks[4].header).toBe('[Bridge]');
+    expect(blocks[4].header).toBeNull();
   });
 
   test('inferSectionTypesFromLineCounts skips when only two stanzas differ (no return to verse)', function() {
@@ -1193,7 +1276,7 @@ describe('chordSheetUtils', function() {
     ]);
   });
 
-  test('inferSectionTypesFromLineCounts labels bridge when verse and chorus lengths are known', function() {
+  test('inferSectionTypesFromLineCounts leaves leftover stanzas untitled when verse and chorus lengths are known', function() {
     const blocks = [
       { lyricLines: ['a', 'b', 'c', 'd'], type: 'verse', header: '[Verse]' },
       { lyricLines: ['e', 'f', 'g', 'h', 'i', 'j'], type: 'chorus', header: '[Chorus]' },
@@ -1203,9 +1286,9 @@ describe('chordSheetUtils', function() {
     ];
     inferSectionTypesFromLineCounts(blocks);
     expect(blocks.map(function(b) { return b.type; })).toEqual([
-      'verse', 'chorus', 'verse', 'chorus', 'bridge',
+      'verse', 'chorus', 'verse', 'chorus', null,
     ]);
-    expect(blocks[4].header).toBe('[Bridge]');
+    expect(blocks[4].header).toBeNull();
   });
 
   test('inferSectionTypesFromChartFingerprints labels by matching chord sequences', function() {
@@ -1333,6 +1416,37 @@ describe('chordSheetUtils', function() {
     expect(chordsUsed[0]).toBe('F');
   });
 
+  test('mergeChordsIntoLyricLines keeps a blank lyric line as an empty token row', function() {
+    const merged = mergeChordsIntoLyricLines(
+      ['Last time last rhyme', '', 'One more for the road'],
+      'Dm | C | Bb | F |'
+    );
+    expect(merged).toHaveLength(3);
+    expect(merged[1]).toEqual([]);
+    expect(merged[0].some(function(t) { return t.text && t.text.indexOf('Last') >= 0; })).toBe(true);
+    expect(merged[2].some(function(t) { return t.text && t.text.indexOf('One') >= 0; })).toBe(true);
+  });
+
+  test('mergeAlignedLyricBlockChords keeps a blank between equal-length dual sections', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C | G |\n\nAm | F |',
+      lyricLines: [
+        'one aa', 'one bb', 'one cc', 'one dd',
+        '',
+        'two aa', 'two bb', 'two cc', 'two dd',
+      ],
+    });
+    expect(merged).not.toBeNull();
+    const blankIndex = merged.findIndex(function(line) { return !line || line.length === 0; });
+    expect(blankIndex).toBeGreaterThan(0);
+    const firstText = merged.slice(0, blankIndex).flat().map(function(t) { return t.text; }).join('');
+    const secondText = merged.slice(blankIndex + 1).flat().map(function(t) { return t.text; }).join('');
+    expect(firstText).toContain('one');
+    expect(secondText).toContain('two');
+    expect(firstText).not.toContain('two');
+  });
+
   test('mergeChordsIntoLyricLines can honor an explicit anchor callback', function() {
     const merged = mergeChordsIntoLyricLines(
       ['I really like Christmas'],
@@ -1401,19 +1515,19 @@ describe('chordSheetUtils', function() {
     expect(aligned[0].extraChart).toBe('ORPHANCHORDS');
   });
 
-  test('attaches orphan chords before last lyric block with no mapped chart', function() {
+  test('attaches orphan chords to last lyric block with no mapped chart as its chart', function() {
     const lyrics = [
       '[Verse 1]', 'verse words', '',
       'outro words with no section header',
     ];
-    // One typed section maps to first chart; second chart is orphan.
-    // Second lyric block has no type/chart → receives orphan as extraChart.
+    // One typed section maps to first chart; leftover untitled stanza takes the next strain.
     const chordBlocks = ['VERSECHORDS', 'OUTROCHORDS'];
     const aligned = alignChordBlocksToLyrics(lyrics, chordBlocks);
     expect(aligned.length).toBe(2);
     expect(aligned[0].chart).toBe('VERSECHORDS');
-    expect(aligned[1].chart).toBe('');
-    expect(aligned[1].extraChart).toBe('OUTROCHORDS');
+    expect(aligned[1].type).toBeNull();
+    expect(aligned[1].chart).toBe('OUTROCHORDS');
+    expect(aligned[1].extraChart).toBeFalsy();
   });
 
   test('normalizeLyricBlocks keeps wordless repeat header as its own block', function() {
@@ -1448,6 +1562,82 @@ describe('chordSheetUtils', function() {
     expect(expanded.slice(lastChorus)).toEqual([
       '# Chorus', 'chorus line one', 'chorus line two',
     ]);
+  });
+
+  test('applyChordProPatternToLine copies chords onto matching word indexes', function() {
+    expect(applyChordProPatternToLine(
+      '[C]In our younger days, we are taught to save',
+      'Tendons, broken teeth, the aches and pains'
+    )).toBe('[C]Tendons, broken teeth, the aches and pains');
+    expect(applyChordProPatternToLine(
+      '[C]Putting it away to compound for a rainy [D]day',
+      'Feeling so much less like energetic play'
+    )).toMatch(/^\[C\]Feeling/);
+    expect(applyChordProPatternToLine(
+      '[C]Putting it away to compound for a rainy [D]day',
+      'Feeling so much less like energetic play'
+    )).toMatch(/\[D\]play$/);
+    expect(applyChordProPatternToLine('[C]already [D]chorded', '[Am]keep these')).toBe('[Am]keep these');
+  });
+
+  test('applyRepeatedSectionChordPro fills later verses from the first chorded verse (Worthwhile)', function() {
+    const lyrics = [
+      '# Chorus',
+      '[C]Health and time and love',
+      '',
+      '# Verse I',
+      '[C]In our younger days, we are taught to save',
+      '[C]Putting it away to compound for a rainy [D]day',
+      '[C]All the time to play but not enough to pay for all the [D]fancy things.',
+      '',
+      'As we [C]grow and take our form, find our place,',
+      '[C]choices make it harder to replace the now with [D]what could be',
+      '[C]I hope that you are living true existing as what is really meaningful for you',
+      '',
+      '# Chorus',
+      '',
+      '# Verse II',
+      'Tendons, broken teeth, the aches and pains',
+      'Feeling so much less like energetic play',
+      'Going out with folks seems hard when I can cosy up and Netflix binge.',
+      '',
+      'The people that I love, I almost never see',
+      'who generated many special treasured memories',
+      'Now coffers full, I really wish I spent much more enriching all of my experience',
+      '',
+      '# Chorus',
+      '',
+      '# Verse III',
+      'smoothing of consumption, from age to youth',
+      'compounding of our memory dividend, the only truth',
+      'when movement fails we still exist within our minds, with truths yet still to find',
+    ];
+    const filled = applyRepeatedSectionChordPro(expandRepeatedSectionLyrics(lyrics));
+    const verse2 = filled.indexOf('# Verse II');
+    const verse3 = filled.indexOf('# Verse III');
+    expect(verse2).toBeGreaterThan(0);
+    expect(verse3).toBeGreaterThan(verse2);
+    expect(filled[verse2 + 1]).toMatch(/^\[C\]Tendons/);
+    expect(filled[verse2 + 2]).toMatch(/\[C\]/);
+    expect(filled[verse2 + 2]).toMatch(/\[D\]/);
+    expect(filled[verse3 + 1]).toMatch(/^\[C\]smoothing/);
+    expect(filled.some(function(line) {
+      return /\[C\]Health and time/.test(line);
+    })).toBe(true);
+  });
+
+  test('applyRepeatedSectionChordPro does not copy chords across different @N pins', function() {
+    const lyrics = [
+      '# v1 @2',
+      '[Dm]wade in the water',
+      '',
+      '# v2 @3',
+      'duck and dive when the gulls attack',
+    ];
+    const filled = applyRepeatedSectionChordPro(lyrics);
+    const v2 = filled.find(function(line) { return /duck and dive/.test(line); });
+    expect(v2).toBe('duck and dive when the gulls attack');
+    expect(linesHaveChordProInlineChords([v2])).toBe(false);
   });
 
   test('section marker helpers detect chart and ABC forms', function() {
@@ -1711,6 +1901,54 @@ describe('chordSheetUtils', function() {
     expect(aligned[2]).toMatchObject({ type: 'bridge', chart: bridgeChart, chartRevisit: false });
   });
 
+  test('alignChordBlocksToLyrics @N on later verses shows distinct charts (Run Dotteral Run)', function() {
+    const chorusChart = 'F | C | G | Dm |';
+    const v1Chart = 'Dm | Dm | Dm | Gm Dm |';
+    const v2Chart = 'C | G | C | Dm |';
+    const v3Chart = 'C F | C F | A# F | C F |';
+    const lyrics = [
+      '# chorus',
+      '[F] run [C]dotteral [G]run',
+      '',
+      '# v1 (wade in the water) @2',
+      '[Dm]wade in the water',
+      '',
+      '# chorus',
+      '',
+      '# v2  @3',
+      '[C]duck and dive when the [G]gulls attack',
+      '',
+      '# chorus',
+      '',
+      '# v3 (sin dje dje) @4',
+      '[C]investment [F]in our [C]tiny [F]eggs',
+      '',
+      '# chorus',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, [chorusChart, v1Chart, v2Chart, v3Chart], {
+      melodyNoteLines: [
+        '"F"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"Dm"zzzzzzzz||',
+        '"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Gm"zzzz"Dm"zzzz||',
+        '"C"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|"Dm"zzzzzzzz||',
+        '"C"zzzz"F"zzzz|"C"zzzz"F"zzzz|"A#"zzzz"F"zzzz|"C"zzzz"F"zzzz||',
+      ],
+    });
+    expect(aligned.map(function(b) {
+      return { type: b.type, chartRevisit: b.chartRevisit };
+    })).toEqual([
+      { type: 'chorus', chartRevisit: false },
+      { type: 'verse', chartRevisit: false },
+      { type: 'chorus', chartRevisit: true },
+      { type: 'verse', chartRevisit: false },
+      { type: 'chorus', chartRevisit: true },
+      { type: 'verse', chartRevisit: false },
+      { type: 'chorus', chartRevisit: true },
+    ]);
+    expect(aligned[1]).toMatchObject({ chart: v1Chart, melodyStrainIndex: 1 });
+    expect(aligned[3]).toMatchObject({ chart: v2Chart, melodyStrainIndex: 2 });
+    expect(aligned[5]).toMatchObject({ chart: v3Chart, melodyStrainIndex: 3 });
+  });
+
   test('rebalanceChartPulseSlots adjusts slots on meter change', function() {
     const { rebalanceChartPulseSlots } = require('./chordSheetUtils');
     const result = rebalanceChartPulseSlots(
@@ -1768,5 +2006,156 @@ describe('chordSheetUtils', function() {
     const dots = (afterMeter.match(/\./g) || []).length;
     expect(dots).toBeGreaterThanOrEqual(5);
     expect(dots).toBeLessThanOrEqual(6);
+  });
+
+  test('alignChordBlocksToLyrics assigns leftover untitled stanzas the next unused chart', function() {
+    const lyrics = [
+      'v1a', 'v1b', 'v1c', 'v1d', 'v1e', 'v1f', '',
+      'c1a', 'c1b', 'c1c', 'c1d', '',
+      'v2a', 'v2b', 'v2c', 'v2d', 'v2e', 'v2f', '',
+      'c2a', 'c2b', 'c2c', 'c2d', '',
+      'x1a', 'x1b', 'x1c', 'x1d', 'x1e', '',
+      'c3a', 'c3b', 'c3c', 'c3d',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS', 'LEFTOVERCHORDS']);
+    expect(aligned.map(function(b) { return b.type; })).toEqual([
+      'verse', 'chorus', 'verse', 'chorus', null, 'chorus',
+    ]);
+    expect(aligned[4].chart).toBe('LEFTOVERCHORDS');
+    expect(aligned[4].header).toBeFalsy();
+  });
+
+  test('untitled [] and # @N headers start sections with empty display titles', function() {
+    const lyrics = [
+      '[]',
+      'untitled words',
+      '',
+      '# @1',
+      'pinned untitled',
+      '',
+      '[Chorus]',
+      'chorus words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['FIRSTCHORDS', 'SECONDCHORDS', 'CHORUSCHORDS']);
+    expect(aligned.length).toBe(3);
+    expect(aligned[0].header).toBe('[]');
+    expect(aligned[0].type).toBeNull();
+    expect(aligned[1].header).toBe('# @1');
+    expect(aligned[1].type).toBeNull();
+    expect(aligned[2].type).toBe('chorus');
+  });
+
+  test('normalizeLyricBlocks does not absorb unlabeled lyrics across a double blank', function() {
+    const lyrics = [
+      '[Verse]',
+      'verse line one',
+      'verse line two',
+      '',
+      '',
+      'untitled after double blank',
+      '',
+      '[Chorus]',
+      'chorus words',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['[Verse]', 'verse line one', 'verse line two'],
+      ['untitled after double blank'],
+      ['[Chorus]', 'chorus words'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks still absorbs a single-blank tag into the preceding verse', function() {
+    const lyrics = [
+      '[Verse]',
+      'verse line one',
+      'verse line two',
+      '',
+      'One more for the road',
+      '',
+      '[Chorus]',
+      'chorus words',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['[Verse]', 'verse line one', 'verse line two', '', 'One more for the road'],
+      ['[Chorus]', 'chorus words'],
+    ]);
+  });
+
+  test('mergeAlignedLyricBlockChords pairs two lyrics per chord line when lyrics outnumber chords', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C | G |\nAm | F |',
+      lyricLines: ['one aa', 'one bb', 'two aa', 'two bb'],
+    });
+    expect(merged).toHaveLength(4);
+    expect(merged[0].some(function(t) { return t.chord === 'C'; })).toBe(true);
+    expect(merged[1].some(function(t) { return t.chord === 'G'; })).toBe(true);
+    expect(merged[2].some(function(t) { return t.chord === 'Am'; })).toBe(true);
+    expect(merged[3].some(function(t) { return t.chord === 'F'; })).toBe(true);
+  });
+
+  test('mergeAlignedLyricBlockChords maps 1:1 when chord lines cover every lyric', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C |\nG |',
+      lyricLines: ['one aa', 'two bb'],
+    });
+    expect(merged).toHaveLength(2);
+    expect(merged[0].some(function(t) { return t.chord === 'C'; })).toBe(true);
+    expect(merged[1].some(function(t) { return t.chord === 'G'; })).toBe(true);
+  });
+
+  test('mergeAlignedLyricBlockChords leaves a trailing lyric bare when a fifth line is leftover', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C | G |\nAm | F |',
+      lyricLines: ['one aa', 'one bb', 'two aa', 'two bb', 'bare line here'],
+    });
+    expect(merged).toHaveLength(5);
+    expect(merged[4].every(function(t) { return !t.chord; })).toBe(true);
+    expect(merged[4].some(function(t) { return String(t.text).indexOf('bare') >= 0; })).toBe(true);
+  });
+
+  test('mergeAlignedLyricBlockChords puts extra chord lines after the lyrics', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C | G |\nAm | F |\nDm |',
+      lyricLines: ['one aa', 'one bb', 'two aa', 'two bb'],
+    });
+    expect(merged.length).toBeGreaterThan(4);
+    expect(merged.slice(0, 4).every(function(row) {
+      return row.some(function(t) { return t.text && String(t.text).trim(); });
+    })).toBe(true);
+    const extra = merged.slice(4);
+    expect(extra.length).toBe(1);
+    expect(extra[0].some(function(t) { return t.chord === 'Dm'; })).toBe(true);
+    expect(extra[0].every(function(t) { return !String(t.text || '').trim(); })).toBe(true);
+  });
+
+  test('mergeAlignedLyricBlockChords uses 1:1 then extras when chord lines exceed lyrics', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C |\nG |\nAm |\nF |\nDm |',
+      lyricLines: ['one aa', 'two bb', 'three cc', 'four dd'],
+    });
+    expect(merged).toHaveLength(5);
+    expect(merged[0].some(function(t) { return t.chord === 'C'; })).toBe(true);
+    expect(merged[3].some(function(t) { return t.chord === 'F'; })).toBe(true);
+    expect(merged[4].some(function(t) { return t.chord === 'Dm'; })).toBe(true);
+    expect(merged[4].every(function(t) { return !String(t.text || '').trim(); })).toBe(true);
+  });
+
+  test('mergeAlignedLyricBlockChords skips internal blank lyrics when pairing chords', function() {
+    const merged = mergeAlignedLyricBlockChords({
+      inlineChords: true,
+      chart: 'C | G |\nAm | F |',
+      lyricLines: ['one aa', 'one bb', '', 'two aa', 'two bb'],
+    });
+    expect(merged).toHaveLength(5);
+    expect(merged[2]).toEqual([]);
+    expect(merged[0].some(function(t) { return t.chord === 'C'; })).toBe(true);
+    expect(merged[1].some(function(t) { return t.chord === 'G'; })).toBe(true);
+    expect(merged[3].some(function(t) { return t.chord === 'Am'; })).toBe(true);
+    expect(merged[4].some(function(t) { return t.chord === 'F'; })).toBe(true);
   });
 });

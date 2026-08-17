@@ -235,10 +235,6 @@ export default function LyricChordAlignPanel(props) {
     })
   }
 
-  function closeChordDialog() {
-    setChordDialog(null)
-  }
-
   function saveChordDialog() {
     if (!chordDialog) return
     const row = rowsRef.current[chordDialog.rowIndex]
@@ -920,7 +916,7 @@ export default function LyricChordAlignPanel(props) {
       {newLyricAfterIndex() === 'end' ? renderInlineLyricEditorRow(lyricStripeCount) : null}
       <Modal
         show={!!chordDialog}
-        onHide={closeChordDialog}
+        onHide={saveChordDialog}
         centered
         autoFocus={false}
         restoreFocus={false}
@@ -945,7 +941,7 @@ export default function LyricChordAlignPanel(props) {
                 setChordDialog(Object.assign({}, chordDialog, { chord: e.target.value }))
               }}
               onKeyDown={function(e) {
-                if (e.key === 'Enter') {
+                if (e.key === 'Enter' || e.key === 'Escape') {
                   e.preventDefault()
                   saveChordDialog()
                 }
@@ -953,21 +949,13 @@ export default function LyricChordAlignPanel(props) {
             />
           </Form.Group>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={closeChordDialog}>Cancel</Button>
-          {chordDialog && chordDialog.anchorIndex >= 0 ? (
+        {chordDialog && chordDialog.anchorIndex >= 0 ? (
+          <Modal.Footer>
             <Button variant="outline-danger" onClick={removeChordFromDialog}>
               Remove
             </Button>
-          ) : null}
-          <Button
-            variant="primary"
-            data-testid="lyric-chord-dialog-save"
-            onClick={saveChordDialog}
-          >
-            {chordDialog && chordDialog.anchorIndex >= 0 ? 'Save' : 'Add'}
-          </Button>
-        </Modal.Footer>
+          </Modal.Footer>
+        ) : null}
       </Modal>
       <Modal
         show={sectionDialogOpen}

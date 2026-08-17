@@ -4,13 +4,13 @@
  * chunked base64 to the content script over a long-lived port.
  */
 
-const EXTENSION_VERSION = '0.1.7'
+const EXTENSION_VERSION = '0.1.8'
 const CHUNK_CHARS = 240000
 // googlevideo throttles un-ranged progressive downloads to ~playback speed;
 // ranged requests (like yt-dlp uses) download at full speed.
 const RANGE_CHUNK_BYTES = 10 * 1024 * 1024
 
-// Prefer ANDROID_VR: progressive URLs are less PO-token gated than ANDROID/IOS.
+// Prefer ANDROID_VR first; DASH itag 251 now 403s, so we also try muxed format 18.
 // Keep IOS/ANDROID as fallbacks with current client versions from yt-dlp.
 const INNERTUBE_CLIENTS = [
   {
@@ -99,20 +99,43 @@ function arrayBufferToBase64(buffer) {
   return btoa(binary)
 }
 
-function pickAudioFormat(streamingData) {
-  const formats = []
-    .concat((streamingData && streamingData.adaptiveFormats) || [])
-    .concat((streamingData && streamingData.formats) || [])
-  const audioOnly = formats.filter(function (f) {
-    if (!f || !f.url) return false
-    if (f.signatureCipher || f.cipher) return false
-    const mime = String(f.mimeType || '')
-    return mime.indexOf('audio/') === 0 || (f.audioQuality && !f.width)
+function isDownloadableUrlFormat(format) {
+  if (!format || !format.url) return false
+  if (format.signatureCipher || format.cipher) return false
+  return true
+}
+
+function isAudioOnlyFormat(format) {
+  const mime = String(format.mimeType || '')
+  return mime.indexOf('audio/') === 0 || (format.audioQuality && !format.width)
+}
+
+function pickAudioFormats(streamingData) {
+  const adaptive = (streamingData && streamingData.adaptiveFormats) || []
+  const progressive = (streamingData && streamingData.formats) || []
+  const all = adaptive.concat(progressive)
+  const audioOnly = all.filter(function (format) {
+    return isDownloadableUrlFormat(format) && isAudioOnlyFormat(format)
   })
   audioOnly.sort(function (a, b) {
     return (Number(b.bitrate) || 0) - (Number(a.bitrate) || 0)
   })
-  return audioOnly[0] || null
+  // android_vr DASH (251 etc.) now 403s without a GVS PO token; muxed 360p still works.
+  const muxed = progressive.filter(function (format) {
+    return isDownloadableUrlFormat(format) && (format.audioQuality || format.audioSampleRate)
+  })
+  muxed.sort(function (a, b) {
+    return (Number(a.width) || 9999) - (Number(b.width) || 9999)
+  })
+  const seen = {}
+  const out = []
+  audioOnly.concat(muxed).forEach(function (format) {
+    const key = String(format.itag || format.url)
+    if (seen[key]) return
+    seen[key] = true
+    out.push(format)
+  })
+  return out
 }
 
 function parseTotalFromContentRange(contentRange) {
@@ -208,8 +231,8 @@ async function fetchYoutubeAudioBytes(videoId) {
         )
         continue
       }
-      const format = pickAudioFormat(player.streamingData)
-      if (!format || !format.url) {
+      const formats = pickAudioFormats(player.streamingData)
+      if (!formats.length) {
         lastError = new Error('No progressive audio URL from ' + client.name)
         continue
       }
@@ -218,26 +241,40 @@ async function fetchYoutubeAudioBytes(videoId) {
         Referer: 'https://www.youtube.com/',
       }
       let buffer = null
-      try {
-        buffer = await downloadAudioBytesRanged(
-          format.url,
-          audioHeaders,
-          Number(format.contentLength) || 0
-        )
-      } catch (rangeError) {
-        // Fall back to the old single un-ranged fetch (slow but reliable).
-        const audioResponse = await fetch(format.url, { headers: audioHeaders })
-        if (!audioResponse.ok) {
-          lastError = new Error('Audio fetch HTTP ' + audioResponse.status + ' (' + client.name + ')')
-          continue
+      let format = null
+      for (let fi = 0; fi < formats.length; fi++) {
+        format = formats[fi]
+        try {
+          buffer = await downloadAudioBytesRanged(
+            format.url,
+            audioHeaders,
+            Number(format.contentLength) || 0
+          )
+        } catch (rangeError) {
+          try {
+            const audioResponse = await fetch(format.url, { headers: audioHeaders })
+            if (!audioResponse.ok) {
+              lastError = new Error(
+                'Audio fetch HTTP ' + audioResponse.status + ' (' + client.name + ')'
+              )
+              buffer = null
+              continue
+            }
+            buffer = await audioResponse.arrayBuffer()
+          } catch (fetchError) {
+            lastError = fetchError
+            buffer = null
+            continue
+          }
         }
-        buffer = await audioResponse.arrayBuffer()
+        if (buffer && buffer.byteLength >= 1024) break
+        buffer = null
       }
       if (!buffer || buffer.byteLength < 1024) {
-        lastError = new Error('Empty audio from ' + client.name)
+        lastError = lastError || new Error('Empty audio from ' + client.name)
         continue
       }
-      const mime = String(format.mimeType || 'audio/mp4').split(';')[0].trim()
+      const mime = String((format && format.mimeType) || 'audio/mp4').split(';')[0].trim()
       return {
         buffer: buffer,
         mime: mime,

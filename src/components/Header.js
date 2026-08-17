@@ -118,6 +118,7 @@ export default function Header(props) {
                 tunes: props.tunes,
                 nowPlayingQueue: props.nowPlayingQueue,
                 setNowPlayingQueue: props.setNowPlayingQueue,
+                playOnceAndStop: isTuneSingleViewPath(location.pathname),
             });
             return;
         }

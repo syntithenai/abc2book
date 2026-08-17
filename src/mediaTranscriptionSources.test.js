@@ -55,4 +55,14 @@ describe('mediaTranscriptionSources', function() {
       mediaKind: 'midi',
     }, 1, tunebook)).toBeNull();
   });
+
+  test('buildLinkedMediaSource classifies youtube without tunebook utils', function() {
+    expect(buildLinkedMediaSource({
+      link: 'https://www.youtube.com/watch?v=4u9InH7ltyE',
+      title: 'Y',
+    }, 0, null)).toMatchObject({
+      srcType: 'youtube',
+      linkIndex: 0,
+    });
+  });
 });

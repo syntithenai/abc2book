@@ -1,6 +1,7 @@
 import { isOwnedMediaLinkUri } from './linkRecording';
 import { resolveLinkPlaybackSrcType } from './mediaLinkSrcType';
 import { linkUriString } from './tuneLinkUri';
+import { isYoutubePlaybackUri } from './youtubePlaybackUri';
 
 export function getLinkedMediaSources(tune, tunebook) {
   const sources = [];
@@ -21,13 +22,15 @@ export function buildLinkedMediaSource(link, index, tunebook) {
   const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink;
   if (resolveLinkPlaybackSrcType(link, isYoutubeLink) === 'midifile') return null;
   const isRecording = isOwnedMediaLinkUri(src);
+  const youtube = (typeof isYoutubeLink === 'function' && isYoutubeLink(src))
+    || isYoutubePlaybackUri(src);
   return {
     id: 'link-' + index,
     kind: 'link',
     src: src,
     srcType: isRecording
       ? 'recording'
-      : (tunebook.utils.isYoutubeLink(src) ? 'youtube' : 'audio'),
+      : (youtube ? 'youtube' : 'audio'),
     label: link.title || ('Linked media ' + (index + 1)),
     detail: src,
     linkIndex: index,

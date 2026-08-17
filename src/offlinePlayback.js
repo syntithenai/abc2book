@@ -2,6 +2,7 @@ import { isLinkMediaCached } from './linkRecording'
 import { getLinkSrcType } from './mediaLinkResolve'
 import {
   resolvePlaybackForItem,
+  tuneHasMidiNotes,
 } from './nowPlayingQueue'
 import { isNavigatorOffline } from './offlineNetwork'
 import { advanceQueueToNextPlayable } from './playlistPlaybackResilience'
@@ -32,7 +33,7 @@ export async function isTuneOfflinePlayable(tune, target, tunebook, isYoutubeLin
   const mode = playbackMode || 'auto'
 
   if (mode === 'midi') {
-    return typeof tunebook.hasNotesOrChords === 'function' && tunebook.hasNotesOrChords(tune)
+    return tuneHasMidiNotes(tune, tunebook)
   }
 
   let resolvedTarget = target
@@ -51,7 +52,7 @@ export async function isTuneOfflinePlayable(tune, target, tunebook, isYoutubeLin
   if (!resolvedTarget) return false
 
   if (resolvedTarget.type === 'midi') {
-    return typeof tunebook.hasNotesOrChords === 'function' && tunebook.hasNotesOrChords(tune)
+    return tuneHasMidiNotes(tune, tunebook)
   }
 
   const linkNum = resolvedTarget.linkNum != null ? resolvedTarget.linkNum : 0

@@ -12,6 +12,7 @@ describe('canonicalChordForKey key-aware spelling', function() {
     expect(utils.canonicalChordForKey('Cm', 'A#')).toBe('Bb')
     expect(utils.canonicalChordForKey('Fm', 'A#')).toBe('Bb')
     expect(utils.canonicalChordForKey('F', 'A#')).toBe('Bb')
+    expect(utils.canonicalChordForKey('Ebm', 'A#')).toBe('Bb')
   })
 
   test('sharp-side keys prefer A# over Bb', function() {
@@ -40,6 +41,21 @@ describe('canonicalChordForKey key-aware spelling', function() {
     const chart = abcjsParser.renderChords(abc, false, 0, 'Dm', '1/8', '4/4')
     expect(chart).toMatch(/Bb/)
     expect(chart).not.toMatch(/A#/)
+  })
+
+  test('renderChords transposing A up a semitone in Dm spells Bb not A#', function() {
+    const abc = [
+      'X:1',
+      'T:Howdy Howdy spelling',
+      'M:4/4',
+      'L:1/8',
+      'K:Dm',
+      '"C#m"zzzzzzzz|"B"zzzz"C#m"zzzz|"A"zzzz"E"zzzz|"B"zzzzzzzz||',
+    ].join('\n')
+    const chart = abcjsParser.renderChords(abc, false, 1, 'Dm', '1/8', '4/4')
+    expect(chart).toMatch(/Bb/)
+    expect(chart).not.toMatch(/A#/)
+    expect(chart).toMatch(/Dm/)
   })
 
   test('modal keys still get spelling preference without chord-symbol key parse', function() {

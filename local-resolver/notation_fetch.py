@@ -580,18 +580,31 @@ async def fetch_text(client, url):
 
 
 async def search_thesession_tunes(client, title):
-    response = await client.get(
-        THESESSION_BASE + "/tunes/search",
-        params={"format": "json", "perpage": 50, "q": title},
-        headers={"User-Agent": BROWSER_USER_AGENT},
-        follow_redirects=True,
-    )
-    response.raise_for_status()
-    data = response.json()
-    tunes = data.get("tunes") if isinstance(data, dict) else []
-    if not isinstance(tunes, list):
-        return []
-    return tunes
+    seen_ids = set()
+    merged = []
+    for query in build_thesession_search_queries(title):
+        response = await client.get(
+            THESESSION_BASE + "/tunes/search",
+            params={"format": "json", "perpage": 50, "q": query},
+            headers={"User-Agent": BROWSER_USER_AGENT},
+            follow_redirects=True,
+        )
+        response.raise_for_status()
+        data = response.json()
+        tunes = data.get("tunes") if isinstance(data, dict) else []
+        if not isinstance(tunes, list):
+            continue
+        for tune in tunes:
+            if not isinstance(tune, dict):
+                continue
+            tune_id = tune.get("id")
+            if not tune_id or tune_id in seen_ids:
+                continue
+            seen_ids.add(tune_id)
+            merged.append(tune)
+        if merged:
+            break
+    return merged
 
 
 async def fetch_thesession_tune(client, tune_id):
@@ -617,7 +630,7 @@ async def collect_thesession_candidates(client, title, artist="", on_progress=No
             continue
         tune_name = str(tune.get("name") or "")
         tune_type = str(tune.get("type") or "")
-        score = score_title_artist_match(tune_name, "", title, artist)
+        score = notation_score_title_artist_match(tune_name, "", title, artist)
         if tune_type:
             score += 5
         scored.append((score, tune))
@@ -769,6 +782,145 @@ def strip_notation_match_decorations(value):
     return text.strip()
 
 
+NOTATION_TUNE_TYPE_RE = re.compile(
+    r"\b(reels?|jigs?|hornpipes?|slip\s*jigs?|polkas?|slides?|strathspeys?|"
+    r"barndances?|mazurkas?|waltzes?|marches?|airs?|songs?|tunes?)\b",
+    re.I,
+)
+
+
+def strip_notation_query_decorations(value):
+    text = strip_notation_match_decorations(value)
+    text = NOTATION_TUNE_TYPE_RE.sub(" ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"^the\s+", "", text, flags=re.I).strip()
+    return text
+
+
+def _notation_title_match_key(value):
+    return normalize_match_text(strip_notation_query_decorations(value))
+
+
+def _levenshtein_distance(left, right):
+    left = str(left or "")
+    right = str(right or "")
+    if left == right:
+        return 0
+    if not left:
+        return len(right)
+    if not right:
+        return len(left)
+    previous = list(range(len(right) + 1))
+    for i, left_char in enumerate(left, start=1):
+        current = [i]
+        for j, right_char in enumerate(right, start=1):
+            insert_cost = current[j - 1] + 1
+            delete_cost = previous[j] + 1
+            replace_cost = previous[j - 1] + (0 if left_char == right_char else 1)
+            current.append(min(insert_cost, delete_cost, replace_cost))
+        previous = current
+    return previous[-1]
+
+
+def _edit_distance_one_variants(word):
+    value = str(word or "").lower()
+    if len(value) < 4:
+        return []
+    variants = []
+    seen = set()
+
+    def push(item):
+        if not item or item == value or len(item) < 4 or item in seen:
+            return
+        seen.add(item)
+        variants.append(item)
+
+    for index in range(len(value)):
+        push(value[:index] + value[index + 1 :])
+    for index in range(len(value) - 1):
+        push(value[:index] + value[index + 1] + value[index] + value[index + 2 :])
+    return variants
+
+
+def build_thesession_search_queries(title):
+    queries = []
+    seen = set()
+
+    def add(query):
+        text = str(query or "").strip()
+        if not text:
+            return
+        key = text.lower()
+        if key in seen:
+            return
+        seen.add(key)
+        queries.append(text)
+
+    base = str(title or "").strip()
+    if not base:
+        return queries
+    add(base)
+
+    stripped = strip_notation_query_decorations(base)
+    if stripped and stripped.lower() != base.lower():
+        add(stripped)
+
+    words = sorted(
+        [word for word in stripped.split() if len(word) >= 4],
+        key=len,
+        reverse=True,
+    )
+    for word in words[:2]:
+        for variant in _edit_distance_one_variants(word):
+            add(variant)
+    return queries[:12]
+
+
+def notation_score_title_artist_match(candidate_title, candidate_artist, title, artist):
+    title_key = _notation_title_match_key(title)
+    artist_key = normalize_match_text(artist)
+    candidate_title_key = _notation_title_match_key(candidate_title)
+    candidate_artist_key = normalize_match_text(candidate_artist)
+    score = 0
+
+    if title_key and candidate_title_key:
+        if candidate_title_key == title_key:
+            score += 80
+        elif _meaningful_substring_overlap(title_key, candidate_title_key):
+            score += 45
+        else:
+            distance = _levenshtein_distance(title_key, candidate_title_key)
+            longer = max(len(title_key), len(candidate_title_key))
+            if longer:
+                similarity = max(0.0, 1.0 - (distance / float(longer)))
+                if similarity >= 0.92:
+                    score += 78
+                elif similarity >= 0.85:
+                    score += 68
+                elif similarity >= 0.78:
+                    score += 58
+                elif similarity >= 0.72:
+                    score += 48
+
+    if artist_key and candidate_artist_key:
+        if candidate_artist_key == artist_key:
+            score += 60
+        elif _meaningful_substring_overlap(artist_key, candidate_artist_key):
+            score += 30
+
+    return score
+
+
+def _meaningful_substring_overlap(left, right):
+    if not left or not right:
+        return False
+    if left not in right and right not in left:
+        return False
+    shorter = min(len(left), len(right))
+    longer = max(len(left), len(right))
+    return shorter >= 5 and (shorter / float(longer)) >= 0.65
+
+
 def notation_candidate_score(candidate, title, artist):
     meta = (candidate or {}).get("tuneMeta") or {}
     match_title = ""
@@ -781,7 +933,7 @@ def notation_candidate_score(candidate, title, artist):
         match_title = strip_notation_match_decorations((candidate or {}).get("title") or "")
     else:
         match_title = strip_notation_match_decorations(match_title)
-    return score_title_artist_match(
+    return notation_score_title_artist_match(
         match_title,
         match_artist,
         strip_notation_match_decorations(title),
@@ -1166,26 +1318,6 @@ async def search_notation_url(url, on_progress=None):
             query_title = ""
             async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
                 query_title = await _musescore_page_title(client, clean_url)
-                midi_candidates = await _last_chance_midi_candidates(
-                    client,
-                    query_title or "MuseScore import",
-                    on_progress=on_progress,
-                )
-            if midi_candidates:
-                finalized = finalize_notation_candidates(
-                    midi_candidates,
-                    query_title or "",
-                    "",
-                    relax_midi=True,
-                )
-                if finalized:
-                    await _emit_progress(on_progress, "midi", "MIDI fallback ready", 1.0)
-                    if len(finalized) == 1:
-                        return finalized[0]
-                    return {
-                        "multiple": True,
-                        "candidates": finalized,
-                    }
             manual = build_musescore_manual_candidate(
                 clean_url,
                 title=query_title or "",
@@ -1203,7 +1335,7 @@ async def search_notation_url(url, on_progress=None):
             if manual_result:
                 return manual_result
             raise ValueError(
-                "MuseScore matches require PRO or purchase; try MIDI or ABC sources instead."
+                "MuseScore matches require PRO or purchase; try ABC or MusicXML sources instead."
             )
         except ValueError:
             raise
@@ -1308,13 +1440,12 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         await _emit_progress(
             on_progress,
             "sources",
-            "Searching ABC, MuseScore, archives, and MIDI...",
+            "Searching ABC, MuseScore, and archives...",
             0.4,
         )
         (
             web_result,
             muse_result,
-            midi_result,
             josquin_result,
             cpdl_result,
             imslp_result,
@@ -1330,12 +1461,6 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
                 on_progress=on_progress,
             ),
             collect_musescore_candidates(
-                client,
-                title,
-                artist,
-                on_progress=on_progress,
-            ),
-            collect_midi_candidates(
                 client,
                 title,
                 artist,
@@ -1390,7 +1515,6 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             list(session_candidates)
             + _collector_results_or_empty(web_result)
             + _collector_results_or_empty(muse_result)
-            + _collector_results_or_empty(midi_result)
             + _collector_results_or_empty(josquin_result)
             + _collector_results_or_empty(cpdl_result)
             + _collector_results_or_empty(imslp_result)
@@ -1403,55 +1527,6 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             artist,
             song_type=song_type,
         )
-
-        if (
-            song_type == "song"
-            and artist
-            and candidates
-            and notation_artist_match_score(candidates[0], artist) < 30
-            and _candidate_import_format(candidates[0]) == "abc"
-        ):
-            midi_boost = await _last_chance_midi_candidates(
-                client,
-                title,
-                artist,
-                on_progress=on_progress,
-            )
-            if midi_boost:
-                boosted = finalize_notation_candidates(
-                    dedupe_candidates(midi_boost + candidates),
-                    title,
-                    artist,
-                    relax_midi=True,
-                    song_type=song_type,
-                )
-                if boosted:
-                    candidates = boosted
-
-        if not candidates:
-            candidates = finalize_notation_candidates(
-                pooled,
-                title,
-                artist,
-                relax_midi=True,
-                song_type=song_type,
-            )
-
-        if not candidates:
-            midi_fallback = await _last_chance_midi_candidates(
-                client,
-                title,
-                artist,
-                on_progress=on_progress,
-            )
-            if midi_fallback:
-                candidates = finalize_notation_candidates(
-                    dedupe_candidates(midi_fallback),
-                    title,
-                    artist,
-                    relax_midi=True,
-                    song_type=song_type,
-                )
 
         if not candidates:
             manual_result = _notation_manual_result_from_muse_manual(muse_manual)
@@ -1486,7 +1561,7 @@ def notation_title_match_score(candidate, title):
         match_title = str(meta.get("name") or match_title)
     else:
         match_title = strip_notation_match_decorations(match_title)
-    return score_title_artist_match(
+    return notation_score_title_artist_match(
         match_title,
         "",
         strip_notation_match_decorations(title),
@@ -1574,7 +1649,7 @@ async def search_notation_secondary_fallback(
     song_type="instrumental",
     on_progress=None,
 ):
-    """After MuseScore is skipped: local MIDI, online MIDI, and ABC in parallel."""
+    """After MuseScore is skipped: ABC collections and web ABC."""
     title = str(title or "").strip()
     artist = str(artist or "").strip()
     song_type = normalize_song_type(song_type)
@@ -1585,32 +1660,17 @@ async def search_notation_secondary_fallback(
         await _emit_progress(
             on_progress,
             "fallback",
-            "Searching local MIDI, online MIDI, and ABC...",
+            "Searching ABC notation...",
             0.2,
         )
-        local_result, web_midi_result, abc_result = await asyncio.gather(
-            collect_local_midi_candidates(title, artist=artist, on_progress=on_progress),
-            collect_web_midi_candidates(
-                client,
-                title,
-                artist=artist,
-                on_progress=on_progress,
-                relaxed=True,
-            ),
-            _collect_abc_fallback_candidates(
-                client,
-                title,
-                artist,
-                song_type=song_type,
-                on_progress=on_progress,
-            ),
-            return_exceptions=True,
+        abc_result = await _collect_abc_fallback_candidates(
+            client,
+            title,
+            artist,
+            song_type=song_type,
+            on_progress=on_progress,
         )
-        combined = dedupe_candidates(
-            _collector_results_or_empty(local_result)
-            + _collector_results_or_empty(web_midi_result)
-            + _collector_results_or_empty(abc_result)
-        )
+        combined = dedupe_candidates(_collector_results_or_empty(abc_result))
         candidates = finalize_secondary_fallback_candidates(combined, title, artist)
         if not candidates:
             await _emit_progress(

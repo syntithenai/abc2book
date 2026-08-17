@@ -16,6 +16,7 @@ import {
   normalizeStanzaNameKey as stanzaNameKeyFromChordSheet,
   formatSectionChartForEditor,
   parseSectionChartFromEditor,
+  parseChartStructureMarkers,
   stripChartStructureMarkers,
   wrapChordGridBars,
   lineHasChordProInlineChords,
@@ -378,6 +379,7 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter,
     const chart = split.headerLine
       ? joinChartHeaderAndBody(split.headerLine, String(split.body || '').trim())
       : String(split.body || '').trim()
+    const structure = parseChartStructureMarkers(chartRaw)
     previousMeter = meter
     previousTempo = tempo
     previousKey = key
@@ -398,6 +400,11 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter,
         meter: meter,
         abcKey: key,
         tempo: tempo,
+        strainStartBarline: structure.strainStartBarline || section.strainStartBarline || null,
+        strainEndBarline: structure.strainEndBarline || section.strainEndBarline || null,
+        endingMarkers: structure.endingMarkers && structure.endingMarkers.length
+          ? structure.endingMarkers
+          : (section.endingMarkers || []),
       })
       const typeKey = section.sourceTypeKey || section.type
       if (typeKey) {
@@ -423,6 +430,9 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter,
         abcKey: key,
         tempo: tempo,
         startLine: index,
+        strainStartBarline: structure.strainStartBarline || null,
+        strainEndBarline: structure.strainEndBarline || null,
+        endingMarkers: structure.endingMarkers || [],
       })
     }
   }

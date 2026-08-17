@@ -343,4 +343,54 @@ describe('StructureChordBlock height-fit sections', function() {
     expect(verses[0].tone).not.toBe(choruses[0].tone)
     expect(choruses[0].tone).not.toBe(bridges[0].tone)
   })
+
+  test('shows distinct verse charts when later v sections pin different strains', function() {
+    const tune = {
+      name: 'Run Dotteral Run',
+      words: [
+        '# chorus',
+        '[F] run [C]dotteral [G]run',
+        '',
+        '# v1 (wade in the water) @2',
+        '[Dm]wade in the water',
+        '',
+        '# chorus',
+        '',
+        '# v2  @3',
+        '[C]duck and dive when the [G]gulls attack',
+        '',
+        '# chorus',
+        '',
+        '# v3 (sin dje dje) @4',
+        '[C]investment [F]in our [C]tiny [F]eggs',
+        '',
+        '# chorus',
+      ],
+    }
+
+    act(function() {
+      root.render(React.createElement(StructureChordBlock, {
+        chords: 'F | C | G | Dm |\n\nDm | Dm | Dm | Gm Dm |\n\nC | G | C | Dm |\n\nC F | C F | A# F | C F |',
+        tune: tune,
+        fitHeight: false,
+      }))
+    })
+
+    const verseSections = Array.prototype.filter.call(
+      container.querySelectorAll('.structure-section'),
+      function(section) {
+        const h = section.querySelector('.chord-section-header')
+        const text = h ? String(h.textContent || '').toLowerCase() : ''
+        return text.indexOf('v1') >= 0 || text.indexOf('v2') >= 0 || text.indexOf('v3') >= 0
+      }
+    )
+    expect(verseSections.length).toBe(3)
+    verseSections.forEach(function(section) {
+      expect(section.classList.contains('structure-section--no-chart')).toBe(false)
+      expect(section.querySelector('.chord-block-line')).toBeTruthy()
+    })
+    expect(verseSections[0].textContent).toMatch(/Dm/)
+    expect(verseSections[1].textContent).toMatch(/C/)
+    expect(verseSections[2].textContent).toMatch(/A#|Bb/)
+  })
 })

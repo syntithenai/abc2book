@@ -12,9 +12,9 @@ import {
  * Normalize lyric/section lines into typed blocks.
  * Blank lines flush blocks; section headers start blocks.
  * When verse-like section headers are present, blank lines mid-verse (before the
- * next header) stay inside that section. Chorus/refrain headers do not absorb
- * following unlabeled stanzas (so verse/chorus alternation can be inferred).
- * When no headers exist, may infer verse/chorus/bridge from alternating line counts.
+ * next header) stay inside that section as separators. Chorus/refrain headers do
+ * not absorb following unlabeled stanzas (so verse/chorus alternation can be inferred).
+ * When no headers exist, may infer verse/chorus from alternating line counts.
  * Leading title/composer bibliographic lines are dropped (same preface rule as
  * chord/lyric alignment) so they are not treated as stanzas or inferred bridges.
  *

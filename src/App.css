@@ -4904,6 +4904,17 @@ button img:after {
   flex: 0 0 auto;
 }
 
+/* btn-group is inline-flex; stretch would clip the menu to the button height. */
+.structure-capo-control > .dropdown-menu,
+.structure-capo-menu {
+  align-self: flex-start;
+  height: auto;
+  max-height: none;
+  min-width: 12rem;
+  overflow: visible;
+  z-index: 1055;
+}
+
 .structure-capo-menu .dropdown-item {
   display: flex;
   justify-content: space-between;
@@ -8264,6 +8275,12 @@ button img:after {
   flex: 0 0 auto;
   min-width: 0;
 }
+.music-editor-notation-import {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
 .music-editor-history-group {
   flex-shrink: 0;
 }
@@ -8287,6 +8304,9 @@ button img:after {
 .music-editor-search {
   flex-shrink: 0;
   margin-left: 1rem;
+}
+.music-editor-search .dropdown {
+  display: inline-flex;
 }
 .music-editor-search .btn {
   display: inline-flex;
@@ -8424,7 +8444,9 @@ button img:after {
 }
 
 .lyrics-chords-transpose,
-.lyrics-chords-transpose-preview {
+.lyrics-chords-transpose-preview,
+.abc-transpose,
+.abc-transpose-preview {
   display: flex !important;
   align-items: center;
   justify-content: space-between;
@@ -8438,19 +8460,22 @@ button img:after {
 }
 
 .lyrics-chords-transpose-group,
-.lyrics-chords-transpose-preview .form-switch {
+.lyrics-chords-transpose-preview .form-switch,
+.abc-transpose-preview .form-switch {
   flex: 0 0 auto;
   margin-left: auto;
   margin-bottom: 0;
 }
 
-.lyrics-chords-transpose-preview .form-check {
+.lyrics-chords-transpose-preview .form-check,
+.abc-transpose-preview .form-check {
   min-height: 0;
   padding-left: 2.5em;
   pointer-events: none;
 }
 
-button.lyrics-chords-transpose-preview {
+button.lyrics-chords-transpose-preview,
+button.abc-transpose-preview {
   appearance: none;
   background: transparent;
   border: 0;
@@ -10626,6 +10651,86 @@ button.lyrics-chords-transpose-preview {
   font-size: 0.8em;
   opacity: 0.7;
   white-space: normal;
+}
+
+.enhance-options-dropdown-menu {
+  min-width: 18.5rem;
+  max-width: min(22rem, calc(100vw - 1.5rem));
+  padding: 0.55rem 0.75rem 0.7rem 0.85rem;
+  overflow: visible;
+}
+
+.enhance-options-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.enhance-options-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.enhance-options-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-left: 0.55rem;
+}
+
+.enhance-options-group-label {
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.enhance-options-group-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.enhance-options-group-select {
+  padding: 0;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.enhance-options-check {
+  margin-bottom: 0.1rem;
+  margin-left: 0.55rem;
+  padding-left: 1.65em;
+}
+
+.enhance-options-check .form-check-input {
+  margin-left: -1.5em;
+}
+
+.enhance-options-check .form-check-label {
+  white-space: normal;
+  font-size: 0.92rem;
+}
+
+.enhance-options-footer {
+  display: flex;
+  justify-content: stretch;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.enhance-options-start {
+  width: 100%;
+}
+
+.tune-enhance-dropdown .dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
 }
 
 .bulk-ops-star-dropdown .dropdown-toggle::after,

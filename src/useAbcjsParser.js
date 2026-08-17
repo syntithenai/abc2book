@@ -4,7 +4,7 @@ import useUtils from './useUtils'
 import { abcForAbcjs } from './melodyBarlineNormalize'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
-import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader, collapseSoundingToBeats, formatBeatSoundingForDisplay } from './chordSheetUtils'
+import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader, collapseSoundingToBeats, formatBeatSoundingForDisplay, peelTrailingChartBarline } from './chordSheetUtils'
 import { normalizeKeySignature, transposeKeySignature } from './keySignatureNormalize'
 
 /**
@@ -271,6 +271,9 @@ export default function useAbcjsParser() {
                                final.push({note: note, lineNumber: lineNumber})
                            } else if (symbol.type === 'bar_right_repeat') {
                                var note = ":|" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           } else if (symbol.type === 'bar_dbl_repeat') {
+                               var note = ":|:" + (trailingSpace ? ' ' : '')
                                final.push({note: note, lineNumber: lineNumber})
                            }
                            if (symbol.startEnding > 0)  {
@@ -644,9 +647,10 @@ export default function useAbcjsParser() {
               var cleanLine = line.trim()
               // Blank lines are section breaks (||), not a clear-bar token.
               if (!cleanLine) return
-              if (cleanLine.endsWith('||')) {
-                  cleanLine = cleanLine.slice(0, -2)
-              } else if (cleanLine.endsWith('|')) {
+              var peeled = peelTrailingChartBarline(cleanLine)
+              cleanLine = peeled.line
+              if (peeled.close) result[lineNumber].__close = peeled.close
+              if (cleanLine.endsWith('|')) {
                   cleanLine = cleanLine.slice(0, -1)
               }
               if (isSectionMarkerToken(cleanLine) || (/^#+\s+/.test(cleanLine) && isSectionHeader(cleanLine))) {
@@ -793,8 +797,9 @@ export default function useAbcjsParser() {
       String(chordText).trim().split('\n').forEach(function(line) {
         var cleanLine = String(line || '').trim()
         if (!cleanLine) return
-        if (cleanLine.endsWith('||')) cleanLine = cleanLine.slice(0, -2)
-        else if (cleanLine.endsWith('|')) cleanLine = cleanLine.slice(0, -1)
+        var peeled = peelTrailingChartBarline(cleanLine)
+        cleanLine = peeled.line
+        if (cleanLine.endsWith('|')) cleanLine = cleanLine.slice(0, -1)
         if (isSectionMarkerToken(cleanLine) || (/^#+\s+/.test(cleanLine) && isSectionHeader(cleanLine))) {
           return
         }
@@ -892,6 +897,57 @@ export default function useAbcjsParser() {
                         }
                     }
                 })
+                // Rest-only scaffold lines from `z |` or beat-split `z z z z`
+                // under L:1/8 are short of unitSlotsPerBar. Pad so mid-bar
+                // chords (C F) attach to distinct rests instead of stacking.
+                abc[0].lines.forEach(function(line) {
+                    if (!line || !line.staff || !line.staff.length) return
+                    var voice = line.staff[0].voices[0]
+                    if (!voice || !voice.length) return
+                    var restOnly = true
+                    for (var ri = 0; ri < voice.length; ri++) {
+                        if (voice[ri].el_type === 'note' && !voice[ri].rest) {
+                            restOnly = false
+                            break
+                        }
+                    }
+                    if (!restOnly) return
+                    var lineMeter = voiceMeter
+                    var i = 0
+                    while (i < voice.length) {
+                        var symbol = voice[i]
+                        if (symbol.el_type === 'timeSignature' && symbol.value && symbol.value[0]) {
+                            lineMeter = normalizeMeter(String(symbol.value[0].num) + '/' + String(symbol.value[0].den))
+                            i++
+                            continue
+                        }
+                        if (symbol.el_type === 'bar') {
+                            i++
+                            continue
+                        }
+                        var dur = 0
+                        while (i < voice.length && voice[i].el_type !== 'bar') {
+                            if (voice[i].el_type === 'timeSignature' && voice[i].value && voice[i].value[0]) {
+                                lineMeter = normalizeMeter(String(voice[i].value[0].num) + '/' + String(voice[i].value[0].den))
+                            } else if (voice[i].el_type === 'note' && voice[i].duration > 0) {
+                                dur += voice[i].duration
+                            }
+                            i++
+                        }
+                        var state = meterState(lineMeter)
+                        var have = Math.round(dur / state.noteLength)
+                        var needed = state.barSize - have
+                        if (needed > 0) {
+                            var extra = []
+                            for (var p = 0; p < needed; p++) {
+                                extra.push({rest: {type: 'rest'}, el_type: 'note', duration: state.noteLength})
+                            }
+                            voice.splice.apply(voice, [i, 0].concat(extra))
+                            i += extra.length
+                        }
+                        if (i < voice.length && voice[i].el_type === 'bar') i++
+                    }
+                })
             }
 
             // iterate parsed note and bar lines to create lookups 
@@ -926,29 +982,41 @@ export default function useAbcjsParser() {
             
             // ensure the correct number of lines
             var parsedLength = abc[0].lines.length
-            var counter = 0
-            
+
             var lineNewLines = {}
+            var lineEndClose = {}
             // filter lines without any chords
             // during iteration, count non empty lines and create an 
             // index of empty line numbers (for double bar lines)
-            var chordLinesNotEmpty = chordLayout.filter(function(a) {
+            var chordLinesNotEmpty = []
+            chordLayout.forEach(function(a) {
                 if (a.length > 0) {
-                    counter++
-                    return true
+                    var filteredIndex = chordLinesNotEmpty.length
+                    chordLinesNotEmpty.push(a)
+                    if (a.__close) lineEndClose[filteredIndex] = a.__close
                 } else {
-                    if (counter > 0) lineNewLines[counter - 1] = true
-                    return false
+                    if (chordLinesNotEmpty.length > 0) {
+                        var prev = chordLinesNotEmpty.length - 1
+                        lineNewLines[prev] = true
+                        if (!lineEndClose[prev]) lineEndClose[prev] = '||'
+                    }
                 }
             })
             
             // chop or slice lines to ensure correct number of lines
             var chordLength = chordLinesNotEmpty.length
+            function abcBarEl(close, isSectionEnd) {
+                var type = 'bar_thin'
+                if (close === ':|') type = 'bar_right_repeat'
+                else if (close === ':|:') type = 'bar_dbl_repeat'
+                else if (close === '|]') type = 'bar_thin_thick'
+                else if (close === '||' || isSectionEnd) type = 'bar_thin_thin'
+                return { type: type, el_type: 'bar' }
+            }
             function barSymbolForLine(lineIndex, barNumber, barsOnLine) {
                 var isLastBarOnLine = barNumber === barsOnLine - 1;
-                return (isLastBarOnLine && lineNewLines[lineIndex])
-                    ? { type: 'bar_thin_thin', el_type: 'bar' }
-                    : { type: 'bar_thin', el_type: 'bar' };
+                if (!isLastBarOnLine) return { type: 'bar_thin', el_type: 'bar' }
+                return abcBarEl(lineEndClose[lineIndex], lineNewLines[lineIndex])
             }
 
             function barSizeFor(lineIndex, barNumber) {
@@ -1025,15 +1093,7 @@ export default function useAbcjsParser() {
                 // add bar line to lines without closing bar
                 if (lastSymbol.el_type !== 'bar') {
                     barCount++
-                    // append rests and bar line to 
-                    abc[0].lines[lineNumber].staff[0].voices[0].push(lineNewLines[lineNumber] ? {type:'bar_thin_thin', el_type:'bar'} : {type:'bar_thin', el_type:'bar'})
-                } else {
-                    // if lineNewLine force double bar
-                    var barLine = abc[0].lines[lineNumber].staff[0].voices[0][lastSymbolNumber]
-                    barLine.type = lineNewLines[lineNumber] ? 'bar_thin_thin' : 'bar_thin'
-                    abc[0].lines[lineNumber].staff[0].voices[0].splice(lastSymbolNumber,1,barLine)
-                    //push(lineNewLines[lineNumber] ? {type:'bar_thin_thin', el_type:'bar'} : {type:'bar_thin', el_type:'bar'})
-                    //}
+                    abc[0].lines[lineNumber].staff[0].voices[0].push({ type: 'bar_thin', el_type: 'bar' })
                 }
                 var barsInChordText = chordLinesNotEmpty[lineNumber].length
                 var barCountDiff = barsInChordText - barCount
@@ -1057,15 +1117,22 @@ export default function useAbcjsParser() {
                             barSymbolForLine(lineNumber, barCount + k, barsInChordText)
                         )
                     }
-                    //var totalBars = 0
-                    //var totalRests = 0
-                    //for var
-                    //abc[0].lines.push({staff:[{voices:[restLine]}]})
                 } else if (barCountDiff < 0) {
                     // remove bars
                     var removeBarsAfter = barCount + barCountDiff - 1
                     var barLineIndex = barEnds[removeBarsAfter] + 1
                     abc[0].lines[lineNumber].staff[0].voices[0] = abc[0].lines[lineNumber].staff[0].voices[0].slice(0,barLineIndex) 
+                }
+                var voiceAfter = abc[0].lines[lineNumber].staff[0].voices[0]
+                for (var closeIdx = voiceAfter.length - 1; closeIdx >= 0; closeIdx--) {
+                    if (voiceAfter[closeIdx] && voiceAfter[closeIdx].el_type === 'bar') {
+                        voiceAfter[closeIdx].type = barSymbolForLine(
+                            lineNumber,
+                            barsInChordText - 1,
+                            barsInChordText
+                        ).type
+                        break
+                    }
                 }
             })
             }

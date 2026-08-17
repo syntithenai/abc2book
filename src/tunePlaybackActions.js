@@ -8,12 +8,14 @@ import {
   isLessonExternalMedia,
   appendTuneToQueue,
   createQueue,
+  endStopAfterCurrent,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
 import {
   isQueuePlaybackEngaged,
   isTuneListPath,
+  isTuneSingleViewPath,
   getAppPathname,
 } from './playbackNavigationUtils'
 import { shouldSuppressFollowNavigate } from './nowPlayingQueue'
@@ -245,6 +247,9 @@ export function playTuneNow(mediaController, tunebook, navigate, tune) {
 /**
  * Append a tune to the active queue (or create one), jump to it, and start playback.
  * Used by header play and viewed-focus fullscreen play.
+ *
+ * On a single-tune page, playback stops after this track instead of auto-advancing.
+ * An existing playlist is kept — if the viewed tune is already on it, jump there.
  */
 export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, location, tune, context) {
     const ctx = context || {}
@@ -253,6 +258,8 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
 
     let queue = ctx.nowPlayingQueue
     const tuneId = tune.id
+    const pathname = location && location.pathname ? location.pathname : ''
+    const playOnceAndStop = ctx.playOnceAndStop === true || isTuneSingleViewPath(pathname)
     const existingIndex = findQueueIndexForTuneId(queue, tuneId)
 
     if (existingIndex !== -1) {
@@ -274,6 +281,15 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
         })
     }
 
+    if (playOnceAndStop) {
+        queue = Object.assign({}, queue, {
+            stopAfterCurrent: true,
+            previewOnce: null,
+        })
+    } else if (queue.stopAfterCurrent) {
+        queue = endStopAfterCurrent(queue)
+    }
+
     setQueue(queue)
     if (ctx.setCurrentTune) ctx.setCurrentTune(tuneId)
 
@@ -284,7 +300,6 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
         mediaController.preparePlaybackFromUserGesture()
     }
 
-    const pathname = location && location.pathname ? location.pathname : ''
     if (isTuneListPath(pathname) && !queue.followTune) {
         playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
         return true
@@ -414,6 +429,10 @@ export function toggleTunePlayback(mediaController, tunebook, navigate, location
 export function resumePlaylistPlayback(mediaController, tunebook, navigate, queue, tunes, setNowPlayingQueue, options) {
     if (!isQueueActive(queue)) return false
     const navOpts = options || {}
+    if (queue.stopAfterCurrent) {
+        queue = endStopAfterCurrent(queue)
+        if (setNowPlayingQueue) setNowPlayingQueue(queue)
+    }
     const tuneId = getCurrentTuneId(queue)
     const item = getCurrentItem(queue)
     const tune = tuneId && tunes ? tunes[tuneId] : null

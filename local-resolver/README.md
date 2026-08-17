@@ -429,6 +429,23 @@ docker compose exec local-resolver sh -c \
 
 A successful run prints a byte count well over `1000000` (about 3 MB for that video).
 
+### Troubleshooting: HTTP 403 Forbidden
+
+YouTube now PO-token-gates `android_vr` DASH audio (format 251). The resolver skips that client on the first attempt, uses Deno for web/TV n-sig, and retries with the `android` client + best audio (`ba/b`) when formats are missing or blocked. If you still see `unable to download video data: HTTP Error 403`:
+
+1. **Rebuild** so yt-dlp is current: `docker compose up --build`
+2. **Export cookies** to `local-resolver/secrets/youtube-cookies.txt` (see above)
+3. **Use a residential proxy** (Settings → Providers → Webshare) or `YTDLP_PROXY`
+4. **Play the video once** in Tunebook so analysis can use cached audio, or install TuneBook Helper
+
+Optional overrides:
+
+```bash
+YTDLP_YOUTUBE_EXTRACTOR_ARGS=youtube:player_client=default,-android_vr
+YTDLP_YOUTUBE_FALLBACK_EXTRACTOR_ARGS=youtube:player_client=android
+YTDLP_YOUTUBE_FALLBACK_FORMAT=ba/b
+```
+
 ### Single-port HTTPS (production)
 
 Expose **only Caddy on port 443** to the internet. Do not publish the app’s `:8787` publicly.
@@ -494,6 +511,7 @@ Set in `local-resolver/.env`:
 | `RESOLVER_LIGHT_MODE` | Slim gateway: no local Whisper/Demucs/OCR (see [CLOUD_RUN.md](CLOUD_RUN.md)) |
 | `YTDLP_PROXY` | Optional host residential proxy for yt-dlp |
 | `YTDLP_REQUIRE_USER_PROXY` | Require user/host proxy for `/youtube` (default true in light mode) |
+| `YTDLP_YOUTUBE_EXTRACTOR_ARGS` | yt-dlp `--extractor-args` for YouTube (default skips `android_vr` DASH) |
 | `HEAVY_JOB_QUEUE_TIMEOUT_SECONDS` | Wait budget for heavy ML slots before 503 (default 120) |
 | `MAX_CONCURRENT_HEAVY_JOBS` | Concurrent Whisper/stems/OCR jobs (default 2) |
 | `GOATCOUNTER_API_URL` | Optional GoatCounter count API URL for resolver endpoint analytics (paths are prefixed with resolver-server/) |

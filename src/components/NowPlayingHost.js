@@ -74,6 +74,7 @@ export default function NowPlayingHost(props) {
   const notationPlaybackRepeat = useMemo(function() {
     if (!playingTune) return 1
     const queueHandlesPlaybackEnd = isQueueActive(queue)
+      && !queue.stopAfterCurrent
       && (isRepeatTrack(queue) || queue.autoAdvance !== false)
     if (queueHandlesPlaybackEnd) return 1
     return playingTune.repeats > 0 ? playingTune.repeats : 1

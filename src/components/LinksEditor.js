@@ -169,7 +169,9 @@ function tunesForMediaAnalysis(props) {
   const tune = props.tune
   if (tune && tune.id) {
     const map = {}
-    map[tune.id] = tune
+    map[tune.id] = Array.isArray(props.links)
+      ? Object.assign({}, tune, { links: props.links })
+      : tune
     return map
   }
   return {}
@@ -265,7 +267,10 @@ function LinksEditorBody(props) {
         props.tune && props.tune.rhythm,
     ].filter(Boolean).join(' ').trim()
     const tuneForMedia = props.tune
-        ? Object.assign({}, props.tune, { id: props.tune.id || props.tuneId || '' })
+        ? Object.assign({}, props.tune, {
+            id: props.tune.id || props.tuneId || '',
+            links: Array.isArray(props.links) ? props.links : props.tune.links,
+          })
         : null
     const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
     const practiceTrackReady = useMemo(function() {

@@ -106,9 +106,7 @@ export async function searchNotationViaResolver(options) {
         ? (/(\.mid|\.midi)(\?|$)/i.test(pageUrl)
           ? 'Fetching MIDI file...'
           : 'Fetching MuseScore score...')
-        : (midiFallback
-          ? 'Searching local MIDI, online MIDI, and ABC...'
-          : 'Starting notation search...'),
+        : 'Starting notation search...',
       0,
       'start'
     )

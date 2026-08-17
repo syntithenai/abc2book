@@ -75,11 +75,13 @@ describe('lyricStructureUtils', function() {
       return { type: b.type, header: b.header, lineCount: b.lines.length };
     })).toEqual([
       { type: 'chorus', header: '# Chorus', lineCount: 1 },
-      { type: 'verse', header: '# Verse I', lineCount: 6 },
+      { type: 'verse', header: '# Verse I', lineCount: 7 },
       { type: 'chorus', header: '# Chorus', lineCount: 0 },
-      { type: 'verse', header: '# Verse 2', lineCount: 6 },
+      { type: 'verse', header: '# Verse 2', lineCount: 7 },
       { type: 'chorus', header: '# Chorus', lineCount: 0 },
     ]);
+    expect(blocks[1].lines[3]).toBe('');
+    expect(blocks[3].lines[3]).toBe('');
   });
 
   test('normalizeLyricStructure splits interior headers without blank lines', function() {
@@ -100,7 +102,7 @@ describe('lyricStructureUtils', function() {
     expect(normalizeLyricStructure(['', '  ', ''])).toEqual([]);
   });
 
-  test('normalizeLyricStructure infers verse/chorus/bridge from alternating line counts', function() {
+  test('normalizeLyricStructure infers verse/chorus and leaves leftover stanzas untitled', function() {
     const blocks = normalizeLyricStructure([
       'v1a', 'v1b', 'v1c', 'v1d', 'v1e', 'v1f', '',
       'c1a', 'c1b', 'c1c', 'c1d', '',
@@ -113,7 +115,7 @@ describe('lyricStructureUtils', function() {
       { type: 'chorus', header: '[Chorus]' },
       { type: 'verse', header: '[Verse 2]' },
       { type: 'chorus', header: '[Chorus 2]' },
-      { type: 'bridge', header: '[Bridge]' },
+      { type: null, header: '' },
     ]);
   });
 

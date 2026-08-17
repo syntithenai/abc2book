@@ -3,6 +3,7 @@ import { searchLyrics } from './lyricsSearchClient'
 import { searchChords } from './chordsSearchClient'
 import { discoverComposers } from './composerSearchClient'
 import { searchNotation } from './notationSearchClient'
+import { filterNotationSearchCandidates } from './notationSearchNormalize'
 import { checkYouTubeLinkOembed } from './youtubeSearchClient'
 import { searchMediaLinks } from './mediaLinkSearchClient'
 import { searchAliases } from './aliasesSearchClient'
@@ -863,17 +864,24 @@ function normalizeCandidatesFromResult(kind, result, options) {
   }
 
   if (result.multiple && Array.isArray(result.candidates)) {
+    const candidates = kind === 'notation'
+      ? filterNotationSearchCandidates(result.candidates)
+      : result.candidates
     return {
-      candidates: result.candidates,
+      candidates: candidates,
       manualCandidates: [],
-      empty: result.candidates.length === 0,
+      empty: candidates.length === 0,
     }
   }
 
   if (!result.empty && result) {
     // Single result object (lyrics/chords/notation)
     if (kind === 'notation' && Array.isArray(result.candidates) && result.candidates.length > 0) {
-      return { candidates: result.candidates, manualCandidates: [], empty: false }
+      const candidates = filterNotationSearchCandidates(result.candidates)
+      return { candidates: candidates, manualCandidates: [], empty: candidates.length === 0 }
+    }
+    if (kind === 'notation' && filterNotationSearchCandidates([result]).length === 0) {
+      return { candidates: [], manualCandidates: [], empty: true }
     }
     return {
       candidates: [result],
@@ -1295,7 +1303,7 @@ async function runJob(job) {
       job.candidates = []
       job.status = 'done'
       job.progress = 100
-      job.message = 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.'
+      job.message = 'MuseScore matches require PRO or purchase; try ABC or MusicXML sources instead.'
       job.error = null
       job.notifyEmpty = true
       if (!hasLiveHandler(job)) {

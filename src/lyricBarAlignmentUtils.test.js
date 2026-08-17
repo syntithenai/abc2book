@@ -15,6 +15,7 @@ import {
   splitMelodyNoteLinesByStrain,
   notationNoteLinesForStrainIndex,
   filterNotationNoteLinesForAlignment,
+  allocateChordLinesToLyrics,
 } from './lyricBarAlignmentUtils';
 import { splitMelodyStrainsWithBarlines } from './melodyStrainSplit';
 
@@ -221,5 +222,47 @@ describe('lyricBarAlignmentUtils', function() {
     expect(wordIndexToNoteIndex(1, 4, 8)).toBe(2);
     expect(wordIndexToNoteIndex(3, 4, 8)).toBe(6);
     expect(wordIndexToNoteIndex(99, 4, 8)).toBe(7);
+  });
+
+  test('allocateChordLinesToLyrics pairs 1:1 when chord lines cover every lyric', function() {
+    expect(allocateChordLinesToLyrics(2, 2)).toEqual({
+      lyricsPerChordLine: 1,
+      allocatedChordLines: 2,
+      extraChordLines: 0,
+      leftoverLyrics: 0,
+    });
+    expect(allocateChordLinesToLyrics(4, 5)).toEqual({
+      lyricsPerChordLine: 1,
+      allocatedChordLines: 4,
+      extraChordLines: 1,
+      leftoverLyrics: 0,
+    });
+    expect(allocateChordLinesToLyrics(4, 6)).toEqual({
+      lyricsPerChordLine: 1,
+      allocatedChordLines: 4,
+      extraChordLines: 2,
+      leftoverLyrics: 0,
+    });
+  });
+
+  test('allocateChordLinesToLyrics pairs two lyrics per chord line when lyrics outnumber chords', function() {
+    expect(allocateChordLinesToLyrics(4, 2)).toEqual({
+      lyricsPerChordLine: 2,
+      allocatedChordLines: 2,
+      extraChordLines: 0,
+      leftoverLyrics: 0,
+    });
+    expect(allocateChordLinesToLyrics(5, 2)).toEqual({
+      lyricsPerChordLine: 2,
+      allocatedChordLines: 2,
+      extraChordLines: 0,
+      leftoverLyrics: 1,
+    });
+    expect(allocateChordLinesToLyrics(4, 3)).toEqual({
+      lyricsPerChordLine: 2,
+      allocatedChordLines: 2,
+      extraChordLines: 1,
+      leftoverLyrics: 0,
+    });
   });
 });

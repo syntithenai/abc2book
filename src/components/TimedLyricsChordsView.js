@@ -13,6 +13,7 @@ import {
   stripChordsFromLyricLines,
   ensureLeadingMeterMarker,
   parseChordChartDisplayLine,
+  splitChartByLyricAllocation,
 } from '../chordSheetUtils';
 import { chordChartBlocksForTuneDisplay, chordNoteLinesFromTune } from '../chordBlockMerge';
 import { resolveChordRenderPlan } from '../chordLyricRenderPlan';
@@ -249,8 +250,17 @@ function renderPerLineAbcBlocks(props) {
       && inlineTokens
       && inlineTokens.length > 0
       && inlineTokens.some(function(row) { return row.length > 0; });
-    const showChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(block.chart);
-    const showExtraChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(block.extraChart);
+    const chartSplit = splitChartByLyricAllocation(
+      block.chart,
+      block.lyricLines,
+      melodyNoteLines,
+      block.melodyStrainIndex
+    );
+    const allocatedChart = chartSplit.allocatedChart;
+    const trailingChart = block.trailingChart || chartSplit.trailingChart;
+    const showChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(allocatedChart);
+    const showTrailingChart = !block.chartRevisit && !useInline && chartBlockHasChords(trailingChart);
+    const showExtraChart = !block.chartRevisit && chartBlockHasChords(block.extraChart);
     const applyLeadingMeter = leadingMeterPending && showChartAbove;
     if (applyLeadingMeter) leadingMeterPending = false;
     return (
@@ -260,24 +270,31 @@ function renderPerLineAbcBlocks(props) {
         })}
         <SectionHeader label={displaySectionHeader(block.header)} source={block.header} />
         {useInline ? (
-          <ChordProLines tokenLines={inlineTokens} keepBeatMarkers={keepBeatMarkers} />
+          <>
+            <ChordProLines tokenLines={inlineTokens} keepBeatMarkers={keepBeatMarkers} />
+            {showExtraChart && <ChordChartBlock chart={block.extraChart} />}
+          </>
         ) : (
           <>
             {showChartAbove && (
               <ChordChartBlock
-                chart={block.chart}
+                chart={allocatedChart}
                 meter={tuneMeter}
                 applyLeadingMeter={applyLeadingMeter}
               />
             )}
-            {showExtraChartAbove && <ChordChartBlock chart={block.extraChart} />}
             {block.lyricLines.map(function(line, li) {
+              if (!String(line == null ? '' : line).trim()) {
+                return <div key={li} className="lyrics-line-spacer" aria-hidden="true" />;
+              }
               return (
                 <div key={li} className="lyrics-line">
                   {lyricBodyWithOptionalBeatMarkers(line, keepBeatMarkers)}
                 </div>
               );
             })}
+            {showTrailingChart && <ChordChartBlock chart={trailingChart} />}
+            {showExtraChart && <ChordChartBlock chart={block.extraChart} />}
           </>
         )}
       </div>

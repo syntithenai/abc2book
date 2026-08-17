@@ -87,7 +87,9 @@ export function LyricsChordsHelpBody() {
         Headers without <code>@N</code> still allocate in order. Repeats without a token still
         reuse the type (and reuse a pin from the first occurrence of that type).
         If a pin points at a chords block that structure has already shown, that stanza
-        is listed as a heading only.
+        is listed as a heading only. A later verse with its own token
+        (for example <code># v2 @3</code> after <code># v1 @2</code>) still shows that
+        block when it has not been displayed.
       </p>
     </>
   )

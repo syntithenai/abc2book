@@ -13,6 +13,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import time
 from typing import Any
 
@@ -671,18 +672,28 @@ async def youtube_audio(
                     "Set Webshare in Settings → Providers, or use the YouTube Helper extension."
                 ),
             )
-        cmd = [
-            "yt-dlp",
-            "--no-playlist",
-            "--no-warnings",
-            "-f",
-            "ba/b",
-            "-o",
-            "-",
-        ]
-        if proxy:
-            cmd.extend(["--proxy", proxy])
-        cmd.append("https://www.youtube.com/watch?v=" + video_id)
+        def _ytdlp_youtube_cmd(format_selector, extractor_args):
+            built = [
+                "yt-dlp",
+                "--no-playlist",
+                "--no-warnings",
+                "-f",
+                format_selector,
+            ]
+            if extractor_args:
+                built.extend(["--extractor-args", extractor_args])
+            if shutil.which("deno"):
+                built.extend(["--js-runtimes", "deno"])
+            if proxy:
+                built.extend(["--proxy", proxy])
+            built.extend(["-o", "-", "https://www.youtube.com/watch?v=" + video_id])
+            return built
+
+        primary_args = os.getenv(
+            "YTDLP_YOUTUBE_EXTRACTOR_ARGS",
+            "youtube:player_client=default,-android_vr",
+        ).strip() or "youtube:player_client=default,-android_vr"
+        cmd = _ytdlp_youtube_cmd("ba/b", primary_args)
         proc = await asyncio.create_subprocess_exec(
             *cmd,
             stdout=asyncio.subprocess.PIPE,
@@ -690,8 +701,32 @@ async def youtube_audio(
         )
         first = await proc.stdout.read(8192)
         if not first:
+            await proc.wait()
             err = (await proc.stderr.read()).decode("utf-8", errors="ignore")[:400]
-            raise HTTPException(status_code=502, detail=err or "yt-dlp produced no audio")
+            should_retry = (
+                "HTTP Error 403" in err
+                or "403: Forbidden" in err
+                or "Requested format is not available" in err
+                or "Only images are available" in err
+            )
+            if should_retry:
+                fallback_fmt = os.getenv("YTDLP_YOUTUBE_FALLBACK_FORMAT", "ba/b").strip() or "ba/b"
+                fallback_args = os.getenv(
+                    "YTDLP_YOUTUBE_FALLBACK_EXTRACTOR_ARGS",
+                    "youtube:player_client=android",
+                ).strip() or "youtube:player_client=android"
+                proc = await asyncio.create_subprocess_exec(
+                    *_ytdlp_youtube_cmd(fallback_fmt, fallback_args),
+                    stdout=asyncio.subprocess.PIPE,
+                    stderr=asyncio.subprocess.PIPE,
+                )
+                first = await proc.stdout.read(8192)
+                if not first:
+                    await proc.wait()
+                    err = (await proc.stderr.read()).decode("utf-8", errors="ignore")[:400]
+                    raise HTTPException(status_code=502, detail=err or "yt-dlp produced no audio")
+            else:
+                raise HTTPException(status_code=502, detail=err or "yt-dlp produced no audio")
 
         ctx = billing_context()
 

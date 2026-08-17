@@ -3,6 +3,7 @@ from unittest.mock import AsyncMock, patch
 
 from notation_fetch import (
     annotate_candidate,
+    build_thesession_search_queries,
     build_thesession_setting_abc,
     build_web_abc_queries,
     extract_abc_from_text,
@@ -13,6 +14,7 @@ from notation_fetch import (
     is_direct_abc_file_url,
     normalize_song_type,
     notation_candidate_score,
+    notation_score_title_artist_match,
     parse_abc_header_fields,
     strip_notation_match_decorations,
     tune_meta_from_abc_headers,
@@ -31,6 +33,16 @@ class NotationFetchTests(unittest.TestCase):
             strip_notation_match_decorations("Planxty Burke (waltz) — setting 1"),
             "Planxty Burke",
         )
+
+    def test_build_thesession_search_queries_includes_typo_variant(self):
+        queries = build_thesession_search_queries("Tarboulton reel")
+        lowered = [query.lower() for query in queries]
+        self.assertIn("tarboulton", lowered)
+        self.assertIn("tarbolton", lowered)
+
+    def test_notation_score_title_artist_match_handles_tarbolton_typo(self):
+        score = notation_score_title_artist_match("The Tarbolton", "", "Tarboulton reel", "")
+        self.assertGreaterEqual(score, 58)
 
     def test_notation_candidate_score_matches_thesession_setting_titles(self):
         candidate = annotate_candidate(

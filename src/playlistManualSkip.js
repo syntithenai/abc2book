@@ -119,6 +119,7 @@ function syncQueueToCurrentSong(queue, currentSongId, forceNavigate) {
   return Object.assign({}, queue, {
     currentIndex: syncIndex,
     previewOnce: forceNavigate ? null : queue.previewOnce,
+    stopAfterCurrent: false,
   })
 }
 

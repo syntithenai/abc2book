@@ -123,6 +123,7 @@ export function createLessonQueueFromItems(options) {
     shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
+    stopAfterCurrent: false,
   }
 }
 
@@ -146,6 +147,7 @@ export function createQueue(options) {
     shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
+    stopAfterCurrent: false,
     repeatMode: repeatMode,
   })
   return queue
@@ -502,6 +504,7 @@ export function appendMediaCandidateToQueue(queue, candidate, options) {
       shuffleOrder: null,
       suspendSnapshot: null,
       previewOnce: null,
+      stopAfterCurrent: false,
     }
   }
   if (queue.items.length >= PLAYLIST_MAX_ITEMS) return queue
@@ -563,6 +566,7 @@ export function persistActiveQueue(queue) {
     // Do not persist transient preview/suspend playback fields that can go stale.
     const toStore = Object.assign({}, queue)
     delete toStore.previewOnce
+    delete toStore.stopAfterCurrent
     delete toStore.playbackResume
     delete toStore.shuffleOrder
     localStorage.setItem(ACTIVE_QUEUE_STORAGE_KEY, JSON.stringify(toStore))
@@ -585,7 +589,21 @@ export function suspendQueue(queue, playbackResume) {
 
 export function resumeQueue(queue) {
   if (!queue || !queue.suspendSnapshot) return queue
-  return Object.assign({}, queue.suspendSnapshot, { suspendSnapshot: null, previewOnce: null })
+  return Object.assign({}, queue.suspendSnapshot, {
+    suspendSnapshot: null,
+    previewOnce: null,
+    stopAfterCurrent: false,
+  })
+}
+
+export function setStopAfterCurrent(queue, stopAfterCurrent) {
+  if (!isQueueActive(queue)) return queue
+  return Object.assign({}, queue, { stopAfterCurrent: !!stopAfterCurrent })
+}
+
+export function endStopAfterCurrent(queue) {
+  if (!queue || !queue.stopAfterCurrent) return queue
+  return Object.assign({}, queue, { stopAfterCurrent: false })
 }
 
 export function startPreviewOnce(queue, tuneId) {
@@ -611,6 +629,15 @@ export function isPreviewingTune(queue, tuneId) {
   return !!(queue && queue.previewOnce && queue.previewOnce.tuneId === tuneId)
 }
 
+/** MIDI-from-ABC needs melody notes. Chords-only ABC is not a playable MIDI source. */
+export function tuneHasMidiNotes(tune, tunebook) {
+  if (!tune || !tunebook) return false
+  if (typeof tunebook.hasNotes === 'function') {
+    return tunebook.hasNotes(tune)
+  }
+  return typeof tunebook.hasNotesOrChords === 'function' && tunebook.hasNotesOrChords(tune)
+}
+
 export function resolvePlaybackForItem(tune, item, tunebook) {
   if (!item) return null
   if (isExternalQueueItem(item)) {
@@ -621,22 +648,22 @@ export function resolvePlaybackForItem(tune, item, tunebook) {
   }
   if (!tune || !tunebook) return null
   const prefer = item.prefer || 'auto'
-  const hasMusic = tunebook.hasNotesOrChords(tune)
+  const hasNotes = tuneHasMidiNotes(tune, tunebook)
   const hasLinks = tunebook.hasLinks(tune)
 
   if (item.linkIndex != null && hasLinks) {
     return { type: 'media', linkNum: item.linkIndex }
   }
-  if (prefer === 'midi' && hasMusic) return { type: 'midi', linkNum: null }
+  if (prefer === 'midi' && hasNotes) return { type: 'midi', linkNum: null }
   if (prefer === 'media' && hasLinks) return { type: 'media', linkNum: 0 }
-  if (prefer === 'auto' && hasMusic && hasLinks) {
+  if (prefer === 'auto' && hasNotes && hasLinks) {
     const firstLink = tune.links[0]
     if (isRecordingLink(firstLink)) {
       return { type: 'midi', linkNum: null }
     }
   }
   if (hasLinks) return { type: 'media', linkNum: 0 }
-  if (hasMusic) return { type: 'midi', linkNum: null }
+  if (hasNotes) return { type: 'midi', linkNum: null }
   return null
 }
 

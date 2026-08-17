@@ -395,16 +395,9 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(result["title"], "Public Tune")
 
 
-class MuseScoreUrlMidiFallbackTests(unittest.IsolatedAsyncioTestCase):
-    async def test_search_notation_url_musescore_blocked_falls_back_to_midi(self):
-        from midi_fetch import annotate_midi_candidate
+class MuseScoreUrlManualImportTests(unittest.IsolatedAsyncioTestCase):
+    async def test_search_notation_url_musescore_blocked_returns_manual_candidate(self):
         from notation_fetch import search_notation_url
-
-        midi = annotate_midi_candidate(
-            MINIMAL_MUSICXML,
-            title="Bach Cello Suite No. 1",
-            source_url="https://mutopiaproject.org/bach.mid",
-        )
 
         with patch(
             "notation_fetch.fetch_musescore_url",
@@ -417,12 +410,12 @@ class MuseScoreUrlMidiFallbackTests(unittest.IsolatedAsyncioTestCase):
         ), patch(
             "notation_fetch._last_chance_midi_candidates",
             new_callable=AsyncMock,
-            return_value=[midi],
         ) as fallback_mock:
             result = await search_notation_url("https://musescore.com/user/1/scores/9")
 
-        fallback_mock.assert_awaited()
-        self.assertEqual(result["source"], "mutopiaproject.org")
+        fallback_mock.assert_not_awaited()
+        self.assertTrue(result.get("manualCandidates"))
+        self.assertEqual(result["manualCandidates"][0]["source"], "musescore.com")
 
 
 class MuseScorePaywallSearchTests(unittest.IsolatedAsyncioTestCase):

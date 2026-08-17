@@ -289,6 +289,7 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
         persistMediaAnalysisFieldSuggestions(liveTune.id, suggestionPayload, liveTune, {
           abcTools: deps.tunebook && deps.tunebook.abcTools,
           abcjsParser: deps.abcjsParser || null,
+          kinds: options && options.suggestionKinds,
           saveTune: deps.tunebook && typeof deps.tunebook.saveTune === 'function'
             ? function(tuneToSave, skipHistory, opts) {
               return deps.tunebook.saveTune(tuneToSave, skipHistory, opts);

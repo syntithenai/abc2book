@@ -18,7 +18,7 @@ export const WALKTHROUGH_STEPS = [
     summary: 'Learn how the editor keeps ABC notation in sync while you edit visually.',
     body: [
       'The music editor lets you enter and edit tunes on staff notation, a piano roll, or raw ABC text. Every edit is saved automatically and written back to ABC notation.',
-      'Open any tune and switch to the Music editor panel. The header bar above the editor has undo/redo, a tune search box, and a view-mode dropdown (eye icon) for switching between Staff, Piano roll, Split, ABC, and other panels.',
+      'Open any tune and switch to the Music editor panel. The header bar above the editor has undo/redo, Search and Select (import a local ABC/MusicXML/MIDI/MuseScore file), and a view-mode dropdown (eye icon) for switching between Staff, Piano roll, Split, ABC, and other panels.',
       'When a tune has linked media, the media seek slider below the header lets you scrub playback while you align notes to the recording.',
     ],
     tryIt: [

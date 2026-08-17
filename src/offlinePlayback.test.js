@@ -70,6 +70,17 @@ describe('offlinePlayback', function() {
     await expect(isTuneOfflinePlayable(tune, { type: 'midi' }, tunebook, isYoutubeLink, 'midi')).resolves.toBe(true)
   })
 
+  test('isTuneOfflinePlayable rejects chords-only midi when offline', async function() {
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    const chordsTunebook = {
+      hasNotesOrChords: function() { return true },
+      hasNotes: function() { return false },
+      hasLinks: function() { return false },
+    }
+    const tune = { id: 't1', links: [] }
+    await expect(isTuneOfflinePlayable(tune, { type: 'midi' }, chordsTunebook, isYoutubeLink, 'midi')).resolves.toBe(false)
+  })
+
   test('findNextOfflinePlayableListIndex skips uncached remote media when offline', async function() {
     Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
     const tunes = [

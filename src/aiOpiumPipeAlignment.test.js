@@ -80,7 +80,9 @@ describe('AI Opium Pipe chord alignment', function() {
     const verse1 = aligned[0]
     const chorus1 = aligned[1]
     const verse2 = aligned[2]
-    const bridge = aligned.find(function(b) { return b.type === 'bridge' })
+    const leftover = aligned.find(function(b) {
+      return extractChordBars(b.chart).length === 5
+    })
 
     expect(extractChordBars(verse1.chart).length).toBe(8)
     expect(extractChordBars(chorus1.chart).length).toBe(8)
@@ -91,9 +93,9 @@ describe('AI Opium Pipe chord alignment', function() {
     expect(extractChordBars(verse2.chart).length).toBe(8)
     expect(extractChordBars(verse2.chart)[0][0]).toBe('Em')
     expect(extractChordBars(verse2.chart)[0][0]).not.toBe('Bm')
-    expect(bridge).toBeTruthy()
-    expect(extractChordBars(bridge.chart).length).toBe(5)
-    expect(extractChordBars(bridge.chart)[0][0]).toBe('Bm')
+    expect(leftover).toBeTruthy()
+    expect(extractChordBars(leftover.chart).length).toBe(5)
+    expect(extractChordBars(leftover.chart)[0][0]).toBe('Bm')
 
     // Even without notation lines, 8 bars / 2 lyrics → 4 bars per line (full staff)
     const chorusEven = mergeAlignedLyricBlockChords(Object.assign({}, chorus1, {
@@ -209,11 +211,14 @@ describe('AI Opium Pipe chord alignment', function() {
     const verse3 = aligned.find(function(b) {
       return b.lyricLines.join(' ').match(/keep getting messages/i)
     })
-    const bridge = aligned.find(function(b) { return b.type === 'bridge' })
+    const leftover = aligned.find(function(b) {
+      return extractChordBars(b.chart).length === 5
+    })
     expect(extractChordBars(verse2.chart)[0][0]).toBe('Em')
     expect(extractChordBars(verse2.chart).length).toBe(8)
     expect(extractChordBars(verse3.chart)[0][0]).toBe('Em')
-    expect(extractChordBars(bridge.chart)[0][0]).toBe('Bm')
-    expect(extractChordBars(bridge.chart).length).toBe(5)
+    expect(leftover).toBeTruthy()
+    expect(extractChordBars(leftover.chart)[0][0]).toBe('Bm')
+    expect(extractChordBars(leftover.chart).length).toBe(5)
   })
 })

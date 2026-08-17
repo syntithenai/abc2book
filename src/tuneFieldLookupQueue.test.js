@@ -539,7 +539,7 @@ describe('tuneFieldLookupQueue', function() {
     expect(tuneFieldLookupQueue.findJobById(id).appliedCandidate.artist).toBe('New Artist')
   })
 
-  test('notation MIDI-only results stay awaiting instead of empty toast', async function() {
+  test('notation search ignores MIDI-only results', async function() {
     const { toast } = require('react-toastify')
     toast.info.mockClear()
     searchNotation.mockResolvedValueOnce({
@@ -567,13 +567,9 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) {
       return item && (item.status === 'awaiting' || item.status === 'done' || item.status === 'error')
     })
-    expect(job.status).toBe('awaiting')
-    expect(job.candidates.length).toBe(1)
-    expect(job.candidates[0].importFormat).toBe('midi')
+    expect(job.status).toBe('done')
+    expect(job.candidates.length).toBe(0)
     expect(onAwaiting).toHaveBeenCalled()
-    expect(toast.info.mock.calls.some(function(args) {
-      return String(args[0] || '').toLowerCase().indexOf('no notation') >= 0
-    })).toBe(false)
   })
 
   test('empty notation search does not toast when a live handler is registered', async function() {

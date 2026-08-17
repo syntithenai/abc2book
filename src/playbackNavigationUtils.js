@@ -85,6 +85,7 @@ function isViewingDifferentFromQueue(viewedTuneId, queue) {
  */
 export function shouldAdvancePlaybackOnEnd(queue, canUpdateQueue, playingTuneId) {
   if (!isQueueActive(queue) || !canUpdateQueue) return false
+  if (queue.stopAfterCurrent) return false
   if (isRepeatTrack(queue)) return true
   if (queue.previewOnce) {
     return true

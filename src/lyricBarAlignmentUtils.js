@@ -49,6 +49,32 @@ export function countBarsOnNotationLine(noteLine) {
 }
 
 /**
+ * Pair non-blank lyric lines with non-empty chord/notation lines.
+ * When there are at least as many chord lines as lyrics, map 1:1 and leave
+ * leftover chord lines after the lyrics. Otherwise each chord line covers two
+ * lyric lines (trailing odd lyric stays bare).
+ */
+export function allocateChordLinesToLyrics(lyricCount, chordLineCount) {
+  const L = Math.max(0, Math.floor(Number(lyricCount) || 0));
+  const C = Math.max(0, Math.floor(Number(chordLineCount) || 0));
+  if (C >= L) {
+    return {
+      lyricsPerChordLine: 1,
+      allocatedChordLines: L,
+      extraChordLines: C - L,
+      leftoverLyrics: 0,
+    };
+  }
+  const allocated = Math.min(C, Math.floor(L / 2));
+  return {
+    lyricsPerChordLine: 2,
+    allocatedChordLines: allocated,
+    extraChordLines: C - allocated,
+    leftoverLyrics: L - allocated * 2,
+  };
+}
+
+/**
  * Drop %%MIDI and %Z:/%Q: style comment rows before notation alignment.
  */
 export function filterNotationNoteLinesForAlignment(noteLines) {

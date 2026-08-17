@@ -105,6 +105,13 @@ function isMidiSearchCandidate(body) {
   return /\.midi?(\?|#|$)/i.test(sourceUrl)
 }
 
+export function filterNotationSearchCandidates(candidates) {
+  if (!Array.isArray(candidates)) return []
+  return candidates.filter(function(candidate) {
+    return !isMidiSearchCandidate(candidate)
+  })
+}
+
 function convertMusicXmlCandidate(body) {
   const musicXml = typeof body.musicXml === 'string' ? body.musicXml.trim() : ''
   if (!musicXml) return null
@@ -222,19 +229,11 @@ export function normalizeNotationSearch(body) {
 
   if (body.multiple === true && Array.isArray(body.candidates)) {
     const candidates = []
-    body.candidates.forEach(function(candidate) {
+    filterNotationSearchCandidates(body.candidates).forEach(function(candidate) {
       try {
         candidates.push(normalizeSingleNotationResult(candidate))
       } catch (e) {
-        if (isMidiSearchCandidate(candidate)) {
-          try {
-            candidates.push(normalizeSingleNotationResult(Object.assign({}, candidate, {
-              importFormat: 'midi',
-              abc: '',
-              musicXml: '',
-            })))
-          } catch (e2) {}
-        }
+        // Skip candidates that cannot be converted to ABC/MusicXML.
       }
     })
     if (candidates.length === 0) {

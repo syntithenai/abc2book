@@ -1,7 +1,7 @@
 /**
  * Display-time enrichment vs import-time persistence boundaries.
  */
-import { expandRepeatedSectionLyrics, stripLeadingBibliographicLyricPreface } from './chordSheetUtils'
+import { applyRepeatedSectionChordPro, expandRepeatedSectionLyrics, stripLeadingBibliographicLyricPreface } from './chordSheetUtils'
 import { getPlainLyricLines } from './wLinesUtils'
 
 /** Fields written at import / edit save. */
@@ -20,7 +20,7 @@ export const PERSISTED_TUNE_META_FIELDS = [
  * Read-only transforms applied when rendering lyrics/chords (not stored).
  */
 export function enrichLyricLinesForDisplay(tune) {
-  const lines = expandRepeatedSectionLyrics(getPlainLyricLines(tune || {}))
+  const lines = applyRepeatedSectionChordPro(expandRepeatedSectionLyrics(getPlainLyricLines(tune || {})))
   return stripLeadingBibliographicLyricPreface(lines, {
     title: tune && tune.name,
     composer: tune && tune.composer,

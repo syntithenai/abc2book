@@ -156,6 +156,23 @@ describe('mediaAnalysisSuggestions', function() {
     expect(getPlainLyricLines(tune).join('\n')).toContain('Existing line')
   })
 
+  test('kinds option persists only selected analysis fields', function() {
+    const tune = { id: 't-kinds', name: 'Song', composer: 'Artist', voices: {} }
+    const saveTune = jest.fn()
+    persistMediaAnalysisFieldSuggestions('t-kinds', {
+      lyricsText: 'Line one',
+      chordsText: 'C | G |',
+      key: 'G',
+      melodyText: 'CDEF',
+    }, tune, {
+      saveTune: saveTune,
+      kinds: ['key'],
+    })
+    expect(tune.key).toBe('G')
+    expect(getPlainLyricLines(tune).join('\n')).not.toContain('Line one')
+    expect(getFieldSearchResults('tune:t-kinds', 'chords').length).toBe(0)
+  })
+
   test('mediaAnalysisJobHasMelodySourceNotes gates fine-tune visibility', function() {
     expect(mediaAnalysisJobHasMelodySourceNotes(null)).toBe(false)
     expect(mediaAnalysisJobHasMelodySourceNotes({})).toBe(false)

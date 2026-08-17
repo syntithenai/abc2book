@@ -163,6 +163,10 @@ describe('keySignatureNormalize', function() {
     expect(keyPrefersFlats('Fdorian')).toBe(true);
     expect(keyPrefersFlats('')).toBe(false);
     expect(keyPrefersFlats('HP')).toBe(false);
+    expect(keyPrefersFlats('Ebm')).toBe(true);
+    expect(keyPrefersFlats('Gb')).toBe(true);
+    expect(keyPrefersFlats('D#m')).toBe(false);
+    expect(keyPrefersFlats('F#')).toBe(false);
   });
 
   test('transposeKeySignature preserves mode and prefers flat roots when needed', function() {
@@ -173,5 +177,8 @@ describe('keySignatureNormalize', function() {
     expect(transposeKeySignature('Ddorian', 0)).toBe('Ddorian');
     expect(transposeKeySignature('Ddorian', 5)).toBe('Gdorian');
     expect(transposeKeySignature('A', -2)).toBe('G');
+    expect(transposeKeySignature('Dm', 1)).toBe('Ebm');
+    expect(transposeKeySignature('F', 1)).toBe('Gb');
+    expect(transposeKeySignature('G', -1)).toBe('F#');
   });
 });

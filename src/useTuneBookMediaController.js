@@ -79,7 +79,7 @@ import {
   updateStemAnalysisJob,
 } from './stemAnalysisJobStore'
 import { syncPlaybackRoute } from './playbackRouteSync'
-import { isQueueActive, getCurrentTuneId, getCurrentItem, isStandaloneExternalQueueItem } from './nowPlayingQueue'
+import { isQueueActive, getCurrentTuneId, getCurrentItem, isStandaloneExternalQueueItem, endStopAfterCurrent } from './nowPlayingQueue'
 import { isQueueItemPlayable, getResolverProxiedMediaAuthBlock } from './playlistPlaybackResilience'
 import { handleQueueAdvanceOnEnded, advanceQueueToPlayableAndStart } from './nowPlayingQueuePlayback'
 import { prefetchUpcomingQueueItem } from './queueMediaPrefetch'
@@ -5206,6 +5206,12 @@ export default function useTuneBookMediaController(props) {
         return false
     }
 
+    function consumeStopAfterCurrent() {
+        const queue = nowPlayingQueueRef.current
+        if (!isQueueActive(queue) || !queue.stopAfterCurrent || !props.setNowPlayingQueue) return
+        props.setNowPlayingQueue(endStopAfterCurrent(queue))
+    }
+
     function handleMediaPlaybackCompleted() {
         if (shouldIgnorePlaybackEndForManualSkip()) {
             const seconds = getCurrentPlaybackSeconds()
@@ -5254,6 +5260,7 @@ export default function useTuneBookMediaController(props) {
             advanceQueueOnPlaybackEnd()
             return
         }
+        consumeStopAfterCurrent()
         latchPlaybackEndHandling(2000)
         pauseAtRegionStart()
         updateMediaSessionState()

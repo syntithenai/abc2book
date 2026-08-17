@@ -85,6 +85,7 @@ export default function NotationEditorHelp(props) {
               <p>
                 Use the view-mode dropdown in the Music editor header to switch between <strong>Staff</strong>, <strong>Piano roll</strong>,
                 <strong> Staff + Roll</strong>, and <strong>ABC Notes</strong>. The active voice determines what you edit; check voice boxes to show multiple parts in the preview.
+                Next to <strong>Search</strong>, <strong>Select</strong> imports a local score file (ABC, MusicXML, MuseScore, or MIDI). MIDI files open the MIDI import wizard; if the tune already has notation, Import Review lets you keep the current score or use the import.
               </p>
               <p>
                 Toolbars use compact dropdown menus (like bar lines): durations, tools, marks, tuplets, accidentals, and MIDI options.
@@ -174,6 +175,12 @@ export default function NotationEditorHelp(props) {
                 <li>Type bar lines (<code>|</code>, <code>||</code>, repeats) directly in the text.</li>
                 <li>Edits are saved automatically and stay associated with the voice you are editing.</li>
                 <li>When you switch voices, the textarea and preview reload that voice&apos;s saved ABC.</li>
+                <li>
+                  Use the <strong>Transpose</strong> dropdown to move every voice up or down by a
+                  semitone in the ABC text (key and chord symbols move with the notes). That rewrite
+                  does not change the song transpose setting. Turn on <strong>Transpose preview</strong>
+                  to show the preview at the song transpose without rewriting the ABC.
+                </li>
               </ul>
             </div>
           </section>

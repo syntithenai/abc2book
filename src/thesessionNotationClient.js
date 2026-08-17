@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { normalizeMatchText, scoreNotationCandidate, scoreTitleArtistMatch } from './notationMatchUtils'
+import { normalizeMatchText, scoreNotationCandidate, scoreTitleArtistMatch, buildThesessionSearchQueries } from './notationMatchUtils'
 import { normalizeAbcForImport } from './abcImportNormalize'
 
 const THESESSION_BASE = 'https://thesession.org'
@@ -188,7 +188,28 @@ export async function searchThesessionNotation(options) {
     q: title,
   }, opts.signal)
 
-  const tunes = searchData && Array.isArray(searchData.tunes) ? searchData.tunes : []
+  let tunes = searchData && Array.isArray(searchData.tunes) ? searchData.tunes : []
+  if (!tunes.length) {
+    const fallbackQueries = buildThesessionSearchQueries(title).filter(function(query) {
+      return query.toLowerCase() !== title.toLowerCase()
+    })
+    for (let qi = 0; qi < fallbackQueries.length && !tunes.length; qi += 1) {
+      const fallbackQuery = fallbackQueries[qi]
+      if (typeof opts.onProgress === 'function') {
+        opts.onProgress(
+          'Retrying The Session search as "' + fallbackQuery + '"...',
+          0.18 + (0.04 * (qi + 1) / Math.max(fallbackQueries.length, 1)),
+          'thesession'
+        )
+      }
+      const retryData = await fetchThesessionJson('/tunes/search', {
+        format: 'json',
+        perpage: 50,
+        q: fallbackQuery,
+      }, opts.signal)
+      tunes = retryData && Array.isArray(retryData.tunes) ? retryData.tunes : []
+    }
+  }
   if (!tunes.length) return []
 
   const scored = tunes.map(function(tune) {

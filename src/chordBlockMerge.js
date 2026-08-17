@@ -1409,12 +1409,12 @@ export function reanchorEditorBlocksToMelody(noteLines, sections) {
   })
 }
 
-function restBarForMeter(meter) {
-  const m = normalizeMeter(meter || '4/4')
-  if (m === '3/4') return 'z z z'
-  if (m === '6/8') return 'z2 z2 z2'
-  if (m === '2/4') return 'z z'
-  return 'z z z z'
+function restBarForMeter(meter, noteLength) {
+  const model = getBarModel(meter, noteLength)
+  const n = Math.max(1, model.unitSlotsPerBar)
+  const parts = []
+  for (let i = 0; i < n; i++) parts.push('z')
+  return parts.join(' ')
 }
 
 /**
@@ -1423,12 +1423,12 @@ function restBarForMeter(meter) {
  * stay "z | z |" rather than switching to beat-split "z z z z".
  * Chord symbols are stripped from the template so padding never copies "Em".
  */
-export function restStrainTextForBarCount(barCount, meter, templateBar) {
+export function restStrainTextForBarCount(barCount, meter, templateBar, noteLength) {
   const n = Math.max(1, barCount | 0)
   let unit = String(templateBar == null ? '' : templateBar).trim().replace(/\|+$/, '').trim()
   unit = unit.replace(/"[^"]*"/g, '').trim()
   if (!unit || barHasPitch(unit)) {
-    unit = restBarForMeter(meter)
+    unit = restBarForMeter(meter, noteLength)
   }
   const parts = []
   for (let i = 0; i < n; i++) parts.push(unit)
@@ -1438,14 +1438,14 @@ export function restStrainTextForBarCount(barCount, meter, templateBar) {
 /**
  * Append pure rest bars onto an existing scaffold strain (preserves chords/rests).
  */
-export function appendRestBarsToStrain(strainText, extraBars, meter, templateBar) {
+export function appendRestBarsToStrain(strainText, extraBars, meter, templateBar, noteLength) {
   const n = Math.max(0, extraBars | 0)
   if (n <= 0) return String(strainText || '')
   let base = String(strainText || '').trim().replace(/\|+\s*$/, '').trim()
   let unit = String(templateBar == null ? '' : templateBar).trim().replace(/\|+$/, '').trim()
   unit = unit.replace(/"[^"]*"/g, '').trim()
   if (!unit || barHasPitch(unit)) {
-    unit = restBarForMeter(meter)
+    unit = restBarForMeter(meter, noteLength)
   }
   const pads = []
   for (let i = 0; i < n; i++) pads.push(unit)
@@ -1459,7 +1459,7 @@ export function appendRestBarsToStrain(strainText, extraBars, meter, templateBar
  * Appends rest bars when the chart is longer — including after pitched melody —
  * so adding a bar in the chords editor updates notation instead of being dropped.
  */
-export function expandRestStrainsToMatchCharts(noteLines, blocks, defaultMeter) {
+export function expandRestStrainsToMatchCharts(noteLines, blocks, defaultMeter, noteLength) {
   const lines = Array.isArray(noteLines) ? noteLines.slice() : []
   const list = Array.isArray(blocks)
     ? blocks.map(function(b) { return b ? Object.assign({}, b) : b })
@@ -1496,7 +1496,8 @@ export function expandRestStrainsToMatchCharts(noteLines, blocks, defaultMeter) 
       strain.text,
       chartBars - strainBars,
       block.meter || meter,
-      template
+      template,
+      noteLength
     )
     strainsExpanded = true
   })
@@ -1526,7 +1527,7 @@ export function expandRestStrainsToMatchCharts(noteLines, blocks, defaultMeter) 
  * Inserts at each block's editor position (not only at the end of the tune).
  * New and existing rest strains are sized to each block's chord-grid bar count.
  */
-export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
+export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter, noteLength) {
   const lines = Array.isArray(noteLines) ? noteLines.slice() : []
   let list = Array.isArray(blocks) ? blocks.map(function(b) {
     return b ? Object.assign({}, b) : b
@@ -1562,7 +1563,7 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
   const needs = list.filter(function(b) { return b && b.needsAbcExpand })
   const expandCount = Math.max(needs.length, deficit, explicitNeeds)
   if (expandCount === 0) {
-    return expandRestStrainsToMatchCharts(lines, list, defaultMeter)
+    return expandRestStrainsToMatchCharts(lines, list, defaultMeter, noteLength)
   }
 
   const meter = normalizeMeter(defaultMeter || '4/4')
@@ -1577,7 +1578,7 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
     const blockMeter = normalizeMeter(block.meter || meter)
     if (needsNew) {
       newStrains.push({
-        text: restStrainTextForBarCount(chartBars, blockMeter),
+        text: restStrainTextForBarCount(chartBars, blockMeter, null, noteLength),
         startBarline: position > 0 ? '||' : null,
         endBarline: null,
       })
@@ -1596,7 +1597,8 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
           text,
           chartBars - srcBars,
           blockMeter,
-          templateBars.length ? templateBars[templateBars.length - 1] : ''
+          templateBars.length ? templateBars[templateBars.length - 1] : '',
+          noteLength
         )
       }
       newStrains.push({
@@ -1607,7 +1609,7 @@ export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
       nextSourceIndex = Math.max(nextSourceIndex, si >= 0 ? si + 1 : nextSourceIndex + 1)
     } else {
       newStrains.push({
-        text: restStrainTextForBarCount(chartBars, blockMeter),
+        text: restStrainTextForBarCount(chartBars, blockMeter, null, noteLength),
         startBarline: position > 0 ? '||' : null,
         endBarline: null,
       })
@@ -1890,8 +1892,9 @@ function splicePrimaryVoiceNotes(abcString, noteLines, abcTools, voicesHint) {
 }
 
 /**
- * Normalize mergeChords note body (often multi-line) onto strain layout:
- * prefer a single primary-voice note stream joined with existing || markers.
+ * Normalize mergeChords note body onto voice note lines.
+ * Chord-chart line breaks become ABC system breaks; blank chart lines
+ * already became || strain markers inside mergeChords.
  */
 function noteLinesFromMergedBody(mergedBody, abcTools) {
   const text = String(mergedBody || '')
@@ -1902,9 +1905,7 @@ function noteLinesFromMergedBody(mergedBody, abcTools) {
   const lines = String(notes).split('\n').map(function(line) {
     return String(line || '').trim()
   }).filter(Boolean)
-  if (lines.length <= 1) return lines.length ? lines : ['']
-  // Flatten system breaks into one voice line; strain boundaries stay as ||.
-  return [lines.join(' ')]
+  return lines.length ? lines : ['']
 }
 
 /**
@@ -2097,17 +2098,42 @@ export function rebuildNoteLinesFromMergedStrains(originalNoteLines, strains, up
     })
   }
 
-  if (inputs.length <= 1) {
-    let joined = ''
-    strains.forEach(function(s, i) {
-      if (i > 0) {
-        joined += strainJoinSeparator(strains[i - 1], s)
-      }
-      joined += updatedStrainTexts[i] || ''
+  if (countMelodyLines(inputs) <= 1) {
+    const out = []
+    inputs.forEach(function(line) {
+      if (isVoicePrefixLine(line)) out.push(line)
     })
-    const single = joined.trim()
-    if (!single) return inputs.length ? inputs.slice() : ['']
-    return [single]
+    function closePreviousLine(separator) {
+      if (!out.length || separator !== ' || ') return
+      const last = out[out.length - 1]
+      if (/(:\|:|:\||\|\||\|\])\s*$/.test(last)) return
+      out[out.length - 1] = last.replace(/\s*\|\s*$/, '') + '||'
+    }
+    strainList.forEach(function(s, i) {
+      const raw = String(
+        mergedStrainTexts[i] != null ? mergedStrainTexts[i] : (s && s.text) || ''
+      ).trim()
+      if (!raw) return
+      const pieces = raw.split('\n').map(function(piece) {
+        return String(piece || '').trim()
+      }).filter(Boolean)
+      if (!pieces.length) return
+      if (i > 0) {
+        const prevText = out.length ? out[out.length - 1] : (strainList[i - 1] && strainList[i - 1].text) || ''
+        const sep = strainJoinSeparator(
+          Object.assign({}, strainList[i - 1], { text: prevText }),
+          s
+        )
+        if (sep === ' |: ' && !/^\|:/.test(pieces[0])) {
+          pieces[0] = '|: ' + pieces[0].replace(/^\|:\s*/, '')
+        } else {
+          closePreviousLine(sep)
+        }
+      }
+      pieces.forEach(function(piece) { out.push(piece) })
+    })
+    if (!out.length) return inputs.length ? inputs.slice() : ['']
+    return out
   }
 
   let strainCursor = 0
@@ -2189,7 +2215,9 @@ function melodyTextFromMergeChordsOutput(mergedMini, abcTools) {
   const lines = (/^(X:|M:|L:|K:)/m.test(raw)
     ? abcTools.justNotes(raw).split('\n')
     : raw.split('\n'))
-  return flattenMelodyText(lines).replace(/^\|:\s*/, '').trim()
+  return lines.map(function(line) {
+    return String(line || '').trim()
+  }).filter(Boolean).join('\n').replace(/^\|:\s*/, '').trim()
 }
 
 function chartHasMergeableContent(chart) {
@@ -2360,16 +2388,18 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
   let joined = ''
   strains.forEach(function(s, i) {
     if (i > 0) {
-      joined += strainJoinSeparator(strains[i - 1], s)
+      joined += strainJoinSeparator(
+        Object.assign({}, strains[i - 1], { text: rebuilt[i - 1] }),
+        s
+      )
     } else if (s.startBarline === '|:' || (i === strainIndex && block.strainStartBarline === '|:')) {
       // first strain with left repeat — keep if present in text
     }
-    const piece = i === strainIndex ? strainOut : s.text
-    joined += piece
+    joined += rebuilt[i]
   })
-
-  void rebuilt
-  const newNoteLines = [joined.trim()]
+  const newNoteLines = String(joined || '').trim().split('\n').map(function(line) {
+    return String(line || '').trim()
+  }).filter(Boolean)
   const afterOutside = notesFingerprintOutsideBlocks(newNoteLines, null, [strainIndex])
   // Recompute outside fingerprint using original strain texts for non-edited
   const afterStrains = splitMelodyStrainsWithBarlines(newNoteLines)
@@ -2438,11 +2468,17 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     }
   }))
 
-  if (opts.wipeNotation) {
+  const probeNotes = noteLinesForMelodyMerge(primaryVoiceNotesForMerge(abcString, abcTools, opts))
+  const shouldWipe = !!opts.wipeNotation
+    || !noteLinesHaveRealMelody(probeNotes)
+    || !!(opts.tune && opts.tune.timingScaffold)
+
+  if (shouldWipe) {
     const header = headerFromAbc(abcString, abcTools)
     const firstMeter = firstSectionMeter(list, header.meter)
     const firstKey = firstSectionKey(list, header.key)
     const firstTempo = firstSectionTempo(list, header.abcJson && header.abcJson.tempo)
+    const restUnit = restBarForMeter(firstMeter, header.noteLength)
     const emptyAbc = [
       'X:1',
       'T:',
@@ -2450,7 +2486,7 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
       'L:' + header.noteLength,
       'Q:1/4=' + firstTempo,
       'K:' + firstKey,
-      'z |',
+      restUnit + ' |',
     ].join('\n')
     try {
       const merged = abcjsParser.mergeChords(grid, emptyAbc, opts.chordSheetAlignment || null)
@@ -2469,7 +2505,13 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
 
   let noteLines = primaryVoiceNotesForMerge(abcString, abcTools, opts)
   let workingBlocks = list
-  const expand = autoExpandNoteLinesForBlocks(noteLines, list, opts.defaultMeter)
+  const headerEarly = headerFromAbc(abcString, abcTools)
+  const expand = autoExpandNoteLinesForBlocks(
+    noteLines,
+    list,
+    opts.defaultMeter,
+    headerEarly.noteLength
+  )
   if (expand.error) {
     return { ok: false, error: expand.error }
   }
@@ -2594,7 +2636,9 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
       const padded = appendRestBarsToStrain(
         strainText,
         chartForMergeBars - bars.length,
-        blockMeter
+        blockMeter,
+        '',
+        header.noteLength
       )
       updatedStrainTexts[strainIndex] = padded
       strainText = padded
@@ -2713,14 +2757,6 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     if (b && !b.chartRevisit && chartHasMergeableContent(b.chart)) {
       editedStrainIndexes[b.melodyStrainIndex] = true
     }
-  })
-
-  let joined = ''
-  strains.forEach(function(s, i) {
-    if (i > 0) {
-      joined += strainJoinSeparator(strains[i - 1], s)
-    }
-    joined += updatedStrainTexts[i]
   })
 
   let notesOut = rebuildNoteLinesFromMergedStrains(
@@ -3006,7 +3042,7 @@ export function applyBlockMergeToTune(tune, options) {
     : firstSectionTempo(blocks, abcJson.tempo || tune.tempo)
   if (firstTempo) tune.tempo = firstTempo
 
-  if (opts.wipeNotation || opts.clearTransientTimed) {
+  if (opts.wipeNotation || opts.clearTransientTimed || result.wiped) {
     clearTransientTimedFields(tune)
   }
 

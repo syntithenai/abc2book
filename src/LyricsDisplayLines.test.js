@@ -43,6 +43,8 @@ describe('LyricsDisplayLines helpers', function() {
   test('displaySectionHeader returns null for empty input', function() {
     expect(displaySectionHeader('')).toBe(null);
     expect(displaySectionHeader('[]')).toBe(null);
+    expect(displaySectionHeader('# @1')).toBe(null);
+    expect(displaySectionHeader('#')).toBe(null);
     expect(displaySectionHeader(null)).toBe(null);
   });
 

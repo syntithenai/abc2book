@@ -241,6 +241,18 @@ STEM_CACHE_DIR = os.getenv("STEM_CACHE_DIR", "/tmp/stem-cache")
 STEM_SEPARATION_TIMEOUT_SECONDS = float(os.getenv("STEM_SEPARATION_TIMEOUT_SECONDS", "900"))
 FFMPEG_TIMEOUT_SECONDS = float(os.getenv("FFMPEG_TIMEOUT_SECONDS", "120"))
 YTDLP_TIMEOUT_SECONDS = float(os.getenv("YTDLP_TIMEOUT_SECONDS", "300"))
+# Skip android_vr DASH (itag 251 etc.) — those googlevideo URLs now 403 without a GVS PO token.
+# Web/TV clients need Deno in PATH for n-sig / ejs. Override with YTDLP_YOUTUBE_EXTRACTOR_ARGS.
+YTDLP_YOUTUBE_EXTRACTOR_ARGS = os.getenv(
+    "YTDLP_YOUTUBE_EXTRACTOR_ARGS",
+    "youtube:player_client=default,-android_vr",
+).strip()
+# Last resort: android client best-audio (ba/b). android_vr DASH often 403s without a PO token.
+YTDLP_YOUTUBE_FALLBACK_EXTRACTOR_ARGS = os.getenv(
+    "YTDLP_YOUTUBE_FALLBACK_EXTRACTOR_ARGS",
+    "youtube:player_client=android",
+).strip()
+YTDLP_YOUTUBE_FALLBACK_FORMAT = os.getenv("YTDLP_YOUTUBE_FALLBACK_FORMAT", "ba/b").strip() or "ba/b"
 UPSTREAM_FETCH_TIMEOUT_SECONDS = float(os.getenv("UPSTREAM_FETCH_TIMEOUT_SECONDS", "120"))
 HTDEMUCS_STEMS = ("drums", "bass", "other", "vocals")
 
@@ -1204,7 +1216,47 @@ HTML_AUDIO_YTDLP_FORMAT = (
 )
 
 
-def build_ytdlp_cmd_for_url(target_url, stream_to_stdout=False, proxy=None, format_selector=None):
+def is_youtube_target_url(target_url):
+    url = str(target_url or "").strip().lower()
+    if not url:
+        return False
+    return "youtube.com" in url or "youtu.be" in url
+
+
+def ytdlp_forbidden_error(stderr_text):
+    text = stderr_text or ""
+    return "HTTP Error 403" in text or "403: Forbidden" in text
+
+
+def ytdlp_should_retry_youtube(error_text):
+    """Try android fallback when web/TV clients expose no audio or block download."""
+    text = error_text or ""
+    if ytdlp_forbidden_error(text):
+        return True
+    return (
+        "Requested format is not available" in text
+        or "Only images are available" in text
+        or "Signature solving failed" in text
+    )
+
+
+def youtube_ytdlp_attempts(format_selector=None):
+    """Primary web/TV clients, then android best-audio if formats are missing or blocked."""
+    primary_format = format_selector or "ba/b"
+    attempts = [(YTDLP_YOUTUBE_EXTRACTOR_ARGS, primary_format)]
+    fallback = (YTDLP_YOUTUBE_FALLBACK_EXTRACTOR_ARGS, YTDLP_YOUTUBE_FALLBACK_FORMAT)
+    if fallback not in attempts:
+        attempts.append(fallback)
+    return attempts
+
+
+def build_ytdlp_cmd_for_url(
+    target_url,
+    stream_to_stdout=False,
+    proxy=None,
+    format_selector=None,
+    extractor_args=None,
+):
     cmd = [
         "yt-dlp",
         "--no-playlist",
@@ -1220,6 +1272,13 @@ def build_ytdlp_cmd_for_url(target_url, stream_to_stdout=False, proxy=None, form
     effective_proxy = (proxy or "").strip() or YTDLP_PROXY
     if effective_proxy:
         cmd.extend(["--proxy", effective_proxy])
+
+    if is_youtube_target_url(target_url):
+        args = YTDLP_YOUTUBE_EXTRACTOR_ARGS if extractor_args is None else extractor_args
+        if args:
+            cmd.extend(["--extractor-args", args])
+        if shutil.which("deno"):
+            cmd.extend(["--js-runtimes", "deno"])
 
     if stream_to_stdout:
         cmd.extend(["-o", "-"])
@@ -1256,6 +1315,13 @@ def ytdlp_error_hint(stderr_text):
     hint = stderr_text or "yt-dlp produced no audio output"
     if "Sign in to confirm" in hint or "LOGIN_REQUIRED" in hint:
         hint += " — export YouTube cookies to local-resolver/secrets/youtube-cookies.txt"
+    elif ytdlp_forbidden_error(hint):
+        hint += (
+            " — YouTube blocked the audio download (PO token / IP). "
+            "Rebuild the resolver (docker compose up --build), export cookies to "
+            "local-resolver/secrets/youtube-cookies.txt, set a residential proxy in "
+            "Settings → Providers, or play the video once so analysis can use cached audio"
+        )
     elif (
         "Requested format is not available" in hint
         or "Only images are available" in hint
@@ -1358,18 +1424,20 @@ def sniff_audio_media_type(first_chunk: bytes) -> str:
     return "audio/mpeg"
 
 
-async def stream_url_via_ytdlp(
+async def _stream_url_via_ytdlp_once(
     target_url,
     proxy=None,
     billing_email=None,
     billing_path="ytdlp-audio",
     format_selector=None,
+    extractor_args=None,
 ):
     cmd = build_ytdlp_cmd_for_url(
         target_url,
         stream_to_stdout=True,
         proxy=proxy,
         format_selector=format_selector,
+        extractor_args=extractor_args,
     )
 
     proc = await asyncio.create_subprocess_exec(
@@ -1414,6 +1482,42 @@ async def stream_url_via_ytdlp(
     ), None
 
 
+async def stream_url_via_ytdlp(
+    target_url,
+    proxy=None,
+    billing_email=None,
+    billing_path="ytdlp-audio",
+    format_selector=None,
+    extractor_args=None,
+):
+    if not is_youtube_target_url(target_url) or extractor_args is not None:
+        return await _stream_url_via_ytdlp_once(
+            target_url,
+            proxy=proxy,
+            billing_email=billing_email,
+            billing_path=billing_path,
+            format_selector=format_selector,
+            extractor_args=extractor_args,
+        )
+
+    last_error = None
+    for args, fmt in youtube_ytdlp_attempts(format_selector):
+        response, error = await _stream_url_via_ytdlp_once(
+            target_url,
+            proxy=proxy,
+            billing_email=billing_email,
+            billing_path=billing_path,
+            format_selector=fmt,
+            extractor_args=args,
+        )
+        if response:
+            return response, None
+        last_error = error
+        if not ytdlp_should_retry_youtube(error or ""):
+            return None, error
+    return None, last_error
+
+
 async def fetch_youtube_audio_bytes(video_id, proxy=None):
     return await fetch_url_audio_bytes(
         "https://www.youtube.com/watch?v=" + str(video_id or "").strip(),
@@ -1421,8 +1525,14 @@ async def fetch_youtube_audio_bytes(video_id, proxy=None):
     )
 
 
-async def fetch_url_audio_bytes(target_url, proxy=None):
-    cmd = build_ytdlp_cmd_for_url(target_url, stream_to_stdout=True, proxy=proxy)
+async def _fetch_url_audio_bytes_once(target_url, proxy=None, format_selector=None, extractor_args=None):
+    cmd = build_ytdlp_cmd_for_url(
+        target_url,
+        stream_to_stdout=True,
+        proxy=proxy,
+        format_selector=format_selector,
+        extractor_args=extractor_args,
+    )
     proc = await asyncio.create_subprocess_exec(
         *cmd,
         stdout=asyncio.subprocess.PIPE,
@@ -1443,6 +1553,31 @@ async def fetch_url_audio_bytes(target_url, proxy=None):
         return None, None, "Media file too large"
 
     return stdout, "audio/mpeg", None
+
+
+async def fetch_url_audio_bytes(target_url, proxy=None, format_selector=None, extractor_args=None):
+    if not is_youtube_target_url(target_url) or extractor_args is not None:
+        return await _fetch_url_audio_bytes_once(
+            target_url,
+            proxy=proxy,
+            format_selector=format_selector,
+            extractor_args=extractor_args,
+        )
+
+    last_error = None
+    for args, fmt in youtube_ytdlp_attempts(format_selector):
+        audio, content_type, error = await _fetch_url_audio_bytes_once(
+            target_url,
+            proxy=proxy,
+            format_selector=fmt,
+            extractor_args=args,
+        )
+        if audio:
+            return audio, content_type, None
+        last_error = error
+        if not ytdlp_should_retry_youtube(error or ""):
+            return None, None, error
+    return None, None, last_error
 
 
 async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=None):
@@ -1482,6 +1617,7 @@ async def resolve_linked_media_audio_bytes(source_url, source_type="", proxy=Non
         video_id = extract_youtube_video_id(source_url)
         if not video_id:
             raise HTTPException(status_code=400, detail="Invalid YouTube URL")
+        ensure_youtube_egress_allowed(proxy or "")
         audio_bytes, content_type, error = await fetch_youtube_audio_bytes(video_id, proxy=proxy)
         if error:
             raise HTTPException(
@@ -3053,6 +3189,7 @@ async def _resolve_audio_payload(request, file, payload=None):
     audio_bytes, filename, content_type = await resolve_linked_media_audio_bytes(
         source_url,
         source_type,
+        proxy=resolve_ytdlp_proxy_from_request(request),
     )
 
     start_at = _parse_optional_seconds(payload.get("startAt"))
@@ -3426,6 +3563,7 @@ async def detect_chords(
                 audio_bytes, filename, content_type = await resolve_linked_media_audio_bytes(
                     source_url,
                     source_type,
+                    proxy=resolve_ytdlp_proxy_from_request(request),
                 )
             except HTTPException as exc:
                 return json_error(exc.status_code, str(exc.detail), origin)
@@ -3607,6 +3745,7 @@ async def transcribe(
                 audio_bytes, filename, content_type = await resolve_linked_media_audio_bytes(
                     source_url,
                     source_type,
+                    proxy=resolve_ytdlp_proxy_from_request(request),
                 )
             except HTTPException as exc:
                 return json_error(exc.status_code, str(exc.detail), origin)

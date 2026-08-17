@@ -330,6 +330,31 @@ describe('chord block alignment against melody double barlines', function() {
     expect(editorText).toMatch(/\[2/);
   });
 
+  test('chords extracted from notation keep ABC system line breaks in the editor', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const noteLines = [
+      '"C"c2 d2 | "G"e2 f2 |',
+      '"Am"g2 a2 | "F"b2 c2 ||',
+    ];
+    const melodyAbc = abcTools.emptyABC('LineBreaks') + noteLines.join('\n');
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'C', '1/4', '4/4');
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/4', '4/4');
+    expect(editorChart).toMatch(/\n/);
+    const built = buildUnifiedBlocks({
+      noteLines: abcTools.justNotes(melodyAbc).split('\n'),
+      chordChart: editorChart,
+      displayChordChart: displayChart,
+      defaultMeter: '4/4',
+      defaultNoteLength: '1/4',
+    });
+    expect(built.blocks.length).toBe(1);
+    expect(built.blocks[0].chart).toMatch(/\n/);
+    const editorText = formatSectionChartForEditor(built.blocks[0]);
+    expect(editorText).toMatch(/\n/);
+    expect(editorText.split('\n').filter(Boolean).length).toBeGreaterThan(1);
+  });
+
   test('chords do not leak across lyric line boundaries (line-for-line chart)', function() {
     // two chart lines, two lyric lines: each lyric line gets only its own
     // chords rather than a chord from the next line bleeding onto this one.

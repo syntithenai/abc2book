@@ -132,7 +132,7 @@ export function HelpEditMusic() {
       <p>From a tune page: tune menu → <strong>Edit</strong>.</p>
       <p>Editor tabs:</p>
       <ul>
-        <li><strong>Music</strong> — staff notation editor (notes, bar lines, marks). Full guide: <a href="#notation-editor">Notation editor</a>. Use <strong>Search</strong> to find notation from The Session, ABC sites, public MuseScore.com scores, and (ranked lower) MIDI from known sites — up to 20 suggestions. Paste a musescore.com score URL or a direct <code>.mid</code> URL into the search query to import when available.</li>
+        <li><strong>Music</strong> — staff notation editor (notes, bar lines, marks). Full guide: <a href="#notation-editor">Notation editor</a>. Use <strong>Search</strong> to find notation from The Session, ABC sites, public MuseScore.com scores, and (ranked lower) MIDI from known sites — up to 20 suggestions. Paste a musescore.com score URL or a direct <code>.mid</code> URL into the search query to import when available. Use <strong>Select</strong> (to the right of Search) to import a local ABC, MusicXML, MuseScore, or MIDI file; MIDI opens the import wizard, and existing notation is merged in Import Review.</li>
         <li><strong>Info</strong> — metadata, tablature, <strong>Background information</strong> (with <strong>Research Background</strong> when resolver available)</li>
         <li><strong>Lyrics</strong> — <strong>Search Lyrics</strong>, lyrics textarea</li>
         <li><strong>Chords</strong> — <strong>Search Chords</strong>, Reset, <strong>Save</strong></li>

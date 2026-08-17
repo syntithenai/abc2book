@@ -98,6 +98,32 @@ describe('playlistPlaybackResilience', function() {
     expect(isQueueItemPlayable(tunes.empty, { tuneId: 'empty' }, tunebook)).toBe(false)
   })
 
+  test('advanceQueueToNextPlayable skips chords-only midi when there are no media links', async function() {
+    const chordsTunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && (tune.notes || tune.chords)) },
+      hasNotes: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) {
+        return !!(tune && tune.links && tune.links.length > 0)
+      },
+    }
+    const localTunes = {
+      chords: { id: 'chords', chords: true },
+      midi: { id: 'midi', notes: 'CDEF' },
+    }
+    const queue = createQueue({
+      tuneIds: ['chords', 'midi'],
+      currentIndex: 0,
+    })
+    expect(isQueueItemPlayable(localTunes.chords, { tuneId: 'chords' }, chordsTunebook)).toBe(false)
+    const result = await advanceQueueToNextPlayable(queue, localTunes, chordsTunebook, {
+      direction: 1,
+      advanceFirst: false,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(1)
+    expect(result.tune.id).toBe('midi')
+  })
+
   test('findFirstPlayableQueueIndex skips empty tunes', function() {
     const queue = createQueue({ tuneIds: ['empty', 'midi', 'media'] })
     expect(findFirstPlayableQueueIndex(queue, tunes, tunebook)).toBe(1)

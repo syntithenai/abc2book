@@ -77,8 +77,16 @@ export default function MediaImportAnalyzeToolbar(props) {
   const preferredLinkIndex = props.preferredLinkIndex;
 
   const preferredSource = useMemo(function() {
-    return getLinkedMediaSourceByIndex(tune, props.tunebook, preferredLinkIndex);
-  }, [tune, props.tunebook, preferredLinkIndex]);
+    const fromTune = getLinkedMediaSourceByIndex(tune, props.tunebook, preferredLinkIndex);
+    if (fromTune) return fromTune;
+    if (preferredLinkIndex === null || preferredLinkIndex === undefined) return null;
+    for (let i = 0; i < mediaSources.length; i++) {
+      if (Number(mediaSources[i].linkIndex) === Number(preferredLinkIndex)) {
+        return mediaSources[i];
+      }
+    }
+    return null;
+  }, [tune, props.tunebook, preferredLinkIndex, mediaSources]);
 
   const ensurePlayRange = useCallback(async function(source, currentTune) {
     if (!source || source.linkIndex == null || !currentTune || !currentTune.id) {
@@ -125,9 +133,7 @@ export default function MediaImportAnalyzeToolbar(props) {
     ensurePlayRange,
   ]);
 
-  const canStartAnalysis = canAnalyzeMedia
-    && (preferredSource || mediaSources.length > 0)
-    && !(preferredLinkIndex !== null && preferredLinkIndex !== undefined && !preferredSource);
+  const canStartAnalysis = canAnalyzeMedia && !!(preferredSource || mediaSources.length > 0);
 
   const startAnalysis = useCallback(function(overrides) {
     const options = getAnalysisOptions(overrides);

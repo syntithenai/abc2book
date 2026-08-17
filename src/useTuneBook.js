@@ -128,7 +128,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
   }
 
   function playbackApi() {
-    return { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }
+    return { hasNotesOrChords: hasNotesOrChords, hasNotes: hasNotes, hasLinks: hasLinks }
   }
 
   function maybeAnnounceFootPedalOpening(opts, tuneOrId) {
@@ -2463,7 +2463,7 @@ The main difference between the two functions is the additional condition in app
 
     function fillAbcPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists, filterAlbums) {
         var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists, albumFilter: filterAlbums })
-        var midiTunes = built.tunes.filter(function(tune) { return hasNotesOrChords(tune) })
+        var midiTunes = built.tunes.filter(function(tune) { return hasNotes(tune) })
         if (!midiTunes.length) return null
         var queue = createQueue({
           tuneIds: tuneIdsFromTunes(midiTunes, PLAYLIST_MAX_ITEMS),

@@ -3,6 +3,7 @@ import {
   getCurrentItem,
   getCurrentTuneId,
   endPreviewOnce,
+  endStopAfterCurrent,
   resolvePlaybackForItem,
   buildPlaybackPath,
   shouldSuppressFollowNavigate,
@@ -356,6 +357,12 @@ export function handleQueueAdvanceOnEnded(params) {
       stopPlaylistPlayback(mediaController)
     }
     return true
+  }
+
+  if (queue.stopAfterCurrent) {
+    setQueue(queueWithLatestPlaybackPreferences(endStopAfterCurrent(queue), params.getLatestQueue))
+    if (failCallback) failCallback()
+    return false
   }
 
   if (isRepeatTrack(queue)) {

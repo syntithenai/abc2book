@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TuneBook Helper",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Loads audio in your browser so Tunebook can pitch-shift, filter, and cache linked media without a resolver.",
   "icons": {
     "16": "icons/icon16.png",

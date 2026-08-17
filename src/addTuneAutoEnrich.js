@@ -713,7 +713,7 @@ export async function runAddTuneAutoEnrich(options) {
       updateState(tuneId, {
         pending: false,
         progress: 100,
-        message: 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.',
+        message: 'MuseScore matches require PRO or purchase; try ABC or MusicXML sources instead.',
         failure: '',
         summary: enrichmentSummary,
         needsChordPaste: false,

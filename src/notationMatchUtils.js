@@ -17,6 +17,107 @@ export function stripNotationMatchDecorations(value) {
     .trim()
 }
 
+const NOTATION_TUNE_TYPE_RE = /\b(reels?|jigs?|hornpipes?|slip\s*jigs?|polkas?|slides?|strathspeys?|barndances?|mazurkas?|waltzes?|marches?|airs?|songs?|tunes?)\b/gi
+
+export function stripNotationQueryDecorations(value) {
+  let text = stripNotationMatchDecorations(String(value || ''))
+  text = text.replace(NOTATION_TUNE_TYPE_RE, ' ').replace(/\s+/g, ' ').trim()
+  text = text.replace(/^the\s+/i, '').trim()
+  return text
+}
+
+function levenshteinDistance(a, b) {
+  const left = String(a || '')
+  const right = String(b || '')
+  if (left === right) return 0
+  if (!left.length) return right.length
+  if (!right.length) return left.length
+  const matrix = []
+  for (let i = 0; i <= right.length; i += 1) matrix[i] = [i]
+  for (let j = 0; j <= left.length; j += 1) matrix[0][j] = j
+  for (let i = 1; i <= right.length; i += 1) {
+    for (let j = 1; j <= left.length; j += 1) {
+      if (right.charAt(i - 1) === left.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1]
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1
+        )
+      }
+    }
+  }
+  return matrix[right.length][left.length]
+}
+
+function notationTitleMatchKey(value) {
+  return normalizeMatchText(stripNotationQueryDecorations(value))
+}
+
+export function fuzzyNotationTitleSimilarity(titleA, titleB) {
+  const keyA = notationTitleMatchKey(titleA)
+  const keyB = notationTitleMatchKey(titleB)
+  if (!keyA || !keyB) return 0
+  if (keyA === keyB) return 1
+  if (meaningfulSubstringOverlap(keyA, keyB)) {
+    const shorter = Math.min(keyA.length, keyB.length)
+    const longer = Math.max(keyA.length, keyB.length)
+    return shorter / longer
+  }
+  const distance = levenshteinDistance(keyA, keyB)
+  const longer = Math.max(keyA.length, keyB.length)
+  if (!longer) return 0
+  return Math.max(0, 1 - (distance / longer))
+}
+
+export function editDistanceOneVariants(word) {
+  const value = String(word || '').toLowerCase()
+  if (value.length < 4) return []
+  const variants = []
+  const seen = new Set()
+  function push(item) {
+    if (!item || item === value || item.length < 4 || seen.has(item)) return
+    seen.add(item)
+    variants.push(item)
+  }
+  for (let i = 0; i < value.length; i += 1) {
+    push(value.slice(0, i) + value.slice(i + 1))
+  }
+  for (let i = 0; i < value.length - 1; i += 1) {
+    push(value.slice(0, i) + value[i + 1] + value[i] + value.slice(i + 2))
+  }
+  return variants
+}
+
+export function buildThesessionSearchQueries(title) {
+  const queries = []
+  const seen = new Set()
+  function add(query) {
+    const text = String(query || '').trim()
+    if (!text) return
+    const key = text.toLowerCase()
+    if (seen.has(key)) return
+    seen.add(key)
+    queries.push(text)
+  }
+
+  const base = String(title || '').trim()
+  if (!base) return queries
+  add(base)
+
+  const stripped = stripNotationQueryDecorations(base)
+  if (stripped && stripped.toLowerCase() !== base.toLowerCase()) add(stripped)
+
+  const words = stripped.split(/\s+/).filter(function(word) {
+    return word.length >= 4
+  }).sort(function(a, b) { return b.length - a.length })
+  words.slice(0, 2).forEach(function(word) {
+    editDistanceOneVariants(word).forEach(add)
+  })
+  return queries.slice(0, 12)
+}
+
 function meaningfulSubstringOverlap(a, b) {
   if (!a || !b) return false
   if (a.indexOf(b) === -1 && b.indexOf(a) === -1) return false
@@ -26,16 +127,35 @@ function meaningfulSubstringOverlap(a, b) {
   return shorter >= 5 && (shorter / longer) >= 0.65
 }
 
+function fuzzyTitleMatchScoreFromKeys(titleKey, candidateTitleKey) {
+  if (!titleKey || !candidateTitleKey) return 0
+  if (titleKey === candidateTitleKey) return 80
+  if (meaningfulSubstringOverlap(titleKey, candidateTitleKey)) return 45
+  const distance = levenshteinDistance(titleKey, candidateTitleKey)
+  const longer = Math.max(titleKey.length, candidateTitleKey.length)
+  if (!longer) return 0
+  const similarity = Math.max(0, 1 - (distance / longer))
+  if (similarity >= 0.92) return 78
+  if (similarity >= 0.85) return 68
+  if (similarity >= 0.78) return 58
+  if (similarity >= 0.72) return 48
+  return 0
+}
+
+
 export function scoreTitleArtistMatch(candidateTitle, candidateArtist, title, artist) {
-  const titleKey = normalizeMatchText(stripNotationMatchDecorations(title))
+  const titleKey = notationTitleMatchKey(title)
   const artistKey = normalizeMatchText(artist)
-  const candidateTitleKey = normalizeMatchText(stripNotationMatchDecorations(candidateTitle))
+  const candidateTitleKey = notationTitleMatchKey(candidateTitle)
   const candidateArtistKey = normalizeMatchText(candidateArtist)
   let score = 0
 
   if (titleKey && candidateTitleKey) {
     if (candidateTitleKey === titleKey) score += 80
     else if (meaningfulSubstringOverlap(titleKey, candidateTitleKey)) score += 45
+    else {
+      score += fuzzyTitleMatchScoreFromKeys(titleKey, candidateTitleKey)
+    }
   }
 
   if (artistKey && candidateArtistKey) {
@@ -176,6 +296,7 @@ export function shouldAutoApplyNotationCandidate(candidate, title, artist, optio
   const isAbc = importFormat === 'abc' && !isArchive
 
   if (fallbackPool) {
+    if (isMidi) return false
     if (!closeTitle) return false
     if (artistKey && isTraditionalNotationSource(source) && artistScore < 30) return false
     return true

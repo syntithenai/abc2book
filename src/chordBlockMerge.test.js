@@ -33,8 +33,10 @@ import {
   alignBlockChartsToMelody,
   applyLeadingChordsFromChart,
   writeChordBlockCache,
+  melodyRestUnitCount,
+  strainJoinSeparator,
 } from './chordBlockMerge'
-import { reconcileChordSectionsFromGrid, applyChordSectionLabels } from './chordsEditorSections'
+import { reconcileChordSectionsFromGrid, applyChordSectionLabels, prepareChordGridDraft } from './chordsEditorSections'
 import { splitChordChartIntoBlocks, extractChordBars } from './chordSheetUtils'
 import { getPlainLyricLines } from './wLinesUtils'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
@@ -1151,6 +1153,192 @@ describe('chordBlockMerge', function() {
     const notes = abcTools.justNotes(result.abc)
     expect(noteLinesHaveRealMelody(notes.split('\n'))).toBe(false)
     expect(notes).toMatch(/Am|F/)
+  })
+
+  test('wipeNotation keeps chord-chart newlines in ABC', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z |')
+    const result = mergeAllChordBlocks(abc, [
+      { chart: 'F | C | G |\nDm | F | C ||', meter: '4/4', chartRevisit: false },
+      { chart: 'Dm | Dm |\nGm Dm ||', meter: '4/4', chartRevisit: false },
+    ], {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      wipeNotation: true,
+    })
+    expect(result.ok).toBe(true)
+    const noteLines = (result.noteLines || []).filter(Boolean)
+    expect(noteLines.length).toBeGreaterThan(1)
+    expect(noteLines.join('\n')).toMatch(/\n/)
+    expect(noteLines[0]).toMatch(/"F"/)
+    expect(noteLines.join('\n')).toMatch(/"Dm"/)
+  })
+
+  test('whole-grid || does not invent an extra rest bar and keeps line breaks', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z |')
+    const tune = abcTools.abc2json(abc)
+    const grid = [
+      'F | C | G | Dm | F | C |',
+      'G | G | G | G | Dm | Dm ||',
+      '',
+      'Dm | Dm | Dm | Dm |',
+      'Dm | Dm | Dm | Gm Dm ||',
+    ].join('\n')
+    const sections = [
+      { key: 'a-0', title: 'A', chart: '', meter: '4/4', tempo: 100, abcKey: 'C' },
+    ]
+    const prep = prepareChordGridDraft(sections, grid, '1/8')
+    expect(prep.ok).toBe(true)
+    const asSections = reconcileChordSectionsFromGrid(
+      sections,
+      prep.grid,
+      '4/4',
+      100,
+      'C'
+    )
+    expect(countChartBars(asSections[0].chart)).toBe(12)
+    expect(countChartBars(asSections[1].chart)).toBe(8)
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: asSections,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: true,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    const voiceKey = Object.keys(tune.voices)[0]
+    const notes = tune.voices[voiceKey].notes
+    expect(notes.length).toBeGreaterThan(1)
+    const joined = notes.join('\n')
+    expect(joined).toMatch(/\n/)
+    expect(joined).not.toMatch(/z+\|\s*\|\|/)
+    expect(extractBarsFromMelodyText(joined).length).toBe(20)
+  })
+
+  test('rest-only chord chart keeps newlines, one || per section, and even rest bars', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z |')
+    const tune = abcTools.abc2json(abc)
+    const grid = [
+      'F | C | G | Dm | F | C |',
+      'G | G | G | G | Dm | Dm ||',
+      '',
+      'Dm | Dm | Dm | Dm |',
+      'Dm | Dm | Dm | Gm Dm ||',
+      '',
+      'C | G | C | Dm |',
+      'Bb | Gm | Gm | A | A | A ||',
+      '',
+      'C F | C F | C F | C F |',
+      'Bb F | C F | Bb F | C F ||',
+    ].join('\n')
+    const sections = [
+      { key: 'a-0', title: 'A', chart: '', meter: '4/4', tempo: 100, abcKey: 'C' },
+    ]
+    const prep = prepareChordGridDraft(sections, grid, '1/8')
+    expect(prep.ok).toBe(true)
+    const asSections = reconcileChordSectionsFromGrid(
+      sections,
+      prep.grid,
+      '4/4',
+      100,
+      'C'
+    )
+    expect(asSections.length).toBe(4)
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: asSections,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    expect(result.wiped).toBe(true)
+    const voiceKey = Object.keys(tune.voices)[0]
+    const notes = tune.voices[voiceKey].notes
+    const joined = notes.join('\n')
+    expect(notes.length).toBeGreaterThan(1)
+    expect(joined).toMatch(/\n/)
+    expect(joined).not.toMatch(/\|\|\s*\|\|/)
+    expect(joined).not.toMatch(/"[^"]+""[^"]+"/)
+    expect(joined).toMatch(/"C".*"F"/)
+    const units = extractBarsFromMelodyText(joined).map(function(bar) {
+      return melodyRestUnitCount(bar)
+    })
+    expect(units.length).toBe(38)
+    units.forEach(function(n) {
+      expect(n).toBe(units[0])
+    })
+    expect(units[0]).toBe(8)
+  })
+
+  test('strainJoinSeparator does not double a trailing section close', function() {
+    expect(strainJoinSeparator({ text: '"Dm"zzzzzzzz||', endBarline: '||' }, { text: '"C"z' })).toBe(' ')
+    expect(strainJoinSeparator({ text: '"C"zzzz :|', endBarline: ':|' }, { text: '"G"z' })).toBe(' ')
+    expect(strainJoinSeparator({ text: '"C"zzzz |', endBarline: '|' }, { text: '"G"z' })).toBe(' || ')
+  })
+
+  test('wipeNotation writes :| section ends into ABC', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z |')
+    const result = mergeAllChordBlocks(abc, [
+      { chart: 'C | G :|', meter: '4/4', chartRevisit: false },
+      { chart: 'Am | F :|', meter: '4/4', chartRevisit: false },
+    ], {
+      abcjsParser: abcjsParser,
+      tunebook: { abcTools: abcTools },
+      wipeNotation: true,
+    })
+    expect(result.ok).toBe(true)
+    const noteLines = (result.noteLines || []).filter(Boolean)
+    const joined = noteLines.join('\n')
+    expect(joined).toMatch(/:\|/)
+    expect(splitMelodyStrainsWithBarlines(noteLines).length).toBe(2)
+    expect(joined).not.toMatch(/z+\|\s*:\|/)
+  })
+
+  test('whole-grid trailing :| splits sections without a blank line', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('z |')
+    const tune = abcTools.abc2json(abc)
+    const grid = [
+      'C | G | Am | F :|',
+      'C | G | Am | F :|',
+    ].join('\n')
+    const sections = [
+      { key: 'a-0', title: 'A', chart: '', meter: '4/4', tempo: 100, abcKey: 'C' },
+    ]
+    const prep = prepareChordGridDraft(sections, grid, '1/8')
+    expect(prep.ok).toBe(true)
+    const asSections = reconcileChordSectionsFromGrid(
+      sections,
+      prep.grid,
+      '4/4',
+      100,
+      'C'
+    )
+    expect(asSections.length).toBe(2)
+    expect(countChartBars(asSections[0].chart)).toBe(4)
+    expect(countChartBars(asSections[1].chart)).toBe(4)
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: asSections,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: true,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    const voiceKey = Object.keys(tune.voices)[0]
+    const notes = tune.voices[voiceKey].notes
+    const joined = notes.join('\n')
+    expect(joined).toMatch(/:\|/)
+    expect(splitMelodyStrainsWithBarlines(notes).length).toBe(2)
   })
 
   test('rest-only full rewrite succeeds', function() {

@@ -27,13 +27,19 @@ export function isVoltaContinuationAfterRepeatEnd(ahead) {
   return false;
 }
 
+const TRAILING_SECTION_CLOSE_RE = /(:\|:|:\||\|\||\|\])\s*$/;
+
 /**
- * Separator when rejoining adjacent strains. Section-ending :| stays in the
- * previous strain text, so do not insert || after it.
+ * Separator when rejoining adjacent strains. Do not insert || when the
+ * previous strain already ends with a section close (`||`, `:|`, `:|:`, `|]`),
+ * including when mergeChords wrote that close into the strain body.
  */
 export function strainJoinSeparator(prevStrain, nextStrain) {
   if (nextStrain && nextStrain.startBarline === '|:') return ' |: ';
-  if (prevStrain && prevStrain.endBarline === ':|') return ' ';
+  const prevText = prevStrain && prevStrain.text != null ? String(prevStrain.text) : '';
+  if (TRAILING_SECTION_CLOSE_RE.test(prevText.trim())) return ' ';
+  const end = prevStrain && prevStrain.endBarline;
+  if (end === ':|' || end === ':|:') return ' ';
   return ' || ';
 }
 

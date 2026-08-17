@@ -60,6 +60,7 @@ import {
   syncChordSectionLabelsFromPrimaryVoice,
   writeChordBlockCache,
   chordNoteLinesFromTune,
+  noteLinesForMelodyMerge,
 } from '../chordBlockMerge'
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 import { fillEmptyTuneFieldsFromMeta } from '../applyChordSheetToTune'
@@ -499,8 +500,7 @@ export default function ChordsWizard(props) {
     }
     const expandNotation = !!opts.expandNotation
     const wipeNotation = !!opts.wipeNotation || (
-      !!opts.rebuildScaffold
-      && (!noteLinesHaveRealMelody(notesBefore) || !!tune.timingScaffold)
+      !noteLinesHaveRealMelody(noteLinesForMelodyMerge(notesBefore)) || !!tune.timingScaffold
     )
     const result = applyBlockMergeToTune(tune, {
       abc: currentAbc,
@@ -674,7 +674,7 @@ export default function ChordsWizard(props) {
     })
     saveSectionsTransaction(next, {
       historyLabel: 'Delete chord section',
-      rebuildScaffold: !noteLinesHaveRealMelody(primaryNoteLines()) || !!tune.timingScaffold,
+      rebuildScaffold: !noteLinesHaveRealMelody(noteLinesForMelodyMerge(primaryNoteLines())) || !!tune.timingScaffold,
     })
   }
 
@@ -1075,7 +1075,7 @@ export default function ChordsWizard(props) {
       toast.warning('Lyrics do not contain chords to apply')
       return
     }
-    if (noteLinesHaveRealMelody(primaryNoteLines())) {
+    if (noteLinesHaveRealMelody(noteLinesForMelodyMerge(primaryNoteLines()))) {
       setShowOverrideFromLyricsConfirm(true)
       return
     }

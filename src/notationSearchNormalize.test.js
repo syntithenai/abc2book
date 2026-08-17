@@ -38,8 +38,8 @@ describe('notationSearchNormalize archives', () => {
     expect(result.preview).toContain('MIDI')
   })
 
-  test('normalizeNotationSearch keeps MIDI when other candidates fail conversion', () => {
-    const result = normalizeNotationSearch({
+  test('normalizeNotationSearch drops MIDI from title-search candidate lists', () => {
+    expect(() => normalizeNotationSearch({
       multiple: true,
       candidates: [
         { abc: '', musicXml: '<not-xml>', title: 'Broken', source: 'musescore.com' },
@@ -51,9 +51,6 @@ describe('notationSearchNormalize archives', () => {
           abc: '',
         },
       ],
-    })
-    expect(result.multiple).toBe(true)
-    expect(result.candidates).toHaveLength(1)
-    expect(result.candidates[0].importFormat).toBe('midi')
+    })).toThrow(/no candidates/)
   })
 })

@@ -7,7 +7,7 @@
 
   const PAGE_SOURCE = 'tunebook-page'
   const EXT_SOURCE = 'tunebook-extension'
-  const EXT_VERSION = '0.1.7'
+  const EXT_VERSION = '0.1.8'
   const ATTR = 'data-tunebook-yt-helper'
   const PING_PORT = 'tunebook-ping'
   const AUDIO_PORT = 'tunebook-yt'
