@@ -5203,6 +5203,18 @@ button img:after {
   flex: 0 0 auto;
 }
 
+/* Zoom wrapper must stay in the flex height chain or the fit host
+   sizes to content, parent overflow:hidden clips, and scrolling never arms. */
+.music-panels-fit-height.tune-layout-lyrics-only .lyrics-panel-inner > .lyrics-zoom-host,
+.music-panels-fit-height.tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .lyrics-panel-inner > .lyrics-zoom-host {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 /* Single-view (via lyrics-panel-inner) and gig mode (host is direct child) */
 .music-panels-fit-height.tune-layout-lyrics-only .lyrics-fit-height-host,
 .music-panels-fit-height.tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .lyrics-fit-height-host {
@@ -5212,7 +5224,10 @@ button img:after {
   overflow: hidden;
 }
 
-.music-panels-fit-height .lyrics-fit-height-host--scrollable {
+.music-panels-fit-height.tune-layout-lyrics-only .lyrics-fit-height-host.lyrics-fit-height-host--scrollable,
+.music-panels-fit-height.tune-layout-lyrics-structure .lyrics-fit-height-host.lyrics-fit-height-host--scrollable,
+.music-panels-fit-height.tune-layout-lyrics-structure--sync .lyrics-fit-height-host.lyrics-fit-height-host--scrollable {
+  overflow-x: auto;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -5327,6 +5342,12 @@ button img:after {
   min-height: 0;
   height: auto;
   overflow: hidden;
+}
+
+.music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-lyrics-structure-sync-host--fit-height .lyrics-fit-height-host.lyrics-fit-height-host--scrollable {
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Within a fitted sync host, structure fills the host rather than the full viewport. */

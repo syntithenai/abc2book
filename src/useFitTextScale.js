@@ -97,6 +97,29 @@ export function useFitTextScale(options) {
       return Math.max(40, measureViewportBottomLimit() - 96);
     }
 
+    /**
+     * Lyrics fit hosts nest under .lyrics-zoom-host. If that wrapper is not a
+     * flex item, container.clientHeight grows with content and fit never
+     * shrinks / never arms overflow scroll. Cap against the panel instead.
+     */
+    function lyricsPanelBudget() {
+      const panel = typeof container.closest === 'function'
+        ? container.closest(
+          '.lyrics-panel-inner, .tune-lyrics-structure-sync-lyrics, .music-view-lyrics'
+        )
+        : null;
+      if (panel && panel.clientHeight > 40) {
+        let h = panel.clientHeight;
+        Array.prototype.forEach.call(panel.children, function(child) {
+          if (child === container) return;
+          if (typeof child.contains === 'function' && child.contains(container)) return;
+          h -= child.offsetHeight || 0;
+        });
+        return Math.max(40, h);
+      }
+      return Math.max(40, container.clientHeight || 0);
+    }
+
     function availableSize() {
       const availW = Math.max(40, columnWidth() - px);
       let availH = Math.max(40, (container.clientHeight || 0) - py);
@@ -108,8 +131,13 @@ export function useFitTextScale(options) {
       const inFitHost = col && col.closest('.tune-lyrics-structure-sync-host--fit-height');
       if (inFitHost && col.clientHeight > 80) {
         availH = Math.max(40, col.clientHeight - py);
-      } else {
+      } else if (col) {
         availH = Math.max(40, structurePanelBudget(col) - py);
+      } else {
+        const selfH = container.clientHeight || 0;
+        const panelH = lyricsPanelBudget();
+        const capped = selfH > 0 ? Math.min(selfH, panelH) : panelH;
+        availH = Math.max(40, capped - py);
       }
 
       Array.prototype.forEach.call(container.children, function(child) {
