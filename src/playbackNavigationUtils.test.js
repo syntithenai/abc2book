@@ -15,6 +15,7 @@ import {
   getActivePlaybackTuneId,
   resolveNowPlayingDisplayTuneId,
   isPlaybackActivelyPlaying,
+  isPracticePlaybackIsolated,
   shouldStartPlaybackWhenAdvancing,
   isMiniPlayerTransportVisible,
 } from './playbackNavigationUtils'
@@ -60,9 +61,15 @@ describe('playbackNavigationUtils', function() {
     expect(isPlaybackAdministrativePath('/books')).toBe(false)
   })
 
-  test('shouldSuppressHostAutostart on list unless already playing', function() {
-    expect(shouldSuppressHostAutostart('/tunes', { isPlaying: false }, true, null)).toBe(true)
+  test('shouldSuppressHostAutostart on list unless playback is running or armed', function() {
+    expect(shouldSuppressHostAutostart('/tunes', { isPlaying: false }, false, null)).toBe(true)
     expect(shouldSuppressHostAutostart('/tunes', { isPlaying: true }, true, null)).toBe(false)
+    expect(shouldSuppressHostAutostart('/tunes', { isPlaying: false }, true, null)).toBe(false)
+    expect(shouldSuppressHostAutostart('/tunes', { isPlaying: false, isLoading: true }, false, null)).toBe(false)
+    expect(shouldSuppressHostAutostart('/tunes', {
+      isPlaying: false,
+      hasActivePlaybackIntent: function() { return true },
+    }, false, null)).toBe(false)
     expect(shouldSuppressHostAutostart('/tunes/abc/playMedia', {}, false, { playState: 'playMedia' })).toBe(false)
     expect(shouldSuppressHostAutostart('/tunes/abc', {}, true, null)).toBe(false)
   })
@@ -241,5 +248,19 @@ describe('playbackNavigationUtils', function() {
     expect(shouldStartPlaybackWhenAdvancing(paused, false)).toBe(false)
     expect(shouldStartPlaybackWhenAdvancing({ isPlaying: true }, false)).toBe(true)
     expect(shouldStartPlaybackWhenAdvancing(paused, true)).toBe(true)
+  })
+
+  test('practice session playback does not count as app-wide playing', function() {
+    const practicePlaying = {
+      isPlaying: true,
+      isLoading: false,
+      hasActivePlaybackIntent: function() { return true },
+      isPracticeSessionActive: function() { return true },
+    }
+    expect(isPracticePlaybackIsolated(practicePlaying)).toBe(true)
+    expect(isPlaybackActivelyPlaying(practicePlaying)).toBe(false)
+    expect(shouldStartPlaybackWhenAdvancing(practicePlaying, false)).toBe(false)
+    expect(isQueuePlaybackEngaged(practicePlaying)).toBe(false)
+    expect(shouldSuppressHostAutostart('/tunes/abc', practicePlaying, true, { playState: 'playMidi' })).toBe(true)
   })
 })

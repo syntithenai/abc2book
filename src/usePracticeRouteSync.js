@@ -13,6 +13,11 @@ export function leavePracticeRoute(navigate) {
   navigate('/tunes', { replace: true })
 }
 
+export function shouldClosePracticeForPath(pathname, sessionOpen, configOpen) {
+  if (isPracticeRoute(pathname)) return false
+  return !!(sessionOpen || configOpen)
+}
+
 function buildAutoStartConfig(searchParams) {
   const saved = loadPracticeSettings()
   const config = {
@@ -108,6 +113,24 @@ export default function usePracticeRouteSync(practiceSession) {
     practiceSession && practiceSession.configOpen,
     practiceSession && practiceSession.sessionOpen,
     navigate,
+  ])
+
+  useEffect(function() {
+    if (!practiceSession || onPracticeRoute) return
+    if (practiceSession.sessionOpen && typeof practiceSession.stopSession === 'function') {
+      practiceSession.stopSession()
+      return
+    }
+    if (practiceSession.configOpen && typeof practiceSession.closeConfig === 'function') {
+      practiceSession.closeConfig()
+    }
+  }, [
+    onPracticeRoute,
+    practiceSession,
+    practiceSession && practiceSession.sessionOpen,
+    practiceSession && practiceSession.configOpen,
+    practiceSession && practiceSession.stopSession,
+    practiceSession && practiceSession.closeConfig,
   ])
 
   return {

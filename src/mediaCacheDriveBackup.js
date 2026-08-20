@@ -153,14 +153,13 @@ export function isEligibleCachedMediaBackupParsed(parsed) {
   if (!parsed || parsed.standalone) return false
   if (!parsed.tuneId || !parsed.src) return false
   const src = String(parsed.src)
-  if (isYoutubePlaybackUri(src)) return false
   if (isHttpMidiUrl(src)) return false
   if (isRecordingCacheSrc(src)) return true
   const srcType = resolveUriPlaybackSrcType(src)
-  if (srcType === 'midifile' || srcType === 'youtube' || srcType === 'skip' || srcType === 'empty' || srcType === 'abc') {
+  if (srcType === 'midifile' || srcType === 'skip' || srcType === 'empty' || srcType === 'abc') {
     return false
   }
-  return srcType === 'audio' || srcType === 'recording' || srcType === 'inline'
+  return srcType === 'audio' || srcType === 'recording' || srcType === 'inline' || srcType === 'youtube'
 }
 
 const RECORDING_LINK_PREFIX = 'abcbook-recording:'

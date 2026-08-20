@@ -380,7 +380,11 @@ export default function TimedLyricsChordsView(props) {
   const displayLines = getLyricLinesForDisplay(tune);
   const classified = classifyLyricChordLines(displayLines);
   const lines = buildLinesFromTune(tune);
-  const renderPlan = resolveChordRenderPlan(tune, { hideChords: hideChords, chordsOnly: chordsOnly });
+  const renderPlan = resolveChordRenderPlan(tune, {
+    hideChords: hideChords,
+    chordsOnly: chordsOnly,
+    allowNotationMerge: !!props.allowNotationMerge,
+  });
 
   if (renderPlan.mode === 'strip') {
     if (lines.length === 0) return null;

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import abcjs from 'abcjs'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
 import LyricsStructureSyncPanel from './LyricsStructureSyncPanel'
@@ -28,6 +28,7 @@ import {
 } from '../gigNotationFit'
 import { useCapoViewState } from '../useCapoViewState'
 import { chordTransposeWithCapo } from '../capoViewUtils'
+import useNotationPlaybackCursor from '../useNotationPlaybackCursor'
 
 const PRACTICE_FIT_HEIGHT_MIN_LINES = 4
 const PRACTICE_FIT_HEIGHT_MAX_LINES = 6
@@ -55,6 +56,7 @@ export default function PracticeTuneDisplay(props) {
   const paperRef = useRef(null)
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const voiceSettingsVersion = props.voiceSettingsVersion || 0
+  const [cursorVisualObj, setCursorVisualObj] = useState(null)
 
   const viewMode = props.viewMode || 'music'
   const capoState = useCapoViewState(tune && tune.id, tune && tune.capo)
@@ -120,20 +122,40 @@ export default function PracticeTuneDisplay(props) {
     && notationLineCount <= PRACTICE_FIT_HEIGHT_MAX_LINES
   const needsNotationScroll = showNotation && notationLineCount > PRACTICE_FIT_HEIGHT_MAX_LINES
 
+  const staffAbc = useMemo(function() {
+    if (!showNotation || !tune || !tunebook) return ''
+    const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
+    const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false })
+    return prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate)
+  }, [
+    showNotation,
+    tune,
+    tunebook,
+    showChordsAnnotate,
+    visibleVoiceKeys,
+  ])
+
+  useNotationPlaybackCursor({
+    enabled: showNotation && !!props.mediaController,
+    containerRef: notationRef,
+    visualObj: cursorVisualObj,
+    mediaController: props.mediaController,
+    displayTuneId: tune && tune.id,
+    tempoFactor: props.mediaController && props.mediaController.playbackSpeed,
+  })
+
   useEffect(function() {
     if (!showNotation) {
       clearNotationEl(notationRef.current)
+      setCursorVisualObj(null)
       return
     }
-    if (!tune || !notationRef.current) return
+    if (!tune || !notationRef.current || !staffAbc) return
     clearNotationEl(notationRef.current)
-    const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
-    const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false })
-    const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate)
     const initialStaffWidth = props.staffWidth || 700
     try {
       function renderAtWidth(staffWidth) {
-        abcjs.renderAbc(notationRef.current, staffAbc, Object.assign({
+        const rendered = abcjs.renderAbc(notationRef.current, staffAbc, Object.assign({
           responsive: 'resize',
           staffwidth: staffWidth,
         }, buildGigNotationRenderOptions(notationVisualTranspose), {
@@ -143,7 +165,11 @@ export default function PracticeTuneDisplay(props) {
         if (!svg) return null
         const dims = readNotationSvgDims(svg)
         if (!dims || !(dims.width > 0) || !(dims.height > 0)) return null
-        return { svg: svg, dims: dims }
+        return {
+          svg: svg,
+          dims: dims,
+          visual: rendered && rendered.length > 0 ? rendered[0] : null,
+        }
       }
 
       if (fitHeight) {
@@ -158,23 +184,21 @@ export default function PracticeTuneDisplay(props) {
         if (rendered && rendered.svg) {
           fitSingleViewVertical(rendered.svg, notationRef.current)
         }
+        setCursorVisualObj(rendered && rendered.visual ? rendered.visual : null)
       } else {
-        renderAtWidth(initialStaffWidth)
+        const rendered = renderAtWidth(initialStaffWidth)
+        setCursorVisualObj(rendered && rendered.visual ? rendered.visual : null)
       }
     } catch (e) {
       console.log('practice tune render', e)
+      setCursorVisualObj(null)
     }
   }, [
-    tune,
-    tunebook,
-    showNotation,
-    showChordsAnnotate,
+    staffAbc,
     props.staffWidth,
     fitHeight,
     notationLineCount,
     notationVisualTranspose,
-    visibleVoiceKeys,
-    voiceSettingsVersion,
   ])
 
   useEffect(function() {

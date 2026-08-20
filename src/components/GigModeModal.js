@@ -49,6 +49,7 @@ import StructureCapoControl from './StructureCapoControl';
 import ChordPitchButton from './ChordPitchButton';
 import { useCapoViewState } from '../useCapoViewState';
 import { chordTransposeWithCapo } from '../capoViewUtils';
+import useNotationPlaybackCursor from '../useNotationPlaybackCursor';
 import './GigModeModal.css';
 
 function requestWakeLock() {
@@ -67,6 +68,7 @@ export default function GigModeModal(props) {
   const notationRef = useRef(null);
   const lastNotationChordRef = useRef('');
   const notationFitSizeRef = useRef({ width: 0, height: 0 });
+  const [cursorVisualObj, setCursorVisualObj] = useState(null);
   const [showSetList, setShowSetList] = useState(false);
   const [fontScale, setFontScale] = useState(1.2);
   const [edgeMessage, setEdgeMessage] = useState('');
@@ -250,6 +252,22 @@ export default function GigModeModal(props) {
     return getVisibleVoiceKeys(currentTune.id, getTuneVoiceKeys(currentTune));
   }, [currentTune, voiceSettingsVersion]);
 
+  const staffAbc = useMemo(function() {
+    if (!showNotation || !currentTune || !tunebook) return '';
+    const notationTune = filterTuneVoices(currentTune, visibleVoiceKeys);
+    const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false });
+    return prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate);
+  }, [showNotation, currentTune, tunebook, showChordsAnnotate, visibleVoiceKeys]);
+
+  useNotationPlaybackCursor({
+    enabled: props.show && showNotation && !!props.mediaController,
+    containerRef: notationRef,
+    visualObj: cursorVisualObj,
+    mediaController: props.mediaController,
+    displayTuneId: currentTune && currentTune.id,
+    tempoFactor: props.mediaController && props.mediaController.playbackSpeed,
+  });
+
   function handleViewModeChange(mode) {
     const nextMode = normalizeViewMode(mode);
     setViewMode(nextMode);
@@ -284,24 +302,27 @@ export default function GigModeModal(props) {
         return;
       }
 
-      const notationTune = filterTuneVoices(currentTune, visibleVoiceKeys);
-      const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false });
-      const staffAbc = prepareGigStaffDisplayAbc(displayAbc, tunebook, showChordsAnnotate);
       const renderOptions = Object.assign({}, buildGigNotationRenderOptions(notationVisualTranspose), {
         clickListener: handleNotationChordClick,
         afterParsing: applyCompactScreenNotationMeta,
       });
 
+      if (!staffAbc) return;
+
       function renderAtStaffWidth(staffWidth) {
         renderEl.innerHTML = '';
-        abcjs.renderAbc(renderEl, staffAbc, Object.assign({}, renderOptions, {
+        const rendered = abcjs.renderAbc(renderEl, staffAbc, Object.assign({}, renderOptions, {
           staffwidth: staffWidth,
         }));
         const svg = renderEl.querySelector('svg');
         if (!svg) return null;
         const dims = getRenderDimensions(svg);
         if (!(dims.width > 0) || !(dims.height > 0)) return null;
-        return { svg: svg, dims: dims };
+        return {
+          svg: svg,
+          dims: dims,
+          visual: rendered && rendered.length > 0 ? rendered[0] : null,
+        };
       }
 
       function finishRender() {
@@ -324,8 +345,10 @@ export default function GigModeModal(props) {
             width: livePaper.availW,
             height: livePaper.availH,
           };
+          setCursorVisualObj(rendered && rendered.visual ? rendered.visual : null);
         } catch (e) {
           console.log('gig notation render', e);
+          setCursorVisualObj(null);
         }
       }
 
@@ -342,7 +365,7 @@ export default function GigModeModal(props) {
     requestAnimationFrame(function() {
       requestAnimationFrame(function() { runRender(0); });
     });
-  }, [props.show, currentTune, showNotation, showChordsAnnotate, notationFitMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion, handleNotationChordClick]);
+  }, [props.show, currentTune, showNotation, showChordsAnnotate, notationFitMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion, handleNotationChordClick, staffAbc]);
 
   useEffect(function() {
     renderNotation();

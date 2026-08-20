@@ -17,6 +17,7 @@ export function stripNotationDisplayMetadata(abcText) {
     if (trimmed.startsWith('%%abcbook-tags')) return false;
     if (trimmed.startsWith('% abcbook-albums')) return false;
     if (trimmed.startsWith('%%abcbook-albums')) return false;
+    if (trimmed.startsWith('% abcbook-playalong-take-')) return false;
     if (/^C:/i.test(trimmed)) {
       if (seenComposer) return false;
       seenComposer = true;

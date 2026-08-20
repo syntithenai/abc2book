@@ -2,6 +2,7 @@ import {
   resolveLinkPlaybackSrcType,
   resolveUriPlaybackSrcType,
   linkSupportsPlayRange,
+  isMediaLinkPlaybackCandidate,
 } from './mediaLinkSrcType'
 
 describe('mediaLinkSrcType', function() {
@@ -59,5 +60,12 @@ describe('mediaLinkSrcType', function() {
       link: 'abcbook-recording:rec1',
       mediaKind: 'midi',
     }, isYoutubeLink)).toBe(false)
+  })
+
+  test('isMediaLinkPlaybackCandidate skips empty and non-audio data URLs', function() {
+    expect(isMediaLinkPlaybackCandidate({ link: '' }, isYoutubeLink)).toBe(false)
+    expect(isMediaLinkPlaybackCandidate({ link: 'data:text/plain,x' }, isYoutubeLink)).toBe(false)
+    expect(isMediaLinkPlaybackCandidate({ link: 'https://example.com/a.mp3' }, isYoutubeLink)).toBe(true)
+    expect(isMediaLinkPlaybackCandidate({ link: 'https://youtu.be/abc' }, isYoutubeLink)).toBe(true)
   })
 })

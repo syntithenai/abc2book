@@ -27,6 +27,16 @@ export function noteNameToMidi(noteWithOctave) {
   return parsed ? parsed.midi : null
 }
 
+const MIDI_NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
+
+export function midiToNoteName(midi) {
+  if (midi == null || !Number.isFinite(midi)) return null
+  const m = Math.round(midi)
+  const name = MIDI_NOTE_NAMES[((m % 12) + 12) % 12]
+  const octave = Math.floor(m / 12) - 1
+  return name + octave
+}
+
 export function midiToFrequency(midi, a4) {
   const ref = a4 == null ? 440 : a4
   return ref * Math.pow(2, (midi - 69) / 12)

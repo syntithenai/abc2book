@@ -12,9 +12,9 @@ BROWSER_USER_AGENT = (
     "Mozilla/5.0 (compatible; ABC2BookResolver/1.0; +https://tunebook.net)"
 )
 SEARCH_TIMEOUT_SECONDS = float(os.getenv("RESEARCH_SEARCH_TIMEOUT_SECONDS", "20"))
-LLM_BASE_URL = os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:1234/v1").rstrip("/")
-LLM_MODEL = os.getenv("RESEARCH_LLM_MODEL", "google/gemma-3-4b-it")
-LLM_API_KEY = os.getenv("RESEARCH_LLM_API_KEY", "lm-studio")
+LLM_BASE_URL = os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:12340/v1").rstrip("/")
+LLM_MODEL = os.getenv("RESEARCH_LLM_MODEL", "qwen3.8-off")
+LLM_API_KEY = os.getenv("RESEARCH_LLM_API_KEY", "local")
 LLM_TIMEOUT_SECONDS = float(os.getenv("RESEARCH_LLM_TIMEOUT_SECONDS", "120"))
 MIN_WORDS = int(os.getenv("RESEARCH_MIN_WORDS", "700"))
 TARGET_WORDS = int(os.getenv("RESEARCH_TARGET_WORDS", "800"))

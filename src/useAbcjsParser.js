@@ -446,6 +446,7 @@ export default function useAbcjsParser() {
                     //// for each symbol if there is a chord attached, assign it to the closest noteLength in barLayout
                     //// if the symbol is a bar
                     var lastSymbol = null
+                    var wroteBarOnThisLine = false
                     
                     symbols.forEach(function(symbol,symbolNumber) {
                        lastSymbol = symbol
@@ -492,12 +493,14 @@ export default function useAbcjsParser() {
                                 noteLengthsSinceLastBar = noteLengthsSinceLastBar + symbol.duration
                             }
                        } else if (symbol.el_type === 'bar') {
-                           // Display charts omit the opening anacrusis (pickup) bar so
-                           // chord blocks start on the first full bar. Editor grids
-                           // (showDots) keep it so pickup chords remain editable.
-                           var isAnacrusis = !hasWrittenBar
-                             && noteLengthsSinceLastBar > 0
+                           // Display charts omit pickup/anacrusis bars (opening and
+                           // mid-tune into |:) so chord blocks start on full bars.
+                           // Editor grids (showDots) keep them so pickup chords remain editable.
+                           var isRepeatOpen = symbol.type === 'bar_left_repeat'
+                             || symbol.type === 'bar_dbl_repeat'
+                           var isAnacrusis = noteLengthsSinceLastBar > 0
                              && noteLengthsSinceLastBar < fullBarDuration - 1e-9
+                             && (!wroteBarOnThisLine || isRepeatOpen)
                            // Display charts also omit bars with no notes or rests
                            // (empty between barlines). Rest-only bars still render.
                            var isEmptyBar = noteLengthsSinceLastBar <= 0
@@ -513,7 +516,7 @@ export default function useAbcjsParser() {
                                // Emit a blank line so verse/chorus become separate blocks.
                                if (symbol.type === 'bar_left_repeat') {
                                    pendingStartRepeat = true
-                                   if (hasWrittenBar) {
+                                   if (hasWrittenBar && !isAnacrusis) {
                                        final.push("\n")
                                    }
                                } else if (symbol.type === 'bar_dbl_repeat') {
@@ -543,6 +546,7 @@ export default function useAbcjsParser() {
                                }
                            }
                            hasWrittenBar = true
+                           wroteBarOnThisLine = true
                            noteLengthsSinceLastBar = 0
                            barLayout = []
                             for (var i=0; i < barSize; i++) {

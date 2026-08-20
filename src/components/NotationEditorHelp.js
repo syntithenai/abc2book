@@ -272,6 +272,7 @@ export default function NotationEditorHelp(props) {
               </p>
               <p>
                 Layout wizards (Auto Fix, halve/double lengths, 4/6/8-bar layout) run on <strong>every voice</strong> in the tune.
+                <strong>Note Groups</strong> (Tools menu) adds beat-boundary spaces in the ABC for common meters (2/4, 3/4, 4/4, 6/8, 9/8, 12/8) on every voice; it skips the tune with a warning when beat allocation is unclear. Existing spaces are kept when you return to the staff editor; removing them in ABC text is not undone unless you run Note Groups again.
               </p>
             </div>
           </section>

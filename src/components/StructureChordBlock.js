@@ -4,14 +4,16 @@ import { Button } from 'react-bootstrap';
 import {
   alignChordBlocksToLyrics,
   chartBlockHasChords,
+  chordChartFingerprint,
   formatChordChartForDisplay,
   ensureLeadingMeterMarker,
   parseChordChartDisplayLine,
+  sanitizeChordChartBlock,
+  splitChordChartIntoBlocks,
 } from '../chordSheetUtils';
 import {
   chordChartBlocksForTuneDisplay,
   chordNoteLinesFromTune,
-  splitMelodyStrainsWithBarlines,
 } from '../chordBlockMerge';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines';
@@ -33,6 +35,24 @@ function renderChordMeterMark(part, key) {
       <span className="chord-meter-den">{part.den}</span>
     </span>
   );
+}
+
+function chartFingerprintAlreadyShown(fp, shownFingerprints) {
+  if (!fp) return false;
+  if (shownFingerprints[fp]) return true;
+  const keys = Object.keys(shownFingerprints);
+  for (let i = 0; i < keys.length; i++) {
+    const shown = keys[i];
+    if (shown && fp.length > shown.length && fp.indexOf(shown) === 0) return true;
+  }
+  return false;
+}
+
+function markChartsAsShown(chartText, shownFingerprints) {
+  splitChordChartIntoBlocks(chartText).forEach(function(part) {
+    const fp = chordChartFingerprint(part);
+    if (fp) shownFingerprints[fp] = true;
+  });
 }
 
 function renderChartLineParts(line, keyPrefix) {
@@ -97,8 +117,6 @@ export default function StructureChordBlock(props) {
     const chordBlocks = chordChartBlocksForTuneDisplay(tune, chart, noteLines, {
       displayTranspose: displayTranspose,
     });
-    const strainCount = splitMelodyStrainsWithBarlines(noteLines).length;
-
     function formatSectionChart(chartText, applyLeadingMeter) {
       const withMeter = applyLeadingMeter
         ? ensureLeadingMeterMarker(chartText, tuneMeter)
@@ -113,14 +131,17 @@ export default function StructureChordBlock(props) {
         melodyNoteLines: noteLines,
       });
       const sections = [];
-      let visibleChartCount = 0;
+      const shownFingerprints = Object.create(null);
       let leadingMeterPending = !!tuneMeter;
+      aligned.forEach(function(block) {
+        if (chartBlockHasChords(block.chart)) markChartsAsShown(block.chart, shownFingerprints);
+        if (chartBlockHasChords(block.extraChart)) markChartsAsShown(block.extraChart, shownFingerprints);
+      });
       aligned.forEach(function(block) {
         const label = displaySectionHeader(block.header);
         const showChart = !block.chartRevisit && chartBlockHasChords(block.chart);
         const showExtra = !block.chartRevisit && chartBlockHasChords(block.extraChart);
         if (!label && !showChart && !showExtra) return;
-        if (showChart || showExtra) visibleChartCount += 1;
         const applyLeading = leadingMeterPending && showChart;
         if (applyLeading) leadingMeterPending = false;
         sections.push({
@@ -130,17 +151,22 @@ export default function StructureChordBlock(props) {
           headingOnly: !!block.chartRevisit && !!label,
         });
       });
+      chordBlocks.forEach(function(blockChart) {
+        const cleaned = sanitizeChordChartBlock(blockChart);
+        if (!chartBlockHasChords(cleaned)) return;
+        const fp = chordChartFingerprint(cleaned);
+        if (chartFingerprintAlreadyShown(fp, shownFingerprints)) return;
+        const applyLeading = leadingMeterPending;
+        if (applyLeading) leadingMeterPending = false;
+        sections.push({
+          label: null,
+          chart: formatSectionChart(cleaned, applyLeading),
+          extraChart: '',
+          headingOnly: false,
+        });
+        if (fp) shownFingerprints[fp] = true;
+      });
       if (sections.length > 0) {
-        const typedBlocks = aligned.filter(function(b) { return b && b.type; }).length;
-        if (visibleChartCount <= 1 && typedBlocks > 2 && strainCount <= 1) {
-          sections.unshift({
-            label: null,
-            chart: '',
-            extraChart: '',
-            headingOnly: false,
-            hint: 'Add || double barlines in the ABC notation at each section boundary (verse, pre-chorus, chorus) to split structure chords.',
-          });
-        }
         return sections;
       }
     }
@@ -262,11 +288,6 @@ export default function StructureChordBlock(props) {
                   source={section.label}
                   className="chord-section-header"
                 />
-              ) : null}
-              {section.hint ? (
-                <div className="structure-section-hint text-muted small mb-2">
-                  {section.hint}
-                </div>
               ) : null}
               {section.chart ? renderChartLines(section.chart, 'chart-' + si) : null}
               {section.extraChart ? renderChartLines(section.extraChart, 'extra-' + si) : null}

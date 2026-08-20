@@ -38,3 +38,12 @@ export function shouldKeepIntentWhenRouteNotReady(pending, routeMode) {
   if (routeMode === 'none') return true
   return false
 }
+
+/**
+ * True when MIDI start should wait because media is still the requested output.
+ * Pass the synchronously committed requested play state (ref), not lagged React
+ * state — after YouTube→MIDI queue advance, React can still say playMedia.
+ */
+export function shouldBlockMidiStartForMediaRequest(routeMode, requestedPlayState) {
+  return routeMode === 'midi' && requestedPlayState === 'playMedia'
+}

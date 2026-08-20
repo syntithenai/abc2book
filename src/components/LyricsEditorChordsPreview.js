@@ -63,6 +63,7 @@ function LyricsEditorChordsPreviewInner(props) {
             suppressLeadingTitle={true}
             keepBeatMarkers={true}
             compact={true}
+            allowNotationMerge={true}
           />
         </div>
       </aside>

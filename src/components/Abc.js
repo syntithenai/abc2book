@@ -398,14 +398,15 @@ export default function Abc(props) {
             const practiceAutoPlay = !props.mediaController && (props.autoStart || props.practiceAutoPlay)
             // playbackEngine={false} marks a display-only notation view; the
             // App-level NowPlayingHost owns the midi engine in that case.
+            // Mirror cursor builds TimingCallbacks from the on-screen visualObj
+            // without priming a second audio player.
             const isPlaybackEngine = props.playbackEngine !== false
-            const wantsMirrorPrime = props.mirrorNotationPlaybackCursor && props.autoPrime
-            const wantsBackgroundPrime = wantsMirrorPrime || (isPlaybackEngine && (
+            const wantsBackgroundPrime = isPlaybackEngine && (
                 props.autoStart
                 || practiceAutoPlay
                 || (props.mediaController && props.mediaController.hasPlayingIntent
                     && props.mediaController.hasPlayingIntent())
-            ))
+            )
             const hasPendingMidiPlay = !!(props.mediaController
                 && props.mediaController.pendingMidiPlayRef
                 && props.mediaController.pendingMidiPlayRef.current

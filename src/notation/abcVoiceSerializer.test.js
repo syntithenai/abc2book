@@ -15,7 +15,11 @@ describe('abcVoiceSerializer roundtrip', function() {
   const meta = { meter: '4/4', noteLength: '1/8', key: 'C', tempo: 120 };
 
   test('simple melody beams by default (no mid-note spaces)', function() {
-    expect(serializeVoiceEvents(parseVoiceEvents('C D E F |', meta), meta)).toBe('CDEF |');
+    expect(serializeVoiceEvents(parseVoiceEvents('CDEF |', meta), meta)).toBe('CDEF |');
+  });
+
+  test('preserves mid-note spaces from source ABC as beam breaks', function() {
+    expect(serializeVoiceEvents(parseVoiceEvents('C D E F |', meta), meta)).toBe('C D E F |');
   });
 
   test('system break serializes as newline between ABC note lines', function() {
@@ -32,12 +36,12 @@ describe('abcVoiceSerializer roundtrip', function() {
   });
 
   test('explicit durations', function() {
-    expect(serializeVoiceEvents(parseVoiceEvents('C2 D2 |', meta), meta)).toBe('C2D2 |');
+    expect(serializeVoiceEvents(parseVoiceEvents('C2 D2 |', meta), meta)).toBe('C2 D2 |');
   });
 
   test('dotted durations', function() {
     const out = serializeVoiceEvents(parseVoiceEvents('C3/2 D/2 |', meta), meta);
-    expect(out).toBe('C2D/2 |');
+    expect(out).toBe('C2 D/2 |');
   });
 
   test('octaves', function() {
@@ -59,7 +63,7 @@ describe('abcVoiceSerializer roundtrip', function() {
   });
 
   test('rests', function() {
-    expect(serializeVoiceEvents(parseVoiceEvents('z z2 |', meta), meta)).toBe('zz2 |');
+    expect(serializeVoiceEvents(parseVoiceEvents('z z2 |', meta), meta)).toBe('z z2 |');
   });
 
   test('barline tokens', function() {
@@ -86,7 +90,7 @@ describe('abcVoiceSerializer roundtrip', function() {
   });
 
   test('beamBreakBefore inserts space', function() {
-    const events = parseVoiceEvents('C D E F |', meta);
+    const events = parseVoiceEvents('CDEF |', meta);
     const notes = events.filter(function(ev) { return ev.type === 'note'; });
     notes[2].beamBreakBefore = true;
     const out = serializeVoiceEvents(events, meta);

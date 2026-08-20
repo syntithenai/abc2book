@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks -- test helpers call pure hook factories */
 import useAbcTools from './useAbcTools'
 import useAbcjsParser from './useAbcjsParser'
+import { formatChordChartForDisplay } from './chordSheetUtils'
 import {
   applyBlockMergeToTune,
   autoExpandNoteLinesForBlocks,
@@ -207,6 +208,51 @@ describe('chordBlockMerge', function() {
     expect(blocks[0]).toContain('F')
     expect(blocks[1]).toContain('C')
     expect(blocks[2]).toContain('Gm')
+  })
+
+  test('splitMelodyStrainsWithBarlines keeps pickup before |: inside the following strain', function() {
+    const strains = splitMelodyStrainsWithBarlines([
+      'D|:"G"GAB D2B |"C"c2A BGE|"G"G3 G2:|',
+      'A|:"G"BGG "C"AGG |"G"G3 G2:|',
+    ])
+    expect(strains.length).toBe(2)
+    expect(strains[0].text).toMatch(/GAB/)
+    expect(strains[1].text).toMatch(/BGG/)
+  })
+
+  test('structure charts keep ABC system line breaks for 6/8 repeat strains', function() {
+    const noteLines = [
+      'D|:"G"GABD2B |"C"c2A BGE|"G"GAB DEG|"D" A2A AGE|',
+      '"G"GAB D2A |"C"cBA BGE|"G"GAB "D"D2E |"G"G3 G2:|',
+      'A|:"G"BGG "C"AGG |"G"BGG "C"AGG|"G"GAB DEG |"D"A2A AGA|',
+      'B"G"GG "C"AGG |"G"BGG "C"AGG|"G"GAB "A"DEG|"G" G3 G2:|',
+      'd|:"G"g2g "C"a2a |"G"bag "C"edB|"G"g2g gab |"D"a2a agf|',
+      '"G"g2g "D"f2f |"C"ege dBA|"G"GAB "D"AGF| "G"G3 G2:|',
+    ]
+    const abcjsParser = useAbcjsParser()
+    const abcTools = useAbcTools()
+    const melodyAbc = abcTools.emptyABC('Quaker') + 'M:6/8\nL:1/8\nK:G\n' + noteLines.join('\n')
+    const chart = abcjsParser.renderChords(melodyAbc, false, 0, 'G', '1/8', '6/8')
+    const blocks = chordChartBlocksForLyrics(chart, noteLines)
+    expect(blocks.length).toBe(3)
+    expect(blocks[0]).toMatch(/\n/)
+    expect(formatChordChartForDisplay(blocks[0])).toBe('|: G | C | G | D |\nG | C | G D | G :|')
+    expect(formatChordChartForDisplay(blocks[1])).toBe('|: G C | G C | G | D |\nG C | G C | G A | G :|')
+    expect(formatChordChartForDisplay(blocks[2])).toBe('|: G C | G C | G | D |\nG D | C | G D | G :|')
+  })
+
+  test('melody strain fallback charts keep 6/8 half-bar chord changes', function() {
+    const strain = '|:"G"GABD2B |"C"c2A BGE|"G"GAB DEG|"D" A2A AGE|'
+      + '"G"GAB D2A |"C"cBA BGE|"G"GAB "D"D2E |"G"G3 G2:|'
+    const noteLines = [strain]
+    const abcjsParser = useAbcjsParser()
+    const abcTools = useAbcTools()
+    const melodyAbc = abcTools.emptyABC('Quaker') + 'M:6/8\nL:1/8\nK:G\n' + strain
+    const chart = abcjsParser.renderChords(melodyAbc, false, 0, 'G', '1/8', '6/8')
+    const blocks = chordChartBlocksForLyrics(chart, noteLines)
+    const formatted = formatChordChartForDisplay(blocks[0] || '')
+    expect(formatted).toMatch(/G \| C \| G D \| G :\|/)
+    expect(formatted).not.toMatch(/G \| C \| D \| G :\|/)
   })
 
   test('splitMelodyStrainsWithBarlines splits repeat strains on |:', function() {

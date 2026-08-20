@@ -4,8 +4,9 @@ import PracticeSessionModal from './PracticeSessionModal'
 import { isPracticeRoute, leavePracticeRoute } from '../usePracticeRouteSync'
 
 /**
- * Renders practice modals at app root so they stay mounted when the header
- * dropdown closes (otherwise the session clock and tempo UI freeze).
+ * Renders practice config and the full-page session at app root so they stay
+ * mounted when the header dropdown closes (otherwise the session clock and
+ * tempo UI freeze).
  */
 export default function PracticeSessionModals(props) {
   const practice = props.practiceSession || {}
@@ -14,7 +15,9 @@ export default function PracticeSessionModals(props) {
 
   function handleStart(config) {
     if (props.mediaController && props.mediaController.preparePlaybackFromUserGesture) {
-      props.mediaController.preparePlaybackFromUserGesture()
+      // Unlock audio for warmup autoplay without arming shared playing intent.
+      // Arming here made leaving practice look like the previous tune was playing.
+      props.mediaController.preparePlaybackFromUserGesture({ armIntent: false })
     }
     if (typeof practice.armPlaybackGesture === 'function') {
       practice.armPlaybackGesture()

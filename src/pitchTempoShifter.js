@@ -1,7 +1,9 @@
 import { PitchShifter } from 'soundtouchjs';
 import { clamp, combinedPitchSemitones, TEMPO_MIN, TEMPO_MAX, PITCH_MIN, PITCH_MAX, FINE_TUNE_MIN, FINE_TUNE_MAX } from './pitchTempoUtils';
 
-const BUFFER_SIZE = 2048;
+// ScriptProcessor buffer. 2048 underruns as soon as SoundTouch retunes
+// (live pitch/fine-tune); 16384 was the last size that stayed smooth.
+const BUFFER_SIZE = 16384;
 
 export default class PitchTempoShifter {
   constructor(audioContext, audioBuffer, onTimeUpdate, onEnded, onPitchOutputReady) {
@@ -210,9 +212,7 @@ export default class PitchTempoShifter {
       if (!this.audioBuffer) {
         return false
       }
-      const needsProcessing = Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) >= 0.0001
-        || Math.abs(this._tempo - 1) >= 0.0001;
-      this._mode = needsProcessing ? 'soundtouch' : 'direct';
+      this._mode = this._shouldUseDirectMode() ? 'direct' : 'soundtouch';
       if (this._mode === 'direct') {
         this._connectDirectSource(startWhen);
         if (!this._directSource) {
@@ -340,8 +340,13 @@ export default class PitchTempoShifter {
   _shouldUseDirectMode() {
     // Direct BufferSource playbackRate changes both tempo and pitch; use
     // SoundTouch whenever tempo or pitch processing is needed.
-    return Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) < 0.0001
+    const unity = Math.abs(combinedPitchSemitones(this._pitch, this._fineTune)) < 0.0001
       && Math.abs(this._tempo - 1) < 0.0001;
+    if (!unity) return false;
+    // Stay on SoundTouch while it is already running so live pitch around 0
+    // does not disconnect/reconnect on every slider tick.
+    if (this._connected && this._mode === 'soundtouch') return false;
+    return true;
   }
 
   _connectDirectSource(startWhen) {

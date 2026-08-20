@@ -20,6 +20,7 @@ import {
 import { renderTimedJsonFields, applyAbcbookJsonChunks, collectAbcbookJsonChunk, parseAbcbookJsonLine, LEGACY_TIMED_JSON_FIELDS } from './abcbookJsonFields'
 import { convertSessionLineBreaks } from './abcImportNormalize'
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
+import { parsePlayalongTakeComment, renderPlayalongTakesAbc } from './playalongTakes'
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -625,6 +626,12 @@ var useAbcTools = () => {
                             }
                         }
                     }
+                } else if (line.startsWith('% abcbook-playalong-take-')) {
+                    var parsedTake = parsePlayalongTakeComment(line)
+                    if (parsedTake) {
+                        if (!Array.isArray(tune.playalongTakes)) tune.playalongTakes = []
+                        tune.playalongTakes.push(parsedTake)
+                    }
                 } else  if (line.startsWith('% abcbook-link-')) {
                     if (line.startsWith('% abcbook-link-title-')) {
                         var parts = line.trim().split('% abcbook-link-title-')
@@ -935,6 +942,7 @@ var useAbcTools = () => {
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     + "% abcbook-tune_composer_id " + ensureText(tune.composerId) + "\n" 
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
+                    + renderPlayalongTakesAbc(tune)
                     + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
                     + (tune.starred ? "% abcbook-starred true\n" : '')
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 

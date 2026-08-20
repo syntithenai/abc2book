@@ -57,6 +57,7 @@ export function splitMelodyStrainsWithBarlines(noteLines) {
   let lastIndex = 0;
   let match;
   let pendingStart = null;
+  let pendingPrefix = '';
   while ((match = re.exec(flat)) !== null) {
     const token = match[1];
     if (token === ':|') {
@@ -65,7 +66,11 @@ export function splitMelodyStrainsWithBarlines(noteLines) {
         continue;
       }
       // Keep :| in the strain text so merge/rejoin preserves the repeat.
-      const before = flat.slice(lastIndex, match.index + token.length).trim();
+      let before = flat.slice(lastIndex, match.index + token.length).trim();
+      if (pendingPrefix) {
+        before = (pendingPrefix + ' ' + before).trim();
+        pendingPrefix = '';
+      }
       if (before) {
         parts.push({
           text: before,
@@ -78,9 +83,19 @@ export function splitMelodyStrainsWithBarlines(noteLines) {
       continue;
     }
     const before = flat.slice(lastIndex, match.index).trim();
+    // Pickup note(s) immediately before |: belong to the following strain,
+    // not a one-bar strain of their own (e.g. `D|: ... :| A|: ...`).
+    if (token === '|:' && before && before.indexOf('|') === -1) {
+      pendingPrefix = pendingPrefix ? (pendingPrefix + ' ' + before) : before;
+      pendingStart = '|:';
+      lastIndex = match.index + token.length;
+      continue;
+    }
     if (before) {
+      const text = pendingPrefix ? (pendingPrefix + ' ' + before).trim() : before;
+      pendingPrefix = '';
       parts.push({
-        text: before,
+        text: text,
         startBarline: pendingStart,
         endBarline: token,
       });
@@ -91,9 +106,10 @@ export function splitMelodyStrainsWithBarlines(noteLines) {
     lastIndex = match.index + token.length;
   }
   const tail = flat.slice(lastIndex).trim();
-  if (tail) {
+  const tailText = pendingPrefix ? (pendingPrefix + ' ' + tail).trim() : tail;
+  if (tailText) {
     parts.push({
-      text: tail,
+      text: tailText,
       startBarline: pendingStart,
       endBarline: null,
     });

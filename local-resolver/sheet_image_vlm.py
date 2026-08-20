@@ -12,9 +12,9 @@ import httpx
 from chord_sheet_utils import estimate_chord_sheet_confidence, lines_to_chord_sheet_text, reconstruct_chords_over_words
 from chords_fetch import finalize_sheet_lines
 
-LLM_BASE_URL = os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:1234/v1").rstrip("/")
-LLM_MODEL = os.getenv("RESEARCH_LLM_MODEL", "google/gemma-3-4b-it")
-LLM_API_KEY = os.getenv("RESEARCH_LLM_API_KEY", "lm-studio")
+LLM_BASE_URL = os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:12340/v1").rstrip("/")
+LLM_MODEL = os.getenv("RESEARCH_LLM_MODEL", "qwen3.8-off")
+LLM_API_KEY = os.getenv("RESEARCH_LLM_API_KEY", "local")
 LLM_TIMEOUT_SECONDS = float(os.getenv("SHEET_IMAGE_VLM_TIMEOUT_SECONDS", "120"))
 VLM_CONFIDENCE_THRESHOLD = float(os.getenv("SHEET_IMAGE_VLM_CONFIDENCE_THRESHOLD", "0.55"))
 

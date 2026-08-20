@@ -375,6 +375,9 @@ export default function usePracticeSession(options) {
       if (suspendNowPlayingQueue) {
         suspendNowPlayingQueue()
       }
+      if (mediaController && mediaController.abortPlayingIntent) {
+        mediaController.abortPlayingIntent()
+      }
 
       mergePracticeSettings({
         instrument: config.instrument,

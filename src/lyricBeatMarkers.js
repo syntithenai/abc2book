@@ -46,6 +46,41 @@ export function wordIndexForBarFromLyricBeatAnchors(barIndex, barCount, anchorIn
 }
 
 /**
+ * When a lyric line has fewer `/` markers than bars, treat the first word as
+ * bar 1 (unless it is already marked) and insert extra downbeats in the
+ * largest gaps so a whole-bar change like `G | F | C F |` can land on
+ * `A new /throne` instead of skipping the F.
+ */
+export function expandLyricBeatDownbeats(anchorIndices, barCount) {
+  const bars = Math.max(1, Number(barCount) || 1);
+  const markers = Array.isArray(anchorIndices)
+    ? anchorIndices.filter(function(index) { return Number.isFinite(index); })
+    : [];
+  if (markers.length === 0) return [];
+  if (bars <= 1 || markers.length >= bars) return markers.slice();
+
+  const downbeats = markers.slice();
+  if (downbeats[0] !== 0) downbeats.unshift(0);
+
+  while (downbeats.length < bars) {
+    let bestI = -1;
+    let bestSize = 1;
+    for (let i = 0; i < downbeats.length - 1; i++) {
+      const size = downbeats[i + 1] - downbeats[i];
+      if (size > bestSize) {
+        bestSize = size;
+        bestI = i;
+      }
+    }
+    if (bestI < 0) break;
+    const insertAt = downbeats[bestI] + Math.floor((downbeats[bestI + 1] - downbeats[bestI]) / 2);
+    if (insertAt <= downbeats[bestI] || insertAt >= downbeats[bestI + 1]) break;
+    downbeats.splice(bestI + 1, 0, insertAt);
+  }
+  return downbeats;
+}
+
+/**
  * Partition lyric beat-marker indices across the bars assigned to one line.
  * Extra markers on a single-bar line stay available for mid-bar chord changes
  * (e.g. `C B` over `/gather … /bow`).
@@ -57,11 +92,20 @@ export function beatAnchorsForBar(barIndex, barCount, anchorIndices) {
   const b = Math.max(0, Math.min(Number(barIndex) || 0, bars - 1));
   if (bars <= 1) return anchors.slice();
   if (anchors.length === bars) return [anchors[b]];
-  const start = Math.round((b * anchors.length) / bars);
-  const end = Math.round(((b + 1) * anchors.length) / bars);
-  const slice = anchors.slice(start, Math.max(start + 1, end));
+  if (anchors.length > bars) {
+    const start = Math.round((b * anchors.length) / bars);
+    const end = Math.round(((b + 1) * anchors.length) / bars);
+    const slice = anchors.slice(start, Math.max(start + 1, end));
+    if (slice.length > 0) return slice;
+    return [anchors[Math.min(b, anchors.length - 1)]];
+  }
+  const downbeats = expandLyricBeatDownbeats(anchors, bars);
+  if (downbeats.length === bars) return [downbeats[b]];
+  const start = Math.round((b * downbeats.length) / bars);
+  const end = Math.round(((b + 1) * downbeats.length) / bars);
+  const slice = downbeats.slice(start, Math.max(start + 1, end));
   if (slice.length > 0) return slice;
-  return [anchors[Math.min(b, anchors.length - 1)]];
+  return [downbeats[Math.min(b, downbeats.length - 1)]];
 }
 
 /**

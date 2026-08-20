@@ -6,6 +6,7 @@ import {
   lyricBeatAnchorWordIndices,
   wordIndexForBarFromLyricBeatAnchors,
   beatAnchorsForBar,
+  expandLyricBeatDownbeats,
   wordIndicesForChordsOnBeatAnchors,
   resolveLyricBeatAnchorWordIndex,
   stripLyricBeatMarkersFromTokenLines,
@@ -50,7 +51,14 @@ describe('lyricBeatMarkers', function() {
     expect(wordIndexForBarFromLyricBeatAnchors(1, 4, [0, 2, 4, 6])).toBe(2);
     expect(wordIndexForBarFromLyricBeatAnchors(3, 4, [0, 2, 4, 6])).toBe(6);
     expect(wordIndexForBarFromLyricBeatAnchors(0, 4, [0, 4])).toBe(0);
+    expect(wordIndexForBarFromLyricBeatAnchors(1, 4, [0, 4])).toBe(1);
     expect(wordIndexForBarFromLyricBeatAnchors(3, 4, [0, 4])).toBe(4);
+  });
+
+  test('expandLyricBeatDownbeats keeps later / markers for later bars', function() {
+    expect(expandLyricBeatDownbeats([2, 10], 4)).toEqual([0, 2, 6, 10]);
+    expect(beatAnchorsForBar(1, 4, [2, 10])).toEqual([2]);
+    expect(beatAnchorsForBar(3, 4, [2, 10])).toEqual([10]);
   });
 
   test('beatAnchorsForBar keeps extra markers on a single-bar line', function() {

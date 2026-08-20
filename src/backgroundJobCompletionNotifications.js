@@ -50,6 +50,18 @@ function finishedJobsAreExportDownloadsOnly(jobs) {
   })
 }
 
+function finishedCacheJobs(jobs) {
+  return (jobs || []).filter(function(job) {
+    return job.type === 'cache' && (job.status === 'done' || job.status === 'error')
+  })
+}
+
+/** Media cache is silent on success; toast only when a cache job failed. */
+export function shouldShowQueueCompletionToast(queueId, jobs) {
+  if (queueId !== 'media-cache') return true
+  return finishedCacheJobs(jobs).some(function(job) { return job.status === 'error' })
+}
+
 export default function BackgroundJobCompletionNotifications() {
   const trackingRef = useRef({})
 
@@ -65,7 +77,9 @@ export default function BackgroundJobCompletionNotifications() {
       }
 
       if (tracking.hadActive && !state.running && activeCount === 0) {
-        if (queueHadWork(state.jobs) && !finishedJobsAreExportDownloadsOnly(state.jobs)) {
+        if (queueHadWork(state.jobs)
+          && !finishedJobsAreExportDownloadsOnly(state.jobs)
+          && shouldShowQueueCompletionToast(queue.id, state.jobs)) {
           const errors = (state.jobs || []).filter(function(job) { return job.status === 'error' }).length
           if (errors > 0) {
             toast.warning(queue.label + ' finished with ' + errors + ' error' + (errors === 1 ? '' : 's') + '.', {

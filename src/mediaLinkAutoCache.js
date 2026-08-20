@@ -12,7 +12,7 @@ import * as mediaCacheQueue from './mediaCacheQueue';
 
 /**
  * Archive / library sources that are slow to stream through the resolver and
- * safe to cache locally. YouTube is excluded (TOS).
+ * safe to cache locally without the explicit "cache played media" toggle.
  */
 export function shouldAutoCacheMediaLink(src, isYoutubeLink) {
   const trimmed = String(src || '').trim();
@@ -20,8 +20,7 @@ export function shouldAutoCacheMediaLink(src, isYoutubeLink) {
   if (typeof isYoutubeLink === 'function' && isYoutubeLink(trimmed)) return false;
   return isArchiveOrgLinkUri(trimmed)
     || isLocGovLinkUri(trimmed)
-    || isBandcampLinkUri(trimmed)
-    || isMusicCollectionLinkUri(trimmed);
+    || isBandcampLinkUri(trimmed);
 }
 
 /** Any non-YouTube audio link chosen in the media/links manager should be cached. */
@@ -32,8 +31,11 @@ export function shouldCacheSelectedMediaLink(src, srcType, isYoutubeLink) {
 }
 
 export function shouldScheduleMediaLinkCache(src, srcType, isYoutubeLink, autocacheOnPlay) {
-  if (!src || srcType !== 'audio') return false;
-  if (typeof isYoutubeLink === 'function' && isYoutubeLink(src)) return false;
+  if (!src) return false;
+  const isYoutube = srcType === 'youtube'
+    || (typeof isYoutubeLink === 'function' && isYoutubeLink(src));
+  if (isYoutube) return !!autocacheOnPlay;
+  if (srcType !== 'audio') return false;
   if (autocacheOnPlay) return true;
   return shouldAutoCacheMediaLink(src, isYoutubeLink);
 }

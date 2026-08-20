@@ -78,6 +78,13 @@ export function isCacheablePlaybackSrcType(srcType) {
     || srcType === 'midifile'
 }
 
+/** True when a tune link can be attempted as a playlist media source. */
+export function isMediaLinkPlaybackCandidate(link, isYoutubeLink) {
+  if (!link) return false
+  const srcType = resolveLinkPlaybackSrcType(link, isYoutubeLink)
+  return srcType !== 'empty' && srcType !== 'skip'
+}
+
 /** Play range (startAt/endAt) applies to audio/video, not MIDI files. Practice loops still can. */
 export function linkSupportsPlayRange(link, isYoutubeLink) {
   return !!PLAY_RANGE_SRC_TYPES[resolveLinkPlaybackSrcType(link, isYoutubeLink)]

@@ -1,6 +1,7 @@
 import {
   createImportReviewSession,
   createBlankAddCandidate,
+  shouldSkipImportDuplicateSplit,
   advanceReviewStep,
   markCandidateImported,
   beginMergeForCandidateIndex,
@@ -44,6 +45,36 @@ describe('importReviewSession', function() {
     expect(session.phase).toBe('identify');
     expect(session.sessionSummary).toEqual(emptySessionSummary());
     expect(session.entryMode).toBe('import');
+  });
+
+  test('shouldSkipImportDuplicateSplit when merge targets are already set', function() {
+    expect(shouldSkipImportDuplicateSplit([], {})).toBe(false);
+    expect(shouldSkipImportDuplicateSplit([{ mergeTargetId: 't1' }], {})).toBe(true);
+    expect(shouldSkipImportDuplicateSplit([{ mergeTargetId: 't1' }, { tune: { name: 'B' } }], {})).toBe(false);
+    expect(shouldSkipImportDuplicateSplit([{ tune: { name: 'A' } }], { skipDuplicateSplit: true })).toBe(true);
+  });
+
+  test('createImportReviewSession startEnrichment queues pending jobs', function() {
+    const session = createImportReviewSession([
+      { id: 'c1', tune: { name: 'Breathe', id: 'tune-1' }, mergeTargetId: 'tune-1' },
+      { id: 'c2', tune: { name: 'Time', id: 'tune-2' }, mergeTargetId: 'tune-2' },
+    ], { startEnrichment: true });
+    expect(session.phase).toBe('enrichment');
+    expect(session.step).toBe('enrichmentQueue');
+    expect(session.skipEnrichment).toBe(false);
+    expect(session.enrichmentJobs).toHaveLength(2);
+    expect(session.enrichmentJobs.every(function(job) { return job.status === 'pending'; })).toBe(true);
+    expect(session.enrichmentJobs[0].candidateId).toBe('c1');
+    expect(session.enrichmentJobs[1].candidateId).toBe('c2');
+  });
+
+  test('createImportReviewSession startEnrichment is skipped when skipEnrichment is set', function() {
+    const session = createImportReviewSession(
+      [{ id: 'c1', tune: { name: 'A' }, mergeTargetId: 't1' }],
+      { startEnrichment: true, skipEnrichment: true }
+    );
+    expect(session.phase).toBe('identify');
+    expect(session.enrichmentJobs).toEqual([]);
   });
 
   test('createBlankAddCandidate seeds empty manual draft', function() {

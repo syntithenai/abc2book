@@ -4,7 +4,7 @@
  */
 
 const SECTION_COMMENT_RE =
-  /^(verse|chorus|bridge|intro|outro|pre-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook|v\d+)(\s+\d+)?$/i
+  /^(verse|chorus|bridge|intro|outro|pre-?chorus|mini-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook|v\d+)(\s+\d+)?$/i
 
 const DIRECTIVE_RE = /^\{\s*([a-z][a-z0-9_-]*)\s*(?::\s*(.*))?\}$/i
 

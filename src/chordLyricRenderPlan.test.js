@@ -14,11 +14,19 @@ describe('resolveChordRenderPlan', function() {
     expect(plan.mode).toBe('passthrough_cow');
   });
 
-  test('plain lyrics use per_line_abc', function() {
+  test('plain lyrics default to plain mode without notation merge', function() {
     const plan = resolveChordRenderPlan({
       words: ['My line of lyrics', 'Another line'],
       voices: { '1': { notes: ['"C"C | "G"G |'] } },
     }, {});
+    expect(plan.mode).toBe('plain');
+  });
+
+  test('plain lyrics use per_line_abc when notation merge allowed', function() {
+    const plan = resolveChordRenderPlan({
+      words: ['My line of lyrics', 'Another line'],
+      voices: { '1': { notes: ['"C"C | "G"G |'] } },
+    }, { allowNotationMerge: true });
     expect(plan.mode).toBe('per_line_abc');
   });
 });

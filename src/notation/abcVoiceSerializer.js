@@ -1,7 +1,9 @@
-import { parseNoteLengthDecimal, assignTimingToEvents } from './beatGrid';
+import { parseNoteLengthDecimal, assignTimingToEvents, durationToBeats, tupletBeatScale } from './beatGrid';
+import { getBarModel } from '../barModel';
 import { abcTokenForDecoration } from './notationTokens';
 import { serializeFingeringAbcPrefix } from './notationMarks';
 import { stripFillerRests } from './staffMeasureFill';
+import { isLayoutEventType } from './inlineSignatureTokens';
 
 function pitchToAbcToken(pitch) {
   if (!pitch) return '';
@@ -157,6 +159,67 @@ export function serializeVoiceEventSpans(events, tuneMeta) {
 
 export function serializeVoiceEvents(events, tuneMeta) {
   return serializeVoiceEventSpans(stripFillerRests(events), tuneMeta).body;
+}
+
+function eventUnitSlots(ev, unit) {
+  if (!ev || isLayoutEventType(ev.type)) return 0;
+  let beats = durationToBeats(ev.duration, unit);
+  if (ev.tuplet) beats *= tupletBeatScale(ev.tuplet);
+  const unitBeats = unit * 4;
+  return beats / unitBeats;
+}
+
+function isOnBeatBoundary(slotCursor, beatUnitSlots) {
+  if (slotCursor <= 0.001) return false;
+  const rounded = Math.round(slotCursor * 1000) / 1000;
+  const mod = Math.round((rounded % beatUnitSlots) * 1000) / 1000;
+  return mod < 0.001 || Math.abs(mod - beatUnitSlots) < 0.001;
+}
+
+/**
+ * Serialize with extra spaces at beat boundaries within each measure (visual beat grouping).
+ */
+export function serializeVoiceEventsWithBeatGroups(events, tuneMeta) {
+  const meter = tuneMeta && tuneMeta.meter ? tuneMeta.meter : '4/4';
+  const noteLength = tuneMeta && tuneMeta.noteLength ? tuneMeta.noteLength : '1/8';
+  const unit = parseNoteLengthDecimal(noteLength, meter);
+  const barModel = getBarModel(meter, noteLength);
+  const beatUnitSlots = barModel.beatUnitSlots;
+  let body = '';
+  let prevPrintable = null;
+  let slotCursor = 0;
+
+  (events || []).forEach(function(ev) {
+    if (ev.type === 'lineBreak') {
+      body += '\n';
+      prevPrintable = null;
+      return;
+    }
+    const token = eventToken(ev, unit);
+    if (!token) return;
+    let needSpace = !!prevPrintable && (
+      prevPrintable.type === 'barline'
+      || ev.type === 'barline'
+      || prevPrintable.type === 'keyChange'
+      || prevPrintable.type === 'meterChange'
+      || ev.type === 'keyChange'
+      || ev.type === 'meterChange'
+      || !!ev.beamBreakBefore
+    );
+    if (!needSpace && prevPrintable && !isLayoutEventType(ev.type)) {
+      needSpace = isOnBeatBoundary(slotCursor, beatUnitSlots);
+    }
+    if (needSpace) body += ' ';
+    body += token;
+    if (ev.type === 'barline') {
+      slotCursor = 0;
+    } else if (!isLayoutEventType(ev.type)) {
+      slotCursor += eventUnitSlots(ev, unit);
+    }
+    prevPrintable = ev;
+  });
+
+  return body;
 }
 
 export function serializeVoiceEventsViaParser(events, tuneMeta, abcjsParser) {

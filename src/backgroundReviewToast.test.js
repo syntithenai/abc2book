@@ -92,6 +92,19 @@ describe('backgroundReviewToast', function() {
     )
   })
 
+  test('showBulkImportStartedToast reports saved songs and enhance lookup', function() {
+    showBulkImportStartedToast({ savedCount: 10, enhance: true })
+    expect(toast.info).toHaveBeenCalledWith(
+      'Saved 10 songs — looking up chords, lyrics, and notation…',
+      expect.objectContaining({ toastId: 'bulk-import-started' })
+    )
+    showBulkImportStartedToast({ savedCount: 1, enhance: false })
+    expect(toast.info).toHaveBeenCalledWith(
+      'Saved 1 song.',
+      expect.objectContaining({ toastId: 'bulk-import-started' })
+    )
+  })
+
   test('syncBackgroundReviewToast shows import review ready toast', function() {
     getBackgroundReviewSummary
       .mockReturnValueOnce({

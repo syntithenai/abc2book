@@ -1,22 +1,38 @@
 import {
   isQueueActive,
-  getCurrentItem,
-  resolvePlaybackForItem,
   isExternalQueueItem,
 } from './nowPlayingQueue'
+import { isMediaLinkPlaybackCandidate } from './mediaLinkSrcType'
 import { advanceQueueToNextPlayable } from './playlistPlaybackResilience'
+
+export function collectMediaLinkCandidateIndexes(tune, isYoutubeLink) {
+  if (!tune || !Array.isArray(tune.links) || tune.links.length === 0) return []
+  const indexes = []
+  for (let i = 0; i < tune.links.length; i++) {
+    if (isMediaLinkPlaybackCandidate(tune.links[i], isYoutubeLink)) indexes.push(i)
+  }
+  return indexes
+}
 
 /**
  * Next playable media link on the same tune (after the given link index).
+ * Walks remaining links, then wraps so every candidate is tried once.
  */
-export function findNextPlayableLinkIndex(tune, tunebook, afterLinkIndex) {
-  if (!tune || !tunebook || !Array.isArray(tune.links) || tune.links.length < 2) return -1
+export function findNextPlayableLinkIndex(tune, tunebook, afterLinkIndex, options) {
+  const opts = options || {}
+  if (!tune || !Array.isArray(tune.links) || tune.links.length < 2) return -1
+  const skipIndexes = opts.skipIndexes || {}
+  const isYoutubeLink = opts.isYoutubeLink
+    || (tunebook && tunebook.utils && tunebook.utils.isYoutubeLink)
   const start = typeof afterLinkIndex === 'number' && afterLinkIndex >= 0
     ? afterLinkIndex + 1
     : 0
-  for (let i = start; i < tune.links.length; i++) {
-    const item = { tuneId: tune.id, prefer: 'media', linkIndex: i }
-    if (resolvePlaybackForItem(tune, item, tunebook)) return i
+  const count = tune.links.length
+  for (let offset = 0; offset < count; offset++) {
+    const i = (start + offset) % count
+    if (i === afterLinkIndex) continue
+    if (skipIndexes[i]) continue
+    if (isMediaLinkPlaybackCandidate(tune.links[i], isYoutubeLink)) return i
   }
   return -1
 }
@@ -53,9 +69,9 @@ export async function advanceQueueAfterPlaybackFailure(queue, tunes, tunebook, o
   return { queue: workingQueue, tune: null, item: null, atEnd: true }
 }
 
-export function queueItemHasAlternateMediaLinks(tune, item, tunebook, currentLinkIndex) {
-  if (!tune || !item || isExternalQueueItem(item)) return false
-  return findNextPlayableLinkIndex(tune, tunebook, currentLinkIndex) >= 0
+export function queueItemHasAlternateMediaLinks(tune, item, tunebook, currentLinkIndex, options) {
+  if (!tune || isExternalQueueItem(item)) return false
+  return findNextPlayableLinkIndex(tune, tunebook, currentLinkIndex, options) >= 0
 }
 
 export function getCurrentQueueItemLinkIndex(item, mediaLinkNumber) {

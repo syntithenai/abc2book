@@ -141,6 +141,83 @@ describe('playlistPlaybackResilience', function() {
     expect(result.queue.currentIndex).toBe(2)
   })
 
+  test('advanceQueueToNextPlayable uses a later media link when the first is unplayable', async function() {
+    const linkRecording = require('./linkRecording')
+    linkRecording.getRecording.mockResolvedValue(null)
+    const mixed = {
+      id: 'mixed',
+      links: [
+        { link: 'abcbook-recording:missing', recordingId: 'missing' },
+        { link: 'https://example.com/a.mp3' },
+      ],
+    }
+    const queue = createQueue({
+      tuneIds: ['mixed'],
+      currentIndex: 0,
+    })
+    const result = await advanceQueueToNextPlayable(queue, { mixed: mixed }, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(0)
+    expect(result.tune.id).toBe('mixed')
+    expect(result.item.linkIndex).toBe(1)
+    expect(result.playbackTarget).toEqual({ type: 'media', linkNum: 1 })
+  })
+
+  test('advanceQueueToNextPlayable uses a later link when the first is empty', async function() {
+    const mixed = {
+      id: 'mixed',
+      links: [
+        { link: '' },
+        { link: 'https://example.com/b.mp3' },
+      ],
+    }
+    const queue = createQueue({
+      tuneIds: ['mixed'],
+      currentIndex: 0,
+    })
+    const result = await advanceQueueToNextPlayable(queue, { mixed: mixed }, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.item.linkIndex).toBe(1)
+    expect(result.playbackTarget).toEqual({ type: 'media', linkNum: 1 })
+  })
+
+  test('advanceQueueToNextPlayable skips a tune when every media link is unplayable', async function() {
+    const linkRecording = require('./linkRecording')
+    linkRecording.getRecording.mockResolvedValue(null)
+    const broken = {
+      id: 'broken',
+      links: [
+        { link: 'abcbook-recording:missing-a', recordingId: 'missing-a' },
+        { link: 'abcbook-recording:missing-b', recordingId: 'missing-b' },
+      ],
+    }
+    const playable = {
+      id: 'playable',
+      links: [{ link: 'https://example.com/a.mp3' }],
+    }
+    const queue = createQueue({
+      tuneIds: ['broken', 'playable'],
+      currentIndex: 0,
+    })
+    const result = await advanceQueueToNextPlayable(queue, {
+      broken: broken,
+      playable: playable,
+    }, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(1)
+    expect(result.tune.id).toBe('playable')
+    expect(result.playbackTarget).toEqual({ type: 'media', linkNum: 0 })
+  })
+
   test('advanceQueueToNextPlayable skips owned media with missing local recording', async function() {
     const linkRecording = require('./linkRecording')
     linkRecording.getRecording.mockResolvedValueOnce(null)
@@ -259,6 +336,35 @@ describe('playlistPlaybackResilience', function() {
     expect(result.atEnd).toBe(false)
     expect(result.skipped).toBe(1)
     expect(result.tune.id).toBe('cached')
+  })
+
+  test('advanceQueueToNextPlayable uses a later direct link when a library link is blocked', async function() {
+    const mediaProxyClient = require('./mediaProxyClient')
+    mediaProxyClient.getResolverLoginWarning.mockReturnValue({
+      message: 'Shared resolver providers need a Google login.',
+      showLoginButton: true,
+    })
+    const mixed = {
+      id: 'mixed',
+      links: [
+        { link: 'https://resolver.example/music-collection/uncached.mp3' },
+        { link: 'https://example.com/ok.mp3' },
+      ],
+    }
+    const queue = createQueue({
+      tuneIds: ['mixed'],
+      currentIndex: 0,
+    })
+    const result = await advanceQueueToNextPlayable(queue, { mixed: mixed }, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+      resolverStatus: { available: false },
+      accessToken: null,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(0)
+    expect(result.item.linkIndex).toBe(1)
+    expect(result.playbackTarget).toEqual({ type: 'media', linkNum: 1 })
   })
 
   test('advanceQueueToNextPlayable skips uncached when logged out before health probe settles', async function() {

@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Modal, Button, ButtonGroup } from 'react-bootstrap'
+import { Button, ButtonGroup } from 'react-bootstrap'
 import Abc from './Abc'
 import PracticeTuneDisplay from './PracticeTuneDisplay'
 import PracticeSessionPlaybackHost from './PracticeSessionPlaybackHost'
@@ -158,6 +158,9 @@ export default function PracticeSessionModal(props) {
       submitResolverAnalysis(repIndex)
       accuracyMonitor.resetRepBuffers()
     }
+    if (run > 0 && run !== prevWarmupRunRef.current && accuracyMonitor.beginRep) {
+      accuracyMonitor.beginRep(run - 1)
+    }
     prevWarmupRunRef.current = run
   }, [warmupRun, accuracyEnabled, currentStep])
 
@@ -313,6 +316,27 @@ export default function PracticeSessionModal(props) {
     }
   }, [props.show, isEnded, canPausePlayback])
 
+  useEffect(function() {
+    if (!props.show || typeof document === 'undefined') return undefined
+    document.body.classList.add('practice-session-page-open')
+    return function() {
+      document.body.classList.remove('practice-session-page-open')
+    }
+  }, [props.show])
+
+  useEffect(function() {
+    if (!props.show) return undefined
+    function onKeyDown(e) {
+      if (e.key !== 'Escape') return
+      e.preventDefault()
+      handleModalHide()
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return function() {
+      window.removeEventListener('keydown', onKeyDown)
+    }
+  }, [props.show, isEnded])
+
   function handleModalHide() {
     if (isEnded) {
       if (props.onClose) props.onClose()
@@ -428,20 +452,18 @@ export default function PracticeSessionModal(props) {
     )
   }
 
+  if (!props.show) return null
+
   return (
-    <Modal
-      show={!!props.show}
-      onHide={handleModalHide}
-      fullscreen={true}
-      backdrop="static"
-      keyboard={false}
-      className={'practice-session-modal' + (isEnded ? ' practice-session-ended' : '')}
-      style={{ zIndex: 1200 }}
+    <div
+      className={'practice-session-page' + (isEnded ? ' practice-session-ended' : '')}
+      role="main"
+      aria-label="Practice session"
     >
-      <Modal.Header className="practice-session-header">
+      <header className="practice-session-header">
         <div className="practice-session-header-toolbar">
           <div className="practice-session-header-left">
-            <Modal.Title>Practice</Modal.Title>
+            <h1 className="practice-session-header-title">Practice</h1>
             {!isEnded ? (
               <>
                 {currentStep && currentStep.type === 'warmup' ? (
@@ -565,7 +587,7 @@ export default function PracticeSessionModal(props) {
             ) : null}
           </div>
         ) : null}
-      </Modal.Header>
+      </header>
       {!isEnded ? (
         <PracticeTapToPlayPrompt
           tunebook={props.tunebook}
@@ -574,7 +596,7 @@ export default function PracticeSessionModal(props) {
           armPlaybackGesture={props.armPlaybackGesture}
         />
       ) : null}
-      <Modal.Body className="practice-session-body">
+      <div className="practice-session-body">
         {isEnded || copy.action ? (
           <div className={'practice-session-instruction' + (isEnded ? ' practice-session-instruction-complete' : '')}>
             <div className="practice-session-instruction-action">{copy.action}</div>
@@ -639,10 +661,12 @@ export default function PracticeSessionModal(props) {
                   setWarmupRun(1)
                   setCountInBeat(0)
                   setCountInTotal(0)
+                  if (accuracyMonitor.beginRep) accuracyMonitor.beginRep(0)
                 }}
                 onRepeat={function(run) {
                   setWarmupStatus('playing')
                   setWarmupRun(run)
+                  if (accuracyMonitor.beginRep) accuracyMonitor.beginRep(Math.max(0, run - 1))
                 }}
                 onEnded={handleWarmupEnded}
               />
@@ -674,6 +698,7 @@ export default function PracticeSessionModal(props) {
               key={String(tune.id) + '-' + String(props.stepIndex) + '-' + String(props.practiceViewMode || 'music') + '-' + voiceSettingsVersion + '-' + tuneTranspose}
               tune={tune}
               tunebook={props.tunebook}
+              mediaController={props.mediaController}
               viewMode={props.practiceViewMode}
               voiceSettingsVersion={voiceSettingsVersion}
               onLayoutNeeds={handleTuneLayoutNeeds}
@@ -692,7 +717,7 @@ export default function PracticeSessionModal(props) {
             />
           </div>
         ) : null}
-      </Modal.Body>
-    </Modal>
+      </div>
+    </div>
   )
 }

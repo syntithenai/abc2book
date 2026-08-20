@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { beatToX, midiToY } from '../notation/pianoRollGeometry'
-import { IN_TUNE_CENTS } from '../tunerTuningUtils'
+import { IN_TUNE_CENTS, midiToNoteName } from '../tunerTuningUtils'
 import './PracticeWarmupPitchRoll.css'
 
 // First color matches TunerPitchGraph live stroke.
@@ -8,7 +8,7 @@ const REP_COLORS = ['#5dade2', '#e67e22', '#1abc9c', '#9b59b6', '#e74c3c', '#f1c
 const TRACE_GAP_MS = 200
 const ROW_HEIGHT = 18
 const MIN_HEIGHT = 160
-const PADDING_LEFT = 36
+const PADDING_LEFT = 48
 const PADDING_RIGHT = 12
 const PADDING_Y = 16
 /** Floor so a single pitch still has usable room for ±cents. */
@@ -137,9 +137,24 @@ function drawRoll(ctx, width, height, props) {
       ctx.font = '10px sans-serif'
       ctx.textAlign = 'right'
       ctx.textBaseline = 'middle'
-      ctx.fillText(String(midi), PADDING_LEFT - 6, y)
+      ctx.fillText(midiToNoteName(midi) || String(midi), PADDING_LEFT - 6, pitchToY(midi, range, rowHeight))
     }
   }
+
+  const noteLabels = {}
+  notes.forEach(function(note) {
+    if (note && Number.isFinite(note.midi)) noteLabels[Math.round(note.midi)] = true
+  })
+  Object.keys(noteLabels).map(Number).forEach(function(midi) {
+    if (midi % 12 === 0) return
+    const label = midiToNoteName(midi)
+    if (!label) return
+    ctx.fillStyle = '#6c757d'
+    ctx.font = '10px sans-serif'
+    ctx.textAlign = 'right'
+    ctx.textBaseline = 'middle'
+    ctx.fillText(label, PADDING_LEFT - 6, pitchToY(midi, range, rowHeight))
+  })
 
   // Piano-roll expected notes (behind the heard-pitch line)
   notes.forEach(function(note) {

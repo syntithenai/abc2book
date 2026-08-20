@@ -197,6 +197,30 @@ function parseChordSymbols(symbol) {
   }).filter(Boolean);
 }
 
+function isTimedEventType(type) {
+  return type === 'note' || type === 'chord' || type === 'rest';
+}
+
+function markBeamBreakFromSource(ev, symbol, ctx) {
+  if (!ev || !isTimedEventType(ev.type)) return;
+  if (!isTimedEventType(ctx.lastPrintableType)) return;
+  if (!symbol || typeof symbol.startChar !== 'number' || typeof ctx.lastEndChar !== 'number') return;
+  const source = String(ctx.abcSource || '');
+  const between = source.slice(ctx.lastEndChar, symbol.startChar);
+  if (between.indexOf('\n') !== -1) return;
+  const prevToken = typeof ctx.lastStartChar === 'number'
+    ? source.slice(ctx.lastStartChar, ctx.lastEndChar)
+    : '';
+  // abcjs often folds a trailing grouping space into the previous note's endChar.
+  if (/[ \t]/.test(between) || /[ \t]$/.test(prevToken)) ev.beamBreakBefore = true;
+}
+
+function rememberPrintable(ctx, ev, symbol) {
+  ctx.lastPrintableType = ev && ev.type;
+  if (symbol && typeof symbol.startChar === 'number') ctx.lastStartChar = symbol.startChar;
+  if (symbol && typeof symbol.endChar === 'number') ctx.lastEndChar = symbol.endChar;
+}
+
 function symbolToEvent(symbol, unitLengthDecimal, ctx) {
   if (!symbol) return null;
   if (symbol.el_type === 'bar') {
@@ -206,7 +230,7 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
     else if (symbol.type === 'bar_thick_thin') barToken = '[|';
     else if (symbol.type === 'bar_left_repeat') barToken = '|:';
     else if (symbol.type === 'bar_right_repeat') barToken = ':|';
-    else if (symbol.type === 'bar_dotted_repeat') barToken = ':|:';
+    else if (symbol.type === 'bar_dotted_repeat' || symbol.type === 'bar_dbl_repeat') barToken = ':|:';
     const ev = {
       id: createEventId('bar'),
       type: 'barline',
@@ -216,7 +240,13 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
       tieEnd: false,
       chordSymbols: parseChordSymbols(symbol),
     };
+    if (symbol.startEnding != null && String(symbol.startEnding) !== '') {
+      const volta = parseInt(symbol.startEnding, 10)
+      ev.volta = Number.isFinite(volta) && volta > 0 ? volta : symbol.startEnding
+    }
+    if (symbol.endEnding) ev.endEnding = true;
     ctx.advance(ev);
+    rememberPrintable(ctx, ev, symbol);
     return ev;
   }
   if (symbol.el_type === 'key' || symbol.el_type === 'keySignature') {
@@ -226,6 +256,7 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
       key: keyTextFromAbcjsSymbol(symbol, ctx.abcSource),
     }, zeroDurationFields());
     ctx.advance(ev);
+    rememberPrintable(ctx, ev, symbol);
     return ev;
   }
   if (symbol.el_type === 'meter' || symbol.el_type === 'timeSignature') {
@@ -237,6 +268,7 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
       meter: meterText,
     }, zeroDurationFields());
     ctx.advance(ev);
+    rememberPrintable(ctx, ev, symbol);
     return ev;
   }
   if (symbol.el_type === 'stem') return null;
@@ -264,7 +296,9 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
       tuplet: tuplet,
       chordSymbols: chordSymbols,
     });
+    markBeamBreakFromSource(ev, symbol, ctx);
     ctx.advance(ev);
+    rememberPrintable(ctx, ev, symbol);
     return ev;
   }
   const pitches = (symbol.pitches || []).map(function(p) {
@@ -286,7 +320,9 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
     tuplet: tuplet,
     chordSymbols: chordSymbols,
   });
+  markBeamBreakFromSource(ev, symbol, ctx);
   ctx.advance(ev);
+  rememberPrintable(ctx, ev, symbol);
   return ev;
 }
 
@@ -337,6 +373,9 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
     measureIndex: 0,
     slurStack: {},
     tupletGroup: null,
+    lastPrintableType: null,
+    lastStartChar: null,
+    lastEndChar: null,
     advance: function(ev) {
       ev.startBeat = ctx.cursorBeat;
       ev.durationBeats = durationToBeats(ev.duration, unit);
@@ -359,6 +398,7 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
         tieStart: false,
         tieEnd: false,
       });
+      ctx.lastPrintableType = 'lineBreak';
     }
     if (!line.staff || !line.staff[0] || !line.staff[0].voices) return;
     const voice = line.staff[0].voices[0] || [];

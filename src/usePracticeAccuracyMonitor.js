@@ -259,6 +259,8 @@ export default function usePracticeAccuracyMonitor(options) {
     lastTraceBeatRef.current = -999
     lastTraceTimeRef.current = -999
     beatAnchorRef.current = { beat: 0, timeMs: 0 }
+    patternLocalBeatRef.current = 0
+    currentRepRef.current = 0
     setRepTraces([])
     setPlayheadBeat(0)
   }, [])
@@ -270,23 +272,45 @@ export default function usePracticeAccuracyMonitor(options) {
     lastTraceTimeRef.current = -999
   }, [])
 
+  const beginRep = useCallback(function(repIndex) {
+    const rep = Math.max(0, parseInt(repIndex, 10) || 0)
+    currentRepRef.current = rep
+    patternLocalBeatRef.current = 0
+    lastTraceBeatRef.current = -999
+    lastTraceTimeRef.current = -999
+    beatAnchorRef.current = {
+      beat: 0,
+      timeMs: typeof performance !== 'undefined' && performance.now
+        ? performance.now()
+        : Date.now(),
+    }
+    ensureRepTrace(rep)
+    setPlayheadBeat(0)
+  }, [ensureRepTrace])
+
   const handlePracticeBeat = useCallback(function(payload) {
     if (!payload) return
     if (payload.repIndex != null) currentRepRef.current = payload.repIndex
     const timeline = timelineRef.current
     const pattern = timeline ? timeline.patternDurationBeats : 0
     const gap = gapBeatsRef.current
-    const rep = currentRepRef.current
     const nowMs = typeof performance !== 'undefined' && performance.now
       ? performance.now()
       : Date.now()
 
     if (payload.currentBeat != null && Number.isFinite(payload.currentBeat)) {
-      // abcjs beat is pattern-local for the current play-through.
-      patternLocalBeatRef.current = Math.max(0, payload.currentBeat)
+      const nextLocal = Math.max(0, payload.currentBeat)
+      // Beat clock restarted for the next play-through before repIndex updated.
+      if (nextLocal + 0.75 < patternLocalBeatRef.current) {
+        currentRepRef.current = (payload.repIndex != null ? payload.repIndex : currentRepRef.current + 1)
+        lastTraceBeatRef.current = -999
+        lastTraceTimeRef.current = -999
+        ensureRepTrace(currentRepRef.current)
+      }
+      patternLocalBeatRef.current = nextLocal
       currentBeatRef.current = absoluteBeatFromPatternLocal(
         patternLocalBeatRef.current,
-        rep,
+        currentRepRef.current,
         pattern,
         gap
       )
@@ -294,13 +318,13 @@ export default function usePracticeAccuracyMonitor(options) {
       currentBeatRef.current = notationBeatFromAudioSeconds(
         payload.audioSeconds,
         timeline.tuneMeta,
-        rep,
+        currentRepRef.current,
         pattern,
         gap
       )
       patternLocalBeatRef.current = patternLocalBeatFromAbsolute(
         currentBeatRef.current,
-        rep,
+        currentRepRef.current,
         pattern,
         gap
       )
@@ -310,7 +334,7 @@ export default function usePracticeAccuracyMonitor(options) {
       timeMs: nowMs,
     }
     setPlayheadBeat(patternLocalBeatRef.current)
-  }, [])
+  }, [ensureRepTrace])
 
   function livePatternLocalBeat(nowMs) {
     const timeline = timelineRef.current
@@ -648,6 +672,7 @@ export default function usePracticeAccuracyMonitor(options) {
     expectedNotes: expectedNotes,
     patternDurationBeats: patternDurationBeats,
     handlePracticeBeat: handlePracticeBeat,
+    beginRep: beginRep,
     onRepComplete: onRepComplete,
     onStepComplete: onStepComplete,
     resetRepBuffers: resetRepBuffers,

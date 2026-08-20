@@ -131,6 +131,60 @@ describe('applyNotationChordsToLyricChordPro', function() {
     expect(result.ok).toBe(false)
   })
 
+  test('preserves all lyric lines when blank lines separate stanzas', function() {
+    const notes = [
+      '"G"zzzz|"C"zzzz|"G"zzzz|"D"zzzz||',
+      '"G"zzzz|"C"zzzz|"G"zzzz|"D"zzzz||',
+    ]
+    const lyrics = [
+      '[Verse]',
+      'Amazing grace how sweet',
+      'the sound that saved',
+      '',
+      'Amazing grace how sweet',
+      'the sound that saved',
+    ]
+    const tune = buildTune(notes, lyrics)
+    const built = chartForTune(tune)
+    const result = applyNotationChordsToLyricChordPro(tune, {
+      chordChart: built.chordChart,
+      melodyNoteLines: built.melodyNoteLines,
+    })
+    expect(result.ok).toBe(true)
+    const joined = result.lyricLines.join('\n')
+    expect(joined).toMatch(/Amazing/)
+    expect(joined.match(/Amazing/g)).toHaveLength(2)
+    expect(joined).toMatch(/sound/)
+    expect(joined.match(/sound/g)).toHaveLength(2)
+  })
+
+  test('preserves verse lines after a blank when the verse continues before chorus', function() {
+    const notes = [
+      '"G"zzzz|"C"zzzz|"G"zzzz|"D"zzzz||',
+      '"Am"zzzz|"F"zzzz|"C"zzzz|"G"zzzz||',
+    ]
+    const lyrics = [
+      '[Verse]',
+      'Last time last rhyme',
+      '',
+      'One more for the road',
+      '',
+      '[Chorus]',
+      'Sing it loud and clear',
+    ]
+    const tune = buildTune(notes, lyrics)
+    const built = chartForTune(tune)
+    const result = applyNotationChordsToLyricChordPro(tune, {
+      chordChart: built.chordChart,
+      melodyNoteLines: built.melodyNoteLines,
+    })
+    expect(result.ok).toBe(true)
+    const joined = result.lyricLines.join('\n')
+    expect(joined).toMatch(/Last/)
+    expect(joined).toMatch(/One.*more/)
+    expect(joined).toMatch(/Sing.*loud/)
+  })
+
   test('preserves lyric / beat markers when writing ChordPro from notation', function() {
     const notes = [
       '"C"zzzz|"C"zzzz"B"zzzz||',

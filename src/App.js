@@ -1229,11 +1229,6 @@ function App(props) {
           token: token,
           driveApi: filesDocumentManager,
         })
-      }).then(function(warmResult) {
-        if (warmResult && warmResult.warmed > 0) {
-          const label = warmResult.warmed === 1 ? 'track' : 'tracks'
-          toast.info('Cached ' + warmResult.warmed + ' owned ' + label + ' for offline playback')
-        }
       }).catch(function() {})
       syncPendingTuneFileUploads({
         token: token,

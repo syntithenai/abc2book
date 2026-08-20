@@ -3,6 +3,7 @@ import {
   pendingRequestMatchesRoute,
   routeMatchesPendingRequest,
   shouldKeepIntentWhenRouteNotReady,
+  shouldBlockMidiStartForMediaRequest,
 } from './playbackRequestLogic'
 import { SAMPLE_TUNE_IDS } from './devSeed/sampleTunebookAbc'
 
@@ -63,5 +64,12 @@ describe('playbackRequestLogic', function() {
     expect(shouldKeepIntentWhenRouteNotReady(pending, 'none')).toBe(true)
     expect(shouldKeepIntentWhenRouteNotReady(null, 'none')).toBe(false)
     expect(shouldKeepIntentWhenRouteNotReady(pending, 'midi')).toBe(false)
+  })
+
+  test('shouldBlockMidiStartForMediaRequest only when media is still requested', function() {
+    expect(shouldBlockMidiStartForMediaRequest('midi', 'playMedia')).toBe(true)
+    expect(shouldBlockMidiStartForMediaRequest('midi', 'playMidi')).toBe(false)
+    expect(shouldBlockMidiStartForMediaRequest('midi', null)).toBe(false)
+    expect(shouldBlockMidiStartForMediaRequest('media', 'playMedia')).toBe(false)
   })
 })

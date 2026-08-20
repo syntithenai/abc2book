@@ -7,13 +7,13 @@ import httpx
 
 LLM_BASE_URL = (
     os.getenv("VOICE_COMMAND_LLM_BASE_URL")
-    or os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:1234/v1")
+    or os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:12340/v1")
 ).rstrip("/")
 LLM_MODEL = os.getenv("VOICE_COMMAND_LLM_MODEL") or os.getenv(
-    "RESEARCH_LLM_MODEL", "google/gemma-3-4b-it"
+    "RESEARCH_LLM_MODEL", "qwen3.8-off"
 )
 LLM_API_KEY = os.getenv("VOICE_COMMAND_LLM_API_KEY") or os.getenv(
-    "RESEARCH_LLM_API_KEY", "lm-studio"
+    "RESEARCH_LLM_API_KEY", "local"
 )
 LLM_TIMEOUT_SECONDS = float(os.getenv("VOICE_COMMAND_LLM_TIMEOUT_SECONDS", "30"))
 LLM_MAX_TOKENS = int(os.getenv("VOICE_COMMAND_LLM_MAX_TOKENS", "300"))

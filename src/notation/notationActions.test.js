@@ -50,7 +50,7 @@ describe('notationActions', function() {
     session = insertBarlineAtCaret(session, '|');
     expect(session.caretIndex).toBe(3);
     const abc = serializeVoiceEvents(session.events, tuneMeta);
-    expect(abc).toMatch(/CD \| EF/);
+    expect(abc).toMatch(/C ?D \| E ?F/);
   });
 
   test('insertBarlineAtCaret inserts before leftmost selected note', function() {
@@ -62,7 +62,7 @@ describe('notationActions', function() {
     });
     session = insertBarlineAtCaret(session, '|');
     const abc = serializeVoiceEvents(session.events, tuneMeta);
-    expect(abc).toMatch(/CD \| EF/);
+    expect(abc).toMatch(/C ?D \| E ?F/);
   });
 
   test('layoutInsertIndex prefers leftmost selected note over caret', function() {
@@ -203,7 +203,7 @@ describe('notationActions', function() {
     expect(after[1].pitch.step).toBe('D');
     expect(after[2].pitch.step).toBe('G');
     expect(after[3].pitch.step).toBe('F');
-    expect(serializeVoiceEvents(session.events, tuneMeta)).toMatch(/CD[Gg]F/);
+    expect(serializeVoiceEvents(session.events, tuneMeta)).toMatch(/C ?D ?[Gg] ?F/);
   });
 
   test('deleteSelectionToRest Delete key removes event at caret, not before it', function() {

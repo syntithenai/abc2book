@@ -26,6 +26,7 @@ export default function PitchTempoControlsPanel({
   const [fineTune, setFineTune] = useState(0);
   const [selectedTempoPreset, setSelectedTempoPreset] = useState('standard');
   const saveTimerRef = useRef(null);
+  const liveTimerRef = useRef(null);
   const globalTempoPercent = useSyncExternalStore(subscribeGlobalTempo, getGlobalTempoPercent);
   const globalTempoActive = globalTempoPercent > 0;
   const tempoControlsDisabled = disabled || globalTempoActive;
@@ -43,6 +44,13 @@ export default function PitchTempoControlsPanel({
     }
   }, [tune, tuneId, playbackTempo, playbackPitch, playbackFineTune]);
 
+  useEffect(function() {
+    return function() {
+      if (liveTimerRef.current) clearTimeout(liveTimerRef.current);
+      if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+    };
+  }, []);
+
   function applyLive(nextTempo, nextPitch, nextFineTune) {
     if (!mediaController) return;
     const liveOpts = { fromUserGesture: true };
@@ -51,6 +59,21 @@ export default function PitchTempoControlsPanel({
     } else if (mediaController.updateTunePlaybackSettings) {
       mediaController.updateTunePlaybackSettings(nextTempo, nextPitch, nextFineTune);
     }
+  }
+
+  function scheduleLive(nextTempo, nextPitch, nextFineTune, immediate) {
+    if (liveTimerRef.current) {
+      clearTimeout(liveTimerRef.current);
+      liveTimerRef.current = null;
+    }
+    if (immediate) {
+      applyLive(nextTempo, nextPitch, nextFineTune);
+      return;
+    }
+    liveTimerRef.current = setTimeout(function() {
+      liveTimerRef.current = null;
+      applyLive(nextTempo, nextPitch, nextFineTune);
+    }, 80);
   }
 
   function scheduleSave(nextTempo, nextPitch, nextFineTune) {
@@ -66,7 +89,7 @@ export default function PitchTempoControlsPanel({
     }, 400);
   }
 
-  function updateSettings(nextTempo, nextPitch, nextFineTune, tempoPresetKey) {
+  function updateSettings(nextTempo, nextPitch, nextFineTune, tempoPresetKey, immediateLive) {
     if (disabled) return;
     if (globalTempoActive && nextTempo !== tempo) return;
     setTempo(nextTempo);
@@ -77,7 +100,8 @@ export default function PitchTempoControlsPanel({
     } else {
       setSelectedTempoPreset('custom');
     }
-    applyLive(nextTempo, nextPitch, nextFineTune);
+    const pitchOrFineChanged = nextPitch !== pitch || nextFineTune !== fineTune;
+    scheduleLive(nextTempo, nextPitch, nextFineTune, immediateLive || !pitchOrFineChanged);
     scheduleSave(nextTempo, nextPitch, nextFineTune);
   }
 
@@ -95,19 +119,19 @@ export default function PitchTempoControlsPanel({
 
   function applyTempoPreset(key) {
     const preset = tempoPresets[key];
-    updateSettings(preset.tempo, pitch, fineTune, key);
+    updateSettings(preset.tempo, pitch, fineTune, key, true);
   }
 
   function resetTempo() {
-    updateSettings(1.0, pitch, fineTune, 'standard');
+    updateSettings(1.0, pitch, fineTune, 'standard', true);
   }
 
   function resetPitch() {
-    updateSettings(tempo, 0, fineTune);
+    updateSettings(tempo, 0, fineTune, null, true);
   }
 
   function resetFineTune() {
-    updateSettings(tempo, pitch, 0);
+    updateSettings(tempo, pitch, 0, null, true);
   }
 
   if (!tune) return null;

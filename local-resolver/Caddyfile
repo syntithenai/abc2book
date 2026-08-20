@@ -16,6 +16,19 @@
 			header_up X-Forwarded-Host {host}
 		}
 	}
+	handle /qwen* {
+		uri strip_prefix /qwen
+		reverse_proxy host.docker.internal:8081 {
+			header_up Host {host}
+			header_up X-Forwarded-Proto {scheme}
+			flush_interval -1
+			transport http {
+				dial_timeout 10s
+				read_timeout 10m
+				write_timeout 10m
+			}
+		}
+	}
 	reverse_proxy local-resolver:8787 {
 		header_up X-Forwarded-Proto {scheme}
 		header_up X-Forwarded-Host {host}

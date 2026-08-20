@@ -60,20 +60,17 @@ describe('StructureChordBlock height-fit sections', function() {
     })
 
     const sections = container.querySelectorAll('.structure-section')
-    expect(sections.length).toBe(4)
-
-    // First row is the double-barline hint when one chart spans typed sections.
-    expect(sections[0].textContent).toMatch(/double barlines/i)
+    expect(sections.length).toBe(3)
 
     // First verse carries the chart and counts toward the fit.
-    expect(sections[1].querySelector('.chord-block-line')).toBeTruthy()
-    expect(sections[1].classList.contains('structure-section--no-chart')).toBe(false)
+    expect(sections[0].querySelector('.chord-block-line')).toBeTruthy()
+    expect(sections[0].classList.contains('structure-section--no-chart')).toBe(false)
 
     // Repeated verses show only their heading and are excluded from the fit.
-    for (let i = 2; i < sections.length; i++) {
+    for (let i = 1; i < sections.length; i++) {
       expect(sections[i].querySelector('.chord-block-line')).toBeFalsy()
       expect(sections[i].classList.contains('structure-section--no-chart')).toBe(true)
-      expect(sections[i].textContent).toContain('Verse ' + i)
+      expect(sections[i].textContent).toContain('Verse ' + (i + 1))
     }
   })
 
@@ -277,12 +274,15 @@ describe('StructureChordBlock height-fit sections', function() {
     })
 
     const sections = container.querySelectorAll('.structure-section')
-    expect(sections.length).toBe(2)
+    expect(sections.length).toBe(3)
     expect(sections[0].querySelector('.chord-block-line')).toBeTruthy()
     expect(sections[0].classList.contains('structure-section--no-chart')).toBe(false)
+    expect(sections[0].textContent).toMatch(/C G Am F/)
     expect(sections[1].querySelector('.chord-section-header').textContent).toMatch(/Chorus/i)
     expect(sections[1].querySelector('.chord-block-line')).toBeFalsy()
     expect(sections[1].classList.contains('structure-section--no-chart')).toBe(true)
+    expect(sections[2].querySelector('.chord-block-line')).toBeTruthy()
+    expect(sections[2].textContent).toMatch(/G C F G/)
   })
 
   test('colors repeated structure headings with the same section tone', function() {
@@ -392,5 +392,48 @@ describe('StructureChordBlock height-fit sections', function() {
     expect(verseSections[0].textContent).toMatch(/Dm/)
     expect(verseSections[1].textContent).toMatch(/C/)
     expect(verseSections[2].textContent).toMatch(/A#|Bb/)
+  })
+
+  test('appends chord blocks that are not allocated to any lyric section', function() {
+    const noteLines = [
+      '"C"C4 D4 |"G"G4 A4 ||',
+      '"Am"A4 B4 |"F"F4 G4 ||',
+      '"Dm"D4 E4 |"A"A4 B4 ||',
+    ]
+    const tune = {
+      name: 'Three Strains',
+      key: 'C',
+      meter: '4/4',
+      noteLength: '1/4',
+      voices: { 1: { notes: noteLines } },
+      words: [
+        '# verse',
+        'verse line one',
+        '',
+        '# chorus',
+        'chorus line one',
+      ],
+    }
+    const abcjsParser = useAbcjsParser()
+    const abcTools = useAbcTools()
+    const melodyAbc = abcTools.emptyABC('Three Strains') + noteLines.join('\n')
+    const chart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/4', '4/4')
+
+    act(function() {
+      root.render(React.createElement(StructureChordBlock, {
+        chords: chart,
+        tune: tune,
+        fitHeight: false,
+      }))
+    })
+
+    const chartSections = Array.prototype.filter.call(
+      container.querySelectorAll('.structure-section'),
+      function(section) {
+        return section.querySelector('.chord-block-line')
+      }
+    )
+    expect(chartSections.length).toBe(3)
+    expect(container.textContent).toMatch(/Dm/)
   })
 })

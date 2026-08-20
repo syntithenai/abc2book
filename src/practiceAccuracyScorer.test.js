@@ -45,6 +45,23 @@ describe('practiceAccuracyScorer', function() {
     expect(summary.hits).toBe(2)
   })
 
+  test('summarizeRepPitch can ignore notes after the last captured sample', function() {
+    const windows = [
+      { midi: 60, startBeat: 0, startMs: 0, endMs: 500 },
+      { midi: 62, startBeat: 1, startMs: 500, endMs: 1000 },
+      { midi: 64, startBeat: 2, startMs: 1000, endMs: 1500 },
+    ]
+    const samples = [
+      { timeMs: 100, midi: 60, gated: true },
+      { timeMs: 200, midi: 60, gated: true },
+      { timeMs: 300, midi: 60, gated: true },
+    ]
+    const summary = summarizeRepPitch(windows, samples, { ignoreNotesAfterLastSample: true })
+    expect(summary.pitchPct).toBe(100)
+    expect(summary.totalNotes).toBe(1)
+    expect(summary.hits).toBe(1)
+  })
+
   test('summarizeRepPitch marks missed with too few samples', function() {
     const windows = [{ midi: 60, startBeat: 0, startMs: 0, endMs: 500 }]
     const summary = summarizeRepPitch(windows, [{ timeMs: 100, frequency: 440, gated: true }])

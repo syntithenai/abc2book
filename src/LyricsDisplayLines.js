@@ -1,4 +1,5 @@
 import { isSectionHeader, normalizeSectionType, stripLyricBlockPinTokens } from './chordSheetUtils';
+import { normalizeLyricStructure } from './lyricStructureUtils';
 import { stripLyricBeatMarkersFromLine } from './lyricBeatMarkers';
 
 /** Title-case section labels: "verse 1" → "Verse 1", "pre-chorus" → "Pre-Chorus". */
@@ -26,6 +27,11 @@ export function displaySectionHeader(header) {
   }
   t = stripLyricBlockPinTokens(t);
   if (!t) return null;
+  if (/^minichorus\b/i.test(t)) {
+    t = t.replace(/^minichorus/i, 'Mini-Chorus');
+  } else if (/^mini[\s-]+chorus\b/i.test(t)) {
+    t = t.replace(/^mini[\s-]+chorus/i, 'Mini-Chorus');
+  }
   return capitalizeSectionHeader(t);
 }
 
@@ -35,6 +41,7 @@ const SECTION_HEADER_TONES = {
   refrain: 'chorus',
   hook: 'chorus',
   prechorus: 'prechorus',
+  minichorus: 'chorus',
   bridge: 'bridge',
   intro: 'intro',
   outro: 'outro',
@@ -119,21 +126,42 @@ export default function LyricsDisplayLines(props) {
   const panelStyle = props.style;
   const lineStyle = props.lineStyle || { marginBottom: '0.35em' };
   const keepBeatMarkers = !!props.keepBeatMarkers;
+  const sections = normalizeLyricStructure(lines);
 
   return (
     <div className={className} style={panelStyle}>
-      {lines.map(function(line, index) {
-        if (!line || String(line).trim().length === 0) {
-          return <div key={index} className="lyrics-line-spacer" aria-hidden="true" />;
-        }
-        if (isSectionHeader(line)) {
-          const label = displaySectionHeader(line);
-          if (!label) return null;
-          return <SectionHeader key={index} label={label} source={line} />;
-        }
+      {sections.map(function(section, sectionIndex) {
+        const label = displaySectionHeader(section.header);
         return (
-          <div key={index} className="lyrics-line" style={lineStyle}>
-            {lyricBodyWithOptionalBeatMarkers(line, keepBeatMarkers)}
+          <div key={sectionIndex}>
+            {label ? <SectionHeader label={label} source={section.header} /> : null}
+            {section.lines.map(function(line, lineIndex) {
+              if (!line || String(line).trim().length === 0) {
+                return (
+                  <div
+                    key={sectionIndex + '-sp-' + lineIndex}
+                    className="lyrics-line-spacer"
+                    aria-hidden="true"
+                  />
+                );
+              }
+              if (isSectionHeader(line)) {
+                const inlineLabel = displaySectionHeader(line);
+                if (!inlineLabel) return null;
+                return (
+                  <SectionHeader
+                    key={sectionIndex + '-hdr-' + lineIndex}
+                    label={inlineLabel}
+                    source={line}
+                  />
+                );
+              }
+              return (
+                <div key={sectionIndex + '-ln-' + lineIndex} className="lyrics-line" style={lineStyle}>
+                  {lyricBodyWithOptionalBeatMarkers(line, keepBeatMarkers)}
+                </div>
+              );
+            })}
           </div>
         );
       })}

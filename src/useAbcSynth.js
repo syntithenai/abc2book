@@ -11,6 +11,16 @@ import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import PitchTempoShifter from './pitchTempoShifter'
 import { getPlaybackSettings, combinedPitchSemitones } from './pitchTempoUtils'
 import {
+    shouldMirrorMidiPlaybackCursor,
+    resolvePlaybackCursorDuration,
+    playbackClockToTimingMs,
+    shouldDrawPlaybackCursor,
+    ensureAbcjsCursorLine,
+    updateAbcjsCursorLine,
+    applyPlaybackCursorAtTime,
+    cursorPositionFromNoteTimings,
+} from './notationPlaybackCursor'
+import {
     isStaleSeekEngineReading,
     computeMidiMetronomeCountIn,
     rhythmAlignedCountInInput,
@@ -390,10 +400,14 @@ export default function useAbcSynth(props) {
                 return false
             }
             if (props.mediaController.isLinkedMediaPlaybackInFlight
-                && props.mediaController.isLinkedMediaPlaybackInFlight()) {
+                && props.mediaController.isLinkedMediaPlaybackInFlight()
+                && !(props.mediaController.isMidiPlaybackRoute
+                    && props.mediaController.isMidiPlaybackRoute())) {
                 return false
             }
-            if (props.mediaController.requestedPlayState === 'playMedia') {
+            if (props.mediaController.requestedPlayState === 'playMedia'
+                && !(props.mediaController.isMidiPlaybackRoute
+                    && props.mediaController.isMidiPlaybackRoute())) {
                 return false
             }
         }
@@ -434,20 +448,19 @@ export default function useAbcSynth(props) {
 
     function wantsMidiPlayback(force) {
         if (props.mediaController) {
-            if (props.mediaController.requestedPlayState === 'playMedia') {
-                return false
-            }
-            if (props.mediaController.isLinkedMediaPlaybackInFlight
-                && props.mediaController.isLinkedMediaPlaybackInFlight()) {
-                return false
-            }
-            if (props.mediaController.isMidiPlaybackRoute && !props.mediaController.isMidiPlaybackRoute()) {
-                return false
-            }
-            // Route mode is authoritative — mediaLinkNumber state can still be 0
-            // briefly after switching from playMedia to playMidi (async setState).
-            if (props.mediaController.isMediaPlaybackRoute && props.mediaController.isMediaPlaybackRoute()) {
-                return false
+            const midiRoute = !!(props.mediaController.isMidiPlaybackRoute
+                && props.mediaController.isMidiPlaybackRoute())
+            if (!midiRoute) {
+                if (props.mediaController.requestedPlayState === 'playMedia') {
+                    return false
+                }
+                if (props.mediaController.isLinkedMediaPlaybackInFlight
+                    && props.mediaController.isLinkedMediaPlaybackInFlight()) {
+                    return false
+                }
+                if (props.mediaController.isMediaPlaybackRoute && props.mediaController.isMediaPlaybackRoute()) {
+                    return false
+                }
             }
             if (force) return true
             if (props.mediaController.hasActivePlaybackIntent && props.mediaController.hasActivePlaybackIntent()) {
@@ -675,8 +688,12 @@ export default function useAbcSynth(props) {
         if (!mc) return
 
         const mediaRouteActive = mc.isMediaPlaybackRoute && mc.isMediaPlaybackRoute()
-        const mediaInFlight = mc.isLinkedMediaPlaybackInFlight && mc.isLinkedMediaPlaybackInFlight()
-        const mediaRequested = mc.requestedPlayState === 'playMedia' || mc.playbackRouteMode === 'media'
+        const midiRouteActive = mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()
+        const mediaInFlight = !midiRouteActive
+            && mc.isLinkedMediaPlaybackInFlight && mc.isLinkedMediaPlaybackInFlight()
+        const mediaRequested = !midiRouteActive && (
+            mc.requestedPlayState === 'playMedia' || mc.playbackRouteMode === 'media'
+        )
 
         if (mediaRouteActive || mediaInFlight || mediaRequested) {
             if (mediaRouteActive && mc.mediaLinkNumber !== lastMediaLinkNumber) {
@@ -803,10 +820,14 @@ export default function useAbcSynth(props) {
              return
          }
          if (props.mediaController.isLinkedMediaPlaybackInFlight
-             && props.mediaController.isLinkedMediaPlaybackInFlight()) {
+             && props.mediaController.isLinkedMediaPlaybackInFlight()
+             && !(props.mediaController.isMidiPlaybackRoute
+                 && props.mediaController.isMidiPlaybackRoute())) {
              return
          }
-         if (props.mediaController.requestedPlayState === 'playMedia') {
+         if (props.mediaController.requestedPlayState === 'playMedia'
+             && !(props.mediaController.isMidiPlaybackRoute
+                 && props.mediaController.isMidiPlaybackRoute())) {
              return
          }
          if (props.mediaController.isMidiPlaybackRoute
@@ -852,8 +873,12 @@ export default function useAbcSynth(props) {
         if (mc.clearMidiEngineRegistrationFallback) {
             mc.clearMidiEngineRegistrationFallback()
         }
+        let consumedPending = false
         if (mc.flushPendingPlayRequest) {
-            mc.flushPendingPlayRequest()
+            consumedPending = mc.flushPendingPlayRequest()
+        }
+        if (!consumedPending && mc.kickPlaybackAfterEngineReady) {
+            mc.kickPlaybackAfterEngineReady()
         }
         assignMediaControllerRef(mc, 'resumeMidiAfterSeekRef', resumeMidiAfterSeek)
         assignMediaControllerRef(mc, 'stopMidiSynthRef', stopMidiSynth)
@@ -947,27 +972,69 @@ export default function useAbcSynth(props) {
         }
     }, [props.playbackControlRef])
 
-    function syncMirroredPlaybackCursor() {
-        if (!props.mirrorNotationPlaybackCursor) return
-        if (!props.mediaController || !props.mediaController.notationMidiOwner) return
-        if (!gtimingCallbacks.current || !gmidiBuffer.current) {
-            return
+    function resolveDisplayTuneId() {
+        if (props.displayTuneId != null) return props.displayTuneId
+        if (props.mediaController && props.mediaController.tune && props.mediaController.tune.id != null) {
+            return props.mediaController.tune.id
         }
-        const bufferDuration = gmidiBuffer.current.duration > 0
-            ? gmidiBuffer.current.duration
-            : (props.mediaController.duration > 0
-                ? parseFloat(props.mediaController.duration) : 0)
-        if (!(bufferDuration > 0)) {
-            return
+        return null
+    }
+
+    function canMirrorMidiPlaybackCursor() {
+        return shouldMirrorMidiPlaybackCursor({
+            mirrorNotationPlaybackCursor: props.mirrorNotationPlaybackCursor,
+            playbackEngine: props.playbackEngine,
+            mediaController: props.mediaController,
+            displayTuneId: resolveDisplayTuneId(),
+        })
+    }
+
+    function ensureMirrorTimingCallbacks() {
+        if (!canMirrorMidiPlaybackCursor()) return false
+        const visual = gvisualObj.current
+        if (!visual) return false
+        if (gtimingCallbacks.current && gtimingCallbacks.current.__mirrorVisual === visual) {
+            return true
         }
-        if (!gcursor.current) {
+        try {
+            if (gtimingCallbacks.current) {
+                try { gtimingCallbacks.current.pause() } catch (e) {}
+            }
+            // Display-only: no extraMeasures / no audio. Map music-only currentTime
+            // onto the same noteTimings used to draw this SVG.
+            const callbacks = new abcjs.TimingCallbacks(visual, {
+                qpm: getPlaybackMetronomeTempo(visual),
+            })
+            callbacks.__mirrorVisual = visual
+            gtimingCallbacks.current = callbacks
+            gcursor.current = null
             createCursor()
+            return true
+        } catch (e) {
+            return false
         }
-        const seconds = props.mediaController.currentTime > 0
-            ? parseFloat(props.mediaController.currentTime)
-            : 0
-        const ratio = Math.min(1, seconds / bufferDuration)
-        setTimingProgressFromAudioRatio(ratio)
+    }
+
+    function syncMirroredPlaybackCursor() {
+        if (!canMirrorMidiPlaybackCursor()) return
+        if (!ensureMirrorTimingCallbacks()) return
+        const mc = props.mediaController
+        const timing = gtimingCallbacks.current
+        const lastMoment = timing && timing.lastMoment
+        const bufferDuration = resolvePlaybackCursorDuration({
+            localBufferDuration: gmidiBuffer.current && gmidiBuffer.current.duration,
+            mediaControllerDuration: mc && mc.duration,
+        }) || ((lastMoment > 0) ? lastMoment / 1000 : 0)
+        if (!(bufferDuration > 0) && !(lastMoment > 0)) return
+        const currentTimeMs = playbackClockToTimingMs(
+            mc && mc.currentTime,
+            lastMoment,
+            bufferDuration
+        )
+        const root = inputEl && inputEl.current
+        const svg = root ? root.querySelector('svg') : null
+        const cursor = applyPlaybackCursorAtTime(svg, gcursor.current, timing.noteTimings, currentTimeMs)
+        if (cursor) setCursor(cursor)
     }
 
     useLayoutEffect(function() {
@@ -1861,23 +1928,12 @@ export default function useAbcSynth(props) {
      function createCursor() {
         const root = inputEl && inputEl.current;
         const svg = root ? root.querySelector('svg') : null;
-        if (svg) {
-          const existing = svg.querySelector('line.abcjs-cursor');
-          if (existing) existing.remove();
-        }
-        if (svg) {
-          var cursor = document.createElementNS("http://www.w3.org/2000/svg", "line");
-          cursor.setAttribute("class", "abcjs-cursor");
-          cursor.setAttributeNS(null, 'x1', 0);
-          cursor.setAttributeNS(null, 'y1', 0);
-          cursor.setAttributeNS(null, 'x2', 0);
-          cursor.setAttributeNS(null, 'y2', 0);
-          svg.appendChild(cursor);
+        const cursor = ensureAbcjsCursorLine(svg, gcursor.current)
+        if (cursor) {
           setCursor(cursor)
           return cursor
-        } else {
-          return 
         }
+        return null
     }
     
     function clickListener(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
@@ -1905,17 +1961,40 @@ export default function useAbcSynth(props) {
         
     }
     
-    function shouldSuppressPracticePlaybackVisuals() {
-        return !!(props.suppressPlaybackVisuals || props.practiceAutoPlay)
-    }
-
     function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
+        const shouldDrawCursor = shouldDrawPlaybackCursor({
+            suppressPlaybackVisuals: props.suppressPlaybackVisuals,
+        })
+        if (shouldDrawCursor) {
+          let cursorPos = null
+          const timing = gtimingCallbacks.current
+          if (timing && timing.noteTimings && totalBeats) {
+            const rawMs = (debugInfo && debugInfo.timestamp != null && debugInfo.startTime != null)
+              ? Math.max(0, debugInfo.timestamp - debugInfo.startTime)
+              : (lastMoment > 0 ? lastMoment * (currentBeat / totalBeats) : 0)
+            const timeMs = lastMoment > 0 ? Math.min(rawMs, Math.max(0, lastMoment - 1)) : rawMs
+            cursorPos = cursorPositionFromNoteTimings(timing.noteTimings, timeMs)
+          } else if (position && position.left != null) {
+            cursorPos = position
+          }
+          if (cursorPos) {
+            if (!gcursor.current) {
+              createCursor()
+            }
+            updateAbcjsCursorLine(
+              gcursor.current,
+              cursorPos,
+              false
+            )
+            colorElements([])
+          }
+        }
         if (shouldDeferSynthStopToNative()) {
             return
         }
-        if (!gmidiBuffer.current || !(gmidiBuffer.current.duration > 0) || !totalBeats) {
-            return
-        }
+        const isPlaybackEngine = props.playbackEngine !== false
+        const hasEngineBuffer = !!(gmidiBuffer.current && gmidiBuffer.current.duration > 0 && totalBeats)
+        if (isPlaybackEngine && hasEngineBuffer) {
         const newSeconds = timingProgressToAudioSeconds(
             currentBeat / totalBeats,
             getTimingMusicStartMs(),
@@ -2021,28 +2100,7 @@ export default function useAbcSynth(props) {
               if (props.onEnded) props.onEnded()
            }
          }
-         if (!shouldSuppressPracticePlaybackVisuals()) {
-          // draw cursor 
-          var x1, x2, y1, y2;
-          if (currentBeat === totalBeats) {
-            x1 = 0;
-            x2 = 0;
-            y1 = 0;
-            y2 = 0;
-          } else {
-            x1 = position.left - 2;
-            x2 = position.left - 2;
-            y1 = position.top;
-            y2 = position.top + position.height;
-          }
-          if (gcursor && gcursor.current && x1 !== NaN && x2 !== NaN  && y1 !== NaN && y2 !== NaN) {
-            gcursor.current.setAttribute("x1", x1);
-            gcursor.current.setAttribute("x2", x2);
-            gcursor.current.setAttribute("y1", y1);
-            gcursor.current.setAttribute("y2", y2);
-          }
-          colorElements([]);
-         }
+        }
       }
       
       var lastEls = [];
@@ -2091,9 +2149,7 @@ export default function useAbcSynth(props) {
           }
           lastScrollTo.current = ev.top
         }
-        if (!shouldSuppressPracticePlaybackVisuals()) {
-            colorElements(ev.elements);
-        }
+        colorElements([]);
     }
     
       async function saveAudioToCache(tuneId,audioBuffers, duration) {
@@ -2294,12 +2350,6 @@ export default function useAbcSynth(props) {
         const tempoChanged = pitchTempoSettingsRef.current.tempo !== nextTempo
         const pitchChanged = pitchTempoSettingsRef.current.pitch !== resolvedPitch
         const fineTuneChanged = pitchTempoSettingsRef.current.fineTune !== resolvedFineTune
-        const prevCombined = combinedPitchSemitones(
-            pitchTempoSettingsRef.current.pitch,
-            pitchTempoSettingsRef.current.fineTune
-        )
-        const nextCombined = combinedPitchSemitones(resolvedPitch, resolvedFineTune)
-        const modeWillChange = (Math.abs(prevCombined) < 0.0001) !== (Math.abs(nextCombined) < 0.0001)
         const wasPlaying = isMidiPlaybackActive()
         // Capture before any disconnect so pitch changes do not seek to 0.
         const ratio = captureLiveMidiPlaybackRatio()
@@ -2316,7 +2366,8 @@ export default function useAbcSynth(props) {
             syncPlaybackMetronomeTempo()
             return
         }
-        // Live pitch/fine-tune with no tempo change: keep position.
+        // Live pitch/fine-tune: retune the running shifter in place. Recreating
+        // or calling startMidiAudioOutput here disconnects audio on every tick.
         if (wasPlaying && !tempoChanged && (pitchChanged || fineTuneChanged)) {
             if (!pitchShifterRef.current && pitchShifterBufferRef.current && gaudioContext.current) {
                 initPitchShifter(gaudioContext.current, pitchShifterBufferRef.current)
@@ -2326,16 +2377,9 @@ export default function useAbcSynth(props) {
                 return
             }
             midiPlaybackGuardUntilRef.current = Date.now() + 3000
-            if (modeWillChange) {
-                // Direct ↔ SoundTouch switch: recreate shifter (same as seek) then resume.
-                if (pitchShifterRef.current.isConnected()) {
-                    pitchShifterRef.current.disconnect()
-                }
-                if (pitchShifterBufferRef.current && gaudioContext.current) {
-                    initPitchShifter(gaudioContext.current, pitchShifterBufferRef.current)
-                }
-            } else {
-                pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+            pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+            if (pitchShifterRef.current.isConnected()) {
+                return
             }
             const ctx = gaudioContext.current
             if (!ctx) {
@@ -2654,6 +2698,32 @@ export default function useAbcSynth(props) {
             return false
         }
         let opts = options || {}
+        if (opts.fromStart) {
+            opts = Object.assign({}, opts, {
+                restart: true,
+                fresh: true,
+                preservePosition: false,
+                resume: false,
+                alwaysFromSelection: false,
+                fromNotationSelection: false,
+                startBeat: undefined,
+                startMs: undefined,
+                startSeconds: undefined,
+            })
+            pendingPlaybackStartSecondsRef.current = null
+            pendingRestartFromZeroRef.current = true
+            currentTime.current = 0
+            if (props.mediaController) {
+                if (props.mediaController.setCurrentTime) props.mediaController.setCurrentTime(0)
+                if (props.mediaController.setClickSeek) props.mediaController.setClickSeek(0)
+                if (props.mediaController.notationPlaybackSeekRef) {
+                    props.mediaController.notationPlaybackSeekRef.current = null
+                }
+                if (props.mediaController.notationPlaybackStartSecondsRef) {
+                    props.mediaController.notationPlaybackStartSecondsRef.current = null
+                }
+            }
+        }
         // Media-controls "Play MIDI" uses fresh:true after reload; treat like
         // From start so count-in is a single clean rewind path.
         if (opts.fresh && !opts.resume && !opts.preservePosition) {

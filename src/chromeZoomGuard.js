@@ -21,6 +21,7 @@ const OUTER_WIDTH_RESIZE_THRESHOLD = 8
 
 let teardownFn = null
 let baseline = null
+let lastAppliedScale = null
 
 export function resetZoomBaseline() {
   if (typeof window === 'undefined') {
@@ -66,6 +67,16 @@ export function readPageZoomScale() {
 export function updateChromeViewportScale() {
   if (typeof document === 'undefined') return 1
   const scale = readPageZoomScale()
+
+  // Avoid re-applying CSS zoom on every visualViewport scroll tick.
+  // Some browsers can report tiny scale fluctuations during normal scrolling
+  // (e.g. address bar / layout changes) which makes the notation look like it
+  // "zooms" even though the user isn't pinch-zooming.
+  if (lastAppliedScale != null && Math.abs(scale - lastAppliedScale) <= 0.001) {
+    return scale
+  }
+  lastAppliedScale = scale
+
   document.documentElement.style.setProperty(CHROME_VV_SCALE_VAR, String(scale))
   document.documentElement.style.setProperty(CHROME_VV_ZOOM_VAR, String(1 / scale))
   return scale
@@ -105,12 +116,14 @@ function onTouchMove(event) {
 export function initChromeZoomGuard() {
   teardownChromeZoomGuard()
   resetZoomBaseline()
+  lastAppliedScale = null
   updateChromeViewportScale()
 
   const visualViewport = typeof window !== 'undefined' ? window.visualViewport : null
   if (visualViewport) {
     visualViewport.addEventListener('resize', onVisualViewportChange)
-    visualViewport.addEventListener('scroll', onVisualViewportChange)
+    // visualViewport 'scroll' can fire during normal scrolling even when the
+    // browser zoom level didn't change. Reacting to it can cause UI zoom jitter.
   }
 
   if (typeof window !== 'undefined') {
@@ -144,6 +157,7 @@ export function initChromeZoomGuard() {
       document.documentElement.style.removeProperty(CHROME_VV_ZOOM_VAR)
     }
     baseline = null
+    lastAppliedScale = null
     teardownFn = null
   }
 
@@ -152,4 +166,5 @@ export function initChromeZoomGuard() {
 
 export function teardownChromeZoomGuard() {
   if (teardownFn) teardownFn()
+  lastAppliedScale = null
 }

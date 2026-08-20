@@ -105,13 +105,13 @@ describe('mediaCacheDriveBackup', function() {
     registerCachedMediaDriveBackupContext({})
   })
 
-  test('eligibility skips youtube, midi, standalone, and this-account owned recordings', async function() {
+  test('eligibility includes youtube and skips midi, standalone, and this-account owned recordings', async function() {
     expect(isEligibleCachedMediaBackupParsed(parseExternalMediaCacheKey(
       'extmedia:t1:0:https://archive.org/download/a.mp3'
     ))).toBe(true)
     expect(isEligibleCachedMediaBackupParsed(parseExternalMediaCacheKey(
       'extmedia:t1:0:https://www.youtube.com/watch?v=abcdefghijk'
-    ))).toBe(false)
+    ))).toBe(true)
     expect(isEligibleCachedMediaBackupParsed(parseExternalMediaCacheKey(
       'extmedia:t1:0:https://example.com/song.mid'
     ))).toBe(false)
@@ -176,13 +176,13 @@ describe('mediaCacheDriveBackup', function() {
     })
     expect(result).toEqual({
       ok: true,
-      uploaded: 1,
+      uploaded: 2,
       remaining: 0,
       scanned: expect.any(Number),
     })
     expect(driveApi.createDocument).toHaveBeenCalled()
     expect(created.some(function(item) { return item.name === 'cached-media-index.json' })).toBe(true)
-    expect(created.filter(function(item) { return item.name !== 'cached-media-index.json' }).length).toBe(1)
+    expect(created.filter(function(item) { return item.name !== 'cached-media-index.json' }).length).toBe(2)
 
     const again = await syncOutstandingCachedMediaBackup({
       driveApi: driveApi,

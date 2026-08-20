@@ -119,7 +119,7 @@ describe('lyricStructureUtils', function() {
     ]);
   });
 
-  test('normalizeLyricStructure splits a chorus repeated without blank lines into its own stanza', function() {
+  test('normalizeLyricStructure peels a chorus that is a full prefix or suffix of a later stanza', function() {
     const blocks = normalizeLyricStructure([
       '[Chorus]',
       'hook line one', 'hook line two', 'hook line three', '',
@@ -134,6 +134,75 @@ describe('lyricStructureUtils', function() {
       { type: 'verse', lines: ['v2a', 'v2b', 'v2c', 'v2d'] },
       { type: 'chorus', lines: ['hook line one', 'hook line two', 'hook line three'] },
     ]);
+  });
+
+  test('normalizeLyricStructure keeps a labeled chorus that contains a minichorus hook', function() {
+    const mini = [
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+    ];
+    const fullChorus = [
+      "And a rovin' a rovin' a rovin' I'll go",
+      "And a rovin' a rovin' a rovin' I'll go",
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+      'For a pair of brown eyes',
+    ];
+    const blocks = normalizeLyricStructure([
+      '# verse',
+      'One summer evening drunk to hell',
+      'I sat there nearly lifeless',
+      '',
+      '# minichorus',
+      ...mini,
+      '',
+      '# verse',
+      'I looked at him he looked at me',
+      '',
+      '# chorus @3',
+      ...fullChorus,
+      '',
+      '# instrumental @4',
+      '',
+      '# chorus @3',
+      ...fullChorus,
+    ]);
+    expect(blocks.map(function(b) {
+      return { type: b.type, header: b.header, lineCount: b.lines.filter(Boolean).length };
+    })).toEqual([
+      { type: 'verse', header: '# verse', lineCount: 2 },
+      { type: 'minichorus', header: '# minichorus', lineCount: 2 },
+      { type: 'verse', header: '# verse', lineCount: 1 },
+      { type: 'chorus', header: '# chorus @3', lineCount: 5 },
+      { type: 'instrumental', header: '# instrumental @4', lineCount: 0 },
+      { type: 'chorus', header: '# chorus @3', lineCount: 5 },
+    ]);
+    expect(blocks[3].lines).toEqual(fullChorus);
+    expect(blocks[5].lines).toEqual(fullChorus);
+  });
+
+  test('normalizeLyricStructure reuses a later minichorus only when the full stanza matches', function() {
+    const mini = [
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+    ];
+    const blocks = normalizeLyricStructure([
+      '# verse',
+      'verse one',
+      '',
+      '# minichorus',
+      ...mini,
+      '',
+      '# verse',
+      'verse two',
+      '',
+      ...mini,
+    ]);
+    expect(blocks.map(function(b) { return b.type; })).toEqual([
+      'verse', 'minichorus', 'verse', 'minichorus',
+    ]);
+    expect(blocks[1].header).toBe('# minichorus');
+    expect(blocks[3].lines).toEqual(mini);
   });
 
   test('normalizeLyricStructure fills unlabeled blocks when some headers exist', function() {

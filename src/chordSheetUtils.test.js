@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, stripLyricBeatMarkersPreservingChordPro, lyricLinesHaveBeatMarkers, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, applyChordProPatternToLine, applyRepeatedSectionChordPro, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, splitChordChartLineIntoBars, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, stripChordsFromLyricLines, stripLyricBeatMarkersPreservingChordPro, lyricLinesHaveBeatMarkers, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, shouldSoftJoinSingleBlanks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, stripLeadingBibliographicLyricPreface, splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeAlignedLyricBlockChords, extractChordSequence, extractChordBars, buildUniqueChordsMap, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, lyricRepeatLookupKey, applyChordProPatternToLine, applyRepeatedSectionChordPro, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, expandHeldChordsForDisplay, formatBeatSoundingForDisplay, collapseSoundingToBeats, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars, stripChartStructureMarkers, parseChartStructureMarkers, decorateChartWithRepeatMarks, formatSectionChartForEditor, parseSectionChartFromEditor, splitChordChartLineIntoBars, ensureLeadingMeterMarker, parseChordChartDisplayLine } from './chordSheetUtils';
 import { normalizeLyricStructure } from './lyricStructureUtils';
 
 describe('chordSheetUtils', function() {
@@ -100,6 +100,18 @@ describe('chordSheetUtils', function() {
     expect(normalizeSectionType('Verse2')).toBe('verse');
     expect(normalizeSectionType('[Verse2]')).toBe('verse');
     expect(normalizeSectionType('verse-2')).toBe('verse');
+  });
+
+  test('normalizeSectionType treats minichorus as its own stanza type', function() {
+    expect(normalizeSectionType('# minichorus')).toBe('minichorus');
+    expect(normalizeSectionType('# Mini-Chorus')).toBe('minichorus');
+    expect(normalizeSectionType('# mini chorus')).toBe('minichorus');
+    expect(isSectionHeader('# minichorus')).toBe(true);
+    expect(isSectionHeader('Minichorus')).toBe(true);
+    const { stanzaNameSimilarity } = require('./chordSheetUtils');
+    expect(stanzaNameSimilarity('minichorus', 'chorus')).toBeLessThan(0.85);
+    expect(stanzaNameSimilarity('mini chorus', 'chorus')).toBeLessThan(0.85);
+    expect(stanzaNameSimilarity('Verse 1', 'Verse')).toBeGreaterThanOrEqual(0.85);
   });
 
   test('wrapChordGridBars wraps every 8 bars and keeps section blanks', function() {
@@ -346,7 +358,7 @@ describe('chordSheetUtils', function() {
     expect(aligned[2].lyricLines).toEqual(['chorus line']);
   });
 
-  test('normalizeLyricBlocks splits an embedded repeat of an earlier stanza', function() {
+  test('normalizeLyricBlocks does not peel a shorter stanza out of a longer unlabeled block', function() {
     const lyrics = [
       'hook line one', 'hook line two', 'hook line three', '',
       'verse two line a', 'verse two line b',
@@ -355,13 +367,15 @@ describe('chordSheetUtils', function() {
     ];
     expect(normalizeLyricBlocks(lyrics)).toEqual([
       ['hook line one', 'hook line two', 'hook line three'],
-      ['verse two line a', 'verse two line b'],
-      ['hook line one', 'hook line two', 'hook line three'],
-      ['verse three line a', 'verse three line b'],
+      [
+        'verse two line a', 'verse two line b',
+        'hook line one', 'hook line two', 'hook line three',
+        'verse three line a', 'verse three line b',
+      ],
     ]);
   });
 
-  test('normalizeLyricBlocks keeps a header on the leading segment when splitting an embedded repeat', function() {
+  test('normalizeLyricBlocks peels a full chorus suffix off a labeled verse', function() {
     const lyrics = [
       '[Chorus]',
       'hook line one', 'hook line two', '',
@@ -373,6 +387,32 @@ describe('chordSheetUtils', function() {
       ['[Chorus]', 'hook line one', 'hook line two'],
       ['[Verse 2]', 'verse two line a', 'verse two line b'],
       ['hook line one', 'hook line two'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks does not carve a minichorus hook out of a labeled full chorus', function() {
+    const lyrics = [
+      '# minichorus',
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+      '',
+      '# chorus',
+      "And a rovin' a rovin' a rovin' I'll go",
+      "And a rovin' a rovin' a rovin' I'll go",
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+      'For a pair of brown eyes',
+    ];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['# minichorus', "And a rovin' a rovin' a rovin' I'll go", 'For a pair of brown eyes'],
+      [
+        '# chorus',
+        "And a rovin' a rovin' a rovin' I'll go",
+        "And a rovin' a rovin' a rovin' I'll go",
+        "And a rovin' a rovin' a rovin' I'll go",
+        'For a pair of brown eyes',
+        'For a pair of brown eyes',
+      ],
     ]);
   });
 
@@ -1482,6 +1522,21 @@ describe('chordSheetUtils', function() {
     ]);
   });
 
+  test('mergeChordsIntoLyricLines places a whole-bar F on the first / when the line starts unmarked', function() {
+    const merged = mergeChordsIntoLyricLines(
+      ['A new /throne of the underworld for a fetid fungal /queen'],
+      'G | F | C F | C F |'
+    );
+    const chords = merged[0].map(function(token) { return token.chord; });
+    const texts = merged[0].map(function(token) { return token.text.trim(); });
+    expect(chords[0]).toBe('G');
+    expect(texts[2]).toBe('/throne');
+    expect(chords[2]).toBe('F');
+    expect(texts[texts.length - 1]).toBe('/queen');
+    expect(chords).toContain('C');
+    expect(chords.filter(function(c) { return c === 'F'; }).length).toBeGreaterThan(1);
+  });
+
   test('mergeChordsIntoLyricLines spreads mid-bar chord changes across words', function() {
     const merged = mergeChordsIntoLyricLines(
       ['Pontentized by mass dilution, a memory trace in water,'],
@@ -1561,6 +1616,48 @@ describe('chordSheetUtils', function() {
     const lastChorus = expanded.lastIndexOf('# Chorus');
     expect(expanded.slice(lastChorus)).toEqual([
       '# Chorus', 'chorus line one', 'chorus line two',
+    ]);
+  });
+
+  test('lyricRepeatLookupKey treats verse heading variants as the same stanza', function() {
+    expect(lyricRepeatLookupKey('#verse 2')).toBe('verse 2');
+    expect(lyricRepeatLookupKey('# verse 2')).toBe('verse 2');
+    expect(lyricRepeatLookupKey('# v2')).toBe('verse 2');
+    expect(lyricRepeatLookupKey('# Verse II')).toBe('verse 2');
+    expect(lyricRepeatLookupKey('#verse 1')).toBe('verse 1');
+    expect(lyricRepeatLookupKey('# chorus')).toBe('chorus');
+  });
+
+  test('expandRepeatedSectionLyrics fills a blank numbered verse from that verse, not verse 1', function() {
+    const lyrics = [
+      '#verse 1',
+      'When a tree falls, the monkeys scatter with the leaves',
+      '',
+      '#chorus',
+      'A new throne of the underworld for a fetid fungal queen',
+      '',
+      '# verse 2',
+      'Father fungi fruits, colorfully decorates the throne.',
+      '',
+      '# bridge',
+      'in the silence that remains, there lies a noisy mosh',
+      '',
+      '#verse 2',
+      '',
+      '# chorus',
+    ];
+    const expanded = expandRepeatedSectionLyrics(lyrics);
+    const lastVerse2 = expanded.lastIndexOf('#verse 2');
+    expect(lastVerse2).toBeGreaterThan(expanded.indexOf('# verse 2'));
+    expect(expanded.slice(lastVerse2, lastVerse2 + 2)).toEqual([
+      '#verse 2',
+      'Father fungi fruits, colorfully decorates the throne.',
+    ]);
+    expect(expanded.slice(lastVerse2).join('\n')).not.toMatch(/When a tree falls/);
+    const lastChorus = expanded.lastIndexOf('# chorus');
+    expect(expanded.slice(lastChorus)).toEqual([
+      '# chorus',
+      'A new throne of the underworld for a fetid fungal queen',
     ]);
   });
 
@@ -1881,6 +1978,62 @@ describe('chordSheetUtils', function() {
     expect(aligned[1].chartRevisit).toBe(true);
     expect(aligned[3].chart).toBe(verseChart);
     expect(aligned[3].chartRevisit).toBe(true);
+  });
+
+  test('alignChordBlocksToLyrics does not split a labeled chorus that contains a minichorus hook', function() {
+    const mini = [
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+    ];
+    const fullChorus = [
+      "And a rovin' a rovin' a rovin' I'll go",
+      "And a rovin' a rovin' a rovin' I'll go",
+      "And a rovin' a rovin' a rovin' I'll go",
+      'For a pair of brown eyes',
+      'For a pair of brown eyes',
+    ];
+    const noteLines = [
+      '"G"zzzzzz|"G"zzzzzz|"G"zzzzzz|"G"zzzzzz||',
+      '"G"zzzzzz|"Am"zzzzzz|"C"zzzzzz|"G"zzzzzz|"C"zzzzzz|"C"zzzzzz|"Am"zzzzzz|"Am"zzzzzz||',
+      '"G"zzzzzz|"Am"zzzzzz|"C"zzzzzz|"G"zzzzzz|"G"zzzzzz|"Am"zzzzzz|"C"zzzzzz|"G"zzzzzz||',
+      '"C"zzzzzz|"C"zzzzzz|"C"zzzzzz|"C"zzzzzz|"Am"zzzzzz|"Am"zzzzzz|"Am"zzzzzz|"Am"zzzzzz||',
+    ];
+    const verseChart = 'G | G | G | G |';
+    const miniChart = 'G | Am | C | G | C | C | Am | Am |';
+    const chorusChart = 'G | Am | C | G | G | Am | C | G |';
+    const instrumentalChart = 'C | C | C | C | Am | Am | Am | Am |';
+    const lyrics = [
+      '# verse',
+      'One summer evening drunk to hell',
+      '',
+      '# minichorus',
+      ...mini,
+      '',
+      '# verse',
+      'I looked at him he looked at me',
+      '',
+      '# chorus @3',
+      ...fullChorus,
+      '',
+      '# instrumental @4',
+      '',
+      '# chorus @3',
+      ...fullChorus,
+    ];
+    const aligned = alignChordBlocksToLyrics(
+      lyrics,
+      [verseChart, miniChart, chorusChart, instrumentalChart],
+      { melodyNoteLines: noteLines }
+    );
+    expect(aligned.map(function(b) { return b.type; })).toEqual([
+      'verse', 'minichorus', 'verse', 'chorus', 'instrumental', 'chorus',
+    ]);
+    expect(aligned[3].lyricLines).toEqual(fullChorus);
+    expect(aligned[3].chart).toBe(chorusChart);
+    expect(aligned[4].chart).toBe(instrumentalChart);
+    expect(aligned[3].chart).not.toBe(instrumentalChart);
+    expect(aligned[5].chart).toBe(chorusChart);
+    expect(aligned[5].chartRevisit).toBe(true);
   });
 
   test('alignChordBlocksToLyrics @N still shows a chart that has not been displayed', function() {

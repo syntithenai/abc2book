@@ -33,6 +33,9 @@ describe('LyricsDisplayLines helpers', function() {
     expect(displaySectionHeader('# chorus')).toBe('Chorus');
     expect(displaySectionHeader('pre-chorus')).toBe('Pre-Chorus');
     expect(displaySectionHeader('PRE-CHORUS 2')).toBe('Pre-Chorus 2');
+    expect(displaySectionHeader('# minichorus')).toBe('Mini-Chorus');
+    expect(displaySectionHeader('# Mini-Chorus')).toBe('Mini-Chorus');
+    expect(displaySectionHeader('# mini chorus')).toBe('Mini-Chorus');
   });
 
   test('capitalizeSectionHeader title-cases words and hyphenated parts', function() {
@@ -68,6 +71,8 @@ describe('LyricsDisplayLines helpers', function() {
     expect(sectionHeaderTone('[Refrain]')).toBe('chorus');
     expect(sectionHeaderTone('Hook')).toBe('chorus');
     expect(sectionHeaderTone('Pre-Chorus')).toBe('prechorus');
+    expect(sectionHeaderTone('# minichorus')).toBe('chorus');
+    expect(sectionHeaderTone('# Mini-Chorus')).toBe('chorus');
     expect(sectionHeaderTone('## Bridge')).toBe('bridge');
     expect(sectionHeaderTone('(Intro)')).toBe('intro');
     expect(sectionHeaderTone('Outro')).toBe('outro');
@@ -137,5 +142,34 @@ describe('LyricsDisplayLines section heading tones', function() {
       { text: 'Verse 2', tone: 'verse' },
       { text: 'Chorus', tone: 'chorus' },
     ]);
+  });
+
+  test('infers missing verse headings when only chorus markers are present', function() {
+    act(function() {
+      root.render(React.createElement(LyricsDisplayLines, {
+        lines: [
+          'Take me back in time again',
+          'Stay with me like you did then',
+          'Take me as you find me here',
+          'Take me now Feel me near',
+          '',
+          '#chorus @2',
+          'Love like I never knew before',
+          'Someday will fade and be ignored',
+          'Nothing is forever anymore',
+          '',
+          'Wrap me up in quiet sins',
+          'Take me lost make me found',
+          'Hold me silent in the night',
+          'Say I\'m wrong make me right',
+        ],
+      }));
+    });
+
+    const headers = Array.prototype.map.call(
+      container.querySelectorAll('.lyrics-section-header'),
+      function(el) { return String(el.textContent || '').trim(); }
+    );
+    expect(headers).toEqual(['Verse', 'Chorus', 'Verse 2']);
   });
 });

@@ -72,3 +72,35 @@ describe('PitchTempoShifter seek', function() {
     expect(shifter.getCurrentTime()).toBeCloseTo(0.5);
   });
 });
+
+describe('PitchTempoShifter live pitch', function() {
+  test('changing pitch while SoundTouch is running does not reconnect', function() {
+    const ctx = makeAudioContext();
+    const shifter = new PitchTempoShifter(ctx, makeBuffer(10), null, null, null);
+    shifter.applySettings(1, 2, 0);
+    expect(shifter.connect()).toBe(true);
+    shifter.shifter.connect.mockClear();
+    shifter.shifter.disconnect.mockClear();
+
+    shifter.applySettings(1, 5, 0);
+
+    expect(shifter.isConnected()).toBe(true);
+    expect(shifter.shifter.disconnect).not.toHaveBeenCalled();
+    expect(shifter.shifter.connect).not.toHaveBeenCalled();
+    expect(shifter.shifter.pitchSemitones).toBe(5);
+  });
+
+  test('returning to pitch 0 while SoundTouch is running stays connected', function() {
+    const ctx = makeAudioContext();
+    const shifter = new PitchTempoShifter(ctx, makeBuffer(10), null, null, null);
+    shifter.applySettings(1, 2, 0);
+    expect(shifter.connect()).toBe(true);
+    shifter.shifter.disconnect.mockClear();
+
+    shifter.applySettings(1, 0, 0);
+
+    expect(shifter.isConnected()).toBe(true);
+    expect(shifter.shifter.disconnect).not.toHaveBeenCalled();
+    expect(shifter.shifter.pitchSemitones).toBe(0);
+  });
+});

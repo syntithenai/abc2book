@@ -124,9 +124,13 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
 export function shouldSkipHostMidiRouteApply(mediaController) {
   if (!mediaController) return true
   if (mediaController.notationMidiOwner) return true
-  if (mediaController.requestedPlayState === 'playMedia') return true
-  if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute()) return true
   if (typeof mediaController.isAndroidNativePlaybackStarting === 'function'
       && mediaController.isAndroidNativePlaybackStarting()) return true
+  // Committed MIDI route wins over lagged React requestedPlayState (YouTube→MIDI).
+  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) {
+    return false
+  }
+  if (mediaController.requestedPlayState === 'playMedia') return true
+  if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute()) return true
   return false
 }

@@ -165,9 +165,16 @@ export function getAppPathname() {
   return window.location.pathname || ''
 }
 
+/** True when a practice session owns playback and must not drive app-wide autostart. */
+export function isPracticePlaybackIsolated(mediaController) {
+  return !!(mediaController && mediaController.isPracticeSessionActive
+    && mediaController.isPracticeSessionActive())
+}
+
 /** True when playback is running or armed to continue (not user-paused). */
 export function isPlaybackActivelyPlaying(mediaController) {
   if (!mediaController) return false
+  if (isPracticePlaybackIsolated(mediaController)) return false
   if (mediaController.isPlaying || mediaController.isLoading) return true
   if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
     return true
@@ -192,6 +199,7 @@ export function shouldStartPlaybackWhenAdvancing(mediaController, lessonYoutubeP
  */
 export function isQueuePlaybackEngaged(mediaController, context) {
   if (!mediaController) return false
+  if (isPracticePlaybackIsolated(mediaController)) return false
   const ctx = context || {}
   if (isQueueActive(ctx.queue)) {
     const item = getCurrentItem(ctx.queue)
@@ -216,12 +224,21 @@ export function isQueuePlaybackEngaged(mediaController, context) {
 
 /**
  * Whether the app-level playback host should suppress autostart for the current route.
- * On the tune list, only continue playback that is already running — do not start
- * (or restart) the playlist just because the user returned to the list view.
+ * On the tune list, only continue a session that is already running or armed —
+ * do not start (or restart) the playlist just because the user returned to the list.
+ * isPlaying is false between tracks, so loading/intent must also keep MIDI autostart.
  */
 export function shouldSuppressHostAutostart(pathname, mediaController, resumePlaybackOnHost, urlPlayback) {
+  if (isPracticePlaybackIsolated(mediaController)) return true
   if (isTuneListPath(pathname)) {
-    return !(mediaController && mediaController.isPlaying)
+    if (mediaController && mediaController.isPlaying) return false
+    if (resumePlaybackOnHost) return false
+    if (mediaController && mediaController.isLoading) return false
+    if (mediaController && mediaController.hasActivePlaybackIntent
+        && mediaController.hasActivePlaybackIntent()) {
+      return false
+    }
+    return true
   }
   return !resumePlaybackOnHost && !urlPlayback
 }

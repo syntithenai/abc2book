@@ -80,10 +80,10 @@ export function playQueueItem(mediaController, tunebook, tune, item, options) {
     return false
   }
   if (!tunebook || !tune) return false
-  const target = resolvePlaybackForItem(tune, item, tunebook)
+  const opts = options || {}
+  const target = opts.playbackTarget || resolvePlaybackForItem(tune, item, tunebook)
   if (!target) return false
 
-  const opts = options || {}
   // Arm kickoff before route/tune commits so MediaPlayerMedia does not replay the
   // previous track while the next queue item is still loading.
   if (opts.deferPlaybackEngine && mediaController.armPlaybackIntent) {
@@ -131,10 +131,10 @@ export function playCurrentQueueItem(mediaController, tunebook, tunes, queue, op
   return playQueueItem(mediaController, tunebook, tune, item, options)
 }
 
-export function navigateToQueueTune(navigate, tuneId, item, tunebook, tunes) {
+export function navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, playbackTarget) {
   if (!navigate || !tuneId) return
   const tune = tunes && tunes[tuneId] ? tunes[tuneId] : null
-  const target = tune && item ? resolvePlaybackForItem(tune, item, tunebook) : null
+  const target = playbackTarget || (tune && item ? resolvePlaybackForItem(tune, item, tunebook) : null)
   const path = target ? buildPlaybackPath(tuneId, target) : '/tunes/' + tuneId
   navigate(path)
 }
@@ -164,7 +164,7 @@ function retryQueueAdvanceAfterFailure(params, reason) {
   return false
 }
 
-function finishQueueAdvance(params, nextQueue, item, tune) {
+function finishQueueAdvance(params, nextQueue, item, tune, playbackTarget) {
   const {
     setQueue,
     tunes,
@@ -209,12 +209,14 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
-  if (!isQueueItemPlayable(tune, item, tunebook)) {
+  if (!playbackTarget && !isQueueItemPlayable(tune, item, tunebook)) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
   persistQueue(nextQueue)
-  const started = playQueueItem(mediaController, tunebook, tune, item, playbackOptions || { deferPlaybackEngine: true })
+  const playOpts = Object.assign({}, playbackOptions || { deferPlaybackEngine: true })
+  if (playbackTarget) playOpts.playbackTarget = playbackTarget
+  const started = playQueueItem(mediaController, tunebook, tune, item, playOpts)
   if (!started) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
@@ -229,7 +231,7 @@ function finishQueueAdvance(params, nextQueue, item, tune) {
       practiceSessionActive: practiceSessionActive,
     })
   if (shouldFollow) {
-    navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes)
+    navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes, playbackTarget)
   }
   return true
 }
@@ -292,14 +294,14 @@ export async function advanceQueueToPlayableAndStart(params) {
       })
       if (!skipResult.atEnd && skipResult.item) {
         if (isExternalQueueItem(skipResult.item)) {
-          return finishQueueAdvance(params, skipResult.queue, skipResult.item, null)
+          return finishQueueAdvance(params, skipResult.queue, skipResult.item, null, skipResult.playbackTarget)
         }
         if (!skipResult.tune) {
           stopPlaylistPlayback(mediaController)
           if (failCallback) failCallback('end')
           return false
         }
-        return finishQueueAdvance(params, skipResult.queue, skipResult.item, skipResult.tune)
+        return finishQueueAdvance(params, skipResult.queue, skipResult.item, skipResult.tune, skipResult.playbackTarget)
       }
     }
     stopPlaylistPlayback(mediaController)
@@ -308,7 +310,7 @@ export async function advanceQueueToPlayableAndStart(params) {
   }
 
   if (isExternalQueueItem(result.item)) {
-    return finishQueueAdvance(params, result.queue, result.item, null)
+    return finishQueueAdvance(params, result.queue, result.item, null, result.playbackTarget)
   }
 
   if (!result.tune) {
@@ -317,7 +319,7 @@ export async function advanceQueueToPlayableAndStart(params) {
     return false
   }
 
-  return finishQueueAdvance(params, result.queue, result.item, result.tune)
+  return finishQueueAdvance(params, result.queue, result.item, result.tune, result.playbackTarget)
 }
 
 export function handleQueueAdvanceOnEnded(params) {

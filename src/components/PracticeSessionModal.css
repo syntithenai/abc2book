@@ -1,21 +1,36 @@
-.practice-session-modal .modal-content {
-  min-height: 100vh;
-  height: 100vh;
+.practice-session-page {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
+  bottom: var(--app-playlist-transport-offset, 0px);
+  z-index: 1050;
+  background: var(--bs-body-bg, #fff);
+  min-height: 0;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
 
-.practice-session-modal .modal-header.practice-session-header {
+body.practice-session-page-open {
+  overflow: hidden;
+}
+
+body.practice-session-page-open .App-body {
+  visibility: hidden;
+}
+
+.practice-session-page .practice-session-header {
   flex: 0 0 auto;
 }
 
-.practice-session-modal .modal-body.practice-session-body {
+.practice-session-page .practice-session-body {
   flex: 1 1 auto;
   min-height: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding-top: 0.5rem;
+  padding: 0.5rem 0.75rem 0.75rem;
 }
 
 .practice-session-header {
@@ -23,9 +38,11 @@
   flex-direction: column;
   align-items: stretch;
   gap: 0.45rem;
+  padding: 0.65rem 0.75rem 0.5rem;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
 }
 
-.practice-session-modal .modal-header.practice-session-header {
+.practice-session-page .practice-session-header {
   flex-direction: column;
   align-items: stretch;
 }
@@ -87,7 +104,7 @@
   width: 100%;
 }
 
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline {
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline {
   position: static;
   transform: none;
   width: auto;
@@ -95,14 +112,14 @@
   z-index: auto;
 }
 
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar-panel--inline {
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar-panel--inline {
   background: var(--bs-secondary-bg, #e9ecef);
   border: 1px solid #9aa8b8;
   border-radius: 0.375rem;
   box-shadow: none;
 }
 
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-inner {
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-inner {
   display: flex;
   align-items: center;
   gap: 0.35rem;
@@ -111,15 +128,15 @@
   overflow-x: auto;
 }
 
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-btn,
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-btn,
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-readout {
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-btn,
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-btn,
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-readout {
   min-height: 2.25rem;
 }
 
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-title,
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-hint,
-.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-duration-label {
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-title,
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-hint,
+.practice-session-page .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-duration-label {
   white-space: nowrap;
 }
 
@@ -224,8 +241,11 @@
   white-space: nowrap;
 }
 
-.practice-session-header .modal-title {
+.practice-session-header-title {
   margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .practice-session-playback-btn {

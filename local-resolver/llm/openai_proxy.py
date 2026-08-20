@@ -196,16 +196,22 @@ class BackendPool:
         self._lock = asyncio.Lock()
         self._preferred_index = 0
         self._checked_at = 0.0
+        self._ok: dict[str, bool] = {}
+
+    def last_ok(self, base: str) -> bool:
+        return bool(self._ok.get(normalize_base_url(base)))
 
     async def probe(self, client: httpx.AsyncClient, base: str) -> bool:
         url = join_backend_url(base, self.probe_path)
         headers = apply_upstream_auth({}, self.upstream_api_key)
         try:
             response = await client.get(url, headers=headers, timeout=self.probe_timeout_seconds)
-            return response.status_code < 500
+            ok = response.status_code < 500
         except Exception as exc:
             logger.debug("probe failed for %s: %s", base, exc)
-            return False
+            ok = False
+        self._ok[normalize_base_url(base)] = ok
+        return ok
 
     async def refresh_preferred(self, client: httpx.AsyncClient, force: bool = False) -> str:
         async with self._lock:
@@ -315,10 +321,10 @@ def create_proxy_app(
     async def health() -> JSONResponse:
         client: httpx.AsyncClient = app.state.client
         preferred = await pool.refresh_preferred(client)
-        backends = []
-        for base in pool.bases:
-            ok = await pool.probe(client, base)
-            backends.append({"baseUrl": base, "ok": ok, "preferred": base == preferred})
+        backends = [
+            {"baseUrl": base, "ok": pool.last_ok(base), "preferred": base == preferred}
+            for base in pool.bases
+        ]
         any_ok = any(item["ok"] for item in backends)
         return JSONResponse(
             {

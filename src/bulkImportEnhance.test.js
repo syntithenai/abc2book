@@ -75,6 +75,7 @@ describe('bulkImportEnhance', function() {
     expect(searchLyrics).toHaveBeenCalled()
     expect(searchNotation).toHaveBeenCalled()
     expect(commitChordSearchResultToTune).toHaveBeenCalled()
+    expect(commitChordSearchResultToTune.mock.calls[0][0].skipSave).toBe(true)
     expect(applyCandidateToTune).toHaveBeenCalled()
   })
 

@@ -677,6 +677,21 @@ div.channel {
 
 .settings-cache-stats-label {
   color: var(--app-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.settings-cache-file-info-btn {
+  padding: 0.05em 0.28em !important;
+  min-width: 0 !important;
+  line-height: 1 !important;
+}
+
+.settings-cache-file-info-btn svg {
+  width: 1rem;
+  height: 1rem;
+  display: block;
 }
 
 .settings-cache-stats-value {
@@ -687,11 +702,6 @@ div.channel {
 .settings-cache-stats-meta {
   color: var(--app-text-muted, #6c757d);
   font-weight: normal;
-}
-
-.settings-cache-details-toggle {
-  padding-left: 0;
-  margin-top: 0.35rem;
 }
 
 .settings-cache-details {
@@ -3656,16 +3666,28 @@ button.btn-primary {
 }
 
 .abcjs-cursor {
-      stroke: blue;
-      strokie-width:3px
-   }
-/*
- @media (prefers-color-scheme: dark) {
-     .abcjs-cursor {
-         stroke: #ffffff;
-     }
- }
-*/
+  stroke: #dc3545;
+  stroke-width: 3px;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+#abc_music_viewer svg,
+.notation-staff-wrap svg,
+.practice-tune-notation-inner svg,
+.gig-mode-notation-render svg {
+  overflow: visible;
+}
+
+.tune-panel-notation .abcjs-cursor,
+.practice-tune-notation .abcjs-cursor,
+.gig-mode-notation-render .abcjs-cursor,
+.notation-staff-wrap .abcjs-cursor {
+  stroke: #dc3545;
+  stroke-width: 3px;
+  opacity: 1;
+  vector-effect: non-scaling-stroke;
+}
  path {
  transition: opacity 1s;
 }
@@ -4649,6 +4671,40 @@ button img:after {
   flex-wrap: nowrap;
 }
 
+.music-buttons-col-right .playalong-record-btn,
+.music-buttons-col-right .playalong-record-config-btn,
+.music-buttons-col-right .chord-pitch-group,
+.music-buttons-col-right .chord-pitch-group > .btn,
+.music-buttons--folded-menu .playalong-record-btn,
+.music-buttons--folded-menu .playalong-record-config-btn,
+.music-buttons--folded-menu .chord-pitch-group,
+.music-buttons--folded-menu .chord-pitch-group > .btn,
+.view-mode-extra-menu-content .playalong-record-btn,
+.view-mode-extra-menu-content .playalong-record-config-btn,
+.view-mode-extra-menu-content .chord-pitch-group,
+.view-mode-extra-menu-content .chord-pitch-group > .btn,
+.music-actions-dropdown-autoscroll-row .playalong-record-btn,
+.music-actions-dropdown-autoscroll-row .playalong-record-config-btn,
+.music-actions-dropdown-autoscroll-row .chord-pitch-group,
+.music-actions-dropdown-autoscroll-row .chord-pitch-group > .btn {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-buttons-col-right .chord-pitch-group > .btn img,
+.music-buttons-col-right .chord-pitch-group > .btn svg,
+.music-buttons--folded-menu .chord-pitch-group > .btn img,
+.music-buttons--folded-menu .chord-pitch-group > .btn svg,
+.view-mode-extra-menu-content .chord-pitch-group > .btn img,
+.view-mode-extra-menu-content .chord-pitch-group > .btn svg,
+.music-actions-dropdown-autoscroll-row .chord-pitch-group > .btn img,
+.music-actions-dropdown-autoscroll-row .chord-pitch-group > .btn svg {
+  width: 1.15em !important;
+  height: 1.15em !important;
+}
+
 .view-mode-extra-menu-content .music-notation-controls-block {
   width: 100%;
   flex-direction: column;
@@ -5091,6 +5147,11 @@ button img:after {
   overflow: hidden;
   min-width: 0;
   max-width: 100%;
+}
+
+.music-panels-fit-height .tune-panel-notation.tune-panel-notation--playalong-roll {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .music-panels-fit-height.tune-layout-lyrics-only .tune-panel-lyrics,
@@ -11351,6 +11412,10 @@ button.abc-transpose-preview {
   justify-content: center;
   flex: 0 0 auto;
   line-height: 0;
+}
+
+.links-editor-toolbar-btn-icon.is-waiting svg {
+  animation: select-input-waiting-spin 1s linear infinite;
 }
 
 .links-editor-toolbar-btn svg,

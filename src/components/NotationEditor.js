@@ -25,12 +25,12 @@ import useAbcjsParser from '../useAbcjsParser';
 import useNotationCheck from '../useNotationCheck';
 import { voiceBodiesFromTune } from '../notationCheckSnapshot';
 import { transposeTuneAbcNotes } from '../abcTuneTranspose';
+import { applyNoteGroupingToTune, serializeVoiceEventsForEditor } from '../abcNoteGrouping';
 import NotationIssuesPanel from './NotationIssuesPanel';
 import AbcNotesTextarea from './AbcNotesTextarea';
 import NotationPasteModeModal from './NotationPasteModeModal';
 import { consumeFocusNotationChecks } from '../bulkCheckReturnContext';
 import { notationViewToEditorViewMode } from '../viewModeUtils';
-import { serializeVoiceEvents } from '../notation/abcVoiceSerializer';
 import NotationSectionLabelsOverlay from './NotationSectionLabelsOverlay';
 import { buildAbcPreviewFromBodies, voiceDisplayLabel, mapAbcClickToVoiceCursor } from '../notation/notationDisplayAbc';
 import { activeVoiceIndicesFromTune } from '../abcVoiceViewSettings';
@@ -700,7 +700,7 @@ export default function NotationEditor(props) {
       const s = sessionRef.current;
       if (s && Array.isArray(s.events)) {
         prevLoadedVoiceBodyRef.current = voiceBodyForSession(
-          serializeVoiceEvents(s.events, tuneMeta)
+          serializeVoiceEventsForEditor(s.events, tuneMeta)
         );
       }
       return;
@@ -710,7 +710,7 @@ export default function NotationEditor(props) {
       const voiceBody = voiceBodyForSession(props.voiceNotes);
       const s = sessionRef.current;
       if (s && Array.isArray(s.events)) {
-        const raw = serializeVoiceEvents(s.events, tuneMeta);
+        const raw = serializeVoiceEventsForEditor(s.events, tuneMeta);
         const body = commitBodyWithMidi(raw, props.voiceKey).trim();
         const incoming = String(voiceBody || '').trim();
         if (incoming === body || incoming === String(raw).trim()) {
@@ -745,7 +745,7 @@ export default function NotationEditor(props) {
     let sessionOutOfSync = false;
     const s = sessionRef.current;
     if (!voiceKeyChanged && s && Array.isArray(s.events)) {
-      const raw = serializeVoiceEvents(s.events, tuneMeta);
+      const raw = serializeVoiceEventsForEditor(s.events, tuneMeta);
       const sessionBody = commitBodyWithMidi(raw, props.voiceKey).trim();
       const incoming = String(voiceBody || '').trim();
       sessionOutOfSync = incoming !== sessionBody && incoming !== String(raw).trim();
@@ -798,7 +798,7 @@ export default function NotationEditor(props) {
     clearTimeout(commitDebounce.current);
     const eventsSnapshot = events;
     const pushChange = function() {
-      const raw = serializeVoiceEvents(eventsSnapshot, tuneMeta);
+      const raw = serializeVoiceEventsForEditor(eventsSnapshot, tuneMeta);
       const body = commitBodyWithMidi(raw, vk);
       lastCommittedAbcRef.current = body;
       skipExternalLoad.current = true;
@@ -813,7 +813,7 @@ export default function NotationEditor(props) {
 
   useEffect(function() {
     if (!session.dirty) return;
-    const raw = serializeVoiceEvents(session.events, tuneMeta).trim();
+    const raw = serializeVoiceEventsForEditor(session.events, tuneMeta).trim();
     const body = commitBodyWithMidi(raw, props.voiceKey).trim();
     const external = String(props.voiceNotes || '').trim();
     if (external === body || external === raw) {
@@ -826,7 +826,7 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     if (!s || !Array.isArray(s.events)) return;
     const vk = voiceKey != null ? voiceKey : props.voiceKey;
-    const raw = serializeVoiceEvents(s.events, tuneMeta);
+    const raw = serializeVoiceEventsForEditor(s.events, tuneMeta);
     const body = commitBodyWithMidi(raw, vk);
     lastCommittedAbcRef.current = body;
     skipExternalLoad.current = true;
@@ -1616,7 +1616,7 @@ export default function NotationEditor(props) {
 
   function voiceBodyForKey(voiceKey) {
     if (voiceKey === props.voiceKey) {
-      return serializeVoiceEvents(sessionRef.current.events, tuneMeta);
+      return serializeVoiceEventsForEditor(sessionRef.current.events, tuneMeta);
     }
     return voiceNotesForKey(voiceKey);
   }
@@ -2713,7 +2713,7 @@ export default function NotationEditor(props) {
   }).length;
 
   const liveVoiceBody = useMemo(function() {
-    return serializeVoiceEvents(session.events, tuneMeta);
+    return serializeVoiceEventsForEditor(session.events, tuneMeta);
   }, [session.events, tuneMeta]);
 
   const displayedVoiceKeys = useMemo(function() {
@@ -2732,7 +2732,7 @@ export default function NotationEditor(props) {
       if (abcDrafts[voiceKey] != null) return abcDrafts[voiceKey];
       return voiceNotesForKey(voiceKey);
     }
-    // Active voice must always match serializeVoiceEvents(session.events) so
+    // Active voice ABC must match serializeVoiceEventsForEditor(session.events) so
     // abcjs startChar offsets map to the same tokens as the session model.
     if (voiceKey === props.voiceKey) {
       return liveVoiceBody;
@@ -2880,6 +2880,24 @@ export default function NotationEditor(props) {
       return;
     }
     handleFixTuneSaved(next, 'Transpose notation');
+  }, [props.tune, props.tunebook, handleFixTuneSaved]);
+
+  const handleNoteGroups = useCallback(function() {
+    if (!props.tune || !props.tunebook || !props.tunebook.abcTools) return;
+    const result = applyNoteGroupingToTune(
+      props.tune,
+      abcDraftsRef.current || {},
+      props.tunebook.abcTools
+    );
+    if (!result.ok) {
+      toast.warning(result.reason || 'Note Groups could not be applied.', { autoClose: 9000 });
+      return;
+    }
+    if (result.unchanged) {
+      toast.info('Note Groups — spacing already matches beat boundaries.');
+      return;
+    }
+    handleFixTuneSaved(result.tune, 'Note Groups');
   }, [props.tune, props.tunebook, handleFixTuneSaved]);
 
   const abcPreviewAbc = displayAbc;
@@ -3060,7 +3078,7 @@ export default function NotationEditor(props) {
     if (process.env.NODE_ENV === 'production') return undefined;
     window.__abc2bookNotationTest = {
       getVoiceAbc: function() {
-        return serializeVoiceEvents(sessionRef.current.events, tuneMeta);
+        return serializeVoiceEventsForEditor(sessionRef.current.events, tuneMeta);
       },
       getCommittedVoiceAbc: function() {
         return lastCommittedAbcRef.current || serializeVoiceEventsViaParser(
@@ -3251,6 +3269,7 @@ export default function NotationEditor(props) {
         autoPrime={true}
         playbackEngine={false}
         mirrorNotationPlaybackCursor={true}
+        displayTuneId={props.tune && props.tune.id}
         staffDisplayControlRef={notationStaffDisplayControlRef}
         warp={props.mediaController ? props.mediaController.playbackSpeed : 1}
         repeat={props.tune && props.tune.repeats > 0 ? props.tune.repeats : 1}
@@ -3483,6 +3502,7 @@ export default function NotationEditor(props) {
                   handleShortcutAction({ action: clipboardAction });
                 }}
                 onOpenWizard={function() { setShowWizard(true); }}
+                onNoteGroups={handleNoteGroups}
                 onOpenHelp={function() { setShowHelp(true); }}
                 onQuantize={function() {
                   setQuantizeNoChangeHint(null);

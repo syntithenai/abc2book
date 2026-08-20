@@ -431,7 +431,7 @@ body.app-has-playlist-transport .field-preview-editor-modal--fill .modal-body {
 
 /* Dialogs that hard-code 100vh / 100dvh must shrink for the transport too. */
 body.app-has-playlist-transport .bulk-ops-modal.modal-fullscreen .modal-content,
-body.app-has-playlist-transport .practice-session-modal .modal-content,
+body.app-has-playlist-transport .practice-session-page,
 body.app-has-playlist-transport .midi-import-wizard-modal.modal-fullscreen .modal-content {
   min-height: 0;
   height: 100%;

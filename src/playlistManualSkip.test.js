@@ -211,6 +211,48 @@ describe('playlistManualSkip', function() {
     expect(skipDeps.stopPlayback).not.toHaveBeenCalled()
   })
 
+  test('keep-playing skip uses a later media link when the first is empty', async function() {
+    const tunes = {
+      a: midiTune('a'),
+      mixed: {
+        id: 'mixed',
+        links: [
+          { link: '' },
+          { link: 'https://example.com/b.mp3' },
+        ],
+      },
+    }
+    let queue = createQueue({
+      tuneIds: ['a', 'mixed'],
+      currentIndex: 0,
+      autoAdvance: true,
+    })
+    const mediaController = makeController()
+    const deps = {
+      getQueue: function() { return queue },
+      setQueue: function(next) { queue = next },
+      tunes: tunes,
+      tunebook: makeTunebook(),
+      mediaController: mediaController,
+      stopPlayback: jest.fn(),
+      forceNavigate: true,
+      navigate: jest.fn(),
+      setCurrentTune: jest.fn(),
+    }
+    enqueueManualPlaylistSkip(1, true)
+    expect(await runPlaylistQueueSkip(deps)).toBe(true)
+    expect(queue.currentIndex).toBe(1)
+    expect(mediaController.setTune).toHaveBeenCalledWith(tunes.mixed)
+    expect(mediaController.setMediaLinkNumber).toHaveBeenCalledWith(1)
+    expect(mediaController.applyPlaybackRoute).toHaveBeenCalledWith(
+      'playMedia',
+      '1',
+      tunes.mixed,
+      deps.tunebook
+    )
+    expect(mediaController.playFromUserGesture).toHaveBeenCalledTimes(1)
+  })
+
   test('paused skip moves the queue without restarting playback', async function() {
     const tunes = { a: midiTune('a'), b: midiTune('b') }
     let queue = createQueue({ tuneIds: ['a', 'b'], currentIndex: 0 })

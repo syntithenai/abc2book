@@ -161,6 +161,19 @@ describe('chord block alignment against melody double barlines', function() {
     expect(merged[1].map(function(t) { return t.chord; }).filter(Boolean)).toEqual(['Am']);
   });
 
+  test('display charts omit pickup bars between repeat strains', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('QuakerPickup')
+      + 'M:6/8\nL:1/8\nK:G\n'
+      + 'D|:"G"GAB D2B |"C"c2A BGE|"G"G3 G2:|\n'
+      + 'A|:"G"BGG "C"AGG |"G"G3 G2:|';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'G', '1/8', '6/8');
+    expect(displayChart).not.toMatch(/^\s*\|[^:]/);
+    expect(displayChart).not.toMatch(/\n\|\s*\n/);
+    expect(formatChordChartForDisplay(displayChart)).toMatch(/G \| C \| G :\|/);
+  });
+
   test('display charts omit the anacrusis bar', function() {
     const abcjsParser = useAbcjsParser();
     const abcTools = useAbcTools();

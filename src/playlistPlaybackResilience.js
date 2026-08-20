@@ -4,7 +4,9 @@ import {
   advanceQueue,
   resolvePlaybackForItem,
   isExternalQueueItem,
+  tuneHasMidiNotes,
 } from './nowPlayingQueue'
+import { isMediaLinkPlaybackCandidate } from './mediaLinkSrcType'
 import {
   isNavigatorOffline,
   isTuneOfflinePlayable,
@@ -36,6 +38,101 @@ import {
 export function isQueueItemPlayable(tune, item, tunebook) {
   if (isExternalQueueItem(item)) return true
   return !!resolvePlaybackForItem(tune, item, tunebook)
+}
+
+function linkLooksLikeOwnedRecording(link) {
+  if (!link) return false
+  if (link.recordingId) return true
+  const uri = link.link || ''
+  return /^abcbook-recording:|^recording:/.test(uri)
+}
+
+function collectMediaLinkCandidateIndexes(tune, isYoutubeLink) {
+  if (!tune || !Array.isArray(tune.links) || tune.links.length === 0) return []
+  const indexes = []
+  for (let i = 0; i < tune.links.length; i++) {
+    if (isMediaLinkPlaybackCandidate(tune.links[i], isYoutubeLink)) indexes.push(i)
+  }
+  return indexes
+}
+
+function queueItemForPlaybackTarget(item, playbackTarget) {
+  if (!item || !playbackTarget || playbackTarget.type !== 'media') return item
+  if (playbackTarget.linkNum == null) return item
+  if (item.linkIndex === playbackTarget.linkNum) return item
+  return Object.assign({}, item, { linkIndex: playbackTarget.linkNum })
+}
+
+export async function isMediaLinkFullyPlayable(tune, linkIndex, options) {
+  const opts = options || {}
+  const link = tune && Array.isArray(tune.links) ? tune.links[linkIndex] : null
+  if (!isMediaLinkPlaybackCandidate(link, opts.isYoutubeLink)) return false
+  if (isNavigatorOffline()) {
+    return isMediaLinkOfflineReady(tune, linkIndex, opts.isYoutubeLink)
+  }
+  if (!(await isOwnedMediaLinkLocallyAvailable(tune, linkIndex))) return false
+  return isResolverProxiedMediaPlayable(tune, linkIndex, opts)
+}
+
+/**
+ * Choose a single playable source for a queue item. When the default media
+ * link is blocked, remaining links on the same tune are tried in order.
+ */
+export async function resolveFullyPlayablePlaybackForItem(tune, item, tunebook, options) {
+  const opts = options || {}
+  if (isExternalQueueItem(item)) {
+    if (!isNavigatorOffline()) return resolvePlaybackForItem(tune, item, tunebook)
+    return null
+  }
+  if (!tune || !tunebook) return null
+
+  const prefer = item && item.prefer ? item.prefer : 'auto'
+  const hasNotes = tuneHasMidiNotes(tune, tunebook)
+  const firstLink = tune.links && tune.links[0]
+  const preferMidi = prefer === 'midi' && hasNotes
+  const autoMidiBecauseRecording = prefer === 'auto' && hasNotes && linkLooksLikeOwnedRecording(firstLink)
+
+  async function midiTargetIfPlayable() {
+    if (!hasNotes) return null
+    const target = { type: 'midi', linkNum: null }
+    if (!isNavigatorOffline()) return target
+    const ok = await isTuneOfflinePlayable(
+      tune,
+      target,
+      tunebook,
+      opts.isYoutubeLink,
+      opts.playbackMode
+    )
+    return ok ? target : null
+  }
+
+  if (preferMidi || autoMidiBecauseRecording) {
+    return midiTargetIfPlayable()
+  }
+
+  const candidates = collectMediaLinkCandidateIndexes(tune, opts.isYoutubeLink)
+  if (candidates.length > 0) {
+    const preferred = item && item.linkIndex != null
+      ? item.linkIndex
+      : (resolvePlaybackForItem(tune, item, tunebook) || {}).linkNum
+    const start = typeof preferred === 'number' && preferred >= 0 ? preferred : candidates[0]
+    const ordered = []
+    if (candidates.indexOf(start) >= 0) ordered.push(start)
+    candidates.forEach(function(index) {
+      if (index !== start) ordered.push(index)
+    })
+    for (let i = 0; i < ordered.length; i++) {
+      const linkIndex = ordered[i]
+      if (await isMediaLinkFullyPlayable(tune, linkIndex, opts)) {
+        return { type: 'media', linkNum: linkIndex }
+      }
+    }
+    // This visit already chose media; do not also start MIDI.
+    return null
+  }
+
+  if (prefer === 'media') return null
+  return midiTargetIfPlayable()
 }
 
 /**
@@ -173,28 +270,7 @@ export async function isOwnedMediaLinkLocallyAvailable(tune, linkIndex) {
 }
 
 export async function isQueueItemFullyPlayable(tune, item, tunebook, options) {
-  const opts = options || {}
-  if (isExternalQueueItem(item)) {
-    if (!isNavigatorOffline()) return true
-    return false
-  }
-  if (!isQueueItemPlayable(tune, item, tunebook)) return false
-  const target = resolvePlaybackForItem(tune, item, tunebook)
-  if (!isNavigatorOffline()) {
-    if (target && target.type === 'media') {
-      const linkIndex = target.linkNum != null ? target.linkNum : 0
-      if (!(await isOwnedMediaLinkLocallyAvailable(tune, linkIndex))) return false
-      return isResolverProxiedMediaPlayable(tune, linkIndex, opts)
-    }
-    return true
-  }
-  return isTuneOfflinePlayable(
-    tune,
-    target,
-    tunebook,
-    opts.isYoutubeLink,
-    opts.playbackMode
-  )
+  return !!(await resolveFullyPlayablePlaybackForItem(tune, item, tunebook, options))
 }
 
 export function findFirstPlayableQueueIndex(queue, tunes, tunebook) {
@@ -247,15 +323,28 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
       return { queue: workingQueue, tune: null, item: null, atEnd: true, skipped: skipped }
     }
     const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
-    const playable = await isQueueItemFullyPlayable(tune, item, tunebook, {
+    const playabilityOpts = {
       isYoutubeLink: isYoutubeLink,
       playbackMode: playbackMode,
       resolverStatus: opts.resolverStatus,
       resolverHealth: opts.resolverHealth,
       accessToken: opts.accessToken,
-    })
-    if (playable) {
-      return { queue: workingQueue, tune: tune, item: item, atEnd: false, skipped: skipped }
+    }
+    const playbackTarget = await resolveFullyPlayablePlaybackForItem(
+      tune,
+      item,
+      tunebook,
+      playabilityOpts
+    )
+    if (playbackTarget) {
+      return {
+        queue: workingQueue,
+        tune: tune,
+        item: queueItemForPlaybackTarget(item, playbackTarget),
+        playbackTarget: playbackTarget,
+        atEnd: false,
+        skipped: skipped,
+      }
     }
 
     skipped += 1

@@ -27,11 +27,15 @@ export function medianMidiFromSamples(samples) {
   return Math.round((sorted[mid - 1] + sorted[mid]) / 2)
 }
 
-export function scorePitchInWindow(samples, expectedMidi, toleranceSemitones) {
+export function scorePitchInWindow(samples, expectedMidi, toleranceSemitones, options) {
   const median = medianMidiFromSamples(samples)
   if (median == null) return { hit: false, missed: true, medianMidi: null }
-  const hit = pitchClose(median, expectedMidi, toleranceSemitones)
-  return { hit: hit, missed: false, medianMidi: median }
+  const opts = options || {}
+  const compare = opts.foldHarmonics
+    ? foldMidiHarmonicNearExpected(median, expectedMidi)
+    : (opts.foldOctaves ? foldMidiNearExpected(median, expectedMidi) : median)
+  const hit = pitchClose(compare, expectedMidi, toleranceSemitones)
+  return { hit: hit, missed: false, medianMidi: compare }
 }
 
 export function liveIntonationBand(cents) {
@@ -68,15 +72,48 @@ export function foldMidiNearExpected(midi, expectedMidi) {
   return folded
 }
 
+/** Map a detected MIDI onto expected, including common whistle harmonics (octave / twelfth). */
+export function foldMidiHarmonicNearExpected(rawMidi, expectedMidi) {
+  if (rawMidi == null || !Number.isFinite(rawMidi)) return null
+  if (expectedMidi == null || !Number.isFinite(expectedMidi)) return rawMidi
+  const octaveFolded = foldMidiNearExpected(rawMidi, expectedMidi)
+  let best = octaveFolded != null ? octaveFolded : rawMidi
+  let bestDist = Math.abs(best - expectedMidi)
+  ;[2, 3, 4].forEach(function(divisor) {
+    const candidate = rawMidi - (12 * Math.log(divisor) / Math.log(2))
+    const dist = Math.abs(candidate - expectedMidi)
+    if (dist < bestDist) {
+      best = candidate
+      bestDist = dist
+    }
+  })
+  return best
+}
+
+export function lastDetectedSampleMs(detectedSamples) {
+  let last = null
+  ;(detectedSamples || []).forEach(function(s) {
+    if (!s || !Number.isFinite(s.timeMs) || s.gated === false) return
+    if (last == null || s.timeMs > last) last = s.timeMs
+  })
+  return last
+}
+
 export function summarizeRepPitch(windows, detectedSamples, options) {
   const opts = options || {}
   const tolerance = opts.toleranceSemitones != null
     ? opts.toleranceSemitones
     : SCORING_PITCH_TOLERANCE_SEMITONES
   const minSamples = opts.minSamples != null ? opts.minSamples : SCORING_MIN_SAMPLES_PER_NOTE
+  const lastSampleMs = opts.ignoreNotesAfterLastSample
+    ? lastDetectedSampleMs(detectedSamples)
+    : null
   const perNote = []
   let hits = 0
-  windows.forEach(function(win) {
+  ;(windows || []).forEach(function(win) {
+    if (lastSampleMs != null && Number.isFinite(win.startMs) && win.startMs > lastSampleMs) {
+      return
+    }
     const inWindow = (detectedSamples || []).filter(function(s) {
       return s.timeMs >= win.startMs && s.timeMs < win.endMs && s.gated !== false
     })
@@ -90,7 +127,10 @@ export function summarizeRepPitch(windows, detectedSamples, options) {
       })
       return
     }
-    const result = scorePitchInWindow(inWindow, win.midi, tolerance)
+    const result = scorePitchInWindow(inWindow, win.midi, tolerance, {
+      foldOctaves: !!opts.foldOctaves,
+      foldHarmonics: !!opts.foldHarmonics,
+    })
     if (result.hit) hits += 1
     perNote.push({
       midi: win.midi,
@@ -101,8 +141,14 @@ export function summarizeRepPitch(windows, detectedSamples, options) {
       sampleCount: inWindow.length,
     })
   })
-  const total = windows.length
-  const pitchPct = total > 0 ? Math.round((hits / total) * 100) : 0
+  const scored = opts.ignoreUnsampledNotes
+    ? perNote.filter(function(n) { return !n.missed })
+    : perNote
+  const total = scored.length
+  const usedHits = opts.ignoreUnsampledNotes
+    ? scored.filter(function(n) { return n.hit }).length
+    : hits
+  const pitchPct = total > 0 ? Math.round((usedHits / total) * 100) : 0
   return {
     pitchPct: pitchPct,
     hits: hits,

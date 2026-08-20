@@ -117,9 +117,9 @@ describe('tuneChordReadinessAudit', function() {
     const row = classifyChordReadiness(tune, tools())
     expect(row.status).toBe(CHORD_READINESS_STATUSES.READY)
     expect(row.tags).toContain(CHORD_READINESS_TAGS.READY)
-    expect(row.displayReady).toBe(true)
-    expect(row.renderMode).toBe('per_line_abc')
-    expect(isDisplayChordReady(tune, tools())).toBe(true)
+    expect(row.displayReady).toBe(false)
+    expect(row.renderMode).toBe('plain')
+    expect(isDisplayChordReady(tune, tools())).toBe(false)
   })
 
   test('classifies melody without embedded chords', function() {
@@ -163,8 +163,8 @@ describe('tuneChordReadinessAudit', function() {
     expect(report.summary.totalTunes).toBe(2)
     expect(report.summary.byStatus[CHORD_READINESS_STATUSES.READY]).toBe(1)
     expect(report.summary.byStatus[CHORD_READINESS_STATUSES.LYRICS_NO_CHORDS]).toBe(1)
-    expect(report.summary.displayReadyCount).toBe(1)
-    expect(report.summary.byRenderMode.per_line_abc).toBe(2)
+    expect(report.summary.displayReadyCount).toBe(0)
+    expect(report.summary.byRenderMode.plain).toBe(2)
   })
 
   test('tags anacrusis double barline for review', function() {

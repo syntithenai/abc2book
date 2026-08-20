@@ -274,6 +274,14 @@ describe('shouldSkipHostMidiRouteApply', function() {
     })).toBe(true)
   })
 
+  test('does not skip when midi route is already committed', function() {
+    expect(shouldSkipHostMidiRouteApply({
+      requestedPlayState: 'playMedia',
+      isMidiPlaybackRoute: function() { return true },
+      isMediaPlaybackRoute: function() { return false },
+    })).toBe(false)
+  })
+
   test('does not skip for midi-only route', function() {
     expect(shouldSkipHostMidiRouteApply({
       requestedPlayState: 'playMidi',

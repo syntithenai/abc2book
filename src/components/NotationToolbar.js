@@ -19,6 +19,7 @@ export default function NotationToolbar(props) {
     midi,
     dispatch,
     onOpenWizard,
+    onNoteGroups,
     onOpenHelp,
     onQuantize,
     onInsertBarline,
@@ -93,6 +94,7 @@ export default function NotationToolbar(props) {
       <NotationToolsDropdown
         tunebook={tunebook}
         onOpenWizard={onOpenWizard}
+        onNoteGroups={onNoteGroups}
         onQuantize={onQuantize}
         onInsertMeasure={onInsertMeasure}
         onBeamBreak={onBeamBreak}

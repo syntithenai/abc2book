@@ -116,13 +116,16 @@ services:
         condition: service_healthy
         required: false
 
-  # OpenAI-compatible LLM (llama.cpp Vulkan) using the same GGUF LM Studio uses.
+  # Optional in-compose Gemma llama.cpp (Vulkan). Disabled by default so the
+  # host qwen-server can own the GPU. Recreate with:
+  #   docker compose --profile gemma-llm up -d
   # Set LLM_EXTERNAL_BASE_URL to skip model load and reverse-proxy an external
   # OpenAI-compatible service instead. RESEARCH_LLM_BASE_URL should point at the
   # gateway below (http://host.docker.internal:12340/v1).
   llm:
     build: ./llm
     container_name: abc2book-llm
+    profiles: ["gemma-llm"]
     ports:
       - "${LLM_PUBLISH_PORT:-12341}:8080"
     env_file:
@@ -175,9 +178,8 @@ services:
       start_period: 300s
     restart: unless-stopped
 
-  # Prefer the in-compose llm service; fall back to host LM Studio (:1234).
-  # Replaces the old socat llm-bridge. Keep listening on :12340 so existing
-  # RESEARCH_LLM_BASE_URL=http://host.docker.internal:12340/v1 keeps working.
+  # Host-network gateway on :12340. Default primary is host qwen-proxy (:8081).
+  # Optional Gemma llama.cpp is the `gemma-llm` profile (abc2book-llm :12341).
   llm-gateway:
     build: ./llm
     container_name: abc2book-llm-bridge
@@ -186,20 +188,19 @@ services:
     environment:
       LLM_GATEWAY_LISTEN_HOST: 0.0.0.0
       LLM_GATEWAY_LISTEN_PORT: "12340"
-      LLM_PRIMARY_BASE_URL: http://127.0.0.1:${LLM_PUBLISH_PORT:-12341}
-      LLM_FALLBACK_BASE_URL: http://127.0.0.1:${LLM_FALLBACK_PORT:-1234}
+      LLM_PRIMARY_BASE_URL: ${LLM_PRIMARY_BASE_URL:-http://127.0.0.1:8081}
+      LLM_FALLBACK_BASE_URL: ${LLM_FALLBACK_BASE_URL:-}
       LLM_EXTERNAL_BASE_URL: ""
-      LLM_GATEWAY_HEALTH_TTL_SECONDS: ${LLM_GATEWAY_HEALTH_TTL_SECONDS:-15}
+      LLM_GATEWAY_HEALTH_TTL_SECONDS: ${LLM_GATEWAY_HEALTH_TTL_SECONDS:-60}
+      LLM_GATEWAY_PROBE_PATH: ${LLM_GATEWAY_PROBE_PATH:-/health}
       LLM_LOG_LEVEL: ${LLM_LOG_LEVEL:-info}
-    depends_on:
-      - llm
     healthcheck:
       test:
         [
           "CMD-SHELL",
           "curl -fsS --max-time 5 http://127.0.0.1:12340/health || exit 1",
         ]
-      interval: 30s
+      interval: 60s
       timeout: 5s
       retries: 5
       start_period: 20s
@@ -343,6 +344,8 @@ services:
     environment:
       RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:-peppertrees.syntithenai.com}
       ACME_EMAIL: ${ACME_EMAIL:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data

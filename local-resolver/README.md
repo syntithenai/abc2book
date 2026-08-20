@@ -128,27 +128,33 @@ Robustness env vars (optional): `MUSIC_COLLECTION_FILE_TIMEOUT_SECONDS`,
 
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 
-### OpenAI-compatible LLM (`llm` + `llm-gateway`)
+### OpenAI-compatible LLM (`llm-gateway` → host qwen-server)
 
-Compose starts two LLM helpers:
+The resolver talks to **llm-gateway** on `:12340`. By default that gateway forwards to host **qwen-proxy** on `127.0.0.1:8081` (`qwen3.8-off`). The in-compose Gemma llama.cpp container (`llm` / `abc2book-llm`) is **opt-in** so it does not fight Qwen for the GPU.
 
 | Service | Port | Role |
 |---------|------|------|
-| `llm` | `12341` → container `:8080` | Vulkan [llama.cpp](https://github.com/ggml-org/llama.cpp) server (preloads the configured GGUF) **or** an OpenAI-compatible reverse proxy when `LLM_EXTERNAL_BASE_URL` is set |
-| `llm-gateway` (`abc2book-llm-bridge`) | `12340` (host network) | Prefers `llm` on `:12341`, falls back to host LM Studio on `:1234` |
+| host `qwen-proxy` | `8081` | Qwen 3.8 reasoning proxy (safe-mode llama-server on `:8000`) |
+| `llm-gateway` (`abc2book-llm-bridge`) | `12340` (host network) | Forwards to qwen-proxy; no LM Studio fallback |
+| `llm` (`abc2book-llm`) | `12341` | Optional Gemma GGUF — `docker compose --profile gemma-llm up -d` |
 
-Keep `RESEARCH_LLM_BASE_URL=http://host.docker.internal:12340/v1` so the resolver always talks to the gateway. Defaults load the same Gemma GGUF LM Studio uses (`LLM_MODELS_DIR` + `LLM_MODEL_FILENAME`).
+Keep `RESEARCH_LLM_BASE_URL=http://host.docker.internal:12340/v1`.
 
 ```bash
-# Local GGUF (default) — model is loaded at container start and kept resident
+# Host Qwen (default)
+# RESEARCH_LLM_MODEL=qwen3.8-off
+# RESEARCH_LLM_API_KEY must match QWEN_API_KEY in qwen-server/env/qwen-server.env
+# RESEARCH_LLM_API_KEY=
+# LLM_PRIMARY_BASE_URL=http://127.0.0.1:8081
+
+# Optional in-compose Gemma (do not run while qwen-server is using the GPU)
+# docker compose --profile gemma-llm up -d
 # LLM_MODELS_DIR=/home/YOU/.lmstudio/models/lmstudio-community/gemma-4-31B-it-QAT-GGUF
 # LLM_MODEL_FILENAME=gemma-4-31B-it-QAT-Q4_0.gguf
 # RESEARCH_LLM_MODEL=google/gemma-4-31b-qat
-
-# Or proxy an external OpenAI-compatible API (no GGUF load in the llm container)
-# LLM_EXTERNAL_BASE_URL=https://api.openai.com/v1
-# LLM_EXTERNAL_API_KEY=sk-...
 ```
+
+Gateway health: `curl -s http://127.0.0.1:12340/health`. Qwen must be running (`systemctl --user start qwen-server qwen-proxy`) or chat completions return 503.
 
 ### Ollama (optional compose overlay)
 
@@ -162,8 +168,6 @@ docker exec -it abc2book-ollama ollama pull llama3.2
 ```
 
 Set `RESEARCH_LLM_MODEL` to the Ollama model name. The overlay points `llm` / `llm-gateway` at `http://…:11434/v1`.
-
-Gateway health: `curl -s http://127.0.0.1:12340/health`. If the in-compose `llm` container is down or still loading, requests fall through to LM Studio when it is running on `:1234`.
 
 ### Text-to-speech (Kokoro GPU + Piper CPU)
 

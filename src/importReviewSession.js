@@ -1,5 +1,6 @@
 import { primaryArtist } from './tuneBibliographicUtils';
 import { coalesceImportCandidates, fieldLookupJobIdsForCandidate, fieldLookupKindsForCandidate } from './importReviewCandidateUtils';
+import { enrichmentJobsForSession, startEnrichmentJob } from './importReviewEnrichmentQueue';
 
 export const IMPORT_REVIEW_STEPS = ['review', 'enrichmentQueue'];
 
@@ -88,19 +89,46 @@ function normalizeCandidate(item, index) {
   return candidate;
 }
 
+export function shouldSkipImportDuplicateSplit(candidates, options) {
+  const opts = options || {};
+  if (opts.skipDuplicateSplit) return true;
+  const list = Array.isArray(candidates) ? candidates : [];
+  if (!list.length) return false;
+  return list.every(function(candidate) {
+    return !!(candidate && candidate.mergeTargetId);
+  });
+}
+
+function pendingEnrichmentJobsForCandidates(candidates) {
+  let jobs = enrichmentJobsForSession(candidates);
+  jobs.forEach(function(job) {
+    jobs = startEnrichmentJob(jobs, job.id);
+  });
+  return jobs;
+}
+
 export function createImportReviewSession(candidates, options) {
   const list = (Array.isArray(candidates) ? candidates : []).map(normalizeCandidate);
   const opts = options || {};
   const addPanelMode = opts.addPanelMode === 'curated' || opts.addPanelMode === 'bulk'
     ? opts.addPanelMode
     : 'form';
+  const startEnrichment = !!opts.startEnrichment && list.length > 0 && !opts.skipEnrichment;
+  let enrichmentJobs = Array.isArray(opts.enrichmentJobs) ? opts.enrichmentJobs.slice() : [];
+  let phase = opts.phase || 'identify';
+  let step = list.length ? (opts.step || 'review') : 'done';
+  if (startEnrichment) {
+    enrichmentJobs = pendingEnrichmentJobsForCandidates(list);
+    phase = 'enrichment';
+    step = 'enrichmentQueue';
+  }
   return {
     candidates: list,
     index: 0,
-    step: list.length ? 'review' : 'done',
-    phase: 'identify',
+    step: step,
+    phase: phase,
     mergeIndex: null,
-    enrichmentJobs: [],
+    enrichmentJobs: enrichmentJobs,
     importedCandidateIds: {},
     skipEnrichForRemaining: false,
     skipYoutubeForRemaining: false,

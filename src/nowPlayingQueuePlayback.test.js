@@ -446,6 +446,34 @@ describe('nowPlayingQueuePlayback', function() {
     expect(tune && tune.id).toBe('c')
   })
 
+  test('playQueueItem defers midi engine start and commits playMidi', function() {
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+    }
+    const tune = { id: 'midi-tune', notes: 'CDEF' }
+    const tunebook = {
+      hasNotesOrChords: function() { return true },
+      hasLinks: function() { return false },
+    }
+    const ok = playQueueItem(mediaController, tunebook, tune, { tuneId: 'midi-tune' }, {
+      deferPlaybackEngine: true,
+    })
+    expect(ok).toBe(true)
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+    expect(mediaController.setMediaLinkNumber).toHaveBeenCalledWith(null)
+    expect(mediaController.applyPlaybackRoute).toHaveBeenCalledWith(
+      'playMidi',
+      null,
+      tune,
+      tunebook
+    )
+    expect(mediaController.play).not.toHaveBeenCalled()
+  })
+
   test('playQueueItem can defer engine start for queue advance', function() {
     const mediaController = {
       setTune: jest.fn(),
@@ -492,6 +520,54 @@ describe('nowPlayingQueuePlayback', function() {
     })
   })
 
+  test('handleQueueAdvanceOnEnded starts midi after a media track', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      media: { id: 'media', links: [{ link: 'https://youtu.be/abc' }] },
+      midi: { id: 'midi', notes: 'CDEF' },
+    }
+    const queue = createQueue({
+      tuneIds: ['media', 'midi'],
+      currentIndex: 0,
+      autoAdvance: true,
+    })
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+      abortPlayingIntent: jest.fn(),
+      pause: jest.fn(),
+      setIsLoading: jest.fn(),
+      setIsPlaying: jest.fn(),
+      setIsReady: jest.fn(),
+    }
+    let updatedQueue = null
+    handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: function(q) { updatedQueue = q },
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      failCallback: jest.fn(),
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(updatedQueue.currentIndex).toBe(1)
+    expect(mediaController.setTune).toHaveBeenCalledWith(tunes.midi)
+    expect(mediaController.setMediaLinkNumber).toHaveBeenCalledWith(null)
+    expect(mediaController.applyPlaybackRoute).toHaveBeenCalledWith(
+      'playMidi',
+      null,
+      tunes.midi,
+      tunebook
+    )
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+  })
+
   test('handleQueueAdvanceOnEnded skips unplayable tunes and stops when none remain', async function() {
     const tunebook = {
       hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
@@ -533,6 +609,61 @@ describe('nowPlayingQueuePlayback', function() {
     expect(updatedQueue.currentIndex).toBe(1)
     expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
     expect(failReason).toBeNull()
+  })
+
+  test('handleQueueAdvanceOnEnded plays one later media link when the first is empty', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      first: { id: 'first', notes: 'CDEF' },
+      mixed: {
+        id: 'mixed',
+        links: [
+          { link: '' },
+          { link: 'https://example.com/b.mp3' },
+        ],
+      },
+    }
+    const queue = createQueue({
+      tuneIds: ['first', 'mixed'],
+      currentIndex: 0,
+      autoAdvance: true,
+    })
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+      abortPlayingIntent: jest.fn(),
+      pause: jest.fn(),
+      setIsLoading: jest.fn(),
+      setIsPlaying: jest.fn(),
+      setIsReady: jest.fn(),
+    }
+    let updatedQueue = null
+    handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: function(q) { updatedQueue = q },
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      failCallback: jest.fn(),
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(updatedQueue.currentIndex).toBe(1)
+    expect(updatedQueue.items[1].linkIndex).toBeUndefined()
+    expect(mediaController.setTune).toHaveBeenCalledWith(tunes.mixed)
+    expect(mediaController.setMediaLinkNumber).toHaveBeenCalledWith(1)
+    expect(mediaController.applyPlaybackRoute).toHaveBeenCalledWith(
+      'playMedia',
+      '1',
+      tunes.mixed,
+      tunebook
+    )
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalledTimes(1)
   })
 
   test('handleQueueAdvanceOnEnded replays current track in repeat-track mode', function() {

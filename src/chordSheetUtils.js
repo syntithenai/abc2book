@@ -91,7 +91,7 @@ export function tokenIsChord(token) {
   }
 }
 
-const SECTION_HEADER_WORD = '(verse|chorus|bridge|intro|outro|pre-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook|v\\d+)';
+const SECTION_HEADER_WORD = '(verse|chorus|bridge|intro|outro|pre-?chorus|mini-?chorus|mini\\s+chorus|refrain|coda|tag|instrumental|solo|interlude|hook|v\\d+)';
 // Optional stanza number, parenthetical note, and/or meter (eg. "3/4") after the type.
 // Meter is matched before bare digits so "bridge 3/4" is not eaten as "bridge 3".
 const SECTION_HEADER_SUFFIX = '(\\s+\\d{1,2}\\/\\d{1,2})?(\\s*\\d+)?(\\s*\\([^)]*\\))?\\s*[:.]?';
@@ -290,18 +290,27 @@ export function normalizeStanzaNameKey(name) {
 /**
  * Token overlap similarity for fuzzy stanza name matching (0–1).
  */
+function stanzaNameTokens(name) {
+  return String(name || '').split(/[\s-]+/).filter(Boolean);
+}
+
 export function stanzaNameSimilarity(a, b) {
   const left = normalizeStanzaNameKey(a);
   const right = normalizeStanzaNameKey(b);
   if (!left || !right) return 0;
   if (left === right) return 1;
-  if (left.includes(right) || right.includes(left)) {
-    const ratio = Math.min(left.length, right.length) / Math.max(left.length, right.length);
-    return 0.85 + ratio * 0.14;
-  }
-  const leftTokens = left.split(/\s+/).filter(Boolean);
-  const rightTokens = right.split(/\s+/).filter(Boolean);
+  const leftTokens = stanzaNameTokens(left);
+  const rightTokens = stanzaNameTokens(right);
   if (!leftTokens.length || !rightTokens.length) return 0;
+  const shorter = leftTokens.length <= rightTokens.length ? leftTokens : rightTokens;
+  const longer = leftTokens.length <= rightTokens.length ? rightTokens : leftTokens;
+  const extras = longer.filter(function(token) { return shorter.indexOf(token) < 0; });
+  const shorterCovered = shorter.every(function(token) { return longer.indexOf(token) >= 0; });
+  // "Verse 1" matches "Verse"; "minichorus" does not match "chorus".
+  if (shorterCovered && extras.every(function(token) { return /^\d+$/.test(token); })) {
+    const ratio = Math.min(left.length, right.length) / Math.max(left.length, right.length);
+    return extras.length === 0 ? 1 : 0.85 + ratio * 0.14;
+  }
   let hits = 0;
   leftTokens.forEach(function(token) {
     if (rightTokens.indexOf(token) >= 0) hits += 1;
@@ -1135,10 +1144,15 @@ function stanzaMatchesAt(normalizedBody, stanza, offset) {
   return true;
 }
 
+function isChorusLikeSectionType(type) {
+  return type === 'chorus' || type === 'minichorus' || type === 'refrain'
+    || type === 'hook' || type === 'bridge';
+}
+
 /**
- * When an earlier stanza (typically the chorus) is repeated later in the text
- * without blank lines around it, split it out of the surrounding block so it
- * behaves like a blank-line-separated stanza.
+ * When an earlier stanza is repeated later without a blank line, peel it off
+ * only if that full stanza sits at the start or end of the current block.
+ * Interior subsequences (a minichorus hook inside a longer chorus) are not matches.
  */
 export function splitEmbeddedRepeatedStanzas(blocks) {
   const source = Array.isArray(blocks) ? blocks : [];
@@ -1146,8 +1160,25 @@ export function splitEmbeddedRepeatedStanzas(blocks) {
   const result = [];
 
   function registerStanza(bodyLines) {
-    const key = bodyLines.map(normalizeTextForMatch);
+    const key = (Array.isArray(bodyLines) ? bodyLines : []).map(normalizeTextForMatch);
     if (key.length >= 2 && key.every(Boolean)) seen.push(key);
+  }
+
+  function longestEdgeMatch(normalized) {
+    let bestLen = 0;
+    let at = null;
+    for (let s = 0; s < seen.length; s++) {
+      const stanza = seen[s];
+      if (stanza.length >= normalized.length || stanza.length <= bestLen) continue;
+      if (stanzaMatchesAt(normalized, stanza, 0)) {
+        bestLen = stanza.length;
+        at = 'prefix';
+      } else if (stanzaMatchesAt(normalized, stanza, normalized.length - stanza.length)) {
+        bestLen = stanza.length;
+        at = 'suffix';
+      }
+    }
+    return bestLen > 0 ? { len: bestLen, at: at } : null;
   }
 
   source.forEach(function(block) {
@@ -1158,39 +1189,37 @@ export function splitEmbeddedRepeatedStanzas(blocks) {
       header = lines[0];
       body = lines.slice(1);
     }
-    const normalized = body.map(normalizeTextForMatch);
-
-    const segments = [];
-    let cursor = 0;
-    let i = 0;
-    while (i < normalized.length) {
-      let matchLen = 0;
-      for (let s = 0; s < seen.length; s++) {
-        if (seen[s].length > matchLen && stanzaMatchesAt(normalized, seen[s], i)) {
-          matchLen = seen[s].length;
-        }
-      }
-      // A match spanning the whole block is already its own stanza.
-      if (matchLen > 0 && !(i === 0 && matchLen === body.length)) {
-        if (i > cursor) segments.push(body.slice(cursor, i));
-        segments.push(body.slice(i, i + matchLen));
-        i += matchLen;
-        cursor = i;
-      } else {
-        i += 1;
-      }
-    }
-    if (cursor < body.length) segments.push(body.slice(cursor));
-
-    if (segments.length <= 1 && cursor === 0) {
+    const type = header ? normalizeSectionType(header) : null;
+    if (isChorusLikeSectionType(type) || !body.length) {
       result.push(block);
       registerStanza(body);
       return;
     }
-    segments.forEach(function(segment, index) {
-      result.push(index === 0 && header ? [header].concat(segment) : segment);
-      registerStanza(segment);
-    });
+
+    let workingHeader = header;
+    let workingBody = body;
+    while (workingBody.length) {
+      const normalized = workingBody.map(normalizeTextForMatch);
+      const match = longestEdgeMatch(normalized);
+      if (!match) {
+        result.push(workingHeader ? [workingHeader].concat(workingBody) : workingBody);
+        registerStanza(workingBody);
+        break;
+      }
+      if (match.at === 'prefix') {
+        const extracted = workingBody.slice(0, match.len);
+        result.push(extracted);
+        registerStanza(extracted);
+        workingBody = workingBody.slice(match.len);
+      } else {
+        const leftover = workingBody.slice(0, workingBody.length - match.len);
+        const extracted = workingBody.slice(workingBody.length - match.len);
+        result.push(workingHeader ? [workingHeader].concat(leftover) : leftover);
+        registerStanza(leftover);
+        workingHeader = null;
+        workingBody = extracted;
+      }
+    }
   });
 
   return result;
@@ -1203,7 +1232,8 @@ export function splitEmbeddedRepeatedStanzas(blocks) {
  */
 function absorbsMidVerseContinuations(header) {
   const type = normalizeSectionType(header);
-  return type !== 'chorus' && type !== 'refrain' && type !== 'hook' && type !== 'bridge';
+  return type !== 'chorus' && type !== 'refrain' && type !== 'hook'
+    && type !== 'bridge' && type !== 'minichorus';
 }
 
 /**
@@ -1212,7 +1242,7 @@ function absorbsMidVerseContinuations(header) {
  * the preceding labeled block (paragraph breaks inside Verse), keeping the
  * blank line as a visual separator. A double blank starts a new untitled
  * section and is not absorbed.
- * Chorus/refrain/hook/bridge sections do not absorb — unlabeled stanzas after a blank
+ * Chorus/refrain/hook/bridge/minichorus sections do not absorb — unlabeled stanzas after a blank
  * stay separate so verse/chorus/bridge alternation can be inferred.
  * Only sections that already have body lines absorb continuations — wordless
  * "(chorus)" / "# Chorus" markers stay empty for repeat expansion.
@@ -1288,19 +1318,77 @@ export function normalizeLyricBlocks(lyricLines) {
   );
 }
 
+const SECTION_ORDINAL_ROMAN = {
+  i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10, xi: 11, xii: 12,
+};
+
+function parseSectionOrdinalToken(token) {
+  const raw = String(token == null ? '' : token).trim().toLowerCase();
+  if (!raw) return 0;
+  if (/^\d+$/.test(raw)) return parseInt(raw, 10) || 0;
+  return SECTION_ORDINAL_ROMAN[raw] || 0;
+}
+
+/**
+ * Canonical heading for lyric repeats: "#verse 2", "# Verse 2", and "# v2"
+ * share the same key so an empty later heading copies the matching stanza.
+ */
+export function lyricRepeatLookupKey(header) {
+  const key = normalizeStanzaNameKey(stripLyricBlockPinTokens(header));
+  if (!key) return '';
+  const verseDigits = key.match(/^(v|verse)\s*(\d+)$/i);
+  if (verseDigits) return 'verse ' + verseDigits[2];
+  const verseRoman = key.match(/^(v|verse)\s+([ivxlcdm]+)$/i);
+  if (verseRoman) {
+    const ordinal = parseSectionOrdinalToken(verseRoman[2]);
+    if (ordinal) return 'verse ' + ordinal;
+  }
+  const typedOrdinal = key.match(/^([a-z]+)\s*(\d+|[ivxlcdm]+)$/i);
+  if (typedOrdinal) {
+    const type = normalizeSectionType(typedOrdinal[1]);
+    const ordinal = parseSectionOrdinalToken(typedOrdinal[2]);
+    if (type && ordinal) return type + ' ' + ordinal;
+  }
+  return key;
+}
+
+function headingSpecifiesStanzaVariant(header) {
+  const key = lyricRepeatLookupKey(header);
+  const type = normalizeSectionType(header);
+  return !!(key && type && key !== type);
+}
+
+function repeatedSectionFillBody(header, bodyByKey, bodyByType) {
+  const key = lyricRepeatLookupKey(header);
+  if (key && bodyByKey[key]) return bodyByKey[key];
+  if (headingSpecifiesStanzaVariant(header)) return null;
+  const type = normalizeSectionType(header);
+  if (type && bodyByType[type]) return bodyByType[type];
+  return null;
+}
+
 /**
  * For display only: when a section header (eg. "# Chorus") appears without its
- * own lyric lines, repeat the words from the first stanza of that section type.
+ * own lyric lines, repeat the words from the matching earlier stanza. Numbered
+ * headings such as "# verse 2" copy that verse, not the first verse of the type.
+ * Bare headings ("# Chorus", "# verse") still fall back to the first stanza of
+ * that section type.
  */
 export function expandRepeatedSectionLyrics(lyricLines) {
   const blocks = normalizeLyricBlocks(lyricLines);
   const bodyByType = {};
+  const bodyByKey = {};
 
   blocks.forEach(function(block) {
     if (!block || block.length === 0 || !isSectionHeader(block[0])) return;
     const type = normalizeSectionType(block[0]);
+    const key = lyricRepeatLookupKey(block[0]);
     const body = block.slice(1).filter(function(line) { return String(line).trim().length > 0; });
-    if (type && body.length > 0 && !Object.prototype.hasOwnProperty.call(bodyByType, type)) {
+    if (body.length === 0) return;
+    if (key && !Object.prototype.hasOwnProperty.call(bodyByKey, key)) {
+      bodyByKey[key] = body.slice();
+    }
+    if (type && !Object.prototype.hasOwnProperty.call(bodyByType, type)) {
       bodyByType[type] = body.slice();
     }
   });
@@ -1313,13 +1401,15 @@ export function expandRepeatedSectionLyrics(lyricLines) {
       block.forEach(function(line) { result.push(line); });
       return;
     }
-    const type = normalizeSectionType(block[0]);
     const body = block.slice(1).filter(function(line) { return String(line).trim().length > 0; });
     result.push(block[0]);
     if (body.length > 0) {
       body.forEach(function(line) { result.push(line); });
-    } else if (type && bodyByType[type]) {
-      bodyByType[type].forEach(function(line) { result.push(line); });
+      return;
+    }
+    const fill = repeatedSectionFillBody(block[0], bodyByKey, bodyByType);
+    if (fill) {
+      fill.forEach(function(line) { result.push(line); });
     }
   });
   return result;
@@ -1455,6 +1545,7 @@ const KNOWN_SECTION_TYPES = {
   intro: true,
   outro: true,
   prechorus: true,
+  minichorus: true,
   refrain: true,
   coda: true,
   tag: true,
@@ -1470,14 +1561,16 @@ export function normalizeSectionType(header) {
   const cleaned = stripped.toLowerCase().replace(/[[\]]/g, ' ').replace(/[^a-z0-9\s-]/g, ' ').trim();
   if (!cleaned) return null;
   const first = cleaned.split(/\s+/)[0] || '';
+  const slug = cleaned.replace(/\s+/g, '-');
   if (first.indexOf('pre') === 0) return 'prechorus';
+  if (first === 'minichorus' || first === 'mini-chorus' || /^mini-chorus/.test(slug)) return 'minichorus';
   // Verse / Verse 2 / Verse2 / v1 / v2 → same stanza type so they share a chart.
   if (/^v\d+$/i.test(first)) return 'verse';
   if (/^verse\d*$/i.test(first)) return 'verse';
   if (KNOWN_SECTION_TYPES[first]) return first;
   // Slug fallback like "verse-2" from odd punctuation still counts as verse.
-  if (/^verse([-\s]?\d+)?$/i.test(cleaned.replace(/\s+/g, '-'))) return 'verse';
-  return cleaned.replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') || null;
+  if (/^verse([-\s]?\d+)?$/i.test(slug)) return 'verse';
+  return slug.replace(/[^a-z0-9-]/g, '') || null;
 }
 
 /**
@@ -1539,6 +1632,7 @@ function isTitleOrMetaLeftoverBlock(block) {
 
 function sectionTypeDisplayLabel(type) {
   if (type === 'prechorus') return 'Pre-Chorus';
+  if (type === 'minichorus') return 'Mini-Chorus';
   if (!type) return 'Section';
   return String(type).charAt(0).toUpperCase() + String(type).slice(1);
 }

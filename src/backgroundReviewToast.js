@@ -39,8 +39,19 @@ export function dismissBackgroundReviewToast() {
   toast.dismiss(IMPORT_REVIEW_READY_TOAST_ID)
 }
 
-export function showBulkImportStartedToast() {
-  toast.info('Import running in the background…', {
+export function showBulkImportStartedToast(options) {
+  const opts = options || {}
+  const savedCount = Number(opts.savedCount) || 0
+  let message = 'Import running in the background…'
+  if (savedCount > 0) {
+    message = savedCount === 1 ? 'Saved 1 song' : ('Saved ' + savedCount + ' songs')
+    if (opts.enhance) {
+      message += ' — looking up chords, lyrics, and notation…'
+    } else {
+      message += '.'
+    }
+  }
+  toast.info(message, {
     toastId: BULK_IMPORT_STARTED_TOAST_ID,
     autoClose: 5000,
     hideProgressBar: true,

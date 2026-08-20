@@ -37,7 +37,7 @@ import {
   getBulkImportText,
   setBulkImportText,
 } from '../addBulkImportTextStore';
-import { enrichBulkImportCandidates } from '../bulkImportEnhance';
+import { materializeBulkImportCandidates } from '../bulkImportMaterialize';
 import {
   getBulkImportEnhanceEnabled,
   setBulkImportEnhanceEnabled,
@@ -84,9 +84,6 @@ export default function AddBulkImportPanel(props) {
   const [pendingBulkAudioFiles, setPendingBulkAudioFiles] = useState([]);
   const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false);
   const [enhanceEnabled, setEnhanceEnabled] = useState(getBulkImportEnhanceEnabled);
-  const [enhanceBusy, setEnhanceBusy] = useState(false);
-  const [enhanceProgress, setEnhanceProgress] = useState('');
-  const [enhanceProgressDetail, setEnhanceProgressDetail] = useState(null);
   const [prepareProgress, setPrepareProgress] = useState('');
   const [prepareProgressDetail, setPrepareProgressDetail] = useState(null);
 
@@ -108,7 +105,7 @@ export default function AddBulkImportPanel(props) {
     return assessBulkTextSufficiency(bulkText);
   }, [bulkText]);
   const importDisabledReason = bulkImportDisabledReason(sufficiency);
-  const importEnabled = sufficiency.importableCount > 0 && !audioImportBusy && !enhanceBusy;
+  const importEnabled = sufficiency.importableCount > 0 && !audioImportBusy;
 
   useEffect(function() {
     setBulkImportText(bulkText);
@@ -136,6 +133,8 @@ export default function AddBulkImportPanel(props) {
     requestImportReview(candidates, Object.assign({}, opts.entryMode ? opts : { entryMode: 'import' }, {
       forcedBook: forcedBook,
       background: !!opts.background,
+      skipDuplicateSplit: !!opts.skipDuplicateSplit,
+      startEnrichment: !!opts.startEnrichment,
     }))
     const current = getImportReviewSession()
     if (current) {
@@ -151,39 +150,35 @@ export default function AddBulkImportPanel(props) {
     }
   }, [props])
 
-  async function openBulkReview(candidates, options) {
-    const opts = options || {}
-    let list = Array.isArray(candidates) ? candidates.slice() : []
+  function importPreparedCandidates(candidates) {
+    const list = Array.isArray(candidates) ? candidates : []
     if (!list.length) return
-
-    if (enhanceEnabled) {
-      setEnhanceBusy(true)
-      setEnhanceProgress('')
-      setEnhanceProgressDetail(null)
-      try {
-        list = await enrichBulkImportCandidates(list, {
-          tunebook: props.tunebook,
-          abcjsParser: abcjsParser,
-          accessToken: props.token && props.token.access_token ? props.token.access_token : '',
-          resolverAvailable: resolverAvailable,
-          searchIndex: props.searchIndex,
-          loadTuneTexts: props.loadTuneTexts,
-          onProgress: function(info) {
-            const message = info && info.message ? info.message : ''
-            setEnhanceProgress(message)
-            setEnhanceProgressDetail(info || null)
-          },
-        })
-      } catch (e) {
-        toast.warn((e && e.message) || 'Some enhancements failed — opening review anyway.')
-      } finally {
-        setEnhanceBusy(false)
-        setEnhanceProgress('')
-        setEnhanceProgressDetail(null)
-      }
+    const startEnhance = !!(enhanceEnabled && resolverAvailable)
+    const saveBook = (props.forcedBook ? String(props.forcedBook).trim().toLowerCase() : '') || book
+    const result = materializeBulkImportCandidates(list, {
+      tunebook: props.tunebook,
+      book: saveBook,
+      enhance: startEnhance,
+    })
+    if (!result.savedTunes.length) {
+      setImportError('Import failed.')
+      return
     }
-
-    startImportReview(list, { background: !!opts.background })
+    if (typeof props.forceRefresh === 'function') props.forceRefresh()
+    if (typeof props.onStartedReview === 'function') {
+      props.onStartedReview({
+        firstTuneId: result.firstTuneId,
+        savedCount: result.savedTunes.length,
+        enhance: startEnhance,
+      })
+    }
+    if (startEnhance) {
+      startImportReview(result.mergeCandidates, {
+        background: true,
+        skipDuplicateSplit: true,
+        startEnrichment: true,
+      })
+    }
   }
 
   async function normalizeBulkText(text) {
@@ -285,7 +280,6 @@ export default function AddBulkImportPanel(props) {
   async function handleBulkImport() {
     if (!importEnabled) return
     setImportError('')
-    if (typeof props.onStartedReview === 'function') props.onStartedReview()
     setAudioImportBusy(true)
     try {
       const tidied = retidyBulkText(bulkText);
@@ -301,14 +295,14 @@ export default function AddBulkImportPanel(props) {
       });
       if (filled.text !== filtered.text) setBulkText(filled.text);
       if (filled.prepared && filled.prepared.length) {
-        await openBulkReview(filled.prepared, { background: true })
+        importPreparedCandidates(filled.prepared)
         setAudioImportBusy(false)
         return
       }
       const result = await dispatchAddImport(filtered.text, Object.assign({}, importContext, { bulkMode: true }))
       if (result && result.action === 'review') {
         const classified = classifyImportOutcome(result.candidates || [], importContext)
-        await openBulkReview(classified.candidates || [], { background: true })
+        importPreparedCandidates(classified.candidates || [])
         setAudioImportBusy(false)
         return
       }
@@ -455,7 +449,7 @@ export default function AddBulkImportPanel(props) {
           <span className="small text-muted d-block mb-1">Prepare</span>
           <Button
             variant="outline-success"
-            disabled={bulkBusy || audioImportBusy || enhanceBusy || !bulkText.trim()}
+            disabled={bulkBusy || audioImportBusy || !bulkText.trim()}
             onClick={handleBulkPrepare}
             title={bulkBusy && prepareProgress ? prepareProgress : 'Clean up lines and fill missing YouTube links / title / artist'}
             data-testid="bulk-prepare"
@@ -491,9 +485,9 @@ export default function AddBulkImportPanel(props) {
               data-testid="bulk-import-enhance"
               className="mb-0 text-nowrap"
               label="Enhance"
-              title="Search for chords, lyrics, notation, and metadata for each song before opening review"
+              title="After saving, look up chords, lyrics, notation, and metadata and return them as merge review suggestions"
               checked={enhanceEnabled}
-              disabled={enhanceBusy || audioImportBusy || bulkBusy}
+              disabled={audioImportBusy || bulkBusy}
               onChange={function(e) {
                 const next = !!e.target.checked;
                 setEnhanceEnabled(next);
@@ -505,30 +499,10 @@ export default function AddBulkImportPanel(props) {
               disabled={!importEnabled}
               onClick={handleBulkImport}
               data-testid="bulk-import"
-              title={enhanceBusy && enhanceProgress ? enhanceProgress : undefined}
             >
-              {enhanceBusy ? (
-                <>
-                  <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
-                  Enhancing…
-                </>
-              ) : 'Import'}
+              Import
             </Button>
           </div>
-          {enhanceBusy && enhanceProgress ? (
-            <div className="small text-muted mt-1 mb-0" data-testid="bulk-enhance-progress" role="status">
-              {enhanceProgress}
-              {enhanceProgressDetail && enhanceProgressDetail.total > 0 ? (
-                <ProgressBar
-                  className="mt-1"
-                  now={Math.round((enhanceProgressDetail.index / enhanceProgressDetail.total) * 100)}
-                  label={enhanceProgressDetail.index + '/' + enhanceProgressDetail.total}
-                  visuallyHidden
-                  style={{ height: '0.45em' }}
-                />
-              ) : null}
-            </div>
-          ) : null}
         </div>
       </div>
       {!importEnabled && bulkText.trim() ? (
@@ -538,8 +512,8 @@ export default function AddBulkImportPanel(props) {
       ) : null}
       <p className="text-muted small mt-2 mb-0">
         Prepare tidies YouTube-style titles, fills links, and enriches missing title/artist from YouTube.
-        Import opens review for importable lines (title plus artist or link); unimportable lines are skipped.
-        With Enhance checked, chords, lyrics, notation, and MusicBrainz metadata are looked up for each song before review.
+        Import saves importable lines (title plus artist or link) immediately and opens the first song; unimportable lines are skipped.
+        With Enhance checked, chords, lyrics, notation, and MusicBrainz metadata are looked up in the background and return as merge review suggestions.
       </p>
       {sufficiency.rowCount > 0 ? (
         <div className="small mt-2 mb-0 text-muted" data-testid="bulk-import-stats">

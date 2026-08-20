@@ -144,7 +144,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   offlineMedia: {
     title: 'Cache',
-    body: 'Shows local media cache size and lets you clear audio, MIDI, or stem caches. Cached recordings use the Compress Audio setting. Playback still applies your saved tempo, pitch, trim, and filters at play time. Back up cached media copies Bandcamp, Archive, and similar downloaded audio into your Google Drive — not stems, MIDI playback cache, or YouTube. A file is pulled onto this device when you play it if it is missing locally. Media from an imported share is cached when you play it, and copied into your Drive if backup is on.',
+    body: 'Shows local media cache size and lets you clear audio, MIDI, or stem caches. Cached recordings use the Compress Audio setting. Playback still applies your saved tempo, pitch, trim, and filters at play time. Cache played media saves audio you play into File Cache so it can play offline later, including YouTube when a download path is available. Some library sources (Bandcamp, Archive, and similar) are cached on play even when that toggle is off. Back up cached media copies downloaded audio into your Google Drive when backup is on, including cached YouTube audio, but not stems or MIDI playback cache. Media from an imported share is cached when you play it, and copied into your Drive if backup is on.',
   },
   colorScheme: {
     title: 'Color scheme',
@@ -209,6 +209,25 @@ export const SEARCH_FIELD_HELP = {
   showPreview: {
     title: 'Show preview',
     body: 'When enabled, the tune list shows a small cheatsheet snippet (first few bars) for each tune.',
+  },
+};
+
+export const PLAYALONG_FIELD_HELP = {
+  cutoff: {
+    title: 'Cutoff',
+    body: 'How loud a sound must be before it is treated as a played note. Raise cutoff to ignore background noise and MIDI leaking into the microphone. Lower it to keep quieter playing, which can also draw room noise as pitch. Gaps in the pitch line usually mean the sound stayed below this cutoff.',
+  },
+  playbackVolume: {
+    title: 'Playback volume',
+    body: 'Volume of the MIDI you play along with. This stays a quiet reference so you can hear yourself over it.',
+  },
+  instrument: {
+    title: 'Instrument',
+    body: 'Play-along pitch tracking follows one melody note at a time. Chords, drones, and harmony parts are not tracked. Choose the instrument you are playing so the tracker looks in that pitch range (for example a low D tin whistle versus a high D whistle or soprano recorder).',
+  },
+  repeats: {
+    title: 'Repeats',
+    body: 'How many times the tune plays back while you record. Each repeat saves a separate take (up to 10). Saved takes stay on this tune until you clear them, so you can reopen compare without recording again.',
   },
 };
 

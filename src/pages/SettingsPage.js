@@ -44,6 +44,11 @@ import {
   saveMediaCacheDriveBackupSettings,
 } from '../mediaCacheDriveBackupSettings'
 import {
+  loadOfflineMediaSettings,
+  saveOfflineMediaSettings,
+} from '../offlineMediaSettings'
+import { icons } from '../Icons'
+import {
   CACHED_MEDIA_BACKUP_CHANGED_EVENT,
   getMediaCacheDriveBackupStatus,
   syncOutstandingCachedMediaBackup,
@@ -170,6 +175,9 @@ export default function SettingsPage(props) {
   const [driveBackupCachedMedia, setDriveBackupCachedMedia] = useState(function() {
     return loadMediaCacheDriveBackupSettings().driveBackupCachedMedia
   })
+  const [cachePlayedMedia, setCachePlayedMedia] = useState(function() {
+    return loadOfflineMediaSettings().autocacheOnPlay
+  })
   const [driveBackupStatus, setDriveBackupStatus] = useState(getMediaCacheDriveBackupStatus)
   const { status: resolverStatus, checked, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
   const showMusicCollectionTab = checked
@@ -186,8 +194,6 @@ export default function SettingsPage(props) {
     }
   }, [accessToken, refreshMediaResolverHealth])
   const mediaProxyUrlSkipDebounceRef = useRef(true)
-  const isMediaCacheAdmin =
-    !!(props.user && props.user.email === 'syntithenai@gmail.com')
 
   useEffect(function() {
     function onBackupChanged() {
@@ -781,7 +787,22 @@ export default function SettingsPage(props) {
                           {cacheStats.caches.map(function(cache) {
                             return (
                               <li key={cache.id}>
-                                <span className="settings-cache-stats-label">{cache.label}</span>
+                                <span className="settings-cache-stats-label">
+                                  {cache.label}
+                                  {cache.id === 'audio' ? (
+                                    <Button
+                                      type="button"
+                                      variant="outline-secondary"
+                                      size="sm"
+                                      className="settings-cache-file-info-btn"
+                                      onClick={function() { setShowMediaCacheTunes(true) }}
+                                      title="Show tunes with media cache"
+                                      aria-label="Show tunes with media cache"
+                                    >
+                                      {icons.info}
+                                    </Button>
+                                  ) : null}
+                                </span>
                                 <span className="settings-cache-stats-value">
                                   {formatBytes(cache.bytes)}
                                   <span className="settings-cache-stats-meta">
@@ -808,21 +829,23 @@ export default function SettingsPage(props) {
                             : ''}
                           .
                         </p>
-                        {isMediaCacheAdmin ? (
-                          <Button
-                            variant="outline-secondary"
-                            className="settings-cache-details-toggle"
-                            onClick={function() { setShowMediaCacheTunes(true) }}
-                          >
-                            Show tunes with media cache
-                          </Button>
-                        ) : null}
                       </>
                     ) : (
                       <p className="app-text-muted">Could not measure cache storage.</p>
                     )}
                   </div>
                   <Form.Group className="mb-3">
+                    <Form.Check
+                      type="switch"
+                      id="cache-played-media"
+                      label="Cache played media"
+                      checked={cachePlayedMedia}
+                      onChange={function(e) {
+                        const enabled = e.target.checked
+                        saveOfflineMediaSettings({ autocacheOnPlay: enabled })
+                        setCachePlayedMedia(enabled)
+                      }}
+                    />
                     <Form.Check
                       type="switch"
                       id="drive-backup-cached-media"
@@ -850,7 +873,7 @@ export default function SettingsPage(props) {
                             ? driveBackupStatus.lastError
                             : (driveBackupStatus.backedUpCount
                               ? driveBackupStatus.backedUpCount + ' file' + (driveBackupStatus.backedUpCount === 1 ? '' : 's') + ' backed up on Drive.'
-                              : 'When on, downloaded cache (not stems or MIDI) is copied to your Drive. Files are pulled onto this device when you play them.')}
+                              : 'When on, downloaded File Cache (not stems or MIDI) is copied to your Drive.')}
                     </p>
                   </Form.Group>
                   <div className="App-settings-actions">

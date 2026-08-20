@@ -162,20 +162,21 @@ export function applyNotationChordsToLyricChordPro(tune, options) {
       return
     }
 
-    let tokenIndex = 0
-    block.lyricLines.forEach(function(line) {
+    block.lyricLines.forEach(function(line, lineIndex) {
       const words = String(line || '').trim().split(/\s+/).filter(Boolean)
       if (!words.length) {
         out.push(line)
         return
       }
-      const row = tokens[tokenIndex]
-      tokenIndex += 1
-      out.push(row ? serializeChordProTokenLine(row) : line)
+      const row = tokens[lineIndex]
+      if (row && row.length) {
+        out.push(serializeChordProTokenLine(row))
+      } else {
+        out.push(line)
+      }
     })
-    while (tokenIndex < tokens.length) {
-      const row = tokens[tokenIndex]
-      tokenIndex += 1
+    for (let ti = block.lyricLines.length; ti < tokens.length; ti += 1) {
+      const row = tokens[ti]
       if (row && row.some(function(tok) { return String(tok && tok.chord || '').trim() })) {
         out.push(serializeChordProTokenLine(row))
       }

@@ -14,6 +14,7 @@ import {
   isReviewSessionActive,
   removeAddDraftFromSession,
   sessionWithoutIdleAddDraft,
+  shouldSkipImportDuplicateSplit,
   updateCurrentCandidate,
 } from '../importReviewSession'
 import {
@@ -230,20 +231,29 @@ export default function ImportReviewBridge(props) {
 
     const tunebook = props.tunebook
     const tunesHash = props.tunesHash
-    const split = detectContentHashDuplicates(seedList, tunebook, tunesHash, props.tunes)
-    dismissContentHashDuplicateToast()
+    const skipSplit = shouldSkipImportDuplicateSplit(seedList, opts)
+    const startEnrichment = !!opts.startEnrichment && resolverAvailable
 
     function openSession(list) {
       const nextSession = createImportReviewSession(list, {
-        skipEnrichment: !resolverAvailable,
+        skipEnrichment: startEnrichment ? false : !resolverAvailable,
         entryMode: opts.entryMode === 'add' ? 'add' : 'import',
         forcedBook: opts.forcedBook || '',
+        startEnrichment: startEnrichment,
       })
       setImportReviewSession(nextSession)
       if (!opts.background) {
         showImportReviewUi()
       }
     }
+
+    if (skipSplit) {
+      if (seedList.length > 0) openSession(seedList)
+      return
+    }
+
+    const split = detectContentHashDuplicates(seedList, tunebook, tunesHash, props.tunes)
+    dismissContentHashDuplicateToast()
 
     if (split.duplicates.length > 0) {
       showContentHashDuplicateToast({
@@ -1304,11 +1314,14 @@ export default function ImportReviewBridge(props) {
     }
   }, [updateSession, navigate, location.pathname])
 
-  const handleBulkImportStarted = useCallback(function() {
-    if (location.pathname.indexOf('/add') === 0) {
+  const handleBulkImportStarted = useCallback(function(info) {
+    const firstId = info && info.firstTuneId ? String(info.firstTuneId).trim() : ''
+    if (firstId) {
+      navigate('/tunes/' + encodeURIComponent(firstId))
+    } else if (location.pathname.indexOf('/add') === 0) {
       navigate('/tunes')
     }
-    showBulkImportStartedToast()
+    showBulkImportStartedToast(info)
   }, [navigate, location.pathname])
 
   return (

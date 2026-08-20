@@ -1,0 +1,248 @@
+.playalong-compare {
+  margin: 0.6rem 0 1rem;
+  padding: 0.6rem 0.75rem 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.playalong-notation-stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.playalong-notation-stack--sliced #abc_music_viewer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 0;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.playalong-notation-stack--sliced [id^="abccontainer-"] {
+  position: relative;
+  height: 0;
+  min-height: 0;
+  overflow: visible;
+}
+
+.playalong-staff-pitch-panel {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.playalong-interleave-line {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: 0.45rem;
+}
+
+.playalong-staff-slice {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.playalong-staff-slice svg {
+  display: block;
+  max-width: none;
+}
+
+.playalong-staff-pitch-line-label {
+  font-size: 0.72rem;
+  color: #6c757d;
+  margin-bottom: 0.2rem;
+}
+
+.playalong-staff-pitch-panel .playalong-pitch-roll-scroll {
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+.playalong-pitch-compare-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #495057;
+  margin-bottom: 0.45rem;
+}
+
+.playalong-pitch-compare-line + .playalong-pitch-compare-line {
+  margin-top: 0.8rem;
+}
+
+.playalong-pitch-compare-line-label {
+  font-size: 0.72rem;
+  color: #6c757d;
+  margin-bottom: 0.2rem;
+}
+
+.playalong-pitch-roll {
+  width: 100%;
+}
+
+.playalong-pitch-roll-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.15rem;
+}
+
+.playalong-pitch-roll-canvas {
+  display: block;
+  border-radius: 4px;
+  background: #f8f9fa;
+}
+
+.playalong-compare-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.playalong-compare-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #495057;
+}
+
+.playalong-compare-actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.playalong-compare-error {
+  color: #b02a37;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.playalong-compare-line {
+  margin-bottom: 0.65rem;
+}
+
+.playalong-compare-line-label {
+  font-size: 0.72rem;
+  color: #6c757d;
+  margin-bottom: 0.2rem;
+}
+
+.playalong-line-roll {
+  width: 100%;
+  min-height: 72px;
+}
+
+.playalong-line-roll-canvas {
+  display: block;
+  width: 100%;
+  height: 72px;
+  border-radius: 4px;
+  background: #f8f9fa;
+}
+
+.playalong-record-group,
+.playalong-record-group > .btn,
+.playalong-record-group .playalong-record-config-btn {
+  min-height: 2.5rem;
+}
+
+.playalong-record-config-btn {
+  min-width: 1.65rem;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.playalong-record-btn {
+  min-height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playalong-record-btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playalong-record-btn-icon svg,
+.playalong-record-btn-icon img {
+  width: 1.15em;
+  height: 1.15em;
+  display: block;
+}
+
+.playalong-record-btn-icon.is-waiting svg,
+.playalong-inline-record-btn .playalong-record-btn-icon.is-waiting svg {
+  animation: select-input-waiting-spin 1s linear infinite;
+}
+
+.playalong-inline-record-bar {
+  position: absolute;
+  top: 0.05rem;
+  right: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  max-width: min(100%, 42rem);
+  pointer-events: none;
+}
+
+.playalong-inline-record-bar > * {
+  pointer-events: auto;
+}
+
+.playalong-take-score-btn {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  border: 2px solid transparent;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0.3rem 0.45rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.playalong-take-score-btn.is-outlined {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.playalong-inline-record-btn {
+  min-width: 3.35rem;
+  min-height: 3.35rem;
+  padding: 0.45rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #fff;
+}
+
+.playalong-inline-record-btn .playalong-record-btn-icon svg,
+.playalong-inline-record-btn .playalong-record-btn-icon img {
+  width: 1.7em;
+  height: 1.7em;
+  fill: currentColor;
+}

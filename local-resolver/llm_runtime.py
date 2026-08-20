@@ -49,13 +49,13 @@ def voice_env_llm_config() -> dict:
     """VOICE_COMMAND_LLM_* with fallback to RESEARCH_LLM_*."""
     base = (
         os.getenv("VOICE_COMMAND_LLM_BASE_URL")
-        or os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:1234/v1")
+        or os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:12340/v1")
     )
     model = os.getenv("VOICE_COMMAND_LLM_MODEL") or os.getenv(
-        "RESEARCH_LLM_MODEL", "google/gemma-3-4b-it"
+        "RESEARCH_LLM_MODEL", "qwen3.8-off"
     )
     api_key = os.getenv("VOICE_COMMAND_LLM_API_KEY") or os.getenv(
-        "RESEARCH_LLM_API_KEY", "lm-studio"
+        "RESEARCH_LLM_API_KEY", "local"
     )
     return {
         "provider": "local",

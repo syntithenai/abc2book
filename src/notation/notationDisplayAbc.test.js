@@ -43,6 +43,19 @@ describe('stripNotationDisplayMetadata', function() {
     expect(stripped).not.toContain('C:Another Artist');
     expect(stripped).toMatch(/CDEF/);
   });
+
+  test('strips playalong take comments so saving a take does not reprime notation', function() {
+    const abc = [
+      'X:1',
+      'T:Test',
+      'K:C',
+      'CDEF |',
+      '% abcbook-playalong-take-0 {"recordingId":"abc"}',
+    ].join('\n');
+    const stripped = stripNotationDisplayMetadata(abc);
+    expect(stripped).toMatch(/CDEF/);
+    expect(stripped).not.toContain('abcbook-playalong-take');
+  });
 });
 
 describe('stripBlockLyricsFromDisplayAbc', function() {

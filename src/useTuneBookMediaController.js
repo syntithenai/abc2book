@@ -79,7 +79,7 @@ import {
   updateStemAnalysisJob,
 } from './stemAnalysisJobStore'
 import { syncPlaybackRoute } from './playbackRouteSync'
-import { isQueueActive, getCurrentTuneId, getCurrentItem, isStandaloneExternalQueueItem, endStopAfterCurrent } from './nowPlayingQueue'
+import { isQueueActive, getCurrentTuneId, getCurrentItem, isStandaloneExternalQueueItem, isExternalQueueItem, endStopAfterCurrent } from './nowPlayingQueue'
 import { isQueueItemPlayable, getResolverProxiedMediaAuthBlock } from './playlistPlaybackResilience'
 import { handleQueueAdvanceOnEnded, advanceQueueToPlayableAndStart } from './nowPlayingQueuePlayback'
 import { prefetchUpcomingQueueItem } from './queueMediaPrefetch'
@@ -90,6 +90,7 @@ import {
 import {
   findNextPlayableLinkIndex,
   getCurrentQueueItemLinkIndex,
+  queueItemHasAlternateMediaLinks,
 } from './playlistPlaybackSkip'
 import {
   shouldIgnorePlaybackEndForManualSkip,
@@ -153,6 +154,7 @@ import {
     pendingRequestMatchesRoute,
     routeMatchesPendingRequest,
     shouldKeepIntentWhenRouteNotReady,
+    shouldBlockMidiStartForMediaRequest,
 } from './playbackRequestLogic'
 import {
     hasActivePlaybackIntent as intentHasActivePlayback,
@@ -224,7 +226,12 @@ export default function useTuneBookMediaController(props) {
     }
     var [mediaLinkNumber, setMediaLinkNumberState] = useState(null)
     var [playbackRouteMode, setPlaybackRouteMode] = useState('none')
-    var [requestedPlayState, setRequestedPlayState] = useState(null)
+    var [requestedPlayState, setRequestedPlayStateState] = useState(null)
+    var requestedPlayStateRef = useRef(null)
+    function setRequestedPlayState(playState) {
+        requestedPlayStateRef.current = playState
+        setRequestedPlayStateState(playState)
+    }
     var mediaLinkNumberRef = useRef(null)
     var playbackRouteRef = useRef({ mode: 'none', mediaLinkNumber: null, playState: null })
     const [tapToPlay, setTapToPlayState] = useState(false)
@@ -250,13 +257,35 @@ export default function useTuneBookMediaController(props) {
         setTapToPlayState(true)
     }
 
+    function getPlaylistYoutubeLinkChecker() {
+        return props.tunebook && props.tunebook.utils
+            ? props.tunebook.utils.isYoutubeLink
+            : undefined
+    }
+
+    function noteTriedMediaLink(tuneId, linkIndex) {
+        if (triedMediaLinkTuneIdRef.current !== tuneId) {
+            triedMediaLinkTuneIdRef.current = tuneId
+            triedMediaLinkIndexesRef.current = {}
+        }
+        if (typeof linkIndex === 'number' && linkIndex >= 0) {
+            triedMediaLinkIndexesRef.current[linkIndex] = true
+        }
+        return triedMediaLinkIndexesRef.current
+    }
+
     function tryNextMediaLinkOnCurrentTune() {
         const currentTune = tuneRef.current || tune
         if (!currentTune || !isMediaPlaybackRoute()) return false
         const queue = props.nowPlayingQueue
         const item = queue && isQueueActive(queue) ? getCurrentItem(queue) : null
+        if (item && isExternalQueueItem(item)) return false
         const linkIndex = getCurrentQueueItemLinkIndex(item, getActiveMediaLinkNumber())
-        const nextLink = findNextPlayableLinkIndex(currentTune, props.tunebook, linkIndex)
+        const skipIndexes = noteTriedMediaLink(currentTune.id, linkIndex)
+        const nextLink = findNextPlayableLinkIndex(currentTune, props.tunebook, linkIndex, {
+            skipIndexes: skipIndexes,
+            isYoutubeLink: getPlaylistYoutubeLinkChecker(),
+        })
         if (nextLink < 0) return false
         queuePlaybackErrorRetryRef.current = false
         setMediaLinkNumber(nextLink)
@@ -275,6 +304,9 @@ export default function useTuneBookMediaController(props) {
 
     function handleMediaPlaybackFailure() {
         if (shouldIgnorePlaybackFailureForManualSkip()) {
+            if (tryNextMediaLinkOnCurrentTune()) {
+                return
+            }
             return
         }
         const shouldSkipAhead = !!(
@@ -395,6 +427,8 @@ export default function useTuneBookMediaController(props) {
     var autoplayBlockSkipCountRef = useRef(0)
     var playbackKickoffTimerRef = useRef(null)
     var queuePlaybackErrorRetryRef = useRef(false)
+    var triedMediaLinkTuneIdRef = useRef(null)
+    var triedMediaLinkIndexesRef = useRef({})
     var queuePrefetchTrackIdRef = useRef(null)
     var queuePrefetchLateRef = useRef(false)
     var autoplayRecoveryGuardUntilRef = useRef(0)
@@ -1547,6 +1581,9 @@ export default function useTuneBookMediaController(props) {
     function stopLinkedMediaPlayback(options) {
         const opts = options || {}
         cleanupTimers()
+        linkedMediaPlaybackGenerationRef.current += 1
+        linkedMediaPlaybackInFlightRef.current = false
+        linkedMediaPlaybackSrcRef.current = null
         if (opts.clearCachedBlob) {
             clearCachedNativePlaybackUrl()
         }
@@ -1614,6 +1651,7 @@ export default function useTuneBookMediaController(props) {
                 stopMidiPlayback()
                 return
             }
+            suppressNativePlaybackEventsBriefly()
             stopLinkedMediaPlayback({ clearCachedBlob: true })
         }
     }
@@ -1683,7 +1721,10 @@ export default function useTuneBookMediaController(props) {
             }
             return
         }
-        if (requestedPlayState === 'playMedia' && playbackRouteRef.current.mode === 'midi') {
+        if (shouldBlockMidiStartForMediaRequest(
+            playbackRouteRef.current.mode,
+            requestedPlayStateRef.current
+        )) {
             return
         }
         if (userPausedRef.current) return
@@ -2263,6 +2304,11 @@ export default function useTuneBookMediaController(props) {
         if (!changed || !pitchShiftWillApply(settings)) {
             return null
         }
+        // MIDI retunes in place; a preparing spinner re-renders the tree and
+        // starves the ScriptProcessor during live pitch changes.
+        if (isMidiPlaybackRoute()) {
+            return null
+        }
         if (!hasActivePlaybackIntent()) {
             return null
         }
@@ -2553,7 +2599,10 @@ export default function useTuneBookMediaController(props) {
                     if (unplayableExternalCacheSrcRef.current === src) {
                         putExternalMediaCache(cacheKey, blob, null, blob.type).catch(function() {})
                         unplayableExternalCacheSrcRef.current = null
-                    } else if (shouldAutoCacheMediaLink(src, props.tunebook.utils.isYoutubeLink)) {
+                    } else if (
+                        shouldAutoCacheMediaLink(src, props.tunebook.utils.isYoutubeLink)
+                        || loadOfflineMediaSettings().autocacheOnPlay
+                    ) {
                         blob.arrayBuffer().then(function(arrayBuffer) {
                             return cacheExternalMediaBytes(cacheKey, arrayBuffer, mime)
                         }).catch(function() {})
@@ -2591,7 +2640,7 @@ export default function useTuneBookMediaController(props) {
     }
 
     function scheduleMediaLinkCacheJob(useTune, linkIndex, src, srcType, accessToken, youtubeGetId) {
-        if (!useTune || !src || srcType !== 'audio') return
+        if (!useTune || !src || (srcType !== 'audio' && srcType !== 'youtube')) return
         isExternalMediaCached(useTune.id, linkIndex, src).then(function(cached) {
             if (cached) return
             mediaCacheQueue.enqueueCacheJob({
@@ -3813,6 +3862,18 @@ export default function useTuneBookMediaController(props) {
     function kickPlaybackAfterEngineReady() {
         if (!needsPlaybackKickoff() || !hasActivePlaybackIntent() || userPausedRef.current) {
             return false
+        }
+        if (isMidiPlaybackRoute()) {
+            if (shouldBlockMidiStartForMediaRequest('midi', requestedPlayStateRef.current)) {
+                return false
+            }
+            if (!playMidiRef.current) {
+                schedulePlaybackKickoffIfNeeded()
+                return false
+            }
+            freshPlaybackIntentRef.current = false
+            play({ fresh: true, skipNotationRefresh: true })
+            return true
         }
         if (!isMediaPlaybackRoute() || isMidiFileMediaRoute()) {
             return false
@@ -5674,11 +5735,12 @@ export default function useTuneBookMediaController(props) {
         const endBeat = typeof opts.endBeat === 'number' ? opts.endBeat : null
         const tempo = opts.tempo > 0 ? parseFloat(opts.tempo) : 120
         const startMs = typeof opts.startMs === 'number' && opts.startMs >= 0 ? opts.startMs : null
+        const fromStart = !!opts.fromStart
         notationPlaybackStartSecondsRef.current = null
-        notationPlaybackSeekRef.current = (beat > 0 || startMs != null || endBeat != null)
+        notationPlaybackSeekRef.current = (!fromStart && (beat > 0 || startMs != null || endBeat != null))
             ? { startBeat: beat, endBeat: endBeat, tempo: tempo, startMs: startMs }
             : null
-        if (beat <= 0 && startMs == null) {
+        if (fromStart || (beat <= 0 && startMs == null)) {
             currentTimeRef.current = 0
             setCurrentTime(0)
             setClickSeek(0)
@@ -5687,14 +5749,15 @@ export default function useTuneBookMediaController(props) {
         const midiOpts = {
             fresh: true,
             restart: true,
+            fromStart: fromStart,
             skipNotationRefresh: true,
-            alwaysFromSelection: !!opts.alwaysFromSelection,
+            alwaysFromSelection: !fromStart && !!opts.alwaysFromSelection,
             preservePosition: false,
-            startBeat: beat > 0 ? beat : undefined,
-            endBeat: endBeat != null ? endBeat : undefined,
-            startMs: startMs != null ? startMs : undefined,
+            startBeat: (!fromStart && beat > 0) ? beat : undefined,
+            endBeat: (!fromStart && endBeat != null) ? endBeat : undefined,
+            startMs: (!fromStart && startMs != null) ? startMs : undefined,
             tempo: tempo,
-            fromNotationSelection: beat > 0 || startMs != null || endBeat != null || !!opts.alwaysFromSelection,
+            fromNotationSelection: !fromStart && (beat > 0 || startMs != null || endBeat != null || !!opts.alwaysFromSelection),
         }
         pendingMidiPlayRef.current = midiOpts
 
@@ -5716,11 +5779,18 @@ export default function useTuneBookMediaController(props) {
                 return
             }
             pendingMidiPlayRef.current = midiOpts
-            if (attempt < 40) {
+            const maxAttempts = opts.midiOnly ? 80 : 40
+            if (attempt < maxAttempts) {
                 notationPlayRetryTimerRef.current = setTimeout(function() {
                     notationPlayRetryTimerRef.current = null
                     tryMidi(attempt + 1)
                 }, 50)
+                return
+            }
+            // Play-along must stay on ABC MIDI. Falling through to play() waits
+            // on linked media and leaves the toolbar spinner stuck.
+            if (opts.midiOnly) {
+                setIsLoading(false)
                 return
             }
             play(midiOpts)
@@ -5803,23 +5873,27 @@ export default function useTuneBookMediaController(props) {
     // Unlocks audio contexts and records intent, but does not call play() yet —
     // players are not mounted on pages like /books, and calling play() there
     // leaves isLoading stuck on the waiting spinner.
-    function preparePlaybackFromUserGesture() {
+    function preparePlaybackFromUserGesture(options) {
+        const opts = options || {}
+        const armIntent = opts.armIntent !== false
         stopStandaloneMediaPlayback().catch(function() {})
-        userPausedRef.current = false
-        playingIntentRef.current = true
-        playbackStartedRef.current = false
         userGesturePlayRef.current = true
-        pendingMidiPlayRef.current = null
-        currentTimeRef.current = 0
-        setPlayCancelled(false)
-        setTapToPlay(false)
-        setIsPlaying(false)
-        setIsLoading(false)
-        setIsReady(false)
-        setCurrentTime(0)
-        setClickSeek(0)
-        setDuration(0)
-        cleanupTimers()
+        if (armIntent) {
+            userPausedRef.current = false
+            playingIntentRef.current = true
+            playbackStartedRef.current = false
+            pendingMidiPlayRef.current = null
+            currentTimeRef.current = 0
+            setPlayCancelled(false)
+            setTapToPlay(false)
+            setIsPlaying(false)
+            setIsLoading(false)
+            setIsReady(false)
+            setCurrentTime(0)
+            setClickSeek(0)
+            setDuration(0)
+            cleanupTimers()
+        }
         resumeSynthAudioContextFromGesture()
         resumeExternalAudioContextFromGesture()
     }
@@ -6821,6 +6895,14 @@ export default function useTuneBookMediaController(props) {
         setIsReady(true)
     }
     
+    function resetPlaybackPositionForNewTune() {
+        notationPlaybackStartSecondsRef.current = null
+        notationPlaybackSeekRef.current = null
+        currentTimeRef.current = 0
+        setCurrentTime(0)
+        setClickSeek(0)
+    }
+
     function setTune(t) {
         const prevId = tuneRef.current && tuneRef.current.id
         commitTuneState(t)
@@ -6829,6 +6911,7 @@ export default function useTuneBookMediaController(props) {
             setStemsReadyForMedia(false)
             setAvailableStemNames([])
             queuePlaybackErrorRetryRef.current = false
+            resetPlaybackPositionForNewTune()
         }
         if (t) {
             const playback = getPlaybackSettings(t)
@@ -7491,7 +7574,29 @@ export default function useTuneBookMediaController(props) {
             return true
         }
         if (isPlaybackTransitionGuardActive()) {
-            return true
+            const currentTune = tuneRef.current || tune
+            const queue = nowPlayingQueueRef.current
+            const queueItem = queue && isQueueActive(queue) ? getCurrentItem(queue) : null
+            const linkIndex = getCurrentQueueItemLinkIndex(queueItem, getActiveMediaLinkNumber())
+            const skipIndexes = currentTune && triedMediaLinkTuneIdRef.current === currentTune.id
+                ? triedMediaLinkIndexesRef.current
+                : {}
+            const hasAlternate = queueItemHasAlternateMediaLinks(
+                currentTune,
+                queueItem,
+                props.tunebook,
+                linkIndex,
+                {
+                    skipIndexes: skipIndexes,
+                    isYoutubeLink: getPlaylistYoutubeLinkChecker(),
+                }
+            )
+            const triedThisTune = !!(currentTune
+                && triedMediaLinkTuneIdRef.current === currentTune.id
+                && Object.keys(skipIndexes).length > 0)
+            if (!hasAlternate && !triedThisTune) {
+                return true
+            }
         }
         const queue = nowPlayingQueueRef.current
         const queueItem = queue && isQueueActive(queue) ? getCurrentItem(queue) : null
@@ -7931,7 +8036,7 @@ export default function useTuneBookMediaController(props) {
         const useTune = tuneRef.current || tune
         const notationTune = resolveActiveNotationTune() || useTune
         let route = playbackRouteRef.current
-        if (route.mode === 'midi' && requestedPlayState === 'playMedia') {
+        if (shouldBlockMidiStartForMediaRequest(route.mode, requestedPlayStateRef.current)) {
             const staleLinkIndex = getActiveMediaLinkNumber()
             if (useTune && useTune.links && useTune.links.length > staleLinkIndex) {
                 commitPlaybackRoute({
@@ -7963,7 +8068,7 @@ export default function useTuneBookMediaController(props) {
         })
 
         if (route.mode === 'midi') {
-            if (requestedPlayState === 'playMedia' || linkedMediaPlaybackInFlightRef.current) {
+            if (shouldBlockMidiStartForMediaRequest(route.mode, requestedPlayStateRef.current)) {
                 recordPlaybackRouteParity({
                     phase: PLAYBACK_ROUTE_PHASE.prePlay,
                     snapshot: playRouteSnapshot,
@@ -7979,7 +8084,7 @@ export default function useTuneBookMediaController(props) {
             }, 'H-N');
         }
 
-        if (opts.fresh && route.mode === 'media') {
+        if (opts.fresh) {
             const startAt = getLinkStartAt()
             currentTimeRef.current = startAt
             setCurrentTime(startAt)
@@ -8079,7 +8184,7 @@ export default function useTuneBookMediaController(props) {
         }
 
         if (route.mode === 'midi') {
-            if (requestedPlayState === 'playMedia' || linkedMediaPlaybackInFlightRef.current) {
+            if (shouldBlockMidiStartForMediaRequest(route.mode, requestedPlayStateRef.current)) {
                 setIsLoading(false)
                 return
             }
@@ -8705,6 +8810,7 @@ export default function useTuneBookMediaController(props) {
         stopPlaybackKeepAlive()
         updateMediaSessionState()
         const startAt = getLinkStartAt()
+        setClickSeek(0)
         if (mediaLinkNumber === null && stopMidiSynthRef.current) {
             stopMidiSynthRef.current()
         }

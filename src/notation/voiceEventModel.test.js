@@ -4,10 +4,13 @@ import { serializeVoiceEvents } from './abcVoiceSerializer';
 describe('voiceEventModel', function() {
   const meta = { meter: '4/4', noteLength: '1/8', key: 'C' };
 
-  test('parses simple melody', function() {
-    const events = parseVoiceEvents('CDEF|GABc|', meta);
-    expect(events.length).toBeGreaterThan(0);
-    expect(events[0].type).toBe('note');
+  test('parses mid-note spaces as beamBreakBefore', function() {
+    const events = parseVoiceEvents('CDE FGA |', meta);
+    const notes = events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notes.map(function(ev) { return !!ev.beamBreakBefore; })).toEqual([
+      false, false, false, true, false, false,
+    ]);
+    expect(serializeVoiceEvents(events, meta)).toBe('CDE FGA |');
   });
 
   test('parses chord cluster', function() {

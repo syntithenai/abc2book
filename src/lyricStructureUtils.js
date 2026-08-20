@@ -47,6 +47,7 @@ const SONG_FORM_SECTION_TYPES = {
   chorus: true,
   bridge: true,
   prechorus: true,
+  minichorus: true,
   refrain: true,
   intro: true,
   outro: true,

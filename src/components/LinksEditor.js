@@ -13,6 +13,7 @@ import {
 } from '../useTuneMediaAnalysis'
 import MediaImportEntryButton from './MediaImportEntryButton'
 import FileInputButton from './FileInputButton'
+import LinksEditorRecordControls from './LinksEditorRecordControls'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useAudioUtils from '../useAudioUtils'
 import useGoogleDocument from '../useGoogleDocument'
@@ -906,6 +907,7 @@ function LinksEditorBody(props) {
         const tune = getTuneForOwnedMedia()
         if (!tune) {
             setWarning('Save the tune before adding recordings.')
+            setOwnedMediaBusy(false)
             return
         }
         setOwnedMediaBusy(true)
@@ -927,6 +929,7 @@ function LinksEditorBody(props) {
             setWarning('Save the tune before recording.')
             return
         }
+        if (ownedMediaBusy || audioUtils.isRecording) return
         recordingStartedAt.current = new Date().getTime()
         setRecordingDuration(0)
         if (recordingIntervalRef.current) {
@@ -942,6 +945,7 @@ function LinksEditorBody(props) {
             }
             if (!blob) {
                 setWarning('Recording failed or was empty.')
+                setOwnedMediaBusy(false)
                 return
             }
             handleOwnedMediaCreated(createRecordingLink({
@@ -956,6 +960,7 @@ function LinksEditorBody(props) {
     }
 
     function stopRecording() {
+        setOwnedMediaBusy(true)
         audioUtils.stopRecording()
     }
 
@@ -1065,33 +1070,14 @@ function LinksEditorBody(props) {
                         disabled={ownedMediaBusy || audioUtils.isRecording}
                         onChange={handleAttachAudio}
                     />
-                    {audioUtils.isRecording && (
-                        <>
-                            <LinksEditorToolbarButton
-                                icon={props.tunebook.icons.stopsmall}
-                                label="Stop recording"
-                                variant="danger"
-                                onClick={stopRecording}
-                            />
-                            <Button
-                                className="links-editor-toolbar-btn"
-                                variant="outline-danger"
-                                disabled
-                                aria-label="Recording duration"
-                            >
-                                {recordingDuration + 1}s
-                            </Button>
-                        </>
-                    )}
-                    {!audioUtils.isRecording && (
-                        <LinksEditorToolbarButton
-                            icon={props.tunebook.icons.recordcircle}
-                            label="Record"
-                            variant="primary"
-                            onClick={startRecording}
-                            disabled={ownedMediaBusy}
-                        />
-                    )}
+                    <LinksEditorRecordControls
+                        icons={props.tunebook.icons}
+                        isRecording={audioUtils.isRecording}
+                        isSaving={ownedMediaBusy}
+                        recordingDuration={recordingDuration}
+                        onRecord={startRecording}
+                        onStop={stopRecording}
+                    />
                     <LinksEditorToolbarButton
                         icon={props.tunebook.icons.add}
                         label="New Link"

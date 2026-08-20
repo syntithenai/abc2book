@@ -31,18 +31,18 @@ describe('mediaLinkAutoCache', function() {
   afterEach(function() {
     jest.restoreAllMocks();
   });
-  test('shouldAutoCacheMediaLink includes archive and library sources', function() {
+  test('shouldAutoCacheMediaLink includes archive sources and excludes music collection', function() {
     expect(shouldAutoCacheMediaLink('https://archive.org/details/foo', isYoutubeLink)).toBe(true);
     expect(shouldAutoCacheMediaLink('https://www.loc.gov/item/123/', isYoutubeLink)).toBe(true);
     expect(shouldAutoCacheMediaLink('https://artist.bandcamp.com/track/foo', isYoutubeLink)).toBe(true);
-    expect(shouldAutoCacheMediaLink('http://localhost:8787/music-collection/track.mp3', isYoutubeLink)).toBe(true);
+    expect(shouldAutoCacheMediaLink('http://localhost:8787/music-collection/track.mp3', isYoutubeLink)).toBe(false);
   });
 
   test('shouldAutoCacheMediaLink excludes YouTube', function() {
     expect(shouldAutoCacheMediaLink('https://www.youtube.com/watch?v=abcdefghijk', isYoutubeLink)).toBe(false);
   });
 
-  test('shouldScheduleMediaLinkCache honors autocache or archive sources', function() {
+  test('shouldScheduleMediaLinkCache honors autocache, YouTube when opted in, or archive sources', function() {
     expect(shouldScheduleMediaLinkCache(
       'https://archive.org/details/foo',
       'audio',
@@ -66,6 +66,12 @@ describe('mediaLinkAutoCache', function() {
       'youtube',
       isYoutubeLink,
       true
+    )).toBe(true);
+    expect(shouldScheduleMediaLinkCache(
+      'https://www.youtube.com/watch?v=abcdefghijk',
+      'youtube',
+      isYoutubeLink,
+      false
     )).toBe(false);
   });
 

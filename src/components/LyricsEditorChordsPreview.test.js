@@ -29,6 +29,7 @@ jest.mock('./TimedLyricsChordsView', function() {
         data-keep-beat-markers={props.keepBeatMarkers ? 'true' : 'false'}
         data-compact={props.compact ? 'true' : 'false'}
         data-chord-transpose={String(props.chordTranspose)}
+        data-allow-notation-merge={props.allowNotationMerge ? 'true' : 'false'}
       >
         {(props.tune && Array.isArray(props.tune.words) ? props.tune.words : []).join('\n')}
       </div>
@@ -75,6 +76,7 @@ describe('LyricsEditorChordsPreview', function() {
     expect(preview).toBeTruthy()
     const view = container.querySelector('[data-testid="timed-lyrics-chords-view"]')
     expect(view.getAttribute('data-keep-beat-markers')).toBe('true')
+    expect(view.getAttribute('data-allow-notation-merge')).toBe('true')
     expect(view.textContent).toBe('[G]a/mazing /grace how /sweet')
     const structure = container.querySelector('[data-testid="lyrics-structure-chords"]')
     expect(structure).toBeTruthy()

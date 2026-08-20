@@ -100,6 +100,7 @@ export async function enrichBulkImportTune(tune, options) {
           tunebook: tunebook,
           abcjsParser: abcjsParser,
           updateLyrics: true,
+          skipSave: true,
         })
       }
     } catch (e) {

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Host-network OpenAI gateway: prefer in-compose LLM, fall back to LM Studio."""
+"""Host-network OpenAI gateway: prefer host qwen-proxy, optional other backends."""
 
 from __future__ import annotations
 
@@ -21,7 +21,8 @@ def main() -> None:
     app = create_proxy_app(
         bases,
         service_name="abc2book-llm-gateway",
-        health_ttl_seconds=float(os.getenv("LLM_GATEWAY_HEALTH_TTL_SECONDS", "15")),
+        health_ttl_seconds=float(os.getenv("LLM_GATEWAY_HEALTH_TTL_SECONDS", "60")),
+        probe_path=os.getenv("LLM_GATEWAY_PROBE_PATH", "/health"),
     )
     host = os.getenv("LLM_GATEWAY_LISTEN_HOST", "0.0.0.0")
     port = int(os.getenv("LLM_GATEWAY_LISTEN_PORT", "12340"))

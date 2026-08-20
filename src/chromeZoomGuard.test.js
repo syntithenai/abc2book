@@ -133,7 +133,7 @@ describe('chromeZoomGuard', function() {
   it('listens for visualViewport changes during init', function() {
     initChromeZoomGuard()
     expect(listeners.resize.length).toBe(1)
-    expect(listeners.scroll.length).toBe(1)
+    expect(listeners.scroll.length).toBe(0)
 
     visualViewport.scale = 2
     listeners.resize[0]()

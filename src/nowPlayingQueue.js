@@ -651,7 +651,7 @@ export function resolvePlaybackForItem(tune, item, tunebook) {
   const hasNotes = tuneHasMidiNotes(tune, tunebook)
   const hasLinks = tunebook.hasLinks(tune)
 
-  if (item.linkIndex != null && hasLinks) {
+  if (item.linkIndex != null && Array.isArray(tune.links) && tune.links[item.linkIndex]) {
     return { type: 'media', linkNum: item.linkIndex }
   }
   if (prefer === 'midi' && hasNotes) return { type: 'midi', linkNum: null }

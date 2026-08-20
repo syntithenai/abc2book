@@ -14,13 +14,14 @@ import {
  * Resolve how TimedLyricsChordsView should render chords for a tune.
  *
  * @param {object} tune
- * @param {{ hideChords?: boolean, chordsOnly?: boolean }} options
+ * @param {{ hideChords?: boolean, chordsOnly?: boolean, allowNotationMerge?: boolean }} options
  * @returns {{ mode: string, hideChords: boolean, chordsOnly: boolean }}
  */
 export function resolveChordRenderPlan(tune, options) {
   const opts = options || {};
   const hideChords = !!opts.hideChords;
   const chordsOnly = !!opts.chordsOnly;
+  const allowNotationMerge = !!opts.allowNotationMerge;
   const displayLines = getLyricLinesForDisplay(tune || {});
 
   if (hideChords) {
@@ -54,5 +55,9 @@ export function resolveChordRenderPlan(tune, options) {
     return { mode: 'chords_only', hideChords: false, chordsOnly: false };
   }
 
-  return { mode: 'per_line_abc', hideChords: false, chordsOnly: false };
+  if (allowNotationMerge) {
+    return { mode: 'per_line_abc', hideChords: false, chordsOnly: false };
+  }
+
+  return { mode: 'plain', hideChords: false, chordsOnly: false };
 }

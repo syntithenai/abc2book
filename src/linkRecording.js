@@ -318,6 +318,11 @@ export async function saveRecording(recording) {
   return recording
 }
 
+export async function deleteRecording(recordingId) {
+  if (!recordingId) return
+  await recordingsStore.removeItem(recordingId)
+}
+
 async function writeRecordingCache(tuneId, linkIndex, linkUri, mp3Blob, duration) {
   const cacheKey = getExternalMediaCacheKey(tuneId, linkIndex, linkUri)
   await putExternalMediaCache(cacheKey, mp3Blob, duration)

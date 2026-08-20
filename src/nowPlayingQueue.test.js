@@ -140,6 +140,18 @@ describe('nowPlayingQueue', function() {
     })
   })
 
+  test('resolvePlaybackForItem honors a pinned linkIndex even when hasLinks is false', function() {
+    const noHasLinks = {
+      hasNotesOrChords: function(t) { return !!(t && t.notes) },
+      hasLinks: function() { return false },
+    }
+    const tune = { id: '1', links: [{ link: '' }, { link: 'http://x' }] }
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', linkIndex: 1 }, noHasLinks)).toEqual({
+      type: 'media',
+      linkNum: 1,
+    })
+  })
+
   test('resolvePlaybackForItem prefers midi when first link is a recording', function() {
     const tune = {
       id: '1',

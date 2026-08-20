@@ -11,6 +11,7 @@ import {
   splitMelodyStrainsWithBarlines,
   strainJoinSeparator,
   countFullBarsInMelodyStrain,
+  isVoltaContinuationAfterRepeatEnd,
 } from './melodyStrainSplit'
 import {
   normalizeSectionType,
@@ -374,15 +375,23 @@ function chartTextFromBarTokenArrays(barArrays) {
 }
 
 function primaryChordFromMelodyBarText(barText) {
+  const tokens = chordTokensFromMelodyBarText(barText)
+  return tokens.length ? tokens[tokens.length - 1] : ''
+}
+
+/** Ordered chord symbols quoted in one melody bar (all changes, not just the last). */
+function chordTokensFromMelodyBarText(barText) {
   const re = /"([^"]+)"/g
+  const tokens = []
   let match
-  let last = ''
   while ((match = re.exec(String(barText || ''))) !== null) {
-    if (!isSectionMarkerChordName(match[1])) {
-      last = match[1]
+    const name = String(match[1] || '').trim()
+    if (!name || isSectionMarkerChordName(name)) continue
+    if (tokens.length === 0 || tokens[tokens.length - 1] !== name) {
+      tokens.push(name)
     }
   }
-  return last
+  return tokens
 }
 
 /**
@@ -394,10 +403,10 @@ export function chartTextFromMelodyStrain(strain) {
   if (!bars.length) return ''
   let held = ''
   const barTokens = bars.map(function(barText) {
-    const chord = primaryChordFromMelodyBarText(barText)
-    if (chord) {
-      held = chord
-      return [chord]
+    const chords = chordTokensFromMelodyBarText(barText)
+    if (chords.length > 0) {
+      held = chords[chords.length - 1]
+      return chords
     }
     return held ? [] : []
   })
@@ -407,6 +416,41 @@ export function chartTextFromMelodyStrain(strain) {
 export function chartBlocksFromMelodyStrains(strains) {
   return (Array.isArray(strains) ? strains : [])
     .map(function(strain) { return chartTextFromMelodyStrain(strain) })
+    .filter(function(chart) { return chartHasMergeableContent(chart) })
+}
+
+function groupNoteLinesAtSectionCloses(noteLines) {
+  const lines = noteLinesForMelodyMerge(noteLines)
+  const groups = []
+  let current = []
+  lines.forEach(function(line, index) {
+    current.push(line)
+    const next = index + 1 < lines.length ? lines[index + 1] : ''
+    const trimmed = String(line || '').trim()
+    const closes = /(:\|:|:\||\|\||\|\])\s*$/.test(trimmed)
+      && !isVoltaContinuationAfterRepeatEnd(next)
+    if (closes) {
+      groups.push(current)
+      current = []
+    }
+  })
+  if (current.length) groups.push(current)
+  return groups
+}
+
+/**
+ * Melody fallback charts that keep ABC system line breaks (one chart line per
+ * notation line) instead of flattening a strain onto a single row.
+ */
+export function chartBlocksFromMelodyNoteLines(noteLines) {
+  return groupNoteLinesAtSectionCloses(noteLines)
+    .map(function(lines) {
+      const body = lines
+        .map(function(line) { return chartTextFromMelodyStrain({ text: line }) })
+        .filter(Boolean)
+        .join('\n')
+      return dropLeadingEmptyBarsFromEachChartLine(body)
+    })
     .filter(function(chart) { return chartHasMergeableContent(chart) })
 }
 
@@ -562,7 +606,10 @@ export function chordChartBlocksForLyrics(chordChart, noteLines) {
           )
         }
       }
-      const melodyCharts = chartBlocksFromMelodyStrains(strains)
+      let melodyCharts = chartBlocksFromMelodyNoteLines(lines)
+      if (melodyCharts.length !== strains.length) {
+        melodyCharts = chartBlocksFromMelodyStrains(strains)
+      }
       if (melodyCharts.length === strains.length) {
         return ensureChartBlocksStartWithExplicitChord(melodyCharts)
       }
