@@ -349,8 +349,9 @@ export default function TimedLyricsChordsView(props) {
 
   function wrapFit(node) {
     if (!fitHeight || chordsOnly) return node;
-    const hostClass = 'lyrics-fit-height-host'
-      + (fit.overflows ? ' lyrics-fit-height-host--scrollable' : '');
+    // Always arm touch scroll in fit-height: overflow detection can lag a
+    // frame behind layout, and hidden clips stanzas with no way to recover.
+    const hostClass = 'lyrics-fit-height-host lyrics-fit-height-host--scrollable';
     return (
       <div
         className={hostClass}
@@ -359,7 +360,8 @@ export default function TimedLyricsChordsView(props) {
           flex: '1 1 auto',
           minHeight: 0,
           height: '100%',
-          overflow: fit.overflows ? 'auto' : 'hidden',
+          overflow: 'auto',
+          WebkitOverflowScrolling: 'touch',
           display: 'flex',
           flexDirection: 'column',
         }}

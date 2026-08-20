@@ -5137,7 +5137,21 @@ button img:after {
 
 /* Fit-height: constrain the primary content panel to the viewport.
    Notation uses the column width (not full page) via measureSingleViewPaper.
-   When notation is off, lyrics-only or structure-only fill the viewport height. */
+   When notation is off, lyrics-only or structure-only fill the remaining
+   viewport below sticky chrome (not a raw 100dvh box — that overshoots). */
+.music-panels-fit-height {
+  --lyrics-fit-chrome-top: calc(
+    var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)))
+    + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1))
+  );
+  --lyrics-fit-panel-height: calc(
+    100dvh
+    - var(--lyrics-fit-chrome-top)
+    - var(--app-playlist-transport-offset, 0px)
+    - 0.75rem
+  );
+}
+
 .music-panels-fit-height.tune-layout-notation-only .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-structure .tune-panel-notation,
@@ -5156,8 +5170,8 @@ button img:after {
 
 .music-panels-fit-height.tune-layout-lyrics-only .tune-panel-lyrics,
 .music-panels-fit-height.tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .tune-panel-lyrics {
-  height: calc(100dvh - 8rem - var(--app-playlist-transport-offset, 0px));
-  max-height: calc(100dvh - 8rem - var(--app-playlist-transport-offset, 0px));
+  height: var(--lyrics-fit-panel-height);
+  max-height: var(--lyrics-fit-panel-height);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -5221,7 +5235,9 @@ button img:after {
   flex: 1 1 auto;
   min-height: 0;
   height: auto;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .music-panels-fit-height.tune-layout-lyrics-only .lyrics-fit-height-host.lyrics-fit-height-host--scrollable,
@@ -5296,8 +5312,8 @@ button img:after {
 
 .music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-panel-lyrics-structure-sync,
 .music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-panel-lyrics.tune-panel-lyrics-structure-sync {
-  height: calc(100dvh - 8rem);
-  max-height: calc(100dvh - 8rem);
+  height: var(--lyrics-fit-panel-height);
+  max-height: var(--lyrics-fit-panel-height);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -5341,7 +5357,9 @@ button img:after {
   flex: 1 1 auto;
   min-height: 0;
   height: auto;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-lyrics-structure-sync-host--fit-height .lyrics-fit-height-host.lyrics-fit-height-host--scrollable {
@@ -5933,10 +5951,11 @@ button img:after {
   height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
   overflow: hidden;
 }
-/* Lyrics-only with fit-vertical: lyrics fill viewport */
+/* Lyrics-only with fit-vertical: lyrics fill remaining viewport below chrome */
 .music-panels-fit-height.music-layout-lyrics-only .music-body-lyrics {
-  height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
-  overflow-y: auto;
+  height: var(--lyrics-fit-panel-height, calc(100dvh - 8rem - var(--app-playlist-transport-offset, 0px)));
+  max-height: var(--lyrics-fit-panel-height, calc(100dvh - 8rem - var(--app-playlist-transport-offset, 0px)));
+  overflow: hidden;
 }
 
 /* Hide abcjs chord annotations when chords flag is off */

@@ -621,6 +621,20 @@ export function measureViewportBottomLimit() {
 }
 
 /**
+ * Remaining viewport height for an element that starts below sticky chrome.
+ * CSS `100dvh - 8rem` panel heights overshoot when the panel already sits
+ * under the header/toolbar — use this for lyrics fit-height budgets.
+ */
+export function measureElementViewportHeightBudget(el, padBottom) {
+  if (!el || typeof el.getBoundingClientRect !== 'function') return 0;
+  const top = el.getBoundingClientRect().top;
+  if (!isFinite(top)) return 0;
+  const bottom = measureViewportBottomLimit();
+  const pad = padBottom != null ? padBottom : 4;
+  return Math.max(40, Math.floor(bottom - top - pad));
+}
+
+/**
  * Height of the books/tags/info footer below notation in single view. Fit-height
  * must stop above this block so it stays in the scrollable page flow.
  */

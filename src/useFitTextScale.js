@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { measureViewportBottomLimit } from './gigNotationFit';
+import {
+  measureElementViewportHeightBudget,
+  measureViewportBottomLimit,
+} from './gigNotationFit';
 
 /**
  * Scale a content element's font so it fits inside a container.
@@ -98,26 +101,15 @@ export function useFitTextScale(options) {
     }
 
     /**
-     * Lyrics fit hosts nest under .lyrics-zoom-host. If that wrapper is not a
-     * flex item, container.clientHeight grows with content and fit never
-     * shrinks / never arms overflow scroll. Cap against the panel instead.
+     * Lyrics panels often use an oversized CSS height (nearly 100dvh while
+     * already below chrome). Cap with the on-screen remaining viewport so
+     * fit/scroll target the visible area, not the off-screen panel bottom.
      */
-    function lyricsPanelBudget() {
-      const panel = typeof container.closest === 'function'
-        ? container.closest(
-          '.lyrics-panel-inner, .tune-lyrics-structure-sync-lyrics, .music-view-lyrics'
-        )
-        : null;
-      if (panel && panel.clientHeight > 40) {
-        let h = panel.clientHeight;
-        Array.prototype.forEach.call(panel.children, function(child) {
-          if (child === container) return;
-          if (typeof child.contains === 'function' && child.contains(container)) return;
-          h -= child.offsetHeight || 0;
-        });
-        return Math.max(40, h);
-      }
-      return Math.max(40, container.clientHeight || 0);
+    function lyricsHeightBudget() {
+      const visibleH = measureElementViewportHeightBudget(container, 4);
+      const selfH = container.clientHeight || 0;
+      if (visibleH > 0 && selfH > 0) return Math.min(selfH, visibleH);
+      return visibleH || selfH || 40;
     }
 
     function availableSize() {
@@ -130,14 +122,13 @@ export function useFitTextScale(options) {
       const col = layoutColumn();
       const inFitHost = col && col.closest('.tune-lyrics-structure-sync-host--fit-height');
       if (inFitHost && col.clientHeight > 80) {
-        availH = Math.max(40, col.clientHeight - py);
+        const visibleH = measureElementViewportHeightBudget(container, 4);
+        const colH = col.clientHeight;
+        availH = Math.max(40, Math.min(colH, visibleH || colH) - py);
       } else if (col) {
         availH = Math.max(40, structurePanelBudget(col) - py);
       } else {
-        const selfH = container.clientHeight || 0;
-        const panelH = lyricsPanelBudget();
-        const capped = selfH > 0 ? Math.min(selfH, panelH) : panelH;
-        availH = Math.max(40, capped - py);
+        availH = Math.max(40, lyricsHeightBudget() - py);
       }
 
       Array.prototype.forEach.call(container.children, function(child) {
@@ -147,6 +138,17 @@ export function useFitTextScale(options) {
       });
       availH = Math.max(40, availH);
       return { availW: availW, availH: availH };
+    }
+
+    function constrainLyricsScrollport() {
+      if (!wantHeight || layoutColumn()) {
+        container.style.maxHeight = '';
+        return;
+      }
+      const visibleH = measureElementViewportHeightBudget(container, 4);
+      if (visibleH > 0) {
+        container.style.maxHeight = visibleH + 'px';
+      }
     }
 
     function longestLineWidthAt(scaleEm) {
@@ -225,6 +227,7 @@ export function useFitTextScale(options) {
 
     function recalc() {
       if (cancelled || !containerRef.current || !contentRef.current) return;
+      constrainLyricsScrollport();
       const size = availableSize();
       if (!(size.availW > 0) && !wantHeight) return;
       if (wantHeight && !(size.availH > 0)) return;
@@ -262,11 +265,18 @@ export function useFitTextScale(options) {
     const col = layoutColumn();
     if (col && col !== container) observer.observe(col);
     window.addEventListener('resize', schedule);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', schedule);
+    }
     return function() {
       cancelled = true;
       if (raf) cancelAnimationFrame(raf);
       observer.disconnect();
       window.removeEventListener('resize', schedule);
+      if (window.visualViewport) {
+        window.visualViewport.removeEventListener('resize', schedule);
+      }
+      container.style.maxHeight = '';
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wantHeight, wantLongest, min, max, px, py, widthColumnRef, excludeSelector].concat(deps || []));

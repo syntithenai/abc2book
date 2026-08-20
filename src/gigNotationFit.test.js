@@ -14,6 +14,8 @@ import {
   readNotationSvgDims,
   verticalFitTargetHeight,
   verticalScaledWidth,
+  measureElementViewportHeightBudget,
+  measureViewportBottomLimit,
 } from './gigNotationFit';
 
 describe('gigNotationFit', function() {
@@ -545,6 +547,40 @@ describe('gigNotationFit', function() {
         applyCompactScreenNotationMeta(null);
         applyCompactScreenNotationMeta({});
       }).not.toThrow();
+    });
+  });
+
+  describe('measureElementViewportHeightBudget', function() {
+    const originalInnerHeight = window.innerHeight;
+
+    afterEach(function() {
+      window.innerHeight = originalInnerHeight;
+      document.body.innerHTML = '';
+    });
+
+    it('returns remaining space from element top to viewport bottom', function() {
+      window.innerHeight = 800;
+      const el = document.createElement('div');
+      el.getBoundingClientRect = function() {
+        return { top: 200, bottom: 900, height: 700, left: 0, right: 300, width: 300 };
+      };
+      expect(measureElementViewportHeightBudget(el, 4)).toBe(596);
+    });
+
+    it('stops above the now-playing transport bar', function() {
+      window.innerHeight = 800;
+      const bar = document.createElement('div');
+      bar.className = 'now-playing-transport-bar';
+      bar.getBoundingClientRect = function() {
+        return { top: 720, bottom: 800, height: 80, left: 0, right: 300, width: 300 };
+      };
+      document.body.appendChild(bar);
+      const el = document.createElement('div');
+      el.getBoundingClientRect = function() {
+        return { top: 180, bottom: 900, height: 720, left: 0, right: 300, width: 300 };
+      };
+      expect(measureViewportBottomLimit()).toBe(720);
+      expect(measureElementViewportHeightBudget(el, 0)).toBe(540);
     });
   });
 });
