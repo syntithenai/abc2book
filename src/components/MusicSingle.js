@@ -847,7 +847,8 @@ export default function MusicSingle(props) {
                 const playalongCanRecord = shouldShowPlayalongRecordButton(
                   tune,
                   props.tunebook,
-                  fileOverlayActive
+                  fileOverlayActive,
+                  props.user
                 )
                 const hasPlayalongTakes = !!(playalong.takes && playalong.takes.length)
                 const playalongWaiting = !!(!playalong.isRecording && (playalong.isSavingTake || playalongGraphLoading))
@@ -1484,7 +1485,7 @@ export default function MusicSingle(props) {
                  <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                    {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{clear:'both', width:'100%', height:'3em'}} />}
                     <div className="playalong-notation-stack">
-                    {showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
+                    {playalongCanRecord && showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
                       <PlayalongInlineRecordBar
                         tunebook={props.tunebook}
                         isRecording={playalong.isRecording}
@@ -1514,7 +1515,7 @@ export default function MusicSingle(props) {
                      {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                      {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                    </div>
-                    {showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
+                    {playalongCanRecord && showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
                       <PlayalongStaffPitchStrips
                         tune={tune}
                         compareTune={notationTune}
@@ -1535,7 +1536,7 @@ export default function MusicSingle(props) {
                       />
                     ) : null}
                     </div>
-                   {playalong.compareActive ? (
+                   {playalongCanRecord && playalong.compareActive ? (
                      <PlayalongCompareOverlay
                        tune={tune}
                       compareTune={notationTune}
@@ -1552,6 +1553,7 @@ export default function MusicSingle(props) {
                      />
                    ) : null}
 
+                      {playalongCanRecord ? (
                       <PlayalongRecordConfigModal
                         show={playalongTempoDialogOpen}
                         onHide={function() { setPlayalongTempoDialogOpen(false) }}
@@ -1574,6 +1576,7 @@ export default function MusicSingle(props) {
                           if (playalong.start) playalong.start(playalongTempoBpm, nextSettings || playalongSettings)
                         }}
                       />
+                      ) : null}
                  </div>
                </div>
 

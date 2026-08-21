@@ -4,6 +4,7 @@ import { effectiveCountInBars } from './playbackStateLogic'
 import { beatsPerBarFromMeter } from './notation/beatGrid'
 import { deleteRecording, getRecording, saveRecording } from './linkRecording'
 import utilsFunctions from './utilsFunctions'
+import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 
 export const PLAYALONG_TAKE_COMMENT_PREFIX = '% abcbook-playalong-take-'
 export const PLAYALONG_RECORDING_SOURCE = 'playalong'
@@ -116,7 +117,9 @@ export function renderPlayalongTakesAbc(tune) {
   }).join('\n') + '\n'
 }
 
-export function shouldShowPlayalongRecordButton(tune, tunebook, fileOverlayActive) {
+export function shouldShowPlayalongRecordButton(tune, tunebook, fileOverlayActive, user, resolverStatus) {
+  // Play-along recording is admin-only while the feature is still being iterated.
+  if (!isFeedFeedbackAdmin(user, resolverStatus)) return false
   if (fileOverlayActive) return false
   return tuneHasMidiNotes(tune, tunebook)
 }

@@ -18,6 +18,7 @@ import {
 } from './playalongTakes'
 import { displayFlagsToViewMode, viewModeToDisplayFlags } from './viewModeUtils'
 import useAbcTools from './useAbcTools'
+import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
 
 describe('playalongTakes', function() {
   test('appendPlayalongTake keeps older takes and adds the newest last', function() {
@@ -113,13 +114,16 @@ describe('playalongTakes', function() {
     }, { abcTools: { getTempo: function() { return 120 } } }, 1)).toBe(0)
   })
 
-  test('shouldShowPlayalongRecordButton requires MIDI notes and hides on file overlay', function() {
+  test('shouldShowPlayalongRecordButton requires admin, MIDI notes, and hides on file overlay', function() {
     const tunebook = {
       hasNotes: function(tune) { return !!(tune && tune.hasMelody) },
     }
-    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false)).toBe(true)
-    expect(shouldShowPlayalongRecordButton({ hasMelody: false }, tunebook, false)).toBe(false)
-    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, true)).toBe(false)
+    const admin = { email: FEED_FEEDBACK_ADMIN_EMAIL }
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, admin)).toBe(true)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: false }, tunebook, false, admin)).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, true, admin)).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, { email: 'other@example.com' })).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, null)).toBe(false)
   })
 
   test('handlePlayalongTuneEnded stops recording and blocks playlist advance', function() {
