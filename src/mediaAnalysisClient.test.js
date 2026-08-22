@@ -1,7 +1,10 @@
 import {
+  analysisPlanForSuggestionKinds,
   getDetectedTempoFromAnalysis,
   handleAnalysisStreamEvent,
+  normalizeChordsOnlyAnalysis,
   normalizeMediaAnalysis,
+  normalizeTimingOnlyAnalysis,
   tuneHasTempo,
 } from './mediaAnalysisClient';
 import {
@@ -129,5 +132,55 @@ describe('tuneHasTempo', function() {
     expect(tuneHasTempo({})).toBe(false);
     expect(tuneHasTempo({ tempo: 0 })).toBe(false);
     expect(tuneHasTempo({ tempo: '' })).toBe(false);
+  });
+});
+
+describe('analysisPlanForSuggestionKinds', function() {
+  test('uses detect-timing for tempo-only', function() {
+    expect(analysisPlanForSuggestionKinds(['tempo'])).toBe('detect-timing');
+  });
+
+  test('uses detect-chords when key is selected without heavy kinds', function() {
+    expect(analysisPlanForSuggestionKinds(['key'])).toBe('detect-chords');
+    expect(analysisPlanForSuggestionKinds(['key', 'tempo'])).toBe('detect-chords');
+  });
+
+  test('uses analyze-media for lyrics, notation, or chords', function() {
+    expect(analysisPlanForSuggestionKinds(['lyrics'])).toBe('analyze-media');
+    expect(analysisPlanForSuggestionKinds(['notation', 'tempo'])).toBe('analyze-media');
+    expect(analysisPlanForSuggestionKinds(['chords', 'key'])).toBe('analyze-media');
+  });
+
+  test('defaults to analyze-media when kinds empty', function() {
+    expect(analysisPlanForSuggestionKinds([])).toBe('analyze-media');
+    expect(analysisPlanForSuggestionKinds(null)).toBe('analyze-media');
+  });
+});
+
+describe('normalizeTimingOnlyAnalysis / normalizeChordsOnlyAnalysis', function() {
+  test('timing-only exposes tempo on timing and chords', function() {
+    const result = normalizeTimingOnlyAnalysis({
+      beatTimes: [0, 0.5, 1],
+      tempo: 120.4,
+      meter: '4/4',
+      backend: 'librosa',
+    });
+    expect(result.timing.tempo).toBe(120.4);
+    expect(result.timing.meter).toBe('4/4');
+    expect(getDetectedTempoFromAnalysis(result)).toBe(120);
+  });
+
+  test('chords-only exposes detected key and tempo', function() {
+    const result = normalizeChordsOnlyAnalysis({
+      segments: [{ chord: 'C', start: 0, end: 1 }],
+      beatTimes: [0, 0.5],
+      tempo: 96,
+      detectedKey: 'C',
+      keySource: 'chords',
+      backend: 'btc',
+    });
+    expect(result.chords.detectedKey).toBe('C');
+    expect(result.chords.tempo).toBe(96);
+    expect(getDetectedTempoFromAnalysis(result)).toBe(96);
   });
 });

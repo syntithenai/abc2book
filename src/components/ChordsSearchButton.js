@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react'
-import { Alert, Button, ButtonGroup, Modal } from 'react-bootstrap'
+import { Alert, ButtonGroup } from 'react-bootstrap'
 import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useAbcjsParser from '../useAbcjsParser'
@@ -39,6 +39,10 @@ export default function ChordsSearchButton({
   extraQuery,
   buttonStyle,
   disabled,
+  /**
+   * @deprecated Pre-search overwrite confirm removed; SearchResultPickerModal
+   * presents choices after search.
+   */
   confirmOverwrite = false,
   /** When true, start an automatic search once the button mounts. */
   autoStartSearch = false,
@@ -50,8 +54,8 @@ export default function ChordsSearchButton({
   children,
 }) {
   void existingLyrics
+  void confirmOverwrite
   const [error, setError] = useState('')
-  const [showOverwriteConfirm, setShowOverwriteConfirm] = useState(false)
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const [manualCandidates, setManualCandidates] = useState([])
@@ -69,7 +73,6 @@ export default function ChordsSearchButton({
       hasLocalChordSearch: hasLocalChordSearch,
     })
   const searchModeRef = useRef('auto')
-  const pendingModeRef = useRef('auto')
   const applyRef = useRef(null)
   const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'chords')
 
@@ -85,16 +88,16 @@ export default function ChordsSearchButton({
 
   function finishApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
-    if (typeof onLyrics === 'function') {
+    // onChords owns lyrics when present (embedded chords); avoid plain-lyric overwrite.
+    if (typeof onChords === 'function') {
+      onChords(result, { updateLyrics: true })
+    } else if (typeof onLyrics === 'function') {
       onLyrics({
         lines: result.lyricLines,
         text: result.lyricText,
         source: result.source,
         sourceUrl: result.sourceUrl,
       })
-    }
-    if (typeof onChords === 'function') {
-      onChords(result, { updateLyrics: true })
     }
     maybeOfferGenreFromSearchResult({
       tuneId: tuneId,
@@ -205,17 +208,7 @@ export default function ChordsSearchButton({
       return
     }
     if (awaitingJob) dismissFieldLookup(awaitingJob.id)
-    pendingModeRef.current = mode === 'review' ? 'review' : 'auto'
-    if (confirmOverwrite && pendingModeRef.current === 'auto') {
-      setShowOverwriteConfirm(true)
-      return
-    }
-    runSearch(pendingModeRef.current)
-  }
-
-  function confirmOverwriteAndSearch() {
-    setShowOverwriteConfirm(false)
-    runSearch(pendingModeRef.current)
+    runSearch(mode === 'review' ? 'review' : 'auto')
   }
 
   const autoStartedRef = useRef(false)
@@ -331,29 +324,6 @@ export default function ChordsSearchButton({
           book={book}
           icons={tunebook && tunebook.icons}
         />
-        <Modal
-          show={showOverwriteConfirm}
-          onHide={function() { setShowOverwriteConfirm(false) }}
-          centered
-        >
-          <Modal.Header closeButton>
-            <Modal.Title>Replace chords from search?</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Alert variant="warning" className="mb-0">
-              Continuing will import chords and lyrics. Existing pitched notation is left unchanged;
-              empty notation may be replaced with a chord scaffold from the search result.
-            </Alert>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={function() { setShowOverwriteConfirm(false) }}>
-              Cancel
-            </Button>
-            <Button variant="primary" onClick={confirmOverwriteAndSearch}>
-              Continue
-            </Button>
-          </Modal.Footer>
-        </Modal>
       </>
     ),
   })

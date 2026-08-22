@@ -42,6 +42,27 @@ function writeStored(percent) {
   } catch (e) {}
 }
 
+const LAST_STORAGE_KEY = 'bookstorage_global_tempo_last_percent'
+
+export function getGlobalTempoLastPercent() {
+  try {
+    const raw = localStorage.getItem(LAST_STORAGE_KEY)
+    if (raw === null || raw === '') return 100
+    const n = normalizeGlobalTempoPercent(raw)
+    return n > 0 ? n : 100
+  } catch (e) {
+    return 100
+  }
+}
+
+function writeLastPercent(percent) {
+  const n = normalizeGlobalTempoPercent(percent)
+  if (n <= 0) return
+  try {
+    localStorage.setItem(LAST_STORAGE_KEY, String(n))
+  } catch (e) {}
+}
+
 export function getGlobalTempoPercent() {
   return readStored()
 }
@@ -58,6 +79,7 @@ export function getGlobalTempoFactor() {
 
 export function setGlobalTempoPercent(percent) {
   const next = normalizeGlobalTempoPercent(percent)
+  if (next > 0) writeLastPercent(next)
   writeStored(next)
   notify()
   return next

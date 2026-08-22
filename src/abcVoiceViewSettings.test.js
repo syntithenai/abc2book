@@ -1,4 +1,5 @@
 import {
+  activeVoiceIndicesFromTune,
   defaultVoiceViewSettings,
   getPlayableVoiceKeys,
   getPlaybackVoiceKeys,
@@ -14,10 +15,10 @@ describe('abcVoiceViewSettings', function() {
     localStorage.clear();
   });
 
-  test('defaults all voices to visible and playable', function() {
+  test('defaults only the first voice to visible and playable', function() {
     const settings = defaultVoiceViewSettings(['1', '2']);
-    expect(settings.visible).toEqual({ '1': true, '2': true });
-    expect(settings.playable).toEqual({ '1': true, '2': true });
+    expect(settings.visible).toEqual({ '1': true, '2': false });
+    expect(settings.playable).toEqual({ '1': true, '2': false });
   });
 
   test('persists per tune in localStorage', function() {
@@ -36,15 +37,14 @@ describe('abcVoiceViewSettings', function() {
     expect(selectedVoiceKeys(['1', '2'], { '1': false, '2': false })).toEqual(['1']);
   });
 
-  test('normalizeVoiceViewSettings adds new voices as enabled', function() {
+  test('normalizeVoiceViewSettings adds new voices as off (first-voice default)', function() {
     const normalized = normalizeVoiceViewSettings(['1', '2', '3'], {
       visible: { '1': false },
       playable: { '2': false },
     });
-    expect(normalized.visible).toEqual({ '1': false, '2': true, '3': true });
-    expect(normalized.playable).toEqual({ '1': true, '2': false, '3': true });
+    expect(normalized.visible).toEqual({ '1': false, '2': false, '3': false });
+    expect(normalized.playable).toEqual({ '1': true, '2': false, '3': false });
   });
-
   test('getPlayableVoiceKeys respects playable flags', function() {
     setVoiceViewSettings('tune-b', {
       visible: { '1': true, '2': true },
@@ -77,5 +77,18 @@ describe('abcVoiceViewSettings', function() {
       id: 'tune-d',
       voices: { '1': { notes: [] }, '2': { notes: [] } },
     })).toBe(true);
+  });
+
+  test('activeVoiceIndicesFromTune defaults to first voice when unset', function() {
+    expect(activeVoiceIndicesFromTune({
+      voices: { '1': { notes: [] }, '2': { notes: [] } },
+    }, ['1', '2'])).toEqual([0]);
+  });
+
+  test('activeVoiceIndicesFromTune uses tune.activeVoices when set', function() {
+    expect(activeVoiceIndicesFromTune({
+      activeVoices: ['2'],
+      voices: { '1': { notes: [] }, '2': { notes: [] } },
+    }, ['1', '2'])).toEqual([1]);
   });
 });

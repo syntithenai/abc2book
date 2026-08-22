@@ -16,6 +16,7 @@ function BoostSettingsModal(props) {
     if (e) e.preventDefault(); 
     if (e) e.stopPropagation();
     setShow(true);
+    if (typeof props.onOpen === 'function') props.onOpen();
   }
   const boostUp = (e) => {
       if (e) {

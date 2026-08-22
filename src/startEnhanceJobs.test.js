@@ -46,6 +46,20 @@ describe('startEnhanceJobs', function() {
     ])
   })
 
+  test('lookup lyrics is one integrated prefer-chords search', function() {
+    const enqueueLookup = jest.fn().mockReturnValue('job-lyrics')
+    const result = startEnhanceJobs(
+      [{ id: 't1', name: 'Song' }],
+      selectionWith(['lookupLyrics']),
+      { fieldLookupQueue: { enqueueLookup: enqueueLookup } }
+    )
+    expect(result.fieldLookups).toBe(1)
+    expect(result.started).toBe(1)
+    expect(enqueueLookup).toHaveBeenCalledTimes(1)
+    expect(enqueueLookup.mock.calls[0][0].kind).toBe('lyrics')
+    expect(enqueueLookup.mock.calls[0][0].options).toEqual({ preferChords: true })
+  })
+
   test('skips YouTube search when links are already present', function() {
     const enqueueLookup = jest.fn()
     const tune = { id: 't1', name: 'Song', links: [{ link: 'https://youtu.be/abc' }] }
@@ -119,7 +133,7 @@ describe('startEnhanceJobs', function() {
     }
     const result = startEnhanceJobs(
       [tune],
-      selectionWith(['playRange', 'key', 'lyrics']),
+      selectionWith(['playRange', 'key', 'tempo', 'lyrics']),
       {
         resolverAvailable: true,
         features: { whisper: true, practiceAnalysis: true, stems: true },
@@ -135,7 +149,7 @@ describe('startEnhanceJobs', function() {
       expect.anything(),
       't1',
       expect.objectContaining({
-        suggestionKinds: ['key', 'lyrics'],
+        suggestionKinds: ['key', 'tempo', 'lyrics'],
       })
     )
   })
@@ -164,6 +178,28 @@ describe('startEnhanceJobs', function() {
     )
   })
 
+  test('filters unavailable audio options when features are missing', function() {
+    const tunebook = {
+      utils: {
+        isYoutubeLink: function() { return true },
+      },
+    }
+    const result = startEnhanceJobs(
+      [{ id: 't1', name: 'Song', links: [{ link: 'https://youtu.be/dQw4w9WgXcQ' }] }],
+      selectionWith(['key', 'tempo', 'artist']),
+      {
+        resolverAvailable: true,
+        features: {},
+        fieldLookupQueue: { enqueueLookup: jest.fn().mockReturnValue('job-1') },
+        analysisDeps: { tunebook: tunebook },
+        tunebook: tunebook,
+      }
+    )
+    expect(result.fieldLookups).toBe(1)
+    expect(result.analysis).toBe(0)
+    expect(requestTuneMediaAnalysis).not.toHaveBeenCalled()
+  })
+
   test('toast message lists started work', function() {
     expect(enhanceStartToastMessage({ started: 0 })).toMatch(/No new enhancements/)
     expect(enhanceStartToastMessage({
@@ -175,5 +211,47 @@ describe('startEnhanceJobs', function() {
       playRange: 0,
       analysis: 0,
     })).toBe('Started 2 lookups.')
+  })
+
+  test('passes selected audioLinkIndex to analysis and play-range scan', function() {
+    const maybeAutoScan = jest.fn()
+    const tunebook = {
+      utils: {
+        isYoutubeLink: function() { return true },
+      },
+    }
+    const tune = {
+      id: 't1',
+      name: 'Song',
+      links: [
+        { link: 'https://youtu.be/aaaaaaaaaaa' },
+        { link: 'https://youtu.be/bbbbbbbbbbb' },
+      ],
+    }
+    const result = startEnhanceJobs(
+      [tune],
+      selectionWith(['playRange', 'key']),
+      {
+        resolverAvailable: true,
+        features: { whisper: true, practiceAnalysis: true },
+        maybeAutoScan: maybeAutoScan,
+        analysisDeps: { tunebook: tunebook },
+        tunebook: tunebook,
+        audioLinkIndex: 1,
+        hasScannableLinkedMedia: true,
+      }
+    )
+    expect(result.playRange).toBe(1)
+    expect(result.analysis).toBe(1)
+    expect(maybeAutoScan).toHaveBeenCalledTimes(1)
+    expect(maybeAutoScan.mock.calls[0][1]).toBe(1)
+    expect(requestTuneMediaAnalysis).toHaveBeenCalledWith(
+      expect.anything(),
+      't1',
+      expect.objectContaining({
+        linkIndex: 1,
+        suggestionKinds: ['key'],
+      })
+    )
   })
 })

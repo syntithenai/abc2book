@@ -1329,7 +1329,7 @@ export default function ImportReviewBridge(props) {
       <ImportReviewModal
         show={showModal}
         embedded={!!props.embedded}
-        reviewPageMode={false}
+        reviewPageMode={location.pathname.indexOf('/add') === 0}
         onContinueLater={handleContinueLater}
         setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         session={session}

@@ -82,8 +82,8 @@ describe('backgroundReviewQueue', function() {
     expect(summary.ready).toBe(0)
   })
 
-  test('awaiting field lookup jobs are not Import Review ready', function() {
-    tuneFieldLookupQueue.seedAwaitingLookup({
+  test('counts awaiting tune field lookups for suggestions review', function() {
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
       tuneId: 't1',
       kind: 'composer',
       title: 'Wonderwall',
@@ -92,10 +92,11 @@ describe('backgroundReviewQueue', function() {
         { artist: 'Other', source: 'web' },
       ],
     })
+    expect(id).toBeTruthy()
     const summary = getBackgroundReviewSummary()
-    expect(summary.fieldLookupAwaiting).toEqual([])
-    expect(summary.fieldLookupAwaitingJobs.length).toBe(0)
-    expect(summary.ready).toBe(0)
+    expect(summary.fieldLookupAwaiting).toEqual([id])
+    expect(summary.fieldLookupAwaitingJobs.length).toBe(1)
+    expect(summary.ready).toBe(1)
   })
 
   test('excludes field lookup jobs already linked into import review', function() {
@@ -111,6 +112,7 @@ describe('backgroundReviewQueue', function() {
     const summary = getBackgroundReviewSummary()
     expect(summary.fieldLookupAwaiting).toEqual([])
     expect(summary.fieldLookupAwaitingJobs.length).toBe(0)
+    expect(summary.ready).toBe(0)
   })
 
   test('does not count blank Add-tunes drafts as ready for review', function() {
@@ -175,7 +177,8 @@ describe('backgroundReviewQueue', function() {
 
     const cleared = tuneFieldLookupQueue.clearOrphanFieldLookupReviewLinks(null)
     expect(cleared).toBe(1)
-    expect(getBackgroundReviewSummary().ready).toBe(0)
-    expect(getBackgroundReviewSummary().fieldLookupAwaiting).toEqual([])
+    // Cleared orphan link: job is awaiting again and counts for suggestions review.
+    expect(getBackgroundReviewSummary().ready).toBe(1)
+    expect(getBackgroundReviewSummary().fieldLookupAwaiting).toEqual([id])
   })
 })

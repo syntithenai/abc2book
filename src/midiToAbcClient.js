@@ -30,6 +30,21 @@ function buildMidiImportUrl(options) {
   if (opts.cleanupOptions && typeof opts.cleanupOptions === 'object') {
     params.set('cleanup_options', JSON.stringify(opts.cleanupOptions));
   }
+  if (Array.isArray(opts.importVoices) && opts.importVoices.length) {
+    params.set('import_voices', JSON.stringify(opts.importVoices.map(function(voice) {
+      return {
+        source_ids: voice.sourceIds || [],
+        name: voice.displayName || voice.name || '',
+        staff: voice.staff || 'auto',
+        system: voice.system || 'own',
+        is_drum: !!voice.isDrum,
+        collapse_chords: !!voice.collapseChords,
+      };
+    })));
+  }
+  if (Array.isArray(opts.staffByVoice) && opts.staffByVoice.length) {
+    params.set('staff_by_voice', opts.staffByVoice.join(','));
+  }
   const query = params.toString();
   return query ? '/midi2abc?' + query : '/midi2abc';
 }

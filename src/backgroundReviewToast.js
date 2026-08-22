@@ -7,6 +7,7 @@ const BACKGROUND_REVIEW_TOAST_ID = 'background-review'
 const BACKGROUND_PROCESSING_TOAST_ID = 'background-review-processing'
 const BULK_IMPORT_STARTED_TOAST_ID = 'bulk-import-started'
 const IMPORT_REVIEW_READY_TOAST_ID = 'import-review-ready'
+const FIELD_LOOKUP_READY_TOAST_ID = 'field-lookup-review-ready'
 const PROCESSING_TOAST_AUTO_CLOSE_MS = 4000
 const CONTINUING_TOAST_AUTO_CLOSE_MS = 5000
 const REVIEW_TOAST_SUPPRESS_MS = 30000
@@ -19,6 +20,8 @@ let lastProcessingCount = 0
 let shownReadyFingerprint = null
 let shownImportReadyFingerprint = null
 let lastImportProcessing = 0
+let shownFieldLookupReadyFingerprint = null
+let lastFieldLookupProcessing = 0
 
 function markReviewToastDismissedNow() {
   reviewToastDismissedUntil = Date.now() + REVIEW_TOAST_SUPPRESS_MS
@@ -37,6 +40,7 @@ export function dismissBackgroundReviewToast() {
   dismissReviewToastProgrammatically()
   toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
   toast.dismiss(IMPORT_REVIEW_READY_TOAST_ID)
+  toast.dismiss(FIELD_LOOKUP_READY_TOAST_ID)
 }
 
 export function showBulkImportStartedToast(options) {
@@ -82,11 +86,17 @@ export function collectReadyReviewKeys(summary) {
 }
 
 /**
- * Ready toast is only for attach-analysis work (file OCR / media), not field lookups.
+ * Ready toast keys for attach-analysis work (file OCR / media).
  */
 export function collectAttachAnalysisReadyKeys(summary) {
   return collectReadyReviewKeys(summary).filter(function(key) {
     return key.indexOf('fileocr:') === 0 || key.indexOf('media:') === 0
+  })
+}
+
+export function collectFieldLookupReadyKeys(summary) {
+  return collectReadyReviewKeys(summary).filter(function(key) {
+    return key.indexOf('field:') === 0
   })
 }
 
@@ -127,6 +137,8 @@ export function __resetBackgroundReviewToastForTests() {
   shownReadyFingerprint = null
   shownImportReadyFingerprint = null
   lastImportProcessing = 0
+  shownFieldLookupReadyFingerprint = null
+  lastFieldLookupProcessing = 0
 }
 
 function renderReviewToast(message, opts, renderProps) {
@@ -148,8 +160,7 @@ function renderReviewToast(message, opts, renderProps) {
 }
 
 /**
- * Show ready toast for file OCR (and media keys if present). Field-lookup ready
- * items stay on the Review suggestions page without a persistent toast.
+ * Show ready toasts for file OCR / media, import review, and field-lookup suggestions.
  */
 export function syncBackgroundReviewToast(options) {
   const opts = options || {}
@@ -259,7 +270,50 @@ export function syncBackgroundReviewToast(options) {
 
   lastImportProcessing = importProcessing
 
-  return readyMessage || processingMessage || importReadyMessage || null
+  const fieldReadyKeys = collectFieldLookupReadyKeys(summary)
+  const fieldReadyCount = fieldReadyKeys.length
+  const fieldProcessing = Array.isArray(summary.fieldLookupProcessing)
+    ? summary.fieldLookupProcessing.length
+    : 0
+  const fieldFingerprint = fieldReadyKeys.slice().sort().join('|')
+  const fieldProcessingDropped = lastFieldLookupProcessing > 0 && fieldProcessing === 0
+  const fieldFingerprintChanged = fieldFingerprint !== shownFieldLookupReadyFingerprint
+  const fieldReadyMessage = fieldReadyCount > 0
+    ? (fieldReadyCount === 1
+      ? '1 search result ready for review'
+      : (fieldReadyCount + ' search results ready for review'))
+    : ''
+
+  if (fieldProcessing > 0 || !fieldReadyMessage || opts.suppressReadyToast || isReviewToastSuppressed()) {
+    if (fieldProcessing > 0 || fieldReadyCount === 0 || opts.suppressReadyToast) {
+      toast.dismiss(FIELD_LOOKUP_READY_TOAST_ID)
+      if (fieldReadyCount === 0) shownFieldLookupReadyFingerprint = null
+    }
+  } else if (fieldProcessingDropped || fieldFingerprintChanged) {
+    shownFieldLookupReadyFingerprint = fieldFingerprint
+    suppressNextCloseCapture = false
+    toast.warn(
+      function(renderProps) {
+        return renderReviewToast(fieldReadyMessage, opts, renderProps)
+      },
+      {
+        toastId: FIELD_LOOKUP_READY_TOAST_ID,
+        autoClose: false,
+        closeOnClick: false,
+        onClose: function() {
+          if (suppressNextCloseCapture) {
+            suppressNextCloseCapture = false
+            return
+          }
+          markReviewToastDismissedNow()
+        },
+      }
+    )
+  }
+
+  lastFieldLookupProcessing = fieldProcessing
+
+  return readyMessage || processingMessage || importReadyMessage || fieldReadyMessage || null
 }
 
 export function showBackgroundProcessingNotice(options) {

@@ -5,6 +5,7 @@ import {
   loadMidiInstruments,
   stopInstrumentNotes,
 } from './midiSoundfontProvider'
+import { createMidiFileEndHandler } from './midiFileUtils'
 
 const DRUM_CHANNEL = 9
 
@@ -15,6 +16,11 @@ export default function useMidiFilePlayback(options) {
   const onEnded = opts.onEnded
   const onError = opts.onError
   const onTimeUpdate = opts.onTimeUpdate
+  const audibleTrackIdsRef = useRef(opts.audibleTrackIds || null)
+
+  useEffect(function() {
+    audibleTrackIdsRef.current = opts.audibleTrackIds || null
+  }, [opts.audibleTrackIds])
 
   const playerRef = useRef(null)
   const instrumentsRef = useRef(null)
@@ -68,6 +74,10 @@ export default function useMidiFilePlayback(options) {
     if (!instruments || !event) return
     const ac = getAudioContext()
     const trackIndex = Math.max(0, (event.track || 1) - 1)
+    const audible = audibleTrackIdsRef.current
+    if (Array.isArray(audible) && audible.indexOf(trackIndex) < 0) {
+      return
+    }
     const channel = event.channel != null ? event.channel : 0
     const program = Array.isArray(playerRef.current && playerRef.current.instruments)
       ? playerRef.current.instruments[trackIndex]
@@ -149,10 +159,13 @@ export default function useMidiFilePlayback(options) {
         })
       })
 
-      player.on('endOfFile', function() {
-        clearTimeUpdateTimer()
-        if (onEnded) onEnded()
-      })
+      player.on('endOfFile', createMidiFileEndHandler({
+        player: player,
+        onEnded: onEnded,
+        clearTimeUpdateTimer: clearTimeUpdateTimer,
+        stopActiveNotes: stopActiveNotes,
+        startTimeUpdateTimer: startTimeUpdateTimer,
+      }))
 
       try {
         if (midiData instanceof ArrayBuffer) {
@@ -186,7 +199,8 @@ export default function useMidiFilePlayback(options) {
     return Promise.resolve()
   }, [])
 
-  const start = useCallback(async function() {
+  const start = useCallback(async function(options) {
+    const opts = options || {}
     const ac = getAudioContext()
     if (ac.state === 'suspended') {
       try {
@@ -197,6 +211,20 @@ export default function useMidiFilePlayback(options) {
     }
     if (ac.state !== 'running') return false
     if (!isReadyRef.current || !playerRef.current) return false
+    const restart = !!(opts.restart || opts.fresh || opts.fromStart)
+      || opts.preservePosition === false
+    if (restart) {
+      const startAt = Number.isFinite(opts.startAtSeconds) && opts.startAtSeconds > 0
+        ? opts.startAtSeconds
+        : 0
+      stopActiveNotes()
+      if (playerRef.current.isPlaying()) {
+        try { playerRef.current.pause() } catch (e) { /* ignore */ }
+      }
+      try {
+        playerRef.current.skipToSeconds(startAt)
+      } catch (e) { /* ignore */ }
+    }
     if (!playerRef.current.isPlaying()) {
       playerRef.current.play()
       startTimeUpdateTimer()
@@ -213,7 +241,10 @@ export default function useMidiFilePlayback(options) {
     if (!playerRef.current || !isReadyRef.current) return 0
     const wasPlaying = playerRef.current.isPlaying()
     stop()
-    playerRef.current.skipToSeconds(seconds)
+    const target = Math.max(0, parseFloat(seconds) || 0)
+    try {
+      playerRef.current.skipToSeconds(target)
+    } catch (e) { /* ignore */ }
     if (wasPlaying) {
       playerRef.current.play()
       startTimeUpdateTimer()

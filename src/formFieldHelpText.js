@@ -221,6 +221,10 @@ export const PLAYALONG_FIELD_HELP = {
     title: 'Playback volume',
     body: 'Volume of the MIDI you play along with. This stays a quiet reference so you can hear yourself over it.',
   },
+  outputLatency: {
+    title: 'Headphones and speakers',
+    body: 'Bluetooth headphones often delay the MIDI by 150–300 ms. You play what you hear, so note onsets on the pitch graph can look late. Wired speakers or headphones give the most accurate onset alignment.',
+  },
   instrument: {
     title: 'Instrument',
     body: 'Play-along pitch tracking follows one melody note at a time. Chords, drones, and harmony parts are not tracked. Choose the instrument you are playing so the tracker looks in that pitch range (for example a low D tin whistle versus a high D whistle or soprano recorder).',
@@ -236,16 +240,67 @@ export const MIDI_CLEANUP_FIELD_HELP = {
     title: 'Velocity gate',
     body: 'Drops notes below this MIDI velocity. Useful for filtering pedal noise, bleed, and weak double-strikes before quantization.',
   },
+  velocityMax: {
+    title: 'Velocity max',
+    body: 'Drops notes louder than this MIDI velocity. Rarely needed; useful for clipping extreme peaks before notation.',
+  },
   minDurationMs: {
     title: 'Min duration (ms)',
     body: 'Removes notes shorter than this length. Trims flams and ghost notes but can remove fast ornaments if set too high.',
+  },
+  maxDurationMs: {
+    title: 'Max duration (ms)',
+    body: 'Truncates notes longer than this length (does not drop them unless they would fall below the min duration). Use 0 to disable.',
   },
   retriggerMergeMs: {
     title: 'Retrigger merge (ms)',
     body: 'Merges same-pitch notes when the gap between the end of one and the start of the next is within this tolerance. Reduces machine-gun retrigger artifacts.',
   },
-  swingAmount: {
-    title: 'Swing amount',
-    body: 'Shifts off-beat eighth notes later (0–50%). Adjusts timing before quantization; this is not the same as swing playback in the editor.',
+  pitchMin: {
+    title: 'Pitch min',
+    body: 'Keep only notes at or above this MIDI pitch (0–127).',
   },
+  pitchMax: {
+    title: 'Pitch max',
+    body: 'Keep only notes at or below this MIDI pitch (0–127).',
+  },
+  keepPolyphonicChords: {
+    title: 'Keep polyphonic chords',
+    body: 'When on, simultaneous pitches stay as chords. When off, each onset collapses to the highest pitch (top note). Separate from Infer chord symbols.',
+  },
+  rhythmDetail: {
+    title: 'Rhythm detail',
+    body: 'How fine the quantization grid is for the live Interpreted preview and import (quarters, eighths, or sixteenths).',
+  },
+  quantStrength: {
+    title: 'Quantize strength',
+    body: 'How strongly note starts snap to the rhythm grid. Lower values keep more of the original timing in the live preview.',
+  },
+};
+
+export const MIDI_IMPORT_WIZARD_HELP = {
+  title: 'MIDI import help',
+  overview: 'Import a Standard MIDI File into ABC notation. Flow: Select a file, choose Tracks to import, refine Cleanup (filters + rhythm), then Preview and Import.',
+  sections: [
+    {
+      title: 'Select',
+      body: 'Pick or replace a .mid / .midi file. Replacing a file re-analyzes it and resets track selection, groups, splits, and cleanup overrides.',
+    },
+    {
+      title: 'Tracks',
+      body: 'One Import checkbox per row selects what becomes notation. Mute/Solo only affect audition playback and do not change import. Role filter only hides rows; it does not change Import. Group selected merges Import-checked pitched tracks into one voice. Staff and System are edited on the Import voices list (and optionally in Show advanced columns).',
+    },
+    {
+      title: 'Cleanup',
+      body: 'Filters remove ghosts and out-of-range notes; Keep polyphonic chords controls whether simultaneous pitches collapse to the top note. Mode, Import strategy, Rhythm detail, Quantize strength, and Infer chord symbols live here so the Interpreted score updates live. Split tracks opens a dialog with treble/bass preview; confirming returns you to Tracks with the original replaced by high and low voices. Import strategy (MusicXML / MuseScore) applies on Continue → Preview; live preview always uses note-events.',
+    },
+    {
+      title: 'Tempo, meter, and key',
+      body: 'The sticky strip shows voice counts plus tempo, meter, and key. Recalc estimates tempo from the current import selection. Lock tempo or meter so later steps keep that grid. Use key chooses the ABC key signature; Detected is informational.',
+    },
+    {
+      title: 'Preview',
+      body: 'Generates the final ABC (via the media resolver when available, or local note-events). Review notation, then Import to add the tune.',
+    },
+  ],
 };

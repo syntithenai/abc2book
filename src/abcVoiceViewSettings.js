@@ -37,9 +37,17 @@ function writeAllStored(map) {
 export function defaultVoiceViewSettings(voiceKeys) {
   const visible = {};
   const playable = {};
-  (voiceKeys || []).forEach(function(key) {
-    visible[key] = true;
-    playable[key] = true;
+  const keys = voiceKeys || [];
+  const primary = resolvePrimaryVoiceKey(
+    keys.reduce(function(acc, key) {
+      acc[key] = true;
+      return acc;
+    }, {})
+  );
+  keys.forEach(function(key) {
+    const on = key === primary;
+    visible[key] = on;
+    playable[key] = on;
   });
   return { visible, playable };
 }
@@ -119,16 +127,17 @@ export function hasFilteredPlaybackVoices(tune) {
   return getPlaybackVoiceKeys(tune.id, voiceKeys).length < voiceKeys.length;
 }
 
-/** Indices of tune.activeVoices within voiceKeys; defaults to all voices when unset. */
+/** Indices of tune.activeVoices within voiceKeys; defaults to first voice when unset. */
 export function activeVoiceIndicesFromTune(tune, voiceKeys) {
   const keys = voiceKeys && voiceKeys.length ? voiceKeys : getTuneVoiceKeys(tune);
   if (!tune || !Array.isArray(tune.activeVoices)) {
-    return keys.map(function(_key, index) { return index; });
+    return keys.length > 0 ? [0] : [];
   }
   const indices = [];
   tune.activeVoices.forEach(function(key) {
     const idx = keys.indexOf(key);
     if (idx >= 0) indices.push(idx);
   });
+  if (indices.length === 0 && keys.length > 0) return [0];
   return indices.sort(function(a, b) { return a - b; });
 }

@@ -35,6 +35,14 @@ import {
   openImportReviewFromToast,
   subscribeImportReviewSession,
 } from '../importReviewSessionStore'
+import {
+  getBackgroundReviewRevision,
+  getBackgroundReviewSummary,
+  subscribeBackgroundReviewQueue,
+} from '../backgroundReviewQueue'
+import {
+  subscribe as subscribeFieldLookupQueue,
+} from '../tuneFieldLookupQueue'
 
 export default function Header(props) {
     var location = useLocation()
@@ -53,8 +61,25 @@ export default function Header(props) {
         getImportReviewSessionRevision,
         function() { return '' }
     )
+    const backgroundReviewRevision = useSyncExternalStore(
+        function(listener) {
+            const unsubQueue = subscribeBackgroundReviewQueue(listener)
+            const unsubField = subscribeFieldLookupQueue(listener)
+            return function() {
+                unsubQueue()
+                unsubField()
+            }
+        },
+        getBackgroundReviewRevision,
+        function() { return '' }
+    )
     const showImportReviewButton = hasActiveImportReviewSession() && !isImportReviewUiVisible()
+    const fieldLookupAwaitingCount = (getBackgroundReviewSummary().fieldLookupAwaiting || []).length
+    const showSuggestionsReviewButton = fieldLookupAwaitingCount > 0
+        && location.pathname !== '/review'
+        && !location.pathname.startsWith('/review/')
     void importReviewRevision
+    void backgroundReviewRevision
     const token = props.token
     const user = props.user
     const loadUserImage = props.loadUserImage
@@ -337,6 +362,26 @@ export default function Header(props) {
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.reviewsmall || props.tunebook.icons.review}
                                     <span>Review</span>
+                                </span>
+                            </Button>
+                        ) : null}
+                        {showSuggestionsReviewButton ? (
+                            <Button
+                                as={Link}
+                                to="/review"
+                                variant="primary"
+                                size={navButtonSize}
+                                className="header-dropdown-btn header-dropdown-review-btn"
+                                title={fieldLookupAwaitingCount === 1
+                                    ? '1 search result ready for review'
+                                    : (fieldLookupAwaitingCount + ' search results ready for review')}
+                                aria-label="Review search suggestions"
+                                data-testid="header-suggestions-review-button"
+                                onClick={function() { setNavMenuOpen(false) }}
+                            >
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.reviewsmall || props.tunebook.icons.review}
+                                    <span>{showImportReviewButton ? 'Suggestions' : 'Review'}</span>
                                 </span>
                             </Button>
                         ) : null}
@@ -623,7 +668,7 @@ export default function Header(props) {
             icons={props.tunebook.icons}
             imageError={userImageError}
             onImageError={function() { setUserImageError(true) }}
-            mediaController={props.mediaController}
+            tunes={props.tunes}
         />
     </header>
 }

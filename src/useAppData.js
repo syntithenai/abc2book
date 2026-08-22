@@ -7,6 +7,20 @@ import { loadActiveQueue, persistActiveQueue, normalizeQueuePlaybackModes } from
 import { isAndroidApp } from './platformUtils'
 import { readSearchFilterParamsFromHash } from './searchFilterParams'
 import { shouldRefuseTunesPersist } from './tunesPersistenceGuard'
+import {
+  applyTuneDisplaySettingsToBook,
+  persistableTuneWithoutDisplaySettings,
+} from './tuneDisplaySettings'
+
+function bookForPersistence(tunes) {
+  const out = {}
+  Object.keys(tunes || {}).forEach(function(id) {
+    const tune = tunes[id]
+    if (!tune) return
+    out[id] = persistableTuneWithoutDisplaySettings(tune)
+  })
+  return out
+}
 
 const initialSearchFiltersFromHash = readSearchFilterParamsFromHash()
 
@@ -271,7 +285,7 @@ export default function useAppData() {
       pendingTunesSaveRef.current = null
       return
     }
-    utils.saveLocalforageObject('bookstorage_tunes', pendingTunesSaveRef.current)
+    utils.saveLocalforageObject('bookstorage_tunes', bookForPersistence(pendingTunesSaveRef.current))
     pendingTunesSaveRef.current = null
   }
 
@@ -306,6 +320,7 @@ export default function useAppData() {
     function hydrateTunes() {
       utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
         const loaded = t || {}
+        applyTuneDisplaySettingsToBook(loaded)
         // Drop any save scheduled against the empty pre-hydrate book.
         clearPendingTunesSave()
         setTunesInner(loaded)

@@ -13,8 +13,18 @@ import {
   refinePlayalongMusicStartOffsetSeconds,
   clearPlayalongTakesPatch,
   renderPlayalongTakesAbc,
+  applyPlayalongTakePitchPct,
   shouldContinuePlayalongLoop,
   shouldShowPlayalongRecordButton,
+  effectivePlayalongMusicOffsetSeconds,
+  livePlayalongMusicOffsetSeconds,
+  savedPlayalongMusicOffsetSeconds,
+  residualPlayalongOutputLatencySeconds,
+  getPlayalongOutputLatencySeconds,
+  isHighPlayalongOutputLatency,
+  readAudioContextOutputLatencySeconds,
+  PLAYALONG_PITCH_LATENCY_SECONDS,
+  PLAYALONG_HIGH_OUTPUT_LATENCY_SECONDS,
 } from './playalongTakes'
 import { displayFlagsToViewMode, viewModeToDisplayFlags } from './viewModeUtils'
 import useAbcTools from './useAbcTools'
@@ -178,6 +188,8 @@ describe('playalongTakes', function() {
       duration: 9,
       musicStartOffsetSeconds: 2,
       tempoBpm: 100,
+      outputLatencySeconds: 0,
+      pitchPct: null,
     }])
   })
 
@@ -252,4 +264,83 @@ describe('playalongTakes', function() {
       { timeMs: 2680, rawMidi: 69 },
     ], { firstExpectedMidi: 69 })).toBeCloseTo(2.613, 3)
   })
+
+  test('livePlayalongMusicOffsetSeconds omits detector latency used for saved takes', function() {
+    expect(livePlayalongMusicOffsetSeconds(2.4)).toBeCloseTo(2.4, 5)
+    expect(effectivePlayalongMusicOffsetSeconds(2.4)).toBeCloseTo(
+      2.4 + PLAYALONG_PITCH_LATENCY_SECONDS,
+      5
+    )
+    expect(effectivePlayalongMusicOffsetSeconds(2.4, 0)).toBeCloseTo(2.4, 5)
+  })
+
+  test('reported output latency increases live and saved mapping offsets', function() {
+    const opts = { outputLatencySeconds: 0.2 }
+    expect(livePlayalongMusicOffsetSeconds(2.4, opts)).toBeCloseTo(2.6, 5)
+    expect(savedPlayalongMusicOffsetSeconds(2.4, opts)).toBeCloseTo(2.6, 5)
+    expect(effectivePlayalongMusicOffsetSeconds(
+      savedPlayalongMusicOffsetSeconds(2.4, opts)
+    )).toBeCloseTo(2.6 + PLAYALONG_PITCH_LATENCY_SECONDS, 5)
+    expect(livePlayalongMusicOffsetSeconds(2.4, opts)).toBeLessThan(
+      effectivePlayalongMusicOffsetSeconds(savedPlayalongMusicOffsetSeconds(2.4, opts))
+    )
+  })
+
+  test('residual output latency skips latency already applied to the timeline', function() {
+    expect(residualPlayalongOutputLatencySeconds({
+      outputLatencySeconds: 0.25,
+      outputLatencyAlreadyInTimeline: true,
+      outputLatencyAppliedSeconds: 0.1,
+    })).toBeCloseTo(0.15, 5)
+    expect(residualPlayalongOutputLatencySeconds({
+      outputLatencySeconds: 0.25,
+      outputLatencyAlreadyInTimeline: true,
+    })).toBe(0)
+    expect(livePlayalongMusicOffsetSeconds(2.0, {
+      outputLatencySeconds: 0.25,
+      outputLatencyAlreadyInTimeline: true,
+      outputLatencyAppliedSeconds: 0.25,
+    })).toBeCloseTo(2.0, 5)
+  })
+
+  test('getPlayalongOutputLatencySeconds reads AudioContext device latency', function() {
+    expect(readAudioContextOutputLatencySeconds({
+      outputLatency: 0.18,
+      baseLatency: 0.02,
+    })).toBeCloseTo(0.2, 5)
+    expect(getPlayalongOutputLatencySeconds({
+      audioContext: { outputLatency: 0.15, baseLatency: 0.01 },
+      pitchShifter: { getOutputLatencySec: function() { return 0.05 } },
+    })).toBeCloseTo(0.21, 5)
+    expect(isHighPlayalongOutputLatency(PLAYALONG_HIGH_OUTPUT_LATENCY_SECONDS)).toBe(true)
+    expect(isHighPlayalongOutputLatency(0.02)).toBe(false)
+  })
+
+  test('ABC comments round-trip pitchPct on takes', function() {
+    const abc = renderPlayalongTakesAbc({
+      playalongTakes: [{
+        recordingId: 'rec1',
+        createdAt: '2026-08-18T00:00:00.000Z',
+        duration: 12.5,
+        musicStartOffsetSeconds: 2,
+        tempoBpm: 100,
+        pitchPct: 91,
+      }],
+    })
+    expect(abc).toContain('"pitchPct":91')
+    const parsed = parsePlayalongTakeComment(abc.trim().split('\n')[0])
+    expect(parsed.pitchPct).toBe(91)
+  })
+
+  test('applyPlayalongTakePitchPct keeps the higher score', function() {
+    const list = [{ recordingId: 'a', pitchPct: 70 }]
+    const lower = applyPlayalongTakePitchPct(list, 'a', 60)
+    expect(lower.changed).toBe(false)
+    expect(lower.takes[0].pitchPct).toBe(70)
+    const higher = applyPlayalongTakePitchPct(list, 'a', 85)
+    expect(higher.changed).toBe(true)
+    expect(higher.takes[0].pitchPct).toBe(85)
+  })
+
+
 })

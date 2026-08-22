@@ -214,16 +214,6 @@
   object-fit: contain;
 }
 
-.playlist-follow-icon {
-  opacity: 0.55;
-  filter: grayscale(1);
-}
-
-.playlist-follow-icon--active {
-  opacity: 1;
-  filter: none;
-}
-
 @media (max-width: 991px) {
   .now-playing-transport-main {
     grid-template-columns: auto minmax(0, 1fr) auto;

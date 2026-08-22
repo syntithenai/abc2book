@@ -14,7 +14,10 @@ function TagsSelectorModal(props) {
       setShow(false);
       if (props.handleClose) props.handleClose()
   }
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+      setShow(true);
+      if (typeof props.onOpen === 'function') props.onOpen();
+  };
 
   useEffect(function() {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(show)

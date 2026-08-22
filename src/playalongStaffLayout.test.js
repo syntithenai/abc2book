@@ -7,6 +7,7 @@ import {
   maxAbcjsLineIndex,
   measureAbcjsLineLayout,
   mountSvgLineSlice,
+  scrollPlayalongPlayingLineIntoCenter,
 } from './playalongStaffLayout'
 
 function svgEl(tag, className) {
@@ -137,5 +138,36 @@ describe('playalongStaffLayout', function() {
     expect(host.querySelector('svg').style.top).toBe('-10px')
     host.remove()
     svg.remove()
+  })
+
+  test('scrollPlayalongPlayingLineIntoCenter centers the matching interleave row', function() {
+    const stack = document.createElement('div')
+    stack.className = 'playalong-notation-stack playalong-notation-stack--sliced'
+    const line0 = document.createElement('div')
+    line0.className = 'playalong-interleave-line'
+    line0.setAttribute('data-line-index', '0')
+    line0.setAttribute('data-slice-top', '0')
+    line0.setAttribute('data-slice-height', '40')
+    const line1 = document.createElement('div')
+    line1.className = 'playalong-interleave-line'
+    line1.setAttribute('data-line-index', '1')
+    line1.setAttribute('data-slice-top', '50')
+    line1.setAttribute('data-slice-height', '40')
+    line1.scrollIntoView = jest.fn()
+    line0.scrollIntoView = jest.fn()
+    stack.appendChild(line0)
+    stack.appendChild(line1)
+    document.body.appendChild(stack)
+
+    const note = document.createElement('div')
+    note.className = 'abcjs-note abcjs-l1'
+    const ok = scrollPlayalongPlayingLineIntoCenter({
+      top: 60,
+      elements: [[note]],
+    })
+    expect(ok).toBe(true)
+    expect(line1.scrollIntoView).toHaveBeenCalled()
+    expect(line1.scrollIntoView.mock.calls[0][0]).toEqual({ block: 'center', inline: 'nearest' })
+    stack.remove()
   })
 })

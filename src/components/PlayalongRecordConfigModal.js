@@ -86,6 +86,9 @@ export default function PlayalongRecordConfigModal(props) {
               patchSettings({ playbackGain: sliderPercentToReferenceGain(e.target.value) })
             }}
           />
+          <div className="text-muted small" style={{ marginTop: '0.35rem' }} data-testid="playalong-output-latency-note">
+            {PLAYALONG_FIELD_HELP.outputLatency.body}
+          </div>
         </div>
         <div style={{ marginBottom: '0.85rem' }}>
           <FormLabelWithHelp

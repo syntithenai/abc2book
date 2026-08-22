@@ -6,12 +6,34 @@ const CHART_PANEL_SELECTORS = [
   '.tune-panel-structure',
 ]
 
+const PLAYBACK_CURSOR_SELECTOR = 'line.abcjs-cursor'
+
 function waitTwoFrames() {
   return new Promise(function(resolve) {
     requestAnimationFrame(function() {
       requestAnimationFrame(resolve)
     })
   })
+}
+
+function hidePlaybackCursors(root) {
+  if (!root || !root.querySelectorAll) return function() {}
+  const nodes = root.querySelectorAll(PLAYBACK_CURSOR_SELECTOR)
+  const restores = []
+  for (let i = 0; i < nodes.length; i++) {
+    const el = nodes[i]
+    const prevVisibility = el.style.visibility
+    const prevOpacity = el.style.opacity
+    el.style.visibility = 'hidden'
+    el.style.opacity = '0'
+    restores.push(function() {
+      el.style.visibility = prevVisibility
+      el.style.opacity = prevOpacity
+    })
+  }
+  return function() {
+    for (let i = 0; i < restores.length; i++) restores[i]()
+  }
 }
 
 /**
@@ -33,6 +55,7 @@ export async function captureTuneChartPanels() {
       el.style.display = prevDisplay
       el.style.visibility = prevVisibility
     })
+    restores.push(hidePlaybackCursors(el))
     panels.push(el)
   }
 

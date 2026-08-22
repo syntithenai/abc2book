@@ -142,21 +142,24 @@ describe('notationPlaybackCursor', function() {
     expect(bars[1].milliseconds).toBe(1000)
   })
 
-  test('cursorPositionFromNoteTimings uses the sounding bar downbeat, not a late measureStart', function() {
+  test('cursorPositionFromNoteTimings snaps to the current beat, not every note', function() {
     const timings = [
-      { left: 10, top: 5, height: 40, milliseconds: 0, line: 0, measureNumber: 0 },
-      { left: 30, top: 5, height: 40, milliseconds: 500, line: 0, measureNumber: 0, measureStart: true },
-      { left: 50, top: 5, height: 40, milliseconds: 1000, line: 0, measureNumber: 1 },
-      { left: 70, top: 5, height: 40, milliseconds: 1500, line: 0, measureNumber: 1, measureStart: true },
+      { left: 10, top: 5, height: 40, milliseconds: 0, line: 0, measureNumber: 0, measureStart: true, millisecondsPerMeasure: 1000 },
+      { left: 20, top: 5, height: 40, milliseconds: 250, line: 0, measureNumber: 0 },
+      { left: 30, top: 5, height: 40, milliseconds: 500, line: 0, measureNumber: 0 },
+      { left: 40, top: 5, height: 40, milliseconds: 750, line: 0, measureNumber: 0 },
+      { left: 50, top: 5, height: 40, milliseconds: 1000, line: 0, measureNumber: 1, measureStart: true, millisecondsPerMeasure: 1000 },
+      { left: 60, top: 5, height: 40, milliseconds: 1500, line: 0, measureNumber: 1 },
       { left: null, milliseconds: 2000, measureNumber: 2 },
     ]
-    const midBar = cursorPositionFromNoteTimings(timings, 750)
-    expect(midBar.left).toBe(10)
-    const secondBar = cursorPositionFromNoteTimings(timings, 1200)
-    expect(secondBar.left).toBe(50)
-    const lastBar = cursorPositionFromNoteTimings(timings, 2000)
-    expect(lastBar.left).toBe(50)
-    expect(lastBar.atEnd).not.toBe(true)
+    // Mid first beat: stay on downbeat (not the 250ms note).
+    expect(cursorPositionFromNoteTimings(timings, 300, { beatsPerMeasure: 2 }).left).toBe(10)
+    // Second beat of bar 0: move to beat anchor at 500ms.
+    expect(cursorPositionFromNoteTimings(timings, 750, { beatsPerMeasure: 2 }).left).toBe(30)
+    // Second bar downbeat.
+    expect(cursorPositionFromNoteTimings(timings, 1200, { beatsPerMeasure: 2 }).left).toBe(50)
+    // Without beatsPerMeasure, fall back to bar downbeats only.
+    expect(cursorPositionFromNoteTimings(timings, 750).left).toBe(10)
   })
 
   test('playbackClockToTimingMs uses the music clock instead of stretching extra duration', function() {
@@ -164,15 +167,21 @@ describe('notationPlaybackCursor', function() {
     expect(playbackClockToTimingMs(9, 8000, 10000)).toBe(7999)
   })
 
-  test('applyPlaybackCursorAtTime draws line on bar downbeat', function() {
+  test('playbackClockToTimingMs scales when noteTimings are longer than audio', function() {
+    // 2/4 QPM skew: timings twice the audio buffer — keep cursor on the notes.
+    expect(playbackClockToTimingMs(4, 16000, 8)).toBeCloseTo(8000)
+    expect(playbackClockToTimingMs(8, 16000, 8)).toBe(15999)
+  })
+
+  test('applyPlaybackCursorAtTime draws line on current beat anchor', function() {
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
     const cursor = applyPlaybackCursorAtTime(svg, null, [
-      { left: 12, top: 8, height: 24, milliseconds: 0, measureNumber: 0, measureStart: true },
+      { left: 12, top: 8, height: 24, milliseconds: 0, measureNumber: 0, measureStart: true, millisecondsPerMeasure: 1000 },
       { left: 20, top: 8, height: 24, milliseconds: 500, measureNumber: 0 },
-      { left: 40, top: 8, height: 24, milliseconds: 1000, measureNumber: 1, measureStart: true },
-    ], 750)
+      { left: 40, top: 8, height: 24, milliseconds: 1000, measureNumber: 1, measureStart: true, millisecondsPerMeasure: 1000 },
+    ], 750, { beatsPerMeasure: 2 })
     expect(cursor).not.toBeNull()
-    expect(cursor.getAttribute('x1')).toBe('10')
+    expect(cursor.getAttribute('x1')).toBe('18')
     expect(cursor.getAttribute('y1')).toBe('8')
     expect(cursor.getAttribute('y2')).toBe('32')
   })

@@ -3,6 +3,7 @@ import {
   isHttpMidiUrl,
   normalizeMidiBinaryData,
   isMidiHeader,
+  createMidiFileEndHandler,
 } from './midiFileUtils'
 
 describe('midiFileUtils', function() {
@@ -22,5 +23,47 @@ describe('midiFileUtils', function() {
     expect(normalizeMidiBinaryData([bytes])).toBe(bytes)
     expect(normalizeMidiBinaryData(bytes)).toBe(bytes)
     expect(isMidiHeader(bytes)).toBe(true)
+  })
+
+  test('createMidiFileEndHandler ignores endOfFile while substantial song time remains', function() {
+    const calls = []
+    const player = {
+      isPlaying: function() { return false },
+      play: function() { calls.push('play') },
+      getSongTimeRemaining: function() { return 12.5 },
+      skipToSeconds: function() { calls.push('skip') },
+    }
+    const onEnded = jest.fn()
+    const handler = createMidiFileEndHandler({
+      player: player,
+      onEnded: onEnded,
+      clearTimeUpdateTimer: function() { calls.push('clear') },
+      stopActiveNotes: function() { calls.push('stopNotes') },
+      startTimeUpdateTimer: function() { calls.push('timer') },
+    })
+    handler()
+    expect(onEnded).not.toHaveBeenCalled()
+    expect(calls).toEqual(['clear', 'stopNotes', 'play', 'timer'])
+  })
+
+  test('createMidiFileEndHandler finishes when little time remains', function() {
+    const calls = []
+    const player = {
+      isPlaying: function() { return false },
+      play: function() { calls.push('play') },
+      getSongTimeRemaining: function() { return 0.05 },
+      skipToSeconds: function(sec) { calls.push('skip:' + sec) },
+    }
+    const onEnded = jest.fn()
+    const handler = createMidiFileEndHandler({
+      player: player,
+      onEnded: onEnded,
+      clearTimeUpdateTimer: function() { calls.push('clear') },
+      stopActiveNotes: function() { calls.push('stopNotes') },
+      startTimeUpdateTimer: function() { calls.push('timer') },
+    })
+    handler()
+    expect(onEnded).toHaveBeenCalled()
+    expect(calls).toEqual(['clear', 'stopNotes', 'skip:0'])
   })
 })

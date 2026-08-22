@@ -114,7 +114,7 @@ export default function LinksEditorModal(props) {
   return (
     <>
       {!props.hideTrigger ? (
-        <Button className="tune-meta-modal-btn" aria-label="Media" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
+        <Button className={props.className || 'tune-meta-modal-btn'} aria-label="Media" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
       ) : null}
 
       <Modal

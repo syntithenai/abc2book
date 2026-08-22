@@ -41,7 +41,12 @@ export default function MediaPlayerMidiFile(props) {
       if (mc && mc.onMediaReady) mc.onMediaReady()
       if (!audioBlocked && pendingPlayRef.current && mc && mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent()) {
         pendingPlayRef.current = false
-        playback.start().then(function(ok) {
+        const regionStart = typeof mc.getLinkStartAt === 'function' ? mc.getLinkStartAt() : 0
+        playback.start({
+          restart: true,
+          fresh: true,
+          startAtSeconds: Number.isFinite(regionStart) && regionStart > 0 ? regionStart : 0,
+        }).then(function(ok) {
           if (ok) {
             if (mc.setIsPlaying) mc.setIsPlaying(true)
             if (mc.setIsLoading) mc.setIsLoading(false)
@@ -89,12 +94,17 @@ export default function MediaPlayerMidiFile(props) {
     }
 
     assignRef(mc.playMidiFileRef, async function(opts) {
+      const options = opts || {}
       const engine = playbackRef.current
       if (!engine.isReadyRef.current) {
         pendingPlayRef.current = true
         return false
       }
-      const ok = await engine.start()
+      const regionStart = typeof mc.getLinkStartAt === 'function' ? mc.getLinkStartAt() : 0
+      const startAtSeconds = Number.isFinite(regionStart) && regionStart > 0 ? regionStart : 0
+      const ok = await engine.start(Object.assign({}, options, {
+        startAtSeconds: startAtSeconds,
+      }))
       if (ok && mc.setIsPlaying) mc.setIsPlaying(true)
       if (!ok && mc.setTapToPlay) mc.setTapToPlay(true)
       if (ok && mc.setIsLoading) mc.setIsLoading(false)

@@ -207,4 +207,19 @@ describe('useAbcjsParser mergeChords harmonyOnly', function() {
     expect(merged).not.toMatch(/"G"B2G2/)
     expect(merged).toMatch(/B2G2/)
   })
+
+  test('mergeChords preserves N.C. no-chord markers', function() {
+    const { abcjsParser } = tools()
+    const emptyAbc = [
+      'X:1',
+      'T:',
+      'M:4/4',
+      'L:1/8',
+      'K:C',
+      'z8 |',
+    ].join('\n')
+    const merged = abcjsParser.mergeChords('N.C. |\nAm F Em |', emptyAbc, null)
+    expect(merged).toMatch(/"N\.C\."/)
+    expect(merged).toMatch(/"Am"/)
+  })
 })

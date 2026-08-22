@@ -6,7 +6,11 @@ import {
 
 const VOICE_META_RE = /^V:(\d+)\b(.*)$/;
 
-export function clefForMidiTrack(track) {
+export function clefForMidiTrack(track, staffOverride) {
+  if (staffOverride && staffOverride !== 'auto') {
+    if (staffOverride === 'perc') return 'perc';
+    return staffOverride;
+  }
   if (!track) return 'treble';
   if (track.isDrum || track.is_drum) return 'perc';
   const role = track.roleHint || track.role_hint || '';
@@ -79,7 +83,19 @@ export function applyMidiProfileVoiceNamesToAbc(abc, profile, options) {
   if (!text || !profile) return text;
 
   const opts = options || {};
-  const voices = voiceDescriptorsFromProfile(profile, opts.trackIds);
+  let voices = voiceDescriptorsFromProfile(profile, opts.trackIds);
+  if (Array.isArray(opts.importVoices) && opts.importVoices.length) {
+    voices = opts.importVoices.map(function(voice, index) {
+      return {
+        id: index + 1,
+        name: voice.displayName || voice.name,
+        program: voice.program,
+        isDrum: !!voice.isDrum,
+        roleHint: voice.roleHint || 'unknown',
+        staff: voice.staff || 'auto',
+      };
+    });
+  }
   if (!voices.length) return text;
 
   const lines = text.split('\n');
@@ -131,7 +147,22 @@ export function applyMidiProfileVoiceNamesToAbc(abc, profile, options) {
     });
   });
 
-  return updatedHeader.concat(bodyWithPrograms).join('\n').trim();
+  let resultLines = updatedHeader.concat(bodyWithPrograms);
+  if (opts.scoreDirective) {
+    const directive = String(opts.scoreDirective).trim();
+    if (directive) {
+      // Place after key header fields, before voice metas if possible
+      let insertAt = 0;
+      for (let i = 0; i < resultLines.length; i += 1) {
+        if (/^[A-Z]:/.test(resultLines[i]) || resultLines[i].indexOf('%%') === 0) {
+          insertAt = i + 1;
+        }
+        if (/^V:\d+/.test(resultLines[i])) break;
+      }
+      resultLines.splice(insertAt, 0, directive);
+    }
+  }
+  return resultLines.join('\n').trim();
 }
 
 /**

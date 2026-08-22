@@ -124,6 +124,7 @@ export default function ScratchpadItemPage(props) {
           tunebook={props.tunebook}
           tunes={props.tunes}
           token={props.token}
+          user={props.user}
           login={props.login}
           onChange={refresh}
           onDeleted={function() { navigate('/scratchpad') }}

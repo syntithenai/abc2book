@@ -245,12 +245,13 @@ describe('addImportDispatch', function() {
     expect(result.pendingMidi.fileName).toBe('tune.mid');
   });
 
-  test('dispatchAddImport blocks midi without resolver', async function() {
+  test('dispatchAddImport opens midi wizard without resolver', async function() {
     const file = new File([new Uint8Array([77, 84, 104, 100, 0, 0, 0, 6])], 'tune.mid', {
       type: 'audio/midi',
     });
     const result = await dispatchAddImport(file, mockContext({ resolverAvailable: false }));
-    expect(result.action).toBe('error');
-    expect(result.needsResolver).toBe(true);
+    expect(result.action).toBe('midiWizard');
+    expect(result.pendingMidi).toBeTruthy();
+    expect(result.needsResolver).toBeFalsy();
   });
 });

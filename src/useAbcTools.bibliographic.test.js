@@ -108,7 +108,7 @@ describe('useAbcTools bibliographic fields', function() {
     expect(abcTools.abc2json(exported).lyricsScrollDurationSec).toBe(158);
   });
 
-  test('round-trips multi-voice tablature settings without corrupting legacy tablature field', function() {
+  test('does not export tablature settings (device-local); still parses legacy ABC for migration', function() {
     const tune = {
       id: 'tab-test',
       name: 'Copper Kettle',
@@ -127,11 +127,16 @@ describe('useAbcTools bibliographic fields', function() {
       },
     };
     const exported = abcTools.json2abc(tune);
-    expect(exported).toContain('% abcbook-tablature-voices');
-    expect(exported).toContain('% abcbook-tab-display tab');
-    expect(exported).not.toContain('% abcbook-tablature -voices');
+    expect(exported).not.toContain('% abcbook-tablature');
+    expect(exported).not.toContain('% abcbook-tab-display');
 
-    const parsed = abcTools.abc2json(exported);
+    const legacyAbc = [
+      exported.trim(),
+      '% abcbook-tablature guitar',
+      '% abcbook-tab-display tab',
+      '% abcbook-tablature-voices {"1":{"instrumentId":"guitar","presetId":"standard","tuning":"Standard"},"2":{"instrumentId":"violin","presetId":"aeae","tuning":"AEAE"}}',
+    ].join('\n');
+    const parsed = abcTools.abc2json(legacyAbc);
     expect(parsed.tablature).toBe('guitar');
     expect(parsed.tabDisplay).toBe('tab');
     expect(parsed.tablatureVoices['1'].instrumentId).toBe('guitar');

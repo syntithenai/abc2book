@@ -108,4 +108,60 @@ describe('commitChordSearchResultToTune', function() {
     expect(saved.length).toBe(1)
     expect(tune.voices['1'].notes).toEqual(['C D E F |'])
   })
+
+  test('writes chords-over-words lyrics from sheetLines (not stripped plain lyrics)', function() {
+    const saved = []
+    const tune = {
+      id: 't3',
+      name: 'I Will',
+      meter: '4/4',
+      key: 'C',
+      voices: { '1': { meta: '', notes: ['C D E F |'] } },
+      words: [],
+      wLines: [],
+      meta: {},
+    }
+    const tunebook = {
+      abcTools: {
+        abc2json: function() { return Object.assign({}, tune) },
+        json2abc: function() { return 'X:1\nT:I Will\nM:4/4\nK:C\nC D E F |' },
+        isNoteLine: function() { return true },
+      },
+      saveTune: function(next, skip, options) {
+        saved.push({ next: next, options: options })
+        Object.keys(next).forEach(function(key) { tune[key] = next[key] })
+        return next
+      },
+    }
+    const result = commitChordSearchResultToTune({
+      result: {
+        sheetLines: [
+          '[Verse]',
+          'F             Dm',
+          'Who knows how long',
+          'G7            C',
+          'I have been waiting',
+        ],
+        // Stripped plain lyrics must not win over embedded placement.
+        lyricLines: ['[Verse]', 'Who knows how long', 'I have been waiting'],
+        chordText: 'F | Dm |\nG7 | C |',
+      },
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: function() { return 'F | Dm |' } },
+      skipAbcMerge: true,
+      updateLyrics: true,
+    })
+
+    expect(result.ok).toBe(true)
+    const text = result.lyricLines.join('\n')
+    expect(text).toContain('F             Dm')
+    expect(text).toContain('Who knows how long')
+    expect(text).toContain('G7            C')
+    expect(result.lyricLines).not.toEqual([
+      '[Verse]',
+      'Who knows how long',
+      'I have been waiting',
+    ])
+  })
 })

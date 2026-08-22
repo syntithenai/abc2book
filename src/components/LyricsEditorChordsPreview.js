@@ -1,9 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
 import StructureChordBlock from './StructureChordBlock'
 import useAbcjsParser from '../useAbcjsParser'
 import { chordNoteLinesFromTune } from '../chordBlockMerge'
-import { chartBlockHasChords } from '../chordSheetUtils'
+import {
+  chartBlockHasChords,
+  hasLyricEmbeddedChords,
+  linesHaveChordProInlineChords,
+} from '../chordSheetUtils'
 import { printChordTransposeForTune } from '../capoViewUtils'
 
 const PREVIEW_DEBOUNCE_MS = 300
@@ -22,7 +26,11 @@ function LyricsEditorChordsPreviewInner(props) {
   const previewTranspose = props.transposePreview
     ? printChordTransposeForTune(previewTune)
     : 0
-  const melodyNoteLines = chordNoteLinesFromTune(previewTune)
+  // Prefer a stable notes fingerprint from props so in-place voice mutations
+  // (same tune object reference) still refresh the chart.
+  const melodyNoteLines = useMemo(function() {
+    return chordNoteLinesFromTune(tune)
+  }, [tune, props.voicesFingerprint])
 
   let chordChart = ''
   if (previewTune) {
@@ -46,7 +54,17 @@ function LyricsEditorChordsPreviewInner(props) {
   }
 
   if (!previewTune) return null
-  if (!chartBlockHasChords(chordChart)) return null
+
+  const hasNotationChords = chartBlockHasChords(chordChart)
+  const lyricLines = previewTune.words || []
+  const hasLyricChords = linesHaveChordProInlineChords(lyricLines)
+    || hasLyricEmbeddedChords(lyricLines)
+  const hasLyricText = lyricLines.some(function(line) {
+    return String(line || '').trim().length > 0
+  })
+  // Live preview is useful for plain lyrics and ChordPro even when ABC has no
+  // quoted chords. Structure blocks still need a notation chord chart.
+  if (!hasNotationChords && !hasLyricChords && !hasLyricText) return null
 
   return (
     <>
@@ -67,23 +85,23 @@ function LyricsEditorChordsPreviewInner(props) {
           />
         </div>
       </aside>
-      <aside
-        className="abc-editor-lyrics-split-structure"
-        data-testid="lyrics-structure-chords"
-        aria-label="Structured chords"
-      >
-        <StructureChordBlock
-          chords={chordChart}
-          tune={previewTune}
-          melodyNoteLines={melodyNoteLines}
-          chordTranspose={previewTranspose}
-        />
-      </aside>
+      {hasNotationChords ? (
+        <aside
+          className="abc-editor-lyrics-split-structure"
+          data-testid="lyrics-structure-chords"
+          aria-label="Structured chords"
+        >
+          <StructureChordBlock
+            chords={chordChart}
+            tune={previewTune}
+            melodyNoteLines={melodyNoteLines}
+            chordTranspose={previewTranspose}
+          />
+        </aside>
+      ) : null}
     </>
   )
 }
-
-const MemoLyricsEditorChordsPreviewInner = React.memo(LyricsEditorChordsPreviewInner)
 
 /**
  * Live lyrics+chords preview plus structured chord blocks for the lyrics editor.
@@ -102,12 +120,15 @@ export default function LyricsEditorChordsPreview(props) {
     return function() { clearTimeout(timer) }
   }, [lyricsText, debouncedLyrics])
 
+  const voicesFingerprint = chordNoteLinesFromTune(props.tune).join('\n')
+
   return (
-    <MemoLyricsEditorChordsPreviewInner
+    <LyricsEditorChordsPreviewInner
       tune={props.tune}
       tunebook={props.tunebook}
       lyricsText={debouncedLyrics}
       transposePreview={!!props.transposePreview}
+      voicesFingerprint={voicesFingerprint}
     />
   )
 }

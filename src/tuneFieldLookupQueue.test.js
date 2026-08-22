@@ -24,6 +24,14 @@ jest.mock('./chordsSearchClient', function() {
   }
 })
 
+jest.mock('./commitChordSearchResultToTune', function() {
+  return {
+    commitChordSearchResultToTune: jest.fn(function() {
+      return { ok: true, lyricLines: ['[C]hello'] }
+    }),
+  }
+})
+
 jest.mock('./composerSearchClient', function() {
   return {
     discoverComposers: jest.fn(function() {
@@ -116,15 +124,19 @@ jest.mock('localforage', function() {
 
 jest.mock('react-toastify', function() {
   return {
-    toast: {
+    toast: Object.assign(jest.fn(), {
       info: jest.fn(),
-    },
+      error: jest.fn(),
+      success: jest.fn(),
+    }),
   }
 })
 
 import { searchLyrics } from './lyricsSearchClient'
+import { searchChords } from './chordsSearchClient'
 import { discoverComposers } from './composerSearchClient'
 import { searchNotation } from './notationSearchClient'
+import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 
 async function waitForJob(predicate, attempts) {
@@ -153,6 +165,14 @@ describe('tuneFieldLookupQueue', function() {
         { title: 'Song', artist: 'A', text: 'line one', source: 'web' },
         { title: 'Song', artist: 'B', text: 'line two', source: 'web' },
       ],
+    })
+    searchChords.mockReset()
+    searchChords.mockResolvedValue({
+      multiple: false,
+      chordText: 'C G Am F',
+      lyricLines: ['hello'],
+      lyricText: 'hello',
+      source: 'web',
     })
     discoverComposers.mockReset()
     discoverComposers.mockResolvedValue({
@@ -227,6 +247,48 @@ describe('tuneFieldLookupQueue', function() {
     expect(searchLyrics).toHaveBeenCalled()
     expect(job.id).toBe(id)
     expect(job.error).toBe(null)
+    expect(job.status).toBe('awaiting')
+    expect(job.candidates.length).toBe(2)
+  })
+
+  test('preferChords lyrics job adopts chords when a chord sheet is found', async function() {
+    const id = tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: { preferChords: true },
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'awaiting' || item.status === 'done' || item.status === 'error')
+    })
+    expect(searchChords).toHaveBeenCalled()
+    expect(searchLyrics).not.toHaveBeenCalled()
+    expect(job.id).toBe(id)
+    expect(job.kind).toBe('chords')
+    expect(job.options && job.options.updateLyrics).toBe(true)
+    expect(job.status).toBe('awaiting')
+    expect(job.candidates.length).toBeGreaterThan(0)
+  })
+
+  test('preferChords lyrics job falls back to plain lyrics when chords miss', async function() {
+    searchChords.mockRejectedValueOnce(new Error('No chords found for this song'))
+    const id = tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: { preferChords: true },
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(searchChords).toHaveBeenCalled()
+    expect(searchLyrics).toHaveBeenCalled()
+    expect(job.id).toBe(id)
+    expect(job.kind).toBe('lyrics')
     expect(job.status).toBe('awaiting')
     expect(job.candidates.length).toBe(2)
   })
@@ -426,7 +488,7 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.candidates).toEqual([])
   })
 
-  test('empty lyrics field opens one-shot picker without silent apply', async function() {
+  test('empty lyrics field auto-applies first result when no live handler', async function() {
     const tune = { id: 't1', name: 'Song' }
     const saveTune = jest.fn()
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
@@ -444,9 +506,74 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) {
       return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
     })
+    expect(job.status).toBe('done')
+    expect(saveTune).toHaveBeenCalled()
+    expect(job.candidates).toEqual([])
+  })
+
+  test('empty lyrics field stays awaiting when a live handler is registered', async function() {
+    const tune = { id: 't1', name: 'Song' }
+    const saveTune = jest.fn()
+    const onAwaiting = jest.fn()
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: saveTune,
+    })
+    tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'lyrics', { onAwaiting: onAwaiting })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: tuneFieldLookupQueue.buildSearchModeOptions('auto'),
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
+    })
     expect(job.status).toBe('awaiting')
     expect(saveTune).not.toHaveBeenCalled()
     expect(job.candidates.length).toBeGreaterThan(0)
+    expect(onAwaiting).toHaveBeenCalled()
+  })
+
+  test('preferChords enhance auto-applies chords when lyrics are empty', async function() {
+    const tune = { id: 't1', name: 'Song' }
+    const saveTune = jest.fn()
+    commitChordSearchResultToTune.mockClear()
+    commitChordSearchResultToTune.mockReturnValue({
+      ok: true,
+      lyricLines: ['[C]hello'],
+    })
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: saveTune,
+      getTunebook: function() { return { abcTools: {} } },
+      getAbcjsParser: function() { return null },
+    })
+    searchChords.mockResolvedValueOnce({
+      multiple: false,
+      chordText: '| C |',
+      sheetLines: ['[C]hello'],
+      lyricLines: ['[C]hello'],
+      source: 'ultimate-guitar.com',
+    })
+    const id = tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: { preferChords: true },
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(job.id).toBe(id)
+    expect(job.kind).toBe('chords')
+    expect(job.status).toBe('done')
+    expect(saveTune).toHaveBeenCalled()
+    expect(commitChordSearchResultToTune).toHaveBeenCalled()
   })
 
   test('empty composer auto-applies single result without awaiting', async function() {

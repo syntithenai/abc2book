@@ -8,6 +8,7 @@ import StarToggleButton from './StarToggleButton'
 import BookMultiSelectorModal from  './BookMultiSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import ShareTunebookModal from './ShareTunebookModal'
+import TuneEnhanceButton from './TuneEnhanceButton'
 import {useSwipeable} from 'react-swipeable'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import YouTube from 'react-youtube';  
@@ -47,6 +48,7 @@ import { SINGLE_VIEW_EDIT_MODES,
 } from '../viewModeUtils'
 import { resolveTuneDisplayLayout, isViewModesEmpty, isStructureOnlyLayout } from '../tuneDisplayLayout'
 import { clampGigZoom, getTuneGigZoom } from '../gigDisplaySettings'
+import { setTuneDisplaySettings, applyTuneDisplaySettings } from '../tuneDisplaySettings'
 import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
 import LyricsZoomControls from './LyricsZoomControls'
@@ -62,6 +64,7 @@ import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue'
 import { shouldSyncViewedTuneToMediaController } from '../playbackNavigationUtils'
 import { useCapoViewState } from '../useCapoViewState'
 import { chordTransposeWithCapo } from '../capoViewUtils'
+import StructureCapoControl from './StructureCapoControl'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
 import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste, cancelAddTuneAutoEnrich } from '../addTuneAutoEnrich'
@@ -164,6 +167,7 @@ export default function MusicSingle(props) {
     const [pdfToolbarHost, setPdfToolbarHost] = useState(null)
     const [showScratchpadCopyPicker, setShowScratchpadCopyPicker] = useState(false)
     const [copyToScratchpadBusy, setCopyToScratchpadBusy] = useState(false)
+    const [editMenuShow, setEditMenuShow] = useState(false)
     const [dismissMidBlockDoubleBarWarning, setDismissMidBlockDoubleBarWarning] = useState(false)
 
     useEffect(function() {
@@ -459,6 +463,7 @@ export default function MusicSingle(props) {
     function setupTune() {
         let tune = props.tunes ? props.tunes[params.tuneId] : null
         if (tune) {
+           applyTuneDisplaySettings(tune)
            setFileViewZoom(1)
            if (tune.viewMode) {
                setNotationFitModeState(getTuneNotationFitMode(tune))
@@ -543,7 +548,7 @@ export default function MusicSingle(props) {
     
     
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
-    if (tuneLoadState === 'loading') {
+    if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune)) {
         return (
           <div className="music-single music-single--loading p-3" role="status">
             Loading tune…
@@ -551,7 +556,7 @@ export default function MusicSingle(props) {
         )
     }
 
-    if (!tune) {
+    if (tuneLoadState === 'missing' || !tune) {
         return (
           <Alert variant="warning" className="m-2" role="status">
             <div>This tune could not be found. It may have been deleted or is not loaded yet.</div>
@@ -643,13 +648,11 @@ export default function MusicSingle(props) {
 
                 const compactToolbar = windowSize[0] <= 768
                 const foldControlsIntoMenu = isMusicToolbarFolded(windowSize[0], compactToolbar)
-                const mediumToolbar = foldControlsIntoMenu
                 const compactNotationControls = isMusicToolbarCompact(
                   toolbarContainerWidth,
                   windowSize[0],
                   foldControlsIntoMenu
                 )
-                const showInlineTuneMeta = !foldControlsIntoMenu
                 const hasChords = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
                 const availableFlags = getAvailableDisplayFlags(tune, props.tunebook, {
                   hasChords: hasChords,
@@ -670,7 +673,6 @@ export default function MusicSingle(props) {
                   + (foldControlsIntoMenu ? ' music-buttons--folded-menu' : '')
                   + (compactNotationControls ? ' music-buttons--compact-controls' : '')
                   + (compactToolbar ? ' music-buttons--mobile-collapsed' : '')
-                  + (mediumToolbar && !compactToolbar ? ' music-buttons--meta-collapsed' : '')
                   + (pdfSnapshotActive ? ' music-buttons--pdf-snapshot' : '')
                 const embedPdfToolbarInMainBar = pdfSnapshotActive
                 const pdfToolbarBesideMenu = pdfSnapshotActive && foldControlsIntoMenu
@@ -740,6 +742,15 @@ export default function MusicSingle(props) {
                       <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
                       <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1) }} aria-label="Transpose up">+</Button>
                     </ButtonGroup>
+                    <StructureCapoControl
+                      className="music-single-capo-control"
+                      tune={tune}
+                      chordGridText={chords}
+                      capoOffset={capoState.capoOffset}
+                      capoEnabled={capoState.capoEnabled}
+                      onToggle={capoState.toggleCapo}
+                      onOffsetChange={handleCapoOffsetChange}
+                    />
                   </div>
                 )
 
@@ -754,21 +765,32 @@ export default function MusicSingle(props) {
                   props.tunebook.saveTune(Object.assign({}, tune, patch))
                 }
 
+                function persistDisplayPatch(patch) {
+                  if (tune && tune.id) {
+                    setTuneDisplaySettings(tune.id, patch)
+                  }
+                  const next = Object.assign({}, tune, patch)
+                  setTune(next)
+                  // Keep live book overlay in sync; saveTune extracts to localStorage
+                  // and strips display fields from IndexedDB / Drive ABC.
+                  props.tunebook.saveTune(next, true, { skipHistory: true })
+                }
+
                 function handleNotationFitModeChange(mode) {
                   const next = setNotationFitMode(mode)
                   setNotationFitModeState(next)
-                  persistTunePatch({ notationFit: next, viewMode: props.viewMode })
+                  persistDisplayPatch({ notationFit: next, viewMode: props.viewMode })
                 }
 
                 function handleViewModeChange(val) {
                   props.setViewMode(val)
-                  persistTunePatch({ viewMode: val })
+                  persistDisplayPatch({ viewMode: val })
                 }
 
                 function handleLyricsZoomChange(next) {
                   const clamped = clampGigZoom(next)
                   setLyricsZoom(clamped)
-                  persistTunePatch({ zoom: clamped })
+                  persistDisplayPatch({ zoom: clamped })
                 }
 
                 function handleFileViewZoomChange(next) {
@@ -798,7 +820,8 @@ export default function MusicSingle(props) {
                   navigate('/print', { state: { tuneIds: [tune.id] } })
                 }
 
-                const notationVisualTranspose = chordTranspose
+                // Capo only changes chord fingering names — notation + MIDI stay on tune.transpose.
+                const notationVisualTranspose = tuneTranspose
                 const notationAbc = prepareTuneViewNotationAbc(
                   props.tunebook.abcTools.json2abc(notationTune),
                   chordsAnnotate
@@ -877,20 +900,127 @@ export default function MusicSingle(props) {
                   />
                 ) : null
                 const playalongControlsElement = playalongRecordButton
-                const tuneMetaButtons = (
-                  <ButtonGroup className="music-tune-meta-group">
+                const editTuneMetaButtons = (
+                  <div className="music-actions-edit-meta-row">
                     <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
-                    <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-                    <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
-                    <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
-                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} user={props.user} googleDocumentId={props.googleDocumentId} login={props.login} onTuneChange={function(updated) {
+                    <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} onOpen={function() { setEditMenuShow(false) }} />
+                    <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } onOpen={function() { setEditMenuShow(false) }} />
+                    <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } onOpen={function() { setEditMenuShow(false) }} />
+                  </div>
+                )
+                const actionIconsOnly = compactToolbar
+                const sharePrintDownloadDelete = (
+                  <div
+                    className={'music-actions-edit-actions-row' + (actionIconsOnly ? ' music-actions-edit-actions-row--icons' : '')}
+                    role="group"
+                    aria-label="Enhance, share, print, download, delete"
+                  >
+                    <span onClick={function(e) { e.stopPropagation() }}>
+                      <TuneEnhanceButton
+                        tune={tune}
+                        tunebook={props.tunebook}
+                        token={props.token}
+                        forceRefresh={props.forceRefresh}
+                        className="tune-enhance-dropdown"
+                        toggleClassName={'music-actions-menu-btn' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
+                        labelClassName="music-actions-menu-btn-label"
+                        toggleLabel=" Enhance"
+                        hideLabel={actionIconsOnly}
+                        onOpen={function() { setEditMenuShow(false) }}
+                      />
+                    </span>
+                    <span onClick={function() { setEditMenuShow(false) }}>
+                      <ShareTunebookModal
+                        tunebook={props.tunebook}
+                        token={props.token}
+                        login={props.login}
+                        googleDocumentId={props.googleDocumentId}
+                        shareKind="tune"
+                        tuneId={tune.id}
+                        tuneName={tune.name}
+                        tunes={props.tunes}
+                        saveTune={props.tunebook.saveTune}
+                        tiny={actionIconsOnly}
+                        buttonClassName={'music-actions-menu-btn btn-info' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
+                      />
+                    </span>
+                    <Button
+                      className={'music-actions-menu-btn btn-primary' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
+                      title="Print"
+                      aria-label="Print"
+                      onClick={function() {
+                        setEditMenuShow(false)
+                        openPrintPdfLayout()
+                      }}
+                    >
+                      {props.tunebook.icons.printer}
+                      {!actionIconsOnly ? <span className="music-actions-menu-btn-label"> Print</span> : null}
+                    </Button>
+                    <div
+                      className="music-actions-nested-dropdown-wrap"
+                      onClick={function(e) { e.stopPropagation() }}
+                      onMouseDown={function(e) { e.stopPropagation() }}
+                    >
+                      <TuneDownloadDropdown
+                        tunebook={props.tunebook}
+                        tunes={[tune]}
+                        archiveBaseName={(tune.name ? tune.name.trim() : 'tune')}
+                        token={props.token}
+                        user={props.user}
+                        allowRestrictedFormats={true}
+                        buttonVariant="success"
+                        hideLabel={actionIconsOnly}
+                        buttonClassName={'music-actions-menu-btn' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
+                        labelClassName="music-actions-menu-btn-label"
+                      />
+                    </div>
+                    <Button
+                      variant="danger"
+                      className={'music-actions-menu-btn' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
+                      title="Delete"
+                      aria-label="Delete"
+                      onClick={function() {
+                        setEditMenuShow(false)
+                        if (window.confirm('Do you really want to delete this tune ?')) {
+                          props.tunebook.deleteTune(tune.id)
+                        }
+                        navigate(resolveTunesListPath({
+                          currentTuneBook: props.currentTuneBook,
+                          filter: props.filter,
+                          tagFilter: props.tagFilter,
+                          genreFilter: props.genreFilter,
+                          artistFilter: props.artistFilter,
+                          albumFilter: props.albumFilter,
+                          groupBy: props.groupBy,
+                        }))
+                      }}
+                    >
+                      {props.tunebook.icons.bin}
+                      {!actionIconsOnly ? <span className="music-actions-menu-btn-label"> Delete</span> : null}
+                    </Button>
+                  </div>
+                )
+                const linksButton = (
+                  <LinksEditorModal
+                    className="tune-meta-modal-btn music-actions-links-btn"
+                    icon="media"
+                    mediaController={props.mediaController}
+                    forceRefresh={props.forceRefresh}
+                    tunebook={props.tunebook}
+                    tune={tune}
+                    token={props.token}
+                    user={props.user}
+                    googleDocumentId={props.googleDocumentId}
+                    login={props.login}
+                    onTuneChange={function(updated) {
                       if (!updated || !updated.id) return
                       props.tunebook.saveTune(updated)
                       if (props.forceRefresh) props.forceRefresh()
                       if (tune && String(tune.id) === String(updated.id)) {
                         setTune(updated)
                       }
-                    }} onChange={
+                    }}
+                    onChange={
                       function(links, targetId) {
                         const id = targetId || (tune && tune.id)
                         if (!id) return
@@ -903,11 +1033,18 @@ export default function MusicSingle(props) {
                           setTune(next)
                         }
                       }
-                    } />
-                  </ButtonGroup>
+                    }
+                  />
                 )
                 const editTuneDropdown = (
-                  <Dropdown as={ButtonGroup} className="music-actions-edit-dropdown" title="Edit tune">
+                  <Dropdown
+                    as={ButtonGroup}
+                    className="music-actions-edit-dropdown"
+                    title="Edit tune"
+                    show={editMenuShow}
+                    onToggle={function(next) { setEditMenuShow(!!next) }}
+                    autoClose="outside"
+                  >
                     <Dropdown.Toggle variant="warning" className="music-actions-edit-btn" aria-label="Edit tune">
                       {props.tunebook.icons.pencil}
                     </Dropdown.Toggle>
@@ -926,6 +1063,18 @@ export default function MusicSingle(props) {
                         )
                       })}
                       <Dropdown.Divider />
+                      <div
+                        className="music-actions-edit-meta-item"
+                        role="group"
+                        aria-label="Tune metadata"
+                      >
+                        {editTuneMetaButtons}
+                      </div>
+                      <Dropdown.Divider />
+                      <div className="music-actions-edit-actions-item">
+                        {sharePrintDownloadDelete}
+                      </div>
+                      <Dropdown.Divider />
                       <Dropdown.Item
                         disabled={copyToScratchpadBusy}
                         onClick={function() { setShowScratchpadCopyPicker(true) }}
@@ -935,10 +1084,9 @@ export default function MusicSingle(props) {
                     </Dropdown.Menu>
                   </Dropdown>
                 )
-                const foldedZoomTransposeRow = foldControlsIntoMenu && (zoomControlsElement || (!fileOverlayActive && transposeCapoBlock)) ? (
+                const foldedTransposeRow = foldControlsIntoMenu && !fileOverlayActive && transposeCapoBlock ? (
                   <div className="view-mode-zoom-transpose-row">
-                    {!fileOverlayActive ? transposeCapoBlock : null}
-                    {zoomControlsElement}
+                    {transposeCapoBlock}
                   </div>
                 ) : null
                 const viewModeSelector = (
@@ -947,8 +1095,7 @@ export default function MusicSingle(props) {
                     viewMode={props.viewMode}
                     tune={tune}
                     tunebook={props.tunebook}
-                    forceDropdown={compactNotationControls}
-                    embeddedPanel={foldControlsIntoMenu}
+                    forceDropdown={true}
                     stopMenuClose={foldControlsIntoMenu || compactNotationControls}
                     notationFitMode={notationFitMode}
                     onNotationFitModeChange={handleNotationFitModeChange}
@@ -960,74 +1107,12 @@ export default function MusicSingle(props) {
                       setVoiceSettingsVersion(function(v) { return v + 1 })
                     }}
                     fileControls={fileControlsElement}
-                    afterDisplayModes={foldedZoomTransposeRow}
+                    afterDisplayModes={foldedTransposeRow}
                     extraMenuContent={!foldControlsIntoMenu && compactNotationControls && !fileOverlayActive
                       ? transposeCapoBlock
                       : null}
                     onChange={handleViewModeChange}
                   />
-                )
-                const sharePrintDownloadDelete = (
-                  <>
-                    <Dropdown.Item className="music-actions-dropdown-item-labeled">
-                      <ShareTunebookModal
-                        tunebook={props.tunebook}
-                        token={props.token}
-                        login={props.login}
-                        googleDocumentId={props.googleDocumentId}
-                        shareKind="tune"
-                        tuneId={tune.id}
-                        tuneName={tune.name}
-                        tunes={props.tunes}
-                        saveTune={props.tunebook.saveTune}
-                        buttonClassName="music-actions-menu-btn btn-info music-actions-menu-btn--labeled"
-                      />
-                    </Dropdown.Item>
-                    <Dropdown.Item className="music-actions-dropdown-item-labeled">
-                      <Button className="music-actions-menu-btn btn-primary music-actions-menu-btn--labeled" onClick={openPrintPdfLayout}>
-                        {props.tunebook.icons.printer}
-                        <span className="music-actions-menu-btn-label"> Print</span>
-                      </Button>
-                    </Dropdown.Item>
-                    <Dropdown.Item as="div" className="music-actions-dropdown-item-labeled">
-                      <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
-                        <TuneDownloadDropdown
-                          tunebook={props.tunebook}
-                          tunes={[tune]}
-                          archiveBaseName={(tune.name ? tune.name.trim() : 'tune')}
-                          token={props.token}
-                          user={props.user}
-                          allowRestrictedFormats={true}
-                          buttonVariant="success"
-                          buttonClassName="music-actions-menu-btn music-actions-menu-btn--labeled"
-                          labelClassName="music-actions-menu-btn-label"
-                        />
-                      </div>
-                    </Dropdown.Item>
-                    <Dropdown.Item className="music-actions-dropdown-item-labeled">
-                      <Button
-                        variant="danger"
-                        className="music-actions-menu-btn music-actions-menu-btn--labeled"
-                        onClick={function() {
-                          if (window.confirm('Do you really want to delete this tune ?')) {
-                            props.tunebook.deleteTune(tune.id)
-                          }
-                          navigate(resolveTunesListPath({
-                            currentTuneBook: props.currentTuneBook,
-                            filter: props.filter,
-                            tagFilter: props.tagFilter,
-                            genreFilter: props.genreFilter,
-                            artistFilter: props.artistFilter,
-                            albumFilter: props.albumFilter,
-                            groupBy: props.groupBy,
-                          }))
-                        }}
-                      >
-                        {props.tunebook.icons.bin}
-                        <span className="music-actions-menu-btn-label"> Delete</span>
-                      </Button>
-                    </Dropdown.Item>
-                  </>
                 )
 
                 var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
@@ -1035,75 +1120,8 @@ export default function MusicSingle(props) {
 			<div ref={toolbarRef} className={toolbarClassName}>
 			  <div className="music-buttons-inner">
 			    <div className="music-buttons-col-left">
-            <Dropdown as={ButtonGroup} autoClose="outside">
-			        <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" className="music-actions-dropdown-toggle">
-			          {props.tunebook.icons.menu}
-			        </Dropdown.Toggle>
-
-			        <Dropdown.Menu className="music-actions-dropdown-menu" popperConfig={{ strategy: 'fixed' }}>
-                {foldControlsIntoMenu ? (
-                  <div className="music-actions-dropdown-menu-body">
-                    <div className="music-actions-dropdown-section music-actions-dropdown-section-layout">
-                      {viewModeSelector}
-                      {!pdfSnapshotActive ? (
-                        <div
-                          className="music-actions-dropdown-autoscroll-row"
-                          onClick={function(e) { e.stopPropagation() }}
-                          onMouseDown={function(e) { e.stopPropagation() }}
-                        >
-                              {playalongControlsElement}
-                          {chordPitchButtonElement}
-                          <div className="music-actions-dropdown-autoscroll">
-                            <LyricsAutoscrollModal
-                              tune={tune}
-                              tunebook={props.tunebook}
-                              mediaController={props.mediaController}
-                              mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
-                              musicSingleSelector=".music-single"
-                              barLayout="gig-inline"
-                              buttonVariant="outline-secondary"
-                              buttonSize="sm"
-                            />
-                          </div>
-                        </div>
-                      ) : null}
-                    </div>
-                    <Dropdown.Divider className="music-actions-dropdown-divider" />
-                    <div
-                      className="music-actions-dropdown-section music-actions-dropdown-section-meta"
-                      onClick={function(e) { e.stopPropagation() }}
-                      onMouseDown={function(e) { e.stopPropagation() }}
-                    >
-                      <div className="music-tune-meta-toolbar">
-                        {editTuneDropdown}
-                        {tuneMetaButtons}
-                      </div>
-                    </div>
-                    <Dropdown.Divider className="music-actions-dropdown-divider" />
-                    <div className="music-actions-dropdown-section music-actions-dropdown-section-actions">
-                      {sharePrintDownloadDelete}
-                    </div>
-                  </div>
-                ) : (
-                <div className="music-actions-dropdown-cols">
-                  <div className="music-actions-dropdown-actions">
-                    {sharePrintDownloadDelete}
-                  </div>
-
-                  <div
-                    className="music-actions-dropdown-col-meta music-actions-dropdown-col-meta-compact"
-                    onClick={function(e) { e.stopPropagation() }}
-                    onMouseDown={function(e) { e.stopPropagation() }}
-                  >
-                    {mediumToolbar ? editTuneDropdown : null}
-                    {tuneMetaButtons}
-		          </div>
-			</div>
-                )}
-			        </Dropdown.Menu>
-			      </Dropdown>
-
-            {showInlineTuneMeta ? editTuneDropdown : null}
+            {editTuneDropdown}
+            {linksButton}
 			    </div>
 
           {pdfToolbarBesideMenu ? (
@@ -1114,11 +1132,6 @@ export default function MusicSingle(props) {
             />
           ) : null}
 
-			    <div className="music-buttons-col-meta music-tune-meta-inline">
-			      {showInlineTuneMeta ? tuneMetaButtons : null}
-			    </div>
-
-			    {!foldControlsIntoMenu ? (
 			    <div className="music-buttons-col-right">
             {pdfToolbarInMainRow ? (
               <div
@@ -1128,24 +1141,24 @@ export default function MusicSingle(props) {
               />
             ) : null}
 			      {zoomControlsElement}
-			      {playalongControlsElement}
-			      {chordPitchButtonElement}
-			      {!pdfSnapshotActive ? (
+            {playalongControlsElement}
+            {!compactToolbar ? chordPitchButtonElement : null}
+            {!pdfSnapshotActive ? (
               <LyricsAutoscrollModal
                 tune={tune}
                 tunebook={props.tunebook}
                 mediaController={props.mediaController}
                 mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
                 musicSingleSelector=".music-single"
-                barLayout={compactToolbar ? 'default' : 'gig-inline'}
+                barLayout="gig-inline"
+                playOnly={compactToolbar}
                 buttonVariant="outline-secondary"
                 buttonSize="sm"
               />
             ) : null}
+            {!foldControlsIntoMenu && !compactNotationControls && !fileOverlayActive ? notationControlsBlock : null}
 			      {viewModeSelector}
-            {!compactNotationControls && !fileOverlayActive ? notationControlsBlock : null}
 			    </div>
-            ) : null}
 			  </div>
 			</div>
       {autoEnrichPending ? (
@@ -1500,6 +1513,11 @@ export default function MusicSingle(props) {
                         hiddenTakeIds={hiddenPlayalongTakeIds}
                         onToggleTakeHidden={togglePlayalongTakeHidden}
                         playbackSpeed={props.mediaController && props.mediaController.playbackSpeed}
+                        onPauseMedia={function() {
+                          if (props.mediaController && typeof props.mediaController.pause === 'function') {
+                            props.mediaController.pause()
+                          }
+                        }}
                         onRecordClick={function() {
                           if (playalong.isRecording) {
                             playalong.stop('click')
@@ -1509,11 +1527,16 @@ export default function MusicSingle(props) {
                           setShowPlayalongPianoRoll(true)
                           if (playalong.start) playalong.start(playalongTempoBpm, playalongSettings)
                         }}
+                        onTakeScored={function(recordingId, pitchPct) {
+                          if (playalong.applyTakePitchPct) {
+                            playalong.applyTakePitchPct(recordingId, pitchPct)
+                          }
+                        }}
                       />
                     ) : null}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                    </div>
                     {playalongCanRecord && showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
                       <PlayalongStaffPitchStrips
@@ -1529,6 +1552,8 @@ export default function MusicSingle(props) {
                         onGraphLoadingChange={setPlayalongGraphLoading}
                         isRecording={playalong.isRecording}
                         livePitchPoints={playalong.livePitchPoints}
+                        livePitchVersion={playalong.livePitchVersion}
+                        getLivePitchSnapshot={playalong.getLivePitchSnapshot}
                         liveTempoBpm={playalong.liveTempoBpm}
                         liveMusicStartOffsetSeconds={playalong.liveMusicStartOffsetSeconds}
                         playbackSpeed={props.mediaController && props.mediaController.playbackSpeed}

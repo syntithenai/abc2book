@@ -1,6 +1,7 @@
 import {
   alignChordBlocksToLyrics,
   chartBlockHasChords,
+  chordChartFingerprint,
   normalizeSectionType,
   splitChordChartIntoBlocks,
   splitChartHeaderAndBody,
@@ -454,13 +455,15 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter,
  * Emits [M:…] / [Q:…] when a section’s meter or tempo differs from the previous.
  * Empty sections emit a single bar `|` so the slot survives blank-line splitting.
  */
-export function rebuildChordGridFromSections(sections) {
+export function rebuildChordGridFromSections(sections, options) {
+  const opts = options || {}
+  const includeRevisits = !!opts.includeRevisits
   const parts = []
   let previousMeter = null
   let previousTempo = null
   let previousKey = null
   ;(Array.isArray(sections) ? sections : []).forEach(function(section) {
-    if (!section || section.chartRevisit) return
+    if (!section || (section.chartRevisit && !includeRevisits)) return
     const meter = normalizeMeter(section.meter || previousMeter || '4/4')
     const key = normalizeKeySignature(section.abcKey || previousKey || 'C')
     const tempo = normalizeTempo(section.tempo) || previousTempo
@@ -1057,12 +1060,32 @@ export function applyPasteSectionToTuneSections(tuneSections, pasteSection, mode
 
 /**
  * Build a full chords-editor section list from a paste (wipe import).
- * Repeated section types reuse the first chart via chartRevisit.
+ * Repeated section types reuse an earlier matching chart via chartRevisit.
+ * Stanzas with a distinct progression keep their own chart even under the same
+ * type label (e.g. Verse with N.C. then Verse with Am). A later stanza whose
+ * chart is empty or a prefix of an earlier same-type chart is treated as a revisit.
  */
 export function buildTuneSectionsFromPaste(pasteSections, defaultMeter) {
   const source = Array.isArray(pasteSections) ? pasteSections : []
   const list = []
-  const firstIndexByType = {}
+
+  function findRevisitDonor(type, chart) {
+    const incomingFp = chordChartFingerprint(chart)
+    let emptyDonor = -1
+    for (let i = 0; i < list.length; i++) {
+      if (list[i].type !== type || list[i].chartRevisit) continue
+      if (!chartBlockHasChords(list[i].chart)) {
+        if (emptyDonor < 0) emptyDonor = i
+        continue
+      }
+      if (!incomingFp) return i
+      const donorFp = chordChartFingerprint(list[i].chart)
+      if (!donorFp) continue
+      if (donorFp === incomingFp || donorFp.indexOf(incomingFp) === 0) return i
+    }
+    return incomingFp ? -1 : emptyDonor
+  }
+
   source.forEach(function(pasteSection) {
     if (!pasteSection) return
     const type = pasteSection.type || null
@@ -1072,11 +1095,12 @@ export function buildTuneSectionsFromPaste(pasteSections, defaultMeter) {
     const chart = String(pasteSection.chart || '').trim()
     let chartRevisit = false
     let resolvedChart = chart
-    if (type && Object.prototype.hasOwnProperty.call(firstIndexByType, type)) {
-      chartRevisit = true
-      resolvedChart = list[firstIndexByType[type]].chart
-    } else if (type) {
-      firstIndexByType[type] = list.length
+    if (type) {
+      const donor = findRevisitDonor(type, chart)
+      if (donor >= 0) {
+        chartRevisit = true
+        resolvedChart = list[donor].chart
+      }
     }
     const index = list.length
     list.push({

@@ -100,6 +100,7 @@ function noteEventsFromMidi(notes, beatTimes, options) {
   const slotsPerBeat = Math.max(1, opts.slotsPerBeat || 2);
   const key = opts.key || 'C';
   const isDrum = !!opts.isDrum;
+  const quantStrength = opts.quantStrength != null ? Math.max(0, Math.min(1, opts.quantStrength)) : 1;
   if (!notes || !notes.length || !beatTimes.length) return [];
 
   const beatDuration = beatTimes.length > 1 ? (beatTimes[1] - beatTimes[0]) : 0.5;
@@ -107,17 +108,30 @@ function noteEventsFromMidi(notes, beatTimes, options) {
   const events = [];
 
   notes.forEach(function(note) {
-    const start = Number(note.start) || 0;
-    const end = Number(note.end) || start;
-    const duration = Math.max(end - start, slotDuration * 0.5);
+    const startRaw = Number(note.start) || 0;
+    const end = Number(note.end) || startRaw;
     let beatIndex = 0;
     for (let i = 0; i < beatTimes.length; i += 1) {
-      if (beatTimes[i] <= start + 0.001) beatIndex = i;
+      if (beatTimes[i] <= startRaw + 0.001) beatIndex = i;
     }
     const beatStart = beatTimes[beatIndex];
-    const offsetInBeat = start - beatStart;
+    const offsetInBeat = startRaw - beatStart;
     const slotInBeat = Math.max(0, Math.min(slotsPerBeat - 1, Math.round(offsetInBeat / slotDuration)));
-    const globalSlot = beatIndex * slotsPerBeat + slotInBeat;
+    const snappedStart = beatStart + slotInBeat * slotDuration;
+    const start = quantStrength >= 0.99
+      ? snappedStart
+      : startRaw + (snappedStart - startRaw) * quantStrength;
+    let beatIndex2 = beatIndex;
+    for (let i = 0; i < beatTimes.length; i += 1) {
+      if (beatTimes[i] <= start + 0.001) beatIndex2 = i;
+    }
+    const beatStart2 = beatTimes[beatIndex2];
+    const slotInBeat2 = Math.max(0, Math.min(
+      slotsPerBeat - 1,
+      Math.round((start - beatStart2) / slotDuration)
+    ));
+    const duration = Math.max(end - startRaw, slotDuration * 0.5);
+    const globalSlot = beatIndex2 * slotsPerBeat + slotInBeat2;
     const durSlots = Math.max(1, Math.round(duration / slotDuration));
     const dur = durationSuffix(durSlots, slotsPerBeat * 2);
     const token = isDrum
@@ -135,12 +149,14 @@ export function formatNotesToAbcBody(notes, options) {
 }
 
 function clefForVoice(voice) {
-  if (voice.isDrum) return 'perc';
+  if (voice.isDrum || voice.staff === 'perc') return 'perc';
+  if (voice.staff && voice.staff !== 'auto') return voice.staff;
   if (voice.roleHint === 'bass') return 'bass';
   return 'treble';
 }
 
 function displayNameForVoice(voice) {
+  if (voice.displayName) return voice.displayName;
   return displayNameForMidiTrack(voice);
 }
 
@@ -161,6 +177,7 @@ export function buildCleanupScorePreviewAbc(voices, options) {
   const beatsPerBar = opts.beatsPerBar || parseInt(String(meter).split('/')[0], 10) || 4;
   const slotsPerBeat = opts.slotsPerBeat || 2;
   const noteLength = opts.noteLength || '1/8';
+  const quantStrength = opts.quantStrength != null ? opts.quantStrength : 1;
   const minBarDuration = beatsPerBar * (60 / tempoBpm);
   const voiceList = (voices || []).filter(function(v) { return v && v.notes && v.notes.length; });
   if (!voiceList.length) return '';
@@ -180,6 +197,7 @@ export function buildCleanupScorePreviewAbc(voices, options) {
     beatsPerBar: beatsPerBar,
     slotsPerBeat: slotsPerBeat,
     key: key,
+    quantStrength: quantStrength,
   };
 
   const maxVoiceDuration = prepared.reduce(function(max, row) {
@@ -247,6 +265,33 @@ export function buildCleanupScorePreviewAbc(voices, options) {
   });
 
   return lines.join('\n');
+}
+
+/** Two-staff preview for pitch-split dialog (high treble, low bass). */
+export function buildPitchSplitPreviewAbc(notes, pitchCutoff, options) {
+  const cutoff = Math.max(1, Math.min(127, Math.round(Number(pitchCutoff) || 60)));
+  const high = (notes || []).filter(function(n) { return (Number(n.midi) || 0) >= cutoff; });
+  const low = (notes || []).filter(function(n) { return (Number(n.midi) || 0) < cutoff; });
+  return buildCleanupScorePreviewAbc([
+    {
+      id: 1,
+      notes: high,
+      isDrum: false,
+      roleHint: 'melody',
+      staff: 'treble',
+      displayName: 'High',
+      program: 0,
+    },
+    {
+      id: 2,
+      notes: low,
+      isDrum: false,
+      roleHint: 'bass',
+      staff: 'bass',
+      displayName: 'Low',
+      program: 0,
+    },
+  ], options);
 }
 
 /** @deprecated Use buildCleanupScorePreviewAbc */

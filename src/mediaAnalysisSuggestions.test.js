@@ -156,6 +156,23 @@ describe('mediaAnalysisSuggestions', function() {
     expect(getPlainLyricLines(tune).join('\n')).toContain('Existing line')
   })
 
+  test('caches chords when field already has chord content', function() {
+    const tune = {
+      id: 't-chords',
+      name: 'Song',
+      voices: { '1': { notes: ['"C" z | "G" z |'] } },
+    }
+    const saveTune = jest.fn()
+    const cached = persistMediaAnalysisFieldSuggestions('t-chords', {
+      chordsText: 'Am | F |',
+    }, tune, { saveTune: saveTune })
+    expect(cached.map(function(item) { return item.kind })).toEqual(['chords'])
+    expect(saveTune).not.toHaveBeenCalled()
+    expect(tune.voices['1'].notes.join('\n')).toContain('"C"')
+    const hits = getFieldSearchResults('tune:t-chords', 'chords')
+    expect(hits.length).toBeGreaterThan(0)
+  })
+
   test('kinds option persists only selected analysis fields', function() {
     const tune = { id: 't-kinds', name: 'Song', composer: 'Artist', voices: {} }
     const saveTune = jest.fn()

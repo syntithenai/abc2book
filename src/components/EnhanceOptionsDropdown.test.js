@@ -34,16 +34,17 @@ describe('EnhanceOptionsMenu', function() {
       }))
     })
     expect(container.textContent).toContain('Lookup')
-    expect(container.textContent).toContain('Research')
-    expect(container.textContent).toContain('Media')
+    expect(container.textContent).not.toContain('Research')
     expect(container.textContent).toContain('Audio Analysis')
     expect(container.textContent).toContain('Composer')
+    expect(container.textContent).toContain('Lyrics')
     expect(container.textContent).toContain('Background info')
-    expect(container.textContent).toContain('Search YouTube for a match if links is empty')
+    expect(container.textContent).toContain('Discover playable media links')
     expect(container.textContent).toContain('Play range')
+    expect(container.textContent).toContain('Tempo')
     expect(container.textContent).toContain('Start Enhancement')
     const checks = container.querySelectorAll('input[type="checkbox"]')
-    expect(checks.length).toBe(12)
+    expect(checks.length).toBe(14)
     checks.forEach(function(check) {
       expect(check.checked).toBe(false)
     })
@@ -96,7 +97,7 @@ describe('EnhanceOptionsMenu', function() {
     expect(onStart).toHaveBeenCalled()
   })
 
-  test('research, media, and audio analysis stay selectable without resolver features', function() {
+  test('background, youtube, and audio analysis stay selectable without availability context', function() {
     act(function() {
       root.render(React.createElement(EnhanceOptionsMenu, {
         selection: createEmptyEnhanceSelection(),
@@ -109,8 +110,98 @@ describe('EnhanceOptionsMenu', function() {
     expect(container.querySelector('#enhance-option-youtube').disabled).toBe(false)
     expect(container.querySelector('#enhance-option-playRange').disabled).toBe(false)
     expect(container.querySelector('#enhance-option-key').disabled).toBe(false)
+    expect(container.querySelector('#enhance-option-tempo').disabled).toBe(false)
     expect(container.querySelector('#enhance-option-notation').disabled).toBe(false)
     expect(container.querySelector('#enhance-option-chords').disabled).toBe(false)
     expect(container.querySelector('#enhance-option-lyrics').disabled).toBe(false)
+    expect(container.querySelector('#enhance-option-lookupLyrics').disabled).toBe(false)
   })
+
+  test('availability context disables unavailable options', function() {
+    act(function() {
+      root.render(React.createElement(EnhanceOptionsMenu, {
+        selection: createEmptyEnhanceSelection(),
+        onToggleOption: jest.fn(),
+        onSetGroup: jest.fn(),
+        onStart: jest.fn(),
+        availabilityContext: {
+          resolverAvailable: true,
+          features: { whisper: true },
+          canResearchBackground: false,
+        },
+      }))
+    })
+    expect(container.querySelector('#enhance-option-playRange').disabled).toBe(false)
+    expect(container.querySelector('#enhance-option-lyrics').disabled).toBe(false)
+    expect(container.querySelector('#enhance-option-key').disabled).toBe(true)
+    expect(container.querySelector('#enhance-option-tempo').disabled).toBe(true)
+    expect(container.querySelector('#enhance-option-notation').disabled).toBe(true)
+    expect(container.querySelector('#enhance-option-youtube').disabled).toBe(false)
+    expect(container.querySelector('#enhance-option-background').disabled).toBe(true)
+  })
+
+  test('group All with availability context only requests available options', function() {
+    const onSetGroup = jest.fn()
+    act(function() {
+      root.render(React.createElement(EnhanceOptionsMenu, {
+        selection: createEmptyEnhanceSelection(),
+        onToggleOption: jest.fn(),
+        onSetGroup: onSetGroup,
+        onStart: jest.fn(),
+        availabilityContext: {
+          resolverAvailable: true,
+          features: { whisper: true },
+        },
+      }))
+    })
+    act(function() {
+      container.querySelector('[data-testid="enhance-group-audio-all"]').click()
+    })
+    expect(onSetGroup).toHaveBeenCalledWith('audio', true)
+  })
+
+  test('shows media source picker when multiple scannable sources exist', function() {
+    act(function() {
+      root.render(React.createElement(EnhanceOptionsMenu, {
+        selection: createEmptyEnhanceSelection(),
+        onToggleOption: jest.fn(),
+        onSetGroup: jest.fn(),
+        onStart: jest.fn(),
+        mediaSources: [
+          { id: 'link-0', linkIndex: 0, label: 'YouTube clip' },
+          { id: 'link-1', linkIndex: 1, label: 'Band recording' },
+        ],
+        selectedMediaLinkIndex: 0,
+        onMediaLinkIndexChange: jest.fn(),
+        availabilityContext: {
+          resolverAvailable: true,
+          features: { practiceAnalysis: true, whisper: true },
+          hasScannableLinkedMedia: true,
+        },
+      }))
+    })
+    expect(container.querySelector('[data-testid="enhance-media-source"]')).toBeTruthy()
+    expect(container.textContent).toContain('YouTube clip')
+    expect(container.textContent).toContain('Band recording')
+  })
+
+  test('disables audio analysis when no scannable linked media', function() {
+    act(function() {
+      root.render(React.createElement(EnhanceOptionsMenu, {
+        selection: createEmptyEnhanceSelection(),
+        onToggleOption: jest.fn(),
+        onSetGroup: jest.fn(),
+        onStart: jest.fn(),
+        availabilityContext: {
+          resolverAvailable: true,
+          features: { practiceAnalysis: true, whisper: true },
+          hasScannableLinkedMedia: false,
+        },
+      }))
+    })
+    expect(container.querySelector('[data-testid="enhance-audio-unavailable"]')).toBeTruthy()
+    expect(container.querySelector('#enhance-option-key').disabled).toBe(true)
+    expect(container.querySelector('[data-testid="enhance-group-audio-all"]').disabled).toBe(true)
+  })
+
 })

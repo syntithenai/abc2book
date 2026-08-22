@@ -10,7 +10,9 @@ export const DEFAULT_METRONOME_ACCENT_VOLUME = 1
 export const DEFAULT_DRUM_VOLUME = 0.85
 
 const TICK_PROFILES = {
-  [METRONOME_ACCENT]: { filterHz: 2400, gain: 1.25, decay: 0.022 },
+  // Match tick decay so compound-meter downbeats do not feel mushy/late
+  // relative to tight subdivision clicks and piano onsets.
+  [METRONOME_ACCENT]: { filterHz: 2400, gain: 1.25, decay: 0.014 },
   [METRONOME_TICK]: { filterHz: 1600, gain: 0.65, decay: 0.014 },
   [METRONOME_SUB]: { filterHz: 1200, gain: 0.32, decay: 0.01 },
 }

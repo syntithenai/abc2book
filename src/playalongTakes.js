@@ -27,12 +27,19 @@ export function normalizePlayalongTake(raw) {
   const offset = parseFloat(raw.musicStartOffsetSeconds)
   const tempoBpm = parseFloat(raw.tempoBpm)
   const createdAt = raw.createdAt ? String(raw.createdAt) : ''
+  const outputLatency = parseFloat(raw.outputLatencySeconds)
+  const pitchPctRaw = Math.round(parseFloat(raw.pitchPct))
+  const pitchPct = Number.isFinite(pitchPctRaw)
+    ? Math.max(0, Math.min(100, pitchPctRaw))
+    : null
   return {
     recordingId: recordingId,
     createdAt: createdAt,
     duration: Number.isFinite(duration) && duration > 0 ? duration : 0,
     musicStartOffsetSeconds: Number.isFinite(offset) && offset > 0 ? offset : 0,
     tempoBpm: Number.isFinite(tempoBpm) && tempoBpm > 0 ? tempoBpm : 0,
+    outputLatencySeconds: Number.isFinite(outputLatency) && outputLatency > 0 ? outputLatency : 0,
+    pitchPct: pitchPct,
   }
 }
 
@@ -62,16 +69,51 @@ export function removePlayalongTake(list, recordingId) {
 }
 
 export function mergePlayalongTakes() {
-  const seen = {}
-  const out = []
+  const byId = {}
+  const order = []
   Array.prototype.forEach.call(arguments, function(list) {
     normalizePlayalongTakes(list).forEach(function(take) {
-      if (seen[take.recordingId]) return
-      seen[take.recordingId] = true
-      out.push(take)
+      const prev = byId[take.recordingId]
+      if (!prev) {
+        byId[take.recordingId] = take
+        order.push(take.recordingId)
+        return
+      }
+      const next = Object.assign({}, prev)
+      if (take.createdAt && !prev.createdAt) next.createdAt = take.createdAt
+      if (take.duration > prev.duration) next.duration = take.duration
+      if (take.musicStartOffsetSeconds > 0 && !(prev.musicStartOffsetSeconds > 0)) {
+        next.musicStartOffsetSeconds = take.musicStartOffsetSeconds
+      }
+      if (take.tempoBpm > 0 && !(prev.tempoBpm > 0)) next.tempoBpm = take.tempoBpm
+      if (take.outputLatencySeconds > 0 && !(prev.outputLatencySeconds > 0)) {
+        next.outputLatencySeconds = take.outputLatencySeconds
+      }
+      if (take.pitchPct != null && (prev.pitchPct == null || take.pitchPct > prev.pitchPct)) {
+        next.pitchPct = take.pitchPct
+      }
+      byId[take.recordingId] = next
     })
   })
-  return out
+  return order.map(function(id) { return byId[id] })
+}
+
+/** Upsert pitchPct onto a take. Keeps the higher score; returns {takes, changed}. */
+export function applyPlayalongTakePitchPct(list, recordingId, pitchPct) {
+  const id = recordingId != null ? String(recordingId) : ''
+  const pct = Math.round(parseFloat(pitchPct))
+  if (!id || !Number.isFinite(pct)) {
+    return { takes: normalizePlayalongTakes(list), changed: false }
+  }
+  const clamped = Math.max(0, Math.min(100, pct))
+  let changed = false
+  const takes = normalizePlayalongTakes(list).map(function(take) {
+    if (take.recordingId !== id) return take
+    if (take.pitchPct != null && take.pitchPct >= clamped) return take
+    changed = true
+    return Object.assign({}, take, { pitchPct: clamped })
+  })
+  return { takes: takes, changed: changed }
 }
 
 export function stripPlayalongTakeComments(abccomments) {
@@ -107,13 +149,20 @@ export function renderPlayalongTakesAbc(tune) {
   const takes = normalizePlayalongTakes(tune && tune.playalongTakes)
   if (!takes.length) return ''
   return takes.map(function(take, index) {
-    return PLAYALONG_TAKE_COMMENT_PREFIX + index + ' ' + JSON.stringify({
+    const payload = {
       recordingId: take.recordingId,
       createdAt: take.createdAt,
       duration: take.duration,
       musicStartOffsetSeconds: take.musicStartOffsetSeconds,
       tempoBpm: take.tempoBpm,
-    })
+    }
+    if (take.outputLatencySeconds > 0) {
+      payload.outputLatencySeconds = take.outputLatencySeconds
+    }
+    if (take.pitchPct != null) {
+      payload.pitchPct = take.pitchPct
+    }
+    return PLAYALONG_TAKE_COMMENT_PREFIX + index + ' ' + JSON.stringify(payload)
   }).join('\n') + '\n'
 }
 
@@ -222,8 +271,69 @@ export function resolvePlayalongMusicStartOffsetSeconds(options) {
   return estimate + engineDelay
 }
 
-/** YIN / hop lag: shift pitch mapping slightly earlier on the compare roll. */
-export const PLAYALONG_PITCH_LATENCY_SECONDS = 0.06
+/** YIN / hop / smoother lag: shift pitch mapping earlier on the compare roll. */
+export const PLAYALONG_PITCH_LATENCY_SECONDS = 0.16
+
+/** Reported device output latency at/above this is treated as high-risk (e.g. Bluetooth). */
+export const PLAYALONG_HIGH_OUTPUT_LATENCY_SECONDS = 0.08
+
+export function readAudioContextOutputLatencySeconds(audioContext) {
+  if (!audioContext) return 0
+  const output = parseFloat(audioContext.outputLatency)
+  const base = parseFloat(audioContext.baseLatency)
+  let total = 0
+  if (Number.isFinite(output) && output > 0) total += output
+  if (Number.isFinite(base) && base > 0) total += base
+  return total
+}
+
+/**
+ * Total reported output path latency for playalong alignment:
+ * AudioContext device latency (Bluetooth etc.) plus optional pitch-shifter buffer.
+ */
+export function getPlayalongOutputLatencySeconds(source) {
+  if (typeof source === 'number') {
+    return Number.isFinite(source) && source > 0 ? source : 0
+  }
+  const s = source || {}
+  let ctx = s.audioContext || null
+  if (!ctx && typeof s.getAudioContext === 'function') {
+    try { ctx = s.getAudioContext() } catch (e) { ctx = null }
+  }
+  if (!ctx && s.mediaController && typeof s.mediaController.getAudioContext === 'function') {
+    try { ctx = s.mediaController.getAudioContext() } catch (e) { ctx = null }
+  }
+  let total = readAudioContextOutputLatencySeconds(ctx)
+  let buffer = 0
+  if (s.pitchShifter && typeof s.pitchShifter.getOutputLatencySec === 'function') {
+    buffer = parseFloat(s.pitchShifter.getOutputLatencySec())
+  } else if (typeof s.getOutputLatencySec === 'function') {
+    buffer = parseFloat(s.getOutputLatencySec())
+  }
+  if (Number.isFinite(buffer) && buffer > 0) total += buffer
+  return total
+}
+
+export function isHighPlayalongOutputLatency(seconds) {
+  const n = parseFloat(seconds)
+  return Number.isFinite(n) && n >= PLAYALONG_HIGH_OUTPUT_LATENCY_SECONDS
+}
+
+/**
+ * Latency still needed for mic→beat mapping after the playback timeline
+ * may already have absorbed some of it (SoundTouch / audible re-anchor).
+ */
+export function residualPlayalongOutputLatencySeconds(options) {
+  const opts = options || {}
+  const reported = parseFloat(opts.outputLatencySeconds)
+  const useReported = Number.isFinite(reported) && reported > 0 ? reported : 0
+  if (!opts.outputLatencyAlreadyInTimeline) return useReported
+  const appliedRaw = parseFloat(opts.outputLatencyAppliedSeconds)
+  const applied = Number.isFinite(appliedRaw) && appliedRaw >= 0
+    ? appliedRaw
+    : useReported
+  return Math.max(0, useReported - applied)
+}
 
 export function effectivePlayalongMusicOffsetSeconds(musicStartOffsetSeconds, pitchLatencySeconds) {
   const offset = Number.isFinite(parseFloat(musicStartOffsetSeconds))
@@ -235,6 +345,31 @@ export function effectivePlayalongMusicOffsetSeconds(musicStartOffsetSeconds, pi
     latency = Number.isFinite(parsed) ? Math.max(0, parsed) : PLAYALONG_PITCH_LATENCY_SECONDS
   }
   return offset + latency
+}
+
+/**
+ * Live recording graph must track wall-clock music start with no post-hoc
+ * detector latency pad — that pad makes the tip trail the notation cursor.
+ * Optional residual output latency (Bluetooth) is added once for mapping.
+ */
+export function livePlayalongMusicOffsetSeconds(musicStartOffsetSeconds, options) {
+  const offset = Number.isFinite(parseFloat(musicStartOffsetSeconds))
+    ? parseFloat(musicStartOffsetSeconds)
+    : 0
+  const residual = residualPlayalongOutputLatencySeconds(options || {})
+  return Math.max(0, offset + residual)
+}
+
+/**
+ * Saved-take mapping seed: music-start plus residual output latency.
+ * Detector pad is applied separately via effectivePlayalongMusicOffsetSeconds.
+ */
+export function savedPlayalongMusicOffsetSeconds(musicStartOffsetSeconds, options) {
+  const offset = Number.isFinite(parseFloat(musicStartOffsetSeconds))
+    ? parseFloat(musicStartOffsetSeconds)
+    : 0
+  const residual = residualPlayalongOutputLatencySeconds(options || {})
+  return Math.max(0, offset + residual)
 }
 
 /**
@@ -291,6 +426,7 @@ export async function persistPlayalongRecording(options) {
   const duration = parseFloat(opts.duration)
   const offset = parseFloat(opts.musicStartOffsetSeconds)
   const tempoBpm = parseFloat(opts.tempoBpm)
+  const outputLatency = parseFloat(opts.outputLatencySeconds)
   const recording = {
     id: recordingId,
     tuneId: tune.id,
@@ -303,6 +439,7 @@ export async function persistPlayalongRecording(options) {
     source: PLAYALONG_RECORDING_SOURCE,
     musicStartOffsetSeconds: Number.isFinite(offset) && offset > 0 ? offset : 0,
     tempoBpm: Number.isFinite(tempoBpm) && tempoBpm > 0 ? tempoBpm : 0,
+    outputLatencySeconds: Number.isFinite(outputLatency) && outputLatency > 0 ? outputLatency : 0,
     waveformPeaks: Array.isArray(opts.peaks) ? opts.peaks : [],
     pitchPoints: Array.isArray(opts.pitchPoints) ? opts.pitchPoints : [],
     createdTimestamp: new Date(),
@@ -317,6 +454,7 @@ export async function persistPlayalongRecording(options) {
       duration: recording.duration,
       musicStartOffsetSeconds: recording.musicStartOffsetSeconds,
       tempoBpm: recording.tempoBpm,
+      outputLatencySeconds: recording.outputLatencySeconds,
     }),
     blob: blob,
     peaks: Array.isArray(opts.peaks) ? opts.peaks : [],

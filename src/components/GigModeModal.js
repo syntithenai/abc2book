@@ -168,6 +168,14 @@ export default function GigModeModal(props) {
     return chordTransposeWithCapo(totalTranspose, capoState.capoOffset, capoState.capoEnabled);
   }, [currentTune, setItem, capoState.capoOffset, capoState.capoEnabled]);
 
+  // Capo only changes chord fingering names — notation stays on sounding transpose.
+  const notationVisualTranspose = useMemo(function() {
+    if (!currentTune) return 0;
+    const baseTranspose = Number(currentTune.transpose) || 0;
+    const itemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
+    return baseTranspose + itemTranspose;
+  }, [currentTune, setItem]);
+
   const structureMelodyNoteLines = useMemo(function() {
     if (!currentTune || !currentTune.voices || Object.keys(currentTune.voices).length === 0) return [];
     const firstVoice = Object.values(currentTune.voices)[0];
@@ -212,8 +220,6 @@ export default function GigModeModal(props) {
       }
     }
   }, []);
-
-  const notationVisualTranspose = chordTranspose;
 
   const hasNotes = !!(currentTune && tunebook && tunebook.hasNotes && tunebook.hasNotes(currentTune));
   const hasChords = !!currentTune && tuneHasExplicitChords(currentTune, tunebook, abcjsParser);

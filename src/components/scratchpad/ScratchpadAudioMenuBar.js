@@ -37,6 +37,7 @@ export default function ScratchpadAudioMenuBar(props) {
 
         <ScratchpadAudioProcessMenu
           menuBar={true}
+          user={props.user}
           canApply={props.hasContent}
           onApplyEffect={props.onApplyEffect}
           stemBusy={props.stemBusy}

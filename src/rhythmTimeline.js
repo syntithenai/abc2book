@@ -415,7 +415,10 @@ export function scheduleTimelineSlots(timeline, state, options) {
         if (slotDur > 0 && audioContextTime - audioTime < slotDur * 0.85) {
           const suppressCatchup = opts.suppressCatchupAtMinSlot === true
               && globalSlot === minGlobalSlot
-          if (!suppressCatchup) {
+          const lateBy = audioContextTime - audioTime
+          // A catch-up click more than ~3ms late reads as metronome lag
+          // (observed: first downbeat at +9ms after count-in handoff).
+          if (!suppressCatchup && lateBy <= 0.003) {
             const when = Math.max(audioContextTime + MIN_SCHEDULE_LEAD_SEC, audioTime)
             playSlot(when, slotInBar, globalSlot)
             scheduled += 1

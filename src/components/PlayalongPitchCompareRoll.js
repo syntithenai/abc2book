@@ -2,7 +2,11 @@ import { useEffect, useMemo, useRef } from 'react'
 import { beatToX, midiToY } from '../notation/pianoRollGeometry'
 import { alignedX } from '../playalongStaffLayout'
 import { IN_TUNE_CENTS, midiToNoteName } from '../tunerTuningUtils'
-import { REP_COLORS, displayMidi } from './PracticeWarmupPitchRoll'
+import {
+  buildLiveOverlayTracesForLine,
+  livePitchTipInLineRange,
+} from '../playalongLineNotes'
+import { REP_COLORS } from './PracticeWarmupPitchRoll'
 
 const ROW_HEIGHT = 8
 const PADDING_LEFT = 48
@@ -12,9 +16,32 @@ const MIN_BEAT_WIDTH = 42
 const TRACE_GAP_MS = 650
 /** Room around the line's notes for the in-tune corridor, not extra empty octaves. */
 const PITCH_PAD = 0.85
+/** How far heard pitches may expand the roll beyond the written notes. */
+const HEARD_PAD = 1.25
+const HEARD_EXPAND_SEMITONES = 8
 const MIN_ROLL_HEIGHT = 24
+const LIVE_TRACE_COLOR = '#5dade2'
 
-export function tightPitchRangeFromNotes(notes) {
+/** Prefer harmonic/octave-folded MIDI when it lands near the written note so
+ * whistle overtones don't draw an octave above an otherwise accurate take.
+ * Truly wrong notes still use the raw heard pitch.
+ */
+export function displayMidi(pt) {
+  if (!pt) return null
+  if (
+    pt.foldedMidi != null && Number.isFinite(pt.foldedMidi)
+    && pt.expectedMidi != null && Number.isFinite(pt.expectedMidi)
+    && Math.abs(pt.foldedMidi - pt.expectedMidi) <= 0.65
+  ) {
+    return pt.foldedMidi
+  }
+  if (pt.sourceMidi != null && Number.isFinite(pt.sourceMidi)) return pt.sourceMidi
+  if (pt.rawMidi != null && Number.isFinite(pt.rawMidi)) return pt.rawMidi
+  if (pt.midi != null && Number.isFinite(pt.midi)) return pt.midi
+  return null
+}
+
+export function tightPitchRangeFromNotes(notes, repTraces) {
   let min = null
   let max = null
   ;(notes || []).forEach(function(n) {
@@ -25,14 +52,27 @@ export function tightPitchRangeFromNotes(notes) {
   if (min == null || max == null) {
     return { min: 60, max: 61.7 }
   }
+  const writtenMin = min
+  const writtenMax = max
+  const heardFloor = writtenMin - HEARD_EXPAND_SEMITONES
+  const heardCeil = writtenMax + HEARD_EXPAND_SEMITONES
+  ;(repTraces || []).forEach(function(trace) {
+    ;(trace && trace.points || []).forEach(function(pt) {
+      const midi = displayMidi(pt)
+      if (midi == null || !Number.isFinite(midi)) return
+      const clamped = Math.max(heardFloor, Math.min(heardCeil, midi))
+      if (clamped < min) min = clamped
+      if (clamped > max) max = clamped
+    })
+  })
   return {
-    min: Math.max(0, min - PITCH_PAD),
-    max: Math.min(127, max + PITCH_PAD),
+    min: Math.max(0, min - (min < writtenMin ? HEARD_PAD : PITCH_PAD)),
+    max: Math.min(127, max + (max > writtenMax ? HEARD_PAD : PITCH_PAD)),
   }
 }
 
-export function playalongRollHeight(notes) {
-  const range = tightPitchRangeFromNotes(notes)
+export function playalongRollHeight(notes, repTraces) {
+  const range = tightPitchRangeFromNotes(notes, repTraces)
   const span = Math.max(1.2, range.max - range.min)
   return Math.max(MIN_ROLL_HEIGHT, Math.round(PADDING_Y * 2 + span * ROW_HEIGHT))
 }
@@ -121,11 +161,11 @@ function axisLabelMidis(range, notes) {
   return Object.keys(seen).map(Number).sort(function(a, b) { return b - a })
 }
 
-function drawRoll(ctx, width, height, props) {
+function drawRoll(ctx, width, height, props, liveTraces) {
   const notes = props.expectedNotes || []
-  const traces = props.repTraces || []
+  const traces = (props.repTraces || []).concat(Array.isArray(liveTraces) ? liveTraces : [])
   const patternBeats = Math.max(1, props.patternDurationBeats || 1)
-  const range = tightPitchRangeFromNotes(notes)
+  const range = tightPitchRangeFromNotes(notes, traces)
   const innerW = Math.max(1, width - PADDING_LEFT - PADDING_RIGHT)
   const innerH = Math.max(1, height - PADDING_Y * 2)
   const beatWidth = innerW / patternBeats
@@ -210,56 +250,124 @@ function drawRoll(ctx, width, height, props) {
   })
 
   traces.forEach(function(trace) {
-    const color = REP_COLORS[(trace.repIndex || 0) % REP_COLORS.length]
+    const color = trace && trace.live
+      ? LIVE_TRACE_COLOR
+      : REP_COLORS[(trace.repIndex || 0) % REP_COLORS.length]
     drawLiveTrace(ctx, trace.points || [], color, props, beatWidth, range, rowHeight)
   })
+}
+
+export function paintLiveOverlayFromSnapshot(props, snapshot) {
+  if (!props || !props.line || typeof props.getLivePitchSnapshot !== 'function' && !snapshot) {
+    return []
+  }
+  const snap = snapshot || (typeof props.getLivePitchSnapshot === 'function'
+    ? props.getLivePitchSnapshot()
+    : null)
+  if (!snap || !Array.isArray(snap.points) || !snap.points.length) return []
+  const mapOpts = {
+    musicStartOffsetSeconds: snap.musicStartOffsetSeconds,
+    tempoBpm: snap.tempoBpm,
+    playbackSpeed: props.playbackSpeed,
+  }
+  if (!livePitchTipInLineRange(snap.points, props.line, mapOpts)) return []
+  return buildLiveOverlayTracesForLine(props.line, snap.points, Object.assign({}, mapOpts, {
+    soundingMap: props.soundingMap,
+  }))
 }
 
 export default function PlayalongPitchCompareRoll(props) {
   const canvasRef = useRef(null)
   const wrapRef = useRef(null)
+  const propsRef = useRef(props)
+  propsRef.current = props
   const contentWidth = useMemo(function() {
     const beats = Math.max(1, props.patternDurationBeats || 1)
     if (props.fitWidth) return 0
     return Math.max(320, Math.ceil(PADDING_LEFT + PADDING_RIGHT + beats * MIN_BEAT_WIDTH))
   }, [props.patternDurationBeats, props.fitWidth])
-  const autoHeight = playalongRollHeight(props.expectedNotes)
+  const autoHeight = playalongRollHeight(props.expectedNotes, props.repTraces)
+  const liveOverlay = !!(props.liveOverlay && typeof props.getLivePitchSnapshot === 'function')
 
   useEffect(function() {
     const canvas = canvasRef.current
     const wrap = wrapRef.current
     if (!canvas || !wrap) return undefined
 
-    function paint() {
+    let raf = null
+    let lastVersion = -1
+    let lastHadLive = false
+    let stopped = false
+
+    function paint(liveTraces) {
+      const p = propsRef.current
       const dpr = window.devicePixelRatio || 1
-      const cssW = props.fitWidth
+      const cssW = p.fitWidth
         ? Math.max(160, wrap.clientWidth || 160)
         : Math.max(contentWidth, wrap.clientWidth || contentWidth)
-      const cssH = props.height > 0 ? props.height : autoHeight
+      const cssH = p.height > 0 ? p.height : autoHeight
       canvas.width = Math.floor(cssW * dpr)
       canvas.height = Math.floor(cssH * dpr)
       canvas.style.width = cssW + 'px'
       canvas.style.height = cssH + 'px'
       const ctx = canvas.getContext('2d')
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
-      drawRoll(ctx, cssW, cssH, props)
+      drawRoll(ctx, cssW, cssH, p, liveTraces)
     }
 
-    paint()
-    const onResize = function() { paint() }
+    function paintStatic() {
+      paint(null)
+    }
+
+    function tick() {
+      if (stopped) return
+      const p = propsRef.current
+      if (!(p.liveOverlay && typeof p.getLivePitchSnapshot === 'function')) {
+        paintStatic()
+        return
+      }
+      const snap = p.getLivePitchSnapshot()
+      const version = snap && Number.isFinite(snap.version) ? snap.version : 0
+      const liveTraces = paintLiveOverlayFromSnapshot(p, snap)
+      const hasLive = !!(liveTraces && liveTraces.length)
+      if (version === lastVersion && !hasLive && !lastHadLive) {
+        raf = requestAnimationFrame(tick)
+        return
+      }
+      lastVersion = version
+      lastHadLive = hasLive
+      paint(liveTraces)
+      raf = requestAnimationFrame(tick)
+    }
+
+    paintStatic()
+    if (liveOverlay) {
+      raf = requestAnimationFrame(tick)
+    }
+
+    const onResize = function() {
+      if (liveOverlay) return
+      paintStatic()
+    }
     window.addEventListener('resize', onResize)
     let observer = null
     if (typeof ResizeObserver !== 'undefined') {
-      observer = new ResizeObserver(onResize)
+      observer = new ResizeObserver(function() {
+        if (liveOverlay) return
+        paintStatic()
+      })
       observer.observe(wrap)
     }
     return function() {
+      stopped = true
       window.removeEventListener('resize', onResize)
       if (observer) observer.disconnect()
+      if (raf) cancelAnimationFrame(raf)
     }
   }, [
     contentWidth,
     autoHeight,
+    liveOverlay,
     props.fitWidth,
     props.expectedNotes,
     props.repTraces,
@@ -271,6 +379,9 @@ export default function PlayalongPitchCompareRoll(props) {
     props.beatAnchors,
     props.staffLeft,
     props.staffRight,
+    props.line,
+    props.playbackSpeed,
+    props.soundingMap,
   ])
 
   return (

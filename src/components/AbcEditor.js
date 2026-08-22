@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import { createPortal } from 'react-dom'
 import {useParams} from 'react-router-dom'
 import abcjs from "abcjs";
 import {Container, Row, Col, Tabs, Tab, Form, Button, ButtonGroup, Modal, Alert} from 'react-bootstrap'
@@ -19,6 +20,7 @@ import LyricsEditorChordsPreview from './LyricsEditorChordsPreview'
 import useAbcjsParser from '../useAbcjsParser'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import TablatureSelector from './TablatureSelector'
+import { setTuneDisplaySettings } from '../tuneDisplaySettings'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import { normalizeVoiceNotesText } from '../melodyBarlineNormalize'
@@ -333,6 +335,9 @@ export default function AbcEditor(props) {
         onActiveVoicesChange={function(voiceKeys) {
           tune.activeVoices = Array.isArray(voiceKeys) ? voiceKeys.slice() : []
           tune.id = params.tuneId
+          if (tune.id) {
+            setTuneDisplaySettings(tune.id, { activeVoices: tune.activeVoices })
+          }
           saveTune(tune, { historyLabel: 'Active voices' })
           if (props.forceRefresh) props.forceRefresh()
         }}
@@ -1205,8 +1210,7 @@ export default function AbcEditor(props) {
           onChange={function(e) { handleBlockLyricsTextChange(e.target.value) }}
         />
       )
-      return (
-                    <div className="abc-editor-lyrics-panel">
+      const lyricsToolbar = (
                     <div className="abc-editor-lyrics-toolbar">
                       {lyricsEditorSubTab === 'text' ? (
                         <LyricsSectionsDropdown
@@ -1273,7 +1277,7 @@ export default function AbcEditor(props) {
                             token={props.token}
                             tunebook={props.tunebook}
                             existingLyrics={blockLyricsText}
-                            confirmOverwriteChords={true}
+                            presentChoicesInDialog={false}
                             onLyrics={function(result) {
                               const text = result && (result.text
                                 || (Array.isArray(result.lines) ? result.lines.join('\n') : ''))
@@ -1287,6 +1291,9 @@ export default function AbcEditor(props) {
                                 tunebook: props.tunebook,
                                 abcjsParser: abcjsParser,
                                 updateLyrics: true,
+                                // Lyrics editor search: keep chords in the lyrics
+                                // field (ChordPro / COW). Do not rebuild ABC here.
+                                skipAbcMerge: true,
                                 historyLabel: 'Search chords and lyrics',
                               })
                               if (!committed.ok) {
@@ -1306,6 +1313,12 @@ export default function AbcEditor(props) {
                         </div>
                       ) : null}
                     </div>
+      )
+      return (
+                    <div className="abc-editor-lyrics-panel">
+                    {props.secondaryToolbarHost
+                      ? createPortal(lyricsToolbar, props.secondaryToolbarHost)
+                      : lyricsToolbar}
                     {lyricsEditorSubTab === 'align' ? lyricsEditorBody : (
                     <div className="abc-editor-lyrics-split">
                       <div className="abc-editor-lyrics-split-editor">
@@ -1426,7 +1439,7 @@ export default function AbcEditor(props) {
   return (
     <div className={'abc-editor' + (isLyricsView ? ' abc-editor--lyrics' : '')} style={isLyricsView ? undefined : {minHeight: '40em'}}>
       <div style={{display: 'none'}} id="audio">Player</div>
-      <div className={'abc-editor-panel mt-2' + (isLyricsView ? ' abc-editor-panel--lyrics' : '')}>
+      <div className={'abc-editor-panel' + (isLyricsView ? ' abc-editor-panel--lyrics' : ' mt-2')}>
         {renderEditorPanel()}
       </div>
     </div>

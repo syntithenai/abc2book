@@ -34,6 +34,15 @@ export function candidateDisplayValue(kind, candidate) {
     return ''
   }
   if (kind === 'chords') {
+    if (Array.isArray(candidate.lyricLines) && candidate.lyricLines.length) {
+      return candidate.lyricLines.join('\n').trim()
+    }
+    if (typeof candidate.chordProSource === 'string' && candidate.chordProSource.trim()) {
+      return candidate.chordProSource.trim()
+    }
+    if (typeof candidate.lyricText === 'string' && candidate.lyricText.trim()) {
+      return candidate.lyricText.trim()
+    }
     return String(candidate.chordText || candidate.preview || candidate.abc || '').trim()
   }
   if (kind === 'notation') {

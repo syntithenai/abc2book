@@ -95,14 +95,15 @@ export function PlaylistRepeatButton({
   )
 }
 
+const FOLLOW_ICON_PATH = 'M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z'
+
 export function PlaylistFollowIcon({ className, size, active }) {
   const dimension = size || 18
   return (
-    <img
-      src={process.env.PUBLIC_URL + '/playlist-follow-icon.png'}
+    <svg
+      viewBox="0 0 24 24"
       width={dimension}
       height={dimension}
-      alt=""
       aria-hidden="true"
       style={{ display: 'block', flexShrink: 0 }}
       className={
@@ -110,7 +111,9 @@ export function PlaylistFollowIcon({ className, size, active }) {
         + (active ? ' playlist-follow-icon--active' : '')
         + (className ? ' ' + className : '')
       }
-    />
+    >
+      <path fill="currentColor" d={FOLLOW_ICON_PATH} />
+    </svg>
   )
 }
 

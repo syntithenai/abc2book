@@ -1,8 +1,7 @@
 import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
-import React, { useCallback, useEffect, useMemo, useRef, useSyncExternalStore, useState} from 'react'
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSyncExternalStore, useState} from 'react'
 import AbcEditor from './AbcEditor'
-import TuneEnhanceButton from './TuneEnhanceButton'
 import NotationSearchButton from './NotationSearchButton'
 import NotationSelectButton from './NotationSelectButton'
 import MelodyAnalysisRefineModal from './MelodyAnalysisRefineModal'
@@ -23,6 +22,7 @@ import {
 import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
 import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
 import { confirmLeaveChordRecord } from '../chordRecordNavigationGuard'
+import { getTune as getTuneFromRepository } from '../tuneRepository'
 
 export default function MusicEditor(props) {
     const embedded = !!props.embedded
@@ -39,8 +39,13 @@ export default function MusicEditor(props) {
         ? (props.initialView || 'music')
         : (embedded ? (props.initialView || 'info') : urlView)
     )
+    const [repoTune, setRepoTune] = useState(null)
+    const [tuneLoadState, setTuneLoadState] = useState('idle')
+    const editorRootRef = useRef(null)
+    const editorChromeStackRef = useRef(null)
+    const [secondaryToolbarHost, setSecondaryToolbarHost] = useState(null)
 
-    const tune = useMemo(function() {
+    const tuneFromProps = useMemo(function() {
       if (!resolvedTuneId || !tunebook) return null
       if (embedded && typeof tunebook.fromSelection === 'function') {
         const matches = tunebook.fromSelection({ [resolvedTuneId]: true })
@@ -50,6 +55,49 @@ export default function MusicEditor(props) {
       if (embedded && props.tune) return props.tune
       return null
     }, [embedded, resolvedTuneId, tunebook, props.tunes, props.tunes && resolvedTuneId && props.tunes[resolvedTuneId], props.tune, props.tunesRevision])
+
+    useEffect(function() {
+      let cancelled = false
+      if (!resolvedTuneId) {
+        setRepoTune(null)
+        setTuneLoadState('missing')
+        return undefined
+      }
+      if (tuneFromProps) {
+        setRepoTune(null)
+        setTuneLoadState('ready')
+        return undefined
+      }
+      if (embedded) {
+        setRepoTune(null)
+        setTuneLoadState('missing')
+        return undefined
+      }
+      const tunesCount = props.tunes ? Object.keys(props.tunes).length : 0
+      setTuneLoadState('loading')
+      getTuneFromRepository(resolvedTuneId).then(function(loaded) {
+        if (cancelled) return
+        if (loaded) {
+          setRepoTune(loaded)
+          setTuneLoadState('ready')
+          return
+        }
+        // Empty in-memory book usually means hydration is still running.
+        if (tunesCount === 0) {
+          setTuneLoadState('loading')
+          return
+        }
+        setRepoTune(null)
+        setTuneLoadState('missing')
+      }).catch(function() {
+        if (cancelled) return
+        setRepoTune(null)
+        setTuneLoadState(tunesCount === 0 ? 'loading' : 'missing')
+      })
+      return function() { cancelled = true }
+    }, [embedded, resolvedTuneId, tuneFromProps, props.tunes])
+
+    const tune = tuneFromProps || repoTune
 
     let abc = tune ? tunebook.abcTools.json2abc(tune) : ''
     const editHistory = props.editHistory
@@ -209,6 +257,39 @@ export default function MusicEditor(props) {
             window.removeEventListener('keydown', handleHistoryShortcut)
         }
     }, [props.blockKeyboardShortcuts, canRedo, canUndo, tuneId, handleRedo, handleUndo])
+
+    // Keep second-level sticky toolbars (notation etc.) parked under the measured
+    // chrome stack (close bar + optional lyrics toolbar) so rows never overlap.
+    useLayoutEffect(function() {
+      if (notationOnly) return undefined
+      const root = editorRootRef.current
+      const stack = editorChromeStackRef.current
+      if (!root || !stack) return undefined
+
+      function measure() {
+        const height = stack.getBoundingClientRect().height
+        if (!(height > 0)) return
+        root.style.setProperty('--music-editor-buttons-sticky-height', height + 'px')
+        root.style.setProperty(
+          '--music-editor-chrome-offset',
+          'calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + ' + height + 'px)'
+        )
+      }
+
+      measure()
+      let observer = null
+      if (typeof ResizeObserver !== 'undefined') {
+        observer = new ResizeObserver(measure)
+        observer.observe(stack)
+      }
+      window.addEventListener('resize', measure)
+      return function() {
+        if (observer) observer.disconnect()
+        window.removeEventListener('resize', measure)
+        root.style.removeProperty('--music-editor-buttons-sticky-height')
+        root.style.removeProperty('--music-editor-chrome-offset')
+      }
+    }, [notationOnly, editorViewMode, tuneLoadState, secondaryToolbarHost])
     
     const isNotationView = isNotationEditorView(editorViewMode)
     const historyButtonGroup = (
@@ -234,10 +315,25 @@ export default function MusicEditor(props) {
       </span>
     )
 
-    if (!tune) return null
+    if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune)) {
+      return <div className="music-editor p-3" style={{width:'100%'}}>Loading tune…</div>
+    }
+    if (!tune) {
+      return (
+        <div className="music-editor p-3" style={{width:'100%'}}>
+          <p className="mb-2">Tune not found.</p>
+          {!embedded ? (
+            <Button variant="secondary" onClick={function() { navigate('/tunes') }}>
+              Back to tunes
+            </Button>
+          ) : null}
+        </div>
+      )
+    }
 
-    return <div className={'music-editor' + (embedded ? ' music-editor--embedded' : '') + (notationOnly ? ' music-editor--notation-only' : '') + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
+    return <div ref={editorRootRef} className={'music-editor' + (embedded ? ' music-editor--embedded' : '') + (notationOnly ? ' music-editor--notation-only' : '') + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
         {!notationOnly ? (
+        <div ref={editorChromeStackRef} className="music-editor-chrome-stack">
         <div className="music-editor-buttons">
             <div className="music-editor-buttons-left">
                 <Button
@@ -344,16 +440,6 @@ export default function MusicEditor(props) {
                     />
                   </>
                 ) : null}
-                <span className="music-editor-search">
-                    {editorViewMode === 'info' ? (
-                      <TuneEnhanceButton
-                        tune={tune}
-                        tunebook={props.tunebook}
-                        token={props.token}
-                        forceRefresh={notifyRefresh}
-                      />
-                    ) : null}
-                </span>
             </div>
             <div className="music-editor-header-view-groups">
                 <ViewModeSelectorModal
@@ -363,6 +449,12 @@ export default function MusicEditor(props) {
                   onChange={handleEditorViewChange}
                 />
             </div>
+        </div>
+        <div
+          ref={setSecondaryToolbarHost}
+          className="music-editor-secondary-toolbar-host"
+          data-testid="music-editor-secondary-toolbar-host"
+        />
         </div>
         ) : null}
         <AbcEditor
@@ -389,6 +481,7 @@ export default function MusicEditor(props) {
           historyControls={notationOnly && !embedded ? historyButtonGroup : null}
           alignedLyricsOnly={notationOnly}
           onRegisterFlushCommit={function(fn) { notationFlushRef.current = fn; }}
+          secondaryToolbarHost={secondaryToolbarHost}
         />
     </div>
 }

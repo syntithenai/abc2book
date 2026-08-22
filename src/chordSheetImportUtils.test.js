@@ -1,6 +1,47 @@
-import { buildChordSheetAlignmentFromLines } from './chordSheetImportUtils';
+import {
+  buildChordSheetAlignmentFromLines,
+  sheetLinesToEmbeddedLyricLines,
+  sheetLinesToLyricLines,
+} from './chordSheetImportUtils';
 
 describe('chordSheetImportUtils', function() {
+  test('sheetLinesToEmbeddedLyricLines keeps chords-over-words rows', function() {
+    const embedded = sheetLinesToEmbeddedLyricLines([
+      '[Verse]',
+      'Am          G',
+      'Today is gonna be the day',
+    ])
+    expect(embedded).toEqual([
+      '[Verse]',
+      'Am          G',
+      'Today is gonna be the day',
+    ])
+  })
+
+  test('sheetLinesToEmbeddedLyricLines keeps ChordPro inline markers', function() {
+    expect(sheetLinesToEmbeddedLyricLines([
+      '[Verse]',
+      '[Am]Today is [G]gonna be the day',
+    ])).toEqual([
+      '[Verse]',
+      '[Am]Today is [G]gonna be the day',
+    ])
+  })
+
+  test('sheetLinesToEmbeddedLyricLines falls back to plain lyrics without chords', function() {
+    expect(sheetLinesToEmbeddedLyricLines([
+      '[Verse]',
+      'Hello darkness my old friend',
+    ])).toEqual([
+      '[Verse]',
+      'Hello darkness my old friend',
+    ])
+    expect(sheetLinesToLyricLines([
+      'Am   G',
+      'Hello',
+    ])).toEqual(['Hello'])
+  })
+
   test('buildChordSheetAlignmentFromLines maps chords onto a single lyric by offset', function() {
     const blocks = buildChordSheetAlignmentFromLines([
       '[Chorus]',

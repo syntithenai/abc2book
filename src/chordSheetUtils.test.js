@@ -6,6 +6,11 @@ describe('chordSheetUtils', function() {
     ['C', 'Bb', 'C7', 'Dm/C', 'Gm7', 'A7', 'F#m', 'Am/E', 'Am9'].forEach(function(c) {
       expect(tokenIsChord(c)).toBe(true);
     });
+    ['N.C.', 'NC', 'N/C', 'n.c.', 'tacet'].forEach(function(c) {
+      expect(tokenIsChord(c)).toBe(true);
+    });
+    expect(isChordLine('N.C.')).toBe(true);
+    expect(isChordLine('   Am              F      Em')).toBe(true);
     ['I', 'really', 'like', 'Christmas', 'Oh'].forEach(function(w) {
       expect(tokenIsChord(w)).toBe(false);
     });

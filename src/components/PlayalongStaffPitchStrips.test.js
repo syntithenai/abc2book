@@ -100,11 +100,18 @@ describe('PlayalongStaffPitchStrips', function() {
           pitchPointsById: {},
           blobById: {},
           isRecording: true,
-          livePitchPoints: [
-            { timeMs: 1000, rawMidi: 60, held: true },
-            { timeMs: 1100, rawMidi: 60, held: true },
-            { timeMs: 1200, rawMidi: 60, held: true },
-          ],
+          getLivePitchSnapshot: function() {
+            return {
+              points: [
+                { timeMs: 1000, rawMidi: 60, held: true },
+                { timeMs: 1100, rawMidi: 60, held: true },
+                { timeMs: 1200, rawMidi: 60, held: true },
+              ],
+              musicStartOffsetSeconds: 1,
+              tempoBpm: 120,
+              version: 3,
+            }
+          },
           liveTempoBpm: 120,
           liveMusicStartOffsetSeconds: 1,
           playbackSpeed: 1,

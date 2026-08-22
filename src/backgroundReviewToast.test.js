@@ -66,15 +66,35 @@ describe('backgroundReviewToast', function() {
     expect(toast.warn).toHaveBeenCalled()
   })
 
-  test('syncBackgroundReviewToast skips when no attach-analysis or import ready work', function() {
+  test('syncBackgroundReviewToast shows ready toast for field lookups', function() {
     getBackgroundReviewSummary.mockReturnValue({
-      ready: 2,
+      ready: 1,
       processing: 0,
-      importReadyIds: ['a'],
+      importReadyIds: [],
       importReady: 0,
       importProcessing: 0,
       mediaReady: [],
       fieldLookupAwaiting: ['f'],
+      fieldLookupProcessing: [],
+      fileOcrReady: [],
+      fileOcrProcessing: [],
+      fileOcrFailed: [],
+      mediaProcessing: [],
+    })
+    syncBackgroundReviewToast({ onReview: jest.fn() })
+    expect(toast.warn).toHaveBeenCalled()
+  })
+
+  test('syncBackgroundReviewToast skips when no attach-analysis, import, or field ready work', function() {
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 0,
+      processing: 0,
+      importReadyIds: [],
+      importReady: 0,
+      importProcessing: 0,
+      mediaReady: [],
+      fieldLookupAwaiting: [],
+      fieldLookupProcessing: [],
       fileOcrReady: [],
       fileOcrProcessing: [],
       fileOcrFailed: [],

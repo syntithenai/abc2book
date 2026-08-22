@@ -33,6 +33,37 @@ export function isMidiOwnedMediaLink(link) {
   return !!(link && link.mediaKind === 'midi')
 }
 
+/** Pure end-of-file guard for midi-player-js multi-track false ends. */
+export function createMidiFileEndHandler(options) {
+  const opts = options || {}
+  return function handleEndOfFile() {
+    if (typeof opts.clearTimeUpdateTimer === 'function') opts.clearTimeUpdateTimer()
+    if (typeof opts.stopActiveNotes === 'function') opts.stopActiveNotes()
+    const player = opts.player
+    let remaining = 0
+    try {
+      remaining = player && typeof player.getSongTimeRemaining === 'function'
+        ? player.getSongTimeRemaining()
+        : 0
+    } catch (e) {
+      remaining = 0
+    }
+    if (Number.isFinite(remaining) && remaining > 0.35) {
+      if (player && typeof player.isPlaying === 'function' && !player.isPlaying()) {
+        try {
+          player.play()
+          if (typeof opts.startTimeUpdateTimer === 'function') opts.startTimeUpdateTimer()
+        } catch (err) { /* ignore */ }
+      }
+      return
+    }
+    try {
+      if (player && typeof player.skipToSeconds === 'function') player.skipToSeconds(0)
+    } catch (e) { /* ignore */ }
+    if (typeof opts.onEnded === 'function') opts.onEnded()
+  }
+}
+
 /**
  * abcjs getMidiFile(binary) may return a Uint8Array or an array of them (one per tune).
  */

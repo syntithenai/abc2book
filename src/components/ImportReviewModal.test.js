@@ -228,7 +228,10 @@ jest.mock('./AddTuneSimpleForm', function() {
         >
           Add
         </button>
-        <div data-testid="add-tune-matches">matches</div>
+        {props.addFromToolbar ? (
+          <div data-testid="add-from-in-form">{props.addFromToolbar}</div>
+        ) : null}
+        <div data-testid="add-tune-matches">Already In Your Library</div>
       </div>
     );
   };
@@ -335,6 +338,7 @@ function buildProps(overrides) {
   return Object.assign({
     embedded: true,
     show: true,
+    reviewPageMode: true,
     session: session,
     tunes: {
       'existing-1': { id: 'existing-1', name: 'Existing Tune', composer: 'Existing Artist' },
@@ -401,15 +405,20 @@ describe('ImportReviewModal', function() {
     const props = buildProps({
       session: session,
       currentTuneBook: 'songs',
+      embedded: false,
     });
 
     await view.render(props);
 
     expect(view.container.textContent).toContain('Add');
     expect(view.container.textContent).not.toContain('Add tunes');
+    expect(view.container.querySelector('[data-testid="add-tunes-page"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="modal"]')).toBeFalsy();
     expect(view.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
     expect(view.container.querySelector('[data-testid="tune-record-form"]')).toBeFalsy();
+    expect(view.container.querySelector('[data-testid="add-from-in-form"]')).toBeTruthy();
     expect(view.container.textContent).toContain('Add From');
+    expect(view.container.textContent).toContain('Already In Your Library');
     expect(view.container.textContent).not.toContain('Enhance');
     expect(view.container.querySelector('[data-testid="add-tunes-cancel"]')).toBeFalsy();
     const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
@@ -418,6 +427,27 @@ describe('ImportReviewModal', function() {
     const hint = view.container.querySelector('[data-testid="add-tune-requirement-hint"]');
     expect(hint).toBeTruthy();
     expect(hint.textContent).toContain('title and composer');
+
+    await view.unmount();
+  });
+
+  test('Add page does not cover non-/add routes when reviewPageMode is false', async function() {
+    const view = renderModal();
+    const session = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs' })],
+      { entryMode: 'add' }
+    );
+    const props = buildProps({
+      session: session,
+      currentTuneBook: 'songs',
+      embedded: false,
+      reviewPageMode: false,
+    });
+
+    await view.render(props);
+
+    expect(view.container.querySelector('[data-testid="add-tunes-page"]')).toBeFalsy();
+    expect(view.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeFalsy();
 
     await view.unmount();
   });
@@ -433,6 +463,7 @@ describe('ImportReviewModal', function() {
       session: session,
       currentTuneBook: 'songs',
       onSessionChange: onSessionChange,
+      embedded: false,
     });
 
     await view.render(props);
@@ -447,6 +478,7 @@ describe('ImportReviewModal', function() {
     expect(formButton.textContent).toContain('Add Form');
     expect(curatedButton.textContent).toContain('Curated Collections');
     expect(bulkButton.textContent).toContain('Bulk Import');
+    expect(view.container.querySelector('[data-testid="add-from-in-form"]')).toBeTruthy();
 
     curatedButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
     expect(onSessionChange).toHaveBeenCalled();
@@ -594,7 +626,7 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
-  test('Add dialog X discard uses onDiscardAddDraft', async function() {
+  test('Add page close discard uses onDiscardAddDraft', async function() {
     const view = renderModal();
     const onDiscardAddDraft = jest.fn();
     const onContinueLater = jest.fn();
@@ -612,7 +644,8 @@ describe('ImportReviewModal', function() {
 
     await view.render(props);
 
-    const closeButton = view.container.querySelector('.btn-close');
+    expect(view.container.querySelector('[data-testid="add-tunes-page"]')).toBeTruthy();
+    const closeButton = view.container.querySelector('[data-testid="add-tunes-close"]');
     expect(closeButton).toBeTruthy();
 
     await act(async function() {

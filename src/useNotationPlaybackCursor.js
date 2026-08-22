@@ -9,12 +9,19 @@ import {
 
 const CURSOR_SYNC_MS = 50
 
-function getVisualObjQpm(visualObj, tempoFactor) {
+/**
+ * QPM for display-only TimingCallbacks. Use score tempo only — mediaController
+ * currentTime/duration are music-seconds on the unwarped buffer, so applying
+ * playback-speed here pulls the red cursor off the notes (especially in 4/4).
+ */
+function getVisualObjQpm(visualObj) {
   if (!visualObj) return 120
   const tempo = visualObj.metaText ? visualObj.metaText.tempo : null
-  const base = visualObj.getBpm(tempo) || 120
-  const factor = tempoFactor > 0 ? tempoFactor : 1
-  return base * factor
+  if (typeof visualObj.getBpm === 'function') {
+    const bpm = parseFloat(visualObj.getBpm(tempo))
+    if (bpm > 0) return bpm
+  }
+  return 120
 }
 
 /**
@@ -27,7 +34,6 @@ export default function useNotationPlaybackCursor(props) {
   const containerRef = props.containerRef
   const mediaController = props.mediaController
   const displayTuneId = props.displayTuneId
-  const tempoFactor = props.tempoFactor > 0 ? props.tempoFactor : 1
   const visualObj = props.visualObj || null
 
   const timingCallbacksRef = useRef(null)
@@ -48,7 +54,7 @@ export default function useNotationPlaybackCursor(props) {
         try { timingCallbacksRef.current.pause() } catch (e) {}
       }
       timingCallbacksRef.current = new abcjs.TimingCallbacks(visualObj, {
-        qpm: getVisualObjQpm(visualObj, tempoFactor),
+        qpm: getVisualObjQpm(visualObj),
       })
       visualObjRef.current = visualObj
       cursorRef.current = null
@@ -78,16 +84,26 @@ export default function useNotationPlaybackCursor(props) {
         mediaControllerDuration: mediaController.duration,
       }) || ((lastMoment > 0) ? lastMoment / 1000 : 0)
       if (!(duration > 0) && !(lastMoment > 0)) return
+      const stateSec = mediaController.currentTime
+      const liveSec = (mediaController.getMidiPlaybackSecondsRef
+        && typeof mediaController.getMidiPlaybackSecondsRef.current === 'function')
+        ? mediaController.getMidiPlaybackSecondsRef.current()
+        : stateSec
+      const playbackSec = (liveSec >= 0 && isFinite(liveSec)) ? liveSec : stateSec
       const currentTimeMs = playbackClockToTimingMs(
-        mediaController.currentTime,
+        playbackSec,
         lastMoment,
         duration
       )
+      const beatsPerMeasure = (visualObj && typeof visualObj.getBeatsPerMeasure === 'function')
+        ? parseFloat(visualObj.getBeatsPerMeasure())
+        : 0
       cursorRef.current = applyPlaybackCursorAtTime(
         svg,
         cursorRef.current,
         timingCallbacks.noteTimings,
-        currentTimeMs
+        currentTimeMs,
+        { beatsPerMeasure: beatsPerMeasure }
       )
     }
 
@@ -115,7 +131,6 @@ export default function useNotationPlaybackCursor(props) {
     mediaController,
     displayTuneId,
     visualObj,
-    tempoFactor,
     mediaController && mediaController.isPlaying,
     mediaController && mediaController.tune && mediaController.tune.id,
     mediaController && mediaController.playbackRouteMode,

@@ -950,36 +950,13 @@ var useAbcTools = () => {
                     + (tune.lyricsScrollDurationSec > 0
                       ? "% abcbook-lyrics-scroll-duration " + ensureNumber(tune.lyricsScrollDurationSec, 0) + "\n"
                       : '')
-                    + (tune.zoom > 0 ? "% abcbook-zoom " + ensureNumber(tune.zoom, 1) + "\n" : '')
-                    + (tune.viewMode ? "% abcbook-view-mode " + ensureText(tune.viewMode) + "\n" : '')
-                    + (tune.notationFit === 'vertical' || tune.notationFit === 'horizontal'
-                      ? "% abcbook-notation-fit " + ensureText(tune.notationFit) + "\n"
-                      : '')
-                    + (Array.isArray(tune.activeVoices)
-                      ? "% abcbook-active-voices " + tune.activeVoices.map(function(v) { return ensureText(v) }).filter(Boolean).join(",") + "\n"
-                      : '')
+                    // Device-local display settings (zoom, viewMode, notationFit,
+                    // activeVoices, tablature*) are not exported — see tuneDisplaySettings.js
                     + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n"
                     + (Array.isArray(tune.albums) && tune.albums.length > 0
                       ? tune.albums.map(function(album) {
                         return '% abcbook-albums ' + ensureText(album) + '\n'
                       }).join('')
-                      : '')
-                    + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
-                    + (function() {
-                      const voices = parseTablatureVoices(tune.tablatureVoices)
-                      const keys = Object.keys(voices)
-                      if (!keys.length) return ''
-                      try {
-                        return '% abcbook-tablature-voices ' + JSON.stringify(voices) + '\n'
-                      } catch (e) {
-                        return ''
-                      }
-                    })()
-                    + (tune.tabDisplay === 'tab'
-                      ? "% abcbook-tab-display tab\n"
-                      : '')
-                    + (tune.tablatureEnabled === false
-                      ? "% abcbook-tablature-enabled false\n"
                       : '')
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
@@ -1046,7 +1023,6 @@ var useAbcTools = () => {
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     //+ renderWordHeaders(tune)
-                    + "% abcbook-tablature " +  tune.tablature + "\n" 
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
                     + renderPlaybackAbcbookFields(tune)

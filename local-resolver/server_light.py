@@ -1400,6 +1400,7 @@ async def get_stem_audio_light(
 
 @app.post("/analyze-media")
 @app.post("/detect-chords")
+@app.post("/detect-timing")
 @app.post("/analyze-practice")
 async def heavy_refused(request: Request):
     origin = request.headers.get("origin")

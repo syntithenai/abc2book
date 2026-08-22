@@ -11,6 +11,7 @@ export default function MidiCleanupNotationOverlay(props) {
       beatsPerBar: props.beatsPerBar,
       slotsPerBeat: props.slotsPerBeat,
       noteLength: props.noteLength,
+      quantStrength: props.quantStrength,
     });
   }, [
     props.voices,
@@ -20,6 +21,7 @@ export default function MidiCleanupNotationOverlay(props) {
     props.beatsPerBar,
     props.slotsPerBeat,
     props.noteLength,
+    props.quantStrength,
   ]);
 
   if (!abc) {

@@ -1,6 +1,6 @@
 /**
- * Minimal MIDI parser for client-side piano-roll preview.
- * Returns { tracks: [{ index, name, isDrum, program, notes: [{start,end,midi,velocity}] }] }
+ * Client-side SMF parser for MIDI import preview / local analyze.
+ * Returns { tracks, tempoBpm, format } where tracks are SMF-track (+ channel for type-0) voices.
  */
 
 function readUint32BE(view, offset) {
@@ -22,17 +22,33 @@ function readVarLen(view, state) {
   return value;
 }
 
-function parseTrackEvents(data, trackOffset, trackLength, ticksPerBeat, tempoUs) {
+function voiceIdFor(smfTrackIndex, channel) {
+  return 't' + smfTrackIndex + '-c' + channel;
+}
+
+/**
+ * Parse one MTrk into per-channel note bags (supports running status).
+ */
+function parseTrackEventsByChannel(data, trackOffset, trackLength, ticksPerBeat, tempoUs) {
   const view = new DataView(data.buffer, data.byteOffset, data.byteLength);
   const end = trackOffset + trackLength;
-  let offset = trackOffset;
   let absTicks = 0;
   let currentTempo = tempoUs;
-  const active = {};
-  const notes = [];
-  let program = 0;
-  let isDrum = false;
+  let runningStatus = 0;
   let trackName = '';
+  const channelState = {};
+
+  function ensureChannel(channel) {
+    if (!channelState[channel]) {
+      channelState[channel] = {
+        notes: [],
+        active: {},
+        program: 0,
+        isDrum: channel === 9,
+      };
+    }
+    return channelState[channel];
+  }
 
   function ticksToSeconds(ticks) {
     return (ticks * currentTempo) / (ticksPerBeat * 1000000);
@@ -42,23 +58,31 @@ function parseTrackEvents(data, trackOffset, trackLength, ticksPerBeat, tempoUs)
   while (state.offset < end) {
     const delta = readVarLen(view, state);
     absTicks += delta;
-    const status = view.getUint8(state.offset);
-    let channel = 0;
-    let eventType = status;
+    if (state.offset >= end) break;
 
+    let status = view.getUint8(state.offset);
     if (status < 0x80) {
-      // running status not fully supported; skip byte
+      if (!runningStatus) {
+        state.offset += 1;
+        continue;
+      }
+      status = runningStatus;
+    } else {
       state.offset += 1;
-      continue;
+      if ((status & 0xf0) !== 0xf0) {
+        runningStatus = status;
+      } else {
+        runningStatus = 0;
+      }
     }
 
-    state.offset += 1;
     if ((status & 0xf0) === 0xf0) {
       if (status === 0xff) {
+        if (state.offset >= end) break;
         const metaType = view.getUint8(state.offset);
         state.offset += 1;
         const len = readVarLen(view, state);
-        if (metaType === 0x03) {
+        if (metaType === 0x03 && len > 0) {
           const bytes = new Uint8Array(data.buffer, data.byteOffset + state.offset, len);
           trackName = new TextDecoder().decode(bytes);
         } else if (metaType === 0x51 && len === 3) {
@@ -74,57 +98,105 @@ function parseTrackEvents(data, trackOffset, trackLength, ticksPerBeat, tempoUs)
       continue;
     }
 
-    channel = status & 0x0f;
-    eventType = status & 0xf0;
-    if (channel === 9) {
-      isDrum = true;
-    }
+    const channel = status & 0x0f;
+    const eventType = status & 0xf0;
+    const ch = ensureChannel(channel);
 
-    if (eventType === 0xc0) {
-      const prog = view.getUint8(state.offset);
+    if (eventType === 0xc0 || eventType === 0xd0) {
+      if (state.offset >= end) break;
+      const data1 = view.getUint8(state.offset);
       state.offset += 1;
-      program = prog;
+      if (eventType === 0xc0) {
+        ch.program = data1;
+      }
       continue;
     }
 
+    if (state.offset + 1 >= end) break;
     const data1 = view.getUint8(state.offset);
     state.offset += 1;
-    let data2 = 0;
-    if (eventType === 0xd0) {
-      continue;
-    }
-    data2 = view.getUint8(state.offset);
+    const data2 = view.getUint8(state.offset);
     state.offset += 1;
 
     const timeSec = ticksToSeconds(absTicks);
+    const activeKey = data1;
 
     if (eventType === 0x90 && data2 > 0) {
-      active[data1] = { start: timeSec, velocity: data2 };
+      ch.active[activeKey] = { start: timeSec, velocity: data2 };
     } else if (eventType === 0x80 || (eventType === 0x90 && data2 === 0)) {
-      const started = active[data1];
+      const started = ch.active[activeKey];
       if (started) {
-        delete active[data1];
-        const end = timeSec;
-        notes.push({
+        delete ch.active[activeKey];
+        ch.notes.push({
           start: started.start,
-          end: end > started.start ? end : started.start + 0.05,
+          end: timeSec > started.start ? timeSec : started.start + 0.05,
           midi: data1,
           velocity: started.velocity,
           confidence: started.velocity / 127,
+          channel: channel,
         });
       }
     }
   }
 
-  return { notes: notes, isDrum: isDrum, trackName: trackName, program: program };
+  return { channelState: channelState, trackName: trackName, tempoUs: currentTempo };
+}
+
+function flattenTrackChannels(smfTrackIndex, trackName, channelState, splitByChannel) {
+  const channels = Object.keys(channelState).map(function(key) { return parseInt(key, 10); }).sort(function(a, b) {
+    return a - b;
+  });
+  const nonEmpty = channels.filter(function(ch) {
+    return (channelState[ch].notes || []).length > 0;
+  });
+
+  if (!splitByChannel || nonEmpty.length <= 1) {
+    const notes = [];
+    let program = 0;
+    let isDrum = false;
+    let primaryChannel = nonEmpty.length ? nonEmpty[0] : 0;
+    nonEmpty.forEach(function(ch) {
+      const bag = channelState[ch];
+      if (bag.isDrum) isDrum = true;
+      if (bag.notes.length && !program) program = bag.program || 0;
+      notes.push.apply(notes, bag.notes);
+    });
+    notes.sort(function(a, b) { return a.start - b.start; });
+    return [{
+      index: smfTrackIndex,
+      smfTrackIndex: smfTrackIndex,
+      channel: primaryChannel,
+      voiceId: voiceIdFor(smfTrackIndex, primaryChannel),
+      name: trackName || ('Track ' + (smfTrackIndex + 1)),
+      isDrum: isDrum,
+      program: program || 0,
+      notes: notes,
+    }];
+  }
+
+  return nonEmpty.map(function(ch, offset) {
+    const bag = channelState[ch];
+    const notes = bag.notes.slice().sort(function(a, b) { return a.start - b.start; });
+    return {
+      index: smfTrackIndex * 1000 + ch,
+      smfTrackIndex: smfTrackIndex,
+      channel: ch,
+      voiceId: voiceIdFor(smfTrackIndex, ch),
+      name: (trackName || ('Track ' + (smfTrackIndex + 1))) + ' ch' + (ch + 1),
+      isDrum: !!bag.isDrum || ch === 9,
+      program: bag.program || 0,
+      notes: notes,
+      channelSplitOffset: offset,
+    };
+  });
 }
 
 export function parseMidiBytesToTracks(midiBytes) {
   const data = midiBytes instanceof Uint8Array ? midiBytes : new Uint8Array(midiBytes);
-  if (data.length < 14) return { tracks: [], tempoBpm: 120 };
+  if (data.length < 14) return { tracks: [], tempoBpm: 120, format: 1 };
   const view = new DataView(data.buffer, data.byteOffset, data.byteLength);
   const magic = String.fromCharCode(data[0], data[1], data[2], data[3]);
-  if (magic !== 'MThd') return { tracks: [], tempoBpm: 120 };
+  if (magic !== 'MThd') return { tracks: [], tempoBpm: 120, format: 1 };
 
   const headerLength = readUint32BE(view, 4);
   const format = readUint16BE(view, 8);
@@ -133,25 +205,32 @@ export function parseMidiBytesToTracks(midiBytes) {
   let offset = 8 + headerLength;
   let tempoUs = 500000;
   const tracks = [];
+  const splitByChannel = format === 0 || numTracks === 1;
 
   for (let i = 0; i < numTracks; i += 1) {
     if (offset + 8 > data.length) break;
     const trackMagic = String.fromCharCode(data[offset], data[offset + 1], data[offset + 2], data[offset + 3]);
     if (trackMagic !== 'MTrk') break;
     const trackLength = readUint32BE(view, offset + 4);
-    const parsed = parseTrackEvents(data, offset + 8, trackLength, ticksPerBeat, tempoUs);
-    tracks.push({
-      index: i,
-      name: parsed.trackName || ('Track ' + (i + 1)),
-      isDrum: parsed.isDrum,
-      program: parsed.program || 0,
-      notes: parsed.notes,
+    const parsed = parseTrackEventsByChannel(data, offset + 8, trackLength, ticksPerBeat, tempoUs);
+    if (parsed.tempoUs) tempoUs = parsed.tempoUs;
+    const flattened = flattenTrackChannels(i, parsed.trackName, parsed.channelState, splitByChannel);
+    flattened.forEach(function(track) {
+      tracks.push(track);
     });
     offset += 8 + trackLength;
   }
 
-  const tempoBpm = 60000000 / tempoUs;
-  return { tracks: tracks, tempoBpm: tempoBpm, format: format };
+  // Re-index densely while preserving voiceId / smfTrackIndex / channel.
+  tracks.forEach(function(track, index) {
+    track.index = index;
+  });
+
+  return {
+    tracks: tracks,
+    tempoBpm: 60000000 / tempoUs,
+    format: format,
+  };
 }
 
 export function notesForTrack(midiBytes, trackIndex) {
@@ -170,6 +249,14 @@ function resolveParsedTrackForProfileTrack(parsedTracks, profileTracks, trackId,
   }
   if (!profileTrack) {
     return null;
+  }
+
+  if (profileTrack.voice_id) {
+    const byVoiceId = parsedTracks.find(function(t) {
+      return !usedParsed.has(t.index) && t.notes && t.notes.length
+        && t.voiceId === profileTrack.voice_id;
+    });
+    if (byVoiceId) return byVoiceId;
   }
 
   if (profileTrack.name) {
@@ -223,10 +310,12 @@ export function resolveCleanupPreviewVoices(parsed, profile, selectedTrackIds, d
     voices.push({
       id: voiceId,
       trackId: profileTrackId,
+      voiceId: (profileTrack && profileTrack.voice_id) || parsedTrack.voiceId || null,
       name: (profileTrack && profileTrack.name) || parsedTrack.name || '',
       isDrum: !!(profileTrack && profileTrack.is_drum) || !!parsedTrack.isDrum,
       roleHint: (profileTrack && profileTrack.role_hint) || 'unknown',
       program: profileTrack ? profileTrack.program : (parsedTrack.program || 0),
+      channel: parsedTrack.channel != null ? parsedTrack.channel : (profileTrack && profileTrack.channel),
       notes: parsedTrack.notes.slice(),
     });
     voiceId += 1;
@@ -270,11 +359,6 @@ export function resolveCleanupPreviewVoices(parsed, profile, selectedTrackIds, d
   return voices;
 }
 
-/**
- * Map resolver profile track ids onto locally parsed note events. The minimal
- * client parser and server-side music21 analysis can disagree on empty meta
- * tracks at the start of a file, so index-only lookup often returns [].
- */
 export function resolveCleanupPreviewNotes(parsed, profile, selectedTrackIds) {
   const voices = resolveCleanupPreviewVoices(parsed, profile, selectedTrackIds, {});
   const notes = [];
@@ -293,4 +377,40 @@ export function resolveCleanupPreviewNotes(parsed, profile, selectedTrackIds) {
     }
   });
   return notes;
+}
+
+/** Union notes from several source tracks; merge overlapping same-pitch notes. */
+export function mergeNoteLists(noteLists) {
+  const combined = [];
+  (noteLists || []).forEach(function(list) {
+    (list || []).forEach(function(note) {
+      combined.push({
+        start: note.start,
+        end: note.end,
+        midi: note.midi,
+        velocity: note.velocity != null ? note.velocity : 80,
+        confidence: note.confidence,
+        channel: note.channel,
+      });
+    });
+  });
+  combined.sort(function(a, b) {
+    if (a.start !== b.start) return a.start - b.start;
+    return a.midi - b.midi;
+  });
+  const merged = [];
+  combined.forEach(function(note) {
+    const prev = merged.length ? merged[merged.length - 1] : null;
+    if (
+      prev
+      && prev.midi === note.midi
+      && note.start <= prev.end + 0.01
+    ) {
+      prev.end = Math.max(prev.end, note.end);
+      prev.velocity = Math.max(prev.velocity || 0, note.velocity || 0);
+      return;
+    }
+    merged.push(note);
+  });
+  return merged;
 }

@@ -171,12 +171,15 @@ export function buildPickerStateFromJob(job, tunes, tunebook) {
       : '',
   })
   const items = [currentItem].concat(mapCandidatesToPickerItems(kind, candidates, titleHint))
+  let layout
+  if (kind === 'notation') layout = 'notation'
+  else if (kind === 'lyrics' || kind === 'chords') layout = 'lyrics'
   return {
     job: job,
     kind: kind,
     titleHint: titleHint,
     multiSelect: kind === 'artists' || kind === 'aliases',
-    layout: kind === 'notation' ? 'notation' : undefined,
+    layout: layout,
     previewMetadata: tune ? {
       meter: tune.meter,
       noteLength: tune.noteLength,

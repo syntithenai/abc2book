@@ -1767,6 +1767,7 @@ export default function ImportReviewModal(props) {
         applyYouTubeLinkToForm(link);
       }}
       onFillBulkDiscography={fillBulkImportLines}
+      addFromToolbar={addFromToolbar}
     />
   );
 
@@ -1912,80 +1913,31 @@ export default function ImportReviewModal(props) {
     </div>
   );
 
-  if (props.embedded) {
-    return (
-      <div className="import-review-embedded border rounded p-3 mb-3 bg-light">
-        <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
-          <h5 className="mb-0">
-            {headerTitle}
-            {!addTunesMode ? (
-              <span className="text-muted" style={{ fontSize: '0.85em', marginLeft: '0.75em' }}>
-                {sessionProgressLabel(session)}
-              </span>
-            ) : null}
-          </h5>
-          {headerActions}
-        </div>
-        {addTunesMode ? (
-          <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
-        ) : null}
-        {panelBody}
-        {cancelWarningModal}
-        {importAllWarningModal}
-      </div>
-    );
+  function handleChromeClose() {
+    if (addTunesMode) {
+      // Transient Add draft: discard on close.
+      if (typeof props.onDiscardAddDraft === 'function') {
+        props.onDiscardAddDraft();
+        return;
+      }
+      if (typeof props.onClose === 'function') {
+        props.onClose();
+        return;
+      }
+    }
+    if (typeof props.onContinueLater === 'function') {
+      props.onContinueLater();
+      return;
+    }
+    if (typeof props.onHide === 'function') {
+      props.onHide();
+      return;
+    }
+    if (!addTunesMode) setCancelWarningMode('all');
   }
 
-  return (
-    <Modal
-      show={show}
-      onHide={function() {
-        if (addTunesMode) {
-          // Transient Add draft: discard on close.
-          if (typeof props.onDiscardAddDraft === 'function') {
-            props.onDiscardAddDraft();
-            return;
-          }
-          if (typeof props.onClose === 'function') {
-            props.onClose();
-            return;
-          }
-        }
-        if (typeof props.onContinueLater === 'function') {
-          props.onContinueLater();
-          return;
-        }
-        if (typeof props.onHide === 'function') {
-          props.onHide();
-          return;
-        }
-        if (!addTunesMode) setCancelWarningMode('all');
-      }}
-      fullscreen
-      backdrop="static"
-      className="import-review-modal"
-      dialogClassName="import-review-modal-dialog"
-      contentClassName="import-review-modal-content"
-    >
-      <Modal.Header closeButton className="add-tunes-modal-header import-review-modal-header">
-        <div className="add-tunes-panel-header">
-          <div className="add-tunes-panel-header-top">
-            <Modal.Title>
-              {headerTitle}
-              {!addTunesMode ? (
-                <span className="text-muted" style={{ fontSize: '0.85em', marginLeft: '0.75em' }}>
-                  {sessionProgressLabel(session)}
-                </span>
-              ) : null}
-            </Modal.Title>
-            {headerActions}
-          </div>
-          {addTunesMode ? addFromToolbar : null}
-        </div>
-      </Modal.Header>
-      <Modal.Body className="import-review-modal-body">{panelBody}</Modal.Body>
-      {cancelWarningModal}
-      {importAllWarningModal}
+  const sheetCaptureModals = (
+    <>
       <SheetImageCameraModal
         show={showSheetCamera}
         onHide={function() { setShowSheetCamera(false); }}
@@ -2014,6 +1966,95 @@ export default function ImportReviewModal(props) {
           }
         }}
       />
+    </>
+  );
+
+  // Add From lives in the form (above Media link). Curated/bulk panels keep it under the header.
+  const showHeaderAddFrom = addTunesMode && addPanelMode !== 'form';
+
+  if (props.embedded) {
+    return (
+      <div className="import-review-embedded border rounded p-3 mb-3 bg-light">
+        <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+          <h5 className="mb-0">
+            {headerTitle}
+            {!addTunesMode ? (
+              <span className="text-muted" style={{ fontSize: '0.85em', marginLeft: '0.75em' }}>
+                {sessionProgressLabel(session)}
+              </span>
+            ) : null}
+          </h5>
+          {headerActions}
+        </div>
+        {showHeaderAddFrom ? (
+          <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
+        ) : null}
+        {panelBody}
+        {cancelWarningModal}
+        {importAllWarningModal}
+        {sheetCaptureModals}
+      </div>
+    );
+  }
+
+  // Dedicated Add page: not a dialog, so Escape does not discard the draft.
+  // Only mount on the /add route (reviewPageMode). Otherwise a leftover Add
+  // session with uiVisible would cover /editor lyrics (and other routes).
+  if (addTunesMode) {
+    if (!show || !props.reviewPageMode) return null;
+    return (
+      <div className="add-page" data-testid="add-tunes-page" role="main" aria-label={headerTitle}>
+        <div className="add-page-header">
+          <div className="add-tunes-panel-header">
+            <div className="add-tunes-panel-header-top">
+              <h1 className="add-page-title">{headerTitle}</h1>
+              {headerActions}
+              <button
+                type="button"
+                className="btn-close add-page-close"
+                aria-label="Close"
+                data-testid="add-tunes-close"
+                onClick={handleChromeClose}
+              />
+            </div>
+            {showHeaderAddFrom ? addFromToolbar : null}
+          </div>
+        </div>
+        <div className="add-page-body">{panelBody}</div>
+        {cancelWarningModal}
+        {importAllWarningModal}
+        {sheetCaptureModals}
+      </div>
+    );
+  }
+
+  return (
+    <Modal
+      show={show}
+      onHide={handleChromeClose}
+      fullscreen
+      backdrop="static"
+      className="import-review-modal"
+      dialogClassName="import-review-modal-dialog"
+      contentClassName="import-review-modal-content"
+    >
+      <Modal.Header closeButton className="add-tunes-modal-header import-review-modal-header">
+        <div className="add-tunes-panel-header">
+          <div className="add-tunes-panel-header-top">
+            <Modal.Title>
+              {headerTitle}
+              <span className="text-muted" style={{ fontSize: '0.85em', marginLeft: '0.75em' }}>
+                {sessionProgressLabel(session)}
+              </span>
+            </Modal.Title>
+            {headerActions}
+          </div>
+        </div>
+      </Modal.Header>
+      <Modal.Body className="import-review-modal-body">{panelBody}</Modal.Body>
+      {cancelWarningModal}
+      {importAllWarningModal}
+      {sheetCaptureModals}
     </Modal>
   );
 }

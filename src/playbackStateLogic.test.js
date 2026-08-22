@@ -17,6 +17,8 @@ import {
   shouldShowTapToPlayFromYoutubePoll,
   shouldSuppressTapToPlayDuringQueueAdvance,
   shouldKeepPlayingThroughAutoplayBlock,
+  resolvePlaylistAutoplayRetryAction,
+  PLAYLIST_AUTOPLAY_RETRY_MAX_ATTEMPTS,
   shouldAllowPlaybackEndDespiteGuards,
   shouldDismissTapToPlayModalWithoutStop,
   canResumePlayback,
@@ -48,6 +50,7 @@ import {
   timeUntilNextMetronomeSlot,
   resolveMetronomeAlignTarget,
   computePlaybackMetronomeTempo,
+  resolveSequencePathMeasureTiming,
   computeRhythmGridTempo,
   computeCountInSlotCount,
   resolveCountInBeatCount,
@@ -282,6 +285,42 @@ describe('autoplay and tap-to-play', function() {
       userPaused: true,
       queueAutoAdvance: true,
     })).toBe(false)
+  })
+
+  test('playlist autoplay retry waits through MIDI count-in instead of skipping', function() {
+    const base = {
+      hasActivePlaybackIntent: true,
+      userPaused: false,
+      playbackStarted: false,
+      keepPlaylist: true,
+      queueAdvancing: true,
+      shouldHoldLoading: true,
+      attempt: 5,
+      maxAttempts: PLAYLIST_AUTOPLAY_RETRY_MAX_ATTEMPTS,
+    }
+    expect(resolvePlaylistAutoplayRetryAction(Object.assign({}, base, {
+      midiKickoffActive: true,
+    }))).toBe('wait')
+    expect(resolvePlaylistAutoplayRetryAction(Object.assign({}, base, {
+      midiKickoffActive: false,
+    }))).toBe('skip')
+    expect(resolvePlaylistAutoplayRetryAction(Object.assign({}, base, {
+      midiKickoffActive: false,
+      attempt: 0,
+    }))).toBe('retry')
+    expect(resolvePlaylistAutoplayRetryAction(Object.assign({}, base, {
+      midiKickoffActive: false,
+      keepPlaylist: false,
+      queueAdvancing: false,
+      shouldHoldLoading: true,
+      attempt: 5,
+    }))).toBe('prompt')
+    expect(resolvePlaylistAutoplayRetryAction({
+      hasActivePlaybackIntent: true,
+      playbackStarted: true,
+      midiKickoffActive: true,
+      keepPlaylist: true,
+    })).toBe('stop')
   })
 
   test('autoplay recovery does not run while paused or during seek guard', function() {
@@ -1193,6 +1232,48 @@ describe('computePlaybackMetronomeTempo', function() {
 
   test('falls back when timing data is missing', function() {
     expect(computePlaybackMetronomeTempo({ fallbackQpm: 96 })).toBe(96)
+  })
+})
+
+describe('resolveSequencePathMeasureTiming', function() {
+  test('4/4 leaves milliseconds unchanged', function() {
+    expect(resolveSequencePathMeasureTiming(2400, { num: 4, den: 4 })).toEqual({
+      audibleMsPerMeasure: 2400,
+      createSynthMsPerMeasure: 2400,
+    })
+  })
+
+  test('2/4 scales CreateSynth ms but keeps audible bar length', function() {
+    expect(resolveSequencePathMeasureTiming(1200, { num: 2, den: 4 })).toEqual({
+      audibleMsPerMeasure: 1200,
+      createSynthMsPerMeasure: 2400,
+    })
+  })
+
+  test('3/4 scales CreateSynth ms but keeps audible bar length', function() {
+    expect(resolveSequencePathMeasureTiming(1800, { num: 3, den: 4 })).toEqual({
+      audibleMsPerMeasure: 1800,
+      createSynthMsPerMeasure: 2400,
+    })
+  })
+
+  test('6/8 scales CreateSynth ms but keeps audible bar length', function() {
+    expect(resolveSequencePathMeasureTiming(1200, { num: 6, den: 8 })).toEqual({
+      audibleMsPerMeasure: 1200,
+      createSynthMsPerMeasure: 1600,
+    })
+  })
+
+  test('poisoned CreateSynth ms must not drive TimingCallbacks QPM', function() {
+    const timing = resolveSequencePathMeasureTiming(1200, { num: 2, den: 4 })
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 2,
+      millisecondsPerMeasure: timing.audibleMsPerMeasure,
+    })).toBeCloseTo(100)
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 2,
+      millisecondsPerMeasure: timing.createSynthMsPerMeasure,
+    })).toBeCloseTo(50)
   })
 })
 

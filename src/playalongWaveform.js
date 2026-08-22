@@ -1,5 +1,6 @@
 import decode from 'audio-decode'
 import { createPitchfinderDetector } from './practiceAccuracyBackends'
+import { medianOf } from './tunerlib/pitchStabilizer'
 
 export function downsamplePeaks(channelData, targetLength) {
   const len = Math.max(1, targetLength)
@@ -85,13 +86,28 @@ export function decodePeaksFromBlob(blob) {
 }
 
 const PEAK_INTERVAL_MS = 50
+const LIVE_PEAK_INTERVAL_MS = 22
 const COMPARE_EXTRACT_INTERVAL_MS = 25
 const PITCH_RMS_FLOOR = 0.0055
-const PITCH_HOLD_MS = 480
+const PITCH_HOLD_MS = 280
 const PITCH_MIN_HZ = 65
 const PITCH_MAX_HZ = 1200
 const PITCH_MIN_MIDI = 40
 const PITCH_MAX_MIDI = 96
+// Slightly stricter than pitchfinder defaults, but not so high that quiet
+// melody notes disappear from the compare roll.
+const PLAYALONG_YIN_OPTIONS = {
+  threshold: 0.12,
+  probabilityThreshold: 0.1,
+}
+const PITCH_SMOOTH_WINDOW = 3
+const PITCH_JUMP_SEMITONES = 7.5
+const PITCH_JUMP_CONFIRM = 2
+const LIVE_PITCH_SMOOTH = {
+  windowSize: 1,
+  maxJumpSemitones: 24,
+  confirmFrames: 1,
+}
 
 export function resolvePitchTrackerOptions(options) {
   const opts = options && typeof options === 'object' ? options : {}
@@ -190,7 +206,9 @@ export function preferMonophonicFundamental(freq, samples, sampleRate, options) 
     if (!(fundLag >= 2)) break
     const harmCorr = pitchCorrelationAtLag(samples, harmLag)
     const fundCorr = pitchCorrelationAtLag(samples, fundLag)
-    if (fundCorr >= harmCorr * 0.65) {
+    // Prefer a clear fundamental, but still fold when the half-lag is plausible —
+    // whistle/flute overtones otherwise leave the roll an octave too high.
+    if (fundCorr >= harmCorr * 0.7) {
       current = half
       folds += 1
     } else {
@@ -200,15 +218,139 @@ export function preferMonophonicFundamental(freq, samples, sampleRate, options) 
   return current
 }
 
+/**
+ * Smooth a pitch series for the compare roll: median window + reject sudden
+ * octave/semitone leaps unless the new pitch is confirmed across frames.
+ */
+export function stabilizePitchPointSeries(points, options) {
+  const list = Array.isArray(points) ? points : []
+  const opts = options || {}
+  const windowSize = opts.windowSize > 0 ? opts.windowSize : PITCH_SMOOTH_WINDOW
+  const maxJump = opts.maxJumpSemitones > 0 ? opts.maxJumpSemitones : PITCH_JUMP_SEMITONES
+  const confirmFrames = opts.confirmFrames > 0 ? opts.confirmFrames : PITCH_JUMP_CONFIRM
+  const midiWindow = []
+  const out = []
+  let locked = null
+  let candidate = null
+  let candidateCount = 0
+
+  list.forEach(function(point) {
+    if (!point || !Number.isFinite(point.rawMidi)) return
+    midiWindow.push(point.rawMidi)
+    if (midiWindow.length > windowSize) midiWindow.shift()
+    const smoothed = medianOf(midiWindow)
+    if (smoothed == null || !Number.isFinite(smoothed)) return
+
+    let nextMidi = smoothed
+    let held = !!point.held
+    if (locked == null) {
+      locked = nextMidi
+      candidate = null
+      candidateCount = 0
+    } else if (Math.abs(nextMidi - locked) <= maxJump) {
+      locked = nextMidi
+      candidate = null
+      candidateCount = 0
+    } else if (candidate != null && Math.abs(nextMidi - candidate) <= 2.25) {
+      candidateCount += 1
+      candidate = (candidate * (candidateCount - 1) + nextMidi) / candidateCount
+      if (candidateCount >= confirmFrames) {
+        locked = candidate
+        candidate = null
+        candidateCount = 0
+      } else {
+        nextMidi = locked
+        held = true
+      }
+    } else {
+      candidate = nextMidi
+      candidateCount = 1
+      nextMidi = locked
+      held = true
+    }
+
+    out.push(Object.assign({}, point, {
+      rawMidi: nextMidi,
+      sourceMidi: Number.isFinite(point.sourceMidi) ? point.sourceMidi : point.rawMidi,
+      held: held,
+    }))
+  })
+  return out
+}
+
+export function createPlayalongPitchSmoother(options) {
+  const opts = options || {}
+  const windowSize = opts.windowSize > 0 ? opts.windowSize : PITCH_SMOOTH_WINDOW
+  const maxJump = opts.maxJumpSemitones > 0 ? opts.maxJumpSemitones : PITCH_JUMP_SEMITONES
+  const confirmFrames = opts.confirmFrames > 0 ? opts.confirmFrames : PITCH_JUMP_CONFIRM
+  const midiWindow = []
+  let locked = null
+  let candidate = null
+  let candidateCount = 0
+
+  return {
+    reset: function() {
+      midiWindow.length = 0
+      locked = null
+      candidate = null
+      candidateCount = 0
+    },
+    push: function(rawMidi) {
+      if (!Number.isFinite(rawMidi)) return null
+      midiWindow.push(rawMidi)
+      if (midiWindow.length > windowSize) midiWindow.shift()
+      const smoothed = medianOf(midiWindow)
+      if (smoothed == null || !Number.isFinite(smoothed)) return null
+
+      if (locked == null) {
+        locked = smoothed
+        candidate = null
+        candidateCount = 0
+        return locked
+      }
+      if (Math.abs(smoothed - locked) <= maxJump) {
+        locked = smoothed
+        candidate = null
+        candidateCount = 0
+        return locked
+      }
+      if (candidate != null && Math.abs(smoothed - candidate) <= 2.25) {
+        candidateCount += 1
+        candidate = (candidate * (candidateCount - 1) + smoothed) / candidateCount
+        if (candidateCount >= confirmFrames) {
+          locked = candidate
+          candidate = null
+          candidateCount = 0
+          return locked
+        }
+        return locked
+      }
+      candidate = smoothed
+      candidateCount = 1
+      return locked
+    },
+  }
+}
+
+function createPlayalongYinDetector(sampleRate) {
+  return createPitchfinderDetector(sampleRate, PLAYALONG_YIN_OPTIONS)
+}
+
 export function createLivePeakSampler(stream, options) {
-  const pitch = resolvePitchTrackerOptions(options)
+  const opts = options || {}
+  const pitch = resolvePitchTrackerOptions(opts)
+  const liveMode = !!opts.liveMode
+  const intervalMs = opts.intervalMs > 0
+    ? opts.intervalMs
+    : (liveMode ? LIVE_PEAK_INTERVAL_MS : PEAK_INTERVAL_MS)
   const peaks = []
   const pitchPoints = []
+  const smoother = createPlayalongPitchSmoother(liveMode ? LIVE_PITCH_SMOOTH : undefined)
   if (!stream) {
     return {
       peaks: peaks,
       pitchPoints: pitchPoints,
-      intervalMs: PEAK_INTERVAL_MS,
+      intervalMs: intervalMs,
       stop: function() {},
     }
   }
@@ -219,7 +361,7 @@ export function createLivePeakSampler(stream, options) {
     return {
       peaks: peaks,
       pitchPoints: pitchPoints,
-      intervalMs: PEAK_INTERVAL_MS,
+      intervalMs: intervalMs,
       stop: function() {},
     }
   }
@@ -239,7 +381,7 @@ export function createLivePeakSampler(stream, options) {
     return {
       peaks: peaks,
       pitchPoints: pitchPoints,
-      intervalMs: PEAK_INTERVAL_MS,
+      intervalMs: intervalMs,
       stop: function() {},
     }
   }
@@ -249,6 +391,7 @@ export function createLivePeakSampler(stream, options) {
   let lastMidi = null
   let lastMidiAt = -Infinity
   let yinDetect = null
+  let aubioDetect = null
   const stats = {
     frames: 0,
     detected: 0,
@@ -262,10 +405,40 @@ export function createLivePeakSampler(stream, options) {
     holdRms: pitch.holdRms,
     minMidi: pitch.minMidi,
     maxMidi: pitch.maxMidi,
+    liveMode: liveMode,
+    detector: 'yin',
   }
-  createPitchfinderDetector(ctx.sampleRate).then(function(detect) {
+  createPlayalongYinDetector(ctx.sampleRate).then(function(detect) {
     yinDetect = detect
   }).catch(function() {})
+
+  if (
+    liveMode
+    && typeof window !== 'undefined'
+    && typeof window.aubio === 'function'
+  ) {
+    try {
+      Promise.resolve(window.aubio()).then(function(aubioLib) {
+        if (!aubioLib || typeof aubioLib.Pitch !== 'function') return
+        const detector = new aubioLib.Pitch(
+          'default',
+          analyser.fftSize,
+          1,
+          ctx.sampleRate
+        )
+        if (!detector || typeof detector.do !== 'function') return
+        aubioDetect = function(samples) {
+          try {
+            const hz = detector.do(samples)
+            return hz > 0 ? hz : null
+          } catch (e) {
+            return null
+          }
+        }
+        stats.detector = 'aubio'
+      }).catch(function() {})
+    } catch (e) {}
+  }
 
   function fillFloatFromBytes() {
     for (let i = 0; i < data.length; i += 1) {
@@ -304,14 +477,17 @@ export function createLivePeakSampler(stream, options) {
     stats.frames += 1
     let freq = null
     let yinHz = null
-    if (typeof yinDetect === 'function') {
-      try { yinHz = yinDetect(floatData) || null } catch (e) { yinHz = null }
-      if (yinHz > 0 && (yinHz < pitch.minHz || yinHz > pitch.maxHz)) {
-        stats.droppedHz += 1
-        yinHz = null
-      }
-      if (yinHz > 0) freq = preferMonophonicFundamental(yinHz, floatData, ctx.sampleRate, pitch)
+    if (typeof aubioDetect === 'function') {
+      try { yinHz = aubioDetect(floatData) || null } catch (e) { yinHz = null }
     }
+    if (!(yinHz > 0) && typeof yinDetect === 'function') {
+      try { yinHz = yinDetect(floatData) || null } catch (e) { yinHz = null }
+    }
+    if (yinHz > 0 && (yinHz < pitch.minHz || yinHz > pitch.maxHz)) {
+      stats.droppedHz += 1
+      yinHz = null
+    }
+    if (yinHz > 0) freq = preferMonophonicFundamental(yinHz, floatData, ctx.sampleRate, pitch)
     if (!(freq > 0)) freq = detectPitchHz(floatData, ctx.sampleRate, pitch)
     const elapsedMs = (typeof performance !== 'undefined' ? performance.now() : Date.now()) - startedAt
     let rawMidi = frequencyToMidiFloat(freq)
@@ -321,6 +497,8 @@ export function createLivePeakSampler(stream, options) {
     }
     let held = false
     if (rawMidi != null && Number.isFinite(rawMidi)) {
+      const smoothed = smoother.push(rawMidi)
+      if (smoothed != null) rawMidi = smoothed
       lastMidi = rawMidi
       lastMidiAt = elapsedMs
       stats.detected += 1
@@ -334,6 +512,7 @@ export function createLivePeakSampler(stream, options) {
       stats.held += 1
     } else if (!(rms >= pitch.rmsFloor)) {
       stats.droppedRms += 1
+      smoother.reset()
     }
     if (rawMidi != null && Number.isFinite(rawMidi)) {
       pitchPoints.push({
@@ -342,13 +521,13 @@ export function createLivePeakSampler(stream, options) {
         held: held,
       })
     }
-  }, PEAK_INTERVAL_MS)
+  }, intervalMs)
 
   return {
     peaks: peaks,
     pitchPoints: pitchPoints,
     stats: stats,
-    intervalMs: PEAK_INTERVAL_MS,
+    intervalMs: intervalMs,
     startedAtMs: startedAt,
     stop: function() {
       clearInterval(timer)
@@ -381,6 +560,7 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
   const hop = Math.max(1, Math.floor(rate * (intervalMs / 1000)))
   const detect = typeof opts.detect === 'function' ? opts.detect : null
   const maxPoints = opts.maxPoints > 0 ? opts.maxPoints : 800
+  const smoother = createPlayalongPitchSmoother()
   const points = []
   let lastMidi = null
   let lastMidiAt = -Infinity
@@ -404,6 +584,8 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
     if (rawMidi != null && (rawMidi < pitch.minMidi || rawMidi > pitch.maxMidi)) rawMidi = null
     let held = false
     if (rawMidi != null && Number.isFinite(rawMidi)) {
+      const smoothed = smoother.push(rawMidi)
+      if (smoothed != null) rawMidi = smoothed
       lastMidi = rawMidi
       lastMidiAt = timeMs
     } else if (
@@ -413,6 +595,8 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
     ) {
       rawMidi = lastMidi
       held = true
+    } else if (!(rms >= pitch.rmsFloor)) {
+      smoother.reset()
     }
     if (rawMidi == null) continue
     points.push({
@@ -427,13 +611,16 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
 export function extractPitchPointsFromBlob(blob, options) {
   if (!blob) return Promise.resolve([])
   const extractOptions = options && typeof options === 'object' ? options : {}
+  if (typeof blob.arrayBuffer !== 'function') {
+    return Promise.reject(new Error('blob.arrayBuffer unavailable'))
+  }
   return blob.arrayBuffer().then(function(buffer) {
     return decode(buffer)
   }).then(function(audioBuffer) {
     if (!audioBuffer || typeof audioBuffer.getChannelData !== 'function') return []
     const channel = audioBuffer.getChannelData(0)
     const sampleRate = audioBuffer.sampleRate || 44100
-    return createPitchfinderDetector(sampleRate).then(function(detect) {
+    return createPlayalongYinDetector(sampleRate).then(function(detect) {
       return extractPitchPointsFromChannel(channel, sampleRate, Object.assign({}, extractOptions, { detect: detect }))
     }).catch(function() {
       return extractPitchPointsFromChannel(channel, sampleRate, extractOptions)
@@ -461,15 +648,15 @@ function pitchExtractCacheKey(recordingId, tracking, extractOptions) {
   ].join(':')
 }
 
-export const PLAYALONG_COMPARE_EXTRACT_OPTIONS = {
+const PLAYALONG_COMPARE_EXTRACT_OPTIONS = {
   intervalMs: COMPARE_EXTRACT_INTERVAL_MS,
-  maxPoints: 5000,
+  maxPoints: 2400,
 }
 
 /**
- * Prefer re-extracting pitch from the audio blob with current tracking options so
- * cutoff / instrument changes apply to Compare existing without re-recording.
- * Falls back to cached session points or stored pitchPoints.
+ * Prefer live session pitch points when present — they track the mic during the
+ * take. Re-extract from the blob only when we have no session points (e.g. after
+ * reload), so cutoff/instrument changes still apply via a fresh decode path.
  */
 export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById, options) {
   const opts = options || {}
@@ -481,9 +668,14 @@ export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById,
   const sessionBlob = blobById && recordingId ? blobById[recordingId] : null
   const cacheKey = pitchExtractCacheKey(recordingId, tracking, extractOptions)
   const extractPayload = Object.assign({}, tracking, extractOptions)
+  const forceBlob = opts.forceBlobExtract === true
 
   function fallbackPoints() {
-    if (Array.isArray(sessionPoints) && sessionPoints.length) return sessionPoints
+    if (Array.isArray(sessionPoints) && sessionPoints.length) {
+      // Live session points are already per-frame smoothed; avoid a second
+      // median pass that shifts note onsets later on the roll.
+      return sessionPoints
+    }
     return []
   }
 
@@ -499,6 +691,10 @@ export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById,
     }).catch(function() {
       return undefined
     })
+  }
+
+  if (!forceBlob && Array.isArray(sessionPoints) && sessionPoints.length >= 8) {
+    return Promise.resolve(sessionPoints)
   }
 
   if (sessionBlob) {
@@ -517,7 +713,7 @@ export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById,
     return fromBlob(blob).then(function(points) {
       if (points !== undefined) return points
       if (recording && Array.isArray(recording.pitchPoints) && recording.pitchPoints.length) {
-        return recording.pitchPoints
+        return stabilizePitchPointSeries(recording.pitchPoints)
       }
       return fallbackPoints()
     })
@@ -532,4 +728,4 @@ export function peaksDurationSeconds(peaks, intervalMs) {
   return count > 0 ? (count * ms) / 1000 : 0
 }
 
-export { compactPeaks, PEAK_INTERVAL_MS }
+export { compactPeaks, PEAK_INTERVAL_MS, LIVE_PEAK_INTERVAL_MS }

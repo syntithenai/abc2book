@@ -173,6 +173,39 @@ export function shouldKeepPlayingThroughAutoplayBlock(flags) {
   return shouldSuppressTapToPlayDuringQueueAdvance(f)
 }
 
+export const PLAYLIST_AUTOPLAY_RETRY_MAX_ATTEMPTS = 6
+
+/**
+ * Decide the next playlist autoplay-retry step when playback has not confirmed yet.
+ *
+ * MIDI notation synth can spend many seconds in prime + metronome count-in with
+ * playbackStarted still false. That must wait — not burn the skip budget and
+ * advance to the next queue item mid count-in.
+ *
+ * @returns {'stop'|'wait'|'retry'|'skip'|'prompt'}
+ */
+export function resolvePlaylistAutoplayRetryAction(opts) {
+  const o = opts || {}
+  if (!o.hasActivePlaybackIntent || o.userPaused || o.playbackStarted) {
+    return 'stop'
+  }
+  // Synth render / count-in / rhythm handoff — keep waiting without retries or skip.
+  if (o.midiKickoffActive) {
+    return 'wait'
+  }
+  if (!o.shouldHoldLoading && !o.queueAdvancing && !o.keepPlaylist) {
+    return 'stop'
+  }
+  const nextAttempt = (parseInt(o.attempt, 10) || 0) + 1
+  const maxAttempts = parseInt(o.maxAttempts, 10) > 0
+    ? parseInt(o.maxAttempts, 10)
+    : PLAYLIST_AUTOPLAY_RETRY_MAX_ATTEMPTS
+  if (nextAttempt >= maxAttempts) {
+    return o.keepPlaylist ? 'skip' : 'prompt'
+  }
+  return 'retry'
+}
+
 /**
  * When the engine has genuinely finished (native ended or past trim end with no
  * output), end handling must not be suppressed by queue-advance latches or
@@ -539,6 +572,31 @@ export function computePlaybackMetronomeTempo(input) {
     return fallback > 0 ? fallback : 120
   }
   return 60000 / beatDurationMs
+}
+
+/**
+ * CreateSynth's sequence path forces meterSize=1, while the visualObj path uses
+ * num/den. Scale the init option so tempoMultiplier matches wall-clock bar length.
+ *
+ * Important: TimingCallbacks / metronome QPM must use audibleMsPerMeasure (the
+ * real bar length), not createSynthMsPerMeasure. Storing the scaled value in
+ * primed timing refs made 2/4 cursors run at half speed and 3/4 at 3/4 speed.
+ */
+export function resolveSequencePathMeasureTiming(msPerMeasure, meterFraction) {
+  const audible = parseFloat(msPerMeasure) || 0
+  const num = meterFraction ? parseFloat(meterFraction.num) : 0
+  const den = meterFraction ? parseFloat(meterFraction.den) : 0
+  if (!(audible > 0) || !(num > 0) || !(den > 0)) {
+    return { audibleMsPerMeasure: audible, createSynthMsPerMeasure: audible }
+  }
+  const meterSize = num / den
+  if (!(meterSize > 0) || Math.abs(meterSize - 1) <= 0.0001) {
+    return { audibleMsPerMeasure: audible, createSynthMsPerMeasure: audible }
+  }
+  return {
+    audibleMsPerMeasure: audible,
+    createSynthMsPerMeasure: audible / meterSize,
+  }
 }
 
 /**

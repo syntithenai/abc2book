@@ -1,5 +1,5 @@
 import { playMetronomeTick, getDrumVolume } from './metronomeTickSounds'
-import { slotAccentLevel, slotBeatIndex } from './metronomeRhythmPresets'
+import { slotAccentLevel, slotBeatIndex, slotPulseIndex } from './metronomeRhythmPresets'
 import {
   ENGINE_MODE_DRUMS,
   normalizeRhythmConfig,
@@ -7,6 +7,11 @@ import {
   getDrumStepVelocity,
 } from './rhythmEngineTypes'
 import { playDrumHit } from './drumSampleKit'
+
+/** Beat accents in compound meters (e.g. 9/8) read slightly late vs piano
+ * onset once subdivision clicks lock the pulse; nudge those beats earlier.
+ * Simple meters (3/4, 2/4 with one pulse/beat) stay on the grid. */
+export const COMPOUND_BEAT_CLICK_ADVANCE_SEC = 0.006
 
 export function playRhythmSlot(audioContext, time, rhythm, slotIndex, destination) {
   if (!audioContext || !rhythm) return
@@ -18,7 +23,13 @@ export function playRhythmSlot(audioContext, time, rhythm, slotIndex, destinatio
   }
 
   const accentLevel = slotAccentLevel(config, slotIndex)
-  playMetronomeTick(audioContext, time, accentLevel, destination)
+  let when = time
+  const compound = Array.isArray(config.pulsesPerBeat)
+    && config.pulsesPerBeat.some(function(p) { return (parseInt(p, 10) || 1) > 1 })
+  if (compound && slotPulseIndex(config, slotIndex) === 0) {
+    when = time - COMPOUND_BEAT_CLICK_ADVANCE_SEC
+  }
+  playMetronomeTick(audioContext, when, accentLevel, destination)
 }
 
 export function playDrumSlot(audioContext, time, rhythm, slotIndex, destination) {

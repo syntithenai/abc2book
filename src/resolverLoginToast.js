@@ -19,12 +19,6 @@ let lastWarnedKey = ''
 /** Whether the last sync saw a non-empty access token. */
 let lastSyncedHadToken = false
 
-/**
- * After intentional logout, skip auto "Login to continue" until the user logs
- * in again or a gated action calls showResolverLoginToast*.
- */
-let suppressNoTokenAutoToast = false
-
 /** Latest token for health-subscription sync (avoids stale closures). */
 let latestAccessToken = null
 
@@ -136,13 +130,9 @@ export function syncResolverLoginToast(accessToken) {
   const token = latestAccessToken
   const hasToken = !!normalizeAccessToken(token)
   if (lastSyncedHadToken && !hasToken) {
-    // Intentional logout (or cleared session): dismiss and do not re-nag.
-    suppressNoTokenAutoToast = true
+    // Intentional logout (or cleared session): dismiss any lingering toast.
     lastWarnedKey = ''
     toast.dismiss(TOAST_ID)
-  }
-  if (hasToken) {
-    suppressNoTokenAutoToast = false
   }
   lastSyncedHadToken = hasToken
 
@@ -156,7 +146,9 @@ export function syncResolverLoginToast(accessToken) {
     return
   }
 
-  if (suppressNoTokenAutoToast && !hasToken) {
+  // Never auto-nag when logged out (fresh page load or after logout).
+  // Gated actions still call showResolverLoginToast* explicitly.
+  if (!hasToken) {
     return
   }
 
@@ -203,7 +195,6 @@ export function startResolverLoginToastSync(accessToken) {
 export function __resetResolverLoginToastForTests() {
   lastWarnedKey = ''
   lastSyncedHadToken = false
-  suppressNoTokenAutoToast = false
   latestAccessToken = null
   loginHandler = null
   beforeLoginHandler = null

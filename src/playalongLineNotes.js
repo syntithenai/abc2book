@@ -6,6 +6,7 @@ import { expandPlayalongSoundingSegments, mapSoundingBeatToWritten } from './pla
 import { foldMidiHarmonicNearExpected } from './practiceAccuracyScorer'
 import {
   effectivePlayalongMusicOffsetSeconds,
+  livePlayalongMusicOffsetSeconds,
   refinePlayalongMusicStartOffsetSeconds,
 } from './playalongTakes'
 
@@ -495,13 +496,26 @@ function foldedPitchDist(rawMidi, expectedMidi) {
   return Math.abs(folded - expectedMidi)
 }
 
+/**
+ * Attach the covering/nearest expected note for scoring context, but keep the heard
+ * pitch in rawMidi/sourceMidi so the piano roll does not "snap" wrong notes onto
+ * the written line via octave/harmonic folding.
+ */
 function snapToNote(point, note) {
-  const folded = foldMidiHarmonicNearExpected(point.rawMidi, note.midi)
-  const useMidi = folded != null ? folded : point.rawMidi
+  const source = Number.isFinite(point.sourceMidi) ? point.sourceMidi : point.rawMidi
+  const folded = foldMidiHarmonicNearExpected(source, note.midi)
+  const foldedMidi = folded != null ? folded : source
   return Object.assign({}, point, {
     expectedMidi: note.midi,
-    cents: (useMidi - note.midi) * 100,
-    rawMidi: useMidi,
+    sourceMidi: source,
+    rawMidi: source,
+    cents: Number.isFinite(source) && Number.isFinite(note.midi)
+      ? (source - note.midi) * 100
+      : null,
+    foldedMidi: foldedMidi,
+    foldedCents: Number.isFinite(foldedMidi) && Number.isFinite(note.midi)
+      ? (foldedMidi - note.midi) * 100
+      : null,
   })
 }
 
@@ -518,7 +532,7 @@ function coveringNoteAtBeat(notes, beat) {
 }
 
 const SNAP_NEAR_BEATS = 0.85
-const MIN_PASS_POINTS = 3
+const MIN_PASS_POINTS = 2
 
 export function snapPitchPointToNotes(point, notes) {
   if (!point || !Number.isFinite(point.rawMidi)) return point
@@ -554,6 +568,83 @@ export function filterPlayalongDisplayPoints(points) {
   return list.filter(function(point) {
     return point && Number.isFinite(point.rawMidi)
   })
+}
+
+/**
+ * Live tip beat from wall-clock sample time — no detector latency pad.
+ */
+export function livePitchSampleBeat(timeMs, musicStartOffsetSeconds, tempoBpm, playbackSpeed) {
+  const offset = livePlayalongMusicOffsetSeconds(musicStartOffsetSeconds)
+  const bpm = parseFloat(tempoBpm) > 0 ? parseFloat(tempoBpm) : 100
+  const speed = parseFloat(playbackSpeed) > 0 ? parseFloat(playbackSpeed) : 1
+  const secondsPerBeat = 60 / bpm / speed
+  const t = Number.isFinite(timeMs) ? timeMs / 1000 : 0
+  return (t - offset) / secondsPerBeat
+}
+
+export function livePitchTipInLineRange(points, line, options) {
+  const list = Array.isArray(points) ? points : []
+  if (!list.length || !line) return false
+  const last = list[list.length - 1]
+  if (!last || !Number.isFinite(last.timeMs)) return false
+  const opts = options || {}
+  const beat = livePitchSampleBeat(
+    last.timeMs,
+    opts.musicStartOffsetSeconds,
+    opts.tempoBpm,
+    opts.playbackSpeed
+  )
+  const start = Number.isFinite(line.startBeat) ? line.startBeat : 0
+  const end = Number.isFinite(line.endBeat) ? line.endBeat : start + 1
+  return beat >= start - 0.35 && beat <= end + 0.25
+}
+
+/**
+ * Map live samples onto one notation line without refine or pitch-latency pad.
+ * Used by the rAF overlay so the tip tracks the notation cursor.
+ */
+export function buildLiveOverlayTracesForLine(line, points, options) {
+  if (!line) return []
+  const opts = options || {}
+  const list = Array.isArray(points) ? points : []
+  if (!list.length) return []
+  const offset = livePlayalongMusicOffsetSeconds(opts.musicStartOffsetSeconds)
+  const localNotes = (line.notes || []).map(function(note) {
+    return Object.assign({}, note, {
+      startBeat: note.startBeat - line.startBeat,
+      endBeat: note.endBeat - line.startBeat,
+    })
+  })
+  const traces = []
+  slicePitchPassesForLine(list, {
+    startBeat: line.startBeat,
+    endBeat: line.endBeat,
+    musicStartOffsetSeconds: offset,
+    pitchLatencySeconds: 0,
+    tempoBpm: opts.tempoBpm || 100,
+    playbackSpeed: opts.playbackSpeed || 1,
+    soundingMap: Array.isArray(opts.soundingMap) ? opts.soundingMap : [],
+  }).forEach(function(pass) {
+    const snapped = pass.points.map(function(point) {
+      return snapPitchPointToNotes({
+        timeMs: point.timeMs,
+        beat: point.beat - line.startBeat,
+        rawMidi: point.rawMidi,
+        sourceMidi: point.rawMidi,
+        held: !!point.held,
+        passIndex: pass.passIndex,
+      }, localNotes)
+    })
+    const displayPoints = filterPlayalongDisplayPoints(snapped)
+    if (!displayPoints.length) return
+    traces.push({
+      repIndex: -1,
+      passIndex: pass.passIndex,
+      points: displayPoints,
+      live: true,
+    })
+  })
+  return traces
 }
 
 export function buildPlayalongCompareLines(lines, takesWithPoints, playbackSpeed, soundingMap) {

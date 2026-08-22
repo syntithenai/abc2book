@@ -209,6 +209,30 @@ describe('chordsEditorSections', function() {
     expect((afterMeter.match(/\./g) || []).length).toBeGreaterThanOrEqual(5);
   });
 
+  test('rebuildChordGridFromSections skips revisits by default', function() {
+    const grid = rebuildChordGridFromSections([
+      { chart: 'C . . . |', meter: '4/4', chartRevisit: false },
+      { chart: 'G . . |', meter: '3/4', chartRevisit: false },
+      { chart: 'C . . . |', meter: '4/4', chartRevisit: true },
+    ]);
+    expect(grid).toContain('C');
+    expect(grid).toContain('G');
+    expect(grid.split('\n\n').length).toBe(2);
+  });
+
+  test('rebuildChordGridFromSections can include revisits for wipe scaffolds', function() {
+    const grid = rebuildChordGridFromSections([
+      { chart: 'Am F Em |\nAm |', meter: '4/4', chartRevisit: false },
+      { chart: 'D C |\nD Am |', meter: '4/4', chartRevisit: false },
+      { chart: 'Am F Em |\nAm |', meter: '4/4', chartRevisit: true },
+    ], { includeRevisits: true });
+    const parts = grid.split('\n\n');
+    expect(parts).toHaveLength(3);
+    expect(parts[0]).toContain('Am F Em');
+    expect(parts[1]).toContain('D C');
+    expect(parts[2]).toContain('Am F Em');
+  });
+
   test('rebuildChordGridFromSections emits [M:] when meters differ', function() {
     const grid = rebuildChordGridFromSections([
       { chart: 'C . . . |', meter: '4/4', chartRevisit: false },
@@ -509,6 +533,41 @@ describe('chordsEditorSections', function() {
     expect(built[2].chartRevisit).toBe(true);
     expect(built[2].chart).toBe(built[1].chart);
     expect(built[3].type).toBe('outro');
+  });
+
+  test('buildTuneSectionsFromPaste keeps distinct verse charts when progressions differ', function() {
+    const built = buildTuneSectionsFromPaste([
+      {
+        header: '[Verse]',
+        title: 'Verse',
+        type: 'verse',
+        chart: 'N.C. |\nN.C. |',
+        lyricLines: ['Please don\'t reproach me'],
+        meter: '4/4',
+      },
+      {
+        header: '[Verse]',
+        title: 'Verse',
+        type: 'verse',
+        chart: 'Am F Em |\nAm F Em |\nAm |',
+        lyricLines: ['I don\'t know what really happened'],
+        meter: '4/4',
+      },
+      {
+        header: '[Verse]',
+        title: 'Verse',
+        type: 'verse',
+        chart: 'Am F Em |\nAm F Em |\nAm |',
+        lyricLines: ['Oh, something metal'],
+        meter: '4/4',
+      },
+    ], '4/4');
+    expect(built[0].chartRevisit).toBe(false);
+    expect(built[0].chart).toContain('N.C.');
+    expect(built[1].chartRevisit).toBe(false);
+    expect(built[1].chart).toContain('Am F Em');
+    expect(built[2].chartRevisit).toBe(true);
+    expect(built[2].chart).toBe(built[1].chart);
   });
 
   test('reconcileChordSectionsFromGrid inserts without lyric remap', function() {

@@ -134,6 +134,7 @@ export default function ScratchpadAudioToolbar(props) {
 
             <ScratchpadAudioToolbarGroup label="Process" compact={compact}>
               <ScratchpadAudioProcessMenu
+                user={props.user}
                 canApply={props.hasContent}
                 onApplyEffect={props.onApplyEffect}
                 stemBusy={props.stemBusy}

@@ -138,6 +138,8 @@ def import_midi_bytes(
         }
 
     build_options = MidiAbcBuildOptions(
+        staff_by_voice=list(staff_by_voice or []),
+        import_voices=list(import_voices or []),
         mode=import_mode,
         track_ids=track_ids,
         drum_track_ids=list(drum_track_ids or []),

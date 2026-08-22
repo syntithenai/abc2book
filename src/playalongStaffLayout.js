@@ -376,3 +376,61 @@ export function alignedX(beat, anchors, fallbackX) {
   const t = span !== 0 ? (beat - a.beat) / span : 0
   return a.x + t * (b.x - a.x)
 }
+
+function lineIndexFromEvent(ev) {
+  const noteEl = ev && ev.elements && ev.elements[0] && ev.elements[0][0]
+  if (!noteEl) return null
+  let lineIndex = lineIndexFromClassList(noteEl.classList)
+  let parent = noteEl.parentElement
+  while (lineIndex == null && parent) {
+    lineIndex = lineIndexFromClassList(parent.classList)
+    parent = parent.parentElement
+  }
+  return lineIndex
+}
+
+/**
+ * While playalong slices the hidden abcjs SVG into visible interleave rows,
+ * scroll the matching row into vertical center. Returns true when handled.
+ */
+export function scrollPlayalongPlayingLineIntoCenter(ev) {
+  if (typeof document === 'undefined') return false
+  const stack = document.querySelector('.playalong-notation-stack--sliced')
+  if (!stack) return false
+  const lines = stack.querySelectorAll('.playalong-interleave-line')
+  if (!lines.length) return false
+
+  let match = null
+  const lineIndex = lineIndexFromEvent(ev)
+  if (lineIndex != null) {
+    match = stack.querySelector('.playalong-interleave-line[data-line-index="' + lineIndex + '"]')
+  }
+
+  if (!match && ev && Number.isFinite(ev.top)) {
+    let bestDist = Infinity
+    for (let i = 0; i < lines.length; i += 1) {
+      const el = lines[i]
+      const top = parseFloat(el.getAttribute('data-slice-top'))
+      const height = parseFloat(el.getAttribute('data-slice-height'))
+      if (!Number.isFinite(top) || !Number.isFinite(height) || !(height > 0)) continue
+      if (ev.top >= top - 2 && ev.top <= top + height + 2) {
+        match = el
+        break
+      }
+      const mid = top + height / 2
+      const dist = Math.abs(ev.top - mid)
+      if (dist < bestDist) {
+        bestDist = dist
+        match = el
+      }
+    }
+  }
+
+  if (!match) match = lines[0]
+  try {
+    match.scrollIntoView({ block: 'center', inline: 'nearest' })
+  } catch (err) {
+    try { match.scrollIntoView(true) } catch (e2) {}
+  }
+  return true
+}

@@ -76,7 +76,7 @@ describe('playalongTakeScore', function() {
         { timeMs: 200, rawMidi: 79.1 },
         { timeMs: 300, rawMidi: 78.9 },
       ],
-      { musicStartOffsetSeconds: 0, tempoBpm: 120, playbackSpeed: 1 }
+      { musicStartOffsetSeconds: 0, tempoBpm: 120, playbackSpeed: 1, instrumentId: 'whistle' }
     )
     expect(summary.pitchPct).toBe(100)
   })
@@ -89,19 +89,46 @@ describe('playalongTakeScore', function() {
         { timeMs: 200, rawMidi: 88.1 },
         { timeMs: 300, rawMidi: 87.9 },
       ],
-      { musicStartOffsetSeconds: 0, tempoBpm: 120, playbackSpeed: 1 }
+      { musicStartOffsetSeconds: 0, tempoBpm: 120, playbackSpeed: 1, instrumentId: 'whistle' }
     )
     expect(summary.pitchPct).toBe(100)
   })
 
-  test('scorePlayalongTake skips sparse junk takes', function() {
+  test('scorePlayalongTake does not treat a sung twelfth as a hit for voice', function() {
     const summary = scorePlayalongTake(
-      [{ midi: 69, startBeat: 0, endBeat: 1 }],
-      [{ timeMs: 3600, rawMidi: 71 }],
-      { musicStartOffsetSeconds: 2.4, tempoBpm: 100, playbackSpeed: 1 }
+      [{ midi: 60, startBeat: 0, endBeat: 1 }],
+      [
+        { timeMs: 100, rawMidi: 79 },
+        { timeMs: 200, rawMidi: 79.1 },
+        { timeMs: 300, rawMidi: 78.9 },
+      ],
+      { musicStartOffsetSeconds: 0, tempoBpm: 120, playbackSpeed: 1, instrumentId: 'voice' }
     )
-    expect(summary.skippedSparse).toBe(true)
-    expect(summary.pitchPct).toBe(null)
+    expect(summary.pitchPct).toBe(0)
+    expect(summary.hits).toBe(0)
+  })
+
+  test('scorePlayalongTake counts slightly late samples inside the onset pad', function() {
+    // At 120bpm, beat 0 is 0ms and beat 1 is 500ms. A sample just after the
+    // written end still counts via PLAYALONG_SCORE_WINDOW_PAD_MS.
+    const summary = scorePlayalongTake(
+      [{ midi: 60, startBeat: 0, endBeat: 1 }],
+      [
+        { timeMs: 100, rawMidi: 60 },
+        { timeMs: 200, rawMidi: 60 },
+        { timeMs: 510, rawMidi: 60.1 },
+      ],
+      {
+        musicStartOffsetSeconds: 0,
+        tempoBpm: 120,
+        playbackSpeed: 1,
+        instrumentId: 'whistle',
+        pitchLatencySeconds: 0,
+      }
+    )
+    expect(summary.skippedSparse).not.toBe(true)
+    expect(summary.pitchPct).toBe(100)
+    expect(summary.hits).toBe(1)
   })
 
   test('expectedNotesFromPlayalongTune reads primary-voice notes', function() {

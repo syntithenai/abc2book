@@ -187,6 +187,41 @@ describe('SearchResultPickerModal multiSelect', function() {
     expect(note.textContent).toContain('Debussy')
   })
 
+  test('list layout shows original and suggestion text previews', function() {
+    act(function() {
+      root.render(
+        React.createElement(SearchResultPickerModal, {
+          show: true,
+          layout: 'lyrics',
+          items: [
+            {
+              title: 'Original Value',
+              preview: 'Line one\nLine two',
+              matchType: 'Original Value',
+              __current: true,
+            },
+            {
+              title: 'Suggested lyrics',
+              preview: 'New line one\nNew line two',
+              source: 'media-analysis',
+              matchType: 'media-analysis',
+            },
+          ],
+          onSelect: function() {},
+          onHide: function() {},
+        })
+      )
+    })
+    expect(container.querySelector('[data-testid="search-result-original-preview"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="search-result-original-preview"]').textContent)
+      .toContain('Line one')
+    expect(container.querySelector('[data-testid="search-result-suggestion-preview"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="search-result-suggestion-preview"]').textContent)
+      .toContain('New line one')
+    expect(container.querySelector('[data-testid="search-result-suggestion-compare"]')).toBeTruthy()
+    expect(container.textContent).toContain('Compare with current')
+  })
+
   test('notation layout labels local MIDI without ABC preview', function() {
     act(function() {
       root.render(

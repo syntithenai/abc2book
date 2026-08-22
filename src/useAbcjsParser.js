@@ -4,7 +4,7 @@ import useUtils from './useUtils'
 import { abcForAbcjs } from './melodyBarlineNormalize'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
-import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader, collapseSoundingToBeats, formatBeatSoundingForDisplay, peelTrailingChartBarline } from './chordSheetUtils'
+import { normalizeChordChartRepeatMarks, isSectionMarkerChordName, isSectionMarkerToken, sectionMarkerChartLine, sectionMarkerAbcChordName, isInlineSignatureToken, isSectionHeader, collapseSoundingToBeats, formatBeatSoundingForDisplay, peelTrailingChartBarline, isNoChordToken } from './chordSheetUtils'
 import { normalizeKeySignature, transposeKeySignature } from './keySignatureNormalize'
 
 /**
@@ -302,7 +302,9 @@ export default function useAbcjsParser() {
      * or an empty string if not a valid chord symbol
      */
     function cleanChord(key = null , chord, transpose = 0) {
-        
+        // Preserve lead-sheet no-chord markers; chord-symbol cannot parse them.
+        if (isNoChordToken(chord)) return 'N.C.'
+
         const parseChord = chordParserFactory();
         
         var parsedChord = parseChord(chord)
@@ -713,7 +715,7 @@ export default function useAbcjsParser() {
                     }).map(function(chord) {
                         if (chord === '.' || String(chord).replace(/\./g, '').trim() === '') return '.'
                         var clean = cleanChord(key, chord)
-                        return clean
+                        return clean == null ? '' : clean
                     })
                     var barAnchors = []
                     if (flatAnchors.length > 0) {
@@ -730,11 +732,12 @@ export default function useAbcjsParser() {
                     var newChords = {}
                     barChords.forEach(function(barToken, barTokenKey) {
                         var position = positions[barTokenKey]
-                        if (barChords[barTokenKey].replaceAll('.','').trim().length !== 0)  {
+                        var tokenText = barChords[barTokenKey] == null ? '' : String(barChords[barTokenKey])
+                        if (tokenText.replaceAll('.','').trim().length !== 0)  {
                             if (!Array.isArray(newChords[position])) {
                                 newChords[position] = []
                             }  
-                            newChords[position].push(barChords[barTokenKey])  
+                            newChords[position].push(tokenText)  
                         }
                     })
                     if (pendingSectionMarker && lineHasChords && bk === 0) {

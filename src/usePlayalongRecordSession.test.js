@@ -11,6 +11,7 @@ describe('playalongMidiStartOptions', function() {
     expect(opts.fresh).toBe(true)
     expect(opts.preservePosition).toBe(false)
     expect(opts.midiOnly).toBe(true)
+    expect(opts.melodyOnly).toBe(true)
     expect(opts.tempo).toBe(100)
   })
 })

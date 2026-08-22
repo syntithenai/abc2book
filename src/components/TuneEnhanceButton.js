@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { toast } from 'react-toastify'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
@@ -9,17 +10,25 @@ import { lyricLinesToText } from '../wLinesUtils'
 import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings'
 import { useAutoLinkPlaybackRegionScan } from '../useAutoLinkPlaybackRegionScan'
 import { useTuneMediaAnalysisDeps } from '../useTuneMediaAnalysis'
+import { getLinkedMediaSources } from '../mediaTranscriptionSources'
 import EnhanceOptionsDropdown from './EnhanceOptionsDropdown'
 import { startEnhanceJobs, enhanceStartToastMessage } from '../startEnhanceJobs'
 
 /**
- * Header control: pick and queue information enhancements for one tune.
+ * Control: pick and queue information enhancements for one tune.
  */
 export default function TuneEnhanceButton({
   tune,
   tunebook,
   token,
   forceRefresh,
+  className,
+  toggleClassName,
+  toggleLabel,
+  labelClassName,
+  hideLabel,
+  onOpen,
+  onAfterStart,
 }) {
   const { available: resolverAvailable, checked, features } = useMediaResolverHealth()
   const resolverAccess = useFieldLookupResolverAccess(token)
@@ -46,8 +55,20 @@ export default function TuneEnhanceButton({
     || !composerAffordance.checked
     || composerAffordance.affordable
 
-  function handleStart(selection) {
+  const mediaSources = useMemo(function() {
+    return getLinkedMediaSources(tune, tunebook).map(function(source) {
+      return {
+        id: source.id,
+        linkIndex: source.linkIndex,
+        label: source.label,
+      }
+    })
+  }, [tune, tunebook])
+  const hasScannableLinkedMedia = mediaSources.length > 0
+
+  function handleStart(selection, startOptions) {
     if (!canEnhance || !tunebook) return
+    const audioLinkIndex = startOptions && startOptions.audioLinkIndex
     const result = startEnhanceJobs([tune], selection, {
       tunebook: tunebook,
       token: token,
@@ -57,6 +78,7 @@ export default function TuneEnhanceButton({
       features: features,
       canResearchBackground: canResearchBackground,
       canAffordComposer: canAffordComposer,
+      hasScannableLinkedMedia: hasScannableLinkedMedia,
       fieldLookupQueue: fieldLookupQueue,
       composerQueue: composerQueue,
       backgroundQueue: backgroundQueue,
@@ -64,6 +86,7 @@ export default function TuneEnhanceButton({
       maybeAutoScan: maybeAutoScan,
       analysisDeps: analysisDeps,
       forceRefresh: forceRefresh,
+      audioLinkIndex: audioLinkIndex,
     })
     const message = enhanceStartToastMessage(result)
     if (result.started > 0) {
@@ -71,15 +94,31 @@ export default function TuneEnhanceButton({
     } else {
       toast.info(message)
     }
+    if (typeof onAfterStart === 'function') onAfterStart(result)
+  }
+
+  const availabilityContext = {
+    resolverAvailable: resolverAvailable,
+    features: features || {},
+    canResearchBackground: canResearchBackground,
+    canAffordComposer: canAffordComposer,
+    hasScannableLinkedMedia: hasScannableLinkedMedia,
   }
 
   return (
     <EnhanceOptionsDropdown
       id="tune-enhance"
-      className="tune-enhance-dropdown"
+      className={className || 'tune-enhance-dropdown'}
+      toggleClassName={toggleClassName}
+      toggleLabel={toggleLabel}
+      labelClassName={labelClassName}
+      hideLabel={hideLabel}
       disabled={!canEnhance}
       title="Enhance information for this tune"
       icons={icons}
+      availabilityContext={availabilityContext}
+      mediaSources={mediaSources}
+      onOpen={onOpen}
       onStart={handleStart}
     />
   )

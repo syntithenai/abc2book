@@ -3,6 +3,7 @@ import { isMobilePlatform } from './platformUtils'
 export const CHROME_ZOOM_GUARD_SELECTORS = [
   '.App-header',
   '.music-buttons',
+  '.music-editor-chrome-stack',
   '.music-editor-buttons',
   '.notation-editing-controls',
   '.notation-nonstaff-controls-main',

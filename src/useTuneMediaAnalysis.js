@@ -7,7 +7,8 @@ import {
 } from 'react';
 import { useParams } from 'react-router-dom';
 import {
-  analyzeMediaFromSource,
+  analyzeMediaForSuggestionKinds,
+  analysisPlanForSuggestionKinds,
   formatMediaAnalysisForTune,
 } from './mediaAnalysisClient';
 import { buildTimedModelsFromAnalysis } from './mediaAnalysisModels';
@@ -179,6 +180,9 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       return null;
     }
 
+    const analysisPlan = analysisPlanForSuggestionKinds(options && options.suggestionKinds)
+    const useLightPlan = analysisPlan === 'detect-timing' || analysisPlan === 'detect-chords'
+
     let processing = (options && options.processing)
       ? Object.assign({}, options.processing)
       : buildAnalysisProcessingPayload(loadMelodyProcessingSettings(), null, {
@@ -201,31 +205,34 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       }
     }
 
-    try {
-      const stemCacheId = await resolveStemCacheIdForAnalysis(
-        deps,
-        tune,
-        source,
-        preparedSource,
-        processing,
-        abortController
-      );
-      if (stemCacheId) {
-        processing.stemCacheId = stemCacheId;
+    if (!useLightPlan) {
+      try {
+        const stemCacheId = await resolveStemCacheIdForAnalysis(
+          deps,
+          tune,
+          source,
+          preparedSource,
+          processing,
+          abortController
+        );
+        if (stemCacheId) {
+          processing.stemCacheId = stemCacheId;
+        }
+      } catch (stemErr) {
+        if (stemErr && stemErr.name === 'AbortError') throw stemErr;
+        // Continue without precreated stems — resolver will separate during analyze.
+        console.log(stemErr);
       }
-    } catch (stemErr) {
-      if (stemErr && stemErr.name === 'AbortError') throw stemErr;
-      // Continue without precreated stems — resolver will separate during analyze.
-      console.log(stemErr);
-    }
-    if (abortController.signal.aborted) {
-      return null;
+      if (abortController.signal.aborted) {
+        return null;
+      }
     }
 
-    const result = await analyzeMediaFromSource({
+    const result = await analyzeMediaForSuggestionKinds({
       source: preparedSource,
       accessToken: deps.accessToken,
       signal: abortController.signal,
+      suggestionKinds: options && options.suggestionKinds,
       onProgress: function(message, progressValue) {
         const patch = { status: message };
         if (typeof progressValue === 'number' && !isNaN(progressValue)) {

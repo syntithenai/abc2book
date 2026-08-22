@@ -224,7 +224,47 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
 }
 
-.playalong-take-score-btn.is-outlined {
+.playalong-take-score-group {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.playalong-take-score-group .playalong-take-score-btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.playalong-take-play-btn {
+  min-width: 2.35rem;
+  min-height: 2.75rem;
+  border: 2px solid transparent;
+  border-left-width: 1px;
+  border-radius: 0.4rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0.3rem 0.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.playalong-take-play-btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.playalong-take-play-btn-icon svg,
+.playalong-take-play-btn-icon img {
+  width: 1.15em;
+  height: 1.15em;
+  fill: currentColor;
+}
+
+.playalong-take-score-btn.is-outlined,
+.playalong-take-play-btn.is-outlined {
   background-color: transparent !important;
   box-shadow: none;
 }

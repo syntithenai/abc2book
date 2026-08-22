@@ -7,9 +7,25 @@ import {
   effectivePlayalongMusicOffsetSeconds,
   refinePlayalongMusicStartOffsetSeconds,
 } from './playalongTakes'
+import { normalizePlayalongInstrument } from './playalongSettings'
 import { summarizeRepPitch } from './practiceAccuracyScorer'
 
+/** Whistle/flute detectors often lock onto overtones; voice/strings should not. */
+export function playalongShouldFoldHarmonics(instrumentId) {
+  const id = normalizePlayalongInstrument(instrumentId)
+  return id === 'whistle' || id === 'whistle-high-d' || id === 'flute'
+}
+
+/** Voice: treat octave errors as misses. Instruments often need octave folding. */
+export function playalongShouldFoldOctaves(instrumentId) {
+  const id = normalizePlayalongInstrument(instrumentId)
+  return id !== 'voice'
+}
+
 export const PLAYALONG_MIN_SCORE_SAMPLES = 3
+/** Allow detector/onset lag so short notes still collect enough samples. */
+export const PLAYALONG_SCORE_WINDOW_PAD_MS = 90
+export const PLAYALONG_SCORE_MIN_SAMPLES_PER_NOTE = 2
 
 export function contrastTextForHex(hex) {
   const h = String(hex || '').replace('#', '')
@@ -55,21 +71,23 @@ export function scorePlayalongTake(notes, pitchPoints, options) {
     const endBeat = Number.isFinite(note.endBeat)
       ? note.endBeat
       : note.startBeat + (Number(note.durationBeats) > 0 ? note.durationBeats : 0.5)
+    const startMs = beatToAudioSeconds(
+      note.startBeat,
+      offset,
+      opts.tempoBpm,
+      opts.playbackSpeed
+    ) * 1000
+    const endMs = beatToAudioSeconds(
+      endBeat,
+      offset,
+      opts.tempoBpm,
+      opts.playbackSpeed
+    ) * 1000
     return {
       midi: note.midi,
       startBeat: note.startBeat,
-      startMs: beatToAudioSeconds(
-        note.startBeat,
-        offset,
-        opts.tempoBpm,
-        opts.playbackSpeed
-      ) * 1000,
-      endMs: beatToAudioSeconds(
-        endBeat,
-        offset,
-        opts.tempoBpm,
-        opts.playbackSpeed
-      ) * 1000,
+      startMs: Math.max(0, startMs - PLAYALONG_SCORE_WINDOW_PAD_MS),
+      endMs: endMs + PLAYALONG_SCORE_WINDOW_PAD_MS * 0.5,
     }
   })
   const samples = (pitchPoints || []).map(function(point) {
@@ -91,10 +109,18 @@ export function scorePlayalongTake(notes, pitchPoints, options) {
       sampleCount: samples.length,
     }
   }
+  const foldHarmonics = opts.foldHarmonics != null
+    ? !!opts.foldHarmonics
+    : playalongShouldFoldHarmonics(opts.instrumentId)
+  const foldOctaves = opts.foldOctaves != null
+    ? !!opts.foldOctaves
+    : playalongShouldFoldOctaves(opts.instrumentId)
   return summarizeRepPitch(windows, samples, {
     ignoreNotesAfterLastSample: true,
     ignoreUnsampledNotes: true,
-    foldOctaves: true,
-    foldHarmonics: true,
+    foldOctaves: foldOctaves,
+    foldHarmonics: foldHarmonics,
+    minSamples: opts.minSamples != null ? opts.minSamples : PLAYALONG_SCORE_MIN_SAMPLES_PER_NOTE,
+    toleranceSemitones: opts.toleranceSemitones != null ? opts.toleranceSemitones : 0.7,
   })
 }

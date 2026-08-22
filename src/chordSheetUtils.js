@@ -34,6 +34,20 @@ function normalizeChordToken(token) {
     .replace(/^([A-G])sharp/i, '$1#');
 }
 
+/** UG / lead-sheet "no chord" spellings (tacet). */
+export function isNoChordToken(token) {
+  const raw = String(token == null ? '' : token).trim();
+  if (!raw) return false;
+  const compact = raw
+    .replace(/[(),|]/g, '')
+    .replace(/\./g, '')
+    .replace(/\s+/g, '')
+    .toLowerCase();
+  if (compact === 'nc' || compact === 'n/c') return true;
+  const spaced = raw.replace(/[(),.|]/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+  return spaced === 'no chord' || spaced === 'no-chord' || spaced === 'tacet';
+}
+
 function tokenizeLineWithOffsets(text) {
   const raw = String(text === null || text === undefined ? '' : text);
   const tokens = [];
@@ -82,6 +96,7 @@ export function charOffsetToWordIndex(lyricLine, charOffset) {
 
 export function tokenIsChord(token) {
   if (token === null || token === undefined) return false;
+  if (isNoChordToken(token)) return true;
   const cleaned = normalizeChordToken(token);
   if (!cleaned) return false;
   try {

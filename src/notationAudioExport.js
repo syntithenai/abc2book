@@ -4,6 +4,7 @@ import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundF
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import { resolveFillPlaybackOptions } from './playbackFillSettings'
 import { buildPlaybackSequence } from './playbackFillPattern'
+import { resolveSequencePathMeasureTiming } from './playbackStateLogic'
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/'
 
@@ -72,6 +73,11 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
       remapFlattenedMidiPrograms(flattened)
     }
     initOptions.sequence = flattened
+    const measureTiming = resolveSequencePathMeasureTiming(
+      initOptions.millisecondsPerMeasure,
+      typeof visualObj.getMeterFraction === 'function' ? visualObj.getMeterFraction() : null
+    )
+    initOptions.millisecondsPerMeasure = measureTiming.createSynthMsPerMeasure
   } else {
     initOptions.visualObj = visualObj
   }

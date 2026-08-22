@@ -1672,11 +1672,82 @@ a.header-now-playing-label:focus {
   word-break: break-word;
 }
 
-.account-modal-tempo {
+.account-modal-playalong-stats {
   width: 100%;
-  margin-top: 1.25rem;
-  padding-top: 1.1rem;
+  max-width: 18rem;
+  margin-top: 0.35rem;
+  padding-top: 0.85rem;
   border-top: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.account-modal-playalong-stats-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.account-modal-playalong-average {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  margin: 0.45rem 0 0.65rem;
+}
+
+.account-modal-playalong-average-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #212529;
+}
+
+.account-modal-playalong-average-caption {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.account-modal-playalong-empty {
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.account-modal-playalong-score-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.account-modal-playalong-score-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  padding: 0.2rem 0;
+  border-top: 1px solid #f1f3f5;
+}
+
+.account-modal-playalong-score-list li:first-child {
+  border-top: none;
+}
+
+.account-modal-playalong-score-pct {
+  flex: 0 0 2.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.account-modal-playalong-score-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #6c757d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .account-modal-footer {
@@ -3042,6 +3113,12 @@ html.app-embed-frame .App {
   background: var(--bs-body-bg, #fff);
 }
 
+.add-page-header .add-tunes-panel-header > .add-from-strip {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 0.65em;
+  margin-top: 0.15em;
+}
+
 .add-page-title {
   flex: 1 1 auto;
   margin: 0;
@@ -3145,6 +3222,11 @@ html.app-embed-frame .App {
   padding: 0.85rem 1rem;
 }
 
+.add-tune-simple-form .add-tune-title-block .form-control {
+  font-size: 1.25rem;
+  min-height: 2.75rem;
+}
+
 .add-tune-simple-form .add-tune-books-tags {
   display: flex;
   flex-direction: row;
@@ -3208,6 +3290,9 @@ html.app-embed-frame .App {
 
 .add-page-close {
   flex: 0 0 auto;
+  align-self: flex-start;
+  margin-top: 0.35rem;
+  margin-left: 0.35rem;
 }
 
 .add-page-body {
@@ -4396,6 +4481,92 @@ button img:after {
   position: relative;
 }
 
+.music-actions-edit-meta-item {
+  padding: 0.35rem 0.5rem;
+  background: transparent;
+  cursor: default;
+}
+
+.music-actions-edit-meta-item:hover,
+.music-actions-edit-meta-item:focus,
+.music-actions-edit-meta-item:active {
+  background: transparent;
+  color: inherit;
+}
+
+.music-actions-edit-meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0.15rem;
+  padding: 0.15em 0.25em;
+  background-color: #a29cad;
+  border-radius: 0.25rem;
+}
+
+.music-actions-edit-actions-item {
+  padding: 0.35rem 0.5rem;
+}
+
+.music-actions-edit-actions-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  width: 100%;
+}
+
+.music-actions-edit-actions-row > span,
+.music-actions-edit-actions-row > .music-actions-nested-dropdown-wrap {
+  display: block;
+  width: 100%;
+}
+
+.music-actions-edit-actions-row .music-actions-menu-btn,
+.music-actions-edit-actions-row .tune-download-dropdown,
+.music-actions-edit-actions-row .tune-download-dropdown .dropdown-toggle,
+.music-actions-edit-actions-row .tune-enhance-dropdown,
+.music-actions-edit-actions-row .tune-enhance-dropdown .btn {
+  width: 100%;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.music-actions-edit-actions-row .tune-enhance-dropdown {
+  display: block;
+}
+
+.music-actions-edit-actions-row--icons {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 0.25rem;
+}
+
+.music-actions-edit-actions-row--icons > span,
+.music-actions-edit-actions-row--icons > .music-actions-nested-dropdown-wrap {
+  display: flex;
+  width: auto;
+  flex: 1 1 0;
+}
+
+.music-actions-edit-actions-row--icons .music-actions-menu-btn,
+.music-actions-edit-actions-row--icons .tune-download-dropdown,
+.music-actions-edit-actions-row--icons .tune-download-dropdown .dropdown-toggle,
+.music-actions-edit-actions-row--icons .tune-enhance-dropdown,
+.music-actions-edit-actions-row--icons .tune-enhance-dropdown .btn {
+  width: 100%;
+  min-width: 2.5rem;
+  min-height: 2.35rem;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.music-actions-edit-actions-row--icons .tune-download-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
 .music-actions-edit-btn.dropdown-toggle::after {
   position: absolute;
   right: 0.38rem;
@@ -4656,8 +4827,13 @@ button img:after {
 }
 
 .music-transpose-group .btn,
-.music-capo-toggle-btn {
+.music-capo-toggle-btn,
+.music-single-capo-control .btn {
   min-height: 2.5rem;
+}
+
+.music-single-capo-control {
+  flex-shrink: 0;
 }
 
 .music-notation-controls-block {
@@ -5540,14 +5716,19 @@ button img:after {
   align-items: stretch;
 }
 
-.music-buttons .file-zoom-group .btn {
+.music-buttons .file-zoom-group .btn,
+.music-buttons .lyrics-zoom-group .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 2.5rem;
+  min-height: 2.75rem;
   min-width: 2.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.music-buttons .lyrics-zoom-group {
+  align-items: stretch;
 }
 
 .music-buttons .file-zoom-group .btn svg {
@@ -6393,7 +6574,12 @@ button img:after {
 }
 
 .music-buttons--folded-menu .music-buttons-col-right {
-  display: none;
+  display: flex;
+  flex: 0 1 auto;
+  width: auto;
+  margin-left: auto;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
 }
 
 .music-buttons--compact-controls .music-buttons-inner {
@@ -7170,6 +7356,27 @@ button img:after {
   align-self: center;
 }
 
+.music-buttons-col-left .music-actions-links-btn.tune-meta-modal-btn {
+  align-self: stretch;
+  height: auto;
+  width: auto;
+  min-width: 3.15em;
+  min-height: 2.75rem;
+  padding: 0.15em 0.45rem;
+  box-sizing: border-box;
+}
+
+.music-buttons-col-left .music-actions-links-btn .tune-meta-modal-icon {
+  top: 0.2rem;
+  transform: translateX(-50%) scale(1);
+  font-size: 1em;
+}
+
+.music-buttons-col-left .music-actions-links-btn .tune-meta-modal-icon svg {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
 .music-tune-meta-group > .btn,
 .music-tune-meta-group .tune-meta-modal-btn {
   align-self: stretch;
@@ -7244,6 +7451,13 @@ button img:after {
   min-height: 2.5rem;
 }
 
+.platform-mobile .music-buttons-col-left .music-actions-links-btn.tune-meta-modal-btn {
+  width: auto;
+  height: auto;
+  min-width: 3.15em;
+  min-height: 2.75rem;
+}
+
 .music-buttons .lyrics-autoscroll-bar--inline {
   position: static;
   transform: none;
@@ -7274,6 +7488,11 @@ button img:after {
 .music-buttons .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-btn,
 .music-buttons .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-readout {
   min-height: 2.5rem;
+}
+
+.music-buttons--mobile-collapsed .lyrics-autoscroll-bar--inline .lyrics-autoscroll-play-btn {
+  min-height: 2.75rem;
+  min-width: 2.75rem;
 }
 
 .music-buttons .lyrics-autoscroll-bar--inline .lyrics-autoscroll-title,
@@ -7393,6 +7612,13 @@ button img:after {
   .music-buttons--folded-menu .music-buttons-inner {
     flex-wrap: nowrap;
     align-items: center;
+  }
+
+  .music-buttons--folded-menu .music-buttons-col-right {
+    order: 0;
+    width: auto;
+    margin-left: auto;
+    flex-wrap: nowrap;
   }
 
   .music-buttons--pdf-snapshot .music-buttons-col-right {
@@ -7925,6 +8151,21 @@ button img:after {
   max-width: calc(100vw - 1rem);
 }
 
+.music-buttons .view-mode-selector > .dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  min-width: 2.6em;
+  padding: 0.15em 0.55rem;
+  box-sizing: border-box;
+}
+
+.music-buttons .view-mode-selector > .dropdown-toggle svg {
+  width: 1.35em;
+  height: 1.35em;
+}
+
 .view-mode-item-icon {
   display: inline-flex;
   align-items: center;
@@ -8348,9 +8589,55 @@ button img:after {
   }
 }
 
-.music-editor-buttons {
-  background-color: #80808033;
+.music-editor-chrome-stack {
+  /* Single sticky unit: close/undo row + optional lyrics toolbar, flush under nav. */
+  position: sticky;
+  top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
+  z-index: 1001;
+  margin-top: calc(-0.2em * var(--chrome-vv-zoom, 1));
+  margin-left: -0.1em;
+  margin-right: -0.2em;
+  width: auto;
+  background-color: var(--app-brand-subtle, #e8e6ef);
+  border-bottom: 1px solid var(--app-border, rgba(0, 0, 0, 0.08));
+  box-sizing: border-box;
+}
+
+.music-editor-secondary-toolbar-host:empty {
+  display: none;
+}
+
+.music-editor-chrome-stack .music-editor-buttons {
+  position: static;
+  top: auto;
+  z-index: auto;
+  margin: 0;
   width: 100%;
+  max-width: none;
+  border-bottom: none;
+  background-color: transparent;
+  /* Parent stack already applies chrome zoom — avoid compounding. */
+  zoom: 1;
+}
+
+.music-editor-chrome-stack .abc-editor-lyrics-toolbar {
+  position: static;
+  top: auto;
+  z-index: auto;
+  margin: 0;
+  width: 100%;
+  padding: 0.35em 0.5em;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-top: 1px solid var(--app-border, rgba(0, 0, 0, 0.08));
+  border-bottom: none;
+  box-shadow: none;
+  zoom: 1;
+}
+
+.music-editor-buttons {
+  /* Opaque so a second sticky toolbar cannot show through this bar. */
+  background-color: var(--app-brand-subtle, #e8e6ef);
   min-height: 3em;
   padding: 0.2em;
   display: flex;
@@ -8359,6 +8646,11 @@ button img:after {
   gap: 0.75rem;
   --music-editor-control-height: 2.5rem;
   --music-editor-buttons-sticky-height: 3.2em;
+  /* Flush under App-header when not inside .music-editor-chrome-stack. */
+  margin-top: calc(-0.2em * var(--chrome-vv-zoom, 1));
+  margin-left: -0.1em;
+  margin-right: -0.2em;
+  width: auto;
   position: sticky;
   top: var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)));
   z-index: 1001;
@@ -8366,8 +8658,8 @@ button img:after {
   overflow-y: visible;
   -webkit-overflow-scrolling: touch;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  max-width: 100%;
+  border-bottom: 1px solid var(--app-border, rgba(0, 0, 0, 0.08));
+  max-width: none;
 }
 .music-editor-buttons-left {
   display: flex;
@@ -8431,6 +8723,8 @@ button img:after {
 }
 
 .music-editor:not(.music-editor--notation-only) {
+  /* Second-level sticky toolbars (notation / lyrics / links) sit under this offset.
+     MusicEditor may override --music-editor-chrome-offset from a measured bar height. */
   --music-editor-chrome-offset: calc(
     var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px)))
     + calc(var(--music-editor-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1))
@@ -8438,25 +8732,33 @@ button img:after {
 }
 
 @media (max-width: 720px) {
+  /* Keep a single sticky row; scroll horizontally instead of wrapping over the next toolbar. */
   .music-editor-buttons {
-    flex-wrap: wrap;
-    row-gap: 0.35rem;
+    flex-wrap: nowrap;
   }
   .music-editor-header-view-groups {
-    flex: 1 1 100%;
-    width: 100%;
-    display: flex;
+    flex: 0 0 auto;
+    width: auto;
+    display: inline-flex;
     justify-content: flex-end;
     align-items: stretch;
     gap: 0.35rem;
-    margin-left: 0;
+    margin-left: auto;
   }
 }
 
 .music-editor--lyrics {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 5.5em);
+  /* Fill the viewport under the fixed header. Do not set overflow:hidden on this
+     root — that breaks position:sticky for the chrome stack. */
+  height: calc(100dvh - var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))));
+  min-height: calc(100dvh - var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))));
+  max-height: calc(100dvh - var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))));
+}
+
+.music-editor--lyrics > .music-editor-chrome-stack {
+  flex: 0 0 auto;
 }
 
 .music-editor--lyrics .abc-editor--lyrics {
@@ -8464,6 +8766,7 @@ button img:after {
   min-height: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .music-editor--lyrics .abc-editor-panel--lyrics {
@@ -8471,6 +8774,22 @@ button img:after {
   min-height: 0;
   display: flex;
   flex-direction: column;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.music-editor--lyrics .abc-editor-lyrics-panel {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.music-editor--lyrics .abc-editor-lyrics-split {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .abc-editor-source-tabs .tab-content,
@@ -8932,6 +9251,7 @@ button.abc-transpose-preview {
   flex: 1 1 auto;
   width: 100%;
   min-height: 0;
+  height: 100%;
   resize: none;
 }
 
@@ -8941,43 +9261,56 @@ button.abc-transpose-preview {
   min-height: 0;
   align-items: stretch;
   gap: 0.75rem;
+  overflow: hidden;
 }
 
-.abc-editor-lyrics-split-editor {
+.abc-editor-lyrics-split-editor,
+.abc-editor-lyrics-split-preview,
+.abc-editor-lyrics-split-structure {
   flex: 1 1 0;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.abc-editor-lyrics-split-preview {
-  flex: 1 1 50%;
-  max-width: 50vw;
+  width: auto;
+  max-width: none;
   min-width: 0;
   min-height: 0;
-  overflow: auto;
-  padding: 0.65rem 0.85rem;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-  background: #fff;
   box-sizing: border-box;
 }
 
+.abc-editor-lyrics-split-editor {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.abc-editor-lyrics-split-preview,
 .abc-editor-lyrics-split-structure {
-  flex: 0 0 16rem;
-  width: 16rem;
-  min-width: 12rem;
-  min-height: 0;
   overflow: auto;
   padding: 0.65rem 0.75rem;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   background: #fff;
-  box-sizing: border-box;
 }
 
 .abc-editor-lyrics-split-structure .structure-chord-block {
   width: 100%;
+}
+
+/* Compact structure chords so progressions fit the 1/3 editor column. */
+.abc-editor-lyrics-split-structure .structure-chord-block,
+.abc-editor-lyrics-split-structure .chord-block-lines {
+  font-size: 0.72rem;
+}
+
+.abc-editor-lyrics-split-structure .chord-block-lines {
+  line-height: 1.35;
+}
+
+.abc-editor-lyrics-split-structure .chord-block-line {
+  padding: 0.08em 0.25em;
+}
+
+.abc-editor-lyrics-split-structure .chord-section-header,
+.abc-editor-lyrics-split-structure .lyrics-section-header {
+  font-size: 0.78rem;
 }
 
 .abc-editor-lyrics-chords-preview {
@@ -9016,8 +9349,10 @@ button.abc-transpose-preview {
 @media (max-width: 768px) {
   .abc-editor-lyrics-split {
     flex-direction: column;
+    overflow: auto;
   }
 
+  .abc-editor-lyrics-split-editor,
   .abc-editor-lyrics-split-preview,
   .abc-editor-lyrics-split-structure {
     flex: 1 1 auto;
@@ -10761,6 +11096,15 @@ button.abc-transpose-preview {
   overflow: visible;
 }
 
+.enhance-options-modal .modal-dialog {
+  max-width: 28rem;
+}
+
+.enhance-options-modal-body {
+  max-height: min(70vh, 36rem);
+  overflow-y: auto;
+}
+
 .enhance-options-menu {
   display: flex;
   flex-direction: column;
@@ -10816,18 +11160,38 @@ button.abc-transpose-preview {
   font-size: 0.92rem;
 }
 
-.enhance-options-footer {
+
+.enhance-options-group-note {
+  margin: 0.15rem 0.55rem 0.35rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.enhance-options-group--disabled .enhance-options-check {
+  opacity: 0.55;
+}
+
+.enhance-options-media-source {
+  margin: 0.25rem 0.55rem 0.55rem;
+}
+
+.enhance-options-media-source .form-label {
+  font-size: 0.82rem;
+  margin-bottom: 0.2rem;
+}
+
+.enhance-options-actions {
   display: flex;
   justify-content: stretch;
-  padding-top: 0.35rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .enhance-options-start {
   width: 100%;
 }
 
-.tune-enhance-dropdown .dropdown-toggle {
+.tune-enhance-dropdown > .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -14379,6 +14743,7 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 .App-header,
 .music-buttons,
+.music-editor-chrome-stack,
 .music-editor-buttons,
 .notation-editing-controls,
 .notation-nonstaff-controls-main,
@@ -14392,14 +14757,9 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 }
 
 .App-header,
-.music-editor-buttons,
 .scratchpad-list-search {
   width: calc(100% * var(--chrome-vv-scale, 1));
   max-width: none;
-}
-
-.music-editor-buttons {
-  max-width: 100%;
 }
 
 .scratchpad-audio-daw .scratchpad-daw-layout {

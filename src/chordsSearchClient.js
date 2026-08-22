@@ -1,7 +1,8 @@
 import { parseNdjsonLine } from './ndjsonParse'
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { buildChordSheetAlignmentFromLines, sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
+import { buildChordSheetAlignmentFromLines, sheetLinesToEmbeddedLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
+import { linesHaveChordProInlineChords, hasChordLines } from './chordSheetUtils'
 import { searchChordsLight } from './chordsSearchLight'
 
 const CHORDS_ACCEPT_HEADER = 'application/x-ndjson, application/json'
@@ -13,6 +14,51 @@ function hostFromUrl(url) {
   } catch (e) {
     return ''
   }
+}
+
+function isUltimateGuitarSource(source, sourceUrl) {
+  const haystack = [source, sourceUrl].map(function(part) {
+    return String(part || '').toLowerCase()
+  }).join(' ')
+  return haystack.indexOf('ultimate-guitar') >= 0
+}
+
+function lyricLinesFromCandidate(candidate) {
+  if (!candidate) return []
+  if (Array.isArray(candidate.lyricLines)) return candidate.lyricLines
+  if (Array.isArray(candidate.sheetLines)) return candidate.sheetLines
+  return []
+}
+
+/**
+ * Soft preference only — never drops candidates.
+ * 0 = ChordPro / other inline markers, 1 = chords-over-words, 2 = plain.
+ */
+export function chordsCandidateInlineRank(candidate) {
+  const lines = lyricLinesFromCandidate(candidate)
+  if (linesHaveChordProInlineChords(lines)) return 0
+  if (hasChordLines(lines)) return 1
+  return 2
+}
+
+/**
+ * Soft-sort: inline ChordPro first, then chords-over-words, then plain.
+ * Within a tier, Ultimate Guitar edges ahead. All candidates remain visible.
+ */
+export function sortChordsCandidatesPreferInline(candidates) {
+  const list = Array.isArray(candidates) ? candidates.slice() : []
+  return list.sort(function(a, b) {
+    const rankDiff = chordsCandidateInlineRank(a) - chordsCandidateInlineRank(b)
+    if (rankDiff !== 0) return rankDiff
+    const aUg = isUltimateGuitarSource(a && a.source, a && a.sourceUrl) ? 0 : 1
+    const bUg = isUltimateGuitarSource(b && b.source, b && b.sourceUrl) ? 0 : 1
+    return aUg - bUg
+  })
+}
+
+/** @deprecated Use sortChordsCandidatesPreferInline */
+export function sortChordsCandidatesPreferUltimateGuitar(candidates) {
+  return sortChordsCandidatesPreferInline(candidates)
 }
 
 function normalizeManualCandidate(raw) {
@@ -52,25 +98,36 @@ function normalizeSingleChordsResult(body) {
     throw new Error('Chords search returned no chord sheet')
   }
 
-  const chordText = sheetLinesToWizardChords(sheetLines)
-  if (!chordText.trim()) {
+  const lyricLines = sheetLinesToEmbeddedLyricLines(sheetLines)
+  let chordText = ''
+  try {
+    chordText = sheetLinesToWizardChords(sheetLines) || ''
+  } catch (e) {
+    chordText = ''
+  }
+  // ChordPro-only sheets may not yield a wizard chord grid; lyric lines still count.
+  if (!String(chordText).trim()
+    && !linesHaveChordProInlineChords(lyricLines)
+    && !hasChordLines(sheetLines)) {
     throw new Error('Chords search returned no usable chord lines')
   }
 
-  const lyricLines = sheetLinesToLyricLines(sheetLines)
+  // Keep the sheet as returned (ChordPro, chords-over-words, or plain). Soft-rank
+  // prefers inline forms later; conversion to ChordPro is left to the user.
+  const lyricText = lyricLines.join('\n')
   const chordSheetAlignment = buildChordSheetAlignmentFromLines(sheetLines)
 
   const result = {
     sheetLines: sheetLines,
     chordText: chordText,
     lyricLines: lyricLines,
-    lyricText: lyricLines.join('\n'),
+    lyricText: lyricText,
     chordSheetAlignment: chordSheetAlignment,
     source: typeof body.source === 'string' ? body.source : '',
     sourceUrl: typeof body.sourceUrl === 'string' ? body.sourceUrl : '',
     title: typeof body.title === 'string' ? body.title : '',
     artist: typeof body.artist === 'string' ? body.artist : '',
-    preview: typeof body.preview === 'string' ? body.preview : '',
+    preview: typeof body.preview === 'string' ? body.preview : lyricText.slice(0, 240),
     titleOnly: body.titleOnly === true,
   }
 
@@ -101,9 +158,11 @@ export function normalizeChordsSearch(body) {
   }
 
   if (body.multiple === true && Array.isArray(body.candidates)) {
-    const candidates = body.candidates.map(function(candidate) {
-      return normalizeSingleChordsResult(candidate)
-    })
+    const candidates = sortChordsCandidatesPreferInline(
+      body.candidates.map(function(candidate) {
+        return normalizeSingleChordsResult(candidate)
+      })
+    )
     if (candidates.length === 0) {
       throw new Error('Chords search returned no candidates')
     }

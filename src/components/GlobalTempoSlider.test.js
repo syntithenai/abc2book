@@ -9,6 +9,23 @@ import { getGlobalTempoPercent, setGlobalTempoPercent } from '../globalTempoSett
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
+function toggleCheckbox(input) {
+  act(function() {
+    input.click()
+  })
+}
+
+function setSliderValue(slider, nextValue) {
+  act(function() {
+    const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
+      window.HTMLInputElement.prototype,
+      'value'
+    ).set
+    nativeInputValueSetter.call(slider, String(nextValue))
+    slider.dispatchEvent(new Event('input', { bubbles: true }))
+  })
+}
+
 describe('GlobalTempoSlider', function() {
   let container
   let root
@@ -27,22 +44,41 @@ describe('GlobalTempoSlider', function() {
     localStorage.clear()
   })
 
-  test('starts off and forces a percent when the slider moves', function() {
+  test('checkbox enables override and slider sets the percent', function() {
     act(function() {
       root.render(React.createElement(GlobalTempoSlider, {}))
     })
-    expect(container.querySelector('[data-testid="global-tempo-value"]').textContent).toBe('Off')
+    expect(container.textContent).toContain('Tempo')
+    const enable = container.querySelector('[data-testid="global-tempo-enable"]')
     const slider = container.querySelector('[data-testid="global-tempo-slider"]')
-    act(function() {
-      const nativeInputValueSetter = Object.getOwnPropertyDescriptor(
-        window.HTMLInputElement.prototype,
-        'value'
-      ).set
-      nativeInputValueSetter.call(slider, '80')
-      slider.dispatchEvent(new Event('input', { bubbles: true }))
-    })
+    const value = container.querySelector('[data-testid="global-tempo-value"]')
+    expect(enable.checked).toBe(false)
+    expect(slider.disabled).toBe(true)
+    expect(value.textContent).toBe('100')
+
+    toggleCheckbox(enable)
+    expect(getGlobalTempoPercent()).toBe(100)
+    expect(slider.disabled).toBe(false)
+
+    setSliderValue(slider, 80)
     expect(getGlobalTempoPercent()).toBe(80)
-    expect(container.querySelector('[data-testid="global-tempo-value"]').textContent).toBe('80%')
+    expect(value.textContent).toBe('80')
+  })
+
+  test('unchecking disables override and remembers the last value', function() {
+    setGlobalTempoPercent(90)
+    act(function() {
+      root.render(React.createElement(GlobalTempoSlider, {}))
+    })
+    const enable = container.querySelector('[data-testid="global-tempo-enable"]')
+    expect(enable.checked).toBe(true)
+
+    toggleCheckbox(enable)
+    expect(getGlobalTempoPercent()).toBe(0)
+    expect(container.querySelector('[data-testid="global-tempo-value"]').textContent).toBe('90')
+
+    toggleCheckbox(enable)
+    expect(getGlobalTempoPercent()).toBe(90)
   })
 
   test('applies live playback through the media controller', function() {
@@ -52,15 +88,8 @@ describe('GlobalTempoSlider', function() {
         mediaController: { setGlobalPlaybackTempo: setGlobalPlaybackTempo },
       }))
     })
-    const offButton = Array.from(container.querySelectorAll('button')).find(function(button) {
-      return button.textContent === 'Off'
-    })
-    const slowButton = Array.from(container.querySelectorAll('button')).find(function(button) {
-      return button.textContent === 'Slow 75%'
-    })
-    act(function() { slowButton.dispatchEvent(new MouseEvent('click', { bubbles: true })) })
-    expect(setGlobalPlaybackTempo).toHaveBeenCalledWith(75)
-    act(function() { offButton.dispatchEvent(new MouseEvent('click', { bubbles: true })) })
-    expect(setGlobalPlaybackTempo).toHaveBeenCalledWith(0)
+    const enable = container.querySelector('[data-testid="global-tempo-enable"]')
+    toggleCheckbox(enable)
+    expect(setGlobalPlaybackTempo).toHaveBeenCalledWith(100)
   })
 })

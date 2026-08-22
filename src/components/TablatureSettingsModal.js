@@ -19,6 +19,17 @@ import {
   tuningOptionsForInstrument,
 } from '../tablatureConfig'
 import { canonicalTuningLabel } from '../tuningPresetResolver'
+import { setTuneDisplaySettings } from '../tuneDisplaySettings'
+
+function storeTuneTablatureSettings(tune) {
+  if (!tune || !tune.id) return
+  setTuneDisplaySettings(tune.id, {
+    tablature: tune.tablature,
+    tablatureVoices: tune.tablatureVoices,
+    tablatureEnabled: tune.tablatureEnabled,
+    tabDisplay: tune.tabDisplay,
+  })
+}
 
 function isActiveTablatureVoice(setting, multiVoice) {
   return multiVoice ? (setting.enabled && setting.instrumentId) : !!setting.instrumentId
@@ -254,6 +265,7 @@ export default function TablatureSettingsModal(props) {
     } else {
       applyTablatureSelection(tune, '', '')
     }
+    storeTuneTablatureSettings(tune)
     if (tune.id && tunebook && tunebook.saveTune) {
       tunebook.saveTune(tune)
     }

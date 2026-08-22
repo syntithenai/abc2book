@@ -388,6 +388,14 @@
   flex: 0 1 auto;
 }
 
+.now-playing-page-audio-controls .global-tempo-slider--group {
+  align-self: center;
+}
+
+.now-playing-page-audio-controls .global-tempo-slider--group .global-tempo-slider-input {
+  width: 6.5rem;
+}
+
 .now-playing-page-volume .playback-volume-slider-input {
   width: 6.5rem;
   max-width: 100%;

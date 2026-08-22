@@ -99,6 +99,7 @@ export function countActiveSearchIncomplete() {
   const fieldJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
     if (isMediaAnalysisLookupJob(job)) return false
     return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
+      || job.status === 'error'
   }).length
   return fieldJobs + getManualTrackedSearchJobs().length
 }

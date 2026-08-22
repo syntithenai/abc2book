@@ -55,10 +55,17 @@ export async function loadPitchfinder() {
   return mod
 }
 
-export async function createPitchfinderDetector(sampleRate) {
+export async function createPitchfinderDetector(sampleRate, options) {
   const mod = await loadPitchfinder()
-  const detect = mod.YIN ? mod.YIN({ sampleRate: sampleRate }) : null
-  return detect
+  if (!mod.YIN) return null
+  const opts = options && typeof options === 'object' ? options : {}
+  return mod.YIN({
+    sampleRate: sampleRate,
+    threshold: Number.isFinite(opts.threshold) ? opts.threshold : 0.1,
+    probabilityThreshold: Number.isFinite(opts.probabilityThreshold)
+      ? opts.probabilityThreshold
+      : 0.1,
+  })
 }
 
 export async function loadEssentiaOptional() {

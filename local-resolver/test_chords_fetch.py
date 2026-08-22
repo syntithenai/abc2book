@@ -1,4 +1,6 @@
+import json
 import unittest
+from html import escape
 from unittest.mock import AsyncMock
 
 from chords_fetch import (
@@ -16,6 +18,7 @@ from chords_fetch import (
     extract_cifraclub_sheet,
     extract_echords_sheet,
     extract_sheet_from_html,
+    extract_ultimate_guitar_sheet,
     extract_worshiptogether_sheet,
     finalize_sheet_lines,
     has_usable_chord_lines,
@@ -29,6 +32,7 @@ from chords_fetch import (
     slugify,
     strip_azchords_chord_dictionary_preamble,
     translate_cifraclub_section_labels,
+    ultimate_guitar_search_candidates_from_html,
 )
 
 
@@ -232,12 +236,13 @@ Amazing Grace, how sweet the sound
         self.assertIn("site:tabs.ultimate-guitar.com", query)
 
     def test_classify_chord_host_manual_vs_scrapable(self):
-        self.assertEqual(classify_chord_host("tabs.ultimate-guitar.com"), "manual_only")
-        self.assertEqual(classify_chord_host("www.ultimate-guitar.com"), "manual_only")
+        self.assertEqual(classify_chord_host("tabs.ultimate-guitar.com"), "scrapable")
+        self.assertEqual(classify_chord_host("www.ultimate-guitar.com"), "scrapable")
         self.assertEqual(classify_chord_host("www.e-chords.com"), "scrapable")
         self.assertEqual(classify_chord_host("chordie.com"), "scrapable")
         self.assertTrue(is_scrapable_chord_host("chordsbase.com"))
-        self.assertFalse(is_scrapable_chord_host("tabs.ultimate-guitar.com"))
+        self.assertTrue(is_scrapable_chord_host("tabs.ultimate-guitar.com"))
+        self.assertEqual(classify_chord_host("example.com"), "unknown")
 
     def test_extract_chordsbase_sheet_reads_first_pre(self):
         html_text = """
@@ -381,6 +386,177 @@ Amazing Grace, how sweet the sound
             translated,
             ["[Intro]", "", "[First Part]", "Has he lost his mind?"],
         )
+
+    def _ug_fixture_html(self, content, *, tab_type="Chords", capo=2, tonality="F#m"):
+        payload = {
+            "store": {
+                "page": {
+                    "data": {
+                        "tab": {
+                            "song_name": "Wonderwall",
+                            "artist_name": "Oasis",
+                            "type": tab_type,
+                            "tonality_name": tonality,
+                        },
+                        "tab_view": {
+                            "wiki_tab": {"content": content},
+                            "meta": {
+                                "capo": capo,
+                                "tuning": {
+                                    "name": "Standard",
+                                    "value": "E A D G B E",
+                                    "index": 1,
+                                },
+                                "tonality": tonality,
+                            },
+                        },
+                    }
+                }
+            }
+        }
+        encoded = escape(json.dumps(payload), quote=True)
+        return (
+            '<html><body><div class="js-store" data-content="{0}"></div></body></html>'
+            .format(encoded)
+        )
+
+    def test_extract_ultimate_guitar_sheet_strips_ch_and_tab_tags(self):
+        html_text = self._ug_fixture_html(
+            "[Intro]\r\n[ch]Em[/ch]   [ch]G[/ch]\r\n\r\n"
+            "[Verse 1]\r\n[tab][ch]Em[/ch]       [ch]G[/ch]\r\n"
+            "Today is gonna be the day[/tab]\r\n"
+        )
+        extracted = extract_ultimate_guitar_sheet(html_text)
+        self.assertIsNotNone(extracted)
+        self.assertNotIn("[ch]", extracted)
+        self.assertNotIn("[/ch]", extracted)
+        self.assertNotIn("[tab]", extracted)
+        self.assertNotIn("[/tab]", extracted)
+        self.assertIn("[Verse 1]", extracted)
+        self.assertIn("Em", extracted)
+        self.assertIn("Today is gonna be the day", extracted)
+        self.assertIn("Capo 2", extracted)
+        self.assertIn("Key: F#m", extracted)
+        self.assertIn("Tuning: E A D G B E", extracted)
+
+        via_router = extract_sheet_from_html(
+            html_text,
+            "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596",
+        )
+        self.assertEqual(extracted, via_router)
+
+        meta = extract_chord_sheet_meta(extracted.splitlines())
+        self.assertEqual(meta["capo"], 2)
+        self.assertEqual(meta["key"], "F#m")
+        self.assertEqual(meta["tuning"], "E A D G B E")
+        lines = finalize_sheet_lines(extracted.splitlines())
+        self.assertIn("[Verse 1]", lines)
+        self.assertIn("Em G", lines)
+        self.assertIn("Today is gonna be the day", lines)
+        self.assertTrue(has_usable_chord_lines(lines))
+        self.assertNotIn("Capo 2", lines)
+
+    def test_extract_ultimate_guitar_sheet_rejects_non_chords_type(self):
+        html_text = self._ug_fixture_html(
+            "[ch]Em[/ch] Today",
+            tab_type="Guitar Pro",
+        )
+        self.assertIsNone(extract_ultimate_guitar_sheet(html_text))
+
+    def test_ultimate_guitar_search_html_prefers_high_vote_chords(self):
+        import json
+        from html import escape
+
+        payload = {
+            "store": {
+                "page": {
+                    "data": {
+                        "results": [
+                            {
+                                "type": "Tabs",
+                                "tab_url": "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-tabs-5200",
+                                "song_name": "Wonderwall",
+                                "artist_name": "Oasis",
+                                "votes": 99999,
+                                "rating": 5,
+                            },
+                            {
+                                "type": "Chords",
+                                "tab_url": "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-39144",
+                                "song_name": "Wonderwall",
+                                "artist_name": "Oasis",
+                                "votes": 100,
+                                "rating": 4.5,
+                            },
+                            {
+                                "type": "Chords",
+                                "tab_url": "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596",
+                                "song_name": "Wonderwall",
+                                "artist_name": "Oasis",
+                                "votes": 11086,
+                                "rating": 4.8,
+                            },
+                        ]
+                    }
+                }
+            }
+        }
+        html_text = '<div class="js-store" data-content="{0}"></div>'.format(
+            escape(json.dumps(payload))
+        )
+        candidates = ultimate_guitar_search_candidates_from_html(
+            html_text, "Wonderwall", "Oasis"
+        )
+        self.assertEqual(len(candidates), 2)
+        self.assertIn("wonderwall-chords-27596", candidates[0]["url"])
+        self.assertTrue(all("-chords-" in item["url"] for item in candidates))
+
+    def test_brave_prefers_ug_chords_url_over_tabs(self):
+        data = {
+            "web": {
+                "results": [
+                    {
+                        "title": "Wonderwall Tabs",
+                        "url": "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-tabs-5200",
+                        "description": "Oasis guitar tab",
+                    },
+                    {
+                        "title": "Wonderwall Chords",
+                        "url": "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596",
+                        "description": "Oasis chords",
+                    },
+                ]
+            }
+        }
+        candidates = brave_chord_candidates_from_results(data, "Wonderwall", "Oasis")
+        self.assertEqual(len(candidates), 2)
+        self.assertIn("-chords-", candidates[0]["url"])
+
+    def test_brave_ranks_ultimate_guitar_above_other_hosts(self):
+        data = {
+            "web": {
+                "results": [
+                    {
+                        "title": "I Will Chords - The Beatles",
+                        "url": "https://www.e-chords.com/chords/the-beatles/i-will",
+                        "description": "Beatles guitar chords",
+                    },
+                    {
+                        "title": "I Will Chords UG",
+                        "url": "https://tabs.ultimate-guitar.com/tab/the-beatles/i-will-chords-123",
+                        "description": "Ultimate Guitar chords",
+                    },
+                ]
+            }
+        }
+        candidates = brave_chord_candidates_from_results(data, "I Will", "The Beatles")
+        self.assertEqual(candidates[0]["source"], "tabs.ultimate-guitar.com")
+        self.assertGreater(candidates[0]["score"], candidates[1]["score"])
+
+    def test_build_brave_chord_query_can_target_ultimate_guitar_only(self):
+        query = build_brave_chord_query("I Will", "The Beatles", site_host="tabs.ultimate-guitar.com")
+        self.assertIn("site:tabs.ultimate-guitar.com", query)
+        self.assertNotIn("e-chords.com", query)
 
 
 class ChordsFetchAsyncTests(unittest.IsolatedAsyncioTestCase):

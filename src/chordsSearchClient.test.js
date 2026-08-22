@@ -3,6 +3,7 @@ import {
   handleChordsSearchStreamEvent,
   searchChords,
   searchChordsViaResolver,
+  sortChordsCandidatesPreferInline,
 } from './chordsSearchClient'
 import { searchChordsLight, CHORDS_LIGHT_ERROR } from './chordsSearchLight'
 import * as mediaProxyClient from './mediaProxyClient'
@@ -69,7 +70,7 @@ describe('chordSheetImportUtils', function() {
 })
 
 describe('chordsSearchClient', function() {
-  test('normalizeChordsSearch builds chord and lyric imports', function() {
+  test('normalizeChordsSearch keeps chords-over-words lyric lines as captured', function() {
     const result = normalizeChordsSearch({
       sheetLines: [
         '[Verse 1]',
@@ -87,12 +88,54 @@ describe('chordsSearchClient', function() {
     expect(result.chordText).toBe('G C G | G D G |')
     expect(result.lyricLines).toEqual([
       '[Verse 1]',
+      'G C G',
       'Amazing Grace, how sweet the sound,',
+      'G D G',
       'That saved a wretch like me:',
     ])
     expect(Array.isArray(result.chordSheetAlignment)).toBe(true)
     expect(result.chordSheetAlignment.length).toBeGreaterThan(0)
     expect(result.source).toBe('azchords.com')
+  })
+
+  test('normalizeChordsSearch soft-ranks inline ChordPro ahead of chords-over-words', function() {
+    const result = normalizeChordsSearch({
+      multiple: true,
+      candidates: [
+        {
+          sheetLines: ['C G', 'plain cow lyric'],
+          source: 'azchords.com',
+          sourceUrl: 'https://www.azchords.com/a/x',
+        },
+        {
+          sheetLines: ['[Am]inline [G]lyric'],
+          source: 'example.com',
+          sourceUrl: 'https://example.com/x',
+        },
+        {
+          sheetLines: ['G', 'hello'],
+          source: 'tabs.ultimate-guitar.com',
+          sourceUrl: 'https://tabs.ultimate-guitar.com/tab/x',
+        },
+      ],
+    })
+    expect(result.multiple).toBe(true)
+    expect(result.candidates).toHaveLength(3)
+    expect(result.candidates[0].lyricLines[0]).toContain('[Am]')
+    // Within chords-over-words tier, Ultimate Guitar sorts ahead.
+    expect(result.candidates[1].source).toBe('tabs.ultimate-guitar.com')
+    expect(result.candidates[2].source).toBe('azchords.com')
+  })
+
+  test('sortChordsCandidatesPreferInline keeps relative order within a tier', function() {
+    const sorted = sortChordsCandidatesPreferInline([
+      { source: 'e-chords.com', sourceUrl: 'https://e-chords.com/a', lyricLines: ['C G', 'lyric'] },
+      { source: 'cifraclub.com', sourceUrl: 'https://cifraclub.com/a', lyricLines: ['D A', 'lyric'] },
+    ])
+    expect(sorted.map(function(c) { return c.source })).toEqual([
+      'e-chords.com',
+      'cifraclub.com',
+    ])
   })
 
   test('normalizeChordsSearch rejects empty sheetLines', function() {

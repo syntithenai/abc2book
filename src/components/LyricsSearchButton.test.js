@@ -55,6 +55,23 @@ jest.mock('../addTuneAutoEnrich', function() {
   }
 })
 
+jest.mock('../useFieldSearchResults', function() {
+  return {
+    useFieldSearchResults: function() { return [] },
+  }
+})
+
+jest.mock('../fieldSearchResultCache', function() {
+  return {
+    setFieldSearchResults: jest.fn(),
+    targetKeyForFieldSearch: function(tuneId, candidateId) {
+      if (tuneId) return 'tune:' + tuneId
+      if (candidateId) return 'candidate:' + candidateId
+      return ''
+    },
+  }
+})
+
 jest.mock('../useFieldLookupSearchJob', function() {
   return {
     buildFieldLookupTargetKey: function(tuneId, candidateId) {
@@ -120,17 +137,17 @@ describe('LyricsSearchButton import chords fallback', function() {
     container.remove()
   })
 
-  function renderButton() {
+  function renderButton(extraProps) {
     act(function() {
       root.render(
-        React.createElement(LyricsSearchButton, {
+        React.createElement(LyricsSearchButton, Object.assign({
           candidateId: 'cand-1',
           title: 'Am I Ever Going to See Your Face Again',
           artist: 'The Angels',
           onChords: jest.fn(),
           leaveAwaiting: true,
           forceReview: true,
-        })
+        }, extraProps || {}))
       )
     })
   }
@@ -169,5 +186,77 @@ describe('LyricsSearchButton import chords fallback', function() {
 
     expect(mockStartLyrics).not.toHaveBeenCalled()
     expect(container.textContent).not.toContain('No chords found')
+  })
+
+  test('empty lyrics opens chord picker and does not auto-apply', function() {
+    const onChords = jest.fn()
+    renderButton({
+      existingLyrics: '',
+      presentChoicesInDialog: false,
+      onChords: onChords,
+      forceReview: false,
+    })
+
+    act(function() {
+      container.querySelector('[data-testid="lyrics-search"]').click()
+    })
+    act(function() {
+      chordsHandlers.onAwaiting({
+        id: 'j1',
+        status: 'awaiting',
+        candidates: [
+          { chordText: 'E A', lyricText: 'first', source: 'ultimate-guitar.com' },
+          { chordText: 'G C', lyricText: 'second', source: 'e-chords.com' },
+        ],
+      })
+    })
+
+    expect(onChords).not.toHaveBeenCalled()
+    expect(document.body.textContent).toContain('Choose chord sheet')
+  })
+
+  test('existing lyrics without dialog still open chord picker', function() {
+    const onChords = jest.fn()
+    renderButton({
+      existingLyrics: 'Who knows how long I have been waiting',
+      presentChoicesInDialog: false,
+      onChords: onChords,
+      forceReview: false,
+    })
+
+    act(function() {
+      container.querySelector('[data-testid="lyrics-search"]').click()
+    })
+    act(function() {
+      chordsHandlers.onAwaiting({
+        id: 'j1',
+        status: 'awaiting',
+        candidates: [{ chordText: 'E A', lyricText: 'line', source: 'ultimate-guitar.com' }],
+      })
+    })
+
+    expect(onChords).not.toHaveBeenCalled()
+    expect(document.body.textContent).toContain('Choose chord sheet')
+  })
+
+  test('presentChoicesInDialog opens chord picker when lyrics exist', function() {
+    renderButton({
+      existingLyrics: 'existing',
+      presentChoicesInDialog: true,
+      forceReview: false,
+    })
+
+    act(function() {
+      container.querySelector('[data-testid="lyrics-search"]').click()
+    })
+    act(function() {
+      chordsHandlers.onAwaiting({
+        id: 'j1',
+        status: 'awaiting',
+        candidates: [{ chordText: 'E A', lyricText: 'line', source: 'ultimate-guitar.com' }],
+      })
+    })
+
+    expect(document.body.textContent).toContain('Choose chord sheet')
   })
 })

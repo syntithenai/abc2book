@@ -67,7 +67,7 @@ jest.mock('./FieldLookupButtonGroup', function() {
   }
 })
 
-describe('ChordsSearchButton overwrite confirm', function() {
+describe('ChordsSearchButton search', function() {
   let container
   let root
 
@@ -85,28 +85,7 @@ describe('ChordsSearchButton overwrite confirm', function() {
     container.remove()
   })
 
-  test('Review search skips overwrite confirm and starts immediately', function() {
-    act(function() {
-      root.render(
-        React.createElement(ChordsSearchButton, {
-          tuneId: 't1',
-          title: 'Song',
-          artist: 'Artist',
-          confirmOverwrite: true,
-        })
-      )
-    })
-
-    act(function() {
-      container.querySelector('[data-testid="search-review"]').click()
-    })
-
-    expect(container.textContent).not.toContain('Replace chords from search')
-    expect(mockStartSearch).toHaveBeenCalledTimes(1)
-    expect(mockStartSearch.mock.calls[0][0].options.searchMode).toBe('review')
-  })
-
-  test('Auto search shows overwrite confirm before starting', function() {
+  test('Auto search starts immediately without overwrite confirm', function() {
     act(function() {
       root.render(
         React.createElement(ChordsSearchButton, {
@@ -122,9 +101,29 @@ describe('ChordsSearchButton overwrite confirm', function() {
       container.querySelector('[data-testid="search-auto"]').click()
     })
 
-    expect(mockStartSearch).not.toHaveBeenCalled()
-    expect(document.body.textContent).toContain('Replace chords from search')
-    expect(document.body.textContent).toContain('import chords and lyrics')
+    expect(document.body.textContent).not.toContain('Replace chords from search')
+    expect(mockStartSearch).toHaveBeenCalledTimes(1)
+    expect(mockStartSearch.mock.calls[0][0].options.searchMode).toBe('auto')
+  })
+
+  test('Review search starts immediately', function() {
+    act(function() {
+      root.render(
+        React.createElement(ChordsSearchButton, {
+          tuneId: 't1',
+          title: 'Song',
+          artist: 'Artist',
+          confirmOverwrite: true,
+        })
+      )
+    })
+
+    act(function() {
+      container.querySelector('[data-testid="search-review"]').click()
+    })
+
+    expect(mockStartSearch).toHaveBeenCalledTimes(1)
+    expect(mockStartSearch.mock.calls[0][0].options.searchMode).toBe('review')
   })
 
   test('network errors show needs-internet copy while offline, not start-the-resolver', function() {

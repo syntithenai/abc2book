@@ -30,13 +30,37 @@ import {
   syncResolverLoginToast,
 } from './resolverLoginToast'
 
+const authBlockedStatus = {
+  available: false,
+  candidates: [{
+    base: 'https://cloud.example',
+    reachable: true,
+    available: false,
+    requireAuth: true,
+    authReason: 'login_required',
+  }],
+}
+
 describe('resolverLoginToast', function() {
   beforeEach(function() {
     __resetResolverLoginToastForTests()
     jest.clearAllMocks()
   })
 
-  test('shows one warning when shared resolver needs login', function() {
+  test('does not auto-show login toast when logged out on page load', function() {
+    getMediaResolverHealthState.mockReturnValue({
+      checked: true,
+      status: authBlockedStatus,
+    })
+
+    syncResolverLoginToast(null)
+    expect(toast.warning).not.toHaveBeenCalled()
+
+    syncResolverLoginToast(null)
+    expect(toast.warning).not.toHaveBeenCalled()
+  })
+
+  test('auto-shows login toast when a token is present but invalid', function() {
     getMediaResolverHealthState.mockReturnValue({
       checked: true,
       status: {
@@ -46,19 +70,19 @@ describe('resolverLoginToast', function() {
           reachable: true,
           available: false,
           requireAuth: true,
-          authReason: 'login_required',
+          authReason: 'invalid_token',
         }],
       },
     })
 
-    syncResolverLoginToast(null)
+    syncResolverLoginToast('token')
     expect(toast.warning).toHaveBeenCalledTimes(1)
     const renderFn = toast.warning.mock.calls[0][0]
     expect(typeof renderFn).toBe('function')
     const content = renderFn({ closeToast: jest.fn() })
-    expect(content.props.children[0].props.children).toBe('Login to continue')
+    expect(content.props.children[0].props.children).toMatch(/expired/i)
 
-    syncResolverLoginToast(null)
+    syncResolverLoginToast('token')
     expect(toast.warning).toHaveBeenCalledTimes(1)
   })
 
@@ -76,12 +100,12 @@ describe('resolverLoginToast', function() {
           reachable: true,
           available: false,
           requireAuth: true,
-          authReason: 'login_required',
+          authReason: 'invalid_token',
         }],
       },
     })
 
-    syncResolverLoginToast(null)
+    syncResolverLoginToast('token')
     const renderFn = toast.warning.mock.calls[0][0]
     const closeToast = jest.fn()
     const content = renderFn({ closeToast: closeToast })
@@ -109,7 +133,7 @@ describe('resolverLoginToast', function() {
     expect(toast.warning).not.toHaveBeenCalled()
   })
 
-  test('dismisses stale login_required toast once a token is present', function() {
+  test('dismisses stale login toast once health clears after a token is present', function() {
     getMediaResolverHealthState.mockReturnValue({
       checked: true,
       status: {
@@ -119,29 +143,27 @@ describe('resolverLoginToast', function() {
           reachable: true,
           available: false,
           requireAuth: true,
-          authReason: 'login_required',
+          authReason: 'invalid_token',
         }],
       },
     })
 
-    syncResolverLoginToast(null)
+    syncResolverLoginToast('token')
     expect(toast.warning).toHaveBeenCalledTimes(1)
 
+    getMediaResolverHealthState.mockReturnValue({
+      checked: true,
+      status: {
+        available: true,
+        activeBase: 'https://cloud.example',
+        candidates: [],
+      },
+    })
     syncResolverLoginToast('token')
     expect(toast.dismiss).toHaveBeenCalledWith('resolver-login-required')
   })
 
   test('does not auto-show login toast after logout', function() {
-    const authBlockedStatus = {
-      available: false,
-      candidates: [{
-        base: 'https://cloud.example',
-        reachable: true,
-        available: false,
-        requireAuth: true,
-        authReason: 'login_required',
-      }],
-    }
     getMediaResolverHealthState.mockReturnValue({
       checked: true,
       status: {
@@ -179,16 +201,7 @@ describe('resolverLoginToast', function() {
 
     getMediaResolverHealthState.mockReturnValue({
       checked: true,
-      status: {
-        available: false,
-        candidates: [{
-          base: 'https://cloud.example',
-          reachable: true,
-          available: false,
-          requireAuth: true,
-          authReason: 'login_required',
-        }],
-      },
+      status: authBlockedStatus,
     })
     syncResolverLoginToast(null)
     expect(toast.warning).not.toHaveBeenCalled()
@@ -246,16 +259,7 @@ describe('resolverLoginToast', function() {
     try {
       getMediaResolverHealthState.mockReturnValue({
         checked: true,
-        status: {
-          available: false,
-          candidates: [{
-            base: 'https://resolver.example',
-            reachable: true,
-            available: false,
-            requireAuth: true,
-            authReason: 'login_required',
-          }],
-        },
+        status: authBlockedStatus,
       })
       syncResolverLoginToast(null)
       expect(toast.warning).not.toHaveBeenCalled()

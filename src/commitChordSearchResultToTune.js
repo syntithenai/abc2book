@@ -1,4 +1,4 @@
-import { parseChordSheetText } from './chordProFormatUtils'
+import { parseChordSheetText, extractPreservedChordProLyricLines } from './chordProFormatUtils'
 import { buildMeterMergeOptions } from './applyChordSheetToTune'
 import {
   buildTuneSectionsFromPaste,
@@ -7,27 +7,65 @@ import {
 } from './chordsEditorSections'
 import { commitPasteChordSheetToTune } from './commitPasteChordSheetToTune'
 import { shouldSkipAbcMergeForChordPaste } from './chordPastePolicy'
+import { sheetLinesToEmbeddedLyricLines } from './chordSheetImportUtils'
+import { hasLyricEmbeddedChords, linesHaveChordProInlineChords } from './chordSheetUtils'
 
 function chordSheetTextFromSearchResult(result) {
   if (!result || typeof result !== 'object') return ''
   if (result.chordProSource && String(result.chordProSource).trim()) {
     return String(result.chordProSource)
   }
-  if (result.chordText && String(result.chordText).trim()) {
-    return String(result.chordText)
-  }
   if (Array.isArray(result.sheetLines) && result.sheetLines.length) {
     return result.sheetLines.map(function(line) { return String(line) }).join('\n')
+  }
+  if (result.chordText && String(result.chordText).trim()) {
+    // chordText may be wizard bar-grid only; prefer lyricLines when they already
+    // carry placement, else fall through to chordText for parse attempt.
+    if (Array.isArray(result.lyricLines) && hasLyricEmbeddedChords(result.lyricLines)) {
+      return result.lyricLines.join('\n')
+    }
+    return String(result.chordText)
+  }
+  if (Array.isArray(result.lyricLines) && result.lyricLines.length) {
+    return result.lyricLines.join('\n')
   }
   return ''
 }
 
+/**
+ * Prefer lyrics with chords embedded (ChordPro / chords-over-words). Fall back
+ * to plain lyric lines from the search result or parsed sections.
+ */
 function lyricLinesFromParsed(parsed, result) {
-  if (result && Array.isArray(result.lyricLines) && result.lyricLines.length) {
+  if (Array.isArray(result && result.lyricLines) && hasLyricEmbeddedChords(result.lyricLines)) {
     return result.lyricLines.slice()
   }
-  if (parsed && Array.isArray(parsed.lyricLines) && parsed.lyricLines.length) {
+  if (Array.isArray(result && result.sheetLines) && result.sheetLines.length) {
+    const embedded = sheetLinesToEmbeddedLyricLines(result.sheetLines)
+    if (embedded.length && hasLyricEmbeddedChords(embedded)) {
+      return embedded
+    }
+  }
+  if (parsed && Array.isArray(parsed.lyricLines) && hasLyricEmbeddedChords(parsed.lyricLines)) {
     return parsed.lyricLines.slice()
+  }
+  const chordProSource = (parsed && parsed.chordProSource)
+    || (result && result.chordProSource)
+    || ''
+  if (chordProSource) {
+    const preserved = extractPreservedChordProLyricLines(chordProSource)
+    if (preserved.length && (
+      linesHaveChordProInlineChords(preserved) || hasLyricEmbeddedChords(preserved)
+    )) {
+      return preserved
+    }
+  }
+  if (parsed && Array.isArray(parsed.lyricLines) && parsed.lyricLines.length) {
+    const embedded = sheetLinesToEmbeddedLyricLines(parsed.lyricLines)
+    if (embedded.length) return embedded
+  }
+  if (result && Array.isArray(result.lyricLines) && result.lyricLines.length) {
+    return result.lyricLines.slice()
   }
   const sections = listPasteChordSections(parsed)
   const lines = []

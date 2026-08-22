@@ -303,9 +303,8 @@ async function dispatchFromFile(file, ctx) {
   }
 
   if (kind === 'notation') {
-    if (detectScoreFormat(file.name) === 'midi' && !ctx.resolverAvailable) {
-      return errorResult(MIDI_RESOLVER_ERROR, { needsResolver: true });
-    }
+    // MIDI wizard opens client-side (local SMF analyze). Resolver is only
+    // required later for server conversion strategies.
     const midiResult = midiWizardResult(file);
     if (midiResult) return midiResult;
     if (detectScoreFormat(file.name) === 'abc' || /\.abc$/i.test(file.name || '')) {
@@ -366,7 +365,7 @@ async function dispatchFromFile(file, ctx) {
 
   const hint = ctx.resolverAvailable
     ? 'Unsupported file type. Choose audio, video, ABC, MusicXML, MuseScore, chord sheet, ZIP, Songbook Pro, OnSong, iReal Pro, MIDI, or a sheet image/PDF.'
-    : 'Unsupported file type. Choose audio, video, ABC, MusicXML, MuseScore, chord sheet, ZIP, Songbook Pro, OnSong, iReal Pro, or MIDI (when the resolver is available).';
+    : 'Unsupported file type. Choose audio, video, ABC, MusicXML, MuseScore, chord sheet, ZIP, Songbook Pro, OnSong, iReal Pro, or MIDI.';
   return errorResult(hint);
 }
 

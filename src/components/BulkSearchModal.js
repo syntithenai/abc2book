@@ -2,12 +2,14 @@ import { useMemo, useState } from 'react'
 import { toast } from 'react-toastify'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
+import { useCreditAffordance } from '../useCreditAffordance'
 import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue'
 import useBulkComposerDiscoveryQueue from '../useBulkComposerDiscoveryQueue'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
 import { lyricLinesToText } from '../wLinesUtils'
 import { useAutoLinkPlaybackRegionScan } from '../useAutoLinkPlaybackRegionScan'
 import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings'
+import { getLinkedMediaSources } from '../mediaTranscriptionSources'
 import EnhanceOptionsDropdown from './EnhanceOptionsDropdown'
 import BulkComposerDiscoveryQueueModal from './BulkComposerDiscoveryQueueModal'
 import BulkBackgroundResearchQueueModal from './BulkBackgroundResearchQueueModal'
@@ -35,9 +37,13 @@ export default function BulkSearchModal({
     features,
   } = useMediaResolverHealth()
   const resolverAccess = useFieldLookupResolverAccess(token)
+  const composerAffordance = useCreditAffordance(token, 'composer_discovery')
   const canResearchBackground = resolverAvailable
     && isCapabilityAvailable('llm', features, loadProviderSettings())
     && !resolverAccess.cannotAffordBackground
+  const canAffordComposer = composerAffordance.creditUnlimited
+    || !composerAffordance.checked
+    || composerAffordance.affordable
 
   const analysisDeps = useMemo(function() {
     const tunes = {}
@@ -53,6 +59,23 @@ export default function BulkSearchModal({
       accessToken: token && token.access_token ? token.access_token : token,
     }
   }, [tunebook, selected, token, forceRefresh])
+
+  const hasScannableLinkedMedia = useMemo(function() {
+    const tunes = tunebook.fromSelection(selected)
+    return tunes.some(function(tune) {
+      return getLinkedMediaSources(tune, tunebook).length > 0
+    })
+  }, [tunebook, selected])
+
+  const availabilityContext = useMemo(function() {
+    return {
+      resolverAvailable: resolverAvailable,
+      features: features || {},
+      canResearchBackground: canResearchBackground,
+      canAffordComposer: canAffordComposer,
+      hasScannableLinkedMedia: hasScannableLinkedMedia,
+    }
+  }, [resolverAvailable, features, canResearchBackground, canAffordComposer, hasScannableLinkedMedia])
 
   function selectedTunes() {
     return tunebook.fromSelection(selected)
@@ -71,6 +94,8 @@ export default function BulkSearchModal({
       resolverAvailable: resolverAvailable,
       features: features,
       canResearchBackground: canResearchBackground,
+      canAffordComposer: canAffordComposer,
+      hasScannableLinkedMedia: hasScannableLinkedMedia,
       fieldLookupQueue: fieldLookupQueue,
       composerQueue: composerQueue,
       backgroundQueue: queue,
@@ -98,6 +123,7 @@ export default function BulkSearchModal({
         toggleClassName="bulk-ops-action-btn"
         toggleLabel=" Enhance"
         icons={icons}
+        availabilityContext={availabilityContext}
         title={
           'Enhance '
           + (selectedCount || 0)

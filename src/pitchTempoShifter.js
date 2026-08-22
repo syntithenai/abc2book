@@ -241,7 +241,12 @@ export default class PitchTempoShifter {
             const remainingSec = when - self.audioContext.currentTime
             if (remainingSec <= 0.0005) {
               self._scheduledConnectTimer = null
-              self._connectSoundTouchPipeline(when)
+              // Stamp the real audible start when the timer overshoots; keeping
+              // the early `when` made the music clock lead the notes by ~5–10ms.
+              const startAt = remainingSec >= 0
+                ? when
+                : self.audioContext.currentTime
+              self._connectSoundTouchPipeline(startAt)
               return
             }
             const pollDelayMs = remainingSec > 0.05
@@ -267,6 +272,9 @@ export default class PitchTempoShifter {
   }
 
   getScheduledConnectTime() {
+    if (this._mode === 'direct' && this._directStartContextTime != null) {
+      return this._directStartContextTime
+    }
     return this._soundtouchStartContextTime
   }
 
@@ -360,10 +368,19 @@ export default class PitchTempoShifter {
       ? startWhen
       : this.audioContext.currentTime;
     this._directStartContextTime = when;
+    // Same clock field used by getScheduledConnectTime / count-in reuse so
+    // onMusicStart does not tear down a correctly pre-scheduled BufferSource.
+    this._soundtouchStartContextTime = when;
     const offset = Math.min(Math.max(0, this._directStartOffset), Math.max(0, this.duration - 0.001));
+    const self = this
     source.onended = () => {
-      if (!this._directStopIntent && this._onEnded) {
-        this._onEnded();
+      if (self._directSource === source) {
+        self._directSource = null
+        self._connected = false
+        self._stopTimeUpdates()
+      }
+      if (!self._directStopIntent && self._onEnded) {
+        self._onEnded();
       }
     };
     source.start(when, offset);

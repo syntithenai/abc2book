@@ -1,4 +1,4 @@
-import { compactPeaks, compactPitchPoints, downsamplePeaks, extractPitchPointsFromChannel, frequencyToMidiFloat, peaksDurationSeconds, preferMonophonicFundamental, resolvePitchTrackerOptions, resolvePlayalongTakePitchPoints } from './playalongWaveform'
+import { compactPeaks, compactPitchPoints, createLivePeakSampler, downsamplePeaks, extractPitchPointsFromChannel, frequencyToMidiFloat, LIVE_PEAK_INTERVAL_MS, peaksDurationSeconds, preferMonophonicFundamental, resolvePitchTrackerOptions, resolvePlayalongTakePitchPoints, stabilizePitchPointSeries } from './playalongWaveform'
 import { playalongTrackingOptions } from './playalongSettings'
 
 describe('playalongWaveform', function() {
@@ -25,6 +25,14 @@ describe('playalongWaveform', function() {
 
   test('peaksDurationSeconds uses the live sample interval', function() {
     expect(peaksDurationSeconds([{ min: 0, max: 0.1 }, { min: 0, max: 0.2 }], 50)).toBeCloseTo(0.1, 5)
+  })
+
+  test('createLivePeakSampler liveMode uses a faster sample interval', function() {
+    const sampler = createLivePeakSampler(null, { liveMode: true })
+    expect(sampler.intervalMs).toBe(LIVE_PEAK_INTERVAL_MS)
+    expect(LIVE_PEAK_INTERVAL_MS).toBeLessThan(50)
+    expect(typeof sampler.stop).toBe('function')
+    sampler.stop()
   })
 
   test('frequencyToMidiFloat maps A4 to MIDI 69', function() {
@@ -59,6 +67,36 @@ describe('playalongWaveform', function() {
       samples[i] = 0.6 * Math.sin(2 * Math.PI * fundamental * i / sampleRate)
     }
     expect(preferMonophonicFundamental(harmonic, samples, sampleRate)).toBeCloseTo(fundamental, 0)
+  })
+
+  test('stabilizePitchPointSeries rejects one-frame octave spikes', function() {
+    const points = [
+      { timeMs: 0, rawMidi: 69 },
+      { timeMs: 50, rawMidi: 69.2 },
+      { timeMs: 100, rawMidi: 69.1 },
+      { timeMs: 150, rawMidi: 81 }, // one-frame octave jump
+      { timeMs: 200, rawMidi: 69.3 },
+      { timeMs: 250, rawMidi: 69.0 },
+    ]
+    const stable = stabilizePitchPointSeries(points)
+    expect(stable.length).toBe(points.length)
+    expect(Math.abs(stable[3].rawMidi - 69)).toBeLessThan(3)
+    expect(Math.abs(stable[4].rawMidi - 69)).toBeLessThan(3)
+  })
+
+  test('resolvePlayalongTakePitchPoints prefers dense session points over blob extract', async function() {
+    const sessionPoints = []
+    for (let i = 0; i < 12; i += 1) {
+      sessionPoints.push({ timeMs: i * 50, rawMidi: 60 + (i % 2) * 0.1 })
+    }
+    const points = await resolvePlayalongTakePitchPoints(
+      { recordingId: 'r1' },
+      { r1: sessionPoints },
+      { r1: { fake: true } },
+      { tracking: playalongTrackingOptions({ cutoffPercent: 28, instrumentId: 'whistle', playbackGain: 0.12, repeats: 3 }) }
+    )
+    expect(points.length).toBe(sessionPoints.length)
+    expect(Math.abs(points[0].rawMidi - 60)).toBeLessThan(1)
   })
 
   test('resolvePitchTrackerOptions applies cutoff RMS and instrument Hz', function() {

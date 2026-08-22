@@ -78,6 +78,11 @@ import {
 } from './offlinePlayback'
 import { parseTempoBpm, tempoRangeLabel } from './tempoRange'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import {
+  applyTuneDisplaySettings,
+  extractAndStoreTuneDisplaySettings,
+  persistableTuneWithoutDisplaySettings,
+} from './tuneDisplaySettings'
 import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
 import {
   filterStateHasAnyFilters,
@@ -699,7 +704,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
 
   function savePersistedTuneSnapshot(tune) {
       if (tune && tune.id) {
-          persistedTunesRef.current[tune.id] = cloneTuneSnapshot(tune)
+          persistedTunesRef.current[tune.id] = cloneTuneSnapshot(
+            persistableTuneWithoutDisplaySettings(tune)
+          )
       }
   }
 
@@ -713,7 +720,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       var nextSnapshots = {}
       Object.values(nextTunes || {}).forEach(function(nextTune) {
           if (nextTune && nextTune.id) {
-              nextSnapshots[nextTune.id] = cloneTuneSnapshot(nextTune)
+              nextSnapshots[nextTune.id] = cloneTuneSnapshot(
+                persistableTuneWithoutDisplaySettings(nextTune)
+              )
           }
       })
       persistedTunesRef.current = nextSnapshots
@@ -741,6 +750,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       pauseSheetUpdates.current = true
       if (snapshot) {
           var restoredTune = createTune(cloneTuneSnapshot(snapshot), true)
+          applyTuneDisplaySettings(restoredTune)
           tunes[tuneId] = restoredTune
           indexes.indexTune(restoredTune)
           updateTunesHash(restoredTune)
@@ -824,7 +834,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         if (removedSrcs.length > 0) {
           clearCachedMediaForRemovedLinkSrcs(tune.id, removedSrcs)
         }
-      } 
+      }
+      // Capture any display fields on the in-memory tune into device-local storage
+      // before persistence strips them from IndexedDB / Drive.
+      extractAndStoreTuneDisplaySettings(tune)
       liveTunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
@@ -1390,7 +1403,10 @@ The main difference between the two functions is the additional condition in app
               Object.keys(updates || {}).concat(Object.keys(inserts || {}))
                 .concat(Object.keys(localUpdates || {}))
                 .forEach(function(id) {
-                  if (tunes[id]) syncTuneToCatalogStores(tunes[id])
+                  if (tunes[id]) {
+                    applyTuneDisplaySettings(tunes[id])
+                    syncTuneToCatalogStores(tunes[id])
+                  }
                 })
               purgeDeletedTunesStorage(Object.keys(deletes || {}))
               setTunes(tunes)
@@ -1640,7 +1656,10 @@ The main difference between the two functions is the additional condition in app
                 .concat(Object.keys(localUpdates || {}))
                 .concat(Object.keys(skippedUpdates || {}))
                 .forEach(function(id) {
-                  if (tunes[id]) syncTuneToCatalogStores(tunes[id])
+                  if (tunes[id]) {
+                    applyTuneDisplaySettings(tunes[id])
+                    syncTuneToCatalogStores(tunes[id])
+                  }
                 })
               purgeDeletedTunesStorage(Object.keys(deletes || {}))
               setTunes(tunes)

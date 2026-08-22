@@ -94,6 +94,26 @@ export default function PlayalongStaffPitchStrips(props) {
   const liveMusicStartOffsetSeconds = Number.isFinite(parseFloat(props.liveMusicStartOffsetSeconds))
     ? parseFloat(props.liveMusicStartOffsetSeconds)
     : 0
+  const livePitchPointsRef = useRef(livePitchPoints)
+  livePitchPointsRef.current = livePitchPoints
+  const getLivePitchSnapshot = useMemo(function() {
+    if (typeof props.getLivePitchSnapshot === 'function') return props.getLivePitchSnapshot
+    if (!isRecording) return null
+    return function() {
+      return {
+        points: livePitchPointsRef.current,
+        musicStartOffsetSeconds: liveMusicStartOffsetSeconds,
+        tempoBpm: liveTempoBpm > 0 ? liveTempoBpm : 100,
+        version: livePitchPointsRef.current.length,
+      }
+    }
+  }, [
+    props.getLivePitchSnapshot,
+    isRecording,
+    liveMusicStartOffsetSeconds,
+    liveTempoBpm,
+    props.livePitchVersion,
+  ])
   const overlayRef = useRef(null)
   const [decoded, setDecoded] = useState([])
   const [displayLines, setDisplayLines] = useState(null)
@@ -122,28 +142,10 @@ export default function PlayalongStaffPitchStrips(props) {
     })
   }, [decoded, hiddenKey])
 
-  const liveTraceKey = isRecording
-    ? String(livePitchPoints.length) + ':' + (livePitchPoints[0] && livePitchPoints[0].timeMs || 0) + ':'
-    + (livePitchPoints[livePitchPoints.length - 1] && livePitchPoints[livePitchPoints.length - 1].timeMs || 0)
-    : ''
-
-  const visibleDecodedWithLive = useMemo(function() {
-    if (!isRecording) return visibleDecoded
-    const take = {
-      recordingId: 'LIVE',
-      musicStartOffsetSeconds: liveMusicStartOffsetSeconds,
-      tempoBpm: liveTempoBpm > 0 ? liveTempoBpm : 100,
-    }
-    return visibleDecoded.concat([{
-      repIndex: -1,
-      take: take,
-      points: livePitchPoints,
-    }])
-  }, [visibleDecoded, isRecording, liveTraceKey, liveMusicStartOffsetSeconds, liveTempoBpm])
-
+  // Saved takes only — live tip is painted via rAF overlay, not rebuild.
   const compareLines = useMemo(function() {
-    return buildPlayalongCompareLines(extractedLines, visibleDecodedWithLive, props.playbackSpeed, soundingMap)
-  }, [extractedLines, visibleDecodedWithLive, props.playbackSpeed, soundingMap])
+    return buildPlayalongCompareLines(extractedLines, visibleDecoded, props.playbackSpeed, soundingMap)
+  }, [extractedLines, visibleDecoded, props.playbackSpeed, soundingMap])
 
   const takeKey = takes.map(function(t) { return t.recordingId }).join(',')
   const pitchKey = Object.keys(pitchPointsById).sort().join(',')
@@ -152,7 +154,7 @@ export default function PlayalongStaffPitchStrips(props) {
   const compareKey = compareLines.map(function(line) {
     return [
       line.patternDurationBeats,
-      playalongRollHeight(line.expectedNotes),
+      playalongRollHeight(line.expectedNotes, line.repTraces),
       (line.barBeats || []).length,
       (line.expectedNotes || []).length,
     ].join(':')
@@ -235,7 +237,7 @@ export default function PlayalongStaffPitchStrips(props) {
       const measured = measureAbcjsLineLayout(svg, overlay)
       if (stack) stack.classList.add(SLICED_CLASS)
       const next = compareLines.map(function(line, index) {
-        const height = playalongRollHeight(line.expectedNotes)
+        const height = playalongRollHeight(line.expectedNotes, line.repTraces)
         const slot = measured.find(function(item) {
           return item.lineIndex === (line.line && line.line.lineIndex != null ? line.line.lineIndex : index)
         }) || measured[index]
@@ -316,6 +318,9 @@ export default function PlayalongStaffPitchStrips(props) {
           <div
             key={'staff-pitch-' + (line.line && line.line.lineIndex != null ? line.line.lineIndex : index)}
             className="playalong-interleave-line"
+            data-line-index={line.line && line.line.lineIndex != null ? line.line.lineIndex : index}
+            data-slice-top={slot.sliceTop || 0}
+            data-slice-height={slot.sliceHeight || 0}
           >
             <PlayalongStaffSlice
               sliceTop={slot.sliceTop || 0}
@@ -333,8 +338,15 @@ export default function PlayalongStaffPitchStrips(props) {
               beatsPerBar={beatsPerBar}
               repTraces={line.repTraces}
               fitWidth={true}
-              height={slot.height || playalongRollHeight(line.expectedNotes)}
+              height={slot.height || playalongRollHeight(line.expectedNotes, line.repTraces)}
               label={'Heard pitch for notation line ' + (index + 1)}
+              liveOverlay={isRecording && !!getLivePitchSnapshot}
+              getLivePitchSnapshot={getLivePitchSnapshot}
+              line={line.line}
+              playbackSpeed={props.playbackSpeed || 1}
+              soundingMap={soundingMap}
+              liveTempoBpm={liveTempoBpm}
+              liveMusicStartOffsetSeconds={liveMusicStartOffsetSeconds}
             />
           </div>
         )

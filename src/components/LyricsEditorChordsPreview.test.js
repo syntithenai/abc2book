@@ -115,7 +115,7 @@ describe('LyricsEditorChordsPreview', function() {
     act(function() { root.unmount() })
   })
 
-  test('returns null when ABC notation has no chords', function() {
+  test('shows lyric preview without structure when ABC has no chords', function() {
     mockPreviewState.chordChart = ''
     const container = document.createElement('div')
     const root = createRoot(container)
@@ -132,6 +132,32 @@ describe('LyricsEditorChordsPreview', function() {
             abcTools: { emptyABC: function(name) { return 'X:1\nT:' + name + '\nK:C\n' } },
           }}
           lyricsText={'hello'}
+        />
+      )
+    })
+    expect(container.querySelector('[data-testid="lyrics-chords-preview"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="timed-lyrics-chords-view"]').textContent).toBe('hello')
+    expect(container.querySelector('[data-testid="lyrics-structure-chords"]')).toBeNull()
+    act(function() { root.unmount() })
+  })
+
+  test('returns null when there are no lyrics and no notation chords', function() {
+    mockPreviewState.chordChart = ''
+    const container = document.createElement('div')
+    const root = createRoot(container)
+    act(function() {
+      root.render(
+        <LyricsEditorChordsPreview
+          tune={{
+            id: 't1',
+            name: 'Amazing Grace',
+            words: [],
+            voices: { '1': { notes: ['C2 D2'] } },
+          }}
+          tunebook={{
+            abcTools: { emptyABC: function(name) { return 'X:1\nT:' + name + '\nK:C\n' } },
+          }}
+          lyricsText={''}
         />
       )
     })

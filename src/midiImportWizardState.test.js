@@ -18,19 +18,19 @@ describe('midiImportWizardState', function() {
     ],
   };
 
-  test('defaultSelectedTrackIds prefers recommended then fills by note count', function() {
+  test('defaultSelectedTrackIds uses recommended ids without selecting every pitched track', function() {
     const ids = defaultSelectedTrackIds(profile);
     expect(ids[0]).toBe(2);
     expect(ids[1]).toBe(5);
-    expect(ids[2]).toBe(0);
     expect(ids).not.toContain(1);
+    expect(ids).not.toContain(0);
   });
 
   test('initDraftFromProfile sets multi_voice when multiple pitched tracks selected', function() {
     const draft = initDraftFromProfile(createMidiImportDraft({}), profile);
     expect(draft.selectedTrackIds.length).toBeGreaterThanOrEqual(2);
     expect(draft.mode).toBe('multi_voice');
-    expect(draft.drumTrackModes[3]).toBe('percussion');
+    expect(draft.drumTrackModes[3]).toBe('skip');
   });
 
   test('countSelectedVoices includes pitched and percussion', function() {

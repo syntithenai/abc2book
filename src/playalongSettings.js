@@ -23,7 +23,7 @@ export const PLAYALONG_INSTRUMENTS = [
 const INSTRUMENT_IDS = PLAYALONG_INSTRUMENTS.map(function(item) { return item.id })
 
 export const DEFAULT_PLAYALONG_SETTINGS = {
-  cutoffPercent: 28,
+  cutoffPercent: 20,
   playbackGain: DEFAULT_PRACTICE_SETTINGS.practiceReferenceGain,
   instrumentId: 'whistle',
   repeats: 3,

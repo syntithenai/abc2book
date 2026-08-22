@@ -1,19 +1,26 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { toast } from 'react-toastify'
 import {
   appendPlayalongTake,
   enableNotationInViewMode,
   estimateMusicStartOffsetSeconds,
   isPlayalongMusicBeat,
+  livePlayalongMusicOffsetSeconds,
   persistPlayalongRecording,
   playalongMusicStartWallClockMs,
   resolvePlayalongMusicStartOffsetSeconds,
   refinePlayalongMusicStartOffsetSeconds,
+  residualPlayalongOutputLatencySeconds,
+  getPlayalongOutputLatencySeconds,
+  isHighPlayalongOutputLatency,
+  savedPlayalongMusicOffsetSeconds,
   removePlayalongTake,
   clearPlayalongTakesPatch,
   mergePlayalongTakes,
   deleteRecording,
   normalizePlayalongTakes,
   shouldContinuePlayalongLoop,
+  applyPlayalongTakePitchPct,
 } from './playalongTakes'
 import { clampReferenceGain } from './practiceSessionSettings'
 import {
@@ -83,6 +90,7 @@ export function playalongMidiStartOptions(tune, tempoBpm) {
     tune: tune,
     startBeat: 0,
     midiOnly: true,
+    melodyOnly: true,
     fromStart: true,
     restart: true,
     fresh: true,
@@ -148,10 +156,19 @@ export default function usePlayalongRecordSession(options) {
   const [midiEngineActive, setMidiEngineActive] = useState(false)
   const [isSavingTake, setIsSavingTake] = useState(false)
   const [livePitchPoints, setLivePitchPoints] = useState([])
+  const [livePitchVersion, setLivePitchVersion] = useState(0)
   const [liveTempoBpm, setLiveTempoBpm] = useState(0)
   const [liveMusicStartOffsetSeconds, setLiveMusicStartOffsetSeconds] = useState(0)
 
   const isRecordingRef = useRef(false)
+  const livePitchPointsRef = useRef([])
+  const livePitchVersionRef = useRef(0)
+  const liveTempoBpmRef = useRef(0)
+  const liveMusicOffsetRef = useRef(0)
+  const liveEstimateOffsetRef = useRef(0)
+  const outputLatencySecondsRef = useRef(0)
+  const outputLatencyAlreadyInTimelineRef = useRef(false)
+  const outputLatencyAppliedSecondsRef = useRef(0)
   const tempoBpmOverrideRef = useRef(null)
   const recorderRef = useRef(null)
   const streamRef = useRef(null)
@@ -238,11 +255,32 @@ export default function usePlayalongRecordSession(options) {
     streamRef.current = null
   }, [])
 
+  function currentOutputLatencyOptions() {
+    return {
+      outputLatencySeconds: outputLatencySecondsRef.current,
+      outputLatencyAlreadyInTimeline: outputLatencyAlreadyInTimelineRef.current,
+      outputLatencyAppliedSeconds: outputLatencyAppliedSecondsRef.current,
+    }
+  }
+
+  function refreshOutputLatencyFromMedia() {
+    const media = mediaControllerRef.current
+    const reported = getPlayalongOutputLatencySeconds({
+      mediaController: media,
+      getAudioContext: media && typeof media.getAudioContext === 'function'
+        ? function() { return media.getAudioContext() }
+        : null,
+    })
+    if (reported > 0) outputLatencySecondsRef.current = reported
+    return reported
+  }
+
   const finishRecording = useCallback(function(blob, durationSeconds, livePeaks, livePitchPoints, samplerStats) {
     const current = tuneRef.current
     const book = tunebookRef.current
     if (!current || !blob) return Promise.resolve()
     const media = mediaControllerRef.current
+    refreshOutputLatencyFromMedia()
     const estimatedOffsetSeconds = estimateMusicStartOffsetSeconds(
         current,
         book,
@@ -255,6 +293,7 @@ export default function usePlayalongRecordSession(options) {
       playbackStartedAtMs: playbackStartedAtRef.current,
       estimatedOffsetSeconds: estimatedOffsetSeconds,
     })
+    const seededOffset = savedPlayalongMusicOffsetSeconds(resolvedOffset, currentOutputLatencyOptions())
     const tempoBpmFromTune = book && book.abcTools && typeof book.abcTools.getTempo === 'function'
       ? book.abcTools.getTempo(current)
       : 100
@@ -264,7 +303,7 @@ export default function usePlayalongRecordSession(options) {
     const peaks = compactPeaks(livePeaks || [])
     const pitchPoints = compactPitchPoints(Array.isArray(livePitchPoints) ? livePitchPoints : [])
     const firstNotes = expectedNotesFromPlayalongTune(current, 0)
-    const offset = refinePlayalongMusicStartOffsetSeconds(resolvedOffset, pitchPoints, {
+    const offset = refinePlayalongMusicStartOffsetSeconds(seededOffset, pitchPoints, {
       firstExpectedMidi: firstNotes[0] && firstNotes[0].midi,
     })
     const peakDuration = peaksDurationSeconds(livePeaks)
@@ -280,6 +319,7 @@ export default function usePlayalongRecordSession(options) {
       duration: duration,
       musicStartOffsetSeconds: offset,
       tempoBpm: tempoBpm,
+      outputLatencySeconds: residualPlayalongOutputLatencySeconds(currentOutputLatencyOptions()),
       peaks: peaks,
       pitchPoints: pitchPoints,
     }).then(function(saved) {
@@ -318,7 +358,9 @@ export default function usePlayalongRecordSession(options) {
     if (peakSamplerRef.current && typeof peakSamplerRef.current.stop === 'function') {
       peakSamplerRef.current.stop()
     }
-    peakSamplerRef.current = createLivePeakSampler(stream, trackingOptionsRef.current)
+    peakSamplerRef.current = createLivePeakSampler(stream, Object.assign({}, trackingOptionsRef.current, {
+      liveMode: true,
+    }))
     peakSamplerStartedAtRef.current = peakSamplerRef.current.startedAtMs || nowMs()
     let recorder
     try {
@@ -331,7 +373,9 @@ export default function usePlayalongRecordSession(options) {
     recorder.ondataavailable = function(e) {
       if (e.data && e.data.size) chunksRef.current.push(e.data)
     }
-    recorder.start(250)
+    // No timeslice: one continuous Blob on stop. Short timeslices make WebM
+    // playback stutter / cut in and out when reviewing takes.
+    recorder.start()
   }, [])
 
   const restartPlayalongMidiForTake = useCallback(function() {
@@ -370,6 +414,8 @@ export default function usePlayalongRecordSession(options) {
     musicStartedAtRef.current = 0
     playbackStartedAtRef.current = 0
     peakSamplerStartedAtRef.current = 0
+    outputLatencyAlreadyInTimelineRef.current = false
+    outputLatencyAppliedSecondsRef.current = 0
     stoppingRef.current = false
     setIsRecording(true)
     chunksRef.current = []
@@ -387,6 +433,13 @@ export default function usePlayalongRecordSession(options) {
 
     const media = mediaControllerRef.current
     resumeSynthFromGesture(media)
+    const reportedLatency = refreshOutputLatencyFromMedia()
+    if (!reuseStream && isHighPlayalongOutputLatency(reportedLatency)) {
+      toast.warning(
+        'High audio output latency detected (common with Bluetooth). For accurate note-onset graphs, use wired speakers or headphones.',
+        { autoClose: 6000, toastId: 'playalong-output-latency' }
+      )
+    }
 
     if (reuseStream && streamRef.current) {
       armRecorder(streamRef.current)
@@ -402,16 +455,33 @@ export default function usePlayalongRecordSession(options) {
       return
     }
 
-    navigator.mediaDevices.getUserMedia({ audio: true }).then(function(stream) {
+    // Disable browser voice processing: with MIDI through speakers, echo
+    // cancellation / AGC punch holes in the take and sound like cut-outs on play.
+    navigator.mediaDevices.getUserMedia({
+      audio: {
+        echoCancellation: false,
+        noiseSuppression: false,
+        autoGainControl: false,
+      },
+    }).then(function(stream) {
       if (!isRecordingRef.current || !loopActiveRef.current) {
         stopStream(stream)
         return
       }
       armRecorder(stream)
     }).catch(function(err) {
-      setError(err && err.message ? err.message : 'Microphone permission denied')
-      stopPlayalongMidi(media)
-      finishSession()
+      // Some browsers reject the unconstrained music profile; fall back.
+      return navigator.mediaDevices.getUserMedia({ audio: true }).then(function(stream) {
+        if (!isRecordingRef.current || !loopActiveRef.current) {
+          stopStream(stream)
+          return
+        }
+        armRecorder(stream)
+      }).catch(function(fallbackErr) {
+        setError((fallbackErr && fallbackErr.message) || (err && err.message) || 'Microphone permission denied')
+        stopPlayalongMidi(media)
+        finishSession()
+      })
     })
   }, [armRecorder, finishSession, turnNotationOn, restartPlayalongMidiForTake])
 
@@ -566,7 +636,17 @@ export default function usePlayalongRecordSession(options) {
   }, [finishSession])
 
   const handlePracticeBeat = useCallback(function(beat) {
-    if (!isRecordingRef.current || musicStartedAtRef.current > 0) return
+    if (!isRecordingRef.current) return
+    if (beat && Number.isFinite(parseFloat(beat.outputLatencySeconds))) {
+      outputLatencySecondsRef.current = Math.max(0, parseFloat(beat.outputLatencySeconds))
+    }
+    if (beat && beat.outputLatencyAlreadyInTimeline != null) {
+      outputLatencyAlreadyInTimelineRef.current = !!beat.outputLatencyAlreadyInTimeline
+    }
+    if (beat && Number.isFinite(parseFloat(beat.outputLatencyAppliedSeconds))) {
+      outputLatencyAppliedSecondsRef.current = Math.max(0, parseFloat(beat.outputLatencyAppliedSeconds))
+    }
+    if (musicStartedAtRef.current > 0) return
     if (!isPlayalongMusicBeat(beat)) return
     const capturedAt = nowMs()
     musicStartedAtRef.current = playalongMusicStartWallClockMs(capturedAt, beat)
@@ -610,10 +690,16 @@ export default function usePlayalongRecordSession(options) {
     }
   }, [isRecording, mediaController && mediaController.isPlaying, stop])
 
-  // Live pitch graph while recording: sampler produces pitchPoints every ~50ms.
+  // Live pitch bus: sampler → ref every tick; React notified ~6 Hz for layout only.
   useEffect(function() {
     if (!isRecording) {
+      livePitchPointsRef.current = []
+      livePitchVersionRef.current = 0
+      liveMusicOffsetRef.current = 0
+      liveTempoBpmRef.current = 0
+      liveEstimateOffsetRef.current = 0
       setLivePitchPoints([])
+      setLivePitchVersion(0)
       setLiveTempoBpm(0)
       setLiveMusicStartOffsetSeconds(0)
       return undefined
@@ -627,39 +713,63 @@ export default function usePlayalongRecordSession(options) {
     const tempoBpm = Number.isFinite(tempoBpmOverrideRef.current) && tempoBpmOverrideRef.current > 0
       ? tempoBpmOverrideRef.current
       : tempoBpmFromTune
+    liveTempoBpmRef.current = tempoBpm
     setLiveTempoBpm(tempoBpm)
-    const baseOffsetSeconds = estimateMusicStartOffsetSeconds(
+    const estimated = estimateMusicStartOffsetSeconds(
       current,
       book,
       media && media.playbackSpeed,
       tempoBpmOverrideRef.current
     )
-    const firstNotes = expectedNotesFromPlayalongTune(current, 0)
-    const firstExpectedMidi = firstNotes[0] && firstNotes[0].midi
+    liveEstimateOffsetRef.current = estimated
+    refreshOutputLatencyFromMedia()
+    liveMusicOffsetRef.current = livePlayalongMusicOffsetSeconds(
+      estimated,
+      currentOutputLatencyOptions()
+    )
+    setLiveMusicStartOffsetSeconds(liveMusicOffsetRef.current)
 
     let cancelled = false
-    const intervalMs = 100
+    let lastNotifyAt = 0
+    const notifyMs = 160
+    const pollMs = 20
     const timer = setInterval(function() {
       if (cancelled) return
       const sampler = peakSamplerRef.current
       const raw = sampler && Array.isArray(sampler.pitchPoints) ? sampler.pitchPoints : null
-      const points = Array.isArray(raw) ? compactPitchPoints(raw.slice(), 1200) : []
-      setLivePitchPoints(points)
-      if (points.length) {
-        const refined = refinePlayalongMusicStartOffsetSeconds(baseOffsetSeconds, points, {
-          firstExpectedMidi: firstExpectedMidi,
-        })
-        setLiveMusicStartOffsetSeconds(refined)
-      } else {
-        setLiveMusicStartOffsetSeconds(baseOffsetSeconds)
-      }
-    }, intervalMs)
+      const points = Array.isArray(raw) ? raw : []
+      livePitchPointsRef.current = points
+      livePitchVersionRef.current += 1
+      const resolved = resolvePlayalongMusicStartOffsetSeconds({
+        samplerStartedAtMs: peakSamplerStartedAtRef.current,
+        musicStartedAtMs: musicStartedAtRef.current,
+        playbackStartedAtMs: playbackStartedAtRef.current,
+        estimatedOffsetSeconds: liveEstimateOffsetRef.current,
+      })
+      const offset = livePlayalongMusicOffsetSeconds(resolved, currentOutputLatencyOptions())
+      liveMusicOffsetRef.current = offset
+      const now = nowMs()
+      if (now - lastNotifyAt < notifyMs) return
+      lastNotifyAt = now
+      setLivePitchVersion(livePitchVersionRef.current)
+      setLivePitchPoints(compactPitchPoints(points.slice(), 400))
+      setLiveMusicStartOffsetSeconds(offset)
+    }, pollMs)
 
     return function() {
       cancelled = true
       clearInterval(timer)
     }
   }, [isRecording])
+
+  const getLivePitchSnapshot = useCallback(function() {
+    return {
+      points: livePitchPointsRef.current,
+      musicStartOffsetSeconds: liveMusicOffsetRef.current,
+      tempoBpm: liveTempoBpmRef.current,
+      version: livePitchVersionRef.current,
+    }
+  }, [])
 
   useEffect(function() {
     return function() {
@@ -676,12 +786,28 @@ export default function usePlayalongRecordSession(options) {
     }
   }, [])
 
+
+  const applyTakePitchPct = useCallback(function(recordingId, pitchPct) {
+    const current = tuneRef.current
+    const baseTakes = sessionTakesAccRef.current.length
+      ? sessionTakesAccRef.current
+      : normalizePlayalongTakes(current && current.playalongTakes)
+    const applied = applyPlayalongTakePitchPct(baseTakes, recordingId, pitchPct)
+    if (!applied.changed) return applied.takes
+    sessionTakesAccRef.current = applied.takes
+    setTakesState(applied.takes)
+    saveTunePatch({ playalongTakes: applied.takes })
+    return applied.takes
+  }, [saveTunePatch])
+
   return {
     isRecording: isRecording,
     isSavingTake: isSavingTake,
     compareActive: compareActive,
     referenceGain: referenceGain,
     livePitchPoints: livePitchPoints,
+    livePitchVersion: livePitchVersion,
+    getLivePitchSnapshot: getLivePitchSnapshot,
     liveTempoBpm: liveTempoBpm,
     liveMusicStartOffsetSeconds: liveMusicStartOffsetSeconds,
     blobById: blobById,
@@ -692,6 +818,7 @@ export default function usePlayalongRecordSession(options) {
     loopMaxTakes: loopMaxTakes,
     midiEngineActive: midiEngineActive,
     takes: takesState,
+    applyTakePitchPct: applyTakePitchPct,
     start: start,
     stop: stop,
     toggle: toggle,

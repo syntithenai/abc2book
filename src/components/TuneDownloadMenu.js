@@ -264,6 +264,7 @@ export default function TuneDownloadDropdown({
   buttonVariant,
   buttonClassName,
   labelClassName,
+  hideLabel,
   user,
   allowRestrictedFormats,
 }) {
@@ -296,7 +297,7 @@ export default function TuneDownloadDropdown({
         disabled={!!busyFormatId}
       >
         {icons.save}
-        <span className={toggleLabelClassName}> Download</span>
+        {!hideLabel ? <span className={toggleLabelClassName}> Download</span> : null}
       </Dropdown.Toggle>
       <Dropdown.Menu
         className="tune-download-dropdown-menu"

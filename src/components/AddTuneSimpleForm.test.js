@@ -105,13 +105,22 @@ describe('AddTuneSimpleForm', function() {
         tunes: {},
         candidateId: 'add-1',
         onChange: jest.fn(),
+        addFromToolbar: React.createElement('div', { 'data-testid': 'fake-add-from' }, 'Add From'),
       }))
     })
     expect(container.querySelector('[data-testid="field-search-button"]').disabled).toBe(false)
     expect(container.querySelector('[data-testid="add-tune-youtube-block"]')).toBeTruthy()
     expect(container.querySelector('.add-tune-books-tags')).toBeTruthy()
+    expect(container.querySelector('.add-tune-title-block')).toBeTruthy()
+    expect(container.querySelector('[data-testid="add-from-in-form"]')).toBeTruthy()
+    expect(container.textContent).toContain('Already In Your Library')
     expect(container.querySelector('[data-testid="add-tune-files-block"]')).toBeNull()
     expect(container.querySelector('[data-testid="add-tune-media-block"]')).toBeNull()
+    const titleEl = container.querySelector('[data-testid="add-tune-title"]')
+    const youtubeEl = container.querySelector('[data-testid="add-tune-youtube-block"]')
+    const addFromEl = container.querySelector('[data-testid="add-from-in-form"]')
+    expect(titleEl.compareDocumentPosition(addFromEl) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(addFromEl.compareDocumentPosition(youtubeEl) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
   })
 
   test('shows Files and Audio blocks only when they have values', function() {

@@ -79,7 +79,14 @@ function lyricsTextFromChoice(choice) {
   if (value && typeof value === 'object') {
     if (typeof value.text === 'string') return value.text
     if (Array.isArray(value.lines)) return value.lines.join('\n')
+    // Chord-sheet candidates (preferChords lyrics jobs) store lyric/chord
+    // text on chordText / chordProSource rather than text/lines.
+    if (typeof value.chordText === 'string' && value.chordText.trim()) return value.chordText
+    if (typeof value.chordProSource === 'string' && value.chordProSource.trim()) {
+      return value.chordProSource
+    }
   }
+  if (typeof choice.chordText === 'string' && choice.chordText.trim()) return choice.chordText
   return choice.preview != null ? String(choice.preview) : ''
 }
 

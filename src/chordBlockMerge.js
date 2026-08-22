@@ -1388,6 +1388,26 @@ function editableChordBlocks(sections) {
 export function chordBlockCacheMatchesMelody(noteLines, cacheBlocks) {
   if (!Array.isArray(cacheBlocks) || !cacheBlocks.length) return false
   const strains = splitMelodyStrainsWithBarlines(noteLines)
+  // Wipe-with-revisits builds one strain per section (including revisits).
+  if (cacheBlocks.length === strains.length) {
+    const used = {}
+    let allAnchored = true
+    for (let i = 0; i < cacheBlocks.length; i++) {
+      const idx = cacheBlocks[i] && cacheBlocks[i].melodyStrainIndex
+      if (idx == null || idx < 0 || idx >= strains.length || used[idx]) {
+        allAnchored = false
+        break
+      }
+      used[idx] = true
+      const strainBars = extractBarsFromMelodyText(strains[idx].text).length
+      const chartBars = countChartBars(cacheBlocks[i].chart)
+      if (chartBars !== strainBars) {
+        allAnchored = false
+        break
+      }
+    }
+    if (allAnchored && Object.keys(used).length === strains.length) return true
+  }
   const editable = editableChordBlocks(cacheBlocks)
   if (editable.length !== strains.length) return false
   const used = {}
@@ -2502,6 +2522,14 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   const list = Array.isArray(blocks) ? blocks : []
   const prefixSource = prefixSourceForMerge(abcString, abcTools, opts)
 
+  const probeNotes = noteLinesForMelodyMerge(primaryVoiceNotesForMerge(abcString, abcTools, opts))
+  const shouldWipe = !!opts.wipeNotation
+    || !noteLinesHaveRealMelody(probeNotes)
+    || !!(opts.tune && opts.tune.timingScaffold)
+
+  // Wipe rebuilds a rest scaffold for every section occurrence, including
+  // chartRevisit stanzas, so lyric lines keep matching chord bars (e.g. a
+  // later Verse that reuses an earlier chart still needs its own bars).
   const grid = rebuildChordGridFromSections(list.map(function(b) {
     // Empty editor slots use `|` as a placeholder; merge needs a real rest bar
     // so we do not corrupt neighbouring scaffold bars.
@@ -2513,12 +2541,7 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
         tempo: b.tempo,
       chartRevisit: !!b.chartRevisit,
     }
-  }))
-
-  const probeNotes = noteLinesForMelodyMerge(primaryVoiceNotesForMerge(abcString, abcTools, opts))
-  const shouldWipe = !!opts.wipeNotation
-    || !noteLinesHaveRealMelody(probeNotes)
-    || !!(opts.tune && opts.tune.timingScaffold)
+  }), shouldWipe ? { includeRevisits: true } : undefined)
 
   if (shouldWipe) {
     const header = headerFromAbc(abcString, abcTools)
@@ -3121,10 +3144,16 @@ export function applyBlockMergeToTune(tune, options) {
     ? blocks.map(function(b, index) {
       if (!b) return b
       const key = b.key || sectionKeyForIndex(index, b.type || b.lyricSectionType, b.header || b.lyricSectionHeader)
-      return Object.assign({}, b, {
+      const next = Object.assign({}, b, {
         key: key,
         id: b.id || key,
       })
+      // Wipe expands every section (including revisits) into its own strain —
+      // anchor each block so the chord-block cache still matches melody.
+      if (result.wiped) {
+        next.melodyStrainIndex = index
+      }
+      return next
     })
     : extracted.blocks
   if (Array.isArray(editorBlocks)) {

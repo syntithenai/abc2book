@@ -17,10 +17,8 @@ PLAYWRIGHT_ENABLED = os.getenv("PLAYWRIGHT_ENABLED", "true").strip().lower() not
 PLAYWRIGHT_TIMEOUT_MS = max(1000, int(os.getenv("PLAYWRIGHT_TIMEOUT_MS", "20000")))
 
 # Hosts that must never use Playwright (hard anti-bot / manual paste only).
-MANUAL_ONLY_HOST_SUFFIXES = (
-    "tabs.ultimate-guitar.com",
-    "ultimate-guitar.com",
-)
+# Empty: Ultimate Guitar is scrapable via js-store JSON (Playwright is a soft fallback).
+MANUAL_ONLY_HOST_SUFFIXES = ()
 
 # Soft JS / empty-SSR hosts that may benefit from a real browser after httpx fails.
 PLAYWRIGHT_ELIGIBLE_HOST_SUFFIXES = (
@@ -43,6 +41,8 @@ PLAYWRIGHT_ELIGIBLE_HOST_SUFFIXES = (
     "metrolyrics.com",
     "songlyrics.com",
     "musescore.com",
+    "tabs.ultimate-guitar.com",
+    "ultimate-guitar.com",
 )
 
 HOST_WAIT_SELECTORS = {
@@ -57,6 +57,8 @@ HOST_WAIT_SELECTORS = {
     "letras.mus.br": ".lyric-original, .cnt-letra",
     "lyricsmode.com": "#lyrics_text, .ui-annotatable",
     "chordie.com": "pre, #chordpro",
+    "tabs.ultimate-guitar.com": ".js-store[data-content]",
+    "ultimate-guitar.com": ".js-store[data-content]",
 }
 
 _browser = None

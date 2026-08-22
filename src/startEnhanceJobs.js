@@ -5,9 +5,27 @@ import { isTuneFieldEmptyForKind } from './fieldLookupApplyUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
 import {
   LOOKUP_FIELD_KIND_BY_OPTION,
+  filterEnhanceSelectionByAvailability,
   mediaAnalysisSuggestionKindsFromSelection,
   selectedEnhanceOptionIds,
 } from './enhanceOptions'
+
+function availabilityContextFromOptions(options) {
+  if (!options) return null
+  if (options.availabilityContext) return options.availabilityContext
+  if (options.features == null && options.resolverAvailable == null
+    && options.canResearchBackground == null && options.canAffordComposer == null
+    && options.hasScannableLinkedMedia == null) {
+    return null
+  }
+  return {
+    resolverAvailable: options.resolverAvailable,
+    features: options.features || {},
+    canResearchBackground: options.canResearchBackground,
+    canAffordComposer: options.canAffordComposer,
+    hasScannableLinkedMedia: options.hasScannableLinkedMedia,
+  }
+}
 
 const FIELD_LOOKUP_LABELS = {
   artists: 'artist',
@@ -41,11 +59,13 @@ function accessTokenFrom(options) {
   return token.access_token ? token.access_token : token
 }
 
-function enqueueFieldLookup(options, tune, kind) {
+function enqueueFieldLookup(options, tune, kind, jobOptions) {
   const title = tune && tune.name ? String(tune.name).trim() : ''
   if (!title || !tune || !tune.id) return null
   const fieldLookupQueue = options.fieldLookupQueue
   if (!fieldLookupQueue || typeof fieldLookupQueue.enqueueLookup !== 'function') return null
+  const extraOptions = jobOptions && typeof jobOptions === 'object' ? Object.assign({}, jobOptions) : {}
+  if (kind === 'links') extraOptions.alwaysPick = true
   return fieldLookupQueue.enqueueLookup({
     tuneId: tune.id,
     kind: kind,
@@ -53,7 +73,7 @@ function enqueueFieldLookup(options, tune, kind) {
     artist: primaryArtist(tune),
     tuneName: title,
     accessToken: accessTokenFrom(options),
-    options: kind === 'links' ? { alwaysPick: true } : undefined,
+    options: Object.keys(extraOptions).length ? extraOptions : undefined,
     searchOptions: {
       resolverAvailable: options.checked ? options.resolverAvailable : undefined,
       abcTools: options.tunebook && options.tunebook.abcTools ? options.tunebook.abcTools : null,
@@ -67,11 +87,13 @@ function enqueueFieldLookup(options, tune, kind) {
 function startPlaybackRegions(options, tunes, result) {
   const maybeAutoScan = options.maybeAutoScan
   if (typeof maybeAutoScan !== 'function') return
+  const preferredLinkIndex = options.audioLinkIndex
   tunes.forEach(function(tune) {
     if (!tune || !tune.id) return
     const links = Array.isArray(tune.links) ? tune.links : []
     let tuneStarted = false
     links.forEach(function(link, linkIndex) {
+      if (preferredLinkIndex != null && Number(preferredLinkIndex) !== linkIndex) return
       if (!isPlayRangeScannableLink(link)) return
       maybeAutoScan(tune.id, linkIndex, link, {
         force: true,
@@ -90,17 +112,22 @@ function startAudioAnalysis(options, tunes, selection, result) {
   if (!suggestionKinds.length) return
   const analysisDeps = options.analysisDeps
   if (!analysisDeps) return
+  const preferredLinkIndex = options.audioLinkIndex
   tunes.forEach(function(tune) {
     if (!tune || !tune.id) return
     if (!tuneHasAudioForFix(tune, options.tunebook)) {
       result.skippedNoAudio += 1
       return
     }
-    requestTuneMediaAnalysis(analysisDeps, tune.id, {
+    const requestOptions = {
       tune: tune,
       force: true,
       suggestionKinds: suggestionKinds,
-    })
+    }
+    if (preferredLinkIndex != null && preferredLinkIndex !== '') {
+      requestOptions.linkIndex = Number(preferredLinkIndex)
+    }
+    requestTuneMediaAnalysis(analysisDeps, tune.id, requestOptions)
     result.analysis += 1
     result.started += 1
   })
@@ -113,7 +140,9 @@ export function startEnhanceJobs(tunes, selection, options) {
   const result = emptyResult()
   const opts = options || {}
   const list = Array.isArray(tunes) ? tunes.filter(function(tune) { return !!(tune && tune.id) }) : []
-  const selectedIds = selectedEnhanceOptionIds(selection)
+  const availabilityContext = availabilityContextFromOptions(opts)
+  const filteredSelection = filterEnhanceSelectionByAvailability(selection, availabilityContext)
+  const selectedIds = selectedEnhanceOptionIds(filteredSelection)
   if (!list.length || !selectedIds.length) return result
 
   const selected = {}
@@ -132,6 +161,16 @@ export function startEnhanceJobs(tunes, selection, options) {
 
     Object.keys(LOOKUP_FIELD_KIND_BY_OPTION).forEach(function(optionId) {
       if (!selected[optionId] || !title) return
+      // Lyrics enhance is one integrated search: prefer chord sheets (lyrics+chords),
+      // then fall back to plain lyrics inside the same job.
+      if (optionId === 'lookupLyrics') {
+        const id = enqueueFieldLookup(opts, tune, 'lyrics', { preferChords: true })
+        if (id) {
+          result.fieldLookups += 1
+          result.started += 1
+        }
+        return
+      }
       const id = enqueueFieldLookup(opts, tune, LOOKUP_FIELD_KIND_BY_OPTION[optionId])
       if (id) {
         result.fieldLookups += 1

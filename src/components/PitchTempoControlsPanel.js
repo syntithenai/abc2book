@@ -145,11 +145,11 @@ export default function PitchTempoControlsPanel({
         <h6>Tempo</h6>
         <div className="control-display">
           <span className="display-value">{tempoPercent}%</span>
-          <span>{globalTempoActive ? 'Forced from Account' : '100% = normal'}</span>
+          <span>{globalTempoActive ? 'Forced by Tempo Override' : '100% = normal'}</span>
         </div>
         {globalTempoActive ? (
           <p className="pitch-tempo-global-override-note">
-            Account playback tempo is set to {globalTempoPercent}%. Song tempo is ignored until that slider is Off.
+            Tempo Override is set to {globalTempoPercent}%. Song tempo is ignored until that slider is Off.
           </p>
         ) : null}
         <input

@@ -1039,6 +1039,20 @@ export default function ChordsWizard(props) {
       )
       return
     }
+    // Drop stale editor drafts/timers so empty textareas cannot mask or
+    // autosave-over the charts we just committed from lyrics.
+    Object.keys(sectionSaveTimers.current).forEach(function(key) {
+      window.clearTimeout(sectionSaveTimers.current[key])
+      delete sectionSaveTimers.current[key]
+    })
+    if (wholeSaveTimer.current) {
+      window.clearTimeout(wholeSaveTimer.current)
+      wholeSaveTimer.current = null
+    }
+    setSectionDrafts({})
+    setWholeDraft(null)
+    setDraftWarnings({})
+    setSavingLabel('')
     localSectionsRef.current = true
     ownChordSaveRef.current = true
     melodyHashRef.current = hashAbcNotes(primaryNoteLines())
@@ -1048,9 +1062,9 @@ export default function ChordsWizard(props) {
       const abcSection = fromAbc[index]
       if (!abcSection) return pasteSection
       return Object.assign({}, abcSection, {
-        chart: pasteSection.chartRevisit
-          ? (abcSection.chart || pasteSection.chart)
-          : (pasteSection.chart || abcSection.chart),
+        // Prefer paste charts — ABC reload can scramble bars when revisits were
+        // previously omitted from the wipe grid.
+        chart: pasteSection.chart || abcSection.chart,
         chartRevisit: pasteSection.chartRevisit,
         header: pasteSection.header || abcSection.header,
         title: pasteSection.title || abcSection.title,

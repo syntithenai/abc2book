@@ -3,6 +3,7 @@ import { getImportReviewSession } from './importReviewSessionStore'
 import { isAddDraftCandidate, isReviewSessionActive } from './importReviewSession'
 import { getAllMediaAnalysisJobs, getMediaAnalysisJob } from './mediaAnalysisJobs'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
+import { searchableSuggestions } from './fieldSuggestionsUtils'
 import { getFileOcrReviewSummary } from './fileOcrJobs'
 
 const reviewedMediaAnalysisTuneIds = new Set()
@@ -68,9 +69,13 @@ export function getBackgroundReviewSummary() {
     // Completed analysis persists field suggestions; it is not Import Review work.
   })
 
-  // Field-lookup suggestions are revisited on the edit form / Review suggestions
-  // page — they are not Import Review "ready" items.
-  const fieldLookupAwaitingJobs = []
+  // Field-lookup suggestions are reviewed on /review (Suggestions), not Import Review.
+  // Count tune-scoped awaiting jobs that still have searchable suggestions.
+  const fieldLookupAwaitingJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+    if (!job || job.status !== 'awaiting' || !job.tuneId) return false
+    if (job.reviewCandidateId) return false
+    return searchableSuggestions(job).length > 0
+  })
   const fieldLookupProcessing = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
     if (!job || !job.tuneId) return false
     return job.status === 'pending' || job.status === 'running'
@@ -78,10 +83,11 @@ export function getBackgroundReviewSummary() {
 
   const fileOcrSummary = getFileOcrReviewSummary()
 
-  const ready = importReady + fileOcrSummary.ready.length
+  const ready = importReady + fileOcrSummary.ready.length + fieldLookupAwaitingJobs.length
   const processing = importProcessing + mediaProcessing.length + fieldLookupProcessing.length + fileOcrSummary.processing.length
   const total = importTotal + mediaProcessing.length
     + fieldLookupProcessing.length
+    + fieldLookupAwaitingJobs.length
     + fileOcrSummary.total
 
   return {

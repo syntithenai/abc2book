@@ -3,6 +3,8 @@ import {
   charOffsetToWordIndex,
   wrapChordGridBars,
   lineHasChordProInlineChords,
+  linesHaveChordProInlineChords,
+  hasChordLines,
 } from './chordSheetUtils'
 import { normalizeLyricStructure } from './lyricStructureUtils'
 import { anchorsFromCowPair, anchorsFromChordProLine } from './inlineChordTimingUtils'
@@ -287,4 +289,35 @@ export function sheetLinesToLyricLines(sheetLines) {
     result.pop()
   }
   return result
+}
+
+/**
+ * Prefer lyrics with chords embedded (ChordPro `[Am]word`, else chords-over-words
+ * rows). Falls back to plain lyric lines when the sheet has no chord placement.
+ *
+ * Chords-over-words sheets are kept as-is (not force-converted to ChordPro) so
+ * column-aligned chord rows stay readable in the lyrics editor.
+ */
+export function sheetLinesToEmbeddedLyricLines(sheetLines) {
+  const lines = Array.isArray(sheetLines)
+    ? sheetLines.map(function(line) { return String(line == null ? '' : line) })
+    : String(sheetLines || '').split(/\r?\n/)
+  if (!lines.length) return []
+
+  if (linesHaveChordProInlineChords(lines)) {
+    return trimBlankEdges(lines)
+  }
+
+  if (hasChordLines(lines)) {
+    return trimBlankEdges(lines)
+  }
+
+  return sheetLinesToLyricLines(lines)
+}
+
+function trimBlankEdges(lines) {
+  const out = lines.slice()
+  while (out.length && !String(out[0]).trim()) out.shift()
+  while (out.length && !String(out[out.length - 1]).trim()) out.pop()
+  return out
 }

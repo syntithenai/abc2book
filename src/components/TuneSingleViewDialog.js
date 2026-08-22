@@ -71,7 +71,8 @@ export function TuneSingleViewContent(props) {
   const notationTune = filterTuneVoices(tune, visibleVoiceKeys);
   const tuneTranspose = Number(tune.transpose) || 0;
   const chordTranspose = chordTransposeWithCapo(tuneTranspose, capoState.capoOffset, capoState.capoEnabled);
-  const notationVisualTranspose = chordTranspose;
+  // Capo only changes chord fingering names — notation + MIDI stay on tune.transpose.
+  const notationVisualTranspose = tuneTranspose;
   const notationFitMode = getTuneNotationFitMode(tune, visibleVoiceKeys);
   const lyricsZoom = getTuneGigZoom(tune) || 1.2;
   const notationVisible = !!viewFlags.notation && viewFlags.notation !== 'off';

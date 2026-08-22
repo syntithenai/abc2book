@@ -62,7 +62,8 @@ export default function PracticeTuneDisplay(props) {
   const capoState = useCapoViewState(tune && tune.id, tune && tune.capo)
   const tuneTranspose = tune ? (Number(tune.transpose) || 0) : 0
   const chordTranspose = chordTransposeWithCapo(tuneTranspose, capoState.capoOffset, capoState.capoEnabled)
-  const notationVisualTranspose = chordTranspose
+  // Capo only changes chord fingering names — notation + MIDI stay on tune.transpose.
+  const notationVisualTranspose = tuneTranspose
 
   function handleCapoOffsetChange(offset) {
     capoState.applyCapoOffset(offset)

@@ -9,7 +9,10 @@ function BookMultiSelectorModal(props) {
   const [filter, setFilter] = useState('');
   const [options, setOptions] = useState(props.defaultOptions());
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    setShow(true);
+    if (typeof props.onOpen === 'function') props.onOpen();
+  };
 
   useEffect(function() {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(show)

@@ -53,6 +53,23 @@ export default function MidiImportDiagnostics(props) {
           {typeof diagnostics.quant_error === 'number' ? ', quant error: ' + diagnostics.quant_error : ''}
         </div>
       ) : null}
+      {profile.voice_count_mismatch ? (
+        <div className="small text-warning">
+          Voice count mismatch: local SMF {profile.voice_count_client}, resolver {profile.voice_count_server}.
+          Import used the local SMF voice list.
+        </div>
+      ) : null}
+      {Array.isArray(midi.importVoices) && midi.importVoices.length ? (
+        <div className="small text-muted">
+          Import voices: {midi.importVoices.map(function(voice) {
+            const staff = voice.staff && voice.staff !== 'auto' ? ' [' + voice.staff + ']' : '';
+            const sources = (voice.sourceIds || []).length > 1
+              ? ' (merged ' + voice.sourceIds.join('+') + ')'
+              : '';
+            return (voice.displayName || voice.name || 'voice') + staff + sources;
+          }).join(' · ')}
+        </div>
+      ) : null}
       {profile.estimated_key ? (
         <div className="small text-muted">
           Detected key: {profile.estimated_key}

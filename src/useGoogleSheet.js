@@ -17,6 +17,9 @@ import {
 } from './googleDrivePickerClient'
 import { isNavigatorOffline } from './offlineNetwork'
 import {
+  persistableTuneWithoutDisplaySettings,
+} from './tuneDisplaySettings'
+import {
   readPerformanceSetsMap,
   readDeletedPerformanceSets,
 } from './performanceSetStore'
@@ -189,7 +192,11 @@ export default function useGoogleSheet(props) {
                   'Local songbook storage is much smaller than in-memory library; uploading memory copy and healing storage.'
                 )
                 nowTunes = memoryTunes
-                utils.saveLocalforageObject('bookstorage_tunes', nowTunes)
+                var stripped = {}
+                Object.keys(nowTunes).forEach(function(id) {
+                  if (nowTunes[id]) stripped[id] = persistableTuneWithoutDisplaySettings(nowTunes[id])
+                })
+                utils.saveLocalforageObject('bookstorage_tunes', stripped)
               }
               var warning = forceShrinkUpload
                 ? null

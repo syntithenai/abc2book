@@ -3,6 +3,7 @@ import {
   GLOBAL_TEMPO_PERCENT_MIN,
   formatGlobalTempoDisplay,
   getGlobalTempoFactor,
+  getGlobalTempoLastPercent,
   getGlobalTempoPercent,
   isGlobalTempoOverrideActive,
   normalizeGlobalTempoPercent,
@@ -52,5 +53,13 @@ describe('globalTempoSettings', function() {
     unsubscribe()
     setGlobalTempoPercent(0)
     expect(listener).toHaveBeenCalledTimes(1)
+  })
+
+  test('remembers the last active percent when turning off', function() {
+    setGlobalTempoPercent(90)
+    expect(getGlobalTempoLastPercent()).toBe(90)
+    setGlobalTempoPercent(0)
+    expect(getGlobalTempoPercent()).toBe(0)
+    expect(getGlobalTempoLastPercent()).toBe(90)
   })
 })

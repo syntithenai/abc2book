@@ -118,8 +118,7 @@ export default function VoiceSettingsSection(props) {
           />
         </h2>
         <p className="app-text-muted">
-          Speak track titles while a playlist is playing. Requires text-to-speech on your resolver
-          (start the TTS stack with <code>local-resolver/scripts/tts-up.sh</code>).
+          Speak track titles while a playlist is playing.
         </p>
         {!ttsAvailable ? (
           <p className="app-text-muted small">

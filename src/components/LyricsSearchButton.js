@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { Alert, Button, ButtonGroup, Modal } from 'react-bootstrap'
+import { Alert, ButtonGroup } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import useAbcjsParser from '../useAbcjsParser'
 import { useFieldLookupSearchJob, buildFieldLookupTargetKey } from '../useFieldLookupSearchJob'
@@ -35,6 +35,11 @@ export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
 /**
  * Lyrics search ButtonGroup. When onChords is provided, always searches chords
  * first (usually includes lyrics); on miss, falls back to lyrics-only quietly.
+ *
+ * Result presentation:
+ * - Always cache alternatives on the search caret dropdown.
+ * - Always open the picker so the user chooses (including when lyrics are empty).
+ * - presentChoicesInDialog is kept for API compatibility; picker opens either way.
  */
 export default function LyricsSearchButton({
   tuneId,
@@ -55,31 +60,33 @@ export default function LyricsSearchButton({
   showExternalLink = true,
   resolverAvailable,
   existingLyrics,
-  /** Kept for TuneRecordForm API; picker always opens when results arrive. */
+  /** Kept for TuneRecordForm API compatibility. */
   leaveAwaiting = false,
-  /** Confirm overwriting notation/chords before importing chord sheets (Auto mode). */
+  /**
+   * @deprecated Pre-search overwrite confirm removed; results always open a picker.
+   */
   confirmOverwriteChords = false,
+  /** Kept for API compatibility; picker opens for all chord/lyrics hits. */
+  presentChoicesInDialog = false,
   /** Force Review mode (no Auto dialog). */
   forceReview = false,
   inline,
   children,
 }) {
   void leaveAwaiting
+  void confirmOverwriteChords
+  void presentChoicesInDialog
   const preferChords = typeof onChords === 'function'
   const narrow = useIsNarrowViewport()
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const [error, setError] = useState('')
-  const [showOverwriteConfirm, setShowOverwriteConfirm] = useState(false)
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const [chordPickerCandidates, setChordPickerCandidates] = useState([])
   const [showChordPicker, setShowChordPicker] = useState(false)
   const [manualCandidates, setManualCandidates] = useState([])
   const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
-  const existingLyricsRef = useRef(existingLyrics)
-  existingLyricsRef.current = existingLyrics
   const searchModeRef = useRef(forceReview ? 'review' : 'auto')
-  const pendingModeRef = useRef('auto')
   const applyRef = useRef(null)
   const lyricsFallbackSpecRef = useRef(null)
   const startLyricsFallbackRef = useRef(null)
@@ -105,16 +112,16 @@ export default function LyricsSearchButton({
 
   function finishChordApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
-    if (typeof onLyrics === 'function') {
+    // onChords owns lyrics update (embedded chords); do not push stripped plain lyrics.
+    if (typeof onChords === 'function') {
+      onChords(result, { updateLyrics: true })
+    } else if (typeof onLyrics === 'function') {
       onLyrics({
         lines: result.lyricLines,
         text: result.lyricText,
         source: result.source,
         sourceUrl: result.sourceUrl,
       })
-    }
-    if (typeof onChords === 'function') {
-      onChords(result, { updateLyrics: true })
     }
     maybeOfferGenreFromSearchResult({
       tuneId: tuneId,
@@ -185,6 +192,16 @@ export default function LyricsSearchButton({
     }
   }
 
+  function presentChordSearchResults(candidates) {
+    const list = Array.isArray(candidates) ? candidates : []
+    const key = targetKeyForFieldSearch(tuneId, candidateId)
+    if (key && list.length) setFieldSearchResults(key, 'chords', list)
+    if (!list.length) return
+    // Always let the user pick — including when lyrics are empty — and keep
+    // alternatives on the search caret.
+    openChordPicker(list)
+  }
+
   const lookup = useFieldLookupSearchJob({
     tuneId: tuneId,
     candidateId: candidateId,
@@ -208,6 +225,7 @@ export default function LyricsSearchButton({
       }
       const key = targetKeyForFieldSearch(tuneId, candidateId)
       if (key) setFieldSearchResults(key, 'lyrics', candidates)
+      // Always let the user pick; caret keeps cached alternatives.
       openLyricsPicker(candidates)
     },
     onError: function(job) {
@@ -231,6 +249,8 @@ export default function LyricsSearchButton({
       }
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
       if (job.status === 'done' || job.appliedCandidate) {
+        // Background enhance may auto-apply; mirror into the editor. Live search
+        // leaves jobs awaiting so the picker runs instead.
         if (job.appliedCandidate) {
           finishChordApply(job.appliedCandidate, null)
         }
@@ -240,9 +260,7 @@ export default function LyricsSearchButton({
         chordsMissedQuietly(job)
         return
       }
-      const key = targetKeyForFieldSearch(tuneId, candidateId)
-      if (key) setFieldSearchResults(key, 'chords', candidates)
-      openChordPicker(candidates)
+      presentChordSearchResults(candidates)
     },
     onError: function() {
       if (!preferChords) return
@@ -268,6 +286,9 @@ export default function LyricsSearchButton({
     : lookup.progressMessage
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
+    : null
+  const awaitingChordJob = chordsLookup.activeJob && chordsLookup.activeJob.status === 'awaiting'
+    ? chordsLookup.activeJob
     : null
 
   function chooseLyricsCandidate(candidate) {
@@ -311,6 +332,7 @@ export default function LyricsSearchButton({
       return
     }
     if (awaitingJob) dismissFieldLookup(awaitingJob.id)
+    if (awaitingChordJob) dismissFieldLookup(awaitingChordJob.id)
     const searchMode = forceReview || mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
@@ -361,17 +383,7 @@ export default function LyricsSearchButton({
       lyricsFallbackSpecRef.current = null
       return
     }
-    pendingModeRef.current = mode === 'review' ? 'review' : 'auto'
-    if (preferChords && confirmOverwriteChords && pendingModeRef.current === 'auto') {
-      setShowOverwriteConfirm(true)
-      return
-    }
-    runSearch(pendingModeRef.current)
-  }
-
-  function confirmOverwriteAndSearch() {
-    setShowOverwriteConfirm(false)
-    runSearch(pendingModeRef.current)
+    runSearch(mode === 'review' ? 'review' : 'auto')
   }
 
   const lyricsResultsCaret = (
@@ -385,7 +397,7 @@ export default function LyricsSearchButton({
     />
   )
 
-  const chordResultsCaret = preferChords && cachedChordCandidates.length > 0 ? (
+  const chordResultsCaret = (
     <FieldSearchResultsCaret
       candidates={cachedChordCandidates}
       className="select-input-options-dropdown"
@@ -394,7 +406,14 @@ export default function LyricsSearchButton({
       aria-label="Cached chord search results"
       data-testid="chords-search-results-caret"
     />
-  ) : null
+  )
+
+  // Prefer-chords search: show chords caret when cached; after a quiet lyrics
+  // fallback, show the lyrics caret instead. Plain lyrics search: lyrics only.
+  const resultsCaret = preferChords
+    ? (cachedChordCandidates.length ? chordResultsCaret
+      : (cachedCandidates.length ? lyricsResultsCaret : null))
+    : lyricsResultsCaret
 
   return renderFieldLookupSearchUi({
     children: children,
@@ -414,9 +433,8 @@ export default function LyricsSearchButton({
             searchIcon={searchIcon}
             inline={inline}
             progress={progressPercent}
-            resultsCaret={lyricsResultsCaret}
+            resultsCaret={resultsCaret}
           />
-          {chordResultsCaret}
         </ButtonGroup>
         <SearchProgressBar
           visible={busy}
@@ -484,29 +502,6 @@ export default function LyricsSearchButton({
           book={book}
           icons={tunebook && tunebook.icons}
         />
-        <Modal
-          show={showOverwriteConfirm}
-          onHide={function() { setShowOverwriteConfirm(false) }}
-          centered
-        >
-          <Modal.Header closeButton>
-            <Modal.Title>Import chords from search?</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Alert variant="warning" className="mb-0">
-              Continuing will import chords and lyrics. Existing pitched notation is left unchanged;
-              empty notation may be replaced with a chord scaffold from the search result.
-            </Alert>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={function() { setShowOverwriteConfirm(false) }}>
-              Cancel
-            </Button>
-            <Button variant="primary" onClick={confirmOverwriteAndSearch}>
-              Continue
-            </Button>
-          </Modal.Footer>
-        </Modal>
       </>
     ),
   })

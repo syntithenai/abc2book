@@ -169,6 +169,7 @@ import {
     shouldShowTapToPlayFromYoutubePoll as intentShouldShowTapToPlayFromYoutubePoll,
     shouldSuppressTapToPlayDuringQueueAdvance as intentShouldSuppressTapToPlayDuringQueueAdvance,
     shouldKeepPlayingThroughAutoplayBlock as intentShouldKeepPlayingThroughAutoplayBlock,
+    resolvePlaylistAutoplayRetryAction,
     shouldAllowPlaybackEndDespiteGuards,
     shouldTriggerAutoplayRecovery as intentShouldTriggerAutoplayRecovery,
     canResumePlayback as intentCanResumePlayback,
@@ -3891,20 +3892,34 @@ export default function useTuneBookMediaController(props) {
         if (queueAdvanceAutoplayRetryTimerRef.current) return
         queueAdvanceAutoplayRetryTimerRef.current = setTimeout(function() {
             queueAdvanceAutoplayRetryTimerRef.current = null
-            if (!hasActivePlaybackIntent() || playbackStartedRef.current || userPausedRef.current) {
-                queueAdvanceAutoplayAttemptRef.current = 0
-                return
-            }
+            const midiKickoffActive = !!(isMidiKickoffActiveRef.current
+                && isMidiKickoffActiveRef.current())
             const keepPlaylist = shouldKeepPlaylistPlayingThroughAutoplayBlock()
             const queueAdvancing = shouldAdvanceQueueOnPlaybackEnd()
-            if (!shouldHoldLoadingForPlaybackKickoff() && !queueAdvancing && !keepPlaylist) {
+            const action = resolvePlaylistAutoplayRetryAction({
+                hasActivePlaybackIntent: hasActivePlaybackIntent(),
+                userPaused: userPausedRef.current,
+                playbackStarted: playbackStartedRef.current,
+                midiKickoffActive: midiKickoffActive,
+                shouldHoldLoading: shouldHoldLoadingForPlaybackKickoff(),
+                queueAdvancing: queueAdvancing,
+                keepPlaylist: keepPlaylist,
+                attempt: queueAdvanceAutoplayAttemptRef.current,
+            })
+            if (action === 'stop') {
                 queueAdvanceAutoplayAttemptRef.current = 0
                 return
             }
-            queueAdvanceAutoplayAttemptRef.current += 1
-            if (queueAdvanceAutoplayAttemptRef.current >= 6) {
+            if (action === 'wait') {
+                // Notation MIDI prime/count-in can exceed the retry window; do not
+                // treat that as blocked autoplay or skip to the next playlist item.
                 queueAdvanceAutoplayAttemptRef.current = 0
-                if (keepPlaylist && trySkipTrackAfterAutoplayBlock()) {
+                scheduleQueueAdvanceAutoplayRetry()
+                return
+            }
+            if (action === 'skip' || action === 'prompt') {
+                queueAdvanceAutoplayAttemptRef.current = 0
+                if (action === 'skip' && trySkipTrackAfterAutoplayBlock()) {
                     return
                 }
                 queueAdvanceGuardUntilRef.current = 0
@@ -3915,6 +3930,7 @@ export default function useTuneBookMediaController(props) {
                 }
                 return
             }
+            queueAdvanceAutoplayAttemptRef.current += 1
             const retryOpts = (freshPlaybackIntentRef.current || needsPlaybackKickoff() || queueAdvancing || keepPlaylist)
                 ? { fresh: true, skipNotationRefresh: true }
                 : { preservePosition: true }
@@ -4905,6 +4921,20 @@ export default function useTuneBookMediaController(props) {
         cleanupTimers()
         stopPlaybackKeepAlive()
         const startAt = getLinkStartAt()
+        if (isMidiFileMediaRoute()) {
+            if (stopMidiFileRef.current) {
+                try { stopMidiFileRef.current() } catch (e) {}
+            }
+            if (seekMidiFileRef.current) {
+                try { seekMidiFileRef.current(startAt) } catch (e) {}
+            }
+            setCurrentTime(startAt)
+            currentTimeRef.current = startAt
+            const total = resolvePlaybackDuration()
+            if (total > 0) setClickSeek(Math.min(1, startAt / total))
+            else setClickSeek(0)
+            return
+        }
         if (externalMediaRef.current) {
             externalMediaRef.current.disconnect()
             const extDuration = getExternalPlaybackDuration()
@@ -5744,6 +5774,9 @@ export default function useTuneBookMediaController(props) {
             currentTimeRef.current = 0
             setCurrentTime(0)
             setClickSeek(0)
+            if (armPlaybackFromZeroRef.current) {
+                try { armPlaybackFromZeroRef.current() } catch (e) {}
+            }
         }
 
         const midiOpts = {

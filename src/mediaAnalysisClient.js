@@ -217,6 +217,7 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook, options) {
   });
 
   const detectedKey = (analysis.melody && (analysis.melody.detectedKey || analysis.melody.key))
+    || (analysis.chords && analysis.chords.detectedKey)
     || (tune && tune.key)
     || '';
   const snapToScale = !!(analysis.melody && analysis.melody.processing && analysis.melody.processing.snapToScale);
@@ -246,6 +247,193 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook, options) {
       || (analysis.timing && analysis.timing.detectedKey)
       || '',
   };
+}
+
+const HEAVY_SUGGESTION_KINDS = {
+  lyrics: true,
+  notation: true,
+  chords: true,
+}
+
+/**
+ * Choose resolver endpoint for enhance / suggestion-scoped analysis.
+ * timing alone cannot detect key; key uses detect-chords.
+ */
+export function analysisPlanForSuggestionKinds(kinds) {
+  const list = Array.isArray(kinds) ? kinds : []
+  if (!list.length) return 'analyze-media'
+  let needsHeavy = false
+  let needsKey = false
+  let needsTempo = false
+  list.forEach(function(kind) {
+    if (HEAVY_SUGGESTION_KINDS[kind]) needsHeavy = true
+    if (kind === 'key') needsKey = true
+    if (kind === 'tempo' || kind === 'meter') needsTempo = true
+  })
+  if (needsHeavy) return 'analyze-media'
+  if (needsKey) return 'detect-chords'
+  if (needsTempo) return 'detect-timing'
+  return 'analyze-media'
+}
+
+export function normalizeTimingOnlyAnalysis(body) {
+  const timing = body && typeof body === 'object' ? body : {}
+  return normalizeMediaAnalysis({
+    lyrics: {},
+    chords: {
+      segments: [],
+      beatTimes: Array.isArray(timing.beatTimes) ? timing.beatTimes : [],
+      tempo: typeof timing.tempo === 'number' ? timing.tempo : 0,
+    },
+    melody: {},
+    timing: timing,
+  })
+}
+
+export function normalizeChordsOnlyAnalysis(body) {
+  const chords = body && typeof body === 'object' ? body : {}
+  return normalizeMediaAnalysis({
+    lyrics: {},
+    chords: chords,
+    melody: {},
+    timing: {
+      beatTimes: Array.isArray(chords.beatTimes) ? chords.beatTimes : [],
+      tempo: typeof chords.tempo === 'number' ? chords.tempo : 0,
+      meter: '',
+      detectedKey: typeof chords.detectedKey === 'string' ? chords.detectedKey : '',
+    },
+    inputsUsed: {
+      keySource: typeof chords.keySource === 'string' ? chords.keySource : '',
+      chordBackend: typeof chords.backend === 'string' ? chords.backend : '',
+    },
+  })
+}
+
+/**
+ * Fetch timing-only analysis and normalize into media-analysis shape.
+ */
+export async function analyzeTimingFromSource(options) {
+  const {
+    source,
+    accessToken,
+    signal,
+    onProgress,
+  } = options
+
+  if (!source) throw new Error('No media source selected')
+  if (typeof onProgress === 'function') {
+    onProgress(source.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...', 0)
+  }
+
+  let response
+  if (source.kind === 'recording') {
+    if (!source.blob) throw new Error('Recording data is not available')
+    const formData = new FormData()
+    formData.append('file', source.blob, source.fileName || 'recording.wav')
+    response = await fetchViaMediaProxy('/detect-timing', accessToken, {
+      method: 'POST',
+      body: formData,
+      signal: signal,
+      headers: { Accept: 'application/json' },
+    })
+  } else {
+    if (!source.src) throw new Error('Media source URL is missing')
+    const payload = {
+      sourceUrl: source.src,
+      sourceType: source.srcType || 'audio',
+      sourceName: source.label || '',
+    }
+    if (typeof source.startAt === 'number' && source.startAt > 0) payload.startAt = source.startAt
+    if (typeof source.endAt === 'number' && source.endAt > 0) payload.endAt = source.endAt
+    response = await fetchViaMediaProxy('/detect-timing', accessToken, {
+      method: 'POST',
+      body: JSON.stringify(payload),
+      signal: signal,
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+    })
+  }
+
+  let body = null
+  try {
+    body = await response.json()
+  } catch (e) {
+    throw new Error('Resolver returned an unreadable timing response')
+  }
+  if (!response.ok) {
+    throw new Error(body && body.error ? body.error : 'Timing detection failed')
+  }
+  if (typeof onProgress === 'function') onProgress('Timing detected', 100)
+  return normalizeTimingOnlyAnalysis(body)
+}
+
+export async function analyzeChordsFromSource(options) {
+  const {
+    source,
+    accessToken,
+    signal,
+    onProgress,
+  } = options
+
+  if (!source) throw new Error('No media source selected')
+  if (typeof onProgress === 'function') {
+    onProgress(source.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...', 0)
+  }
+
+  let response
+  if (source.kind === 'recording') {
+    if (!source.blob) throw new Error('Recording data is not available')
+    const formData = new FormData()
+    formData.append('file', source.blob, source.fileName || 'recording.wav')
+    response = await fetchViaMediaProxy('/detect-chords', accessToken, {
+      method: 'POST',
+      body: formData,
+      signal: signal,
+      headers: { Accept: 'application/json' },
+    })
+  } else {
+    if (!source.src) throw new Error('Media source URL is missing')
+    const payload = {
+      sourceUrl: source.src,
+      sourceType: source.srcType || 'audio',
+      sourceName: source.label || '',
+    }
+    if (typeof source.startAt === 'number' && source.startAt > 0) payload.startAt = source.startAt
+    if (typeof source.endAt === 'number' && source.endAt > 0) payload.endAt = source.endAt
+    response = await fetchViaMediaProxy('/detect-chords', accessToken, {
+      method: 'POST',
+      body: JSON.stringify(payload),
+      signal: signal,
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+    })
+  }
+
+  let body = null
+  try {
+    body = await response.json()
+  } catch (e) {
+    throw new Error('Resolver returned an unreadable chords response')
+  }
+  if (!response.ok) {
+    throw new Error(body && body.error ? body.error : 'Chord detection failed')
+  }
+  if (typeof onProgress === 'function') onProgress('Chords detected', 100)
+  return normalizeChordsOnlyAnalysis(body)
+}
+
+/**
+ * Run analyze-media or a light endpoint based on suggestion kinds.
+ */
+export async function analyzeMediaForSuggestionKinds(options) {
+  const plan = analysisPlanForSuggestionKinds(options && options.suggestionKinds)
+  if (plan === 'detect-timing') return analyzeTimingFromSource(options)
+  if (plan === 'detect-chords') return analyzeChordsFromSource(options)
+  return analyzeMediaFromSource(options)
 }
 
 export async function analyzeMediaFromSource(options) {

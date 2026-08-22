@@ -32,7 +32,7 @@ describe('gigDisplaySettings tune fields', function() {
 });
 
 describe('gig tune settings abc persistence', function() {
-  test('round-trips zoom and lyrics scroll speed', function() {
+  test('does not export zoom (device-local); still parses legacy ABC for migration', function() {
     const useAbcTools = require('./useAbcTools').default;
     const abcTools = useAbcTools();
     const tune = {
@@ -45,16 +45,17 @@ describe('gig tune settings abc persistence', function() {
       voices: { V: { notes: ['C2'] } },
     };
     const abc = abcTools.json2abc(tune);
-    expect(abc).toContain('% abcbook-zoom 1.3');
+    expect(abc).not.toContain('% abcbook-zoom');
     expect(abc).toContain('% abcbook-transpose -2');
     expect(abc).toContain('% abcbook-lyrics-scroll-speed 1.44');
-    const parsed = abcTools.abc2json(abc);
+    const legacyAbc = abc + '% abcbook-zoom 1.3\n';
+    const parsed = abcTools.abc2json(legacyAbc);
     expect(parsed.zoom).toBeCloseTo(1.3);
     expect(parsed.transpose).toBe('-2');
     expect(parsed.lyricsScrollSpeed).toBeCloseTo(1.44);
   });
 
-  test('round-trips view mode and notation fit for cloud sync', function() {
+  test('does not export view mode / notation fit; still parses legacy ABC for migration', function() {
     const useAbcTools = require('./useAbcTools').default;
     const abcTools = useAbcTools();
     const tune = {
@@ -66,9 +67,14 @@ describe('gig tune settings abc persistence', function() {
       voices: { V: { notes: ['C2'] } },
     };
     const abc = abcTools.json2abc(tune);
-    expect(abc).toContain('% abcbook-view-mode notation,lyrics,structure');
-    expect(abc).toContain('% abcbook-notation-fit vertical');
-    const parsed = abcTools.abc2json(abc);
+    expect(abc).not.toContain('% abcbook-view-mode');
+    expect(abc).not.toContain('% abcbook-notation-fit');
+    const legacyAbc = [
+      abc.trim(),
+      '% abcbook-view-mode notation,lyrics,structure',
+      '% abcbook-notation-fit vertical',
+    ].join('\n');
+    const parsed = abcTools.abc2json(legacyAbc);
     expect(parsed.viewMode).toBe('notation,lyrics,structure');
     expect(parsed.notationFit).toBe('vertical');
   });

@@ -1,4 +1,4 @@
-import { buildPlayalongCompareLines, filterPlayalongDisplayPoints, foldMidiHarmonicNearExpected, playalongLinesFromTune, playalongLinesFromDisplayAbc, playalongSoundingMapFromTune, slicePeaksForLine, slicePitchPassesForLine, slicePitchPointsForLine, snapPitchPointToNotes, takeWaveformOpacity, transposePlayalongLines } from './playalongLineNotes'
+import { buildLiveOverlayTracesForLine, buildPlayalongCompareLines, filterPlayalongDisplayPoints, foldMidiHarmonicNearExpected, livePitchSampleBeat, livePitchTipInLineRange, playalongLinesFromTune, playalongLinesFromDisplayAbc, playalongSoundingMapFromTune, slicePeaksForLine, slicePitchPassesForLine, slicePitchPointsForLine, snapPitchPointToNotes, takeWaveformOpacity, transposePlayalongLines } from './playalongLineNotes'
 import { refinePlayalongMusicStartOffsetSeconds } from './playalongTakes'
 
 describe('playalongLineNotes', function() {
@@ -136,14 +136,16 @@ describe('playalongLineNotes', function() {
     expect(passes[0].passIndex).toBe(1)
   })
 
-  test('snapPitchPointToNotes folds octaves onto the expected note', function() {
+  test('snapPitchPointToNotes keeps heard pitch and records expected note context', function() {
     const snapped = snapPitchPointToNotes(
       { beat: 0.5, rawMidi: 72.2 },
       [{ midi: 60, startBeat: 0, endBeat: 1 }]
     )
     expect(snapped.expectedMidi).toBe(60)
-    expect(snapped.rawMidi).toBeCloseTo(60.2, 5)
-    expect(snapped.cents).toBeCloseTo(20, 3)
+    expect(snapped.rawMidi).toBeCloseTo(72.2, 5)
+    expect(snapped.sourceMidi).toBeCloseTo(72.2, 5)
+    expect(snapped.cents).toBeCloseTo(1220, 3)
+    expect(snapped.foldedMidi).toBeCloseTo(60.2, 5)
   })
 
   test('snapPitchPointToNotes prefers the note window that contains the beat', function() {
@@ -172,13 +174,15 @@ describe('playalongLineNotes', function() {
     expect(foldMidiHarmonicNearExpected(67.34, 71)).toBeCloseTo(67.34, 2)
   })
 
-  test('snapPitchPointToNotes folds a 3rd-harmonic A onto covering A4', function() {
+  test('snapPitchPointToNotes does not draw a 3rd-harmonic as the written note', function() {
     const snapped = snapPitchPointToNotes(
       { beat: 0.7, rawMidi: 88.05 },
       [{ midi: 69, startBeat: 0, endBeat: 1 }]
     )
     expect(snapped.expectedMidi).toBe(69)
-    expect(snapped.cents).toBeCloseTo(3, 0)
+    expect(snapped.rawMidi).toBeCloseTo(88.05, 5)
+    expect(snapped.cents).toBeCloseTo(1905, 0)
+    expect(snapped.foldedCents).toBeCloseTo(3, 0)
   })
 
   test('snapPitchPointToNotes prefers the covering note at the beat', function() {
@@ -190,10 +194,11 @@ describe('playalongLineNotes', function() {
       ]
     )
     expect(snapped.expectedMidi).toBe(69)
+    expect(snapped.rawMidi).toBe(64)
     expect(snapped.cents).toBeCloseTo(-500, 0)
   })
 
-  test('snapPitchPointToNotes still folds onto the nearest note between windows', function() {
+  test('snapPitchPointToNotes keeps a wrong pitch between note windows', function() {
     const snapped = snapPitchPointToNotes(
       { beat: 1.05, rawMidi: 72 },
       [
@@ -202,7 +207,8 @@ describe('playalongLineNotes', function() {
       ]
     )
     expect(snapped.expectedMidi).toBe(60)
-    expect(snapped.rawMidi).toBeCloseTo(60, 5)
+    expect(snapped.rawMidi).toBe(72)
+    expect(snapped.foldedMidi).toBeCloseTo(60, 5)
   })
 
   test('slicePitchPointsForLine aligns beats with measured music-start offset', function() {
@@ -242,6 +248,33 @@ describe('playalongLineNotes', function() {
     })
     expect(without[0].beat).toBeGreaterThan(withLatency[0].beat)
     expect(withLatency[0].beat).toBeLessThan(0.1)
+  })
+
+  test('live overlay mapping skips pitch latency so tip tracks wall-clock music', function() {
+    const line = { startBeat: 0, endBeat: 4, notes: [{ midi: 69, startBeat: 0, endBeat: 1 }] }
+    const points = [{ timeMs: 3000, rawMidi: 69 }]
+    const liveBeat = livePitchSampleBeat(3000, 2.613, 100, 1)
+    const live = buildLiveOverlayTracesForLine(line, points, {
+      musicStartOffsetSeconds: 2.613,
+      tempoBpm: 100,
+      playbackSpeed: 1,
+    })
+    const withLatency = slicePitchPointsForLine(points, {
+      startBeat: 0,
+      endBeat: 4,
+      musicStartOffsetSeconds: 2.613,
+      tempoBpm: 100,
+      playbackSpeed: 1,
+    })
+    expect(live.length).toBe(1)
+    expect(live[0].live).toBe(true)
+    expect(liveBeat).toBeCloseTo(0.645, 2)
+    expect(withLatency[0].beat).toBeLessThan(liveBeat)
+    expect(livePitchTipInLineRange(points, line, {
+      musicStartOffsetSeconds: 2.613,
+      tempoBpm: 100,
+      playbackSpeed: 1,
+    })).toBe(true)
   })
 
   test('refine + latency maps Cheer Boys-style first pitch near beat 0', function() {

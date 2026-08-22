@@ -9,6 +9,17 @@ import {
   shouldRenderTablature,
 } from '../tablatureConfig'
 import TablatureSettingsModal, { tablatureSettingsSummary } from './TablatureSettingsModal'
+import { setTuneDisplaySettings } from '../tuneDisplaySettings'
+
+function storeTuneTablatureSettings(tune) {
+  if (!tune || !tune.id) return
+  setTuneDisplaySettings(tune.id, {
+    tablature: tune.tablature,
+    tablatureVoices: tune.tablatureVoices,
+    tablatureEnabled: tune.tablatureEnabled,
+    tabDisplay: tune.tabDisplay,
+  })
+}
 
 export default function TablatureSelector(props) {
   const { tune, tunebook, onChange, variant, stopMenuClose, className } = props
@@ -39,6 +50,7 @@ export default function TablatureSelector(props) {
     stop(e)
     setShowMenu(false)
     disableTablature(tune)
+    storeTuneTablatureSettings(tune)
     if (tune.id && tunebook && tunebook.saveTune) {
       tunebook.saveTune(tune)
     }
@@ -49,6 +61,7 @@ export default function TablatureSelector(props) {
     stop(e)
     setShowMenu(false)
     applyTabDisplay(tune, mode)
+    storeTuneTablatureSettings(tune)
     if (tune.id && tunebook && tunebook.saveTune) {
       tunebook.saveTune(tune)
     }

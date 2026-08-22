@@ -66,6 +66,8 @@ class MidiAbcBuildOptions:
     tempo_bpm: float | None = None
     time_signature: str | None = None
     estimated_key: str | None = None
+    staff_by_voice: list[str] = field(default_factory=list)
+    import_voices: list[dict[str, Any]] = field(default_factory=list)
 
 
 def _note_events_for_track(
@@ -473,8 +475,17 @@ def display_name_for_track(track: MidiTrackProfile | None, voice_id: int, overri
     return f"Voice {voice_id}"
 
 
-def _voice_meta_line(voice_id: int, track: MidiTrackProfile | None, name: str) -> str:
-    clef = clef_hint_for_track(track) if track else "treble"
+def _voice_meta_line(
+    voice_id: int,
+    track: MidiTrackProfile | None,
+    name: str,
+    *,
+    staff: str | None = None,
+) -> str:
+    if staff and staff not in ("", "auto"):
+        clef = "perc" if staff == "perc" else staff
+    else:
+        clef = clef_hint_for_track(track) if track else "treble"
     display_name = display_name_for_track(track, voice_id, name)
     safe_name = display_name.replace('"', "")
     return f'V:{voice_id} nm="{safe_name}" clef={clef}'

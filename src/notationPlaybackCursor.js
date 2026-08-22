@@ -98,15 +98,22 @@ function barKey(timing) {
 
 /**
  * Map the music-only playback clock onto abcjs noteTiming milliseconds.
- * Prefer the audio clock over stretching by MIDI duration — extra count-in or
- * tail in `duration` would otherwise leave the cursor about a bar behind.
+ * Prefer 1:1 with the music clock. When noteTimings are clearly longer than the
+ * audio buffer (QPM skew), scale so the cursor does not lag a bar/beat behind.
+ * Do not scale when duration is longer than noteTimings (fade/tail) — that
+ * previously left the cursor about a bar behind.
  */
 export function playbackClockToTimingMs(currentTimeSec, lastMomentMs, durationSec) {
   const clockMs = (currentTimeSec > 0 ? currentTimeSec : 0) * 1000
   const last = lastMomentMs > 0 ? lastMomentMs : 0
   if (!(last > 0)) return clockMs
+  const durationMs = (durationSec > 0 ? durationSec : 0) * 1000
+  let mapped = clockMs
+  if (durationMs > 0 && last > durationMs * 1.12) {
+    mapped = clockMs * (last / durationMs)
+  }
   const holdMs = Math.max(0, last - 1)
-  if (clockMs <= holdMs) return clockMs
+  if (mapped <= holdMs) return mapped
   return holdMs
 }
 
@@ -142,11 +149,56 @@ export function barStartTimingsFromNoteTimings(noteTimings) {
 }
 
 /**
- * Map playback time onto the downbeat of the bar that is currently sounding.
+ * Beat anchors within each bar (bar downbeat + in-bar beats).
+ * Pickup/short bars only get as many beats as their duration allows.
  */
-export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs) {
+export function beatStartTimingsFromNoteTimings(noteTimings, beatsPerMeasure) {
+  const barStarts = barStartTimingsFromNoteTimings(noteTimings)
+  const beats = parseFloat(beatsPerMeasure)
+  if (!(beats > 1) || barStarts.length === 0) return barStarts
+  const out = []
+  for (let i = 0; i < barStarts.length; i++) {
+    const start = barStarts[i]
+    out.push(start)
+    const mpm = start.millisecondsPerMeasure > 0
+      ? start.millisecondsPerMeasure
+      : (barStarts[i + 1]
+        ? (barStarts[i + 1].milliseconds - start.milliseconds)
+        : 0)
+    if (!(mpm > 0)) continue
+    const beatMs = mpm / beats
+    const barEnd = barStarts[i + 1]
+      ? barStarts[i + 1].milliseconds
+      : (start.milliseconds + mpm)
+    const barDur = barEnd - start.milliseconds
+    const beatsInBar = Math.max(1, Math.round(barDur / beatMs))
+    for (let b = 1; b < beatsInBar; b++) {
+      const target = start.milliseconds + b * beatMs
+      if (target >= barEnd - 1) break
+      let found = null
+      for (let j = 0; j < noteTimings.length; j++) {
+        const timing = noteTimings[j]
+        if (!timingHasCursorPosition(timing)) continue
+        if (timing.milliseconds + 0.01 < target) continue
+        if (timing.milliseconds > target + beatMs * 0.5) break
+        found = timing
+        break
+      }
+      if (found) out.push(found)
+    }
+  }
+  return out
+}
+
+/**
+ * Map playback time onto the current beat anchor (not every note, not only the
+ * bar downbeat). Bar-only snap sits half a bar behind on beat 2 in 2/4;
+ * note-following moves more than once per beat.
+ */
+export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs, options) {
   if (!Array.isArray(noteTimings) || noteTimings.length === 0) return null
   const timeMs = currentTimeMs > 0 ? currentTimeMs : 0
+  const opts = options || {}
   const events = []
   for (let i = 0; i < noteTimings.length; i++) {
     if (timingHasCursorPosition(noteTimings[i])) events.push(noteTimings[i])
@@ -157,24 +209,24 @@ export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs) {
     if (events[i].milliseconds <= timeMs) current = events[i]
     else break
   }
-  const barStarts = barStartTimingsFromNoteTimings(noteTimings)
-  let downbeat = barStarts[0] || current
-  const barTime = current.milliseconds != null ? current.milliseconds : timeMs
-  for (let i = 0; i < barStarts.length; i++) {
-    if (barStarts[i].milliseconds <= barTime) downbeat = barStarts[i]
+  const beatsPerMeasure = parseFloat(opts.beatsPerMeasure) || 0
+  const anchors = beatStartTimingsFromNoteTimings(noteTimings, beatsPerMeasure)
+  let anchor = anchors[0] || current
+  for (let i = 0; i < anchors.length; i++) {
+    if (anchors[i].milliseconds <= timeMs) anchor = anchors[i]
     else break
   }
   return {
-    left: downbeat.left,
-    top: downbeat.top,
-    height: downbeat.height,
+    left: anchor.left,
+    top: anchor.top,
+    height: anchor.height,
   }
 }
 
-export function applyPlaybackCursorAtTime(svg, cursorEl, noteTimings, currentTimeMs) {
+export function applyPlaybackCursorAtTime(svg, cursorEl, noteTimings, currentTimeMs, options) {
   if (!svg) return null
   const cursor = ensureAbcjsCursorLine(svg, cursorEl)
-  const pos = cursorPositionFromNoteTimings(noteTimings, currentTimeMs)
+  const pos = cursorPositionFromNoteTimings(noteTimings, currentTimeMs, options)
   if (pos) updateAbcjsCursorLine(cursor, pos, false)
   return cursor
 }

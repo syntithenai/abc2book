@@ -1,17 +1,36 @@
 import { Button, ListGroup, Modal } from 'react-bootstrap';
+import ReactDiffViewer from 'react-diff-viewer-continued';
 import AbcSnippetPreview from './AbcSnippetPreview';
 import { notationSourceBadgeLabel } from '../notationSearchSites';
 import SelectAllToggle from './SelectAllToggle';
 import './SearchResultPickerModal.css';
 
+function SuggestionTextCompare(props) {
+  const original = props.original != null ? String(props.original) : '';
+  const suggested = props.suggested != null ? String(props.suggested) : '';
+  if (!original && !suggested) return null;
+  return (
+    <div className="search-result-picker-diff">
+      <ReactDiffViewer
+        oldValue={original}
+        newValue={suggested}
+        splitView
+        hideLineNumbers={suggested.length < 800 && original.length < 800}
+        showDiffOnly={false}
+        useDarkTheme={false}
+        leftTitle="Current"
+        rightTitle="Suggested"
+      />
+    </div>
+  );
+}
+
 function formatCandidateLabel(item, fallbackTitle) {
   if (item && item.__current) {
     const preview = item.preview != null ? String(item.preview).trim() : '';
-    if (preview) return preview;
-    if (item.title && item.title !== 'Original Value' && item.title !== 'Current value') {
-      return String(item.title);
-    }
-    return '(empty)';
+    if (!preview) return '(empty)';
+    // Keep the row title short; full text renders in the preview pane below.
+    return 'Original Value';
   }
   if (item && item.titleOnly) {
     return (fallbackTitle || item.title || 'Song') + ' (title search)';
@@ -72,6 +91,26 @@ function itemHasAbcPreview(item) {
   return /[A-Ga-g]/.test(preview);
 }
 
+function itemPreviewText(item) {
+  if (!item) return '';
+  if (item.preview != null && String(item.preview).trim()) return String(item.preview);
+  if (typeof item.abc === 'string' && item.abc.trim() && !itemHasAbcPreview(item)) {
+    return item.abc;
+  }
+  return '';
+}
+
+function shouldShowTextPreview(item, notationLayout) {
+  if (notationLayout) return false;
+  const preview = itemPreviewText(item);
+  if (!preview.trim()) return false;
+  // Avoid duplicating short scalar values already shown in the title row.
+  const label = formatCandidateLabel(item, '');
+  if (preview.trim() === label.trim()) return false;
+  if (item && item.__current && label === 'Original Value') return true;
+  return preview.trim().length > 0;
+}
+
 export default function SearchResultPickerModal({
   show,
   title,
@@ -95,8 +134,13 @@ export default function SearchResultPickerModal({
   const selected = Array.isArray(selectedIndexes) ? selectedIndexes : [];
   const selectedSet = new Set(selected);
   const notationLayout = layout === 'notation';
+  const textCompareLayout = layout === 'lyrics' || layout === 'text';
   const headerComment = String(comment || '').trim();
   const showBulkActions = !!(multiSelect && (typeof onSelectAll === 'function' || typeof onSelectNone === 'function'));
+  const originalItem = Array.isArray(items)
+    ? items.find(function(item) { return item && item.__current; })
+    : null;
+  const originalPreview = itemPreviewText(originalItem);
 
   function renderBulkActions() {
     if (!showBulkActions) return null;
@@ -126,12 +170,18 @@ export default function SearchResultPickerModal({
     const matchType = formatMatchType(item);
     const isSelected = selectedSet.has(index);
     const isOriginal = !!(item && item.__current);
+    const preview = itemPreviewText(item);
+    const showPreview = shouldShowTextPreview(item, notationLayout);
     return (
       <ListGroup.Item
         key={(item && item.sourceUrl) || (label + '-' + index)}
         action
         active={!!(multiSelect && isSelected)}
-        className={'search-result-picker-row' + (isOriginal ? ' search-result-picker-row--original' : '')}
+        className={
+          'search-result-picker-row'
+          + (isOriginal ? ' search-result-picker-row--original' : '')
+          + (showPreview ? ' search-result-picker-row--has-preview' : '')
+        }
         onClick={function() { onSelect(item, index); }}
       >
         <div className="search-result-picker-row-inner">
@@ -145,6 +195,24 @@ export default function SearchResultPickerModal({
             ) : null}
           </span>
         </div>
+        {showPreview ? (
+          <pre
+            className="search-result-picker-row-preview"
+            data-testid={isOriginal ? 'search-result-original-preview' : 'search-result-suggestion-preview'}
+          >
+            {preview}
+          </pre>
+        ) : null}
+        {textCompareLayout && !isOriginal && originalPreview && preview && preview !== originalPreview ? (
+          <div
+            className="search-result-picker-row-compare"
+            data-testid="search-result-suggestion-compare"
+            onClick={function(e) { e.stopPropagation(); }}
+          >
+            <div className="search-result-picker-row-compare-label">Compare with current</div>
+            <SuggestionTextCompare original={originalPreview} suggested={preview} />
+          </div>
+        ) : null}
       </ListGroup.Item>
     );
   }
@@ -192,15 +260,25 @@ export default function SearchResultPickerModal({
     <Modal
       show={show}
       onHide={onHide}
-      size={notationLayout ? undefined : 'lg'}
-      fullscreen={notationLayout ? true : undefined}
+      size={notationLayout || textCompareLayout ? undefined : 'lg'}
+      fullscreen={notationLayout || textCompareLayout ? true : undefined}
       scrollable
-      dialogClassName={notationLayout ? 'search-result-picker-modal search-result-picker-modal--notation' : 'search-result-picker-modal'}
+      dialogClassName={
+        notationLayout
+          ? 'search-result-picker-modal search-result-picker-modal--notation'
+          : (textCompareLayout
+            ? 'search-result-picker-modal search-result-picker-modal--text-compare'
+            : 'search-result-picker-modal')
+      }
     >
       <Modal.Header closeButton>
         <Modal.Title>{title || 'Choose a result'}</Modal.Title>
       </Modal.Header>
-      <Modal.Body className={notationLayout ? 'search-result-picker-body--notation' : undefined}>
+      <Modal.Body className={
+        notationLayout
+          ? 'search-result-picker-body--notation'
+          : (textCompareLayout ? 'search-result-picker-body--text-compare' : undefined)
+      }>
         {headerComment ? (
           <p className="search-result-picker-comment mb-2" data-testid="search-result-picker-comment">
             {headerComment}
@@ -230,6 +308,10 @@ export default function SearchResultPickerModal({
               {multiSelect ? (
                 <p className="text-muted small mb-2">
                   Click to add. You can select multiple, then Done when finished.
+                </p>
+              ) : textCompareLayout ? (
+                <p className="text-muted small mb-2">
+                  Original Value is listed first. Each suggestion shows its text and a side-by-side compare with the current value. Click a row to use it.
                 </p>
               ) : null}
               <ListGroup variant="flush" className="search-result-picker-list">

@@ -15,6 +15,7 @@ import {
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import PlaybackVolumeSlider from '../components/PlaybackVolumeSlider'
 import OutputDevicePicker, { isSetSinkIdSupported } from '../components/OutputDevicePicker'
+import GlobalTempoSlider from '../components/GlobalTempoSlider'
 import TuneArtwork from '../components/TuneArtwork'
 import { hasTuneArtwork } from '../nowPlayingArtwork'
 import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
@@ -360,6 +361,9 @@ export default function NowPlayingPage(props) {
                       inline
                     />
                   ) : null}
+                  <GlobalTempoSlider
+                    mediaController={mediaController}
+                  />
                 </div>
               ) : null}
             </div>

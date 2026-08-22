@@ -1,4 +1,5 @@
 import { createPlaybackAudioContext } from './outputDeviceSupport'
+import { scrollPlayalongPlayingLineIntoCenter } from './playalongStaffLayout'
 import {useState, useEffect, useLayoutEffect, useRef} from 'react'
 import * as localForage from "localforage";
 import useAbcTools from './useAbcTools'
@@ -33,6 +34,7 @@ import {
     resolveCountInHandoffAnchor,
     MIDI_START_FROM_BEGINNING_TOLERANCE_SECONDS,
     computePlaybackMetronomeTempo,
+    resolveSequencePathMeasureTiming,
     computeRhythmGridTempo,
     computeCountInSlotCount,
     resolveCountInBeatCount,
@@ -54,7 +56,7 @@ import {
 import { slotsPerBar, rhythmFromTimeSignature, defaultMetronomeRhythm } from './metronomeRhythmPresets'
 import { normalizeRhythmConfig, ENGINE_MODE_DRUMS } from './rhythmEngineTypes'
 import { primeDrumKit } from './drumSampleKit'
-import { resolveFillPlaybackOptions } from './playbackFillSettings'
+import { resolveFillPlaybackOptions, FILL_STYLE_OFF } from './playbackFillSettings'
 import { buildPlaybackSequence } from './playbackFillPattern'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 import { prefersNativeMediaPlayback } from './platformUtils'
@@ -92,7 +94,7 @@ import {
     buildRhythmDiagnosticsSnapshot,
 } from './rhythmTimingDiagnostics'
 import { buildPlaybackTimingMap, timingAtMusicSeconds } from './playbackTimingMap'
-import { audioTimeForGlobalSlot } from './rhythmTimeline'
+import { audioTimeForGlobalSlot, reanchorTimelineAtSlot } from './rhythmTimeline'
 
 function assignMediaControllerRef(mediaController, refKey, value) {
     const ref = mediaController && mediaController[refKey]
@@ -123,6 +125,10 @@ export default function useAbcSynth(props) {
     const pitchShifterRef = useRef(null)
     const pitchShifterBufferRef = useRef(null)
     const pitchTempoSettingsRef = useRef({ tempo: 1.0, pitch: 0, fineTune: 0 })
+    const playalongOutputLatencyInTimelineRef = useRef({
+      alreadyInTimeline: false,
+      appliedSeconds: 0,
+    })
     const forceStopRef = useRef(false)
     const playbackGenerationRef = useRef(0)
     const gplaybackVisualObj = useRef(null)
@@ -330,14 +336,24 @@ export default function useAbcSynth(props) {
             return null
         }
         const now = ctx.currentTime
-        if (startAtAudioTime <= now + 0.025) {
+        // Only snap to now when the scheduled start is already past (or within
+        // tiny scheduling jitter). Pulling future starts forward by up to 25ms
+        // made notes lead the metronome; starting late without re-anchoring
+        // left clicks ~10ms early vs the audible notes.
+        if (startAtAudioTime <= now + 0.002) {
             return now
         }
-        return Math.max(now + 0.002, startAtAudioTime)
+        return startAtAudioTime
     }
 
     function startMidiAudioOutput(settings, ratio, startAtAudioTime) {
         if (shouldDeferSynthStopToNative()) {
+            return { ok: false, actualStartAudioTime: null }
+        }
+        const startRatio = typeof ratio === 'number' ? ratio : 0
+        // Starting within the last 1% only re-triggers an immediate end and,
+        // with the playback guard, a reconnect loop (observed ratio≈0.9978).
+        if (startRatio >= 0.99 && !Number.isFinite(startAtAudioTime)) {
             return { ok: false, actualStartAudioTime: null }
         }
         const ctx = gaudioContext.current
@@ -347,6 +363,18 @@ export default function useAbcSynth(props) {
             // Never run the native abcjs buffer player alongside the SoundTouch
             // shifter — both play the same rendered buffer and cause level drift.
             stopNativeMidiBufferOutput()
+            // Reuse an in-flight connect aimed at the same instant (count-in
+            // pre-schedule). Reconnecting here tore it down and restarted late.
+            if (pitchShifterRef.current.isConnectedOrPending
+                && pitchShifterRef.current.isConnectedOrPending()) {
+                const existing = typeof pitchShifterRef.current.getScheduledConnectTime === 'function'
+                    ? pitchShifterRef.current.getScheduledConnectTime()
+                    : null
+                if (typeof existing === 'number' && typeof targetAudible === 'number'
+                    && Math.abs(existing - targetAudible) < 0.025) {
+                    return { ok: true, actualStartAudioTime: existing }
+                }
+            }
             if (pitchShifterRef.current.isConnected()) {
                 try { pitchShifterRef.current.disconnect() } catch (e) {}
             }
@@ -361,8 +389,13 @@ export default function useAbcSynth(props) {
             const connected = pitchShifterRef.current.isConnectedOrPending
                 ? pitchShifterRef.current.isConnectedOrPending()
                 : pitchShifterRef.current.isConnected()
-            const actualStart = pitchShifterRef.current.isConnected()
-                ? (ctx ? ctx.currentTime : when)
+            // Prefer the scheduled Web Audio start (not now) so late callers
+            // that still pass a future `when` report the true audible time.
+            const scheduledConnect = typeof pitchShifterRef.current.getScheduledConnectTime === 'function'
+                ? pitchShifterRef.current.getScheduledConnectTime()
+                : null
+            const actualStart = typeof scheduledConnect === 'number'
+                ? scheduledConnect
                 : (when != null ? when : (ctx ? ctx.currentTime : null))
             if (props.mediaController && props.mediaController.playbackVolume !== undefined) {
                 pitchShifterRef.current.setDirectOutputGain(false)
@@ -519,6 +552,8 @@ export default function useAbcSynth(props) {
     
     const lastScrollTo = useRef(0)
     const autoScroll = useRef(false)
+    const autoScrollBlock = useRef('nearest')
+    const lastPrimedMelodyOnlyRef = useRef(null)
     const realProgress = useRef(0) // updated by onplaying events
     // keep a copy as a ref to be available for lookup in callbacks
     
@@ -789,13 +824,11 @@ export default function useAbcSynth(props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps -- syncs synth playback from mediaController snapshot fields above
     },[mcIsPlaying, mcMediaLinkNumber, mcMidiHashCurrent, mcTuneId, mcRequestedPlayState, mcPlaybackRouteMode])
     function getMidiPlaybackSeconds() {
-        // currentTime.current is the single source of truth for the MIDI playhead.
-        // It is driven by the abcjs timing callbacks (beat callback), which seek and
-        // reset reliably. The SoundTouch pitch/tempo shifter is an audio-only stage:
-        // its source position does not reliably reflect seeks/rewinds (and orphaned
-        // shifters from the autoStart component swap can report stale positions), so
-        // it must never be used as the displayed clock.
-        return currentTime.current || 0
+        // Prefer the audio-context-anchored clock so the playhead (and mirrored
+        // notation cursor) advance between beatCallback ticks. Falling back to
+        // the beat-quantized currentTime.current left 2/4 cursors up to half a
+        // bar behind the audible notes until the next beat fired.
+        return getRhythmMusicSeconds()
     }
 
     useEffect(function() {
@@ -1001,9 +1034,12 @@ export default function useAbcSynth(props) {
                 try { gtimingCallbacks.current.pause() } catch (e) {}
             }
             // Display-only: no extraMeasures / no audio. Map music-only currentTime
-            // onto the same noteTimings used to draw this SVG.
+            // onto the same noteTimings used to draw this SVG. Use score QPM only —
+            // playback-speed must not warp this timeline (currentTime is music seconds).
+            const tempo = visual.metaText ? visual.metaText.tempo : null
+            const scoreQpm = (typeof visual.getBpm === 'function' && visual.getBpm(tempo)) || 120
             const callbacks = new abcjs.TimingCallbacks(visual, {
-                qpm: getPlaybackMetronomeTempo(visual),
+                qpm: scoreQpm,
             })
             callbacks.__mirrorVisual = visual
             gtimingCallbacks.current = callbacks
@@ -1026,14 +1062,30 @@ export default function useAbcSynth(props) {
             mediaControllerDuration: mc && mc.duration,
         }) || ((lastMoment > 0) ? lastMoment / 1000 : 0)
         if (!(bufferDuration > 0) && !(lastMoment > 0)) return
+        const stateSec = mc && mc.currentTime
+        const liveSec = (mc && mc.getMidiPlaybackSecondsRef
+          && typeof mc.getMidiPlaybackSecondsRef.current === 'function')
+          ? mc.getMidiPlaybackSecondsRef.current()
+          : stateSec
+        const playbackSec = (liveSec >= 0 && isFinite(liveSec)) ? liveSec : stateSec
         const currentTimeMs = playbackClockToTimingMs(
-            mc && mc.currentTime,
+            playbackSec,
             lastMoment,
             bufferDuration
         )
         const root = inputEl && inputEl.current
         const svg = root ? root.querySelector('svg') : null
-        const cursor = applyPlaybackCursorAtTime(svg, gcursor.current, timing.noteTimings, currentTimeMs)
+        const visual = gvisualObj.current
+        const beatsPerMeasure = (visual && typeof visual.getBeatsPerMeasure === 'function')
+          ? parseFloat(visual.getBeatsPerMeasure())
+          : 0
+        const cursor = applyPlaybackCursorAtTime(
+          svg,
+          gcursor.current,
+          timing.noteTimings,
+          currentTimeMs,
+          { beatsPerMeasure: beatsPerMeasure }
+        )
         if (cursor) setCursor(cursor)
     }
 
@@ -1087,14 +1139,13 @@ export default function useAbcSynth(props) {
             && meta && meta.globalSlot != null && meta.globalSlot >= 0) {
             return
         }
-        if (meta && meta.globalSlot != null && meta.globalSlot >= -5 && meta.globalSlot <= 4) {
-        }
+        const nowMusic = getRhythmMusicSeconds()
         recordRhythmSlotEvent(rhythmTimingDiagnostics.current, {
             slotInBar: slotInBar,
             globalSlot: meta && meta.globalSlot,
             audioTime: audioTime,
             expectedAudioTime: meta && meta.expectedAudioTime,
-            musicSeconds: getRhythmMusicSeconds(),
+            musicSeconds: nowMusic,
             phase: phase,
         })
         playRhythmSlot(audioContext, audioTime, rhythm, slotInBar, destination)
@@ -1549,9 +1600,20 @@ export default function useAbcSynth(props) {
                     ratio = Math.min(1, pendingSeconds / gmidiBuffer.current.duration)
                 }
             } else if (hasClickSeek) {
-                ratio = clickSeek
-                if (gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
-                    seconds = clickSeek * gmidiBuffer.current.duration
+                // setClickSeek is async React state and often lags rewind-to-start.
+                // Prefer the synchronous currentTimeRef when it says we are at 0.
+                const timeRefSeconds = props.mediaController.currentTimeRef
+                    ? parseFloat(props.mediaController.currentTimeRef.current)
+                    : NaN
+                const timeRefAtStart = !isNaN(timeRefSeconds) && timeRefSeconds <= tol
+                if (timeRefAtStart && clickSeek > tol) {
+                    ratio = 0
+                    seconds = 0
+                } else {
+                    ratio = clickSeek
+                    if (gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
+                        seconds = clickSeek * gmidiBuffer.current.duration
+                    }
                 }
             } else if (!isMidiPlaybackActive()
                 && !isNaN(clickSeek)
@@ -1973,7 +2035,13 @@ export default function useAbcSynth(props) {
               ? Math.max(0, debugInfo.timestamp - debugInfo.startTime)
               : (lastMoment > 0 ? lastMoment * (currentBeat / totalBeats) : 0)
             const timeMs = lastMoment > 0 ? Math.min(rawMs, Math.max(0, lastMoment - 1)) : rawMs
-            cursorPos = cursorPositionFromNoteTimings(timing.noteTimings, timeMs)
+            const visual = gvisualObj.current
+            const beatsPerMeasure = (visual && typeof visual.getBeatsPerMeasure === 'function')
+              ? parseFloat(visual.getBeatsPerMeasure())
+              : 0
+            cursorPos = cursorPositionFromNoteTimings(timing.noteTimings, timeMs, {
+              beatsPerMeasure: beatsPerMeasure,
+            })
           } else if (position && position.left != null) {
             cursorPos = position
           }
@@ -2041,12 +2109,29 @@ export default function useAbcSynth(props) {
             }
         }
         if (props.onPracticeBeat) {
+            const latencyInfo = playalongOutputLatencyInTimelineRef.current || {}
+            const shifterLatency = pitchShifterRef.current
+                && typeof pitchShifterRef.current.getOutputLatencySec === 'function'
+                ? pitchShifterRef.current.getOutputLatencySec()
+                : 0
+            const ctx = gaudioContext.current
+            const deviceLatency = (ctx
+                ? (Math.max(0, parseFloat(ctx.outputLatency) || 0)
+                    + Math.max(0, parseFloat(ctx.baseLatency) || 0))
+                : 0)
+            const reportedLatency = Math.max(0, deviceLatency)
+                + Math.max(0, parseFloat(shifterLatency) || 0)
             props.onPracticeBeat({
                 currentBeat: currentBeat,
                 totalBeats: totalBeats,
                 musicStartMs: getTimingMusicStartMs(),
                 audioSeconds: newSeconds,
                 repIndex: playCountRef.current,
+                outputLatencySeconds: reportedLatency,
+                outputLatencyAlreadyInTimeline: !!latencyInfo.alreadyInTimeline,
+                outputLatencyAppliedSeconds: Number.isFinite(latencyInfo.appliedSeconds)
+                    ? latencyInfo.appliedSeconds
+                    : 0,
             })
         }
          // FINISHED PLAYBACK
@@ -2131,20 +2216,23 @@ export default function useAbcSynth(props) {
           //setSeekTo(ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
           //if (props.mediaController)  props.mediaController.setCurrentTime((ev.milliseconds / 1000)/(gmidiBuffer.current.duration)*getWarp())
           if (lastScrollTo.current != ev.top) {
-            const noteEl = ev.elements && ev.elements[0] && ev.elements[0][0]
-            if (noteEl && typeof noteEl.scrollIntoView === 'function') {
-              // Nearest keeps the playing note on-screen without fighting lyrics layout
-              // (the old aspect-ratio window.scrollTo jumped once then stalled).
-              try {
-                noteEl.scrollIntoView({ block: 'nearest', inline: 'nearest' })
-              } catch (err) {
-                noteEl.scrollIntoView(true)
+            // Playalong hides the source SVG and shows interleaved staff+roll rows —
+            // scroll those visible rows, not the invisible note element.
+            if (!scrollPlayalongPlayingLineIntoCenter(ev)) {
+              const noteEl = ev.elements && ev.elements[0] && ev.elements[0][0]
+              const block = autoScrollBlock.current === 'center' ? 'center' : 'nearest'
+              if (noteEl && typeof noteEl.scrollIntoView === 'function') {
+                try {
+                  noteEl.scrollIntoView({ block: block, inline: 'nearest' })
+                } catch (err) {
+                  noteEl.scrollIntoView(true)
+                }
+              } else {
+                var screenRatio = window.visualViewport.width/window.visualViewport.height
+                const mobileAdjust =  (isMobile && window.visualViewport.height < 400) ? 0.45 : 1
+                var finalScroll = ((ev.top) * screenRatio ) * mobileAdjust
+                window.scrollTo(0,finalScroll)
               }
-            } else {
-              var screenRatio = window.visualViewport.width/window.visualViewport.height
-              const mobileAdjust =  (isMobile && window.visualViewport.height < 400) ? 0.45 : 1
-              var finalScroll = ((ev.top) * screenRatio ) * mobileAdjust
-              window.scrollTo(0,finalScroll)
             }
           }
           lastScrollTo.current = ev.top
@@ -2310,12 +2398,26 @@ export default function useAbcSynth(props) {
                 // orphaned shifter fight the real clock and corrupt seek/rewind.
             },
             function onEnded() {
-                if (Date.now() < midiPlaybackGuardUntilRef.current) {
+                // Near-end reconnect loops refresh the 3s guard and previously
+                // swallowed completion — play/pause spasmed and the queue never
+                // advanced. Always honor a natural end once past ~99% / <150ms left.
+                const dur = pitchShifterRef.current && pitchShifterRef.current.duration > 0
+                    ? pitchShifterRef.current.duration
+                    : (gmidiBuffer.current && gmidiBuffer.current.duration > 0
+                        ? gmidiBuffer.current.duration
+                        : 0)
+                const pos = pitchShifterRef.current
+                    && typeof pitchShifterRef.current.getCurrentTime === 'function'
+                    ? pitchShifterRef.current.getCurrentTime()
+                    : currentTime.current
+                const nearEnd = dur > 0 && (pos / dur >= 0.99 || (dur - pos) < 0.15)
+                if (!nearEnd && Date.now() < midiPlaybackGuardUntilRef.current) {
                     return
                 }
-                if (isSynthSeekGuardActive()) {
+                if (!nearEnd && isSynthSeekGuardActive()) {
                     return
                 }
+                midiPlaybackGuardUntilRef.current = 0
                 stopPlaying()
                 if (props.onEnded) props.onEnded()
             },
@@ -2483,13 +2585,19 @@ export default function useAbcSynth(props) {
             releaseMidiUiLoading()
             return
         }
+        // Forced restarts (play-along, From start) must cancel an in-flight
+        // count-in / handoff; otherwise this returns and leaves mid-tune audio.
+        if (force) {
+            invalidatePendingMidiStarts()
+            countInPendingRef.current = false
+        }
         // Media-settings MIDI after reload can kick startPlaying from
         // beginMidiPlayback, Abc pending-play, and autoPrime createPlayer.
         // Stacking those restarts count-in mid-schedule (3 quick + 3 even).
-        if (countInPendingRef.current || isRhythmHandoffPhase()) {
+        if (!force && (countInPendingRef.current || isRhythmHandoffPhase())) {
             return
         }
-        if (midiPrimeInFlightRef.current) {
+        if (!force && midiPrimeInFlightRef.current) {
             if (primePromiseRef.current || countInPendingRef.current || isRhythmHandoffPhase()) {
                 return
             }
@@ -2505,7 +2613,7 @@ export default function useAbcSynth(props) {
             }
             return
         }
-        if (primePromiseRef.current && isLoading.current) {
+        if (!force && primePromiseRef.current && isLoading.current) {
             return
         }
         if (force) {
@@ -2517,6 +2625,14 @@ export default function useAbcSynth(props) {
         stopMetronome()
         midiPrimeInFlightRef.current = true
         resumeSynthAudioContext()
+        const wantMelodyOnly = !!props.forceFillOff
+        const primedMelodyOnly = lastPrimedMelodyOnlyRef.current
+        if (gaudioContext.current && gmidiBuffer.current
+            && primedMelodyOnly != null
+            && wantMelodyOnly !== !!primedMelodyOnly) {
+          // Drop chord-fill buffer when entering play-along (or restore fills after).
+          try { destroyAudioEngines() } catch (e) {}
+        }
         if (gaudioContext.current && gmidiBuffer.current) {
           startPrimedTune(force)
         } else {
@@ -2714,6 +2830,9 @@ export default function useAbcSynth(props) {
             pendingRestartFromZeroRef.current = true
             currentTime.current = 0
             if (props.mediaController) {
+                if (props.mediaController.currentTimeRef) {
+                    props.mediaController.currentTimeRef.current = 0
+                }
                 if (props.mediaController.setCurrentTime) props.mediaController.setCurrentTime(0)
                 if (props.mediaController.setClickSeek) props.mediaController.setClickSeek(0)
                 if (props.mediaController.notationPlaybackSeekRef) {
@@ -2799,7 +2918,13 @@ export default function useAbcSynth(props) {
             ? explicitStartSeconds
             : resolveNotationPlaybackStartSeconds(opts)
         if (opts.restart) {
-            clearArmPlaybackFromZero()
+            // Keep pendingRestartFromZeroRef armed for fromStart until audio
+            // actually begins — clearArmPlaybackFromZero runs after start.
+            if (!opts.fromStart && !pendingRestartFromZeroRef.current) {
+                clearArmPlaybackFromZero()
+            } else {
+                pendingRestartFromZeroRef.current = true
+            }
             clearNotationPlaybackSeek()
             clearNotationPlaybackStartSeconds()
             pendingPlaybackStartSecondsRef.current = null
@@ -3040,6 +3165,12 @@ export default function useAbcSynth(props) {
         if (!shouldResume && !(props.mediaController && props.mediaController.isPlaying)) {
             return
         }
+        const ratio = getMidiPlaybackRatio()
+        // Do not revive a tune that already finished — that caused ~200ms
+        // reconnect spasms at ratio≈0.998 and blocked queue advance.
+        if (ratio >= 0.99) {
+            return
+        }
         midiPlaybackGuardUntilRef.current = Date.now() + 3000
         setForceStop(false)
         midiStartHandledRef.current = true
@@ -3048,7 +3179,6 @@ export default function useAbcSynth(props) {
             stopMetronome()
         }
         resumeSynthAudioContext()
-        const ratio = getMidiPlaybackRatio()
         const settings = pitchTempoSettingsRef.current
         if (pitchShifterRef.current && gaudioContext.current
             && gaudioContext.current.state === 'running') {
@@ -3234,8 +3364,46 @@ export default function useAbcSynth(props) {
               let handoffMusicSeconds = null
               const alreadyHandedOff = controller.phase === PHASE_PLAYING && !!controller.timeline
               const priorAnchor = rhythmMusicAnchorRef.current
+              // True audible MIDI start: prefer the pitch-shifter connect time.
+              // When MIDI was pre-scheduled, audioStart.actualStartAudioTime is only
+              // the original target — using it re-anchored the click grid backward
+              // onto the early schedule and left ~8ms metronome skew.
+              let audibleMidiStart = null
+              if (pitchShifterRef.current
+                  && typeof pitchShifterRef.current.getScheduledConnectTime === 'function') {
+                  const sc = pitchShifterRef.current.getScheduledConnectTime()
+                  if (typeof sc === 'number') audibleMidiStart = sc
+              }
+              if (audibleMidiStart == null && !midiWasPreScheduled
+                  && audioStart && typeof audioStart.actualStartAudioTime === 'number') {
+                  audibleMidiStart = audioStart.actualStartAudioTime
+              }
               if (alreadyHandedOff) {
-                  if (!priorAnchor.active) {
+                  const entrySlot = controller.musicStartSlot != null
+                      ? controller.musicStartSlot
+                      : 0
+                  const plannedEntryAudio = controller.timeline
+                      ? audioTimeForGlobalSlot(controller.timeline, entrySlot)
+                      : (controller.musicStartAudioTime != null
+                          ? controller.musicStartAudioTime
+                          : scheduledStart)
+                  if (audibleMidiStart != null && typeof plannedEntryAudio === 'number'
+                      && Math.abs(audibleMidiStart - plannedEntryAudio) > 0.003
+                      && Math.abs(audibleMidiStart - plannedEntryAudio) < 0.08
+                      && controller.timeline) {
+                      reanchorTimelineAtSlot(
+                          controller.timeline,
+                          entrySlot,
+                          audibleMidiStart
+                      )
+                      controller.musicStartAudioTime = audibleMidiStart
+                      musicStartAudioTime = audibleMidiStart
+                      rhythmMusicAnchorRef.current = {
+                          musicSeconds: 0,
+                          audioContextTime: audibleMidiStart,
+                          active: true,
+                      }
+                  } else if (!priorAnchor.active) {
                       musicStartAudioTime = controller.musicStartAudioTime != null
                           ? controller.musicStartAudioTime
                           : scheduledStart
@@ -3262,6 +3430,18 @@ export default function useAbcSynth(props) {
               musicSeconds = handoff.musicSeconds
               handoffMusicSeconds = handoff.musicSeconds
               forceTimelineReanchor = false
+              if (audibleMidiStart != null && typeof musicStartAudioTime === 'number'
+                  && Math.abs(audibleMidiStart - musicStartAudioTime) > 0.003
+                  && Math.abs(audibleMidiStart - musicStartAudioTime) < 0.08) {
+                  // Prefer the audible MIDI connect time over the handoff estimate.
+                  if (musicSeconds < 0.001) {
+                      musicStartAudioTime = audibleMidiStart
+                      forceTimelineReanchor = true
+                  } else {
+                      musicStartAudioTime = audibleMidiStart - musicSeconds / factor
+                      forceTimelineReanchor = true
+                  }
+              }
               // Keep the count-in grid when handoff is on time. Only re-anchor when
               // music audibly started late (SoundTouch connect drift, async handoff).
               if (controller.timeline && now != null) {
@@ -3618,6 +3798,19 @@ export default function useAbcSynth(props) {
                                     }).catch(function() {})
                                 }
                                     : null,
+                                onPreScheduleMusic: duringPlayback
+                                    ? function(musicStartAudioTime) {
+                                    if (!isPlaybackGenerationCurrent(countInGeneration)) return
+                                    if (!wantsMidiPlayback(true)) return
+                                    if (!(typeof musicStartAudioTime === 'number')) return
+                                    const midiOut = startMidiAudioOutput(
+                                        pitchTempoSettingsRef.current,
+                                        0,
+                                        musicStartAudioTime
+                                    )
+                                    countInMidiPreScheduledRef.current = !!(midiOut && midiOut.ok)
+                                }
+                                    : null,
                                 onMusicStart: function(scheduledMusicStartAudioTime) {
                                     if (!isPlaybackGenerationCurrent(countInGeneration)) {
                                         countInPendingRef.current = false
@@ -3636,6 +3829,8 @@ export default function useAbcSynth(props) {
                                         prepareFreshMidiStartFromCountIn()
                                     }
                                     if (duringPlayback && startAt != null) {
+                                        // Prefer the count-in pre-schedule; only arm here if
+                                        // that path missed (reuse guard avoids tearing it down).
                                         const midiOut = startMidiAudioOutput(
                                             pitchTempoSettingsRef.current,
                                             0,
@@ -3651,17 +3846,26 @@ export default function useAbcSynth(props) {
                                             && typeof pitchShifterRef.current.getOutputLatencySec === 'function'
                                             ? pitchShifterRef.current.getOutputLatencySec()
                                             : 0
-                                        const connectDrift = handoffNow != null && startAt != null
-                                            ? handoffNow - startAt
+                                        const scheduledConnect = pitchShifterRef.current
+                                            && typeof pitchShifterRef.current.getScheduledConnectTime === 'function'
+                                            ? pitchShifterRef.current.getScheduledConnectTime()
+                                            : null
+                                        const midiStart = (typeof scheduledConnect === 'number'
+                                            ? scheduledConnect
+                                            : (midiOut && typeof midiOut.actualStartAudioTime === 'number'
+                                                ? midiOut.actualStartAudioTime
+                                                : handoffNow))
+                                        const audibleMusicStart = typeof midiStart === 'number'
+                                            ? midiStart + Math.max(0, outputLatencySec)
+                                            : (startAt != null
+                                                ? startAt + Math.max(0, outputLatencySec)
+                                                : null)
+                                        const connectDrift = audibleMusicStart != null && startAt != null
+                                            ? audibleMusicStart - (startAt + Math.max(0, outputLatencySec))
                                             : 0
                                         const entrySlot = snap && snap.musicStartSlot != null
                                             ? snap.musicStartSlot
                                             : 0
-                                        const audibleMusicStart = handoffNow != null
-                                            ? handoffNow + Math.max(0, outputLatencySec)
-                                            : (startAt != null
-                                                ? startAt + Math.max(0, outputLatencySec)
-                                                : null)
                                         // Keep count-in phase; shift only when MIDI connects
                                         // measurably late so entry slot matches audible start.
                                         const pickupBeats = controller.pickupBeats || 0
@@ -3679,24 +3883,45 @@ export default function useAbcSynth(props) {
                                                 : startAt)
                                         let needsReanchor = outputLatencySec > 0.001
                                         if (fractionalPickup) {
-                                            const anacrusisTime = scheduledAnacrusis != null
-                                                ? scheduledAnacrusis
-                                                : (audibleMusicStart != null
-                                                    ? audibleMusicStart
-                                                    : timelineMusicStart)
-                                            timelineMusicStart = anacrusisTime + pickupBeats * secPerBeat
+                                            // First note is anacrusis; timeline slot 0 is downbeat.
+                                            // Prefer the real audible anacrusis when connect drifted.
+                                            const anacrusisTime = (connectDrift > 0.003
+                                                && audibleMusicStart != null)
+                                                ? audibleMusicStart
+                                                : (scheduledAnacrusis != null
+                                                    ? scheduledAnacrusis
+                                                    : audibleMusicStart)
+                                            timelineMusicStart = (anacrusisTime != null
+                                                ? anacrusisTime
+                                                : timelineMusicStart) + pickupBeats * secPerBeat
                                             timelineAnchorSlot = 0
                                             needsReanchor = true
-                                        } else if (connectDrift > 0.02 && audibleMusicStart != null) {
+                                        } else if (connectDrift > 0.003 && audibleMusicStart != null) {
                                             timelineMusicStart = audibleMusicStart
                                             timelineAnchorSlot = entrySlot
                                             needsReanchor = true
                                         }
+                                        playalongOutputLatencyInTimelineRef.current = {
+                                            alreadyInTimeline: needsReanchor && outputLatencySec > 0.001,
+                                            appliedSeconds: needsReanchor && outputLatencySec > 0.001
+                                                ? Math.max(0, outputLatencySec)
+                                                : 0,
+                                        }
+                                        // Music seconds 0 = first sounding note (anacrusis),
+                                        // not the downbeat used as timelineMusicStart for pickups.
+                                        const musicClockAudioTime = (connectDrift > 0.003
+                                            && audibleMusicStart != null)
+                                            ? audibleMusicStart
+                                            : (scheduledAnacrusis != null
+                                                ? scheduledAnacrusis
+                                                : audibleMusicStart)
                                         rhythmMusicAnchorRef.current = {
                                             musicSeconds: 0,
-                                            audioContextTime: scheduledAnacrusis != null
-                                                ? scheduledAnacrusis
-                                                : audibleMusicStart,
+                                            audioContextTime: musicClockAudioTime != null
+                                                ? musicClockAudioTime
+                                                : (audibleMusicStart != null
+                                                    ? audibleMusicStart
+                                                    : (startAt || 0)),
                                             active: true,
                                         }
                                         beginRhythmPlayingAtMusicStart(controller, {
@@ -3837,7 +4062,14 @@ export default function useAbcSynth(props) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
-            var fillPlayback = resolveFillPlaybackOptions(tune, props.tunebook)
+            var fillTune = props.forceFillOff
+              ? Object.assign({}, tune, {
+                  playbackFillStyle: FILL_STYLE_OFF,
+                  playbackFillLevel: 0,
+                })
+              : tune
+            var fillPlayback = resolveFillPlaybackOptions(fillTune, props.tunebook)
+            lastPrimedMelodyOnlyRef.current = !!props.forceFillOff || fillPlayback.settings.style === FILL_STYLE_OFF
             var soundFontPlan = getPlaybackSoundFontPlan({ tune: tune })
             var a = soundFontPlan.url
             //var warp =  props.warp > 0 ? props.warp : 1
@@ -3862,6 +4094,7 @@ export default function useAbcSynth(props) {
                },
             }
             var useSequencePath = soundFontPlan.remap || fillPlayback.injectCustomFill
+            var audibleMsPerMeasureForPrime = initOptions.millisecondsPerMeasure
             if (useSequencePath) {
               // Remap GM programs onto the embedded selection so abcjs only
               // requests samples that exist under selection/MusyngKite.
@@ -3882,27 +4115,22 @@ export default function useAbcSynth(props) {
                 }
                 initOptions.sequence = flattened
                 // abcjs CreateSynth defaults meterSize=1 when only `sequence` is
-                // passed (visualObj path sets num/den). tempoMultiplier =
-                // msPerMeasure/1000/meterSize, so 3/4 audio was rendered 4/3
-                // fast vs the metronome (count-in start aligned; then drifted).
-                // Compensate by scaling millisecondsPerMeasure by 1/meterSize.
-                if (typeof synthObj.getMeterFraction === 'function') {
-                  var meterFrac = synthObj.getMeterFraction()
-                  if (meterFrac && meterFrac.den > 0 && meterFrac.num > 0) {
-                    var meterSize = meterFrac.num / meterFrac.den
-                    if (meterSize > 0 && Math.abs(meterSize - 1) > 0.0001) {
-                      initOptions.millisecondsPerMeasure =
-                        initOptions.millisecondsPerMeasure / meterSize
-                    }
-                  }
-                } else {
-                  var meterFrac = null
+                // passed (visualObj path sets num/den). Scale the init option for
+                // CreateSynth, but keep audible bar length for TimingCallbacks /
+                // metronome QPM (see resolveSequencePathMeasureTiming).
+                var measureTiming = resolveSequencePathMeasureTiming(
+                  initOptions.millisecondsPerMeasure,
+                  typeof synthObj.getMeterFraction === 'function'
+                    ? synthObj.getMeterFraction()
+                    : null
+                )
+                audibleMsPerMeasureForPrime = measureTiming.audibleMsPerMeasure
+                initOptions.millisecondsPerMeasure = measureTiming.createSynthMsPerMeasure
+                if (audibleMsPerMeasureForPrime > 0) {
+                  primedMsPerMeasureRef.current = audibleMsPerMeasureForPrime
                 }
-                if (initOptions.millisecondsPerMeasure > 0) {
-                  primedMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
-                }
-                if (fillPlayback.injectCustomFill && initOptions.millisecondsPerMeasure > 0) {
-                  effectiveMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
+                if (fillPlayback.injectCustomFill && audibleMsPerMeasureForPrime > 0) {
+                  effectiveMsPerMeasureRef.current = audibleMsPerMeasureForPrime
                 }
               } catch (remapErr) {
                 console.warn('Local soundfont program remap failed; using visualObj', remapErr)
@@ -3919,6 +4147,10 @@ export default function useAbcSynth(props) {
             // (no longer clears soundFontUrl to hit FluidR3 CDN).
             if (synthObj.visualTranspose > 0 || synthObj.visualTranspose < 0 ) {
               initOptions.options.midiTranspose = parseInt(synthObj.visualTranspose)
+            } else if (props.visualTranspose > 0 || props.visualTranspose < 0) {
+              initOptions.options.midiTranspose = parseInt(props.visualTranspose, 10)
+            } else {
+              initOptions.options.midiTranspose = 0
             }
          
             function getAudioHash(tune) {
@@ -3926,6 +4158,8 @@ export default function useAbcSynth(props) {
               // are not reused after the millisecondsPerMeasure compensation.
               // Include ofsMusyng0 so MusyngKite buffers rendered with original-bank
               // programOffsets are not reused after offsets were cleared.
+              // Include visual/MIDI transpose so capo/transpose display changes
+              // do not reuse a buffer primed at a different pitch.
               var meterKey = ''
               try {
                 if (synthObj && typeof synthObj.getMeterFraction === 'function') {
@@ -3938,9 +4172,14 @@ export default function useAbcSynth(props) {
                 : 0
               var ofsKey = Object.keys(effectiveProgramOffsets || {}).length ? 'ofs1' : 'ofsMusyng0'
               var bankKey = soundFontPlan.bank === 'online' ? 'online' : 'sel'
-              var fillKey = (tune && tune.playbackFillStyle ? tune.playbackFillStyle : 'boom-chick')
-                + '-' + (tune && tune.playbackFillLevel != null ? tune.playbackFillLevel : 100)
-              return tune.id + "-" + tune.tempo  + '-'+tune.transpose+"-"+meterKey+"-"+seqMsKey+"-"+ofsKey+"-"+bankKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
+              var fillKey = props.forceFillOff
+                ? 'off-0'
+                : ((tune && tune.playbackFillStyle ? tune.playbackFillStyle : 'boom-chick')
+                  + '-' + (tune && tune.playbackFillLevel != null ? tune.playbackFillLevel : 100))
+              var transposeKey = initOptions.options && initOptions.options.midiTranspose != null
+                ? initOptions.options.midiTranspose
+                : (tune && tune.transpose != null ? tune.transpose : 0)
+              return tune.id + "-" + tune.tempo  + '-'+transposeKey+"-"+meterKey+"-"+seqMsKey+"-"+ofsKey+"-"+bankKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {
@@ -3998,8 +4237,8 @@ export default function useAbcSynth(props) {
                           
                           const [duration, audioBuffers] = audioResult
                           if (audioBuffers) {
-                             if (initOptions.millisecondsPerMeasure > 0) {
-                               primedMsPerMeasureRef.current = initOptions.millisecondsPerMeasure
+                             if (audibleMsPerMeasureForPrime > 0) {
+                               primedMsPerMeasureRef.current = audibleMsPerMeasureForPrime
                              }
                              midiBuffer.init(initOptions).then(function (response) { 
                                 midiBuffer.audioBuffers = audioBuffers
@@ -4097,7 +4336,7 @@ export default function useAbcSynth(props) {
     })
   }
 
-  return {createCursor, programOffsets, clickListener, beatCallback, eventCallback, metronomeTimeout, metronome, rhythmController, gaudioContext, gmidiBuffer, gvisualObj, gplaybackVisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setPlaybackVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, startPlayingFromIntent, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying, setTempoFactor, applyMidiTempo, getPitchTempoState, resetPitchTempo, applyPlaybackSettings, getPlaybackGeneration: function() { return playbackGenerationRef.current }, isPlaybackGenerationCurrent}
+  return {createCursor, programOffsets, clickListener, beatCallback, eventCallback, metronomeTimeout, metronome, rhythmController, gaudioContext, gmidiBuffer, gvisualObj, gplaybackVisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, autoScrollBlock, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setPlaybackVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, startPlayingFromIntent, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying, setTempoFactor, applyMidiTempo, getPitchTempoState, resetPitchTempo, applyPlaybackSettings, getPlaybackGeneration: function() { return playbackGenerationRef.current }, isPlaybackGenerationCurrent}
 }
 
 

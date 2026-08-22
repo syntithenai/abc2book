@@ -207,6 +207,13 @@ export function persistMediaAnalysisFieldSuggestions(tuneId, formatted, tune, op
     if (existing) dismissFieldLookup(existing.id)
 
     const empty = isTuneFieldEmptyForKind(tune, kind)
+    const reviewOnlyKinds = kind === 'chords' || kind === 'lyrics' || kind === 'notation'
+    if (!empty && reviewOnlyKinds) {
+      if (cacheAnalysisCandidate(tuneId, kind, analysisCandidate, tune)) {
+        cached.push({ kind: kind })
+      }
+      return
+    }
     if (empty) {
       if (tune) {
         const applied = applyCandidateToTune(tune, kind, analysisCandidate, abcTools)
@@ -224,7 +231,7 @@ export function persistMediaAnalysisFieldSuggestions(tuneId, formatted, tune, op
           return
         }
       }
-      if (kind === 'chords' || kind === 'lyrics' || kind === 'notation') {
+      if (reviewOnlyKinds) {
         if (cacheAnalysisCandidate(tuneId, kind, analysisCandidate, tune)) {
           cached.push({ kind: kind })
         }

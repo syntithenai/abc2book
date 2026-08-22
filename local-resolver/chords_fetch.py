@@ -37,11 +37,13 @@ CHORD_PAGE_HOST_SUFFIXES = (
     "worshiptogether.com",
 )
 
-# Hosts we can parse into a chord sheet (not Ultimate Guitar).
+# Hosts we can parse into a chord sheet.
 SCRAPABLE_CHORD_HOST_SUFFIXES = (
     "e-chords.com",
     "cifraclub.com",
     "cifraclub.com.br",
+    "tabs.ultimate-guitar.com",
+    "ultimate-guitar.com",
     "azchords.com",
     "chordsbase.com",
     "chords-and-tabs.net",
@@ -52,10 +54,7 @@ SCRAPABLE_CHORD_HOST_SUFFIXES = (
     "worshiptogether.com",
 )
 
-DISCOVERY_CHORD_HOST_SUFFIXES = SCRAPABLE_CHORD_HOST_SUFFIXES + (
-    "tabs.ultimate-guitar.com",
-    "ultimate-guitar.com",
-)
+DISCOVERY_CHORD_HOST_SUFFIXES = SCRAPABLE_CHORD_HOST_SUFFIXES
 
 DUCKDUCKGO_HTML_SEARCH_URL = "https://html.duckduckgo.com/html/?q="
 AZCHORDS_CONTENT_RE = re.compile(r'<pre[^>]*id="content"[^>]*>(.*?)</pre>', re.S | re.I)
@@ -80,6 +79,14 @@ SEARCH_RESULT_TAG_RE = re.compile(r"<[^>]+>")
 CAPO_META_RE = re.compile(r"^capo\s*:?\s*(\d+)\s*$", re.I)
 KEY_META_RE = re.compile(r"^key\s*:\s*(.+)$", re.I)
 TUNING_META_RE = re.compile(r"^tuning\s*:\s*(.+)$", re.I)
+UG_JS_STORE_DATA_RE = re.compile(
+    r'(?:class="[^"]*js-store[^"]*"[^>]*data-content="([^"]+)"|data-content="([^"]+)"[^>]*class="[^"]*js-store[^"]*")',
+    re.I,
+)
+UG_DATA_CONTENT_RE = re.compile(r'data-content="([^"]+)"', re.I)
+UG_CH_TAG_RE = re.compile(r"\[ch\](.*?)\[/ch\]", re.S | re.I)
+UG_TAB_TAG_RE = re.compile(r"\[/?tab\]", re.I)
+UG_CHORDS_TYPE_RE = re.compile(r"^chords$", re.I)
 
 
 def slugify(value):
@@ -560,8 +567,99 @@ def extract_worshiptogether_sheet(html_text):
     return "\n".join(lines)
 
 
+def _parse_ug_js_store(html_text):
+    """Decode Ultimate Guitar's embedded js-store JSON, or None."""
+    if not html_text:
+        return None
+    encoded = None
+    match = UG_JS_STORE_DATA_RE.search(html_text)
+    if match:
+        encoded = match.group(1) or match.group(2)
+    if not encoded:
+        for data_match in UG_DATA_CONTENT_RE.finditer(html_text):
+            candidate = data_match.group(1)
+            if "wiki_tab" in html.unescape(candidate):
+                encoded = candidate
+                break
+    if not encoded:
+        return None
+    try:
+        return json.loads(html.unescape(encoded))
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return None
+
+
+def _ug_page_data(store):
+    if not isinstance(store, dict):
+        return None
+    page = (store.get("store") or {}).get("page") or {}
+    data = page.get("data")
+    return data if isinstance(data, dict) else None
+
+
+def _strip_ug_wiki_markup(content):
+    text = UG_CH_TAG_RE.sub(r"\1", content or "")
+    text = UG_TAB_TAG_RE.sub("", text)
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    return text
+
+
+def _ug_meta_preamble(tab, tab_view):
+    """Build Capo/Key/Tuning lines from UG tab_view.meta for extract_chord_sheet_meta."""
+    lines = []
+    meta = (tab_view or {}).get("meta") if isinstance(tab_view, dict) else None
+    if not isinstance(meta, dict):
+        meta = {}
+    capo = meta.get("capo")
+    if capo is not None and str(capo).strip() != "":
+        try:
+            lines.append("Capo {0}".format(int(capo)))
+        except (TypeError, ValueError):
+            lines.append("Capo {0}".format(capo))
+    tonality = (
+        meta.get("tonality")
+        or (tab or {}).get("tonality_name")
+        or ""
+    )
+    tonality = str(tonality).strip()
+    if tonality:
+        lines.append("Key: {0}".format(tonality))
+    tuning = meta.get("tuning")
+    if isinstance(tuning, dict):
+        tuning_value = str(tuning.get("value") or "").strip()
+        if tuning_value:
+            lines.append("Tuning: {0}".format(tuning_value))
+    return lines
+
+
+def extract_ultimate_guitar_sheet(html_text):
+    """Extract a chord sheet from Ultimate Guitar's embedded js-store JSON."""
+    store = _parse_ug_js_store(html_text)
+    data = _ug_page_data(store)
+    if not data:
+        return None
+    tab = data.get("tab") if isinstance(data.get("tab"), dict) else {}
+    tab_view = data.get("tab_view") if isinstance(data.get("tab_view"), dict) else {}
+    tab_type = str(tab.get("type") or "").strip()
+    if tab_type and not UG_CHORDS_TYPE_RE.match(tab_type):
+        return None
+    wiki = tab_view.get("wiki_tab") if isinstance(tab_view.get("wiki_tab"), dict) else {}
+    content = wiki.get("content")
+    if not isinstance(content, str) or not content.strip():
+        return None
+    body = _strip_ug_wiki_markup(content).strip()
+    if not body:
+        return None
+    preamble = _ug_meta_preamble(tab, tab_view)
+    if preamble:
+        return "\n".join(preamble + ["", body])
+    return body
+
+
 def extract_sheet_from_html(html_text, page_url):
     host = (urlparse(page_url).hostname or "").lower()
+    if "ultimate-guitar.com" in host:
+        return extract_ultimate_guitar_sheet(html_text)
     if "azchords.com" in host:
         return extract_azchords_sheet(html_text)
     if "e-chords.com" in host:
@@ -630,7 +728,7 @@ def _candidate_from_search_result(item, title, artist, default_source):
         return None
 
     host = _display_host(validated)
-    # Discovery includes scrapable hosts and manual_only (Ultimate Guitar).
+    # Discovery includes all scrapable chord hosts (including Ultimate Guitar).
     if not _is_known_discovery_host(host):
         return None
 
@@ -638,8 +736,17 @@ def _candidate_from_search_result(item, title, artist, default_source):
     snippet = _strip_search_result_text(item.get("description") or item.get("snippet") or "")
     score = score_title_artist_match(result_title, snippet, title, artist)
     lower_text = " ".join([result_title, snippet, validated]).lower()
-    if "chord" in lower_text:
+    lower_url = validated.lower()
+    if "-chords-" in lower_url or "/chords/" in lower_url:
+        score += 50
+    elif "chord" in lower_text:
         score += 40
+    if "ultimate-guitar.com" in host:
+        score += 200
+    if "-tabs-" in lower_url and "-chords-" not in lower_url:
+        score -= 25
+    if "guitar-pro" in lower_url or "guitar_pro" in lower_url:
+        score -= 50
     if "tab" in lower_text:
         score += 10
     if "ukulele" in lower_text:
@@ -722,12 +829,6 @@ def azchords_candidates(search_html, title, artist):
 async def fetch_text(client, url, headers=None, allow_playwright=True):
     """Fetch HTML via polite httpx with optional Playwright fallback for eligible hosts."""
     host = urlparse(url).hostname or ""
-    if is_manual_only_host(host):
-        raise ValueError(
-            "Ultimate Guitar blocks automated access from the resolver. "
-            "Open the page in your browser, copy the chord sheet, and use "
-            "Paste chord sheet in the chord editor."
-        )
 
     # Search-engine HTML does not need Playwright; chord pages may.
     use_playwright = allow_playwright and is_playwright_eligible_host(host)
@@ -739,12 +840,6 @@ async def fetch_text(client, url, headers=None, allow_playwright=True):
     text = result.text or ""
     if result.blocked_reason == "none" and text.strip():
         return text
-    if result.status in {401, 403} and "ultimate-guitar" in host.lower():
-        raise ValueError(
-            "Ultimate Guitar blocks automated access from the resolver. "
-            "Open the page in your browser, copy the chord sheet, and use "
-            "Paste chord sheet in the chord editor."
-        )
     if result.blocked_reason in {"challenge_html", "empty", "http_status"} and not text.strip():
         raise ValueError("Blocked or empty response from {0}".format(url))
     if result.status >= 400:
@@ -756,27 +851,30 @@ async def fetch_text(client, url, headers=None, allow_playwright=True):
     return text
 
 
-def build_brave_chord_query(title, artist):
+def build_brave_chord_query(title, artist, site_host=None):
     terms = ['"{0}"'.format(title)]
     if artist:
         terms.append('"{0}"'.format(artist))
     terms.append("chords")
-    terms.append(
-        "(site:tabs.ultimate-guitar.com OR site:e-chords.com OR site:cifraclub.com "
-        "OR site:azchords.com OR site:worshiptogether.com OR site:chordsbase.com "
-        "OR site:chords-and-tabs.net OR site:guitaretab.com OR site:akordy.kytary.cz "
-        "OR site:chordie.com OR site:guitartabs.cc)"
-    )
+    if site_host:
+        terms.append("site:{0}".format(site_host))
+    else:
+        terms.append(
+            "(site:tabs.ultimate-guitar.com OR site:e-chords.com OR site:cifraclub.com "
+            "OR site:azchords.com OR site:worshiptogether.com OR site:chordsbase.com "
+            "OR site:chords-and-tabs.net OR site:guitaretab.com OR site:akordy.kytary.cz "
+            "OR site:chordie.com OR site:guitartabs.cc)"
+        )
     return " ".join(terms)
 
 
-async def search_brave_chord_candidates(client, title, artist):
+async def search_brave_chord_candidates(client, title, artist, site_host=None):
     if not BRAVE_SEARCH_API_KEY:
         return []
     response = await client.get(
         "https://api.search.brave.com/res/v1/web/search",
         params={
-            "q": build_brave_chord_query(title, artist),
+            "q": build_brave_chord_query(title, artist, site_host=site_host),
             "count": CHORD_SEARCH_RESULTS_PER_QUERY,
         },
         headers={
@@ -784,8 +882,96 @@ async def search_brave_chord_candidates(client, title, artist):
             "X-Subscription-Token": BRAVE_SEARCH_API_KEY,
         },
     )
-    response.raise_for_status()
+    # Rate limits (429) and transient Brave failures should not abort UG discovery.
+    if response.status_code >= 400:
+        return []
     return brave_chord_candidates_from_results(response.json(), title, artist)
+
+
+def _walk_ug_tab_entries(node, out):
+    """Collect dicts that look like UG tab search/result rows."""
+    if isinstance(node, dict):
+        tab_url = node.get("tab_url") or node.get("tabUrl")
+        tab_type = node.get("type") or node.get("type_name") or ""
+        if isinstance(tab_url, str) and tab_url.strip():
+            out.append(node)
+        elif tab_type:
+            # Keep walking; nested payloads still hold the rows.
+            pass
+        for value in node.values():
+            _walk_ug_tab_entries(value, out)
+    elif isinstance(node, list):
+        for item in node:
+            _walk_ug_tab_entries(item, out)
+
+
+def ultimate_guitar_search_candidates_from_html(html_text, title, artist):
+    """Parse Ultimate Guitar search-page js-store into ranked chord candidates."""
+    store = _parse_ug_js_store(html_text)
+    if not store:
+        return []
+    rows = []
+    _walk_ug_tab_entries(store, rows)
+    candidates = []
+    seen = set()
+    for row in rows:
+        tab_type = str(row.get("type") or row.get("type_name") or "").strip().lower()
+        if tab_type and tab_type not in {"chords", "chord"}:
+            continue
+        raw_url = str(row.get("tab_url") or row.get("tabUrl") or "").strip()
+        if not raw_url:
+            continue
+        validated, error = validate_chord_page_url(raw_url)
+        if error or not validated:
+            continue
+        lower_url = validated.lower()
+        if "-chords-" not in lower_url and "/chords/" not in lower_url:
+            # Search rows sometimes omit type; still require chords URL shape.
+            if tab_type not in {"chords", "chord"}:
+                continue
+        if validated in seen:
+            continue
+        seen.add(validated)
+        song_name = str(row.get("song_name") or row.get("songName") or title or "").strip()
+        artist_name = str(row.get("artist_name") or row.get("artistName") or artist or "").strip()
+        score = score_title_artist_match(song_name, artist_name, title, artist)
+        try:
+            votes = float(row.get("votes") or 0)
+        except (TypeError, ValueError):
+            votes = 0.0
+        try:
+            rating = float(row.get("rating") or 0)
+        except (TypeError, ValueError):
+            rating = 0.0
+        # Prefer popular, highly rated Official-style sheets.
+        score += min(220, int(votes / 50)) + int(rating * 8)
+        score += 200  # Ultimate Guitar preference
+        candidates.append({
+            "url": validated,
+            "title": song_name or title,
+            "artist": artist_name or artist,
+            "source": "tabs.ultimate-guitar.com",
+            "score": score,
+        })
+    candidates.sort(key=lambda item: item["score"], reverse=True)
+    return candidates
+
+
+async def search_ultimate_guitar_site_candidates(client, title, artist):
+    """Query Ultimate Guitar's own search page for chord tabs (Brave-independent)."""
+    query = " ".join([part for part in [title, artist] if part]).strip()
+    if not query:
+        return []
+    # type=300 filters to Chords on UG search.
+    search_url = (
+        "https://www.ultimate-guitar.com/search.php?search_type=title&type=300&value="
+        + quote(query)
+    )
+    try:
+        html_text = await fetch_text(client, search_url, allow_playwright=True)
+    except Exception:
+        return []
+    return ultimate_guitar_search_candidates_from_html(html_text, title, artist)
 
 
 async def search_duckduckgo_site_candidates(client, title, artist, site_host, source_label):
@@ -814,8 +1000,16 @@ async def search_duckduckgo_site_candidates(client, title, artist, site_host, so
 
         score = score_title_artist_match(candidate_title, candidate_artist, title, artist)
         lower_url = url.lower()
-        if "chord" in lower_url or "chords" in lower_url:
+        if "-chords-" in lower_url or "/chords/" in lower_url:
+            score += 50
+        elif "chord" in lower_url or "chords" in lower_url:
             score += 40
+        if "ultimate-guitar.com" in (site_host or "").lower() or "ultimate-guitar.com" in lower_url:
+            score += 200
+        if "-tabs-" in lower_url and "-chords-" not in lower_url:
+            score -= 25
+        if "guitar-pro" in lower_url or "guitar_pro" in lower_url:
+            score -= 50
         if "ukulele" in lower_url:
             score -= 40
         if normalize_match_text(title) and normalize_match_text(title) in normalize_match_text(lower_url):
@@ -890,13 +1084,6 @@ async def fetch_chord_sheet_from_page(client, page_url, title="", artist=""):
     validated, error = validate_chord_page_url(page_url)
     if error:
         raise ValueError(error)
-    host = urlparse(validated).hostname or ""
-    if is_manual_only_host(host):
-        raise ValueError(
-            "Ultimate Guitar blocks automated access from the resolver. "
-            "Open the page in your browser, copy the chord sheet, and use "
-            "Paste chord sheet in the chord editor."
-        )
     html_text = await fetch_text(client, validated)
     raw_sheet = extract_sheet_from_html(html_text, validated)
     if not raw_sheet:
@@ -967,8 +1154,8 @@ async def first_successful_candidate(client, candidates, title, artist, manual_c
     """Fetch candidate pages concurrently and return the best (highest-priority)
     one that yields a usable sheet, preserving candidate order as the tie-break.
 
-    Manual-only URLs (Ultimate Guitar) are not fetched; they are appended to
-    ``manual_candidates`` instead. Fetches go through the polite layer (capped).
+    Manual-only hosts are not fetched; they are appended to ``manual_candidates``
+    instead. Fetches go through the polite layer (capped).
     """
     candidates = (candidates or [])[:8]
     if not candidates:
@@ -1019,76 +1206,202 @@ def _partition_discovered_candidates(candidates, manual_candidates):
     return scrapable
 
 
+# Cap how many successful sheets we fetch/return in the picker.
+# UG search often finds 10–25 chord versions; keep them all choosable.
+MAX_CHORD_SHEETS_PER_ARTIST = max(
+    1,
+    int(os.getenv("MAX_CHORD_SHEETS_PER_ARTIST", "25")),
+)
+
+
+async def _discover_ug_candidates(client, title, artist):
+    """Ultimate Guitar first: UG site search, then Brave, then DuckDuckGo."""
+    candidates = []
+    # Prefer UG's own search — works when Brave is rate-limited (429) and DDG
+    # returns empty HTML. This is what surfaces Wonderwall etc. reliably.
+    try:
+        candidates = await search_ultimate_guitar_site_candidates(client, title, artist)
+    except Exception:
+        candidates = []
+    if not candidates:
+        try:
+            candidates = await search_brave_chord_candidates(
+                client, title, artist, site_host="tabs.ultimate-guitar.com"
+            )
+        except Exception:
+            candidates = []
+    if not candidates:
+        try:
+            candidates = await search_duckduckgo_site_candidates(
+                client,
+                title,
+                artist,
+                "tabs.ultimate-guitar.com",
+                "tabs.ultimate-guitar.com",
+            )
+        except Exception:
+            candidates = []
+    return dedupe_candidates(candidates)
+
+
+async def _collect_successful_chord_sheets(
+    client, candidates, title, artist, manual_candidates=None, limit=MAX_CHORD_SHEETS_PER_ARTIST
+):
+    """Fetch scrapable candidates in score order; keep up to ``limit`` successful sheets."""
+    results = []
+    seen = set()
+    scrapable = []
+    for candidate in candidates or []:
+        host = urlparse(candidate.get("url") or "").hostname or ""
+        if is_manual_only_host(host) or classify_chord_host(host) == "manual_only":
+            _append_manual_candidate(manual_candidates, candidate, reason="blocked")
+            continue
+        if not is_scrapable_chord_host(host):
+            continue
+        scrapable.append(candidate)
+
+    for candidate in scrapable:
+        if len(results) >= limit:
+            break
+        try:
+            result = await fetch_chord_sheet_from_page(
+                client,
+                candidate["url"],
+                title=candidate.get("title") or title,
+                artist=candidate.get("artist") or artist,
+            )
+        except Exception:
+            result = None
+        if not result:
+            continue
+        result["title"] = candidate.get("title") or title
+        result["artist"] = candidate.get("artist") or artist
+        key = _chord_candidate_key(result)
+        if key in seen:
+            continue
+        seen.add(key)
+        results.append(result)
+    return results
+
+
 async def _search_chords_for_artist(client, title, artist, on_progress=None, manual_candidates=None):
+    """Prefer Ultimate Guitar, then direct slug sites, then broader discovery.
+
+    Returns a single sheet dict, an empty-manual result, a multiple-candidates
+    payload, or None.
+    """
     if manual_candidates is None:
         manual_candidates = []
+    collected = []
+    seen_keys = set()
+    tried_urls = set()
 
-    # Stage 1: direct slug candidates (e-chords, cifraclub) via polite fetch.
+    def _absorb(sheets):
+        for sheet in sheets or []:
+            key = _chord_candidate_key(sheet)
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+            collected.append(sheet)
+
+    # Stage 1: Ultimate Guitar (preferred source for chords + lyrics).
     await _emit_progress(
         on_progress,
         "search",
-        "Stage 1 (apis/slugs): checking direct chord site URLs...",
+        "Stage 1: searching Ultimate Guitar...",
         0.22,
     )
-    direct_candidates = dedupe_candidates(build_direct_candidates(title, artist))
-    result = await first_successful_candidate(
-        client, direct_candidates, title, artist, manual_candidates=manual_candidates
+    ug_candidates = await _discover_ug_candidates(client, title, artist)
+    for item in ug_candidates:
+        if item.get("url"):
+            tried_urls.add(item["url"])
+    ug_sheets = await _collect_successful_chord_sheets(
+        client, ug_candidates, title, artist, manual_candidates=manual_candidates
     )
-    if result:
-        return result
+    _absorb(ug_sheets)
 
-    # Stage 2: Brave/DDG discovery (UG hits become manualCandidates, not fetched).
+    # Stage 2: direct slug candidates (e-chords, cifraclub).
     await _emit_progress(
         on_progress,
         "search",
-        "Stage 2 (discover): searching the web for chord pages...",
+        "Stage 2 (apis/slugs): checking direct chord site URLs...",
         0.4,
     )
-    try:
-        brave_candidates = await search_brave_chord_candidates(client, title, artist)
-    except Exception:
-        brave_candidates = []
-
-    tried_urls = {candidate.get("url") for candidate in direct_candidates}
-    discovered = [
-        candidate
-        for candidate in dedupe_candidates(brave_candidates)
-        if candidate.get("url") not in tried_urls
+    direct_candidates = [
+        item
+        for item in dedupe_candidates(build_direct_candidates(title, artist))
+        if item.get("url") not in tried_urls
     ]
+    for item in direct_candidates:
+        if item.get("url"):
+            tried_urls.add(item["url"])
+    direct_sheets = await _collect_successful_chord_sheets(
+        client,
+        direct_candidates,
+        title,
+        artist,
+        manual_candidates=manual_candidates,
+        limit=max(0, MAX_CHORD_SHEETS_PER_ARTIST - len(collected)),
+    )
+    _absorb(direct_sheets)
 
-    if not discovered:
-        try:
-            az_candidates = await search_azchords_candidates(client, title, artist)
-        except Exception:
-            az_candidates = []
-        discovered = [
-            candidate
-            for candidate in dedupe_candidates(az_candidates)
-            if candidate.get("url") not in tried_urls
-        ]
-
-    scrapable = _partition_discovered_candidates(discovered, manual_candidates)
-
-    # Stage 3–4: fetch scrapable candidates (Playwright inside fetch_html_with_fallback).
-    if scrapable:
+    # Stage 3: broader Brave/DDG discovery for remaining hosts.
+    if len(collected) < MAX_CHORD_SHEETS_PER_ARTIST:
         await _emit_progress(
             on_progress,
             "search",
-            "Stage 3–4 (fetch/browser): downloading scrapable chord pages...",
-            0.62,
+            "Stage 3 (discover): searching other chord sites...",
+            0.55,
         )
-        result = await first_successful_candidate(
-            client, scrapable, title, artist, manual_candidates=manual_candidates
-        )
-        if result:
-            return result
+        try:
+            brave_candidates = await search_brave_chord_candidates(client, title, artist)
+        except Exception:
+            brave_candidates = []
 
-    # Stage 5: degrade to manualCandidates when nothing scrapable succeeded.
+        discovered = [
+            candidate
+            for candidate in dedupe_candidates(brave_candidates)
+            if candidate.get("url") not in tried_urls
+        ]
+
+        if not discovered:
+            try:
+                az_candidates = await search_azchords_candidates(client, title, artist)
+            except Exception:
+                az_candidates = []
+            discovered = [
+                candidate
+                for candidate in dedupe_candidates(az_candidates)
+                if candidate.get("url") not in tried_urls
+            ]
+
+        scrapable = _partition_discovered_candidates(discovered, manual_candidates)
+        other_sheets = await _collect_successful_chord_sheets(
+            client,
+            scrapable,
+            title,
+            artist,
+            manual_candidates=manual_candidates,
+            limit=max(0, MAX_CHORD_SHEETS_PER_ARTIST - len(collected)),
+        )
+        _absorb(other_sheets)
+
+    if collected:
+        if len(collected) == 1:
+            return collected[0]
+        return {
+            "multiple": True,
+            "candidates": [
+                _annotate_chord_candidate(item, title_only=False) for item in collected
+            ],
+        }
+
+    # Stage 4: degrade to manualCandidates when nothing scrapable succeeded.
     if manual_candidates:
         await _emit_progress(
             on_progress,
             "search",
-            "Stage 5: no scrapable sheet; locked sources available",
+            "Stage 4: no scrapable sheet; locked sources available",
             0.85,
         )
         return _empty_manual_result(manual_candidates)
@@ -1117,6 +1430,47 @@ def _chord_candidate_key(result):
     return artist + ":" + source
 
 
+def _merge_chord_search_payloads(payloads):
+    """Flatten single/multiple/_empty results into a multiple list or empty/manual."""
+    candidates = []
+    seen = set()
+    all_manual = []
+    for payload in payloads or []:
+        if not payload:
+            continue
+        if _is_empty_manual_result(payload):
+            for item in payload.get("manualCandidates") or []:
+                url = item.get("url")
+                if url and url not in {m.get("url") for m in all_manual}:
+                    all_manual.append(item)
+            continue
+        if payload.get("multiple") and isinstance(payload.get("candidates"), list):
+            sheets = payload["candidates"]
+        else:
+            sheets = [payload]
+        for sheet in sheets:
+            if not sheet or _is_empty_manual_result(sheet):
+                continue
+            key = _chord_candidate_key(sheet)
+            if key in seen:
+                continue
+            seen.add(key)
+            candidates.append(
+                sheet if "preview" in sheet else _annotate_chord_candidate(sheet)
+            )
+    if candidates:
+        if len(candidates) == 1:
+            # Drop annotation-only fields that single responses historically omit.
+            single = dict(candidates[0])
+            single.pop("preview", None)
+            single.pop("titleOnly", None)
+            return single
+        return {"multiple": True, "candidates": candidates}
+    if all_manual:
+        return _empty_manual_result(all_manual)
+    return None
+
+
 async def search_chords_with_candidates(title, on_progress=None):
     title = str(title or "").strip()
     if not title:
@@ -1131,8 +1485,7 @@ async def search_chords_with_candidates(title, on_progress=None):
         )
         artists = await discover_recording_artists(client, title)
 
-        candidates = []
-        seen = set()
+        payloads = []
         all_manual = []
         total_steps = max(len(artists), 1) + 1
 
@@ -1150,13 +1503,8 @@ async def search_chords_with_candidates(title, on_progress=None):
                 on_progress=on_progress,
                 manual_candidates=all_manual,
             )
-            if not result or _is_empty_manual_result(result):
-                continue
-            key = _chord_candidate_key(result)
-            if key in seen:
-                continue
-            seen.add(key)
-            candidates.append(_annotate_chord_candidate(result, title_only=False))
+            if result:
+                payloads.append(result)
 
         await _emit_progress(
             on_progress,
@@ -1172,11 +1520,15 @@ async def search_chords_with_candidates(title, on_progress=None):
             manual_candidates=all_manual,
         )
         if title_result and not _is_empty_manual_result(title_result):
-            key = _chord_candidate_key(title_result)
-            if key not in seen:
-                candidates.append(_annotate_chord_candidate(title_result, title_only=True))
+            if title_result.get("multiple") and isinstance(title_result.get("candidates"), list):
+                for item in title_result["candidates"]:
+                    item["titleOnly"] = True
+            else:
+                title_result = _annotate_chord_candidate(title_result, title_only=True)
+            payloads.append(title_result)
 
-        if not candidates:
+        merged = _merge_chord_search_payloads(payloads)
+        if not merged:
             if all_manual:
                 await _emit_progress(
                     on_progress,
@@ -1189,9 +1541,11 @@ async def search_chords_with_candidates(title, on_progress=None):
             raise ValueError("No chords found for this song")
 
         await _emit_progress(on_progress, "done", "Chord candidates ready", 1.0)
+        if merged.get("multiple"):
+            return merged
         return {
             "multiple": True,
-            "candidates": candidates,
+            "candidates": [_annotate_chord_candidate(merged, title_only=False)],
         }
 
 
@@ -1208,7 +1562,7 @@ async def search_chords(title, artist, on_progress=None):
         await _emit_progress(
             on_progress,
             "search",
-            "Stage 1 (apis/slugs): checking chord sites...",
+            "Searching chord sites (Ultimate Guitar first)...",
             0.2,
         )
         manual_candidates = []

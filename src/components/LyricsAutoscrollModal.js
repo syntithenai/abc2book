@@ -16,10 +16,31 @@ function AutoscrollControls(props) {
   const showClose = !!props.showClose;
   const onClose = props.onClose;
   const groupSpeedControls = !!props.groupSpeedControls;
+  const playOnly = !!props.playOnly;
 
   const baseDuration = autoscroll.getBaseDurationSeconds();
   const speedLabel = formatSpeedPercent(autoscroll.speedMultiplier);
   const durationLabel = formatScrollDurationLabel(baseDuration, autoscroll.speedMultiplier);
+
+  const playButton = (
+    <Button
+      size={buttonSize}
+      variant={autoscroll.isScrolling ? 'danger' : 'success'}
+      className="lyrics-autoscroll-bar-btn lyrics-autoscroll-play-btn"
+      title="Autoscroll"
+      aria-label={autoscroll.isScrolling ? 'Stop autoscroll' : 'Autoscroll'}
+      onClick={function() {
+        if (autoscroll.isScrolling) autoscroll.stop();
+        else autoscroll.start();
+      }}
+    >
+      {tunebook.icons.stopwatch}
+    </Button>
+  );
+
+  if (playOnly) {
+    return playButton;
+  }
 
   const speedControls = groupSpeedControls ? (
     <>
@@ -80,19 +101,7 @@ function AutoscrollControls(props) {
 
   return (
     <>
-      <span className="lyrics-autoscroll-title">Scroll</span>
-      <Button
-        size={buttonSize}
-        variant={autoscroll.isScrolling ? 'danger' : 'success'}
-        className="lyrics-autoscroll-bar-btn lyrics-autoscroll-play-btn"
-        aria-label={autoscroll.isScrolling ? 'Stop lyrics scroll' : 'Start lyrics scroll'}
-        onClick={function() {
-          if (autoscroll.isScrolling) autoscroll.stop();
-          else autoscroll.start();
-        }}
-      >
-        {autoscroll.isScrolling ? tunebook.icons.pause : tunebook.icons.play}
-      </Button>
+      {playButton}
       <Button
         size={buttonSize}
         variant={buttonVariant}
@@ -234,6 +243,7 @@ export default function LyricsAutoscrollModal(props) {
     buttonVariant: props.buttonVariant || 'outline-secondary',
     buttonSize: props.buttonSize || 'sm',
     groupSpeedControls: isInline,
+    playOnly: !!props.playOnly,
   };
 
   if (isInline) {
@@ -271,7 +281,8 @@ export default function LyricsAutoscrollModal(props) {
           variant={props.buttonVariant || 'outline-secondary'}
           size={props.buttonSize || undefined}
           className="music-toolbar-btn"
-          aria-label="Lyrics autoscroll"
+          aria-label="Autoscroll"
+          title="Autoscroll"
           aria-expanded={show}
           onClick={handleShow}
         >

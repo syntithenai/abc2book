@@ -229,6 +229,28 @@ function scheduleCountInClicks(controller, generation) {
     controller.countInSlotsEmitted = 0
     controller.phase = PHASE_COUNT_IN
     scheduleClicks()
+    // Pre-schedule the first music downbeat with the count-in clicks so it is
+    // already on the Web Audio clock. Handoff used to miss or late-fire slot 0.
+    if (controller.timeline
+        && typeof schedule.musicStartAudioTime === 'number'
+        && schedule.musicStartSlot != null) {
+      const musicSlot = Math.floor(schedule.musicStartSlot)
+      const slotInBar = slotInBarForGlobal(musicSlot, controller.timeline.totalSlots)
+      playSlotAt(
+        controller,
+        schedule.musicStartAudioTime,
+        slotInBar,
+        musicSlot,
+        schedule.musicStartAudioTime
+      )
+      controller.scheduleState.scheduledKeys.add(String(musicSlot))
+    }
+    // Arm MIDI on the Web Audio clock while musicStart is still in the future.
+    // Starting it from onMusicStart (setTimeout) was routinely 6–10ms late.
+    if (typeof controller.callbacks.onPreScheduleMusic === 'function'
+        && typeof schedule.musicStartAudioTime === 'number') {
+      controller.callbacks.onPreScheduleMusic(schedule.musicStartAudioTime)
+    }
     controller.phase = PHASE_ENTRY_GAP
     scheduleMusicStartAtAudioTime(controller, generation, schedule.musicStartAudioTime)
     return
@@ -284,7 +306,7 @@ function runPlayingTick(controller) {
         ? DEFAULT_TIMELINE_LOOKAHEAD_SEC
         : Math.max(0.25, barLookahead),
       minGlobalSlot: minSlot,
-      suppressCatchupAtMinSlot: shortLookahead && minSlot > 0,
+      suppressCatchupAtMinSlot: shortLookahead,
       playSlot: playSlot,
     })
     if (shortLookahead) {
@@ -378,6 +400,7 @@ export function startRhythmCountIn(controller, options) {
   controller.callbacks.onSlot = opts.onSlot || null
   controller.callbacks.onMusicStart = opts.onMusicStart || null
   controller.callbacks.onFirstNoteSchedule = opts.onFirstNoteSchedule || null
+  controller.callbacks.onPreScheduleMusic = opts.onPreScheduleMusic || null
   controller.callbacks.playSlot = opts.playSlot || null
   controller.callbacks.getMusicSeconds = opts.getMusicSeconds || null
   controller.callbacks.getTempoFactor = opts.getTempoFactor || null
@@ -587,7 +610,8 @@ export function beginRhythmPlayingAtMusicStart(controller, options) {
           anchorSlot
         )
         const drift = Math.abs(expected - anchorTime)
-        if (opts.forceTimelineReanchor || drift > 0.02) {
+        // Audible skew around 8–10ms was ignored at 20ms; re-anchor above ~3ms.
+        if (opts.forceTimelineReanchor || drift > 0.003) {
           reanchorTimelineAtSlot(
             controller.timeline,
             anchorSlot,
@@ -605,9 +629,19 @@ export function beginRhythmPlayingAtMusicStart(controller, options) {
         controller.postCountInHandoff = true
         controller.scheduleState.nextGlobalSlot = startSlot
       } else if (musicSeconds <= 0.001 && startSlot === 0) {
-        // Downbeat or sub-beat anacrusis: slot 0 accent fires at downbeat time.
-        controller.postCountInHandoff = true
-        controller.scheduleState.nextGlobalSlot = 0
+        // Prefer a count-in-pre-scheduled downbeat; otherwise skip if already past.
+        if (controller.scheduleState.scheduledKeys.has('0')) {
+          controller.scheduleState.nextGlobalSlot = 1
+        } else {
+          const slot0Time = audioTimeForGlobalSlot(controller.timeline, 0)
+          if (typeof slot0Time === 'number' && now > slot0Time + 0.003) {
+            controller.scheduleState.scheduledKeys.add('0')
+            controller.scheduleState.nextGlobalSlot = 1
+          } else {
+            controller.postCountInHandoff = true
+            controller.scheduleState.nextGlobalSlot = 0
+          }
+        }
       } else if (controller.duringPlayback === true
           && controller.countInEndedOnDownbeat === true
           && startSlot === 0

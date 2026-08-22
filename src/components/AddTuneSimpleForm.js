@@ -47,7 +47,7 @@ function buildYouTubeQuery(title, artist) {
 }
 
 /**
- * Slim Add dialog: title, artist search, books/tags, embedded YouTube.
+ * Slim Add page form: title, artist search, books/tags, media link.
  */
 export default function AddTuneSimpleForm(props) {
   const values = props.values || {}
@@ -328,34 +328,34 @@ export default function AddTuneSimpleForm(props) {
 
   return (
     <div className="add-tune-simple-form" data-testid="add-tune-simple-form">
+      <Form.Group className="mb-3 add-tune-field-block add-tune-title-block">
+        <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
+          <Form.Label className="mb-0">Title</Form.Label>
+          <CapitalizeTitleButton
+            value={values.title || ''}
+            onCapitalize={function(next) { setField('title', next) }}
+          />
+        </div>
+        <InputGroup>
+          <Form.Control
+            value={values.title || ''}
+            autoComplete="off"
+            data-testid="add-tune-title"
+            placeholder="Song title"
+            onChange={function(e) { setField('title', e.target.value) }}
+          />
+          <FieldVoiceFillButton
+            fieldKind="title"
+            token={props.token}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            onFill={function(text) { setField('title', text) }}
+            data-testid="add-tune-title-mic"
+          />
+        </InputGroup>
+      </Form.Group>
+
       <Row>
         <Col md={7}>
-          <Form.Group className="mb-3 add-tune-field-block">
-            <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
-              <Form.Label className="mb-0">Title</Form.Label>
-              <CapitalizeTitleButton
-                value={values.title || ''}
-                onCapitalize={function(next) { setField('title', next) }}
-              />
-            </div>
-            <InputGroup>
-              <Form.Control
-                value={values.title || ''}
-                autoComplete="off"
-                data-testid="add-tune-title"
-                placeholder="Song title"
-                onChange={function(e) { setField('title', e.target.value) }}
-              />
-              <FieldVoiceFillButton
-                fieldKind="title"
-                token={props.token}
-                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                onFill={function(text) { setField('title', text) }}
-                data-testid="add-tune-title-mic"
-              />
-            </InputGroup>
-          </Form.Group>
-
           <Form.Group className="mb-3 add-tune-field-block">
             <div className="d-flex align-items-center justify-content-between gap-2 mb-2 flex-wrap">
               <span className="small text-muted mb-0">Artist</span>
@@ -635,6 +635,12 @@ export default function AddTuneSimpleForm(props) {
             </div>
           ) : null}
 
+          {props.addFromToolbar ? (
+            <div className="mb-3 add-tune-field-block" data-testid="add-from-in-form">
+              {props.addFromToolbar}
+            </div>
+          ) : null}
+
           <div className="mb-3 add-tune-field-block">
             <AddTuneYouTubePicker
               selected={selectedMediaLink}
@@ -651,7 +657,7 @@ export default function AddTuneSimpleForm(props) {
 
         <Col md={5}>
           <div className="border rounded p-2" data-testid="add-tune-matches">
-            <strong className="d-block mb-2">Collection matches</strong>
+            <strong className="d-block mb-2">Already In Your Library</strong>
             {!matches.length ? (
               <div className="text-muted small">Type a title or artist to find existing tunes.</div>
             ) : (

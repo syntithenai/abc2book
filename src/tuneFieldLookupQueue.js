@@ -27,6 +27,7 @@ import {
 } from './fieldSuggestionsUtils'
 import { shouldOfferTitleSuggestion } from './composerDiscoveryUtils'
 import { shouldOfferGenreSuggestion } from './genreInference'
+import { toast } from 'react-toastify'
 import {
   applyCandidateToTune,
   applyCandidateToTuneAsync,
@@ -36,6 +37,7 @@ import {
   toastAppliedFieldLookup,
   toastFieldSearchFinished,
 } from './fieldLookupApplyUtils'
+import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { isNotationPdfCandidate } from './notationPdfApply'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getPlainLyricLines } from './wLinesUtils'
@@ -110,6 +112,8 @@ let queueContext = {
   saveTune: null,
   forceRefresh: null,
   abcTools: null,
+  getTunebook: null,
+  getAbcjsParser: null,
 }
 
 /** Live UI handlers: targetKey:kind → { onAwaiting(job), onError(job), onProgress(job) } */
@@ -358,7 +362,7 @@ export async function restoreAndResume() {
  * Enqueue a field lookup search.
  * options: {
  *   tuneId?, candidateId?, kind, title, artist?, titleHint?, tuneName?,
- *   accessToken?, options?: { updateLyrics?, alwaysPick?, songType?, ... },
+ *   accessToken?, options?: { updateLyrics?, preferChords?, alwaysPick?, songType?, ... },
  *   searchOptions?: passthrough for clients (resolverAvailable, abcTools, renderChords)
  * }
  */
@@ -645,7 +649,15 @@ export async function applyFieldLookupChoice(jobId, candidate) {
       const tune = getTune(job.tuneId)
       if (tune) {
         let applied = false
-        if (job.kind === 'notation' && isNotationPdfCandidate(candidate)) {
+        // Live form handlers (lyrics/chords buttons) own the write; only mark done.
+        if (job.kind === 'chords') {
+          if (!hasLiveHandler(job)) {
+            applied = tryApplyChordsCandidate(job, candidate)
+            if (applied) {
+              toastAppliedFieldLookup(job.kind, tune.name || job.title)
+            }
+          }
+        } else if (job.kind === 'notation' && isNotationPdfCandidate(candidate)) {
           applied = await applyCandidateToTuneAsync(
             tune,
             job.kind,
@@ -653,6 +665,19 @@ export async function applyFieldLookupChoice(jobId, candidate) {
             queueContext.abcTools,
             { accessToken: job.accessToken }
           )
+          if (applied) {
+            try {
+              saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })
+              if (typeof queueContext.forceRefresh === 'function') {
+                queueContext.forceRefresh()
+              }
+              if (!hasLiveHandler(job)) {
+                toastAppliedFieldLookup(job.kind, tune.name || job.title)
+              }
+            } catch (e) {
+              console.log(e)
+            }
+          }
         } else {
           applied = applyCandidateToTune(
             tune,
@@ -660,19 +685,18 @@ export async function applyFieldLookupChoice(jobId, candidate) {
             candidate,
             queueContext.abcTools
           )
-        }
-        if (applied) {
-          try {
-            saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })
-            if (typeof queueContext.forceRefresh === 'function') {
-              queueContext.forceRefresh()
+          if (applied) {
+            try {
+              saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })
+              if (typeof queueContext.forceRefresh === 'function') {
+                queueContext.forceRefresh()
+              }
+              if (!hasLiveHandler(job)) {
+                toastAppliedFieldLookup(job.kind, tune.name || job.title)
+              }
+            } catch (e) {
+              console.log(e)
             }
-            // Form live handlers already update the visible field — skip toast noise.
-            if (!hasLiveHandler(job)) {
-              toastAppliedFieldLookup(job.kind, tune.name || job.title)
-            }
-          } catch (e) {
-            console.log(e)
           }
         }
       }
@@ -917,6 +941,52 @@ async function existingLinksAreValid(tune, searchOptions, signal) {
   return false
 }
 
+function chordsResultUsable(result) {
+  if (!result || result.empty) {
+    return !!(result && Array.isArray(result.manualCandidates) && result.manualCandidates.length)
+  }
+  if (result.multiple && Array.isArray(result.candidates) && result.candidates.length) return true
+  if (result.chordText || result.abc || result.chordProSource) return true
+  if (Array.isArray(result.lyricLines) && result.lyricLines.length) return true
+  if (Array.isArray(result.sheetLines) && result.sheetLines.length) return true
+  return false
+}
+
+function adoptJobAsChords(job) {
+  job.kind = 'chords'
+  // Enhance lyrics+chords: review shows one suggestion that updates both fields.
+  job.label = 'Chords and lyrics search'
+  const nextOptions = Object.assign({}, job.options || {}, { updateLyrics: true })
+  delete nextOptions.preferChords
+  job.options = nextOptions
+}
+
+/**
+ * Prefer chord sheets (lyrics+chords); fall back to plain lyrics in the same job.
+ */
+async function searchLyricsPreferringChords(job, base, searchOptions) {
+  try {
+    const chordResult = await searchChords(Object.assign({}, base, {
+      renderChords: searchOptions.renderChords || null,
+      onProgress: function(message, progress) {
+        if (typeof base.onProgress === 'function') {
+          base.onProgress(message || 'Searching for chords…', progress)
+        }
+      },
+    }))
+    if (chordsResultUsable(chordResult)) {
+      adoptJobAsChords(job)
+      return chordResult
+    }
+  } catch (chordError) {
+    if (chordError && chordError.name === 'AbortError') throw chordError
+  }
+  if (typeof base.onProgress === 'function') {
+    base.onProgress('Searching for lyrics…', 0.35)
+  }
+  return searchLyrics(base)
+}
+
 async function runSearch(job, signal) {
   const searchOptions = job.searchOptions || {}
   const base = {
@@ -938,6 +1008,9 @@ async function runSearch(job, signal) {
   }
 
   if (job.kind === 'lyrics') {
+    if (job.options && job.options.preferChords) {
+      return searchLyricsPreferringChords(job, base, searchOptions)
+    }
     return searchLyrics(base)
   }
   if (job.kind === 'chords') {
@@ -1052,7 +1125,47 @@ function currentFieldValueForJob(job) {
   return null
 }
 
+function tryApplyChordsCandidate(job, candidate) {
+  const getTune = queueContext.getTune
+  const saveTune = queueContext.saveTune
+  const getTunebook = queueContext.getTunebook
+  if (typeof getTune !== 'function' || typeof saveTune !== 'function' || !job.tuneId) {
+    return false
+  }
+  if (!candidate) return false
+  const tunebook = typeof getTunebook === 'function' ? getTunebook() : null
+  if (!tunebook) return false
+  const tune = getTune(job.tuneId)
+  if (!tune) return false
+  const getAbcjsParser = queueContext.getAbcjsParser
+  const committed = commitChordSearchResultToTune({
+    result: candidate,
+    tune: tune,
+    tunebook: tunebook,
+    abcjsParser: typeof getAbcjsParser === 'function' ? getAbcjsParser() : null,
+    updateLyrics: !(job.options && job.options.updateLyrics === false),
+    // Match lyrics-editor enhance path: keep chords in the lyrics block.
+    skipAbcMerge: true,
+    skipSave: true,
+    historyLabel: historyLabelForKind('chords'),
+  })
+  if (!committed || !committed.ok) return false
+  try {
+    saveTune(tune, false, { historyLabel: historyLabelForKind('chords') })
+    if (typeof queueContext.forceRefresh === 'function') {
+      queueContext.forceRefresh()
+    }
+    job.appliedCandidate = candidate
+    return true
+  } catch (e) {
+    return false
+  }
+}
+
 function tryApplyCandidateKeepSuggestions(job, candidate) {
+  if (job && job.kind === 'chords') {
+    return tryApplyChordsCandidate(job, candidate)
+  }
   const getTune = queueContext.getTune
   const saveTune = queueContext.saveTune
   if (typeof getTune !== 'function' || typeof saveTune !== 'function' || !job.tuneId) {
@@ -1146,10 +1259,12 @@ function settleCompletedJob(job) {
   let candidates = Array.isArray(job.candidates) ? job.candidates.slice() : []
   const currentValue = currentFieldValueForJob(job)
   job.originalValue = currentValue
-  const fieldEmpty = !job.tuneId || isTuneFieldEmptyForKind(
-    queueContext.getTune && job.tuneId ? queueContext.getTune(job.tuneId) : null,
-    job.kind
-  )
+  const tune = queueContext.getTune && job.tuneId ? queueContext.getTune(job.tuneId) : null
+  // Chords+lyrics enhance fills the lyrics field; emptiness follows lyrics when updateLyrics.
+  let fieldEmpty = !job.tuneId || isTuneFieldEmptyForKind(tune, job.kind)
+  if (job.kind === 'chords' && job.options && job.options.updateLyrics) {
+    fieldEmpty = !job.tuneId || isTuneFieldEmptyForKind(tune, 'lyrics')
+  }
   if (!fieldEmpty) {
     const currentSuggestion = buildCurrentValueSuggestion(job.kind, currentValue)
     if (currentSuggestion) {
@@ -1179,6 +1294,7 @@ function settleCompletedJob(job) {
 
   const alwaysPick = !!ALWAYS_PICK_KINDS[job.kind]
     || !!(job.options && job.options.alwaysPick)
+  const live = hasLiveHandler(job)
 
   let applied = false
   let needsReview = false
@@ -1190,13 +1306,14 @@ function settleCompletedJob(job) {
       applied = tryApplyCandidateKeepSuggestions(job, highs[0])
     }
     needsReview = highs.length > 1 || hasLowerConfidenceRemainder(searchCandidates)
-  } else if (fieldEmpty && searchCandidates.length && !alwaysPick) {
+  } else if (fieldEmpty && searchCandidates.length && (!alwaysPick || !live)) {
+    // Empty field: auto-apply when no live picker will handle it (e.g. Enhance).
     applied = tryApplyCandidateKeepSuggestions(job, searchCandidates[0])
   }
 
   // Empty + auto-applied (or nothing to pick): finish. Cache keeps alternatives.
   const finishWithoutDialog = searchCandidates.length === 0
-    || (fieldEmpty && !alwaysPick && applied && !needsReview)
+    || (fieldEmpty && applied && !needsReview && (!alwaysPick || !live))
 
   if (finishWithoutDialog) {
     job.status = 'done'
@@ -1204,7 +1321,7 @@ function settleCompletedJob(job) {
     job.message = ''
     // Notify while candidates are still present so live handlers (e.g. composer →
     // artists picker) can split writers/performers. Then clear for storage.
-    if (!hasLiveHandler(job)) {
+    if (!live) {
       toastFieldSearchFinished(job.kind, {
         count: applied ? 1 : 0,
         applied: applied,
@@ -1216,7 +1333,7 @@ function settleCompletedJob(job) {
   }
 
   markAwaiting(job)
-  if (!hasLiveHandler(job)) {
+  if (!live) {
     toastFieldSearchFinished(job.kind, {
       count: candidates.length,
       applied: applied,
@@ -1345,6 +1462,12 @@ async function runJob(job) {
       job.status = 'error'
       job.error = e && e.message ? e.message : (kindLabel(job.kind) + ' failed')
       notifyLive(job)
+      if (!hasLiveHandler(job)) {
+        toast.error(job.error, {
+          toastId: 'field-lookup-error-' + job.id,
+          autoClose: 8000,
+        })
+      }
     }
   } finally {
     job.abortController = null
@@ -1432,6 +1555,8 @@ export function __resetForTests() {
     saveTune: null,
     forceRefresh: null,
     abcTools: null,
+    getTunebook: null,
+    getAbcjsParser: null,
   }
 }
 

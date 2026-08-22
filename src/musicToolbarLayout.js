@@ -1,7 +1,7 @@
 /** Width breakpoints for the MusicSingle tune toolbar. */
 
 export const MUSIC_TOOLBAR_FOLD_WIDTH = 1180;
-/** Below this toolbar container width, view modes and notation controls collapse into menus. */
+/** Below this toolbar container width, notation controls collapse into the view-mode menu. */
 export const MUSIC_TOOLBAR_COMPACT_WIDTH = 1500;
 
 export function isMusicToolbarFolded(windowWidth, collapseToMenuOnMobile) {

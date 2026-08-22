@@ -1465,6 +1465,7 @@ export default function ScratchpadAudioEditor(props) {
       >
         <ScratchpadAudioMenuBar
           icons={icons}
+          user={props.user}
           ee={eeRef.current}
           editMode={editMode}
           hasContent={hasContent}

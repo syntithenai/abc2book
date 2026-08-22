@@ -14,6 +14,7 @@ describe('PlayalongInlineRecordBar', function() {
   let root
 
   beforeEach(function() {
+    if (typeof localStorage !== 'undefined') localStorage.clear()
     container = document.createElement('div')
     document.body.appendChild(container)
     root = createRoot(container)
@@ -64,6 +65,8 @@ describe('PlayalongInlineRecordBar', function() {
     expect(record.className).not.toMatch(/btn-outline/)
     const chips = container.querySelectorAll('[data-testid="playalong-take-score-button"]')
     expect(chips.length).toBe(2)
+    expect(container.querySelectorAll('[data-testid="playalong-take-score-group"]').length).toBe(2)
+    expect(container.querySelectorAll('[data-testid="playalong-take-play-button"]').length).toBe(2)
     expect(chips[0].style.backgroundColor).toBeTruthy()
     expect(chips[1].style.backgroundColor).toBeTruthy()
     expect(chips[0].style.backgroundColor).not.toBe(chips[1].style.backgroundColor)
@@ -73,6 +76,89 @@ describe('PlayalongInlineRecordBar', function() {
       record.dispatchEvent(new MouseEvent('click', { bubbles: true }))
     })
     expect(onRecordClick).toHaveBeenCalled()
+  })
+
+  test('play button starts and stops take recording playback', async function() {
+    const playMock = jest.fn(function() { return Promise.resolve() })
+    const pauseMock = jest.fn()
+    const OriginalAudio = global.Audio
+    global.Audio = function FakeAudio(url) {
+      return {
+        src: url || '',
+        preload: 'auto',
+        play: playMock,
+        pause: pauseMock,
+        onended: null,
+        onerror: null,
+        removeAttribute: function() {},
+      }
+    }
+    const createObjectURL = jest.fn(function() { return 'blob:take-r1' })
+    const revokeObjectURL = jest.fn()
+    const originalCreate = global.URL.createObjectURL
+    const originalRevoke = global.URL.revokeObjectURL
+    global.URL.createObjectURL = createObjectURL
+    global.URL.revokeObjectURL = revokeObjectURL
+
+    // Force HTMLAudio fallback path used in tests.
+    const OriginalAudioContext = window.AudioContext
+    const OriginalWebkit = window.webkitAudioContext
+    window.AudioContext = undefined
+    window.webkitAudioContext = undefined
+
+    try {
+      await act(async function() {
+        root.render(React.createElement(PlayalongInlineRecordBar, {
+          tunebook: { icons: { recordcircle: 'mic', play: 'play', stopsmall: 'stop' } },
+          takes: [
+            { recordingId: 'r1', duration: 4, musicStartOffsetSeconds: 0, tempoBpm: 120 },
+          ],
+          pitchPointsById: {
+            r1: [
+              { timeMs: 100, rawMidi: 60 },
+              { timeMs: 200, rawMidi: 60 },
+              { timeMs: 300, rawMidi: 60 },
+            ],
+          },
+          resolveTakeAudioBlob: function() {
+            return Promise.resolve(new Blob(['fake-audio'], { type: 'audio/webm' }))
+          },
+          playbackSpeed: 1,
+        }))
+        await Promise.resolve()
+        await Promise.resolve()
+      })
+
+      let playBtn = container.querySelector('[data-testid="playalong-take-play-button"]')
+      expect(playBtn).toBeTruthy()
+      expect(playBtn.getAttribute('aria-label')).toMatch(/Play take 1/)
+
+      await act(async function() {
+        playBtn.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+        await Promise.resolve()
+        await Promise.resolve()
+        await Promise.resolve()
+      })
+      playBtn = container.querySelector('[data-testid="playalong-take-play-button"]')
+      expect(createObjectURL).toHaveBeenCalled()
+      expect(playMock).toHaveBeenCalled()
+      expect(playBtn.getAttribute('aria-pressed')).toBe('true')
+      expect(playBtn.getAttribute('aria-label')).toMatch(/Stop take 1/)
+
+      await act(async function() {
+        playBtn.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+        await Promise.resolve()
+      })
+      playBtn = container.querySelector('[data-testid="playalong-take-play-button"]')
+      expect(pauseMock).toHaveBeenCalled()
+      expect(playBtn.getAttribute('aria-pressed')).toBe('false')
+    } finally {
+      global.Audio = OriginalAudio
+      global.URL.createObjectURL = originalCreate
+      global.URL.revokeObjectURL = originalRevoke
+      window.AudioContext = OriginalAudioContext
+      window.webkitAudioContext = OriginalWebkit
+    }
   })
 
   test('score chip toggles outline and reports hidden take', async function() {

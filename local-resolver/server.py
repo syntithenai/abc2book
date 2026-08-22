@@ -2357,6 +2357,47 @@ async def detect_timing_from_path(temp_audio_path, request):
         raise HTTPException(status_code=502, detail="Timing detector returned invalid JSON") from exc
 
 
+def empty_timing_response():
+    return {
+        "beatTimes": [],
+        "downbeatTimes": [],
+        "tempo": 0,
+        "meter": "",
+        "beatsPerBar": 0,
+        "meterChanges": [],
+        "detectedKey": "",
+        "detectedMeter": "",
+        "duration": 0,
+        "backend": "none",
+    }
+
+
+async def detect_timing_from_audio(audio_bytes, filename, request):
+    suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
+
+    async with heavy_job_slot():
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+            temp_audio.write(audio_bytes)
+            temp_audio_path = temp_audio.name
+
+        wav_path = None
+        try:
+            wav_path = await _convert_audio_to_wav(temp_audio_path)
+            return await detect_timing_from_path(wav_path, request)
+        except ClientDisconnected as exc:
+            raise HTTPException(status_code=499, detail="Timing detection cancelled") from exc
+        except asyncio.TimeoutError as exc:
+            raise HTTPException(status_code=504, detail="Timing detection timeout") from exc
+        finally:
+            for path in (temp_audio_path, wav_path):
+                if not path:
+                    continue
+                try:
+                    os.unlink(path)
+                except FileNotFoundError:
+                    pass
+
+
 def _stem_cache_dir(cache_id):
     return os.path.join(STEM_CACHE_DIR, cache_id)
 
@@ -3278,7 +3319,7 @@ async def root(request: Request):
             "health": "/health",
             "staticSite": static_site_enabled(),
             "staticSiteRoot": static_site_root() if static_site_enabled() else None,
-            "endpoints": ["/youtube/:videoId/audio", "/bandcamp/audio?url=...", "/search-bandcamp", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/generate-practice-track", "/generate-practice-track/:jobId", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
+            "endpoints": ["/youtube/:videoId/audio", "/bandcamp/audio?url=...", "/search-bandcamp", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-timing", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/generate-practice-track", "/generate-practice-track/:jobId", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(origin),
@@ -3529,6 +3570,54 @@ async def youtube_audio(
             return json_error(status, "Could not resolve YouTube audio stream", origin, error)
         response.headers.update(cors_headers(origin))
         return response
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/detect-timing")
+async def detect_timing(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('detect-timing')
+
+        audio_bytes = b""
+        filename = "audio.bin"
+
+        if file is not None:
+            audio_bytes = await file.read()
+            filename = file.filename or filename
+        else:
+            payload = await request.json()
+            source_url = str(payload.get("sourceUrl") or "").strip()
+            source_type = str(payload.get("sourceType") or "").strip().lower()
+            if not source_url:
+                return json_error(400, "Missing sourceUrl", origin)
+
+            try:
+                audio_bytes, filename, _content_type = await resolve_linked_media_audio_bytes(
+                    source_url,
+                    source_type,
+                    proxy=resolve_ytdlp_proxy_from_request(request),
+                )
+            except HTTPException as exc:
+                return json_error(exc.status_code, str(exc.detail), origin)
+
+        if not audio_bytes:
+            return JSONResponse(
+                empty_timing_response(),
+                headers=cors_headers(origin),
+            )
+
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
+
+        body = await detect_timing_from_audio(audio_bytes, filename, request)
+        return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
 
@@ -6581,6 +6670,20 @@ async def midi2abc(
         time_signature = request.query_params.get("time_signature") or None
         estimated_key = request.query_params.get("estimated_key") or None
         cleanup_options = _parse_cleanup_options(request)
+        staff_by_voice_raw = (request.query_params.get("staff_by_voice") or "").strip()
+        staff_by_voice = [s.strip() for s in staff_by_voice_raw.split(",") if s.strip()] if staff_by_voice_raw else []
+        import_voices = None
+        import_voices_raw = request.query_params.get("import_voices")
+        if import_voices_raw:
+            try:
+                import json as _json
+                parsed_voices = _json.loads(import_voices_raw)
+                if isinstance(parsed_voices, list):
+                    import_voices = parsed_voices
+                    if not staff_by_voice:
+                        staff_by_voice = [str(v.get("staff") or "auto") for v in parsed_voices if isinstance(v, dict)]
+            except Exception:
+                import_voices = None
 
         max_voices_param = request.query_params.get("max_voices")
         max_voices = int(max_voices_param) if max_voices_param and max_voices_param.isdigit() else 0
@@ -6608,6 +6711,8 @@ async def midi2abc(
             quant_slots_per_beat=quant_slots_per_beat,
             note_length=note_length,
             cleanup_options=cleanup_options,
+            staff_by_voice=staff_by_voice or None,
+            import_voices=import_voices,
             tempo_bpm=tempo_bpm,
             time_signature=time_signature,
             estimated_key=estimated_key,

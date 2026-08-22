@@ -45,7 +45,8 @@
   position: sticky;
   /* Sit below the fixed app header and sticky music-editor bar when present. */
   top: var(--music-editor-chrome-offset, var(--chrome-header-offset, 3.3em));
-  z-index: 30;
+  /* Below .music-editor-buttons (1001), above page content. */
+  z-index: 1000;
   touch-action: manipulation;
   zoom: var(--chrome-vv-zoom, 1);
 }
@@ -56,6 +57,7 @@
   gap: 0.5rem 0.75rem;
   row-gap: 0.65rem;
   margin-bottom: 0.5rem;
+  background: #fff;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
 }
 .notation-toolbar-history {
