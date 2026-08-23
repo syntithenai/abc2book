@@ -6,11 +6,17 @@
 #     --substitutions=_IMAGE="$IMAGE" .
 #
 # Requires .gcloudignore so the upload stays small.
+# Billing packaging is verified before docker build (billing must always ship).
 
 substitutions:
   _IMAGE: australia-southeast1-docker.pkg.dev/abc2book/tunebook/resolver-light
 
 steps:
+  - name: python:3.11-slim
+    entrypoint: bash
+    args:
+      - -c
+      - pip install -q -r requirements-light.txt && python scripts/verify_light_billing_packaging.py
   - name: gcr.io/cloud-builders/docker
     args: ['build', '-t', '${_IMAGE}', '-f', 'Dockerfile.light', '.']
 

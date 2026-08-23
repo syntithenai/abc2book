@@ -16,8 +16,9 @@ export function parseInsufficientCreditBody(body) {
 export function formatEstimateCents(cents) {
   const value = Number(cents)
   if (!Number.isFinite(value)) return ''
-  if (value < 0.01) return '<$0.01'
-  return '$' + value.toFixed(2)
+  const dollars = value / 100
+  if (dollars < 0.01) return '<$0.01'
+  return '$' + dollars.toFixed(2)
 }
 
 export async function fetchOperationEstimates(accessToken) {

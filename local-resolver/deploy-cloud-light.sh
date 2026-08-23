@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 # Redeploy tunebook-resolver-light to Cloud Run (build + deploy).
-# Usage: from local-resolver/
+# Usage from local-resolver/:
 #   cp deploy/cloud-run-env.example.yaml deploy/cloud-run-env.yaml
 #   ./deploy/setup-cloud-billing-secrets.sh   # once, after setting STRIPE_* in .env
 #   ./deploy-cloud-light.sh
 #
 # Env vars and secrets persist on the service unless you change them with another deploy.
+# Billing packaging + unit tests run before build; post-deploy requires billingEnabled=true.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -20,6 +21,9 @@ if [[ ! -f "$ENV_FILE" ]]; then
   echo "Copy deploy/cloud-run-env.example.yaml to deploy/cloud-run-env.yaml and edit." >&2
   exit 1
 fi
+
+echo "Pre-deploy billing tests ..."
+python -m unittest test_light_billing_packaging test_billing -v
 
 CLOUD_RUN_SECRETS="\
 GOOGLE_CLIENT_ID=google-client-id:latest,\
@@ -60,8 +64,36 @@ URL="$(gcloud run services describe tunebook-resolver-light \
   --format='value(status.url)')"
 
 echo "Smoke: $URL/health"
-curl -sS "$URL/health" | head -c 800
+HEALTH_JSON="$(curl -sS --max-time 30 "$URL/health")"
+echo "$HEALTH_JSON" | head -c 800
 echo
-echo "Billing check: curl -sS $URL/health | jq '.billingEnabled, .creditRequired'"
+
+python - "$HEALTH_JSON" <<'PY'
+import json, sys
+body = json.loads(sys.argv[1])
+if body.get("billingEnabled") is not True:
+    print(
+        "ERROR: post-deploy health billingEnabled is not true:",
+        body.get("billingEnabled"),
+        file=sys.stderr,
+    )
+    sys.exit(1)
+print("Billing check OK: billingEnabled=true creditRequired=", body.get("creditRequired"))
+PY
+
+CAN_AFFORD_CODE="$(curl -sS --max-time 30 -o /tmp/billing-can-afford.json -w '%{http_code}' \
+  -X POST "$URL/billing/can-afford" \
+  -H 'Content-Type: application/json' \
+  -d '{"operations":[{"id":"background_research"}]}' || true)"
+case "$CAN_AFFORD_CODE" in
+  401|403) echo "Billing route OK: POST /billing/can-afford -> $CAN_AFFORD_CODE (auth required)" ;;
+  *)
+    echo "ERROR: POST /billing/can-afford returned HTTP $CAN_AFFORD_CODE (expected 401/403)" >&2
+    head -c 400 /tmp/billing-can-afford.json 2>/dev/null || true
+    echo >&2
+    exit 1
+    ;;
+esac
+
 echo "Webhook URL: $URL/billing/webhook"
 echo "Done: $URL"

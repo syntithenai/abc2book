@@ -391,11 +391,13 @@ Friends open Settings → Providers → Wizard.
 
 ## 7. Redeploy after code changes
 
-One-shot (build + deploy + health smoke):
+One-shot (billing unit tests + packaging verify + build + deploy + billing smoke):
 
 ```bash
 ./local-resolver/deploy-cloud-light.sh
 ```
+
+`deploy-cloud-light.sh` fails closed if billing packaging tests fail, if Cloud Build’s `scripts/verify_light_billing_packaging.py` step fails, or if live `/health` does not report `billingEnabled: true`. Keep every `billing_*.py` module that `server_light` needs listed as `COPY` in `Dockerfile.light`.
 
 Env/secrets persist on the service unless you change them with another `deploy` / `services update`.
 

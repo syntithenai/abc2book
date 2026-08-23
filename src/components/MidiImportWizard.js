@@ -1199,7 +1199,7 @@ function WizardHelpModal(props) {
 
 export default function MidiImportWizard(props) {
   const show = !!props.show;
-  const [activeStep, setActiveStep] = useState('select');
+  const [activeStep, setActiveStep] = useState('tracks');
   const [draft, setDraft] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -1215,10 +1215,11 @@ export default function MidiImportWizard(props) {
 
   useEffect(function() {
     if (!show) return;
-    setActiveStep('select');
+    const pending = props.pendingMidi || {};
+    const hasPendingFile = !!(pending.bytes || pending.file);
+    setActiveStep(hasPendingFile ? 'tracks' : 'select');
     setError('');
     setLoading(true);
-    const pending = props.pendingMidi || {};
 
     async function loadProfile() {
       try {
@@ -1260,32 +1261,33 @@ export default function MidiImportWizard(props) {
     if (props.onClose) props.onClose();
   }
 
+  async function generatePreviewResult(working) {
+    const hasSplits = working.splitVoices && Object.keys(working.splitVoices).length > 0;
+    if (hasSplits) {
+      return buildLocalMidiImportResult(working);
+    }
+    try {
+      const importOpts = buildImportOptionsFromDraft(working);
+      return await importMidiToAbc(
+        working.midiBytes,
+        working.fileName,
+        props.accessToken,
+        importOpts
+      );
+    } catch (e) {
+      const local = buildLocalMidiImportResult(working);
+      if (!local.abc) throw e;
+      return local;
+    }
+  }
+
   async function runPreview(currentDraft) {
     const working = currentDraft || draft;
     if (!working) return;
     setLoading(true);
     setError('');
     try {
-      let result;
-      const hasSplits = working.splitVoices && Object.keys(working.splitVoices).length > 0;
-      if (hasSplits) {
-        result = buildLocalMidiImportResult(working);
-      } else {
-        try {
-          const importOpts = buildImportOptionsFromDraft(working);
-          result = await importMidiToAbc(
-            working.midiBytes,
-            working.fileName,
-            props.accessToken,
-            importOpts
-          );
-        } catch (e) {
-          result = buildLocalMidiImportResult(working);
-          if (!result.abc) {
-            throw e;
-          }
-        }
-      }
+      const result = await generatePreviewResult(working);
       setDraft(function(prev) {
         return Object.assign({}, prev || working, { previewResult: result });
       });
@@ -1304,8 +1306,10 @@ export default function MidiImportWizard(props) {
     try {
       let result = draft.previewResult;
       if (!result) {
-        await runPreview(draft);
-        result = draft.previewResult;
+        result = await generatePreviewResult(draft);
+        setDraft(function(prev) {
+          return Object.assign({}, prev, { previewResult: result });
+        });
       }
       if (!result) {
         throw new Error('Preview not available');
@@ -1440,15 +1444,15 @@ export default function MidiImportWizard(props) {
             {wizardActions}
           </div>
           {showStickyStrip ? (
-            <StickyGridStrip draft={draft} onChange={setDraft} showRhythmControls={activeStep === 'cleanup'} />
+            <StickyGridStrip draft={draft} onChange={setDraft} />
           ) : null}
           <div className="midi-import-wizard-step-content">
             {loading && !draft ? (
               <div className="text-center py-4"><Spinner animation="border" /> Analyzing MIDI…</div>
             ) : null}
             {error ? <Alert variant="danger">{error}</Alert> : null}
-            {creditMessage && !error ? (
-              <Alert variant={creditAffordance.blocked ? 'warning' : 'info'}>{creditMessage}</Alert>
+            {creditAffordance.blocked && creditMessage && !error ? (
+              <Alert variant="warning">{creditMessage}</Alert>
             ) : null}
             {draft && activeStep === 'select' ? (
               <SelectStep

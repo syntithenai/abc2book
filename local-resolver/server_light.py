@@ -43,24 +43,16 @@ from score_convert_client import (
     score_convert_features,
 )
 
-try:
-    from billing import (
-        billing_enabled,
-        billing_health_fields,
-        ensure_db as ensure_billing_db,
-        ensure_user_billing,
-        get_balance_millicents,
-    )
-    from billing_hooks import BillingContext
-    from billing_routes import register_billing_routes
-except ImportError:
-    billing_enabled = lambda: False  # type: ignore[assignment]
-    ensure_billing_db = lambda: None  # type: ignore[assignment]
-    ensure_user_billing = lambda email: {"granted": False}  # type: ignore[assignment]
-    get_balance_millicents = lambda email: 0  # type: ignore[assignment]
-    billing_health_fields = lambda email: {"billingEnabled": False}  # type: ignore[assignment]
-    BillingContext = None  # type: ignore[assignment,misc]
-    register_billing_routes = lambda *args, **kwargs: None  # type: ignore[assignment]
+# Light Cloud Run is the central credit ledger — billing must always load.
+from billing import (
+    billing_enabled,
+    billing_health_fields,
+    ensure_db as ensure_billing_db,
+    ensure_user_billing,
+    get_balance_millicents,
+)
+from billing_hooks import BillingContext
+from billing_routes import register_billing_routes
 
 app = FastAPI(title="tunebook-resolver-light")
 
@@ -118,8 +110,6 @@ register_oauth_bff_routes(
 
 
 def billing_context():
-    if BillingContext is None:
-        return None
     return BillingContext()
 
 
@@ -354,18 +344,14 @@ async def _health_body(authorization: str | None) -> dict:
     return body
 
 
-try:
-    ensure_billing_db()
-    register_billing_routes(
-        app,
-        get_bearer_token=get_bearer_token,
-        verify_google_access_token=verify_google_access_token,
-        cors_headers=cors_headers,
-        get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
-    )
-except Exception as exc:
-    import logging
-    logging.getLogger("tunebook.billing").warning("Billing routes not registered: %s", exc)
+ensure_billing_db()
+register_billing_routes(
+    app,
+    get_bearer_token=get_bearer_token,
+    verify_google_access_token=verify_google_access_token,
+    cors_headers=cors_headers,
+    get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
+)
 
 
 @app.get("/health")

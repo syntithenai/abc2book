@@ -35,6 +35,8 @@ The SPA always sends `/billing/*` to Cloud Run. Peppertrees and localhost handle
    ./deploy-cloud-light.sh
    ```
 
+   The script runs `test_light_billing_packaging` + `test_billing` before building, and Cloud Build runs `scripts/verify_light_billing_packaging.py` before the Docker image build. Post-deploy it requires `/health` → `billingEnabled: true` and `POST /billing/can-afford` → 401/403. Do not remove `COPY billing_*.py` lines from `Dockerfile.light` without updating that verify script.
+
 4. Stripe Dashboard (live mode):
 
    - Webhook: `https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app/billing/webhook`
