@@ -27,6 +27,22 @@ export function noteLengthFromRhythmDetail(rhythmDetail) {
   return '1/8';
 }
 
+/** Map snap/grid slots-per-beat (including triplets) to ABC L: value. */
+export function noteLengthFromSlotsPerBeat(slotsPerBeat) {
+  const slots = Math.max(1, Number(slotsPerBeat) || 4);
+  if (slots <= 1) return '1/4';
+  if (slots <= 3) return '1/8';
+  if (slots <= 6) return '1/16';
+  return '1/32';
+}
+
+export function rhythmDetailFromSlotsPerBeat(slotsPerBeat) {
+  const slots = Math.max(1, Number(slotsPerBeat) || 4);
+  if (slots <= 1) return 'simple';
+  if (slots >= 4) return 'detailed';
+  return 'standard';
+}
+
 export function midiNoteName(midi) {
   const names = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
   const n = Math.max(0, Math.min(127, Math.round(Number(midi) || 0)));

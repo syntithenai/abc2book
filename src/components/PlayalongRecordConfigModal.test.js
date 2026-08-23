@@ -28,12 +28,14 @@ describe('PlayalongRecordConfigModal', function() {
   })
 
   test('renders cutoff, volume, and instrument fields with help buttons', function() {
+    const onStart = jest.fn()
     act(function() {
       root.render(React.createElement(PlayalongRecordConfigModal, {
         show: true,
         tempoBpm: 100,
         settings: DEFAULT_PLAYALONG_SETTINGS,
         canClear: false,
+        onStart: onStart,
       }))
     })
 
@@ -53,21 +55,38 @@ describe('PlayalongRecordConfigModal', function() {
     expect(document.querySelector('[aria-label="Help: Instrument"]')).toBeTruthy()
   })
 
-  test('renders repeats input and compare existing when takes are saved', function() {
+  test('Space starts recording when the dialog is open', function() {
+    const onStart = jest.fn()
+    act(function() {
+      root.render(React.createElement(PlayalongRecordConfigModal, {
+        show: true,
+        tempoBpm: 100,
+        settings: DEFAULT_PLAYALONG_SETTINGS,
+        canClear: false,
+        onStart: onStart,
+      }))
+    })
+
+    act(function() {
+      window.dispatchEvent(new KeyboardEvent('keydown', { key: ' ', code: 'Space', bubbles: true }))
+    })
+    expect(onStart).toHaveBeenCalledTimes(1)
+  })
+
+  test('renders repeats input when takes can be cleared', function() {
     act(function() {
       root.render(React.createElement(PlayalongRecordConfigModal, {
         show: true,
         tempoBpm: 100,
         settings: Object.assign({}, DEFAULT_PLAYALONG_SETTINGS, { repeats: 3 }),
         canClear: true,
-        hasExistingTakes: true,
       }))
     })
 
     const repeats = document.querySelector('[data-testid="playalong-repeats-input"]')
     expect(repeats).toBeTruthy()
     expect(repeats.value).toBe('3')
-    expect(document.querySelector('[data-testid="playalong-compare-existing"]')).toBeTruthy()
+    expect(document.querySelector('[data-testid="playalong-compare-existing"]')).toBeFalsy()
     expect(clampPlayalongRepeats('12')).toBe(10)
   })
 })

@@ -19,7 +19,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import useAbcjsParser from '../useAbcjsParser';
 import { getAudioGenerationAccess, getPracticeTrackGenerateLabel } from '../audioGenerationAccess';
 import { useCreditAffordance } from '../useCreditAffordance';
-import { openCreditSettings } from '../resolverCreditAccess';
+import { normalizeAccessToken, openCreditSettings } from '../resolverCreditAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
 import { extractChordsPerBar, renderChordLayerWav } from '../practiceTrackChordLayer';
 import {
@@ -36,15 +36,17 @@ import {
   TASK_LINKED_COVER,
   TASK_OPTIONS,
   TASK_PRACTICE_TRACK,
+  audioGenerationUnavailableMessage,
   defaultPresetForTask,
-  mergeBackendsPresets,
+  listAvailableQualityPresets,
+  listQualityPresetOptions,
   presetLabel,
-  PRESET_ORDER,
   taskLabel,
 } from '../audioGenerationPresets';
 import { enqueueAudioGenerationJob } from '../audioGenerationJobStore';
 import { defaultCoverStylePrompt } from '../audioGenerationActions';
 import { getLinkSrcType } from '../checkTuneLinkPlayback';
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore';
 
 const STEPS = [
   { key: 'task', title: 'Task' },
@@ -121,30 +123,31 @@ export default function AudioGenerationWizard(props) {
     };
   }, [practiceAffordance, coverAffordance]);
 
+  const resolvedToken = resolveResolverAccessToken(token) || getActiveResolverAccessToken() || '';
+
   const access = useMemo(function() {
     return getAudioGenerationAccess({
       resolverChecked: checked,
       resolverAvailable: available,
       resolverStatus: status,
       features: features,
-      accessToken: token,
+      accessToken: resolvedToken || token,
       user: props.user,
       backends: backends,
       affordance: combinedAffordance,
     });
-  }, [checked, available, status, features, token, props.user, backends, combinedAffordance]);
+  }, [checked, available, status, features, token, resolvedToken, props.user, backends, combinedAffordance]);
 
   useEffect(function() {
     if (!checked) return undefined;
     const timer = setInterval(function() {
-      refreshMediaResolverHealth(token);
+      refreshMediaResolverHealth(resolvedToken || token);
     }, 30000);
     return function() {
       clearInterval(timer);
     };
-  }, [checked, token, refreshMediaResolverHealth]);
+  }, [checked, token, resolvedToken, refreshMediaResolverHealth]);
 
-  const resolvedToken = resolveResolverAccessToken(token);
   const isYoutubeLink = tunebook && tunebook.utils && tunebook.utils.isYoutubeLink;
   const hideTrigger = !!props.hideTrigger;
   const isControlled = props.show != null;
@@ -200,8 +203,16 @@ export default function AudioGenerationWizard(props) {
   }, [tune, isYoutubeLink]);
 
   const presetOptions = useMemo(function() {
-    return mergeBackendsPresets(backends, taskId);
+    return listQualityPresetOptions(backends, taskId);
   }, [backends, taskId]);
+
+  const availablePresets = useMemo(function() {
+    return listAvailableQualityPresets(backends, taskId);
+  }, [backends, taskId]);
+
+  const providerUnavailableMessage = useMemo(function() {
+    return audioGenerationUnavailableMessage(backends);
+  }, [backends]);
 
   const steps = useMemo(function() {
     return visibleSteps(taskId);
@@ -227,11 +238,19 @@ export default function AudioGenerationWizard(props) {
     setPresetId(defaultPresetForTask(taskId));
   }, [taskId]);
 
+  useEffect(function() {
+    if (!availablePresets.length) return;
+    if (availablePresets.some(function(preset) { return preset.id === presetId; })) return;
+    const preferred = availablePresets.find(function(item) { return item.default; })
+      || availablePresets[0];
+    if (preferred) setPresetId(preferred.id);
+  }, [availablePresets, presetId]);
+
   const loadBackends = useCallback(async function() {
-    if (!resolvedToken) return;
+    if (!resolvedToken && !normalizeAccessToken(token)) return;
     setBackendsError('');
     try {
-      const payload = await fetchAudioGenerationBackends({ token: token });
+      const payload = await fetchAudioGenerationBackends({ token: resolvedToken || token });
       setBackends(payload);
     } catch (err) {
       setBackends(null);
@@ -430,7 +449,10 @@ export default function AudioGenerationWizard(props) {
   }, [pendingGenerate, access.canGenerate, resolvedToken, startGeneration]);
 
   const requestLoginForGeneration = useCallback(function() {
-    if (resolvedToken) {
+    // Prefer any bearer we already have (props token or health-store token) so we
+    // never open GIS login while the session is already authenticated.
+    const bearer = resolvedToken || getActiveResolverAccessToken() || normalizeAccessToken(token);
+    if (bearer) {
       setPendingGenerate(false);
       startGeneration();
       return;
@@ -443,9 +465,13 @@ export default function AudioGenerationWizard(props) {
     login().catch(function() {
       setPendingGenerate(false);
     });
-  }, [login, resolvedToken, startGeneration]);
+  }, [login, resolvedToken, token, startGeneration]);
 
   const handleGenerateClick = useCallback(function() {
+    if (providerUnavailableMessage) {
+      setError(providerUnavailableMessage);
+      return;
+    }
     if (access.needsLogin) {
       requestLoginForGeneration();
       return;
@@ -455,7 +481,14 @@ export default function AudioGenerationWizard(props) {
       return;
     }
     startGeneration();
-  }, [access.needsLogin, access.needsCredit, requestLoginForGeneration, startGeneration]);
+  }, [
+    providerUnavailableMessage,
+    access.needsLogin,
+    access.needsCredit,
+    access.cannotAfford,
+    requestLoginForGeneration,
+    startGeneration,
+  ]);
 
   const handleDownloadScore = useCallback(function() {
     try {
@@ -661,14 +694,14 @@ export default function AudioGenerationWizard(props) {
     }
 
     if (activeStep === 'quality') {
-      const options = presetOptions.length ? presetOptions : PRESET_ORDER.map(function(id) {
-        return { id: id, label: presetLabel(id), available: true };
-      });
       return (
         <>
           <p className="text-muted">Choose quality vs speed. Fast is selected by default.</p>
+          {providerUnavailableMessage ? (
+            <Alert variant="warning">{providerUnavailableMessage}</Alert>
+          ) : null}
           <div className="d-flex flex-column gap-2">
-            {options.map(function(preset) {
+            {presetOptions.map(function(preset) {
               const unavailable = preset.available === false;
               return (
                 <Button
@@ -721,7 +754,11 @@ export default function AudioGenerationWizard(props) {
       if (timingPlanNeedsAcknowledgement(plan) && !ackBarEstimate) return false;
       return true;
     }
-    if (activeStep === 'quality') return !!presetId;
+    if (activeStep === 'quality') {
+      return !!presetId && availablePresets.some(function(preset) {
+        return preset.id === presetId;
+      });
+    }
     return true;
   }
 

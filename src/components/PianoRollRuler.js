@@ -3,17 +3,19 @@ import { beatsPerBarFromMeter } from '../notation/beatGrid';
 import { beatToX } from '../notation/pianoRollGeometry';
 
 export default function PianoRollRuler(props) {
-  const { width, beatsPerBar, beatWidth, numBars, onSeekBeat } = props;
+  const { width, beatsPerBar, beatWidth, numBars, onSeekBeat, anacrusisBeats } = props;
+  const offset = anacrusisBeats || 0;
 
   return (
     <svg className="piano-roll-ruler" width={width} height={22} onClick={function(e) {
       if (!onSeekBeat) return;
       const rect = e.currentTarget.getBoundingClientRect();
       const x = e.clientX - rect.left;
-      onSeekBeat(x / beatWidth);
+      onSeekBeat(x / beatWidth + offset);
     }}>
       {Array.from({ length: numBars + 1 }).map(function(_, i) {
-        const x = beatToX(i * beatsPerBar, beatWidth);
+        const beat = offset + i * beatsPerBar;
+        const x = beatToX(beat, beatWidth);
         return (
           <g key={'ruler-bar-' + i}>
             <line x1={x} y1={14} x2={x} y2={22} className="piano-roll-ruler-bar" />

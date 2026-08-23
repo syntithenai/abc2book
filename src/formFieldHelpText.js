@@ -223,11 +223,11 @@ export const PLAYALONG_FIELD_HELP = {
   },
   outputLatency: {
     title: 'Headphones and speakers',
-    body: 'Bluetooth headphones often delay the MIDI by 150–300 ms. You play what you hear, so note onsets on the pitch graph can look late. Wired speakers or headphones give the most accurate onset alignment.',
+    body: 'Bluetooth headphones often delay the MIDI by 150–300 ms. You play what you hear, so note onsets on the pitch graph can look late. Wired speakers or headphones give the most accurate onset alignment. Use Calibrate latency with the mic near the speaker (not a late clap) so the graph does not over-shift early.',
   },
   instrument: {
     title: 'Instrument',
-    body: 'Play-along pitch tracking follows one melody note at a time. Chords, drones, and harmony parts are not tracked. Choose the instrument you are playing so the tracker looks in that pitch range (for example a low D tin whistle versus a high D whistle or soprano recorder).',
+    body: 'Play-along pitch tracking follows one melody note at a time. Chords, drones, and harmony parts are not tracked. Choose the instrument you are playing so the tracker looks in that pitch range (for example a low D tin whistle versus a high D whistle or soprano recorder). Voice allows octave shifts (singing an octave above or below the written notes) and a slightly wider pitch window for vibrato.',
   },
   repeats: {
     title: 'Repeats',

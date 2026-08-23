@@ -16,6 +16,7 @@ import {
 import { getTuneVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import useAbcjsParser from '../useAbcjsParser'
+import TuneTransposeControl from './TuneTransposeControl'
 import { getPracticeSessionCopy, formatPracticeTimeRemaining } from '../practiceSessionCopy'
 import { loadPracticeSettings, mergePracticeSettings, clampReferenceGain } from '../practiceSessionSettings'
 import PracticeTapToPlayPrompt from './PracticeTapToPlayPrompt'
@@ -368,11 +369,11 @@ export default function PracticeSessionModal(props) {
     ? 'secondary'
     : (props.mediaController && props.mediaController.isPlaying ? 'warning' : 'success')
 
-  function changeTuneTranspose(delta) {
+  function handleTransposeCommit(next) {
     if (!tune || !props.tunebook) return
-    const next = tuneTranspose + delta
+    const nextTune = Object.assign({}, tune, { transpose: next })
     tune.transpose = next
-    props.tunebook.saveTune(tune)
+    props.tunebook.saveTune(nextTune)
     if (props.forceRefresh) props.forceRefresh()
   }
 
@@ -383,11 +384,10 @@ export default function PracticeSessionModal(props) {
   const transposeCapoBlock = tune ? (
     <div className="music-transpose-capo-block">
       <span className="music-transpose-capo-label">Transpose</span>
-      <ButtonGroup size="sm" className="music-transpose-group">
-        <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1) }} aria-label="Transpose down">−</Button>
-        <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
-        <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1) }} aria-label="Transpose up">+</Button>
-      </ButtonGroup>
+      <TuneTransposeControl
+        value={tuneTranspose}
+        onCommit={handleTransposeCommit}
+      />
     </div>
   ) : null
 

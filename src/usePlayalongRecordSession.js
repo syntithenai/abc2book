@@ -9,7 +9,6 @@ import {
   persistPlayalongRecording,
   playalongMusicStartWallClockMs,
   resolvePlayalongMusicStartOffsetSeconds,
-  refinePlayalongMusicStartOffsetSeconds,
   residualPlayalongOutputLatencySeconds,
   getPlayalongOutputLatencySeconds,
   isHighPlayalongOutputLatency,
@@ -35,7 +34,7 @@ import {
   createLivePeakSampler,
   peaksDurationSeconds,
 } from './playalongWaveform'
-import { expectedNotesFromPlayalongTune } from './playalongTakeScore'
+import { expectedNotesFromPlayalongTune, resolvePlayalongOffsetWithOnsetAlign } from './playalongTakeScore'
 
 function stopStream(stream) {
   if (!stream || typeof stream.getTracks !== 'function') return
@@ -166,6 +165,8 @@ export default function usePlayalongRecordSession(options) {
   const liveTempoBpmRef = useRef(0)
   const liveMusicOffsetRef = useRef(0)
   const liveEstimateOffsetRef = useRef(0)
+  const liveOnsetAlignSecondsRef = useRef(0)
+  const liveOnsetAlignAtRef = useRef(0)
   const outputLatencySecondsRef = useRef(0)
   const outputLatencyAlreadyInTimelineRef = useRef(false)
   const outputLatencyAppliedSecondsRef = useRef(0)
@@ -265,8 +266,10 @@ export default function usePlayalongRecordSession(options) {
 
   function refreshOutputLatencyFromMedia() {
     const media = mediaControllerRef.current
+    const settings = loadPlayalongSettings()
     const reported = getPlayalongOutputLatencySeconds({
       mediaController: media,
+      calibratedOutputLatencySeconds: settings.calibratedOutputLatencySeconds,
       getAudioContext: media && typeof media.getAudioContext === 'function'
         ? function() { return media.getAudioContext() }
         : null,
@@ -303,9 +306,12 @@ export default function usePlayalongRecordSession(options) {
     const peaks = compactPeaks(livePeaks || [])
     const pitchPoints = compactPitchPoints(Array.isArray(livePitchPoints) ? livePitchPoints : [])
     const firstNotes = expectedNotesFromPlayalongTune(current, 0)
-    const offset = refinePlayalongMusicStartOffsetSeconds(seededOffset, pitchPoints, {
-      firstExpectedMidi: firstNotes[0] && firstNotes[0].midi,
+    const playbackSpeed = media && media.playbackSpeed
+    const aligned = resolvePlayalongOffsetWithOnsetAlign(seededOffset, firstNotes, pitchPoints, {
+      tempoBpm: tempoBpm,
+      playbackSpeed: playbackSpeed,
     })
+    const offset = aligned.musicStartOffsetSeconds
     const peakDuration = peaksDurationSeconds(livePeaks)
     const duration = peakDuration > 0 ? peakDuration : durationSeconds
     const persistEpoch = persistEpochRef.current
@@ -320,6 +326,7 @@ export default function usePlayalongRecordSession(options) {
       musicStartOffsetSeconds: offset,
       tempoBpm: tempoBpm,
       outputLatencySeconds: residualPlayalongOutputLatencySeconds(currentOutputLatencyOptions()),
+      onsetAlignSeconds: aligned.onsetAlignSeconds,
       peaks: peaks,
       pitchPoints: pitchPoints,
     }).then(function(saved) {
@@ -698,6 +705,8 @@ export default function usePlayalongRecordSession(options) {
       liveMusicOffsetRef.current = 0
       liveTempoBpmRef.current = 0
       liveEstimateOffsetRef.current = 0
+      liveOnsetAlignSecondsRef.current = 0
+      liveOnsetAlignAtRef.current = 0
       setLivePitchPoints([])
       setLivePitchVersion(0)
       setLiveTempoBpm(0)
@@ -722,6 +731,8 @@ export default function usePlayalongRecordSession(options) {
       tempoBpmOverrideRef.current
     )
     liveEstimateOffsetRef.current = estimated
+    liveOnsetAlignSecondsRef.current = 0
+    liveOnsetAlignAtRef.current = 0
     refreshOutputLatencyFromMedia()
     liveMusicOffsetRef.current = livePlayalongMusicOffsetSeconds(
       estimated,
@@ -733,6 +744,8 @@ export default function usePlayalongRecordSession(options) {
     let lastNotifyAt = 0
     const notifyMs = 160
     const pollMs = 20
+    const alignThrottleMs = 1000
+    const expectedNotes = expectedNotesFromPlayalongTune(current, 0)
     const timer = setInterval(function() {
       if (cancelled) return
       const sampler = peakSamplerRef.current
@@ -746,9 +759,20 @@ export default function usePlayalongRecordSession(options) {
         playbackStartedAtMs: playbackStartedAtRef.current,
         estimatedOffsetSeconds: liveEstimateOffsetRef.current,
       })
-      const offset = livePlayalongMusicOffsetSeconds(resolved, currentOutputLatencyOptions())
-      liveMusicOffsetRef.current = offset
+      const seeded = livePlayalongMusicOffsetSeconds(resolved, currentOutputLatencyOptions())
       const now = nowMs()
+      if (now - liveOnsetAlignAtRef.current >= alignThrottleMs && points.length >= 12) {
+        const align = resolvePlayalongOffsetWithOnsetAlign(seeded, expectedNotes, points, {
+          tempoBpm: liveTempoBpmRef.current,
+          playbackSpeed: media && media.playbackSpeed,
+        })
+        if (align.usedOnsetAlign) {
+          liveOnsetAlignSecondsRef.current = align.onsetAlignSeconds
+        }
+        liveOnsetAlignAtRef.current = now
+      }
+      const offset = Math.max(0, seeded + (liveOnsetAlignSecondsRef.current || 0))
+      liveMusicOffsetRef.current = offset
       if (now - lastNotifyAt < notifyMs) return
       lastNotifyAt = now
       setLivePitchVersion(livePitchVersionRef.current)

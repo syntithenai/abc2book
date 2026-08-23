@@ -487,7 +487,11 @@ export function createLivePeakSampler(stream, options) {
       stats.droppedHz += 1
       yinHz = null
     }
-    if (yinHz > 0) freq = preferMonophonicFundamental(yinHz, floatData, ctx.sampleRate, pitch)
+    if (yinHz > 0) {
+      freq = pitch.preferFundamental === false
+        ? yinHz
+        : preferMonophonicFundamental(yinHz, floatData, ctx.sampleRate, pitch)
+    }
     if (!(freq > 0)) freq = detectPitchHz(floatData, ctx.sampleRate, pitch)
     const elapsedMs = (typeof performance !== 'undefined' ? performance.now() : Date.now()) - startedAt
     let rawMidi = frequencyToMidiFloat(freq)
@@ -576,7 +580,9 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
     if (detect) {
       try { freq = detect(slice) || null } catch (e) { freq = null }
       if (freq > 0 && (freq < pitch.minHz || freq > pitch.maxHz)) freq = null
-      if (freq > 0) freq = preferMonophonicFundamental(freq, slice, rate, pitch)
+      if (freq > 0 && pitch.preferFundamental !== false) {
+        freq = preferMonophonicFundamental(freq, slice, rate, pitch)
+      }
     }
     if (!(freq > 0)) freq = detectPitchHz(slice, rate, pitch)
     const timeMs = (i / rate) * 1000
@@ -655,8 +661,9 @@ const PLAYALONG_COMPARE_EXTRACT_OPTIONS = {
 
 /**
  * Prefer live session pitch points when present — they track the mic during the
- * take. Re-extract from the blob only when we have no session points (e.g. after
- * reload), so cutoff/instrument changes still apply via a fresh decode path.
+ * take. After reload, use pitchPoints already saved on the recording. Only run
+ * the expensive blob YIN extract when nothing was persisted (legacy takes).
+ * Cutoff/instrument changes apply to new recordings; stored traces stay as captured.
  */
 export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById, options) {
   const opts = options || {}
@@ -679,15 +686,29 @@ export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById,
     return []
   }
 
+  function remember(points) {
+    const result = Array.isArray(points) ? points : []
+    if (recordingId && result.length) pitchExtractCache[cacheKey] = result
+    return result
+  }
+
+  function fromPersistedPitchPoints(recording) {
+    if (!recording || !Array.isArray(recording.pitchPoints) || !recording.pitchPoints.length) {
+      return null
+    }
+    // Saved live traces are already compacted; stabilize only sparse/legacy series.
+    const raw = recording.pitchPoints
+    const points = raw.length >= 8 ? raw.slice() : stabilizePitchPointSeries(raw)
+    return remember(points)
+  }
+
   function fromBlob(blob) {
     if (!blob) return Promise.resolve(undefined)
     if (recordingId && pitchExtractCache[cacheKey]) {
       return Promise.resolve(pitchExtractCache[cacheKey])
     }
     return extractPitchPointsFromBlob(blob, extractPayload).then(function(points) {
-      const result = Array.isArray(points) ? points : []
-      if (recordingId && result.length) pitchExtractCache[cacheKey] = result
-      return result
+      return remember(Array.isArray(points) ? points : [])
     }).catch(function() {
       return undefined
     })
@@ -697,29 +718,46 @@ export function resolvePlayalongTakePitchPoints(take, pitchPointsById, blobById,
     return Promise.resolve(sessionPoints)
   }
 
-  if (sessionBlob) {
-    return fromBlob(sessionBlob).then(function(points) {
-      if (points !== undefined) return points
+  if (!forceBlob && recordingId && pitchExtractCache[cacheKey]) {
+    return Promise.resolve(pitchExtractCache[cacheKey])
+  }
+
+  function resolveFromRecording(recording) {
+    if (!forceBlob) {
+      const stored = fromPersistedPitchPoints(recording)
+      if (stored && stored.length) return Promise.resolve(stored)
+    }
+    const blob = sessionBlob || recordingDataToBlob(recording)
+    return fromBlob(blob).then(function(points) {
+      if (points !== undefined && points.length) return points
+      const stored = fromPersistedPitchPoints(recording)
+      if (stored && stored.length) return stored
       return fallbackPoints()
     })
   }
 
-  if (!getRecordingFn || !recordingId) {
-    return Promise.resolve(fallbackPoints())
-  }
-
-  return getRecordingFn(recordingId).then(function(recording) {
-    const blob = recordingDataToBlob(recording)
-    return fromBlob(blob).then(function(points) {
-      if (points !== undefined) return points
-      if (recording && Array.isArray(recording.pitchPoints) && recording.pitchPoints.length) {
-        return stabilizePitchPointSeries(recording.pitchPoints)
+  if (getRecordingFn && recordingId) {
+    return getRecordingFn(recordingId).then(function(recording) {
+      return resolveFromRecording(recording)
+    }).catch(function() {
+      if (sessionBlob) {
+        return fromBlob(sessionBlob).then(function(points) {
+          if (points !== undefined && points.length) return points
+          return fallbackPoints()
+        })
       }
       return fallbackPoints()
     })
-  }).catch(function() {
-    return fallbackPoints()
-  })
+  }
+
+  if (sessionBlob) {
+    return fromBlob(sessionBlob).then(function(points) {
+      if (points !== undefined && points.length) return points
+      return fallbackPoints()
+    })
+  }
+
+  return Promise.resolve(fallbackPoints())
 }
 
 export function peaksDurationSeconds(peaks, intervalMs) {

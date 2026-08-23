@@ -4,8 +4,6 @@ import { effectiveCountInBars } from './playbackStateLogic'
 import { beatsPerBarFromMeter } from './notation/beatGrid'
 import { deleteRecording, getRecording, saveRecording } from './linkRecording'
 import utilsFunctions from './utilsFunctions'
-import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
-
 export const PLAYALONG_TAKE_COMMENT_PREFIX = '% abcbook-playalong-take-'
 export const PLAYALONG_RECORDING_SOURCE = 'playalong'
 export const PLAYALONG_MAX_LOOP_TAKES = 10
@@ -28,6 +26,7 @@ export function normalizePlayalongTake(raw) {
   const tempoBpm = parseFloat(raw.tempoBpm)
   const createdAt = raw.createdAt ? String(raw.createdAt) : ''
   const outputLatency = parseFloat(raw.outputLatencySeconds)
+  const onsetAlign = parseFloat(raw.onsetAlignSeconds)
   const pitchPctRaw = Math.round(parseFloat(raw.pitchPct))
   const pitchPct = Number.isFinite(pitchPctRaw)
     ? Math.max(0, Math.min(100, pitchPctRaw))
@@ -39,6 +38,7 @@ export function normalizePlayalongTake(raw) {
     musicStartOffsetSeconds: Number.isFinite(offset) && offset > 0 ? offset : 0,
     tempoBpm: Number.isFinite(tempoBpm) && tempoBpm > 0 ? tempoBpm : 0,
     outputLatencySeconds: Number.isFinite(outputLatency) && outputLatency > 0 ? outputLatency : 0,
+    onsetAlignSeconds: Number.isFinite(onsetAlign) && Math.abs(onsetAlign) > 0.001 ? onsetAlign : 0,
     pitchPct: pitchPct,
   }
 }
@@ -159,6 +159,9 @@ export function renderPlayalongTakesAbc(tune) {
     if (take.outputLatencySeconds > 0) {
       payload.outputLatencySeconds = take.outputLatencySeconds
     }
+    if (take.onsetAlignSeconds && Math.abs(take.onsetAlignSeconds) > 0.001) {
+      payload.onsetAlignSeconds = take.onsetAlignSeconds
+    }
     if (take.pitchPct != null) {
       payload.pitchPct = take.pitchPct
     }
@@ -166,9 +169,7 @@ export function renderPlayalongTakesAbc(tune) {
   }).join('\n') + '\n'
 }
 
-export function shouldShowPlayalongRecordButton(tune, tunebook, fileOverlayActive, user, resolverStatus) {
-  // Play-along recording is admin-only while the feature is still being iterated.
-  if (!isFeedFeedbackAdmin(user, resolverStatus)) return false
+export function shouldShowPlayalongRecordButton(tune, tunebook, fileOverlayActive) {
   if (fileOverlayActive) return false
   return tuneHasMidiNotes(tune, tunebook)
 }
@@ -289,13 +290,18 @@ export function readAudioContextOutputLatencySeconds(audioContext) {
 
 /**
  * Total reported output path latency for playalong alignment:
- * AudioContext device latency (Bluetooth etc.) plus optional pitch-shifter buffer.
+ * prefer user clap/loopback calibration when set; else AudioContext device
+ * latency plus optional pitch-shifter buffer.
  */
 export function getPlayalongOutputLatencySeconds(source) {
   if (typeof source === 'number') {
     return Number.isFinite(source) && source > 0 ? source : 0
   }
   const s = source || {}
+  const calibrated = parseFloat(s.calibratedOutputLatencySeconds)
+  if (Number.isFinite(calibrated) && calibrated >= 0.02) {
+    return Math.min(0.5, calibrated)
+  }
   let ctx = s.audioContext || null
   if (!ctx && typeof s.getAudioContext === 'function') {
     try { ctx = s.getAudioContext() } catch (e) { ctx = null }
@@ -345,6 +351,23 @@ export function effectivePlayalongMusicOffsetSeconds(musicStartOffsetSeconds, pi
     latency = Number.isFinite(parsed) ? Math.max(0, parsed) : PLAYALONG_PITCH_LATENCY_SECONDS
   }
   return offset + latency
+}
+
+/**
+ * Detector pad is for YIN/hop lag. When per-note onset align already baked that
+ * residual into musicStartOffsetSeconds, adding the pad again pulls onsets early.
+ * Large calibrated output latency without onset-align still gets a lighter pad.
+ */
+export function playalongDetectorPitchLatencySeconds(takeOrOptions) {
+  const t = takeOrOptions || {}
+  const onsetAlign = parseFloat(t.onsetAlignSeconds)
+  if (Number.isFinite(onsetAlign) && Math.abs(onsetAlign) > 0.001) return 0
+  const outLat = parseFloat(t.outputLatencySeconds)
+  if (Number.isFinite(outLat) && outLat >= PLAYALONG_HIGH_OUTPUT_LATENCY_SECONDS) {
+    // Calibration already covers most of the audible path; keep a small detector-only pad.
+    return Math.min(PLAYALONG_PITCH_LATENCY_SECONDS, 0.06)
+  }
+  return PLAYALONG_PITCH_LATENCY_SECONDS
 }
 
 /**
@@ -427,6 +450,7 @@ export async function persistPlayalongRecording(options) {
   const offset = parseFloat(opts.musicStartOffsetSeconds)
   const tempoBpm = parseFloat(opts.tempoBpm)
   const outputLatency = parseFloat(opts.outputLatencySeconds)
+  const onsetAlign = parseFloat(opts.onsetAlignSeconds)
   const recording = {
     id: recordingId,
     tuneId: tune.id,
@@ -440,6 +464,7 @@ export async function persistPlayalongRecording(options) {
     musicStartOffsetSeconds: Number.isFinite(offset) && offset > 0 ? offset : 0,
     tempoBpm: Number.isFinite(tempoBpm) && tempoBpm > 0 ? tempoBpm : 0,
     outputLatencySeconds: Number.isFinite(outputLatency) && outputLatency > 0 ? outputLatency : 0,
+    onsetAlignSeconds: Number.isFinite(onsetAlign) && Math.abs(onsetAlign) > 0.001 ? onsetAlign : 0,
     waveformPeaks: Array.isArray(opts.peaks) ? opts.peaks : [],
     pitchPoints: Array.isArray(opts.pitchPoints) ? opts.pitchPoints : [],
     createdTimestamp: new Date(),
@@ -455,6 +480,7 @@ export async function persistPlayalongRecording(options) {
       musicStartOffsetSeconds: recording.musicStartOffsetSeconds,
       tempoBpm: recording.tempoBpm,
       outputLatencySeconds: recording.outputLatencySeconds,
+      onsetAlignSeconds: recording.onsetAlignSeconds,
     }),
     blob: blob,
     peaks: Array.isArray(opts.peaks) ? opts.peaks : [],

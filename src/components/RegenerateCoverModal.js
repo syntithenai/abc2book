@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
 import {
-  PRESET_ORDER,
   TASK_LINKED_COVER,
   audioGenerationUnavailableMessage,
   defaultPresetForTask,
-  mergeBackendsPresets,
+  listAvailableQualityPresets,
   presetLabel,
 } from '../audioGenerationPresets';
 
@@ -23,14 +22,7 @@ export default function RegenerateCoverModal(props) {
   } = props;
 
   const providerUnavailableMessage = audioGenerationUnavailableMessage(backends);
-  const presetOptions = mergeBackendsPresets(backends, TASK_LINKED_COVER);
-  const availablePresets = presetOptions.length
-    ? presetOptions.filter(function(preset) { return preset.available !== false; })
-    : (providerUnavailableMessage
-      ? []
-      : PRESET_ORDER.map(function(id) {
-        return { id: id, label: presetLabel(id), available: true };
-      }));
+  const availablePresets = listAvailableQualityPresets(backends, TASK_LINKED_COVER);
 
   const [stylePrompt, setStylePrompt] = useState('');
   const [lyrics, setLyrics] = useState('');
@@ -42,14 +34,7 @@ export default function RegenerateCoverModal(props) {
     setStylePrompt(defaultStylePrompt || '');
     setLyrics('');
     setValidationError('');
-    const unavailable = audioGenerationUnavailableMessage(backends);
-    const options = presetOptions.length
-      ? presetOptions.filter(function(preset) { return preset.available !== false; })
-      : (unavailable
-        ? []
-        : PRESET_ORDER.map(function(id) {
-          return { id: id, label: presetLabel(id), available: true };
-        }));
+    const options = listAvailableQualityPresets(backends, TASK_LINKED_COVER);
     const defaultPreset = options.find(function(item) { return item.default; })
       || options[0];
     setPresetId(defaultPreset ? defaultPreset.id : defaultPresetForTask(TASK_LINKED_COVER));

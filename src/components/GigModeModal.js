@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Modal, Button, ButtonGroup } from 'react-bootstrap';
+import { Modal, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import abcjs from 'abcjs';
 import TimedLyricsChordsView from './TimedLyricsChordsView';
@@ -49,6 +49,7 @@ import StructureCapoControl from './StructureCapoControl';
 import ChordPitchButton from './ChordPitchButton';
 import { useCapoViewState } from '../useCapoViewState';
 import { chordTransposeWithCapo } from '../capoViewUtils';
+import TuneTransposeControl from './TuneTransposeControl';
 import useNotationPlaybackCursor from '../useNotationPlaybackCursor';
 import './GigModeModal.css';
 
@@ -160,21 +161,20 @@ export default function GigModeModal(props) {
 
   const capoState = useCapoViewState(currentTune && currentTune.id, storedCapo);
 
+  const setItemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
+
   const chordTranspose = useMemo(function() {
     if (!currentTune) return 0;
-    const baseTranspose = Number(currentTune.transpose) || 0;
-    const itemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
-    const totalTranspose = baseTranspose + itemTranspose;
+    const totalTranspose = tuneTranspose + setItemTranspose;
     return chordTransposeWithCapo(totalTranspose, capoState.capoOffset, capoState.capoEnabled);
-  }, [currentTune, setItem, capoState.capoOffset, capoState.capoEnabled]);
+  }, [currentTune, tuneTranspose, setItemTranspose, capoState.capoOffset, capoState.capoEnabled]);
 
   // Capo only changes chord fingering names — notation stays on sounding transpose.
+  // TuneTransposeControl debounces onCommit so rapid +/- does not re-render staff every step.
   const notationVisualTranspose = useMemo(function() {
     if (!currentTune) return 0;
-    const baseTranspose = Number(currentTune.transpose) || 0;
-    const itemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
-    return baseTranspose + itemTranspose;
-  }, [currentTune, setItem]);
+    return tuneTranspose + setItemTranspose;
+  }, [currentTune, tuneTranspose, setItemTranspose]);
 
   const structureMelodyNoteLines = useMemo(function() {
     if (!currentTune || !currentTune.voices || Object.keys(currentTune.voices).length === 0) return [];
@@ -470,9 +470,8 @@ export default function GigModeModal(props) {
     persistGigTuneSettings({ zoom: clamped });
   }
 
-  function changeTuneTranspose(delta) {
+  function handleTransposeCommit(next) {
     if (!currentTune || !currentTune.id || !tunebook) return;
-    const next = tuneTranspose + delta;
     tunebook.saveTune(Object.assign({}, currentTune, {
       id: currentTune.id,
       transpose: next,
@@ -645,11 +644,11 @@ export default function GigModeModal(props) {
                 />
               )}
               <span className="gig-mode-toolbar-label">Transpose</span>
-              <ButtonGroup size="sm" className="gig-mode-transpose-group">
-                <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1); }} aria-label="Transpose down">−</Button>
-                <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
-                <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
-              </ButtonGroup>
+              <TuneTransposeControl
+                value={tuneTranspose}
+                onCommit={handleTransposeCommit}
+                groupClassName="gig-mode-transpose-group"
+              />
               {showLyricsContent && availableFlags.lyrics && !fitHeightOn ? (
                 <LyricsZoomControls
                   className="gig-mode-zoom-group"

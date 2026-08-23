@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import abcjs from "abcjs";
 import { abcForAbcjs } from '../melodyBarlineNormalize';
+import { stripAbcMidiTransposeDirectives } from '../notation/notationDisplayAbc';
 import { isMobile } from 'react-device-detect';
 import {Link, useNavigate} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
@@ -298,8 +299,9 @@ export default function Abc(props) {
         }
         var tune = props.tunebook.abcTools.abc2json(abcTune)
         var effectiveVisualTranspose = props.visualTranspose != null ? props.visualTranspose : (tune ? (tune.transpose || 0) : 0)
-        if (effectiveVisualTranspose > 0 || effectiveVisualTranspose < 0) {
-          renderOptions.visualTranspose = effectiveVisualTranspose
+        var visualTransposeSemitones = Number(effectiveVisualTranspose) || 0
+        if (visualTransposeSemitones !== 0) {
+          renderOptions.visualTranspose = visualTransposeSemitones
         }
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
@@ -319,6 +321,11 @@ export default function Abc(props) {
         //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
         //tune.tempo = tune.tempo * useWarp
         var abcForRender = abcForAbcjs(props.tunebook.abcTools.json2abc(tune))
+        // json2abc emits %%MIDI transpose alongside UI visualTranspose; abcjs would
+        // apply both and shift playback an extra step vs the displayed notes.
+        if (visualTransposeSemitones !== 0) {
+          abcForRender = stripAbcMidiTransposeDirectives(abcForRender)
+        }
         renderedAbcRef.current = abcForRender
         var res = null
         fitAppliedRef.current = false
@@ -384,7 +391,11 @@ export default function Abc(props) {
         if (props.playbackAbc) {
           try {
             var playbackHolder = document.createElement('div')
-            var playbackRes = abcjs.renderAbc(playbackHolder, props.playbackAbc, renderOptions)
+            var playbackAbcText = props.playbackAbc
+            if (visualTransposeSemitones !== 0) {
+              playbackAbcText = stripAbcMidiTransposeDirectives(playbackAbcText)
+            }
+            var playbackRes = abcjs.renderAbc(playbackHolder, playbackAbcText, renderOptions)
             var playbackObj = playbackRes && playbackRes.length > 0 ? playbackRes[0] : null
             setPlaybackVisualObj(playbackObj)
           } catch (playbackErr) {
@@ -423,7 +434,7 @@ export default function Abc(props) {
                 // start a second createPlayer — that stacks count-ins after reload.
                 && !(props.mediaController && props.mediaController.hasPlayingIntent
                     && props.mediaController.hasPlayingIntent())) {
-                var primeHash = (tuneObj.transpose || 0) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + (tuneObj.playbackFillStyle || 'boom-chick') + '-' + (tuneObj.playbackFillLevel != null ? tuneObj.playbackFillLevel : 100) + '-' + abcTools.getTuneHash(tuneObj)
+                var primeHash = (props.visualTranspose != null ? props.visualTranspose : (tuneObj.transpose || 0)) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + (tuneObj.playbackFillStyle || 'boom-chick') + '-' + (tuneObj.playbackFillLevel != null ? tuneObj.playbackFillLevel : 100) + '-' + abcTools.getTuneHash(tuneObj)
                 if (primeHash !== audioChangedHash) {
                     setAudioChangedHash(primeHash)
                     const autoPrimeGeneration = getPlaybackGeneration()

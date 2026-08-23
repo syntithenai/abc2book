@@ -1,0 +1,28 @@
+[Unit]
+Description=audio.cpp Vulkan sidecar for abc2book practice tracks
+Documentation=file://%h/projects/abc2book/local-resolver/music_generation/README.md
+After=network-online.target
+Wants=network-online.target
+# Tolerate brief crash loops (Vulkan init flakes, GPU resets) without giving up.
+StartLimitIntervalSec=120
+StartLimitBurst=20
+
+[Service]
+Type=simple
+WorkingDirectory=%h/audio.cpp
+ExecStart=%h/audio.cpp/start-abc2book-sidecar.sh
+# SIGPIPE is treated as a "clean" exit by systemd, so Restart=on-failure will
+# leave the sidecar dead after client disconnects / broken pipes. Always keep
+# it up unless explicitly stopped.
+Restart=always
+RestartSec=3
+TimeoutStopSec=45
+KillMode=control-group
+KillSignal=SIGTERM
+# Keep journal readable if the process dumps a lot during model load.
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=abc2book-audio-cpp
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,28 @@
+[Unit]
+Description=Idle supervisor for abc2book audio.cpp (unload models after idle timeout)
+Documentation=file://%h/projects/abc2book/local-resolver/music_generation/README.md
+After=network-online.target abc2book-audio-cpp.service
+Wants=abc2book-audio-cpp.service
+StartLimitIntervalSec=120
+StartLimitBurst=20
+
+[Service]
+Type=simple
+WorkingDirectory=%h/projects/abc2book/local-resolver/audio-cpp
+Environment=AUDIO_CPP_IDLE_UNLOAD_SECONDS=300
+Environment=AUDIO_CPP_IDLE_SUPERVISOR_ENABLED=true
+Environment=AUDIO_GEN_IDLE_RESOLVER_URL=http://127.0.0.1:8787
+Environment=AUDIO_CPP_URL=http://127.0.0.1:8788
+Environment=AUDIO_CPP_SYSTEMD_UNIT=abc2book-audio-cpp.service
+Environment=AUDIO_CPP_IDLE_POLL_SECONDS=30
+# Do NOT put unquoted spaces in Environment= values — systemd truncates at the
+# first space (this previously set AUDIO_CPP_RESTART_CMD=systemctl only).
+ExecStart=/usr/bin/python3 %h/projects/abc2book/local-resolver/audio-cpp/idle_supervisor.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=abc2book-audio-cpp-idle
+
+[Install]
+WantedBy=default.target

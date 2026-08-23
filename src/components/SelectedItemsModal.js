@@ -8,6 +8,7 @@ import TuneDownloadDropdown from './TuneDownloadMenu'
 import AddTunesToListModal from './AddTunesToListModal'
 import {appendTunesToPerformanceSet, savePerformanceSet} from '../performanceSetStore'
 import {appendTunesToPracticeList, savePracticeList} from '../practiceListStore'
+import { PRACTICE_LISTS_ENABLED } from '../practiceModeEnabled'
 import {appendTunesToPlaylist, savePlaylistFromQueue} from '../savedPlaylistsStore'
 import {createQueue} from '../nowPlayingQueue'
 import {Link, useNavigate} from 'react-router-dom'
@@ -648,11 +649,13 @@ export default function SelectedItemsModal(props) {
                       label="Create playlist"
                       onClick={createPlaylistFromSelected}
                     />
-                    <BulkOpsDropdownItem
-                      icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.reviewsmall} />}
-                      label="Create practice list"
-                      onClick={createPracticeListFromSelected}
-                    />
+                    {PRACTICE_LISTS_ENABLED ? (
+                      <BulkOpsDropdownItem
+                        icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.reviewsmall} />}
+                        label="Create practice list"
+                        onClick={createPracticeListFromSelected}
+                      />
+                    ) : null}
                     <Dropdown.Divider />
                     <BulkOpsDropdownItem
                       icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.setlist} />}
@@ -664,11 +667,13 @@ export default function SelectedItemsModal(props) {
                       label="Add to playlist"
                       onClick={openAddToPlaylist}
                     />
-                    <BulkOpsDropdownItem
-                      icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.reviewsmall} />}
-                      label="Add to practice list"
-                      onClick={openAddToPracticeList}
-                    />
+                    {PRACTICE_LISTS_ENABLED ? (
+                      <BulkOpsDropdownItem
+                        icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.reviewsmall} />}
+                        label="Add to practice list"
+                        onClick={openAddToPracticeList}
+                      />
+                    ) : null}
                   </Dropdown.Menu>
                 </Dropdown>
               </div>

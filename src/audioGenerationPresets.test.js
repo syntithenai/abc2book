@@ -3,6 +3,8 @@ import {
   defaultPresetForTask,
   isTaskAvailable,
   linkTitleForTask,
+  listAvailableQualityPresets,
+  listQualityPresetOptions,
   presetLabel,
   TASK_LINKED_COVER,
   TASK_PRACTICE_TRACK,
@@ -35,6 +37,28 @@ describe('audioGenerationPresets', function() {
     };
     expect(isTaskAvailable(backends, TASK_LINKED_COVER)).toBe(true);
     expect(isTaskAvailable(backends, TASK_PRACTICE_TRACK)).toBe(false);
+  });
+
+  test('listQualityPresetOptions keeps unavailable presets from backends', function() {
+    const backends = {
+      ok: false,
+      tasks: [{
+        taskId: TASK_PRACTICE_TRACK,
+        presets: [
+          { id: 'fast', available: false },
+          { id: 'balanced', available: false },
+        ],
+      }],
+    };
+    const options = listQualityPresetOptions(backends, TASK_PRACTICE_TRACK);
+    expect(options).toHaveLength(2);
+    expect(listAvailableQualityPresets(backends, TASK_PRACTICE_TRACK)).toEqual([]);
+  });
+
+  test('listQualityPresetOptions falls back when backends are missing', function() {
+    const options = listQualityPresetOptions(null, TASK_PRACTICE_TRACK);
+    expect(options.map(function(item) { return item.id; })).toEqual(['fast', 'balanced', 'high']);
+    expect(options.every(function(item) { return item.available === true; })).toBe(true);
   });
 
   test('audioGenerationUnavailableMessage explains audio.cpp outage', function() {

@@ -1380,13 +1380,23 @@ export function applyPlaybackFillToSequence(sequence, visualObj, options) {
 /**
  * Flatten visualObj audio and apply fill style (abcjs boom-chick, custom, or off).
  */
+function setupAudioOptionsForPlayback(opts, chordsOff) {
+  const setup = { chordsOff: !!chordsOff }
+  const midiTranspose = Number(opts && opts.transpose)
+  if (Number.isFinite(midiTranspose) && midiTranspose !== 0) {
+    // Match CreateSynth visualObj path: cancel visualTranspose then sound at UI transpose.
+    setup.midiTranspose = midiTranspose
+  }
+  return setup
+}
+
 export function buildPlaybackSequence(synthObj, options) {
   const opts = options || {}
   const fillOptions = opts.fillOptions || {}
   if (!synthObj || typeof synthObj.setUpAudio !== 'function') return null
 
   if (fillOptions.injectCustomFill) {
-    const flattened = synthObj.setUpAudio({ chordsOff: true })
+    const flattened = synthObj.setUpAudio(setupAudioOptionsForPlayback(opts, true))
     const meterKey = meterKeyFromVisualObj(synthObj)
     const chordsPerBar = opts.tune
       ? (opts.abcjsParser
@@ -1421,7 +1431,9 @@ export function buildPlaybackSequence(synthObj, options) {
     })
   }
 
-  const flattened = synthObj.setUpAudio({ chordsOff: fillOptions.chordsOff })
+  const flattened = synthObj.setUpAudio(
+    setupAudioOptionsForPlayback(opts, fillOptions.chordsOff)
+  )
   if (fillOptions.chordsOff) {
     return removeChordTracks(flattened)
   }

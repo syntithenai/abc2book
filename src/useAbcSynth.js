@@ -554,6 +554,24 @@ export default function useAbcSynth(props) {
     const autoScroll = useRef(false)
     const autoScrollBlock = useRef('nearest')
     const lastPrimedMelodyOnlyRef = useRef(null)
+    const lastPrimedMidiTransposeRef = useRef(null)
+
+    function resolveMidiTransposeSemitones(synthObj, tuneForTranspose) {
+      // Prefer UI prop: visualObj can lag one frame behind a transpose commit.
+      if (props.visualTranspose != null && props.visualTranspose !== '') {
+        const fromProps = Number(props.visualTranspose)
+        if (Number.isFinite(fromProps)) return fromProps
+      }
+      if (synthObj && synthObj.visualTranspose != null && synthObj.visualTranspose !== '') {
+        const fromSynth = Number(synthObj.visualTranspose)
+        if (Number.isFinite(fromSynth)) return fromSynth
+      }
+      if (tuneForTranspose && tuneForTranspose.transpose != null && tuneForTranspose.transpose !== '') {
+        const fromTune = Number(tuneForTranspose.transpose)
+        if (Number.isFinite(fromTune)) return fromTune
+      }
+      return 0
+    }
     const realProgress = useRef(0) // updated by onplaying events
     // keep a copy as a ref to be available for lookup in callbacks
     
@@ -839,6 +857,21 @@ export default function useAbcSynth(props) {
             pitchShifterRef.current.setOutputVolume(Math.max(0, Math.min(1, props.practiceReferenceGain)))
         }
     }, [props.practiceReferenceGain, props.mediaController])
+
+    // Drop primed MIDI when UI transpose changes so the next play rebuilds at the new pitch.
+    // Do not tear down mid-playback; startPlaying also invalidates a stale transpose buffer.
+    useEffect(function() {
+        if (props.playbackEngine === false) return
+        if (isMidiKickoffActive()) return
+        if (isMidiPlaybackActive()) return
+        const want = resolveMidiTransposeSemitones(
+            gvisualObj.current,
+            (props.mediaController && props.mediaController.tune) || null
+        )
+        if (lastPrimedMidiTransposeRef.current == null) return
+        if (lastPrimedMidiTransposeRef.current === want) return
+        try { destroyAudioEngines() } catch (e) {}
+    }, [props.visualTranspose])
     
     const mcTapToPlay = mediaController ? mediaController.tapToPlay : tapToPlay
     const mcPlayCancelled = mediaController ? mediaController.playCancelled : playCancelled
@@ -2142,7 +2175,7 @@ export default function useAbcSynth(props) {
            }
            // infinite repeats
            if (parseInt(props.repeat) === -1) {
-             if (shouldSuppressPlaybackEndSeek()) {
+             if (shouldSuppressPlaybackEndSeek() || props.forceFillOff) {
                stopPlaying()
                if (props.onEnded) props.onEnded()
              } else {
@@ -2158,7 +2191,9 @@ export default function useAbcSynth(props) {
            // specified repeats > 0
            } else if (parseInt(props.repeat, 10) > 0 ) {
              if (playCountRef.current < parseInt(props.repeat, 10) - 1) {
-               if (shouldSuppressPlaybackEndSeek()) {
+               // Play-along owns one playthrough per take (forceFillOff). Do not
+               // Abc-loop mid-take — that concatenates repeats into one recording.
+               if (shouldSuppressPlaybackEndSeek() || props.forceFillOff) {
                  stopPlaying()
                  setPlayCount(0)
                  if (props.onEnded) props.onEnded()
@@ -2633,6 +2668,16 @@ export default function useAbcSynth(props) {
           // Drop chord-fill buffer when entering play-along (or restore fills after).
           try { destroyAudioEngines() } catch (e) {}
         }
+        const wantMidiTranspose = resolveMidiTransposeSemitones(
+          gvisualObj.current,
+          tune || (props.mediaController && props.mediaController.tune)
+        )
+        if (gaudioContext.current && gmidiBuffer.current
+            && (lastPrimedMidiTransposeRef.current == null
+                || lastPrimedMidiTransposeRef.current !== wantMidiTranspose)) {
+          // Transpose changed (or unknown) while another pitch buffer was primed.
+          try { destroyAudioEngines() } catch (e) {}
+        }
         if (gaudioContext.current && gmidiBuffer.current) {
           startPrimedTune(force)
         } else {
@@ -3068,6 +3113,8 @@ export default function useAbcSynth(props) {
         }
         effectiveMsPerMeasureRef.current = 0
         primedMsPerMeasureRef.current = 0
+        lastPrimedMelodyOnlyRef.current = null
+        lastPrimedMidiTransposeRef.current = null
         try {
           destroyPitchShifter()
           //if (props.mediaController) props.mediaController.setDuration(0)
@@ -4104,7 +4151,7 @@ export default function useAbcSynth(props) {
                   tune: tune,
                   tunebook: props.tunebook,
                   millisecondsPerMeasure: initOptions.millisecondsPerMeasure,
-                  transpose: synthObj.visualTranspose,
+                  transpose: resolveMidiTransposeSemitones(synthObj, tune),
                 })
                 if (flattened && flattened._resolvedBarDurationSec > 0) {
                   initOptions.millisecondsPerMeasure = flattened._resolvedBarDurationSec * 1000
@@ -4145,13 +4192,8 @@ export default function useAbcSynth(props) {
             // Legacy "online" preference: when resolver bank is ready, MusyngKite
             // already covers full GM. When not ready, keep remapped local fonts
             // (no longer clears soundFontUrl to hit FluidR3 CDN).
-            if (synthObj.visualTranspose > 0 || synthObj.visualTranspose < 0 ) {
-              initOptions.options.midiTranspose = parseInt(synthObj.visualTranspose)
-            } else if (props.visualTranspose > 0 || props.visualTranspose < 0) {
-              initOptions.options.midiTranspose = parseInt(props.visualTranspose, 10)
-            } else {
-              initOptions.options.midiTranspose = 0
-            }
+            initOptions.options.midiTranspose = resolveMidiTransposeSemitones(synthObj, tune)
+            lastPrimedMidiTransposeRef.current = initOptions.options.midiTranspose
          
             function getAudioHash(tune) {
               // Include meter so pre-fix sequence-path caches (wrong meterSize)
@@ -4179,7 +4221,8 @@ export default function useAbcSynth(props) {
               var transposeKey = initOptions.options && initOptions.options.midiTranspose != null
                 ? initOptions.options.midiTranspose
                 : (tune && tune.transpose != null ? tune.transpose : 0)
-              return tune.id + "-" + tune.tempo  + '-'+transposeKey+"-"+meterKey+"-"+seqMsKey+"-"+ofsKey+"-"+bankKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
+              // vtx1: caches from before %%MIDI+visualTranspose de-dupe must not be reused.
+              return tune.id + "-" + tune.tempo  + '-'+transposeKey+"-vtx1-"+meterKey+"-"+seqMsKey+"-"+ofsKey+"-"+bankKey+"-"+fillKey+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {

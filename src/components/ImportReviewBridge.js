@@ -80,7 +80,7 @@ import { applyAddFormInlineImport, applyForcedBookTuneFilter } from '../importRe
 import { mergeTuneCollectionExtras } from '../tuneMergeExtras'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
-import { openMidiImportWizard, MidiImportWizardHost } from '../midiImportWizard'
+import { openMidiImportWizard } from '../midiImportWizard'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
@@ -1427,12 +1427,6 @@ export default function ImportReviewBridge(props) {
       <BulkSheetSnapshotImportModal
         show={!!bulkSnapshotProgress}
         progress={bulkSnapshotProgress}
-      />
-      <MidiImportWizardHost
-        accessToken={props.token && props.token.access_token ? props.token.access_token : ''}
-        tunebook={props.tunebook}
-        abcjsParser={abcjsParser}
-        book={props.currentTuneBook || ''}
       />
     </>
   )

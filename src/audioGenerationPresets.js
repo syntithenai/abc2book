@@ -49,6 +49,28 @@ export function isTaskAvailable(backends, taskId) {
   return presets.some(function(preset) { return preset.available !== false; });
 }
 
+/**
+ * Quality presets for the wizard / regenerate UI.
+ * When the backends payload lists presets, use those (including available:false).
+ * When backends are missing, fall back to all presets as available — unless the
+ * payload already reported the provider as down (ok:false).
+ */
+export function listQualityPresetOptions(backends, taskId) {
+  const fromBackends = mergeBackendsPresets(backends, taskId);
+  if (fromBackends.length) return fromBackends;
+  const unavailable = audioGenerationUnavailableMessage(backends);
+  if (unavailable) return [];
+  return PRESET_ORDER.map(function(id) {
+    return { id: id, label: presetLabel(id), available: true };
+  });
+}
+
+export function listAvailableQualityPresets(backends, taskId) {
+  return listQualityPresetOptions(backends, taskId).filter(function(preset) {
+    return preset.available !== false;
+  });
+}
+
 /** Human-readable reason when /generate-audio/backends reports the sidecar down. */
 export function audioGenerationUnavailableMessage(backends) {
   if (!backends || backends.ok !== false) return '';

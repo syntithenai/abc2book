@@ -116,6 +116,8 @@ export default function PlayalongStaffPitchStrips(props) {
   ])
   const overlayRef = useRef(null)
   const [decoded, setDecoded] = useState([])
+  const decodedRef = useRef([])
+  decodedRef.current = decoded
   const [displayLines, setDisplayLines] = useState(null)
   const [slots, setSlots] = useState([])
   const [sliceRevision, setSliceRevision] = useState(0)
@@ -183,26 +185,88 @@ export default function PlayalongStaffPitchStrips(props) {
     let cancelled = false
     if (!takes.length) {
       setDecoded([])
+      decodedRef.current = []
       if (typeof props.onGraphLoadingChange === 'function') props.onGraphLoadingChange(false)
       return undefined
     }
-    if (typeof props.onGraphLoadingChange === 'function') props.onGraphLoadingChange(true)
-    Promise.all(takes.map(function(take, index) {
+    const tracking = playalongTrackingOptions(props.trackingSettings || loadPlayalongSettings())
+    const prevById = {}
+    decodedRef.current.forEach(function(trace) {
+      const id = trace && trace.take && trace.take.recordingId
+      if (id) prevById[id] = trace
+    })
+    const toLoad = []
+    takes.forEach(function(take, index) {
+      const id = take && take.recordingId != null ? String(take.recordingId) : ''
+      if (!id) return
+      const session = pitchPointsById[id]
+      const prev = prevById[id]
+      const sessionReady = Array.isArray(session) && session.length >= 8
+      // Keep prior decode unless this take is new or live session points just arrived.
+      if (prev && (!sessionReady || prev.points === session)) {
+        prevById[id] = Object.assign({}, prev, { repIndex: index, take: take })
+        return
+      }
+      toLoad.push({ take: take, index: index })
+    })
+
+    // Drop traces for removed takes immediately so the roll stays in sync.
+    const kept = takes.map(function(take, index) {
+      const id = take && take.recordingId != null ? String(take.recordingId) : ''
+      const prev = id ? prevById[id] : null
+      // Prefer already-decoded traces (including ones queued for refresh) so the
+      // roll does not blank while a single new take loads.
+      if (prev && Array.isArray(prev.points) && prev.points.length) {
+        return Object.assign({}, prev, { repIndex: index, take: take })
+      }
+      return null
+    }).filter(Boolean)
+    setDecoded(kept)
+    decodedRef.current = kept
+
+    if (!toLoad.length) {
+      if (typeof props.onGraphLoadingChange === 'function') props.onGraphLoadingChange(false)
+      return undefined
+    }
+
+    // Graph loading is informational only — recording must not wait on it.
+    const showLoading = kept.length === 0
+    if (showLoading && typeof props.onGraphLoadingChange === 'function') {
+      props.onGraphLoadingChange(true)
+    }
+
+    Promise.all(toLoad.map(function(item) {
       return loadTakePitchPoints(
-        take,
+        item.take,
         pitchPointsById,
         blobById,
-        playalongTrackingOptions(props.trackingSettings || loadPlayalongSettings())
+        tracking
       ).then(function(points) {
         return {
-          repIndex: index,
-          take: take,
+          repIndex: item.index,
+          take: item.take,
           points: points,
         }
       })
-    })).then(function(next) {
+    })).then(function(loaded) {
       if (cancelled) return
+      const byId = {}
+      decodedRef.current.forEach(function(trace) {
+        const id = trace && trace.take && trace.take.recordingId
+        if (id) byId[id] = trace
+      })
+      loaded.forEach(function(trace) {
+        const id = trace && trace.take && trace.take.recordingId
+        if (id) byId[id] = trace
+      })
+      const next = takes.map(function(take, index) {
+        const id = take && take.recordingId != null ? String(take.recordingId) : ''
+        const trace = id ? byId[id] : null
+        if (!trace) return null
+        return Object.assign({}, trace, { repIndex: index, take: take })
+      }).filter(Boolean)
       setDecoded(next)
+      decodedRef.current = next
       if (typeof props.onGraphLoadingChange === 'function') props.onGraphLoadingChange(false)
     })
     return function() {

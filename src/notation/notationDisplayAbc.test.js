@@ -6,6 +6,7 @@ import {
   mapAbcClickToVoiceCursor,
   prepareGigStaffDisplayAbc,
   prepareTuneViewNotationAbc,
+  stripAbcMidiTransposeDirectives,
   stripBlockLyricsFromDisplayAbc,
   stripNotationDisplayMetadata,
   stripStaffNotationHeaders,
@@ -281,6 +282,20 @@ describe('prepareTuneViewNotationAbc', function() {
     expect(result).toMatch(/^w: Hel- lo$/m);
     expect(result).not.toMatch(/^W:/m);
     expect(result).toMatch(/^T:Test$/m);
+  });
+});
+
+describe('stripAbcMidiTransposeDirectives', function() {
+  test('removes %%MIDI transpose so visualTranspose is not double-applied', function() {
+    const abc = [
+      'X:1',
+      '%%MIDI transpose 2',
+      'K:C',
+      'CDEF |',
+    ].join('\n');
+    const stripped = stripAbcMidiTransposeDirectives(abc);
+    expect(stripped).not.toMatch(/MIDI\s+transpose/i);
+    expect(stripped).toMatch(/CDEF/);
   });
 });
 

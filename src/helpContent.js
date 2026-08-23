@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import NotationEditorHelp from './components/NotationEditorHelp';
 import ScratchpadAudioEditorHelp from './components/scratchpad/ScratchpadAudioEditorHelp';
 import { LyricsChordsHelpBody } from './lyricsChordsHelpContent';
+import { PRACTICE_MODE_ENABLED } from './practiceModeEnabled';
 
 export const HELP_NAV = [
   { id: 'start-here', title: 'Start here' },
@@ -169,7 +170,9 @@ export function HelpPractise() {
         <li><strong>Loop</strong> — named practice loops saved with the tune</li>
       </ul>
       <p><strong>Book Tools</strong> on the Books page: <strong>Play Media</strong> or <strong>Play Midi</strong> for a whole book playlist.</p>
-      <p><strong>Practice sessions</strong> — open from the header menu <strong>Practice</strong> button or go to <Link to="/practice">Practice</Link>. Configure instrument, duration, and skill level, then run a guided session with warmups and tempo ramps. Use <code>?start=1</code> on the practice URL to begin immediately with saved settings.</p>
+      {PRACTICE_MODE_ENABLED ? (
+        <p><strong>Practice sessions</strong> — open from the header menu <strong>Practice</strong> button or go to <Link to="/practice">Practice</Link>. Configure instrument, duration, and skill level, then run a guided session with warmups and tempo ramps. Use <code>?start=1</code> on the practice URL to begin immediately with saved settings.</p>
+      ) : null}
       <p><strong>Tuner</strong> — header menu → <strong>Tuner</strong>. See <a href="#tuner">Tuner</a> for instrument presets, string tuning, intonation checks, and advanced controls.</p>
     </>
   );

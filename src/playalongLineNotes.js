@@ -7,6 +7,7 @@ import { foldMidiHarmonicNearExpected } from './practiceAccuracyScorer'
 import {
   effectivePlayalongMusicOffsetSeconds,
   livePlayalongMusicOffsetSeconds,
+  playalongDetectorPitchLatencySeconds,
   refinePlayalongMusicStartOffsetSeconds,
 } from './playalongTakes'
 
@@ -679,6 +680,7 @@ export function buildPlayalongCompareLines(lines, takesWithPoints, playbackSpeed
         startBeat: line.startBeat,
         endBeat: line.endBeat,
         musicStartOffsetSeconds: refinedOffset,
+        pitchLatencySeconds: playalongDetectorPitchLatencySeconds(take),
         tempoBpm: take.tempoBpm || 100,
         playbackSpeed: playbackSpeed || 1,
         soundingMap: map,

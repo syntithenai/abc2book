@@ -1,0 +1,12 @@
+[Unit]
+Description=Run abc2book audio.cpp health watchdog every minute
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+AccuracySec=15s
+Persistent=true
+Unit=abc2book-audio-cpp-watchdog.service
+
+[Install]
+WantedBy=timers.target

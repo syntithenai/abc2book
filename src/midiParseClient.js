@@ -230,6 +230,102 @@ export function parseMidiBytesToTracks(midiBytes) {
     tracks: tracks,
     tempoBpm: 60000000 / tempoUs,
     format: format,
+    ticksPerBeat: ticksPerBeat,
+    tempoUs: tempoUs,
+  };
+}
+
+const KEY_SIG_NAMES_MAJOR = ['C', 'G', 'D', 'A', 'E', 'B', 'F#', 'C#', 'F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Cb'];
+const KEY_SIG_NAMES_MINOR = ['Am', 'Em', 'Bm', 'F#m', 'C#m', 'G#m', 'D#m', 'A#m', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm', 'Abm'];
+
+function midiKeySignatureToAbc(sf, mi) {
+  const idx = (-sf) + 7;
+  if (idx < 0 || idx >= KEY_SIG_NAMES_MAJOR.length) return mi ? 'Am' : 'C';
+  return mi ? KEY_SIG_NAMES_MINOR[idx] : KEY_SIG_NAMES_MAJOR[idx];
+}
+
+/**
+ * Scan all MTrk chunks for tempo / time-signature / key-signature meta events.
+ */
+export function parseMidiFileMeta(midiBytes) {
+  const data = midiBytes instanceof Uint8Array ? midiBytes : new Uint8Array(midiBytes);
+  if (data.length < 14) {
+    return { ticksPerBeat: 480, tempoChanges: [], meterChanges: [], keyChanges: [] };
+  }
+  const view = new DataView(data.buffer, data.byteOffset, data.byteLength);
+  const magic = String.fromCharCode(data[0], data[1], data[2], data[3]);
+  if (magic !== 'MThd') {
+    return { ticksPerBeat: 480, tempoChanges: [], meterChanges: [], keyChanges: [] };
+  }
+  const headerLength = readUint32BE(view, 4);
+  const numTracks = readUint16BE(view, 10);
+  const ticksPerBeat = readUint16BE(view, 12);
+  let offset = 8 + headerLength;
+  const tempoChanges = [];
+  const meterChanges = [];
+  const keyChanges = [];
+
+  for (let trackIndex = 0; trackIndex < numTracks; trackIndex += 1) {
+    if (offset + 8 > data.length) break;
+    const trackMagic = String.fromCharCode(data[offset], data[offset + 1], data[offset + 2], data[offset + 3]);
+    if (trackMagic !== 'MTrk') break;
+    const trackLength = readUint32BE(view, offset + 4);
+    const trackStart = offset + 8;
+    const trackEnd = trackStart + trackLength;
+    let absTicks = 0;
+    const state = { offset: trackStart };
+    while (state.offset < trackEnd) {
+      const delta = readVarLen(view, state);
+      absTicks += delta;
+      if (state.offset >= trackEnd) break;
+      let status = view.getUint8(state.offset);
+      if (status < 0x80) {
+        state.offset += 1;
+        continue;
+      }
+      state.offset += 1;
+      if (status !== 0xff) continue;
+      if (state.offset >= trackEnd) break;
+      const metaType = view.getUint8(state.offset);
+      state.offset += 1;
+      const len = readVarLen(view, state);
+      if (metaType === 0x51 && len === 3) {
+        const tempoUs = (view.getUint8(state.offset) << 16)
+          | (view.getUint8(state.offset + 1) << 8)
+          | view.getUint8(state.offset + 2);
+        const bpm = 60000000 / (tempoUs || 500000);
+        tempoChanges.push({ tick: absTicks, tempoUs: tempoUs, bpm: bpm, sourceTrackIndex: trackIndex });
+      } else if (metaType === 0x58 && len >= 4) {
+        const numerator = view.getUint8(state.offset);
+        const denominator = 1 << view.getUint8(state.offset + 1);
+        meterChanges.push({
+          tick: absTicks,
+          numerator: numerator,
+          denominator: denominator,
+          meter: numerator + '/' + denominator,
+          sourceTrackIndex: trackIndex,
+        });
+      } else if (metaType === 0x59 && len >= 2) {
+        const sf = view.getInt8(state.offset);
+        const mi = view.getUint8(state.offset + 1);
+        keyChanges.push({
+          tick: absTicks,
+          sf: sf,
+          mi: mi,
+          key: midiKeySignatureToAbc(sf, mi),
+          sourceTrackIndex: trackIndex,
+        });
+      }
+      state.offset += len;
+    }
+    offset += 8 + trackLength;
+  }
+
+  return {
+    ticksPerBeat: ticksPerBeat || 480,
+    tempoChanges: tempoChanges,
+    meterChanges: meterChanges,
+    keyChanges: keyChanges,
   };
 }
 

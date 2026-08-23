@@ -99,6 +99,31 @@ describe('playalongWaveform', function() {
     expect(Math.abs(points[0].rawMidi - 60)).toBeLessThan(1)
   })
 
+  test('resolvePlayalongTakePitchPoints uses persisted recording pitchPoints before blob extract', async function() {
+    const stored = []
+    for (let i = 0; i < 10; i += 1) {
+      stored.push({ timeMs: i * 40, rawMidi: 62 })
+    }
+    const points = await resolvePlayalongTakePitchPoints(
+      { recordingId: 'r-persisted' },
+      {},
+      {},
+      {
+        tracking: playalongTrackingOptions({ cutoffPercent: 28, instrumentId: 'whistle', playbackGain: 0.12, repeats: 3 }),
+        getRecording: function() {
+          return Promise.resolve({
+            id: 'r-persisted',
+            pitchPoints: stored,
+            data: 'AAAA',
+            type: 'audio/webm',
+          })
+        },
+      }
+    )
+    expect(points.length).toBe(stored.length)
+    expect(points[0].rawMidi).toBe(62)
+  })
+
   test('resolvePitchTrackerOptions applies cutoff RMS and instrument Hz', function() {
     const tracking = playalongTrackingOptions({
       cutoffPercent: 100,

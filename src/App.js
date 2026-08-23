@@ -21,6 +21,7 @@ import ChordsPage from './pages/ChordsPage'
 import SettingsPage from './pages/SettingsPage'
 import SetsPage from './pages/SetsPage'
 import PracticeListsPage from './pages/PracticeListsPage'
+import { PRACTICE_LISTS_ENABLED, PRACTICE_MODE_ENABLED } from './practiceModeEnabled'
 import PrivacyPage from './pages/PrivacyPage'
 import BillingCheckoutPage from './pages/BillingCheckoutPage'
 import ImportPage from './pages/ImportPage'
@@ -32,6 +33,8 @@ import ScratchpadPage from './pages/ScratchpadPage'
 import ScratchpadItemPage from './pages/ScratchpadItemPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
+import MidiImportPage from './pages/MidiImportPage'
+import MidiImportNavigateRegistrar from './components/MidiImportNavigateRegistrar'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
 import AudioAnalysisSharedReportPage from './pages/AudioAnalysisSharedReportPage'
 import ImportWarningDialog from './components/ImportWarningDialog'
@@ -1433,6 +1436,7 @@ function App(props) {
           <Router >
             <AppEmbedFrameBootstrap />
             <RouteAnalytics />
+            <MidiImportNavigateRegistrar />
             <LegacyShowParamRedirect />
             <PracticeRouteSync practiceSession={practiceSession} />
             <SearchFilterRouteSync
@@ -1629,14 +1633,16 @@ function App(props) {
                 }}
               />
               <AppOptionalChrome>
-                <PracticeSessionModals
-                  practiceSession={practiceSession}
-                  tunebook={tunebook}
-                  tunes={tunes}
-                  mediaController={mediaController}
-                  forceRefresh={forceRefresh}
-                  setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
-                />
+                {PRACTICE_MODE_ENABLED ? (
+                  <PracticeSessionModals
+                    practiceSession={practiceSession}
+                    tunebook={tunebook}
+                    tunes={tunes}
+                    mediaController={mediaController}
+                    forceRefresh={forceRefresh}
+                    setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+                  />
+                ) : null}
               </AppOptionalChrome>
               <div className="App-body">
                    <Routes>
@@ -1660,8 +1666,12 @@ function App(props) {
                       ? <SnapcastPage mediaController={mediaController} tunebook={tunebook} nowPlayingQueue={nowPlayingQueue} tunes={tunes} />
                       : <Navigate to="/settings" replace />} />
                     <Route  path={`review`} element={<ReviewPage tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} token={token} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} forceRefresh={forceRefresh} currentTuneBook={currentTuneBook} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} />} />
-                    <Route  path={`practice-lists`} element={<PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />} />
-                    <Route  path={`practice-lists/:listId`} element={<PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />} />
+                    <Route  path={`practice-lists`} element={PRACTICE_LISTS_ENABLED
+                      ? <PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />
+                      : <Navigate to="/tunes" replace />} />
+                    <Route  path={`practice-lists/:listId`} element={PRACTICE_LISTS_ENABLED
+                      ? <PracticeListsPage tunes={tunes} tunebook={tunebook} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} />
+                      : <Navigate to="/tunes" replace />} />
                     <Route  path={`sets`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`sets/:setId`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`gig`} element={<SetsPage gigPickerMode={true} tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
@@ -1698,7 +1708,9 @@ function App(props) {
                     <Route  path={`lyrics`}   element={<LyricsPage  tunebook={tunebook} token={token} login={login} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} />}  />
                     <Route path={`add`} element={<AddPage mediaController={mediaController} tunes={tunes} tunebook={tunebook} forceRefresh={forceRefresh} tunesHash={tunesHash} token={token} login={login} requestGoogleScopes={requestGoogleScopes} filter={filter} setFilter={setFilter} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} tagFilter={tagFilter} setTagFilter={setTagFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} />} />
                     <Route path={`add/bulk`} element={<AddPage mediaController={mediaController} tunes={tunes} tunebook={tunebook} forceRefresh={forceRefresh} tunesHash={tunesHash} token={token} login={login} requestGoogleScopes={requestGoogleScopes} filter={filter} setFilter={setFilter} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} tagFilter={tagFilter} setTagFilter={setTagFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} />} />
-                    <Route  path={`practice`} element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} login={login} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes} tunesHydrated={tunesHydrated} indexes={indexes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setQueuePlayConfirm={setQueuePlayConfirm} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} albumFilter={albumFilter} setAlbumFilter={setAlbumFilter} starredFilter={starredFilter} setStarredFilter={setStarredFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} waiting={waiting} tunesContentRevision={tunesContentRevision} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />} />
+                    <Route  path={`practice`} element={PRACTICE_MODE_ENABLED
+                      ? <MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} login={login} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes} tunesHydrated={tunesHydrated} indexes={indexes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setQueuePlayConfirm={setQueuePlayConfirm} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} albumFilter={albumFilter} setAlbumFilter={setAlbumFilter} starredFilter={starredFilter} setStarredFilter={setStarredFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} waiting={waiting} tunesContentRevision={tunesContentRevision} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />
+                      : <Navigate to="/tunes" replace />} />
                     <Route  path={`tunes`}     >
                       <Route
                         index 
@@ -1721,6 +1733,14 @@ function App(props) {
                         <Route  path={`:tuneId/:view`} element={<MusicEditor  logout={logout} token={token} user={user} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
                     </Route>
                     
+                    <Route path={`import/midi`} element={
+                      <MidiImportPage
+                        tunebook={tunebook}
+                        book={currentTuneBook || ''}
+                        accessToken={token && token.access_token ? token.access_token : ''}
+                      />
+                    } />
+
                     <Route  path={`import`} >
                       <Route index element={<ImportPage   importResults={importResults} setImportResults={setImportResults} tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook} />}  />
                       <Route path={`sheet-image`} element={<ImportModalRoutePage modalType="sheet-image" forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} token={token} requestGoogleScopes={requestGoogleScopes} login={login} mediaController={mediaController} />} />

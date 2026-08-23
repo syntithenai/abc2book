@@ -1,4 +1,5 @@
 import { Button, Form, Modal } from 'react-bootstrap'
+import { useEffect, useRef, useState } from 'react'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { PLAYALONG_FIELD_HELP } from '../formFieldHelpText'
 import {
@@ -10,6 +11,7 @@ import {
   referenceGainToSliderPercent,
   sliderPercentToReferenceGain,
 } from '../practiceSessionSettings'
+import PlayalongClapCalibrationModal from './PlayalongClapCalibrationModal'
 
 export default function PlayalongRecordConfigModal(props) {
   const settings = props.settings || {}
@@ -18,8 +20,15 @@ export default function PlayalongRecordConfigModal(props) {
   const volumePercent = referenceGainToSliderPercent(settings.playbackGain)
   const instrumentId = settings.instrumentId || 'whistle'
   const repeats = clampPlayalongRepeats(settings.repeats)
+  const calibratedMs = settings.calibratedOutputLatencySeconds > 0
+    ? Math.round(settings.calibratedOutputLatencySeconds * 1000)
+    : null
   const canClear = !!props.canClear
-  const hasExistingTakes = !!props.hasExistingTakes
+  const [showCalibration, setShowCalibration] = useState(false)
+  const settingsRef = useRef(settings)
+  const onStartRef = useRef(props.onStart)
+  settingsRef.current = settings
+  onStartRef.current = props.onStart
 
   function patchSettings(partial) {
     if (props.onSettingsChange) {
@@ -27,7 +36,32 @@ export default function PlayalongRecordConfigModal(props) {
     }
   }
 
+  function startRecording() {
+    if (onStartRef.current) onStartRef.current(settingsRef.current)
+  }
+
+  useEffect(function() {
+    if (!props.show || showCalibration) return undefined
+    function onKeyDown(e) {
+      if (e.code !== 'Space' && e.key !== ' ') return
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const target = e.target
+      if (target) {
+        const tag = String(target.tagName || '').toLowerCase()
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') return
+        if (target.isContentEditable) return
+      }
+      e.preventDefault()
+      startRecording()
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return function() {
+      window.removeEventListener('keydown', onKeyDown)
+    }
+  }, [props.show, showCalibration])
+
   return (
+    <>
     <Modal
       show={!!props.show}
       onHide={props.onHide}
@@ -88,6 +122,22 @@ export default function PlayalongRecordConfigModal(props) {
           />
           <div className="text-muted small" style={{ marginTop: '0.35rem' }} data-testid="playalong-output-latency-note">
             {PLAYALONG_FIELD_HELP.outputLatency.body}
+          </div>
+          <div style={{ marginTop: '0.5rem' }}>
+            <Button
+              type="button"
+              variant="outline-secondary"
+              size="sm"
+              data-testid="playalong-open-calibration"
+              onClick={function() { setShowCalibration(true) }}
+            >
+              Calibrate latency…
+            </Button>
+            {calibratedMs != null ? (
+              <span className="text-muted small ms-2" data-testid="playalong-calibrated-latency-label">
+                Using {calibratedMs} ms
+              </span>
+            ) : null}
           </div>
         </div>
         <div style={{ marginBottom: '0.85rem' }}>
@@ -150,19 +200,6 @@ export default function PlayalongRecordConfigModal(props) {
         </Button>
       </Modal.Body>
       <Modal.Footer>
-        {hasExistingTakes ? (
-          <Button
-            type="button"
-            variant="outline-primary"
-            className="me-auto"
-            data-testid="playalong-compare-existing"
-            onClick={function() {
-              if (props.onCompareExisting) props.onCompareExisting(settings)
-            }}
-          >
-            Compare existing
-          </Button>
-        ) : null}
         <Button
           type="button"
           variant="secondary"
@@ -174,13 +211,21 @@ export default function PlayalongRecordConfigModal(props) {
           type="button"
           variant="primary"
           data-testid="playalong-start-recording"
-          onClick={function() {
-            if (props.onStart) props.onStart(settings)
-          }}
+          onClick={startRecording}
         >
           Start
         </Button>
       </Modal.Footer>
     </Modal>
+    <PlayalongClapCalibrationModal
+      show={showCalibration}
+      onHide={function() { setShowCalibration(false) }}
+      currentLatencySeconds={settings.calibratedOutputLatencySeconds}
+      onSave={function(seconds) {
+        patchSettings({ calibratedOutputLatencySeconds: seconds })
+        setShowCalibration(false)
+      }}
+    />
+    </>
   )
 }

@@ -62,19 +62,50 @@ in `.env`, then start compose with `--profile audio-cpp`. For a host-managed pro
 instead, use `AUDIO_CPP_URL=http://host.docker.internal:8788` and **do not** enable
 the `audio-cpp` profile (avoids binding host port 8788 twice).
 
-Without the compose sidecar, you can still run audio.cpp on the host:
+Without the compose sidecar, you can still run audio.cpp on the host.
+**Use the hardened units from this repo** (they fix a recurring death mode):
+
+```bash
+# From the abc2book checkout:
+bash local-resolver/audio-cpp/install-systemd-user.sh
+```
+
+That installs:
+
+| Unit | Role |
+|------|------|
+| `abc2book-audio-cpp.service` | Sidecar with `Restart=always` (see note below) |
+| `abc2book-audio-cpp-idle-supervisor.service` | Unloads models after idle via `systemctl --user restart` |
+| `abc2book-audio-cpp-watchdog.timer` | Every minute: start the sidecar if `/health` fails |
+
+Why `Restart=always` (not `on-failure`): systemd treats **SIGPIPE as a clean exit**.
+`audiocpp_server` has died that way before (client disconnect / broken pipe). With
+`Restart=on-failure` the unit stayed `inactive (dead)` until someone started it
+by hand — which is why quality presets all showed unavailable.
+
+Also ensure linger so user units survive logout:
+
+```bash
+loginctl enable-linger "$USER"
+```
+
+Manual / minimal unit (prefer the install script above):
 
 ```ini
 # ~/.config/systemd/user/abc2book-audio-cpp.service
 [Unit]
 Description=audio.cpp Stable Audio server for abc2book
-After=network.target
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=120
+StartLimitBurst=20
 
 [Service]
 Type=simple
 WorkingDirectory=%h/audio.cpp
-ExecStart=%h/audio.cpp/build/bin/audiocpp_server --config %h/audio.cpp/server.json --backend vulkan --host 0.0.0.0 --port 8788
-Restart=on-failure
+ExecStart=%h/audio.cpp/start-abc2book-sidecar.sh
+Restart=always
+RestartSec=3
 
 [Install]
 WantedBy=default.target
@@ -82,7 +113,11 @@ WantedBy=default.target
 
 ```bash
 systemctl --user enable --now abc2book-audio-cpp.service
+systemctl --user enable --now abc2book-audio-cpp-watchdog.timer
 ```
+
+Note: put `StartLimitIntervalSec=` / `StartLimitBurst=` in the **`[Unit]`** section
+(systemd 240+); the install script units already do this.
 
 ## local-resolver configuration
 

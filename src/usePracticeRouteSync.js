@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import { loadPracticeSettings } from './practiceSessionSettings'
+import { PRACTICE_MODE_ENABLED } from './practiceModeEnabled'
 import { isPath } from './routeSyncUtils'
 
 export const PRACTICE_PATH = '/practice'
@@ -64,6 +65,10 @@ export default function usePracticeRouteSync(practiceSession) {
   const dismissPendingRef = useRef(false)
 
   useEffect(function() {
+    if (!PRACTICE_MODE_ENABLED && onPracticeRoute) {
+      leavePracticeRoute(navigate)
+      return
+    }
     if (!practiceSession || !onPracticeRoute) {
       entryKeyRef.current = ''
       return

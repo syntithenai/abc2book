@@ -126,7 +126,7 @@ function applyPitchRange(notes, pitchMin, pitchMax) {
   });
 }
 
-function applyRetriggerMerge(notes, mergeMs) {
+export function applyRetriggerMerge(notes, mergeMs) {
   if (!mergeMs || !notes.length) return notes;
   const tol = mergeMs / 1000;
   const ordered = notes.slice().sort(function(a, b) {
@@ -150,7 +150,7 @@ function applyRetriggerMerge(notes, mergeMs) {
   return merged;
 }
 
-function applyCollapseChords(notes) {
+export function applyCollapseChords(notes) {
   if (!notes || !notes.length) return notes;
   const ordered = notes.slice().sort(function(a, b) {
     return a.start - b.start || b.midi - a.midi;
@@ -198,7 +198,7 @@ function applySwing(notes, swingAmount, tempoBpm) {
   });
 }
 
-function applySustainTrim(notes, tempoBpm) {
+export function applySustainTrim(notes, tempoBpm) {
   if (!notes || !notes.length) return notes;
   const beatDuration = 60 / Math.max(tempoBpm || 120, 1);
   const maxSustain = beatDuration * 8;

@@ -207,11 +207,14 @@ export function buildCleanupScorePreviewAbc(voices, options) {
   const barSlots = beatsPerBar * slotsPerBeat;
 
   const voiceEvents = prepared.map(function(row) {
+    const voiceKey = row.voice.key || row.voice.estimatedKey || key;
     return {
       voice: row.voice,
       notes: row.notes,
+      voiceKey: voiceKey,
       events: noteEventsFromMidi(row.notes, sharedBeatTimes, Object.assign({}, quantOpts, {
         isDrum: row.voice.isDrum,
+        key: voiceKey,
       })),
     };
   });
@@ -229,12 +232,15 @@ export function buildCleanupScorePreviewAbc(voices, options) {
   const totalBars = Math.max(1, slotBars, durationBars + 2);
 
   const bodies = voiceEvents.map(function(item) {
+    const voiceKey = item.voiceKey || key;
     const body = formatNoteEventsToAbcBody(item.events, Object.assign({}, quantOpts, {
       totalBars: totalBars,
+      key: voiceKey,
     }));
     const prefix = buildVoicePrefix(item.voice, item.notes);
     return {
       voice: item.voice,
+      voiceKey: voiceKey,
       body: body,
       prefix: prefix,
     };
@@ -261,6 +267,8 @@ export function buildCleanupScorePreviewAbc(voices, options) {
 
   bodies.forEach(function(row) {
     lines.push('[V:' + row.voice.id + ']');
+    // Per-voice key so multi-track imports show each track's signature in ABC preview.
+    lines.push('K:' + (row.voiceKey || key));
     lines.push(row.body);
   });
 

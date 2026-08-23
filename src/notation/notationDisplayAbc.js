@@ -82,6 +82,17 @@ export function prepareGigStaffDisplayAbc(displayAbc, tunebook, chordsAnnotate) 
   });
 }
 
+/**
+ * Remove %%MIDI transpose so it does not stack with abcjs visualTranspose /
+ * midiTranspose (both are set from tune.transpose in the UI).
+ */
+export function stripAbcMidiTransposeDirectives(abcText) {
+  if (!abcText) return '';
+  return String(abcText).split('\n').filter(function(line) {
+    return !/^\s*%%?MIDI\s+transpose\b/i.test(line);
+  }).join('\n');
+}
+
 /** Prepare ABC for MusicSingle / TuneSingleViewDialog notation panels. */
 export function prepareTuneViewNotationAbc(jsonAbc, chordsAnnotate) {
   const raw = stripTuneViewNotationMeta(jsonAbc);

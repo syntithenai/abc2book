@@ -20,6 +20,7 @@ import {
   livePlayalongMusicOffsetSeconds,
   savedPlayalongMusicOffsetSeconds,
   residualPlayalongOutputLatencySeconds,
+  playalongDetectorPitchLatencySeconds,
   getPlayalongOutputLatencySeconds,
   isHighPlayalongOutputLatency,
   readAudioContextOutputLatencySeconds,
@@ -28,7 +29,6 @@ import {
 } from './playalongTakes'
 import { displayFlagsToViewMode, viewModeToDisplayFlags } from './viewModeUtils'
 import useAbcTools from './useAbcTools'
-import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
 
 describe('playalongTakes', function() {
   test('appendPlayalongTake keeps older takes and adds the newest last', function() {
@@ -124,16 +124,15 @@ describe('playalongTakes', function() {
     }, { abcTools: { getTempo: function() { return 120 } } }, 1)).toBe(0)
   })
 
-  test('shouldShowPlayalongRecordButton requires admin, MIDI notes, and hides on file overlay', function() {
+  test('shouldShowPlayalongRecordButton requires MIDI notes and hides on file overlay', function() {
     const tunebook = {
       hasNotes: function(tune) { return !!(tune && tune.hasMelody) },
     }
-    const admin = { email: FEED_FEEDBACK_ADMIN_EMAIL }
-    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, admin)).toBe(true)
-    expect(shouldShowPlayalongRecordButton({ hasMelody: false }, tunebook, false, admin)).toBe(false)
-    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, true, admin)).toBe(false)
-    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, { email: 'other@example.com' })).toBe(false)
-    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, null)).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false)).toBe(true)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: false }, tunebook, false)).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, true)).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, { email: 'other@example.com' })).toBe(true)
+    expect(shouldShowPlayalongRecordButton({ hasMelody: true }, tunebook, false, null)).toBe(true)
   })
 
   test('handlePlayalongTuneEnded stops recording and blocks playlist advance', function() {
@@ -149,6 +148,11 @@ describe('playalongTakes', function() {
     expect(shouldContinuePlayalongLoop('ended', 9, PLAYALONG_MAX_LOOP_TAKES)).toBe(true)
     expect(shouldContinuePlayalongLoop('ended', 10, PLAYALONG_MAX_LOOP_TAKES)).toBe(false)
     expect(shouldContinuePlayalongLoop('click', 3, PLAYALONG_MAX_LOOP_TAKES)).toBe(false)
+  })
+
+  test('shouldContinuePlayalongLoop stops after a single take when maxTakes is 1', function() {
+    expect(shouldContinuePlayalongLoop('ended', 1, 1)).toBe(false)
+    expect(shouldContinuePlayalongLoop('ended', 0, 1)).toBe(true)
   })
 
   test('enableNotationInViewMode turns notation on without dropping lyrics', function() {
@@ -189,6 +193,7 @@ describe('playalongTakes', function() {
       musicStartOffsetSeconds: 2,
       tempoBpm: 100,
       outputLatencySeconds: 0,
+      onsetAlignSeconds: 0,
       pitchPct: null,
     }])
   })
@@ -314,6 +319,16 @@ describe('playalongTakes', function() {
     })).toBeCloseTo(0.21, 5)
     expect(isHighPlayalongOutputLatency(PLAYALONG_HIGH_OUTPUT_LATENCY_SECONDS)).toBe(true)
     expect(isHighPlayalongOutputLatency(0.02)).toBe(false)
+  })
+
+  test('playalongDetectorPitchLatencySeconds skips pad after onset align', function() {
+    expect(playalongDetectorPitchLatencySeconds({
+      onsetAlignSeconds: 0.12,
+    })).toBe(0)
+    expect(playalongDetectorPitchLatencySeconds({
+      outputLatencySeconds: 0.28,
+    })).toBeCloseTo(0.06, 5)
+    expect(playalongDetectorPitchLatencySeconds({})).toBe(PLAYALONG_PITCH_LATENCY_SECONDS)
   })
 
   test('ABC comments round-trip pitchPct on takes', function() {

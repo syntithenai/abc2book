@@ -72,7 +72,61 @@ describe('getAudioGenerationAccess', function() {
       },
     });
     expect(access.showButton).toBe(true);
+    expect(access.needsLogin).toBe(false);
     expect(access.practiceTrackAvailable).toBe(true);
     expect(access.linkedCoverAvailable).toBe(true);
+  });
+
+  test('does not ask for login when backends report the provider is down', function() {
+    const access = getAudioGenerationAccess({
+      user: adminUser,
+      resolverChecked: true,
+      resolverAvailable: false,
+      features: { practiceTrack: true },
+      accessToken: null,
+      resolverStatus: {
+        available: false,
+        candidates: [{
+          base: 'https://resolver.example',
+          reachable: true,
+          available: false,
+          requireAuth: true,
+          authReason: 'login_required',
+          features: { practiceTrack: true },
+        }],
+      },
+      backends: {
+        ok: false,
+        provider: { provider: 'audio_cpp', message: 'Sidecar not reachable' },
+        tasks: [
+          { taskId: 'practice_track', presets: [{ id: 'fast', available: false }] },
+        ],
+      },
+    });
+    expect(access.needsLogin).toBe(false);
+    expect(access.canGenerate).toBe(false);
+    expect(access.providerUnavailable).toBe(true);
+  });
+
+  test('suppresses login CTA when a bearer token is already present', function() {
+    const access = getAudioGenerationAccess({
+      user: adminUser,
+      resolverChecked: true,
+      resolverAvailable: false,
+      features: { practiceTrack: true },
+      accessToken: 'token',
+      resolverStatus: {
+        available: false,
+        candidates: [{
+          base: 'https://resolver.example',
+          reachable: true,
+          available: false,
+          requireAuth: true,
+          authReason: 'login_required',
+          features: { practiceTrack: true },
+        }],
+      },
+    });
+    expect(access.needsLogin).toBe(false);
   });
 });

@@ -17,7 +17,7 @@ export const PLAYALONG_INSTRUMENTS = [
   { id: 'mandolin', label: 'Mandolin', lowestMidi: 55, highestMidi: 88 },
   { id: 'guitar', label: 'Guitar (melody)', lowestMidi: 40, highestMidi: 88 },
   { id: 'piano', label: 'Piano (right-hand melody)', lowestMidi: 48, highestMidi: 96 },
-  { id: 'voice', label: 'Voice', lowestMidi: 48, highestMidi: 84 },
+  { id: 'voice', label: 'Voice', lowestMidi: 36, highestMidi: 88 },
 ]
 
 const INSTRUMENT_IDS = PLAYALONG_INSTRUMENTS.map(function(item) { return item.id })
@@ -27,6 +27,8 @@ export const DEFAULT_PLAYALONG_SETTINGS = {
   playbackGain: DEFAULT_PRACTICE_SETTINGS.practiceReferenceGain,
   instrumentId: 'whistle',
   repeats: 3,
+  /** User-measured output latency from clap/loopback calibration; 0 = unset. */
+  calibratedOutputLatencySeconds: 0,
 }
 
 export function clampPlayalongRepeats(value) {
@@ -82,13 +84,24 @@ export function playalongInstrumentHzRange(instrumentId) {
 export function playalongTrackingOptions(settings) {
   const next = normalizePlayalongSettings(settings)
   const range = playalongInstrumentHzRange(next.instrumentId)
+  const isVoice = next.instrumentId === 'voice'
+  // Voice is quieter and less pure than whistle; ease the gate so soft singing
+  // still draws a continuous pitch line.
+  const rmsScale = isVoice ? 0.62 : 1
   return {
-    rmsFloor: cutoffPercentToRmsFloor(next.cutoffPercent),
-    holdRms: cutoffPercentToHoldRms(next.cutoffPercent),
+    rmsFloor: cutoffPercentToRmsFloor(next.cutoffPercent) * rmsScale,
+    holdRms: cutoffPercentToHoldRms(next.cutoffPercent) * rmsScale,
     minHz: range.minHz,
     maxHz: range.maxHz,
     minMidi: range.lowestMidi - 2,
     maxMidi: range.highestMidi + 2,
+    // Whistle/flute often lock onto overtones; fold toward a fundamental.
+    // Voice formants make that fold unreliable — keep the detector's raw Hz.
+    preferFundamental: !isVoice && (
+      next.instrumentId === 'whistle'
+      || next.instrumentId === 'whistle-high-d'
+      || next.instrumentId === 'flute'
+    ),
   }
 }
 
@@ -104,6 +117,12 @@ export function playalongTrackingCacheKey(settings) {
   ].join(':')
 }
 
+export function clampCalibratedOutputLatencySeconds(value) {
+  const n = parseFloat(value)
+  if (!Number.isFinite(n) || n < 0.02) return 0
+  return Math.min(0.5, n)
+}
+
 export function normalizePlayalongSettings(raw) {
   const src = raw && typeof raw === 'object' ? raw : {}
   return {
@@ -111,6 +130,9 @@ export function normalizePlayalongSettings(raw) {
     playbackGain: clampReferenceGain(src.playbackGain),
     instrumentId: normalizePlayalongInstrument(src.instrumentId),
     repeats: clampPlayalongRepeats(src.repeats),
+    calibratedOutputLatencySeconds: clampCalibratedOutputLatencySeconds(
+      src.calibratedOutputLatencySeconds
+    ),
   }
 }
 

@@ -6,6 +6,7 @@ import { useState, useEffect, useRef, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
 import PracticeSessionButton from './PracticeSessionButton'
+import { PRACTICE_LISTS_ENABLED, PRACTICE_MODE_ENABLED } from '../practiceModeEnabled'
 import { THEORY_SECTION_ENABLED } from '../theorySectionEnabled'
 import VoiceCommandButton from './VoiceCommandButton'
 import useKeyPress from '../useKeyPress';
@@ -452,17 +453,19 @@ export default function Header(props) {
                                         >
                                             {props.tunebook.icons.setlist} Setlists
                                         </Link>
-                                        <Link
-                                            to="/practice-lists"
-                                            className="header-lists-menu-item"
-                                            role="menuitem"
-                                            onClick={function() {
-                                                setListsMenuOpen(false)
-                                                setNavMenuOpen(false)
-                                            }}
-                                        >
-                                            {props.tunebook.icons.reviewsmall} Practice Lists
-                                        </Link>
+                                        {PRACTICE_LISTS_ENABLED ? (
+                                            <Link
+                                                to="/practice-lists"
+                                                className="header-lists-menu-item"
+                                                role="menuitem"
+                                                onClick={function() {
+                                                    setListsMenuOpen(false)
+                                                    setNavMenuOpen(false)
+                                                }}
+                                            >
+                                                {props.tunebook.icons.reviewsmall} Practice Lists
+                                            </Link>
+                                        ) : null}
                                     </div>
                                 ) : null}
                             </div>
@@ -515,16 +518,18 @@ export default function Header(props) {
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-actions">
                     <div className="header-dropdown-practice-feed-group">
-                        <PracticeSessionButton
-                            tunebook={props.tunebook}
-                            tunes={props.tunes}
-                            mediaController={props.mediaController}
-                            forceRefresh={props.forceRefresh}
-                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                            practiceSession={props.practiceSession}
-                            buttonSize={navButtonSize}
-                            buttonClassName="header-dropdown-btn header-dropdown-practice-btn"
-                        />
+                        {PRACTICE_MODE_ENABLED ? (
+                            <PracticeSessionButton
+                                tunebook={props.tunebook}
+                                tunes={props.tunes}
+                                mediaController={props.mediaController}
+                                forceRefresh={props.forceRefresh}
+                                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                                practiceSession={props.practiceSession}
+                                buttonSize={navButtonSize}
+                                buttonClassName="header-dropdown-btn header-dropdown-practice-btn"
+                            />
+                        ) : null}
                         <Button
                             as={Link}
                             to="/scratchpad"

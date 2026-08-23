@@ -6,7 +6,6 @@ import { createRoot } from 'react-dom/client'
 import { act } from 'react-dom/test-utils'
 import PlayalongRecordButton from './PlayalongRecordButton'
 import { shouldShowPlayalongRecordButton } from '../playalongTakes'
-import { FEED_FEEDBACK_ADMIN_EMAIL } from '../feedFeedbackUtils'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
@@ -132,7 +131,7 @@ describe('PlayalongRecordButton', function() {
     expect(container.querySelector('[data-testid="playalong-record-config"]')).toBeTruthy()
   })
 
-  test('shows a waiting icon in the toolbar button while the graph is processing', function() {
+  test('shows a waiting icon in the toolbar button while a take is saving', function() {
     act(function() {
       root.render(React.createElement(PlayalongRecordButton, {
         tunebook: { icons: { pianoroll: 'roll', waiting: 'wait' } },
@@ -152,12 +151,13 @@ describe('PlayalongRecordButton', function() {
 
   test('visibility helper hides when the tune has no MIDI notes', function() {
     const tunebook = { hasNotes: function() { return false } }
-    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, false, { email: FEED_FEEDBACK_ADMIN_EMAIL })).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, false)).toBe(false)
   })
 
-  test('visibility helper hides playalong for non-admin users', function() {
+  test('visibility helper shows playalong for any user when the tune has MIDI notes', function() {
     const tunebook = { hasNotes: function() { return true } }
-    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, false, { email: 'other@example.com' })).toBe(false)
-    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, false, null)).toBe(false)
+    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, false)).toBe(true)
+    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, false, null)).toBe(true)
+    expect(shouldShowPlayalongRecordButton({ id: 't' }, tunebook, true)).toBe(false)
   })
 })

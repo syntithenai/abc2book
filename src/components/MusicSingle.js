@@ -65,6 +65,7 @@ import { shouldSyncViewedTuneToMediaController } from '../playbackNavigationUtil
 import { useCapoViewState } from '../useCapoViewState'
 import { chordTransposeWithCapo } from '../capoViewUtils'
 import StructureCapoControl from './StructureCapoControl'
+import TuneTransposeControl from './TuneTransposeControl'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
 import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste, cancelAddTuneAutoEnrich } from '../addTuneAutoEnrich'
@@ -361,7 +362,6 @@ export default function MusicSingle(props) {
     const [playalongTempoBpm, setPlayalongTempoBpm] = useState(120)
     const [showPlayalongPianoRoll, setShowPlayalongPianoRoll] = useState(true)
     const [hiddenPlayalongTakeIds, setHiddenPlayalongTakeIds] = useState({})
-    const [playalongGraphLoading, setPlayalongGraphLoading] = useState(false)
 
     function updatePlayalongSettings(next) {
       const saved = savePlayalongSettings(next)
@@ -379,6 +379,26 @@ export default function MusicSingle(props) {
         return next
       })
     }
+
+    useEffect(function() {
+      if (!playalong.isRecording || playalongTempoDialogOpen) return undefined
+      function onKeyDown(e) {
+        if (e.code !== 'Space' && e.key !== ' ') return
+        if (e.metaKey || e.ctrlKey || e.altKey) return
+        const target = e.target
+        if (target) {
+          const tag = String(target.tagName || '').toLowerCase()
+          if (tag === 'input' || tag === 'textarea' || tag === 'select') return
+          if (target.isContentEditable) return
+        }
+        e.preventDefault()
+        if (playalong.stop) playalong.stop('click')
+      }
+      window.addEventListener('keydown', onKeyDown)
+      return function() {
+        window.removeEventListener('keydown', onKeyDown)
+      }
+    }, [playalong.isRecording, playalongTempoDialogOpen, playalong.stop])
 
     useEffect(function() {
       const ids = {}
@@ -643,8 +663,8 @@ export default function MusicSingle(props) {
             tunes: props.tunes,
         })
         const ownMidiEngine = shouldMusicSingleOwnMidiEngine(tune.id, props.nowPlayingQueue)
-        const playalongOwnsMidi = !!(playalong.isRecording || playalong.midiEngineActive)
-        const notationPlaybackEngine = ownMidiEngine || playalongOwnsMidi
+                const playalongOwnsMidi = !!(playalong.isRecording || playalong.midiEngineActive)
+                const notationPlaybackEngine = ownMidiEngine || playalongOwnsMidi
 
                 const compactToolbar = windowSize[0] <= 768
                 const foldControlsIntoMenu = isMusicToolbarFolded(windowSize[0], compactToolbar)
@@ -714,10 +734,21 @@ export default function MusicSingle(props) {
                 const visibleVoiceKeys = getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune))
                 const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
                 const tuneTranspose = Number(tune.transpose) || 0
+                // Play-along takes are one MIDI playthrough each; Abc tune.repeats
+                // must not concatenate multiple passes into a single recording.
+                const notationMidiRepeat = playalongOwnsMidi
+                  ? 1
+                  : (notationTune.repeats > 0 ? notationTune.repeats : 1)
 
                 function handleCapoOffsetChange(offset) {
                   capoState.applyCapoOffset(offset)
                   persistTunePatch({ capo: offset })
+                }
+
+                function handleTransposeCommit(next) {
+                  const nextTune = Object.assign({}, tune, { transpose: next })
+                  setTune(nextTune)
+                  props.tunebook.saveTune(nextTune)
                 }
 
                 const tablatureInViewMode = foldControlsIntoMenu || compactNotationControls
@@ -737,11 +768,10 @@ export default function MusicSingle(props) {
                 const transposeCapoBlock = (
                   <div className="music-transpose-capo-block">
                     <span className="music-transpose-capo-label">Transpose</span>
-                    <ButtonGroup size="sm" className="music-transpose-group">
-                      <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1) }} aria-label="Transpose down">−</Button>
-                      <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
-                      <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1) }} aria-label="Transpose up">+</Button>
-                    </ButtonGroup>
+                    <TuneTransposeControl
+                      value={tuneTranspose}
+                      onCommit={handleTransposeCommit}
+                    />
                     <StructureCapoControl
                       className="music-single-capo-control"
                       tune={tune}
@@ -810,17 +840,12 @@ export default function MusicSingle(props) {
                         props.tunebook.saveTune(tune)
                 }
 
-                function changeTuneTranspose(delta) {
-                  const next = tuneTranspose + delta
-                  tune.transpose = next
-                  props.tunebook.saveTune(tune)
-                }
-
                 function openPrintPdfLayout() {
                   navigate('/print', { state: { tuneIds: [tune.id] } })
                 }
 
                 // Capo only changes chord fingering names — notation + MIDI stay on tune.transpose.
+                // TuneTransposeControl debounces onCommit so rapid +/- does not re-render Abc every step.
                 const notationVisualTranspose = tuneTranspose
                 const notationAbc = prepareTuneViewNotationAbc(
                   props.tunebook.abcTools.json2abc(notationTune),
@@ -870,11 +895,10 @@ export default function MusicSingle(props) {
                 const playalongCanRecord = shouldShowPlayalongRecordButton(
                   tune,
                   props.tunebook,
-                  fileOverlayActive,
-                  props.user
+                  fileOverlayActive
                 )
                 const hasPlayalongTakes = !!(playalong.takes && playalong.takes.length)
-                const playalongWaiting = !!(!playalong.isRecording && (playalong.isSavingTake || playalongGraphLoading))
+                const playalongWaiting = !!(!playalong.isRecording && playalong.isSavingTake)
                 const playalongPianoRollVisible = !!(showPlayalongPianoRoll && playalong.compareActive)
                 const playalongRecordButton = playalongCanRecord ? (
                   <PlayalongRecordButton
@@ -895,6 +919,8 @@ export default function MusicSingle(props) {
                       setShowPlayalongPianoRoll(show)
                       if (show) {
                         if (playalong.openCompare) playalong.openCompare()
+                      } else if (!playalong.isRecording && playalong.closeCompare) {
+                        playalong.closeCompare()
                       }
                     }}
                   />
@@ -1535,8 +1561,8 @@ export default function MusicSingle(props) {
                       />
                     ) : null}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                    </div>
                     {playalongCanRecord && showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
                       <PlayalongStaffPitchStrips
@@ -1549,7 +1575,6 @@ export default function MusicSingle(props) {
                         blobById={playalong.blobById}
                         trackingSettings={playalongSettings}
                         hiddenTakeIds={hiddenPlayalongTakeIds}
-                        onGraphLoadingChange={setPlayalongGraphLoading}
                         isRecording={playalong.isRecording}
                         livePitchPoints={playalong.livePitchPoints}
                         livePitchVersion={playalong.livePitchVersion}
@@ -1561,7 +1586,7 @@ export default function MusicSingle(props) {
                       />
                     ) : null}
                     </div>
-                   {playalongCanRecord && playalong.compareActive ? (
+                   {playalongCanRecord && showPlayalongPianoRoll && playalong.compareActive ? (
                      <PlayalongCompareOverlay
                        tune={tune}
                       compareTune={notationTune}
@@ -1587,14 +1612,7 @@ export default function MusicSingle(props) {
                         settings={playalongSettings}
                         onSettingsChange={updatePlayalongSettings}
                         canClear={!!(hasPlayalongTakes || playalong.compareActive || playalong.isRecording)}
-                        hasExistingTakes={hasPlayalongTakes}
                         onClearTakes={playalong.clearTakes}
-                        onCompareExisting={function(nextSettings) {
-                          if (nextSettings) updatePlayalongSettings(nextSettings)
-                          setPlayalongTempoDialogOpen(false)
-                          setShowPlayalongPianoRoll(true)
-                          if (playalong.openCompare) playalong.openCompare()
-                        }}
                         onStart={function(nextSettings) {
                           setPlayalongTempoDialogOpen(false)
                           setShowPlayalongPianoRoll(true)

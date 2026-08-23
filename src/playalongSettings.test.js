@@ -66,6 +66,25 @@ describe('playalongSettings', function() {
     expect(cello.maxHz).toBeLessThan(whistle.maxHz)
   })
 
+  test('voice tracking eases the gate and skips fundamental folding', function() {
+    const voice = playalongTrackingOptions({
+      cutoffPercent: 20,
+      instrumentId: 'voice',
+      playbackGain: 0.12,
+      repeats: 3,
+    })
+    const whistle = playalongTrackingOptions({
+      cutoffPercent: 20,
+      instrumentId: 'whistle',
+      playbackGain: 0.12,
+      repeats: 3,
+    })
+    expect(voice.preferFundamental).toBe(false)
+    expect(whistle.preferFundamental).toBe(true)
+    expect(voice.rmsFloor).toBeLessThan(whistle.rmsFloor)
+    expect(voice.minMidi).toBeLessThan(whistle.minMidi)
+  })
+
   test('tracking options combine cutoff and instrument', function() {
     const tracking = playalongTrackingOptions({
       cutoffPercent: 100,

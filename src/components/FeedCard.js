@@ -8,6 +8,7 @@ import AbcSnippetPreview from './AbcSnippetPreview'
 import TheoryLessonNotation from './TheoryLessonNotation'
 import FeedCardFeedbackModal from './FeedCardFeedbackModal'
 import { feedCardTypeClass, feedCardTypeLabel } from '../feedCardStyle'
+import { PRACTICE_MODE_ENABLED } from '../practiceModeEnabled'
 
 export default function FeedCard(props) {
   const item = props.item || {}
@@ -330,7 +331,7 @@ export default function FeedCard(props) {
                 Open tune
               </Link>
             ) : null}
-            {(item.type === 'singing_tip' || item.type === 'warmup_idea') ? (
+            {(item.type === 'singing_tip' || item.type === 'warmup_idea') && PRACTICE_MODE_ENABLED ? (
               <Link className="btn btn-sm btn-outline-primary" to="/practice" data-testid="feed-cta-practice">
                 Start Practice
               </Link>

@@ -1,0 +1,8 @@
+[Unit]
+Description=Watchdog: start abc2book audio.cpp if /health is down
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/projects/abc2book/local-resolver/audio-cpp/ensure_sidecar.sh
+Nice=10
