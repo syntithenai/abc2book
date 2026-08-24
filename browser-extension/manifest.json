@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "TuneBook Helper",
-  "version": "0.1.8",
-  "description": "Loads audio in your browser so Tunebook can pitch-shift, filter, and cache linked media without a resolver.",
+  "version": "0.1.9",
+  "description": "Loads audio and soft-blocked pages (e.g. Ultimate Guitar) in your browser so Tunebook can work without a residential resolver.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -41,7 +41,10 @@
     "https://www.youtube.com/*",
     "https://youtube.com/*",
     "https://*.googlevideo.com/*",
-    "https://*.youtube.com/*"
+    "https://*.youtube.com/*",
+    "https://tabs.ultimate-guitar.com/*",
+    "https://www.ultimate-guitar.com/*",
+    "https://ultimate-guitar.com/*"
   ],
   "permissions": ["storage"]
 }

@@ -5,7 +5,11 @@ import {
   setSavedWebshareProxyUrl,
 } from './webshareProxySettings'
 import { isYoutubeHelperDisabled, setYoutubeHelperDisabled } from './youtubeHelperSettings'
-import { youtubeAudioBytesAvailableSync } from './youtubeUnlock'
+import {
+  getScrapeProxyHeaders,
+  getYoutubeEgressHeaders,
+  youtubeAudioBytesAvailableSync,
+} from './youtubeUnlock'
 import {
   __resetYoutubeExtensionPingCache,
   __setCachedPingForTests,
@@ -66,5 +70,17 @@ describe('youtubeUnlock', function() {
     __setCachedPingForTests({ ok: true, version: '0.1.2', via: 'ping' })
     setYoutubeHelperDisabled(true)
     expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(false)
+  })
+
+  test('scrape and youtube egress headers reuse saved Webshare URL', function() {
+    setYoutubeHelperDisabled(false)
+    setSavedWebshareProxyUrl('http://u:p@proxy.webshare.io:80')
+    expect(getYoutubeEgressHeaders()).toEqual({
+      'X-Tunebook-Ytdlp-Proxy': 'http://u:p@proxy.webshare.io:80',
+    })
+    expect(getScrapeProxyHeaders()).toEqual({
+      'X-Tunebook-Scrape-Proxy': 'http://u:p@proxy.webshare.io:80',
+      'X-Tunebook-Ytdlp-Proxy': 'http://u:p@proxy.webshare.io:80',
+    })
   })
 })

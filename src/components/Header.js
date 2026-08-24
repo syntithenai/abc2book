@@ -674,6 +674,7 @@ export default function Header(props) {
             imageError={userImageError}
             onImageError={function() { setUserImageError(true) }}
             tunes={props.tunes}
+            tunebook={props.tunebook}
         />
     </header>
 }

@@ -20,6 +20,7 @@ from chords_fetch import (
     extract_sheet_from_html,
     extract_ultimate_guitar_sheet,
     extract_worshiptogether_sheet,
+    fetch_chords_url,
     finalize_sheet_lines,
     has_usable_chord_lines,
     is_chord_sheet_line,
@@ -560,6 +561,20 @@ Amazing Grace, how sweet the sound
 
 
 class ChordsFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
+    async def test_fetch_chords_url_uses_prefetched_page_html(self):
+        html_text = ChordsFetchTests()._ug_fixture_html(
+            "[Intro]\r\n[ch]Em[/ch]   [ch]G[/ch]\r\n\r\n"
+            "[Verse 1]\r\n[tab][ch]Em[/ch]       [ch]G[/ch]\r\n"
+            "Today is gonna be the day[/tab]\r\n"
+        )
+        result = await fetch_chords_url(
+            "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596",
+            page_html=html_text,
+        )
+        self.assertEqual(result["source"], "tabs.ultimate-guitar.com")
+        self.assertIn("Today is gonna be the day", result["sheetLines"])
+        self.assertTrue(any("Em" in line and "G" in line for line in result["sheetLines"]))
+
     async def test_translate_cifraclub_section_labels_uses_llm_mapping(self):
         sheet_lines = ["[Intro]", "[Primera Parte]", "Has he lost his mind?"]
         mock_response = unittest.mock.MagicMock()

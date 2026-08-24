@@ -20,6 +20,8 @@ import {
   normalizePlayalongTakes,
   shouldContinuePlayalongLoop,
   applyPlayalongTakePitchPct,
+  estimatePlayalongMusicDurationSeconds,
+  isPlayalongTakeIncomplete,
 } from './playalongTakes'
 import { clampReferenceGain } from './practiceSessionSettings'
 import {
@@ -158,6 +160,7 @@ export default function usePlayalongRecordSession(options) {
   const [livePitchVersion, setLivePitchVersion] = useState(0)
   const [liveTempoBpm, setLiveTempoBpm] = useState(0)
   const [liveMusicStartOffsetSeconds, setLiveMusicStartOffsetSeconds] = useState(0)
+  const [incompleteTakePrompt, setIncompleteTakePrompt] = useState(null)
 
   const isRecordingRef = useRef(false)
   const livePitchPointsRef = useRef([])
@@ -527,10 +530,71 @@ export default function usePlayalongRecordSession(options) {
     if (sampler && typeof sampler.stop === 'function') sampler.stop()
     peakSamplerRef.current = null
 
+    const current = tuneRef.current
+    const book = tunebookRef.current
+    const media = mediaControllerRef.current
+    const tempoBpmFromTune = book && book.abcTools && typeof book.abcTools.getTempo === 'function'
+      ? book.abcTools.getTempo(current)
+      : 100
+    const tempoBpm = Number.isFinite(tempoBpmOverrideRef.current) && tempoBpmOverrideRef.current > 0
+      ? tempoBpmOverrideRef.current
+      : tempoBpmFromTune
+    const estimatedOffsetSeconds = estimateMusicStartOffsetSeconds(
+      current,
+      book,
+      media && media.playbackSpeed,
+      tempoBpmOverrideRef.current
+    )
+    const resolvedOffset = resolvePlayalongMusicStartOffsetSeconds({
+      samplerStartedAtMs: peakSamplerStartedAtRef.current,
+      musicStartedAtMs: musicStartedAtRef.current,
+      playbackStartedAtMs: playbackStartedAtRef.current,
+      estimatedOffsetSeconds: estimatedOffsetSeconds,
+    })
+    const musicStartOffsetSeconds = savedPlayalongMusicOffsetSeconds(
+      resolvedOffset,
+      currentOutputLatencyOptions()
+    )
+    const expectedMusicDurationSeconds = estimatePlayalongMusicDurationSeconds(
+      expectedNotesFromPlayalongTune(current, 0),
+      tempoBpm,
+      media && media.playbackSpeed
+    )
+    const peakDuration = peaksDurationSeconds(livePeaks)
+    const recordedDurationSeconds = peakDuration > 0 ? peakDuration : durationSeconds
+    const incomplete = !continueLoop && isPlayalongTakeIncomplete({
+      reason: reason,
+      recordedDurationSeconds: recordedDurationSeconds,
+      musicStartOffsetSeconds: musicStartOffsetSeconds,
+      expectedMusicDurationSeconds: expectedMusicDurationSeconds,
+    })
+
     function afterBlob(blob) {
       recorderRef.current = null
       chunksRef.current = []
-      if (blob && blob.size) finishRecording(blob, durationSeconds, livePeaks, livePitchPoints, samplerStats)
+      const usable = blob && blob.size ? blob : null
+      if (incomplete && usable) {
+        const pendingTiming = {
+          peakSamplerStartedAtMs: peakSamplerStartedAtRef.current,
+          musicStartedAtMs: musicStartedAtRef.current,
+          playbackStartedAtMs: playbackStartedAtRef.current,
+          outputLatencySeconds: outputLatencySecondsRef.current,
+          outputLatencyAlreadyInTimeline: outputLatencyAlreadyInTimelineRef.current,
+          outputLatencyAppliedSeconds: outputLatencyAppliedSecondsRef.current,
+          tempoBpmOverride: tempoBpmOverrideRef.current,
+        }
+        finishSession()
+        setIncompleteTakePrompt({
+          blob: usable,
+          durationSeconds: durationSeconds,
+          livePeaks: livePeaks,
+          livePitchPoints: livePitchPoints,
+          samplerStats: samplerStats,
+          timing: pendingTiming,
+        })
+        return
+      }
+      if (usable) finishRecording(usable, durationSeconds, livePeaks, livePitchPoints, samplerStats)
       if (continueLoop && loopActiveRef.current && beginTakeRef.current) {
         stoppingRef.current = false
         beginTakeRef.current({ reuseStream: true })
@@ -556,6 +620,45 @@ export default function usePlayalongRecordSession(options) {
       afterBlob(null)
     }
   }, [finishRecording, finishSession])
+
+  const acceptIncompleteTake = useCallback(function() {
+    const pending = incompleteTakePrompt
+    setIncompleteTakePrompt(null)
+    if (!pending || !pending.blob) return
+    const timing = pending.timing || {}
+    if (Number.isFinite(timing.peakSamplerStartedAtMs)) {
+      peakSamplerStartedAtRef.current = timing.peakSamplerStartedAtMs
+    }
+    if (Number.isFinite(timing.musicStartedAtMs)) {
+      musicStartedAtRef.current = timing.musicStartedAtMs
+    }
+    if (Number.isFinite(timing.playbackStartedAtMs)) {
+      playbackStartedAtRef.current = timing.playbackStartedAtMs
+    }
+    if (Number.isFinite(timing.outputLatencySeconds)) {
+      outputLatencySecondsRef.current = timing.outputLatencySeconds
+    }
+    if (timing.outputLatencyAlreadyInTimeline != null) {
+      outputLatencyAlreadyInTimelineRef.current = !!timing.outputLatencyAlreadyInTimeline
+    }
+    if (Number.isFinite(timing.outputLatencyAppliedSeconds)) {
+      outputLatencyAppliedSecondsRef.current = timing.outputLatencyAppliedSeconds
+    }
+    if (timing.tempoBpmOverride != null) {
+      tempoBpmOverrideRef.current = timing.tempoBpmOverride
+    }
+    finishRecording(
+      pending.blob,
+      pending.durationSeconds,
+      pending.livePeaks,
+      pending.livePitchPoints,
+      pending.samplerStats
+    )
+  }, [incompleteTakePrompt, finishRecording])
+
+  const discardIncompleteTake = useCallback(function() {
+    setIncompleteTakePrompt(null)
+  }, [])
 
   const start = useCallback(function(tempoBpm, settings) {
     if (isRecordingRef.current) return
@@ -622,6 +725,7 @@ export default function usePlayalongRecordSession(options) {
   const abortRecording = useCallback(function() {
     loopActiveRef.current = false
     stoppingRef.current = true
+    setIncompleteTakePrompt(null)
     try {
       const recorder = recorderRef.current
       if (recorder) {
@@ -843,6 +947,9 @@ export default function usePlayalongRecordSession(options) {
     midiEngineActive: midiEngineActive,
     takes: takesState,
     applyTakePitchPct: applyTakePitchPct,
+    incompleteTakePrompt: incompleteTakePrompt,
+    acceptIncompleteTake: acceptIncompleteTake,
+    discardIncompleteTake: discardIncompleteTake,
     start: start,
     stop: stop,
     toggle: toggle,

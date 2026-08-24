@@ -267,13 +267,23 @@ export function scorePlayalongTake(notes, pitchPoints, options) {
     return { timeMs: point.timeMs, midi: midi, gated: true }
   }).filter(Boolean)
   if (samples.length < PLAYALONG_MIN_SCORE_SAMPLES) {
+    // Silent / near-silent takes still count every expected note as missed.
+    const totalNotes = windows.length
     return {
-      pitchPct: null,
+      pitchPct: totalNotes > 0 ? 0 : null,
       hits: 0,
-      totalNotes: 0,
-      missed: 0,
-      perNote: [],
-      skippedSparse: true,
+      totalNotes: totalNotes,
+      missed: totalNotes,
+      perNote: windows.map(function(win) {
+        return {
+          midi: win.midi,
+          startBeat: win.startBeat,
+          hit: false,
+          missed: true,
+          sampleCount: 0,
+        }
+      }),
+      skippedSparse: totalNotes === 0,
       sampleCount: samples.length,
     }
   }
@@ -283,9 +293,11 @@ export function scorePlayalongTake(notes, pitchPoints, options) {
   const foldOctaves = opts.foldOctaves != null
     ? !!opts.foldOctaves
     : playalongShouldFoldOctaves(opts.instrumentId)
+  // Score every written note: missing pitch (silence, early stop, or wrong note)
+  // must lower the percentage — do not trim the tune to "what was sampled".
   return summarizeRepPitch(windows, samples, {
-    ignoreNotesAfterLastSample: true,
-    ignoreUnsampledNotes: true,
+    ignoreNotesAfterLastSample: false,
+    ignoreUnsampledNotes: false,
     foldOctaves: foldOctaves,
     foldHarmonics: foldHarmonics,
     minSamples: opts.minSamples != null ? opts.minSamples : PLAYALONG_SCORE_MIN_SAMPLES_PER_NOTE,

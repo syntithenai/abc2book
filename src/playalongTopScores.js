@@ -1,8 +1,8 @@
 
-import { normalizePlayalongTakes } from './playalongTakes'
+import { normalizePlayalongTakes, clearPlayalongTakePitchPcts } from './playalongTakes'
 
 export const PLAYALONG_TOP_SCORES_STORAGE_KEY = 'bookstorage_playalong_top_scores'
-export const PLAYALONG_TOP_SCORES_MAX = 10
+export const PLAYALONG_TOP_SCORES_MAX = 100
 export const PLAYALONG_TOP_SCORES_CHANGED_EVENT = 'playalongTopScoresChanged'
 
 function emptyStore() {
@@ -63,6 +63,73 @@ export function averagePlayalongTopScores(list) {
   return Math.round(sum / scores.length)
 }
 
+/**
+ * Collate scores by tune for reporting: min, max, and average per tune.
+ */
+export function summarizePlayalongScoresByTune(list) {
+  const scores = normalizePlayalongTopScores(list)
+  const byKey = {}
+  scores.forEach(function(row) {
+    const key = row.tuneId
+      ? ('id:' + row.tuneId)
+      : ('title:' + (row.title || 'Untitled'))
+    let group = byKey[key]
+    if (!group) {
+      group = {
+        tuneId: row.tuneId,
+        title: row.title || 'Untitled',
+        min: row.pitchPct,
+        max: row.pitchPct,
+        sum: row.pitchPct,
+        count: 1,
+      }
+      byKey[key] = group
+      return
+    }
+    if (row.pitchPct < group.min) group.min = row.pitchPct
+    if (row.pitchPct > group.max) group.max = row.pitchPct
+    group.sum += row.pitchPct
+    group.count += 1
+    if (!group.title && row.title) group.title = row.title
+    if (!group.tuneId && row.tuneId) group.tuneId = row.tuneId
+  })
+  return Object.keys(byKey)
+    .map(function(key) {
+      const group = byKey[key]
+      return {
+        key: key,
+        tuneId: group.tuneId || '',
+        title: group.title || 'Untitled',
+        min: group.min,
+        max: group.max,
+        average: Math.round(group.sum / group.count),
+        count: group.count,
+      }
+    })
+    .sort(function(a, b) {
+      if (b.average !== a.average) return b.average - a.average
+      return String(a.title || '').localeCompare(String(b.title || ''))
+    })
+}
+
+export function playalongScoreMatchesTune(score, tuneId, title) {
+  const id = tuneId != null ? String(tuneId).trim() : ''
+  const name = title != null ? String(title).trim() : ''
+  if (!score) return false
+  if (id) return score.tuneId === id
+  if (score.tuneId) return false
+  return (score.title || 'Untitled') === (name || 'Untitled')
+}
+
+/** Remove stored top scores for one tune (by tuneId, or title when id is absent). */
+export function removePlayalongTopScoresForTune(tuneId, title) {
+  const next = loadPlayalongTopScores().filter(function(row) {
+    return !playalongScoreMatchesTune(row, tuneId, title)
+  })
+  writeStore({ scores: next })
+  return next
+}
+
 function readStore() {
   try {
     const raw = localStorage.getItem(PLAYALONG_TOP_SCORES_STORAGE_KEY)
@@ -111,8 +178,8 @@ export function getPlayalongTopScoresAverage() {
 }
 
 /**
- * Upsert a scored take into the personal top-ten list.
- * Same recordingId keeps the higher pitchPct; list is trimmed to top 10.
+ * Upsert a scored take into the personal top-scores list.
+ * Same recordingId keeps the higher pitchPct; list is trimmed to the max pool size.
  */
 export function recordPlayalongTopScore(entry) {
   const score = normalizePlayalongTopScore(entry)
@@ -127,6 +194,36 @@ export function recordPlayalongTopScore(entry) {
 export function clearPlayalongTopScores() {
   writeStore(emptyStore())
   return []
+}
+
+function tuneMatchesResetFilter(id, tune, tuneId, title) {
+  const wantId = tuneId != null ? String(tuneId).trim() : ''
+  const wantTitle = title != null ? String(title).trim() : ''
+  if (wantId) return String(id) === wantId
+  if (!wantTitle) return true
+  return tuneTitle(tune) === wantTitle
+}
+
+/**
+ * Clear pitchPct on matching tunes (or all tunes) and persist via tunebook.saveTune.
+ * Mutates in-memory tune.playalongTakes so immediate resolve sees cleared scores.
+ */
+export function clearPlayalongScorePitchPctFromTunes(tunes, tunebook, opts) {
+  const o = opts || {}
+  if (!tunes || typeof tunes !== 'object') return 0
+  if (!tunebook || typeof tunebook.saveTune !== 'function') return 0
+  let updated = 0
+  Object.keys(tunes).forEach(function(id) {
+    const tune = tunes[id]
+    if (!tune) return
+    if (!tuneMatchesResetFilter(id, tune, o.tuneId, o.title)) return
+    const cleared = clearPlayalongTakePitchPcts(tune.playalongTakes)
+    if (!cleared.changed) return
+    tune.playalongTakes = cleared.takes
+    tunebook.saveTune(Object.assign({}, tune, { playalongTakes: cleared.takes }))
+    updated += 1
+  })
+  return updated
 }
 
 function tuneTitle(tune) {

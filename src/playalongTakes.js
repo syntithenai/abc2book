@@ -17,6 +17,46 @@ export function shouldContinuePlayalongLoop(reason, takesStarted, maxTakes) {
   return useStarted < useMax
 }
 
+/** Written sounding length of the tune (one playthrough) in seconds. */
+export function estimatePlayalongMusicDurationSeconds(notes, tempoBpm, playbackSpeed) {
+  const list = Array.isArray(notes) ? notes : []
+  let endBeat = 0
+  list.forEach(function(note) {
+    if (!note) return
+    const end = Number.isFinite(note.endBeat)
+      ? note.endBeat
+      : (Number.isFinite(note.startBeat)
+        ? note.startBeat + (Number(note.durationBeats) > 0 ? note.durationBeats : 0)
+        : 0)
+    if (end > endBeat) endBeat = end
+  })
+  if (!(endBeat > 0)) return 0
+  return endBeat * secondsPerBeat(tempoBpm, playbackSpeed)
+}
+
+/**
+ * True when the player stopped before finishing one full playthrough.
+ * Natural MIDI end (`reason === 'ended'`) is always complete.
+ */
+export function isPlayalongTakeIncomplete(options) {
+  const o = options || {}
+  if (o.reason === 'ended') return false
+  const expected = parseFloat(o.expectedMusicDurationSeconds)
+  const recorded = parseFloat(o.recordedDurationSeconds)
+  const offset = parseFloat(o.musicStartOffsetSeconds)
+  const ratio = o.completenessRatio > 0 && o.completenessRatio <= 1
+    ? o.completenessRatio
+    : 0.92
+  if (!(expected > 0.25) || !Number.isFinite(recorded) || recorded < 0) {
+    return true
+  }
+  const musicSeconds = Math.max(
+    0,
+    recorded - (Number.isFinite(offset) && offset > 0 ? offset : 0)
+  )
+  return musicSeconds < expected * ratio
+}
+
 export function normalizePlayalongTake(raw) {
   if (!raw || typeof raw !== 'object') return null
   const recordingId = raw.recordingId != null ? String(raw.recordingId).trim() : ''
@@ -112,6 +152,17 @@ export function applyPlayalongTakePitchPct(list, recordingId, pitchPct) {
     if (take.pitchPct != null && take.pitchPct >= clamped) return take
     changed = true
     return Object.assign({}, take, { pitchPct: clamped })
+  })
+  return { takes: takes, changed: changed }
+}
+
+/** Strip pitchPct from all takes so they no longer contribute to score reporting. */
+export function clearPlayalongTakePitchPcts(list) {
+  let changed = false
+  const takes = normalizePlayalongTakes(list).map(function(take) {
+    if (take.pitchPct == null) return take
+    changed = true
+    return Object.assign({}, take, { pitchPct: null })
   })
   return { takes: takes, changed: changed }
 }

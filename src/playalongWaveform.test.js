@@ -133,6 +133,20 @@ describe('playalongWaveform', function() {
     const resolved = resolvePitchTrackerOptions(tracking)
     expect(resolved.rmsFloor).toBeCloseTo(0.028, 5)
     expect(resolved.maxHz).toBeGreaterThan(1200)
+    expect(resolved.preferFundamental).toBe(true)
+    expect(resolved.holdMs).toBe(280)
+  })
+
+  test('resolvePitchTrackerOptions keeps voice hold and disables fundamental fold', function() {
+    const tracking = playalongTrackingOptions({
+      cutoffPercent: 20,
+      instrumentId: 'voice',
+      playbackGain: 0.12,
+    })
+    const resolved = resolvePitchTrackerOptions(tracking)
+    expect(resolved.preferFundamental).toBe(false)
+    expect(resolved.holdMs).toBe(720)
+    expect(resolved.yinThreshold).toBeLessThan(0.12)
   })
 
   test('extractPitchPointsFromChannel keeps high whistle notes when maxHz is raised', function() {

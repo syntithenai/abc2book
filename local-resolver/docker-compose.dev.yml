@@ -19,6 +19,7 @@ services:
       - ./background_markdown_links.py:/app/background_markdown_links.py
       - ./polite_fetch.py:/app/polite_fetch.py
       - ./browser_fetch.py:/app/browser_fetch.py
+      - ./scrape_proxy.py:/app/scrape_proxy.py
       - ./page_title_meta.py:/app/page_title_meta.py
       - ./chords_fetch.py:/app/chords_fetch.py
       - ./notation_fetch.py:/app/notation_fetch.py

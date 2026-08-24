@@ -15,6 +15,7 @@ from browser_fetch import (
 )
 from polite_fetch import BROWSER_USER_AGENT
 from recording_artists import discover_recording_artists, is_generic_artist
+from scrape_proxy import make_scrape_http_client
 from tune_background_research import LLM_TIMEOUT_SECONDS
 
 CHORDS_FETCH_TIMEOUT_SECONDS = 20.0
@@ -1080,11 +1081,14 @@ def _attach_sheet_meta(result, meta):
     return result
 
 
-async def fetch_chord_sheet_from_page(client, page_url, title="", artist=""):
+async def fetch_chord_sheet_from_page(client, page_url, title="", artist="", page_html=None):
     validated, error = validate_chord_page_url(page_url)
     if error:
         raise ValueError(error)
-    html_text = await fetch_text(client, validated)
+    if page_html is not None and str(page_html).strip():
+        html_text = str(page_html)
+    else:
+        html_text = await fetch_text(client, validated)
     raw_sheet = extract_sheet_from_html(html_text, validated)
     if not raw_sheet:
         return None
@@ -1476,7 +1480,7 @@ async def search_chords_with_candidates(title, on_progress=None):
     if not title:
         raise ValueError("Song title is required")
 
-    async with httpx.AsyncClient(timeout=CHORDS_FETCH_TIMEOUT_SECONDS) as client:
+    async with make_scrape_http_client(CHORDS_FETCH_TIMEOUT_SECONDS) as client:
         await _emit_progress(
             on_progress,
             "search",
@@ -1558,7 +1562,7 @@ async def search_chords(title, artist, on_progress=None):
     if is_generic_artist(artist):
         return await search_chords_with_candidates(title, on_progress=on_progress)
 
-    async with httpx.AsyncClient(timeout=CHORDS_FETCH_TIMEOUT_SECONDS) as client:
+    async with make_scrape_http_client(CHORDS_FETCH_TIMEOUT_SECONDS) as client:
         await _emit_progress(
             on_progress,
             "search",
@@ -1589,11 +1593,15 @@ async def search_chords(title, artist, on_progress=None):
     raise ValueError("No chords found for this song")
 
 
-async def fetch_chords_url(url, on_progress=None):
+async def fetch_chords_url(url, on_progress=None, page_html=None):
     await _emit_progress(on_progress, "fetch", "Fetching chord page...", 0.15)
-    async with httpx.AsyncClient(timeout=CHORDS_FETCH_TIMEOUT_SECONDS) as client:
+    async with make_scrape_http_client(CHORDS_FETCH_TIMEOUT_SECONDS) as client:
         await _emit_progress(on_progress, "extract", "Extracting chords...", 0.55)
-        result = await fetch_chord_sheet_from_page(client, url)
+        result = await fetch_chord_sheet_from_page(
+            client,
+            url,
+            page_html=page_html,
+        )
         if not result:
             await _emit_progress(on_progress, "done", "Could not extract chords from that page", 1.0)
             raise ValueError("Could not extract chords from that page")

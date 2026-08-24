@@ -4,6 +4,11 @@ import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { buildChordSheetAlignmentFromLines, sheetLinesToEmbeddedLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
 import { linesHaveChordProInlineChords, hasChordLines } from './chordSheetUtils'
 import { searchChordsLight } from './chordsSearchLight'
+import {
+  fetchPageHtmlViaExtension,
+  isUltimateGuitarPageUrl,
+  isYoutubeExtensionConnected,
+} from './youtubeExtensionClient'
 
 const CHORDS_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 
@@ -268,6 +273,7 @@ export async function searchChordsViaResolver(options) {
     accessToken,
     signal,
     onProgress,
+    pageHtml,
   } = options
 
   if (!url && !(title && String(title).trim())) {
@@ -278,13 +284,45 @@ export async function searchChordsViaResolver(options) {
     onProgress('Starting chords search...', 0, 'start')
   }
 
+  let resolvedPageHtml = pageHtml || ''
+  let resolvedUrl = url || ''
+
+  if (
+    resolvedUrl
+    && !resolvedPageHtml
+    && isUltimateGuitarPageUrl(resolvedUrl)
+    && await isYoutubeExtensionConnected()
+  ) {
+    try {
+      if (typeof onProgress === 'function') {
+        onProgress('Fetching Ultimate Guitar via TuneBook Helper...', 0.05, 'extension')
+      }
+      const fetched = await fetchPageHtmlViaExtension(resolvedUrl)
+      if (fetched && fetched.html) {
+        resolvedPageHtml = fetched.html
+        if (fetched.finalUrl) resolvedUrl = fetched.finalUrl
+      }
+    } catch (err) {
+      // Fall through to resolver direct/proxy/Playwright fetch.
+      if (typeof onProgress === 'function') {
+        const message = err && err.message ? String(err.message) : 'Extension fetch failed'
+        onProgress('Extension fetch failed (' + message + '); trying resolver...', 0.08, 'extension')
+      }
+    }
+  }
+
+  const body = {
+    title: title || '',
+    artist: artist || '',
+    url: resolvedUrl || '',
+  }
+  if (resolvedPageHtml) {
+    body.pageHtml = resolvedPageHtml
+  }
+
   const response = await fetchViaMediaProxy('/search-chords', accessToken, {
     method: 'POST',
-    body: JSON.stringify({
-      title: title || '',
-      artist: artist || '',
-      url: url || '',
-    }),
+    body: JSON.stringify(body),
     signal: signal,
     headers: {
       Accept: CHORDS_ACCEPT_HEADER,

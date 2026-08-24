@@ -11,7 +11,7 @@ import { parseResolverFeaturesFromHealthBody } from './resolverFeatures';
 import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClient';
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
 import { getActiveProviderHeaders, loadProviderSettings } from './providerSettings';
-import { getYoutubeEgressHeaders } from './youtubeUnlock';
+import { getYoutubeEgressHeaders, getScrapeProxyHeaders } from './youtubeUnlock';
 import {
   isMusicCollectionByEntryUri,
   isMusicCollectionLinkUri,
@@ -926,6 +926,12 @@ function pathNeedsYoutubeEgress(pathAndQuery) {
   return path.indexOf('/youtube/') === 0;
 }
 
+function pathNeedsScrapeProxy(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  return path.indexOf('/search-chords') === 0
+    || path.indexOf('/search-lyrics') === 0;
+}
+
 function pathNeedsMidiAnalyze(pathAndQuery) {
   const path = String(pathAndQuery || '').split('?')[0];
   return path.indexOf('/midi2analyze') === 0
@@ -1118,6 +1124,7 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
           buildAuthHeaders(tokenForRequest),
           getActiveProviderHeaders(loadProviderSettings()),
           pathNeedsYoutubeEgress(pathAndQuery) ? getYoutubeEgressHeaders() : {},
+          pathNeedsScrapeProxy(pathAndQuery) ? getScrapeProxyHeaders() : {},
           requestOptions.headers || {}
         );
         const response = await fetch(url, {

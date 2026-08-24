@@ -205,6 +205,8 @@ YTDLP_COOKIES_PATH = os.getenv("YTDLP_COOKIES_PATH", "")
 YTDLP_COOKIES_WRITABLE = "/tmp/youtube-cookies.txt"
 # Operator-hosted residential/egress proxy for yt-dlp (home). Prefer user Webshare on light gateways.
 YTDLP_PROXY = os.getenv("YTDLP_PROXY", "").strip()
+# Optional dedicated scrape egress; falls back to YTDLP_PROXY when unset.
+SCRAPE_PROXY = os.getenv("SCRAPE_PROXY", "").strip() or YTDLP_PROXY
 # When true (default in RESOLVER_LIGHT_MODE), /youtube requires X-Tunebook-Ytdlp-Proxy or YTDLP_PROXY.
 _ytdlp_require_raw = os.getenv("YTDLP_REQUIRE_USER_PROXY", "").strip().lower()
 if _ytdlp_require_raw in ("1", "true", "yes"):
@@ -321,7 +323,8 @@ def cors_headers(origin):
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
         "Access-Control-Allow-Headers": (
             "Authorization, Content-Type, Range, X-Abc-Auth-Session, "
-            "X-Tunebook-Ytdlp-Proxy, X-Tunebook-Provider-llm, "
+            "X-Tunebook-Ytdlp-Proxy, X-Tunebook-Scrape-Proxy, "
+            "X-Tunebook-Provider-llm, "
             "X-Tunebook-Provider-whisper, X-Tunebook-Provider-ocr, "
             "X-Tunebook-Provider-stems"
         ),
@@ -1294,6 +1297,19 @@ def resolve_ytdlp_proxy_from_request(request: Request | None) -> str:
         return YTDLP_PROXY
     header = (request.headers.get("x-tunebook-ytdlp-proxy") or "").strip()
     return header or YTDLP_PROXY
+
+
+def resolve_scrape_proxy_from_request(request: Request | None) -> str:
+    """Residential proxy for chord/lyrics HTML scrapes (Ultimate Guitar, etc.)."""
+    if request is None:
+        return SCRAPE_PROXY
+    scrape_header = (request.headers.get("x-tunebook-scrape-proxy") or "").strip()
+    if scrape_header:
+        return scrape_header
+    ytdlp_header = (request.headers.get("x-tunebook-ytdlp-proxy") or "").strip()
+    if ytdlp_header:
+        return ytdlp_header
+    return SCRAPE_PROXY
 
 
 def ensure_youtube_egress_allowed(proxy: str) -> None:
@@ -4437,10 +4453,18 @@ async def search_chords_endpoint(
         title = str(payload.get("title") or "").strip()
         artist = str(payload.get("artist") or "").strip()
         page_url = str(payload.get("url") or "").strip()
+        page_html = payload.get("pageHtml")
+        if page_html is not None:
+            page_html = str(page_html)
+        else:
+            page_html = None
         llm_cfg = await _resolve_llm_for_request(request, verified)
+        scrape_proxy = resolve_scrape_proxy_from_request(request)
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
+
+        from scrape_proxy import use_scrape_proxy
 
         if wants_stream:
             async def stream_events():
@@ -4456,11 +4480,16 @@ async def search_chords_endpoint(
 
                 async def run():
                     try:
-                        with use_billed_llm(verified, llm_cfg):
-                            if page_url:
-                                body = await fetch_chords_url(page_url, on_progress=on_progress)
-                            else:
-                                body = await search_chords(title, artist, on_progress=on_progress)
+                        with use_scrape_proxy(scrape_proxy):
+                            with use_billed_llm(verified, llm_cfg):
+                                if page_url:
+                                    body = await fetch_chords_url(
+                                        page_url,
+                                        on_progress=on_progress,
+                                        page_html=page_html,
+                                    )
+                                else:
+                                    body = await search_chords(title, artist, on_progress=on_progress)
                         await queue.put({"type": "result", "body": body})
                     except ValueError as exc:
                         await queue.put({
@@ -4497,11 +4526,12 @@ async def search_chords_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        with use_billed_llm(verified, llm_cfg):
-            if page_url:
-                body = await fetch_chords_url(page_url)
-            else:
-                body = await search_chords(title, artist)
+        with use_scrape_proxy(scrape_proxy):
+            with use_billed_llm(verified, llm_cfg):
+                if page_url:
+                    body = await fetch_chords_url(page_url, page_html=page_html)
+                else:
+                    body = await search_chords(title, artist)
 
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:

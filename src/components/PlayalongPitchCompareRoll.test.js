@@ -3,6 +3,7 @@
  */
 import {
   displayMidi,
+  isTraceGap,
   paintLiveOverlayFromSnapshot,
   playalongRollHeight,
   tightPitchRangeFromNotes,
@@ -45,6 +46,16 @@ describe('PlayalongPitchCompareRoll', function() {
       expectedMidi: 60,
       foldedMidi: 72.2,
     })).toBeCloseTo(72.2, 5)
+  })
+
+  test('isTraceGap uses instrument-aware gap and jump limits', function() {
+    const prev = { timeMs: 0, beat: 0, rawMidi: 60 }
+    const later = { timeMs: 800, beat: 1, rawMidi: 60 }
+    const jumped = { timeMs: 100, beat: 0.2, rawMidi: 66 }
+    expect(isTraceGap(prev, later)).toBe(true)
+    expect(isTraceGap(prev, later, { gapMs: 1100 })).toBe(false)
+    expect(isTraceGap(prev, jumped)).toBe(true)
+    expect(isTraceGap(prev, jumped, { maxJumpSemitones: 8 })).toBe(false)
   })
 
   test('paintLiveOverlayFromSnapshot reads the latest ref sample without React state', function() {

@@ -11,6 +11,7 @@ import {
   playalongInstrumentHzRange,
   playalongTrackingCacheKey,
   playalongTrackingOptions,
+  playalongTraceStyle,
   savePlayalongSettings,
 } from './playalongSettings'
 import { PRACTICE_REFERENCE_GAIN_MAX } from './practiceSessionSettings'
@@ -66,7 +67,7 @@ describe('playalongSettings', function() {
     expect(cello.maxHz).toBeLessThan(whistle.maxHz)
   })
 
-  test('voice tracking eases the gate and skips fundamental folding', function() {
+  test('voice tracking eases the gate, holds longer, and skips fundamental folding', function() {
     const voice = playalongTrackingOptions({
       cutoffPercent: 20,
       instrumentId: 'voice',
@@ -82,7 +83,17 @@ describe('playalongSettings', function() {
     expect(voice.preferFundamental).toBe(false)
     expect(whistle.preferFundamental).toBe(true)
     expect(voice.rmsFloor).toBeLessThan(whistle.rmsFloor)
+    expect(voice.holdRms).toBeLessThan(whistle.holdRms)
+    expect(voice.holdMs).toBeGreaterThan(whistle.holdMs)
+    expect(voice.yinThreshold).toBeLessThan(whistle.yinThreshold)
     expect(voice.minMidi).toBeLessThan(whistle.minMidi)
+  })
+
+  test('voice trace style connects across longer gaps and larger jumps', function() {
+    const voice = playalongTraceStyle({ instrumentId: 'voice', cutoffPercent: 20, playbackGain: 0.12, repeats: 1 })
+    const whistle = playalongTraceStyle({ instrumentId: 'whistle', cutoffPercent: 20, playbackGain: 0.12, repeats: 1 })
+    expect(voice.gapMs).toBeGreaterThan(whistle.gapMs)
+    expect(voice.maxJumpSemitones).toBeGreaterThan(whistle.maxJumpSemitones)
   })
 
   test('tracking options combine cutoff and instrument', function() {

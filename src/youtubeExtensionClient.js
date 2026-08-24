@@ -12,6 +12,7 @@ const ATTR = 'data-tunebook-yt-helper'
 
 const PING_TIMEOUT_MS = 4000
 const FETCH_TIMEOUT_MS = 180000
+const PAGE_HTML_TIMEOUT_MS = 45000
 const PING_CACHE_MS = 10000
 
 let nextRequestId = 1
@@ -339,6 +340,129 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
     client: (meta && meta.client) || null,
     via: 'extension',
   }
+}
+
+/** True when URL is an Ultimate Guitar tab/search host we can fetch via the helper. */
+export function isUltimateGuitarPageUrl(url) {
+  try {
+    const host = new URL(String(url || '').trim()).hostname
+      .toLowerCase()
+      .replace(/^www\./, '')
+    return (
+      host === 'tabs.ultimate-guitar.com' ||
+      host === 'ultimate-guitar.com' ||
+      host.endsWith('.ultimate-guitar.com')
+    )
+  } catch (e) {
+    return false
+  }
+}
+
+/**
+ * Fetch allowlisted page HTML (e.g. Ultimate Guitar) via the user's browser session.
+ * @param {string} pageUrl
+ * @returns {Promise<{ html: string, finalUrl: string, status: number, via: 'extension' }>}
+ */
+export async function fetchPageHtmlViaExtension(pageUrl) {
+  const url = String(pageUrl || '').trim()
+  if (!url) {
+    throw new Error('Page URL is required')
+  }
+  if (!isUltimateGuitarPageUrl(url)) {
+    throw new Error('Extension page fetch is only supported for Ultimate Guitar URLs')
+  }
+  if (isYoutubeHelperDisabled()) {
+    throw new Error(DISABLED_ERROR)
+  }
+
+  const connected = await pingYoutubeExtension({ force: true })
+  if (!connected.ok) {
+    throw new Error(
+      connected.error ||
+        'TuneBook Helper extension is not connected. Install it from browser-extension/ and reload this tab.'
+    )
+  }
+
+  const requestId = makeRequestId()
+
+  const done = new Promise(function (resolve, reject) {
+    let settled = false
+    const timer = setTimeout(function () {
+      cleanup()
+      reject(new Error('TuneBook Helper extension page fetch timed out'))
+    }, PAGE_HTML_TIMEOUT_MS)
+
+    function cleanup() {
+      clearTimeout(timer)
+      window.removeEventListener('message', onWindowMessage)
+      document.removeEventListener('tunebook-yt-helper-message', onDomMessage, true)
+      activeFetches.delete(requestId)
+    }
+
+    function finish(fn) {
+      if (settled) return
+      settled = true
+      cleanup()
+      fn()
+    }
+
+    function abort() {
+      finish(function () {
+        reject(new Error(DISABLED_ERROR))
+      })
+    }
+
+    activeFetches.set(requestId, { abort: abort })
+
+    function handle(data) {
+      if (settled) return
+      if (!data || data.source !== EXT_SOURCE) return
+      if (data.requestId !== requestId) return
+
+      if (data.type === 'tunebook.pageHtml') {
+        finish(function () {
+          resolve({
+            html: String(data.html || ''),
+            finalUrl: data.finalUrl || url,
+            status: Number(data.status) || 200,
+            via: 'extension',
+          })
+        })
+        return
+      }
+      if (data.type === 'tunebook.pageHtmlError') {
+        finish(function () {
+          reject(
+            new Error(data.message || data.code || 'TuneBook Helper extension page fetch failed')
+          )
+        })
+      }
+    }
+
+    function onWindowMessage(event) {
+      if (event.source !== window) return
+      handle(event.data)
+    }
+
+    function onDomMessage(event) {
+      handle(event && event.detail)
+    }
+
+    window.addEventListener('message', onWindowMessage)
+    document.addEventListener('tunebook-yt-helper-message', onDomMessage, true)
+  })
+
+  postToExtension({
+    type: 'tunebook.fetchPageHtml',
+    url: url,
+    requestId: requestId,
+  })
+
+  const payload = await done
+  if (!payload.html || !String(payload.html).trim()) {
+    throw new Error('TuneBook Helper extension returned empty page HTML')
+  }
+  return payload
 }
 
 if (typeof window !== 'undefined') {

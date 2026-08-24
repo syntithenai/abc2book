@@ -4,11 +4,17 @@
  * chunked base64 to the content script over a long-lived port.
  */
 
-const EXTENSION_VERSION = '0.1.8'
+const EXTENSION_VERSION = '0.1.9'
 const CHUNK_CHARS = 240000
 // googlevideo throttles un-ranged progressive downloads to ~playback speed;
 // ranged requests (like yt-dlp uses) download at full speed.
 const RANGE_CHUNK_BYTES = 10 * 1024 * 1024
+const MAX_PAGE_HTML_CHARS = 2500000
+const PAGE_HTML_HOST_ALLOWLIST = [
+  'tabs.ultimate-guitar.com',
+  'ultimate-guitar.com',
+  'www.ultimate-guitar.com',
+]
 
 // Prefer ANDROID_VR first; DASH itag 251 now 403s, so we also try muxed format 18.
 // Keep IOS/ANDROID as fallbacks with current client versions from yt-dlp.
@@ -291,6 +297,62 @@ async function fetchYoutubeAudioBytes(videoId) {
   throw lastError || new Error('Could not resolve YouTube audio')
 }
 
+function isAllowedPageHtmlHost(hostname) {
+  const host = String(hostname || '')
+    .toLowerCase()
+    .replace(/^www\./, '')
+  if (!host) return false
+  for (let i = 0; i < PAGE_HTML_HOST_ALLOWLIST.length; i++) {
+    const allowed = PAGE_HTML_HOST_ALLOWLIST[i].replace(/^www\./, '')
+    if (host === allowed || host.endsWith('.' + allowed)) return true
+  }
+  return false
+}
+
+function assertAllowedPageHtmlUrl(rawUrl) {
+  let parsed
+  try {
+    parsed = new URL(String(rawUrl || '').trim())
+  } catch (e) {
+    throw new Error('Invalid page URL')
+  }
+  if (parsed.protocol !== 'https:' && parsed.protocol !== 'http:') {
+    throw new Error('Page URL must be http(s)')
+  }
+  if (!isAllowedPageHtmlHost(parsed.hostname)) {
+    throw new Error('Host is not allowlisted for page HTML fetch')
+  }
+  return parsed.href
+}
+
+async function fetchPageHtml(rawUrl) {
+  const url = assertAllowedPageHtmlUrl(rawUrl)
+  const response = await fetch(url, {
+    method: 'GET',
+    credentials: 'include',
+    redirect: 'follow',
+    headers: {
+      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.9',
+    },
+  })
+  const html = await response.text()
+  if (!response.ok) {
+    throw new Error('Page fetch HTTP ' + response.status)
+  }
+  if (!html || !String(html).trim()) {
+    throw new Error('Empty page HTML')
+  }
+  if (html.length > MAX_PAGE_HTML_CHARS) {
+    throw new Error('Page HTML too large')
+  }
+  return {
+    html: html,
+    finalUrl: response.url || url,
+    status: response.status,
+  }
+}
+
 function postAudioOverPort(port, requestId, payload) {
   const base64 = arrayBufferToBase64(payload.buffer)
   const total = Math.max(1, Math.ceil(base64.length / CHUNK_CHARS))
@@ -350,6 +412,33 @@ chrome.runtime.onConnect.addListener(function (port) {
       } catch (e) {
         // ignore
       }
+    })
+    return
+  }
+
+  if (port.name === 'tunebook-page-html') {
+    port.onMessage.addListener(function (message) {
+      if (!message || message.type !== 'tunebook.fetchPageHtml') return
+      const requestId = message.requestId
+      const pageUrl = message.url
+      fetchPageHtml(pageUrl)
+        .then(function (payload) {
+          port.postMessage({
+            type: 'tunebook.pageHtml',
+            requestId: requestId,
+            html: payload.html,
+            finalUrl: payload.finalUrl,
+            status: payload.status,
+          })
+        })
+        .catch(function (err) {
+          port.postMessage({
+            type: 'tunebook.pageHtmlError',
+            requestId: requestId,
+            code: 'fetch_failed',
+            message: err && err.message ? String(err.message) : 'Page HTML fetch failed',
+          })
+        })
     })
     return
   }

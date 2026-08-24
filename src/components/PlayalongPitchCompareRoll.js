@@ -14,6 +14,7 @@ const PADDING_RIGHT = 12
 const PADDING_Y = 6
 const MIN_BEAT_WIDTH = 42
 const TRACE_GAP_MS = 650
+const TRACE_JUMP_SEMITONES = 4
 /** Room around the line's notes for the in-tune corridor, not extra empty octaves. */
 const PITCH_PAD = 0.85
 /** How far heard pitches may expand the roll beyond the written notes. */
@@ -108,13 +109,30 @@ function pointXY(pt, props, beatWidth, range, rowHeight) {
   }
 }
 
-function isTraceGap(prev, next) {
+function resolveTraceStyle(props) {
+  const style = props && props.traceStyle
+  const gapMs = style && Number.isFinite(style.gapMs) && style.gapMs > 0
+    ? style.gapMs
+    : TRACE_GAP_MS
+  const maxJumpSemitones = style && Number.isFinite(style.maxJumpSemitones) && style.maxJumpSemitones > 0
+    ? style.maxJumpSemitones
+    : TRACE_JUMP_SEMITONES
+  return { gapMs: gapMs, maxJumpSemitones: maxJumpSemitones }
+}
+
+export function isTraceGap(prev, next, style) {
   if (!prev) return true
   if (next.beat < prev.beat - 0.05) return true
-  if (next.timeMs != null && prev.timeMs != null && next.timeMs - prev.timeMs > TRACE_GAP_MS) return true
+  const gapMs = style && Number.isFinite(style.gapMs) && style.gapMs > 0
+    ? style.gapMs
+    : TRACE_GAP_MS
+  const maxJump = style && Number.isFinite(style.maxJumpSemitones) && style.maxJumpSemitones > 0
+    ? style.maxJumpSemitones
+    : TRACE_JUMP_SEMITONES
+  if (next.timeMs != null && prev.timeMs != null && next.timeMs - prev.timeMs > gapMs) return true
   const prevMidi = displayMidi(prev)
   const nextMidi = displayMidi(next)
-  if (prevMidi != null && nextMidi != null && Math.abs(nextMidi - prevMidi) > 4) return true
+  if (prevMidi != null && nextMidi != null && Math.abs(nextMidi - prevMidi) > maxJump) return true
   return false
 }
 
@@ -123,6 +141,7 @@ function drawLiveTrace(ctx, points, color, props, beatWidth, range, rowHeight) {
     return displayMidi(pt) != null
   })
   if (!usable.length) return
+  const style = resolveTraceStyle(props)
   if (usable.length > 1) {
     ctx.strokeStyle = color
     ctx.lineWidth = 1.5
@@ -132,7 +151,7 @@ function drawLiveTrace(ctx, points, color, props, beatWidth, range, rowHeight) {
     let prev = null
     usable.forEach(function(pt, index) {
       const xy = pointXY(pt, props, beatWidth, range, rowHeight)
-      if (index === 0 || isTraceGap(prev, pt)) ctx.moveTo(xy.x, xy.y)
+      if (index === 0 || isTraceGap(prev, pt, style)) ctx.moveTo(xy.x, xy.y)
       else ctx.lineTo(xy.x, xy.y)
       prev = pt
     })
@@ -382,6 +401,7 @@ export default function PlayalongPitchCompareRoll(props) {
     props.line,
     props.playbackSpeed,
     props.soundingMap,
+    props.traceStyle,
   ])
 
   return (

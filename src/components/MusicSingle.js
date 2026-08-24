@@ -96,6 +96,7 @@ import PlayalongCompareOverlay from './PlayalongCompareOverlay'
 import PlayalongStaffPitchStrips from './PlayalongStaffPitchStrips'
 import PlayalongInlineRecordBar from './PlayalongInlineRecordBar'
 import PlayalongRecordConfigModal from './PlayalongRecordConfigModal'
+import PlayalongIncompleteTakeModal from './PlayalongIncompleteTakeModal'
 import { shouldShowPlayalongRecordButton } from '../playalongTakes'
 import { loadPlayalongSettings, savePlayalongSettings } from '../playalongSettings'
 
@@ -1617,6 +1618,17 @@ export default function MusicSingle(props) {
                           setPlayalongTempoDialogOpen(false)
                           setShowPlayalongPianoRoll(true)
                           if (playalong.start) playalong.start(playalongTempoBpm, nextSettings || playalongSettings)
+                        }}
+                      />
+                      ) : null}
+                      {playalongCanRecord ? (
+                      <PlayalongIncompleteTakeModal
+                        show={!!playalong.incompleteTakePrompt}
+                        onDiscard={function() {
+                          if (playalong.discardIncompleteTake) playalong.discardIncompleteTake()
+                        }}
+                        onKeep={function() {
+                          if (playalong.acceptIncompleteTake) playalong.acceptIncompleteTake()
                         }}
                       />
                       ) : null}

@@ -1,6 +1,6 @@
 # TuneBook Helper (browser extension)
 
-Loads audio **in your browser** (your ISP IP + session) so Tunebook can pitch-shift, filter, and cache linked media without a resolver.
+Loads audio and soft-blocked chord pages **in your browser** (your ISP IP + session) so Tunebook can pitch-shift, filter, cache linked media, and scrape Ultimate Guitar without a residential resolver.
 
 ## Install (preferred)
 
@@ -37,8 +37,9 @@ If status stays “not connected”:
 - Content script bridges the Tunebook page ↔ extension service worker
 - Service worker calls YouTube Innertube (Android VR / iOS / Android clients) for a progressive audio URL
 - Audio bytes are streamed back to the page in chunks and decoded with Tunebook’s existing pipeline
+- For Ultimate Guitar chord pages, the service worker can fetch page HTML with your cookies/IP so the resolver can parse the embedded sheet without hitting Cloudflare from a datacenter
 
-Audio and cookies stay in your browser; they are not uploaded to Tunebook servers.
+Audio, cookies, and page HTML stay in your browser path; Tunebook only receives the HTML needed to parse chords when you search/import a UG URL.
 
 ## Limitations
 
@@ -50,4 +51,5 @@ Audio and cookies stay in your browser; they are not uploaded to Tunebook server
 ## Permissions
 
 - `youtube.com` / `googlevideo.com` — resolve and download audio streams
+- `tabs.ultimate-guitar.com` / `ultimate-guitar.com` — fetch chord-page HTML when Tunebook imports or searches a UG URL
 - Content scripts on tunebook.net and local dev origins only

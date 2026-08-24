@@ -1715,38 +1715,51 @@ a.header-now-playing-label:focus {
   color: #6c757d;
 }
 
-.account-modal-playalong-score-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  font-size: 0.85rem;
+.account-playalong-details-dialog {
+  max-width: min(1100px, 96vw);
+  width: 96vw;
 }
 
-.account-modal-playalong-score-list li {
+.account-playalong-details-toolbar {
   display: flex;
-  align-items: baseline;
-  gap: 0.55rem;
-  padding: 0.2rem 0;
-  border-top: 1px solid #f1f3f5;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
 }
 
-.account-modal-playalong-score-list li:first-child {
+.account-playalong-tune-table {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 0;
+}
+
+.account-playalong-tune-table thead th {
+  font-weight: 700;
+  white-space: nowrap;
   border-top: none;
 }
 
-.account-modal-playalong-score-pct {
-  flex: 0 0 2.75rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
+.account-playalong-tune-table td,
+.account-playalong-tune-table th {
+  vertical-align: middle;
 }
 
-.account-modal-playalong-score-title {
-  flex: 1 1 auto;
-  min-width: 0;
-  color: #6c757d;
+.account-playalong-tune-col-title {
+  width: auto;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-playalong-tune-col-num {
+  width: 5.5rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.account-playalong-tune-col-action {
+  width: 5.5rem;
+  text-align: right;
   white-space: nowrap;
 }
 

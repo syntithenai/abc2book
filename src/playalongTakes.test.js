@@ -14,8 +14,11 @@ import {
   clearPlayalongTakesPatch,
   renderPlayalongTakesAbc,
   applyPlayalongTakePitchPct,
+  clearPlayalongTakePitchPcts,
   shouldContinuePlayalongLoop,
   shouldShowPlayalongRecordButton,
+  estimatePlayalongMusicDurationSeconds,
+  isPlayalongTakeIncomplete,
   effectivePlayalongMusicOffsetSeconds,
   livePlayalongMusicOffsetSeconds,
   savedPlayalongMusicOffsetSeconds,
@@ -153,6 +156,42 @@ describe('playalongTakes', function() {
   test('shouldContinuePlayalongLoop stops after a single take when maxTakes is 1', function() {
     expect(shouldContinuePlayalongLoop('ended', 1, 1)).toBe(false)
     expect(shouldContinuePlayalongLoop('ended', 0, 1)).toBe(true)
+  })
+
+  test('estimatePlayalongMusicDurationSeconds uses the last note end beat', function() {
+    const seconds = estimatePlayalongMusicDurationSeconds([
+      { midi: 60, startBeat: 0, endBeat: 1 },
+      { midi: 62, startBeat: 1, endBeat: 4 },
+    ], 120, 1)
+    // 4 beats at 120bpm = 2 seconds
+    expect(seconds).toBeCloseTo(2, 5)
+  })
+
+  test('isPlayalongTakeIncomplete is false on natural MIDI end', function() {
+    expect(isPlayalongTakeIncomplete({
+      reason: 'ended',
+      recordedDurationSeconds: 1,
+      musicStartOffsetSeconds: 0,
+      expectedMusicDurationSeconds: 8,
+    })).toBe(false)
+  })
+
+  test('isPlayalongTakeIncomplete is true when stopped early', function() {
+    expect(isPlayalongTakeIncomplete({
+      reason: 'click',
+      recordedDurationSeconds: 3,
+      musicStartOffsetSeconds: 1,
+      expectedMusicDurationSeconds: 8,
+    })).toBe(true)
+  })
+
+  test('isPlayalongTakeIncomplete is false when nearly finished', function() {
+    expect(isPlayalongTakeIncomplete({
+      reason: 'click',
+      recordedDurationSeconds: 9.5,
+      musicStartOffsetSeconds: 1,
+      expectedMusicDurationSeconds: 8,
+    })).toBe(false)
   })
 
   test('enableNotationInViewMode turns notation on without dropping lyrics', function() {
@@ -357,5 +396,14 @@ describe('playalongTakes', function() {
     expect(higher.takes[0].pitchPct).toBe(85)
   })
 
-
+  test('clearPlayalongTakePitchPcts strips scores from takes', function() {
+    const cleared = clearPlayalongTakePitchPcts([
+      { recordingId: 'a', pitchPct: 80 },
+      { recordingId: 'b' },
+    ])
+    expect(cleared.changed).toBe(true)
+    expect(cleared.takes[0].pitchPct).toBeNull()
+    expect(cleared.takes[1].pitchPct).toBeNull()
+    expect(clearPlayalongTakePitchPcts([{ recordingId: 'c' }]).changed).toBe(false)
+  })
 })

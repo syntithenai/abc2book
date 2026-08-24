@@ -18,7 +18,7 @@ import { normalizePlayalongTakes } from '../playalongTakes'
 import {
   resolvePlayalongTakePitchPoints,
 } from '../playalongWaveform'
-import { loadPlayalongSettings, playalongTrackingCacheKey, playalongTrackingOptions } from '../playalongSettings'
+import { loadPlayalongSettings, playalongTrackingCacheKey, playalongTrackingOptions, playalongTraceStyle } from '../playalongSettings'
 import './PlayalongCompareOverlay.css'
 
 const SLICED_CLASS = 'playalong-notation-stack--sliced'
@@ -153,6 +153,9 @@ export default function PlayalongStaffPitchStrips(props) {
   const pitchKey = Object.keys(pitchPointsById).sort().join(',')
   const blobKey = Object.keys(blobById).sort().join(',')
   const trackingKey = playalongTrackingCacheKey(props.trackingSettings || loadPlayalongSettings())
+  const traceStyle = useMemo(function() {
+    return playalongTraceStyle(props.trackingSettings || loadPlayalongSettings())
+  }, [trackingKey])
   const compareKey = compareLines.map(function(line) {
     return [
       line.patternDurationBeats,
@@ -411,6 +414,7 @@ export default function PlayalongStaffPitchStrips(props) {
               soundingMap={soundingMap}
               liveTempoBpm={liveTempoBpm}
               liveMusicStartOffsetSeconds={liveMusicStartOffsetSeconds}
+              traceStyle={traceStyle}
             />
           </div>
         )

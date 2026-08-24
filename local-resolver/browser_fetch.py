@@ -8,6 +8,7 @@ from typing import Optional
 from urllib.parse import urlparse
 
 from polite_fetch import BROWSER_USER_AGENT, FetchResult, detect_challenge_html
+from scrape_proxy import get_scrape_proxy
 
 PLAYWRIGHT_ENABLED = os.getenv("PLAYWRIGHT_ENABLED", "true").strip().lower() not in {
     "0",
@@ -149,10 +150,23 @@ async def browser_get_html(url: str, *, referer: Optional[str] = None) -> FetchR
         return FetchResult(status=0, text="", final_url=url, blocked_reason="empty")
 
     assert _page_sem is not None
-    assert _context is not None
+    assert _browser is not None
+    proxy = get_scrape_proxy()
     async with _page_sem:
-        page = await _context.new_page()
+        context = None
+        page = None
         try:
+            if proxy:
+                context = await _browser.new_context(
+                    user_agent=BROWSER_USER_AGENT,
+                    viewport={"width": 1280, "height": 720},
+                    locale="en-US",
+                    proxy={"server": proxy},
+                )
+                page = await context.new_page()
+            else:
+                assert _context is not None
+                page = await _context.new_page()
             if referer:
                 await page.set_extra_http_headers({"Referer": referer})
             response = await page.goto(
@@ -183,7 +197,16 @@ async def browser_get_html(url: str, *, referer: Optional[str] = None) -> FetchR
         except Exception:
             return FetchResult(status=0, text="", final_url=url, blocked_reason="empty")
         finally:
-            await page.close()
+            if page is not None:
+                try:
+                    await page.close()
+                except Exception:
+                    pass
+            if context is not None:
+                try:
+                    await context.close()
+                except Exception:
+                    pass
 
 
 async def fetch_html_with_fallback(
@@ -193,7 +216,11 @@ async def fetch_html_with_fallback(
     referer: Optional[str] = None,
     allow_playwright: bool = True,
 ) -> FetchResult:
-    """Stage 3 httpx then optional stage 4 Playwright for eligible hosts."""
+    """Stage 3 httpx then optional stage 4 Playwright for eligible hosts.
+
+    Prefer residential scrape proxy (request ContextVar / httpx client) before
+    bare Playwright when hosts like Ultimate Guitar soft-block datacenter IPs.
+    """
     from polite_fetch import polite_get
 
     result = await polite_get(client, url, referer=referer)

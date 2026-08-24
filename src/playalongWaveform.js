@@ -113,17 +113,28 @@ export function resolvePitchTrackerOptions(options) {
   const opts = options && typeof options === 'object' ? options : {}
   const rmsFloor = Number.isFinite(opts.rmsFloor) && opts.rmsFloor > 0 ? opts.rmsFloor : PITCH_RMS_FLOOR
   const holdRms = Number.isFinite(opts.holdRms) && opts.holdRms > 0 ? opts.holdRms : rmsFloor * 0.6
+  const holdMs = Number.isFinite(opts.holdMs) && opts.holdMs > 0 ? opts.holdMs : PITCH_HOLD_MS
   const minHz = Number.isFinite(opts.minHz) && opts.minHz > 0 ? opts.minHz : PITCH_MIN_HZ
   const maxHz = Number.isFinite(opts.maxHz) && opts.maxHz > minHz ? opts.maxHz : PITCH_MAX_HZ
   const minMidi = Number.isFinite(opts.minMidi) ? opts.minMidi : PITCH_MIN_MIDI
   const maxMidi = Number.isFinite(opts.maxMidi) ? opts.maxMidi : PITCH_MAX_MIDI
+  const yinThreshold = Number.isFinite(opts.yinThreshold) && opts.yinThreshold > 0
+    ? opts.yinThreshold
+    : PLAYALONG_YIN_OPTIONS.threshold
+  const yinProbabilityThreshold = Number.isFinite(opts.yinProbabilityThreshold) && opts.yinProbabilityThreshold > 0
+    ? opts.yinProbabilityThreshold
+    : PLAYALONG_YIN_OPTIONS.probabilityThreshold
   return {
     rmsFloor: rmsFloor,
     holdRms: holdRms,
+    holdMs: holdMs,
     minHz: minHz,
     maxHz: maxHz,
     minMidi: minMidi,
     maxMidi: maxMidi,
+    preferFundamental: opts.preferFundamental !== false,
+    yinThreshold: yinThreshold,
+    yinProbabilityThreshold: yinProbabilityThreshold,
   }
 }
 
@@ -332,8 +343,12 @@ export function createPlayalongPitchSmoother(options) {
   }
 }
 
-function createPlayalongYinDetector(sampleRate) {
-  return createPitchfinderDetector(sampleRate, PLAYALONG_YIN_OPTIONS)
+function createPlayalongYinDetector(sampleRate, options) {
+  const pitch = resolvePitchTrackerOptions(options)
+  return createPitchfinderDetector(sampleRate, {
+    threshold: pitch.yinThreshold,
+    probabilityThreshold: pitch.yinProbabilityThreshold,
+  })
 }
 
 export function createLivePeakSampler(stream, options) {
@@ -408,7 +423,7 @@ export function createLivePeakSampler(stream, options) {
     liveMode: liveMode,
     detector: 'yin',
   }
-  createPlayalongYinDetector(ctx.sampleRate).then(function(detect) {
+  createPlayalongYinDetector(ctx.sampleRate, pitch).then(function(detect) {
     yinDetect = detect
   }).catch(function() {})
 
@@ -488,9 +503,9 @@ export function createLivePeakSampler(stream, options) {
       yinHz = null
     }
     if (yinHz > 0) {
-      freq = pitch.preferFundamental === false
-        ? yinHz
-        : preferMonophonicFundamental(yinHz, floatData, ctx.sampleRate, pitch)
+      freq = pitch.preferFundamental
+        ? preferMonophonicFundamental(yinHz, floatData, ctx.sampleRate, pitch)
+        : yinHz
     }
     if (!(freq > 0)) freq = detectPitchHz(floatData, ctx.sampleRate, pitch)
     const elapsedMs = (typeof performance !== 'undefined' ? performance.now() : Date.now()) - startedAt
@@ -509,7 +524,7 @@ export function createLivePeakSampler(stream, options) {
     } else if (
       lastMidi != null
       && rms >= pitch.holdRms
-      && elapsedMs - lastMidiAt <= PITCH_HOLD_MS
+      && elapsedMs - lastMidiAt <= pitch.holdMs
     ) {
       rawMidi = lastMidi
       held = true
@@ -580,7 +595,7 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
     if (detect) {
       try { freq = detect(slice) || null } catch (e) { freq = null }
       if (freq > 0 && (freq < pitch.minHz || freq > pitch.maxHz)) freq = null
-      if (freq > 0 && pitch.preferFundamental !== false) {
+      if (freq > 0 && pitch.preferFundamental) {
         freq = preferMonophonicFundamental(freq, slice, rate, pitch)
       }
     }
@@ -597,7 +612,7 @@ export function extractPitchPointsFromChannel(channel, sampleRate, options) {
     } else if (
       lastMidi != null
       && rms >= pitch.holdRms
-      && timeMs - lastMidiAt <= PITCH_HOLD_MS
+      && timeMs - lastMidiAt <= pitch.holdMs
     ) {
       rawMidi = lastMidi
       held = true
@@ -626,7 +641,7 @@ export function extractPitchPointsFromBlob(blob, options) {
     if (!audioBuffer || typeof audioBuffer.getChannelData !== 'function') return []
     const channel = audioBuffer.getChannelData(0)
     const sampleRate = audioBuffer.sampleRate || 44100
-    return createPlayalongYinDetector(sampleRate).then(function(detect) {
+    return createPlayalongYinDetector(sampleRate, extractOptions).then(function(detect) {
       return extractPitchPointsFromChannel(channel, sampleRate, Object.assign({}, extractOptions, { detect: detect }))
     }).catch(function() {
       return extractPitchPointsFromChannel(channel, sampleRate, extractOptions)
@@ -645,10 +660,14 @@ function pitchExtractCacheKey(recordingId, tracking, extractOptions) {
     recordingId || '',
     t.rmsFloor,
     t.holdRms,
+    t.holdMs,
     t.minHz,
     t.maxHz,
     t.minMidi,
     t.maxMidi,
+    t.preferFundamental ? 1 : 0,
+    t.yinThreshold,
+    t.yinProbabilityThreshold,
     e.intervalMs,
     e.maxPoints,
   ].join(':')

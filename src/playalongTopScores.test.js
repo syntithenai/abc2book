@@ -10,6 +10,9 @@ import {
   recordPlayalongTopScore,
   collectPlayalongTopScoresFromTunes,
   resolvePlayalongTopScores,
+  summarizePlayalongScoresByTune,
+  removePlayalongTopScoresForTune,
+  clearPlayalongScorePitchPctFromTunes,
 } from './playalongTopScores'
 
 describe('playalongTopScores', function() {
@@ -30,17 +33,20 @@ describe('playalongTopScores', function() {
     expect(normalizePlayalongTopScore({ recordingId: 'a', pitchPct: 'nope' })).toBeNull()
   })
 
-  test('keeps highest score per recording and trims to top ten', function() {
+  test('keeps highest score per recording and trims to max pool', function() {
     const rows = []
-    for (let i = 0; i < 12; i += 1) {
-      rows.push({ recordingId: 'r' + i, pitchPct: i * 5, createdAt: '2026-01-0' + ((i % 9) + 1) })
+    for (let i = 0; i < PLAYALONG_TOP_SCORES_MAX + 2; i += 1) {
+      rows.push({
+        recordingId: 'r' + i,
+        pitchPct: 100 - i,
+        createdAt: '2026-01-01T00:00:00.000Z',
+      })
     }
-    rows.push({ recordingId: 'r11', pitchPct: 40 })
     const top = normalizePlayalongTopScores(rows)
     expect(top).toHaveLength(PLAYALONG_TOP_SCORES_MAX)
-    expect(top[0].recordingId).toBe('r11')
-    expect(top[0].pitchPct).toBe(55)
-    expect(top[top.length - 1].pitchPct).toBe(10)
+    expect(top[0]).toEqual(expect.objectContaining({ recordingId: 'r0', pitchPct: 100 }))
+    expect(top[top.length - 1].pitchPct).toBe(1)
+    expect(top.some(function(row) { return row.recordingId === 'r' + PLAYALONG_TOP_SCORES_MAX })).toBe(false)
   })
 
   test('averages the stored top scores', function() {
@@ -51,21 +57,25 @@ describe('playalongTopScores', function() {
     ])).toBe(85)
   })
 
-  test('recordPlayalongTopScore persists top ten and average', function() {
-    for (let i = 0; i < 12; i += 1) {
+  test('recordPlayalongTopScore persists up to max pool and average', function() {
+    for (let i = 0; i < PLAYALONG_TOP_SCORES_MAX + 2; i += 1) {
       recordPlayalongTopScore({
         recordingId: 'take-' + i,
-        pitchPct: 50 + i,
+        pitchPct: 100 - i,
         title: 'Tune ' + i,
       })
     }
     const scores = loadPlayalongTopScores()
-    expect(scores).toHaveLength(10)
-    expect(scores[0].pitchPct).toBe(61)
-    expect(scores[9].pitchPct).toBe(52)
-    // 52..61 average = 56.5 → 57
-    expect(getPlayalongTopScoresAverage()).toBe(57)
-    expect(localStorage.getItem(PLAYALONG_TOP_SCORES_STORAGE_KEY)).toContain('take-11')
+    expect(scores).toHaveLength(PLAYALONG_TOP_SCORES_MAX)
+    expect(scores[0].pitchPct).toBe(100)
+    expect(scores[scores.length - 1].pitchPct).toBe(1)
+    expect(getPlayalongTopScoresAverage()).toBe(
+      Math.round((scores.reduce(function(sum, row) { return sum + row.pitchPct }, 0)) / scores.length)
+    )
+    expect(localStorage.getItem(PLAYALONG_TOP_SCORES_STORAGE_KEY)).toContain('take-0')
+    expect(localStorage.getItem(PLAYALONG_TOP_SCORES_STORAGE_KEY)).not.toContain(
+      'take-' + PLAYALONG_TOP_SCORES_MAX
+    )
   })
 
   test('same recording keeps the higher score', function() {
@@ -84,7 +94,6 @@ describe('playalongTopScores', function() {
     expect(loadPlayalongTopScores()).toEqual([])
     expect(getPlayalongTopScoresAverage()).toBeNull()
   })
-})
 
   test('collectPlayalongTopScoresFromTunes reads pitchPct from take comments', function() {
     const scores = collectPlayalongTopScoresFromTunes({
@@ -113,3 +122,64 @@ describe('playalongTopScores', function() {
       t1: { name: 'X', playalongTakes: [{ recordingId: 'z', pitchPct: 88 }] },
     })[0].pitchPct).toBe(88)
   })
+
+  test('summarizePlayalongScoresByTune reports min max average per tune', function() {
+    const summary = summarizePlayalongScoresByTune([
+      { recordingId: 'a', pitchPct: 80, title: "Cooley's", tuneId: 't1' },
+      { recordingId: 'b', pitchPct: 90, title: "Cooley's", tuneId: 't1' },
+      { recordingId: 'c', pitchPct: 70, title: 'Kesh', tuneId: 't2' },
+      { recordingId: 'd', pitchPct: 100, title: 'Kesh', tuneId: 't2' },
+    ])
+    expect(summary).toEqual([
+      expect.objectContaining({
+        tuneId: 't1',
+        title: "Cooley's",
+        min: 80,
+        max: 90,
+        average: 85,
+        count: 2,
+      }),
+      expect.objectContaining({
+        tuneId: 't2',
+        title: 'Kesh',
+        min: 70,
+        max: 100,
+        average: 85,
+        count: 2,
+      }),
+    ])
+  })
+
+  test('removePlayalongTopScoresForTune drops only matching tune scores', function() {
+    recordPlayalongTopScore({ recordingId: 'a', pitchPct: 80, title: 'A', tuneId: 't1' })
+    recordPlayalongTopScore({ recordingId: 'b', pitchPct: 90, title: 'B', tuneId: 't2' })
+    const next = removePlayalongTopScoresForTune('t1', 'A')
+    expect(next).toEqual([
+      expect.objectContaining({ recordingId: 'b', tuneId: 't2' }),
+    ])
+  })
+
+  test('clearPlayalongScorePitchPctFromTunes strips pitchPct and saves', function() {
+    const saved = []
+    const tunes = {
+      t1: {
+        name: 'A',
+        playalongTakes: [
+          { recordingId: 'a', pitchPct: 80 },
+          { recordingId: 'b', pitchPct: 70 },
+        ],
+      },
+      t2: {
+        name: 'B',
+        playalongTakes: [{ recordingId: 'c', pitchPct: 90 }],
+      },
+    }
+    const count = clearPlayalongScorePitchPctFromTunes(tunes, {
+      saveTune: function(tune) { saved.push(tune) },
+    }, { tuneId: 't1' })
+    expect(count).toBe(1)
+    expect(tunes.t1.playalongTakes.every(function(t) { return t.pitchPct == null })).toBe(true)
+    expect(tunes.t2.playalongTakes[0].pitchPct).toBe(90)
+    expect(saved).toHaveLength(1)
+  })
+})

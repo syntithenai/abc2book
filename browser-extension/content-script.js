@@ -7,10 +7,11 @@
 
   const PAGE_SOURCE = 'tunebook-page'
   const EXT_SOURCE = 'tunebook-extension'
-  const EXT_VERSION = '0.1.8'
+  const EXT_VERSION = '0.1.9'
   const ATTR = 'data-tunebook-yt-helper'
   const PING_PORT = 'tunebook-ping'
   const AUDIO_PORT = 'tunebook-yt'
+  const PAGE_HTML_PORT = 'tunebook-page-html'
   const PING_TIMEOUT_MS = 4000
 
   let extApi = null
@@ -295,6 +296,58 @@
       } catch (err) {
         postToPage({
           type: 'tunebook.audioError',
+          requestId: requestId,
+          code: 'connect_failed',
+          message: err && err.message ? String(err.message) : 'Could not connect to extension',
+        })
+      }
+      return
+    }
+
+    if (data.type === 'tunebook.fetchPageHtml') {
+      const requestId = data.requestId
+      const pageUrl = data.url
+      const port = openRuntimePort(PAGE_HTML_PORT)
+      if (!port) {
+        clearPresenceMarker()
+        postToPage({
+          type: 'tunebook.pageHtmlError',
+          requestId: requestId,
+          code: 'connect_failed',
+          message: runtimeUnavailableMessage(),
+        })
+        return
+      }
+
+      port.onMessage.addListener(function (msg) {
+        if (!msg || typeof msg !== 'object') return
+        postToPage(Object.assign({}, msg, { requestId: msg.requestId || requestId }))
+      })
+      port.onDisconnect.addListener(function () {
+        try {
+          const runtime = getExtensionRuntime()
+          const err = runtime && getRuntimeLastError(runtime)
+          if (err) {
+            postToPage({
+              type: 'tunebook.pageHtmlError',
+              requestId: requestId,
+              code: 'disconnect',
+              message: err.message || 'Extension disconnected',
+            })
+          }
+        } catch (e) {
+          clearPresenceMarker()
+        }
+      })
+      try {
+        port.postMessage({
+          type: 'tunebook.fetchPageHtml',
+          url: pageUrl,
+          requestId: requestId,
+        })
+      } catch (err) {
+        postToPage({
+          type: 'tunebook.pageHtmlError',
           requestId: requestId,
           code: 'connect_failed',
           message: err && err.message ? String(err.message) : 'Could not connect to extension',

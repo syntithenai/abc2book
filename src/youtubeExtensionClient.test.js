@@ -2,7 +2,9 @@ import {
   __base64ToArrayBufferForTests,
   __readDomMarkerForTests,
   __resetYoutubeExtensionPingCache,
+  fetchPageHtmlViaExtension,
   fetchYoutubeAudioViaExtension,
+  isUltimateGuitarPageUrl,
   isYoutubeExtensionConnected,
   isYoutubeExtensionConnectedSync,
   pingYoutubeExtension,
@@ -259,5 +261,56 @@ describe('youtubeExtensionClient', function () {
   test('base64 helper round-trips', function () {
     const buf = __base64ToArrayBufferForTests(encodeBase64('xyz'))
     expect(Buffer.from(buf).toString('binary')).toBe('xyz')
+  })
+
+  test('isUltimateGuitarPageUrl allowlists UG hosts only', function () {
+    expect(
+      isUltimateGuitarPageUrl(
+        'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596'
+      )
+    ).toBe(true)
+    expect(isUltimateGuitarPageUrl('https://www.ultimate-guitar.com/search.php?q=x')).toBe(true)
+    expect(isUltimateGuitarPageUrl('https://e-chords.com/chords/oasis/wonderwall')).toBe(false)
+  })
+
+  test('fetchPageHtmlViaExtension returns HTML from helper', async function () {
+    const pending = fetchPageHtmlViaExtension(
+      'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596'
+    )
+
+    await Promise.resolve()
+    const pingCall = postMessageSpy.mock.calls.find(function (c) {
+      return c[0].type === 'tunebook.ping'
+    })
+    expect(pingCall).toBeTruthy()
+    emitFromExtension({
+      type: 'tunebook.pong',
+      requestId: pingCall[0].requestId,
+      version: '0.1.9',
+      ok: true,
+    })
+
+    let fetchCall
+    for (let i = 0; i < 20 && !fetchCall; i++) {
+      await Promise.resolve()
+      fetchCall = postMessageSpy.mock.calls.find(function (c) {
+        return c[0].type === 'tunebook.fetchPageHtml'
+      })
+    }
+    expect(fetchCall).toBeTruthy()
+    expect(fetchCall[0].url).toContain('ultimate-guitar.com')
+    const requestId = fetchCall[0].requestId
+
+    emitFromExtension({
+      type: 'tunebook.pageHtml',
+      requestId: requestId,
+      html: '<div class="js-store" data-content="{}"></div>',
+      finalUrl: 'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596',
+      status: 200,
+    })
+
+    const result = await pending
+    expect(result.via).toBe('extension')
+    expect(result.html).toContain('js-store')
   })
 })

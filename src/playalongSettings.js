@@ -85,12 +85,18 @@ export function playalongTrackingOptions(settings) {
   const next = normalizePlayalongSettings(settings)
   const range = playalongInstrumentHzRange(next.instrumentId)
   const isVoice = next.instrumentId === 'voice'
-  // Voice is quieter and less pure than whistle; ease the gate so soft singing
-  // still draws a continuous pitch line.
-  const rmsScale = isVoice ? 0.62 : 1
+  // Voice is quieter and less periodic than whistle; ease the gate, hold through
+  // short consonants, and loosen YIN so soft singing still draws a continuous line.
+  const rmsScale = isVoice ? 0.42 : 1
+  const floor = cutoffPercentToRmsFloor(next.cutoffPercent) * rmsScale
+  const holdRms = isVoice
+    ? floor * 0.4
+    : cutoffPercentToHoldRms(next.cutoffPercent) * rmsScale
   return {
-    rmsFloor: cutoffPercentToRmsFloor(next.cutoffPercent) * rmsScale,
-    holdRms: cutoffPercentToHoldRms(next.cutoffPercent) * rmsScale,
+    rmsFloor: floor,
+    holdRms: holdRms,
+    // Bridge brief YIN dropouts (consonants / breath) without inventing long rests.
+    holdMs: isVoice ? 720 : 280,
     minHz: range.minHz,
     maxHz: range.maxHz,
     minMidi: range.lowestMidi - 2,
@@ -102,6 +108,18 @@ export function playalongTrackingOptions(settings) {
       || next.instrumentId === 'whistle-high-d'
       || next.instrumentId === 'flute'
     ),
+    yinThreshold: isVoice ? 0.08 : 0.12,
+    yinProbabilityThreshold: isVoice ? 0.05 : 0.1,
+  }
+}
+
+/** How the compare-roll stroke connects heard pitch samples. */
+export function playalongTraceStyle(settings) {
+  const next = normalizePlayalongSettings(settings)
+  const isVoice = next.instrumentId === 'voice'
+  return {
+    gapMs: isVoice ? 1100 : 650,
+    maxJumpSemitones: isVoice ? 8 : 4,
   }
 }
 
@@ -110,10 +128,14 @@ export function playalongTrackingCacheKey(settings) {
   return [
     tracking.rmsFloor,
     tracking.holdRms,
+    tracking.holdMs,
     tracking.minHz,
     tracking.maxHz,
     tracking.minMidi,
     tracking.maxMidi,
+    tracking.preferFundamental ? 1 : 0,
+    tracking.yinThreshold,
+    tracking.yinProbabilityThreshold,
   ].join(':')
 }
 

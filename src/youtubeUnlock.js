@@ -57,3 +57,17 @@ export function getYoutubeEgressHeaders() {
   if (!url) return {}
   return { 'X-Tunebook-Ytdlp-Proxy': url }
 }
+
+/**
+ * Headers for chord/lyrics HTML scrapes. Reuses the saved Webshare URL under a
+ * scrape-specific header so the resolver can route UG fetches without tying
+ * them only to yt-dlp code paths.
+ */
+export function getScrapeProxyHeaders() {
+  const url = getSavedWebshareProxyUrl()
+  if (!url) return {}
+  return {
+    'X-Tunebook-Scrape-Proxy': url,
+    'X-Tunebook-Ytdlp-Proxy': url,
+  }
+}

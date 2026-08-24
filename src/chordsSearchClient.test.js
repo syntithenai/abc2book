@@ -1,13 +1,7 @@
-import {
-  normalizeChordsSearch,
-  handleChordsSearchStreamEvent,
-  searchChords,
-  searchChordsViaResolver,
-  sortChordsCandidatesPreferInline,
-} from './chordsSearchClient'
 import { searchChordsLight, CHORDS_LIGHT_ERROR } from './chordsSearchLight'
 import * as mediaProxyClient from './mediaProxyClient'
 import * as mediaResolverHealthStore from './mediaResolverHealthStore'
+import * as youtubeExtensionClient from './youtubeExtensionClient'
 import { sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
 
 jest.mock('./chordsSearchLight', function() {
@@ -34,6 +28,28 @@ jest.mock('./mediaResolverHealthStore', function() {
     }),
   }
 })
+
+jest.mock('./youtubeExtensionClient', function() {
+  return {
+    isUltimateGuitarPageUrl: jest.fn(function(url) {
+      return String(url || '').indexOf('ultimate-guitar.com') >= 0
+    }),
+    isYoutubeExtensionConnected: jest.fn(function() {
+      return Promise.resolve(false)
+    }),
+    fetchPageHtmlViaExtension: jest.fn(function() {
+      return Promise.reject(new Error('not connected'))
+    }),
+  }
+})
+
+import {
+  normalizeChordsSearch,
+  handleChordsSearchStreamEvent,
+  searchChords,
+  searchChordsViaResolver,
+  sortChordsCandidatesPreferInline,
+} from './chordsSearchClient'
 
 describe('chordSheetImportUtils', function() {
   test('sheetLinesToWizardChords preserves section breaks and strips lyrics', function() {
@@ -234,6 +250,13 @@ describe('chordsSearchClient', function() {
         checked: true,
         available: true,
       })
+      youtubeExtensionClient.isYoutubeExtensionConnected.mockReset()
+      youtubeExtensionClient.isYoutubeExtensionConnected.mockResolvedValue(false)
+      youtubeExtensionClient.fetchPageHtmlViaExtension.mockReset()
+      youtubeExtensionClient.fetchPageHtmlViaExtension.mockRejectedValue(new Error('not connected'))
+      youtubeExtensionClient.isUltimateGuitarPageUrl.mockImplementation(function(url) {
+        return String(url || '').indexOf('ultimate-guitar.com') >= 0
+      })
     })
 
     test('light path throws clear message when resolver unavailable', async function() {
@@ -267,6 +290,35 @@ describe('chordsSearchClient', function() {
 
       expect(searchChordsLight).not.toHaveBeenCalled()
       expect(result.chordText).toBe('G C G |')
+    })
+
+    test('prefers extension HTML for Ultimate Guitar URLs', async function() {
+      youtubeExtensionClient.isYoutubeExtensionConnected.mockResolvedValue(true)
+      youtubeExtensionClient.fetchPageHtmlViaExtension.mockResolvedValue({
+        html: '<html>ug</html>',
+        finalUrl: 'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596',
+        status: 200,
+        via: 'extension',
+      })
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        headers: { get: function() { return 'application/json' } },
+        json: async function() {
+          return {
+            sheetLines: ['Em G', 'Today is gonna be the day'],
+            source: 'tabs.ultimate-guitar.com',
+            sourceUrl: 'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596',
+          }
+        },
+      })
+
+      await searchChordsViaResolver({
+        url: 'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596',
+      })
+
+      expect(youtubeExtensionClient.fetchPageHtmlViaExtension).toHaveBeenCalled()
+      const body = JSON.parse(mediaProxyClient.fetchViaMediaProxy.mock.calls[0][2].body)
+      expect(body.pageHtml).toContain('ug')
     })
   })
 })

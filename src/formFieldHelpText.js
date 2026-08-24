@@ -215,7 +215,7 @@ export const SEARCH_FIELD_HELP = {
 export const PLAYALONG_FIELD_HELP = {
   cutoff: {
     title: 'Cutoff',
-    body: 'How loud a sound must be before it is treated as a played note. Raise cutoff to ignore background noise and MIDI leaking into the microphone. Lower it to keep quieter playing, which can also draw room noise as pitch. Gaps in the pitch line usually mean the sound stayed below this cutoff.',
+    body: 'How loud a sound must be before it is treated as a played note. Raise cutoff to ignore background noise and MIDI leaking into the microphone. Lower it to keep quieter playing, which can also draw room noise as pitch. Gaps in the pitch line usually mean the sound stayed below this cutoff. Voice mode already softens this gate and holds pitch through short consonants.',
   },
   playbackVolume: {
     title: 'Playback volume',
@@ -227,7 +227,7 @@ export const PLAYALONG_FIELD_HELP = {
   },
   instrument: {
     title: 'Instrument',
-    body: 'Play-along pitch tracking follows one melody note at a time. Chords, drones, and harmony parts are not tracked. Choose the instrument you are playing so the tracker looks in that pitch range (for example a low D tin whistle versus a high D whistle or soprano recorder). Voice allows octave shifts (singing an octave above or below the written notes) and a slightly wider pitch window for vibrato.',
+    body: 'Play-along pitch tracking follows one melody note at a time. Chords, drones, and harmony parts are not tracked. Choose the instrument you are playing so the tracker looks in that pitch range (for example a low D tin whistle versus a high D whistle or soprano recorder). Voice allows octave shifts (singing an octave above or below the written notes), a slightly wider pitch window for vibrato, and a longer hold so consonants do not punch holes in the pitch line.',
   },
   repeats: {
     title: 'Repeats',

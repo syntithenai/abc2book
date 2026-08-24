@@ -46,7 +46,25 @@ describe('playalongTakeScore', function() {
     expect(summary.pitchPct).toBe(0)
   })
 
-  test('scorePlayalongTake ignores notes after the last captured sample', function() {
+  test('scorePlayalongTake is 0 when the take is silent', function() {
+    const notes = [
+      { midi: 60, startBeat: 0, endBeat: 1 },
+      { midi: 62, startBeat: 1, endBeat: 2 },
+      { midi: 64, startBeat: 2, endBeat: 3 },
+    ]
+    const summary = scorePlayalongTake(notes, [], {
+      musicStartOffsetSeconds: 0,
+      tempoBpm: 120,
+      playbackSpeed: 1,
+    })
+    expect(summary.pitchPct).toBe(0)
+    expect(summary.hits).toBe(0)
+    expect(summary.totalNotes).toBe(3)
+    expect(summary.missed).toBe(3)
+    expect(summary.skippedSparse).not.toBe(true)
+  })
+
+  test('scorePlayalongTake penalises notes after the player stops', function() {
     const notes = [
       { midi: 60, startBeat: 0, endBeat: 1 },
       { midi: 62, startBeat: 1, endBeat: 2 },
@@ -65,9 +83,10 @@ describe('playalongTakeScore', function() {
       tempoBpm: 120,
       playbackSpeed: 1,
     })
-    expect(summary.pitchPct).toBe(100)
+    expect(summary.pitchPct).toBe(50)
     expect(summary.hits).toBe(2)
-    expect(summary.totalNotes).toBe(2)
+    expect(summary.totalNotes).toBe(4)
+    expect(summary.missed).toBe(2)
   })
 
   test('scorePlayalongTake folds whistle octaves onto the written notes', function() {
