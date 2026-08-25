@@ -1,0 +1,23 @@
+X:209
+T:Neu-Märkter-Schottisch. FCBb (st07445)  ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.344 (st07445) orig. F,C.Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+O:Switzerland
+R:Schottische
+M:2/4
+L:1/16
+K:F major
+[P:A] !>!{/c}"F"c'2af c2A2 | {/B}"Bb"d2d2 d2B2 | {/B}"C7"e2e2 "Bb"d2d2 | {/A}"F"c2c2 c2A2 | !>!{/c}c'2af c2A2 | {/B}"Bb"d2d2 d2B2 | {/B}"C7"e2e2 .d2(dE) | 
+"F"F2A2 F2"_>Fine"z2 |] [P:B] [K:C] "C".e.d.e.f .g.e.c.G | "G7".B.d.f.b "Dm/F".a2.a2 | "G7".g.^f.g.a .b.a.=f.d | "C".c.e.g.c' e'2e'2 | .e.d.e.f .g.e.c.G | 
+"G7".B.d.f.b "Dm/F".a2.a2 | "G7".g.^f.g.a .b.a.=f.d | "C"c2e2 c2"_>Teil A"z2 |] [P:C] [K:Bb] [L:1/8] "Bb"Tf3(=e/f/) | ("F7"g/f/).A .A.A | "Cm"Tg3("F7"^f/g/) | 
+("Bb"a/g/).B .B.B | b3(a/b/) | ("Cm"c'/b/).c cc | "F7"a/g/.A AA | ("Bb"g/f/).B BB | f3(=e/f/) | ("F7"g/f/).A AA | "Cm"Tg3("F7"^f/g/) | 
+("Bb"a/g/).B .B.B | Tb3(a/b/) | ("Cm"c'/b/).c cc |  ("F7"a/g/)c (a/g/)A | "Bb"Bd Bz || "F7"{/d}eA a/a/a/a/ | "Bb"{/e}fd d'/d'/d'/d'/ | 
+"Cm"{=b}c'c {^f}gc | "Bb"{/a}bd {/=e}fd | "F7"{/d}eA a/a/a/a/ | "Bb"{/=e}fd d'/d'/d'/d'/ | "Cm"{=b}c'c "F7"{^f}gA | "Bb"Bd B"_>Teil A"z |] 
+W:
+W:Neu-Märkter-Schottisch, nach Faust
+%% st07445 (C) Mülirad-Verlag 2007
+% Sep 8, 2017

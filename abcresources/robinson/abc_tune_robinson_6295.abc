@@ -1,0 +1,24 @@
+X:1
+T:Walzer  BbEb  (wz06677)  ABAC
+T: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.61  (wz06677) orig. Bb,Eb
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:Bb major
+[P:A] ("Bb"d3 | d)(cB) | F3 | D3 | ("Gm"B3 | B)(cB) | "Cm/Eb"A3 | G3 | gzG | G(ed) | ("F7"c3 | c)(cd) | 
+.e(ed) | cBG | ("Bb"F3 | F) (B/A/ B/c/) | (d3 | d)(BG) | F3 | D3 | "Gm"GzG | "Gm/F"G(AB) | "Eb"B3 | "Bb/D"F2B | 
+"F7/C"Acg | "F7"fze | "Bb"d3 | B2G | "F7"Fce | dzc | ("Bb"B3 |1 B)zz :|2 Bzc/B/ || [P:B] "F7"AzG | FzE | "Bb"GzF | 
+Dz(3B/c/B/ | "F7"Azc | ezg | "Bb"fze | dzc/B/ | "F7"AzG | FzE | "Bb"GzF | Dzc/B/ | "F7"AzB | czf | 
+e>B A/G/ | Fz"_>Teil A"z || [P:C] [K:Eb] "Eb"g3 | e3 | B2G | B3 | "Cm"czc | cd>e | ("Gm"d3 | d)zz | "Ab"f3 | 
+"Bb7"d3 | "Ab"c3 | "Fm"A3 | "Bb7"F2c | cBA | ("Eb"G3 | G)zz | B/B/BB | BGA | Bzc | B3 | "Ab"c/c/cc | 
+cAB | cze | c3 | "Bb7"dcB | AGF | "Eb"czB | B3 | "Bb7"FGA | G2F | ("Eb"E3 | E)z"_Fine"z |] 
+W:
+W:Anmerkung H.C.: Arisdorf/Ziefen-Läufelfingen
+% wz06677
+% Jan 24, 2018

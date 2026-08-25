@@ -1,0 +1,33 @@
+X:9
+T: Sarner-Juiz  D (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:D major
+[P:A] "ausdrucksvoll"  D>B, A,A d/A/F/D/ | C>B, A,.A GA | C>B, A,A c/A/G/C/ | D>B, A,A F!fermata!A | 
+D>B, A,A d/A/F/D/ | C>B, A,A G/B/A | C>B, A,A G/B/A/C/ | !fermata!D4 ||
+M:6/8
+L:1/8
+[P:B] "fröhlich-beschwingt" 
+D C B, | A,3C2A | G B A G B, C | D3 F2d | A3 B A D | 
+C3 E G c | A3 B A C | D3 F2d | A3 D C B, | A,3 C2A | G B A G B, C | 
+D3 F2d | A3 A A, D | C3 E G c | A3 A c e | (d6 | d2)z || 
+M:6/8
+[P:C] "kraftvoll-erhaben"  D2D | D3 D G B | d3 e d B | A3 F A F | D3 B A F | A3 G A G | 
+C3 B A E | A3 F A F | !breath! D3 D2D | D3 D G B | d3 e d B | 
+A3 d A F | D3 B A F | A3 G A G | C3 (e2e/d/) | (d6 | d)z |] 
+W:
+W:Reihenfolge: A-B-C
+W:
+W:notiert Edi Gasser, nach Angaben von August Wirz
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-05
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 25, 2018

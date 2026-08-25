@@ -1,0 +1,31 @@
+X:1
+T:the Duchess of Buccleuch
+B:William Marshall - Volume 2nd of A Collection of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+N:The voicing is horrible; notes or chords appear to move across the staves according to typesetter's convenience, it's not always clear which notes were intended for which instrument.
+N:Perhaps he was serious when he put 'piano' first in the list of instruments ? Then it wouldn't matter. I don't know.
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 1
+K:F major
+%%staves {1 2}
+V:1
+B | \
+(A/B/c) (Fc) AFFB | (A/B/c) (Fc) d/c/B/A/ GB | \
+(A/B/c) (Fc) AFFC | DF E/F/G/E/ F2 F :|
+f/g/ | \
+aFFa bdgf | ecde f/e/f/g/ ff/g/ | aFFa bd!trill!gf | e3/c/d=B !trill!c2 c2 & x4 E2FE |
+Cc[EB][FA] d/B3/ ~B2 & x2 C2 D2 x2 | B,BAG c<A ~A2 & x2 C2 C2 x2 | \
+!trill!F3/G/AF GAB[=Fd] & C2x2 D2-D2| c3/f/ e/f/g/e/ f2 f |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff][Ff][Ff][Ff] | [Ff] [A,A] [B,B] [Cc] | fffA | Bc Ff/ :| \
+z/ | \
+[fac'] [fac'] [bd'g'] [=bd'g'] | [c'e'g'] [be'g'] [ac'f'] [fac'] | \
+[fac'] [fac'] [bd'g'] [=bd'g'] | [c'g'] [gd'f'] c'/b/a/g/ &x3 C | \
+[fa] g/a/ b g/f/  | [eg] f/g/ [fa] c/B/ | \
+A/G/F/A/ B/A/G/B/ | cC[Ff][Ff]/ |]

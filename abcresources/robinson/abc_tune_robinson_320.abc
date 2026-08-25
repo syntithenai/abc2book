@@ -1,0 +1,25 @@
+X:9
+T:Oddfellows Holiday. HS.09
+M:6/8
+L:1/8
+Q:3/8=120
+S:Henry Stables MS,Cumbria,late19thC
+R:Quadrille
+O:England
+N:Each note is accompanied by a number of one to five, and also a symbol
+N:of either ^ or -.I have reproduced this completely for the 1st line
+N:only, it being consistent thereafter. This is obviously fingering, for
+N:one hand, of an instrument that sucks and blows or pushes and pulls, or
+N:otherwise has two directions of something. Later evidence indicates
+N:bowing directions on the fiddle...CGP
+Z:vmp.Chris Partington
+B:Village Music project, Stables, Henry
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/stables.abc
+notC:"Set of Quadrilles,No3"
+K:D major
+"_5 NB" A|"_2"d2"_3" f "^2" e2"_3"f|\
+"_2"d2"_2"d "_2" d2"_5"A|"_1"B2"_5"A "_1" B2"^1"c|\
+"_2"d2"_3"f "^2"e"^1"c"_5"A|!
+"etc."d2fe2f|d2d def|"^3"g2e"_4"a2f|dddd2:|!
+|:d|f2f fef|g2g gfg|fga agf|e2d cBA|!
+d2fe2f|d2d def|g2ea2f|dddd2:|

@@ -1,0 +1,28 @@
+X:43
+T:Slow March,2. TLY.043
+M:4/4
+L:1/8
+Q:1/2=60
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England
+A:Lancashire
+N:bar 1 is marked with a sign. Bars 9,10, 1313 and 14 are marked f, and
+N:have dotted quaver-semiquaver crothcet rhythm marked under the crotchet
+N:rests. End of bar 16 is marked with a sign. Minim A in bar 24 is marked
+N:accented
+H:1860.
+Z:vmp.Taz Tarry.
+B:Village Music project, Tildsley, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/tildsley.abc
+K:G major
+(d/e/d/c/)|:"S"B2 B>B B2 ~c2|d3 ^d (ef)(ge)|\
+(ed).B.d (dc)(cB)|{B}A2A.A A2 (d/e/d/c/)|!
+B2 B>B B2 ~c2|d3 ^d (ef)(ge)|(ed).B.d (dc).B.A|G2 G>G G2:|!
+|:g2|f2 z2 z2 g2|f2 z2 z2 b2|(ab)(c'b) (ag)(fg)| a2 a>a (ab)ag|!
+f2 z2 z2 g2|f2 z2 z2 b2|(ab)(c'b) (ba)(ag)|\
+(gf)(fe) (ed)"S"(cB)||!
+z2|(d3e/d/) (cB).c.A| G2 G>G (F/G/A/B/ c/d/e/f/)|\
+(gfed) (edcB)| (B3c/B/) AB(c^c)|!
+(d3e/d/) (cB).c.A| G2 G>G (F/G/A/B/ c/d/e/f/)|\
+(gf).e.d d2 (ef)|(a4g2):|

@@ -1,0 +1,21 @@
+X:351
+T:Weihnachtsrosen-Walzer GC (wz06904) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.252 (wz06904) orig. G,C
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+"G"(DEF) | (A2G) | ("D7"G2F) | (c2F) | (E2D) | (F2E) |  ("G"E2D) | (G2D) | (DEF) | (A2G) | 
+("D"G2F)  | (d2F) | ("A7"B2A) | (FGE) | "D7"D(.d.d) | .d.d.d | ("G"def) | (a2g) | ("D7"g2f) | (c'2f) | (e2d) | 
+(f2e) | ("G"e2d) | (g2d) | (def) | (a2g) | ("D"g2f) | (d'2f) | ("A7"b2a) | (fge) | ("D7"d3 | d)(d^d) | 
+|: ("C"^d/e/)ee | "D7"fga | ("G"a/d/)dd | ^cd^d | ("D7"^d/e/).F.e | edc | ("G"^A/B/).GB | BAG | ("C"^d/e/)ee | 
+"D7"fga | ("G"a/d/)dd | ^cd^d | ("C"^d/e/) ee | (c'2b) | ("D7"b/a/) (^g/a/) (e/f/) |1 "G"g(d^d) :|2 "G"gzz || [K:C] 
+|: ("C"e3 | e)(Bc) | ("G7"g3 | f3) | (f3 | f)(^cd) | ("C"a3 | g3) | 
+("C"g3 | g) ^de | "Dm"gfe | dcA | "C/G"^FG(e | "G7"e)de | "C"c>cc | czz :| 
+W: Walzer, nach Otto Heyer
+ % wz06904
+% April 25, 2017

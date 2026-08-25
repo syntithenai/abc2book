@@ -1,0 +1,22 @@
+X:1
+T:Galopp  CG (gL07812)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.187  (gL07812) orig. C,G
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"c4 | e2g2 | c'2g2 | a2g2 | !>!"G7"d4 | f2b2 | d'2b2 |1 ag ag :|2 "C"c'2z2 || [K:G] 
+[P:B] "G"b2 (a/g/f/g/) | "D7".a.d d'2 | "G"b2 (a/g/f/g/) | "D7".a.d d'2 | "G"b2 (a/g/f/g/) | "C"ed cB | "D7"Ad fd | "G"g2z2 || [K:C] 
+[P:C] "C"ed (!>!e2 | e).d .e.d | efg2 | zg ag | "G7"fef2 | zf gf | "C"ed (c2 | c)d ed | 
+ed(e2 | e)d ed | ef(g2 | g)g ag | "G7"fdb2 | ("C"c'b) .a.g | "G7"g2 bg | "C"c'2z2 |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% gL07812
+% August 5, 2018

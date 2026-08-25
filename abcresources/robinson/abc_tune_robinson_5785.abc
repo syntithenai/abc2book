@@ -1,0 +1,33 @@
+X:4
+T:dr Hobby-Schäfer  Bb  ABCD
+T:Edy Kuster  (* 24.12.1939)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] D2B,2 B>A GD | F2EA,C4 | F2E2 c>A GF | BDBG F4 | 
+D2B,2 B>A GD | F2CDE4 | F2E2 c>A AG/F/ | B6z2 || 
+M:4/4
+[P:B] Ac FA EF fd | Bd FB DF dB | ce FA EF eA | BF cdB4 | 
+Ac FA EF fd | Bd FB DF dB | ce FA EF eA | BF cfB4 || 
+M:4/4
+[P:C]  E3B, G2E2 | cBGB e4 | D3B, G2F2 | BFBc d4 | c3F A2c2 | f3ec2g2 | f3dB4 | F6z2 | 
+E3B, G2E2 | cBGB e4 | D3B, G2F2 | BFBc d4 | c3F A2c2 | f3eF2cd | (B8 | B6)z2 ||
+M:3/8
+[P:D] D>F B/d/ | f>d F/d/ | c>E F/d/ | c3 | C>F E/F/ | f>e F/d/ | B>D F/d/ | B3 | 
+D>F B/d/ | f>d F/d/ | c>E F/d/ | c3 | C>F E/F/ | f>e F/c/ | B3 | D>F B/d/ | 
+f>d F/d/ | c>E F/d/ | c3 | C>F E/F/ | f>e F/d/ | B>D F/d/ | B3 | D>F B/d/ | 
+f>d F/d/ | c>E F/d/ | c3 | C>F E/F/ | f>e F/c/ | B>F c/f/ | (B3 | B2)z |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser. Angaben: Edy Kuster
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 19-02
+W:http://www.naturjodler.ch/code 19.htm  (with AUDIO)
+%May 17, 2018

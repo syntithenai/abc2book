@@ -1,0 +1,32 @@
+X:17
+T:Geissbärger-Juiz  Eb (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Eb major
+[P:A] "langsam"  B, C D | E2c3G | |B3 (3G/B/G/ FE | D2c3A | B4B,2 | D3A CA | 
+B,2CB, CD | E3GC2 | B,3B, CD | E2c3G | B3 (3G/B/G/ FE | 
+D2c3A | B4B,2 | D3AC2 | A4DB | EG BE GB | !fermata!e3 || 
+M:3/4
+[P:B] "lüpfig" C>B, | B,3G GB | E2GF ED | C3A Ac | F4E2 | D2BB AB | 
+dd BB AD | E3B GB | e4 C>B, | B,3G GB | E2GF ED | 
+C3A Ac | F4E2 | D2cB AB | dc BD cB | (E6 | E2)z2 || 
+M:3/4
+[P:C] "langsamer" E>E | EA cE Ac | e3f ec | B3E GE | B4cB | B3D AD | 
+B4dB | BE EG EG | B4E>E | EA cE Ac | e3f ec | 
+B3E GE | B4cB | B3D AD | B4 !fermata!f>e | (e6 | e2) |]
+W:
+W:Reihenfolge: A-B-C
+W:
+W:notiert von Edi Gasser, nach Angaben von August Wirz
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-08
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 26, 2018

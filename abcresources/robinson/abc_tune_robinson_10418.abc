@@ -1,0 +1,20 @@
+X:10
+T:Prelude by Dean(10). TBe.010
+M:4/4
+L:1/16
+Q:1/4=120
+S:Thomas Bennet MS,1718, VWML
+R:Misc
+O:England
+N:Key signature has F# in both octaves...
+H:1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+notC:Mr. Thomas Dean
+K:D major
+"^Dsolre sharp=Dmaj,No time sig."\
+d4f4a4f4 | c4e4a4e4 | d2f2a2f2 c2e2a2e2|\
+a2g2f2d2 d2f2a2f2 |!
+F2A2F2D2 ceag aeag | fedc Bdgf gdgf edcB |!
+dfaf ceae dfaf ceae | d2D2F2A2 d8 |]

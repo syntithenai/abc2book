@@ -1,0 +1,24 @@
+X:30
+T:Mrs McPherson, Gileston
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 2
+K:C major
+%%staves {1 2}
+V:1
+[Ec]2 cG [Ec]2 cG | c2 cG {^c}d2 de | c2 cG EcGE | FDB,G, [G,C]2 [G,C]2 :| \
+gege afaf | gece d2 (de) | ! gege afaf | ecGB c2 (ce) | \
+gege afaf | edge d2 (df) | egfa dfeg | BGdB [Ec]2 [Ec]2 & F2G2x4  |]
+V:2 clef=bass octave=-2
+L:1/4
+[cgc'] [cgc'] [cgc'] [cgc'] | [cgc'] [cgc'] [Gg] [Gg] | \
+[cgc'] [cgc'] [cgc'] [cgc'] | [Gdf] [Gdf] [Cc] [Cc] :| \
+[cec'] [cec'] [cec'] [cec'] | [cec'] [cgc'] [Gg] [Gg] | \
+[cec'] [cec'] [cfc'] [cfc'] | [Gg] [Gg] [cc'] [cc'] | \
+[cec'] [cec'] [cfc'] [cfc'] | [Gg] [Gg] [Gg] [Bb] | \
+[_B_b] [Aa] [=Bg] [cg] | [Gg] [Gg] [Cc] [Cc] |]

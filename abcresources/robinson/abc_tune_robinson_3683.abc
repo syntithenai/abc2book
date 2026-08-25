@@ -1,0 +1,15 @@
+X:222
+T: Schwobelyseli (Schottisch) FCBb (st04908)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.344 (st04908) orig. F,C,Bb-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+cf [P:A] |: "F"!>!a4!>!a4 | a2^ga b2a2 | "C7"g3^f g3=f | e2d2c4 | "F"!>!a4!>!a4 | a2^ga b2a2 | "C7"g3^f  g2e2 |1 "F"f2f2 f2cf :|2 "F"f2f2 f2z2 || [K:C]
+[P:B] |: "C"!>!g4!>!g4 | g2^fg a2g2 | "G7"f3e f2e2 | d2c2B4 | "C"!>!g4!>!g4 | g2^fg a2g2 | "G7"f3e f2b2 |1 "C"c'2c'2 c'2z2 :|2 "C7"c'4"_>Teil A"b2_b2 || [P:C] [K:Bb]
+ "Bb"d'2ff f2f2 | "Gm"b3d d2d2 | "F7"cdef gabc' | "Bb"d'2b2f4 | d'2ff f2f2 | "Gm"b3d d2d2 | "C7"=efga bd'c'b | "F"a2g2f4 | 
+"Bb"d'2ff f2f2 | "Gm"b3d d2d2 | "F7"cdef gabc' | "Bb"d'2b2f4 | "Cm"g2cc g2c2 | "Bb/F"f2BB f2B2 | "F7"ABcd efga | "Bb"b2b2 b2z2 |]

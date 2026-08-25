@@ -1,0 +1,16 @@
+X:12
+T: Emmenthaler Mazurka  CG (mz09015)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.55 (mz09015) orig. C,G-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+{/G}"C"c>de4 | {/c}"G7"B>df2f2 | {/G}B>df4 | {/G}"C"c>eg2g2 |  {/G}c>eg4 | {/e}"F"f>ga2a2 | "G7"b>a g>f d>g | "C"c2c2z2 :| 
+|: "C"cg egc2 | "G7"B>c d>ef2 | Bg fgB2 | "C"c>d e>fg2 | cg egc2 | "F"f>g a>bc'2 | "G7"b>a g>f g>B |1 "C"c2c2z2 :|2 
+"C"c2c2d>e || [K:G] "G"d2d2g>f | "C"e2e2a>g | "D7"f3d ef |  "G"g2z2B>c | d2d2g>f | "C"e2e2a>g | "D7"f3d ef |  "G"g2z2 d'>c' | 
+"G"bd gb db | "D7"c'd f2 e'>d' | c'd fa dc' | "G"bd gb d'>c' | bd gb db | "D7"c'>df2 e'>d' | c'd fa df | "G"g2g2z2 |] 
+% mz09015

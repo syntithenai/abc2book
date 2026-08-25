@@ -1,0 +1,22 @@
+X:328
+T:Walzer CGF (wz06438) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.152 (wz06438) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"eze | ze>e | "F"fzf | zf>f | "G7"gzg | z(ab) | ("C"d'c'>a) | gc>d | eze | ze>e | 
+"F"fzf | zf>f | "G7"gza | be'>d' | "C"c'>c'c' | c'zz || [P:B] [K:G] ("D7"d3 | d2)c | "G"BD>G | czB | 
+"D7"AD>F | BzA | ("G"GBd) | (gfe) | ("D7"d3 | d2)c | "G"BD>G | czB | "D7"AD>F | BzA | 
+"G"G>GG | "G7"GF"_>Teil A"=F || [P:C] [K:F] (("F"a3 | a)ba) | (cgf) | (Adc) | "C7"eze | zd>c | 
+eze | zd>c | (("F"a3 | a)ba) | (cgf) | (Adc) | "C7"eze | zd>e | "F"f>ff | fz"_Fine"z |] 
+W:
+W:Anmerkung H.C.: Elm/Glarus 40, Zifen 11  Seltisberg 10, Bämbel 11, s.V. 456
+% wz06438
+% Dez 9, 2016

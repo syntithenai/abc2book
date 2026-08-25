@@ -1,0 +1,21 @@
+X:200
+T:Der Jäger aus der Pfalz. Schottisch  DAG (st06610)  ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.260 (st06610) orig. D,A,G
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:D major
+[P:A] "D"d2 "A7"A/B/A/G/ | "D"FG AB | "A7"Af fe | "D"edd2 | d2 "A7"A/B/A/G/ | "D"FG AB | "A7"Af fe |1 "D"dd dz :|2 
+"D"d2d2 || [K:A] "A"A2A2 | A2EA [P:B] ||"A"c3A | "E7"GA Bc | "A"A2z2 | zc Bc | "E7"e3d | BB cd | "A"f3e | 
+c2EA | c3A | "E7"GA Bc | "A"A2z2 | zc Bc | "E7"e2de | Bf eG | "A"A2A>A | A2"_>Teil A"z2 || [P:C] [K:G]  
+"G"[dB]3[Ac] | [GB]3[Bd] | [Bg][Bd] [Ac][GB] |  "D7"[GB][FA] [FA][EG] | [DF][FA] [FA][FA] |[AF]2zd | "G"[GB][GB] "D7"[DA][DA] | "G"[B,G][B,G] [B,G]"_Fine"z |] 
+W:
+W: Anmerkung H.C.: Muttenz, Flötenbuch s.V. 761
+% st06610
+% May 3, 2017

@@ -1,0 +1,17 @@
+X: 151
+T: Polka FCBb (pk05944)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.173 (pk05944) orig. F,C,Bb-Dur
+S: Tänze aus Saanen (Bern) S.170ff
+%%partsbox
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+P:ABACD
+K:F major
+AB [P:A] |: "F"c2a2 g2f2 | "C7"Pf2e2 b2de | Pd2c2 g2Bc | "F"PB2A2 f2AB | c2c'2 "F7"b2a2 | "Gm/Bb"Pa2g2 d'2bg | "F/C"f2ca "C7"g2ce |1 
+"F"f2a2 f2AB :|2 "F"f2a2 f2a2 [P:B] |: [K:C] "G7"g2B2 Bdfa | "C"g2c2 cegc' | "G7"bc'b2 fgf2 | "C"aba2 efe2 | "G7"g2B2 Bdfa | 
+"C"g2c2 cegc' | "Dm"a2d2 "G7"g2B2 |1 "C"c2e2 c2a2 :|2 "C"c2e2 "C7"c2A"_> Teil A"_B || [K:Bb] [P:C] |:"Bb"gfgf d4 | "F7"gfgf e4 |  
+fggf faaf | "Bb"fbbf f3f | gfgf d2d2 | "F7"gfgf e2e2 | {/e}a2a2 ageA | "Bb"B2d2 B2d2 :|[P:D] |: "Eb"gggg d'2c'2 | 
+"Bb"ffff c'2b2 | "F7"a2cd e2a2 | "Bb"g3f +>+f4 | "Eb"gggg d'2c'2 | "Bb"ffff c'2b2 | "F7"a2cg f3A |1 "Bb"B2d2 B2f2 :|2 "Bb"B2b2 b2z2 |]

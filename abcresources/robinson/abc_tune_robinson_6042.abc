@@ -1,0 +1,23 @@
+X:1
+T:Mazurka  CGF  (mz06948)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.116  ( mz06948) orig. C,G,F
+S: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G2e2d>c |  "G7"B>dG2G2 | G2f2e>d | "C"c>eG2G2 | G2e2d>c | "G7"B>dG2G2 | G2f2e>d | "C"c2c2z2 :| [K:G] 
+[P:B] |: "D7"d2de dc | "G".B2!>!d3B | "D7".c2!>!d3c | "G"B2B>c d>e | "D7"d2de dc | "G".B2!>!d3B | "D7"A2A>B c>d | "G"B2B2"_>Teil A"z2 :|  [K:F] 
+[P:C] |: "F"c3=B c>d | !>!c3=B c>d | c2=B>c d>c | "C7"c4B2 | !>!B3A B>c | !>!B3A B>c | e2e>d c>B | 
+"F"d>c A2A2 | !>!c3=B c>d | !>!c3=B c>d | c2f>e d>c | "Gm"e4d2 | "C7"E2 G>B e>d | 
+"F".d2!>!c3A | "C7".c2!>!B3G | "F".B2!>!A3F | "C7"E2 G>B e>d | "F".d2!>!c3A | "C7".c2!>!B3E | "F".F2f2z2 |] 
+W:
+W: Parts: ABAC
+W:Anmerkung H.C.: Eptingen/Böckten 31
+%  mz06948
+% May 1, 2018

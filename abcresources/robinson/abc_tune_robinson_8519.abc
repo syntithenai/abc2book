@@ -1,0 +1,26 @@
+X: 92
+T:Miss Ross' Strathspey -- Elgin
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:33 - 3
+K:D major
+%%staves {1 2}
+V:1
+F | \
+D>AF>A D>AF>A | E<=c-c>!wedge!G E2 (CE) | \
+D>AF>A D>AF>A | D<d-d>!wedge!A !trill!F2 D :|
+f |\
+(d>f)A>f d>fA>f | (=c>d)(e>f) ~g2 (a/g/f/e/) | \
+d>fA>f d>fA>f | (d>e)(f>g) ~a2 (b/a/g/f/) |
+d>fA>f d>fA>f | (=c>d)(e>f) ~g2 (a/g/f/e/) | \
+a>fg>e f>de>c | d<AB>G !trill!F2 D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | =cccc | dddd | AAdd/ :| \
+z/ | [dd'] [dd'] [dd'] [dd'] | [=c=c'][cc'][cc'][cc'] | [dd'][dd'][dd'][dd'] | [dd'][dd'][dd'][dd'] | \
+     [dd'] [dd'] [dd'] [dd'] | [=c=c'][cc'][cc'][cc'] | defg | aAdd/ |]

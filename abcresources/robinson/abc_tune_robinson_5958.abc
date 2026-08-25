@@ -1,0 +1,19 @@
+X:1
+T:Freie Bahn (Galopp)  FBb (gL07095) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.48  (gL07095) orig. F,Bb
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F".A2.A2 | AB =Bc | "C7".d2.c2 | "F"f3A | .A2.A2 | AB =Bc | "C7".e2.d2 | !>!G4 | 
+"F".A2.A2 | AB =Bc | "C7".d2.c2 | !>!"F"f4 | "E7".e2.e2 | e2ee | ed c=B | "Am".A2!>!"C7"c2 :| 
+|: !>!"Gm"e2!>!d2 | "C7"G2 AB | !>!"F"d2!>!c2 | F2EF | "Gm"A2G2 | "C7"d2e2 | "F".f2AB | c2z2 | !>!"Gm"e2!>!d2 | 
+"C7"G2AB | !>!"F"d2!>!c2 | F2EF | "Gm"A2G2 |  "C7"fe de | "F".f2.f2 |1 "C7"e2c2 :|2 "F"f2F2 || [K:Bb] 
+|: ("Bb"[F4d4] | [F2c2])[D2B2] | [D3F3]([EG] | [D2F2]) [D2F2] |([F4d4] | [G2e2]) [F2d2] | ("Cm"[E4c4] | [E2G2]) G2 | "F7"[E4c4] | 
+[A2f2] [G2e2] | ("Bb"[F4d4] | [G2e2]) [F2d2] | "F7"[E2c2][E2c2] | BA GA |1 ("Bb"B4 | B2)F2 :|2 ("Bb"B4 | B2)z2 |] 
+% gL07095
+% Jan 2, 2018

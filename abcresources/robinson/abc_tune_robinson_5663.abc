@@ -1,0 +1,33 @@
+X:5
+T: Brandegg-Juiz  F (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:F major
+[P:A] "langsam"  C D E | F3C DC | A,C cA dc | E3B DC | B,CB4 | 
+E3B DC | B,C BC DE | F>C DC A,C | !fermata!A2 zC DE | F3C DC | A,C cA dc | 
+E3B DC | B,CB4 | E3B DC | B,C BC DE | F4 Ac | !fermata!f3 zz ||
+M:3/4
+[P:B] D3C | C3A AC | F2dc AF | G3dc2 | B2c2 D>C | 
+C3B BC | E2 dc BE | F3fc2 | !fermata!A2 D3C | C3A AC | 
+F2dc AF | G3d c2 | B2c2 D>C | C3B BC | E2 dc BE | !fermata!F3z || 
+M:3/4
+[P:C] "schneller" 
+F>F | D3F Bd | f3g fd | c3f Ac | F3f  ed | c3B Bc | 
+E3f ed | c3f Ac | F4FF | D3F Bd | f3g fd | 
+c3f Ac | F3f ed | c3B Bc | E6 | c2c2g2 | !fermata!f3z2z2 |] 
+W:
+W:Reihenfolge: A-B-A-C
+W:
+W:nach Angaben von August Wirz. Original-Tonart D-Dur
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-03
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 25, 2018

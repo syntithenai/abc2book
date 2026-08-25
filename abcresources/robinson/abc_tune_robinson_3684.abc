@@ -1,0 +1,18 @@
+X:223
+T: Sennen-Polka EbBbAb (pk00337)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.286 (pk00337) orig. Eb,Bb,Ab-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/16
+O:Switzerland
+K:Eb major
+[P:A] "Bb7"BccB BAAG | "Eb"GeeGB4 | "Bb7"FddFA4 | "Eb"GeeGB4 | "Bb7"BccB BAAG | "Eb"GeeG"C7"c4 | 
+"Fm"Bcc2 "Bb7"cdd2 | "Eb"e2e2 e2z2 :: [P:B] [K:Bb] "F7"FGGF FeeA | "Bb"B2Bd f2f2 | "F7"a3g fedc | "Bb"g3f edcB | 
+"F7"FAGF FeeF | "Bb"B2Bd f2f2 | "F7"a3g fedc | "Bb"B2BB B2"_>Teil A"B2 :: [P:C] [K:Ab]"Ab"c3=B c3d | 
+"Bb7"c2B2 B=AB2 | "Eb7"GBdf e3d | "Ab"d2c2 c=Bc2 | c3=B c3d | "Bb7"c2B2 B=AB2 | "Eb7"GBdf e3G | "Ab"A2A2 A2z2 :| 
+% June 2016
+%%partsbox
+%%MIDI program 21

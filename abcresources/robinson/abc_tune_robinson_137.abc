@@ -1,0 +1,31 @@
+X:15
+T:March,3parts. JNu.15
+M:4/4
+L:1/8
+Q:120
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:March
+O:England
+A:Lancashire, E
+Z:vmp.Chris Partington
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:C major
+[V:1] |: "^f"c4g4 | e2c>c c2"^p"B>c | d2B2 cBcd | B2g>g gagf |
+[V:2] |: E4D4 | C2E>EE2G>A | B2G2G2^F2 | G2B>B Gfed |
+[V:3] |: C,4C,4 | C,2C,>C,C,2"^p"C,2 | G,2G,2C,2E,2 | G,2G,>G, G,F,E,D, |
+%
+[V:1] "^f"e4g4 | c2cde4 | egfe c2B2 | c2c>c c2z2 :|
+[V:2] c4B4 | A2A2G2G2 | C2D2E2D2 | E2E>EE2z2 :|
+[V:3] "^f"C,4G,4 | C2C,2C,4 | C,D,E,F,G,2G,,2 | C,2C,>C,C,2z2 :|
+%
+[V:1] |: "^p"d3c (BGBB) | c2G2E2C2 | c2cd e2dc | B2g>g gagf |
+[V:2] |: B3AG2F2 | E2G2E2C2 | E2EFG2FE | D2D>D DFED |
+[V:3] |: G,4G,2G,2 | C,2G,2E,2C,2 | C,2C,2C,2D,2 | G,2G,>G,G,2z2 |
+%
+[V:1] "^f"e4g4 | c2cde4 | "^p"egfdc2B2 | "^f"c2c>c c2z2 :|
+[V:2] C2C>CB,2B,2 | A,2A,2G,2G,2 | C2D2E2D2 | E2E>EE2z2 :|
+[V:3] C,4G,,4 | C,2G,,2C,4 | C,>D,E,>F,G,2G,,2 | C,2C,>C,C,2z2 :|

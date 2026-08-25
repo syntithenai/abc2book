@@ -9,6 +9,8 @@ const COLLECTION_LABELS = {
   '4': 'Norbeck',
   '5': 'Folkinfo',
   '6': 'JC',
+  '7': 'JC Regional',
+  '8': 'Robinson',
 }
 
 const TRADITIONAL_RHYTHMS = {

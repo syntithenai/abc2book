@@ -17,6 +17,7 @@ describe('bulkCheckSessionStore', function() {
       activeTab: 'completeness',
       links: {
         failures: [{ tuneId: 'a', error: 'bad' }],
+        needsLogin: [{ tuneId: 'a', error: 'Needing Login' }],
         warnings: [{ tuneId: 'b', missing: ['startAt'] }],
         progressMessage: 'Finished',
         checkedCount: 2,
@@ -32,6 +33,7 @@ describe('bulkCheckSessionStore', function() {
     expect(loaded.phase).toBe('done')
     expect(loaded.activeTab).toBe('completeness')
     expect(loaded.links.failures).toHaveLength(1)
+    expect(loaded.links.needsLogin).toHaveLength(1)
     expect(loaded.links.warnings).toHaveLength(1)
     expect(loaded.completeness.issues).toHaveLength(1)
     expect(getBulkCheckSession('x,y')).toBeNull()
@@ -41,6 +43,7 @@ describe('bulkCheckSessionStore', function() {
     const base = buildBulkCheckSessionBase('1,2', 3)
     expect(base.selectionKey).toBe('1,2')
     expect(base.links.totalCount).toBe(3)
+    expect(base.links.needsLogin).toEqual([])
     expect(base.completeness.issues).toEqual([])
   })
 })

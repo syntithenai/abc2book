@@ -1,0 +1,21 @@
+X:24
+T:Nur immer kreuzfidel. Galopp  FCBb (GL07430)  ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.338 (GL07430) orig. F,C,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+c |"F"c'2zc | c'2zc | "C7"c'>c c>c | c>c c>c [P:A] |: "F"c>c c>c | c>A F>A |  c>a g>f |  "C7"e4 | 
+c>c c>c | c>B G>B | c>b a>g | "F"f4 | c>cc2 | "F7"c>a g>f | "Bb"d>d d>d | d>b a>g | "F"ac f2 | 
+"C7"gc e2 | "F".f2.a2 |1 f2z2 :|2 f2a2 |: [P:B] [K:C]   "G7"g2 f>d | B2 A>G | "C"G2 c>E | G3c | "G7"B2b2 | a3B | 
+"C"c2a2 | g3a | "G7"g2f>d | B2A>G | "C"G2c>E | G3c | "G7"B2b2 | b2ba | g2B>B |1 "C"c2a2 :|2 
+"C"cc c"_>Teil A"z || [K:Bb] F [P:C] |: "F7"F2f2 | F2f2 | "Bb"F2f2 | f3F | "F7"F2a2 | g3F | "Bb"F2g2 | 
+f3F | "F7"F2f2 | F2f2 | "Bb"F2g2 | f3F | "F7"F2a2 | a2g2 | "Cm"g2"F7"f2 |1 "Bb"bb bF :|2 "Bb"bb b"_>Teil A"z || 
+% GL07430
+% Sep 14, 2017 (No chance to succeed ...)

@@ -1,0 +1,19 @@
+X:46
+T: Luzerner Marsch  CF (mr08916)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.12 (mr08916) orig. C,F-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:March
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"g2 c'>e | g4 | "G7"g2 b>d | f4 | G2f>e | {/e}d^cd2 | {/d}"C"cBc2 | .G2 e>d | g2c'>e | g4 | "G7"g2b>d | f4 | 
+G2f>e | dc BA | g!>!e2d | "C"cc/c/ cz :| "C"e2e>f | "G7"g2d>e | f2 {g/f/}e>d | "C"c4 | "F"Ac BA | "C"Ge fe | 
+"G7"Gf gd | "C"cag2 | e2e>f | "G7"g2d>e | f2 {g/f/}e>d | "C"c4 | "F"Ac BA | "C"Gc ea | "G7"gd/e/ fB | "C"cc cz ||  
+{(cde)}"F"f2z2 | z2 c>f || [K:F]  "F"f2e2 | d2c2 | a4 | z2g>a | "C7"b2b2 | a2g2 | "F"d'>=b c'2 | z>f e>f | 
+"C7"b2b2 | b2b2 | "F"b>^ga2 | z2b2 | "C7"a>^fg2 | z2a2 | "F"g>ef2 | zf e>f | "C7"b2b2 | b2b2 | "F"b>^ga2 | 
+z2b2 | "C7"a>^fg2 | ga/g/ fe | "F"ff "C7"ee | "F"ff fz |:"C7"c>d e>f | a>g d>e | "F"f4 | c2c>A | "C7"B2g>e | "F"f2c>A | 
+"C7"c3B | G2c>c | c>d e>f | a>g d>e | "F"f4 | .c2 c>A | "C7".B2 g>e | "F".f2 c>A | "C7"c'>b g>a | "F"ff fz :|
+% mr08916

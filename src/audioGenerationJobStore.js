@@ -4,7 +4,7 @@ import {
   downloadAudioGenerationResult,
   pollAudioGenerationJob,
 } from './musicGenerationClient';
-import { linkTitleForTask } from './audioGenerationPresets';
+import { formatAudioGenerationError, linkTitleForTask } from './audioGenerationPresets';
 import {
   showAudioGenerationCompleteToast,
   showAudioGenerationErrorToast,
@@ -248,7 +248,7 @@ async function completeJob(job, status, getTuneContext) {
 
   if (status.stage === 'error') {
     job.status = 'error';
-    job.error = status.message || 'Generation failed';
+    job.error = formatAudioGenerationError(status.message || 'Generation failed');
     job.completedAt = Date.now();
     showAudioGenerationErrorToast((job.tuneName || 'Tune') + ': ' + job.error);
     notify();

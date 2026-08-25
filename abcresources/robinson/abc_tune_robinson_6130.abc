@@ -1,0 +1,24 @@
+X:1
+T:Rosine-Polka  GC  (pk07612) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.127  (pk07612) orig. G,C
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] !>!"G"d2!>!B2 | d/c/B/c/.d2 | GB B/d/c/B/ | "D7"Acc2 | !>!c2!>!A2 | c/B/A/B/.c2 | dA A/c/B/A/ | "G"GBd2 | 
+!>!d2!>!G2 | "D7"A/B/c/B/.A2 | !>!d2!>!A2 | "G"B/c/d/c/.B2 | !>!d2!>!B2 | G/A/B/c/.d2 | "D7"dc D/G/B/A/ | "G"GG Gz :| 
+[P:B] |: "G"B/B/B dc | B4 | "D7"A/A/A cB | A4 | c/c/c f>e | dFF2 | A/B/c/d/ f>e | "G"dBB2 | 
+d/d/d BA | G4 | "D7"F/F/F cB | A4 | "C"E/E/E Gc | "G"d/d/d GB | "Am".E(A/G/) "D7".F(B/A/) | "G"GG Gz :| 
+K:C
+[P:C] |: "C"EG G>E | AGG2 | EG G>A | "G7"F2z2 | DF F>E | GF F>G | BB B/A/G/F/ | "C"EAG2 | 
+EG G>E | AGG2 | EG A>c | "F"BA A>c | BA A/c/B/A/ | "C"AGG2 | "G7"Bd c>B | "C"cc cz :| 
+W:
+%W:Parts:
+W:Anmerkung H.C.: Arisdorf, Wintersingen, Herznach/Fricktal
+% pk07612
+% May 6, 2018

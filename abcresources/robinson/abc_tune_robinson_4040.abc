@@ -1,0 +1,17 @@
+X:95
+T:Pas redouble  CF (pr09156)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.177 (pr09156) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:PasRedouble
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c2e2 | gc' g"F"c'/a/ | "C"g"F"c'/a/ "C"g"F"c'/a/ | "C"gg ge || "G7"gf dB | "C"cG ec | "G7"gf dB | "C"c/B/c/d/ ce | "G7"gf dB | 
+"C"c>d ec | "G7"gf dB | "C"c2zB/d/ |: "G7"dd ee | ff fc/d/ | "C"ee ff | gg gc'/b/ | "F"aa ac'/a/ | "C"gg g2g/a/ | 
+ge "G7"fd | "C"c>d ec'/b/ | "F"aa ac'/a/ | "C"gg gg/a/ | ge "G7"fb |1 "C"c'2zc/d/ :|2 "C"c'2zc |: [K:F] "F"aa ac' | ff fa | 
+"C7"gb eg | cc de | "F"fa ac' | ff fa | "C7"gb eg | "F"f2zc :: "C7"bb aa | g/f/e/d/ cc' | bb aa | 
+g/f/e/d/ c2 | zg gc' | "F"zf fg | "C7"gb eg | cc de | "F"fa ac' | zf fa | "C7"gb eg |1 "F"f2zc :|2 "F"f2z2 |] 
+%  pr09156

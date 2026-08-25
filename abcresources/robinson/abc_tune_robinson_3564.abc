@@ -1,0 +1,13 @@
+X:114
+T:Mazurka  CGF (mz04916)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"G>e d>c B>A | A2G>^F G>A | "G7"B>G F>E F>G | "C"F2E>DE2 | E>e d>c BA | A2 G>^F G>A | "G7"G2 ^FG A>B | 
+"C"c2c2z2 :: [K:G] "D7"d>e d>c B>A | "G"B2 G>B d>g | "D7"f2 A>B c>e | "G"d2 B>A B>c | "D7"d>e d>c B>A | "G"B2 G>B d>g | 
+"D7"f>e d>c B>A | "G"G2G2z2 :: [K:C] "C"Gce3g | "G7"g2f>ef2 | GB d3f | "C"f2 e>^de2 | EG c3e | 
+"Dm/F"e2d>^c d2 | "G7"G>A B>c d>B | "C"c2c2z2 :: [K:F] "F"c2A2c2 | f4A2 | d4c2 | "C7"c4B2 | G2A2B2 | e4d2 | 
+c4B2 | "F"A6 | c2A2c2 | f4c2 | a4f2 | "Gm/Bb"e4d2 | c>fe2d2 | "F"c4f2 | "C7"E>F G>C D>E | "F"F2F2z2 :| 
+% mz04916
+% June 2016

@@ -1,0 +1,54 @@
+X:63
+T:the Conundrum
+C:P.M. P. R. MacLeod (Jun)
+M:4/4
+O:Scotland
+R:Pipe march
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+%%RRGroups:Rosehall
+%%RRGroups:Misc-Scots
+%%RRGroups:Charlie Menzies
+S:E. Sutherland Accordion and Fiddle Club
+K:A mixolydian
+{g}A>B|\
+{gcd}c2{e}A>{d}c {g}e>f{gcd}c2|\
+{g}A>{d}c{g}e>a {fg}f2{g}e>f|      \
+{ag}a2e>f {g}e>f{gcd}c2\
+|1 {g}A>{d}c{gef}e>c {gBG}B2\
+:|2 {gBd}B2{e}A2 {GAG}A2::          \
+{g}f>g|\
+{ag}a2e>f ae{ag}a2|\
+e>fa>e {gfg}f2{g}e>f|\
+{ag}a2e>f {g}e>f{gcd}c2|\
+{g}A>c{gef}e>c {gBd}B2    |1        \
+{g}f>g|\
+{ag}a2e>f ae{ag}a2|\
+e>fa>e {gfg}f2{g}e>f|\
+{ag}a2e>f {g}e>f{gcd}c2|\
+{gBd}B2{e}A2 {GAG}A2     :|2        \
+{g}A>B|\
+{gcd}c2{e}A>{d}c {g}e>f{gcd}c2|\
+{g}A>{d}c{g}e>a {fg}f2{g}e>f|\
+{ag}a2e>f {g}e>f{gcd}c2|\
+{gBd}B2{e}A2 {GAG}A2||             \
+|: {gef}e2|\
+{g}A>B{gcd}c2 {g}A>B {g}c<{d}A|\
+{g}c<e{g}A>B {gcd}c2e2|\
+{g}f>g{ag}a2 e>f{gcd}c2 |1\
+{gBd}A>{d}c{gef}e>c {fBG}B2 :|2\
+{gBd}B2{e}A2 {GAG}A2 ::\
+{ag}a2|\
+{fg}f>ea>e {gfg}f2{g}e<a|\
+{fg}f2{g}e<a {fg}f>ea>e|\
+{g}f>g{ag}a2 e>f{gcd}c2|\
+{g}A>{d}c{gef}e>c {gBG}B2  |1\
+{ag}a2|\
+{fg}f>ea>e {gfg}f2{g}e<a|\
+{fg}f2{g}e<a {fg}f>ea>e|\
+{g}f>g{ag}a2 e>f{gcd}c2|\
+{gBd}B2{e}A2 {GAG}A2     :|2    \
+{g}A>B|\
+{gcd}c2{gde}d>c {gef}e>A{gcd}c2|\
+{gde}d>c{gef}e>A {gfg}f2{g}e>f|\
+{ag}a2e>f {g}e<a{cd}c2|\
+{gBd}B2{e}A2 {GAG}A2|]

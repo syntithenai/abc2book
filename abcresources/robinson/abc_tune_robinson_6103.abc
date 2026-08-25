@@ -1,0 +1,21 @@
+X:1
+T:Heiteres Lagerleben (Polka)  FBb (pk06669)  ABCDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.60  (pk06669) orig. F,Bb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "C7"ee dd | "F".cc c/B/A | "C7"GB e>d | "F"dc!>!A2 | "C7"ee dd | "F"cc  c/B/A | "G7"G=B/d/ g>B | 
+"C"cc cz :: [P:B] "F"A>B cf | "Bb"df!>!"F"c2 | "C7"Bd c/=B/c | "F"Ad c/=B/c |  A>B cf | "Bb"df "G7"=Bd | "C7"ce a>g | 
+"F"ff fz :: [P:C] [K:Bb] "Bb"F>B de | "Cm"dc!>!G2 | "F7"g/^f/g ce | "Bb""_*"f/=e/f dB | F>B de | "Cm"dc!>!G2 | 
+"F7"g/^f/g =f/=e/f | "Bb"BB B"_Fine"z :|  [P:D] "Gm"GBd2 | "Cm".e2"Gm".d2 | "D7".c2"Gm".B2 | "A7"A^c!>!"D7"d2 | "Gm"GBd2 | "Cm".e2"Gm".d2 | "C7"c^c d=e | "F".f2"_>Teil C"z2  |] 
+W:
+W:Anmerkung H.C.: Olsberg, Seltisberg, Lausen/Augstm Waldenberg, s.V. 33
+% pk06669
+% Jan 22, 2018

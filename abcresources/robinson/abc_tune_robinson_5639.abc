@@ -1,0 +1,29 @@
+X:5
+T: Flueh-Juiz  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+%Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "sehr langsam" B,>CDF | f>dcB | A>cFe | A4 | C>DEF | 
+f>edc | B>DFd | B4 | B,>CDF | f>dcB | 
+A>cFe | A4 | C>DEF | f>edc | (B4 | B2)z2 || 
+[P:B] "zügiger"  GE/G/cB/c/ | dBF>d | eA/c/F>e | dB !fermata!F2 | 
+GE/G/cB/c/ | dBF>d | fe/c/ A/F/ d/c/ | B4 || 
+M:3/4 
+[P:C] "flottes Walzertempo" F/f/ | e>dc | e>d c/f/ | d>cB | FdF | 
+c>BA | FeF | d2c | B2F/f/ | e>dc | e>d c/f/ | 
+d>cB | FdF | c>BA | Ff2 | "_jeder Ton breit"edc | B3 |] 
+W: Reihenfolge: A-B-A-C
+W:
+W:Vermutlich aus Sachseln stammender Naturjuiz: 
+W:Er wurde von Josef Della Torre um 1948 zum Jodlerklub Sarnen gebracht.
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-13
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 22, 2018

@@ -1,0 +1,31 @@
+X:32
+T:George Skene Duff, of Milton
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:13 - 1
+K:C major
+%%staves {1 2}
+V:1
+B | \
+c2 ce c2 ce & E4E4 | c2    (ec) dDDB | c2 (cG) cagf | ecdB cCCB & G2F2E2x2 |
+c2 ce c2 ce & E4E4 | [Ec]2 (ec) dDDB | c2 (cG) cagf | ecdB cCC & G2F2E2 x |]
+F | \
+(E/F/G) (cG) EcGc | EcGc dDDF | (E/F/G) (cG) EcGe | [Af]a[Bg]>f e<c-c>G |
+(E/F/G) (cG) EcGc | EcGc dDDf | [ca]f[cg]e [Gf]d[Ge]c | [Fc]A [B,G]>F !trill!E>D C |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[cgc'] [cgc'] [cgc'] [cgc'] | [cgc'] [cgc'] [Gg] [Gg] | \
+[cgc'] [cgc'] [fac'] [fac'] | [Gg] [Gg] [Cc] [Cc] | \
+[cgc'] [cgc'] [cgc'] [cgc'] | [cgc'] [cgc'] [Gg] [Gg] | \
+[cgc'] [cgc'] [fac'] [ec']/f/ | [Gg] [Gg] [Cc] [Cc]/ |] \
+z/ | \
+[Cc] [Cc] [Cc] [Cc] | [Cc] [Cc] [Gg] [Gg] | \
+[Cc] [Cc] [Cc] [Cc] | [Ff] [Gg] [Cc] [Cc] | \
+[Cc] [Cc] [Cc] [Cc] | [Cc] [Cc] [Gg] [Gg]/z/ | \
+[Ff] [Ee] [Bb] [Cc] | [Ff] [Gg] [Cc] [Cc]/ |]

@@ -1,0 +1,20 @@
+X:32
+T:Debutantin Mazurka FCBb (mz02042)
+B:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.284f (mz02042) orig. F,C,Bb
+O:Switzerland
+%%MIDI program 21
+%%%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+K:F major
+c2 | [P:A] "F"a2g2f2 | "C7"e>^c d4 |  e>^c d4 | "F"d>=Bc4 | (c2.f2).f2 | "C7"f>ee4 | c>ee2d2 | "F"d>cc4 | 
+a2g3f | "C7"e>^cd4 | e>^c d4 | "F"d>=Bc4 | c>c' b>a g>f | "Bb"d>b a>g f>d | "C7"c>a a2g2 | 
+"F"f2f2zg || [P:B] [K:C] "C"g>c'c'3b | "Dm"a>g a3d | "G7"dbb3a | "C"g>^f g>ag2 | gc' c'3b | "Dm"a>d'd'3c' | 
+"G7"b>a g>f d>g | "C"c2c2"_>Teil A"z2 || [P:C] [K:Bb] ff | f2"Bb"b2a2 | ("tr"g2d2)d2 | ff ff f^f | 
+"F7""tr"g3ff2 | g2b2a2 | "tr"(g2e2)e2 | ff ff f>g | "Bb"d'>c'b4 | f2b2a2 | ("tr"g2d2)d2 | 
+ff ff fg | "F"a>b c'4 | "C7"c'>c'g3a |  "F"c'>c'f3g | "C7"a>g d2=e2 | "F7"f2f2zf || [P:D] "Bb"b6 | 
+a4g2 | f6 | .d2.e2.f2 | "F7"g4f2 | e4g2 | ("Bb"f6 | f2)d2f2 | d'6 | 
+c'4b2 | "F7"a6 | b2a2g2 | g>f c>gf2 | "Bb"g>f d>gf2 | "F7"a>g f>a d'>c' | "Bb"b2b2z2 |]   
+% mz02042

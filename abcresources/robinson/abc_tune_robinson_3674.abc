@@ -1,0 +1,15 @@
+X:214
+T: Schottisch FCB (st04918)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.302 (st04918) orig. F,C,Bb-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABACD
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"c2ca f2f2 | "Gm/Bb"d2db g2g2 | "C7"e2ec d2e2 | "F"fefg abc'a | c2ca f2f2 | "Gm/Bb"d2db g2g2 | "C7"e2ec d2e2 | "F"f2f2 f2z2 :| [K:C]
+[P:B] |: "G7"g3a g2f2 | "C"e2c2 ceag | "G7"g2B2 Bdag | "C"g2c2 cGce | "G7"g3a g2f2 | "C"e2c2 ceag | "G7"g2G2 Gfed | "C"c2c2 c2"_Teil A"z2 :| [K:Bb] 
+[P:C] |: "Bb"d3e g2f2 | fd'd'2 !>!b4 | "F7"a2ag f2e2 | "Bb"g2gf d2Bc | d3e g2f2 | fd'd'2 !>!b4 | "F7"a2ag fedc | "Bb"B2b2 b2z2 :|
+[P:D] |: "Eb"e2de g2fe | "Bb"d2fbd'4 | "F7"c'2c'f a2c'2 | "Bb"b2bd f2gf | "Eb"e2de g2fe | "Bb"d2fbd'4 | "F7"c'2c'f a2c'2 | "Bb"b2b2 b2z2 :|

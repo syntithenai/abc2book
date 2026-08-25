@@ -1,0 +1,9 @@
+X:95
+T:L\"andler F (LD05068)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:F transpose=3 %%MIDI gchordon
+cA |: "F"F3A cf | "Gm"e2d2d2 | "C7"E3G Be | "F"d2c2c2 | F3A cf | "Gm"a2g2g2 | "C7"fe dc de |1 "F"f2z2cA :|2 "F"f2z2cf || 
+|: "C7".a2!>!g3e | "F".g2!>!f3A | "C7"AG dc BG | "F"FC FA cf | "C7".a2!>!g3e | "F".g2!>!f3A | "C7"AG dc BG |1 "F"F2z2cf :|2 "F"F2z2z2 |]

@@ -1,0 +1,35 @@
+X:1
+T:Chärwald-Juiz. 2000  Bb  ABAC
+T:Karl Barmettler (11.11.1951)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] B,D/G/ | F>d | BF | dB | c>F | E>z | A,G/E/ | F>e | 
+Ac | dc | B>F | D>z | B,/D/ G/D/ | F>d | BF | "_rit."Bd | 
+!fermata!(e2 | e>)z | "_a tempo"A,/E/ G/E/ | F>e | AF | fd/c/ | (B2 | B)z ||  
+L:1/4
+M:2/4
+[P:B] FD/F/ | E>A | c2 | c/B/ d/c/ | B>F | D2 | Bc/B/ | A>F | 
+E2 | FA/G/ | F>"_rit."d | B2 | FG/F/ | E>A | c2 | c/B/ d/c/ | 
+B>F | !breath!D!>!D | !>!F!>!B | d>e | dB | dc | (B2 | B)z || 
+L:1/4
+M:2/4
+[P:C] B/B/ c/B/ | G>E | Ge | dc | D>F | Bd | BD | C>D | 
+EF | cF/F/ | B>F | d2 | B/B/ c/B/ | G>E | Ge | dc | D>F | Bd | 
+BD | C>F | Ae | dd/c/ | (B2 | B>)z | B/B/ c/B/ | G>E | Ge | dc | 
+D>F | Bd | BD | C>D | EF | cF/F/ | B>F | d2 | B/B/ c/B/ | G>E | 
+Ge | dc | D>F | Bd | BD | C>F | Af | dc | (B2 | B)z |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W:notiert Edi Gasser. % Angaben:
+W:UJV-Naturjodelsammlung: Code-Nr: 42-01
+W:http://www.naturjodler.ch/code 42.htm  (with AUDIO)
+%Juni 11, 2018

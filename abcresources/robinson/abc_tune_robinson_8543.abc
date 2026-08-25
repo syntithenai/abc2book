@@ -1,0 +1,57 @@
+X:81
+T:the Farewell
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+L:1/16
+M:4/4
+N:Slow with much expression
+O:Scotland
+R:Air
+Z:Clark Bernst
+%%Page:35 - 2
+K:E major
+!p!\
+G>A [| \
+([GB]3[FA]) ([EG]3{G}[A,F]) ([GE]GBe) g3e | \
+(fBfg) {b}[da]2[eg]a {g}f2"tr"F[EG] [DF]2~([EG][DA]) | \
+(B3{B}A) (G3{G}F) (3EGB (3egb {b}[Bfa]2gf | \
+(f{gf}e)dc (Bd)ef {ef}g2[Ge]2 [Ge]2 ~GA |
+!f!\
+[GB]3A G2[DG]F (EGB)e {ef}g3e | \
+(fBfg) {b}[Bea]2ga {g}f2"tr"([EF]G) [DF]2(~[EG][^DA]) | \
+([B,GB]3[^DA]) [EG]2{G}[B,DF]2 (3EGB (3egb {b}H[bfa]2gf | \
+f{gf}edc c{dc}BAG {G}B2 [G,E]2 [G,E]2 [|
+!p! \
+g>a |\
+b3e g3b {d}(e3{fede}f) (g3e) | \
+a3f gbag {g}f2"tr"F>{^EF}G [DF]2~ga |
+b2e2 (g/a/g/f/)ed f{gf}edc "tr"(cB){B}[EA]G |\
+(Ac)Be (df)(Ba) [Bg]2[Ge]2 [Ge]2ga & E4x12 | \
+!f! \
+(b3e) (g3"tr"d) e2E2 (c{d}B)(AG) | \
+(B,EGB) (Acde) {e}[eg]3[df] [df]2 (GA) | \
+([GB]3[DA]) ([EG]3{G}[A,DF]) (3[G,E]GB (3egb H{b}[Bfa]2gf | \
+(f{gf}e)dc (c{dc}B)AG {G}B2 [G,E]2 [G,E]2 |]
+V:2 clef=bass octave=-2
+L:1/8
+z [|\
+[Ee]2 [B,B]2 [Ee]2 e2 & x6bf | \
+[eb]d/e/ [fb]e [Aa][^A^a] B2 & x6b/a/g/f/ | \
+gcba [egb]b [db]e/f/ & e4 x4 | \
+ga bB e/g/b/e'/ e z | \
+[Ee]2 [Bb][^B^b] [cc'][bd']/[ac]/ [gbe']2 | \
+d'e' f'e' a^a b/a/g/f/ & b2 b2 x2 xb |\
+[Ee][Ff] [Gg] [Aa] g>e H[db]z & x4 b2 x2 | \
+ea bB e[Ee] [Ee] || \
+L:1/16
+V:2 clef=treble octave=-1
+z2 |\
+[eg]B[eg]B [eg]B[eg]B [eg]B[eg]B [eg]B[eg]B |\
+[da]B[da]B [eg]Gc^A  [V:2 clef=bass octave=-2] bBba b=agf | \
+gbe'b gbe'b ac'e'c' a=d'c'b & e4 e4 e4 e4 |\
+c'ag2 f2d2 zegb e'2 z2 | \
+gbe'b ge'ge' gb=d'2 [ac']2[gb]2 & e4 e4 x8 | \
+[Ee]4 c2^a2 B2b2 b2 z2 | \
+[Ee]4 [B,B]2[^B,^B]2 [Cc]2 z2 H[Dd]2 z2 | \
+e2a2 b2B2 [Ee]2[Ee]2 [Ee]2 |]

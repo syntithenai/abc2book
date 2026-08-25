@@ -1,0 +1,21 @@
+X:438
+T:Rondo.2voices RH.439
+R:Rondeau
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:2/4
+L:1/8
+Q:1/4=100
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] z|FDGD|FAFD|GFED|A2-AA|dfef|d2Af|edcB|A3||
+[V:2] A|dfef|d2Ad|cdef|(f2e)A|FDGD|FAFd|cBA^G|A3||
+%
+[V:1] z|(A2A)A|(d2d)d|cded|d2cA|e/d/c/B/ AA|a/g/f/e/ dd|c>d B>d|(B2A)||
+[V:2] A|e/d/c/B/ AA|g/f/e/d/ df|efgf|f2eA|A2AA|(d2d)c|A2^G2|(G2A)||
+%
+[V:1] z|FDGD|FAFD|GFED|A2- AA|dfef|dfA=c|Bgfe|(f2d)|]
+[V:2] G|dfef|d2Ad|cdef|(f2e)A|FDGD|FDFD|GBAG|(G2F)|]

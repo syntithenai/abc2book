@@ -1,0 +1,20 @@
+X:210
+T:Platz gemacht (Schottisch) GDC (st06547) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.200 (st06547) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"BB B/A/G | ("D7"GF)F2 | cc c/B/A | ("G"AG)G2 | BB dB | "D7"cc c/B/A | "Am"AA cA | "G"BB B/A/G | 
+BB B/A/G | ("D7"GF)F2 | cc c/B/A | ("G"AG)G2 | BB dB | "Am"AA !>!e2 | "G"dB "D7"cA | "G"GB Gz || [P:B] [K:D] 
+"D"AA dd | AA dd | "A7"cd ec | !>!"D"d2!>!d2 | AA dd | AA dd | "A/"cd ec | "D"dd d"_>Teil A"z || [P:C] [K:C]
+|: "C"GA Bc | G3c |  "G7"B3d | "C"c3G | GA Bc | G3c | "G7"Bc d>e | "C"cc cz :: 
+"Am"c/B/A c/B/A | "E7"Be Be | "Am"c/B/A c/B/A | !>!"E7"B2!>!E2 | "Am"c/B/A c/B/A | "E7"Be Be | "Am"c/B/A cd | "E"ee ez :| 
+% st06547
+% Feb 2, 2017

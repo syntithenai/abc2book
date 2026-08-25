@@ -1,0 +1,30 @@
+X:8
+T:Stutzbödeler  Bb  ABAC
+T:Xaver Ambauen  (* 3.2.1925)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam, getragen"   FFf | d>FB | GFD | E3 | FFf | e>Fc | GFE | D3 | 
+FFf | d>FB | FBd/B/ | c3 | FFf | e>Fc | Fe/d/c | B3 ||  
+L:1/8
+M:3/4
+[P:B] "zügig" F2 | Ff dFB2 | Ff eFA2 | Ff eFc2 | Ff dFB2 | 
+Ff dFB2 | Ff eFc2 | Ff eF dc | B4F2 | Ff dF B2 | Ff eFA2 | 
+Ff eFc2 | Ff dFB2 | Ff dFB2 | Ff eFc2 | Ff eF dc | B4 || 
+M:3/4
+[P:C] "_jeder Ton sehr breit"  !fermata!D !fermata!E !fermata!F  | G3e dc | G3B AG | F3f dB | F3d B"_rit."G | 
+F3f eF | A3B AG | F3f dF | B3 !fermata!D !fermata!E !fermata!F | G3e dc | 
+G3B AG | F3f dB | F3d BG | F3f eF | c3 "_jeder Ton sehr breit"!fermata!e !fermata!d !fermata!c | !fermata!B3 |]
+W:
+%W:Reihenfolge: ABAC
+W:notiert Edi Gasser, nach Angabe von  Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 08-04
+W:http://www.naturjodler.ch/code 08.htm  (with AUDIO)
+%May 3, 2018

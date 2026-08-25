@@ -1,0 +1,31 @@
+X:7
+T: Iwi-Juiz  F (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+%Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "mit Ausdruck, sehr langsam"  B,>D GF | B2dc/B/ | A>c GF | A4 | A,>C GF | A2ed/c/ | B>dGF | B3z | 
+B,>D GF | B2dc/B/ | A>cGF | A4 | A,>CGF | A2ed/c/ | (B4 | B2)z || 
+M:2/4
+L:1/8
+[P:B] "etwas bewegter" B AB | c3D | 2E2c  | A2GF | B3B, | D2B2 | G2FB | c3D | E2c2 | 
+A2GF | B3B, | D2BG | !fermata!F4 | zB AB | c3D | E2c2 | A2GF | 
+B3B, | D2B2 | G2FB | c3D | E2c2 | A2 GF | (B4 | B2)z2 ||  
+M:2/4
+[P:C] "froh, zügig" 
+B,D FB | E2c2 | A2c2 | Ed cE | D2B2 | F2B2 | Dc BD | C2A2 | 
+F2A2 | EF dc | B3F | D2d2 | !fermata!B4 | B,D FB | E2c2 | A2c2 | 
+Ed cE | D2B2 | F2B2 | Dc BD | C2A2 | F2A2 | EF dc | !fermata!(B4 | B2)z2 |] 
+W:
+W:Reihenfolge: A-B-C
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-04
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 25, 2018

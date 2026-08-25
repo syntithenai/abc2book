@@ -1,0 +1,17 @@
+X:1
+T:Constanze-Mazurka  CG (mz06835) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.22f  (mz06835) orig. C,G
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"E>EE2F2 | G>GG2c2 | e>ee2"A7"g2 | "Dm"a2ag fe | d>dd2A2 | "C"c>cc2G2 | "G7"a>a g2B2 | "C"c2c2z2 ::  [K:G] 
+"D7"dg f3e | "G"ced4 | "D7"c>B A>dA2 | "G"B>A G>dG2 | "D7"dg f3e | "G"ced4 | "D7"c>B A>df2 | "G"g2g2z2 :: [K:C] 
+"C"gea4 | gec4 | GA Bc de | "Dm".g2!>!f4 | fda4 | "G7"fdB4 | ag fd BG | "C"c2c2z2 :| 
+"F"A>e f>e f>A | "C"G>c e>d e>c | "G7"B>dg4 | "C"c>eg4 | "F"A>e f>e f>A | "C"G>c e>d e>c | "G7"B>d g2g2 | "C"c2c'2z2 |] 
+% mz06835
+% Dec 26, 2017

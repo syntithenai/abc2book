@@ -1,0 +1,32 @@
+X:1
+T:Hegge-Juiz  Bb  ABCD
+T:Toni Zibung-Lutz (03.01.1957)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+M:4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] D>FBF | D/F/ B/d/f>e | d2fe/d/ | c>=Bc2 | F/e/ d/c/B>D | Fd/c/B2 | 
+D>FBF | D/F/ B/d/f>e | d2fe/d/ | c>=Bc2 | Ffcd | !fermata!B3z || 
+[P:B] fe/d/ | c>=Bc_B | c2fd/c/ | B>ABA | B2 F/d/ c/B/ | 
+A>^GAB | c2 F/e/ d/c/ | B>ABc | d2 z/f/e/d/ | c>=Bc_B | 
+c2fd/c/ | B>ABA | B2F/d/ c/B/ | A>^GAB | c2f/e/ c/A/ | (B4 | B2)z ||
+L:1/4
+M:3/4
+[P:C] A/ G/ F/ | D2B | F2D | E2c | A2G/F/ | F2e | c>B A/G/ | F2d | B>A G/F/ | 
+D2B | F2D | E2c | A2G/F/ | F2e | cg/f/ c/d/ | BA/B/ c/d/ | B>zz/ || 
+M:3/4
+[P:D]  B/ B/ _A/ | G>G B/e/ | g>g f/e/ | d>B B/G/ | F>d d/B/ | 
+AA/F/ A/c/ | f>f e/c/ | B>F B/d/ | f>B B/_A/ | G>G B/e/ | g>g f/e/ | 
+d>B B/G/ | F>d d/B/ | AA/F/ A/c/ | f>f e/A/ | B>F c/d/ | !fermata!B2z/ |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. Angaben: Toni Zibung
+W:UJV-Naturjodelsammlung: Code-Nr: 58-01
+W:http://www.naturjodler.ch/code 58.htm  (without AUDIO, Sep2018)
+%September 28, 2018

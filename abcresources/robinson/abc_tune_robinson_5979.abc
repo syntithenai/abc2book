@@ -1,0 +1,27 @@
+X:1
+T:Galopp  AD (gL07866)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.206f  (gL07866) orig. A,D
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:A major
+"A"a2g2 | a3e | ce cA | "E7"e2ze |: [P:A] "A"ee ea | "E7"ag gd | dd df | "A"fe ee | 
+ec' c'e' | "E7"e'b be' | e'b bc' | "A"c'a ae | ee ea | "E7"ag gd | dd df | "A"fe ee | 
+ec' c'c' | "Bm"c'b bf | "E7"ag fg |1 "A"aa ae :|2"A"aa ac [P:B] |: "C#7"c2g>c | "F#m"c2a>c | "C#7"c2b>g | 
+"F#m"a>g f>c | "B7"B2fB | "E"B2 g>B | "B7"B2a>f | "E7"gf e>^d | ("A"e3c) | (f3c) | ("E7"e3d) | 
+(B3c) | d>B g>f | e>d c>B | "A"A2 [ca]>[ca] | [ca]2 :| [K:D] "D"{abc'}.c'2.d'2 | d'a bc' |:  [P:C] "D"d'2f2 | 
+"A7"g2e2 | "D"d4 | zd ef | "A7"g2e2 | "D"f2d2 | "A7".e2!>!e2 | za ag | "D"f2f2 | "A7"ed ef | "D"d4 | 
+zd ef | "A"e2a2 | "E7"b2^g2 | "A"a2a>a | "A7"aa bc' | "D"d'2a2 | "A7"e'2a2 | "D"d'4 | "G"zd' 'c'b | "D"a2f2 | 
+"A7"g2e2 | "D"f4 | za bc' | d'2a2 | "A7"e'2a2 | "D"f'4 | zd' c'b | a2f2 | "A7"g2e2 | "D"d2d>d | 
+d2A>A | "A7"A2c>d | .e2 .^e2 | "D".f2 (!>!a2 | a2) g>f | "A7".f2.e2 | .B2.c2 | "D".d2.f2 |1 da bc' :|2 d2z2 |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% gL07866
+% August 25, 2018

@@ -1,0 +1,18 @@
+X: 113
+T:  Mazurka GDC (mz05656)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.136 (mz05656) orig. G,D,C-Dur
+S: Repertoire der Roesti-Musik (Bern) S.124ff
+%%partsbox
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+P:ABACD
+K:G major
+[P:A] "G".b2.d2.g2 | "D7"f>e f2d2 | .c'2.e2.f2 | "G"g>a b2d2 | .b2.d2.g2 | "D7"f>e f2d2 | .c'2.e2.f2 | "G".g2g2z2 :| [K:D] 
+[P:B] |: "A7"b>a e4 | "D"b>a f4 | "A7".g2.B2.c2 | "D"d>e f>g a2 | "A7"b>a e4 | "D"b>a f4 | "A7".g2.B2.c2 | "D".d2d2"_> Teil A"z2 :| [K:C]
+[P:C] |: "C"g2 gg gg | .g2.e2.f2 | g2a3e | "G7"g2 f>e d2 | b2 bb bb | b2a2g2 | b2a3b | "C"d'2 c'>ag2 | 
+g2 gg gg | g2e2f2 | g2a3e | "G7"g2f>ed2 | d'2 d'd' d'd' | d'2d'3c' | (b2a2)b2 | "C".c'2c'2z2 :| 
+[P:D] |: "Am"c>B A>c B>A | "E7"^G>B e4 | "Am"A>^G A>B c>d | "E7".e2+>+e4 | "D7"c>B A>c B>A | "G"G>B d4 | "D7"(d2e2^f2) | "G"g2g2g2 | 
+"G7"(f2e2d2) | "C".a2g4 | "G7"(c'2b>)ab2 | "C"d'2c'>ag2 | "G7"(f2e2d2) | "C".a2g4 | "G7"c'2 b>a g>b | "C".c'2c'2z2 :|

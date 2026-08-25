@@ -1,0 +1,36 @@
+X:7
+T:Veteranen-Juiz  Bb  ABCD
+T:Trudi Kiser  (* 15.9.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] f4d4 | (c4c)E/F/ A/F/A/c/ | f4d4 | (B4B3)z | DF Bd f3d | c3B A2c2 | 
+F4 EF Ac | f3f d2c2 | (B4B3)z | f4d4 | (c4c)E/F/ A/F/A/c/ | f4d4 | 
+(B4B3)z | DF Bd f3d | c3B A2c2 | F4 EF Ac | f3c d2c2 | (B4B3)z || 
+M:2/4
+L:1/4
+[P:B]  F>=E | GF | D/F/ d/c/ | BD/F/ | f/d/ c/B/ | A/E/ F/A/ | f>d | !fermata! !breath!cC/D/ | E>D | 
+F>E | cA | Ff | e/d/ c/f/ | B>B | dB | (F2 | !breath!F) !fermata!D/!fermata!E/ | 
+F>=E | GF | D/F/ d/c/ | BD/F/ | f/d/ c/B/ | A/E/ F/A/ | 
+f>d | !breath!cC/D/ | E>D | F>E | cA | Ff | e/d/c | (B2 | B)z || 
+M:3/4
+[P:C] c2F | E>F f/d/ | B2F | D>F A/c/ | f>ec | f>g f/e/ | d2B | !breath!F> d f/d/ | 
+c2F | E>F f/d/ | B2F | D>F A/c/ | f>gf | c2d | (B3 | B2)z || 
+M:3/4
+[P:D]  f/ f/ d/ | c2F |  E/E/ E/F/ f/d/ | B2F | D>F B/c/ | f>ec | 
+f/f/ f/g/ f/e/ | d2B | Fz/f/ f/d/ | c2F | E/E/ E/F/ f/d/ | 
+B2F | D>F B/c/ | f>ec | g/f/cd | (B3 | B)zz |] 
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 20-04
+W:http://www.naturjodler.ch/code 20.htm  (with AUDIO)
+%May 18, 2018

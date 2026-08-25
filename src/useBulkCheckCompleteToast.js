@@ -36,7 +36,10 @@ export function useBulkCheckCompleteToast() {
         const linkFailureCount = session && session.links && session.links.failures
           ? session.links.failures.length
           : 0
-        const issueCount = Math.max(completenessCount, linkFailureCount)
+        const needsLoginCount = session && session.links && session.links.needsLogin
+          ? session.links.needsLogin.length
+          : 0
+        const issueCount = Math.max(completenessCount, linkFailureCount + needsLoginCount)
 
         showBulkCheckCompleteToast({
           issueCount: issueCount,

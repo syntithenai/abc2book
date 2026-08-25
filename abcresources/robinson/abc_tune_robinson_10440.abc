@@ -1,0 +1,20 @@
+X:32
+T:Hunting The Hare,aka,var. TBe.032
+T:Second Strain Divided,The. TBe.032
+M:3/4
+L:1/8
+Q:1/4=100
+N:I pasted in TBe.31 as the first line to compare.
+N:TBe.32 works as a variation, not as a harmony.
+S:Thomas Bennet MS,1718, VWML
+R:Minuet
+O:England
+H:1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+K:D major
+||f4 g2 | "^TBe.31 original"a2e2a2 | f4g2 | a2 e2 a2 |\
+f4 g2 |  a2 (gf)(ed)| (cd) (d3 c/d/) | e6 |]
+||fefgfg | "^TBe.32 variation"agaeag | fefgfg | agaeag |\
+fefgab | agfefd | (cd)(d3 c/d/) | e6 |]

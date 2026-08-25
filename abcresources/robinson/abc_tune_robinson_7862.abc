@@ -1,0 +1,31 @@
+X:190
+T:the Veleta
+M:3/4
+O:Scotland
+P:AABBCCDDCA
+R:Waltz
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+S:Simon Booth
+S:Jimmy Shand ?
+%%RRGroups:Simon Booth
+K:F major
+C2F G2F         | F2E c3                      | \
+C2G A2G         | G2F c3                      |
+c2A ^F2D        | G2B d3                      | \
+d2c A2F         |1 c/c/cc F3 :|2 c/c/cc F2c   ||
+|: \
+=B/c/cc B/c/c>B | c/f/ed e2d                  | \
+^c/d/dd c/d/d>c | d/f/ed =c2c                 |
+=B/c/cc B/c/c>B | c/f/ed g2g                  | \
+g/f/df e/d/c>c  |1 d/c/BE F2c :|2 d/c/BE F3   ||
+|:\
+[K:Bb]\
+Bf>f gfB            | Aff/g/ f3                   | \
+Af>f gfA            | Bff/g/ f3                   |
+Bf>f gfB            | Aff/g/ f3                   | \
+Af2 G3              |1 Fd2- d3 :|2 Fd- d2D        ||
+|:\
+GG/F/G/A/ BB/A/B/c/ | d/g/gg d3                   | \
+d^d>=d A>Bc         | B2A G2D                     |
+GG/F/G/A/ BB/A/B/c/ | d/g/gg d3                   | \
+d^c>d ^d2=d         |1 G3 -G2D :|2 G3-G2          |]

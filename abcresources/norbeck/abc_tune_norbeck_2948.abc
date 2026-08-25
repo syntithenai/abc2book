@@ -1,0 +1,25 @@
+X:4
+T:Svatbarska Rachenitsa
+R:rachenitsa
+O:Bulgaria
+Z:id:hn-rachenitsa-4
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Am
+c2de ~e2d | dced ~d2c | cddc cBG | AGAB ~c2G |
+   c2de ~e2d | dced ~d2c | cddc cBG | ~A2AE A3 :|
+|: cddA cdd | cBAB ~c2G | cd~B2 GAB | AGAB ~c2G |
+   cddA cdd | cBAB ~c2G | eddc cBG | ~A2cd ~A3 :| !fine!
+K:A
+|: Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA AEA |
+   Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA A3 :|
+|: AB~B2 dcA | c2cA ~B3 | B2de cde | c2cA ~B3 |
+   AB~B2 dcA | c2cA ~B3 | B2de cde | c2BA A3 :|
+K:Aphr ^c
+|: =fedc _BA=G | A_B~c2 Acd | =fedc _BA=G | ~A2AE cde |
+   =fedc _BA=G | A_B~c2 Acd | =fedc _BA=G | ~A2AE A3 :|
+K:A
+|: Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA AEA |
+   Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA AEA :|
+!D.C. al fine!

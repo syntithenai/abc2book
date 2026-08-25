@@ -1,0 +1,44 @@
+X:2
+T:Bi de Chüene of der Alp. F 2+
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+P:ABCB
+Q:1/4=58
+R:Naturjodel
+M:6/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] [M:4/4] (3cBc || (d2d/2)c/2B/2A/2 G2c2 | "F"A4C2c2 | "C7"G4C2c2 | "F"A4 !fermata!C2 (3cBc | 
+w:Ja a la  la_a la la la-a  o ja o  o ja la  o ja ja a la
+(d2d/2)c/2B/2A/2 G2c2 | "F"A4C2 (3c=Bc | [M:6/4] "C7"d3cB2C2E2G2 | [M:4/4] "F"F6d2 |] 
+w:la_a la la la-a  o ja ja la la    la-a du ja dio ho  la la
+P:B
+Q:1/4=64
+L:1/4
+[M:6/4] "C7"d>c B C/2C/2 Ed | "F"d>cA C/2C/2F d/2d/2 | "C7"d>cB C/2C/2E d/2d/2 | 
+w:da la du ja li dam u  da-a du ja li dam  u li da-a du ja li dam u li
+"F"d>cAC/2C/2 !breath! !fermata!F d | "C7"d>cB C/2C/2Ed | "F"d>cA C/2C/2 Fd | 
+w:da-a du ja li dam la  da-a du ja li dam u  da-a du ja li dam u
+"C7"d>c=B "rit."c ga | "F"f4zz |] 
+w:du-u du ja u u  u
+P:C
+Q:1/4=146
+L:1/8
+[M:3/4] cd cd cd | "C7"B2EDC2 | cd cd cB | "F"A2 FD C2 | cd cd cd | 
+w:du-li a-li a-li  du du-li dam  u-li du-li du-li  du u-li dam  du-li a-li a-li
+"C7"B2ED C2 | cd cd cg | "F"f4z2 || cd cd c[da] | "C7"[Bb]2 [Ee][Dd] [Cc]2 cd cd c[db] |
+w:du du-li dam  u-li du-li du-u  u  du-li du-li du-(u  u u-li a)  du-li du-li du-(u
+"F"[Aa]2 [Ff][Dd] [Cc]2 | cd cd c[da] | "C7"[Bb]2 [Ee][Dd] [Cc]2 | "rit."cd cd cg | "F"f6 |] 
+w:u u-li am)  du-li du-li du-(u  u u-li am)  u-li du-li d-u  u
+W:
+%W:Parts: ABCB
+%W:trad. Toggenburg
+%W:Nach Jodler Emil Hartmann (Schlaborzi)
+%W:Schellackplatte Columbia DZ 150 JK Ebnat-Kappel (1929)
+%W:Sehr speziell ist die hohe Brust - oder Falsett - Lage von Emil Hartmann. 
+%W:Die Überstimme, die auch als 1. Stimme gesungen wird, stammt von Ruedi Oberteufer.
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/Bi de Chüene of der Alp.pdf
+W:*AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #1251.10
+% Mar 04, 2019 (Güdismontag)

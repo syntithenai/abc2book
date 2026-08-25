@@ -1,0 +1,26 @@
+X:16
+T:Julia,2parts. JNu.16
+M:3/8
+L:1/8
+Q:3/8=70
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Air
+O:England
+A:Lancashire, E
+Z:vmp.Manchester Morris Men
+V:1
+V:2 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:A major
+[V:1] |: a3 | ecA | dBG | A2E |
+[V:2] |: A,,E,A, | A,,E,A, | A,,E,B, | A,,E,A, |
+%
+[V:1] a3 | ecA | dBG | A3 :|
+[V:2] A,,E,A, | A,,E,A, | A,,E,B, | A,3 :|
+%
+[V:1] |: Edd | Ecc | EBB | cde |
+[V:2] |: [E,,3E,3] | [E,,3E,3] | [E,,3E,3] | [A,,3A,3] |
+%
+[V:1] Edd | Ecc | EBB | A3 :|
+[V:2] [E,,3E,3] | [E,,3E,3] | [E,,3E,3] | A,,3 :|

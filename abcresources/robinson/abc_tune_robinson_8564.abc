@@ -1,0 +1,24 @@
+X: 70
+T:Miss Donaldson's Strathspey -- Banff
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 3
+K:Eb major
+%%staves {1 2}
+V:1
+"^Slowly when not danced"
+GB-B.G Ac-c.e | B>G (A/G/)(F/E/) [G,D]F-F.A | \
+GB-B.G Ac-c.a | (a/g/)(.f/.e/) Bd {E}e2 E2 :|
+.B,.E.G.B .e.g.b.E | .D.F.B.d (g/f/)e/d/ (e/d/)c/B/ | \
+{d}e>f (e/d/)c/B/ (c/B/)A/G/ (A/G/)(F/E/) | {G}A>B (c/B/)(A/G/) (A/G/)F/E/ DB, |
+.G,.E.G.B .e.g.b.E | .D.F.B.d (g/f/)e/d/ (e/d/)c/B/ | \
+{d}e>f (e/d/)c/B/ (c/B/)A/G/ (A/G/)F/E/ | !trill!B,>F E/D/C/B,/ [G,E]2 [G,E]2 |]
+V:2 clef=bass octave=-2
+L:1/4
+egaA | eeBb | eeaA | Bbee :|\
+eeee |  [Bb][Bb][Bb][Aa] | geaf | [Aa]AAB | [Ee][Ee]ee | BbBA | GeAF | B[B,B][Ee][Ee] |]

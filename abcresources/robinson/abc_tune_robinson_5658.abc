@@ -1,0 +1,37 @@
+X:22
+T: Jänzigrat-Juiz  Bb (trad.) ABCD(A*)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F2 | B3A B/c/d/e/ | f2c4 | f=e c2d2 | B3FD2 | d2B2Fd | c3FE2 | 
+f=ec2d2 | "*"B3FD2 | dc(B4 | B2)z2F2 | B3A B/c/d/e/ | f2c4 | 
+f=ec2d2 | B3FD2 | d2B2Fd | c3FE2 | f=ec2d2 | !fermata!B4 || 
+M:2/4
+[P:B] c2FA | E2 F2 | fe cd | Bd FB | D2F2 | fd Bd | ce FA | E2F2 | fe dc | Bd GD | !fermata! F4 | 
+c2FA | E2F2 | fe cd | Bd FB | D2F2 | fd Bd | ce FA | E2F2 | fe dc | (B4 | B2)z2 || 
+M:2/4
+[P:C] c d e | f2ec | fg fe | d2Bd | Fd cd | e2Ac | Fe dc | d2BG | F4 | 
+zc de | f2ec | fg fe | d2Bd | Fd cd | e2Ac | Fe dc | !fermata!B3z || 
+[P:D]
+M:6/8
+L:1/16
+cde | ff fe c2 ff fg fe | d2B3d F3d cd | e2A3c F3e dc | 
+d2 B3G F2 zcde | ff fe c2 ff fg fe | d2B3d F3d cd | e2A3c F3A dc | (B6B4)z2 |] 
+W:
+%W: ReihenFolge: A-B-C-D (ev. A bis *)
+W:Zum Schluss kann Teil A bis * als Abgesang sehr langsam, feierlich angefügt werden!
+W:
+W:Angabe von Karl Sigrist jun.
+W:"Vater Karl - Achers Kari - hat den Juiz seinerseits von seinem Vater als traditionellen
+W:Melodie gelernt und uns weitergegeben."
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-30
+W:http://www.naturjodler.ch/tradition-3.htm  (with AUDIO)
+%April 24, 2018

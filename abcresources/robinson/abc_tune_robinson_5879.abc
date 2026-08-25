@@ -1,0 +1,35 @@
+X:7
+T:dr Fähnler-Juiz.  C-Dur  ABCD
+T:André von Moos-Müller (7.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+Q:1/4=55
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:C major 
+[P:A] "ruhig und getragen"  c G>F | E3E c>E | G3c B>A | B3G B>c | d2zd B>G | F3F d>F | 
+G3d c>B | c3G c>d | !fermata!e2zc G>F | E3E c>E | G3c B>A | B3G B>c | 
+d2zd B>G | F3F d>F | G3f e>d | c3G d>e | !fermata!c2z || 
+L:1/8
+M:4/4
+[P:B] "freudig" e c>_B | Af/e/ d3c B/c/B/A/ | Ge/d/c3E G/c/e/c/ | gf/e/d3F G/B/d/B/ | 
+ge/d/ c2ze c>_B | Af/e/ d3c B/c/B/A/ | Ge/d/c3E G/c/e/c/ | gf/e/d3F G/g/e/d/ |  !fermata!c4z ||
+M:4/4
+[P:C] "feierlich" G A B | c>AA3c B>A | G2e2zGce | g>dd3f e>d | 
+e2c2zGAB | c>AA3c B>A | G2e2zGce | g>dd3f e>d | !fermata! c4z || 
+M:4/4
+[P:D] "freudig" e c>_B | Af/e/ d3c B/c/B/A/ | Ge/d/c3E G/c/e/c/ | gf/e/d3F G/B/d/B/ | 
+ge/d/ c2ze c>_B | Af/e/ d3c B/c/B/A/ | Ge/d/c3E G/c/e/c/ | gf/e/d3F G/g/e/d/ |  !fermata!c4z |] 
+W:
+%W:Reihenfolge: A - B - C - D
+W:Juiz zur Begleitung von Fahnenschwingern - 1994
+W:
+W:notiert Edi Gasser. Angaben André von Moos
+W:UJV-Naturjodelsammlung: Code-Nr: 37-03
+W:http://www.naturjodler.ch/code 37.htm  (with AUDIO)
+%Juni 4, 2018

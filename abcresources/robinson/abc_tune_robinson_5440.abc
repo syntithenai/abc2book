@@ -1,0 +1,17 @@
+X:192
+T:Rheinländer FBb (RL06937)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.254 (RL06937) orig. F,Bb
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Reinländer
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+c2 |: "F"dcBA c2A2 | "C7"B2B2 B3f | e2d2 c3B | "F"A2d2 c3c | dcBA c2A2 | "C7"B2B2 B3f | e2d2 c3e |1 "F"f2f2 f2c2 :|2 "F"f2f2 f2z2 || 
+|: "Bb"BBB2 d2d2 | "F"c2c2 f3f | ("C7"ed).G.B e2d2  | ("F"dc).A.dc4 |   "Bb"BBB2 d2d2 | "F"c2c2 f3f | "C7"edcB AGdc |1 "F"F2A2 F2z2 :|2 "F"F2A2 F2F2 ||  [K:Bb] 
+|: "Bb"d2dd e2d2 | "Cm"dcGdc4 | "F7"c2cc d2c2 | "Bb"cBFcB4 | "Cm"g2ge c2c2 | "Bb"f2fd B2B2 | "F7"AGFG ABcd |1 "Bb"B2d2 B2F2 :|2 "Bb"B2d2 "Bb7"B2g2 || 
+|: "Eb"g3e e2g2 | "Bb"f3d d2d2 | "F7"ede2 c2c2 | "Bb"dcd2 "Bb7"B2g2 | "Eb"g3e e2g2 | "Bb"f3d d2f2 | "F7"ede2 c2c2 |1 "Bb"B2d2 "Bb7"B2g2 :|2 "Bb"B2d2 B2z2 |] 
+% RL06937
+% Apiril 24, 2017

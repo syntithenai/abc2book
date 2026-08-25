@@ -1,0 +1,25 @@
+X:11
+T: Unterwaldner-Jodel  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+P:ABAB
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] BD Fd cB | AC Fe !fermata!A2   | A>F Fe dc | 
+BD Fd !fermata!B2 | BD Fd cB | AC Fe !fermata!A2 | A>F Fe dc | !fermata!B6 || 
+[P:B] c>G Ge dc | B>D Fd cB | AC Fe dc | BD Fd !fermata!B2 | 
+c>G Ge dc | B>D Fd cB | AC Fe dc | !fermata!B6 |] 
+W:
+%W: Parts: A-B-A-B
+W:
+W:aus "Tonpsychologie des Schweizer Volksliedes" von Alfons Leonz Gassmann
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-26
+W:http://www.naturjodler.ch/tradition-3.htm  (with AUDIO)
+%April 24, 2018

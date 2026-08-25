@@ -1,0 +1,36 @@
+X:26
+T:Huntsmans Chorus. GHW.026
+M:2/4
+L:1/8
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:Air
+O:England
+A:Norfolk
+N:I have kept the notes separated as in
+N:the MS. There is a pause  mark over the last minim.
+Z:vmp.Taz Tarry
+B:Village Music project, Watson, George
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/watson.abc
+K:G major
+[V:1]z2zA|d2 d/e/ f/g/|a2 f f|(ea) ea|f/g/f/e/ d A|d2 (d/e/) f/g/|a2f f|!
+[V:2]z2z A|F2 F/A/ d/e/|f2 d d |c2 c c|d/e/d/c/ d A|F2 F/A/ d/e/|f2 d d |!
+%
+[V:1]e2 ^g3/4 g/4|a2 zA|d2 d/e/ f/g/|a2 f f|ea ea|fe d A|d2 d/e/ f/g/|!
+[V:2]c2 d3/4 d/4|a2 z A|F2 F/A/ d/e/|f2 d d |c2 c c|dc d A|F2 F/A/ d/e/|!
+%
+[V:1]a2f f|e2 ^g3/4 g/4|a2 zA|f2 f f|d2 d d|g2 g g|e2 e e|f2 f f|!
+[V:2]f2 d d |c2 d3/4 d/4|c2 z A|A2 A A |B2 B B|B2 B B|c2 c A|A2 A A|!
+%
+[V:1]d2 d d|g2 g g|e2 z A|f2 f f|g2 f f|e2f/e/ d/e/|f2 d A|f2 f f|g2 f f|!
+[V:2]B2 B B|B2 B B|c2 z c|A2 A A|B2 A d|c2 (d/c/) (B/c/)|dA F A|A2 A A|!
+%
+[V:1](f/e/) (d/c/) f e|d2 z A|A A/ A/ A A/ A/|A A/ A/ A A/ A/|d2 A f|d2 A f|!
+[V:2]B2 A d|c2 c c|d2 z A|A A/ A/ A A/ A/|A A/ A/ A A/ A/|F2 F A|F2 F A|!
+%
+[V:1](a/g/) e (a/g/) e|(a/g/) e (a/g/) e|d2 A f|d2 A f|\
+(a/g/) e (a/g/) e|(a/g/) e (a/g/) e|!
+[V:2]E GE G|E G E G|F2 F A|F2 F A|E G E G|E G E G|!
+%
+[V:1]f d/ f/ a2|f d/ f/ a2|1 f d/ d/ d f|e2 z:|2 f d/d/ d d/d/| d4||!
+[V:2]F d/ d/ c2|d d/ d/ c2|1 d d/ d/ d d|c2 z:|2 d F/F/ F F/F/|F4|]

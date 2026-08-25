@@ -1,0 +1,23 @@
+X:352
+T:Wer tanzt mit? (Walzer) GDC (wz06368) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.123 (wz06368) orig. G,D,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+[P:A] ("G"B2e) | d3 | (G2c) | B3 | ("D7"BAd) | (B2A) | "G"GBe | d3 | (B2e) | d3 | (G2c) | 
+B3 | "D7"BAd | (B2A) | "G"G3 | Gzz :: [P:B] [K:D] "D"AAd | "A7"c3 | AAe | "D"d3 | fed | ("A7"c2e) | 
+("G"B2d) | "D"A3 | AAd | "A7"c3 | AAe | "D"d3 | fed | ("A7"c2e) | (B2c) | "D"d2"_>Teil A"z :| [P:C] [K:C]
+"C"GzA | AzG | GzA | AzG | (G2c) | (e2c) | ("G7"B3 | B)zG | GzA | AzG | GzA | 
+AzG | GBd | g2f | ("C"e3 | e)zG | GzA | AzG | GzA | AzG | Gzc | ("C7"e2c) | 
+("F"A3 | A) zg | ("G7"g2f) | (g2f) | ("C"f2e) | (f2e) | ("D7"e2d) | ("G7"A2B) | "C"c>cc | cz"_Fine"z |] 
+W:
+W:Anmerkung H.C.: St. Stephan/Simmental, Benken 43, Binningen 43, Laupenberg 1.V.410
+% wz06368
+% Dez 7, 2016

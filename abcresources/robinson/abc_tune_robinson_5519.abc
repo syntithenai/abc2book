@@ -1,0 +1,18 @@
+X:264
+T:Varsovienne FCBb  (vr07432)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.339 (vr07432) orig. F,C,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Varsovienne
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+(AB) |: "F"c>=B .c2.f2 | !>!"C7"e4 (ef) | g>^f .g2.c'2 | !>!"F"a4 (AB) | c>=B .c2.a2 | "Gm"b3.a .g.f | "C7"e>f .g2.e2 |1 !>!"F"f4 (AB) :|2 !>!"F"f4 e>f || [K:C] 
+|: "C"g(^f/g/) .c'2.e2 | g(^f/g/) .c'2.e2 | g(^f/g/) .e.g .c.e | "G7"f4 d>e | f(e/f/) .b2.d2 | f(e/f/) .b2.d2 | B>d a>g f>d |1 "C"c4 e>f :|2 "C"c4c>c || [K:F] 
+("F"cA) .f.c .A.F | !>!"C7"E4 c>c | (BG) .e.c .d.B | "F"A4c>c | (cf) .a.f .c.f | "Bb"d3b gf | ("C7"eg) c>b g>e | "F"f4 (d_e) || [K:Bb] 
+|: "F7"f>=e .f2.g2 | "Bb"f>=e .f2.d'2 | "F7"c'>b .a2.g2 | ("Bb"g4f2) | "F7"f>=e .f2.g2 | "G7"f>=e .f2.=b2 | "C7"d'>c' .g2"F7".a2 |1 "Bb"b4de :|2 "Bb"b4z2 |]  
+W:Anmerkung Hrsg.: Titel HC: Warsovienne
+% vr07432 (John aka as John Winter)
+% Aug 24, 2017

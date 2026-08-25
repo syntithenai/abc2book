@@ -1,0 +1,23 @@
+X:239
+T:Walzer CGF (wz02038)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.284 (wz02038) orig. C,G,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+O:Switzerland
+R:Walzer
+M:3/4
+L:1/4
+K:C major
+[P:A] G | "C"G2e | c3 | c2a | g3 | "G7"(gf).B  | (gf).B | ("C"fe).c | G3 | G2e | c3 | 
+"_*"c2a | g3 | "G7"(gf).B  | (gf).B | "C"c>cc | czd/e/ [P:B] |: [K:G] "D7"d2d/e/ | d2d/e/ | .d.e.f | "G"azg/g/ | 
+.B.c.d |1 "D7"f>ee | .A.B.c | "G"e>dd :|2 "D7"e>dd | "G"G3 | G"_>Teil A"z || [P:C] [K:F] c | "F"f2f | 
+"C7"e>(g ^f/g/)  | d2 (e/d/) | "F"c2 c/c/ | .d.c.A | "C7"B2B/B/ | .c.B.G | "F"A>(F A/c/) | f2f | 
+"C7"e>(b a/b/) |  d>b a/b/ | "F"c2c/c/ | .d.c.f | "C7"(.e!>!c'2) | c>d e/g/ | "F"fz a/a/ [P:D] |: "C7"b/g/c c/e/ | 
+g2g/g/ | "F"a/f/cc/e/ | f2f/f/ | "C7"(f/e/) B B/d/ | .c.d.e |1 "F"f!>!A>d | c2z :|2 "C7".be>g | "F"fzz |]  
+W:Parts: ABACD
+W:Anmerkung Hrsg.: * Takt 12: HC: h (=Swiss for b)
+% wz02072
+% Oct 1, 2016

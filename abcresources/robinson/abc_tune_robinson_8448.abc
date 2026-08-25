@@ -1,0 +1,31 @@
+X:52
+T:Mr Masson, Manse of Botriphnie
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:22 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+B | \
+B,<B-B>!wedge!c {Bc}d>cB<F | G<BF<B !trill!D>CB,D | \
+C<c-c>d {cd}[eG]>dcB &x2G2x4 | GBcd ecdf |
+d<B(B>c) {Bc}d>cB<F | G<BF<B !trill!D>C B,<D | \
+EGEC DFDB, | C>D~E>F {EF}G2 G |]
+g | \
+fBdf Bfdf | bBdf B>c{Bc}dB | gceg cgeg | (c>d)ef !trill!g2 ga/b/ |
+fBdf Bfdf | bBdf ~B>c{Bc}dB | GBFB EBDB | C>D~E>F {EF}G2 G |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Bdb][Bdb][Bdb][Bdb] | [Beb][Bdb]f/e/d & x2BB | [Ee][Ee]/[Dd]/[Cc][Dd] | [Ee][Ee][Cc] [B,B] | \
+[Bdb][Bdb][Bdb][Bdb] | [Beb][Bdb][Bf][_A_a] | [Gg][Aa][Bb][Bf] | [Ff][Ff][Ee][Ee]/ |] \
+z/ | \
+[db][db][db][db] | [db][db][db]3//[fc']//[bd'] | \
+[ee'][ee'][ee'][ee'] | [Ee]/[Dd]/[Cc]/[Dd]/[Ee][Ee] | \
+[B,B][B,B][B,B][B,B] | [B,B][B,B][Dd]/[Cc]/[B,B] | \
+[Ee][Dd][Cc][B,B] | [Ff][Ff][Ee][Ee]/ |]

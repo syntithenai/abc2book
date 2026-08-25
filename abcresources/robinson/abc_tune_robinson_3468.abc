@@ -1,0 +1,15 @@
+X:27
+T: Dorfmusikante* (Schottisch) FBb (st05099)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.364 (st05099) orig. F,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+ff | "F"f2cc c2aa | a2ff f2c'c' | "C7"c'2c2 d2e2 | "F"f4z4 |: "F"c'2c'2 a2c2 | d2ed c2c2 | aaa2 g2a2 | 
+"C7"b2ba g2g2 | c'2c'2 b2c2 | d2ed c2c2 | bbb2 d2e2 | "F"f2a2 f2z2 :: "F"c2ag f2f2 | c2ag f2f2 | a2aa g2a2 | 
+"C7"b2bg e2e2 | c2bg e2e2 | c2bg e2e2 | c'c'c'2 c2de |1 "F"f2a2 f2z2 :|2 "F"f4 f2>f2 |: [K:Bb] [L:1/8] "Bb"d'2b2 | f2d2 | 
+"F7"cd ed | c2>B2 |1 A2c2 | d2e2 | "Bb"d>e f>d' | b2z2 :|2 "F7"AB cd | ef ga | "Bb"b2d'2 | b2z2 |]  
+W: * "village musicians" (in Swiss German)

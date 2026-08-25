@@ -1,0 +1,18 @@
+X:126
+T:Leutewitzer Polka GC (pk07325) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.325 (pk07325) orig. G,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+(Bc) |: "G".d2.d2 {/d}g2.g2 | "D7"{/g}f2.f2 .A2(AB)  | c2c2 {/c}e2e2 | "G"{/e}d2d2 .B2(Bc) | d2d2 {/d}b2b2 | "D7"b2a2 a2e'2 | e'3d' c'3a |1 "G"g2g2 g2Bc :|2 
+"G"g2g2 g2z2 |: "Am/C"ABA2 g2g2 | "D7"f2f2 fed2 | "G"BcB2 a2a2 | g2g2 gfe2 | "D7"ded2 a2a2 | "G"b4 agfe | "D7"d2fe d2c2 | "G"(Tc2B2) BcB2 | 
+"D7"ded^c dfga | "G"b4 agfe | "D7"d2fe d3F |1 "G"G2g2 g2z2 :|2 "G"G2g2 g2g2 |: [K:C] "C"e2e2 ("G7"dedB) | "C"ceg2 z2g2 | "Dm"f2f2 "G7"de.f.d | 
+"C".e.g.c'2 z2g2  | e2e2 ("G7"de).d.B | "C".c.e.g2 z2g2 | ("Dm"^fa).f.d "G7"=g2g2 | "C"c2c2 c2g2 :| "C7"e'2e'2 d'd'd'2 | "F"c'2c'2 "C7"_bbb2 | "F"a2a2 "C7"ggg2 | 
+"F"f4z2(dc) | "G7"B2d2 f2a2 | "C"a3g g2c'2 | "G7"c'2b2 d'2b2 | "C"d'2c'2 e'2(ec) | "G7"B2d2 f2a2 | "C"a3g g2c'2 | "G7"c'2b2 d'3b | "C"c'2c'2 c'2z2 |] 
+%%% pk07325
+% Aug 7, 2017

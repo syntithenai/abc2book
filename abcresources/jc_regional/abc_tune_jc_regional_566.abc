@@ -1,0 +1,29 @@
+X: 131
+T:Hora de la Titu
+O:Romania
+F: http://www.youtube.com/watch?v=fbmA8wX1Tm0
+S:presented by Mihai & Alexandru David
+L: 1/8
+M: 2/4
+K:Bb
+Q:1/4=240
+V: 1
+%%MIDI gchord fz
+%%MIDI program 41
+%%MIDI bassprog 32
+%%MIDI bassvol 60
+%%MIDI beat 93 83 73 4
+|:"Bb"EEB,2|GGE2 |ABAB |_A4  |"Eb"ABcB |ABcB |ABAB |_A2G2 |
+ "Bb" EEB,2|GGE2 |ABAB |_A4  |"Eb"B_AAG|GFFE |FGFE |[1F4  :|[2"Eb"E4|
+|:"Bb"e2d2 |_d2c2|edBc |_A4  |"Eb"BcBc |BcBc |BcBc |_A4   |
+  "Bb"BccB |e_ddc|c_dcB|_A4  |"F"B_AAG|GFF=E|FGF=E|F4    :|
+|: "Bb"A2B2 |E2G2 |_A2B2|_A4  |A2B2 |E2G2 |_A2B2|_A4   |\
+  _ABA2|B_AAG|"Eb"GFF=E|FGF=E|"Bb"F4   :|
+V:2 octave=1
+%%MIDI program 41
+|:EEB,2|GGE2 |ABAB |_A4  |ABcB |ABcB |ABAB |_A2G2 |
+  EEB,2|GGE2 |ABAB |_A4  |B_AAG|GFFE |FGFE |[1F4  :|[2E4|
+|:e2d2 |_d2c2|edBc |_A4  |BcBc |BcBc |BcBc |_A4   |
+  BccB |e_ddc|c_dcB|_A4  |B_AAG|GFF=E|FGF=E|F4    :|
+|:A2B2 |E2G2 |_A2B2|_A4  |A2B2 |E2G2 |_A2B2|_A4   |\
+  _ABA2|B_AAG|GFF=E|FGF=E|F4   :|

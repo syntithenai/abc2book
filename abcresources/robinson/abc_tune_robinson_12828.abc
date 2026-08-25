@@ -1,0 +1,30 @@
+X:3
+T:Miss Leigh's Fancy.2voices. AJH.003
+M:6/8
+L:1/8
+Q:3/8=120
+O:England
+S:A.J.Hughes MS
+A:Shropshire, N
+W:Right hands across. Left hands Back again. Cast of(sic).
+W:Allemade(sic) with (3?) partner.
+W:Lead thro the Bottom and top hands (to? ?ound.
+W:No formation given.
+Z:Neil Brookes 2006
+V:1 clef=treble
+V:2 clef=bass
+%%score {1 | 2}
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:D major
+[V:1] |: FDF FDF | BAG FED | FDF FDF | GEE E3 |
+[V:2] |: D,3 F,3 | G,3 A,3 | D,3 F,3 | A,3 A,3 |
+%
+[V:1] FDF FDF | BAG FED | Bcd efg | fdd d3 :|
+[V:2] D,3 F,3 | G,3 A,3 | G,3 E,3 | D,3 D,3 :|
+%
+[V:1] |: agf edc | fed cBA | ded faf | gee e3 |
+[V:2] |: A,3 A,3 | D,3 D,3 | F,3 D,3 | A,3 A,3 |
+%
+[V:1] agf edc | fed cBA | Bcd efg | fdd d3 :|
+[V:2] G,3A,3 | D,3 F,3 | G,3 A,3 | D,3 D,3 :|

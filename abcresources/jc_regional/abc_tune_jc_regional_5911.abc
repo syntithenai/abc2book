@@ -1,0 +1,18 @@
+X: 588
+T: Sorele's Bat Mitsve
+T: Binyomele's Bat Mitsve
+C: music: Bayle Gottesmann & Alicia Svigals
+%C: Words: Beyle Gottesmann
+S: Printed MS of unknown origin with handwritten notes
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Ddor
+"^Vocal"\
+[| "Dm"d2d2 d2d2 | d2d2 d4 | "F"c2B2 c2d2 |  "A"A4 A4 \
+|  "Dm"d2d2 d2d2 | d2d2 d4 | "C"c2B2 c2d2 | "F"A4 A4
+| "Gm"G2G2 G2G2 | "F"A2FE "Bb"D4 | "F"C2C2 F2D2 | "C"C4 C4 \
+| "Bb"F2EF "C"G2FG | "F"A2FE "Gm"D4 | "A"A2G2 F2E2 | "Dm"D2D2 F2A2
+"^Instr."\
+|: "A"A2^c2 "Dm"d4 | "C"=cdec "F"f2fg | "F"afca "C"gfeg | "Dm"fedf "A"ed^c_B \
+|1,3 "A"AB^cA "Dm"dfed :|2,4 "A"AB^c2 "Dm"d4 :|

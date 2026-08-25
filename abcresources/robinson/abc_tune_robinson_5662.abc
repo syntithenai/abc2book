@@ -1,0 +1,32 @@
+X:3
+T: Bärg-Juiz  F (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:F major
+[P:A] "sehr langsam und bewegt"  c | d>c  !breath! A2c2 | f>c AF dc | E>cB2zc | d>c  !breath!A2 c2 | e>d cB DE | 
+F2 !fermata!A2 zc | d>c !breath!A2c2 | f>c AF dc | E>c B2zc | d>c !breath!G2c2 | e>d cB DE | !fermata!F4 ||
+M:4/4
+[P:B] "fröhlich bewegt" D>C | C>A Ac Ff ed | c>B BCE3D | C>B Bc Ed cE | 
+F>d cCA2zD | C>A Ac Ff ed | c>B BC E3D | C>B Bc Ed cE | 
+!fermata!F6 D>C | C>A Ac Ff ed | c>B BC E3D | C>B Bc Ed cE | 
+F>d cC A2zD | C>A Ac Ff ed | c>B BC E3D | C>B Bc Ed cE | !fermata!F4z2 || 
+M:4/4
+[P:C] "feierlich langsam" F>B | D2!>!F d/B/ Dd cB | A>c cf AF GF | 
+E>G e>d cd/c/ BE | FA fe/d/ !breath! !fermata!c2 F>B | D2 !>!F d/B/ Dd cB | 
+A>c cf AF GF | E>G e>d cd/c/ BE | F2 !fermata!f4 |]
+W:
+W:Reihenfolge: A-B-C
+W:
+W:nach Angaben von August Wirz. Original-Tonart E-Dur
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-02
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 25, 2018

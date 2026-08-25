@@ -1,0 +1,17 @@
+X:70
+T: Im schöne Wiggertal (Polka)  FBb (pk06037)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.315 (pk06037) orig. F,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+"F"A2c2 {/d}c=Bc2 | "Bb"B2d2 {/e}d^cd2 | "C7"cdef gabc' | "F"bagf edcB | A2c2 {/d}c=Bc2 | "Bb"B2d2 {/e}d^cd2 | 
+"C7"cdef gabe | "F"f2a2 f2z2 :: "F"aaf2 aaf2 | "C7"g2g2 gab2 | gge2 gge2 | "F"fefe fac'2 | aaf2 aaf2 | 
+"C7"g2g2 gab2 | g2ge g2ge | "F"f2a2 f2z2 :| [K:Bb] "Bb"b4a4 | g4f4 | "F7"agag a2f2 | e2e2 e2fa | c'4b4 | a4g4 | agag a2f2 | 
+"Bb"d4zfga | bbb2 aaa2 | g2g2f4 | "Eb"g^fgf g2b2 | e'6g2 | "Bb"f2d'd' d'2f2 | "F7"e2c'c' c'2cd | e2f2 g2a2 | "Bb"b2d'2 b2z2 |] 
+W: cf. http://www.hvwiggertal.ch/ (Wiggertal - Heimatvereinigung)
+% pk06037

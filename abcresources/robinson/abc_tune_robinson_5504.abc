@@ -1,0 +1,20 @@
+X:251
+T:Schottisch. CGF (st07762)  ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.376 (st07762) orig. C,G,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABAC
+O:Switzerland
+R:Schottische
+M:2/4
+L:1/8
+K:C major
+G [P:A] |: "C"cG (G/^F/)G | "Dm"Ad (d/^c/)d | "G7"dG e>d | "C"dc (c/B/)c | cG G/^F/G | "Dm"Ad (d/^c/)d | 
+"G7"dG e>d |1 "C"cc cG :|2 "C"cc cz |: [P:B] [K:G] "Am"AA/B/ ce | "G"ed/e/ d/c/B | dB/d/ "D7"cA | "G"Bed2 | 
+"Am"AA/B/ ce | "G"ed/e/ d/c/B | dB/d/ "D7"cA |1 "G"GG Gz :|2 "G"GG G"_>Teil A"G |: [P:C] [K:F] "F"A(c/B/) Ac | 
+zd/c/ BA | "C7"G(G/A/) Bz | "F"z(A/B/) c2 | A(c/B/)  Ac | z(d/c/) BA | "C7"G(G/A/) B/c/d/e/ | "F"ff f"_Fine"z :| 
+W:
+% st07762 (C) Mülirad-Verlag 2007
+% Oct 22, 2017 (Ichs à la discretion)

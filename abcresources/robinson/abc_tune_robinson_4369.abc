@@ -1,0 +1,16 @@
+X: 129
+T: Polka Caprina (Geissli-Polka) CF (pk05433)
+% Happy Birthday! 29. Febr. 2012
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.292 (pk05433) orig. C,F-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+"C"g2ec g2ec | a2a2g4 | "G7"c'bb2 d2f2 | "C"agg2 c2e2 | g2ec g2ec | a2a2g4 | "D7"^f2c'2 e3f | "G"g2g2  g2z2 ::
+"G7"d'2c'2 b2a2 | "C"agec G2a2 | "G7"gfdB G2g2 | "C"fecG E2c2 | "D7/F#"d2c2 B2A2 | "C/G"G2G2c4 | "Dm/F"D2A2 "G7"B,3G | "C"c2c2 c2z2 :| [K:F] 
+"F"a4 f3c | A6f2 | "C7"{/f}e2c2 e2cc | g2c2 =B2c2 | "F"a4 f3c | A6f2 | "C"{/f}e2c2 "G7"d2=BB | "C"c2cc c2c2 || 
+|: "C7"B2c2  d3e | "F"f2g2a4 | "C7"g2ce g2^fg | "F"a2fd c2A2 | "Bb"B2c2 d3e | "F"f2g2a4 | "Bb"d2df "C7"e2ag | "F"f2f2 f2z2 :| 
+"D7"a2aa a2a2 | "Gm"+>+b6 ce | "C7"g2gg g2g2 | "F"+>+a6 fa | c'2a2 f3c | "Bb"d2d2 +>+b4 | "C7"e2ee c'3e | "F"f2f2 "_> Teile CDE"f2z2 |]

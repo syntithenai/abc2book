@@ -1,0 +1,31 @@
+X:4
+T:Lady Heriet Georgina Hamilton
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 1
+K:F major
+%%staves {1 2}
+V:1
+d | \
+c3/F/A3/F/ d2 df | c3/F/A3/F/ [Fd]G[EG]f | \
+c3/2F/A3/2F/ d2 df | b/a/g/f/ c/d/e/g/ fFF :|
+f | \
+b/a/g/f/ af g/f/e/d/ cA | B3/c/ d/c/B/A/ BGGf | \
+b/a/g/f/ g/f/e/d/ cAAd | [Ac]f[Be]g [ca]ffg |
+b/a/g/f/ a/g/f/e/ g/f/e/d/ cA | [FB]3/c/ d/c/B/A/ [EB]GGA | \
+F/G/A/B/ cA d2 Bd | EG!trill![Ec]3/B/ AF[A,F] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] [Ff] [Bb] [Bb] | [Aa] [Ff] [Bb] [cc'] | \
+[Aa] [Ff] [Bb] [Bb] | [Bb] [cb] [fa] [Ff]/ :| \
+z/ | \
+[fac'] [fac'] [fbd'] [fac'] | [fbd'] [fac'] [cc'] [cc'] | \
+[fac'] [fbd'] [fac'] [fac'] | [fc'] [cc'] [fac'] [fac'] | \
+[fac'] [fac']  [fbd'] [fac'] | d'3//c'//b c'c' & f2cc | \
+[fac'] [fac'] [fbd'] [fbd'] | [cc'] [cc'] [Ff] [Ff]/ |]

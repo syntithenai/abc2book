@@ -1,0 +1,17 @@
+X:1
+T:Galop Nantais
+L:1/8
+M:6/8
+K:C major
+P:Sequence A2 B2 C2
+P:A (prepare to gallop)
+"C"G|:"F"(A3A2)A|"G"(B3B2)B|1"C"c3c dc|"G"B3B2B:|2"F"c2 cc BA|\
+M:3/8
+"G"d2z|
+P:B (gallop)
+M:6/8
+|:"G"dBGd2d|dBGd2G|"C"A2A"D"d2d|1B3"G"G3:|2G3 G3|
+M:2/4
+L:1/16
+P:C (slow polka)
+|:"C"e2c2 cBcd|1"G"c2B2 B3c|"F"B2A2 A3B|"G"A2G2G4|2"G"c2B2 B3G|"F"A2A2 "G"B2B2|"C"c4 c2 G2||

@@ -1,0 +1,25 @@
+X:1
+T: Schottisch  FBb ( st07045) ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.160  ( st07045) orig. F,Bb
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+c [P:A] |: ("F"Ac) .c.c | f2af | "C7".e.c .e.c | e>b bc | (Bc) .c.c | e2be | "F".f.c .f.c | f>a ac | (Ac) .c.c | 
+f>e f"_*"c | "Bb"Bd .d.d | "G7"g>^f g=f | ("C7"e/c'/).c' ("Bb"d/b/).b | ("F"c/a/).a fc/c/ | ("C7"c/g/).g (c/e/).e |1 "F"ff fc :|2 "F"ff f"_Fine"z |] 
+[P:B] |: "C"e/e/e/e/ ef | g>a ge | "G7"f>g fd | "C"ec'g2 | e/e/e/e/ ef | g>a ge | "G7"f>g fd | "C"cc/c/ c/c/c/c/ | "C7"c/=B/c/c/ d/^c/d/e/ | 
+("F"f/e/).f/.g/ .a.c' | "C7"g/^f/g/a/ bg | "F".f/.e/.f/.g/a2 | "C7"c/=B/c/c/ d/^c/d/e/ | ("F"f/e/).f/.g/ .a.c' | "C7"(g/^f/)g/a/ bg | "F"ff fz :| [K:Bb] 
+[P:C] |: "Bb"f2d'b/b/ | bd fB | ("F7"Ac) (ea) | e3e/e/ | (ec') af | e3f/f/ | ("Bb"fd') bf | d3f/f/ | f2d'b/b/ | 
+bd fB | ("F7"Ac) (ea) | e3e/e/ | c'f/f/ ff | "Bb"bd/d/ dd | ("F7"a/g/)f (f/g/)a |1 "Bb"bb bz :|2 "Bb"bb "_>Teil A"bc |] 
+W:
+%W:Parts: ABCA
+W:Anmerkung H.C.: "Schällibaum" Wattwil 11
+W:Anmerkung Hrsg.: Teil A, Takt 10: HC: d
+% st07045
+% June 25, 2018

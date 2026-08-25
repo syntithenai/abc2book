@@ -1,0 +1,30 @@
+X:10
+T:dr Stanser  Bb  ABC
+T:Fridolin Haldi (9.5.1918-14.11.2012)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABBC
+M:6/8
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>C | D2F dcB | A2c ecB | A3z C>D | E2F edc | B2d fdc  | 
+B3z B,>C | D2F dcB | G2B E2 B/c/ | d>F B/d/  c>F A/c/ | B3 z3 ||  
+L:1/8
+M:6/8
+[P:B] C>D E F e/F/ d/c/ | B>gf2 d/F/ c/B/ | A>gf2 e/A/ d/c/ | B>D F d/c/B2 | 
+C>D E F e/F/ d/c/ | B>gf2 d/F/ c/B/ | A>gf2 e/A/ d/c/ | B>D F d/c/ !fermata!B2 ||  
+M:3/4
+[P:C] D E F | G3F EF | G3e dc | f3d Bd | F4g2 | f3e cF | d3cd2 | 
+B3cd2 | F3D EF | G3F EF | G3e dc | f3d Bd | 
+F4g2 | f3e cF | d3c dc | (B6 | B2)zD EF | G3F EF | G3e dc | 
+f3d Bd | F4g2 | f3e cF | d3cd2 | B3cd2 | F3D EF | G3F EF | 
+G3e dc | f3d Bd | F4g2 | f3e cF | d3c dc | (B6 | B2)z2  |]
+W:
+%W:Reihenfolge: A-B-C
+W:UJV-Naturjodelsammlung: Code-Nr: 15-05
+W:http://www.naturjodler.ch/code 15.htm  (with AUDIO)
+%May 10, 2018

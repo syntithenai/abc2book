@@ -1,0 +1,16 @@
+X:29
+T:Erinnerungen an Glarus (Marsch) GF (mr04897)
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"G"g2g>a | bg dG/2B/2 | "D7"dd d/2^d/2e/2f/2 | "G".g2zg/2e/2 |: "Am/C"gf/2f/2 fc | "D7"f3f/2c/2 | "G"ed/2d/2 dB | 
+d3e/2B/2 | "D7".c!>!c2.d | ef ga | "G"b2 g>e | d2zg/2e/2 | "Am/C"gf/2f/2 fc | "D7"f3f/2c/2 | "G"ed/2d/2 dB | 
+d2z((3d/2^c/2B/2) | "D"A2 a>^g | .b !>!a2g/2f/2 | "A7"fe g^c |1 "D"dd/2d/2 dg/2e/2 :|2 "D"dd e>d |: "D7"d3e | 
+fg a^a | "G".b2 (!>!g2 | g)B c>B | "B7"B3^c | ^de fg | "Em".a2 (!>!g2 | g)g fg | "C"a2g2 | 
+f2e2 | "G"(d4 | d)d ^cd | "D7"f3e | "B7"^dc BA | "Em".A2(!>!G2 | "G7"G)g fg | "C"a2g2 | 
+"Am"f2e2 | "G/D"db (g2 | g)g fe | "D7"d3d/2^d/2 | fe cA | "G"G2 g>g |1 gd e>d :|2 "C7"g2z2 || [K:F] 
+"F"cc/2c/2 cc | cAA2 | ca g/2f/2e/2d/2 | "C7"c2.B2 | ee/2e/2 ee | ecc2 | ed/2d/2 dc/2c/2 | c3B | 
+"F"cc/2c/2 cc | cAA2 | cf/2e/2 fe | "Bb"e2.d2 | b3a/2g/2 | "F/C"a3g/2f/2 | "C7".f !>!e2 d/2e/2 | "F"ff f2 |] 
+% mr04897

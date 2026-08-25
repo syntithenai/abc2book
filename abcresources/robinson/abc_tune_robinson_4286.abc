@@ -1,0 +1,16 @@
+X: 55
+T: Guggisberger Polka FCBb (pk05418)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.285 (pk05418) orig. F,C,Bb-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+c2[P:A] |: "F"f2fg a2a2 | "Gm/Bb"g2ga b2b2 | "C7"c'2c'2 c'bab | "F"a2a2 f2c2 | f2fg a2a2 | "Gm/Bb"g2ga b2b2 | "C7"c'2c'b agfe |1 "F"f2a2 f2c2 :|2 "F"f2a2 f2z2 || [K:C]
+[P:B] |: "G7"AAA2 G2F2 | "C"F2E2E4 | "G7"BcdB +>+G4 | "C"cdec +>+G4 | "G7"AAA2 G2F2 | "C"F2E2E4 | "G7"Bcdc BGAB | "C"c2c2 c2"_> Teil A"z2 :|  [K:Bb]
+[P:C] "Bb"BBBB B2c2 | d2e2d4 | BBBB e2d2 | "F7"d2c2c4 | A4 AGAB | c2cd e4 | cdcB AGFE | "Bb"B2e2d4 |  
+BBBB B2c2 | d2e2d4 | +>+F4 =EFGA | "Eb"B2G2G4 | +>+e4 edc2 | "Bb"+>+B4 BAGF | "F7"=EF^FG ^GAdc | "Bb"B2B2 B2z2 |]

@@ -1,0 +1,30 @@
+X:12
+T:Miss Gordon of Park
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:5 - 1
+K:F major
+%%staves {1 2}
+V:1
+F2F c/A3/F | F3/G/F [Fd]3  | c/A3/F F2A          | G/E3/C    C3/D/E |
+F2F c/A3/F | F3/G/F {A}a2a | gaf    efd & c3 G3  | [Gc]d[FB] [FA]B[CG] |
+F2F c/A3/F | F3/G/F [Fd]3  | c/A3/F F2A          | GEC        CDE |
+F2F cAF    | F3/G/F {A}a2a | [cg]a[cf] [ce]f[Fd] | c3         c3 |]
+c2c   gec | cdc    c2[ca]    | [cb]2g [ca]2f    | [cg]2f edc |
+c2c   gec | cdc    [cb]3     | [ca]gf cde       | f3     F2c |
+c2c   gec | c3/d/c c2[ca]    | [cb]2g [ca]2f    | [cg]2f edc |
+[Af]3 cAc | [Fd]3  [FB]2[Fd] | cba    [Bg]f[Be] | fcA    [Ff]3 |]
+V:2 clef=bass octave=-2
+fac' fac' | fac' fbd' | fac' fac' | cgb cgb | \
+fac' fac' | fac' fac' | [ec']2[fc'] [gc']2[gd'f'] | [c'e']2[fd'] [fc']2[cgb] | \
+fac' fac' | fac' fbd' | fac' fac' | cgb cgb | \
+fac' fac' | fac' fac' | [ec']2[fc'] [gc]2[Gg] | ceg c'3 |] \
+ebc' ebc' | fac' fac' | egc' fac' | cgc' cgc' | \
+egc' egc' | egc' egc' | fac' cgb | fac' f2z | \
+ebc' ebc' | fac' fac' | egc' fac' | cgb cgb | \
+fac' fac' | Bdf b2B | cgc' cgc' | fac' f3 |]

@@ -1,0 +1,19 @@
+X:32
+T:British Hero,The. BC.32
+M:6/8
+L:1/8
+Q:3/8=100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Jig
+O:England
+A:Uncertain, probably northern
+N:The key signature of D major is probably wrong. C major gives a plausi
+N:ble result.
+Z:vmp.John Bagnall
+B:Village Music project, Cooke, Benjamin
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/cooke_b.abc
+K:D major
+"^NB try Cmaj"c|(B/c/d)c BGB|cAc BGB|(B/c/d)c BGB|AGF ABc|!
+(B/c/d)c BGB|cAc BGB|gfe dcB|AGF ABc|!
+BAG GDG|GDG gdc|BAG GDG|AGF ABc|!
+B>AG GDG|GDG gdc|gfe dcB|AGF ABc|]

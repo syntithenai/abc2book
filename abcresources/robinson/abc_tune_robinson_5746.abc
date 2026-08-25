@@ -1,0 +1,36 @@
+X:5
+T:Gschwantäbodä-Juiz  Bb  ABC
+T:Toni Vogler (2.4.1940)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:3/4
+R:Naturjodel
+L:1/8
+Q:1/4=50
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F/B,/ D/F/ | d>cB2 d/c/ B/d/ | f>e d>F D/F/ B/c/ | d>c BF fe/d/ | 
+c4F/E/ F/A/ | c>BA2 c/B/ A/c/ | e>d c>F E/F/ A/c/ | e>d cF fd/c/ | 
+B3zF/B,/ D/F/ | d>cB2 d/c/ B/d/ | f>e d>F D/F/ B/c/ | d>c BF fe/d/ | 
+c4F/E/ F/A/ | c>BA2 c/B/ A/c/ | e>d c>F E/F/ A/c/ | e>d cF fd/c/ | B3zz2 ||  
+L:1/4
+Q:1/4=120
+M:2/4
+[P:B] D2 | E2 | F2 | G>E | GA | Bc/B/ | AG | F>f | dF | Bc/B/ | 
+AG | F>F | E/F/ A/c/ | ef/e/ | dc | B>B | AG | F>z | D2 | 
+E2 | F2 | G>E | GA | Bc/B/ | AG | F>f | dF | 
+Bc/B/ | AG | F>F | E/F/ A/c/ | ef/e/ | dc/A/ | B>z || 
+L:1/8
+M:3/4
+[P:C] D F f | d3D Fd | B3D GF | E2F2 AB | c4F2 | EF AE FA | 
+cc cBA2 | DF BD FB | dd dcB2 | F3D GF | B3D EF | G3E Ge | 
+c3B AG | F2 EF Ac | f2 ed cA | B2DF fd | B6 | F3D GF | B3D EF
+G3E Ge | c3B AG | F2EF Ac | f2 ed cA | B2DF fd | B6 |] 
+W:
+%W:Reihenfolge: A-B-C
+W:UJV-Naturjodelsammlung: Code-Nr: 16-03
+W:http://www.naturjodler.ch/code 16.htm  (with AUDIO)
+%May 11, 2018

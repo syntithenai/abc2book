@@ -1,0 +1,19 @@
+X:1
+T:Schottisch  FBb  (st07627) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.130  (st07627) orig. F,Bb
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F".c(c/A/) "Bb".d(d/B/) | "F".c(c/F/)A2 | "C7"c>B AG | "F"BA (A/G/).F | .c(c/A/) "Bb".d(d/B/) | "F".c(c/F/)A2 | "C7"c>B AG | "F"FF Fz :| 
+|: [P:A] "F"A2c>B | BA GF | "C7"A/G/F/G/ c>B | "F"BA (A/^G/).A | A2c>B | BA GF | "C7"A/G/F/G/ BA | "F"FF Fz :| [K:Bb] 
+|: "Bb"d>c de | ("F7"=B/c/).c (B/c/).c | c>=B cd | ("Bb"A/B/).B (A/B/).B | F4 | "Eb"G4 | "F7"A2 e>A | "Bb"BB Bz :|
+%W:Parts:
+%W:Anmerkung H.C.: 
+% st07627
+% May 14, 2018

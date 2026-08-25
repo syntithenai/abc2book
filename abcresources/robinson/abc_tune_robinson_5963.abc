@@ -1,0 +1,16 @@
+X:1
+T:Galopp  FC (gL06748)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.78  (gL06748) orig. F,C
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F"a2a2 | "Gm"b4 | "C7"g2a>g | !>!"F"fc cc | a2a2 | "Gm"b4 | "C7"g2a>g | "F"f2z2:: [K:C] "C"ga gf | e>dc2 | 
+"G7"Ba g>B | "C"ceg2 | ga gf | e>dc2 | "G7"B>a gB | "C"c2z2 :: [K:F] "F"c/c/c/c/ cd | cfa2 | 
+"C7"ag ge | "F"fac'2 | c/c/c/c/ cd | cf a2 | "C7"ag ge | "F"ff fz  :| 
+% gL06748
+% Feb 16, 2018

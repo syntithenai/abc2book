@@ -1,0 +1,23 @@
+X:4
+T:Collon Campbells Quick Step. JMP.004
+M:6/8
+L:1/8
+Q:3/8=110
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Colonel? End of page missing 1 - originally crochet D, corrected to
+N:quaver F -
+N:but by whom?
+N:2 - shown as dotted 3 - bar missing - but so is end of pag
+H:1799
+Z:vmp.C. Graebe
+B:Village Music project, Miller, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/miller.abc
+notC:"7  ..by M.G."
+K:G major
+d | gfe dcB | cde  d2 "1"f | gfe dcB | ecA "2"A2d |!
+gfe dcB | cde d2 c | BAG AGF|"3" G3-G2 ||!
+c | B3 GAB | c3 ABc | ded gdc | BAG FED |!
+B2B GAB | cBc ABc | d2B e2c | cBA G3 |]

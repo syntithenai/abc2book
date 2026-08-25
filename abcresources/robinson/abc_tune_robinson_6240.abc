@@ -1,0 +1,23 @@
+X:1
+T:Schottisch  CF (st07818)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.187  (st07818) orig. C,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"cg ce | "G7"dd/c/ B/A/G | "Dm"fd "G7"fa | "C"gg/f/ e/d/c | "F"af ac' | {/^f}"C"g2 {/^d}"Am"e2 |  "G7"da gd | "C"d/c/c/B/ c2 ||  
+[P:B] "C"ef/g/ Tc'2 | e/g/c c/e/G | "G7"d/e/f aa | "C"c/d/e gg | e/f/g Tc'2 | e/g/c c/e/G | "G7"ad/e/ fB | "C"cc cz || [K:F] 
+[P:C] |: "F"c/f/a c/f/a | "C7"Tc'g Tc'g | bb/a/ g/f/e | "F"d'd'c'2 | c/f/a c/f/a | "C7"Tc'g Tc'g | bb/a/ g/f/e |1 
+"F"fe/d/c2 :|2 "F"ff fz || [P:D] "_F"Tc'2Tc'2 | Tc'2Tc'2 | "C7"bb/a/ bg/a/ | b3c | c'g/b/ ag | 
+"F"ddc2 | "C7"cB B/A/G | "F"BA A/G/F | "C7"cG/B/ AG | "F"ddc2 | "C7"cB B/A/G | "F"FF Fz |] 
+W:
+%W:Parts: ABCD
+%W:Anmerkung H.C.:
+%W:Anmerkung Hrsg,:
+% st07818
+% Aug 29, 2018

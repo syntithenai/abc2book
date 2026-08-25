@@ -1,0 +1,17 @@
+X:186
+T:Schottisch FBb (st02086)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.308 (st02086) orig. F,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Schottische
+M:2/4
+L:1/8
+K:F major
+[P:A] "F"c/a/f c^c | "Gm"e/d/GG2 | "C7"G/d/c G^G | "F"B/A/FF2 | c/a/f c^c | "Gm"e/d/GG2 | "C7"G/d/c/G/ GA | 
+"F"FA F"_Fine"z :: [P:B]  "C7"E/F/G/A/ B/c/d/e/ | "F"fc d/c/=B/c/ | "Gm"gd "C7"ec | "F"fc AF | "C7"E/F/G/A/ B/c/d/e/ | 
+"F"fc d/c/=B/c/ | "Gm"gd "C7"ec |1 "F"ff fz :|2 "F"ff ff [P:C] |: [K:Bb] "Bb".b2.a2 | .g2.f2 | "F7"d/e/e/e/ eA  | 
+"Bb"^c/d/d/d/ df | b2a2 | g2f2 | "F7"d/e/e/e/  eA |1 "Bb"Bd Bf :|2 "Bb"Bd B"_>Teil A"z |] 
+% st02086  (Nov 2, 2016)

@@ -1,0 +1,16 @@
+X:250
+T:Walzer FBb (wz02009)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.268 (wz02009) orig. F,Bb
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+"F"cA>B | c2.f | .a!>!g>f | "C7"e2.d | .d!>!G>A |1 B2e | .e!>!d>c | "F"c2A :|2 B2c | d/d/de | 
+"F"f3 |: [L:1/8] "C7"ba gf ed | "F"d3c AF | "C7"d3c BE | "F"d3c AF | "C7"ba gf ed | "F"d3c AF | "C7"ccd2e2 |1 
+"F"f4z2 :|2 "F"f4 d_e |: [K:Bb] "Bb"f6 | "G7"gf =ef gf | "Cm"e6 | c6 | "F"f6 | gf =ef gf | "Bb"d6 | 
+B6 | f6 | gf =ef gf | "Eb"g4g2 | c'4b2 | "F7"a3gf2 | f2g2a2 | "Bb"b3bb2 | b2z2z2 |] 
+% wz02009 (H 071/TN 7)

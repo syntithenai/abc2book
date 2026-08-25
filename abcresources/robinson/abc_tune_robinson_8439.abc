@@ -1,0 +1,26 @@
+X:50
+T:Miss Grant of Elchies
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:21 - 2
+K:Bb major
+%%staves {1 2}
+V:1
+B,<BB>c {Bc}d<B !trill!B2 | C<cc>d {cd}e<c !trill!c2 &x2G2x4 | \
+d<f-f>!wedge!g fbdB | [DF]>B [EA]/B/c/A/ {D}d<B B :|
+B/c/ | \
+dBec dB !trill!G2 &F2F2x4 | FBGB [EA]c- cB/c/ | \
+dBec dB !trill!G2 | ([DF]>B) [EA]/B/c/A/ {D}d<B- BB/c/ |
+dBec dB !trill!G2 | FBGB [EA]c- cB/c/ | \
+d<ff>g f<b B2 | ([DF]>B) [EA]/B/c/A/ {D}[Dd]<[DB] !trill![DB] |]
+V:2 clef=bass octave=-2
+L:1/4
+[B,B][B,B][B,B][Dd] | [Ee][Ee]/[Dd]/[Cc][Aa] | [B,B][Dd]/[Ee]/[Dd][B,B] |[Ff][Ff][B,B][B,B]/ :| \
+z/ | \
+[Bb][Gg][Bb][eb] | [db][eb][Ff][Ff] | [Bb][Gg][Bb][eb] | [Ff][Ff][B,B][B,B]/z/ | \
+[Bb][Aa][Bb][eb] | [db][eb][Ff][Ff] | [Bb]b[db][Bb] & xd/e/x2 | [Ff][Ff][B,B][B,B]/ |]

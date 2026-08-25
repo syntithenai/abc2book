@@ -1,0 +1,44 @@
+X:12
+T:Illegible.3voices. AJH.012
+M:6/8
+L:1/8
+Q:3/8=100
+O:England
+A:Shropshire, N
+S:A.J.Hughes MS
+N:Title very faint and not readable.
+N:The bare melody is not very inspiring but a clever arrangement in which
+N:voice 2 echoes phrases in voice 1 is quite pleasing. Voice 3 written in
+N:bass clef in MS.
+V:1
+V:2
+V:3 clef=bass
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:D major
+[V:1] |: A | dddd2f | dddd2A | ffff2a | ffff2g | aaaa2f |\
+gggg2e | fed agf | eeee2 :|
+[V:2] |: z | z6 | z2zz2A | dddd2f | dddd2e | ffff2d |\
+eeee2A | dAF fed | AAAA2 :|
+[V:3] |: z | D,D,D,D,2A,, | D,D,D,D,2A,, | F,F,F,F,2A, | A,,A,,A,,A,,2z |\
+F,F,F,F,2D, | E,E,E,E,2A,, | D,2A,, F,E,D, | A,,A,,A,,A,,2 :|
+%
+[V:1] |: A | eeee2f | dcBA2A | ffff2a | gfed2c | ffd eec | ddB ccA |\
+ffd eec | ddB ccA |
+[V:2] |: E | AAAA2d | BA^GA2A | dddd2f | edcd2z | ddB ccA | ffd eec |\
+ddB ccA | ffd eec |
+[V:3] |: z | A,,A,,A,,A,,2D, | D,3A,,3 | D,D,D,D,2F, | G,3D,2z |\
+D,3C,3 | F,3E,3 | D,3C,3 | D,2FE,2B,, |
+%
+[V:1] ead cdB | AAAA2D | FAdd2f | dddd2D | FAdf2a | ffff2z |\
+d'2a "^MS includes d as a 7th qu"afd |\
+fdA DFA |
+[V:2] c2de2E | AAAA2z | D3F3 | AFFF2z | F3A3 |\
+fddd2z | fdA DFA | d'2a afd |
+[V:3] C,2D,E,2D, | A,,A,,A,,A,,2z | F,3D,3 | D,D,D,D,2z | A,,3A,,3 |\
+F,D,D,D,2z | F,2D,D,2A,, | D,2D,A,,2A,, |
+%
+[V:1] d'2a afd | fdA DFA |a2d ede | fddd2 :|
+[V:2] fdA DFA | d'2a afd | f2d A2A | FFFF2 :|
+[V:3] F,2D,D,2A,, | D,2D,A,,2A,, | F,2D,A,2A,, | D,D,D,D,2 :|

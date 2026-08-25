@@ -1,0 +1,12 @@
+X: 503
+T: Uc Ayak
+O: Turkey
+M: 4/4
+L: 1/8
+Q: 1/4=240
+K: C
+%%MIDI program 1
+|:C4 DCDE|C4 DCDE|C4 DCDE|B,4 C4|
+C2D2 E2D2|E2D2 EDC2|C4 DCDE|B,4 C4:|
+S:https://trillian.mit.edu/~jc/music/abc/Balkan/balk2/P3:UCAYAK.abc
+

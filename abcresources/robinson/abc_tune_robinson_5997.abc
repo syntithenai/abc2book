@@ -1,0 +1,22 @@
+X:1
+T:Hochzeitzsmarsch   CG (mr07099) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.52f (mr07099) orig. C,G
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c2G2 | e2c2 | "Dm"dA "G7"BA/B/ | "C"cc/c/ cG |: "C"G2 E>G | AG e>d | c3E | .G2c2 | "G7"B3D |  
+.F2B>d | "C"c3E | "G7".G2G>G | "C"G2E>G | AG e>d | c3E | .G2 c>c | "Dm"A2 f>d | 
+"G7"cB AB | "C".c2 "G7"B>d |1 "C"cc/c/ cG :|2 "C"cc/c/ c2 |: [K:G] !>!"G"d2 B>c | !>!d2G>A | !>!B2 G>E | 
+!>!"G"D2B>e | "D7".d2`!>!A>B |  .c2!>!c>e | "G".d2 !>!G>A | .B2zd | !>!d2B>c | !>!d2G>A | !>!B2 G>E | 
+!>!D2 B>e | "D7".d2A>B | .c2 !>!E>F | "G"GG/G/ GG |1 G2!>!"D7"d2 :|2 .G2z2 || [K:C] "C"c2c>c | .c2E>G |: 
+"C"(A2G2)  | c2G2 | e3f | .c2 e>f | "G7"e3d | FG e>d | ("C"dc) (EA) | .G2 E>G | 
+"C"A2G2 | c2G2 | e3f | .c2e>f | ("G7"ed) (fd) | BG g>B | "C".c2 c>c |1 .c2E>G :|2 c2z2 |] 
+W:
+W:Anmerkung H.C.: Binningen 77, s.V. 505
+% mr07099
+% Jan 7, 2018 (High spirits vs. l'Arrogance)

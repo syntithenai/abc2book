@@ -1,19 +1,11 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Alert, Button, Form, Modal } from 'react-bootstrap'
-import BulkCheckTuneList from './BulkCheckTuneList'
-import BulkCheckTuneEditorModal from './BulkCheckTuneEditorModal'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { Alert, Button, Modal } from 'react-bootstrap'
 import SearchProgressBar from './SearchProgressBar'
-import { getBulkCheckActionAccess } from '../bulkCheckSearchAccess'
-import { useBulkCheckResolverAccess } from '../useBulkCheckSearchAccess'
-import { dismissBulkCheckReturnToast, selectedMapFromSelectionKey, subscribeBulkCheckOpenRequest } from '../bulkCheckReturnContext'
 import {
   buildLinkCheckQueue,
-  getLinkRegionWarnings,
 } from '../checkTuneLinkPlayback'
 import { getLiveTune } from '../bulkCheckTuneSync'
 import { dedupeTunesById } from '../tuneListFilter'
-import useAbcjsParser from '../useAbcjsParser'
-import useBulkCheckReports, { clearBulkCheckReportCache, invalidateTuneReportCache } from '../useBulkCheckReports'
 import {
   getBulkCheckSession,
   isBulkCheckLinkPhaseRunning,
@@ -25,52 +17,34 @@ import {
   cancelBulkCheckRun,
   isBulkCheckRunnerActive,
   startBulkCheckLinkRun,
-  startBulkCheckStaticRun,
 } from '../bulkCheckRunner'
+import {
+  groupLinkFailuresByTune,
+  linkLabel,
+  removeTuneLinkAtIndex,
+  removeTuneLinksAtIndexes,
+} from '../clearBrokenLinks'
+import { toast } from 'react-toastify'
+import {
+  selectedMapFromSelectionKey,
+  subscribeBulkCheckOpenRequest,
+} from '../bulkCheckReturnContext'
 
-const BULK_CHECK_SELECTION_WARN_THRESHOLD = 100
+function formatLinkFailure(item) {
+  const label = linkLabel(item && item.link, item && item.linkIndex)
+  const error = item && item.error ? String(item.error) : 'Playback failed'
+  return { label: label, error: error }
+}
 
 export default function BulkCheckModal(props) {
-  const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
-  const accessToken = props.token && props.token.access_token ? props.token.access_token : null
-  const resolverAccess = useBulkCheckResolverAccess(accessToken)
-
-  const getSearchAccess = useCallback(function(actionId, tune) {
-    return getBulkCheckActionAccess(actionId, {
-      tune: tune,
-      tunebook: props.tunebook,
-      resolverAvailable: resolverAccess.resolverAvailable,
-      resolverStatus: resolverAccess.resolverStatus,
-      accessToken: accessToken,
-      features: resolverAccess.features,
-    })
-  }, [
-    props.tunebook,
-    accessToken,
-    resolverAccess.resolverAvailable,
-    resolverAccess.resolverStatus,
-    resolverAccess.features,
-  ])
-
   const [show, setShow] = useState(false)
   const [phase, setPhase] = useState('intro')
-  const [hasRun, setHasRun] = useState(false)
-  const [linksChecked, setLinksChecked] = useState(false)
   const [progressPercent, setProgressPercent] = useState(0)
   const [progressMessage, setProgressMessage] = useState('')
   const [linkFailures, setLinkFailures] = useState([])
-  const [linkWarnings, setLinkWarnings] = useState([])
-  const [ignoredTuneIds, setIgnoredTuneIds] = useState({})
-  const [showIgnored, setShowIgnored] = useState(false)
+  const [needsLoginLinks, setNeedsLoginLinks] = useState([])
+  const [linksChecked, setLinksChecked] = useState(false)
   const [sessionTick, setSessionTick] = useState(0)
-  const [editingTuneId, setEditingTuneId] = useState(null)
-  const [editorOptions, setEditorOptions] = useState(null)
-  const [fixBusyTuneId, setFixBusyTuneId] = useState(null)
-  const [refreshKey, setRefreshKey] = useState(0)
-  const [tuneOverrides, setTuneOverrides] = useState({})
-  const [pendingOpenRequest, setPendingOpenRequest] = useState(null)
-  const autoLinkStartedRef = useRef(false)
-  const lastLinkRefreshKeyRef = useRef('')
 
   const selectionKey = useMemo(function() {
     if (!props.selected) return ''
@@ -80,8 +54,6 @@ export default function BulkCheckModal(props) {
       .join(',')
   }, [props.selected])
 
-  // Stable tune list for bulk-check analysis — avoid re-running all reports when one
-  // tune is edited (tuneOverrides / tunesHash must not be deps here).
   const selectedTunes = useMemo(function() {
     if (!props.tunebook || !props.selected) return []
     const tunes = props.tunebook.fromSelection(props.selected).map(function(tune) {
@@ -90,59 +62,11 @@ export default function BulkCheckModal(props) {
       return live || tune
     })
     return dedupeTunesById(tunes)
-  }, [props.tunebook, props.selected, refreshKey])
-
-  const tunesById = useMemo(function() {
-    const map = {}
-    selectedTunes.forEach(function(tune) {
-      if (!tune || tune.id == null) return
-      const key = String(tune.id)
-      const override = tuneOverrides[key]
-      if (override) {
-        map[key] = override
-        return
-      }
-      const live = getLiveTune(tune.id, { tunebook: props.tunebook })
-      map[key] = live || tune
-    })
-    return map
-  }, [selectedTunes, tuneOverrides, props.tunebook, props.tunesHash])
-
-  useEffect(function() {
-    setTuneOverrides({})
-  }, [selectionKey])
+  }, [props.tunebook, props.selected, sessionTick])
 
   const queue = useMemo(function() {
     return buildLinkCheckQueue(selectedTunes)
   }, [selectedTunes])
-
-  const hasLinks = props.tunebook && props.tunebook.hasLinks
-    ? props.tunebook.hasLinks
-    : null
-
-  const checkOptions = useMemo(function() {
-    const abcTools = props.tunebook && props.tunebook.abcTools
-    const linkContext = {
-      failures: linkFailures,
-      warnings: linkWarnings,
-      linksChecked: linksChecked,
-      hasLinks: hasLinks,
-    }
-    return {
-      hasChords: abcTools ? abcTools.hasChords.bind(abcTools) : null,
-      renderChords: abcjsParser.renderChords,
-      abcTools: abcTools,
-      hasNotesOrChords: props.tunebook && props.tunebook.hasNotesOrChords
-        ? props.tunebook.hasNotesOrChords.bind(props.tunebook)
-        : null,
-      hasLinks: hasLinks,
-      linkContext: linkContext,
-      parseAndRender: function(abc) {
-        const parsed = abcjsParser.parse(abc)
-        return abcjsParser.render(parsed, abc)
-      },
-    }
-  }, [props.tunebook, abcjsParser, hasLinks, linkFailures, linkWarnings, linksChecked])
 
   const isYoutubeLink = props.tunebook && props.tunebook.utils
     ? props.tunebook.utils.isYoutubeLink
@@ -152,92 +76,25 @@ export default function BulkCheckModal(props) {
     ? props.tunebook.utils.YouTubeGetID
     : function() { return null }
 
-  const reportsState = useBulkCheckReports(
-    selectedTunes,
-    checkOptions,
-    hasRun,
-    refreshKey
-  )
-  const reports = reportsState.reports
-  const staticCheckRunning = reportsState.running
+  const failureGroups = useMemo(function() {
+    return groupLinkFailuresByTune(linkFailures)
+  }, [linkFailures])
+
+  const needsLoginGroups = useMemo(function() {
+    return groupLinkFailuresByTune(needsLoginLinks)
+  }, [needsLoginLinks])
 
   function sessionMatchesSelection(session) {
     return !!(session && session.selectionKey === selectionKey)
   }
 
-  function buildSessionSnapshot(overrides) {
-    return Object.assign({
-      selectionKey: selectionKey,
-      phase: phase,
-      links: {
-        failures: linkFailures,
-        warnings: linkWarnings,
-        progressMessage: progressMessage,
-        checkedCount: 0,
-        totalCount: queue.length,
-        progressPercent: progressPercent,
-      },
-      ignoredTuneIds: Object.keys(ignoredTuneIds).filter(function(id) { return ignoredTuneIds[id] }),
-      linksChecked: linksChecked,
-      hasRun: hasRun,
-    }, overrides || {})
-  }
-
-  function persistSession(updates) {
-    patchBulkCheckSession(selectionKey, updates)
-  }
-
   function restoreFromSession(session) {
     setPhase(session.phase || 'intro')
     setLinkFailures(session.links && Array.isArray(session.links.failures) ? session.links.failures : [])
-    setLinkWarnings(session.links && Array.isArray(session.links.warnings) ? session.links.warnings : [])
+    setNeedsLoginLinks(session.links && Array.isArray(session.links.needsLogin) ? session.links.needsLogin : [])
     setProgressMessage(session.links ? session.links.progressMessage || '' : '')
     setProgressPercent(session.links ? session.links.progressPercent || 0 : 0)
     setLinksChecked(!!session.linksChecked)
-    setHasRun(!!session.hasRun)
-    const ignored = {}
-    ;(session.ignoredTuneIds || []).forEach(function(id) { ignored[id] = true })
-    setIgnoredTuneIds(ignored)
-  }
-
-  function resetToIntro() {
-    setPhase('intro')
-    setHasRun(false)
-    setLinksChecked(false)
-    setLinkFailures([])
-    setLinkWarnings(getLinkRegionWarnings(selectedTunes, hasLinks))
-    setProgressMessage('')
-    setProgressPercent(0)
-    setIgnoredTuneIds({})
-    setShowIgnored(false)
-  }
-
-  function runStaticCheck() {
-    const warnings = getLinkRegionWarnings(selectedTunes, hasLinks)
-    setLinkWarnings(warnings)
-    setHasRun(true)
-    startBulkCheckStaticRun({
-      selectionKey: selectionKey,
-      queueLength: queue.length,
-      staticResults: {
-        completeness: [],
-        abc: [],
-        warnings: warnings,
-      },
-    })
-    syncFromSession()
-  }
-
-  function runLinkCheck() {
-    const warnings = getLinkRegionWarnings(selectedTunes, hasLinks)
-    startBulkCheckLinkRun({
-      selectionKey: selectionKey,
-      queue: queue,
-      warnings: warnings,
-      isYoutubeLink: isYoutubeLink,
-      youtubeGetId: youtubeGetId,
-      accessToken: props.token,
-    })
   }
 
   function syncFromSession() {
@@ -246,45 +103,52 @@ export default function BulkCheckModal(props) {
     restoreFromSession(stored)
   }
 
-  useEffect(function() {
-    return subscribeBulkCheckSession(function() {
-      setSessionTick(function(tick) { return tick + 1 })
+  function runLinkCheck() {
+    startBulkCheckLinkRun({
+      selectionKey: selectionKey,
+      queue: queue,
+      warnings: [],
+      isYoutubeLink: isYoutubeLink,
+      youtubeGetId: youtubeGetId,
+      accessToken: props.token,
     })
-  }, [])
+  }
 
-  useEffect(function() {
-    syncFromSession()
-    const session = getBulkCheckSession(selectionKey)
-    if (!sessionMatchesSelection(session)) return
-    const linkRefreshKey = [
-      session.phase,
-      session.linksChecked ? '1' : '0',
-      (session.links && session.links.failures ? session.links.failures.length : 0),
-      (session.links && session.links.warnings ? session.links.warnings.length : 0),
-      session.links ? session.links.progressPercent : 0,
-    ].join(':')
-    if (linkRefreshKey !== lastLinkRefreshKeyRef.current) {
-      lastLinkRefreshKeyRef.current = linkRefreshKey
-      if (session.hasRun && (session.linksChecked || session.phase === 'links-done' || session.phase === 'running-links')) {
-        clearBulkCheckReportCache()
-        setRefreshKey(function(k) { return k + 1 })
-      }
+  function openModal() {
+    setShow(true)
+    const stored = getBulkCheckSession(selectionKey)
+    if (sessionMatchesSelection(stored)
+      && (stored.linksChecked || isBulkCheckLinkPhaseRunning(stored.phase))) {
+      restoreFromSession(stored)
+      return
     }
-  }, [selectionKey, sessionTick])
-
-  useEffect(function() {
-    if (!selectionKey) return
-    const session = getBulkCheckSession(selectionKey)
-    if (!sessionMatchesSelection(session)) return
-    if (isBulkCheckPhaseRunning(session.phase) || isBulkCheckRunnerActive()) {
-      setShow(true)
-      restoreFromSession(session)
+    setPhase('intro')
+    setLinkFailures([])
+    setNeedsLoginLinks([])
+    setLinksChecked(false)
+    setProgressMessage('')
+    setProgressPercent(0)
+    if (queue.length === 0) {
+      setLinksChecked(true)
+      setProgressMessage('No links to check in the selection.')
+      patchBulkCheckSession(selectionKey, {
+        selectionKey: selectionKey,
+        phase: 'links-done',
+        hasRun: true,
+        linksChecked: true,
+        links: {
+          failures: [],
+          needsLogin: [],
+          warnings: [],
+          progressMessage: 'No links to check in the selection.',
+          checkedCount: 0,
+          totalCount: 0,
+          progressPercent: 100,
+        },
+      })
+      return
     }
-  }, [selectionKey])
-
-  function handleClose() {
-    persistSession(buildSessionSnapshot())
-    setShow(false)
+    runLinkCheck()
   }
 
   function restoreSelectionForKey(targetSelectionKey) {
@@ -298,190 +162,159 @@ export default function BulkCheckModal(props) {
     return true
   }
 
-  function queueOpenRequest(request) {
-    if (!request || !request.selectionKey) return
-    if (restoreSelectionForKey(request.selectionKey)) {
-      setPendingOpenRequest(request)
-      return
-    }
-    openModal({ autoStartCheck: !!request.autoStartCheck })
-  }
-
-  function openModal(options) {
-    const opts = options || {}
-    dismissBulkCheckReturnToast()
-    setShow(true)
-
-    const stored = getBulkCheckSession(selectionKey)
-    if (sessionMatchesSelection(stored) && stored.hasRun) {
-      restoreFromSession(stored)
-      if (opts.autoStartCheck && stored.phase === 'intro') {
-        runStaticCheck()
+  useEffect(function() {
+    return subscribeBulkCheckOpenRequest(function(request) {
+      if (!request || !request.selectionKey) return
+      if (restoreSelectionForKey(request.selectionKey)) {
+        // selection update will remount with new key; open after restore
+        setTimeout(function() { openModal() }, 0)
+        return
       }
-      return
-    }
-
-    resetToIntro()
-    if (opts.autoStartCheck) {
-      runStaticCheck()
-    }
-  }
-
-  useEffect(function() {
-    if (!show || !hasRun) return
-    if (props.forceRefresh) props.forceRefresh()
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [show])
-
-  useEffect(function() {
-    return subscribeBulkCheckOpenRequest(queueOpenRequest)
+      openModal()
+    })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectionKey])
 
-  useEffect(function() {
-    if (!pendingOpenRequest) return
-    if (pendingOpenRequest.selectionKey !== selectionKey) return
-    openModal({ autoStartCheck: !!pendingOpenRequest.autoStartCheck })
-    setPendingOpenRequest(null)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pendingOpenRequest, selectionKey])
-
-  function handleCheckLinksClick() {
-    if (isLinkChecking) {
-      cancelBulkCheckRun()
-      return
-    }
-    runLinkCheck()
-  }
-
-  function handleIgnoreTune(tuneId) {
-    setIgnoredTuneIds(function(prev) {
-      const next = Object.assign({}, prev)
-      next[tuneId] = true
-      persistSession(buildSessionSnapshot({
-        ignoredTuneIds: Object.keys(next).filter(function(id) { return next[id] }),
-      }))
-      return next
-    })
-  }
-
-  function handleUnignoreTune(tuneId) {
-    setIgnoredTuneIds(function(prev) {
-      const next = Object.assign({}, prev)
-      delete next[tuneId]
-      persistSession(buildSessionSnapshot({
-        ignoredTuneIds: Object.keys(next).filter(function(id) { return next[id] }),
-      }))
-      return next
-    })
-  }
-
-  function refreshCheckData() {
-    if (props.forceRefresh) props.forceRefresh()
-    setRefreshKey(function(k) { return k + 1 })
-    setFixBusyTuneId(null)
-  }
-
-  function refreshTuneReportForId(tuneId, updatedTune) {
-    const liveTune = (updatedTune && updatedTune.id != null)
-      ? updatedTune
-      : (tuneId != null ? getLiveTune(tuneId, { tunebook: props.tunebook }) : null)
-    if (liveTune && liveTune.id != null) {
-      setTuneOverrides(function(prev) {
-        const key = String(liveTune.id)
-        return Object.assign({}, prev, { [key]: liveTune })
+  function handleClose() {
+    const stored = getBulkCheckSession(selectionKey)
+    if (stored) {
+      patchBulkCheckSession(selectionKey, {
+        phase: phase,
+        linksChecked: linksChecked,
+        links: {
+          failures: linkFailures,
+          needsLogin: needsLoginLinks,
+          warnings: [],
+          progressMessage: progressMessage,
+          progressPercent: progressPercent,
+          checkedCount: stored.links ? stored.links.checkedCount : 0,
+          totalCount: queue.length,
+        },
       })
-      invalidateTuneReportCache(liveTune.id)
-      if (reportsState.refreshTuneReport) {
-        reportsState.refreshTuneReport(liveTune)
-      }
     }
+    setShow(false)
   }
-
-  function handleRecheckTune(tuneId, updatedTune) {
-    if (tuneId != null) {
-      refreshTuneReportForId(tuneId, updatedTune)
-      persistSession(buildSessionSnapshot())
-      return
-    }
-    refreshCheckData()
-    persistSession(buildSessionSnapshot())
-  }
-
-  function handleEditorLiveSave(tuneId) {
-    refreshTuneReportForId(tuneId, null)
-  }
-
-  function handleEditorSaved() {
-    persistSession(buildSessionSnapshot())
-  }
-
-  function handleEditorClose() {
-    const closingId = editingTuneId
-    setEditingTuneId(null)
-    setEditorOptions(null)
-    if (closingId != null) {
-      refreshTuneReportForId(closingId, null)
-    }
-  }
-
-  const isRunning = isBulkCheckPhaseRunning(phase) || isBulkCheckRunnerActive()
-  const isLinkChecking = isBulkCheckLinkPhaseRunning(phase) || (isBulkCheckRunnerActive() && phase === 'running-links')
 
   useEffect(function() {
-    if (!show) {
-      autoLinkStartedRef.current = false
+    return subscribeBulkCheckSession(function() {
+      setSessionTick(function(tick) { return tick + 1 })
+    })
+  }, [])
+
+  useEffect(function() {
+    syncFromSession()
+  }, [selectionKey, sessionTick])
+
+  useEffect(function() {
+    if (!selectionKey) return
+    const session = getBulkCheckSession(selectionKey)
+    if (!sessionMatchesSelection(session)) return
+    if (isBulkCheckPhaseRunning(session.phase) || isBulkCheckRunnerActive()) {
+      setShow(true)
+      restoreFromSession(session)
+    }
+  }, [selectionKey])
+
+  const saveTune = useCallback(function(nextTune) {
+    if (!nextTune || !props.tunebook || typeof props.tunebook.saveTune !== 'function') return
+    props.tunebook.saveTune(nextTune)
+    setSessionTick(function(tick) { return tick + 1 })
+  }, [props.tunebook])
+
+  function clearFailureFromState(predicate) {
+    setLinkFailures(function(prev) {
+      const next = prev.filter(function(item) { return !predicate(item) })
+      patchBulkCheckSession(selectionKey, {
+        links: {
+          failures: next,
+          needsLogin: needsLoginLinks,
+          warnings: [],
+          progressMessage: progressMessage,
+          progressPercent: progressPercent,
+          totalCount: queue.length,
+          checkedCount: queue.length,
+        },
+      })
+      return next
+    })
+  }
+
+  function clearOneBrokenLink(failure) {
+    if (!failure) return
+    const live = getLiveTune(failure.tuneId, { tunebook: props.tunebook })
+      || selectedTunes.find(function(t) { return t && String(t.id) === String(failure.tuneId) })
+    if (!live) return
+    const next = removeTuneLinkAtIndex(live, failure.linkIndex)
+    saveTune(next)
+    clearFailureFromState(function(item) {
+      return String(item.tuneId) === String(failure.tuneId) && item.linkIndex === failure.linkIndex
+    })
+    toast.success('Cleared broken link')
+  }
+
+  function clearBrokenLinksForTune(tuneId) {
+    const live = getLiveTune(tuneId, { tunebook: props.tunebook })
+      || selectedTunes.find(function(t) { return t && String(t.id) === String(tuneId) })
+    if (!live) return
+    const indexes = linkFailures
+      .filter(function(item) { return String(item.tuneId) === String(tuneId) })
+      .map(function(item) { return item.linkIndex })
+    const next = removeTuneLinksAtIndexes(live, indexes)
+    saveTune(next)
+    clearFailureFromState(function(item) {
+      return String(item.tuneId) === String(tuneId)
+    })
+    toast.success('Cleared broken links for tune')
+  }
+
+  function clearAllBrokenLinks() {
+    if (!linkFailures.length) return
+    if (!window.confirm('Clear all ' + linkFailures.length + ' broken link(s) from the selected tunes?')) {
       return
     }
-    if (!hasRun || staticCheckRunning || isLinkChecking || linksChecked) return
-    if (selectedTunes.length > 0 && reports.length < selectedTunes.length) return
-    if (autoLinkStartedRef.current) return
-    autoLinkStartedRef.current = true
-    if (queue.length > 0) {
-      runLinkCheck()
-      return
-    }
-    setLinksChecked(true)
-    persistSession(buildSessionSnapshot({
-      linksChecked: true,
-      phase: 'static-done',
+    const byTune = groupLinkFailuresByTune(linkFailures)
+    byTune.forEach(function(group) {
+      const live = getLiveTune(group.tuneId, { tunebook: props.tunebook })
+        || selectedTunes.find(function(t) { return t && String(t.id) === String(group.tuneId) })
+      if (!live) return
+      const indexes = group.failures.map(function(item) { return item.linkIndex })
+      saveTune(removeTuneLinksAtIndexes(live, indexes))
+    })
+    setLinkFailures([])
+    patchBulkCheckSession(selectionKey, {
       links: {
-        failures: linkFailures,
-        warnings: linkWarnings,
-        progressMessage: 'No links to check.',
+        failures: [],
+        needsLogin: needsLoginLinks,
+        warnings: [],
+        progressMessage: 'All broken links cleared.',
         progressPercent: 100,
+        totalCount: queue.length,
+        checkedCount: queue.length,
       },
-    }))
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [show, hasRun, staticCheckRunning, isLinkChecking, linksChecked, queue.length, selectedTunes.length, reports.length])
+    })
+    toast.success('Cleared all broken links')
+  }
 
-  const editingTune = useMemo(function() {
-    if (!editingTuneId) return null
-    const key = String(editingTuneId)
-    return tunesById[key] || getLiveTune(editingTuneId, { tunebook: props.tunebook }) || null
-  }, [editingTuneId, tunesById, props.tunebook])
+  const isLinkChecking = isBulkCheckLinkPhaseRunning(phase)
+    || (isBulkCheckRunnerActive() && phase === 'running-links')
 
-  const ignoredCount = Object.keys(ignoredTuneIds).filter(function(id) {
-    return ignoredTuneIds[id]
-  }).length
-
-  const checkButtonLabel = isLinkChecking && progressPercent > 0
-    ? 'Check Links (' + progressPercent + '%)'
-    : (isLinkChecking ? 'Cancel check' : 'Check Links')
+  const icons = props.tunebook && props.tunebook.icons ? props.tunebook.icons : {}
+  const hasIssues = linkFailures.length > 0 || needsLoginLinks.length > 0
+  const alertVariant = linkFailures.length
+    ? 'warning'
+    : (needsLoginLinks.length ? 'info' : 'success')
 
   return (
     <>
       <Button
         className="bulk-ops-action-btn"
         variant="success"
-        onClick={function() {
-          openModal({ autoStartCheck: true })
-        }}
-        aria-label={hasRun ? 'Check' : 'Check'}
-        title={isRunning && progressMessage ? progressMessage : 'Check selected tunes'}
+        onClick={openModal}
+        aria-label="Check Links"
+        title="Check playback of links on selected tunes"
       >
-        {props.tunebook && props.tunebook.icons ? props.tunebook.icons.check : null}
-        <span className="bulk-ops-btn-label"> Check</span>
+        {icons.check || null}
+        <span className="bulk-ops-btn-label"> Check Links</span>
       </Button>
 
       <Modal
@@ -497,145 +330,141 @@ export default function BulkCheckModal(props) {
       >
         <Modal.Header closeButton className="bulk-check-modal-header">
           <Modal.Title>
-            Check {props.selectedCount} selected tune{props.selectedCount === 1 ? '' : 's'}
+            Check Links — {props.selectedCount} tune{props.selectedCount === 1 ? '' : 's'}
           </Modal.Title>
           <div className="bulk-check-header-actions">
-            {ignoredCount > 0 && (
-              <Form.Check
-                type="switch"
-                id="bulk-check-show-ignored"
-                className="bulk-check-show-ignored-toggle"
-                label={'Show ignored (' + ignoredCount + ')'}
-                checked={showIgnored}
-                onChange={function(e) { setShowIgnored(e.target.checked) }}
-              />
-            )}
-            {!hasRun && (
-              <Button variant="primary" size="sm" onClick={runStaticCheck}>
-                Run check
+            {isLinkChecking ? (
+              <Button variant="warning" size="sm" onClick={cancelBulkCheckRun}>
+                Cancel
               </Button>
-            )}
-            {hasRun && linksChecked && !isLinkChecking && (
+            ) : (
               <Button
                 variant="outline-primary"
                 size="sm"
                 onClick={function() {
-                  autoLinkStartedRef.current = false
                   setLinksChecked(false)
                   runLinkCheck()
                 }}
+                disabled={!queue.length}
               >
-                Recheck links
+                Recheck
               </Button>
             )}
-            {hasRun && !linksChecked && !isLinkChecking && queue.length > 0 && (
-              <Button
-                variant="primary"
-                size="sm"
-                onClick={function() {
-                  autoLinkStartedRef.current = true
-                  runLinkCheck()
-                }}
-              >
-                Check links
+            {!isLinkChecking && linkFailures.length > 0 ? (
+              <Button variant="danger" size="sm" onClick={clearAllBrokenLinks}>
+                Clear all broken links
               </Button>
-            )}
-            {hasRun && isLinkChecking && (
-              <Button
-                variant="warning"
-                size="sm"
-                onClick={handleCheckLinksClick}
-              >
-                {checkButtonLabel}
-              </Button>
-            )}
+            ) : null}
           </div>
         </Modal.Header>
         <Modal.Body>
-          {props.selectedCount >= BULK_CHECK_SELECTION_WARN_THRESHOLD && (
-            <Alert variant="warning" className="bulk-check-large-selection-warning">
-              Checking {props.selectedCount} tunes may take a while. Consider refining your selection for faster results.
-            </Alert>
-          )}
+          {isLinkChecking ? (
+            <SearchProgressBar
+              percent={progressPercent}
+              message={progressMessage}
+              defaultMessage="Checking links..."
+            />
+          ) : null}
 
-          {hasRun && staticCheckRunning && (
-            <div className="bulk-check-static-progress">
-              <SearchProgressBar
-                visible={true}
-                percent={reportsState.progressPercent}
-                message={reportsState.progressMessage || 'Analyzing tunes...'}
-                defaultMessage="Analyzing tunes..."
-              />
-            </div>
-          )}
-
-          {hasRun && isLinkChecking && (
-            <div className="bulk-check-links-progress">
-              <SearchProgressBar
-                visible={true}
-                percent={progressPercent}
-                message={progressMessage}
-                defaultMessage="Checking links..."
-              />
-            </div>
-          )}
-
-          {hasRun && !isLinkChecking && progressMessage && linksChecked && (
-            <p className="bulk-check-status-message text-muted">{progressMessage}</p>
-          )}
-
-          {resolverAccess.loginWarning ? (
-            <Alert variant="warning" className="bulk-check-resolver-login-warning">
-              <div>{resolverAccess.loginWarning.message}</div>
-              {resolverAccess.loginWarning.showLoginButton && typeof props.login === 'function' ? (
-                <div className="mt-2">
-                  <Button variant="outline-warning" size="sm" onClick={props.login}>
-                    Log in with Google
-                  </Button>
-                </div>
-              ) : null}
+          {!isLinkChecking && progressMessage ? (
+            <Alert variant={alertVariant} className="mb-3">
+              {progressMessage}
             </Alert>
           ) : null}
 
-          <BulkCheckTuneList
-            reports={reports}
-            hasRun={hasRun}
-            showIgnored={showIgnored}
-            ignoredTuneIds={ignoredTuneIds}
-            tunesById={tunesById}
-            tunebook={props.tunebook}
-            token={props.token}
-            forceRefresh={props.forceRefresh}
-            fixBusyTuneId={fixBusyTuneId}
-            getSearchAccess={getSearchAccess}
-            onEditTune={function(tuneId, options) {
-              setEditorOptions(options || null)
-              setEditingTuneId(tuneId)
-            }}
-            onIgnoreTune={handleIgnoreTune}
-            onUnignoreTune={handleUnignoreTune}
-            onRecheckTune={handleRecheckTune}
-          />
+          {!isLinkChecking && linksChecked && !hasIssues ? (
+            <p className="text-muted">No broken links found.</p>
+          ) : null}
+
+          {!isLinkChecking && needsLoginGroups.length > 0 ? (
+            <div className="bulk-check-links-section mb-4">
+              <h5 className="h6 text-info">Needing Login</h5>
+              <p className="text-muted small mb-2">
+                These sources need you to sign in. They are not broken links.
+              </p>
+              {needsLoginGroups.map(function(group) {
+                return (
+                  <div key={'login-' + String(group.tuneId)} className="bulk-check-links-tune mb-3">
+                    <div className="mb-2">
+                      <strong>{group.tuneName}</strong>
+                      {group.composer ? (
+                        <span className="text-muted"> — {group.composer}</span>
+                      ) : null}
+                    </div>
+                    <ul className="list-unstyled mb-0">
+                      {group.failures.map(function(item) {
+                        const formatted = formatLinkFailure(item)
+                        return (
+                          <li
+                            key={'login-' + String(item.tuneId) + '-' + item.linkIndex}
+                            className="bulk-check-links-needs-login d-flex align-items-start justify-content-between gap-2 py-2 border-bottom"
+                          >
+                            <div>
+                              <div className="fw-semibold">{formatted.label}</div>
+                              <div className="text-info small">{formatted.error}</div>
+                            </div>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  </div>
+                )
+              })}
+            </div>
+          ) : null}
+
+          {!isLinkChecking && failureGroups.length > 0 ? (
+            <div className="bulk-check-links-section mb-2">
+              <h5 className="h6 text-danger">Broken links</h5>
+            </div>
+          ) : null}
+
+          {!isLinkChecking && failureGroups.map(function(group) {
+            return (
+              <div key={String(group.tuneId)} className="bulk-check-links-tune mb-3">
+                <div className="d-flex align-items-center justify-content-between gap-2 flex-wrap mb-2">
+                  <div>
+                    <strong>{group.tuneName}</strong>
+                    {group.composer ? (
+                      <span className="text-muted"> — {group.composer}</span>
+                    ) : null}
+                  </div>
+                  <Button
+                    size="sm"
+                    variant="outline-danger"
+                    onClick={function() { clearBrokenLinksForTune(group.tuneId) }}
+                  >
+                    Clear broken links for tune
+                  </Button>
+                </div>
+                <ul className="list-unstyled mb-0">
+                  {group.failures.map(function(failure) {
+                    const formatted = formatLinkFailure(failure)
+                    return (
+                      <li
+                        key={String(failure.tuneId) + '-' + failure.linkIndex}
+                        className="bulk-check-links-failure d-flex align-items-start justify-content-between gap-2 py-2 border-bottom"
+                      >
+                        <div>
+                          <div className="fw-semibold">{formatted.label}</div>
+                          <div className="text-danger small">{formatted.error}</div>
+                        </div>
+                        <Button
+                          size="sm"
+                          variant="danger"
+                          onClick={function() { clearOneBrokenLink(failure) }}
+                        >
+                          Clear link
+                        </Button>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            )
+          })}
         </Modal.Body>
       </Modal>
-
-      <BulkCheckTuneEditorModal
-        show={!!editingTuneId}
-        tuneId={editingTuneId}
-        tune={editingTune}
-        initialView={editorOptions && editorOptions.initialView ? editorOptions.initialView : null}
-        autoStartChordSearch={!!(editorOptions && editorOptions.autoStartChordSearch)}
-        tunes={tunesById}
-        tunesRevision={refreshKey}
-        tunebook={props.tunebook}
-        token={props.token}
-        tunesHash={props.tunesHash}
-        forceRefresh={props.forceRefresh}
-        mediaController={props.mediaController}
-        onClose={handleEditorClose}
-        onLiveSave={handleEditorLiveSave}
-        onSaved={handleEditorSaved}
-      />
     </>
   )
 }

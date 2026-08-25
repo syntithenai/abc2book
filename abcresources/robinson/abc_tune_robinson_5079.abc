@@ -1,0 +1,19 @@
+X:160
+T:Polka FCBb (pk02335)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.398 (pk02335) orig. F,C,Bb
+S:Bündner Tänze. S.384-402. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:F major
+cA [P:A] |: "C7"B2ce B2cB | "F"A2cf A2dc | "C7"cbbc d3c | "F"caac d2cA | "C7"B2ce B2cB | "F"A2cf A2dc | 
+"C7"c'2b2 a3g |1 "F"f2a2 f2cA :|2 "F"f2a2 f2z2 |: [P:B] [K:C] "C"g2c'e !>!g4 | cegc e3c | "G7"Bcde fgab | "C"c'2b2 a3g | 
+g2c'e!>!g4 | cegc e3c | "G7"Bcde fgab | "C"c'2c'2 c'2"_>Teil A"z2 :: [P:C] [K:Bb] "Bb"b2a2 g3f | "Cm"f2e2 c3d | 
+"F7"f2e2 G2A2 | "Bb"BABc dfga | b2a2 g3f | "Cm"a2g2 c3d | "F7"f2e2 G3A |1 "Bb"B2d2 B2ff :|2 "Bb"B2d2 B2"_Fine"z2 |] 
+%W: Parts: ABAC
+% pk02335
+% Dez 4, 2016

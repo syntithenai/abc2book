@@ -1,0 +1,10 @@
+X:89
+T:L\"andler (nach Stamm) FC (LD05069)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:F transpose=3 %%MIDI gchordon
+FF |: "F"F4Ac | F4Ad | "C7"dc BG E2 | "F"dc AFC2 | F4Ac | F4Ad | "C7"dc BG EG |1 "F"F2z2FF :|2 "F"F2z2z2 || [K:C] 
+"G7"AG FD B,G, | "C"CE Gce2 | "G7"dc BA GF | "C"EC EAG2 | "G7"AG FD B,G, | "C"CE Gce2 | "G7"dc BG AB | "C"c2z2FF || [K:F]
+"F"F4Ac | F4Ad | "C7"dc BGE2 | "F"dc AFC2 | F4Ac | F4Ad | "C7"dc BG EG | "F"F2z2z2 |]

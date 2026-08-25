@@ -1,0 +1,20 @@
+X:129
+T:Polka  FCBb (ABAC) (pk09371)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.207 (pk09371) orig. F,C,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+cA [P:A] |: "C7"B2ce B2cB | "F"A2cf A3c | "C7"dcdc b3c | "F"dcdc a2cA | "C7"B2ce B2cB | 
+"F"A2cf A3c | "C7"dcdc b3e |1 "F"f2a2 f2cA :|2 "F"f2a2 f2z2 [P:B] |: [K:C] "C"gc'c'e g3e | eggc e2dc | 
+"G7"Bcde fgab | "C"c'2ba g2gg | gc'c'e g3e | eggc e2dc | "G7"Bcde fgab |1 "C"c'2c'2 c'2z2 :|2 
+"C"c'2c'2 c'2"_>Teil A"cA || [K:Bb] (3fga [P:C] |: "Bb"b2a2 g2f2 | "F7"b2ac c3B | ABcd efga | 
+"Bb"c'bab f2(3fga | b2a2 g2f2 | "F7"b2ac c3B | ABcd efga |1 "Bb"b2b2 b2(3fga :|2 "Bb"b2b2 b2z2 |] 
+%W: Parts: ABAC
+% pk09371 (HC 335/TN 4)

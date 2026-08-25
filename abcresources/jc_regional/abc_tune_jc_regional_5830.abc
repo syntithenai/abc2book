@@ -1,0 +1,40 @@
+X: 556
+T: Sher 3 ("Philadelphia")
+O: Klez Camp 98
+S: Marianne Cygnel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: APhr^c
+P:A
+|:"A"A2B2 c4- | cBc2 B2A2 | c2d2 e4- | e2de d2c2 \
+| "A"A2B2 c4- | cBc2 B2A2 | "Gm"^FGAB cdcB | "A"~B2A6 :|
+P:B
+|:"Dm"d4 "A"c3B | "Gm"cdB2 "A"A4 | c2d2 efdf | e4 a4 \
+| "Dm"d4 "A"c3B | "Gm"cdB2 ABG2 | ^FGAB cdcB | "A"~B2A6 :|
+P:C
+|:"Dm"~d8 | f6 ^g2 | ^gagf gagf | feed efA2 \
+| "Dm"d6 f2 | a4 a4 | ^gagf gagf | feed d4 :|
+P:D
+|:"Gm"g3^f g3f | g6 =f2 | "A"e3^d e3d | e6 d2 \
+| cdef gfed | cded cBAG | "Gm"^FGAB cdcB | "A"~B2A6 :|
+P:E
+|:"A"ABGB A2A2 | ABGB A2A2 | A2B2 ~c3B | ABc6 \
+| "A"ABGB A2A2 | ABGB A2A2 | "Gm"^FGAB cdcB | "A"~B2A6 :|
+P:F
+|:"Dm"d6 A2 | d6 A2 | d3A d3A | d3A d3A \
+| "Dm"d2ef def2 | d2ef def2 | "(Gm)"fggf fggf | fggf fed2
+| "Dm"f2f2 edef | d4 f2A2 | d2fe def2 | d2fe def2 \
+| "(Gm)"fggf fggf | fggf fed2 | "Dm"f2f2 "(A)"edef | "Dm"d8 :|
+P:G
+|:"A"A2a2 A2a2 | A2 a6 | "Gm"g3f g3f | "A"fee2- e4 \
+| "Gm"G2g2 G2g2 | G2 g6 | "A"f2e2 d2c2 | cfe2- e2A2 |
+| "A"c2d2 e2f2 | g2f2 e2d2 | cded ~c3B | "Gm"AGAB ~A2G2 \
+| "A"c2d2 e2f2 | g2f2 e2d2 | "Gm"cded ~c3B | "A"~B2A6 :|
+P:H
+|:"Dm"a4 "A/E"g4 | "Dm"f4 "A"e4 | "Dm"d3e fefd | "A"e4 z2(3ef^f \
+| "Gm"gfge "Dm"fefd | "A"edfe "Dm"d4 | "A"cded "Gm"~c3B | "A"~B2A6 :|
+D2 \
+P:I
+|:"Gm"G4 A4 | B4 d4 | "A"cded ~c3B | ABAB ~A2G2 \
+| "Gm"G4 A4 | B4 d4 | "A"cded "Gm"~c3B | "A"~B2A6 :|

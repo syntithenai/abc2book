@@ -1,0 +1,16 @@
+X:114
+T:Polka  CF (pk09319)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.185 (pk09319) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"egg2 gc'c'2 | cee2 egg2 | "G7"g2fd B2a2 | "C"a2ge c2c2 | cee2 ec'c'2 | cee2 egg2 | "G7"g2fd B2g2 | "C"c2e2 c2z2 :: 
+"C"g2g2 c'2c'2 | e2cag4 | "G7"defg b2a2 | "C"a2g^f g2ec | g2g2 c'2c'2 | e2cag4 | "G7"defg bag2 | "C"c2e2 c2z2 :: [K:F] 
+"F"c2cc a3b | "C7"a2g2 ^f2g2 | B2BB g3a | "F"g2f2 e2f2 | c2cc f3a | "Bb"g2f2 e2d2 | "C7"c2b2 egc2 | "F"f2a2 f2z2 :| 
+% pk09319

@@ -1,0 +1,18 @@
+X:140
+T:Polka CF (pk06601)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.257 (pk06601) orig. C,F
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"EGG2 "F"FAA2 | "C"EGG2 c2e2 | "G7"dff2 B2d2 | "C"cee2 G4 | EGG2 "F"FAA2 | "C"EGG2 c2e2 | 
+"G7"dff2 B2d2 | "C"c2c2 c2z2 :: !>!"D7"d4 cBcA | "G"G2B2D4 | "D7"B2A2 A^GA2 | "G"A2G2 G^FG2 | !>!"d7"d4 cBcA | 
+"G"G2B2D4 | "D7"DE^FG ABcF | "G"G2GG G2G2 | "G7"f2G2 f2B2 | "C"c2E2 G3c | "G7"c2B2 F3A |  "C"A2G2E4 | 
+"G7"f2G2 f2B2 | "C"c2E2 G3c | "G7"c2BA GABG |1 "C"c2c2 c2z2 :|2 "C"c2c2 c3C |: [K:F] "F"C2A2 F3E | "Gm"E2D2!>!B4 | 
+"C7"cdcA B2G2 | "F"cdcB A2F2 | C2A2 F3E | "Gm"E2D2!>!B4 | "C7"cdcB A2E2 |1 "F"F2F2 F3C :|2 "F"F2F2 F2"_d.c."z2 |] 
+% pk06601
+% April 30, 2017

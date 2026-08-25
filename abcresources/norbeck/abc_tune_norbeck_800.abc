@@ -1,0 +1,32 @@
+X:460
+T:Geese in the Bog, The
+R:jig
+H:See also #476
+D:The Alt
+Z:id:hn-jig-460
+M:6/8
+L:1/8
+K:F#m
+Bcf afe | cef A2B | Bcf afe | fBA BAB |
+[1 c2f afe | cef A2B | c/B/Ac AFE | FBA B3 :|
+[2 Bcf afe | cef A2B | c2c AFE | FBA B3 ||
+|: efa a2e | fab afe | efa afe | fBA BAB |
+efa a2e | fab afe | c/B/Ac AFE |1 FBA B3 :|2 F2B BAF ||
+P:variation 1
+cef ~f3 | e~f2 A2B | c2f afe | fBA BAB |
+c2f a~f2 | e~f2 A2B | c/B/Ac AFE | FBA B3 |
+c~f2 a~f2 | e~f2 A2B | c2f afe | fBA BAB |
+cef afe | cef A2B | c2c AFE | FBA B3 ||
+|: efa a2e | fab afe | efa afe | fBA BAB |
+efa a2e | fab afe | c2c AFE |1 FBA B3 :|2 F2B BA=G ||
+P:variation 2
+|: ~F3 =GFE | F2F A2E | ~F3 FEF | AFA B2A |
+[1 F2F A2F | E~F2 A2B | c/B/Ac AFE | F2B BA=G :|
+[2 ~F3 AFE | C2F A2B | c/B/Ac AFE | FBA B3 ||
+|: efa a2e | fab afe | efa afe | fBA BAB |
+efa a2e | fab afe | c2c AFE |1 FBA B3 :|2 F2B BAB ||
+P:variation 3
+|: c~f2 a~f2 | e~f2 A2B | c2f afe | fBA BAB |
+cef afe | cef A2B | c2c AFE | FBA B3 :|
+|: efa a2e | fab afe | efa afe | fBA BAB |
+efa a2e | fab afe | c2c AFE |1 FBA B3 :|2 F2B BAB ||

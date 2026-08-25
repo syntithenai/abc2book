@@ -1,0 +1,16 @@
+X: 345
+T: Sadi Moma
+O: Bulgaria
+F: http://www.youtube.com/watch?v=I2_ulhi1pSU
+F: http://www.youtube.com/watch?v=AhGCT0GTzbs
+F: http://www.youtube.com/watch?v=ULG1pCQhYC8
+S: Deborah Jones VIFD Book I
+M: 7/8
+L: 1/8
+Q: 1/4=120
+K: EDor
+%%MIDI gchord fzzczcz
+|:"G" G2 A B3 A          |{c}d2 G A3 G   | "A7" (4GFEF "D" D2-D2|
+  "A7" D3 E3 F           | G3 "D" F3 A   |"Am" E3-E2-E2-        |"Em"E3-E2-E2 :|
+|:"A7" A2 G "D" F2 "A7"E2| "D" F2 G FE D2| D3 "A7" E3 F         |G3 "D" F2 A2 |
+  [1 "A" E3 E2-E2        |"A7" A2G F2-F2 :|[2 "Am" E3 E2-E2     |"Em" E3-E2-E2|

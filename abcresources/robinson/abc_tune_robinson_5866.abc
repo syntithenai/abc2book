@@ -1,0 +1,37 @@
+X:1
+T:Gerlismatter-Juiz  BbEb  ABCD
+T:Marcel Gerig (12.1.1961)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] "_F,"F>D | B,3FD2 D/F/B/c/ | d3cB2 Fd/f/ | c2Ff edcA | 
+B2dBF2 "_F,"F>D | B,3F D2 D/F/B/c/ | d3cB2 Fd/f/ | c2Ff edcA |  !fermata!B4z2 || 
+L:1/4
+M:4/4
+[P:B] FF | B>cdB | F2Fd | c>Fce | F2FE/F/ | c>Fce | 
+FE/F/dc | B>DF F/d/ | B2FF | B>cdB | F2Fd | 
+c>Fce | F2FE/F/ | c>Fce | FE/F/BA | (B4 | B)z ||
+K:Eb
+M:3/4
+L:1/8
+[P:C] G>B | E3B, Ec | B2G2GB | A3D FB | A4 A>B | D3B, Dc | B2A2 AB | G3E Gc | 
+B4c>B | E3B, Ec | B2e2c2 | d3B dB | A4 A>B | D3B, DF | d2B2D2 | (E6 | E2)z2 || 
+L:1/4
+M:3/4
+K:Bb
+[P:D] "gemütliches Walzertempo"  F|B2F | d2B | c2F | f3 | c2F | f2d/c/ | B>cd | F2F | B2F | d2B | 
+c2F | f3 | c2F | f>dc | (B3 | !breath!B2)F | B2F | d2B | c2F | f3 | c2F | 
+f2d/c/ | B>cd | F2F | B2F | d2B | c2G | e2c/B/ | A>cF | fcd | (B3 | B)z |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 32-02
+W:http://www.naturjodler.ch/code 32.htm  (with AUDIO)
+%May 29, 2018

@@ -1,0 +1,17 @@
+X:142
+T:Olga-Mazurka CGF (mz02276)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.340 (mz02276) orig. C,G,F
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+[P:A] "C"GEC2A2 | GEC2e2 | "G7"edA3B | "C"dc BcG2 | GEC2A2 | GEC2e2 | "G7"ed ^cd AB | "C"c2c2z2 :| [K:G]
+[P:B] |: "G"d>e d3c | B>AB4 | ("D7"FG AB) cF | ("G"GA Bc) dg | d>e d3c | B>AB4 | ("D7"FG AB) cF | "G"G2G2"_>Teil A"z2 :| [K:F] 
+[P:C] |: "F"C>FA3B | "C7"AG ^FGc2 | C>EG3A | ("F"GF EF)C2 | F>Ac3d | ("Gm"cB AB)d2 | "C7"c2 GA BE | "F"F2F2z2 :| 
+% mz02276  
+% Nov 9, 2016

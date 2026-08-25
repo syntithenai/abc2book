@@ -1,0 +1,32 @@
+X:56
+T:Julia,aka,2voices. WHG.055a
+R:Quadrille
+S:W.H.Giles MS,Bampton,Oxfordshire,1839p57- p59
+O:England
+H:donated by Mrs W.R.Kettlewell to VWML,Apr 1927.
+A:Oxfordshire - Bampton
+N:In the 2nd voice, bar 4 there is a
+N:confused, crossed-over pair of quaver pairs feintly
+N:marked over the first 2 notes, and a similarly
+N:feint A4 for the second half of the bar. I think this
+N:may be intended to denote an alternative bar |dB ec A4|.
+Z:PJHeadford - VMP 2009
+M:C
+L:1/8
+Q:2/4=80
+B:Village Music project, Giles, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gileswh.abc
+notC:untitled in MS
+K:C major
+V:1
+|:g>fg>a g>=fe>d|c2c2 c>Bcd|e2e2 egfe|d2d2 d2ef|
+g>^fga g>=fed|c2c2 cBcd|e2e2 d>cde|c2c2 c2z2:|
+|:c>Bcd e3c|c>Bd>B G2A>B|c>Bcd edec|BcdB G2G2|
+[Gg][Ff][Ee][Ff] [Gg][Aa][Bb][cc']|[Gg][Ff][Ee][Ff] [Gg][Aa][Bb][cc']|\
+g2ge f2fd|c2c2 c2z2:|
+V:2
+|:e>de>f e>dc>B|c2G2 E>DEG|c2c2 cedc|B2B2 B2cd|
+e>de>f e>dc>B|c2G2 EDEF|G2G2 FEFG|[E2G2][E2G2][E2G2]A2:|
+|:E>DEG c3G|E2G2 D2G2|E>DEG c2c2|ecBA G2G2|
+edcd e2e2|edcd e2e2|\
+e2ec d2dB|c2G2 E2z2:|

@@ -1,0 +1,21 @@
+X:94
+T:La Triomphante (Kontratanz) Bb (kt02301)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.351 (kt02301) orig. Bb
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABCB
+R:Kontratanz
+M:2/4
+L:1/8
+K:Bb major
+[P:A] "Bb"B2fd | B2 FD | "Eb"EG "F7"FE | "Bb"DF/D/ B,B, | "F"Ac fa | "C7"g=e cB | "F"Ac/d/ "C7"c/B/A/G/ | "F"F2F2 || 
+[P:B] "Bb"fd/e/ dd | fd BF | "F7"ec/d/ cc | ec AF | "Bb"D/B/F/B/ D/B/F/B/  | "Gm"D/B/G/B/ "Eb"E/B/G/B/ | "F7"F/A/c/e/ d/c/B/A/ | "Bb"B2"_Fine"B2 || 
+[P:C] "Bb"B/c/d/e/ fg | "F7"fg/a/ "Bb"b2 | fd/f/ "F7"ec/A/ | cd/c/ "Bb"BB | "F"FA/c/ fa | "C7"g=e cB | "F"A/B/c/d/ "C7"c/B/A/G/ | "F"F2"_>Teil B""F7"F2 |] 
+W:
+W:"Diese (Kontra-)Tänze gehören zum Repertoire der um 1765 in Frankreich beliebten Tänze 
+W:und wurden vom Autor wahrscheinlich während seiner Militärzeit in Frankreich aufgeschrieben." Hrsg. S.350
+% kt02301  
+% Nov 15, 2016

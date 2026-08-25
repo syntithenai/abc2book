@@ -1,0 +1,23 @@
+X: 99
+T:Mrs Stewart's Strathspey -- of Inverugie
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:35 - 3
+K:D major
+%%staves {1 2}
+V:1
+D<DF>D d/c/B/A/ ~F2 | (BE)EF G>A B<d | \
+D<DF>A d/c/B/A/ FD | Adce dDdf :|
+{c}d>AF>A d/c/B/A/ {c}d2 | (e>E)E>F G>ABc | \
+{c}d>AF>G d/e/f/g/ af | fdAG FDFA |
+{c}d>AF>A d/c/B/A/ {c}d2 | (e>E)E>F G>ABc | \
+dfec dBAF |GBAc dDdf |]
+V:2 clef=bass octave=-2
+L:1/4
+DDDD | eeee | dddd | dAdd :| \
+dddd | eeee | ddd[Ac] | dAdd | dddd | eeee | d'abf | gadd |]

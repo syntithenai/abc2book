@@ -1,0 +1,33 @@
+X:1
+T:Gisler-Juiz  Bb  ABCB
+T:Xaver Gisler (1914-1989)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCB
+R:Naturjodel
+M:2/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FE | D>C | D>C | DE | FB/c/ | d2 | fe/d/ | c>E | 
+Ff | dc | Bd | !fermata!F2 | FE | D>C | D>C | DE | 
+FB/c/ | d2 | fe/d/  | c>E | Ff | dc | ("rit."B2 | B>)z || 
+L:1/4
+M:2/4
+[P:B] fe | d>F | F2 | D/F/ e/d/ | c/E/ F/d/ | c2 | fe | c>E | 
+Ff | dc | Bd | !fermata!F2 | fe | d>F | F2 | D/F/ e/d/ | 
+c/E/ F/d/ | c2 | fe | c>E | Ff | dc | ("rit."B2 | B>)"_Fine"z || 
+L:1/4
+M:2/4
+[P:C] GB | E>F | Gg | fe | d>F | f2 | d/f/ e/d/ | c/E/ F/d/ | 
+c2 | E/F/ d/c/ | B/D/ F/d/ | !fermata!B2 | GB | E>F | Gg | fe | 
+d>F | f2 | d/f/ e/d/ | c/E/ F/d/ | cf | dc | ("rit."B2 | "_>Teil B"B>)z |] 
+W:
+%W:Reihenfolge: A - B - C - B
+W:
+W:notiert Edi Gasser. %Angaben: 
+W:UJV-Naturjodelsammlung: Code-Nr: 48-01
+W:http://www.naturjodler.ch/code 48.htm  (with AUDIO)
+%Juni 13, 2018

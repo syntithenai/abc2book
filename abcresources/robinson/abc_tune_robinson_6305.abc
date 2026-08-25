@@ -1,0 +1,20 @@
+X:1
+T:Rosenstrauss-Walzer  FBbEb  (wz06767) 
+T: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.83  (wz06767) orig. F,Bb,Eb
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+d |: "C7"c3 | zGB | "F"A3 | zcd | "C7"c3 | zGB | "F"A3 | zcf | "Bb"f3 | zBd | "Gm"d3 | 
+zAc | "C7"c3 | zGA |1 "F"F3 | zcd :|2 ("F"F3 | F)zz |: [K:Bb] "F7".A.A.B | .c.d.e | "Bb".f.g.f | z"G7"ed | 
+"Cm".e.f.e | z"F7"dc | "Bb".d.e.d | ze/d/ c/B/ | "F7".A.A.B | .c.d.e | "Bb".f.g.f | "Eb"z.ge |  "Bb".d.e.d | "F7"zcf |1 
+"Bb"B3 | ze/d/ c/B/ :|2 "Bb"BzB |: [K:Eb] "Eb"g3 | ("Ab"e2c) | "Eb"B =A/B/ c/B/ | (G2B) | "Bb7"A3 | "Eb"G2A/G/ | 
+"Bb7"FB/=A/ B/c/ | Bc/d/ e/f/ | "Eb"g3 | ("Ab"e2c) | "Eb"B =A/B/ c/B/ | (e2f) | g2(a/g/) | "Bb7"f2(g/f/) | "Eb"e3 |1 
+ezB :|2 ee/d/ c/B/ || [K:Bb] "F7"AAB | cde | "Bb"fgf | "G7"zed | "Cm"efe | "F7"zdc | "Bb"ded | 
+ze/d/ c/B/ | "F7"AAB | cde | "Bb"fgf | "Eb"zge | "F7"dec | zdA | "Bb"B>BB | Bzz |] 
+% wz06767
+% Feb 18, 2018 (Petras Ukulele)

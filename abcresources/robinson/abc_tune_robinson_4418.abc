@@ -1,0 +1,16 @@
+X: 174
+T: Schottisch FCBb (st05945)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.172 (st05945) orig. F,C,Bb-Dur
+S: Tänze aus Saanen (Bern) S.170ff
+%%partsbox
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+P:ABAC
+K:F major
+[P:A] "F"c2c2 Acfe | "Bb"d2d2 Bdgf | "C7"e2e2 c'2c'2 | "F"a2ag f2f2 | c2c2 Acfe | "Gm/Bb"d2d2 Bdgf | "C7"eceg c'bag | "F"f2a2 f2z2 :| [K:C] 
+[P:B] |: "C"g3a "G7"g2f2 | "C"e2c'2 eee2 | "Dm"d2a2 "G7"B2g2 | "C"c2e2 +>+G4 | g3a "G7"g2f2 | "C"e2c'2 eee2 | "Dm"d2a2 "G7"B2g2 | "C"c2e2 c2"_> Teil A"z2 :| [K:Bb] 
+[P:C]  "Bb"{fga}b3f b3f | "Cm"a2a2 g4 | "F7"a3e a3e | "Bb"g2g2 f4 | F2B2 d2f2 | "F7"e4 z2FF | F2A2 c2g2 | "Bb"f4z4 | 
+"Bb"{fga}b3f b3f | "Cm"a2a2 g4 | "F7"a3e a3e | "Bb"g2g2 f4 | f2b2 bab2 | "Cm/Eb"g2c'2 c'=bc'2 | "F7"f2ag fedc | "Bb"B2d2 B2z2 |]

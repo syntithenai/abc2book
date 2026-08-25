@@ -1,0 +1,17 @@
+X:13
+T:Tiroler Ländler C (LD03080)
+B:Hanny Christen. Bd.3 Appenzell. S.25 (LD03080) orig. C-Dur
+%%MIDI program 21
+O:Switzerland
+R:Ländler
+M:3/4
+L:1/8
+K:C major
+G ce |: "C"g3 a g2 | "G7"g2 f>B d2 | g2 a3 g | "C"g2 e>G ce | \ 
+           g2 a3 g | "G7"g2 f>B d2 | g2 f3 e |1 "C"[Ec]3 G ce :|2 "C"[Ec]2 z2 z2 ||  
+|:"G7"G2 F>B, D2 | "C"E2 CG, CE | "G7"A2 G2 FD | "C"EC EG ce | \ 
+"G7"G2 F>B, D2 | "C"E2 CG, CE | "G7"A2 G2 GB, | "C"C2 z2 z2 :|
+|: "C"C>E G>C A2 | GC EG CE | "G7"GB, DG B2 | "C"GC EG c2 | \ 
+      C>E G>C A2 | GC EG CE | "G7"GB, DG Bd | "C"[Ec]2 z2 z2 :|
+|: "G7"GB, AG BA | GB, AG BA | "C"cE Gc E2 | GC EG C2 | \ 
+   "G7"GB, AG BA | GB, AG BA | "C"cE Gc "G7"DB | "C"[Ec]2 z2 z2 :|

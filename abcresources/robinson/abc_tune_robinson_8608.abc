@@ -1,0 +1,23 @@
+X: 160
+T:Leith-Hall, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:55 - 2
+K:F major
+%%staves {1 2}
+V:1
+(CF) FF/G/ AFAc | (CF) FG/A/ (B/A/)G/F/ D2 | \
+(CF) FF/G/ AFAc | d<fc<f A>G F2 :|
+(d>f)c>f A>fc>(f | d)>.fc>f d<f ~g2 | \
+(d>f)c>f A>fc>f | d<f!trill!c>A B/A/G/F/ D2 |
+(d>f)c>f A>fc>(f | d)>.fc>f dfga | \
+(b>g)(a>f) (g>e)(f>c) | d<f~c>A B/A/G/F/ D2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Ff]fff | [Ff]ff[Bb] | Ffff | bacf |] \
+ffff | fffc' | ffff | bafd | Ffff | fffc | efcf | bafd |]

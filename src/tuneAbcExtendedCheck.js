@@ -5,7 +5,6 @@ import { flattenMelodyText, splitMelodyIntoBlocks } from './lyricBarAlignmentUti
 import { firstOccurrenceLyricSectionCount, lyricLinesHaveSongFormSections } from './lyricStructureUtils';
 import { getLyricLines } from './wLinesUtils';
 import { parseVoiceEvents } from './notation/voiceEventModel';
-import { parseNoteLengthDecimal } from './notation/beatGrid';
 import { parseTempoBpm } from './tempoRange';
 
 function issue(code, message, severity, extras) {
@@ -134,11 +133,10 @@ function checkInconsistentNoteLength(tune, abcText) {
   const noteLines = getNoteLines(tune);
   if (!noteLines.length) return null;
   const flat = flattenMelodyText(noteLines);
-  const unit = parseNoteLengthDecimal(tune.noteLength || '1/8', tune.meter || '4/4');
   const durationCounts = {};
   const matches = flat.match(/[A-Ga-gzZ][^A-Ga-gzZ\s|:\[\]]*/g) || [];
   matches.forEach(function(token) {
-    const durMatch = token.match(/(\d+\/?\d*)/);
+    const durMatch = token.match(/(\d+\/?\d*|\/\d+)/);
     const dur = durMatch ? durMatch[1] : 'default';
     durationCounts[dur] = (durationCounts[dur] || 0) + 1;
   });
@@ -148,6 +146,10 @@ function checkInconsistentNoteLength(tune, abcText) {
     return durationCounts[key] > durationCounts[best] ? key : best;
   }, keys[0]);
   if (dominant === 'default') return null;
+  // Longer-than-unit multipliers (2, 3, …) are normal melodic variety.
+  // Only flag when writers mostly use subdivisions (/2, /4, …) that suggest
+  // the L: header unit may be wrong.
+  if (/^\d+$/.test(dominant)) return null;
   return issue(
     'inconsistent_note_length',
     'Mixed note durations; predominant value may differ from L: header',

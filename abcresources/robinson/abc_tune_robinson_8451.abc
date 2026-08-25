@@ -1,0 +1,28 @@
+X: 19
+T:Mrs Forbes of Boharm's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+"^Slowly"
+D | \
+B,<B-B>c {Bc}d>c B>F | (3GBG (3FED (3CDC (3EFG | \
+B,<B-B>c {Bc}d>cB>F | G<BF>D B,/B,/B, B, :|
+e | \
+d<Bf<B g<Bf<B | e>cd<B c>Bc<e | \
+d<Bf<B e/f/g/a/ bd | !trill!c>Bc<d B/B/B Be |
+d<Bf<B g<Bf<B | e<cd<B c>Bc<e | \
+{Bc}d>c B<F BdBF | G<BF>D B,/B,/B, B, |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+BBBB | edcc | BBBd | efBb/ :|
+z/ | \
+bbbb | e'd'c'c' | bbe'd' | e'f'bb | bbbb | e'd'c'c' | bfdB | efBb/ |]

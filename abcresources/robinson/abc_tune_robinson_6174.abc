@@ -1,0 +1,22 @@
+X:1
+T:Der Verzwickte (Schottisch)  CG  (st0680)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.37  (st0680) orig. C,G,F
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G [P:A] |: "C"{/G}ee ee | "Dm"dA AB/a/ | "G7"gB BB/a/ | "C"gc cG | {/G}ee ee | "Dm"dA AB/a/ | "G7"gG/a/ gB |1 
+"C"ce cG :|2 "C"ce cd [P:B] |: [K:G] "D7"d/^c/d/e/ fd | "G"g/f/g/a/ bg | "D7"dd' dc' | "G"db a/g/f/e/ | "D7"d/^c/d/e/  fd | "G"g/f/g/a/ bg | 
+"D7"d'c' ba |1 "G"gb gd :|2 "G"gb g"_>Teil A"z || [P:C] [K:F] "F"a/a/a g/g/g | f/f/f e/e/e | "C7"{/c}dd {/c}dd | E2 G/B/c/e/ | 
+g/g/g f/f/f | e/e/e d/d/d | "F"{/B}cc {/B}cc | F2 F/A/c/f/ | a/a/a g/g/g | f/f/f e/e/e | "Gm"{/^c}dd {/^f}gg | b3b | 
+"Bb"d'c'/c'/ c'b/b/ | "F"ba/a/ af | "C7"ag/g/ ge | "F"fa fc || [P:D] "C7"ce/g/ c'b | "F"ba ^g/a/a | "A7"A^c/e/ ag |  "Dm"gf e/f/f | 
+"Gm"g>f dg | "F"f>c cf | "C7"eB B/e/d | "F"c3a | "Bb"b>d db | "F"a>c cf | "C7"fe a>g | "F"fa fz |]  
+%W:Parts: ABACD
+% st0680
+% Nov 1, 2017 (Chibi's buddy)

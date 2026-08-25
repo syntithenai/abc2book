@@ -1,0 +1,42 @@
+X:62
+T:Mr Morison of Bognie
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:26 - 1
+K:A major
+%%staves {1 2}
+V:1
+E  | \
+A2G {B}A2G | ABc {e}d2B | c2A       {BAGA}ecA     | {G}F3    F2E | \
+A2G A2G    | ABc {e}d2B | [Ac]2[ce] ef^d   & x3B3 | [Ge]3    [Ge]2c |
+dfd B2d    | cec A2c    | d2c       BcA    &x3F2E | {G}[DF]3 F2E | \
+[EA]2[EG] [EA]2[EG] | ABc {e}d2B & E3 E2E | c2A EFG & E2ED2D | [CA]3 [CA]2 |]
+f/g/ | \
+agf e>fg      | agb a2e          | {g}a2e  e>dc         | [Ac]3 [GB]2g | \
+agf efg       | agb agf          | ecA     EFG  &x3D3   | [CA]3 [CA]2g |
+a2e cde &A3A3 | f2d Bcd & A3G3   | [Ae]2c  A>Bc &x3E3   | [DF]3 F2E | \
+A2G A2[EG]    | ABc d2B & E2ED2E | {d}c>BA E>FG & E3D2D | [CA]3 [CA]2 |]
+V:2 clef=bass octave=-2
+z | \
+[ac'e']2[bd'e'] [ac'e']2[bd'e'] | e'3 [ge']2[ge'] & CB,A, x3 | \
+[ac'e']2[ac'e'] [ac'e']2[ac'e'] | dfb d'2[bd'] | \
+[ac'e']2[bd'e'] [ac'e']2[bd'e'] | [c'e'][be'][be'] [ge']2[ge'] | \
+[ae']2[ge'] [f^d]2[fab] | egb e'2[=gbe'] | \
+[fd']2[fd'] [ge']2[ge'] | [ae']2[ae'] [g=bc']2 [gae'] | \
+[fd']2e [dd']2[ca] | dfb d'2[bd'] | \
+[eac']2[ebd'] [eac']2[ebd'] | cba [eg]2[eg] & E,2E,x3 | \
+[Aa]2[Aa] [Ee]2[Ee] | Ace a2 |]
+z | \
+[ae']2[ad'] [ac']2[ad'] | [ac'e']2[ad'e'] [ac'e']2[ac'e'] | \
+[ac'e']2[ac'e'] [gbe']2[ac'e'] | eac' e'2[bd'e'] | \
+[ac'e']2[ad'e'] [ac'e']2[abe'] | [be']3 [dd']2[dd'] | \
+[eac']2[eac'] [Ee]2[Ee] | Ace a2z & A,,3x3 | \
+[ac'e']2[ac'e'] [ac'e']2[ac'e'] | [Dd]2[Dd] [Ee]2[Ee] | \
+[Aa]2[Aa] [Aa]2[Aa] | dfa d'2[bd'] | \
+[ac'e']2[ebd'] [ac'e']2[Ee] | [Aa]2[=G=g] [Ff]2[^G^g] | \
+[Aa]2[Aa] [Ee]2[Ee] | Ace [Aa]2 |]

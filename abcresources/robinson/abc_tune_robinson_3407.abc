@@ -1,0 +1,9 @@
+X:12
+T: Der frohe \"Alpler (Mazurka) CF (mz00312)
+%%MIDI program 21
+M:3/4
+L:1/8
+K:C transpose=3 %%MIDI gchordon
+"Dm"f>e d2"F"c2 | "G7"B>AG4 |: "C"G>^FG2c2 | "G7"B2 !>!F4 | d>cB2A2 | "C"A>GE4 | G>Bc2e2 | d2 !>!B4 | d>c A2B2 | 
+"G7"G2G2z2 :: "G7/Bb"G2d3f | "C"e>d e2c2 | "G7/D"d>^c d2F2 | "C/E"G>^F G2E2 | "G7/Bb"G2d3f | "C"e>d e2c2 | "G7/D"d>^c d>f e>d | "C"c2c2"C7"z2 :: [K:F]
+"F"A2 !>!d3c | c2 !>!A3d | "C7"c>B G>A G2 | "F"d>c AB A2 |  A2 !>!d3c | c2!>!A3d | "C7"c>B G>A G>E | "F"F2f2z2 :|

@@ -1,0 +1,19 @@
+X:6
+T:Galopp  FC (GL07743) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.368 (GL07743) orig. F,C
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"C"c>ee2 | e>g g2 | "G7"ef de | "C7".c2z2 |: "F"A>B c>d | (c2.A2) | c>d e>f | ("C7"e2.B2)  | B>c d>f | 
+e>gd2 | e>gd2 | "F"d>fc2 | A>B c>d | (c2.A2) | c>d e>f | ("Bb"g2.d2) | d>f e>d | "F"c>fa2 | 
+"Gm"g>d "C7"e>c | "F".f2f2 :: [K:C] "G7"g2G>B | dag2 | "C"g2G>c | eag2 | "G7"f>f e>e | d>d c>c | B>B AB | 
+("C"c2.G2) | "G7"g2G>B | dag2 | "C"g2G>c | eag2 | "G7"f>f e>e | d>d c>c | B>B AB |1 "C".c2c2 :|2 
+"C"c2c>_B [K:F] |: "F"A2A2 | A2dc | "C7"c>B BB | BG Bc | e2e2 | e(f/e/)   dc | "F"f2f2 | f2AB | 
+c2c2 | c2fe | "Bb"d2d2 | db ag | "F"f2f2 | "C7"e(f/e/) de | "F".f2f>f |1 f2c>B :|2  f2z2 |] 
+% GL07743
+% Oct 9, 2017 (truths & lies)

@@ -1,0 +1,33 @@
+X:3061
+T:King William's Rambles (jig) % nf<bb
+B:"Northern Fiddler" 176 (F&MB)
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:In the "Langstrom's Pony"/"Mooncoin" family. The source has a
+I:9/8 measure (ecA-AcA-Af=g) after measure 5 in the F part. (BB)
+L:1/8
+M:6/8
+R:Jig
+Q:300
+K:A major
+P:A
+ecA cBA|ecA Bcd|ecA c2e|dB=G Bcd|
+ecA cBA|eAA BAB|=GBd =gfe|dB=G Bcd:|
+P:B
+ecA a2a|ecA Bcd|ecA =gfg|dB=G Bcd|
+ecA a2a|=gba gef|=gba gfe|dB=G Bcd:|
+P:C
+eAA fAA|eAA Bcd|eAA fAe|dB=G Bcd|
+eAA fAA|eAA BAB|=GBd =gfe|dB=G Bcd:|
+P:D
+eAA a2A|eAA Bcd|eAA =gAe|dB=G Bcd|
+eAA aAA|gAA faf|dfa =gfe|dB=G Bcd:|
+P:E
+fed cBA|ecA Bcd|fed cBA|dB=G Bcd|
+fed cBA|cBA BAB|=GBd =gfe|dB=G Bcd:|
+P:F
+=gaf g2f|ecA Bcd|=gaf g2e|dB=G Bcd|
+=gaf g2f|ecA Af=g|a=gf gfe|dB=G Bcd:|
+P:G
+c<ee c<ee|c<ee Bcd|c<ee c/e/-e2|dB=G Bcd|
+c<ee c<ee|c<ee BAB|=GBd =gfe|1 dB=G Bcd:|\
+[2 dB=G BdB|A6|]

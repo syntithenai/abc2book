@@ -1,0 +1,32 @@
+X:21
+T:Schlierä-Juiz  F (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:F major
+[P:A] F2dc | fcAF | E2dc | e4 | E2dc | ecB/A/G | F2dc | 
+F4 | F2dc | fcAF | E2dc | e4 | E2dc | ecB/A/G | (F4 | F3)z || 
+M:4/4
+[P:B] G>cBc | E>BDC | F>cAc | dcAF | G>cBc | 
+E>BDC | F>cAc | F4 | G>cBc | E>BDC | 
+F>cAc | dcAF | G>cBc | E>BDC | F4 | F2z2 ||  
+M:3/4
+[P:C] 
+f/ e/ d/ | c2F | A>f e/d/ | c2G | B>f e/f/ | g>f e/d/ | c>E G/c/ | F>f e/d/ | 
+cz/f/ e/d/ | c2F | A>f e/d/ | c2G | B>f e/f/ | g>f e/d/ | c>E G/c/ | (F3 | F)z/f/ e/d/ | 
+c2F | A>f e/d/ | c2G | B>f e/f/ | g>f e/d/ | c>E G/c/ | F>f e/d/ | 
+cz/f/ e/d/ | c2F | A>f e/d/ | c2G | B>f e/f/ | g>f e/d/ | c>E G/c/ | F3 | !fermata!fz/ |]
+W:
+W:Reihenfolge: A-B-C
+W:
+W:notiert von Edi Gasser, nach Angaben von August Wirz
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-10
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 26, 2018

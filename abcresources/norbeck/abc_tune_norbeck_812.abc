@@ -1,0 +1,12 @@
+X:472
+T:Jig for Grace
+R:jig
+C:Michael McGoldrick
+Z:id:hn-jig-472
+M:6/8
+L:1/8
+K:D
+DFA ~d3 | edc def | afb afe | f2e dBA |
+DFA ~d3 | edc def | ~a3 ~f3 |1 edc dAF :|2 edc d2f ||
+|: afb afe | def dBA | ~a3 afe | fga b2a |
+afb afe | def dBA | dcB AFE |1 DFA B3 :|2 DFA B2A ||

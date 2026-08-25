@@ -1,0 +1,29 @@
+X:1
+T:Stärtimattli-Juiz  Bb  ABCB
+T:Anny Weber-Ambauen  (*1953)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCB
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] DB,C | D2E | F2d | (B3 | B2)F | dcB | A2c | F3 | FCD | E2F | 
+F2e | c2B | A2F | edc | BDG | F3 | FB,C | D2E | F2d | (B3 | B2)F | 
+dcB | A2c | F3 | FCD | E2F | F2e | c2B | A2F | edc | (B3 | B>)zz ||  
+L:1/8
+M:4/4
+[P:B] B,D | FD FdB2B,D | Ff dcB2Fd | cE Fd cf dc | 
+BD FdB2B,D | FD Fd B2 B,D | Ff dcB2Fd | cE Fd cf dc | B6"_Fine"z2 || 
+M:2/4
+[P:C] e2G2 | e>e dc | B2F2 | d>d cB | AcF2 | Ac F2 | Bd GD | F4 | 
+e2G2 | e>e dc | B2F2 | d>d cB | AcF2 | Ac Fd | (B4 | B2)z2 |] 
+%W:Reihenfolge: A-B-C-B
+W:"Meinem lieben Vater zum 70. Geburtstag gewidmet 3. Februar 1995" Anny
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 07-01
+W:http://www.naturjodler.ch/code 07.htm  (with AUDIO)
+%May 2, 2018

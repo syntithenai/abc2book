@@ -1,0 +1,17 @@
+X:3
+T: Rutscher 1840 (nach Mayer) (Hopser)  GD  (hp08935)
+B:Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Tänze aus Kerns ("Chärns"). S.6-61. S.20 (hp08935) orig. G,D-Dur
+S: Überliefert durch Josef Püntener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+%%abc-charset utf-8
+O:Switzerland
+R:Hopsa
+M:2/4
+L:1/8
+K:G major
+"G"b>a ge | Pe>d d>d | b>a ge | Pe>d d>d | "D7"c'b ag | Pe>d d>d | fa df | "G"g2z2 :: [K:D] 
+"A7"Ag fe | "D"dA {/c}BA | "A7"eA {/c}BA | "D"fc ed | "A7"Ag fe | "D"dc "E7"d^G | "D/A"Fd "A7"ce | "D"d2z2 :: [K:D] 
+"D7"dd ef | "G"{/a}gfg2 | "D7"a^g a^a | "G"b2a/g/f/e/ | "D7"dd ef | {/a}"G"gf "C"g>e | "G"dg "D7"fa | "G"g2z2 :| 
+% hp08935
+% July 28, 2016

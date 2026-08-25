@@ -1,0 +1,26 @@
+X: 68
+T:Capt Cameron's Volunteers March -- Balvenie
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:March
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 1
+K:Eb major
+%%staves {1 2}
+V:1
+!f![G,E]2 [G,E]2 [G,E]3 G | B>AG>F EB,A,G, | \
+[G,E]2 [G,E]2 [G,E]3 G | (BA)GA [B,F]2 z2 |
+[G,E]2 [G,E]2 [G,E]3 G | B>AG>F EB,A,G, | \
+!trill!A,3 C B,3 {FG}A | G2 [G,E]2 [G,E]2 z2 H !fine! ||
+!p! [Bg]3 [Af] [Ge]2 [Ge]2 | ~d>e (f/e/)d/c/ [DB]2 z2 | \
+[Bg]3 [Af] [Ge]2 [Ge]2 | {e}[Fd]2 (B/c/d//e//f//g//) [Bf]2 z2 |
+[Bg]3 [Af] [Ge]2 [Ge]2 | (~d>e) (f/e/)d/c/ (B3 A) & x4D4 | \
+(G3 B) {d}(e3 d) | [Ac][GB][FA][EG] [EG]2 [DF]2 |]
+V:2 clef=bass octave=-2
+E>eB>G E2 e2 | E2e2e2e2 | E>eB>G E2e2 | G2E2B>AG>F | \
+E>eB>G E2e2 | E2e2e2e2 | A>Bc>A B>cd>B | e>EG>B e2 z2 H || \
+ebgb ebgb | Bbfb Bbaf | ebgb ebgb | B2b2 Bagf | \
+ebgb ebgb | Bbfb BcdB | egbg c'cc'b | aga=a b2B2 |]

@@ -170,6 +170,30 @@ describe('LyricsSearchButton import chords fallback', function() {
     expect(mockStartLyrics.mock.calls[0][0].title).toBe('Am I Ever Going to See Your Face Again')
   })
 
+  test('chord-only FolkTuneFinder hit falls back to lyrics search', function() {
+    renderButton()
+
+    act(function() {
+      container.querySelector('[data-testid="lyrics-search"]').click()
+    })
+    act(function() {
+      chordsHandlers.onAwaiting({
+        id: 'j1',
+        status: 'awaiting',
+        candidates: [{
+          chordText: 'D G Bm A|',
+          lyricText: '',
+          lyricLines: [],
+          sheetLines: ['D G Bm A', 'G D D A G'],
+          source: 'FolkTuneFinder',
+        }],
+      })
+    })
+
+    expect(document.body.textContent).not.toContain('Choose chord sheet')
+    expect(mockStartLyrics).toHaveBeenCalledTimes(1)
+  })
+
   test('successful chords do not start lyrics fallback', function() {
     renderButton()
 

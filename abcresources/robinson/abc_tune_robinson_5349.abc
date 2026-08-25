@@ -1,0 +1,21 @@
+X:110
+T: Friedens-Polka CF (pk07428) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.334 (pk07428) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+% % P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G [P:A] |: "C"E>G c>d |  "G7"cB Bd | {d}aa gf | ("C"fe) e>G | E>G c>d | "G7"cB Bd | a!>!a2B |1 "C"cc cG :|2 
+"C"cc cz [P:B] |: "D7"dd e>d | "G"dd e>d | ("D7"d/d'/).d' (d/c'/).c' | ("G"d/b/).b (d/g/).g | "D7"dd e>d | "G"dd e>d |  ("D7"d/d'/).d' c'^f |1 
+"G"g2zg :|2 "G"g2"_>Teil A"zG [P:C]|:  [K:F] "F"c2d2 | c2f2 | "C7"fe ed | B4 | fe ed | B2d2 | "F"dc cf | 
+A2 F/G/A/B/ | c2d2 | c2f2 | fe ef | A4 | "Bb"f(!>!e e>)d | "F"d(!>!c c>)e | "C7"f>c a>g | "F"ff fz :| 
+[P:D] "C7"b3a | gf ed | "F"c2A2 | A,/C/F/A/ dc | "C7"b3a | gf ed | .c2.e2 | "F"ff fz |] 
+W:
+% pk07428
+% Aug 23, 2017

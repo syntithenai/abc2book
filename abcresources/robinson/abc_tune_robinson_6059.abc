@@ -1,0 +1,21 @@
+X:1
+T:Mazurka  CG (mz07820) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.185  (mz07820) orig. C,G
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] G2 | {/d}"C"c>Bc2e2 | {/a}g>^f g2c'2 | {/b}"F"a>^g a2c'a | "C"g2z2ag | {/g}"G7"f>e d2d'2 | {/f}"C"e>d e2c'2 | "G7"d>e f>g a>B | "C"c2c2G2 || 
+[P:B] ("C"Gg) (^fg) .a.g | "G7"Tg2f2f2 | Tg2f2f2 | "C"Tg2e2e2 | (Gg) (^fg) .a.g | "G7"Tg2f2f2 | g2fG gB | "C"c2c2d2 |: [K:G] [P:C] "D7"d2e>f g>a | 
+"G"bgd3a | "D7"c'a d3f | "G"g>b d'3d | "D7"d2 e>f g>a | "G"bgd3a | "D7"a2c'a df |1 "G"g2g2d2 :|2 "G"g2 g>=f e>d |] 
+W:
+%W:Parts: ABAC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% mz07820
+% July 29, 2018 ("Umso wertvoller sind die paar")

@@ -1,0 +1,25 @@
+X:22
+T:Miss Catherine Stewart, Pettyvaich
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:12/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:9 - 1
+K:F major
+%%staves {1 2}
+V:1 clef=treble
+F2d cAF GAF E2C | F2d cAF cde f2c | \
+def cAF GAF E2G | F2d cAF CDE [CF]3 :|
+fcf agf egb bge | fcf agf efg cBA |\
+dBd cBA [DG]A[G,=B,F] [G,_B,E]D[F,C] & F3 F3 x6 | F2 d cAF CDE F3 & x6 [G,B,]3 C3 |
+fcf agf egb bge | fcf agf efg cBA |\
+dBd cBA [DG]A[G,=B,F] [G,_B,E]D[F,C] & F3 F3 x6 | F2 d cAF CDE F3 & x6 [G,B,]3 C3 |]
+V:2 clef=bass octave=-2
+fac' fac' cgc' cgc' | fbd' fac' fac' fac' | fbd' fac' egc' cgc' | fbd' fac' cgb [fa]3 :| \
+fac' fac' cgc' cgc' | fac' fac' fbd' fac' | \
+[Bb]2[Bb] [Aa]2[Ff] [B,B]2[G,G] [Cc]2[A,A] | [B,B]2[B,B] [A,A]2[F,F] c3 [Fc]3 | \
+fac' fac' cgc' cgc' | fac' fac' fbd' fac' | \
+[Bb]2[Bb] [Aa]2[Ff] [B,B]2[G,G] [Cc]2[A,A] | [B,B]2[B,B] [A,A]2[F,F] c3 [Fc]3 |]

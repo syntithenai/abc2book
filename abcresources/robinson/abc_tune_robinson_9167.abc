@@ -1,0 +1,21 @@
+X: 5
+T:Les Beaux Jours
+C:Gilles Chabenat
+L:1/16
+M:C
+O:France
+Q:80
+R:Schottische
+K:D minor
+[V:1]|:dcBA B2G2 g2ag f2d2|fedc d2ef gfed c4|
+[V:2]|:B2B2 B2B2 B2B2 A2A2| A2A2 A2A2 A2A2 c2d2|
+[V:3]|:cdfd gfcd fdag cdfd|gfcd fdag cdfd gfcd|
+[V:1]dcBA B2G2 g2ag f2d2|fedc d2ef gfea d4:|
+[V:2]B2B2 B2B2 B2B2 A2A2|A2A2 A2A2 A2c2 d2 z2:|
+[V:3]fdag cdfd gfcd fdag|cdfd gfcd fdgf a2 z2:|
+[V:1]|:g2a2b2g2 ^fgaf d4|gdga bagf e2d2 c4|
+[V:2]|:g2d2-d4 g2^f2-f4|d2f2-f4 e2c2-c4|
+[V:3]|:B2c2 d2B2 ABcA-A4|Bcd2-d4 dBA2-A4|
+[V:1]g2a2b2g2 ^fgaf d4|bagf edcA cdec d4:|
+[V:2]g2d2-d4 g2^f2-f4|z2f2z2e2z2c2 G2d2:|
+[V:3]B2c2 d2B2 ABcA-A2 Bc|d4-d2cd fdgf d4:|

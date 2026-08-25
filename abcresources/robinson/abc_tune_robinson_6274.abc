@@ -1,0 +1,23 @@
+X:1
+T:Goldner-Mund-Walzer  CG (wz06841) 
+T: Basel II. Tänze aus Augst. S.6-42.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.24  (wz06841) orig. C,G
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"C"g3 | ^fga | g3 | e3 | dc>B | dc>B | ("G7"F3 | F)zz | f3 | efg | 
+f3 | d3 | cB>A | cB>A | ("C"E3 | E)zz | g3 | ^fga | g3 | e3 | 
+"Am"ec>A | "E7"ec>B | ("Am"A3 | A)zz | "F"A/c/fA | fe>d | "C"c2e | g3 | gac' | "G7"bg>B | 
+("C"c3 | c) zz :: [K:G] "D7"d>dd | dfe | "G"d>dd | dfa | "D7"{/f}ezF | zfe | "G"{/f}ezG | 
+zBc | "D7"d>dd | dfe | "G"d>dd | dfe | "D7"{/f}ezF | FB>A | ("G"G3 | G)zz :: [K:C] 
+"C"g3 | e3 | c'3 | b3 | age | "G7"f2g | "C"e3 | egc' | "G7"c'2b | ba>e | 
+f3 | fgb | "C"b2a | ag>d | (e3 | e)zz | g3 | e3 | c'3 | b3 | 
+age | f2g | "F"a3 | aab | d'3 | c'3 | "C"g3 | e3 | "G7"f3 | eG>d | "C"c3 |  czz :| 
+W:
+W:Anmerkung H.C.: Ziefen 53/894
+% wz06841
+% Nov 15, 2017

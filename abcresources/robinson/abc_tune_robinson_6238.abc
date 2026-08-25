@@ -1,0 +1,21 @@
+X:1
+T:Schottisch. Schlittschuhpolka  GC (st07814)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.184  (st07814) orig. G,C
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] B/c/ | "G"de/d/ "D7"^c/d/e/f/ | "G"gb de/d/ | "D7"TdA TdA | "G"G/B/d/g/ b>d | "D7"de/d/ ^c/d/e/f/ | "G"gb de/d/ | "D7"TdA TdA | "G"GB/d/ gg || [K:C] 
+ [P:B]  "G7"f/e/d/c/ B/f/e/d/ | "C"ce Gd/e/ | "G7"fG/G/ Gf | "C"e/G/c/e/ ga/g/ | "G7"f/e/d/c/ B/f/e/d/ | "C"ce Gd/e/ | "G7"f/e/d/c/ B/G/B/d/ | "C"cc cd/d/ || 
+[K:G] [P:C] "G"dB "C"ge | "G"d/e/d/c/ Bd | "D7"dc/B/ Ac | "G"ed Bd/d/ | dB "C"ge | "G"d/e/d/c/ Bd | "D7"dc/B/ Af | "G"gg gz |] 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: Fricktal/Zuzgen
+%W:Anmerkung Hrsg,:
+% st07814
+% Aug 27, 2018 (Krshna)

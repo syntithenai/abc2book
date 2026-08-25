@@ -63,7 +63,8 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import { dismissFieldLookup } from '../tuneFieldLookupQueue';
 import FieldLookupReviewButton from './FieldLookupReviewButton';
 import { summarizeSheetSnapshotCandidates } from '../bulkSheetSnapshotImport';
-import { pendingSnapshotsFromCandidate, describeSnapshotForCancel } from '../importReviewSnapshots';
+import { importedTuneFromCandidate } from '../notationFileImport';
+import { pendingSnapshotsFromCandidate, describeSnapshotForCancel, pendingMidiLinkFromCandidate, describePendingMidiLinkForCancel } from '../importReviewSnapshots';
 import { normalizeAbcForImport } from '../abcImportNormalize';
 import { setBulkImportText } from '../addBulkImportTextStore';
 import BookSelectorModal from './BookSelectorModal';
@@ -417,23 +418,35 @@ export default function ImportReviewModal(props) {
     }) || null;
   }, [session]);
 
-  const enrichedImportedTune = useMemo(function() {
+  const resolvedImportedTune = useMemo(function() {
     if (!activeCandidate) return null;
-    return mergeCandidateWithEnrichment(activeCandidate, activeJob);
-  }, [activeCandidate, activeJob]);
+    return importedTuneFromCandidate(activeCandidate, props.tunebook)
+      || activeCandidate.tune
+      || null;
+  }, [activeCandidate, props.tunebook]);
+
+  const enrichedImportedTune = useMemo(function() {
+    if (!activeCandidate || !resolvedImportedTune) return null;
+    const candidateForEnrichment = Object.assign({}, activeCandidate, {
+      tune: resolvedImportedTune,
+    });
+    return mergeCandidateWithEnrichment(candidateForEnrichment, activeJob);
+  }, [activeCandidate, activeJob, resolvedImportedTune]);
 
   const importedTuneSource = useMemo(function() {
-    return enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {};
-  }, [enrichedImportedTune, activeCandidate]);
+    return enrichedImportedTune || resolvedImportedTune || {};
+  }, [enrichedImportedTune, resolvedImportedTune]);
 
   const tuneFormSyncSignal = useMemo(function() {
-    return buildTuneFormSyncSignal(activeCandidate);
-  }, [activeCandidate, enrichedImportedTune]);
+    return buildTuneFormSyncSignal(activeCandidate)
+      + '\x1e'
+      + importedNotationText(importedTuneSource);
+  }, [activeCandidate, importedTuneSource]);
 
   const mergeMode = mergeTargetId && tunes[mergeTargetId] ? 'merge' : 'create';
 
   const initializeFormState = useCallback(function(targetMergeId) {
-    const imported = enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {};
+    const imported = importedTuneSource || {};
     const effectiveMergeId = targetMergeId != null ? targetMergeId : mergeTargetId;
     formDirtyRef.current = false;
     function applySessionForcedBook(formValues) {
@@ -543,7 +556,7 @@ export default function ImportReviewModal(props) {
     setAutoAppliedKeys(Array.isArray(built.autoAppliedKeys) ? built.autoAppliedKeys.slice() : []);
     setAcceptedImportCount(0);
     setMergeBaselineTune(null);
-  }, [activeCandidate, enrichedImportedTune, mergeTargetId, tunes, session && session.forcedBook]);
+  }, [activeCandidate, importedTuneSource, mergeTargetId, tunes, session && session.forcedBook]);
 
   function patchFormValues(updater) {
     formDirtyRef.current = true;
@@ -575,6 +588,7 @@ export default function ImportReviewModal(props) {
     session && session.index,
     session && session.mergeIndex,
     enrichedImportedTune,
+    importedTuneSource,
     initializeFormState,
   ]);
 
@@ -1691,6 +1705,7 @@ export default function ImportReviewModal(props) {
           tunes={tunes}
           statusBanner={statusBanner}
           pendingSnapshots={pendingSnapshotsFromCandidate(activeCandidate)}
+          pendingMidiLink={pendingMidiLinkFromCandidate(activeCandidate)}
           forcedBook={!addTunesMode && session.forcedBook ? session.forcedBook : ''}
         />
       </div>
@@ -1795,7 +1810,10 @@ export default function ImportReviewModal(props) {
   const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
   const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
   const pendingSnapshotLabels = pendingSnapshotsFromCandidate(activeCandidate).map(describeSnapshotForCancel);
-  const cancelMediaLinks = pendingMediaLinks.concat(pendingSnapshotLabels);
+  const pendingMidiLinkLabel = describePendingMidiLinkForCancel(pendingMidiLinkFromCandidate(activeCandidate));
+  const cancelMediaLinks = pendingMediaLinks
+    .concat(pendingSnapshotLabels)
+    .concat(pendingMidiLinkLabel ? [pendingMidiLinkLabel] : []);
   const importAllSummary = buildImportAllSummary(buildPersistedSession(), tunes);
   const cancelWarningModal = (
     <ImportReviewCancelWarningModal

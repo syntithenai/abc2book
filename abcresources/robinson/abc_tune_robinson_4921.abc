@@ -1,0 +1,21 @@
+X:18
+T:Boccaccio-Marsch FBb (mr02058)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.294f (mr02058) orig. F,Bb
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+R:Marsch
+M:2/4
+L:1/8
+K:F major
+c/c/ | "F"fc "F/A"AB/c/ | "Bb"dB GA/B/ | "C7"c2 ed/e/ | "F"f2 zc/c/  || [P:A] "F"f2 e>A | dd d>A | d>A d>A | 
+"C7"B2z2 | G2AB | c>e eg | e>g d>f | "F"c2 A/B/"_*"=B/"_*"c/ | f2 e>A | dd d>A | d>A d>A |  "C"c2z2 | 
+B>g c>e | gc' gd | "G7".e2.d2 | "C"c2 zc/c/ [P:B] |: "Gm"d2 d/B/c/d/ | "C7"dd/d/ de | "F"f2 f/c/A/c/ | ff/f/ ff | "C7"g2 g/e/c/e/ | 
+gg/g/ fg | "F"a>g f>e | d>c B>c | "Gm"d2 d/B/c/d/ | "C7"dd/d/ de | "F"f2 f/c/A/c/ | ff/f/ ff | 
+"Gm"g>^f ga | "C7"b3e | "F"f2 "C7"cd/e/ |1 "F"f1f1 fz :|2 [K:Bb] "F"f2b>a || [P:C] ("Bb"b4 | b)a gd | "F7"e>d c>d | e>f g>f | a4 | 
+ag fe | "Bb"d>c B>d | f>f ga | b4 | b>a gd | "F7"e4 | c4 | c2e2 | d2c2 | "Bb"Bd "F7"ef | "Bb"B2z2 |]  
+W:
+W:Anmerkung Hrsg.: Titel HC: Pocacio Marsch. Takt 12: HC c-d
+W: öœbergang zu Teil C: HC unvollständig
+% mr02058

@@ -1,0 +1,33 @@
+X:39
+T:the Duke of Richmond
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Air
+Z:Clark Bernst + Richard Robinson
+%%Page:16 - 1
+K:Bb major
+%%staves {1 2}
+V:1 name="SLOW"
+!trill!f2{=ef} (e/d/)(c/B/) (A/B/)(G/=E/) ~F2 | (~F>B)(d>B) (f/e/)d/e/ [Fc]2 | \
+!trill!f2 (e/d/)(c/B/) (A/B/)(G/=E/) F2 | (B,/D/F/B/) (d/f/e/d/) !trill![Ac]2 [FB]2 |
+!trill!f2{=ef} (e/d/)(c/B/) (A/B/)(G/=E/) ~F2 | (~F>B)(d>B) (f/e/)d/e/ [Fc]2 | \
+!trill!f2 (e/d/)(c/B/) (A/B/)(G/=E/) F2 | (B,/D/F/B/) (d/f/e/d/) !trill![Ac]2 [FB]2 |]
+{B}!trill!c2 (B/A/)(G/F/) (F/A/)(c/d/) e2 | (d>B) (g>f) (=e/f/)g/e/ f2 | \
+(g/f/g/a/) .b>.B (e/d/e/f/) .g.E | (c>~d) (e>d) c/B/A/G/ {=E}F2 |
+(B>~d) (c>~d) A/G/F/E/ {=B}c2 | (c>~e)(d>~f) e/d/c/B/ f2 | \
+(g/f/g/a/) (b/g/)f/e/ (d/f/g/a/) (b/f/)d/B/ | (B,/D/F/B/) (d/f/e/d/) !trill![Ac]2 [DB]2 |]
+V:2 clef=bass octave=-2
+L:1/16
+Bbdb fbdb Bbeb dbBb | [bd']f[bd']f [bd']f[bd']f [ae']f[ae']f [ae']f[ae']f | \
+Bbdb fbdb Bbeb dbBb | B3b [fb]d'c'b f2[c'e']2 [bd']4 | \
+Bbdb fbdb Bbeb dbBb | [bd']f[bd']f [bd']f[bd']f [ae']f[ae']f [ae']f[ae']f | \
+Bbdb fbdb Bbeb dbBb | B3b [fb]d'c'b f2[c'e']2 [bd']4 |]
+[c'e']f[c'e']f [c'e']f[c'e']f [c'e']f[c'e']f [c'e']f[c'e']f |
+[bd']f[bd']f [bd']f[bd']f g[bc'][bc'][bc'] ac'f'd' |  \
+[be']3[be'] d'bf'_a' g'3d' e'ec'b | \
+f'8 f'4e'4 & a3b c'd'3 e'4 fgaf | \
+d'^c'd'b agab c'2e'2 afab & f8f8 | agac' babd' c'ae'd' d'bc'd' & f8f8 | \
+e'2e'2 e'2d'c' d'2b2 b4 & b2b2 b4 b2e2 d4 | b2b2 bd'c'b f2e'2 b4 & B2d2 f4 f2c'2 B4 |]

@@ -1,0 +1,28 @@
+X:4
+T:Pazardjishka kopanitsa
+T:Pazardzhishka kopanitsa
+R:kopanitsa
+O:Bulgaria
+Z:id:hn-kopanitsa-4
+M:11/16
+L:1/16
+Q:1/8=220
+K:Amix
+ABcd Bcc cBBG | BGA2 Bcc cBBG | ABcd Bcc cBBG | BGA2 A3 A2A2 :|
+|: eAcd dAc cAB2 | cABc c2B B2A2 | BGB2 c2B B2Bc |1 B2AE ABc dce2 :|2 B2A2 A3 A2A2 ||
+|: ABc2 cd2 c2B2 | Bcd2 Bc2 cBA2 | GABc c2A c2c2 | B2A2 A3 A2A2 :|
+|: eAcd dAc cAB2 | cABc c2B B2A2 | BGB2 c2B B2Bc |1 B2AE ABc dce2 :|2 B2AE A3 A2A2 ||
+|: BGB2 c2B B2Bc | B2AE ABc dce2 | BGB2 c2B B2Bc | B2AE A3 A2A2 :|
+K:Amix _b
+|: ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_Bc dce2 |
+ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_BA AEA2 :|
+|: A_BB2 GBe c2_BA | AEG2 A_BA AGFE | A_BB2 GBe c2_BA | AEG2 A_BA AEA2 :|
+K:Amix
+|: deed dcB c2BA | cddc cBA AGFE | FCF2 FAB c2c2 |1 cddc Bde c2c2 :|2 dccB BAG FCF2 ||
+|: FCF2 FAB c2c2 | cddc Bde c2c2 | cddc Bde c2c2 |1 dccB BAG F^GA2 :|2 dccB BAG FCF2 ||
+cAc2 ABc ddd2 | deed dcB cccA | c2c2 ABc d2d2 | dccB BAG F^GA2 |
+cAc2 ABc ddd2 | deed dcB cccA | cAc2 ABc d2dA | dccB BAG F^GAB ||
+K:Amix _b
+|: ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_Bc dce2 |
+ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_BA AEA2 :|
+|: A_BB2 GBe c2_BA | AEG2 A_BA AGFE | A_BB2 GBe c2_BA | AEG2 A_BA AEA2 :|

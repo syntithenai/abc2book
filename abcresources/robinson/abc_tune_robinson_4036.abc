@@ -1,0 +1,20 @@
+X:91
+T:Neum\"arkler-Schottisch  GDC (ABACD) (st09243)
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+S: T\"anze aus Engelberg (1949). S.109-177. S.145 (st09243) orig. G,D,C
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+[P:A] "G"d'2bg d2B2 | "D7"cee2 F2A2 | cff2 cee2 | "G"dgg2 G2B2 | d'2bg d2B2 | "D7"cee2 F2A2 | cff2 fecA | 
+"G"G2B2 G2z2 :| [P:B]  [K:D] "D"f^efg afdA | "Em"GBeg b2b2 | "A7"a^gab c'b=ge | "D"dfad' a3g | f^efg afdA | 
+"Em"GBeg b2b2 | "A7"a^gab c'b=ge | "D".d4!>!"_>Teil A"d4 |: [P:C]  [K:C] "C"g6^fg | "G7"agB2 B2B2 | a6 ^ga | "C"bac2 c2c2 | 
+c'6bc' | "Dm/F"d'c'd2 d2d2 |1 "G7"baB2 B2B2 | "C"agc2 c2c2 :|2 "G7"bad2 agB2 | "C"c2e2 c2z2 [P:D] |: "G7"d2B2 ffff | 
+"C"e2c2 eeee | "G7"g2d2 f2G2 | "C"e2G2 c2E2 | "G7"d2G2 ffff | "C"e2c2 eeee | "G7"g2d2 f2B2 | "C"c2e2 c2"_Fine"z2 :|
+W: Parts: ABA-CD
+% st09243 (H 332/TN 82)

@@ -1,0 +1,23 @@
+X: 142
+T:Miss Grant's Strathspey -- of Elchies
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:49 - 3
+K:F major
+%%staves {1 2}
+V:1
+~F>G (B/A/G/F/) c<Ad<B | f>d !trill!c>A GG/G/ G2 | \
+~F>G (B/A/G/F/) c<Ad<B | ~f>d c<A F/F/F ~F2 :|
+f>g (b/a/)(g/f/) c<fa<f | b>ga>f g/g/g !trill!g2 | \
+f>g (b/a/)(g/f/) c<fa<f | b>ga>e f/f/f !trill!f2 |
+f>g (b/a/)(g/f/) c<fa<f | b>ga>f g/g/g !trill!g2 | \
+c>f d/c/B/A/ d<fd<B | !trill!c>B!trill!A>G F/F/F ~F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+fffb | afcc | ffab | c'cff :| \
+ffff | efcc | fffa | bc'ff | ffff | efcc | ffbb | c'cff |]

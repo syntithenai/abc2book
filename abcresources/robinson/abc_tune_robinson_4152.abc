@@ -1,0 +1,18 @@
+X:196
+T: Schottisch 1870/75  CF (st08987)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.45 (st08987) orig. C,F-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"e2g2 G2g2 | "G7"f2B2 BAG2 | G2g2 f2g2 | "C"e2"_(1)"E2 EDC2 | e2g2 G2g2 | "G7"f2B2 BAG2 | G2f2 f3B | "C"dccB .c4 |] "F"cBA2c4 | 
+"C"G2{/^d}e2 c4 | "F"cBA2 !>!c4 | "C"G2{/^d}e2 c4 | "F"B2AA A2F2 | "C"E2AA A2G2 | "G7"g2ff f2B2 | "C"d2cc c2G2 | "F"B2AA A2F2 | "C"E2AA A2G2 | 
+"G7"g2ff f2d2 | "C"c2c2 c2z2 |] [K:F] "F"f4e4 | "Bb"eeee e2d2 | "C7"cccc c2G2 | "F"A2d2c4 | f4e4 | "Bb"eeee e2d2 | "C7"cccc c2E2 | 
+"F"F2f2 f2"_Fine"z2 |] [K:C] "C"EFG2 !>!G4 | "F"ABc2 !>!c4 | "G7"Bcd2 e3d | "C"dcA2 !>!G4 | EFG2 G4 | "F"ABc2 !>!c4 | "G7"e3d f2ed | "C".c4 "_>Teil C"!>!c4 |] 
+W:Parts: ABCD-C
+W: (1) Anm. Hrsg.: bei H.C.: f-f-e-d
+% st08987

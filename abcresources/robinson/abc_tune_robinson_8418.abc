@@ -1,0 +1,23 @@
+X:45
+T:Lady McNeil
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:19 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+!trill!B2 (FD) GEBG | FDGE (ED)(CB,) | {f}edef (gf)(ed)       | cBAG       FGAF  |
+       B2 FD   GEBG | FDG>E ED{D}CB, | d2   b2 agfe    & x4B4 | [Ed]c[EB]A [DB]4 |]
+edef    gfed | cBcd  edcB     | AFGA  Bcde        | gfed       {d}[cA]4 |
+B2 (FD) GEBG | FDGE (ED)(CB,) | d2 b2 agfe & x4B4 | [Ed]c[EB]A [DB]4    |]
+V:2 clef=bass octave=-2
+L:1/4
+[Bb] [Bb] [Beb] [Beb] | [Bdb] [Beb] [Bfb] [Bfb] | [Cc] [Cc] [Ee] [Ee] | [Ff]  [Ff] [Ff] [Ff] | \
+[Bb] [Bb] [Beb] [Beb] | [Bdb] [Beb] [Bb]  [Bb]  | [Bb] [Bb] [Ee] [Ee] | [Ff]  [Ff] [B,B]2 |]
+[Cc] [Cc] [Ee]  [Ee]  | [Ff]  [Ff]  [Bb]  [Bb]  | [Ff] [Ee] [Dd] [Cc] | [B,b] [Dd] [Ff] [Ff] | \
+[Bb] [Bb] [Beb] [Beb] | [Bdb] [Beb] [Bfb] [Bfb] | [Bb] [Bb] [Ee] [Ee] | [Ff]  [Ff] [B,B]2 |]

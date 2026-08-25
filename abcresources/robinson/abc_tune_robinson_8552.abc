@@ -1,0 +1,26 @@
+X: 172
+T:Keithmore, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:59 - 2
+K:Eb major
+%%staves {1 2}
+V:1
+"^Slow"
+~[G,E]>GBG ~Bc G2 | E>GBG .B.e.G.E | \
+~E>GBG (B/c/)(d/e/) ~G2 | (C<F)("\="~F>G) (A/G/)F/E/ (!trill!E/D/)C/B,/ |
+~E>GBG (Bc) ~G2 | E>GBG .B.e.G.E | \
+~E>GBG (B/c/)(d/e/) ~G2 | (C<F)("\="~F>G) (A/G/)F/E/ (!trill!E/D/)C/B,/ |]
+(E/F/)G/A/ (B/c/)d/e/ (e/d/)c/B/ {c}e2 | (G/B/)c/d/ (e/f/)g/a/ .b.g.e.B | \
+G/B/c/d/ (e/d/)c/B/ !trill!c/B/A/G/ (~.EG) | (FC)(~F>E) .D.B,.C.D |
+(E/F/)G/A/ (B/c/)d/e/ (e/d/)c/B/ {c}e2 | (G/B/)c/d/ (e/f/)g/a/ .b.g.e.B | \
+.A,.c.c.A, .G,.B.B.G, | (C<F)(~F>G) (A/G/)F/E/ (E/D/)C/B,/ |]
+V:2 clef=bass octave=-2
+L:1/4
+Eeee | Eeee | EeeE/G/ | AA/G/FB | Eeee | Eeee | EeeE/G/ | AA/G/FB |] \
+ee[Bb]e | [Ee]eee | eeeE/G/ | AA/G/FB | ee[Bb]e | [Ee]eee | AAGG | AA/G/FB |]

@@ -1,0 +1,23 @@
+X:123
+T:Krausköpfchen (Polka)  CGF (pk07749)  ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.370 (pk07749) orig. C,G,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] ("C"ec) cE/A/ | ("G7"GF) F/E/F | GB/d/ GA/B/ | ("C"c/B/).c/e/ g2 |  (ec) cE/A/ | ("G7"GF) F/E/F | GB/d/ GA/B/ | 
+"C"ce cz :: [P:B] [K:G] "D7"dF/A/ !>!d>e | "G"dG/B/ !>!d>B | "C"ce g>e | "G"(Ted)B2 | "D7"dF/A/ !>!d>e | "G"dG/B/ d2 | 
+"C"e(d/e/) "D7"f(e/f/) |1 "G"gg gz :|2 "G7"gg g"_>Teil A"G |:  [P:C] [K:F] "F"F2(Ac) | (fe) .d.A  | "Gm"c>B BA | 
+B3z | "C7"E2(Gc) | (ed) .c.B | "F"d>c c=B | c3z | F2 (Ac) | (fe) .g.f | 
+"Bb"e>d d^c | d3(d/e/) | fB !>!d>e | "F"fA!>!c2 | ("C7"d/c/=B/c/) a>g | "F"ff fz :: [P:D] "C7"cG/A/ B/A/B/d/ | 
+"F"dc (c/=B/)c | ("C7"e/d/).G/.A/ Be | ("F"d/c/).F/.G/ A2 | "C7"cG/A/ B/A/B/c/ | "F"dc (c/=B/)c | "C7"a>g d>e | "F"ff fz :|  
+W:
+W:Anmerkung H.C.:Lampenberg 6, s.V. 648
+% pk07749  (Parts ABCD / midi output needs some adapting)
+% Oct 11,, 2017 (Prof X unmasked)

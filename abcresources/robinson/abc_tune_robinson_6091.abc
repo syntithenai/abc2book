@@ -1,0 +1,19 @@
+X:1
+T:Froher Sinn-(Polka)  FCBb (pk06786)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.39  (pk06786) orig. F,C,Bb
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"dc!>!A2 | dc!>!"C7"B2 | G/A/B/c/ ed | "F"cAA2 | dc!>!A2 | dc!>!"C7"B2 | G/A/B/c/ de | "F"ff fz :| [P:B] [K:C] 
+"G7"g/^f/g =f/e/f | "C7"e/d/e cc | "G7"F/G/B ed | "C"E/G/c dc | "G7"g/^f/g =f/e/f | "C"e/d/e cc | "G7"F/G/B !>!e>d | 
+"C"cc/c/ c"_>Teil A"c |:  [P:C] [K:Bb] "Bb"Fd d/c/B | "F7"Ag g/f/e | e2A2 | "Bb"d2B2 | Fd d/c/B | "F7"Ag g/f/e | eA cF | 
+"Bb"Bd Bz :: [P:D] "Bb"dB BA | "Cm"A>GG2 | "F7"cA AG | "Bb"G>FF2 | "F7"zA/A/ AA | "Bb"zB/B/ BB | "F7"f/e/e e/A/A | "Bb"BB B"_Fine"z :| 
+% pk06786
+% Dec 30, 2017

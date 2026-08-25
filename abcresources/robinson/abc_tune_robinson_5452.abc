@@ -1,0 +1,22 @@
+X:203
+T:Härzchäferli (Schottisch). CGF (st07748)  ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.372 (st07748) orig. C,G,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABAC
+O:Switzerland
+R:Schottische
+M:2/4
+L:1/8
+K:C major
+(E/F/) |: [P:A] "C"Ge "F"cA | ("C"G2E)(E/F/) | Ge "F"cA | ("C"G2E)(E/G/) | "G7"F>E FA | "C"G>^F Gc | "G7"Bd AB | 
+("C"d/c/B/A/ G)(E/F/) | Ge "F"cA | ("C"G2E)(E/F/) | Ge "F"cA | ("C"G2E)(E/G/) | "G7"F>E FA | "C"G>^F Gc | "G7"Bd AB |1 "C"cc c(E/F/) :|2 
+"C"cc cz |: [P:B] [K:G] "G"D(E/F/) G(G/F/) | GBd2 | ("D7"c/B/)A (c/B/)A | ("G"G/F/).G/.B/ D2 | D(E/F/) G(G/F/) | GBd2 | ("D7"c/B/)A (c/B/)A |1 "G"GG Gz :|2 
+"G"GG G(E/"_>Teil A"=F/)  |: [P:C] [K:F]  "F"AA (A/G/).A/.B/ | cfc2 | A>c BA | ("C7"A2.G2) | BB (B/A/).B/.c/ | ded2 | B>G cB | 
+("F"B2.A2) | AA (A/G/).A/.B/ | cfc2 | A>c de | ("Bb"f2.d2) | d(d/e/) fd | "F"d>c cA | "C7"c>B Be | "F"ff fz :| 
+W:
+W:Härzchäferli (fig. darling  of my heart; Swissgerman, from: Herz - heart; Käfer - beetle, Käferchen - litttle beetle)
+% st07748 (C) Mülirad-Verlag 2007
+% Oct 14, 2017 (teaming work)

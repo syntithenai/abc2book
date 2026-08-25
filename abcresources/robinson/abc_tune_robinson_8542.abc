@@ -1,0 +1,20 @@
+X: 105
+T:Mr John Angus's Reel -- of Calcutta
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:37 - 3
+K:E major
+%%staves {1 2}
+V:1
+EBGB EBeg | bg(!trill!fe f)!wedge!cce | EBGB EBeg | bgfg e/e/e e2 :| \
+(e/f/g/a/ b)!wedge!e gebe | dBfB aBfB | (e/f/g/a/ b)!wedge!e gebe | c<a!trill!g>f e/e/e e2 | \
+(e/f/g/a/ b)!wedge!e gebe | dBfB aBfB | egfa gbag | (f>e f)<!wedge!g e/e/e e2 |]
+V:2 clef=bass octave=-2
+L:1/4
+eeee | eeaa | eeee | Bbee :| \
+eeee | B[Bd][Bf][Bd] | eeee | abee | eeee | B[Bd][Bf][Bd] | eBeg | Bbee |]

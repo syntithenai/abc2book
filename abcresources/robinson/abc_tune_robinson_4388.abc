@@ -1,0 +1,16 @@
+X: 147
+T: Polka FBbEb (pk08862)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.370 (pk08862) orig. Bb,F,Eb-Dur
+S: Tänze aus Büren an der Aare (Bern) S.353ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:Bb major
+dg [P:A] |: "F7"f2f2 e2e2 | "Bb"d2d2 F2Fd | "F7"c2c2 F2Fc | "Bb"B2B2 Bdfb | "F7"f2f2 e2e2 |1 "Bb"d2d2 FBdf | "C7"=ecbg ecBG | 
+"F7"F2A2 F2dg :|2 "Bb"d2d2 F2Fd | "F7"c2c2 A2A2 | "Bb"B2B2 B2z2 [P:B] |: [K:F] "F"A4 c3e | "Bb"e2d2 c2B2 | "C7"G^FGA BABc | "F"Acfa c'4 | 
+a4 a3c' | "Bb"c'2b2 a2g2 | "C7"efga bc'de |1 "F"f2f2 f2z2 :|2 "F"f2f2 f2"_> Teil A"dg |] [K:Eb] [P:C] |:"Eb"B4 BGBe | 
+"Bb7"d2c2 F2cc | cBAF DFAc | "Eb"cBGE B,2BB | B4 BGBe | "Bb7"d2c2 F2cc | cBAF DFcB |1 "Eb"G2G2 G2BB :|2 "Eb"E2E2 E2z2 |]

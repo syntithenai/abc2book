@@ -1,0 +1,23 @@
+X:1
+T:Kreuzpolka  C (kp07873)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.210  (kp07873) orig. C,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Kreuzpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+ [P:A] "C"e>e fe | "G7"d2g2 | g>g ba | "C"g2c'2 | e>e fe | "G7"edd2 |1 d>d ed | "C"dcc2 :|2 g>f ed | "C"cc cz |] 
+[P:B] "C"G>G AG | "G7"B2B2 | G>G AG | "C"c2c2 | e>e fe | "G7"edd2 | d>d ed | "C"ce cz | 
+[P:C] |: "C"g>g ag | "G7"b2b2 | g>g ag | "C"c'2c'2 | e>e fe | "G7"edd2 |1 d>d ed | "C"Bc c2 :|2 g>e e>d | "C"cc cz || 
+[P:D] |: "C"G>G AG | "G7"B2d2 | G>G AG | "C"c2e2 | e>e"F"f2 | "C"e>e"G7"d2 | e>e dB | "C"ce cz :: [P:E]  "C"g>g ag | 
+!>!"G7"b2!>!b2 | g>g ag | !>!"C"c'2!>!c'2 | c'>b ag | "G7"bag2 |1 b>a gf | "C"age2 :|2 b>a gb | "C"c'c' c'z |] 
+W:
+%W:Parts: ABCDE
+W:Anmerkung H.C.: 22. März 1913
+%W:Anmerkung Hrsg,:
+% kp07873
+% Aug 9, 2018

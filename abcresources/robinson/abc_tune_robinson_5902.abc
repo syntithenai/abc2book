@@ -1,0 +1,33 @@
+X:1
+T:Kretzä-Juiz. 1994  A-Dur  ABAC
+T:Sepp Wallimann (10.8.1948)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] ED | C>B,A,2 C/E/c/A/ | E>FE2ed | c>AE2dc | B>E DE/d/ cB | 
+A>cE2ED | C>B,A,2C/E/c/A/ | E>FE2ed | c>AE2dc | B>E DE/d/ cB | !fermata!A4 || 
+L:1/8
+M:3/4
+[P:B] c>B |AEC2A/C/B/A/ | GED2d>c | BED2 B/E/c/B/ | AE CE c>B | 
+AEC2 A/C/B/A/ | GE DE d>c | BE DE/d/ cB | !fermata!A4 || 
+L:1/8
+M:3/4
+[P:C] A,C | E2E3E | FE CEA2 | CE AC EA | GD EGD2 | E2E3E | FE DEG2 | DE GD EG | 
+AC EAC2 | E2E3E | FE CEA2 | CE AC EA | GD EGD2 | E2E3E | FE DEG2 | DE GD Ec | 
+!breath! !fermata!A4A,C | E2EE CE | FE CEA2 | CE AC EA | GD EGD2 | E2EE DE | FE DEG2 | 
+DE GD EG | AC EAC2 | E2EE CE | FD CEA2 | CE AC EA | 
+ED EGD2 | E2EE DE | FE DEG2 | DE GD Ec | !fermata!A4 |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W:notiert Edi Gasser. Angaben: Sepp Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 43-01
+W:http://www.naturjodler.ch/code 43.htm  (with AUDIO)
+%Juni 11, 2018

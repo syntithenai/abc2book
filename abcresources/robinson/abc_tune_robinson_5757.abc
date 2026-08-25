@@ -1,0 +1,37 @@
+X:13
+T:Gummenalp-Juiz. 1992  AD-Dur  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] "gemütlich"  Ec | A>CCD | E2Ee | c>BAc | E2EA | B>DEd | B2ed | c>BcB | !fermata!A2Ec | 
+A>CCD | E2Ee | c>BAc | E2EA | B>DEd | Be/d/cB | (A4 | A2) || 
+L:1/4
+M:3/4
+[P:B] E| CEA | c2d | c2G | B2E | DEG | B2c | B2A | c2E | CEA | c2d | 
+c2G | B2E | DEG | B2E | dcB | !fermata! !breath! A2A | CEA | c2d | c2G | B2E | DEG | 
+B2c | B2A | c2E | CEA | c2d | c2G | B2E | DEG | BcB | !fermata! A2 || 
+M:4/4
+L:1/4
+K:D
+[P:C] "getragen" A,| D>dcB | Ad/A/FD | C>dcB | AB/A/GA, | C>dcB | Ac/A/GC | D2dB | A3A, | 
+D>dcB | Ad/A/FD | C>dcB | AB/A/GA, | E>dcB | Ac/A/GC | (D4 | D3) || 
+M:3/4
+L:1/4
+K:A
+[P:D] "frisch" F|E>Ed | B2F | E>Ec | A2E | D>EG | BcB | A>CA | E2F | E>Ed | B2F | 
+E>Ec | A2E | D>EG | BcB | (A3 |  !breath! A2)F | E>Ed | B2F | E>Ec | A2E | D>EG | BcB | 
+A>CA | E2F | E>Ed | B2e | "rit."c>BA | !fermata! d2"_etwas langsamer" F | E>E "_Noten oben Überjuiz"[df] | [ce]2 [Bd] | ([Ac]3 | [Ac]2 ) |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-07
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018

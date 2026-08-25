@@ -1,0 +1,12 @@
+X:8
+T:Bendliker Schottisch CF (st00308)
+M:2/4
+L:1/8
+K:C transpose=3 %%MIDI gchordon
+"C"c2.E2 | G2.C2 | "G7"D/2E/2F/2G/2 AB | "C"cc cz |: "C"GC !>!E2 | GC !>!E2 | c>B AG | 
+"G7"FF/2E/2 D2 | FB, !>!D2 | FB, !>!D2 |1 B>A GF | "C"EE/2F/2 G2 :|2 "G7"B>A GB, | "C"CC Cz || 
+|: "C"GG/2G/2 "G7"GG | "C"AG AG | "Dm"FE DC | "G7"B,DG,2 | G,B, DF | B3A | "C"GC EA | 
+G3C | "Dm"FAd2 | "C"EGc2 | "G7"B>A G/2F/2E/2D/2 | "C"CE Cz :| [K:F] "C7"C3E/2D/2 | C3D/2C/2 | 
+"F"A,C FA | c3c | "C7"dc GA | B3B | "F"cA FG | A3E/2D/2 | "C7"C3E/2D/2 | 
+C3D/2C/2 | "F"A,C FA | c3c/2d/2 | "Gm"dG !>!G2 | "F"cF !>!F2 | "C7"E/2D/2C A>G | "F"FF Fz |] 
+% st00308

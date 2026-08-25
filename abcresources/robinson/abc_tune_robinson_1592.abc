@@ -1,0 +1,23 @@
+X:77
+T:Four Seasons. VWMLa.077
+R:Jig
+S:Anon. MS, late 18thC, Vaughan Williams Mem. Library
+N:Altered the notation of the drone so that it works. PJH.
+N:I also removed a repeat mark
+N:just before the last bar line. PJH.
+O:England
+Z:vmp/efdss.Simon Wilson. Reviewed PJH 2008.
+M:6/8
+L:1/8
+Q:3/8=120
+B:Village Music project, Vwml_anon_1
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/Vwml_anon_1.abc
+A:Yorkshire
+K:D major
+!segno!aba|fdf agf|e2A d2A|e2A fge|f2d aba|\
+fdf agf|e2A d2A|e2A fge|d3:|
+|:"^ ie drone on low A"\
+[A,2-F2][A,-F]|[A,2-E2][A,-F] [A,-G][A,-F][A,-E]|
+[A,2-F2][A,-D] [A,2-F2][A,F]|E2F GFE|D3:|
+|:!segno! ABA|d3 ABA|F3 ABA|1dAG EFG|\
+FED:|2dAG FEF|D2D|]

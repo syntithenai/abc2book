@@ -1,0 +1,24 @@
+X:1
+T: Revietto-Schottisch  GC ( st07060) ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.167  ( st07060) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G".B(B/c/) BG | B3c | .d(d/e/) dB | d3^d | "C".e(e/^d/) ed | eg fe | "G".d(d/e/) dB | d3B | 
+"D7".c(c/B/) cf | c3^c | "G".d(d/^c/) dg | d3B | "A7"A^c de | "D"fdA2 | "A7"f>e f>e | "D7"dd dz :| 
+[P:B] |: ("G"Bc) dg | ("D7"gf)f2 | ("C"fe)e2 | "G"edd2 | "G".B(B/c/) Bd | "D7"d^c=c2 | .c(c/B/) ce | "G"e^d=d2 | 
+(Bc) dg | ("D7"gf)f2 | ("C"fe)e2 | ("G"ed)d2 | "C"gg/g/ gg | "G"gd BG | "D7"d2 (e/d/).B/.A/ | "G"GG Gz :| [K:C] 
+[P:C] "C"e3e | (fe) dc | "Dm"dA/A/ AA | A3d | ("G7"dc) (cB) | B3g | !>!g2!>!f2 | "C"eG/G/ GG | 
+e3e | (fe) dc | "Dm"dA/A/ AA | A3g | "G7"g^f =fe | dc BA | .G2 e>d | "C"cc "_>Teil A"cz |] 
+W:
+%W:Parts: ABCA
+W:Anmerkung H.C.: Fricktal/Zuzgen 28
+% st07060
+% June 27, 2018

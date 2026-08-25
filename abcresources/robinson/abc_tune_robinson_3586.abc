@@ -1,0 +1,11 @@
+X:134
+T: Mazurka CGF (mz04923)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"e3e^d2 | "Am"e3ea2 | "G7/B"g2d>^cd2 | "C"c'2g>^fg2 | e3e^d2 | "Am"e3ea2 | "G7"g>f e>g f>e | "C"c'2c'2z2 :: [K:G]
+"D7"d2c>Bc2 | "G"e2d>^cd2 | "D7"b2a>^g a>b | "G"a2g>fg2 | "D7"d2c>Bc2 | "G"e2d>^cd2 | "A7"b>a b>a "D7"e>f | "G"g2g2z2 :: [K:C]
+"C"G2c>B c>e | "G7"d2d2b2 | a2a2B2 | "C"g>^f g2c2 | G2c>B c>e | "G7"d2d2b2 | "Dm"a>^g a>f d>=g | "C"c2c2z2 :: [K:F]
+"C7"c>ba2g2 | "F"c>ag2f2 | "C7"e>d ^c>ed2 | "F"c4A2 | "C7"c>b a2g2 | "F"c>ag2f2 | "C7"d>^f g>be2 | "F"f2f2z2 :| 
+% mz04923

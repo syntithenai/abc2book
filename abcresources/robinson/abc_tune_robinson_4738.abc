@@ -1,0 +1,17 @@
+X:153
+T: Namenlos (nach G. Linder) Mazurka  GDC (mz06024)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.309 (mz06024) orig. G,D,C-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:G major
+"G"Bd ^cd gf | "tr""Am"f2e2e2 | "D7"de fd ba | "tr""G"ag fe dc | Bd ^cd gf | "tr""Am"f2e2e2 | "D7"de fd ba | "G"g2g2z2:: [K:D]
+"D"fa ^ga ba | df ^ef gf | "tr""A7"f2 eA eA | "tr""D"e2 dA dA | fa ^ga ba | df ^ef gf | "tr""A7"f2 eA ac | "D"d2d2z2 :| [K:G]
+"D7"c'>b a3d | "G"b>ag3d | "D7"f2fe dc | "tr""G"e2d2d2 | "D7"c'>b a3d | "G"b>ag3d | "D7"f>e dc' fa | "G"g2g2z2 || [K:C] 
+"C"e>f g3c' | "G7"ba d2 de | fe de fb | "C"ag ecG2 | eaa3e | "tr""G7"g2f2f2 | fbb3f | "tr""C"a2g2g2 | 
+e>f g3c' | "G7"ba d2de | fe de fb | "C"ag ecG2 | eg ^fg ag | "F"fa ^ga ba | "G7"bg eg fd | "C"c2c'2z2 |] 
+% mz06024

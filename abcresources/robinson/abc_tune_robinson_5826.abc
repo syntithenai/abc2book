@@ -1,0 +1,34 @@
+X:50
+T:Steigrat-Juiz 2012  A-Dur
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:A major
+[P:A] C | c>Ac | B2D | BcB | A2C | ABA | G>AB | BcB | A2C/C/ | 
+c>Ac | B2D | BcB | "__"c2C | ABA | G>AB | B/d/ cB | !fermata!A2 || 
+M:3/4
+[P:B] C| c2A | c2d | c2G | B3 | B2^A | c2B | A3 | 
+C2C/C/ | c2A | c2d | c2G | B3 | B2B | c2B!fermata! | A2 || 
+M:3/4
+[P:C] C>C | A3 | ABA | G2(B | B)D>D | B3 | AcB | (A3 | 
+A)C>C | A3 | ABA | G2(B | B)D>D | B3 | AGA | B3 || 
+M:3/4
+[P:D]C/C/ | c2A | c2d | c2G | B3 | B2^A | c2B | A3 | 
+C2C/C/ | c2A | "__"c2d | c2G | B3 | B2B | c2B | !fermata! !breath!A2 C/C/ | 
+c2A | c>cd | B2G | B3 | B2^A | c2B | A3 | 
+C2C/C/ | c2A | c>cd | c2G | B2B | e>ed | c2B | A2 |]
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:gewidmet dem Jodlerklub Schratte Hilfernthal (20. Oktober 2012)
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-25
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 23, 2018

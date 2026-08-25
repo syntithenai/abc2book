@@ -1,0 +1,23 @@
+X:153
+T:Polka CGF (pk06500) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.175 (pk06500) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"geae geae | "G7"f2B2 {/c}B^AB2 | (Ba).a2 (Bg).g2 | "C"e2c2 {/d}cBc2 | geae geae | "G7"f2B2 {/c}B^AB2 | (Ba).a2 (Bg).g2 | 
+"C"c2e2 c2z2 |: [P:B] [K:G] ("G"Bd).b2 (Bd).g2 | ("D7"Ac).g2 fef2 | (Ac).g2 (Ac)g2 | ("G"GB).e2 d^cd2 | (Bd).b2 (Bd).g2 |  ("D7"Ac).g2 fef2 | 
+(Ac).g2 (Ac).f2 |1 "G"g2(gf).g4 :|2 "G".g4"_>Teil A"z4 || [P:C] [K:F]  "C7"e2e2 d2d2 | "F"d2c2 c=Bc2 | "C7"b2b2 {/f}ede2 | 
+"F"a2a2 {/g}fef2 | "C7"e2e2 d2d2 | "F"d2c2 c=Bc2 | "C7"b2b2 {/f}ede2 | "F"f2fe .f4 [P:D] |: "A7"a3b bgfe | "Dm"fed^c d2d2 | 
+"A7"^cdc2 a2a2 | "Dm"ded2 a2a2 | "A7"a3b agfe | "Dm"fed^c d2d2 | "Bb"d2de f2^g2 | "A".a4z4 | ("C7"ab)(ba) g2a2 | 
+"F"f6f2 | "C7"e6d'2 | ("F"d'2c'2) c'=bc'2 | ("C7"ab)(ba) g2a2 | "F"f6f2 | "C7"e2b2 c'3e | "F"f2a2 f2"_Fine"z2 :| 
+W:
+W:Anmerkung H.C.: Muttenz 51  s.V. 5142 
+% pk06500
+% Dez 29, 2016

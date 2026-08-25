@@ -1,0 +1,34 @@
+X:1
+T:Alprüti-Juiz. 1994  Bb  ABC
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:2/4+3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,D | F>D B>B cB | A2Fe | c>BA2 A,C | F>E c>B | AG FE | D>E Fd | 
+B4 B,D | F>D B>B cB | A2Fe | c>BA2 A,C | F>E c>B Ac | !fermata!B4 ||  
+L:1/8
+Q:1/4=120
+M:3/4
+[P:B] DE | G3EG2 | e3dc2 | F3ED2 | d3cB2 | A3CF2 | E2d2c2 | B3DF2 | D4  EF  | 
+G3EG2 | e3dc2 | F3ED2 | d3cB2 | A3CF2 | E2d2c2 | (B6 | B4) || 
+Q:1/4=138
+M:3/4
+[P:C] DE | F3Dd2 | B3D ED | C3Ec2 | A4FF | F3Ac2 | f3e dc | B3cd2 | F4DE | 
+F3Dd2 | B3D ED | C3Ec2 | A4FF | F3Ac2 | f3e dc | (B6 | !breath!B4) DE | 
+F3Dd2 | B3D ED | C3Ec2 | A4FF | F3Ac2 | f3e dc | B3cd2 | F4DE | 
+F3Dd2 | B3D ED | C3Ec2 | A4FF | F3Ac2 | f3e dc | (!fermata!B6 | B2)z2 |] 
+%W:
+%W:Reihenfolge: A-B-C
+W:UJV-Naturjodelsammlung: Code-Nr: 17-01
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+W:
+W:"Fredy Wallimann - Zwischen Alp und Rampenlicht - Potzmusig" (live):
+W:https://www.youtube.com/watch?v=G3QpwUj5Y1o
+%May 12 2018

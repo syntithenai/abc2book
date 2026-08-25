@@ -11,6 +11,7 @@ import tempfile
 from typing import Any
 
 from sheet_image_ocr import ensure_paddleocr_available, extract_ocr_boxes
+from sheet_image_segment import segment_page_from_ocr_boxes
 from sheet_image_transcribe import (
     TITLE_LINE_RE,
     _extract_pdf_first_page,
@@ -263,6 +264,30 @@ def first_page_image_bytes(data: bytes, filename: str, work_dir: str) -> bytes:
         return handle.read()
 
 
+def _page_tune_segments(image_path: str) -> list[dict[str, Any]]:
+    """Detect stacked tune titles on a single page image via OCR boxes."""
+    if not ensure_paddleocr_available() or Image is None:
+        return []
+    try:
+        boxes = extract_ocr_boxes(image_path)
+    except Exception:
+        return []
+    with Image.open(image_path) as image:
+        width, height = image.size
+    segments = segment_page_from_ocr_boxes(boxes or [], int(width), int(height))
+    return [
+        {
+            "title": str(seg.get("title") or "").strip(),
+            "top": int(seg.get("top") or 0),
+            "bottom": int(seg.get("bottom") or 0),
+            "confidence": float(seg.get("confidence") or 0.0),
+            "index": int(seg.get("index") or 0),
+        }
+        for seg in segments
+        if str(seg.get("title") or "").strip()
+    ]
+
+
 def extract_sheet_metadata_bytes(
     data: bytes,
     filename: str = "upload.png",
@@ -274,6 +299,7 @@ def extract_sheet_metadata_bytes(
     with tempfile.TemporaryDirectory(prefix="sheet-metadata-") as work_dir:
         page_paths = _pdf_page_image_paths(data, filename, work_dir)
         page_titles: list[dict[str, Any]] = []
+        page_tune_segments: list[dict[str, Any]] = []
         for index, image_path in enumerate(page_paths):
             lines = _lines_from_top_crop(image_path, work_dir)
             title, artist = _guess_title_artist(lines)
@@ -283,18 +309,33 @@ def extract_sheet_metadata_bytes(
                 "artist": artist,
                 "lines": lines[:6],
             })
+            for seg in _page_tune_segments(image_path):
+                page_tune_segments.append({
+                    "page": index + 1,
+                    "endPage": index + 1,
+                    "title": seg.get("title") or "",
+                    "artist": artist if index == 0 else "",
+                    "top": seg.get("top"),
+                    "bottom": seg.get("bottom"),
+                    "confidence": seg.get("confidence"),
+                    "index": seg.get("index"),
+                })
 
-        segments = _segments_from_page_titles(page_titles)
-        if not segments:
-            fallback_title, fallback_artist = _guess_title_artist(
-                [line for entry in page_titles for line in entry.get("lines") or []]
-            )
-            segments = [{
-                "page": 1,
-                "endPage": len(page_paths),
-                "title": fallback_title,
-                "artist": fallback_artist or composer_hint,
-            }]
+        # Prefer in-page multi-tune segments when present (stacked session books).
+        if len(page_tune_segments) >= 2:
+            segments = page_tune_segments
+        else:
+            segments = _segments_from_page_titles(page_titles)
+            if not segments:
+                fallback_title, fallback_artist = _guess_title_artist(
+                    [line for entry in page_titles for line in entry.get("lines") or []]
+                )
+                segments = [{
+                    "page": 1,
+                    "endPage": len(page_paths),
+                    "title": fallback_title,
+                    "artist": fallback_artist or composer_hint,
+                }]
 
         for segment in segments:
             if not segment.get("artist") and composer_hint:
@@ -309,6 +350,7 @@ def extract_sheet_metadata_bytes(
             "numPages": len(page_paths),
             "segments": segments,
             "pageTitles": page_titles,
+            "pageTuneSegments": page_tune_segments,
             "firstPageImageBase64": first_page_image_base64,
         }
 

@@ -1,0 +1,21 @@
+X:88
+T:La Messine (Kontratanz) D (kt02311)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.354 (kt02311) orig. D
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+R:Kontratanz
+M:2/4
+L:1/8
+K:D major
+"D"a2f2 | dd/e/ dA | "Em"Bg "A7"e/g/e/c/ | "D"df d/c/B/A/ | a2f2 | dd/e/ dA | "Em"Bg "A7"e/g/e/c/ | "D"d2d2 || 
+"D"AF2D | "Em"BG2E | "A7"Bc e/d/c/B/ | "D"AA/B/ AF | "A7"G2 c/B/A/G/ | "D"F2 B/A/G/F/ |  "A7"EG EC | "D"D2D2 || 
+"D"DA, FD | AF dA | "G"Bg "A7"ec | "D"a/^g/a/b/ aa | DA, FD | AF dA | "Em"Ge "A7"Ac | "D"d2d2 || 
+"D"f2 a/f/a/f/ | "Em"g2 b/g/b/g/  | "A7"ag fe | "D"d/c/d/c/ dd | f2 a/f/a/f/ | "Em"g2 b/g/b/g/  | "A7"ag fe | "D"d2d2 ||  
+"D"F2 AF  | "Em"EE/F/E2 | "A7"G2BG | "D"FF/G/F2 | Ad cd | "G"Bd cd | "A7"AG FE | "D"D2D2 |] 
+W:
+W:"Diese (Kontra-)Tänze gehören zum Repertoire der um 1765 in Frankreich beliebten Tänze 
+W:und wurden vom Autor wahrscheinlich während seiner Militärzeit in Frankreich aufgeschrieben." Hrsg. S.350
+% kt02311  
+% Nov 19, 2016

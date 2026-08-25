@@ -1,0 +1,33 @@
+X: 427
+T:Vidinsko Horo
+O:Bulgaria
+S:Yves Moreau
+F: http://www.youtube.com/watch?v=981NNd2jczg
+F: http://www.youtube.com/watch?v=lZk92lHbhoo
+F: http://www.youtube.com/watch?v=5E_30tTyGUc
+M:2/4
+L:1/8
+Q: 1/4=240
+P:AABBCDE
+K:Gm
+P:A
+%%MIDI gchord fzzz
+%%MIDI program 40
+%%MIDI beat 97 87 77 4
+%%MIDI bassprog 32
+|:  "c" c'2 ba   |"g" g^f ga |"c" a2 g^f  |"g" ^fd fg  |\
+    "c" g2 ^fd  |"g" cd  eg |"c" g2 ^fd  |"g"  cd eg  :|
+P:B
+|:  "c" g2 ^fd  |"g" cd eg  | "c"  g2 ^fd|"g" cd eg   |\
+    "c"  g2 ^fd |"g" cd eg  | "c"  g2 ^fd|"g" cd eg   :|
+P:C
+    "d" f2  dd  |"a" d2 a2  |"d" f2  dd  |"a"d2 a2    |\
+    "d" f2  dd  |"a" d2 a2  |"d" f2  dd  |"a"d2 a2    |
+P:D
+    "d"addd     |"a"dddd    |"d" ^fddd   |"a"dddd     |\
+    "d"addd     |"a"dddd    |"d" ^fddd   |"a"dddd     |
+    "g" c4-     |"bb"c4-    |"g" c4-     |"b" c4      |\
+    "g" c4-     |"bb"c4-    |"g" c4-     |"b" c4      |
+P:E
+    "c" cd e^f  |"g" ac ^fc |"c" ^fg2c   |"g"ec^fc    |\
+    "c" cd e^f  |"g" ac ^fc |"c" ^fg2c   |"g"ec^fc    |

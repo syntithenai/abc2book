@@ -1,0 +1,24 @@
+X: 185
+T: Sovevuni
+O: Israel
+C: Mordechai Zeira 1953
+S: Israeli Folk Dances MM30922
+I: Dance taught by Yo'av Ashriel
+F: http://www.youtube.com/watch?v=EsKWSRfhqow
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Dm
+%%MIDI program 21
+%%MIDI chordprog 64
+%%MIDI bassprog 45
+%%MIDI chordvol 80
+%%MIDI bassvol 100
+| "Dm" zAzG |"Dm"A2 "Gm"D2 |"C"A2G2   |c>BAG     |\
+  "F"  A3G  |"Dm" A2D2     |"Gm"G2FE  |"F"F4     |
+  "Dm" zAzG |"Dm"A2D2      |"C"A2G2   |c>BAG     |\
+  "Bb" d3d  |"Am"c2A2      |c2e2      |"Dm"d4    |
+  "Bb" d4   |d4            |"Am" c2B2 |"Gm"A2G2  |\
+  "F" FGAF  |"C" c2B2      |"F" A4    |"Am"d4    |
+  "F" FGAF  |"Am" c2B2     |A4        |"Am" d4   |\
+  "C" c>BAG |c>BAG         |c>BAG     |c>BAG     |

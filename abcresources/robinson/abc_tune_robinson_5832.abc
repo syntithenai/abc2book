@@ -1,0 +1,36 @@
+X:9
+T:Städer-Juiz.  Bb  ABAC
+T:Emil Wallimann  (* 24.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:C
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+Q:1/4=60
+[P:A] F| F2>>DE// F2dB | F3ED2BD | E2>>CE// c2B2 | A6CG | F2>>EF//e2c2 |
+A2GA F2>>DF// | d2c2 !fermata! !breath!B2>F2 | F2>>DF// F2dB | F3ED2BD | 
+E2>>CE//c2B2 | A6CG | F2>>EF// e2c2 |A2Fed2c2 | B6z ||
+M:C
+Q:1/4=116
+L:1/4
+[P:B]   B,/D/ | F/E/Ddc | B3D/E/ | F/E/Ded | c3F | f>ecF | 
+f>ecF | fc/g/fe | d3B,/D/ | F/E/Dd c | B3D/E/ | 
+F/E/Ded | c3F | f>ecF | f>ecF | fc/g/fe | d2z || 
+Q:1/4=76
+M:2/4
+L:1/8
+[P:C] B,F | D2DB | F2Fd | dc Ac | E2CF | E2Ec | B2A2 | BA Bc | 
+d2 B,F | D2Dd | F2Fd | dc Ac | E2CF | E2Ec | B2A2 | (B4 | B2) B,F| D2DB | 
+F2Fd | dc Ac | E2CF | E2Ec | B2A2 | BA Bc | d2 B,F | 
+D2Dd | F2Fd | dc Ac | E2CF | E2Ec | B2A2 | (B4 | B2) |] 
+W:Reihenfolge: ABAC
+W:
+W:notiert Edi Gasser. Angaben Emil Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 23-05
+W:http://www.naturjodler.ch/code 23-1.htm  (with AUDIO)
+%May 24, 2018

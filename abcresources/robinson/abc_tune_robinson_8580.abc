@@ -1,0 +1,25 @@
+X: 209
+T:Brodie House Reel
+B:William Marshall, Kinrara (1800)
+C:William Marshall
+L:1/8
+M:C|
+N:Duke of Gordon ??
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 3
+K:F major
+%%staves { 1 2 }
+V:1
+e | \
+f>a a/g/f/e/ f>c cA | Bd d/c/B/A/ BG Ge | \
+f>a a/g/f/e/ f>c cA | B>d {d}c>B AF F  ::
+A/B/ | \
+c>A d>B c>A FA/c/ | c>A d>B {g}(f/e/f/g/ a)A/B/ | \
+c>A d>B cAFA |B>d {d}c>B AFF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | fcff | ffgc | fcff | d/B/c f/F/F/ :: \
+z/ | [fa][fb][fa][fa] | [fa][fb][fa]z | [fa][fb][fa]f | d/B/c f/F/ F/ :|
+%%center by the D. of G.

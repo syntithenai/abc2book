@@ -1,0 +1,18 @@
+X:459
+T:Cat in the Corner, The
+R:jig
+Z:id:hn-jig-459
+M:6/8
+L:1/8
+K:Dmix
+FEF DFA | dAF AFD | ~E3 CEG | cGE CEG |
+~F3 DFA | dAF DEF | GFG BAG |1 AFD D2A :|2 AFD Dde ||
+|: f2d ded | afd ded | e2c cdc |
+[1 gec cde | f2d ded | afd def | gfg bab | afd d2e :|
+[2 gec efg | afa geg | fdf e^cA | GFG BAG | AFD D2A || 
+P:variations
+|: ~F3 DFA | dAF AFD | ~E3 CEG | cGE GEC |
+~F3 DFA | dAF AFD | ~G3 EFG |1 AFD D2A :|2 AFD D2g ||
+|: f2d d^cd | afd de=f | e2c cBc |
+[1 gec efg | f2d d^cd | afd def | ~g3 efg | fdd d2g :|
+[2 gec efg | agf gfe | fed cAF | ~G3 EFG | AFD D2A ||

@@ -1,0 +1,27 @@
+X: 131
+T:Lady Jane Taylor's Strathspey - of Rothimay
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:46 - 1
+K:C major
+%%staves {1 2}
+V:1
+G/F/ | \
+(E>G)(c>G) EGcG | EG c(B/c/) dDD (G/F/) | \
+(E>G)(c>G) FAdf | (f/e/)(d/c/) (G/c/)(B/d/) cC-C (G/F/) |
+(E>G)(c>G) EGcG | EG c(B/c/) dDD (G/F/) | \
+(E>G)(c>G) FAdf | (f/e/)(d/c/) (G/c/)(B/d/) cCC |]
+e/f/  | \
+gc (e/f/g/e/) (a/g/)f/e/ d(e/f/) | gc (a/g/)(f/e/) fd- de/f/ | \
+c>d (c/d/)e/f/ (g/f/)e/d/ cG | c>A (G/A/)(F/G/) EC-C e/f/ |
+gc (e/f/)g/e/ (a/g/)f/e/ (de/f/) | gc (a/g/)f/e/ fd- de/f/ | \
+(g/f/)e/g/ (f/e/)d/f/ (e/d/)c/e/ (d/c/)B/d/ | (c/B/)c/A/ (G/A/)F/G/ ECC  |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | cccc | cc[Gd][Gd] | ccff | gGcc | cccc | cc[Gd][Gd] | ccff | gGcc/ |] \
+z/ | c'c'c'g | c'c'gg | c'c'c'e | fgcc | c'c'c'g | c'c'gg | c'[gb]c'g | fg cc/ |]

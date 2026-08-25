@@ -1,0 +1,34 @@
+X: 20
+T: Chüedräck-Ländler BbFEb (LD05578)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.44 (LD05578) orig. Bb,F-Dur
+S: Bauernkapelle 'Edelwieiss', Faulensee (Bern)
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+%P:ABCDEBF
+% The parts need correcting, Jan 2015
+K:Bb major
+F GA | "Bb"B6 | d6 | "F7"f3e dc | "Bb"B2z2 fe  |: "Bb"d3bb2 | f2 =ef _ed | "F7"c3aa2 | g6 | \
+c3aa2 |1 
+g2 ^fg =fe | "Bb"d3bb2 | f4 fe :|2 g2 ef ga | "Bb"b2 ab fd | B2zB AG ||"F7"F3GA2 | "Bb"BA Bc d2 | 
+"F7"ed ce dc | "Bb"Bd cB AG | "F7"F3GA2 | "Bb"BA Bc d2 | "F7"ed ce dc | "Bb"B2c2a2 |: [K:F] "F"f4A2 |
+ c=B dc AF | "C7"E4G2 | \
+z2 c2b2 | e4G2 | c=B dc _BG |1 "F"F4A2 | z2c2a2 :|2 "F"F3ff2 |
+ f2zf ed || "C7"c3de2 | "F"fe fg a2 | \
+"C7"ba gb ag | "F"fa gf ed | "C7"c3de2 | "F"fe fg a2 | "C7"ba gb ag |
+ "F"f2zF GA |:[K:Bb] \
+"Bb"BA  cB dc | "F7"ed fe gf | Te2A2A2 | A2zF =EF | Te2A2A2 |1 A2zF =EF |
+ "Bb"Td2B2B2 | B2zF GA :|2 \
+G2zF GA | "Bb"PB2AB df | b2zB "_> Teil B"AG || [K:Bb] "F7"F3GA2 | "Bb"BA Bc d2 | \
+"F7"ed ce dc |
+ "Bb"Bd cB AG | "F7"F3GA2 | "Bb"BA Bc d2 | "F7"ed ce dc | "Bb"B2c2a2 ||  \
+[K:Eb] BA |: "Eb"G2B2e2 |   g3fe2 |
+ "Bb7"d2Bd Bd | \
+A2zB Be | d2 Bd Bd |1 A2zB Bd | "Eb"e2 Be Be |
+ G2z2 BA :|2 A2zB cd | "Eb"eg Be GB | E2ze dc ||  \
+"Bb7"B3cd2 | "Eb"ed ef g2 |
+ "Bb7"ag fa gf | "Eb"eg fe dc | "Bb7"B3cd2 | "Eb"ed efg2 | "Bb7"ag fa gf | "Eb"e2z2z2 |] 
+W:
+W:Chüedräck - Kuhdreck, Kuhmist (cow dung)  cf. die Kuh (Kühe) - the cow (cows)

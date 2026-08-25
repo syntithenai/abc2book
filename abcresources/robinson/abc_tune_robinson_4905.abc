@@ -1,0 +1,18 @@
+X:3
+T:Alpeblueme- Mazurka GC (mz02085)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.306 (mz02085) orig. G,C
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Mazurka
+M:3/4
+L:1/8
+K:G major
+[P:A] "G"Bc db ag | "tr""D7"g2 .f2.f2 | "tr"f2.e2.e2 |  "tr""G"e2.d2.d2 | Bc de de | "tr""D7"d2.c2.c2 | AB cg fe | "tr""G"e2.d2.d2 |  
+Bc db ag | "tr""D7"g2 .f2.f2 |  "tr"f2.e2.e2 | "tr""G"e2.d2.d2 | "C"gf ag "D7"fe | "G".d2 .b(d ed) | "D7".c2 !>!a3f | "G"g2"_Fine"g2z2 |] [P:B] [K:C]
+"C"e>f g2"A7"g2 | "Dm"f>gf4 | "G7"d>bb3a | ("C"a4g2) | e>a a3g | "G7"f>g f3d | d>g g3f | "C"ec' ba.g2 | 
+e>fg2"A7"g2 | "Dm"f>gf4 | "G7"d>bb3a | "C"a4g2 | "F"c'2c'3a | "C/G"gc' e3c' | "G7"ba gf ed | "C"c2c2"_>Teil A"z2 |] 
+W:Parts: ABA
+% mz02085  (Oct 4, 2016)

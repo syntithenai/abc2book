@@ -1,0 +1,16 @@
+X:189
+T: Schottisch  FCBb (st09137)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.103 (st09137) orig. F,C,Bb
+S: \"Uberliefert durch Josef B\"abi, Alpnach, 1880
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+"F"a2f2 {/g}fef2 | "Gm"d2bag4 | "C7"g2e2 edc2 | "F"=Bcdef4 | a2f2 {/g}fef2 | "Gm"d2ba g3f | "C7"e2c2 =Bcde | "F"f2f2 f2z2 :| [K:C] 
+|: "C"efg2 g2c'2 | "Dm"b2a2d4 | "G7"fef2 fef2 | "C"a2g2e4 | efg2 g2c'2 | "Dm"b2a2 d3c | "G7"Bcde fgab | "C"c'2c'2 c'2"_>Teil A"z2 :| [K:Bb] 
+|: "Bb"B2de f2b2 | "Eb"g2ed c2B2 | "F7"A2{=e}f2 f2f2 | "Bb"g2fdB4 | B2de f2b2 | "Cm"a2ed c2B2 | "F7"Acf2 Acf2 | "Bb"B2b2 b2"_Fine"z2 :|  
+W:Parts: AB-AC
+% st09137

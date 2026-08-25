@@ -1,0 +1,18 @@
+X:207
+T:Valser alla veglia (Walzer) FC (wz02081)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.307 (wz02081) orig. F,C
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Walzer
+M:3/4
+L:1/8
+K:F major
+[P:A] "F".c2.A2.c2 | .f2(ac' bc') | "C7".e2 ("_*"gc' bc') | "F".f2 (ac' bc') | .c2.A2.c2 | .f2(ac' bc')  | ("C7"d'c' b"_*"g ec') | "F"f2z2z2 :| [P:B] [K:C] 
+|: "C"G2 EG cG | ed cB AG | "G7"G2FDB2 | "C"AG EGc2 | G2 EG cG | ed cB AG | "G7"G2AG FD | "C"C2z2"_>Teil A"z2 :| 
+W:Parts: ABA
+W:Anmerkung Hrsg.: Takte 2 u. 7: * HC: a
+W:vegl, vegla - alt (old)
+% wz02081  (Oct 4, 2016)

@@ -1,0 +1,25 @@
+X: 54
+T:Lady Jemima Cornwallis' Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:20 - 2
+K:A major
+%%staves {1 2}
+V:1
+A2 a2 {b}(a/g/f/g/) a2 | aece (!trill!fe)(dc) | \
+B2 b2 (b/^a/g/a/) b2 | bB^df bfg=a |
+A2 a2 {b}(a/g/f/g/) a2 | aece (!trill!fe)(dc) | \
+defg aedc | Bbfb (ag)(fa) ||
+Aece Aece | Aeca (!trill!fe)(dc) |\
+Bf^df Bfdf | bB^df bfga |
+Aece Aece | Aeca (!trill!fe)(dc) | \
+defg aedc | Bbfb (ag)(fa) |]
+V:2 clef=bass octave=-2
+L:1/4
+[Aa] [Aa] [Aa] [Aa]  | [Aa] AAA | [Bb]BBB | BBBB | [Aa] [Aa] [Aa] [Aa]  | [Aa] AAA | ddcc | BBBB || \
+[Aa] [Aa] [Aa] [Aa]  | [Aa] AAA | [Bb]  [Bb]  [Bb]  [Bb]  |  [Bb] BBB | [Aa] [Aa] [Aa] [Aa] | [Aa] AAA | ddcc | BBBB |]

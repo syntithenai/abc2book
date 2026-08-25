@@ -1,0 +1,18 @@
+X:221
+T:Schottisch  EbBb (st06596)  ABA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.256 (st06596) orig. Eb,Bb
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:Eb major
+B,B, [P:A] | "Eb"B,2E2 G2c2 | B3G B2B,B, | "Bb7"B,2.A2 .F2B,B, | "Eb".B,2.G2 .E2B,B, | B,2E2 G2c2 | B3G B2B,B, | 
+"Bb7"B,2A2 F3D | "Eb"E2E2 "_Fine"E2FF |: [P:B]  [K:Bb] "Bb"F3B "Eb"AGFE | "Bb"D2(FD) B,2B,2 | "F7"C2EC A,2A,2 | 
+"Bb"B,A,B,D F2FF | F3B "Eb"AGFE | "Bb"D2FD B,2B,2 | "F7"C2EC A,2A,2 |1 "Bb"B,2B,2 B,2FF :|2  "Bb"B,2B,2 B,2"_>Teil A"B,B, |]  
+% st06596
+% April 27, 2017

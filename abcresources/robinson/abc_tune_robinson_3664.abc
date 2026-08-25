@@ -1,0 +1,11 @@
+X:205
+T:Schottisch CGF (st04940)
+M:2/4
+L:1/16
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+EF |: "C"G2G2 AG^FG | E2Gc e2ce | "G7"g2f2 dGBd | "C"f2e2 c2EF | G2G2 AG^FG | E2Gc e2ce | "G7"g2f2 dGBd |1 "C"c2c2 c2EF :|2 
+"C"c2c2 c2z2 |: [K:G] "Am"A2A2 A^GAB | "F7"c2c2 cBcd | "E7"e2ed c2cB | "Am"A2AA "D7"A2A2 | "G"G2G2 GFGA | "Em"B2B2 BABc | "D7"d3c B2BA | 
+"G"G2G2 G2z2 :: [K:C] "G7"G2f2 fed2 | "C"G2e2 edc2 | "G7"G2d2 dcB2 | "C"cGce g2ec | "G7"G2f2 fed2 | "C"G2e2 edc2 | "G7"G2d2 dcBd | "C"c2c2 c2z2 :: [K:F] 
+"F"ABA^G A2B2 | cdc=B c2f2 | "C7"e3d c3B | "F"d2c2 !>!A4 | ABA^G A2B2 | cdc=B c2f2 | "C7"e3d c2E2 | "F"F2F2 F2z2 :| 
+% June 14, 2016

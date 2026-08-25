@@ -1,0 +1,27 @@
+X:1
+T:Miss Admiral Gordon's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 2
+K:A major
+%%staves {1 2}
+V:1
+"^Slow"
+E | \
+A/A/A (.A<.A) A>E           A<f  | e<c    !trill!B3/A/      {A}F2 !trill!F2 | \
+A/A/A (.A<.A) A>E           A<f  | e>f           a/c3/        e2     (e>f)  | \
+e>f    a<c    e<c   !trill!B3/A/ | !trill!B3/c/ (d/c/)(B/A/) {A}F2 !trill!F2 | \
+A/A/A (.A.A)    A>E          A<f   | e<c !trill!B3/c/ A2 A2 ||
+(C3/E/) (A/E3/) (!trill!F/E3/) (A/E3/) | ~c>e (d/c/)(B/A/) {A}F2 !trill!F2 | \
+(C3/E/) (A/E3/) (!trill!F/E3/)   (A3/E/) | ~c>d (e/f/)(g/a/) {f}e2 (e>g) |
+(a>g) (!trill!f/e3/) (!trill!f/e3/)(d<c) | !trill!B3/c/ (d/c/)(B/A/) {G}F2 F2 | \
+A/A/A (.A.A) A>E A<f | e<c!trill!B3/c/ A2 A2 |]
+V:2 clef=bass octave=-2
+[L:1/4]
+z/ | \
+Acea | eedD | Acea | eEAz | AAaa   | ead'd | aecA | eEAA || \
+AAaa | eAdd | AAaa | eEaa | aAd>^d | eEdd' | aecA | eEAA |]

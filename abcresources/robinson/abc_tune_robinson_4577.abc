@@ -1,0 +1,16 @@
+X:8
+T: Allewander (Alewander)  FCBb (AL05861)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.326 (AL05861) orig. F,C,Bb-Dur
+S: "Riebgärteler", Tänze aus Halisberg. S.319-338
+S: Aus dem Repertoire von Johann und Melchior Zenger.
+%%MIDI program 21
+R:Alewander
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+c|: "F"a>g "Bb"f>d | "F"cdc2 | "C7"cbg2 | "F"ca fc | a>g "Bb"f>d | "F"cdc2 | "C7"cb ge |1 "F"f2zc :|2 "F"f2z2 || [K:C] 
+"G7"g>a g>a | "C"gag2 | "G7"gg ab | "C7"c'_b ag | "F"a>g "Bb"f>d | "F"cdc2 | "C7"c_b ge | "F"f2z2 || [K:F] 
+"F"c>f f>a | a>c'c'2 | "C7"c'>b b>d' | "F"d'>c'c'2 | c>f f>a | a>c'c'2 | "C7"c'>b be | "F"f2z2 || [K:Bb] 
+|: "Bb"d3f | "F7"feg2 | c3e | "Bb"edf2 | "Gm"B3d | "Cm"dce2 | "F7"f>f ga |1 "Bb"ba gf :|2 "Bb"b2z2 |] 
+% AL05861

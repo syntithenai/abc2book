@@ -1,0 +1,14 @@
+X:1
+T:Carolan's Concerto (as from Sullivan)
+M:4/4
+L:1/8
+K:G major clef=treble
+g2 g2 g2fe   | dedc B2 d2   | A2d2 G2d2     | efga f2d2 | 
+g2d'2 bc'd'b | abc'a bc'd'b | c'2e'2 bc'd'2 | c'bag f2d2 |
+egeg c'2c'2  | dfdg b2b2    | cece a2a2     | {g}f2ef d2dc | 
+BcdB ABcA    | BcdB cdec    | d2g2 a2 a/g/f | g4 G2 ||
+Bc | \
+dcBA G2d2     | F2d2 E2e2   | D2g2 gfed     | e2b2 agfe | 
+dd'dd' cc'cc' | gbgb fafa   | dgdg fgaf     | dd'dd' cac'a | 
+agfe dcBA     | GDB,D GDB,D | acec acec     | BGdG cBAG | 
+gBdB edcB     | ABcd efga   | d2g2 a2 a/g/f | g4 G2 |]

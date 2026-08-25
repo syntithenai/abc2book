@@ -1,0 +1,21 @@
+X:63
+T:Mazurka  FCBb (mz07426) ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.336 (mz07426) orig. F,C,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"a>(e g3)f | ("Gm"ed).b2.b2 | ("C7"a>g) (d3e) | ("F"gf).c2.c2 | (a>e) (g3f) |1 ("C"eg) c'(c'e2) | ("G7"gf) a(a=B2)  | "C".c2c4 :|2 
+("Gm"ed)b4 | ("C7"be) ee .d.e | "F"f4"_fine"z2 |] [P:B] [K:C] "C"ge' d'c' ba | ("G7"^ga b)ad2 | (g/b/)z (b/a/)z!>!f2 | ("C"f/a/)z (a/g/)z!>!e2 | 
+ge' d'c' ba | "G7"^g(a ba)d2 | (g/b/)z (b/a/)z g>B | "C"c3d' c'"_>Teil A"_b |] [P:C] [K:Bb]  "Bb".d2.e2.f2 | "F7"{/d}c>=Bc4 | 
+.e2.f2.g2 | "Bb"{/e}d>^cd4  | (fd') .d'.d' .e'd' | "F7"(d'^c') .=c'2.c'2 | (c'=b) .c'.c' .d'.c' | "Bb"(c'b).f2.f2 | .d2.e2.f2 | 
+"F7"{/d}c>=Bc4 | .e2.f2.g2 | "Bb"{/e}d>^cd4 | (b>a) (c'>b) f2 | "Cm"(g>^f) (a>g) c2 | ("F7"ed) (fe) (ca) | "Bb".b2b2"_>Teil A"z2 || 
+W:
+% mz07426 (H 261/TN 72)
+% Sep 15, 2017 (Caprina)

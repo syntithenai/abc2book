@@ -1,0 +1,10 @@
+X:87
+T:Kreuzpolka ussim Klettgau  CGF (kp04915)
+M:2/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"ce/2d/2 cB | "F"!>!A2.f2 | "G7"GB/2A/2 G"_ ="F | "C"!>!E2.e2 | e^F/2G/2 dc | "G7"c>B F2 |1 f^F/2G/2 ed | "C"d>cG2 :|2 "G7"f>f ed | "C"cc c"_fine"z |] 
+[K:G] |: "G"dB/2B/2 G"_ ="e | "D7"!>!d2.c2 | dc/2c/2 Af | "G"!>!e2.d2 | dB/2G/2 e>d |1 "D7"def2 | dc/2F/2 e>d | dF"G"B2 :|2 "C"eee2 | "D7"dc/2F/2 e>d | "G"GG G"_>Teil A"z |] 
+[K:F] |: "C7"G>A Bd | "F"!>!c2.a2 | A>A dc | "C7"!>!B2.e2 | ee/2e/2 ef | gA B>=B |1 "G7"c=B/2c/2 ed | "C"cc cz :|2 "C7"cc/2^c/2 d>e | "F"ff fz |] 
+W: Parts: ABACA

@@ -1,0 +1,25 @@
+X: 121
+T:Mrs Forsyth's Strathspey -- of Mortlach
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:43 - 1
+K:A minor
+%%staves {1 2}
+V:1
+A,<E-E>.^F G2 (G,>B,) | A,<E-E>^F G>DG>B | \
+c<AB>F G2 (G,B,) | A,A^cA B^GAc |
+A,<E-E>.^F G2 G,>B, | A,<E-E>.^F G>DG>B | \
+c<AB>^F G2 (G,B,) | A,A^cA B^GAe |]
+^cA c/e/e B2 GB | ^cA c/e/e (cA) c/e/e | \
+^cA c/e/e =B2 GB | Aa^gb aA^ce |
+^cA ce/e/ =B2 GB | cA ce/e/ (A/B/^c/4d/4e/4^f/8^g/8) af | \
+((3gb).g ((3^fa).f g2 GB |Aa^gb aA^ce |]
+V:2 clef=bass octave=-2
+L:1/4
+AAGG | AABB | cdGG | AAeA | AAGG AABB | cdGG | AAeA |] \
+aa=gg | aaaa | aa=gg | aeaa | aa=gg | aaaa | gdgg | aeaa |]

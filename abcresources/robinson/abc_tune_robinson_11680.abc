@@ -1,0 +1,24 @@
+X:61
+T:Marina,La. CJF.061
+T:La Marina. CJF.061
+R:Quadrille
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:6/8
+L:1/8
+Q:1/4=120
+N:B: Kidson Coll.Mitchell Lib.M1805
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+notC:C Nicholson
+K:G major
+d|(d>^c).d(e2f)|(g2ab3)|(ba).^g .a(ea)|(g3f2)e|\
+{e}(d>^cd)(e2f)|!
+g2ab3|1(ba).f (ag).^c|\
+e3d2:|2(df).e (de).f|a3g2||!
+d|f2ga2d|c'2ba2d|f2g eba|(g3f2)e|\
+{e}d^cde2f|g2ab3|.c'(ea) (ga).f|a3g2d|!
+b3f3-|fgag3|^d3(e^f).g|(d^c=c)B3|\
+e3^g3|a2bc'3|"~"(d^cd) "~"f3|g3-g2h|]

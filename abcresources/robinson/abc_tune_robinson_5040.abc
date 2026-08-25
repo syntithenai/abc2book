@@ -1,0 +1,18 @@
+X: 125
+T: Mazurka EbAb (mz02907) 
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.409 (mz02907) orig. Eb,Ab-Dur
+S: Tessiner Tänze.
+%%MIDI program 21
+M:3/4
+L:1/4
+O:Switzerland
+K:Eb major
+"Cm"Gcd | e2d | "Ab"c/>=B/ cA | "Cm"G3 | "Eb"gzg | "Fm"f>e z/c/ | "Gm"B/A/ G/F/ E/D/ | "Cm"E/>D/ Cz | 
+Gcd | e2d | "C7"c/>=B/ cG | "Fm"B2A | fga | "Cm"a2g | "G7"A>G D/E/ | "Cm"Ccz || 
+"Eb"B>c d/e/ | B/c/ d/e/ f/e/ | "Bb7"daa | azz | B>c d/e/ | B/c/ d/e/ g/f/ | "Eb"ebb | bzz | 
+b>bg | "Fm"f2c | "Bb7"a>af | "Eb"e2B | g/f/ e/d/ c/B/ | "Bb7"dzz | c/d/ e/d/ A/d/ | "Eb"cBB | 
+b>bg | "Fm"f2c | "Bb7"a>gf | "Eb"e2B | "Bb7"d>d e/f/ | "Eb"g>d e/g/ | "Bb7"c'>bg | "Eb"egz || [K:Ab]
+"Ab"(c3 | c)=Bc | (e3 | e)=de | "Db"(f3 | f)za | "Ab"e3 | z/c/ B/c/ d/c/ | "Eb7"fzz | 
+z/B/ =A/B/ c/B/ | "Ab"ezz | z/A/ G/A/ B/A/ | "Eb7".G G/A/ B/c/ | .d d/e/ f/g/ | "Ab"bac | ezz | (c3 | 
+c)=Bc | (e3 | e)=de | "Db"(f3 | f)za | "Ab"(c'3 | c'/)=b/ _b/=a/ _a/g/ | "Eb7"fBc | 
+d>e g/f/ | "Ab"eAB | c>A B/A/ | "Eb7".G G/A/ B/c/ | d/c/ d/e/ f/g/ | "Ab"a =d/e/ "Eb7"f/e/ | "Ab"aaz |]

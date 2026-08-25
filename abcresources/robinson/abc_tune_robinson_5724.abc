@@ -1,0 +1,31 @@
+X:1
+T:Melchsee-Juiz  Bb  ABC
+T:Hans Durrer-von Flüeh  (25.6.1921-16.8.2002)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "beschwingt, nicht zu rasch"  DF | B>cd2DF | f>dc2EF | f>d cF f/e/ c/d/ | 
+BdF2DF | B>cd2DF | f>dc2EF | f>d cF f/e/ c/d/ | B4z2 || 
+L:1/8
+M:3/4
+[P:B]  D/ E/F/ | GE e>G B>G | Fe d>B F d/g/ | f>e cF eg | 
+f>dB2 z/D/ E/F/ | GE e>G BG | F>D FB dg | f>e cF f/F/ e/A/ | B4z2 || 
+M:3/4
+[P:C] "beschwingt, nicht zu rasch"  DE | F2BF dB | f3dB2 | F2AF eA | f3ec2 | F2GF Ac | f3e dc | B3d BD | 
+!fermata!F2z2DE | F2BF dB | f3dB2 | F2AF eA | f3ec2 | F2GF Ac | f3e dc | B2F2dc | 
+!fermata!B3zDE | F2BF dB | f3dB2 | F2AF eA | f3ec2 | F2GF Ac | f3e dc | !fermata!B3d BD | 
+F2z2DE | F2BF dB | f3dB2 | F2AF eA | f3e c2 | F2GF Ac | f3e dc | B2f2d2 | B6 |] 
+%W:Reihenfolge: A-B-C
+W:
+W:Musik: Hans Durrer-von Flüeh, bearbeitet: Karl Anderhalden
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 11-01
+W:http://www.naturjodler.ch/code 11.htm  (with AUDIO)
+%May 6, 2018

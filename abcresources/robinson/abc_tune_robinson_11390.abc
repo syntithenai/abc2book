@@ -1,0 +1,32 @@
+X:14
+T:March of 15th Regiment.3voices. JClw.14
+T:15th Regiment,March of.3voices. JClw.14
+M:4/4
+L:1/8
+Q:1/4=110
+S:J.Clews MS,Stoke-upon-Tern,Shrops.1832
+N:A very grand arrangement in 3 parts. Voice 1 almost identical
+N:to the version in John Jones MS (1801), North Shropshire.
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Clews, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/ClewsJ.abc
+K:G major
+[V:1]G2|d2d>dd2 (3edc|B2B>BB2 (3GAB|A2c>dd>cB>A|G2G>GG2 g>e|!
+[V:2]G2|B2B>BB2  (3cBA|d2d>dd2 (3BAG|F2A>c B>AG>F|G2G>GG2 g>e|!
+[V:3 clef=bass]G,2|G,2G,>G,G,2 z2|G,2G,>G,G,2 z2|z8|G,2G,>G,G,2 z2|!
+%
+[V:1]e2e>ee2 g>e|d2d>dd2 B>d|c>Ac>c B>GB>B|A2A>AA2||!
+[V:2]c2c>cc2 e>c|B2B>BB2 G>B|A>FE>E G>BG>G|F2F>FF2||!
+[V:3 clef=bass]C2C>CC2z2|G,2G,>G,G,2 z2|z8|D2D>DD2||!
+%
+[V:1]d>B|A2A>AA2 d>B|B2B>BB2 (3Bcd|e2g>gg2e2|d2g>gg2 (3edc|!
+[V:2]B>G|F2F>FF2 G>F|G2G>GG2 (3GAB|c2B>BB2c2|B2B>BB2 (3cBA|!
+[V:3]G,>G,|D2D>DD2 G,>A,|G,2G,>G,G,2 (3GDB,|\
+(3A,B,C (3B,A,G,G,2C2|(3B,A,G, G,>G,G,2 (3CB,A,|!
+%
+[V:1](3Bcd (3efg d>cB>A|G>ABB B>cdd|d2 (3edc B2A2|G2G>GG2|]
+[V:2](3GAB (3cAB B>AG>F|D>FGG G>ABB|\
+B2 (3cBA G2F2|[B2G2][B3/2G3/2][B/2G/2][B2G2]|]
+[V:3](3G,A,B, (3CDE F>G G,>A,|B,>A,G,G, G,>A,B,G,|\
+G,2 (3CB,A, G,2 D,2| G,2G,>G,G,2|]

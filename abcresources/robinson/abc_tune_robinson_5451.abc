@@ -1,0 +1,21 @@
+X:202
+T:Dingeling (Schottisch) CG (st06379) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.129 (st06379) orig. C,G
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G |: "C"AB cd |  ee zG | ee zG |   "G7"ff zG | Bc de | ff zG | ff "C0"^ff | "C"gg zG | 
+AB cd | e/e/e ze | "C7""_* * *"_b/b/b zg | "F"f/f/f zg | "G7"b>a b>a | "C".a!>!g2.e | "G7".g!>!f2.d |1 "C"ce cG :|2 "C"ce cd || [K:G] 
+|: "G"Bc de | e2zd | de fg | "D7"g2zf | fg ag | gf/f/ fg | "C"fe/e/ ef | "G"ed/d/ dd | 
+Bc de | e2zd | de fg | "C"fe/e/ ee | "D7"aa ag/a/ | "G"bg dd/e/ | "D7"ff fe/f/ | "G"gb gz :| [K:C] 
+|: "C"e2 a>g | c2d>c | Gc dc | ("G7"c2.B2) | (Bd) (fa) | add2 | aB aB | "C"ag/f/e2 | 
+e2a>g | c2e>c | "C"Gc "C7"dc | "F"B2A2 | "G7"b>a b>a |  "C"a>g a>g | "G7"gf ed | "C"cc cz :| 
+W:
+W:Anmerkung Hrsg.: Teil A, Takt 11 HC: h-h-h (i.e. b-b-b)
+% st06379
+% Dez 8, 2016

@@ -1,0 +1,15 @@
+X: 81
+T: Ländler CGF (LD05624)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.65 (LD05624) orig. C,G,F-Dur
+S: Tänze aus Beateberg (Bern)
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:C major
+"C"EG ce dc | "G7"Bd fb a2 | g2 Bg fB | "C"ce Gc E2 | EG ce dc | "G7"Bd fb a2 | g2 Bg fB | 
+"C"c2z2z2 :: [K:G] "G"dG Bd gb | "D7"ad' c'b ag | fa eg df | "G"ce Bd GB | dG Bd gb | "D7"ad' c'b ag | 
+fa eg fa |1 "G"g2z2z2 :|2 "G"g2z2b2 |: [K:C] "G7"Ta2 gB gB | "C"cE Gc ec | "G7"BD GB fB | "C"cE Gc ec' | 
+"G7"Ta2 gB gB | "C"cE Gc ec | "G7"BD GB fB |1 "C"c2z2b2 :|2 "C"c2z2F2 |: [K:F] "F"FA d3c | "C7"cB GE C2 | 
+CE GB eg | "F"fa cf A2 | FA d3c | "C7"cB GE C2 | CE GB eg |1 "F"f2z2F2 :|2 "F"f2z2z2 |]

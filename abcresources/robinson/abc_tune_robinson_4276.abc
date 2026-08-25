@@ -1,0 +1,15 @@
+X: 45
+T:  Galopp GC (GL05767)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.166 (GL05767) orig. G,C-Dur
+S: Repertoire der Roesti-Musik (Bern) S.124ff
+%%MIDI program 21
+R:Gallop
+O:Switzerland
+M:2/4
+L:1/8
+K:G major
+"G".d2.g2 | .d2.b2 | ba gb | "D7"a4 | .d'2.c'2 | .b2.a2 | "G"c'b ^ab | g4 | .d2.b2 | 
+.d2.b2 | ba gb | "D7"a4 | d'c' ba | "G"g2 db | "D7"a2 ef | "G"gg gz :: "G"d>^c d>e | dgb2 | 
+d>^c d>e | dgb2 | "D7"{/b}d'c' +>+a2 | "G"{/a}c'b +>+g2 | "D7"{/g}ba gf | "G"ed b2 | "D7"{/b}d'c' +>+a2 | "G"{/a}c'b +>+g2 |
+"D7"ba ef | "G"gg gz :: [K:C] "C".c2.e2 | .^d2.e2 | fe dc | "G7"(e2.d2) | .B2.d2 | .^c2.d2 | gf ed | 
+"C"(f2.e2) | .c2.e2 | .^d2.e2 | eg fe | "F"(g2.f2) | "G7"ba gf | "C"eg ce | "G7"ed AB | "C"cc cz :|

@@ -1,0 +1,15 @@
+X:267
+T: Winterthurer Schottisch FCB (st05005)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.315 (st05005) orig. F,C,Bb-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABACDC
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c'>a "C7"b>c' | "F"af f/e/f | a>f "C7"g>a | "F"fc c/=B/c | c'>a "C7"b>c' | "F"af f/e/f | "C7"a>g g/b/a/g/ | "F"ff fz :| [P:B] [K:C] 
+"C"e>g e>g | "G7"fd f2 | d>f d>f | "C"e/c'/g/e/ c2 | e>g e>g | "G7"fd f2 | bb/b/ c'/b/a/b/ | "C"c'>c c'>"_>Teil A"c || [P:C] [K:Bb] 
+|: "Bb"f/g/f d'b | f/g/f !>!d2 | "F7"f/g/f !>!e2 | "Bb"f/g/f !>!d2 | f/g/f d'b |  "F7"f/g/f !>!d2 | f/g/f e>f |1 "Bb"db bz :|2 "Bb"db b((3c/d/=e/) || [P:D] [K:F]   
+"F"f/f/f "C7"e/e/e | "F"ffz2 | a/a/a "F0"^g/g/g | "F"aaz2 | c'/c'/c' "Bb"d'/d'/d' | "C7"e'>d' c'/b/a/g/ | "F"f/g/f f/g/f |  f/g/f f/"_>Teil C"g/f |]

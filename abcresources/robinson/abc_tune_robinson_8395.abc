@@ -1,0 +1,27 @@
+X: 21
+T:Ballendalloch Castle
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:8 - 1
+K:Bb major
+%%staves { 1 2 }
+V:1
+"^Slow"
+d/c/ | \
+!trill!B>c B<F {Bc}d<B- Bd/c/ | !trill!B>c B<F      {Bc}d>c- cd/c/ | \
+!trill!B>c BF  (dc)     (ed)  | !trill!f>g f/g/f/e/  dB       B :|
+d/e/ | \
+~f>gfd (ed)(gf) | ~B>dfd (g/f/)(e/d/) c(d/e/) | \
+~f>gfd c>B!trill!d>c | !trill!B>G (F/G/)(B/c/) {Bc}d>B- Bd/e/ |
+~f>gfd (ed)(gf) | B/c/d/e/ f/g/a/b/ g/f/e/d/ c/d/e/f/ | \
+(~gf)(ed) (~cB)(dc) | !trill!B>G F/G/B/c/ {Bc}d>B B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+BBBB | BB/d/fF | Bd/f/be | fFBB/ :|
+z/ | \
+Bbbb | Bbbf | Bded/e/ | fFBB | Bbbb | Bbbf | eEed/e/ | fFBB/ |]

@@ -1,0 +1,25 @@
+X:7
+T:Viscount Hamilton
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 1
+K:F major
+%%staves {1 2}
+V:1
+FCFA FGAf | cA!trill!GF D/D/D D2 | FCFA FGAf | cAfA F/F/F F2 :: \
+fcfa fcfa |
+             gdba g/g/g g2 |1 \
+fcfa fcdf | !trill!c3/B/A3/G/ F/F/F F2 :|2 \
+facf BgAf | !trill!c3/B/A3/G/ F/F/F F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Aa] [Bb] [Bb] | \
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Ff] [Ff] :: \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Bb] [cc'] [cc'] |1 \
+[Ff] [Ff] [Aa] [Bb] | [cc'] [cc'] [Ff] [Ff] :|2 \
+[Aa] [Ff] [Ee] [Ff] | [cc'] [cc'] [Ff] [Ff] |]

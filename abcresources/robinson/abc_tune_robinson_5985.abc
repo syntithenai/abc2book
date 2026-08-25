@@ -1,0 +1,23 @@
+X:1
+T:Kreuzpolka  CFBb  (kp06955)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.118  (kp06955) orig. F,C,Bb
+S: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+R:Kreuzpolka
+P:ABAC
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"AG/A/ BA | "C7"G2c2 | c=B/c/ ed | "F"c2f2 | AG/A/ BA | "C7"AGG2 | G^F/G/ AG | "F"GFF2 | 
+AG/A/ BA | "C7"G2c2 | c=B/c/ ed | "F"c2f2 | AG/A/ BA | "C7"AG c>B | AG DE | "F"FF Fz :| [K:C] 
+[P:B]  |: "C"GG AG | "G7"B2B2 | GG AG | "C"c2c2 | cc/B/ B/A/A/G/ | "G7"BA/A/G2 |  BB/A/ GF | "C"AA/G/ E2 | 
+GG AG | "G7"B2B2 | GG AG | "C"c2c2 | cc/B/ B/A/A/G/ | "G7"BB/A/ G2 | BB/A/ GB | "C"cc "_>Teil A"cz :| [K:Bb]
+[P:C]  |: "Bb"F>^F G=F | "F7"e2e2 | F>^>F G=F | "Bb"d2d2 | B>A AA | "Cm"A>G GG | "F7"G>F F=E | "Bb"F2z2 | 
+F>^F G=F | "F7"e2e2 | F>^>F G=F | "Bb"d2d2 | "Cm"c>G GA | "Bb"B>F FB | "F7"BA dc | "Bb"BB Bz :| 
+W:
+W:Anmerkung H.C.: Seelisberg 1, Oberdorf 5, Böckten 15
+% kp06955
+% April 26, 2018 ("I'm not a healer, rather a teacher")

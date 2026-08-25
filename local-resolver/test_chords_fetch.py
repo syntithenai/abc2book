@@ -28,6 +28,8 @@ from chords_fetch import (
     parse_duckduckgo_result_urls,
     parse_llm_json_mapping,
     score_title_artist_match,
+    TAB_LINE_RE,
+    token_is_chord,
     search_duckduckgo_site_candidates,
     section_labels_need_translation,
     slugify,
@@ -171,6 +173,27 @@ Amazing Grace, how sweet the sound
             "sun",
         ]
         self.assertFalse(has_usable_chord_lines(lines))
+
+    def test_dash_style_bass_tab_is_not_treated_as_chords(self):
+        raw = [
+            "Intro",
+            "G-----------------------------------------------------------------------",
+            "D-----------------------------------------------------------------------",
+            "A-----------------------------------------------------------------------",
+            "E---5--5/12--0-----5/12--0----------------------------------------------",
+            "",
+            "Verse",
+            "G---||-----(9)---------(9)---------(9)------------(9)----|",
+            "D---||*--------------------------------------------------|",
+            "A---||*--7--7--7--7--7--7--7--7--7--7--7--7--7--7--7--7--|",
+            "E---||---------------------------------------------------|",
+        ]
+        self.assertFalse(token_is_chord("G-----------------------------------------------------------------------"))
+        self.assertFalse(token_is_chord("E---5--5/12--0-----5/12--0----------------------------------------------"))
+        self.assertTrue(TAB_LINE_RE.match("G-----------------------------------------------------------------------"))
+        self.assertTrue(TAB_LINE_RE.match("E---5--5/12--0-----5/12--0----------------------------------------------"))
+        sheet = finalize_sheet_lines(raw)
+        self.assertFalse(has_usable_chord_lines(sheet))
 
     def test_has_usable_chord_lines_accepts_real_chord_sheet(self):
         lines = [

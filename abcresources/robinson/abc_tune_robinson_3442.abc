@@ -1,0 +1,19 @@
+X:3
+T: Anna-Polka FBb (pk00336) 
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.282f (pk00336) orig. F,Bb-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABCDC
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"CF/G/ AA | A2z2 | CA/B/ cc | c2zc | "Gm"d/d/d GA | "C7"B2zd | "F"c/c/c FG | A2"C7"zC | 
+"F"CF/G/ AA | A2z2 | "Am"EA/=B/ cc | c2zc | "E7"=B/B/B cB | "Am"A/A/A =BA | "E7"^GE ^FG | "Am"AA/A/ Ac || 
+[P:B] "C7"c2B>A | GA Bc | "F"d2 c>=B | cA cf | "C7"eG Bc | e3d | "F"cF Ac | d3c | 
+"C7"c2 B>A | GA Bc | "G7"d2 "C7"e>f | "F"fA Bc | "Gm"d/d/d BG | "F"c/c/c AF | A/A/A "C7"GE | "F"FF Fz ||  
+|: [P:C] [K:Bb] 
+"Bb"d3f | B3d | gf ed | "F7"e3c | A2c2 | e3c | fe ec | "Bb"d3d | 
+d3f | B2 de | "Bb7"=ef _ed | "Cm/Eb"c3G | "Eb"G2 AB | "Bb"B3d | "F7"ce cA | "Bb"BB "_fine"B2 :| 
+[P:D] "Gm"G/A/B B2 | "D7"A/B/c c2 | dd/e/ dc | "Gm"BAG2 | G/A/B B2 | "Cm"c/d/e e2 | "D7"d>c BA | "Gm"G2"_>Teil C""F7"F2 |]

@@ -1,0 +1,15 @@
+X:96
+T: L\"andler F (LD05109)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.368 (LD05109) orig. F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] F/G/ | "F"A3 | AGA | F3 | Adc | "C7"B3 | BAB | G2F | EFG | 
+"F"A3 | AGA | F2G | Adc | "C7"B3 | BAB | G2B | "F"AzA/B/ || 
+[P:B] "C7"c>cc |  d/c/  B/c/ d/e/ | "F"f>ff | g/f/ e/f/ g/a/ | "C7"b2g | z g/f/ g/b/ | "F"a2f | zAB | 
+"C7"c>cc | d/c/ B/c/ d/e/ | "F"f>ff | g/f/ e/f/ g/a/ | "C7"b2g | zf/f/ f/g/ | f2e | "F"fzz |] 
+% June 8, 2016

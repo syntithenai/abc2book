@@ -1,0 +1,32 @@
+X:1
+T:Bandtössli-Juiz. 2004  Bb  ABAC
+T:Peter Ming (03.03.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+R:Naturjodel
+M:2/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FE | D>C | D/C/ D/E/ | F>E | D2 | Fd | c>f | 
+c>E | F/f/ d/c/ | B>D | F d/c/ | B2 | FE | D>C | 
+D/C/ D/E/ | F>E | D2 | Fd | c>f | c>E | F/f/ d/c/ | !fermata!B2 || 
+M:2/4+3/4
+[P:B] "langsam"  f>e/d// | cF| "_jeder Ton breit" !fermata!e !fermata!d !fermata!c | "gemütliches Walzertempo"B>dF | dcB | c>eF | 
+edc | B>F | Bd | f2 | f>e/d// | cF | "_jeder Ton breit" !fermata!e !fermata!d !fermata!c | 
+B>dF | dcB | c>eF | edc | B2z || 
+L:1/4
+M:2/4
+[P:C] F/E/ F/E/ | D2 | d/c/ d/c/ | B2 | FF/E/ | D>F | f>e | d2 | 
+cF | cF | d>c | B2 | F/E/ F/E/ | D2 | d/c/ d/c/ | B2 | 
+FF/E/ | D>F | f>e | d2 | cF | cF | [M:3/4] "_langsam ausklingen"fcd | !fermata!B2z |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 53-01
+W:http://www.naturjodler.ch/code 53.htm  (with AUDIO)
+%September 17, 2018

@@ -1,0 +1,29 @@
+X:38
+T:the Marchioness of Breadalbane
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:15 - 2
+K:C major
+%%staves {1 2}
+V:1
+G | \
+c2 (!trill!cB/A/) GcGE | FDEC A,DB,G, | c2 (!trill!cB/A/) GcGE | DdBG c2 (cG) |
+c2 (!trill!cB/A/) GcGE | FdEc DdBG    | c2 (!trill!cB/A/) GcGE | DfdB c2 c ||
+e/f/ | \
+[cg]ege [ca]faf | [cg]edc BdBG | [cg]ege [ca]faf | AdBG c2 ce/f/ |
+[cg]ege [ca]faf | [cg]edc BdBG | AFcA GEcE | DfdB c2 c |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Cc] [Cc] [Cc] [Cc] | [Bg] [cg] [Ff] [Gg] | [Cc] [Cc] [Cc] [Cc] | [Ff] [Gg] [Cc] [Cc] | \
+[Cc] [Cc] [Cc] [Cc] | [Bb] [Cc] [Ff] [Gg] | [Cc] [Cc] [Cc] [Cc] | [Ff] [Gg] [Cc] [Cc]/ || \
+z/ | \
+[c'e'] [c'e'] [c'f'] [c'f'] | [c'e'] [c'e'] [gd'] [gd'] | \
+[ec'] [ec'] [fc'] [fc'] | [fd'] [gd'] [c'e'] [c'e'] | \
+[c'e'] [c'e'] [c'f'] [c'f'] | [c'e'] [c'e'] [gb]3/ [Ee]/ | \
+[Ff] [Ff] [Cc] [Cc] | [Ff] [Gg] [Cc] [Cc]/ |]

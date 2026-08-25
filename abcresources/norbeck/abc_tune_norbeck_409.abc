@@ -1,0 +1,23 @@
+X:69
+T:Butcher's March, The
+T:Three Little Drummers
+R:jig
+H:2nd part cf. 1st part of "Mac's Fancy" #259
+D:John McKenna
+Z:id:hn-jig-69
+M:6/8
+K:G
+~d3 BAB | dBA A2B | ded ~B3 | dBA G2B |
+ded BAB | dBA A2g | faf gfe |1 dBG G2B :|2 dBG GBd ||
+|: eAA fed | eAA ABd | eAA gfe | dBG GBd |
+eAA fAA | eAA efg | faf gfe |1 dBG GBd :|2 dBG G2B ||
+P:variations
+|: ded BAB | dBA A2B | d3 BAB | dBG GAB |
+ded ~B3 | dBA A2g | f/g/af gfe |1 dBG GAB :|2 dBG GB/c/d ||
+|: eAA fed | eAA AB/c/d | eAA gfe | dBG GBd |
+eAA fed | eAA A2g | f/g/af gfe |1 dBG GBd :|2 dBG GAB ||
+P:more variations
+|: d3 BAB | dBA A2B | ded BAB | dBF G2B |
+ded BAB | d^cB A2g | faf gfe |1 dBG GB^c :|2 dBG GBd ||
+|: eAA ^cBA | FAA EFG | eAA ^cBA | dBG B^cd |
+e2A ^cBA | FAA efg | f2a gfe |1 dBG GBd :|2 dBG GB^c ||

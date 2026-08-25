@@ -1,0 +1,20 @@
+X:98
+T:Le Corps Royal ou Mascarade (Kontratanz) AE (kt02313)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.355 (kt02313) orig. A,E
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+R:Kontratanz
+M:6/8
+L:1/8
+K:A major
+E | "A"A2A A>GA | "E7"B2B B>cd | "A"c>BA "E7"G>AB | E2E E>FG | "A"A2A A>GA | "E7"B2B B>cd | 
+"A"c>BA "E7"B>AG | "A"A3 "B7"A2B || [K:E] "E"e2e e>fg | "B7"f2f f>ga |  "E"g>fe "B7"d>ef | "E"B2B B>cd | 
+e2e e>fg | "B7"f2f f>ga | "E"g>fe "B7"f>ed | "E"e3e2z || [K:A] "A"e2e e>fe | "E7"d2d d>ed | 
+"A"c2c c>dc | "E7"B2B B>cd | e2e e>fe | "Bm"d2d d>ef | "E7"e>dc B>AG | "A"A3 A2z |] 
+W:
+W:"Diese (Kontra-)Tänze gehören zum Repertoire der um 1765 in Frankreich beliebten Tänze 
+W:und wurden vom Autor wahrscheinlich während seiner Militärzeit in Frankreich aufgeschrieben." Hrsg. S.350
+% kt02313  
+% Nov 18, 2016

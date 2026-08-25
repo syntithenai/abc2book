@@ -1,0 +1,24 @@
+X:1
+T:Polka  FCBb (pk07008)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.180  (pk07008) orig. F,C,Bb
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] ("F"A/c/)c ("C7"G/B/)B | ("F"FA/A/) cf | "C7"e>d  (c/B/A/G/) | "F"dcA2 | (A/c/)c ("C7"G/B/)B | ("F"FA/A/) cf | "C7"e>d  (c/B/A/G/) | "F"FF Fz :| [K:C] 
+[P:B] |: "C"e3f | e3d | (d/c/c/B/) (/B/A/A/G/) | ("G7"G2.F2) | (dd/e/) dc | B3.A | A>B A>F | ("C"E2.C2) | e3f | 
+e3d | (d/c/c/B/) (/B/A/A/G/) | ("G7"G2.F2) | ("F"f/e/f) Af | "C"e2dc | ("G7"B/A/G) (f/e/)d | "C".c2"_>Teil A".c2 :| [K:Bb] [L:1/4]
+[P:C] |: ("Bb"d2 |"F7"d/)c/ e/A/ | ("Bb"B2 | B) B/>c/ | dd| "Eb"e>d | ("Bb"d2 | "F7"c)z | 
+(e2 |e/)g/ f/e/ | ("Bb"d2 |d/)F/ B/d/ | "F7"fe | GA| "Bb".B"F7"A | "Bb"B/B//B// .B :|
+W:
+%W:Parts: ABAC
+W:Anmerkung H.C.: Teil B: Bindebögen vermutlich als Legato-Bögen gedacht (s. Faksimile S. 181)
+%W:Anmerkung Hrsg,: 
+% pk07008
+% Friday the 13th, July 2018

@@ -1,0 +1,28 @@
+X: 118
+T:Miss Jane Stewart's Strathspey -- Pittyvaich
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:42 - 1
+K:G major
+%%staves {1 2}
+V:1
+{D}G2 (G>g) B<G !trill!B2 | (D>G)Gg BGBg | \
+{D}G2 G>g B<G B2 | c>AB>G !trill!A>G E<A :|
+Gg-g>.b a<f !trill!g2 | (e>f)(g>a) bgab | \
+e>f g<e d<Bc>d | egdB c/B/A/G/ EA |
+Gg-g>.b a<f !trill!g2 | (e>f)(g>a) bgab |\
+g<be<g d<gB<g | c<aB<g !trill!A>G E<A |]
+V:2 clef=bass octave=-2
+L:1/4
+[Gg]ggg | gggg | gggg | fgBc :| \
+ggdg | eegd' | c'c'bg | c'gbc' | ggdg | eegd' | e'c'bg | fgcc |]
+%%vskip .15cm
+%%begintext
+Mr Gow and others have Published this tune, but have not mentioned Mr. Marshall as the Composer,
+and also changed its original name to Johnny Pringle.
+%%endtext

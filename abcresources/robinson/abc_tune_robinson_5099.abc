@@ -1,0 +1,18 @@
+X:179
+T:Schottisch CGF (st02323)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.402 (st02323) orig. C,G,F
+S:Bündner Tänze. S.384-402. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+K:C major
+[P:A] "C"ga/g/ ec | "G7"BPB AG | BPB AG | "C"cc .G2 | ga/g/ ec | "G7"BPB AG | ^F/G/B/d/ gB | 
+"C"ce cz :: [P:B] [K:G] "G"G>B Bd | "D7"d2.A2 | d>d ef | "G"ag fg | G>B Bd | "D7"d2.A2 | 
+d>d ef |1 ."G"g2g2 :|2 ."G"g2"_>Teil A""D7"=f2 |: [P:C] [K:F] "F"cd/e/ fg | a4 | "D7"a2b>a | 
+"Gm"g2.d2 | "C7"c=B/c/ e>d | dcE2 |1 c=B/c/ e>d |  "F"dcF2 :|2 "C7"c=B/c/ b>e | "F"fa "_Fine"fz |] 
+% st02323
+% Dez 5, 2016

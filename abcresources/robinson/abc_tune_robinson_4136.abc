@@ -1,0 +1,19 @@
+X:181
+T:Schottisch  FCBb (ABAC) (st09286)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.167 (st09286) orig. F,C,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"cc'a2 caf2 | "tr""C7"e4G4 | Bgf2 Bag2 | "F"cc'afc4 | cc'a2 caf2 | "tr""C7"e4G4 | Bgf2 d3e | 
+"F"f2f2 f2z2 :: [P:B] [K:C] !>!"C"g4 agec | {/d}"G7"b2b2  a3g | {/g}b2b2 a3g | {/g}"C"d'2d'2 c'4 | g2^fg agec | {/d}"G7"b2b2  a3g | 
+{/g}b2b2 a3g | "C"c'2c'2 c'2"_>Teil a"z2 :: [P:C] [K:Bb] "Bb"fff2 bbb2 | "F7"baa2 a2a2 | eee2 aaa2 | "Bb"agg2 g2g2 | 
+"G7"ddd2 fff2 | "Cm"fee2 e2e2 |1 "F7"FAce a3g | "Bb"gfdB F4 :|2 "F7"FAce gfeA | "Bb"B2b2 b2z2 |] 
+W:Parts: AB-AC
+% st09286

@@ -1,0 +1,38 @@
+X:7
+T:Ruossigrat-Juiz.  BbF  ABCD
+T:Emil Wallimann  (* 24.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+Q:1/4=63
+[P:A] DF | F3d cB | G3e Ge | F3D FB | d4g2 | f3e cA | F4e2 | d3c Bd | 
+F4DE | F3d cB | G3e Ge | F3D FB | d4cc | =e3d c=E | d2c2=E2 | (F6 | F2)z2 || 
+K:F
+M:4/4
+Q:1/4=76
+L:1/4
+[P:B]  C>=B,/C// | DBEc | F>Fdc | FcE>E | dcEc | F>FdA | 
+c2 C>=B,/C// | DBEc | F>Fdc | F/d/ c/F/ E>E | dcEc | (F4 | F)z ||
+Q:1/4=132
+M:3/4
+L:1/4
+[P:C]  C| Ffe | d2F | dcF | E2C | Eed | c2E | dcE | F2C | Ffe | 
+d2F | dcF | E2C | Eed | c2E | dcE | F2 || 
+M:4/4
+Q:1/4=70
+L:1/8
+[P:D] d/c/|Bd fdB2 fe/d/ | c2F>F dc Fc | E>E dc Ed cE | 
+F>F dc c3d/c/ | Bd fdB2 fe/d/ | c2F>F dc Fc | E>E dc ed cE | !fermata!F6 |]
+W:Reihenfolge: ABCD
+W:
+W:notiert Edi Gasser. Angaben Emil Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 23-04
+W:http://www.naturjodler.ch/code 23-1.htm  (with AUDIO)
+%May 24, 2018

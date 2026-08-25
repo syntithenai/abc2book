@@ -1,0 +1,38 @@
+X:1
+T:Schnäggähittä-Juiz  Bb  ABCXD
+T:für unsern Jodlerkollegen Hugo Imfeld zum 60. Geburtstag
+T:Beat von Holzen (*1963)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCXD
+R:Naturjodel
+M:2/4+4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>DFd | B2| "Echo"B,>DFd | B2| f>dcE | Ffd>c | BDFB | 
+d2| B,>DFd | B2| B,>"Echo"DFd | B2| f>dcE | Ffd>c | [M:4/4+2/4] (B2 | B2 ) ||
+M:3/4
+[P:B] G>EE | edc | BD/F/ B/c/ | dcB | A>GF | E/e/ dc | B>D F/B/ | 
+d2z | G>EE | edc | BD/F/ B/c/ | dcB | A>GF | E/e/ dc | (B3 | B2)z || 
+L:1/4
+M:3/4
+[P:C] GE/E/ E/E/ | edc | BD/F/ B/c/ | dcB | A>GF | E/e/dc | BB,/D/ F/B/ | 
+d2z | GE/E/ E/E/ | edc | BD/F/ B/c/ | dcB | A>GF | E/e/dc | (B2 | !fermata!B2)z || 
+[M:4/4+2/4]
+[P:X] B,>DFd | "_Echo"B4 | B,>DFd | ("_Echo"B4 | B2) | f>dcE | Ffd>c | BDFB | 
+d2z2 | B,>DFd | "_Echo"B4 | B,>DFd | ("_Echo"B4 | B2) | f>dcE | Ffd>c | (B2 | B3) ||
+[M:3/4]
+[P:D] 
+F/F/ | f>ec | f>e d/c/ | B>G F | D/G/ F/d/ c/B/ | 
+c>AF | E/G/ F/e/ d/c/ | d>c B/G/ | F2F/F/ | f>ec | f>e d/c/ | 
+B>GF | D/G/ F/d/ c/B/ | c>AF | fcd | (B3 | B2)z |] 
+W:
+%W:Reihenfolge: A - B - C - X(A2) - D
+W:
+W:notiert Edi Gasser. Angabe: Beat von Holzen
+W:UJV-Naturjodelsammlung: Code-Nr: 54-01
+W:http://www.naturjodler.ch/code 54.htm  (with AUDIO)
+%September 21, 2018

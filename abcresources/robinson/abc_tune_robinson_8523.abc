@@ -1,0 +1,30 @@
+X: 89
+T:Miss Stewart's Jig -- Bombay
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:32 - 3
+K:D major
+%%staves {1 2}
+V:1
+f | \
+d2 D D2 F | AFD D2 F | B,2 E EFD | ~C3 A,2 f | \
+d2 D D2 F | AFD D2 F | Egf edc | d3 D2 f |
+d2 D D2 F | AFD D2 F | B,2 E EFG | FED CB,A, | \
+d2 D D2 F | AFD D2 F | Egf edc | d3 D2  |]
+f | \
+d2d (fa).f | (df).d (fa).f | B2 e efd | ~c3 A2c | \
+d2d (fa).f | (gb).g (fa).f | (eg).e cBc | d3 D2 f |
+d2c (fa).f | (df).d (fa).f | B2e efd | ~c3 A2 c | \
+def efg | fed cBA | (B/c/d).B (c/d/e).c | d3 D2 |]
+V:2 clef=bass octave=-2
+z | \
+d3d3 | d3d3 | G3G3 | A3A3 | d3d3 | d3D3 | G3A3 | d3D3 | \
+d3d3 | d3d3 | G3G3 | A3A3 | d3d3 | d3d3 | G3A3 | d3D2 |] \
+z | \
+d3d'3 | d3d'3 | g3g3 | a3a3 | d3d3 | g3d3 | g3a3 | d3D2z | \
+d3d'3 | d3d'3 | g3g3 | a3a3 | d'3a3 | b3f3 | g3a3 | d3D2 |]

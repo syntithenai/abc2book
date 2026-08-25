@@ -1,0 +1,18 @@
+X: 114
+T:  Mazurka GDC (mz05949)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.175 (mz05949) orig. G,D,C-Dur
+S: Tänze aus Saanen (Bern)
+%%partsbox
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+P:ABAC
+K:G major
+[P:A] "G"db b3a | a>g g>f g2 | "(B7)"Bg g3f | "C"f>e e>^d e2 | "D7"cee4 | Acc4 | "G"Bee4 | GBB4 | 
+db b3a | a>g g>f g2 | "(B7)"Bg g3f | "C"f>e e>^de2 | "D7"ec'c'4 | "G"bgg4 | "D7"Ac f>e c>A | "G"G2g2z2 || [K:D] 
+[P:B]  "D"((3Fdf) b>a a2 | ((3Adf) b>a a2 | ((3Fdf) b>a f>a | "A7"g2c2c2 | c2 b>a a2 | c2 b>a a2 | c2 b>a e>g | "D"f2d2d2 | 
+"D"((3Fdf) b>a a2 | ((3Adf) b>a a2 | "D7"((3dfa) d'>c' d'>e' | "Em/G"d'2e2e2 | "A7"((3ceg) b4 | "D"((3afd) A4 | "A7"BA dc fe | "D"d2d2"_> Teil A"z2 || [K:C]
+[P:C]  "C"eg g3a | g4e2 | eg fe dc | "G7"Pc2B2B2 | "Dm"fa a3b | a3c' ba | "G7"g3B df | "C"{/f}e2B2c2 | 
+eg g3a | g4e2 | ef ga bc' | "F"Pb2a2a2 | "Dm"ad' d'c' ba | "C".c'2+>+g4 | "G7"b>b b2d'2 | "C"c'2c'2z2 |]

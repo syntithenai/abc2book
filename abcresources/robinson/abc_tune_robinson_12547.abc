@@ -1,0 +1,29 @@
+X:436
+T:Dark Tower,The.2voices RH.437
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:2/4
+L:1/8
+Q:1/4=120
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] " Andante"a2aa|f2d2|e2a2|f2d2|b2a2|g2f2|e2fd|dcBA|
+[V:2] " Andante"f2ff|d2F2|GB Ac|dAdf|g2f2|e2d2|G2^G2|A2z2|
+%
+[V:1] a2aa|f2d2|e3a|f2d2|b2bb|ad' c'/b/a/g/|f2e2|d3d/e/||
+[V:2] e2ee|d2F2|GBAc|d2z2|g2gg|f2a/g/f/e/|d2A2|F2z2||
+%
+[V:1] [M:6/8][L:1/8][Q:3/8=120]"^Allegro"f2f fga|a2e e3|def fed|d3 d2d/e/|
+[V:2] [M:6/8][L:1/8][Q:3/8=120]"^Allegro"D3 d3|c3 c3|B3 ^G3|A3 A2z|
+%
+[V:1] f2f fga|a2e e2d|ceA dB^G|A3 A2a|a^ga aga|faf dfd|
+[V:2] D3 d3|c3 c2B|A2f D2E|A3 A2z|A3 ABc|d2A F2D|
+%
+[V:1] [M:2/4][L:1/8][Q:1/4=120]"^Andante"efe aba|f3 d3|b2b2|ad' c'/b/a/g/|f2e2|d4|]
+[V:2] [M:2/4][L:1/8][Q:1/4=120]"^Andante"G3 A2c|(d3 d3)|g2g2|f2a/g/f/e/|d2A2|F4|]

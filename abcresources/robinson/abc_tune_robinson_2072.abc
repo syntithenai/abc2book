@@ -1,0 +1,34 @@
+X:3073
+T:Milestone Jig % nf<bb
+B:"Northern Fiddler" 184 (DOD)
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+C:Arthur Darley
+L:1/8
+M:6/8
+R:Jig
+Q:320
+K:G major
+P:A
+d2c|:B>AG D>GA|B>cd d>BG|cBc A>FD|A>Bc c>BA|
+B>AG D>GA|B/c/dB e>fg|d>cB A>Bc|1 B>GG G>dc:|2 B>GG G2||
+P:B
+B|AFD DEF|GBc d2B|BAc BAG/B/|AGF FED|
+AFD DEF|GBd g2e|dcB ABc|1 BGG G2:|2 BGG GB||
+P:C
+d|g2d BGG|Bcd dBG|c2B AFD|cBA def|
+g2d efg|a/a/ge d2e|dcB ABc|1 BGG GB:|2 BGG G2||
+P:D
+A|D2A cBA|DEF GAB|D2B cBA|DEF G2A|
+D2A Bcd|efg age|dcB ABc|1 BGG G2:|2 BGG Gd||
+P:E
+c|B3 BAG|dcB BAG|A3 AFD|AGF ABc|
+B3 BAG|Bcd efg|edc BcA|1 BGG Gd:|1 BGG G2||
+P:F
+B|A3 AFD|ABc AFD|B3 Bcd|edc BAG|
+A3 ABc|AFD Bcd|edc BdA|1 BGG G2:|2 BGG GB||
+P:G
+d|g3 gdB|gdB BAG|A3 dAF|DFA cBA|
+g3 gdB|gfe dcB|edc BcA|1 BGG GB:|2 BGG G2||
+P:H
+A|D3 DFA|cBA AGF|GFG Bcd|edc BAG|
+D3 DFA|Bcd efg|age dcA|BGG G2:|

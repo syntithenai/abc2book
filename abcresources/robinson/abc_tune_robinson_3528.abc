@@ -1,0 +1,11 @@
+X:80
+T: Klettgauer-Mazurka GC (mz04910)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"b2g2g2 | "D7"fac2c2 | a2f2f2 | "G"gbd2d2 | b2g2g2 | "D7"fa c2c2 | a2fff2 | "G"g2g2z2 ::
+"C"e4g2 | "G"d4g2 | "D7"fac2c2 | "G"Bdg2g2 | "C"e4g2 | "G"d4g2 | "D7"fa cd ef | "G"g2g2z2 :: [K:C]
+"C"e2B2c2 | a4"_ ="g2 | "G7"f2A2"_ ="B2 | "C"cB cde2 | e2B2c2 | a4"_ ="g2 | "G7"f2A3B | "C"c2c2z2 :| 
+% mz04910

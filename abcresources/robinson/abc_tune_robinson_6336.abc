@@ -1,0 +1,21 @@
+X:1
+T:Zigeuner-Walzer  BbEb  (wz07775) 
+T: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.135  (wz07775) orig. Bb,Eb
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox)
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:Bb major
+[P:A] dd |: ("Bb"d2f) | (B2d) | (c2B) | F2c/c/ | ("F7"c2f) | (c2f) | ("Bb"e2d) | B2d/d/ | 
+(d2f) | (B2d) | ("F7"d2c) | F2c/c/ | (c2f) | (e2d) | "Bb"B>[Bd] [Bd] |1 [Bd]zd/d/ :|2 [Bd]zz ||  
+ [P:B] |: "Bb"FB/B/B | "F7"AGF | e/e/eA | "Bb"Bdf | FB/B/B | "F7"AGF | e/e/eA |1 "Bb"Bzz :|2 "Bb"BzB/^A/ ||  
+ [P:C] [K:Eb] |: "Eb"Gze | ezB | "Bb7"dzc | F2z | dzc | Azc | ("Eb"B3 | G)zB/A/ | Gze | 
+ezB | "Bb7"dzc | F2z | dzc | BAD | "Eb"E>ee |1 ezB/A/ :|2 ezz |] 
+W:
+%W:Anmerkung H.C.: 
+% wz07775 (H 275/TN 9)
+% May 23, 2018

@@ -1,0 +1,27 @@
+X:18
+T:Lady Rachael Russell
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 2
+K:F major
+%%staves {1 2}
+V:1
+F>F (!trill!FA/B/) (!trill! cd/e/) fA | G<GG>A B>c d<f | \
+F<F !trill! FA/B/   !trill! cf/g/ ag | f<d!trill!c>A G>A B<d :|
+c<fA<f cf d/c/B/A/ | cfAf GABd | \
+cfAf cf{fg}a>g | fc d/c/B/A/ G>A B<d |
+c<fA<f cf d/c/B/A/ | cfAf GABd | \
+(3(ba)!wedge!g (3(ag)!wedge!f g/f/e/d/ d/c/B/A/ | !trill!B>c d/c/B/A/ G>A B<d |]
+V:2 clef=bass octave=-2
+L:1/4
+[fac'] [fac'] [fac'] [fac'] | c' [bc']/a/ g/[fa]/ [fb] | \
+[fac'] [fac'] [fac'] [fac'] | [fb] [fa] [cc'] [cc'] :| \
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Cc] [Cc] | \
+[Ff] [Ff] [Aa] [Aa] | [Aa] [Bb] [cc'] [cc'] | \
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Cc] [Cc] | \
+[Ee] [Ff] [Bb] [Aa]/[Ff]/ | [Dd] [Bb] [Cc] [Cc] |]

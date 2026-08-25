@@ -1,0 +1,13 @@
+X:145
+T: Mazurka G (mz05150)
+T:Hanny Christen. Bd.I  Zürich, Schaffhausen, St. Gallen I. S.382 (mz05150) orig. G-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+"G"(3ddd d2g2 | "D7"g2f2f2 | "C"f2e2e2 | "G"e2d2d2 | (3ggg b2d2 | "C"d2e2e2 | "D7"(3ddd f2a2 | "G"b2g2g2 | 
+(3ddd d2g2 | "D7"g2f2f2 | "C"f2e2e2 | "G"e2d2d2 | "C"d2 c>B c>d | "G"c2 B>A B>c | "D7"b2 a>^g a>b | "G"g2g2z2 | 
+|: "D7"c2c2 B>A | "G"G>e d2d2 | "D7"df f2 ed | "G"dgg2 dB | "D7"c2c2 B>A | "G"G>ed2d2 | "D7"df fe cA | "G"G2G2z2 :|

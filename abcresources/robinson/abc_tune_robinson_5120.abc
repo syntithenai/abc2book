@@ -1,0 +1,19 @@
+X:198
+T:Schottisch GD (st02183)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.373 (st02183) orig. G,D
+S:Bündner Tanzmusik. S.367-383. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Schottische
+M:2/4
+L:1/8
+K:G major
+D [P:A] |: "G"D>G GF | G2zD/D/ | D>B BA | B2zG/G/ | G>d dd | dB GB |1 
+"D7"c>c "G"B>B | "D7"A2 dD :|2 "D7"dA Fd | "G"G2"_Fine"z2 |: [P:B] [K:D] "D"FD/F/ !>!A2 | FD/F/ !>!A2 | "A7"EA EA | 
+"D"F2D2 | FD/F/ !>!A2 | FD/F/ !>!A2 | "A7"AA Bc |1 "D"dd dz :|2 "D7"d=c B"_>Teil A"A |]  
+W:
+W:Anmerkung H.C.: Nott Caviezel
+% st02183  (H 077/TN 16)
+% Nov 25, 2016

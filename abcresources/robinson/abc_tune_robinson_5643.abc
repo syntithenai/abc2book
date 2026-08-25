@@ -1,0 +1,30 @@
+X:13
+T: dr Schilder  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:2/4
+%Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam"  c/ | BD | F>B | D c/B/ | AE | F>e | c>B | AE | 
+F>A | E/F/ d/c/ | BD | F>d | !fermata!B>c | BD | F>B | 
+Dc/B/ | AE | F>e | c>B | AE | F>A | "rit."E/F/ d/c/ | !fermata!B2 || 
+M:3/4
+[P:B] "ruhiges Walzertempo"  ed | cEG | edc | BDF | f>d c/B/ | 
+AEF | f>e d/c/ | [M:4/4] BDFd | !fermata!B2ed | [M:3/4] cEG | edc | 
+BDF | f>d c/B/ | AEF | f>e d/c/ | (B3 | B) || 
+[P:C] "flottes Walzertempo"  c/B/ | G (E/E/) (E/E/) | cBG | F2D | F2 G/F/ | 
+F>E F/e/ | A2 G/F/ | F>D F/d/ | B2c/B/ | G (/E/E/) (/E/E/) | cBG | 
+F2D | F2G/F/ | F>Ac | f>e d/c/ | (B3 | B)z |]
+W: Reihenfolge: A-B-A-2xC
+W:
+W: Der Ursprung dieses Juizes liegt in den Sachsler Alpen. Der urspr. namenlose Juiz wurde 
+W:um 1955 von Walter von Deschwanden aus dem "Schild" zum Jodlerklub Sarnen gebracht.
+W: 
+W: UJV-Naturjodelsammlung: Code-Nr: 00-17
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 22, 2018

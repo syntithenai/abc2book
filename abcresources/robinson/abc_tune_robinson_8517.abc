@@ -1,0 +1,25 @@
+X: 94
+T:Miss Gordon's Strathspey -- Fochabers
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:34 - 1
+K:D major
+%%staves { 1 2 }
+V:1
+B | \
+F<A-A>!wedge!B !trill!A>F A<d | F<A-A>!wedge!g {g}!trill!f2 (df) | \
+!trill!g>e!trill!f>d !trill!e>d B<e | {c}d>B A<F !trill!B2 E :|
+g | \
+fd (fg/a/) (f>d) d<g | fdAF {F}~d2 (Ag) | \
+fd (fg/a/) (b/a/g/f/) (g/f/e/d/) | (B<e)e>f ~g2 ef/g/ |
+afge fdec | dA d/c/B/A/ ~F2 (DF) | GBGE FAFD | B,<EE>F {F}!trill!G2 G |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | dddd | efgg | fdee/ :| \
+z/ | [dd'][dd'][dd'][dd'] | [dd'][dd'][dd'][dd'] | [dd'][dd'][gg'][ff'] | [gg'][ee'][Aa][Aa] | \
+d'c'd'a | d'add | ecdf | geAA/ |]

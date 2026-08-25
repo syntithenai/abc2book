@@ -1,0 +1,30 @@
+X:3
+T:Hohmad-Juiz  Bb  ABAC
+T:Neldi Ming  (* 21.1.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>D(F2 | F)DFB | d>cB2 | z2FF | f>dcE | Ffcd | BDF2 | 
+B,>D(F2 | F)DFB | d>cB2 | z2FF | f>dcE | Ffcd | B3z || 
+M:4/4
+[P:B] GE/E/EE | e2dc | F>DFB | d2cB | A>FFf | e2dc | BDFd | 
+B3z | GE/E/EE | e2dc | F>DFB | d2cB | A>FFf | eFdc | (B4 | B3)z ||  
+M:3/4
+L:1/8
+[P:C] d3c BD | F3D Fd | c3E Fd | c4z2 | e3c AE | F3E Fd | B3D Fd | B4z2 | 
+d3c BD | F3D Fd | c3E Fd | c4z2 | e3c AC | F6 | EFc2d2 | !fermata!B4z2 | 
+d2dc BD | F2FD  Fd | c2cE Fd | c6 | e2ec AC | F2FE Fd | B2BD Fd | 
+B6 | d2dc BD | F2FD Fd | c2cE Fd | c6 | e3d cC | F3EF2 | c4d2 | B6 |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser. Angaben Neldi Ming
+W:UJV-Naturjodelsammlung: Code-Nr: 25-02
+W:http://www.naturjodler.ch/code 25.htm  (with AUDIO)
+%May 26, 2018

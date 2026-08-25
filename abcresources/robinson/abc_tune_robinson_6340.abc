@@ -1,0 +1,24 @@
+X:1
+T:Auf dem Achensee. Walzer  BbEb  (wz07796) 
+T: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.144  (wz07796) orig. Bb,Eb
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:Bb major
+[P:A] "Bb"F3 | ("Bb0"=E2G) | ("Bb"F3 | F)Bd | ("F7"f2c) | {/d}c=Bc | "Bb"d3 | "Eb"BAG | "Bb"F3 | ("Bb0"=E2G) | ("Bb"F3 | 
+F)BA | "C7"GA/G/ ^F/G/ | (d2c) | ("F7"F3 |1 F)zz :|2 Fzd |: [P:B] "F7"d>cc | (ce)A | "Bb"c>BB | (Bd)B | "F7"B>AA | 
+A>GG | "Bb"G>FF | FBd | "F7"d>cc | (f2e) | "Bb"e>dd | (g2f) | "F7"f>ee | d>cc | ("Bb"B3 |1 B)zd :|2 
+Bzz || [P:C] [K:Eb] ("Eb"E3 | E)B,E | (G3 | G)EG | (B2g) | (f2e) | ("Bb7"d3 | d)zz | (B3 | 
+B)FB | (d3 | d)Bd | f2c | d2c | ("Eb"B3 | "Bb7"B)AF | ("Eb"E3 | E)B,E | (G3 | 
+G)EG | ("Ab"A2c) | (e2c) | ("Eb"B3 | B)Bc | ("Bb7"B3 | B)FA | ("Eb"G3 | G)EG | "Bb7"F3 | 
+(A2G) | ("Eb"E3 | E)ze  [P:D] |: ("Bb7"d2c) | (ABd) | ("Eb"c2B) | (^FGc) | ("Bb7"B2A) | (=B,CG) | ("Eb"F2E) | 
+(GBe) | ("Bb7"d2c) | =Bcf | "Eb"f2e | ^FGc | ("Bb7"c2B) | (g2f) | ("Eb"e3 |1e )ze :|2 ezz |] 
+W:
+W:Anmerkung H.C.: Ormalingen, Wynige/Ch., s.V. 335
+% wz07796
+% May 26, 2018

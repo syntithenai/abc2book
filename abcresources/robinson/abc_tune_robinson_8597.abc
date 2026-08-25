@@ -1,0 +1,31 @@
+X:21
+T:the Lady Agnes Duff
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:8 - 2
+K:F major
+%%staves {1 2}
+V:1
+a | \
+f<ff>c AFFa | f<ff>c g2 ga | \
+f<ff>c dfcA | B>dc>e f2 f & F2B2A2A:|
+d | \
+c<Fc>A F>cA>c | B>d A<c G>AB>d | \
+c<Fc>A F>Ac>A | B<cc>e f2 fd & F2B2A2Ax|
+c<Fc>A F>cG>c | B>dA>c GABd & F2F2E4 |\
+A<FG>A B>cd>B | [Ac]>f[Be]>g [Af]2 [Af] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[fac'] [fac'] [fac'] [fac'] | [fac'] [fac'] [cgc'] [cgc'] | \
+[fac'] [fac'] [fbd'] [fac'] | [Bb] [Cc] [Ff] [Ff]/ :| \
+z/ | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Ff] [Cc] [Cc] | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Cc] [Ff] [Ff] | \
+[Ff] [Ff] [Ff] [Ff] | [Ee] [Ff] [cc'] [cc'] | \
+[Ff] [=E=e] [Dd] [Bb] | [Cc] [Cc] [Ff] [Ff]/ |]

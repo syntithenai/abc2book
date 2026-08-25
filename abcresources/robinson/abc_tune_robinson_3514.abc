@@ -1,0 +1,16 @@
+X:68
+T: Josefine-Mazurka CF (mz05184)
+T:Hanny Christen. Bd.I  Zürich, Schaffhausen, St. Gallen I. S.392 (mz05184) orig. C,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"E>F G2A2 | .G2!>!c4 | G>e d2c2 | "Dm".B2!>!A4 | D>E F2G2 | "G7".F2!>!B4 | G>f e2d2 | "C".e2!>!c4 | E>F G2A2 | .G2c4 | 
+G>e d2c2 | "Dm".B2!>!A4 | f>f e2d2 | "C".a2!>!g4 | "G7"Af Ge Fd | "C"c2c2z2 [P:B] |: "Am"E>F E>c B>A | "E7"^deB4 | e>f e>d c>B | 
+"Am"c>B A>^G A2 | E>F E>c B>A | "E7"^deB4 | e>f e>^d e>^G | "Am"A2A2z2 :| [P:C] [K:F] "F"cc c2=B2 | ccc2=B2 | ccc2f2 | 
+"Gm"e2d4 | BBB2A2 | "C7"BBB2A2 | BBB2e2 | "F"d2c4 | ccc2=B2 | ccc2=B2 | ccc2f2 | "Gm"e2d4 | 
+"C7"e>d G>ed2 | "F"d>c F>dc2 | "C7"c>B E>cB2 | "F"A2a2z2 | "Gm"e>d G>ed2 | "F"d>c F>d c2 | "C7"c>B E>c BE | "F"F2f2z2 | 
+[P:D] |: "Dm"A2f>e d2 | A2 d>e f>g | "A7".a2!>!e4 | "Dm"f>e d>cd2 | A2f>ed2 | A>d f>ed2 | "Bb7"f>e d>e f>d | "A"a2a2z2 :|

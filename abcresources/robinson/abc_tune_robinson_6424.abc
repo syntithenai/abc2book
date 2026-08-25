@@ -1,0 +1,44 @@
+X:1
+T:Stotzweid-Jodel. A-Dur
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=74
+R:Naturjodel
+M:6/4
+L:1/4
+O:Switzerland
+K:A major
+[P:A] E>CCEBA | G>ED E/G,/ G,2 | "E7"E>B, D/E/ E d/c/ B/A/ | "A"A>EC E/A,/ A,2 | 
+w:Ja li a lo u u  u di o du-j-a  ja-di o-li o u-li u-li  u di o du-ja-a 
+E>CC>EBA | "E7"G>ED E/G,/ G,2 | [M:7/4] E>B, D/E/E d>cB | [M:6/4] "A"A2 |] 
+w:ja  li da lo u u  u di o du-ja-a  jol-di o-li o u u u  ju 
+[P:B] C>A,A, FE ((3A/B/c/) |  "E7"d>GF E/G,/ G,2 | D>G,G, F/E/E ((3 G/B/d/) | "A"c>AF E/A,/A,2 | 
+w: jo i da du ja ju-lu-di  u li dü du-ja-a  ja i da du-j a du-i-u  u di dü du-ja-a 
+C>A,A, F/E/ E ((3A/B/c/) |  "E7"d>GF E/G,/ G,2 | [M:7/4] E>B, D/E/E d>cB | [M:6/4] "A"A2 |]
+w: jo di da du-j a  ju-lu-di  u ri du du-j-a   jol-di o-li o u u u  ju
+M:3/4
+[P:C] "Walzertempo" c| B>A G/F/ | E>D D/D/ | "A"C/A/ A/C/ C/C/ | E>F E/C/ | "E7"B,/G/ G/B,/ B,/B,/ | E>F E/D/ | 
+w:u  u di-ri-di  o di-ri-di  de i ri di a di  o lo la la  di i ri di a di  o la la la 
+"A"C/A/ A/C/ C/C/ | E2c | "E7"B>A G/F/ | E>D D/D/ | "A"C/A/ A/C/ C/C/ | E>F E/C/ | 
+w:de i ri di a di  o u  u di-ri-di  o di-ri-di  de i ri di a di  o la la la 
+"E7"B,/G/ G/B,/ B,/B,/ | E>F E/G/ | ("A"A3 | A)z E/E/ || [P:D] [L:1/8] "A"Ec cB BA | AG GF FE | 
+w: de i ri di a di  o jo la di u_ di-ri  do-ü dü-ri dü-ri  dü-ri dü-ri dü-ri
+"E7"EG GE GE | D4EE | EG GE GE | D4 EE | "A"EA AE AE | C4EE | 
+w:di-ri di-ri di-ri  dam di-ri-di-ri di-ri di-ri  dam  di-ri   di-ri di-ri di-ri   dam di-ri
+Ec cB BA | AG GF FE | "E7"EG GE EG | D4EE | EG GE EG | D3E EG |  
+w:do-ü dü-ri dü-ri  dü-ri dü-ri dü-ri  di-ri di-ri di-ri  dam di-ri  di-ri di-ri di-ri   dam di ro  di 
+!breath! !fermata! "A"A2 !fermata!E2 !fermata!c2 | A4 |]
+w:u o u   u
+W:
+%W:Parts: ABCD
+W: trad. Toggenburg
+W: Nach Jodler Emil Hartmann (Schlaborzi) JK Ebnat-Kappel
+W:Schellackplatte Columbia WZ 151 (1929)
+W:
+W:Teil D stammt aus einem alten bayrischen Tanzmusik Ländler.
+W:
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/Stotzweid-Jodel.pdf
+W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #1353.10
+% Feb. 19 2019

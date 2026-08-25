@@ -1,0 +1,75 @@
+X:28
+T:Wragg's Duetto the 28th,aka.3voices. AJH.028
+T:Untitled.3voices. AJH.028
+M:2/4
+L:1/8
+Q:1/4=100
+S:A.J.Hughes MS
+N:cf Wragg's Duetto the 28th.in the MS of Rev R. Harrison, Cumbria RH.015
+N:"*" signs denote fermata over following note.
+N:There are a few odd notes in the accompaniment, but
+N:otherwise a splendid little piece!
+O:England
+A:Shropshire, N
+Z:Neil Brookes 2006
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:G major
+[V:1] |:GG/A/ BB/c/ | .d/g/f/g/ d2 | .e/g/f/g/ d/g/f/g/ | c/B/A/G/ AD |
+[V:2] |:z2GG/A/ | Bd BG | cz cz | A/G/F/E/ D/E/F/D/ |
+[V:3] |:G,,G,, B,,B,, | G,G, D,2 | G,G, B,,B,, | C,D, G,,2 |
+%
+[V:1] GG/A/ BB/c/ | .d/g/f/g/ gf/e/ | dg b/a/g/f/ | g2g2 :|
+[V:2] z2GG/A/ | Bd ed/c/ | BG dD | GBG2 :|
+[V:3] G,,G,, B,,B,, | G,G, D,2 | G,B,, C,D, | G,,4 :|
+%
+[V:1] |: dd/c/ BB | ee/d/ cz | cc/B/ AA | d/e/d/c/ Bz |
+[V:2] |: BB/A/ G/A/B/G/ | cc/B/ Az | AA/G/ F/G/A/F/ | BB/A/ Gz |
+[V:3] |: D,D, B,,B,, | A,,A,, D,z | C,C, A,,A,, | D,D, G,,z |
+%
+[V:1] BB/A/ Gg | cc/B/ Aa | ba/b/ ag/a/ | g/e/d/^c/"DC""*"d2 :|
+[V:2] dd/c/ B/A/B/G/ | AA/G/ F/E/F/D/ | Gg fe | AA F2 :|
+[V:3] B,,B,, G,,G,, | A,,A,, D,z | A,2A,,2 | D,4 :|
+%
+[V:1] gg aa | bb c'2 | b>d' bg | ea fd |
+[V:2] Bz cz | FzA2 | GB GB | AA dD |
+[V:3] G,z D,z | B,,z C,2 | B,,C, D,G, |A,,A,, D,D, |
+%
+[V:1] gg aa | bb c'2 | bg af | g>a g2 :|
+[V:2] Bz cz | Gz AD | GB cA | B>c B2 :|
+[V:3]  G,,z A,,z | B,,z C,2 | G,B,, C,D, | G,,4 :|
+%
+[V:1] d>B GG | e>c AA | d>B GG | FG Az |
+[V:2] GG/A/ BB | c>A Fz | GG/A/ BG | DE FD |
+[V:3] D,B,, G,,G,, | E,C, A,,z | D,B,, G,,G,, | G,G, F,z |
+%
+[V:1] d>B GG | e>c Ag | fd ef | "DC"d2z2 ||
+[V:2] GG/A/ BB | c>A FG | A3A | D2z2 ||
+[V:3] D,B,, G,,G,, | G,G, D,D, | A,2A,,2 | "DC"D,2z2 ||
+%
+[V:1] GG F/G/F/G/ | AAA2 | d>c BG | FA G/F/E/D/ |
+[V:2] BB AA/G/ | FF Dz | B>A GD | D>C Dz |
+[V:3] G,G, F,F, | A,,A,, D,2 | D,D, G,G, | D,A,, D,z |
+%
+[V:1] GG F/G/F/G/ | AAA2 | d>c BG | DFG2 |
+[V:2] BB AA/G/ | FF Dz | B>A GB | dD G2 |
+[V:3] G,G, D,D, | A,,A,, A,,2 | D,C, B,,G,, | D,D, G,,2 |
+%
+[V:1] gg f/g/.f/.g/ | aaa2 | d'>c' bg | fa g/f/.e/.d/ |
+[V:2] BB AA/B/ | cc Az | b>a gd | d^c dc |
+[V:3] G,G, F,F, | A,A, A,2 | D,E, F,G, | E,A, G,E, |
+%
+[V:1] gg f/g/.f/.g/ | aaa2 | d'>c' bg | b/a/g/f/g2 ||
+[V:2] BB AA/B/ | cc Az | b>agd | e/c/B/A/B2 ||
+[V:3] G,G, F,F, | D,D, A,,z | D,C, B,,G,, | D,D, G,,2 ||
+%
+[V:1] ee c/d/e/c/ | dd Bz | cc A/B/c/A/ | F/G/A/F/ dz |
+[V:2] c'c' a/b/c'/a/ | bb g/a/b/g/ | aa f/g/a/f/ | d/d'/c'/d'/ ez |
+[V:3] E,E, C,E, | D,D, B,,z | C,C, A,,C, | F,A, D,z |
+%
+[V:1] ee c/d/e/c/ | dd Bz | A/B/A/B/ c/B/A/G/ | "DC"d2z2|]
+[V:2] cc A/B/.c/.A/ | BB G/A/B/G/ | FF/G/ A/G/F/E/ | "DC"D/d/A/F/d2|]
+[V:3] C,C, A,,A,, | D,D, G,G, | A,2A,,2 | "DC"D,4|]

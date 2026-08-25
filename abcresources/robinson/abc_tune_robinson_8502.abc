@@ -1,0 +1,53 @@
+X: 82
+T:Craigellachie Bridge
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:30 - 1
+K:D major
+%%staves {1 2}
+V:1
+d | \
+D<DF>A d/c/B/A/ FD | E=CcE {F}G2 (G>B) | \
+ADFD d/c/B/A/ FD | EecA {c}d2 (df) |
+D<DF>A d/c/B/A/ FD | E=CcE {F}G2 (GB) | \
+ADFD d/c/B/A/ FD | EecA {c}d2 (df) |]
+%
+d<d (eg/a/) (da)fa | =c>ge>f ~g2 (ga/b/) | \
+adfd gdgb | adfd (fg/a/) (af) |
+d<d (ea/a/) d>gf>a | g/f/e/d/ =ce g2 ga/g/ | \
+f>ae>f d>fB>d | A<Fd>F A2 A |]
+c | \
+d/c/B/A/ G/F/E/D/ d/c/B/A/ G/F/E/D/ | E<=Cc>E {F}G2 (G>E) | \
+DdEd FdEd | Ddcd !trill!A2 (GF) |
+DdEd FdEd | E=ccE G2 (GE) | \
+DdEd FdAd | EecA {c}d2 d |]
+f | \
+dd (fg/a/) dafa | =cgef ~g2 (ga/b/) | \
+adfd adbd | adfd (fg/a/) (af) |
+d<d (fg/a/) dafa | g/f/e/d/ =ce g2 ga/g/ | \
+faef dfBd | A>Fd>F {F}A2 A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Dd]  [Dd]  [Dd]  [Dd] | [=C=c] [Cc] [Cc] [Cc] | \
+[Dd] [Dd] [Dd] [Dd]  | [Aa] [Aa] [Dd] [Dd] |
+[Dd] [Dd] [Dd] [Dd] | [=C=c] [Cc] [Cc] [Cc] | \
+[Dd] [Dd] [Dd] [Dd] | [Aa] [Aa] [Dd] [Dd] |]
+[dd'] [dd'] [dd'] [dd'] | [=c=c'] [cc'] [cc'] [cc'] | \
+[dd'] [dd'] [dd'] [Gg] | [dd'] [dd'] [dd'] [dd'] |
+[dd'] [dd'] [dd'] [dd'] | [=c=c'] [cc'] [cc'] [^c^c'] | \
+[d'] [Aa] [Bb] [Gg] | [Aa] [Aa] [Dd] [Dd]/ |]
+z/ | \
+[Dd]  [Dd]  [Dd]  [Dd] | [=C=c] [Cc] [Cc] [Cc] | \
+defd | [Dd] [Dd] [Dd] [Dd] | defd | =cccc |
+defd | gadd/ |]
+z/ | \
+[Dd]  [Dd]  [Dd]  [Dd] | [=C=c] [Cc] [Cc] [Cc] | \
+[Dd]  [Dd]  [Dd]  [Dd] | [Dd]  [Dd]  [Dd]  [Dd] |
+[Dd]  [Dd]  [Dd]  [Dd] | [=c=c'] [cc'] [cc'] [^c^c'] | \
+[dd'] [Aa] [Bb] [Gg] | [Aa] [Aa] [Dd] [Dd]/ |]

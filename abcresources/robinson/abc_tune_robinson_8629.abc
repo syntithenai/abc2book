@@ -1,0 +1,21 @@
+X: 255
+T:Miss McQueens Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:5 - 2
+K:F major
+%%staves { 1 2 }
+F>G (B/A/)(G/F/) c<Ad<B | f>dc>A G/G/G G2 | \
+F>G (B/A/)(G/F/) c<Ad>B | f>d !trill!c3/A/ F/F/F F2 ::
+f>g (b/a/)(g/f/) c<fa<f | b>ga>f g/g/g !trill!g2 |1 \
+f>g (b/a/)(g/f/) c<fa<f | b>ga>e f/f/f !trill!f2 :|2 \
+c<f (d/c/)(B/A/) d<fd<B | !trill!c3/B/!trill!A3/G/ F/F/F !trill!F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+fffz | ffgg | fffb | fc FF :: \
+ffff | cfgg |1 ffff | c'cff :|2 ffBB | c'cff |]

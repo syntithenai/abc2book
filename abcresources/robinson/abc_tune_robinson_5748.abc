@@ -1,0 +1,31 @@
+X:7
+T:Rägähubel-Juiz  Bb  ABAC
+T:Toni Vogler (2.4.1940)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F3E | DF Bc | d3c | B4 |  G3F | EG cd | e3d | c2B2 | A3F | 
+EF Ac | f3e | d2c2 | B3d | B2G2 | F4 | F3E | DF Bc | d3c | B4 | G3F | 
+EG cd | e3d | c2B2 | A3F | EF Ac | f3e/d/ | c2Fe | d2cA | (B4 | B2)z2 || 
+L:1/8
+M:2/4
+[P:B] F2ED | C3F | EF Ac | f2Fe | d2Fc | (B4 | B2)F>F | f3d | c2B2 | A3B | 
+cF Ac | f3e | d2c2 | B3d | B2G2 | F4 | F2ED | C3F | EF Ac | f2Fe | 
+d2Fc | (B4 | B2)F>F | f3d | c2B2 | A3B | cF Ac | f3e | d2c2 | !fermata!B4 || 
+L:1/8
+M:3/4
+[P:C] "Gemütliches Walzertempo" F Bd | f2fd fd | c2 cB cB | A2A2 AB | c4F2 | 
+A2 "_schnell . . . "FF FA | EF "_. . .  (Tröhlodel) "AE FA | "a tempo"B2 BF Bd | !fermata!c3F Bd | f2fd fd | 
+c2cB cB | G2G2 cd | e4g2 | f3gf2 | e2c2d2 | B4F2 | f2c2d2 | (B6 | B2)z |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:UJV-Naturjodelsammlung: Code-Nr: 16-04
+W:http://www.naturjodler.ch/code 16.htm  (with AUDIO)
+%May 11, 2018

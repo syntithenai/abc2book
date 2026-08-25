@@ -1,0 +1,20 @@
+X:181
+T:Schlittschuh-Polka GC (pk07286) ABACDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.272 (pk07286) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Polka
+M:4/4
+L:1/8
+O:Switzerland
+K:G major
+D2 [P:A] |: ("D7"DF Ae)d3c | "G"BD GdB3G | ("D7"FA ce) F3A | "G"gb dg B3d | ("D7"DF Ae) d3c | "G"BD Gd B3G | 
+"D7"FA ce F3A |1 "G"G2B2G2D2 :|2 "G"G2B2G2A2 [P:B] |: "A7"A2 ^ce Ac ea | "D"^GA BA F3d | "A7"^ce Ac E2c2 | "D"df dB A3A | 
+"A7"A2^ce Ac eA | "D"^GA BA F3d | "A7"^ce Ac E3c |1 "D"d2f2d2A2 :|2 "D"d2f2d2"_>Teil A"z2 |] G^G [P:C] [K:C] |:  "F"Af fA A3f | 
+"C"eG ce E3c | "G"BD FA B3d | "C"ce ge'c'2G^G | "F"Af fA A3f | "C"eG ce E3c | "G7"BD FA B3d |1 
+"C"c2e2"_Fine"c2 G^G :|2 "C"c2e2c2A2 || [P:D] "Am"AE cA ec AE | "E7"fe ^de f2e2 | edB2 fe Bc | "Am"A2cBA2"_>Teil C"z2 |]    
+% pk07286
+% May 20, 2017

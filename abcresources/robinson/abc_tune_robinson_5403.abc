@@ -1,0 +1,21 @@
+X:160
+T:Polka CGF (pk07387)  ABACDA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.318 (pk07387) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACDA
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"c'e gc |  "G7".B/.c/.d/.e/f2 | ("Dm"f/a/)a "G7"Bd | "C".c/.d/.e/.f/g2 | c'e gc |  "G7"B/c/d/e/f2 | ("Dm"f/a/).a "G7"gB | "C"cc c"_Fine"z |] [P:B] [K:G] 
+|: "D7"d^c/d/ .e.f | "G"gab2 | ("D7"b/c'/)c'a2 | ("G"a/b/)bg2 | "D7"d^c/d/ ef | "G"gab2 | ("D7"b/c'/)c' fa | "G"gg g "_>Teil A"z :| [P:C] [K:F] 
+|: "F"c/c/c ff | "Gm"d/d/d gg  | "C7"bb a>g | "F"a/b/a gf | c/c/c ff | "Gm"d/d/d gg  | "C7"bb a>g | "F"ff fz :|  [P:D] [K:C] 
+"G7"{/e}fG {/e}fG | "C"ag gc' | "G7"c'b bd' | "C"d'c' c'e' | "G7"{/e}fG {/e}fG | "C"ag gc' | "G7"c'b bd' | "C"c'2"_>Teil A"c'2 |] 
+W:
+W:Anmerkung H.C.: Arisdorf 1, s.V. 570
+%%% pk07387
+% July 27, 2017 (dream trigger)

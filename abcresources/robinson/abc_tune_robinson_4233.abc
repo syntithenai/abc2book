@@ -1,0 +1,14 @@
+X: 6
+T: Allewander FCBb (AL05625)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.65 (AL05625) orig. F,C,Bb-Dur
+S: Tänze aus Beateberg (Bern)
+%%MIDI program 21
+R:Alewander
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+c |: "F"a>g "Bb"f>d | "F"cd c2 | "C7"cb g2 | "F"ca fc | a>g "Bb"f>d | "F"cd c2 | "C7"cb ge |1 "F"f2zc :|2 "F"f2z2 || [K:C]
+"G7"g>a g>a | ga g2 | gg ab | "C7"c'_b ag | "F"a>g "Bb"f>d | "F"cd c2 | "C7"c"_?"_b ge | "F"f2 z2 :: [K:F]
+"F"c>f f>a | a>c'c'2 | "C7"c'>b bd' | "F"d'>c' c'2 | c>f f>a | a>c' c'2 | "C7"c'>b be | "F"f2z2 :: [K:Bb]
+"Bb"d3f | "Cm"f"_es"e g2 | "F7"c3"_es"e | "Bb""_es"ed f2 | B3d | "Cm"dc "_es"e2 | "F7"f>f ga |1 "Bb"ba gf :|2 "Bb"b2z2 |]

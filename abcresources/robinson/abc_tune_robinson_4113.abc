@@ -1,0 +1,18 @@
+X:160
+T:Schottisch  CF (st09334)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.190 (st09334) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+gab |: "C"c'2e2 ef^fg | "Dm"a2d2 d^cd2 | "G7"B2Ba g^fg2 | "C"c2ca g^fg2 |  c'2e2 ef^fg | "Dm"a2d2 d^cd2 | 
+"G7"Bcde fgab |1 "C"c'2c'2 c'gab :|2 "C"c'2c'2 c'2gg |: "G7"gfdB GBdf | "C"ecGE CEGe | "G7"dBGB gfdB | "C"cegc' e2gg | 
+"G7"gfdB GBdf | "C"ecGE CEGe | "G7"dBGB gfdB |1 "C"cegc' c2gg :|2 "C"cegc' c4 |: [K:F] "F"a2fc A2d2 | "tr""Gm"c2B2 BAB2 | 
+"C7"b2ge cegc' | "F"a2f2 fef2 | a2fc A2d2 | "tr""Gm"c2B2 BAB2 | "C7"baec a3e |1 "F"f2a2 f2z2 :|2 "F"f2a2 f2bb |: [L:1/8] "Bb"bd fb | 
+d3 b/b/ | "F"ac fa | c3c/c/ | "C7"Bc e>d | "tr"dc b>B | "F"Ac f>d | "tr"dc a>a | "Bb"bd fb | 
+d3b/b/ | "F"ac fa | c3d/d/ | "Bb"db a>g | "F"gfc2 | "Bb"d^c/d/ "C7"ed/e/ |1 "F"fa fb/b/ :|2 "F"fa fz |] 
+% st09334

@@ -1,0 +1,36 @@
+X:5
+T:Muisflue-Juiz. 1991  A-Dur  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+Q:1/4=184
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] E | e>^dB | e>^dB | c2A | E>A c/e/ | B2G | E2B | c2B | 
+!fermata! !breath! A2E | e>^dB | e>^dB | c2A | E>A c/e/ | B2G | E>GB | (A3 | A>)z || 
+Q:1/4=126
+L:1/4
+M:3/4
+[P:B] A>C E/A/ | c>BA | G>Ec | B2A | G>D E/d/ | c>GB | A2C | !fermata! E2 !fermata! c/!fermata! B/ | 
+A>C E/A/ | c>BA | G>Ec | B2A | G>D E/d/ | cBE | (A3 | A2)z ||  
+M:3/4
+[P:C] e| B>A G/F/ | E>Be | c>Ac | E2 E/C/ | D>CB, | B2 E/D/ | C>A, C/E/  | !fermata! !breath! A2e | 
+B>A G/F/ | E>Be | c>Ac | E2 E/C/ | D>CB, | BcB | (A3 | A>)z||
+[P:D] c/B/| A>C E/A/ | c>BA | G>Ec | B2A | G>D E/d/ | B>GB | A2C | 
+E>d c/B/ | A>C E/A/ | c>BA | G>Ec | B2A | G>D E/d/ | "rit."cBE | (A3 | A>)z |]
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-03
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+W:
+W:"Fredy Wallimann - Zwischen Alp und Rampenlicht - Potzmusig"
+W:https://www.youtube.com/watch?v=G3QpwUj5Y1o  (30:59 /33:44)
+%May 13 2018 (Muettitag)

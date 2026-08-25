@@ -1,0 +1,15 @@
+X:153
+T: Mazurka GC (mz05143)
+T:Hanny Christen. Bd.I  Zürich, Schaffhausen, St. Gallen I. S.379 (mz05143) orig. G,C-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/8
+P:ABABCD  % or ABACD?
+O:Switzerland
+K:G major
+[P:A] "G"g2d2e2 | d>c'b2b2 | "D7"c>ba2a2 | "G"B>ag2g2 | g2d2e2 | d>c'b2b2 | "D7"c>ba2 a>f | "G"g2g2z2::[P:B]  "A7"a2e2g2 | 
+"D"f>ef2d2 | "D7"c'2f2a2 | "G"g>fg2e2 | "A7"^c>ea2a2 | "D"d>fa2a2 | "D7"ab c'b c'b | c'd ^de =f"_>Teil A"^f || [P:C] [K:C] "C"g^f ag ec | 
+"G7"B>ag2g2 | gf ba fd | "C"c>ag2g2 | Ge Bc dc | "Dm"B>^GA2A2 | "G7"^fg ba =fd |  "C"e>Bc2c2 || [P:D] "Am"e>a c'2ba | "E7"^gbe2e2 | 
+"C"G>c e2dc | "G7"BdG2G2 | aBa2a2 | "C"{/a}g^f g2e2 | "G7"{/g}fef2d2 | "C".e2!>!g4 | "G7"aBa2a2 |  "C"{/a}g^f g2e2 | "G7"fef2d2 | "C"c2c2z2 |]

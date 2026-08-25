@@ -106,4 +106,105 @@ describe('timingSongPlanExtractor', function() {
     expect(refined.timing.source).toBe('melody-render');
     expect(refined.timing.totalDurationSec).toBeCloseTo(33.5, 1);
   });
+
+  test('refineTimingFromMelodyDuration preserves tempo when scaling duration', function() {
+    const plan = buildTimingSongPlan({
+      name: 'Grace',
+      tempo: 180,
+      meter: '3/4',
+      rhythm: 'waltz',
+      key: 'G',
+      voices: {
+        '1': {
+          meta: '',
+          notes: [
+            'D | G2A/2G/2 | B2A | G2E | D2D | G2B/2G/2 | B2A/2B/2 | d3 | d z B |',
+          ],
+        },
+      },
+    }, '', { visualObj: null });
+    expect(plan.timing.tempoBpm).toBe(180);
+    const refined = refineTimingFromMelodyDuration(plan, 28.8);
+    expect(refined.timing.tempoBpm).toBe(180);
+    expect(refined.timing.totalDurationSec).toBeCloseTo(28.8, 1);
+    expect(refined.backingPrompt).toMatch(/180 BPM/);
+  });
+
+  test('buildTimingSongPlan prefers Q: header tempo over stale tune.tempo', function() {
+    const plan = buildTimingSongPlan({
+      name: 'Grace',
+      tempo: 180,
+      meter: '3/4',
+      rhythm: 'waltz',
+      key: 'G',
+      voices: {
+        '1': {
+          meta: '',
+          notes: ['| G2 A | B2 A |'],
+        },
+      },
+    }, 'X:1\nT:Grace\nM:3/4\nL:1/8\nQ:1/4=100\nK:G\n|: G2 A |:\n', {
+      visualObj: mockVisual(30000, 3, 100),
+    });
+    expect(plan.timing.tempoBpm).toBe(100);
+    expect(plan.backingPrompt).toMatch(/100 BPM/);
+  });
+
+  test('guide conditioning uses orchestration prompt language', function() {
+    const plan = buildTimingSongPlan(REEL_TUNE, '', {
+      visualObj: mockVisual(32000, 4, 120),
+    });
+    expect(plan.backingPrompt).toMatch(/full band arrangement/i);
+    expect(plan.backingPrompt).toMatch(/strong audible chord/i);
+    expect(plan.guideEngine).toBe('stable_audio');
+    expect(plan.backingNegativePrompt).toMatch(/church organ|thin arrangement|no accompaniment/i);
+    expect(plan.backingNegativePrompt).not.toMatch(/lead melody/i);
+  });
+
+  test('classical style prompt bans guitar fills', function() {
+    const plan = buildTimingSongPlan(REEL_TUNE, '', {
+      visualObj: mockVisual(32000, 4, 120),
+    });
+    const payload = buildPracticeTrackRequestPayload(plan, { renderStyle: 'classical' });
+    expect(payload.backingPrompt).toMatch(/classical chamber|string ensemble/i);
+    expect(payload.backingPrompt).not.toMatch(/session backing only/i);
+    expect(payload.backingNegativePrompt).toMatch(/acoustic guitar|guitar fill|strumming/i);
+    expect(payload.accompanimentMidiProgram).toBe(48);
+  });
+
+  test('single-strain repeats expand playCount from tune.repeats', function() {
+    const plan = buildTimingSongPlan({
+      name: 'Waltz',
+      tempo: 100,
+      meter: '3/4',
+      rhythm: 'waltz',
+      key: 'G',
+      repeats: 3,
+      voices: { '1': { meta: '', notes: ['| G2 A | B2 A |'] } },
+    }, '', { visualObj: null });
+    expect(plan.timing.repeatSchedule[0].playCount).toBe(3);
+  });
+
+  test('buildPracticeTrackRequestPayload defaults to guide conditioning without MIDI mix', function() {
+    const plan = buildTimingSongPlan(REEL_TUNE, '', {
+      visualObj: mockVisual(32000, 4, 120),
+    });
+    const payload = buildPracticeTrackRequestPayload(plan);
+    expect(payload.guideAudioConditioning).toBe(true);
+    expect(payload.includeStyleMelodyStem).toBe(false);
+    expect(payload.mixDrumGuide).toBe(false);
+  });
+
+  test('waltzes disable MIDI drum guides', function() {
+    const plan = buildTimingSongPlan({
+      name: 'Waltz',
+      tempo: 100,
+      meter: '3/4',
+      rhythm: 'waltz',
+      key: 'G',
+      voices: { '1': { meta: '', notes: ['| G2 A | B2 A |'] } },
+    }, '', { visualObj: null });
+    const payload = buildPracticeTrackRequestPayload(plan, { includeDrumGuide: true });
+    expect(payload.includeDrumGuide).toBe(false);
+  });
 });

@@ -1,0 +1,20 @@
+X:55
+T:Galopp GDC (GL02243)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.395 (GL02243) orig. G,D,C
+S:Bündner Tänze. S.384-402. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Gallop
+M:2/4
+L:1/8
+K:G major
+"D7"dd/d/ dd | "G"gd BG | "D7".A2.B2 | .c2zA/G/ [P:A] || "D7"F3A/c/ | f>e f>e  | "G"G3B/d/ | e>d e>d | 
+"D7"c'3b | a>^g a>g | b3a | "G"gf ed | "D7"F3A/c/ | f>e f>e | "G"G3B/d/ | e>d e>d | "D7"c'b ag | 
+fd ef | "G".g2.g2 | .g2zA/B/ || [P:B] [K:D] "A7"A3c/e/ | gg fe | "D"d3F/A/ | dd cB | "A7".A2.G2 | B3c | 
+"D".e2.d2 | f3d/A/ | "A7"A3c/e/ | gg fe | "D"d3 F/A/ | dd cB | "A7"Af e^d | e^d/e/ fe | "D"=d2"_>Teil A"z2 |] [P:C] [K:C] 
+ G2 | "C".e2.^d2 | .e2.c2 | "F"a3g/^f/ | "C"g4 | e2^d2 | e2c2 | "D7"e3d/^c/ | 
+"G7"d4 | "C"e2^d2 | e2c2 | "F"a3g/^f/ | "C"g4 | "F"c'2b>a | "C"g3e | "G7"dd/d/ gB | "C"c2"_Fine"z2 |] 
+% GL02243
+% Dez 3, 2016

@@ -1,0 +1,34 @@
+X:11
+T:Mühlibach-Juiz  Bb  ABAC
+T:Margrit Spichtig-Hofer (6.9.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+R:Naturjodel
+M:2/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"  FFd2 | B2e>d | c>Bc2 | FFe2 | c2fe | dcd2 | FFd2 | B2e>d | 
+c>Bc2 | FFe2 | c2fe | dc !fermata!B2 | FFd2 | B2e>d | c>Bc2 | FFe2 | 
+c2fe | dcd2 | FFd2 | B2 e>d | c>Bc2 | FFe2 | c2fe | dc !fermata!B2 || 
+L:1/8
+M:2/4
+[P:B] "schneller" F/E/D/E/ FB | E/D/C/D/E2 | G/F/E/F/ Ge | d2B2 | F/E/D/E/ FB | 
+E/D/C/D/E2 | G/F/E/F/ Ge | dcB2 | F/E/D/E/ FB | E/D/C/D/E2 | G/F/E/F/ Ge | 
+d2B2 | F/E/D/E/ FB | E/D/C/D/E2 | G/F/E/F/ Ge | dcB2 ||  
+L:1/8
+M:2/4
+[P:C] "rassig"  eGe2 | dF d/c/B/d/ | c/F/F/F/ F/e/d/c/ | B/F/F/F/ B/B/c/d/ | eG ed/c/ | dF d/c/B/d/ | 
+c/F/F/f/ e/f/d/c/ | B4 | eGe2 | dF d/c/B/d/ | c/F/F/F/ F/e/d/c/ | 
+B/F/F/F/ B/B/c/d/ | eG ed/c/ | dF d/c/B/d/ | c/F/F/f/ e/f/d/c/ | B4 |]  
+W:
+%W:Reihenfolge: A - B - A - C
+W:Unserem Dirigenten, Martin Odermatt, herzlich gewidmet. 1997
+W:
+W:notiert Edi Gasser. Angaben: Margrit Spichtig
+W:UJV-Naturjodelsammlung: Code-Nr: 50-06
+W:http://www.naturjodler.ch/code 50.htm  (with AUDIO )
+%Juni 19, 2018

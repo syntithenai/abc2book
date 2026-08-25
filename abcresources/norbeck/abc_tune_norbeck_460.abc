@@ -1,0 +1,24 @@
+X:120
+T:Jackson's Trip to Dover
+T:Jackson's Return from Dover
+R:jig
+H:Related to Connie the Soldier, #212
+H:Skylark's version has a total of 32 bars, whereas John Rea's has 34 bars.
+D:Skylark
+D:John Rea
+Z:id:hn-jig-120
+M:6/8
+K:Ador
+~A3 ABc | BAG E2D | EFG EFG | EFG EFG |
+~A3 ABc | BAB GAB | cBc A2G | FDD DEG ||
+~A3 ABc | BAG E2D | ~A3 ABc | BAG E2D | EFG EFG | EFG EFG |
+~A3 ABc | BAB GAB | cBc A2G | FDD D2e ||
+|: fdd edd | fdd def | gfg e2d | ^cAA A2e |
+fdd ede |1 gfe d=cB | ~A3 ABc | BAG E2e :|2 gfe d=cB ||
+P:John Rea's version
+|: AAA ABc | BAG EFG | AAA ABc | BAG E2D | EGG EGG | EGG EFG |
+ABA ABc | BAB GAB | cBc A2G |1 FDD DEG :|2 FDD D2e ||
+fdd ede | fdd def | gfg e2d | cAA A2e |
+fdd ede | gfe dcA | AAA ABc | BAG E2e |
+fdd ede | fdd def | gfg e2d | cAA A2e |
+fdd ede | gfe dcA ||

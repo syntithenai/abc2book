@@ -1,0 +1,20 @@
+X:017
+T:Giga TS.017
+M:6/8
+L:1/8
+Q:3/8=100
+S:Thomas Sands' MS,1810,Lincolnshire
+R:Jig
+O:England
+Z:vmp.Ruairidh Greig, 2011
+B:Village Music project, Sands, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/sands.abc
+A:Lincolnshire
+notC:Prefixed as 'No.5' in MS
+K:G major
+"_p"d2c BGB|d2B GAB|c2AB2G|FGAA3|!
+"_f"dedg2d|efeg2e|dBGA2B|[B2G2][BG][B2G2]"rest added"z:|!
+|:g2g gd=f|e2cc3|a2e efg|f2 d def|!
+g2b def|g2dB2G|cec dBG|A2GG2:|!
+|:BdG BdG|BdGA2G|BdB ^cde|(d/e/f)dd3|!
+{ef}"dot added""_f"g3fdB|{cd}e3dBG|(B/c/d)B A/B/cG|B2[BG][B2G2]"rest added"z:|]

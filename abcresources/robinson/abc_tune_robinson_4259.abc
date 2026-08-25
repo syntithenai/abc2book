@@ -1,0 +1,16 @@
+X: 29
+T: Durch dick und dünn (Galopp) FBb (GL08791)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.383 (GL08791) orig. F,Bb-Dur
+S: Tänze aus dem Kanton Bern
+%%MIDI program 21
+R:Gallop
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+"F".c2 A>d | .c2 A>d | cA cf | c3f | "C7"(e>g) d.f | (e>g) d.f | ed Bd | "F"c3z | .c2 A>d | .c2A>d |
+cA cf | a3a | "G7"a>g g=b | "C"(c'2e)c' | "G7"gf de |1 "C"cc/c/ cc :|2 "C"c=B c^c |:  "Gm".d2.b2 | "C7".b2.b2 | "F"(a2.f2) |  
+z.a .g.f | "C7"e>g d2 | z.f .e.d | "F"c>fA2 | zA c^c | "Gm".d2.b2 | "C7".b2.b2 | "F"(a2.f2) | zc fa | c'3b/a/ | 
+"C7"g3a/g/ | "F"f2f2 |1 fA c^c :|2 .f2z2 |: [K:Bb] "Bb"f3e | (dc) e>d | "F7"(d2.c2) | z2 e>f | g3f | (fe) .c.e | 
+"Bb"d4 | z2ef | "Eb"g3a | .g2 de | "Bb"f3g | .f2 d>d | "F7".c2.f2 | .c2.e2 | "Bb"dB df | .b2 ef | 
+"Eb"g3a | .g2 de | "Bb"f3g | .f2 d>d | "F7"c=B cd | ef ga | "Bb"b2b>b | b2z2 :|

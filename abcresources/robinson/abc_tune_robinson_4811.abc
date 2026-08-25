@@ -1,0 +1,15 @@
+X:218
+T: Schottisch  FBb (st00817)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.178 (st00817) orig. F,Bb-Dur
+S: Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+"F"FGA2 "Bb"Bcd2 | "F"c2a2f4 | "C7"eeee G2B2 | "F"dddd c2A2 | "F"FGA2 "Bb"Bcd2 | "F"c2a2f4 | 
+"C7"eeee d2e2 | "F"f6z2 :: "C7"b3a b3a | bagf edcB | "F"A2d2!>!c4 | c2a2!>!f4 | "C7"b3a b3a | 
+bagf edcB | "F"Acfa "C7"agfe | "F"f6z2 :: [K:Bb] "Bb"dddd d2f2 | b3a g2f2 | "F7"a3g f2e2 |  
+"Bb"g3f  d2B2 | dddd d2f2 | b3a gf=ef | "F7"a3g fedc | "Bb"B2d2 "_Fine"B4 :| [K:F] "F"cccc c2f2 | a4 z2ga |  
+"C7"bag2 g^fg2 | "F"agf2 {/g}fef2 | cccc c2f2 | a4z2ga | "C7"bag2 gfe2 | "F".f4 "_> Teil C"!>!_e4 |]

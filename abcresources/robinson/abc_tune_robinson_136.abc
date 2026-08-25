@@ -1,0 +1,39 @@
+X:14
+T:O 'Tis Love,3parts. JNu.14
+M:6/8
+L:1/8
+Q:3/8=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Air
+O:England
+A:Lancashire, E
+Z:vmp.Chris Partington
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:D major
+[V:1] A2AA2A | A2AA2A | d2d dcd | ^d3 e2z |
+[V:2] zFA zFA | zF.A zF.A | zF.A zFA | zEA zEA |
+[V:3] .D,2z.D,2z | .D,2z.D,2z | .D,2z.D,2z | .C,2z.C,2z |
+%
+[V:1] A2AA2A | A2AA2A | e2e efe | d3 ||
+[V:2] zEA zEA | zEA zEA | zGA zGA | D3 ||
+[V:3] .C,2z.C,2z | .C,2z.C,2z | A,2A,A,2A, | D,3 ||
+%
+[V:1] ABc | d2d ded | d2c cd^d | e2e efe | d3ABc |
+[V:2] z2z | zFA zFA | zEA zEA | zGA zGA | zFA zFA |
+[V:3] D,2D, | .D,2z.D,2z | .D,2z.C,2z | .C,2z.C,2z | .D,2z.D,2z |
+%
+[V:1] d2d ded | d2c cd^d | e2e efe | f3f2 ||
+[V:2] zFA zFA | zEA zEA | CGA CGA | F3 F2 ||
+[V:3] D,2zD,2z | C,2zC,2z | A,2A,A,2A, | D,F,A,D,2 ||
+%
+[V:1] d | g3efg | fag fed | c3ABc | dAG FED |
+[V:2] z | zEG zEG | zEF zDF | zCE zCE | zDF zDF |
+[V:3] z | B,,2zB,,2z | A,,2zA,,2z | A,,2zA,,2z | A,,2zA,,2z |
+%
+[V:1] g3efg | fag fed | cd^d ecA | dAfd3|]
+[V:2] zEG zEG | zDF zDF | zCE zCE | F2F F3|]
+[V:3] B,,2zB,,2z | A,,2zA,,2z | A,,2zA,2A, | D,2D, D,3|]

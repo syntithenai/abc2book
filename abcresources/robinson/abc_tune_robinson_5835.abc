@@ -1,0 +1,38 @@
+X:15
+T:Winterjodel  C
+T:Emil Wallimann  (* 24.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+R:Naturjodel
+M:C
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] E/ G z/E/ G z/E/ | G2e2e2d2 | c3FF3A | A>Gd3d cd | 
+(e4e) EEF | G2e2d2c2 | A3D dcBA | A>Gf3d cB | c6z2 || 
+M:C
+L:1/8
+[P:B]  c2EFG2c2 | A3Fd2c2 | B3Ge2d2 | cBcd efed | c2EFG2c2 | 
+A3Fd2c2 | B2AGd2B2 | c6z2 | c2EFG2c2 | A3Fd2c2 | B3Ge2d2 | 
+cBcd efed | c2EFG2c2 | A3Fd2c2 | B2AGd2B2 | c6z2 || 
+M:C
+L:1/8
+K:C
+[P:A] E/ G z/E/ G z/E/ | G2e2e2d2 | c3FF3A | A>Gd3d cd | 
+(e4e) EEF | G2e2d2c2 | A3D dcBA | A>Gf3d cB | c6z2 || 
+K:C
+M:3/4
+L:1/8
+[P:C] A>Bc3C | E>FG3G | F2D2fe | d2c2Bd | c2cB cd | e6 | A>Bc3f | 
+e>dc3G | FD dc Bd | c6 | A>Bc3C | E>FG3G | F2D2fe | d2c2Bd | 
+c2cB cd | e6 | A>Bc3f | e>dc3G | FD dc Bd | c6 |]  
+W:
+W:Winterjodel, gewidmet dem JK Farnbüelglöggli Schachen
+W:
+W:notiert Edi Gasser. Angaben Emil Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 23-11
+W:http://www.naturjodler.ch/code 23-2.htm  (with AUDIO)
+%May 25, 2018

@@ -1,0 +1,24 @@
+X:1
+T:Ich gedenke dein (Schottisch)  BbEb (st06735)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.76  (st06735) orig. Bb,Eb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] ("Bb"F/=E/).F  (F/E/).F | Bcd2 | (F/=E/).F  (F/E/).F | "Cm"BAG2 | (G/^F/).G G/F/.G | cd e>d |1 "F7"cB AG | 
+"Bb"FED2 :|2 "F7"cB AG/A/ | "Bb".B2.B2 [P:B] |:  ("Gm"G/^F/).G G/F/.G | ddG2 | (G/^F/).G G/F/.G | "D7"ADD2 | ("Gm"G/^F/).G G/F/.G  | 
+ddG2 | (G/^F/).G B/A/.G | "D7".d2"_>Teil A"!>!d2 ::  [P:C] {/^c}"Bb"dd dd | .d2z2 | {/^c}dd dd | .d2zd | 
+f2zd | f2zd | ("C7"cB) (AG) | ("F7"G2F2) | {/^c}"Bb"dd dd | d2z2 | {/^c}dd ef | "Eb"g2zg | "Bb"f2zg | 
+f2zd | "F7"cB d>c | "Bb"BB Bz :: [P:D] [K:Eb] ("Eb"G2A2) | B/c/B/A/G2 | ee ee | "Bb7"dcd2 | (F2G2) | 
+A/B/A/G/F2 | d/e/d/c/B2 | "Eb"B/c/B/A/ G2 | GG GG | G/A/G/F/ =E_E | "Ab"ee ee |  dcc2 | 
+"Eb"B3 (G/A/) | B3 (G/A/) | "Bb7".B(B/c/) de | fg!>!a2 | "Eb"B3 (G/A/) | B3 (G/A/) | "Bb7"BB/c/ df | "Eb"eg e"_Fine"z :| 
+W:
+W:Anmerkung H.C.: Fricktal, Zunzgen, s.V. 1000
+% st06735
+% Feb 4, 2018

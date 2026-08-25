@@ -1,0 +1,35 @@
+X:2
+T:De Scherrer. GC 2+
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/8=70
+R:Naturjodel
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] GE FD EF | "G"G>B ED G/2A/2G | "D7"F>c ED F/2E/2D | "G"G>B ED !fermata!G2 | 
+GE FD EF | "G"G>B ED G/2e/2d/2G/2 | "D7"F>c ED FD | "G"G6 |] 
+Q:1/8=106
+[P:B] D>D E>D F>D | "G"G(3d/2^c/2d/2 e>d (5B/2G/2e/2d/2G/2 | [M:4/4] "D7"F(3d/2^c/2d/2 f>ed2 e/2d/2=c/2F/2 | [M:3/4] "G" "rit."G!fermata!g fe !fermata!.d2 | 
+"_a tempo""D"D>D "D/C"E>D "D7/A"F>D | "G"G(3d/2^c/2d/2 e>d (5B/2G/2e/2d/2G/2 | [M:4/4] "D7"F(3d/2^c/2d/2 f>ed2 e/2d/2=c/2F/2 | "G"G6 |]
+Q:3/4=56
+[K:Cmaj] 
+M:3/4
+[P:C] "_Walzer" GG | ("C"G2.e2).c2 | (E2.A2).G2 | ("G7"B,2.A2).G2 | F4GG | "_simile""G7"(G2f2)B2 | (F2A2)G2 | 
+("C"C2A2)G2 | E4GG | ("C"G2e2)c2 | (E2A2)G2 | ("G7"B,2.A2)G2 | F4GG | 
+("G7"G2f2)B2 | (F2A2)G2 "rit." | "C"C3CC2 | C4 "a tempo"GG || 
+[P:D]
+"G7"G2FF FF | d4GG | "C"G2EE EE | c4dc | "G7"BG GG GG | dG GG GG | 
+"C"cG GG GG | e4GG | "G7"G2FF FF | d4GG | "C"G2EE EE | c4dc | 
+"G7"BG GG GG | "rit."d2G2B2 | "C"c2"G7"e2d2 | "C"c6 |] 
+W:
+%W:Parts: ABCD
+%W:trad./Toggenburg
+%W:Gesungen von Georg Kuratli und JK Männertreu, Nesslau
+%W:Schellackplatte Ultraphon A 25036
+%W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/De Scherrer.pdf
+W:*AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2017 ROOTHUUS GONTEN. #1253.50
+% Feb. 4, 2019

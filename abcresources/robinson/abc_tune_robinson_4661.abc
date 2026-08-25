@@ -1,0 +1,13 @@
+X:83
+T: Landmüs  G (st00743)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.168 (st00743) orig. G-Dur
+S: Zermatter Tänze. S.166-177.Überliefert durch Moritz Perren, "Hofmuri", 1874-1952.
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:G major
+"G"!fermata!g3z | "D"!fermata!f3z | "C"!fermata!e3z | "G"!fermata!d3z | [L:1/8] "Am"ce Ac | "G"Bd GB | "D7"Ac FA | "G"G2z2 :| 
+|: "G"BdG2 | BdG2 | Bd e>d | "D7"cdF2 | cdF2 | cdF2 | cd e>d | "G"BdG2 :| 
+W: "Landmüs" (schweizerdt. für Landmäuse - country mice)

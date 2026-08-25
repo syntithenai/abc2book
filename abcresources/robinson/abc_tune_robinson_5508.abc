@@ -1,0 +1,21 @@
+X:254
+T:Schottisch. GDC (st07407) ABACDCA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.327 (st07407) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+% %P:ABACDCA
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+[P:A] "G"D2GB d2d2 |  G2Bd g2g2 | "D7"f2f2 cde2 | "G"d2d2 Bcd2 | D2GB d2d2 |  G2Bd g2g2 | "D7"f2e2 c2A2 | 
+"G"G2B2 G2"_fine"z2 :|][P:B][|:  [K:D] "D"f2f2 bafd | "A7"c2a2 a^ga2 | a2a2 c'bge | "D"d2a2 a^ga2 | f2f2 bafd | "Em"B2e2 e^de2 |1 
+"A7"c2b2 c2a2 | A2g2e4 :|2 "A7"c2a2 agfe | "D"d2f2 d2"_>Teil A"z2 |] [P:C]|:  [K:C] "C"EGce g2^g2 | "F"a2a2 agf2 | 
+c'2c'2 b3a | "C"a2g2 g^fg2 | EGce g2^g2 | "F"a2a2 agf2 | "G7"g2d2 e3d | "C"c2e2 c2z2 :| [P:D] "A7"a2e2 efe2 | 
+("Dm"g2f2) fed2 | "E7"e2B2 BcB2 | ("Am"d2c2) cBA2 | "A7"a2e2 efe2 | "Dm"g2f2 fed2 | "E7"e2e^d e2ed | .e4"_>Teil C"z4 || 
+W:(Parts: ABACDCA)
+W:Anmerkung H.C.: Liestal, im Schlüssel gespielt 24. Okt. 1883
+% st07407 (C) Mülirad-Verlag 2007
+% Aug 4, 2017

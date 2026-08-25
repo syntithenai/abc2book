@@ -1,0 +1,25 @@
+X: 168
+T:Strathdown
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 2
+K:D major
+%%staves {1 2}
+V:1
+F | \
+D/E/F/G/ AF D/D/D !trill!B2 | A/d3/2A3/2F/ G3/2E/ E/F3/2 | \
+D/E/F/G/ AF D/D/D !trill!B2 | A/d3/2A3/2G/ FDD :: \
+g | \
+!trill!f3/2e/ d/e3/2 d/d/d !trill!f2 |
+                         d/e3/!trill!f3/d/ e3/2E/ E/g3/2 |1 \
+!trill!f3/2e/ d/e3/2 d/d/d !trill!f2 | B/d3/2A3/2G/ FDD :|2 \
+f3/2b/e3/2f/ d3/2e/c3/2d/ | B/d3/2!trill!A3/2G/ FDD |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddg | aaee | dddG | aAdd/ :: \
+z/ | dddd | ddee |1 dddd | gadd/ :|2 d'cba  gadd/ |]

@@ -1,0 +1,24 @@
+X: 69
+T:Mrs Capt McBarnet's Strathspey -- Balachron
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 2
+K:Eb major
+%%staves {1 2}
+V:1
+"^Moderately Slow"
+A | \
+({A}GF)EG BeGE | (e/d/)(.c/.B/) cd efdB | \
+gEGB (e/d/)c/B/ (.G.E) | F>B, E/D/C/B,/ [G,E]2 [G,E]2 :|
+A, | \
+!f!G,A,B,G, EB,GE | B,DFD AFBG | EFGA Bcde | !trill!f>g f/e/d/c/ BAGF |
+!p!G,A,B,G, EB,GE | B,DFD AFBG | ~E>g f/e/d/c/ BAGE | F>B, E/D/C/B,/ [G,E]2 [G,E]2 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | [Ee] [Ee] [Ee] [Ee]  | [Aa] [Aa] [Ff] [Bb] | [Ee] [Ee] [Ee] [Ee]  | [B,B] [B,B] [Ee] [Ee]  :| \
+z/ | eeee | [B,B][Bb][Bb][Bb] | EeEe | FfBB | eeee | [B,B][Bb][Bb][Bb] | eage | BB[Ee][Ee] |]

@@ -1,0 +1,33 @@
+X:1
+T:Grabi-Juiz  Bb  ABC
+T:Sepp Gasser 
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F>E | Cc | BG | EB | AG | F>D | Fd | cB | A>C | F>C | 
+FE | dc | B>F | Dd | (B2 | B)z | F>E | Cc | BG | EB | 
+AG | F>D | Fd | cB | A>C | F>C | FE | dc | (!fermata!B2 | B)z || 
+L:1/4
+M:3/4+4/4
+[P:B] c>FEF | F/e/dc| B>FDF | DdB/B/| c>FEF | 
+F/e/dc|B>FDF/F/ | D/D/dc| !fermata! !breath! B3 | c>FEF | 
+F/e/dc|B>FDF | DdB/B/|c>FEF | E/e/dc| B3z || 
+M:6/8
+L:1/8
+[P:C] !fermata!D !fermata!E !fermata!F | G/G/G/F/E edc | F/F/F/E/D dcB | A>GF e>dc | !fermata!B> !fermata!D !fermata! F  DEF | 
+G/G/G/F/E edc | F/F/F/E/D dcB | A>GF edc | B2z !fermata!D!fermata!E!fermata!F | 
+G/G/G/F/E edc | F/F/F/E/D dcB | A>GF e>dc | !fermata!B> !fermata!D !fermata! F  DEF |
+G/G/G/F/E edc | F/F/F/E/D dcB | A>GF edc | (B3B2)z |] 
+W:
+%W:Reihenfolge: A - B - C
+W:notiert Edi Gasser. Angaben: André von Moos
+W:UJV-Naturjodelsammlung: Code-Nr: 33-01
+W:http://www.naturjodler.ch/code 33.htm  (with AUDIO)
+%May 31, 2018

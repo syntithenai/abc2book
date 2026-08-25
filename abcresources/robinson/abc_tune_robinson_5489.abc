@@ -1,0 +1,17 @@
+X:237
+T:Schottisch FCBb (st07508)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.200 (st07508) orig. F,C,Bb
+T: Aus dem Repertoire der Dorfmusik Oberwil.  S.201-221
+T:Überliefert durch Gotti Bannier (1876-1947)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F"c/c/c dc | "C7"BG G/^F/G | dc BG | "F"FF/d/c2 | c/c/c dc | "C7"BG G/^F/G | dc B>G | "F"FF Fz:: [K:C]
+"C"e>d fe | "Dm"dA A/A/A | "G7"ag {/a}gf | "C"fee2 | e>d fe | "Dm/F"dA A/A/A | "G7"cB AB | "C"cc cz:: [K:F] 
+"F".c!>!c2.A | F2zc | "Gm/Bb".d!>!d2.B | G2zF | "C7"E/E/E B/B/B | "F"A/A/A F/F/F | "C7"E/F/G/A/ Be | "F"ff fz:: [K:Bb] 
+!>!"Bb"d3B | !>!F3B | "F7"AA {/A}ee | "Bb".dd/B/F2 | !>!d3B | !>!F3B | "F7"AA f/e/d/c/ | "Bb"BB Bz :| 
+% st07508
+% Feb 4, 2017

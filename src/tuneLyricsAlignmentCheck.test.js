@@ -99,6 +99,43 @@ describe('tuneLyricsAlignmentCheck', function() {
     const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
     expect(codes).not.toContain('strain_lyric_count_mismatch');
   });
+
+  test('one melody chart with several lyric verses is not a strain mismatch', function() {
+    const tune = {
+      id: 'amazing-grace',
+      name: 'Amazing Grace',
+      meter: '3/4',
+      key: 'G',
+      noteLength: '1/4',
+      voices: {
+        '1': {
+          notes: [
+            'D | "G"G2A/2G/2 | B2"D7"A | "Em"G2"C"E | "G"D2D |',
+            'G2B/2G/2 | B2"D7"A/2B/2 | "D"(d3 | d)zB |',
+            '"G"d2B/2G/2 | B2A | "C"G2E | "G"D2D |',
+            '"Em"G2(3B/2A/2G/2 | "D"B2A | "G"(G3 | G2) ||',
+          ],
+        },
+      },
+      words: [
+        'Amazing grace! how sweet the sound,',
+        'That saved a wretch like me!',
+        '',
+        'Twas grace that taught my heart to fear,',
+        'And grace my fears relieved;',
+        '',
+        'The Lord hath promised good to me,',
+        'His word my hope secures;',
+        '',
+        'When we have been there ten thousand years,',
+        'Bright shining as the sun,',
+      ],
+    };
+    expect(splitMelodyIntoBlocks(tune.voices['1'].notes).length).toBe(1);
+    const result = checkTuneLyricsAlignment(tune);
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('strain_lyric_count_mismatch');
+  });
 });
 
 describe('runNotationChecks', function() {

@@ -1,0 +1,17 @@
+X:117
+T: Mazurka  CGF (mz02024)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.275 (mz02024) orig. C,G,F
+O:Switzerland
+%%MIDI program 21
+%%%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+[P:A] "C"e2a3g | "G7"f>e f>ad2 | g2a3g | "C"e>g e>gc2 | g2c'3b | "F"a2d'3c' | "G7"b>a g>f ed | 
+"C"c2c'2z2 :: [P:B] [K:G] "D7"d2 af df | "G"gb dbg2 | "D7"cd fed2 | "G"Bd gdB2 | "D7"da fa df | 
+"G"gb dbg2 | "D7"ca fd fa | "G"g2g2 "_>Teil A"z2 :| [P:C] [K:F] "F"AB cd c=B | c>fA2A2 | f2g3f | 
+"C7"e>b e2e2 | GA Bc dc | c>b e2e2 | c>e g>b a>g | "F"f>e f>ga2 | AB cd c=B | 
+c>ff2f2 | AB cd ef | "Bb"d6 | d>g g2g2 | "F"c>ff2f2 | "C7"e>g c>b a>g | "F"f2f2"_Fine"z2 |] 
+% mz02024

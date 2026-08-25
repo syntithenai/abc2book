@@ -1,0 +1,39 @@
+X:2
+T:E paar Sennische. C 2+
+T:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=60
+R:Naturjodel
+M:4/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] G3G | e3dc3B/2c/2 | [M:6/4] "G7"d3cB4G3G | [M:4/4] f3ed3c/2d/2 | [M:6/4] "(G7"e3d "C)"c4G3G | 
+w:dro li u dü dü dü-rü  ü rü dü dro li  ü dü dü dü-rü  u rü du dro li
+"C"e3dc3B/2c/2 | [M:6/4] "G7"d3cB4G3G | [M:4/4] f3ed2 {/f}e2 | "C"{/d}c6 z2 |] 
+w:u dü dü dü-rü  ü rü dü dro li  ü rü dü (ü)du (ü)dü
+[M:3/4]
+[P:B] AG | "C"G3ce2 | g4^fg | "G7"a4g2 | [M:5/4] "C"e3dc4AG | [M:7/4] "G7"G3B d3c B4 AG | 
+w:dro-li bo ü dü u du-u dü du u ru du dro-li bo ü dü rü dü dro-li
+"C"G3c e3d c4 AG | [M:3/4] "C"G3ce2 | g4^fg | "G7"a4g2 | [M:5/4] "C"e3dc4AG | 
+w:do ü dü rü dü dro-li bo ü dü u du u dü du u ru du dro-li
+[M:3/4] "G7"G3Bd2 | g3d e2 | {/d} "C"(c6 | c4) |]
+w:do ü dü dü-u dü (ü)dü
+[P:C] AG | "G7"G2B2d>c | B4AG | "C"G2c2 e>d | c4AG | "G7"G2B2 d>c | 
+w:dro-li  bo ü ü-dü dü dro-li bo ü ü-ru dü dro-li bo ü bü-rü
+B4AG | "C"G2c2 e>d | c4AG | "C"G3ce2 | g4 ^fg | "G7"a4g2 | 
+w:dü dro-li bo ü ü-rü dü dro-li bo ü dü u du-u dü du
+[M:5/4] "C"e3dc4AG | [M:3/4] "G7"G3Bd2 | g3de2 | "C"{/d}(c6 | c4)z2 |] 
+w:u ru du dro-li do ü dü dü-u dü (ü)dü
+W:
+%W:Parts: ABC
+%W:Hohe Singlage, Bruststimme bis g' ; Kopfstimme bis g''
+%W:trad./AI (Appenzell Innerrhoden)
+%W:Jodler Josef Inauen (Felders Seff 1888-1956)
+%W:dazu Hackbrett und Kontrabass
+%W:Schellackplatte Odeon A 208080 (1929) "E paar Sennische"
+%W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/E paar Sennische.pdf
+W:*AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #13.10 (SCH037B)
+% Feb. 5, 2019

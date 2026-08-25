@@ -1,0 +1,15 @@
+X:54
+T: Galopp  GC (GL05081)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.362 (GL05081) orig. G,C
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+P: ABCDC
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"B>G B>G | B>ed2 | B>G B>G | B>ed2 | "D7"c>A c>A | c>fe2 |1 c>ed2 | "G"G>cB2 :|2 c>e dc | "G"B2z2 || 
+[P:B] |: "G"bc'/b/ "D7"af | ab/a/ "G"gB | "D7"dc Bc | "G"ed ^cd | bc'/b/ "D7"af | ab/a/ "G"gB | "C"ed "D7"ef |1 "G"gg gz :|2 "G"gg gc/c/ || [K:C] 
+[P:C] |: "C"c2 eg | c2 eg/g/ | "G7"gf da/a/ | "C"ag ec/c/ | c2 eg | c2 eg/g/ | "G7"gf dB |1 "C"cc cc/c/ :|2 "C"cc cz |] [K:G] 
+[P:D] |: "G"d>e d>^c | d>gb2 | "D7"d>fa2 | "G"B>dg2 | d>e d>^c | d>gb2 | "D7"d>f a>f | "G"gg "_>Teil C"gz :|

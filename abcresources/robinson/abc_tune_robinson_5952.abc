@@ -1,0 +1,36 @@
+X:1
+T:z'Leos. Natur-Juiz  C-Dur
+T:Markus von Wyl (01.01.1969)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+R:Naturjodel
+M:2/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+"froher Anruf" Ge | G!fermata!c || 
+M:4/4
+[P:A] G,2C/D/ E/F/ | G>EGe | c2 G/c/d/e/ | f>BBD | F4 | G,2 B,/C/D/E/ |  
+F>GGf | B2 d/c/B/A/ | G>EGe | cE/F/G2 | G,2C/D/E/F/ | G>EGe | c2 G/c/d/e/ | 
+f>BBD | F4 | G,2B,/C/D/E/ | F>GGf | BGg>f | dB(c2 | c2)z2 || 
+M:4/4
+[P:B] G/E/ D/C/ |B,>G FB | G2 F/A/G/B,/ | C>EGe | c>E A/G/E/C/ | 
+B,>GFB | G2F/A/G/B,/ | (C4 | C)z G/E/D/C/ | B,>GFB | G2 F/A/G/B,/ | 
+C>E G/E/ G/e/ | c>E A/G/E/C/ | B,>GFB | G2 "rit."F/G/f/B/ | (c4 | c)z ||
+[P:A2] G,2C/D/ E/F/ | G>EGe | c2 G/c/d/e/ | f>BBD | F4 | 
+G,2 B,/C/D/E/ |  F>GGf | BGg>f | "rit."dB(c2 | c3)z || 
+M:3/4+4/4
+L:1/8
+[P:C] G| Gee3E | Ecc3C | CAA3G EC | D4zG|Gff3G| GBB3B,| 
+B,AG2BGFB, | !fermata!C3z!fermata!E2zG | Gee3E |Ecc3C|CAA3G EC | 
+D4zG| Gff3G | GB B3B, | B,A G2 BGFB, | !breath!C6G2 | f4B4 | c8 |] 
+W:
+W:Reihenfolge: A - B - A2 - C
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 69-01
+W:http://www.naturjodler.ch/code 69.htm  (with AUDIO)
+W:notiert Edi Gasser. %Angaben: 
+%October 12, 2018

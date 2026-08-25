@@ -1,0 +1,18 @@
+X:1
+T: Galopp FC (gL07256)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.105  (gL07256) orig. FC
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+("F"cA B=B) | c>fa2 | "C7"b>ag2 | "F"a>gf2 | (cA B=B) | c>fa2 | "C7"b>a ge | "F"ff fz :: [K:C] 
+"C"g/f/e/f/ gg | "G7".f.d .f.d | f/e/d/e/ ff | "C".e.c .e.c | g/f/e/f/ gg | "G7".f.d .f.d | "C"cd/e/ "G7"f/g/a/b/ | "C"c'c' c'z :| [K:F] 
+"F".c(d/c/) BA | c2A2 | "Bb"dd/e/ fd | "F"dcf2 | "C7"cBg2 | "F"BAf2 | "G7"gg/g/ gf | "C7"ed cB | 
+"F".c(d/c/) BA | c2A2 | "Bb"dd/e/ fd | "F"dcf2 | "C7"cBg2 | "F"BAf2 | fe/d/ "C7"ce | "F"ff fz |] 
+%W:Anmerkung H.C.: Strauss
+% gL07256 
+% April 14, 2018 ("Augustus I & II")

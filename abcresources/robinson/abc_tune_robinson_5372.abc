@@ -1,0 +1,21 @@
+X:131
+T:Polka  CF (pk07697)  ABCDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.356 (pk07697) orig. C,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"cE Gc | ("G7"cB) B/A/G | dG Bd | "C"dc e>d | cE Gc | ("G7"cB) B/A/G | dG B(e/d/) | "C"cc cz :| 
+[P:B] |: ("Am"e/d/).c/.B/ cc | ("Dm"c/B/).A/.^G/ "D7"AA | "G7"G(B/c/) df | "C"f(e/d/)e2 | ("Am"e/d/).c/.B/ cc | ("Dm"c/B/).A/.^G/ "D7"AA | "G7"G(B/c/) (e/d/).d/.B/  | "C"cc cz  :| [K:F] 
+[P:C] |: "F"Ac Ac | fA/B/ c/d/c | "C7"BG/A/ B/c/B | ("F"A/G/).A/.B/ cc | Ac Ac | fA/B/ c/d/c | "C7"BG/A/ B/d/c/B/ | "F"AA A"_fine"z :| [K:C] 
+[P:D] "G7"GB Gd | "C"Gc Ge | "G7"ed/c/ dB | "C"dc/B/c2 | "G7"GB Gd | "C"Gc Ge | "G7"ed/c/ dB | "C"cc/c/ c"_>Teil C"c || 
+W:
+W:Anmerkung H.C.: Var. Rünenberg 2, .sV.1056/765
+% pk07697
+% Sep 19, 2017 (pray vs. arrogant)

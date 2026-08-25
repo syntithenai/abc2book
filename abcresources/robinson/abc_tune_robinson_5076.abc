@@ -1,0 +1,21 @@
+X:158
+T:Polka FCBb (pk02127)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.325 (pk02127) orig. F,C,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:F major
+AB [P:A] |: "F"c2c2 cafd | c2c2a4 | a3g g3f | T"C7"f2e2 e2GA | B2B2 Bged | c2c2g4 | 
+fedc =Bcde |1 "F"f2a2 f2AB :|2 "F"f2a2 f2fg [P:B] [K:C] |: "G7"ag^fg d2=fg | "C"ag^fg c2=fg | "G7"b2b2 bagf | 
+"C"ag^fg e2=fg | "G7"ag^fg d2=fg | "C"ag^fg e2gc' | "G7"b3a gfed |1 "C"c2e2 c2fg :|2 "C"c2e2 c2"_>Teil A"z2 || 
+[P:C]  [K:Bb] F2 |("Bb"B4 B)dfb | g6f2 | dfcf BfdB | "F7"A6F2 | (A4A)cea | 
+g6f2 | efdf cfAc | "Bb"B2ba gfdF | (B4 B)dfb | g6f2 | =efef dfbf | 
+T"Eb"a2g2 g2cd | "F7"e2e2 agec | "Bb"d2d2 gfdB | "F7"ABcd eAfA |1 "Bb"B2b2 b2F2 :|2 "Bb"B2b2 b2z2 |] 
+W:Anmerkung H.C.: "Abschied von Airolo", Innerschwiizertänzli. Tschessi Krupski 26
+% pk02127  
+% Oct 30, 2016

@@ -1,0 +1,49 @@
+X:70
+T:24th Ps New V. 46 2 Over,2voices. WHG.069
+R:Hymn
+S:W.H.Giles MS,Bampton,Oxfordshire,1839p69, 68
+O:England
+H:donated by Mrs W.R.Kettlewell to VWML,Apr 1927.
+A:Oxfordshire - Bampton
+N:See notes on WHG068. Key signature indistinct,
+N:but "in C" written at start of system.
+N:The asterisked bars are marked as insertions;
+N:i.e. a ^ symbol and miniature bars below the
+N:staves. The 2nd voice bar is |a2zd| in the MS!
+N:The last note of section 1 is G2 in voice 1,
+N:E4 in voice 2. I have edited these to G3 and
+N:E3 respectively, and added the final rest.
+N:The bar "£" is |dzz2| in the MS.
+Z:PJHeadford - VMP 2009
+M:C|
+L:1/4
+Q:1/2=100
+B:Village Music project, Giles, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gileswh.abc
+notC:Composed by Edwd. Towerzey
+K:C major
+%section 1
+V:1
+G|ECEG|ECEG|ECEG|c2ze|\
+w:E-rect__ yr Heds__ E-ter_nal_ Gate
+d2c2|f2e2|d"^Duo:p"d3/4d/4de&dG3/4G/4Ge|d2d2|
+w:||****the king of
+dcBz|c2zc|"*"c3c|(Be)(dc)|\
+w:Glo_ry
+d2"^trill"TA2|G3:||z|
+V:2
+e|(cAc)e|(cAc)e|(cAc)e|A2zc|\
+d2c2|B2A2|"£"G3z|z4|
+z4|c2(^df)|"*"g2zd|ge(GA)|\
+B2{d}(B2{a})|E3:||z|
+%section 2
+V:1
+"^Unis"D2 d>c|(B>A) (G>F)|(E>D) Cz|c2zB|\
+c2 (e>d)|(c>A) (B>G)|
+A3 C|E>G c>e|\
+A2 (d>c)|B3 c|"_Slower"d2 (cd)|e2 Td2|Hc3||
+V:2
+B2 B>A|(G>F) E>D|(C>B,) G,z|A2 zc|\
+"^p"f2 B2|c2 c2|
+F3 A|c>e a>c|\
+d2 B2|E3 c|d2 cd|e2 E2|HA3|]

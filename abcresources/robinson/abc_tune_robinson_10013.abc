@@ -1,0 +1,22 @@
+X:14
+T:Valentine (Fieldtown)
+M:6/8
+O:England
+P:A.(AB3)2.(AC3)2.A
+Q:110
+R:Jig
+K:G major
+P:A
+d | gfe  ede | edc  cBc       | dBg  dBG  | FAA A2 d |
+gfe  ede | edc  cBc       | dBG  DAF  | GAG G2 ||
+P:B
+B/2c/2  | ded  dBd | BGG  G2 A/2B/2 | cAc  BGB  | FAA A2 B/2c/2  |
+ded  dBd | BGG  G2 d      | efg d2 c  | BGG G2 ||
+P:C
+B/2c/2  | ded  dBd | BGG  G2 A/2B/2 | cAc  BGB  | FAA A2 B/2c/2  |
+M:4/4
+L:1/4
+"SLOWS"d e d2 |  d B d2 | B G G F |\
+M:6/8
+L:1/8
+"R.O.T."G3-G2 d |efg d2 c| BGG G2 ||

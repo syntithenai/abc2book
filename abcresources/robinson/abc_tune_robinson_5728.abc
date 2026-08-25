@@ -1,0 +1,33 @@
+X:7
+T:Gruebi-Juiz  Bb  ABC
+T:Hans Durrer-von Flüeh  (25.6.1921-16.8.2002)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:6/8
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "mässiger Rhythmus"  DG | F>D FD F B/d/ | f>d fd f e/d/ | c>E Ff d/E/ F/c/ | BDF2DG | F>D FD F B/d/ | 
+f>d fd f e/d/ | c>E Ff d/E/ F/c/ | !breath!B4DG | F>D FD F B/d/ | f>d fd f e/d/ | 
+c>E Ff d/E/ F/c/ | BDF2DG | F>D FD F B/d/ | f>d fd f e/d/ | c>E Ff d/E/ F/c/ | !fermata!B4 ||
+L:1/8
+M:3/4
+[P:B]  Ge B>E G e/G/ | Fd B>f d F/f/ | c>E Ff e/E/ F/c/ | BD F>dB2 | Ge B>E G e/G/ | 
+Fd B>d d F/f/ | c>E Ff e/F/ e/A/ | !breath!B6 | Ge B>E G e/G/ | Fd B>f d F/f/ | 
+c>E Ff e/E/ F/c/ | BD F>dB2 | Ge B>E G e/G/ | Fd B>d d F/f/ | c>E Ff e/F/ e/A/ | !fermata!B6 || 
+L:1/16
+M:2/4
+[P:C]  Fd Bd fd B2 | Fd Bd fe c2 | Fe Ac f>e cF | f>e dc Bd F2 | Fd Bd fd B2 | Fd Bd fe c2 | 
+Fe Ac f>e cF | f>e dc !breath!B4 | Fd Bd fd B2 | Fd Bd fe c2 | Fe Ac f>e cF | 
+f>e dc Bd F2 | Fd Bd fd B2 | Fd Bd fe c2 | Fe Ac f>e cF | f>e dc !fermata!B4 |] 
+%W:Reihenfolge: A-B-C
+W:
+W:Musik: Hans Durrer-von Flüeh, bearbeitet: Karl Anderhalden
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 11-04
+W:http://www.naturjodler.ch/code 11.htm  (with AUDIO)
+%May 7, 2018

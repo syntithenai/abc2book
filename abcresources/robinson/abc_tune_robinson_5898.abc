@@ -1,0 +1,33 @@
+X:3
+T:Steigli-Juiz  Bb  ABAC
+T:Sepp Arnold (18.12-1915-2.2.2003)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] B,>D | F3B D/F/d/c/  B/d/f/d/ | !fermata!B!fermata!d!fermata!F4 D/F/d | f/d/ | c3E/F/ f>c f/e/d/c/ | B6 B,>D | 
+F3B D/F/d/c/  B/d/f/d/ | !fermata!B!fermata!d!fermata!F4 D/F/f/d/ | c3E/F/ f>c f/e/d/c/ | !fermata!B6 ||  
+L:1/8
+M:4/4
+[P:B] E>F GEe2d>c | BdF4 f/d/B/d/ | ceF4 f/e/c/d/ | BdF2 !fermata!d!fermata!c!fermata!B2 | E>F GEe2d>c | 
+BdF4 f/d/B/d/ | ceF2fc f/e/d/c/ | B6z2 | E>F GEe2d>c | BdF4 f/d/B/d/ |
+ ceF4 f/e/c/d/ | BdF2 !fermata!d!fermata!c!fermata!B2 | E>F GEe2d>c | BdF4 f/d/B/d/ |  ceF2 fc  f/e/d/c/ | B6z2 || 
+L:1/8
+M:3/4
+[P:C]  D F B | A3E FA | f3e dc | B3d Gd | F3D FB | A3e Ge | 
+F3E FA | B3d Gd | F3D FB | A3E FA | f3e dc | B3d Gd | F3D FB | 
+A3e Ge | F3E FA | (B6 | !fermata!B2)zD FB | A3E FA | f3e dc | B3d Gd | 
+F3D FB | A3e Ge | F3E FA | B3d Gd | F3D FB | A3E FA | 
+f3e dc | B3d Gd | F3D FB | A3e Ge | F3f eA | (B6 | !fermata!B2) z2z2 |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser. Angaben Remigi Blättler
+W:UJV-Naturjodelsammlung: Code-Nr: 40-02
+W:http://www.naturjodler.ch/code 40.htm  (with AUDIO)
+%Juni 10, 2018

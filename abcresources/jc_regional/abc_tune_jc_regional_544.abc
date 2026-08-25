@@ -1,0 +1,31 @@
+X: 129
+T: Dzanguritsa
+O: Bulgaria
+S: Peter Lliev - New Renaissance in Bulgarian Folk Music
+F: http://www.youtube.com/watch?v=s9b1NpJXx1c
+M: 9/8
+L: 1/16
+Q: 1/4=120
+P:ABCADEF
+K: Ador
+%%MIDI program 111
+%%MIDI drum dzdzdzddz 45 45 45 45 45
+%%MIDI drumon
+P:A
+  c4 dcBA B2 A2 A2 B4      | c4 dcBA B2 A2 A2 z4     |\
+  c4 dcBA B2 A2 A2 G4      | A4 d4   AGFG  AA z4     |
+P:B
+  c4   c2d2 e4    e2d2c2   | z2d2 c2d2 e2c2  B2A2B2  |\
+  c4   c2d2  e4   e2d2c2   | zd2c d2c2 d2e2  c2B2A2  |
+P:C
+|:G2A2-A2B2 c2B2  c2B2G2   | A4   d2e2 c4    BAG4    |\
+  G2A2-A2B2 c2B2  c2B2G2   | A4   d4   AGFA  A4z2    :|
+P:D
+|:A2z2 a2a2 g2=f2 e2d2c2   | cd3  c2d2 e2=f2 g2e2e2  |\
+  g2=f2 g2a2 g2f2  e2d2z2  | cd3  c2d2 e2c2  B2A2z2  :|
+P:E
+|:c2d2-d2B2  c2B2 c2B4     | c2d2-d2B2  c2B2 c2G4    |\
+  c2d2-d2c2  g2=f2 e2d2c2  | cd3  c2d2  e4   c2B2A2 :|
+P:F
+  e2=f2 -f2d2   e4- e2d2^cB| ^c4 d4 e4-e4z2          |\
+  e2=f2 -f2d2   e4- e2d2^c2| B2A4z12                  |

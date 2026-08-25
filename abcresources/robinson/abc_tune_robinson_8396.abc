@@ -1,0 +1,25 @@
+X: 27
+T:Balvenie Castle
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 1
+K:Bb major
+%%staves { 1 2 }
+V:1
+B>GF>E D>CB,>d | e<cf>d c/c/c !trill!c2 | \
+(c/B/)_A/G/ (A/G/)F/E/ D>CB,>d | e<c!trill!f>d B/B/B ~B2 |
+B>GF>E D>CB,>d | e<cf>d c/c/c !trill!c2 | \
+(c/B/)_A/G/ (A/G/)F/E/ D>CB,>d | e<c!trill!f>d B/B/B ~B2 ||
+B>fd>f B>fd>f | e>gd>f c/c/c ~c2 | \
+B>fd>f B>fd>f | e<g!trill!f>d B/B/B ~B2 |
+B>fd>f B>fd>f | e>gd>f c/c/c cg/a/ | \
+bgaf gefd | e<g!trill!f>d B/B/B ~B2 |]
+V:2 clef=bass octave=-2
+L:1/4
+BBBB | cBFF | EedB | efBB | BBBB | cBFF | EedB | efBB || \
+Bbbb c'bff | bBBd | efBB | Bbbb | c'b ff | efed | ef BB |]

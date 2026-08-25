@@ -1,0 +1,23 @@
+X:1
+T: Mazurka FCBb (mz07281) ABACDC 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.112  (mz07281) orig. F,C,Bb
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c2 c>e d>c | A2 AF Ac | f2e2e2 | "Gm"(3ded d2z2 | B2 B>c B>G | "C7"E2 E>F G>B | e2d2G2 | "F"^G2A2z2 | 
+c2 c>e d>c | A2 AF Ac | f2e2f2 | "Bb"^f2g2z2 | g2 g>f e>d | "F"c2 cA cf | "C7"e2d2E2 | 
+"F"F2F2z2 :: [P:B] [K:C] "C"E>F G2e2 | d>c c>E G2 | "G7"G>F E2D2 | E>F B>A G2 | "C"E>F G2e2 | d>c c>E G2 | 
+"G7"g>f e>d G>B | "C".c2!>!c2"_>Teil A"z2  :: [P:C] [K:Bb] ("Bb"F2G2A2) | B4B>B | d>c B>FB2 | "F7".A2!>!A4 | (E2F2G2) | A4A>A | 
+A>G F>AG2 | "Bb".F2!>!d4 | (F2G2A2) | B4B>B | d>c B>FB2 | "F7".A2!>!A4 | ("Cm"e2d2c2) | G4G>A | G>^F G>c "F7"e>A | 
+"Bb"B2B2z2 :| [P:D] "Bb"BcB4 | BcB4 | B>c B>c d>f | "F7".f2!>!A4 | A>BA4 | A>BA4 | A>G F>A c>d | e2e2"_>Teil C"z2 |] 
+W:
+W:Anmerkung H.C.: Fällinsdorf
+%% mz07281 
+% March 27, 2018

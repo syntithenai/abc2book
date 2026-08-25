@@ -1,0 +1,38 @@
+X:1
+T:dr Unverninftig. Natur-Juiz 1998  BbEb  ABCD
+T:Daniel Wallimann  (* 30.1.1970)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F/F/ |fd c/d/ | B>A G/F/ | fed/f/ | c2A/G/ | Ffe/d/ | edc/A/ | BdG | 
+F>F G/F/ | fdc/d/ | B>A G/F/ | fed/f/ | c2A/G/ | Ffe/d/ | edc | (B3 | B)zz || 
+L:1/8
+M:2/4
+[P:B] FF| Bd BG | F2Bd | f2fe | d2FF | d2Bd | f2ed | (c4 | 
+c2)FF | Ac AG | F2Ac | f2fe | c2AG | F2EF | G2A2 | B2d2 | F2FF | Bd BG | 
+F2Bd | f2fe | d2BA | G2cG | c2d2 | (e4 | e2)g2 | f2fd | B2d2 | f2ed | c2d2 | (B4 | B2)z2 ||  
+K:Eb
+L:1/4
+M:2/4
+[P:C] Ge | e>B | eB | GB | ce | d>f | dB | A2 | fe | d>f | 
+dB | AB | ec | B>e | BA | G2 | Ge | e>B | eB | GB | ce | 
+d>f | dB | A2 | fe | d>f | dB | AB | cd | (e2 | e)z || 
+K:Bb
+M:3/4
+[P:D] F/F/ | ff/d/ f/d/ | fdF | ff/d/ f/d/ | c2F/G/ | AFf | edc/A/ | BdG | 
+F2F/F/ | ff/d/ f/d/ |  fdF | ff/d/ f/d/ |  c2A/G/ | Ffe/d/ | edc | (B3 | 
+!breath!B2)F/F/ | ff/d/ f/d/ | fdF | ff/d/ f/d/ | c2F/A/ | AFf | edc/A/ | BdG | 
+F2F/F/ | ff/d/ f/d/ |  fdF | ff/d/ f/d/ |  c2A/G/ | Ffe | dd c | (B3 B2) |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 29-01
+W:http://www.naturjodler.ch/code 29.htm  (with AUDIO)
+%May 28, 2018

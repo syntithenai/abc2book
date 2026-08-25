@@ -1,0 +1,32 @@
+X:1
+T:Retour Des Hirondelles
+R:valse musette
+C:Robert Trogn\'ee (1907-1972) & Beniamino Pagano
+H:Sharon Shannon plays this in D, but it's originally in C, which is also
+H:a much better key for this tune on the simple system flute.
+H:There is also a third part, which I have skipped here.
+D:Sharon Shannon
+O:France
+Z:id:hn-musette-1
+M:3/4
+L:1/8
+Q:1/4=200
+K:C
+"G7"G^FGB^AB | d^cdfef | a^ga=gfe | dcB ||
+|: EF^F | "C"G^FGcBc | e^deg^fg | a2 za a2 | a3 EF^F | G^FGcBc | e^deg^fg | "G7"a2 za a2 | a3
+Ade | fefgfe | d^cded=c | B2 zb b2 | b3 B^AB | A2 za a2 | a3 A^GA | "C"G2 zg g2 | g3
+EF^F | G^FGcBc | e^deg^fg | a2 za a2 | a3 FG^G | "A7"A^GA^c^Bc | e^deg_ba | "Dm"g2 zf f2 | f3
+FG^G | A^GAd^cd | fefd^cd | "C"G^FGcBc | e^decBc | "G7"G^FGB^AB | e4d2 | "C"c6 | z3 :|
+|: G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | ^cGdGfG | "C"eGcEAE | G2z
+G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | fGeGdG | "C"(3cdc (3e^de (3g^fg | c'zz :|
+P:variations
+|: EF^F | "C"G^FGcBc | e^deg^fg | a2 za a2 | a3 EF^F | G^FGcBc | e^deg^fg | "G7"a2 za a2 | a3
+Ade | fefgfe | d^cded=c | B2 zb b2 | b3 BcB | A2 za a2 | a3 ABA | "C"GFGcec | GAGF
+EF | G^FGcBc | e^deg^fg | a2 za a2 | a3 FG^G | "A7"A^GA^c^Bc | eAeg_ba | "Dm"g2 zf fe | f3
+FG^G | A^GAd^cd | fefa^ga | "C"G^FGcBc | e^deg^fg | "G7"G^FGB^AB | e4d2 | "C"cEGceg | c'zz :|
+|: G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | ^cGdGfG | "C"eGcEAE | G2z
+G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | fGeGdG | "C"(3cdc Bceg | c'zz :|

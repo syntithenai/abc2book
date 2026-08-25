@@ -1,0 +1,12 @@
+X:1
+T:Rond d'Argenton
+L:1/8
+M:6/8
+K:G minor
+P: Sequence A(voc) A(instr) B(voc) C(voc) C(instr)
+P:A
+|:e2dc2d|e2fd3|e2dc2d|e2fd3:|
+P:B
+|e2d cde|d2cB3|G2AB2c|d2ec2e|
+P:C
+|:d2ecde|d2cB3|G2AB2c|1d2ec2e:|2d2ec3|

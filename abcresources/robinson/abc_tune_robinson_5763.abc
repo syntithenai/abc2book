@@ -1,0 +1,35 @@
+X:21
+T:Mälchegg-Juiz  Bb  ABAC
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+M:2/4+3/4
+Q:1/4=75
+L:1/4
+[P:A] DB|Fd|B2|DB|Ff|d2F | f>Bd | 
+c2F | Edc | B>D|FB|!fermata!d2 | DB|Fd|B2 
+DB|Ff|d2F | f>Bd | c2F | Edc | !fermata!B3 || 
+Q:1/4=85
+M:3/4
+[P:B] d|ceF | c2 d/>c/ | Bd F | B2 c/>B/ | AcF | 
+d>Ac | B2D | !fermata!F2d | ceF | c2d/>c/ | BdF | 
+B2c/>B/ | AcF | "rit."d>Ac | (B3 | B3) || 
+M:3/4
+Q:1/4=90
+[P:C] B/ c/d/| e>GE | dcF/F/ | B>FD | dBG | 
+A>EF | fec | B>DF | !fermata!D>B c/d/ | e>Gc | dcF/F/ | 
+B>FD | fdB | A>CF | "rit."fdc | (!fermata!B3 | B>) |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-11
+W:http://www.naturjodler.ch/code 17-a.htm  (with AUDIO)
+%May 13 2018

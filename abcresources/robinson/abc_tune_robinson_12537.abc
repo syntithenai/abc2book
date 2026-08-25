@@ -1,0 +1,26 @@
+X:428
+T:Westminster Slow March,The.2voices RH.429
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C
+L:1/8
+Q:2/4=60
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] d4 A4|d>cd>f d4|a2f2 g2e2|d>cd>f d4|
+[V:2] F4 A4|F>EF>A F4|f2d2 e2A2|F>EF>A F4|
+%
+[V:1] AA/B/ cc/d/ e2dc|BB/c/ dd/e/ f2ed|c2a2 b2a/g/f/e/|a2a>a a2z2||
+[V:2] AA/G/ AA/B/ c2BA|GG/A/ BB/c/d2G2|A2c2 e2Be|c2c>c c2z2||
+%
+[V:1] g2e2 f2d2|c2d2 e2z2|g2e2 f2d2|a2a>b agfe|
+[V:2] e2c2 d2B2|A2B2 c2z2|e2c2 d2B2|A2A>B AGFE|
+%
+[V:1] d4 f4|B2B/^G/B/c/ B4|ef/g/ a/g/f/e/ d2c2|d2d>d d2z2|]
+[V:2] D2F2 A2F2|D2D>D D4|B2BA/G/ F2E2|F2F>F F2z2|]

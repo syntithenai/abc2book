@@ -1,0 +1,23 @@
+X:1
+T:Abschied vom Städtchen (Marsch)  CF (mr07100) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.52f  (mr07100) orig. C,F
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c2G2 | e2c2 | "G7".d2!>!B2 | "C".c2zG |: "C"GE A>G | GE Ac | "G7"B>f ff | !>!f2 zG | GF A>A | 
+GF AB | "C"c>e ee | !>!e2zG | GE A>G | GE Ac | "G"B>d dd | !>!d2z(^c/d/) | "D7"^fe dc | 
+"G".e!>!d2.B | "D7".d!>!c2.A |1 "G"GG/G/ G>G :|2 "G7"GG/G/ GG |: ("C"c>e)  (B>d) | AA!>!G2 | (AG) (ce) | !>!"G7"f2zG | 
+B>f A>c | BB!>!A2 | (AG) (Bf) | !>!"C"e2zG | c>(e B>)(d | A)A !>!G2 | (Ge) ("C7"dc) | !>!"F"A2zA | A^G/A/ e>d | 
+"C"dc BA | "G7".G2!>!B2 |1 "C"cG/G/ GG :|2 "C"cc/c/ .c2 || [K:F] "F"z4 | z2(FG) |: "F"A2 (Ac) | "Bb"B2(Bd) | "F"c2(cB) | 
+A4 | c2(cB) | A2(Ac) | "C7"B2(BA) | G2c2 |1 ("F"A4 | A2)(FA) :|2 ("F"A4 | A2)FA || 
+"Gm"G3A | "C7"B2G2 | "F"A3B | c2c2 | "Bb"d2d2 | f2ed | ("F-"c4 | c2)FA | c2 (cd) || 
+c2 (cf)  | c2(cB) | A4 | c2cB | A2(Ac) | "C7"B2(BA) | G2c2 | ("F"F4 | F2)z2 |] 
+W:
+W:Anmerkung H.C.: Benken 10, s.V. 424
+% mr07100
+% Jan 6, 2018

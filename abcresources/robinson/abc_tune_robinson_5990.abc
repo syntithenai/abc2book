@@ -1,0 +1,22 @@
+X:1
+T:Ländler-Walzer  CFBb (LD06819)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.18  (wz06819) orig. CFBb
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"g2g2>g2 | (ag) (eg)c'2 | (eg c') (e gc') | "G7"b2agf2 | .g2g3g | (ag) (fg) b2 | (fg b)(f gb) | "C"c'2 (ge)c2 | 
+.g2g3g | (ag) (eg)c'2 | (eg c')(e gc') | "G7"b2agf2 | .g2g3g | (ag) (fg) b2 | (fg b)(f gb) | "C"c'2zc' ba :| 
+|: ("G7"gb) ag fB | "C"ce gc eg"G7" | Bd gB dg | "C"ce gc eg | ("G7"gb) ag fB | "C"ce gc eg | "G7"Bd gB dg |1 "C"c2zc' ba :|2 
+"C"c2z2f2 |: [K:F] "C7".e2e3e | (e2d2B2) | "F"AA Ac f2 | z2c3A | "C7"BB Bce2 | z2c3B | "F"AA Acf2 | z2f3f | 
+"C7".f2e3e | e2d2B2 | "F"AA Acf2 | z2c3A | "C7"BB Bce2 | z2c3e | "F"f3ff2 |1 z2f3f :|2 "F"f2z2d2 || 
+|: ("C7"cb) (ge) (ce) | ("F"fa) (cf) (Ac) | ("C7"eg) (ce) (Be) | ("F"fa) (cf) (Ac) | ("C7"cb) (ge) (ce) | ("F"fa) (cf) (Ac) | ("C7"eg) (ce) (Be) |1 "F"f2z2d2 :|2 
+"F"f2 fd fd |: [K:Bb] "Bb"g6 |  .f2f3d | "F7"e6 | z2(fe) (fe) | a6 | .g2g3e | "Bb"[B6d6] | z2 (fd) (fd) | g6 | 
+.f2f3d  | "F7"e6 | z2(fe) (fe) | a6 | a2g2A2 | "Bb"B3BB2 |1 z2(fd) (fd) :|2 B2z2ff |: "F7"fa c'a fe | 
+("Bb"df b)(d fb) | ("F7"ef a)(e fa) | ("Bb"df b)(d fb) | "F7"fa c'a fe | ("Bb"df b)(d fb) | ("F7"ef a)(e fa) |1 "Bb"b2z2ff :|2 "Bb"b2z2z2 |] 
+% LD06819 (Heft 235/TN 28)
+% Nov 11, 2017 / 11.11.2017

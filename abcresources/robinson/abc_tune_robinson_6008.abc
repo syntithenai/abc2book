@@ -1,0 +1,26 @@
+X:1
+T:Marsch  GC (mr07054) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.165  (mr07054) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+ d/d/[P:A] |: "G"dB Ge | d3d/d/ | dB Ge | d3g/g/ | ("D7"gf) (fe) | A3f/f/ | fe ed | "G"B3d/d/ | 
+"G"dB Ge | d3d/d/ | dB Ge | d3d | "C"g2fe | "D"f2ed | ("A7"^cd) .e.f |1 "D"dd/d/ dd/d/ :|2 "D"dd/d/ dd || 
+[P:B]  |: "D7"a3a | gf ed | "G"g4 | d3d | "D7"e3d | c>B ce | A3c/B/ | A3d | 
+"G"g3g | "D7"f3f | ("C"fe) (e2 | .e2)e2 | "G"d3B | ("D7"dc) .B.A | "G"G2 g>g | g2z2 :|  [K:C] 
+[P:C] |: "C"G2 c>d | e3e | e>d c>e | e3g | "G7"g3(f/e/) | d3g | "C"g3f | e>d c>A | 
+G2 c>d | e3e | e>d c>e | g3z | "Dm"a2fd | "C"g2ec | "G7"Bc e>d | "C"cc/c/ cz :| 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: Büchli: Paul Brandenberger
+W:Augst 3, Olsberg 25, Herznach/Fricktal 63
+%W:Anmerkung Hrsg,: 
+% mr07054
+% July 15,  2018

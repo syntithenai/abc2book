@@ -1,0 +1,22 @@
+X:23
+T:Seven Gate Road, The
+C:From Steel Skies by Alistair Anderson
+M:9/8
+L:1/8
+K:D major
+P:A
+|: d3 ded cBA | B3 Bde g3 | fga efd cBA | d3 edc d3 :|
+P:B
+|: e3 efg fed | g3 gab a3 | e3 "_Last time to Coda" efg fed !coda!|"To A or B"Bgf edc d3 :|"To C part" Bba gfd e2 f ||
+K:G
+P:C
+|:G3 GAG FED | E3 EGA c3 | Bcd ABG FED | G3 AGF G3 ||
+P:D
+|:A3 ABc BAG | c3 cde d3 | A3 ABc BAG |1 EcB AGF G3 :|2 EcB AGF GAB ||
+K:A
+P:E
+|:A3 ABA GFE | F3 FAB d3 | cde BcA GFE | A3 BAG A3 :|
+P:F
+|:B3 Bcd cBA | d3 def e3 | B3 Bcd cBA |1 Fdc BAG A3 :|"To A"Fdc BAG ABC ||
+K:D
+!coda!  Bba gfd "rall   -     -    -    -    -   -   -   -   -   -   -    -   -   -   -   -   -   -    -   -   -   -   -   -   -   -"eba | gfd Heba gfd | He6 z3 |[M:4/4]

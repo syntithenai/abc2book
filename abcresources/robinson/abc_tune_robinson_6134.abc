@@ -1,0 +1,24 @@
+X:1
+T:Soldaten-Polka  FBb  (pk07781)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.138  (pk07781) orig. F,Bb
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"C7"c>c cc | cc/c/ cc [P:A] |: "F"A/B/c Ac | "Bb"Bd {/e}d/^c/d | "C7"c/d/e/f/ gc | "F"aa a/g/f | A/B/c Ac | 
+"Bb"Bd {/e}d/^c/d | "C7"c/d/e/f/ ge | "F"ff fz :|  [P:B] "Dm"d>A d>A | d3f | "A7"ea e/^d/e | "Dm"fed2 | 
+"C7"c>G c>G | (c2c/)e/d/c/ | "G7"=B/c/d/e/ fB | "C"cc/c/ cc | ("C7"c.B) (c.B) | ee e/d/c/B/ | "F"Adc2 | 
+f=Bc2 | ("C7"c.B) (c.B) | ee e/d/c/B/ | "F"A(d/c/) "C7"=B/c/d/e/ | "F"ff fz || [P:C] [K:Bb]"Bb" d/d/d cB | "Eb"B/B/B AG | 
+"F7"FF/d/c2 | "Bb"Bd/g/f2 | d/d/d cB | "Eb"B/B/B AG | "F7"FF/d/ c>A | "Bb"Bd Bz |] 
+W:
+W:Anmerkung H.C.: Lausen/Augst, Aesch, Bämbel, Arisdorf, Zunzgen, Seltisberg, Titterten, 
+W:Itingen, Olsberg, Zuzgen/Fricktal, Elms/Glarus, Einsiedeln, Plaffeisen, Spicher/Appenzell, 
+W:Züri Oberland 121m a.V. 132
+% pk07781
+% May 31, 2018

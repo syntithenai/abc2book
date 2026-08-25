@@ -1,0 +1,22 @@
+X:1
+T:Mazurka  GD (mz07811)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.183  (mz07811) orig. G,D
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+d>c [P:A] | ("G"Bd) b3d | g(Bd3)g | "D7"f(Ad3)f | "G"gB de "D7"d>c | ("G"Bd) b3a | gB d3g | 
+"D7"fAd2fa | "G"g2z2ba || [K:D] [P:B] "A7"a>g e3c | "D"dfa3a | "A7"b>a gf ge | "D"d2"G"d'3b | "A7"a>ge3c | 
+("D"df)a3a | "A7"b>a gf ge | "D7"d3e d>"_>Teil A"=c || [K:G]  d'2[P:C] |: "D7"e'>d' c'da2 | "G"c'>b gB d>e | 
+"D7"d2(c'd)a2 | "G"dg gbd'2 | "D7"e'>d' c'da2 | "G"c'>b (gB) d>e | "D7"d2c'd f>a |1 "G"g4d'2 :|2 "G"g4z2 |] 
+W:
+%W:Parts: ABAC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% mz07811
+% July 27, 2018 (Guru purnimah)

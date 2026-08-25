@@ -244,6 +244,35 @@ describe('tuneAbcStructureCheck', function() {
     expect(codes).not.toContain('unmatched_repeat_start');
     expect(codes).not.toContain('section_pickup_should_be_ending');
   });
+
+  test('Amazing Grace: triplet bar and anacrusis+final are complete', function() {
+    const body = [
+      'D | "G"G2A/2G/2 | B2"D7"A | "Em"G2"C"E | "G"D2D |',
+      'G2B/2G/2 | B2"D7"A/2B/2 | "D"(d3 | d)zB |',
+      '"G"d2B/2G/2 | B2A | "C"G2E | "G"D2D |',
+      '"Em"G2(3B/2A/2G/2 | "D"B2A | "G"(G3 | G2) ||',
+    ].join('\n');
+    const abc = [
+      'X:1',
+      'T:Amazing Grace',
+      'M:3/4',
+      'L:1/4',
+      'K:G',
+      body,
+      'W: Amazing grace! how sweet the sound,',
+      'W: That saved a wretch like me!',
+    ].join('\n');
+    const tune = tuneFromAbc(abcTools, abc, {
+      meter: '3/4',
+      key: 'G',
+      noteLength: '1/4',
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools, abcText: abc });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('overfull_bar');
+    expect(codes).not.toContain('underfull_bar');
+    expect(codes).not.toContain('session_linebreak_markers');
+  });
 });
 
 describe('tuneAbcStructureFix', function() {

@@ -1,0 +1,31 @@
+X:3
+T:dr Rotzbärger (Natur-Juiz)  Bb  ABACC
+T:Adolf Zimmermann (30.3.1919-18.7.2002)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABACC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam, getragen"  B,>D | F2 |  G>F | D/F/ B/c/ | d>B | F2 | f/>d/ f/d/ | c>F | 
+cF | E/F/ d/c/ | B>D | FB/c/ | (d2 | d>)z | B,>D | F2 |  G>F | D/F/ B/c/ | 
+d>B | F2 | f/>d/ f/d/ | c>F | cF | cd | (B2 | B)z || 
+M:2/4
+[P:B] "schneller" EF | G2 | B2 | ef/e/ | dB | F2 | D/F/ B/d/ | c>F | cF | 
+E/F/ d/c/ | B>D | FB/c/ | (d2 | d>)z | EF | G2 | B2 | ef/e/ | dB | 
+F2 | D/F/ B/d/ | c>F | cF | cd | (B2 | B)z || 
+M:3/4
+L:1/8
+[P:C] "lüpfiges Walzertempo"  BB BD FB | dd dF Bd | ff fd fd |  B6 | 
+c3Ff2 | c3Ff2 | B3cd2 | F6 | BB BD FB | dd dF Bd | 
+ff fd fd | B6 | c3Ff2 | c2F2d2 | (B6 | B4)z2 |] 
+W:
+W:Reihenfolge: A-B-A-CC
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 04-02
+W:http://www.naturjodler.ch/code 04.htm  (with AUDIO)
+%April 28, 2018

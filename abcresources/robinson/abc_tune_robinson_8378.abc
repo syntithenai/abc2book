@@ -1,0 +1,26 @@
+X: 56
+T:Mrs Anderson's Strathspey -- of Fochabers
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:21 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slowly"
+c/d/ | \
+e>fec e>fec | ~B>cde fB- Bc/d/ | \
+e>fec Aa!trill!g>f | f/e/d/c/ B/c/d/e/ cA-A :|
+E | \
+CA,AE cAec | d>e f/e/d/c/ BF-F.B | \
+AcEc BdEd  | c/a/g/f/ e/d/c/B/ cA-AE |
+CA,AE cAec | d>e f/e/d/c/ BF-F.B | \
+AcEc BdEd  | c/a/g/f/ e/d/c/B/ cA A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | aaaa | bbbb | aaaa | deAA/ :| \
+z/ | AAAc | dcdd | cAee | aeAA/z/ | AAAc | dcdd | cAee | aeAA/ |]

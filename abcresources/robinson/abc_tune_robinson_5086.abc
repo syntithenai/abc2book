@@ -1,0 +1,23 @@
+X:167
+T:Rosettchen-Walzer (Pichler) CF (wz02048)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.288f (wz02048) orig. C,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+O:Switzerland
+R:Walzer
+M:3/4
+L:1/4
+K:C major
+c>G | "G7"B2A | z/A/ AA | A3 | zBf | "C"A2G | z/A/AA | G3 | zA>E | "G7"G>GF | 
+zG>B | B3 | zA>E | G>GF | zF/G/ B/f/  | "C"e3 | zc>G | "G7"B2A | z/A/AA | A3 | 
+zBf | "C"A2G | z/A/AA | G3 | "E7"zd>^G | "A7"B2A | "D7"z/d/dd | "G"d3 | "E7"zc>^G | "Am"B>A ^G/A/ | 
+"G7"e2d | ("C"c3 | c)zz || "C"e3 | e3 | e>G c/d/ | "G7"cBB | f3 | f3 | f>G d/e/  | 
+"C"dcc | g3 | g3 | g>g ^f/g/ | "F"a2g | fAf | "C"e>G c/e/ | "G7"a/a/ gB | "C"c3 || [K:F] "F"c2d | 
+d2e | e2f | f3 | f>e d/c/ | f>e d/c/ | "C7"eBB | B2B | B2c | c2d | d2e | 
+e3 | e>d c/B/ | G2^G | "F"AF>d | c2c | c2d | d2e | e2f | f3 | f>e d/c/ | 
+f>e d/c/ | ^c/d/ dd | d3 | dg>d | gdg | "F/C"cf>c | fcf | "C7"Be>B | eBd | "F"c3 | 
+c=Bc | "Bb"dg>d | gdg | "F/C"cf>c | fcf | "C7"ce>B | d2c | "F"F3 | Fzz |] 
+W:Anmerkung H.C.: Pichler
+W: cp. "Edler Walzer" http://simonwascher.info/TradArchiv_walzer/edler-walzer.abc
+% wz02048 (H 073/TN 48)

@@ -1,0 +1,14 @@
+X:31
+T: Feldkircher-Polka CF (pk04932)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.305 (pk04932) orig. C,F-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%MIDI program 21
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"gc'e2 e2e2 | e2e2 {/f}ede2 | egc2 c2c2 | c2c2 {/d}cBc2 | {/e}"G7"d^cd2 {/e}dcd2 |  {/f}"C"e^de2 {/f}ede2 | {/g}"G7"fef2 {/g}fef2 | 
+{/a}"C"g^fgc' e'4 | gc'e2 e2e2 | e2e2 {/f}e^de2 | egc2 c2c2 | c2c2 {/d}cBc2 | {/e}"D7"d^cd2 c'2c'2 | "G"c'2b2 bc'b2 | 
+"D7"b2a2 aba2 | "G"g2g2 g2z2 |: "C"gc'c'2 gc'c'2 | "G7"dbb2 a^ga2 | Bgg2 Aff2 | {/d}"C"cBcd efga | gc'c'2 gc'c'2 | 
+"G7"dbb2 a^ga2 | Bgg2 BggB | "C"c2{/d}cB c2"_fine"z2 :| [K:F] "F"!>!c'6af | d2c2 c2fg | a2a2 b2a2 | "C7"g6c'2 |  c'2e'd' c'3b | 
+"F"b2a2 aba2 | "C7"a2g2 gag2 |  "F"g2f2 fgf2 | "C7"c'2e'd' c'3b | "F"Tb2a2 aba2 | "Gm"Ta2g2 "C7"Ta2g2 | "F"f2f2 f2z2 |]

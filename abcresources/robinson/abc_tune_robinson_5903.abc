@@ -1,0 +1,35 @@
+X:1
+T:Hochzit-Juiz  Bb  ABCD
+T:Norbert Fischer (20.5.1968)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,CD2 | F2dcB3F | D4B,CD2 | F2Bdf3d | c4CDE2 | 
+F2edc3F | E4CDE2 | F2Acd3c | B4B,CD2 | F2dcB3F | D4B,CD2 | 
+F2Bdf3d | c4CDE2 | F2edc3F | E4CDE2 | F2Ac fedc | !fermata!B4 || 
+L:1/8
+M:4/4
+[P:B] B | A2F2EF eA | B3DF2dB | A2F2EF eA | | B2D2!fermata!F2zB | 
+A2F2EF eA | B3DF2dB | A2F2EF eA | !fermata!B6z || 
+L:1/8
+M:4/4
+[P:C] BA | G2E2e2dc | B2F2d2Bd | c2F2c2dc | 
+B2D2F2BA | G2E2e2dc | B2F2d2Bd | c2F2c2 dc | !fermata!B6 || 
+L:1/8
+M:4/4
+[P:D] B | A2F2EF eA | B3DF2dB | A2F2EF eA | B2D2!fermata!F2zB | 
+A2F2EF eA | B3DF2dB | A2F2EG F/f/d/c/ |  !fermata!B6z |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:
+W:notiert Edi Gasser. Angaben: Norbert Fischer
+W:UJV-Naturjodelsammlung: Code-Nr: 44-01
+W:http://www.naturjodler.ch/code 44.htm  (with AUDIO)
+%Juni 11, 2018

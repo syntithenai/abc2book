@@ -1,0 +1,33 @@
+X:1
+T:Nittonbundna
+T:V\"avpolskan
+R:sl\"angpolska
+H:efter Pelle Fors (1815-1908), R\"on\"o, \"Osterg\"otland
+H:Enligt Pelle Fors kom denna polska fr{\aa}n Jakob M{\aa}ne, Sk\"allvik, d\"od
+H:i slutet av 1700-talet.
+H:Pelle Fors hette egentligen Petter Magnus Johansson. Han var f\"odd i
+H:V\"astra Ed i Sm{\aa}land och hade l\"art sig spela av Ristman (Carl Ulrik
+H:Retzman 1786-1832) fr{\aa}n Lofta i Sm{\aa}land.
+H:Pelle Fors bodde i cirka 60 {\aa}r p{\aa} Vikbolandet.
+N:St\"amning AEAE
+B:SvL \"Ogl 338
+O:\"Osterg\"otland
+Z:id:hn-sp-1
+M:3/4
+L:1/16
+K:Am
+AB |: (cB)(A^G) A2"+"E2 "+"A,2"arco"a2-|a^g(bg) (e^f)ed (cd)cB |
+(cB)(A^G) A2"+"E2 "+"A,2"arco"a2-|a^g(bg) g2{ag}e2 e2AB |
+(cB)(A^G) A2"+"E2 "+"A,2"arco"a2-|a^g(bg) (e^f)ed (cd)cB |
+(cB)(A^G) (G2A2) A4 |1 (a^g)(bg) (g2a2) a2AB :|2 (a^g)(bg) (g2a2) a2z2 ||
+|: [B4E4] {B}[c4E4] ([B3E3]^G) | (A^G)(AB) (c{dc}B)(AG) G2{AG}E2 |
+[B3E3][BE] (dc)(Bc) (A^G)(AB) | (cB)(A^G) (E^F)ED (CD)(CB,) |
+A,4 {B}[c4E4] ([B3E3]^G) | (A^G)(AB) (c{dc}B)(AG) G2{AG}E2 |
+[B3E3][BE] (dc)(Bc) (A^G)(AB) | (c{dc}B)A^G ^G2A2 [A4E4A,4] :|
+|: .e2.a2 .a2.a2 .a2.^c'2 | ^c'2b2 bc'ba b2c'2 |
+ea^c'a ea^c'a ea^c'a | ebd'b ebd'b ebd'b |
+ea^c'a ea^c'a ea^c'a | ebd'b ebd'b ebd'b |
+(A^c)ea (^ga)g^f (ef)ec | (A^c)ea (^ga)g^f (ef)ed |
+(=cB)A^G (AB)cd (e=f)ed | (cB)A^G (AG)AE (DC)B,A, |
+(A^c)ea (^ga)g^f (ef)ec | (A^c)ea (^ga)g^f (ef)ed |
+(=cB)A^G (AB)cd (e=f)ed |1 (cB)A^G (^G2A2) A4 :|2 (cB)A^G (^G2A2) A2 ||

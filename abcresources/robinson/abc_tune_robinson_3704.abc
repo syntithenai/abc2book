@@ -1,0 +1,20 @@
+X:241
+T: Walzer CF (wz05111)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.370 (wz05111) orig. C,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+ "C"c3 | "G7"f2d/e/ | "C"czz | c'zG || [P:A] "C"GA/B/ c/d/ | eze/f/ | "Dm"ed^c | dzG | "G7"GzB | BzA | 
+"C"AG^F | A2G | GA/B/ c/d/ | eze/f/ | "Dm"ed^c | dzG | "G7"g2f | e2d | "C"c>cc | czd/c/ ||
+[P:B] "G7"Baa | a>gf | "C"Ggg | g>fe | "G7"G/A/Gd | G/A/Gd | "C"G/A/Gg | g>ec | "G7"Baa | a>gf | 
+"C"Ggg | g>fe | "Dm"A f/e/d | "C"Ge/d/c | "G7"G a/g/ f/"_(1)"d/ | "C"czz || [P:C] [K:F] "F"a3 | "C7"g2z | "F"aa/b/ a/g/ | fff | 
+"Gm (G7)"f3 | G3 | d3 | d2_d | "C7"c2B | BAG | "F"FAd | c3 | "C7"cCB | ACG | "F"F>FF | Fz ((3F/G/F/) || 
+[P:D] |: "C7"E2d | c2B | "F"A2a | g2f |1 "C7"e2d | c2B | "F"AB=B | c2 ((3F/G/F/) :|2 "C7"edc | b>ag | "F"f>ff | fzz |] 
+W:
+W: (1) or: 'fe' (instead of 'fd')?
+% May 31, 2016

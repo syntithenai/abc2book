@@ -1,0 +1,22 @@
+X: 138
+T:Miss Taylor's Reel -- Keith
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:48 - 2
+K:C major
+%%staves {1 2}
+V:1
+(!trill!cB)cd (cd)ef | (gf)ed (!trill!cB)AG \
+|1    cEGc EcGc | dDdc (cB)(AG) \
+:|2  cEGc EcGc  | dDdB !trill![Ec]2 [Ec]2 |]
+(CEG).c ecGE | (FAd).e fdBG |  (ceg).e agfe | fAdc (!trill!cB)(AG) |
+EFGc ecGE | FAde fdBG | geag fedc | BGdB !trill![Ec]2 [Ec]2 |]
+V:2 clef=bass octave=-2
+L:1/4
+cccc | cccc | ccce | ffgg :| cccc | fgcc |] \
+ccce | ffgb | c'ccc | ffgg | cccc | ffgg | c'c'ff | gGcc |]

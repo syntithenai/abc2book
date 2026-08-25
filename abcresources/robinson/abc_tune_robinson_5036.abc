@@ -1,0 +1,20 @@
+X:121
+T:Mazurka CF (mz02068)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.300f (mz02068) orig. F,C
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABCAB
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+[P:A] "C"G>(G c>)(c e>)(e | a2) !>!a2 g>(e | a2)!>!a2 g>e |  "G7"f6 | G>(G B>)(B d>)(d | b2) !>!b2 a>g | b2!>!b2 a>g | 
+"C"e6 | G>(G c>)(c e>)(e | a2) !>!a2 g>e | a2!>!a2 g>e | "G"d6 | "D7"dd ee ^ff | "G"gg aa bb | 
+"D7".b2 (ac' ba) | "G"g2g2z2 || [P:B] "C"(g2a2c'2) | "G7".b2!>!f4 | (f2g2b2) | "C".a2!>!e4 | Gc eG ce | "G7"fG Bdg2 | GB dG Bf | 
+"C"eG ceg2 | (g2a2c'2) | "G7".b2f4 | (f2g2b2) | ."C"a2e4 | eg geg2 | "F"fa afa2 | "G7"g>b ag fd | "C"c2c2"_Fine"z2 || [P:C] [K:F]  
+("F"a2^g2a2) | f2 (edc2) | (f2e2d2) | "C7"e6 | (b2a2b2) | g2 (edc2) | (b2c'2b2) | "F"a6 | (a2^g2a2) | 
+f2 (edc2) | (f2g2a2) | "Bb"b6 | "C7"b>d' d'b d'2 | "F"a>c' c'a c'2 | "C7"g>c' c'b ag | "F"f2f2"_>Teil A"z2 |] 
+W:Parts: ABC-AB
+% mz02068  (Oct 3, 2016)

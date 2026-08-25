@@ -1,0 +1,22 @@
+X:1
+T:Mazurka  CF (mz07071)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.172  (mz07071) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"E>(AG3)E | "Dm"F>(BA3)z | "G7"G>(fe3)d | G>e ((3ded)c2 | "C"E>AG3E | "Dm"F>BA3z | "G7"G>G A>A B>B | "C"c2c2z2 :| 
+[P:B] |: ("C"E2F2G2) | "F"A2f4 | (A2B2A2) | "C"G>fe4 | (G2A2G2) | "G7"F>ed4 | G>G A>A B>B | "C"d>cc4 | 
+(E2F2G2) | "F"A2f4 | (A2B2A2) | "C"G>fe4 | (G2A2G2) | "G7"F>ed4 | G>G A>A B>B | "C"c2c2z2 :| [K:F]
+[P:C] |: "F"c2.F.A .c.f | "C7"e2(GA)B2 | e2(GA)B2 | "F"d2(FG)A2 | c2.F.A .c.f | "C7"e2GAB2 | e>d c>B A>G | "F"F2f2z2 :| 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+% mz07071
+% July 1, 2018

@@ -1,0 +1,20 @@
+X:305
+T:Walzer  GDC  (wz07390)
+T:Hanny Christen. Bd.IV  Aargau, Basel I.  S.317 (wz07390) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+"G"d3 | ({/e}d^cd) | (g3 | B3) | Bc^c | ded | "D7"e>d c/A/ | F3 | d3 | ({/e}d^cd)  | 
+(a2g) | (f2e) | d^de | fb>a | ("G"g3 | g)zz :| [K:D] "D"f/f/ f/f/f | zgf | cde | 
+fb>a | "A7"a/a/ a/a/a | zgf | e^de | fge | "D"f/f/ f/f/f | zgf | "A7"cde | "D"fb>a | 
+"G"b/b/ b/b/b | "D"a !>!a/a/ a/a/ | ("A7"a/g/)ce | "D"dzz || [K:G] "G"d/e/ .d.d | g/a/.g.g | B/c/  .B.B | d/e/.d.d | "D7"f>ec | 
+A3 | "G"ed>B | G3 | d/e/ .d.d | g/a/.g.g | B/c/  .B.B | d/e/.d.d | "C"e/f/ .e.a |  "G"ag2 | 
+"D7".f/.e/ .d/.c/ .B/.A/ | "G"Gzz || [K:C] ("C"c/e/).g.g | a!>!g2 | (G/c/).e.e | f!>!e2 | ("Dm"e/d/).a.a | ("G7"a2B) | ("C"d/c/).g.g | 
+ (g2G) | (c/e/).g.g | a!>!g2 | G/c/.e.e | f!>!e2 | ("Dm"e/d/).a.a |   ("C"d/c/).g.g | ("G7"c/B/).g.B | "C"czz |] 
+% wz07390
+% July 23, 2017

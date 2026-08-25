@@ -1,0 +1,19 @@
+X: 111
+T: Daskalica
+O: Serbia
+S: Borino Kolo Folk Ensemble
+M: 7/8
+L: 1/8
+Q: 1/4=240
+K: GDor
+%%MIDI program 22
+%%MIDI chordprog 21
+%%MIDI chordvol 60
+%%MIDI bassprog 21
+%%MIDI drum d2zdzdz 41 41 41
+%%MIDI drumon
+|:Bc2 cBA2    | Bc2 A2A2    |Bc2 cBA2    | Bc2 A2A2    |
+  Bc2 cBA2    | Bc2 A2A2    |B3  A2F2    | G3 G4       :|
+%%MIDI drum d3z4
+|:"F"F7       | "Bb"G6     F|"Am"G3  F2E2| "F"F7       |\
+  "Bb"B3 BAG2 | "Bb"A3  AGF2|"C"G6     c |"C" G7       :|

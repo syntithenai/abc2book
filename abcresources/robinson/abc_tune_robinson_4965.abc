@@ -1,0 +1,19 @@
+X:58
+T:Herbstfreuden (Walzer) CG (wz02028)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.278 (wz02028) orig. C,G
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] E/F/ |"C"G2A | E2G | (c3 | c2)c/c/ | c>B A/G/ | AGE | "Dm"G>FF | F2F/F/ | E2F | 
+A2f | (f3 | f2)f/f/ | "G7"fed | d>AB | "C"c>EA | G2G/G/ | E2G | A2G | (e3 | 
+e2)e/e/ | efd | "D7"d>Ad | ("G"d3 | d)zd/d/ | "G7"e2d | A2B | "C"d2c | G2c | "G7"B>AG | 
+f2B | "C"c/B/ c/d/ e/d/ | "_Fine"c2 [P:B] d/d/ |]  [K:G] "D7"d>cA | Fdf | "G"a>gB | d2d | "D7"f>ed | c>Bc | 
+"G"e>d ^c/e/ | d2d | "D7"c>AF | dfa | "G"g2B | d2d | "C"e2c | "D7"f2d | "G"g/f/ g/a/ b/a/ | "_>Teil A"g3 |] 
+% wz02028 (H 071/TN 18)

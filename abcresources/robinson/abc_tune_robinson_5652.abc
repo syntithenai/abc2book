@@ -1,0 +1,33 @@
+X:7
+T: Echo vom Pilatus  G (trad.)
+T:Natur-Juiz. Dirigenten-Notiz (Edi Gasser. )
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+Q:1/4=100
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:G major
+[P:A] D | E2D | d2B/D/ | G2E | F2A | !fermata!d2D | E2D | d2c/D/ | F2A | G2B | !fermata!d2D | 
+E2D | d2B/D/ | G2E | F2A | !fermata!d2D | E2D | d2 c/e/ | d2F | (G3 | G)z || 
+Q:1/4=80
+L:1/8
+[P:B] D>C | B,/D/G/B/ d3c | B/d/G/B/ D3B | A/c/F/A/ D3c | B/d/G/B/ !breath! !fermata!D2 D>C | 
+B,/D/G/B/ d3c | B/d/G/B/ D3B | A/c/F/A/ D4 | [ce]2[Bd]2[Ac]2 | ([GB]6 | [GB]2)z2 ||
+[P:C] 
+D | (d>(3d)c/B/ A<C D/A | C4zD | d> (3cB/A/ G<B, D/G | B,2D2!breath!B,2 | C2A,2D2 | 
+C2A,2C2 | B,2G,2D2 | B3A BA | G4zD | (d>(3d)c/B/ A<C D/A | C4zD | 
+d> (3cB/A/ G<B, D/G | B,2D2!breath!B,2 | C2A,2D2 | C2A,2D2 | B,6 |  "_(F,)"F2A,2d,2 | 
+"_(F,)"F2A,2d,2 | B,2B,2D2 | [Bd][Ad] [GB][FB] [EB][B,B] | C2A,2D2 | C2A,2D2 | 
+B,2G,2 B,D | B3A BA | G4D2 | (d>(3d)c/B/ A<C D/A | C4zD | 
+d> (3cB/A/ G<B, D/G | B,2D2!breath!B,2 | C2A,2D2 | C2A,2D2 | B,6 |] 
+W: Parts: A-B-C
+W:
+W:ab Odeon-Schellackplatte mit Jodlerklub Echo vom Pilatus, Hergiswil a. See
+W:Aufnahme: Mustermesse-Gebäude, Blauer Saal, Basel - am 28.06.1929
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-24
+W:http://www.naturjodler.ch/tradition-3.htm  (with AUDIO)
+%April 23, 2018

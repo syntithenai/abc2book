@@ -1,0 +1,31 @@
+X:3
+T:Ängelbärger (Natur-Juiz)  Bb
+T:Anni Wallimann  (23.8.1928-31.2.2014)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>B, | DF/B/ dB/D/ | Fd/B/f2 | F/>e/ d/f/ cf | F/>f/ d/c/ !fermata!B F/>B,/ | 
+DF/B/ dB/D/ | Fd/B/f2 | F/>e/ d/f/ cf | F/>f/d/c/ !fermata!B2 || 
+[P:B] FC/>D/ E/F/A/c/ | BD/B/ Fd/B/ | AC/A/ F/E/F/A/ | Bd/B/ F4 
+FC/>D/ E/F/A/c/ | BD/B/ Fd/B/ | AC/A/ F/E/F/A/ | B4 || 
+M:3/4
+[P:C] F>e d>fd/c2 | Fd B>DF2 | D>c>B/ Ac F>E/F// | d>c BD F2 | 
+F>e d>fd/c2 | Fd B>DF2 | D>c>B/ Ac F>E/F// | d>c !fermata!B4 ||
+M:3/4
+Q:1/4=90
+[P:D] !fermata!F2 !fermata!f2 | e2FF Fe | c2FF Fd | B2FF FB | DB BD FB | 
+c2FF Fc | EA AE FA | B2Bcd2 | F2z!fermata!d!fermata!f!fermata!B | c2FF Fe | 
+c2FF Fd | B2FF FB | DB BD FB | c4F2 | f2c2d2 | !fermata!B3z |]
+W:
+%W:Reihenfolge:
+W: notiert Edi Gasser. Angaben: Anni Wallimann
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 06-02
+W:http://www.naturjodler.ch/code 06.htm  (with AUDIO)
+%May 1, 2018

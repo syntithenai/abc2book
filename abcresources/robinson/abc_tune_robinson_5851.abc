@@ -1,0 +1,30 @@
+X:3
+T:Wangiälpler-Juiz  C-Dur  ABAC
+T:Josef von Rotz  (* 5.4.1938-7.8.2007)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major 
+[P:A] G/F/ | E>G G/c/ | e>f e/d/ | c2E | G>B B/c/ | 
+d>G f/e/ | d>G B/d/ | c2E | G2G/F/ | E>F G/c/ | e>f e/d/ | 
+c2E | G>B B/c/ | d>G f/e/ | d>G B/d/ | (c3 | c)z || 
+M:3/4
+[P:B]  c/B/ | A>f f/c/ | A>c B/A/ | G>e e/c/ | G>e d/c/ | 
+B>f f/e/ | d>G B/d/ | c2E | G2 c/B/ | A>f f/c/ | A>c B/A/ | G>e e/c/ | 
+G>e d/c/ | B>f f/e/ | d>G B/d/ | cG B/d/ | !fermata!c>z ||
+M:3/4
+[P:C] G/G/ | ecG/E/ | FdG/G/ | f/e/d G/F/ | EcG/G/ | 
+e/d/cA/A/ | f/e/dc/A/ | GfB | c>z G/G/ | ecG/E/ | FdG/G/ | 
+f/e/dG/F/ | EcG/G/ | e/d/cA/A/ | f/e/dc/A/ | G/B/ d/f/B | !fermata!c2z |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 28-02
+W:http://www.naturjodler.ch/code 28.htm  (with AUDIO)
+%May 27, 2018

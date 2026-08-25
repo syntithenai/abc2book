@@ -1,0 +1,32 @@
+X:11
+T:Schofeld-Juiz  Bb
+T:Remigi Blättler (19.12.1899-27.10.1975)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] D2B,D F/B/c/d/ | e>c AGF2 | E2CE F/e/d/c/ | d>B GD !fermata!F2 | 
+D2B,D F/B/c/d/ | e>c AGF2 | E2CE !tenuto!F/e/d/c/ | B4 || 
+M:4/4
+[P:B] zAGF e>f/e// dc | d>B GF d>e/d// cd | e>A GF e>f/e// dc | d>B GD F4 | 
+zAGF e>f/e// dc | d>B GF d>e/d// cd | e>A GF e>f/e// dc | B6z2 || 
+M:6/8
+[P:C] F>G/F// DB AG | F>G/F// EeA2 | F>G/F// EB AG | F>G/F// Dd !fermata!B2 | 
+F>G/F// DB AG | F>G/F// EeA2 | F>G/F// EF f/e/c/A/ | B6 || 
+[P:D]  c3 B AG | EF fecA | B3G F2 | DF FdcB | A3GF2 | 
+M:6/8
+EF Fedc | B3 A GF | D6 | c3 B AG | EF fecA | 
+B3G F2 | DF FdcB | A3GF2 | EF Fedc | (B6 | B6) |] 
+W:
+W:Reihenfolge: 2xA-2xB-2xC-2xD
+W:
+W:notiert Edi Gasser. Angaben: Remigi Blättler
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 02-06
+W:http://www.naturjodler.ch/code 02.htm  (with AUDIO)
+%April 27, 2018

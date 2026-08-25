@@ -1,0 +1,18 @@
+X:1
+T: Schottisch GD (st07276) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.110f  (st07276) orig. G,D
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"G"D3G | d3E | D2G>G | B3B | ("D7"BA) .c.f | ("G"AG) .B.d | "D7"ed cA |1 "G"GG GD :|2 "G"GG Gz || [K:D] 
+|: "D"d2fa | d2cB | "A7"BA eg | ("D"BA) .F.d | d2fA | d2cB | "A7"BA ge | "D"d2zd/d/ | d>d fA | 
+d2zd | "G" Td3 g | B3d | td2gd | B3B | ("D7"BA) .=c.F | ("G"AG) .B.d | ("D7"ed)  .=c.A | "G"GG Gz :: [K:G] "G".B(c/B/) AG | 
+"D7".A.d .F.A | .c(d/c/) BA | "G".B.d gB | "D"AB ^cd | "A7"d2^cB | BA GE |1 "D"DD Dz :|2 "D"DD Dd |: "D7"A3G | 
+FA ed | "G"dB/B/ BG/G/ | GG GG | "Am"A3g | "D7"ff ed | B/B/B A/A/A |1 "G"GG Gd :|2 "G"GG Gz |] 
+% st07276 
+% April 9, 2018 (a toy jaguary ...)

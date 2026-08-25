@@ -1,0 +1,20 @@
+X:112
+T: Kuckucks-Polka GDC (pk07415) ABACDA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.331 (pk07415) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACDA
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+.B.c [P:A] |: ("G"db).b2 (ba).a2 | (ag).g2 g2(Bd) |  ("D7"dc).c2 c2(ce) |  ("G"ed).d2 d2.B.c | (db).b2 (ba).a2 | (ag).g2 g2(Bd) |  ("D7"dc)c2 .e2.f2 |1 
+"G"g2{/a}(gf) "_fine".g2.B.c :|2  "G"g2{/a}(gf) .g2.g.f || [P:B] [K:D] ("Em"ef).g.f g2b2 | "B7"a6gf | ("A7"ef).g2 g2c2 | ("D"de).f2 f2.g.f | ("Em"ef).g.f g2b2 | 
+"B7"a6gf | ("A7"ef)g2 g2c2 | "D"d2fe "D7"d=cB"_>Teil A"c || [K:C] "_Kuckuck"G2 [P:C] |: "C"E2 ed c2 G2 |  E2 ed c2 G2 | E2 ed c2e2 |  "G7"d6 "_Wachtel"g>g | 
+g2 .b.c' d'2 g>g | g2 .^f.g .a2 g>g |1 g2 de f2d2 | "C"e6G2 :|2 g2 de f2B2 |  "C"c2e2 c2c>c |] [P:D] "F"c2a^g a2c>c  | 
+"C"c2g^f g2=fe | ("G7"db).b2 (bd').d'2 | ("C"d'c')c'2 .c'2c>c | "F"c2a^g a2c>c  | "C"c2g^f g2=fe | ("G7"db).b2 (bd').d'2 | "C"c'2c'b "_>Teil A".c'4 || 
+% pk07415
+% Aug 15?, 2017

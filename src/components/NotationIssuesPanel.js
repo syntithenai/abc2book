@@ -69,6 +69,16 @@ function buildEditorReport(tune, issues, checkResults) {
   }
 }
 
+function readinessGroup(id, title, issues) {
+  if (!issues || !issues.length) return null
+  return {
+    id: id,
+    title: title,
+    issues: issues,
+    actions: [],
+  }
+}
+
 function IssuesModal(props) {
   const {
     show,
@@ -101,6 +111,9 @@ function IssuesModal(props) {
             {copyIcon || '⧉'}
           </Button>
         ) : null}
+        {groups.length === 0 ? (
+          <p className="text-muted mb-0">No notation issues found.</p>
+        ) : null}
         {groups.map(function(group) {
           return (
             <div key={group.id} className="notation-issues-modal-group">
@@ -126,7 +139,7 @@ function IssuesModal(props) {
                   )
                 })}
               </ul>
-              {group.actions.length > 0 ? (
+              {group.actions && group.actions.length > 0 ? (
                 <div className="notation-issues-actions">
                   {group.actions.map(function(action) {
                     return (
@@ -156,6 +169,8 @@ export default function NotationIssuesPanel(props) {
   const tunebook = props.tunebook
   const issues = props.issues || []
   const checkResults = props.checkResults || {}
+  const completenessIssues = checkResults.completenessIssues || []
+  const metadataIssues = checkResults.metadataIssues || []
   const onNavigateIssue = props.onNavigateIssue
   const onTuneSaved = props.onTuneSaved
   const parseAndRender = props.parseAndRender
@@ -170,22 +185,36 @@ export default function NotationIssuesPanel(props) {
     return buildEditorReport(tune, issues, checkResults)
   }, [tune, issues, checkResults])
 
-  const groups = useMemo(function() {
+  const notationGroups = useMemo(function() {
     if (!tune || !issues.length) return []
     return buildBulkCheckIssueGroups(report, tune, tunebook, parseAndRender)
   }, [report, tune, tunebook, parseAndRender, issues.length])
 
-  const errorCount = issues.filter(function(item) { return item.severity === 'error' }).length
-  const warningCount = issues.filter(function(item) {
-    return item.severity === 'warning' || item.severity === 'info'
+  const groups = useMemo(function() {
+    const next = notationGroups.slice()
+    const completeness = readinessGroup('completeness', 'Completeness', completenessIssues)
+    const metadata = readinessGroup('metadata', 'Metadata', metadataIssues)
+    if (completeness) next.push(completeness)
+    if (metadata) next.push(metadata)
+    return next
+  }, [notationGroups, completenessIssues, metadataIssues])
+
+  const allIssues = useMemo(function() {
+    return issues.concat(completenessIssues, metadataIssues)
+  }, [issues, completenessIssues, metadataIssues])
+
+  const errorCount = allIssues.filter(function(item) { return item.severity === 'error' }).length
+  const warningCount = allIssues.filter(function(item) {
+    return item.severity === 'warning' || item.severity === 'info' || !item.severity
   }).length
+  const totalCount = allIssues.length
 
   useEffect(function() {
-    if (!initialOpenDialog || !issues.length) return
+    if (!initialOpenDialog || !totalCount) return
     setDialogOpen(true)
-  }, [initialOpenDialog, issues.length])
+  }, [initialOpenDialog, totalCount])
 
-  if (!issues.length) return null
+  if (!totalCount) return null
 
   async function applyFix(actionId) {
     if (!tune || !tunebook) return

@@ -1,0 +1,17 @@
+X:240
+T:Walzer DG (wz02168)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.367 (wz02168) orig. D,G
+S:Bündner Tanzmusik. S.367-383. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Walzer
+M:3/4
+L:1/8
+K:D major
+f2 [P:A] |: "D"A2d2f2 | A2d2f2 | "A7"a6 | c4BA | A4g2 |1 c4BA | "D"A4fe | d2A2f2 :|2 
+A2B2c2 | "D"d3dd2 | "_Fine"d2z2g2 || [P:B] [K:G] "D7"f3ff2 | e3ee2 | "G"d3dd2 | B4e2 | "D7"d3dd2 | c4ee | 
+"G"d3dd2 | B4g2 | "D7"f3ff2 | e3ee2 | "G"d3dd2 | B2c2d2 | "C"e3ee2 | "D7"f2e2f2 | "G"g3gg2 | g2z2"_>Teil A"z2 |]  
+% wz02168  (H 077/TN 1)
+% Nov 24, 2016

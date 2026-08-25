@@ -1,0 +1,28 @@
+X:1
+T:Ringelreihn. Rheinländer  BbDbEb  (RL07804) ABCDE
+T:Hanny Christen. Bd.V  Basel II, Jura. S.144f  (RL07804) orig. Bb,Db,Eb
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E. Dalcher
+%%MIDI program 21
+%%partsbox
+%P:ABCDE
+R:Reinländer
+M:2/4
+L:1/16
+O:Switzerland
+K:Bb major
+"F7"FGFG F2f2 | FGFG F2f2 | FGAB cde=e | .f4.f4 [P:A] || "Bb"FGFG F2d2 | "F7"c4c4 | FGFG F2c2 | "Bb"B8 | 
+FGFG F2e2 | "F7".e4.e4 | FGFG F2e2 | "Bb"d8 | d>ed>e  f2d2 | "F7"e8 | "Eb"g>ag>a b2g2 | "F7"a8 | 
+"Bb"d>ed>e f2d2 | "Dm"A4A4 | "Cm"GABc d2e2 | "F7"f6_A2 [P:B] [K:Db] [L:1/8] || "Db"fef2 | fe (fa) | "Ab7"e=de2 | e=d (ef) | 
+"Db"d3c | "Gb"B3c| "Db"BAA2 | "Ab7"A3A | "Db"fef2 | fe (fa) | "Ab7"e=de2| e=d (ef) | "Db"d3d | 
+"Eb7"c>B c>B | "F7"f!>!F !>!=A!>!=G | F(F Bc)  [P:C] [K:Bb] |: "Bb"ddd2 | dd ec| (d4 |d)(F Bc) | ddd2 | dd ec | 
+(d4 |d)(B ef) | "Eb"gg gg | g(g aa) | ("Bb"f4 |f)b Bc | dB dB | dB "F7"cA | ("Bb"f4 | 
+f)b Bc | dB dB | dB "F7"cA | "Bb"Bd/e/ "F7"g/f/e/c/ |1 "Bb"BA Bc :|2 "Bb"Bd B(G/>d/) [P:D] [K:Eb] [L:1/16]  |: ("Eb"c4B2)(G>d) | (c4B2)(e>g) | 
+("Bb7"b4f2)(f>g) | "Eb"e6(G>d) | (c4B2)(G>d) | ("Cm"f4e2)d>c | "D7"d3g =a3b |1 "Gm"g4z2G>d :|2 "Gm"g^FGA =ABcd [P:E] |: "Cm"e2=B2 c2G2 | 
+"Fm"A>=Bc>Bc4 | e2=B2 c2zA | "Cm"G>=Bc>B c4 | e2=B2 c2zG | "Ab"A>=Bc>B c3c | "Bb7"f>ed>c "Eb"c>Be>g | "Bb7"a2d2 "Eb"e2 z2 :| 
+W:
+%W:Parts: ABCDE
+W:
+%W:Anmerkung H.C.: 
+% RL07804
+% June 5, 2018

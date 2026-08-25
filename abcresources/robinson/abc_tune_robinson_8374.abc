@@ -1,0 +1,23 @@
+X: 45
+T:Lord Alexander Gordon's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:17 - 2
+K:A major
+%%staves {1 2}
+V:1
+A,A- Ac/d/ e<A !trill!c2 | e->e f/e/d/c/ {Bc}dBBc | \
+A,A- Ac/d/ e>Ace  | (3fga (3efd c<A- A2 :|
+(C>E) EF/G/ A<E [EA]2   | FB-B!wedge!c dcBA | \
+(3cde (3fga f>ed>c | (3Bcd (3efd cA- A2 |
+(C>E) EF/G/ A<E [EA]2   | FB-B!wedge!c dcBA |\
+(3cde (3fga (3fed (3cBA  |(3Bcd (3efd cA A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+A [Aa] [Aa] [Aa] | [Aa] [Aa] [Ee][Ee] | [Aa] [Aa] [Aa] [cc'] | [dd'] [ee'] [Aa] [Aa] :| \
+AAcc | dd/c/Be | AAAc | deAA | AAcc | dd/c/Be | AAAc | deAA |]

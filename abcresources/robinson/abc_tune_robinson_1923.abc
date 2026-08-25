@@ -1,0 +1,31 @@
+X:9
+T:Clennel Street
+C: From Steel Skies by Alistair Anderson
+Q:3/8=110
+M:9/8
+L:1/8
+K:C major
+P:A
+eAf egc d3 | ceg fdB GAB | cAd BAG A3 | GBd gfe dcB |
+"5"eAf egc d3 | ceg dBG DEF | EGc BAG Acg | agf eGB c3 ||
+P:B
+"9"AEA BcE ABc | EAB cde d3 | cde dAF DEF | EGc BAG A3 |
+"13"AEA BcE ABc | ecB AGE F3 | EGc BAG ABc | dfe dcB cde ||
+P:C
+"17"gdB cde f3 | ecg a2 g fed | FAc B2 d cAf | egc dgB cde |
+"21"gdB cde f3 | ec'b a2 g edB | AFc BGd cAe | dfe dcB c3 ||
+P:D
+"25"AEA Bce dcB | ADE FGA E3 | GEC A,FE DEF | AGF EGB, A,CE |
+"29"Ace ace gc'b | a2 g ecd B3 | GBd gBd fga | bc'a ged c3 ||
+P:A
+"33"eAf egc d3 | ceg fdB GAB | cAd BAG A3 | GBd gfe dcB |
+"37"eAf egc d3 | ceg dBG DEF | EGc BAG Acg | agf eGB c3 ||
+P:E
+"41"AEA Bcd e3 | Acc' b2 a gfe | dBg f2 e dcB | AFc BAG Ace |
+"45"agf efg a3 | gec Afe dcB | cAf dBg eca | fdb c'gd c3 ||
+P:F
+"49"cGE CDE F3 | E/F/GE ADE FGA | G/A/BG  dGA Bcd | eAf eag fed |
+"53"cGc egf e2 f | g3 agf efg | ac'a gec ABc | dfe dcB c2 B ||
+P:E
+"57"Ace a^ga beg | a/b/c'e' d'c'a b3| c'ba gec def | age dBG A2 E |
+"61"Ace aga ^gab | c'ba gec B3 | cAe BGd AFc | GEC A,DB, C3 |]

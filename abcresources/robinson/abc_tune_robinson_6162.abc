@@ -1,0 +1,23 @@
+X:1
+T:Polka  CF (pk07875)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.210  (pk07875) orig. C,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABCDE
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"egeg c2c2 | egeg"G7"d4 | b2b2 a2a2 | "C"g2g2e4 | egeg c2c2 | egeg "G7"d4 | b3a gfed | "C"c2c2 c2z2 :| 
+[P:B] |: "G7"GAG2 f2f2 | "C"GAG2e4 | "G7"d2de f2B2 | "C"cdecG4 |  "G7"GAG2 f2f2 | "C"GAG2e4 | "G7"d2de f2B2 | "C"c2e2 c2z2 :| [K:F] 
+[P:C] |: "C7"baba g2g2 | "F"agagf4 | "C7"gfgf e2e2 | "F"fefg a2c'2 | "C7"baba g2g2 | "F"agagf4 | "C7"efga b2e2 |1 "F"f2f2 f2z2 :|2 
+"F"f2f2 f2G2 |: [K:C] [P:D] ccc2 eee2 | g2ge c2e2 | "G7"d2f2 B2d2 | "C"cdefg4 | ccc2 eee2 | g2ge c2e2 | "G7"d2f2 B2d2 |1 "C"c2c2 c2G2 :|2 
+"C"c2c2 c2e2 || [P:E] "G7"d3c B2c2 | dddd d2e2 | f3e d2e2 | f4z2G2 | "C"ccc2 eee2 | g2ge c2e2 | "G7"d2f2 B2d2 | "C"c4z4 |] 
+W:
+%W:Parts: ABCDE
+W:Anmerkung H.C.: 14. Juli 1913
+%W:Anmerkung Hrsg,:
+% pk07875
+% July 24, 2018 ('Das Leben, ein Film in der Muttersprache')

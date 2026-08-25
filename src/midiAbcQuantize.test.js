@@ -37,7 +37,27 @@ describe('midiAbcQuantize', function() {
     expect(body.split('|').length).toBeGreaterThanOrEqual(3);
   });
 
-  test('joinAbcMeasures puts one measure per line', function() {
-    expect(joinAbcMeasures(['CDEF', 'GABc'])).toBe('CDEF |\nGABc |');
+  test('formatNoteEventsToAbcBody clips overlapping notes so bars are not overfilled', function() {
+    // Two notes in one 4/4 bar (8 eighth-slots): first would otherwise last whole bar.
+    const body = formatNoteEventsToAbcBody([
+      { slot: 0, durSlots: 8, token: 'C8' },
+      { slot: 2, durSlots: 2, token: 'D2' },
+      { slot: 4, durSlots: 2, token: 'E2' },
+      { slot: 6, durSlots: 2, token: 'F2' },
+    ], { beatsPerBar: 4, slotsPerBeat: 2, allowChords: false });
+    const firstBar = body.split('\n')[0];
+    expect(firstBar).toMatch(/C2/);
+    expect(firstBar).toMatch(/D2/);
+    expect(firstBar).toMatch(/E2/);
+    expect(firstBar).toMatch(/F2/);
+    expect(firstBar).not.toMatch(/C8/);
+  });
+
+  test('formatNoteEventsToAbcBody merges same-slot notes into a chord when allowed', function() {
+    const body = formatNoteEventsToAbcBody([
+      { slot: 0, durSlots: 2, token: 'C2' },
+      { slot: 0, durSlots: 2, token: 'E2' },
+    ], { beatsPerBar: 4, slotsPerBeat: 2, allowChords: true });
+    expect(body).toMatch(/\[CE\]/);
   });
 });

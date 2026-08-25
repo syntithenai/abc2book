@@ -322,3 +322,55 @@ describe('chordsSearchClient', function() {
     })
   })
 })
+
+test('normalizeChordsSearch skips unusable candidates in a multiple result', function() {
+  const result = normalizeChordsSearch({
+    multiple: true,
+    candidates: [
+      {
+        sheetLines: ['D G Bm A', "I'm going to Graceland"],
+        source: 'tabs.ultimate-guitar.com',
+        sourceUrl: 'https://tabs.ultimate-guitar.com/tab/paul-simon/graceland-chords-1',
+      },
+      {
+        // Bass/guitar tab only — no COW or ChordPro chords the client can use.
+        sheetLines: [
+          'Intro',
+          'G-----------------------------------------------------------------------',
+          'D-----------------------------------------------------------------------',
+          'A-----------------------------------------------------------------------',
+          'E---5--5/12--0-----5/12--0----------------------------------------------',
+        ],
+        source: 'azchords.com',
+        sourceUrl: 'https://www.azchords.com/p/paulsimon-tabs-9369/graceland1-tabs-414923.html',
+      },
+      {
+        sheetLines: ['[Em]Today is [G]gonna be the day'],
+        source: 'example.com',
+        sourceUrl: 'https://example.com/graceland',
+      },
+    ],
+  })
+  expect(result.multiple).toBe(true)
+  expect(result.candidates).toHaveLength(2)
+  expect(result.candidates[0].lyricLines[0]).toContain('[Em]')
+  expect(result.candidates.map(function(c) { return c.source })).toEqual([
+    'example.com',
+    'tabs.ultimate-guitar.com',
+  ])
+})
+
+test('normalizeChordsSearch throws when every multiple candidate is unusable', function() {
+  expect(function() {
+    normalizeChordsSearch({
+      multiple: true,
+      candidates: [{
+        sheetLines: [
+          'G-----------------------------------------------------------------------',
+          'E---5--5/12--0----------------------------------------------------------',
+        ],
+        source: 'azchords.com',
+      }],
+    })
+  }).toThrow('Chords search returned no candidates')
+})

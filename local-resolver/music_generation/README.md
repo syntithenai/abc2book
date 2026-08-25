@@ -27,6 +27,32 @@ and mount `~/audio.cpp/incoming` into the resolver container at `/audio-cpp-inco
 
 Guide melody conditioning for practice tracks uses the same staging (`audio` + `audio_input_kind=init_audio`).
 
+### Melody/chord fidelity (init-audio guide)
+
+Stable Audio cannot consume raw MIDI. The resolver renders **`score.mid` (melody + chords)** with FluidSynth, trims to the timing plan duration, and passes that WAV as init-audio conditioning.
+
+| Setting | Default | Purpose |
+|---------|---------|---------|
+| `initNoiseLevel` / `PRACTICE_TRACK_INIT_NOISE_LEVEL` | `0.22` | Stable Audio only. Lower = stronger guide lock (0.15–0.25); 1.0 ignores guide |
+| `guideAudioConditioning` | `true` | Enable MIDI-render conditioning |
+| `guideEngine` | `stable_audio` | Default Stable Audio init-audio; `ace_step` is experimental (preserves GM/MIDI timbre) |
+
+Quality presets:
+
+- **Fast / Balanced / High** — Stable Audio init-audio (default Fast). Long tunes auto-chunk (~28s) to avoid Vulkan timeouts/OOM.
+- **AceStep cover (experimental)** — preserves MIDI/GM timbre; often organ-like on hymns — prefer Fast for style changes.
+
+Guide WAVs must match the full tune length. Client chord-layer WAVs are not mixed onto full `score.mid` guides (that previously truncated an ~88s guide to ~18s).
+
+Run the Amazing Grace fidelity spike (requires GPU sidecar):
+
+```bash
+PRACTICE_TRACK_PROVIDER=audio_cpp python3 local-resolver/music_generation/scripts/fidelity_spike_amazing_grace.py \
+  --melody melody.wav --score score.mid --timing-plan timing-plan.json
+```
+
+Job progress includes a `validation.fidelity` block: tempo drift, chroma correlation (guide vs output), and chord-change alignment at bar boundaries.
+
 ## Phase 0 spike (run before relying on production generation)
 
 ```bash

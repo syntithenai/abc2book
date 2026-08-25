@@ -1,0 +1,28 @@
+X:441
+T:Dead March in Saul.2voices RH.442
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:I added the d2 in bar 3 of the B music
+N:and the final repeat in the secundo. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C
+L:1/8
+Q:2/4=50
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1]|:"^Grave(haha)"f2f2 f2zf|fe/f/ gf e2z2|g2ga/b/ g2zb|ag fe/f/4g/4 f2z2|
+[V:2]|:d2d2 d2zd|dc/d/ ed c2z2|e2ef/g/ e2zg|fedA d2z2|
+%
+[V:1] a2a2 a3a/b/|=c'c'c'b a2 za|agzf fe za|ag/f/ gf e2z2:|
+[V:2] f2f2 f3f/g/|aaag f2zf|fe zd dc zf|fe/d/ cd A2z2:|
+%
+[V:1]|:a2b2 c'2zd'|c'b/g/ b^g aea2|a2a2 ab/c'/ ba|ba/g/ f2 e2z2|
+[V:2]|:c2e2 a2zg|ed/c/ dB c2z2|defe defg|gf/e/ d2 B2Gz|
+%
+[V:1] f2fg/a/ f2zf|edgf e2z2|a2d'2 a2za|ag/f/ e>d d4:|
+[V:2] d2de/f/ d2zd|GEFD A2z2|f2f2 f2zf|fe/d/ A2 F4:|

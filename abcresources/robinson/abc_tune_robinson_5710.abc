@@ -1,0 +1,28 @@
+X:5
+T:Ribi-Juiz  C  ABCB
+T:Xaver Ambauen  (* 3.2.1925)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCB
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] F>E | DF | dG | e>d | cG | c2 | B>A | GB | F/G/ e/d/ | c>A | Gc | 
+!fermata!E2 | F>E | DF | dG | e>d | cG | c2 | B>A | GB | F/G/ e/c/ | !fermata!c2 || 
+L:1/8
+M:3/4
+[P:B] Fd Bd FG/F/ | Ec ec ED/E/ | FB dB F/G/ e/d/ | c>A GcE2 | 
+Fd Bd FG/F/ | Ec ec ED/E/ | FB dB F/G/ e/d/ | c4z2 || 
+M:3/4
+[P:C] F>G | AFf2e>d | cE Gg e/G/ e/c/ | BD Gg f/G/ e/d/ | 
+cEG2F>G | AFf2e>d | cE Gg e/G/ e/c/ | BD Gg f/G/ e/d/ | c4z2 |] 
+W:
+%W:Reihenfolge: ABCB
+W:notiert Edi Gasser, nach Angabe von  Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 08-03
+W:http://www.naturjodler.ch/code 08.htm  (with AUDIO)
+%May 3, 2018

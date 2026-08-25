@@ -1,0 +1,26 @@
+X:125
+T:Kutschke-Polka  CGF (pk07449)  ABACDCD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.348 (pk07449) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+% P:ABACDCD  some unknow error
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+((3G/A/B/) [P:A] |:"C"cE EE | "Dm"{/E}F.A .A.A |  "G7"Bd Bd | "C"e>g "G7"g((3G/A/B/) | ("C"cE) EE | {/F}"F"AA AA | "G7"BB/c/ de |1 
+"C"c3 "G7"((3G/A/B/) :|2 "C"c3e/d/ [P:B] |: [K:G] "G"B.g .a.b | ("D7"c'.f) Tf.e/.d/ | .d.f .g.a | ("G"b.g) g>d | dd dd | 
+"D7"d/e/f/e/ dd | dd dd | "G"d/f/g/e/ dd/e/ | .d.g ab |  ("D7"c'.f) Tf.e/.d/ | .d.f .g.a | ("G"b.g) g>d | "(C)"gg gg | 
+"G"g/a/b/a/ gg | G/A/B/A/ GG | "G7"G/A/B/A/ G((3G/A/"_>Teil A"B/)  :| [P:C] [K:F] "F".c2.d2 | "C7"BG/A/  Bc | .d2.e2 | 
+"F"dc/=B/ cc | cd ef | ("C7"Be) !>!e.d/.c/ | ("Gm"Bd) !>!"C7"d.c/.B/ | ("F"Ac) .c.F/.A/ | .c2.d2 | "C7"BG/A/  Bc |
+ "C7".d2.e2 | "F"dc/=B/ cc | cd ef | ("G7"=Bg) .g.f/.d/ | "C7"c/d/c/e/ dc | "F"F3c/f/ || [P:D] "F"af/a/ c'd' | 
+"C7"bc ca/c'/ | bc cg/c'/ | "F"af fc/f/ | af/a/ c'd' | "Gm"bd dg/a/ | "C7"c'{/c'}b/a/ be | "F"f2"_>Teil C"z2 |] 
+W:
+W:Polka, nach Ludwig Stasnÿ
+W: cf. https://www.youtube.com/watch?v=hT3Uh4DP3r8
+W:Anmerkung H.C.: Binningen
+% pk07449
+% Sep 12, 2017 (Der Froschkönig und die Prinzessinfröschin)

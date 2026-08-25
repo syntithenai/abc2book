@@ -1,0 +1,35 @@
+X:8
+T:Schiterbüel-Joiz  CF  ABCD
+T:Edy Kuster  (* 24.12.1939)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] c>EAE | G3 (3e/d/c/ | B>FAB, | G3z | B>FAB, | G3 (3f/e/d/ | c>BAE | G3z | 
+c>EAE | G3 (3e/d/c/ | B>FAB, | G3z | B>FAB, | G3 (3f/e/d/ | (c4 | c3)z || 
+L:1/8
+M:2/4
+[P:B] cE Gc | e3c | BD GB | F4 | BF Gf | eG Fd | c2e2 | G4 | cE Gc | ed ce | 
+dF GB | F4 | dF Gf | eG Fd | cG ed | c4 | cE Gc | e3c | BD GB | F4 | BF Gf | eG Fd | 
+c2e2 | G4 | cE Gc | ed ce | dF GB | F4 | dF Gf | eG Fd | cG ed | c4 ||
+L:1/4
+M:3/4
+K:F
+[P:C] F>dc | f A/d/ c/F/ | E>BD | C3 | C>BE | E d/c/ B/E/ | F>F d/A/ | c3 | 
+F>dc | f A/d/ c/F/ | E>BD | C3 | C>BE | E e/c/ B/E/ | (F3 | F2)z || 
+M:3/4
+[P:D] C>BE | Ed/c/ B/E/ | F>f d/A/ | c>F A/F/ | E>e d/B/ | c>C D/E/ | F>f d/A/ | c2z | 
+C>BE | Ed/c/ B/E/ | F>f d/A/ | c2f | g>f e/d/ | cB/E/ G/c/ | F3 | f3 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser. Angaben: Edy Kuster
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 19-04
+W:http://www.naturjodler.ch/code 19.htm  (with AUDIO)
+%May 17, 2018

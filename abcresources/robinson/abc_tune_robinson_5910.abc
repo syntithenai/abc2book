@@ -1,0 +1,33 @@
+X:1
+T:Laueli-Juiz. 1989  Bb  ABAC
+T:Margrit Spichtig-Hofer (6.9.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+R:Naturjodel
+M:3/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] D>F | d3f d>c | B4D>F | e3f e>d | c4 E>F | 
+e3d c>B | A3G F>e | d3F cd | B4D>F | d3f d>c | B4D>F | 
+e3f e>d | c4E>F | e3d c>B | A3G F>e | d3F cF | !fermata!B4 || 
+L:1/8
+M:3/4
+[P:B] DF | E3F Ac | f3g fe | d3B FD | B,3D Fd | 
+e3c/A/ FE | C3E Fe | d3c BG | F4DF | E3F Ac | 
+f3g fe | d3B FD | B,3D Fd | e3F Ac | f3e cd | (!fermata!B6 | B2)z2 || 
+L:1/8
+M:6/8
+[P:C] Bcd | eGg2 f/e/d/c/ | d/F/B/d/f2 D/F/B/d/ | 
+e/F/B/d/f2 E/F/A/c/ | B d !fermata!F !breath!Bcd | eGg2 f/e/d/c/ | 
+d/F/B/d/f2 D/F/B/d/ | e/F/B/d/ f>F F/d/d/c/ | !fermata!B3 |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W:notiert Edi Gasser. Angaben: Margrit Spichtig
+W:UJV-Naturjodelsammlung: Code-Nr: 50-01
+W:http://www.naturjodler.ch/code 50.htm  (with AUDIO)
+%Juni 13, 2018

@@ -1,0 +1,13 @@
+X:11
+T:Chilbi-Polka (Kilbi Polka) CGF (pk00332)
+M:2/4
+L:1/8
+K:C transpose=3 %%MIDI gchordon
+"C"EG GG | "F"GA AA | "G7"GB dB | "C"ceG2 | EG GG | "Dm"FA AA | \
+"G7"GB dB | "C"cc cz :: [K:G] 
+"G"dB B/2A/2B | "D7"cAA2 | cA/2B/2 ce | "G"edd2 | \
+dB BA/2B/2 | "Am"cAA2 | "D7"Ac AF | "G"GG G"_>Teil A"z:: [K:F] 
+"F"A2 c>A | "Bb"Bdd2 | \
+"C7"ce ge | "F"fc/2d/2c2 | A2c>A | "Bb"Bdd2 | "C7"c>B AG | "F"FF Fz :| 
+W:P: ABAC
+% pk00332

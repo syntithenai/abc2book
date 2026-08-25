@@ -1,0 +1,22 @@
+X:34
+T:Kreuzpolka  CGF (kp07750) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.371 (kp07750) orig. G,D,C
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Kreuzpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>c ed | "G7"Bd !>!"C"c2 | e>g gc | "G7".c2!>!B2 | "F"A(^G/A/) dc | "G7"Bg f2 | B(^A/B/)  ed | "C"d2c2 | 
+G>c ec | "G7"Bd!>!"C"c2 | G>c de | "F".f2!>!A2 | (f/e/)f Af | ("C"e/^d/)e Ge | "Dm"dA "G7"B>G | "C"cc cz :| 
+[K:G] [P:B] |: "G"d(d/e/) d(d/e/)  | "D7"dF !>!A2 | d(d/e/)  d(d/e/)  | "G"dG!>!B2 | ("D7"BA) .A.g | (fe)!>!e2 | ("G"AG) .G.f | (ed) !>!d2 | 
+d(d/e/) d(d/e/)  | "D7"dF !>!A2 | d(d/e/)  d(d/e/)  | "G"dG!>!B2 | "D7"BA (g/f/)e | "G"AG (f/e/)d | ("D7"c/B/).A/.B/ c/d/e/f/ | "G"gg g"_>Teil A"z :| 
+[K:F] [P:C]"F".c2.=B2 | cf!>!f2 | .A2.^G2 | Ac !>!c>A | "Bb"Bd fd | ("F"dc) zA | ("C7"cB) zG | ("F"BA) zc | 
+.c2.=B2 | cf !>!f2 | .A2.^G2 | Ac !>!c>A | "Bb"Bd fd | "F"d(c/=B/) cf | "C7"gd e>c | "F"ff f"_Fine"z :|  
+W:
+% kp07750
+% Oct 10, 2016 (Mr X with glasses)

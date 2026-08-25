@@ -1,0 +1,14 @@
+X:84
+T:Kreuzpolka CGF (kp00327)
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] (3GAB | "C"cB AG | .E2.C2 | cB AG | "G7".F2.D2 | dc BA | cB/2^A/2 .B2 | BA GF | 
+"C"AG/2^F/2 GG | cB AG | .E2.C2 | cB AG | "F".B2.A2 | "G7"dc BA | "C"cG/2^F/2 !>!G2 | 
+"G7"G^G AB | "C"c2c2 |: [P:B] [K:G] "G"DE FG | "D7"^GA !>!A2 | "C"EF GA | "G"^AB !>!B2 | "D7"dDA2 | "G"BDG2 |1 
+"D7"FF/2G/2 FC | "G"EDB,2 :|2 "D7"FA G/2F/2E/2F/2 | "G"G2"_>Teil A"G2 |: [P:C] [K:F] "F"CA CA | "C7".B2.E2 | 
+EB EB | "F".A2.F2 | AA GF | "C7"EB D>F | EB D>E |1 "F"D^C !>!=C2 :|2 "F"FA Fz |]

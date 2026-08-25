@@ -1,0 +1,15 @@
+X: 150
+T: Polka FCBb (pk05337)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.224 (pk05337) orig. F,C,Bb-Dur
+S: "Plötsch Musig" Guggisberg (Bern) S.186ff
+%%partsbox
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+P:ABAC
+K:F major
+[P:A] "F"c2AB c2d2 | c2a2 agf2 | "C7"c2b2 bag2 | "F"c2a2 agf2 | c2AB c2d2 | c2a2 agf2 | "C7"c2b2 bag2 | "F"f2a2 f2z2 :| [K:C] 
+[P:B] |: "C"g2c2 e2c2 | "G7"Bcde fga2 | g2d2 f2B2 | "C"cdef gabc' | g2c2 e2c2 | "G7"Bcde fga2 | g2d2 f2B2 | "C"c2c2 c2"_> Teil A"z2 :| [K:Bb] 
+[P:C] |: "Bb"f4 gf=ef | d4 zdcB | "F7"Agf2 Agf2 | =efga "Bb"bagf | f4gf=ef | d4 zdcB | "F7"ABcd efga | "Bb"b2b2 b2z2 :|

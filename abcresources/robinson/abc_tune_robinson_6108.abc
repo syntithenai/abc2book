@@ -1,0 +1,18 @@
+X:1
+T: Frohsinn-Polka CG (pk07569)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.89  (pk07569) orig. C,G
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"Gee2 eGAG | "F"B2A2 A2A2 | "G7"GBB2 BGAG | "C"G2c2 c2c2 | Gee2 eGAG | "F"B2A2 A2A2 | "G7"GBB2 BGAB | "C"c2ed.c4 :|  [P:B] [K:G] [L:1/8]
+|: "D7"d>e d>c | "G"cB B/c/B | "D7"B>A B>A | "G"AG G/A/B/c/ | "D7"d>e d>c | "G"cB B/c/B | "D7"B>A B>A | "G"GG/G/ G"_>Teil A"G :| [P:C] [K:C] 
+|: "C"Gc {/d}c/B/c | "Dm"Ad {/e}d/^c/d | "G7"gB gB | "C"AG {/A}G/F/E | Gc {/d}c/B/c | "Dm"Ad {/e}d/^c/d | "G7"gB e>d | "C"cc cz :| 
+% pk07569
+% Feb 21, 2018

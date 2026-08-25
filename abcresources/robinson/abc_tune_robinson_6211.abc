@@ -1,0 +1,20 @@
+X:1
+T: Schottisch FC (st07254) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.105  (st07254) orig. F,C
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+cc | "F"a2f2 c2cc | f2c2 A2cc | "Dm"f2fe "G7/D"fga=b | "C"c'4 z2c2 |: "F"cd^dec4 | ABcdc4 | 
+A2F2 "D7"d2c2 | "Gm"c2BAB4 | BABcd4 | G^FGA B2gf | "C7"e2d2 cBAG |1 "F"F2f2 f2c2 :|2 "F"F2f2 f2GG || [K:C] 
+|: "G7"fed^c d2GG | "C"edcB c2GG | "G7"G2f2 d2GB | "C"c2c'2 g2GG | "G7"fed^c d2GG | "C"edcB c2GG | 
+"G7"GBdf agfd |1 "C"c2e2 c2GG :|2 "C"c2e2 c2cf |: [K:F] "C7"eeee e2Bd | "F"cccc c2ga | "C7"b2e2 g2ab | 
+"F"c'2f2 a2cf | "C7"eeee e2Bd | "F"cccc c2ga | "C7"b2e2 g2c'e |1 "F"f2f2 f2cf :|2 "F"f2f2 f2aa || [K:C] [L:1/8] 
+"Dm"a>g ff | f>e d/a/a | "G7"g/g/g b/b/b |  "C"c'2zf/f/ || [K:F] [L:1/16] "C7"eeee e2Bd | "F"cccc c2ga | 
+"C7"b2e2 g2ab | "F"c'2f2 a2cf | "C7"eeee e2Bd | "F"cccc c2ga | "C7"b2e2 g2c'e | "F"f2f2 f2z2 |] 
+% st07254 
+% Thursday, April 6, 2018 ("Das war mal ein gutes Gespräch")

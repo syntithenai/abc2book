@@ -1,0 +1,14 @@
+X:14
+T: Der Hans (Schottisch) CBb (st05121)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.372 (st05121) orig. C,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>c cc | "G7"BfB2 | G>f fB | "C"cec2 | G>c cc | "G7"BfB2 | G>f fB | "C"cc/c/ c2 :| 
+[P:B] |: "F"f>A Af | "C"e>G Ge | "G7"dG AB | "C"c/d/e/f/ ge | "F"f>A Af | "C"e>G Ge | "G7"dG AB | "C"cc/c/ cz :| 
+[P:C] |: [K:Bb]  "Bb"((3fgf) b>b | ((3fgf) d2 | "F7""_es"e>d cf | "Bb"d>cB2 | ((3fgf) b>b | ((3fgf) d2 | "F7""_es"e>d c>A | "Bb"BB/B/ B2 :| 
+% June 8, 2016

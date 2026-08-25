@@ -80,6 +80,7 @@ import { applyAddFormInlineImport, applyForcedBookTuneFilter } from '../importRe
 import { mergeTuneCollectionExtras } from '../tuneMergeExtras'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
+import { isMidiPendingFile } from '../importReviewSnapshots'
 import { openMidiImportWizard } from '../midiImportWizard'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
@@ -882,10 +883,14 @@ export default function ImportReviewBridge(props) {
   }, [updateSession])
 
   function attachCandidateSourceFiles(tune, candidate, attachOptions) {
-    return attachPendingFileFromCandidate(tune, candidate.pendingFile, attachOptions)
-      .then(function(withFile) {
-        return attachMidiMediaLinkFromPendingFile(withFile, candidate.pendingFile, attachOptions)
-      })
+    const pendingFile = candidate && candidate.pendingFile
+    const attachSnapshot = pendingFile && pendingFile.blob && !isMidiPendingFile(pendingFile)
+    const chain = attachSnapshot
+      ? attachPendingFileFromCandidate(tune, pendingFile, attachOptions)
+      : Promise.resolve(tune)
+    return chain.then(function(withTune) {
+      return attachMidiMediaLinkFromPendingFile(withTune, pendingFile, attachOptions)
+    })
   }
 
   const finishCandidate = useCallback(function(updatedSession, done) {

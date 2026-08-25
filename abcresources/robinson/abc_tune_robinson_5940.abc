@@ -1,0 +1,36 @@
+X:3
+T:Stärnstundä. Natur-Juiz   CF
+T:Monika Ettlin-Mathis (12.12.1974)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABC
+R:Naturjodel
+M:4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+"Anruf"  G/F/  |E>EGc | e>feg/f/ | d>FG d/e/ | !fermata!c2z ||
+M:4/4
+[P:A] G/F/ | E>EGc | e>feG/F/ | E>EGe | d>edF/E/ | D>DFB | 
+d>edd/c/ | B>dgf | e2zG/F/ | E>EGc | e>feG/F/ | 
+E>EGe | f3c/c/ | f>fgf | e>dcc/e/ | dged | c3 ||
+M:4/4 
+[P:B] "zügig-fröhlich" e>fec | e>fec | d>GGg | f>ed>c | B>GGg | 
+f>fed | c>GGg | e>dc2 | e>fec | e>fec | 
+d>GGg | f>ed>c | B>GGg | f>fed | (c4 | c3)z || 
+M:3/4
+K:F
+[P:C] "_getragen" C/C/ | c>A A/c/ | fed | c>B B/c/ | E>C D/C/ | c>B B/c/ | E>C D/C/ | c>A A/c/ | 
+F2C/C/ | c>A A/c/ | fed | c>B B/c/ | E>C D/C/ | c>B B/c/ | ede | (f3 | f)zC/C/ | 
+"lüpfig"c>A A/c/ | fed | c>B B/c/ | E>C D/C/ | c>B B/c/ | E>C D/C/ | c>A A/c/ | 
+F2C/C/ | c>A A/c/ | fed | c>B B/c/ | E>C D/C/ | c>B B/c/ | ede | (f3 | f)z ||
+M:4/4
+"_Abgsesang"G/F/ | E>EGc | e>feg/e/ | d>FG d/e/ | !fermata!c2z |]
+W:
+W:Reihenfolge: A - B - C
+W:notiert Edi Gasser. Angaben: Monika Ettlin
+W:UJV-Naturjodelsammlung: Code-Nr: 59-03
+W:http://www.naturjodler.ch/code 59.htm  (with AUDIO)
+% October 1, 2018

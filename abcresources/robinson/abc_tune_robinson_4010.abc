@@ -1,0 +1,20 @@
+X:67
+T:Mazurka  CGF (ABACD) (mz09316)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.185 (mz09316) orig. C,G,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>ce2e2 | eag4 | ea ge ce | "G7"f2B2B2 | G>Bd2d2 | dgf4 |  Bc df ba | "C"c2c2z2 :: [P:B] [K:G] "D7"dc Ac fe | 
+"G"edb3d | "D7"dca3d | "G"cB GA Bc | "D7"dc Ac fe | "G"edb3b | "D7"bae2f2 |1 "G"g2dd dd :|2 "G"g2g2"_>Teil A"z2 || 
+[P:C] [K:F] |: "F"A3c =Bc | d4c2 | "C7"g2g2g2 | b2 ge cB | "Bb"g3f dc | "F"dcf2A2 | "C7"cB d2E2 | "F"F2f2z2 :| 
+ [P:D] |: "Bb"cbb3d | "F"caa3c | "C7"Bc e2c2 | "F"Ac d2c2 | "Bb"db b3d | "F"ca a3f | "C7"ed cb ag |1 "F"f2A2c2 :|2 "F"f2f2z2 |]  
+W:(Parts: ABACD)
+W:Anmerkung H.C.: 15. Mai 1950
+% mz09316

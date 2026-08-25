@@ -1,0 +1,21 @@
+X:60
+T:Andants O Nanny. BF13.059
+M:4/4
+L:1/8
+Q:1/4=88
+S:MS13,Browne family,c1825,Lake District
+R:Air
+O:England
+A:North-West - Lake District
+Z:vmp.Chris Partington
+B:Village Music project, Browne13
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/browne13.abc
+K:F major
+(A>B)|(c<f)(e>d) c2(A>B)|(c>d)(c>A)G2(c>E)|F2zFF3A|\
+(Gd)(cB) {B}B2 (A>B)|!
+(c>f)(e>d)c2(A>B)|(c>d)(c>A) G2zE|F2F2F3A|(Gd)(cB) {B}A2zc|!
+(f>g)aa (g<e)zc|(d>e).f.f {f}e2zc|a2(g/f/e/d/)g3(a/f/)|e2fdc2zc|!
+(d>e).f.f eczA|(B>c).d.d (cA)zF|B3(A/G/) (Af2)c|B-AG-Fc2zc|!
+(d>e).f.f (ec)zA|(B>c).d.d cAzF|B3A/G/ (Af2) e/d/|\
+(d/c/B/A/) (c/B/A/G/) F2zc|!
+c/B/c/d/ cB Afzc|(c/d/e/f/) (ga/)b/ (a/f/)zd/B/|A2G2F2|]

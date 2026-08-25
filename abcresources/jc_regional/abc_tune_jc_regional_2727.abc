@@ -1,0 +1,22 @@
+X: 376
+T: Skudrinka Oro
+T: Pembe Oro
+O: Macedonia
+S: George Tomov - Macedonia Dance and Song
+F: http://www.youtube.com/watch?v=1JDMOSeFEnk
+F: http://www.youtube.com/watch?v=t4GghdI9z1Q
+F: http://www.youtube.com/watch?v=W2qvxvY7lq4
+F: http://www.youtube.com/watch?v=fG7xk6SdBqE
+M: 8/4
+L: 1/8
+Q: 1/4=210
+K: Bb
+%%MIDI program 60
+%%MIDI drum dz3dzdz 35 35 35 100 80 80
+%%MIDI drumon
+|:F2BB B2F2 B4 c4   |d2dd d2c2   Bcde f2z2|
+  f2gg g2g2 fgfe d4 |c2d2 e2d2 Tc4 B4     :|
+|:z2FG G2G2 G3F G2z2|BABc B_AGF FGFE D2z2 |
+  F2GG G2G2 FGFE D4 |C2D2 E2D2 TC4 B,4    :|
+|:F2GG G2G2 FGFE D4 |C2D2 E2D2 TC4 B,4    |
+  F2GG G2G2 FGFE D4 |C2D2 E2D2 TC4 B,4    :|

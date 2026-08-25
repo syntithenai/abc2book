@@ -1,0 +1,18 @@
+X:1
+T:Schottisch  GC (st06745)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.76  (st06745) orig. G,C
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+B/B/ [P:A] |: "G"BG BB/B/ | "Am"cc ce/e/ | "D7"fd b>a | "G"ag/e/ dB/B/ | BG BB/B/ | "Am"cc ce/e/ | "D7"fd b>a |1 "G"gg gB/B/ :|2 
+"G"gg gz [P:B] |: "D7"f/f/f ba | "G"ag/f/ ag | "D7"fe/e/ fe | "G"ed/^c/ ed | "D7"ff/f/ ba | "G"ag/f/ ag | "F#7"fe/e/ fe | "Bm"dd d"_>Teil A""(D7)"z :| [P:C] [K:C]
+|: "C"e>e ce | e>c ce | "G7"ed/^c/ df | "C"ag/^f/ ge | e>e ce | e>c ce | "G7"e/d/^c/d/ fB | "C"cc c"_Fine"z :| 
+% st06745
+% Feb 5, 2018

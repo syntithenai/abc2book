@@ -1317,6 +1317,7 @@ export default function MidiImportWizard(props) {
       let abc = resolveWizardImportAbc(result, draft, props.abcjsParser);
       const candidates = abcTextToCandidates(abc, props.tunebook, props.book).map(function(c) {
         c.sourceKind = 'midi';
+        c.abc = abc;
         if (result.warnings && result.warnings.length) {
           c.importWarnings = result.warnings.slice();
         }

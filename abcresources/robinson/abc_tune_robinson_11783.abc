@@ -1,0 +1,23 @@
+X:157
+T:Thema. CJF.157
+R:March
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:Each of the beamed groups of grace notes are intrespersed
+N:among beamed notes in the MS. I have added the rest marked
+N:* to make the tune scan.
+N:Attributed to "Pleyel" on the title line. - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:2/4
+L:1/16
+Q:1/4=80
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:G major
+" Andante non troppo"g3(f/e/) d2d2|\
+(d3c)A4|(B>G)(c>A) (d>B)(e>g)|(g2{agfg}a2 f2)z2|\
+(g3f/e/) d2d2|(d3c)A4|(B>d)(e>a) g2f2|(a4g2)"*"z2:|!
+|:a7/2f d2c2|B3{cBAB}c d2^d2|e4e{fed}efg|(g4 f2)z2|\
+g3(f/e/) d2d2|d^dec A3c|(B>d)(e>a) g2f2|{f}a4 g2z2:|

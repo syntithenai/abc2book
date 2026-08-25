@@ -1,0 +1,34 @@
+X:10
+T:Jochpass-Joiz  Bb  ABAC
+T:Edy Kuster  (* 24.12.1939)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:4/4
+R:Naturjodel
+L:1/16
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,CDG | F4d4B4 B,CGD | F4d4B4 DFBd | f3d c2B2 f4d4 | 
+c6B2A4 A,CGE | F4e4A4 A,CEG | F4e4A4 EFAc | e6F2 d2F2 EFdc | B8z8 || 
+L:1/8
+M:3/4
+[P:B] c3B AG | FA cF Gc | d3c BG | F6 | c3B AG | F4e2 | d4F2 | 
+B6 | c3B AG | FA cF Ge | d3c BD | F4B2 | c3B AG | F2c2A2 | B6 ||  
+c3B AG | FA cF Gc | d3c BG | F4B2 | c3B AG | F2c2F2 | d4c2 | B6 | 
+c3B AG | FA cF Ac | d3c BG | F4B2 | c3B AG | FA d2c2 | B6 |]  
+M:4/4
+K:Bb
+[P:C] Ff dc BD Fd | ce cAF4 | Ff ed cE Fc | Bf dcB4 | 
+Ff dc BD Fd | ce cAF4 | Ff eF dF Ac | B2dcB4 | 
+Ff dc BD Fd | ce cAF4 | Ff ed cE Fc | Bf dcB4 | 
+Ff dc BD Fd | ce cAF4 | Ff  eF dF Ac | B2dcB4 |]  
+W:
+%W:Reihenfolge: A-B-A-C
+W:notiert Edi Gasser. Angaben: Edy Kuster
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 19-05
+W:http://www.naturjodler.ch/code 19.htm  (with AUDIO)
+%May 17, 2018

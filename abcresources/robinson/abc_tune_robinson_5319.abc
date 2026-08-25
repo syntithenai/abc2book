@@ -1,0 +1,17 @@
+X:82
+T:Mazurka CGF (mz06903)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.245 (mz06903) orig. C,G,F
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"e2c>g e>c' | (T"Dm"b2a2) d>e | (T"G7"g2f2)A>B | ("C"d2c2)g>f | e2c>g e>c' | (T"Dm"b2a2) d>e | (T"G"g2f>)G e>d | "C".c2!>!c2 z2 :|  [K:G] 
+|: "G"d>e d>B G>g | d>B d>gb2 | "D7"c'>b a>da2 | "G"b>a g>dg2 | d>e d>B G>g | d>B d>gb2 | "D7"c'>b a>d e>f | "G".g2!>!g2z2 :| [K:C]
+|: ("G7"f>e) (d>a) (g>f) | "C"((3egc') ((3cea)g2 | "G7"((3dfb) ((3Bda)g2 | "C"((3egc') ((3cea)g2 | "G7"f>e d>a g>f | "C"((3egc') ((3cea)g2 | "G7"((3dfb) ((3Bda) g>B | "C".c2!>!c'2z2 :| [K:F] 
+|: "F"(A,/C/F/A/) c>dc2 | "C7"e>c B>GE2 | (G,/C/E/G/) B>dc2 | "F"f>c A>FC2 | (A,/C/F/A/) c>dc2 | "C7"e>c B>GE2 | (G,/C/E/G/) B>d c>e | "F".f2!>!f2z2 :| 
+%% mz06903
+% April 5, 2017

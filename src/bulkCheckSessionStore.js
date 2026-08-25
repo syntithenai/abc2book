@@ -36,6 +36,7 @@ function notify() {
 function emptyLinksState(totalCount) {
   return {
     failures: [],
+    needsLogin: [],
     warnings: [],
     progressMessage: '',
     checkedCount: 0,
@@ -52,6 +53,7 @@ function migrateLegacySession(legacy) {
     activeTab: 'links',
     links: {
       failures: Array.isArray(legacy.failures) ? legacy.failures : [],
+      needsLogin: Array.isArray(legacy.needsLogin) ? legacy.needsLogin : [],
       warnings: [],
       progressMessage: legacy.progressMessage || '',
       checkedCount: legacy.checkedCount || 0,
@@ -75,6 +77,7 @@ function normalizeSession(session) {
     activeTab: session.activeTab || 'links',
     links: Object.assign(emptyLinksState(), links, {
       failures: Array.isArray(links.failures) ? links.failures : [],
+      needsLogin: Array.isArray(links.needsLogin) ? links.needsLogin : [],
       warnings: Array.isArray(links.warnings) ? links.warnings : [],
     }),
     completeness: {
@@ -198,6 +201,7 @@ export function saveLinkCheckSession(session) {
     phase: session.phase || existing.phase,
     links: Object.assign({}, existing.links, {
       failures: session.failures,
+      needsLogin: session.needsLogin,
       progressMessage: session.progressMessage,
       checkedCount: session.checkedCount,
       totalCount: session.totalCount,

@@ -1,0 +1,17 @@
+X: 70
+T: Kreuzpolka BbFEb (kp08810)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.388 (kp08810) orig. Bb,F,Eb-Dur
+S: Tänze aus dem Kanton Bern
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Kreuzpolka
+O:Switzerland
+M:2/4
+L:1/8
+K:Bb major
+[P:A] "Bb"d>d ed | "F7".c2+>+f2 | f>f ag | "Bb".f2+>+b2 | "G7"d>d ed | "Cm"dcG2 | "F7"c>c dc | "Bb"cBF2 |  d>d ed | "F7".c2+>+f2 | 
+f>f ag | "Bb".f2+>+b2 | d>d ef | "Eb"agc2 | "F7"FA/B/ cd | "Bb"Bd Bz :| [P:B] [K:F] "F"ag f>c | .d2+>+c2 | ag f>c | "Gm".e2+>+d2 | 
+ba g>a | "C7"gf e>f | ed cB | "F"A/B/c/d/ c2 | ag f>d | .c2+>+A2 | ag f>c | "Gm".e2+>+d2 | ba g>a | "C7"gf e>f | 
+ec/d/ e/f/g/a/ | "F"ff f"_> Teil A"z || [P:C] [K:Eb] "Eb"B>G B>e | .c2+>+B2 | B>A B>e | "Ab".d2 +>+c2 | "Bb7"B/c/d/e/ fg | aad2 | B/c/d/e/ fa | 
+"Eb"gge2 | BG B>e | .c2+>+B2 | BG B>e | "Ab".d2+>+c2 | "Bb7"B/c/d/e/ fg | aad2 | bd ad | "Eb"eg ez |]

@@ -1,0 +1,21 @@
+X:149
+T:Polka CGF (pk02011)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.269 (pk02011) orig. C,G,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:C major
+[P:A] "C"EFGA G2e2 | "Dm"e2A2 f3e | "G7"e2d2 d^cd^d | "C"e2c2 G3F | EFGA G2e2 | "Dm"e2A2 f3e | 
+"G7"e2d2 d^cde | "C"c2e2 c2z2 :|  [P:B] [K:G] "D7"d2d2 e2f2 | "G"g2f2 e3d | "D7"e2d2 c2A2 | "G"B2"_*"G2D4 | "D7"d2^d2 e2f2 | 
+"G"g2a2 b3g | "D7"fedc B2A2 | "G7"G2=F2 E2"_>Takt A"D2 |] [P:C]  [K:F]  "F"Bcc2 cdd2 | Acc2 Aff2 | 
+Aff2 f3d | "C7"f2e2e4 | e2e2 e3d | d2B2B4 | e2e2 e3d | "F"d2"_*"=B2 c4 | Acc2 Add2 | 
+Acc2 Aff2 | Aff2 g3f | "Bb"e2^c2d4 | dbb2 b3b | "F"b2a2 a3b | "C7"a2g2 g3a  | "F"f2a2 f2z2 |] 
+W:Parts: AB-AC
+W:* Anmerkung H.C.: Takt 12: HC: a / Takt 23: HC: b (=bb)
+% pk02011 (H 071/Tn 9)

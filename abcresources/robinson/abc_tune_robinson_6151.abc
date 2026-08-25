@@ -1,0 +1,23 @@
+X:1
+T:Polka  GC (pk06966) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.169  (pk06966) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] B/c/ |: "G"db "D7"ca | "G"Bg (g/f/)g | "D7"cf (f/e/)f | "G"Bg (g/f/)g | db "D7"ca |  "G"Bg (g/f/)g | ("D7"f/e/).d/.f/ ba | "G"gg gB/c/ :| 
+"G"gg gz || [P:B] [K:C] "E7"ee/f/ e/d/c/B/ |"Am" AcE2 | (A/B/)c (c/B/)A | ecA2 | "E7"ee/f/ e/d/c/B/ | "Am"AcE2 | (A/B/)c (c/B/)A | "E7"eze2 || 
+[P:C]  "C"G3c/e/ | g3c/e/ | g/e/c/e/ g/e/c/e/ | "G7"gBB2 | G3B/d/ | f3B/d/ | f/d/B/d/ f/d/B/d/ | "C"ecc2 | 
+G3c/e/ | g3c/e/ | g/e/c/e/ g/e/c/e/ | "F"gfA2 | "G7"fB/d/f2 | "C"eG/c/e2 | "G7"d/G/B/d/ ag | "C"cc cz |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: E. Niederhauser, "Meitschi putz di"
+%W:Anmerkung Hrsg,: 
+% pk06966
+% July 11, 2018

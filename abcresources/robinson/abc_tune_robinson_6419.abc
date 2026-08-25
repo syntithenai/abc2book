@@ -1,0 +1,44 @@
+X:1
+T:De Haas. C-Dur
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=56
+R:Naturjodel
+M:4/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] G>G | e>d c>d (3e/d/c/e g2 | d>cB4 G>G | "G7"f>e d(g g)(3f/e/d/ g2 | e>d"C"c4G>G  | 
+w: jo lo  u li dü li du li dü li u  du li dü jo lo  u lu di u_  u lu di u  lu li du jo lo   
+"C"e>d c>d (3e/d/c/e g2 | "G7"d>cB4 G>G | "G7"f>e d(g g>)f  G/B/d | "C"c6  |]
+w: u li du li du li du li u  du li du jo lo  u lu lu u_ lu o u lu  u  
+Q:1/4=106
+[P:B] G3G ^F2G2 | f2B2A2B,2 | [Q:1/4=84] [M:6/4] "C"C3EG2e2c2 AC | "G7"B,3FG2f2B2 AB, | "C"C3EG2 ed c4 | 
+w: jo lo ho lo u i du o  la ho lo u lu du o  la ho lo u lu du o  la o lo u li du 
+Q:1/4=106
+"G7"G3G ^F2G2 | "G7"f2B2A2B,2 | [Q:1/4=84] [M:6/4] "C"C3EG2e2c2 AC | "G7"B,3FG2f2B2 AB, | "C"C6 |]
+w:jo lo ho lo u i du o  la ho lo u dü du o  la ho lo u lu du o  la 
+Q:1/4=94
+[P:C] G3DF3Gd2AG | "C"G3CE2G2c2 dc | "G7"B2d2G2g2 fG Bd | "C"c2e2G2c2E4 | 
+w:jo la ho lo u o lo  lo a ho lo u lu lu  u lu jo u lu o u li  u lu jo u jo
+"G7"G3DF3Gd2AG | "C"G3CE2G2c2 dc | "G7"B2d2G2g2 fG Bd | "C"c6 |]
+w: jo la ho lo u o lo  lo a ho lo u u li  u u jo u du o u li  u
+Q:1/4=94
+M:4/4
+[P:D] g/^f/g/ | (a2 a/)g/^f/e/d2g2 | "C"e4G2 g>e | "G7"d4G2 g>f | "C"e4 !fermata!G2 z/g/^f/g/ | 
+w: u lu lu  lu_lu lu lu di du  du jo u lu  lu jo u lu  lu jo u lu lu 
+(a2 a/)g/^f/e/d2g2 | "C"e4G2 g>e | "G7"d3GG2g2 | "C"c8 |] 
+w:lu_ lu lu lu di du  du jo u lu du jo lo u  lu
+W:
+%W:Parts: ABCD
+W: trad., Toggenburg
+W:Gesungen von Jakob Metzler
+W: und JK Männertreu Nesslau
+W:
+W:Auch bekannt unter dem Titel "Interlakner". 
+W:
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/De Haas.pdf
+W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2017 ROOTHUUS GONTEN. # 	895.50 (086B4)
+% Feb. 17 2019

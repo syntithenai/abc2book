@@ -1,0 +1,23 @@
+X: 106
+T:Arthur's Seat. a Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:38 - 1
+K:E major
+%%staves {1 2}
+V:1
+(EGB)(e g)!wedge!feg | fgag f/f/f f2 | (EGB)(e g)!wedge!fed | ecBG E/E/E E2 ::
+(cB)(eB) (cB)(AG) | AcBG F/F/F F2 | (cB)(eB) (cB)(AG) | AcBG E/E/E E2 ::
+egBg faBa | g3/2a/ b/g3/2 f/f/f f2 | egBg faBa | g3/2a/ b/g3/2 e/e/e e2 ::
+(ed)cB (cB)AG | AcBG F/F/F F2 | (ed)cB (cB)AG | A3/2c/ B/G3/2 E/E/E E2 :|
+V:2 clef=bass octave=-2
+L:1/4
+eeee | [db][eb][Bb][Bb] | eeeg | abee ::
+egae | deBB | egae | abee ::
+eedB | egbb | eedB | eBee ::
+egag | deBB | egag | abee :|

@@ -1,0 +1,22 @@
+X: 103
+T:Anderson's Rant
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Rant
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 1
+K:C major
+%%staves {1 2}
+V:1
+CEGE c2 (ce) | GECE !trill!D2 (DE) | CEGE cdfa | gede c/c/c c2 :| \
+!trill!gecg ecge |
+!trill!gecg d2 d2 |1 \
+gecg ecge | fdge c/c/c c2 :|2 \
+GcFc Ecfa | !trill!gede c/c/c c2 |]
+V:2 clef=bass octave=-2
+L:1/4
+cccc | ccgB | cccf | gGcc :| \
+ccc'c' | ccdd |1 cccc | fgcc :|2 cccf | ggcc |]

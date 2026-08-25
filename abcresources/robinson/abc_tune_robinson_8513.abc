@@ -1,0 +1,31 @@
+X:61
+T:Linlithgow Loch
+T:Provost Dawson's Favorite
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 2
+K:D major
+%%staves {1 2}
+V:1
+F | \
+D>E D<A F<DA<F | D>E      D<F [A,E]2 [A,E]<F | \
+D>E D<A F<DA<F | d/c/d/e/ f<d F2 F :|
+G |\
+d>e f<d e>BdA  | Bcd<f        e2 e>f | \
+d>e f<d e>Bd>A | G<BF<A       E2 E>A |
+d>efd e>B d<A  | B>c d<f      e2 e>f | \
+g>e (g/f/e/)d/ (f/e/d/)c/ d>A & A2A2G2F2 | G<BF<A [CE]2 [CE] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Dd][Dd][Dd][Dd] | [Dd][Dd][A,A][A,A] | [Dd][Dd][Dd][Dd] | [Dd][Dd][Dd][Dd]/ :| \
+z/ | \
+[dfd'][dfd'][dgd'][dfd'] | [dgd'][dfd'][Aa][Aa] | \
+[dfd'][dfd'][dgd'][dfd'] | [Gg][Dd][Aa][Aa] | \
+[dfd'][dfd'][dgd'][dfd'] | [dgd'][dfd'][Aa][Aa]/ z/ | \
+[Cc][Dd]/[Ff]/[Aa][dd'] | [Gg][Dd][Aa][Aa]/ |]

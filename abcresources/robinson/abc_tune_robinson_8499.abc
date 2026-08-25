@@ -1,0 +1,27 @@
+X: 137
+T:Whigs of Fife
+B:William Marshall, Kinrara (1800)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:26 - 3
+K:C major
+%%staves {1 2}
+V:1
+f | \
+cF F/F/F (AGG>A) | cF F/F/F f>gag | fF F/F/F AG-GA | FDE^C D3 ::
+(e | \
+f)ccf gdde | (fcc)d (f/e/f/g/) ag | fccf gdde | f/g/a g3/2e/ d2- d::
+f | \
+cf a/a/a gc_bc | fcaf c/d/c/_B/ Af | cf a/a/a gcea | {g}f/e/d {f}e/d/^c d2 d ::
+e | \
+fcAf gd g/a/_b | af ca {g}f/e/f/g/ a/b/a/g/ | \
+fcAf {a}g/f/g/a/ g/a/_b | {b}a/g/f g/f/e d2- d |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | fac'_b | afac' | fAc^c | dAd3/ :: \
+z/ | AABB | Afcc | AABB | AAd3/ :: \
+z/ | ffec | AFcc | ffc^c | dAdd/ :: \
+z/ | ffBc | ffff | ffe^c | dAdd/ :|

@@ -1,0 +1,21 @@
+X:70
+T:Tesko Oro
+M:7/8
+N:This keysig is wrong. Right result, but ...
+O:Balkans
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+S:Alistair Cochrane
+K:D dorian
+"Dm" {^g}a-a^g fg  f/e/d | "A" e2f "Dm" {f}a4 |\
+"Dm" {^g}a-a^g fg f/e/d | "A" e2f "Dm" {f}a4 ||\
+"Dm"    a^ga   bc'ba |     d'c'2 ba^gf |
+        ^g2f   gfed  | "E" f2^g  fede | \
+"A"  ^c3 - "Asus4" c4 - | "A" ^c3 - c4 |:\
+"Dm" d^cd efed | "A" ^c3 - c4 - | ^c3 - c4 |
+"Dm" a-a^g "A" fgfe | "Dm" d3 - d4 - | d3 - d4 | \
+"Dm"a^ga bc'ba | a^ga baag | "E" ^g2f g2 (3fed | \
+"a" e3 - e4 - | e3 - e4:|
+"Dm" {^g}aag fg f/e/d | "A" e2f "Dm" {f}a4 |\
+{^g}aa^g fg f/e/d | "A" e2f "Dm" {f}a4|\
+a^ga bc'ba | c'ba a^gfe | "E" f2g fede | \
+"A" ( [e3c3] [e4c4] | [e3c3] [e4c4] ) |]

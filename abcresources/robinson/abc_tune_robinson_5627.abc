@@ -1,0 +1,26 @@
+X:1
+T: Stelli-Juiz  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Wolfenschiessen NW (19.Jh.)
+%%partsbox
+M:2/4
+Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>E | D/F/B | d2 | e/d/c | BF/F/ | d2 | D/F/B | AF/F/ | c2 | 
+E/F/c | BF/F/ | !fermata!d2 | F>E | D/F/B | d2 | e/d/c | 
+BF/F/ | d2 | D/F/B | AF/F/ | c2 | f>=e | cd | !fermata!B2 || 
+[P:B] d/c/B | AF/F/ | c2 | E/F/c | BF/F/ | d2 | D/F/B | AF/F/ | 
+c2 | E/F/c | BF/F/ | !fermata!!breath!d2  | F>E | D/F/B | d2 | e/d/c | 
+BF/F/ | d2 | D/F/B | AF/F/ | c2 | f>=e | cd | !fermata!B2 || 
+M:3/4
+[P:C] B,2 F |  D2B | F2d | B2d | cFd | cFd | B>cd | 
+F3 | B,2F | D2B | F2d | B2d | f>ed | cdc | (B3 B2)z |]
+W: Parts: A-B-A-B  oder A-B-2xC
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-01
+W:http://www.naturjodler.ch/tradition-1.htm  (with AUDIO)
+%April 20, 2018

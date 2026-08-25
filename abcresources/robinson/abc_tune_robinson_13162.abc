@@ -1,0 +1,34 @@
+X:137
+T:Lovely Nancy,with(4) variations(in G). JJo.011a
+S:J.Jones MS,1801,N.Shrops.
+N:Tune found in MSs of Joshua Jackson (Yorkshire), John Clare (Northants)
+N:and Winder (Wyresdale, Lancs). As it is usually found in G, here is a
+N:transposed version.
+A:Shropshire, N
+D:J.Jackson version may be heard on "The Miller's Jig"
+D:by Magnetic North YDWCD005
+Z:Neil Brookes 2006
+M:3/4
+L:1/8
+Q:1/4=120
+B:Village Music project, Jones, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/jonesj.abc
+K:G major
+{c}B>A|G2G2G>B|A2A2A>c|B2gdcB|{B}A4{c}TB>A|G2G2G>B|A2A2g>e|d>e d>B TA>B|G4::!
+B>c|d2d2g>e|{e}d4TB>c|d2d2gB|{B}A4{c}TB>A|G2G2G>B|A2A2g>e|d>e d>B TA>B|G4::!
+"var 1st"B>A|GDBG {e}dc/B/|ADcA{f}ed/c/|BGdB g>B|TA2Ae d/c/B/A/|!
+GDBG {e}dc/B/|ADcA{f}ed/c/|Bg {e}dc/B/ d/c/B/A/|{A}G4::!
+B>c|dBGgfe|e2d2B>c|d/G/A/B/ c/d/e/f/ g>B|TB2Ae d/c/B/A/|!
+GDBG {e}dc/B/|ADcA{f}ed/c/|Bg {e}dc/B/ d/c/B/A/|{A}G4::!
+"var 2nd"{c}B>A|G2(3GAB (3dBG|A2(3ABc (3Bdg|(3G,B,D (3BGd (3gdB|{B}A4 {c}B>A|!
+G2(3GAB (3dBG|A2(3ABc (3Bdg|(3ecA (3dBG (3cAF|G4::!
+B>c|d2 (3def (3gfe|d2 (3dBc (3dBc|(3def (3gfe (3dBG|{G}A4 {c}B>A|!
+G2(3GAB (3dBG|A2(3ABc (3Bgf|(3gfe (3dBG (3cBA|G4:||
+"var 3rd"B>A|(3GDB,(3GDB,(3GAB|(3AFD(3AFD(3ABc|(3BGD(3BGD(3Bdg|{B}A4B>A|!
+(3GDB,(3GDB,(3GAB|(3AFD(3AFD(3ABc|(3Bdg(3dBG(3cAF|G4::!
+{c}B>c|(3dBG(3GBd(3gfe|d4B>c|(3dBG(3GBd(3gfe|{B}A4{c}B>A|!
+(3GB,D(3GB,D(3GAB|(3ADF(3ADF(3ABc|(3BGd(3gdB(3cAF|G4::!
+"var 4th"{c}B>A|G/D/E/F/ G/A/B/c/ d/B/A/G/|A/D/F/G/ A/B/c/d/ e/c/B/A/|B/G/A/B/ c/d/e/f/ g>B|TB2A>cB>A|!
+G/D/E/F/ G/A/B/c/ d/B/A/G/|A/D/F/G/ A/B/c/d/ e/c/B/A/|Bg d/B/G/E/ c/A/F/D/|G2G,2::!
+B>c|d/G/A/B/ c/d/e/f/ {a}gf/e/|e2d2B>c|d/B/c/d/ e/f/g/f/ e/d/c/B/|TB2 A>cTB>A|!
+G/D/E/F/ G/A/B/c/ d/B/A/G/|A/D/F/G/ A/B/c/d/ e/c/B/A/|Bg d/d/B/G/ c/c/A/F/|G2G,2:||

@@ -1,0 +1,19 @@
+X:1
+T: Schottisch BbFEb (st07595) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.94  (st07595) orig. Bb,F,Eb
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+"Bb"df ed | "F7"d>cc2 | cg fe | "Bb"e>dd2 | df ed | "F7"d>cc2 | B>AA2 | "Bb"e>dd2 | 
+df ed | "F7"d>cc2 | cg fe | "Bb"e>dd2 | df ed | "F7"d>ce2 | Ac f>e | "Bb"dd dz :: [K:F] 
+"F"c3f | A3c | "C7"BB c>B | "F"Acf2 | c3f | A3c | cA "C7"dc | "F"A2z2 :: [K:Bb]
+"Bb"Fd Fd | "F7"Fdc2 | GBA2 | "Bb"ced2 | Fd Fd | "F7"Fdc2 | cd/A/ Bd | "Bb"BB Bz :: [K:Eb] 
+"Eb"G3A | B2e2 | "Ab"e2d>c | "Eb"B2z2 | "Bb7"F3G | A2c2 | c2B>A | "Eb"G2z2 | 
+G3A | B3e | "Bb"e2d>c | d2z2 | "Ab"e2d>c | "Eb/Bb"BGc2 | "Bb7"AF G>F | "Eb"EE Ez :| 
+% st07595
+% March 8, 2018 (feme)

@@ -1,0 +1,15 @@
+X:162
+T: Polka CF (pk05135)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.377 (pk05135) orig. C,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"eGc2 eGc2 | "G7"Baagf4 | dGB2 dGB2 | "C"cdefg4 | eGc2 eGc2 | "G7"Baagf4 | dGB2 dGB2 |1 "C"c2e2 c2z2 :|2 "C"c2e2 c2f2 || 
+[P:B] |: "C"egg2 gc'c'2 | "F"c'aafa4 | "G7"Bdd2 faa2 | "C"aggc' !>!e4 | egg2 gc'c'2 | "F"c'aaf a3f | "G7"b3a gfed |1 "C"c2ed c2f2 :|2 "C"c2ed c2z2 || [K:F]
+[P:C] |: "F"a3g f2f2 | "C7"g3f e2e2 | b3a g2^g2 | "F"a3g fedc | a3g f2f2 | "C7"g3f eceg | b3a gcag | "F"f2f2 f2z2 :| 
+% May 27, 2016
+% June 16, 2016

@@ -2,6 +2,8 @@ import {
   isUsableLyricContent,
   looksLikeNonLyricDump,
   looksLikeNoLyricsPlaceholder,
+  looksLikeChordOnlyContent,
+  hasSingableLyricText,
   isNoLyricsPlaceholderLine,
   isTabStaffLine,
 } from './lyricsQualityUtils'
@@ -91,5 +93,30 @@ describe('lyricsQualityUtils', function() {
     })
     expect(applied).toBe(false)
     expect(tune.words || []).toEqual([])
+  })
+
+  test('rejects chord-only accompaniment grids as lyrics', function() {
+    const chordOnly = [
+      'D G Bm A D',
+      'G D D A G',
+      'D G Bm A',
+      'A D',
+    ]
+    expect(looksLikeChordOnlyContent(chordOnly)).toBe(true)
+    expect(hasSingableLyricText(chordOnly)).toBe(false)
+    expect(isUsableLyricContent(chordOnly).ok).toBe(false)
+    expect(isUsableLyricContent(chordOnly).reason).toBe('chord_only')
+  })
+
+  test('keeps chords-over-words sheets that include sung lines', function() {
+    const sheet = [
+      'D G',
+      'I was having this discussion',
+      'A D',
+      'In a taxi heading downtown',
+    ]
+    expect(looksLikeChordOnlyContent(sheet)).toBe(false)
+    expect(hasSingableLyricText(sheet)).toBe(true)
+    expect(isUsableLyricContent(sheet).ok).toBe(true)
   })
 })

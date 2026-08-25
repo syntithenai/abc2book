@@ -1,0 +1,24 @@
+X: 168
+T:the Duchess of Roxburghes' Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:58 - 2
+K:Eb major
+%%staves {1 2}
+V:1
+E>e.B.G .C.F (!trill!E/D/)(C/B,/) | E>e.B.G .E.b.g.e | \
+(g/b/)a/g/ (f/e/)d/e/ fF F(G/A/) | BB,CD [B,E]2 [G,E]2 :|
+(e/g/)f/e/ (d/e/)f/g/ affa | ~g>bag fdeB |\
+(A/c/)B/A/ (G/B/)A/G/ cF F(G/A/) | BB,CD [B,E]2 [G,E]2 |
+(e/g/)f/e/ (d/e/)f/g/ affa | !crescendo(! (g/b/)a/g/ (f/e/)d/c/ !crescendo)! (B/A/)G/F/ (E/D/)C/B,/ |\
+A,cG,B CF F!diminuendo(!(G/A/) |BB,CD [EB,]2 [G,E]2 !diminuendo)! |]
+V:2 clef=bass octave=-2
+L:1/4
+"^Slow when not danced"
+[Ee][Gg][Aa][Bb] | eege | egab | ba/f/ee & B3E :| \
+ebBb | e'eag | de a/=a/ b/z/ | Ba/f/ee & B-BEE | ebBb | eagG | AE A/=A/ B/z/ | Ba/f/ee & B-BEE |]

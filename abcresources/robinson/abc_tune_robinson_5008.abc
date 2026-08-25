@@ -1,0 +1,21 @@
+X:96
+T:La Voluptueuse (Kontratanz) C (kt02315)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.356 (kt02315) orig. C
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABCDA
+R:Kontratanz
+M:2/4
+L:1/8
+K:C major
+[P:A] "C"c2cc | c2cc | "G7"de f/d/c/B/ | "C"cG EC | c2cc | c2cc | "G7"de f/d/c/B/ | "_Fine""C"c4 |] 
+[P:B] "C"e>f gg | "G7"B>c dd | "C"E>F GG | "G7"G,2G,2 | "C"c2cc | "Dm"d2d>d | "G7"fd cB | "C"c2c2 || 
+[P:C] "C"c>d c>d | e>f e>f | g>a g>a | g2g2 | "G7"g>a g>a | b>c' ba | g>a gf | "C"e2e2 || 
+[P:D] "C"g>a gg | "G7"gf/e/ f2 | f>g ff | "C"fe/d/e2 | e2 (dc)  | "Am"e2 (dc) | "G7"e2 (dc) | "C"c3"_>Teil A"c |] 
+W:
+W:La Voluptueuse - die Wolllüstige  cf. wollüstig (voluptuous, sensuous, luxurious)
+% kt02315  
+% Nov 20, 2016

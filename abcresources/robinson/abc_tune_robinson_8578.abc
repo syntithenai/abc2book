@@ -1,0 +1,31 @@
+X:73
+T:William Gibson Graig M.P.
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+O:Scotland
+R:Strathspey
+Z:Clark Bernst
+%%Page:31 - 2
+K:Eb major
+%%staves {1 2}
+V:1
+G/F/ | \
+EG,B,G, B,EGE &x6B,2 | B>G A/G/F/E/ [DF]2 [DF]G/F/ & E2C2x4 | \
+EG,B,G, GEec & x6E2| "tr"[EB]>G B/A/G/F/ [G,E]2 [G,E] & x2D2x2x :|
+G/F/ | \
+eEGB e/f/g/a/ be | cffe (ed)(cd) | \
+.e.E.c.E .G.B.e.G | F/E/D/C/ B,/C/D/B,/ E2 E c/d/ |
+eEGB e/f/g/a/ be | (cf)(fe) edcd | \
+e>f f/e/d/c/ B/A/G/F/ EB, | CA,B,D [G,E]2 [G,E] & x2A,2x2x |]
+V:2 clef=bass octave=-2
+L:1/4
+z/|\
+[Ee][Ee][Gg][Ee] | [Ee][Aa][Bb][Bb] | \
+[Ee][Ee][Ee][Aa] | [Bb][Bb][Ee][Ee]/ :|\
+z/|\
+[Ee][Ee][Gg][Gg] | [Aa][=A=a][Bb][_B_b] | \
+[Gg][Aa][Ee][Ee] | [B,B][B,Ba][Eeg][Eeg]/z/ | \
+[Ee][Ee][Gg][Gg] | [Aa][=A=a][Bb][_B_b] |
+[Gg][Aa][Gg][Ee] | [Ae][B,B][Ee][Ee]/ |]

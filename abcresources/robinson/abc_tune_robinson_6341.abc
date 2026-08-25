@@ -1,0 +1,22 @@
+X:1
+T:Aus der Rosenzeit. Walzer  CGF  (wz07782)  ABAC
+T: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.139  (wz07782) orig. Bb,Eb
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"G"G/A/ Bc | dzd | fzz | GGG [P:A] |: ("C"G2e) | (c2G) | "F"B3 | A3 | "G7"fed | d>^cd | "C"edc | 
+c>Bc | (G2e) | (c2G) | "F"B3 | A3 | "G7"fed | de>d | ("C"c3 | c)zz :: [P:B] [K:G] "G"B/c/dd | (e2d) | 
+G/A/BB | (c2B) | "D7"ADd | d2c | "G"BGe | d3 | B/c/dd | (e2d) | G/A/BB | (c2B) | "D7"cDd | 
+dAB | ("G"G3 |1 G)zz :|2 G)zG  [P:C] [K:F] |:"F"A2C | A/A/AA | "C7"BB>E | G3 | edc | BAG | 
+"F"Ff>d | c3 | A2C | A/A/AA | "C7"BB>E | G3 | edc | BAE | "F"FA>G | FF2 :| 
+W:
+%W:Anmerkung H.C.: 
+% wz07782
+% May 29, 2018

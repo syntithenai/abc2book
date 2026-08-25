@@ -1,0 +1,56 @@
+X:96
+T:Ross Castle (arr. for 4 voices)
+M:3/2
+O:England
+R:3/2 Hornpipe
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+N:Andy Hornby
+K:G major
+V:1 name=Recorder clef=treble
+"tune"dc| B4A4G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2\
+dc| B4A4G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2|:
+dc| B2G2A2D2 G2G2| cBAG FGAB A2dc| B2G2A2D2 G2G2| ABcA B2G2 G2::
+dc| BcdB ABcA G2G2| cBAG FGAB A2dc| BcdB ABcA G2G2| ABcA B2G2 G2::
+"harmony"BA| G4D4G2B2| AGFE DEFG A2BA| G4D4 G2B2| FGAF D2GFG2::
+BA| G2D2 A2D2 G2B2| AGFE DEFG A2BA| G2D2 A2D2 G2B2| FGAF D2GF G2::
+BA| GABG FGAF G2D2| AGFE DEFG A2BA| GABG FGAF G2D2| FGAF D2GF G2:|
+"variations"z2| G2g2f2ef d4| ABcd cBAG A2D2| G2g2 f2ef d4| cBAF  D2GF G2\
+z2| G2g2f2ef d4| ABcd cBAG A2D2| G2g2 f2ef d4| cBAF  D2GF G2|:
+Bc| d2B2 c2A2 B2G2| F2A2 DEFG A2Bc| d2B2 c2A2 B2G2| F2A2 DEFD G2::
+z2| d2ed c2dc B2cB| AGFE DEFG A2Bc\
+|1 d2ed c2dc B2AB | cBAF D2GF G2 :|2 d2ed c2dc B2AB | cBAF D2G2 F2A2| G4-G4-G4|]
+V:2 name=Fiddle/Flute
+"tune"dc|B4A4 G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2 dc|\
+B4A4 G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2|:
+dc| B2G2A2D2 G2G2| cBAG FGAB A2dc| B2G2A2D2 G2G2| ABcA B2G2 G2::
+dc| BcdB ABcA G2G2| cBAG FGAB A2dc| BcdB ABcA G2G2| ABcA B2G2 G2::
+"variations"z2|G2g2 f2ef d4| ABcd cBAG A2D2| G2g2 f2ef d4| cBAF D2GF G2::
+Bc| d2B2c2A2B2G2| ^F2A2 DEFG A2Bc| d2B2c2A2B2G2| F2A2 DEFD G2::
+z2| d2ed c2dc B2cB| AGFE DEFG A2z2| d2ed c2dc B2AB| cBAF D2GF G2:|
+"harmony"z2|z4z4z4|z4z4z4|z4z4z4|z4z4z4|z4z4z4|z4z4z4|z4z4z4|z4z4z2|:
+BA| G2D2 A2D2 G2B2| AGFE DEFG A2BA| G2D2 A2D2 G2B2| FGAF D2GF G2::
+BA| GABG FGAF G2D2| AGFE DEFG A2BA\
+|1 GABG FGAF G2D2 | FGAF D2GF G2 :|2 GABG FGAF G2BG| FGAF D2G2 F2A2| G4-G4-G4|]
+V:3 name=Clarinet
+"harmony"z2| z4z4z4|z4z4z4|z4z4z4|z4z4z4| z4z4z4|z4z4z4|z4z4z4|z4z4z2|:
+BA| G2D2A2D2 G2B2| AGFE DEFG A2BA| G2D2 A2D2 G2B2| FGAF D2GF G2::
+BA| GABG FGAF G2D2| AGFE DEFG A2BA| GABG FGAF G2D2| FGAF D2GF G2::
+"tune"dc| B4A4G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2::
+dc| B2G2A2D2 G2G2| cBAG FGAB A2dc| B2G2A2D2 G2G2| ABcA B2G2 G2::
+dc| BcdB ABcA G2G2| cBAG FGAB A2dc| BcdB ABcA G2G2| ABcA B2G2 G2:|
+"tune"dc| B4A4G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2\
+dc| B4A4G2G2| cBAG FGAB A2dc| B4A4G2G2| ABcA B2G2G2|:
+dc| B2G2A2D2 G2G2| cBAG FGAB A2dc| B2G2A2D2 G2G2| ABcA B2G2 G2::
+dc| BcdB ABcA G2G2| cBAG FGAB A2dc\
+|1 BcdB ABcA G2G2| ABcA B2G2 G2 :|2 BcdB ABcA G2dB| ABcA G2B2D2F2| G4-G4-G4|]
+V:4 name=Bass clef=bass
+z2|z4z4z4|z4z4z4|z4z4z4|z4z4z4|g4d4g4| a2d4a2f2d2|g4d4g2fg| a2d4f2g2|:
+z2|g4d4g2d2| a2d4a2f2d2| g4d4g2fg| a2d4f2g2::
+z2| g2d2a2d2g2d2| a2d4a2f2d2| g2d2 a2d2 g2fg| a2d4 f2g2::
+"variations"z2| g2b2c'2a2 b2g2| a2d4a2 f2d2| b2g2 a2d2g4| a2d4 f2g2::
+z2| b2g2 a2d2 g4| a2d4a2 f2d2| b2g2 a2d2 g4| a2d4f2 g2::
+z2| g2d2 a2d'2 b2g2| a2d4a2 f2d2| g2d2 a2d'2 b2g2| a2d4f2 g2:|
+z2|z4z4z4| z4z4z4| z4z4z4| z4z4z4| g4d4g4| a2d4a2 f2d2| g4d4g4| a2d4f2g2|:
+z2|b4d'4g4| a2d4a2f2d2| b4d'4g4| a2d4f2g2::
+z2| d2g2 f2a2 g2b2| a2d4a2 f2a2\
+|1 d2g2f2a2 g2b2| a2d4f2g2  :|2 d2g2f2a2 g2z2| d4g4f4| g4-g4-g4|]

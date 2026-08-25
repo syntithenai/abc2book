@@ -1,0 +1,20 @@
+X:37
+T:Ländler  C (LD06916)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.248 (LD06917) orig. C
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+cd |: T"C"e2 Gg ^fg | T"G7"d2 BG Bd | Tf2 Gg ^fg | T"C"e2 cG ce |  Te2 Gg ^fg | T"G7"d2 BG Bd | Tfe fa gB |1 
+"C"c2z2cd :|2 "C"c2z2g2 |: "G7"d'c' ba gf | "C"eG ce Tg2 |  "G7"fG Bd Tf2 | "C"ec eg Tc'2 | "G7"d'c' ba gf | "C"eG ce Tg2 | 
+"G7"fG Bd aB |1 "C"c2z2g2 :|2 "C"c2z2G2 |: "C"G2 (EG) .c.e | (eg) gc eg | ("G7"df) fG Bd | ("C"ce) ec eg | G2 (EG) .c.e | 
+(eg) gc eg | ("G7"df) fB dg | "C"c2z2G2 :: "G7"G3B df | ("C"eg) eG ce | ("G7"df) dG Bd | ("C"cB) ce g2 | 
+"G7"G3B df | ("C"eg) eG ce | ("G7"df) eG Bd |1 "C"c2z2G2 :|2 "C"c2z2ag |: T"C"e2ce ce | T"G7"d2 Bd ag | 
+Tf2df df | T"C"e2ce ag | Te2ce ce | T"G7"d2Bd ag | Tf2df df |1 "C"e2z2ag :|2 "C"e2z2G2 || 
+"G7"G3B df | ("C"eg) eG ce | ("G7"df) dG Bd | ("C"cB) ceg2 | "G7"G3B df | ("C"eg) eG ce | ("G7"df) dG Bd | "C"c2c2z2 |] 
+% LD06916  
+% April 12, 2017

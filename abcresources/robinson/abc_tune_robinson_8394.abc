@@ -1,0 +1,23 @@
+X: 42
+T:A Hornpipe
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Hornpipe
+Z:Clark Bernst + Richard Robinson
+%%Page:8 - 3
+K:Bb major
+%%staves {1 2}
+V:1
+B2 (FD) GEBG | FDGE (ED)(CB,) | edef gfed | cBAG !trill!F4 |
+B2 (FD) GEBG | FDGE (ED)(CB,) | d2 b2 agfe | dcBA B4 ::
+edef gfed | cBcd edcB | AFGA Bcde | gfed !trill!c4 |
+B2 (FD) GEBG | FDGE (ED)(CB,) | d2 b2 agfe | dcBA B4 :|
+V:2 clef=bass octave=-2
+L:1/4
+Bbee | BebB | eee3/=e/ | ff f/e/d/c/ | \
+BBee | BeBB | bg f/e/d/e/ | fFB2 :| \
+eeEE | ccCC | [Ff]2B2 | ee f/e/d/c/ | \
+BBee | BeBB | bb B/e/d/e/ | ffB2 |]

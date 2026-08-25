@@ -1,0 +1,24 @@
+X: 123
+T:Miss Jeanny Ross's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 4
+K:C major
+%%staves {1 2}
+V:1
+f | \
+e(d!trill!cB) c2 (GF) | EGce fddf | e(!trill!dc)B c2 (GF) | EcDF ECC :: \
+f | \
+(efg)e c'ege |
+               afge fddf |1 \
+(efg)e c'ege | fa!trill!gf ecc :|2 ecfd geaf | egdf ecc |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+gGcB | ccdd | gGcB | gGcc/ :: \
+z/ | cccc | fedd |1 cccc | fgc'c/ :|2 cdef | ggcc/ |]

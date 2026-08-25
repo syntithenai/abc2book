@@ -1,0 +1,18 @@
+X:260
+T:Walzer FCBb (wz02074) 
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.303 (wz02074) orig. F,C,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+K:F major
+ea |: "F"f2A | c d/c/ A/F/ | "C7"E2G | zcb | e2G | c d/c/ B/E/ |1 "F"F2A | zca :|2 "F"F>FF | 
+Fzc |: "Gm"d>bb | "C7"b/a/ g/f/ e/d/ | "F"c>aa | a/g/ f/e/ d/c/ | "C7"eG>A |1 B2e | "F"fA>B | czc :|2 
+B>c d/e/ | "F"f>ff | f g/g/ g/g/ |: [K:C] [L:1/8] "G7"gf dBG2 | z2gg gg | "C"ge ceG2 | 
+z2A2G2 | "G7"Bd gB dg | Bd gB dg |1 "C"ce gc eg | c'2gg gg :|2 "C"c3cc2 |  c2z c' _ba |: [K:F] "C7"g3e ce | 
+"F"f3A cf | "C7"e3G ce | "F"f3c' ba | "C7"g3e ce | "F"f3A cf |  "C7"e3G ce |1 "F"f3c' ba :|2 "F"f2z2 [d2f2] || [K:Bb] 
+[L:1/4] "F7"[c3e3] | [fa] [eg] [ce] | "Bb"[B3d3] | [B/d/][d/f/] [g/b/][B/d/] [d/f/][g/b/] | "F7"[f3a3] | [e3g3] | [f/a/][e/g/] [d/f/][c/e/] [B/d/][A/c/] | "Bb"[df][Bd] [df] | 
+"F7"[c3e3] | [fa][eg][ce] | "Bb"[B3d3] | [B/d/][d/f/] [g/b/][B/d/] [d/f/][g/b/] | "F7"[e2g2][cf] | [f2a2] [ef] | "Bb"[db]>[db] [db] | [db]zz |] 
+% wz02074  (Oct 7, 2016)

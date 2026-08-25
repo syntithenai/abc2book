@@ -1,0 +1,24 @@
+X:3
+T:Cadaneasca dreapta can Dobrogea
+R:cadaneasca
+O:Romania
+Z:id:hn-cadaneasca-3
+M:2+2+2+3/16
+L:1/16
+Q:1/8=220
+K:Aphr ^c
+ABcd e2 fed | cedc BA eee | ABcd e2 fed | cedc BG AAA :|
+|: cdd2 d2 fed | ^Bcc2 c2 edc | ABB2 B2 dcB | A2^ga ec AAA |
+cdd2 d2 fed | gfed cB AAA | GABG ce dcB | cedc BG AAA :|
+|: cdeA eA fed | cdeA eA ^gaA | cdeA eA fed | cedc BG AAA :|
+|: ^gaeA cA eeA | ^gaeA cA eeA | ^gaeA cA eed | cedc BG AAA :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | A2^ga ec AAA |
+cddd dd fed | gfed cB AAA | GABG ce dcB | cedc BG A3 :|
+P:variations
+|: ABcd e2 fed | cedc BA deA | ABcd e2 fed | cedc BG A3 :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | cedc BA deA |
+cddd dd fed | ^gaeA cA eee | ABBB BB dcB | cedc BG A3 :|
+|: cdeA eA fed | cdeA eA ^gaA | cdeA eA fed | cedc BG A3 :|
+|: ^gaeA cA eee | ^gaeA cA eee | ^gaeA cA eed | cedc BG A3 :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | cedc BA deA |
+cddd dd fed | a^gfe dc BBB | GABG c2 dcB | cedc BG A3 :|

@@ -1,0 +1,18 @@
+X:250
+T:Schottisch. CGF (st07708) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.355 (st07708) orig. C,G,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+O:Switzerland
+R:Schottische
+M:2/4
+L:1/16
+K:C major
+cc | ("C"c4G2)ee | (e4c2)ce | "G7"g2G2 ^FGAB | "C"c4z2G2 |: "C"^FGAG c2G2 | ^FGAG c2G2 | "G7"e2d2 B3d | 
+"C"d2c2 G3G | ^FGAG c2G2 | ^FGAG e3g | "G7"g2f2 d2B2 |1 "C"c2e2 c2G2 :|2 "C"c2e2 c2z2 |: "G"B2d2 (ed^cd) | g2GBd4 | 
+"D7"d2c2 cBA2 | "G"e2d2 dcB2 | B2d2 (ed^cd) | g2GBd4 | "D7"d2c2 cBAB | "G"G2G2 G2z2 ::  [K:C]"G7"B3d d3f | 
+"C"f2e2c4 | "G7"fffBd4 | "C"eeeGc4 | "G7"B3d d3f | "C"f2e2c4 |  "G7"fffB d2ed |  "C"c2c2 c2z2 :: [K:F] ("F"AB).A.B c2f2 | 
+(AB).A.B c2f2 |  "C7"g2fe e2dc | "F"g2f2c4 | (AB).A.B c2f2 | (AB).A.B c2f2 |  "C7"g2fe e2dc | "F"f2f2 f2z2 :| 
+% st07708 (C) Mülirad-Verlag 2007
+% Sep 8, 2017 (clothes moth)

@@ -1,0 +1,20 @@
+X:78
+T:La Ballet Anglais (Kontratanz) D (kt02303)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.351 (kt02303) orig. D
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Kontratanz
+M:2/4
+L:1/8
+K:D major
+[P:A] "D"dA AB/c/ | dA Ad | "Em"g2f2 | "A7"e/d/e/f/ ee | "D"dA AB/c/ | dA Ad | "A7"F2E2 | "D"D2"_Fine"D2 ||
+[P:B] "D"aa ag/f/ | "A7"gg gf/e/ | "D"ff fe/d/ | "A7"eee2 | "D"AA AG/F/ |   "A7"GG GF/E/ | "D"FF "Bm"FE/D/  | "A7"E2"_>Teil A"E2 |] 
+W:
+W:"Diese (Kontra-)Tänze gehören zum Repertoire der um 1765 in Frankreich beliebten Tänze 
+W:und wurden vom Autor wahrscheinlich während seiner Militärzeit in Frankreich aufgeschrieben." Hrsg. S.350
+% kt02303  
+% Nov 16, 2016

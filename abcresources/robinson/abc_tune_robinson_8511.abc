@@ -1,0 +1,23 @@
+X: 87
+T:Lady Isabella Wemyss' Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:32 - 1
+K:D major
+%%staves {1 2}
+V:1
+"^Slow when not danced"
+D2 (E>F) AB "\="~B,2 | (A,D)DF !trill!E2 (DA,) | DDEF AB "\="~B,2 | {c}d>BAF !trill!E2 {DE}D2 :| \
+(A>d)(f>d) (g/f/)e/d/ ~B2 | Addf {f}e2 (d>A) | \
+~B>d (B/A/)G/F/ (G/F/)E/D/ !trill!B,2 | (A,>D)DF !trill!E2 D2 | \
+(A>d)(f>d) (g/f/)e/d/ ~B2 | Addf {f}e2 (d>A) | \
+(B/d/)c/d/ (B/A/)G/F/ (G/F/)E/D/ ~B,2 | {c}d>B A<F !trill!E2 {DE}D2 |]
+V:2 clef=bass octave=-2
+d2 cd fg G2 |Dd D2 A2 d2 | d2 cd fgG>g | f>g fd A2d2 :| \
+d2d'2efg2 | f2df a2bf | g2fd efg2 | f2d2aAd2 | \
+d2d'2efg2 | f2dfa2bf | g2fd efg2 | d2fd Aad2 |]

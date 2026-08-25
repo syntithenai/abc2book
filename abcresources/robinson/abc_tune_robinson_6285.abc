@@ -1,0 +1,20 @@
+X:1
+T:Die ersten Blumen. Walzer  FBb (wz06791) 
+T: Basel II. Tänze aus Augst. S.6-42.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.42  (wz06791) orig. F,Bb
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+A>B |: "F"cAf | "C7"ecg | ("F"f3 | f)ed | "C7"c=Bc | .e.d.B | ("F"A3 | A)A>B | 
+cAf | "C7"ecg | ("F"f3 | f) e>f | "C".g.c.d | "G7"e2d |1 ("C"c3 | c)A>B :|2 ("C"c3 | c)zc |] 
+"F"c=B/c/ d/c/ | "C7"Bee | c =B/c/ d/c/ | "F"cFF | c =B/c/ d/c/ | "C7"fee | edd |  "F"dcc |
+c=B/c/ d/c/ | "C7"Bee | c =B/c/ d/c/ | "F"cFF | "Bb"d^c/d/ e/f/ | "F"fAA | "C7"c/c/ce | "F"fzd || [K:Bb]  
+|: "F7"c=Bc | .e!>!d>c | ("Bb"B3 | B)zz | "F7"zA>c | ezz | "Bb"zB>d | f>dd | "F7"c=Bc | .e!>!d>c | 
+("Bb"B3 | B)B>A | "Gm"G^FG | "Eb".B.A.G | "D7"d>dd | dzd :| ("F7"f3 | f)ec | ("Bb"d3 | d)zd | 
+("G7"g3 | g)fd | ("Cm"e3 | e) ze | "F7"fec | FAc | "Bb"edB | F2d | "Eb"czG | "F7"AzF | ("Bb"B3 | B)zz |] 
+% wz06791
+% Nov 26 2017 (Ziegen und Esel)

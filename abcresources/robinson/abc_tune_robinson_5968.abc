@@ -1,0 +1,23 @@
+X:1
+T: Galopp GC (gL07242)  ABCDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.99  (gL07242) orig. GC
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"d/b/bg2 | d/b/bg2 | "D7"gf ef | A2z2 | A/f/fe2 | A/f/fe2 | "G"ed ^cd | G2z2 | d/b/bg2 | d/b/bg2 | 
+"D"gf ef | d'2z2 | d/g/gf2 | "A7"fe ^de | aA B^c | "D"d2d2 :: [P:B]  "D7".A2.B2 | .^c2.d2 | "G".e2.d2 | !>!b2z2 | 
+"D7".b2.a2 | .e2.f2 | "G".a2.g2 | de/d/ cB | "D7".A2.B2 | .^c2.d2 | "G".e2.d2 | g3B/c/ | d3B/c/ | dbd2 | "D7"cac2 | 
+"G"BgB2 | "C"e>f g>a | "G"b>a g>f | "D7"e>d e>f | "G"gg gz :: [P:C] [K:C] [L:1/4] "C".e.e | .e.e | "A7".f.e | "Dm".^c.d | "G7".g.g | .g.g | .b.a  | 
+"C".a.g | .e.e | .e.e | "A7".f.e | "Dm".^c.d | "G7".g.g | .g.g | .a.g |"C"c/c/ c/"_Fine"z/ :: [P:D]  "G7".G.f  | .^c.d | "C".a.g | c'2 | 
+ "G7".g.f | .G.B | "C".d.c | G2 | "G7".G.f  | .^c.d | "C".a.g | c'2 | "D7".b.a | .e.^f |"G"g g/g/ | g/g/ g/z/ :|
+W:
+W:Anmerkung H.C.: Waldenburg 17, Titterten 20, s.V. 17
+% gL07242 
+% April 12, 2018 (Dreams - Fairy tales - Thrillers - Movies - Daily life)

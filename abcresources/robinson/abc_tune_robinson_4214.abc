@@ -1,0 +1,16 @@
+X:252
+T: Walzer 1840  G (wz08933)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.22 (wz08933) orig. G-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+d |: ("G"b3 | b)a/g/ f/e/ | (d3 | B)>(B c'/b/) | "D7"a>^ga | zz/(b/ c'/b/) | "G"g>fg | zB/d/g | 
+(b3 | b)a/g/ f/e/ | (d3 | B>)(d e/d/) | "A7"^c>ea | b/a/ a/g/ g/^c/ | "D"d2d |1 "G"zB/d/g :|2 "G"dgf || 
+|: "C"e2c' | z/e/ c'>e | "G"d2b | z/d/b>g | "D7"g/f/ f/g/a | z/a/ b>a | "G"a/g/ g/a/b | zgf | 
+"C"e2c' | z/e/ c'>e | "G"d2b | z/d/b>g | "D7"d/e/ f/g/a |  zc'b | "G"gd/B/g |1 zgf :|2 gzz |]   
+% wz08933

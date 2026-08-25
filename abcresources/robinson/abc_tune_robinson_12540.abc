@@ -1,0 +1,39 @@
+X:429
+T:Duke of York's New March,The.2voices RH.430
+T:Here's Goodbye Lads...aka. RH.430
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:...to pastime and play now. from The Marriage of Figaro.CGP
+N:I added the rest. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C
+L:1/16
+Q:2/4=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+notC:Mozart,Figaro
+K:D major
+[V:1] "Maestoso"a3a|f4a3a f4a3a|agfg e3e e4g3g|e4g3g e4g3g|
+[V:2] f3f|d4f3f d4f3f|fede A3A A4e3e|A4e3e A4e3e|
+%
+[V:1] gfef d3d d4D3F|A4F3A d4A3d|f4d3d d4a3d'|a4f3a g4e3a|f4f3f f4D3F|
+[V:2] d2Ad F3F F4z4|F4z4 F4F3A|d4F3F F4f3f|f4d3f e4c3c|d4d3d d4z4|
+%
+[V:1] A4F3A d4A3d|f4d3d d4a3d'|a4f3a g4e3a|f4d3d d4:|
+[V:2] F4z4 F4z4|d2A2F3F F4f4|f4d3f e4c3c|d2A2F3F F4:|
+%
+[V:1]|:z4|f4f3f f4g4|a6fg a2a2 bagf|e4e3e e4f4|g6ef g2g2 agfe|
+[V:2]|:z4|d4d3d d4d4|f6de f2f2 gfed|c4c3c c4^d4|e4z2cd e2e2 fedc|
+%
+[V:1] f4a3a a4bagf|b4d'3d' d'4e'd'c'b|a4a3a a4bagf|e2ee f2ff g2gg e2ee|
+[V:2] d4f3f f4gfed|g4b3b b4c'bag|f4f3f f4gfed|c2cc d2dd e2ee c2cc|
+%
+[V:1] f2d2f2a2 d'2a2f2d2|e2ee f2ff g2gg e2ee|f2d2f2a2 d'2a2f2d2|
+[V:2] d2B2d2f2 a2f2d2A2|c2cc d2dd e2eec2cc|d2B2d2f2 a2f2d2A2|
+%
+[V:1] e2ee f2ff g2gg e2ee|d4z2 ((3abc') d'4d'4|d'12:|
+[V:2] c2cc d2dd e2ee c2cc|d4z2g2 f4f4|f12:|

@@ -1,0 +1,17 @@
+X:50
+T:Galopp  FC (GL00825)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.182 (GL00825) orig. F,C-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Gallop
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+"F"f2e2 | "Gm/Bb"d2g2 | "C7"c=B/c/ de | "F".f2z2 || "F"a2 d'>c' | "Bb"c'2.b2 | "C7"e2a>g | 
+"F"g2.f2 | c=B/c/ d>c | "C7"cbe2 | c=B/c/ d>c | "F"caf2 | a2 d'>c' | 
+"Bb"c'2 .b2 | "C7"e2ag | "F"g2.f2 | "Bb"d^c/d/ g>b | "F"ba ef | "C7"ag de | "F"f3z || 
+"F"Ac a>g | gff2 | Ac f>g | "C7"fee2 | "Bb"Bd b>a | "Gm"agg2 | 
+"C7"c'b ag | "F"g2f2 | Ac ag | g>ff2 | Ac f>g | "C7"fee2 | 
+"Bb"db bb | "F"ba gf | "C7"ag fe | "F"f3z |: [K:C] "C"eg gc' | "G7"c'bb2 | 
+gb ba | "C"agg2 | "F"af/f/ f>a | "C"ge/e/ e>g | "G7"f/e/d/e/ f/g/a/b/ |  "C7"c'3 z :|

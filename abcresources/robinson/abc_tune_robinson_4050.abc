@@ -1,0 +1,19 @@
+X:104
+T: Polka  CF (ABACDC) (pk09055)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.69 (pk09055) orig. C,F
+S: \"Uberliefert durch Josef B\"abi, Alpnach, 1880
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] |:"C"eag2 cfe2 | "Dm"e2d2 {/e}d^cd2 | "G7"fba2 fgf2 | "C"f2e2 {/f}e^de2 | gd'c'2 {/f}e^de2 | "Dm"dba2 {/e}d^cd2 | "G7"Bgf2 Ged2 | 
+"C"c2c2 c2z2 :| [P:B] "Am"ee^de =dcBA | "E7"^GABG "Am"A2E2 | "Dm"f2d2 "Am"e2c2 | "E7"B2e2"Am"A4 | ee^de =dcBA | "E7"^GABG "Am"A2E2 | 
+"Dm"F2F2 edBA | "E7"^GEFE"_>Teil A""Am"A4 |:[P:C] [K:F] "F"caeg fAed | "C7"d2E2 eee2 | d2E2 eee2 | "F"d2F2 ccc2 | 
+cdef efgf | "Bb"e2d2 e2d2 | {/=B}"C7"c2e2 {/A}d2e2 | "F"f2f2 f2"_Fine"z2 :: [P:D] [K:C] "C"gef^f ge'd'c' | "G7"c'bbda4 | 
+aggBf4 | "C"feeG cef^f | gef^f ge'd'c' | "F"baaf a3d' | "C"c'eag "G7"adfB | "C"c4 "_>Teil C"z4 :| 
+% pk09055

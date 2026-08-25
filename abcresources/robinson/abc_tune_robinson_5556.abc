@@ -1,0 +1,21 @@
+X:297
+T:Walzer  CGF  (wz07349)
+S:Hanny Christen. Bd.IV  Aargau, Basel I.  S.301 (wz07349) orig. C,G,F
+S: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+S:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+("C"c3 | c).B.c | e3 | G3 | .G.A.B | ced | "F"c3 | "G7"B3 | (d3 | d).^c.d | f3 | B3 | 
+"G7"zGA | Bed | "C"c3 | czz :: [K:G] "G"BB/B/ B/B/ | Bed | "Am"cc/c/ c/c/ | cfe | "D7"dd/d/ d/d/ | dba | 
+"G"gfe | (d2c) | BB/B/ B/B/ | Bed | "Am"cc/c/ c/c/ | cfe | "D7"dd/d/ d/d/ | dfa |1 ("G"g3 | g)zz :|2 
+("G"g3 | "G7"g)=fe |: [K:C] "Dm"dzf | "G7"zAB | "C"cze | zdc | "G7"Bda | (g2B) | "C"cea | (g2e) | "Dm"dzf | 
+"G7"zAB | "C"cze | zdc | "G7"Bda | (g2B) | "C"c>cc |1 cfe :|2 czc |: [K:F]   ("C7"d2c) | (e2d) | ("F"d2c) | a2b | 
+("C7"a2g) | (d2e) | ("F"g2f) | c3 | ("C7"d2c) | (e2d) | ("F"d2c) | (a2b) | ("C7"a2g) | (d2e) | "F"f>ff |1 fzc :|2 f"_>Teil C"zz |] 
+W:Parts: ABCDCD or? ABCDC
+%W:Anmerkung H.C.: Jourdan-Musig, Flötenbuch
+% wz07349
+% June 27, 2017

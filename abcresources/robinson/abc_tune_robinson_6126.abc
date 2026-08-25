@@ -1,0 +1,21 @@
+X:1
+T:Kilbi-Polka  BbFEb  (pk08067)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.122  (pk08067) orig. Bb,F,Eb
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] ("Bb"DF) FF | ("Eb"EG) GG | ("F7"FA) (cA) | ("Bb"Bd)F2 | (DF) FF | ("Eb"EG) GG | ("F7"FA) (cA) | "Bb"BB Bz :| [K:F] 
+[P:B] |: "F"cA AG/A/ | "C7"BGG2 | BG/A/ Bd | ("F"dc)c2 | (cA) AG/A/ | "C7"BGG2 | (GB) EG | "F"FF F"_>Teil A"z :| [K:Eb] 
+[P:C] |: "Eb"G2B>G | "Ab"Acc2 | ("Bb7"Bd) (fd) | "Eb".e(G/c/)  B2 | G2B>G | "Ab"Ac c2 | "Bb7"B>A GF | "Eb"EE Ez :| 
+W:
+%W:Parts: ABAC
+%W:Anmerkung H.C.: 
+% pk08067 (H 286/TN 11)
+% May 3, 2018

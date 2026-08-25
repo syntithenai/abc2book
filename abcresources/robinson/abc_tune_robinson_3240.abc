@@ -1,0 +1,26 @@
+X:215
+T:Waltz. CJF.215
+R:Waltz
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:In the title line is "(Schulx)". The last line of the
+N:middle section is given as e4 in the MS, but with the
+N:letter "c" above it. - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:3/8
+L:1/16
+Q:3/8=60
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+notC:"(Schulx)"
+K:C major
+"p"(e4c2)|G>c .e2.g2|(d4B2)|(GB)(df)(ag)|\
+(e4c2)|G>ce>cg>e|{e}d2d>cd>e|{d}c4z2:|!
+|:"p"(d4B2)|(GBdfa)g|(e4c2)|G>ce>c  {G}g2|(^fgab)(c'b)|\
+(ag)^fdef|.g2{ag^f}gba^f|(g^g)(ba)(fd)|" f"(e4c2)|!
+(G>c) .e2.g2|(d4B2)|(GB)(df)(ag)|(e4c2)|\
+G>ce>cg>e|{e}d2d>cd>e|" Fine  Dolce"c4|!
+|:c2|a3gf2|{efg}f3ed2|.^c2.c2.c2|(^c2d2) (fd)|\
+c2_B2A2|(Gd)(c_B)(AG)|F4A" D Capo"G|F4:|

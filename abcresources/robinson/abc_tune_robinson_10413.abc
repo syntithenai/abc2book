@@ -1,0 +1,23 @@
+X:5
+T:Prelude by Dean(05). TBe.005
+M:4/4
+L:1/8
+Q:1/4=120
+S:Thomas Bennet MS,1718, VWML
+R:Misc
+O:England
+N:Heading 'Bmi Flat' The other prelude on the page is 'Bmi Sharp'
+N:(TBe.006).  This appears to be Bb major, and  TBe.006, 'Bmi
+N:sharp' appears to be B major.   There also appears to be  very little
+N:difference between commas , and full stops . in this typeface.
+H:1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+notC:Mr. Thomas Dean
+K:Bb major
+"^Bmi flat.see notes.No time sig."\
+B2F2D2B,2 | DFBD EGEC | EGcG AcAF |\
+Bd GB ce Ac | df Be eg AF |!
+fb df zc (_dc) |\
+AFzc (_dc) AF | "^d flat in ms"dc fb df Bd | BB,DF B2 |]

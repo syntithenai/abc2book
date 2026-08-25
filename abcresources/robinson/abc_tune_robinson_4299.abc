@@ -1,0 +1,16 @@
+X: 66
+T: Jodel G (jd05801)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.108 (jd05801) orig. G-Dur
+S: Berner Oberländer Tänze (Bern)
+%%partsbox
+%%MIDI program 21
+R:Jodel
+O:Switzerland
+M:3/4
+L:1/8
+P:ABAC
+K:G major
+ G>A |[P:A] "G"Bg d2 Bg | "D7"Af/e/ d2 F>A | cf d2 ca | "G"Bg/e/ d2 G>A | Bg d2 BG | "D7"Af/e/ d2 F>A | 
+df/e/ de/d/ cF | "G"G4z2 ||[P:B]  "G"Bg dB gB/B/ | "D7"cf dc a2 | dc' fd c'e/d/ | "G"db gd b2 | 
+Gd BG dG/G/ | "D7"Fd cF d2 | dc' fd b>a | "G"g2z2 "_> Teil A"G>A ||  b2 [P:C] |: "Am"a3g f2 | 
+"D7"e3dc2 | "G"B2d2g2 | b3ag2 | "D7"A2c2f2 | a3gf2 |1 "G"B2d2g2 | b2z2b2 :|2 a3gf2 | "G"g4z2 |]

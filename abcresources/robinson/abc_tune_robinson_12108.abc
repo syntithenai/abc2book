@@ -1,0 +1,29 @@
+X:6
+T:Wragg's Duetto the 1st.2voices. RH.006
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:6/8
+L:1/8
+Q:3/8=50
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1]|:A|f>ga agf|eee e2f|d>fa a/f/b/a/g/f/|(f3e2)A|
+[V:2]|:A|{FA}d2f fed|AAAA2d/A/|D/F/A/d/f/d/ fg/f/e/d/|(d3c2)z|
+%
+[V:1] {de}f>ga agf|{de}d'c'b ag/f/e/d/|f>gf eac|da/f/a/f/d2:|
+[V:2]{FA}d>ef fed|bag fe/d/c/d/|dz dA2A|Fz FF2:|
+%
+[V:1] c/d/|e>fe ecA|f>gf fdB|g>ag gec|agf{f}e2c/d/|
+[V:2] A/B/|c zcc2z|d zdd2z|e2e ecA|fed{d}c2A/B/|
+%
+[V:1] e>fe ecA|ef^g a>gf|e/f/g/^g/a/d/ cd/c/B/c/|A/c/e/a/e/c/A2A|
+[V:2] c>dcc2A|^GABc2d|c2cA2E|[Cc][Cc][Cc][C2c2]z|
+%
+[V:1] {de}f>ga agf|eeee2f|d/f/a/d'/a/f/ ag/f/e/d/|(f3e2)A|
+[V:2] {FA}d2f fed|AAAA2d|DFA/d/ fe/d/c/d/|d3c2z|
+%
+[V:1] {de}f>ga agf|d'c'b ag/f/e/d/|f>gf eac|dd'd' d'2|]
+[V:2] {FA}d>ef fed|bag fe/d/c/d/|dzdA2A|Ffff2|]

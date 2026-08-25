@@ -1,0 +1,12 @@
+X: 2
+T:La Bourrée de Passy
+C:Trad
+L:1/8
+M:3/8
+O:France
+R:Bourrée à Trois Temps
+K:C major
+[V:1]|:G | "C" cBc | "G" d2 d/2e/2 | fd/2f/2d/2f/2 | "C" ecG |cBc | "G" d2 d/2e/2 | fdB | "C" c2 :|!
+[V:2]|:z|c3|B3|G3|c3|c3|B3|G3|c2:|
+[V:1]|: g | "C" ege | cde | "G" fdf | "C" ecg |ege | cde | "G" fdB | "C" c2 :|
+[V:2]|:z|c3|c3|G3|c3|c3|c3|G2B|c2:|

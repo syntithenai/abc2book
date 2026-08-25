@@ -1,0 +1,16 @@
+X:84
+T:Mazurka  GC (mz09132)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.101 (mz09132) orig. G,C
+S: \"Uberliefert durch Josef B\"abi, Alpnach, 1880
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+"C"c2B>c d>e | "G"d2B>c d>e | d2g2b2 | "D7"a2d2z2 |: "G"d3b a>g | "Am/C"f2e2a2 | "D7"c3d ef | "G"a2g2b2 | d3b ag | 
+"Em"f2e2b2 | "A7"a>g f>g^c2 | "D"d2d2z2:: "D7"c3d ef | "G"g>ab4 | "D7"c'>ba2a2 | "G"b>ag2B2 | "C"c3d ef | "G"g>ab4 | 
+"D7"c'>ba2d2 | "G"g2g2z2 :: [K:C] "C"e>f g3c' |  "G7"b>^ab2f2 | d>ef2b>a | "C"g>^fg2c2 | "Dm/F"A>^cd3f | "C"a2g>ag2 | "G7"g2f>e f>B | 
+"C"c2c2z2 :: "G7"b4a>f | "C"e4a>g | "G7"d4f>e | "C"c2 eg d'>c' | "G7"b4a>f | "C"e4a>g | "G7"d4f>e | "C"c2c2z2 :| 
+% mz09132

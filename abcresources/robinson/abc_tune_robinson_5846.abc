@@ -1,0 +1,28 @@
+X:13
+T:dr Chrummelbacher  Bb  ABAC
+T:Neldi Ming  (* 21.1.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] FD | B>F B/c/ | dB F/F/ | e/>d/c/f/ e/c/ | 
+d/>c/ !fermata! !breath! B F/D/ | B>F B/c/ | dB F/f/ | c/>=B/ c/f/ d/F/ | !fermata!B2 || 
+M:3/4
+[P:B] G/G/ | eG e/c/ | dF f/d/ | cF f/d//c// | BF G/G/ | 
+eG e/d//c// | dF f/d/ | c/>_c/ =c/f/ d/F/ | B3 ||  
+M:3/4
+[P:C] F/F/ | e>d f | ecA  | B2d | F>d c/B/ | 
+c2e | F>e d/c/ | B2d | F2F/F/ | f>gf | ecA | 
+B2d | F>d c/B/ | c2F | f>e c/d/ | (B3 | B)z |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser. Angaben Neldi Ming
+W:UJV-Naturjodelsammlung: Code-Nr: 25-07
+W:http://www.naturjodler.ch/code 25.htm  (with AUDIO)
+%May 27, 2018

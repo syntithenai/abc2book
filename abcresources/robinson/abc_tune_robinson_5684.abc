@@ -1,0 +1,30 @@
+X:1
+T:dr Allwäger-Juiz  A-Dur.  ABCC
+T:Adolf Zimmermann (30.3.1919-18.7.2002)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] ED | C3B, CD  | E3C Ec | A3C Ee | c3E dc | B3E DE | 
+e3d cB | A3E AB | !breath!c4ED | C3B, CD | E3C Ec | 
+A3C Ee | c3E dc | B3E DE | e2dE cB | (A6 | A2)z2 ||
+M:3/4
+[P:B] E2 | D3FA2 | f3e (3dcB | A3c (3EAc | e3c (3BAc | B3d (3EGB | 
+e3d (3cBc | A3E AB | c4E2 | D3FA2 | f3e (3dcB | 
+A3c (3EAc | e3c (3BAc | B3d (3EGB | e2dE cB | (A6 | A2)z2z2 || 
+M:3/4
+[P:C] E F E | ee eE ^DE | dc Bd cB | AA Ac EA | CE AC Ec | 
+BB Bd EG | DE GD EB | A3E AB | c4E2 | ee eE ^DE | dc Bd cB | 
+AA Ac EA | CE AC Ec | BB Bd EG | dE cE DB | (A6 | A2)z2z |]
+W:
+W:Reihenfolge: A-B-A-C-C
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 04-01
+W:http://www.naturjodler.ch/code 04.htm  (with AUDIO)
+%April 28, 2018

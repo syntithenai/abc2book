@@ -1,0 +1,18 @@
+X:146
+T:Polka CF (pk07297)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.278 (pk07297) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"(ce).e2 (eg).g2 | a2a2g4 | (gc').c'2 (c'b).a.g | "G7"(Tg2f2) {/g}fef2 | (Bd).d2 (df).f2  | g2g2f4 |1 (d2b2) bagf | "C"(Ta2g2) {/a}g^fg2 :|2 
+(d2b2) bagf |  "C"c2e2 c2z2 || "E7"e4 e'3b | "Am"d'2c'2 {/d'}(c'b)c'2 | "D7"d4 d'3a | "G"c'2b2 {/a}(b^a)b2 | "G7"(df).f2 z2B2  | "C"(cg).g2 z2e2 | "G7"(fa).a2 (aB).B2 | 
+"C"c2e2 c2z2 || [K:F] "F"a4 bafb | "C7"(Ta2g2) {/a}g^fg2 | g4 (ag).e.a | "F"(Tg2f2) {g}fef2 | a4 (ba).f.b | "C7"Ta2g2 {/a}g^fg2 | (gb).b2 z2e2 | "F"f2a2 f2"_Fine"z2 |] 
+W:
+W:Anmerkung H.C.: Mazurka 592, Schottisch 5/75, Polka 577, Mazurka 548
+% pk07297
+% June 1, 2017

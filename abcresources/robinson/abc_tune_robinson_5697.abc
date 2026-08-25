@@ -1,0 +1,27 @@
+X:1
+T:Flüehmatt-Juiz  Bb
+T:Anni Wallimann-Küng  (23.8.1928-31.2.2014)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B2D>C DF Bc | d2F>=E F_ec2 | F>=E Fd B>c dc | B6z2 | 
+B2D>C DF Bc | d2F>=E F_ec2 | [M:3/4] F>F f>e dc | B6 ||
+M:4/4+3/4
+[P:B] F>E CD E/F/G/e/ d/F/E/c/ | B>f dB F/D/d/B/ | c>B AC F/E/d/c/ | B>D Gd!fermata!F2 | 
+F>E CD E/F/G/e/ d/F/E/c/ | B>f dB F/D/d/B/ | c>B AC F/E/d/c/ | B6 || 
+M:2/4
+[P:C] F4 | B2d2 | FB/c/ (3FBd | Bd fg/f/ | B>cd2 | B4 || 
+M:C
+[P:D] Ff/d/ Bdc2f2 | Fe/c/ cf B2d2 | fd/c/ Bd c/E/F/A/ E2 | F/E/F/c/ E/F/c/d/ Bd F2 | 
+Ff/d/ Bd c2f2 | Fe/d/ cf B2f2 | fd/g/ fd c/E/F/A/ E2 | F/E/F/c/ E/F/f/d/ B4 |] 
+W:
+%W:Reihenfolge:
+W:UJV-Naturjodelsammlung: Code-Nr: 06-01
+W:http://www.naturjodler.ch/code 06.htm  (with AUDIO)
+%April 30, 2018

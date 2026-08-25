@@ -1,0 +1,23 @@
+X:1
+T:Waldmeister-Polka  GC (pk07039)  ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.157  (pk07039) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+d/d/ | "D7"df ac' | af de | dede | d2zB/c/ || [P:A] "G"dG G(f/g/) | "Am"ae e(f/g/) | "D7"ad d/^c/d | "G"bg g(B/c/) | 
+dg G(f/g/) | "Am"ae e(f/g/) | "D7"a/g/f/e/ df | "G"gg "_Fine"gz || [P:B]  "D7"cc A>e | "G"dd B>g | "D7"ff d>a | "G"gg b/g/d/B/ | "D7"cc  A>e | 
+"G"dd B>g | "D7"ff d>f | "G"gg gz [K:C] || [P:C]  "C"g3(^f/g/) | gc'c'2 | c'c' c'>b | ("F"ba)a2 | "Dm"d3(^c/e/) | daa2 | "G7"gg g>f | 
+("C"fe)e2 | g3^f/a/ | gc'c'2 | c'c' c'>b | ("F"ba)a2 | a/b/c' c'a | "C"g/^f/g/a/ ge | "G7"f/e/f/g/ fd | "C"cc' "_>Teil A"c'z |] 
+W:
+%W:Parts: ABCA
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% pk07039
+% July 5, 2018 (MOMUS)

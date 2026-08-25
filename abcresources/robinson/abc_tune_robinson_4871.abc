@@ -1,0 +1,18 @@
+X:272
+T:Walzer  FCBb (wz05998)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.289 (wz05998) orig. F,C,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Waltz
+O:Switzerland
+M:3/4
+L:1/4
+K:F major
+Ac |: "F"f3 | "tr"fef | ("C7"g3 | G)Bc | g3 | "tr"gfg | "F"a3 | zcf | a3 | 
+"tr"aga | "Bb"c'2b | d2^c | "C7"=cb>c | a2g |1 "F"f3 | fAc :|2 ("F"f3 | f)zz || [K:C] 
+|: "tr""G7"bf/a/"tr"g | d/f/eB/d/ | "C"c>ge | zgc | "G7"B>gf | zfB |1 "C"c>ge | zc/e/ g/c'/ :|2 
+"C"c>cc | cA"_>Part A"c [K:Bb] |: "Bb"d3 | de>B | "F7"d2A | c3 | (f3 | f)c>e | "Eb"e2B | 
+"Bb"d2z | d3 | de>B | "F"c2A | f2z | "C7"c'c>c | dcB | "F7"A>AA |1 AGA :|2 Azz || 
+|: "Bb"de/f/ g/a/ | b/a/c'b | "F7"a>c c/b/ | a3 | "Eb"g>c e/a/ |1 g3 | "Bb"f>B d/g/ | f2z :|2 "F7"g2A | "Bb"B3 | bzz |] 
+W: Parts: ABACD

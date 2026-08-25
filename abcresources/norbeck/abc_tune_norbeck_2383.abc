@@ -1,0 +1,16 @@
+X:100
+T:Above in the Garret
+T:Up in the Garret
+R:slip jig
+Z:id:hn-slipjig-100
+M:9/8
+L:1/8
+K:Ador
+dcB ABE A2e | dcB A2d efg | dcB ABE A2e | dBG GDG Bcd :|
+|: ~B3 e2d e2g | ~B3 e2d efg | ~B3 e2d efg | dBG GDG Bcd :|
+P:Variations
+|: cBA ABG A2E | dcB ~A3 efg | dcB ABG A2e | dBG GFG Bcd :|
+|: ~B3 e2d ~e3 | ~B3 e2d efg | ~B3 e2d efg | dBG GFG Bcd :|
+P:More variations
+|: dcB A2E AGe | dcB A2G efg | dcB A2E AGe | dBG GFG Bcd :|
+|: BAB e2d e2B | BAB e2d efg | BAB e2d efe | dBG GFG Bcd :|

@@ -1,0 +1,25 @@
+X:80
+T:Mr George Forbes yr of New and Edinglassie
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+N:the opening double-bar has 4 dots after it
+R:Reel
+Z:Clark Bernst
+%%Page:34 - 2
+K:Ab major
+C [| \
+~F2 FG A2 GF | GEGB eBGE | ~F2 FG A2 Ac | G<E BG F/F/F ~F2 :|
+(~fg)fe (cf)af | ecBe GEBG | (~fg)fe (cf)af | e>c BG F/F/F (F=e) |
+fagb afgd | e>c Be GEBG | AcBd cf[b=e]g | [ca]>f[bg]=e f/f/f ~f2 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ [| \
+[Ff][Ff][Ff][Ff] | [Ee][Ee][Ee][Ee] |\
+[Ff][Ff][Ff][Ff] | [Ee][Ee][Ff][Ff] :|
+[fac'][fac'][fac'][fac'] | [eae'][ege'][ee'][ee'] | \
+[fac'][fac'][fac'][fac'] | [Aa][Ee][Ff][Ff] |\
+[fc'][=ec'][fc'][ab] | [gb]/a/[gb][Ee][Ee] |
+[Ff][=E=e][Ff][Gg] | [cc'][cc'][Ff][Ff] |]

@@ -1,0 +1,19 @@
+X:26
+T:Bobing Joan
+A:Lancashire - Wyresdale
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+%%Link:<a href="/images/scans/Winder_1_JW/014.75.png">Photocopy (75 dpi)</a>
+%%Link:<a href="/images/scans/Winder_1_JW/014.300.png">Photocopy (300 dpi)</a>
+%%Page:014
+K:G major
+fd Ac d2 fd | Ac eg fd Ac | d2 ec Ac eg ::
+fa ag f2 ea | ag fa ba gf | e2 ec Ac eg :|
+%%text That's what's written in the mss. It would almost certainly be happier in 3/2 :-
+%%scale .5
+[M:3/2] [L:1/4] \
+fd Ac d2 | fd Ac eg | fd Ac d2 | ec Ac eg ::
+fa ag f2 | ea ag fa | ba gf e2 | ec Ac eg :|

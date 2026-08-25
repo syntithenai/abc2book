@@ -1,0 +1,17 @@
+X:149
+T:Thomond Bridge
+R:hornpipe
+H:Also played in G or in F
+Z:id:hn-hornpipe-149
+M:C|
+L:1/8
+K:D
+(3ABc | dBAF GBAG | F2D2 D2de | fedc dfed | c2A2 A3F |
+(3GBd g2 (3FAd f2 | (3EGB e2 (3DFA d2 | cdef gece | d2dc d2 :|
+|: AG | FdAd FdAd | fedc BAGF | Ee~e2 Be~e2 | gfed cBAG |
+FdAd FdAd | fedc BAGF | GBAG FEDC | E2D2 D2 :| 
+P:variations
+(3ABc | dBAF GBAG | F2D2 D2de | fedc dfed | c2A2 A3F |
+GBdg FAdf | EGBe DFAd | cdef gece | d2dc d2 :|
+|: AG | Fd~d2 Ad~d2 | fedc BAGF | EeBe GeBe | gfed cBAG |
+Fd~d2 AdFd | fedc BAGF | GBAG FEDC | E2D2 D2 :|

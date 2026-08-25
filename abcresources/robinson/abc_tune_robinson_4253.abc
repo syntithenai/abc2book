@@ -1,0 +1,16 @@
+X: 24
+T: Der alt Meiringer Ländler FBb (LD05420)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.287 (LD05420) orig. F,Bb-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:F major
+cc | "F"ca gf ed | cf ed cA | "C7"Bc eB ce | d3cc2 | Bc eB ce | d3cc2 | "F"Ac fA cf | d3cc2 | 
+ca gf ed | cf ed cA | "C7"Bc eB ce | d3cc2 | Bc eB ce | c'4e2 | "F"f2 ef ag | f2z2gf || 
+"C7"e2d'3c' | .b2.a2.g2 | "F"f3cA2 | Ac fA cf | "C7"e3dB2 | Bc eB ce | "F"f3cA2 | z2g2f2 | 
+"C7"e2d'3c' | .b2.a2.g2 | "F"f3cA2 | Ac fA cf | "C7"e3dB2 | dc =Bc de | "F"f2c2a2 | f2z2df | [K:Bb]
+|: "Bb".d'2.c'2.b2 | .a2.g2.f2 | "F7"fa af af | e3b ag | fa af af | e3b ag | "Bb"fb bf bf | d4df | 
+.d'2.c'2.b2 | .a2.g2.f2 | "F7"fa af af | e3b ag | fa +>+a3g | fg fe dc | "Bb"B2d2f2 | b2z2z2 :|

@@ -1,0 +1,31 @@
+X:3
+T:dr Melchtaler  Bb  ABC
+T:Hans Durrer-von Flüeh  (25.6.1921-16.8.2002)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>D | Fd BG | Fz B,>D | Fd BG | F2dB | ce AG | Ff ec | Bd BG | 
+F2 B,>D | Fd BG | Fz B,>D | Fd BG | F2dB | ce AG | Ff ec | !fermata!(B4 | B)z || 
+L:1/8
+M:2/4
+[P:B] dB | ce AG | Ff ec | Bd BG | Ff dB | ce AG | Ff ec | Bd BG | 
+F2dB | ce AG | Ff ec | Bd BG | Ff dB | ce AG | Ff ec | (B4 | B)z || 
+M:2/4
+[P:C]  Fd | B2Fd | BF dB | Ac FA | Ez Fe | c2Fe | cF eA | Bd FB | 
+Dz Fd/c/ | B2Fd/c/ | BF dB | Ac FA | Ez Fe/d/ | c2 Fe/d/ | cF eA | B2cd | 
+B2Fd | B2 Fd | BF dB | Ac FA | Ez Fe | c2Fe | cF eA | Bd FB | 
+Dz Fd/c/ | B2 Fd/c/ | BF dB | Ac FA | Ez Fe/d/ | c2 Fe/d/ | cF eA | B2fd | !fermata!B2 |]
+%W:Reihenfolge: A-B-C
+W:
+W:Musik: Hans Durrer-von Flüeh, bearbeitet: Karl Anderhalden
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 11-02
+W:http://www.naturjodler.ch/code 11.htm  (with AUDIO)
+%May 6, 2018

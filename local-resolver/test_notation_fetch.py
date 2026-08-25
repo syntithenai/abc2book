@@ -62,7 +62,7 @@ class NotationFetchTests(unittest.TestCase):
         song_queries = build_web_abc_queries("Wild Rover", "song")
         tune_queries = build_web_abc_queries("Wild Rover", "traditional_tune")
         self.assertTrue(any("lyrics" in query for query in song_queries))
-        self.assertTrue(any("traditional" in query or "irish tune" in query for query in tune_queries))
+        self.assertTrue(any("traditional" in query or "irish tune" in query or "folk tune" in query for query in tune_queries))
         self.assertNotEqual(song_queries, tune_queries)
 
     def test_build_web_abc_queries_includes_artist(self):
@@ -79,6 +79,21 @@ class NotationFetchTests(unittest.TestCase):
         self.assertTrue(any("site:irishtune.info" in query for query in queries))
         self.assertTrue(any("site:sessionite.com" in query for query in queries))
         self.assertTrue(any("site:themusicofireland.com" in query for query in queries))
+        self.assertTrue(any("site:norbeck.nu" in query for query in queries))
+        self.assertTrue(any("site:trillian.mit.edu" in query for query in queries))
+        self.assertTrue(any("site:folktunefinder.com" in query for query in queries))
+        self.assertTrue(any("site:richardrobinson.tunebook.org.uk" in query for query in queries))
+
+    def test_build_web_abc_queries_region_aware_for_polska(self):
+        from notation_fetch import region_query_hints_for_title
+        hints = region_query_hints_for_title("Slångpolska Magnus")
+        self.assertTrue(any("swedish" in h or "norbeck" in h or "polska" in h for h in hints))
+        queries = build_web_abc_queries("Slångpolska Magnus", "traditional_tune")
+        self.assertTrue(any("swedish" in q or "norbeck" in q or "polska" in q for q in queries))
+
+    def test_build_web_abc_queries_region_aware_for_bourree(self):
+        queries = build_web_abc_queries("Bourrée de Chambérat", "traditional_tune")
+        self.assertTrue(any("french" in q or "breton" in q or "bourree" in q for q in queries))
 
     def test_is_allowed_abc_host_includes_new_hosts(self):
         self.assertTrue(is_allowed_abc_host("folkwiki.ibiblio.org"))
@@ -87,6 +102,10 @@ class NotationFetchTests(unittest.TestCase):
         self.assertTrue(is_allowed_abc_host("john-chambers.us"))
         self.assertTrue(is_allowed_abc_host("sessionite.com"))
         self.assertTrue(is_allowed_abc_host("themusicofireland.com"))
+        self.assertTrue(is_allowed_abc_host("norbeck.nu"))
+        self.assertTrue(is_allowed_abc_host("folktunefinder.com"))
+        self.assertTrue(is_allowed_abc_host("richardrobinson.tunebook.org.uk"))
+        self.assertTrue(is_allowed_abc_host("trillian.mit.edu"))
 
     def test_is_direct_abc_file_url(self):
         self.assertTrue(is_direct_abc_file_url("https://example.org/tunes/wild-rover.abc"))

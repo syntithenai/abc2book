@@ -1,0 +1,8 @@
+X:72
+T: Klettgauer Galopp  F (GL04913)
+M:2/4
+L:1/8
+O:Switzerland
+K:F transpose=3 %%MIDI gchordon
+"F"A>B cF | "C7"A/2G/2F/2E/2 "F"FC | A>B "Gm"dc | "C7"G^G"F"A2 | A>B cF | "C7"A/2G/2F/2E/2 "F"FC | "Gm"G>"_ ="d "F"cF | "C7"A/G/c/E/"F"F2 :: 
+"F"fc c/2=B/2c | fc c/2=B/2c | "C7"BG G/2^F/2G | "F"AF F/2E/2F | fc c/2=B/2c | fc c/2=B/2c | "C7"BG G/^F/"_ ="G | "F"FA Fz :|

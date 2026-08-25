@@ -1,0 +1,24 @@
+X: 11
+T:Mrs. George Robertson's Reel --  Edinburgh
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:4 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+D | \
+B,DFA ~B2 (FB) | dBfB Ac-c.e | dBFB (gf)(ed) | (ed)(cB) FB-B :|
+d | \
+{d}e2 ge {e}d2 fd | (ed)(cB) Ac-c.d | efge defd | (ed)(cB) FB-B.d |
+egeg dfdf | (ed)(cB) Ac0c.d | efga babg | f<d!trill!c>B FB-B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ |\
+BBBB | BBFF | BBdB | fFBB/ :| \
+z/ | \
+eeBB | ccff | eeBB | efBB | eeBB | ccff | eede | fFBB/ |]

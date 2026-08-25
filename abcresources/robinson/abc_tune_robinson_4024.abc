@@ -1,0 +1,16 @@
+X:80
+T:Mazurka  FCBb (mz09350)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.203 (mz09350) orig. F,C,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+"F"A,C FA cf | ac' gc'f2 | "C7"eg "tr"d2 ce | "F"fa cfA2 | A,C FA cf | ac' gc'f2 | "C7"eg "tr"d2 ce | "F"f2f2z2 :: [K:C] 
+"G7"Gf dBG2 | "C"ag ecG2 | "G7"bf ad fB | "C"ge gc eA | "G7"Gf dBG2 | "C"ag ecG2 | "G7"bf ad fB | "C"c2c'2z2 :: [K:F] 
+"F"Ac fa gf | "C7"ec' dbc2 | ec' db ce | "F"fA cd cB | Ac fa gf | "C7"ec' dbc2 | ec' db ce | "F"f2f2z2 :: [K:Bb] 
+"Bb"d'>ac'2b2 | f3d cB | "F7"Ac fea2 | "Bb"Bd fdb2 | d'>a c'2b2 | "Cm"g3f ed | "F7"cd ef ga | "Bb"b2b2z2 :| 
+% mz09350 (H 335/TN 46)

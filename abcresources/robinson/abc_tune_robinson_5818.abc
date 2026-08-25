@@ -1,0 +1,33 @@
+X:32
+T:dr Tössli-Juiz. 2002  Bb ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:4/4
+K:Bb major
+[P:A] D/D/ | F>EDF | d>edf | c>dce | d/e/ d/c/ !fermata!B D/E/ | 
+F>EDF | d>edf | cf/e/dc | B3 ||
+M:3/4
+[P:B] B| c2d | c2F | d2e | d>cB | c2f | f2e | d>e d/c/ | B>zF | c2d | 
+c2F | d2e | d>cB | c2f | edc | (B3 | B)zF/F/ | c2d | c2F | d2e | d>cB | 
+c2f | f2e | d>e d/c/ | B>zF | c2F | d2e | d>cB | c2f | "rit."edc | (B3 | B)z || 
+M:4/4
+[P:C]   D/E/ | F>EDF | d>edf | c>dce | d/e/ d/c/ !fermata!B || 
+M:3/4
+[P:D] d2F | B2F | d>e d/c/ | B3 | cF/F/ F/F/ | fdc | B>A B/c/ | d3 | 
+d2F | B2F | d>e d/c/ | B3 | cF/F/ F/F/ | fdc | (B3 | B)zF | 
+d2F | B2F | d>e d/c/ | B3 | cF/F/ F/F/ | fdc | B>A B/c/ | d3 | 
+d2F | B2F | d>e d/c/ | B3 | cF/F/ F/F/ | fdc | (B3 | B)zz |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-17
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 22, 2018

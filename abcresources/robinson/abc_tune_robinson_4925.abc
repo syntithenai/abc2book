@@ -1,0 +1,21 @@
+X:21
+T: Burschenleben (Schottisch) CF (st02026)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.277 (st02026) orig. C,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G/G/ | [P:A] "C".e2.d2 | .c2.B2 | "G7"AG/G/ Gf | B3G/G/ | A>G Gf | B3G | "C"A>G Ge | 
+cG cd | .e2.d2 | .c2.B2 |  "G7"AG/G/ Gf | B3G | A>G Gf | G2AB | "C"c2 "G7"GA/B/ | 
+"C"cc cG/G/  [P:B] |: "D7"G>A B>c | df ed | "C"c>g e>g | e3c |1 "G7"B>g f>g | f3B | "C"c>g eg | 
+e3 G/G/ :|2 "F"A>f ed | "C"c>B AG | "G7"Gf AB | "C"cc c"_Teil A"z || [K:F] F/F/ [P:C] | "F"FA cf | 
+f3f/f/ | fA fA | "C7"B3G/G/ | GB Bg | g3f | e>d c/B/A/G/ | "F"Fdc2 | FA cf | 
+f3B/B/ | "Gm"Bc dg | g3f | "C7"e>d cd/e/ | "F"fA dc | "C7"ef/e/ de | "F"ff fz |]  
+W:Parts: AB-AC
+ % st02026 (H 071/TN 34)

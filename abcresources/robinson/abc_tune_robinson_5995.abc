@@ -1,0 +1,20 @@
+X:1
+T:Postillion-Marsch  FC (mr07672)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.33  (mr07672) orig. F,C
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+A | "F"cc/c/ cc | c2zf | "Bb"dd/d/ dd | d2zg | "C7"ee/e/ ee | e2de | !>!"F"f2 !>!a2 | c2zA | cc/c/ cc | 
+c2zf | "Bb"dd/d/ dd | d2zg | "C7"ee/e/ ee | e2de | "F"f2 f>f | f2gf || [K:C] "C"e2G2 | c2B>A | "G7"G2f2 | 
+B2zA | G2f2 | B2zA | "C"G2e2 | c2ze | g3e | g2fe | "Dm"d2a2 | d2zc | "G7"B2f2 | 
+e2d2 | "C"cc/c/ cc | c2zg || "G"g^f/g/ ad | B2zG | "C"AG ec | c2zG | "G7"AG fB | B2zg | "C"ga/g/ ec | 
+c2zG | "G7"AG fB | B3G | "C"AG Gc | c3c | c>B c>d | e>d e>a | "G7"gf A>B | "C"cc/c/ cz |]  
+W:
+W:Anmerkung H.C.: Var. Seltisberg, Eptingen/Böckten, Titterten 12
+% mr07672
+% Dec 14 2017

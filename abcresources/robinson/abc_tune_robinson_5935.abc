@@ -1,0 +1,41 @@
+X:1
+T:dr Hornleiter  Bb  ABCD
+T:Andreas Köslin. (28.06.1979)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+R:Naturjodel
+M:3/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam getragen"  D/>F/ | dBG | F>DB | dBF | c2E/>F/ | e>c A/G/ | 
+F>Ec | FEc | !breath! !fermata!B2D/>F/ | dBG | F>DB | 
+dBF | c2E/>F/ | e>c A/G/ | F>Ec | FAc | B2z || 
+L:1/8
+M:C
+[P:B] "zügig" FD BF | d2B2 Be dB | c2A2FE AF | c2A2 Ae dB | dcB2 FD BF | 
+d2B2Be dB | cBA2FE AF | c2A2 fe dc | !fermata!B4 ||  
+L:1/4
+M:3/4
+[P:C] "sehr langsam, feierlich" F| B3 | edB | (c3 | c)zF | A3 | dcA | (B3 | B)zF | B3 | cdB | 
+e2B/c/ | dBd | (c3 | c)zF | B3 | edB | (c3 | c)zF | A3 | dcA | 
+(B3 | B)zF | B3 | cdf | e2f/e/ | d2B | [M:4/4] d2c2 | (B2B)z ||  
+M:3/4
+[P:D] "lüpfiges Ländlertempo" F | d2e | d2B | c3 | A2F | f2e | d2c | e2d | B2z | 
+d2e | d2B | c3 | A2F | f2e | d2c | (B3 | B)zG | 
+F2e | d2B | c3 | A2G | F2e | d2c | e2d | B2z | 
+d2e | d2B | c3 | A2F | F2e | d2c | (B3 | B2)z | 
+d2e | d2B | c3 | A2F | f2e | d2c | e2d | B2G | 
+F2e | d2B | c3 | A2G | F2f | d2c | (B3 | B)z |]
+W:
+%W:Reihenfolge: A - B - C - D
+W: Mit einem Hornleiter kann man bei Kühen in gewissen Fällen 
+W:  ein gleichmässiges Wachstum der Hörner unterstützen.
+W: 
+W:notiert Edi Gasser. % Angaben: 
+W:UJV-Naturjodelsammlung: Code-Nr: 57-01
+W:http://www.naturjodler.ch/code 57.htm  (with AUDIO)
+%September 27, 2018

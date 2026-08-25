@@ -1,0 +1,17 @@
+X:265
+T:Varsovienne GC  (vr06614)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.269 (vr06614) orig. Bb,Eb
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+R:Varsovienne
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+"G"[Bd]>[ce] .[Bd]2 [Bg]2 | [Bd]>[ce] .[Bd]2[gb]2 | "D7"[db][ca] [B^g][ca] [ec'][Af] | "G"[ca][Bg] [Af][Bg] [GB][ce] | [Bd]>[ce] .[Bd]2 [Bg]2 | [Bd]>[ce] .[Bd]2[gb]2 | "D7"[db][ca] [B^g][ca] [ec'][Af] | 
+"G"[Bg]2 [Bg]>[Bg] [Bg]2 || "D7"d2 df ac' | "G"b4 ab | "D7"c'2e2f2 | "G"g6 |  "D7"d2 df ac' | "G"b4 ab | "D7"c'2e2f2 | "G"g4z2 || [K:C]   
+"C"[eg][fa] [ce][fa] [eg][ce] | "G7"[df]2 .[gb]2 .[gb]2 | [eg][fa] [df][fa] [eg][df] | "C"[ce]2 .[ec']2 .[ec']2 | [eg][fa] [ce][fa] [eg][ce] | "G7"[df]2 .[gd']2 .[gd']2 | [df]2 .[fb]2 .[fb]2 | "C"[ec']2 [ec']>[ec'] [ec']2|| 
+"F"[ac'][fa] [bd'][ac'] [gb][fa] | "C"[eg]6 | "G7"^fg [gb][=fa] [eg][df] | "C"[ce]6 | "F"[ac'][fa] [ad'][ac'] [gb][fa] | "E7"[e^g]6 | "F"a=g ba "G7"gb | "C"c'4z2 |]  
+% vr06614
+% May 17, 2017

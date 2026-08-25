@@ -1,0 +1,27 @@
+X:3062
+T:King of the Pipers (jig) % nf<bb
+B:"Northern Fiddler" 177.1 (F&MB)
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+L:1/8
+M:6/8
+R:Jig
+Q:320
+K:G major
+P:A
+A2F B2F|A2G FED|A2F B2F|G>AG GFE|
+A2F B2F|A2G FED|G2B cAF|G>AG GFE:|
+P:B
+!segno! d>fg age|d^cd ecA|G>AB cAF|G>AG GFE|
+d>fg afa|geg fdA|G>AB cAF|G>AG GFE:|
+P:C
+d2e d3|ded ^cBA|d2e d2A|GFG AFD|
+d2e d3|ded ^cBA|G>AB cAF|G>AG GFE:|
+P:D
+def def|def e^cA|def def|G>AG GFE|
+def def|def e^cA|G>AB cAF|G>AG GFE:|
+P:E
+D3D3|D3 ABc|D3D3|G>AG GFE|
+D3D3|D3D3|G>AB cAF|G>AG GFE:|
+P:F
+[e3A3][f3B3]|BAG FED|[e3A3][f3B3]|G>AG GFE|
+[e3A3][f3B3]|BAG FED|G2B cAF|G>AG GFE "_DS":|

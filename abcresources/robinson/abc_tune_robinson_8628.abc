@@ -1,0 +1,22 @@
+X: 161
+T:Miss McInnes's Reel -- Dandaleith
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:55 - 3
+K:F major
+%%staves {1 2}
+V:1
+d | \
+cF F/F/F (dc)BA | GABc dGBd | cF F/F/F (dc)BA | cfeg fFB :|
+d | \
+cfAf cfaf | egba gGBd | cfAf Bfcf | cfeg fFBd | \
+cfAf cfaf | egba gGBd | bgaf (ag)fe | (gf)ed cFB |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | gggg | ffff | fc'ff/ :| \
+z/ | ffff | gggg | ffba | bc'fB | ffff | gggg | efff | ccFB |]

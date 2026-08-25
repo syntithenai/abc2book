@@ -55,6 +55,12 @@ describe('abcImportNormalize', function() {
     expect(needsSessionLineBreakFix('A !p! B')).toBe(false)
   })
 
+  test('needsSessionLineBreakFix ignores lyric punctuation bangs', function() {
+    const withLyrics = miniAbc('CDEF|GABc|').concat('\nW: Amazing grace! how sweet the sound,\nW: That saved a wretch like me!')
+    expect(needsSessionLineBreakFix(withLyrics)).toBe(false)
+    expect(convertSessionLineBreaks(withLyrics)).toBe(withLyrics)
+  })
+
   test('convertSessionLineBreaks fixes user reel repeat section bar count', function() {
     const raw = miniAbc(USER_REEL_BODY)
     const normalized = convertSessionLineBreaks(raw)

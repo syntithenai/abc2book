@@ -1,0 +1,22 @@
+X:1
+T:Bourrèe
+C:J.S. Bach
+M:C|
+K:G major
+%
+V:1
+ef | g2 fe ^d2 ef | B2 ^c^d e2 =d=c | B2 AG F2 GA | BAGF E2 \
+ef | g2 fe ^d2 ef | B2 ^c^d e2 =d=c | B2 AG F3 G | G6 ::
+BG | d2 Ac B2 gd | e2 Bd c2  BA | ^G2 AB c2 BA | A6 \
+dA | B2 gd e2 Bd | c2 ae f2 ^ce | d2 ^cB ^A3 B | B4 z2 \
+bf |  ^g2 fe a2 e=g | f2 ed g2 d=f | e2 ae f2 ^ce | ^d2 B4\
+eB | c2 dA B2 cG | A2 BF G2 FE | ^D2 EF G2 FE | E6 :|]
+%
+V:2
+[L:1/4]
+G/F/ | E A B A | G F E F | G A B A | G B E/F/G/F/ | \
+E A B A | G F E F | G c d d | [GBd]3 ::
+G | F d G B | c ^G A d | e A e E | A/B/A/G/ F d | \
+G B c ^G | A ^c d ^A | B e f F | B/^A/B/^c/ ^d B | \
+e d ^c A | d c B G | c B A F | B > c B/A/ ^G | \
+A/e/ f G/^d/ e | F/^c/ ^d E A | B A B2 | E3 :|]

@@ -1,0 +1,18 @@
+X:1
+T: Galopp GD (gL07237) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.99  (gL07237) orig. GD
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"G"g2b2 | "D7"d'/d'/.d' d'/d'/.d' |:"G"d2 b>f | g2B>e | d2 (^cd) | ed Bd | "D7"d2 c'>^g | 
+a2f>e | d2 ^cd | ed Ad | "G"d2b>f | g2g>f | "C"e2c'>^g | a2f>e | 
+"D7"d2e>f | "G"g2B>e | "D7"d2c>A | "G"G2z2 :: [K:D] "D"a2 ^g/a/b/a/ | fa df | "A7"g2 f/g/a/g/ | 
+ce Ac |"D" Ad/f/ ad | "G"Bd/g/ bd | "A7"ce/f/ g/a/b/c'/ | "D"d'd' d'z :| [K:G] "G"BB/c/ dB | gg/f/ e/d/c/B/ | 
+"D7"AA/B/ cA | aa/g/ f/e/d/c/ | "G"Bg/f/ "C"ee/d/ | cc/B/ AA/G/ | "D7"FA df | "G"ag.g2 |] 
+% gL07237 
+% April 11, 2018

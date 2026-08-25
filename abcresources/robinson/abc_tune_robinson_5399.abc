@@ -1,0 +1,19 @@
+X:156
+T:Polka CGF (pk07303)  ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.282 (pk07303) orig. G,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C" (Ge).e2 c2c2 | ("G7"Ba).a2g4 | (gb).b2 bafd | ("C"ca).a2 agec | (Ge).e2 c2c2 | ("G7"Ba).a2g4 | (GB).B2 BAFD | "C"c2c2 c2"_Fine"z2 :| [P:B] [K:G] 
+|: ("D7"Dc).c2 cBAc | "G"B2D2G4 |  "D7"ABc2 def2 | "G"GABc d4 |  ("D7"Dc).c2 cBAc | "G"B2D2G4 | ("D7"AB).c2 (DE).F2 | "G"G2G2 G2"_>Teil A"z2 :| [P:C] [K:F] [L:1/8] 
+ "F"A>B cd | CF Ac | "Gm"dG/A/ "C7"BE | "F"FA c>B | A>B cd | CF Ac | "Gm"dG/A/ "C7"BD/E/ | "F"FA F"_>Teil A"z |] 
+%W:Parts: ABACA
+%% pk07303
+% June 9, 2017

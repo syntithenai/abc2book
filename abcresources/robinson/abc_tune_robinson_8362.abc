@@ -1,0 +1,28 @@
+X: 42
+T:Miss Admiral Gordon's Strathspey
+T:or Of a' the airts the wind can blaw
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:16 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slow when not danced"
+E | \
+A/A/A .A<.A A>E A<f | (e<c)(!trill!B>A) {G}F2 (F>E) | \
+A/A/A .A<.A A>E A<f | e>f a<c e2 (e>f) |
+e>f a<c (e<c)(!trill!B>A) | !trill!B>c (d/c/)(B/A/) F2 (FE) | \
+A/A/A (.[CA].A) [CA]>E A<f | e<c!trill!B>c [CA]2 [CA] ||
+E | \
+(C>E) (A>E) (!trill!F>E) (A>E) | ~c>e (d/c/)(B/A/) {A}F2 (FE) | \
+(C>E) (A>E) (!trill!F>E) (A>E) | ~c>d (e/f/)(g/a/) {f}e2 (e>g) |
+(a>g) (!trill!f>e) (!trill!f>e)(d>c) | !trill!B>c (d/c/)(B/A/) {G}F2 (FE) | \
+A/A/A (.[CA].A) [CA]>E A<f | e<c!trill!B>c [CA]2 [CA] |]
+V:2 clef=bass octave=-2
+z | A2a2A2cd | A2Bcd2D2 | A2a2A2a2 | A2a2Aac'd' | c'd'c'2a2d'c' | gabc'd'2D2 | A2a2A2cd  | e2E2A2a || \
+z | A2c2d2c2 & A,8 | A2Bcd2D2 | A2c2d2c2 & A,8 | A2a2g2ee' | f'e'd'c' d'c'ba | ga bc' d'2d2 | A2a2A2cd | e2E2A2a |]

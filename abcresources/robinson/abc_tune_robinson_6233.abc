@@ -1,0 +1,24 @@
+X:1
+T:Garibaldi-Schottisch  GDC ( st07058) ABCDAB
+T:Hanny Christen. Bd.V  Basel II, Jura. S.163  ( st07058) orig. G,D,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCDAB
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"G"gd Be | dB GB | "D7"B2A2 | .d2zd [P:A] |: "G"gB B/A/B | "D7"dc c/B/c | f>e f>e | ("G"d2B)d | 
+"G"gB B/A/B | "D7"dc c/B/c | f>e df |1 "G"gg gd :|2 "G"gg f>g || [P:B]  [K:D] "D"a3d | "A7"cc BA | ("D"A2F2) | a2f>g |  
+a3d | "A7"cd f>e | "D"dd/d/ dd | "_Fine?"d2z2 || [P:C] [K:G] "_Lied""G"d2g>f | (e2d2) | B2e>d | ("D7"d2c2) | AA/A/ AB | cA zd | 
+(f>e) (f>e) |  ("G"d2B2) | d2g>f | (e2d2) | B2e>d | ("D7"d2c2) | AA/A/ AB | cA zd | f>e d/c/B/A/ | "G"GG Gg || [K:C] 
+[P:D] |: "C"e3g | e3g | ef/e/ de | ("G7"g2f)f | d3f | d3g | b>b "F"a>a | ("C"g2e)g | e3g | 
+e3g | ef/e/ de | ("G7"g2f)f | d3f | d3g | b>a g/f/e/d/ |1 "C"cc cg :|2 "C"cc "_>Teil A"cz || 
+W:
+%W:Parts: ABCDAB (Fine?)
+%W:Anmerkung H.C.: 
+% st07058
+% June 26, 2018

@@ -1,0 +1,23 @@
+X:1
+T:Walzer  F (wz07837)
+T: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.195  (wz07837) orig. F
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] c/c/ | "F"ca2 | "C7"agg | "F"e/f/f2 | fAc | "Gm"c/d/d2 | "C7"dEF | "F"A/c/c2 | cFA | ca2 | 
+"C7"agg | "F"e/f/f2 | fAc | "Gm"c/d/d2 | "C7"c/e/e2 | g/b/b>e | "F"fzf/e/ || [P:B] "Bb"db/b/ b/b/ | b>d' c'/b/ | 
+"F"ba(a/c'/) | f2(f/a/) | "C7"ag(g/b/) | e2(e/g/) | "F"gf(f/a/) | c2(f/e/) | "Bb"db/b/ b/b/ | b>d' c'/b/ | "F"ba(a/c'/) | f2(f/a/) | 
+"C7"ag(g/b/) | e2(e/g/) | "F"fa>g | fz ((3c/d/e/) || [P:C]  "F"ff/f/f | fac | "C"ee/e/e | egc | "C7"bb/b/b | bd'e | 
+"F"ff/f/f | fac | ff/f/f | fe_e | "Bb"dd/d/d | dcB | "F"f/f/f2 | "C7"e/e/e2 | "F"f/f/f"C7"e | "F"fzz |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% wz07837
+% Aug 15, 2018

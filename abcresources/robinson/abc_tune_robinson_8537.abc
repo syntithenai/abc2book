@@ -1,0 +1,25 @@
+X: 102
+T:Tombreakachie's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:36 - 1
+K:D major
+%%staves {1 2}
+V:1
+(B | \
+A)>.D A<F EB,B,(B | A)>.D A<F ADAF | \
+~G>A B/A/G/F/ EB,B,(B | A)>.D A<F ADD :|
+(f | \
+d)>.f.d>f eEE(f | d)>.fd>f BdAF | \
+G<eF<d Eeeg | f<d!trill!e>c dDD(f |
+d)>.fd>f eEE(f | d)>.fd>f BdAF | \
+G<eF<d Eeeg | f<d!trill!e>c dDD |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ddee | dddd | gfee | dddd/ :| \
+z/ | ddee | ddgf | edcA | dAdd | ddee | ddgf | edcA | dAdd/ |]

@@ -1,0 +1,31 @@
+X:34
+T:Lady of the Lake,3parts. JNu.35
+M:6/8
+L:1/8
+Q:3/8=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Jig
+O:England
+A:Lancashire, E
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:A major
+[V:1] |: e | cdB A2E | A2E A2E | cdB A2c | Bee e2d |
+[V:2] |: E | CEG CEG | CEG CEG | ABA CEG | Gccc2f |
+[V:3] |: z | A,,2A,,A,,2A,, | A,,2zA,,2z | A,,2A,,A,,2A,, | F,E,E,E,2z |
+%
+[V:1] cdB A2E | F2E A2E | F2E F2E | FAA A2 :|
+[V:2] CEG CEG | CEG CEG | CDA CDA | CCCC2 :|
+[V:3] A,,2A,,A,,2A,, | A,,2A,,A,,2A,, | C,2zC,2z | A,,A,,A,,A,,2 :|
+%
+[V:1] |: z | c2c dcd | e2e efg | a2g f2e | edc B3 |
+[V:2] |: z | A2A BAB | c2c cde | f2ed2c | cBAG3 |
+[V:3] |: z | A,,2zE,2z | A,2zA,,2z | A,2zA,2z | E,2zE,2z |
+%
+[V:1] c2c dcd | e2e efg | a2f b2a | gaf e2 :|
+[V:2] A2A BAB | c2c cde | f2dG2F | E2EC2 :|
+[V:3] A,,2A,,A,,2A,, | A,,2A,,A,,2A,, | A,,2zB,,2z | E,2zE,2 :|

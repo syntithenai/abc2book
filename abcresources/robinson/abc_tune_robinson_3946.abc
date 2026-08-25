@@ -1,0 +1,19 @@
+X:11
+T: Dreher 1836 (Schottisch)  FBb (st08920)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.15 (st08920) orig. F,Bb-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+!>!"A7"g4 !>!^c'4 | !>!"Dm"d'4z2(a2 | "Gm"b2)^f2 g2e2 | "C7"c4z2a2 | {/a}g2f2 g2a2 | "F"f6de | {/g}"Dm"f2e2 f2g2 | "C"e6ed | "C7"c2dc =Bcde | 
+"F".f2!>!a4gf | "C7"fedc =Bcde |1 "F"g4.f4 :|2 "F"g4 f2ab |: "F"c'^gae f2ab | c'^gae f2fe | {/e}"Bb"d^cdc d2f2 | 
+"F"=B4 c2fg | a2ag f2fe | "Bb"d2dc B2BA | "C7"G2c2 d2e2 |1 "F"f4z2ab :|2 "F"f4z2f2 |: [K:Bb] "F7"g2>fe/ c2A2 | _G4 F2=GA | 
+"Bb"B2c2 d2e2 | (=e4f2)gf | "F7"e2fe d2ed | c2dc "C7"=Bcd=e | "F"f2f2 "C7"gb=eg | "F"f4z2f2 | "F7"g2>fe/ c2A2 | _G4 F2=GA | 
+"Bb"B2c2 d2e2 | (!>!=e4 f2)ba | "Eb"g2gf e2ed | c2dc =Bceg | "F7"f2f2 g2a2 |1 "Bb"b4z2f2 :|2 "Bb"b4z2d^c || "D7"d2=e2 ^f2g2 | 
+^g4 a2d^c | d2^f2 g2a2 | ("Gm"c'4b2)g^f | g4z2ga | b4z2^c2 | "D7"d4d'4 | d'4z2f2 |: "F7"g2>fe/ c2A2 | 
+_G4  F2=GA | "Bb"B2c2 d2e2 | =e4f2ba | "Eb"g2gf e2ed | c2dc =Bceg | "F7"f2f2 g2a2 |1 "Bb"b4z2d^c :|2 "Bb"b4z4 |] 
+% st08920

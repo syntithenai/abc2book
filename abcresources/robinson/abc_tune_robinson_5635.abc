@@ -1,0 +1,26 @@
+X:22
+T: Zwirz-Juiz  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+C:
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjuiz
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam" F/F/ | D>C B,/D/ | B>AG | F>A A, | C2F/A/ | E>C A,/C/ | 
+c>A G/A/ | (B3 | B)z F/F/ | D>C B,/D/ | B>AG | 
+F>AA, | C2 F/c/ | E>C A,/C/ | c>A G/A/ | (B3 | B)z || 
+[P:B] [M:2/4] "übermütig" B,/D/ F/d/ | B/F/ D/B,/ | A,/C/ F/A/ | E F/F/ | F/e/  c/A/ | Fe |  d B/G/ | F2 | 
+B,/D/ F/d/ | B/F/ D/B,/ | C/E/ G/E/ | C>B, | A,/C/ "rit."A/F/ | E/A,/ C/F/ | (B,2 | B,)z || 
+[P:C] 
+[M:3/4]"getragen" DCB, | A,>GF | GFE | D>dB | DFB | A>cE | CEG | F>B !fermata!D  | 
+DCB, | A,>GF | GFE | D>dB | DFB | A>cE | ed c/A/ | !fermata!B3 |] 
+W: Parts: A-B-C-B-C
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-10
+W:http://www.naturjodler.ch/tradition-1.htm  (with AUDIO)
+%April 21, 2018

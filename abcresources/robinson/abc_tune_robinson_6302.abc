@@ -1,0 +1,22 @@
+X:1
+T:Der schöne Ferdinand  (Walzer)   CGF  (wz06747) ABAC
+T: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.77  (wz06747) orig. C,G,F
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"G7"g2G | G2z | dze | fzz  [P:A] |: "C"eca | gze | "G7"fzf | B3 | def | agf | ("C"g3 | e) zz | 
+eca | gze | "G7"fzf | B3 | def | agB | ("C"c3 |1 c)zz :|2 czd || [P:B] [K:G] "D7"c'zc' | c'zd | "G"bzb | 
+bzg | "C"g2e | gfe | "G"d2z | zzd | "D7"c'zc' | c'zd | "G"dzb | bzb | (!>!"C"a2e) | "D7"fed | "G"gde | 
+"G7"=fed || [K:F] c | "C"c'zc | "F/C"c'zc | ("C7"c'3 | c')zz  [P:C] |: "F"a2c' | azf | cfa | ("Gm"a2g) | (d'2c') | 
+("C7"b2g)  | "F"fza | !>!"C7"g3 | "F"ac'b | azf | cfa | ("Gm"a2g) | !>!e'2d' | "C7"c'za | !>!b2g |1 "F"fzc :|2 "F"czz |] 
+W:
+W:Anmerkung | H.C: Eptingen/Böckten, Rothenfluh, Olsberg, Bottmingen, Gunten, Oberdorf
+% wz06747
+% Jan 29, 2018

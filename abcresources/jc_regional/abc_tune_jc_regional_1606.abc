@@ -1,0 +1,28 @@
+X: 78
+T: Cinege
+O: Hungary
+S: Judith Magyar
+M: 2/4
+L: 1/8
+Q: 1/4=120
+P: ABB
+K: Gm
+P:A
+%%MIDI program 19
+%%MIDI chordprog 64
+%%MIDI bassprog 45
+%%MIDI chordvol 70
+%%MIDI bassvol 100
+|: "F"ccdc   |"Gm"B2G2  |"F"FFGA   |"Bb"B4      |
+   "F"ccdc   |"Gm"B2G2  |"F"FFBA   |"Gm"G4      |
+   "Gm"cGFG  |E2C2      |"Bb"B,B,CD|"Eb"E4      |
+   "F"FFGF   |"Cm"E2C2  |"F"B,B,ED |"Cm"C4      :|
+P:B
+%%MIDI program 110
+%%MIDI gchordoff
+z4\
+%%MIDI gchordon
+Q: 1/4=130
+|: "F"cfff   |ffff      |"Cm"gfe2  |"F"fccc/d/  |
+   cc/d/c2  :||:"F"f_dcB|"Cm"c2^GF |"Bb"BBcd    |
+   "Eb"e2cB  |^GGB2     |"F"cFFE/G/|FE/G/F2     :|

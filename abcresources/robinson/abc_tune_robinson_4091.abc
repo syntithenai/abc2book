@@ -1,0 +1,19 @@
+X:140
+T: Polka 1870/75  GC (pk08982)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.43 (pk08982) orig. G,C-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+"G"Bed2 G2B2 | "D7"Bdc2 F2A2 | cgf2 dba2 | "G"Bag2 dc'b2 | Bed2 G2B2 | "D7"Bdc2 F2A2 | cgf2 dba2 | "G"g2g2 g2z2 :| 
+"B7""_(1)"b2b2 b3a | "Em"g2f2e4 | E^DEB !>!"B7"A4 | FEEc !>!"Em"B4 | "A7"a2a2 a3g | "D"f2e2d4 | "A7"d^ccb a2c2 | "D"d4z4 ||
+("D7"c2f2) (f2a2) | ("G"B2g2) (g2b2) | "D7"c'ba2 a2d2 | "G"bag2 g2B2 | ("D7"c2f2) (f2a2) | ("G"B2g2) "C"e3g | "G"edBG "D7"^CDBA | "G"G2G2 G2"_Fine"z2 |] [K:C]
+|: "G7"gff2 fefg | .f2!>!d4.f2 | "C"e3f g2ga | g2ga gec2 | "G7"gff2 fefg | f2!>!d4f2 | "C"e2ag "G7"d2ed | "C"c2e2 c2z2 :| [K:G] 
+|: "G"dGe2 d^cd2 | g2da b^ab2 | "D7"bac2 bac2 | "G"agB2 agB2 | dGe2 d^cd2 | g2da b^ab2 | "D7"bae2 gfd2 | "G".g4"_>Teil C"!>!g4 :| 
+W: Parts: ABCDE-C
+W: (1) the orig. has "H7" (Swiss notation)
+% pk08982

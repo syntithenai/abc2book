@@ -1,0 +1,66 @@
+X:13
+T:Green Ginger
+C:From Steel Skies by Alistair Anderson
+M:4/4
+L:1/8
+K:D major
+V:1
+D2 | GFGF BDFA | GB d2-d2 fe |: dfaf gfed | cdef e2 fg |
+V:2
+z2 | z8 | z4 z2 A2 |:dcde dAGA | GE E2-E2 FE |
+V:1
+"5"afdB A2 FG | ABAF E2 FE | DFAd gfeg | fe d2-d2 cB |
+V:2
+DF d2-d2 fe | defa gfeg | afdB A2 EC | DEFA G2 FG |
+V:1
+"9"AECE AFDF | AEFA defa | ge c2-c2 fe | defa g2 fg |
+V:2
+Aceg fedf | ec d2-d2 cB | AECE A,CDE | FA d2-d2 FA |
+V:1
+"13"abaf gd B2 | efed cBAG | FA d2-d2 ef | gece d2 ef |
+V:2
+d2 dA GFED | CD E2-E2 FG | AFDE FGAF | BAGA BABd |
+V:1
+"17"ge c2-c2 ge | fafd AFED | FA A2-A2 GF | GABe c3 A |
+V:2
+cBAB cdeg | fe d2-d2 df | abaf defa | bgec AGEC |
+V:1
+"21"defa geag | fdaf ecAG | FAdf gAcg |1 fe d2-d2 D2 |
+V:2
+DF A2-A2 FE | DFAF E2 FE | DEFA GEAG |1 FDAF GABd |
+V:1
+"25"GFGA BDFA | GB g2-g2 fe :|2fe d2-d2 g2 |
+V:2
+gdBG FGA=c | BA G2-G2 A2 :|2 FDAF GECE |
+V:1
+|:"28"fg a2 ef g2 | de f2-f2 ed | ecAF EFGc | ecac B2 ed |
+V:2
+|:FA,DF ECGE | FE D2-D2 CD | EF A2 CD E2| A,CEF E2 AB |
+V:1
+"32"ce g2-g2 fe | fgaf fdAF | GABd cdeg | af d2-d2 eg |
+V:2
+cAEC A,CDE | FAde FG a2  | ef g2 cd e2 | fdAF G2 E2 |
+V:1
+"36"fdAf gdBg | agfd gdBG | AB c2-c2 AB | cdef g2 fg |
+V:2
+FADF GABd | ge d2-d2 eg | aeca gecg | aecA ECA,C |
+V:1
+"40"fdcd Ad c2 | GABd g2 fg | a^gab a=geg | fe d2-d2 df |
+V:2
+DF A2-A2 fa | gbgd B2 AG | ECA,C EGFE | FEDE FAGF |
+V:1
+"44"gd B2-B2 dB | A2 dA F2 GA | GB e2-e2 Ac | d2 fa g2 fg |
+V:2
+GBdg b2 af | ge d2-d2 gf | eBGE B,GEC | AF D2-D2 GB |
+V:1
+"48"af d2 ge c2 | defd A2 FD | GABd gfeg |1 fe d2-d2 g2 :|2 fe d2-d2 D2 |
+V:2
+d2 AF E2 Ac | df a2-a2 ba | g2 gb aece |1 dAFD GBAG :|2 dAFA GABd |
+V:1
+"53"GFGA BDFA | GB g2-g2 fe | dfaf gfed | cdef e2 fg | afdB A2 FG |
+V:2
+gdBG FGA=c | BA G2-G2 A2 | dcde dAGA | GE E2-E2 FE | DE d2-d2 fe |
+V:1
+"58"ABAF E2 FE | DFAd gfeg | fe d2-d2 g2 |"rall   -    -    -   -    -   -      -   -    -   -   -" fg a2 ef g2 |  fe d2-d4 |]
+V:2
+defa gfeg | afdB A2 EC | DEFA G2 AG | FDFA EAce | fe d2-d4 |]

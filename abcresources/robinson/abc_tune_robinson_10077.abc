@@ -1,0 +1,23 @@
+X: 151
+T:Mill of Laggan, a Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+M:C|
+O:Scotland
+R:Reel
+%%Page:52 - 3
+Z:Clark Bernst + Richard Robinson
+K:F major
+%%staves {1 2 }
+V:1
+A | FAcf ~f2 (ef) | gaba gGGA | FAcd ~d2(ef) | afge fFF :|
+B | \
+A(B/c/) cA (Bc/d/) (dB) | (de/f/) (fd) eccb | \
+afge ~f2 (dB) | (AB/c/) (GB) AFFB |\
+(AB/c/) cA (Bc/d/) dB | (de/f/) (fd) eccb | \
+afca gece | fdcB AF F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | gggg | ffff | c'cff/ :| \
+z/ | fabb | g=bc'c' | fbab | c'cff | \
+fabb | g=bc'c' | ffc'a | bc' ff/ |]

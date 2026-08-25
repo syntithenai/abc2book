@@ -1,0 +1,35 @@
+X:63
+T:Miss McInnes Fancy
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:26 - 2
+K:A major
+%%staves {1 2}
+V:1
+c | \
+A,AA>c  A,<AA>c          | A,<A AB/c/    ~d2 d>e | \
+f<dd>B  e<cc>A  & G2E2x4 | B>c  (d/c/)B/A/ {G}F2 F>c |
+A,<AA>c A,<AA>c          | A,<A AB/c/    d2 d>e | \
+f<dd>B  e<cB>A  & G2E2x4 | B>c  d/c/B/A/ {G}F2 F |]
+f | \
+e>fe>c   a<e ec/d/ | e>f e<c  a2   ef/g/ | \
+ag{g}f>e d>c{c}BA  | G<BB>c  [dA]2 [dB]>e |
+e>f e<c  {c}ae ec/d/  | e>f e<c {c}a2 ef/g/ | \
+a/g/f/e/ f/e/d/c/ d/c/B/A/ G/F/E/D/ | E<BG>E [CA]2 [CA] & D2D2x4 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[A,A][A,A][A,A][A,A] | [A,A][A,A][Dd][Dd] | \
+[Ee][Gg][Aa][ca]/c'/ | [dd'][Bb]/[ca]/[da][da] | \
+[A,A][A,A][A,A][A,A] | [A,A][A,A][Dd][Dd] | \
+[Ee][Gg][Aa][Cc] | [dd'][Bb]/[ca]/[da][da]/ |] \
+z/ | \
+[ac'e'][ac'e'][ac'e'][ac'e'] | [ac'e'][ac'e'][ac'e'][ac'e'] | \
+c'/e'/d'/c'/ e'e' & A,A,G,/A,/B,/C/ | [ee'][ee'][fd'][ge'] | \
+[ac'e'][ac'e'][ac'e'][ac'e'] | [ac'e'][ac'e'][ac'e'][ac'e'] | \
+[ac'e'][ac'e'] [ge']/[ae']/[be']/[eg]/ | [Ee][Ee][Aa][Aa]/ |]

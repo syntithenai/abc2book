@@ -1,0 +1,33 @@
+X:65
+T:New Coldstream March,(Melody). WCl.65
+M:4/4
+L:1/4
+Q:1/2=90
+S:William Clarke MS,Lincoln,1770.
+R:March
+O:England
+B:Village Music project, Clarke, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/clarke.abc
+K:D major
+Z:vmp.Barry Callaghan
+K:D
+[V:1]d2f2|agfe|d2A2|BB ({B/4c/4}d)c/2B/2|!
+[V:2]D2F2|AGFE|D2F2|GG{GA}BA/2G/2|!
+%
+[V:1]A>BAA|BB {B/4c/4}dc/2B/2|A>BAd|c>edf|!
+[V:2]F>GFF|GG{GA}BA/G/|F>GFF|AGFd|!
+%
+[V:1]e>gff|edcd|e>fea|a2~^g2|a2z/4A/4B/4c/4:|!
+[V:2]c>edd|cBAB|c>dcc|B2B2|c2z/4A/4B/4c/4:|!
+%
+[V:1]|:dddf/e/|dBGg/2f/2|eeea|g~fez/4A/4B/4c/4|!
+[V:2]|:d2F2|GGGe/d/|cccf|e"tr"dcz/4A/4B/4c/4|!
+%
+[V:1]d2f2|agfe|d2A2|BB ({B/4c/4}d)c/2B/2|!
+[V:2]d2f2|agfe|d2F2|GG{GA}BA/G/|!
+%
+[V:1]A>BAA|BB ({B/4c/4}d)c/2B/2|A>BAA|gg ({g/4a/4}b)a/2g/2|!
+[V:2]F>GFF|GG{GA}BA/G/|F>GFF|Ee{ef}gf/e/|!
+%
+[V:1]fgad'|f2~e2|1d3z/4A/4B/4c/4:|2d4|]
+[V:2]deff|d2"tr"c2|1d3z/4A/4B/4c/4:|2d4|]

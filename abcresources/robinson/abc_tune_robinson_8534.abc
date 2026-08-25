@@ -1,0 +1,19 @@
+X: 167
+T:the Road to Berwick
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 3
+K:D major
+%%staves {1 2}
+V:1
+F<DAF BGAF | DAdf e2 E2 | F<DAF BGAF | Adce d2 D2 ::
+(f/g/a) (fd) bgag | (f/g/a) (fd) b2 (eg) |1 (f/g/a) (fd) bgag | fdec d2 D2 :|2\
+ fdge afbg |fdec d2 D2 |]
+V:2 clef=bass octave=-2
+L:1/4
+dddd | ffee | dddd | aAdd :: \
+dddd | ddee |1 dddd | aAdd :|2 defg | aAdd |]

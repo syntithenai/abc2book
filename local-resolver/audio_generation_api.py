@@ -31,6 +31,7 @@ from music_generation.task_catalog import (
     TASK_LINKED_COVER,
     TASK_PRACTICE_TRACK,
     backends_payload,
+    ensure_preset_model_available,
 )
 
 _audio_generation_tasks: dict[str, asyncio.Task] = {}
@@ -97,9 +98,11 @@ async def get_audio_generation_backends(
     try:
         await maybe_require_auth(authorization)
         health = _provider_health()
+        model_ids = health.get("availableModelIds")
         body = backends_payload(
             sidecar_ok=bool(health.get("ok")),
             midi_render=health.get("midiRender") or {},
+            available_model_ids=model_ids if isinstance(model_ids, list) else None,
         )
         body["provider"] = health
         return JSONResponse(content=body, headers=cors_headers(origin))
@@ -217,10 +220,18 @@ async def post_generate_audio(
         await maybe_require_auth(authorization)
         if not audio_generation_feature_enabled():
             raise HTTPException(status_code=503, detail="Audio generation disabled")
-        require_audio_generation_provider_ready()
+        health = require_audio_generation_provider_ready()
+        model_ids = health.get("availableModelIds")
+        if not isinstance(model_ids, list):
+            model_ids = None
 
         task = (task_id or TASK_PRACTICE_TRACK).strip()
         preset = (preset_id or "fast").strip()
+        try:
+            ensure_preset_model_available(task, preset, model_ids)
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+
         job_id = create_job_id()
 
         if task == TASK_PRACTICE_TRACK:

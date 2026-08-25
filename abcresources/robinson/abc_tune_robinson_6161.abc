@@ -1,0 +1,24 @@
+X:1
+T:Polka  CF (pk07870)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.208  (pk07870) orig. C,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABCDE
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"g/f/e/f/ gc' | "G7"c'bd2 | f/e/d/e/ fa | "C"a/g/e/g/ e2 | g/f/e/f/ gc' | "G"c'b d'>c' | "D7"b>a b>a | "G"gg gz :| 
+[P:B] |:"G7"f/e/d/e/ f/g/a/b/ | "C"c'e ga/g/ | "G7"fd fg/f/ | "C"gc' ge | "G7"f/e/d/e/ f/g/a/b/ | "C"c'e ga/g/ | "G7"gf ge/d/ |1 "C"cc cz :|2 
+"C"cc cf/f/ |: [K:F] [P:C] "F"f2 ca/a/ | a2fc'/c'/ | c'a fa | "C7"g/c/e/g/ c'e/e/ | e2 cg/g/ | g2 eb/b/ | bg eg |1 
+"F"ff ff/f/ :|2 "F"ff fz || [K:C] [P:D] "C"e2zf | g3a | gc' ea | "G7"gfd2 | d3e | f3g | fa gf | 
+"C"ec'g2 | e3f | g3c' | ed cB | "Dm"A3a | !>!"G7"a2!>!b2 | "C".c'2.d'2 | "G7"c'b a>b | "C"c'c' c'z || 
+[P:E] "C"e>d e>d | e/d/e/f/ ge | "F"a/f/a/f/ ac'/a/ | "C"ggg2 | "G7"fe f/e/f/g/ | "C"ec'/a/g2 | "G7"b/a/f/a/ gb | "C"c'c' c'z |] 
+W:
+%W:Parts: ABCDE
+W:Anmerkung H.C.: 15. März 1913, Benken, Avenches
+%W:Anmerkung Hrsg,:
+% pk07870
+% July 23, 2018 (vedicpandits.org)

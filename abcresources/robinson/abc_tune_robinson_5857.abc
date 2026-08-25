@@ -1,0 +1,36 @@
+X:8
+T:druber inä. 2014  CFBb  ABCD
+T:Daniel Wallimann  (* 30.1.1970)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major 
+[P:A] EGcA | G2E2 | FGBA | G2F2 | FGBA | G2F2 | EGcA | G4 | 
+EGcA | G2E2 | FGBA | G2F2 | FGBA | G2Fd | (c4 | c2)z || 
+M:4/4
+[P:B] E2Gf | e2c2 | Gcde | d4 | G2Bf | e2d2 | 
+cBAA | G4 | E2Gf | e2c2 | Gcde | d4 | 
+G2Bf | e2dG | e2c2 | c3z ||  
+M:3/4
+K:F
+[P:C]  C| F2G | A2c | B2A | G2G | A2A | B2A | (G3 | G2)C | 
+A2B | c2e | d2c | B2B | c2c | Bdc | (A3 | A)zz ||  
+M:4/4
+K:Bb
+L:1/4
+[P:D] F>F | fded | B2F>F | fded | c2F>F | fded | 
+c2F>F | fede | d2F>F | fded | B2F>F | fded | c2F>F | 
+fded | c2F2 | c2d2 | B2FF | fded | B2FF | fded | 
+c2FF | fded | c2FF | fede | d2FF | fded | B2FF | 
+fded | c2FF | fded | c2cd | e>fdc | B3z |] 
+W:%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. Angaben Daniel Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 29-05
+W:http://www.naturjodler.ch/code 29.htm  (with AUDIO)
+%May 28, 2018

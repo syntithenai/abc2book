@@ -321,6 +321,37 @@ for (var filenameKey in fileNames)  {
 
 //if (isFile) files.push({ filepath, name, ext, stat });
 };
+
+folderKey = 'jc_regional'
+folderIndex = 7
+dir = __dirname+'/'+folderKey+'/'
+if (fs.existsSync(dir)) {
+  fileNames = fs.readdirSync(dir)
+  for (var filenameKey in fileNames)  {
+      var filename = fileNames[filenameKey]
+      if (filename.startsWith('abc_tune_')) {
+          processFile(filename,dir,folderIndex,folderKey)
+      }
+      count++
+      if (count > limit) break;
+  }
+}
+
+folderKey = 'robinson'
+folderIndex = 8
+dir = __dirname+'/'+folderKey+'/'
+if (fs.existsSync(dir)) {
+  fileNames = fs.readdirSync(dir)
+  for (var filenameKey in fileNames)  {
+      var filename = fileNames[filenameKey]
+      if (filename.startsWith('abc_tune_')) {
+          processFile(filename,dir,folderIndex,folderKey)
+      }
+      count++
+      if (count > limit) break;
+  }
+}
+
 console.log("MOVE",toMove)
 console.log("NO MOVE",noMove)
 

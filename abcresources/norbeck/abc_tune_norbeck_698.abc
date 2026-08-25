@@ -1,0 +1,23 @@
+X:358
+T:McGoldrick's No. 2
+T:Mike McGoldrick's
+R:jig
+C:Michael McGoldrick
+Z:id:hn-jig-358
+M:6/8
+L:1/8
+K:D
+fef efg | fdA GFE | FAd GBd | FAd B/c/de |
+fef efg | fdA GFE | FAd GBd |1 Adc d2e :|2 Adc d2c ||
+|: ~B3 BAF | ~f3 fec | ~e3 fec | Ace fec |
+~B3 BAB | ~f3 fec |1 ~e3 fec | BcA B2A :|2 ede ~f3 | gfg a2g ||
+P:variations
+|: ~f3 gfg | fdA GAG | ~F3 GFG | AF/G/A cde |
+~f3 gfe | fdA ~G3 | FEF ~G3 |1 Adc d2e :|2 Adc d2c ||
+|: BcB BAB | f^ga fec | ece fec | Ace aec |
+BcB BAF | f^ga fec |1 ece fec | BcA B2A :|2 ~e3 fef | ~g3 a2g ||
+P:more variations
+|: ~f3 efg | fdA ~G3 | FAd GBe | Acd efg |
+~f3 efg | fdA ~G3 | FAd GBe |1 Adc d2e :|2 Adc dec ||
+|: B3 BAB | f2a fec | ~e3 fec | Ace fec |
+~B3 BAB | fea fec |1 ece fec | BcA B2A :|2 ece fef | gfg a2g ||

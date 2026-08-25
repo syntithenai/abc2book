@@ -1,0 +1,18 @@
+X:48
+T: Fröhlich beim Wein (nach G. Linder)  FC (st06017)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.305 (st06017) orig. F,C-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+cc |: "F"c2a2 f2A2 | ccc2 c2f2 | "C7"e2ec d2c2 | b6c2 | e2ec d2c2 | b2c2 d2e2 |1 "F"f2fc d2c2 | a2a2 a2cc :|2 
+"F".d4 "C7"c2de | "F"f2f2 f2z2 || [K:C] "G7"g3f gfdB | g3f gfdB | "C"a3g agec | G2G2G4 | "G7"fedc Bcde | f2f2f4 | 
+"C"e3G c2e2 | g2g2 g2z2 | "G7"g3f gfdB | g3f gfdB | "C"a3g agec | G2G2G4 | "F"A2ff f2A2 | "C"G2c2e4 | 
+"G7"B2dB gfdB | "C"c2c2 c2z2 || [K:F] [L:1/8] "F"A3c | aa zc | .a2g>f | "C7"ee e2 | G3B | ee zd | e2d2 | 
+"F"ccc2 | A3c | aa zc | "F"a2 "F7"g>f  | "Bb"ddd2 | "C7"gf ed | "F"c!>!f2A | "C7"c!>!B2E | "F"FF Fz |] 
+% fröhlich (merry), Wein (wine)
+% st06017

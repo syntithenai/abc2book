@@ -1,0 +1,26 @@
+X: 137
+T:the Banks of Spey, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:48 - 1
+K:A minor
+%%staves {1 2}
+V:1
+[A,EA]2 (A>B) (A>B)(c>e) | d<c!trill!B>A {A}G2 G2 | \
+[A,EA]2 (A>B) (A>B)(c>d) | e>cde g2 ~g2 |
+a>ge>c d<eg<a | (e<g)(g>B) G2 (GB) | \
+(A<E)(A>B) c>de>g | e<d!trill!c>B {B}A2 A |]
+c | \
+(A<E)(A>c) (A<E)(A>c) | ~B>cdB ~G2 (GB) | \
+(A<E)(A>c) (A<E)(~c>d) | e>cde g2 ~g2 |
+a>g e<c dega | (e<g)(g>B) G2 (GB) | \
+(A<E)(A>B) c>d e<g | e<d!trill!c>B {B}A2 A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+Aaaa | gdgg | Aaaa | ccee | ffec | GgGG | aaaa | e'eaa/ |] \
+z/ | aaaa | gdgg | aaaa | ccee | ffec | cgGG | aaaa | eeAA |]

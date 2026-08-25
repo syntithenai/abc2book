@@ -1,0 +1,25 @@
+X: 114
+T:Grant Lodge, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:40 - 3
+K:E minor
+%%staves {1 2}
+V:1
+g |\
+!trill!G>D G<B !trill!A>G A<B | G<G~G>B d2 (dg) |\
+G>D G<B A>G A<B | e<e!trill!e>d e2 e :|
+f | \
+g>a b<g dedB | !trill!g>a {ga}b<g e2 (ef) | \
+!trill!g>a b<g dedB | A<A~B>d e2 (ef) |
+!trill!g>a b<g dedB | !trill!g>a {ga}b<g e2 (ef) | \
+g<bfa e>f g<e | d<B~B>G A2 A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ggdd | gggg | ggdd | ee[Ee][Ee]/  :| \
+z/ | gggg | ggc'c' | gggg | fgee | gggg | ggc'c' | gdcc' | ggdd/ |]

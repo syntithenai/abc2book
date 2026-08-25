@@ -1,0 +1,29 @@
+X:3
+T:Hefli-Juiz  Bb
+T:Hrch. Jos. Leuthold (18.9.1910-15.10.2001)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "fröhlich getragen"  FF | f2 dF dB | A>C F2  FF | f3F/e/ dc | 
+B>d !breath! !fermata!f2FF | f2dF dB | G>Be2dc | B>F Fe "rit." (3edc | !fermata!B3z || 
+M:3/4
+[P:B] FD | E>F CG FE | D>FB2Fd | c>e Fe dc | 
+B>D !breath! !fermata!F2 FD | E>F CG FE | D>FB2dg | f>e cF Fd | !fermata!B3z ||
+M:3/4
+[P:C] "sehr schnell (Zungenschlag-Jodel)"  FF | fF FF FF | eF FF Fe | dF FF FF | "rit."BD Fd Fd | 
+cF FF FF | cE Fe Fe | dF FF Bd | !breath! !fermata! f4 FF | fF FF FF | 
+eF FF Fe | dF FF Bd | e6 | eG GG Ge | dF FF Fd | 
+cE EE Ec | BF Bdf2 | eG GG Ge | dF Bdf2 | dF Bdf2 | eF F"rit."f dc | !fermata!B4 |]
+W:
+W:Reihenfolge: A-B-A-C
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 03-01
+W:http://www.naturjodler.ch/code 03.htm  (with AUDIO)
+%April 28, 2018

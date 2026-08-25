@@ -1,0 +1,29 @@
+X:5
+T:Hochegg-Echo  Bb
+T:Karl Anderhalden  (17.8.1925-7.11.1979)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "_sehr langsam in Abendstimmung"  d2 B>d (3FBd | f2d2 f d/f/ | c>F c2 fd/c/ | B>FB2 D/F/ B/c/ | 
+d2B>d (3FBd | f2d2f e/d/ | c>F cF d>c | B4z2 || 
+L:1/8
+M:3/4
+[P:B]  (3B,DG | F>d DF d c/B/ | A/c/ F/A/ E2 (3A,CG | F>A EF e d/c/ | 
+B/d/ F/B/ D2 (3B,DG | F>B D F/f/ d/F/ c/B/ | A/c/F/A/E2 (3A,CG | F>A E F/f/ e/F/ d/c/ | !fermata!B6 || 
+L:1/16
+M:3/8
+[P:C]  DE | Fd dF Fd | dF Fd cB | Az Ac FA | E4GF | Fe eF Fe | 
+eF Fe dc | Bz Bd FB | D4DE | Fd dF Fd | dF Fd cB | 
+Ge eG Ge | e3 gfe | d2 Fd Fd | c2 Fc Fd | (B6 | B4)z2 |] 
+%W:Reihenfolge: A-B-C
+W:
+W:notiert Edi Gasser, Angabe: Karl Anderhalden
+W:UJV-Naturjodelsammlung: Code-Nr: 09-03
+W:http://www.naturjodler.ch/code 09.htm  (with AUDIO)
+%May 4, 2018

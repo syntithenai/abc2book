@@ -1,0 +1,34 @@
+X:52
+T:Schwändiweid-Juiz  Bb  ABCBB
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCBB
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:Bb major
+[P:A] F| B>A B/c/ | d2f/e/ | d2c | B2F | B2c | d>cB | c3 | 
+c2c | e2d | c2f/e/ | d2c | B2d | c2f/e/ | d2c | !fermata!B2F | 
+B>A B/c/ | d2f/e/ | d2c | B2F | B2c | d>cB | c3 | c2c | 
+e2d | c2f/e/ | d2c | B2d | c2f/e/ | d2c | B2 || 
+M:4/4
+[P:B] F/ | dBd>B | BA/B/c>F | f>edc/A/ | B2d>F | 
+dBd>B | BA/B/c>F | f>edc | B3 || 
+M:3/4
+L:1/8
+[P:C] F>D | d3B A>B | d2c2F>E | c3e dc | B>cd2F>D | 
+d3B A>B | d2c2F>F | E>ed2c2 | B4F>D | d3B A>B | d2c2F>E | 
+c3e dc | B>cd2F>D | d3B A>B | d2c2F>F | E>ed2c2 | B4 || 
+W:
+W:Reihenfolge: A-B-C-2xB
+W:
+W:den Stanser Jodlerbuebe zum 80-jährigen Bestehen gewidmet
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-26
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 23, 2018

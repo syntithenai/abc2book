@@ -1,0 +1,25 @@
+X:22
+T:Militär-Galopp  GCF (GL07434)  ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.340 (GL07434) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c2 BA | "F"^G2A2 | "G7"F2D2 | G2z2 [P:A] |: "F"c'2 b>a | "C".g.e .a.g | "G7".f.d .g.f | "C".e.c "C7".e.g  | 
+"F"c'2b>a | "C"ge ag | "G7".f.g .b.d' | ("C"e'2c')g | "F"c'2.b.a | "C"ge ag | "G7"fd gf | "C"ec eg | 
+c'2 b>c' | "Dm"d'a d'f | "G7"bg bg | "C"c'e' c'z :| [P:B] [K:G] "G".B.c .d.e | .d.e .f.g |  "D7".f.e .d.e | .d.c .B.A | 
+"G".B.c .d.e | .d.e .f.g | "D7".f.e .d.e | .d.c. .B.A | "G".B.c .d.e | .d.e .f.g | "D7".a.g .f.e | dc BA | 
+"G"Gd' "D7"fd' | "G"gd' "D7"fd' | "G"gg gg | .g2"_>Teil A"!>!b2 |] [P:C] [K:F] [L:1/4] "F".c.=B | .c.f | .A.^G | .A.c | 
+"C7".d>c | .B.c | "F"c'>b | .a.c | .c=B | .c.f | .A.^G | .A.f | "C7".g>.f  | .e.g | 
+"G7".d.g | "C".c'.c [P:D] |: "C7".g.^f | .g.c | b>a | g c//e//f//g// | "F".a.^g | .a.c | c'>b | .a.c | 
+.a.^g | .a (!>!c' | "Bb".b).a | .b (d' | "F".f) (c' | "C7".d).e | "F".f.f |1 f c//d//e//f// :|2 f"_fine"z |]
+W:
+W:Militär-Galopp, nach Labitzky
+% GL07434
+% Aug 28, 2017

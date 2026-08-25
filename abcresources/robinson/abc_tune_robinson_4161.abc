@@ -1,0 +1,20 @@
+X:204
+T: Schottisch GDC (ABACDC) (st09275)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.161 (st09275) orig. G,D,C
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+c [P:A] |: "tr""D7"cA "tr"cA | "tr""G"dB db | "D7"ba ^ga | "G"ag fg |  "tr""D7"cA "tr"cA | "tr""G"dB db | "D7"ba ^ga |1 
+"G"gg gc :|2 "G"gg gz [K:D] [P:B] |: "D"ad'/c'/ ba | "Em"gf ed | "A7"a>g fe | "D"fga2 | ad'/c'/ ba | "Em"gf ed | 
+"A7"a>g fe |1 "D"dd dz :|2 "D"dd d"_>Teil A"=c [P:C] |: [K:C] "C"e>e ec | c>c cG | "G7"FF F/G/F | "C"E2C2 | 
+g>g ge | "F"c'>c' c'a | "C"gg/e/ "G7"ff/d/ | "C"ce c"_Fine"z :: [P:D] [K:G] "D7"d^c/d/ e/f/g/a/ | "G"c'/b/b/^a/ b2 | 
+"D7"b/a/a/^g/ af | "G"a/g/g/f/ gd | "D7"d^c/d/ e/f/g/a/ | "G"c'/b/b/^a/ b2 | "D7"b/a/a/^g/ af | "G"gg g"_>Teil C"z :| 
+W: Parts: ABA-CDC
+% st09275 (H 333/TN 114)

@@ -1,0 +1,20 @@
+X:323
+T:Walzer CF (wz07510)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.203 (wz07510) orig. C,F
+T: Aus dem Repertoire der Dorfmusik Oberwil.  S.201-221
+T:Überliefert durch Gotti Bannier (1876-1947)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"C".G(EA) | .G(cd) | (e3 | e)zG | .G(EA) | .G(dc) | ("G7"B3 | B)zA | "F".A(^GA) | ("G7"e2d) | 
+("C"G^FG) | "D7"d2c | ("G"Bd).d | "D7"A!>!c>B | "G7"G>GG | GzG :: "C"e/e/ed | (d2c) | ("Dm/F"B2A) | 
+"G7"zBG | "Dm/F"FzA | "G7"B>A G/F/ | ("C"E3 | E)zG | e/e/ed | (d2c) | ("F"A2f) | zed | ("C"c2B) | 
+("G7"A2B) | "C"c>cc |1 czG :|2 "C7"czF |: [K:F]  ("F"F3 | F)zF | (F3 | F)Ad | (c3 | c)zA | 
+"C7"G3 | Acg | ("F"f3 | f)ed | (c3 | c)AF | ("C7"c3 | c)BG |  "F"F>FF | FzF :: 
+ "C7"E/E/EG | (d2c) | "F"F/F/FA | (d2c) | "C7"ezd | czB | "F"AzG | F2F | "C7"E/E/EG | 
+(d2c) | "F"F/F/FA | (d2c) | "C7"ezd | czE |1 ("F"F3 | F)zF :|2 ("F"F3 | F)zz |]  
+% wz07510
+% Feb 6, 2017

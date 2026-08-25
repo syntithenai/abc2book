@@ -1,0 +1,20 @@
+X:1
+T:Liebend gedenke ich dein. Walzer  BbFEb (wz07684) 
+T: Basel II. Tänze aus Augst. S.6-42.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.40  (wz07684) orig. Bb,F,Eb
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:Bb major
+("Bb"F=EF) | (B2A) | ("Cm"A3 | G2)z | "F7"EDE | (G2F) | ("Bb"F3 | D2)z | (F=EF) | (d2e) | 
+("Cm"dcG) | (c2B) | ("F7"AGF) | ec>d | ("Bb"B3 | B)zz :: [K:F] "F"A/B/ c/d/c | "D7"zc>^c | ("Gm"d.g).g | 
+zg>f | "C7".f.e.e | .e.d.d | ("F"d/c/ =B/c/) c | A3 | A/B/ c/d/c | "D7"zc>^c | ("Gm"d.g).g | zg>f | 
+("C7"edc) | "F"([c2a2][Bg]) | ([A3f3] |[Af])zz :: ("Bb"F2d) | ("Gm"A2B) | ("Cm"c2G) | c2z | ("F7"Ag>f) | (f2A) | ("Bb"Bg>)f | 
+.f.f.f | (F2d) | (A2B) | ("Eb"G2_e)  | (_edc) | "F7"gz(f | f)_e>A | ("Bb"B3 |1 B)zz :|2 ("Bb"B/B/ c/d/ _e/f/) |] [K:Eb] 
+|: ("Eb"g3 | g)  (f/e/ d/e/) | B3 | zc>G | "Bb7"B3 | zA>F | "Eb"G3 | z/(B/ c/d/ e/f/) | (g3 | 
+g)(f/e/ d/e/) | "Ab"c3 | (a/g/ f/e/ d/c/) | "Bb7"Bzz | d/f/.B.B |1 ("Eb"e3 | e/)B/ c/d/ e/f/ :|2 ("Eb"e3 | e)zz |] 
+% wz07684
+% Nov 25 2017 (Johanniskraut)

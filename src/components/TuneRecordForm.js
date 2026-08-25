@@ -8,7 +8,7 @@ import ImportFieldSuggestion from './ImportFieldSuggestion';
 import ReviewNotationMergePanel from './ReviewNotationMergePanel';
 import FieldPreviewEditor from './FieldPreviewEditor';
 import LinksEditor from './LinksEditor';
-import ImportReviewSnapshotsSection from './ImportReviewSnapshotsSection';
+import ImportReviewSnapshotsSection, { ImportReviewPendingMidiSection } from './ImportReviewSnapshotsSection';
 import TuneAliasesField from './TuneAliasesField';
 import TuneArtistsField from './TuneArtistsField';
 import TuneGenresField from './TuneGenresField';
@@ -924,6 +924,7 @@ export default function TuneRecordForm(props) {
 
       <FormBlock>
         <Form.Label>Links</Form.Label>
+        <ImportReviewPendingMidiSection pendingMidiLink={props.pendingMidiLink} />
         <LinksEditor
           links={Array.isArray(values.links) ? values.links : []}
           tune={props.previewTune}

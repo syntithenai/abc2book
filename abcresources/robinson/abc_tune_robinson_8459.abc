@@ -1,0 +1,22 @@
+X: 31
+T:Strathbogie Toast
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+N:The title's actually given as "the Strahbogie Toast". "Strathbogie" seems the obvious guess, and I'm waiting for someone to tell me I'm wrong ...
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:11 - 2
+K:G minor
+%%staves {1 2}
+V:1
+dg (a/g/^f) g2 d=f | cdfg dfcf | dg (a/g/^f) g2 dg | f<d!trill!c>A {A}G2 G2 |
+dg (a/g/^f) g2 d=f | cdfg dfcf | dfga bafe | d<f!trill!c>A {A}G2 Gg ||
+BGdG BGdG | fdcf AFcA | BGdG BGdG | f<d!trill!c>A {A}G2 Gg |
+BGdG BGdG | fdcf AFcA | GABc defg | f<d!trill!c>A {A}G2 G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+gggg | ffff | gggg | ddgG | gggg | ffff | gggg | ddgG || \
+gggg | ffff | gggg | ddgg | gggg | fFFF | GABc | ddgg |]

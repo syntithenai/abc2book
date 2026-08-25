@@ -1,0 +1,16 @@
+X:38
+T:L\"andler  G (LD09162)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.109 (LD09162) orig. G
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+Bc |: ("G"^cd) .B.g .d.b | ("Am"ba) c2 (Bc) | ("D7"ba) c2 (Bc) | ("G"ag)d2 (Bc) | (^cd) .B.g .d.b | ("Am"ba) c2 (Bc)  | 
+("D7"ba)c2(df) |1 "G"g2z2Bc :|2 "G"g2z2d2 |: ("D7"^cd) fa c'e' | ("G"Bd) .g.b d'2 | ("D7"Ac) (df) (ac') | 
+"G"c'b gbd2 | ("D7"^cd) fa c'e' | ("G"Bd) .g.b d'2 | ("D7"Ac) .d.f .a.f |1 "G"g2z2d2 :|2  "G"g2z2z2 |] 
+% LD09162 (H 329/TN 2)
+% Aug.19, 2016

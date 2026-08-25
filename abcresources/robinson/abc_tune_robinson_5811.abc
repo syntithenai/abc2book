@@ -1,0 +1,32 @@
+X:20
+T:Wandflueh-Juiz. 1995  Bb ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4+4/4
+K:Bb major
+[P:A] d/c/ | BDF/B/ | d2c2 | B2Df/d/ | c2F| !fermata!E!fermata!d!fermata!c | B>DF | 
+!fermata!D2Dd/c/ | BDF/B/|d2c2 | B2Ff/d/ | c2FE/F/ | d2c2 | (B2 | B2) ||
+M:2/4
+[P:B] BD | e/d/c | cE | d/c/B | BD | EF/e/ | dc | BD/z/ | 
+BD | e/d/c | cE | d/c/ B | BD | EF/e/ | !fermata!d!fermata!c | !fermata!B2 || 
+M:2/4
+[P:C] "sehr langsam"  F/ e/d/ | cF | Ee/c/ | BF | DE/D/ | CF | Ee/c/ | BD | !breath!F/ F/ e/d/ | 
+cF | Ee/c/ | B>d | (e2 | e)d/c/ | B/>F/ B/d/ | cF/f/ | "_jeder Ton breit"!fermata!d!fermata!c | (B2 | B2) || 
+M:2/4
+[P:D] BD | e/d/c | cE | d/c/B | BD | EF/e/ | dc | BD/z/ | BD | e/d/c | cE | 
+d/c/B | BD | EF/e/ | !fermata!d!fermata!c | !fermata!B2 | BD/D/ | e/d/c | cF/f/ | d/c/B | BD | 
+EF/e/ | dc | BD/z/ | BF/F/ | e/d/c | cF/f/ | d/c/B | BD | EF/e/ | !fermata!d!fermata!c | !fermata!B2 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp Herger
+W:UJV-Naturjodelsammlung: Code-Nr: 22-11
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 21, 2018

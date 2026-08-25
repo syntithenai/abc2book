@@ -1,0 +1,32 @@
+X:20
+T:Paddy O'Rafferty.2voices. AJH.020
+M:6/8
+L:1/8
+Q:3/8=100
+S:A.J.Hughes MS
+N:Key sig of A(3#) given but more likely should be D.
+N:Only 3 parts (cf John Jones MS has 6 parts),
+N:but an accompaniment is added
+O:England
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:D major
+[V:1] |: Aff Aee | Aff ede | Aff Aee | ded cBA |
+[V:2] |: [dAF][dB][dB] [cA][cA][cA] | [dAF][dB][dB] [cA][cA][cA] | [dAF][dB][dB] [cA][cA][cA] | A3A3 |
+%
+[V:1] Aff Aee | Aff ede | dfa afd | d>ed cBA :|
+[V:2] [dA]dd ccc | Add ccc | Adf fdd | A3A3 :|
+%
+[V:1] |: dfa dfa |dfa afd | dfa dfa | ded cBA |
+[V:2] |: Adf Adf |Adf fdB | Adf Adf | fedA3 |
+%
+[V:1] dfa dfa | dfa abc' |d'bg bge | d>ed cBA :|
+[V:2] Adf Adf | Adf F^ga |bge gec | A3F3 :|
+%
+[V:1] |: afa bgb | agf fed | afa bc'd' |d>ed cBA |
+[V:2] |: fdf geg | fed dcd | fdf gab |agf fed |
+%
+[V:1] afa bgb | c'bc' Hd'2c'/b/ | aba fge | d>ed cBA :|
+[V:2] fdf geg | afa Hb2 a/g/ | fge dec | A2G4 :|

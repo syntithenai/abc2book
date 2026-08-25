@@ -1,0 +1,18 @@
+X:1
+T:Im Grase (Polka)  BbEb (pk06737)  
+T:Hanny Christen. Bd.V  Basel II, Jura. S.75  (pk06737) orig. Bb,Eb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+ "Eb"{/^f}g/e/c/e/ g2 | (!>!"Bb"f2d)F/d/ | "F7"cc FF/e/ | "Bb"ddB2 | {/^f}"Eb"g/e/c/e/ g2 | ("Bb"f2d)F/d/ | "F7"cc Fd/c/ | "Bb"BB Bz :| 
+|: "Bb".F!>!F2.G | GF!>!F2 | .d!>!d2.e | "F7"edc2 | .G!>!G2.B | A_AG2 | {/f}ag f>f | "Bb"ae!>!d2 | .F!>!F2.G | 
+GF!>!F2 | .d!>!d2.e | "Eb"ed Ge/f/ | "Bb"gg f>F | gg f>F | "F7"dc e>A | "Bb"AG Fe/f/ | "F7"gg  fe/f/ | "Bb"gg f>F | 
+"F7"dc e>A | "Bb"B/A/d/c/.B2 :: [K:Eb] ("Eb"GB) (Bc) | c2z2 | (GB) (Be) | e2z2 | (GB) (Be) | {/f}g2.f2 | (eG) (cB) | 
+"Bb7"A2z2 | (FA) (AB) | B2z2 | (FA) (Ad) | d2z2 | FA Ad | .f2.e2 |  (dF) (AG) | "Eb"EE Ez :| 
+% pk06737
+% Jan 21, 2018

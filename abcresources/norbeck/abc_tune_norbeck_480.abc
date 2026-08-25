@@ -1,0 +1,19 @@
+X:140
+T:Luck Penny, The
+R:jig
+Z:id:hn-jig-140
+M:6/8
+K:G
+BAG AFD | ~G3 FGA | BAG BdB | cAG FGA |
+BAG AFD | GBd ~g3 | def gdB |1 cAF G2A :|2 cAF G2B ||
+|: d2g gfg | a2g fga | bag agf | def g2a |
+bag afd | gag fed | def gdB |1 cAF G2B :|2 cAF GBc ||
+|: dBG GFG | dBG GAB | cA=F FEF | cA=F FBc |
+dBG GBd | gag fed | def gdB |1 cAF GA/B/c :|2 cAF G2A ||
+P:variations
+|: B2G AGF | DGE FGA | BAG Bcd | cAG FGA |
+B2G AFD | GBd gdB | def gdB |1 cAF G2A :|2 cAF G2B ||
+|: dgg gfg | abg fga | bag agf | def g2a |
+bag agf | ~g3 fed | def gdB |1 cAF G2B :|2 cAF GA/B/c ||
+|: dBG GFG | DGB dBG | cA=F FEF | C=FA cBc |
+dBG GBd | ~g3 fed | def gdB |1 cAF GBc :|2 cAF G2A ||

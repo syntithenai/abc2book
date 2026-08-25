@@ -1,0 +1,15 @@
+X:116
+T:Mazurka (nach Stamm)  CGF (mz05063)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"G3E "F"F>A | "C"G3E "F"F>A | "G7"G>F E>D C>B, | "C"C2c2z2 |: "C"E2E2E2 | E>FG4 | E2E2E2 | "G7"F>ED4 | 
+B2B2B2 | B>cd4 | d2d2d2 | "C"e>dc4 | E2E2E2 | E>FG4 | "F"F2F2F2 | F>GA4 | A>G F>EF2 | 
+"C"G>F E>DE2 | "G7"F>E D>F E>D | "C"C2C2z2 :: [K:Gmaj] "D7"D2 E>F G>A | "G"B>AG4 | "D7"A>G F>D E>F | "G"G>Bd4 | "D7"D2E>F G>A | 
+"G"B>AG4 | "D7"A>G F>D E>F | "G"G2G2"_>Teil A"z2 :: [K:Fmaj] "F"C2F2F2 | F4C2 | C2A2A2 | A4F2 | "C7"G2c2c2 | 
+c4G2 | "F"G2A2A2 | A4F2 | C2F2F2 | F4C2 | C2A2A2 | A4F2 | "C"G2c2c2 | c4E2 | "G7"G>A G>F E>D | "C"C2C2z2 :: 
+"C7".B2!>!B3A | .G2 {/A}G>^F G>B | "F".A2!>!A3G | .F2 {/G}F>E F>A | "C7".G2!>!G3F | .E2.D2.E2 | "F"F2A2d2 | c2 CF Ac | 
+"C7".B2!>!B3A | .G2 {/A}G>^F G>B | "F".A2!>!A3G | F2 {/G}F>E F>A | "C7".G2!>!G3F | .E2.D2.E2 | "F".F2z2"C7"E>G | "F"F2F2z2 :| 
+W: P: ABACD
+% mz05063

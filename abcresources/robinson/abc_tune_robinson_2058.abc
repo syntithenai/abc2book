@@ -1,0 +1,18 @@
+X:3136
+T:Paddy Quigley's Barndance* % nf<bb
+B:"Northern Fiddler" 092.2 (JD) ("untitled barndance")
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:The source has an eight-measure section labelled "Last" after the
+I:tune - I'm not sure how it fits in with the rest of the tune, so I've
+I:included it here and in the MIDI file exactly as the source has it. (BB)
+L:1/8
+M:C
+R:Hornpipe
+Q:280
+K:G major
+d3c|:!segno!B2BA Bdge|d2de dBGA|B2BA Bdge|1 dBAB G2 G>c:|\
+[2 dBAB G2ef||
+gfed edBd|gfed e3f|gfed efge|dBAB G2ef|
+gfed edBd|gfed e2ef|gabg efge|dge^c dBGA !D.S.!||
+"LAST" B2BA Bage|d2eB dBGA|B2BA Bdge|dBAB d2G,A,|
+B,2B,A, B,DGE|B,DEB, DB,G,A,|B,2B,A, B,DGE|DB,A,B, G,4|[g2B2]z2z4||

@@ -1,0 +1,22 @@
+X:108
+T:Schön Mädchen (Mazurka)  CF (mz07447) ABCDAB
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.347 (mz07447) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDAB
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G2 c>B c>d | .e2!>!c4 | "Dm"A2 d>^c d>e | "G7"g>f d>BG2 | "C"G2 c>B c>d | .e2!>!c4 | "D7"d>e d>c B>A | "G7".G2!>!g2z2 :| 
+[P:B] |: "A7"A2 B>^c d>e | (!>!"Dm"f4d2) | "G7"G2A>B c>d | !>!"C"e4c2 | "Dm"((3Adf).a2.A2 | "C"((3Gce).g2.G2 |  "G7".g2.G2.f2 | 
+"C"e4 !>!c>B | "Dm/F"((3Adf).b2.a2 | "C"((3Gce) .a2.g2 | "G7"((3GBd).g2.B2 | "C".c2.c2"_fine"z2 :: [P:C] [K:F] "F".f2.A2.f2 | "C7/Bb"((3efe) .G2.d2 | 
+"C7".c2.B2.E2 | ("F"Fd)c4 | .f2.A2.f2 | "C7/Bb"((3efe).G2.d2 | ("C7"ce).a2.g2 | "F".f2!>!f2z2  ::  [P:D] "A7".e2.A2.e2 | 
+"Dm"f>e d>^cd2 | "G7".d2.G2.d2 | "C"e>d c>=Bc2 | "C7"(^c>d).B2.E2 | ("F"e>f).A2.F2 | "C7"e>d c>B A>G | "F".F2!>!f2"_>Teil A"z2 :| 
+%W:Parts: ABCDAB
+W:Mazurka, nach Stahl
+%(% mz07447
+% Aug 31, 2017

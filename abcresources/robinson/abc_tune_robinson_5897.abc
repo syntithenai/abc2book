@@ -1,0 +1,33 @@
+X:1
+T:Rengg-Juiz  Bb  ABAC
+T:Sepp Arnold (18.12-1915-2.2.2003)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] "sehr langsam" DB/D/ | Fd/c/ | B>F | DB/D/ | Fd/c/ | (B2 | !breath!B)D | Ff | 
+eF | d2 | c2 | !fermata!B2 | DB/D/ | Fd/c/ | B>F | DB/D/ | 
+Fd/c/ | (B2 | !breath!B)D | Ff | eF | d2 | c2 | !fermata!B2 ||  
+L:1/4
+M:2/4
+[P:B] "_etwas lebhafter" c>F | EF | f/e/ F/A/ | B>F | DF | f/d/ F/B/ | A>F | EF | 
+f/e/ F/A/ | B>F | Dd/c/ | B2 | c>F | EF | f/e/ F/A/ | B>F | 
+DF | f/d/ F/B/ | A>F | EF | f/e/ F/A/ | (B2 | (B2) | B)z || 
+L:1/8
+M:3/4
+[P:C] "Ländlertempo" cB| G2EE EE | cB GB AG | F2DD DD | B4GF | F3f eF | A4GF 
+F3f dF | B4cB | G2EE EE | cB GB AG | F2DD DD | B4GF | F3f eF | d4c2 | 
+(B6 | B3)z cB | G2EE EE | cB GB AG | F2DD DD | B4GF | F3f eF | A4GF | F3f dF | 
+B4cB | G2EE EE | cB GB AG | F2DD DD | B4GF | F3f eF | d4c2 | (B6 | !fermata!B4) |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser. Angaben Remigi Blättler
+W:UJV-Naturjodelsammlung: Code-Nr: 40-01
+W:http://www.naturjodler.ch/code 40.htm  (with AUDIO)
+%Juni 9, 2018

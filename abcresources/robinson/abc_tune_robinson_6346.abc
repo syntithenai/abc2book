@@ -1,0 +1,24 @@
+X:1
+T:Ganz nach der Wahl. Walzer  CF  (wz07021)  ABACA
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.150  (wz07021) orig. C,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"F"czz | fzz | ("C"e3 | e) zz |: [P:A] ("C"G.e).e | (G.e).e | "G7"f>e d/^c/ | d3 | (G.d).d | (G.d).d | 
+"C"e>d c/B/ | c3 | (G.e).e | (G.e).e |  "F"g>f e/f/ | a3 | (A.f).f | ("C"G.e).e | "G7"f/f/fb | "C"c'zz :| [K:F] 
+[P:B] |: "F"cde | fed | "C7"edc | B3 | edc | B3 | "F"dcf | a3 | cde | fed | "C7"edc | 
+B3 | edc | bze | "F"f>ff | fz"_>Teil A"z :: [P:C] "F"a3 | (agf) | "C7"b3 | e3 | b3 | 
+(bag) | ("F"c'3 | f3) | a3 | agf | "Gm"e3 | dbg | "F"a3 | "C7"g3 | ("F"f3 | f)z"_>Teil A"z :| 
+%
+%W:Parts: ABACA
+W:
+W:Anmerkung H.C.: Ziefen 47, s.V.244
+% wz07021
+% 09.06.2018

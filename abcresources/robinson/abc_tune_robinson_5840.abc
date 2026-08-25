@@ -1,0 +1,33 @@
+X:1
+T:dr Bärgheuwer. 1988  Bb  ABAC
+T:Neldi Ming  (* 21.1.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>GF>G | F2d2 | B2D2 | F>GF>G | F2f2 | d4 | 
+c>EFf | c/f/d/c/B>D | F2d2 | B4 | F>GF>G | F2d2 | B2D2 | 
+F>GF>G | F2f2 | d4 | c>EFf | c/E/F/f/cd | (B4 | B3)z |] 
+M:4/4
+[P:B] F/F/ | fe/d/cd | BDFd | cEFd/c/ | 
+BDFF/F/ | fe/d/ cd | BDFd | cF/f/ !fermata!d!fermata!c | !fermata!B3 || 
+M:4/4
+L:1/8
+[P:C] FF| FfdFB2AG | FEFAE2FF | f2ed cfdc | B2d2 !breath! F2 FF | 
+FfdFB2AG | FEFAE2FF | f2ed cfdc | !fermata! !breath! B6FF | 
+FfdFB2AG | FEFAE2FF | f2ed cfdc | B2d2 !breath! F2 FF | 
+FfdFB2AG | FEFAE2FF | f2ed cfdc | !fermata! B6 |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:d'r Bärgheuwer. Natur-Juiz - 1988
+W:
+W:notiert Edi Gasser. Angaben Neldi Ming
+W:UJV-Naturjodelsammlung: Code-Nr: 25-01
+W:http://www.naturjodler.ch/code 25.htm  (with AUDIO)
+%May 26, 2018

@@ -1,0 +1,22 @@
+X:1
+T:Polka  CGF (pk07830)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.192  (pk07830) orig. C,G,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+G2 | [P:A] "C"G2{/^d}e2 G2{/B}c2 | {/c}"G7"B>AB>c d4 | G2{/^c}d2 G2B2 | {/d}"C"c>Bc>de4 | G2{/^d}e2 G2{/B}c2 | "Dm"d>cd>f a4 | ("G7"ag).B2 (ag).B2 | 
+"C"c2c2 c2dg || [K:G] [P:B] ("D7"gf)(fa) c3e | ("G"ed)(dg) B3d | "D7"(3dedfd a2d2 | "G"(3dedgd b2dg | ("D7"gf)(fa) c3e | 
+("G"ed)(dg) B3d | "D7"defg abc'a | "G"g2=f2 e2"_>Teil A"d2 || [K:F] [P:C] "C7"CEGB .d2(cB) | "F"ACFA cfa2 | 
+"C7"bgec (BG).E.C | "F"FCFA dcAF | "C7"CEGB .d2(cB) | "F"ACFA cfa2 | "C7"bgec =Bcde | "F"f2f2 f2"_Fine"z2 |] 
+W:
+W:Parts: ABA-C
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% pk07830
+% July 19, 2018 ("Alles klar?")

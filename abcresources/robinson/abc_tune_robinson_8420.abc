@@ -1,0 +1,26 @@
+X: 175
+T:Lament for Sir Harry Niven Lumsden, bart., of Achindoir
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:60 - 3
+K:Bb major
+%%staves {1 2}
+V:1
+B/c/ | \
+{Bc}d>cB F<DF | B,<BB B2 d/e/ | \
+f>ed d<cB | C<cc c2 d |
+e2 f/g/4a/4 {ga}b>ag | f<Bd !fermata! {d}f2 e | \
+d>cB F<DF | G<BB B2  ::
+D/C/ | \
+.B,.D.F .B.d.f | {E}"\="~F>GF {E}F2 F | \
+{F}B2 F {F}d2 B | Acd {d}e2 f |
+{e}g>fe def | gab !fermata!{g}f2 e | \
+{e}d>cB F<DF | G<BB B2 :|
+V:2 clef=bass octave=-2
+"^Slow and pathetic"
+z | b3B3 | Bdfb3 | B3B2d | e2=ef2z | g2ab2e | d2B!fermata!A2F | B3B2d | e2fB2 :: \
+z | B3b3 | a3f2a | b3B3 | f3a2z | [eb]3[db]3 | [eb]3!fermata![fa]2A | B3B2d | e2fB2 |]

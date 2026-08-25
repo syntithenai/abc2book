@@ -1,0 +1,17 @@
+X:98
+T:Mazurka GDC (mz07306)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.282f (mz07306) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+"G"(dB)g2g2 | "C"(fc)e2e2 | T"D7"d2FA ce | "G"dBG2Bc | (dB)g2g2 | ("C"fc)e2e2 | ("D7"dc')b2a2 | "G"g2g2z2 :| [K:D] 
+|: "D"f2d>e f>g | a2 ^g>ba2 | (T"A7"g2.c2).c2 | (T"D"a2.d2).d2 | f2 d>e f>g | a2^g>ba2 | "A7"c'>b a>g f>e | "D"d2d2z2 :| [K:C] 
+|: "C".G2 GA Gc | "Dm"B2A>FA2 | "G7".g2gf ed | T"C"d2c>Bc2 | .G2ed cB | "Dm"A2D3F | ("C"EG)c2("G7"Bd) | "C"c2c2z2 :: 
+"G7"Bf dba2 | T"C"a2g>^fg2 | "G7"Gf Bgf2 | T"C"f2e>^de2 | "G7"G>f dba2 | T"C"a2g>^fg2 | "G7"Gf Bg f>B | "C"c2c2z2 :| 
+%% mz07306
+% June 5, 2017

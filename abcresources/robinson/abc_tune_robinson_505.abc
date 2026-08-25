@@ -1,0 +1,20 @@
+X:10
+T:Polka. GHW.010
+M:2/4
+L:1/16
+Q:1/4=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:Polka
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+B:Village Music project, Watson, George
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/watson.abc
+K:D major
+"^Key G in ms"A2|FGA2 GAB2|A2d2 f4|g2A2 cde2|a2d2 f2A2|!
+FGA2 GAB2|A2d2 f4|g2A2 cde2|"^crs"d2d2d2:|!
+|:f2|edc2 BAG2|^G2B2 d4|dcA2 BA^G2|A2c2 e4|!
+edc2 cBA2|a2f2 d3f|edc2 dcB2|A2A2A2:|!
+K:G
+|:^d2ed cdef|g2B2 B4|A2fe dcBA|B2d2 G2B2|!
+d2ed ^cdef|g2B2 B4|A2fe dcBA|G2B2G2:|

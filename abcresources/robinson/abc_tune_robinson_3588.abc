@@ -1,0 +1,13 @@
+X:136
+T: Mazurka CGF (mz05046)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"g>e a>g e>c | "G7"B2 {/g}f>ef2 | b>a g>f e>d | "C"c2 {/a}g>^fg2 | g>e a>g e>c | "G7"B>g f>ef2 | b>a g>f e>d | 
+"C"c2c2z2 :: [K:G] "D7"dff3e | "G"dg g3g | "D7"a>g f>e d>c | "G"B>e d>^cd2 | "D7"d>ff3e | "G"db b3b | 
+"D7"c'a fd ef |1 "G"g2f2e2 :|2 "G"g2g2"_>Teil A"z2 |: [K:F] "F"a2g2f2 | c4 ((3cde) | f2e2f2 | 
+"C7"^fg g2c2 | b2a2g2 | c4 (c/d/e/f/) | "Bb"g2f2d2 | "F"dc cAF2 | a2g2f2 | c4 (=B/c/d/e/) | 
+f2e2f2 | "Gm/Bb"gdd4 | b>ab2g>b | "F"a>^g a>c f>"_ ="a | "C7"g>^f g>c e>g |1 "F"fc =Bc dc :|2 "F"f2f2"_Fine"z2 |] 
+W: Parts: ABAC
+% mz05046

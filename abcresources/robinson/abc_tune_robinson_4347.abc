@@ -1,0 +1,15 @@
+X: 109
+T: Mazurka FCBb (mz08844)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.360 (mz08844) orig. F,C,Bb-Dur
+S: Tänze aus Büren an der Aare (Bern) S.353ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:F major
+[P:A] "F"(3Acf a2f2 | "Bb"(3GBf e2d2 | "C7"b>b b>e g2 | "F"a>a a>c f2 | (3Acf a2f2 | "Bb"(3GBf e2d2 | "C"b>b b>e b>e | "F"f2f2z2 ::[P:B] [K:C] "G7"f>f e2d2 | 
+"C"e>e d2c2 | "G7"g>d g2f2 | "C"e>c a2g2 | "G7"f>f e2d2 | "C"e>e d2c2 | "G7"g>d g2 f>d | "C"c2c2"_> Teil A"z2 :: [P:C] [K:Bb] "Bb"d2g3f | 
+"F7"f>e A2A2 | e2a3g | "Bb"g>f B2B2 | f2d'3c' | "F7"b>a c2c2 |1 g>f A2A2 | "Bb"gf dB F2:|2 "Bb"b>a g>f e>A | B2B2z2 |]

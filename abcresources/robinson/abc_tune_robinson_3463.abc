@@ -1,0 +1,16 @@
+X:22
+T: Die Morgenstunde (Walzer) FC (wz05163)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.387 (wz05163) orig. F,C-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"A/A/ Ac | d>cc | f/f/fg | "C7"f>ee | e/e/ed | d>cc |1 e/e/ ed | "F"d>cc :|2 ((3c/e/g/) c'>e | "F"fzc ||  
+[P:B] "F"(a3 | a)gf | "C7"fe>f | e2B | fef | e2d | "F"dc>d | cd/e/ f/g/ | a3 | agf | "C7"fe>f | 
+e2d | cc/c/ c/c/ | cde | "F"f>ff | fzE/E/ || [K:C] [P:C] "C"EGc | edc | "G7"B/g/g>B | f3 | B/g/g>B | 
+f2B | "C"c/e/ g/c/ e/g/ | c'zz | EGc | edc | "G7"B/a/a>B | f3 | B/a/a>B | f2B | "C"c>cc | czz |] 
+% June 6, 2016

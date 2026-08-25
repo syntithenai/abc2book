@@ -1,0 +1,36 @@
+X:1
+T:Laichere-Juiz 2009  CF
+T:Monika Ettlin-Mathis (12.12.1974)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+M:3/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] C/>E/ | G3 | E G>c | e3 | GGg | d3 | GG/g/ e/G/ | !fermata!c2 C/>E/ | G3 | 
+EG/E/ G/c/ | e3 | G/^F/Gg | d>fG | GG/g/ e/G/ | !fermata!c2 ||
+L:1/8
+M:3/4
+[P:B] f>e |def2 e/G/F/d/ | cde2 G/e/d/c/ | B>c dG G/f/d/e/ | c>f !fermata!e2zf/e/ | 
+d>e ff e/G/F/d/ | c>d eG G/e/d/c/ | B>c dG G/f/d/e/ | !fermata!c4 ||
+L:1/4
+K:F
+M:C
+[P:C] C|F>Ffd | cfdf | e>eec | B3C | E>Eed | 
+cede | f>ffd | c3C | F>Ffd | cfdf | 
+e>eec | B3C | E>eed | cedc/E/ | (F4 | F3) ||
+K:C
+M:3/4
+[P:D]   A/G/ | G>Gf | d>f e/d/ | c>de | G>E G/e/ | 
+d>^c d/e/ | f>f e/d/ | c>B c/f/ | e2G/G/ | G>Gf | d>f e/d/ | 
+c>de | G>c c/B/ | A2c | B>G B/d/ | (c3 | c2) |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. Angaben: Monika Ettlin
+W:UJV-Naturjodelsammlung: Code-Nr: 59-01
+W:http://www.naturjodler.ch/code 59.htm  (with AUDIO)
+%September 29, 2018

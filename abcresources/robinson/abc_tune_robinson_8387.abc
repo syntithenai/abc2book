@@ -1,0 +1,22 @@
+X: 37
+T:Burnside of Tynet
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:13 - 3
+K:F minor
+%%staves {1 2}
+V:1
+B | \
+(=AB/c/) (cB) AFFA | BGEG eGEG | (=AB/c/) (cB) AFFA | BGEG {E}F2 F :|
+B | \
+(=AB/c/) (cB) ABcd | efgd eEEG | (=AB/c/) (cB) ABcf | g=ece f2 (fc) |
+(=AB/c/) (cB) ABcd | efgd eEEG | (CF)(FG) ABce | GEBG {E}F2 F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | eeee | ffff | eeff/ :|
+z/ | ffff | eeee | ffff | ccff | ffff | eeee | ffff | eeff/ |]

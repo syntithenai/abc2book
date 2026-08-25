@@ -1,0 +1,16 @@
+X: 190
+T: Vögeli-Schottisch C (st08816)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.390 (st08816) orig. C-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%partsbox
+%%MIDI program 21
+P:ABA
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+[P:A] G2 |: "C"c2B2 c2d2 | eeee e2f2 | "G7"dddd d2e2 | "C"c2e2 e2G2 | c2B2 c2d2 | eeee e2f2 | "G7"dddd d2e2 |1 "C"c4 z2G2 :|2 
+"C" c4z2g2 || [P:B] "C"a2g2 e2c2 | "G7"BBBB B2g2 | a2g2 f2d2 | "C"cccc c2G2 | cccc c2G2 | "F"AAAA A2A2 | "G7"G3f e3d | "C"c4"_> Teil A"z4 |]  
+W:
+W:Vögeli - Swissgerman for das Vögelchen, -lein (the little bird)

@@ -1,0 +1,20 @@
+X: 8
+T:the Marquis of Huntly's Favorite
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:9/8
+O:Scotland
+R:Slip Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+"^Slowly"
+(B/c/d)B BFB BFB | (B/c/d).B BFB !trill! c2d | (c/d/e).d cGc cGc | (B/d/e).d cGc {d}e2 g :|
+B>df bfd fdB | B,Bd bfd ("\="~f2 g) | B,Bd bfd fdB | Ccc !trill! c2 d e2 g |
+B>df bfd fdB | B,Bd bfd fga | bag agf gfe | dec gc~d e2 f |]
+V:2 clef=bass octave=-2
+[B,B]3 [B,B]3 [B,B]3 | [B,B]3 [B,B]3 [Cc]3 | [Cc]3 [Cc]3 [Cc]3 | [Cc]3 [Cc]3 [Cc]3 :| \
+B3 B3 B3 | B3 B3 B3 | B3 B3 B3 | c3 c3 c3 | B3 B3 B3 | B3 B3 B3 | B3 B3 B3 | c3 c3 c3 |]

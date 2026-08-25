@@ -1,0 +1,13 @@
+X:40
+T:Galopp  CF ()
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c2G2 | e2c2 | "G7""_g"g2"_e"e"_ d ="d | "C"c2z2 || ce e"_ ="c | "G7""_h"B"_d"dd2 | B>c d>"_ ="B | \
+"C"cfe2 | "G7""_f"f>e f>"_d"d |
+ "C"cB"_ ="c2 | "G7""_ h"B>"_a"A G"_h"B | "C"dcc2 || "Am""_c"c2"_a"A"_c"c | "_e"e2dc | \
+"G"Bd B"_ ="d | "Am"ce ce | "C"c2 Gc | e2 d"_ ="c |
+ "G7""_h"B"_d"d Bd | "C"c2c2 || [K:F] \
+"F"dc =Bc | Aa f2 | "C7""_g"gc "_e"ec | "F"a/2a/2a f2 | dc =Bc | Ac"_ ="f2 | "C7"ec de | "F"f2z2 |]

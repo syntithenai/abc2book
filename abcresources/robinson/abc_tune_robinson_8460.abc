@@ -1,0 +1,26 @@
+X: 124
+T:Aberlour's Squeeze, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:44 - 1
+K:C major
+%%staves {1 2}
+V:1
+D | \
+[CGc]2 c>e d>B ~c2 | G<c-c>.e ~d>efg | \
+e<c-c>.e (e/d/)c/B/ (c<A) | A<cG>E DE F :|
+(e/f/) | \
+g>ce>c g>c e2 | g>c{f}e[cg] adfa | \
+g<ce<g c<ge>g | {AB}c>A G<E D>E F(e/f/) |
+g>ce>c g>c ~e2 | ("\#"~g>c) e<g adfa | \
+(3efg (3def (3edc (3dcB | (3ABc (3GFE DEF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ccgc | ccgG | ccgc | fcgg/ :| \
+z/ | c'c'c'c' | c'c'd'd' | c'c'c'c' | fcGG | \
+c'c'c'c' | c'c'd'd' | c'gc'g | fcgg/ |]

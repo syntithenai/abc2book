@@ -1,0 +1,23 @@
+X:1
+T:Italiener-Walzer  GF (wz07065) 
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.167  (wz07065) orig. G,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+[P:A] "G"d2B | g2d | "D7"f2d | a2g | f2e | f2e | "G"d2B | dz(B/c/) | d2B | g2d | "D7"f2d | a2g | 
+f2d | b2a | "G"g>gg | gzz :: [P:B] "D7"d>dd | .d.e.f | "G"azg | (g2d) | "D7"bza | (a2d) |"G" c'zb | b3 | 
+"D7"d>dd | .d.e.f | "G"azg | (g2d) | "D7"bza | c'ef | "G"g>gg | gzz :: [P:C] [K:F] ("F"c2a) | f3 | (A2d) | c3 | 
+"C7"ceg | ceg | "F"af>d | c3 | (c2a) | f3 | (A2d) | c3 | "C7"ceg | ca>g | "F"f>ff | fzz :| 
+W:
+%W:Parts: ABC
+%W:
+%W:Anmerkung H.C.: 
+% wz07065
+% June 16, 2018

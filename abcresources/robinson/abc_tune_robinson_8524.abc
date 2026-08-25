@@ -1,0 +1,27 @@
+X: 97
+T:Miss Stronach of Marnoch's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:35 - 1
+K:D major
+%%staves {1 2}
+V:1
+F/G/ | \
+A>B !trill!A<F A<Bd<f | A>B !trill!A<F E/E/E EF/G/ | \
+A>B !trill!A<F A<Bd<f | F>D E<F D/D/D DF/G/ |
+A>B !trill!A<F A<Bd<f | A>B !trill!A<F E/E/E EF/G/ | \
+A>B !trill!A<F A<Bd<f | F>D E<F D/D/D D |]
+f/g/ | \
+a<fd<f A>df>d | !trill!e>df>d e/e/e ef/g/ | \
+a<fdf !trill!e>df>d | !trill!B>A B<d F/F/F Ff/g/ |
+a<fd<f A>df>d | !trill!e>df>d e/e/e ef/g/ | \
+(~f>d)(e>d) (~BA)(dF) | ~E>D E<F D/D/D D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | dd[Ae][Ae] | dddd | aAdd | dddd | dd[Ae][Ae] | dddd | aAdd/ || \
+z/ | d'd'd'd' | d'd'aa | d'd'af | ggdd | [dd'][dd'][dd'][dd'] | d'd'aa | [dd']dgf | gadd/ |]

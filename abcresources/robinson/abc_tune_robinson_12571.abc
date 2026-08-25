@@ -1,0 +1,22 @@
+X:459
+T:French Air.2voices RH.459
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:A 27-bar tune! PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:6/8
+L:1/8
+Q:3/8=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:C major
+[V:1] G2G|c2c d2e|c2c c2B|A2A B2G|c3 G2G|c2c d2e|c2c c2B|A2A B2G|c2c ^f2d|
+[V:2] z2z|E3 F2G|E3 E2G|F3 G2F|E3 z2z|E3 F2G|E3 E2G|F3 G2F|E2G c3|
+%
+[V:1] g2d f2d|g2d G2g|e2e edc|B3 A3|G3 GAB|c2c d2d|f2f d2d|e2c e2g|d3 efg|
+[V:2] B3 c3|B3 G2B|c2c cBB|G3 F3|G3 z2z|E3 G3|d3 G3|c2G c2e|B3 c3|
+%
+[V:1] f3 def|g3 efg|f3 def|g3 efg|f2f d2d|g3 efg|f2f d2d|e3 efg|f2f d2d|c3|]
+[V:2] d3 Bcd|e3 c3|d3 Bcd|e3 cde|d2d G2G|e3 cde|d2d G2G|c3 cde|d2d G2G|E3|]

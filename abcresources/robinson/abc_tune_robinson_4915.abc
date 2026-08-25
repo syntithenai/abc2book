@@ -1,0 +1,19 @@
+X:12
+T:Am schönen Inn (Walzer) CGF (wz02269)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.342 (wz02269) orig. C,G,F
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Walzer
+M:3/4
+L:1/4
+K:C major
+[P:A] "C"G2e | "G7"d3 | F2d | "C"c3 | cB>A | "G7"A2G | AG>F | "C"F2E | G2e | 
+"G7"d3 | F2d | "C"c3 | cBA | Gc/e/g | "G7"fAB | "_Fine""C"c3 [P:B] |: [K:G] "D7"e (d/^c/ d/e/) | (d=c)F | 
+"G"A(G/F/ G/A/) | (GFE) |1 ("D7"DFA) | cf>e | "G"d3 | B3 :|2 ("D7"DF)f | (ed)F | ("G"GB)d | "G7"GE"_>Teil A"A ||  
+[P:C] |: [K:F] "F"(c2d) | ("C7"G2B) | "F"A3 | (AG)F | ("C7"EG)A | Be>d | "F"c3 | A3 | 
+(c2d) | ("C7"G2B) | "F"A3 | (AG)F | ("C7"EG)e | (dc)E | "F"FAc |1 F3 :|2 FE"_>Teil A"A |] 
+% wz02269  
+% Nov 11, 2016

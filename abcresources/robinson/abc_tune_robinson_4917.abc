@@ -1,0 +1,19 @@
+X:14
+T:Beatrice-Polka FCBb (pk02075)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.325 (pk02075) orig. F,C,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Polka
+M:2/4
+L:1/16
+K:F major
+[P:A] "F"Acfg a2a2 | {/g}"C7"a2g2B4 | GBce g2g2 | {/a}"F"g2f2A4 | {/b}c'2c'2 {/c'}d'2d'2 | "C7"e3gb4 | 
+c'd'c'a b2e2 | "F".f4"_Fine".f4 :| [P:B] [K:C] "C"g^fag =fedc | "G7"B2d2 f3a | a3B B3a | "C"g2c'2e4 | 
+g^fag =fedc | "G7"B2d2 f3a | a2Ba g2B2 | "C"c4"_>Teil A""C7"e4 || [P:C] [K:Bb] "Bb"d2^c2 d2e2 | d2A2 c2B2 | 
+d2f2 !>!a3g | "Cm"f3=e ._e4 | e2d2 e2f2  | "F7"e2c2 A2F2 | e2f2 a3g | "Bb"f3d' .b4 | d2^c2 d2e2 | 
+d2A2 c2B2 | "Bb7"d2e2 f2^f2 | (!>!"Eb"a4.g4)  | g2a2 "E0"b2g2 | "Bb/F"f2b2.d'4 | "F7"c'2f'2 f'2a2 | "Bb".b4"_>Teil A".b4 |] 
+% pk02075  
+% Nov 1, 2016

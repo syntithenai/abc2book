@@ -1,0 +1,19 @@
+X:390
+T:Paddy Fahy's
+R:jig
+C:Paddy Fahey (1916-2019)
+H:Also in G, #384
+D:Dervish: Live in Palma
+Z:id:hn-jig-390
+M:6/8
+L:1/8
+K:D
+DFA dfe | dcA ~G3 | AFD =c2d | ed=c B/c/dB |
+DFA dfe | dcA GFG | AdB cAG |1 E2D DFE :|2 E2D DFA ||
+|: d2e fed | c2A A2B | =cBc edc | B2G GAG |
+d2e fed | c2A EFG | AdB cAG |1 E2D DFA :|2 E2D DFE ||
+P:variations
+|: DFA d2e | dcA GFG | AFD =c2d | ed=c AGE |
+DFA dfe | dcA GFG | AdB =cAG |1 EFE DFE :|2 ED=C DFA ||
+|: d2e fed | BcA A2B | =cBc edc | BdB ~G3 |
+FAd fed | c2A AFG | AdB =cAG |1 ED=C DFA :|2 EFE DFE ||

@@ -1,0 +1,21 @@
+X:1
+T:Schottisch  BbFEb (st06682) ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.61  (st06682) orig. Bb,F,Eb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] "Bb"df df | "F7"c2ce | c2eg | "Bb"f2d2 | df df | "F"c2Ac |1 "C7"Bc d=e | "F7"f2F2 :|2 "F7"fe dc | "Bb"BB Bz || [K:F]  
+[P:B] |: "Bb"dd/^c/ df | "F"c2 Af | "C7"e2 Bd | "F"c2AF | "Bb"dd/^c/ de | "F"f2 ed | "C7"cB AG | "F"F2"_>Teil A"f2 :|  [P:C] [K:Eb] 
+"Eb"e2d2 | c2B2 | e3d/c/ | B2G2 | "Ab"c2c2 | c3e | "Bb7"dc B>A | "Eb"GB cB | e2d2 | c2B2 | 
+e3f/e/ | "Ab"d2c2 | "Bb7"B3B/c/  | "Eb"B3B/c/ | "Bb7"Bc de | fga2 | B3B/c/ | "Eb"B3B/c/ | "Bb7"B=B cd | "Eb"ee ez |] 
+W:
+W:Anmerkung H.C.: Januar 1899 in Basel Instrument gekauft, Olsberg
+% st06682
+% Feb 1, 2018

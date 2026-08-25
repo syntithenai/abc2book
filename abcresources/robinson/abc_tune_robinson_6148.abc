@@ -1,0 +1,22 @@
+X:1
+T:Polka  GD (pk07061)  ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.168  (pk07061) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A]  "G"d/^c/d d/c/d | "D7"ff ee | c/B/c c/B/c | "G"ee dd | bb/a/ gf | "C"ee c'>a | "G".g(g/b/) "D7"a>f | "G"gg gz :| 
+[P:B] |:  "D"a2a2 | .a(a/g/) ff | "A7".g(g/f/) ee | "D".f(f/e/) dd | a2"G"b2 | "D".a(a/g/) ff | "A7".g(g/f/) ee | "D"df dz :|  [K:D] 
+[P:C] |: "A7"ca ag | "D"gf f/e/f | "A7"Af fe | "D"ed d/c/d | "A7"ca ag | "D"gf f/e/f | "A7"Af f>e | "D"dd "_>Teil A"dz :| 
+W:
+%W:Parts: ABCA
+W:Anmerkung H.C.: E. Niederhauser 1886
+%W:Anmerkung Hrsg,: 
+% pk07061
+% July 10, 2018

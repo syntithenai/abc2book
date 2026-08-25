@@ -1,0 +1,19 @@
+X:104
+T:Ländler (nach Kasi Geisser) EbBbAb (LD02138)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.329 (LD02138) orig. Eb.Bb.Ab
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+P:ABAC
+%%MIDI program 21
+%%partsbox
+R:Schottische
+M:3/4
+L:1/8
+K:Eb major
+[P:A] b=a | "Bb7"_a2d2f2 | B3d fb | "Eb"g2e2g2 | B3g fe | "Bb7"dfb2=ab | c'3db2 | "Eb"egb2 =ab | 
+c'3e gb | "Bb"a2d2f2 | B3d fb | "Eb"g2e2g2 | B3g fe | "Bb7"dfb2=ab | c'3b ad | "Eb"e2 de "Bb7"gf | 
+"Eb"e2z2z2 || [P:B] [K:Bb] ("Bb"de f)(d ef) | d4gf | ("Cm"ef g)(e fg) | e4b2 | "F7"aaa2c2 | ed ef ga | "Bb"bbb2d2 | 
+f4fe | (de f)(d ef) | d4gf | ("Cm"ef g)(e fg) | e4b2 | "F7"aaa2g2 | fg fe dc | "Bb"B3BB2  | 
+B2z2"_>Teil A"z2 || [P:C]  [K:Ab] "Ab"c4=Bc | f4e2 | "Bbm"d4cd | b4!>!a2 | "Eb7"g2b2d2 | f3=e fg | "Ab"a2c'2e2 | 
+"Eb7"ba gf ed | "Ab"c4=Bc | f4e2 | "Bbm"ddd2d2 | b4!>!a2 | "Eb7"ggg2d'2 | c'4b2 | "Ab"a3aa2 | a2z2z2 |] 
+% LD02138  (Oct 29, 2016)

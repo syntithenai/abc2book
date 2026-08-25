@@ -1,0 +1,25 @@
+X:1
+T:Unendliche Süssigkeit. Walzer  CF  (wz07019)  ABCA
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.148  (wz07019) orig. C,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+c'/ c'/c'/ |"C"g3 | (e2g) | czz |: [P:A] "C"gzc' | "F"azc' | "C"gze | g3 | ("G7"f2G) | f3 | "C"G2c/d/ | 
+e3 | gzc' | "F"azc' | "C"gze | g3 | ("G7"GAB) | (cde) | "C"c>cc | czz :: [P:B] "G7"df>e | d3 | 
+"C"eg>f | e3 | efe | ("G7"d2a) | (g2f) | ("C"f2e) | "G7"df>e | d3 | "C"eg>f | e3 | ("Dm"d2a) | 
+("G7"g2B) | ("C"c3 | c)zz :: [P:C] [K:F]  "F"A3 | c3 | ("Bb"d3 | d)zz | "C7"c3 | a3 | ("F"f3 | f)zz | 
+"G7"g3 | d2f | ("C"e3 | e)zz | "C7"e3 | ("F0"=B2d) | "F"c3 | c=B_B | A3 | c3 | ("Bb"d3 | d)zz | 
+"C7"c3 | "D7"a3 | ("Gm"g3 | g)zz | d3 | (g2d) | ("F/C"f3 | f)zz | "C7"e3 | (d2e) | "F"f>ff | f"_>Teil A"zz :| 
+%
+%W:Parts: ABCA
+W:
+W:Anmerkung H.C.: Lampenberg, Rünenberg, Lausen, Wynige/Zch.
+% wz07019
+% 08.06.2018

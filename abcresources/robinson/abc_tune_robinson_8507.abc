@@ -1,0 +1,22 @@
+X: 93
+T:the House of Letterfourie, a Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:33 - 4
+K:D major
+%%staves {1 2}
+V:1
+(B | \
+A).DFD EB,B,(B | A).DFD d2 (df) | gfed eBBd | FD F/G/A d2 d :|
+f | \
+dg (fg/a/) (be)ef | dg (fg/a/) (fd)ec | dBAF EFGB | FD F/G/A d2 d :|
+V:2 clef=bass octave=-2
+V:2
+L:1/4
+z/ | ddee | dddd | gfee | dA[Dd][Dd]/ :| \
+z/ | [dd'][dd'][ee'][ee'] | [dd'][dd'][dd']a | gfee | dA[Dd][Dd]/ :|

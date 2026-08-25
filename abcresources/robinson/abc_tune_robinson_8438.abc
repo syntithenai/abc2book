@@ -1,0 +1,19 @@
+X: 81
+T:Miss Gordon of Glastirum's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 2
+K:G minor
+%%staves {1 2}
+!trill!B2 (GB) DGBG | !trill!A2 (Fc) AFcA | B2 (GB) DGBG | !trill!AGFA G/G/G G2 :: \
+dg-ga bgaf | ! cf-f.a bgaf |1 dg-g.a bgaf | {b}agfa g/g/g g2 :|2 \
+defg fdcB | AGFA G/G/G G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+gggg | ffff | gggg | d'dgg :: \
+gggz | ffgf |1 gggz | d'dgg :|2 ggBB | cdgg |]

@@ -1,0 +1,33 @@
+X:5
+T:Stanserhorn-Juiz  Bb  ABCB
+T:Adolf Zimmermann (30.3.1919-18.7.2002)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCB
+M:3/4
+R:Naturjodel
+Q:1/4=95
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"  FB,C | D2E | F2d | B3 | B2F | dcB | A2c | F3 | FCD | E2F | F2e | 
+c2B | A2F | edc | BDG | F3 | FB,C | D2E | F2d | B3 | B2F | dcB | 
+A2c | F3 | FCD | E2F | F2e | c2B | A2F | "rit." edc | (B3 | B2)z ||  
+M:2/4
+L:1/8
+Q:1/4=98
+[P:B] "lüpfig" B,D | FD Fd | B2B,D | Ff dc | B2Fd | cE Fd | cf dc | BD Fd | B2B,D | 
+FD Fd | B2B,D | Ff dc | B2Fd | cE Fd | cf "rit."dc | (B4 | B2)z2 ||  
+M:2/4
+Q:1/4=85
+L:1/8
+[P:C] E2G2 | e2dc | B2F2 | d2cB | AcF2 | AcF2 | Bd GF | F4 | 
+e2G2 | e2dc | B2F2 | d2cB | AcF2 | Ac Fd | (B4 | B2)z2 |] 
+W:
+W:Reihenfolge: A-B-C-B
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 04-03
+W:http://www.naturjodler.ch/code 04.htm  (with AUDIO)
+%April 28, 2018

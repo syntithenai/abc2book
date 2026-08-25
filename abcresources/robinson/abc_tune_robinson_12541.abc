@@ -1,0 +1,34 @@
+X:430
+T:Austrian's Retreat,The.2voices RH.431
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:The lengths of numerous notes have been amended
+N:to match the metre of the bars. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C
+L:1/16
+Q:2/4=40
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] a3b bagf b2a2a4|gfga g2f2 fedc defg|a3b bagf b3a a3g|fd'c'd' f2e2 fgab a2g2|
+[V:2] f3g gfed g2f2f4|edef e2d2 AGFE Fcde|f3g gfed g3f f3e|d2ef d3c defg f2e2|
+%
+[V:1] fd'c'd' f2e2 d2d>d d2ef|e2A>A A4 e2e>e e2fg|f2ddd4 z/a/b/c'/d'4b2d'2|a3b/c'/ d'3ff4gabg|
+[V:2] d2ef d2A2 F2FF F2Ad|A2AAA4 A2AA A2de|d2F2F4 z/A/B/c/ d4B2e2|A3B/c/ d3dd4 efge|
+%
+[V:1] f2ee e2a2 A3B/c/ d2e2|f2e2 e2a2 A3B/c/ d2e2|f2ee e2z/a/b/c'/ d'4b2e'2|a3b/c'/ d'2f2f4 e>de>f|
+[V:2] d2c>c c2c2 A2G2F2E2|D2A2 A2c2 A2G2F2E2|DFAA A2z/A/B/c/ d4 B2e2|A3B/c/ d2d2 d2A2 G>FG>A|
+%
+[V:1] d4{e}z4 e3f agfe|fgab a4 efga b2ag|fedc dfeg a3b bagf|b2a2 a2g2 fd'c'd'f2e2|
+[V:2] F4z4 c2d2 fedc|defg f2d2 cdef g2fe|dGFE FAde f3g gfed|g2f2 f3e d2ef d2c2|
+%
+[V:1] dfff feee eddd d2zA|Aggg gfff feee e2zA|Aaaa aggg gff2 zfge|edd2 zdec c2d2 z2ag|
+[V:2] dAAA AGGG GFFF F2zA|Aeee eddd dccc c2zA|Afff feee edc2 zdBG|GFF2 zFGE G2F2 z2fe|
+%
+[V:1] gfff fffg feee eeef|eddd defg f2e>e e2z/a/b/c'/|d'4 c'2e'2 a3b/c'/ d'2f2|f4 e>de>f d6z2|]
+[V:2] e^ddd ddde =dccc cccd|cBBB Bcde d2c>c c2z/A/B/c/|d4 B2e2 A3B/c/ d2d2|d2A2 G>FG>A F6z2|]

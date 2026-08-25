@@ -1,0 +1,20 @@
+X:134
+T:Polka BbF (pk06926) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.251 (pk06926) orig. Bb,F
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+d/d/ |: "Bb"dB (A/B/c/B/) | "Eb"AGG2 | ("F7"GF) A>A | ("Bb"GF) Bd/d/ | dB (A/B/c/B/) | "Cm"AG e>G | ("F7"F/A/).A (A/c/).c |1 
+"Bb"BB Bd/d/ :|2 "Bb"BB B(A/B/) |: [K:F] "F".c.d c>A | "C7"BE E/F/G/A/ | .B.c B>G | "F"AF F/G/A/B/ | .c.d c>A | "Gm".G.d d/d/d | 
+"F"cA "C7"B/A/G |1 "F"FA FA/B/ :|2 "F"FA FF |: [K:Bb] "Bb"F2B2 | d2f2 | B2d2 | "F7".c3f | F2A2 | c2f2 | A2c2 | 
+"Bb"d3B | F2B2 | d2f2 | B2d2 | "Cm"e3c | G2c2 | "Bb"F2B2 | "F7"A2F2 |1 "Bb"BF DF :|2 "Bb"BF DF/F/ ||
+|: "Bb"FB (A/B/c/B/)  | "Eb"AG G/^F/G | "F7"F=E/F/ Ac | "Bb"dB B/A/B | FB A/B/c/B/ | "Cm"AG G/^F/G | "F7"F=E/F/ Ac |1 "Bb"BB BF/F/ :|2 "Bb"BB Bz |] 
+W:Anmerkung H.C.: Frenkendorf 5, s.V. 1114
+% the repetition in part D is missing in the book version
+% pk06926
+% April 17, 2017

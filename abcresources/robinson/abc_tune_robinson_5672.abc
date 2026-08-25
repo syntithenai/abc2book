@@ -1,0 +1,34 @@
+X:1
+T:Bärgler-Juiz  Bb
+T:Remigi Blättler (19.12.1899-27.10.1975)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam" 
+FF | D3F Bc | d3d cB | A3G Fe | !breath!A4 FF | 
+E3F cd | e3e dc | B3D Fd | !breath!B4 FF | D3F Bc | d3d cB | 
+A3G Fe | !breath!A4FF | E3F Ac | e3e dc | (B6 | B4) || 
+M:3/4
+[P:B] "etwas schneller" BF Fd cB | AF Fe !breath!A2 | AF Fe dc | BF Fd !breath!B2 | 
+BF Fd cB | AF Fe !breath!A2 | AF Fe dc | !fermata!B4z2 || 
+M:3/4
+[P:C] "langsam" G>F |!>!c2 !breath!f2 G>F | !>!B2 !breath!d2 G>F | !>!c3e dc | 
+B>G !breath!F2 G>F | !>!c2 !breath!f2 G>F | !>!B2 !breath!d2 G>F | !>!c3e dc | B4 ||
+M:3/4
+[P:D] "Walzertempo"  FF | !>!E3F Ac | !>!e3e dc | !>!B3d BG | !breath!F3D FB | !>!A3c AG | 
+!>!F3E FA | !>!B3d BG | F4FF | !>!E3F Ac | !>!e3e dc | 
+!>!B3d BG | !breath!F3D FB | !>!A3c AG | !>!F3f eA B3 "rit."!tenuto!d !tenuto!c !tenuto!f  | !fermata!B4 |]
+W:
+W:Reihenfolge: AA-BB-CC-D
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 02-01
+W:http://www.naturjodler.ch/code 2001.htm  (with AUDIO *)
+W:
+W:* Do yourself a favor and listen to the orig. audio first of all.
+%April 27, 2018

@@ -1,0 +1,23 @@
+X: 230
+T:Lady Louisa Gordon's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 3
+K:F major
+%%staves {1 2}
+V:1
+A | \
+(C<F) (F>G) !trill!A3/G/ A<F | (D<G)(G>A) !trill!B2- B<c | \
+d<f   c<A   !trill!G3/F/ G<A | C>FE>G F3 ::
+(e | \
+f>c) f<a f>c f<(a | f)>c f<a !trill!g2- g<(a | \
+f)>c c<A f>b a<g | f<d !trill!c3/A/ {A}G3 :|
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffFF | GGgg | ffgg | ccf3/ :: \
+z/ | ffff | ffgG | fffc | ddG3/ :|

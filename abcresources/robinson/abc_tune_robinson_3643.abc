@@ -1,0 +1,16 @@
+X:185
+T: Prager Polka CF (pk05082)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.357 (pk05082) orig. C,F-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABCDC
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+((3GAB) [P:A] |: "C"c2Bd "F"c2A2 | "C"G2^FA G2c2 | "G7"e3d cBcB | "C"a3g dcdc | c2Bd "F"c2A2 | "C"g2^fa g2c2 | "G7"Bddf faag |1 
+"C"c2e2 c2((3GAB) :|2 "C"c2e2 c2Bc [P:B] |: "G"d2b2 "C"G2e2 | "G"d2GA !>!B4 | "D7"B2A2 PB2A2 | "G"A2G2 PA2G2 |  d2b2 "C"G2e2 | "G"d2GA !>!B4 | "D7"B2A2 PB2A2 | "G"G4z4 | 
+"G7"gaa2 aBB2 | "C"gaa2 acc2 | "G7"GABc d2G2 | "C"e2ed cBAG | "G7"gaa2 aBB2 | "C"gaa2 acc2 | "G7"Bc^GA EF^F=G | "C"C2c2 c2z2 :| [K:F] 
+[P:C] |: "F"c4 Acfa | c'2ad' c'4 | "C7"a2ca g^fg2 | "F"g2cg fef2 | c4 Acfa | c'2ad' c'4 | a2ca "C7"g2cg |1 "F"f2fe f2z2 :|2 "F"f2f2 f2fe || [K:C] 
+[P:D] "G7"edb2 b2b2 | "C"d'c'g2 g2g2 | "G7"bad2 d^cdf | "C"agc2 cdef |   "G7"edb2 b2b2 | "C"d'c'g2 g2g2 | "F"bac2 "G7"agB2 | "C"c2c2 "_>Teil C"c2z2 |]

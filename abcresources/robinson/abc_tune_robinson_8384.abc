@@ -1,0 +1,30 @@
+X: 44
+T:Mrs Major L. Stewart of the Isle of Java
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:17 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slow"
+C/D/ | \
+(!trill!E>D) (C>B,) A,A- Ac/d/ | [Ace]>c A[CE] [DF][EB][EB][Ec] | \
+d>e ~f(e/d/) c/e/f/g/ !fermata!ag/f/ | {f}e>c{c}B>A EAA (C/D/) |
+(!trill!E>D) (C>B,) A,A- A c/d/ | [Ace]>c A!trill![CE] [DF][EB][EB][Ec] | \
+d>e ~f(e/d/) c/e/f/g/ !fermata!ag/f/ | (3f/e/!wedge!d/ (3e/d/!wedge!c/ (3d/c/!wedge!B/ (3c/B/!wedge!A/ EA A ||
+c/d/ | \
+[Ace]>cAf {c}d>BEd | cAeE GB-B!wedge!c | \
+(~d/c/d/)!wedge!e/ (~f/e/f/)!wedge!g/ (b/a/)g/f/ {f}(e>d) | (c/e/)(A/c/) (B/d/)(G/B/) EA-A!wedge!c |
+[Ace]>c!wedge!Af {c}d>BEd | !wedge!c!wedge!A!wedge!E!wedge!C B,B-B!wedge!c | \
+(~d/c/d/)!wedge!e/ (~f/e/f/)!wedge!g/ (a/g//a// b//a//g//f//) ({f}!fermata!e>d) | (c/e/)(A/c/) (B/d/)(G/B/) EA-A |]
+V:2 clef=bass octave=-2
+z | \
+A2a2AaAz | A2a2d2e2 | f>edd' [ac']d' !fermata![ac']z | aA eE AaAz  | \
+A2a2AaAz | A2a2d2e2 | f>edd' [ac']d' !fermata![ac']z | d'c'ef eAA || \
+z | \
+[ac'e']2 [c'e']2 [gbe']2 [egb]2 | [Acea]2 Ac e2 ge | f>e d2 cA eg | aA de AaAz | \
+[ac'e']2 [c'e']2 [gbe']2 [egb]2 | a2 cA EeEz | f>e dd' c'a !fermata![gb]>[eg] | acde AaA |]

@@ -1,0 +1,35 @@
+X:18
+T:John of Paris.2voices. GS.018
+M:6/8
+L:1/8
+Q:3/8=90
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Yorkshire - Leeds
+N:NB--The last three bars (assuming 8 bar B music) are missing  - page
+N:15 is missing - so I have used the last three bars  of the A music.
+N:Not the same tune as either of the two Johns of Paris in Dave
+N:Townsend's English Dance Music, or the one in Kerr's Merrie Melodies.
+N:The 'dim's' are written as the standard signs under the notes, each
+N:relates to a group of three crochets
+H:1831
+Z:vmp.Cherri Graebe
+B:Village Music project, Spencer, George
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/spencer.abc
+K:D major
+V:1
+[V:1]d | ded fed | efe gfe |\
+"^dim."dfa "^dim."dfa | gfg e2f |!
+[V:2]z | D,F,A, D,F,A, | \
+C,E,A, C,E,A, | D,F,A, D,F,A, | A,,F,A, A,,E,A, |!
+%
+[V:1]ded fed | efe gfe | dfa gea | fea d2 ||!
+[V:2]D,F,A, D,F,A, | C,E,A, D,F,A, | F,2D,B,2B,, | D,2F,D,2 ||!
+%
+[V:1]a | (age) afd | bgg aff | (age) afd | cec ABc |!
+[V:2]z | D,E,A, D,F,A, | C,E,A, D,F,A, | C,E,A, D,F,A, | A,,E,A, A,,2 z |!
+%
+[V:1]dAf eAg |"_last 3 bars missing" efe gfe | dfa gea | fea d2 |]
+[V:2][D,2D2]z [C,2C2] z | C,E,A, C,D,A, |\
+F,2D,B,2B,, | D,2F,D,2 |]

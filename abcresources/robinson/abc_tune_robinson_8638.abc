@@ -1,0 +1,45 @@
+X: 262
+T:Mrs Gordon of Bellie's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:9 - 1
+K:F major
+%%staves {1 2}
+V:1
+c |\
+(A/d3/)(!trill!d3/c/) A/F3/F3/(A/ | c3/)d/ !trill!c/A3/ {A}G2 (Gc) | \
+(A/d3/)(!trill!d3/c/) A/F3/F3/(e/ | f3/).g/ a/c3/ A2 A ::
+G | \
+F/f3/-f3/g/ (f/a3/)(!trill!a3/g/) | f/d3/!trill!c3/A/ {A}G2 (G3/A/) | \
+F/f3/-f3/g/ (f/a3/)(!trill!a3/g/) | f/c3/d3/f/ !trill!A2 A ::
+d | \
+c/A3/A3/d/ c/A3/A3/d/ | c/A3/!trill!A3/F/ {F}G2 (Gd) | \
+c/A3/A3/d/ c/A3/A3/a/ | fcdf !trill!A2 (A3/d/) |
+c/A3/A3/d/ c/A3/A3/d/ | c/A3/!trill!A3/F/ {F}G2 (G3/A/) |\
+F3/G/ A/d3/ c/A3/A3/a/ | fcdf !trill!A2 A ::
+g | \
+f3/g/ a/g3/ f/d3/d/f3/ | c/A3/!trill!A3/F/ {F}G2 (GA) | \
+f3/g/ a/g3/ f/d3/d/f3/ | c/A3/f3/g/ !trill!a2 (a3/g/) |
+f3/g/ a/g3/ f/d3/d/f3/ | c/A3/!trill!A3/F/ {F}G2 (G3/A/) | \
+F3/G/ A/d3/ c/A3/A/a3/ | fcdf !trill!A2 A |]
+|: G | \
+F3/G/ A/f3/ c/A3/G/f3/ | c/A3/!trill!A3/F/ {F}G2 (G3/A/) | \
+F3/G/ A/f3/ c/A3/A/a3/ | f3/c/ d/f3/ !trill!A2 A :|
+[| f/g/ | \
+a3/f/g3/e/ f3/c/ d/f3/ | c/A3/A3/F/ {F}G2 G f/g/ | \
+a3/f/g3/e/ f3/c/ d/f3/ | c/A3/f3/g/ a2 a f/g/ |
+a3/f/g3/e/ f3/c/ d/f3/ | c/A3/!trill!A3/F/ {F}G2 GA | \
+F3/G/ A/d3/ c/A3/A/a3/ | f3/c/ d/f3/ !trill!A2 A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | [df][df]ff | ffgg | ffff | fcFF/ :: \
+z/ | ffff | ffgg | ffff | ffff/ :: \
+z/ | ffff | ffgg | ffff | ffff | ffff | ffgg | ffff | abff/ :: \
+z/ | ffff | ffgg | ffff | ffff | ffff | ffgg | ffff | abff/ |] |: \
+z/ | ffff | ffgg | ffff | ffff/ :| [| \
+z/ | fcff | ffgg | fcff | ffff | fcAB | ffgg | ff[Ff][Ff] | ABfF/ |]

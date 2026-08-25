@@ -1,0 +1,27 @@
+X: 150
+T:the Forest of Ga-ick, a  Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:52 - 2
+K:F major
+%%staves {1 2}
+V:1
+E | \
+D<d-d>^c {c}d2 (de) | c>d e<d c<CC>E | \
+D<d-d>^c {c}d2 (de) | c<Ac>E {E}D2 (DE) |
+Dd-d.^c {c}d2 (de) | c>def gece | \
+fage fdec | d<Ac>E {E}D2 D |]
+e | \
+f<d-d>.e c>d e<a | f<.d-.d>.e f<df<a | \
+f<.d-.d>.e c>d e<(g | a)<.f{f}g>e {c}d2 (de) |
+f<dd>e c>d e<a | f<dd>e f>de>(=B | \
+c)>.dcG ECEG | A<FG>E {E}D2 D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | cccc | dddd | aadd | dddd | cccc | defg | aAdd/ |] \
+z/ | d'd'c'c' | d'd'd'd' | d'd'c'c' | d'add | d'd'c'c' | d'd'd'=b | c'gcc | dAdd/ |]

@@ -170,7 +170,7 @@ export default function MidiImportCompactFilters(props) {
               max={1}
               step={0.05}
               disabled={!quantOn}
-              value={filters.quantStrength != null ? filters.quantStrength : 0.7}
+              value={filters.quantStrength != null ? filters.quantStrength : 1}
               onChange={function(e) { setFilters({ quantStrength: parseFloat(e.target.value) }); }}
               aria-label="Quantise strength"
             />

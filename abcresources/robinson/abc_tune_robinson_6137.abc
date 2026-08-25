@@ -1,0 +1,21 @@
+X:1
+T:Berliner Polka.  CF (pk07018)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.149  (pk07018) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] ("C"G/e/)c (G/e/)c | "G7"cB B/A/G | (G/f/)d (G/f/)d | "C"dc (a/g/)e | (G/e/)c (G/e/)c | "G7"cc B/A/G | (G/f/)d G/f/d/B/ |1 "C"cc cz :|2 "C"cc ca/g/ || 
+[P:B] |: "G7"f(f/G/) BB | "C"c(c/E/)G2 | "G7"BB/c/ dG | "C"c/B/c/d/ .ea/g/ | "G7"f(f/G/) BB | "C"c(c/E/)G2 | "G7"BB/c/ dG |1 "C"cc ca/g/ :|2 "C"cc cz || [K:F] 
+[P:C] |: ("F"Ac) ("Bb"Bd) | "F".c2 c/d/e/f/ | (Ac) ("Bb"Bd) | "F".c2c/d/e/f/ | ("C7"ag) (ge) | ("F"gf) (fc) | "C7"fe ed/e/ | "F"ff fz :| 
+[P:D] |: "F"a>g fc | "Bb"dd/c/B2 | "C7"gf ec | "F"ff/c/A2 | a>g fe | "Bb"dc BA | "C7"cc cd/e/ | "F"ff fz :| 
+%W:Parts: ABCD
+%W:Anmerkung H.C.: 
+% pk07018
+% July 2, 2018

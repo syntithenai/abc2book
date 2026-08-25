@@ -1,0 +1,22 @@
+X:1
+T:Amoretten-Polka  BbFEb  (pk07786) ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.140  (pk07786) orig. Bb,F,Eb
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E. Dalcher
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] F/F/ |: "Bb"FB BF/F/ | Fd dB/B/ | Bf g/f/d/B/ | "F7"dc cF/F/ | FA AF/F/ | Fc cA/A/ | Af (f/e/).d/.c/ |1 
+"Bb"BB BF/F/ :|2 "Bb"BB BA/A/ [P:B] |: [K:F] "F"Ac fc | !>!"Gm"^cd dG/G/ | GA Bd | "F"d/c/=B/c/ AA/A/ | Ac fc | !>!"Gm"^cd dG/G/ | 
+"C7"cG (c/B/)A/G/ |1 "F"FF FA/A/ :|2 "F"FF FF/F/ || ("F7"FA) AF/F/ | (Fc) cF/F/ | FA cd | _e2z"_>Teil A"F/F/ || [K:Eb] [L:1/4]
+[P:C] |: ("Eb"G>B) | ("Ab"c>e)  | ("Eb"B>G) | B(B/G/) | B(B/e/) | ("Bb7"d2 | d) (B/f/) | ("Eb"e2 | e) (B/A/) | 
+  (G>B) | ("Ab"c>e)  | ("Eb"B>G) | B (e/d/) | "Ab"c(f/e/) | "Bb7"d(g/f/) | ("Eb"e2 |1 e) (B/A/) :|2 ez |]
+W:
+W:Anmerkung H.C.: R. Claus, Ormalingen, Wynige/Zch., s.V.325
+% pk07786
+% June 1, 2018

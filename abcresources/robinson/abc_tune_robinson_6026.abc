@@ -1,0 +1,19 @@
+X:1
+T: Mazurka  FBb (mz06684)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.59  (mz06684) orig. F,Bb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"A/>B/cF | "C7"E/>F/GG | .B!>!d>G | "F"A/>B/cc | .c!>!f>A | "Gm"G/>B/dd | "C7"c/>d/ c/>A/ B/>G/ | "F"Ffz :: [P:B]  "C7"eee | 
+e>GG | "F"ddd | d>FF | "C7"ccc | c>EG | c>EG | "F"Fdc | "C7"eee | e>GG | "F"ddd | 
+d>FF | "C7"ccc | c>EG | cB>G | "F"Fc"_>Teil A"z :: [P:C] [K:Bb]  "Bb"F2d | F2d | F>ed | "F7"d2c | F2c | 
+F2c | Fc>d | "Bb"c2B | dBB | "F7"A>cc | FAc | "Bb"B>dd | dBB | "F7"A>cc | FA>c |  "Bb"BBz :| 
+% mz06684
+% Feb 7, 2018

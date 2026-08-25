@@ -1,0 +1,19 @@
+X:1
+T:Polka  FCBb (pk06635)  ABACDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.54  (pk06635) orig. F,C,Bb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"fA     cF | "C7"E/F/G/A/ BB | B/d/d EG | "F"F/G/A/B/ cc | fA cF | "C7"E/F/G/A/ BB | B/d/d cE | "F"FA Fz :|
+[P:B] [K:C] |: "G7"G^F/G/ AB | "C"cd!>!e2 | ("G7"e/f/).f !>!d2 | ("C"d/e/).e!>!c2 |  "G7"G^F/G/ AB | "C"cd!>!e2 | ("G7"e/f/)f  Bd | "C"cc "_>Teil A"cz :| 
+[P:C] [K:Bb] |: "Bb"F/F/F BB | "Eb"G/G/G cc | "F7"ee dc | "Bb"de/d/ cB | F/F/F BB | "Eb"G/G/G cc | "F7"ee dc | "Bb"BB B"_Fine"z :| 
+[P:D] [K:F] |: "C7"BG BG | "F"dc/c/ cf | "C7"fe/e/ ed | GB/G/ dc | BG BG | "F"dc/c/ cf | "C7"fe/e/ eg | "F"ff fz :| 
+% pk06635
+% Jan 19, 2018

@@ -1,0 +1,20 @@
+X:1
+T:Farewell to the Creeks
+C:P.M. J. Robertson
+M:6/8
+O:Scotland
+R:Pipe March
+%%alias:FarewellToTheCreeks
+K:A mixolydian
+a | \
+e2c c>Bc | d>ef e2d | c2e A>ce | e>dc B2a | \
+e2c c>Bc | d>ef e2d | c2e e>dc | B3 A2 ::
+f | \
+e>ce f<ag | f>df e>cA | c2c c>ec | d>cd B2a | \
+e>ce f<ag | f>df e>cA | c2e e>dc | B3 A2 :: 
+a | \
+c3 d2f | c>ec c>BA | d2f c2e  | e>dc B2a | \
+c3 d2f | c>ec c>BA | c2e e>dc | B3 A2 ::
+e | \
+a2e f2a | e2f e>cA | d2f c2e  | e>dc B2e | \
+a2e f2a | e2f e>cA | c2e e>dc | B3 A2 :|

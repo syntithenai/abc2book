@@ -1,0 +1,27 @@
+X:22
+T:Wonderful Chimes(?),The,2parts. JNu.20
+M:6/8
+L:1/8
+Q:3/8=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Air
+O:England
+A:Lancashire, E
+N:May be Times not Chimes, not definite in MS..CGP
+Z:vmp.Manchester Morris Men
+V:1
+V:2 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:Bb major
+[V:1] |: F | B2B fdB | A3 A2F | c2c _ecA | B3 Bzf |
+[V:2] |: z | B,,D,F, B,,D,F, | F,,C,E,F,2z | F,,C,E, F,CE | B,DF,B,2z |
+%
+[V:1] b2b d'2b | g2g _e2g | f2f fga | [d3-b3-][d2b2] :|
+[V:2] D,,D,D, D,,D,D, | E,,E,E, E,,E,E, | F,,F,F, F,,F,F, | B,,B,,B,,B,,2 :|
+%
+[V:1] |: A/B/ | c2c afc | B3 B2G/A/ | B2B g=eB | A3 A2A/B/ |
+[V:2] |: z | F,A,C F,A,C | C,G,C C,G,C | C,G,C C,G,C | F,A,CF,2z |
+%
+[V:1] cac BgB | AfA G=eG | Fdd G=ee | [A3f3] [A2f2] :|
+[V:2] F,,3C,3 | D,3A,,3 | B,,2G,,C,2C,, | F,,A,,C,F,,2 :|

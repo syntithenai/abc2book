@@ -293,6 +293,34 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.candidates.length).toBe(2)
   })
 
+  test('preferChords lyrics job falls back when chords are accompaniment-only', async function() {
+    searchChords.mockResolvedValueOnce({
+      multiple: false,
+      chordText: 'D G Bm A|',
+      sheetLines: ['D G Bm A', 'G D D A G'],
+      lyricLines: ['D G Bm A', 'G D D A G'],
+      lyricText: 'D G Bm A\nG D D A G',
+      source: 'FolkTuneFinder',
+    })
+    const id = tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Gumboots',
+      artist: 'Paul Simon',
+      accessToken: 'token',
+      options: { preferChords: true },
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(searchChords).toHaveBeenCalled()
+    expect(searchLyrics).toHaveBeenCalled()
+    expect(job.id).toBe(id)
+    expect(job.kind).toBe('lyrics')
+    expect(job.status).toBe('awaiting')
+  })
+
   test('applyFieldLookupChoice finishes job as done (one-shot)', async function() {
     tuneFieldLookupQueue.enqueueLookup({
       tuneId: 't1',

@@ -1,0 +1,17 @@
+X:261
+T:Varsovienne CF  (vr07427)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.337 (vr07427) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Varsovienne
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+c>d |: "C"((3e^de) .a2.g2 | !>!"G7"f4 d>e | ((3fef) .b2.a2 | !>!"C"g4 e>f | ((3g^fg) .d'2.c'2 | !>!"F"a4 f>d | "G7"B>B .a2.B2 |1 !>!"C"c4 c>d :|2 !>!"C"c4e>e || 
+"E7"e>f e>^d e>f | "Am"e>ae2e2 | "E7"e>be2e2 | !>!"Am"c'4b>a | "G7"g>a g>^f g>a | "C"g>c'g2g2 | "G7"b>a g>a f>d | !>!"C"c4c>c || [K:F]  
+"F"ca fc fa | !>!"C7"g4 c>c | cb gc gb | !>!"F"a4c>c | cc' ac ac' | !>!"Bb"b4a>g | "F".f(c =Bc) "C7"a>g | !>!"F"f4f>e || 
+"Dm"((3d^cd) .f2.d2 | ((3fef) .a2.f2 | ((3a^ga) .d'2.a2 | !>!"Gm"b4 b>b | "A7"((3a^ga).e2.a2 | "Dm"f>e !>!d4 | "C7"z2 ((3c=Bc) e>g | !>!"F"f4z2 |] 
+% vr07427
+% Aug 21, 2017 (Earthlings - myth in nuce)

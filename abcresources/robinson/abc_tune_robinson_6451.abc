@@ -1,0 +1,23 @@
+X:2
+T:Aufgepasst. Polka  GC 5- (pk07892)
+S:Hanny Christen. Bd.V  Basel II, Jura. S.216  (pk07892) orig. C,F
+S:Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%MIDI program 21
+%%partsbox
+%P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"DG G/2F/2G | "D7"Fe !>!e2 | FA A/2^G/2A | "G"Gd !>!d2 | DG G/2F/2G | "Am"EA A/2^G/2A | "D7"Fd c>F | "G"GB Gz :: [K:Cmaj] [P:B] "C"GE cG | 
+"G7"B/2B/2B BG | B/2B/2B BF | "C"A/2A/2A EE/2F/2 | GE cG | "F"AF dA | "G7"B/2A/2G f/2e/2d | "C"ce c"_>Teil A"z :: [P:C]"C"G/2G/2G/2G/2 GG | 
+ed cB | "F"A/2A/2A/2A/2 AA | f3z | "G7"B/2B/2B/2B/2 BB | gf ed |1 "C"c/2c/2c/2c/2 BA | G3z :|2 "C".c2.e2 | c2z2 |: [P:D] "G7"G3 F/2D/2 | 
+G3F/2D/2 | "C"A3G/2E/2 | A3G/2E/2 | "G7"cB BA | "C"AGG2 |1 "D7"cB BA | "G7"AG G2 :|2 "G7"ff ed | "C"c2z2 |] 
+W:
+W:Parts: ABACD
+%W:Anmerkung H.C.: 23. April 1915
+%W:Anmerkung Hrsg,:
+% pk07892
+% Apr 10, 2019

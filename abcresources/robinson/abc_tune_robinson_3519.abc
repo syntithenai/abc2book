@@ -1,0 +1,11 @@
+X:73
+T: Klettgauer Galopp  G (GL04913)
+M:2/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"B>c dG | "D7"B/2A/2G/2F/2 "G"GD | B>c "Am"ed | "D7"A^A"G"B2 | B>c dG | "D7"B/2A/2G/2F/2 "G"GD | "Am"A>e "G"dG | "D7"B/2A/2d/2F/2"G"G2 :: 
+"G"gd d/2^c/2d | gd d/2^c/2d | "D7"cA A/2^G/2A | "G"BG G/2F/2G | gd d/2^c/2d | gd d/2^c/2d | "D7"cA A/^G/A | "G"GB Gz :| 
+% June 12, 2016
+%%partsbox
+%%MIDI program 21

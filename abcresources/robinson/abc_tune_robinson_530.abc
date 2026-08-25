@@ -1,0 +1,29 @@
+X:34
+T:Eclipse Galop,The. GHW.034
+M:2/4
+L:1/8
+Q:1/2=100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,c1880
+R:Gallop
+O:England
+A:Norfolk
+N:Bar 1, 9 in MS are a quaver short. I've changed these to match the C
+N:part.Sign at start of B part.  Last part marked TRI
+Z:vmp.Taz Tarry
+B:Village Music project, Watson, George
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/watson.abc
+K:A major
+c>eA2|c>eA2|d>fa>f|f2e z|c>eA2|c>eA2|F>Bd>B|G2E2|!
+c>eA2|c>eA2|d>fa>f|f2e z|c>eA2|c>eF2|G>Bd>B|A2 z a:|!
+|:(3(aaa) a>a|(3(ggg) g>g|(3(fff) f>f|(e2e) z|\
+d>fe>d|c>fd>c|B>dc>B|(c2A2)|!
+(3(aaa) a>a|(3(ggg) g>g|(3(fff) f>f|(e2e) z|\
+d>fe>d|c>ed>c|B>dc>B|A2A z:|!
+c>eA2|c>eA2|d>fa>f|f2e z|B>dF2|G>Bd>B|A2 z a||!
+K:D
+"TRIO"dzez|fzgz|azaz|ag f2|gzBz|fzez|fzez|fecA|!
+dzez|fzgz|azaz|ag f2|gzBz|fzez|dcBc|dzdz|!
+e>A A2|f>dd2|eABc|d>fA2|e>A A2|f>dd2|eABc|dzdz|!
+e>A A2|f>dd2|eABc|d>fA2|e>A A2|fdda|^gefg|a z z2|!
+dzez|fzgz|azaz|ag f2|gzBz|fzez|fzez|fecA|!
+dzez|fzgz|azaz|a>g f2|gzBz|fzez|dcBc|dzdz|]

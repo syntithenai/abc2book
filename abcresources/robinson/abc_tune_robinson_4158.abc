@@ -1,0 +1,18 @@
+X:201
+T: Schottisch CGF (st09273)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.160 (st09273) orig. C,G,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+e |: "G7"g>g gf | "C"fe e/d/c | "tr"dc ce | "tr"dcc2 | "G7"g>g gf | "C"fe e/d/c | "G7"ed d/c/B |1 
+"C"ce ce :|2 "C"ce cz || [K:G] "G"dd/d/ db/g/ | "Am"ee/e/ ea/b/ | "D7"c'a fe | "G"d/e/d/B/ G2 | dd/d/ db/g/ | 
+"Am"ee/e/ !>!e2 | "D7"d/e/f/g/ af | "G".g2zd || "C"e>e ee | "G"e>d dB | "D7"d>c cA | "tr""G"cB Bd | 
+"C"e>e ee | "!>""G"e>d dB |    "D7"d>c cA | "G"Gg gz |: [K:C]  "G7"g>g gf | "C"fe e/d/c | "G7"ed d/c/B |  "tr""C"dc ce | 
+"G7"g>g gf | "C"fe e/d/c | "G7"ed d/c/B |1 "C"ce c"_Fine"z :|2 "C"ce cc/c/ |: [K:F] "F"ca fc/c/ | ca fc/c/ | 
+f/c/f/a/ c'a | "C7"bd' d'b/a/ | gd' d'b/g/ | "F"fd' c'a/f/ | "C7"ec' be |1 "F"ff fc/c/ :|2 "F"ff fz |] 
+%% st09273 (H 333/TN 112)

@@ -1,0 +1,22 @@
+X:37
+T:Scotch Air. TLY.037
+M:4/4
+L:1/8
+Q:1/2=60
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England
+A:Lancashire
+H:1860.
+Z:vmp.Taz Tarry.
+B:Village Music project, Tildsley, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/tildsley.abc
+K:D major
+(f>g)|a3 b (a>f)(ed)|(e>d)(ef)B3 d|\
+(A>B)(AF) A2 (dA)|F2 (A>B)A2 (d/e/f/g/)|!
+a3 b (a>f)(ed)|(gf)(ed) {c}B2 (f>e)|\
+(d<B)(A<F) A2 (d>e)|{de}f2 (~e>d)d2||!
+|AG|F3 A (~B>A)(B>d)|~e>def B3 b|\
+a>b(af) (gf)(ed)|g>b (b/a/g/f/) e2 (a>g)|!
+(ga)(bc') d'2 (c'>b)|(af)(ed) B2 (f>e)|\
+(d<B)(A<F) A2 (d>e)|(d/e/f) (~e>d) d2|]

@@ -1,9 +1,6 @@
 import {
-  checkAudioLinkPlayback,
-  checkRecordingLinkPlayback,
-  getEmptyLinkReason,
-  getLinkSrcType,
-  LINK_CHECK_TIMEOUT_AUDIO_MS,
+  checkLinkPlaybackItem,
+  LINK_CHECK_STATUS,
   LINK_CHECK_TIMEOUT_YOUTUBE_MS,
 } from './checkTuneLinkPlayback'
 import { isAbortError } from './abortUtils'
@@ -148,7 +145,23 @@ function updateSession(selectionKey, patch) {
   patchBulkCheckSession(selectionKey, patch)
 }
 
-async function runLinkChecks(options, collectedFailures) {
+function formatLinkCheckFinishedMessage(queueLength, failures, needsLogin) {
+  const brokenCount = failures.length
+  const loginCount = needsLogin.length
+  if (!brokenCount && !loginCount) {
+    return 'All ' + queueLength + ' link(s) played successfully.'
+  }
+  const parts = []
+  if (brokenCount) {
+    parts.push(brokenCount + ' broken')
+  }
+  if (loginCount) {
+    parts.push(loginCount + ' needing login')
+  }
+  return 'Link check finished — ' + parts.join(', ') + '.'
+}
+
+async function runLinkChecks(options, collectedFailures, collectedNeedsLogin) {
   const queue = options.queue || []
   const signal = options.signal
   let completed = 0
@@ -169,38 +182,38 @@ async function runLinkChecks(options, collectedFailures) {
         totalCount: queue.length,
         progressPercent: queue.length ? Math.round((completed / queue.length) * 100) : 0,
         failures: collectedFailures.slice(),
+        needsLogin: collectedNeedsLogin.slice(),
       },
     })
 
-    const emptyReason = getEmptyLinkReason(item.link)
-    let result
-    if (emptyReason) {
-      result = { ok: false, error: emptyReason }
-    } else {
-      const srcType = getLinkSrcType(item.link, options.isYoutubeLink)
-      const src = String(item.link.link).trim()
-      if (srcType === 'youtube') {
-        result = await checkYoutubeLink(options.youtubeGetId(src), signal)
-      } else if (srcType === 'recording') {
-        result = await checkRecordingLinkPlayback(item.link, item.tuneId, item.linkIndex, {
-          signal: signal,
-          accessToken: options.accessToken,
-          driveApi: options.driveApi,
-        })
-      } else {
-        result = await checkAudioLinkPlayback(src, {
-          signal: signal,
-          timeoutMs: LINK_CHECK_TIMEOUT_AUDIO_MS,
-        })
-      }
-    }
+    const result = await checkLinkPlaybackItem(item, {
+      signal: signal,
+      isYoutubeLink: options.isYoutubeLink,
+      youtubeGetId: options.youtubeGetId,
+      accessToken: options.accessToken,
+      driveApi: options.driveApi,
+      checkYoutube: function(link, ytSignal) {
+        const src = link && link.link != null ? String(link.link).trim() : ''
+        const videoId = typeof options.youtubeGetId === 'function'
+          ? options.youtubeGetId(src)
+          : null
+        return checkYoutubeLink(videoId, ytSignal)
+      },
+    })
 
     if (signal.aborted) break
 
     completed += 1
-    if (!result.ok) {
+    if (result && result.status === LINK_CHECK_STATUS.NEEDS_LOGIN) {
+      collectedNeedsLogin.push(Object.assign({}, item, {
+        error: result.error || 'Needing Login',
+        status: LINK_CHECK_STATUS.NEEDS_LOGIN,
+      }))
+    } else if (result && !result.ok && result.status !== LINK_CHECK_STATUS.CANCELLED
+      && result.status !== LINK_CHECK_STATUS.SKIP) {
       collectedFailures.push(Object.assign({}, item, {
         error: result.error || 'Playback failed',
+        status: result.status || LINK_CHECK_STATUS.BROKEN,
       }))
     }
 
@@ -212,6 +225,7 @@ async function runLinkChecks(options, collectedFailures) {
         totalCount: queue.length,
         progressPercent: Math.round((completed / queue.length) * 100),
         failures: collectedFailures.slice(),
+        needsLogin: collectedNeedsLogin.slice(),
       },
     })
   }
@@ -237,6 +251,7 @@ export function startBulkCheckStaticRun(options) {
     hasRun: true,
     links: {
       failures: [],
+      needsLogin: [],
       warnings: staticResults.warnings || [],
       progressMessage: 'Analyzing records...',
       checkedCount: 0,
@@ -280,6 +295,7 @@ export async function startBulkCheckLinkRun(options) {
       linksChecked: true,
       links: {
         failures: [],
+        needsLogin: [],
         warnings: warnings,
         progressMessage: 'No links to check.',
         checkedCount: 0,
@@ -299,12 +315,14 @@ export async function startBulkCheckLinkRun(options) {
       totalCount: queue.length,
       progressPercent: 0,
       failures: [],
+      needsLogin: [],
       warnings: warnings,
     },
   })
 
   try {
     const collectedFailures = []
+    const collectedNeedsLogin = []
     const completed = await runLinkChecks({
       selectionKey: selectionKey,
       queue: queue,
@@ -313,7 +331,7 @@ export async function startBulkCheckLinkRun(options) {
       youtubeGetId: options.youtubeGetId,
       accessToken: options.accessToken,
       driveApi: options.driveApi,
-    }, collectedFailures)
+    }, collectedFailures, collectedNeedsLogin)
 
     if (signal.aborted) {
       updateSession(selectionKey, {
@@ -321,6 +339,7 @@ export async function startBulkCheckLinkRun(options) {
         linksChecked: false,
         links: {
           failures: collectedFailures,
+          needsLogin: collectedNeedsLogin,
           warnings: warnings,
           progressMessage: 'Link check cancelled.',
           checkedCount: completed,
@@ -329,14 +348,17 @@ export async function startBulkCheckLinkRun(options) {
         },
       })
     } else {
-      const finalMessage = collectedFailures.length
-        ? 'Link check finished — ' + collectedFailures.length + ' link(s) failed.'
-        : 'All ' + queue.length + ' link(s) played successfully.'
+      const finalMessage = formatLinkCheckFinishedMessage(
+        queue.length,
+        collectedFailures,
+        collectedNeedsLogin
+      )
       updateSession(selectionKey, {
         phase: 'links-done',
         linksChecked: true,
         links: {
           failures: collectedFailures,
+          needsLogin: collectedNeedsLogin,
           warnings: warnings,
           progressMessage: finalMessage,
           checkedCount: completed,
@@ -349,11 +371,13 @@ export async function startBulkCheckLinkRun(options) {
     if (!isAbortError(err)) {
       const session = getBulkCheckSession(selectionKey)
       const failures = session && session.links ? session.links.failures : []
+      const needsLogin = session && session.links ? session.links.needsLogin : []
       updateSession(selectionKey, {
         phase: 'static-done',
         links: {
           progressMessage: err && err.message ? err.message : 'Link check failed.',
           failures: failures,
+          needsLogin: needsLogin || [],
         },
       })
     }

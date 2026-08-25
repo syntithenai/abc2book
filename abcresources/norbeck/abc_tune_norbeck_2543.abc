@@ -1,0 +1,20 @@
+X:4
+T:Casadh An tS\'ug\'ain
+T:Twisting the Hayrope
+R:slow air
+H:See also "An Suisin B\'an", set dance#18
+H:See also "Casadh An tS\'ug\'ain", air#17
+H:Also played in C, #5
+Z:id:hn-slowair-4
+M:3/4
+L:1/8
+Q:1/4=100
+K:D
+A>Bc | d4 F2 | {B}A4 {BA}F{GF}E | F{B}A-A4- | A3
+ABc | d4 B>d | c4 {Bc}B2 | A4 FE | F6- | F4
+E2 | F2 A4 | B4 c2 | e4 c{Bc}B | c2 A4- | A4
+F2 | {GF}E4 F2 | {B}A4 A2 | A6- | A3 ||
+Ace | {fa}f4 {ef}e2 | f {b}a3 f2 | {af}e4 f2 | {ef}e4 cB | A4
+Bc | d4 e{fe}d | c4 {Bc}B2 | A4 FE | F6- | F4
+E2 | F2 A4 | B4 c2 | e4 c{Bc}B | c2 A4- | A4
+F2 | {GF}E4 F2 | {B}A4 A2 | A6- | A3 ||

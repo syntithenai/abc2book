@@ -1,0 +1,33 @@
+X:13
+T:Klimsenhorn-Juiz  Bb
+T:Remigi Blättler (19.12.1899-27.10.1975)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam" FB G>F DF dB | A>F E>F !fermata!E4 | FA G>F EF eA | B>F D>E D4 | 
+FB G>F DF dB | A>F E>F  !fermata!E4 | FA G>F EF eA | !fermata!B6 z2 || 
+M:3/4
+[P:B] "fliessend" F=E/F/ | Gedf c/e/d/c/ | BF/F/ d/F/F/d/ B/d/c/B/ | 
+AF/F/ e/F/F/e/ c/e/d/c/ | BF/F/ d/F/F/d/ !fermata!B2 F=E/F/ | Gedf  c/e/d/c/ | 
+BF/F/ d/F/F/d/ B/d/c/B/ | AF/F/ e/F/F/e/ c/e/d/c/ | !fermata!B6 || 
+M:3/4
+[P:C] "Ländlertempo" F3dB2 | CF Ace2 | FF ec AF | BA Bcd2 | F3dB2 | 
+CF Ace2 | FF ec AF | !fermata!B4z2 | F3dB2 | CF Ace2 | FF ec AF | 
+BA Bcd2 | F3dB2 | CF Ace2 | FF ec AF | !fermata!B4z2 || 
+M:3/4
+[P:D] "mit Schwung" F3ec2 | F3dB2 | F2 cB Ac | BA Bcd2 | F3ec2 | 
+F3dB2 | F2cB Ac | !fermata!B4z2 | F3ec2 | F3dB2 | F2cB Ac | 
+BA Bcd2 | F3ec2 | F3dB2 | F2cB Ac | !fermata!B4z2 |] 
+%W:Reihenfolge: 
+W:
+W:notiert Edi Gasser. Angaben: Remigi Blättler
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 02-07
+W:http://www.naturjodler.ch/code 02.htm  (with AUDIO)
+%April 27, 2018

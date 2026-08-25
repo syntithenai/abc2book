@@ -1,0 +1,21 @@
+X:1
+T:Lieblings-Polka  CF (pk07087)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.45  (pk07087) orig. C,F
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G/A/ [P:A] |: "C"ec G^G | ("Dm"Ad) .dd/c/ | "G7".B(c/B/) .A(B/A/) | ("C"AG) .GG/c/ | ec G^G | ("Dm"Ad) .d(d/c/) | "G7".B(c/B/) AB |1 
+"C"cc cG/c/ :|2 "C"cc c(A/c/) [P:B] |: "Am".e(A/c/) .e(A/c/) | .e.c .A(A/c/) | "E7"Be ed | ("Am"c/>d/"E7"B/>c/) "Am"AA/c/ | eA/c/ eA/c/ | 
+ec A(A/c/) | "E7"Be e/d/c/B/ |1 "Am"Ac A(A/c/) :|2 "Am"Ac A"_>Teil A"G/c/ || [K:F]  (F/A/) [P:C] |: "F".c(c/A/) .d.c | ("C7"cB) .B(G/B/) | 
+"Bb".d(d/.B/) "C7"eB | ("F"dc) .c(A/c/) | .c(c/A/) .f.A | ("Gm"Gd) .d(B/A/) | "C7"G/^F/G/A/ B/c/d/e/ |1 "F"ff f(F/A/) :|2 "F"ff f(f/e/) || 
+[P:D] |: "Gm".e(d/B/)   .G(e/d/) | "F".d(c/A/)F2 | "C7"C/D/E/F/ GB | "F"BA F(f/e/) | "Gm".e(d/B/) .G(e/d/) | "F".d(c/A/) .F(A/F/) | "C7"E/F/G/A/ B>E |1 "F"FF F(f/e/) :|2 "F"FF Fz |] 
+W:
+% pk07087
+% Jan 14, 2018

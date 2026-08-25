@@ -1,0 +1,23 @@
+X:1
+T:Mazurka, nach Eckert  CF (mz06995)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.176  (mz06995) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"Gze3d | cz Bz cz | "Dm"dzA3"G7"B | "C"c2c2z2 || [P:A] ("C"Ge)e3d | (dc)c3B | "F".dz .cz .Az | "C"G4z2 | 
+fze3c | "G7"B2.g2.g2 | fze3d | "C"c2.e2.e2 | (Ge)e3d | (dc)c3B | "F"dz cz Az | "C"G4z2 | 
+"G7"czB3^A | B2.g2.g2 | Bze3d | "C"c2c2z2 || [P:B] ("Dm"FA)d3^c | "G7"e2.d2.d2 | ("C"EG)c3B | d2.c2.c2 | ("G7"Bd)g3f | 
+"C"f2.e2.e2 | ("G7"GB)d3g | "C7".c2.c2z2 || [K:F] [P:C] "F"c3d A>d | .c2.c2.A2 | c3d A>d | ("C7"c4B2) | B3c G>c | .B2.B2.G2 | G3B e>d | 
+"F"d4c2 | c3d A>d | .c2.c2.A2 | "Gm"d3_e B>e | .d2.d2.B2 | "Bb".d3e f>g | "F".a2.f2.c2 | "C7"e3d B>G | "F"F2F2z2 |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+% mz06995
+% July 1, 2018

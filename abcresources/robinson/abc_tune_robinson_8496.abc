@@ -1,0 +1,31 @@
+X:65
+T:Mrs Mitchell of Stow
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:27 - 2
+K:C major
+%%staves {1 2}
+V:1
+e | \
+cGAB c2ce & E4E4 | cGce fdBG & E4E4 | cGAB cagf | ecdB [Ec]2ce & G2F2x4 | \
+cGAB c2ce & E4E4 | cGce fdBG & E4E4 | cGAB cagf | ecdB c2c & G2F2x3 |]
+e | \
+geag fedc | Bdde f2fa | geag fedc | BGAB c2ce | \
+geag fedc | Bdde fagf | ecag fedc | BagB c2c |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[cc'][cc'][cc'][cc'] | [cc'][cc'][Gg][Gg] | \
+[cc'][cc'][Ff][Ee]/[Ff]/ | [Gg][Gg][Cc][Cc] | \
+[cc'][cc'][cc'][cc'] | [cc'][cc'][Gg][Gg] | \
+[cc'][cc'][Ff][Ee]/[Ff]/ | [Gg][Gg][Cc][Cc]/ |] \
+z/ | \
+[c'e'g'][c'e'g'][c'e'g'][c'e'g'] | [d'f'g][d'f'g'][bd'g'][bd'g'] | \
+[c'e'g'][c'e'g'][c'e'g'][c'e'g'] | [gd'f'][gd'f'][c'e'g'][c'e'g'] | \
+[c'e'g'][c'e'g'][c'e'g'][c'e'g'] | [gd'f'][gd'f'][ac'f'][bd'g'] | \
+[c'e'g'][ac'f'][ac'f'][fc'f'] | [gd'f'][gd'f'][c'e'a'][c'e'a']/ |]

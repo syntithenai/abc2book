@@ -1,0 +1,14 @@
+X:123
+T: Mazurka CF (mz04979)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"e>f g>c' "G7"b>d' | "C"c'e' g>^fg2 | "G7"bd' f>ef2 |  "C"gc' e>de2  | e>f g>c' "G7"b>d' | "C"c'e' g>^fg2 | 
+"G"bd' "D7"ac' ^fa | "G"g2g2z2 :| ("G7"(3fef)d2a2 | ("C"(3g^fg)e2c'2 | ("F"(3a^ga) f>a c'>a | "C"ge' c'>ge2 | ("G7"(3fef) d2a2 | 
+("C"(3g^fg)e2c'2 | "B7"b>^a b>=a ^fg | "Em"e4f>e |: "G7"d>ef2a2 | "C"ag ge'c'2 | "G7"gf fd'b2 | 
+"C"fe ec'g2 | "Dm/F"d>ef2a2 | "C/E"ag ge'c'2 | "G7"gf fd' gb | "C"c'2c'2z2 :: [K:F] "F"c>fa2d'2 | c'>af4 | 
+"C7"ag ^fg Bd | "F"dc =Bc FA | c>fa2d'2 | c'>af4 | "C7"ag ^fg ce | "F"f2f2z2 :| "A7"a2e2g2 | 
+"Dm"f>g f>ed2 | "Bb"d>f e>d ^c>d | "A7"A6 | "G7"g2d2f2 | "C"e>f e>dc2 | "G7"=B>d G>f e>d | "C"c2_B2A2 |: 
+("F"(3FAc) f2f2 | ((3Acf)a2a2 | ("C7"(3agb)e2e2 | ("F"(3gfa) c2c2 | ((3FAc) f2f2 | ((3Acf) a2a2 | ("C7"(3agb)c2e2 | "F"f2f2z2 :| 
+% mz04979

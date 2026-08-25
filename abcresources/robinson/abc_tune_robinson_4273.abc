@@ -1,0 +1,18 @@
+X: 42
+T:  Galopp CF (GL05665)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.141 (GL05665) orig. C,F-Dur
+S: Repertoire der Roesti-Musik (Bern) S.124ff
+%%MIDI program 21
+R:Gallop
+O:Switzerland
+M:2/4
+L:1/8
+K:C major
+"C"e>e e>e | e>c G2 | e>e e>e | e>c G2 | g>a g>e | c>d e>f | g>a b>c' | "G7"(c'2b2) | 
+d>d d>d | d>B G2 | d>d d>d | d>B G2 | f>g f>e | d>e d>c | B>a g>B |1 "C"c2z2 :|2 "C"c2ze || 
+|: "D7"(d3A) | "G"(d3B) | "D7"ba ba | "G"ag ^fe | "D7"(d3A) | "G"(d3B) | "D7"b>a e^f | "G7"gG/G/ GG | 
+"G"(f3d) | B>d f>a | "C"(g3e) | a>g e>c | "G7"f3d | B>d f>a | "C"g>e "G7"f>d |1 "C"c2ze |2[K:F] "C"c2zd ||  
+|: "F".c2.A2 | (c2.f2) | .A2.F2 | (A2.c2) | "C7"(c2B2) | (g3f) | (e2G2) | B2 e>d | "F".c2.A2 | 
+(c2.f2) | "Bb".d2.B2 | (d2.g2) | dd/d/ dd | "F".c2f2 | "C7"e>f g>a |1 "F"f2zd :|2 "F"f2z2 ||  
+|: "Bb"d2 b>b | (b3d) | "F"c2 a>a | (a3f) | "C7"e2 c'>c' | (c'3e) | "F"f2 c'>c' | (c'3f) | 
+"Bb"d2 b>b | (b3d) | "F"c2 a>a | (a3f) | "C7"e3g | "F"f3a | "C7".g2.e2 | "F"f2z2 :|

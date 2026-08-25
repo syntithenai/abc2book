@@ -1,0 +1,36 @@
+X:15
+T:Danish March.2voices. AJH.015
+T:Napoleon's Grand March,aka.2voices. AJH.015
+M:4/4
+L:1/8
+Q:1/4=120
+S:A.J.Hughes MS
+O:England
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:D major
+[V:1] A>A | d2d>dd2A/B/c/d/ | e2e>ee2 A>d | f2e>fg2f2 | e2e>ee2 AA |
+[V:2] z2 | F2F>FF2z2 | c2c>cc2z2 | d2c>de2d2 | c2c>cc2AA |
+%
+[V:1] d>dA>A F>FA>A | d>dA>A F>FA>A | e2e>e e>de>f | d2d>dd2z2 |
+[V:2] d>dA>A F>FA>A | d>dA>A F>FA>A | c2c>c c>Bc>d | [d2B2][d3/B3/][d/B/][d2B2]z2 |
+%
+[V:1] e>dc>B A>Bc>A | d>cd>e d>ef>d | e>dc>B A>Bc>A | d>cd>e d>ef>d |
+[V:2] A2A2A2A2 | F2F2F2F2 | A2A2A2A2 | F2F2F2F2 |
+%
+[V:1] B2g>gg2B2 | A2f>ff2d2 | e2e>e e>de>f | d2d>dd2 :|
+[V:2] G2B2B2z2 | A2d2d2F2 | G2G2G2G2 | F2F>FF2 :|
+%
+[V:1] |: f>g | a2a2b2b2 | a3gf2fa | g2g>af2f>g | e2e>ee2z2 |
+[V:2] |: d>e | f2f2g2g2 | f3ed2d2 |e2e2d2d2 | c2c>cc2z2 |
+%
+[V:1] g2g/f/e/d/c2z2 | a>af>fd2z2 | f3a gfed | a2A>AA2z2 |
+[V:2] e2e/d/c/B/A2z2 | d>dA>AF2z2 | d3f edcd | c2c>cc2z2 |
+%
+[V:1] e>dc>B A>Bc>A | d>cd>e d>ef>d | e>dc>B A>Bc>A | d>cd>e d>ef>d |
+[V:2] A2A2A2A2 | F2F2F2F2 | A2A2A2A2 | F2F2F2F2 |
+%
+[V:1] B2g>gg2B2 | A2f>ff2d2 | e2e>e e>de>f | d2d>dd2 :|
+[V:2] G2B2B2z2 | A2d2d2F2 | c2c>c c>Bc>d | B2B>BB2 :|

@@ -1,0 +1,30 @@
+X:8
+T:Lady Alexis Russell
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+N:I'm not quite sure of the title. "Alex" plus some abbreviation.
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 2
+K:F major
+%%staves {1 2}
+V:1
+A | \
+~F2 (fc) Ac-c!wedge!f | dfcf !trill!gf-fa | \
+~F2 (fc) Ac-c!wedge!f | d/f3/!trill!c3/A/ {F}G2 G :: \
+a | \
+bgaf {a}gfdf |
+               cfAf cfAa |1 \
+bgaf {a}gfdf | c/A3/fA {F}G2 G :|2 \
+dbca BgAf | c/A3/fA {F}G2 G |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Aa] [cc'] [cc'] | ffff | [Bb] [Aa] [cc'] [cc']/ :: \
+z/ | \
+[egc'] [fac'] [fbd'] [fbd'] | [fac'] [fac'] [fac'] [fac'] |1 \
+[egc'] [fac'] [fbd'] [fbd'] | [fac'] [fac'] [cc'] [cc']/ :|2 \
+[fb] [fa] [ec'] [fc'] | [fac'] [fac'] [cc'] [cc']/ |]

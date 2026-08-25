@@ -1,6 +1,10 @@
 scripts/brooke-marshal-output/
 
+.eurosession-tmp/
+
 abcresources/empty/
+abcresources/_incoming/
+abcresources/norbeck_backup_pre_mirror/
 abcresources/folkinfo/duplicates
 abcresources/folktunefinder/duplicates
 abcresources/jimsroots/duplicates
@@ -8,6 +12,8 @@ abcresources/misc/duplicates
 abcresources/norbeck/duplicates
 abcresources/thesession/duplicates
 abcresources/jc/duplicates
+abcresources/jc_regional/duplicates
+abcresources/robinson/duplicates
 
 scrape/LAST_SEARCH_folktunefinder.txt
 

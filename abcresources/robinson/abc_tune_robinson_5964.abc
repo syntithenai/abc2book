@@ -1,0 +1,18 @@
+X:1
+T:Galopp  C (gL06756) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.80  (gL06756) orig. C
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C".g2.^f2 | .g2.c'2 | "G7"b2ag | .f2.d2 | "C".g2.^f2 | .g2.c'2 | !>!"G7"b2ab | "C"c'2z2:: "G7"d3e | f3g | b3a | 
+"C"g3e | "Dm"d3a | "G7"g3f | "C"e3d | c2z2 :: "C"ef ga | g^fg2 | "G7"baf2 | "C"age2 | ef ga | g^fg2 | 
+"D7"ba ba | "G"g2z2 :: "G7".g2.f2 | d3^c/d/ | "C".a2.g2 | e3^d/e/ | "G7".b2.a2 | !>!g3(f/e/) | !>!d3e/d/ | "C"cc'!>!c'2 :| 
+W:
+W:Anmerkung H.C.: Arisdorf II 13
+% gL06756
+% Feb 16, 2018 (Laucheren Alp)

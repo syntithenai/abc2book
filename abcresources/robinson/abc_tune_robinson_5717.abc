@@ -1,0 +1,32 @@
+X:3
+T:Stöpfenalp-Echo  Bb
+T:Karl Anderhalden  (17.8.1925-7.11.1979)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "sehr langsam und fordernd"  B,>D FD BF dB | c>F !fermata!f!fermata!d !fermata!B3F | B>d Ff dF B/D/ F/B/ | A>E Fe A2z2 | 
+A>E Ff e/F/ F/e/ dc | B>D F/d/ F/d/ (B2B/) z/F | B>d Ff dF B/D/ F/B/ | 
+A>E Fe A2z2 | A>E Ff  e/F/ F/f/  d/>c/ d/c/ |  B>F dc !fermata!B3z || 
+L:1/8
+M:4/4
+[P:B] "etwas schneller" F | G>F E/F/ A/c/ Fe dc | B>D Ff d/F/ F/d/ B/D/ F/B/ | 
+A>E Ff e/F/ F/e/ d/>B/ c/A/ | B>d BG F2zF | G>F E/F/ A/c/ f>e dc | 
+B>D Ff d/F/ F/d/ B/>A/ c/B/ | A>E Ff e/F/ F/e/ d/>c/ c/A/ | B>F dc !fermata!B3z || 
+L:1/8
+M:3/8
+[P:C] "urchiger Walzer-Rhythmus" F/F/ | f>F F/d/ | B>F G/F/ | f>F F/e/ | c>B A/G/ | F/A/ A/E/ F/e/ | 
+A>E G | F/d/ d/B/ c/A/ | B2 F/F/ | f>F F/d/ | B D/F/ G/F/ | f>F F/e/ | 
+c>B A/G/ | F/e/ e/F/ F/e/ | d d/B/ c/A/ | B>F f/d/ | !fermata!B3 |] 
+W:
+W:Reihenfolge: A-B-C
+W:
+W:notiert Edi Gasser, Angabe: Karl Anderhalden
+W:UJV-Naturjodelsammlung: Code-Nr: 09-02
+W:http://www.naturjodler.ch/code 09.htm  (with AUDIO)
+%May 4, 2018

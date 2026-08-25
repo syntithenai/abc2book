@@ -1,0 +1,31 @@
+X:8
+T:Pilatus-Juiz  Bb  ABCC
+T:Franz Wallimann  (10.3.1923-14.11.2014)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCC
+M:2/4
+L:1/4
+R:Naturjodel
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F>D | BF | d2 | B2 | D/F/ B/d/ | f>e | d>c | B/F/ B/d/ | c2 | f2 | 
+E>F | Ac | f2 | dc | !breath! !fermata!B2 | F>D | BF | d2 | B2 | D/F/ B/d/ | 
+f>e | d>c | B/F/ B/d/ | c2 | !fermata!f2 | E>F | Ac | f2 | dc | !fermata!B2 || 
+L:1/4
+M:2/4
+[P:B] "gemütlich" F | D/F/ B/d/ | f>B | dF | E/F/ A/c/ | f>c | eF | E/F/ A/c/ | 
+f>c e/g/ | f >B | d2 | zF | D/F/ B/d/ | f>B | dF | E/F/ A/c/ | 
+f>c | eF | E/F/ A/c/ | f>e | dc | (B2 | B) || 
+M:3/4
+[P:C] "flottes Walzertempo" F/F/ | f>F d/c/ | B>DF | f>ed | c2F/F/ | 
+f>ec | FE/F/ d/c/ | B>cd | !breath!F2F/F/ | f>F d/c/ | 
+B>DF | f>ed | c2F/F/ | f>ec | FE/F/ d/c/ | (B3 | B)z |] 
+W:
+%W:Reihenfolge: A - B - CC
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 30-05
+W:http://www.naturjodler.ch/code 30.htm  (with AUDIO)
+%May 29, 2018

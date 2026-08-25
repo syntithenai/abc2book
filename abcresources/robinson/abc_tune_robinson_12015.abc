@@ -1,0 +1,26 @@
+X:204
+T:Woodbine Cottage,3voices. JGi.204
+M:6/8
+L:1/8
+Q:3/8=90
+S:Joshua Gibbons MS,1823,Tealby,Lincs.
+R:Jig
+O:England
+Z:VMP/R.Greig, 2009
+B:Village Music project, Gibbons, Joshua
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gibbon.abc
+A:Lincolnshire - Tealby
+notC:'Quick Step'
+K:C major
+[V:1]G|c2d edc|A2cG2E|G2c cde|f2d d2e|
+[V:2]z|EGG EGG|FAA EGG|EGG EGG|DGB B2z|
+[V:3]z|C,3C,3|F,3C3|E,3C,3|G,3G,,2z|
+[V:1]c2d edc|A2cG2E|G2c dcd|e2cc2:|
+[V:2]EGG EGG|FAA EGG|DGG FGG|E2GE2:|
+[V:3]C,3C,3|F,3C3|D,3G,3|C,2C,C,2:|
+[V:1]e|d2g g^fg|d2g g^fg|d2g g^fg|ege cde|
+[V:2]z|z2B BAB|z2B BAB|z2B BAB|cec EGc|
+[V:3]z|G,2zz3|C2zz3|G,2zz3|C,3C3|
+[V:1]d2g g^fg|d2g g^fg|fga def|gag fe"DC"d|]
+[V:2]z2B BAB|z2B BAB|ABc FGA|BcB A2"DC"z|]
+[V:3]G,2zz3|G,2zz3|D,3D,3|G,,3D,2"DC"z|]

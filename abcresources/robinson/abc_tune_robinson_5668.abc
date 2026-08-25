@@ -1,0 +1,34 @@
+X:15
+T: Landenbärger (Naturjuiz)  Bb (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"  FF |d3c BG | F3D FB | A3E FA | E4 FF | e3c AG | 
+F3E Fc | B3D FB | D4FF | d3c BG | F3D FB | 
+A3E FA | E4FF | f3e cA | F2EF Ac | (B6 | B2)z2 || 
+M:3/4
+[P:B] "zügig, froh" !fermata!D !fermata!C !fermata!B,  | A,C CA GF | A,C CA GF | B,D DB GF | Bz BG FB, | 
+A,C CA GF | A4Fe | "rit." d3c BG | F3 !fermata!D !fermata!C!fermata!B,  | A,C CA GF | A,C CA GF | 
+B,D DB GF | Bz BG FB, | A,C CA GF | A2 G2 A2 | (B6 | B2)z || 
+M:3/4
+[P:C] FF | f3d BG | F3D FB | A3E FA | E4FF | f3e cA | 
+F3E Fc | B3D FB | D4FF | f3d BG | F3D FB | 
+A3E FA | E4FF | f3e cA | F2EF Ac | (B6 | B2)z2 || 
+M:3/4
+[P:D] FF | dz dc BG | F2BD FB | Az AE FA | E4FF | ez ec AG | 
+F2AE Fc | Bz BD FB | D4 FF | dz dc BG | F2 BD FB | 
+Az AE FA | E4FF | "rit."e3c AG | F2 !fermata!d2 !fermata!c2 | (B6 | B2)z2 |]
+W:
+W:Reihenfolge: A-B-C-2xD
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-08
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 26, 2018

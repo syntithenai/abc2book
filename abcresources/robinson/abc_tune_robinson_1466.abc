@@ -1,0 +1,23 @@
+X:115
+T:La Nouvelle Hollandoise. VWMLa.115
+R:March
+S:Anon. MS, late 18thC, Vaughan Williams Mem. Library
+N:A Saucy Dance
+N:I added the first rest, replaced the last notes of both
+N:musics (minims) with dotted crotchets, and supplied
+N:bar 17 (a copy of bar 5). It should play now. PJH.
+O:England
+Z:vmp/efdss.Simon Wilson. Reviewed PJH 2008.
+M:C|
+L:1/8
+Q:1/2=75
+B:Village Music project, Vwml_anon_1
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/Vwml_anon_1.abc
+A:Yorkshire
+K:G major
+z|G4 d4|{c}B2AB G2AB|c2B2 A2G2|FGAF D3D|\
+E4 F4|GFGA G2c2|{c}B2AG {B}A2GF|G4 G,3:|
+|:d|dedc B2d2|dedc B2d2|e2d2 e2f2|g4 d2ef|\
+g2fe d2cB|e2dc B2AB|
+c2B2 A2G2|F2EF D3D|\
+E4 F4|GFGA G2c2|{c}B2AG {B}A2GF|G4 G,3:|

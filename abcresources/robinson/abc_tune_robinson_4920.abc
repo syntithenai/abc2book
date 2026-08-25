@@ -1,0 +1,18 @@
+X:17
+T:Blumen-Walzer FBb (wz02274)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.331 (wz02274) orig. F,Bb
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+K:F major
+"F"AF>A | d2c | "C7"BG>B | e2d | cG>B | e2b | "F"af>d | c2z | 
+AF>A | d2c | "Gm"BG>B | e2d | "C7"BG>B | e>c d/e/ | ("F"f3 | f)za || 
+"C7"g(da) | g2 (a/g/) | ("F"fc)g | f2(g/f/) | "C7"eGB | e2d | "F"dAd | c2a | 
+("C7"gd)a | g2 (a/g/) | ("F"fc)g | f2(g/f/) | ("C7"edc) | a2g | ("F"f3 | f)zz || [K:Bb] 
+"Bb"fd>g | f3 | dc>B | "F7"A3 | ec>a | g3 | ed>c | "Bb"d2z | 
+fd>g | f2z | "Eb"ge>a | g3 | "F7"eag | "Bb"f2c/d/ | "F7"eAA | "Bb"B3 |] 
+% wz02274  
+% Nov 5, 2016

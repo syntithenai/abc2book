@@ -1,0 +1,21 @@
+X:19
+T: Die Freuden  des Tanzes (Schottisch) CFBb (st00339)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.283 (st00339) orig. C,F,Bb-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABCDC
+M:2/4
+L:1/8
+K:C major
+"C"c>c cc | ce cA | "G7"G2 BA/B/ | "C"c2z2[P:A] |: "C"cG cG | "G7"BG !>!d2 | d>c B>A | "C"AG e2 | cG cG | 
+"G"BG !>!D2 | "D7"BA d>^F | "G"GG Gz :: [P:B] "G7"(Gf) .f.f | f2ed | "C"(Ge) .e.e | e2 dc | "G7"B2FG | B3A | 
+"C"A>G E>G | A3A | "G7"(Gf) ff | f2 ed | "C"(Ge) .e.e | e2"C7"dc | "F"A2 c>c | "C"G2e>e | "Dm"dd "G7"A>B | 
+"C"cc cz :: [P:C] [K:F] "F"c!>!A2F | "C7"F/E/E EE | d!>!B2 G | "F"Ffc2 | "F7"c!>!f2e | "Gm/Bb"d3G | "C7"G!>!e2d | cB AG | 
+"F"c!>!A2F | "C7"F/E/E EE | "Gm"d"C7"!>!B2G | "F"Ffc2 | "F7"c!>!f2A | "Gm/Bb"Gdd2 | "C7"c/B/A/B/ D>E | 
+"F"FF F"_fine"z || [P:D] [K:Bb] "Bb"F3d | d3c | "Cm"ce eg | [eg]2z2 | "F7"e3f | f3e | "Bb"ed df | 
+fB AG | "Bb"F3d | d3c | "F"cA cd | c3f | "C7"=e3G | Bd c>=E | "F"FF "_>Teil C"Fz |]  
+W:(P: ABCDC)
+%  st00339
+W:
+W: Anmerkung Hrsg.: Teil D: HC: F-Dur, Teil D hat nur 15 Takte; m\"oglicherweise wurde der Tanz so gespielt.

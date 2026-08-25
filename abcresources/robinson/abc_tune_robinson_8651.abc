@@ -1,0 +1,22 @@
+X: 113
+T:Lady Jane Neville's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:40 - 2
+K:G major
+%%staves {1 2}
+V:1
+d |\
+g2 (dg) Bgdg | Bgdg a2 (ab) | g2 (dg) Bgdg | DAFA G2 G :|
+c | \
+B(c/d/) d(B cd/)e/ ec | (Bc/d/) dB A2 Ac | (Bc/d/) dB (cd/e/) ec | dgfa g2 ~gc |
+(Bc/d/) dB (cd/e/) ec | (Bc/d/) dB A2 Ac | BdBd cece | dgfa g2 g |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | gggg | ggdd | gggg | ddGG/ :|
+z/ | GBcc | BGdd | BGcc | ddGG | GBcc | BGdd | gbc'c' | d'dgg/ |]

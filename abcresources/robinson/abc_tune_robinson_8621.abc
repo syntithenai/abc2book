@@ -1,0 +1,22 @@
+X: 141
+T:Miss Grant's Reel -- of Cullen House
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:49 - 2
+K:F major
+%%staves {1 2}
+V:1
+F | \
+(cd)cB (Ac)fe | dcBA GABd | (cd)cB (Ac)ag | fdcA {E}F2 F [|
+B | \
+AcFc AcFA | GABc dcdf | AcFc AcFA | BGcE {E}~F2 (FB) |
+AcFc AcFA | GABc dcde | fa!trill!ge fdcA | BGcE {E}~F2 F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | bagg | fffa |bc'ff/ :| \
+z/ | fffa | gg[gb][gb] | [fa]ffa | bc'ff | ffff | gg[gb][gb] | [fa]baf | bc'ff/ |]

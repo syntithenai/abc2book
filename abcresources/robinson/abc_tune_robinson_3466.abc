@@ -1,0 +1,12 @@
+X:25
+T:Die sch\"one Wehntalerin (Polka) CF (pk04892)
+M:2/4
+L:1/16
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"{/A}G2CEG4 | "Dm/F"{/^G}A2DF A2DC | "G7"B,CDE FGAB | "C"c2d2e4 | {/A}G2CEG4 | "Dm/F"{/^G}A2DF A2DC | "G7"B,CDE FGAB |1 
+"C"c2c2 c2z2 :|2 "C"c2c2 c2((3G^F=F) |: "C"(E4 E)EF^F | (G4G)cBA | "G7"B2D2 F3A | "C"G2C2 EG^F=F | (E4E)EF^F | (G4G)cBA | 
+"G7"B2A2 F3B |1 "C"c2c2 c2((3G^F=F) :|2 "C"c2c2 c2z2 |: "C"!>!G4 A2G2 | "F"(c4c)cBA | "G7"!>!G4 GAGF | "C"E4C4 | !>!G4 A2G2 | "F"(c4c)cBA | 
+"G7"G4GBAB | "C"c2B2 c2z2 :: [K:F] "A7"A2E2 "Dm"F3D | "A7"A8 | A2E2 "Dm"F3D | "A7"A8 | "Gm"B3A B3A | "C7"(B4B)EGA | B3A B3=B | "F"(c4 c)"Am"A,CE | 
+"A7"A3E "Dm"F3D | "A7"A^GAB AGAB | A2E2 "Dm"F3D | "A7"A^GAB GABA | "Gm"BABc BABc | BABc BABc | "C7"B2G2 B3c | "F"F2F2 F2z2 :| 
+% pk04892

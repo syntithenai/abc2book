@@ -1,0 +1,35 @@
+X:3
+T:Älplerchilbi-Juiz. 1987  Bb  ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] df>ed | c>EFA/c/ | f>edc | B>DFB | d>cBf | 
+c>EFA/c/ | f>edc | B4 | df>ed | c>EFA/c/ | f>edc | 
+B>DFB | d>cBf | c>EFA/c/ | f>edc | B3z || 
+L:1/8
+M:3/4
+[P:B] B,D | F2FD FB | d2B2Fd | d2c2Ff | d2B2B,D | F2FD FB | 
+d2B2Ff | e2d2c2 | B4B,D | F2FD FB | d2B2Fd | 
+d2c2 Ff | d2B2B,D | F2FD FB | d2B2 Ff | e2d2c2 | B4 ||
+L:1/4
+M:4/4
+[P:C] df>ed | c>EF A/c/ | f>edc | 
+B>DFB | d>cBf | c>EFA/c/ | f>edc | B3z ||  
+[P:D]
+B/c/ | dBFd/B/ | c>BA2 | FA/c/fc/f/ | d>cBB/c/ | dBFd/B/ | 
+c>BA2 | FA/c/f>e | d2c2 | B3B/c/ | dBF d/B/ | c>BA2 | FA/c/fc/f/ | 
+d>cB B/c/ | dBF d/B/ | c>BA2 | FA/c/ f>e | d2c2 | B3 |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Sepp Herger
+W:UJV-Naturjodelsammlung: Code-Nr: 22-04
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 20, 2018

@@ -1,0 +1,17 @@
+X: 62
+T: Hasliberger Schottisch CGF (st05251)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.279 (st05251) orig. C,G,F-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+%%partsbox
+%%MIDI program 21
+P:ABACD
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+[P:A] "C"EGce g3e | "G7"f2f2 B3g | b2b2 f3b | "C"c'2c'2 e4 | EGce g3e | "G7"f2f2 B3g | b2b2 bafd | "C"c2e2 c2z2 :: [P:B] [K:G]
+"D7"dedc A2c2 | "G"B2B2G4 | "D7"F3A c2f2 | "G"gfga b4 | "D7"dedc A2c2 | "G"B2B2 G4 | "D7"F3A c2f2 |1 "G"g2g2 g2z2 :|2 
+"G7"g2=f2 e2"_> Teil A"d2 [P:C] |: [K:F] "F"a6ff | f6ee | "Bb"d6c=B | "F"c6dc | "C7"B2c2 b2b2 |1 e6c2 | 
+"F"A2c2 a2a2 | f2c2 A2c2 :|2 "F"a2Ac f4 | "C7"g2Bc e2e2 | "F"f2f2 f2ba [P:D] |: "Gm/Bb"g3d d2d2 | d6ag | "F"f3c c2c2 | 
+c6gf |1 "C7"e4b4 | a4g4 | "F"f3f d'2d'2 | c'6ba :|2 "Bb"ddd2 bbb2 | "F"aaa2 c2f2 | "C7"ggg2 c2e2 | "F"f2f2 f2z2 |]

@@ -1,0 +1,23 @@
+X:1
+T:Der Geisshirt. Schottisch  FCBb (st06821) ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.16  (st06821) orig. F,C,Bb
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+c/c/ [P:A] | "F"ca aa | f3c/c/ | ca aa | f3z | "C7"g>a b>a | gf ez | ce c'b | "F"a2zc/c/ | 
+ca aa | f3c/c/ | ca aa | f3z | "G7"g>a b>a | gf ez | cc a>g | "F"ff fz || [P:B] [K:C] 
+"C"g/g/g/z/ ec | g/g/g/z/ ae | "G7"g/g/g/z/ fd | g3g | b>c' b>c' | f2 f/e/f/g/ | "C"a>g a>g |  e2 e/d/e/f/ | 
+g/g/g/z/ ec | g/g/g/z/ ae | "G7"g/g/g/z/ fd | g3g | b3a | gf ed | "C"ea "G7"dg | "C"c2"_>Teil A"c2 || [P:C] [K:Bb] 
+|: "Bb"d/d/d/d/ dd | (f3d) | fg dg | ("F7"f2.c2) | f/f/f/f/ ff | a3g | fe dc | ("Bb"d2.B2) | 
+d/d/d/d/ dd | (f3d) | fg dg | ("F7"f2.c2) | f/f/f/f/ ff | a3g | fa d'>c' | "Bb"bb b"_Fine"z :| 
+W:
+W:Anmerkung H.C.: 14. Sept. 1949
+% st06821 (Heft 235/TN 30)
+% Oct 30, 2017  (Gartenzwerge schnitzen)

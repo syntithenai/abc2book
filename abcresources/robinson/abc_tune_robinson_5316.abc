@@ -1,0 +1,21 @@
+X:81
+T:Mazurka CGF (mz06525) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.189 (mz06525) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21  % errors with my placing the parts [P: ]
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+G>G [P:A] |: ("C"Ge)c2 c>d | ("G7"Tc2.B2) G>G | (Gf)B2 d>e | ("C"Td2.c2) G>G | g>gf2e2 | ("Dm"Te2.d2) A>c |1 
+("G7"Tc2.B2) F>A | ("C"TA2.G2) G>G :|2 "G7"cB AG ed | "C"c2c2z2  |: [P:B] [K:G] "G"Bd BdG2 | "D7"F>ed2d2 | ce ceF2 | "G"G>ed2d2 | 
+dg dgB2 | "Am"A>ce2e2 | "D7"ed fe cA |1 "G"G2G2z2  :|2 "G"G2G2G>"_>Teil A"G |: [P:C] [K:F] "F"c3(A Bc) | (dc =B)c (f2 | 
+"Bb"f2)e2d2 | ("C7"c4B2) | BdE2E2 | EGc2c2 | "F"AcF2F2 | FAc2c2 | c3(A Bc) | dc =Bc (f2 | 
+"Dm"f2) e2d2 | ("G7"c4=B2) | =Bdg2g2 | "C"egc2c2 | "Dm"=BA Af "G7"ed |1 "C"c2c2z2 :|2 "C"c2 cc cc  |: [P:D] "C7"gf ed cB | 
+"F"Adc4 | "C7"BA Bc ed | "F"cc c2c2 | "Bb"d>Bg2g2 | "F"g>fA2A2 | "C7"e>dc2E2 |1 "F"F2cc cc :|2 "F"F2f2z2 |]   
+ % mz06525
+% Jan 16, 2017

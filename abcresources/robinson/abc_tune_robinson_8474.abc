@@ -1,0 +1,28 @@
+X:29
+T:Lady Menzies of Castle Menzies
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 2
+K:C major
+%%staves {1 2}
+V:1
+G |: \
+c3  {dcBc}edc | BAG {^c}d3 | c3~ edc | {eg}fef agf |
+e2c {d}cBc    | ABc {^c}d3 | GAB cde | fed gfe ::
+f2A agf | {f}e>dc {^f}g3 | E2g {f}e>dc | a2[Ff] [Aa][Gg][Ff] |
+(G,C)!wedge!E (Gc)!wedge!e | FAd ~f2a | gfe fdB | GAB cde :|
+V:2 clef=bass octave=-2
+z |: \
+cgc' cgc' & c3 c3 | dgb dgb & d3 d3 | \
+cgc' cgc' & c3 c3 | fac' fac' & f3 f3 | \
+cgc' cgc' & c3 c3 | fac' fgb & f3 f3 | \
+fgb egc' | dgb cgc' :: \
+f[ac'][ac'] f[ac'][ac'] & f3 f3 | c[gc'][gc'] c[gc'][gc'] & c3 c3 | \
+ c[gc'][gc'] c[gc'][gc'] & c3 c3 | f[ac'][ac'] f[ac'][ac'] & f3 f3 | \
+c[eg][eg] e[gc'][gc'] & c3 e3 | f[bd'][bd'] f[bd'][bd'] | \
+g[c'e'][c'e'] g[d'f'][d'f'] & g3 g3 | g[d'f'][d'f'] [c'e'g']2[c'e'g'] :|

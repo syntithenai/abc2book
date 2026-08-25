@@ -1,0 +1,22 @@
+X:75
+T:Krausköpfchen-Polka (R. Singer) BbFEb (pk02134)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.326 (pk02134) orig. Bb,F,Eb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/16
+K:Bb major
+[P:A] "Bb"d2B2 B2dg | "F7"f2e2 ede2 | f2ac' f2ga | "Bb"babdf4  | d2B2 B2dg | "F7"f2e2 ede2 | 
+f2ac f2ga | "Bb"b2b2 b2z2 :: [P:B] [K:F] "C7"c2eg c3d | "F"c2fa c3A | "Bb"B2d2 f3d | "F"d2c2A4 | "C7"c2eg c3d | 
+"F"c2fa !>!c4 | "Bb"d2cd "C7"e2de | "F"f2f2 f2"_>Teil A"z2 :| [P:C] [K:Eb] "Eb"e4 (g2b2) | (e'2d'2) .c'2.g2 | "Fm"b3a a2g2 | a6z2 | 
+"Bb7"d4(f2b2) | (d'2c'2) .b2.a2 | "Eb"c'3b b2=a2 | b6z2 | e4 (g2b2) | (e2d2) .f2e2 | "Fm"d3c c2=B2 | c6cd | 
+"Ab"e2a2 a3e | "Eb"e2g2 .b4 | "Bb7"c'b=ab g3f | "Eb"e2e2e4 [P:D] |: "Bb7"b2fg agac' | "Eb"c'2b2 b=ab2 | 
+"Bb7"d'c'fg a2d'2 | "Eb"c'bef !>!g4 | "Bb7"b2"_**"fg agac' | "Eb"c'2b2 b=ab2 | "Fm"g2f2 "Bb7"c3d | "Eb"e2e2 e2"_Fine"z2 :| 
+W:kraus (curly), Köpfchen - dim. of Kopf (head)  > curly (hair) (child's) head
+W:Anmerkung Hrsg.:Teil D, Takt 5 (**): HC: g-a
+% pk02134  
+% Nov 4, 2016

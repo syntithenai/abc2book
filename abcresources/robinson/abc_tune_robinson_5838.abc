@@ -1,0 +1,41 @@
+X:17
+T:Tell-Juiz  Bb  ABA*C
+T:Emil Wallimann  (* 24.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+"Anruf"F|B>cde | f3d | e>cdc | B3 || 
+M:4/4
+[P:A] F|F>GF>D | BcdB | F>Fdc/B/ | cAFF | F>GF>D | 
+BcdB/d/ | f>ecA | !breath!"_   *"B3F | F>GF>D | BcdB | 
+F>Fdc/B/ | cAFF | F>GF>D | BcdB/d/ | f>ecA | B3 || 
+M:3/4
+L:1/8
+[P:B]  dB|cA FA ce | dc Bc df | e3d ce | d2B2F2 | cA FA ce | 
+dc Bc df | e3dc2 | B4dB | cA FA ce | dc Bc df | e3d ce | 
+d2B2F2 | cA FA ce | dc Bc df | e3dc2 | B4 ||
+M:3/4
+L:1/4
+[P:C] d|B2D | Fed | (c3 | c2)c/B/ | A2C | FAc | B>A B/c/ | d2d | 
+B2D | Fed | (c3 | c2)c/B/ | A2B | cBA | (B3 | B2)d | 
+B2D | Fed | (c3 | c2)c/B/ | A2 C | FAc | B>A B/c/ | d2d | 
+B2D | Fed | (c3 | c2) c/B/ | A2F | fcd | (B3 | B2) ||
+M:4/4
+"_Abgesang"F|B>cde | !fermata! !breath!f3d | e>cdc | !fermata!B3z |] 
+W:
+W:Reihenfolge: A - B - A bis * - C
+W:
+W:gewidmet an Albert Lüthi für seinen grossen
+W: Einsatz am Volkskultur 2012 in Interlaken
+W:
+W:notiert Edi Gasser. Angaben Emil Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 23-14
+W:http://www.naturjodler.ch/code 23-2.htm  (with AUDIO)
+%May 25, 2018

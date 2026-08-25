@@ -1,0 +1,20 @@
+X:6
+T:Alte Bauern-Polka FCBb (pk02280)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.337 (pk02280) orig. F,C,Bb
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:F major
+c2 [P:A] |: "C7"cdd2 cBB2 | "F"AcfA !>!c4 | "C7"GceG !>!B4 | "F"AcfA !>!c4 | "C7"cdd2 cBB2 | "F"AcfA !>!c4 | 
+"Bb"d2df "C7"e2eg |1 "F"f2ff f2c2 :|2 "F"f2ff f4 [P:B] |: [K:C]  "G7"gaa2 gff2 | "C"e2ceg4 | "G7"b3a gfed | "C"a3g fedc | 
+"G7"gaa2 gff2 | "C"e2ceg4 | "G7"b3a gfed | "C".c4"_>Teil A".c4 :| [P:C] [K:Bb] "Bb"f4 g3f | "F7"f2e2 edcB | 
+Aceg f3e | "Bb"e2d2 dcB2 | f4g3f | "F7"f2e2 edc2 | Aceg f3A | "Bb"B2B2 B2"_Fine"z2 |] 
+W:
+W:Alte Bauern-Polka (Old Farmers P.)
+% pk02280  
+% Nov 6, 2016

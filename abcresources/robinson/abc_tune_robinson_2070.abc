@@ -1,0 +1,24 @@
+X:3071
+T:Piping In the Chapel* (reel) % nf<bb
+B:"Northern Fiddler" 171 (F&MB) ("untitled reel")
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:(a) This is a composite of two Ed Reavy tunes, "Never Was I:Piping So Gay" (parts A and B)
+I:and "Maudabawn Chapel" (parts I:C and D). (b) Source has "DGBe" in measure A3
+I:and "^cbgd" in I:measure B4. I have changed both. (BB)
+L:1/8
+M:C
+R:Reel
+Q:360
+K:G major
+P:A
+G,A,B,D GBdB|cafd cAFD|(3EFG BG dGBG|AF (3FFF dFAF|
+(3GGG BG DGBd|cafd cdef|gfge cBcA|1 FGAF GEDB,:|2 FGAF G4||
+P:B
+g3d ^cdBG|DGBd cAFA|GBBA BcdB|cafd ^cdef|
+gb (3agf gdBG|DGBd cAFA|BG (3GGG AF (3FFF|BdcA G4:|
+P:C
+EGFD EDB,A,|G,A,B,D EB,DB,|G,A,B,D GABd|gabg ea (3abf|
+gabg efge|dged BGBd|(3efg fa gbe^c|dBAF GEED:|
+P:D
+(3EEE BE eEBE|GABG AFDF|(3EEE BE eEBE|BAFD A,DFA|
+BeBe eEBE|BAFA B^cdf|(3efg fa gbe^c|1 dBAF GEED:|2 dBAF E4||

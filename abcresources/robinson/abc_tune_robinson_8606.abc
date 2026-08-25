@@ -1,0 +1,20 @@
+X: 157
+T:Lady Madelina Gordon's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:54 - 3
+K:F major
+%%staves {1 2}
+V:1
+(CF)(AF) (CG)(BG) | (CF)(AF) (E/F/G) (EC) | (CF)(AF) (CG)(BG) | cABG F/F/F F2 :|
+(f/g/a) (fc) dBcA | BGAF (E/F/G) (EC) | FcAc FdBd | cfeg f/f/f (fg |
+a)fge fcdB | cABG (E/F/G) (EC) | (CF)(AF) (CG)(BG) | cABG F/F/F F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+ffcc | ffcc | ffcc | fcFF :| \
+ffba | gfcc | ffbb | c'cff | fbab | fBcc | ffcc | fcFF |]

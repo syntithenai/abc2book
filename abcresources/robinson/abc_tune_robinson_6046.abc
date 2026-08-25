@@ -1,0 +1,23 @@
+X:1
+T:Mazurka  CF  (mz07789)  
+T:Hanny Christen. Bd.V  Basel II, Jura. S.141  (mz07789) orig. C,F
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G2E>F G>A | Gzc4 | e>e .d2.c2 | "G7"c>B d>cB2 | F2D>E F>G | Fzd3c | c>B B3A | "C"A>GG4 | 
+G2E>F G>A | Gzc4 | e>e .d2.c2 | "G7"c>B d>cB2 | F2 D>E F>G | Fzd3c | B>A G>f e>d | "C"cz!>!c2z2 :|
+[P:B] |: "F"A>B c>B c>A | "C"G2c>eg2 | ("G7"ef) (dB)G2 | ("C"^de) B>=d c2 |  "F"A>B c>B cA | "C"G2c>eg2 | ("G7"ef) dB G>B | "C"cz!>!c2z2 :| 
+K:F
+[P:C] "F"cd/c/ Bc/B/ AB/A/ | ("C7"G2.e2).e2 | de/d/ cd/c/ Bc/B/ | ("F"A2.f2).f2 | ("C7"ed)G3B | "F"A>d c>=Bc2 | ("C7"cB)E3G | "F"F2FG AB | 
+cd/c/ Bc/B/ AB/A/ | ("C7"G2.e2).e2 | de/d/ cd/c/ Bc/B/ | ("F"A2.f2).f2 | ("C7"ed)G3B | "F"A>d c>=Bc2 | ("C7"cB)E3G | "F"Fz!>!f2z2 |] 
+W:
+%W:Anmerkung H.C.: 
+% mz07789
+% May 28, 2018

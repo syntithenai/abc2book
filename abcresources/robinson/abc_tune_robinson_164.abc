@@ -1,0 +1,33 @@
+X:42
+T:Hampstead Heath,2parts. JNu.43
+M:6/8
+L:1/8
+Q:3/8=80
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:Lancashire, E
+N:Wrongly numbered 42 in MS
+Z:vmp.Manchester Morris Men
+V:1
+V:2 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:Bb major
+[V:1] |: d/e/ |fdBG2c/d/ | ecAB2d/e/ | fed gec | B3A2B/c/ |
+[V:2] |: z |B,,F,B, E,G,C | F,A,E B,2z | B,,F,B, E,G,C | F,B,D F,2z |
+%
+[V:1] dBG ecA | fdB gab | fdB BAc | "_sic"g3g2 :|
+[V:2] B,,D,E, C,E,F, | D,F,G, E,G,B, | F,B,D F,CE | B,3B,2 :|
+%
+[V:1] f | fgf bag | fdd fdd | fgf bag | f3 dgf |
+[V:2] z | B,,3B,,3 | B,,3B,,3 | B,,3B,,3 | B,,3B,,3 |
+%
+[V:1] =ecc fcc | ffg agf | dgf =ed=e | g3 ff/g/f/e/ |
+[V:2] C2CA,2A, | =E,2E,F,2A, | B,2G,C2C, | F,2C,F,2z |
+%
+[V:1] dBB BGG | GFF F2 d | dcc Bdf | g3 f2 g/a/ |
+[V:2] B,,3B,,3 | B,,2B,B,2z | B,,3B,,2D, | E,3D,2z |
+%
+[V:1] bdd def | gcc cde | fBB fed | c3"_sic" B2|]
+[V:2] B,3B,3 | E,2=E,F,3 | D,F,B, E,G,C | F,3F,2|]

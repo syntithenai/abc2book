@@ -1,0 +1,27 @@
+X:24
+T:Miss Gordon of Liverpool
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:9/8
+N:Titled just as "Jig"
+O:Scotland
+R:Slip Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 1
+K:F major
+%%staves {1 2}
+V:1
+C | \
+{E}[A,CF]3 [CF]2 ~d cAF | (E/F/G)[EG] [DG]AF E2 C | \
+{E}[A,CF]3 [CF]2 d cde  | (d/e/f)!wedge!d (e/f/g)!wedge!e f2 :|
+g | \
+afc bge afc | def gaf !trill!e2c | afc bge afc | C2F (E/F/G)!wedge!E F2 !trill!f |
+afc bge afc | def gaf edc | dBf cAf cAF | !trill!C2 F (E/F/G)!wedge!E [A,F]2 |]
+V:2 clef=bass octave=-2
+z | \
+[Ff]3 [fa]2b [fa]2[fa] | [cc']2[cc'] [=B=b]2[Gg] [cc']2[_B_b] | \
+[Ff]3 [da]2b [fa]3     | [fb]2[fb] [gbc']2[gbc'] [fac']2 :| \
+z | \
+fac' egc' fac' | b2a g2=b c'2_b | fac' egc' fac' | [fa]2[fa] [fb]2[fb] [fa]3 | \
+fac' egc' fac' | b2a g2=b c'2a  | [fb]2[fb] [fa]2[fa] [fa]3 | [cfa]2[cfa] [cgb]2[cgb] [Ff]2 |]

@@ -1,0 +1,20 @@
+X:1
+T:Hübel-Polka  BbEb  (pk07619) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.129  (pk07619) orig. Bb,Eb
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] "Bb"Bd (d/e/).d | Bd (d/e/).d | "F7"A/B/c/d/ f>e | "Bb"ed (d/^c/).d | Bd (d/e/).d | Bd (d/e/).d | "F7"A/B/c/d/ eA | "Bb"BB Bz :| 
+[P:B] |: "Bb"d2 d>d | dd cB | "F7"fA f>e | "Bb"ed (d/c/).B | d2d>d | dd cB | "F7"fA f/e/d/c/ | "Bb"BB Bz :|  [K:Eb] 
+[P:C] |: "Eb".G(B/A/).G2 | "Ab".A(c/B/).A2 | "Bb7".d.d .c.c | "Eb".B.B (B/A/).G | .G(B/A/).G2 | "Ab".A(c/B/).A2 | "Bb7"d>d cd | "Eb"ee ez :| 
+%W:Parts:
+W:Anmerkung H.C.: Lausen/Augst, Tenniken/Otter, Arisdorf, Seltisberg, Häfelfingen, 
+W: Itingen, Läufelfingen
+% pk07619
+% May 8, 2018 (8:30 am it was)

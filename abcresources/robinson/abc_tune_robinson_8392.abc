@@ -1,0 +1,26 @@
+X: 79
+T:Mrs Shearer of Buchromb
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:29 -1
+K:F minor
+%%staves {1 2}
+V:1
+"^Slow and Pathetic"
+C<F (!trill!FG/A/) (A/G/)F/=E/ {E}!trill!F2 | (C<F) (!trill!F>A) G>E B<G | \
+(C<F) (!trill!FG/A/) (A/G/)F/E/ {d}(e>B) | (!trill!c=d/e/) (!trill!c/B/A/)B/ !trill!G>EBG |
+C<F (!trill!FG/A/) (A/G/)F/=E/ {E}!trill!F2 | (C<F) (!trill!F>A) G>E B<G | \
+(C<F) (!trill!FG/A/) (A/G/)F/E/ {d}(e>B) | (!trill!c=d/e/) (!trill!c/B/)(A/B/) !trill!G>EBG :|
+(!trill!F>f) (!trill!fg/a/) (a/g/)f/=e/ !trill!f2 | (c<f)(!trill!f>a) !trill!g>e b<g | \
+{d}(e>d){d}c>B (!trill!c/B/)(A/B/) {F}~G2 | cC{C}A>B (c/B/A/)G/ (.A.F) |
+(!trill!F>f) (!trill!fg/a/) (a/g/)f/=e/ !trill!f2 | (c<f)(!trill!f>a) !trill!g>e b<g | \
+{g}(a>f) {f}(g>e) {g}(f>=d) {d}!fermata!e>B | (!trill!c=d/e/) (c/B/)A/B/ !trill!G>EBG |]
+V:2 clef=bass octave=-2
+f2 fa c'c f2 | F2 f2 Eege | F2 f2 c2e2 | Aac'a Eege | \
+f2 fa c'c f2 | F2 f2 Eege | F2 f2 c2 e2 | Aac'a Eege || \
+F2 f2 c2 f2 | F2 f2 e2 E2 | A2 ag f2 c2 | c2 fd' c'c [Ff]2 | \
+B2 f2 c2 f2 | F2 f2 e2 E2 | f2 g2 a2 [eg]2 | a2 Aa e2 E2 |]

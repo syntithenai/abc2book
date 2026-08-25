@@ -1,0 +1,19 @@
+X:105
+T:Mill Mill O,Duet.2voices. JMT.105
+M:4/4
+L:1/8
+Q:1/2=60
+S:J.Moore,Tyneside,1841.(74)
+R:Air
+O:England
+A:Northumberland
+Z:vmp.Chris Partington
+B:Village Music project, Moore, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/moorejt.abc
+K:D major
+[V:1]|:d>e|f2A>BA3d|B>ABd{f}e2d>e|{de}f2A2gfed|B3cd2:|!
+[V:2]|:z2|dAFGF2F2|G>FGB cAFA|dAFA BAGF|G3AF2:|!
+[V:1]|:c>A|(defg)a3a|bagfe3A|(defg) a>bag|{g}f2fgHa2zA|!
+[V:2]|:z2|zA de (fefd)|gfedc3A|zA de (fgfe)|{e}d2deHf2z2|!
+[V:1]defga3g/a/|bagf{f}e2d>e|f2A2A2{g}f/e/d|B3cHd2:|
+[V:2]zA def3e/f/|gfed cAFA|dAFAA2{B}A/G/F|G3E/A/HF2:|

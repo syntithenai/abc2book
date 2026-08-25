@@ -1,0 +1,33 @@
+X:31
+T:Über Stock und Stei  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F|dFf/=e/ | cF/>F/ d | BDB | F>f d/B/ | cEc | F>f =e/c/ | BDB | 
+!fermata!F2F | dFf/=e/ | cF/>F/ d | BDB | F>f d/B/ | cEc | F>f d/c/ | (B3 | B2) || 
+M:4/4
+[P:B] FD/E/ F/d/B | fe/d/ c/F/E | EC/D/ E/c/A | F/f/d/c/ Bd | 
+FD/E/ F/d/B | fe/d/ c/D/E | E C/D/ E/c/A | F/f/d/c/B2 ||  
+M:3/4
+[P:C]   F| B>c d/e/ | dBF | B>c d/e/ | c2F | c>B A/B/ | cAF | 
+c>d c/A/ | B2F | B>c d/e/ | dBF | B>c d/B/ | e2G | e>f e/c/ | 
+dBF | c>c B/c/ | d2G | e>f e/c/ | dB B/d/ | f/e/dc | B2 || 
+[P:D] F| D>Dd | B2F | E>Ed | c2c/B/ | A>cF | Edc | B>DF | D2F | D>Dd | B2F | 
+E>Ed | c2 c/B/ | A>cF | Edc | (B3 | B2)F | D>Dd | B2F | E>Ed | c2c/B/ | A>cF | 
+Edc | B>DF | D2F | D>Dd | B2F | E>Ed | c2c/B/ | A>cF | Edc | (B3 | B2) |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:1. Dezember 2010 - gewidmet an Nik Hartmann
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-16
+W:http://www.naturjodler.ch/code 17-a.htm  (with AUDIO)
+%May 14 2018

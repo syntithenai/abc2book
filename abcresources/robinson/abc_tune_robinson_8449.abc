@@ -1,0 +1,32 @@
+X:54
+T:Mrs Buchan of Auchmacoy
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:22 - 3
+K:Bb major
+%%staves {1 2}
+V:1
+F | \
+(Bc/d/) BF ([FB]c/d/) BF & F2x6 | {e}d>cBd cCCc | \
+(Bc/d/) BF ([FB]c/d/) [FB]F & F2x6 | {e}[Fd]>[Ec][DB][CA] [DB]B, B, :|
+d/e/ | \
+fd b2 fd b2 | fdbd gc cd/e/ | \
+fd b2 (a/g/)(f/e/) (d/c/)(B/A/) | BG F/G/F/E/ DB, B,
+d/e/ | \
+fd b2 fd b2 | fdbd gc cd/e/ | \
+fdec {e}dBcA | B<GF>E DB,B, |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Bb][Bb][Bb][Bb] | [Bb]d/B/fF | [Bb][Bb][Bb][Bb] | fF[B,B][B,B]/ :| \
+L:1/8
+z | \
+[bd']f'[bd']f' [bd']f'[bd']f' | [bd']f'[bd']f' [c'e']f'[ae']f' | \
+[bd']f' [df]b [eg]c' [efa]c' | [db][eb] fF B2B,z | \
+[bd']f'[bd']f' [bd']f'[bd']f' | [bd']f'[bd']f' [c'e']f'[ae']f' | \
+[bd'f']2 [ac'f']2 [bd'f']2 [efc']2 | b2fF B2B, & de x4x |]

@@ -1,0 +1,31 @@
+X:5
+T:Moorbädler-Juiz. 1982  Bb  ABC
+T:Thomas Wieland  (* 8.11.1953)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FG| F3B, DF | d2B2 Fd | c>B A>G Ff | d>cB2FG | F3B, DF | 
+d2B2 Fd | c>=B cF dF | B4FG | F3B, DF | d2B2 Fd | 
+c>B A>G Ff | d>cB2FG | F3B, DF |  d2B2 Fd | c>=B cF dF | B4 || 
+M:2/4
+[P:B] F>F | G2eG | B>B AG | F2dF | B2cB | Af Ge | Fd Ec | B2dB | 
+F2F>F | G2eG | B>B AG | F2dF | B2cB | Af Ge | Fd dc | (B4 | 
+B2)F>F | G2eG | B>B AG | F2dF | B2cB | Af Ge | Fd Ec | B2dB | 
+F2F>F | G2eG | B>B AG | F2dF | B2cB | Af Ge | Fd dc | (B4 | B2) z2 ||  
+M:4/4
+[P:C] GF|Ff fF Fd dB | AG ABc2GF | Ff fF Fe eA | BA Bcd2GF | 
+Ff fF Fd dB | AG ABc2GF | Ff eFd2c2 | B6GF | Ff fF Fd dB | AG ABc2GF | 
+Ff fF Fe eA | BA Bcd2GF | Ff fF Fd dB | AG ABc2GF | Ff eF d2c2 | B6 |]
+%W:Reihenfolge: A-B-C
+W:
+W:notiert Edi Gasser. Angaben: Thomas Wieland
+W:UJV-Naturjodelsammlung: Code-Nr: 21-04
+W:http://www.naturjodler.ch/code 21.htm  (with AUDIO)
+%May 19, 2018

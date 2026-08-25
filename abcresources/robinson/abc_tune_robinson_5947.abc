@@ -1,0 +1,31 @@
+X:1
+T:Echo von fern  Ab/As
+T:Peter Arnold (10.09.1949)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABC
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:2/4
+K:Ab major
+[P:A] "feierlich getragen" !f!E | e>c | ec | AC | Ec | !fermata!B>E | =DE | e2 | c2 | A2 | 
+!mp! "Echo ..."e2 | c2 | "_* Fin" !fermata!A2 | z !f!E | e>c | ec | AC | Ec | !fermata!B>E | 
+=DE | e2 | c2 | A2  | !mp!"Echo ..."e2 | c2 | (A2 | A)z || 
+M:2/4
+[P:B] CE | A>B | (c2 | c)A | B>c | d>e | f2 | ed | (3cEc | 
+d2 | c2 | (3dcB | (A2 | A>)z | CE | A>B | (c2 | c)A | B>c | 
+d>e | f2 | ed | (3cEc | d2 | c2 | (3dcB | (A2 | A>)z || 
+M:2/4
+[P:C]  "fröhlich, zügiger" E/C/ E/c/ |  c>B | A2 | !mp!E/C/ E/c/ | c>B | A2 | !mf!C/A,/ C/F/ | E>D | B,2 | 
+E/=D/ E/G/ | B/D/ E/d/ | c2 | B2 | !fermata!A2 | !f!E/C/ E/c/ | c>B | A2 | !mp!E/C/ E/c/ | c>B | A2 | 
+!mf!C/A,/ C/F/ | E>D | B,2 | E/=D/ E/G/ | B/D/ E/d/ | c2 | B2 | !fermata!A2 || 
+W:
+W:Reihenfolge: A - B - C - A bis * (Fin)
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 65-01
+W:http://www.naturjodler.ch/code 65.htm  (with AUDIO)
+W:notiert Edi Gasser. %Angaben: 
+%October 08, 2018

@@ -1,0 +1,39 @@
+X:6
+T:First Light
+C: From Steel Skies by Alistair Anderson
+Q:1/4=110
+M:3/2
+L:1/8
+K:F major
+V:1
+e2 | f3 e/d/ e2 A4 a2 | [M:2/2]gfed e3 f/g/ | e6 A2 |
+V:2
+z2 | A3 G/F/ G2 E4 A2 | [M:2/2]BAGA B3 A/G/ | A6 E2 |
+V:1
+"4"[M:3/2] a3 f/e/ d2 A6 | [M:2/2]d^cde g3 e | d6 e2 |
+V:2
+[M:3/2] D3 A/G/ F2 D6 | [M:2/2]AGFE E3 A | D6 G2 |
+V:1
+"7"[M:3/2]f3 e/d/ e2 A4 a2 | [M:2/2]gfed e3 f/g/ | e6 A2 |
+V:2
+[M:3/2]A3 G/F/ G2 E4 A2 | [M:2/2]BAGA B3 A/G/ | A6 E2 |
+V:1
+"10"[M:3/2]f3e/d/ ^c2 A6 | [M:2/2]dagf e3 ^c | d6 f2 |
+V:2
+[M:3/2]A3 G/F/ E2 ^C6 | [M:2/2]D^CDF G3 E | D6 A2 |
+V:1
+"13"[M:3/2]g3 a/b/ a2 f6| [M:2/2]baga b2 c'2 | a6 b2 |
+V:2
+[M:3/2]B3 c/d/ c2 A6 | [M:2/2]dcBA G2 F2 | E6 G2 |
+V:1
+"16"[M:3/2]g3 e/d/ ^c2 A6 | [M:2/2]d^cde A3 c | d6 f2 |
+V:2
+[M:3/2]B3 G/F/ E2 ^C6 | [M:2/2]DAGF E3 ^C | D6A2 |
+V:1
+"19"[M:3/2]g3 a/b/ a2 f6 | [M:2/2] bagf e2 f2 | g6 A2 |
+V:2
+[M:3/2]B3 c/d/ c2 A6 | [M:2/2] dcBA G2 F2 | E6 G2 |
+V:1
+"22"[M:3/2]a3 f/e/ d2 A6 | [M:2/2]d^c de g3 e | Hd8 :|
+V:2
+[M:3/2]D3 A/G/ F2 D6 | [M:2/2]AGFG B3 E | HD8 :|

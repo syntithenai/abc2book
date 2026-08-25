@@ -1,0 +1,38 @@
+X:11
+T:the Craigellachie Lassies
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:4 - 2
+K:D major
+%%staves {1 2}
+V:1
+A | \
+{c}d2 d {e}dcB | A3/B/G {G}F3/E/D | \
+{c}d2 d d3/c/d | e3/f/d c3/B/G & B2^G =G3 |
+{c}d2 d {e}d3/c/B | A3/B/G {G}F3/E/D | \
+EC3/A,/ A,3/B,/C | D3 D2 |]
+f/g/ | \
+afd def | gec Ace | fdA GBe | ecA FGA & G3 D3 |
+BGE EFG & D3 C3 | AFD DFA & D3 x3| ECA, A,B,C | D3 D2 f/g/ |
+afd afd | gec gec | fdA fdA | ecA ecA |
+BGB dcB | AFA Bcd | Bgf {f}e3/d/c & G3 G3 | d3 D2 & F3 x2 |]
+V:2 clef=bass octave=-2
+z | \
+[dfd']2 [dfd'] [dgd']2 [dgd'] | [dfd']2 [dbd'] [dad']2 [df] | \
+[dfd']2 [dfd'] [dfd']2 [dfd'] | [Gg]2 [Ee] [Aa]2[Aa] | \
+fad' gbd' & d3 d3 | fad' faf & d3 d3 | \
+Aeg Aeg & A3 A3 |  f3 f2 & DFA d2 |] \
+z | \
+x2[fd'] [fd']2 [fd'] & d6 | x2[ac'] [ac']2[ac'] & e6 | \
+d2[fd'] [Gg]2[Ee] | [Aa]2[Aa] [da]ef | \
+[Gg]2[Ee] [Aa]2[Gg] | [Ff]2[Dd] [Dd]2[Dd] | \
+[Aeg]2[Aeg] [Aeg]2[Aeg] | f3 f2z & DFA d2z | \
+{D}d2[fd'] [fd']2[fd'] |  a2[ae'] [ae']2[ae'] | \
+{D}d2[fd'] [fd']2[fd'] | [ac']2[ae'] [ae']2[fd'] | \
+[gd']2[gd'] [db]ag | [dfa]2[dfa] [Gg]2 [Ff] | \
+[Gg]2[Ee] [Aa]2[A,A] | DFA d2 |]

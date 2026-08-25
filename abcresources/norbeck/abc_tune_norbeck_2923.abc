@@ -1,0 +1,26 @@
+X:1
+T:Smeseno Horo
+T:Smeceno Horo
+T:Bulgarian Bulge
+R:smeseno horo
+H:"Smeseno Horo" means "Crooked Dance"
+H:15/16 bars are 4+4+3+4/16. 18/16 bars are 4+2+3+2+3+4/16.
+O:Bulgaria
+Z:id:hn-miscbalkan-1
+M:15/16
+L:1/16
+Q:1/8=240
+K:Dmix
+^cdd=c cBBA cBA B2AG | [M:18/16] F2FD ED F2D ED cBA B^GA2 |
+[M:15/16] ^cdd=c cBBA cBA B2AG | [M:18/16] F2FD ED F2D ED F2D E^CD2 :|
+M:18/16
+|: F2FD ED F2D ED cBA B2AG | F2FD ED F2D ED cBA B^GA2 |
+F2FD ED F2D ED cBA B2AG | F2FD ED F2D ED F2D E^CD2 :|
+|:[M:15/16] A2AD E=F^GA cBA B2A=G |[M:18/16] ^F2FD ED F2D ED cBA B^GA2 |
+[M:15/16] A2AD E=F^GA cBA B2A=G |[M:18/16] ^F2FD ED F2D ED F2D E^CD2 :|
+M:18/16
+|: F2FD ED F2D ED F2D E^CDE | F2FD ED F2D ED F2D E^CD2 :|
+|: ABBA AG F2D FG ABA AGFD | ABBA AG F2D FG ABA AGF2 :|
+|: BdcB BG A2G FD G2F FGAD | BdcB BG A2G FD G2F FDE2 :|
+|: E=F^GA BE cBA Bc B2A ^GABc | dc2B2A cBA ^GA GA=F ^GDE2 :|
+|: dc2B2A cBA ^GA GA=F ^GABc | dc2B2A cBA ^GA GA=F ^GDE2 :|

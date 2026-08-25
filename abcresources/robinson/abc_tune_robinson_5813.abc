@@ -1,0 +1,33 @@
+X:24
+T:Chilärain-Juiz. 1996  Bb ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+M:4/4
+K:Bb major
+[P:A] B,C| D2DCD2FB | d2d>cB2fd | c2f2c2 ce | d3cB2 B,C | 
+D2DCD2FB | d2d>cB2fd | c2f>ed2c2 | B6 || 
+M:4/4
+[P:B] B2D2 FDFB | d3ed2F2 | c2f2edc2 | d2B2c4 | B2D2 FDFB | 
+d3ed2Fd | c2f>ed2c2 | B8 | B2D2 FDFB | d3ed2F2 | c2f2edc2 | 
+d2B2c4 | B2D2 FDFB | d3ed2Fd | c2f>ed2c2 | B6z2 || 
+M:4/4
+[P:C]   B,C| D2DCD2FB | d2d>cB2fd | c2f>ed2c2 | B6z2 ||  
+M:3/4
+[P:D]  D2| FF FF FF | e3dc2 | f2c2e2 | d3ed2 | F2f2d2 | c4F2 | f2c2e2 | 
+d4B2 | FF FF FF | e3dc2 | f2c2e2 | d3ed2 | F2f2d2 | c4 F2 | fed2c2 | 
+B4D2 | FF FF FF | e3dc2 | f2c2e2 | d3ed2 | F2f2d2 |  c4F2 | f2c2e2 | d4B2 | 
+FF FF FF | e3dc2 | f2c2e2 | d3ed2 | F2f2d2 | c4F2 | fed2c2 | B4 |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-13
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 21, 2018

@@ -1,0 +1,19 @@
+X:232
+T:Walzer CF (wz02020)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.274 (wz02020) orig. C,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+G | "C"e2^d | e2^f | g2G | e2^d | e2g | "G7"f3 | d2G | d2e | f3 | fba | 
+gd>e | f>ed | "C"ce>d | c3 |: [K:F] [L:1/8] "F"c2 dc BA | "C7"BA GF EG | c2 eg Be | "F"fe fga2 | 
+c2dc BA | "C7"BA GF EG | c2eg ce | "F"f6 :| [K:C] "C"e3gg2 | e3GG2 | e3G ce | 
+"G7"fe dc B2 | d^c de fg | a3BB2 | f2 Bf ed | "C"cB ceg2 | e3gg2 | 
+e3GG2 | e3G ce | "G7"fe dcB2 | "Dm"daa2z2 | "C"cgg2z2 | "G7"BA Gf ed | "C"c6 |] 
+W:
+W:Anmerkung Hrsg.: 1. Teil: 14 Takte? Vermutlich fehlt nach Takt drei eine punktierte Halbe auf g.
+% wz02020 (H 071/TN 18)

@@ -1,0 +1,19 @@
+X: 8
+T: Alte Brienzer Walzer FBb (wz05423)
+% or: Alter Brienzer Walzer ?
+% cf. wz 06122 (S.403)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.288 (wz05423) orig. F,Bb-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+R:Walzer
+O:Switzerland
+M:3/4
+L:1/4
+K:F major
+C | "F"F2G | A2B | c2d | e2f | "C7"e2B | e2B | (e3 | e)zC | E2F | G2A | B2c | e2d | 
+"F"c2A | c2A | (c3 | c)zC | F2G | A2B | c2d | e2f | "C"e2G | e2G | (e3 | e)g>a | 
+"G7"g2f | zf>g | "C"f2e | ze>f | "G7"ezd | azg | "C"c>cc | cza/c'/ || "F"(f3 | f)za/c'/ | "C7"(e3 | e)za/c'/ | 
+gzg | azg | "F"(f3 | f)zc/c/ | cde | fga | "G7"gzg | gzc/c/ | "C7"cde | efg | "F"fzf | fz a/c'/ | 
+(f3 | f)za/c'/ | "C7"(e3 | e)za/c'/ | gzg | azg | "F"(f3 | f)zc/c/ | cde | fga | "Bb"c'zb | azg | 
+"F/C"fzc' | "C7"ezc' | "F"f>ff | fzf || [K:Bb] "Bb"g2a | b2a | "F7"(e3 | e)ze | f2g | a2g | "Bb"(d3 | d)zf | 
+f3 | g2f | "F7"fed | (e3 | e)zd/e/ | f2e | "Bb"edB | Fzf | g2a | b2a | "F7"(e3 | e)ze | 
+f2g | a2g | "Bb"(d3 | d)zz | "F7"f2a | g2f | fec | "Bb"edB | FBe | "F7"d2c | "Bb"B>BB | Bzz |]

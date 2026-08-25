@@ -1,0 +1,26 @@
+X:1
+T:Walzer. Grieder  FBb (wz06974) ABCD
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.173  ( wz06974) orig. F,Bb
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] c| ("F"d2c) | (A2c) | "C7"E2G | B2c | e2d | B2d | "F"F2A | c2f | g2f | A2c | 
+"Gm"e2d | G2B | "C7"d2c | a2g | "F"f3 | fzc || [P:B] "F"d/z/ c/ z/A/ z/ | d/z/ c/ z/A/ z/ | "Gm"c/z/ B/ z/ d/ z/ | 
+g3 | "C7"f/z/ e/ z/B/ z/ | e3 | "F"d/z/ c/ z/A/ z/ | c2z/c/ | d/z/ c/ z/A/ z/ | d/z/ c/ z/A/ z/ | "Gm"c/z/ B/ z/ d/ z/ | 
+g3 | "Bb"fed | "F"czf | "C7"e/z/ d/z/ c/z/ | "F"fzF/F/ ||  [K:Bb] "F"FF/E/ F/G/ | AA/G/ A/B/ | cc/B/ c/d/ | ezF/F/ ||  
+[P:C] "Bb"FBd | ded | "C7"dcG | c3 | "F7"BAE | A3 | "Bb"GFD | F2F/F/ | FBd | 
+ded | "C7"dcG | c2c | ("Bb"d/c/) (B/c/) (d/c/) | Bdg | "F7"fcd | "Bb"Bz z//F//B//d// [P:D] |: "Bb"fzf | "F7"eze | 
+"C7"dzd | "F7"czc |1 "Eb"GG>A | "F7"A3 | GF>B | "Bb"B3 :|2 "F7"cBA | "Bb"FBd | "F7"fcd | "Bb"cBz |] 
+W:
+W:Parts: ABCD
+%W:
+%W:Anmerkung H.C.: 
+% wz06974
+% June 19, 2018

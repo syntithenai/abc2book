@@ -3,6 +3,7 @@ import {Button, ButtonGroup, Dropdown, Form, Modal, Tabs, Tab, ListGroup} from '
 import BulkChangeValueModal from './BulkChangeValueModal'
 import BulkCheckModal from './BulkCheckModal'
 import BulkSearchModal from './BulkSearchModal'
+import BulkPlayalongButton from './BulkPlayalongButton'
 import BulkOperationProgressModal from './BulkOperationProgressModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import AddTunesToListModal from './AddTunesToListModal'
@@ -678,6 +679,12 @@ export default function SelectedItemsModal(props) {
                 </Dropdown>
               </div>
             <div className="bulk-ops-toolbar-block bulk-ops-download-block">
+              <BulkPlayalongButton
+                tunebook={props.tunebook}
+                selected={props.selected}
+                selectedCount={props.selectedCount}
+                onClose={handleClose}
+              />
               <TuneDownloadDropdown
                 tunebook={props.tunebook}
                 tunes={selectedTunes()}

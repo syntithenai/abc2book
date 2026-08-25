@@ -1,0 +1,11 @@
+X:92
+T:L\"andler CG (LD05066)
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+G2 |: "C".e2!>!e3c | .c2!>!E3A | "G7"AG FG, B,D | "C"AG EC EG | .e2!>!e3c | .c2!>!E3A | "G7"AG FG, B,D |1 "C"C2z2G2 :|2 "C"C2z2z2 || [K:G]
+|: "D7"D2EF GA | "G"Bcd3B | "D7"AB cD EF | "G"GBD4 | "D7"D2EF GA | "G"Bcd3B | "D7"AB cD EF |1 "G"G2z2z2 :|2 "G"G2"_>Teil A"z2G2 |] 
+W: Parts: ABA

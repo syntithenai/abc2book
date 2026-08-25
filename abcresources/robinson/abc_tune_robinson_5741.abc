@@ -1,0 +1,31 @@
+X:5
+T:dr Eidgenoss (Natur-Juiz)  Bb  ABC
+T:Fridolin Haldi (9.5.1918-14.11.2012)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:2/4+3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam, breit"  "_*"G3B,/D/ | F2d2 | B6 | F3D FB | A3c | F2F2 | f2eF | d3c | (B4 | B2)z2 | 
+"_*"G3B,/D/ | F2d2 | B6 | F3D FB | A3c | F2F2 | f2eF | d3c | (B4 | B2)z2 || 
+L:1/8
+M:2/4
+[P:B]  B,D | FD Fd | B3F | E3F | c2FF | f2ed | e2dc | B2d2 | F2B,D | 
+FD Fd | B3F | E3F | c2FF | f2ed | e2dc | (B4 | !breath!B2)B,D | 
+FD Fd | B3F | E3F | c2FF | f2ed | e2dc | B2d2 | F2B,D | 
+FD Fd | B3F | E3F | c2FF | f2ed | e2dc | (B4 | B2)z2 ||  
+L:1/4
+M:2/4
+[P:C] "gemütlich, langsam"  G>B | (e2 | e)G | BA/G/ | F>B | (d2 | d)B | dg | 
+f>e | cF | Ge | d>B | (F2 | F2) | G>B | (e2 | e)G | BA/G/ | 
+F>B | (d2 | d)B | dg | f>e | cF | e/d/ A/c/ | !fermata!B2 |] 
+%W:
+%W:Reihenfolge: A-B-C
+%* = orig. G,
+%W:UJV-Naturjodelsammlung: Code-Nr: 15-03
+%W:http://www.naturjodler.ch/code 15.htm  (with AUDIO)
+%May 9, 2018

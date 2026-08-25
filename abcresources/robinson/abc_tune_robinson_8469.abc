@@ -1,0 +1,23 @@
+X: 126
+T:Gordon Castle, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:44 - 3
+K:C major
+%%staves {1 2}
+V:1
+(E<G)(G>c) !trill!A>G c<G | E<G-G>.A ce !trill!d2 | \
+(E<G)G>c !trill!A>G A<c | defa ge !trill!d2 :|
+(!trill!c>d)ef gcge | !trill!c>def a/g/f/e/ d2 | \
+(!trill!c>d) e<f g<cg>e | f>g {fg}a<g a/g/f/e/ !trill!d2 |
+!trill!c>def gcge | !trill!c>def a/g/f/e/ d2 | \
+!trill!c>d e<f g<cg>e | fagc' ef !trill!d2 |]
+V:2 clef=bass octave=-2
+L:1/4
+ccfe | cccg | ccff | ffcG :| \
+c'c'c'c' | c'c'c'g | c'c'c'c' | ffcg | c'c'c'c' | c'c'c'g | c'c'c'c' | fecg |]

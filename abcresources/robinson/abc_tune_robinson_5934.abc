@@ -1,0 +1,31 @@
+X:5
+T:Gisi-Tossä-Juiz. 2008 - der Giisi-Tesseler  Bb  ABCD
+T:Sepp Lussi. Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+R:Naturjodel
+M:3/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "ruhig getragen" B,>F D/F/ | d>c B/d/ | c>B A/F/ | d>cB | B,>F D/F/ | d>c B/d/ | f>e c/A/ | B3 | 
+B,>F D/F/ | d>c B/d/ | c>E F/f/ | d>cB | B,>F D/F/ | d>c B/d/ | f>e c/A/ | B3 || 
+M:4/4
+[P:B] "bestimmt, zügig, nicht zu schnell" cAFc | d>cB2 | A>cFf | dd/c/B2 | c>AFc | 
+d>cBd | fe/c/Fc/d/ | B3z | cAFc | d>cB2 | A>cFf | 
+dd/c/B2 | c>AFc | d>cBd | fe/c/Fc/d/ | B3z || 
+[P:C] "ruhig getragen" B,>FD F/B/ | d>cBF | f>ec F/f/ | d>cB2 | 
+B,>FD D/F/ | d>cB d/g/ | f>ecd | B3z || 
+M:3/4
+[P:D] "Walzertempo, nicht zu schnell"  DFd | c>EF | fc>e | d>cB | D/F/ B/D/ F/B/ | A>cF | E/F/ A/E/ F/A/ | B>cd | 
+DFd | c>EF | E/F/ A/E/ F/c/ | B>DF | B,DG | F>ec | Ffd/c/ | B3 | 
+DFd | c>EF | fc>e | d>cB | D/F/ B/D/ F/B/ | A>cF | E/F/ A/E/ F/A/ | B>cd | 
+DFd | c>EF | E/F/ A/E/ F/c/ | B>DF | B,DG | F>ec | Ffd/c/ | B3 |] 
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. Angaben: Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 56-03
+W:http://www.naturjodler.ch/code 56.htm  (with AUDIO)
+%September 26, 2018

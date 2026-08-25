@@ -1,0 +1,26 @@
+X:6
+T:Miss Louisa Duff
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 3
+K:G minor
+%%staves {1 2}
+V:1
+!trill!B2 (GB) DGBG | !trill!A2 Fc AFcA | \
+!trill!B2 (GB) DGBG | A3/G/^FA G/G/G G2 :: \
+dg-ga bgaf |
+            cffa bgaf |1 \
+dgga bgaf | ag^fg g/g/g g2 & c4 B2B2 :|2 \
+defg fdcB | A3/2G/^FA G/G/G G2 & D8 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Gg] [Gg] [Gg] [Gg] | [Ff] [Ff] [Ff] [Ff] | \
+[Gg] [Gg] [Gg] [Gg] |dD[Gg] [Gg] :: \
+[gbd'] [gbd'] [gbd'] [ac'] | [ac'] [fc'] [=ec'] [fc'] |1 \
+[bd'] [gd'] [gd'] [ac'] | d'd [Gg] [Gg] :|2 \
+[Bb] [Bb] [Aa]/[Bb]/ [cc'] | [dac'] [dac'] [Gg] [Gg] |]

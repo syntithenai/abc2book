@@ -1,4 +1,4 @@
-import { parseMidiBytesToTracks, parseMidiFileMeta } from './midiParseClient';
+import { parseMidiBytesToTracks, parseMidiFileMeta, tickToSeconds, buildTempoMapFromChanges } from './midiParseClient';
 
 function sortByTick(changes) {
   return (changes || []).slice().sort(function(a, b) {
@@ -7,38 +7,10 @@ function sortByTick(changes) {
 }
 
 function buildTempoMap(tempoChanges, defaultTempoUs, ticksPerBeat) {
-  const sorted = sortByTick(tempoChanges);
-  if (!sorted.length) {
-    return [{ tick: 0, tempoUs: defaultTempoUs, bpm: 60000000 / defaultTempoUs }];
-  }
-  return sorted.map(function(change) {
-    return {
-      tick: change.tick || 0,
-      tempoUs: change.tempoUs,
-      bpm: change.bpm,
-      sourceTrackIndex: change.sourceTrackIndex,
-    };
-  });
+  return buildTempoMapFromChanges(tempoChanges, defaultTempoUs);
 }
 
-export function tickToSeconds(tick, tempoMap, ticksPerBeat) {
-  const tpb = ticksPerBeat || 480;
-  let seconds = 0;
-  let prevTick = 0;
-  let tempoUs = tempoMap[0] ? tempoMap[0].tempoUs : 500000;
-  for (let i = 0; i < tempoMap.length; i += 1) {
-    const entry = tempoMap[i];
-    const boundary = entry.tick || 0;
-    if (tick < boundary) break;
-    if (i > 0) {
-      seconds += ((boundary - prevTick) * tempoUs) / (tpb * 1000000);
-    }
-    tempoUs = entry.tempoUs;
-    prevTick = boundary;
-  }
-  seconds += ((tick - prevTick) * tempoUs) / (tpb * 1000000);
-  return seconds;
-}
+export { tickToSeconds };
 
 export function tickToBar(tick, tempoMap, ticksPerBeat, meterChanges, defaultMeter) {
   const seconds = tickToSeconds(tick, tempoMap, ticksPerBeat);

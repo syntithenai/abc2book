@@ -97,6 +97,31 @@ def _crossfade_join(chunks: list[np.ndarray], fade_samples: int) -> np.ndarray:
     return out
 
 
+def trim_trailing_silence(
+    audio: np.ndarray,
+    sr: int,
+    *,
+    threshold: float = 0.01,
+    min_keep_sec: float = 2.0,
+) -> tuple[np.ndarray, list[str]]:
+    """Drop trailing near-silence so loop tiling does not propagate dead air."""
+    notes: list[str] = []
+    if len(audio) == 0:
+        return audio, notes
+    window = max(1, int(round(0.05 * sr)))
+    min_keep = max(window, int(round(min_keep_sec * sr)))
+    end = len(audio)
+    while end > min_keep:
+        start = max(0, end - window)
+        if float(np.max(np.abs(audio[start:end]))) > threshold:
+            break
+        end = start
+    if end < len(audio):
+        notes.append(f"trimmed trailing silence {len(audio) / sr:.2f}s -> {end / sr:.2f}s")
+        return audio[:end], notes
+    return audio, notes
+
+
 def fit_audio_to_duration(
     audio: np.ndarray,
     sr: int,
@@ -156,15 +181,29 @@ def tile_backing_loop(
     notes: list[str] = []
     if len(audio) == 0:
         return audio, notes
+    trimmed, trim_notes = trim_trailing_silence(audio, sr)
+    notes.extend(trim_notes)
+    audio = trimmed
     target_samples = max(1, int(round(max(0.1, float(target_duration_sec)) * sr)))
     if len(audio) >= target_samples:
-        return audio[:target_samples], notes
+        # If the tail is quiet, prefer tiling the active region instead of keeping silence.
+        active, active_notes = trim_trailing_silence(audio[:target_samples], sr)
+        notes.extend(active_notes)
+        if len(active) < int(target_samples * 0.85) and len(active) > int(0.5 * sr):
+            audio = active
+        else:
+            return audio[:target_samples], notes
 
     if bar_boundaries_sec and len(bar_boundaries_sec) >= 2:
+        audio_duration = len(audio) / float(sr)
         bar_chunks = []
         for idx in range(len(bar_boundaries_sec) - 1):
-            start_sample = max(0, int(round(float(bar_boundaries_sec[idx]) * sr)))
-            end_sample = min(len(audio), int(round(float(bar_boundaries_sec[idx + 1]) * sr)))
+            start_sec = float(bar_boundaries_sec[idx])
+            end_sec = float(bar_boundaries_sec[idx + 1])
+            if start_sec >= audio_duration - 1e-4:
+                break
+            start_sample = max(0, int(round(start_sec * sr)))
+            end_sample = min(len(audio), int(round(end_sec * sr)))
             if end_sample > start_sample:
                 bar_chunks.append(audio[start_sample:end_sample])
         if bar_chunks:
@@ -185,7 +224,6 @@ def tile_backing_loop(
     tiled = np.tile(audio, repeats)[:target_samples]
     notes.append(f"tiled loop x{repeats} to {target_duration_sec:.2f}s")
     return tiled, notes
-
 
 def stitch_audio_sections(
     section_paths: list[Path],

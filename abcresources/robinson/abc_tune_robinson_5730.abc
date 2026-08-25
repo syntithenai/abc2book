@@ -1,0 +1,30 @@
+X:1
+T:Alphorn-Juiz  Bb  ABC
+T:Gebhard Britschgi  (16.12.1931-24.2.2018)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>DF | D>FB | F>Bd | f>dB | c>Ff | c>Ff | d>Fd  | B3 | 
+B,>DF | D>FB | F>Bd | f>dB | c>fF | cfF | (B3 | B2)z | 
+B,>DF | D>FB | F>Bd | f>dB | c>Ff | c>Ff | d>Fd  | B3 | 
+B,>DF | D>FB | F>Bd | f>dB | c>fF | cfF | (B3 | B2)z ||    
+L:1/4
+M:3/4
+[P:B]  GBe | g>fe | d>fF | dfF | c>fF | cFf | d>Fd | f3 | 
+GBe | g>fe | d>F B/d/ | f>dB | cFd | cFc | (B3 | B2)z ||  
+M:3/4
+[P:C]  B,FB | d>cB | cFc | d>cB | B,Fd | f>ed | cFc | d3 | 
+B,FB | d>cB | cFf | d>cB | B,Fd | f>ed | cFc | d3 | cFc | B3 |]  
+%W:
+%W:Reihenfolge: A-B-C
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 12-01
+W:http://www.naturjodler.ch/code 12.htm  (with AUDIO)
+%May 8, 2018

@@ -1,0 +1,20 @@
+X: 129
+T:Mrs L Stewart's Reel -- of the Island of Java
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:45 - 2
+K:C major
+%%staves {1 2}
+V:1
+~c2 (ec) (Gc)(ec) | FdEc DG,B,G, | ~c2 (ec) (Gc)(ec) | fage c/c/c c2 :|
+~E2 (Gc) EcGc | ~F2 (Ac) FcAc | ~G2 (Bd) GdBd | fdec (!trill!cB)(AG) |
+~E2 (Gc) EcGc | ~F2 (Ac) FcAc | fagf edec | GcBd c/c/c c2 |]
+V:2 clef=bass octave=-2
+L:1/4
+ccec | dcGG | ccec | fgcc :| \
+ccec | ffaf | ggbg | bc'gg | ccec | ffaf | d'bc'e | gGcc |]

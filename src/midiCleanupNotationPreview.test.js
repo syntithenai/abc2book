@@ -106,4 +106,66 @@ describe('midiCleanupNotationPreview', function() {
     ], { tempoBpm: 120, meter: '4/4', key: 'C', slotsPerBeat: 2 });
     expect(abc.split('|').length).toBeGreaterThanOrEqual(8);
   });
+
+  test('formatNotesToAbcBody keeps near-simultaneous chord tones on one slot', function() {
+    const body = formatNotesToAbcBody([
+      { start: 0, end: 0.5, startTick: 0, endTick: 240, midi: 60 },
+      { start: 0.01, end: 0.5, startTick: 4, endTick: 240, midi: 64 },
+      { start: 0.02, end: 0.5, startTick: 8, endTick: 240, midi: 67 },
+    ], {
+      beatTimes: buildBeatTimes(2, 120),
+      beatsPerBar: 4,
+      slotsPerBeat: 2,
+      ticksPerBeat: 480,
+      key: 'C',
+      quantStrength: 1,
+      allowChords: true,
+    });
+    expect(body).toMatch(/\[/);
+    expect(body).toMatch(/C/);
+    expect(body).toMatch(/E/);
+    expect(body).toMatch(/G/);
+  });
+
+  test('buildCleanupScorePreviewAbc preserves melody pitches with tick grid', function() {
+    const notes = [
+      { start: 0, end: 0.5, startTick: 0, endTick: 240, midi: 62 },
+      { start: 0.5, end: 1, startTick: 240, endTick: 480, midi: 64 },
+      { start: 1, end: 1.5, startTick: 480, endTick: 720, midi: 65 },
+      { start: 1.5, end: 2, startTick: 720, endTick: 960, midi: 67 },
+    ];
+    const abc = buildCleanupScorePreviewAbc([
+      { id: 1, notes: notes, isDrum: false, program: 0, key: 'C', allowChords: false },
+    ], {
+      tempoBpm: 120,
+      meter: '4/4',
+      key: 'C',
+      slotsPerBeat: 2,
+      ticksPerBeat: 480,
+      quantStrength: 1,
+      noteLength: '1/8',
+    });
+    expect(abc).toMatch(/D/);
+    expect(abc).toMatch(/E/);
+    expect(abc).toMatch(/F/);
+    expect(abc).toMatch(/G/);
+  });
+
+  test('buildCleanupScorePreviewAbc omits key-signature accidentals', function() {
+    const abc = buildCleanupScorePreviewAbc([
+      {
+        id: 1,
+        notes: [
+          { start: 0, end: 0.5, midi: 66 },
+          { start: 0.5, end: 1, midi: 67 },
+        ],
+        isDrum: false,
+        program: 0,
+        key: 'G',
+      },
+    ], { tempoBpm: 120, meter: '4/4', key: 'G', slotsPerBeat: 2, noteLength: '1/8' });
+    expect(abc).toContain('K:G');
+    expect(abc).toMatch(/F2 G2/);
+    expect(abc).not.toMatch(/\^F/);
+  });
 });

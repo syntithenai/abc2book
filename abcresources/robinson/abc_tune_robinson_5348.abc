@@ -1,0 +1,22 @@
+X:109
+T:Sicilienne. CF (mf07396) ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.320 (mf07396) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Monferrina
+M:6/8
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"ezc (eag) | ezc (eag) | "G7"fze fzc' | ("C"g3e)z2 | ezc (eag) | ezc (eag) | "D"^fzd (fba) |1 
+"G7"gag fed :|2 "G"gz2gz2 |] [P:B] "G7"gz(a g)z(f | "C"e)z(d c)z.B | .c.e.g (a2g) | Gce (f2e) | "Dm"ez(f e)z(d | 
+"G7"c)zB ezd |  "C"c2d c2d | c2e ef^f | "G7"gz(a g)z(f | "C"e)z(d c)z.B | .c.e.g !>!a2g | Gce !>!f2e | 
+"Dm"ed.aa3 | ("C"dc).gg3 | "G7"gag fed | "C"cz2 "_Fine"c"_>Teil A"z2 |] [P:C] [K:F] "F"f2f a2a | c'2c'a2a | 
+"C7"g2g gag | "F"f2a c'2a | f2f a2a | c'2c' a2a | "C7"g2g gag | gze cze | "F"f2f a2a | 
+c'2c' a2a | "C7"g2g c'2a | "F"f2f a2a | "Bb"b2b d'2d' | "C7"c'2c' c'bg | "F"fz2f"_>Teil A"z2 |] 
+W: Sicilienne (Monferrina)
+% mf07396
+% July 26, 2017

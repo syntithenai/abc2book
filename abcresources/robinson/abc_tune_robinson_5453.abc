@@ -1,0 +1,20 @@
+X:204
+T:Immensee (Schottisch) CGF (st06528) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.193 (st06528) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+(d [P:A] |: "C"c)(e c)(e | "Dm"d)(f d)(f | "G7"d)e dB | "C"d/c/B/A/ G(e | c)e c(e | "Dm"d)(f d)(f | 
+"G7"d)e dB |1 "C"ce ce :|2 "C"ce cc/e/ |: [P:B]  [K:G] "D7"d^c/d/ A^A | "G"B/^A/B G>B | "D7"AD {/B}AD | {/A}"G"GD G/A/B/c/ | 
+"D7"d/^c/d A^A | "G"B/^A/B G>B | "D7"Af/e/ d/c/B/A/ |1 "G"GB Gc/e/ :|2 "G"GB G"_>Teil A"e |: [P:C] [K:F] "F"cc cf | 
+c3A | "C7"c3G | "F"A3c | cc cf | c3A | "C7"cB AG | "F"F2zA | "G7"GG A=B | 
+"C"c2=Bc | "G7"d2 =BG | "C"e2zc | "F"cc cf |  c3A | "C7"cB AG |1 "F"FA Fc :|2 "F"FA Fz |] 
+% st06528 (H 226/TN 28)
+% 20 Jan, 2017

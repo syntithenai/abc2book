@@ -1,0 +1,22 @@
+X:1
+T:Mazurka  FBb (mz07825)  ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.190  (mz07825) orig. F,Bb
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABCA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+cB [P:A]  |:(3"F"Acfa2c2 | "Bb"e2 {/e}d>^cd2 | "C7"b2 {/f}e>de2 | "F"g2f>ef2 | (3Acfa2c2 |"Bb" e2 {/e}d>^cd2 | 
+"C7"b2Te2de |1 "F"f2f2cB :|2 "F"f2f2z2 |: [P:B] "C7"g2 (a/g/^f/g/) b2 | "F"a2 (b/a/g/a/)c'2 | ("C7"bg e).c .d.e | 
+{/g}"F"f>e g>fa2 | "C7"g2 (a/g/^f/g/) b2 | "F"a2 (b/a/g/a/)c'2 | ("C7"bg e).c .d.e |1 "F"f2f2z2 :|2 "F"f2f2Bd || [K:Bb] [P:C] "Bb"f4g2 | 
+"F7"Tf2e>de2 | Tf2e>de2 | "Bb" Tg2 {/g}f>=e fd | f4g2 | "F7" Tf2e>de2 | f2 e>d ec | "Bb"B2b2"_>Teil A"cB |] 
+W:
+%W:Parts: ABCA
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% mz07825
+% July 31, 2018

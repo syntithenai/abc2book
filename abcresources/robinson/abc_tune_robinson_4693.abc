@@ -1,0 +1,15 @@
+X:112
+T: Ländler  EbBb (LD06010)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.300 (LD06010) orig. Eb,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:Eb major
+EE | ("Eb"EG) Be Ge | "Bb7"dF BdA2 | (dF) Bd Ad | ("Eb"eG) Beg2 | EG Be Ge | "Bb7"dF BdA2 | dF Bd Ad | 
+"Eb"e2z2BB || "Bb7"B3AA2 | "Eb"G2B4 | "Bb7"D2A3D | "Eb"EG Be dc | "Bb7"cB A3D | "Eb"E2G3e | "Bb7"Bd Ad Ad | "Eb"e2z2z2 || [K:Bb]
+"Bb"=EF FB df | "Eb"^FG GC E2 | "F7"=EF fF _e2 | "Bb"dA BdF2 | =EF EF EF | "Eb"^FG FG FG | "F7"^GA GA GA | "Bb"B2z2 ((3fef) || 
+"F7"gf eA cF | "Bb"dA BDF2 | "F7"CA GF EA | "Bb"BD FdB2 | "F7"gf eA cF | "Bb"dA BDF2 | "F7"EE cF eA | "Bb"B2z2z2 |]

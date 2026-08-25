@@ -1,0 +1,14 @@
+X:42
+T: L\"andler 1870/75  C (LD08991)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.43 (LD08991) orig. C-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+EG |: "C"C2EG ce | "G7"g2fGB2 | D2GB df | "C"ag eGc2 | C2EG ce | "G7"g2fGB2 | DG Bd fB |1 "C"c2z2EG :|2 
+"C"c2z2z2 |: "G7"DG Bdf2 | "C"EG ceg2 | "G7"ag fG df | "C"ag eGc2 | "G7"DG Bdf2 | "C"EG ceg2 | "G7"ag fA Bd | "C"c2z2z2 :| 
+% LD08991

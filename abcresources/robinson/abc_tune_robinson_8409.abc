@@ -1,0 +1,32 @@
+X: 5
+T:Kinrara Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 2
+K:Bb major
+%%staves { 1 2 }
+F | \
+B>cBd FB G/F/E/D/ | B<FB>d c<C-CA | \
+!trill!B>cBd FB G/F/E/D/ | E<g !trill!f>e dB-B :|
+F | \
+df e/d/c/B/ bBeg | !trill!f>g e/d/c/B/ {dc}d<c- cd/e/ | \
+fBdB gBeg | FB {d}!trill!(cB/c/) {Bc}dBBd |
+fg/a/ (bB) gBfB | e>c {e}d{c}B Ac({dcB}cd) | \
+B<F G<B F<B G/F/E/D/ | E<g {g}!trill!f>e d<B B \
+|]
+V:2 clef=bass octave=-2
+z |\
+L:1/4
+BBBB | BBcc | BBBB | efBb/:| \
+z/ |\
+bbbe | dBFF | BBee | fFBB | \
+Bded | cBFF | dedB | ef Bb/ |]
+%%vskip .15cm
+%%begintext
+N.B. This Strathspey was Composed by Wm Marshall for the Duchess of Gordon, but is Published by Mr. Gow in his 4th Book, where he has changed its name, and called it the Countess of Dalkeith.
+%%endtext

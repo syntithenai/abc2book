@@ -1,0 +1,16 @@
+X:252
+T: Walzer FBb (wz02094)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.311 (wz02094) orig. F,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/8
+K:F major
+AB |: ("F"c2a2)a2 | "tr""C7"a2g2g2 | "tr""F"g2f2f2 | f4c'c' | ("C"c'2e2)e2 |1 e4c'c' | "F"c'2f2f2 | f4AB :|2 e2a2g2 | 
+"F"f3ff2 | f2z2cc |: "C7"cd ef ga | ba gf ed | c2c'c'c'2 | c'2z2c'2 | b4d2 | c2 dc dc | "F"a4f2 | 
+c2dc dc | "C7"g3ee2 | c2dc dc | "F"a3ff2 | ag fe dc | "C7"B4c2 | z2dc dc | "F"A4c2 | z2dc dc | 
+"C7"g3ee2 | c2d2e2 | "F"f3ff2 | f2.d2._e2 || [K:Bb] "Bb"f6 | b6 | ("F7"a6 | a2)c2d2 | e6 | g6 | 
+("Bb"f6 | f2)d2e2 | f6 | d'6 | ("Cm"c'6 | c'2)g2b2 | "F7"a4 ba | g4a2 | ("Bb"b6 | b2)z2z2 |] 
+% wz02094  (Nov 2, 2016)

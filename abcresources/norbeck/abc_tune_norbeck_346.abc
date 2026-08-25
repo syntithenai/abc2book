@@ -1,0 +1,25 @@
+X:6
+T:Queen of the Rushes, The
+R:jig
+H:Sometimes played with =c all the way (Dmix).
+H:Related to The Humours of Ennistymon, #142, Coppers and Brass #31
+H:Derived from "Greensleeves" (see also #371)
+D:Planxty
+Z:id:hn-jig-6
+M:6/8
+K:D
+AG |: F2D DEF | G2E EFG | F2D DAF | GED DAG |
+F2D DEF | G2E EFG | ABA GEA |1 DED DAG :|2 DED D2B || 
+|: c2A Bcd | ecA AGE | d2e fed | ecA A2B |
+c2A Bcd | ecA AGE | ~F3 GEA |1 DED D2B :|2 DED DFG ||
+|: ~A3 dAF | ~A3 dAF | ~G3 EFG | EFG EFG |
+~A3 dAF | ~A3 dAG | ~F3 GEA |1 DED DFG :|2 DED D ||
+P:variations
+AG |: F2D DAF | G2E EDE | F2D DAF | GED DAG |
+F2D DAF | G2E EFG | ABA GEA |1 DED DAG :|2 DED D2B || 
+|: c2A Bcd | ecA AGE | d2e fed | ecA A2B |
+c2A Bcd | ecA AGE | FAF GEA |1 DED D2B :|2 DED DFG ||
+~A3 dAF | ~A3 dAF | ~G3 EGE | =cEE EFG |
+~A3 dAF | ~A3 dAG | FAF GEA | DED D2G |
+~A3 dAF | ~A3 dAF | ~G3 EGE | =cBc EFG |
+~A3 dAF | ~A3 dAG | FAF GEA | DED D ||

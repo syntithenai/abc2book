@@ -1,0 +1,14 @@
+X:221
+T:Schwobelyseli (Schottisch) CGF (st04908)
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+Gc |: "C"!>!e4!>!e4 | e2^de f2e2 | "G7"d3^c d3=c | B2A2G4 | "C"!>!e4!>!e4 | e2^de f2e2 | "G7"d3^c d2B2 |1 "C"c2c2 c2Gc :|2 "C"c2c2 c2z2 || [K:Gmaj]
+|: "G"!>!d4!>!d4 | d2^cd e2d2 | "D7"c3B c2B2 | A2G2F4 | "G"!>!d4!>!d4 | d2^cd e2d2 | "D7"c3B c2f2 |1 "G"g2g2 g2z2 :|2 "G7"g4"_>Teil A"f2=f2 || [K:Fmaj]
+"F"a2cc c2c2 | "Dm"f3A A2A2 | "C7"GABc defg | "F"a2f2c4 | a2cc c2c2 | "Dm"f3A A2A2 | "G7"=Bcde fagf | "C"e2d2c4 | 
+"F"a2cc c2c2 | "Dm"f3A A2A2 | "C7"GABc defg | "F"a2f2c4 | "Gm"d2GG d2G2 | "F/C"c2FF c2F2 | "C7"EFGA Bcde | "F"f2f2 f2z2 |] 
+W:P: ABAC
+% June 12, 2016
+%%partsbox
+%%MIDI program 21

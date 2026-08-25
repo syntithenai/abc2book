@@ -1,0 +1,28 @@
+X:16
+T: Obdesseler  Bb (trad.)
+T:Naturjuiz
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+C:
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjuiz
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A]  F/D/ | d f/d/ F/f/ | c f/e/ F/d/ | B2F | D/F/ B/d/ F/f/ | 
+c2 F/>F/ | E/F/ e/d/ F/c/ | B>A B/c/ | !fermata!d2 F/D/ | d f/d/ F/f/ | 
+c f/e/ F/d/ | B2 F | D/F/ B/d/ F/f/ | c2 F/>F/ | E/F/ "riterdando" e/d/ F/c/ | (B3 | B)z || 
+[P:B] f | c>F e/d/ | c f/e/ F/f/ | B2 F/>B/ | D/F/ B/d/ F/f/ | 
+c2 F/>A/ | E/F/ e/d/ F/c/ | B>A B/c/ | !fermata!d2 f | c>F e/d/ | c f/e/ F/f/ | 
+B2 F/>B/ | D/F/ B/d/ F/f/ | c2 F/>A/ | E/F/ "riterdando"  e/d/ F/c/ | (B3 | B) z |] 
+T:Variante zu Teil B  (nach Hrch. Leuthold)
+[P:B2] c>f e/d/ | c f/e/ F/d/ | B>d F/B/ | D B/D/ F/f/ | c>F F/c/ | E/F/ e/d/ F/c/ | B>A B/c/ | d2f | 
+c>f e/d/ | c f/e/ F/d/ | B>d F/B/ | D B/D/ F/f/ | c>F F/c/ | E/F/ e/d/ F/c/ | (B3 | B2)z |] 
+W: Parts: A-B-A-B
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-07
+W:http://www.naturjodler.ch/tradition-1.htm  (with AUDIO)
+%April 21, 2018

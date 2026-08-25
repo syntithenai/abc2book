@@ -1,0 +1,23 @@
+X:145
+T:Rondeau en Passedouble  C (ABCDEA) (pr09153)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.176f (pr09153) orig. C,G
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABCDEA
+R:PasRedouble
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+ce [P:A] |: "C"g2ge c2ce | "G7"d2dB G2gf | "C"e2ed "D7"c2de | "G"d2^fg G2ce | "C"g2ge c2ce | "G7"d2dB G2gf | "C"e2ge "G7"d2fd |1
+"C"c4z2cd :|2 "C"c4"_Fine"z2 d^c || [P:B] "G7"d2d^c d2B2 | "C"c2e2 g2e^c | "G7"d2d^c d2B2 | "C"c4G2d^c | "G7"d2d^c d2B2 | "C"c2e2 "A7"g2e^c | 
+"Dm"d2d^c "G7"d2B2 | "C"c4z2e^d || [P:C] "E7"e2e^d e2^g2 | "Am"abc'd' e'd'c'b | "A7/C#"a2ba ag^fg | "D"^f4z2dc | "G"Bcde de^fg | 
+"D7"g^fed dcBA | "G"Bded "C"c'bag | "D7"^fgag d2dc || [P:D] "G"BdG2 "C"ceG2 | "G7"BdG2 "C"ceG2 | "G7"dg"C"ec' "D7"ba^fa | "G".g4 "_ ostinato"BGcA | 
+.d4 BGcA | .d4 dBec | .f4 dBec | fdec fdec | fedc BAGB | "C"c4e2g2 | "G"d4"E7"e4 | "Am"c2B2 "D7"A2d2 | "G"BcdB GABG | 
+"C"c4e2g2 | "G"d4"E7"e4 | "Am"c2B2 "F"ABcd | "E"e8 | "A7"e4 ^c2A2 | "Dm"d4a4 | "A7"e2^c2 A2c2 | "Dm"defe dedc | "G7"B4 d2G2 | "C"c4"G7/B"d4 | 
+"C"e2g2 "D7"^fgaf | "G"g4 "D7"^fgaf | "G"g4 "D7"ac'a^f | "G"g4z4 | d2d2 "C/G"e2e2 | "G7"f4z4 | f2f2 "C/G"e2e2 | "G7"d4z2ce [P:E] |: "C"g2ge c2ce | 
+"G7"d2dB G2gf | "C"e2ed "D7"c2de | "G"d2^fg G2ed | "C"e2ed e2g2 | "G7"f2d2 B2gf | "C/G"e2e2 {/e}"G7"dcde |1 "C"c4z2ce :|2 "C"c4"_>Teil A"z4 |]  
+% W:Parts: ABCDE-A
+% pr09153 (PR = Pas Redouble)

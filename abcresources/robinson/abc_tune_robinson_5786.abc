@@ -1,0 +1,31 @@
+X:6
+T:Furggi-Jödeli  Bb  ABCD
+T:Edy Kuster  (* 24.12.1939)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] !mf!B,D | F3D Fd | B4 !p!B,D | F3D Ff | d4 !mf!ed | c3E Ff | c3f cd | 
+B3D Fd | B3d cB | A3c AG | F3f cf | B3d BG | F4 !mf!B,D | 
+F3D Fd | B4 !p!B,D | F3D Ff | d4 !mf!ed | c3E Ff | c3f cd | (B6 | B2)z2 ||
+M:4/4
+[P:B]  FD | Ec Ac EG FE | Dd BGF2 dB | f2ec AF Fg | 
+f2dc!breath!B2FD | Ec Ac EG FE | Dd BGF2dB | f2ec fe cA | B4z4 || 
+M:3/4
+[P:C] !mf!B,D | F3D Fd | B4 !p!B,D | F3D Ff | d4 !mf!ed | c3E Ff | c3f cd | (B6 | B2)z2 || 
+M:4/4
+[P:D] FF | f2eF dF Ac | BD FB dc Bd | cE Ac ed cA | BD FdB2FF | 
+f2eF dF Ac | BD FB dc Bd | cE Ac ed cA | B4z2F2 | c4f4 | B8 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser. Angaben: Edy Kuster
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 19-03
+W:http://www.naturjodler.ch/code 19.htm  (with AUDIO)
+%May 17, 2018

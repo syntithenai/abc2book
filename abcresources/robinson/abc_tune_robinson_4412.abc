@@ -1,0 +1,17 @@
+X: 168
+T: Schottisch CGF (st05322)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.217 (st05322) orig. C,G,F-Dur
+S: "Plötsch Musig" Guggisberg (Bern) S.186ff
+S: (Hopser-Schottisch-Leuk), Bern 23, Klarinette (H.C.)
+%%partsbox
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+P:ABAC
+K:C major
+[P:A] "C"e/e/e ag | c/c/c fe | "G7"d/d/d ed | "C"dcG2 | e/e/e ag | c/c/c fe | "G7"d/d/d e>d | "C"cc cz :: [P:B] [K:G] "G"B3d | bb .g2 | 
+B3d | "D7"gg .f2 | A3c | ff .e>d | ff .e>d | "G"bb g2 | B3d | bb gz | B3d | "D7"gg fz | 
+A3c | ff ec | d/d/d b>a | "G"gg g"_> Teil A"z ::[P:C] [K:F] "F"A3c | "Bb"B3d | "F"c3a | fc dc | "C7"B3g | 
+ec dc | "F"c3a | f2 "C7"c>B | "F"A3c | "Bb"B3d | "F"c3a | fc dc | "C7"B3g | ec de | "F".f2"C7"e2 | "F"ff fz :|

@@ -1,0 +1,29 @@
+X:411
+T:Duett by Pleyel.2voices. RH.411
+T:Pleyel,Duett by. RH.411
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:{gfef}
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:2/4
+L:1/16
+Q:1/4=100
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] a3b a3c'|f3g f2g2|d2d2 efge|(d4 c2)a2|
+[V:2] F4 z2A2|A3B Adc=c|B2A2 G2^G2|A2A2 AGFE|
+%
+[V:1] a3b a2c'2|f3g f2a2|efgb afec|c4 d2z2||
+[V:2] F4 z2A2|A3B A2F2|G2eg fAGF|DAFA F2z2||
+%
+[V:1] g2g2 g2bg|f3"*"g a3d'|f3a gefd|(f2gf) e4|
+[V:2] B2B2 cege|d3e f2FA|d2e2 c2dd|(d3e/d/) c2A2|
+%
+[V:1] g2g2 g2bg|f3g a2fa|cfBd fd'^gb|g2c2 defg|]
+[V:2] B2B2 cege|d3e f2dc|B2B2 B2d2|c2A2 AGFE|]
+W:* had to remove grace notes {gfef}.

@@ -1,0 +1,44 @@
+X:1
+T:Naturjodel. Zäuerli. A-Dur
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=56
+R:Naturjodel
+M:4/4
+L:1/4
+O:Switzerland
+K:A major
+[P:A] (3e/^d/e/ | f>e^dE | "A"e>AcE | "E7"e>F^dE | [M:6/4] "A"e>Ac!breath!A2  (3e/^d/e/ | 
+w:jo-o-o  o-ho-o ja  ho ja  o ja  jo ja o ja  ho jo ho ja  jo-o-o
+[M:4/4] f>e^dF | "A"e>AcE | "E7"e>F^dE  | "A"c2A2 |]  
+w: o-ho-o ja  ho ja o ja  jo ja o ja  ho ja  
+M:6/4 
+[P:B] f>GeF/F/ d e/(f/ | "A"f>)A eAcf | "E7"e>G deGf | "A"e>A ceA2 | 
+w:jo-a ho ja-li o o-o- jo ja o ja o jo  ho ja o o ja jo  o jo o o ja 
+"E7"f>GeF/F/ d e/(f/ | "A"f>)A eAcf | "E7"e>G deGf | "A"A4z2 |] 
+w: jo-a ho ja-li o o-o- jo ja o ja o jo  ho ja o o ja jo  o 
+M:4/4
+[P:C] G/ | f>e ^dE | "A"e>AcE | "E7"e>F^dE | [M:5/4] "A"e>Ac !fermata!A z/G/ 
+w:ja  o o o ja  ho ja o ja  jo ja o ja  ho ja o ja ja 
+[M:4/4] "E7"f>e ^dF | "A"e>AcE | "E7"e>F^dE | "A"c2A2 |]
+w: o o o ja  ho ja o ja  jo ja o ja  ho ja
+L:1/8
+Q:1/4=104
+[P:D] fe | "E7"egde G2 fe | "A"eace A2fe | "E7"egde G2 fe | "A"eace !fermata!A2 fe | 
+w:Ja-li  jo-u-o-li jo ja-li   jo-u-o-li jo ja-li   jo-u-o-li jo ja-li   jo-u-o-li jo   ja-li 
+"E7"egde G2 fe | "A"eace A2fe | "E7"egde GfeG |  "A"A6z2 |] 
+w:jo-u-o-li jo ja-li  jo-u-o-li jo ja-li  jo-u-o-li o-u-dü-o  jo 
+W:
+%W:Parts: ABCD
+W: Jodler Ernst Schiess, Jodelklub Alpeblueme, Herisau
+W:LP "Bi ös im Appezeller-Land" ; His Master's Voice ZFLP 110 (1970-1975)
+W:
+W:Teile ABC sind sennische Brustlage Zäuerli. Teil D ein Polka-Jödeli. 
+W:Weitere Quellen:
+W:MC041 "Am Jodlerobed", Jodlerklub Herisau-Säge, 30 - 902 (1985)W:
+W:
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/Naturjodel.pdf
+W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #538 (LP078)
+% Feb. 18 2019

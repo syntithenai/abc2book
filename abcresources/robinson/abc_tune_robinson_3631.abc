@@ -1,0 +1,15 @@
+X:175
+T: Polka FCBb (pk05151)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.378 (pk05151) orig. F,C,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"FAA2 Acc2 | caa2f4 | "C7"EGG2 GBB2 | Bbb2e4 | "F"FAA2 Acc2 | caa2f4 | "C7"gbb2 bee2 | "F"f2f2 f2z2 :| [K:C]
+[P:B] |: "C"Gcc2 eceg | "G7"gffa B4 |GBB2 dGdf | "C"feegc4 | Gcc2 eceg | "G7"gffa B4 | dgg2 bagB | "C"c2c2 c2z2 :| [K:F]
+[P:C] |: "C7"egg2 gbb2 | "F"baa2f4 | "C7"fag2 !>!e4 | "F"fgf2 !>!A4 | "C7"egg2 gbb2 | "F"baa2 f4 | faf2 "C7"ege2 | "F"f2f2 f2z2 :| [K:Bb]
+[P:D] |: "Bb"FBB2 B2B2 | d2f2 b4 | d'bb2 bfd2 | "F7"b2a2a4 | FAA2 ABc2 | cde2"Eb"g4 | "F7"gfe2 edc2 | "Bb"B2B2 B2z2 :| 
+% May28, 2016

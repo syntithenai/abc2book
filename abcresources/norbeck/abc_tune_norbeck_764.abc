@@ -1,0 +1,26 @@
+X:424
+T:Seanamhac Tube Station
+R:jig
+C:John Carty
+H:Also in Gdor, #423
+D:Altan: Local Ground
+Z:id:hn-jig-424
+M:6/8
+L:1/8
+K:Ador
+AGE EDE | ABd ~e3 | edB dBG | AGE DEG |
+AGE EDE | ABd ~e3 | edB dBG |1 ~A3 A2B :|2 ~A3 ABd ||
+|: ~e3 edB | ~d3 dBd | edB dBG |
+[1 AGE DBd | ~e3 edB | ~d3 age | edB dBG | ~A3 ABd :|
+[2 AGE DEG | AGE EDE | ABd ~e3 | edB dBG | ~A3 A2B || 
+P:variations
+|: ~A3 AGE | ABd ~e3 | edB dBG | AGE D3 |
+~A3 AGE | ABd ~e3 | edB dBG |1 ~A3 A2B :|2 ~A3 ABd ||
+|: ~e3 edB | ~d3 dBd | edB dBG |
+[1 AGE DBd | ~e3 edB | ~d3 dBd | edB dBG | ~A3 ABd :|
+[2 AGE DEG | AGE AGE | AGE edB | edB dBG | ~A3 A2B ||
+P:optional third part
+e3 a3 | g2a b2g | age d2e | dBA GBd |
+~a3 age | ~g3 abg | age dBG | ~A3 ABd |
+~e3 ~a3 | g2a bag | age d2e | dBA GED |
+AGE AGE | ABd e2f | edB dBG | A2B c2B ||

@@ -1,0 +1,18 @@
+X:249
+T:Schottisch. CGF (st07369) ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.315 (st07369) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "G7"d/e/f ba |  "C"ag e>e |  "G7"gf aB |  {/d}"C"c/B/c/d/ ec  | "Dm"d/e/f "G7"ba |  "C"ag e>e |   "G7"gf ed | "C"cc c"_Fine"z |] [P:B] [K:G] 
+|: "G"d'2 c'/b/a/g/ | {/b}"Am"a^g ab | "D7"d'c'/a/ fe | ("G"ed)d2 | d'2 c'/b/a/g/ | {/b}"Am"a^g ab | "D7"d'c' ba | "G"gb g"_>Teil A"z :| [P:C] [K:F] 
+"F".c'.f .f.a | ("Gm"ag)g2 | "C7".d'.d .d.e | {/g}("F"f/e/f/g/) af | c'f fa | ("Gm"ag)g2 | "C7".d'.d .e.c | "F"fa fz |] 
+% st07369
+% July 22, 2017

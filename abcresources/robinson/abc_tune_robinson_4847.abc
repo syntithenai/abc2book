@@ -1,0 +1,18 @@
+X:250
+T:Walliser Marsch (Schottisch)  FBb (st00844)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.194 (st00844) orig. F,Bb-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+"F"f2a2 | "Bb"b>c' d'd' | "C7".c'2!>!e2 | "F"f2z2 |: "F"a2a2 | a2a2 | a>g fd' | 
+c'3=b | "C7"_b2b2 | b2b2 | e'>d' c'b | d'c' b>g | "F"a2a2 | a2a2 | 
+a>g fd' | c'3f | "C"e>e ee | ef g>f | "G7"e>d e>d |1 "C"c2g2 :|2 "C"c2z2 || 
+"C7"(g4 | e2) g>b |  "F"(a4 | f2)c>f | "C7"e2 e>f | g2 c'>b | "F"b3a | f2z2 | "C7"(g4 | 
+e2) gb | "F"(a4 | f2)c>f | "Bb"f3e/d/ | "F"c3b/a/ | "C7"gc de | "F"ff/"_Fine"f/f ((3f/g/a/) || [K:Bb] 
+"Bb"b2b2 | b2d>e || "Bb"(f4 | f2) f>^f | "Eb"(g4 | g2)g^g | (g4 | g2) g>^g | "F7"a2c'2 | g2a2 | "Bb"b3a/g/ | 
+.f2d>f | (f4 | f2) f>^f | "Eb"(g4 | g2)g^g | "F7"a2e'2 | g2a2 | "Bb"(b4 | b2) "_d.C."z |] 
+% st00844

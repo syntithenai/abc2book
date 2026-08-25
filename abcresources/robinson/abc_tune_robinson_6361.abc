@@ -1,0 +1,27 @@
+X:1
+T:Walzer  BbF (wz06992)
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.178  (wz06992) orig. Bb,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:Bb major
+(=B [P:A]|: "F7"c)  z(?B | c) zA | G3 | Cz(=B | c)zf | ("Bb"e3 | d)z^c | dz^c | 
+dzB | (F3 | D)z(B | "F"A)z(c | "C7".G)zc |1 ("F"F3 | F)z=B :|2 ("F"F3 | F)zz || [K:F] 
+[P:B] |: "F".A.B.=B | {/d}c=Bc | agf | "C7"fee | G^GA | {/c}BAB | gfe | "F"dcc | .A.B.=B | 
+{/d}c=Bc |agf | "C7"edc | "Bb"b/a/ g/f/ e/d/ | "F/C"dcc | "C7"=B/c/a>g |1 "F"fzz :|2 "F"fzF || [K:Bb] 
+[P:C] |: "Bb"F{/c}BA | (B2F) | F{/e}d^c | (d2B) | B{/g}f=e | fgd | "F7"fee | e2F | 
+F{/d}c=B | c2F | F{/f}ed | e2d | cg>f | cg>f | "Bb"B3 |1 BzF :|2 Bzz ||  
+[P:D] |: "Eb"gzg | gfe | "Bb"dzd | dcB | "F7"AzA | AGF | "Bb"BD/F/ B/d/ | f3 | 
+"Eb"gzg | gfe | "Bb"dzd | dcB | "F7"AGF | Fdc | "Bb"B3 |1 Bc/d/ e/f/ :|2 Bzz |] 
+W:
+%W:Parts: ABCD
+%W:
+W:Anmerkung H.C.: Möhlin
+% wz06992
+% June 20, 2018

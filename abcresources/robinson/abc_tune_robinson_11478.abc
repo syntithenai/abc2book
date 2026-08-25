@@ -1,0 +1,32 @@
+X:49
+T:Trumpet Minuet,A.2voices. BC.49
+M:3/4
+L:1/8
+Q:1/4=120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnal
+B:Village Music project, Cooke, Benjamin
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/cooke_b.abc
+K:D major
+[V:1]D2 DDDD|F2 FFFF|A2 AAAA|d4 e2|\
+fe d2 e2|fe d2 e2|f2 gfed|edcB A2|!
+[V:2]z6|D2 DDDD|F2 FDFA|d2 F2 A2|\
+d2 F2 A2|d2 F2 A2|d2 edcB|A6|!
+%
+[V:1]D2 DDDD|F2 FFFF|A2 AAAA|d4 e2|\
+fe d2 e2|fe d2e2|f2 gfef|d6||!
+[V:2]z6|D2 DDDD|F2 FDFA|F4 A2|\
+d2 F2 A2|d2 F2 A2|d2 ed A2|F6||!
+%
+[V:1]({fg}a2) aaaa|a2 bagf|~g2 gggg|g2 agfe|\
+f2 ffff|~ f2 fg a2|e2 eeee|e6|!
+[V:2]f2 ffff|~ f2 gfed|e2 eeee|~ e2 fedc|\
+d2 dddd|d2 de f2|A2AAAA|A6|!
+%
+[V:1]D2 DDDD|F2 FFFF|A2 AAAA|d4 e2|\
+fe d2 e2|fe d2 e2|fagfef|d6|]
+[V:2]z6|D2 DDDD|F2 FDFA|F4 A2|\
+d2 F2 A2|d2 F2 A2|d2 A2A2|D6|]

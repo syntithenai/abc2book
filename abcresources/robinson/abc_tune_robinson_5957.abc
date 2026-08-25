@@ -1,0 +1,20 @@
+X:1
+T:Galopp  FC (gL06815)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.14f  (gL06815) orig. F,C
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"cc "Bb"dd | "F"c>a a>c | "C7"B>g g>B | "F"Afc2 | cc "Bb"dd | "F"c>a a>c | "C7"B>g g>e | 
+"F"fa fz :: [P:B] [K:C] ("G7"g/^f/g) (=f/e/f) | "C"ea g>e | "G7"dg f>d | "C"e/f/g/a/g2 | ("G7"g/^f/g) (=f/e/f) | "C"ea g>e | 
+"G7"dg g/f/e/d/ | "C"ce c"_>Teil A"z :| [P:C] "C"e3g | c'3b | d'c' eg | !>!"Dm"b2 !>!a2 | ("G7"g/^f/g) B>d | df ba | 
+("C"g/^f/g)  c>e | ec' ba | e3g | c'3b | d'c' eg | !>!"Dm"b2!>!a2 | ("G7"a/^g/a) da | ("C"g/^f/g) ce | "G7"gf e>d | "C"ce c"_Fine"z |] 
+%W:Parts: ABAC
+% gL06815 (Heft 235/TN 24)
+% Dec 19, 2017

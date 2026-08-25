@@ -1,0 +1,18 @@
+X:36
+T:Engadiner Walzer GDC (wz02087) 
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.308 (wz02087) orig. G,D,C
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+K:G major
+Bc [P:A] | "G"d3 | edB | "D7"c>dc | zAB | c3 | dcA | "G"B>cB | zBc | d3 | gf=f | 
+"C"e>fe | zfe | "G/D"d>ed | "D7"zcF | "G"G>GG | Gzz || [P:B] [K:D]  "D"a>aa | agf | "A7"fe>f | g2z | 
+b>bb | bag | "D"gf>g | a2z | a>aa | agf | "G"b>bb | bag | "D/A"baf | "A7"agc | 
+"D"d>dd | Bz"_>Teil A"c [P:C] |: [K:C] "C"g3 | a2b | c'3 | b2c' |  "G7"b3 | a2b |  "C"a3 | g2z | g^fg | 
+b2a | "Dm"g3 | f2z |1 "G7"fef | a2g | "C"f3 | e2z :|2 "F"c'ba | "G7"ge>d | "C"c>cc |  c2z |] 
+% wz02087  (Oct 9, 2016)

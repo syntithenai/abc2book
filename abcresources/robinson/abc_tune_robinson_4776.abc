@@ -1,0 +1,15 @@
+X:186
+T: Riebgärteler Mazurka  GC (mz05862)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.320 (mz05862) orig. G,C-Dur
+S: "Riebgärteler", Tänze aus Halisberg. S.319-338
+S: Aus dem Repertoire von Johann und Melchior Zenger.
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:G major
+"G"B2d2e2 | "D7"d2cFA2 | Fd cF AF | "G"Ge BGB2 | B2d2e2 | "D7"d2cFA2 | Fd cA cf | "G"g2g2z2 ::
+"C"gfe2e2 | "G"dcB2B2 | "D7"cB Ac BA | "G"BAG4 | "C"gfe2e2 | "G"dcB2B2 | "D7"cB Ac BA | "G"G2G2z2 :: [K:C]
+"C"EGc2G2 | "G7"FGB2G2 | FG BG Bd | "C"e2c2c2 | EG c2G2 | "G7"FG B2G2 | FG BA Bd | "C"c2c2z2 :| 
+% mz05862

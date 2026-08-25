@@ -1,0 +1,23 @@
+X: 173
+T:Johnston's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 3
+K:E major
+%%staves {1 2}
+V:1
+E3/B/G3/B/ E3/B/e3/g/ | b/g3/!trill!f3/(e/ f3/)c/c3/e/ | \
+E3/B/G3/B/ E3/B/e3/g/ | b3/g/f3/g/ e/e/e e2 :|
+(e/f/g/a/) b3/e/ g3/e/b3/e/ | \
+                              d/B3/f3/B/ a3/B/f3/B/ |1
+(e/f/g/a/ b3/)e/ g3/e/b3/e/ | c3/a/!trill!g3/f/ e/e/e e2 :|2 \
+e3/g/f3/a/ g3/b/a3/g/ | (!trill!f3/e/f3/)g/ e/e/e e2 |]
+V:2 clef=bass octave=-2
+L:1/4
+eeee | bbff | eeee | Bbee :| \
+eeee | bbbb |1 cccc | abee :|2 eBea | bBee |]

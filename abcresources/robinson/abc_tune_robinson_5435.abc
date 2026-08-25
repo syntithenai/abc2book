@@ -1,0 +1,19 @@
+X:188
+T:Rheinländer BbFEb (RL06934) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.249 (RL06934) orig. Bb,F,Eb
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Reinländer
+M:2/4
+L:1/16
+O:Switzerland
+K:Bb major
+[P:A] "Bb"fdBF ddd2 | "F7"e2e2 A3F | F2FG A2c2 | "Bb"d2d2B4 | fdBF ddd2 | "F7"e2e2 A3F | F2FG A2c2 | "Bb"B2d2 B2z2 :| [K:F] 
+[P:B] |: "F"c2=Bc "C7"e2d2 | "F"dcAd c4 | "C7"BBB2 e2d2 | "F"d2c2c4 | c2=Bc "C7"e2d2 | "F"dcAd c4 | "Gm"BBB2 "C7"d2e2 | "F"f2f2 f2"_>Teil A"z2 :| [K:Eb] 
+[P:C] |: "Eb"BBB2 c2B2 | "Ab"ccc2 d2c2 | "Bb7"B2d2 f3a | "Eb"g2e2 BcB=A | BBB2 c2B2 | "Ab"ccc2 d2c2 | "Cm"e2dc gfe2 | "Bb7"d2ddd4 :| 
+[P:D] |: "Eb"GBe2 e2B2 | "Fm"FAd2 c4 | "Bb7"DFAd c2c2 | "Eb"EGBc B2B2 | GBe2 e2B2 | "Fm"FAd2 c4 | "Bb7"DFAd c2B2 | "Eb"E2G2 E2"_Fine"z2 :|  
+% RL06934
+% Apiril 14, 2017 (Karfreitag)

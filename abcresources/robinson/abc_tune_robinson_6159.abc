@@ -1,0 +1,22 @@
+X:1
+T:Polka  CF (pk07843)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.197  (pk07843) orig. C,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABCDABC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"gc'e2 egc2 | "G7"Bffed4 | fad2 dfB2 | "C"cdcB c2"_*"G2 | gc'e2 egc2 | "G7"Bffed4 | fad2 dfB2 | "C"c2c2 c2z2 ||  
+[P:B] "C"GeB2 c2eG | a2g2 gc'c'2 | "G7"b2df b2g2 | g2df a2g2 | "C"GeB2 c2ec | a2g2 gc'c'2 | "G7"b2a2 g3b | "C"c'2c'2 c'2z2 ||  [K:F] 
+[P:C] ("C7"cd).d2 (^de).e2 | ("F"ef).f2 c2a2 | ("C7"ab).b2 d2e2 | ("F"gf).f2 A2B2 | ("C7"cd).d2 (^de).e2 | ("F"ef).f2 c3a | ("C7"ab).b2 d2e2 | "F"f2f2 f2"_Fine"z2 || [K:C]
+[P:D] "C"g2f2 efga | gabc' "G7"b2d2 | ed^cd a2b2 | cBAB g2c2 | "C"dcBc efga | gabc' "G7"b2d2 | ed^cd a2b2 | c'bab "C""_>Teil A"c'2c'2 |] 
+W:
+%W:Parts: ABCD-ABC
+W:Anmerkung H.C.: Herznach/Fricktal
+%W:Anmerkung Hrsg,: *Teil A, Takt4, HC: g [?]
+% pk07843
+% July 22, 2018 (vedicpandits.org)

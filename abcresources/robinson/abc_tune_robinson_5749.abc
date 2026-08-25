@@ -1,0 +1,32 @@
+X:9
+T:Hobby-Juiz  Bb  ABAC
+T:Toni Vogler (2.4.1940)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>C | Ff | c>=B | cd | B>A | Bd | F>d | cB | A>_A | 
+Ac | FE/F/ | dc | B>A | Bd | !fermata! !breath! F2 | F>C | Ff | c>=B | cd | 
+B>A | Bd | F>d | cB | A>^G | Ac | FE/F/ | dc | !fermata!B2 || 
+L:1/8
+M:2/4
+[P:B] DF | F2f2 | d2cB | A2AB | c2F2 | f3e | d2c2 | d2dc | B2DE | F2f2 | d2cB | 
+e3f | e2Bc | d2f2 | d2c2 | B2Ac | !fermata! !breath! B2DE | F2f2 | d2cB | A2AB | c2F2 | f3e | 
+d2c2 | d2dc | B2DE | F2f2 | d2cB | e3f | e2Bc | d2f2 | d2c2 | B2Ac | !fermata! B4 || 
+L:1/8
+M:3/4
+[P:C] f dc | B2FF Fd | B2FF Fd | c2f2d2 | c4F2 | f3gf2 | e3dc2 | d4c2 | 
+B3f dc | B2FF Fd | B2FF Fd | c2f2d2 | c4F2 | f3gf2 | e2c2d2 | (B6 | B2)zf dc | 
+B2FF Fd | B2FF Fd | c2f2d2 | c4F2 | f3gf2 | e3dc2 | d4c2 | B3f dc | B2FF Fd | B2FF Fd | 
+c2f2d2 | c4F2 | f3gf2 | e2c2d2 | (B6 | B2)z2"_ä"F2 | "_je - dä   set"F3C F2 | "_es  Hob-by"f2d2c2 | ("_ha!____"B6 | B2)z2 |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:UJV-Naturjodelsammlung: Code-Nr: 16-05
+W:http://www.naturjodler.ch/code 16.htm  (with AUDIO)
+%May 11, 2018

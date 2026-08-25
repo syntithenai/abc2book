@@ -105,6 +105,38 @@ describe('searchLyricsLight', function() {
     expect(result.text).toContain('Rare bog')
   })
 
+  test('continues to remote lyrics when local title match has the wrong artist', async function() {
+    localAbcCollectionSearch.searchLocalCollection.mockReturnValue([{ name: 'Gumboots' }])
+    localAbcCollectionSearch.searchLocalCollectionLyrics.mockResolvedValue([{
+      text: 'D G Bm A',
+      lines: ['D G Bm A'],
+      stanzas: [],
+      title: 'Gumboots',
+      artist: 'John Clarke, alias Fred Dagg',
+      source: 'FolkTuneFinder',
+    }])
+    textSearchIndexUtils.isStrongLocalMatch.mockReturnValue(true)
+    lyricsOvhClient.searchLyricsOvhForArtists.mockResolvedValue([{
+      text: 'I was having this discussion\nIn a taxi heading downtown',
+      lines: ['I was having this discussion', 'In a taxi heading downtown'],
+      stanzas: [],
+      title: 'Gumboots',
+      artist: 'Paul Simon',
+      source: 'lyrics.ovh',
+      sourceUrl: 'https://api.lyrics.ovh/v1/Paul%20Simon/Gumboots',
+    }])
+
+    const result = await searchLyricsLight({
+      title: 'Gumboots',
+      artist: 'Paul Simon',
+      abcTools: {},
+    })
+
+    expect(lyricsOvhClient.searchLyricsOvhForArtists).toHaveBeenCalled()
+    expect(result.source).toBe('lyrics.ovh')
+    expect(result.text).toContain('taxi heading downtown')
+  })
+
   test('queries lyrics.ovh when local match is not strong', async function() {
     lyricsOvhClient.searchLyricsOvhForArtists.mockResolvedValue([{
       text: 'Yesterday\nAll my troubles seemed so far away',

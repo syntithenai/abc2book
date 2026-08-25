@@ -1159,7 +1159,7 @@ export function buildUnifiedBlocks(options) {
     })
     blocks = enrichBlocksWithNotationMarkerFlags(blocks, noteLines)
     const uniqueLyricSections = countFirstOccurrenceLyricSections(lyricSections)
-    if (uniqueLyricSections && uniqueLyricSections !== blocks.length) {
+    if (uniqueLyricSections > 1 && blocks.length > 1 && uniqueLyricSections !== blocks.length) {
       warnings.push(mergeFailure(
         'strain_lyric_count_mismatch',
         'Lyric sections and chord blocks differ — titles are approximate.'
@@ -1169,7 +1169,7 @@ export function buildUnifiedBlocks(options) {
   }
 
   const uniqueLyricSections = countFirstOccurrenceLyricSections(lyricSections)
-  if (uniqueLyricSections && uniqueLyricSections !== strains.length) {
+  if (uniqueLyricSections > 1 && strains.length > 1 && uniqueLyricSections !== strains.length) {
     warnings.push(mergeFailure(
       'strain_lyric_count_mismatch',
       'Lyric sections and melody strains differ — titles are approximate.'

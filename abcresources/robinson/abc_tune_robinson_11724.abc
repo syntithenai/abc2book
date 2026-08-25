@@ -1,0 +1,33 @@
+X:101
+T:Waltz. CJF.101
+R:Waltz
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:"From J.Johnson." is in title line. The 3rd note of 2nd
+N:bar was d2, not d1. No triplets are marked in the MS.
+N:Note marked * was d4. Last notes of 2nd & 3rd sections
+N:were G6 and e6 in MS. "C J Fox 1829" is written on the
+N:stave at the end. - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:3/8
+L:1/16
+Q:1/8=120
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+notC:"From J.Johnson.C J Fox 1829"
+K:G major
+d>c|B>dg>fa>g|b>gdzB2|((3cde) ((3fga) b>d'|c'>ba>gf>e|\
+d>gf>ga>g|b>gdzB2|(3cec (3AcA D>F|G4:|!
+|:G2|FAGABc|B>d d3g|gfedcB|BA A3G|\
+FAGABc|B>d d3g|gfagfe|d^cc2=c2|!
+B>dg>fa>g|b>g "*"dzB2|((3cde) ((3fga) b>d'|\
+c'>ba>gf>e|d>gf>ga>g|b>gdzd2|(3cec B>AG>F|G4:|!
+|:ga|b3agf|fe e2g2|fa^dfBd|e^defga|\
+b3agf|fe e2g2|(3faf (3^dfd B>d|e4:|!
+|:Bc|{e}d6|f2g2e2|^c2d2d2|d4c|\
+.c.d.e.f.g.a|edc2B2|B6{cB}|A4Bc|!
+{e}d6|egfagfe|d2^c2=c2|B2A2c2|\
+Bdgfed|cBAedF|F4EF|G4|]
+W:This shows why waltzes are written in 3/4 nowadays.

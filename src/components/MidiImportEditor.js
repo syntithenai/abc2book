@@ -195,6 +195,7 @@ export default function MidiImportEditor(props) {
       }) || abc;
       const candidates = abcTextToCandidates(abc, props.tunebook, props.book).map(function(c) {
         c.sourceKind = 'midi';
+        c.abc = abc;
         if (result.warnings && result.warnings.length) c.importWarnings = result.warnings.slice();
         c.midiImport = {
           strategy: result.strategy,
@@ -389,8 +390,10 @@ export default function MidiImportEditor(props) {
         trackColor={selectedVoice && selectedVoice.color}
         estimatedKey={(selectedVoice && selectedVoice.grid && selectedVoice.grid.estimatedKey) || 'C'}
         onKeyChange={function(key) {
-          if (!selectedVoice) return;
-          patchVoice(selectedVoice.id, { grid: { estimatedKey: key } });
+          if (!selectedVoice || !session) return;
+          let next = updateVoice(session, selectedVoice.id, { grid: { estimatedKey: key } });
+          next = updateSharedGrid(next, { estimatedKey: key });
+          patchSession(next);
         }}
         onFiltersChange={patchSelectedVoiceFilters}
         onGridChange={function(patch) {

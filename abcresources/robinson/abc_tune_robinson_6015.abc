@@ -1,0 +1,21 @@
+X:1
+T:Rosen ohne Dornen (Mazurka)  FCBb (mz07671)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.27  (mz07671) orig. F,C,Bb
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+A>c [P:A] |: "F"f>a g2f2 | "C7"e4c>e | g>b a2g2 | "F"f4 c>f | a>c' b2a2 | "Bb"g4 f>d | "C7"c>e a2g2 | "F"f2f2z2 :| [P:B] [K:C] 
+|: "C"eg ^fg ag | "G7"f>gb2b2 | df ef gf | "C"e>gc'2c'2 | eg ^fg ag | "Dm"f>ed2dc | "G7"Ba gf ed |1 "C"c2c2z2 :|2 "C"c2c2 A"_>Teil A">c || 
+[P:C] [K:Bb]  B>c | "Bb"d3^cd2 | "F7"e3de2 | "Bb"f4d'2 | b2z2fb | "F7"b>ae2e2 | a4g2 | "Bb"g>fd2d2 | 
+g4f2 | d3^cd2 | "F7"e3de2 | "Bb"f4d'2 | b2z2bg | "Cm"g>^fg2c'2 | "Bb"f=ef2b2 | "F7"ag fe dc | "Bb"B2B2 ba || 
+[P:D] |: "F7"ag ^fg ag | c'2c'2ag | "Bb"gf =ef gf | b2b2fb | "F7"a>g e2e2 | "Bb"g>fd2d2 | "F7"f>d d>c e>A | "Bb"B2B2"_Fine"z2 :| 
+%W:Parts: ABACD
+% mz07671
+% Dec 28, 2017 (Einzelkind vs. Großfamilie)

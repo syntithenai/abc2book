@@ -1,0 +1,19 @@
+X:84
+T:French Air. GS.084
+M:2/4
+L:1/8
+Q:1/2=60
+S:George Spencer m/s, Leeds,1831
+R:Air
+O:England
+A:Yorkshire - Leeds
+H:1831
+Z:vmp.Cherri Graebe
+B:Village Music project, Spencer, George
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/spencer.abc
+K:C major
+G | (c>B c)>d | .e>(e g)e | {e}(d^cde) | .c(a/2g/2) (^f/g/)(=f/d/) |!
+(c>B c)d | e>(e gf/2e/2) | {e}d^cd{f}e | =c3 g |!
+(g>B) .B(c/2d/2) | (d>c) .c(A | G).c (c{(dcBc)}d/2).e/2 | (^c2 d) G |!
+(=c>B c) .d | eg Hg {g^fag}{( gf)} e | (d>cd).e | c2 z .G |!
+(c>Bc)>(d | e)>(eg)(e | d)>(dg>).g | (gc)c |]

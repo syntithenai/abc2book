@@ -1,0 +1,31 @@
+X: 150
+T:Dudelas es Ugros
+T:Love, Love where were you at night titmouse?
+O:Hungary
+S:Sebo
+M:4/4
+L:1/8
+P:AABB
+K:F
+P:A
+Q:1/4=120
+V:1
+%%MIDI program 42
+  CC G4-GF|G4 E2C2  |z8   |\
+  FGE4C2  |F2C2B,2z2|z8   |
+V:2
+%%MIDI program 42
+  C8      |C6z2     | z8  |C8       |C6z2    |z8|
+V:1
+  FGE4C2  |F2C2B,2z2|z8   |\
+  CCC4B,2 |C4z4     |z8   |
+V:2
+  C8      |C6z2     |z8   | C8      |C4z4    |z8|
+P:B
+M:2/4
+L:1/8
+%%MIDI gchord z2f2
+Q:1/4=150
+%%MIDI program 41
+|:ffgf    |e2c2     |Bccz | [1Bccz  :| [2c2z2|
+|:ecBc    |A2F2     |_EFFz| [1_EFFz :| [2F2z2|

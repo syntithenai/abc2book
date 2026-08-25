@@ -1,0 +1,21 @@
+X:147
+T:Polka CF (pk02065)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.298 (pk02065) orig. C,F
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/16
+K:C major
+[P:A] "C"EGce g3e | "G7"f2B2 Bc'ba | gbgf fagf |  "C"e2c2 c2GF  | EGce g3e | "F"f2a2 ac'ba |  
+"C"gc'ge "G7"f2B2 |1 "C"c2c2 c2GF :|2 "C"c2c2 c2z2 [P:B] |: "E7"e3B e3B | "Am"e2c2 A2AB | cfed "E7"edcB  | 
+"Am"ABcAE4 | "E7"e3B e3B | "Am"e2c2 A2AB | cfed "E7"edcB | "D7"ABcA"_>Teil A""G"G4 :| 
+[| [P:C]  [K:F] {/A}"F"c4 {/A}c4 | {/A}cfed cBc^c | "Bb"{/^c}d4 {/^c}d4 | {/^c}dgfe d2f2 | "C7"f2e2 edef | e6d2 | 
+"F"{/e}d2c2 Bdcd | A6AB | {/A}c4{/A}c4 | {/A}cfed cBc^c | "Bb"{/^c}d4 {/^c}d4 | {/^c}dgfe d2f2 | 
+"C7"g2f2 e2d2 | "F"c2A2 F2Af | "C7"e3d cBAG |  "F"F2F2 F2f2 || [P:D] "C7"e6c2 | d2c2 b2e2 | "F"f3A d3A | c6 (f2 | "C7"e3)(c d3)(B | c6) e2 | 
+ "F"f3c d3A | c6f2 | "C7"e6c2 | d2c2 b2e2 | "F"f3A d3A | c6c2 | "Bb"d3e f2g2 |  "F"a2f2 e2d2 | "C7"c2g2 e2c2 | "F"f2ff f2z2  |] 
+W:Parts: ABACD
+% pk02065  (Oct 3, 2016)

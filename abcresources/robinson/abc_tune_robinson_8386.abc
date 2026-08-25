@@ -1,0 +1,23 @@
+X: 52
+T:Newfield Cottage, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:19 - 3
+K:A major
+%%staves {1 2}
+V:1
+(A,>A)(A>B) (A/B/)c/A/ ~E2 | B,<BB>c (!trill!B>A) F2 | \
+(A,>A)(A>B) A>B A/B/c/d/ | e/f/g/a/ (f/e/)(.d/.c/) !trill!B2 A2 :|
+(c<e)(e>f) e>fec | !trill!B>ABc ABAE | \
+(Ff)(f>a) (f/e/)d/c/ (d/c/)B/A/ | (B/c/)d/c/ (d/c/)B/A/ !trill!B2 A2 |
+(c<e)(e>f) e/f/g/a/ f/e/d/c/ | !trill!B>ABc A>BAE | \
+F<AE<A D<AC>f | (f/e/)d/c/ (d/c/)B/A/ !trill!B2 A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+AAAc | d>cB/c/d | cAaA | Ac/d/eA || \
+Aaaa | eefc | dd'd'a | eae'/e/a | aaac'/a/ | gefc | dcBA/d/| cAeA |]

@@ -1,0 +1,22 @@
+X:1
+T:Mazurka  CF  (mz06958)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.118  ( mz06958) orig. C,G,F
+S: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G2c2e2 | "G7"f>ed3c | B>AB3A | "C"AGE2E2 | G2c2e2 | "G7"f>ed3c | BG BG f>B | "C"c2c2z2 :| 
+[P:B] |: "Am".e2!>!A3e | .e2!>!A3c | "E7"B>B e>e d>d | "Am"c>c B>BA2 | .e2!>!A3e | .e2!>!A3c | "E7"B>B c>d d>d | 
+e2e2"_>Teil A"z2 ::  [K:F] [P:C] "F7"A>^G A2d2 | c4A2 | c>B c2f2 | "C7"f4e2 | G>^F G2A2 | c4B2 | ed dc cB | 
+"F"B4A2 | A>^G A2d2 | c4A2 | c>B c2f2 | "Bb"a4g2 | "C7"g>f f>e e>d | "F"d>c c2c2 | "C7"c>c d>d e>e | "F"f2f2z2 :| 
+W:
+W: Parts: ABAC
+%W:Anmerkung H.C.: 
+%  mz06958
+% May 2, 2018 (Thursday or Friday? Or...?)

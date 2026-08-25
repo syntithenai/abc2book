@@ -1,0 +1,18 @@
+X:1
+T:Lady Madaline Gordon's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 1
+K:C major
+%%staves {1 2}
+(CF)(AF) (CG)(BG) | (CF)(AF) (E/F/G) (EC) | (CF)(AF) (CG)(BG) | cABG F/F/F F2 ::
+(f/g/a) (fc) dBcA | BGAF (E/F/G) (EC) | FcAc FdBd | cfeg f/f/f (!trill!fg) |
+afge fcdB | cABG (E/F/G) (EC) | (CF)(AF) (CG)(BG) | cABG F/F/F F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+ffcc | ffc'c' | ffcc | fcFF :: \
+ffff | gfcc | ffBB | cc'ff | fefB | fgcc | ffcc | fcFF |]

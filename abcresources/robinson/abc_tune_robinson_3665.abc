@@ -1,0 +1,14 @@
+X:206
+T:Schottisch CGF (st04942)
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"G7"G3G G2G2 | B2c2 !>!d4 | G3G G2G2 | "C"c2d2 !>!e4 | "G7"G3^F G2A2 | B3A B2c2 | d3^c d2e2 | f4z4 || 
+|: "C"G2EG e3d | d2c2 G^FG2 | "G7"c2B2 FEF2 | "C"A2G2 ECE2 | G2EG e3d | d2c2 G^FG2 | "G7"cBAG ^FGAB | "C"c2c2 c2z2 :: [K:G]
+"G"d2^cd edc=B | G2GB !>!D4 | "D7"F2FA!>!D4 | "G"G2GA!>!B4 | d2^cd edc=B | G2GB!>!D4 | "D7"[DF]2[DF][Ac] [GB]2[FA]2 | "G"G2G2 G2"_Teil A"z2 :: [K:F]
+"F"ABc2 c=Bc2 | FGA2 A^GA2 | "C7"GFE2 GFE2 | "F"AGF2 !>!C4 | ABc2 c=Bc2 | FGA2 A^GA2 | "C7"GFE2 GFE2 | "F"F2F2 F2z2 :: [K:C]
+"Dm".D2!>!A,4DE | .F2!>!D4 FG | "A7"A2AG FGFE | "Dm"D2D2D4 | "C".c2!>!G4cd | .e2!>!c4E"_ ="F | "G7"G2GF EFED | "C"C2C2 C2z2 :: [K:F] 
+"C7""_b"B3"_g"G "_e"e3"_d"d | "F"Td2c2 cdc2 | "C7"A2G2 GAG2 | "F"G2F2 FGF2 | "C7"B3G e3d | "F"d2c2 cdc2 | "C7"A2G2 GFE2 | "F"F2F2 F2z2 :| 
+W:P: ABCABCDEF
+% June 14, 2016

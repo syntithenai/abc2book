@@ -1,0 +1,37 @@
+X:1
+T:Hörnligrat-Juiz  Bb  ABCD
+T:Noldi Amstutz (23.7.1961) / Thomas Gisler (31.5.1972)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+R:Naturjodel
+M:3/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam"FF|B2BF Bc | d2F2ed | c2F2cd | 
+B2d2FF | B2BF Bc | d2F2ed | c2cF dc | B4 || 
+L:1/8
+M:2/4
+[P:B] "schneller" BB | e2G2 | e>e fe | d>B Bd | F>F GF | c3F | c>c dc | B>d BG | F4 | 
+e2G2 | e>e fe | d>B Bd | F>F GF | c3F | c>c dc | (B4 | B2)z2 || 
+L:1/8
+M:3/4
+[P:C] "langsam" FG| F>DB2FG | F>Bd2ed | c>FE2cd | 
+B>cd2FG | F>DB2FG | F>Bd2ed | c>E Fe cA | B4 || 
+L:1/4
+M:3/4
+[P:D] "Walzer" B/B/ | e>de | Gfe | d>^cd | Fed | c>EF | Edc | B>Bc | 
+d>B c/d/ | e>de | Gfe | d>^cd | Fed | c>EF | Ecd | (B3 | B)>z B/B/ | 
+e>de | Gfe | d>^cd | Fed | c>EF | Edc | B>Bc | 
+d>B c/d/ | e>de | Gfe | d>^cd | Fed | c>EF | fcd | (B3 | B)z |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:
+W:notiert Edi Gasser. Angaben: Amstutz / Gisler
+W:UJV-Naturjodelsammlung: Code-Nr: 45-01
+W:UJV-Naturjodelsammlung: Code-Nr: 46-01
+W:http://www.naturjodler.ch/code 45.htm  (with AUDIO)
+%Juni 12, 2018

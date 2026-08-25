@@ -1,0 +1,16 @@
+X:37
+T: Freudenklänge (Walzer) FBb (wz05127)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.375 (wz05127) orig. F,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"A2c | d2c | A2c | g2f | "C7"e2d | B2d | "F"d2c | A2F | A2c | d2c | A2c | g2f | 
+"C7"e2B | d2c | "F"F>ff | fzz ||  [P:B] "F"c>cc | .c.d.c | .f.e.d | "F"c3 | "C7".ee>d | d2c | "F".dd>c | c2A | 
+c>cc | .c.d.c | "Bb".f.e.d | "F"c3 | f/f/ff | a>fc | "C7"ge>c | "F"ff>f || [P:C] [K:Bb] "Bb"f3 | "F7"fgf | "Bb"f3 | dzb/b/ | 
+"F7"bza | e2g/g/ | "Bb"gzf | d2f/f/ | f3 | "F7"fgf | "Bb"f3 | dzd'/d'/ | "Cm/Bb"d'zc' | "F7"g2a | "Bb"b>bb | bzz |] 
+% June 4, 2016

@@ -1,0 +1,39 @@
+X:1
+T:Lena's Aigäglanz. Naturjuiz  CF
+T:Urs Aufdermauer
+%T:Dirigenten-Notiz: Edi Gasser
+%C:Unterwalden (CH)
+%%partsbox
+%P:ABCDE
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:C major
+[P:A] E2F | G2c | c2A | A2G/F/ | E2E | G2E | D3 | D/E/FG | 
+E2E | G2c | cAG | F2F | E2G | BGF | (E3 | E2) z ||
+M:4/4
+[P:B] G, | CC C/D/ E/F/ | B,B,/(D/ D) B,/C/ | DDF E/B,/ | Cz/G,/DB, | 
+CCC/D/ E/F/ | B, B,/(D/ D) B,/C/ | A,CB,D | C3 ||
+M:3/4
+[P:C] c/A/| GEc/A/ | GFd/c/ | BFG/A/ | G2c/A/ | 
+GEc/A/ | GFd/c/ | B/c/Bd | c2 || 
+M:3/4
+K:F
+[P:D]  A,/F,/  |DCA, | G,2B,/G,/ | DCA, | F,2 A,/F,/ | 
+DCA, | G,2 G,/A,/ | B,DC | A,2 A/F/ | dcA | G2B/G/ | 
+dcA | F2A/F/ | dcA | G2G/A/ | Bdc | A2 ||
+L:1/4
+K:C
+M:3/4
+[P:E]
+c/A/ | GEc/A/ | GFd/c/ | BF G/A/ | G2c/A/ | 
+GEc/A/ | G Fd/c/ | B/d/Bd | c2 c/A/ | GEc/A/ | GFd/c/ | 
+BFG/A/ | G2c/A/ | GEc/A/ | GFd/c/ | B/c/Bd | c2z |] 
+W:UJV-Naturjodelsammlung: Code-Nr: 74-01
+W:http://www.naturjodler.ch/code 74.htm  (with AUDIO)
+W:Dirigentennotiz, notiert Edi Gasser. Angaben: Emil Wallimann
+%October 15, 2018
+%October 17, 2018 - Richard version:
+%http://richardrobinson.tunebook.org.uk/

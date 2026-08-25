@@ -69,6 +69,57 @@ function collectVoiceEventsFromParsed(parsed) {
   return voices;
 }
 
+/**
+ * abcjs stores written note duration separately from tuplet scaling:
+ * startTriplet / tripletMultiplier on the first note, endTriplet on the last.
+ * Scale each note in the group so (3B/2A/2G/2 counts as one beat, not 1.5.
+ */
+function eventDurationWithTuplet(ev, tupletState) {
+  if (!ev || !ev.duration) return { duration: 0, tupletState: tupletState };
+  let state = tupletState || { multiplier: 1 };
+  if (ev.startTriplet && ev.tripletMultiplier) {
+    state = { multiplier: ev.tripletMultiplier };
+  }
+  const duration = ev.duration * (state.multiplier || 1);
+  if (ev.endTriplet) {
+    state = { multiplier: 1 };
+  }
+  return { duration: duration, tupletState: state };
+}
+
+/**
+ * Drop the closing underfull when anacrusis + last bar together fill one measure.
+ * (Last bar often ends with || so it is not flagged isFinal.)
+ */
+function suppressAnacrusisComplementUnderfull(results, parsedTune, beatLen, beatsPerBar) {
+  const pickupLen = parsedTune && typeof parsedTune.getPickupLength === 'function'
+    ? parsedTune.getPickupLength()
+    : 0;
+  if (!(pickupLen > EPSILON) || !beatLen || !beatsPerBar) return results;
+  const pickupBeats = pickupLen / beatLen;
+
+  const lastUnderfullIdxByVoice = {};
+  results.forEach(function(row, idx) {
+    if (!row || row.type !== 'underfull' || row.isPickup) return;
+    const key = row.voiceKey || '';
+    const prev = lastUnderfullIdxByVoice[key];
+    if (prev == null || row.barIndex >= results[prev].barIndex) {
+      lastUnderfullIdxByVoice[key] = idx;
+    }
+  });
+
+  const drop = {};
+  Object.keys(lastUnderfullIdxByVoice).forEach(function(key) {
+    const idx = lastUnderfullIdxByVoice[key];
+    const row = results[idx];
+    if (Math.abs((row.barBeats + pickupBeats) - beatsPerBar) <= EPSILON) {
+      drop[idx] = true;
+    }
+  });
+
+  return results.filter(function(_row, idx) { return !drop[idx]; });
+}
+
 export function analyzeVoiceBarDurations(parsedTune) {
   if (!parsedTune || typeof parsedTune.getBeatsPerMeasure !== 'function') return [];
   const beatsPerBar = parsedTune.getBeatsPerMeasure();
@@ -83,6 +134,7 @@ export function analyzeVoiceBarDurations(parsedTune) {
     let barNumber = 1;
     let barBeats = 0;
     let isPickupBar = parsedTune.getPickupLength() > EPSILON;
+    let tupletState = { multiplier: 1 };
 
     events.forEach(function(ev) {
       if (ev.el_type === 'bar') {
@@ -103,8 +155,11 @@ export function analyzeVoiceBarDurations(parsedTune) {
         barNumber += 1;
         barBeats = 0;
         isPickupBar = false;
+        tupletState = { multiplier: 1 };
       } else if (ev.duration) {
-        barBeats += ev.duration / beatLen;
+        const scaled = eventDurationWithTuplet(ev, tupletState);
+        tupletState = scaled.tupletState;
+        barBeats += scaled.duration / beatLen;
       }
     });
 
@@ -125,7 +180,7 @@ export function analyzeVoiceBarDurations(parsedTune) {
     }
   });
 
-  return results;
+  return suppressAnacrusisComplementUnderfull(results, parsedTune, beatLen, beatsPerBar);
 }
 
 function countBarsInVoiceEvents(events) {
@@ -453,7 +508,8 @@ function checkStanzaStrain(tune, noteLines) {
   const issues = [];
   const melodyBlocks = splitMelodyIntoBlocks(noteLines).length;
   const lyricsBlocks = lyricBlockCount(tune);
-  if (lyricsBlocks > 1 && melodyBlocks > 0 && melodyBlocks !== lyricsBlocks && !/\|\|/.test(flattenMelodyText(noteLines))) {
+  // One melody + several lyric stanzas is normal; only flag multi-vs-multi mismatch.
+  if (lyricsBlocks > 1 && melodyBlocks > 1 && melodyBlocks !== lyricsBlocks && !/\|\|/.test(flattenMelodyText(noteLines))) {
     issues.push(issue(
       'stanza_strain_mismatch',
       'Lyric stanzas (' + lyricsBlocks + ') do not match melody strains (' + melodyBlocks + ')',

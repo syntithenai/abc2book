@@ -1,0 +1,25 @@
+X: 55
+T:Miss Robertson -- Edinburgh. a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:20 - 3
+K:A major
+%%staves {1 2}
+V:1
+"^Slowly"
+E | \
+A<A A2 GA ~B2 | cA-A.E GB-B.c | A<AAe (d/c/B/c/) ~d2 | eEGA cA-A  :|
+c/d/ |\
+efBd ceAc | ~F>Bd>c B/A/G/F/ E (c/d/) | \
+efBd c>^dea | gfe^d eE-E c/=d/|
+e<c ~f2 d<B {E}e2 | d<FBA GEFG | \
+.A.A,.C.A .B.E.G.B |.e.E.G.A cA-A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | AAee | aAee | aAfd | eEAA/ :| \
+z/ | c'gac | dBeE | c'gag/a/ | bBee | c' ^a/f/ bg/e/ | dBee | Aage | eeAA/ |]

@@ -1,0 +1,87 @@
+X:1
+T:Lady Mary Hay's Scotch Measure 2part fiddlingaboutwith
+O:Scotland
+Q:1/4=200
+M:C
+K:E minor
+%%scale .63
+V:1
+% P 1
+% |: G>F | \
+% E2E2 B3G | E2B2 efga | bage fde^c | d2D2 D2G>F | \
+% E2E2 B3G | E2B2 efga | bage fbB^d | e2E2 E2 :| !
+% P 2
+% g>f | \
+% e2e2 e3B   | e^def gfge | fgab agfe  | f2d2 d2g>f | \
+% e2e2 e3B   | e^def gfge | fgac' bgaf | g2e2 e2g>f | !
+% e2E2 e3f   | gfga bage  | fgaf d'abg | f2d2 d2ba | \
+% gaba g>fge | fgag fef^d | ecBA GeF^d | e2E2 E2 |] !
+% P 3
+% |: GF |\
+% EGBG Ee^de | EeFe GeEB | efge fde^c | d2D2 D2GF | \
+% Ee^de EeFe | GeFe GeEB | efge fbB^d | e2E2 E2 :| !
+% P 4
+% ba|\
+% g>fef gaba | ge^de EeGe | Bege g>abg | fgaf d2ba | !
+% g>fef gaba | ge^de Bege | fabc' bagf | g2e2 e2ba | !
+% g>fef gaba | ge^de EeGe | Bege g>abg | fgaf d2ba | !
+% g>fef gaba | ge^de Bege | fabc' bagf | g2e2 e2 |] !
+% P 1
+% % %text How to force a page break mid-tune ?
+% |: G>F | \
+% E2E2 B3G | E2B2 efga | bage fde^c | d2D2 D2G>F | \
+% E2E2 B3G | E2B2 efga | bage fbB^d | e2E2 E2 :| !
+% P 2
+% g>f|\
+% e2e2 e3B   | e^def gfge | fgab agfe  | f2d2 d2g>f | !
+% e2e2 e3B   | e^def gfge | fgac' bgaf | g2e2 e2g>f | !
+% e2E2 e3f   | gfga bage  | fgaf d'abg | f2d2 d2ba | !
+% gaba g>fge | fgag fef^d | ecBA GeF^d | e2E2 E2 |] !
+% P 3
+|: GF | \
+EGBG Ee^de | EeFe GeEB | efge fde^c | d2D2 D2GF | !
+Ee^de EeFe | GeFe GeEB | efge fbB^d | e2E2 E2 :| !
+% P 4
+ba|\
+g>fef gaba | ge^de EeGe | Bege g>abg | fgaf d2ba | ! 
+g>fef gaba | ge^de Bege | fabc' bagf | g2e2 e2ba | !
+g>fef gaba | ge^de EeGe | Bege g>abg | fgaf d2ba | !
+g>fef gaba | ge^de Bege | fabc' bagf | g2e2 e2 |] 
+%
+V:2
+% P 01
+% |: z2 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z6:| \
+% P 02
+% z2 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | \
+%      z8 | z8 | z8 | z8 | z8 | z8 | z8 | z6 |] \
+% P 1
+% |: G>F | \
+% E2E2 B3G | E2B2 efga | bage fde^c | d2D2 D2G>F | \
+% E2E2 B3G | E2B2 efga | bage fbB^d | e2E2 E2 :| \
+% P 2
+% g>f | \
+% e2e2 e3B   | e^def gfge | fgab agfe  | f2d2 d2g>f | \
+% e2e2 e3B   | e^def gfge | fgac' bgaf | g2e2 e2g>f | \
+% e2E2 e3f   | gfga bage  | fgaf d'abg | f2d2 d2ba | \
+% gaba g>fge | fgag fef^d | ecBA GeF^d | e2E2 E2 |] \
+% P 3
+% |: GF |\
+% EGBG Ee^de | EeFe GeEB | efge fde^c | d2D2 D2GF | \
+% Ee^de EeFe | GeFe GeEB | efge fbB^d | e2E2 E2 :| \
+% P 4
+% ba|\
+% g>fef gaba | ge^de EeGe | Bege g>abg | fgaf d2ba | \
+% g>fef gaba | ge^de Bege | fabc' bagf | g2e2 e2ba | \
+% g>fef gaba | ge^de EeGe | Bege g>abg | fgaf d2ba | \
+% g>fef gaba | ge^de Bege | fabc' bagf | g2e2 e2 |] \
+% P 5
+V:2
+|: BA | \
+GBeB GABG | EGBG eBef | gabg afge | f2f2 f2BA | \
+GBeB GABG | EGBG eBef | gabg bagf | e2E2 E2 :| \
+% P 6
+GA | \
+B2B2 B3c   | eBAG EeBG | E2E2 BcdB | Agfd A2GA | \
+B2B2 efe^d | eef2 g2a2 | dfga gfed | B2G2 G2GA | \
+B2B2 B3c   | eBAG EeBG | E2E2 BcdB | Agfd A2GA | \
+B2B2 efe^d | eABc BcBA | BAGA BAGF | G2E2 E2 |]

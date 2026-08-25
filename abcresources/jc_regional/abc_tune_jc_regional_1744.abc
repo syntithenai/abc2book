@@ -1,0 +1,24 @@
+X: 97
+T:Ciganski Orient
+O:Serbia
+F: http://www.youtube.com/watch?v=W9m_zQwEDPM
+F: http://www.youtube.com/watch?v=vYtelJpuwes
+S:from recording Ciga Ivon Despotovic -16 Yugoslavian Dances
+M:2/4
+L:1/8
+Q:1/4=300
+K:G
+%%MIDI gchord gzhz
+|:"B"B3c    |.B2 .B2|.B2 .B2  |.B2 .B2   |\
+  .B2 .c2   |.B2 .c2|.B2 .B2  | B4       :|
+K:Bm
+|:B3c       |.^d2.e2|.f2.f2   |.f2.f2    |\
+  "E".e2.e2 |.^d2.e2|"B"^dcde |f4        |
+  B3c       |.^d2.e2|fefe     |.f2.f2    |\
+  fa=gf     |e=gfe  |BcBc     |B4        :|
+K:BDor
+|:"A"B4     |A2G2   |A4       |"F#m"G2F2 |\
+  F4        |F2F2   |F4       |F2z2      |
+  "B"B2c2   |A2B2   |G2A2     |"F#m"G2F2 |\
+  F2F2      |F4     |F2z2     :|
+  "B"B4     |=c4    |B4       |=c4       |.B2.B2 |.B2.B2 |B4 |

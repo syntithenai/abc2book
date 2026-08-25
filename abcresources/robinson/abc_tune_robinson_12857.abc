@@ -1,0 +1,68 @@
+X:31
+T:French Set of Quadrilles. AJH.031
+M:6/8
+L:1/8
+Q:3/8=110
+S:A.J.Hughes MS
+N:Some of the redirections and time sigs not clear in the
+N:MS copy. Clarification needed by consulting original.
+O:England
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:F major
+P:1st
+"_qu's"A/B/|Scef cef|a3agf|gba gfe|fag fed|
+cef cef|a3agf|gba gfe|f3f2||!
+A/B/|c3 cfe|d3def|agf fed|dcB A2B|
+c3 cfe|d3 def|agf efd|SA3 "_A2added"A2||!
+a|d2^c d2e|^f2g a2g|^f2e d2e|a2A A2A|
+d2e ^fe2|^f2g a2g|f2d fe^c|"_d2in MS"d3d2||!
+K:C
+|:e/f/|gag gde|c3 cde|cfe dec|Bdg G2 e/f/|
+gag gde|c3 cde|Aag fed|d3c2:|!
+|:A|GAG GBG|GAG GcG|Gce edc|Bdd d2 A|
+GAG GBG|GAG Gce|edc cBA|GBce2:|!
+K:D
+M:2/4
+Q:1/4=100
+P:2nd
+|:(3d/c/d/|A "_triplets not marked. Seems to be a bouree timing"\
+(3d/c/d/ A (3f/e/f/|\
+d (3a/g/a/ f (3a/g/a/|(3g/f/e/ (3d/c/B/ (3A/B/A/ (3G/F/E/|\
+(3D/F/A/ (3d/A/F/ D (3d/c/d/|!
+A (3d/c/d/ A (3f/e/f/|d (3a/g/a/ f (3a/g/a/|\
+(3g/f/e/ (3d/c/B/ (3A/B/A/ (3G/F/E/|\
+(3D/F/A/ (3d/f/a/ "_cr"d:|
+Q:1/4=120
+P:3rd
+|:d/e/|f3g|bagd|feBc|d/A/B/c/ d/e/f/g/|
+f3g|bagd|feBc|d3:|
+"_Rest added" z| D2"_qu's in MS"d2|d/c/B/^A/B2|\
+B2b2|b/a/g/f/g2|
+g/A/c/e/ a/b/a/g/|f/A/d/f/ (3d'/c'/b/ (3a/g/f/|\
+e/A/c/e/ g/B/c/e/|d3|]
+M:6/8
+Q:3/8=110
+P:4th
+F/G/S|ABA Adf|a3 agf|e2f gBc|def A3|
+A^GA c3|BAB e3|cde ABc|d3 d2||
+f|fdB A2F|Bdf b3|ecA ^G2E|Adf a3|
+faa eaa|z6|gec Bfe|A3 A3||
+Adf ^e2f|dfa ^g2a|gec A2G|FBA F2G|
+Adf ^e2f|dfa ^g2a|gec Aba|d3 d2||
+SA/G/|FAd dcd|f3 d2f|e^de ABc|dfa a2 A/G/|
+FAd dcd|f3 d2f|e^de ABc|d3 d2||
+e|c3 e3|a3 a2f|gfg Bed|cea A2a|
+Bdd cee|dff egg|faa g2g"MS unclear here"|a3Sa2||
+b|bab f2e|d2c B2B|Bfe dcB|f3 z2a|
+bab f2e|d2c B2 b/^a/|bge dc^B|B3 B2|]
+M:3/4
+K:C
+P:5th
+|:(3Gce|g>e c2 (3cde|G>ce2f>e|d3 G>ed|c4 (3Gce|
+g>e c2 (3cde|G>ce2f>e|d3da<g|c4:|!
+|:d2|d>BG2 dd|e>c G3g|^f3f2(3fef|g4e2|
+eee2GG|eee2GG|e3Ge>d|c2B3G|
+G>e c3G|G>ec3G|g3g g>g|"DC"g4:|

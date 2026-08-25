@@ -1,0 +1,16 @@
+X:167
+T: Schottisch  CG (st09010)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.52 (st09010) orig. C,G-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"AG c>d | "G7"cB B>A | AG d>e | "C"dc g>A | AG c>d | "G7"cB B>A | Gf GB | "C"cG/e/c2 :: [K:G] 
+"G"ed g>a | "D7"g>f c'>b | ba ef | "G"ag d>e | ed g>a | "D7"gf c'>b | ba ef | "G"gg gz :: [K:C] [L:1/16]
+"G7"GBB2 Bdd2 | "C"cee2 egg2 | "G7"Baa2 Baa2 | "C"g2ecG4 | "G7"GBB2 Bdd2 | "C"cee2 egg2 | "G7"agB2 agB2 | "C"c2e2 c2z2 :| [K:G] 
+"G"dgB2 B2B2 | "D7"ABcd e2e2 | AeF2 F2F2 | "G"GABc d2d2 | dgB2 B2B2 | "D7"ABcd e2e2 | AcF2 GFEF | "G"G2G2 G2z2 |] 
+% st09010

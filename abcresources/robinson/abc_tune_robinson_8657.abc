@@ -1,0 +1,23 @@
+X: 115
+T:Miss Stewart's Strathspey -- Pittyvaich
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:41 - 1
+K:G major
+%%staves {1 2}
+V:1
+G>D G<(B G,)>!wedge!B,G,>(B | c)>A!trill!B>G E<A-A>!wedge!B | \
+G>D G<(B G,)>!wedge!B,G,~g | d<B!trill!A>G DF G2 :|
+G<g !trill!g2 (d>g)b>g | a>gb>g Aa- ~a2 | \
+d<g ~g2 (d>g)b>a | g<e~d>B DG- G2 |
+G<g !trill!g2 (d>g)b>g | a>gb>g Aa- ~a2 | \
+g<db>a g>d e<g | d<B!trill!A>G DF G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+GgGB | AGcd | GgGB | dd[Gg][Gg] :| \
+gggg | ggaa | gggB | cd[Gg][Gg] | gggg | ggaa | gggc' | gdgg |]

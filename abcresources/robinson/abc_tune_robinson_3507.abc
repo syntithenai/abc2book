@@ -1,0 +1,15 @@
+X:62
+T: Havanna-Polka FBb (pk05136)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.378 (pk05136) orig. F,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"A2c2 c2c2 | cff2f4 | Accc c2f2 | "C7"e4z4 | G2B2 B2B2 |  Bdd2d4 |1 e3d e3d | "F"c4z4 :|2 c3c d2e2 | "F"f2f2 f2z2 || 
+[P:B] |: "Bb"!>!f4 edcB | "F"A6BA | "C7"G2B2 BBB2 | "F"A2c2 ccc2 | "Bb"!>!f4 "C7"edcB | "F"A6BA | "C7"G2B2 B3e | "F"f2f2 f2z2 :| [K:Bb]
+[P:C] |: "Bb"d4f3d | "F7"e2e2f4 | a2a2e4 | "Bb"defg f4 | d4f3d | "F7"e2e2f4 | a3g f2A2 | "Bb"B2d2 B2z2 :| 
+% May28, 2016
+% June 16, 2016

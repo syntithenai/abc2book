@@ -1,0 +1,22 @@
+X: 33
+T:Miss McPherson's Reel -- Edinburgh
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+E | \
+{E}!trill!D2 B,D FDBF | DB,FD ECCE | !trill!D2 B,D FDBF | ecdA BB,B, :|
+e | \
+!trill!d>efd gefd | ecdB ec-c!wedge!e | !trill!d>efd gefd | gabf dB-Be |
+!trill!d>efd gefd | ecdB ec-c!wedge!d | DB,FD GEBG | FD ec dBB |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | BBBB | BBcc | BBBd | efBB/ :| \
+z/ | BBed | cBff | BBed | efBB | BBed | cBff | Bdee | BfBB/ |]

@@ -1,0 +1,19 @@
+X:1
+T:Miss Abercromby's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:5 - 1
+K:C minor
+%%staves { 1 2 }
+(ED)CD (EF)GE | FBFB DB,FD | (!trill!ED)CD (EF)Gc | B<G!trill!F3/D/ C/C/C C2 ::
+(ed)cd (ef)ge | (!trill!dcbc) (de)fd |1 \
+(ed)cd (ef)ge | !trill!d3/c/Bd c/c/c c2 :|2 \
+gefd ecdB | G<B!trill!F3/D/ | C/C/C C2 |]
+V:2 clef=bass octave=-2
+L:1/4
+cccc | dfBB | ccec | efcc :: \
+ccc'c' | bbBB |1 ccc'c' | BBcc :|2 edcB | edcc |]

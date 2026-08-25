@@ -1,0 +1,12 @@
+X:89
+T: Leigger-Ländler  G (LD00975)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.258 (LD00975) orig. G-Dur
+S:Walliser (Volks-)Tänze. S.234-276
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:G major
+Bd |: "G"e2d2BG | "D7"F2Acf2 | e2d2cA | "G"G2Bdg2 | e2d2 BG | "D7"F2Acf2 | e2d2 cF |1 "G"G2z2Bd :|2 "G"G2z2B2 ||  
+|: [L:1/4] "C".c!>!e>c | "G".B!>!d>B | "D7".A!>!f>f | "G"f/g/ g/B/d | "C".c!>!e>c | "G".B!>!d>B | "D7"A/f/ f/A/ A/f/ |1 "G"gzB :|2 "G"gzz |]

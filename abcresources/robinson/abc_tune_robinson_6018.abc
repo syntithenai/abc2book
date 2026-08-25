@@ -1,0 +1,19 @@
+X:1
+T:Nachtschatten-Mazurka  CGF (mz06790) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.42  (mz06790) orig. C,G,F
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Walzer
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>ce2e2 | c>ee2e2 | "G7"f2B2B2 | d2G2G2 | B>d f2f2 | G>Bd2d2 | B2B2B2 | "C"c2c2z2 :| [K:G] 
+[P:B] |: "G"B>B Bed2 | G>G GcB2 | "D7"B>Ac2F2 | "G"A>G B2D2 | B>B Bed2 | G>G Gc B>B | "D7"BA cB AF | "G"G2G2"_>Teil A"z2 :| [K:F] 
+[P:C] |: "F"A2!>!d3A | "C7"cB E>FG2 | B2e3c | "F"dc F>GA2 | A2!>!d3A | "C7"cB E>FG2 | dc ed GA | "F"F2F2z2 :: 
+[P:D] "Bb"B>BB4 | "F"A>AA4 | "C7"c>dc2B2 | "F"A>B A>GF2 | "Bb"B>BB4 | "F"A>AA4 | "C7"c>d c>B A>G | "F"F2F2z2 :| 
+% mz06790
+% Dec 31, 2017

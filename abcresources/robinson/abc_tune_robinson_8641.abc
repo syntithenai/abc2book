@@ -1,0 +1,24 @@
+X: 149
+T:Mrs J Bishop's Strathspey -- Kew-Green, London
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:52 - 1
+K:F major
+%%staves {1 2}
+F |\
+F<f ~f2 (f/e/)d/c/ {Bc}d2 | (A/B/)c/d/ cA AGGA | \
+Ff ~f2 (e/f/g/a/) b2 | af (e/f/)g/e/ af-f :|
+f/g/ |\
+(a/g/)f/g/ af (g/f/)e/f/ ge | fd=Bg ec-c _B/c/ |\
+(d/c/)B/c/ dB (c/B/)A/B/ cA | BGEc AFF f/g/ |
+(a/g/)f/g/ af (g/f/)e/f/ ge | fd=Bg ec-c _B/c/ |\
+dB,B,d cA,A,c | BGEc AFF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | fffb | afcc | ffc'c | fcff/ :| \
+z/ | fac'c |  ggca | bbaf | bc'ff | fac'c | ggcA | BBAF | Bc FF/ |]

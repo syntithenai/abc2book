@@ -1,0 +1,37 @@
+X:1
+T:Seefälder-Juiz. 1990  Bb  ABCD
+T:André von Moos-Müller (7.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] DBAG | EdcA | E3z | EBAG | FedB | F3z | 
+DBAG | EdcA | E3z | EBAG | Fedc | B3z || 
+L:1/8
+M:3/4
+[P:B] eF cB AG/F/ | dF B>A G!fermata!f | eF cB AG | F4z2 | 
+eF cB AG/F/ | dF B>A G!fermata!f | eF cB Ad | B4z2 ||  
+M:3/4
+[P:C] B>B | AB eBG2 | AB dBF2 | Ac ec A>G | F3zB>B | AB eBG2 | 
+AB dBF2 | Ac ef d>c | B3zB>B | AB eBG2 | AB dBF2 | 
+Ac ec A>G | F3z B>B | AB eBG2 | AB dBF2 | Ac ef d>c | B4 ||
+M:4/4
+L:1/4
+[P:D] !fermata!f d/B/ A/_A/ | G>Be2 | z!fermata!e c/B/ A/G/ | F>Bd2 | z!fermata!f d/B/ F/=E/ | 
+E>Fc2 | zBAG | F4 | z!fermata!f d/B/ A/_A/ | G>Be2 | 
+z!fermata!e c/B/ A/G/ | F>Bd2 | z!fermata!f d/B/ F/=E/ | E>Fc2 | zfdc | B4 |] 
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. Angaben André von Moos
+W:UJV-Naturjodelsammlung: Code-Nr: 37-01
+W:http://www.naturjodler.ch/code 37.htm  (with AUDIO)
+W:
+W:www.srf.ch/sendungen/srf-musikwelle-brunch/andre-von-moos-vier-cds-zum-geburtstag
+W:https://www.phono-schop.ch/product_info.php/info/p6417_Andr---von-Moos.html
+%Juni 2, 2018

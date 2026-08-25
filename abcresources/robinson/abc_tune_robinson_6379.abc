@@ -1,0 +1,36 @@
+X:3
+T:Appenzeller Zeuerli. Ruggusserli. C 3+
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=60
+R:Ruggusserli
+M:6/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] G2e2d2c2 d>c BA | "C"G2 e>c G2E2C2 AG | "G7"G2 f>B G2F2 B,2 AG | "C"G2 e>c G2E2C4 | 
+%w: Tro u dü dü rü-du-du-du jo u-di du du ja tro-li do u-di dü du ja tro-li do u-di du dü ja 
+G2e2d2c2 "G7"dc BA | "C"G2 e>c G2E2C2 AG | "G7"G>fB2 G>fB2 Gf ed | "C"c8z4 |] 
+%w:tro u dü dü rü-du-du-du jo u-di du du ja tro-li do-u du jo-u du jo-u du-du u  
+[P:B] G>fB2G>fB2Gf ed | "C"c2G>GA2G>G ce dc | "G7"B2G>Gd2G>G df ed | "C"c2G>GA2G>Gc4 | 
+%w:Tro-u du jo-u du jo-u-du-li dü jo-li du jo-li ü-dü dü-dü dü jo-li u jo-li ü-dü-dü-dü u jo-li u jo-li u
+"G7"G>fB2G>fB2Gf ed | "C"c2G>GA2G>G ce dc | "G7"B2G>Gd2G>G df ed | "C"c8z4 |] 
+%w:Tro-u du jo-u du jo-u-du-li dü jo-li du jo-li ü-dü dü-dü dü jo-li u jo-li ü-dü-dü-dü u
+[P:C] G3gE2G>G c>de2 | "G7"G3gf2G>GB4 | G3g f2 G>G f>ed2 | "C"G3ge2G>Gc4 | 
+%w:Tro u du jo-li ü-dü dü dio u du jo-li u tro u du jo-li u-du du jo u du-o-li u
+G3ge2G>G c>de2 | "G7"G3gf2G>GB4 | G3g ^f2 G>G =f>ed2 | "C"c8z4 |] 
+%w: tro u du jo-li ü-dü dü dio u du jo-li u tro u du jo-li u-dü dü u 
+[P:D] [M:4/4] d3cB2G>G | "C"c3de2g2 | "G7"a2g2 ^fgag | "C"e3(GG4) | 
+%w:ru lü dü jo-li u lü lü u lu lu u-lu-lu-lu u jo
+"Dm/F"d3c BG G>G | "C"c2e2g2 ^fg | "G7"a2g2 f(GG)e | "C"c6z2 |] 
+%w:ru lü dü-o ho-li u lü lü u-lu u lu du-o-ho u du
+W:
+%W:Parts: ABCD
+%W:Jodler Josef Inauen (Felders Seff, 1888-1956)
+%W:zwei Sänger mit Bassbegleitung und Hackbrett (Streichm. Edelweiss Trogen)
+%W:Anmerkung: Hohe Stimmlage.
+W:Vocalisation: https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/Appenzeller Zeuerli.pdf
+W:*AUDIO*: https://www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #374. SCH088B
+% Sep 10, 2018

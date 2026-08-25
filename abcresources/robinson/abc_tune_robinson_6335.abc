@@ -1,0 +1,24 @@
+X:1
+T:Ersiger Walzer  CF  (wz07618) 
+T: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.129  (wz07618) orig. C,F
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox)
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"G3 | {/A}G^FG | (c3 | c3) | G3 | {/A}GFE | ("G7"F3 | F3) | F3 | {/G}FEF | 
+(d3 | d3) | F3 | {G}FED | ("C"E3 | E3) | G3 | {A}G^FG | (e3 | e3) | 
+e3 | {f}edc | ("F"A3 | A3) | A3 | "G7"B3 | "C"cG>A | G^FG | ("G7"e2d) | G2B | 
+"C"c>cc | czz :: [P:B] "C"Gec | (A2G) | (G3 | G3) | Gec | (A2G) | ("G7"G3 | G3) | 
+G3 | G/A/ B/c/ d/e/ | f3 | B3 | G3 | G/A/ B/c/ d/e/ | "C"e3 | c3 | Gec | (A2G) | 
+(G3 | G3) | Gec | (A2G) | ("G7"G3 | G3) | d3 | dBG | "C"e3 | "Dm"edA | 
+"G7"f2d | G2B | "C"c>cc | czz :: [P:C] [K:F] "F"zA>A | A2C | zA>A | "C7"B3 | zB>B | "F"A2C | 
+"C7"zB>B | "F"A3 | zA>A | A2C | zA>A | "Bb"B3 | d3 | "F"c3 | "C7"B/B/BE | "F"Fzz :| 
+W:
+%W:Anmerkung H.C.: 
+% wz07618
+% May 19, 2018

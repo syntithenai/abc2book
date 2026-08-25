@@ -1,0 +1,17 @@
+X: 123
+T: Oberländer Schotttisch FCBb (st05434)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.292 (st05434) orig. F,C,Bb-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+%%partsbox
+%%MIDI program 21
+P:ABACDA
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+c2[P:A] |: "F"fedc dcBA | "C7"B2B2E4 | CDEF GABc | "F"dcAF C2c2 | fedc dcBA | "C7"B2B2 E4 | EFGA Bcde |1 
+"F"f2f2 f2c2 :|2 "F"f2f2 f2"_fine"z2 [P:B] |: [K:C] "C"EG^FG AGce | EG^FG AGce | "G7"fedc BABc | dcBA G4 | "C"EG^FG AGce | 
+EG^FG AGce | "G7"fedc BGAB |1 "C"c2e2 c2z2 :|2 "C"c2e2 c2"_> Teil A"c2 [P:C] |: [K:Bb] "Bb"(d4d)dfd | (B4B)BdB | 
+(F4F)FBF | D6F2 | "F7"edcB AGAB | c2c2c4 | dcBA GFGA |1 "Bb"B2d2 B2z2 :|2 "Bb"B2d2 B2B2 || [K:Bb]
+[P:D] |: "Eb"G2B2 G2B2 | "Bb"F2d2 d2df | "F7"F2Ac F2df | "Bb"F2B2 B2B2 | "Eb"G2B2 G2B2 | "Bb"F2d2 d2df | "F7"F2Ac F2F2 |1 "Bb"B2B2 B2B2 :|2 "Bb"B2B2 B2z2 |]

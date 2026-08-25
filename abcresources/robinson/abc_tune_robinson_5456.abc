@@ -1,0 +1,19 @@
+X:207
+T:Lustlager (Schottisch) GC (st06365) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.120 (st06365) orig. G,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Schottische
+M:4/4
+L:1/4
+O:Switzerland
+K:G major
+"G"g>f.g.d | "Am".e.B.c.A | "D7"dz!>!f2 | "G"gB.e.B |: d>B.e.B | d>B.e.B | "D7"c>f.f.f | f>c.e.c | d>cec | 
+d>cec | "G"B>ggg | g>B.e.B | d>B.e.B | d>B.e.B | "D"A>fff | f>aba | "A7"g>abg | "D"f>fgf | 
+"A7"feB^c |1 "D"d>deB :|2 "D"dzz2 |: !>!"G"b2!>!g2 | d3B | e>BeB | ("D7"c.f)f2 | !>!c'2!>!f2 | d3c | f>cfc | 
+("G"B.g)g2 | !>!b2!>!g2 | d3d | g>dgf | "C"eaa2 | a2"C#0"^a2 | "G/D"b>gdg | "D7"fdd>f |1 "G"gzz2 :|2 "G"gg/g/g z || [K:C] 
+|: ("C"G.c)c2 | ("G7"B.d)d2 | ("F"f.a)a2 | ("C"e.g)g2 | e>(f/e//) .d.c | "G7".B.ag2 | f>(g/f//) ed | "C"cc'g2 | (Gc)c2 | 
+("G7"B.d)d2 | ("F"f.a)a2 | ("C".e.g)g2 | e>(f/e//) .d.c |1 ("G"Bb)g2 | "D7"d>cBA | "G"GzGz :|2 "F"c.cA2 | "G7"B>AFB | "C"cccz |]  
+% st06365
+% Dez 7, 2016

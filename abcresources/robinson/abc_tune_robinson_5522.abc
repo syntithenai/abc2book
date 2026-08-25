@@ -1,0 +1,20 @@
+X:267
+T:Varsovienne GD  (vr07388) ABCDA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.319 (vr07388) orig. G,D
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDA
+R:Varsovienne
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+B>c [P:A] |: "G"((3d^cd) g2B2 | !>!"D7"A4 A>B | ((3cBc)e2F2 | !>!"G"G4 B>c | "G7"((3d^cd)b2g2 | !>!"C"e4e2 | "D7"((3d^cd)e2f2 |1 "G"g4B>c :|2 
+"_Fine""G"g4a>b || [P:B] [K:D] "D"a2d'2 a>b | a2f2d>e | ((3fef)a2g2 | !>!"A7"e4 a>b | a2c'2 c>d | e2g2e>f |  ((3gfg) b2a2 | !>!"D"f4a>b | 
+"D"a2d'2d>e | f2a2 f>g | ((3a^ga) d'2c'2 | !>!"Em"b4 e>f | "A7"((3gfg) b2a2 | "D"((3fef)a2g>f | "A7"(fe) a>g c>e | "D"d4 B>=c || [P:C] [K:G] 
+"G"(db) (bg) dB | !>!"Am"A4A>B | "D7"(ca) (af) .c.A | !>!"G"B4B>c | (dd') (d'b) "G7".g.d | !>!"C"e4 a>g | "D7"(fe') (e'd') .a.f | "G"g4b2 || 
+[P:D] "G"((3bc'b)a2g2 | "C"((3aba)g2e2 | "D7"((3efe)d2B2 | "G"G4g2 | "Am".f2{/^d}.e2{d/}.e2 |  {^d/}"D7".e2.=d2.f2 | (ed)c'2f2 | "G"g4"_>Teil A"z2 |] 
+% vr07388
+% July 24, 2017

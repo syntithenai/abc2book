@@ -1,0 +1,28 @@
+X:42
+T:Rigadoon.2voices. TBe.042
+M:C|
+L:1/4
+Q:1/2=100
+S:Thomas Bennet MS,1718, VWML
+R:Rigadoon
+O:England
+N:E naturals are shown as E# - see notes
+N:1 - shown as a double bar
+N:2 - written on the stave as D but 'e' written above stave
+N:3 - shown as dotted minim g, double bar, semibreve g, double bar.
+H:1718
+Z:vmp.C.Graebe.
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+K:G minor
+[V:1]|:G2d2 | B>AGd | gd g/a/ b | f f f (d/=e/) |!
+[V:2]|:B2B2 | d>c BB | B>c dd | AAA (B/c/) |!
+%
+[V:1]fff (c/d/) | eee (B/c/) | d(d/e/) c>d |1 d4 :|2 d3 |!
+[V:2]ddd (e/d/) |ccc (f/e/) | d (B/c/) A>G |1 ^F4 :|2 ^F3 |!
+%
+[V:1]|:z|fdg (g/f/) | =e>d cc | ff (c/d/) "^2"e | d>cBf |!
+[V:2]|:f | dBd (=e/f/) | g>d =e e | fA (A/B/) c | B>A G d |!
+%
+[V:1]dg=ea | ^f>gad | g (g/a/) a>g |1 g3 :|2 g4 |]
+[V:2]BBcf | A>A B (B/c/) | d (g/f/) ^f>g |1 g3 :|2 g4 |]

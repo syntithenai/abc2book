@@ -1,0 +1,19 @@
+X:26
+T:Rufst du mein Vaterland (Galopp)  CF (GL07375)  ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.309 (GL07375) orig.C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"cc/c/ cc | cG cG | ee/e/ ee | ec ec | "G7"gg/g/ gg | .gg. .a.b | "C".c'2"G7".b2 | "C".c'2.c'2 || 
+"C"{/^f}gg gg | "F".a2"C".g2 | {/^d}ee ee | "Dm".f2"C".e2 | e'd'/c'/ (g2 | "G7"g).g .b.d' | "C"d'c'/g/ (e2 | e).G .c.e | 
+{/^f}gg gg | "F".a2"C".g2 | {/^d}ee ee | "Dm".f2"C".e2 | "Dm"df/a/ (d'2 | "F"d').c' .b.a | "G7".g.f .e.d | "C".c2.c2 || 
+"F" z4 | z4 |: [K:F] [L:1/4] "F"f f/>f/ | fg | "C7"e>f | g2 | "F"a2 | ab | a>g | f2 | 
+"Gm"g2 | "C7"fe | "F"fz | z4 :| "F"c'2 | c'c' | c'>b | a2 | "Gm"b2 | bb | 
+"C7"b>a | g2 | "F"a2 | b/a/ g/f/ | a>b | c'"Bb"d'/b/ | "F/C"a2 | "C7"g2 | "F"f f/>f/ | fz |] 
+% GL07375
+% July 16, 2017

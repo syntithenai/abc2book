@@ -1,0 +1,20 @@
+X:62
+T:Mazurka  CF (mz07703) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.358 (mz07703) orig. CF
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+E>F [P:A] |: "C".G2!>!G2A>G | .e2!>!e2G>A | ("G7"G2F2) F>G | ("C"F2E2)E>F |  .G2!>!G2A>G | .e2!>!e2G>A | ("G7"G2F2) A>B |1 
+"C".c2!>!c2 E>F :|2 "C".c2!>!c2z2 ][P:B] |: "D7"D>D .c2!>!c2 | "G"D>D.B2!>!B2 | "D7"A>B .A2!>!A2 | "G"G>A.B2!>!B2 | "D7"D>D .c2!>!c2 | "G"D>D.B2!>!B2 | 
+"D7"A>BA2d>A |1 "G"G2G2z2 :|2 "G"G2G2 "_>Teil A"E>F ][P:C] |: [K:F] "F"A6 | c6 | A>Bc2!>!c2 | A>Bc2!>!c2 | "Gm"B6 | 
+"C7"g6 | "F"A6 | f6 | "C7"G>A G2B2 | G>A G2c2 |1 "F"F4A2 | F6 :|2 "F"F2A2c2 | f2z2"_fine"z2 |] 
+%W:Parts:ABAC
+% mz07703 (H 272/TN 11)
+% Sep 24, 2017 (Elfmeter)

@@ -1,0 +1,37 @@
+X:1
+T:Sunnebärgler  Bb  ABCD
+T:Rosi Berwert-Würsch (1948-2013)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+R:Naturjodel
+M:2/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"B3c | d2F2 | f=e cd | B3c | d2F2 | fd Bd | c3d | 
+e2F2 | f=e cd | B2Bd | Gd !fermata!F2 | B3c | d2F2 | f=e cd | 
+B3c | d2F2 | fd Bd | c3d | e2F2 | f=e cd | (B4 | !fermata!B2)z2 ||  
+L:1/8
+M:3/4
+[P:B] "_lebhafter" !fermata!D !fermata!E !fermata!F | G3ec2 | G2d2c2 | B2BDF2 | D2c2B2 | 
+A3GF2 | EF dF dc | B2Bd Gd | F6 | G3ec2 | G2d2c2 | 
+B2BDF2 | D2c2B2 | A3GF2 | EF dF dc | (B6 | B4)z || 
+L:1/8
+M:3/4
+[P:C] "lüpfig" F2Fd Fd | B2BA GD | F2Fe Fe | A2 AF Ac | 
+f2fe Ge | d2dF dc | B2Bd Gd | !fermata!F6 | F2Fd Fd | 
+B2BA GD | F2Fe Fe | A2AF Ac | f2fe Ge | d2dF dc | (B6 | B4)z2 ||  
+L:1/8
+M:3/4
+[P:D] !fermata!D !fermata!E !fermata!F | G3ec2 | G2d2c2 | B2BDF2 | 
+D2c2B2 | A3fe2 | EF df dc | (B6 | B4)z |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:
+W:notiert Edi Gasser. Angaben: Josy Verwert
+W:UJV-Naturjodelsammlung: Code-Nr: 49-01
+W:http://www.naturjodler.ch/code 49.htm  (with AUDIO)
+%Juni 13, 2018

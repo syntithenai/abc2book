@@ -1,0 +1,10 @@
+X:150
+T:Mazurka GC (mz05098)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+D2 |: "G"GdB2AG | "D7"Fdc4 | Fe dB cF | "G"Gd BGD2 | Gd B2AG | "D7"Fdc4 | Ae dA cF |1 "G"G2G2D2 :|2 "G"G2G2G2 || 
+|:"D7"Fdc3A | "G"GdB3G | "D7"FE Dc BA | "G"Gd ^cdB2 | "D7"Fdc3A | "G"GdB3G | "D7"FE Dc BA | "G"G2G2G2 :|[K:Cmaj] 
+|: "C"e4dc | "G7"BdG2G2 | f4ed | "C"ce GcE2 | e4dc | "G7"BdG2G2 | AG f2ed |1 "C"c2c2G2 :|2 "C"c2c2z2 |]

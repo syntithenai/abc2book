@@ -1,0 +1,18 @@
+X:16
+T:  Der verliebte Fritz (Walzer)  GDC (wz05085)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.359 (wz05085) orig. G,D,C-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABACD
+M:3/4
+L:1/4
+K:G major
+[P:A] "G"d2B | Ge>B | "D7"d2c |  A3 | .c !>!f>g | .f.e.d | "G".Bb>c' | .b.a.g | d2B | Ge>B | "D7"d2c | 
+A3 | .c!>!f>e | .d!>!b>g |1 "G"(g3 | g)zz :|2 "G"(g3 | g)zA || [P:B] [K:D] "D"A>Bd | "A7"c2B | A>cg | "D"f2f/f/ | 
+fff | "A7"e2d | cc>B | "D"A3 | A>Bd | "A7"c2B | A>cg | "D"f2f | .f.f.f | {/e}"A7"b2a | 
+.g.f.e | "D"dzd | "G"dge | "D7"dag | fc'b | az"_>Teil A"d || [K:C] ((3G/A/B/) | "C"c e/f/ g/f/ | .eG/G/G | 
+[P:C]|: "C"g3 | "G7"f2g | "C"e3 | zd>c | "A7"B2A | G2A | "Dm"F3 | z D/F/ A/d/ | "Dm"f3 | "A7"e2f | "Dm"d3 | zd>c | 
+"G7"B2A | G2F | ("C"E3 |1 E) E/G/ c/e/ :|2 F)ce [P:D] |: "C"g2a | g2c | "G7"B b/b/ b/b/ | bbb | "C"g2c' | "G7"b2f | 
+"C"e c'/c'/ c'/c'/ | c'c'c' | g2a | a2e | "Dm"f d'/d'/ d'/d'/ | d'd'd' | "G7"f/b/ !>!b f/b/ | "C"e/a/!>!a e/a/ | "G7"g/g/gB |1 "C"c.c.e :|2  "C"czz |] 
+% March 27, 2016

@@ -1,0 +1,18 @@
+X:1
+T: Mazurka CG (mz07263)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.107  (mz07263) orig. C,G
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"e>cf3e | "G7"g>fB2d2 | d>Bd3A | "C"A>GG2c2 | g>ec3c | "Dm"f>dA3G | "G7"B>A G>F E>D | "C"C2c2z2 :| [K:G] 
+|: "G"B2d2g2 | d2c3B | "D7".A2.d2.f2 | d2dAF2 | "G".B2.d2.g2 | d2c3B | ("D7"AF dF) .B.A | "G"G2G2z2  :: [K:C] ("C"ge)Tc3c | 
+"Dm"B>A df df | ("G7"fd) TB3A | "C"A>G ce ce | (ec) A3G | "Dm"GF d3d | "G7"B>d f2g2 | "C"e>g.g2.g2 | 
+GF Tc3c | "Dm"B>A df df | ("G7"fd) TB3B | "C"A>G ce ce | eca3"C/Bb"g | "F/A".g2"FM/Ab".f2.d2 | "G7"Bc de A>B | "C"c2c2z2 :| 
+W:
+% mz07263 
+% April 2, 2018

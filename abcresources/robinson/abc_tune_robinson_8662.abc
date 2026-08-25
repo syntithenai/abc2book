@@ -1,0 +1,25 @@
+X:56
+T:Mrs Falconer's Reel, Craigellachie
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:23 - 2
+K:G major
+%%staves {1 2}
+V:1
+~g2 dB ~g2 dB | AGAB A/A/A A2 | ~g2 dB ~g2 dB | AGAB G/G/G G2 ::
+(~g2 b)!wedge!g afge | dBgB A/A/A A2 |  (~g2 b)!wedge!g afge | dBcA G/G/G G2 ::
+GBdB gBdB | GBdB A/A/A A2 | GBdB gBdB | AGAB G/G/G G2 ::
+bgaf g2 eg | dBgB A/A/A A2 |1 bgaf g2 ~eg | dBgB G/G/G G2 :|2 gbab gaeg | dBgB G/G/G G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Gg][Gg][Gg][Gg] | [Dd][Dd][Dd][Dd] | [Gg][Gg][Gg][Gg] | [Dd][Dd][Gg][Gg] :: \
+[gbd'][gbd'][gc'e'][gc'e'] | [gbd'][gbd'][dad'][dad'] | \
+[gbd'][gbd'][gc'e'][gc'e'] | [gbd'][Dad'][gbd'][gbd'] :: \
+[Gg][Gg][Gg][Gg] | [Gg][Gg][Dd][Dd] | [Gg][Gg][Gg][Gg] | [Dd][Dd][Gg][Gg] :: \
+[Gg][Gg][Gg][Gg] | [Gg][Gg][Dd][Dd] | [Gg][Gg][Gg][Gg] | [Gg][Gg][Gg][Gg] :| \
+[Gg][Gg][Gg][Gg] | [Gg][Gg][Gg][Gg] |]

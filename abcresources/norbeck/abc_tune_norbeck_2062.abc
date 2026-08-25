@@ -1,0 +1,30 @@
+X:800
+T:Jolly Tinker, The
+R:reel
+H:This is the Donegal version from John Doherty. See also #237, #962.
+D:Paddy Glackin & Robbie Hannan: The Whirlwind
+D:Martin O'Connor: The Connachtman's Rambles
+Z:id:hn-reel-800
+M:C|
+K:Dmix
+Addc AGEG | Addc AcGc | Addc AdcA |1 GcEF GEFG :|2 GcEF GcBG ||
+|: AD~D2 AGEG | AGAB cABc | AGcA ~G3c |1 AdcA GcBc :|2 AdcA GABc ||
+|: ~d3e c2ce | dAAd fage | ~d3B cBcA |1 (3Bcd ef gfge :|2 (3Bcd ef gefg || 
+|: ad~d2 adbd | afdf adfg | ad~d2 abaf | ge^ce gefg | 
+ad~d2 adbd | afdf adfg | ~a3g (3efg ed |1 (3Bcd ef gefg :|2 (3Bcd ef gefe || 
+P:variations
+|: A2dc AGEG | Addc (3ABA Gc |1 Addc (3ABA cA | GECE G2EG :|2 Addc ABcA | GECE G2EG || 
+AD~D2 AGEG | AGAB (3cdc Bc | AdcA ~G3c | ABcA G2EG |
+AD~D2 AGEG | AGAB (3cdc Bc | ~A3c GCEG | AdcA GABc ||
+~d3B ~c3e | ~d3g afge | ~d3e ~c3A | (3Bcd ef gefe |
+~d3B ~c3e | dA~A2 afge | ~d3e ~c3A | (3Bcd ef g2eg ||
+addf adbd | afdf a2fg | ad~d2 agaf | ge^ce gefg |
+addf adbd | afdf adfg | ~a3g (3efg ed | (3Bcd ef g2eg |
+addf adbd | afdf a2fg | ad~d2 bdad | ^cdef g2eg |
+addf adbd | afdf adfg | ~a3g ~e3d | ^cdef gefe ||
+P:more variations
+|: Addc AGFG | Addc AcGc | Addc ABcA |1 GECE G{A}GFG :|2 GECE GEFG ||
+|: AD~D2 ADBD | AD~D2 ADFG |1 AD~D2 ABcA | GECE GEFG :|2 A^GAB cBcA | GECE G2B^c ||
+|: ~d3e ^cA~A2 | dA~A2 afge | d^cde ^cA~A2 |1 ^cdef g{a}gfe :|2 ^cdef gefg ||
+|: ad~d2 adbd | ad~d2 adfg | ad~d2 bdad | gece g{a}gfg |
+ad~d2 adbd | ad~d2 adfg |1 abag efed | ^cdef gefg :|2 abag eaed | ^cdea gfe^c ||

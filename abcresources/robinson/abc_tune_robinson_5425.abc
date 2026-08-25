@@ -1,0 +1,20 @@
+X:180
+T:Schlittschuh-Polka CGF (pk07296)  ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.280 (pk07296) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:4/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "G7"e2d2f2B2 | "C"d2c2cBc2 | "G7"agB2agB2 | "C"ag ec ag ec | "G7"e2d2f2B2 | "C"d2c2cBc2 | 
+"G7"agB2agB2 | "C"c2e2c2z2 :| [P:B] [K:G] "G"B2Bd b2B2 | d3ed2B2 | "D7"c3dc2A2 | "G"GA Bc de fg | 
+B2Bdb2B2 | d3ed2B2 | "D7"c3dc2A2 | "G"G2g2g2"_>Teil A"z2 || [P:C] [K:F] "F"c2A2d2c2 | "C7"c2B2d2c2 | 
+cb gec'2c'2 | "F"ca fc c'2c'2 | c2A2d2c2 | "C7"c2B2d2c2 |  cb ge c'2c'2 | "F"f2a2f2"_Fine"z2 |] 
+W:
+% pk07296
+% June 2, 2017

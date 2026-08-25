@@ -1,0 +1,21 @@
+X:139
+T:Meine Königin (Walzer) CGF (wz02043)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.288 (wz02043) orig. C,G,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+O:Switzerland
+R:Walzer
+M:3/4
+L:1/4
+K:C major
+[P:A] "C"eg>e | gc/g/c | g3 | "G7"B3 | fg>^f | g2d | g3 | "C"c3 | gc'>g | c'3 | 
+"G"gb>g | b3 |1 "F"fa>f | "G7"a3 | "C"eg>e | g3 :|2 "F"fa>g | "G7"d2e | "C"c>cc | czz || [P:B] [K:G] 
+"D7"d>dd | zef | "G"g2d | z^cd | "D7"a2d | f2c | "G"g2d | g/b/ f/a/ g/e/ | 
+"D7"d>dd | zef | "G"g2d | z^cd | "D7"a2d | f2d | "G"g>gg | "_>Teil A"g3 || [P:C]  [K:F] 
+|: "F"AB=B | ca>f | "C7"fe>g | B3 | dd>c | c/b/b2 | c/g/g2 | "F"f/a/ e/g/ f/d/ | cA=B | 
+ca>f | "C7"f>eg | c/d/ e/f/ g/a/ | b2e |1 a/a/ag | ("F"f3 | f)zz :|2 "C7"c'/c'/c'e | ("F"f3 | f)zz |] 
+% wz02043 (H 073/TN 43)
+% Sep 28, 2016

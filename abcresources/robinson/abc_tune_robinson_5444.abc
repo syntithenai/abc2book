@@ -1,0 +1,22 @@
+X:196
+T:Agnes-Schottisch GDC (st06442) ABACDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.153 (st06442) orig. G,D,C
+T: Basel - Repertoire der 'Dorfmusik Binningen. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+(B/c/) [P:A] |: "G"d(B/c/) dg | P("C"fe) e(A/B/) | "D7"c(A/B/) cf | P("G"ed) d(B/c/) | d(B/c/) db | P"C"ba ge | 
+"D7"d(^c/d/) b>a |1 "G"gg gB/c/ :|2 "G"gg gA |: [P:B] [K:D] "D"f2f2 | a2f2 | "A7"e2(fg) | "D"f3A | f2f2 | 
+a2f2 | "A7"eb ac |1 "D"dd dA :|2 "D"dd "D7"dB/"_>Teil A"=c/  ||   [K:C] G [P:C] |: "C"ee ea | g2 eg | 
+"G7"f2df | "C"ea "G7"g>f | "C"ee ea | g2 eg | "G7"fe dB |1 "C"cc c"_Fine"G :|2 "C"cc ca/a/ || 
+[P:D] ("Am"a2 e)e/e/ | (e2c)c/c/ | "E7"Be Be | "Am"cB Aa/a/ | (a2e)c'/c'/ | (c'2a)a/a/ | "E7"^gb "B7"a^f | "E7"ez "_>Teil C""G7"g>f ||  
+W:
+W:Anmerkung H.C.:Seltisberg 55, Glaus, s.V.460
+% st06442
+% Dez 11, 2016

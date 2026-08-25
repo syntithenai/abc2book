@@ -79,9 +79,18 @@ class GenerationSpec:
     session_options: dict[str, Any] = field(default_factory=dict)
     audio_cover_strength: float = 1.0
     cover_noise_strength: float = 0.0
+    init_noise_level: float = field(default_factory=lambda: float(
+        os.getenv("PRACTICE_TRACK_INIT_NOISE_LEVEL") or 0.35
+    ))
 
     @classmethod
-    def from_preset(cls, preset: dict[str, Any]) -> GenerationSpec:
+    def from_preset(cls, preset: dict[str, Any], **overrides: Any) -> GenerationSpec:
+        default_noise = float(os.getenv("PRACTICE_TRACK_INIT_NOISE_LEVEL") or 0.35)
+        init_noise = overrides.pop("init_noise_level", None)
+        if init_noise is None:
+            init_noise = preset.get("initNoiseLevel")
+        if init_noise is None:
+            init_noise = default_noise
         return cls(
             model_id=str(preset.get("modelId") or preset.get("model_id") or ""),
             family=str(preset.get("family") or "stable_audio"),
@@ -92,6 +101,8 @@ class GenerationSpec:
             session_options=dict(preset.get("sessionOptions") or {}),
             audio_cover_strength=float(preset.get("audioCoverStrength") or 1.0),
             cover_noise_strength=float(preset.get("coverNoiseStrength") or 0.0),
+            init_noise_level=float(init_noise),
+            **overrides,
         )
 
 
@@ -124,6 +135,8 @@ class AudioGenerationProvider(ABC):
         language: str = "en",
         duration_sec: float | None = None,
         negative_prompt: str = "",
+        tempo_bpm: float | None = None,
+        meter: str | None = None,
     ) -> Path:
         raise NotImplementedError("Cover generation not supported by this provider")
 
@@ -187,6 +200,8 @@ class MockAudioGenerationProvider(AudioGenerationProvider):
         language: str = "en",
         duration_sec: float | None = None,
         negative_prompt: str = "",
+        tempo_bpm: float | None = None,
+        meter: str | None = None,
     ) -> Path:
         source = Path(source_audio_path)
         audio, sr = sf.read(str(source), always_2d=False)
@@ -195,6 +210,13 @@ class MockAudioGenerationProvider(AudioGenerationProvider):
         out = Path(output_path) if output_path else Path("/tmp/mock-cover.wav")
         out.parent.mkdir(parents=True, exist_ok=True)
         tinted = audio.astype(np.float32) * 0.85
+        if duration_sec and duration_sec > 0:
+            target = int(round(float(duration_sec) * sr))
+            if len(tinted) > target:
+                tinted = tinted[:target]
+            elif len(tinted) < target:
+                reps = int(np.ceil(target / max(1, len(tinted))))
+                tinted = np.tile(tinted, reps)[:target]
         sf.write(str(out), tinted, sr)
         return out
 
@@ -208,7 +230,7 @@ class AudioCppProvider(AudioGenerationProvider):
         self,
         base_url: str | None = None,
         model_id: str | None = None,
-        timeout_sec: float = 600.0,
+        timeout_sec: float = 0.0,
     ):
         self.base_url = (base_url or os.getenv("AUDIO_CPP_URL") or "http://127.0.0.1:8788").rstrip("/")
         self.model_id = (
@@ -216,7 +238,14 @@ class AudioCppProvider(AudioGenerationProvider):
             or os.getenv("AUDIO_CPP_MODEL_ID")
             or "stable-audio-3-small-music"
         )
-        self.timeout_sec = timeout_sec
+        # Long medium-model jobs need >10 minutes on Vulkan; default 30 minutes.
+        env_timeout = os.getenv("AUDIO_CPP_TIMEOUT_SEC") or os.getenv("PRACTICE_TRACK_AUDIO_TIMEOUT_SEC")
+        if timeout_sec and timeout_sec > 0:
+            self.timeout_sec = float(timeout_sec)
+        elif env_timeout:
+            self.timeout_sec = float(env_timeout)
+        else:
+            self.timeout_sec = 1800.0
 
     def _resolve_spec(self, spec: GenerationSpec | None) -> GenerationSpec:
         if spec is not None:
@@ -241,11 +270,30 @@ class AudioCppProvider(AudioGenerationProvider):
         except urllib.error.URLError as exc:
             raise RuntimeError(f"audio.cpp unreachable at {self.base_url}: {exc}") from exc
 
+    def list_model_ids(self) -> list[str]:
+        try:
+            body = self._request_json("GET", "/v1/models")
+        except Exception:
+            return []
+        data = body.get("data")
+        if not isinstance(data, list):
+            return []
+        ids: list[str] = []
+        for item in data:
+            if isinstance(item, dict) and item.get("id"):
+                ids.append(str(item["id"]))
+        return ids
+
     def health(self) -> dict:
         for path in ("/health", "/"):
             try:
                 self._request_json("GET", path)
-                return {"ok": True, "provider": "audio_cpp", "url": self.base_url}
+                return {
+                    "ok": True,
+                    "provider": "audio_cpp",
+                    "url": self.base_url,
+                    "availableModelIds": self.list_model_ids(),
+                }
             except Exception:
                 continue
         return {
@@ -314,6 +362,7 @@ class AudioCppProvider(AudioGenerationProvider):
         if guide_path:
             request_body["audio"] = guide_path
             options["audio_input_kind"] = "init_audio"
+            options["init_noise_level"] = resolved.init_noise_level
 
         if options:
             request_body["options"] = options
@@ -340,6 +389,8 @@ class AudioCppProvider(AudioGenerationProvider):
         language: str = "en",
         duration_sec: float | None = None,
         negative_prompt: str = "",
+        tempo_bpm: float | None = None,
+        meter: str | None = None,
     ) -> Path:
         resolved = self._resolve_spec(spec)
         out = Path(output_path) if output_path else Path("/tmp/audio-cpp-cover.wav")
@@ -366,6 +417,10 @@ class AudioCppProvider(AudioGenerationProvider):
         neg = (negative_prompt or "").strip()
         if neg:
             options["negative_prompt"] = neg
+        if tempo_bpm and float(tempo_bpm) > 0:
+            options["bpm"] = int(round(float(tempo_bpm)))
+        if meter:
+            options["timesignature"] = str(meter).strip()
 
         request_body: dict = {
             "text": prompt,

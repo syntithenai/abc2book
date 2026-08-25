@@ -1,0 +1,69 @@
+X:9
+T:Wragg's Duetto the 43rd.2voices. RH.009
+R:Waltz
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson.phew....
+M:6/8
+L:1/8
+Q:3/8=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:G major
+[V:1]|:D|"^A"(G>Bd) (d>BG)|(ce).e e2g|(d<B)G D>dB|
+[V:2]|:z|z2G BGD|(EG)c c2z|B<(GD) D>BG|
+%
+[V:1] (B3A2)D|G>Bd (d>B).G|(ce).eHe2(a/4g/4f/4e/4)|(d<B)G (c<A).F|G3G2:|
+[V:2] (G3F2)z|z2G (BG).D|(EG).cHc2z|(B<G).D (F<A).c|cBd B2:|
+%
+[V:1]|:(B/c/)|"^B"(dB).G (cA).F|(dB).G (cA).F|(dB).G (gd).B|
+[V:2]|:G/A/|(BG).B (AF).A|(BG).B (AF).A|(BG).B (dB).G|
+%
+[V:1] B3A2(d/4c/4B/4A/4)|(GB).G (dB).G|(ec).gg2(e/f/4g/4)|(d<B)G D>GF|G3G2:|
+[V:2] (G3F2)z|z2G BGB|cGee2z|z2BA2A|B2dB2:|
+%
+[V:1]|:D|"^C"(G/B/d/c/B/A/) (G/B/d/c/B/A/)|Gee "tr"e2g|(f/g/)(a/g/)f/e/ (d/e/)(d/c/)B/A/|
+[V:2]|:z|D2F G(B/A/)(G/F/)|EGc"tr"c2e|d2c (B/c/)(B/A/)(G/F/)|
+%
+[V:1] "tr"(B3A2)D|(G/B/d/c/B/A/) (B/G/)(d/A/)(B/G/)|B/(G/A/B/).c/.d/He2z|(B/c/).d/.B/(A/G/) (cAF)|(G3G2):|
+[V:2] "tr"(G3F2)z|zDF GAG|G2BHc2z|zGB AFA|GBdG2:|
+%
+[V:1]|:B/c/|"^D"d/B/(A/G/)e/c/ d/B/(A/G/)e/c/|d/B/(A/G/)e/c/ d2c|B/(G/A/B/).c/.d/ (e/f/g/).d/(c/B/)|
+[V:2]|:G/A/|B zc B zc|BBcB2A|G3-GBG|
+%
+[V:1] "tr"(B3A2)B/c/|d/c/(B/G/)e/c/ d/B/(A/G/)e/c/|B/G/c/A/d/B/ He2z|(g/f/g/)d/B/G/ cAF|G3-G2:|
+[V:2] "tr"(G3F2)D|B zc B zc|B2G Hc2z|BG2AFA|GBdB2:|
+%
+[V:1]|:g|"^E"gbd' d'bg|c'2d'e'2z|d'/e'/(d'/c'/)(b/a/) (a/c'/)(d'/e'/)(e/a/)|
+[V:2]|:z|z2b bgd|egbc'2z|bbfg2c|
+%
+[V:1] (g3f2)d|ecc dBB|cAF Hg2c'|d'bg c'af|g3-g2:|
+[V:2] (B3A2)B|c.A(A B).G.G|A2AHB2z|bgd adc|BdcB2:|
+%
+[V:1]|:b/c'/|"^F"d'd'd' d'bg|c'e'c'a3|bc'd' e'c'a|
+[V:2]|:g/a/|b2b bgd|a2af3|g2b c'af|
+%
+[V:1] (g3f2)d|.e(g/e/g/e/) dBG|GBd He2g|dBG cAF|G3-G2:|
+[V:2] gdB ADB|c(e/c/e/c/) BGD|zGB Hc2d|z2B ADD|DBdB2:|
+%
+[V:1]|:B/c/|"^G".d/.B/(A/G/F/G/) .d/.B/(A/G/F/G/)|\
+.d/.B/(A/G/F/G/)A2c|B>cd ec'c'|
+[V:2]|:g|B2zB2z|B3z2A|G2Bc2c|
+%
+[V:1] (g3f2)d|.e/(c/B/c/).e/.c/ d/(B/A/B/).c/.A/|.B/(G/A/B/).c/.d/ He2z|\
+"_sic"d(c/B/).A/.G/ ADF|G3-G2:|
+[V:2] (B3A2)z|cGG BdF|G2B Hc2z|c(B/A/).G/.A/D2z|D2BG2:|
+%
+[V:1] D|"^H"(GB).d (dB).G|(ce)e "tr"e2g|(dB)G DdB|(B3A2)D|
+[V:2] z|zG2BGE|EGc"tr"c2G|BGD D>BG|(G3E2)z|
+%
+[V:1] (GB)d (dB)G|(ef/g/ a/4g/4f/4e/4) .d.B.G|e2b c'df|\
+gb/g/b/g/ ac/a/c/a/|.d'(c'/b/).a/.g/ .c'.b.a|
+[V:2] zG2BGB|c3B3|c2GA2A|B3c3|ba/g/f/e/ agf|
+%
+[V:1] g3e3|d(c/B/)A/G/ cBA|Gb/d'/b/d'/ bb/d'/b/d'/|bg'f' e'd'c'|
+[V:2] zee zcc|(BA/G/).E/.G/ AGF|G2zG2z|ge'd' c'ba|
+%
+[V:1] be'd' c'ba|gb/a/g (gb/a/f)|.g.g.g. g2|]
+[V:2] gg'f' e'd'c'|b za b za|.b.b.b. b2|]

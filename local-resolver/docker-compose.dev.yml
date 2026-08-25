@@ -108,6 +108,7 @@ services:
       - ./midi_note_events.py:/app/midi_note_events.py
       - ./midi_to_abc.py:/app/midi_to_abc.py
       - ./midi_cleanup.py:/app/midi_cleanup.py
+      - ./midi_score_prepare.py:/app/midi_score_prepare.py
       - ./midi_drum_map.py:/app/midi_drum_map.py
       - ./musescore_fetch.py:/app/musescore_fetch.py
       - ./musescore_convert.py:/app/musescore_convert.py

@@ -1,0 +1,40 @@
+X:39
+T:Villey Vous Dance,3parts. JNu.40
+T:Voulez Vous Dancer,aka.3parts JNu.40
+M:6/8
+L:1/8
+Q:3/8=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:Lancashire, E
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:D major
+[V:1] |: A/d/ | f2f f2f | ede d2d | c2d e2c | d2e f2A |
+[V:2] |: A | d2dd2d | GFGF2F | A2Bc2A | B2cd2A |
+[V:3] |: z | D2DD2D | A,2A,D,3 | A,2A,A,2G, | F,2E,D,3 |
+%
+[V:1] f2f f2f | ede def | g2f e2d | ABc d2 :|
+[V:2] d2dd2d | GFG FAd | e2dc2B | ABGF2 :|
+[V:3] D,2D,D,2D, | A,2A,D,2D, | A,2G,A,2G, | A,,2A,,D,2 :|
+%
+[V:1] |: f | e2e c2A | def e2a | e2e c2A | def e2a |
+[V:2] |: d | c2cA2F | Bcdc2f | c2cA2F | Bcdc2f |
+[V:3] |: z | A,2zA,2z | D,2zA,2z | A,2zA,2z | D,2zA,2z |
+%
+[V:1] a2^g g2f | f2e e2d | d2c c2A | BAB A2 :|
+[V:2] e6 | d2cc2B | B2AA2A | Bcdc2 :|
+[V:3] C,6 | A,2zA,2z | D,2zE,2z | E,2zA,,2 :|
+%
+[V:1] |: f | a2a a2a | =gfg f2f | e2f g2e | f2g a2A |
+[V:2] |: d | dfa dfa | cea cea | c2zc2z | .d2z.d2z |
+[V:3] |: z | .D,2z.D,2z | .A,,2z.D,2z | .A,,2z.A,,2z | D,F,A,.D,2z |
+%
+[V:1] f2f f2f | ede def | g2f e2d | ABc d2 :|
+[V:2] dfa dfa | cea dfa | g2fe2d | fgef2 :|
+[V:3] D2DD2D | A,2A,D,2D, | G,2G,A,2A, | A,,2A,,D,2 :|

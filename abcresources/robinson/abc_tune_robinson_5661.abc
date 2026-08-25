@@ -1,0 +1,36 @@
+X:1
+T:Älpler-Juiz  Ab (trad)
+T:Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser (nach Angaben von August	Wirz). 
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Ab major
+[P:A] "_erhaben" EE | c3B Ac | e4 (3cBA | G4 (3BGf | e4EE | d3B Gd | 
+E3G (3B,DG | A3F Ee | c4 (3A,CE | c3B Ac | E3A GA 
+B3A FD | B,3A GF | E4 Ac | e3d Bc | (A6 | A2)z2 |]
+M:3/4
+[P:B] "lüpfig" EE | c2cB AF | EA AC EA | G2BE GB | D4EE | 
+d2dB GF | EG GD EB | AA AC EA | C4EE | c2cB AF | 
+EA AC EA | G2BE GB | D4EE | d2dB GF | E2 BD EB | (A6 | A2)z2 ||
+M:3/4
+[P:C] "langsam" E>E | D3E BA | Gd Fd ED | C3E cA | Ec AE CE | 
+B,3D BA | G3F ED | C3E Ac | e4 E>E | D3E BA | Gd Fd ED | 
+C3E cA | Ec AE CE | B3D BA | G4FE | (A6 | A2)z2 || 
+M:3/4
+[P:D] "walzermässig" EE | e3d ce | d2c2B2 | A2C2F2 | EE Ec BA | 
+D2B,2F2 | EE Ed cB | A2C2F2 | E4EE | e3d ce | d2c2B2 | 
+A2C2F2 | EE Ec BA | G3FE2 | e3dG2 | (A6 | A2)z2 |] 
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 01-01
+W:http://www.naturjodler.ch/code 2001.htm  (with AUDIO *)
+W:
+W:* Do yourself a favor and listen to the orig. audio first of all.
+%April 25, 2018

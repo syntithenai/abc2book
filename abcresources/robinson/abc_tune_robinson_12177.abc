@@ -1,0 +1,31 @@
+X:74
+T:German Airs.2voices RH.074
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:C|
+N:This is a march. PJH.
+L:1/8
+Q:1/2=60
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:C major
+[V:1]|:G2|c2ec d2fd|ec'ba g2((3efg)|a2((3fga) b2((3gab)|c'2c>c c2:|
+[V:2]|:GF|E2cE B2dB|cagf e2((3cde)|f2((3def) g2dd|e2c>c c2:|
+%
+[V:1]|:e>f|g2ge g2c'g|a2af a2c'a|g2ge g2ge|d'2d>d d2ed|
+[V:2]|:c>d|e2ec e2ae|f2fd f2af|e2ece2ec|B2B>B B2cG|
+%
+[V:1] c2ec d2fd|ec'ba g2((3efg)|a2((3fga )b2((3gab)|c'2c>c c2:|
+[V:2] E2cE B2dB|cagf e2((3cde)|f2((3def) g2ed|e2c>c c2:|
+%
+[V:1] [M:6/8]|:"^Allegro"g|cdc dfd|ec'b geg|afa bgb|c'cc c2:|
+[V:2] [M:6/8]|:G|EGE BcB|caf ece|fdf g2f|e2E E2:|
+%
+[V:1]|:e/f/|geg gc'g|afa ac'a|geg gfe|d'dd ded|
+[V:2]|:c/d/|ece e2e|fdf faf|ece edc|BBB B2c/G/|
+%
+[V:1] cec dfd|ec'a geg|afa bgb|c'ccc2:|
+[V:2] EGE BdB|eaf ece|fdf g2f|e2E E2:|

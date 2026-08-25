@@ -1,0 +1,15 @@
+X: 156
+T: Rheinländer FBb (RL05577)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.45 (RL05577) orig. F,Bb-Dur
+S: Bauernkapelle 'Edelwieiss', Faulensee (Bern)
+%%abc-charset utf-8
+R:Reinländer
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+cAB |: "F"cAFA cAca | fcAd c2ca | "C7"geBG B2Bg | "F"fcAd c2Ac | cAFA cAcf | "Gm/Bb"gdBd g2gb | 
+"C"geBG ceag |1 "F"f2f2 fcAB :|2 "F"f2f2 f2z2 |: "Dm"a3f dfed | "A7"^c2e2 A4 | ^ceA2 ceA2 | "Dm"f2e2 d4 | "C7"c3e gbag | 
+"F"a2f2 c3^c | "Gm/Bb"d2gf "C7"e2ag |1 "F"f2a2 f2z2 :|2 "F"f2a2 f2Bd |: [K:Bb] "Bb"f2f2 gfdB | "F7"A2e2 e2cB | A2g2 A2a2 | "Bb"b2d2 f2Bd | 
+f2f2 gfdB | "Dm"A2f2 f2df | "A7"e2a2 agfe |1 "Dm"d2f2 d2Bd :|2 "Dm"d2f2 d2f^f |: "Cm/Eb"gceg c2=Bc | "Bb"fBdf B2cB | 
+"F7"ABcd efag | "Bb"Pg2f2 f2f^f | "Cm/Eb"gceg c2=Bc | "Bb"fBdf B2cB | "F7"ABcd efga |1 "Bb"b2b2 b2f^f :|2 "Bb"b2b2 b2z2 |]

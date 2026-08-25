@@ -1,0 +1,15 @@
+X:112
+T: Marsch/Schottisch GDC (st04927)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.304 (st04927) orig. G,D,C-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABACDC
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+[P:A] "G"g2B2 d2dg | "D7"f2A2 c2cf | a2A2 d2fa | "G"g2B2 d2dg | g2B2 d2dg | "D7"f2A2 c2cf | a2A2 d2fa | "G"g2g2 g2z2 :|
+[P:B] |: [K:D] "A7"A2g2 A3e | "D"A2f2 dcd2 | "A7"A2e2 cBc2 | "D"A2f2 dcd2 | "A7"A2g2 A3e | "D"A2f2 dcd2 | "A7"A2e2 dcBc | "D"d2d2 d2"_>Teil A"z2 :|
+[P:C] |: [K:C] "C"G4ABcd | e4c2ea | "G7"g4d2fa | "C"g4e4 | G4ABcd | e4c2ea | "G7"g4 gfde | "C"c2c2 c2"_fine"z2 :|
+[P:D] |: [K:G] "D7"d2^cd ed=cA | "G"G2Bd gfg2 | "D7"a2ag f2d2 | "G"b2ba g2Bc | "D7"d2^cd ed=cA | "G"G2Bd gfg2 | "D7"a2ag fdef | "G"g2g2 "_>Teil C"g2z2 :|

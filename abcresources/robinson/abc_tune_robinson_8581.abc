@@ -1,0 +1,23 @@
+X: 155
+T:Capt William McLeod's Fancy. of the 6th Veteran Battalion
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:54 - 1
+K:F major
+%%staves {1 2}
+V:1
+f2 c cdB | {B}A2 G F3 | gab agf | {f}e2 d c3 | \
+(d2 B) b2 B | c2 A a2 A |
+|1 GAB AGF | EGF EDC :|2 {B}AGF CDE | F3 F3 |: \
+CCC (C2 f) | (ef/g/).e c2 z |
+CCC (C2 f) | (fg/a/).f c3 | \
+(b2 g) (a2 f) | (g2 e) f2 c | {e}dcB ABG | {E}F3 F3 :|
+V:2 clef=bass octave=-2
+f3 f3 | f3 a3 | b3 =b3 | c'3 a3 | b3 b3 | a3 f2a | b3 =b3 | c'3 c3 :| c'3 c3 | [Ff]3 [Ff]3 |: \
+CcCc3 | C3cCc | CcCc3 | F3fFf | e3 f3 | b3a2f | b2g c'2c | f3f3:|
+%%vskip .15cm

@@ -1,0 +1,27 @@
+X: 24
+T:Mrs Henry Lumsden of Tillwhilly's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:9 - 1
+K:Bb major
+%%staves { 1 2 }
+V:1
+g | \
+B<B {Bc}d>c ~B2 (B>F) | G>BF>B {Bc}d<c-c>g | \
+B<B {Bc}d>c ~B2 (B>F) | (c/d/)c/B/ (A/G/)F/E/ D>B,B,>g |
+B<B {Bc}d>c ~B2 (B>F) | G>BF>B {Bc}d<cc>d | \
+B<B {Bc}d>c ~B2 (B>F) | (c/d/)c/B/ (A/G/)F/E/ D<B, B, :|
+B |\
+D<B,B,>G D<B,B,>B | DB, G/F/E/D/ ECCB | \
+DB,DF EGFB | e<g!trill!c>e d<B ~B2 |
+D<B,B,>B D<B,B,>B | DB, G/F/E/D/ ECCg | \
+{g}!trill!f>e {e}!trill!d>c ~B2 (B>d) | (c/d/)c/B/ (A/G/)F/E/ D<B,B, |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | BBBB | edcc | BBBd | efBB | BBBB | edff | BBBB | efBB/ :| \
+z/ | BBBB | BBcc | BBed | efBB | BBBB BBcc | bfgd | efBB/ |]

@@ -1,0 +1,20 @@
+X:76
+T:Mazurka CF (mz07389)  ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.319 (mz07389) orig. CF
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] ("C"eg)c2c2 | ("Dm"^cd)A4 | ("G7"ag)B2d2 | "C"c>d e>f ^f>g | (eg)c2c2 | "D7"^cdA4 | ("G7"ag)B2d2 | 
+"C"c2c'2z2 :| [P:B] [K:G] {/e}"D7"d>^c d>^d e>f | "G"a>gB2e2 | {/e}"D7"d>^c=c3A | "G"G>A B>c d>e | {/e}"D7"d>^c d>^d e>f | 
+"G"a>g B2e2 | {/e}"D7"d>^c=c3d | "G"g2g2"_>Teil A""G7"=f2 || [P:C] [K:F] {/d}"F"c>=B c>A c>f |  "Gm"ag d2g>f | {/f}"C7"e>^d e>d' c'>b | 
+"F"^ga f2d2 | {/d}c>B c>A c>f |  "Gm"ag d2g>f | "C7"e>^d e>d' c'>e  | "F"f2f2z2 ||  [P:D] {/d}"F"c>=B c2f2 | "Gm"ag ^c2d2 | 
+{/a}"C7"g>^f g2b2 | "F"d'c' ^g2a2 | {/d}c>=B c>A c>f | {/e}"Gm"d>^c d>B d>g | "C7"e>f ^f>g a>g | "F"f2f2z2 |] 
+%% mz07389
+% July 25, 2017 (das Traumselbst)

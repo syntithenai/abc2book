@@ -1,0 +1,19 @@
+X:50
+T:Marsch  FBb (mr09389)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.215 (mr09389) orig. F,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:March
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F"f2 A>c | dc ba | "C7".g2.c'2 | "F"f3A/c/ || "F"d>c cc | d>c cc | "C7"b>e ee | e3 B/c/ | d>c cc | 
+d>c cc | "F"a>f ff | f3 A/c/ | d>c cc | d>c cc | "C"g>e ee | ec' =ba | "G7"g2 =b>a | gf ed | 
+"C"cc/c/ eg | c'c =Bc |: "Gm/Bb"d3c | "C7"=Bc b>e | "F"f3c | Ac a>f | "C7"e3c | =Bc de |1 "F"f>e fg | 
+a3c :|2 "F"f2 a>g | ff fz |: [K:Bb] "Bb"Bc ^cd | fff2 | Bc ^cd | "F7"eee2 | AB =Bc | 
+aa a>c' | "Eb"gg g>b | "Bb"fff2 | Bc ^cd | fff2 | Bc ^cd | "F"ccc2 | c=B/c/ fa | d'c' ba | 
+"tr""C7"ag "tr"ag | "F7".f2 !>!f2 :| !>!"Bb"b2 !>!a2 | !>!g2 !>!f2 | "F7"g/f/e/c/A2 | g/f/e/c/A2 | b2a2 | g2f2 | "Bb"g/f/d/B/ F2 | 
+g/f/d/B/F2 | b2a2 | g2f2 | "Cm/Eb"a/g/e/c/ G2 | a/g/e/c/ G2 | "Bb"d^c df | "F"c=B cd | "Bb"B2b2 | b2z2 |] 
+% mr09389 (Tv337/TN 23)

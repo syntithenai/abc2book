@@ -1,0 +1,41 @@
+X:2
+T:Gante-Jodel. C 2+
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=64
+R:Naturjodel
+M:6/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] G2EG c2 EG dF Gf | e2c2G2c2E2 eg | f2B2G2B2F2 fg | e2c2G2c2E4 | 
+w:ja ho-lo u jo-lo u-o lo-u u lu ja lu jo u-lu u lu ja lu jo u-lu u lu ja lu jo
+G2EG c2 EG dF Gf | e2c2G2c2E2 eg | f2B2G2B2 FG Bd | c8z4 |] 
+w:ja ho-lo u jo-lo u-o lo-u u lu ja lu jo u-lu u lu ja lu jo-lo u-lu u
+L:1/4
+[P:B] f>F Afe d/2f/2 | e>EGec e/2g/2 | f>F GfB f/2g/2 | e>EGec2 | 
+w:ju o lo u u u-lu u jo lo ju lu ju-lu u jo lo u lu u-lu u jo lo u lu
+f>F Afe d/2f/2 | e>EGec e/2g/2 | f>F Gf B/2F/2 G/2d/2 | c4 z2 |] 
+w:ju o lo u lu u-lu u jo lo ju lu ju-lu u jo lo u u-jo lo-u u
+M:3/4
+Q:3/4=46
+[P:C] G| g>fd/2B/2 | G B/2F/2G/2f/2 | e>Gc/2e/2 | G2 e/2g/2 | f>GB/2d/2 | 
+w:ja | ju lü-du-lü jo u-o-lo-u u ja-u-lü o u-lü u ja-u-lü
+G2f/2g/2 | e>Gc/2e/2 | !fermata!g2G | g>fd/2B/2 | GB/2F/2G/2f/2 | 
+w:o u-lü u ja-u-lü u ja ju lü-du-lü a u-o-lo-u
+e>Gc/2e/2 | G2e/2g/2 | f>GB/2d/2 | G>B"rit."d/2!fermata!g/2 | c3 |] 
+w:u ja-u-lü o u-lü u ja-u-lü a u-u-lü u
+W:
+%W:Parts: ABC
+%W:Jodelklub Ebnat-Kappel, Jodlerin, Lina Bösch-Lusti
+%W:Schallplatte Toggeburger-Lüüt, Tell Record TLP 5047
+%W:Bei dieser Interpretation ist die variantenreiche Vokalisation der "alten" Ebnater
+%W:(Emil Hartmann) nicht mehr vorhanden.
+%W:Die Jodlerin singt weitgehend nur mit ja - jo in der Brustlage,
+%W:und mit u - lu in der Kopfstimme. 
+%W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/Gante-Jodel.1472.pdf
+W:*AUDIO*:  
+W: www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2017 ROOTHUUS GONTEN. #1472.10 (086A6)
+% Feb. 11 2019

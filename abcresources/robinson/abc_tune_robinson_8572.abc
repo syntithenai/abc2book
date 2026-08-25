@@ -1,0 +1,24 @@
+X: 169
+T:Mrs Capt. Skene of Carrestons Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:58 - 3
+K:Eb major
+%%staves {1 2}
+V:1
+~E2 {d}(e>c) B>G F<G | E<C-C>!wedge!B, C<FF>G | \
+~E2 {d}(e>c) BG A/G/F/E/ | B,>E D/E/F/D/ G<E ~E2 :|
+{d}eBeg (a/g/)f/e/ ~f2 | eBfB gBfB | \
+e>Be>g (a/g/)f/e/ ~f2 | {d}e>BAG CFDB, |
+{d}eBeg (a/g/)f/e/ ~f2 | eBfB gBfB | \
+(3efg (3fed (3edc (3BAG | (3ABc (3BAG CFDB, |]
+V:2 clef=bass octave=-2
+L:1/4
+"^Moderately slow"
+eeeB | AGAB | EeeG | B[B,B]EE :| \
+eeeB | eBeb | eeeB | eGAB | eeeB | eBeb | eBcG | AGAB |]

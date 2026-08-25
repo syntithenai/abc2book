@@ -1,0 +1,18 @@
+X:51
+T:Galopp CF (GL02034)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.286 (GL02034) orig. C,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+K:C major
+"C".e2 .^d2 | .e2.G2 | ee dc | "G7"cBB2 | .f2.e2 | .f2.G2 | ff ed | "C"dcc2 | 
+.e2 .^d2 | .e2.G2 | ee dc | "G"cBB2 | "D7".d2.^c2 | !>!d3e/d/ | ^cd e^f | "G".g2zg | 
+"G7"f>g G>g | f3g | "C"e>g c>g | e3d/c/ | "G7"B>B Bc | d>e fg | "C".a2g>^f | g3g | 
+"G7"f>g G>g | f3g | "C"e>g c>g | e3d/c/ | "G7"Bc de | fg ab | "C".c'2c>c | .c2zc || [K:F] 
+"C7".c2.e2 | .g2.b2 | "F".a2.f2 | c'4 | "C7"dc =Bc | ef/g/ de | "F"gf ef | c2zc | 
+"C7".c2.e2 | .g2.b2 | "F".a2.f2 | c'4 | "Bb"db "C7"ag | "F"gf ed | "C7"c=B/c/ a>g | "F"ff fz |] 
+% GL02034 (H 071/Tn 34)

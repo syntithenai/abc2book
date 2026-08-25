@@ -1,0 +1,29 @@
+X:4
+T:Quick and Merry.2voices. AJH.004
+M:6/8
+L:1/8
+Q:3/8=120
+S:A.J.Hughes MS
+O:England
+A:Shropshire, N
+W:The first Gent'n lead his partner With both round the 2nd cup to their own places.
+W:The 2nd Cup do the same round the 1st Cup to their own places.
+W:1st Cup lead down the middle up again. Allemade(sic) with partner
+Z:Neil Brookes 2006
+V:1 clef=treble
+V:2 clef=bass
+%%staves {1 2}
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:D major
+[V:1] |: D2d dcB | ABA AGF | GGG FFF | EEE GFE |
+[V:2] |: D,F,A, F,2G, | F,3 D,3 | E,E,E, D,D,D, | C,2A,, D,3 |
+%
+[V:1] D2d dcB | ABA AGF | Bcd efg | fge d3 :|
+[V:2] D,F,A, F,2G, | F,3 D,3 | G,3 E,3 | A,2A,, D,3 :|
+%
+[V:1] |: a3 f3 | BdB BdB | g3 e3 | AcA AcA |
+[V:2] |: D,F,A, D,F,A, | D,G,B, D,G,B, | C,E,A, C,E,A, | C,E,A, C,E,A, |
+%
+[V:1] ddd BBB | ggg eee | fga agf | gec d3 :| !
+[V:2] D,F,A, D,F,A, |C,E,A, C,E,A, | F,2G, F,2D, | A,2A,, D,3 :|

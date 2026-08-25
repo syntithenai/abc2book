@@ -1,0 +1,37 @@
+X:1
+T:De Stadelwendeler. F-Dur (Toggenburger Naturjodel)
+T:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=64
+R:Naturjodel
+M:6/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A]  FE | D2C>Cc2Fd/c/A2FE | "C7"D2C2c2Ed/c/!breath!B3E/E/ | "C7"D2C>Cc2E>E dc BE | 
+"F"F3AD2C>C!breath!F3F/F/ | "F"D2C>Cc2Fd/c/A2FE | "C7"D2C2c2Ed/c/!breath!B3E/E/ | "C7"D2C>Cc2E>E dc BE | "F"F8 |]
+Q:1/4=76
+[P:B] (3DFB | "Bb"d2F>DB2D>D d>f ed | "F"c2F>CA2!breath!C2  c>d c>d | "C7"c2E>CG2!breath!C2 c>d c>d | "F"c2FCA2C2 !fermata!!breath!F2 "Bb"(3DFB | 
+d2F>DB2D>D d>f ed | "F"c2F>CA2!breath!C2 c>d c>d | "C7"c2ECG2C2  "rit."cd cE | "F"F8 |]
+Q:1/4=96
+M:4/4
+[P:C] (F || "F"F)FFA DDDA | CCCFA,2F2 | "C7"EEEB DDDB | CCCEB,2z2 | "C7"EEEB DDDB | 
+CCCEB,2E2 | "F"FFFA DDDA | CCCFA,2 z2 | "F"FFFA DDDA | CCCF A,2F2 | 
+"C7"EEEB DDDB | CCCEB,2z2 | "C7"EEEB DDDB | CCCE B,2E2 | "F"F3cA2c2 | f6C2 |] 
+Q:1/4=102
+[P:D]
+"F"F3cA2c2 | f2c2A2F2 | "C7"E3cd2B2 | c6z2 | "C7"E3cB2c2 | e2c2B2E2 | "F"F3A/c/ f2d2 | c6C2 | 
+"F"F3cA2c2 | f2c2A2F2 |  "Bb"G4e4 | !breath! d6  F2 | "C7"E4d4 | !breath! c6 "rit."E2 | "F"F3cA2F2 | f8 |] 
+W:
+%W:Parts: ABCD
+W:Toggenburger Naturjodel, überliefert Wendelin Roth, Laad Nesslau
+W: JK Männertreu Nesslau, gesungen von Georg Kuratli
+W: 
+W:Teil C ist identisch mit dem Tanzmusik Schottisch
+W: D"Jetz wird's lustig" von Kasimir Geisser.
+W:
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/De Stadelwendeler.1471.pdf
+W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2017 ROOTHUUS GONTEN. #1471.10
+% Feb. 2, 2019

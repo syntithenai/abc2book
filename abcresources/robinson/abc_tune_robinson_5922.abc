@@ -1,0 +1,33 @@
+X:3
+T:Geissmatt-Juiz.  Bb  ABAC
+T:meiner Schwester Petra und ihrer Familie gewidmet
+T:Andrea Rohrer (12.05.1973)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+R:Naturjodel
+M:4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"Ff | d>Fdc | B2Ag | e>Ged | c2Gg | e>Fed | 
+c>Fce | d>edc | B2Ff | d>Fdc | B2Gg | 
+e>Ged | c2Gg | e>Fed | c>Fce | d>cdB | !fermata!B2 || 
+M:4/4
+[P:B] "lüpfig" F|B>fdc | B>BAG | F>fed | c3F | 
+c>fed | c>fdc | B>BAG | F3F | B>fdc | B>BAG | 
+F>fed | c3F | c>fed | c>fdc | (B4 | B2)z2 || 
+L:1/8
+M:2/4
+[P:C] "getragen" df| e>d ce | F2ce | d>e dc | B2Bd | 
+c>Fc2 | c2ce | d2B2 | F2df | e>d ce | F2ce | 
+d>e dc | B2Bd | c>F ce | d2c2 | (B4 | B2)z2 |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W:notiert Edi Gasser. Angaben: Andrea Rohrer
+W:UJV-Naturjodelsammlung: Code-Nr: 52-02
+W:http://www.naturjodler.ch/code 52.htm  (no AUDIO, Sep2018)
+%September 16, 2018

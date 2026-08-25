@@ -1,0 +1,33 @@
+X:7
+T:Pilatus-Juiz  A,E
+T:Remigi Blättler (19.12.1899-27.10.1975)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] E3c AC | E3e cA | G3D Ed | G4z2  | E3d GD | E3e dG | A3C Ec | !fermata!A4 z2 | 
+E3c AC | E3e cA | G3D Ed | G4z2 | E3d GD | E3e dG | A3"rit."E cB | !fermata!A4 z2 ||  
+K:E
+M:3/4
+[P:B] G3E Ec | B3c BG | A3B dc | B4z2 | A3D Dc | 
+B3c BA | G3B ec | B4z2 | G3E Ec | B3c BG | 
+A3B dc | B4z2 | A3D Dc | B3B cd | (e6 | e4) z2 || 
+K:A
+M:3/4
+[P:C] E>E | FEd2E>d | cAC2F>E | dGD2F>E | 
+cAC2 E>E || FEd2E>d | cAC2 F>E | dG Ee dG | A4z2 || 
+M:3/4
+[P:D] AA | Fd dF Ad | Fd dF Ad | Ec cE Ac | E4FE | 
+E3E GB | e4FE | E3E Ac | e4AA | Fd dF Ad | Fd dF Ad | 
+Ec cE Ac | E4 FE | E3E GB | e3d cB | A3B !tenuto!c!tenuto!B | !fernata!A4 |]
+W:
+W:notiert Edi Gasser. Angaben: Remigi Blättler
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 02-04
+W:http://www.naturjodler.ch/code 02.htm  (with AUDIO)
+%April 27, 2018

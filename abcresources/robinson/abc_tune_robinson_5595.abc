@@ -1,0 +1,23 @@
+X:334
+T:Walzer FBb (wz06940)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.242 (wz06940) orig. F,Bb
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+"F"F3 | (A2d) | (c3 | f)zz | (A^GA) | (dcF) | ("C7"E3 | E)zz | G3 | (B2d) | 
+(c3 | e2)z | cEG | dcG | "F"A>AA | Azz | F3 | (A2d) | c3 | fzz |  (A^GA) | 
+(c2f) | "C"e3 | G3 | ("G7"=B^AB) | g2f | "C"e>ee | e(Gc) | "G7"d>dd | dGd | "C"c>cc | czz | 
+|: "F"d>cc | A3 | "C7"z(EG) | c3 | d>cc | B3 | "F"zFA | c2z | d>cc | zAf | 
+"Bb"e>dd | f3 | "F"cFA | "C7"cEG | "F"F>FF |1 Fc>c :|2 FzF |: [K:Bb] "F7"F3 | (A2c) |  "Bb"z(FB) | 
+d2z | ("Eb"e3 | e)dc | ("Bb"d3 | d)cB | "F7"F3 | (A2c) | "Bb"d3 | (cBG) | F2D | "F7"F2A  | 
+"Bb"B>BB |1 BzF :|2 BzB |: "Cm".e!>!e>G  | "F7"c2 (=B/c/) | "Bb".d!>!d>F | B2(c/B/) | "C7"B2(A/B/) | "F7"A2(G/A/) | "Bb"G2(F/=E/) | Fzd | 
+"Cm".e!>!e>G  | "F7"c2 (=B/c/) | "Bb".d!>!d>F | B2(c/B/) | "F7"Aze |1 fze | "Bb"d>dd | dzd :|2 dzA | "Bb"B>BB | Bzz |] 
+W:
+W: Anmerkung Hrsg.: Teil D, 2. Schluss ergänzt
+% wz06940
+% March 31, 2017

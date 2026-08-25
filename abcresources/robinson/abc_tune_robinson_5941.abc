@@ -1,0 +1,35 @@
+X:1
+T:Familie-Juiz 2001  C-Dur
+T:Peter Rymann (15.06.1974)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+M:3/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] "froh, gemütlich" E>G | C3G EG | e>dc2Ge | d d/B/G2Gd | c/e/ c/G/E2 E>D | C3G EG | 
+e>dc2Ge | d d/B/ G>f e G/d/ | !fermata!c3z E>D | C3G EG | e>dc2Ge | d d/B/G2Gd | 
+c/e/ c/G/E2 E>D | C3G EG | e>dc2Ge | "rit."d d/B/ G>f e G/d/ | c4 ||
+L:1/8
+M:3/4
+[P:B] "elegant" f/e/ | d>A A f e G/d/ | c>GE2G/e/ d/c/ | B>GF2 G/f/ e/d/ | c>G!fermata!E3 f/e/ | 
+d>A A f e G/d/ | c>GE2G/e/ d/c/ | B>G F G/f/ e G/d/ | !fermata!c4z ||
+M:3/4
+[P:C]  E>D | C3G EG | e>dc2Ge | d d/B/G2 Gd | 
+c/e/ c/G/E2 E>D | C3G EG | e>dc2Ge | d d/B/ G>f e G/d/ | !fermata!c4 ||
+M:3/4
+L:1/4
+[P:D]  "lüpfiges Walzertempo" E/D/ | C E/E/ E/E/ | GBd | c2E | G2c | d2F | GBd | c2E | G2 E/D/ | 
+C E/E/ E/E/ | GBd | c2E | G2c | d>AA | BGd | (c3 | c)zE/D/ | C E/E/ E/E/ | GBd |
+cE/E/ E/E/ | G2c | dF/F/ F/F/ | GBd | cE/E/ E/E/ | G2E/D/ | C2E/E/ | E/E/ 
+GBd | cE/E/ E/E/ | G2c | d>AA | BGd | c>Gd | !fermata!c2 |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. %Angaben: 
+W:UJV-Naturjodelsammlung: Code-Nr: 60-01
+W:http://www.naturjodler.ch/code 60.htm  (with AUDIO)
+%October 02, 2018

@@ -1,0 +1,34 @@
+X:18
+T:Gibelbärg-Juiz. 1993  Bb ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/4
+M:2/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+"Anruf" F>D | BF | d2 | c2 | (B2 | B) z || 
+M:3/4
+[P:A] "langsam" F>D B/F/ | d>cB | F>D f/d/ | c3 | F>E A/B/ | c>BA | Fdc | B3 | 
+F>D B/F/ | d>cB | F>D f/d/ | c3 | F>E A/B/ | c>BA | Fdc | B3 || 
+M:4/4
+[P:B] d/| BDBd | (c2A>)F | AFd>c | BdF>d | 
+BDBd | (c2A>)F | "_jeder Ton breit"f>edc | !fermata!B3 z ||  
+M:3/4
+[P:C] D/E/| FD/F/ e/d/ | cEE/C/ | EF/e/ d/c/ | Bd F/D/ | 
+FD/F/ e/d/ | c3 | gfe | d>Bf | fdc | !fermata!B2 z || 
+M:4/4
+[P:D] d/ | BDBd | (c2A>)F | AFd>c | BdF>d | BDBd | 
+(c2A>)F | "ritardando"f >edc | B3z/d/ | BDBd | [M:4/4] (c2A>)F | AFd>c | 
+BdF>d | BDBd | (c2A>)F | "_jeder Tonr breit"f>edc | !fermata!B3z |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp Herger
+W:UJV-Naturjodelsammlung: Code-Nr: 22-10
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 21, 2018

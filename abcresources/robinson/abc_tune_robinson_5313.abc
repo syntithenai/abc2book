@@ -1,0 +1,22 @@
+X:78
+T:Mazurka CGF (mz06473)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.171 (mz06473) orig. CGF
+T: Basel - Repertoire der 'Dorfmusik Binningen. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c>eg4 | "Dm"d>fa4 | ("G7"ag).B2.B2 | "C"ag .c2.c2 | c>eg4 | "Dm"d>fa4 | "G7"b>a g>f e>d | 
+"C".c2c2z2 :| [K:G] ("G"Bd ed) a>g | "D7"g>f c'>c'c'2 | (ed) a>aa2 | "G"cB g>gg2 | (Bd ed) a>g | ("D7"gf) c'>c'c'2 | 
+(ed) (gf) (af) | "G".g2g2z2 |: [K:C] "C"c'>c'c'4 | "F"a>aa4 | "G7"g>gg2B2 | "C"e>dc4 | c'>c'c'4 | 
+"F"a>aa4 | "G7"g>g g2B2 |1 "C"ce fg ab :|2 "C".c2c2z2 || [K:F] "F"cc cc (c>f) | ("C7"fe) e>^de2 | cc cc (c>e) | 
+("F"gf) f>ef2 | cc cc (c>a) | ("Gm"ag) g>^fg2 | ("G7"ag) g>^fg2 | ("C7"ag) g>ec2 | "F"cc cc (c>f) | ("C7"fe) e>^de2 | 
+cc cc (c>g) | ("F"gf) f>ef2 | cc cc (c>a) | ("Gm"ag) g>^fg2 | ("C7"ed) (ce) a>g | "F"f>af2z2 |] 
+W:
+W:Anmerkung H.C.: Muttenz 39/576 Benken 22/427 Var. Lampenberg 3/636,
+W: Tenniken 43/191 Ziefen/Läufelfingen, s.V. 191
+% mz06473
+% Dez 22, 2016

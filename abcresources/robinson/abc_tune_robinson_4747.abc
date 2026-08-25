@@ -1,0 +1,18 @@
+X:161
+T: Polka  CF (pk05969)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.285 (pk05969) orig. C,F-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/8
+K:C major
+"C"c>G ce | e/g/g ec' | "G7"c'/b/b "F"b/a/a | "C"a/g/g eg | c>G ce | e/g/g ec' | "D7"c'/b/b b/a/a |1 "G7"gb/a/ g/f/e/d/ :|2
+"G"gg g/g/f/g/ |: "G7"b>a gf | "C"a>g fe | "G7"gf {/g/}f/e/f | "C"ag {/a}g/^f/g | "G7"b>a gf | "C"a>g fe | "G7"gf d/e/f |1 
+"C".e2z/g/f/g/ :|2 "C"ec' "C7"c'z [| [K:F] "F"A/B/=B/c/ ag | fe dc | "C7"cB {/c}B/A/B | e3d | cB {/c}B/A/B | e3d | "F"dc {/d}c/B/c | 
+f2z2 | A/B/=B/c/ ag | fe dc | "C7"cB {/c}B/A/B | e3d | dc eg | c'3b/g/ | "F"fe/f/ "C7"a>g | "F"ff f"_Fine"z |] 
+"Dm"f/e/d/e/ fd | "A7"ae a>g | "Dm"f/e/d/f/ fd | "A7".e2z2 | "Dm"f/e/d/e/ f/e/d/f/ | "A7"ae a>g | "Dm"f/g/f/e/ d/e/f/g/ | "A7"aA/A/ "_>Teil C"AA |] 
+W:Parts: ABCDC
+% pk05969

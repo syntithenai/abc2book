@@ -1,0 +1,14 @@
+X:120
+T:Mazurka CF (mz04895)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"E7"e>f e>d ^c>d | "A"e2!>!e4 | "E7"e>f e>d c>B | "Am"A2 !>!A4 | "E7"e>f e>d ^c>d | "A"e2!>!e4 | "E7"e>f e>d c>B | "Am"A2 A2z2 :: 
+"C"G>ce4 | "F"A>cf4 | "G7"ed ^cd ed | "C"dcg2g2 | G>ce4 | "F"A>cf4 | "G7"ed ^cd fe | "C"c2c'2z2 :: 
+"G7"b2gb d'b | "C"c'2gc' e'c' | "G7"d'2bd' fa | "C"ge cg ec | "Dm/F"a2aa a2 | "C/G"g2g4 | "G7"b>bb2b2 | "C"c'2c'2z2 :: 
+"C"g>g e2c2 | "F"c'>c'a4 | "G7"f>fd2B2 | "C"a>ag4 | g>ge2c2 | "F"c'>c'a4 | "G7"d'>c' b>a g>b | "C"c'2c'2z2 :: [K:F]
+"F"fg ^ga ag | ac'a4 | "Am"ac'a4 | "C7/G"bge4 | "C7"ef ^fg ag | "Gm"gbg4 | "C7"b>bb2a2 | "F"g2{ag}f4 | 
+fg ^ga ba | ac'a4 | "Am"ac'a4 | "C7/G"bge4 | "C7"ef ga ba | "Gm"gbg4 | "C7"c'>c'!>!b2c'2 | "F"f2f2z2 :| 
+% mz04895

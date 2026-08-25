@@ -1,0 +1,21 @@
+X:11
+T:Ballavannoch
+M:4/4
+N:Originally written in 2/4, of course; but I find this easier to read.
+N:Just change the timesig back to 2/4 if this annoys you
+O:Scotland
+R:Reel
+K:B minor
+%%graceslurs 0
+f2 {e}fe {g}dB{A}Bd | {g}A2 B{geG}B {g}fa{g}ag | \
+{gfg}f2 {e}fe {g}dB{G}Bd | c2 A{GAG}A {gef}eA{g}ce |
+{g}f2 {e}fe {g}dB{G}Bd | {g}A2 B{geG}B {g}fa{g}af | \
+{gf}g2 {f}gf {g}ef{gef}ed | c2 A{GAG}A {gef}eA{g}ce ::
+{gfg}fB{gBd}BA {g}B3e | {g}f2 {e}fe {g}fa{g}ag | \
+{gfg}fB{d}cA {g}B3d | {gcd}c2 A{GAG}A {gef}eA{g}ce |
+{gfg}fB{gBd}BA {g}B3e | {g}f2 {e}fe {g}fa{g}af | \
+{gfg}g2 gf {g}ef{gef}ed | {gcd}c2 {g}A{GAG}A {gef}eA{g}ce ::
+{gBeA}B2 ag {e}(ef){g}fe | {g}d2 B{gBeG}B {g}dffe | \
+{gceG}c2 af efed | {gcd}c2 {g}A{GAG}A {gef}eAce |
+(cd)ag ({g}ef){g}fe | {g}d2 B{gBeG}B {g}df{g}fe | \
+{GAG}A2 af {g}ef{gef}ed | {gcd}c2 {g}A{GAG}A {gef}eAce :|]

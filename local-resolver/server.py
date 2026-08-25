@@ -3369,6 +3369,11 @@ async def health(request: Request, authorization: str | None = Header(default=No
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
     body.update(music_collection_health_fields())
+    try:
+        from local_abc_resources import local_abc_health_fields
+        body.update(local_abc_health_fields())
+    except Exception:
+        body["localAbcResources"] = False
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
         "embeddedCreds": body.get("embeddedCreds", False),
@@ -3423,6 +3428,11 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
     body.update(music_collection_health_fields())
+    try:
+        from local_abc_resources import local_abc_health_fields
+        body.update(local_abc_health_fields())
+    except Exception:
+        body["localAbcResources"] = False
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
         "embeddedCreds": body.get("embeddedCreds", False),
@@ -4556,6 +4566,12 @@ async def search_notation_endpoint(
         song_type = str(payload.get("songType") or "instrumental").strip()
         page_url = str(payload.get("url") or "").strip()
         midi_fallback = bool(payload.get("midiFallback"))
+        abc_hint = str(
+            payload.get("abcHint")
+            or payload.get("abc")
+            or payload.get("omrAbc")
+            or ""
+        ).strip()
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -4592,6 +4608,7 @@ async def search_notation_endpoint(
                                 artist,
                                 song_type=song_type,
                                 on_progress=on_progress,
+                                abc_hint=abc_hint,
                             )
                         await queue.put({"type": "result", "body": body})
                     except ValueError as exc:
@@ -4638,7 +4655,12 @@ async def search_notation_endpoint(
                 song_type=song_type,
             )
         else:
-            body = await search_notation(title, artist, song_type=song_type)
+            body = await search_notation(
+                title,
+                artist,
+                song_type=song_type,
+                abc_hint=abc_hint,
+            )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)

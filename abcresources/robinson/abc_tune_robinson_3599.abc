@@ -1,0 +1,14 @@
+X:146
+T:Mazurka GC (mz04895)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"B7"B>c B>A ^G>A | "E"B2!>!B4 | "B7"B>c B>A G>F | "Em"E2 !>!E4 | "B7"B>c B>A ^G>A | "E"B2!>!B4 | "B7"B>c B>A G>F | "Em"E2 E2z2 :: 
+"G"D>GB4 | "C"E>Gc4 | "D7"BA ^GA BA | "G"AGd2d2 | D>GB4 | "C"E>Gc4 | "D7"BA ^GA cB | "G"G2g2z2 :: 
+"D7"f2df af | "G"g2dg bg | "D7"a2fa ce | "G"dB Gd BG | "Am/C"e2ee e2 | "G/D"d2d4 | "D7"f>ff2f2 | "G"g2g2z2 :: 
+"G"d>d B2G2 | "C"g>ge4 | "D7"c>cA2F2 | "G"e>ed4 | d>dB2G2 | "C"g>ge4 | "D7"a>g f>e d>f | "G"g2g2z2 :: [K:C]
+"C"cd ^de ed | ege4 | "Em"ege4 | "G7/D"fdB4 | "G7"Bc ^cd ed | "Dm"dfd4 | "G7"f>ff2e2 | "C"d2{ed}c4 | 
+cd ^de fe | ege4 | "Em"ege4 | "G7/D"fdB4 | "G7"Bc de fe | "Dm"dfd4 | "G7"g>g!>!f2g2 | "C"c2c2z2 :| 
+% mz04895

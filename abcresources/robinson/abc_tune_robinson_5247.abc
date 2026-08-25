@@ -1,0 +1,19 @@
+X:18
+T:Galopp GC (GL06853)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.224 (GL06853) orig. G,C
+T: Aus dem Repertoire der Dorfmusik Benken. S.222-236
+T:Überliefert durch Johannes Grass (*1871)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"G"G2 G>G | G=F GA | B2 B>A | G4 |  B2 B>B | BA Bc | d2 d>c | B4 | 
+"D7"A2 A>A | A2d2 | "G"B2 B>A | G4 | B2 B>B | "D7"AG AB | "G"G2 G>G | G2z2 :: 
+ "D7"F2 c>B | Az Bz | "G"G2z2 | Gz Bz | "D7"A2AB | dc BA | "G"G2GA | cB AG | 
+"D7"F2 c>B | Az Bz | "G"G2z2 | Gz Bz | "D7"A2AB | dc BA | "G"GB "D7"AB | "G"G2z2 :| [K:C] 
+"C"cz cz | c2z2 || "C"E3F | (A2G2) | G2AB | (d2c2) | ("G7"cB) (BA) | (AG) (GF) | "C"Az Gz | 
+E2z2 | (E3F) | (A2G2) | G2AB | (d2c2) | ("G7"cB) (BA) | (AG) (GF) | (AG) .A.B | "C"c2z2 |] 
+% GL06853
+% March 10, 2017

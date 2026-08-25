@@ -1,0 +1,18 @@
+X:181
+T: Rheinländer (Polka)  CGF (pk08026)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.310 (pk08026) orig. C,G,F-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+Gg || "C"e4z2Gg | e4z2Gg | g2gg agfe | "G7"e2d2 d2Gg | f4z2Gg |  f4z2df | a2aa bagf | 
+"C"f2e2 e2Gg | e4z2Gg | e4z2Ge | g2gg agfe | "Dm"d2a2 a2ab | "F"c'2ab c'2a2 | "C"g2c'2 gfe2 | "G7"g2f2 fed2 |  
+"C"c2e2 c2z2 |: [K:G] "G"d2g2 fgag | "D7"f2c'2 c'2dd' | c'2f2 f2dd' | "G"b2g2 g2dd | d2g2 fgag | "D7"e2c'2 c'2ec' | b2db a2f2 |1 
+"G"g2g2 g2z2 :|2 "G"g2g2 g2"_>Teil A" Gg |: [K:F] "F"c3=B c2^c2 | "Gm"d2GB d2GB | "Bb"d3^c "C7"d2e2 |  "F"f2Ac f2Ac |1 
+a3a g2f2 | "C7"e2^d2 e2fe | "Bb"d3^c d2ed | "F"c2=B2c4 :|2 a3a ^g2a2 | "Gm"c'2b2 a2g2 | "C7"^fgag =fede | "F"f2f2 f2ae || 
+|: "F"g2f2 Acgf | "C7"e4z2b^f | a2g2 ^fgag | "F"c4z2ae | g2f2 "F7"ab=bc' | "Bb"d'4 defg | "F"a2ca "C7"g2de |1 "F"f2f2 f2ae :|2 "F"f2f2 f2"_Fine"z2 |] 
+W:Parts: ABACD

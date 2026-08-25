@@ -1,0 +1,23 @@
+X:25
+T:Rekruten-Galopp  FC (GL07404)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.326 (GL07404) orig.F,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F".F2.A2 | .cz zc/c/ || "C7"cc/c/ cc/c/ | "F"ca gf | "C7"cc/c/ cc/c/ | "F"ca gf | "C7"ee/e/ ee/e/ | e^d ef | 
+ga b=b |  (."F"d'2c')c/c/ | "C7"cc/c/ cc/c/ | "F"ca gf | "C7"cc/c/ cc/c/ | "F"ca gf | "C7"e^d ef | g^f ga | 
+("G7"g=B) (gB) | "C".c2cc |: "C7"c2 (=B/c/e/g/) | b>b b>b | "F"c2 (=B/c/f/a/)  | c'>c' c'>c' | "C7"c'b ag | (.^f.g) (.f.g) | 
+"F"ba gf | (.e.f) (.e.f) | "C7"c2 (=B/c/e/g/) | b>b b>b | "F"c2 (=B/c/f/a/)  | c'>c' c'>c' | "Bb"d'c' ba | "C7"^fg ab | c'b ag | 
+"F".f2.f2 :| [K:C] "C"z2c>e | !>!g2!>!g2 | !>!"F"a2!>!"G7"b2 | ("C"c'4 | g2)ga | "G7"g>f ff | f2ag | "C"g>e ee | e2 e>g | 
+c'2c'2 | "G7"d'2d'2 | ("C"e'4 | "F"e').f' .a.d' | "C"c'2 c'>c' | ("G7"c'b ab) | ("C"c'4 | c'2) gc' |: "G7"c'>b bb | b2 ba | 
+"C"a>g gg | g2 gg | ("G7"gd') .g.g | g2gg | ("C"gc') .g.g | g2 gc' | "G7"c'>b bb | b2ba | "C"a>g gg | 
+g2gg | !>!"F"a2!>!"G7"b2 | !>!"C"c2!>!"G7"d2 | ("C"e4 | "F"e).f .A.d | "C".c2ea | "G7".g2de | "C".c2.c2 |1 .c2gc' :|2 c2z2 |]
+W:
+W:Anmerkung H.C.: Holle Musig, Bader 22
+% GL07404
+% Oct 24, 2017 (Greetings to Bad Ems)

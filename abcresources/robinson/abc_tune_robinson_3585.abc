@@ -1,0 +1,13 @@
+X:133
+T:Mazurka CGF (mz00316)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"G2 ^F>A "G7"GF | "C"G2E>CG,2 | "G7"B,>D F2F2 | "C"C>E G2G2 | G2 ^F>A "G7"GF | "C"G2 E>C G,2 | "G7"B,>D G2B2 | 
+"C"c2c2z2 :: [K:G] "D7"Dc cB A2 | "G"DB BA G2 | "D7"FA FA EG | "G"D4z2 | "D7"Dc cB A2 | "G"DB BA G2 | "D7"G2 FA DF | 
+"G"G2G2"_>Teil A"z2 :: [K:F] "F"F>A A3B | c2A2A2 | F>AB2A2 | "C7"E4z2 | "Gm"G>B B3c | d2B2B2 | "C7"G>A B2A2 | 
+"F"F4z2 | F>A A3B | c2A2A2 | "F7"F2G2A2 | "Bb"B6 | d2BA Bd | "F".c2 !>!A4 | "G7"FE"C7"D2E2 | "F"F2F2"_Fine"z2 :| 
+W: Parts: ABAC
+% mz00316
+%%partsbox

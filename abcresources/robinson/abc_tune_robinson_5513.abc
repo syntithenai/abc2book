@@ -1,0 +1,17 @@
+X:259
+T:Varsoviana FCB  (vr07370)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.310 (mz07310) orig. F,C,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Varsovienne
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+"F"A>c f2!>!a2 | !>!"C7"g4e2 | c>eg2!>!b2 | !>!"F"a4f2 | c>f a2!>!"F7"c'2 | !>!"Bb"d'4b2 | "C7"g>d' c'2!>!e2 | !>!"F"f4f2 ||  [K:C] 
+|: "G7"a>g f2d2 | "C"a>ge2c2 | ("G7"g^f g)(B d=f) | "C".e.g (^fg) .e.c | "G7"a>g f2d2 | "C"a>ge2c2 | ("G7"g^f g)(B ed) |1 "C7"c4_B2 :|2 "C"c4z2 || [K:F] 
+"F"A>c f2f2 | c>f !>!a4 | a>e g>f c>d | !>!"C7"c4B2 | G>B e2e2 | c>e !>!g4 | "Gm"d'>c' b>a "C7"g>a | !>!"F"f4z2 || [K:Bb] 
+"Bb"((3BAB)F2B2 | ((3d^cd) B2d2 | f>=e g>f _e>d | !>!"F7"c4A2 | ((3A^GA) F2A2 | ((3c=Bc)A2c2 | [ca]>[Bg] [Af]>[Ge] [Fd]>[Ec] | !>!"Bb"[DB]4 z2  |] 
+% vr07370
+% July 13, 2017

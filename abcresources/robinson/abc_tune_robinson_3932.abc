@@ -1,0 +1,12 @@
+X: 182
+T: Walzer DG
+T:Hanny Christen. Bd.IX Uri, Schwyz, Unterwalden I. S.194 (wz11100) orig. DG-Dur
+M:3/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:D major
+"D"A2 BA ^GA | F2 Ad f2 | F2 Ad f2 | "A7"gf e^d e2 | "D"fe dc d2 | \
+   A2 BA ^GA | F2 Ad f2 | "A7"gf ed ce | "D"d2z2z2 :: [K:G]
+ "D7"cB A^G A2 | "G"BA GF G2 | "D7"AG FE DF | "G"G2B2d2 |\
+ "D7"cB A^G A2 | "G"BA GF G2 | "D7"AG FD EF | "G"G2z2z2 :|

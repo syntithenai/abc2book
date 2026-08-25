@@ -1,0 +1,21 @@
+X:215
+T:Mr. John Stewart's Reel - of Bombay
+C:William Marshall
+M:C|
+O:Scotland
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+K:D major
+V:1 clef=treble
+[V:1] (DFA).d fedc | dABd (GF)(ED) | (EGB).e ^gebe | ^geBe (dc)(Bd) |
+[V:1] (DFA).d fedc | dABd (GF)(ED) | GBEG     FADF | Eege (dc)(Bd) ||
+[V:1] AFDF d(FD).F | AFDF A3d | B^GEG eGEG | B^GEG B3d |
+[V:1] AFDF d(FD).F | AFDF A3^g| afge f^de2 | (^GE)EG B2(Bd) |]
+V:2 clef=bass
+[V:2] \
+D,2 D,2 D,2 D,2 | D,2 G,2 D,2 F,2 | \
+E,2 E,2 E,2 E,2 | E,2 E,2 A,2 =G,2 | \
+[V:2] \
+D,2 D,2 D,2 D,2 | D,2 G,2 D,2 F,2 | \
+E,2 C,2 D,2 F,2 | G,2 E,2 A,2 G,2 || \
+[V:2] D,2 D,2 D,2 D,2 |/| E,2 E,2 E,2 E,2  |/| \
+[V:2] D,2 D,2 D,2 D,2 |/| D,2 E,2 F,2 =G,2 | E,2 E,2 E,2 E,2 |]

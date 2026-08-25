@@ -1,0 +1,35 @@
+X:1
+T:Appenzeller Alpauffahrt. Bb-Dur
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=58  % check with audio for exact value
+R:Naturjodel
+M:5/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] F2 D/F/B/c/ "Bb"d4"F7"c2 | [M:6/4] "Bb"B2 F>F F3B d2f2 | "F7"c2FF F4 A2c2 | 
+w:tro do li du li du di  du jo li do u u du  u jo li do u lu 
+[M:4/4] "Bb"B2FFF4 | "Bb"D/F/B/c/ d4"F7"c2 | [M:6/4] "Bb"B2 F>F F3B d2f2 | 
+w: du jo li do   do li du li du du   du jo li do u u du  
+"F7"c2FF F3e d2c2 | "Bb"B8z4 |] 
+w:du jo li do u du du  u 
+[P:B] B,2D2 | [M:4/4] "F7"F3EC2 c2 | F3F F3e | [M:5/4] "Bb"d2FF F2B,2D2 | 
+w: tra di   tra di du u   jo li o u   du jo li o tra li 
+[M:4/4] "F7"F3E C2c2 | F3F F2d2 | "Bb"B6 |]
+w: o li du u  jo li o u  du
+W:
+%W:Parts: AB
+W: trad. AI (Appenzell Innerrhoden)
+W: Jodler Josef Inauen (Felders Seff 1888-1956) 
+W:Streichmusik Edelweiss, Trogen
+W:
+W:Speziell zu erwähnen ist hier die "schläzige", also fliessende Art des Singens, 
+W:welche für den Jodler Felders Seff, aber auch für weitere innerrhoder
+W: Jodler und Jodlerinnen aus jener Zeit, typisch waren. 
+W:
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/Appenzeller Alpauffahrt.817pdf.pdf
+W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2017 ROOTHUUS GONTEN. #817 (SCH015A)
+% Feb. 21 2019

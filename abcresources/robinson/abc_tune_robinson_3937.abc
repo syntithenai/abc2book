@@ -1,0 +1,21 @@
+X:3
+T:Allewander (Polka)  CF (ABCBDED) (AL09253)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.151 (AL09253) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+P:ABCBDED
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+ge [P:A] |: "F"c'2c'2 c'2af | "C"g2g2 g2ec | "G7"B2B2 B2df | ("C"^d4e2)ge | "F"c'2c'2 c'2af | "C"g2g2 g2ec | "G7"B2B2 gfdB |1 
+"C"c4z2ge :|2 "C"c4z2g2 |][P:B]  "F"ac'af "G7"dfdB | "C"cdef gabc' | "F"ac'af "G7"dfdB | "C"cdef gabc' | 
+"F"ac'af "G7"dfdB | "C"cdef gabc' | "G7"bagf edcB | "C"c4z2G2 [L:1/8] [P:C] |: "C"e3g | "G7"gf dB | "C"cB ce | "G7"^cd BG | 
+"C"e3g | "G7"gf dB | "C"ce "G7"dB |1 "C"c2zG :|2 "C"c2"_>Teil B"zg |] [K:F] c [P:D] |: "F"c3f | "C7"fe dc | 
+"F"cc' ag | "C7"fe dc | "F"fc' a^f | "Gm"ga bg | "C7"fe dc |1 "F"f3c :|2 "F"f3G |: [K:C] [P:E] "C"c2"G7"d2 | 
+"C"e2g2 | "G7"f2d2 | "C"e2zG  | c3^c | "Dm/F"d2 fa | "C"ge "G7"g/f/e/d/ |1 "C"c2zG :|2 "C"c2"_>Teil D"z2 |] 
+%W:Parts: ABCBDED
+% AL09253

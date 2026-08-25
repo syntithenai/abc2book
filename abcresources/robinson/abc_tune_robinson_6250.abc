@@ -1,0 +1,24 @@
+X:1
+T:Tirolienne  ED (tr07860)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.203  (tr07860) orig. E,D
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABCD
+R:Tirolienne
+M:3/4
+L:1/8
+O:Switzerland
+K:E major
+[P:A] "A"E>A c>A c>f | (ec')a4 | E>A c>A c>f | (ec')a4 | "E7""_*".d'2 d'c' ba | g>a f>ge2 | .d2 dc BA | G>A F>GE2 | 
+"A"E>A c>A c>f | (ec')a4 | E>A c>A c>f | (ec')a4 | "D"a>dd2a2 | "A"a>e e2c'2 | "E7"e'>gg2e'2 | "A"a2 [Eca]2z2 ||  
+[P:B] {/a}"E"g>f g>eB2 | G>B egc'2 | ("B7"^bc') .d2.d2 | ("E"^ab)e2e2 | {/a}g>f g>eB2 | G>B e>gb2 | ("B7"^bc') (dc') (bd) | "E7"e3=d BG ||  
+[P:C] "A"E>A c>A c>f | (ec')a4 | E>A c>A c>f | (ec')a4 | "D"a>dd2a2 | "A"a>ee2c'2 | "E7"e'>gg2e'2 | "A"a2 [Eca]2z2 | [K:D] 
+[P:D] |: "D"a>ab2a2 | "E7"^g2 e'>^d'e'2 | "A7"=g>ga2g2 | "D"f2 d'>c'd'2 | f>f =g2f2 | ("Em"ec')b4 | ("A7"cb)a3c | ("D"db)a4 | 
+a>ab2a2 | "E7"^g2 e'>^d'e'2 | "A7"=g>ga2g2 | "D"f2 d'>c'd'2 | "A7"e'd' c'b ag | "D"f2 {/b}a>ga2 | ("A7"cb)b3c | "D"d2D2z2 :| 
+W:
+%W:Parts: ABCD
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% tr07860
+% Aug 11, 2018

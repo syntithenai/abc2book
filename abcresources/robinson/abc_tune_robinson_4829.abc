@@ -1,0 +1,18 @@
+X:234
+T: Sternlein Polka  FCBb (pk00842)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.192 (pk00842) orig. F,C,Bb-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%partsbox
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+{/b}a^g [P:A] |: "F"ac'gc' f2fg | "C7"Tf2eb e3d | c2cb d2de | "F"d2c=B c2a^g | ac'gc' f2fg | 
+"C7"f2eb e3d | c2cb agde |1 "F"f2a2 f2{/b}a^g  :|2 "F"f2f2 f2ae [P:B] |: [K:C] "G7"f2fc' b2fa | "C"gagc e2ea | 
+"G7"gagB f2fa | "C"gagc e2ae | "G7"f2fc' b2fa | "C"gagc e2g^g | "G7"a2ba g2fB |1 "C"c2e2 c2ae :|2 
+"C"c2e2 c2{_b}a"_>Teil A"^g || [P:C] [K:Bb] de |:  "Bb"f6d'c' | b6 (3bag | f2f2 fbag | 
+f6de | f6 d'c' | b6 (3bag | "F7"fgfg fe'ga |1 "Bb"b6 de :|2 "Bb"b6"_Fine"z2 |] 
+W: Parts: ABAC
+W: Sternlein (little star) cf. der Stern (the star)

@@ -1,0 +1,23 @@
+X:1
+T:Mazurka  FBb (mz07053)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.163  (mz07053) orig. F,Bb
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c2"_*"A>B c>d | c>Ad3c | "C7"BGe3B | "F"dcc4 | c2A>B c>d | cAd3c | ("C7"BG) .e.d .c.G | "F"F2F2z2 :| 
+[P:B] |: ("F"cA) FA cd | ("C7"cB)e4 | (cB)e4 | ("F"cA)f4 | (cA) FA cd |  ("C7"cB)e4 | (cB) ed BG | "F"F2F2z2 :|  [K:Bb]
+[P:C] |: "Bb"DG FB D>G | F>ed3F |"F7" E>dc3E | "Bb"D>cB4 | DG FB DG | F>ed3F | "F7"ec AF EA | "Bb"B2B2z2 :| 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: wo man den Mazurkaschritt nicht kannt, tanzte man langsamen Walzer, 
+W:die 'Alten' machten 'Rämpeler'
+W:Anmerkung Hrsg.: Teil A, Takt 1, 2. Schlag*  HC: b-c
+% mz07053
+% June 29, 2018

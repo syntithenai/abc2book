@@ -1,0 +1,17 @@
+X: 5
+T: Allewander CGF (AL08817)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.392 (AL08817) orig. C,G,F-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Alewander
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+[P:A] "C"c'2gg g2g2 | g4e4 | "G7"d2g2 ^fgag | "C"e4 c2eg | c'2gg g2g2 | g4e4 | "G7"d2g2 ^fgab |1 "C"c'4z2eg :|2 "C"c'4z2dd ||[P:B] [K:G]
+"G"d2e2 f2g2 | "D7"^g4 a2dd | d2f2 ^g2a2 | "G"bagf g2dd | d2e2 f2g2 | "D7"^g4 a2d'd' | d'2c'2 b2a2 | "G7"g2=f2 e2"_> Teil A"d2 || [K:F] [L:1/8]
+[P:C] |: "F"c2 f>g | a3 b/a/ | gf ef | "C7"g/f/e/d/ c2 | c2 g>a | b3 a/g/ | fe de |1 "F"f2 zc/c/ :|2 "F"f2"_> Teil A"z2 |] 
+W:
+W: Quadrille, Engelberg. Trachtensingwoche 1938, aus englischer Quadrille (H.C.)

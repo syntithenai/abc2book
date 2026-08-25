@@ -1,0 +1,19 @@
+X:94
+T:Pas redouble  C (ABCDAB) (pr09157)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.176 (pr09157) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABCDAB
+R:PasRedouble
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"c2c2 "G7"BcdB | "C"c2c2 "G7"BcdB | "C"c2de "F"agfe | "G7"d2d2d4 | "C"c2c2 "G7"BcdB | "C"c2c2 "G7"BcdB | "C"c2de "G7"fdcB | "C"c2c2 c2z2 :| 
+[P:B] |: "G7"d3d d2ef | "C"g3f e2fe | "G7"d2d2 d2ef | "C"g3f efed | c2c2 "G7"BcdB | "C"c2c2 "G7"BcdB | "C"c2de "G7"fdcB | "C"c2c2 c2"_Fine"z2 :| 
+[P:C] "C"g2g2 "G7"f2f2 | "C"e2fe "G7"d2G2 | "C"c2"G7"dB "C"c2"G7"dB | "C"c2c2 cdef | g2g2 "G7"f2f2 | "C"e2fe "G7"d2G2 | "C".c2!>!"G7"d2 "C".c2!>!"G7"d2 | "C"c4z4 || 
+ [P:D] "G7"Bcdc Bcde | f2d2z4 | "C"cded cdef | g2e2z4 | g2g2 "G7"f2f2 | "C"e2fe "G7"d2ed | "C".c2!>!"G7"d2 "C".c2!>!"G7"d2 | "C"c4"_>Teil A"z4 |] 
+W:Parts: ABCD-AB
+%  pr09157

@@ -1,0 +1,35 @@
+X:7
+T:Härzteen-Juiz  Bb  ABCD
+T:Michael Wallimann (3.3.1977)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F| B>AB | c>Bc | d2e | d2F | E2c | c2F | d>Be | d2F | 
+B>AB | c>Bc | d2e | d2F | c>=B c/d/ | edc | (B3 | B)z ||
+L:1/4
+M:3/4
+[P:B] F/F/ | dBf/e/ | dBF/F/ | d/B/fd | c2F | cAB | c2F | Eec | d2F/F/ | 
+dBf/e/ | dBF/F/ | d/B/fd | c2F | cAB | c2F | ddc | B2 ||
+M:3/4
+[P:C] F/F/ |deF/F/ | cdB/A/ | G/B/ed | c2F/F/ | deF/F/ | 
+cdB/A/ | G/B/ e/d/ c/B/ | B2F/F/ | deF/F/ | cdB/A/ | 
+G/B/ed | c2F/F/ | deF/F/ | cdB/A/ | G/B/ e/d/ c/B/ | B2 || 
+M:3/4
+[P:D] D/F/ | dd/B/ d/e/ | d/c/EF | cc/B/ c/e/ | dBD/F/ | 
+dd/B/ d/e/ | d/c/EF | c>e d/c/ | B2D/F/ | dd/B/ d/e/ | d/c/EF | 
+cc/B/ c/e/ | d/e/dD/F/ | dd/B/ d/e/ | d/c/EF | cfd | B2 |]
+W:
+%W:Reihenfolge: A - B - C - D
+W:Härzteen (dt. Herz-töne, sounds of the heart)
+W:
+W:notiert Edi Gasser. Angaben Michael Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 39-04
+W:http://www.naturjodler.ch/code 39.htm  (with AUDIO)
+%Juni 9, 2018

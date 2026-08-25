@@ -1,0 +1,29 @@
+X:27
+T:Master John Romily
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+N:In the bass line, bar 3 of the 1st part is marked with an "8" underneath,
+N:with dotted lines indicating that it continues to apply up to the end of bar 5 of the second part.
+N:I can't find an ABC notation for this, and am not sure what it's intended to mean;
+N:the context suggests, double the notes an octave below ?
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:11 - 1
+K:F major
+%%staves {1 2}
+V:1
+B |\
+(Ac)fc {B}!trill!A2 FA | gaba gGGB | (Ac)fc {B}!trill!A2 FA | EGcB AFF :|
+e | \
+fcAf cfaf | dgba gGGe | fcAf cfAf | EGcB AFFA |
+fcAf cfaf | dgba gGGg | bgaf (ag)(fe) | fdc!trill!B AFF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Bb] [cc'] [cc'] | "_8 ..." ffff | c'c'ff/ :| \
+z/ | \
+ffff | BBcc | ffff | ccff | fff "_...end of \"8\" marking" f | [B,B] [B,B] [Cc] [Cc] | \
+[Ee] [Ff] [Gg] [Aa] | [Bb] [cc'] [Ff] [Ff]/ |]

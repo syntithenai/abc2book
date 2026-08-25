@@ -1,0 +1,20 @@
+X: 6
+T:Lady Georgina Russell's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 3
+K:Bb major
+%%staves { 1 2 }
+V:1
+B,2- B,>(D FD)BF | GFGB c/c/c "\="~c2 | B,2 - B,>(D FD)BF | GFGA B/B/B ~B2 :|
+dfdB egec | dfdB c/c/c "\="~c2 | dfdB egec | FBAc B/B/B ~B2 |
+dfdB egec | dfdB c/c/c "\="~c2 | B,DCE DFEG | FBAc B/B/B ~B2 |]
+V:2 clef=bass octave=-2
+L:1/4
+BBBB | eeff | BBBB | efBB :|\
+bb[ee'][ee'] | bbff | [Bb]dee | fFBB | bb[ee'][ee'] | bbff | Bcde | fFBB |]

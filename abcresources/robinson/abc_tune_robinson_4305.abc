@@ -1,0 +1,14 @@
+X: 71
+T: Kreuzpolka CF (kp05479)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.92 (kp05479) orig. C,F-Dur
+S: Aus dem Repertoire der "Tanzmusig Wattewyl" (Bern)
+%%MIDI program 21
+R:Kreuzpolka
+O:Switzerland
+M:2/4
+L:1/8
+K:C major
+"C"e>g a>g | "G7".f2+>+B2 | fg b>a | "C".g2c2 | e>e fe |1 "Dm/F"ed A2 | "G7"d>d ed | "C"dc G2 :|2 "Dm/F"db a2 | "G7"gf ed | "C"ce cz ||
+"C"a/g/^f/g/ ag | "G7".f2+>+B2 |  a/g/^f/g/ ag | "C".e2c2 | gc' d'>c' | "G7"c'b b2 | "F"ba a>b | "C"ag g2 | a/g/^f/g/ ag |
+"G7".f2+>+B2 | a/g/^f/g/ ag | "C".e2+>+c2 | e>e fg | "Dm/F"ba d2 | "G7"gb/a/ g/f/e/d/ | "C"ce cz |: [K:F] [L:1/16] "F"cFAc fAcf | .a4 +>+f4 | 
+cAcf acfa | "C7".b4 +>+e4 | cBce gceg |1 [L:1/8] ba ga | gf ed | "F"ca f2 :|2 ba g>f | ed/c/ =B/c/d/e/ | "F"fa fz |]

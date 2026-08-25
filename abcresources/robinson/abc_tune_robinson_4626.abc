@@ -1,0 +1,22 @@
+X:52
+T:Gedenke mein (Polka)  FBb (pk05979)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.284 (pk05979) orig. F,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+ca |: "F"g2f2 fAcf | "tr""Gm"e2d2 d2db | "C7"agBb agda | "F"gfAd c2ca | "tr" g2f2 fAcf | "Gm"e2d2 d2db | ("C7"ag).c.e (ag).d.e |1 
+"F"f2a2 f2ca :|2 "F"f2a2 f2fe |: "Dm"d^cde fefg | agfe d2f2 | "A7"e2A2 a3g | "Dm"fgfe d2ed | "C7"c=Bcd e^def | 
+g^fga bag=f | ec=Bc a3g |1 "F"f2f2 f2fe :|2 "F"f2f2 f2Fd |: [K:Bb] (!>!"Bb"c4c)Bdg | (!>!f4 f)dfb | "F7"bacd e2ea | 
+("Bb"gf).d.B F2Fd | (c4c)Bdg | (!>!f4 f)dfb | "F7"agcd efga |1 "Bb"b2b2 b2Fd :|2 "Bb"b2b2 b2cd |: "Cm"edcd e2b2 | 
+"F7"a3^g agfe | "Bb"dcBc d2a2 | g3f gfdB | "F7"cdef a2g2 | "tr""Bb"g2f2 fbd2 | P"F7"f2e2 egc2 |1 "Bb"B2d2 B2cd :|2 "Bb"B2d2 B2z2 |] 
+W: Gedenke mein (Think of me / Remember me)
+W:
+W: "No it wasn't any good
+W:There's no reason why you should
+W:Remember me" L.Cohen
+% pk05979

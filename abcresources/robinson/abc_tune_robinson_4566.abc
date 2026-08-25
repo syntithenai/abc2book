@@ -1,0 +1,24 @@
+X:20
+T:Clocks Back Jig
+A:Lancashire - Lancaster
+C:Andy Hornby
+M:6/8
+N:1989
+O:England
+R:Jig
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+%%Copyright:Andy Hornby
+%%RRGroups:Lancaster
+K:G major
+D| GAB d2B | dge dBG | c2e dBG | EAG F2D | \
+GAB d2B | dge dBG |
+c2e dBG |1 DEF G2 :|2 DEFG2^G|:\
+K:D
+AFA d2e | fag fed | egf edc | dag f2d |
+AFA d2e | fag fed | egf edc \
+|1d3dcB :|2 d3 =c3 \
+|: \
+K:G
+B^AB g2B | g2B B=AG |
+ A^GA f2A | fed cBA | \
+B^AB g2B | g2B BAG | A^GA fed |1 cAF G2A :|2 cAF G2 |]

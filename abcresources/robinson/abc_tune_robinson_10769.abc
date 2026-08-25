@@ -1,0 +1,26 @@
+X:4
+T:Psalm) PS 2? BF12.04
+M:3/2
+L:1/4
+Q:1/4=100
+S:MS12,dated 1833,Browne Coll.,Lakes
+R:Psalm
+O:England
+A:North-West - Lake District
+N:There is a symbol before the time signature.  It could be a sharp on
+N:the second line down, but its got long trailing legs if it is.  It
+N:could be an attempt at a clef other than treble.  The tune makes sense
+N:if you play it as bass clef, but ABC doesn't seem to have a bass clef.
+N:Why won't ABC show the slur from  begining of second bar after double
+N:vbar to 3rd note of 3rd bar?
+Z:vmp.Cherri Graebe.
+B:Village Music project, Browne 12
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/browne12.abc
+K:C major
+"_This is BASS CLEF - see note"D,2|\
+(F,2E,2D,)(E,/D,/)|^C,2F,2A,2|(B,A,G,F,E,)D,|C,3|!
+|E,2F,2D,2|(A,>G,F,2C,D,|G,4)A,2|F,2E,4|F,4|!
+M:2/2
+L:1/4
+F,2|A,G,F,C,|(F,E,D,C,|D,E,F,)G,|A,4|!
+z2zD,|F,F,A,A,|F,3D,|A,,3E,|F,F,F,G,|A,A,A,F,|E,3C,|D,4|]

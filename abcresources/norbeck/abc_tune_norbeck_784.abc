@@ -1,0 +1,26 @@
+X:444
+T:Muireann's Jig
+R:jig
+C:Niall Vallely
+S:David Lombardi
+Z:id:hn-jig-444
+M:6/8
+L:1/8
+K:Bm
+dBA ~B3 | def ede | ~f3 ede | ~f3 efe |
+dBA ~B3 | def ede | fba fed |1 fee efe :|2 fee e2B ||
+|: BAB e2B | BAB ~f3 | fba fed | fee e2B |
+BAB e2B | BAB ~f3 | baf aba |1 fee e2B :|2 fee edB ||
+|: BAF ~E3 | FDE FDE | FAA ABB | Bdd edB |
+BAF ~E3 | FDE FDE | FAB def |1 fed edB :|2 fed e2f ||
+|: fef b2f | fef a2f | f2a fed | fee e2f |
+fef b2f | fef a2f | baf aba |1 fee e2f :|2 fee efe ||
+P:variations
+|: dBA BAB | def ede | f2e ede | faf efe |
+dBA ~B3 | def e2e | fba fed | f2e edB :|
+|: BAB e3 | BAB fef | Bba fed | efe edB |
+BAB e2B | BAB f2a | baf a2b | f2e edB :|
+|: BAF E2G | FDE FDE | FAA ABB | Bdd edB |
+BAF E2G | FDE FDE | FAB def |1 fed edB :|2 fed efg ||
+|: fef ~b3 | fef ~a3 | fba fed | f2e ede |
+fef b2f | fef ~a3 | baf a2b |1 f2e ede :|2 f2e edB ||

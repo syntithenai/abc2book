@@ -1,0 +1,19 @@
+X:1
+T:Still vergnügt  (Mazurka)  FCBb (mz07083)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.44  (mz07083) orig. F,C,Bb
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c>cc2AF | "Gm"G>Bd2d2 | "C7"B>BB2GE | "F"F>Ac2c2 | c>cc2AF | "Gm"G>Bd2d2 | "C7"^cd ed BG | "F".F2!>!F2z2 :| [K:C] 
+[P:B] |: "C"e>e  (^de fe) | "Dm".d2!>!A4 | ("G7"cB) (BF)B2 | ("C"dc) (cE)G2 | e>e  (^de fe) | "Dm".d2!>!A4 | ("G7"cB) (BG) e>d | "C".c2!>!c2"_>Teil A"z2 :|  [K:Bb] 
+[P:C] |: "Bb"F>FG2F2 | F>dB4 | F2B2B>c | "F7"B2A>AA2 | F>FG2F2 | F>ec3B | AF =EF GA | "Bb".B2!>!B2z2 :| 
+[P:D] |: "Eb"B>AB3G | "Bb"F>=EF3d | "F7"d>cc2A2 | "Bb"c>BB2F2 | "Eb"B>AB3G | "Bb"F>=EF3d | ("F7"dc) (dc) G>A | "Bb".B2!>!B2z2 :| 
+% mz07083
+% Jan 8, 2018

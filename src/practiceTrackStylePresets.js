@@ -16,6 +16,7 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     description: 'Your tune on fiddle (from notation); AI adds guitar, bodhrán, and session backing.',
     drumPresetId: null,
     leadMidiProgram: 40,
+    accompanimentMidiProgram: 24,
     backingPromptFocus: 'Irish Scottish trad session accompaniment only, acoustic guitar chords, bodhrán, rhythm section',
     negativeExtras: ['piano', 'lead melody', 'solo fiddle', 'general midi', 'cheap synthesizer', 'rock drums', 'electronic'],
     includeChordLayerDefault: false,
@@ -27,6 +28,7 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     description: 'Tune on fiddle from notation; AI adds banjo, guitar, and bass backing.',
     drumPresetId: 'folk-reel',
     leadMidiProgram: 40,
+    accompanimentMidiProgram: 105,
     backingPromptFocus: 'old-time American string band accompaniment only, banjo guitar upright bass, no lead melody',
     negativeExtras: ['piano', 'lead melody', 'solo fiddle', 'drum kit', 'electronic', 'orchestra'],
     includeChordLayerDefault: false,
@@ -38,6 +40,7 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     description: 'Melody from notation on lead guitar; AI adds skank, bass, organ, and drums.',
     drumPresetId: 'funk-laidback',
     leadMidiProgram: 25,
+    accompanimentMidiProgram: 27,
     backingPromptFocus: 'roots reggae accompaniment only, skank guitar, electric bass, Hammond organ, one drop drums, no lead melody',
     negativeExtras: ['piano', 'lead melody', 'solo guitar', 'metal', 'orchestra', 'cheap synth'],
     includeChordLayerDefault: false,
@@ -49,8 +52,23 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     description: 'Tune on solo violin from notation; AI adds restrained string accompaniment.',
     drumPresetId: 'minimal-hat',
     leadMidiProgram: 40,
-    backingPromptFocus: 'classical chamber accompaniment only, viola cello bass harmony, restrained dynamics, no solo lead',
-    negativeExtras: ['piano', 'lead melody', 'drum kit', 'electric guitar', 'synth', 'vocals'],
+    accompanimentMidiProgram: 48,
+    backingPromptFocus: 'classical chamber string ensemble, viola cello and double bass harmony, bowed strings only, restrained dynamics',
+    negativeExtras: [
+      'piano',
+      'lead melody',
+      'drum kit',
+      'electric guitar',
+      'acoustic guitar',
+      'folk guitar',
+      'strumming',
+      'guitar fill',
+      'bodhrán',
+      'banjo',
+      'synth',
+      'vocals',
+      'trad session',
+    ],
     includeChordLayerDefault: false,
     includeDrumGuideDefault: false,
   },
@@ -60,6 +78,7 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     description: 'Tune melody from notation MIDI; your prompt controls the AI backing only.',
     drumPresetId: null,
     leadMidiProgram: 40,
+    accompanimentMidiProgram: 24,
     backingPromptFocus: '',
     negativeExtras: ['piano', 'lead melody', 'general midi', 'cheap synthesizer'],
     includeChordLayerDefault: false,
@@ -76,6 +95,12 @@ export function resolveLeadMidiProgram(styleId) {
   const preset = getStylePreset(styleId);
   const program = parseInt(preset.leadMidiProgram, 10);
   return Number.isFinite(program) ? Math.max(0, Math.min(127, program)) : 40;
+}
+
+export function resolveAccompanimentMidiProgram(styleId) {
+  const preset = getStylePreset(styleId);
+  const program = parseInt(preset.accompanimentMidiProgram, 10);
+  return Number.isFinite(program) ? Math.max(0, Math.min(127, program)) : 24;
 }
 
 export function listStylePresetOptions() {
@@ -100,12 +125,27 @@ export function resolveDrumPresetIdForStyle(styleId, plan) {
   return rhythmDrumPresetId(plan);
 }
 
+/** Waltzes / airs should not get MIDI drum kits in the guide or mix. */
+export function isSoftRhythm(planOrRhythm) {
+  const rhythm = typeof planOrRhythm === 'string'
+    ? planOrRhythm
+    : (planOrRhythm && planOrRhythm.musical && planOrRhythm.musical.rhythm) || '';
+  return /waltz|air|hymn|ballad|lullaby|slow air/.test(String(rhythm || '').toLowerCase());
+}
+
+export function shouldIncludeDrumGuide(styleId, plan) {
+  if (isSoftRhythm(plan)) return false;
+  return !!getStylePreset(styleId).includeDrumGuideDefault;
+}
+
 export function buildStyleBackingPrompt(plan, styleId, options) {
   const opts = options || {};
   const preset = getStylePreset(styleId);
   if (preset.id === 'custom' && opts.customPrompt) {
     return String(opts.customPrompt).trim();
   }
+  const guideConditioning = opts.guideConditioning !== false
+    && (plan && plan.guideAudioConditioning !== false);
   const musical = plan && plan.musical ? plan.musical : {};
   const timing = plan && plan.timing ? plan.timing : {};
   const tempo = Math.round(parseFloat(timing.tempoBpm || musical.tempoBpm) || 120);
@@ -114,6 +154,25 @@ export function buildStyleBackingPrompt(plan, styleId, options) {
   const genres = Array.isArray(plan && plan.bibliographic && plan.bibliographic.genres)
     ? plan.bibliographic.genres.filter(Boolean).join(', ')
     : '';
+
+  if (guideConditioning) {
+    const styleFocus = preset.backingPromptFocus
+      || 'style-matched accompaniment';
+    const parts = [
+      tempo + ' BPM',
+      meter,
+      'full band arrangement',
+      styleFocus,
+      'strong audible chord accompaniment and rhythm section under the melody',
+      'follow guide melody contour and chord changes',
+      're-orchestrate with rich backing, not a solo melody',
+      'do not use church organ, pipe organ, or general midi hymn pads',
+      key ? 'key of ' + key : '',
+      genres,
+      'dry mix, practice track',
+    ].filter(Boolean);
+    return parts.join(', ');
+  }
 
   const parts = [
     tempo + ' BPM',
@@ -128,16 +187,14 @@ export function buildStyleBackingPrompt(plan, styleId, options) {
   return parts.join(', ');
 }
 
-export function buildStyleNegativePrompt(styleId) {
+export function buildStyleNegativePrompt(styleId, options) {
+  const opts = options || {};
+  const guideConditioning = opts.guideConditioning === true;
   const preset = getStylePreset(styleId);
   const base = [
     'piano',
     'acoustic piano',
     'bright piano',
-    'lead melody',
-    'solo melody',
-    'solo violin',
-    'solo fiddle',
     'general midi',
     'cheap synthesizer',
     'midi piano',
@@ -146,6 +203,30 @@ export function buildStyleNegativePrompt(styleId) {
     'wrong tempo',
     'ambient wash',
     'reverb tail',
+    'solo melody only',
+    'a cappella',
+    'thin arrangement',
+    'no accompaniment',
+    'church organ',
+    'pipe organ',
+    'wrong melody',
+    'improvised melody',
+    'substitute chords',
+    'wrong chords',
+    'harmonic drift',
+    'oom pah',
+    'muzak strings',
   ];
-  return base.concat(preset.negativeExtras || []).join(', ');
+  if (!guideConditioning) {
+    base.push(
+      'lead melody',
+      'solo melody',
+      'solo violin',
+      'solo fiddle',
+    );
+  }
+  return base.concat(preset.negativeExtras || []).filter(function(term, index, arr) {
+    if (!guideConditioning) return true;
+    return !/lead melody|solo melody|solo fiddle|solo violin|no lead/i.test(String(term));
+  }).join(', ');
 }

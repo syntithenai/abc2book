@@ -1,0 +1,30 @@
+X:7
+T:Stutzbode-Juiz. 1987  A-Dur  ABAC
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] "flottes Walzertempo"c|e2c | A2c | e2c | B3 | EGB | e>ee | dcB | 
+A2c | e2c | A2c | e2c | B3 | EGB | e>ee | "_rit."dcB | A3 || 
+M:3/4
+[P:B] c|B3 | EGB | e3 | dcB | A3 | EAc | e3 | AcA | B3 | 
+EGB | e3 | dcB | (A3 | A)zc |  B3 | EGB | e3 | dcB | A3 | 
+EAc | e3 | AcA | B3 | EGB | e3 | dcB | (A3 | A)z || 
+M:3/4
+[P:C] C| vE .E/.E/ .E/.E/ | C/E/ A/C/E | ece | B2D | vE .E/.E/ .E/.E/ | D/E/ G/D/E | 
+eBc | A2C | vE .E/.E/ .E/.E/ | C/E/ A/C/ E | ece | B2D | vE .E/.E/ .E/.E/ | D/E/ G/D/E | "_rit."Eec/B/ | 
+A2C | vE .E/.E/ .E/.E/ |  C/E/ A/C/E | ece | B2D | vE .E/.E/ .E/.E/ | D/E/ G/D/E | eBc | A2C | 
+vE .E/.E/ .E/.E/ | C/E/ A/C/E | ece | B2D | vE .E/.E/ .E/.E/ | D/E/ G/D/E | "_rit."Eec/B/ | !fermata!A2 |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 22-06
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 20, 2018

@@ -1,0 +1,56 @@
+X:44
+T:Kiss the Lady. WHG.043
+R:Waltz
+S:W.H.Giles MS,Bampton,Oxfordshire,1839p42, p43
+O:England
+H:donated by Mrs W.R.Kettlewell to VWML,Apr 1927.
+A:Oxfordshire - Bampton
+N:The exact transposition is below the tune,
+N:commented out.
+Z:PJHeadford - VMP 2009
+M:3/4
+L:1/8
+Q:1/4=160
+B:Village Music project, Giles, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gileswh.abc
+K:G major
+G/B>G|(g2f) z/A/c>e|(e2d) z/G/B>d|\
+(d2c) z/F/A>c|(e2d) z/G/B>d|\
+(g2f) z/A/c>e|(e2d) z/G/B>d|\
+(dcBc) AF|G2 z2z/:|
+|:G/B>d|(d2c) z/F/A>c|(d2c) z/G/B>d|\
+d2c z/F/A>c|(e2d) z/G/B>d|\
+(g2f) z/A/c>e|(e2d) z/G/B>d|\
+dcBc AF|G2zz/:|
+z/d2|(3ded .b2.a2|(3gag .B2.e2|\
+(3cdc .A2.f2|.g2.b2 .g2|\
+(3ded .b2.a2|(3gag .B2.d2|\
+(3cdc A2f2|g2z2z/:|
+|:B|(c2A2)f2|g2b2((3ded)|\
+((3cdc)f4|(g2b2)d2|\
+.d2.b2a2|.g2.d2.B2|\
+.c2.A2.f2|g2z2z/:|
+|:d/f/|a2abag|f2d2d2|e2A2A2|f2d2d2|\
+a2(ab)ag|f2d2d2|e2A2A2|d4z:|
+{cd}e2A2A2|f2d2d2|e2A2A2|f2d2d2|\
+a2abag|f2d2d2|e2A2A2|d4||z2|z3z/|]
+%G/B>G|(g2f)z/A/c>e|(e2d)z/G/B>d|\
+%(d2c)z/F/A>c|(e2d)z/G/B>d|\
+%(g2f)z/A/c>e|(e2d)z/G/B>d|\
+%(dcBc) AF|G2zz/::G/B>d|
+%(d2c)z/F/A>c|(d2c)z/G/B>d|\
+%d2cz/F/A>c|(e2d)G/B>d|\
+%(g2f)z/A/c>e|(e2d)z/G/B>d|\
+%dcBc AF|G2zz/:|z/d2|
+%(3ded .b2.a2|(3gag .B2.e2|\
+%(3cdc .A2.f2|.g2.b2 .g2|\
+%(3ded .b2.a2|(3gag .B2.d2|\
+%(3cdc A2f2|g2z2::B2|
+%(c2A2)f2|g2b2((3ded)|\
+%((3cdc)f2|(g2b2)d2|\
+%.d2.b2a2|.g2.d2.B2|\
+%.c2.A2.f2|g2z2z/:|
+%d/f/|a2abag|f2d2d2|e2A2A2|f2d2d2|\
+%a2(ab)ag|f2d2d2|e2A2A2|d4:|\
+%{cd}e2A2A2|f2d2d2|e2A2A2|f2d2d2|\
+%a2abag|f2d2d2|e2A2A2|d4|]

@@ -1,0 +1,22 @@
+X:21
+T:Kuckucks-Galopp  GC (GL07419)  ABCDED
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.333 (GL07419) orig. G,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDED
+R:Gallop
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+f2 | "D7"d4z2f2 | d4z2f2 | d2f2 a2c'2 | d4z2Bc [P:A] |: "G".d2.b2 (f2g2) | d6Bc | .d2.e2 .f2.g2  | ("E7"^g4"Am/C"a2)ee | "D7"e2a2 b2a2 | "G"a2g2 d2B2 | 
+"D7"e2d2 c2A2 |1 "G"G4z2Bc :|2 "G"G4z2GG || [P:B] "Am"AAAA A2e2 | "G"d2!>!b4ag |  "D7"ffff f2e2 |  "G"d2!>!B4FG | "Am/C"AAAA A2e2 | 
+"G"d2!>!b4ag | "D7"fede dcBA | "G"G4z4 [P:C] |: "Am"z2aa a2g2 | "D7"f4z4 | z2dd d2d2 | "G"B2(ag fedc) | .B2(ed) "D7".A2(ed) | 
+"G"B2(ag fedc) | .B2(ed) "D7".A2(ed) | "G"G2gg g2g2 | g4z4 :| "C"c4"D7"B4 | "C"c4z2G2 |: [P:D] [K:C] "C"E2 (ef) g2G2 | E2 (ef) g2G2 | 
+"C"EGce g2a2 | ("G7"g4f2) G2 | F2 (de) f2 G2 | F2 de f2F2 | DFGB d2a2 | ("C"g4e2) G2 | E2 (ef) g2 G2 | E2 (ef) g2G2 | 
+"C"EGce g2a2 | ("G7"g4f2)(f2 | d4)z2(f2 | d4)z2f2  | GBdf a2g2 |1 "C"c4z2G2 :|2 "_fine""C"c4 z2g2 |] [P:E] [K:G]  "D7"f2de f2a2 | "G"g2Bd g2b2 | "D7"a2fa c'2f2 | 
+"G"a2gd B2g2 | "D7"f2de f2a2 | "G"g2Bd g2b2 | "D7"agfe dcBA | "G"G2gg .g4 | z2gg.g4 | z2gg.g4 |  G2g2 G2g2 | "G7"G2g"_>Teil D"g .g4 |] 
+% GL07419
+% Aug 16, 2017

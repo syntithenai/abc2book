@@ -1,0 +1,25 @@
+X: 15
+T:Miss Gunnings Reel
+B:William Marshall, Kinrara (1800)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:26 - 1
+K:A major
+%%staves { 1 2}
+V:1
+e | \
+{d}c2 BA (G/A/B) (ED) | CEAc BEEe | {d}c2 (BA) (G/A/B E)d | (c/d/e) Bd cAA ::
+g | \
+(aAa)A aA d/c/B/A/ | GB !trill!B2 GB !trill!B2 | (aAa)A aA d/c/B/A/ | (c/d/e) Bd cA A2 |
+(aAa)A aA (d/c/B/A/) | (GB B2) GB B2 | (ecB)A a(cBA) | (c/d/e) Bd cA A2 ::
+cefe cefe | fedc BE E2 | cefe cefe | fefg aA A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | AAeE | AceE | AAee | AeAA/ :: \
+z/ | AAcA | BBee | AAcB | eEAA/z/ | \
+AAcA | BBee | AAcc | eEAA :: \
+AAAA | AAeg | aaaa | d>eAA |]

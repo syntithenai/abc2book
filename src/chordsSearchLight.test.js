@@ -57,6 +57,27 @@ describe('searchChordsLight', function() {
     expect(result.source).toBe('The Session')
   })
 
+  test('ignores wrong-artist local ABC when a specific artist is requested', async function() {
+    localAbcCollectionSearch.searchLocalCollectionChords.mockResolvedValue([{
+      sheetLines: ['D G Bm A'],
+      chordText: 'D G Bm A|',
+      lyricLines: [],
+      lyricText: '',
+      title: 'Gumboots',
+      artist: 'John Clarke, alias Fred Dagg',
+      source: 'FolkTuneFinder',
+      sourceUrl: '',
+      preview: 'D G Bm A|',
+    }])
+
+    await expect(searchChordsLight({
+      title: 'Gumboots',
+      artist: 'Paul Simon',
+      abcTools: {},
+      renderChords: function() { return 'D G Bm A|' },
+    })).rejects.toThrow(CHORDS_LIGHT_ERROR)
+  })
+
   test('throws when no local chord matches exist', async function() {
     await expect(searchChordsLight({
       title: 'Obscure Song',

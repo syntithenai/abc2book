@@ -1,0 +1,25 @@
+X:1
+T:Anna-Polka  FBb  (pk08076)  ABCDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.125  (pk08076) orig. F,Bb
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"CF/G/ AA | A2z2 | CA/B/ cc | c2z c | "C7"d/d/d GA | B3d | "F"c/c/c FG | A2zC | 
+CF/G/ AA | F2z2 | "Am"EA/=B/ cc | c3c | "E7"=B/B/B cB | "Am"A/A/A =BA | "E7"^GE ^FG |1 "Am"AA/A/ A2 :|2 "Am"AA/A/ Ac || 
+[P:B] |: "C7"c2B>A | GA Bc | "F"d2 c>=B | cA cf | "C7"e(G Bc) | e3d | "F"c(F Ac) | d3c | "C7"c2B>A | 
+GA Bc | d2e>f | "F"f(A Bc) | "Bb"d/d/d BG | "F"c/c/c AF | "C7"A/A/A GE |1 "F"FF Fc :|2 "F"FF Fz || [K:Bb] 
+[P:C] |: ("Bb"FB) (Bc) | d3B | (ed) (cB) | "F7"c3F | (FA) (AB) | c3A | (dc) (cA) | "Bb"B3F | 
+(FB) (Bc) | d3e |  (=ef) (_ed) | "Cm"c3G | G2 (AB) | "Bb"B3d | ("F7"ce) (cA) | "Bb"BB B"_Fine"z :| 
+[P:D] "Gm"G/A/BB2 | "D7"A/B/cc2 | dd/e/ dc | "Gm"BAG2 | G/A/BB2 | "Cm"c/d/ee2 | "D7"d>c BA | "Gm".G2"_>Teil C" !>!"F7"F2  |] 
+W:
+%W:Parts: ABCDC
+W:Anmerkung H.C.: Wynige/Zch. 36. Nach R. Claus
+% pk08076 (H 286/TN 11)
+% May 5, 2018

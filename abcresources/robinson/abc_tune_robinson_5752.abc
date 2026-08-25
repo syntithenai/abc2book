@@ -1,0 +1,34 @@
+X:3
+T:Bürgestöckler-Juiz. 1991  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>D | F3Ff2 | c4cB | A3Bc2 | B3D Ff | d3cB2 | A3C Ff | e2d2c2 | B6 | 
+F3Ff2 | c4cB | A3Bc2 | B3D Ff | d3cB2 | A3C Ff | e2d2cA | B4 || 
+L:1/8
+M:3/4
+[P:B] FF | B2 BA Bc | d2B2 ed | c2f2 ec | d2B2 FF | B2 BA Bc | d2B2 dd | f2 fe dc | 
+B4FF | B2 BA Bc | d2B2 ed | c2f2 ec | d2B2 FF | B2 BA Bc | d2B2 dg | f2 fe dc | !fermata!B4 || 
+M:3/4
+L:1/4
+Q:1/4=63
+[P:C] F>Ff | c2c/B/ | A>Bc | B>D F/f/ | d>cB | A>C F/f/ | edc/A/ | !fermata!B2 || 
+L:1/8
+Q:1/4=56
+[P:D] F>F | DdB2 F>F | Edc2F>F | FA/c/ f>e d>c | BdF2F>F | DdB2F>F | 
+Edc2F>F | FA/c/ f>e dc | !fermata!B4 F>F | DdB2 FG/F/ | Edc2F>F | 
+FA/c/ f>e d>c | BdF2F>F | DdB2FG/F/ | Edc2F>F | FA/c/ f>e "rit."dc | !fermata!B4 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-02
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 12 2018

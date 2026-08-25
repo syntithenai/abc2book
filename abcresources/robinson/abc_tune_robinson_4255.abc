@@ -1,0 +1,17 @@
+X: 26
+T: Der Nüy (The New One')  GC (st05777)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.98 (st05777) orig. G,C-Dur
+S: Berner Oberländer Tänze (Bern)
+%%partsbox
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+P:ABACDA
+K:G major
+B [P:A] |: "G"d>d cd | "Am"e2A2 | "D7"c>c Bc | "G"d2G2 | B>B AG | "Am"A2e2 | "D7"d>c BA |1 "G"GG GB :|2 "G"GG GD || 
+[P:B] |: "G"G/G/G D2 | BB/B/ d2 | "D7"A/A/A d2 | "G"BA GD | G/G/G D2 | BB/B/ d2 | Bd "D7"c/B/A |1 "G"GG GD :|2 "G"GG"_> Teil A" GB || 
+K:C
+[P:C] |: "C"e2g2 | "G7"ff/e/ d2 | ff/e/ fa | [L:1/16]  "C"g^fgc' "G7"bag=f | "C"e4g4 | "G7"f2fe d4 | g^fga gbe'd' | "C"c'2c'2 c'2z2 :| 
+[P:D] |: "F"a4c'4 | "C"g2ef g4 | "G7"Bcde fefa | "C"g^fga gc'ge | "F"a4c'4 | "C"g2ef g4 | "G7"g2ba gfed |1 "C"c2e2 c2z2 :|2 "_> Teil A""C"c4B4 |]

@@ -1,0 +1,24 @@
+X:1
+T:the Duke of Gordon's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 1
+K:D major
+%%staves {1 2}
+V:1
+(B/c/ | \
+d)>D!trill!F3/D/ A>D!trill!F3/(D/ | B)>D!trill!F3/D/ E/E/E (EB/c/ | \
+d)>D!trill!F3/D/ A>D!trill!F3/D/ | d>fe>f d/d/d d :|
+(f/g/ | \
+a)>f d<f A<d!trill!F3/D/ | G>BF>A E/E/E (Eg) | \
+a/g/f/e/ d<f A<d!trill!F3/D/ | G>BA>c d/d/d df/g/ |
+a>fd>f A<d!trill!F3/A/ | G>BF>A E/E/E (!trill!E3/F/) | \
+D>FE>G F>AG>B | !trill!A3/F/G>E D/D/D D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | ddee | dddd | aAdd/ :| \
+z/ | dddd | gdaA | ddfd | gadd | dddd | gfee | defg | aAdd/ |]

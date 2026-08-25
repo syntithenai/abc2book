@@ -1,0 +1,29 @@
+X:10
+T:Guberegrat-Juiz  Bb  ABAC
+T:Xaver Ambauen  (* 3.2.1925)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4+3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "frei im Rhythmus"  DF | d>c BG | F2DF dB | A>c FA E2 | 
+e>d cB | AF dc | B2DG | F4 DF  | d>c BG | 
+F2DF dB | A>c FA E2 | e>d cB | AF dc | (B4 | B2) ||
+L:1/8
+M:4/4+3/4
+[P:B]  B>G GE Gg fe | dB dB dB | A>G Fg fe | d>B BG FB A_A | 
+B>G GE Gg fe | dB dB dB | A>G Fg fe | d6 ||
+M:4/4
+[P:C] "sehr langsam"  FF |f2 e2d2c2 | B>d FB DF dB | A>c FAE4 | A>c FA EF dc | 
+B>d FBD2FF | f2e2d2c2 | B>d FB DF dB | A>c FAE4 | A>c FA EF dA | B8 |] 
+W:
+%W:Reihenfolge: ABAC
+W:notiert Edi Gasser, nach Angabe von  Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 08-05
+W:http://www.naturjodler.ch/code 08.htm  (with AUDIO)
+%May 4, 2018

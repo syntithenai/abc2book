@@ -1,0 +1,20 @@
+X: 266
+T: Mi Cigani
+O: Croatia
+S: Deborah Jones, VIFD Book
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI program 41
+%%MIDI bassprog 32
+|:"C" [c2e2][c2e2]                                |[ce][df] [e/g/][d/f/][ce]            |\
+  "G" [Bd][B/d/][B/d/] [B2d2]                     |[Bd][B/^c/][B/d/] [ce][Bd]           |
+  "D7" [Ac][^G/B/][A/c/] [Bd][Ac]                 |"G" [GB][G/B/][G/B/] [G/B/][A/c/][GB]|\
+  "D7" [DFA][D/F/A/][D/F/A/] [D/F/A/][D/F/B/][DFA]|"G" [D2G2] [D2G2]                    :|
+|:"G" BB GG                                       | DD BB                               |\
+  "D7" AA FF                                      | GG GG                               :|
+|:"C" [G2c2e2] [G2c2e2]                           |[Gce][Gce] [Geg][Geg]                |\
+  "G" [GBd][GBd] [G2B2d2]                         |[GBd][GBd][Gce][GBd]                 |
+  "D7"[DAc][DAc][DBd][DBd]                        |"G" [DGB][DGB][DAc][DAc]             |\
+  "D7"[DFA][DFA][DFB][DFA]                        |"G" [D2G2][D2G2]                     :|

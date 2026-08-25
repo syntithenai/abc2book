@@ -1,0 +1,24 @@
+X:11
+T:Am Rheines Strand (Walzer) FC (wz02050)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.290 (wz02050) orig. F,C
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+%%partsbox
+P:ABCAC
+O:Switzerland
+R:Walzer
+M:3/4
+L:1/4
+K:F major
+[P:A] c | "F"azc | "C7"gzc | e>BB | Bzc | bzc | gzc | "F"f/e/ f/g/ a/b/ | c'zc | azc | 
+gzc |  "Bb"f>ed | dzb | "F/C"a2c | "C7"c'2e | "F"f/e/ f/g/ "C7"a/g/  | "F"f2z || [P:B] [K:C] "C"g2^f/g/ | a2g | e3 | 
+c2e/g/ | c2e/g/ | c2g | ("G7"B3 | B)zg | ^f2g | a2g | b3 | bag | fe>d | 
+dcB | "C"ce>a | g3 | g2^f/g/ | a2g | e3 | c2e/g/ | c2e/g/ | c2g | ("G7"B3 | B)zz | 
+def | ba>B | "C"ce>a | gce | "G7"a2g | b2f | "C"c'>c'c' | "_Fine"c'zc || [P:C] [K:F] "F"c2c' | a2g | 
+g2f | c3 | f>e d/c/ | f>e d/c/ |  "C7"e/B/BB | Bzz | c2b | a2g | g2f | e2d | 
+cb>c | gce | "F"fa>c' | c'zc | c2b | a2g | g2f | c3 | c>fc | f>e d/c/ | 
+"C7"e/B/ BB | Bzz | "Bb"d2b | "C7"a2g | "F"gf>a | c'2c | "C7"aga | b2e | "F"f/e/ f/g/ "C7"a/g/ | "F"f"_Teil A"zz |] 
+W:Parts: ABCAC
+% wz02072
+% Sep 30, 2016

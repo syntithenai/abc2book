@@ -1,0 +1,20 @@
+X: 122
+T:Miss Forsyth's Reel -- Huntly
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:43 - 2
+K:A minor
+%%staves {1 2}
+V:1
+E<A-A>.B c2 (ce) | GABc dBGB | E<A-A>.B c2 (ce) |E<EE>^G A2 A2 :|
+cde^f gage | GABc dBGB | cde^f gage | d<Bg>B A2 A2 |
+cde^f gage | GABc dBGB | cedB cABG | E<EE>^G A2 A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+AAAA | GGBG | AAAA eeAA :|
+c'c'c'c' | gggg | c'c'c'c' | ggaa | c'c'c'c' | gggg | aead | eeAA |]

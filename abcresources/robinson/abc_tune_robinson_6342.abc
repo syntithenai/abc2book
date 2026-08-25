@@ -1,0 +1,24 @@
+X:1
+T:Juliette-Walzer  FC  (wz07015)  ABC
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.147  (wz07015) orig. F,C
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+ "F"!>!f2z | !>!c2z | "C7"c'be | "F"fzz [P:A] |: "F"czd | cza | "Bb"fzd | "F"cza | "C7"bza | gzd | 
+"F"azf | c'3 | czd | cza | "Bb"fzd | "F"cza | "C7"bza | g2a | "F"f>ff | fzz :| [K:C] 
+[P:B] |: "G7"g3 | def | "C"e3 | efe | "G7"d2a | g2f | "C"f2e | g3 | "G7"d3 | def | "C"e3 | 
+efe | "Dm"d2a | ("G7"g2B) | ("C"c3 | c)zz [P:C] [K:F] :: ("F"c2f) | (f2e) | "C7"ezd/^c/ | d3 | ("Bb"d2e) | (e2d) | 
+"F"dzc/=B/ | c3 | (c2a) | (a2b) | "Gm"azg/^f/ | g3 | "G7"gfd | "C7"ca>g | "F"f>ff | fzz :| 
+%
+%W:Parts: ABC
+W:
+W:Anmerkung H.C.: Ziefen 38, s.V. 238
+% wz07015
+% 06.06.2018

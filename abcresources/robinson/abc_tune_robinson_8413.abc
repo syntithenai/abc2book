@@ -1,0 +1,26 @@
+X: 18
+T:Lady Ann Wharton Duff's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 1
+K:Bb major
+%%staves { 1 2 }
+V:1
+"^Slow when not danced"
+~B,>F (G/F/)E/D/ (C>D)EG | ~B,>F (G/F/)E/D/ (F>G)Bd | \
+.f.d.B>.D (C>D).E.G | .F.B.A.c .B.D.F.D |
+~B,>F (G/F/)E/D/ (C>D).E.G | ~B,>F (G/F/)E/D/ (F>G).B.d | \
+.f.d.B>.D (C>D).E.G | .F.B.A.c .B.d.c.e ||
+~d>f (e/d/)c/B/ g>ceg | ~d>f (e/d/)c/B/ fb BG | \
+Ec DB C>DEG | FBAc Bdce |
+~d>f e/d/c/B/ g>ceg | ~d>f e/d/c/B/ fb BG | \
+EcDB C>DEG | FBAc BDFD |]
+V:2 clef=bass octave=-2
+L:1/4
+BBcc | BBBB | BBcc | fFBB | BBcc | BBBB | BBcc | ffbf || \
+bbc'c' | bbbd | edcc | [fF]fbf | bbc'c' | bbbd | edcc | fFBB |]

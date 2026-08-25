@@ -1,0 +1,23 @@
+X:2
+T:Alpenrosen. Schlittschuhpolka  CF 7- (pk07951)
+S:Hanny Christen. Bd.V  Basel II, Jura. S.246  (pk07951) orig. G,C
+S:Basel II. "Tänze aus Titterten". S.230-249.
+S:Überliefert durch Karl Miesch.
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Polka
+M:4/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G2 EF G2e2 | d2c2 G3c | "G7"c2B2G3c | "C"d2c2!>!e4 | G2 EF G2e2 | d2c2G3c | "G7"d2d2 cB AB | "C"c2c2c2z2 || 
+[P:B] "G7"d3^c de fd | "C"c2 ce G3c | "G7"c2B2d3F | "C"A2G2c4 | "G7"d3^c de fd | "C"c2ce G3c | "G7"^c2d2f2 ed | "C"c2c2c2z2 || 
+[P:C] [K:Fmaj] |: "F"AA A2d2c2 | "Bb"BBB2e2d2 | "C7"dc EG d3c | "F"(dc FA) d3c | AAA2d2c2 | "Bb"BBB2 e2d2 | "C7"dc EG dc BG | "F"F2A2F2z2 :| 
+[P:D] "Bb"f3e dc df | "F"c2cBA4 | "C7"G^F GA B2d2 | "F"c2FF A2c2 | "Bb"f3e dB df | "F"c2cBA4 | "C7"Gd BG B2E2 | "F"F2A2F2z2 |] 
+W:
+W:Parts: ABCD
+W:Anmerkung H.C.: rotes Heftli 21. s.V. 108
+%W:Anmerkung Hrsg,:http://www.mandolintab.net/abcconverter.php (GC > CF)
+% pk07951
+% Jan 21, 2020

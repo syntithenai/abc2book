@@ -1,0 +1,22 @@
+X: 25
+T:Miss Watt's Reel -- Mether Cluny
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:9 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+d | \
+~B2 (dB) fBdB | GFGB  (!trill!cBc).d | B/B/B (dB) fBdB | egfe dB-B :|
+E | \
+(DE/F/) (B,F) BFdB | GFGB (!trill!cBc)d | Bfdf egdf | (!trill!cBc).d B/B/B BE |
+(DE/F/) (B,F) BFdB | GFGB (!trill!cBc).d | f/f/f (~gf) bfdB | egfe dB-B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | BBBd | eeff | bbbd | efBB/ :| \
+z/ | BBBB | eeff | bbed | efBB | BBBB | eeff | bBdB | efBB/ |]

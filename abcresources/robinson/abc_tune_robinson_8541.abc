@@ -1,0 +1,21 @@
+X: 104
+T:Mr Alexander Laing's Hornpipe -- Leuchold
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Hornpipe
+Z:Clark Bernst + Richard Robinson
+%%Page:37 - 2
+K:E major
+%%staves {1 2}
+V:1
+e2 ge (ed)cB | (cd)ec (cB)AG | (GA)Bc (de)fg | acfe (ed)cB |
+e2 ge (ed)cB | (cd)ec (cB)AG | (GA)Bc (de)fa | gefd e2 e2 |]
+(GA)(BG) cAAc | (FG)(AF) BGGB | (EF)GA (Bc)de | (fg)af (ed)cB |
+(GA)(BG) cAAc | (FG)(AF) BGGB | B,EGB egba | gfed e2 e2 |]
+V:2 clef=bass octave=-2
+L:1/4
+eebb | aage | ee[eg][eg] | afbB | eebb | aage | egbd' | e'bee |] \
+egaA | cceE | eegg | afbB | eeaA | BBeE | eege | bBee |]

@@ -1,0 +1,35 @@
+X:11
+T:Häb Dank  BbB
+T:Michael Wallimann (3.3.1977)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] "getragen"  D| F>FED | F3F | B>BcB/c/ | d3F | c>BcB | A3F | d>B fe | d3D | 
+F>FED | F3F | B>BcB/c/ | d3F | c>BcB | AFdc | (B4 | B2)z2 |] 
+M:3/4
+L:1/8
+[P:B] "lüpfig"  F (3dcB | d3F Dd | f>dc2(3cBA | c3F EE | 
+e>cd2 (3dcB | d3F Dd | f>dc2 (3cBA | c3F (3E/d/ec | !fermata!B4 ||
+M:3/4
+[P:C] "ruhig und getragen"  "_*"F2 |  DE DC B,C | D2"_*"F2B,2 | ED CB, A,B, | C4 "_*"F2 | DE DC B,C | D2E2 EC | B,3B, A,B, | 
+!fermata!C4F2 | de dc Bc | d2F2B2 | ed cB AB | c4F2 | de dc Bc | d2e2 ec | B3F dc | !fermata!B4 ||
+M:4/4
+[P:D] "_frisch, lebendig" D/C/ DE | F2d3D ED | C>"_*"F (C2C) "_*"FA,G, | A,>G, "_*"F3 c de | (d4d) D/C/ DE | 
+F2B3D ED | C>"_*"F (C2C) "_*"F A,G, | A,>B, C3e dc | B4z4 || 
+[P:D2]
+[K:B] "etwas schneller" D/C/ DE | F2B3D ED | C>"_*"F (C2C) "_*"FA,G, | A,>G, "_*"F3c de | 
+(d4d) D/C/ DE | F2B3D ED | C>"_*"F (C2C) "_*"FA,G, | A,>B, C3e dc | !fermata! B4z2 |]
+W:
+W:Reihenfolge: A - B - C - D - D2
+W:* F = F, (1 octave down)
+W:notiert Edi Gasser. Angaben Michael Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 39-06
+W:http://www.naturjodler.ch/code 39.htm  (with AUDIO)
+%Sept 15, 2018

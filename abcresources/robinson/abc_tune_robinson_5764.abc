@@ -1,0 +1,38 @@
+X:23
+T:Jodlerfrindschaft  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+M:3/4
+L:1/4
+"Anruf" F|B2c | d2f/e/ | d>Fc | !fermata!B2 || 
+M:4/4
+[P:A] "erzählend" F| B>FDB | FB/F/DB | A>FEF | c3F | A>FEA | FE/F/dc | B>BAG | 
+F3F | B>FDB | FB/F/DB | A>FEF | c3F | A>FEA | FE/F/dc | (B4 | B) || 
+M:4/4
+[P:B] "frisch" B,/D/ | Ff d/c/B | A>BcA/G/ | Ff e/d/c | d>cBB,/D/ | 
+Ffd/c/B | A>BcA/G/ | Ffe/d/c | B3B,/D/ | Ffd/c/B | A>BcA/G/ | 
+Ffe/d/c | d>cBB,/D/ | Ff d/c/B | A>BcA/G/ | Ffe/d/c | !fermata!B3 || 
+M:3/4
+[P:C] "tragend und ruhig" F | B2c | d>cB | A2B | c2F | c2d | e>dc | B2c | 
+d2F | B2c | d>cB | e2G | c2e | d2F | B2d | (c3 | c)z || 
+M:3/4
+[P:D] "frisch" f/e/| d2B | F>Be | d2A | c2f/e/ | d2f | d2c | B2d | f2f/e/ | d2B | 
+F>Be | d2A | c2f/e/ | d2f | d2c | (B3 | B)zf/e/ | d2B | F>Be | d2A | c2f/e/ | d2f | 
+d2c | B2d | f2f/e/ | d2B | F>Be | d2A | c2f/e/ | d2f | d2c | (B2 B) | z |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:Naturjuiz für alle "Bärgröseli-Frindä" - 2002
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-12
+W:http://www.naturjodler.ch/code 17-a.htm  (with AUDIO)
+%May 14 2018

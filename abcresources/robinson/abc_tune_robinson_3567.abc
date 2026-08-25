@@ -1,0 +1,17 @@
+X:117
+T: Mazurka (nach Stamm)  GDC (mz05063)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.334 (mz05063) orig. G,D,C-Dur
+P:ABACD
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+"G"d3B "C"c>e | "G"d3B "C"c>e | "D7"d>c B>A G>F | "G"G2g2z2 [P:A] |: "G"B2B2B2 | B>cd4 | B2B2B2 | "D7"c>BA4 | 
+f2f2f2 | f>ga4 | a2a2a2 | "G"b>ag4 | B2B2B2 | B>cd4 | "C"c2c2c2 | c>de4 | e>d c>Bc2 | 
+"G"d>c B>AB2 | "D7"c>B A>c B>A | "G"G2G2z2 :: [P:B] [K:D] "A7"A2 B>c d>e | "D"f>ed4 | "A7"e>d c>A B>c | "D"d>fa4 | "A7"A2B>c d>e | 
+"D"f>ed4 | "A7"e>d c>A B>c | "D"d2d2"_>Teil A"z2 ::  [P:C] [K:C] "C"G2c2c2 | c4G2 | G2e2e2 | e4c2 | "G7"d2g2g2 | 
+g4d2 | "C"d2e2e2 | e4c2 | G2c2c2 | c4G2 | G2e2e2 | e4c2 | "G"d2g2g2 | g4B2 | "D7"d>e d>c B>A | "G"G2G2z2 ::  
+[P:D] "G7".f2!>!f3e | .d2 {/e}d>^c d>f | "C".e2!>!e3d | .c2 {/d}c>B c>e | "G7".d2!>!d3c | .B2.A2.B2 | "C"c2e2a2 | g2 Gc eg | 
+"G7".f2!>!f3e | .d2 {/e}d>^c d>f | "C".e2!>!e3d |  c2 {/d}c>B c>e | "G7".d2!>!d3c | .B2.A2.B2 | "C".c2z2"G7"B>d | "C"c2c2"_Fine"z2 :|

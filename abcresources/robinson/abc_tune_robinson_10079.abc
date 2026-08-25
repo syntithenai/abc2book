@@ -1,0 +1,23 @@
+X:1
+T:Highland Time
+B:William Marshall, Kinrara (1800)
+C:William Marshall
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+F | \
+B>cBd FB G/F/E/D/ | B<FBd cCCA | \
+!trill!B>cBd FB (G/F/E/D/) | E<g !trill!f>e dBB ::
+f |\
+df (e/d/c/B/) bBeg | !trill!f>g (e/d/c/B/) {Bc}d<c (cd/e/) | \
+fBdB gBeg | FB {d}(!trill!cB/c/) {Bc}dBBd |
+fg/a/bB gBfB | ec{e}d{c}B Ac{dcB}cd | \
+B<FG<B F<B (G/F/E/D/) | E<g {g}!trill!f>e dBB |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | BBBB | Bd/B/fe | dBBB | ef B/B/ B/ :: \
+z/ | BBde | dBfe | dBee | fFBB | Bded | cBfe | dedB | ef B/B/ B/ |]

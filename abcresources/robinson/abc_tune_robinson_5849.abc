@@ -1,0 +1,29 @@
+X:1
+T:dr Gmüetlich. Natur-Juiz  Bb  ABAC
+T:Josef Amstutz  (* 1949)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] B,C | D>CB,2BG | FBD2FB | c>BA2Fc | 
+dcB2B,C | D>CB,2 DF/B/ | d>cB2Fd | f>e cF dc | !fermata!B4 || 
+M:3/4
+[P:B] FD | E2c2dc | B2D2 B,G | FGc2dc | BdF2DF | 
+c2E2cd | B2D2AG | F2e2dc | B4FD | E2c2 dc | B2D2B,G | 
+FEc2dc | BdF2DF | c2E2cd | B2D2AG | F2e2dc | !fermata!B4 || 
+M:3/4
+[P:C] (3BAG | F>dB2 (3BAG | F>eA2GF | e2A2GF | d2B2 (3BAG | F>dB2 (3BAG | 
+F>eA2GF | e2A2fA | B4 (3BAG | F>dB2 (3BAG | F>eA2GF | e2A2GF | 
+d2B2 (3BAG | F>dB2 (3BAG | F>eA2GF | e2A2fA | !fermata!B4 |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 27-01
+W:http://www.naturjodler.ch/code 27.htm  (with AUDIO)
+%May 27, 2018

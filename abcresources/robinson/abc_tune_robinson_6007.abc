@@ -1,0 +1,25 @@
+X:1
+T:Gottfried-Marsch  CF (mr07016) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.152  (mr07016) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"cG/G/G2 | cG/G/G2 | cG ce | "G7"g2zG/c/ [P:A] |: "C"e3G/c/ | e3G/c/ | ee dc | "G7"B3G/B/ | 
+d3G/B/ | d3G/B/ | df ed |"C" c3G | .e2.c2 | "F"AA/A/ AA | "G7"BB AB | "C"cde2 | .e2.c2 | 
+"F"AA/A/ Af | "G7"ed ed |1 G2zG/c/ :|2 G2zG |: [P:B]  "C"e2e2 | e2(dc) | "G7"cB BB | B3G | f2f2 | 
+f2(ed) | "C"dc cc | c3G | e2e2 | ("C7"ec) de | "F"gf ff | f3f | "C"eG ce | "G7"f3B | 
+"C"cc/c/ cc |1 c2zG :|2 c2 z2 || [K:F] [P:C] "F"A3c | (cf) fA | "Gm"G3d | d3z | "C7"E3G | Ge ed | 
+"F"c3F | A3z | A3c | "F7"ca gf | "Bb"e3d | d3z | "C7"d3c | =Bc de | "F".f2 f>f | f2z2 |] 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% mr07016
+% July 14,  2018

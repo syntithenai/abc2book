@@ -1,0 +1,28 @@
+X: 317
+T: Oj Rasticu Susnajati
+O: Croatia
+F: http://www.youtube.com/watch?v=BV5Glygh4iQ
+S: Deborah Jones VIFD Book 1
+M: 2/4
+L: 1/8
+Q:1/4=96
+K: Edor
+%%MIDI program 64
+%%MIDI chordprog 32
+%%MIDI bassprog 25
+   [ce][Adf] [Aeg][Adf]         |[Ae][Ae] [c3/2e3/2][A/d/f/]              |\
+   [Aeg][Adf] [Aeg][Adf]        | [ce][ce] [c2e2]                        |
+   EF GF                        | EE E2                                  |\
+   GF GF                        | EE E2                                  |
+|: [CE][DF] [EG][DF]            |[A,E][A,E] [A,2E2]                      |\
+   [EG][DF] [EG][DF]            |[A,E][A,E] [A,2E2]                      :|
+Q:1/4=120
+|: "D" [eg][df] [d/f/][e/g/][df]|"A" [df][c-e-] [c/e/][b/d/][c/e/][d/f/] |\
+   "D" [eg][df] [d/f/][e/g/][df]|"A" [df][c-e-] [c/e/][b/d/][c/e/][d/f/] :|
+Q:1/4=140
+|: "D" [EG][DF] [EG][DF]        |"A" [A,2E2] [A,E][DF]                   |\
+   "D" [EG][DF] [EG][DF]        |"A" [A,2E2] [A,E][DF]                   :|
+|: "D" [EG][DF] [EG][DF]        |"A" [DF][A,2E2] [DF]                    |\
+   "D" [EG][DF] [EG][DF]        |"A" [DF][A,2E2] [DF]                    :|
+|: "D" [EG][DF] [EG][DF]        |"A" [A,3E3][DF]                         |\
+   "D" [EG][DF] [EG][DF]        |"A" [A,3E3][DF]                         :|

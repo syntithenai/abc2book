@@ -1,0 +1,18 @@
+X:51
+T:Walzer CF (wz03591)
+B:Hanny Christen. Bd.3 Appenzell. S.255 (wz03591) orig. CF-Dur
+%%MIDI program 21
+O:Switzerland
+R:Walzer
+M:3/4
+L:1/8
+K:C major
+"C"e3 B cA | "Dm"AG GF D2 | "G7"AG GF D2 | "C"AG GF EG | \ 
+   e3 B cA | "Dm"AG GF DF | "G7"AG GF DB | "C"ca g^f g2 :| 
+|: "G7"fe d3 f | "C"ed c3 e | "G7"dc BG AB | "C"ca gf g2 | \ 
+   "G7"fe d3 f | "C"ed c3 e | "G7"dc BG AB | "C"c2 z2 z2 :| 
+K:F %%MIDI gchordon
+|: "F"[ca][ca] [ca]2 [Bg]2 | "Bb"[df][df] [df]2 [ce]2 | [Bg][Bg] [Bg]2 [df]2 | "C7"[Gce]6 | \ 
+      [db][db] [db]2 [ca]2 | [Bg][Bg] [Bg]2 [Af]2 | [Ec]2 [Gce]2 [Gce]2 | "F"[FAf]2 z2 z2 :|
+|: "F"c>a f2 c2 | c>a f2 c2 | "C7"cb ec be | "F"ca fa c2 | \ 
+      ca fc af | ca fc af | "C7"cb ec ag | "F"f2 z2 z2 :|

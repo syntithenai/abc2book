@@ -1,0 +1,30 @@
+X:49
+T:Jigg.2voices. TBe.053
+M:6/8
+L:1/8
+Q:3/8=85
+S:Thomas Bennet MS,1718, VWML
+R:Jigg
+O:England
+H:1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+K:Bb major
+[V:1]g | g>fe e>dc | B3 "^qu"G2 e | d2ef2g | e3-e2 g | !
+[V:2]e | e>dc c>B_A | G3-G2 c | =B2cd2G | G3-G2 e |!
+%
+[V:1]g>fe e>dc | =B3 G2e | (def) e2 d/c/ | c3-c2 ||!
+[V:2]e>dc c>B_A | G3-G2 c | =B>cd c2 B | c3-c2 ||!
+%
+[V:1]g/_a/ | g2_a g2B | B3-B2 B |=B>AG F2E | E3-E2 g/_a/ |!
+[V:2]e/f/ | e2f d2G | E3G2F | E3DE2 | E3-E2 e/f/ |!
+%
+[V:1]g2_af2B | B2BB2B | c>de e2 d | e3-e2 d/e/ |!
+[V:2]e2fd2G | E3 G2F | E3G2B | B3B2B |!
+%
+[V:1]d2g e>dc | d2g e>dc | =BGc dcB | c3-c2 d/e/ |!
+[V:2]=B2cc2c | B2GG2G | =BGc_A2G |G3-G2B/c/ |!
+%
+[V:1]d2g e>dc | d2g e>dc | =BGc cdB | c3-c2 |]
+[V:2]=B2cc2c | =B2GG2G | =BGc _A2G | G3-G2 |]

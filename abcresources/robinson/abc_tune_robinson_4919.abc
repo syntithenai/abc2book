@@ -1,0 +1,18 @@
+X:16
+T:Bim Bergheuet (Polka) FCBb (pk02257)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.330 (pk02257) orig. F,C,Bb
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:F major
+ag [P:A] |: "F"f2A2 A2cd | "C7"c2B2 B2gf | e2B2 e2d2 | "F"c4z2ag | f2A2 A2cd | "C7"c2B2 B2gf | ec'db caBg |1
+"F"f2a2 f2ag :|2 "F"f2a2 f2 z2 [P:B] |: [K:C ] "G7"g2fd BGAB | "C"cge2 zGce | "G7"dgf2 zGBf |  "C"ec'g2 zGce |  "G7"g2fd BGAB | 
+"C"cge2 zGce | "G7"fag2 Bfed | "C"c2e2 c2"_>Teil A"z2 :: [P:C] [K:Bb] "Bb"FDFB Pd2cB | "F7"A2cd edcA | 
+FEFA e3A | "Bb"B2de fdBG | FDFB d2cB | "F7"A2cd edcA | FAcg fceA | "Bb"Bg"F7"fd "Bb"B4 :| 
+% pk02257  
+% Nov 4, 2016

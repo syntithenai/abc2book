@@ -1,0 +1,25 @@
+X:48
+T:Charlie Is My Darling.2voices.  JMT.048
+M:4/4
+L:1/8
+Q:1/2=60
+S:J.Moore,Tyneside,1841.(35)
+R:Air
+O:England
+A:Northumberland
+N:There are grace notes={c/e/d/c/B/A/c/B/A/G/} adorning
+N:the F# in bar 8.
+Z:vmp.Chris Partington
+B:Village Music project, Moore, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/moorejt.abc
+K:Bb major
+V:1
+[V:1](G>A)(B>c) d2(g>e)|e2(g>e)(d2g)(d/B/)|(G>A)(B>c) d2(g>a)|!
+[V:2](G>^FG>A) B>GG2|(c>G)G2(B>G)G2|G>^FG>A B>GG>F|!
+[V:1]b2(a>g)g2z(g|^f)>(d=e>f) (g>a) (ba/g/)|^f>(d"NB"=e)>(fg3)a|!
+[V:2]G2(c>B)B2z2|d2d>c (B>A) (G>B)|d2(d>c) (B>A) GB|!
+[V:1](b>ab>g) (f<d) (Bc/d/)|e>c d>B d3^F|G>(AB>cd2)(g>d)|!
+[V:2]d>ed>A B>^FG2|^F2G2D2Fz|G>FG>A (B>G)G2|!
+[V:1](e2g)>(ed2)g(B/A/)|(G>A)(B>c)d2(g>a)|(b2{c'}a>g{bc'}g2)|]
+[V:2]c>GG2B>GG2|G>FG>A B>GG>F|G2{d}c>BB2|]
+W:NB.presumed Enatural from previous bar

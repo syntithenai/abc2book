@@ -1,0 +1,19 @@
+X:1
+T:Helena-Polka  FCBb (pk06817)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.15  (pk06817) orig. F,C,Bb
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+AB [P:A] | "F"c2a2 g2f2 | "C7"f2e2 b2de | d2c2 g2Bc | "F"B2A2 f2AB | c2c'2 "D7"b2a2 | "Gm"a2g2 d'2bg |  "F"f2ca "C7"g2ce | "F"f2a2 f2z2 || [P:B] [K:C] ("G7"f2B2) Bdfa | 
+("C"g2c2) cegc' | "G7".b.c'.b2 .f.g.f2 | "C".a.b.a2 .e.f.e2 | ("G7"g2B2) Bdfa | ("C"g2c2) cegc' | "F"a2d2 "G7"g2B2 | "C"c2e2 c2A"_>Teil A"_B || [K:Bb] 
+[P:C] |: f2 | ("Bb"gfgf) d4 | ("F7"gfgf) e4 |  (fg)(gf) (fa)(af) |  ("Bb"fb)(bf) f3f | (gfgf) d2d2 |  ("F7"gfgf) e2e2 |  a2a2 (agec) | 
+"Bb"B2d2 B2z2 || "Cm".g.g.g.g "F7"d'2c'2 | "Bb".f.f.f.f c'2b2 | "F7"a2cd e2a2 | "Bb"g3ff4 |  "Cm".g.g.g.g "F7"d'2c'2 | "Bb".f.f.f.f c'2b2 | "F7"a2cg f3A | "Bb"B2d2 B2z2 |] 
+% pk06817
+% Dec 20, 2017

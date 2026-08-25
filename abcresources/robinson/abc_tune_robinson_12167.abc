@@ -1,0 +1,40 @@
+X:64
+T:City of Paris,The.2voices RH.064
+T:?aka. RH.064
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:Usable as a jig, march or waltz.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:6/8
+L:1/8
+Q:100
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] ABc|d2d cBc|d3 def|gfg e2a|g3 f2A|
+[V:2] a3|f2f ede|d3 dcd|ede c2A|ded d2F|
+%
+[V:1] B2B Bcd|AFD DFA|GEG FDF|F3 "sic"D2A|
+[V:2] G2G GGG|FFF FFF|EEE DDD|A3-A2a|
+%
+[V:1] D2D cBc|d3 def|gfg e2a|g3 f2A|
+[V:2] f2f ede|d3d cd|ede c2A|dec d2F|
+%
+[V:1] B2B Bcd|AFD DFA|Bge fdc|d3:|
+[V:2] GGG GGG|FFF FFF|GBA GFE|F3:|
+%
+[V:1]|:z2B|AFD EFG|A2F D2B|AFD EFG|A2F D2A|
+[V:2]|:z2b|afd efg|a2f d2b|afd efg|a2f d2f|
+%
+[V:1] BGB dcB|AFD dcB|ABA AGF|F3 E2A|
+[V:2] ggg bag|fff agf|egf fed|d3 c2a|
+%
+[V:1] d2d cBc|d3 def|gfg e2a|g3 f2A|
+[V:2] f2f ede|d3 dcd|ede c2A|dec d2F|
+%
+[V:1] B2B Bcd|AFD DFA|Bgf edc|d3 d3:|
+[V:2] G2G GGG|FFF FFF|GBA GFE|F3 F3:|

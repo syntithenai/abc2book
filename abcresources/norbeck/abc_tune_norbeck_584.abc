@@ -1,0 +1,26 @@
+X:244
+T:Piper's Picnic. The
+R:jig
+Z:id:hn-jig-244
+M:6/8
+K:Ador
+|: ABA AGE | cde dBG | ~A3 AGE | EDE GAB |
+ABA AGE | cde dBG | c2A BAG |1 EFG A2G :|2 EFG A2B ||
+|: cee cee | ceg ecA | Bgg g2d | Bdg dBG |
+cBc dB/c/d | ede a2g | edc BAG |1 EFG A2B :|2 EFG A2G ||
+P:variations
+|: ~A3 AGE | cde dBG | ~A3 AGE | EDE ~G3 |
+~A3 AGE | cde dBG | cBA BAG |1 EFG A2G :|2 EFG A2B ||
+|: cee cee | ceg edc | Bgg g2d | Bdg dBG |
+cBc dB/c/d | ede a2g | edc BAG |1 EFG A2B :|2 EFG A2G ||
+P:version 2
+|: AcA BGE | cde dBG | AcA BGE | EDE GAB |
+AcA BGE | cde dBG | cBA BGE |1 EFG A2E :|2 EFG A2A ||
+|: ceA cea | ~e3 edc | BdG BdG | Bde dcB |
+cde dcB | cBA Ggf | ecA GED |1 EFG A2A :|2 EFG A2E ||
+P:version 3
+K:Amix
+|: ~A3 AGE | cde dcG | ~A3 AGE | GBA ~G3 |
+~A3 AGE | cde dcA | cBA BAG |1 EFG A2G :|2 EFG A2B ||
+|: cee cee | cee edc | Bgg Bgg | Bgg gfe |
+cBc dcd | ~e3 g2b | age dBG |1 EFG A2B :|2 EFG A2G ||

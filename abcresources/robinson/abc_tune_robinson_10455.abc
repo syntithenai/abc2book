@@ -1,0 +1,21 @@
+X:46
+T:Rigadoon.3voices. TBe.047
+M:C|
+L:1/4
+Q:1/2=80
+S:Thomas Bennet MS,1718, VWML
+R:Rigadoon
+O:England
+H:Before 1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+K:G major
+%needs checking against MS again.
+[V:1]|G2d2|B>cdB|e (d/c/) d (c/B/)|Bgfg||!
+[V:2]|B2A2|G>A BG|c (B/A/) B (A/G/)|d (c/B/) AG||!
+[V:3]|zzzz|G,,G,F,D,|G,2G,,2|C,2G,A,||!
+%
+[V:1]d2g2|f/e/f/g/ f/g/f/g/|a (g/f/) ed|g/f/g/d/ e/d/c/B/|d c/B/ A G|]
+[V:2]B2d2|d d/e/ d/e/d/e/|f (e/d/) ^cd|e/d/e/B/ c/B/A/G/|B A/G/ FG|]
+[V:3]G,/F,/G,/A,/B,C|D2 D,2|F,,G,,A,,D,|B,,G,,C,2|G,,c,,D,G,,|]

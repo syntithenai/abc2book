@@ -1,0 +1,18 @@
+X:132
+T:Polka  CGF (pk07718) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.362 (pk07718) orig. C,G,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+("C"GA).G.A G2e2 | "G7"e2(d^c)d4 | {/^f}g2B2 {/f}g2B2 | ("C"ag).e.cG4 | (GA).G.A G2e2 | "G7"e2(d^c)d4 | {/^f}g2B2 g=fed | 
+"C"c2e2 c2z2:: [K:G] ("D7"dc).F.ed4 | ("G"dB).G.ed4 | {g}"D7"f2(fe) d2(dc) | "G"B2(BA)G4 | ("D7"dc).F.ed4 | ("G"dB).G.ed4 | 
+{g}"D7"f2(fe) (de).c.A |1 "G"G2B2 G2z2 :|2 "G7"G4=f4 |: [K:C]  ("C"GA).G.A G2e2 | "G7"e2(d^c)d4 | {/^f}g2B2 {/f}g2B2 | ("C"ag).e.cG4 | 
+(GA).G.A G2e2 | "G7"e2(d^c)d4 | {/^f}g2B2 {f}g2B2 | "C"c2e2 c2z2 :: [K:F] "F"AAA2 ccc2 | "C7"BBB2 d2E2 | BBB2 d2B2 | 
+"F"AAA2 c2F2 | AAA2 ccc2 | "Bb"BBB2 ddd2 | "C7"ccc2 EEE2 |1 "F"F4F4 :|2 "F"F2A2 F2z2 |] 
+% pk07718
+% Oct 1,, 2017 (dream chats)

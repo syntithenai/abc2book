@@ -1,0 +1,22 @@
+X:1
+T:Übermut-Walzer  FC (wz06838)  ABAC
+T: Basel II. Tänze aus Augst. S.6-42.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.24f  (wz06838) orig. F,C
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"AFd | c3 | AFd | c3 | Acf | "C7"f>ee | GBd | "F"d>cc | AFd | c3 | AFd | 
+c3 | Acf | "C7"f>ee | g/g/gg | "F"fzz :: [P:B] [K:C] "C"ga^g | "G7"=g>ff | fed | "C"e3 | zgc' | "G7"c'2b | 
+bfa | "C"a2g | ga^g | "G7"=g>ff | fed | "C"c2d | eca | g3 | "G7"fAB | "C"c"_>Teil A"zz :| 
+[P:C]  "C"g>gg | c'>gg | "G7"fed | "C"czz |: [K:F]  "F"fAc | agf | "C7"eGB | g3 | eGB | bag | 
+"F"fAc | a3 | fAc | agf | "C7"eGB | g3 | eGB |  bag | "F"f>ff | fzz :| 
+W:
+W:Übermut-Walzer, nach Hans Tschudin
+% wz06838
+% Nov 16, 2017

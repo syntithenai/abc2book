@@ -1,0 +1,24 @@
+X:1
+T: Schottisch  GC ( st07044)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.160  ( st07044) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+d/d/ [P:A] |:"G"d2gd | B3g/g/ | g(f/g/) .a.g | "D7"f3d/d/ | d2fd | c3a/a/ | a(d/a/) ba | "G"g3d/d/ | 
+d2ga | b3d | "D7"aa/^g/ ab | c'3d | a(f/e/) .f(e/d/) | "G"dg B(e/d/) | "D7".d.f c/d/f |1 "G"gg gd/d/ :|2 "G"gg gd || 
+[P:B] |: "D7"f>e .f.a | d2.d.f | "G"g>d .g.b | d2 gb | "D7"c'>c' c'b | a>a a>g | f>c f>c | !>!"G"e2!>!d2 | "D7"f>e fa | 
+d2df | "G"g>d gb | d2gb | "D7"c'>c' c'b | a2ag | fe de/f/ |1 "G"gg gd :|2 "G"gg gg/g/ || [K:C] 
+[P:C] |: "C"gc' ea | g>f ec | "G7"Bd fg | b3g/g/ | gb fa | g>f dB | "C"ce ge | c'3g/g/ | 
+(gc') (eg) | c'3f/f/ | "Dm(F)"(fa) (df) | a3e/e/ | "C"eg ce | "G7"e2dB | "C"cc/c/ cc | c2z2 :| 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: "Schällibaum" Wattwil
+% st07044
+% June 24, 2018

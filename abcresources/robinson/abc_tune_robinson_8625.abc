@@ -1,0 +1,22 @@
+X: 165
+T:Miss Jane Grant's Reel -- Lynmore
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:57 - 2
+K:F major
+%%staves {1 2}
+V:1
+C | \
+F2 FB (AB/c/) AF | F2 (FA) BGGA | F2 FB (AB/c/) AF | BGEG AFFC |
+F2 FB (AB/c/) AF | F2 (FA) BGGA | F2 (FA) cAcA | BGEG AF F2 |]
+afaf bgbg | afaf (ec) ~c2 | afaf bgbg | afcb (af) ~f2 |
+afaf bgbg | afaf ecec | dBdB cAcA | BGEc (AF) ~F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | ffgg | fffA | BcFF | ffff | ffgg | fffA | BcFF |] \
+fabg | gfc'c | fabg | c'cff | fabg | afc'a | bBAa | bc'ff/ |]

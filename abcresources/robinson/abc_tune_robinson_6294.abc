@@ -1,0 +1,19 @@
+X:1
+T:Die schöne Schäferin (Walzer)  CG (wz06655) 
+T: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.57  (wz06655) orig. C,G
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"C"G3 | A3 | G2c | e2z | G2e | "F"A2f | "C"G2e | cBc | "G7"d2z | d^cd | "C"e2z | 
+ef^f | gcd | "G7"e2d | ("C"c3 | c)zz :: [K:G] "G"ddd | e2d | ddd | e2d | "D7"eze | zdc | 
+"G"BzB | zAG | ddd | e2d | ddd | e2d | "D7"eze | zdc | "G"B>GG | Gzz :: [K:C] "C"e^de | 
+e^de | "G7"f2e | d3 | d^cd | d^cd | "C"e2d | c3 | e^de | e^de | "G7"f2e | d2c | 
+BAB | Ge>d | ("C"c3 |1 c)zz :|2 czG |: "C"e3 | edc | ("G7"B3 | B) zG | f3 | fed | 
+("C"c3 | c)zc | "F"a3 | agf | ("C7"e3 | e)ze | "F"fAd | "C7"cGA | ("F"F3 |1 F)zG :|2 Fzz |] 
+% wz06655
+% Jan 24, 2018

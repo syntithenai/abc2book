@@ -1,0 +1,24 @@
+X: 152
+T:Achorachan, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:53 - 1
+K:F major
+%%staves {1 2}
+V:1
+f | \
+c>BA>G FC- C(D/E/) | FF B/A/G/F/ dGGf | \
+c>BA>G FC C(D/E/) | FFFd c2 A :|
+c | \
+fffa cAAc | {Bc}dB B/A/G/F/ EGGe | \
+f/e/f/g/ fa cAAc | {Bc}dcAc f2 (fc) |
+fcfa cAAc | {Bc}dB B/A/G/F/ EG-G A/B/ | cABG FCA,C | FFFd !trill!c2 A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | Ffff | Ffgg | ffff | ffcf/ :| \
+z/ | ffff | ba/f/c'c' | ffff | ffff | ffff | BAcc | fcfF | ffcf/ |]

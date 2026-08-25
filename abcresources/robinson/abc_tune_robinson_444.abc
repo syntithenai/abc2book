@@ -1,0 +1,49 @@
+X:33
+T:Prince of Wales March. TLY.033
+M:4/4
+L:1/8
+Q:1/2=70
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England
+A:Lancashire
+N:Last quaver bar 2 marked p, last crotchet bar 4 marked
+H:1860.
+Z:vmp.Taz Tarry.
+B:Village Music project, Tildsley, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/tildsley.abc
+K:C major
+G2|c3G c>Gc>e|g3e g2 z"^P" e|d2d2e2g2|(gfef) e2"^F"G2|\
+c3G c>Gc>e|g3e g2 (gc')|a2 a>a (ac'bc') (d'c'ba)|\
+{a}g2 (eg) {g}f2 df|\
+{f}e2 (ce) {e}d2 (B/2c/2d/2e/2)|d2g2g2 z2|\
+"^P"d2(B/c/d/e/) (d/c/B/d/) (e/^f/g/a/)|\
+.b.b.b.b (b/a/g/^f/) (g/f/e/d/)|\
+(c/B/c/d/)c2(c/A/B/c/) (d/e/^f/g/)|\
+.a.a.a.a (a/g/^f/e/) (d/c/B/c/)|\
+(Bg)g3(gbg)|\
+(^de)e3(^fge)|dg (^f/e/d/c/)B2~A2|G2g>gg2:|\
+|:"^P"(B>c)|d3cB2"^F".g.^f|.e.d.c.B .A.B.c.d|\
+"^P"c3BA2"^F".a.g.|.^f.e.d.e .d.c.B.c|\
+.B.c.d.e .^f.g.a.b|e(c'/b/) (d'/c'/b/a/)g2^f2|\
+g2g2g2(g>f)|e2(g>f)e2g2|\
+g2e2f2(f>e)|d2(f>e)d2f2|(gf).e.d e2"^F"(c'b)|\
+.a(c'/b/) (d'/c'/b/a/) g(e/g/) (g/f/e/d/)|\
+c>ce>e g>gc'>c'|a>a (~a^g/a/)|f>f (fe/f/)|dd (c/B/A/G/) cegc'|\
+g(e/f/) ge cc/c/ cc|ee/e/ ee gg/g/ gg|c'2c'>c'c'2:|\
+|BB/2B/2 BB BBBB|BB/2B/2 BB BBBB|\
+BB/2B/2 BB/2B/2 (B/2G/2).A/2.B/2 .c/2.d/2.e/2.f/2|\
+"^FF"[g4B4D4]g3 g|gg/2g/2 gg gggg|gg/2g/2 gg gggg|gg/2g/2 gg/2g/2 g2||\
+"^P Flutes 8va"Bc|e>d (d2d).e.f.g|(g>d) B2 z2 B>d|\
+c2dc B>AB>c|(B>A) A2 z2 (AB)|\
+c4 {dc}(BAGF)|d4 {ed^c} (defg)|g4 fedc|"^8va"(Bc^cd) (AB=c^c)|\
+(ed) (.d2d).e.f.g |g>d B2 z2 (Bd)|c2 d>c (BABc)|BA A2 z2 AB|\
+c4 (BAGF)|d4 (^cdef)|(ge)cA (FA)dc|(c4B2) (AB)|c4 (BAGF)|\
+(d4d)efg|g3d d^c=cA|"^FF"G4 z2 B2|\
+d2 g2 b2 g2|"^FF"(d4d)(e/d/) (c/B/A/G/)|\
+.F.G.A.B .c.d.e.f|"^FF"[D4c4g4] z2 B2|d2 g2 b2 g2|\
+(d4d)(e/d/) c/2B/2A/2G/2|F2 A2 c2 F2|\
+.G.g.f.e .d.c.B.A|GABc defg|g2 B>B c>c^c>c|d>de>e d2f2|\
+"^F"gg/2g/2 gg .g.d.g.b|\
+"^Cres."gg/2g/2 gg .g.d.g.b|"^F"gdgb "^FF"gdgb|\
+"^FF"[D4B4g4] [D3B3g3] [DBg]|[D4B4g4]z4|]

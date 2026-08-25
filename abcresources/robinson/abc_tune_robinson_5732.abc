@@ -1,0 +1,29 @@
+X:1
+T:Fräkmünd-Juiz  A-Dur  ABACC
+T:Toni Zibung  (30.7.1935-25.1.1998)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABACC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] "älplerisch langsam"  C>F | E3C/E/ (3ACF | E>A c2f2 | e3B (3eBd | 
+c>AE2 C>F | E3C/E/ (3ACF | E>A c2f2 | e3B (3eBc | A4 || 
+L:1/8
+M:3/4
+[P:B]  "breit" F>E | DF Af e>d | cAE2 (3eEe | B>GE2 (3eEe | c>BA2F>E | 
+DF Af e>d | cAE2 (3eEe | B>G Ee c>B | A4 ||
+M:3/4
+[P:C]  "_lebhaft" DE | F3E DE | F3B AF | E3C EA | c4E2 | e3E dc | 
+B4EF | E3e cB | A4DE | F3E DE | F3B AF | 
+E3C EA | c4E2 | e3E dc | B3E (3BEe | (A6 | A4) |]
+%W:
+%W:Reihenfolge: A-B-A-C-C (schneller)
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 13-01
+W:http://www.naturjodler.ch/code 13.htm  (with AUDIO)
+%May 8, 2018

@@ -1,0 +1,19 @@
+X:11
+T:Halting March, The
+T:Pikeman's March, The
+R:march
+Z:id:hn-march-11
+M:2/4
+L:1/8
+Q:1/4=100
+K:Ador
+A2 B/c/d | ee2d | e>def | ecA2 | G2 A/B/c | dd2e | dBGB | d2cB |
+A2 B/c/d | ee2d | e>def | ecA2 | ag2e | dc2B | A>BAG |1 A3G :|2 A3e ||
+aa2g | ed2e | g>age | dBG2 | aa2g | ed2e | g>age | g2 a/g/e/g/ |
+aa2g | ed2e | g>age | dBG2 | A>Bcd | e>dcB | A>Bcd | e2e2 | 
+aa2g | ed2e | g>age | dBG2 | A>Bcd | e>dcB | A>BAG | A3G || 
+P:version 2
+|: A2 A/B/c/d/ | ee2d | e>def | ecA2 | G2 G/A/B/c/ | dd2e | dBGB | de/d/ cB |
+A2 A/B/c/d/ | ee2d | e>def | ecA2 | ag2e | dc2B | A>BAG |1 A2E2 :|2 A4 ||
+|: aa2g | ed2e | g>age | dBG2 | aa2g | ed2e | g>age | g2 a/g/e/g/ |
+aa2g | ed2e | g>age | dBGE | A>Bcd | eg/e/ d/c/B |1 A>Bcd | e2e2 :|2 A>BAG | A2E2 ||

@@ -1,0 +1,17 @@
+X: 186
+T: Uf em Ofebänkli (Walzer) FCBb (wz05812)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.112f (wz05812) orig. F,C-,Bb-Dur
+S: Berner Oberländer Tänze (Bern)
+%%partsbox
+%%MIDI program 21
+R:Walzer
+O:Switzerland
+M:3/4
+L:1/4
+P:ABAC
+K:F major
+cA [P:A] |: "C7"Bag | c2a | (g3 | g)zc'/c'/ | c'zb | azg | "F"(f3 | f)zF/G/ | 
+A/G/ A/B/ c/d/ | caf |1 "C7"(e3 | e)z E/F/ | G/^F/ G/A/ B/d/ | cag | "F"(f3 | f)cA :|2 
+"C7"(e3 | e)cc' | bge | cag | "F"(f3 | f)zz [P:B] |: [K:C] "C"g/g/ g>e | G>G c/e/ | "G7"f/f/ fd | G3 | 
+(B/A/) G/B/ d/g/ | f>ed |1 "C"c/d/ ec | G3 :|2 "C"c>cc | c"_> Teil A"cA [P:C] |: [K:Bb] "Bb"B>(G F/B/) | d>(F B/d/) |  
+fzd | B2d |1 "F7"c2f | F/A/ c/e/ d/c/ | "Bb"(B2d) | F2F :|2 "F7"cfF | edc | "Bb"(B3 | B)zz |]

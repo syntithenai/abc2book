@@ -1,0 +1,24 @@
+X:2
+T:Allemande en Rondeau  C (ABACDEFG) (AL09152)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.175 (AL09152) orig. C
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACDEFG
+R:Allemande
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+G2 [P:A] |: ("C"c2e2) .g2.g2 | ("G7"fede) "C"c2c'b | "F"a2a2 abc'a | "C"gagf e2G2 | (c2e2) .g2.g2 | "G7"fede "C"c2c'b | "F"a2a2 "G7"bc'd'b |1 
+.g2z2!>!G4 :|2 "C"c'2c'2 c'2e2 |] [P:B] "G7"d2B2 G2d2 | {/d}"C"cBcd e2e2 | "G7"d2d2 g2g2 | "C"fede c2e2 | "G7"d2B2 G2B2 | {/d}"C"cBcd e2e2 | 
+"D7"decd BcAB | "G"G4z2"_>Teil A"G2 |] [P:C] E2 | "Am"A2AB c2cd | e2ee d2e2 | "Dm"f2e2 d2c2 | "E7"c2!>!B4E2 | 
+"Am"A2AB c2cd | e2e2 e2df | "E7"e2d2 c2B2 | (B4 "Am"A2)G2 |] [P:D] "G7/B"f2f2 "C"e2e2 | "G7"dcde d2G2 | "Am"c2c2 "G7"d2d2 | "C"fede "G7"d2G2 | 
+"G7/B"f2f2 "C"e2e2 | "G7/F"dcde "C/E"c2G2 | "C/G"e2e2 {/e}"G7"dcde | "C"c2c2 c2g2 |] [P:E] "C"c'2c'2 c'bag | c'2c'2 c'bag | c2B2 c2d2 | "D7"e2d2 e2^f2 | 
+"G"g2g2 g^fed | g2g2 g^fed | g^fed cBAG | "D7"^FGAB A4 | "C"c'4 b2a2 | "G"b4z2c2 | "C"c'4"D7"b2a2 | "G"b4z2c2 | 
+"C"g2!>!g4g2 | "G/B"g2g2 g2g2 | "Am"g2c'2 "G/D"bg"D7"a^f | "G".g4 "G7"GABG |] [P:F] "C"c2e2 g2g2 | "G7"fede "C"c2c'b | "F"a2a2 abc'a | "C"gagf e2G2 | 
+c2e2 g2g2 | "G7"fede "C"c2c'b | "F"a2a2 "G7"bc'd'b | "C"cdef gabc' |] [P:G] "G7"b2dc defd | "C"cdef gabc' | "G7"b2dc defd | 
+"C"e2gf ef"G7"df | "C"e2gf ef"G7"df | "C"ec'"F"af "C"eg"G7"fd | "C"c3G cGcG | c2e2 g2e2 | .c4 c'2c'2 | .c'4.c'4 | c'4z4 |] 
+W:Parts: ABA-CDEFG
+% AL09152

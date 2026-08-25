@@ -1,0 +1,17 @@
+X:250
+T: Walzer FBb (wz05122)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.373 (wz05122) orig. F,C,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"A2c | "Bb"B2d | "F"c3 | Acf | "C7"e3 | Beg | "F"f>ef | c2z | A2c | "Bb"B2d | 
+"F"c3 | Acf | "C"e2g | "G7"d2e | "C"c>cc | czz [P:B] |: "Bb"d>bb | b2d | "F"c>aa | agf |1 
+"C7"e2B | e2d | "F"dcf |A3 :|2 "C7"e2d | c2e | "F"fz"C7"e | "F"fzz [P:C] [K:Bb] |: "Bb"d3 | fdf | 
+b3 | d3 | "F7"c>gf |1 e2A | "Bb"B>gf | d2z :|2 "F7"edc | "Bb"(B3 | B)zz |] 
+% the original has "Key:C" for Part A
+% June 2, 2016

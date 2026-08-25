@@ -1,0 +1,32 @@
+X:32
+T:Irish Waterman,The,3parts. JNu.32
+T:Irish Washerwoman,The,aka.3parts JNu.32
+M:6/8
+L:1/8
+Q:3/8=120
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Jig
+O:England
+A:Lancashire, E
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:G major
+[V:1] |: d/c/ | BGG DGG | BGB dcB | cAA DAA | cAc edc |
+[V:2] |: z | G2D B,D2 | GDG BAG | A2FF2F | AFA cBA |
+[V:3] |: z | G,2G,G,2G, | G,2G,G,3 | D,2D,D,2D, | D,2D,G,3 |
+%
+[V:1] BGG DGG | BGB dcB | c/B/AG Acc | BGG G2 :|
+[V:2] G2DB,2D | GDG BAG | CCCD2C | B,B,B,B,2 :|
+[V:3] G,,2G,,G,,2G,, | G,,2G,,G,,3 | C,3D,3 | G,,B,,D,G,2 :|
+%
+[V:1] |: g/a/ | bgg dgg | bgb bag | afd Adf | fdf agf |
+[V:2] |: z | gdd Bdd | gdg gfe | fdA DFA | dAd fed |
+[V:3] |: z | G,2G,G,2G, | G,2G,G,2G, | D,2D,D,2D, | D,2D, G,G,G, |
+%
+[V:1] egg dgg | cgg Bgg | d/c/Bc Bdc | BGG G2 :|
+[V:2] e3d3 | c3B3 | CCC DDD | B,B,B,B,2 :|
+[V:3] C3B,3 | A,3G,3 | C,G,,C, D,E,F, | G,G,,G,,G,,2 :|

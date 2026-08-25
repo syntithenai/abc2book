@@ -1,0 +1,11 @@
+X:192
+T: Saxer Mazurka GC (mz05119)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"G,2B,DG2 | "D7"A,2CDF2 | ed cD FA | "G"ed BDG2 | G,2B,DG2 | "D7"A,2CDF2 | ed cD EF | "G"G2G2z2 :: 
+"D7"cB Ag fe | "G"d2BDG2 | "D7"d2cDF2 | "G"d2BDG2 | "D7"cB Ag fe | "G"d2BDG2 | "D7"d2cD FA | "G"G2G2z2 :| [K:C] 
+"C"e2dc BA | G2CE Gc | "G7"B2DF Bd | "C"c2CE Gc | e2dc BA | G2CE Gc | "G7"B2DF Bd | "C"c2c2z2 |] 
+% mz05119 (June 2016)

@@ -1,0 +1,31 @@
+X:3
+T:dr Kägiswiler-Juiz  Bb  ABAC
+T:Marcel Gerig (12.1.1961)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] B>DG | F>D F/B/ | d>B G | FBd | c>AG  | FcA/F/ | d2c | 
+!fermata!B2z | B>DG | F>D F/B/ | d>BG | FBd | c>AG | Fcd | (B3 | B2)z ||  
+M:3/4
+[P:B] D/F/ B/c/ | d>FB | cFe | dBF | f d/f/ B/c/ | d>Ff | 
+f/=e/ cd | (B3 | B)D/F/ B/c/ | d>FB | cFe | 
+dBF | fd/f/ B/c/ | d>Ff | f/=e/"rit."cd | (B3 | B) || 
+M:3/4
+L:1/4
+[P:C] "zügiges Walzertempo" d2B | d2c | d2B | Fed | c2f | e2c | d2c | B2B/c/ | 
+d2B | d2c | d2B | Fed | c2f | d2c | (B3 | B)zB/c/ | 
+d2B | d2c | d2B | Fed | c2f | e2c | d2c | B2B/c/ | 
+d2B | d2c | d2B | Fed | c2f | d2c | (B3 | B2)z |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 32-03
+W:http://www.naturjodler.ch/code 32.htm  (with AUDIO)
+%May 30, 2018

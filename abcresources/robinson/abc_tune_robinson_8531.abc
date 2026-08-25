@@ -1,0 +1,25 @@
+X: 88
+T:Mrs John Stewart's Strathspey -- of Bombay
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:32 - 2
+K:D major
+%%staves {1 2}
+V:1
+B | \
+A<AF>D A>DF>D | G>BF>A !trill!E2 (~E>F) | \
+D<AF<A G<BF<A | !trill!B,>E (D/C/)B,/A,/ D2 D :|
+B/c/ |\
+d>A (d/c/)B/e/ (d>B) A<d | !trill!B>A B<d {B}e2 ef | \
+d<fB<d A<BF<A | !trill!B,>E (D/C/)B,/A,/ D2 {C}DB/c/ |
+d>A (d/c/)B/e/ (d>B) A<d | B>A B<d {B}e2 ef | \
+{c}d>e (d/c/)B/A/ (B/A/)B/c/ d>F | !trill!B,>E (D/C/)B,/A,/ {C}D2 D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | gfee | dfgf | gaDD/ :| \
+z/ | dgdf | gGAa | dgfd | GADD/z/ | dgdg | gGAa | dfgf | GADD/ |]

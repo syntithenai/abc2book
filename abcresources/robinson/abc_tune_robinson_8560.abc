@@ -1,0 +1,25 @@
+X: 74
+T:the Marchioness of Huntly's Favorite Jig
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:27 - 2
+K:C minor
+%%staves { 1 2 }
+V:1
+G | \
+c2 d e2 c | d2 b fed | (c2 d) e2 f | g2 E gfe | \
+(d2 b) b=ag | fdB Bcd | (e2 c) {e}dc=B | c3 C2 :|
+D | \
+E2 C G,2 E | FDB, B,2 D | C2 E D2 F | E2 G F2 A | \
+G2 e B2 G | FDB, (B,2 d) | {d}e2 c {e}dc=B | c3 C2 D |
+E2 C G,2 E | FDB, (B,2 D) | C2 c cde | d2 B, def | \
+E2 g gfe | dcB def | gfe dc=B | c3 c2 |]
+V:2 clef=bass octave=-2
+z | c3 c3 | B3 B3 | c3 c3 | e3 e3 | d3 e3 | B3 B3 | c3 G3 | c3 c2 :|
+z | c3 c3 | B3 B3 | c3 d3 | e3 f3 | e3 e3 | B3 B3 | c3 G3 | c3 c3 | \
+    c3 c3 | B3 B3 | c3 c3 | B3 B3 | e3 e3 | B3 B3 | c3 G3 |  c3 c2 |]

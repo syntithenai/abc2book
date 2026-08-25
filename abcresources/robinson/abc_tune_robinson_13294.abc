@@ -1,0 +1,19 @@
+X:9
+T:McPhersons Lamentation. JMP.009
+M:C|
+L:1/8
+Q:1/4=130
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C Graebe
+B:Village Music project, Miller, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/miller.abc
+notC:"12...a quick march"
+K:G major
+g/e/ | dG {c} B(A/G/) BAA g/e/ |dG (c/B/)(A/G/) E3 g/e/ |!
+dG  B(A/G/) BA A (G/F/) | GE (A/G/)(F/E/) D3 :|!
+|: e/f/ | g>age a>bgf | gf/g/ (a/g/)(f/e/) " cr"d3 e/f/ |!
+g>age a>b (b/a/)(g/f/) |gf/e/ a/g/f/e/" D.C." d3 |]

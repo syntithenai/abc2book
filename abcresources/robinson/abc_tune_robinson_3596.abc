@@ -1,0 +1,15 @@
+X:143
+T: Mazurka FCB (mz05179)
+T:Hanny Christen. Bd.I  Zürich, Schaffhausen, St. Gallen I. S.380 (mz05179) orig. F,C,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:3/4
+L:1/8
+P:ABAC
+O:Switzerland
+K:F major
+ [P:A] "F"F>E F>A G>F | "C7"E>G c2c2 | E>G e2e2 | "F"F>Af2f2 |1 F>E F>A G>F | "C"E>Gc2c2 | "G7"F>Ge2d2 | "C"c2=B2_B2 :|2
+a2f3f | "Gm/Bb"e2 d>^c d2 | "C7"e2d3E | "F"F2F2z2 |:  [K:C][P:B] "C"G3E Gc | eG ceg2 | "G7"a2g3g | 
+"C"a2g3g | G3E Gc | eG ceg2 | "G7"a2g3g | "C"c2c2"_>Teil A"z2:: [P:C] [K:Bb] "Bb"d'2b3b | 
+"Cm"a2g>^f g2 | "F7"a2g>^fg2 | "Bb"g2f>ef2 | d'2b3b | "Eb"a2g>^f g2 | "F7"a2g3A | "Bb"B2b2"_Fine"z2 :|

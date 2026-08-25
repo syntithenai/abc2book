@@ -1,0 +1,24 @@
+X: 136
+T:the House of New, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:47- 3
+K:C major
+%%staves {1 2}
+V:1
+%%graceslurs 0
+E/D/ | \
+C<c !trill!c2{(Bc)} E<c !trill!c2{(Bc)} | G<c !trill!c2{(Bc)} Bd-d.f | \
+e<c !trill!c2 {Bc}(B/c/)d/B/ cG | AF E/F/G/F/ ECC  :|
+e/f/ | \
+gcac gc !trill!e2 | gcac Bdd e/f/ | gcac gcc'c | (f/e/)d/c/ (B/c/)d/B/ cC-C e/f/ |
+gcac gc !trill!e2 | (gc)ac Bd-d.f | (e/f/)g/a/ !trill!g2 (f/e/)d/c/ {e}!trill!f2 | (c/B/)A/G/ (A/B/)c/G/ ECC  |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | CcCc | CcGg | cege | fgcc/ :| \
+z/ | c'c'c'c' | c'c'gg | c'c'c'c' | ggcc | c'c'c'c' | c'c'gg | bc'c'a | gGcc/ |]

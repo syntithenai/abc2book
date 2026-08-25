@@ -1,0 +1,23 @@
+X:1
+T: Landjäger-Marsch  CF (mr06638)  ABCDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.56  (mr06638) orig. C,F
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c>GG2 | c>GG2 | cg ec | "G7"g2Gc [P:A] |: "C"A2Gc | A2 Gc | "G7"B>f ff | f2 GB | A2 GB | 
+A2 GB | "C"c>e ee | e2 Gc | A2 Gc | A2 Gc | "G"B>d dd | d2 ed | "D7"c/c/.c ed | "G"B/B/B .cB | 
+"D7"AD B>A |1 "G"G2 Gc :|2 "G"G2z2 [P:B] |: "G7"f2e2 | .d(e/d/)   .^c.d | "C"e2d2 | ce dc | ("G"B/g/).g "F"A/f/.f | ("C"G/e/).e ("G7"F/d/).d | 
+"C"Gec2 | GG/G/ GG | "G7"f2e2 | .d(e/d/) .^c.d | "C"e2d2 | c2z2 | "Ab"cc/c/ cc | "C/G"c>G ce | "G7"g2!>!B2 |1 
+"C"c2z2 :|2 "C"cc cz || [P:C] [K:F] "F"C2 F>A | (cf ed) | ("C7"ce) (ce) | B4 | C2 EG | (cf ed) | ("F"cf) (cf) | 
+A4 | C2 F>A | (cf ed) | "C7"ce ce | B4 | C2 E>G | (ce dc) | "F"fF/A/ "C7"cB/G/ | "F"Ff f"_Fine"z |] [P:D] [K:C] "C".e(^d/e/) .e(d/e/) | 
+ec G>e | "G7"dG g>f | "C"e^F/G/ A/B/c/d/ | .e(^d/e/) .e(d/e/) | ec G>e | "G7"dG g>B | "C"c2"_>Teil C"z2 || 
+%W:Parts: ABCDC
+% mr06638
+% Feb 10, 2018

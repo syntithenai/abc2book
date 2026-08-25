@@ -1,0 +1,23 @@
+X:1
+T:Schlummer-Schottisch  CF ( st07022) ABCAB
+T:Hanny Christen. Bd.V  Basel II, Jura. S.150  ( st07022) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCAB
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"eG ef | "G7"dG d>e | fe fg | "C"e(e/d/) c(c/d/) | eG ef | "G7"dG d>e | gg/f/ ee/d/ | "C"ce cz :| 
+[P:B] |: "C"(Gc) (eg) | "G7"f(f/e/)d2 | (GB) (dg) | "C"e(e/d/)c2 | g>a g>a | "G7"gbb2 | g>a g>a | "C"gc'c'2 | 
+Gc eg | "G7"f(f/e/)d2 | (GB) (dg) | "C"e(e/d/)c2 | "F"A>B cA | "C"G>c ea | "G7"g(f/e/) d(e/d/) | "C"cc c"_Fine"z :| [K:F]
+[P:C] |: "F"f3c | A3c | (fe) (fg) | "C7"e/f/e/d/c2 | g3e | c3b |  ("Bb"b>a) (g>f) | ("C7"e>d)c2 | 
+"F"f3c | A3c | f(f/g/) (a/g/)(f/e/) | "Gm"dgg2 | "Bb"d>e fd | "F"c3f | ("C7"ag) d>e | "F"ff "_>Teil A"fz :| 
+W:
+%W:Parts: ABCAB
+%W:Anmerkung H.C.:
+% st07022
+% June 23, 2018

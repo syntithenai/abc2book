@@ -1,0 +1,21 @@
+X:1
+T:Neujahrsgruss. Schottisch  CG  (st07880)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.212  (st07880) orig. C,G
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+ [P:A] "C"Gc/c/ cd | "G7"cB B/A/B | dF F/E/F/G/ | "C"AG G2 | Gc/B/ cd | "G7"cB B/A/B | dG F/G/A/B/ | "C"cc cz :|  [K:G]
+[P:B] |: "G".d2.e2 | .d2.g2 | "D7"f>e dc/d/ | "G"e>d d/c/B | .d2.e2 | .d2.g2 | "D7"f>e de/f/ | "G"gg gz :: [K:C] [P:C] "C"gg/e/ ce | 
+gg/e/ ce | ag fe | "G7"d3c | Bd f/f/f | "C"eg c'/c'/c' |1 "G7"b>a gf | "C"age2 :|2 "G7"b>a ga/b/ | "C"c'2z2 |] 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: Militärlust Marsch. Schottisch 4. Dept. 1913
+%W:Anmerkung Hrsg,:
+% st07880
+% Aug 23, 2018

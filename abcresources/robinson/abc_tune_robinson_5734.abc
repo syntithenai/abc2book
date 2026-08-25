@@ -1,0 +1,32 @@
+X:7
+T:Tierstei-Juiz  BbF  ABAC
+T:Toni Zibung  (30.7.1935-25.1.1998)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F | f>Fe | dFc | B2d | F2B | c>B A/G/ | FcF | B2c | 
+!fermata!d2F | f>Fe | dFc | B2d | F2B | c>F A/c/ | !fermata!f2F | "rit."ecA | !fermata!B2 || 
+L:1/8
+M:3/4
+K:F
+[P:B]  c2 | e3dc2 | ed cE Gc | F3f dA | c3A GF | E3e dB | c3C DE | F3f dA | !fermata!c2z2c2 | 
+e3dc2 | ed cE Gc | F3f dA | c3A GF | E3e dB | c4C2 | B2E2c2 | !fermata!F2z2  || [K:Bb]
+L:1/4
+M:3/4
+[P:C] F | B>cd | F d/F/ B/d/ | c>"rit."G c/d/ | !fermata!e2 B | A>cF | f e/F/ e/A/ | B2c | d2F | 
+B>cd | F d/F/ B/d/ | c>"rit."G c/d/ | !fermata!e2 B | A>cF | f e/F/ c/F/ | (B3 | B)zF | 
+B>cd | F d/F/ B/d/ | c>"rit."G c/d/ | !fermata!e2 B | A>cF | f e/F/ e/A/ | B2c | d2F | 
+B>cd | F d/F/ B/d/ | c>"rit."G c/d/ | !fermata!e2 B | A>cF | f e/F/ c/F/ | (B3 | B) z |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:notiert Edi Gasser, Angaben: Tony Zibung
+W:UJV-Naturjodelsammlung: Code-Nr: 13-03
+W:http://www.naturjodler.ch/code 13.htm  (with AUDIO)
+%May 8, 2018

@@ -1,0 +1,28 @@
+X:44
+T:Highgate Tunnel,2parts. JNu.45
+M:6/8
+L:1/8
+Q:3/8=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:Lancashire, E
+N:Wrongly numbered 44 in MS
+N:Some harmony problems.
+Z:vmp.Manchester Morris Men
+V:1
+V:2 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:D major
+[V:1] |: A |FAd f2f | g2e e^de | Ace g2g | f2=d dcd |
+[V:2] |: z |D,F,A, D,F,A, | E,G,A, E,G,A, | C,E,A, C,E,A, | D,F,A,D,2z |
+%
+[V:1] fed dcB | A3 ^Gfe | dcB AB^G | A3 A2 :|
+[V:2] D,3D,2^D, | E,3E,,=G,,A,, | B,,C,E,E,2E,, | A,,C,E,A,,2 :|
+%
+[V:1] |: A |ABA A=GF | G3 e2G | GAG GFE | F3d2c |
+[V:2] |: D,|D,F,A, D,F,A, | E,G,A, E,G,A, | C,E,A, C,E,A, | D,F,A,D,2z |
+%
+[V:1] Bdc efg | ABA def | ged cde | d3 d2 :|
+[V:2] G,2G,E,2z | F,2F,D,2z | G,2_G,A,,2A,, | D,F,A,D,2 :|

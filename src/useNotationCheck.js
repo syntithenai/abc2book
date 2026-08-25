@@ -3,6 +3,8 @@ import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
 import { checkTuneLyricsAlignment } from './tuneLyricsAlignmentCheck'
 import { checkTuneAbcExtended } from './tuneAbcExtendedCheck'
+import { checkTuneCompleteness } from './tuneCompletenessCheck'
+import { collectFieldWarnings } from './tuneBulkCheckReport'
 import { buildNotationCheckTune } from './notationCheckSnapshot'
 
 const DEFAULT_DEBOUNCE_MS = 300
@@ -14,10 +16,29 @@ function flattenIssues(result, source) {
   })
 }
 
+function flattenCompletenessIssues(result) {
+  if (!result || !Array.isArray(result.issues)) return []
+  return result.issues.map(function(item) {
+    return Object.assign({}, item, {
+      severity: item.severity || 'warning',
+      source: 'completeness',
+    })
+  })
+}
+
 export function runNotationChecks(tune, options) {
   const opts = options || {}
   if (!tune || !tune.id) {
-    return { issues: [], abcResult: null, structureResult: null, lyricsResult: null, extendedResult: null }
+    return {
+      issues: [],
+      abcResult: null,
+      structureResult: null,
+      lyricsResult: null,
+      extendedResult: null,
+      completenessResult: null,
+      completenessIssues: [],
+      metadataIssues: [],
+    }
   }
 
   const abcTools = opts.abcTools
@@ -31,6 +52,11 @@ export function runNotationChecks(tune, options) {
   const structureResult = checkTuneAbcStructure(tune, checkOpts)
   const lyricsResult = checkTuneLyricsAlignment(tune, checkOpts)
   const extendedResult = checkTuneAbcExtended(tune, checkOpts)
+  const completenessResult = checkTuneCompleteness(tune, checkOpts)
+  const completenessIssues = flattenCompletenessIssues(completenessResult)
+  const metadataIssues = collectFieldWarnings(tune).map(function(item) {
+    return Object.assign({}, item, { source: 'metadata' })
+  })
 
   const issues = []
   issues.push.apply(issues, flattenIssues(abcResult, 'abc'))
@@ -44,15 +70,53 @@ export function runNotationChecks(tune, options) {
     structureResult: structureResult,
     lyricsResult: lyricsResult,
     extendedResult: extendedResult,
+    completenessResult: completenessResult,
+    completenessIssues: completenessIssues,
+    metadataIssues: metadataIssues,
   }
 }
 
 export function buildNotationCheckReport(tune, liveBodies, options) {
   const opts = options || {}
   const snapshot = buildNotationCheckTune(tune, liveBodies, opts.voiceKeys)
-  if (!snapshot) return { issues: [], tune: null }
+  if (!snapshot) {
+    return {
+      issues: [],
+      completenessIssues: [],
+      metadataIssues: [],
+      tune: null,
+    }
+  }
   const result = runNotationChecks(snapshot, opts)
   return Object.assign({}, result, { tune: snapshot })
+}
+
+function emptyCheckState() {
+  return {
+    issues: [],
+    abcResult: null,
+    structureResult: null,
+    lyricsResult: null,
+    extendedResult: null,
+    completenessResult: null,
+    completenessIssues: [],
+    metadataIssues: [],
+    checking: false,
+  }
+}
+
+function stateFromReport(report) {
+  return {
+    issues: report.issues || [],
+    abcResult: report.abcResult,
+    structureResult: report.structureResult,
+    lyricsResult: report.lyricsResult,
+    extendedResult: report.extendedResult,
+    completenessResult: report.completenessResult,
+    completenessIssues: report.completenessIssues || [],
+    metadataIssues: report.metadataIssues || [],
+    checking: false,
+  }
 }
 
 /**
@@ -63,14 +127,7 @@ export default function useNotationCheck(tune, liveBodies, options) {
   const debounceMs = opts.debounceMs != null ? opts.debounceMs : DEFAULT_DEBOUNCE_MS
   const enabled = opts.enabled !== false
 
-  const [checkState, setCheckState] = useState({
-    issues: [],
-    abcResult: null,
-    structureResult: null,
-    lyricsResult: null,
-    extendedResult: null,
-    checking: false,
-  })
+  const [checkState, setCheckState] = useState(emptyCheckState)
 
   const bodiesKey = useMemo(function() {
     const bodies = liveBodies || {}
@@ -84,14 +141,7 @@ export default function useNotationCheck(tune, liveBodies, options) {
 
   useEffect(function() {
     if (!enabled || !tune || !tune.id) {
-      setCheckState({
-        issues: [],
-        abcResult: null,
-        structureResult: null,
-        lyricsResult: null,
-        extendedResult: null,
-        checking: false,
-      })
+      setCheckState(emptyCheckState())
       return undefined
     }
 
@@ -101,20 +151,25 @@ export default function useNotationCheck(tune, liveBodies, options) {
 
     const timer = setTimeout(function() {
       const report = buildNotationCheckReport(tune, liveBodies, optionsRef.current)
-      setCheckState({
-        issues: report.issues || [],
-        abcResult: report.abcResult,
-        structureResult: report.structureResult,
-        lyricsResult: report.lyricsResult,
-        extendedResult: report.extendedResult,
-        checking: false,
-      })
+      setCheckState(stateFromReport(report))
     }, debounceMs)
 
     return function() {
       clearTimeout(timer)
     }
-  }, [tune, tune && tune.id, tune && tune.lastUpdated, bodiesKey, enabled, debounceMs])
+  }, [
+    tune,
+    tune && tune.id,
+    tune && tune.lastUpdated,
+    tune && tune.name,
+    tune && tune.composer,
+    tune && tune.tempo,
+    tune && tune.meter,
+    tune && tune.key,
+    bodiesKey,
+    enabled,
+    debounceMs,
+  ])
 
   const issueBarIndices = useMemo(function() {
     const bars = new Set()
@@ -133,19 +188,12 @@ export default function useNotationCheck(tune, liveBodies, options) {
     checkTune: checkTune,
     issueBarIndices: issueBarIndices,
     refresh: function(override) {
-      const opts = override || {}
-      const tuneForCheck = opts.tune || tune
+      const refreshOpts = override || {}
+      const tuneForCheck = refreshOpts.tune || tune
       if (!tuneForCheck || !tuneForCheck.id) return
-      const bodiesForCheck = opts.liveBodies != null ? opts.liveBodies : liveBodies
+      const bodiesForCheck = refreshOpts.liveBodies != null ? refreshOpts.liveBodies : liveBodies
       const report = buildNotationCheckReport(tuneForCheck, bodiesForCheck, optionsRef.current)
-      setCheckState({
-        issues: report.issues || [],
-        abcResult: report.abcResult,
-        structureResult: report.structureResult,
-        lyricsResult: report.lyricsResult,
-        extendedResult: report.extendedResult,
-        checking: false,
-      })
+      setCheckState(stateFromReport(report))
     },
   })
 }

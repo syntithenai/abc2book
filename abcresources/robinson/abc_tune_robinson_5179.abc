@@ -1,0 +1,17 @@
+X:251
+T: Walzer FBb (wz02090)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.309 (wz02090) orig. F,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+K:F major
+c | "F"a3 | "Bb"f/e/ g/f/ e/d/ | "F"d2c | za>b | "C7"a2g | zg>a | "F"g2f | zc>f | a3 | 
+"Bb"f/e/ g/f/ e/d/ | "F"d2c | za>b | "C7"a2g | g/f/ e/d/ c/e/ | "F"f>ff | fzf/e/ |] "Bb"d/b/ b/b/ b/b/ | "C7"bag | 
+"F"c/a/ a/a/ a/a/ | agf | "C7"ezd | czB | "F"A2d | c2^c |  "Bb"d/b/ b/b/ b/b/ | "C7"bag | "F"c/a/ a/a/ a/a/ | 
+agf | "C7"ezd | cze | "F"f>ff | fzd/_e/ || [K:Bb] "Bb"f2d | f2b | (f3 | f)zd/e/ | f2d | f2b | 
+(d'3 | d')zc'/b/ | "F7"azg | fze | "Bb"d2g | f2=e/f/ | "Cm"g2c' | "F7"f2a | "Bb"b>bb | bzz |]  
+W:Anmerkung H.C.: Rosa Walzer Innerschwyz (Gassmann)
+% wz02090  (Oct 9, 2016)

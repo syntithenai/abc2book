@@ -1,0 +1,54 @@
+X:6
+T:ABC Notation Monster Tune, The
+T:Alternate Titles in the Header Appear Here.
+T:In the Manner of Kesh Jig (Embedded title - new Staff Line)
+A:Wisconsin
+C:Composer Name (C:)
+D:Play several tunes in any order, using the Select Tunes window. The
+D:play program can run by itself with command line parameters or
+D:selections from a menu.  You can use it as a practice tutor.  If you
+D:enter a tempo above, Play will use that. Double-click on the music
+D:window, to play the tune skipping repeats.
+H:This sample tune demonstrates a range of functions in ABC2Win. New
+H:features include: slurs, new chord and slur notation, words in the
+L:1/8
+M:7/16
+N:Double click on any blue box to expand the view. Each box can hold
+N:about 600 characters. Word wrap is automatic. These comments are
+N:written to the tune file as multiple lines with the appropriate prefix
+N:(H:, W:, etc.) Each line will be 72 or fewer characters long. Double
+N:click to close the box.
+O:USA
+Q:200
+R:Rhythm (R:)
+S:Source of Tune (S:)
+W:Words appearing within the tune (W: lines)
+Z:Features include the paste button which will parse an ABC tune copied
+Z:from the clipboard. Select some or all of the abc notation in the box
+Z:below, open another tune or a new tune and paste. You can also lauch
+Z:this program from the command line with a file name following the
+Z:program name.
+K:B minor
+"Scale Sample"C,D,E,F,G,A,B,|(CDEFGAB)|cdefgab|"Extended"(c'd'e'f'g'a'b'c'') 
+%Create new lines among the abc's with Shift-Enter.
+|"Dbl Flat bb, Sharp ^^"__A3Bc3A c3^^BA3G|"Broken Rhythms > <" \
+A>BA>c  c3B1A6G2 F12G4|"###"A<c c>BA<GA>B*|]
+"Thick or thick/thin bar ends"A>>c c<<B[| |A>>>c c<<<B|"Staccato .".D4.E4 .F4.G4| \
+"New Key"\
+K:Emin %Key change within the tune 
+A8A6G12|"Rests z"z8 z4 z2|
+Q:135 %Set a new tempo in preparation for meter change
+"Meter Change"
+M:6/8 %Meter change within the tune.
+A/2A/4A/8A/        |  "Roll ~"~G3 BAG|1{g}bag gab|"Quadruplet"(4ABcd +G2d2+:|2 
+"Grace Notes"{dcB}(3{a}g{a}f{a}e (3(gze) (3(zge) (3(gez) g| \
+|"Chords [ ]"[EA][FA] [EF]|{a}[de]{b}[de]|[egb][dfb]|"Am  G"ABcd|"Ties ( )"A2-A2-|A4 G2|||
+"Slur + ties"e (A-|A4|Bc)d|| \
+"K:Bb minor"GA_G "G"     G__AB| \ 
+K:G Ionian
+"K:G"ABA ABd|"D"edd "Fmin7"gdB
+W:Are printed beneath the current staff.
+|1AG_E ~G2 D:|2AGF ~[^D3G3] AA:|3A3Bc3A c3BA3G:|4D4E4 F4G4|adae| \
+L:1/16  % change the default note length on the fly. 
+(7cdefgab|| 
+% Output from ABC2Win  Version 2.1 d on 3/28/97

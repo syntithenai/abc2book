@@ -1,0 +1,31 @@
+X: 7
+T:Huntly Lodge. a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 1
+K:Bb major
+%%staves { 1 2 }
+V: 1
+"^Slow when not danced"
+F2 | \
+[DFB]<[DFB] ~[DFB]2 {AB}c>A BF | [FAc]<[FAc] (~[Fc]>d) (e>c) dB | \
+(df) (eg) (ce) (df) |G>c c>d (e/d/)c/B/ .A.F |
+[DFB]<[DFB] [DFB]2 {AB}c>A BF | [FAc]<[FAc] (~c>d)  (e>cd)B | \
+.d.f.e.g .c.e.d.f | !trill!F>B A/B/c/A/ ~[DFB]2 [DFB] ||
+{ABcdefg}a | \
+(b/a/)g/f/ (g/f/)e/d/ eEEe | (g/f/)e/d/ (f/e/)d/c/ dB,B,d | \
+eCCe dB,B,d | !trill!G>c (e/d/)c/B/ !trill![BF-][FA](GF) |
+(Bf)dB (Eg)ec | d<b~f>d !trill!(c/B/)A/G/ .FE | \
+D~FD~F E~GE~G | !trill!F>B (A/B/)c/A/ ~[DFB]2 [DFB] |]
+V:2 clef=bass octave=-2
+L:1/4
+z |\
+BBfB | ffab | BefB | ecfF | Bb[fa]b | ff ab | BefB | fF BB/ || \
+z/ |\
+[Bb][Bb] [Ee][Ee] | [Ff][Ff] [B,B][B,B] | [Cc][Cc][Dd][Dd] | ecfF |\
+Bdec | dBfF | BdeE | FfBB/ |]

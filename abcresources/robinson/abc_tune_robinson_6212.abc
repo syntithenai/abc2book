@@ -1,0 +1,21 @@
+X:1
+T: Schottisch GC (st07269)  ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.108  (st07269) orig. G,C
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"bb aa | gd d/e/d | "Am"ee "D7"ff | "G"ge' !>!d'2 | bb aa | gd d/e/d | "Am"ee "D7"ff | "G"gb g"_Fine"z :| [K:C] 
+[P:B] |: "C"ee/g/ "G7"ff/d/ | "C"ge/g/ cc | "G7"ff/g/ dd | "C"ee/g/ ec | ee/g/ "G7"ff/d/ | "C"ge/g/ cc | "G7"ff/g/ dd | 
+"C"ee ez :: [P:C] "C"e3("A7"e/g/) | "Dm"ff zg | "G7"bb aa | "C"gg ee | e3 "A7"(e/g/) | "Dm"ff zf | "G7"b>a g>b | "C"cc "_>Teil A"cz :| 
+%W:Parts: ABCA
+W:Anmerkung H.C.:Zug, Einsiedeln, Schwyz, 1 Var. Waldenburg 
+W:Tanzbeschreibung: I: 4Schritt, II: Hackpolka, III: Drehschritt 
+% st07269 
+% April 7, 2018

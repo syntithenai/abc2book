@@ -1,0 +1,15 @@
+X:137
+T:Mazurka CGF (mz05179)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"C>B, C>E D>C | "G7"B,>D G2G2 | B,>D B2B2 | "C"C>Ec2c2 |1 C>B, C>E D>C | "G"B,>DG2G2 |
+ "D7"C>DB2A2 | "G"G2^F2=F2 :|2 \
+e2c3c | "Dm/F"B2 A>^G A2 | "G7"B2A3B, | "C"C2C2z2 |: [K:G] "G"D3B, DG |
+ BD GBd2 | "D7"e2d3d | \
+"G"e2d3d | D3B, DG | BD GBd2 | "D7"e2d3d | "G"G2G2"_>Teil A"z2:: 
+[K:F] "F"a2f3f | \
+"Gm"e2d>^c d2 | "C7"e2d>^cd2 | "F"d2c>Bc2 | a2f3f | "Bb"e2d>^c d2 | "C7"e2d3E | "F"F2f2z2 :| 
+% mz05179
+% June 2016

@@ -1,0 +1,17 @@
+X:45
+T:Fränzli-Ländler F (LD02010)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.271 (LD02010) orig. F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+%%partsbox
+P:ABCAB
+O:Switzerland
+R:Ländler
+M:3/4
+L:1/8
+K:F major
+[P:A] "F"F3A Ac | "Gm"cdd2d2 | "C7"C2 EG ce | "F"ef f2f2 | F3A Ac | "Gm"cdd2d2 | "C7"C2 EG ce | "F"f2z2z2 :| 
+[P:B] |: "Gm"g3b "C7"ag | "F"fa gf ed | "C7"c2 ec BG | "F"FA cf af | "Gm"g3b "C7"ag | "F"fa gf ed | "C7"c2 ec BG | "F"F2"_Fine"z2z2 :| 
+[P:C] |: "Bb"B3d fb | "F7"aa ac f2 | fa ac f2 | "Bb"fb bd f2 | B3d fb | "F7"aa ac f2 | fa ac fa | "Bb"b2"_>Teil A"z2z2 :| 
+% LD02010

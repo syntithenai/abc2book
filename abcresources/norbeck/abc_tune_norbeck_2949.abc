@@ -1,0 +1,32 @@
+X:5
+T:Bulcenska racenica
+R:rachenitsa
+H:Originally in Cmix but transposed to fit the simple system flute
+O:Bulgaria
+Z:id:hn-rachenitsa-5
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Dmix
+defg ggf | fcde ffe | ecde eed | dAde ffd | 
+   d2ag aag | fcde ffe | ecde eed | d2aA d3 :| !fine!
+|: a2aa aaa | a2a2 agf | a2aa aaa | az3 eed :|
+|: defg ggf | fcde ffe | ecde eed | dAde ffd | 
+   d2ag aag | fcde ffe | ecde eed | d2aA d3 :|
+|: a2aa aaa | a2a2 agf | a2aa aaa | az3 eed :|
+K:Ddor
+|: aAga =fga | =ffed daA | aAgA =fga | =ffed dAd |
+   aAga =fga | =ffed daA | Aaga =fga | =ffed dAd :|
+K:Dmix
+|: cddd agf | fdga fff | cddA =fAe | eAe=f dAA |
+   cddd agf | fdga fff | cddA =fAe | eAe=f dz2 :|
+K:Ddor
+|: aAga =fga | =ffed daA | aAgA =fga | =ffed dAd |
+   aAga =fga | =ffed daA | Aaga =fga | =ffed dAd :|
+K:Dphr ^f
+|: d_efg agf | f_edc gcc | gff_e fg2 |1 f_edc cGc :|2 f_edc cz2 ||
+|: gff_e fg2 | f_edc gcc | gff_e fg2 |1 f_edc cGc :|2 f_edc cz2 ||
+K:Dmix
+|: cddd agf | fdga fff | cddA =fAe | eAe=f dAA |
+   cddd agf | fdga fff | cddA =fAe | eAe=f dz2 :|
+!D.C. al fine!

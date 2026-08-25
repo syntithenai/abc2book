@@ -1,0 +1,55 @@
+X:15
+T:Wragg's Duetto the 28th.2voices. RH.015
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:Originally transcribed using L:1/8. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:2/4
+L:1/16
+Q:1/4=75
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:G major
+[V:1]|:.G2(GA) .B2(Bc)|.d(gfg)d4|.e(gfg) .d(gfg)|(cB).A.G A2D2|
+[V:2]|:z4 .G2(GA)|B2d2 B2G2|c2z2 B2z2|(AG).F.E (DE).F.D|
+%
+[V:1] G2(GA) B2(Bc)|d(gfg) g2fe|d2g2 (ba).g.f|g4 g4:|
+[V:2] z4 .G2(GA)|B2d2 e2dc|B2G2 d2D2|G4 G4:|
+%
+[V:1]|:d2(dc) B2B2|e2(ed) c2z2|c2(cB) A2A2|(de).d.c B2z2|
+[V:2]|:B2BA (GA).B.G|c2(cB) A2z2|A2AG (FG).A.F|B2(BA) G2z2|
+%
+[V:1] B2(BA) G2g2|c2(cB) A2a2|b2(gb) a2(fa)|(ge).d.c " DC"Hd4:|
+[V:2] d2dc (BA).B.G|A2.A.G (FE).F.D|G2g2 f2e2|A2A2 " DC"HD4:|
+%
+[V:1]|:g2{agf}g2 a2{bag}a2|b2{c'ba}b2 c'4|b3d' b2g2|e2a2 {g}f2{e}d2|
+[V:2]|:B2z2 c2z2|G2z2 A2D2|G2B2 d2B2|A2A2 d2D2|
+%
+[V:1] g2{agf}g2 a2{bag}a2|b2{c'ba}b2 c'4|b2g2 a2g2|g3a g4:|
+[V:2] B2z2 c2z2|G2z2 A2D2|G2B2 c2A2|B3c B4:|
+%
+[V:1] d3B .G2.G2|e3c .A2.A2|(d3B) .G2.G2|F2G2 A2z2|
+[V:2] G2GA .B2.B2|c3A F2z2|G2GA .B2.G2|.D2.E2.F2.D2|
+%
+[V:1] d3B G2G2|(e2c2 A2)g2|f2d2 e2f2|Hd6" DC"z2||
+[V:2] G2GA B2B2|c2A2 F2G2|A6 A2|HD6 " DC"z2||
+%
+[V:1] G2G2 (FG).F.G|A2A2 A4|d3c B2G2|E2A2 (GF).E.D|
+[V:2] B2B2 A2(AG)|F2F2 D2z2|B3A G2D2-|D2[^C2c2] D2z2|
+%
+[V:1] G2G2 (FG).F.G|A2A2 A4|d3c B2G2|D2F2 B4||
+[V:2] B2B2 A2(AG)|F2F2 D2z2|B2A2 G2B2|d2D2 G4||
+%
+[V:1] g2g2 (fg).f.g|a2a2 .a4|d'3c' b2a2|e2a2 (gf).e.d|
+[V:2] B2BA A2B2|c2c2 A2z2|b3a g2d2-|d2^c2 d2c2|
+%
+[V:1] g2g2 (fg).f.g|a2a2 .a4|d'3c' b2g2|(ba).g.a g4||
+[V:2] B2B2 A2(AB)|c2c2 A2z2|b3a g2d2|(dc).B.A B4||
+%
+[V:1] e2e2 (cd).e.c|d2d2 B2z2|c2c2 (AB).c.A|FGAF D2z2|
+[V:2] c'2c'2 abc'a|b2b2 gabg|a2a2 (fga)f|dd'c'd' d2z2|
+%
+[V:1] e2e2 (cd).e.c|d2d2 B2z2|(AB).A.B cBAG|d4 " DC"z4|]
+[V:2] c2c2 ABcA|B2B2 GABG|F2FG (AG).F.E|DdBF " DC"D4|]

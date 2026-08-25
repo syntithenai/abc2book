@@ -1,0 +1,31 @@
+X:1
+T:Arvi-Juiz  Bb  ABA*C
+T:Trudi Kiser  (* 15.9.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:3/4+2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] D>G | F4DF | d/c/B/d/ f>d fd | B4D>F | f>d fd  |
+c4E>F | f2c2fe | d2cA | "_*" !fermata! !breath! B4 D>G | F4D>F | d/c/B/d/ f>d fd | 
+B4 D>F | f>d fd | c4E>F | f2c2fe | d2 cA | !fermata! !breath! B4 ||
+M:6/8
+[P:B] F| f>ed c2F | f>dc B>BA/B/ | c2A F>cB/c/ | d2B F2F | f>ed c2F | 
+f>dc B>BA/B/ | cAF feA | (B3 B2)F | f>ed c2F | f>dc B>BA/B/ | 
+c2A F>cB/c/ | d2B F2F | f>ed c2F | f>dc B>BA/B/ | cAF feA | (B3 B2) ||
+M:3/4+4/4
+[P:C]  !fermata!D2 !fermata!E2 !fermata!F2 | GG GF E2 | ee edc2 | FF FD Ff | dd dcB2 | 
+A3F EF Ac | f3ed2 c2 | B3dB2G2 | !fermata!F8 | GG GF E2 | ee edc2 | 
+FF FD Ff | dd dcB2 | A3F EF Ac | f3ed2c2 | (B8 | B4)z4 |]
+W:
+W:Reihenfolge: A-B-A(bis*)-C
+W:notiert Edi Gasser. Angaben: Josy Berwert
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 20-01
+W:http://www.naturjodler.ch/code 20.htm  (with AUDIO)
+%May 17, 2018

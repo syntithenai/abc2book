@@ -1,0 +1,19 @@
+X:261
+T:Walzer FCBb (wz02246)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.395 (wz02246) orig. F,C,Bb
+S:Bündner Tänze. S.384-402. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+K:F major
+C/A/ [P:A] |: "F"A>GF | "C7"EGG/B/ | d>cB | "F"AcA/c/ | "D7"c>BA | 
+"Gm"GBd | "C7"cBE |1 "F"FzC/A/ :|2 "F"FzG |: [P:B] [K:C] "G7"G>^G A/B/ | "C"c2E/A/ | 
+"G7"G2F/D/ | "C"AGG | "G7"G>^G A/B/  | "C"c2E/A/ | "G7"G>F E/D/ |1 "C"CzG :|2 
+"C"Cz"_>Teil A"C/A/ || [K:Bb] F [P:C] |: "Bb"d2c/B/ | "F7"BAA | e2d/c/ | 
+"Bb"dBB | "G7"f2e/d/ | "Cm"dGG | "F7"eAA |1 "Bb"BzF :|2 "Bb"Bzz |]  
+% wz02246
+% Dez 2, 2016

@@ -1,0 +1,39 @@
+X:7
+T:Dennetenalp-Juiz. 1992  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+Q:1/4=84
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FD/F/d2 | Ff/d/c2 | FE/F/dc | B2D2 | Ff/d/ cB | A>Bc2 | FE/F/dc | B4 | 
+FD/F/d2 | Ff/d/c2 | FE/F/dc | B2D2 | Ff/d/cB | A>Bc2 | FE/F/dc | B4 ||  
+Q:1/4=46
+L:1/8
+M:3/4
+[P:B] !f!FF| B>cd2!p!FF | B>cd2!f!Fe | c>BA2Ff | d>c !fermata! !breath! B2FF | 
+B>cd2!p!FF | B>cd2!f!Fe | c>B AF "rit."dc | !fermata! B4 || 
+Q:1/4=132
+M:3/4
+L:1/4
+[P:C] F| f>Fd | cFB | A2c | F2F | f>Fe | dFc | B2D | 
+F2F/F/ | f>Fd | cFB | A2c | F2F/F/ | f>Fe | dFc | (B3 | B)z || 
+Q:1/4=68
+M:3/4
+L:1/8
+[P:D] FF | EDF2ed | c2E2ED | C2F2 dc | B2D2FE | D2F2BF | e2c2cB | 
+A2Fe dc | !fermata! !breath! B4FE | D2F2ed | c2E2ED | C2Ff dc | B2D2FE | 
+D2F2Bd | e3dc2 | B2A2c2 | !fermata! !breath! B4F2 || "_Ausklingen" f3Fe2 | d2F2c2 | (B6 | B2)z2 |] 
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-04
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018 (Muettitag)

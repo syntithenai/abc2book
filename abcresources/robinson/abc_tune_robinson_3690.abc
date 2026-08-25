@@ -1,0 +1,15 @@
+X:228
+T: Ursula-Walzer FBb (wz05116)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.373 (wz05116) orig. F,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"Acc | d>cc | cfg | "C7"f>ee | Bcc | d>cc |1 cga | "F"g>ff :|2 "C7"ceg | "F"fzz || 
+ [P:B] |: "Bb"d2b | "F"c2a | "C7"g>fe | "F"fac | "Bb"d2b | "F"c2a | "C7"g>fe | "F"fzz :|  [P:C] [K:Bb] "Bb"d3 | dBg | "F7"f3 | e2z | 
+aza | gzg | "Bb"fdg | f2z | b3 | df>g | "Cm"f3 |  e2z | "F7"cgf | edc | "Bb"(B3 | B)zz |] 
+% June 2, 2016

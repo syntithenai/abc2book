@@ -1,0 +1,19 @@
+X:119
+T: Polka  CGF (ABAC) (pk09196)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.123 (pk09196) orig. C,G,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+P:ABAC
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "G7"ggB2 "C"ggc2 | "G7"ggB2 "C"ggc2 | "G7"GBdf !>!a3g | "C"agec G4 | "G7"ggB2 "C"ggc2 | "G7"ggB2 "C"ggc2 | "G7"GBdf !>!a3g | "C"c2c2 c2z2 :| [K:G] 
+[P:B] |: "G"deed b4 | "D7"deed a3b | c'2f2 fef2 | "G"gabc' d'4 | deed b4 | "D7"deed a3b | c'3f fef2 | 
+"G"g2g2 g2"_>Teil A"z2 :| [P:C] [K:F] [L:1/8] "F"c3A | d3c | "C7"B/A/B ee | B/A/B ee | e3c | g3e | "F"c/=B/c aa | 
+c/=B/c aa | c3A | d3c | "C7"B/A/B ee | B/A/B ee | c'3b | d3e | "F"ff/a/ "C7"gg/a/ | "F"ff fz |] 
+%W:Parts: ABAC
+% pk09196

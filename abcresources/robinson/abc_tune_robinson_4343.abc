@@ -1,0 +1,15 @@
+X: 106
+T: Mazurka CGF (mz08713)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.323 (mz08713) orig. C,G,F-Dur
+S: "Bibere Musig", Abraham Fürst, Bibern bei Murten (Bern) S.296ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:C major
+e>d [P:A] |: "C"agc2c2 | "G7"B>c d>e f>b | a>g B2B2 | "C"c>d e>f g>c' | agc2c2 | "G7"B>c d>e f>b | agB2B2 |1 "C"c2c2e>f :|2 
+"C"c2c2z2 |][P:B] [K:G] "D7"{/e}d>^c d>f a>c' | "G"b>ag4 | "D7"f>e c>A e2 | "G"e>d B>G D2 | "D7"{/e}d>^c d>f a>c' | "G"b>ag4 | "D7"f>e d>c' b>a | 
+"G"g2g2"_> Teil A"z2 |] [P:C] [K:F] "F"c3f Ad | "C7"c2 B>G e2 | c3B Ge | "F"gf Adc2 | c3f Ad | "C7"c2B>G e2 | b>g e>c d>e | "F"f2f2z2 |]

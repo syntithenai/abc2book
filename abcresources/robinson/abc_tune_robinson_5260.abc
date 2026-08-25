@@ -1,0 +1,22 @@
+X:30
+T:Berliner Kreuzpolka CGF (kp06437) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.152 (kp06437) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Kreuzpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"ec' (a/g/)e | "G7".d>e !>!f2 | fd' (b/a/)f | "C".e>a !>!g2 | c'g (d'/c'/)e | "G"dgb2 | "D7"d'a (e'/d'/)a | "G7".g2z2 | "C"ec' (a/g/)e | 
+"G7".d>e !>!f2 | fd' (b/a/)f | "C".e>a g2 | "C7"c'g d'/c'/e | "Dm"df b>a | a>_a "G7"gb | "C"c'c' c'z || [P:B] [K:G] "G"dg gg | "D7".f2a2 | aa aa | 
+"G".g2b2 | "G7"d'c' ba | "C"g(g/f/)e2 | "D7"f(f/e/) cA | "G"e(e/d/)B2 | dg gg | "D7".f2!>!a2 | aa aa | "G".g2!>!b2 | "G7"d'c' ba | 
+"C"g(g/f/)e2 | "D7"f(f/e/) cf | "G"gb g"_>Teil A"z || [P:C] [K:F] "F"cc dc | "G7".g2.g2 | "C7"gd ec | "F".a2.a2 | f>f "C7"ee | "Bb"d>d"C7"c2 | 
+cg gf | "F"afc2 | cc dc | "G7".g2.g2 | "C7"gd ec | "F".a2.a2 | f>f "C7"ee | "Bb"d>d"C7"c2 | ce gc' | "F"fa f"_Fine"z |] 
+W:
+W:Anmerkung H.C.:Klarinette, Alle Stimmen bei Hr. Lüscher, Holeestr.31, Bottmingen/Benken
+% kp06437
+% Dez 11, 2016

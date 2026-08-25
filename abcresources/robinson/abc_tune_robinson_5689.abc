@@ -1,0 +1,31 @@
+X:1
+T:Äschi-Juiz  Bb
+T:Ruedi Rymann (31.1.1933-10.9.2008)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>E | DF | B2 | F>E | DF | d2 | FF | 
+f>d | cF | E/F/ d/c/ | Bd | F2 | F>E | DF | B2 | 
+F>E | DF | d2 | FF | f>d | cF | e/d/ F/c/ | (B2 | B>)z ||
+M:2/4
+[P:B] e>G | eG | e2 | fe | d>F | dF | d2 | Ff | c>E | Ff | 
+c>E | Fd | B>D | FB | (d2 | d>)z | e>G |  eG | e2 | fe | 
+d>F | dF | d2 | Ff | c>E | Ff | c>E | Fd | (B2 | B)z || 
+M:3/4
+[P:C] F | B2F | d>cB | A2F | e3 | AF/F/ F/F/ | E/F/ A/E/ F/A/ | B2F | 
+d2F | B2F | d>cB | A2F | e3 | AF/F/ F/F/ | E/F/ A/E/ F/A/ | (B3 | B)z ||
+M:2/4
+L:1/8
+[P:D] E>F GG | e2 dc | F>D Ff | d3B | Ac Ff | e3A | Bd Ff | 
+d4 | F>E GG | e2dc | F>D Ff | d3B | Ac Ff | e2Af | B2dc | B4 |] 
+W:
+%W:Reihenfolge:
+W:UJV-Naturjodelsammlung: Code-Nr: 05-01
+W:http://www.naturjodler.ch/code 05.htm  (with AUDIO)
+%April 28, 2018

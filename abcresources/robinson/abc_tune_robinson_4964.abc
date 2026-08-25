@@ -1,0 +1,19 @@
+X:57
+T:Graziosa-Mazurka CGF (mz02271)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.338 (mz02271) orig. C,G,F
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+[P:A] "C"EF Ge dc | "G7"c2B>AB2 | "F"B2A>^GA2 | "C"A2G>^FG2 | CD EF GA | "G7"A2!>!D4 | DE Fc BA | "C"A2G2E2 | 
+EF Ge "Am"dc | "E7"c2 B>^AB2 | "F"B2 A>^G"G7"A2 | "C"A2G>^FG2 |  "F"cB dc BA | "C/G"A2 G>^FG2 | "G7"F2 d>^c d>B | "C"c2c2z2 || [K:G] 
+[P:B] |: "D7"de dc BA | "G"G>Bd3g | "D7"gf c2 c>e | "G"e4d2 | dg "D7"D2E>F | "G"G3ed2 | "D7"dc E2F2 | "G"G2G2"_>Teil A"z2 :| [K:F]
+[P:C] |: "F"c2c2"D7"c2 | "Gm"BcB4 | "C7"c2e3d |  "F"d4c2 | A2d3A | "C7"c4B2 | G2c3B | "F"Afc4 | 
+c2c2"D7"c2 | "Gm"BcB4 | "C7"c2e3d | "F"d4c2 | "Bb"fe gf ed | "F/C"c2 a>^ga2 | "C7"B2 g>^f g>e | "F"f2f2"Fine"z2 |] 
+% mz02271  
+% Nov 8, 2016

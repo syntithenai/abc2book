@@ -1,0 +1,23 @@
+X:31
+T:York & Lenox. JMP.031
+M:2/4
+L:1/8
+Q:1/2=80
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+H:1799
+Z:vmp.C.  Graebe
+Z:vmp.C. Graebe
+B:Village Music project, Miller, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/miller.abc
+notC:"33"
+K:D major
+"_Key Gmaj in MS"DFAF | dFAF | efge | dcBA |\
+(D/E/F/G/) AF | dFAF |!
+GEAG | FD D ::\
+f | fdfd | gege | cABc | (d/c/d/e/) d>g |!
+fdfd | gege | cABc | d2d2 ::defd | cB "tr"B2 |!
+ABAG | GF "tr"F2 | defd | BcdB |\
+AF (A/G/F/E/) | D2D2 :|

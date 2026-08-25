@@ -1,0 +1,33 @@
+X:1
+T:Schlussgang-Juiz 2007  Bb
+T:Thomas Jakober (18.07.1972) 
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+M:3/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+"Anruf"FBd | f>ed |  F/d/cd | !fermata!B3 || 
+M:4/4+3/4
+[P:A] B,>DF2 | D>FB| DFB|d2B>F | dBfd | c2F>A | EF/e/dc | B>DFd | 
+B4 | d>FB2 | D>FB|DFB|d2B>F | dBfd | c2F>A | EF/e/dc | (B4 | B2)z2 || 
+M:4/4
+[P:B] B|G>EB,B | GE/B/AG | F>dBG | FD/F/GB | A>FEF | cF/e/dc | B>dBG | F3B | 
+G>EB,B | GE/B/AG | F>dBG | FD/F/GB | A>FEF | cF/e/dc | (B4 | B2)z||
+M:4/4+3/4
+[P:C]  B,>DF2 | D>FB| DFB|d2B>F | dBfd | c2F>A | EF/e/dc | B4 || 
+M:4/4+3/4
+[P:D]  F>FDF | fdB2 | F>FEF | fdc2 | F>FEF | fdc| 
+fdc|B>dBG | F4 | F>FDF | fdB2 | F>FEF | fdc2 | 
+F>FEF | fdc| fdc|B4 || zFBd | f>edc | B4 |] 
+W:
+W:Reihenfolge: A - B - C - D
+W:gewidmet meinen Kameraden vom Jodlerklub Echo vom Glaubenberg
+W:notiert Edi Gasser. Angaben: Thomas Jakober
+W:UJV-Naturjodelsammlung: Code-Nr: 61-01
+W:http://www.naturjodler.ch/code 61.htm  (with AUDIO)
+%October 03, 2018

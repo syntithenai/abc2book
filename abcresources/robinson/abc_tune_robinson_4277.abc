@@ -1,0 +1,19 @@
+X: 46
+T: Gige-Polka GD (st05790)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.104 (st05790) orig. G,D-Dur
+S: Berner Oberländer Tänze (Bern)
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:G major
+gfe |: "G"d2G2 zBAG | "D7"F2A2 zgfe | d2A2 (Ac)(BA) | "G"(G2B2) zgfe | (d2G2) (B2G2) | "D7"F2A2 zgfe |
+ d2c'2 c'faf |1 \
+"G"g2b2 ggfe :|2 "G"g2b2 g2z2 |: [K:D] "A7"ABcd efgc | "D"dfAf dfef |
+ "A7"ceAg cegA | "D"dfAf d4 | \
+ "A7"ABcd efgc | "D"dfAf dfef | "A7"ceAg cege | "D"d2f2 d2z2 :| 
+[K:G] "G"{/c}(B4B)DGB | e2d2 B4 | \
+edBe d2B2 | "D7"dcAd c4 |F4 FEFG | A2AB c4 | fedc fedc | "G"edBg d4 |  
+"G"{/c}(B4B)DGB | e2d2 B4 | \
+edBe d2B2 | "D7"dcAd c4 | \
+f2f2 fedc | "G"e2e2 edBG | "D7"FAfe dcBA | "G"G2B2 G2z2 |]

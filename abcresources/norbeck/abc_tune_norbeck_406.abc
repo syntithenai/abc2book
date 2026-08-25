@@ -1,0 +1,26 @@
+X:66
+T:King of the Pipers, The
+T:Keys of the Convent, The
+T:Keys to the Convent, The
+T:Key of the Convent, The
+T:Key to the Convent, The
+R:jig
+H:There are 3 other tunes called "King of the Pipers": #8, #219, #307
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+D:Dervish: The Boys of Sligo
+Z:id:hn-jig-66
+M:6/8
+K:D
+AFF dFF | AFB AFD | AFF dAF | DFA GAB |
+AFF dFF | AFB AFD | ~F3 AFD | DFA GAB :|
+|: ABc d2A | dfa agf | geg fdB | AFA Bcd |
+ABc d2A | dfa agf | geg fdB |1 AFA ~B3 :|2 AFA B2A ||
+|: Bbb Baa | ~g3 fdA | Bbb Baa | AFA B2A |
+Bbb Baa | ~g3 fdB | AFd AFE |1 DFA B2A :|2 DFA ~B3 ||
+P:variations
+|: AFF dFF | A^GB AFD | AFF dAF | DFA B2d |
+AFF dFF | A^GB AFD | ~A3 AFE | DFA ~B3 :|
+|: ABc d2A | dfa afd | gfe fdB | AFA ~B3 |
+ABc d2A | dfa agf | gfe fdB |1 AFA ~B3 :|2 AFA B2A ||
+|: Bbb Baa | fge fdA | Bbb Baa | AFA B2A |
+Bbb Baa | fge fdB | AFB AFE |1 DFA B2A :|2 DFA ~B3 ||

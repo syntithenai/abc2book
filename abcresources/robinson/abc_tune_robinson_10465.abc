@@ -1,0 +1,19 @@
+X:56
+T:Bore. TBe.061
+M:C|
+L:1/4
+Q:1/4=120
+S:Thomas Bennet MS,1718, VWML
+R:Bourrée
+O:England
+N:1 - shown as a natural in the MS, but it sounds wrong, and it seems to
+N:me this is 'actually' in Eb - all the other 'A's are flattened
+H:1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+K:Bb major
+B>ed>c | B/_A/G/F/ G/F/4G/4 E/F/ |\
+G/E/ _A/F/ B/G/ c/A/ | d/B/d/e/ f2 ||!
+f>g f/e/d/c/ | Be/f/ g>f | \
+g/e/"^1" _a/f/ b/g/ c'/c/ | B/e/e/d/ e2 |]

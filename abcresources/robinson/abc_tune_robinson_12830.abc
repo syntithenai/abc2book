@@ -1,0 +1,30 @@
+X:5
+T:March the 3(?) by S(?) Wien.2voices. AJH.005
+M:4/4
+L:1/8
+Q:1/4=120
+S:A.J.Hughes MS
+O:England
+A:Shropshire, N
+N:Two bars in Primo have notes superimposed over the melody line. These
+N:correspond to the bass line (V2) one octave higher. to achieve the
+N:effect I have modified V2 to add these notes as chords.
+Z:Neil Brookes 2006
+V:1 clef=treble
+V:2 clef=bass
+%%staves {1 2}
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:D major
+[V:1] |: d2d>d dcde | f2f>f fefg | a2a>a b>ag>f |\
+e2e>e e2d2 | c>Bf>d c2B2 | A2A>A A2 :|
+[V:2] |: D,>DA,>F,D,2z2 | D,>DA,>F,D,2z2 | D,2D,>D,F,2G,2 |\
+A,>A,E,>C,A,,2E,2 | A,2C2D2E,2 | A,2E,>C,A,,2 :|
+%
+[V:1]|: A>A | B2zB c2zc | d2d>d d2a>a | aTg/a/ b>a g>fe>d | e2e>ee2A>A |
+[V:2]|: F,>D, | G,2zG,E,2zA,, | D,2D,>D,D,2z2 | D,2D,2G,2^G,2 |A,2A,>A, A,>G,F,>E, |
+%
+[V:1]"^d>df>daAc>A superimposed over 2 crots"d2z2e2z2 |\
+"d^>d superimposed over first crot"f2z2g2z2 | a2b>g f>ed>c | d2d>dd2 :|
+[V:2] [D3/D,3/][D/D,/][F3/F,3/][D/D,/] [A3/A,3/]A,,/[C3/C,3/][A/A,/] |\
+[D3/D,3/][D/D,/]F,>D, A,>A,,C,>A,, | D,2G,2A,2A,,2 | D,>DA,>F,D,2 :|

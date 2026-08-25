@@ -1,0 +1,40 @@
+X:61
+T:Grenadiers New Slow March.2voices. RH.061
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:The long second section originally began with a:|
+N:but I removed the second colon to remove confusion
+N:to tune-playing programs. I have also adjusted a
+N:few rests at the ends or starts of phrases. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:C
+L:1/8
+Q:2/4=75
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:G major
+[V:1]|:d>d|g2g>g g2dc|B3A G2d>c|B4 dcBc|d2d>d d2z/d/e/f/|
+[V:2]|:d2|B2B>B B2A2|G3F G2B>A|G4 BAGA|B2B>B B2z/B/c/d/|
+%
+[V:1] g2f2 e2d2|B3c edcB|a3g f2e2|d2d>d d2:|
+[V:2] e2d2 c2B2|G3A cBAG|f3e d2AG|F2F>F F2:|
+%
+[V:1] z2|d3e fdfd|g3d gdgd|agfe dcBA|G2G>G G2zB|
+[V:2] z2|F2G2 A2A2|B2d2 B2B2|fedc BAGF|G2G>G G2zB|
+%
+[V:1] dcBA gfed|d3e/d/ c2B2|B2d2 dcAF|G2G>G G2D>D|
+[V:2] BAGF edcB|B3c/B/ A2G2|G2"_Fnat in MS"F2 E2FA|G2G>G G2z2|
+%
+[V:1] G3B BAcB|B3d dced|dcBA Geed|d2d/c/B/c/ B4|
+[V:2] z4 z2D>D|G3B BAcB|BAGF GccB|A2F2 G4|
+%
+[V:1] B2B>B B2c2|d2d>d d2g>g|g2e>g f2e2|d2d>d d2z2|
+[V:2] G2G>G G2A2|B2B>B B2e>e|e2ce d2AG|F2F>F F2z2|
+%
+[V:1] d3e fdfd|g3d gdgd|agfe dcBA|G2G>G G2zd|
+[V:2] F3G A2A2|B3d B2B2|fedc BAGF|G2G>G G2zB|
+%
+[V:1] dcBA gfed|d3e/d/ c2B2|B3d dcAF|G2G>G G2|]
+[V:2] BAGF edcB|B3c/B/ A2G2|G2"_Fnat in MS"F2 E2FA|G2G>G G2|]

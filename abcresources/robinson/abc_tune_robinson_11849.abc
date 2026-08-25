@@ -1,0 +1,29 @@
+X:40
+T:Cotilion,2voices. JGi.040
+M:6/8
+L:1/8
+Q:3/8=90
+S:Joshua Gibbons MS,1823,Tealby,Lincs.
+R:Cotillion
+O:England
+Z:VMP/R.Greig, 2009
+B:Village Music project, Gibbons, Joshua
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gibbon.abc
+A:Lincolnshire - Tealby
+K:G major
+[V:1]|:d|g2d d>ed|B2B BdB|G2G A2B|cBA GBd|
+[V:2]|:B|B2B B>cB|G2G GBG|G2GF2G|AGF G2B|
+[V:1]g2d g2d|gfe dcB|AcB A2F|G3G2:|
+[V:2]d2Bd2B|Bdc BAG|FAG F2A,|B,3B,2:|
+[V:1]|:A|F2G A2c|c2B ABc|Bdf bgd|B3A2d|
+[V:2]|:F|D2EF2G|A2G FGA|G2Bd2B|G3F2B|
+[V:1]g2d g2d|gbg faf|g2d cBA|G3G3:|
+[V:2]d2Bd2B|BdB AcA|B2B AGF|E3G3:|
+[V:1]|:g|b2a g2g|fga g2b|d'2c'b2b|abc'b2d|
+[V:2]|:e|d2cB2c|ABc A2g|b2ag2g|fgag2f|
+[V:1]a>ba g2f|efg f2d'|abgf2e|d3d3:|
+[V:2]f>gf e2d|cded2f|fged2A|F3F3:|
+[V:1]|:A|A3ABc|c3B2d|dcdc2B|B3A2d|
+[V:2]|:F|F3FGA|A3F2B|BGBG2G|G3F2B|
+[V:1]g2dg2d|gfed2c|Bdga2f|g3g2:|
+[V:2]d2Bd2B|edcB2A|G2Bc2A|B3"DC"B2:|

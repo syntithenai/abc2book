@@ -1,0 +1,24 @@
+X:1
+T:Lörracher Marsch  CF  (mr07783)  
+T:Hanny Christen. Bd.V  Basel II, Jura. S.139  (mr07783) orig. C,G
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Marsch
+M:4/4
+L:1/4
+O:Switzerland
+K:C major
+"C"c2G z | e2cz | g>ec>e | "G7"dz!>!B2 | "C"czz2 || [P:A]  "C"G2c>d | e2c2 | "F"f2a>f | "C"e2c2 | 
+e2f>e | "G7"d2(^cd) | g2g>f | "C"e>de>c | G2c>d | e2c2 | "F"f2a>f | "C"e2c2 | "Dm"Adf2 | 
+"C"Gce2 | "G7"g>fe>d | "C"cccz [K:G] [P:B] |: "G"B2d2 | e2d2 | B2dg | "D7"f2z2 | A2d2 | f2e2 | 
+e2dc | "G"B2z2 | B2d2 | e2d2 | g3f | "C"f2e2 | "D7"(Tfe/)z/ (Tfe/)z/ | "G"e2dB | "D7"d2cA | 
+"G"GGGz :| [K:C] [P:C] "C"GzGz | Gz [Ge]2 | ([Ge]4 | "G7"[Fd]2) [Fd]2 | ([Fd]4 | "C"[Ec]2) e>f | e3d | "G7"cBAB | 
+"C"c2z2 | zcef | (e4 | e)(.g.f.e) | "G7"g2f2 | z2de | (g4 | g)fAB | "C"c2z2 | 
+zceg | (e4 | e).g.f.e | "G7"g2f2 | z2de | g4 | gfAB | "C"cc"G7"B>A/B// | "C"cccz |] 
+W:
+W:Anmerkung H.C.: (Büchli v. E. Horand 1882)
+% mr07783
+% May 30, 2018

@@ -1,0 +1,39 @@
+X:15
+T:Kamerade-Juiz. 1993  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:2/4
+R:Naturjodel
+Q:1/4=76
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+"Begrüssung" Fd/c/ | Bd | Fz | Ff/e/ | "_rit."dc | !fermata!B>z ||  
+Q:1/4=82
+M:4/4
+[P:A] Fd/c/Bd | F>ED2 | Fd/c/Bd | c3z | Fe/c/Ac | F>EC2 | "_rit."F>edc | !fermata!B2z |
+Ff/d/Bd | F>ED2 | Ff/d/Bd | c3z | Fe/c/Ac | F>ECz | "_rit."Fe/d/cA | !fermata!B3z || 
+Q:1/4=54
+M:3/4
+[P:B] F/B/ | dBF/e/ | dBF/d/ | ccd/c/ | BzF/B/ | dBF/e/ | dBB/d/ | "_rit."ffd/c/ | !fermata!B>z || 
+Q:1/4=134
+M:3/4
+L:1/4
+[P:C] d| B>GF | DFd | c2F | Ezc | A>GF | Fdc | B>Bc | 
+dzd | B>GF | DFd | c2B | !fermata!G2"_langsam"e | d>cB | c>d"_rit."c | (B3 | B)z ||
+Q:1/4=56
+M:3/4
+[P:D] F/D/| dBF/G/ | F/E/CF/E/ | dcd/c/ | B/d/F F/D/ | dBF/G/ | 
+F/E/CF/E/ | dcd/c/ | !fermata!BzF/D/ | dBF/G/ | F/E/CF/E/ | 
+dcd/c/ | B/d/FF/D/ | dBF/G/ | F/E/CF/E/ | d"_rit."cd/c/ | !fermata!B2 |]
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-08
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018

@@ -1,0 +1,20 @@
+X:67
+T:Mazurka  GDC (mz07378) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.314 (mz07378) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+g2 [P:A] |: "D7"f>ga2(c'2 | ("G"c'2b>))ag2 | ("D7"b2a>)gf2 |  ("G"g2f>)e d>g | "D7"f>ga2(c'2 | ("G"c'2b>))ag2 | ("D7"b2a>).g f2 |1 "G".g2g2"_Fine"g2 :|2 
+"G".g2g2f>e |: [P:B] [K:D]    "D"d2d2a>g | f2f2 d'>c' | ("A7"c'b) (cb) (cb) | ("D"a2.f2)b>a | ("G"ag)B2(ag) | ("D"gf)A2g>f | "A7"f2(ef) (ef) | "D".d2d2f>e :| 
+"D".d2d2"_>Teil A"g2 || [P:C] [K:C] e>f | "Dm".d2b>a ^g>a | "G7"a4(fB) | "C".c2a>g ^f>g | g4(ec) | ("G7"c2B2) B>d | ("C"d2c2)c>e | 
+("G7"e2d).a .g.f | "C"ee' c'g (e>f) | "Dm".d2b>a ^g>a | "G7"a4(fB) | "C".c2a>g ^f>g | g4(ec) | "G"B>c d2b2 | d'2c'b ag | "D7"^fed2 b>a | 
+"G7"g4 G>A || [P:D] ("C"G2e)e e>e | ("F"A2f)f f>f | ("G7"Bg)g3f | "C"e>d c2GA | (G2e)e e>e | ("F"A2f)f f>f | "G7"g>f e3d | "C".c2c2z2 |] 
+%W:Parts:ABACD
+% mz07378
+% Oct 26, 2017 (Exam preparation: Describing a silver goblet)

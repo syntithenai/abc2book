@@ -1,0 +1,30 @@
+X:10
+T:Abschieds-Juiz  Bb  ABCAB
+T:Franz Wallimann  (10.3.1923-14.11.2014)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCAB
+M:2/4
+L:1/4
+R:Naturjodel
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "frisch, froh" B,>C | D>C | B,C | D/2F/2 B/2c/2 | d>c | Bd | Fd | c>YB | 
+Ac | FB | d>c | B2 | B,C | D>C | B,C | D/2F/2 B/2c/2 | 
+d>c | Bd | Fd | c>B | Ac | Fd | (B2 | B)z || 
+M:3/4
+[P:B] "gemütliches Walzertempo" c2E | F>f c/2d/2 | B2D | F>f B/2d/2 | c2E | F>f c/2d/2 | BDF | B3 | 
+c2E | F>f c/2d/2 | B2D | F>f B/2d/2 | c2E | F3 | "_jeder Ton breit" !fermata!f!fermata! c!fermata!d | B3 || 
+M:3/4
+L:1/8
+[P:C] "recht zügig" FF | f3e d2 | c2fe dc | B3cd2 | F2DF Bd | 
+c3de2 | F2EF Ac | B3cd2 | F4FF | f3ed2 | 
+c2fe dc | B3cd2 | F2DF Bd | c3de2 | F2EF dc | (B6 | B2)z2 |]
+W:
+%W:Reihenfolge: A - B - C - A- B
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 30-06
+W:http://www.naturjodler.ch/code 30.htm  (with AUDIO)
+%May 29, 2018

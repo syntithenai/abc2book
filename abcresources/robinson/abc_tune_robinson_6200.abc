@@ -1,0 +1,16 @@
+X:1
+T: Schottisch CFBb (st07564) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.86f  (st07564) orig. C,F,Bb
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"E>F G>A | Gec2 | "G7"Gf B/B/B | "C"Ge c/c/c | E>F G>A | Gec2 | Ge "G7"BA/B/ | "C"cc cz:: [K:F] "F"C(F/A/)c2 | 
+"C7".d(c/B/)G2 | .C(E/G/)B2 | "F".c(A/G/)F2 | .C(F/A/)c2 | "C7".d(c/B/)G2 | .d(G/A/) BE |1 "F"FF Fz :|2  "F"FF FF || [K:Bb] 
+|: "Bb"DF d>c | "Gm"BA G>G | "F7"AG F>F | "Bb"GF D>F | DF d>c | "Gm"BA G>F | "F7".A(B/A/) GA |1 "Bb"B3F :|2 "Bb"BB Bz |] 
+% st07564
+% March 4, 2018 (Master / Teacher)

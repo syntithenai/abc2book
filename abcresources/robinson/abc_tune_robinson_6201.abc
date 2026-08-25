@@ -1,0 +1,16 @@
+X:1
+T: Rössli-Schottisch FC (st07568) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.88  (st07568) orig. F,C
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F".f(e/d/) cc | "Gm"dG dG | "C7".c(B/A/) GG | "F"AF AF | .f(e/d/) cc | "Gm"dG dG | "C7".c(B/A/) .G(A/G/) | "F".F(A/c/) f2 :: [K:C] 
+"G7"G>A GF | "C"EG.c2 | ("G7"B/c/d/e/) dd | ("C"c/d/e/f/) gg | "G7"G>A GF | "C"EG.c2 | ("G7"B/c/d/e/) fB | "C"cc cz :: [K:F] 
+"F"CF FA | "C7"AG/^F/ GG | (E/F/G/A/) Bd | "F".d(c/d/) cC/D/ | CF FA | "C7".AG/^F/ GG | E/F/G/A/ B/c/d/e/ | "F"ff fz :| 
+% st07568
+% March 5, 2018 (Bhagvan's Rolls)

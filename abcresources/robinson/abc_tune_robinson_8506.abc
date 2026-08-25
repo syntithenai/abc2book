@@ -1,0 +1,25 @@
+X: 84
+T:the Duke of Gordons Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:31 - 1
+K:D major
+%%staves {1 2}
+V:1
+B/c/ | \
+d>DF>D ADFD | B>DF>D E/E/E EB/c/ | \
+d>DF>D ADFD | d>fe>f d/d/d d :|
+f/g/ | \
+a>f d<f AdFD | GBFA E/E/E Eg | \
+a/g/f/e/ d>f A<d F>D | G>BA>c d/d/d df/g/ |
+a>f d<f A<dF>A | G>BF>A E>F G<E | \
+(D>F)(E>G) (F>A)(G>B) | !trill!A>FG>E D/D/D D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd| ddee | dddd | aAdd/ :| \
+z/ | dddd | edAA | ddfd | gadd | ddfd | edAA | d[ce][df]g | aAdd/ |]

@@ -1,0 +1,21 @@
+X:1
+T:Der Gemütliche. Schottisch  CF ( st07011)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.148  ( st07011) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"ge ec | "G7"cBB2 | af fd | "C"dcc2 | "Dm"dfA2 | "C"ceG2 | "G7"B/c/d/e/ fB | "C"ce cz :: [P:B] "C"G>e dc | "G7"Bcd2 | 
+G>f ed | "C"cde2 | G>e dc | "G7"Bcd2 | G>f ed | "C"cc cz :: [K:C] [K:F] "F"c2f2 | "C7"e4 | B2d2 | "F"c4 | aa aa | 
+"C7"bbe2 | gg gg | "F"aaf2 | c2f2 | "C7"e4 | B2d2 | "F"c4 | aa aa | "C7"bbe2 | gg ag | "F"fa fz :| 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.:
+% st07011
+% June 23, 2018

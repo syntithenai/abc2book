@@ -1,0 +1,26 @@
+X: 86
+T:Mr McDonald -- Gordon Castle
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:31 - 3
+K:D major
+%%staves {1 2}
+V:1
+"^Slowly"
+F | \
+(D2 A)>.F D<DA>F & D2x6|  (D2 A)>.F BE-E.F & D2x6 | \
+(D2 A)>.F D<D A>G & D2x6| F>dE>c d>DD :|
+g | \
+f>de>c dAFD | G>BF>A Ee-e.g | \
+f>de>c dAFD | G>B A/G/F/E/ Dd-d.g |
+f>de>c dAFD | G>BF>A Ee-e.g | \
+f>de>c d>AB>G | F<dE>c d<DD |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | ddee | dddd | aAdd/ :| \
+z/ | dafd | ed[Ae][Ae] | dafd | gadd/z/ | \
+dafd | ed[Ae][Ae] | dgfg | aAdd/ |]

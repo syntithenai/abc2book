@@ -1,0 +1,37 @@
+X:77
+T:Lady Peel
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+N:Moderately Slow.  Same tune as 'Miss Gibson Craig' one
+N:page earlier
+O:Scotland
+R:Strathspey
+Z:Clark Bernst
+%%Page:33 - 2
+K:Eb major
+%%stretchlast 1
+V:1 clef=treble
+B, | \
+E>{FEDE}F E/D/{D}C/B,/ CFF>G & G,2 B,2 C2 D2 | EBGe Bgeb & G,2 E2 G2 B2|
+E>{FEDE}F E/D/{D}C/B,/ CFF>G & G,2 B,2 C2 D2 | B,>E E/D/{D}C/B,/ [G,E]2 [G,E] & G,2 A,2 x3 :|
+B |\
+(~e>f) (e/d/)(c/B/) cf-f>g | egce BeGE |
+~e>{g}f e/d/{d}c/B/ cf-f>g & x4 c2x2| e/>d/{d}c/B/ c"tr"d [Ge]2 [Ge]B |
+(~e>f) e/>d/{d}c/B/ cff>g | egce BeG>E |
+AcGB C[CF][DF]G & E2E2x4| C>E E/D/{D}C/B,/ [G,B,E]2 [G,B,E] & A,2x4x |]
+V:2 clef=bass octave=-2
+L:1/16
+z2 |\
+E2e2 G2g2 A2a2 B2b2 | EeEe EeEe EeEe EeEe | \
+E2e2 G2g2 A2a2 B2b2 | B4 B,2B2 E2e2 E2 :| \
+z2 |\
+ee'ee' be'ge' af'c'f' bf'd'f' & e8x8 | \
+ge'be' ae'c'e' ge'be' ebgb | \
+ee'ge' be'ge' af'c'f' bf'd'f' & e8x8 | \
+ba'f'a' ba'f'a' egbe' e2z2 | \
+gebe gebe afcf bfba | \
+ge'be' ae'c'e' ge'be' egb_d' | \
+c'2a2 b2g2 [Aa]2[=A=a]2 [Bb]4 & e4e4x8 | \
+[A,A]4 [G,Bfa]4 E2e2 E2 |]

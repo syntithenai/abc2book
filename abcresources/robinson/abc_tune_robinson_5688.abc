@@ -1,0 +1,33 @@
+X:9
+T:Bichel-Juiz  Bb  ABAC
+T:Adolf Zimmermann (30.3.1919-18.7.2002)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "bestimmt" F2 | (B2B/)c/d/e/ | f3d | f/=e/c/(d/d2) | B2d2 | F4 | DF Bd | c2e2 | F4 | 
+EF dc | B2d2 | (F4 | !breath!F2)F2 | (B2B/)c/d/e/ | f3d | f/=e/c/(d/d2) | B2d2 | 
+F4 | DF Bd | c2e2 | F4 | f3=e | cd3 | !fermata!(B4 | B2) ||
+M:3/4
+L:1/8
+[P:B] "Ländlertempo" d2f=e | c3dF2 | c2f=e cd | B3cd2 | F3D Fd | 
+c3de2 | F3f dc | B3A Bc | (d6 | !breath! d2) d2f=e | c3dF2 | 
+c2f=e cd | B3cd2 | F3D Fd | c3de2 | F2"rit."d2c2 | !fermata!B6 || 
+M:3/4
+L:1/8
+[P:C] F2FF FF | DF Bdf2 | f=e cd cF | BA Bcd2 | F2FF FF | 
+DF Bdf2 | f=e cd cF | B6 | F2FF FF | DF Bdf2 | f=e cd cF 
+BA Bcd2 | F2FF FF | DF Bdf2 | f=e cd cF | !fermata!B6 |]
+W:
+W:Reihenfolge: A-B-A-C
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 04-05
+W:http://www.naturjodler.ch/code 04.htm  (with AUDIO)
+W:http://www.naturjodler.ch/index_htm_files/04.05 Bichel-Juiz-A4.pdf
+%April 289 2018

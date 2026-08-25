@@ -1,0 +1,36 @@
+X:6
+T:La Bourrasque
+R:valse musette
+C:Michel P\'eguri (1883-1958)
+O:France
+Z:id:hn-musette-6
+M:3/4
+L:1/8
+Q:1/4=200
+K:D
+AdcA | B2E2E2 | c2E2E2 | cAcece | Ha2 ||
+AdcA | "D"B6- | BABdcA | F6- | F2 AdcA | BAdced | "B7"b4 a2 | "A7"(3aba ge c2- | c2
+AdcA | B6- | BABdcA | G6- | G2 E^DEF | GFEFGA | BABcde | "D"f6- | f2
+AdcA | B6- | BABdcA | F6- | F2 (3ABA ^GA | "B7"B4 A2 | (3ABA GFEF | "Em"G6- | G2
+(3BcB ^AB | gf e4- | "Gm"e2 (3ABA ^GA | "D"fe d4- | d2 (3ABA ^GA | "A7"cBAcBA | cBAcBA | "D"d6- | d3 ||
+K:G
+DGB | "G"(3ddd dDGB | (3ddd dDGB | "D7"(3ccc cEFA | (3ccc cEFA |
+(3fff fEFA | f6 | "G"egdfce | d3
+DGB | "G"(3ddd dDGB | (3ddd dDGB | "D7"(3ccc cEFA | (3ccc cEFA |
+(3fff fEFA | f6 | "G"(3GBd (3gdB (3GBd | g2 ||
+K:D
+AdcA | "D"B6- | BABdcA | F6- | F2 AdcA | BAdced | "B7"b4 a2 | "A7"(3aba ge c2- | c2
+AdcA | B6- | BABdcA | G6- | G2 E^DEF | GFEFGA | BABcde | "D"f6- | f2
+AdcA | B6- | BABdcA | F6- | F2 (3ABA ^GA | "B7"B4 A2 | (3ABA GFEF | "Em"G6- | G2
+(3BcB ^AB | gf e4- | "Gm"e2 (3ABA ^GA | "D"fe d4- | d2 (3ABA ^GA | "A7"cBAcBA | cBAcBA | "D"d6- | ddcdef ||
+K:G
+"G"g2 (3fgf (3efe | "E7"(3ded c2 B2 | "D7"dcBdcA | F2 (3ABA ^GA |
+(3fgf (3efe (3ded | (3cdc (3BcB A2 | "G"AGFAGE | Dd^cdef |
+"G"g2 (3fgf (3efe | "E7"(3ded c2 B2 | "D7"dcBdcA | F2 (3ABA ^GA |
+(3fgf (3efe (3ded | (3cdc (3BcB (3ABA | "G"G3 g g2 | g2 ||
+K:D
+AdcA | "D"B6- | BABdcA | F6- | F2 AdcA | BAdced | "B7"b4 a2 | "A7"(3aba ge c2- | c2
+AdcA | B6- | BABdcA | G6- | G2 E^DEF | GFEFGA | BABcde | "D"f6- | f2
+AdcA | B6- | BABdcA | F6- | F2 (3ABA ^GA | "B7"B4 A2 | (3ABA GFEF | "Em"G6- | G2
+(3BcB ^AB | gBgBgB | gBgBgB | "D"fAfAfA | f2 (3efe (3ded |
+"A7"(3cdc (3BcB (3ABA | (3GAG (3FGF (3EFE | "D"DFAdfa | d'2 ||

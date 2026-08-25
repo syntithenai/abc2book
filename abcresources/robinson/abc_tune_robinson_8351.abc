@@ -1,0 +1,31 @@
+X:71
+T:Capt Charles Gordon, R.N., Huntly
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst
+%%Page:30 - 2
+K:A major
+%%staves {1 2}
+V:1
+E | \
+A<A A>A G>B G>E  & C<C C>C D2 D2 | \
+[CA]<[CA] [CA]>[CA] (c>e) (c>A) | \
+(3def (3edc ~B2 (GE)  & A2 B>A x4 | \
+(F/G/A/).F/ (G/A/B/).G/ [CA]2 [CA]2 |]
+(3cea (3edc ~B2 (GE) | (3cea (3ecG (3Afe {d}(3c>BA | \
+(3~d>ef (3edc ~B2 (GE) & x2 B2 x4 | (F/G/A/).F/ (G/A/B/).G/ A2 A2 |
+(3cea (3edc ~B2 (G>E) | (3cea (3ecG (3Afe {d}(3c>BA | \
+(3~d>ef (3eac "tr"B2 (GE) | (F/G/A/).F/ (G/A/B/).G/ A2 A2 & D2 D2 C2 C2 |]
+V:2 clef=bass octave=-2
+[L:1/4]
+z/ | \
+[Aa] [Aa] [Ee] [Ee] | [Aa] [Aa] [Aa] [=G=g] | \
+[Ff] [^G^g]/>[Aa]/ [Ee] [Ee] | [dd'][ebd'][Aa] [Aa] |]
+[ac'e'] [ac'e'] [ebd'] [ebd'] | [ac'e'] [ac'e'] [ac'e'] [=gae'] | \
+[fd'] [ge']/>[ae']/ [ebd'] [ebd'] | [dd'] [ebd'] [ac'e'] [ac'e'] | \
+[ac'e'] [ac'e'] [ebd'] [ebd'] | \
+[ac'e'] [ac'e'] [ac'e']/>[ac'e']/ [ae'=g']/>[ae'g']/ |
+[af'a']/>[ad']/ [ac'e'] [ebd'] [ebd'] | [Dd] [Ee] [A,A] [A,A] |]

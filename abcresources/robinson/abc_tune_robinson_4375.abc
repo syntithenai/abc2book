@@ -1,0 +1,20 @@
+X: 135
+T: Polka CF (pk05942)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.172 (pk05942) orig. C,F-Dur
+S: Tänze aus Saanen (Bern) S.170ff
+S: Bürgenstock Polka (H.C.)
+%%partsbox
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+P:ABACD
+K:C major
+GF [P:A] |: "C"EGce g3e | "G7"f2f2 zc'ba | gbag fagf | "C"e8 | EGce g3e | "F"a2a2 ac'ba | "C"gc'ge "G7"f2B2 |1 
+"C"c2c2 c2GF :|2 "C"c2c2 c2z2 ||[P:B]  "Am"e3e e3e | e2c2 .A4 | "E7"BE^GB edcB | "Am"cdcB .A4 | e3e e3e | 
+e2c2A4 | "E7"BE^GB edcB | "Am"A4 "G7"zG"_> Teil A"FD [P:C] |: [K:F] {/=B}"F"c4 {/B}c4 | {/=B}c4 cBc^c | "Bb"d4 {/^c}d4 | 
+{/^c}d4z2ff | "C7"f2e2 EGce | {/^d}e4 z2=dd | "F"d2c2 =Bcdc | A4 zAB=B | c4 {/=B}c4 | {/=B}c4 cBc^c | 
+"Bb"d4 {/^c}d4 | {/^c}d4 z2f2 | "C7"g3f e2d2 | "F"d2c2 fAcf | "C7"eGcd cABG |1 "F"F2Ac f4 :|2 "F"F2Ac f2f2 || 
+[P:D] "C7"e6d2 | Pd2c2 b3e | "F"f3A d3A | c4 zc=Bc | "C7"d4 zceg | c'4 zc=Bc | "F"d4 zcfa | c'4 z2f2 | 
+"C7"e6d2 | Pd2c2 b3e | "F"f3A d3A | c4 zc=Bc | "Bb"d3b a2g2 | "F"f4 zc=Bc | "Bb"d2b2 "C7"e2c'2 | "F"f4 +>+f4 |]

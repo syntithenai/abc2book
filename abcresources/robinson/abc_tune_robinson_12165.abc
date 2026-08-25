@@ -1,0 +1,29 @@
+X:62
+T:La Pipe De Tabac.2voices RH.062
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:Primo and secundo do not match. Each has odd
+N:bar counts. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:2/4
+L:1/16
+Q:80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:G major
+[V:1] G>AB>c|d4 e3c|(ed-d2) dcAc|B2d2 A2BA|G2z2 G>AB>c|
+[V:2] G2 G>A|B2G2 c2A2|cBB2 A2D2|G2B2 F2G2|G2z2 G2G>A|
+%
+[V:1] d2g2 e3c|edd2 dcAc|B2d2 A2d2|B4 (dcAc)|
+[V:2] B4 c3A|cBB2 A2D2|G4 F4|G4 A2D2|
+%
+[V:1] B2g2 AGAd|G4 F>GA>B|c2A2 G2B2|AFD2 F>GA>B|
+[V:2] G2B2 FEFD|G4 z4|A2F2 E2G2|F2D2 z4|
+%
+[V:1] c2A2 G2B2|d2z2 G>AB>c|d2g2 e2c2|edd2 (dcAc)|
+[V:2] A2F2 G2G2|F2z2 G2G>A|B4 c2A2|cBB2 A2D2|
+%
+[V:1] B2d2 A2d2|B2z2 dcAc|B2g2 A>GA>B|G8|]
+[V:2] G4 F4|G2D2 A2F2|G2B2 F>EF>D|G8|]

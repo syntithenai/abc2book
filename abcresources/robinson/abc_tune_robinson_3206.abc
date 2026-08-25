@@ -1,0 +1,28 @@
+X:185
+T:Quadrille. CJF.185
+R:Quadrille
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:The note marked "?" has no dot on it - the rising stick ends
+N:at B, but I have used the same three notes as bar 4.
+N:The note marked "*" has a mark on its tail, and COULD just be
+N:interpreted as a dotted quaver (c'3/2).The lead note for the
+N:last section has been left as in the MS. - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:6/8
+L:1/8
+Q:3/8=65
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:C major
+(c/" $"d/)|(e>"?"dc) Gcd|e>dc Gcd|e>dc g>fe|\
+dfed2(c/d/)|!
+(e>dc) g>fe|c'bag2(e/f/)|\
+g (f/^f/g/f/) gab|"*"c'3c'2H||!
+(B/c/)|\
+ded dgb|ded dgb|dgb dgb|d'^c'=c'a2(A/B/)|!
+c>dc c^fa|c>dc cag|^fed def|.g(ba) g^f" $"=f||!
+e|(a2e)(c'2b)|a^ga ea=g|fed dcB|^GABE2e|!
+a2ed'2b|a^ga e=fe|cBf fe^GA3A2|]

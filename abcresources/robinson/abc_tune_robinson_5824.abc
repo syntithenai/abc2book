@@ -1,0 +1,29 @@
+X:48
+T:Dürrebode-Juiz  Bb  ABCBB
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCBB
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:Bb major
+[P:A] B,/C/ | Ddc | BDD | d>cB | c2C/D/ | EcB | 
+ACD | E/e/dc | !fermata!B2 B,/C/ | Ddc | BDD | 
+d>c B/d/ | e3 | d2c | BDd | f/e/dc | !fermata!B2 || 
+M:3/4
+[P:B]  D|d2c | B2D | c2B | A2C | c2c | d2c | B2c | d2D | 
+d2c | B2D | c2B | A2C | c2c | d>A c | (B3 | !fermata!B2)z ||  
+M:3/4
+[P:C] BcB | A>Bc | cdc | B>cd | 
+BcB | A>Bc | E/e/d2 | c=B!fermata!c |] 
+W:
+W:Reihenfolge: A-B-C-2xB
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-23
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 23, 2018

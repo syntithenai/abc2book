@@ -71,8 +71,14 @@ WORSHIPTOGETHER_SECTION_RE = re.compile(
 CHORD_SPAN_RE = re.compile(
     r"<(span|b)[^>]*data-chord(?:-name)?=\"[^\"]*\"[^>]*>(.*?)</\1>", re.S | re.I
 )
-# Guitar tablature lines (e.g. "E|-1-3-3-|") are noise for a lyric/chord sheet.
-TAB_LINE_RE = re.compile(r"^[eadgbEADGB]\s*\|[-0-9hpbrx/\\~().*\s|]+$")
+# Guitar tablature lines are noise for a lyric/chord sheet.
+# Covers pipe form ("E|-1-3-3-|") and dash form ("G----", "E---5--5/12--0--").
+TAB_LINE_RE = re.compile(
+    r"^[eadgbEADGB]\s*(?:"
+    r"\|[-0-9hpbrx/\\~().*\s|]+|"
+    r"[-|]{2,}[-0-9hpbrx/\\~().*\s|]*"
+    r")$"
+)
 BEAT_COUNT_LINE_RE = re.compile(r"^(?:\d+\s*\+\s*)+\d?\s*\+?$")
 CHORD_DIAGRAM_LINE_RE = re.compile(r"^(?:[A-G](?:#|b)?[^ ]*\s+)?[x0-9](?:-[x0-9]){3,}(?:-[x0-9])*\s*$", re.I)
 DUCKDUCKGO_RESULT_RE = re.compile(r'class="result__a"\s+href="([^"]+)"', re.I)
@@ -127,7 +133,10 @@ async def _emit_progress(on_progress, stage, message, progress):
 
 
 def normalize_match_text(value):
-    return re.sub(r"[^a-z0-9]+", "", (value or "").lower())
+    import unicodedata
+    text = unicodedata.normalize("NFKD", str(value or ""))
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    return re.sub(r"[^a-z0-9]+", "", text.lower())
 
 
 def _meaningful_substring_overlap(left, right):
@@ -228,6 +237,10 @@ def token_is_chord(token):
         return False
     value = value.strip("(),.:")
     if not value:
+        return False
+    # Tab frets ("G----", "E---5--") match CHORD_TOKEN_RE because "-" is allowed;
+    # reject runs of dashes so bass/guitar tab is not treated as chord symbols.
+    if re.search(r"-{2,}", value):
         return False
     return bool(CHORD_TOKEN_RE.match(value))
 

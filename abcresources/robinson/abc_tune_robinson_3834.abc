@@ -1,0 +1,14 @@
+X: 92
+T: Polka CGF
+T:Hanny Christen. Bd.IX Uri II, Schwyz, Unterwalden I. S.415 (pk10290) orig. CGF-Dur
+M:2/4
+L:1/16
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+Gc |: "C"e2c2 a2e2 | "G7"g2f2 B4 | Bda2 a2B2 | "C"cea2 a4 | e2c2 a2e2 | "G7"g2f2 B4 | Bda2 agfd |1 
+"C"c2c2 c2Gc :|2 "C"c2c2 c2 z2 |: [K:G] "D7"cBAB c2d2 | "G"B2d2 g4 | "D7"fac2 c2e2 | "G"dgB2 B4 | "D7"cBAB c2d2 | "G"B2d2 g4 |   
+"D7"gacd e3f |1 "G"g2g2 g2 z2 :|2 "G"g2g2 g2GA || [K:F] [L:1/8] c |: "F"A>B ca | "Bb"bB B2 | "C7"eg/f/ eg/e/ | 
+"F"fa c>c | A>B ca | "Gm"bB B2 | "C7"eg/f/ eb/e/ |1 "F"ff fc :|2 "F"ff ff |: [K:C] "C"e>a ae | "G7"gf B2 | 
+f/e/f/e/ dG | "C"e/d/e/d/ cG | e>a ae | "G7"gf B2 | f/e/f/e/ dg |1 "C"cc cf :|2 "C"cc c z |]    
+W: Parts: ABACDC

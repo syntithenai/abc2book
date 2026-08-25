@@ -1,0 +1,28 @@
+X:40
+T:Mr Charles Stewart, Pettyvaich
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:16 - 2
+K:Bb major
+%%staves {1 2}
+V:1
+F | \
+B2 (dB) fBdB | Gced cBAF | B2 (dB) fBdB | GcAF B2 B :| \
+b | \
+fddb fddb | fddB (A/B/c) cb |
+                              fddb fdcB | AFGA B2 Bb | \
+fddb fddb | fddB (A/B/c) ce | dfga bfdB | GcAF B2 B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Bb] [Bb] [Bb] [Bb] | [Ee] [Ee] [Ff] [Ff] | [Bb] [Bb] [Bb] [Bb] | [Ee] [Ff] [Bb] [Bb]/ :| \
+z/ | \
+[bd'f'] [bd'f'] [bd'f'] [bd'f'] | [bd'f'] [bd'f'] [c'e'f'] [c'e'f'] | \
+[bd'f'] [bd'f'] [bd'f'] [bd'f'] | [fc'e'] [fc'e'] [bd'] [bd'] | \
+[bd'f'] [bd'f'] [bd'f'] [bd'f'] |[bd'f'] [bd'f'] [c'e'f'] [ac'f'] | \
+[bf'] [ee'] [dd'] [Bb] | [Ee] [Ff] [Bb] [Bb]/ |]

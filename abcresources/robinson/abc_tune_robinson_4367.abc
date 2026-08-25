@@ -1,0 +1,16 @@
+X: 128
+T: Polka BbFEb (pk06121)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.403 (pk06121) orig. Bb,F,Eb-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:Bb major
+[P:A] "Bb"dff2 d2f2 | "F7"eff2 e2f2 | Acea g2f2 | "Bb"Bdfb g2f2 | dff2 d2f2 | "F7"eff2 e2f2 | Acea g2f2 | "Bb"B2B2 B2z2 :| [K:F]
+[P:B] |: "C7"c'2bc c2c2 | "F"d'c'af c2c2 | "C7"c2cc cfag | "F"g2f2 f4 | "C7"c'2bc c2c2 | "F"d'c'af c2c2 | "C7"c2cc cfag | "F"f2f2 f2"_> Teil A"z2 :| [K:Eb] [L:1/8]
+[P:C] "Eb"EG Be/g/ | +>+b3e/g/ | be/g/ be/g/ | "Bb7"bd d/c/B | AB df | +>+b3d/f/ | bd/f/ bc'/b/ | "Eb"ge +>+e2 | 
+EG Be/g/ | +>+b3e/g/ | be/g/ be/g/ | "Fm"e'f +>+f2 | "F7"c'c'/c'/ c'e/g/ | "Eb/Bb"bb/b/ +>+b2 | "Bb7"bd/g/ g>f | "Eb"ee ez |]

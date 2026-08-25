@@ -1,0 +1,29 @@
+X:59
+T:Rory O Morre Secondo. WHG.058
+R:Jig
+S:W.H.Giles MS,Bampton,Oxfordshire,1839p61
+O:England
+H:donated by Mrs W.R.Kettlewell to VWML,Apr 1927.
+A:Oxfordshire - Bampton
+N:See WHG004, p5. Bar 10 has a rest between E2 and
+N:the D#. "D Capo" written after the stave. The last
+N:note of the A-music is B,3 in the MS. The last
+N:bar of the B-music is |G2G2 F2c|.
+N:To hear both parts, uncomment the first voice: weird!
+Z:PJHeadford - VMP 2009
+M:6/8
+L:1/8
+Q:3/8=120
+B:Village Music project, Giles, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gileswh.abc
+K:G major
+%V:1
+%|:e|dGG BGG|dGG BGG|G ged BB|FAA ABc|\
+%dGG BGG|dGG BGG|ded def|{g}G2G G2:|
+%d|gfe dcB|cBA G2F|EFG ABc|edd d2f|\
+%gfe dcB|cBA G2F|EGG Bcc|ded d2z|]
+%V:2
+|:c|BGG EFF|BFF GBc|BAG GFG|FFF F2c|
+BGG FGG|BGG A2B/A/|FGB FGA|BGB, B,2:|
+e|e2B BFF|AGF E2^D|DFG EFG|G3 F2d|
+e2B BGG|AGF E2^D|DFG EFG|G2G F2c|]

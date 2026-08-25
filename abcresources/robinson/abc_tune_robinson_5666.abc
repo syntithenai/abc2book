@@ -1,0 +1,34 @@
+X:11
+T: Freudenberger-Juiz  Bb (trad.)
+T: Julius Stockmann (3.3.1897-5.3.1956)
+T:Dirigenten-Notiz, Edi Gasser.
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FF | D3C B,D | B3AG2 | F3E A,2 | C4F>F | E3C A,C | 
+c3B AG | F3D "*"F2 | B,4 FF | D3C B,D | B3AG2 | 
+F3E A,2 | C4F>F | E3C A,C | c3A GA | (B6 | B2)z2 || 
+M:3/4
+[P:B] B,D | Fd BF DB, | A,C FAE2 | Fe cA Fe | d2B2F2 | Fd BF DB, | 
+CG GE CB, | A,C AF EA, | B,4 B,D | Fd BF DB, | A,C FAE2 | 
+Fe cA Fe | d2B2F2 | Fd BF DB, | CG GE CB, | A,C AF EA, | B,4z2 ||  
+M:3/8
+[P:C] DCB, | A,CG | F3 | GFE | DFd | B3 | DFB | AFA | E3 | 
+CEA | B2d | F3 | DCB, | A,CG | F3 | GFE | DFd | B3 | 
+DFB | A2c | E2F | d2c | (B3 | B3) || 
+M:3/4
+[P:D] EF | G3FE2 | e3dc2 | B3F FB | DF BD FB | A3F FA | 
+EF AE FA | B3G FB | D4EF | G3FE2 | e3dc2 | 
+B3F FB | DF BD FB | A3G F2 | f3eA2 | (B6 | B2)z2z2 |] 
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 01-06
+W:http://www.naturjodler.ch/code 01.htm  (with AUDIO)
+%April 26, 2018

@@ -1,0 +1,13 @@
+X:169
+T: Polka CGF (pk05029)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.321 (pk05029) orig. C,G,F-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+M:2/4
+L:1/16
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+ce |: "C"g2ce g2ce | g2c'2 e2ga | "G7"g2f2 d2fg | "C"f2e2 c2ce | g2ce g2ce | g2c'2 e2ce | "G"d2b2 "D7"ba^ga |1 "G"g2g2 g2ce :|2 
+"G"g2g2 g2z2 |: [K:G] "D7"defg a2c'2 | "G"c'2b2 d'c'b2 | "D7"b2a2 c'ba2 | "G"a2g2 bag2 | "D7"defg a2c'2 | "G"c'2b2 d'c'b2 | "D7"b2a2 c'baf | "G"g2g2 g2z2 :: [K:C] 
+"G7"Tg2f2 fBdf | "C"Ta2g2 gceg | "G7"Tc'2b2 bdgb | "C"d'2c'e' d'c'ba | "G7"g2f2 fBdf | "C"a2g2 gceg | "G7"c'2b2 bgab | "C"c'2c'2 c'2z2 :: [K:F] 
+"F"fAcf acfa | c'fad'c'4 | "C7"c'bge cegb | "F"afcA F4 | fAcf acfa | c'fad'c'4 | "C7"c'bge cbag | "F"f2f2 f2z2 :| [K:C] 
+"G7"gfdB GBdf | "C"agec Gceg | "G7"cBdc "F"BAcB | "C"AGBAG4 | "G7"gfdB GBdf | "C"agec Gceg | "F"c'bag "G7"agfd | "_>Teil D""C".c4!>!c4 |]

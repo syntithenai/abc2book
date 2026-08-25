@@ -1,0 +1,30 @@
+X:69
+T:Miss Helen McInnes
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+Z:Clark Bernst + Richard Robinson
+%%Page:29 - 2
+O:Scotland
+K:A major
+%%staves {1 2}
+V:1
+E2A A2F  |     GAB  BGE  | EGA ABc            | ~d>ef   ecA |
+dfa edc  | "tr"B>cA GFE  | F>GA BGE  & ~D3 D3 | A3      A2 & C3 C2 ||
+e | \
+cea cea  |    ^dfb  dfb  | geB  geB           | fge   {e}^dcB |
+bgb afa  |     geg f^dB  | ~c>de f^dB          | [Ge]3     E3 |
+E2A A2F & C6 | GAB BGE & E6| EFG ABc & x2E-E3| def ecA & Axx4|
+{e}d2 c fed & A2x4| cBA GFE & A2x4 | "tr"F2 B {A}GFE | {G}A3 A2 |]
+V:2 clef=bass octave=-2
+Aea Aea              | ebd' ebd' | x2c' c'ba & e3 e3 | f2g a2=g | \
+a3 a3 & f2d c2A | d2^d e2c  | d2B e2E             | Aea A2 ||
+%
+z |\
+a[c'e'][c'e'] a[c'e'][c'e'] | f[ab][ab] f[ab][ab] | \
+e[gb][gb]     e[be'][be']   | a2f       b2a | \
+b3 b3  & g2e ^d2B, | e2g b2g | a2f b2B | efe dcB | \
+%
+Aea Aea | egb egb | z2d' c'ba & e6 | f2g a2=g | \
+f2e dcB | A2c e2c | dfb ebd' | Aea A2 |]

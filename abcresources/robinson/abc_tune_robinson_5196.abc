@@ -1,0 +1,21 @@
+X:267
+T:Zum Carneval (Mazurka) CFG (mz02057) 
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.294 (mz02057) orig. C,F,G
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACAB
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+G2 [P:A] | "C"e>d cB "F"cA | "C"G>c E2E2  | G2!>!A3E | "G7"FA D2D2 | f>e dc BA | G>BF2F2 | A2!>!B3A | 
+"C"GcE2E2 | e>d cB "F"cA | "C"G>cE2E2 | e>ed2e2 | "F"f4A2 | A>fe2"G7"d2 | "C"c2G3c | "G7"B>fA2B2 | 
+"C"c2c2z2 || [P:B] [K:F] "F"F3A c>f | f4A2 | f3A f>A | "C7"Bfe4 | E3G Be | e4c2 | e3B e>g | "F"fac'4 | 
+F3A c>f | f4A2 | f3A f>A |  "Gm"G>dd4 | "C7"b>b a2g2 | "F"c>a g2f2 | "C7"c>e g2a2 | "_Fine""F"f2f2"_>Teil A"z2 || [P:C] [K:G] 
+"D7"d2cA Ff | e3d cA | "G"G2Bd Bg | d3B AG | "D7"F2Ac Ac | f3e cA | "G"GB de fg | d2 BA GB | 
+"D7"d2cA Ff | e3d cA | "G"G2Bd Bg | d3B AG |  "C"e2gf "D7"ed | "G"cgB2B2 | "D7"fe dc BA | "G"G2"_Da Capo"g2z2 |] 
+W:Parts: AB AC AB 
+% mz02057 (H 072/TN 57)

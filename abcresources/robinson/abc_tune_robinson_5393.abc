@@ -1,0 +1,18 @@
+X:150
+T:Polka CG (pk06915) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.250 (pk06915) orig. C,G
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"g>^f g/c'/e | "G7"fB ({/c}B/A/B) | f>e f/b/d | "C"ac ({/d}c/B/c) |  g>^f g/c'/e | "G7"fB ({/c}B/A/B) | f>e f/a/B | "C"ce cz :| 
+|: "C"c/d/e eg | "F"f/g/a !>!"C"g2 | "G7"d/e/f !>!f2 | "C"c/d/e !>!e2 | c/d/e eg | "F"f/g/a !>!"C"g2 | "G7"Gf f/e/d | "C"cc cz :| [K:G] 
+|: "G"dd/d/ bd | "C"e>c' "G"bd | dd/d/ bd | "D7"c>a gB | "G"dd/d/ bd | "C"e>c' "G"bd | "D7".d'd'/d'/ c'/b/a | "G"gg gz :| 
+W:Anmerkung H.C.: 13. Aug. 1949 / 1134 Schleitheim 39
+% the repetition in part D is missing in the book version
+% pk06915
+% April 19, 2017

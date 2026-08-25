@@ -1,0 +1,16 @@
+X:225
+T: Schottisch  GDC (st05988)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.291 (st05988) orig. G,D,C-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:G major
+"G"dB eB | "D7"dc/B/ cg | fc c>f | "G"eBB2 | dB eB | "D7"dc/B/ cg | fd b>a | "G"gg gz :: [K:D]
+"A7"g/f/e/d/ cc | "D"ddA2 | "A7"eeA2 | "D"ffd2 | "A7"g/f/e/d/ cc | "D"ddA2 | "A7"eA a>c | "D"dd d"_>Teil A"z :| [K:C]
+"C"ee gg | c/c/c ee | Gc e>d | P"G7"cBB2 | "Dm"ff aa | "G7"d/d/d ff | Bd g>f | "C"eag2 | 
+ee gg | c/c/c ee | Gc e>c | P"Dm"BAA2 | f/e/d/^c/ df | "C"gg/f/ eg | "G7"ff/e/ dg | "C"cc c"_Fine"z |] 
+W: Parts: ABAC

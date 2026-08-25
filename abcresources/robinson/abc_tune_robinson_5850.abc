@@ -1,0 +1,31 @@
+X:1
+T:dr Tschifeler. Natur-Juiz  Bb  ABC
+T:Josef von Rotz  (* 5.4.1938-7.8.2007)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] FD FG | F2Bc | d2BG | F2df | c2AG | F2Ac | Bd BD | F3z | 
+FD FG | F2Bc | d2BG | F2df | c2AG | Ff dc | (B4 | B2)z2 ||  
+M:2/4
+[P:B]  GE BG | eB GE | DF Bd | f2dB | AF Ac | e2dA | B2AG | F3z | 
+GE BG | eB GE | DF Bd | f2dB | AF Ac | ef dc | (B4 | B2)z2 ||  
+M:2/4
+[P:C] DB Fd | Bf dB | Ac AG | F3C | EA Fc | 
+Ae dc | Bf dc | !breath!B2FE | DB Fd | Bf dB | Ge dc | 
+!fermata! !breath!G B AG | FB dB | ce GB | Ac fd | B3z | DB Fd | 
+Bf dB | Ac AG | F3C | EA Fc | Ae dc | Bf dc | 
+B2FE | DB Fd | Bf dB | Ge dc | !fermata! !breath!G B AG | 
+FB dB | ce GB | Ac fd | !breath!B3"_sehr langsam"d | =ec dF | !fermata!B4 |] 
+W:
+%W:Reihenfolge: A - B - C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 28-01
+W:http://www.naturjodler.ch/code 28.htm  (with AUDIO)
+%May 27, 2018

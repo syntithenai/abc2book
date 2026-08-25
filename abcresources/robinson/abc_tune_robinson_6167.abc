@@ -1,0 +1,24 @@
+X:1
+T:Im Alttale. Rheinländer  CF (RL07793) ABCD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.140  (RL07793) orig. C,F
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E. Dalcher
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Reinländer
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+EF [P:A] |: "C"G2e2 (dc)Bc | "F"B2A2 A2(DE) | "G7"F>EF>G A>Bc>d | "C"e2c2 G2(EF) | G2e2 (dc)Bc | "F"B2A2 f3d | "C"cGce "G7"dGBd |1 
+"C"c2c2 c2EG :|2 "C"c2c2 c2(AB) [P:B] |: "Am"c2cB A2c2 | "E7"(PB2E2) E2(^F^G) | "Am"A3E AEAc | "E7"e2EE E2e2 | "F"(Pd2A2) A2d2 | "C"(Pc2G2) G2c2 | 
+"G7"B2BA G2B2 | "C"cBcd e2e2 | ("F"f2A2) A2f2 | "C"(Pe2G2) G2e2 | "G7"dcBA GFED |1 "C"C2C2 C2AB :|2 "C"C2C2 C2CA [P:C] [K:F] |: "F"A4 ^G3A | (d4c2)AB | 
+"C7"(PA2G2) G2GA | "F"(PG2F2) F2CF | A4 f3e | ("Bb"e4d2)cB | ("F"Ac)BA ("C7"GB)AG |1 "F"F2F2 F2CF :|2 "F"F2F2 F2A2 [P:D] |: "C7"G^FGF G2B2 | 
+"F"A^GAG A2c2 | "C7"BABA B2d2 | ("F"dc)=Bc (dc)AF | "C7"G^FGF G2B2 | "F"A^GAG A2f2 | ("C7"ed)cB (AG)FE |1 "F"F2F2 F2A2 :|2 "F"F2F2 F2z2 |] 
+W:
+W:Parts: ABCD
+W:
+W:Anmerkung H.C.: R. Claus, Ormalingen, s.V. 332
+% RL07793
+% June 3, 2018

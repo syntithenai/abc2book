@@ -1,0 +1,17 @@
+X:42
+T:Galopp  CF (GL00148)
+%%MIDI program 21
+M:2/4
+L:1/16
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"!>!C4!>!G4 | !>!e4 !>!c4 | "G7"g6Bd | "C"c4z4 |: "C"G4e4 | c3E G4 | "G7"F3d B3G | "C"e2B2c4 | G4e4 | \
+c3EG4 |
+ "G7"F2d2 B3G | "C"c4z4 :: "G7"B3D G2A2 | "C"!>!G4 EGce | "G7"g3B d2G2 | "C"e4d2c2 | "G7"B3D F2A2 | \
+"C"!>!G4 EGce |
+ "G7"d3B g3B | "C"c2c2 c2z2 :: [K:F] "C7"c6B2 | "F"A2B2c4 | "C7"B2A2 B2c2 | \
+"F"A2B2 c2d2 | "C"c6B2 | "F"A2B2c4 | "Gm"B3A "C7"B2c2 |
+ "F"A4"_Fine"z4 :| [K:C] "G7"!>!G4!>!f4 | "C"!>!e4 dcBc | \
+"G7"d3G B3G | "C"c2G2 F2E2 | "G7"!>!G4!>!f4 | "C"!>!e4 "F"dcBc | "C"c3G "G7"B3G | "C"c2c2 c2"_>Teil C"z2 |] 
+W:
+W: P: ABCDC

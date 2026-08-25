@@ -1,0 +1,18 @@
+X:196
+T: Schottisch GC (st02041)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.287 (st02041) orig. G,C
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S:Überliefert vermutlich durch Joggi Stocker (1889-1956)
+%%MIDI program 21
+O:Switzerland
+R:Schottische
+M:2/4
+L:1/8
+K:G major
+d |: {/B}"G".e2d2 | Bd gb | .a2.g2 | "C"e3e | {/c}"D7".g2.f2 | c3f | "G".e2.e2 | B3d | {/B}e2d2 | 
+Bd gb | "Em".a2.g2 | e3e | "D/A"g2f>A | "A7"f2e>f |1 "D"dd ^cd | ^cd "D7"Bd :|2 "D"dd/d/ dd | dd "D7"e/f/g/a/ || 
+"G".b2.f2 | .a2.g2 | "Am".f2.e2 | A3G | "D7"F>f f>f | f3F | "G"Gg gg | g2fg |  .b2.f2 | .a2.g2 |
+ "Am".f2.e2 | A3G | "D7"Ff ff | "G"gB "C"ec | "G/D"Bd "D7"Ad | "G"G2a>e |: [K:C] "G7"f>B BB | .B2A>B | "C"c>G GG | 
+G2A>G | "G7"F>G B>G | f2 G>F | "C"E>G e>c | .e2 a>e | "G7"f>B BB | .B2 A>B | "C"c>G GG |1 G2G>A | 
+"G"B>d b>g | B>d a>g | "D7"^fe cB | "G"GG a>e :|2 "C"G2A>G | "G7"F>G AG | f2B2 | "C"c>c cc | c2z2 |] 
+ % st02041

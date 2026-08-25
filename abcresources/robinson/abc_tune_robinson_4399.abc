@@ -1,0 +1,18 @@
+X: 157
+T: Rheinländer FCBb (RL05961)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.180 (RL05961) orig. F,C,Bb-Dur
+S: Tänze aus Saanen (Bern) S.170ff
+%%abc-charset utf-8
+%%partsbox
+%%MIDI program 21
+R:Reinländer
+O:Switzerland
+M:2/4
+L:1/16
+P:ABAC
+K:F major
+[P:A] "F"FAcf Acfa | c'2c'2 a2ga | "C7"bgec B2B2 | "F"afcA F2F2 | FAcf Acfa | c'2c'2 a2ga | "C7"bgec =Bcde |1 
+"F"f2a2 f2FF :|2 "F"f2a2 f2ga ||[P:B]  [K:C] "G7"g2Bc d2ga | "C"g2cd e2gc' | "G7"b2ba gfef | "C"a2g2 e2ga | "G7"g2Bc d2ga | 
+"C"g2cd e2gc' | "G7"bagf gfed | "C"c2e2 c2"_> Teil A"z2 || [K:Bb] [L:1/8] [P:C]  |: "Bb"gg ff | "F7"e3f/f/ | aa gg | 
+"Bb"f3d/e/ | fd' c'>b | "F7"ae eg/b/ | ae ef/a/ | "Bb"gd df/f/ | gg ff | "F7"e3f/f/ | 
+aa gg | "Bb"f3d/f/ | c'c' b>d | "C7"d/c/=B/c/ ag | "F7"fa/g/ fA |1 "Bb"Bb bf/f/ :|2 "Bb"Bd/f/ bz |]

@@ -1,0 +1,29 @@
+X: 22
+T:Invereshie -- A Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:8 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+D | \
+B,FDF BFBd | f<d!trill!c>B {B}G2 GB | \
+B,FDF BFBd | f<dB>d ~f2 ed |
+eg[Cc]e df[B,B]d | ~c>d (e/d/)c/B/ {B}G2 GB | \
+B,FDF BFBd | f<dc>!trill!d B2 B ||
+D/E/ | \
+FBDB FBDB | G>B G/F/E/D/ {D}C2 CD/E/ | \
+FBDB FB Dg | f<d!trill!B>d ~f2 (ed) |
+eg[Cc]e df[B,B]d | !trill!c>d e/d/c/B/ {B}G2 GB | \
+B,FDF BFBd | f<d!trill!c>d B2 B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ |\
+BbBB | Bdee | Bbbb | bBBd | eedd | cBee | BbBd | fFBB/ ||
+z/ |\
+BBBB | edcc | BBBB | BBdB | eedB | cdee | BbBd | fFBB/ |]

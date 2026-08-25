@@ -1,0 +1,19 @@
+X:106
+T: Polka  CF (ABCDC) (pk09209)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.131 (pk09209) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+P:ABCDC
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] gc' | "G7"bbb2 a2B2 | "C"c6 ((3cea) | "G7"g2f4 ((3Bdg) | "C".f2!>!e4 gc' | "G7"bbb2 a2B2 | "C"c6 ((3e^de) | "D7"a^gab c'2a2 | 
+"G"g2g2 g2e2 |] [P:B] "G7"f2Bc d^cd^d | "C"eBca g2e2 | "G7"gfef defg | "C"ag^fg e2e2 | "G7"f2Bc d^cd^d | 
+"C"eBca g2e2 | "G7"gfef defg  | "C"c2c'2 c2z2 |: [P:C] [K:F]  "F"c=bc'^g aefA | "C7"=Bc_BG e2d2 | dBEG C2ag | 
+"F"gfAc F2AB | c=bc'^g aefA | "Gm"=Bc_BG b2a2 | "C7"ag=Bc feag | "F"f2f2 f2"_Fine"z2 :| [P:D] [K:C] "G7"G2Bd b2a2 | 
+"tr""C"a2g2 eee2 | "G7"g2!>!f4B2 | "C"d2c2 cgec | "G7"G2Bd b2a2 | "tr""C"a2g2 eee2 | "G7"g2f2 Gfed | "C"c2c2 c2"_>Teil C"z2 |] 
+% pk09209

@@ -1,0 +1,19 @@
+X: 220
+T:George's Square
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 2
+K:F major
+%%staves {1 2}
+(f |\
+cF)cA cFfd | cFcA dGG(f | c)FcA fgag | dfcA G3 ::
+(e | \
+f)gag fFF(A | f)gaf bgga | fgaf gefc | dfcA G3 :|
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | ffgg | ffff | dDg3/ :: \
+z/ | ffff | ffgg | ffcf | dDG3/ :|

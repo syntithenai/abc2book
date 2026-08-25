@@ -1,0 +1,27 @@
+X:1
+T:Hochzeitsreigen. Walzer  GC ( wz07067) ABCDA
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.168  ( wz07067) orig. G,C
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCDA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+[P:A] "G"d3 | g3 | "D7"f3 | a3 | "C"e3 | ("D7"f2e) | ("G"d3 | d2) z | g3 | (f2e) | ("D7"c3 | c2)z | 
+f3 | (e2d) | ("G"B3 | B2)z | d3 | g3 | "D7"f3 | a3 | "C"e3 | ("D7"f2a) | ("G"b3 | b2)z | 
+"D7"c'3 | (b2a) | ("G"b2a) | ("C"g2e) | "G"d2g | "D7"b2a | ("G"g3 | g)zz |: [P:B] "D7"fae | f3 | "G"dge | d3 | 
+("D7"c2e) | (d2c) | ("G"B2g) | d3 | "D7"fae | f3 | "G"dge | d3 | ("C"c2e) | ("D7"d2f) | ("G"g3 | g)zz :| [P:C] [K:C] 
+"C"g3 | ecG | A3 | G3 | c2c | c2c | ("G7"B3 | B2)z | g3 | fdB | a3 | g3 | 
+"G7"g2f | d2e | ("C"c3 | c2)z | g3 | ecG | A3 | G3 | c2c | c2c | ("Dm"d3 | d2)z | 
+"Dm"AdA | "C"G3 | (c2e) | g3 | "G7"g2g | d2e | )"C"c3 | czz [P:D]  |:"G7"G3 | (A2B) | ("C"c2d) | e3 | 
+"A7"A3 | B2^c | "Dm"d2e | f3 | "G7"G3 | g2f | "C"e3 | dcA | "G7"G3 | Gge | ("C"c3 | c)"_>Teil A"zz :| 
+W:
+%W:Parts: ABCDA
+%W:
+%W:Anmerkung H.C.: 
+% wz07067
+% June 17, 2018 "Flausen im Kopf ..."

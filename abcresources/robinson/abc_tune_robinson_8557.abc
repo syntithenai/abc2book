@@ -1,0 +1,33 @@
+X:46
+T:Lewis Ricardo, M.P.
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:19 - 2
+K:Eb major
+%%staves {1 2}
+V:1
+G3//F// | \
+E<G,B,>G, B,>EG>E | B>G A/G/F/E/ G>F FG/F/ | \
+E<G,B,>G, G<E{E}e>c | B>G B/A/G/F/ [G,E]2 [G,E]G/>F/ & E2D2x4 |
+E<G,B,>G, B,>EG>E | B>G (A/G/)(F/E/) G>F FG/F/ | \
+E<G,B,>G, G<E{E}e>c | B>G B/A/G/F/ [G,E]2 [G,E] & E2F2x3 |]
+c/d/ | \
+eEGB (e/f/)g/a/ be | (cf)(f>e) (ed)(cd) | \
+.e.E.B.E .G.B.e.G | (F/E/)(D/C/) (B,/C/)D/B,/ [G,E]2 [G,E] c/d/ |
+eEGB e/f/g/a/ be | (cf)(f>e) (ed)(c>d) | \
+e>g (f/e/)d/c/ (B/A/)G/F/ E>B, | [A,C]>A,[A,C]>D [G,E]2 [G,E] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ee][Ee][Ee][Ee] | [Ee][Ee][Bb][Bb] | [Ee][Ee][Ee][Aa] | [Bb][Bb][Ee][Ee]/z/ | \
+[Ee][Ee][Ee][Ee] | [Ee][Ee][Bb][Bb] | [Ee][Ee][Ee][Aa] | [Bb][Bb][Ee][Ee]/ |] \
+z/ | \
+[egb][egb][gbe'][gbe'] | [ac'f'][=ac'f'][bd'f'][=abf'] | \
+[gbe'] [egb][egb][egb] | [Bfa][Bfa][Ee][Ee]/z/ | \
+[egb][egb][gbe'][gbe'] | [ac'f'][=ac'f'][bd'f'][=abf'] | \
+[gbe'][ee'][Ee][Ee]    | [Bb][Bb][Ee][Ee]/ |]

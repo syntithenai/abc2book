@@ -1,0 +1,23 @@
+X:122
+T:Mug of Brown Ale, The
+T:Jug of Brown Ale, The
+R:jig
+H:Also played in Edor, #342
+Z:id:hn-jig-122
+M:6/8
+K:Ador
+eAA fAA | gfg age | dBA G2A | BAB dBd |
+eAA fAA | gfg age | dBd gdB | BAG A2d :|
+|: efg a2g | aba age | dBd g2d | gba ged |
+efg a2g | aba age | dge dBG | BAG A2d :|
+P:Variations:
+|: eAA fAA | ~g3 age | dBA G2A | BAB dBd |
+eAA fAA | gfg age | dBB gBB | ABA A2d :|
+|: efg aba | age age | def g2d | gba ged |
+efg aba | age age | dBB gBB | ABA A2d :|
+P:More variations:
+|: e2A f2A | gfg age | dBA GFG | BAG Bcd |
+~e3 ~f3 | ~g3 age | dBd gdB |1 BAG Agf :|2 BAG A2d ||
+|: efg ~a3 | aba age | ded ged | gba ged |
+[1 efg ~a3 | aba age | dBd gdB | BAG A2d :|
+[2 efg a2b | c'ba age | dBd gdB | BAG Agf ||

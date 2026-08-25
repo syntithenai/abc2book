@@ -1,0 +1,26 @@
+X: 416
+T:Sirba Pe Loc
+O:Romania
+S:Mihai and Alexandru David, Gypsy Camp Vol. 1
+F: http://www.youtube.com/watch?v=JP9cbeFa8xk
+F: http://www.youtube.com/watch?v=vcsossba9IQ
+F: http://www.youtube.com/watch?v=nZfFYZNr0I4
+M:6/16
+L:1/16
+Q:1/4=150
+P:AABBAACCAA
+K:A
+%%MIDI gchord fzzfzz
+P:A
+|:"C#m"B,2C/D/ C2B,/A,/|"Bm"B,2A, E3     |"C#m" B,2C/D/ C2B,/A,/|\
+  [1 "Bm"B,2A, E3      :| [2"A" B,2A, A,3|
+P:B
+  "A"cde cde           |cde c3           |cde cde               |\
+  cde c3               |cde cde          |cde c3                |
+  c2d B2A              |AA5              | cde cde              |\
+  cde c3               |cde cde          |cde c3                |
+  cde cde              |cde c3           |c2d B2A               |AA5 |
+P:C
+|:"Dm"d2z d2z          |d2z d2z          |e2z d2z               |\
+  c5z                  |B2c d3           |e3 d3                 |c5 A|\
+  [1B3 e3              :| [2B3 A3        |

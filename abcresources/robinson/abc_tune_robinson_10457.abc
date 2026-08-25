@@ -1,0 +1,21 @@
+X:48
+T:Gavot.2voices. TBe.051
+M:3/4
+L:3/4=100
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:Gavotte
+O:England
+H:Before 1718
+Z:vmp.C. Graebe.
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+K:Bb major
+[V:1]g2 f|egG|cde|d3|f2e|d=Bc|B (c3/2 B/4c/4)|d3||!
+[V:2]e2d|c/e =B3/2|G=Bc|=B3|d2c|=BG_A|G_A=B/c/|=B3||!
+%
+[V:1]g2f|gez|f2e|fdz|e2d|cdB|cA2|G3|!
+[V:2]e2d|ec=B|d2c|d=BG|c2 =B|G2G|_A^F2|G3|!
+%
+[V:1]g2f|gez|f2e|fdz|e2d|c=Bc|dd2|c3|]
+[V:2]e2c|ec=B|d2c|d=BG|c2B|edc|=BB2|c3|]

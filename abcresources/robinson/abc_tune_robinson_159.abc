@@ -1,0 +1,63 @@
+X:37
+T:Downfall of Paris,The,3parts. JNu.38
+M:2/4
+L:1/16
+Q:1/4=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Air
+O:England
+A:Lancashire, E
+Z:vmp.Chris Partington
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:D major
+[V:1] |:d2de d2de | d2de gfed | e2ef e2ef | e2ef agfe |
+[V:2] |:F2FG F2FG | F2FG A2GF | c2cd c2cd | c2cd fedc |
+[V:3] |:D,2D,,2 D,2D,,2 | D,4z4 | A,2A,A, A,2A,A, | A,4z4 |
+%
+[V:1] f2fg f2fg | f2fg bagf | e2ef e2e2 | edcB ABcA |
+[V:2] d2de d2de | d2de gfed | c2cd c2cd | c4z4 |
+[V:3] D,2D,D, D,2D,D, | D,4z4 | A,2A,,2 A,2A,,2 | A,4z4 |
+%
+[V:1] d2de d2de | d2de gfed | e2ef e2ef | e2ef agfe |
+[V:2] F2FG F2FG | F2FG A2GF | c2cd c2cd | c2cd fedc |
+[V:3] D,4D,4 | D,4z4 | A,4A,4 | A,4z4 |
+%
+[V:1] f2fg a2g2 | f2fg a2g2 | f2fd e2ec | d4d2z2 :|
+[V:2] dAde f2e2 | dAde f2e2 | d2AF G2G2 | F2F2 F2z2 :|
+[V:3] D,4D,,4 | D,4D,,4 | G,,2G,,G,, A,,2A,,2 | D,2D,2D,2z2 :|
+%
+[V:1] |: "^p"a8 | a2g2 b2a2 | g2gf g2gf | g2gfg4 |
+[V:2] |: "^p"f8 | f2d2 g2f2 | e2e^d e2ed | e2e^d e4 |
+[V:3] |: "^p"D,8 | D,4D,4 | [A,,4A,4][A,,4A,4] | [A,,4A,4][A,,4A,4] |
+%
+[V:1] g8 | g2e2 a2g2 | f2fe f2fe | f2fef4 |
+[V:2] e8 | e2c2 f2e2 | d2dc d2dc | d2dcd4 |
+[V:3] A,8 | A,4A,4 | D,4D,4 | D,4D,4 |
+%
+[V:1] "^f"d2de d2de | d2de gfed | e2ef e2ef | e2ef agfe |
+[V:2] "^f"F2FG F2FG | F2FG A2GF | c2cd c2cd | c2cd fedc |
+[V:3] D,2D,,2 D,2D,,2 | D,2D,,2 D,2D,,2 | A,2A,,2 A,2A,,2 | A,2A,,2 A,2A,,2 |
+%
+[V:1] f2fg a2g2 | f2fg a2g2 | f2fe e2ec | d2d2d2"^p"z2 :|
+[V:2] dAde f2e2 | dAde f2e2 | d2dA A2A2 | F2F2 F2z2 :|
+[V:3] D,4D,,4 | D,4D,,4 | G,,2G,,G,, A,,2A,,A,, | D,2D,,2D,,2z2 :|
+%
+[V:1] |: "^p"abc'd' c'bag | fgab agfe | "^f"d2dd e2ee | f2f2 e2z2 |
+[V:2] |: "^p"ABcd cBAG | FGAB AGFE | "^f"F2FF c2cc | d2d2 c2z2 |
+[V:3] |: D,2D,2 D,2D,2 | D,2D,2D,4 | D,2D,D, A,2A,,A,, | B,2D,2 A,2z2 |
+%
+[V:1] "^p"abc'd' c'bag | fgab agfe | "^f"d2de f2e2 | d2d2 d2z2 :|
+[V:2] "^p"ABcd cBAG | FGAB AGFE | "^f"F2FG A2G2 | F2F2 F2z2 :|
+[V:3] D,2D,2D,4 | D,2D,2 D,2D,E, | F,2F,G, A,2A,,2 | D,2D,2D,2z2 :|
+%
+[V:1] |: c2d2e2f2 | g2f2e2d2 | c2d2e2f2 | g2f2 e2z2 |
+[V:2] |: A2B2c2d2 | e2d2c2B2 | A2B2c2d2 | e2d2 c2z2 |
+[V:3] |: .A,4.A,4 | .A,4.A,,4 | .A,4.A,4 | .A,4.A,,4 |
+%
+[V:1] "^p"abc'd' c'bag | fgab agfe | "^f"d2ee f2e2 | d2 [d2d'2][d2d'2]z2:|
+[V:2] "^P"ABcd cBAG | FGAB AGFE | "^F"F2FG A2G2 | F2 [F2A2][F2A2]z2 :|
+[V:3] D,D,D,D, D,D,D,D, | D,2D,D, D,2D,2 | F,2G,2 A,2A,,2 | D,F,A,F, "_rest added"D,2 z2:|

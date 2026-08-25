@@ -1,0 +1,23 @@
+X:1
+T:Holzaktion. Polka  CF (pk07903)
+S:Hanny Christen. Bd.V  Basel II, Jura. S.235  (pk07903) orig. C,F
+S: Basel II. "Tänze aus Titterten". S.230-249.
+S:Überliefert durch Karl Miesch.
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] G2 |: "C"cBcd edef | a2g2 g3e | "G7"g2f2 f3d | "C"f2e2 e3G | cBcd edef | a2g2 g3e | 
+"G7"g2f2 fefd |1 "C"c2e2 c2G2 :|2 "C"c2e2 "F"c2fa |: [P:B]  "C"c'2g2 gfe2 | c'2g2 gfe2 | "G7"d2de fefd | "C"a2g2g4 | 
+c'2g2 gfe2 | c'2g2 gfe2 | "G7"d2de fefd |1 "C"c2e2 c2fa :|2 "C"c2e2 c2c2 |: [K:F]  [P:C] "F"agfe "Bb"gfed | "F"c4A2c2 | 
+"C7"B4G2d2 | "F"c4A2c2 | agfe "Bb"gfed | "F"c4 A2c2 | "Bb"ddd2 "C7"e2e2 |1 "F"f2f2 f2c2 :|2 "F"f2f2 f2z2 |] 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: Lausen, Augst, Seltisberg
+%W:Anmerkung Hrsg,:
+% pk07903
+% Jun 4,, 2019

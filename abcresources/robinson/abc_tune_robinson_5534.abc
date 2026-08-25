@@ -1,0 +1,20 @@
+X:278
+T:Goldelse (Walzer) GC (wz06375)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.128 (wz06375) orig. G,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+("G"B^AB) | G3 | (B^AB) | d3 | "C"e^de | ceg | "G"d3 | ze>B | "D7".c.c.A | zd>A | "G".B.B.G | 
+"C"zc>G | "Am".A.A.G | ("G/D"D/G/) cB | "D7"^C/D/ BA |1 "G"Gzz :|2 "G"Gze |: "C"eze | eg>e | "G"dzd | dg>B | 
+"D7"AzA | Ad>A | "G"BA/G/ F/E/ | D2d | "C"eze | eg>e | "G"dzd | dg>B | "Am"Aee | "D7"e>dF | 
+ed/c/ A/F/ |1 "G"Gze :|2 "G"GzG |: [K:C] "C"ee>g | "G7"dzG | dd>e | "C"czG | cc>d | "G7"c>BB | f>BB | 
+"C"d>cc | ee>g | "G7"dzG | dd>e | "C"czc | "F"cBA | "C"G>ce | "G7"F>Bd |1 "C"czG :|2 "C"czE || 
+|: ("Am"c2B)  | (A2E) | "E7"^G>AB | "Am"A2E | (A2B) | ("Dm"c2d) | "E7"ee/e/e | eze/e/ | "G7"fze | 
+dG>B | "C"ezd | c>Gc | "D7"dzc | "G7"cB/G/ e/d/ | "C"c>cc |1 czE :|2 czz |] 
+% wz06375
+% Dez 8, 2016

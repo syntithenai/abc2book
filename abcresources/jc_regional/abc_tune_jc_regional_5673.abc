@@ -1,0 +1,47 @@
+X: 492
+T: Sher
+O: Klez Camp 98
+S: Marianne Cygnel
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: APhr
+P: A
+| "A"A2B2 ^c4- | cB^c2 B2A2 | ^c2d2 e4- | e2de d2^c2 \
+| "A"A2B2 ^c4- | cB^c2 B2A2 | "Gm"^FGAB ^cdcB | "A"BAA2 z2 :|
+P: B
+|: A2 \
+| "Dm"d4 "A"^c3B | "Gm"^cdB2 "A"A4 | ^c2d2 efdf | e4 a4 \
+| "Dm"d4 "A"^c3B | "Gm"^cdB2 ABG2 | ^FGAB ^cdcB | "A"BAA2 z2 :|
+P: C
+|: A2 \
+| "Dm"~d8 | f6 ^g2 | ^gagf gagf | feed efA2 \
+| "Dm"d6 f2 | a4 a4 | ^gagf gagf | feed d2 :|
+P: D
+|: A2 \
+| "Gm"g3^f g3f | g6 =f2 | "A"e3^d e3d | e6 d2 \
+| ^cdef gfed | ^cded cBAG | "Gm"^FGAB ^cdcB | "A"BAA2 z2 :|
+P: E
+|: E2 \
+| "A"ABGB A2A2 | ABGB A2A2 | A2B2 ^cdcB | AB^c2- c4 \
+| "A"ABGB A2A2 | ABGB A2A2 | "Gm"^FGAB ^cdcB | "A"BAA2 z2 :|
+P: F
+|: A2 \
+| "Dm"d6 A2 | d6 A2 | d3A d3A | d3A d3A \
+| "Dm"d2ef def2 | d2ef def2 | "(Gm)"fggf fggf | fggf fed2 |
+| "Dm"f2f2 {f}edef | d4 f2A2 | d2fe def2 | d2fe def2 \
+| "(Gm)"fggf fggf | fggf fed2 | "Dm"f2f2 "(A)"{f}edef | "Dm"d6 :|
+P: G
+|: E2 \
+| "A"A2a2 A2a2 | A2 a6 | "Gm"g3f g3f | "A"fee2- e4 \
+| "Gm"G2g2 G2g2 | G2 g6 | "A"f2e2 d2^c2 | ^cfe2- e2A2 |
+| "A"^c2d2 e2f2 | g2f2 e2d2 | ^cded ~c3B | "Gm"AGAB ~A2G2 \
+| "A"^c2d2 e2f2 | g2f2 e2d2 | "Gm"^cded ~c3B | "A"BAA2 z2 :|
+P: H
+|: (3E^F^G \
+| "Dm"A4 "A/e"G4 | "Dm"F4 "A"E4 | "Dm"D3E FEFD | "A"E4 z2(3EF^F \
+| "Gm"GFGE "Dm"FEFD | "A"EDFE "Dm"D4 | "Gm"^cded ~c3B | "A"BAA2 z2 :|
+P: I
+|: D2 \
+| "Gm"G4 A4 | B4 d4 | "A"^cded ~c3B | ABAB ~A2G2 \
+| "Gm"G4 A4 | B4 d4 | "A"^cded ~c3B | BAA2 z2 :|

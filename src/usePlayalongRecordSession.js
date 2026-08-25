@@ -201,6 +201,7 @@ export default function usePlayalongRecordSession(options) {
   const viewModeRef = useRef(viewMode)
   const setViewModeRef = useRef(setViewMode)
   const setTuneRef = useRef(setTune)
+  const onSessionCompleteRef = useRef(opts.onSessionComplete)
 
   tuneRef.current = tune
   tunebookRef.current = tunebook
@@ -208,6 +209,7 @@ export default function usePlayalongRecordSession(options) {
   viewModeRef.current = viewMode
   setViewModeRef.current = setViewMode
   setTuneRef.current = setTune
+  onSessionCompleteRef.current = opts.onSessionComplete
 
   const referenceGain = clampReferenceGain(
     opts.playbackGain != null ? opts.playbackGain : loadPlayalongSettings().playbackGain
@@ -281,7 +283,7 @@ export default function usePlayalongRecordSession(options) {
     return reported
   }
 
-  const finishRecording = useCallback(function(blob, durationSeconds, livePeaks, livePitchPoints, samplerStats) {
+  const finishRecording = useCallback(function(blob, durationSeconds, livePeaks, livePitchPoints, samplerStats, finishOpts) {
     const current = tuneRef.current
     const book = tunebookRef.current
     if (!current || !blob) return Promise.resolve()
@@ -359,6 +361,9 @@ export default function usePlayalongRecordSession(options) {
       loopActiveRef.current = false
     }).then(function() {
       if (savingIdRef.current === savingId) setIsSavingTake(false)
+      if (finishOpts && finishOpts.sessionComplete && typeof onSessionCompleteRef.current === 'function') {
+        onSessionCompleteRef.current()
+      }
     })
   }, [saveTunePatch])
 
@@ -594,7 +599,16 @@ export default function usePlayalongRecordSession(options) {
         })
         return
       }
-      if (usable) finishRecording(usable, durationSeconds, livePeaks, livePitchPoints, samplerStats)
+      if (usable) {
+        finishRecording(
+          usable,
+          durationSeconds,
+          livePeaks,
+          livePitchPoints,
+          samplerStats,
+          { sessionComplete: !continueLoop && reason === 'ended' && !incomplete }
+        )
+      }
       if (continueLoop && loopActiveRef.current && beginTakeRef.current) {
         stoppingRef.current = false
         beginTakeRef.current({ reuseStream: true })

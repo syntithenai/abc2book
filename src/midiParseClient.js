@@ -26,17 +26,66 @@ function voiceIdFor(smfTrackIndex, channel) {
   return 't' + smfTrackIndex + '-c' + channel;
 }
 
+/** Build a sorted tempo map; always includes a tick-0 entry. */
+export function buildTempoMapFromChanges(tempoChanges, defaultTempoUs) {
+  const fallback = defaultTempoUs || 500000;
+  const sorted = (tempoChanges || []).slice().sort(function(a, b) {
+    return (a.tick || 0) - (b.tick || 0);
+  });
+  const map = [];
+  if (!sorted.length || (sorted[0].tick || 0) > 0) {
+    map.push({ tick: 0, tempoUs: fallback, bpm: 60000000 / fallback });
+  }
+  sorted.forEach(function(change) {
+    const tempoUs = change.tempoUs || fallback;
+    map.push({
+      tick: change.tick || 0,
+      tempoUs: tempoUs,
+      bpm: change.bpm || (60000000 / tempoUs),
+      sourceTrackIndex: change.sourceTrackIndex,
+    });
+  });
+  return map;
+}
+
+/** Convert absolute MIDI ticks to seconds using a tempo map. */
+export function tickToSeconds(tick, tempoMap, ticksPerBeat) {
+  const tpb = ticksPerBeat || 480;
+  const map = tempoMap && tempoMap.length
+    ? tempoMap
+    : [{ tick: 0, tempoUs: 500000 }];
+  let seconds = 0;
+  let prevTick = 0;
+  let tempoUs = map[0].tempoUs || 500000;
+  const target = Math.max(0, Number(tick) || 0);
+  for (let i = 0; i < map.length; i += 1) {
+    const entry = map[i];
+    const boundary = entry.tick || 0;
+    if (target < boundary) break;
+    if (i > 0) {
+      seconds += ((boundary - prevTick) * tempoUs) / (tpb * 1000000);
+    }
+    tempoUs = entry.tempoUs || tempoUs;
+    prevTick = boundary;
+  }
+  seconds += ((target - prevTick) * tempoUs) / (tpb * 1000000);
+  return seconds;
+}
+
 /**
  * Parse one MTrk into per-channel note bags (supports running status).
+ * Notes store startTick/endTick; seconds are filled later from the global tempo map.
  */
 function parseTrackEventsByChannel(data, trackOffset, trackLength, ticksPerBeat, tempoUs) {
   const view = new DataView(data.buffer, data.byteOffset, data.byteLength);
   const end = trackOffset + trackLength;
   let absTicks = 0;
+  let timeSec = 0;
   let currentTempo = tempoUs;
   let runningStatus = 0;
   let trackName = '';
   const channelState = {};
+  const localTempoChanges = [];
 
   function ensureChannel(channel) {
     if (!channelState[channel]) {
@@ -50,14 +99,11 @@ function parseTrackEventsByChannel(data, trackOffset, trackLength, ticksPerBeat,
     return channelState[channel];
   }
 
-  function ticksToSeconds(ticks) {
-    return (ticks * currentTempo) / (ticksPerBeat * 1000000);
-  }
-
   const state = { offset: trackOffset };
   while (state.offset < end) {
     const delta = readVarLen(view, state);
     absTicks += delta;
+    timeSec += (delta * currentTempo) / (ticksPerBeat * 1000000);
     if (state.offset >= end) break;
 
     let status = view.getUint8(state.offset);
@@ -89,6 +135,11 @@ function parseTrackEventsByChannel(data, trackOffset, trackLength, ticksPerBeat,
           currentTempo = (view.getUint8(state.offset) << 16)
             | (view.getUint8(state.offset + 1) << 8)
             | view.getUint8(state.offset + 2);
+          localTempoChanges.push({
+            tick: absTicks,
+            tempoUs: currentTempo,
+            bpm: 60000000 / currentTempo,
+          });
         }
         state.offset += len;
       } else if (status === 0xf0 || status === 0xf7) {
@@ -118,18 +169,25 @@ function parseTrackEventsByChannel(data, trackOffset, trackLength, ticksPerBeat,
     const data2 = view.getUint8(state.offset);
     state.offset += 1;
 
-    const timeSec = ticksToSeconds(absTicks);
     const activeKey = data1;
 
     if (eventType === 0x90 && data2 > 0) {
-      ch.active[activeKey] = { start: timeSec, velocity: data2 };
+      ch.active[activeKey] = {
+        startTick: absTicks,
+        start: timeSec,
+        velocity: data2,
+      };
     } else if (eventType === 0x80 || (eventType === 0x90 && data2 === 0)) {
       const started = ch.active[activeKey];
       if (started) {
         delete ch.active[activeKey];
+        const endTick = absTicks;
+        const endSec = timeSec > started.start ? timeSec : started.start + 0.05;
         ch.notes.push({
           start: started.start,
-          end: timeSec > started.start ? timeSec : started.start + 0.05,
+          end: endSec,
+          startTick: started.startTick,
+          endTick: endTick > started.startTick ? endTick : started.startTick + 1,
           midi: data1,
           velocity: started.velocity,
           confidence: started.velocity / 127,
@@ -139,7 +197,12 @@ function parseTrackEventsByChannel(data, trackOffset, trackLength, ticksPerBeat,
     }
   }
 
-  return { channelState: channelState, trackName: trackName, tempoUs: currentTempo };
+  return {
+    channelState: channelState,
+    trackName: trackName,
+    tempoUs: currentTempo,
+    localTempoChanges: localTempoChanges,
+  };
 }
 
 function flattenTrackChannels(smfTrackIndex, trackName, channelState, splitByChannel) {
@@ -193,10 +256,10 @@ function flattenTrackChannels(smfTrackIndex, trackName, channelState, splitByCha
 
 export function parseMidiBytesToTracks(midiBytes) {
   const data = midiBytes instanceof Uint8Array ? midiBytes : new Uint8Array(midiBytes);
-  if (data.length < 14) return { tracks: [], tempoBpm: 120, format: 1 };
+  if (data.length < 14) return { tracks: [], tempoBpm: 120, format: 1, ticksPerBeat: 480 };
   const view = new DataView(data.buffer, data.byteOffset, data.byteLength);
   const magic = String.fromCharCode(data[0], data[1], data[2], data[3]);
-  if (magic !== 'MThd') return { tracks: [], tempoBpm: 120, format: 1 };
+  if (magic !== 'MThd') return { tracks: [], tempoBpm: 120, format: 1, ticksPerBeat: 480 };
 
   const headerLength = readUint32BE(view, 4);
   const format = readUint16BE(view, 8);
@@ -207,6 +270,10 @@ export function parseMidiBytesToTracks(midiBytes) {
   const tracks = [];
   const splitByChannel = format === 0 || numTracks === 1;
 
+  // Global tempo map (tempos often live on conductor track 0).
+  const meta = parseMidiFileMeta(midiBytes);
+  const tempoMap = buildTempoMapFromChanges(meta.tempoChanges, tempoUs);
+
   for (let i = 0; i < numTracks; i += 1) {
     if (offset + 8 > data.length) break;
     const trackMagic = String.fromCharCode(data[offset], data[offset + 1], data[offset + 2], data[offset + 3]);
@@ -216,6 +283,18 @@ export function parseMidiBytesToTracks(midiBytes) {
     if (parsed.tempoUs) tempoUs = parsed.tempoUs;
     const flattened = flattenTrackChannels(i, parsed.trackName, parsed.channelState, splitByChannel);
     flattened.forEach(function(track) {
+      (track.notes || []).forEach(function(note) {
+        if (note.startTick == null) return;
+        note.start = tickToSeconds(note.startTick, tempoMap, ticksPerBeat);
+        note.end = tickToSeconds(
+          note.endTick != null ? note.endTick : note.startTick + 1,
+          tempoMap,
+          ticksPerBeat
+        );
+        if (note.end <= note.start) {
+          note.end = note.start + (60 / 120) / 4;
+        }
+      });
       tracks.push(track);
     });
     offset += 8 + trackLength;
@@ -226,12 +305,14 @@ export function parseMidiBytesToTracks(midiBytes) {
     track.index = index;
   });
 
+  const primaryTempoUs = (tempoMap[0] && tempoMap[0].tempoUs) || tempoUs || 500000;
   return {
     tracks: tracks,
-    tempoBpm: 60000000 / tempoUs,
+    tempoBpm: 60000000 / primaryTempoUs,
     format: format,
     ticksPerBeat: ticksPerBeat,
-    tempoUs: tempoUs,
+    tempoUs: primaryTempoUs,
+    tempoMap: tempoMap,
   };
 }
 
@@ -483,6 +564,8 @@ export function mergeNoteLists(noteLists) {
       combined.push({
         start: note.start,
         end: note.end,
+        startTick: note.startTick,
+        endTick: note.endTick,
         midi: note.midi,
         velocity: note.velocity != null ? note.velocity : 80,
         confidence: note.confidence,
@@ -504,6 +587,9 @@ export function mergeNoteLists(noteLists) {
     ) {
       prev.end = Math.max(prev.end, note.end);
       prev.velocity = Math.max(prev.velocity || 0, note.velocity || 0);
+      if (note.endTick != null) {
+        prev.endTick = Math.max(prev.endTick != null ? prev.endTick : 0, note.endTick);
+      }
       return;
     }
     merged.push(note);

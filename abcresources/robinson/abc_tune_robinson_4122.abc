@@ -1,0 +1,18 @@
+X:168
+T:Schottisch  CGF (ABAC) (st09134)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.101 (st09134) orig. C,G,F
+S: \"Uberliefert durch Josef B\"abi, Alpnach, 1880
+P: ABAC
+%%MIDI program 21
+%%partsbox
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+gg [P:A] |: "G7"b2a2 g2f2 | "C"e2G2 c2fe | "G7"d2G2 B2ed | "C"cGce g2^fg  | "G7"b2a2 g2f2 | "C"e2G2 c2fe |  "Dm"d2A2 "G7"BGg2 |1 "C"c2c2 c2gg :|2 "C"c2c2 c2z2 || [K:G] 
+[P:B] |: "G"b2b2 b2b2 | bagfg4 | d2g2 d2b2 | "D7"c'2b2a4 | "Am"c'2c'2 c'2c'2 | c'ba^ga4 | "D7"d2a2 b2a2 |1 "G"g2g2 g2z2 :|2 "G"g2g2 g2"_>Teil A"gg || [K:F]
+[P:C] |: "F"c2A2 f2d2 | cdcB A2c2 | "C7"G2B2 BAG2 | "F"ABcdc4 | c2A2 "Bb"f2d2 | "F"cdcB A2c2 | "C7"e2d2 c3B | "F"A2A2 A2z2 :| 
+% st09134
+% Aug 18, 2016 (Raksha Bandhana - Day of Protection of Relations, Full Moon 04:27 EST)

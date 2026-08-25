@@ -1,0 +1,33 @@
+X:1
+T:Muisealp-Juiz. 1986  Bb  ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "sehr langsam" d| f>d | cf | dc | d>c | BF | Bd/f/ | c>B | AF |  cf | d>c | (B2 | B)d | 
+f>d | cf | dc | d>c | BF | Bd/f/ | c>B | AF | "_jeder Ton breit" d/f/ d/c/ | B2 || 
+M:2/4
+[P:B] "zügig" B>D | FB | d>c | Bd | c>F | dc | B>c | d2 | B>D | FB | 
+d>c | Bd/g/ | f>e | "_jeder Ton breit"dc | (B2 | B>)z | B>D | FB | d>c | Bd | 
+c>F | dc | B>c | d2 | B>D | FB | d>c | Bd/g/ | f>e | "_jeder Ton breit" dc | (B2 | B>)z || 
+M:2/4
+[P:C] d|f>d | cf | dc | d>c | BF | Bd/f/ | c>B | AF | d/f/ d/c/ | B2 || 
+L:1/8
+[P:D] FB| d2dc | B2df | c2cd | c2FA | c2fe | d2dc | B2Bc | 
+d2FB | d2dc | B2df | c2cd | c2FA | c2fe | "_jeder Ton breit"d2dc | (B4 | B2) FB/c/ | 
+d2dc | B2df | c2cd | c2FA | c2fe | d2dc | B2Bc | d2FB | 
+d2dc | B2df | c2cd | c2FA | c2fe | "_jeder Ton breit"d2dc | (B4 | B2)z2 |] 
+W:
+W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser.
+W:UJV-Naturjodelsammlung: Code-Nr: 22-02
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 20, 2018

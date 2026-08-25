@@ -1,0 +1,22 @@
+X:1
+T:Der Falke (Galopp)  FCBb (gL06727) ABCAD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.74  (gL06727) orig. F,C,Bb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABCAD
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+c/c/ | ("C"c4 | c2 )ze/e/ | (e4 | e2)zg/g/ | gf ed | .c2zc/c/ | "C7"cB AG  | "F".F2zc/c/ [P:A] || "F".c2.f2 |  "Bb".e2 .d2 | 
+"F".c2.B2 | A2z2 | "C7"G^F GA | .B2cB | "F"AG AB | c2zc/c/ | .c2.f2 | "Bb".e2.d2 | "F".c2.B2 | A2z2  | "C7"G^F GA | 
+Bc dc | ("F"F4 | F2)z2 || [P:B] [K:C] "C"G4 | G2c2 | "G7"B3A | B2z2 | d3^c | d2a2 | "C"g3f | e2z2 | 
+"G"G4 | "Em"G2B2 | ("Am"A4 | A)c "D7"BA | "G7"G2f2 | e2d2 | "C"cc/c/ cc | c2zc/c/ [P:C] |: "C7".c2.B2  | ._B2.G2 | "F".A2.d2 | 
+.c.c (fe) | ("C7"_B4 | B)c dc | "F"A4 | zA _B=B | "C7".c2.B2 | ._B2.G2 | "F".A2.d2 | cB cd | ("E7"e4 | e)c Bc | 
+("Am"A4 |1 A)c/c/ cc :|2 A2) "_>Teil B"z2 |: [P:D] [K:Bb]  ("Bb"d4 | d)(e dc)  | (B4 | B)c/B/ AB | "F7"c4 | F2 e2 | ("Bb"d4 | 
+d)(f "F7"=e_e) | ("Bb"d4 | d)e dc | (B4 | B)c/B/ AB | "F"c2a2 | "C7"g3c | ("F"f4 |1 f)f "F7"=e_e :|2 .f2"_Fine"z2 |] 
+% gL06727
+% Feb 15, 2018

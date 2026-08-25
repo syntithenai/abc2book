@@ -1,0 +1,20 @@
+X:55
+T:Freudenklänge (Mazurka) FCBb (mz06530) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.194 (mz06530) orig. F,C,Bb
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21 
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] [K:F] "F"A>B .c2.d2 | "Gm".c2B2B2 | "C7"G>A B2c2 | "F"B2A2A2 | f>f g2f2 | "Gm"f2e2e2 |1 "C7"d>de2d2 | "F"d2c2c2 :|2 
+"C7"d>cB2G2 | "F"F2F2z2 |: [P:B] [K:C] ("C"EG) (cG)e2 | ("Dm"ed)A2A2 | ("G7"GB) (dB)f2 | ("C"fe)c2c2 | (EG) (cG)e2 | ("Dm"dA) (dA)f2 | 
+("G7"ef) (ed) (AB) |1 "C"dc BAG2 :|2 "C"c2c2"_>Teil A"z2 |: [P:C] [K:Bb] "Bb"FFF2d2 | "Cm"e2G2G2  | "F7"FFA2c2 | "Bb"d2B2B2 | 
+B2c3B | "F7".A2!>!e4 |1 G2A3 G |  "Bb".F2!>!d4 :|2 GA d2c2 | "Bb"B2B2z2 [P:D] |: "Eb"BA GA BG | 
+("Bb"G2F2).F2 | ("F7"EF).A2.G2 | "Bb".G2.F2.F2 | "Eb"BA GA BG | ("Bb"G2.F2).F2 | "F7"FG AF GA | "Bb".B2.B2z2 :|  
+% mz06530
+% Jan 21, 2017

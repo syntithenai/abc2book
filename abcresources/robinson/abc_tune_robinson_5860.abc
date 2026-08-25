@@ -1,0 +1,30 @@
+X:3
+T:Alpnacher-Juiz  Bb  ABCCA
+T:Franz Wallimann  (10.3.1923-14.11.2014)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCCA
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] B,>F D>B | FdcB | A>CEF | c4 | A,>F E>A | 
+Fedc | B>DFd | B4 | B,>F D>B | FdcB | 
+A>CEF | c4 | A,>F E>A | Fedc | (B4 | B3)z ||  
+M:2/4
+[P:B] F/B,/ D/F/ | d>c | B2 | F/B,/ C/D/ | c>B | A2 | F/C/ E/F/ | e>F | 
+d>F | c/E/  F/d/ | Bd | F2 | F/B,/ D/F/ | d>c | B2 | F/B,/ C/D/
+c>B | A2 | F/C/ E/F/ | e>F | d>F | c/E/ F/d/ | (B2 | B)z ||  
+M:2/4
+[P:C] c>B | A/c/F | C/D/ E/F/ | d>c | B/d/F | B,/C/ D/E/ | c>B | 
+A/c/F | e/F/ A/c/ | B>c d | !fermata!F2 | c>B | A/c/F | C/D/ E/F/ | 
+d>c | B/d/F | B,/C/ D/E/ | c>B | A/c/F | "rit."e/F/ A/c/ | !fermata!B2 |] 
+W:
+%W:Reihenfolge: A - B - C - C - A
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 30-02
+W:http://www.naturjodler.ch/code 30.htm  (with AUDIO)
+%May 29, 2018

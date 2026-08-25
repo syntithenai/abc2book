@@ -1,0 +1,26 @@
+X:159
+T:Southwest Wind, The
+T:An Ghaoth Aniar-Aneas
+T:Pullet that Wants the Cock, The
+R:jig
+H:Related to Connie the Soldier, #212, #440, #517
+D:Declan Masterson:
+Z:id:hn-jig-159
+M:6/8
+K:Dmix
+~A3 AdB | cAG EFD | DGG DEG | AGE cGE |
+~A2G AdB | cAG EFD | ~D3 AGE | GED DEG |
+~A3 A2d | cAG EFD | DGG GFG | DGG GFG |
+~A2G AdB | cAG EFD | ~D3 AGE | GED D2e ||
+|: fed ed^c | ed^c d2e | fed efd | =cAG Ade |
+fed efd | cAB c2d | cAG EAG |1 EFD D2e :|2 EFD D3 ||
+P:variations
+|: ABG A2B | cAG E2F | DGG GFG | DGG GFG | 
+ABG A2B | cAG E2F | DED AGE |1 GED DEG :|2 GED D2e || 
+|: fdd ede | fdd d2e | fdd efd | cAG A2e | 
+fdd e2d | cAB c2d | cAG EAG |1 EDD D2e :|2 EDD DEG ||
+P:more variations
+|: A3 A2B | cAG E2D | DGG DE/F/G | AGE cGE |
+ABA A2d | cAG E2D | DE/F/G AGE |1 EDC DEG :|2 EDC D2e ||
+|: fdd ed^c | ed^c d2e | fed e2d | =cAG Ade |
+fdd e2d | cAB c2d | cAG EAG |1 EDC D2e :|2 EDD DEG ||

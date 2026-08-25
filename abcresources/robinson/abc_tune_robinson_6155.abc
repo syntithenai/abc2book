@@ -1,0 +1,23 @@
+X:1
+T:Polka  GDC (pk07819) ABACDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.186  (pk07819) orig. G,D,C
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABACDC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+[P:A] "G"d2{/e}d^c d2g2 | d2{/e}d^c d2b2 | "D7".b2(a^g) (ab).a2 | "G".a2(gf) (ga).g2 | d2{/e}d^c d2g2 | d2 {/e}d^c d2b2 | 
+"D7".b2(a^g) (ab).a2 | "G"g2g2 g2z2 || [K:D] [P:B] "A7"aaa2 g2e2 | "D"aaa2 f2d2 | "A7".c2(cd) (^de).A2 | "D".d2(de) (^ef).d2 | "A7"aaa2 g2e2 | 
+"D"aaa2 f2d2 | "A7".c2cd ^deAc | "D"=d2=c2 b2"_>Teil A"a2 || [K:C] [P:C] "G7"aaaa a2g2 | "C"eeee f2e2 | "G7"dddd e2d2 | 
+"C"c2a2!>!g4 | gggg a2g2 | eeee f2e2 | "G7"dddd e2d2 | "C"c2c2 c2"_Fine"z2 |] [K:G] [P:D] "D7"dddd e2d2 | "G".d2.g.bd'4 | 
+("D7"d'c').c'.a f2f2 | ("G"e'd').d'.b g2g2 | "D7"dddd e2d2 | "G".d2.g.b d'4 | "D7"d'c'af d2ef | "D7"g2=f2 "_>Teil C"e2d2 || 
+W:
+%W:Parts: ABA-CDC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% pk07819
+% July 18 2018

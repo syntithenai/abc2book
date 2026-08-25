@@ -1,0 +1,22 @@
+X: 228
+T:Mindrele
+O:Romania
+S:presented by Mihai & Alexandru David, Gypsy Camp II
+L: 1/8
+M: 5/4
+K:Em
+Q:1/4=192
+%MIDI gchord fzfzfzfzzz
+%%MIDI beatstring fpppppmppp
+|:[CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][C4E4]   |\
+  [CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][G,4C4]  :|
+|:gabgafg4                      |g2e2c2e4                    |\
+  gabgafg4                      |g2e2c2c4                    :|
+|:g2e2c2e4                      |g2e2c2_b4                   |\
+  g2e2c2e4                      |g2e2c2c4                    :|
+|:_b2a2g2b4                     |g2e2c2e4                    |\
+  _b2a2g2b4                     |g2e2c2c4                    :|
+  efgagfg4                      |g2e2c2e4                    |\
+  efgagfg4                      |g2e2c2c4                    |
+  [CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][C4E4]   |\
+  [CE][DF][EG][FA][EG][CE][D4F4]|[E2G2][C2E2][G,2C2][G,4C4]  |

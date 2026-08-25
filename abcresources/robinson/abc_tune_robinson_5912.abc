@@ -1,0 +1,34 @@
+X:5
+T:Jubiläums-Juiz. 1993  BbEb  ABC
+T:Margrit Spichtig-Hofer (6.9.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+R:Naturjodel
+M:4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen" F>DFB | d>cB2 | F>DFd | f>ed2 | c>FFf | e2dc | B2c2 | d3z | 
+F>DFB | d>cB2 | F>DFd | f>ed2 | c>FFf | e2dc | (B4 | B2)z || 
+L:1/4
+M:4/4
+[P:B] "rassig" G>EGB | e2fe | F>DFB | d2gf | c>EFf | c2gf | B>ABc | d3z | 
+G>EGB | e2fe | F>DFB | d2gf | c>EFf | e2dc | (B4 | B3)z | 
+G>EGB | e2fe | F>DFB | d2gf | c>EFf | c2gf | B>ABc | [M:4/4] d3z | 
+G>EGB | e2fe | F>DFB | d2gf | c>EFf | e2dc | (B4 | B3)z || 
+L:1/4
+M:4/4
+K:Eb
+[P:C] "ruhig" E>A | cAE>A | cced/c/ | B>GEc | B2fe | 
+d>BAB | f2gf | e2c2 | !breath! !fermata!B2E>A | cAE>A | cced/c/ | 
+B>GEc | B2fe | d>BAB | f2gf | (e4 | e2)z2 |] 
+W:
+%W:Reihenfolge: A - B - C
+W:
+W:notiert Edi Gasser. Angaben: Margrit Spichtig
+W:UJV-Naturjodelsammlung: Code-Nr: 50-03
+W:http://www.naturjodler.ch/code 50.htm  (with AUDIO)
+%Juni 18, 2018

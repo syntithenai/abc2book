@@ -1,0 +1,20 @@
+X:146
+T:Lancaster Hornpipe
+A:North-West
+M:C
+O:England
+R:Hornpipe
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+%%SeeAlso:<a href=/tune/8011>See Also</a>
+%%RRGroups:Lancaster
+K:D major
+AG | \
+FA d2 d2 cB | cdef e2 dc | \
+defd gfed | ec A2ABAG |
+FA d2 d2 cB | cdef e2 de | \
+fdec dBAG | F2 D2 D2::
+(3ABc |\
+dAFA DFAf | edcB A2 gf |\
+ecAG FAdf | edcB A2AA |
+BG G/F/G gfed | edcB A2AA |\
+BGAF GEAG | F2 D2 D2 :|

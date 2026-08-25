@@ -1,0 +1,14 @@
+X:32
+T:L\"andler  CF (LD09366)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.207 (LD09366) orig. C,F
+S: \"Uberliefert durch Lina Krupski-Herger (1946), Lehrer Leuthold (1945), Edy Lussy und Melk Rohrer (1949)
+%%MIDI program 21
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+CC |: "C"C2 EG ce | "tr""G7"f2 dBG2 | "tr""C"a2gec2 | "tr""G7"g2fdB2 | "C"C2 EG ce | "tr""G7"f2 dBG2 | "tr"g2Ba gB |1 "C"c2z2CC :|2 
+"C"c2z2cc |: [K:F] ."C7"c2!>!c'3b | "F".a2 !>!c'3f | ("C7"eg) c3e | ("F"fe) .f.ga2 | ("Gm/Bb"bd') g3b | ("F"ac')f3a | ("C7"bd') (gb) (eg) |1 "F"f2z2cc :|2 "F"f2z2z2 |] 
+% LD09366

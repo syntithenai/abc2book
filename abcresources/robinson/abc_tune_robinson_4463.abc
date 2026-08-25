@@ -1,0 +1,18 @@
+X: 215
+T:  Walzer GDC (wz05649)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.133 (wz05649) orig. G,D,C-Dur
+S: Repertoire der Roesti-Musik (Bern) S.124ff
+R:Walzer
+O:Switzerland
+M:3/4
+L:1/4
+K:G major
+d |: "G"e2f | g2f | "D7"c3 | zzc | d2e | f2e | "G"B3 | zzd | b2b | c'2b |1 
+"Am"b2a | e2e | "D7"a2a | b2a | "G"age | dzd :|2 "Am"bag | fge | "G/D"d2^d | "D7"e2f | "G"g3 | gza || [K:D] [L:1/8]
+|: "D"a2 (df ad') | "A7"c'2 (ce gb) | a2 (GA ce) | "D"f2 (cd fa) | a2a3^a | "Em"b2bge2 | "A7"a2e3 ^e | "D"f2 (fd) A2 | 
+a2 (df ad') | "A7"c'2 (ce gb) | a2 (GA ce) | "D"f2 cd fa | a2a3^g | "Em"b2 (bg) e2 | "A7"aa a2 (ef) |1 "D"d2z2a2 :|2 "D"d2z2d2 || [K:G] [L:1/4]
+|: "G"g3 | f3 | e3 | (d2B) | "D7"e3 | (d2A) | "G"e3 | (d2B) | g3 | (f2c) | e3 | d3 | "C"e ^d/e/ f/e/ | 
+"G"d ^c/d/ e/d/ | "D7"(b2a) |1 "G"gzd :|2 "G"gA>B |: "D7"czc | c (B/c/ f/e/) | "G"dzB | B (^A/B/ e/d/) | 
+"D7"czA | A (^G/A/ d/c/) | "G"BzG | GA>B | "D7"czc | c (B/c/ f/e/) | "G"dzB | B (^A/B/ e/d/) | "D7"czA |  
+f (^e/f/ b/a/) | "G"g>gg |1 gA>B :|2 gG>G || [K:C] "C"e2e | (d2c) | "G7"f3 | BzG | f2f | 
+(e2d) | "C"a3 | gzg | (c'2g) | (f2e) | "F"(edc) | (c2A) | "G7"(G2B) | (e2d) | "C"(c3 | c)zz |]

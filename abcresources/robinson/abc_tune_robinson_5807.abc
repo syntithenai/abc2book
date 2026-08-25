@@ -1,0 +1,30 @@
+X:12
+T:Alpbode-Juiz. 1989  Bb  ABAC
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen" dB|F>GF2 DF/B/ | d2B2FF | f>ec2Fe | 
+d2 !fermata! !breath! B2dB | F>GF2DF/B/ | d2B2FF | f>e cF !fermata!d !fermata!c | !fermata! B4 || 
+M:4/4
+[P:B]  fe| d>F FdB2e>d | c2Fdc2fd | c>F Ffe2dc | B>F FB dF fe | 
+d>F FdB2e>d | c2Fdc2fd | c>F Ff eF dc | B4z2 ||
+L:1/4
+M:3/4
+[P:C]"Walzertempo" B,/D/ |F>=EF | Ded | F>=EF | Ded/B/ | c>FF | Edc | 
+B2F | !fermata! !breath! D>G F/E/ | F>=EF | Ded | F>=EF | Ded/B/ | c>F F | E/F/dc | 
+B2B,/D/ | F>=EF | Ded | F>=EF | Ded/B/ | c>FF | Ed c | B2F | 
+!fermata! !breath! D>G F/E/ | F>=EF | Ded | F>=EF | Ded/B/ | c>FF | E/F/dc | B2 |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 22-07
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 21, 2018

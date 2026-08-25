@@ -1,0 +1,23 @@
+X: 16
+T:Miss Wharton Duff
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 2
+K:Bb major
+%%staves { 1 2 }
+V:1
+B, | \
+!trill! B2 !trill! c2 d/f/d/B/ A/c/A/F/ | .E.g .D.f C(e/c/) d/B/A/F/ | \
+!trill! B2 !trill! c2 d/f/d/B/ A/c/A/F/ | .E.g .B.b d/B/c/A/ B :|
+f/g//a// | \
+bf (e/d/)(c/B/) (b/f/)e/d/ (e/d/)c/B/ | .e.g .G.c (d/B/)c/A/ (B/A/)G/F/ | \
+.E.g .D.f C(e/c/) (d/B/)(A/F/) | (b/f/)d/B/ (e/c/)d/B/ F/B/A/c/ B2 :|
+V:2 clef=bass octave=-2
+z | \
+Bbaf b2f2 | Ee Dd Cc Ff | Bbaf b2 f2 | e2 dB fF B :| \
+z |\
+Bb Bb Bb Bb | Ee Ee cB fF | Ee Dd Cc Bf | Bb AB fF B2 |]

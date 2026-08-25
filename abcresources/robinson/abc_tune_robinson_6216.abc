@@ -1,0 +1,20 @@
+X:1
+T: Schneeglöcklein-Schottisch DAG (st07280)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.112  (st07280) orig. DAG
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:D major
+[P:A] "D"Ad ed | "A7"d>cc2 | cg Ag | "D"fd d/c/d | Ad ed | "A7"d>cc2 | cg B>c | "D"dd dz :| [K:A] 
+[P:B] |: "E7"e/e/e B/B/B | "A"e/e/e c/c/c | "E7"g/g/g f/f/f | "A"e/f/e/d/ cc | "E7"e/e/e B/B/B | "A"e/e/e c/c/c | "E7"gf dB | 
+"A"AA A"_>Teil A"z  :: [P:C] [K:G] "G"ddg2 | BBd2 | "Am"EE A/B/c | "D7"DD "G"G/A/B | ddg2 | BBd2 | "C"ee "D7"A/B/c | 
+"G"GB Gz :: [P:D] "D7"F>e ed | "G"G>e ed | "D7"fe cA | "G"G/A/B/c/ dd | "D7"F>e ed | "G"G>e ed | "D7"fe f/e/c/A/ | "G"GG Gz :| 
+%W:Parts: ABACD
+% st07280 
+% April 10, 2018 ("Hände in den Schoss legen ist nicht passiv")

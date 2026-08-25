@@ -1,0 +1,22 @@
+X:195
+T:Adonis-Schottisch.  GDC (st07292)  ABACDA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.276 (st07292) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACDA
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+(d2 [P:A] |: "G"b2)g2 Bed2 | "Am"c2f2 f3e | "D7"e2d2 Adc2 | "G"B2e2 e3d | b2g2 Bed2  | "Am"c2f2 f3e | "D7"e2d2 AcB2 |1 "G"G6d2 :|2 
+"G"G2G2 G2"_Fine"z2 |: [P:B] [K:D]  "D"AAAA .A.B.c.d | "A7".c.d.e.f g4 | c'c'c'c' c'bge | "D"bbbb bafd | AAAA ABcd | "A7"cdef g4 | 
+c'c'c'c' c'bge |1 "D"d2AA A2A2 :|2 "D"d4z2"_>Teil A"d2 || [P:C] [K:C]  "C"eeee a2g2 | "G7"dddd a2g2 | BBBB b2a2 | 
+("C"g4c2)z2 | eeee f3e | "Dm"d2A2 d4 | "G7"aaaa b3a | "C"g2c2 e4 |  eeee a2g2 | "G7"dddd a2g2 | 
+BBBB b2a2 | ("C"g4c2)z2 | c'c'c'c' d'3c' | "Dm"b2a2a4 | "G7"gggg a3B | "C"c2c2 c2z2 [P:D] |: ("G7"df)d'2 c'2b2  | a2g2 ^fag2 | 
+("C"eg)e'2 d'2c'2 | b2a2 ^fag2 | ("G7"df)d'2 d2d2 | "C"ced'2 d2d2 | cec'2 c2c2 | "G7"Bda2 B2B2 |1 "C"c2GG G2G2 :|2 "C"c2c2 "_>Teil A"c2z2 |]   
+W:ABA CDA
+% st07292
+% May 28, 2017

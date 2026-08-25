@@ -1,0 +1,33 @@
+X:7
+T:Widderfäld-Juiz. 1998  Bb  ABACD
+T:Hansruedi Niederberger  (* 30.9.1948)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABACD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] dc| B3F Bc | d2B2g2 | f3e cA | F4cB | A2cF Ac | f3cf2 | d4c2 | 
+B4dc | B3F Bc | d2B2g2 | f3e cA | F4cB | A2cF Ac | f3cd2 | (B6 | B4) || 
+M:3/4
+[P:B] FB | d2B2FB | d>cB2de | c2Ff dc | Bdf2 F>F | 
+d2B2FB | d>c BF Bd | f2fe cd | B4FB | d2B2FB | d>cB2de | 
+c2Ff dc | Bdf2F>F | d2B2FB | d>c BF Bd | f2 fe cd | B4 || 
+M:2/4
+[P:C] DF| F2Fd | Bfd2 | F2Fd | Bfd2 | F2ed | c2f2 | F2d2 | !fermata! !breath!B2DE | 
+F2Fd | Bfd2 | F2Fd | Bfd2 | F2ed | c2f2 | F2d2 | !fermata!B2 || 
+M:2/4
+[P:D]FF |G2ed | c2EG | F2dc | B2cB | A2F2 | f2cf | 
+d3c | B2F2 | G2ed | c2EG | F2dc | B2cB | 
+AF Ff | d2c2 | (B4 | !fermata! !breath!B2)"_breit"cB | A2Ff | d2c2 | (B4 | B2) |]
+W:
+%W:Reihenfolge: A-B-A-C-D
+W:
+W:notiert Edi Gasser. Angaben: Hr Niederberger
+W:UJV-Naturjodelsammlung: Code-Nr: 18-04
+W:http://www.naturjodler.ch/code 18.htm  (with AUDIO)
+%May 15, 2018

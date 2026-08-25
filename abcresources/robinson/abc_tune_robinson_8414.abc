@@ -1,0 +1,28 @@
+X:53
+T:Lady Duff of Delgaty
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:22 - 2
+K:Bb major
+%%staves {1 2}
+V:1
+G | \
+FB, (G/F/E/D/) FB,DB, | CDEF GCEG | \
+FB, (G/F/E/D/) FB,DF | GBAc {Bc}d<BB :|
+f | \
+dfBf df (e/d/c/B/) | egcf egab | \
+dfBf df (e/d/c/B/) | GBAc {Bc}d<BBf |
+dfBf df (e/d/c/B/) | egcf egab | \
+fbfd gecd | FGAB d<BB |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[B,B][B,B][B,B][B,B] | [Cc][C][C][C] | [B,B][B,B][B,B][B,B] | [Ee][Ff][B,B][B,B]/ :| \
+z/ | \
+[Bb][Bb][Bb][Bb] | [Ee][Ee][Cc][Cc] | [B,B][B,B][B,B][B,B] | [Ee][Ff][Bb][Bb] | \
+[Bb][Bb][Bb][Bb] | [Ee][Ee][Cc][Cc] | [Dd][B,B][Ee][Ee] | [Ff][Ff][B,B][B,B]/ |]

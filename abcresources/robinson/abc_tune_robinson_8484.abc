@@ -1,0 +1,29 @@
+X:36
+T:Miss Mary L. Robertson
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:14 - 3
+K:C major
+%%staves {1 2}
+V:1
+F | \
+EG-G!wedge!A c2 (ce) | defe dDDF & A2A2x4 | \
+EG-GA [Ec]2 (ca) & x6A2 | gefd c/c/c c :: \
+f | \
+(ef/g/) (cg) egcg |
+                    (fg) (a/g/f/e/) fddf |1 \
+(ef/g/) (cg) egcg | fdge cc/c/ c :|2 \
+ecdB (dc)(BA) | [EG]c[B,G]E C/C/C C |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[cc'] [cc'] [cc'] [cc'] | [Ff] [Ff] [Gg] [Gg] | [cc'] [cc'] [cc'] [Ff] | ggcc/ :: \
+z/ | \
+[cc'] [cc'] [cc'] [cc'] | [fc'] [fc'] [fd'] [gd'] | \
+[c'e'] [ec'] [ec'] [ec'] | [Ff] [Gg] [Cc] [Cc]/ :| \
+[c'e'] [gd'] [Aa] [Ff] | [Gg] [Gg] [Cc] [Cc]/ |]

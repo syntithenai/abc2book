@@ -1,0 +1,25 @@
+X: 170
+T:Cullen House, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:58 - 4
+K:A minor
+%%staves { 1 2 }
+V:1
+c | \
+A,>Ac>A G/G/G !trill!B2 | A/A/A (A>B) A/B/c/d/ ec | \
+d>Bc>A G/G/G (B>d) | e>cd>B c<A-A :|
+f | \
+gg a/g/^f/e/ d<G ~B2 | a>e e<a gba^f | \
+gg a/g/^f/e/ dGBd | e>cd>B c<A-A!wedge!f |
+gg a/g/^f/e/ d<G ~B2 | a>e e<a gba^f | \
+gbeg dGBd |e<cd>B c<A-A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | A[Aa][Gg][Gg] | [Aa]AAA | gdgg | aeAA/ :| \
+z/ | gggg | aaaa | gggg | aeAA | gggg | aaaa | gc'gg | aeAA/ |]

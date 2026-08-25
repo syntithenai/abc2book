@@ -1,0 +1,18 @@
+X:200
+T:Stradella-Schottisch) CF (st02277)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.339 (st02277) orig. C,F
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Schottische
+M:2/4
+L:1/8
+K:C major
+[P:A] "C"EG2c | ce2g | "G7"gf/e/ fd | "C"fe/d/ ec | EG2c | ce2g | "G7"gf/e/ fd | 
+"C"cc cz || [P:B] "Am"eA/A/ AA | AA AA | ed/e/ "G7"fe/d/ | "Am"ed/c/ "D7"c/d/c/A/ | "G"GG/G/ GG | GG GG | 
+"D7"^Fd A/c/B/A/ | "G"G3G | FG EG | DG CG | "G7"B,G/G/ GG | GG G"_>Teil A"G  |: [P:C] [K:F] "F"f3e |  "Bb"d3c | 
+"F"c3A | AB/A/ GA | "C7"c3B | d3e |1 "F"g2f2 | cd/c/ =B/c/d/e/ :|2 "F"f2 "C7"cd/e/ | "F"fa f"_Fine"z |] [P:D] [K:C] 
+"C"g/g/g/g/ ge | g/g/g/g/ ge | "G7"fd !>!g2 | "C"ec' !>!g2 | g/g/g/g/ ge | g/g/g/g/ ge | "G7"fd G/A/B | "C7".c2 "_>Teil C"((3cde) |] 
+% st02277  (Nov 7, 2016)

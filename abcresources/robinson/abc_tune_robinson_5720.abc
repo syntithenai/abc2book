@@ -1,0 +1,30 @@
+X:1
+T:Müsli-Juiz  Bb  ABAC
+T:Edi Schrackmann  (4.11.1930-8.7.1998)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4+3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,3D F2 | f2 d4 | Fd cB | AE FA | f3d | c6 | A,3CF2 | 
+f2e4 | Ff dc | BD FB | f3d | B6 | B,3D F2 | f2 d4 | 
+Fd cB | AE FA | f3d | c6 | A,3CF2 | f2e4 | Ff dc | !fermata!B4 z2  |]
+L:1/4
+M:3/4
+[P:B] "zügiger" F | f2F | d>cB | A2c | F2F | f2F | e>dc | f>d f/d/ | B2F | 
+f2F | d>cB | A2c | F2F | f2F | e>dc | (B3 | B)z |]
+M:3/4
+[P:C] "frisch, fröhlich" F | f>e d/f/ | edc | B>DF | D/F/ B/D/ F/d/ | c>EF | 
+E/F/ A/E/ F/c/ | B2d | f2F | f>e d/f/ | edc | 
+B>DF | D/F/ B/D/ F/d/ | c>EF | "rit."fdc | (B3 | B)zz |] 
+%W:Reihenfolge: A-B-A-C
+W:
+W:Edi Schrackmann, bearbeitet: Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 10-01
+W:http://www.naturjodler.ch/code 10.htm  (with AUDIO)
+%May 6, 2018

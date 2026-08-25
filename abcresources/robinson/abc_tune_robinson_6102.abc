@@ -1,0 +1,17 @@
+X:1
+T:Polka  FBb (pk06659)  
+T:Hanny Christen. Bd.V  Basel II, Jura. S.59  (pk06659) orig. F,Bb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+("F"AB=Bc) (dcAF) | "C7"E3d c2c2 | D3c B2B2 | "F"C3B A2A2 | (AB=Bc) (dcAF) | "C7"E3d c2c2 | D3c B2B2 | "F"A2A2 A2 z2 :: 
+"F"A2c2 (=Bcfe) | "Gm"{/^c}d2{/c}d2  G4 |  "C7"B2B2 EGdc  | "F"A2A2F4 | A2c2 (=Bcfe) | "Gm"{/^c}d2{/c}d2  G4 |  "C7"B2B2 (EGdc) | "F"F2F2 F2z2 :: [K:Bb] 
+"Bb"d4 (^cded) | B4z2(dB) | "F7"c4z2(Ac) | "Bb"B4(BABc) | d4 ^cded | B4z2(dB) | "F7"c4z2(Ac) | "Bb"B2B2 B2z2 :| 
+W:Anmerkung H.C.: Olsberg, Sissach, Zunzgen, Seltisberg, s.V. 340
+% pk06659
+% Jan 22, 2018

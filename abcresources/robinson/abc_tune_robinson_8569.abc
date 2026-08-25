@@ -1,0 +1,21 @@
+X: 61
+T:Miss Malcolm's Hornpipe
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Hornpipe
+Z:Clark Bernst + Richard Robinson
+%%Page:22 - 3
+K:Eb major
+%%staves {1 2}
+V:1
+!trill!E2 (GE) BEGE | !trill!F2 (AF) cFAF | ~G2 (ag) fedc | BAGF EDCB, |
+!trill!E2 (GE) BEGE | !trill!F2 (AF) cFAF | GBeG Acfe | dBcd {d}e2 e2 ||
+eEGB egfe | dBdf bfdB | (!trill!c=Bc).d ec_BA | GEDE FDCB, |
+EB,GE FB,AF | GEBG AA,cA | GBeG Acfe | dBcd {d}e2 e2 |]
+V:2 clef=bass octave=-2
+L:1/4
+eeee | ffff | eeaa | bbBB | eeee | ffff | eeAA | BB[Ee][Ee] || \
+eeee | BBBB | AAGB, | EGBB | eeBB | eeAA | ee AA | BBee |]

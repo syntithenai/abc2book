@@ -1,0 +1,20 @@
+X:10
+T:Sept Sauts
+A:Béarn
+D:"Sauts biarnés de l'arribèra"
+L:1/8
+M:2/4
+O:France
+P:Intro AB1 AB2 AB3 ... AB7
+Q:c/4=90
+Z:Dave Holland <dave@biff.org.uk>
+K:G major
+P:Intro
+d2g2 \
+P:A
+|:"G"dd/c/ BB|"D"A/B/c/A/ "G"BG|"G"dd/c/ BB|"D"A/B/c/A/ "G"G2:|
+P:B
+|:"Am"AA/A/ "D"AA|d/c/B/A/ "G"BG|"Am"AA/A/ "D"AA|d/c/B/A/ "G"G2:|
+[|]1"G"d2g2||2"G"d2B2|d2g2||3"G"d2B2|d2B2|d2g2||4"G"d2B2|d2B2|d2B2|d2g2||5 \
+"G"d2B2|d2B2|d2B2|
+d2B2|d2g2||6"G"d2B2|d2B2|d2B2|d2B2|d2B2|d2g2||7"G"d2B2|d2B2|d2B2|d2B2|d2B2|d2B2|d2g2|]

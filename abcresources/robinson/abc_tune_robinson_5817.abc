@@ -1,0 +1,34 @@
+X:30
+T:Steireyti-Juiz. 2002  Bb ABCBD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCBD
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:4/4
+K:Bb major
+[P:A] D/F/ B/d/ c>d | c2F>E | dcB2 | D2D>E | 
+F/B/ d/f/ c>d | c2F>E | dcB2 | D/F/ B/d/ c>d | c2F>E | 
+dcB2 | D2D>E | F/B/ d/f/ c>d | c2F>E | dcB2 ||
+M:4/4
+[P:B] D/F/ | BBD D/F/ | ddB f/d/ | cc/B/AF/e/ | 
+d/>e/ d/c/BD/F/ | BBD D/F/ | ddBf/d/ | cF/e/dc | B2z2 ||  
+M:6/8
+L:1/8
+[P:C]  B2e d>c B | c3F3 | c2d c>B A | B2c d3 | 
+B2e d>cB | c2d e2f/e/ | d>B dc fd/c/ | B4zz ||
+M:4/4
+L:1/8
+[P:D] DF | B2B2D2DF | d2d2B2fd | c2cBA2Fe | d>e dcB4 | 
+B2B2D2DF | d2d2B2fd | c2 f>ed2c2 | B8 |] 
+W:
+%W:Reihenfolge: A-B-C-B-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-16
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 22, 2018

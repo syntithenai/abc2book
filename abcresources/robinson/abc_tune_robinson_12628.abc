@@ -1,0 +1,33 @@
+X:515
+T:Schottische.2voices. RH.515
+T:Original Schottische,The,aka.2voices. RH.515
+T:Linhope Lope,aka.2voices. RH.515
+R:Schottische
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 clef=treble
+V:2 clef=bass
+M:2/4
+L:1/16
+Q:1/4=70
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+notC:In a different hand
+K:F major
+[V:1] AB|c2a2 B2g2|A2f2- f(cAF)|E2d2- d(cBG)|FAGB AcBd|
+[V:2] z2|F,2[A,2C2]C,2[E,2B,2]|F,2[F,2A,2C2][F,2A,2C2]z2|\
+C,2[C,2E,2B,2][C,2E,2B,2]z2|F,2[F,2A,2C2][F,2A,2C2]z2|
+%
+[V:1] .c2.a2 .B2.g2|A2f2 (fcAF)|E2d2 dcBG|G2F2 F2Hz2||
+[V:2] F,2[A,2C2]C,2[E,2B,2]|F,2[F,2A,2C2][F,2A,2C2]z2|\
+C,2[C,2E,2B,2][C,2E,2B,2]z2|[C,2E,2B,2][F,2A,2] [F,2A,2]Hz2||
+%
+[V:1] .F2.G.A .B.c.d.e|.f2.A2 (BA^GA)|.d2.G2 AG^FG|.c2.E2 (FE^DE)|
+[V:2] F,2[A,2C2][A,2C2]z2|F,2[A,2C2][A,2C2]z2|B,,2[D,2G,2][D,2G,2]z2|\
+C,2[E,2B,2][E,2B,2]z2|
+%
+[V:1] .F2.G.A .B.c.d.e|.f2.A2 (BA^GA)|.d2.G2 {A}G^FGA|.G2.F2.F2|]
+[V:2] F,2[A,2C2][A,2C2]z2|F,2[A,2C2][A,2C2]z2|\
+B,,2[E,2G,2]C,2[E,2B,2]|[C,2E,2B,2][F,2A,2][F,2A,2]|]

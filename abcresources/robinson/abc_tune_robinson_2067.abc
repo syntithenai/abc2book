@@ -1,0 +1,19 @@
+X:3068
+T:King George IV Highland % nf<bb
+B:"Northern Fiddler" 173.1 (F&MB)
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:(a) I changed last note of measure 5 from A, to B, and last I:note of part B from G, to G.
+I:(b) I have changed the last I:triplets in m.8 from (3DA,D (3B,A,D to (3DE^F (3GBd.
+I:(c) I have removed the rolls on the first A's in mm 2,3,5,6, and 7
+I:from the MIDI file due to program problems in reproducing an I:accurate sound. (BB)
+L:1/8
+M:C
+R:Hornpipe
+Q:240
+K:A minor
+A,A,A,B, (3CB,A, EA,|A,2EA, (3B,A,D (3B,A,G,|A,2EA, (3CB,A, ED|\
+B,DGE (3DA,D (3B,A,G,|
+A,4 CDEB,|A,2EA, (3DB,D (3B,A,G,|A,3B, (3CB,A, ED|\
+B,DGE (3DE^F (3GBd||
+e2AB (3cBA eA|e2A^f (3gag (3fed|e2AB (3cBA ed|Bdge (3ded (3BAG|
+e2AB (3cBA eA|e2A^f (3gag (3fed|a2^fg efdA|Bdge (3ded (3BAG||

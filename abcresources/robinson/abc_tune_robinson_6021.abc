@@ -1,0 +1,23 @@
+X:1
+T:Mazurka  CGF (mz07089)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.46  (mz07089) orig. C,G,F
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>c .e2.e2 | E>G .c2.c2 | c>B c>e d>c | ("G7"c2B2).B2 | B>d .f2.f2 | G>B.d2.d2 | B>A.B2.d2 | "C".c2!>!c2z2 :| [K:G]
+[P:B]  |: "G"B>B (Be)d2 | G>G (Gc)B2 | "D7"B>A.c2.F2 | "G"A>G .B2.D2 | B>B (Be)d2 | G>G (Gc)B2 | "D7"B>Ac2F2 | "G".G2!>!G2"_>Teil A"z2 :| [K:F]
+[P:C] |: "F".A2!>!d3A | ("C7"cB) E>FG2 | .B2!>!e3B | ("F"dc) F>GA2 | .c2!>!f3A | "Gm"G2!>!d4 | "C7"c2B2G>A | "F".F2!>!F2z2 :| 
+[P:D] |: "Bb".d2!>!d4 | "F".c2!>!c4 | "C7".B2.G2.B2 | "F".A2.F2.A2 | "Bb".d2!>!d4 | "F".c2!>!c4 | "C7"c2 dc BG | "F".F2!>!F2 z2 :| 
+W:
+W:Anmerkung H.C.: 13. Aug. 1949 /1134, Augst 11
+W:Tanzbeschreibung: I: 2 Mazurkaschritte u. Schwenkhops, II: geschl. Mazurka, 
+W: III: Platzwechsel, IV: 2 Mzk, ganze Drehung rückwärts u. vorwärts
+% mz07089
+% Jan 11,  2018

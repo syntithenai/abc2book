@@ -1,0 +1,17 @@
+X: 145
+T: Polka FBb (pk08845)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.361 (pk08845) orig. F,Bb-Dur
+S: Tänze aus Büren an der Aare (Bern) S.353ff
+%%partsbox
+%%MIDI program 21
+P:ABCDAB
+R:Polka
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+[P:A] "F"c/d/c/=B/ cf | "C7"fe gg | c/d/c/=B/ cg | "F"gf aa | "Bb"bb d>b | "F"aa c>a | "C7"ge f/e/d/e/ | 
+"F"fa fz ::[P:B]  "C7"bb g>a | gg e>g | "G7"ff =B/c/d | "C"e/d/e/f/ gg/a/ | "C7"bb e>b | "F"aa f>a | 
+"C7"gg B/c/d/e/ | "F"fa fz ::[P:C] [K:Bb]"Bb"dF/B/ df | =ef b2 | "Cm"gc/d/ eg | ^fg c'2 | "F7"ea a>a | 
+ac c/d/c |1 "Bb"db b>b | bf f/g/f :|2 "Bb"df "F"=B/c/f | "Bb"Bb bz [P:D] |: "Eb"g/g/g b/b/b | "Bb"bd d/e/f | 
+"F7"gc c/d/e | "Bb"fB B/c/d | "Eb"g/g/g b/b/b | "Bb"bd d/e/f | "F7"gc e/d/c | "Bb"Bb"_> Teil A,B" bz :|

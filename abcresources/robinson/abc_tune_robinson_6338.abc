@@ -1,0 +1,22 @@
+X:1
+T:Liestler Walzer  CF  (wz07776) 
+T: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.142  (wz07776) orig. C,F
+S:Überliefert durch A. Hufschmid und E.  Dalcher
+%%MIDI program 21
+%%partsbox)
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"GG/G/G | GGG | d2c | "G7"Bzz | GG/G/G | GGG | f2e | dzz | f2e | 
+d2c | B2A | Gzz :| [P:B] "C"G>G G | (e d)c | "G7"B>BB | f3 | B>BB | f ed | "C"c>cc | 
+e3 | G>GG | (ed)c | "F"A>AA | (fe)d | ("C"ed)c | ("G7"dc)B | ("C"c3 | c)zz || [P:C] "G7"dzd | 
+(de).d | "F"c2A | "G7"GBc | dzd | (de).d | "F"c2A | "C"Gcd | eze | (ef).e | "F"d2c | 
+B2A | "C"G2c | "G7"B2d | ("C"c3 | c)zz || [P:D] [K:F]  "F"d2c | d2A | "C7"G2z | zed | c2B | 
+A2G | "F"F2z | zfe | f2e | d2c | "Bb"B2z | zgf | "C7"e2d | c2e | "F"f>ff | fzz |] 
+W:
+%W:Anmerkung H.C.: 
+% wz07776
+% May 25, 2018

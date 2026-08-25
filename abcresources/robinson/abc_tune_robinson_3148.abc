@@ -1,0 +1,21 @@
+X:64
+T:Schaufelstiel
+A:Bavaria
+M:3/4
+N:(slow) VVMM (faster) MMMMMMMM (accel throughout)
+O:Germany
+Q:1/8=320
+R:Zwiefache
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+S:Cathy Goss
+K:G mixolydian
+"slow"G3B d2 | G3B d2|\
+M:2/4
+[e4c4][c4A4]|[d4B4][B4G4]|\
+M:3/4
+G3B d2 | G3B d2|\
+M:2/4
+c4A4|G8 :|
+|:\
+"faster"e4e4| d4d4| c4c4| B4d4|\
+e4e4| d4d4| c4c4| B8 :|

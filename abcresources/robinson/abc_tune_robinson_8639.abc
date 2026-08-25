@@ -1,0 +1,31 @@
+X:25
+T:Mrs Gordon of Knockespoch
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 2
+K:F major
+%%staves {1 2}
+V:1
+A | \
+F<F ~F2 (Ac)cd | _efgE GBBd | cF ~F2 (FA)Ab | afge fdcA |
+F<F ~F2 (Ac)cd | _efgE GBBd | cF ~F2 (FA)Ab | afge f2 f |]
+g | \
+afcf cfaf | bgaf eg-g!wedge!b | afcf cfaf | ecde f2 fg |
+afcf cfaf | bgaf eg-g!wedge!b | afge fdcA | cfge ~f2 f |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] [Ff] [Ff] [_A_a] | [Gg] [_E_e] [Ee] [Ee] | \
+[Ff] [Ff] [Ff] [_E_e] | [Ff] [Cc]   [Ff] [Ff] |  \
+[Ff] [Ff] [Ff] [_A_a] | [Gg] [_E_e] [Ee] [Ee] | \
+[Ff] [Ff] [Ff] [_E_e] | [Ff] [Cc]   [Ff] [Ff]/ |]  \
+z/ | \
+[fac'] [fac'] [fac'] [fac'] | [ec'] [fc'] [cgc'] [cgc'] | \
+[fac'] [fac'] [fac'] [fac'] | [gbc'] [gbc'] [fac'] [fac'] | \
+[fac'] [fac'] [fac'] [fac'] | [ec']  [fc']  [cgc'] [cgc'] | \
+[fc'] [fb] [fb] [fac'] | [fac'] [cc'] [fac'] [fac']/ |]

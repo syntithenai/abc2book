@@ -1,0 +1,32 @@
+X:2
+T:Tschiferli-Juiz   2001 F
+T:Monika Ettlin-Mathis (12.12.1974)
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+M:3/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:F major
+[P:A] F/A/ | c>dc | fdf | e>ec | B2C/C/ | B>cd | dcB | A2d | 
+c2C/C/ | c>dc | fdf | e>ec | B2C/C/ | B>cd | dcB | (A3 | !fermata!A2) ||
+L:1/8
+M:2/4 
+[P:B] !fermata!c!fermata!d | c2cA | f2ed | c2Bc | E4 | c2Bc | Ed cE | F2Fd | c4 | c2cA | 
+f2ed | c2Bc | E4 | c2Bc | Ed cE | !fermata!F2 cd | c2cA | f2ed | c2Bc | E4 | 
+c2Bc | Ed cE | F2Fd | c4 | c2cA | f2ed | c2Bc | E4 | c2Bc | Ed cE | !fermata!F2 || 
+M:3/4
+[P:C] F>F | d3B (3fed | c>BA2cd | c>BE2cd | c>BA2F>F | 
+d3B (3fed | c>BA2cd | c>B Ed | c2 Ec | !fermata!f4 F>F | d3B (3fed | c>BA2cd | 
+c>BE2cd | c>BA2F>F | d3B (3fed | f>Ac2e>d | c3d c2 | g2| !fermata!f4 |]
+W:
+W:Reihenfolge: A - B - C
+W:
+W: dem Tschiferli Cheerli Obwalden gewidmet (2011) 
+W:notiert Edi Gasser. Angaben: Monika Ettlin
+W:UJV-Naturjodelsammlung: Code-Nr: 59-02
+W:http://www.naturjodler.ch/code 59.htm  (with AUDIO)
+%September 29, 2018

@@ -1,0 +1,19 @@
+X:223
+T:Schottisch  FCBb (st06922)  ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.249 (st06922) orig. F,C,Bb
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A]  "F"FA A/B/A | ("Gm"AG)G2 | ("C7"^c/d/).d (c/d/).d | "F"dc c/=B/c | FA A/B/A | ("Gm"AG)G2 | "C7"ed BG | "F"FF Fz :| [K:C] 
+[P:B]  |: "C"G>G Ge | "G7"ed (d/^c/d) | G>G Gf | "C"fe (e/^d/e) | G>G Ge | "F"A>A Af | "C"eG "G7"Bd | "C"cc c"_>Teil A"z :| [K:Bb] 
+[P:C]  |: "Bb"d2 (e/d/c/B/) | ("F7"BA) .Ag/g/ | gA Af/f/ | "Bb"fB BF/B/ | d2 (e/d/c/B/) | ("F7"BA) .Ag/g/ | gf Ac | "Bb"BB Bz :| 
+[P:D]  |: "Eb"GB/A/ !>!B2 | "Bb"FB/A/ !>!B2 | "F7"eA c>c | "Bb"dF B>B | "Eb"GB/A/ !>!B2 | "Bb"FB/A/!>!B2 | "F7"eF A>c | "Bb"BB B"_Fine"z :| 
+% st06922
+% April 15, 2017

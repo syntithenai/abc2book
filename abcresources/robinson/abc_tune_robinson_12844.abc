@@ -1,0 +1,30 @@
+X:19
+T:Rory O'Moore.3voices. AJH.019
+M:6/8
+L:1/8
+Q:3/8=100
+S:A.J.Hughes MS
+O:England
+A:Shropshire, N
+V:1
+V:2
+V:3 clef=bass
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:A major
+[V:1] |: f | eAA cAA | eAA B2f | eAA cAA | GBBB2f |
+[V:2] |: d | cee eee | ccc[c2A2]d | cee ecc | BGGG2d |
+[V:3] |: z | A,3A,3 | A,3A,3 | A,3A,,3 | E,2E,E,2E, |
+%
+[V:1] eAA cAA | eAAA2c | efe efg | aAAA2 :|
+[V:2] cee eee | ecc c2A | cdc cde | cccc2 :|
+[V:3] A,3A,3 | A,3A,3 | E,3E,F,G, | A,2A,,A,,2 :|
+%
+[V:1] |: a | agf fed | dcB A2G | FGA Bcd | egf e2a |
+[V:2] |: f | fed dcB | BAGF2E | Ace Ace | AAAA2[fd] |
+[V:3] |: A, | A,G,F, F,E,D, | D,C,B,, A,,2A,, | E,G,B, E,2z | E,G,B, E,2A, |
+%
+[V:1] agf fed | dcB A2G | FGA Bcd | egf e2 :|
+[V:2] fed dcB | BAGF2E | Ace Ace | [cAF][cAF][cAF][c2A2F2] :|
+[V:3] A,G,F, F,E,D, | D,C,B,, A,,B,,C, | D,3D,3 | E,3E,2 :|

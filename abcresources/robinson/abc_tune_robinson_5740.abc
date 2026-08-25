@@ -1,0 +1,33 @@
+X:3
+T:Büchel-Juiz  Bb  ABAC
+T:Fridolin Haldi (9.5.1918-14.11.2012)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "_Büchel" F | B>F d>B | fd (b2 | !breath!b)"_Jodler"dc B/g/ | f>ecA | !breath!F3"_Büchel"f | c>F c>F | 
+cB (c2 | !breath!c)"_Jodler"fcd | B>D Fd | B2z "_Büchel"F | B>F d>B | fd (b2 | !breath!b)"_Jodler"dc B/g/ | 
+f>ecA | !breath!F3"_Büchel"f | c>F c>F | cB (c2 | !breath!c)"_Jodler"fcd | B>F D/F/d/c/ | B2z ||
+L:1/4
+M:3/4
+[P:B]  d | c>B G/E/ | C>B, C/B/ | A2 C | F2  f | e>d c | e>d  c | A2 d | c2 d | 
+c>B G/E/ | C>B, C/B/ | A2 C | F2  f | e>d c | eEc | (F3 | F)zd | 
+c>B G/E/ | C>B, C/B/ | A2 C | F2  f | e>d c | e>dc | A2d | !breath!c2d | c>B G/E/ | 
+c>B, C/B/ | A2C | F2f | e>dc | ede | ffe | !fermata!_e2z || 
+M:3/4
+[P:C] D/E/ | F2B | c2d | f>ed | c2F | f>ed | e>dc | B2D | F2D/E/ | F2B | c2d | f>ed | 
+c2F | f>ed | edc | (B3 | B)zD/E/ | F2B | c2d | f>ed | c2F | f>ed | e>dc | B2D | 
+F2D/E/ | F2B | c2d | f>ed | c2F | f>ed | edc | (B3 | !breath!B2)c | d2 (3c/d/c/ | !fermata!B3 |] 
+%W:
+%W:Reihenfolge: A-B-A-C
+W:Der Büchel-Juiz (B-Dur) ist identisch mit dem Alphorn-Juiz (As-Dur)
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 15-02
+W:http://www.naturjodler.ch/code 15.htm  (with AUDIO)
+%May 9, 2018

@@ -1,0 +1,30 @@
+X:3
+T:Mrs Mary Grant McInnes, Dandaleith
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 3
+K:F major
+%%staves {1 2}
+V:1
+|: f | \
+c/F3/!trill!c3/A/ c/F3/f3/d/ | c/F3/c3/A/ G2 (GA) | \
+c/F3/c3/A/        c/F3/a3/g/ | f/d3/c3/A/ F2 F :|
+f | \
+cfAf cfaf     | d/f3/!trill!c3/A/ {G}G2 Gf | \
+dfcf Af{fg}ag | f/d3/!trill!c3/A/ F2 Ff |
+cfAf cfaf     | d/f3/!trill!c3/A/ {G}G2 Gf | \
+FAGB Aca3/g/  | f/d3/!trill!c3/A/ F2 F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | [Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Cc] [Cc] | \
+[Ff] [Ff]  [Aa] [Aa] | [Bb] [cc'] [Ff] [Ff]/ :| \
+z/ | \
+[fac'] [fac'] [fac'] [fac'] | [fbd'] [fac'] [cc'] [cc'] | \
+[fb]   [fa]   [fac'] [fac'] | [Bb]   [cc']  [Ff]  [Ff] | \
+[fac']  [fac'] [fac'] [fac'] | [fbd'] [fac'] [cc'][ [cc'] | \
+[fc'] [ec'] [fac'] [Aa] | [Bb] [cc'] [Ff] [Ff]/ |]

@@ -1,0 +1,32 @@
+X:5
+T:Zyflucht-Juiz  Bb  ABC
+T:Hans Durrer-von Flüeh  (25.6.1921-16.8.2002)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:6/8
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "mässig bewegt"  B3D F B/c/ | d3 D F d | c3E F d/c/ | B>d B/D/ F2z | B3D F B/c/ | 
+d3D F d | c>F f>e d c |  B4zz | B3D F B/c/ | d3 D F d | 
+c3E F d/c/ | B>d B/D/ F2z | B3D F B/c/ | d3D F d | c>F f>e d c |  !fermata!B4zz || 
+L:1/8
+M:3/4
+[P:B]   F/F/ G/F/ | E>Fc2 F/G/ F/E/ | D>FB2Fd | e>F Ae fe | d>FB2 F/G/ F/E/ | 
+D>F Bd Fd | c>B AF dc | B3zF/F/ G/F/ | E>Fc2 F/G/ F/E/ | D>FB2Fd | 
+e>F Ae fe | d>FB2 F/F/ G/F/ | E>Fc2 F/G/ F/E/ | D>F Bd Fd | c>B AF dc | B4z2 ||
+M:3/4
+[P:C] B,>"_=F,"F B,C D/F/ B/c/ | d>BF2 D/B/ F/d/ | c>Fc2 E/A/ F/d//c// | B>F !breath!B4 | B,>"_=F,"F B,C D/F/ B/c/
+d>B/d// F2 D/B/ F/d/ | c>F c/f/ e/F/ dc | B4z2 | B,>"_=F,"F B,C D/F/ B/c/ | d>BF2 D/B/ F/d/ | 
+c>Fc2 E/A/ F/d//c// | B>F !breath!B4 | B,>"_=F,"F B,C D/F/ B/c/ | d>B/d// F2 D/B/ F/d/ | c>F c/f/ e/F/ dc | !fermata!B4z2 |] 
+%W:Reihenfolge: A-B-C
+W:
+W:Musik: Hans Durrer-von Flüeh, bearbeitet: Karl Anderhalden
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 11-03
+W:http://www.naturjodler.ch/code 11.htm  (with AUDIO)
+%May 7, 2018

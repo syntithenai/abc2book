@@ -1,0 +1,15 @@
+X:67
+T: Jodel-Walzer FBb (wz05120)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.373 (wz05120) orig. F,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"c |: fed | "C7"e>dc | e>dc | "F"f>dc | fed | "C7"e>dc | cde |1 "F"fzc :|2 "F"fzz || 
+[P:B] |: [L:1/8] "C7"gb beg2 | "F"fa ac f2 | "C7"eg gce2 | "F"fg abc'2 | "C7"gb be ge | "F"fa acf2 | "C7"eg gc eg |1 "F"f2z2z2 :|2 "F"f2z2 f2 || [K:Bb] 
+[P:C] |: [L:1/4] "Bb"b>ff | d2f | "F7"a>ff | e2f | a>gf |1 agf | "Bb"bf>d | !>!B2z :|2 "F7"feA | "Bb"(B3 | B)zz |] 
+% June 2, 2016

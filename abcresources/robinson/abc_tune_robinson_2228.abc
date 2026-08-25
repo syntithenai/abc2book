@@ -1,0 +1,30 @@
+X:3037
+T:Minestrone Jig* % nf<bb
+B:"Northern Fiddler" 101 (SD) ("unidentified jig")
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:As far as I can tell, this tune is a combination of three
+I:other jigs:
+I:Part A & B = "Shandon Bells"
+I:Part C = not sure
+I:Part D = 2nd part of "Kitty Lie Over"
+I:Part E = 1st part of "Kitty Lie Over"(BB)
+L:1/8
+M:6/8
+R:Jig
+Q:320
+K:D major
+P:A
+B|AFD DFA|dfd cBA|BEE EDE|B2A Bcd|
+AFD DFA|dfd cBA|Bcd ecA|d3 d2:|
+P:B
+g|fdd dcd|faa afd|cAA eAA|cAc efg|
+fdd dcd|faa afd|cAA ABc|d3d2:|
+P:C
+D|DFA BAF|ABd edB|B2B AFD|F<EE-E2E|
+DFA BAF|ABd edB|B2B AFD|ADD D2:|
+P:D
+g !segno!|fdd dcd|fdd d2g|fdd def|gfg e2g|
+f2a e2g|B2A A2F|ABA GFE|FDD D2:|
+P:E
+B|AFD DFA|BcB BAF|ABA AFD|FEE E2B|
+AFD DFA|BcB BAF|ABA AFE|FDD D2 "_DS":|

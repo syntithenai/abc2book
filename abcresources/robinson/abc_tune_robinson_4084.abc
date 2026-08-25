@@ -1,0 +1,21 @@
+X:134
+T:Polka  GC (ABACD) (pk09343)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.195 (pk09343) orig. G,C
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+[P:A] "G"b2^ab Bc^cd | "Am"f2^de A2A2  | "G"d2Bd "D7"e2F2 | "G"G2Be d2d2 | b2^ab Bc^cd | "Am"f2^de A2A2  | "G"d2Bd "D7"e2F2 | 
+"G"G2g2 g2z2 :: [P:B] [K:C] "C"g2^fg c'gec | "Dm"bafd A2A2 | "G7"Bgfa g2B2 | "C"EcGe d2c2 | g2^fg c'gec | "F"bafd A2A2 | 
+"G7"Ggfa GdBg | "C"c2c2 c2"_>Teil A"z2 :| [P:C] "C"e2e2 dcBA | G2e2c4 | EGcG ecae | "G7"f2B2B4 | {/e}f2f2 edcB | 
+G2B2A4 | GBdB agd^d | "C"e2e2e4 | e2e2 dcBA | G2e2c4 | EGcG ecc'b | "F"b2a2a4 | {/a}g2f2 {/g}fed2 | 
+{/f}"C"e2d2 {/d}cBA2 | "G7"B2AG fed2 | "C"c2c2 c2gg [P:D] |: "G7"gBda gfed | "C"gcea gedc | "G7"BbAa GgFf | 
+"C"EeGc A2A2 | "G7"gBda gfed | "C"gcea gedc | "G7"BbAa GfFB |1 "C"c2e2 c2gg :|2 "C"c2e2 c2z2 |]  
+%W:Parts: ABACD
+% pk09343

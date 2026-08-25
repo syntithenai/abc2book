@@ -1,0 +1,24 @@
+X: 9
+T:Miss Cameron's Reel. -- Balvenie
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 3
+K:Bb major
+%%staves { 1 2 }
+V:1
+f | \
+dB B/B/B ~B2 FB | ABcd egfe | dB B/B/B ~B2 FB | AFcA B2 B :|
+E | \
+(DE)(FB) DBFB | (EF)(GB) EBGB | (Ac)(ec) (gf)(ed) | (ed)(cB) (!trill!BA)(GF) |
+(DE)(FB) DBFB | (EF)(GB) EBGB | dbag fedB | AFcA ~B2 B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+BBBB | fffa | [Bb]BBB | ffBb/ :| \
+z/ | \
+[Bb][Bb][Bb][Bb] | eeee | ffce | ffFF | [Bb][Bb][Bb][Bb] | eeee | BBBB | ffBB/ |]

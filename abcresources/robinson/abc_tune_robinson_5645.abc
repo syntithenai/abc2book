@@ -1,0 +1,26 @@
+X:17
+T: Älpler-Jodel  C (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:2/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] "getragen" C2E2 | G2 (3edc | B>G FG | B,4 | B,2D2 | G2 (3fed | c>G EG | C4 | 
+C2E2 | G2 (3edc | B>G FG | B,4 | B,2D2 | G2 (3fed | (c4 | c2)z2 || 
+[P:B] "etwas schneller" d3c | B2A2 | Gf ed | e3d | c2G2 | c2E2 | F3G/G/ | G2B2 | 
+d2F2 | E3(G/G/) | G2E2 | c4 | d3c | B2A2 | Gf ed | e3d | 
+c2G2 | c2E2 | F3(G/G/) | G2B2 | d3 (^c/d/) | e2d2 | (c4 | c2)z2 || 
+M:3/4
+[P:C] "gemächlich" B,C | D3C B,A, | G,3f ed | e3dc2 | G3e de | f3dB2 | 
+G2z !fermata!f  !fermata!e!fermata!d | (c6 | c2)z2B,C | D3C B,A, | G,3 f ed | 
+e3dc2 | G3e de | f3dB2 | G2z !fermata!f  !fermata!e!fermata!d | (c6 | c2)z2 |]
+W: Reihenfolge: A-B-A-C
+W: 
+W: UJV-Naturjodelsammlung: Code-Nr: 00-19
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 23, 2018

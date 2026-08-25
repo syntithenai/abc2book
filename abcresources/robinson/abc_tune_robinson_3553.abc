@@ -1,0 +1,16 @@
+X:104
+T: Marien-Schottisch CGF (st04993)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.308 (st04993) orig. C,G,F-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABACDC
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"G2ce d2c2 | "G7"B2da g2f2 | B2df A2B2 | "C"c2eg c'geg | G2ce d2c2 | "G7"B2da g2f2 | B2df A2B2 | 
+"C"c2e2 c2z2 :| [P:B] [K:G] "G"!>!d4 bag2 | "D7"fg^ga d'2c'2 | fg^ga b2a2 | "G"agfed4 | !>!d4 bag2 | "D7"fg^ga d'2c'2 | 
+fg^ga b2a2 | "G"g4z2gg | "G7"g2!>!a4de | =f2d2 B2"_>Teil A"G2 |: [P:C] [K:F] "F"cccc c2d2 | !>!c4!>!a4 | 
+"C7"aaaa a2g2 | "F"aaaa a2f2 | cccc c2d2 |  !>!c4!>!a4 | "C7"aaaa a2g2 | "F"f2f2 f2"_Fine"z2 :| [P:D] "Dm"d^cde f2d2 | 
+"A7"^cde2 cde2 | "Dm"d^cde f2d2 | "A7"a4z2aa | a2a2 a2a2 | a4z2c'c' | "C7"c'2c'2 c'2c'2 | c'4z4 | "Gm"b4a4 | "C7"g4"_>Teil C"c'4 |]

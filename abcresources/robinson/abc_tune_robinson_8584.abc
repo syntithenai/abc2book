@@ -1,0 +1,22 @@
+X: 159
+T:Drumbain's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:55 - 1
+K:F major
+%%staves {1 2}
+V:1
+A | \
+F/F/F (fd) cfcA | BdcA BGGA | F/F/F (fd) cfc(A | B)dcB AFF :|
+c | \
+(!trill!fga).f cfa(f | d).fcA BGGe | (!trill!fga).f bgaf | cfaf AFFe |
+(!trill!fga).f bgaf | cfaf bg-ga | fcAf dfc(A | B).d!trill!cB AFF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | bagg | ffff | bc' ff/ :| \
+z/ | ffaf | bagg | ffef | bc'ff | ffef | ffc'c' | afba | bc'ff/ |]

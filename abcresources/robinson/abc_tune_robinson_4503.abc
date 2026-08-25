@@ -1,0 +1,19 @@
+X:35
+T:Polka CF (pk03587)
+B:Hanny Christen. Bd.3 Appenzell. S.254 (pk03587) orig. C,F-Dur
+S: H.C. Jakob Alder, Urnäasch, J.J. Petererm 1895. 
+%%MIDI program 21
+O:Switzerland
+R:Polka
+M:2/4
+L:1/16
+K:C major
+"C"e2dc G2cA | "G7"Bddg gbd'c' | b2ag B2df | "C"a2ge c2Bc | \ 
+   e2dc G2cA | "G7"Bddg gbd'c' | b2ag f2AB | "C"c2e2 c2 z2 :|
+"G7"a2fd B2ba | "C"g2ec G2ef | "G7"g2fd B2ef | "C"g2ec G2eg | \ 
+"G7"a2fd B2ba | "C"g2ec G2ef | "G7"g2fd B2AB | "C"c2e2 c2 "fine"z2 :|  
+K:F %%MIDI gchordon
+|: "F"aaa2 "C7"ggg2 | "F"fff2 F2AF | "C7"ccc2 b2c2 | "F"ccc2 a2c2 | \
+      caa2 "C7"Bgg2 | "F"Aff2 F2AF | "C7"Ecc2 b2e2 | "F"f2a2 f2 z2 :| 
+"Bb"d2cB "C7"g2eg | "F"g2ec fcf2 | "C7"g2ec g2ec | "F"Aaag gffc | \ 
+"Bb"d2cB "C7"g2eg | "F"g2fc f2cf | "C7"g2ec g2ec | "F"f2aa "_>Teil A"f2 z2 :|

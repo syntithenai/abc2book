@@ -1,0 +1,20 @@
+X: 39
+T:Captain Marshall's Fancy
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:14 - 2
+K:A major
+%%staves {1 2}
+V:1
+(AG)AG (AB)cd | edcB AcBA | (!trill!BA)Bc (dc)de | fedc BAGE |
+(AG)AG (AB)cd | edcB AcBA | dfed cedc | FBGE {G}A2 A2 ||
+(A,CE)(A ce)ag | (ag)fe (!trill!fe)dc | (B,EG)(B eg)ba | (!trill!gb)ag (ag)fe |
+(A,CE)(A ce)ag | (ag)fe (!trill!fe)dc | dfBd ceAc | FBGE {G}A2 A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+AAAA | [Ae][Ae]AA | dddd | BdeE | AAAA | [Ae][Ae]AA | ddcA | deaA ||\
+Aaaa | Aaaa | Eeee | Eeed | cAaa | Aaa^a | bgaA | deaA |]

@@ -1,0 +1,32 @@
+X:22
+T:Klewenalp-Juiz. 1996  Bb ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:Bb major
+[P:A] F|d>c B/f/ | c2F | d>dc | B2F | d>Bf | c2F | E/e/ dc | 
+B2F/F/ | d>c B/f/ | c2F | d>dc | B2F | d>Bf | c2F | E/e/dc | B2 || 
+M:3/4
+[P:B] F/F/ | BBd/c/ | BD F/f//d// | cEd/c/ | 
+BdF/F/ | BBd/c/ | BD F/f//d// | cE d/c/ | B2 || 
+M:3/4
+[P:C]  d2F | d>c B/f/ | c3 | E3 | F>EF | d2c | B2c | d3 | d2F | 
+d>c B/f/ | [M:3/4] c3 | [M:4/4] E2e2 | d/c/dFB/d/ | [M:3/4] f/>e/ dc | (B3 | B2)z ||  
+M:3/4
+[P:D] F/F/ | BBd/e/ | dc F/F/ | fc c/e/ | dB F/F/ | 
+BB d/e/ | dc F/F/ | f/>e/ dc | B2F/F/ | BB d/e/ | dc F/F/ | 
+fc c/e/ | dB F/F/ | BBd/e/ | dc F/F/ | f/>e/ dc | B2 |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp Herger
+W:UJV-Naturjodelsammlung: Code-Nr: 22-12
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 21, 2018

@@ -1,0 +1,23 @@
+X:1
+T:Die Frühlingsblume (Polka)  GDC (pk06733)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.73  (pk06733) orig. G,D,C
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"D"dd/d/ dd | d^d=d2 | DD/D/ DD | D^D"D7"=D2 [P:A] |: ("G"B.G) (B.G)  | B/G/B/e/ d2 | (d^c/d/) "Em"gB | "Am"cBA2 | 
+("D7"A.F) (A.F) | A/G/A/B/ c2 | .d(^c/d/) fe | "G".d(^c/d/) B2 | (BG) (BG) | B/G/B/e/ d2 | d(^c/d/) "Em"gB | 
+"Am"Aee2 | "D7".F(F/G/) Ae | "G".d2.B2 | "D7"Ad/e/ dc | "G"BAG2 ::  [P:B] [K:D] "D"F2(FG) | A4 | A2(FA) | d4 | "A7"c2(cB) | 
+A3d | cB AG | "D"F2z2 | F2(FG) | A4 | A2(FA) | "G"B4 | d2 c>B | "D"AFA2 | "A7"AA/A/ AA | 
+"D"dd d"_>Teil A"z :: [P:C] [K:C] ("C"eG) .G.G | G3z | GE/F/ Gc | e3z | ("G7"fB) .B.B | B3z | GB/A/ Ga | 
+"C"g3z | (eG) .G.G | G3z | GE/F/ Gc | "Dm"A3z | "G7"BB/c/ df | "C"eE/F/ Gc | "G7".B(B/A/) .G(A/B/) | "C"ce cz :| 
+W:
+W: Anmerkung H.C.: Aesch, Lampenberg, Wintersingen, s.V. 638
+% pk06733
+% Jan 20, 2018

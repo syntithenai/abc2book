@@ -1,0 +1,20 @@
+X: 46
+T:Mrs Colonel Gordon of Leitchieston's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:17 - 3
+K:A major
+%%staves {1 2}
+V:1
+AECA, AEcA | d/B3/2e3/2c/ BB/B/ ~B2 | AECA, AEcA | d3/2B/ac AA/A/ A2 :|
+(A/c/e a)!wedge!e fdec | dBbc B/B/B ~B2 | (A/c/e a)!wedge!e fdec | dBac A/A/A A2 |
+(A/c/e a)!wedge!e fdec | dBbc B/B/B ~B2 | AECE AcBd | c/e3/2ac A/A/A A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+AAAA | BAEE |  AAAc | deAA :| \
+aad'c' | baee | aad'c' | d'e'aa | aad'c' | baee | [Aa][Aa][Aa][Ee] | [Aa][Ee][Aa][Aa] |]

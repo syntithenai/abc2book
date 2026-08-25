@@ -141,7 +141,9 @@ function checkStrainLyricCount(tune, noteLines) {
     title: tune.name,
     composer: tune.composer,
   })
-  if (lyricsBlocks > 1 && melodyBlocks > 0 && lyricsBlocks !== melodyBlocks) {
+  // One melody chart + several lyric verses is normal (hymns / folk songs).
+  // Only flag when both sides have multiple blocks and the counts disagree.
+  if (lyricsBlocks > 1 && melodyBlocks > 1 && lyricsBlocks !== melodyBlocks) {
     return issue(
       'strain_lyric_count_mismatch',
       'Lyric sections (' + lyricsBlocks + ') and melody strains (' + melodyBlocks + ') differ',

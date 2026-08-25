@@ -1,0 +1,19 @@
+X:211
+T:Rheinländer BbFEb (RL07515) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.205 (RL07515) orig. Bb,F,Eb
+T: Aus dem Repertoire der Dorfmusik Oberwil.  S.201-221
+T:Überliefert durch Gotti Bannier (1876-1947)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:Bb major
+d^c [P:A] |: ("Bb"d2F2) =EFed | ("C7"c2G2) .G2.B2 | "F7"Acf2 Ace2 | "Bb"dcBG F2d^c | d2F2 =EFed | ("C7"c2G2) .G2.B2 | 
+"F"Acf2 fedc |1 "Bb"B2B2 B2d^c :|2 "Bb"B2B2 B2z2 |: [P:B] [K:F] "F"abaf c4 | "Bb"fefdB4 | "C7"cde2 efga | b2ba"F"f4 | 
+abaf c4 | "Bb"fefdB4 | "C7"cdef gcde |1 "F"f2f2 f2z2 :|2 "F"f2f2 f2d"_>Teil A"^c || [K:Eb] Bc [P:C] |: "Bb7"B2d2 d2Bc | 
+"Eb"B2e2 e2fe | "Ab"f2e2 "Bb7"d2c2 | "Eb"c2B2 G2Bc | "Bb7"B2d2 d2Bc | "Eb"B2e2 e2fe | "Ab"dcBA "Bb7"GFED |1 "Eb"E2e2 e2Bc :|2 "Eb"E2e2 e2"_Fine"z2 |] 
+% RL07515
+% Feb 10, 2017

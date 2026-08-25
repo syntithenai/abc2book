@@ -1,0 +1,22 @@
+X:187
+T:Im Tannewald esch Holzaktion (Rheinländer) CGF (RL07707) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.359 (RL07707) orig. C,G,F
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Reinländer
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G [P:A] |: "C"c/>B/c/>d/ e/>d/e/>f/ |  ag g>e | "G7"gf f>d | "C"fe eG | c/>B/c/>d/ e/>d/e/>f/ |  ag g>e | "G7"gf fB |1 
+"C"ce cG :|2 "C"ce cz |: [P:B] [K:G] "G"gd/d/ e/e/d | gd/d/ e/e/d | gg/g/ g/f/e/d/ | "Am"fee2 | ae/e/ f/f/e | ae/e/ f/f/e | 
+"D7"a/g/f/e/ d/c/B/A/ |1 "G"GB Gz :|2 "G"GB G"_>Teil A"G || [K:F] c [P:C] |: "F"a/g/f/e/ "Bb"g/f/e/d/ | ("F"c2A).c | ("C7"B2G).B | 
+("F"A2F).c | a/g/f/e/ "Bb"g/f/e/d/ | ("F"c2A).c |1 ("C7"B2G/).C/.D/.E/ | "F"FF Fc :|2 ("C7"B2G/).c/.d/.e/ | "F"ff f(c/f/) [P:D] |: "C7"ee e(B/d/)  | 
+"F"cc cc/c/ | "C7"cB AG | ("F"A2F)(c/f/) | "C7"ee eB/d/ | "F"cc cc/c/ | "C7"cB AG |1 "F"FF F(c/f/) :|2 "F"FF F"_fine"z |] 
+W:
+W:Anmerkung H.C.: s.V.89 (cf. fascimile of HC's notation, p359)
+% RL07707
+% 23 Sep, 2017 (Traum "Scheiße!")

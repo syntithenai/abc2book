@@ -1,0 +1,51 @@
+X:3
+T:de Churer. BbEb
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=74
+R:Naturjodel
+M:6/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] [M:6/4] F2 | [M:4/4] (e2 e/)c/A/G/ F A,3 | [M:6/4] ("Bb"B,2B,)D F>F d2B2 GB, | "F7"A,3C F>F e2A2 GA, | [M:4/4] ("Bb"B,2B,)D F>F d<c | 
+%w:Jo  u_du dü du dü o  lo_jo lo lo u du ü-o  lo jo lo lo u du dü-o  lo_do lo lo u lü
+B6 F>F | (e2 e/)c/A/G/ F A,3 | [M:6/4] "Bb"B,3D F>F d2B2 GB, | "F7"A,3C F>F f2 eF Ac | [M:4/4] "Bb"B8 |] 
+%w:u jo lo u_du dü du dü o   lo jo lo lo u du ü-o  lo jo lo lo u du-o u lü   u
+P:B
+L:1/4
+K:Eb
+[M:6/4] ECDB, CD | ("Eb"EE//)B//G//B// cGBE | ("Bb7"DD//)B//A//B// cABD | "Eb"Ee d/<c/B3 | 
+%w:jo lo lo la ho lo  jo_ü du dü du dü du jo   lo_ü lu dü u dü du jo   lo u du lü du 
+ECDB, CD | ("Eb"EE//)B//G//B// cGBE | ("Bb7"DD//)B//A//B//cBdB | [M:4/4] "Eb"e4 |] 
+%w:jo lo lo la ho lo  jo_ü du dü du dü du jo   lo_ü du dü du dü du dü   u 
+P:C
+K:Bb
+[M:6/4] F>CE F/e/ c2 | "Bb"F>B,D F/d/ B c/B/ | "F7"AcFf e/F/ A/c/ | "Bb"B>D FBD2 | 
+%w:jo lo lo lo-u lu  jo lo lo lo-u lu u-li  u lu jo u du-jo u lü  du jo lo u lu 
+"F7"F>CE F/e/ c2 | "Bb"F>B,D F/d/ B c/B/ | "F7"AcFf e/F/ A/c/ | [M:4/4] "Bb"B4 |] 
+%w:jo lo lo lo-u lu  jo lo lo lo-u lu u-lü  u lu jo u dü-o u-lü  u
+Q:1/2=70
+P:D
+F/F/ | .d !tenuto!B  c/B/A/G/ | "Bb"FB,D>G | "F7"FA,C>G | "Bb"FB,D D/F/ | dB c/B/A/G/ | "Bb"FB,D2 | 
+%w:jo lo u u lü-du-lü-du  dü ja la dü  dü ja la di  dü ja la jo lo  u u lü-du-lü-du  dü ja la 
+[M:6/4] "F7"F>Ac  f>e !fermata!c/!fermata!d/ || [M:4/4] "piu mosso" "Bb"B3 F/F/ || d/c/B/A/ c/B/A/G/ | "Bb"FB,D>G | "F7"FA,C>G | 
+%w:jo u lu u lu du lu  lu jo lo  li-du-li-du-li-du-li-du  dü ja la di  dü ja la di 
+"Bb"FB,D F/F/ | d/c/B/A/ c/B/A/G/ | "Bb"FB,D2 | [M:6/4] "F7"F>"rit."Acf>e !fermata!c/!fermata!d/ | [M:4/4] "Bb"B3z |] 
+%w:du ja la jo lo  li-du-li-du-li-du-li du  dü ja la   jo u du du lu lu-u  lu
+W:
+%W:Parts: ABCD
+%W: trad. Toggenburg
+%W: Nach den Jodlern Ruedi Bleiker, Emil Brunner, Emil Alder,  JK Wattwil
+%W: Schallplatte Disques ESSE Genève (Privat Aufnahme. ca. 1960)
+%W: Der Stammvater dieses Jodels dürfte Walter Brunner sein
+%W:Um diesen Jodel richtig zu interpretieren ist eine ausgefeilte Zungenschlag Technik erforderlich,
+%W:  die seit Ruedi Bleiker kein Jodler mehr beherscht.
+%W:Der gleiche Jodel (Teile A-B-C) ist auch unter dem Namen "De Herisauer", 
+%W: CD Jodelklub Ebnat-Kappel, und "Toggenburger Naturjodel" Schallplatte TEP 1450, 
+%W:Jodel Doppelquartett Ebnat-Kappel zu finden, jedoch mit zwei anderen Schlussteilen. 
+%W:hhttps://www.roothuus-gonten.ch/mediendateien/jodel/pdf/De Churer.pdf
+%W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #1238.10
+% 03.03.2019

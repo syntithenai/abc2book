@@ -44,6 +44,7 @@ ABC_PAGE_HOST_SUFFIXES = (
     "abcnotation.com",
     "folkinfo.org",
     "norbeck.net",
+    "norbeck.nu",
     "henrik.norbeck.org",
     "jc.tzo.net",
     "mandolintab.net",
@@ -67,6 +68,9 @@ ABC_PAGE_HOST_SUFFIXES = (
     "irishtune.info",
     "sessionite.com",
     "themusicofireland.com",
+    "folktunefinder.com",
+    "richardrobinson.tunebook.org.uk",
+    "tunebook.org.uk",
 )
 
 WEB_ABC_SITE_HOSTS = (
@@ -77,14 +81,45 @@ WEB_ABC_SITE_HOSTS = (
     "irishtune.info",
     "sessionite.com",
     "themusicofireland.com",
+    "norbeck.nu",
+    "norbeck.net",
+    "trillian.mit.edu",
+    "folktunefinder.com",
+    "richardrobinson.tunebook.org.uk",
 )
 
 SONG_TYPE_HINTS = {
     "song": ("lyrics", "folk song", "ballad"),
     "instrumental": ("instrumental", "tune", "melody"),
-    "traditional_tune": ("traditional", "irish tune", "folk tune", "session tune"),
+    "traditional_tune": ("traditional", "folk tune", "session tune", "irish tune"),
     "choral": ("choral", "choir", "satb"),
 }
+
+# Title-token → extra web query fragments for continental / non-Irish repertoire.
+REGION_TITLE_HINTS = (
+    (
+        ("bourree", "bourr", "an dro", "andro", "hanter dro", "chapelloise",
+         "scottische", "schottische", "schottishe", "ridée", "ridee", "gavotte"),
+        ("french abc", "breton abc", "bourree abc"),
+    ),
+    (
+        ("polska", "slangpolska", "släng", "slang", "halling", "reinlender",
+         "dopvals", "pols", "gånglåt", "ganglat", "hambo", "schottis"),
+        ("swedish abc", "norbeck", "polska abc"),
+    ),
+    (
+        ("freylekhs", "freilach", "nigun", "nign", "skotshne", "bulgar", "doina", "hora"),
+        ("klezmer abc", "site:trillian.mit.edu"),
+    ),
+    (
+        ("rachenitsa", "paidushko", "chuperlika", "kopanitsa", "geampara", "kolo"),
+        ("balkan abc", "site:trillian.mit.edu"),
+    ),
+    (
+        ("maltese", "contradanze", "parata", "branle de malthe", "hamrun"),
+        ("maltese dance abc", "maltese abc"),
+    ),
+)
 
 ABC_BLOCK_RE = re.compile(
     r"(X:\s*\d+.*?)(?=\nX:\s*\d+|\Z)",
@@ -259,6 +294,27 @@ async def _emit_progress(on_progress, stage, message, progress):
         await on_progress(stage, message, progress)
 
 
+def region_query_hints_for_title(title):
+    """Return extra query fragments inferred from continental dance / tradition tokens."""
+    import unicodedata
+
+    folded = unicodedata.normalize("NFKD", str(title or ""))
+    folded = "".join(ch for ch in folded if not unicodedata.combining(ch)).lower()
+    folded = re.sub(r"[^a-z0-9 ]+", " ", folded)
+    folded = re.sub(r"\s+", " ", folded).strip()
+    extras = []
+    seen = set()
+    for tokens, hints in REGION_TITLE_HINTS:
+        if any(token in folded for token in tokens):
+            for hint in hints:
+                key = hint.lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                extras.append(hint)
+    return extras
+
+
 def build_web_abc_queries(title, song_type="instrumental", artist=""):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
@@ -266,6 +322,7 @@ def build_web_abc_queries(title, song_type="instrumental", artist=""):
         return []
     song_type = normalize_song_type(song_type)
     hints = SONG_TYPE_HINTS.get(song_type, SONG_TYPE_HINTS["instrumental"])
+    region_hints = region_query_hints_for_title(title)
     quoted_title = '"{0}"'.format(title)
     queries = []
     if artist:
@@ -275,9 +332,13 @@ def build_web_abc_queries(title, song_type="instrumental", artist=""):
             "abc notation {0} {1}".format(quoted_title, artist),
             'site:abcnotation.com {0} {1}'.format(quoted_title, quoted_artist),
         ])
+    # Prefer region-aware hints over generic Irish-session phrasing when detected.
+    primary_hints = list(region_hints[:2]) + list(hints[:2])
+    if not primary_hints:
+        primary_hints = list(hints[:2])
+    for hint in primary_hints[:3]:
+        queries.append("abc notation {0} {1}".format(quoted_title, hint))
     queries.extend([
-        "abc notation {0} {1}".format(quoted_title, hints[0]),
-        "abc notation {0} {1}".format(quoted_title, hints[1]),
         'site:abcnotation.com abc {0}'.format(quoted_title),
         '{0} filetype:abc'.format(quoted_title),
         '{0} ".abc"'.format(quoted_title),
@@ -286,7 +347,16 @@ def build_web_abc_queries(title, song_type="instrumental", artist=""):
         quoted_artist = '"{0}"'.format(artist)
         queries.append('{0} {1} filetype:abc'.format(quoted_title, quoted_artist))
     if song_type == "traditional_tune":
-        queries.append('site:thesession.org {0}'.format(quoted_title))
+        # Keep The Session for Celtic overlap, but do not make it the only traditional path.
+        if not region_hints:
+            queries.append('site:thesession.org {0}'.format(quoted_title))
+        else:
+            queries.append('site:thesession.org {0}'.format(quoted_title))
+            for hint in region_hints[:2]:
+                if hint.startswith("site:"):
+                    queries.append("{0} {1}".format(hint, quoted_title))
+                else:
+                    queries.append("{0} {1}".format(quoted_title, hint))
     elif song_type == "song":
         queries.append("abc notation {0} {1}".format(quoted_title, hints[2]))
     else:
@@ -1032,12 +1102,16 @@ TRADITIONAL_ABC_SOURCES = (
     "folktunefinder.com",
     "folkinfo.org",
     "norbeck.net",
+    "norbeck.nu",
     "henrik.norbeck.org",
     "traditionalmusic.co.uk",
     "irishtune.info",
     "folkwiki.ibiblio.org",
     "contemplator.com",
     "folktunes.org",
+    "trillian.mit.edu",
+    "richardrobinson.tunebook.org.uk",
+    "tunebook.org.uk",
 )
 
 
@@ -1421,12 +1495,24 @@ def _notation_manual_result_from_muse_manual(muse_manual):
     return None
 
 
-async def search_notation(title, artist="", song_type="instrumental", on_progress=None):
+async def search_notation(title, artist="", song_type="instrumental", on_progress=None, abc_hint=""):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
+    abc_hint = str(abc_hint or "").strip()
     song_type = normalize_song_type(song_type)
-    if not title:
+    if not title and not abc_hint:
         raise ValueError("Song title is required")
+    if not title and abc_hint:
+        # Contour-only search: invent a placeholder title from ABC header if present.
+        fields = parse_abc_header_fields(abc_hint)
+        title = str(fields.get("T") or "Untitled").strip() or "Untitled"
+
+    from continental_abc_fetch import collect_continental_abc_candidates
+    from local_abc_resources import (
+        collect_local_abc_candidates,
+        collect_local_abc_contour_candidates,
+        local_abc_resources_enabled,
+    )
 
     async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
         session_candidates = await collect_thesession_candidates(
@@ -1440,19 +1526,10 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         await _emit_progress(
             on_progress,
             "sources",
-            "Searching ABC, MuseScore, and archives...",
+            "Searching local ABC, web ABC, MuseScore, and archives...",
             0.4,
         )
-        (
-            web_result,
-            muse_result,
-            josquin_result,
-            cpdl_result,
-            imslp_result,
-            openscore_result,
-            musicalion_result,
-            w3c_result,
-        ) = await asyncio.gather(
+        gather_jobs = [
             collect_web_abc_candidates(
                 client,
                 title,
@@ -1502,8 +1579,41 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
                 artist,
                 on_progress=on_progress,
             ),
-            return_exceptions=True,
-        )
+            collect_continental_abc_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+        ]
+        if local_abc_resources_enabled():
+            gather_jobs.append(
+                collect_local_abc_candidates(
+                    title,
+                    artist=artist,
+                    on_progress=on_progress,
+                )
+            )
+        if abc_hint:
+            gather_jobs.append(
+                collect_local_abc_contour_candidates(
+                    abc_hint,
+                    on_progress=on_progress,
+                )
+            )
+
+        gathered = await asyncio.gather(*gather_jobs, return_exceptions=True)
+
+        web_result = gathered[0] if len(gathered) > 0 else []
+        muse_result = gathered[1] if len(gathered) > 1 else []
+        josquin_result = gathered[2] if len(gathered) > 2 else []
+        cpdl_result = gathered[3] if len(gathered) > 3 else []
+        imslp_result = gathered[4] if len(gathered) > 4 else []
+        openscore_result = gathered[5] if len(gathered) > 5 else []
+        musicalion_result = gathered[6] if len(gathered) > 6 else []
+        w3c_result = gathered[7] if len(gathered) > 7 else []
+        continental_result = gathered[8] if len(gathered) > 8 else []
+        extra_results = gathered[9:]
 
         muse_manual = _collector_manual_candidates(muse_result)
         archive_manual = _merge_manual_candidates(
@@ -1511,7 +1621,7 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             openscore_result,
             musicalion_result,
         )
-        pooled = dedupe_candidates(
+        pooled_list = (
             list(session_candidates)
             + _collector_results_or_empty(web_result)
             + _collector_results_or_empty(muse_result)
@@ -1520,7 +1630,12 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             + _collector_results_or_empty(imslp_result)
             + _collector_results_or_empty(openscore_result)
             + _collector_results_or_empty(w3c_result)
+            + _collector_results_or_empty(continental_result)
         )
+        for extra in extra_results:
+            pooled_list.extend(_collector_results_or_empty(extra))
+
+        pooled = dedupe_candidates(pooled_list)
         candidates = finalize_notation_candidates(
             pooled,
             title,
@@ -1631,6 +1746,17 @@ async def _collect_abc_fallback_candidates(client, title, artist="", song_type="
             on_progress=on_progress,
         )
         candidates.extend(filter_notation_candidates(session, title, artist))
+    try:
+        from local_abc_resources import collect_local_abc_candidates, local_abc_resources_enabled
+        if local_abc_resources_enabled():
+            local = await collect_local_abc_candidates(
+                title,
+                artist=artist,
+                on_progress=on_progress,
+            )
+            candidates.extend(local if isinstance(local, list) else [])
+    except Exception:
+        pass
     await _emit_progress(on_progress, "web", "Searching web ABC...", 0.55)
     web = await collect_web_abc_candidates(
         client,

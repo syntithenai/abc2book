@@ -1,0 +1,25 @@
+X:78
+T:Muses,The. GS.078
+T:Three Meet,aka. GS.078
+M:6/8
+L:1/8
+Q:3/8=120
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Yorkshire - Leeds
+N:Where '$' is shown above the stave this represents  the '$' as in D.S.
+N:- dal segno. They are actually  above and below the first bar line and
+N:the  double bar at the start of the minor section, which also has a D.C
+H:1831
+Z:vmp.Cherri Graebe
+B:Village Music project, Spencer, George
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/spencer.abc
+K:F major
+"_No time sig.in ms".
+c/2B/2 | "^$" Acf Acf | {e}dcd g2f | ede cde | (fef) a2 (c/2B/2) |!
+Acf Acf |{e}dcd g2f | ede cde | fag f2 :|!
+c | A2cG2c | {G}FEF E2c | A2cG2c | {c}=BAB cde |!
+(f3a2)c | {e}(dcd) (f2^f) | {a}(g^fg) bag | =fed cdB"^DC" ||!
+"^$   Minore" A | {e}d^cd dcd | fab a2f | egf ed^c | d2fA2A |!
+{e}d^cd  {e}dcd | g^fg bag | fed ed^c | dAf "^D. Capo"d2 |]

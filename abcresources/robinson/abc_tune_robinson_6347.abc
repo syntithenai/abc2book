@@ -1,0 +1,24 @@
+X:1
+T:Rosa-Walzer  CGF  (wz07029)  ABACA
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.153  (wz07029) orig. C,G,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"C"edc | g>g g | "G7"dfe |  "C"czG |: [P:A] "C"ezB | "F"cza | (!>!"C"g3 | g)ze | "G7"gzf | dz^d | (!>!"C"e3 | 
+c)zG | ezB | "F"cza | ("C"g3 | g)ze | "G7"gzf | (d2e) | "C"c>cc |1 czG :|2 czz || [K:G] 
+[P:B] |: "D7"d3 | gfe | !>!"G"d3 | deB | "D7"c3 | agf | ("G"e2d) | (e2d) | !>!"D7"d3 | gfe | !>!"G"d3 | 
+deB | ("D7"c2d) | (b2a) | "G"g>gg |1 gzz :|2 gz"_>Teil A"G || [P:C] [K:F] "F"c3 | f3 | c3 | a3 | 
+"C7"B3 | (g2a) | ("F"g2f) | f3 | c3 | f3 | c3 | a3 | "C7"Bcd | (a2g) | "F"fze | f "_>Teil A"zz |]
+%
+%W:Parts: ABACA
+W:
+%W:Anmerkung H.C.: 
+% wz07029
+% 09.06.2018

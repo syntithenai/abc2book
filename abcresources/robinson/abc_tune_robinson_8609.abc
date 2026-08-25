@@ -1,0 +1,27 @@
+X:17
+T:Lord Francis Russell
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 1
+K:F major
+%%staves {1 2}
+V:1
+A | \
+!trill!F2 FA cfcA | cfcA BGGA | !trill!F2 FA cfag | fd!trill!cB AFF ||
+a | \
+bagf   egfe  | fdcA BGGa | bagf         egfe | fdcB AFF(a |
+b)agf (eg)fe | fdcA BGGA | !trill!F2 FA cfag | fd!trill!cB AFF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] fff | [Ff]f[Cc]c | Ff[A,A][A,A] | [Bb] [cc'] [Ff][Ff]/ || \
+z/ | \
+[fac'] [fac'] [fb] [fb] | [fa] [fac'] [cgc'] [cgc'] | \
+[fac'] [fac'] [fb] [fb] | [Bb] [cc'] [Ff] [Ff] | \
+[fac'] [fac'] [fbd'] [fbd'] | [fbd'] [fac'] [cc'] [cc'] | \
+[fac'] [fac'] [fac'] [fac'] | [Bb] [cc'] [Ff] [Ff]/ |]

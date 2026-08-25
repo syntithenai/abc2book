@@ -1,0 +1,25 @@
+X:184
+T:Des Mädchens Klage. Polonaise CF (PL07414)  ABCDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.329 (PL07414) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Polonaise
+M:3/4
+L:1/16
+O:Switzerland
+K:C major
+c2cc c2G2 e2c2 | g2gg g2G2 ^F2G2 || [P:A] "C"e2e4 ((3efe) .d2.c2 | {/a}"G7"g>^fg>a   (g4g.^f).e.d | "Am"c2c4 ((3cdc) .B2.A2 | 
+{/f}"E7"e>^de>f e4  z2((3ede) |  "G7"f2!>!f4(^f2 g3d) | (!>!"C"f4e2)((3GAG) .F2.G2 | "G7"e>(df>)(e d>)(ed>)(c B>)(AG>)(F | "C"E2)G4GA .B.c.d.e | 
+"G7"f2!>!f4(^f2 g3d) | ("C"f4e2)(c'b) (agfe) | ("Dm/F"d^cde) ("G7"fdba) (gfed) | "C"cGed cGed .c4 |] [P:B] "E7"e2ee e2e2 ^f2^g2 | "Am"a2b2 c'6d'2 |  
+("E7"c'2.b2) (c'2.b2) (c'2.b2) | "Am"a4z2.c'.b .a.g.^f.e | "D7"d2dd d2d2 e2^f2 | "G"g2a2 b6c'2 | ("D7"b2.a2) (b2.a2) (.b2.a2) | "G"g4z2(g2 ^f2g2) | "G7"a2a2 (B2>cB/)  .A2.G2 | 
+"C"e2e2 c3G A3G | (!>!"G7"G4 B3)G A3G | (!>!"C"G4 c2)(g2 ^f2g2) | "G7"a2a2 (B2>cB/) .A2.G2 | "C"e2e2c4 (dcBA) | Gc.e.g (ag).A.e ("G7"edBd) | 
+("C"cGBd) (cGBd) .c4 |] [P:C] [K:F] "F"A3B c4>c2 | a3g f4>A2 | "C7"G3G B4>B2 |  g3f e4>B2 |"F"A3B c4>c2 | a3g f4>e2 | "Gm"d2(d2 b3)a "C7"g3e | 
+("F"fc).a.g (fc).a.g "_fine".f4 |] [P:D] "A7"a2((3A^ce) a2e2 c2A2 | "Dm"d2((3fef) "A7"a2((3^c=Bc) "Dm"d4 | "G7"g2((3G=Bd) g2d2 B2G2 | "C"c2((3e^de) "G7"g2(=BAB) "_>Teil C""C"c3_B |] 
+W:
+W:Polonaise, nach Stollberg
+W:Part C: duration of notes needs revision
+%%% PL07414
+% Aug 11, 2017

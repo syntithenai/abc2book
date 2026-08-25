@@ -1,0 +1,26 @@
+X:225
+T:Polska
+R:sl\"angpolska
+B:Version 1: SvL \"Ogl 470, efter Carl Gustaf {\AA}strand, Horn
+B:Version 2: SvL Sk{\aa}ne 181
+B:Version 3: Bagge 50
+B:Version 4: SvL Sml 24, efter Karl Andersson, Loftahammar
+O:\"Osterg\"otland, Sk{\aa}ne, Sm{\aa}land
+Z:id:hn-sp-225
+M:3/4
+L:1/16
+K:D
+DFAd BGBd cdef | gfgf edcB AGFE | DFAd BGBd cdef | gfge c2d2 d4 :|
+|: fdfa fdfa a2g2 | gdgb gdgb b2a2 | fdfa fdfa a2g2 |
+gdgb gdgb b2a2 | fdef gfga b2f2 | agec c2d2 d4 :|
+P:version 2:
+|: DFAd BGBd cdef | gfge dcdA GFED | DFAd BGBd cdef | gfge e2d2 d4 :|
+|: Adfd Adfa a2g2 | edef gfga b2a2 | fdfa gfge gbag | fedc e2d2 d4 :|
+P:version 3:
+|: AFA=c BGBd ^cdef | gfge d2A2 GFED | AFA=c BGBd ^cdef |
+gfge e2d2 d4 :||: abaf d2fa a2g2 | egec A2b2 b2a2 | fdfa eceg fdfa |
+agec d2A2 F2A2 | D2a2 fdfa a2g2 | egec A2{e2}b2 b2a2 |
+fdfa gega fdfa | agec e2d2 d4 :|
+P:version 4:
+|: AFAd BGBd cdef | gfge dcBA G2FG | AFAd BGBd cdef | gfge e2d2 d4 :|
+|: f4 f2df a2f2 | g4 g2eg b2g2 | a2af gfgf g2a2 | bgec d8 :|

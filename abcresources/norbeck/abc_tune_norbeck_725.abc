@@ -1,0 +1,19 @@
+X:385
+T:Westering Home
+R:jig
+S:version 1 from Marco Pollier and Kevin Ryan
+H:See also slide#65, "The Gleanntan Frolics"
+D:Brian Rooney: The Godfather
+Z:id:hn-jig-385
+M:6/8
+L:1/8
+K:D
+ABA AFG | Ade f2d | fge fed | fge edB |
+ABA AFG | Ade f2g | afd efe |1 d3 dcB :|2 d3 def ||
+|: ~g3 bag | ~f3 agf | ~e3 ede | fge edB |
+ABA AFG | Ade f2g | afd efe |1 d3 def :|2 d3 dcB ||
+P:version 2
+|: ABA DFG | Ade f2d | g2e fad | ege fdB |
+ABA DFG | Ade f2a | afd efe |1 dge fdB :|2 ~d3 def ||
+|: ~g3 bag | ~f3 afd | eaf g2e | fed ~B3 |
+ABA AFG | Ade f2a | afd efe |1 ~d3 def :|2 ~d3 d2B ||

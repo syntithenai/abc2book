@@ -1,0 +1,18 @@
+X:229
+T: Schwabenliesel (Termer Hopser)  GC (hp00948)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.253 (hp00948) orig. G,C-Dur
+S:Walliser (Volks-)Tänze. S.234-276
+%%partsbox
+%%MIDI program 21
+P:ABACA
+%%MIDI program 21
+R:Hopsa
+O:Switzerland
+M:2/4
+L:1/8
+K:G major
+[P:A] !>!"G"B2!>!B2 | BA/B/ cB | {/B}"D7"A^G A=G | FA dc | !>!"G"B2!>!B2 | BA/B/ cB | {/B}"D7"A^G AB | "G"GG G"_Fine"z :| 
+[P:B]  !>!"D"f2!>!f2 | fe/f/ gf | {/f}"A7"e^d e=d | ^ce ag | !>!"D"f2!>!f2 | fe/f/ gf | {/f}"A7"e^d e=d | "D7"d2"_>Teil A"c2 |] [K:C]
+[P:C]  {cd}"C"eG GG | {AB}cE EE | "G7"D/E/F/G/ A/B/c/d/ | "C"ecg2 | {cd}eG GG | {AB}cE EE | "D7"^F/G/A/B/ c/e/d/c/ | "G"gg g"_d.C."z |] 
+W: Parts: ABACA
+W:Anmerkung H.C.: 1800

@@ -10,43 +10,66 @@ TASK_PRACTICE_TRACK = "practice_track"
 TASK_LINKED_COVER = "linked_cover"
 
 DEFAULT_PRESET_BY_TASK = {
+    # Stable Audio init-audio restyles the MIDI guide. AceStep cover preserves
+    # FluidSynth/GM timbre (often organ-like on hymns) and is optional only.
     TASK_PRACTICE_TRACK: "fast",
     TASK_LINKED_COVER: "balanced",
 }
+
+# Max seconds per Stable Audio request — longer one-shots OOM/timeout on Vulkan.
+STABLE_AUDIO_MAX_CHUNK_SEC = float(os.getenv("PRACTICE_TRACK_SA_MAX_CHUNK_SEC") or 28.0)
 
 PRESET_SPECS: dict[str, dict[str, dict[str, Any]]] = {
     TASK_PRACTICE_TRACK: {
         "fast": {
             "id": "fast",
             "label": "Fast",
-            "description": "Stable Audio 3 Small — quickest practice backing",
+            "description": "Stable Audio 3 Small — MIDI-guided arrangement (recommended)",
             "modelId": "stable-audio-3-small-music",
             "family": "stable_audio",
             "taskRoute": "gen",
             "numInferenceSteps": 8,
             "guidanceScale": 1.0,
+            "initNoiseLevel": 0.35,
             "costTier": 1,
         },
         "balanced": {
             "id": "balanced",
             "label": "Balanced",
-            "description": "Stable Audio 3 Medium — richer instrumental bed",
+            "description": "Stable Audio 3 Medium — richer bed, auto-chunked for long tunes",
             "modelId": "stable-audio-3-medium",
             "family": "stable_audio",
             "taskRoute": "gen",
             "numInferenceSteps": 8,
             "guidanceScale": 1.0,
+            "initNoiseLevel": 0.35,
             "costTier": 2,
         },
         "high": {
             "id": "high",
             "label": "High",
-            "description": "Stable Audio 3 Medium with extra diffusion steps",
+            "description": "Stable Audio 3 Medium — more steps, auto-chunked (avoids timeouts)",
             "modelId": "stable-audio-3-medium",
             "family": "stable_audio",
             "taskRoute": "gen",
-            "numInferenceSteps": 16,
+            "numInferenceSteps": 12,
             "guidanceScale": 1.0,
+            "initNoiseLevel": 0.32,
+            "costTier": 3,
+        },
+        "ace_fidelity": {
+            "id": "ace_fidelity",
+            "label": "AceStep cover (experimental)",
+            "description": "Preserves MIDI timbre — often organ/GM on hymns; prefer Fast for style changes",
+            "modelId": "ace-step-cover",
+            "family": "ace_step",
+            "taskRoute": "cover",
+            "numInferenceSteps": 12,
+            "guidanceScale": 1.0,
+            "audioCoverStrength": 0.55,
+            "coverNoiseStrength": 0.25,
+            "loadOptions": {"ace_step.dit_model_path": "acestep-v15-turbo"},
+            "sessionOptions": {"ace_step.mem_saver": "true"},
             "costTier": 3,
         },
     },
@@ -130,7 +153,45 @@ def coordination_required() -> bool:
     )
 
 
-def backends_payload(*, sidecar_ok: bool, midi_render: dict | None = None) -> dict:
+def preset_model_available(
+    preset: dict[str, Any],
+    *,
+    sidecar_ok: bool,
+    available_model_ids: list[str] | None = None,
+) -> bool:
+    if not sidecar_ok:
+        return False
+    if available_model_ids is None:
+        return True
+    model_id = str(preset.get("modelId") or "")
+    return model_id in set(available_model_ids)
+
+
+def ensure_preset_model_available(
+    task_id: str,
+    preset_id: str,
+    available_model_ids: list[str] | None,
+) -> None:
+    """Raise ValueError when the sidecar does not expose the preset's model."""
+    if not available_model_ids:
+        return
+    preset = resolve_preset(task_id, preset_id)
+    model_id = str(preset.get("modelId") or "")
+    if model_id in set(available_model_ids):
+        return
+    label = str(preset.get("label") or preset_id)
+    raise ValueError(
+        f"Preset {label} requires model {model_id}, which is not installed on the "
+        "audio generation sidecar. Choose Fast or add the model to audio.cpp."
+    )
+
+
+def backends_payload(
+    *,
+    sidecar_ok: bool,
+    midi_render: dict | None = None,
+    available_model_ids: list[str] | None = None,
+) -> dict:
     tasks = []
     for task_id in list_tasks():
         presets = []
@@ -141,7 +202,11 @@ def backends_payload(*, sidecar_ok: bool, midi_render: dict | None = None) -> di
                 "description": preset["description"],
                 "modelId": preset["modelId"],
                 "costTier": preset.get("costTier", 1),
-                "available": sidecar_ok,
+                "available": preset_model_available(
+                    preset,
+                    sidecar_ok=sidecar_ok,
+                    available_model_ids=available_model_ids,
+                ),
                 "default": preset["id"] == DEFAULT_PRESET_BY_TASK.get(task_id),
             })
         tasks.append({

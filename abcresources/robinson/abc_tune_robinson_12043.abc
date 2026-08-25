@@ -1,0 +1,33 @@
+X:23
+T:Jenny Jones. WHG.023
+R:Waltz
+S:W.H.Giles MS,Bampton,Oxfordshire,1839p23
+O:England
+H:donated by Mrs W.R.Kettlewell to VWML,Apr 1927.
+A:Oxfordshire - Bampton
+N:Written as three parts; two on the upper on the lower of the two
+N:staves in each system. No clef given for the lower staves, but a
+N:single # is marked as the key signature.
+N:The first bar of its B-music is very indistinct.
+N:It represents the same tune in three different keys.CGP
+Z:PJHeadford - VMP 2009
+M:3/4
+L:1/8
+Q:1/4=160
+B:Village Music project, Giles, William
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/gileswh.abc
+K:C major
+c2|"^in Key C"f2c2 AG|F2G2 A2|B2d2 (gf)|e2c2 e2|\
+f2c2 A2|B3c d2|c2f2 e2|f4|
+g>g|a2f2 a2|g2e2 c2|d3 (efg)|e2c2 g2|\
+a2f2 a2|g2e2 c2|f2e2 d2|+D.C.+c4|]
+K:D
+A2|"^in Key D"d2A2 FC|D2E2 F2|G2A2 (ed)|c2A2 c2|\
+d2A2 F2|G3A B2|A2d2 c2|d4|
+e>e|f2d2 f2|e2c2 A2|B3 (cde)|c2A2 e2|\
+f2d2 f2|e2c2 A2|d2c2 B2|+D.C.+A4|]
+K:G
+d2|"^in Key G"g2d2 BA|G4 AB|c2A2 a2|f>ed2 ef|\
+g2d2cB|c3de2|d2{ef}g2f2|g4|
+ga|bbg2 b2|a2f2 a2|g2e2 a2|f>ed2g2|\
+b2gab2|a2f2 a2|g2f2 e2|+D.C.+d4|]

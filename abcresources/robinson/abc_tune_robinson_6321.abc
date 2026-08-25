@@ -1,0 +1,17 @@
+X:1
+T: Walzer CG (wz07267) 
+T: Basel II. Tänze aus Liestal. S.95-112.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.108  (wz07267) orig. C,G
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+{e}"C"g3 | e3 | (Gc)c | (dc)c | {g}c'3 | g3 | ("G7"fB)B | ("C"cG)G | e3 | "G7"d3 | ("C"cB)c | ("F"dc)A | 
+("C"G2c) | ("G7"d2e) | ("C"c3 | c)zz :: [K:G] "G"Td3 | Td3 | ("D7"dF)F | ("G"dG)G | Te3 | Td3 | ("D7"dF)F | ("G"dG)G | 
+Td3 | Td3 | g2B | "C"c3 | "D7"d2c | (E2F) | "G"G>GG | Gzz :: [K:C] ("C"e2g) | a2g | e2(c/d/) | e3 | 
+(e2g) | (b2a) | "G7"f2b/c'/ | d'3 | f2g | d2c | B3 | A2G | GBA | gfB | "C"c>cc | czz :| 
+%% wz07267 
+% March 24, 2018

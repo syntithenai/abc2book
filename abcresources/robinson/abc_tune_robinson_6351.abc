@@ -1,0 +1,24 @@
+X:1
+T:Kleine Blumen. Walzer  CGF  (wz07041) ABAC
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.158  (wz07041) orig. C,G,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A]  ("C"e2a) | (g2e) | ("G7"d2g) | f3 | (G2f) | (e2d) | "C"d2(c/A/) | G3 | (e2a) | (g2e) | ("G7"d2g) | 
+f3 | ("Dm"A2f) | "G7"e(dG) | ("C"c3 | c)zz || [K:G][P:B] "D7"c>BA | Bcd | "G"ed>g | B2g | 
+"D7"f/f/fe | d/d/dc | "G"e/e/ed | B3 | "D7"c>BA | Bcd | "G"ed>g | b3 | g(dB) | 
+"D7"d3 | c'ba | "G"gz"_>Teil A"z || [P:C] [K:F] "F"A3 | f3 | ("C7"e3 | e)(fg) | (B3 | "C7"B)(ce) | 
+("Bb"d2_d) | "F"c3 | A3 | a3 | ("Gm"g3 | g)fd | "C7"c=Bc | ea>g | ("F"f3 | f)zz |] 
+W:
+%W:Parts: ABAC
+%W:
+%W:Anmerkung H.C.: 
+% wz07041
+% June 13, 2018

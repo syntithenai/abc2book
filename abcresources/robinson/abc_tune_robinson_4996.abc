@@ -1,0 +1,21 @@
+X:85
+T:La Faira da Strada (Polka) F (pk02077)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.304 (pk02077) orig. F
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Polka
+M:2/4
+L:1/8
+K:F major
+c2 [P:A] |: "F"d/c/=B/c/ "C7"G>E | Cc Bc | "F"A>G Fc | d/c/=B/c/ "C7"G>E | Cc BA |1 "F"F2zc :|2 "_Fine""F"Fz zF/G/ || 
+[P:B] |: "F"AF "C7"G>E | Cc Bc | "F"A>G FF/G/ | AF "C7"G>E | Cc BA |1 "F"F2zF/G/ :|2 "F"F2"_>Teil A"z2 |] 
+W:Parts: ABA
+W:Anmerkung H.C: Scherzando
+W:Anm. Hrsg.: Von dieser Melodie sind rhythmisch versch. notierte Versionen vorhanden, vgl. S. 357 (mz02318)
+W: cf. La Faira da Strada (Couples Dance, Switzerland): 
+W: https://www.youtube.com/watch?v=AwbVJJVl97o 
+W: https://www.youtube.com/watch?v=wgJW1C7tpBU
+% pk02077  (Oct 3, 2016)

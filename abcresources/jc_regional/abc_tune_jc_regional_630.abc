@@ -1,0 +1,49 @@
+X: 140
+T: Ekizliisko Horo
+L:1/8
+O:Bulgaria
+M:6/8
+Q:1/4=160
+S: Adapted from Richard Geisler
+S: Music to 31 of Your Favorite Bulgarian Folkdances (c) 1984
+%P ABACDEFGHABAC
+K:G
+%P: A
+|:"G" cdd .d2 d      | ~ddc ~BBA         | "D"cdd d2 d | AA z AAG           |
+  "G" ~eed ~ddc      | ~ddc ~BBA         | "D"cdd d2 d | AAz AAG            :|
+%%sep 10 10
+%P: B
+  "G" BBd ccA        |BBG "D" AAG        |BBd ccA      | BBG AAG            |
+  BBD ccA            | BBG AAA           | "A" GAA GFG | "D" AAz AAG        |
+%%sep 10 10
+%P: A
+|:"G" cdd .d2 d      | ~ddc ~BBA         | "D"cdd d2 d | AA z AAG           |
+  "G" ~eed ~ddc      | ~ddc ~BBA         | "D"cdd d2 d | AAz AAG            :|
+%%sep 10 10
+%P: C
+  "G" BBG ccA        | BBG "D" AAG       | BBG ccA     | BBG AAG            |
+  BBG ccA            | BBG AAG           | "A7" BBG BBG| "D" AAz AAz        |
+%%sep 10 10
+%P: D
+|:"C" c2d eed        | dcd ccB           | "G" cdd GAB | "C" ccGccG         |
+  .c2 d eed          | dcd ccB           | "G" cdd GAB | "D" AAz AAG        :|
+%%sep 10 10
+%P: E
+  "G" (3BcB d ccA    | dcB "D" AAG       |(3BcB d ccA  | dcB AAG            |
+  (3BcB d ccA        | dcB AAG           | "A7" GAA GFG| "D" AAz AAA        |
+%%sep 10 10
+%P: F
+| "D" .G2 z A/2A/2 A2| d/2d/2z2 c/2c/2 z2|\
+  A/2A/2z2 c/2c/2 z2 | "G" B/2B/2 z2 BBA |
+  G3 "D" A/2A/2 A2   | d/2d/2 z2 ccA     | G3 A/2A/2 A2| A/2A/2 A2 A/2A/2 A2|
+| "D" .G2 z A/2A/2 A2| d/2d/2z2 c/2c/2 z2|\
+  A/2A/2z2 c/2c/2 z2 | "G" B/2B/2 z2 BBA |
+  G3 "D" A/2A/2 A2   | d/2d/2 z2 ccA     | G3 A/2A/2 A2| AAA AAG            |
+%%sep 10 10
+%P:G
+  "G" BBd ccB        | dcG "D" AAG       |BBd ccB      | dcB AAG            |
+  BBd ccB            | dcB AAG           | "A7"GAA GFG | "D" AAz AAz        |
+%%sep 10 10
+%P:H
+K:D
+|:"A" cde ccA        |"E" BBA "A" ccA    | cde ccA     | "E"BBA "A" AAA     :|

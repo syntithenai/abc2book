@@ -1,0 +1,28 @@
+X:5
+T:Schönbüel-Juiz  Bb
+T:Ruedi Rymann (31.1.1933-10.9.2008)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+R:Naturjodel
+M:3/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F2 | B,3CD2 | f3d/c/ B/c/d/e/ | [M:4/4] f2d2c2 B2 | A3EF2e2 | 
+A6F2 | [M:3/4] f3e dc | f3e dc | B4F2 | B,3CD2 | f3d/c/ B/c/d/e/ | 
+[M:4/4] f2d2c2B2 | A3EF2e2 | A6F2 | [M:3/4] f3e dc | f3e dc | B4z2 || 
+M:4/4
+[P:B] D>E | F2f2 d>c | B2d2F2 | f2dcB2 | A2E>F c>B | 
+A2c2F2 | f2 ed cA | B3zD/C/D/E/ | F2f2 d/c/d/c/ | B2d2F2 | 
+f2dcB2 | A2E>F c>B | A2c2F2 | f2ed cA | B4z2 || 
+M:4/4
+[P:C] !fermata!F2!fermata!D2!fermata!B,2 | A,3F EFAc | f3f  d2c2 | B3F DFBc | d3Bc2B2 | 
+A3F EFAc | f3fd2c2 | B3AB2c2 | d2!fermata!F2!fermata!D2!fermata!B,2 | A,3F EFAc | f3f  d2c2 | 
+B3F DFBc | d3Bc2B2 | A3F EFAc | f3fd2c2 | (B8 | B2)z4 |]
+W:
+%W:Reihenfolge:
+W:UJV-Naturjodelsammlung: Code-Nr: 05-03
+W:http://www.naturjodler.ch/code 05.htm  (with AUDIO)
+%April 29, 2018

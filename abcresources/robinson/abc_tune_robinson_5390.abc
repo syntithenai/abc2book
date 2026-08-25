@@ -1,0 +1,17 @@
+X:147
+T:Polka CF (pk07358)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.305 (pk07358) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+("C"Ge).e2 (eg).g2 | (gc).c2 (ce).e2 | ("G7"ed).d2 d3G | ("C"Ge).e2 c2G2 |1 (Ge).e2 (eg).g2 | (gc).c2 (ce).e2 | ("D7"ed).d2 b3aa | {/b}"G"a2g2 g2G2 :|2 
+("C"Ge).e2 ("G7"ef).f2 | ("D7"f^f).f2 ("G"fg).g2 | ("G7"gd).d2 f2ed | {/e}"C"d2.c2 .c4 |: [L:1/8] "G7"g2f>B | ("C"dc) c>c | ("G7"cB) B>B | ("C"dc)c2 | "G7"g2 f>B | ("C"dc) c>c | 
+("G7"cB) e>d | ("C"dc)c2 :| [K:F]  "F"cc' cc' | {bc'}"C7"d'c'b2 | cb cb | {ab}"F"c'ba2 |  ca ca | {ga}"Gm"bag2 | "C7"e>d ce | ("F"gf)f2 || 
+!>!"F"f>f !>!f>f |  (f/e/).f/.a/ d'c' | ("C7"c/=B/).c/.e/ ag | ("F"f/e/).f/.a/c2 | !>!f>f !>!f>f |  (f/e/).f/.a/ d'c' | ("C7"c/=B/).c/.e/ a>g | "F"fa fz |] 
+%%% pk07358
+% July 6, 2017

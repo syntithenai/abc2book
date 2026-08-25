@@ -1,0 +1,25 @@
+X: 96
+T:Knockando House
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:34 - 3
+K:D major
+%%staves {1 2}
+V:1
+F | \
+D/D/D (D>B) !trill!A>F A<B | D/D/D (D>B) A>F E<F | \
+D/D/D (D>B) A>Bd>e | f>d e<f F<dE :|
+(B | \
+A)>!wedge!Fd>F A>Fd>F | A/F/(F d>F) B/A/G/F/ E(F | \
+A)>!wedge!Fd>F A>Bd>e | f>d e<f F<dE(B |
+A)>!wedge!Fd>F A>Fd>F | A/F/(F d>F) B/A/G/F/ E(F | \
+A)>!wedge!Fd>F A>Bd>e | f>d e<f F<d E |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | dddA | dddd | dddA/ :| \
+z/ | dddd | dddA | dddd | dadA | dddd | dddA | dddd | dadA/ |]

@@ -1,0 +1,34 @@
+X:53
+T:Rondo in the Overture to Rossina.2voices RH.053
+R:Rondeau
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:Best played as a stately jig.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:6/8
+L:1/8
+Q:3/8=120
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1]|:"^Allegro" g|f2f f2a|e2e e2a|d>cd B2e|(c3 A2)A|
+[V:2]|:z|d2d d2z|c2c c2z|B3 G3|A3 z2G|
+%
+[V:1] d2f B2g|c2a d2b|1afd dcd|f3 e2:|2agf e2f|d2d d2||
+[V:2] F2D G2E|A2F B2G|1F2z D2z|AAA A2:|2FED A2A|DFA d2||
+%
+[V:1] a|aba aba|d'2g aba|f2f f2a|e2e e2a|aba aba|
+[V:2] f|fgf fgf|f2f fgf|d2d d2z|c2c c2z|fgf fgf|
+%
+[V:1] d'2a aba|f2f a2d'|c'3 c'2a|f2f f2a|e2e e2a|d>cd B2e|
+[V:2] f2f fgf|d2d f2f|e3 e2z|d2d d2z|c2c c2z|B>AB G2G|
+%
+[V:1] (c3 A2)A|d2f B2g|c2a d2b|(agf) e2f|d2d d2z|
+[V:2] A2A G2G|FFD GGE|AAF BBG|FED A2A|F2F F2z|
+%
+[V:1] (fef) (def)|(ede) (cde)|(dcd) (Bcd)|(cBA) A2A|
+[V:2] d6|c6|^G6|A6|
+%
+[V:1] (fef) (def)|(ef^g) a2d|c>dc B>AB|A2a " DC"a2|]
+[V:2] d6|d3 c2d|e2e d2d|c3 " DC"z2|]

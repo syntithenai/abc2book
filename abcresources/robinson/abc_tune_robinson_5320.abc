@@ -1,0 +1,19 @@
+X:83
+T:Mazurka CGF (mz07289) ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.272 (mz07289) orig. G,Eb,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>c e2g2 | "G7"f>d B2B2 | A>f d2d2 | "C"c>G E2E2 | G>c e2g2 | "G7"f>d B2B2 | A>F D2B2 | "C"c2c2"_Fine"z2 :| [P:B] [K:G] "G".B2 G>A B2 | 
+"Am"c>BA2A2 | "D7".A2F>GA2 | "G"B>AG2G2 | B>d G>AB2 | "Am"c>BA2A2 | "D7"A>d f>d d>c | "G"B2g2"_>Teil A"z2 || [P:C] [K:F] 
+|: "F"A>c .f2f2 | ("Gm"e2d2) .d2 | "C7"G>B g>ec2 | ("F"B2A2)A2 | A>c .f2f2 | ("Gm"e2d2).d2 | "C7"G>B .g2B>e | "F"f2f2z2 :| 
+%W: Parts: ABAC
+%% mz07289
+% May 22, 2017

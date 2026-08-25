@@ -1,0 +1,16 @@
+X:263
+T: Wiener Polka CF (pk05173)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.390 (pk05173) orig. C,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"GG/c/ ec | gG/c/ ec | "G7"gG dG | "C"eG cG | GG/c/ ec | gG/c/ ec | "G7"gG dG | "C"ce cz :| 
+[P:B] "G7"gg/g/ gg | _ag ag | fe dc | BAG2 | "C"g>e g>e | "F"agf2 | "G7"f>d f>d | "C"ee/f/ g/a/g | 
+g>e g>e | "F"agf2 | "G7"f>d f>d | "C"ee ez || [P:C] [K:F] "F"A3B | dcc2 | a2g>f | "C7"fee2 | 
+G2B2 | cBB2 | ge cB | "F"B>A dc | A3B | dcc2 | a2g>f | "Gm"edd2 | g>f ed | 
+"F"dc c/a/a |  "C7"cB B/g/g | "F"BA Af/f/ | "Gm/Bb"g>f ed | "F"dc c/a/a | "C7"g/b/b e/g/g | "F"fa fz |] 
+% June 16, 2016

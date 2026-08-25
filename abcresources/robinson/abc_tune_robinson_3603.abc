@@ -1,0 +1,14 @@
+X:149
+T:Mazurka GC (mz05001)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"G2 D>^CD2 | B2G>FG2 | "D7"d>^c d>e d>c | d2z2z2 |: "G"D2G>F G>A | .B2!>!G4 | G>B d>^c d>e | 
+"D7"d2 c>A F2 | D2 A>^G A>B | .d2 !>! c4 | F2 d>^c d>e | "G"d2 B>AG2 | D2G>F G>A | .B2!>!G4 | 
+"Em"E2G>F G>A | .B2!>!G4 | "B7"B>^A B>cB2 | B>^A B>c B2 | "D7"d>^c d>e d>c | d2d2z2 :: "D7"D2E2F2 | 
+"G".A2!>!G4 | "D7"A2B2c2 | "G".e2!>!d4 | "D7"d2c>FA2 | "G"c2B>DG2 | "D7"Bc/2B/2 A>D F>A | "G".c2!>!B4 | "D7"de/2d/2 c>F A>c | "G"cd/2c/2 B>D G>B | 
+"D7"Bc/2B/2 A>D F>A | "G"G2G2z2 ::[K:C] "C"G2c2E2 | G6 | G2e2c2 | "G7"B6 | G2d2c2 | B6 | F2A2G2 | 
+"C"E6 | G2c2E2 | G6 | G2e2c2 | "Dm/F"B4A2 | ((3A^GA) f>ed2 | "C"((3G^FG) e>dc2 | "G7"d2A2B2 | "C"c2c2z2 :| 
+% mz05001

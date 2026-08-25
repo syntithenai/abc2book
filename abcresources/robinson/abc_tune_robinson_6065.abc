@@ -1,0 +1,24 @@
+X:1
+T:Mazurka  CF (mz07883)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.213  (mz07883) orig. C,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABCD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A]  "C"e>dc2e2 | .a2!>!g4 | e>d c>e g>e | "G7".f2!>!f4 | b4a2 | b4a2 | g>a g2f2 | "C"e>dc4 | e>dc2e2 | 
+.a2!>!g4 | g>e ce g>c' | "F".b2!>!a4 | d'>c' b>a g>f | "C"c'eg4 | "G7"ed f3B |1 "C"c2c2z2 :|2 "C"c'2c'2eg |: [P:B] "G7"f3d fa | 
+"C"g3e gc' | "G7"b3a gf | "C"e3e fg | "Dm"a3d ef | "C/G"g3G cd | "G7"e3d AB |1 "C"c2c2eg :|2 "C"c2c2z2 |: [P:C] "C"e2g2c'2 | 
+"G7"c'bb4 | "F"baa4 | "C"agg4 | G2c2e2 |1 "G7"edd4 | B2d2f2 | "C"fee4 :|2 "F"a>g f>e  d>c | "G7"B2g^g ab | 
+"C"c'2c'2z2 || [K:F] [P:D] "F"c>=Bc4 | "Bb"d>cd4 | "C7"ef ga bc' | "F"d'2c'4 | f>eg2f2 | "C7"f>eB4 | g>fa2g2 | "F"g>fc4 | 
+c>=Bc4 | "Bb"d>cd4 | "C7"ef ga bc' | "F"d'2c'4 | "C7"ba gf ed | "F"d>cc4 | "C7"a>ab2e2 | "F"f2f2z2 |] 
+W:
+%W:Parts: ABCD
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% mz07883
+% August 3, 2018 (Activate knowledge as earthlings)

@@ -1,0 +1,20 @@
+X:5
+T: Adele Polka  GDC (pk00727)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.206 (pk00727) orig. G,D,C-Dur
+S:Walliser Tänze. S.196-213. Überliefert durch Josef Seewer und Marcel Tschopp, Leuk, 
+S: und Sepp Mutter, Ried/Brigerberg
+%%MIDI program 21
+%%partsbox
+P:ABACDA
+R:Polka
+O:Switzerland
+M:2/4
+L:1/8
+K:G major
+[P:A] "G"dd/B/ gd | "Am/C"ee/c/ ae | "D7"ff ee | "G"ed {/e}d/^c/d | dd/B/ gd | "Am/C"ee/c/ ae | 
+"D7"ff f/e/c/A/ | "G"GB G"_Fine"z ::  [K:D] [P:B] "A7"g/a/g/e/ aa | "D"f/g/f/d/ aa | "A7"bc gc | 
+"D"ad fA | "A7"g/a/g/e/ aa | "D"f/g/f/A/ df | "A7"gc f>e | "D"df d"_>Teil A"z :: [P:C] [K:C]
+"C"{/e}ggc2 | "G7"{/f}ggB2 | bB aB | "C"ca g/a/g | {/e}ggc2 | "G7"{/f}ggB2 | 
+ba g/f/e/d/ | "C"ce cz ::  [K:G][P:D] "D7"df/g/ ad | "G"ba/b/ gd | "D7"cf/f/ ce/e/ | 
+"G"Bd/d/B2 | "D7"df/g/ ad | "G"ba/b/ gd | "Am/C"ea/a/ "D7"d/f/f |1 "G"gb gz :|2 "G"gg/g/ g"_d.C."z |] 
+W: Parts: ABACDA

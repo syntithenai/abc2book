@@ -1,0 +1,22 @@
+X:68
+T:Im Tenigerbad (Polka) FBb (pk02260)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.333 (pk02260) orig. F,Bb
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+K:F major
+agf |: "C7"e2Bf e2Be | "F"dcAdc4 | "C7"agBc a2g2 | "F"gfAc g2f2 | "C7"e2Bf e2Be | "F"dcAd c3A | 
+"C7"G2c2 e2g2 |1 "F"g2f2 cagf :|2 c4z4 |:  "C7"cbbc a2g2 | "F"caac g2f2 | "C7"ebce abge | "F"fafdc4 | 
+"C7"cbbc a2g2 | "F"caac g2f2 | "C7"ebce abge | "F"f2a2 f2z2 :| [K:Bb] "Bb"d3c BABc | Pd2F2 F2df | bagf =efgf | 
+"F7"e2A2A4 | e3d c=Bcd | e2F2 F2ce | ac'ag fcde | "Bb"dBdgf4 | d3c BABc | d2F2 F2df | 
+c'bab d^cdf | "Cm/Eb"c=Bcag4 | "F7"edcb a2g2 | "Bb"=efbd gf_ed | "F7"c=Bcd egfA | "Bb"B2df .b4 |] 
+W:
+W:Anmerkung H.C.: St. Battaglia, "Ich bitte Dich, diese Stücke für Dich zu behalten;
+W:  denn es sind meine Kompositionen."
+W:Tenigerbad (rätoroman. Bogn Tenigia), ehemaliges Kurbad im Kanton Graubünden
+W: cf. https://de.wikipedia.org/wiki/Tenigerbad
+% pk02260  
+% Nov 6, 2016

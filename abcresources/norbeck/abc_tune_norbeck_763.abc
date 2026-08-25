@@ -1,0 +1,26 @@
+X:423
+T:Seanamhac Tube Station
+R:jig
+C:John Carty
+H:Also in Ador, #424
+D:At the Racket
+Z:id:hn-jig-423
+M:6/8
+L:1/8
+K:Gdor
+GFD DCD | GAc ~d3 | dcA cAF | GFD CDF |
+GFD DCD | GAc ~d3 | dcA cAF |1 ~G3 G2A :|2 ~G3 GAc ||
+|: ~d3 dcA | ~c3 cAc | dcA cAF |
+[1 GFD CAc | ~d3 dcA | ~c3 gfd | dcA cAF | ~G3 GAc :|
+[2 GFD CDF | GFD DCD | GAc ~d3 | dcA cAF | ~G3 G2A || 
+P:variations
+|: ~G3 GFD | GAc ~d3 | dcA cAF | GFD C3 |
+~G3 GFD | GAc ~d3 | dcA cAF |1 ~G3 G2A :|2 ~G3 GAc ||
+|: ~d3 dcA | ~c3 cAc | dcA cAF |
+[1 GFD CAc | ~d3 dcA | ~c3 cAc | dcA cAF | ~G3 GAc :|
+[2 GFD CDF | GFD GFD | GFD dcA | dcA cAF | ~G3 G2A ||
+P:optional third part
+d3 g3 | f2g a2f | gfd c2d | cAG FAc |
+~g3 gfd | ~f3 gaf | gfd cAF | ~G3 GAc |
+~d3 ~g3 | f2g agf | gfd c2d | cAG FDC |
+GFD GFD | GAc d2e | dcA cAF | G2A B2A ||

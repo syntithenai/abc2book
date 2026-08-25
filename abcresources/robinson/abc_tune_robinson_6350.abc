@@ -1,0 +1,25 @@
+X:1
+T:Selma-Walzer  GC  (wz07038)  ABCD
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.157  (wz07038) orig. G,C
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCD
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+[P:A] ("G"deB) | d3 | (dga) | b3 | (dc'b) | "D7"az/a/a | (dba) | "G"gz/g/g | (deB) | d3 | (dga) | 
+b3 | bbz/b/ | bbz/b/ | "D7"aba | "G"gzz [P:B] || "G"d/d/de | ez/d/d | (g/a/)bb | "D7"a3 | d/d/de | 
+ez/d/d | (f/g/)aa | "G"g3 | ("C"eg)e | g3 | "G"dga | b3 | bza | "D7"bza | ("G"g3 | g)zz || [P:C] [K:C] 
+"C"eze | aza | "G7"gzg | B3 | fzf | bzb | "C"aza | c3 | gzg | c'zc' | "Dm"dzd | 
+aza | "G7"BzB | ezd | "C"c>cc | czz || [P:D] ("C"e/g/)c'>a | g3 | (c/e/)a>g | e3 | "G7"B/B/BB | aag | 
+"C"c/c/cc | aag | (e/g/)c'>a |  g3 | (c/e/)a>g | e3 | "G7"B/B/BB | aag | gdg | "C"czz |] 
+W:
+%W:Parts: ABCD
+%W:
+W:Anmerkung H.C.: Radio Bern 17. Sept. 1949 11.55
+% wz07038
+% June 12, 2018

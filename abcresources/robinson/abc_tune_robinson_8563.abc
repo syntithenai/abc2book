@@ -1,0 +1,20 @@
+X: 64
+T:Miss Abercromby's Reel -- of Birkenbog
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:23 - 3
+K:C minor
+%%staves {1 2}
+V:1
+(!trill!EDC)(D EF)GE | FBEB DB,FD | (EDC)(D EF)Gc | BG!trill!F>D C/C/C C2 :|
+(edc)(d ef)ge | (!trill!dcB)(c de)fd | (edc)(d ef)ge | {e}dcBc c/c/c "\="~c2 |
+(edc)(d ef)ge | (!trill!dcB)(c de)fd | gefd ecdB | GB!trill!F>D C/C/C C2 |]
+V:2 clef=bass octave=-2
+L:1/4
+cccc | deBB | ccec | gGcc :| \
+ccc'c' | bbBB | ccc'c' | ggcc | ccc'c' | bbBB | cdef | gGcc |]

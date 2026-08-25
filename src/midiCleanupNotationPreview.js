@@ -7,6 +7,7 @@ import {
   buildVoiceProgramPrefix,
   displayNameForMidiTrack,
 } from './midiTrackNaming';
+import { midiToAbcPitch } from './melodyPitchSpelling';
 import {
   durationSuffix,
   fillSlotGap,
@@ -43,18 +44,7 @@ const GM_DRUM_MAP = {
 };
 
 function abcPitch(midi, key) {
-  const namesSharp = ['C', '^C', 'D', '^D', 'E', 'F', '^F', 'G', '^G', 'A', '^A', 'B'];
-  const namesFlat = ['C', '_D', 'D', '_E', 'E', 'F', '_G', 'G', '_A', 'A', '_B', 'B'];
-  const preferFlats = /b/i.test(key) || ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb'].indexOf(key) >= 0;
-  const names = preferFlats ? namesFlat : namesSharp;
-  const octave = Math.floor(midi / 12) - 1;
-  const letter = names[midi % 12];
-  if (octave >= 5) {
-    return letter.toLowerCase() + (octave > 5 ? "'".repeat(octave - 5) : '');
-  }
-  if (octave === 4) return letter;
-  const commas = 4 - octave;
-  return letter + (commas > 0 ? ','.repeat(commas) : '');
+  return midiToAbcPitch(midi, { key: key || 'C' });
 }
 
 function gmDrumEntry(midiPitch) {
@@ -96,48 +86,90 @@ export function buildBeatTimes(durationSec, tempoBpm) {
 
 function noteEventsFromMidi(notes, beatTimes, options) {
   const opts = options || {};
-  const beatsPerBar = opts.beatsPerBar || 4;
   const slotsPerBeat = Math.max(1, opts.slotsPerBeat || 2);
   const key = opts.key || 'C';
   const isDrum = !!opts.isDrum;
-  const quantStrength = opts.quantStrength != null ? Math.max(0, Math.min(1, opts.quantStrength)) : 1;
-  if (!notes || !notes.length || !beatTimes.length) return [];
+  // ABC must land on a discrete grid. Partial strength caused melody/chord drift;
+  // when quantize is enabled (strength > 0), snap fully to the nearest slot.
+  const quantizeOn = opts.quantStrength == null || opts.quantStrength > 0;
+  if (!notes || !notes.length) return [];
 
-  const beatDuration = beatTimes.length > 1 ? (beatTimes[1] - beatTimes[0]) : 0.5;
+  const ticksPerBeat = opts.ticksPerBeat > 0 ? opts.ticksPerBeat : 0;
+  const useTicks = ticksPerBeat > 0 && notes.some(function(n) { return n.startTick != null; });
+
+  const beatDuration = beatTimes && beatTimes.length > 1
+    ? (beatTimes[1] - beatTimes[0])
+    : (60 / Math.max(opts.tempoBpm || 120, 1));
   const slotDuration = beatDuration / slotsPerBeat;
-  const events = [];
+  const ticksPerSlot = useTicks ? (ticksPerBeat / slotsPerBeat) : 0;
+  const clusterTicks = useTicks ? Math.max(1, Math.round(ticksPerSlot * 0.4)) : 0;
+  const clusterSec = slotDuration * 0.4;
 
-  notes.forEach(function(note) {
-    const startRaw = Number(note.start) || 0;
-    const end = Number(note.end) || startRaw;
-    let beatIndex = 0;
-    for (let i = 0; i < beatTimes.length; i += 1) {
-      if (beatTimes[i] <= startRaw + 0.001) beatIndex = i;
+  const ordered = notes.slice().sort(function(a, b) {
+    const aKey = useTicks && a.startTick != null ? a.startTick : (Number(a.start) || 0);
+    const bKey = useTicks && b.startTick != null ? b.startTick : (Number(b.start) || 0);
+    return aKey - bKey || (Number(a.midi) || 0) - (Number(b.midi) || 0);
+  });
+
+  // Cluster near-simultaneous onsets so chord tones share one slot.
+  const clusters = [];
+  ordered.forEach(function(note) {
+    const onset = useTicks && note.startTick != null
+      ? note.startTick
+      : (Number(note.start) || 0);
+    const last = clusters.length ? clusters[clusters.length - 1] : null;
+    const lastOnset = last
+      ? (useTicks ? last.anchorTick : last.anchorSec)
+      : null;
+    const within = last
+      && (useTicks
+        ? Math.abs(onset - lastOnset) <= clusterTicks
+        : Math.abs(onset - lastOnset) <= clusterSec);
+    if (within) {
+      last.notes.push(note);
+      if (useTicks) {
+        last.anchorTick = Math.min(last.anchorTick, onset);
+      } else {
+        last.anchorSec = Math.min(last.anchorSec, onset);
+      }
+      return;
     }
-    const beatStart = beatTimes[beatIndex];
-    const offsetInBeat = startRaw - beatStart;
-    const slotInBeat = Math.max(0, Math.min(slotsPerBeat - 1, Math.round(offsetInBeat / slotDuration)));
-    const snappedStart = beatStart + slotInBeat * slotDuration;
-    const start = quantStrength >= 0.99
-      ? snappedStart
-      : startRaw + (snappedStart - startRaw) * quantStrength;
-    let beatIndex2 = beatIndex;
-    for (let i = 0; i < beatTimes.length; i += 1) {
-      if (beatTimes[i] <= start + 0.001) beatIndex2 = i;
+    clusters.push({
+      notes: [note],
+      anchorTick: useTicks ? onset : null,
+      anchorSec: useTicks ? null : onset,
+    });
+  });
+
+  const events = [];
+  clusters.forEach(function(cluster) {
+    let startSlot;
+    if (useTicks) {
+      const rawSlot = cluster.anchorTick / ticksPerSlot;
+      startSlot = quantizeOn ? Math.round(rawSlot) : Math.floor(rawSlot);
+    } else {
+      const rawSlot = cluster.anchorSec / slotDuration;
+      startSlot = quantizeOn ? Math.round(rawSlot) : Math.floor(rawSlot);
     }
-    const beatStart2 = beatTimes[beatIndex2];
-    const slotInBeat2 = Math.max(0, Math.min(
-      slotsPerBeat - 1,
-      Math.round((start - beatStart2) / slotDuration)
-    ));
-    const duration = Math.max(end - startRaw, slotDuration * 0.5);
-    const globalSlot = beatIndex2 * slotsPerBeat + slotInBeat2;
-    const durSlots = Math.max(1, Math.round(duration / slotDuration));
-    const dur = durationSuffix(durSlots, slotsPerBeat * 2);
-    const token = isDrum
-      ? drumNoteToAbcToken(Number(note.midi) || 38, dur)
-      : abcPitch(Number(note.midi) || 60, key) + dur;
-    events.push({ slot: globalSlot, durSlots: durSlots, token: token });
+    startSlot = Math.max(0, startSlot);
+
+    cluster.notes.forEach(function(note) {
+      let endSlot;
+      if (useTicks && note.endTick != null) {
+        const rawEnd = note.endTick / ticksPerSlot;
+        endSlot = quantizeOn ? Math.round(rawEnd) : Math.ceil(rawEnd);
+      } else {
+        const endSec = Number(note.end) || (Number(note.start) || 0);
+        const rawEnd = endSec / slotDuration;
+        endSlot = quantizeOn ? Math.round(rawEnd) : Math.ceil(rawEnd);
+      }
+      const durSlots = Math.max(1, endSlot - startSlot);
+      const dur = durationSuffix(durSlots, slotsPerBeat * 2);
+      const token = isDrum
+        ? drumNoteToAbcToken(Number(note.midi) || 38, dur)
+        : abcPitch(Number(note.midi) || 60, key) + dur;
+      events.push({ slot: startSlot, durSlots: durSlots, token: token, midi: Number(note.midi) || 0 });
+    });
   });
 
   return events;
@@ -198,6 +230,8 @@ export function buildCleanupScorePreviewAbc(voices, options) {
     slotsPerBeat: slotsPerBeat,
     key: key,
     quantStrength: quantStrength,
+    tempoBpm: tempoBpm,
+    ticksPerBeat: opts.ticksPerBeat || 0,
   };
 
   const maxVoiceDuration = prepared.reduce(function(max, row) {
@@ -216,6 +250,7 @@ export function buildCleanupScorePreviewAbc(voices, options) {
         isDrum: row.voice.isDrum,
         key: voiceKey,
       })),
+      allowChords: row.voice.allowChords !== false && !row.voice.isDrum,
     };
   });
 
@@ -236,6 +271,7 @@ export function buildCleanupScorePreviewAbc(voices, options) {
     const body = formatNoteEventsToAbcBody(item.events, Object.assign({}, quantOpts, {
       totalBars: totalBars,
       key: voiceKey,
+      allowChords: item.allowChords,
     }));
     const prefix = buildVoicePrefix(item.voice, item.notes);
     return {

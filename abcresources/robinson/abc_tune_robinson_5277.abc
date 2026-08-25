@@ -1,0 +1,20 @@
+X:45
+T:Kinderfest (Marsch) GC (mr06390)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.134f (mr06390) orig. G,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Marsch
+M:4/4
+L:1/4
+O:Switzerland
+K:G major
+"G"d2d2 | d2GA | B2B2 | B2AG | "D7"F>eee | e2 {fe}dc | "G"B>ggg | g2Bc | 
+d2d2 | d2GA | B2B2 | B2ed | "A7"^c>ccB | Agfe | "D"d>^c"A7"cc |1 "D7"dzBc :|2 "D"dz dd :| 
+!>!"D7"c2!>!d2 | !>!f2!>!e2 | "G"d3B | !>!d2dd | !>!"D7"c2!>!d2 | !>!f2!>!e2 | "G"d3b | g2gg | 
+!>!"G7"=f2!>!g2 | !>!B2!>!g2 | "C"e3c | e2dc | "G"B2cB | "D7"A2BA | "G"G>gzg | gzz2 || [K:C] 
+"G7"g3^f | gfdB | Gzd>d | dz{/f}e^d |: "C"ez {/f}e^d | ez {/f}e^d | eage | "G7"f2 {/g}fe | 
+fz {/g}fe | fz {/g}fe | fd^cd | "C"e2 {/f}e^d | ez {/f}e^d | ez {/f}e^d | ecBc | "F"a2z2 | 
+!>!"G7"g2 !>!f2 | !>!"C"e2 {^de}fe | "G7"d2 {^cd}gf | "C"e c/B/ c/d/ e/f/ | !>!"G7"g2 !>!"F"f2 | "C"e2 {^de}fe | "G7"d2 {^cd}aB |1 "C"cz {/f}e^d :|2 "C"czz2 |] 
+% mr06390
+% Dez 8, 2016

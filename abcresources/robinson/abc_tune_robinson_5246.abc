@@ -1,0 +1,21 @@
+X:17
+T:Galopp FBb (GL07526)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.210f (GL07526) orig. F,Bb
+T: Aus dem Repertoire der Dorfmusik Oberwil.  S.201-221
+T:Überliefert durch Gotti Bannier (1876-1947)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F"ABc2 | ABc2 | fe dc | ("C7"B2.E2) | GAB2 | GAB2 | ed cB | "F"Adc2 | 
+ABc2 | ABc2 | fe dc | ("C"e2.G2) | "G7"g>dd2 | "C"g>ee2 | "G7"ed c=B | "C".c2.c2 :: 
+"F"A>A cf | af cA | "Gm/Bb"G>G Bd | gd BG | "C7/Bb"d>d d>c | "C7"cBB2 | "F"d>d dc | cAA2 | 
+A>A cf | af cA | "Gm/Bb"G>G Bd | gd BG | "C7/Bb"d>d d>c | cB AG | "F"F2F2 | F2c2 :: [K:Bb] 
+"Bb"B2B2 | d4 | d2d2 | f4 | "F7"g3f | ed eg | "Bb"f3d | B4 | 
+"F7".A2.e2 | .A2.e2 | "Bb".B2.d2 | F3B | "F7"AB cd | e3A | "Bb"B2B2 | B2F2 :: 
+[L:1/4] "D7/F#"dA | "Gm"cB | "Cm/Eb"AG | c>B | "F7"BA | GA | "Bb"c/B/ A/G/ | .FF | dA | 
+"D7/F#"cB | "Gm"Gc | "Cm/Eb"e>d | "C7"dc | "F7"GA | "Bb"BB |1 BF :|2 Bz |] 
+% GL07526
+% Feb 19, 2017

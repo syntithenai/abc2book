@@ -41,6 +41,7 @@ import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { isNotationPdfCandidate } from './notationPdfApply'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getPlainLyricLines } from './wLinesUtils'
+import { hasSingableLyricText } from './lyricsQualityUtils'
 import { allGenres, primaryArtist } from './tuneBibliographicUtils'
 import {
   setFieldSearchResults,
@@ -941,14 +942,28 @@ async function existingLinksAreValid(tune, searchOptions, signal) {
   return false
 }
 
+function chordCandidateHasSingableLyrics(candidate) {
+  if (!candidate) return false
+  return hasSingableLyricText(
+    candidate.lyricLines
+      || candidate.sheetLines
+      || candidate.lyricText
+      || ''
+  )
+}
+
 function chordsResultUsable(result) {
   if (!result || result.empty) {
     return !!(result && Array.isArray(result.manualCandidates) && result.manualCandidates.length)
   }
-  if (result.multiple && Array.isArray(result.candidates) && result.candidates.length) return true
-  if (result.chordText || result.abc || result.chordProSource) return true
-  if (Array.isArray(result.lyricLines) && result.lyricLines.length) return true
-  if (Array.isArray(result.sheetLines) && result.sheetLines.length) return true
+  if (result.multiple && Array.isArray(result.candidates) && result.candidates.length) {
+    // preferChords needs sung words, not ABC accompaniment grids alone.
+    return result.candidates.some(chordCandidateHasSingableLyrics)
+  }
+  if (chordCandidateHasSingableLyrics(result)) return true
+  if (result.chordText || result.abc || result.chordProSource) {
+    return chordCandidateHasSingableLyrics(result)
+  }
   return false
 }
 

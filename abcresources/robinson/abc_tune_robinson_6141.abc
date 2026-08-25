@@ -1,0 +1,25 @@
+X:1
+T:Leichte Schwalbe. Polka  FC (pk07032) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.155  (pk07032) orig. F,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+d |: [P:A]  "F"cA/d/ c/f/a/g/ | ff c>f | "C7"ee B>d | "F"cc A>d | cA/d/ c/f/a/g/ | ff c>f | 
+"C7"eG/A/ B/c/d/e/ | "F"ff fz :: [K:C] [P:B] "C"e/e/e/e/  fe | "G7"d/d/d/d/g2 | d/d/d/d/ gB | "C"c/c/c/c/e2 | e/e/e/e/ f>e | "F"edA2 | 
+A/A/A/A/ "G7"B>A | "C"AG fe | e/e/e/e/  fe | "G7"d/d/d/d/g2 | d/d/d/d/ gB |  "C"c/c/c/c/e2 | c/c/c/c/ B>A | AGE2 | 
+"C7"G/A/_B/c/ d/c/d/e/ | "F"ff fz :: [K:F] [P:C] "F"fg/f/ "C7"e>d | "F"dc/=B/ c2 | "C"BG/A/ BB | "F"A/B/c/d/ c2 | fg/f/ "C7"e>d | "F"dc/=B/c2 | 
+ "C7"c/>d/e/>f/ d/c/d/e/ | "F"ff fz :: [K:C] [P:D] "C"e3d | g3g | ^fg ae | "G7"f3f | d3e | f3f | ef gd | 
+"C"e3d | e3f | g3g | ^fg ae | "G7"f3f | d3e | f3f | gf/e/ fe/d/ | "C"cc cz :| 
+W:
+W:Parts: ABCD
+%W:Anmerkung H.C.: Wynige/Zch., Lampenberg, Lausen
+%W:Anmerkung Hrsg,; Teil B, Takt 15: HC: h
+% pk07032
+% July 4, 2018 ("... ist bloss eine Art Stilmittel")

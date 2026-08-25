@@ -1,0 +1,20 @@
+X:49
+T: Marsch  FBb (mr09108)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.91 (mr09108) orig. F,Bb
+S: \"Uberliefert durch Josef B\"abi , Alpnach, 1880
+%%MIDI program 21
+R:March
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F"zc {/d}c/=B/c | "Gm"zd {/e}d/^c/d | "C7"ef ga | b2z2 |: "F"dA A/^G/A | dA A/^G/A | c2d>f | "C7"e4 | 
+dc B/A/B | dB B/A/B | e2 B>d | "F"c4 | dA A/^G/A | dA A/^G/A | c2 d>f | "C"e4 | ge "G7"d/^c/d | 
+"C"ge e/^d/e | "G7"g^g a=b |1 "C"c'c' c'z :|2 "C"c'e de || "F"f2e2 | d3A | "C7"Be ee | eB cd | e2d2 | 
+c3B | "F"Ad dd | dc de | f2e2 | d3A | "Gm"Bg gg | gB "C7"cd | "F"ca fd | ca fb | 
+"C7"ac a>g | "F"ff f(3f/g/a/ || [K:Bb] "Bb"b2z2 | z2zF || "Bb"f2f2 | f2f>e | d2d2 | d2c>B | "F7"A2g2 | 
+g2g>g | g2z2 | z2zF | e2e2 | e2e>d | c2c2 | c2B>c | "Bb"d2f2 | f2f>f | f2z2 | 
+z2zF | f2f2 | f2f>e | "Gm"d2d2 | d2c>B | "Cm"G2g2 | g2g>g | g2z2 | z2zb | 
+"F7"a2g2 | "Bb"f>b d>g | "F7"f>a e>g | "Bb"f>b d>d' | "F7"c'>b a>g | "Bb"f>b d>g | "F7"f2 a/g/a | "Bb"bb bz |] 
+% mr09108

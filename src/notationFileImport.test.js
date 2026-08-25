@@ -71,14 +71,19 @@ describe('notationFileImport', function() {
     expect(next.srcUrl).toBe('https://files.example/score.mid')
   })
 
-  test('importedTuneFromCandidate prefers tune then abc', function() {
+  test('importedTuneFromCandidate prefers tune with notation, else abc', function() {
     expect(importedTuneFromCandidate({ tune: { name: 'A' } })).toEqual({ name: 'A' })
     const tunebook = {
       abcTools: {
-        abc2json: function(abc) { return { abc: abc, name: 'FromAbc' } },
+        abc2json: function(abc) { return { abc: abc, name: 'FromAbc', voices: { '1': { notes: ['C'] } } } },
+        abc2Tunebook: function(abc) { return [{ abc: abc, name: 'FromAbc', voices: { '1': { notes: ['C'] } } }] },
       },
     }
     expect(importedTuneFromCandidate({ abc: 'X:1\nK:C\nC' }, tunebook).name).toBe('FromAbc')
+    expect(importedTuneFromCandidate({
+      tune: { name: 'Shell', voices: { '1': { notes: [] } } },
+      abc: 'X:1\nK:C\nC D E',
+    }, tunebook).voices['1'].notes).toEqual(['C'])
   })
 
   test('planNotationFileImport applies a single candidate when current has no notation', function() {

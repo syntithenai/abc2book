@@ -1,0 +1,27 @@
+X:163
+T:Sun that lights the Roses,The. CJF.163
+R:Air
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:The bars beginning * have a peculiar arrangement - the
+N:grace notes are interspersed among the main notes in a
+N:manner I haven't seen before. To attempt to convey this,
+N:if I use hyphens to indicate beaming, and use M for main
+N:notes and g for grace notes, it would look like this:
+N:M-g-g-M g-g M- g- -M -g-g | M- g- -M -g-g M M-M | - PJH
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:2/4
+L:1/16
+Q:1/4=60
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:C major
+G|.e2.d2.c2zG|.e2.d2.c2zg|{g}f3ea2d2|d2{f}e2d2zG|!
+(e>f)(d>e) c2zG|e>fd>e c2ze|(dafd) c2zB|d2c2z2ze|!
+e3ee3e|b3e e2ze|e3e fedc|c3Bz2ze|!
+e3ee3e|{e}d3dHa2Hc'2|(bg)(ea) d2c^f|a2Hg2z2gf|!
+e2g2c2a2|g3fd2zf|(egc'b) (agfe)|e2d2z2d2|!
+"*"e3{fe}e {dc}f3{g}f{ed}|g3{a}g{fe} a2 c'b|\
+(agfe) (d2g) B|(d2c2)z4|]

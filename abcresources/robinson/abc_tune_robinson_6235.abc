@@ -1,0 +1,23 @@
+X:1
+T: Schottisch  BbF ( st06994)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.167  ( st06994) orig. Bb,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] "Bb".F.d .d.d | !>!d2 ze | ("Cm"eG) .G.G | !>!G2zf | ("F7"fA) .A.A | !>!A2z.f/.f/ | ("Bb"fB) .B.B | !>!B2zF/F/ | 
+Fd .d.d | !>!d2 ze | ("Cm"eG) .G.G | (G3f) | ("F7"fA) .A.A | ("Bb"fB) .B.B | "F7"BA dc | "Bb"BB Bz || [K:F] 
+[P:B] |: "C7"c2 ec/c/ | "F"c2fc/c/ | ("C7"cB) Bd | ("F"d2c)c/c/ | "C7"c2gc/c/ | "F"c2 fc/c/ | "C7"=Bc ec | "F"ff fz :| [K:Bb]
+[P:C] |: "Bb"dz dz | d2d/c/B | ("F7"cG) .G.G | G4 | ez ez | e2e/d/c | "Bb"dg f=e | f4 | 
+dz dz | d2 d/c/B | ("Cm"ec) .c.c | c2zg/g/ | (g2c)f/f/ | ("Bb"f2B).d/.d/ | "F7"dc dc | "Bb"BB Bz :| 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+% st06994
+% June 27, 2018

@@ -1,0 +1,40 @@
+X:497
+T:Australian Ladies
+C:P.M. W. Fergusson
+M:2/4
+N:Said to have been made in memory of a women's pipe band, many of whose members were killed in a road accident on the way to take part in a competition.
+O:Scotland
+R:Pipe march
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+%%RRGroups:Misc-Scots
+S:E. Sutherland Accordion and Fiddle Club
+K:D major
+{g}A>d | \
+{gfg}f2a>f {Gdc}d3A|{gBd}B2{G}A2 {gfg}f2{g}e>f|\
+{gf}g3e {gcd}c2e2 | {g}c<eA2 {GAG}A2{g}A>d |
+{gfg}f2a>f {Gdc}d3A | \
+{gBd}B2{G}A2 {gfg}f2{AGAG}A2| \
+{g}B<Gg>f {gef}e2{g}c<{d}A | {Gdc}d4 {gdc}d2 :|
+|:{g}f>g | \
+{ag}a3f {Gdc}d2a2 | {fg}f>A{Gdc}d>f {ag}a2e>f | \
+{gf}g3e {gcd}c2e2 | {gef}e>A {d}c<e {gf}g2{a}f>g |1
+{gf}g3e {gcd}c2e2 |\
+{fg}f>A{Gdc}d>f {ag}a2{AGAG}A2 |\
+{g}B<{d}Gg>f {gef}e2{g}c<{d}A |{Gdc}d4 {gdc}d2
+:|2 a2{GdG}a2 {fg}f2a2|f<a{fg}f>e {Gdc}d2{e}A2|\
+{g}B<Gg>f {gef}e2{g}c<{d}A | {Gdc}d4 {gdc}d2 |]
+|:{g}A>d | \
+{g}d<f{g}A>d {g}d<fA>{g}d | {g}f<aA>f {gfg}f2{g}e>f | \
+g>e {g}c<e {gef}e3d | {g}c<e{g}A2 {GAG}A3d |
+{g}d<f{g}A>d {g}d<fA>{g}d | \
+{g}f<aA>f {gfg}f2{AGAG}A2 | \
+{g}B<{d}Gg>f {gef}e2{g}c<{d}A|{Gdc}d4 {gdc}d2:|
+{g}f>g|a2{GdG}a2 {fg}f2a2|{Gdc}d2a2 {fg}f>da>f|\
+{gf}g2a2 {eg}e2g2 | {cd}c2e2 {gef}e>cg2 |
+a2{GdG}a2 {fg}f2a2| {g}f<a{fg}f>e {Gdc}d2{e}A2|\
+{g}B>{d}Gg>f {gef}e2{g}c<{d}A | \
+{Gdc}d4 {gef}d2{g}f>g |
+a2{GdG}a2 {fg}f2a2 | {Gdc}d2a2 {fg}f>da>f | \
+{gf}g2a2 {eg}e2g2 | {cd}c2e2 {gef}e>cg2 |
+a2{GdG}a2 A>d{g}d>f|{g}f<a{fg}f>e {Gdc}d2{e}A2|\
+{g}B>{d}Gg>f {gef}e2{g}c<{d}A|{Gdc}d4{gdc}d2|]

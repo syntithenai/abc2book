@@ -1,0 +1,22 @@
+X:1
+T:O du lieber Augustin. Mazurka  FC ( mz07030)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.152  (mz07030) orig. F,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Mazurka
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] |: "C7"c>d c/B/ | "F"AFF | "C7"GCC | "F"AFF | "C7"c>d c/B/ | "F"AFF | "C7"GCC | "F"FzF :| 
+[P:B] |: "C7"GCC | "F"AFF | "C7"GCC | "F"AFF | "C7"c>d c/B/ | "F"AFF | "C7"GCC | "F".FFz :|  [K:C]
+[P:C] |: "G7"G/>G/GA | "C"G/>G/Ge | "G7"f/>f/fB | "C"dcA | "G7"G/>G/GA | "C"G/>G/Ge  | "G7"f/>f/fB | "C".ccz :| 
+[P:D] |: "C"e/>e/ec | ("G7"Ba)g | f/>f/fd | "C"cag | e/>e/ec | ("G7"Ba)g | b/a/ g/f/ e/d/ | "C".ccz :| 
+W:
+%W:Parts: ABCD
+%W:Anmerkung H.C.: 
+% mz07030
+% June 28, 2018

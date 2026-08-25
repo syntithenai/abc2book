@@ -1,0 +1,20 @@
+X: 162
+T:Lady Charlotte Gordon's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:56 - 1
+K:F major
+%%staves {1 2}
+V:1
+!trill!f2 (cf) BfAf | !trill!f2 (af) gG- G2 | !trill!f2 (cf) BfAf |1 B<Gc>B AF- F2 :|2  dbge af- f2 [|
+AFcF dFcF | (fdc!trill!A) BGG(B | A)!wedge!FcF dFcF | afge fFF(B |
+A)!wedge!FcF dFcF | (fdc!trill!A) BGG(B | A)!wedge!FcF defg | afge fF-Ff |]
+V:2 clef=bass octave=-2
+L:1/4
+ff[fb][fa] | ff[cg][cg] | ff[fb][fa] | bc'ff :| bc'ff [| \
+f[fa][fb][fa] | ffcc | f[fa][fb][fa] | c'cfF | f[fa][fb][fa] | ffcc | fabd' | c'cff |]

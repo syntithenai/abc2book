@@ -1,0 +1,15 @@
+X:10
+T: Alte Polka  FCBb (pk00899)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.232 (pk00899) orig. F,C,Bb-Dur
+S:Lötschental. S.214-233. Repertoire von Xander Murmann, Weissenried, 1874-1948
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+"F"c4f4 | "C7"feecc4 | "Gm"d2G2 "C7"B2E2 | "F"GFAEC4 | c4f4 | "C7"feedc4 | "Gm"d2G2 "C7"B2E2 | "F"F2FEF4 :| [K:C] "G7"f4e2d2 | 
+"C"c2z2z2 c2 | "G7"B2z2z2 F2 | "C"EGce g2g2 | "G7"f4e2d2 | "C"c2z2z2 c2 | "G7"B2z2z2 B2 | "C".c2z2z4 |: [K:F] "F"c4f4 | feedc4 | 
+"Gm"d2G2 "C7"B2E2 | "F"GFFAC4 | c4f4 | "C7"feedc4 | "Gm"d2G2 "C7"B2E2 | "F"F2FE .F4 :: [K:Bb] "Bb"FF.F2 GG.G2 | FF.F2d4 | 
+"F7"c2=B2 c2A2 | cBAG F2F2 | "Bb"FF.F2 GG.G2 | FF.F2B4 |1 "A7"A2AA A2^c2 | "Dm"d2d^c.d4 :|2 d2Bd "F7"f2A2 | "Bb"B2BA B2z2 || 
+|: "F"ff.f2 "C7"=ee.e2 | "F"ff.f2 !>!F4 | ff.f2 "C7"=ee.e2 | "F7"ff.f2 !>!F4 | "Bb"FF.F2 GG.G2 | FF.F2B4 | d2Bd "F7"f2A2 | "Bb"B2BA .B4 :|

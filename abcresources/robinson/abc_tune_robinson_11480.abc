@@ -1,0 +1,26 @@
+X:51
+T:Air By Mr.Arne.2voices. BC.51
+M:C
+L:1/16
+Q:1/4=100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Air
+O:England
+A:Uncertain, probably northern
+N:Or his son Michael Arne,1740-1786.who was also a composer to theatres
+N:and pleasure gardens.
+Z:vmp.John Bagnall
+B:Village Music project, Cooke, Benjamin
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/cooke_b.abc
+notC:Thomas Arne,1710-1778
+K:D major
+[V:1](a/g/f3) f2f2 f4 d'4|(g/f/e3) e2e2 e8|\
+(f/e/d3) (c/d/e3) d4 b4|(a/g/f3) (e/d/c3) d8||!
+[V:2][L:1/4]d d d d|A A A A|d A B G|A A D2||!
+[V:1](f/e/d3) d2d2 a4 d'4|(c'/b/a3) (^g/a/b3) a6 ~=g2|\
+(f/e/d3) (g/f/e3) a4 d4|cdef g2f2 e8|!
+[V:2]d d B B|A e c/A/B/c/|d e f F|E D A2|!
+[V:1](a/g/f3) f2f2 f4 d'4|(g/f/e3) e2e2 ~e8|\
+(f/e/d3) (c/d/e3) d4 b4|(a/g/f3) (e/d/c3) d8|]
+[V:2][L:1/16](f/e/d3) d2d2 d4 f4|\
+(e/d/c3) c2c2 c8|[L:1/4]d A B G|A A D2|]

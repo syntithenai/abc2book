@@ -1,0 +1,28 @@
+X:9
+T: Ennetmooser.  Bb (trad.)
+T:Nidwaldner Naturjuiz
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:C
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,D | F3D G3E | F3D Ff dB | Ae Ge Ff e/d/c | 
+Bd Gd !breath! !fermata! F2 B,D | F3D G3E | F3D Ff dB | Ae Ge Ff e/d/c | !fermata!B4z2 ||
+[P:B] d cd | f2ec fe cg | f2dBF2Ge | Fe AcF2Ge  | 
+Fd Bd !breath! !fermata!f d cd | f2ec fe cg | f2dBF2Ge | Fe Ac Fe dc | !fermata!B4z4 || 
+[P:C] F Ge | Fe AC EF Ge | Fd BB, D2Ge | Fe AC EF Ge | 
+Fd Bd !fermata!f F Ge | Fe AC EF Ge | Fd BB,D2Ge | F2Ac Fe dc | !fermata!B4 |]
+W: Reihenfolge: A-B-C-B
+W:
+W: Dieser alte Nidwaldner Jodel besass ursprünglich nur zwei Teile. 
+W:Der 3. Teil stammt wahrscheinlich vom Naturjodler Adolf Zimmermann.
+W: (nach Heinrich Leuthold)
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-15
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 22, 2018

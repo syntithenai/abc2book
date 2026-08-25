@@ -1,0 +1,30 @@
+X: 240
+T: Goldenshteyn Hora
+C: German Goldenshteyn
+D: "Nakhes fun Klezmer" Di Bostoner Klezmer
+S: printed transcription by Steve Rauch
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+R: horra
+M: 3/4
+L: 1/8
+K: Bb
+"A"\
+[| "Bb"f3 b ba | a3 g gf | f3 g ef | d3 e cB \
+| "F7"=B2 c2 c2 | f3 e ed | "Bb"d3 f =eg | "(F7)"f3 de=e |
+| "Bb"fb ba ag | gf fe ed | dg gf fe | ed dc cB \
+| "F7"c3 d ec | A3 F GA | "Bb"B3 d "F"cA | "Bb"B4 zA |]
+"B"\
+[| "Gm"G4 B2 | d4 g2 | b6- | b3 a b=b \
+| "Cm"c'3 b ag | ^f e3 dc | "Gm"{^c}d4 d2 | "(D7)"^c3 B AB |
+| "Gm"G4 B2 | d4 g2 | b6- | b3 a b=b \
+| "Cm"c'3 b ag | "D"^f3 d =ef | "Gm"g3 d ba | g6 |]
+"C"\
+[| "Bb"f3 b ba | a3 g gf | f3 g ef | d3 e cB \
+| "F7"=B2 c2 c2 | f3 e ed | "Bb"d3 f =eg | "(F7)"f4 f2 |
+| "Bb"b3 a ag | g3 f fe | e3 d dc | c3 A Bc \
+| "Gm"d3 e cd | "D7"B3 c AB | "Gm"G3 D BA | G6 |]
+"D"\
+[| "D"D ^F3 F2 | ^F3 D ED | "Gm"DG3 G2 | G6 \
+|  "D"D ^F3 F2 | ^F3 D ED | "Gm"D d3 d2 | ^c3 B AG |
+|  "G"G =B3 B2 | =B3 G _AG | "Cm"(c6 | e6) \
+| "Gm"D d3 d2 | "A7"^c3 B AG | "D7"B3 c AB | "Gm"G6 |]

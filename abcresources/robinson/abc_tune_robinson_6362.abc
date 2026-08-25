@@ -1,0 +1,26 @@
+X:1
+T:Walzer. Ländler  BbF ( wz07000)
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.179  (wz07000) orig. Bb,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"c2A | Fd>c | "C7"c2B/G/ | E2z | B2G | Ee>d | "F"d2c/A/ | F2z | c2A | 
+Ff>e | "Gm"e2d | g2z | "G7"f=Bd | "C"e>Gc | "G7"=BFA | "C"G2z | "G7"f=Bd | 
+"C"e>=Bc | "G7"=BgB | "C"czz || [P:B]  "C7"B2G/A/ | B2G/A/ | .BB/A/ B/A/ | BB=B | "F"c2A/B/ | 
+c2A/B/ | cc/=B/ c/B/ | cc^c | "Bb"d/d/dd | "F"=B/c/f2 | "C7"e/d/Bd | "F"c2A | "Bb"d/d/dd | 
+"F"=B/c/f2 | "C7"gfe | "F"fzz || [P:C] [K:Bb] "Bb"F2B | B2A | "Eb"G3 | c2z | "F7"d2c | A2F | "Bb"F2d | 
+B2z | F2B | d2f | fed | "Cm"eGc | "F7"A2c | cgf | ("Bb"d3 | d)zz | 
+"Bb"B2d | f2b | "Eb"azG | BAG | "Bb"Fzd | "F7"e2A | "Bb"B>BB | Bzz |] 
+W:
+%W:Parts: ABC
+%W:
+%W:Anmerkung H.C.:
+% wz07000
+% June 21, 2018

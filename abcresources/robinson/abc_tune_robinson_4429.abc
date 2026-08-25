@@ -1,0 +1,19 @@
+X: 184
+T: Tschäderfuess-Schottisch FBb (st05398)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.251 (st05398) orig. F,Bb-Dur
+S: "Plötsch Musig" Guggisberg (Bern) S.186ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+c/e/[P:A] |: "F"fA AA | "Bb"Bdd2 | "C7"e/f/g e/f/g | "F"fa ac/e/ | fA AA | "Bb"Bdd2 | "C7"e/f/g c/d/e |1 "F"ff fc/e/ :|2 
+"F"ff fc/c/ [P:B] |: "F"cf ga | "C7"b2zc/c/ | ce fg | "F"a2 zc/e/ | ff "F7"f/g/a/g/ | "Bb"B3d/e/ | ff f/g/a | "F"ff "C7"cc/c/ |  
+"F"cf ga | "C7"b3 c/c/ | ce fg | "F"a3 c/e/ | ff/f/ ff | f/g/a/g/ f2 | "C7"cc/c/ ed | cc cc/c/ :| [K:Bb]
+ [P:C] |: "Bb"f3b/b/ | b3 d/d/ | d3f/f/ | f3B | "F7"Af f/f/f | f/e/c f/e/c | "Bb"Bb b/b/b | b/f/d b/f/d | 
+f3b/b/ | b3 d/d/ | d3f/f/ | f3B | "F7"Af f/f/f | f/e/c f/e/c | "Bb"Bb b/b/b |1 bb bf/f/ :|2 bb bz |] 
+W:
+W: vgl. tschädere - scheppern, klirren, Lärm machen (http://www.berndeutsch.ch); engl. rattle-foot

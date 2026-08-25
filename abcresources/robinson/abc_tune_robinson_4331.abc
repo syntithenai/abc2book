@@ -1,0 +1,16 @@
+X: 95
+T: Mazurka BbFEb (mz05576)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.45 (mz05576) orig. Bb,F,Eb-Dur
+S: Bauernkapelle 'Edelwieiss', Faulensee (Bern)
+%%partsbox
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+P:ABAC
+K:Bb major
+[P:A] "Bb"f>=e f2b2 | "F7"a2e4 | ^f>g A2A2 |"Bb" =e>f B2B2 | f>=e f2b2 | "F7"a2e4 | a>g f>e d>c | "Bb"B2b2z2 ||[P:B]  [K:F]
+"C7"c=B cd ec | "F"fe fg af | "C7"b2e2e2 | "F"a2f2f2 | "C7"c=B cd ec | "F"fe fg af | "C7"b2e2 e>g | "F"f2f2"_> Teil A"z2 ||[P:C][K:Eb] 
+"Eb"B2g2g2 | g>^f g>a b2 | b>b g2e2 | "Bb7"d6 | B2f2f2 | f>=e fg a2 | a>a f2d2 | "Eb"e6 | B2g2g2 | g>^f g>a b2 | 
+g>g f2e2 | "Ab"c6 | c2 a>g f2 | "Eb"B2 g>f e2 | "Bb7"g>f f2d2 | "Eb"f>e e2B2 | "Fm/Ab"cc aa f2 | "Eb"BB gg e2 | "Bb7"gf =ef Bd | "Eb"e2e2z2 |]

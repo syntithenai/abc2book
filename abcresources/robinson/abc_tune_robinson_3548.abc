@@ -1,0 +1,17 @@
+X:99
+T: Laura-Walzer CGF (wz00325)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.293 (wz00325) C,G,F-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABACD
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"E2G | e2d | (c3 | c)zz | E2G | d2c | ("G7"B3 | B)zz | D2F | d2c | (B3 | 
+B)zz | "Dm"A2G | "G7"A2B | ("C"c3 | c)zz :: [P:B] [K:G] "G"B/B/Be | d3 | B/B/Bd | "D7"c3 | A/A/AB | c/c/cd | 
+e/e/ed | "G"B2z | B/B/Be | "G7"d3 | "C"e/e/ec | "Am"A2G | "D7"F/F/FD | B/B/BA | ("G"G3 | G)"_>Teil A"zz :|[P:C]  [K:F]
+("F"A3 | A)GF | (A3 | A)GA | ("C7"B3 | B)AG | (B3 | B)AB | ("F"c3 | c)de | ("Bb"f3 | 
+"F"f)cA | ("C7"c3 | c)BG | ("F"F3 | F)zA || [P:D]  "Dm"d2^c/d/ | fed | ("A7"^c3 | ^c)zA | e2^d/e/ | gfe | 
+("Dm"d3 | d)zA | ("F/C"c3 | "C7"c)BG | ("F/C"c3 | c)AF | "Gm"A2G | "C7"d2c | ("F"F3 | F)zz |]

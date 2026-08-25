@@ -1,0 +1,24 @@
+X: 49
+T:the House of Candacraig
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:18 - 3
+K:A major
+%%staves {1 2}
+V:1
+"^Slowly"
+A,ACA A,A-A!wedge!c | e>c d/c/B/A/ G/A/B/c/ Bc | \
+A,ACA A,A-A!wedge!c | e>c d/c/B/A/ (G/A/)B/G/ A2 :|
+A,Ace ~a>bag | !trill!fedc (e/d/c/d/) ~[EB]2 | \
+A,Ace ~a>bac | dbca (EG) A2 |
+A,Ace ~a>bag | !trill!fedc e/d/c/d/ ~[EB]2 | \
+CDE!wedge!C DFBd | cAGB (EG) A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+AAAA | AAee | AAAA | AdeA :| \
+Aaaa | aAee | AaaA | dAeA | Aaaa | aAee | AcdB | eEAA |]

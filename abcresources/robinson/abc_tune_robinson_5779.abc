@@ -1,0 +1,30 @@
+X:9
+T:dr Schorieder (Natur-Juiz)  Bb  ABAC
+T:Hansruedi Niederberger  (* 30.9.1948)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FD/G/ | F>B, | DF | dB | A>B | c2 | FC/G/ | F>C | EF | ec | 
+B>F | d2 | FD/G/ | F>B, | DF | dB | G>e | cG | ec | B>F | Bd | f2 | dc | B2 || 
+L:1/8
+M:3/4
+[P:B]  dc Bc | d3FF2 | f2dcB2 | c4(e2 | e2)ed cd | e3FF2 | f2d2c2 | 
+B3F(d2 | d2)dc Bc | d3FF2 | f2dc Bf | e6 | B2cB AG | F3d Bd | f2d2c2 | (B6 | B2) || 
+M:3/4
+[P:C]  BG | F2DF dB | A2c2AG | F2EF ec | B2d2BG | 
+F2DF dB | A2c2AG | F2EF (3edc | B4BG | F2EF eB | A2cB AG | 
+F2EF ec | B2d2BG | F2DF dB | A2cB AG | F2EF (3edc | B4 |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:
+W:notiert Edi Gasser. Angaben: Hr Niederberger
+W:UJV-Naturjodelsammlung: Code-Nr: 18-05
+W:http://www.naturjodler.ch/code 18.htm  (with AUDIO)
+%May 16 2018

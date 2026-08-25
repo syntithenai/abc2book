@@ -1,0 +1,28 @@
+X:478
+T:Slow March,A. 2voices RH.478
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:I doubled the first two note of bar 6 in the primo part.
+N:This tune seems to be a second attempt at RH.479. PJH
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:2/4
+L:1/16
+Q:100
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1]|:f3g a2z2|e3f g2z2|f2a>f e2g>e|d2e2 d2z2|
+[V:2]|:d3e f2z2|c3d e2z2|d2f>d c2e>A|F2G2 F2z2|
+%
+[V:1] f3g a2z2|b3c' d'2z2|c'2d'>b a2^g2|a2a>a a2z2:|
+[V:2] d3e f2z2|g3a b2z2|a2f>d c2B2|A2A>A A2z2:|
+%
+[V:1]|:e3f/e/ agfe|d2e2 f2z2|a3(b/a/) d'agf|f4 e2e>e|
+[V:2]|:c3d/c/ fedA|F2A2 d2z2|f3g/f/ afed|d4 c2c>d|
+%
+[V:1] g3a b2b>c'|d'3e' f'2z2|a2b>g f2e2|d2d>d d2z2:|
+[V:2] e3f g2g>a|b3c' d'2z2|f2g>e d2A2|F2F>F F2z2:|

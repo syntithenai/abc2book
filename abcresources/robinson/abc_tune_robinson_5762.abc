@@ -1,0 +1,35 @@
+X:19
+T:Tummligrat-Juiz  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+"_fröhliche Juizer vom Grat" F>D | d2zF cd | !fermata!B4 ||
+M:4/4
+L:1/4
+[P:A] B,>CDG | F2D2 | F>dcB | A4 | C>DEG | FAE2 | F>edc | B>cd2 | 
+B,>CDG | F2D2 | F>dcB | ACE2 | C>DEG | FAE2 | F>ecA | !fermata!B3 || 
+L:1/8
+M:3/4
+[P:B] FF| B2d2FF | c2e2FF | f3e cA | B2d2FF | B2d2FF | c2e2FF | f3e cA | 
+B4FF | B2d2FF | c2e2FF | f2fe cA | B2d2FF | B2d2FF | c2e2FF | f2fe cA | !fermata!B4 ||
+M:3/4
+[P:C] F>D | d3F dB | c4F>E | c3e dc | B>cd2F>D | d3F dB | c4F>E | c3F cd | !fermata!B4 || 
+M:4/4
+L:1/4
+[P:D] e/d/ | cFfe | e2dB/d/ | c>dfe | dB/c/de/d/ | 
+cFfe | e2d B/d/ | c>fdc | B3e/d/ | cFfe | e2dB/d/ | 
+c>dfe | dB/c/de/d/ |  cFfe | e2dB/d/ | cf/e/dc | !fermata!B3 |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-10
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018

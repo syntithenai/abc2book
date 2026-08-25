@@ -1,0 +1,24 @@
+X:1
+T:Die Freuden des Tanzens. Schottisch  CFBb  (st07137) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S. 227  (st07137) orig. C,F,Bb
+T: Tänze aus Lampenberg und Reigoldswil. S.220-229.
+S:Überliefert durch Thommen, Karl Fluhbacher und Paul Suter
+%%partsbox
+%P:ABCD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c>c cc | ce cA | "G7".G2(BA/B/) | "C".c2z2 |:  [P:A] "C".c.G  .c.G | "G7"BGd2 | d>c B>A | "C"AGe2 | 
+cG cG | "G"BGD2 | "D7"BA d>^F | "G"GG Gz :: [P:B] ("G7"Gf) .f.f | !>!f2(ed) | ("C"Ge) .e.e | !>!e2 (dc) | 
+"G7"B2FG | B3A | "C"AG E>G | A3A | ("G7"Gf) .f.f | !>!f2 (ed) | ("C"Ge)  .e.e | !>!e2(dc) | 
+"F"A2 (3ccc | "C"G2ee | "G7"dd A>B | "C"cc cz :: [P:C] [K:F] "F"c!>!A2F | ("C7"F/E/).E/.E/ EE | d!>!B2G | "F"Ffc2 | 
+c(!>!f2e) | "Gm"d3G | "C7"G(!>!e2d) | "F"cB "C7"AG | "F"c!>!A2F | "C7"F/E/E/E/ EE | d!>!B2G | "F"Ffc2 | c!>!f2A | 
+"Gm"Gdd2 | "C7"c/B/A/B/ D>E | "F"FF Fz :| [P:D] [K:Bb] "Bb"F3B | B3A | ("Cm"AG) (Ge) | e3z | G3A | e3z | G3A | "F7"A3G | 
+("Bb"GF) (Fd) | d3z | F3d | d3c | "F"cA cd | c3f | "C7"=e3G | Bd c>=E | "F"FF Fz |] 
+%W:Parts: ABCD
+%W:Anmerkung H.C.: (Böckten), Wynige/Zch., Lausen/Augst, s.V. 237
+%W:Anmerkung Hrsg,:
+% st07137
+% Sep 12, 2018

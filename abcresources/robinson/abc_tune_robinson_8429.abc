@@ -1,0 +1,25 @@
+X: 30
+T:the Marquis of Huntly's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:11 - 1
+K:G minor
+%%staves {1 2}
+V:1
+(D<G)(!trill!G>F) (D>G)(G>A) | (!trill!F>G)A>B c/B/A/G/ F>A | \
+(D<G)(!trill!G>F) (D>G)(G>g) | f>c d/c/B/A/ {A}G2 G>F |
+D<G!trill!G>F D>GG>A | !trill!F>GA>B c/B/A/G/ FA | \
+(D<G)(!trill!G>F) (D>G)(G>g) | f>c d/c/B/A/ {A}G2 G2 ||
+!trill!g>abg dgbg | a/g/f/d/ !trill!c>d fcaf | \
+!trill!g>abg d>gbg | b/a/g/f/ d^f g/g/g ~g2 |
+!trill!g>ab<g a<^fg<d | =f>cdf AFcA | \
+DG!trill!GF DGGg | fc d/c/B/A/ {A}G2 G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+eeee | ffff | eeee | ddee | eeee | ffff | eeee | ddee || \
+eeee | ffff | eeee | ddee | eede | ffff | eeee | ddGG |]

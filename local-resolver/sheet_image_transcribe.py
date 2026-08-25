@@ -24,7 +24,14 @@ from chord_sheet_utils import (
 from sheet_image_melody import extract_main_melody_from_musicxml
 from sheet_image_ocr import ensure_paddleocr_available, extract_ocr_boxes
 from sheet_image_omr import ensure_homr_available, transcribe_image_to_musicxml
-from sheet_image_staff_detect import classify_page_type, detect_staff_regions, vision_stack_available
+from sheet_image_preprocess import preprocess_sheet_image
+from sheet_image_segment import crop_box_for_segment, segment_page_from_ocr_boxes
+from sheet_image_staff_detect import (
+    classify_page_type,
+    detect_staff_regions,
+    vision_stack_available,
+    write_staff_crop,
+)
 from sheet_image_vlm import maybe_apply_vlm_fallback
 
 try:
@@ -91,19 +98,8 @@ def _guess_title_artist(lines: list[str]) -> tuple[str, str]:
 
 
 def _preprocess_image(source_path: str, work_dir: str) -> str:
-    if Image is None:
-        return source_path
-    with Image.open(source_path) as image:
-        converted = image.convert("RGB")
-        max_edge = int(os.getenv("SHEET_IMAGE_MAX_EDGE", "2400"))
-        width, height = converted.size
-        longest = max(width, height)
-        if longest > max_edge:
-            scale = max_edge / float(longest)
-            converted = converted.resize((int(width * scale), int(height * scale)), Image.Resampling.LANCZOS)
-        out_path = os.path.join(work_dir, "preprocessed.png")
-        converted.save(out_path, format="PNG")
-        return out_path
+    meta = preprocess_sheet_image(source_path, work_dir, out_name="preprocessed.png")
+    return str(meta.get("path") or source_path)
 
 
 def _write_uploaded_bytes(data: bytes, filename: str, work_dir: str) -> str:
@@ -168,13 +164,205 @@ def _extract_chord_sheet(image_path: str) -> dict[str, Any]:
     }
 
 
-def _extract_melody(image_path: str) -> dict[str, Any] | None:
+def _extract_melody(image_path: str, work_dir: str | None = None) -> dict[str, Any] | None:
     if not ensure_homr_available():
         return None
-    musicxml = transcribe_image_to_musicxml(image_path)
+    omr_path = image_path
+    staff_crop_used = False
+    if work_dir:
+        staff_info = detect_staff_regions(image_path)
+        crop_path = write_staff_crop(image_path, work_dir, staff_info=staff_info)
+        if crop_path:
+            omr_path = crop_path
+            staff_crop_used = True
+    musicxml = transcribe_image_to_musicxml(omr_path)
     melody = extract_main_melody_from_musicxml(musicxml)
     melody["source"] = "homr"
+    melody["staffCropUsed"] = staff_crop_used
     return melody
+
+
+def _image_size(image_path: str) -> tuple[int, int]:
+    if Image is None:
+        return 0, 0
+    with Image.open(image_path) as image:
+        return int(image.size[0]), int(image.size[1])
+
+
+def _write_segment_crop(
+    image_path: str,
+    work_dir: str,
+    segment: dict[str, Any],
+    index: int,
+) -> str:
+    if Image is None:
+        return image_path
+    width, height = _image_size(image_path)
+    left, top, right, bottom = crop_box_for_segment(segment, width, height)
+    with Image.open(image_path) as image:
+        cropped = image.convert("RGB").crop((left, top, right, bottom))
+        out_path = os.path.join(work_dir, f"segment-{index:02d}.png")
+        cropped.save(out_path, format="PNG")
+        return out_path
+
+
+def _empty_result_error(warnings: list[str], staff_info: dict[str, Any], omr_skipped: bool) -> RuntimeError:
+    if "omr_failed" in warnings:
+        return RuntimeError(
+            "No chords, lyrics, or melody were detected. Staff notation was found but "
+            "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
+            "for notation scores."
+        )
+    if "paddleocr_unavailable" in warnings and omr_skipped:
+        return RuntimeError(
+            "No chords, lyrics, or melody were detected. Sheet OCR/OMR backends "
+            "are not available on this resolver."
+        )
+    if "paddleocr_unavailable" in warnings:
+        return RuntimeError(
+            "No chords, lyrics, or melody were detected. OCR is not available on this resolver."
+        )
+    if staff_info.get("hasStaff") and omr_skipped:
+        return RuntimeError(
+            "No chords, lyrics, or melody were detected. Staff notation was found but "
+            "melody recognition is not available on this resolver."
+        )
+    if staff_info.get("hasStaff"):
+        return RuntimeError(
+            "No chords, lyrics, or melody were detected. Staff notation was found but "
+            "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
+            "for notation scores."
+        )
+    return RuntimeError(
+        "No chords, lyrics, or melody were detected in the image. "
+        "Try a clearer photo of a chord chart or lead sheet."
+    )
+
+
+async def _transcribe_single_image(
+    image_path: str,
+    work_dir: str,
+    on_progress: ProgressCallback | None,
+    started_at: float,
+    estimated_total: int,
+    title_hint: str = "",
+    skip_page_ocr: bool = False,
+    ocr_boxes: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    warnings: list[str] = []
+    _emit_progress(on_progress, "staff_detect", "Detecting staff notation regions...", started_at, estimated_total)
+    staff_info = detect_staff_regions(image_path)
+    if staff_info.get("hasStaff"):
+        estimated_total = _estimate_total_seconds(has_staff=True)
+
+    if skip_page_ocr and ocr_boxes is not None:
+        from chord_sheet_utils import reconstruct_chords_over_words as _recon
+        from chord_sheet_utils import reconstruct_chord_sheet_details as _details
+
+        lines = _recon(ocr_boxes)
+        line_details = _details(ocr_boxes)
+        chord_sheet = {
+            "format": "chords-over-words",
+            "text": lines_to_chord_sheet_text(lines),
+            "lines": classify_lyric_chord_lines(lines),
+            "sections": build_sections_from_lines(lines),
+            "confidence": estimate_chord_sheet_confidence(lines, ocr_boxes),
+            "warnings": [],
+            "lineDetails": line_details,
+        }
+        raw_lines = lines
+        boxes = ocr_boxes
+    else:
+        _emit_progress(on_progress, "ocr", "Running OCR for chords and lyrics...", started_at, estimated_total)
+        chord_sheet = _extract_chord_sheet(image_path)
+        raw_lines = chord_sheet.pop("_rawLines", [])
+        boxes = chord_sheet.pop("ocrBoxes", [])
+
+    might_vlm = float(chord_sheet.get("confidence") or 0.0) < 0.55
+    if might_vlm:
+        estimated_total = _estimate_total_seconds(bool(staff_info.get("hasStaff")), might_vlm=True)
+
+    fallback = await maybe_apply_vlm_fallback(raw_lines, boxes, float(chord_sheet.get("confidence") or 0.0))
+    title = str(title_hint or "")
+    artist = ""
+    if fallback:
+        if fallback.get("lines"):
+            _emit_progress(on_progress, "vlm", "Cleaning chord text with research LLM...", started_at, estimated_total)
+            chord_sheet["lines"] = classify_lyric_chord_lines(fallback["lines"])
+            chord_sheet["sections"] = build_sections_from_lines(fallback["lines"])
+            chord_sheet["text"] = fallback.get("text") or lines_to_chord_sheet_text(fallback["lines"])
+            chord_sheet["confidence"] = fallback.get("confidence", chord_sheet.get("confidence"))
+            chord_sheet["source"] = fallback.get("source", "llm_cleanup")
+            raw_lines = fallback["lines"]
+            warnings.append("vlm_fallback_applied")
+        if not title:
+            title = str(fallback.get("title") or "")
+        artist = str(fallback.get("artist") or "")
+
+    if not title and not artist:
+        title, artist = _guess_title_artist(raw_lines)
+
+    melody = None
+    omr_skipped = False
+    if staff_info.get("hasStaff"):
+        if ensure_homr_available():
+            try:
+                _emit_progress(on_progress, "omr", "Recognizing melody notation (OMR)...", started_at, estimated_total)
+                melody = _extract_melody(image_path, work_dir=work_dir)
+                _emit_progress(on_progress, "melody", "Converting melody to ABC...", started_at, estimated_total)
+            except Exception as exc:
+                warnings.append("omr_failed")
+                warnings.append(str(exc)[:200])
+        else:
+            omr_skipped = True
+            warnings.append("omr_unavailable")
+
+    page_type = classify_page_type(bool(staff_info.get("hasStaff")), raw_lines)
+    if chord_sheet.get("text") and melody:
+        page_type = "mixed"
+    elif melody and not chord_sheet.get("text"):
+        page_type = "notation_only"
+    elif chord_sheet.get("text") and not melody:
+        page_type = "chord_chart"
+
+    return {
+        "title": title,
+        "artist": artist,
+        "pageType": page_type,
+        "chordSheet": {
+            "format": chord_sheet.get("format", "chords-over-words"),
+            "text": chord_sheet.get("text", ""),
+            "lines": chord_sheet.get("lines", []),
+            "sections": chord_sheet.get("sections", []),
+            "confidence": chord_sheet.get("confidence", 0.0),
+            "lineDetails": chord_sheet.get("lineDetails", []),
+        },
+        "melody": melody,
+        "staffDetection": staff_info,
+        "warnings": warnings,
+        "_omrSkipped": omr_skipped,
+        "_rawLines": raw_lines,
+        "_ocrBoxes": boxes,
+    }
+
+
+def _filter_boxes_to_segment(
+    boxes: list[dict[str, Any]],
+    segment: dict[str, Any],
+) -> list[dict[str, Any]]:
+    top = float(segment.get("top") or 0)
+    bottom = float(segment.get("bottom") or 0)
+    filtered: list[dict[str, Any]] = []
+    for box in boxes or []:
+        y = float(box.get("y") or 0)
+        h = float(box.get("height") or 0)
+        mid = y + h / 2.0
+        if mid < top or mid > bottom:
+            continue
+        next_box = dict(box)
+        next_box["y"] = max(0.0, y - top)
+        filtered.append(next_box)
+    return filtered
 
 
 async def transcribe_sheet_image_bytes(
@@ -189,119 +377,127 @@ async def transcribe_sheet_image_bytes(
     estimated_total = _estimate_total_seconds(has_staff=False)
     _emit_progress(on_progress, "prepare", "Preparing image or PDF page...", started_at, estimated_total)
 
-    warnings: list[str] = []
     with tempfile.TemporaryDirectory(prefix="sheet-image-") as work_dir:
         image_path = _prepare_image_path(data, filename, work_dir)
-        _emit_progress(on_progress, "staff_detect", "Detecting staff notation regions...", started_at, estimated_total)
-        staff_info = detect_staff_regions(image_path)
-        if staff_info.get("hasStaff"):
-            estimated_total = _estimate_total_seconds(has_staff=True)
+        width, height = _image_size(image_path)
+
+        # Page-level OCR first so we can detect stacked session-book titles.
         _emit_progress(on_progress, "ocr", "Running OCR for chords and lyrics...", started_at, estimated_total)
-        chord_sheet = _extract_chord_sheet(image_path)
-        raw_lines = chord_sheet.pop("_rawLines", [])
-        ocr_boxes = chord_sheet.pop("ocrBoxes", [])
+        page_chord = _extract_chord_sheet(image_path)
+        page_boxes = list(page_chord.pop("ocrBoxes", []) or [])
+        page_raw_lines = page_chord.pop("_rawLines", [])
+        segments = segment_page_from_ocr_boxes(page_boxes, width, height)
+        multi = len(segments) >= 2 and any(str(seg.get("title") or "").strip() for seg in segments)
 
-        might_vlm = float(chord_sheet.get("confidence") or 0.0) < 0.55
-        if might_vlm:
-            estimated_total = _estimate_total_seconds(bool(staff_info.get("hasStaff")), might_vlm=True)
+        if multi:
+            tune_results: list[dict[str, Any]] = []
+            for index, segment in enumerate(segments):
+                if not str(segment.get("title") or "").strip() and len(segments) > 1:
+                    # Skip empty trailing/leading spacer segments without titles when others exist.
+                    continue
+                seg_dir = os.path.join(work_dir, f"seg-{index:02d}")
+                os.makedirs(seg_dir, exist_ok=True)
+                seg_path = _write_segment_crop(image_path, seg_dir, segment, index)
+                seg_boxes = _filter_boxes_to_segment(page_boxes, segment)
+                one = await _transcribe_single_image(
+                    seg_path,
+                    seg_dir,
+                    on_progress,
+                    started_at,
+                    estimated_total,
+                    title_hint=str(segment.get("title") or ""),
+                    skip_page_ocr=True,
+                    ocr_boxes=seg_boxes,
+                )
+                one.pop("_omrSkipped", None)
+                one.pop("_rawLines", None)
+                one.pop("_ocrBoxes", None)
+                one["segment"] = {
+                    "title": segment.get("title"),
+                    "top": segment.get("top"),
+                    "bottom": segment.get("bottom"),
+                    "confidence": segment.get("confidence"),
+                    "index": index,
+                }
+                tune_results.append(one)
 
-        fallback = await maybe_apply_vlm_fallback(raw_lines, ocr_boxes, float(chord_sheet.get("confidence") or 0.0))
-        title = ""
-        artist = ""
-        if fallback:
-            if fallback.get("lines"):
-                _emit_progress(on_progress, "vlm", "Cleaning chord text with research LLM...", started_at, estimated_total)
-                chord_sheet["lines"] = classify_lyric_chord_lines(fallback["lines"])
-                chord_sheet["sections"] = build_sections_from_lines(fallback["lines"])
-                chord_sheet["text"] = fallback.get("text") or lines_to_chord_sheet_text(fallback["lines"])
-                chord_sheet["confidence"] = fallback.get("confidence", chord_sheet.get("confidence"))
-                chord_sheet["source"] = fallback.get("source", "llm_cleanup")
-                raw_lines = fallback["lines"]
-                warnings.append("vlm_fallback_applied")
-            title = str(fallback.get("title") or "")
-            artist = str(fallback.get("artist") or "")
-
-        if not title and not artist:
-            title, artist = _guess_title_artist(raw_lines)
-
-        melody = None
-        omr_skipped = False
-        if staff_info.get("hasStaff"):
-            if ensure_homr_available():
-                try:
-                    _emit_progress(on_progress, "omr", "Recognizing melody notation (OMR)...", started_at, estimated_total)
-                    melody = _extract_melody(image_path)
-                    _emit_progress(on_progress, "melody", "Converting melody to ABC...", started_at, estimated_total)
-                except Exception as exc:
-                    warnings.append("omr_failed")
-                    warnings.append(str(exc)[:200])
+            if not tune_results:
+                multi = False
             else:
-                omr_skipped = True
-                warnings.append("omr_unavailable")
+                first = tune_results[0]
+                result = {
+                    "title": first.get("title") or "",
+                    "artist": first.get("artist") or "",
+                    "pageType": first.get("pageType") or "unknown",
+                    "chordSheet": first.get("chordSheet"),
+                    "melody": first.get("melody"),
+                    "staffDetection": first.get("staffDetection"),
+                    "warnings": list(first.get("warnings") or []),
+                    "segments": [
+                        {
+                            "title": seg.get("title"),
+                            "top": seg.get("top"),
+                            "bottom": seg.get("bottom"),
+                            "confidence": seg.get("confidence"),
+                            "index": seg.get("index"),
+                        }
+                        for seg in segments
+                    ],
+                    "tunes": tune_results,
+                }
+                if len(tune_results) > 1:
+                    result["warnings"] = list(result.get("warnings") or []) + ["multi_tune_page"]
+                _emit_progress(on_progress, "finalize", "Finishing transcription...", started_at, estimated_total)
+                return result
 
-        page_type = classify_page_type(bool(staff_info.get("hasStaff")), raw_lines)
-        if chord_sheet.get("text") and melody:
-            page_type = "mixed"
-        elif melody and not chord_sheet.get("text"):
-            page_type = "notation_only"
-        elif chord_sheet.get("text") and not melody:
-            page_type = "chord_chart"
+        # Single-tune path (reuse page OCR already computed).
+        one = await _transcribe_single_image(
+            image_path,
+            work_dir,
+            on_progress,
+            started_at,
+            estimated_total,
+            skip_page_ocr=True,
+            ocr_boxes=page_boxes,
+        )
+        # Prefer page OCR chord sheet text when segment path was not used.
+        if page_chord.get("text") and not (one.get("chordSheet") or {}).get("text"):
+            one["chordSheet"] = {
+                "format": page_chord.get("format", "chords-over-words"),
+                "text": page_chord.get("text", ""),
+                "lines": page_chord.get("lines", []),
+                "sections": page_chord.get("sections", []),
+                "confidence": page_chord.get("confidence", 0.0),
+                "lineDetails": page_chord.get("lineDetails", []),
+            }
+            one["_rawLines"] = page_raw_lines
 
-        chord_text = str(chord_sheet.get("text") or "").strip()
+        omr_skipped = bool(one.pop("_omrSkipped", False))
+        one.pop("_rawLines", None)
+        one.pop("_ocrBoxes", None)
+        warnings = list(one.get("warnings") or [])
+        staff_info = one.get("staffDetection") or {}
+        chord_text = str((one.get("chordSheet") or {}).get("text") or "").strip()
         melody_abc = ""
+        melody = one.get("melody")
         if isinstance(melody, dict):
             melody_abc = str(melody.get("abc") or "").strip()
         if not chord_text and not melody_abc:
-            if "omr_failed" in warnings:
-                raise RuntimeError(
-                    "No chords, lyrics, or melody were detected. Staff notation was found but "
-                    "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
-                    "for notation scores."
-                )
-            if "paddleocr_unavailable" in warnings and omr_skipped:
-                raise RuntimeError(
-                    "No chords, lyrics, or melody were detected. Sheet OCR/OMR backends "
-                    "are not available on this resolver."
-                )
-            if "paddleocr_unavailable" in warnings:
-                raise RuntimeError(
-                    "No chords, lyrics, or melody were detected. OCR is not available on this resolver."
-                )
-            if staff_info.get("hasStaff") and omr_skipped:
-                raise RuntimeError(
-                    "No chords, lyrics, or melody were detected. Staff notation was found but "
-                    "melody recognition is not available on this resolver."
-                )
-            if staff_info.get("hasStaff"):
-                raise RuntimeError(
-                    "No chords, lyrics, or melody were detected. Staff notation was found but "
-                    "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
-                    "for notation scores."
-                )
-            raise RuntimeError(
-                "No chords, lyrics, or melody were detected in the image. "
-                "Try a clearer photo of a chord chart or lead sheet."
-            )
+            raise _empty_result_error(warnings, staff_info, omr_skipped)
 
-        result = {
-            "title": title,
-            "artist": artist,
-            "pageType": page_type,
-            "chordSheet": {
-                "format": chord_sheet.get("format", "chords-over-words"),
-                "text": chord_sheet.get("text", ""),
-                "lines": chord_sheet.get("lines", []),
-                "sections": chord_sheet.get("sections", []),
-                "confidence": chord_sheet.get("confidence", 0.0),
-                "lineDetails": chord_sheet.get("lineDetails", []),
-            },
-            "melody": melody,
-            "staffDetection": staff_info,
-            "warnings": warnings,
-        }
+        one["segments"] = segments
+        one["tunes"] = [{
+            "title": one.get("title"),
+            "artist": one.get("artist"),
+            "pageType": one.get("pageType"),
+            "chordSheet": one.get("chordSheet"),
+            "melody": one.get("melody"),
+            "staffDetection": one.get("staffDetection"),
+            "warnings": one.get("warnings"),
+            "segment": segments[0] if segments else {"title": one.get("title"), "top": 0, "bottom": height, "index": 0},
+        }]
+        result = one
 
-    # Emit finalize only after temp files are released so the UI does not sit at
-    # "Finishing transcription..." while cleanup or serialization is still running.
     _emit_progress(on_progress, "finalize", "Finishing transcription...", started_at, estimated_total)
     return result
 

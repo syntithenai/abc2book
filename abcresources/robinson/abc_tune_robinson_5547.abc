@@ -1,0 +1,23 @@
+X:289
+T:Sympathie-Walzer CGFBb (wz06895)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.238 (wz06895) orig. C.G,F,Bb
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+("C"CG>)G | (GC>)C | ("G7"B,G>)G | G3 | (B,G>)G | (GF>)D | ("C"Cc>)A | TG3 | (cg>)g | (gc>)c | 
+("G7"Bg>)g | g3 | ("Dm"da>)a | ("C"ag>)e | ("G7"gf>)d | "C"czz :: [K:G] "G"d/d/ed | edB | "D7"d/d/ed | edc | 
+d/d/fe | dcA | "G"GB>c | (e2d) | d/d/ed | edB | "D7"d/d/ed | edc | d/d/fe | dcA | 
+de>f | "G"g"_>Teil A"zz :: [K:F] "F"z.c.c | .dzc | z.A.A | .Bz.A | "C7"z.G.G | .cz.c | z"F".A.A | 
+"F(C7)"czc | "F"zcc | dzc | zAA | BzA | "C7"zGG | czc | zcc | "F"fzz :| [K:Bb]
+|: ("Bb"F/d/) d>c | B3 | ("F7"A/g/)g>f | e3 | (f/a/)a>g | e3 | (d/e/)g>f | "Bb"d3 | (F/d/)d>c | B3 | ("F7"A/g/)g>f | 
+e3 | (f/a/) a>g | e3 | (=e/f/)f>A | "Bb"Bzz :: [K:F] ("C7"Tc3 | c3){=Bc} | "F"f>AA | A/c/ f/A/ c/f/ | "C7"e>GG  | B>EE | 
+"F"f>AA | c>FF | ("C7"Tc3 | c3){=Bc} | "F"f>AA | A/c/ f/A/ c/f/ | "C7"gg/B/ g/B/ | "F"ff/A/ f/A/ | "C7"e/G/ e/G/ c/E/ | "F"Fzz :| 
+W:Parts: ABACDE
+W: Walzer, nach Grossmann
+% wz06895
+% March 27, 2017

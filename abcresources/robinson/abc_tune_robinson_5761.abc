@@ -1,0 +1,35 @@
+X:17
+T:Dachdecker-Juiz  A-Dur  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+"_Anruf - Gruss vom Dach" "freudig"E| e>ce | B2E | e>Bc | !fermata!A2 || 
+[P:A] 
+"ruhig"  E | A>CE | C>E A/B/ | c2B | A2E | c>BA | E>Ac | (B3 | B2)E | B>DE | 
+D>E G/A/ | B2A | G2B, | E>FE | DBG | (A3 | A2)E | A>CE | C>E A/B/ | c2B | A2E | 
+c>Ac | e>dc | (B3 | B2)E | B>DE | D>E G/A/ | B2A | G2E | e>dB | DcB | (A3 | A2) || 
+M:4/4
+[P:B]"straff" EC/C/ AC/C/ | EDB2 | E>dcB/G/ | AcE2 | EC/C/ AC/C/ | EDB2 | E>dcB/G/ | A2"rit."GF | 
+EC/C/ AC/C/ | EDB2 | E>dcB/G/ | AcE2 | EC/C/ AC/C/ | EDB2 | E>dcB | A3z ||
+M:3/4
+[P:C] "langsam" E|e>ce | B2E | DcB | A2E | e>c B/A/ | GBE | e>d B/G/ | !fermata!A2 || 
+M:2/4
+L:1/8
+[P:D] "gemütlich" E>F EC | c2A2 | E>F EC | DBB2 | B>A GF | EdB2 | B>A GF | EcA2 | 
+E>F EC | c2A2 | E>F EC | DBB2 | B>A GF | EdB2 | E>E BG | A4 | 
+E>F EC | c2A2 | E>F EC | DBB2 | B>A GF | EdB2 | B>A GF | EcA2 | 
+E>F EC | c2A2 | E>F EC | DBB2 | B>A GF | EdB2 | "rit."Ed BG | A4 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-09
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018

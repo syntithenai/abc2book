@@ -1,0 +1,12 @@
+X:144
+T:Mazurka G (mz05132)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"d4 ^cd | "D7"f>ec4 | d4 ^cd | "G"a>g B4 | bba2g2 |1 "D7"g2f2c2 | ggf2e2 | "G"e2d2B2 :|2 
+"D"f2g2a2 | "A7"g2g2^c2 | "D"d2d'2z2 || "G"bc'd'4 | "E7"d'2c'2b2 | "Am"a2^g2a2 | e6 | "D7"abc'4 | c'2b2a2 | "G"g2f2g2 | d2z2z2 || 
+"D7"cd f3e | e3dc2 | "G"Bdg3e | e3dB2 | "D7"d2c'3b | ag fe dc | "G"B>dg2e2 | d4z2 | "D7"cdf3e | 
+e3dc2 | "G"Bdg3e | e3dB2 | "C"c2e3e | "D7"e2d3e | d2c3A | "G"G2g2z2 |: "G"b2d2b2 | "Am"b>aa2z2 | 
+"D7"a2c2a2 | "G"a>gg4 | B2e2d2 |1 "D7"d>c c2c2 | c2f2e2 | "G"e>dd2d2 :|2 "Am"dc a3g | "D7"fe dc BA | "G"G2g2z2 |]

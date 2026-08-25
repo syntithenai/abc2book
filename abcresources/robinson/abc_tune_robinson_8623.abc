@@ -1,0 +1,33 @@
+X:9
+T:Miss Isaac Forsyth, Elgin
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:3 - 3
+K:F major
+%%staves {1 2}
+V:1
+C | \
+F2B (A/B/c)!wedge!A | F2f fed | c2d cAF | EG[DG] [CEG]2 A |
+F2B (A/B/c)!wedge!A | F2f fed | c2d cAF | CFF F2 & A,2[B,D] [A,C]2 :|
+~f/g/ | \
+agf bag | agf gfe | fed cBA | BGG G2 f/g/ | \
+agf bag | agf gfe | def cdB | AFF F2 f/g/ |
+agf bag | agf gfe | def cBA | BGG G2 f/g/ | \
+F2B (A/B/c)!wedge!A | F2f fed | c2f efg | aff f2 |]
+V:2 clef=bass octave=-2
+z | \
+a2d' c'2c' & f3 f3 | a2d' d'c'b', & f3 f3 | \
+a2b', a2a & f3 f3 | c'2=b _b3 & c6 | \
+[ac']2d' c'2c' & f3 f2f | a2d' d'c'b & f3 f3 | \
+a2b a2a & f3 f2f | [Ff]2 [Ff] [Ff]2 :| \
+z | \
+fac' egc' | fac' fac' | fbd' fac' | cgc' cgc' | \
+fac' egc' | fac' fbd' | fbd' egc' | z2[bd'] [ac']2z & f3 f3 | \
+fac' egc' | fac' fac' | fbd' fac' | cgc' ebc' | \
+a2d' c'2c' & f3 f2f | a2d' d'c'b & f3 f2f | \
+a2a fab & f2f c3 | a2[bd'] [ac']2 & f3 - f2 |]

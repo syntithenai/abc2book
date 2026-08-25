@@ -1,0 +1,21 @@
+X:199
+T:Bruder Lustig (Schottisch). GDC (st07740)  ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.369 (st07740) orig. G,D,C
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%partsbox
+P:ABAC
+%%MIDI program 21
+O:Switzerland
+R:Schottische
+M:2/4
+L:1/8
+K:G major
+d [P:A] |: "G"gg B>e | dd G>B | "D7"cA FD | ("G"G/A/B/c/) dd | gg B>c | dd G>B | "D7"cA FD |1 
+"G"GB Gd :|2 "G"GB Gz |: [P:B] [K:D]  ("D"F^E/F/) ("A7"GF/G/) | "D"A2f2 | {/g}"A7"fe B>c | e/d/c/B/ AA/G/ | "D"F^E/F/ "A7"GF/G/ | "D"A2f2 | 
+{/g}"A7"fe B>c |1 "D"dd dz :|2 "D"dd d"_>Teil A"d [K:C] [P:C] |: "C"G>G ed | c2c2 | "G7"Bc de | f3z | G>G fe | (dg)g2 | 
+g>a gf | "C"e3z | e>e ee | (eg)g2 | fe dc | ("G7"Bd)d2 | d>e fg | "F"aaa2 | "C"g>e "G7"fB | "C"ce c"_Fine"z :| 
+W:
+W:Anmerkung H.C.: Keltengalopp, Rünenberg 11, Läufelfingen, s.V. 792
+% st07740 (C) Mülirad-Verlag 2007
+% Oct 6, 2017 (memory expanded time)

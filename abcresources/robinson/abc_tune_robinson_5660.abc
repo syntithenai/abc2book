@@ -1,0 +1,24 @@
+X:1
+T: Klewen-Juiz  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F | d>FF | c>FF | B>FF | DBF | 
+c>FF | EcF | B>FF | d2F | d>FF | c>FF | 
+B>FF | DBF | c>FF | edc | B3 | B3 ||  
+M:3/4
+[P:B] e/d/ | cEF | c2d/c/ | BDF | B2c/B/ | AEF | 
+edc | BDF | d2 e/d/ |  cEF | c2d/c/ | BDF | 
+B2 c/B/ | AEF | edc | B3 | Bz |]
+%W: Parts: A-B
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-31
+W:http://www.naturjodler.ch/tradition-4.htm  (with AUDIO)
+%April 25, 2018

@@ -1,0 +1,41 @@
+X: 291
+T: Mindra Mea De La Ciugud
+T: De_a_Longul
+O: Romania
+F: http://www.youtube.com/watch?v=3pVYI4fHnKc
+F: http://www.youtube.com/watch?v=TqpZZ5IWxzE
+F: http://www.youtube.com/watch?v=loU6Rfcjo8U
+S: Deborah Jones VIFD Book I
+M: 3/4
+L: 1/8
+Q: 1/4=84
+K: G
+P:A
+V:1
+%%MIDI program 40
+K: G octave=-1
+  g>a b>a g>d             | (3 eed d2 d2| g/f/g/a/ (3bd'd' (3 abg|
+V:2
+%%MIDI program 24
+  G2 G2 G2                | C2 G2 G2    | G>F E2 (3A,B,C         |
+V:1
+  a4 d2                   | g>a b>a g>d | (3eed d2 d'2           |
+V:2
+  D2-DDEF                 | G2 G2 GB    | c2 G2 ^G2              |
+V:1
+  d'/e'/d'/c'/ (3bcc (3aab| g4 z2       |
+V:2
+  A2 D2 EF                | G2 G2 G2    |
+P:B
+V:1
+|:B>c d2 d2               | d/e/B/c/ d4 | G/F/G/A/ (3Bdd (3cBG   | A4 z2    :|
+V:2
+|:G2 G2 G2                | G2 G2 GF    | E2 E2 A2               | D2-DDEF  :|
+V:1
+  G>A B>A G>D             | (3EED D4    | G/F/G/A/ (3Bdd (3CBG   | A4 z2    |
+V:2
+  G2 G2 GB                |c2 G2 G2     | G>F E2 (3A,B,C         | D2-DDEF  |
+V:1
+  G>A B>A G>D             | (3EED D2 d2 | d/e/d/c/ B/cB/ A/BA/   | G4 z2    |
+V:2
+  G2 G2 GB                | C2 G2 ^G2   | A2 D2 EF               | G2 G2 G2 |

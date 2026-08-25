@@ -1,0 +1,23 @@
+X:119
+T:Immer lustig (Polka) FBb (pk07294) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.278 (pk07294) orig. F,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c'/c'/c'/c'/ d'c' | "Bb"b/b/b/d/ ag | ("C7"f/e/).e (b/d/).d | ("F"d/c/).c (a/c/).c | c'/c'/c'/c'/ d'c' | "Bb"b/b/b/d/ ag | 
+("F"f/a/).f/.d/ ("C7"c/d/).B/.G/ | "F"F/A/c/f/ .F2 :| [P:B] "Dm"A/A/A/A/ df | "A7"{/f}ee B2 | A/B/A/c/ eg | "Dm"f/e/d/^c/ dB | A/A/A/A/ df | 
+"C"e/=B/c/A/ G2 |  "F"(^G/A/).A "G7"(^A/=B/)B | "C"c/c/c/c/ cC | c/c/c/c/ cC | c/c/c/c/ cC | c/=B/c/B/ c/B/c/B/ | 
+"C7"c/=B/c/A/ c/B/c/"_>Teil A"A/ || F [K:Bb] [P:C] |:  "Bb"d/d/d/d/ BF | d/d/d/d/ BF | {/F}BD {/D}G>F | "F7"FE EG | 
+e/e/e/e/ cF | "D#0"^F/F/F/F/ "F7"=FA/B/ | c/B/A/G/ F/E/D/C/ |1 "Bb"G^F =FF :|2 "Bb"G^F =FG [P:D] |: "Bb"BA c>B | 
+"F7"AG/^F/  GB | BA d>c | "Bb"cB/A/ BB/c/ | "D7"dA "Gm"B/A/G | "D7"dA "Gm"B/A/G | BG/A/ B/A/B/G/ | 
+{^F}"D7"dd dd | d/d/d/d/ dD | "Bb"d/d/d/d/ dF | d/d/d/d/ BF | d/d/d/d/ BF/F/ | {/F}BD {/D}G>F | 
+"F7"FE EG | "Cm"e/e/e/e/ Ge | "Bb"d/d/d/d/ FB | "F7"(TAF) (TcA) |1 "Bb"BB/A/ BB :|2 "Bb"BB/A/ B2 |]  
+% pk07294
+% May 31, 2017

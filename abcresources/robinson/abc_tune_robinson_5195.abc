@@ -1,0 +1,21 @@
+X:266
+T:Walzer GD (wz02181)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.373 (wz02181) orig. G,D
+S:Bündner Tanzmusik. S.367-383. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+K:G major
+B| "G"G2B | e2B | d3 | g/f/ g/a/ g/f/ | gBe | d2^c | ("D7"=c3 | c3) | a3 | 
+g3 | f3 | zgf | cgf | "G"e3 | d2B | G2B | e2B | d3 | 
+g/f/ g/a/ g/f/ | gBe | d2^c | ("Am"=c3 | c3) | e3 | "D7"a3 | "G"g2d/d/ | "D7"f2c/c/ | 
+e2d | f2d | "G"g/g/gg | gzA || [K:D] "D"ff/f/ f/f/ | fed | "A7"c3 | a3 | gg/g/ g/g/ | 
+gfe | "D"d3 | a3 | ABc | de>d | "Em"c3 | B3 | B^AB | "A7"dc>B | 
+"D"A3 | F2A | ff/f/ f/f/ | fed | "A7"c3 | a3 | gg/g/ g/g/ | gfe | "D"d3 | 
+a3 | ABc | de>d | "Em"c3 | b3 | "A7"agA | f2e | "D"d3 |] 
+W:
+W:Anmerkungs H.C.: Nott Caviezel
+% wz02181
+% Nov 26, 2016

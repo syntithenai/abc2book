@@ -1,0 +1,34 @@
+X:34
+T:Colonel W. Marshall of the 79th Regiment of Foot
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Air
+Z:Clark Bernst + Richard Robinson
+%%Page:14 - 1
+K:C major
+%%staves {1 2}
+V:1 name="SLOW"
+E/F/ | \
+!trill!G>A G<E !trill!G>A G<E & E2x2E2x2 | \
+!trill!c>d e/d/c/B/ A/G/F/E/ (DE/F/) & G2G2x4 |
+!trill!G>A G<E !trill!G>A G<f & E2x2E2x2 | \
+e<c !trill!g>e {e}d2 c & G2G2G2G ||
+E/F/ | \
+!trill!g>a g<e g>a g<e | (!trill!fg/a/) (a/g/f/e/) fdd (e/f/) |
+!trill!g>a g<e c>d c>G | (A<a) (!trill!g>f) {f}e2 d~e/f/ |
+!trill!g>a g<e g>a g<e | (!trill!fg/a/) (a/g/f/e/) fd d(e/f/) |
+!trill!c>d c>G A>B (B/A/)(G/F/) | E>~G [Gc]/e/[Gg]/e/ {e}[Fd]2 {cedc}[Ec] |]
+V:2 clef=bass octave=-2
+L:1/16
+z2 | \
+cgc'g cgc'g cgc'g cgc'g | egc'g cgc'g fga^f g=fed | \
+cgc'g cgc'g cgc'g bgab | c'bc'd' e'c'd'e' gbd'f' [c'e']2 || \
+z2 | \
+[c'e']g[c'e']g [c'e']g[c'e']g [c'e']g[c'e']g [c'e']g[c'e']_b | \
+ac'f'c' fc'f'c' gbd'b fbd'b | \
+egc'g cgc'g egc'g cgc'g | fac'a fad'a gc'e'c [gbd']4 | \
+[c'e']g[c'e']g [c'e']g[c'e']g [c'e']g[c'e']g [c'e']g[c'e']_b | \
+ac'f'c' fad'a fgbg fgbg | egc'g cgc'g f3a gfed & x8c8 | [Cc]4 [Ee]2[Cc]2 [Gg]4 [Cc]2 |]

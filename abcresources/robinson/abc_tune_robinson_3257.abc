@@ -1,0 +1,22 @@
+X:231
+T:Waltz. CJF.231
+R:Waltz
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:In the title line is "by Herz". - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:3/4
+L:1/8
+Q:3/4=60
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+notC:"by Herz"
+K:G major
+"p"DC|(B,DEDGA|GBce)d2|(Fca).D.C.D|(B,Gd).B.G.D|\
+(B,DEDGA|GBce)d2|(Fca).d.e.f|g2z2:|!
+|:"mf"(gf)|(eg) A (age)|(df) .A (agf)|\
+(eg) .A (age)|(b2a^g=gf)|\
+(eg) .A (age)|(df) .A (afd)|\
+(^cegba>c)|(d=cA" D.C."FDC)|]

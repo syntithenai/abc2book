@@ -1,0 +1,43 @@
+X:66
+T:Lady John Scott
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:28 - 1
+K:A major
+%%staves {1 2}
+V:1
+A<EA>c "tr"B>AB<c     & C2 C2 D2 D2 | \
+e<cB>A "tr"BA F2      & E2 x6|  \
+A<EA>c     B>AB<c     & C2 C2 D2 D2 | \
+e<cB>c     A/A/A A2   & E2 D2 C/C/C C2 |
+A<EA>c     B>AB<c     & C2 C2 D2 D2 | \
+e<cB>A     BA F2      & E2 x6|  \
+A<EA>c     B>AB<c     & C2 C2 D2 D2 | \
+e<cB>c     A/A/A A2   & E2 D2 C/C/C C2 ||
+%
+A/a/g/a/ f/e/d/c/     d/e/f/e/ d/c/B/A/ | \
+B/c/d/c/ d/c/B/A/ "tr"B>A      F2   | \
+A/a/g/a/ f/e/d/c/     d/e/f/g/ ac       | \
+B>ABc                 A/A/A    A2 ||
+A/a/g/a/ f/e/d/c/     d/e/f/e/ d/c/B/A/ | \
+B/c/d/c/ d/c/B/A/ "tr"B>A      F2       | \
+A<EA>c                B>AB<c       & C2 C2 D2 D2     | \
+e<cB>c                A/A/A    A2  & E2 x4 C2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Aea] [Aea] [Aeg] [Aeg] | [Aea] [Aea] [Aea] [Aea] | \
+[Aea] [Aea] [Aeg] [Aeg] | [Aea] [eb]  [Aa]  [Aa]  |
+[Aea] [Aea] [Aeg] [Aeg] | [Aea] [Aea] [Aea] [Aea] | \
+[Aea] [Aea] [Aeg] [Aeg] | [Aea] [eb]  [Aa]  [Aa]  ||
+[ac'e'] [ac'e'] [ad'f'] [ad'f'] | \
+e' x/e'/ d' d'  & g/a/ b/c'/ a a | \
+[ac'e'] [ac'e'] f'/d'/ c'/e'/ & x2 a a | \
+[ad'e'] [ad'e'] [ac'e'] [ac'e'] | \
+[ac'e'] [ac'e'] [ad'f'] [ad'f'] | \
+e' x/e'/ d' d'  & g/a/ b/c'/ a a | \
+[Aea] [Aea] [Aeg] [Aeg] | [Aea] [ebd'] [ac'e'] [Aa] |]

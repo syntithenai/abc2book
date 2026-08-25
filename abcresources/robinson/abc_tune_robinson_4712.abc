@@ -1,0 +1,18 @@
+X:129
+T: Ländler  G (LD06021)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.306f (LD06021) orig. G-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:G major
+dd dd |: "G"e2dd dd | B2dd dg | "D7"f2dd dd | c2 dd dd | e2 dd dd |1 
+dc' ba gf | "G"e2 dg fe | B2 dd dd :|2 c'b ag fa | "G"g3b gb | g2z2dd || "D7"d2d'2c'2 | "G"b2dd db | 
+"D7"a2dd dc' | "G"gf ga bg | "D7"d2d'2c'2 | "G"b2dd db | "D7"a2 dd db | "G"g2d3d |: "G"d6 | z2Bd gb | 
+d'6 | zc'b2c'2 | "D7"b3aa2 |1 zba2b2 | "G"a3gg2 | z2d3d :|2 zd d2b2 | ("G"g6 | g2) z2z2 || 
+"D7"dd' c'd ad | "G"bd Bd gd | "D7"ad cd fd | "G"bd Bd gd | "D7"dd' c'd ad | "G"bd Bd gd | "D7"ad cd fd | "G"g2z2d2 |  [L:1/4]
+Bdg | b/>b/ a>g | ("D7"f3 | f)zc | Acd | g/>g/ f>e | ("G"d3 | d)zd | 
+Bdg | "G7"b/>b/ a>g | ("C"e3 | e)ge | "G"dgb | "D7"adb | ("G"g3 | g)zz |]

@@ -1,0 +1,21 @@
+X: 173
+T:Mrs Brown's Reel -- Linkwood
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:60 - 1
+K:E minor
+%%staves {1 2}
+V:1
+EFGA B2 Bc | {c}d>BAd FDAF | EFGA B2 (Bf) | gef^d e/e/e e :|
+f | \
+gef^d e2 (Be) | dBAd FDDf | gef^d e2 (Be) | {c}d>BAF E/E/E (Ef) |
+gef^d e2 (Be) | {c}d>BAd FDDF | EFGA B2 (Bf) | gef^d e/e/e e2 |]
+V:2 clef=bass octave=-2
+L:1/4
+eeee | dddd | eeee | bbee/ :| z/ | \
+ebee | dddd | ebee | bBee | ebee | dddd | eeee | bBee |]

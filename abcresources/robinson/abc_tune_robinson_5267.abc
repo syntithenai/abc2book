@@ -1,0 +1,27 @@
+X:36
+T:Hochzeitsländler (Ländler) CGF (LD07416) ABCDEFGHI
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.330 (LD07416) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c3G eG | c3G eG | cG ce ge | (c6 | c2)z2z2 | "C"c3eg2 | "G7"G3Bd2 | "C"c2c2c2 | c2z2z2 || 
+[P:A] |: ("G7"de fc' ba) | "C"a2 (g^f ga) | "G7"g2 (fe fg) | "C"f2 (e^d)e2 | "Dm"de fc' "G7"ba | "C"a2 g^f ga | "G7"g2 (fe fd) |1 
+"C"c2zg fe :|2 "C"c2z2"_fine"z2 |] [P:B] "Am"eee2a2 | ("E7"a^g) .b.ge2 | "D7"aa a2 c'2 | ("G"c'b) .d'.bg2 | "C".e'.e' (e'd')c'2 | "G".d'.d' (d'c')b2 | 
+("D7"ba) (^ga) (e^f) | "G"g2zg f"_>Teil A"e |] "C"c3eg2 | "G7"G3Bd2 | "C"c2c2c2 | c2z2z2 |] [P:C] ("C"g2e2) (ec') | "G7"Tc'2 (bd)b2 |  
+"Dm"Tb2(ad)a2 | "C"{/a}gz !>!g4 | (g2e2) (ec') | "F"Tb2 (a^g af) | "G7"Te2 (dG)d2 | {/d}"C"c2"_fine"c4 |] [P:D] [K:G] ("G"db)g2Tg2 | ("D7"fd') (c'd)!>!a2 | (dc')a2Ta2 | 
+("G"ge') (d'd) Tb2 | (db)g2Tg2 | ("D7"fd') (c'd)!>!a2 | (dc')a2fa | "G".g2!>!"_>Teil A"g4 |] [K:F] "C"c3eg2 | "G7"G3=Bd2 | "C"c2c2c2 | 
+c2z2z2 |] [P:E] ("F"af) (fc) (cA) | af fc cA | "C7"cb b3a | g6 | (ge) (eB) (BG) | (ge) (eB) (BG) | ("F"Ac)a3g | f6 | 
+(af) (fc) (cA) | af fc cA | "C7"cb b3a | g6 | ("Gm"d'b) (bg) (ge) | ("F"ac') Tf2 (ac') | "C7"Te2gc'e2 | "F"f2z2"_fine"z2 |] [K:C] 
+[P:F] "C"g2(cd) .e.f | "G7"(gb) .d'.b!>!"C"c'2 | g2(cd) .e.g | ("G7"gb) .d'.b!>!"C"c'2 | "Am"ab c'2b2 | .a2e4 | abc'2b2 | a3a "_>Teil A"aa |] 
+"C"c3eg2 | "G7"G3Bd2 | "C"c2c2c2 | c2z2(c'c) |] [P:G] "C"e3.c' (c'c)  | !>!g4(c'c) | "F"f3.c' (c'c) | !>!a4 (c'b) | !>!f4 (ag) | !>!"C"e4 (ag) | 
+("G7"fb)b3B | "C"c2z2(cd) [P:H] |: "Am"eee2a2 | ("E7"^ga) .b.g"Am"a2 | eee2a2 | ("E7"^ga) .b.g"Am"a2 | "A7"aa a2a2 | z6 | "A7"aaa2a2 | 
+z6 | "G7"gg (ag) .f.d | ("C"ec') zc'!>!e2 | ("G7"fa) za!>!B2 | ("C"ce) ze!>!G2 | "G7".g.g (ag) .f.d | ("C"ec') zc'!>!e2 | (f"Dm"a) za!>!"G7"B2 |1 "C"c2z2(cd) :|2 
+"C"c2z2z2 |] [P:I] "C"c3eg2 | "G7"G3Bd2 | "C"c2z2z2 | c2z2z2 | (c6 | c6 | c2) z2z2 | c2z2z2 | c6 |]  
+% LD07416  
+% Aug 12, 2017

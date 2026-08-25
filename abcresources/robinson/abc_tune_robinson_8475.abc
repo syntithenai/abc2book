@@ -1,0 +1,25 @@
+X: 171
+T:Lord Alexander Russell's Jig -- Woburn Abbey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:59 - 1
+K:C major
+%%staves {1 2}
+V:1
+G | \
+[G,Ec]3 (c2 e) | (B/c/d)!wedge!B c2 G | cBA GFE | D3 (D2 B) | \
+[Ec]3 (c2 e) | (de)!wedge!c B2 G | cBA GEG | {B,}C3 C2 ||
+e/f/ | \
+(e/f/g)c gfe | (f/g/a)!wedge!f agf | gec cde | {^c}d3 d2 e/f/ | \
+(e/f/g)!wedge!c gfe | (f/g/a)!wedge!f agf | edc GAB | c3 c2 e/f/ |
+gec afd | gec afd | gec cde | {^c}d3 d2 e/f/ | \
+gfe fed | edc dcB | cBA GEG | {B,}C3 C2 |]
+V:2 clef=bass octave=-2
+z | c3c3 | g3c3 | f3e2c | G3G3 | c3c3 | g3g3 | f3g3 | c3c2 |]
+z | c'3c'3 | f3f3 | c'3c'3 | g3g3 | c'3c'3 | f3f3 | g3g3 | c3c2z | \
+[ce]3f3 | [ce]3f3 | e3c3 | g3g3 | c'3g3 | c'3g3 | f3g3 | c3c2 |]

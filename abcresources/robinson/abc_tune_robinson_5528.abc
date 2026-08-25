@@ -1,0 +1,25 @@
+X:272
+T:Bolzenschützen-Walzer FCBb (wz07437)  ABCDEFA
+T:Hanny Christen. Bd.IV  Aargau, Basel I.  S.341 (wz07437) orig. F,C,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDEFA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] "F"z/c/c^c | ("Bb"d2B) | "C7"z/e/ee | ("F"f2c) | z/a/aa | ("C7"b2e) | e/e/de | ("F"f2c) | z/c/c^c  | ("Bb"d2B) | 
+"C7"z/e/ee | ("F"f2c) | z/c'/ c'c' | ("Gm/Bb"d'2b) | "C7"z/b/be | "F"fz"_Fine"z :: [P:B]  "F"a/a/ a/a/ a/a/ | ("C7"c'g)g | ("F"f/e/ f/).a/ .g/.f/ | ("C7"fe)e | 
+("Bb"f/e/) .g/.f/ .e/.d/ | ("F"dc)c | ("C7"c/B/) .e/.d/ .c/B/  | ("F"BA)A | a/a/ a/a/ a/a/ | ("C7"c'g)g | ("F"f/e/ f/).a/ .g/.f/ | "C7"fee | 
+("Bb"f/e/) .g/.f/ .e/.d/ | ("F"dc)c | ("C7"c/b/)b>e | "F"fzz :: [P:C] [K:C] "C"g>^fg | c'>ag | e>^de | g2c | "G7"d>^cd | (g2f) | 
+"C"e>dc | "G7"G3 |  "C"g>^fg | c'>ag | e>^de | g2c | "G7"d>^cd | "C"a>ge | "G7"e/f/gB | "C"czz :| [P:D] [K:F] 
+|: "C7"ee/e/ e/e/ | (c'2e) | "F"ff/f/ f/f/ | a>gf | ("C7"e/g/)!>!g>f | "Bb"edd | (d/f/) !>!e>d | "F"cAA | "C7"ee/e/ e/e/ | (c'2e) | 
+"F"ff/f/ f/f/ | a>gf | ("C7"e/g/)!>!g>f | "Bb"edd | (d/d'/)d'"C7"e |1 "F"fzz :|2 "F"fzd/c/   [P:E] |: [K:Bb] ("Eb"B2g) | "Bb"f2(d/c/) | 
+("Eb"B2g) | "Bb"f2d' | ("F7"c'2a) | (c'2a) | ("Eb"b2g) | "F7"f2(d/c/) | ("Eb"B2g) | "Bb"f2 (d/c/) | ("Eb"B2g) | "Bb"f2d' | ("F7"c'2a) | 
+("F7"c'2e) | (f2a) |1 fz(d/c/) :|2 fzz [P:F] |: "Bb"f d'/d'/ d'/d'/ | "F7"f c'/c'/ c'/c'/ | "Bb"fb/b/ b/b/ | "Cm"a2g | "F7"ff/f/ f/f/ | a3 | 
+ff/f/ f/f/ | "Bb"b3 | f d'/d'/ d'/d'/ | "F7"f c'/c'/ c'/c'/ | "Bb"fb/b/ b/b/ | "Cm"a2g | "F7"zf/f/ f/f/ | f3 | e>GA | "Bb"B2"_>Teil A"z :| 
+% wz07437
+% Aug 27, 2017 (PikAs, Schaufel, Bube)

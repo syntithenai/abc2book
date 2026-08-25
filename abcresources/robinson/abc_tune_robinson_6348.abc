@@ -1,0 +1,26 @@
+X:1
+T:Mahle-Walzer  CF  (wz07034)  ABC
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.154  (wz07034) orig. C,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"C"c3 | G2E | "F"A3 | "G7"G3 | G^FG | B2d | "G"gzz | Gzz |: [P:A] "C"G2G | A2G | eze | e3 | 
+eze | dzc | ("G7"B3 | B)zz  | G2G | A2G | fzf | f3 | fzf | ezd | ("C"c3 | 
+c)zz | G2G | A2G | eze | e3 | eze | "C7"dzc | ("F"A3 | A)zz | f2f | c2d | "C"e2g | 
+g3 | "G7"G2B | e2d | ("C"c3 | c)zz :: [P:B] "C"g3 | e3 | g3 | e3 | c2c | B2A | "G7"G2B | B3 | 
+f3 | d3 | f3 | d3 |1 B2B | A2G | ("C"e3 | e)zz :|2 G2B | e2d | "C"c3 | czz || [P:C] [K:F] 
+|: ("F"c3 | c)de | f(a2 | a2)g/g/ | g2f/f/ | f2e/e/ | "C7"e(B2 | B3) | (G3 | G)^GA | 
+B(g2 | g2)f/f/ | f2e/e/ |1 e2d | "F"=Bc2 | c3 :|2 dze | ("F"f3 | f)zz |] 
+%
+%W:Parts: ABC
+%W:
+%W:Anmerkung H.C.: 
+% wz07034
+% 10.06.2018

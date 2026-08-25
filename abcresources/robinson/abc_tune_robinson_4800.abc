@@ -1,0 +1,14 @@
+X:208
+T: Schottisch  C (st06064)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.321 (st06064) orig. C-Dur
+S: "Riebgärteler", Tänze aus Halisberg. S.319-338
+S: Aus dem Repertoire von Johann und Melchior Zenger.
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:C major
+G |: "C"G>e eG | "G7"F>d dF | "C"E>c cE | G2G>E |  "G7"F>B BF |1 A2A>F | "C"E>c cE | G2zG :|2 A2 A>G | Gf e>d | "C"cc cz || 
+|: "C"e/e/e/e/ dc | "G7"Bag2 | b>g f/e/d/B/ | "C"cag2 | e/e/e/e/ dc | "G7"Bag2 | b>g f/d/B/d/ | "C"cc cz :| 
+% st06064

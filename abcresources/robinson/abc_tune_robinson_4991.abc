@@ -1,0 +1,22 @@
+X:80
+T:La Champagne (Kontratanz) D (kt02309)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.353 (kt02309) orig. D
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+R:Kontratanz
+M:2/4
+L:1/8
+K:D major
+"D"df {/d}"A7"c{/c}A | "D"df {/d}"A7"c{/c}A | "G"Bg "A7"ec | "D"a/^g/a/b/ a2 | df {/d}"A7"c{/c}A | "D"df {/d}"A7"c{/c}A |  
+"G"Bg "A7"ec | "D"d2z2 || "D"A2 GF | "A7"EE/F/G2 | G2 FE | "D"DD/E/F2 | "G"Bc dc/B/ | 
+"D"AB/c/ "G"dG | "D/A"F/A/F/D/ "A7"E/G/E/C/ | "D"D2z2 || "D"DF Ad | "A7"Ac eg | "D"f/a/f/d/ "A7"e/g/e/c/ | "D"d/c/d/e/ d2 | 
+DF Ad | "A7"Ac eg | "D"f/a/f/d/ "A7"e/g/e/c/ | "D"d2z2 || "D"fa"B7"a2 | "Em"gbb2 | "A7"ag fe | 
+"D"d/c/d/e/ dd | fa "B7"a2 | "Em"gbb2 | "A7"ag fe | "D"d2 z2 || "D"A2 F/D/F/D/ | A2 F/D/F/D/ | 
+"A7"Ag "D"f/a/f/d/ | "A7"e/g/e/c/ "D"dd | A2 F/D/F/D/ | A2 F/D/F/D/ | "A7"Ag ec | "D"d2d2 |] 
+W:
+W:"Diese (Kontra-)Tänze gehören zum Repertoire der um 1765 in Frankreich beliebten Tänze 
+W:und wurden vom Autor wahrscheinlich während seiner Militärzeit in Frankreich aufgeschrieben." Hrsg. S.350
+% kt02309  
+% Nov 18, 2016

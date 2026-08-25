@@ -1,0 +1,35 @@
+X:15
+T:Miss Farquharson of Invercauld
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 2
+K:F major
+%%staves {1 2}
+V:1
+F | \
+[A,C]<F F>G [CA]>G A>F | D<GG A B2 A>c | \
+d>f c<f A>F G<A & F4 C2 C2 | C>F E>G F2 FF & C2 B,2 A,2 A,2 |
+[A,C]<F F>G [CA]>G [CA]>F | D<G GA B2 A>c | \
+d>f c<f A>F G<A & F4 C2 C2 | C>F E>G F2 F & A,2 B,2 A,2 A, |]
+(e | \
+f)>c f<a f>c fa | f>c f<a g2 (ga) | \
+f<c c>A f>b a<g | f<d c>A G2 (G>g) |
+f>c c<a fcc(a | f)cfa g2 (ga) | \
+f>c c<G f>ba>g | f<dc>A G2 G |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Bb]/[Aa]/ [Gg] [Ff] | \
+[Bb] [Aa] [Ff] [Ff] | [Cc] [Cc]      [Ff] [Ff] | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Bb]/[Aa]/ [Gg] [Ff] | \
+[Bb] [Aa] [Ff] [Ff] | [Cc] [Cc]      [Ff] [Ff]/ |] \
+z/ | \
+[fac'] [fac'] [fac'] [fac'] | [fac'] [fac'] [cc'] [cc'] | \
+[fac'] [fac'] [dd']  [Bb]   | [Ff] [Ff] [Cc] [Cc] | \
+[fac'] [fac'] [fac'] [fac'] | [fac'] [fac'] [cc'] [cc'] | \
+[fac'] [fac']  [dd'] [Bb]   | [Ff] [Ff] [Cc] [Cc]/ |]

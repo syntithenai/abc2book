@@ -1,0 +1,12 @@
+X:122
+T: Mazurka CF (mz04928)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"c>B c>d e>f | "G7".g2!>!g4 | "F".a2!>!a4 | "C".c'2!>!c'4  |: "G7"b>f a>d f>B | "C"Tc2a2g2 | "G7"Td2b2a2 | "C"Tg2d'2c'2 | "G7"b>f a>d f>B | "C"Tc2a2g2 | 
+"G7"Td2b2g2 | "C"c'2c'2z2 :: "G7"Tf2d2b2 | Tf2d2b2 | "C"d>c e>G c>E | A2G>^FG2 | "G7"Tf2d2b2 | Tf2d2b2 | "C"c'>g e>g "G7"f>d | "C"c2c'2"_fine"z2 ::   [K:F] 
+"F"a3e f>d | Tc2 A/c/fa2 | "C7"Tc2G/B/eg2 | "F"Tc2A/c/a c'>b | a3e "Bb"f>d | "F"Tc2A/c/fa2 | "C7"Tc2G/c/e g>e | "F"f2f2z2 ::
+"F"c2 {/d}c>=Bc2 | "C7".c2!>!g4 | c2 {/d}c>=Bc2 | "F".c2!>!a4 | c2 {/d}c>=Bc2 | "C7".c2!>!b4 | e2e2f2 | g2f2"_>Teil B"e2 :| 
+W: P: ABCDB
+% mz04928

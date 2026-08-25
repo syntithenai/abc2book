@@ -1,0 +1,18 @@
+X:128
+T:Mazurka FBb (mz02015)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.272 (mz02015) orig. F,Bb
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+K:F major
+"F"A>c f3A | "Gm"B>d B>d G2 | "C7"B>dg3B | "F"BA cf Ac | c>a a3f | "C7"eb g3e | e>g e>g B2 | 
+"F"f>c A>cf2 | A>c f3A | "Gm"B>d B>dA2 | "C7"Bg g3B | "F"BA cf a2 | cf a3f | "C7"abb2z2 | 
+g>c e>g ce | "F"f2f2z2 |: "Gm"BA Bc "C7"ed | "F"c>a a2f2 | "C7"e>d c>e g>a | "F"f>a c>f A>c | 
+"Gm"BA Bc "C7"ed | "F"c>aa2f2 | "C7"c>bb2e2 | "F"f2f2z2 :| [K:Bb] "Bb"d3d cd | "F7"e3e de | a>g f>e d>c | 
+"Bb"Bg f3f | d3d c>d | "F7"e3e de | a>g f>e d>c | "Bb"B2B2z2 :: "F7"e2 ca ag | "Bb"f2 df b2 | 
+"F7"a2 ea ag | "Bb"f2 dg f2 | "F7"e2 ca ag | "Bb"f2 df b2 | "F7"a>g f>e d>c | "Bb"B2B2z2 :| 
+% mz02015

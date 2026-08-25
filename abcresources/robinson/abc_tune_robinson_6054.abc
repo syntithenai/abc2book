@@ -1,0 +1,23 @@
+X:1
+T:Jetz gang i ans Brünneli. Mazurka  CG (mz07071) ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.170  (mz07071) orig. C,G
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c>cc2G2 | e>ee2c2 | "G7"ga gf ed | "C"c2c2G2 || [P:A] "C"c3ee2 | g3ag2 | "G7"g2f2g2 | "C"e2z2G2 | c3ee2 | 
+g3ag2 | "G7"g2f2g2 | "C"e2z2g>g | "G7"f2d2a>a | "C"g2e2g>g | "G7"f2d2a>a | "C"g2e2c'2 | "G7"ba gf ed | "C"c2c2z2 :| [K:G]
+[P:B] |: ("D7"de) (fg) a2 | ("G"df) (ga)b2 | ("D7"c'b) (ag)a2 | ("G"ba) (gf)g2 | ("D7"de) (fg)a2 | ("G"df) (ga)b2 | "C"c'2e2"D7"f2 |1 "G"g2g2z2 :|2 "G"g2f2=f2 ||  [K:C]
+[P:C] |: "C"e2f2e2 | G4(cd) | e2d2e2 | "G7"f4(Bc) | d2e2d2 | G4(Bc) | d2e2f2 | a3gg2 | 
+"C"e2f2e2 | G4c>c | "C7"c2d2e2 | "F"f4(ef) | "Dm"a>aa2d2 | "C"g>gg2c2 | "G7"ef ed AB | "C"c2"_>Teil A"c2z2 :| 
+W:
+%W:Parts: ABCA
+%W:Anmerkung H.C.: 
+% mz07071
+% June 30, 2018

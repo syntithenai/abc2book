@@ -1,0 +1,23 @@
+X:61
+T:Markgräfler Wein (Mazurka) CGF (mz06876) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.232 (mz06876) orig. C,G,F
+T: Aus dem Repertoire der Dorfmusik Benken. S.222-236
+T:Überliefert durch Johannes Grass (*1871)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"E>Gc2c2 |  G>ce2e2 | ("G7"gf)d2d2 |  ("C"fe)c2c2 | E>Gc2c2 |  G>ce2e2 | ("G7"gf) ed cB | "C"c2c2z2 || [P:B] [K:G] 
+|: "G"B>cd2e2 | P"D7"d2c2c2 | A>B c2d2 | P"G"c2B2B2 | B>c d2g2 | P"C"f2e2e2 | ("D7"de) dc BA | "G"G2G2"_>Teil A"z2 :| [P:C] [K:F] 
+|: "F"A>Bc2d2 | c6 | "Dm"F>GA2B2 |  A4z2 | "Gm"G>^FG2A2 | B>A B2c2 | "C7"d>^c d2=c2 | "F"A4z2 | A>Bc2d2 | 
+c4z2 | "Dm"F>G A2B2 | A4z2 | "C7"G>AB2d2 | "F"d>c A2F2 | "C7"c>BG2E2 | "F"F2F2z2 :: [P:D] ("C7"EF) G^FG2 | ("F"FG) A^GA2 | 
+("C7"GA) BA Bc | ("F"dc) AFC2 | ("C7"EF) G^FG2 | ("F"FG) A^GA2 | ("C7"GB) AG FE | "F"F2F2z2 :| 
+W:
+W:Mazurka, nach R. Claus
+W:Anmerkung H.C.: Wynige/Zch. 29
+%% mz06876
+% March 19, 2017

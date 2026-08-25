@@ -1,0 +1,20 @@
+X:1
+T:Schottisch  CGF  (st06942)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.115  (st06942) orig. C,G,F
+S: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"EG "F"FA | "C"Ge e/d/c | "G7"Gd d/c/B | "C"cG/c/e2 | EG "F"FA | "C"Ge e/d/c | "G7"Gd d/c/B |  "C"cc cz :|  [K:G] 
+[P:B] "G"GG G/F/G/A/ | BB B/A/B/c/ | dd d/^c/d/e/ | d3B | "D7"cc c/B/c/d/ | c3A | "G"BB d>B | "D7".A2!>!D2 | "G"GG G/F/G/A/ | 
+"G"BB B/A/B/c/ | dd d/^c/d/e/ | d3B | "D7"AA c/B/c/A/ | "G"GG B/A/B/G/ | "D7"FF A/^G/A/F/ | "G"GG G"_>Teil A"z  ||  [K:F]
+[P:C]  |: "F"A2 B=B | c2de | fe dA | "C7"B3z | G2GA | B2AB | ed cG | "F"A3z | 
+A2B=B | c2de | gf cA | "Gm"G3B | "C7"cc c/d/c/B/ | "F"AA A/c/B/A/ | "C7"GG G/B/A/G/ | "F"FF Fz :| 
+% st06942
+% April 28, 2018 (understand - remember - pass on)

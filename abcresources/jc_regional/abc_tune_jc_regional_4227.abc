@@ -1,0 +1,18 @@
+X: 34
+T: Debka Dor
+C: Moshiko Halevy
+S: Recording 'Dance with Moshiko' MIH Records
+O: Israel
+F: http://www.youtube.com/watch?v=ywGzo34MNco
+M: 4/4
+L: 1/8
+Q: 1/4=220
+K: Fmin
+%%MIDI drum d2ddd2d2 35 60 61 61 61
+%%MIDI drumon
+z8|z8|:\
+M:2/4
+  c3B     |cBA2|{B}AGAB|c2z2|c3B  |cBA2|{B}AGAB|c2z2 |
+  c3B     |cBA2|{B}AGAB|c2z2| FGAB|cBAG|BAGF   |F2z2 :|
+|:A3G     |AGF2|FEFG   |A2zA|A3G  |AGF2|FEFG   |A2zA |
+  A3G     |AGF2|FEFG   |A2zA|FGAB |cBAG|BAGF   |F2z2 :|

@@ -1,0 +1,27 @@
+X:1
+T:Kinrara
+B:William Marshall, Kinrara (1800)
+C:William Marshall
+L:1/8
+M:C|
+N:Almost identical to the version in vol 1, with very minor differences in phrasing.
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:25 - 1
+K:Bb major
+%%staves { 1 2 }
+V: 1 name="Slow"
+B | \
+(B,>B) B>c B>G F>D | (B,<B) {cBA}Bc/d/ c2 C{E}D/C/ | \
+B,<B f>d g>f !fermata! b>{abc'ba}g | (f>d) !trill! c>d B2- BB ::
+{edc}d/e/ | \
+[df]>[eg] [df]<d B>d F>B | {A}G>F !trill!E>D C2- Cd/e/ | \
+[df]>[eg] [df]>d (fg/a/) bB | edeg !trill!g2 f{edc}d/e/ |
+(f.d) .B.d (f>.d) .B.d | G<c c>B {Bc}d2 {ed}cD/C/ | \
+(B,<B) f>d g>f !fermata!b>{ababc'ba}g | f<d !trill!c>d B2 - B |]
+V:2 clef=bass octave=-2
+z | \
+B2 B2 d>e dB | d2 B2 f2 e2 | d2 d2 e2 !fermata!d>e | f2 F2 BbBz ::
+z | \
+B2 B2 B2 d2 | e>dc>B f2 fz | B2 B2 Be dB | gfge b2Bz | \
+[Bdfb]4 [Bdfb]4 | e2 e2 f2 fz |d2 d2 e2 !fermata!d>e | f2F2 BbB |]

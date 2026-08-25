@@ -1,0 +1,21 @@
+X:1
+T:Charlie Stewart's
+C:Richard Robinson
+R:Hornpipe
+%%Copyright:Richard Robinson
+M:4/4
+K:A major
+E2 | \
+efec dedB | cdcA D3d | cBcd BFBd | fecB G2E2 | 
+e2ec dedB | A>d (3BAF D3d | cBcf efec | BcdG A2   ::
+A2 | \
+defa ecAc | Bcde aece | defd eage | ^deBG AGFG |
+E2ec \
+%%pos stem down
+dcBc & \ 
+%%pos stem up
+%%voicescale .7
+x4 dedB | \
+A2E2 D3d & \
+%%voicescale .7
+ABAE x4 | c2ec fecA |  BcdG A2   :|

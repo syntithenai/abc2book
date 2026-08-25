@@ -1,0 +1,23 @@
+X:1
+T:Walzer  G (wz07810)
+T: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.184  (wz07810) orig. C,F
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+ [P:A] "G"d3 | (dBe) | d3 | (dBg) | "D7"f2f | f(ef) | ("G"g3 | "C"g)fe | ("G"d3 | d)Be | 
+(d3 | d)Bg | "D7"f2f | fef | "G"g3 |1 gzz :|2 gzG |: [P:B]  "C"g3 | gfe | "G"d3 | dcB | 
+("D7"^G2A) | (e2d) | ("G"^A2B) | GBd | "C"g3 | gfe | "G"d3 | dcB | ("D7"^G2A) | (e2d) | 
+"G"G2 (B/A/) |1 G2z :|2 Gzd |: [P:C] "G"b (a/g/ f/e/) | d2d | b(a/g/ f/e/)  | d2d | "D7"c' b/a/ g/f/ | e/d/ ^c/d/ e/d/ | A3 | 
+d2d | "G"b(a/g/ f/e/) | d2d | b(a/g/ f/e/) | d2d | "D7"c'b/a/ g/f/ | e/d/ ^c/d/ e/d/ | "G"gdb |1 gzd :|2 gzz |] 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: Var. Ormalingen 13/397
+%W:Anmerkung Hrsg,:
+% wz07810
+% Aug 13, 2018

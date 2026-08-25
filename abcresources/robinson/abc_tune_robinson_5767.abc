@@ -1,0 +1,37 @@
+X:29
+T:Jodlerstärn 2008  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>B | d>z | d>B | ed | c2 | F>F | Ec | B2 | d2 | d>B | 
+ed | c2 | E2 | F>e | dc | !fermata!B2 | F>B | d>z | d>B | ed | c2 | 
+F>F | Ec | B2 | d2 | d>B | ed | c2 | E2 | F>e | dc | !fermata!B2 ||  
+M:4/4
+[P:B] B/c/ | ddBf/e/ | ddB f/d/ | cF/f/ dc | B/>A/ B/c/dB/c/ | ddBf/e/ | 
+ddBf/d/ | cF/f/dc | B3B/c/ | ddBf/e/ | ddBf/d/ | cF/f/dc | 
+B/>A/ B/c/ d/c/ B/c/ | ddB f/e/ | ddBf/d/ | cF/f/dc | B3 ||
+L:1/8
+M:3/4
+[P:C]  F>D | B3A/B/ cB | A2c2F>E | c3B/c/  dc | B2d2 F>D | 
+B3A/B/ cB | A2c2 F>E | c3c/B/ Ac | B4F>D | B3A/B/ cB | A2c2 F>E | 
+c3B/c/ dc | B2d2 F>D | B3A/B/ cB | A2c2 F>E | c3B AB | c4 ||
+M:2/4
+[P:D] F D/F/ d>c | BD F>d | cF d>c | B B/c/d2 | 
+F D/F/ d>c | BD F>d | cF dc | B4 | F D/F/ d>c | BD F>d | 
+cF f d/c/ | Bd F2 | F D/F/ d>c | BD F>d | "_rit." cf dc | B4 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:Naturjuiz der Jodlerin Miriam Schafroth herzlich gewidmet - 2008
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-15
+W:http://www.naturjodler.ch/code 17-a.htm  (with AUDIO)
+%May 14 2018

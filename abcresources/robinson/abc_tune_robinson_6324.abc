@@ -1,0 +1,22 @@
+X:1
+T: Hauptmann-Walzer FC (wz07282) ABCDC 
+T: Basel II. Tänze aus Liestal. S.95-112.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.112  (wz07282) orig. F,C
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+F [P:A] |: "F"A3 | G2A | ("C7"c3 | G)zG | B2B | (c2G) | ("F"A3 | A)zc | (c3 | A)zf | ("Bb"f3 | d)zf | 
+"C7"ezd | Bzd | ("F"c3 | c)zc | (c3 | A)zf | ("Bb"g3 | d)zf | ("C7"e2d) | (B2E) | "F"F3 |1 FzF :|2 
+FzG || [P:B] [K:C] "C"GE/G/ c/e/ | gec | "G7"c>BB | BzG | GF/G/ B/d/ | gfB | "C"d>cc | czG | 
+GE/G/ c/e/ | ggg | "Dm"AF/A/ d/f/ | aaa | "G7"gag | dfB | ("C"c3 | c)zd || [P:C] [K:F] ("F"c2F) | A2d | 
+("C7"c2E) | G2c | (e2d) | c2c | ("F"f2A) | czd | c2F | A2d | ("C7"c2E) | G2c | (e2d) | c2e | 
+"F"f>ff | fzc || [P:D] ("F"d/c/ =B/c/ d/c/) |  "C7"BBE | (d/c/ =B/c/ d/c/) | "F"AAF | "C7"EcB | EAG | "F"F/A/ FA | 
+czc | (d/c/ =B/c/ d/c/) | "C7"BBE | (d/c/ =B/c/ d/c/) | "F"AAF | "F0"F/E/ F/G/^G | "F"F/E/ F/G/A | "C7"c/c/cE | "F"F"_>Teil C"zz || 
+%% wz07282 
+% March 26, 2018

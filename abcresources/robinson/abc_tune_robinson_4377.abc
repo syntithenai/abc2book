@@ -1,0 +1,16 @@
+X: 137
+T: Polka CGF (kp08870)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.373 (kp08870) orig. C,G,F-Dur
+S: Tänze aus Büren an der Aare (Bern) S.353ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Kreuzpolka
+O:Switzerland
+M:2/4
+L:1/8
+K:C major
+[P:A] "C"c>e c>e | gc'g2 | e>g gc' | c'e' c'2 | c'b ag | "G7"bd/e/ f2 |1 bd/e/f2 | "C"gc/d/ e2 :|2 
+bd/e/ f/g/a/b/ | "C"c'c' c'z [P:B] |: [K:G] "D7"e/d/^c/d/ e/d/c/d/ | c'c'c'2 | e/d/^c/d/ e/d/c/d/ | "G"bb b2 |1 bg/b/ d'b | "D7"gff2 | 
+ff/g/ ac | "G"Bed2 :|2 "Am"e^d/e/  ac' | "G"c'd' d'g | "D7"gf fd' |  "G"gg g"_> Teil A"z [P:C] |: [K:F] "F"c>d c>d | 
+cff2 | c>d c>d | caa2 | "C7"{/a}c'bg2 | "F"{/g}baf2 |1 "G7"gf ed | "C"dcc2 :|2 "C7"fe a>g | "F"ff fz |]

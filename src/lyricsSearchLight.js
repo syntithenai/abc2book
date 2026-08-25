@@ -4,7 +4,7 @@ import {
   searchLocalCollectionLyrics,
 } from './localAbcCollectionSearch'
 import { searchLyricsOvhForArtists } from './lyricsOvhClient'
-import { scoreTitleArtistMatch } from './notationMatchUtils'
+import { artistsLooselyMatch, scoreTitleArtistMatch } from './notationMatchUtils'
 import { discoverRecordingArtists, isGenericArtist } from './recordingArtistsClient'
 import { isStrongLocalMatch } from './textSearchIndexUtils'
 import { normalizeLyricsSearch } from './lyricsSearchNormalize'
@@ -38,6 +38,13 @@ function sortLyricsCandidates(candidates, title, artist) {
     const scoreA = scoreTitleArtistMatch(a.title, a.artist, title, artist)
     const scoreB = scoreTitleArtistMatch(b.title, b.artist, title, artist)
     return scoreB - scoreA
+  })
+}
+
+function localLyricsFitArtist(candidates, artist) {
+  if (isGenericArtist(artist)) return candidates || []
+  return (candidates || []).filter(function(candidate) {
+    return artistsLooselyMatch(candidate && candidate.artist, artist)
   })
 }
 
@@ -79,9 +86,13 @@ export async function searchLyricsLight(options) {
     })
     : []
 
-  if (isStrongLocalMatch(title, localSearchRows) && localResults.length > 0) {
+  // Title-only local hits often collide across unrelated songs (Fred Dagg vs
+  // Paul Simon "Gumboots"). Only short-circuit when the artist is generic or
+  // a local lyric candidate actually matches the requested artist.
+  const localArtistHits = localLyricsFitArtist(localResults, artist)
+  if (isStrongLocalMatch(title, localSearchRows) && localArtistHits.length > 0) {
     emitProgress(opts.onProgress, 'Local match found', 1, 'done')
-    return finalizeLightResult(sortLyricsCandidates(localResults, title, artist))
+    return finalizeLightResult(sortLyricsCandidates(localArtistHits, title, artist))
   }
 
   let remoteCandidates = []
@@ -113,7 +124,7 @@ export async function searchLyricsLight(options) {
   }
 
   let candidates = sortLyricsCandidates(
-    dedupeCandidates(localResults.concat(remoteCandidates)),
+    dedupeCandidates(localArtistHits.concat(remoteCandidates)),
     title,
     artist
   )

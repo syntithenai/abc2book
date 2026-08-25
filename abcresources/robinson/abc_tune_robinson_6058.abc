@@ -1,0 +1,21 @@
+X:1
+T:Mazurka  FC (mz07813) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.184  (mz07813) orig. F,C
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"A>d c>=B "C7"c>d | "F"c>fa4 | "C7"b>a.g2.c2 | "F"a>g .f2.A2 | A>d c>=B "C7"c>d | "F"c>fa4 | "C7"b>a g>f e>g | "F"f2f4 || [K:C] 
+[P:B] "G7"a>g ^f>g d2 | "C"f>e ^d>ec2 | "G7"B>a g3f | "C"e>gc'4 | "G7"a>g ^f>gd2 | "C"f>e ^d>ec2 | "G7"B>a g>f e>d | "C".c2c4 || [K:F] 
+[P:C] |: "C7"b>a g>f e>d | "F"c>af4 | "C7"B>d c>=Bc2 | "F"A>d c>=Bc2 | "C7"b>a g>f e>d | "F"c>af4 | "C7"A>d c>B A>G | "F".F2f4 :| 
+W:
+%W:Parts: ABAC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% mz07813
+% July 28, 2018 (Nun denn ...)

@@ -1,0 +1,20 @@
+X:185
+T:Polonaise C (PL07351)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.303 (PL07351) orig. C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Polonaise
+M:3/4
+L:1/16
+O:Switzerland
+K:C major
+("C"e4^d4e4) | c8 (B2A2) | (AGEC) ("F"B2A2) "G7".f2.d2 | "C"c4z4z4 || "C"e6(fe) (^deag) | g6(c2 B2c2) | "G7"d6 (ed ^cdgf)  | 
+d6 (G2 g2f2) | "C"e6(fe ^defe) | "Em"G6(AG) .^F2.E2 | "B7"^D2!>!B4B,2 G2^F2 | "Em"E12 | "G7".G.F.D.B, (A6G2) | "C".A.G.E.C (c6E2) | 
+"G7"A6 (G2 ^F2=F2) | ("Cm"^D4"C"E4) ((3A2G2E2) | (C6cB) .d.c.G.E | ("Dm".D.^C.D.E) .F2.G2 .A2.B2 | "Am"c6 (e2 A2G2) | "G7"G6B2 e3d | 
+"C"c4"_Fine"z4z4 | ("F"c6C2) (Cc).B.A | "C"G6E2 (CE).A.G | "G7"G6B2 e3d | "C"c8.e.c.a.g | "G7"g6d2 e2^f2 | 
+"Eb"g2gg g2g2 g2g2 | "G"g2gg g2g2 g2g2 | "Cm"g2gg g2g2 g2g2 | "G".d2.B2 ^f2g2 (B2c2) | "D7"^c2d2 ^f2e2 =c2A2 | "G"G4z4"_d.c."z4 |] 
+W:
+W:* Anmerkung Hrsg.:  da capo und fine ergänzt
+%%% PL07351
+% July 01, 2017

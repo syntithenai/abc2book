@@ -1,0 +1,22 @@
+X: 3
+T:the Marquis of Bowmont's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 3
+K:Bb major
+%%staves { 1 2 }
+V: 1
+B  | \
+FBEB DBFB | Cd (e/d/c/B/) cC-CB | DBFB EBDB | Fd (d/c/B/A/) BB,B, :|
+B | \
+fB (e/d/c/B/) fBdB | AF B/A/G/F/ cFAF | fB (e/d/c/B/) fBdB | FdAc BB,-B,B |
+fB (e/d/c/B/) fBdB | AF (B/A/G/F/) cFAF | fBgB aBbB | dB (d/c/B/A/) BB,B, |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | BBBB | BBcc | BBBB | ffBB/ :| \
+z/ | bbbb | ffff | bbbb | ffBB | bbbb | ffff | B ([Be] [Be]) [Bd] | ffBB/ |]

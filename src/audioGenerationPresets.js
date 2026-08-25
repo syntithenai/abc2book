@@ -5,7 +5,7 @@ export const TASK_OPTIONS = [
   {
     id: TASK_PRACTICE_TRACK,
     label: 'Practice track from notation',
-    description: 'Notation MIDI guides a styled AI accompaniment (Stable Audio).',
+    description: 'MIDI-guided Stable Audio arrangement — melody and chords from notation, style from the preset.',
   },
   {
     id: TASK_LINKED_COVER,
@@ -14,7 +14,7 @@ export const TASK_OPTIONS = [
   },
 ];
 
-export const PRESET_ORDER = ['fast', 'balanced', 'high'];
+export const PRESET_ORDER = ['fast', 'balanced', 'high', 'ace_fidelity'];
 
 export function defaultPresetForTask(taskId) {
   if (taskId === TASK_LINKED_COVER) return 'balanced';
@@ -22,8 +22,10 @@ export function defaultPresetForTask(taskId) {
 }
 
 export function presetLabel(presetId) {
+  if (presetId === 'ace_fidelity') return 'AceStep cover (experimental)';
   if (presetId === 'balanced') return 'Balanced';
   if (presetId === 'high') return 'High';
+  if (presetId === 'fast') return 'Fast';
   return 'Fast';
 }
 
@@ -36,6 +38,23 @@ export function linkTitleForTask(taskId, tuneName) {
   const base = tuneName || 'Tune';
   if (taskId === TASK_LINKED_COVER) return base + ' (AI cover)';
   return base + ' (AI arrangement)';
+}
+
+export function formatAudioGenerationError(message) {
+  const raw = String(message || '').trim();
+  if (!raw) return 'Audio generation failed';
+  const unknownModel = raw.match(/unknown model id:\s*([^"}\s]+)/i);
+  if (unknownModel) {
+    return (
+      'The selected quality preset needs the '
+      + unknownModel[1]
+      + ' model, which is not installed on audio.cpp. Choose Fast or install the model.'
+    );
+  }
+  if (raw.indexOf('audio.cpp HTTP 500') === 0) {
+    return formatAudioGenerationError(raw.replace(/^audio\.cpp HTTP 500:\s*/, ''));
+  }
+  return raw;
 }
 
 export function mergeBackendsPresets(backends, taskId) {

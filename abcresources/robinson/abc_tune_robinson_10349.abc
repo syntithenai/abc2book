@@ -1,0 +1,32 @@
+X:32
+T:Dear Betty Brown. JBa.31
+M:4/4
+L:1/8
+Q:1/4=100
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:North-West - Carlisle
+N:Is it possible the mixture of beamed and unbeamed quavers  indicates a
+N:song tune?
+N:Very difficult to decide which are quavers and which crochets 1 - end
+N:of line, unclear if bar line intended - bars often run  over line end
+N:3 - possibly a quaver  2 - bar line dotted
+N:4 - probably dotted..CGr.
+Z:vmp.C.Graebe.
+B:Village Music project, Barnes, Joseph
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/barnes_j.abc
+K:C major
+"_No key/time sig.As written - See note"  D D | G2 B d c2  AE |\
+(DE) A F G>"3" A | B2G B A2 B g |fe d c d2 d |!
+g2 d f e2 c e dB A  "4"G A3 d | B2 cd e2 fg |B2 c  A G2 "1" |!
+g2 f e d4 | e2 d c B> "3"c | dB AG e2 f g | B2 c A G4 "2" |\
+dg dB g2 dB AB DF G3 ||!
+zzzz|!
+" With minimal editing"
+K:G major
+DD | G2 Bd c2  AE |(DE) AF G3 A | B2 GB A2 Bg |\
+fe d^c d2 d2 |!
+g2 df e2 ce |  dB AG A3 d | B2 cd e2 fg |B2 cA G4 |!
+g2 fe d4 | e2 dc B3 c |\
+dB AG e2 fg | B2 cA G4 |dg dB g2 dB |  AB DF G3 |]

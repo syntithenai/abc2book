@@ -1,0 +1,30 @@
+X:42
+T:Oh Nannie. JClw.42
+T:O Nanny wilt thou fly with me,aka. JClw.42
+M:4/4
+L:1/8
+Q:1/4=120
+S:J.Clews MS,Stoke-upon-Tern,Shrops.1832
+N:Last bar missing from edge of photocopy.
+N:Likely to be a version of the "celebrated ballad" entitled
+N:"Oh! Nanny Wilt Thou Fly With Me"by Thomas Carter (1769-1800)
+N:"Sy" = symphony - a bridge or interval played between verses.
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Clews, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/ClewsJ.abc
+notC:(comp.T.Carter 1769-1800)
+K:G major
+"^Andante"B>c|d<gf<e d2B>c|d>ed<B A2 d>F|\
+{A}G2zGG3B|Aedc cBB>c|!
+d>.g.f<e d2B>c|d>ed<BA2zF|G3GG2zB|Aedc cB zd|!
+g>a bb af zd|e3/2{fede}f/2 gg gf zd|\
+b2 a/g/f/e/ a3b/g/|f>g "tr"Te2d2z2|!
+e3/2{fede}f/2 gg gf zd|c3/2{dcBc}d/2 ee dB zG|\
+c3d/c/ Bg2d|.c.B.A.G"fermata"d3^d|!
+e>f gg fd zB|c>d ee dB zG|\
+c3B/A/Bg2f/e/|e/d/c/B/ d/c/B/A/ G4|!
+{e}d/^c/d/e/ d=cBg zd|{e}d/^c/d/e/ d=cBg zd|\
+d/e/f/g/ "fermata" a {baga} b/c'/b/a/ z e/c/ z|B2A2G2z2||!
+"Sy"f>gfa g>agb|a>bac' b>c'bd'|f>gfa g>agb|\
+a>bac' b>c'bd'|d'3c' b<gec|B2A2G2z2|]

@@ -1,0 +1,31 @@
+X:3
+T:Posthorn-Juiz  Bb  ABAC
+T:Erwin Britschgi  (* 9.4.1937)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "ev. Büchel" dF!fermata!B | "Jodler" dFB | [c/A][A/f/] [Bd] [BG/][B/F/] | [=Ec] [f/F/][G/f/] [Af] |
+dFB | dFB | A/f/d c/d/ | B2z | dFB | dFB | 
+c/f/dB | cf2 | dFB | dFB | A/f/ d/d/ c/d/ | B2 ||
+L:1/4
+M:3/4
+[P:B] B |GBe | edc | dBG | F2d | cFd | cFd | 
+B d/B/ d/B/ | c2B | GBe | edc | dBG | 
+F2d | cFd | cFd | B B/F/ d/F/ | B2 ||
+M:3/4
+[P:C]   FdB | FdB | cfd | c3 | A>Ff | dcd | BdB | cf2 | 
+FdB | FdB | cfd | c3 | A>Ff | ddc | !fermata!B F/"rit."f/ d/F/ | B3 |] 
+W:
+%W:Reihenfolge: A-B-A-C
+W:notiert Edi Gasser. Angaben von Erwin Britschgi
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 14-02
+W:http://www.naturjodler.ch/code 14.htm  (with AUDIO)
+%May 9, 2018

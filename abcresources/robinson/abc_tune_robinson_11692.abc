@@ -1,0 +1,22 @@
+X:72
+T:Virginie,La. CJF.072
+T:La Virginie. CJF.072
+R:Quadrille
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:2/4
+L:1/16
+Q:1/4=75
+N:B: Kidson Coll.Mitchell Lib.M1805
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:D major
+"$"(f>e)|(d>c)(d>c) (d>e)(f>g)|(^g>a)(b>a) A2 (=g>f)|\
+(e>d)(c>d) (B>e)(g>e)|(d4{ed} c2) f>e|!
+d>cd>c d>ef>g|^g>ab>a A2 ^g>f|e>dc>d B>eg>e|d2c2d2h||!
+AB|cdef gfed|cded cBAG|F>Ad>f E>GB>e|d4 {ed}c2 AB|!
+cdef gfed|c>de>d cBAG|F>Ad>f E>GB>e|d2c2d2||!
+F2|B4d4|f6ed|cdef gecB|ABcA F2F2|!
+B4d4|f6ed|cdef agec|" $"B6|]

@@ -1,0 +1,20 @@
+X:69
+T:Mazurka BbFEb (mz07550) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.221 (mz07550) orig. B,F,Eb
+T: Aus dem Repertoire der Dorfmusik Oberwil.  S.201-221
+T:Überliefert durch Gotti Bannier (1876-1947)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] "Bb"F>dd2d2 | ("F7"de)c2c2 | F>Ac2c2 | ("Bb"cd)B2B2 | F>Bd2d2 | "Cm/Eb"G>ce2e2 | "F7"A>cf2A2 | "Bb"B2B2z2 :| [K:F] [P:B] 
+|: "C7"c2cc cc | ("F"f2c2)c2 | "Gm"B2BB BB | ("Dm/F"d2A2)A2 | "C7"G>AB2B2 | "F"A>Bc2c2 | "C7"B>cd2e2 | "F"f2z2"_>Teil A"z2 :| [K:Eb] [P:C] 
+|: "Eb"B3(c Gc) | "Bb7"B2A2A2 | f3e dc | "Eb"c>BB2B2 | B3(c Gc)  | ("Bb7"BA GA)f2 | (ed) .c.B .c.d | "Eb"e2e2z2 :| [P:D] 
+|: ("Bb7"BA) (Ad) d2 | ("Eb"AG) (Ge)e2 | "Ab"c>d e2c2 | "Eb"c2B2B2 | ("Bb7"BA) (Ad)d2 | ("Eb"AG) (Ge)e2 | "Bb7"FG AB cd | "Eb"e2e2z2 :| 
+%W:Parts: ABACD
+% mz07550
+% March 5, 2017

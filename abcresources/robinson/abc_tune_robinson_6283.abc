@@ -1,0 +1,20 @@
+X:1
+T:Rosa-Walzer  BbFEb (wz07681) 
+T: Basel II. Tänze aus Augst. S.6-42.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.38  (wz07681) orig. Bb,F,Eb
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:Bb major
+"Bb"df>e | dcB | "F7"A>ee | e3 | eg>f | edc | "Bb"Bf>f | f3 | fb>b | bfd | "Cm"cg>g | g3 | 
+"F7"Agf | Fdc | "Bb"B3 |1 BFB :|2 Bzd |: [K:F] "C7"c=B/c/ e/g/ | bbe | c=B/c/ e/g/ | "F"aaf | "C7"eb>b | d2e | 
+"F"fa>a | fzd | "C7"c=B/c/ e/g/ | bbe | c=B/c/ e/g/ |   "F"aaf | "C7"eb>b | ba>g | ("F"f3 |1 f)zc :|2 fzz || [K:Bb] 
+"Bb"d^cd | g3 | d^cd | g3 | d^cd | g2f | "F7"e3 | A3 | ede | a3 | ede | a3 | 
+a2g | f2e | ("Bb"d3 | d)zz | d^cd | g3 | d^cd | g3 | d^cd | f2b | "Eb"a3 | g3 | 
+("Bb0"b3 | b)=e>g | ("Bb"f3 | f)dB | ("F7"F3 | F)dc | ("Bb"B3 | B)zb || [K:Eb]  "Eb"b3 | g2e | ("Bb7"d3 | d)fg | 
+(a3 | a)bf | ("Eb"g3 | g)zz | g3 | f2e | "Ab"c3 | a3 | "Eb"g2B | "Bb7"f2B | ("Eb"e3 | e)zz  |] 
+% wz07681
+% Nov 24 2017

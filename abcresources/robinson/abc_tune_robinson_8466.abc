@@ -1,0 +1,33 @@
+X:31
+T:General Stewart, West Park, Elgin
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:March
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 3
+K:C major
+%%staves {1 2}
+V:1
+(GA/B/) | \
+c2 G2 E2 C2 | [Ec]2 [Ec]>[Ec] [Ec]2 c~d/e/ | \
+f3e {e}d3c &G4G4 | [GB]2 [Gd]>d d3e |
+{g}(f/e/f/g/) af {c}c'3a & c4c4 | ag{g}f>e a3f & c4c4 | \
+(e/f/)(g/a/) (g/f/)e/d/ [Ec]2 !trill![FB]2 &c2A2x4 | [Ec]2 [Ec]>[Ec] [Ec]3 |]
+G | \
+[Gd]2 [Gd]>[Gd] d3e & x4G4 | dcBA GdBG & G2G2G2G2 | \
+g2 g>g g3a & c2c2c4 | gfed cgec |
+f2 A2 {A}a3f | ([Gf]e){e}([dG]>c) [Gg]3 [Af] | \
+([ce]/f/)g/a/ ([Ag]/f/)[Ge]/[Fd]/ [Ec]2 c/B/A/B/ & x6FF | [EGc]2 [EGc]>[EGc] [EGc]2 |]
+V:2 clef=bass octave=-2
+ga/b/ | \
+c'2g2 e2c2 | c>CE>G c2z2 | GgGg GgGg | gGBd gbd'[g_bc'] | \
+f[ac'][ac'][ac'] f[ac'][ac'][ac'] & f4f4 | c[ec'][ec'][ec'] F[ad'][ad'][ad'] & c4f4 | \
+[gc']2 [Ff]2 [Gg]2 [Gg]2 | c>CE>G c3 |] \
+z | \
+[d'f']g[d'f']g [d'f']g[d'f']g | [d'f']g[d'f']g [d'f']g[d'f']g | \
+c'ceg cc'cc' | c[ec'][ec'][ec'] c[gbc'][gbc'][gbc'] & c4 c4 | \
+f[ac'][ac'][ac'] f[ac'][ac'][ac'] & f4f4 | c[ec'][ec'][ec'] ec'Ff & c4x4 | \
+CcFf GgGg | c>CE>G c2 |]

@@ -1,0 +1,22 @@
+X:1
+T:James Duff M.P.
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 1
+K:F major
+%%staves {1 2}
+V:1
+fc ~"\="c2 dB ~B2 & F2 x2 F4 | bagf (eg) ~"\="c2 & d4 x4 | \
+fc ~"\="c2 (dB)Bd & F4    F4 | c>BAG F2 F2 & E4 A,2 A,2 :| \
+Ffef dBBd & F4 F4 | Gg^fg ecce | ! Ffef dBBd | c>BAG  F2 F2 & F2 B,2 A,2 A,2 |\
+Ffef dBBd & F4 F4 | Gg^fg ecce |   Ffef dBBd | c>BA>G F2 F2 & F2 B,2 A,2 A,2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Ff] [Aa] [Bb] [Bb] | [Gg] [=B=b] [cc'] [cc']  | [Aa] [Ff] [Bb] [Bb] | [cc'] [cc'] [Ff] [Ff] :| \
+[Ff] [Aa] [Bb] [Bb] | [Gg] [=B=b] [cc'] [_B_b] | [Aa] [Ff] [Bb] [Bb] | [cc'] [Cc] [Ff] [Ff] | \
+[Ff] [Aa] [Bb] [Bb] | [Gg] [=B=b] [cc'] [_B_b]  | [Aa] [Ff] [Bb] [Bb] | [cc'] [Cc] [Ff] [Ff] |]

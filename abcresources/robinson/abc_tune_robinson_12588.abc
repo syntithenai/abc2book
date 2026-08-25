@@ -1,0 +1,27 @@
+X:476
+T:Waltz,A.2voices RH.476
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:Not a waltz. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:2/4
+L:1/16
+Q:1/4=90
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1]|:a^gab afed|gfga babc'|d'c'ba bagf|gfed d2c2|
+[V:2]|:F2d2 fdAF|edef gfga|a2f2 g2d2|G2^G2 a4|
+%
+[V:1] a^gab adef|gfed dcBA|Bdgb afed|A2c2 d4:|
+[V:2] fed2 fAcd|edcB BAGF|G2Bd cdAB|F2E2 D4:|
+%
+[V:1]|:e4 ecBA|d4 dfa(d|b)(ga)(f g)(ef)(d|e)(cde) c2A2|
+[V:2]|:GAGA GAGA|FAFA FAFA|(de)(cd) (Bc)(AB)|(GAFG) ABce|
+%
+[V:1] e2ea d2d2|c2ca f2f2|(fa)(fg) (ef)(de)|(cdBe) dcBA:|
+[V:2] GAGA FAFA|EAEA DADA|e(cd)(B c)(AB)(G|A)(FGE) FEDC:|

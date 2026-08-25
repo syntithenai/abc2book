@@ -1,0 +1,25 @@
+X: 143
+T:Lady Madelina Palmer's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:50 - 1
+K:F major
+%%staves {1 2}
+V:1
+A/B/ | \
+c>Fd>F c>FBd | cF B/A/G/F/ EG- GA/B/ | \
+c<Fd<F c<FBd | (EF/G/) (GA/B/) A<F ~F  :|
+f/g/ | \
+{fg}a>g f<c d<f- ~f>.g | {fg}a>g f<c d<g ~g2 | \
+{fg}a>g f<c d<fc<f | (Bc/d/) (GA/B/) A<F- ~F2 |
+{fg}a>g f<c d<f- ~f2 | {fg}a>g f<c d<g- ~g>b | \
+a>bg>a f>gd>f | (Bc/d/) (GA/B/) A<F ~F  |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | f [fb] [fa] [fb] | [fa]fcc | f[fb][fc'][fb] | c'cff/ :| \
+z/ | ff[fb][fa] | fabc' | faba | bc'ff | f[fa][fb][fa] | fabc' | fcdA | Bcff/ |]

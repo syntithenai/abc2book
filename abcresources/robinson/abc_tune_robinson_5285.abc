@@ -1,0 +1,20 @@
+X:52
+T:Die Launenhafte (Mazurka) GDC (mz06363) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.120 (mz06363) orig. G,D,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"b>fa2g2 | d3(B AG) | "D7"F>Ac2f2 | "G"G>Bd2g2 | b>fa2g2 | "C"e3(c AG) | "D7"F>d c>f d>a | 
+"G"g2g2z2 :: [P:B] [K:D] "A7"a>g e>c A>c | "D"d>e f>ga2 | "A7"b>eg3c | "D"d>FA2f2 | "A7"a>g e>c A>c | 
+"D"d>e f>ga2 | "A7"b>e g>c e>A |1 "D"d2d2z2 :|2 "D"d2"D7"e>f "_>Teil A"g>a |: [P:C] [K:C] "C"G^F GB ce | a4g>c | 
+("G7"Bg).g2.f2 | ("C"e4c2) | G^F GB ce | a4g>c | ("G7"B>g).g2.B2 | "C".c2!>!c2z2 :: [P:D] "G7"G>B B>d d>f | 
+"F"a>f.a2.a2 | a>f.b2.a2 | "C"g6 | "Dm"f>A d>f!>!f2 | "C"e>G c>e!>!e2 | "G7"d>c B>a g>B | "C".c2!>!c2"_Fine"z2  :| 
+% mz06363 (Heft 218/TN 30)
+% Dez 7, 2016

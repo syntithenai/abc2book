@@ -1,0 +1,29 @@
+X:105
+T:Les Graces.2voices. RHu.105
+S:R.Hughes MS,1823,Whitchurch,Shrops.
+N:Labelled "No4". May have been part of a set.
+A:Shropshire - Whitchurch
+Z:Neil Brookes 2006
+M:6/8
+L:1/8
+Q:3/8=120
+R:Quadrille
+B:Village Music project, Hughes, Richard
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesR.abc
+K:G major
+V:1
+[V:1]d^cd|g2g BAB|d2d gd^d|eAB cEA|G2F d^cd|!
+[V:2 clef=bass]z2z|G,B,D G,B,D|G,B,D B,,D,G,|C,E,A, C,E,A,|D,F,A, D,A,C|\
+%
+[V:1]g2g BAB|d2d gd^d|ecA G2F|"Fine"HG3||!
+[V:2]G,B,D G,B,D|G,B,D B,,D,G,|C,E,A,B,2C|HB,3||\
+%
+[V:1]A2A|AGF d2d|d^cB g2g|gfe edc|^cBA G2G|!
+[V:2]z2z|D,,2D,D,2D,|G,,2G,G,2G,|A,3G,,3|A,2A,,A,2z|\
+%
+[V:1]GFE c2c|^cBA g2g|gfe ed^c|d3 de^c|!
+[V:2]A,,2A, A,^CE|[V:2 clef=treble]\
+"reverts to treble clef"A^CE ACE|A^CE A,EF|A,DF AEG|\
+%
+[V:1]a3 age|de^c deB|=c3 d/e/f/g/a/b/|"D.C."Hc'3|]
+[V:2]A,^CE A,CE|D2GF2^G|A3z2z|Hc3|]

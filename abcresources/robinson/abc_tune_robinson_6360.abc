@@ -1,0 +1,21 @@
+X:1
+T:Tanzlied  G ( wz07003)
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.177  ( wz07003) orig. G
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+"G"GG/A/ B/c/ | d2B | "D7"GAD | "G"GB/>D/ D | GG/A/ B/c/ | d2B | "D7"GAF | "G"G2z | 
+"D7"A>DD | "G"B>AG | "D7"A>DD | "G"B>AG | GG/A/ B/c/ | d2B | "D7"G2A/D/ | "G"G2z |] 
+W:
+%W:Parts:
+W:Anmerkung H.C.: 41 <Liederbuch des schweiz. Wehrmannes> v. Bollingen u. Weber, 
+W:Schaffhausen 1889, das alte Soldatenliederbuch <Schwäbisches Tanzliedli> vor 1800
+% wz07003
+% June 20, 2018

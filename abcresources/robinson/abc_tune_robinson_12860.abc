@@ -1,0 +1,54 @@
+X:34
+T:Set of Quadrilles. AJH.034
+M:6/8
+L:1/8
+Q:3/8=120
+S:A.J.Hughes MS
+N:Redirections are as in MS. may need some tweaking to
+N:get a playable set, but nevertheless a fine piece in typical
+N:quadrille style.
+O:England
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:A major
+P:1st
+E|A2A c2c|f2e c2A|e2dB2G|Afe dcB|!
+A2A c2c|f2e c2A|Afee2G|B3A2||!
+K:E
+G/A/|B^AB e^de|g3e2g|f2a B2^d|egf edc|!
+B^AB e^de|g3efg|fga Bcd|e3^dBSc||!
+K:A
+C|F^EF AGA|c^Bc f2g|AcB AGF|^EFG C2c|!
+ded cdc|BcB ABA|Gdc c2^E|F3^E2E||!
+P:2nd
+M:2/4
+Q:1/4=110
+AE/E/ AE/E/|AE/E/ AB/c/|\
+dB/c/ dB/c/|1dB/c/ e/d/c/B/:|2e/d/c/B/A2|!
+|:e/d/c/B/ A/B/c/d/|e3f/g/|ag/a/ cd/e/|\
+f2e2|ed/c/ Bc/d/|!
+ef/g/ ag/a/|1bg/e/ Bc/d/|f2e2:|2fe/d/ ed/B/|B2A2||!
+P:3rd
+K:C
+M:6/8
+Q:3/8=120
+e/f/|Sgag dfe|c3Gce|d2^cd2c|dag ece|!
+gag dfe|c3Gce|dag fdB|d3c2||!
+K:G
+B/c/|d^fg dfg|dag g^fg|aga de^f|gBc dBc|!
+d^fg dfg|dba g^fg|a^ga de^f|g3g Se^f||!
+K:Am
+e3agf|e3edc|B2c dcB|cBc Acd|!
+e3agf|e3edc|[BG][cA][dB] cBc|ABc def||!
+K:A
+c2c eAB|c2de3|edd dcc|agf c2B|!
+c2d eAB|c2d efg|agf fec|edBA2|"^D.C.":|!
+Se/d/|cfe Bdc|A3ABc|edB dcA|Bee fed|!
+cfe Bdc|A3ABc|dcd efg|aecA2:|!
+e/g/|Sa3aec|e3edc|dcd Bcd|f2ec2e|!
+a3aec|f3fga|efe dcB|A3A2||!
+K:E
+g3Sgfg|b3a2a|gag fef|e3B2e|!
+g3gfg|b3a2a|gag fef|efe dcd|]

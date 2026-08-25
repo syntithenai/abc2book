@@ -1,0 +1,26 @@
+X:1
+T: dr Ämätter  C (trad.)
+T:Nidwaldner-Naturjuiz
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] E>F | G2e2Fd |  E2 !fermata!c !breath! G FE | DB G !fermata!c Ed | 
+!fermata!c4 E>F | G2e2 Fd | E2 !fermata!c !breath!G FE | DB G !fermata!c Ed | c3z ||
+[P:B] E FG | (3AfA !fermata!d G FE | !breath!D3 G FE | !breath!D3 G FE | DB Gc Ed | 
+c3E FG | (3AfG dG FE | D3G FE | DB Gc Ed | c6 | E2d4 | (c6 | c2)z |]
+%W: Parts: A-B-2xC
+W:
+W:Mitgeteilt von Oskar Würsch, Emmetten, NW, dessen Bruder Josef Würsch (Stalde Sepp)
+W:diesen Jodel gesungen hat. Die Melodie erinnert stark an die Muotathaler Melodik.
+W: (Heinrich Leuthold)
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-21
+W:http://www.naturjodler.ch/tradition-3.htm  (with AUDIO)
+%April 23, 2018

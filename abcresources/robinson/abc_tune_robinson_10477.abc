@@ -1,0 +1,36 @@
+X:68
+T:Trumpet Solo,Violino Primo. TBe.073
+M:12/8
+L:1/8
+Q:1/4=50
+S:Thomas Bennet MS,1718, VWML
+R:Air
+O:England
+N:1 -  what looks like a number 3 written on the stave, followed by a
+N:crochet rest and two quaver rests.  Bar lines as in M
+H:1718
+Z:vmp.C. Graebe..
+B:Village Music project, Bennet, Thomas
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/bennet.abc
+notC:"By Senior Nicola" (Matteis?)
+K:D major
+D(F/E/D) C(A,D) D(F/E/D) C(A,D) | D(F/E/D) C(A,D)  D(F/E/D) C(A,D) | \
+M:2/2
+D6 z A | d/e/f/e/ f/g/f/g/ a/g/a/b/ fe |!
+%end of first line
+(a2a/)(b/4a/4)(b/4a/4)(g/4f/4).|\
+g/(a/4g/4)(a/4g/4)(f/4e/4) f/(g/4f/4)(g/4f/4)(e/4d/4e/4) | \
+e6 z2  z/ A |!
+%end of second line
+d/e/f/e/ f/g/f/g/.| a/g/a/b/ aa |\
+(a2 a/)(b/4a/4)(b/4a/4)(g/4f/4).|\
+g/(a/4g/4)(a/4g/4)(f/4e/4)  f/(g/4f/4)(g/4f/4)(e/4d/4)|!
+%end of third line
+(e/d/e/f/) "^="e>d d2 z/ (b/4a/4)(b/4a/4)(g/4f/4) |\
+g/(a/4g/4)(a/4g/4)(f/4e/4) f/(g/4f/4)(g/4f/4)(e/4d/4) (e/d/e/f/) "^="e>d|\
+d8 |!
+zA,DD D>FDD | D>A,DD D>FDD |\
+D>A,DD D>FDD | D>FAA A>dAA |!
+"^Piano" A>FAA A>dAA | A>F F>D D>A, A,>D |\
+D>F F>A A>d d>f  f>a a>f f>a (f>e/d/4) | d8 "^1"|"^etc."z|]
+W:And so on for four interminable, copied out of a book, totally tedious pages.

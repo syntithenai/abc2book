@@ -1,0 +1,20 @@
+X:208
+T:Marsch-Schottisch. DG (st07458)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.352 (st07458) orig. D,G
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:D major
+"D"d2f2 | a2za/a/ | ba gf | "A7".e2!>!c'2 |: "D"fA f(g/f/) | "A7"eA/B/ c/d/e/f/ | gA b(a/g/) | 
+"D"fd/c/ d/e/f/g/ | ad/e/ fd | "Em/G"z/B/e/g/b2 | "A7"z/(A/^G/A/) f>e | "D"dd dz :: "A"e>d cd | e>d cd | 
+ef ^ga | "E7"^gB !>!d2 | d>c Bc | d>c Bc | de f^g | "A"ac!>!e2 | "A7"e(^d/e/) !>!g2 | 
+"D"f(^e/f/)!>!d2 | "A7"z^G/A/ Bc | "D"de fd | "A7".e(^d/e/)!>!g2 | "D".f(^e/f/)!>!d2 | "A7".be/f/ gf/e/ |1 "D"dd dz :|2 
+"D"dd "G"B>B |: [K:G] "D7"d2c2 | A2B2 | "G"G4 | z2g>g  | "C"a2g2 | e2g2 | "G"d4 | z2d>d | 
+"D7".c2(!>!b2 | .a2)c>c | "G".B2(!>!a2 | .g2) B>B | "Am"A2e>e | "D7"d2F>F | "G".G2.g2 | .g2B>B :: "G"G(B/c/). d.e | 
+.d(B/c/) .d.g |  "D7".f(A/B/) .c.e | "G"dbg2 | .G(B/c/) .d.^d | "C".e(^d/e/) .g(f/e/) | "G"dB/d/ "D7"cf | "G"gg gz :| 
+%% st07458 (C) Mülirad-Verlag 2007
+% Sep 5 2017

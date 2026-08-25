@@ -1,0 +1,17 @@
+X:126
+T:Mazurka F (mz02226)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.385 (mz02226) orig. F
+S:Bündner Tänze. S.384-402. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+K:F major
+((3cde) |: "F"f2A2A2 | "C7"c>BG2G2 | c>e g>b a>g | "F"f>a c2 ((3cde) | f2A2A2 | "C7"c>BG2G2 | 
+c>"*"e g>b a>g |1 "F"f2z2 ((3cde) :|2 "F"f2z2A2 |: "C7"c>e g>b a>g | "F"f>a c2c2 | "C7"d>c =B>c d>e | 
+"F"f2c2c2 | "C7"c>e g>b a>g | "F"f>ac2c2 | "C7"d>c =B>c d>e |1 "F"f2z2c2:|2 "F"f2z2z2 |] 
+W:
+W:Anmerkung Hrsg.: Takt 7: HC: d
+% mz02226
+% Dez 1, 2016

@@ -1,0 +1,27 @@
+X:5
+T:Nachtbuebe-Jodel  Bb
+T:Remigi Blättler (19.12.1899-27.10.1975)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] D>!tenuto!E | Fd BGF2 D>E | Fd BGF2 (3dcB | Ac AGF2 (3edc | Bd BGF2 D>E | 
+Fd BGF2D>E | Fd BGF2 (3dcB | Ac f3e (3cAF | (B4B2) ||
+M:3/4
+[P:B] c>F Ec A/G/F/A/ | B>F DB G/F/D/B/ | A>F Ec A/G/F/A/ | B>F D/F/B/c/ d> (3fe/d/  | 
+c>F Ec A/G/F/A/ | B>F DB G/F/D/B/ | A>E F!fermata!f e/c/A/F/ | B6 || 
+M:3/4
+[P:C] CD | E3D CD | E3F Ge | d3B BG | F3D Fd | e3A AG | 
+F3E Fe | d3B BG | F4 CD | E3D CD | E3F Ge | 
+d3B BG | F3D Fd | e3A AG | F3e "rit."dc | (B6 | B4) |]
+W:
+W:notiert Edi Gasser. Angaben: Remigi Blättler
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 02-03
+W:http://www.naturjodler.ch/code 02.htm  (with AUDIO)
+%April 27, 2018

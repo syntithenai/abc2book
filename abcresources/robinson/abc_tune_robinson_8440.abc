@@ -1,0 +1,27 @@
+X: 12
+T:Miss Grant's Jig --  Tombreackachy
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:4 - 3
+K:Bb major
+%%staves { 1 2 }
+V:1
+d | \
+B,2B ~B2F | BdB"_or" {G}[BF][EF]D | B,2B ~B2F | Gcc ~c2d | \
+B,2B ~B2F | BdB BFD | EGE DFD | Ccc ~c2 :|
+d/e/ | \
+fdB ~BdB | FBB ~B2 d/e/ | fdB ~BdB | Gcc ~c2 d | \
+fdB ~BAc | !trill!BAG FED | EFG FED | Ccc ~c2 d/e/ |
+fdB ~BdB | FBB ~B2 d/e/ | fdB ~BdB | Gcc ~c2 d | \
+fga bag | fed cBA | BAG FED | Ccc ~c2 |]
+V:2 clef=bass octave=-2
+z |\
+B3 B3 | B3 B3 | B3 B3 | c3 c3 |B3 B3 | B3 B3 | e3 d3 c3 c2 :| \
+z | \
+[Bb]3 [Bb]3 | [Bb]3 [Bb]3 | [Bb]3 [Bb]3 | [cc']3 [cc']3 | b3 f3 | g2e d2B | e3 d3 | c3 c3 |
+[Bb]3 [Bb]3 | [Bb]3 [Bb]3 | [Bb]3 [Bb]3 | [cc']3 [cc']3 | B3 e3 d3 f3 | g2e d2B | c3 c2 |]

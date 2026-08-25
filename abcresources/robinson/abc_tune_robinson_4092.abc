@@ -1,0 +1,36 @@
+X:141
+T:Quadrille  CGFD (parts) (div09256)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.152f (div09256) orig. C,G,F,D
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACDEAFGHAIAJKALMNAOA
+R:Quadrille
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+GG [P:A] |: "C"c2GG e2cc | .^f2!>!g4gg | "G7"^fgba g=fed | "C"e4 c2GG | c2GG e2cc | .^f2!>!g4gg |  "G7"^fgba g=fed |1 
+"C"c4z2 GG :|2 "C""_Fine"c4z2d2 |] [P:B] [K:G] "D7"d4 ^cded | "G"g4 fgag | "D7"^gaba =gfed | "G"b4g2dd |  "D7"d4 ^cded | "G"g4fgag | 
+"D7"^gaba =gfef | "G"g4z2G"_>Teil A"G || [P:C] [K:F] CC | "F"C4 F2CC | C4A2CC | "C7".C2!>!c4GA | "F"F4C2CC | 
+C4F2CC | C4A2CC | "C7"C2!>!c4GA | "F"F4z4 |] [K:G] dd [P:D] |: "G"d4 "D7"defg | "G"g4 B2ed | "D7"d4 F2ed | "G"d4 G2dd |  
+d4 "D7"defg | "G"g4B2ed | "D7"d4F2ed |1 "G"G4z2dd :|2 "G"G4z2AA |] [P:E] [K:D] "D"d2AA f2ed | "A7".c2!>!a4aa | b2a2 b2a2 | 
+"D"f4 d2AA | d2AA f2ed | "A7".c2!>!a4aa | b2a2 b2a2 | "D"d4z2d"_>Teil A"d || [P:F] [K:C] Gc | "C"e2cB c2Gc | 
+e2cB c2Bc | "G7"d2G2 f2d2 | "C"a2g^f g2Gc | e2cB c2Gc | e2cB c2de | "G7"f2e2 d2c2 | B2g2 "C"c2z2 |] [M:6/8]  [L:1/8] [K:G] 
+G [P:G] |: "G"B3 Bcd | edB G3 | "D7"B2A cBA | "G"GBd gdc | B3 Bcd | edB G3 | "D7"B2A cBA |1 
+"G"G2B G2G :|2 "G"G2B G2z || [P:H] "D7"dba aaa | "G"a2g ggg | "D7"fef def | "G"gdb gdB | "D7"dba aaa | "G"a2g ggg | 
+"D7"f>ef def | "G"gdb g2"_>Teil A"G || [K:C] g2 | [P:I] "C"g3 egc' | e'3 e'd'c' | "F"c'ba agf | "C"a2g e2g | 
+g3 egc' | e'3 e'd'c' | "G7"c'ba gab | d'3"C"c'2"_>Teil A"G |] [M:2/4] [L:1/16] c'c' | [P:J] "C"c'2gg g2gg | (g4 e2)dd | "G7"d2g2 ^fgag | 
+("C"e4 c2)c'c' | c'2gg g2gg | (g4 e2)dd | "G7"d2g2 ^fgag | "C"c4z2dd [P:K] |: [K:G] "G"d2e2 f2g2 | ("D7"^g4 a2)dd | e2f2 g2a2 | 
+"G"bagf g2dd | d2e2 f2g2 | "D7"(^g4 a2)=g2 | gfed ^cdef |1 "G"g4z2dd :|2 "G"g4z2c'"_>Teil A"c' || [K:F] CC | 
+[P:L] "F"C4 F2G2 | A6BA | G2F2 E2F2 | "C7"GFED C2CC | C4 G2A2 | B6AG | F2E2 D2E2 | "F"F4z4 |] [M:6/8] [L:1/8] [K:C] 
+e/c/ [P:M] |: "C"g3 fec | "F"a3 afd | "G7"Bcd GAB | "C"cd^d ef^f | g3 fec | "F"a3 afd | 
+"G7"Bcd GAB |1 "C"c2e c2c/e/ :|2 "C"c2e c2d/d/ [P:N] |: [K:G] "D7"d3 def | "G"g3 gfg | "D7"^ga=g fed | "G"^ab=a gfe | 
+"D7"d3 def | "G"g3 gfg | "D7"^ga=g fed |1 "G"gdb g2d/d/ :|2 "G"gdb g2c/"_>Teil A"e/ || [K:F] C [P:O]|: "F"A2F F2C | 
+"Gm"B2G G3 | "C7"d2 (A/B/) B2 (A/G/) | "F"F3 Cz C | A2F F2C | "Gm"B2G G2F | "C7"EDC BAG |1 "F"F2A F2C :|2 "F"F2A "_>Teil A"F2z |] 
+W:Parts: ABA CDEA FGHA IA JKA LMNA OA
+W:
+W:Anm. Hrsg.: Die Nummern [1-5, not inserted here, piush] bezeichnen vermutlich
+W: verschiedene Tanztouren. Wahrscheinlich wurde nach jeder Tour kurz pausiert.
+% div09256

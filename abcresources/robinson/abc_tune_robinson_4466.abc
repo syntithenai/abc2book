@@ -1,0 +1,14 @@
+X:2
+T:Appenzeller Jodler  C (ZL04068)
+S: Zäuerli/Ruggüserli 
+B:Hanny Christen. Bd.3 Appenzell. S.366 (ZL04068) orig. C-Dur
+%%MIDI program 21
+O:Switzerland
+R:Zäuerli  % Rugguserli
+M:3/4
+L:1/4
+K:C major
+g | "G7"a g f | "C"e e g | "G7"d d g | "C"e z g | "G7"a g f | "C"e e f | "G7"d d g | "C"e z G | 
+"G7"A G F | [L:1/8] "C"EG cG e2 | "G7"GG BG f2 | "C"EG cG e2 |"G7"A2 G2 F2 | "C"EG cG e2 | "G7"GG BG fe/d/ | "C"c2 z2 z2 | 
+|: "C"E>G Ge c2 | "Dm"F>A Af d2 | "G7"B2 Af ed | "C"c2 Ge c2 | \ 
+      E>G Ge c2 | "Dm"F>A Af d2 | "G7"B2 Gf ed | "C"c2 z2z2 :|

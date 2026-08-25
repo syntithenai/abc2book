@@ -1,0 +1,30 @@
+X:3
+T:Schluichibärger  Bb  ABCD
+T:Gebhard Britschgi  (16.12.1931-24.2.2018)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F2 | B3 cd=e | f4d2 | (3f=ec dB cF | (3Bcd F3d | (3f=ec dB cF | !breath!B4F2 | 
+B3 cd=e | f4d2 | (3f=ec dB cF | (3Bcd f3d | (3f=ec dB cF | B4  ||
+L:1/4
+M:3/4
+[P:B]  f | B>cd | F2f | c>de | F2f | c>de | F>GA | Bdg | !breath!f2f | B>cd | 
+F2 (3f/=e/f/ | c>de | F2 (3f/=e/f/ | c>de | FAc | (B3 | B>)z || 
+L:1/8
+[P:C]  F2 | B3 cd=e | f4d2 | (3f=ec dB cF | (3Bcd F3d | (3f=ec dB cF | !fermata!B4 || 
+M:3/4
+[P:D] B | g>f eB eg | f>e dB dg | f>e cF Ac | 
+B4zB | g>f eB eg | f>e dB dg | f>e cF dc | B4z2 |] 
+%W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 12-02
+W:http://www.naturjodler.ch/code 12.htm  (with AUDIO)
+%May 8, 2018

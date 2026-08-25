@@ -89,6 +89,52 @@ def detect_staff_regions(image_path: str) -> dict[str, Any]:
     }
 
 
+def staff_union_crop_box(
+    staff_info: dict[str, Any],
+    image_width: int,
+    image_height: int,
+    pad_top: int = 12,
+    pad_bottom: int = 16,
+) -> tuple[int, int, int, int] | None:
+    """Union of staff bands with padding; drops title/chord space above first staff."""
+    bands = list((staff_info or {}).get("staffRegions") or [])
+    if not bands or image_width <= 0 or image_height <= 0:
+        return None
+    top = min(float(band.get("top") or 0) for band in bands)
+    bottom = max(float(band.get("bottom") or 0) for band in bands)
+    top_i = max(0, int(top) - pad_top)
+    bottom_i = min(image_height, int(bottom) + pad_bottom)
+    if bottom_i - top_i < 24:
+        return None
+    return 0, top_i, image_width, bottom_i
+
+
+def write_staff_crop(
+    image_path: str,
+    work_dir: str,
+    staff_info: dict[str, Any] | None = None,
+    out_name: str = "staff-crop.png",
+) -> str | None:
+    """Write a staff-only crop for OMR. Returns path or None if no staff crop."""
+    if cv2 is None:
+        return None
+    info = staff_info if staff_info is not None else detect_staff_regions(image_path)
+    image = cv2.imread(image_path)
+    if image is None:
+        return None
+    height, width = image.shape[:2]
+    box = staff_union_crop_box(info, width, height)
+    if box is None:
+        return None
+    left, top, right, bottom = box
+    cropped = image[top:bottom, left:right]
+    if cropped.size == 0:
+        return None
+    out_path = os.path.join(work_dir, out_name)
+    cv2.imwrite(out_path, cropped)
+    return out_path
+
+
 def classify_page_type(has_staff: bool, chord_lines: list[str]) -> str:
     has_chords_or_lyrics = any(str(line or "").strip() for line in chord_lines or [])
     if has_staff and has_chords_or_lyrics:

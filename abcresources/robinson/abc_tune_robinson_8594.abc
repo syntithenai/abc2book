@@ -1,0 +1,25 @@
+X: 164
+T:the House of Cluny, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:57 - 1
+K:F major
+%%staves {1 2}
+V:1
+C | \
+F<FA>F A<c ~F2 | [G,~E]>G- G<c G<cE>C | \
+F<FA>F A>cf>c | d/c/B/A/ G(c/B/) A<F ~F :|
+c | \
+f/e/d/c/ fc dc ~f2 | (f>c) d<c f<a~ge | \
+(f/e/)d/c/ fc d<Bd<B | c>BA>G F2 Fc |
+f/e/d/c/ fc dc ~f2 | f>c d<c f<a~ge | \
+(f/g/a/g/) fc (df)Bd | {d}~c>A c/B/A/G/ {E}F2 ~F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | FFFF | ccec | fFAF | Bc FF/ :| \
+z/ | fffa | fffc | ffBB | ccFF | fffa | fffc | fabd' | ccff/ |]

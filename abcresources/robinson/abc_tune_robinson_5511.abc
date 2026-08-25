@@ -1,0 +1,20 @@
+X:257
+T:Wienerluft (Schottisch) GDC (st06361) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.120 (st06361) orig. G,D,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"dB BG |  "D7"GF.F2 | ec cA | "G"AG.G2 | D/E/F/G/ BG | "D7"F/G/A/B/.c2 | F/G/A/B/ cF | 
+"G"G/A/B/c/ .d2 | dB BG | "D7"GF.F2 | ec cA | "G"AG.G2 | "Am"ce!>!A2 | "G"Bd!>!G2 | "D7"F/G/A/B/ cF | 
+"G"GB Gz :: [K:D] [P:B]  !>!"D"A2!>!A2 | "A7"A3A | BA Bc | ed c/c/.c | gf e/e/.e | "D"fe d/d/.d | 
+"A7"ce g>c | "D"df d"_>Teil A"z :: [P:C] [K:C] !>!"C"G2 !>!c2 | "G7"B3F | F2A2 | "C"G2ee | ee ff | "G7"B2dd | 
+dd ee | "C"c2z2 | !>!G2 !>!c2 | "G7"B3F | F2A2 | "C"G2ee | ee ff | "G7"B2Ge | e3d | "C"cc c"_Fine"z :| 
+% st06361 (Heft 218/TN 28)
+% Dez 7, 2016

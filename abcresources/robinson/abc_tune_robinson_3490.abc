@@ -1,0 +1,18 @@
+X:47
+T:Galopp  CGF (GL00039)
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"G2E>F | G^F .G2 | G2 c>B | "Dm/F"A^G A2 | "G7"A2 F>E | DE .F2 | \
+G2A>B | "C"c2z2 :: [K:G]
+ "G"B>B c>B | "D7""_a"A"_#"^G .A2 | "_a"A2 "_h"B>"_ ="A | "G"GAB2 | \
+B>B A"_ ="G | "D7""_#"F"_a"A "_c"c2 | "Am"c2"D7""_#"F>"_a"A | "G"G2z2 :: [K:C] "G7""_f"F2"_d"d2 |
+ zd e>d | "C"c2G2 | zc B>c | "F".d2."_ ="c2 | \
+"G7""_h".B2"_a"A2 | "C"TA2G2 | TA2G2 | "G7""_f"F2"_d"d2 | zd e>d | "C"c2G2 |
+ zc Bc | "F"A2d2 | "G7"zG "_a"A"_ h ="B | \
+"C"c>c c>c | c2z2 :: [K:F] "F"C2A2 | AG FE | "Bb"D2B2 | BA GF |
+ "C7"E2c2 | B2E2 | "F""_      ="F4 | \
+"C7"G"_f"F E"_ d ="D | "F"C2A2 | AG FE | "Bb"D2"_b"B2 | BA "_g"G"_ ="F | "C7"E2c2 | "C" "_b"B2"_e"E2 | "F"F>F F>F | F2z2 :| 
+% GL00039 (June 2016)

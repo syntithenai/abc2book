@@ -1,0 +1,22 @@
+X:27
+T:Türkischer Reiter (Galopp) GC (GL06387)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.134 (GL06387) orig. G,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+D |: "G"GG/G/ GB | dd/d/ dg | dg dg | d3B | "D7"AA/A/ Ad | "G"BB/B/ BG | "C"EE/E/ EF | "D7"D3D | "G"GG/G/ GB | 
+dd/d/ dg | dg dg | d3B | "D"AA/A/ Ad | Ad fb | "A7"a/a/.a ^c/c/c |1 "D"dd/d/ "D7"dD :|2 "D"dd/d/ dg || 
+|: ("D7"fe cd) |  f3e | ("G"ed Bd) | e3d | "D7".d.c .B.c | .b2.a2 | .d.c .B.c | "G".a2.g2 | 
+("D7"fe cd) |  f3e | ("G"ed Bd) | e3d | "D7"dc BA | "G"ag fe | "D7"ed cA |1 "G"G3g :|2 "G"G2z2 || [K:C] 
+|: ("C"e4 | e>)e a>g | (c4 | c>)c f>e | G3c | Bc d>c | ("G7"B4 | A2)z2 | 
+"F"a4 | a>^g b>a | (a4 | a>)g f>e | "Dm".e2.d2 | "G7".f2.B2 | ("C"c4 | c2)z2 :| 
+"Am"ee/e/ ea | ea ea | "E7"^ga bg | "Am"a^g.a2 | "G"dd/d/ dg | dg dg | "D7"^fg af | "G7".g2.g2 | 
+|: "C"g2g>g | .a2.g2 | .f2.e2 | "G7"d2z2 | f2f>f | .g2.f2 | .e2.d2 | "C"c2z2 | 
+"Am"e2e>e | "A7".f2.e2 | "Dm"d>^c d>f | b3a | "G7".a2.g2 | "C".a2.g2 | "G7"gf ed | "C"c2z2 :| 
+% GL06387 (Heft 219/TN 13)
+% Dez 8, 2016

@@ -1,9 +1,12 @@
 import {
   buildLinkCheckQueue,
+  checkLinkPlaybackItem,
   getEmptyLinkReason,
   getLinkRegionWarnings,
   getLinkSrcType,
   getTunesWithoutLinks,
+  isLinkCheckAuthFailure,
+  LINK_CHECK_STATUS,
   tuneHasLinkContent,
 } from './checkTuneLinkPlayback'
 
@@ -42,6 +45,7 @@ describe('checkTuneLinkPlayback', function() {
     expect(getLinkSrcType({ link: 'abcbook-recording:rec1' }, isYoutubeLink)).toBe('recording')
     expect(getLinkSrcType({ link: 'abcbook-recording:rec1', mediaKind: 'midi' }, isYoutubeLink)).toBe('midifile')
     expect(getLinkSrcType({ link: 'https://example.com/a.mid' }, isYoutubeLink)).toBe('midifile')
+    expect(getLinkSrcType({ link: 'data:text/plain,hello' }, isYoutubeLink)).toBe('skip')
   })
 
   test('getEmptyLinkReason explains missing URLs', function() {
@@ -108,5 +112,72 @@ describe('checkTuneLinkPlayback', function() {
       },
     ])
     expect(warnings).toHaveLength(0)
+  })
+
+  test('isLinkCheckAuthFailure detects proxy auth and login phrasing', function() {
+    expect(isLinkCheckAuthFailure(new Error('Media proxy error 401 Unauthorized'))).toBe(true)
+    expect(isLinkCheckAuthFailure(new Error('Missing Authorization header'))).toBe(true)
+    expect(isLinkCheckAuthFailure(new Error('Login required for this source'))).toBe(true)
+    expect(isLinkCheckAuthFailure(new Error('Could not load audio'))).toBe(false)
+    expect(isLinkCheckAuthFailure(new Error('Media proxy not configured'), {
+      accessToken: null,
+      requiresAuth: true,
+    })).toBe(true)
+    expect(isLinkCheckAuthFailure(new Error('Media proxy not configured'), {
+      accessToken: 'tok',
+      requiresAuth: true,
+    })).toBe(false)
+  })
+
+  test('checkLinkPlaybackItem skips non-audio data URIs', async function() {
+    const result = await checkLinkPlaybackItem({
+      tuneId: 't1',
+      tuneName: 'Tune',
+      linkIndex: 0,
+      link: { link: 'data:text/plain;base64,aGVsbG8=' },
+    }, { isYoutubeLink: isYoutubeLink })
+    expect(result.ok).toBe(true)
+    expect(result.status).toBe(LINK_CHECK_STATUS.SKIP)
+  })
+
+  test('checkLinkPlaybackItem flags auth-required sources without token as Needing Login', async function() {
+    const result = await checkLinkPlaybackItem({
+      tuneId: 't1',
+      tuneName: 'Tune',
+      linkIndex: 0,
+      link: { link: 'https://resolver.example/music-collection/track.mp3' },
+    }, {
+      isYoutubeLink: isYoutubeLink,
+      accessToken: null,
+    })
+    expect(result.ok).toBe(false)
+    expect(result.status).toBe(LINK_CHECK_STATUS.NEEDS_LOGIN)
+    expect(result.error).toBe('Needing Login')
+  })
+
+  test('checkLinkPlaybackItem flags bandcamp without token as Needing Login', async function() {
+    const result = await checkLinkPlaybackItem({
+      tuneId: 't1',
+      tuneName: 'Tune',
+      linkIndex: 0,
+      link: { link: 'https://artist.bandcamp.com/track/song' },
+    }, {
+      isYoutubeLink: isYoutubeLink,
+      accessToken: '',
+    })
+    expect(result.ok).toBe(false)
+    expect(result.status).toBe(LINK_CHECK_STATUS.NEEDS_LOGIN)
+  })
+
+  test('checkLinkPlaybackItem marks empty URL as broken, not needing login', async function() {
+    const result = await checkLinkPlaybackItem({
+      tuneId: 't1',
+      tuneName: 'Tune',
+      linkIndex: 0,
+      link: { title: 'Empty', link: '' },
+    }, { isYoutubeLink: isYoutubeLink })
+    expect(result.ok).toBe(false)
+    expect(result.status).toBe(LINK_CHECK_STATUS.BROKEN)
+    expect(result.error).toBe('Missing link URL')
   })
 })

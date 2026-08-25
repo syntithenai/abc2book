@@ -11786,6 +11786,11 @@ button.abc-transpose-preview {
   max-width: min(96vw, 58rem);
 }
 
+/* Leave room to scroll past the playlist mini player when it overlays the dialog. */
+body.app-has-playlist-transport .links-editor-modal-dialog .modal-body {
+  padding-bottom: calc(1.25rem + var(--app-playlist-transport-offset, 0px));
+}
+
 .links-editor-toolbar-btn {
   display: inline-flex !important;
   flex-direction: row !important;
@@ -11912,6 +11917,42 @@ button.abc-transpose-preview {
   border: 1px solid var(--app-border, #ced4da);
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.72);
+}
+
+.links-editor-link-card--broken {
+  border-color: #c0392b;
+  background: rgba(220, 53, 69, 0.08);
+  box-shadow: inset 3px 0 0 #c0392b;
+}
+
+.links-editor-link-card--needs-login {
+  border-color: #0d6efd;
+  background: rgba(13, 110, 253, 0.06);
+  box-shadow: inset 3px 0 0 #0d6efd;
+}
+
+.links-editor-link-broken-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-bottom: 0.45rem;
+  padding: 0.35rem 0.45rem;
+  border-radius: 4px;
+  background: rgba(220, 53, 69, 0.12);
+  color: #842029;
+  font-size: 0.9rem;
+}
+
+.links-editor-link-needs-login-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-bottom: 0.45rem;
+  padding: 0.35rem 0.45rem;
+  border-radius: 4px;
+  background: rgba(13, 110, 253, 0.1);
+  color: #084298;
+  font-size: 0.9rem;
 }
 
 .links-editor-fields {

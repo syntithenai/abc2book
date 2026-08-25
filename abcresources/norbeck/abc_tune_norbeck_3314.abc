@@ -1,0 +1,24 @@
+X:176
+T:N\"ackens polska
+R:sl\"angpolska
+H:Version 1 efter Pelle Fors, R\"on\"o, upptecknad av R L R\"a\"af 1888.
+H:Version 2 efter Pelle Fors, upptecknad av Carl Erik S\"odling.
+H:Version 3 fr{\aa}n Gotland
+O:\"Osterg\"otland, Gotland
+Z:id:hn-sp-176
+M:3/4
+L:1/16
+K:Gm
+GABc d4 ^f4 | d'2d'2 g2g2 f2d2 | d2d2 B2B2 d2d2 | cBA^F G4 z4 :|
+d2B2 Bcd=e fgfd | d2c2 dc=Bc d4 | d2B2 Bcd=e fgfd | d2c2 dc=Bc d4 |
+d2d2 B4 d2B2 | A2B2 d2g2 ^f2g2 | d2d2 B4 d2B2 | A2B2 d2g2 ^f2g2 | 
+d2d2 B4 d2B2 | A^FAF G4 z4 ||
+P:version 2
+|: G3B d4 f3g | b2b2 g2g2 f2f2 | d3d B4 d3c | cdcB G4 z4 :|
+d2B2 B2d2 f3d | d2c2 c2d/c/B/c/ d4 | d2B2 B2d2 f3d | d2c2 c2d/c/B/c/ d4 |
+B3d c4 d3c | c3B G2g2 f2g2 | d3d B4 d3c | cdcB G4 z4 ||
+P:version 3
+|: G3B d4 ^f4 | a3b g2g2 f2f2 | d2d2 B4 d3c | A3B G4 z4 :|
+B2B2 d2d2 f3d | c2c2 c2Bc d4 | B2B2 d2d2 f3d | c2c2 dcBc d4 |
+B3d c4 d3c | A3B G4 g4 | ^f2g2 d2B2 d3c | A3B G4 g4 |
+^f2g2 d2B2 d3c | A3B G4 ||

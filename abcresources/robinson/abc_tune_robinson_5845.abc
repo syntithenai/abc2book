@@ -1,0 +1,29 @@
+X:11
+T:ubrä Sunnätag. Natur-Juiz  Bb  ABAC
+T:Neldi Ming  (* 21.1.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] D/F/ B/c/ | d>c | BF | fe/d/ | (c2 | c2) | 
+E/F/ A/c/ | e>d | cF | fd/c/ | (B2 | B2) | D/F/ B/c/ | d>c | 
+BF | fe/d/ | c2 | ce | d>B | Fd | cd | !fermata!B2 ||  
+M:2/4
+[P:B]   F/D/ | Ed | cd/c/ | BD | FB/d/ | f>e | dc | Bd | FF/D/ | 
+Ed | cd/c/ | "rit."BA | GB/c/ | dB | Fc | (B2 | B) || 
+M:2/4
+[P:C] F/F/ | e>d | cf | ec | d>c | BD/F/ | B/D/ F/B/ | A>B | 
+cE/F/ | A/E/ F/c/ | B>c | (d2 | d)F/F/ | e>d | cf | =ec | 
+d>c | BD/F/ | B/D/ F/B/ | A>B | cF | dc | !fermata!B2 ||
+W:
+%W:Reihenfolge: A - B - A - C
+W:notiert Edi Gasser. Angaben Neldi Ming
+W:UJV-Naturjodelsammlung: Code-Nr: 25-06
+W:http://www.naturjodler.ch/code 25.htm  (with AUDIO)
+%May 26, 2018

@@ -1,0 +1,33 @@
+X:15
+T:Lopper-Juiz  Bb
+T:Remigi Blättler (19.12.1899-27.10.1975)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam"  F>AC | F >E D/C/ | D>FB, | DCB, | C>EA, | 
+CB,A, | B,>C D/E/ | F3 | F>AC | F>E D/C/ | 
+D>FB, | DCB, | C>EA, | (B,3 | B,3) || 
+M:3/4
+[P:B] "schneller" F/F/ | e>d c/e/ | d>c B | cc/B/  A/c/ | B/A/ B/c/ !fermata!d | 
+e>d c/e/ | d>cB | cc/B/ A/c/ | B2 ||
+M:3/4
+[P:C] "langsam"  F/F/ | d>c B/A/ | GFB | AF>A | E2F/F/ | e>d c/B/ | 
+AFA | BF>B | D2F/F/ | d>c B/A/ | GFB | AF>A | 
+E2F/F/ | e>d c/B/ | AGA | B3 | B2z || 
+M:3/4
+[P:D] "Walzertenpo"  D/E/ | F>A c | f>e d/c/ | d>B B/G/ | F>d c/d/ | e>c A/G/ | 
+F>e d/c/ | d>B B/G/ | F2D/E/ | F>A c | f>e d/c/ | 
+d>B B/G/ | F>d c/d/ | e>c A/G/ | F>e d/c/ | (B3 | B2) |] 
+W:
+W:Reihenfolge: A-2xB-C-2xD
+W:
+W:notiert Edi Gasser. Angaben: Remigi Blättler
+W:UJV-Naturjodelsammlung: Code-Nr: 02-08
+W:http://www.naturjodler.ch/code 02.htm  (with AUDIO)
+%April 27, 2018

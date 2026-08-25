@@ -1,0 +1,22 @@
+X:1
+T:Polka  CG (pk07004) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.177  (pk07004) orig. C,G
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] ("C"G/'F/).G (G/F/).G | "G7"BB AA | (F/E/).F (F/E/).F | "C"AA GG | .e(e/d/) cB | "F"AA f>d | "C".c(c/e/) "G7"d>B | "C"cc cz :| [K:G] 
+[P:B] |: "D7"d2dd | "G".d(d/c/) BB | "D7".c(c/B/) AA | "G"B(B/A/) GG | "G"d2"C"e2 | "G".d(d/c/) BB | "D7".c(c/B/) AA | "G"GB Gz ::
+[P:C] ("D7"Fd)  (dc) | "G"cB (B/A/).B | "D7"EB (BB) | "G"AG G/F/G | ("D7"Fd) (dc) | "G"cB (B/A/)B | "D7"EB B>A | "G"GG Gz :| 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: 1886
+%W:Anmerkung Hrsg,: 
+% pk07004
+% Friday the 13th, July 2018

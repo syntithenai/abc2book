@@ -1,0 +1,16 @@
+X: 102
+T: Ciocarlanul
+O: Serbia
+S: Folk Dances Around the World
+M: 2/4
+L: 1/8
+Q: 1/4=180
+K: Bm
+%%MIDI program 41
+%%MIDI bassprog 25
+%%MIDI chordprog 32
+  "Bm"z2f2|efgf|ecdB|c2B2 |z4|
+|:"D"a2ag |f3z |a2ag|f3z  |
+  a2ag    |feag|f2e2|d2z2 :|
+|:"Bm"f2ef|gfec|dBc2|B2f2 |
+  f2ef    |gfec|dBc2|B2z2 :|

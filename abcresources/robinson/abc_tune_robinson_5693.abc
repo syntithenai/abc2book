@@ -1,0 +1,28 @@
+X:7
+T:Gemsläckitossä-Juiz  Bb
+T:Ruedi Rymann (31.1.1933-10.9.2008)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+R:Naturjodel
+M:2/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] BFF2 | dFF2 | fd Bd | cFF2 | eF Fe | c4 | AFF2 | 
+eFF2 | fe dc | BFF2 | dF Fd | B4 | BFF2 | dFF2 | fd Bd | 
+cFF2 | eF Fe | c4 | AFF2 | eFF2 | fe dc | !fermata!B4 || 
+M:2/4
+[P:B] F2=EF | G2e2 | d2f2 | ce dc | Bd FB | DF Bd | 
+ce FA | EF dc | BD FB | d4 | F2=EF | G2e2 | d2f2 | 
+ce dc | Bd FB | DF Bd | ce FA | EF dc | (B4 | B2)z2 ||  
+M:2/4
+[P:C] F2 | f2F2 | e>d cf | B2F>F | dF cB | A2F>F | 
+eF dc | BD FB | !breath! !fermata!d2 F2 | f2F2 | e>d cf | 
+B2F>F | dF cB | A2F>F | eF dc | (B4 | B2)z2 |] 
+W:
+%W:Reihenfolge:
+W:UJV-Naturjodelsammlung: Code-Nr: 05-04
+W:http://www.naturjodler.ch/code 05.htm  (with AUDIO)
+%April 29, 2018

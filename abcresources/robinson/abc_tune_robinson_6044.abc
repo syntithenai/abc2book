@@ -1,0 +1,20 @@
+X:1
+T:Ich liebe dich (Mazurka)  FBb  (07625) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.130  (07625) orig. F,Bb
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"A2AzA2 | A2A>GF2 | c2c2B>A | "C7"G>AB2B2 | B2BzB2 | B2B>AG2 | d2d2c>B | "F"A2A2z2 :| 
+[P:B] |: "F"FG AB GA | "C7"c2B>AB2 | B2B2A>G | "F"G2FzF2 | FG AB GA | "C7"c2B>AB2 | B2B2A>G | "F"F2F2z2 :| 
+K:Bb
+[P:C] |: "Bb"B6 | "Cm"c6 | "F7"A>eG2A2 | "Bb"B>c d>BF2 | B6 | "Cm"c6 | "F7"A>eG2A2 | "Bb"B2B2z2 :| 
+W:
+%W:Anmerkung H.C.: 
+% 07625
+% May 21, 2018

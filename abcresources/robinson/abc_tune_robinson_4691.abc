@@ -1,0 +1,15 @@
+X:110
+T:Ländler  CG (LD00705)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S199 (LD00705) orig. C,G-Dur
+S:Walliser Tänze. S.196-213.Überliefert durch Josef Seewer und Marcel Tschopp, Leuk, 
+S: und Sepp Mutter, Ried/Brigerberg
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:C major
+"C"ce eGc2 | "G7"Bd dGf2 | Gd dGB2 | "C"ce eGg2 | ce eGc2 | "G7"Bd dGf2 | 
+Bd dG AB |1 "C"c4z2 :|2 "C"c4d2 |: [K:G] "G"db bdg2 | "D7"da adc'2 | da adf2 | 
+"G"gb bd d'2 | db bdg2 | "D7"da adc'2 | da ad ef |1 "G"g4d2 :|2 "G"g4z2 |]   
+% LD00705

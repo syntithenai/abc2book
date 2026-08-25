@@ -1,0 +1,19 @@
+X:55
+T: Galopp (B\"achtold)  FBb (GL05086)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.360 (GL05086) orig. F,Bb-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"C"ee/e/  !>!e2 | gg/g/ !>!g2 | "C7"ba ba | g2z2  [P:A] |: "F"c>fa2 | z>e g>e |  f>AB2 | z>A c>f | "C7"e>GB2 | 
+z>G B>d | "F"c>FA2 | z>c A>B | c>fa2 | z>e g>e | f>Ac2 | z>A c>f | "C7"e>d c>B | c>b d>e | 
+"F"ff/f/ ff | f2z2 :|[P:B] |: "A7"a3g | "Dm"f>e f>g | "A7"a>b a>g | "Dm"fe!>!d2 | "G7"g3f | "C"e>d e>f | "G7"g>a g>f | 
+"C"ed !>!c2 | "C7".c2.b2 | .a2.g2 | "F"a3g |1 f/e/f a/g/f | "C7"g3f | e/d/e a/g/f |"F"f>g a>b | c>d e>f :|2 
+"F"ff/a/ c'"C7"e | "F"ff/a/ c'"C7"e | "F"f"C7"e "F"f"C7"e | "F"ff fz [P:C] [K:Bb] |: "Bb"f2 {/g} f>e | (f2.b2) | d2 {/e}d>c | (d2.f2) | f=e/f/ g>d | "F7"f2e2 | 
+ed/e/ f>c | "Bb"e2d2 | f2 {/g}f>e | (f2.b2) | d2 {/e}d>c | (d2.f2) | "Dm"f=e/f/ "Gm"g^f/g/ | "Dm"a>f df | "A7"a>g =ef | "Dm"dd dz :| [K:F] [P:D] 
+|: "C7"c>b b>b | b/a/g f/e/d | "F"c>a aa | f3c | "C7"B>g g>g | g/f/e c/d/e |1 "F"f>a g>f | e>g f>d :|2 "F"f2z2 || [P:E] [K:Bb]  
+|: "F7".e2.c2 | g2f>e | "Bb"d2f>b | d'4 | "F"c'2b2 | a2e2 | g2f>e | d4 | 
+"F7"e2c2 | g2f>e | "Bb"d2f>b | d'4 | "F7"c'2b2 | a2g2 | f2a>c' | "Bb"bb bz :|

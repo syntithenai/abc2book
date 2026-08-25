@@ -1,0 +1,35 @@
+X:3
+T:Herrähittä-Juiz. 2000  Bb  ABAC
+T:Karl Barmettler (11.11.1951)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] dc | B2Bd FB | D2DF ed | c2ce AG | F6 | A2Ac FA | 
+E2F2dc | B2Bf dc | B4z2 | B2Bd FB | D2DF ed | 
+c2ce AG | F6 | A2Ac FA | E2f2dc | B6 | B2z2z2 ||  
+L:1/8
+M:3/4
+[P:B]  D F>D | E3F A>B | c3f d>c | B3F B>c | d3c Bd | c3F c>d | 
+e3B AG | F2 DF d>c | B2zF A>G | E3F A>B | c3f d>c | 
+B3F B>c | d3c Bd | e3G c>e | d3F Bd | c2f2 cd | B4z2 ||  
+L:1/8
+M:3/4
+[P:C] B,2B,F DF | B2F2dB | e2G2 cd | e4cB | A2F2EF | d2c2dc | B2F2f2 | d4FE | 
+D2DF DF | B2F2dB | e2G2cd | e4cB | A2F2 E/F/A/c/ | f2d2dc | B6 | B4z2 | 
+B,2B,F DF | B2F2dB | e2G2 cd | e4cB | A2F2 EF | d2c2dc | B2F2f2 | d4FE | 
+D2DF DF | B2F2dB | e2G2cd | e4cB | A2F2 E/F/A/c/ | f2d2dc | B6 | B2z2z2 |] 
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W: hittä - dt. (die) Hütte, Hütten (eng. the hut, huts)
+W:notiert Edi Gasser. Angaben: André von Moos
+W:UJV-Naturjodelsammlung: Code-Nr: 42-02
+W:http://www.naturjodler.ch/code 42.htm  (with AUDIO)
+%Juni 11, 2018

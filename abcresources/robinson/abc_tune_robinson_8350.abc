@@ -1,0 +1,28 @@
+X: 54
+T:the Bog of Gight, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:20 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slowly"
+c  | \
+e>f e<c A>cAE | !trill!F>EFA B/B/B (Bc) | \
+e>f e<c A<cA>E | F<AE>C A,/A,/A, A,2 |
+(e>f) (e>c) (A>c)(A>E) | !trill!F>EFA B/B/B ~B2 | \
+(ce)(!trill!fe) (dc)(!trill!BA) | (G>AB)>c A/A/A A ||
+g | \
+~a>ba>e ~a>ba>e | ~f>ef>a b/b/b b2 | \
+a>b a<e f<ac<a | !trill!B>A B<c A/A/A (Ag) |
+~a>ba>e ~a>ba>e | !trill!f>ef>a b/b/b b2 | \
+a>e f<a e<fc<e | !trill!B>A B<c A/A/A A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | AAAA | dc[EB][EB] | AAAc | deAA | AAAA | dc[EB][EB] | AAAd | eEAA/ || \
+z/ | aaaa | d'c'[eb][eb] | aaaa | eeAA | aaaa | d'c'[eb][eb] | ad'c'a | eeAA/ |]

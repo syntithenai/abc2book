@@ -33,7 +33,17 @@ import { scheduleSelectedMediaLinkCache } from '../mediaLinkAutoCache'
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { isDeviceFileResult, isMusicCollectionResult } from '../mediaLinkSearchDisplay'
 import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile, readAudioFileMetadata } from '../audioFileMetadata'
-import { getLinkSrcType } from '../checkTuneLinkPlayback'
+import { getLinkSrcType, buildLinkCheckQueue } from '../checkTuneLinkPlayback'
+import {
+    cancelBulkCheckRun,
+    isBulkCheckRunnerActive,
+    startBulkCheckLinkRun,
+} from '../bulkCheckRunner'
+import {
+    getBulkCheckSession,
+    isBulkCheckLinkPhaseRunning,
+    subscribeBulkCheckSession,
+} from '../bulkCheckSessionStore'
 import { isBandcampLinkUri, repairBandcampLinkUri } from '../bandcampLinkUtils'
 import {
     fetchDirectOrProxy,
@@ -255,6 +265,10 @@ function LinksEditorBody(props) {
     const [midiExportBusy, setMidiExportBusy] = useState(false)
     const [pendingMidiExportLinkIndex, setPendingMidiExportLinkIndex] = useState(null)
     const [youtubePreview, setYoutubePreview] = useState(null)
+    const [linkCheckBusy, setLinkCheckBusy] = useState(false)
+    const [linkCheckProgress, setLinkCheckProgress] = useState('')
+    const [brokenLinksByIndex, setBrokenLinksByIndex] = useState({})
+    const [needsLoginByIndex, setNeedsLoginByIndex] = useState({})
     const previewAudioRef = useRef(null)
     const previewBlobUrlRef = useRef(null)
     const youtubePlayerRef = useRef(null)
@@ -780,6 +794,79 @@ function LinksEditorBody(props) {
         return Object.assign({}, tuneForMedia, { id: tuneId })
     }
 
+    function linksEditorCheckSelectionKey() {
+        const tuneId = getTuneId()
+        return tuneId ? ('links-editor:' + String(tuneId)) : ''
+    }
+
+    function applyLinkCheckSession(session) {
+        if (!session) return
+        const checking = isBulkCheckLinkPhaseRunning(session.phase)
+            || (isBulkCheckRunnerActive() && session.phase === 'running-links')
+        setLinkCheckBusy(checking)
+        setLinkCheckProgress(session.links ? (session.links.progressMessage || '') : '')
+        if (!checking && session.linksChecked) {
+            const nextBroken = {}
+            const nextLogin = {}
+            ;(session.links && Array.isArray(session.links.failures) ? session.links.failures : [])
+                .forEach(function(item) {
+                    if (item == null || item.linkIndex == null) return
+                    nextBroken[String(item.linkIndex)] = item.error || 'Playback failed'
+                })
+            ;(session.links && Array.isArray(session.links.needsLogin) ? session.links.needsLogin : [])
+                .forEach(function(item) {
+                    if (item == null || item.linkIndex == null) return
+                    nextLogin[String(item.linkIndex)] = item.error || 'Needing Login'
+                })
+            setBrokenLinksByIndex(nextBroken)
+            setNeedsLoginByIndex(nextLogin)
+        }
+    }
+
+    useEffect(function() {
+        const key = linksEditorCheckSelectionKey()
+        if (!key) return undefined
+        applyLinkCheckSession(getBulkCheckSession(key))
+        return subscribeBulkCheckSession(function() {
+            applyLinkCheckSession(getBulkCheckSession(key))
+        })
+    }, [props.tuneId, props.tune && props.tune.id])
+
+    function startLinksEditorLinkCheck() {
+        const tune = getTuneForOwnedMedia() || tuneForMedia
+        const key = linksEditorCheckSelectionKey()
+        if (!tune || !key) {
+            setWarning('Save the tune before checking links.')
+            return
+        }
+        const queue = buildLinkCheckQueue([tune])
+        if (!queue.length) {
+            setBrokenLinksByIndex({})
+            setNeedsLoginByIndex({})
+            setLinkCheckBusy(false)
+            setLinkCheckProgress('No links to check.')
+            setWarning('No links to check.')
+            return
+        }
+        setBrokenLinksByIndex({})
+        setNeedsLoginByIndex({})
+        setWarning('')
+        setLinkCheckBusy(true)
+        setLinkCheckProgress('Starting link check…')
+        const youtubeGetId = props.tunebook && props.tunebook.utils
+            ? props.tunebook.utils.YouTubeGetID
+            : function() { return null }
+        startBulkCheckLinkRun({
+            selectionKey: key,
+            queue: queue,
+            warnings: [],
+            isYoutubeLink: isYoutubeLink,
+            youtubeGetId: youtubeGetId,
+            accessToken: props.token,
+            driveApi: driveDocs,
+        })
+    }
+
     async function runMidiExportToNotation(linkIndex, workspaceId) {
         const link = props.links && props.links[linkIndex]
         const tuneId = getTuneId()
@@ -1160,6 +1247,23 @@ function LinksEditorBody(props) {
 
                 <div className="links-editor-toolbar-group links-editor-toolbar-group--end" style={{display:'flex', alignItems:'center', flexWrap:'wrap', gap:'0.5em', marginLeft:'auto'}} >
                     {(warning && warning.length > 0) && <b>{warning}</b>}
+                    {linkCheckBusy && linkCheckProgress ? (
+                        <span className="text-muted small">{linkCheckProgress}</span>
+                    ) : null}
+                    <LinksEditorToolbarButton
+                        icon={props.tunebook.icons.check || props.tunebook.icons.externallink}
+                        label={linkCheckBusy ? 'Checking…' : 'Check Links'}
+                        variant={linkCheckBusy ? 'warning' : 'outline-secondary'}
+                        disabled={ownedMediaBusy || audioUtils.isRecording}
+                        title={linkCheckBusy ? 'Cancel link check' : 'Check playability of each link'}
+                        onClick={function() {
+                            if (linkCheckBusy) {
+                                cancelBulkCheckRun()
+                                return
+                            }
+                            startLinksEditorLinkCheck()
+                        }}
+                    />
                     {props.toolbarExtra}
                 </div>
             </div>
@@ -1170,7 +1274,30 @@ function LinksEditorBody(props) {
                         const ownedMedia = isOwnedMediaLink(link)
                         const syncStatus = ownedMedia ? getOwnedMediaSyncStatus(link) : null
                         const linkSrcType = getLinkSrcType(link, isYoutubeLink)
-                        return <div key={lk} className="links-editor-link-card">
+                        const brokenError = brokenLinksByIndex[String(lk)]
+                        const needsLoginError = needsLoginByIndex[String(lk)]
+                        const cardClass = 'links-editor-link-card'
+                            + (brokenError ? ' links-editor-link-card--broken' : '')
+                            + (needsLoginError ? ' links-editor-link-card--needs-login' : '')
+                        return <div
+                            key={lk}
+                            className={cardClass}
+                            data-testid={brokenError
+                                ? 'links-editor-broken-link'
+                                : (needsLoginError ? 'links-editor-needs-login-link' : undefined)}
+                        >
+                            {brokenError ? (
+                                <div className="links-editor-link-broken-banner" role="alert">
+                                    <strong>Broken link</strong>
+                                    <span>{brokenError}</span>
+                                </div>
+                            ) : null}
+                            {needsLoginError ? (
+                                <div className="links-editor-link-needs-login-banner" role="status">
+                                    <strong>Needing Login</strong>
+                                    <span>Sign in to play this source. It is not a broken link.</span>
+                                </div>
+                            ) : null}
                             <div className="links-editor-link-actions">
                                 <Button
                                     size="sm"
@@ -1260,9 +1387,19 @@ function LinksEditorBody(props) {
                                         stopLinkPreview()
                                     }
                                     if (window.confirm('Are you sure you want to delete this link?')) {
-                                        var links = props.links
+                                        var links = props.links.slice()
                                         links.splice(lk, 1)
                                         props.onChange(links)
+                                        setBrokenLinksByIndex(function(prev) {
+                                            const next = {}
+                                            Object.keys(prev || {}).forEach(function(key) {
+                                                const idx = parseInt(key, 10)
+                                                if (idx === lk) return
+                                                if (idx > lk) next[String(idx - 1)] = prev[key]
+                                                else next[key] = prev[key]
+                                            })
+                                            return next
+                                        })
                                     }
                                 }}>{props.tunebook.icons.deletebin}</Button>
                                 {linkIsPreviewable(link, isYoutubeLink) && (

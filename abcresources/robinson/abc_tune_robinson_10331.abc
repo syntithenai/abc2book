@@ -1,0 +1,41 @@
+X:14
+T:Heart of Oak.2voices. JBa.14
+M:C|
+L:1/8
+Q:1/4=100
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:North-West - Carlisle
+N:Composed for 'Harlequin's Invasion' at the Garrick Theatre in 1759..
+N:Two part arrangement - second part in bass clef..the standard words
+N:are
+N:included with this tune..Words of first verse written under stave..u
+N:and d are in the ms.. At "symphony" "Sy" is written under the
+N:stave..symphony = the West Gallery Music term for an instrumental
+N:break..NB2 - could be a bar line here. Rest added by me to make bar
+N:add up and match bass line. Z,X,Y,# as written.CGr
+Z:vmp.C Graebe.
+V:1 name=primo
+V:2 clef=bass name=bass
+%%staves [1 2]
+B:Village Music project, Barnes, Joseph
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/barnes_j.abc
+notC:Dr. William Boyce,1759
+K:C major
+[V:1]z/ G|c2 c c c2 e d|c2 B A G2 z G|A2 A B c2 c d|e2 f d e2 z G|!
+[V:2]z/ G,|C2 C C C2E D|C2 B, A, G,2 z "6"E,|\
+F,2 z2 "6,qu"E,2 z G,|C2 G,2 C,2 z G,|!
+%
+[V:1]c2 E F G2 A B|c2 E F G2 z d|e2"u"d "^d"c g2 B c|d2 d D G2|!
+[V:2]C2 E, F, G,2 A, B,|C2 E, F, G,2 z "X"D|\
+E2 D C G2 B, C|D2 DD, "6"G,2|!
+%
+[V:1]"'Symphony'"z/ G/^F/E/ D/C/B,/A,/B,2 "^Chorus" d>d|\
+d2 B c d2 e>e|e2 c>d e2 z e|!
+[V:2]z/ G,/^F,/E,/ D,/C,/B,,/A,,/G,,2 "cr"z2|G,2 z2 G,,2 z2|\
+C2 z2 C,2 z2|
+%
+[V:1](dc) B e c A z2|c<c G2 E<C z G|(AB) c d e2 d>c|g2 G B c2|]
+[V:2]"Y"D,2"#" E,2 A,,2z2|C<C G,2 E,<C, z G,|\
+A,B, C D"Z"E2 D>C|G2 G, B, C2|]

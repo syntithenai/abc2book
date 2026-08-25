@@ -1,0 +1,21 @@
+X:113
+T: Marien-Polka GDC (pk07461) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.351 (pk07461) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+"D7"{/A}.f(f e).c | ("G"B/e/)e {/e}.d/.^c/.d | "D7"e(A ce) | ("G"d/b/).b {/a}(.g/.f/).g | "D7"{/A}.f(f e).c | ("G"B/e/)e {/e}.d/.^c/.d | 
+"D7"e/d/^c/d/ c'>f | "G"gg gz :|  [K:D] ("D"f/g/).^g/.a/ (b/a/).c'/.d'/ | f2 (e/d/c/d/) | "A7"{/A}.a.a {/A}.g.g | "D"{/A}ff {/e}.d/.c/.d | 
+(f/g/).^g/.a/ (b/a/).c'/.d'/ | "G"b2 (a/g/f/e/)  | "D"dc "A7"Bc | "D"dd/d/ dd |: [K:C] "G7"{/g}bb ba |  ("C"a/g/).e/.c/ G>G | 
+"F"{/f}aa "G7"{/g}bb |  "C"{/g}e'e' c'>g | "G7"{/g}bb ba |  ("C"a/g/).e/.c/ G>G | "Dm"{/f}ad ("G7"b/a/).f/.d/ |1 "C"cg/g/ gg :|2 
+"C"cc cz |: "Am"{/B}A/^G/A/B/ c/B/c/d/ |  "E7"e/^d/e/f/ e^g | "Am"a/^g/a/b/ c'/b/c'/d'/ | "E7"e'e/e/ ee | ("G7"g/b/).b ("F"f/a/).a | 
+"C"g2ea | "G7"f2 bd' | "C"e'>c' gg | ("G7"g/b/).b ("F"f/a/).a | "C"g2ea | "G7"g^f/g/ ^g/a/b/d'/ | "C"c'e' c'z :| 
+W:
+W:Anmerkung H.C.: Aus alten Blättern: Klarinette
+% pk07461
+% Sep 10, 2017

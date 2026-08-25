@@ -1,0 +1,15 @@
+X:37
+T:Ruggüserli CD (rg03213b)
+B:Hanny Christen. Bd.3 Appenzell. S.106 (RG03213b) orig. C,D-Dur
+%%MIDI program 21
+O:Switzerland
+R:Rugguserli
+M:2/4
+L:1/8
+K:C major
+"G7"g>d "triton"^f>A | "C"g>c eG | "G7"d>g ^fa | "C"e>G G2 | "G7"g>d ^fA | "C"g>c eG | "G7"B>d g^f | "C"c3 z |  
+"G7"d>a ^fG | "C"c>g eG | "G7"d>g ^fa | "C"e>G G2 | "G7"g>d ^fA | "C"g>c eG | "G7"d>g ^fG/e/ | !fermata!"C"c4 || 
+K:D %%MIDI gchordon
+"A7"e>d cA | "D"d>e f"triton"^g | "A7"a>A ba/g/ | "D"f2 A2 | "A7"e>d cB/A/ | "D"d>f a^g/a/ | "A7"b>a ^g/A/A/f/ | !fermata!"D"d4 || 
+"A7"e>g bA | "D"d>f aA | "A7"B>a ^gA | "D"f2 A2 | "A7"e>g bA | "D"d>f aA | "A7"B>a ^g/A/A/f/ | !fermata!"D"d4 || 
+"A7"b>A ^gA | "D"b>A fA | "A7"B>a (ba/g/) | "D"f2 A2 | "A7"b>A ^gA | "D"b>A fA | "A7"B>a ^g/A/A/f/ | !fermata!"D"d4 ||

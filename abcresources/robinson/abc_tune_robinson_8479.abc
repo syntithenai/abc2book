@@ -1,0 +1,23 @@
+X: 123
+T:Marnoch's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:43 - 3
+K:A minor
+%%staves {1 2}
+V:1
+B, | \
+CEA,A C<A,-A,C | B,>A,G,G B,>G,G,B, | \
+CEA,A CA,-A,(c | B)GdB A2 A :|
+B | \
+ceAe c<A-A(c | B)>.GcG B<GGB | ceAe c<A-A(c | B).GdB A2 AB |
+ceAe c<A-A(c | B)>.GcG B<GGB | cedB cABG | A<EG<B, A,2 A, |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | AAAA | GGGG | AAAA | eeAA/ :| \
+z/ | aaaa | gggg | aaaa | eeaa | aaaa | gggg | ABcd | eeAA/ |]

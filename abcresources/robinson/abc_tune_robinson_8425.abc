@@ -1,0 +1,28 @@
+X: 1
+T:the Marchioness of Huntly's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 1
+K:Bb major
+%%staves { 1 2 }
+V: 1
+"^Slow"
+{C}(~B,>D)(F>D) E<G !trill! F2 | (G>c) ~c>d (e/d/).c/.B/ (A/G/).F/.E/ | \
+(~[B,D]>E)(FD) EG !trill! F2 | (~G>c) (B/A/)(G/F/) [DFB]2 [DFB]2 :|
+(d<f)(B>f) ~d>f (e/d/).c/.B/ | A>c F>c AcFe | \
+(d<f)(B>f) ~d>f (e/d/).c/.B/ | (A/B/)c/d/ (B/A/)G/F/ !trill!B2 (B,>e) |
+(d<f)(B>f) d/f/g/a/ !fermata! b z/ B/ | (Ac)("\="~cd) (e/d/).c/.B/ (A/G/).F/.E/ | \
+D>E FD EG !trill! F2 | (~G>c) (B/A/)(G/F/) [DFB]2 [DFB]2 |]
+V:2 clef=bass octave=-2
+L:1/4
+B d e d | e c f F | B d e d |  e f B B :|
+B b B b | F f F f | B b B b | f f B B | B b B !fermata! b | F f F F  | B [df_a]  [eg]  [df]  | [eg] f B B |]
+%%vskip .15cm
+%%begintext
+When danced, may be played in A three Sharps
+%%endtext

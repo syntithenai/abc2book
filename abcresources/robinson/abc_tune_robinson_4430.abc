@@ -1,0 +1,16 @@
+X: 185
+T: Ueber Stock und Stei (Galopp) CF (GL05475)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.91 (GL05475) orig. C,F-Dur
+S: Aus dem Repertoire der "Tanzmusig Wattewyl" (Bern)
+%%MIDI program 21
+R:Gallop
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+gg | "C"g2e2 c2e2 | G2c2 e2gg | g2e2 c2e2 | G2c2 e2gg | "G7"g4 d2gg | g4 d2gg | g2f2 e2d2 | "C"e4 c2gg | g2e2 c2e2 | G2c2 e2gg | 
+g2e2 c2e2 | G2c2 e2gg | "G"g4 d2bb | b4 g2d'd' |  "D7"d'2c'2 b2a2 | "G"g4z4 || [L:1/8] "G7"f3e | de fg | "C"a3g | ^fg ab | "G7"c'2 b>b | 
+b2 a>b | "C"a2 g>f | e2z2 | "G7"f3e | de fg | "C"a3g | ^fg ab | c'2 e>g | "G7"f2 d>e | "C"c2 c>c | c2 d/c/B/c/ || [K:F]
+"F"a2f2 | c2A2 | "Gm/Bb"G2 d>d | d2z2 |  "C7"G2 e>e | ef/e/ de | "F".f2 a>f | c2 d/c/B/c/ | a2f2 | c2A2 | "Gm/Bb"G2 d>d | 
+d2z2 | "C7"G2 e>e | ef/e/ de | "F"f2 f>f | f2z2 || [K:C] "A7".a2.e2 | "Dm".f2.d2 | "A7"e2 ae | "Dm"f2d2 | "G7"g2d2 | "C"e2c2 | 
+"G7"d2 gB | "C"c2z2 | "G7"ga ba | g2z2 | ga ba | g2z2 | ga ba | gf ed | "C"c2c>c | c2z2 |]

@@ -1,0 +1,20 @@
+X:171
+T:Polka FCBb (pk07538) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.217 (pk07538) orig. F,C,Bb
+T: Aus dem Repertoire der Dorfmusik Oberwil.  S.201-221
+T:Überliefert durch Gotti Bannier (1876-1947)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"A>A cf | "C7"eeB2 | G>G Be | "F"ffc2 | f>f af | "Gm/Bb"d>d gd | "F"c>f "C7"ec | "F"fa fz :| [P:B] [K:C] 
+|: "C"G>e GA | G>c GA | "G7"GB B/A/G | "C"EA A/G/E | G>e Gc | "Dm/F"A>d FA | "G7"G/A/B/c/ dB | "C"ce c"_>Teil A"z :|  [P:C] [K:Bb] 
+|: "Bb"F2B>c | de fd | f2d2 | "F7"eec2 | F2A>B | cde2 | c2e2 | "Bb"ffd2 | 
+"Bb"F2B>c | def2 | "D7"d2^f2 | "Gm/Bb"gdB2 | "Eb"G>A BG | "Bb".G!>!F2 .d | "F7"dc d>c | "Bb"Bd Bz :|  
+[P:D] |: "F7".A!>!f2.e |  "Bb".d!>!B2.F | "F7"AF Ac | "Bb"Bcd2 |  "F7".A!>!f2.e |  "Bb".d!>!B2.F | "F7"Ac eA | "Bb"Bd Bz :| 
+% pk07538
+% Feb 27, 2017

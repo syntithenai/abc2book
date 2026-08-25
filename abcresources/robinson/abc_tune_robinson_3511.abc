@@ -1,0 +1,16 @@
+X:66
+T: Jetz wemmer go (Schottisch) GDC (st04914)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.346 (st04914) orig. G,D,C-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+% Now let's go (lit. 'Now want we go')
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+d  [P:A] |: "G"bb "D7"aa | "G"gg d>e | "D7"ff e>f | "G"gg dd/g/ | bb "D7"aa | "G"gg d>e | 
+"D7"ff e>f |1 "G"gg gd :|2 "G"gg gd/f/ |: [P:B] [K:D] "D"a>b a^g | af f>b | "A7"ae e>g | "D"fd dd/f/ | 
+a>b a^g | af f>b | "A7"ae e/g/f/e/ |1 "D"dd dd/f/ :|2 "D"dd d"_>Teil A"z |: [P:C] [K:C]  "C"e>^d e>d | 
+eag2 | "G7"gf f/e/f | "C"ag g/^f/g | e>^d e>d | eag2 |1 "G"b>b "D7"a>a | "G7".g2 !>!>f2 :|2 "G7"b>a g/f/e/d/ | "C"cc cz |]

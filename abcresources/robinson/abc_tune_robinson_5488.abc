@@ -1,0 +1,19 @@
+X:236
+T:Schottisch FCBb (st06523) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.188 (st06523) orig. F,C,Bb
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"A2cd c2A2 | ("Gm"Bd).d2 d4 | ("C7"fe).e2 (ed).d2 | ("F"dc).c2A4 | A2cd c2A2 | ("Gm"Bd)d2d4 | ("C7"fe).e2 d3e |  "F"f2f2  f2z2 :| 
+ [K:C] [P:B] |: "G7"fff2 e2d2 | "C"eee2 d2c2 | "G7"Bcd2 Bcd2 | "C"cde2G4 | "G7"fff2 e2d2 | "C"eee2 d2c2 | "F"AAA2 "G7"f3B | "C"c2c2 c2"_>Teil A"z2 :|  [P:C] [K:Bb] 
+|: "Bb"f6d2 | B6d2 | "F7"c2F2 c2F2 | "Bb"B4 BFBd | f6d2 | B6d2 | "F7"c2F2 d3c | "Bb"B2B2 B2z2 :| 
+[P:D] |: ("Eb"Ge)e2 "F7"d3c | ("Bb"Fd)d2 c3B | "F7"AAA2 G2A2 | "Bb"BBB2 c2d2 | ("Eb"Ge)e2 "F7"d3c | ("Bb"Fd)d2 c3B | "F7"AAA2 G2A2 | "Bb"BBB2 .B4 :|  
+ % st06523
+% 15 Jan, 2017

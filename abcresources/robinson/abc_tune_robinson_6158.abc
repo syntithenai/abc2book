@@ -1,0 +1,23 @@
+X:1
+T:Polka  CGF (pk07838) ABCD-ABC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.192  (pk07838) orig. C,G,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABCDABC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"ee/d/ ce | gc'e2 | "G7"gf f/e/d | "C"ag g/f/e | ee/d/ ce | gc'e2 | "D7"db b/a/^f | "G".g2g2 || [K:G] 
+[P:B] "G"de fg | "D7"bad2 | "G"de fg | "D7"bad2 | "G"db b/a/g | "C"ec' c'/b/a | "G"gb "D7"d/e/f | "G"gg g2 || [K:C] 
+[P:C] "G7"ff/e/ d>d | "C"ag c'>e | "G7"gf a>d | "C"fe g2 | "G7"ff/e/ d>d | "C"ag c'>e | "G7"gf a>b | "C"c'c' c'"_Fine"z || [K:F]
+[P:D] "F"A/A/A/A/ A>B | =B2.c2 | F/F/F/F/ F>G | ^G2A>A | "C7"G^F G>A | GA B=B | "F"dcA2 | 
+A/A/A/A/ A>B | =B2.c2 | F/F/F/F/ F>G | ^G2A2 | "C7"=G/G/G/G/ G>A | cB D>G | FE A>G | "F"FA Fz |] 
+W:
+%W:Parts: ABCD-ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% pk07838
+% July 21, 2018

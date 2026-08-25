@@ -1,0 +1,16 @@
+X:155
+T: Narzisse-Schottisch CF (st00329)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.295 (st00329) orig. C,F-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"e>e dc | "G7"BAG2 | BF BF | "C"AG G/^F/G | e>e dc | "Dm"BAd2 | "D7"Dc B>A | 
+"G7"GG Gz :: "F"Af Af | Af2d | "C"Ge Ge | Ge2c | "F"Acc2 | "C"Gcc2 | 
+"G7"Bc/B/ AB | "C"cc cz :| [K:F] "F"A3"(F0)"^G | "F"A3"(F0)"^G | "F"AE G>F | "Gm"E2 D2 | "C7"B3"(C0)"A | 
+"C7"B3"(C0)"A | "C7"BA GF | E2c2 | "F"A3"(F0)"^G | "F"A3"(F0)"^G | "F"AE G>F | "Gm"E2D2 | 
+"Bb"GA Bd | "F/C"c3A | "C7"B3E | "F"FF Fz |: "Bb"F>F Bd | fd"F"c2 | "C7"eB eB |  
+"F"dc c/=B/c | "Bb"F>F Bd | fd"F"c2 | "C7"e/d/c B>G | "F"Ff fz :|

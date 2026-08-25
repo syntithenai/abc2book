@@ -1,0 +1,30 @@
+X:16
+T:Buochserhorn-Juiz. 1991  Bb ABCBB
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCBB
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F>E |D3F DF/B/ | d>cB2F>E | D3F fd | c4E>D | 
+C3F EF | e2c2c>B | AF !fermata!d2!fermata!c2 | !fermata!B4F>E | D3F DF | d>cB2F>E | 
+D3F fd | c4 E>D | C3F EF | e2c2FF | f>e !fermata!d2!fermata!c2 | B4z2 ||  
+L:1/8
+M:3/4
+[P:B]  DE | F3Bd2 | B2f2d2 | c4F2 | E4CD | E2c2B2 | A2G2A2 | B4D2 | 
+F3E DE | F3Bd2 | B2f2d2 | c4F2 | E4CD | E3F Ac | f3e dc | (B6 | B2)z2 || 
+M:4/4
+[P:C] Fe |d2c2E2FE | D2FBd2fd | c2F2 fecd | B2dBF2Fe | 
+d2c2E2dc | B2cde2fe | d3cB2F2 | f3ec2d2 | (B8 | B4)z2 |] 
+W:
+%W:Reihenfolge: A-B-C-2xB
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp Herger
+W:UJV-Naturjodelsammlung: Code-Nr: 22-09
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 21, 2018

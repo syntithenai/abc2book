@@ -1,0 +1,15 @@
+X: 73
+T: Kreuzpolka CGF (kp05482)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.77 (kp05482) orig. C,G,F-Dur
+S: Aus dem Repertoire der "Tanzmusig Wattewyl" (Bern)
+%%partsbox
+%%MIDI program 21
+R:Kreuzpolka
+O:Switzerland
+M:2/4
+L:1/16
+P:ABAC
+K:C major
+[P:A] "C"EGce a2g2 | "G7".f4 +>+B4 | GBdf b2a2 | "C".g4 +>+c4 | Gceg c'2b2 | "Dm/F"a2a2 d4 |1 "G7"f2f2 B4 | "C"e2e2c4 :|2 "G7"f2B2 f2B2 | "C"c2e2 c2z2 || [P:B] [K:G] 
+|: "G"Bdgb a2g2 | "D7".f4 +>+.c4 | Aceg f2e2 | "G".d4 +>+B4 | DGBd e2d2 | "D7"d2c2 f4 |1 f2c2 a4 | "G"b2g2 d4 :|2 "D7"d2f2 b2a2 | "G"g2g2 g2"_> Part A"z2 ||[P:C]  [K:F] [L:1/8)]
+|: "F"a>a gf |"C7".b2 +>+.e2 | b>b ag | .c'2 +>+f2 | A/c/f/a/ gf | "Bb"dd b2 |1 "C7"cc e2 |"F"cc f2 :|2 "C7"c/d/e/f/ ga | "F"ff fz |]

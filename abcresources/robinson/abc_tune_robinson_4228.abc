@@ -1,0 +1,14 @@
+X: 1
+T: Alewander BbF (AL08820)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.393 (AL08820) orig. Bb,F-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%MIDI program 21
+R:Alewander
+O:Switzerland
+M:2/4
+L:1/16
+K:Bb major
+{fga}"Bb"b2f2 "F"fgfe | "Bb"d2d2 "F"dedc | "Bb"B2cd "F"efga | "Bb"b2f2 "F"f2f2 | {fga}"Bb"b2f2 "F"fgfe | 
+"Bb"d2d2 "F"dedc |"Bb"B2d2 "F"fedc | "Bb"B4z4 :| [K:F] "F"F2GA "C"Bcde | "F"f2fa "C"g2ga | "F"f2fa "C"g2ga | 
+"F"g2f2 "F7"f4 |: [K:Bb] {fga}"Bb"b2f2 "F"fgfe | "Bb"d2d2 "F"dedc | "Bb"B2d2 "F"fedc | "Bb"B4z4 :| [L:1/8] "Bb"d3f | 
+"Cm"f{gf}e e2 | "F7"c3e | "Bb"e{fe}d d2 | B3d | "Cm"d{ed}c c2 | "F7"f>f f/e/d/c/ | "Bb"B2z2 |]

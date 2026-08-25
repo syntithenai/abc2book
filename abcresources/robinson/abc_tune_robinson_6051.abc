@@ -1,0 +1,24 @@
+X:1
+T:Mazurka  CF (mz07049)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.162f  (mz07049) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"e>^d.e2.G2 | e>^d.e2.G2 | .e2.d2.c2 | "G7"Bgg4 | f>e.f2.G2 | f>e.f2.G2 | .f2.e2.d2 | "C"cc'c'4 | .e'2.d'2.c'2 | 
+"G7"b>d bdf2 | c'2b2a2 | "C"g>^f gc (eg) | .a2g3d | "G7".g2.f3d | (Bd) .g2.b2 |1 "C".c'2c'2z2 :|2 "C".c'2c'2 (3ggg || 
+[P:B] |: "C"g2(ag) .e.c | G4gg | "G7"g2(ag) .f.B | G6 | b>b.b2.d'2 | b>g bgf2 | "C"c'>c'c'2e'2 | c'>g c'ge2 | 
+g2(ag) ec | G4(3ggg | "G7"g2 (ag) .f.B | G4gg | .b2.b2 (3def | "C"a2a2(eg) | "G7"g2fG (AB) |1 "C".c2c2 (3ggg :|2 "C".c2c2FF ||  [K:F]
+[P:C] |: ("F"F3A) AA | (c3f) ff | .a2.g2.f2 | ("C7"dc).E2E2 | C3E EE | G3B BB | .d2.c2.B2 | "F"dc.F2F2 | 
+F3A AA | c3f ff | "F7".a2.g2a2 | ("Bb"ba) .g.f .e.d | "C7"(3ccc c'2c2 | "F"a3gf2 | "C7"eg ce ge |1 "F"f2f2FF :|2 "F"f2f2z2 |] 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: "Schällibaum" Wattwil, 15
+% mz07049
+% June 29, 2018

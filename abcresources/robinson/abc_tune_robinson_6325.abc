@@ -1,0 +1,20 @@
+X:1
+T: Walzer CG (wz06949)  
+T: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.113  (wz06949) orig. C,G
+S:Überliefert durch AErnst Straumann, 1945
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+G |: "C"G3 | "D7"^F2A | ("G7"G3 | G)^FG | "C"czc | (cBA) | ("F"f3 | f)zz | "G7"f>ff | fzf | 
+"C"e>ee | ezc/e/ | "G7"ezd | ezd | "C"c>cc |1 cEF :|2 czz |: [K:G] "D7"cc/c/c | czc | 
+"G"B/c/dd | zB/c/ e/d/ | "D7"c>FF | zA/c/ e/d/ | "G"B>GG | dBG | "D7"dd/d/d | czc | "G"B/c/dd | 
+zBe/d/ | "D7"c>BA | A/B/ c/d/ e/f/ | "G"g>gg |1 dBG :|2 gzc |: [K:C] ("G7"Bdf) | (f3 | "C"e3) | 
+zgc | "G7"B>gf | zgB | "C"c>ge | zzc | ("G7"Bdf ) | (f3 | "C"e3) | ze>^f | 
+("Em"g3 | "B7"^f3) | ("Em"e3 | e)zz :| "G7"zdd | Be>d | "C"zcc | GB>A | "G7"G2^G | A2B | 
+"C"c2d | e2z | "G7"zdd | Be>d | "C"zcc | "G7"Ac>A | AzG | Bzd | ("C"c3 | c)zz |] 
+%% wz06949. Heft 241 ("Bubendorf, Ernst Straumann, 2. Dezember 1945")
+% April 17, 2018 (http://stream.radiotell.ch/radiotell.mp3)

@@ -3,7 +3,9 @@ import {
   searchLocalCollection,
   searchLocalCollectionChords,
 } from './localAbcCollectionSearch'
-import { scoreTitleArtistMatch } from './notationMatchUtils'
+import { hasSingableLyricText } from './lyricsQualityUtils'
+import { artistsLooselyMatch, scoreTitleArtistMatch } from './notationMatchUtils'
+import { isGenericArtist } from './recordingArtistsClient'
 import { isStrongLocalMatch } from './textSearchIndexUtils'
 
 export const CHORDS_LIGHT_ERROR = 'No chord sheet found in local collections (Ultimate Guitar and similar sites require the media resolver)'
@@ -19,6 +21,29 @@ function sortChordCandidates(candidates, title, artist) {
     const scoreA = scoreTitleArtistMatch(a.title, a.artist, title, artist)
     const scoreB = scoreTitleArtistMatch(b.title, b.artist, title, artist)
     return scoreB - scoreA
+  })
+}
+
+function candidateHasSingableLyrics(candidate) {
+  if (!candidate) return false
+  return hasSingableLyricText(
+    candidate.lyricLines
+      || candidate.sheetLines
+      || candidate.lyricText
+      || ''
+  )
+}
+
+/**
+ * Local ABC titles collide across repertoire (FolkTuneFinder "Gumboots" is Fred
+ * Dagg, not Paul Simon). When a specific artist is requested, keep only hits
+ * that match that artist — or, for generic/traditional searches, any local hit.
+ */
+function filterLocalChordCandidates(candidates, artist) {
+  const list = Array.isArray(candidates) ? candidates : []
+  if (isGenericArtist(artist)) return list
+  return list.filter(function(candidate) {
+    return artistsLooselyMatch(candidate && candidate.artist, artist)
   })
 }
 
@@ -61,15 +86,22 @@ export async function searchChordsLight(options) {
     limit: 8,
   })
 
-  if (isStrongLocalMatch(title, localSearchRows) && localResults.length > 0) {
+  const artistFits = filterLocalChordCandidates(localResults, artist)
+  // Prefer sheets that include sung lyrics when available; fall back to
+  // accompaniment-only ABC only for generic/traditional artist searches.
+  const withLyrics = artistFits.filter(candidateHasSingableLyrics)
+  const usable = withLyrics.length > 0
+    ? withLyrics
+    : (isGenericArtist(artist) ? artistFits : [])
+
+  if (usable.length === 0) {
+    throw new Error(CHORDS_LIGHT_ERROR)
+  }
+
+  if (isStrongLocalMatch(title, localSearchRows)) {
     emitProgress(opts.onProgress, 'Local chord match found', 1, 'done')
-    return finalizeLightResult(sortChordCandidates(localResults, title, artist))
-  }
-
-  if (localResults.length > 0) {
+  } else {
     emitProgress(opts.onProgress, 'Local chord search complete', 1, 'done')
-    return finalizeLightResult(sortChordCandidates(localResults, title, artist))
   }
-
-  throw new Error(CHORDS_LIGHT_ERROR)
+  return finalizeLightResult(sortChordCandidates(usable, title, artist))
 }

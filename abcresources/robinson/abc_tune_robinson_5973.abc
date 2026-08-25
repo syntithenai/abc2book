@@ -1,0 +1,23 @@
+X:1
+T: Galopp  CF (gL06997)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.176  (gL06997) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c2zB | cd ef | "G7"g2g2 | g2zG [P:A] |: "C"c>B c>d | e>^d e>g | "G7"f>g f>g | "C"e>g e>g | 
+c>B c>d | e>^d e>g | "G7"f>g f>g |1 "C"ez [ec]2 :|2 "C"ez zG [P:B] |: "G7"d!>!d2c | cB AG | 
+"C"e!>!e2e | dc Bc | ("F"B/A/^G/A/)f2 | ("C"A/G/^F/G/)e2 | "G7"G/F/E/F/ d>B |1 "C"cc cG :|2 "C"cc cz |: [K:F] 
+[P:C] "F"Fz Az | dz cz | Bz Az | "C7"g/g/g/g/ gf | ez gz | cz Bz | Az Gz | "F"A/A/A/A/ Ac | 
+Fz Az | c2c2 | "Bb"d2d2 | d3d | "C7"d!>!c2B | "F"B!>!A2F | "C7"A!>!g2e | "F"f/f/f/f/ fz :| 
+W:
+%W:Parts: ABC
+%W:Anmerkung Hrsg.:
+% gL06997
+% July 16, 2018

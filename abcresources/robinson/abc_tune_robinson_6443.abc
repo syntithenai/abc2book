@@ -1,0 +1,43 @@
+X:2
+T:de Wildhuser (Vorjodler/Gradheber). C-Dur
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=66   "  rubato"  % ca. 66-70
+R:Naturjodel
+M:6/4
+L:1/4
+O:Switzerland
+K:C major
+V:1 name="Vorjodler"
+Gge2dc | B>FGfB2 | Ggf2ed | c>EGec2 | Gge2dc | B>FGfB2 | 
+%w:ja u lu lu li  ü a la u lu  ja u lu lu li  ü ja la u lu  ja u lu lu lü   u a la u lu 
+V:2 name="Gradheber"
+z6 | z6 | GBA2GF | E2EGE2 | Gec2BA | G2FGF2 | 
+V:1
+Gg "poco rit." f2ed | c4zB/c/ || d>FA !fermata!fed | c>EG !fermata!g e/d/c | B>FG !fermata!g f/e/d | c>EGe !fermata!c2 | 
+%w:ja u lu lu lu  lu nu lü  u o la u lu li  nu ho la u u lü u  lu ja la u lu li du  u o la u u 
+V:2
+GBA2GF | E4z2 || z2>A2GF |  E>GEG A/G/E | F>GFG A/G/F | E>GEG !fermata!E2 | 
+V:1
+d>FAfed | c>EG !fermata!g e/d/c | B>FG !fermata!g f/e/d | c4z>"ca. 74 gleichmässiger Rhythmus"c/d// || eccE d/<F/ G/<f/ | eccEGg | 
+%w: u jo la u lu li  lu ho la u u li du  u jo la u lu li dü  ju nu lu lu lü lu-o-u-o la-u  u lü du ho la-u  
+V:2
+F>FFAGF | E>GE2 G/F/E | F>GFB A/G/F | E4z2 || z2z2z2 | GEEGEG | 
+V:1
+fBBDG g/>f/ | eccE !fermata!G2 | eccE d/<F/ G/<f/ | eccEGg | fdB "rit."G/>G/ ed | c4 |] 
+%w: u lü du jo la u lu  lu lü du jo la  u lü lu-o u-o-la u u lü du ho la-u  u li du ja la u li   u
+V:2
+GFFGF B/>A/ | GEEG !fermata!E2 | GEEGF F/>A/ | GEEGE G/A/ | GFF D/>D/  GF | E4 |]
+W:
+%W:Parts:
+%W: trad. Toggenburg
+%W: nach Jakob Metzler (JK Männertreu Nesslau)
+%W: Schallplatte Columbia SEVZ 510 "Chrüz und quer dur's Schwyzerland" (1957)
+%W: Obschon der erste Teil ursprünglich aus AI stammt ist dieser Jodel zum bekanntesten 
+%W: Toggenburger Jodel geworden und verdankt seine Bekanntheit dem unerreichten Naturjodler
+%W:  Jakob Metzler, dessen Aufnahme hunderte Male am RadioWunschkonzert gesendet wurde.
+W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/De_Wildhuser.pdf
+W: *AUDIO*:  www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #44
+% Mar 05, 2019 (Güdisdienstag)

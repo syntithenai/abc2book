@@ -1,0 +1,14 @@
+X:244
+T: Walzer CG (wz05112)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.371 (wz05112) orig. C,G-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+e/g/ [P:A]  |: "G7"fga | d2d/f/ | "C"efg | c2c/e/ | "G7"g>fd |1 g>fd | "C"a2g | e2e/g/ :|2 "G7"GAB | "C"c>cc | czc/e/ || [K:G] 
+|: [P:B] "D7"d2f | a2c' | "G"b2g | d2g |1 "D7"f2e | c2e | "G"d2B | G2c/2e/ :|2 "D7"d2c | d2c | "G"B>gg | gzz |] 
+% June 1, 2016

@@ -1,0 +1,30 @@
+X:3
+T:Geissälpler-Juiz. 2012  Bb  Anruf-ABABB
+T:Annemarie Berchtold-Rymann (28.1.1965)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABABB
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+"ANRUF"  " " "sehr langsam" F | fdc | B2F/d/ | cFf | B3 || 
+M:2/4
+[P:A] "fröhlich, nicht zu schnell"  !f!fB/c/ | dB | F>G | F2 | dd/e/ | fe | d>e | d2 | c>F | f2 | 
+"Echo" !mp!c>F | f2 | !f!Ff | f/=e/ c/d/ | Bd/B/ | !breath! F2 | fB/c/ | dB | F>G | F2 | dd/e/ | 
+fe | d>e | d2 | c>F | f2 | "Echo" !mp!c>F | f2 | !f!Ff | f/=e/ c/d/ | Bd/B/ | !fermata!B3 ||
+M:3/4
+L:1/8
+[P:B] "lüpfiges Walzertempo"  " "  !fermata!F !fermata!F | Fd dF dF | Ec cE cE | DB BD BD | F3zFD | Ec cE cE | 
+F4FE | DF BF Bd | !breath!f4   !fermata!F!fermata!F | Fd dF dF | Ec cE cE | 
+DB BD BD | F3z FD | Ec cE cE | F2EF Ac | B2 Ff dc | !fermata!B3 ||
+W:
+W:Reihenfolge: Anruf - A - B - A - B - B (eine Spur schneller)
+W:
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 36-02
+W:http://www.naturjodler.ch/code 36.htm  (with AUDIO)
+%Juni 1, 2018

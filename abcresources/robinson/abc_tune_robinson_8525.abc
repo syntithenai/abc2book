@@ -1,0 +1,23 @@
+X: 85
+T:Miss Watt's Jig -- Mether Cluny
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:31 - 2
+K:D major
+%%staves {1 2}
+V:1
+F2 D G2 E | F2 D G2 E | F2 D C2 D | EFD CB,A, | \
+F2 D G2 E | F2 D E2 d | c2 e A2 c | d3 d3 :|
+d2 f A3 | d2 f A3 | Bcd efg | Bed cBA | \
+d2 f A3 | B2 d E2 G | F2 A C2 E | D3 D3 ||
+d2 f A3 | d2 f A3 | Bcd efg | Bed cBA | \
+d2 f A2 A | B2 d E2 E | F2 A C2 E |D3 D3 |]
+V:2 clef=bass octave=-2
+d3 c3 & A,6 | d3 c3 & A,6 | [Ad]3 F3 | G3 A3 | d3c3 & A,6 | d3a3 | A3a3 | d3d'3 :| \
+d'3 dfa | d'3 d'fa | g3e3 | g2^g a2=g | f3 dfa | g3G3 | a3A3 | d3d3 | \
+d'3 dfa | d3dfa | g3e3 | g2^ga2=g | d3f3 | g3G3 | a3A3 |  d3D3 |]

@@ -1,0 +1,13 @@
+X:180
+T: Polka-Mazurka GDC (mz05155)
+T:Hanny Christen. Bd.I  Zürich, Schaffhausen, St. Gallen I. S.384 (mz05155) orig. G,D,C-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+"G"B>c d2e2 | "D7"d2c2c2 | A>Bc2d2 | "G"c2B2B2 | g>ga2g2 | "D7"g2f2f2 |1 "C"e>ef2e2 | "G"e2d2d2 :|2    "C"e>dc2"D7"f2 | "G"g2g2z2 || [K:D] 
+|: "D"FA dAf2 | "Em/G"feB2B2 | "A7"Ac ecg2 | "D"gfd2d2 | FA dA f2 |  "Em"eB eBg2 | "A7"fg fe Bc |1 "D"ed cBA2 :|2 "D"d2d2z2 || [K:C]
+|: "C"GGG2e2 | "F"f2A2A2 | "G7"GGB2d2 | "C"e2c2c2 | c2d3c | "G7".B2 !>!f4 |1 "F"A2B3A | "C".G2!>!e4 :|2 "G7"AB e2d2 | "C"c2c2z2 || 
+|: "F"cB AB cA | "C"A2G2G2 | "G7"FG B2A2 | "C"A2G2G2 | "F"cB AB cA | "C"A2G2G2 | "G7"GA BG AB | "C"c2c2z2 :|

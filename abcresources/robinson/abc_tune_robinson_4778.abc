@@ -1,0 +1,22 @@
+X:188
+T: Riemenbromser-Walzer  FC (wz00886)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.228f (wz00886) orig. F,C-Dur
+S:Lötschental. S.214-233. Repertoire von Xander Murmann, Weissenried, 1874-1948
+%%MIDI program 21
+R:Waltz
+O:Switzerland
+M:3/4
+L:1/4
+K:F major
+"F"F/>G/ AF | "Bb"B/>c/dz | "C"cc!fermata!c || "F"AA>A | "C7"G"_(1)"^FG | "F"cc>c | c3 | 
+"Bb"dd>d | def | "C7"gg>g | g3 | ee>e | dcB | "F"ff>f | f2A | 
+{/c}"C7"BB>B | c2G/A/ | ("F"F3 | F)zz |: [K:C] "C"G3 | edc | "G"{/d}c!>!B2 | 
+zBc | "F"A>^GA | zAB | "C"G>^FG | zEF | G3 | edc | ("Dm"f3 | 
+f)Af | "C/G"G2c | "G7"B2d | "C"c^F/G/ A/B/ |1 czG :|2 czz |: [K:F] "F"Azc |  
+=Bzc | "Bb"fzd | "F"c3 | Azc | =Bzc | "C7"edB | "F"A3 | Azc | 
+=Bzc | fzg | "(A7)"a3 | "D7"^fza | "Gm"gzb | "C7"ezg |1 "F"fzc :|2 "F"fzz || [K:C]  
+"C"G2E | zG>G | G2E | zG>c | "G7"B2G | zB>d | "C"cBA | GEF | 
+G2E | zG>G | G2E | zG>c | "G7"B2G | zB>d | "C"cGE | Czz |]  
+W: 
+W: (1) Anmerkung: HC: f (instead of f#)
+% if you happen to know sth. about the word "Riemenbromser" please let me know (piush@gmx.ch)

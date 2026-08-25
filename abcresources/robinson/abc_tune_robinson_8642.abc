@@ -1,0 +1,26 @@
+X: 145
+T:Mrs Major Mitchell's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:50 - 3
+K:F major
+%%staves { 1 2 }
+V:1
+"^Slowly"
+C |\
+~F2 {B}AG/A/ FC C(D/E/) | F<FA>G {E}F2 (~FG/A/) | \
+(B>A)(B>c) (!trill!d>f)(f>d) | ~c>A (B/A/)G/F/ D2 D :|
+B | \
+(~c>d)(c>A) (~c>d)(c>A) | (c>d) (fg/a/) ~g2 (ga) | \
+f>g{fg}ag f<dd<f | ~c>A (B/A/)G/F/ D2 DB |
+(~c>d)(c>A) (~c>d)(c>A) | (c>d) (fg/a/) ~g2 (ga) | \
+f>g{fg}ag f<dd<f | ~c>A (B/A/)G/F/ D2 D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | fcff | fcff | BbBb | afBB/ :| \
+z/ | ffff | fabc' | [fa]fbb | afbb | ffff | fabc' | afbb | af[Bb][Bb]/ |]

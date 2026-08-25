@@ -3,6 +3,13 @@
  * lyrics APIs sometimes return for instrumental titles.
  */
 
+import {
+  hasChordLines,
+  isSectionHeader,
+  linesHaveChordProInlineChords,
+  stripChordsFromLyricLines,
+} from './chordSheetUtils'
+
 const TAB_STAFF_LINE_RE = /^[eadgbEADGB]\s*\|[-0-9hpbrx/\\~().=*sS\s|]+$/
 const NNTP_HEADER_RE = /^(?:Path|Newsgroups|Message-ID|Xref|NNTP-Posting-Host|Organization|Reply-To|Followup-To|References|X-Newsreader)\s*:/i
 const USENET_ARTICLE_RE = /^Article:\s*\d+/i
@@ -118,6 +125,42 @@ export function looksLikeNonLyricDump(linesOrText) {
 }
 
 /**
+ * True when lines still have sung words after chord rows / ChordPro markers
+ * are stripped. Chord-only accompaniment grids fail this check.
+ */
+export function hasSingableLyricText(linesOrText) {
+  const stripped = stripChordsFromLyricLines(linesOrText)
+  const wordLines = []
+  stripped.forEach(function(line) {
+    const text = String(line || '').trim()
+    if (!text) return
+    if (isSectionHeader(text)) return
+    if (!/[A-Za-z]{2,}/.test(text)) return
+    wordLines.push(text)
+  })
+  if (wordLines.length === 0) return false
+  if (wordLines.length >= 2) return true
+  const tokens = wordLines.join(' ').split(/\s+/).filter(function(token) {
+    return /[A-Za-z]{2,}/.test(token)
+  })
+  if (tokens.length >= 3) return true
+  // One short sung line still counts; lone chord leftovers like "Em" do not.
+  return tokens.length >= 1 && tokens[0].length >= 3
+}
+
+/**
+ * Chord chart / ABC accompaniment dump with no (or almost no) sung lyrics.
+ */
+export function looksLikeChordOnlyContent(linesOrText) {
+  const raw = Array.isArray(linesOrText)
+    ? linesOrText
+    : String(linesOrText || '').replace(/\r/g, '').split('\n')
+  if (!raw.some(function(line) { return String(line || '').trim() })) return false
+  if (!hasChordLines(raw) && !linesHaveChordProInlineChords(raw)) return false
+  return !hasSingableLyricText(raw)
+}
+
+/**
  * @returns {{ ok: boolean, reason?: string, lines?: string[] }}
  */
 export function isUsableLyricContent(linesOrText) {
@@ -145,6 +188,9 @@ export function isUsableLyricContent(linesOrText) {
   }
   if (looksLikeNonLyricDump(kept) || looksLikeNonLyricDump(raw)) {
     return { ok: false, reason: 'non_lyric_dump', lines: [] }
+  }
+  if (looksLikeChordOnlyContent(kept) || looksLikeChordOnlyContent(raw)) {
+    return { ok: false, reason: 'chord_only', lines: [] }
   }
   return { ok: true, lines: kept }
 }

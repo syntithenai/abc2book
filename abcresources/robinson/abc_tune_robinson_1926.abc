@@ -1,0 +1,15 @@
+X:12
+T:Jumping Jack
+C: From Steel Skies by Alistair Anderson
+M:4/4
+L:1/8
+K:D major
+P:A
+de | f>F A<F G2 ed | c>A c<e a2^ga | b>=g e>c a>g e>d | c<e d>B A2 de |
+f>F A<F G2 ed | c>A c<e a2^ga | b>=g e<c a>g e>c | A<g f>e d2 :|
+P:B
+de | f>g f<d e2 ef | g>b g<e B2 ef | g>b g<e B>A B>c | d>a f<d A2 de |
+f>g f<d e2 ed | g>b g<e B2 ef |  g>b g<e B>A B>c | d>f e<d d2 :|
+P:C
+AF | G>A B<d B<d g>B | A>B c<e c<e a>c | d>e f<a ^g<a =ge | d>e f>d A2 F2 |
+G>A B<d B<d g>B | A>B c<e c<e a>c | d>e f<a ^g<a =ge | d>f e<c d2 |]

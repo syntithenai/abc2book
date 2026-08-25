@@ -1,0 +1,24 @@
+X: 149
+T:Lick the Laddle Sandie
+B:William Marshall, Kinrara (1800)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:26 - 2
+K:D major
+%%staves {1 2}
+V:1
+(e/f/^g) ae fdec | Bg-gB d2 f2 | (e/f/^g) ae fdec | eggB e2 !trill!f2 ::
+eA!trill!cA eA!trill!cA | BggB e2 !trill!f2 | \
+eA!trill!cA (a/^g/f/e/) !trill!cA | Aa-ac d2 !trill!f2 ::
+eaca Aaca | Bg-gB d2 !trill!f2 | eaca Aaca | Aa-ac e2 !trill!f2 ::
+eA (d/c/B/A/) eA (d/c/B/A/) | Bg-gB d2 !trill!f2 | \
+eA (d/c/B/A/) (a/^g/f/e/) !trill!cA | Aa-ac e2 !trill!f2 :|
+V:2 clef=bass octave=-2
+L:1/4
+AAAA | =GGGz | AAAA | AAAA :: \
+AAcA | =GGGz | AAAA | AAAA :: \
+AAAA | =GGGz | AAAA | AAAA :: \
+AAAA | =GGGz | AAAA | AAAA ::

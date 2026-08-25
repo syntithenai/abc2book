@@ -1,0 +1,35 @@
+X:209
+T:The Braes of Castle Grant
+B:NLS MH.s.234
+B:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+C:Duncan MacDonald, Castle Grant 1863
+C:3rd & 4th parts by Geo. S. McLennan
+L:1/16
+M:2/4
+Q:1/4=72
+R:March
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/>
+N:version 1.0 September 2001
+K:Hp
+{g}ed|{gcd}c2{g}B{d}A {gef}eA{d}ce   |     a2{GdG}ag     {afg}fe{g}fa |\
+           c2{GdGe}cf   {g}eA{d}ca   |     B2{GdGe}Bc    {gBG}B2{g}ed |
+      {gcd}c2{g}B{d}A {gef}eA{d}ce   |     a2{GdG}ag     {afg}fe{g}fa |\
+           AB{GdG}ca       ce{g}B{d}c|  {g}A3{GdGe}A   {gAGAG}A2     :|
+{d}ce| {ag}a3e        {gfg}fe{g}ce   |{Gdc}df{g}fa        {eg}eA{d}ca |\
+           Aaga        {eg}eA{d}ca   |     B2{GdGe}Bc [1 {gBG}B2{d}ce |
+       {ag}a3e        {gfg}fe{g}ce   |{Gdc}df{g}fa        {eg}eA{d}ca |\
+           AB{GdG}ca       ce{g}B{d}c|  {g}A3{GdGe}A   {gAGAG}A2     :|
+                                                      [2 {gBG}Ba{eg}ed|\
+      {gcd}c2{g}B{d}A {gef}eA{d}ce   |     a2{GdG}ag     {afg}fe{g}fa |\
+           AB{GdG}ca       ce{g}B{d}c|  {g}A3{GdGe}A   {gAGAG}A2     ||
+{g}ed|  {g}c2{GdGe}cB   {g}AB{d}ce   |  {g}fgag          {afg}fe{g}fa |\
+           c2{GdGe}cB   {g}Ae{g}c{d}A|  {g}B2{GdGe}Bc    {gBG}B2{g}ed |
+        {g}c2{GdGe}cB   {g}AB{d}ce   |  {g}fgag          {afg}fe{g}fa |\
+           AB{GdG}ca       ce{g}B{d}c|  {g}A3{GdGe}A   {gAGAG}A2     :|
+{d}ce|     a2{GdG}ae    {g}fe{g}ce   |{gfg}fe{g}fd         {g}ceac    |\
+        {g}Ad{g}fd      {g}cd{gef}ec |  {g}B2{GdGe}Bc [1 {gBG}B2{d}ce |
+           a2{GdG}ae    {g}fe{g}ce   |{gfg}fe{g}fd         {g}ceac    |\
+        {g}AB{GdG}ca       ce{g}B{d}c|  {g}A3{GdGe}A   {gAGAG}A2     :|
+                                                      [2 {gBG}B2{g}ed |\
+        {g}c2{GdGe}cB   {g}AB{d}ce   |  {g}fgag          {afg}fe{g}fa |\
+           AB{GdG}ca       ce{g}B{d}c|  {g}A3{GdGe}A   {gAGAG}A2     |]

@@ -1,0 +1,27 @@
+X: 109
+T:Mrs James McInnes' Strathspey -- Edinburgh
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:39 - 1
+K:G major
+%%staves {1 2}
+V:1
+D |\
+(D>G)(B>G) cA (!trill!B2 | c)<!wedge!AB>G AA,- ~A,2 | \
+(D>G)(B>G) cGBg | ec B/c/d/c/ B<G-GD |
+(D>G)(B>G) cA (!trill!B2 | c)<!wedge!AB>G AA,- ~A,2 |\
+(D>G)(B>G) cGBg | ec B/c/d/c/ B<GG  |]
+e/f/ | \
+~g>d B<g d<b !trill!g2 | (db)ge fa-a g/f/ | \
+gdBg dgBg | ec B/c/d/c/ BG-G e/f/ |
+g>d B<g d<b g2 | d<bg>e f<a-a>!wedge!f | \
+gd (3gab (3agf gd | (3edc (3Bcd BGG |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | G[Gg][Ff][Gg] | [Ad]GAA | GgGB | cdGG | G[Gg][Ff][Gg] | [Ad]GAA | GgGB | cdGG/ |] \
+z/ | gggg | ggdd | gggg | cdGG | gggg | ggdc | BGcB | cdGG/ |]

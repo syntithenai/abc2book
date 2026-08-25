@@ -1,0 +1,24 @@
+X: 20
+T:Mrs Fraser's Reel -- Cullen
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:7 - 3
+K:Bb major
+%%staves { 1 2 }
+V:1
+F | \
+B2 (dB) fBdB | AFcF eFcF | B2 (dB) fBdB | AFeA B2 B :|
+d | \
+(fe)de (fb)ab | gfed cBAF | (fe)de (fb)ab | agf=e !trill!f2 (fd) |
+(ed)gf (ec)fe | (dB)ed (cB)AF | ~B2 (dB) fBdB | AFeA B2 B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+bBdB | ffaf | bBdB | fFBB/ :| \
+z/ | \
+bBbb | eeff | bBbb | c'cff | ee'c'a | befF | BBBB fFBB/ |]

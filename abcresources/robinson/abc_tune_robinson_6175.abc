@@ -1,0 +1,20 @@
+X:1
+T:Vergissmeinnicht-Schottisch  CF  (st06787)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.40  (st06787) orig. C,F
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"GG AA | G>G GG | "G7"F>d dF | "C"EcG2 | GG AA | G>G GG | "G7"F>d dB | "C"cc cz :| [P:B]  "D7"d/^c/d =c/B/c | 
+"G"Be d>B | "D7"Ad c>A | "G"B/c/d/e/ d2 | "D7"d/^c/d =c/B/c | "G"Be d>B | "D7"Ad d/c/B/A/ | "G"GG/G/ G"_>Teil A"G || [P:C] [K:F] 
+|: "F"A3c | f3e | gf Ac | ("Gm"e2d2) | "C7"c/=B/c E>F | GB ed | "F"c/=B/c F>G | Af ed | 
+A3c | f3e | gf Ac | ("Gm"e2d2) | d/^c/d "C7"Gd | "F"c/=B/c FA | "C7"cB A>G | "F"FA Fz :| 
+%W:Parts: ABAC
+% st06787
+% Nov 2, 2017

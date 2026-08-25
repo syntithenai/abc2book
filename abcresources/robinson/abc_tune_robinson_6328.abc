@@ -1,0 +1,21 @@
+X:1
+T:Walzer  CF (wz06957) 
+T: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.119  (wz06957) orig. C,F
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+("C"E3 | E) F^F | ("G7"G3 | G)AB | ("C"c3 | c) dc | ("F"B3 |A)z z | (A3 | A)^GA | 
+(c3 | c)BA | ("C"G3 | G)^de |  (e3 | c)zz | (E3 | E) F^F | ("G7"G3 | G)AB | ("C"c3 | 
+c)Bc | "F"e3 | dzz | (c3 | c)BA | "C"A3 | Gze | "G7"e3 | dze | "C"c>ee | eze | 
+|: "C"e (^F/G/ F/G/) | (AG)e | e(^F/G/ F/G/) | (AG)f | "G7"f(^F/G/ F/G/) | B(^F/G/ F/G/) | B(^F/G/ F/G/) | A2e | 
+"C"e (^F/G/ F/G/) | (AG)e | e(^F/G/ F/G/) | (AG)f | "G7"f(^F/G/ F/G/) | B(^F/G/ F/G/) | B^F/G/ A/B/ |1 "C"cze :|2 "C"cf>e || [K:F] 
+|: "F"dzc | zBA | "C7"czB | ze>d | czB | zA^G | ("F"^G2A) | zf>e | dzc | 
+zBA | "C7"czB | ze>d | czB | zA>G |1 "F"F>FF | zf>e :|2 "F"F>F F | Fzz |] 
+%%W:Anmerkung H.C.
+%% wz06957
+% April 20, 2018 ("Maybe the Yi Jing")

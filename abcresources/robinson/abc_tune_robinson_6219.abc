@@ -1,0 +1,20 @@
+X:1
+T:Der kleine Trompeter (Schottisch)  FBb  (st06960)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.120  (st06960) orig. F,Bb
+S: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c2"C7"B2 | "F"A2z2 | aa g>f | "C7"fee2 | "Bb"d2"F"c2 | "C7"B2z2 |1 cc c>B | "F"BAA2 :|2 "C7"dd c>B | "F"Ac Az || 
+[P:B] |: "F"cc fa | "C7"Bee2 | Bee2 | "F"acf2 | fA cf |1 "C7"ecB2 | dB dG | "F"cFF2 :|2 
+"C"cGc2 | "G7"ed c=B | "C7"cc/c/"_>Teil A"c2 || [P:C] [K:Bb] F | "Bb"FF/F/ B/F/B/d/ | f2zF | FB cB | "F7"BAA2 | 
+FF/F/ A/F/A/c/ | f2zF | ec dc | "Bb"cBB2 | FF/F/ B/F/B/d/ | f2zf | fd "Bb7"dB | "Eb"BGG2 | 
+"F7"FA/A/ Ac | "Bb"Bdf2 | "F7"eF Ac | "Bb"dFB2 | "F7"Fc/c/ cA | "C7"Bd=e2 | "F"fe dc | "Bb"BB/B/ B2 |] 
+% st06960
+% April 30, 2018 (Cyanobakterien 3 Mrd. Jahre BC)

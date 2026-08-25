@@ -1,0 +1,17 @@
+X:210
+T: Schottisch  CGF (st00828)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.184f (st00828) orig. C,G,F-Dur
+S: Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+"G7"g2f2 !>!d4 | "C"g2e2 !>!c4 | "G7"Bcde fgab | "C"c'2gg g2g2 |: g2c'2 c'ba2 | "G7"g2b2 b4 | 
+g2b2 b2ag | "C"e2a2g4 | e2a2 age2 | "G7"d2g2g4 | fede fgab |1 "C"d'2c'2g4 :|2 "C"c'6z2 || [K:G]
+"G"g2b2 gdgb  | d'2b2g4 | "D7"a^gab a=gfe | d2fad'4 | "G"d2b2 gdgb | d'2b2g4 | 
+"D7"a^gab c'2f2 | "G"g2gg g2g2 || [K:C] "G7"g2b2 bafd | "C"c2a2 g3c | "G7"B2g2 f3B | "C"cGce g2g2 | 
+"G7"g2b2 bafd | "C"c2a2 g3c | "G7"B2g2 f3B | "C"c4z4 || [K:F] "F"a2c2 a2c2 | a2^ga b2a2 | "C7"a2g2 g^fga | 
+g4z4 | g2c2 g2c2 | g2^fg a3g | "F"g2f2 fefg | f6z2 | a2c2 a2c2 | a2^ga b2a2 | 
+"Gm/Bb"a2g2 g^fga | g6d'2 | "C7"c'2c2 c3b | "F"a2c2 c3a | "C7"a2g2 gbag | "F"f2f2f2z2 |]

@@ -1,0 +1,17 @@
+X:1
+T: Mazurka BbF (mz07565) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.94  (mz07565) orig. Bb,F
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:Bb major
+"Bb"F>dB4 | F>dB4 | "F7"F>F edc2 | "Bb"F>F dcB2 | F>dB4 | F>dB4 | "F7"F>F ec Fc | "Bb".B2!>!B2z2 :: [K:F] 
+"C7"c2c2B2 | "F"B>AA2A2 |  "F7"c2F2FA | "Bb"c2B2F2 | "C7"c2d2e2 | "F"f>AA2d2 | "C7"c>cd2de | "F".f2!>!f2z2 :: [K:Bb] [L:1/4] 
+"Bb"FDD | FDD | "F7"eFA/c/ | "Bb"dF>d | FDD | FDD | "C7"GFG | "F7".F!>!Fz :: [L:1/8] 
+"Bb"B>A B>A B>A | B2FFF2 | "F7"c2FFF2 | "Bb"d2 BBB2 |  "F7"edc2BA | "Bb"GFF2d2 | "F7"e>ee2A2 | "Bb".B2!>!B2z2 :| 
+% mz0757
+% March 3, 2018

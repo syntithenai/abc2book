@@ -1,0 +1,16 @@
+X:85
+T: Kreuzpolka FCBb (pk05105)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.367 (pk05105) orig. F,C,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+M:2/4
+L:1/16
+P:ABAC
+O:Switzerland
+K:F major
+[P:A] |:"F"c2dc A2f2 | "C7".f4!>!e4 | c2dc B2g2 | "F".g4!>!f4 | a2c'2 b3a | "Gm"g2d2 d3f |1 "C7"e2B2 B3e | "F"d2A2A4 :|2 
+"C7"e2c'2 b3e | "F"f4f4 [P:B] |: [K:C] "C"g2ag e2c'2 | "G7".b4!>!d4 | g2f2 e2d2 | "C".e4!>!c4 |1 g2c'2 e2a2 | "G7"g2fdB4 | g2b2 d2f2 | "C"a2gec4 :|2 
+ ggg2 e3g | "Dm"aaa2 d3c | "G7"B2a2 g3B | "C"c4"_>Teil A"c4 [P:C] |: [K:Bb] "Bb"d2ed ^c2d2 | "F7".e4!>!e4 | e2b2 a3g | "Bb".f4!>!f4 |1 
+b2f2 f3e | "Gm/Eb"c2g2 g3g | "F7"f2a2 a3e |  "Bb"dbagf4 :|2 "Cm/Eb"ggg2c'4 | "Bb"fff2b4 | "F7"a2gf e2dc | "Bb"B2b2 b2z2 |] 
+% June 2016

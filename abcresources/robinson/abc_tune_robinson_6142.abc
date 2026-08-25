@@ -1,0 +1,24 @@
+X:1
+T:Aluetten-Polka  CF (pk07035) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.156  (pk07035) orig. F,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A]  {/f}"C"eG e>(e | "F"f)A d>(a | "G7"g)B g>f  | "C"f/e/^d/e/c2 | {/f}eG e>(e | "F"f)A f(d/c/) | "G7"B/c/d/e/ fB | "C"ce cz :|
+[P:B] |: "C"gec2 | "G7"B/c/d/e/f2 | fdB2 | "C"c/d/e/f/g2 | gec2 | "Dm"afd2 | "G7"B/c/d/A/ GB | "C"ce cz :| 
+[K:F] [P:C] |: "F"c2f>f | "Gm"eBd2 | "C7"d2e>e | "F"dAc2 |  f>c f>c | "C7"e>c e>c | "Bb"d>B f>d | "C7"c2 c/f/g/^g/ | 
+"F"a2f>f | "Gm"eBd2 | "C7"d2e>e | "F"dAc2 | f>c f>c | "Gm"g>d g>f | "C7"e/e/e/e/ de | "F"ff fz :| 
+ [P:D] |: "F"f/c/A/c/ f>d | c/A/F/A/ c>c | ("Gm"dg) B>d  | "F"cfa2 | f/c/A/c/ f>d | c/A/F/A/ c>A | "Gm"GA B>d | "C7"ce"F"f2 :| 
+W:
+W:Parts: ABCD
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% pk07035
+% July 4, 2018

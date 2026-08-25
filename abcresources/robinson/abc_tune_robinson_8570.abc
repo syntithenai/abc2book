@@ -1,0 +1,35 @@
+X:75
+T:Mr George A Young
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+O:Scotland
+R:Strathspey
+Z:Clark Bernst
+%%Page:32 - 2
+K:Eb major
+%%staves {1 2}
+V:1 name="Slowly"
+B | \
+A/G/F/E/ (B,>E) Ac "\="~B2 | G>A B>e a>g f>F | \
+B>A GE [EA]<c "\="~[EB]2 | ge g/f/e/d/ [Ge]2 [Ge]B & G2G2x4 |
+A/G/F/E/ (B,>E) [EA]c "\="~[EB]2 | G>A B>e a>g f>F | \
+B>A GE [EA]<c "\="~[EB]2 | [Gg]>e g/f/e/d/ e2 e & G2G2G2G ||
+B, |\
+G,EB,G EBGe | B,FDB FdBf | \
+~E>F Eg D>E Df | [Ee]>B A/G/F/E/ [B,D]/E/F/D/ B,>A, & x2E2x4 |
+G,EB,G EBGe | B,FDB FdBf | \
+e>E c/B/A/G/ A/B/c/d/ [Ee]>E &x4E2x2 | (F/E/)D/C/ (B,/C/)D/B,/ [G,E]2 [G,E] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ |\
+[Ee][Ee] [cc']/[Aa]/[Gg] | [Ee][Ee][Bb][Bb] | \
+[ebe'][egb][ec']/a/ [eg] & x2ex | [ee'][Bb][Ee][Ee] |\
+[Ee][Ee][cc']/[Aa]/[Gg] | [Ee][Ee][Bb][Bb] | \
+[egbe'][egb][ec']/a/[eg] & x2ex | [ee'][Bb][Ee][Ee]/ ||\
+z/ |\
+E/e/E/e/E/e/E/e/ | B/b/B/b/B/b/B/b/ | \
+[egb][egb][Bfb][Bfa] | [egb]c'/a/ [Bfa][B,df] & xex2 | \
+E/e/E/e/E/e/E/e/ | G/b/B/b/B/b/B/b/ | \
+[ege'][ege']c'/a/[eg] & x2ex |[Bfa][Bfa][Ee][Ee]/ |]

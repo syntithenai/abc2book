@@ -1,0 +1,36 @@
+X:5
+T:dr Rotzbärgler. Natur-Juiz.  Bb  ABAC
+T:Emil Wallimann  (* 24.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+M:3/4
+"Anruf"F| B>cd | cf>e | dFc | !fermata!B2z ||  
+M:3/4
+[P:A] "ruhig"d/c/ | B2D | F>B c/d/ | c2F | f2e/d/ | c2F | f>e d/c/ | 
+B>cd | c2d/c/ | B2D | F>B c/d/ | c2F | f2e/d/ | c2F | f>e d/c/ | (B3 | B2) || 
+M:4/4
+L:1/8
+[P:B]  F d F |c2dFc2dF | B2B3B cd | c2AFf2f2 | d4zFfd | c2fdc2fd | 
+B2B3B cd | c2AFf2A2 | B4zFfF | c2dFc2dF | B2B3B cd | 
+c2AF f2f2 | d4zFfd | c2fdc2fd | B2B3B cd | c2AFf2A2 | B4z2 ||
+M:3/4
+[P:C]  "lüpfig" F2|d2fd fd | c4F2 | c2fd fd | B4F2 | d2dc BF | 
+c2cBA2 | c2cB AF | B3d fe | d2fd fd | c4F2 | 
+c2fd fd | B4F2 | d2dc BF | c2cBA2 | c2cB AF | B4z2 || 
+M:3/4
+L:1/4
+"Ausklang"F | B>cd | cfc | (B3 | B)z |]
+W:Reihenfolge: ABAC
+W:
+W:notiert Edi Gasser. Angaben Emil Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 23-03
+W:http://www.naturjodler.ch/code 23-1.htm  (with AUDIO)
+%May 24, 2018

@@ -1,0 +1,17 @@
+X: 38
+T: Fidele Brüder (Schottisch) FCBb (st08781)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.378 (st08781) orig. F,C,Bb-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%partsbox
+%%MIDI program 21
+P:ABACDE
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+c [P:A] |: "F"aa "C7"gg | "F"fc c/d/c | "Bb"dd/f/ "C7"ee/g/ | "F"fc c'>b | aa "C7"gg | "F"fc c/d/c | "Bb"dd/f/ "C7"ee/g/ |1 "F"ff cf :|2 
+"F"ff fz [P:B] |: [K:C] "C"ed/e/ "G7"fe/f/ | "C"g^f/g/ e'e' | "G7"zf/g/ d'd' | "C"ze/g/ c'c' | ed/e/ "G7"fe/f/ | "C"g^f/g/ e'e' | "G7"zf/g/ d'b |1 "C"+>+c'2+>+c'2 :|2   
+"C"c'c' "_> Teil A"c'c || [P:C] [K:Bb] f/e/ | "Bb"dd zg/f/ | "Cm"ee zc'/b/ | "F7"aa ga | "Bb"bd' ff/e/ | dd "G7"zg/f/ | "Cm"ee zc'/b/ | 
+"F7"aa ga | "Bb".b2+>+b2 || [P:D] [K:F] "C7"c>e gb | "F"ac/f/ a2 | "C7"gc/e/ gc' | "F"a2f2 | "C7"c>e gb | "F"ac/f/ a2 | "C7"gc/e/ gc' |  
+"F".f2+>+f2 [P:E] |: [K:Bb] "F7"e>f e>f | "Bb"dd/f/ b2 | "F7"ze/a/ c'2 | "Bb"zd/b/ fd | "F7"e>f e>f | "Bb"dd/f/ b2 | "Cm"gc' "F7"a/f/g/a/ | "Bb"bb bz :|

@@ -1,0 +1,20 @@
+X:73
+T:Mazurka  FBb (ABCDC) (mz09239)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.143 (mz09239) orig. F,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c2A>cf2 | "Gm/Bb"d2B>dg2 | "C7"e>c e>g c'>b | "F"a>b g>af2 | c2A>cf2 | "Gm/Bb"d2B>dg2 | "C7"c'>b a>g d>e | "F"f2f2z2 :|  
+[P:B] |: "C7".c'2!>!g3b | "F"a>g f>ef2 | "C7".g2!>!c3e | "F"f>e f>ga2 | "C7".c'2!>!g3b | "F"a>g f>ef2 | "C7".g2!>!c3e | "F"f2f2z2 :| [K:Bb] 
+[P:C] |: "Bb"de =ef gf | "F7"fec3f | fag3e | "Bb"d>gf2f2 | de =ef gf | "F7"fec3f | fa g3A | "Bb"B2b2"_Fine"z2 :| [K:F] 
+[P:D] "C7"E>G B2d2 | "F"c>AF2A2 | "C7"G>ce3B | "F"A>cf2f2 | "C7"E>G B2d2 | "F"c>AF2A2 | "C7"G>ce2B2 | "F"A2"F7"_e2"_>Teil C"z2 |] 
+%W: Parts: ABCDC
+% mz09239
+% https://github.com/allanino/rnn-composer-helper

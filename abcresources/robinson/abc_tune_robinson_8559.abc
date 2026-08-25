@@ -1,0 +1,28 @@
+X: 73
+T:the Marchioness of Huntlys Favorite
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:27 - 1
+K:C minor
+%%staves {1 2}
+V:1
+"^Slow and Pathetic"
+G | \
+({B}c>d)(c{d}e) .G.G(G>E) | (F>E)DC {A,}B,2 (B,G) | \
+(c>d)c{d}e .G.G(GE) | (FE).G=B, C2 (CG) |
+c>dce .G.G(G>E) | (F>E)DC ~B,2 (B,D) | \
+(CE)(DF) (EG)(Fe) | (g>f)(ed) {B}c2 c ||
+G | \
+(c>d)({d}e>f) (e/d/)c/B/ G2 | (B/=A/B/c/) (B/c/)d/c/ B2 (Bd) | \
+(c>d)({d}e>f) (g/f/)e/f/ (gE) | (a/g/)f/e/ (d/f/)e/d/ {B}c2 (cG) |
+(c>d){d}e>f (e/d/)c/B/ G2 | (!trill!B/=A/B/c/) (B/c/)d/c/ B2 (Bd) | \
+(e/g/)f/e/ (d/f/)e/d/ (c/=B/)c/d/ (.e.E) |(DAG).=B, C2 C |]
+V:2 clef=bass octave=-2
+z | c2 c'2 c2 ec | defF BFB,z | c2 c'2 c2 ec | f2 gG cGCz | \
+c2c'2 c2 ec | defF BFB,z | [Cc]2 [=B,=B]2 [Cc]2 [Ff]2 | g2 G2c2 c || \
+z | c2 c2 c2 e2 | B2 b2 BbBg | c2 c'2 c2 ec | FfgG cGCG | \
+c2 c'2 c2 e2 | B2 b2 BbBe | [Cc]2 [Dd]2 [Ee]>[Dd] [Cc][Ee] | [Ff]2 [Gg]2 c2C |]

@@ -1,0 +1,27 @@
+X: 50
+T:Mrs Hamilton of Wishaw's Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:19 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slow when not danced"
+E  | \
+A<AA<A !trill!B>G E<G | A<Ac>A !trill!B2 (Bc) | \
+.A.A.A.F (G/A/)(B/c/) Bc | ~F>B (A/G/)F/E/ [CEA]2 A :|
+(e/2f/4g/4)  | \
+a>e (a/g/)f/b/ (a>f)e>c | A<Ac>e fB B(f/g/) | \
+a>e (a/g/)f/b/ (a>f) e<c | E<E E(F/G/) [CEA]2 (A{Bcdef}g) |
+a>e (a/g/)f/b/ (a>f) e<c |A<Ac>e fBBd | \
+ceea dffb | E<E (~EF/G/) [CEA]2 A2 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | AaeE | Aaeg/e/ | f^de>c | de/E/Aa/ :|
+z/ | a[ad'] c'/>d'/c/a/ | Aa d/^d/e/d'/ | c'd' c'/>d'/c'/a/ | eEAa | \
+Adc/>d/c/A/ | a A/c/ d/^d/e/g/ | ac'/a'/ d'/d/d/d/ | eEaA |]

@@ -1,0 +1,25 @@
+X: 134
+T:Miss Young's Strathspey - Banff
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:47 - 1
+K:C major
+%%staves {1 2}
+V:1
+E/F/ | \
+G>E G<c G>E G<c | !trill!e>d c<e d/d/d dE/F/ | \
+G<E G<c G<E G<c | F>A !trill!G<E C/C/C C :|
+e/f/ | \
+~g>a g<e ~g>a g<e | c>e g<e d/d/d de/f/ | \
+~g>a g<e ~g>a g<e | f<dg>e c/c/c c f/g/ |
+aF Fa gE Eg | F<a E<g D/D/D (D>E) | \
+(~C>D)(E>F) (!trill!G>A) (B<c) | G<EF>D C/C/C C |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | [Cc]ccc | [Cc]c[Gg]g | [Cc]cc[Ee] | fgcc/ :| \
+z/ | c'c'c'c' | c'c'gg | c'c'c'c' | fgcc | ffee | dc[Gg][Gg] | ccce | gGcc/ |]

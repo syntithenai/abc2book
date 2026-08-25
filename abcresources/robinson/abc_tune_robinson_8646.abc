@@ -1,0 +1,24 @@
+X:16
+T:Viscount Reidhaven
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 3
+K:F major
+%%staves{1 2}
+V:1
+~"\="c2 (AB) ~"\="c2 (AB) | cagf ec ~"\="c2 | d2 Bd c2 Ac | GdcB (AF) ~F2 :| \
+af ~f2 cfAf | defg af ~f2 | ! bg ~"\="g2 dg=Bg | efga bg ~"\="g2 | \
+af f2 cfAf | defg afcA | BdBd AcAc | GdcB AFF2 & F2 E2 C2 A,2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[fac'] [fac'] [fac'] [fac'] |[fac'] [fac'] [cc'] [cc'] | \
+[Bb] [Bb] [Aa] [Ff] | [Bb] [Cc] [Ff] [Ff] :| \
+[faf'] [faf'] [fbf'] [fc'f'] | [fbf'] [fbf'] [faf'] [faf'] | \
+[Gg] [Bb] [=B=b] [Gg] | [cc'] [cc'] [ee'] [cc'] | \
+[faf'] [faf'] [faf'] [fc'f'] | [fbf'] [fbf'] [ff'] [f=e'] | \
+[dd'] [Ee] [Ff] [Ff] | [Bb] [Cc] [Ff] [Ff] |]

@@ -1,0 +1,19 @@
+X: 22
+T:Mr Johnsons Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 2
+K:A major
+%%staves {1 2}
+V:1
+AEcA ecae | fdec (!trill!B>AB)c | AEcA ecae | dbca !trill!B2 A2 ::
+(!trill!cA)EA FAEA | EFGA BcdB | (!trill!cA)EA FAEA |dfce !trill!B2 A2 :|
+V:2 clef=bass octave=-2
+L:1/4
+AaAa | dcee | Acea | baeA :: \
+AAaa | eeEE | aadc | BAeA :|

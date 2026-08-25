@@ -1,0 +1,14 @@
+X:210
+T:Schottisch CGF (st05183)
+M:2/4
+L:1/16
+R:Schottische
+O:Switzerland
+K:C major
+"C"^FGG2 F2G2 | Bcc2 B2A2 | "G7"GFF2 E2F2 | "C"AGG2 E2F2 | ^FGG2 F2G2 | Bcc2 B2A2 | "G7"GFF2 E2F2 | "C"C2c2 c2z2 :| [K:G]
+"G"D6GA | B2!>!B4 cB | "D7"B2!>!A4BA | "G"G2!>!G4B,C | D6GA | B2!>!B4 cB | "D7"B2!>!A4BA | "G"G2GG G2G2 || [K:C] 
+"F"AGF2 z2F2 | "C"GFE2 z2E2 | "G7"D^CDE FGAB | "C"c2BAG4 | "F"AGF2 z2F2 | "C"GFE2 z2E2 | "G7"D^CDE FGAB | "C"c2c2 c2z2 || [K:F] 
+"C7"ccc2 BBB2 | "F"ccc2 aaa2 | "C7"ccc2 BBB2 | "F"ccc2A4 | .c2!>!f4ed | "C7"d3c c3B | B3A A2G2 | "F"A2d2c4 | 
+"C7"ccc2 BBB2 | "F"ccc2 aaa2 | ccc2 AAA2 | "Gm"BBB2 G4 | .B2!>!d4cB | "F"B3A A3G | "C7"G2F2 F2E2 | "F"F2F2 F2z2 || [K:C] 
+"C"!>!G4 E2A2 | !>!G4 E2c2 | "G7"BBBB B2d2 | "C"cccc c2e2 | !>!G4 E2A2 | !>!G4E2c2 | "G7"BBBB B2d2 | "C"c4z4 || [K:F] 
+|: "C7"ABB2 ABB2 | "F"=Bcc2 Bcc2 | "Bb"^cdd2 f2d2 | "F"dcc2 !>!A4 | "C7"cBB2 ABB2 | "Dm"BAA2 ^GAA2 | "Gm"AGG2 "C7"c2E2 | "F"F2F2 F2z2 :|

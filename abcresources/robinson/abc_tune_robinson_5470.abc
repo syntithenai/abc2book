@@ -1,0 +1,20 @@
+X:220
+T:Schottisch  CGF (st06908)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.245 (st06908) orig. C,G,F
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"ge "(F)"a/a/a | "C"gce2 | (G/c/).e/.g/ ag | ("G7"a/g/).f/.d/ B2 | fd g/g/g | fdb2 | (G/B/).d/.f/ ag | ("C"g/a/).g/.e/c2 | 
+"C"ge "(F)"a/a/a | "C"gce2 | (E/G/).c/.e/ gc' | ("Dm"c'/a/).f/.d/A2 | "G7"Gf f/e/d | "C"eag2 | "G7"Ge ed | "C"cc cz ::  [K:G] "G"B/c/d d/e/d | 
+g3d | "D7"a3d | "G"b/a/gg2 | B/c/d d/e/d | db bg | "D7"fd/f/ ba | "G"g2zg || [K:C] "F"a{^g}a ("G7"f{e}f) | "C"g3e | 
+"G7"f/e/d f/e/d | "C"g/f/e g/f/e | "F"a{^g}a "G7"f{e}f | "C"g3e | "G7"f/e/d d/c/B | "C"ce cz:: [K:F] ("F"A.c) (c.f) | .f!>!c2.a | 
+(a/g/).f/.g/ af | "C7"b{a}be2 | (G.c) (c.e) | (.e!>!g2).c | (g/f/).e/.f/ gc | "F"a{^g}af2 | (A.c) (c.f) | .f!>!a2.f | ("Gm"B.d) (d.g) | 
+.g!>!b2.g | "C7"e/f/g e/f/g | "F"f/g/ac2 | "C7"g/a/bc2 | "F"a/b/c'c'2 | "C7"e/f/g e/f/g | "F"f/g/ac2 | "Gm".g!>!b2"C7"e | "F"fa fz :: 
+"C7"ec/e/ gg | "F"fc/f/ aa | "C7"bc g/g/g | "F"acf2 | "C7"ec/e/ gg | "F"fc/f/ aa | "Gm"d'g/a/ "C7"be | "F"fa fz :| 
+% st06908
+% April 6, 2017

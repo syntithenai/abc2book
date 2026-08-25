@@ -1,0 +1,23 @@
+X:1
+T:Polka  FBb (pk07048) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.162  (pk07048) orig. F,Bb
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+aa [P:A]  |: "F"a2c2 (fe).f.g | a2c2 f2(ab) | "C7"c'2g2 (c'b).g.c' | ("F"a4f2)fg | a2c2 (fe).f.g | a2c2 f2(fa) | "G7"g2d2 gfed |1 "C"c2c2 c2aa :|2 
+"C"c2c2 c2cc [P:B] |:  "Bb"d2d2 b3a | "C7"g3f (ed)c2 | (cb)e2 (cb)e2 | ("F"ca)f2 f2cc | "Bb"d2d2 b3a | "C7"g3f (ed)c2 | (cb)e2 (cb)e2 |1 
+"F"f2f2 f2cc :|2 "F"f2f2 f2z2 ::  [K:Bb] [P:C] "Bb"b4f2(df) | b2b2d4 | b2f2 b2(fb) | "F7"a2a2e4 | a4f2(ef) | a2a2e4 | "Eb"g2g2 edeg | 
+"Bb"f2f2d4 | b4f2(df) | b2b2 b2ee | "Cm"g4e2ce | g2g2 g2ff | "F7"c'2c'2 c'bag | "Bb"d'2d'2 b2ff | "F7"c'2c'2 agfa | "Bb"b2b2 b2z2 :| 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: "Schällibaum" Wattwil, 14
+%W:Anmerkung Hrsg,: 
+% pk07048
+% July 8, 2018

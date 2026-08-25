@@ -1,0 +1,51 @@
+X: 151
+T: Dunafalut Leanytanc
+O: Hungary
+S: Andor Czompo, Hungarian Folk Dance Music, AC Publications
+M: 4/4
+L: 1/8
+K: Am
+Q:1/4=90
+%%MIDI gchord fzfz
+%%MIDI bassprog 25
+%%MIDI program 64
+   "Am" A2 A2 "Em" G2 E2      |"Am" A2 A2 "Em" G2 E2                         |\
+   "F" F2 F2 "Cm" E2 F2           |"Em" E6 [I: MIDI= program 40]  e/f/g/^g/      |
+P:B
+Q:1/4=90
+   "Am" a2 e2 "Bdim" g2 f2    |"C"  e4   "Dm"  d3B                           |\
+   "Am" BA4 z e/f/g/^g/       |    a6b2                                      |\
+   c'2 a2 "Cm"   g2 e2      |"Cm" fd2e3 "Eb" e/f/g/^g/                         |
+   "Am"     a6b2              |  c'2a2 "Em" g2e2                             |\
+   fd2e3 "Am"e/f/g/^g/        |a2e2 "Bdim"g2f2                               |\
+   "Em"e4d4                   |"Am"BA3 -A2 e/f/g/^g/                         |
+   a6b2                       | c'2a2  "G" g2e2                              |\
+   "C" fd2e3 "Em" e/f/g/^g/   |"Am" a2e2  "Bdim" g2f2                        |\
+   "Dm" e4B4                  |"Am" A8                                       |
+P:C
+Q:1/4=120
+M:2/4
+L:1/8
+%%MIDI program 64
+|A,2 A,/B,/^C\
+|: "Dm"D4                     | "Gm"G3F                                      |\
+   "Dm"ED2D-                  | D2D/E/F                                      |\
+   "Am" A4                    | d3c                                          |\
+   BA2A-                      |A2D/E/F                                       |
+   A4                         | "Dm"d3e                                      |\
+   fd3                        |"Am"c4                                        |\
+   "Dm" d2cB                  | cBAG                                         |\
+   AD3                        |"Gm"G3 F                                      |\
+   EDD2                       |[1 "Dm"D2 D/E/F                               :|[2D4|
+P:D
+K:Dm
+|: GBAG                       |A2G^F                                         |\
+   GBAG                       |A2G^F                                         |\
+   "Gm"GDDC                   |F2FG                                          |\
+   "Dm"GDDC                   |D4                                            :|
+P:E
+K:Gm
+|: "Gm"G>ABB                  |cBAG                                          |\
+   G>ABB                      |cBAG                                          |\
+   "F"cGFE                    |CDE2                                          |\
+   "C"GGFE                    |"Gm"C4                                        :|

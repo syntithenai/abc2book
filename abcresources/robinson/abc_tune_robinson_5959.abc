@@ -1,0 +1,17 @@
+X:1
+T:Galopp  CGF (gL06657) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.58  (gL06657) orig. C,G,F
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"G>^F G>F | (GE) !>!e2 | "G7"edF2 | "C"dcE2 |  G>^F G>F | (GE) !>!e2 | ("G7"ed) .A.B |1 "C"cc cz :|2 "C"cc cd || [K:G] 
+|: "D7"^cd ef | ("G"gB) .e.d | ("D7"dc) .A.B | ("G"GB) .e.d | "D7"^cd ef | ("G"gB) .e.d | ("D7"dc) .A.B |1 "G"GG Gd :|2 "G"GG GG || [K:C] 
+|: ("C"EF) .^F.G | e2 Ge | "G7"d2 GB | "C"dc (Bc) | (EF) .^F.G | e2 Ge | "G7"d2 GB |1 "C"cc cG :|2 "C"cc cc || [K:F] 
+|: ("F"fe) .f.d | (cA) .F.A | "C7".G(F/G/) AG | "F"FA cA | ("Bb"fe) .f.d | ("F"cA) .F.A | "C7"Gc Be |1 "F"ff fc :|2 "F"ff fz |] 
+% gL06657
+% Feb 10, 2018

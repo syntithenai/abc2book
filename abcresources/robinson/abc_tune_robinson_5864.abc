@@ -1,0 +1,30 @@
+X:1
+T:Geissholz-Juiz  Bb  ABACC
+T:Mark Wagner (1.5.1967)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABACC
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] FD FB | d4 | f=e dF | c4 | Fe dc | B3d | F2d2 | B4 | f2=ef | 
+c3f | F2f2 | c4 | fe dc | B3B | B2c2 | d2z2 | FD FB | d4 | f=e dF | 
+c4 | Fe dc | B3d | F2d2 | B4 | f2=ef | c3f | F2f2 | cf Fd | (B4 | B2)z2 ||  
+M:3/4
+[P:B] B,D | F2GF DF | d3dB2 | d3d Bf | c3cA2 | F2GF EF | 
+c3cA2 | d3Fc2 | Bc def2 | F2GF DF | d3dB2 | 
+d3d Bf | c3cA2 | F2GF EF | c3cA2 | d3Fc2 | !fermata!B2z2 || 
+M:3/4
+[P:C] df | e2GG GG | e2ff fe | d2FF FF | d2ee ed | 
+c2FF Fd | c2FF Fd | B3F Bd | f4df | e2GG GG | e2ff fe | 
+c2FF FF | d2ee ed | c2FF Fd | c2FF Fd | (B6 | B2)z2 |]
+W:
+%W:Reihenfolge: A - B - A - C - C
+W:notiert Edi Gasser. Angaben Thomas Wieland
+W:UJV-Naturjodelsammlung: Code-Nr: 31-01
+W:http://www.naturjodler.ch/code 31.htm  (with AUDIO)
+%May 29, 2018

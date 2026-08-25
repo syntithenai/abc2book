@@ -1,0 +1,48 @@
+X:2
+T:de Bühler. C-Dur
+S:Naturjodel rund um den Saentis (www.roothuus-gonten.ch)
+%%partsbox
+%P:
+Q:1/4=66
+R:Naturjodel
+M:6/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] E2c2B2 D>D c>B A<B, | "C"C3D E2 c>B A2 G<C | "G7"B,3DF2 d>cB2 AB, | "C"C3D/D/E2"rit."c2 BA !fermata!G2 | 
+%w:jo i dü jo-lo ü-lü dü-o   lo lo lo ü-lü dü u-o   ja lo jo i-lü dü dü-o   jo bä-li do ü ü-lü ü  
+"a tempo" "C"E2c2"G7"B2 D>D c>B A<B, | "C"C3D E2 c>B A2 G<C | "G7"B,3DF2 d>cB2 AB, | "C"C8z4 |] 
+%w:jo i dü jo-li i-lü dü-o   jo lo lo ü-lü dü u-o   ja lo jo i-lü dü u-o   jo 
+Q:1/4=74
+[P:B] E3CC2 AG G2 E>E | [M:8/4] ("G7"F2 F/)G/B/d/ f3d B2A2 B,4 | [M:6/4] "G7"F3B,B,2 AGG2 F>F | 
+%w: hul-di o u-li di o-li   jo_lo-u-li du li u dui a   hui-di o u-li dü ho-li  
+[M:8/4] ("C"E2E/)G/c/d/ e3cA2G2 C4 | [M:6/4] "C"E3CC2 AGG2 E>E | [M:8/4] ("G7"F2 F/)G/B/d/ f3d B2A2 B,4 | 
+%w: jo_lo-u-li u lü u dui a   hul-di o u-li di o-li    jo_lo-u-li du li u dui a  
+[M:6/4] "G7"F3B,B,2 AG G>B d2 | [M:4/4] "C"c6z2 |] 
+%w: hul di o u-li dü-i u   u
+Q:1/4=60
+[P:C] 
+[M:3/4] Ge cE/E/ AC/C/ | "G7"B,A/G/ FGF2 | "G7"B,A/G/ FB F/E/D | "C"CA/G/ EcE2 | 
+%w: jo-u du-ja-li u-ja-li  jo du-lü jo-u jo   ja du-lü jo-u jo-lo-lo   ja du-lü jo-u jo 
+"C"Ge cE/E/ AC/C/ | "G7"B,A/G/ FBF2 | "G7"B,A/G/ FB "rit."F/E/D | "C"C6 |] 
+%w: jo-u du-ja-li u-ja-li  jo du-lü jo-u jo   ja du-lü jo-u jo-lo-lo  jo
+Q:1/4=76
+[P:D] D>E FG AB/d/ | "C"cG/G/ eG/G/ cd/c/ | "G7"BG/G/ fG/G/ Bd | "C"cG/G/ eG/G/ c2 | 
+%w: ho-la la la dü du-li  du-a-la i-a-la du u-li   dü-a-la u-a-la dü li  du-a-la u a-la dü 
+"G7"D>E FG AB/d/ | "C"cG/G/ eG/G/ cd/c/ | "G7"BG/G/ "rit."fG/G/ !fermata!g!fermata!d | "C"c6 |] 
+%w:jo-la la la dü du-li  du-a-la i-a-la du u-li   u-a-la u-a-la u-lü   u
+%W:Parts: ABCD
+%W: trad. Toggenburg
+%W: Nach Georg Kuratli, JK Männnertreu, Nesslau-Neu St. Johann 
+%W:Schellackplatte Ultraphon A 25035 (1930)
+%W:Teil C ähnlich wie Teil A "Toggenburger Ländler Jödeli" #1243
+%W: Weitere Quellen:
+%W:Schallplatte Columbia SEVZ 510 "Chrüz und quer dur's Schwyzerland" (1957)
+%W: LP Grüezi 10-164 "De Wildhuser" (1986)
+%W:CD Phonoplay PCD 7546, JK "Männertreu"
+W:
+%W:https://www.roothuus-gonten.ch/mediendateien/jodel/pdf/De Bühler.pdf
+W: *AUDIO*:  
+W: www.roothuus-gonten.ch/cms/index.php/de/naturjodel-rund-um-den-saentis
+% © 2015 ROOTHUUS GONTEN. #1035
+% Feb. 22 2019

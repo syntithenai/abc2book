@@ -1,0 +1,41 @@
+X:72
+T:Miss Gibson Craig
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+N:Same tune as"Ef Lady Peel"
+O:Scotland
+R:Slow Strathspey
+Z:Clark Bernst
+%%Page:31 - 1
+K:Eb major
+%%staves {1 2}
+V:1 name="Slowly"
+B, | \
+~E>F (E/D/)C/B,/ CF[DF]G | \
+[G,E][EB][EG][Ge] [GB][Bg][Ge][gb] |
+~E>F (E/D/)C/B,/ CF[DF]G & x4C2x2 | \
+~[G,B,]>E E/D/{D}C/B,/ [G,E]2 [G,E]B, |
+~E>F (E/D/)C/B,/ CF[DF]G & x4C2x2 | \
+[G,E][GB][EG][Ge] [GB][Bg][Ge][gb] |
+~E>F (E/D/)C/B,/ C[CEF][DF]G | \
+~[G,B,]>E (E/D/){D}C/B,/ [G,E]2 [G,E] :|
+B |\
+~e>f (e/d/)c/B/ cffg | egce BeGE |
+~e>f e/d/c/B/ cffg | (e/d/){d}c/B/ c[FBd] [EBe]2- [EBe]B |
+~e>f (e/d/)c/B/ cffg | egce BeGE |
+A,[Ac]G,[GB] D[EF][DF][B,EG] | [G,B,]>[_G,E] E/D/{D}C/B,/ [G,E]2 [G,E] |]
+V:2 clef=bass octave=-2
+z |\
+Ee Aa Aa Bb | E/e/E/e/ E/e/E/e/ E/e/E/e/ E/e/E/e/ | \
+Ee Gg [Aa][=A=a] [Bb]2 | B2 [B,fa]B EeEz | \
+Ee Aa Aa Bb | E/e/E/e/ E/e/E/e/ E/e/E/e/ E/e/E/e/ | \
+Ee Gg [Aa][=A=a] [Bb]2 | B2 [B,fa]B EeE :| \
+L:1/16
+z2 |\
+ee'ge' be'ge' af'cf' ad'bd' & e8x8 | ge'be' ae'ce' ge'be' ebgb | \
+ee'ge' be'ge' af'c'f' ad'bd' & e8x8 | ge'be' afba gegb e'2z2 | \
+ee'ge' be'ge' af'c'f' ad'bd' & e8x8 | ge'be' ae'ce' ge'be' ebgb | \
+[Ff]3[Dd] [Ee]3[Gg] [Aa][Gg][Aa][=A=a] [Bb][_A_a][Gg][Ff] | \
+[Ee]3[_C_c] [B,Bfa]4 E2e2E2 |]

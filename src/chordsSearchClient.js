@@ -163,10 +163,16 @@ export function normalizeChordsSearch(body) {
   }
 
   if (body.multiple === true && Array.isArray(body.candidates)) {
+    // One tab-only / lyrics-only scrape must not discard the whole picker.
     const candidates = sortChordsCandidatesPreferInline(
-      body.candidates.map(function(candidate) {
-        return normalizeSingleChordsResult(candidate)
-      })
+      body.candidates.reduce(function(acc, candidate) {
+        try {
+          acc.push(normalizeSingleChordsResult(candidate))
+        } catch (e) {
+          // Skip unusable sheets (bass tab, empty chords, etc.).
+        }
+        return acc
+      }, [])
     )
     if (candidates.length === 0) {
       throw new Error('Chords search returned no candidates')

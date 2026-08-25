@@ -1,0 +1,21 @@
+X:1
+T: Polka CF (pk07244) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.100  (pk07244) orig. C,F
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"G2c2 cBc2 | "Dm"B2A2A4 | "G7"GABc d2G2 | "C"cdef g4 | G2c2 cBc2 | "Dm"B2A2A4 | "G7"GABc d2B2 | "C"c2c2 c2z2 :| 
+[P:B] |: "C"G2ce G2ce | GceGc4 | "F"A2cf A2cf | AcfA c4 | "G7"B2dg B2dg | "C"cegcc'4 | "G7"GBdg dgbd' | "C"c'2c'2 c'2z2 :| [K:F] [L:1/8] 
+[P:C] |: "F"fc a>g | fA c>f | "C7"ec g/f/e | "F"ffa2 | fc a>g | fA c>f | "C7"ec g/f/e | "F"fa f"_Fine"z :| 
+ [P:D] "C"c3G/c/ | e3G/c/ | e3c/e/ | g2z2 | "G7"Gf f/e/d | "C"Gg g/f/e | "G7"Gf f/e/d | "C"ce c"_>Teil C"z |] 
+W:
+W:Anmerkungen H.C.: (Fricktal / Zuzgen 105)
+% pk07244 
+% March 14, 2018

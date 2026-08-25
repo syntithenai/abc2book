@@ -1,0 +1,31 @@
+X:450
+T:Duetto.2voices RH.451
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:In bar 12 of the secundo, I doubled
+N:the length of the last 4 notes. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C|
+L:1/8
+Q:100
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:C major
+[V:1] g2gg fefg|e4z2fe|d2dd edcd|(e4c) eee|d2d4 dd|d2zd (dB)Bg|
+[V:2] e2c2 d2B2|cBAG cGEG|B2GA B2A2|c2G2 E2c2|B2G2 A2^F2|G^FGA Bz zB|
+%
+[V:1] gAce d4|G4 zddd|ezez fzfz|d4 z2zd|e2ec f2fd|g2(g/a/g/f/) e2zc|
+[V:2] c2c2 DE^FD|GBdB Gzz2|cGcG dGdG|BG^FG (FG).A.B|c2G2 d2G2|(e2e/)(f/e/d/) ccGE|
+%
+[V:1] a2aa a2bc'|g2g2 g3/a/4g/4 fe|edfd c2d2|c4 zddd|.e2.e2 .f2.f2|d4 z2zd|
+[V:2] F2FF F2z2|E2E2 E2z2|F2F2 G2B2|cGEG FAAA|cGcG dGdG|(BG^FG) (FG).A.B|
+%
+[V:1] .e(dec) .f(efd)|g2(g/a/g/f/) e2zc|a2aa a2bc'|g2gg g3/a/4g/4 fe|(edfd) c2d2|c2gg g3/a/4g/4 fe|
+[V:2] .c(BcG) .d(cdG)|e2e/f/e/d/ ccge|F2FF F2z2|E2EE E2z2|F2F2 G2G2|E2(e2 e3/)f/4e/4 dc|
+%
+[V:1] .a(abc') c2d2|c2(g2 g3/)a/4g/4 fe|(e/d/^c/d/) g/f/e/f/ (b/a/^g/a/) =g/f/e/d/|g/a/g/^f/ g/a/b/c'/d4|c>G e>e c2z2|]
+[V:2] F2F2 G2G2|E2e2- e3/f/4e/4 dc|F2z2 z2F2|G2D2 GGBG|E>E G>G E2z2|]

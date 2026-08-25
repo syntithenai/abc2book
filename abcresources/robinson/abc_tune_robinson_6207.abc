@@ -1,0 +1,16 @@
+X:1
+T: Schottisch FBb (st07238) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.97  (st07238) orig. F,Bb
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+"F"f2AB c2dc | "C7"c2B2 B2ef | g2GA B2cB | "F"B2A2 A2fg | a2AB c2Bc | "Gm"d2GA B2dc | "C7"dcBc ^cd^de | "F"f2a2 f2z2 :|  
+|: "F"c2cc c2c2 | d=Bc2 dBc2 | "C7"c'2g2 gbag | "F"fage "C7"c4 | "F"c2cc c2c2 | d=Bc2 dBc2 | "C7"c'2g2 gbag | "F"f2f2 f2z2 :| [K:Bb] 
+|: "Bb"(5fgf=ef d'2c'2 | b2a2 g2f2 | "F7"e6gf | e6fe | "Bb"defg f2b2 | f2d'2 f2b2 | "F7"b2a2 aga2 | "Bb"b2b2 b2z2 :| 
+% st07238 
+% April 3, 2018 (Christian's Tribe)

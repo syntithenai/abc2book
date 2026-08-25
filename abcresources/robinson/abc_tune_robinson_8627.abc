@@ -1,0 +1,25 @@
+X: 166
+T:Miss Katherine Stewart Forbes' Strathspey, of Achmedden
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:57 - 3
+K:F major
+%%staves {1 2 }
+V:1
+a | \
+F<FF>A G>AB>d | F<F(F>A) (cd/e/) fc | \
+dfAf G>AB>d | ~c>d e/f/g/e/ ~f2 f :|
+a| \
+c<fA<f Ggga | c<fA<f c<fA<f  |\
+B<gA<f G>ABd | ~c>d e/f/g/e/ ~f2 fa |
+c<fA<f Gg-g!wedge!a | c<fA<f c<fA<f | \
+B>dcA GABd | c>d e/f/g/e/ ~f2 f |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffgg | ffff | bagg | fcff/ :| \
+z/ | ffgg | ffff | bagg | fcff | ffgg | ffff | bagg | fcff/ |]

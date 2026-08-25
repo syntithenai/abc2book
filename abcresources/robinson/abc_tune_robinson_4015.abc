@@ -1,0 +1,17 @@
+X:72
+T: Mazurka  EbAb (mz08967)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.35 (mz08967) orig. Eb,Ab-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:Eb major
+"Eb"b>=a b>c' b>a | "tr"b2g2g2 | b>=a b>c' b>a | "tr""Bb7"b2a2a2 | b>=a b>c' b>a | "tr"b2b2b2 | "tr""Ab"a2c'2c'2 | "tr""Eb"g2b2b2 | 
+b>=a b>c' b>a |  b2g2g2 | b>=a b>c' b>a | "Bb7"b2a2a2 | (3"F7"f=ef (3=agf (3_edc | "Bb"B2 (3Bdfb2 | "F7"=a2 (3agf (3edc | 
+"Bb"B2b2z2 || "Bb7"a>a f>f d>d | Bd fc' ba | "Eb"g>d e2c2 | B3g eg | "Fm"ac f3a | "Eb"gB e3g | "Bb7"fB df bd | 
+"Eb"e2e2z2 :| [K:Ab] "Ab"c>c =B2c2 | f>fe4 | "tr"e2 a>g fe | "Eb7"g>d' g>d' g2 | d>d c2d2 | f>fe4 | "tr"e2 g>f ed | 
+"Ab"f>c' f>c' f2 | c>c =B2c2 | f>fe4 | "tr"e2 a>g fe | "Db".g2!>!f4 | "tr""Eb7"e2 b>a gf | "tr""Ab"e2a>g fe |  "Eb"g>f ed cB | "Ab"A2a2z2 |] 
+% mz08967

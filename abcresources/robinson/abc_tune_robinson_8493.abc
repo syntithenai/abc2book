@@ -1,0 +1,33 @@
+X:37
+T:Mrs H Inglis
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:15 - 1
+K:C major
+%%staves {1 2}
+V:1
+c | \
+G<CG>E G<CC>c | A<D[^CA]>G A<DD>c | G<CG>E c>d e<d | c>AG>E C/C/C C
+c | \
+G<CG>E G<CC>c | A<D[^CA]>G A<DD>c | G<CG>E c>d e<d | c>AG>E C/C/C C ||
+e | \
+(g>a)(g>f) (!trill!c>d)(e>c) | (!trill!a>b)(a>f) (!trill!d>e)(f>d) | \
+(!trill!g>a)(g>f) (c>d)(e>d) | c>A!trill!G>E C/C/C C
+e | \
+(g>a)(g>f) (!trill!c>d)(e>c) | (!trill!a>b)(a>f) (!trill!d>e)(f>d) | \
+g>ag>f c<f!trill!e>d | c>A!trill!G>E C/C/C C |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Cc] [Cc] [Cc] [Cc] | [Ff] [Ee] [Dd] [Dd] | [Cc] [Cc] [Ee]/[Dd]/ [Cc] | [Ff] [Gg] [Cc] [Cc]/ z/| \
+[Cc] [Cc] [Cc] [Cc] | [Ff] [Ee] [Dd] [Dd] | [Cc] [Cc] [Ee]/[Dd]/ [Cc] | [Ff] [Gg] [Cc] [Cc]/ || \
+z/ | \
+[cec'] [cec'] [ec'] [ec'] | [fc'] [fac'] [fgbd'] [fgbd'] | \
+[egc'] [egc'] [ec'] [ec'] | [fc'] [Gg] [Cc] [Cc]/ z/ | \
+[cec'] [cec'] [ec'] [ec'] | [fc'] [fac'] [fgbd'] [fgbd'] | \
+[egc'] [egc'] [fac'] g/^g/ | a/f/ g [Cc] [Cc]/ |]

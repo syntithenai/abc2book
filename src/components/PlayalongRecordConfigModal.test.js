@@ -89,4 +89,27 @@ describe('PlayalongRecordConfigModal', function() {
     expect(document.querySelector('[data-testid="playalong-compare-existing"]')).toBeFalsy()
     expect(clampPlayalongRepeats('12')).toBe(10)
   })
+
+  test('shows bulk tune count, duration summary, and tempo multiplier slider', function() {
+    act(function() {
+      root.render(React.createElement(PlayalongRecordConfigModal, {
+        show: true,
+        tempoAsMultiplier: true,
+        tempoMultiplier: 1,
+        bulkTuneCount: 5,
+        bulkDurationLabel: 'about 12 minutes',
+        settings: Object.assign({}, DEFAULT_PLAYALONG_SETTINGS, { repeats: 2 }),
+        canClear: false,
+      }))
+    })
+
+    const summary = document.querySelector('[data-testid="playalong-bulk-summary"]')
+    expect(summary).toBeTruthy()
+    expect(summary.textContent).toMatch(/5 tunes selected/)
+    expect(summary.textContent).toMatch(/about 12 minutes total with 2 repeats/)
+    const tempo = document.querySelector('[data-testid="playalong-tempo-slider"]')
+    expect(tempo).toBeTruthy()
+    expect(tempo.value).toBe('100')
+    expect(document.body.textContent).toMatch(/100% of written/)
+  })
 })

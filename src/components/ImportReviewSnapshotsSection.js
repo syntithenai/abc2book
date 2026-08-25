@@ -31,6 +31,20 @@ function SnapshotPreview(props) {
   )
 }
 
+export function ImportReviewPendingMidiSection(props) {
+  const link = props.pendingMidiLink
+  if (!link) return null
+
+  return (
+    <ListGroup className="mb-2">
+      <ListGroup.Item className="py-2">
+        <div className="text-truncate">{link.title || link.name || 'MIDI file'}</div>
+        <div className="text-muted small">MIDI link · Will attach on import</div>
+      </ListGroup.Item>
+    </ListGroup>
+  )
+}
+
 export default function ImportReviewSnapshotsSection(props) {
   const entries = importReviewSnapshotEntries(props.tuneFiles, props.pendingSnapshots)
   if (!entries.length) return null

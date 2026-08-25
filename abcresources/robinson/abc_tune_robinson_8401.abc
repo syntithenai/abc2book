@@ -1,0 +1,29 @@
+X: 10
+T:the Dutchess of Manchester's Farewell to the Highlands of Scotland
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:4 - 1
+K:Bb major
+%%staves { 1 2 }
+V: 1
+"^Slowly"
+d/c/ | \
+!trill! B>cBB, DFFd/c/ | B/A/B/c/ BB, ~C2 Cd/c/ | \
+!trill! B>cBB, D<F !trill! f<g | (f<d)!trill!c>d ~B2 B :|
+d/c/ | \
+(B/c/)(d/e/) (f/d/)(b/f/) (B/c/)(d/e/) (f/d/)(b/d/) | (B/c/)(d/e/) (f/d/)(b/d/) c2 (cd) | \
+(B/c/)(d/e/) (f/d/)(b/f/) (B/c/)(d/e/) !trill! f>g | (f<d)!trill!c>d ~B2 Bd/c/ |
+(B/c/)(d/e/) (f/d/)(b/f/) (B/c/)(d/e/) (f/d/)(b/d/) | {d}eg/e/ {e}df/d/ ~c2 cd | \
+(F>=E) (F>G) (F>G) (B>g) | f<d !trill! c>d B2 [B,FB] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+BBBB | BBFf | BBBd/e/ | fFBB/ :| \
+z/ | \
+L:1/8
+Bb db Bb db | Bb dB FfFz | Bb db b/a/b/c'/ d'>e' | f'2 f2 Bdfb | \
+d/f/b/c'/ d'b d/f/b/c'/ d'b | c'a bB f2 Fd | dcde dede | f2 F2 B2 B |]

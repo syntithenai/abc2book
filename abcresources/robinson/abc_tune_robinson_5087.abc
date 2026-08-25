@@ -1,0 +1,19 @@
+X:168
+T:s schöne Lyseli (Mazurka) FCBb (mz02266)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.335 (mz02266) orig. F,C,Bb
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+K:F major
+[P:A] "F"f>ef2A2 | "Gm"B>cd4 |  "C7"c>dc2G2 | G(d c)(=Bc2) | "F"f>ef2A2 | "Gm"B>cd4 | ("C7"cd) cB AG | 
+"F"F2F2z2 :: [P:B] [K:C] "G7"G3B df | ("C"fe)G3e | "G7"ed G3d | "C"cB ceg2 | "G7"G3B df | 
+"C"fe G3e | "G7"ed ^cd AB |1 "C"c2c2z2 :|2 "C"c2_B2"_>Teil A"G2 [P:C] |: [K:Bb] "Bb"FB "G7"d3e | !>!"F7"d2 c=B c2 | 
+!>!f2 ed eA | !>!"Bb"c2 BGF2 | FB "G7"d3e | !>!"F7"d2c=Bc2 | !>!f2 ed eA | "Bb"B2B2"_Fine"z2 :| 
+W:Anmerkung H.C.: Teil B. 2. Schluss: HC: a
+% mz02266  
+% Nov 5, 2016

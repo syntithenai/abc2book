@@ -6,6 +6,7 @@ import {
 import {
   buildScoreDirective,
   noteLengthFromRhythmDetail,
+  noteLengthFromSlotsPerBeat,
   resolveImportVoiceNotes,
   slotsPerBeatFromRhythmDetail,
 } from './midiImportWizardState';
@@ -25,9 +26,14 @@ export function buildMidiImportAbcFromSession(session) {
   const filters = (headerVoice && headerVoice.filters) || defaultVoiceFilters();
   const meter = grid.timeSignature || '4/4';
   const beatsPerBar = parseInt(String(meter).split('/')[0], 10) || 4;
-  const rhythmDetail = filters.rhythmDetail || 'standard';
-  const slotsPerBeat = slotsPerBeatFromRhythmDetail(rhythmDetail);
-  const noteLength = noteLengthFromRhythmDetail(rhythmDetail);
+  // Snap/grid drives import quantization (same as piano-roll + wizard options).
+  const slotsPerBeat = session.previewSnapSlotsPerBeat
+    || slotsPerBeatFromRhythmDetail(filters.rhythmDetail || 'standard');
+  const noteLength = noteLengthFromSlotsPerBeat(slotsPerBeat);
+  const quantOn = filters.quantize !== false;
+  const quantStrength = !quantOn
+    ? 0
+    : (filters.quantStrength != null ? filters.quantStrength : 1);
 
   const voices = processed.map(function(voice, index) {
     return {
@@ -43,6 +49,7 @@ export function buildMidiImportAbcFromSession(session) {
       key: (voice.grid && voice.grid.estimatedKey)
         || (session.sharedGrid && session.sharedGrid.estimatedKey)
         || 'C',
+      allowChords: voice.filters ? voice.filters.allowChords !== false : true,
     };
   });
 
@@ -53,7 +60,10 @@ export function buildMidiImportAbcFromSession(session) {
     beatsPerBar: beatsPerBar,
     slotsPerBeat: slotsPerBeat,
     noteLength: noteLength,
-    quantStrength: filters.quantStrength != null ? filters.quantStrength : 0.7,
+    quantStrength: quantStrength,
+    ticksPerBeat: (session.fileMeta && session.fileMeta.ticksPerBeat)
+      || (session.profile && session.profile.ticks_per_beat)
+      || 0,
   });
 
   const scoreDirective = buildScoreDirective(voices.map(function(v) {
@@ -110,13 +120,17 @@ export function buildMidiImportAbcFromDraft(draft) {
   const beatsPerBar = parseInt(String(meter).split('/')[0], 10) || 4;
   const rhythmDetail = draft.rhythmDetail || 'standard';
   const slotsPerBeat = draft.quantSlotsPerBeat || slotsPerBeatFromRhythmDetail(rhythmDetail);
-  const noteLength = draft.noteLength || noteLengthFromRhythmDetail(rhythmDetail);
+  const noteLength = draft.noteLength
+    || noteLengthFromSlotsPerBeat(slotsPerBeat)
+    || noteLengthFromRhythmDetail(rhythmDetail);
+  const quantStrength = draft.quantStrength != null ? draft.quantStrength : 1;
 
   const voices = resolveImportVoiceNotes(draft).map(function(voice) {
     const cleaned = applyMidiCleanup(voice.notes, cleanup, tempo);
     return Object.assign({}, voice, {
       notes: cleaned.notes,
       name: voice.displayName,
+      allowChords: draft.allowChords !== false,
     });
   });
 
@@ -129,7 +143,7 @@ export function buildMidiImportAbcFromDraft(draft) {
     beatsPerBar: beatsPerBar,
     slotsPerBeat: slotsPerBeat,
     noteLength: noteLength,
-    quantStrength: draft.quantStrength != null ? draft.quantStrength : 0.7,
+    quantStrength: quantStrength,
   });
 
   const scoreDirective = buildScoreDirective(voices);

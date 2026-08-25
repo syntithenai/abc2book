@@ -1,0 +1,13 @@
+X:147
+T:Mazurka GC (mz04928)
+M:3/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"G>F G>A B>c | "D7".d2!>!d4 | "C".e2!>!e4 | "G".g2!>!g4 |: "D7"f>c e>A c>F | "G"TG2e2d2 | "D7"TA2f2e2 | "G"Td2a2g2 | "D7"f>c e>A c>F | "G"TG2e2d2 | 
+"D7"TA2f2d2 | "G"g2g2z2 :: "D7"Tc2A2f2 | Tc2A2f2 | "G"A>G B>D G>B, | E2D>^CD2 | "D7"Tc2A2f2 | Tc2A2f2 | "G"g>d B>d "D7"c>A | "G"G2g2"_fine"z2 :: [K:C] 
+"C"e3B c>A | TG2 E/2G/2ce2 | "G7"TG2D/2F/2Bd2 | "C"TG2E/2G/2e g>f | e3B "F"c>A | "C"TG2E/2G/2ce2 | "G7"TG2D/2G/2B d>B | "C"c2c2z2 ::
+"C"G2 {/A}G>^FG2 | "G7".G2!>!d4 | G2 {/A}G>^FG2 | "C".G2!>!e4 | G2 {/A}G>^FG2 | "G7".G2!>!f4 | B2B2c2 | d2c2"_>Teil B"B2 :| 
+W: Parts: ABCDB
+% mz04928
+% June 12, 2016

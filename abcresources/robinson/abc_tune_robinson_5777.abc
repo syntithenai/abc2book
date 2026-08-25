@@ -1,0 +1,29 @@
+X:6
+T:Maierisli-Juiz  C 2+
+S:Hansruedi Niederberger  (* 30.9.1948)
+S:Dirigenten-Notiz  Edi Gasser
+%C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+[P:A] C>E | G3E Gc | e2c2 g>e | d2G2 Gg | 
+e>d c2 C>E | G3E Gc | e2c2 g>e | d>G dg de | c4z2 || 
+M:3/4
+[P:B] ec | d2g2ed | ceG2ec | d2g2ed | c4ec | 
+d2g>g e>d | ceG2ec | d2 g>g ed | c4z2 || 
+L:1/4
+M:3/4
+[P:C] G | g>fe | dge | c2e | G2g | d2g | f>ed | c2e | G2G | 
+g>fe | dge | c2B | !fermata!A>f "_langsam"e/2d/2 | g>ec | d>eG | (c3 | c2)z |] 
+W:
+W:Reihenfolge: A-B-A-C
+%W:'meiner lieben Familie gewidmet' Edy
+%W:notiert Edi Gasser. Angaben: Hr Niederberger
+%W:UJV-Naturjodelsammlung: Code-Nr: 18-03
+%W:http://www.naturjodler.ch/code 18.htm  (with AUDIO)
+%May 15, 2018

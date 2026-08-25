@@ -1,0 +1,35 @@
+X:37
+T:Bärglergruäss  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F|F>Ddc | B3F | F>Dfe | d3F | F>fed | 
+c2F2 | Ffdc | B>ABc | d3F | "rit."F>Ddc | B3F | 
+F>Dfe | d3F | F>fed | c2F2 | Ffdc | (B4 | B2)z ||
+M:4/4
+[P:B] D/E/ | Fdd>B | AcE>F | F>edc | d2BD/E/ | Fdd>B | 
+AcE>F | F>edc | !fermata! !breath! B3 D/E/ | Fdd>B | AcE>F | F>edc | 
+d2BD/E/ | Fdd>B | AcE>F | FecA | !fermata!B3 || 
+M:3/4
+[P:C]  ded | B3 | DFd | c3 | ded | c3 | df>e | d2B | 
+ded | B3 | Bcd | e3 | ece | d3 | "rit."dcd | B3 ||  
+M:3/4
+[P:D] F|FDd | d2B | AcF | E2F | F2e | d2c | d3 | 
+B2F | FDd | d2B | AcF | E2F | F2e | !fermata!d2!fermata!c2 | !fermata!(B3 | B)zF | 
+FDd | d2B | AcF | E2F | F2e | d2c | d3 | B2F | 
+FDd | d2B | AcF | E2F | F2e | !fermata!d2!fermata!c2 | !fermata!(B3 | B)z |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-19
+W:http://www.naturjodler.ch/code 17-a.htm  (with AUDIO)
+%May 15 2018

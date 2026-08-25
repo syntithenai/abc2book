@@ -1,0 +1,24 @@
+X:33
+T:Mummer's March
+T:Droghedy March
+R:march
+H:On the L\'a Lugh recording it is played very slowly, and the E in bars
+H:2 and 4 is held longer, and also the A3 and F3 in bars 6, 8, 10 and 14.
+H:In A minor in O'Neill's.
+H:2nd & 3rd parts: Cf. "Monaghan Jig", jig#182
+B:O'Neill: "Irish Minstrels and Musicians"
+D:L\'a Lugh
+Z:id:hn-march-33
+M:6/8
+L:1/8
+Q:3/8=80
+K:Em
+G2B A2B | G2B F2E | G2B A2c | BGE F2E ||
+BGE EDE | BGE A3 | BGE EDE | cBA F3 ||
+EGB e2B | cBA F3 | EGB e2B | cBA Bcd | e2^c d2B | =cBA F3 ||
+P:From O'Neill's (transposed)
+|: G2B A2c | G2B F2E | G2B A2c | BGE F2E :|
+B>GE E>EE | BGE A2c | B>GE E>EE | cBG F2E |
+B>GE E>EE | BGE F2E | BGE E>GB | eBG F2E ||
+EGB e2B | cBA B2G | EGB e2B | cBG F2E |
+EGB e2B | cBA Bcd | e2c d2B | cBG F2E ||

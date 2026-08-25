@@ -1,0 +1,20 @@
+X:185
+T: Schottisch  FCBb (ABACD) (st09232)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.141 (st09232) orig. F,C,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+c [P:A] | "F"c/f/e "Bb"e/d/d | "F"d/c/c !>!c2 | "C7"c/b/g gc | "F"c/a/g fc | c/f/e "Bb"e/d/d | "F"d/c/c !>!c2 | "C7"c/b/g ge | "F"ff fz :| [K:C] 
+[P:B] |: {/g}"G7"ag Bg | {/g}"C"ag cg | "G7"gf/f/ fd | "C"fe/e/ ea | "A7"_ba ^ca | "Dm"_ba df/f/ | "G7"fd cB | "C"cc c"_>Teil A"z :| [K:Bb]
+[P:C] "Bb"d3e | =d/f/g/f/ bb | "Cm".b.c2.e | a3g | "F7".f!>!A2c | a3g | "Bb".f!>!B2d | g3f | 
+d3e | =e/f/g/f/ bb | "Cm".b !>!c2e | a3g | "F7"fg g>g | "tr""Bb"gf fd | "F7"fe e>c | "Bb"Bb bb || 
+[P:D] |: "tr""Eb"bg "tr""Ebm"b_g | "Bb"bf fg | "F7"gc eA | "tr""Bb"fB Bb | "tr""Eb"bg "tr""Ebm"b_g | "Bb"bf fg | "F7"gc e>A |1 "Bb"BB Bb :|2 "Bb"BB B"_Fine"z |] 
+W:Parts: AB-ACD
+% st09232 (H 331TN 71)

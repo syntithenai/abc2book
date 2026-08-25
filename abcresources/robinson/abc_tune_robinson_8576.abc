@@ -1,0 +1,30 @@
+X:74
+T:Mrs Sherrif Cameron, Elgin
+C:William Marshall
+L:1/8
+M:4/4
+O:Scotland
+R:Slow Strathspey
+Z:Clark Bernst
+%%Page:32 - 1
+K:Eb major
+%%staves {1 2}
+V:1 name="Slowly"
+e | \
+B>A G<E B,<D G,<E | D<F [DF]>G {B}[DA]2 ([FA]c) | \
+B>A G<E B,<D G,<E | G<e e>G {G}B2 B :|
+B |\
+(e/d/)c/B/ (G>e) B>e G>E | D<F F>G {B}[EA]2 ~Ac/d/ & x6E2| \
+e.>B. g.e. f.d.e.E. | G<B e>G B2 ~Bc/d/ |
+(e/d/)c/B/ G>E e>E GE | D<F F>G {B}[EA]2 [EA]c | \
+(B/e/)g/f/ (e/d/)c/B/ e>B c<e | "tr"B>G E/F/G/A/ B2 B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ |\
+[Ee][Ee][Ee][Ee] | [Bb][Aa]/[Gg]/[Ff][Dd] | \
+[Ee][Ee][Ee][Ee] | [Ee][Ee][Ee][Ee]/ :|
+z/ |\
+[ee'][ee'][ee'][ee'] | [Bb][Bb][cc'][Aa] | \
+[Gg][Ee][B,B][Ee] | [Ee][Ee][Ee][Ee]/z/ | \
+[Ee][Ee][Ee][Ee] | [Bb][Bb][cc'][Aa] | \
+[Gg][Ee][Ee][Aa] | [Ee][Ee][Ee][Ee]/ |]

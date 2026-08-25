@@ -1,0 +1,24 @@
+X:1
+T:Kreuzpolka.  CGF (kp07040) ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.158  (kp07040) orig. C,G.F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Kreutpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"g(g/^f/ ) ge | .c2!>!c'2 | "Dm"a(a/^g/) af | .d2!>!a2 | "G7"Ba Ba | Ba (a/^g/)a | "C"cg cg | cg (g/^f/)g | 
+g(g/^f/ ) ge | .c2!>!c'2 | "Dm"a(a/^g/) a.f | .d2!>!a2 | "G7"Ba Ba | "C"cg (g/^f/)g | "G7"gg/a/ g/f/e/d/ | "C"ce cz ||  [K:G]
+[P:B] "D7"df ed | c'>{/b}c' c'2 | df ed | "G"b>b !>!b2 | ("D7"f/e/)c (f/e/)c | fec2 | ("G"e/d/)B (e/d/)B | edB2 | "D7"df ed | 
+c'>{/b}c' c'2 | df ed | "G"b>b !>!b2 | ("Am"b/a/)a ea | ("G"a/g/)g dg | ("D7"g/f/)f b>a | "G"gg g"_>Teiil A"z || [K:F]
+[P:C] "F"cf ac' | "C7".b/(a/g/a/) !>!b2 | ce gb | "F".a/(g/f/g/) !>!a2 | ag ag | "C7"feB2 | Bc ed | "F"cba2 | 
+cf ac' | "C7".b/(a/g/a/) b2 | ce gb | "F".a/(g/f/g/) a2 | ag ag | "C7"fe B2 | cb b>e | "F"ff fz |] 
+%W:Parts: ABAC
+W:Kreuzpolka. nach H. Buser
+W:Anmerkung H.C.: Flums, Toggenburger Tänze
+% kp07040
+% July 6, 2018 (tinwhistle & Alphorn)

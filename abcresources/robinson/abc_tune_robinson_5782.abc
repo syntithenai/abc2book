@@ -1,0 +1,37 @@
+X:13
+T:Schäfer-Juiz  Bb  ABAC
+T:Hansruedi Niederberger  (* 30.9.1948)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+Q:1/4=80
+M:4/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen" B,>D | F !fermata!f d/c/ !fermata!B | A>cFe/c/ | A2A,>C | Ff>e d/!fermata!c/ | B>dFf/d/ | 
+B2 B,>D | F !fermata!f d/c/ !fermata!B | A>cFe/c/ | A2A,>C | F"rit."f>e d/c/ | !fermata!B2 ||
+L:1/8
+Q:1/4=90
+M:4/4
+[P:B]  "lüpfig"Bc  | d2Bd f2Bd | c2e2F3F | f2ecF2d2 | B3dF2Bc | 
+d2Bdf2Bd | c2e2F3F | f2"rit."ecF2d2 | !fermata!B6Bc | d2Bd fd Bd | c2e2F3F | 
+f2ecF2d2 | B3dF2Bc | d2Bd fd Bd | c2e2F3F | "rit."f2ecF2d2 | !fermata!B4z4 || 
+Q:1/4=100
+L:1/4
+M:4/4
+[P:C] "freudig - frisch" F | f>dBd | c>AFF | f>ecf | d2!breath!BF | f>dBd | 
+c>AFF | fc/f/dc | !fermata!B2z/F/B/d/ | f>dBd | c>AFF | f>ecf | d2BF | 
+f>dBd | c>AF"rit."F | fc/f/dc | B3"rit."  "_langsam ausklingen"F | fc/f/dc | !fermata!B3 |]
+W:
+%W:Reihenfolge: A-B-A-C
+W:
+W:Gewidmet meinen treuen Kameraden Erich Hess und Ruedi Wolf
+W:
+%W:notiert Edi Gasser. Angaben: Hr Niederberger
+W:UJV-Naturjodelsammlung: Code-Nr: 18-07
+W:http://www.naturjodler.ch/code 18.htm  (with AUDIO)
+%May 16 2018

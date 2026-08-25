@@ -1,0 +1,11 @@
+X: 6
+T:Ton Ruban Bleu
+C:Traditional French
+L:1/8
+M:2/4
+R:Bourrée à Deux Temps
+K:C major
+[V:1]|:"C" g2 ec |  "G" B>c de | f2 dB | "C" c>d ef |g2 ec |  "G" B>c de | f2 dB |1 "C" c4 :|2 "C" c3 c ||
+[V:2]|:c4|G4|G4|c4|c4|G4|G4|1c4:|2c4||
+[V:1]|: "G" B>d Bd | "C" c>e ce | "G" d>f df | "C" e2 cc |"G" B>d Bd | "C" c>e ce |1 "G" g>f ed | g4 :|2  "G" g>f ed | "C" c4 ||
+[V:2]|:G4|c4|B4|c4|G4|c4|1B4|B4:|2B4|c4||

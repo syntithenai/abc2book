@@ -1,0 +1,25 @@
+X: 117
+T:Miss Hannah's Jig -- Elgin
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:41 - 3
+K:G major
+%%staves {1 2}
+V:1
+D |\
+G2G (Bc/d/)B | (GB)G (Bc/d/)B | A2 a abg | !trill!f3 d2 f |\
+~g2 g bag | (fg/a/)f agf | eag fef | !trill!g3 G2 |]
+g | \
+bag agf | gfe def | gfg efg | ~a3 (A2g) |\
+bag agf | gfe def | gfe def | g3 (G2g) |
+bag agf | gfe def | gfg efg | ~a3 (A2g) | \
+(ga/b/)g bag | (fg/a/)f agf | eag !trill!fef | !trill!g3 G2 |]
+V:2 clef=bass octave=-2
+z | g3 g3 | g3 b3 | c'3 ab^c' | d3 d3 | g3 g3 d'3 d'3 | c'3 d'3 | g3 G2 |]
+z | g3 d3 | g3 B3 | c3 ^c3 | d3 d'3 | g3 d3 | e3 B3 | c3 d3 | g3 G3 | \
+g3 d3 | g3 B3 | c3 ^c3 | d3 d'3 | g3 g3 | d'3 d3 | c3 d3 | g3 G2 |]

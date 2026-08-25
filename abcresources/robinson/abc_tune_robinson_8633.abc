@@ -1,0 +1,23 @@
+X: 144
+T:Miss Susan Gordon's Reel -- Fochabers
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:50 - 2
+K:F major
+%%staves {1 2}
+V:1
+f | \
+F2 FB (AB/c/) cf | af{d}cB ABcA | G2 GB (Bc/d/) dg | bagf efge |
+F2 FB (AB/c/) cf | af{d}cB ABcA | BdBd AcAc | GABc {Bc}d2 d ||
+f | \
+cfAf cfAf | cfaf {d}cBAc | dg=Bg dgBg | dgba gfef |
+cfAf cfAf | cfaf {d}cBAc | BdBd AcAc | GABc {Bc}d2 d |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ffff | ffff | gggg | bbc'c' | ffff | ffff | bbaa | ggbb/ || \
+z/ | ffff | ffff | gggg | bbc'c' | ffff | fffa | bbaa | ggbb/ |]

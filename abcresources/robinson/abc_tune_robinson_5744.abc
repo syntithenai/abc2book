@@ -1,0 +1,33 @@
+X:1
+T:Breitmatt-Juiz  Bb  ABCD
+T:Toni Vogler (2.4.1940)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:2/4+3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>D | F4 | "_Tröhljodel"(6D/F/B/ D/F/B/ (6D/F/B/ D/F/B/ | d3e dc | B4 | c3F| 
+EF cF fd | B3F | DF BF cB | A3EF2 | f2d2c2 | B3d BG | !fermata!F4 B,>D | 
+F4 | (6D/F/B/ D/F/B/ (6D/F/B/ D/F/B/ | d3e dc | B4 | c3F| EF cF fd | 
+B3F | DF BF cB | A3EF2 | f2d2c2 | (B6 | B2)z2 |]
+L:1/8
+M:2/4
+[P:B]  F>E | D2d>c | BD EF | G2e>d | cB AG | Ff eF | dF cF | BD Fd | B2F>E | 
+D2d>c | BD EF | G2e>d | cB AG | Ff eF | dF cF | (B4 | B2) ||
+M:2/4+3/4
+[P:C] B,>D | F4 | "_Tröhljodel"(6D/F/B/D/F/B/ (6D/F/B/D/F/B/ | d3e dc | B4 | c3F| 
+EF cF fd | B3F | DF BF cB | A3EF2 | f2d2c2 | (B6 | B2)z2 |]
+M:3/4
+[P:D] F Ac | "_jeder Ton breit" !fermata!f2 !fermata! e2 !fermata!d2 | c3e dc | B2 FF FF | DF BD Fd | c2 FF FF | 
+EF AE Fc | B3F Bc | d2zF Ac | !fermata!f2 !fermata! e2 !fermata!d2 | c3e dc | B2 FF FF | 
+DF BD Fd | c2 FF FF | EF cF | f2d2c2 | B4"rit."F2 | f2c2d2 | B6 |] 
+%W:
+%W:Reihenfolge: A-B-C-D
+W:UJV-Naturjodelsammlung: Code-Nr: 16-01
+W:http://www.naturjodler.ch/code 16.htm  (with AUDIO)
+%May 10, 2018

@@ -1,0 +1,18 @@
+X:271
+T:Walzer  FCBb (wz00826)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.184 (wz00826) orig. F,C,Bb-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Waltz
+O:Switzerland
+M:3/4
+L:1/4
+K:F major
+"F"c3 | "Bb"d3 | "F"c2f | a2z | c2a | "Bb"d2b | "F"c2a | fef | 
+"C7"g3 | g^fg | "F"a3 | ab=b | c'fg | "C7"a2g | "F"f3 | fzz || [K:C]
+|: "C"{/^f}g {/^f}g {/^f}g | a2g | {/^f}g{/^f}g{/^f}g | a2g | "G7"aza | zgf |1 "C"eze | zdc :|2
+ "C"e>cc | czz || [K:F] "F"{/d}c=Bc | {/d}c=Bc |  "Bb"d2c | B2z | "C7"{/c}BAB | {/c}BAB | 
+"F"c2B | A2z | {/d}c=Bc | {/d}c=Bc | "Bb"b2a | a2f | "C7"{/f}e^de | 
+cag | "F"f3 | fzd |: [K:Bb] "Bb"f3 | fed | "F7"c3 | z2e | 
+g3 | gfe | "Bb"(d3 | d)zB | "Eb"b3 | bag | "Bb"f3 | 
+^fg>d | "F"e3 | =ef>A | "Bb"B>bb |1 bzd :|2 bzz |]

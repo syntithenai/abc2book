@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+
 DEFAULT_BACKING_GAIN_DB = -16.0
 DEFAULT_ARRANGEMENT_GAIN_DB = 0.0
 
@@ -105,17 +107,24 @@ def validate_timing_plan(raw: dict | None) -> dict:
         ],
         "includeChordLayer": bool(raw.get("includeChordLayer")),
         "includeNotationStem": bool(raw.get("includeNotationStem", False)),
-        "includeStyleMelodyStem": bool(raw.get("includeStyleMelodyStem", True)),
+        "includeStyleMelodyStem": bool(raw.get("includeStyleMelodyStem", False)),
+        "mixDrumGuide": bool(raw.get("mixDrumGuide", False)),
         "leadMidiProgram": max(0, min(127, int(raw.get("leadMidiProgram") or 40))),
+        "accompanimentMidiProgram": max(0, min(127, int(raw.get("accompanimentMidiProgram") or 24))),
         "backingGainDb": _as_float(raw.get("backingGainDb"), DEFAULT_BACKING_GAIN_DB),
         "arrangementGainDb": _as_float(raw.get("arrangementGainDb"), DEFAULT_ARRANGEMENT_GAIN_DB),
         "loopDurationSec": _as_float(raw.get("loopDurationSec"), 0.0),
         "renderStyle": str(raw.get("renderStyle") or "trad_session"),
         "guideMode": str(raw.get("guideMode") or "midi_wav"),
-        "includeDrumGuide": bool(raw.get("includeDrumGuide", True)),
+        "includeDrumGuide": bool(raw.get("includeDrumGuide", False)),
         "drumGuide": drum_guide,
         "melodySource": str(raw.get("melodySource") or "notation_midi"),
-        "guideAudioConditioning": bool(raw.get("guideAudioConditioning", False)),
+        "guideAudioConditioning": bool(raw.get("guideAudioConditioning", True)),
+        "initNoiseLevel": _as_float(
+            raw.get("initNoiseLevel"),
+            float(os.getenv("PRACTICE_TRACK_INIT_NOISE_LEVEL") or 0.35),
+        ),
+        "guideEngine": str(raw.get("guideEngine") or "stable_audio"),
     }
 
 
@@ -156,3 +165,25 @@ def section_generation_targets(plan: dict) -> list[dict]:
             "endTimeSec": _as_float(section.get("endTimeSec")),
         })
     return targets
+
+
+def effective_target_duration_sec(plan: dict) -> float:
+    """Duration after applying repeatSchedule play counts (AABB etc.)."""
+    timing = plan.get("timing") or {}
+    base = _as_float(timing.get("totalDurationSec"))
+    schedule = timing.get("repeatSchedule") or []
+    sections = timing.get("sections") or []
+    if not schedule or not sections:
+        return base
+    by_label = {
+        str(section.get("strainLabel") or ""): _as_float(section.get("durationSec"))
+        for section in sections
+    }
+    total = 0.0
+    for event in schedule:
+        label = str(event.get("strainLabel") or "")
+        plays = max(1, int(event.get("playCount") or 1))
+        total += by_label.get(label, 0.0) * plays
+    if total > base * 1.02:
+        return total
+    return base

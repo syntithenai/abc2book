@@ -1,0 +1,26 @@
+X:58
+T:Mr James Bennet's Reel
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:24 - 1
+K:G major
+%%staves {1 2}
+V:1
+(!trill!gfg)!wedge!d {f}e2 (dc) | BGAB A/A/A A2 | \
+(!trill!gfg)!wedge!d {f}e2 (dc) | BGAc G/G/G G2 ::
+BGdG eGdG | BGAB A/A/A A2 | BGdG eGdG | BGAB G/G/G G2 ::
+(!trill!gfg)!wedge!d e2 (ab) | c'ba^g a2 (ab) | c'bag e2 (dg) | BGAB G/G/G G2 :|
+(!trill!BAG)!wedge!B dgdB | cedB A/A/A (Ac) |1 \
+(BAG)!wedge!B dgdB | cedB G/G/G (Gc) :|2 BGcA dBec | gedB G/G/G G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Gg][Gg][Gcg][GBg] |[Gg][Gg][Dd][Dd] | [Gg][Gg][Gcg][Gbg] | dD[Gg][Gg] :: \
+[Gg][gb][gc'][gb] | [gbd'][gbd'][Dd][Dd] | [Gg][gb][gc'][gb] | [gd'][gc'd'][gbd'][gbd'] :: \
+[Gg][Gg][cc'][cc'] | [Aa][Aa][Aa][Aa] | [Aa][Bb][cc'][Bb] | d'd[Gg][Gg] :: \
+[gbd'][gbd'][gbd'][gbd'] | [fd'][gd'][dd'][dd'] | [gbd'][gbd'][gbd'][gbd'] | [cc'][dac'][Gg][Gg] :| \
+[Gg][Cc][B,B][Cc] | [Cc][Dd][G,G][G,G] |]

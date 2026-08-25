@@ -1,0 +1,19 @@
+X:2
+T:Old Tannery, The
+C:Alistair Anderson
+M:6/8
+L:1/8
+Q:3/8=120
+U:t=!tenuto!
+P:ABABAC
+K:D major
+P:A
+A2G|"D"FAA dAA|fAA a2f|"Em"gfe Bed|"A"c3 A2 G|
+"D"FAA dAA|fAA a2f|"Em"gfe Bec|1"D"d3:|2"D"d3 d2 e|
+P:B
+|:"D"fed "Em"Bgf|"A"edc a2a|"Em"bag eBd|"A"c3 A2 G|
+"D"FAA dAA|fAA a2f|"Em"gfe Bec|1"D"d3 d2 e:|2"D" "to A part"d3 A2 G|]
+P:C
+"D"fed "Em"Bgf|"A"edc a2a|"Em"bag fed|"A""TEMPO CHANGE COMING!!"cBA GFE|
+M:4/4
+[Q:1/4=240]"D"L.F2A2td2A2|!f!f2A2 ta3 f|"Em"L.g2e2 B2c2|!ff!"D"td4 .d2 z2|]

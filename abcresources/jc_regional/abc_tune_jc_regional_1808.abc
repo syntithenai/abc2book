@@ -1,0 +1,26 @@
+X: 211
+T: Lepa Moja Milena
+O: Croatia
+S: Deborah Jones VIFD Music Book
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: D
+%%MIDI program 110
+%%MIDI bassprog 115
+   "D" [Fd][Fd] "A7" [A2c2e2]     |"D" [df][df] "A7" [A2e2g2] |\
+   "D" [df][df] [Ace][ABd]        |"A" [A2c2e2] [Aca] z       |
+   "D" [Fd][Fd] "A7" [A2c2e2]     |"D" [df][df] "A7" [A2e2g2] |\
+   "D" [df][df] [Ace][ABd]        |"A" [Ace][Ace] [Ace] z     |
+Q: 1/4= 80
+K: Dm
+|: "Dm"  [Fd][Fd] "A7" [A^ce][Ace]|"Dm" [Df][Df] "Gm" [B2e2g2]|\
+   "Gm" [Bdf][Bdf] [^G^ce][G=Bd]  |"A7" [A2^c2e2] A2          |
+   "Dm"  [Fd][Fd] "A7" [A^ce][Ace]|"Dm" [Df][Df] "Gm" [B2e2g2]|\
+   "Gm" [Bdf][Bdf] [^G^ce][G=Bd]  |"A7" [A2^c2e2] [A2c2e2]    :|
+Q: 1/4=160
+K: D
+|: "D"[Fd][Fd] "A7" [A2c2e2]      |"D" [Df][Df] "A7" [A2e2g2] |\
+   "D"[dF][dF] [Ace][ABd]         |"A" [A3c3e3] [Aca]         |
+   "D"[Fd][Fd] "A7" [A2c2e2]      |"D" [Df][Df] "A7" [A2e2g2] |\
+   "D"[dF][dF] [Ace][ABd]         |"A" [A2c2e2] [Ace] z       :|

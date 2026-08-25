@@ -1,0 +1,31 @@
+X:3
+T:dr Jänzimatter-Juiz.  Bb  ABAC
+T:Peter Ming (03.03.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+R:Naturjodel
+M:3/4+2/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F| B,DB | FDB/c/ | dF|d/f/ d/f/ |cF| f/e/cd | B>D G/D/ | 
+F>zF | B,DB | FDB/c/ | dF| d/f/ d/f/ c | F f/e/c | d (B3 B2) || 
+M:3/4
+[P:B] F| f f/d/B | ff/d/ B/g/ | ff/e/ f/e/ | A2G | F>E F/e/ | A>CG | F>D F/d/ | 
+B2F | ff/d/B | ff/d/ B/g/ | ff/e/ f/e/ | A2G | F>E F/e/ | [M:2/4] AF | dc | B>z || 
+L:1/8
+M:3/4
+[P:C] F2 | f3d c2 | B4 F2 | f3ed2 | c4F2 | e2c2F2 | e2F2e2 | d3c Bd | 
+f3zFF | ff fd fd | B4FF | ff fe fe | c4F2 | e2c2F2 | e2F2dc | 
+B3zFF | ff fd fd | BB BB FF | ff fe fe | 
+cc cc  FF | ee cc FF | ee cc FF | f3e dc | (B6 | B4) |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 53-02
+W:http://www.naturjodler.ch/code 53.htm  (with AUDIO)
+%September 18, 2018

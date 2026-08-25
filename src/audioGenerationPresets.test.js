@@ -1,6 +1,7 @@
 import {
   audioGenerationUnavailableMessage,
   defaultPresetForTask,
+  formatAudioGenerationError,
   isTaskAvailable,
   linkTitleForTask,
   listAvailableQualityPresets,
@@ -67,5 +68,12 @@ describe('audioGenerationPresets', function() {
       provider: { provider: 'audio_cpp', message: 'Sidecar not reachable' },
     })).toMatch(/audio\.cpp sidecar is not available/);
     expect(audioGenerationUnavailableMessage({ ok: true })).toBe('');
+  });
+
+  test('formatAudioGenerationError explains missing audio.cpp models', function() {
+    expect(formatAudioGenerationError(
+      'audio.cpp HTTP 500: {"error":{"message":"unknown model id: stable-audio-3-medium"}}'
+    )).toMatch(/stable-audio-3-medium/);
+    expect(formatAudioGenerationError('')).toBe('Audio generation failed');
   });
 });

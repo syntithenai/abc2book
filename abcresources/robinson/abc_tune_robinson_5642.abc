@@ -1,0 +1,24 @@
+X:11
+T: dr Alt  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:2/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "gemütlich" d | B3F | D2F2 | B2c2 | d3D | F2e2 | dF Fd | c3F | 
+E2d2 | ce Fc | B3F | D2Fc | !breath! !fermata!B3d | B3F | D2F2 | 
+"rit." B2c2 | d3D | F2e2 | dF Fd | c3F | E2d2 | "rit." ce Fc | !fermata!B3 ||
+[P:B] "fröhlich, zügiger" B | Ac Fc | E2FF | cE Fc | Bd FB | D2FF | fd FB | 
+Ac Fc | E2FF | fe Fc | BD FB | D2Fd | !breath! !fermata!B3B | Ac Fc | E2FF | cE Fc | 
+Bd FB | D2FF | fd FB | Ac Fc | E2FF | fe Fc | !fermata!B3 ||
+[P:C] "langsam, feierlich" Dc BD | F2dc | B3F | Dc BD | F2dc | B3D | F2f2 | e2F2 | d2cA | !fermata!B4 |]
+W: Reihenfolge: A-B-C-B
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-16
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 22, 2018

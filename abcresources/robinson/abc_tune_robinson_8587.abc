@@ -1,0 +1,22 @@
+X:2
+T:the Duke of Buccleuch
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 2
+K:F major
+%%staves {1 2}
+V:1
+FGAc fgag | fdcA GFDG | FGAc fgag | fcde f2 f ::
+g | \
+afge fcdf | dfAf GFDg | afge fcdf | cAde f2 f :|
+V:2 clef=bass octave=-2
+L:1/4
+[fac'] [fac'] [fac'] [fac'] | [fb] [fa] [fb] [fb] | \
+[fac'] [fac'] [fac'] [fac'] | [fac'] [fbd'] [fac'] [fac']/ :: \
+z/ | [fa] [fb] [fa] [fb] | [fb] [fac'] [fb] [fb] | \
+[fac'] [fb] [fa] [fb] | [fa] [fb] [fac'][fac']/ :|

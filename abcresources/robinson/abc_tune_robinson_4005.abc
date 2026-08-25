@@ -1,0 +1,18 @@
+X:63
+T:Mazurka  CF (mz09290)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.169 (mz09290) orig. C,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"e>G e3c | "G7"B>d a2g2 | f>G f3B | "C"c>e a2g2 | c'>e c'3b | "Dm"a>d a3g |  "G7"f>G e2d2 |1 "C"c2c2z2 :|2 
+"C"c2c2 Bc |: "G"d>^c d>b a>g | "D7"g2 ^fAc2 | d>^c d>c' b>a | "G"a2 gB d2 | d>^c dbg2 | "C"e>^d ec'a2 | 
+"D7"g>^f ed ba |1 "G"g2g2 Bd :|2 "G"g2g2z2 |: "G7"a>aB2a2 | Ba fba2 | "C"g>gc2g2 | cg eag2 | 
+"G7"f>f G2f2 | Gf da gb | gb fa gB |1 "C"c2c2z2 :|2 "C"c2c2 A_B || [K:F] "F"A3B =Bc | a>c a2 gf | 
+"C7"e3f gb | G6 | e3f gb | Ge cg eb | "F"a3b =bc' | c4 AB | A3B =Bc |  
+a>c a2 gf | "C7"e3f gb | G6 | b>c b2 c>b | "F"a>c a2 c>a | "C7"g>b e>g c>e | "F"f2f2z2 |] 
+% mz09290

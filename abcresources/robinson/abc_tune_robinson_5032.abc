@@ -1,0 +1,18 @@
+X:118
+T:Mazurka (Tommaso Arzalesi) FBb (mz02114)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.322 (mz02114) orig. F,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+K:F major
+AB [P:A] | "F"cA a2"Bb/F"gf | "F"cA c2cf | "C7"feg2gb | "F"baf2AB | cAa2"Bb/F"gf | "F"cAc2cf | 
+"Bb"d^c df "C7"eg |1 "F"f2f2AB :|2 "F"f2f2ef [P:B] |: "C"^fg ge ag | "G7"gff2de | fe fd gf | "C"fee2ef | 
+^fg ge c'=b | "F"^ga a2de | {/g}"G7"fe fd ag |1 "C"c2c2ef :|2 "C"c2c2"_>Teil A"z2 || [P:C] [K:Bb] ("Bb"f2g2a2) | 
+(c'>bd3)(f | c'>)(b d2).f2 | "Cm"a>gc4 | c2d2e2 |  "F7"ag c3e | "Bb"g>fB4 | ff gg aa | 
+c'>b d3f | c'b ab fd | "Cm"f=e _e4 | g2 ^fg "F7"ag | "Bb"gf =ef dB | "F7"dc =Bc GA | "Bb"B2b2"_Fine"z2 |] 
+% mz02114  (4 Nov 2016)

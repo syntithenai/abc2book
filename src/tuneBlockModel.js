@@ -129,7 +129,8 @@ export function blocksFromTune(tune, options) {
   })
   const withStrains = attachStrainIndicesToBlocks(blocks, strains.length)
   const uniqueLyricSections = countFirstOccurrenceLyricSections(withStrains)
-  if (strains.length && uniqueLyricSections && strains.length !== uniqueLyricSections) {
+  // One melody chart + several lyric verses is normal; only multi-vs-multi mismatches.
+  if (strains.length > 1 && uniqueLyricSections > 1 && strains.length !== uniqueLyricSections) {
     withStrains.forEach(function(block) {
       block.warnings = (block.warnings || []).concat(['strain_lyric_count_mismatch'])
       block.confidence = Math.min(block.confidence || 1, 0.55)

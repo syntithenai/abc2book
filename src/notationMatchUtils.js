@@ -167,6 +167,18 @@ export function scoreTitleArtistMatch(candidateTitle, candidateArtist, title, ar
 }
 
 /**
+ * True when both artist strings are non-empty and match exactly or by
+ * meaningful substring (e.g. "Paul Simon" vs "Simon, Paul").
+ */
+export function artistsLooselyMatch(left, right) {
+  const a = normalizeMatchText(left)
+  const b = normalizeMatchText(right)
+  if (!a || !b) return false
+  if (a === b) return true
+  return meaningfulSubstringOverlap(a, b)
+}
+
+/**
  * Prefer tuneMeta.name (clean The Session tune title) when scoring candidates.
  */
 export function scoreNotationCandidate(candidate, title, artist) {

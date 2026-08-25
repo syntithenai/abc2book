@@ -15,15 +15,38 @@ export function tuneHasNotation(tune) {
   return typeof tune.notes === 'string' && !!tune.notes.trim();
 }
 
+function tuneFromAbcText(abcText, tunebook) {
+  if (!abcText || !tunebook || !tunebook.abcTools) return null;
+  if (typeof tunebook.abcTools.abc2Tunebook === 'function') {
+    const tunes = tunebook.abcTools.abc2Tunebook(abcText);
+    if (Array.isArray(tunes) && tunes.length && tunes[0]) return tunes[0];
+  }
+  if (typeof tunebook.abcTools.abc2json === 'function') {
+    return tunebook.abcTools.abc2json(abcText);
+  }
+  return null;
+}
+
 export function importedTuneFromCandidate(candidate, tunebook) {
-  if (candidate && candidate.tune && typeof candidate.tune === 'object') {
-    return candidate.tune;
+  const tune = candidate && candidate.tune && typeof candidate.tune === 'object'
+    ? candidate.tune
+    : null;
+  if (tune && tuneHasNotation(tune)) {
+    return tune;
   }
   const abcText = candidate && candidate.abc ? String(candidate.abc) : '';
-  if (!abcText || !tunebook || !tunebook.abcTools || typeof tunebook.abcTools.abc2json !== 'function') {
-    return null;
+  const parsed = tuneFromAbcText(abcText, tunebook);
+  if (parsed && typeof parsed === 'object') {
+    if (tune) {
+      return Object.assign({}, tune, parsed, {
+        id: tune.id,
+        name: tune.name || parsed.name,
+        composer: tune.composer || parsed.composer,
+      });
+    }
+    return parsed;
   }
-  return tunebook.abcTools.abc2json(abcText);
+  return tune;
 }
 
 /**

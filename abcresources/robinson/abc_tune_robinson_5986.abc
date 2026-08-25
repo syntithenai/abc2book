@@ -1,0 +1,22 @@
+X:1
+T:Kreuzpolka.  FC (kp07025) ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.151  (kp07025) orig. F,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Kreutpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"AG/A/ BA | "C7".Gz!>!c2 | c=B/c/ ed | "F".cz!>!f2 | AG/A/ BA | "C7"AGG2 | G^F/G/ AG | "F"GFF2 | 
+"F"AG/A/ BA | "C7"Gz!>!c2 | c=B/c/ ed | "F"cz!>!f2 | AG/A/ BA | "C7"AGG2 | "G7"GD "C7"EG | "F"FA Fz :| [K:C]
+[P:B] |: "C"G>G AG | "G7"Bz!>!B2 | G>G AG | "C"cz!>!c2 | cB AG | "G7"BAG2 | BA GF | "C"AGE2 | 
+"C"G>G AG | "G7"Bz!>!B2 | G>G AG | "C"cz!>!c2 | cB AG | "G7"BAG2 | BA GB | "C"ce cz :| [K:F]
+[P:C] |: "F"{/c}ff/e/ dc | "C7"{/B}edB2 | {/B}ee/d/ cB | "F"{/B}dcA2 | {/c}ff/e/ dc | {/B}"C7"edB2 | {/B}ed ce | "F"fa "_>Teil A"fz :| 
+%W:Parts: ABCD
+%W:Anmerkung H.C.: Titterten, Seltisberg 109
+% kp07025
+% July 2, 2018

@@ -1,0 +1,15 @@
+X:143
+T:Mazurka  FBb (mz00831)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.186 (mz00831) orig. F,Bb-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:F major
+"F"c>dc2f2 | c>d c>BA2 | "C7"B>cB2g2 | "F"a>b agf2 | c>dc2f2 | c>d c>BA2 | "C7"B>cB2 g>a | "F"f2f2z2 :| 
+|: "Bb"d>d d>f e>d | "F"c>aa2c2 | "C7"B>gg2B2 | "F"A>ff2A2 | "Bb"d>d d>f e>d | "F"c>aa2c2 | "C7"B>gg2e2 | "F"f2f2z2 :| [K:Bb] 
+"Bb"d>ff2f2 | g>ff2f2 | b>a g>f e>d | "F7"f2e2e2 | A>B c>d e>f | .a2!>!a4 | A>B c>d e>f | "Bb".g2!>!f4 | 
+d>ff2f2 | g>ff2f2 | b>a g>f e>d | "F7"f2e2e2 | A>B c>d e>g | "Bb"f>bb2d2 | "F7"e>c'c'2a2 | "Bb"b2b2z2 |]
+% mz00831

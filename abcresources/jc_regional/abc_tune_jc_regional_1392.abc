@@ -1,0 +1,19 @@
+X: 50
+T:Bojarka
+C:Serbia
+S:Aman Folkraft
+F: http://www.youtube.com/watch?v=UvvdeRSE5KY
+M:3/4
+L:1/8
+Q:1/4=192
+K:GMin
+%%MIDI program 40
+%%MIDI beat 72 62 52 4
+%%MIDI chordprog 43
+%%MIDI bassvol 89
+%%MIDI chordvol 48
+%%MIDI gchord fzczcz
+|:"Adim"c2 d2 e2 |"Bb"d2cBcd   |"F"B2A2F2 |"Cm"G2 cBce |
+  "Bb"d2 cBcd  |"Bb"B2 A2 F2 |"Gm"G4c2   |"Gm"G6      :|
+|:"F"F2 G2 A2 |"Bb"B2 edcd     |"F"B2A2F2    |"Gm"G2 cBce |
+  "Bb"d2 cBcd  |"F"B2 A2 F2 |"Gm"G4c2   |"Gm"G6      :|

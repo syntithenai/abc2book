@@ -1,0 +1,28 @@
+X: 57
+T:Miss McPherson Grant's Jig -- of Ballindalloch
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:21 - 2
+K:A major
+%%staves {1 2}
+V:1
+E | \
+E2 A A2 F | GAB Bcd | c2 E (AG).A | ~B3 E3 | \
+E2 e e2 c  | dcd Bcd  | cde fed      | cBA GFE |
+E2 A A2 F | GAB Bcd | c2E (AG).A | ~B3 E3 | \
+E2 e e2 c | dcd Bcd | !trill!cBA EFG | A3 A2 ||
+E | \
+C2 E A2 =G | {G}FEF D2 F | {F}d2 c BcA | ~G3 E2 E | \
+!f!FGA Bcd | cde fga | gfe Bc^d | e3 e2 z |
+!p!f2 D fed | {c}e2 c ecA | FGA BcA | ~G3 E3 | \
+!f!F2 d E2 c | D2 B C2 e | {d}cBA EFG | A3 A,2 |]
+V:2 clef=bass octave=-2
+z | A3 a3 | e3 g3 | a3 A3  |  e3 e3 | A3 a3 | b3 g3  | a3 d3 |  [Ee]3 [Ee]3  | \
+    A3 a3  | e3 g3  | a3 A3    | e3 e3 | A3 a3  |  b3 g3 | a3 d3 | A3 A2  || \
+z | A3 c3 |  d3 d2c | B3 ^d3 | e3 e3 | d3 d'3  | c'3 a3 | b3B3 | e3 e3 | \
+    d3 d'3 | c'3 a3 | d3 ^d3 | e3 e3 | d3 c3 | B3 A2d | e3 e3 | A3 A2 |]

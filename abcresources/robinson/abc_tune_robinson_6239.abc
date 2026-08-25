@@ -1,0 +1,21 @@
+X:1
+T:Schottisch  CG (st07815)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.185  (st07815) orig. C,G
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] e/f/ | "C"gc' c>e | "G/"ed/^c/ dd/e/ | fa B>d | "C"dc/B/ ce/f/ | a/g/^f/g/ c'd/e/ | f/e/'d/e/ gc | "G7"e/d/^c/d/ f>B | "C"cc cB/c/ || [K:G] 
+[P:B] "C"db ba/g/ | .a!>!g2f/e/ | "D7".e!>!d2f/a/ | "G".c'!>!b2B/c/ | db ba/g/ | .a!>!g2f/e/ | "D7".e!>!d2a | "G"gg gg/g/ ||  [K:C] 
+[P:C] ("C"g2 e)c'/c'/ | ("G7"c'2b)B/c/ | {/e}d^c de/d/ | "C"{/d}cB cg/g/ | (g2 e)c'/c'/ | ("F"c'2a)B/c/ | "G7"{/e}d^c de/d/ | "C"cc cz |] 
+W:
+%W:Parts: ABC
+W:Anmerkung H.C.: 13. Aug 1949, Liestal
+%W:Anmerkung Hrsg,:
+% st07815
+% Aug 28, 2018

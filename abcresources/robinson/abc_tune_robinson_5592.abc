@@ -1,0 +1,21 @@
+X:331
+T:Walzer CGF (wz06628) da capo al fine
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.265 (wz06628) orig. C,G,F
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+%%partsbox
+P:ABCDABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"G3 | G2c | "G7"c3 |  B3 | FEF | BzA | ("C"A3 | G3) | E^DE | AzG | "G7"zde | f3 |1 
+FEF | BzA | "C"zef | g3 :|2 G^FG | ezd | ("C"c3 | c)zz || [P:B] [K:G] "G"BG z/e/ | (e2d) | BGz/e/ | (e2d) | 
+"D7"cFz/A/ | cFz/A/ | "G0/D"ed^c | ("G/D"e2d) | "G"BGz/e/ | (e2d) | BGz/e/ | (e2d) | "Am"cEz/c/ | "G/D"BDz/G/ | "D7"Fed | 
+"G"Gzz || [P:C] [K:C] "C"ezd/c/ | dzc/B/ | "D7"czD | (B2A) | "G7"zF>G | (B2A) | "C"zC>E | A2G | ezd/c/ | dzc/B/ | 
+"D7"czD | (B2A) | "G7"zG>A | BAG | "C"c3 | cz"_Fine"z  [P:D] [K:F]|: ("C7"BAB) | ezd | (BAB) | ezd | (BAB) | cde | 
+"F"gf>d | c3 | ("Bb"fed) | "Gm"dzG | fed | "C7"ez^F/G/ | (cBA) | Ged | cB>E | "F"Fz"_d.c."z :| 
+% wz06628
+% May 11, 2017

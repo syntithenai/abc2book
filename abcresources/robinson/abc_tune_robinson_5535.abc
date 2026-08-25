@@ -1,0 +1,20 @@
+X:279
+T:Innig umschlungen (Walzer) GC (wz06394)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.137 (wz06394) orig. G,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+"G"dc>B | B2z | "C"gf>e | e2z | "D7"eF2 | eF2 | "G"ed>^c | d2z | dc>B | B2z | 
+"G7"ba>g | "A7"gf>e | "D7"d^cd | e2F | ("G"G3 | G)zz:: "B7"zB>B | (B^cB) | "Em"gfe | e^de | 
+"B7"zB>B | B^df | "Am"agf | "Em"gfe | "G"zg>g | (g3 | g)f>e | "D7"d3 | d^cd | (e2d) | 
+FB>A |1 "G"G3 :|2 "G7"G/A/ B/c/ d/e/ |: [K:C] "C"ec>E | (A2G) | dc>E | (A2G) | "G".d.d.d | "D7"^c/e/ d>=c | ("G"B.g).g | 
+"G7"g3 | "C"ec>E | (A2G) | dc>E | (A2G) | "D7"^FAc | ("G"e.d)g | "D7"fc'>a |1 "G"g^f"G7"=f :|2 "G"g/G/ ^F/G/ A/G/ || 
+|: ("G7"d3 | d/)g/ ^f/g/ a/g/ | ("C"e3 | e/)g/ ^f/g/ a/g/ | "G7"Bdf | .gg>f  | ("C"e3 | e/)g/ ^f/g/ a/g/ | 
+("G7"d3 | d/)g/ ^f/g/ a/g/ | ("C"e3 | e/)c/ B/c/ d/c/ | "F"c'2 (b/a/) | "C"g2 (f/e/) | ("G7"e2d) |1 "C"c/g/ ^f/g/ a/g/ :|2 "C"ccz |] 
+% wz06394
+% Dez 8, 2016

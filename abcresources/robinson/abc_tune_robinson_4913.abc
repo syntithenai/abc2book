@@ -1,0 +1,13 @@
+X:10
+T:Alter Engadiner Tanz (Schottisch) F (st02281)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.341 (st02281) orig. F
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/8
+K:F major
+c |: !>!"F"f3f | !>!"Am"e3e | "Bb"d>e fd | "F"cfA2 | "C7"Bd G>B | "F"Ac F>A | Ad "C7"c/B/A/G/ |1 "F"F2zc :|2 "F"F2zc/B/ || 
+|: "F"AcF2 | Ac cc/A/ | "Gm"BdG2 | Bd "C7"dc/B/ | "F"AcF2 | Ac cB/A/ | "C7"Gd cE |1 "F"F3c/B/ :|2 "F"F2z2 |]  
+% st02281  (Nov 9, 2016)

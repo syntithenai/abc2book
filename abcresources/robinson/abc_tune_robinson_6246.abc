@@ -1,0 +1,22 @@
+X:1
+T:Aus der Jugendzeit. Schottisch  FCBb  (st07121)  ABACDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S. 221  (st07121) orig. F,C,Bb
+T: Tänze aus Lampenberg und Reigoldswil. S.220-229.
+S:Überliefert durch Thommen, Karl Fluhbacher und Paul Suter
+%%partsbox
+P:ABACDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] ("F"Ac) ("C7"Bd) | ("F"d/c/)(=B/d/) A>f | "C7"ed cB | "F"Adc2 | (Ac) ("C7"Bd) | "F"d/c/=B/c/ A>f | "C7"ed BG | 
+"F"FA Fz |: [P:B] [K:C] "C"c>G cd | eG !>!e2 | !>!e(f/e/) dc | "G7"cBB2 | d>G de | fGf2 | 
+f(g/f/) .e.d |1 ("C"dc)c2 :|2 "C"cc "C7"B"_>Teil A"_B || [P:C] [K:Bb] ("Bb"f3d) | (f3d) | "F7"[ec]c/c/ c[Ac] |
+[FA][Az] [cf] | ("Bb"f3d) | (f3d) | "F7"ec A>c | "Bb"BB Bz |: [P:D] [K:F] "F"c2 (=B/c/d/c/) | fA d>c | 
+"C7"BG d>c | "F"AF d>c | c2 (=B/c/d/c/) | fA d>c | "C7"ed BG |1 "F"FA Fz :|2 "F"F2"_Teil C"z2 |] 
+%W:Parts: ABACDC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% st07121
+% Sep 11, 2018

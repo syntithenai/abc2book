@@ -1,0 +1,24 @@
+X:1
+T:Weisliger-Walzer  GC  (wz07033)  ABCA
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.155  (wz07033) orig. G,C
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+d  [P:A] |:("G"e2d) | (B2d) | ("D7"F2A) | (c2d) | (f2e) | (c2e) | ("G"G2B) | d2g | (a2g) | (B2d) | ("Am"f2e) | 
+A2c | ("D7"e2d) | (b2a) |1 ("G"g3 | g)zd :|2 ("G"g3 | g)zz [P:B] |: "G"dBd | (g2d) | "D7"dcd | (f2d) | 
+dcd | (a2d) | (f2d) | ("G"g2d) | dBd | (g2d) | "D7"dcd | (f2d) | dcd | (a2d) | def |1 
+"G"gzz :|2 "G"gzG |: [P:C]  [K:C] "C"c>ag | (ed)c | "G7"B>gg | f2G | B>ag | fed | "C"c>ag | 
+e2G | c>ag | edc | "G7"B>ag | f2G | B>ag | fed | "C"c2e/d/ |1 czG :|2 c"_>Teil A"zz |] 
+W:
+%W:Parts: ABCA
+%W:
+W:Anmerkung H.C.: (Wenslingen)
+% wz07033
+% June 11, 2018

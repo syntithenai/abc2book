@@ -1,0 +1,15 @@
+X:126
+T:Ländler  G (LD05883)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.336 (LD05883) orig. G-Dur
+S: "Riebgärteler", Tänze aus Halisberg. S.319-338
+S: Aus dem Repertoire von Johann und Melchior Zenger.
+%%MIDI program 21
+R:Ländler
+O:Switzerland
+M:3/4
+L:1/8
+K:G major
+Bc |: "G"db ag fe | dG Bed2 | "D7"dF Aed2 | "G"dG Bed2 | db ag fe | dG Bed2 | 
+"D7"dF Ae dF |1 "G"G2z2Bc :|2 "G"G2z2Bd |:  "C"^de c'=d "D7"fc' | "G"ba gB ed | "D7"^cd Ad =cd | 
+"G"Bb fg ^cd | "C"^de c'=d "D7"fc' | "G"ba gB ed | "D7"DF Ac df |1 "G"g2z2Bd :|2 "G"g2z2z2 |] 
+% LD05883

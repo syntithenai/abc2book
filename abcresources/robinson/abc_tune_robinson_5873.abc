@@ -1,0 +1,32 @@
+X:1
+T:Hergiswiler-Juiz  Bb  ABCC*
+T:Melk Blättler (10.4.1915-9.3.2005)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F/D/|d>F F/e/ | c>F F/d/ | B2F | DB/D/ F/f/ | c2F | 
+E d/c/ F/c/  | B>A B/c/ | !fermata!d2 F/D/ | d>F F/e/ | c>F F/d/ | 
+B2F | D B/D/ F/f/ | c2F | E"rit."d/c/ F/c/ | (B3 | B)z ||
+L:1/4
+M:3/4
+[P:B] f/d/ | c e/F/ F/e/ | c2f/e/ | Bd/F/ F/d/ | B2d/B/ | Ac/F/F | 
+f>e d/c/ | B>A B/c/ | !fermata!d2f/d/ | c e/F/ F/e/ | c2f/d/ | 
+Bd/F/ F/d/ | B2d/B/ | Ac/F/F | f>"rit."e d/c/ | (B3 | B)z || 
+M:3/4
+[P:C] E/F/ | G>^FG | e>d c/e/ | F>DF | d>cB | c>FF | 
+e>F A/c/ | B>A B/c/ | !fermata! !breath!d2 E/F/ | G>^FG | e>d c/e/ | 
+F>DF | d>cB | c>FF | e> !fermata!F  !fermata!A/!fermata!c/ | (B3 | B)z |]
+W:
+W:* Reihenfolge: A - B - C langsam - C Wiederholung schnell
+W:
+W:notiert Edi Gasser. Angaben: André von Moos
+W:UJV-Naturjodelsammlung: Code-Nr: 34-01
+W:http://www.naturjodler.ch/code 34.htm  (with AUDIO)
+%May 31, 2018

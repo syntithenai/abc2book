@@ -1,0 +1,20 @@
+X:7
+T:Galopp  FCBb (GL07366) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.308 (GL07366) orig. F,C,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+"F".f2.a2 | c'a/a/ (!>!f2 | f)e/f/ gf | "C7"edG2 | .c2.e2 | ge/e/ (!>!c2 | c)d/c/ =Bc | "F".d.c .Az | 
+.f2.a2 | c'a/a/ (!>!f2 | f)e/f/ gf | "C7"ed.G2 | .c2.b2 | "F".b2.a2 | "C7".a2.g2 | "F"ff fz || [K:C] 
+|: "G7"GB de | f2 e>d | "C".d2.c2 | !>!e4 | "G7".a2.g2 | !>!B4 | "C".a2.g2 | !>!c4 | "G7"GB de | f2e>d | "C".d2.c2 | 
+"C"!>!e4 | "Dm".a2.d'2 | "G7".b2.g2 |1 "C"(c'4 | c'2)z2 :|2 "C"(c'4 | "C7"c'2)_B2 |: [K:F] ("F"A4 | A)(B =Bc) | d(c =Bc) | f4 | 
+"C7"f(e ^de) | g4 | "F"g(f ef) | a4 | (A4 | A)(B =Bc) | d(c =Bc) | f4 |  ("Gm"d2g2) | "C7"fe de | 
+"F"f2 a>c | f2z2 :| [K:Bb] "Bb"f2 d>e | f2 b>a | "Cm"a2 g>^f | g4 | "F7"f2 A>B | c2.e2 | "Eb"e2 "F7"d>c | 
+"Bb"B4 | f2 d>e  | f2 b>a | .a2.g2 | !>!"Eb"^c'4 | "Bb/F"d'2 c'>b |  "F7"ba ga | "Bb".b2 b>b | b2z2 |] 
+% GL07366
+% July 10, 2017

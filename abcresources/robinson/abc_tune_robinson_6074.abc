@@ -1,0 +1,21 @@
+X:1
+T:Polka  CG (pk06842)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.25  (pk06842) orig. F,C
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] {g}"C"c'e e>a | "Dm"gf f>a | "G7"gd' d'>a | "C"g/e/g/a/ e>g | {/g}c'e e>a | "Dm"gf f>A' | "G7"bg d'>b | "C"c'c' c'z :| [P:B] [K:G] 
+|: "G"b{/b}d'  g{/g}b | "D7"afd'2 | d'{/d'}f d'{/d'}f  | "G"d'/b/g/a/ b2 | b{/b}d'  g{/g}b | "D7"afd'2 | fd/f/ a>f | 
+"G"gg g"_>Teil A"z :: [P:C] "G"GB d>e | (d2d/)G/B/d/ | ed g>a  | ("D7"g2.f2) | ff f>A | (d2d/)d/f/a/ | d'e' d'>g | 
+"G"b2gG | GB d>e | (d2d/)G/B/d/ | ed g>a  | ("D7"g2.f2)  | f/f/f e/e/e | d/d/d c/c/c | e/e/e da | "G"g"D7"f "G"gz :|  
+W:
+W:Anmerkung H.C.: Oberdorf 2
+% pk06842
+% Dec 4, 2017

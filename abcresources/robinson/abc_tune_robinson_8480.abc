@@ -1,0 +1,29 @@
+X:33
+T:Miss Barbara Stewart, West Park
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:13 - 2
+K:C major
+%%staves {1 2}
+V:1
+{B}c2 (G>c) E<C G2 & C2x4C2  | d2 (A>d) F<D A2 & D4x2F2| \
+[Cc]2 (G>c) E<CG>E | D<d-d>e (f>e)(d>c) |
+{B}c2 (G>c) E<C G2 & C2x4C2  | d2 (A>d) F<D A2 & D4x2F2| \
+[Cc]2 (G>c) E<CG>E | D<d-d>e (f>e)(d>c) |]
+c<ge<g c<g e2 | f<ad>e f>ga>f | \
+e<cg>e (a>g)(f>e) | d<BG>B ~c2 c2 |
+e<gc<g e>gc>e | f<ad>e f>ga>f | \
+e>fg>e a<fd>c | B<GA>B ~c2 c2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Cc] [Cc] [CC] [Ee] | [Ff] [Ff] [Dd] [Dd] | [Ee] [Ee] [Cc] [Cc] | [Gg] [gd'] [gbd'] [gbd'] | \
+[Cc] [Cc] [CC] [Ee] | [Ff] [Ff] [Dd] [Dd] | [Ee] [Ee] [Cc] [Cc] | [Gg] [gd'] [gbd'] [gbd'] |] \
+[Cc] [Cc] [Cc] [Cc] | [gd'f'] [gd'f'] [gd'f'] [gd'f'] | \
+[Cc] [Cc] [Cc] [Cc] | [gd'f'] [gd'f'] [c'e'g'] [c'e'g'] | \
+[Cc] [Cc] [Cc] [Cc] | [gd'f'] [gd'f'] [gd'f'] [gd'f'] | \
+[cc'] [cc'] [Ff] [Ff] | [Gg] [Gg] [cc'] [cc'] |]

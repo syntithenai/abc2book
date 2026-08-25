@@ -1,0 +1,13 @@
+X:6
+T:La Marion Plouro
+R:bourree
+H:The phrygian scale is like a minor scale with a flat second note.
+Z:id:hn-bourree-6
+M:3/8
+L:1/16
+Q:1/8=195
+K:Aphr
+e2 | c4 c2 | B2 c2 d2 | e2 f2 f2 | e2 a2 g2 |
+e2 d2 c2 | B2 c2 d2 | e2 f2 g2 | a4 :|
+a2 |: d2 e2 f2 | a2 g4 | e2 d2 B2 | e2 d2 ^c2 |
+d2 e2 f2 | a2 g4 | e2 d2 B2 |1 A4 A2 :|2 A4 ||

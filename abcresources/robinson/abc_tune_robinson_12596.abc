@@ -1,0 +1,29 @@
+X:483
+T:Rondo.2voices. RH.483
+R:Rondeau
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:6/8
+L:1/8
+Q:3/8=100
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] A|A>BA (Adf)|g3 e2g|fad edc|d3- d2f|(ec).A d2f|(ecA) d2(f/e/)|Bcd cdB|F3 E2z|
+[V:2] z|F3 D3|C3- C2A|D2F A2A|dAF D2z|zG2 FED|C2G FED|G2G FGE|D3 D2A|
+%
+[V:1] F3 D3|C3- C2A|DFG A2A|dAF D2z|z2G FED|G2G FED|G3 A3|dAF D2||
+[V:2] A>BA Adf|g3 e2g|(fdB) (ABc)|d3- d2A|(BGd) A2A|(BGd) A2A|Bge cec|ddd d2||
+%
+[V:1] A|d3 A/B/A/G/F/E/|Ddd dAd|eee ece|f3 g3|a3 (e/f/e/d/c/B/)|AAA AEA|c6|e6|
+[V:2] A|D3 F/G/F/E/D/C/|DDD DFD|CCC CAC|DDD DB,D|A3 E/F/E/D/C/B/|A,2z z2z|AAA AEA|ccc cAE|
+%
+[V:1] acd efe|dBB B2d|cea c>dB|A3- A2||B3 dcB|f3 cde|dcB dcB|ABc F3|B3 dcB|f3 cde|dcB BcA|(B3 B2)z|
+[V:2] CAB cdc|BGG G2B|A2C E2E|AEC B,2||B,3 DCB,|F3 ABc|B3 B,3|F3 F3|B,3 DCB,|F3 ABc|B3 F2F|B,DF B,2z|
+%
+[V:1] A3 ABc|d2d dcB|AGB AGF|E2E EFG|A3 ABc|d2d ede|f2d B2e|(d3 c)AA|^ABB zcc|edd zee|fAG FED|A3- A2|]
+[V:2] F3 (FGA)|B2B BAG|FDG FED|C2C CDE|F3 E3|D3 C3|D3 G3|A3 A3|G3 G3|F3 C3|dAG FED|A,3 A,2|]

@@ -1,0 +1,22 @@
+X:185
+T:Schottisch FBb (st02067)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.300 (st02067) orig. F,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABCAB
+R:Schottische
+M:2/4
+L:1/8
+K:F major
+ c>f |[P:A] "C7"ee dd | !>!B2B>e | "F"dd cc | !>!A2A>c | ("C7"cB) (Be) | !>!e2B>d | "F"dc cf | 
+!>!c2 c>f | "C7"ee dd | B2B>e | "F"dd cc | A2c>c | "G7"=BB dd | !>!g3!>!f | "C"ef/e/ "G7"de/d/ | 
+"C"c2 (cd) || [P:B]  ("C7"e2g2 | b2) de | "F"f2 .a.f | .c2cf | "C7"e>c c>f | e>c cg | "F"f2 af | 
+c2 (cd) | ("C7"e2g2 | b2) de | "F"f2 af | c2cf  | "Bb"d>d dg | "C7"e>e de | "F"f2"C7"a>g | 
+"F"f2"_Fine"z2 [P:C] |: [K:Bb] ("Bb"d2f2 | g2f2) | d>d c>d | !>!"F7"e3z | (e2f2 |  a2g2) | fc =Bc | 
+"Bb"d3z | (d2f2 | g2f2) | "F"c>c Ac | f3z || [K:F] "C7"e>c de | "F"fg !>!a2 | "C7"ga !>!b2 | 
+{/b}"F"afc2 | "C7"d>c de | "F"fg !>!a2 |1 "C7"ga be | "F"ff fz :|2 "C7"c>c e/c/e/g/ | "F"c'2 "_>Teil A"c>f |] 
+W:
+W:Amerkung H.C.: Gramofon Jon Fontana
+% st02067  (Nov 1, 2016)

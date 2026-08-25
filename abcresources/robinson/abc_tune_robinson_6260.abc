@@ -1,0 +1,20 @@
+X:1
+T:Walzer, nach Kress  GC (wz06827)
+T: Basel II. Tänze aus Augst. S.6-42.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.20  (wz06827) orig. G,C
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+"G"d3 | def | g3 | gfe | "D7"e2d | f2d | a2d | d'c'a | "G"d3 | def | 
+g3 | gfe | "D"d>fa | "A7"^c>ea | "D"d>dd | dzz :: "D7"d2f | a2^c |  "G"ddg | b3 | 
+"D7"dc'b | a3 | "G"dba | g3 | "D7"d2f | a2^c | "G"ddg | b3 | "D7"dc'b | daf  | 
+"G"g>gg |1 gzz :|2  gzc' |: [K:C]  "G7"b2a | g2f | "C"eca | g3 | "G7"fBc' | b2a | "C"gca | 
+g2c' | "G7"b2a | g2f | "C"eca | g3 | "G7"fBc' | b>ag | "C"c>cc |1 c2c' :|2 czz |] 
+W:
+W:Anmerkung H.C.: Sissach, Ormalingen, Häfelfingen, Läufelfingen, Arisdorf, Muttenz, Var. Ittingen
+% wz06827
+% Nov 13, 2017

@@ -1,0 +1,15 @@
+X:108
+T: Marsch CF (st05154)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.384 (st05154) orig. C,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:2/4
+L:1/8
+R:Schottische
+O:Switzerland
+K:C major
+c | "C"cd ef | g2a2 | "G7"g2B2 | "C"c2z2 |: "C"e2 g>f | ef/e/ dc | "G7"B2da | f2zG | f2 a>g | fg/f/ ed |1 "C"e2 gc' | g2zG :|2 
+"C"c/d/e/f/ "G7"gB | "C"cc cz |: "G7"gBg2 | zG Bd | "C"fec2 | zG A>G | "G7"GfB2 |1 zG A>G | "C"Gec2 | zg/g/ gg :|2 
+"G7"Gg fB | "C"c/d/e/f/ "G7"gB | "C"cc cc/c/ || [K:F] "F"c2d2 | e2f2 | "C7"e3d | G3E/F/ | G2A2 | B2e2 | 
+"F"d3c | A3A/B/ | c2d2 | e2f2 | "Gm/Bb"a3g | d3d | "C7"cd/c/ ce | a3g | "F"ff/f/ ff | f2 z3 |] 
+%June 10, 2016

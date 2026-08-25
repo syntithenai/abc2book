@@ -1,0 +1,25 @@
+X:1
+T:Mey scheeni Muirä. F (st10352)
+T:Hanny Christen. Bd.IX Uri II, Schwyz, Unterwalden I.
+T:Tänze aus Unterwalden (S.420-427). Zusammenstellung von Hanny Christen. S.427
+T:Überliefert durch Wilhelm Kallenbach (1876-1936), Beckenried/Nidwalden
+%%MIDI program 21
+O:Switzerland
+M:4/4
+L:1/4
+K:F major
+G | "F"A A G F | "C"G c2 d | e c "C7"B G | "F"A F2 G | \
+A A G F | "C"G c2 d | e c "C7"d e | "F"f3 c |
+f f g f | "C"e c c d | e c "C7"B G | "F"A F2 G/2A/2 |\
+A A G F | "C"G c c d | e c "C7"B G | "F"F3 ||
+G | "F"A A G F | "C"G c c d | e c "C7"B G | "F"A F2 G |\
+A A G F | "C"G c2 d | e c "C7"d e | "F"f3 c |
+"F"f f/2f/2 g f | "C"e c c d | e c "C7"B G | "F"A F2 F/2G/2 |\
+"F"A A G F | "C"G c c d | e c "C7"B G | "F"F3 |]
+W:Mey scheeni Muirä (lit. Meine schöne Mauer, My beautiful Wall)
+W:
+W:see also the trad. Irish folksong 'Muirsheen Durkin' as the probable source of this nice little tune:
+W:By The Irish Rovers  (https://www.youtube.com/watch?v=ps6KJaPw_6I)
+W:https://www.youtube.com/watch?v=Rhpb_-QGPQ0  (1968)
+W:By The Dubliners (https://www.youtube.com/watch?v=jctpHh1gxM4)
+% Sep 6 2017

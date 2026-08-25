@@ -1,0 +1,28 @@
+X:2
+T:Le Petit Accord\'eon
+R:valse musette
+D:Joe Burke
+O:France
+Z:id:hn-musette-2
+M:3/4
+Q:1/4=200
+K:Em
+B,2 |: "Em"G6 | "B7"FE^DEFG | "Em"E3 FGF | E4 d2 | "Am"c6 | "E7"BA^GABc | "Am"A3 BcB | A4 A2 |
+"B7"^d6- | ^dB^c^def | "Em"g4-gf |1 geBGEG | "D"A4-AF | "C"GFE^DEG | "B7"F6 | B4 B,2 :|
+[2 geBGEF | "C#dim"G4 EG | "B7"F2 G2 F2 | "Em"E6- | E2 D3E ||
+|: "D7"FGABcB | AGFDEF | "G"GFGABc | d3 BAG |
+"D7"~F3 GAB | ~c3 AFA | "G"G2 GABc | d3 BAG |
+"D7"FGABcB | AGFDEF | "G"G2 GABc | d3 BAG |
+"D7"F2 FGAB | c2 cAFA | "G"G2 GFGA |1 G2 D3E :|2 G4 B,2 ||
+|: "Em"G6 | "B7"FE^DEFG | "Em"E3 FGF | E4 d2 | "Am"c6 | "E7"BA^GABc | "Am"A3 BcB | A4 A2 |
+"B7"^d6- | ^dB^c^def | "Em"g4-gf |1 geBGEG | "D"A4-AF | "C"GFE^DEG | "B7"F6 | B4 B,2 :|
+[2 geBGEF | "C#dim"G4 EG | "B7"F2 G2 F2 | "Em"E6- | E2 "E"^G2A2 ||
+K:E
+"E"B6 | "C#dim"c6 | "E"B6- | B2 e2 f2 | "E"(3gag (3fgf (3efe | "B"(3ded (3cdc (3BcB | "F#m"AGF^EFG | A3 GAB |
+"F#m"c6 | "B7"d6 | "F#m"c6- | c2 f3g | "F#m"(3aba (3gag (3fgf | "C#m"(3efe (3ded (3cdc | "E"(3BcB ^AB eg | b2 G2 A2 |
+"E"B6 | "C#dim"c6 | "E"B6- | B2 e2 f2 | "E"(3gag (3fgf (3efe | "C#7"c'4 b2 | "F#m"b4 a2 | a3 bc'b |
+"F#m"af ca fc| af ca fc | "E"ge Bg eB | ge Bg eB | "B7"fd Bf dB | fd Bf dB | "E"e3 ee2 | e4 ||
+K:Em
+B,2 |: "Em"G6 | "B7"FE^DEFG | "Em"E3 FGF | E4 d2 | "Am"c6 | "E7"BA^GABc | "Am"A3 BcB | A4 A2 |
+"B7"^d6- | ^dB^c^def | "Em"g4-gf |1 geBGEG | "D"A4-AF | "C"GFE^DEG | "B7"F6 | B4 B,2 :|
+[2 geBGEF | "C#dim"G4 EG | "B7"F2 G2 F2 | "Em"E6- | E4 ||

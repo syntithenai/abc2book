@@ -1,0 +1,27 @@
+X:7
+T:Wiler-Juiz. 1982  Bb  ABBCC
+T:Thomas Wieland  (* 8.11.1953)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABBCC
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F dB DG F3 BD2d2c2B2A3C D2E2 !fermata!F4 
+G>F cE Fc EF eA B2 dB F3F dB DG F3B 
+D2d2c2B2 A3CD2E2  !fermata!F4 G>F cE Fc EF eA B4 ||
+[P:B] FBc2E2 FA d>c B2D2 FB e>d c2E2 FA f>e d2 Bd 
+F3Bc2E2 FA f>ed2D2FB e>dc2E2FAd2c2B4 ||
+L:1/4
+[P:C] F/F/F>ddBed | "*"c2F | f2d | "*"c2F | f>e d/c/  B>cd  
+F2F/F/ F>ddBed |"*"c2F | f2d | "*"c2F | fed c B2 |]
+[P:X] "* diese Motive können so gejodelt werden" cF/F/F | z4"_oder"  | cF/F/ F/F/ |]  
+W:
+%W:Reihenfolge: A-BB-CC
+W:notiert Edi Gasser. Angaben: Thomas Wieland
+W:UJV-Naturjodelsammlung: Code-Nr: 21-08
+W:http://www.naturjodler.ch/code 21.htm  (with AUDIO)
+%May 20, 2018

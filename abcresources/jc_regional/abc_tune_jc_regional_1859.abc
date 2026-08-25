@@ -1,0 +1,33 @@
+X: 233
+T: Moravac
+O: Serbia
+S: Ciga Despotovic vol. 4
+M: 2/4
+L: 1/8
+Q: 1/4=240
+P:ABCDEDE
+K:Bb
+%%MIDI gchord fzzz
+%%MIDI program 74
+%%MIDI bassprog 26
+%%MIDI bassvol 60
+P:A
+   | B2         |:"f"c2 cB  |"c"c2 cB   |"f"c2 cB  |"f" c2 cB\
+   |"c" c2 cB   |"f" c2 cB  |[1 "c"c2 f2|"f"c2 B2  :|\
+    [2 "c" c2 cA|F2 z2      |
+P:B
+  |:"bb" B4     |e2 d2      | d2ed      |"f" c4    |\
+    "bb" e2 d2  |d2 ed      |"f" c4     |c4        |
+    "bb" d2 fd  | e2 d2     |d2 ed      |"f" c4    |\
+    "bb" e2 d2  |d2 ed      |"f" c4     |[1 c4     :|[2 "f" A2 F2|
+P:C
+    "bb" d4     |"f" f4     |"bb" e4    |efd2      |\
+    d4          |"f"f4      |"bb" e4    |efd2      |
+    d4          |"f"f4      |"bb" e4    |efd2      |\
+    d4          |"f"bag2    |"bb" e4    |efd2      |
+P:D
+|:  "bb" B2cd   |e2 d2      |d2 ed      |"f" c4    |\
+    "bb" e2 d2  |d2 ed      |"f" c4     |[1 c4     :|[2 Bcde     |
+P:E
+|:  "f" fgaf    |"bb" bagf  |egfe       |dfed      |\
+    "f" c3B     |"bb" e2 d2 | d2  ed    |[1 cBcd   :|[2 "f" c2 AF|

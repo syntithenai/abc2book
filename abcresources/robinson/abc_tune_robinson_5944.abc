@@ -1,0 +1,34 @@
+X:3
+T:Bietstock-Juiz  Bb 
+T:Guido Waser
+T:Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+R:Naturjodel
+M:6/8
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FBc | d2d cBf | c2c BAG | F2f2dc | 
+B>cd FBc | d2d cBf | c2c BAG | F2f2dc | !fermata!B3 ||
+M:6/8
+[P:B] BAG | F2F fdc | B2B FGD | F2F fed | c3BAG | 
+F2f2ed | e2d2c2 | e3dBG | F2z BAG | F2F fdc | B2B FGD | 
+F2F fed | c3 BAG | F2f2ed | e2d2c2 | (B6 | B2)z ||
+M:6/8
+[P:C]  DEF | G2G ece | G2e dcB | F2F dBd | F2 FGD 
+F2F fed | c3 FGF | F2F fdc | B3 BA_A | G2G ece | 
+G2e dcG | F2F dBd | F3 FGD | F2F feF | d2d fcd | (B6 | B2)z || 
+M:4/4
+[P:D] d2c2 | B>G GF DFGF | E>F FA E>F GF | E>F FA EFGF | D>F FB d>e d>c | 
+B>G GF DFGF | E>F FA E>F GF | E>F FA EFGA |B4A4 || 
+M:6/8
+"Ausklang"  FBc | d2d cBf | c2c BAG | F2f2 dc | !fermata!B3 |]
+W:
+W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. Angaben: Guido Waser
+W:UJV-Naturjodelsammlung: Code-Nr: 62-02
+W:http://www.naturjodler.ch/code 62.htm  (with AUDIO)
+%October 05, 2018

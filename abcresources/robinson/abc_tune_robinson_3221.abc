@@ -1,0 +1,27 @@
+X:199
+T:Villager's Waltz,The. CJF.199
+R:Waltz
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:"(Der Freischutz)" is written on the title line. "C J Fox
+N:1831" is on the stave after the tune. - PJH
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:3/4
+L:1/8
+Q:1/4=90
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+notC:Carl Maria von Weber
+K:G major
+(DGB|edB)(DGB|edB)(DGB|dcA)(DFA|cBG)(DGB|\
+edB)(DGB|edB)(DGB|dcA)(DFA|G3)||!
+K:D
+(Ade|baf)(Adf|baf)(Adf|ag)e(Ace|gfd)(Adf|\
+baf)(Adf|baf)(Adf|age)(Ace|d3)||!
+(dgb|e'd'b)(dgb|e'd'b)(dgb|d'c'a)(dgb|c'bg)(dgb|\
+e'd'b)(dgb|e'd'b)(dgb|d'c'a)(dfa|g3)(GBd)|!
+g3{(a/g/f/g/)}(dgb|d'c'ad'c'a)|\
+d3{(e/d/^c/d/)}(dfa)|(c'bgc'bg)|\
+d3(dgb)|(d'c'ad'c'a)|(dcAdcA)|G3|]

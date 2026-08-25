@@ -1,0 +1,10 @@
+X:88
+T: L\"andler (nach Stamm) CG (LD05069)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+cc |: "C"c4eg | c4ea | "G7"ag fd B2 | "C"ag ecG2 | c4eg | c4ea | "G7"ag fd Bd |1 "C"c2z2cc :|2 "C"c2z2z2 ||  [K:G] 
+"D7"ed cA FD | "G"GB dgb2 | "D7"ag fe dc | "G"BG Bed2 | "D7"ed cA FD | "G"GB dgb2 | "D7"ag fd ef | "G"g2z2cc || [K:C]
+"C"c4eg | c4ea | "G7"ag fdB2 | "C"ag ecG2 | c4eg | c4ea | "G7"ag fd Bd | "C"c2z2z2 |]

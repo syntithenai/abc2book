@@ -1,0 +1,59 @@
+X:11
+T:Set of Quadrilles. AJH.011
+M:6/8
+L:1/8
+Q:3/8=120
+S:A.J.Hughes MS
+O:England
+A:Shropshire, N
+Z:Neil Brookes 2006
+B:Village Music project, Hughes, Albert
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesA.abc
+K:C major
+P:1st
+G"^$"|c3 e3|c3z GF|E2E EDE|G2F D2G|!
+d3 f3|d3 dcB|BAG GAB|d3 c2||!
+G|f2d dcd|e2c cBc|e2B GAB|c2e c2G|!
+f2d dcd|e2c cBc|d2B GAB|c3 Sc2||!
+z|A2A Adc|B2B Bdf|e2e dcd|e2e cBc|!
+A2A Aec|B2B Bdf|e2e ^g2g|"^DC"a2zz2|]!
+P:2nd
+M:4/4
+L:1/4
+Q:1/4=110
+c/d/|g/e/c/e/ ga|g/e/c/e/ ga|ggfe|d/c/d/e/ dc/e/|!
+g/e/c/e/ ga|g/e/c/e/ ga|g/e/g/e/ f/d/f/d/|c3||!
+c/d/|d/B/G/B/ dd|e/c/G/c/ ee|fg/f/ ef/e/|d/c/d/e/ dB/c/|!
+d/B/G/B/ dd|e/c/G/c/ ee|fg/f/ ef/e/|d"DC"d d|]!
+P:3rd
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+dS|dbb fag|d3 d2e|d2B d2B|d2c A2d|!
+dbb fag|e3 edc|Bdd dAF|A3 G2||!
+B|cAF d2c|Bdg b2g|c'af d2c|Bed d2c|!
+cAF d2c|Bdg b2g|fac' d'c'f|a3 g2S||!
+B|e3 g3|f3 afd|egb c'gf|e3 ^d2B|!
+e3 g3|c3 f2a|g2e f2^d|e3"DCapo" z2|]!
+P:4th
+Q:3/8=120
+K:D
+|:A|d2e f2e|d3 d2A|BGB AFA|BGB A2A|!
+d2e f2e|d3 d2a|agf ede|d3 Hd2:|!
+A/G/|F2A d2A|f2d e2c|d2B A2^G|A2G FAG|!
+F2A d2A|f2d e2c|d2B A2^G|"^inverse ferm sign"IA3 A2A|!
+e3 efe|d3 def|g3 gag|f3 f2A|!
+e3 efe|d3 d2f|ege dcB|A2A"^DCapo" A2|]!
+P:5th
+M:4/4
+L:1/4
+Q:1/4=110
+K:G
+|:.dd3/4d/4 .dd3/4d/4|.dd3/4d/4 dg|GB ed|dc A2|!
+.cc3/4c/4 .ee3/4e/4|.cc3/4c/4 .AA3/4A/4|FedF|\
+"^4 dots in spaces - fine?"A2Gz:|!
+|:B2c^c|dgBd|AfdF|GABc|!
+B2c^c|defg|FedF|A2GSz:|!
+|:.BB3/4B/4 .BB3/4B/4|.BB3/4B/4 Be|^deag|fbB2|!
+.BB3/4B/4 .BB3/4B/4|.BB3/4B/4 Bg|"^DCapo"fe ^d/e/f/d/|f2e2:|

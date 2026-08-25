@@ -1,0 +1,19 @@
+X:186
+T: Schottisch  FCBb (st08943)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.20 (st08943) orig. F,C,Bb-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+"F"ccc2 !>!f4 | "Bb"ddd2 !>!b4 | "C7"a3g a3g | "F"g2f2 agf2 | ccc2 !>!f4 | "Bb"ddd2 !>!b4 | "C7"a3g a3g | "F"f2a2 f2z2 :: [K:C]
+"G7"ggg2 bbb2 | "C"c'c'c'2g4 | "G7"g2ag f2d2 | "C"cdefg4 | "G7"ggg2 bbb2 | "C"c'c'c'2g4 | "G7"g2ba g2B2 | 
+"C"c2c'2 c'2"_>Teil A"z2 :: [K:Bb] [L:1/8] "Bb"dfb2 | ba c'>b | "Cm"acg2 | za a>b | acg2 | "F7"zb a>g | "Bb"fB dz | 
+zf g>f | dfd'2 | za c'>b | "Cm"acg2 | zb a>b | acg2 | "F7"zd ga | "Bb".b2 !>!"F7"a2 | "Bb"bb bz :|
+W:Parts: AB-AC
+W: Anm. H.C.: Oberiberg, Illgau/Muotatal, Ober\"ageri, Oberwyl/Zug, Vitznau, Altdorf, Schattdorf, Engelberg.
+W: Baselbiet, R\"uti/Zch.
+% st08943

@@ -21,8 +21,84 @@ function tokenWithDuration(token, slots, slotsPerBeat) {
     const inner = token.slice(1, -1).replace(/\d+$/, '');
     return '!' + inner + dur + '!';
   }
+  // Chord tokens: [CEG] or [CEG]4
+  if (token.charAt(0) === '[') {
+    const close = token.indexOf(']');
+    if (close > 0) {
+      const body = token.slice(0, close + 1);
+      return body + dur;
+    }
+  }
   const pitch = token.replace(/\d+$/, '');
   return pitch + dur;
+}
+
+function pitchBodyFromToken(token) {
+  const raw = String(token || '');
+  if (raw.length >= 2 && raw.charAt(0) === '!' && raw.charAt(raw.length - 1) === '!') {
+    return raw.slice(1, -1).replace(/\d+$/, '');
+  }
+  if (raw.charAt(0) === '[') {
+    const close = raw.indexOf(']');
+    if (close > 0) return raw.slice(1, close);
+  }
+  return raw.replace(/\d+$/, '');
+}
+
+/**
+ * Merge same-slot notes into chords (or keep highest) and clip overlapping
+ * durations so measure length stays honest (MIDI legato otherwise overfills bars).
+ */
+export function prepareEventsForAbcBody(events, options) {
+  const opts = options || {};
+  const slotsPerBeat = Math.max(1, opts.slotsPerBeat || 2);
+  const allowChords = opts.allowChords !== false;
+  if (!events || !events.length) return [];
+
+  const sorted = events.slice().sort(function(a, b) {
+    return a.slot - b.slot || a.durSlots - b.durSlots;
+  });
+
+  const merged = [];
+  sorted.forEach(function(event) {
+    const prev = merged.length ? merged[merged.length - 1] : null;
+    if (prev && prev.slot === event.slot) {
+      if (allowChords) {
+        const pitches = pitchBodyFromToken(prev.token).split(/(?=[_^=]*[A-Ga-g])/).filter(Boolean);
+        const nextPitch = pitchBodyFromToken(event.token);
+        if (pitches.indexOf(nextPitch) < 0) pitches.push(nextPitch);
+        pitches.sort();
+        const durSlots = Math.max(prev.durSlots || 1, event.durSlots || 1);
+        const chordToken = '[' + pitches.join('') + ']';
+        merged[merged.length - 1] = {
+          slot: prev.slot,
+          durSlots: durSlots,
+          token: tokenWithDuration(chordToken, durSlots, slotsPerBeat),
+        };
+      } else {
+        // Keep the longer / later-written note at this onset.
+        if ((event.durSlots || 1) >= (prev.durSlots || 1)) {
+          merged[merged.length - 1] = event;
+        }
+      }
+      return;
+    }
+    merged.push(Object.assign({}, event));
+  });
+
+  for (let i = 0; i < merged.length - 1; i += 1) {
+    const cur = merged[i];
+    const next = merged[i + 1];
+    const maxDur = Math.max(1, next.slot - cur.slot);
+    if ((cur.durSlots || 1) > maxDur) {
+      merged[i] = Object.assign({}, cur, {
+        durSlots: maxDur,
+        token: tokenWithDuration(cur.token, maxDur, slotsPerBeat),
+      });
+    }
+  }
+
+  return merged;
 }
 
 export function trimNotesForQuantization(notes, marginSec) {
@@ -40,15 +116,26 @@ export function trimNotesForQuantization(notes, marginSec) {
   } else {
     hi += margin;
   }
+  let loTick = null;
+  notes.forEach(function(note) {
+    if (note.startTick == null) return;
+    if (loTick == null || note.startTick < loTick) loTick = note.startTick;
+  });
   const trimmed = [];
   notes.forEach(function(note) {
     const start = Math.max(Number(note.start) || 0, lo);
     const end = Math.min(Number(note.end) || start, hi);
     if (end <= start + 0.001) return;
-    trimmed.push(Object.assign({}, note, {
+    const next = Object.assign({}, note, {
       start: start - lo,
       end: end - lo,
-    }));
+    });
+    if (loTick != null && note.startTick != null) {
+      next.startTick = note.startTick - loTick;
+      next.endTick = (note.endTick != null ? note.endTick : note.startTick) - loTick;
+      if (next.endTick <= next.startTick) next.endTick = next.startTick + 1;
+    }
+    trimmed.push(next);
   });
   const durationSec = trimmed.length ? Math.max(hi - lo, margin) : 0;
   return { notes: trimmed, durationSec: durationSec };
@@ -113,7 +200,11 @@ export function formatNoteEventsToAbcBody(events, options) {
   const beatsPerBar = opts.beatsPerBar || 4;
   const slotsPerBeat = Math.max(1, opts.slotsPerBeat || 2);
   const barSlots = beatsPerBar * slotsPerBeat;
-  if (!events || !events.length) {
+  const prepared = prepareEventsForAbcBody(events, {
+    slotsPerBeat: slotsPerBeat,
+    allowChords: opts.allowChords,
+  });
+  if (!prepared.length) {
     if (opts.totalBars > 0) {
       const empty = Array(opts.totalBars).fill(restToken(barSlots, slotsPerBeat));
       return joinAbcMeasures(empty);
@@ -121,7 +212,7 @@ export function formatNoteEventsToAbcBody(events, options) {
     return '';
   }
 
-  const splitEvents = splitEventsAtBarBoundaries(events, barSlots, slotsPerBeat);
+  const splitEvents = splitEventsAtBarBoundaries(prepared, barSlots, slotsPerBeat);
   const maxEnd = splitEvents.reduce(function(max, event) {
     return Math.max(max, event.slot + Math.max(1, event.durSlots || 1));
   }, 0);

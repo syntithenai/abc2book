@@ -1,0 +1,21 @@
+X:1
+T:Jubelklänge. Polka  CF (pk07023) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.153  (pk07023) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A]  "C"Gc/e/ a>g | "G7"ff/d/B2 | GB/d/ g>f | "C"ee/d/c2 | (Ge) e/d/c | ("Dm"Af) f/e/d | "G7"B/d/f/a/ g>B | "C"ce cz :| 
+[P:B] |: "C"e>d e>d | ec c/B/c | "G7"d>c d>c | "C"ecc2 | "G7"g>f g>f | "Dm"ad d/c/d | "G7"Bd/f/ e>d | "C"cc cz :| [K:F]
+[P:C] |: "Bb"f2d2 | "F"cc/B/A2 | "C7"G/A/B G/A/B | "F"Adc2 | "Bb"f2d2 | "F"cc/B/A2 | "Gm"G/A/B "C7"EG | "F"FA Fz :| 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.:
+% pk07023
+% July 3, 2018 (Claire Huguenin * 12.3.1954)

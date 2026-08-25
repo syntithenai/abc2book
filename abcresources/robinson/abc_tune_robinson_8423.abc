@@ -1,0 +1,27 @@
+X: 36
+T:Lowe's Hornpipe
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Hornpipe
+Z:Clark Bernst + Richard Robinson
+%%Page:13 - 2
+K:Bb major
+%%staves {1 2}
+V:1
+L:1/16
+de | \
+fedc (!trill!BA)(BF) G2B2- B2de | fedc (!trill!BA)(BF) G2c2- c2de | \
+fedc (!trill!BA)(BF) (GB)Ac (cB)AG | (FA)ce (dg)fe d2B2- B2 :|
+FE | \
+(DF)BF (DF)BF (EG)BG (EG)BG | (Ac)ec (Ac)ec (Bd)fd (Bd)fd |\
+(DF)BF (DF)BF (EG)BG (EG)BG | (FA)ce (dg)fe d2B2- B2FE | \
+(DF)BF (DF)BF (EG)BG (EG)BG | (Ac)ec (Ac)ec (Bd)fd (Bd)fd |\
+(DF)BF (DF)BF (EG)BG (EG)BG | (FA)ce (dg)fe d2B2- B2 |]
+V:2 clef=bass octave=-2
+L:1/8
+z | B2 bB ef B2 | B2bB e=efz | B2bB ec de | fa bf bBB :| \
+z | Bdfd egbg | fac'a bBdB | Bdfd egbg | fa bf BbBz | \
+Bdfd egbg | fac'a bBdB | Bdfd egbg | fa bf BbB |]

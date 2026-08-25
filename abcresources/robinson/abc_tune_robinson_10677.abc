@@ -1,0 +1,38 @@
+X:108
+T:Instilation Quick Step,The. JBs.108
+S:Jas.Blackshaw MS, 1837, N.Shropshire
+A:Shropshire, N
+Z:T. Weatherall 2006
+M:2/4
+L:1/8
+Q:100
+N:Some discord present.
+R:March
+V:1 name="First" sname=1
+V:2 name="Second" sname=2
+V:3 name="Horn" sname=H
+V:4 name="Trombone" sname=T
+%%staves [1 2]|[3 4]
+B:Village Music project, Blackshaw, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/blkshw.abc
+K:F major
+%
+[V:1]A/G/|FA Ac|(cf)   (fe)|.d.c .B.A|G/F/G/A/ GA/G/|!
+[V:2]C|A,F FA|(Ad) (dc)|.B.A .G.F|E/D/E/F/ EC|
+[V:3]z|c4|c4|c4|dd d z|
+[V:4]z|zc zc|zc zg|.a.g.f.e|gG Gz|
+%
+[V:1](FA) (Ac)|cf fg|aa g/f/g/a/|f3||!
+[V:2]A,F FA|Ac AB|cc B/A/B/c/|A3||
+[V:3]c2c2|c2cd|ee d/c/d/e/|c3||
+[V:4]zc zc|zc zG|ce gG|cGc||
+%
+[V:1]a/b/|d'f d'c'/=b/|c'f fg/a/|bg af|gc ca/b/|!
+[V:2]f/g/|a2ba/^g/|af fe/f/|ge fA|ee ef/g/|
+[V:3]z|c2c2|cc cz|zd zc|zG Gz|
+[V:4]z|c2f2|ge cB|B2c2|zg gz|
+%
+[V:1]c'f d'c'/=b/|c'f fg/a/|ba g/f/g/a/| f3|]
+[V:2]a2ba/^g/|af fe|dc d/c/d/e/|c3|]
+[V:3]c2c2|cc cz|fe d/c/d/e/|c3|]
+[V:4]c2f2|ge cG|F2G2|cGc|]

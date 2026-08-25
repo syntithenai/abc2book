@@ -1,0 +1,21 @@
+X: 32
+T:Miss G. Gordon -- Banff
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+B2 (FB) DBFB | c2 (Fc) AcFc | dBfB (gf)(ed) | ABcd cAGF |
+B2 (FB) DBFB | c2 (Fc) AcFc | dBfB (gf)(ed) | FBAc B2 B2 ||
+(de)fg (fb)ag | (gf)ed (ed)cB | Afcf dfcf | =egbg (!trill!fe)(dc) |
+fcaf gcbg | adgf (f=e)(dc) | fagb afcB | AGF=E F2 F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+BBDB | Ffff | bBec | ffFF | BBBB | Fffa | bBec | fFBB || \
+b[Bb][Bb][Bb] | [Bb][Bb][Bb][Bb] | ffba | c'c'cb | af=ec | B=Bc=e | fcfB | ccFF |]

@@ -1,0 +1,31 @@
+X:6
+T:Mattgrat-Juiz  Bb  ABC
+T:Franz Wallimann  (10.3.1923-14.11.2014)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+M:2/4
+L:1/8
+R:Naturjodel
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] B, DF | G3D | F2d2 | B2F2 | fd Gd | F2ec | (A4 | !breath!A) A, CE | 
+G3E | F2e2 | A2F2 | fe Ge | F2dc | B2FB | (d4 | !breath!d) B, DF | 
+G3D | F2d2 | B2F2 | fd Gd | F2ed | (A4 | !breath!A) A, CE | 
+G3E | F2e2 | A2F2 | "_jeder Ton breit"!fermata!f !fermata!e !fermata!d !fermata!c | (B4 | B) ||
+M:2/4
+[P:B] EF | G2e2 | c2G2 | eG Ge | F2d2 | B2F2 | fd Ge | F2ec | 
+A2F2 | fe Ge | F2dc | B2FB | (d4 | d)z EF | G2e2 | c2G2 | eG Ge | 
+F2d2 | B2F2 | fd Ge | F2ec | A2F2 | "_jeder Ton breit"!fermata!f !fermata!e !fermata!d !fermata!c | (B4 | B2) ||
+M:3/4
+[P:C] F>F | f3e cA | F3e dc | f3dB2 | F2d2 dg | 
+f3ec2 | F2d2c2 | B3A Bd | !breath!F4 F>F | f3e cA | F3e dc | 
+f3dB2 | F2d2dg | f3ec2 | F2d2c2 | (B6 | B2)z2 |]
+W:
+%W:Reihenfolge: A - B - C
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 30-04
+W:http://www.naturjodler.ch/code 30.htm  (with AUDIO)
+%May 29, 2018

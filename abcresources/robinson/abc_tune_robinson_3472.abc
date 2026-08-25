@@ -1,0 +1,17 @@
+X:30
+T:Erinnerungs-Polka CGF (pk00344)
+M:2/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"GG/2c/2 eg | "Dm"AA/2d/2 fa | "G7"gB B/2A/2B | "C"cG G/2^F/2G | GG/2c/2 eg | "Dm"AA/2d/2 fa | \
+"G7"GB B/2A/2B |
+ "C"cc cz :| [K:G] "G"d/2e/2d/2B/2 "D7"c/2d/2c/2A/2 | "G"Bgd2 | "D7"dc c/2B/2c | "G"ed d/2^c/2d | \
+d/2e/2d/2B/2 "D7"c/2d/2c/2A/2 | "G"Bgd2 |
+ "D7"dA/2B/2 cA | "G"GG Gz || [K:C] "G7"dd/2d/2 de/2f/2 | "C"ag gc/2e/2 | \
+"G7"gd/2e/2 fB/2d/2 | "C"cc cz |: [K:F] "Bb"ff ff |
+ "C7"ff ed | "F"dcc2 | zc d>c | \
+"C7"cBB2 |1 zB c>B | "F"BAA2 | zF Ac :|2 z"G7"f ed |
+ "C7"cc/2c/2 cc/2c/2 | cc cc || \
+"C7".e2.g2 | "F".f2.a2 | "C7"ag g/2f/2e | "F"ba a/2g/2f | "C7".e2.g2 | "F".f2.a2 | "C7"ag g/2f/2e | "F"ff fz |] 
+% pk00344

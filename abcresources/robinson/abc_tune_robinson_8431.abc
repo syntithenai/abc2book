@@ -1,0 +1,22 @@
+X: 29
+T:Miss Angus Botriphnie's Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 3
+K:Bb major
+%%staves {1 2}
+V:1
+D | \
+B,2 ~B2 Bdfd | cBAG FEDC | B,2 ~B2 Bdfd | c=Bc=E {E}!trill!F2 F :|
+B | \
+AFFB AFFd | eGcB AFFB | AFFB AFFd | eGcB {B}!trill!A2 (GF) |
+AFFB AFFd | eGcB AGFE | DEFG ABcd | egfA !trill!B2 B |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | BBBB | ffff | BbBB | ccff/ :| \
+z/ | ffff | eeff | ffff | eeff | ffff | eeff | BBfd | ef BB/ |]

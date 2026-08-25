@@ -1,0 +1,23 @@
+X:1
+T:Fleurette. Schottisch  FC ( st07024) ABCA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.151  ( st07024) orig. F,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"c2 A/F/A/c/ | "Bb"dd"F"c2 | "C7"ba/a/g2 | {/g}"F"ffc2 | c2A/F/A/c/ | "Bb"dd"F"c2 | {/g}aa "C7"ga/g/ | "F"ff f"_Fine"z :| [K:C]
+[P:B] |: "C"Ge ee | e>d c>c | "D7"ba aa | a3a | "G7"gb bb | b>a g>g | "C"fe ee | ee ez | 
+Ge ee | e>d "C7"c>c' | "F"ba aa | a3a | "G7".g!>!f2.b | "C".c'!>!e2.c | "G7".B!>!f2a/b/ | "C"c'c' c'z :| [K:F]
+[P:C] |: "F"c3a | f3e/e/ | "C7"ed dc | b3d | c3b | e3d/d/ | "F"dc cf | a3z | 
+c3a | f3e/e/ | "C7"ed dc | b3d | "Gm"g3d | "F"c3f | "C7"ec b>g | "F"ff "_>Teil A"fz :| 
+W:
+%W:Parts: ABCA
+W:Anmerkung H.C.: Ziefen 45, s.V. 247
+% st07024
+% June 24, 2018

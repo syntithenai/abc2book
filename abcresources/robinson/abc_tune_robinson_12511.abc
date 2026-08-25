@@ -1,0 +1,36 @@
+X:402
+T:Scotch Air.2voices RH.402
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C
+L:1/16
+Q:2/4=50
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] D3FA3B A3FA3B|D3Fd3B A3FE3F|D3FA3B A3FA3g|f3de3f d2d2d2z2|
+[V:2] (f6g2) f4z2d2|(f6g2) f4z2a2|f6g2 f4z2e2|d2z2 A2z2 F2A2F2z2|
+%
+[V:1] d3fa3b a3fa3b|d3fd'3b a3fe3f|d3fa3b a3fd'3g|f2e2d2f2 d2d2d2 zg|
+[V:2] f2z2f3g f3df3g|f3db3g f3dc3A|F3df3g f3dB3e|c2z2A2z2 F2A2F2 zA|
+%
+[V:1] f3e defg .a2.f2.e2.d2|c3Ae3A c3de3f|\
+f3e defg .a2.f2.e2.d2|B3gf3e d2d2d2 zg|
+[V:2] d8 f8|e4g4 e4c4|d8 f8|G4A4 D2A2F2z2|
+%
+[V:1] fgfe defg afba gfed|cABc defg abc'd' e'2 zg|
+[V:2] d2A2F2A2 F2z2 d2z2|A2e2B2e2 c2e2c2A2|
+%
+[V:1]fgfe defg afba gfed|^ab=ag fefg ad'c'b agfe|
+[V:2]d2A2F2A2 F2D2A2F2|G2B2G2B2 F2d2E2c2|
+%
+[V:1] dDEF GABc defg abc'd'|^g2g4g4g4g2|^g2g4g4g4g2|
+[V:2] d6z2 z8|d2=f4e2 d2f2e2d2|c2e2d2=f2 c2e2d2f2|
+%
+[V:1] a2AF ABcd e2cB cdef|g2(gf) (gf)(gf) .g2(gf) (gf)(gf)|gfga bagf edcB AGFE|]
+[V:2] ^c4z4 z2A^G ABcd|.e2(ed) eded .e2(ed) (ed)(ed)|e4z4 z8|]

@@ -1,0 +1,26 @@
+X:1
+T:Jubel-Polka  GC (pk07063)  ABC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.166  (pk07063) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCABC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A]  d| "G"g/g/g/g/ "D7"ff | "C"ee "D7"dd | "G"g/g/g/g/ fe | "D7"f3d | g/g/g/g/ ff | "C"ee "D7"dd | e/e/e/e/  dA | "G"B3d | 
+g/g/g/g/ "D7"ff | "C"ee "D7"dd | "G"g/g/g/g/ fe | "D"f3b | "A7"a>e eg | "D"f/g/a ad | "A7"e/f/g fe | "D"df dd || 
+[P:B] |:  ("D7"c/d/f) ff | bb aa | ("G"B/d/g) gg | aa gg | ("D7"A/B/c) cc | ff ec | "G"B/d/g gb | dd dd  | ("D7"c/d/f) ff | 
+bb aa | ("G"B/d/g) gg | ag dg | "Am"e2a2 | "G"gd b/b/b | "D7"ba b>a |1 "G"gb gd :|2 "G"gb gz ||  [K:C] 
+[P:C] |: ("G7"G>A) (G>A) | Gf ff | "C"e>g gg | ge dc | "G7"BB/B/  ff | "F"AA/A/ ff | "C"ec/e/ ge | "G7"dG/G/ GG | 
+(G>A) (G>A) | Gf ff | "C"e>g gg | ge dc | c'c' gg | e/f/g/e/ cc | "G7"dd/d/ gg | 
+"C"ed cg | c'c' gg | e/f/g/e/ cc |1 "G"d>g "D7"^fa | "G"gG/G/ GG :|2 "G7"d>f e>d | "C"ce "_>Teil A"cz |] 
+W:
+%W:Parts: ABC-ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,: 
+% pk07063
+% July 9, 2018

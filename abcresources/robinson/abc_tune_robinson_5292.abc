@@ -1,0 +1,21 @@
+X:59
+T:Im frischen grünen Wald (Mazurka) DAG (mz06371) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.124 (mz06371) orig. D,A,G
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:D major
+[P:A] "D"FA .B2.F2 | "A7"g2c2c2 | GA .B2.A2 | "D"f2d2d2 | FA d2F2 | "A7"Ecc2c2 |1 cBB2B2 | "D"dAA2A2 :|2 
+"A7"cBA2A2 | "D"d2d2z2 |: [P:B] [K:A] "A"AF ce"E7"B2 | "A"cA EAc2 | "E7"GdF2F2 | "A"AcE2E2 | AE ce"E7"B2 | "A"cA EAc2 | 
+"E7"Gd F2G2 | "A"A2A2"_>Teil A"z2 :: [P:C] [K:G] "G"ggd2g2 | d4B2 | "D7"d2A2d2 | "G"Bc d2d2 | gg d2g2 | "D"f4A2 | 
+"A7"a2^c2c2 | "D7"d2de ef | "G"ggd2g2 | d4B2 | "D7"d2A2d2 | "G"Bc d2d2 | ggb2b2 | "C"d'4c'2 | "D7"b2b3a | "G"g2g2"_Fine"z2 :| 
+W:
+W:Anmerkung H.C.: Bämbel 3/813, s.V.813
+% mz06371
+% Dez 8, 2016

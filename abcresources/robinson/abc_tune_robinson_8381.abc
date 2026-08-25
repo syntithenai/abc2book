@@ -1,0 +1,26 @@
+X:64
+T:Mrs Gordon of Park
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:27 - 1
+K:A major
+%%staves {1 2}
+V:1
+C<EE>F    E>C      E<A | C<E EE/G/    A<CB,>D | \
+C<E EE/G/ A>B      c<A | d>e f/e/d/c/ d/c/B/A/ {G}F2 & A2A2x4 :|
+e<c{c}a>g (a/g/)f/e/ a2  | e<c{g}a>g    (f/e/)d/c/ Bc/d/ | \
+e>cd>B    c>AB>G         | A<cF<A       E<C B,2 |
+e<c{c}a>g (a/g/)f/e/ a2  | e<c{g}a>g    (f/e/)d/c/ Bc/d/ | \
+(f/e/)d/c/ (e/d/)c/B/ d/c/B/A/ c/B/A/G/ & x4A2x2 | A<cF<A E<C B,2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Aa][Aa][Aa][Aa] | [Aa][Aa][Aa][Ee] | [Aa][Aa][Aa][Aa] | [Ff][Dd][B,B]/[Cc]/[Dd] :| \
+[ac'e][ac'e'][ac'e'][ac'e'] | [ac'e'][ac'e'][ac'e'][ebe'] | \
+[ae'][ge'][ae'][bd'e'] | [ac'e'][Dd][Aa][Eeg] | \
+[ac'e][ac'e'][ac'e'][ac'e'] | [ac'e'][ac'e'][ac'e'][Ee] | \
+[ac'e'][bd'e'][ae']/[c'e']/ [ed']/[fc']/ | [cc'][dd'][Aa][Ee] |]

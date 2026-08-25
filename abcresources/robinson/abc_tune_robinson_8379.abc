@@ -1,0 +1,51 @@
+X:70
+T:Mrs Capt Charles Gordon, Huntly
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+N:Slow when not danced
+N:the voicing is peculiar, but this is as it was written
+O:Scotland
+R:Strathspey
+Z:Clark Bernst
+%%Page:30 - 2
+K:A major
+(e/f/4g/4) | \
+a2 a>e f/b/a/g/ (a>e) & [A,CEA]2 [A,CEA]2 [DFA]2 x2 |\
+f<b b>a g<e e{g}f/g/ & ^d2 ^d2 x4 | \
+a2 (ae) (f/e/)d/c/ (d/c/)B/A/ |\
+F/B/G/B/ (A/f/)[Be]/d/ c<A A(e/f/4g/4) |
+a2 a>e f/b/a/g/ (a>e)  & [A,CEA]2 [A,CEA]2 [DFA]2 x2 |\
+f<b b>a g<e e{g}f/g/ & ^d2 ^d2 x4 | \
+a2 (ae) (f/e/)d/c/ (d/c/)B/A/   | \
+F/B/G/B/ (A/f/)[Be]/d/ c<A A ||
+f/g/ | \
+aAcA eAcA | (B/d/)c/e/ (d/c/)B/A/ B<F F(f/g/) & E2 E2 x4 | \
+aAcA eAcA | f/g/a/f/ g/b/a/g/ aA Af/g/  & x2 e2 x4 |
+aecA ecAC | D>F E<C B,B Bb/g/ | \
+f>b (a/g/)f/e/ f/e/f/g/ a>A & x4 A2 A2 | \
+F/B/G/B/ A/f/[Be]/d/ c<A A |]
+V:2
+L:1/4
+z/ | \
+z3 [A,CEA] | \
+[DFA] [B,FB] [EGB] [EGB] |\
+[CEA][CEA][DFA]F/D/ & x3A, |\
+V:2 clef=bass octave=-2
+L:1/8
+[Dd][Ed] [Fc][Ge] [Ace]2 [Ace]z | \
+V:2 clef=treble octave=0
+L:1/4
+z3 [A,CEA] | \
+[DFA] [B,FB] [EGB] [EGB] |\
+[CEA][CEA][DFA]F/D/ & x3A, | \
+V:2 clef=bass octave=-2
+L:1/8
+[Dd][Ed] [Fc][Ge] [Ace]2 [Ace] ||\
+z |\
+L:1/4
+[Aea] [Aea] [Aea] [Aea] | [Gg]/[Aa]/ [Bb]/[cc']/ [dd'][dd'] | \
+[cc'] [Aa] [Aa] [Aa] | [dd']/[Bb]/ [ebd']/[ebd']/ [ac'e'][ac'e'] |
+[ac'e'] [ac'e'] [Aa] [Aa] | [Dd] [A,A] [Ee] [Ee] | \
+[eb] [ac'e'] [ad'] [ac'] | [dd']/[ed']/ [fc']/[ge']/ [ac'e'][ac'e']/|]

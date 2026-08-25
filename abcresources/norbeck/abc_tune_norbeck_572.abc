@@ -1,0 +1,10 @@
+X:232
+T:Tobin's Favourite
+R:jig
+Z:id:hn-jig-232
+M:6/8
+K:D
+DFA ~d3|ecA cde|~f3 ~g3|ecA GFE|
+DFA dcd|ecA cde|~f3 gec|edc d3:|
+|:dfa agf|efg efg|fef ~g3|ecA GFE|
+DFA dcd|ecA cde|f/g/af gec|edc d3:|

@@ -1,0 +1,20 @@
+X:212
+T:Rheinländer CF (RL06370) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.124 (RL06370) orig. C,F
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Schottische
+M:4/4
+L:1/8
+O:Switzerland
+K:C major
+e>f |: "C"g2c2c2g>^g | "G7"a2B2B2d>e | f2g2 {/g}b3a | "C"ag ecG2e>f |  g2c2c2g>a | "Em"b2e2e2e>^f | 
+g>^f g>b "B7"f>e f>g |1 "Em"e6e>f :|2 "Em"e6ef |: "C"g3^f ga ge | "Dm"a2d2d2de |  "G7"f3e fg ba | "C"a2c2c2 ef | 
+g3^f ga ge | "Dm"d3^c "G7"de fg | ("C"ag) .e.c "G7"gf dB |1 "C"c2e2c2ef :|2 "C"c2e2c2 (A>c) |: [K:F] "F"a6 (A>c) | g6A>c | 
+.f2.f2.g2.f2 | "C7"G6G>B | f6G>B | e6dc | =B2c2d2c2 | "F"A6(A>c) | a6(A>c) | g6(A>c) |   .f2.f2.g2.f2 | 
+"Gm"G6(e>d) | "C7"c2e2e2e>d | "F"c2f2f2 c^c | "G7"d2g2"C7"e2g2 |1 "F"f2f2f2A>c :|2 "F"f2f2f2fg |: "A7"a3e ab ag | 
+"Dm"f2e2d2 ef | "G7"g3d ga gf | "C"e2d2c2cd | e2z2z2ef |  g2z2z2ga | !>!"C7"b2!>!a2 !>!b2!>!a2 | b2c2c2 (A>c) | "F"a6 (A>c) | 
+g6(A>c) | f2f2g2f2 | "G7"G6 (e>d) | "C7"c2b2b2 (e>d) | "F"c2a2a2c^c | "G7"d2g2"C7"e2g2 |1 "F"f2f2f2fg :|2 "F"f2f2f2z2 |] 
+% RL06370
+% Dez 8, 2016

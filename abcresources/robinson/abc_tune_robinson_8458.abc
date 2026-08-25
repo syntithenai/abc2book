@@ -1,0 +1,23 @@
+X: 35
+T:Sir Walter Scott Bart
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:13 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+"^Slow with Expression"
+(B>d) {d}b>a .g/.f/.e/.d/ {d}c2 | (B>d) {d}!trill!b>c' d'!trill!fgb | \
+(B>d) {d}!trill!b>a {a}g/f/{f}e/d/ {d}c2 | B>DB,f (e/d/)(!trill!c/B/) df ::
+(d>B) F>{Bd}f (e/d/)c/B/ {F}G2 | B,~B D~f (e/d/).c/.B/ dF | \
+[EBg]>f (!trill!g/a/)!wedge!b/!wedge!d/ (f/e/)!trill!.d/.e/ {d}!trill!c2 | \
+(~F3/G//A//) \
+(!trill! B3/(3d//e//f//) \
+(e/d/)(!trill!c/B/) df :|
+V:2 clef=bass octave=-2
+B2 b2 Bd f2 | B2 [Bb]2 Bd'e'd' | [Bb]2 [bd'][d'f'] e'/d'/c'/b/ [fa]2 | bBdB fa bB :| \
+b2 B2 [Ac][Bd] [Ee]2 | Bbbb fa bd' | e'd' e'b [fe'][bd'] [fa]2 | Bb Bb fa bB :|

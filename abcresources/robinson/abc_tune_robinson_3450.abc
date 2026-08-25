@@ -1,0 +1,15 @@
+X:10
+T: Chilbi-Polka (Kilbi Polka) BbFEb (pk00332)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.293 (pk00332) orig. Bb,F,Eb-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] "Bb"DF FF | "Eb"FG GG | "F7"FA cA | "Bb"BdF2 | DF FF | "Cm"EG GG | 
+"F7"FA cA | "Bb"BB Bz :: [P:B] [K:F] "F"cA A/G/A | "C7"BGG2 | BG/A/ Bd | "F"dcc2 | 
+cA AG/A/ | "Gm"BGG2 | "C7"GB GE | "F"FF F"_>Teil A"z :: [P:C] [K:Eb] "Eb"G2 B>G | "Ab"Acc2 | 
+"Bb7"Bd fd | "Eb"eB/c/B2 | G2B>G | "Ab"Acc2 |  "Bb7"B>A GF | "Eb"EE  Ez :|

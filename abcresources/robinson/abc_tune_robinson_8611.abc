@@ -1,0 +1,27 @@
+X:28
+T:Master Frank Romily
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:11 - 2
+K:F major
+%%staves {1 2}
+V:1
+cAFA cecA | dfcA G/G/G G2 | cAFA cbag | f<dc>!trill!A F/F/F F2 |
+cAFA cecA | dfcA G/G/G G2 | cAFA cbag | f<dc>!trill!A F/F/F F2 |]
+~f>g a<g fdcf | dfca g/g/g g2 | \
+f>g a<g fdcf | d<f!trill!c>A F/F/F F2 |
+~f>g a<g fdcf | dfca g/g/g g2 | \
+f>g a<g bgec | d<fc>!trill!A F/F/F F2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Ff] [cc'] [cc'] | [Ff] [Ff] [Ee] [Ff] | [Bb] [cc'] [Ff] [Ff] | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Ff] [cc'] [cc'] | [Ff] [Ff] [Ee] [Ff] | [Bb] [cc'] [Ff] [Ff] |] \
+[fac'] [fac'] [fbd'] [fac'] | [fbd'] [fac'] [cc'] [cc'] | \
+[fac'] [fac'] [fb]   [fac'] | [fbd'] [fac'] [fac'] [fac'] | \
+[fac'] [fac'] [fbd'] [fac'] | [fbd'] [fac'] [cc'] [cc'] | \
+[fac'] [fac'] [egc'] [gbc'] | [fbd'] [fac'] [fac'] [fac'] |]

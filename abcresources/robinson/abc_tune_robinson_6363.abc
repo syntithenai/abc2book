@@ -1,0 +1,24 @@
+X:1
+T:Walzer  CF (wz07007)
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.180  ( wz07007) orig. C,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] !>!"C"G3 | !>!G2z | GFE | "G7"D3 | !>!F3 | !>!F3 | FED | "C"C3 | !>!G3 | !>!G3 | GAB | 
+"F"c3 | cdc | "G7"BAG | fed |1 "C"czz :|2 "C"cz(E/F/) [P:B] |: "C"Ged | c2(E/F/) | Ged | 
+c2c | "G7"BD>E | F2A | "C"GC>D | Ez(E/F/) | Ged | c2(E/F/) | Ged | c2c | 
+"G7"Bd>e | f2B | "C"czB |1 cz(E/F/) :|2 czz |: [P:C] [K:F]  "F"F3 | A3 | ("C7"c3 | c)BA | G3 | .EA>G | 
+"F"F2c | fcA | F3 | A3 | ("C7"c3 | c)c>d | edc | BAG | "F"Fze | fzz :| 
+W:
+%W:Parts: ABC
+%W:
+%W:Anmerkung H.C.:
+% wz07007
+% June 22, 2018

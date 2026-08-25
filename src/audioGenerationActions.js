@@ -12,7 +12,7 @@ import {
   startPracticeTrackGeneration,
 } from './musicGenerationClient';
 import { buildPracticeTrackMidiScore, midiScoreToBlob } from './practiceTrackMidiScore';
-import { DEFAULT_RENDER_STYLE, getStylePreset } from './practiceTrackStylePresets';
+import { DEFAULT_RENDER_STYLE, shouldIncludeDrumGuide } from './practiceTrackStylePresets';
 import {
   TASK_LINKED_COVER,
   TASK_PRACTICE_TRACK,
@@ -229,7 +229,6 @@ export async function enqueuePracticeTrackJob(options) {
   }
 
   const renderStyle = plan.renderStyle || DEFAULT_RENDER_STYLE;
-  const stylePreset = getStylePreset(renderStyle);
   const midiScore = buildPracticeTrackMidiScore(tune, tunebook, plan);
   const buffer = await renderAbcToAudioBuffer(midiScore.abc, {
     chordsOff: false,
@@ -241,7 +240,9 @@ export async function enqueuePracticeTrackJob(options) {
     renderStyle: renderStyle,
     melodySource: 'notation_midi',
     includeChordLayer: false,
-    includeDrumGuide: stylePreset.includeDrumGuideDefault,
+    includeDrumGuide: shouldIncludeDrumGuide(renderStyle, activePlan),
+    guideAudioConditioning: true,
+    includeStyleMelodyStem: false,
     acknowledgeBarEstimate: true,
     presetId: presetId,
   }));

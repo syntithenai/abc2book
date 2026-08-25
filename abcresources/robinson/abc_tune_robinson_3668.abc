@@ -1,0 +1,16 @@
+X:208
+T: Schottisch CGF (st05030)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.327 (st05030) orig. C,G,F-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+[P:A] "C"g2g2 c2c2 | "G7"Bcde f2f2 | a2a2 B2B2 | "C"cdef g2g2 | c'2c'2 c2c2 | "Dm/F"a2a2 d2d2 | "G7"f2B2 e3d |1 "G7"dcBA "C"G4 :|2 "C"c2e2 c2z2 || [P:B] [K:G] 
+"G"d^cd^d e2d2 | dBcd e2d2 | "D7"agfe d2c2 | "G"Bgfed4 | d^cd^d e2d2 | dBcd e2d2 | "D7"c'bag fdef | "G".g4"_>Teil A"z4 || [P:C] [K:F] 
+|: "F"c6dc | c6dc | c2a2 f2d2 | c4 z2fg | "C7"T(f2e2) e2e2 | g3f edcB | "F"A2fg a2fa | "C7"c'4c'4 | 
+"F"c6dc | c6dc | c2ag "Bb"fefd | "F"c6c2 | "Bb"d6bd | "F"c6f2 | "C7"fede a3g | "F"f2f2 f2z2 :|
+% June 14, 2016

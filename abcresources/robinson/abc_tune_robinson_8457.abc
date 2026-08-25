@@ -1,0 +1,24 @@
+X:49
+T:Sir Robert Peel
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:21 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+F | \
+!trill!B2 (FE) DB,FD | CccB AFcA | B2 FE DB,FD | CcAF B2 B & x2E2D2D ::
+e | \
+dBfB dBfB | Gc-cB AFFe | dBfB dBfB | GcAF B2 B & x2 E2D2D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[B,B][B,B][B,B][Dd]  | [Ee][=E=e][Ff][Ff] | [B,B][B,B][B,B][B,B] | [Ee][Ff][B,B][B,B]/ ::\
+z/ | \
+[bd'f'][bd'f'][bd'f'][bd'f'] | [egc'][=egc'][fac'][fac'] | \
+[bd'][bd'][bd'][bd'] | [egc'][fac'][Bb][Bb]/ :|

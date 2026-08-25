@@ -1,0 +1,21 @@
+X:211
+T: Walzer (nach Sementa) CGF (wz02107)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.317 (wz02107) orig. C,G,F
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+K:C major
+EF [P:A] | "C"G>AG | zEF | G>AG | zEF | G2A | B2c | ("G7"c3 | B)DE | 
+F>GF | zDE | F>GF | zDE | FGA | Be>d | "C"d>cG | zEF | G>AG | 
+zEF | G>AG | zEF | GAB | cde | "F"f3 | zde | "Fm"f>ef | zcd | 
+"C"e>^de | zBc | "G7"d>ed | zBd | "C"cz"G7"B | "C"czz || [P:B] [K:G] "G"d/e/dg | b3 | 
+d/e/d b | d'3 | "D7"d'/^c'/ e'd' | d'c'/a/f |  "G"d'/^c'/ e'd' | d'b/a/g | d/e/dg | b3 | 
+d/e/d b | d'3 | "C"e/^d/ fe | "G"ed/b/g | "D7"f/g/ab | "G"gE"_>Teil A"=F || [P:C] [K:F] "F"d/c/ =B/c/ d/c/ | 
+azf | "C7"ebb | bzc | d/c/ =B/c/ d/c/ | bze | "F"fc'c' | c'zc | d/c/ =B/c/ d/c/ | 
+azf | "Bb"dd'd' | d'e'>d' | "F/C"d'c'/a/f | "C7"c'b/g/e | "F"fz"C7"e | "F"fz"_Fine"z |] 
+% wz02107  (Nov 3, 2016)

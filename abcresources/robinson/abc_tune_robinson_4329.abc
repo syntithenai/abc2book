@@ -1,0 +1,15 @@
+X: 93
+T: Ländler-Walzer FCBb (LD05600)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.54 (LD05600) orig. F,C,Bb-Dur
+S: Bauernkapelle 'Edelweiss', Faulensee (Bern)
+%%MIDI program 21
+R:Ländler  % Walzer
+O:Switzerland
+M:3/4
+L:1/4
+K:F major
+a |: "Gm/Bb"aga | "C7"bge |"F""tr"g>ff | f2 c/f/ | "C7"Tf>ee |1 e2 c/g/ | "F"Tg>ff |f2a :|2 
+e =B/c/ d/e/ | "F"f e/f/ a/g/ | fz G |: [K:C] "C"gec | A>GG | G/e/ e/G/ c/e/ | "G7"e/f/ f/G/ B | gfB | 
+A>GG |1 G/f/ f/G/ B/d/ | "C"c/e/ e/G/ c :|2 f/d/ B/G/ A/B/ | "C"czc/_B/ |: [K:F] "F"A/c/ c>c | d/c/ A/c/ f | A/c/ c>c | 
+"C7"d/c/ G/c/ e | e/g/ g>f | f e/^d/ e/=d/ |1 c/e/ e>d | "F"d c/B/ A :|2 c =B/c/ e/g/ | "F"fzTf/e/ || [K:Bb]  
+|: "Bb"fdB | FDB | "F7"AF>A | E2 Tf/e/ | fec | AFA |1 "Bb"BF>B | D2 Tf/=e/ :|2 "Bb"B A/B/ d/c/ | Bzz |]

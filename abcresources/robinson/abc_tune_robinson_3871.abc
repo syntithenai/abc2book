@@ -1,0 +1,14 @@
+X: 125
+T: Schottisch GC 
+T:Hanny Christen. Bd.IX Uri II, Schwyz, Unterwalden I. S.376 (st10485) orig. F,C,Bb-Dur
+M:2/4
+L:1/16
+I:abc-charset utf-8
+O:Switzerland
+K:G major
+"G"d2d2 ed^cd | "Am"e2e2 c'4 | "D7"f2f2 gfef | "G"g2g2 b4 | d2d2 ed^cd | "Am"e2e2 a3g | "D"f2a2 "D7"e3f |1 "D"d2d2 d2 z2 :|2  
+.d4 "E7"bc'be |: "Am"a4 "D7"abad | "G"g4 gagd | "D7"f2f2 e2e2 | "G"d4 "E7"bc'be | "Am"a4 "D7"abad | "G"g4 gagd | "D7"f2f2 e2d2 |1   
+"G"g4 "E7"bc'be :|2 "G"g2g2 g2 z2 :| [K:C] [L:1/8] "C"Gc eg | a3e | e/a/a e/a/a | "G7"fa a>G | GB df | a3f | f>a f>a | 
+"C"ea aG | Gc eg | a3e | e/a/e e/a/e | "G"dc' b>d | "D7"dc' c'd | "G"e>b b>e | "D7"da ad | 
+"G"g2 ag || "G7"f2 ba | f2 ba | "C"e2 ag | e2 dc | "G7"B>g f>g | f2 e>d | "C"c>c' ba | 
+g2 ag | "G7"f2 ba | f2 ba | "C"e2 ag | e2 dc | "G7"B>d f>a | "C"g/c'/c' eg | "G7"f/a/a gB | "C"cc cz |]

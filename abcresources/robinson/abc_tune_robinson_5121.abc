@@ -1,0 +1,21 @@
+X:199
+T:Spatzen-Galopp FCBb (GL02262)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.333 (GL02262) orig. F,C,Bb
+S: Bündner und Engadiner Tänze. S.330-349. Überliefert durch Giacomin Morell, Ardez.
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Gallop
+M:2/4
+L:1/8
+K:F major
+C [P:A] |: "F"AB/A/ GF | "C7"E2G2 | d2e2 | ("F"gf)c2 | AB/A/ GF | "C7"E2G2 | d2 c>E |1 
+"F"F2zC :|2 "F"F2zG [P:B] |: [K:C] "C"c>G Ec | "G7"B2G2 | ed AB | "C"d/c/B/c/ G2 | c>G Ec | "G7"B2G2 | 
+ed AB |1 "C".c2.c2 :|2 "C"c2"_>Teil A""C7"._B2 || [P:C] [K:Bb] "Bb"F2 d>c | B4 | F2BB | "F7"A4 | 
+F2 e>d | c4 | FA/c/ ff | "Bb"d2B2 | "F"f2 "Bb"=e>d | "F"dc/c/ cc | "C7"dc BG | "F7"F2z2 | 
+[P:D] |: "Bb"FD/F/ BB | "F7"A2z2 | FE/F/ cc | "Bb"B2z2 | d2cd | ("F7"f2e2) | A2 B/A/G/A/ | "Bb"B2"_Fine"z2 :| 
+W:
+W:der Spatz, die Spatzen (der Sperling) - the sparrow
+% GL02262  
+% Nov 6, 2016

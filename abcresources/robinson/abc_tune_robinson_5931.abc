@@ -1,0 +1,31 @@
+X:3
+T:Fomatt-Juiz. 2002  Bb  A-B-C
+T:Gaby u. Hubert Frunz-Oeler
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABC
+R:Naturjodel
+M:3/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+"Einleitung" B>cd | F3 | [df]2 [Bd]/[ce]/ |  [fc]3 | [cf]>[df] [ef] | !fermata![Af]2z || 
+[P:A] F| f>ed | e>dc | d>Bd | F>Bd | c>Ac | F>Ae | d>Bd | F2F | 
+ f>ed | e>dc | d>Bd | F>Bd | c>Ac | FAc | (B3 | B)zF | f/f/ f/e/d | e/e/ e/d/c | 
+d/d/ d/B/d | F>Bd | c/c/ c/A/c | F>Ae | d/d/ d/B/d | f2F | f/f/ f/e/d | 
+e/e/ e/d/c | d/d/ d/B/d | F>Bd | c/c/ c/A/c | Fdc | (B3 | B)z ||
+[P:B] B>cd | F3 | DFB | f>ed | d3 | c>de | F3 | EFf | dB/d/(F | F2)z | 
+DFB | dB/d/(F | F3) | DFB | f>e(d | d3) | cd/e/(f | f3) | Fdc | B3 || 
+M:C
+[P:C] BA | G>EG B | egfe | d>BBG | F2df | c>=Bcd | e2ef | 
+d>^cd=c | B2BA | G>EGB | egfe | d>BBG | F2df | c>=Bcd | 
+eFdc | (B4 | B2)BA | G/G/G/E/GB  | egfe | d/d/d/B/BG | F2df
+c>=Bcd | e2ef | d>^cd=c | B2BA | G/G/G/E/GB | egfe | 
+d/d/d/B/BG | F2df | c/c/c/=B/cd | eFdc | (B4 | B2) |]
+%W:Reihenfolge: A - B - C
+W:notiert Edi Gasser. Angaben: G+H Frunz
+W:UJV-Naturjodelsammlung: Code-Nr: 55-02
+W:http://www.naturjodler.ch/code 55.htm  (no AUDIO, Sept 2018)
+%September 23, 2018

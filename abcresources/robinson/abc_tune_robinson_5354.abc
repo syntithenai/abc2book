@@ -1,0 +1,23 @@
+X:114
+T: Natursänger-Polka  GCF (pk07422) ABACDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.334 (pk07422) orig. G,C,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+% P:ABACDC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+GA [P:A] |: "C"G2ed c2a2 | "G7"g2G2 G2GA | "C"G2ed c2a2 | g2G2 G2(gc') | ("G7"bd'){/a}g2  {/a}g2(bd') | ("C"c'e'){/a}g2  {/a}g2(c'e') | 
+("C"e'2.g2) ("D7"c'2^f2) | "G7"g2(ag) (ag)(ag) | "C"G2ed c2a2 | "G7"g2G2 G2GA |  "C"G2ed c2a2  |g2G2 G2(gc') | ("Dm/F"c'2d2) "G7"d2ba | ("C"g2c2) c2Bc | 
+("Dm"d2.a2) ("G7"B2.g2) | "C"c2e2 c2de :| [P:B] ("G"d2b2) .b2.b2 | ("D7"bc').c'.b a2de | (d2c'2).c'2.c'2 | "G"^c'd'd'=c' b2g2 | "C"e'3d' (c'b).c'.e' | 
+("G"^c'd')d'=c' b4 | ("D7"bc').c'.b a2ba | "G"g2(ag) (ag)"_>Teil A"(ag) |] [P:C] [K:F] [L:1/8] (c |: "F"a)(f c')(f | "Bb"d).b .bb/a/ | "C7"gG G(c'/g/) | 
+("F"a2 f)(c | a)(f c') (f | "Bb"d)b bb/a/ | "C7"gG G(c'/e/) |1 "F"f{/g}f/e/ fc :|2 "F"f{/g}f/e/ fa/b/ |] [P:D] "Dm"af/e/ dd' |  
+"Gm"bd' "Dm"aa/b/ | ag/f/ ed | "A7"^ca Aa/b/ | "Dm"af/e/ dd' | "Gm"bd' "Dm"ad'/e'/ | ("E7"f'^g) gg | "A7"a(A "C7"a)"_>Teil C"c || 
+W:
+W:Natursänger-Polka, nach Orlin (H 260/TN 68)
+% pk07422
+% Aug 18, 2017

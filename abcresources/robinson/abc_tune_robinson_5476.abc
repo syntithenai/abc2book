@@ -1,0 +1,20 @@
+X:225
+T:Schottisch BbEb (st06873) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.229 (st06873) orig. Bb,Eb
+T: Aus dem Repertoire der Dorfmusik Benken. S.222-236
+T:Überliefert durch Johannes Grass (*1871)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+D/F/ | "Bb"B2 "Eb"BB/B/ | "Bb"B4 [P:A] |: "Bb"Fd Fd | cB (B/A/B) | FB FB | "Cm"AG (G/^F/G) | Ge Ge | "F7"dc (c/=B/c)  | 
+cB AG | EF"Bb"D2 | Fd Fd | cB (B/A/)B | FB FB | "Cm"AG G/^F/G | Ge Ge | "F7"dc (c/=B/c) | 
+F!>!A2c | "Bb"BB Bz :: [P:B] ("F7"F>A) (B>c) | "Bb"d>gf2 | "F7"ee (e/d/)c | "Bb"dd (d/c/)B | ("F7"F>A) (B>c) | "Bb"d>gf2 |  
+"F7"ee e/d/c | "Bb"Bz Bz :: [P:C] [K:Eb] "Eb"G3(e | G3)e | dc =Bc | "Bb7"A3(d | A3) (d | A3) e | 
+dc =Bc | "Eb"G3e | G3e | G3e | dc =Bc | "Ab"f3e | d3c | "Eb"B3e | "Bb7"dc A>d | "Eb"ee ez :| 
+% st06873
+% March 16, 2017

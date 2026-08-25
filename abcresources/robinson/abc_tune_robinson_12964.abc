@@ -1,0 +1,34 @@
+X:99
+T:Lancers Quadrilles - La Dorset.2voices. RHu.099
+T:La Dorset.2voices. RHu.099
+S:R.Hughes MS,1823,Whitchurch,Shrops.
+N:Written across the double page.
+A:Shropshire - Whitchurch
+Z:Neil Brookes 2006
+M:6/8
+L:1/8
+Q:3/8=120
+B:Village Music project, Hughes, Richard
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesR.abc
+K:F major
+[V:1]cdc|[a2c2][ac][g2c2][gc]|f2c cdc|b2ba2a|g2z cdc|\
+a2a g2g|f2c cdc|dgB cde|f2z||!
+[V:2]z2z|F,2F,F,2F,|F,2zz2z|E,2E,F,2F,|C,2zz2z|\
+F,2F,F,2F,|F,2zz2z|B,3C3|C2z||!
+%
+[V:1][cC][dD][cC]|[e2E2][eE][f2F2][fF]|[^f2^F2][gG] [cC][dD][cC]|\
+[BB,][cC][BB,] [AA,][BB,][AA,]|[G2G,2]z cdc|\
+a2ag2g|f2f fed|c2AB2E|F2z||!
+[V:2]z2z|B,2B,A,2A,|G,3"segno above dcr" C,D,C,|B,,C,B,, A,,B,,A,,|\
+G,,2C,z2z|z6|z3B,3"segno"|C2zC,2z|F,2z||!
+%
+[V:1]ABA|d2df2f|e2A ABA|d2df2f|e3ABA|\
+f2f e2e|d2d_e2e|d2d^c2c|d2z||!
+[V:2]z2z|A,2A,A,2A,|A,3z2z|A,2A,A,2A,|A,3z2z|\
+z3A,2A,|B,2B,G,2G,|A,2A,A,,2A,,|D,2z||!
+%
+[V:1]ABA|^c2c d2d|^d2e aba|gag fgf|e2z ABA|\
+f2f e2e|d2d_e2e|d2d^c2c|"D.C. al fine"d2z|]
+[V:2]z2z|A,2A,A,2A,|A,3[A,A,,][B,B,,][A,A,,]|\
+[G,G,,][A,A,,][G,G,,] [F,F,,][G,G,,][F,F,,]|\
+[E,2E,,2]zzzz|D2DA,2A,|B,2B, G,2G,|A,2A, A,,2A,,|D,2z|]

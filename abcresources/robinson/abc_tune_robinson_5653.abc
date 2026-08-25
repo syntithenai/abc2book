@@ -1,0 +1,33 @@
+X:9
+T: Vom  Loppergrat  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:6/8
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,FD B,F2 | A,FE A,F2 | A,FE A,F2 | B,FD B,F2 | FdB Fd2 | 
+FeA Fe2 | FeA FeA | BDF B (3DFB | AcF/A/ E/F/eA | B6 || 
+M:3/4
+[P:B] F2 | F/A/A/c/ g>f  e>d | c4GF | F2e2GF | e4GF | F2d2BF | 
+d4B,2 | D/F/B/d/ g>f e>d | c4GF | F2e2GF | e4A2 | !fermata!B6 || 
+[P:C] F/E/D/C/ | B,B,/B,/ B,2 B,/B,/B,/D/ | F2B,2 F/F/F/d/ | ee/d/c2 F/F/F/e/ | 
+dd/c/B2 F/E/D/C/ | B,B,/B,/ B,2  B,/B,/B,/D/ | F2B,2 F/F/F/d/ | ee/d/ cF eA | !fermata!B4z2 || 
+[P:D] F2 | c3BA2 | e4A2 | B3GF2 | B3G FB | A3GF2 | A3G FA | B3GF2 | 
+(B6 | B2)Ec f/e/d/c/ | B3GF2 | B3G FA | A3GF2 | A2G2A2 | !fermata!B4z2 || 
+M:2/4
+L:1/16
+[P:E] F4 | dFFF cFFF | BFFF DFFF | cFFF EFFF | BFFF !fermata!d4 | 
+[L:1/4] fe | dc | BD | FB | D/F/B | AC | FE/F/ | eA | !fermata!B2  |]
+%W: Parts: A-B-C-D-E
+W:
+W:ab Odeon-Schellackplatte mit Jodlerklub Echo vom Pilatus, Hergiswil a. See
+W:Aufnahme: Mustermesse-Gebäude, Blauer Saal, Basel - am 28.06.1929
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-25
+W:http://www.naturjodler.ch/tradition-3.htm  (with AUDIO)
+%April 24, 2018

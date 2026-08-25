@@ -1,0 +1,27 @@
+X: 265
+T: Lebedushka
+O: Russia
+F: http://www.youtube.com/watch?v=ABEVjWer3Tg
+F: http://www.youtube.com/watch?v=Nm1gXu_aH2U
+S: Barinya Russian Folk Dances
+M: 2/4
+L: 1/32
+Q:1/4=72
+K:G
+%%MIDI gchord ff
+%%MIDI program 25
+%%MIDI bassprog 32
+|:"g" dddd dddz "d" BBBB BBBz|"f#" cccc cccz "a" AAAA AAAz|
+  "d" BBBBBBBz GGGGGGGz      |"c" cccccccc cccccccc        |
+  "d" dddddddz dddddddz      |dddz cccz BBBz AAAz          |
+  "g"BBBBBBBzGGGGGGGz        |[1Gzzz Azzz Bzzz czzz        :|[2 "g" GGGGGGGG z8|
+Q:1/4=144
+L:1/8
+|:"g".d2 "d" .B2             |"f#".c2 "a".A2               |\
+  "d".B2.G2                  |"c" .c2.c2                   |"d".d2.d2         |
+  dcBA                       |"g" .B2.G2                   |G4                 :|
+Q:1/4=180
+|:"g".d2.B2                  |"f#".c2 "a" .A2              |\
+  "d".B2.G2                  |"c".c2.c2                    |
+  "d".d2.d2                  |dcBA                         |\
+  "g".B2.G2                  |G4                           :|

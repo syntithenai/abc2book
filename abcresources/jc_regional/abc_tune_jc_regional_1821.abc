@@ -1,0 +1,32 @@
+X: 216
+T:Malisjevsko Horo
+O:Bulgaria
+S:Jaap Leegwater, Bulgarian Folk Dances, Nevofoon 15025
+M:2/4
+L:1/8
+Q:1/4=240
+P:AAB
+K:C
+%%MIDI program 21
+%%MIDI chordprog 40
+%%MIDI bassprog 40
+%%MIDI bassvol 90
+%%MIDI chordvol 40
+%%MIDI drum dz 40
+%%MIDI drumon
+P:A
+%%MIDI gchord fc
+|: "C"f3d    |e3c       |"G" d3c    |Bcde      |
+   f3d       |e3c       | [1"G" cdg2|"C" gfgf  :| [2 "G".d2.g2|"Dm" .d2z2|
+P:B
+K:Am
+%%MIDI drum dz 40 60
+%%MIDI chordvol 70
+   "Am"G2AA  |A2A2      |A4         |"G"e4     |\
+   "C"dc3    |c4        |c4         |
+   "Dm"d2 dd |"Am"d2 e2 |c3B        |A4        |
+   G2AA      |A2A2      |A4         |"Em"e4    |\
+   "C"dc3    |c4        |c4         |
+   "Dm"d2 dd |d2 e2     |"C"c3B     |"Am"A4    |
+   "Dm"d2 cB |"Am" A2 AA|A2 c2      |A4        |
+   "Dm"d2 cB |"Am"A2 AA |A2 c2      |A4        |

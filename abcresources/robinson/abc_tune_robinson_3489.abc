@@ -1,0 +1,15 @@
+X:46
+T:Galopp  CGF ()
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C".c2"G7".B2 | "C"cG/2G/2 G2 | "G7"d2"G0"^c2 | "G7"dG/2G/2G2 |: "C".e2.d2 | "G7".f2.B2 | "C".d2.c2 | G3G | "G7".c2.B2 | F3F | 
+"C".A2.G2 | E2 ((3EGc) | .e2.d2 | "G7".f2.B2 | "C".d2.c2 | G3G | "F".A2.f2 | "C".e2.c2 | "G7".B2!>!d2 | "C"cc cz :: [K:G] 
+"G"d>^cd2 | zz/2d/2 e>f | g>fg2 | zz/2g/2 f>e | "D7"d>^c d>c | d>c B>A | "G"B>AG2 |1 zz/2G/2 B>c :|2 G2z2 || [K:C]
+|: "G7".f2.d2 | "C".e2.c2 | "G7"Bcd2 | "C"cde2 | "G7".f2.d2 | "C".e2.c2 | "G7"Bcd2 | "C"cc cz :: [K:F] 
+"F"(c2.f2) | (f2.A2) | "Gm"(B2.d2) | (d2.G2) | "C7"(G2.B2) | (B2.E2) | "F"F>E F>G |1 A>G A>B :|2 "F"F>f "C7"e>g | "F"f2z2 |] 
+% June 12, 2016
+%%partsbox
+%%MIDI program 21

@@ -1,0 +1,37 @@
+X:5
+T:dr Foribächler  Bb  ABC
+T:Trudi Kiser  (* 15.9.1946)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "langsam, gemütlich" B,3D/E/ F4 | d3cB3G | F2B2!fermata!D4 | B,DFB dgfd | c3B !fermata!A4 | 
+M:3/4 
+"Walzertempo" E3F Ac | f3g fe | d3cB2 | D2F2d2 | "breit"c4E2 | F4d2 | B6 | 
+M:4/4
+"a tempo" B,3 D/E/F4 | d3cB3G | F2B2 !fermata!D4 | B,DFB dgfd | c3B !fermata!A4 | 
+M:3/4 
+E3F Ac | f3g fe | d3cB2 | D2F2d2 | c4E2 | F4d2 | !fermata!B4z2 || 
+M:3/4
+L:1/4
+[P:B]  "Anruf (getragen)" f | d>cB | d>f B/f/ | d>f B/d/ | d2c | !fermata!B2z | "flottes Walzertempo" f>g f/e/ | d>f d/c/ | 
+B>F B/d/ | c3 | f3 | f>dB | d>f B/f/ | d>f B/f/ | d2 c | 
+(B3 | B2)z | f>g f/e/ | d>f d/c/ | B>F B/d/ | !fermata!c!fermata!f!fermata!d | (B3 | B2)z || 
+M:3/4
+[P:C] G>E G/B/ | e>g f/e/ | d>cB | F>D F/d/ | e>dc | F>E F/e/ | d>cB | F3 | 
+e>G B/G/ | B>g f/e/ | d>cB | F>D F/d/ | e>dc | F>E F/e/ | d2c | B2z | 
+G>E G/B/ | e>g f/e/ | d>cB | F>D F/d/ | e>dc | F>E F/e/ | d>cB | F3 | e>G B/G/ | 
+B>g f/e/ | d>cB | F>D F/d/ | e>dc | F>E F/e/ | d2c | B2z |] 
+W:
+W:Reihenfolge: A-B-C
+W:
+W:notiert Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 20-03
+W:http://www.naturjodler.ch/code 20.htm  (with AUDIO)
+%May 17, 2018

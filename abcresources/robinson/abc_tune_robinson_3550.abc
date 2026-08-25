@@ -1,0 +1,15 @@
+X:101
+T:M\"arzbl\"umlein-Mazurka CF (mz05035)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"G7"G>^F G>A B>c | d>ef2z2 |: "C"EG e3d | Td2c2c2 | "Am"EAc3B | "Dm"TB2A2A2 | "F"A2!>!c3A | "C"G4c2 | "G7"d3G d>d | 
+"C"e4c2 | EGe3d | Td2c2c2 | "Am"EAc3B | "Dm"TB2A2A2 | "D7"^F>Ad3c | "G"B>dg4 | "D7"^f>e d>c B>A | "G"G2G2z2 ::
+"G7"f>ed2G2 | "C"e>dc2G2 | "G7"c2B>dg2 | "C"d2c>eg2 | "G7"f>ed2G2 | "C"e>dc2G2 | "G7"c2B>dg2 |1 "C"{/B}c2 GG GG :|2 "C"c2c2z2 || [K:F]
+|:"F".A2 AA AA | Adc4 | "D7"GBA4 | "Gm"^FAG4 | "C7".B2 BB BB | Bfe4 | Bed3B | "F"Adc4 | 
+.A2 AA AA | Adc4 | "D7"GBA4 | "Gm"^FAG4 | B>dg4 | "F"A>cf4 | "C7"e>d c>B A>G | "F"F2F2z2 :| 
+% mz05035
+%%partsbox
+%%MIDI program 21

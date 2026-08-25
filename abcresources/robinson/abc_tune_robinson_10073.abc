@@ -1,0 +1,20 @@
+X: 17
+T:Miss Wharton Duff's jig
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+M:6/8
+N:No title is given on the page, but it's given in the index
+O:Scotland
+R:Jig
+%%Page:6 - 3
+Z:Clark Bernst + Richard Robinson
+K:Bb major
+%%staves { 1 2 }
+V:1
+(fga) || \
+bfd gec | fdB ecA | FBd Fce | Fdf AGF | bfd gec | fdB ecA | FBd Gce | AFA B3 ||
+B,DF B,EG | FBd {E}DCB, | Bdf Beg | f>dB {B}AGF | bfd gec | fdB ecA | FBd Gce | AFA B3 |]
+V:2 clef=bass octave=-2
+z3 || \
+b3 e3 | b3 f3 | b3 f3  | B3 f3 | b3 e3 | d3 f3 | d3 e3 | f3 F3 ||
+B3 e3 | f3 B3 | B3 e3 | b3 f3 | b3 e3 | B3 f3 | d3 e3 | f3 B3 |]

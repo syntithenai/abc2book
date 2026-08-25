@@ -1,0 +1,20 @@
+X:1
+T:Tico Tico
+L:1/8
+M:4/4
+R:Reel
+K:A minor
+E_E=E|:"Am"F2EA2 E_E=E|"E7"F2EB2 E_E=E|FEdB ^GED^C|"Am"C3^G A^G=G^F|
+"Dm"F2Ad2 FAd|"Am"E2Ac2 EA^A|"B7"~B3c BA^GA|"E"B3B2 E_E=E|
+"Am"F2EA2 E_E=E|"E7"F2EB2 E_E=E|FEdB ^GED^C|"Am"C3^G A^G=G^F|
+"Dm"F2Ad2FAd|"Am"E2Ac2E^GB|"E"e2ef edcB|1 "Am"A3 A2 E_E=E:|2 "Am"A3 A2 EF^F|
+K:Cmaj
+|:"C"G2^FG2 ^FG^G|"Dm"A2F3 EF^F|"G7"G2B,2G2 B_B|"C"A2E4 cc|
+cEcE BEBE|"Dm"A2F3 _B,=B,D|"G7"B2FA2 EF^F|"C"G2E3 _E=EF|
+GCEG CEG^G|"Dm"ADFA DcB/2_B/2A|"G7"GB,DG B,DG^G|"C"AE~E2 EGcB|
+"F"A^GAB "F#dim"dcBc|"C/G"ef^fg "A"ag=fe|"Dm"dcBA "G"GFED|1"C"C3 C2 EF^F:|2"C"C3 C2 Ace|
+K:Amaj
+|:"A"aAce gAce|fAce fecA|aAce gAce|"Bm7"fFBd fdBF|
+aFBd gFBd|"E9"fFBd fdBF|aFBd gFBd|"A"fAce fecA|
+aAce gAce|fAce fecA|"F#"~f3=g fedc|"Bm"fedc "A/C"BAG=G|
+"D"F=G^GA "Ebdim"BAGA|"A/E"cd_e=e "F#"fedc|"Bm"BAGF "E"EDCB,|1"A"A,3 A,2 Ace:|2 "A"A,8||

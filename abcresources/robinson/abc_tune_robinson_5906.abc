@@ -1,0 +1,35 @@
+X:1
+T:Geissenalp-Juiz. 1970  Bb  ABC
+T:Otti Anderhalden (31.12.1937-31.8.2003)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABC
+R:Naturjodel
+M:3/4
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] !fermata!f>d  !fermata!cd !fermata!(F2 | F)  FF/d/ [FB]d !breath![DF] [DF]/[Fd]/   | [Ec]2 F2/ !fermata![Af] !fermata![Fd]!fermata![Ec] |
+([DB]4 [DB])z | !fermata!f>d !fermata!cd !fermata!(F2 | F) FF/d/ [FB]d !breath![DF] [DF]/[Fd]/  | [Ec]2F !fermata![Af] !fermata![Fd]!fermata![Ec] | [DB]6 ||  
+L:1/8
+M:4/4
+[P:B] C3B, A,2G,2 | "_F," F3F/F/  EF Ac | B3F/F/ DF Bd | 
+c3F/F/ EF fe | d>c BdF3z | C3B, A,2G,2 | "_F," F3 F/F/  EF Ac | 
+B3F/F/ DF Bd | c>F Ac f>e dc | B6z2 ||  
+L:1/8
+M:3/4
+[P:C] F2D2E2 | F3d BF | E4D2 | C4z2 | c3B AG | Ff Fe Fe | 
+d2Bd BD | F4z2 | F2DF DE | F3d BF | E2F ED C3F Ac 
+f3F GF | f3e dc | B2Fd Fd | B6 | F2D2E2 | F3d BG | E4D2 | C4z2 | 
+c3B AG | Ff Fe Fe | d2Bd BD | F4z2 | F2DF DE | F3d BF | 
+E3F ED | C3F Ac | f3F GF | f3e dc | B2Fc fd | B6 |] 
+W:
+%W:Reihenfolge: A - B - C
+W:
+W:notiert Edi Gasser. Angaben: Otti Anderhalden
+W:UJV-Naturjodelsammlung: Code-Nr: 47-01
+W:http://www.naturjodler.ch/code 47.htm  (with AUDIO)
+W:*Please check the orig. Dirigenten-Notiz (parts A & B) and listen to the audio, ph
+%Juni 12, 2018

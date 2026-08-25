@@ -1,0 +1,23 @@
+X:286
+T:Nordische Klänge (Walzer) FBb (wz07452) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I.  S.350 (wz07452) orig. F,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+"F"c!>!f>e | (g2f) | Ac>=B | (d2c) | "C7"cg>^f | (a2g) | "G7"fed | ("C7"d2c) | "F"c!>!f>e | 
+(g2f) | Ac>=B | (d2c) | (!>!"C7"bc)z/.b/ | (!>!"F"ac)z/a/ | "C7".g.d.e |1 "F"fzz :|2 "F"fa/f/ c/A/  || 
+|: "F".d.d.c |  z.a/.f/ .c/.A/ | .d.d.c | z .a/.f/ .c/.A/ | c.F/.G/ .A/.B/ | c/d/ e/f/ g/f/ | "C7"(Tf.e).e | z.b/.g/ .e/.c/ | 
+.d.d.c |  z.b/.g/ .e/.c/ | .d.d.c | z.b/.g/ .e/.c/ | e .c/.d/ .e/.f/ | .g/.a/ .b/.c'/ .d'/.e/ | "F"ff/f/f |1 f.a/.f/ .c/.A/ :|2 
+fzf |: [K:Bb] "F7"ez.f | .ez.f | "Bb"dzf | (!>!g2f) | "F7"eza | (!>!a2g) | "Bb"fzb | !>!b>a g/f/ | 
+ "F7".ez.f | .ez.f | "Bb".dz.f | (!>!g2f)  | ("C7"=e2d') | (d'2=e) |1 "F"fzz | fzg :|2 "F"ff/f/f | f.g/.a/ .b/.c'/  || 
+|: "Bb"d'>bf | !>!f3 | d>BF | F3 | !>!F!>!G!>!A | !>!B!>!c!>!d | "F7".fz.e | !>!G3 | e>cF | 
+!>!F3 | e>cF | F3 | z!>!g!>!f | !>!e!>!G!>!A |1 ("Bb"B3 | "F7"B/).f/ .g/.a/ .b/.c'/ :|2 ("Bb"B3 | B)zz |]  
+W:
+W:Walzer, nach Zikoff
+% wz07452
+% Sep 3, 2017 (Sogwirbel, markieren, Gipfelkreuz)

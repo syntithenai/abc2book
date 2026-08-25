@@ -1,0 +1,27 @@
+X:64
+T:Pythia,La. CJF.064
+T:La Pythia. CJF.064
+R:Quadrille
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:Last bar of 1st-time repeat - a2 was a4 in MS. All the
+N:bars between the asterisks have been added, according to
+N:instructions in the MS, from bars added at the end of the
+N:tune - "Play these notes at the beginning of the second
+N:part." - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:2/4
+L:1/16
+Q:1/4=100
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+notC:Berbiguier
+K:D major
+"$".f2.f2 (edcd)|e2e2a4|(gfed) (B2e2)|(d4{ed}c)(cde)|\
+.f2.f2 (edcd)|!
+e2e2d'4|1c'2c'2 babc'|b4a2z2:|2\
+f2f2 {f/}(edef)|e4d2"*"z2||!
+(^defe)c4|(^gaba)f4|g3ef3d|{f/}e>de>fe4"*"|!
+(^defe) c2e2|(^gaba) e2a2|c'bac' ba^gb|a^gab a=gf" $"e|]

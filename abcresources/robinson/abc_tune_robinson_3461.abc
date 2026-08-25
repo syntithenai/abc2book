@@ -1,0 +1,16 @@
+X:20
+T:Die Freuden  des Tanzes (Schottisch) GCF (st00339)
+P:ABCDC
+M:2/4
+L:1/8
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"G>G GG | GB GE | "D7"D2 FE/2F/2 | "G"G2z2[P:A] |: "G"GD GD | "D7"FD !>!A2 | A>G F>E | "G"ED B2 | GD GD | 
+"D"FD !>!A,2 | "A7"FE A>^C | "D"DD Dz :: [P:B] "D7"(Dc) .c.c | c2BA | "G"(DB) .B.B | B2 AG | "D7"F2CD | F3E | 
+"G"E>D B,>D | E3E | "D7"(Dc) cc | c2 BA | "G"(DB) .B.B | B2"G7"AG | "C"E2 G>G | "G"D2B>B | "Am"AA "D7"E>F | 
+"G"GG Gz :: [P:C] [K:C] "C"G!>!E2C | "G7"C/2B,/2B, B,B, | A!>!F2 D | "C"CcG2 | "C7"G!>!c2B | "Dm/F"A3D | "G7"D!>!B2A | GF ED | 
+"C"G!>!E2C | "G7"C/2B,/2B, B,B, | "Dm"A"G7"!>!F2D | "C"CcG2 | "C7"G!>!c2E | "Dm/F"DAA2 | "G7"G/2F/2E/2F/2 A,>B, | 
+"C"CC C"_fine"z || [P:D] [K:F] "F"C3A | A3G | "Gm"GB Bd | [Bd]2z2 | "C7"B3c | c3B | "F"BA Ac | 
+cF ED | "F"C3A | A3G | "C"GE GA | G3c | "G7"=B3D | FA G>=B, | "C"CC "_>Teil C"Cz |] 
+W:(Parts: ABCDC)
+%  st00339

@@ -1,0 +1,26 @@
+X:14
+T:"G Jig ( from Ebb and Flow Manitoba)"
+M:6/8
+R:Jig
+K:G major
+%%beginps    % -- draw parenthesis around a note : usage: x y opnot
+/opnot{ M -5.5 -3 RM /Times-Roman 15 selectfont(\(   \))show}!
+%%endps
+%%deco () 1 opnot 0 0 0
+|: (D |\
+G2)B BAG EGc c2D | G2B BAG | FAA A2D |
+G2B BAG | EGc cde | [M:9/8] d2B cAF DEF | [M:6/8] G3 G2 ::
+c | \
+Bd!()!e dBG | c3 cde | g2a gfe | d2d def |
+g2a gfe | c2c efg | [M:9/8] d2B cAF DEF | [M:6/8] G3 G2 :|
+%
+P:Chord Part - same for A and B
+|: \
+"G" [G,D]2 [G,D] [G,D]2 [G,D] | "C" [G,E][G,E][G,E] [G,E]3 | \
+"G" [G,D]2 [G,D] [G,D]2 [G,D] | "D" [A,D][A,D][A,D] [A,D]3 |
+"G" [G,D]2 [G,D] [G,D]2 [G,D] | "C" [G,E][G,E][G,E] [G,E]3 | \
+[M:9/8] \
+"G" [G,D]2 [G,D] "D"[A,D][A,D][A,D] [A,D]3 | [M:6/8] "G" [G,D]3 [G,D]3 :|
+%%text
+%%text NOTE: This tune is also played"high" and "low", ie the melody is played an octave down, substituting
+%%text "g for low "d" and "e" and substituting "a" for low "F#".

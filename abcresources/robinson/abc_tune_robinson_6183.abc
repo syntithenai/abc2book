@@ -1,0 +1,24 @@
+X:1
+T:Jugendfreuden (Schottisch)  FCBb (st07097)  ABACA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.47  (st07097) orig. F,C,Bb
+S: Basel II. Tänze aus Frenkendorf. S.43-53.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] ("F"Fd) .c.F | ("C7"Ec)!>!B2 | (Bf) .e.G | ("F"Fd)!>!c2 | c>c fA | "Gm"Ge !>!d2 | ("F"d/c/).A ("C7"d/c/).E |1 "F"FF Fz :|2 "F"FF "_Fine"FG || [K:C] 
+[P:B] |: "C"G>A GG | G>A GG | "G7"Gf ed | ("C"c2E2) | G/^F/G c/B/c | "G7"BB !>!d2 | G/^F/G d/^c/d | "C"cc!>!e2 | G>A GG | 
+G>A GG | "G7"Gf ed | ("C"c2E2) | "Dm"A/B/A dd | "C"G/A/G cc | "G7"BG e>d |1 "C"cc cG :|2 "C"cc c"_>Teil A"z || [K:Bb] 
+F [P:C] |: "Bb"[Fd]3[DB] | [DF]3 [DB] | "Eb"[EG]3[GB] | "Bb"[DF]2z[DB] | "F7"[EA][EA]  "_*"f/=e/f | [EA]3[Ec] | "Bb"[DB][DB] "_*"f/=e/f | [DB]3[DF] |
+[Fd]3[DB] | [DF]3 [DB] | "Eb"[EG]3[GB] | "Bb"[DF]2z[DB] | "F"[Fc][Fc]  f/=e/f | [FA][FA] c/=B/c | "C7"d[Gc] BG |1 "F"FF FF :|2 "F"FF F"_>Teil A"z |] 
+W:
+W:Tanzbeschreibung: I: 4Schritt, II: 4 Tkt. Glockenpolka. 4 Tkt. Schhottisch (Drehschottisch oder Trämpeler)
+W:III: gewöhnlicher Schottisch
+W:* in the original played together with [ F z ]  % didn't know how to insert it in the abc-script, piush
+% st07097
+% Jan 15, 2018

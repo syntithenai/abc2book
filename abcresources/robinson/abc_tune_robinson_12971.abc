@@ -1,0 +1,26 @@
+X:106
+T:Les Lanciers.2voices. RHu.106
+T:Julia,A Quadrille,aka. RHu.106
+S:R.Hughes MS,1823,Whitchurch,Shrops.
+N:written across double page. Labelled No5.
+N:The first 6 bars in V2 is written as a
+N:semibreve (with a cr rest over it) followed by 3 crotchets,
+N:suggesting a piano
+N:accompaniment where first note of each bar is held.
+A:Shropshire - Whitchurch
+Z:Neil Brookes 2006
+M:4/4
+L:1/8
+Q:1/2=90
+R:Quadrille
+B:Village Music project, Hughes, Richard
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HughesR.abc
+K:C major
+[V:1]|:g>^fg>a g>=fe>d|c2c2 c>Bc>d|e2e2e>de>f|d2d2d>ef>^f|!
+[V:2]|:C,2"see notes"G,2G,2G,2|C,2G,2G,2G,2|C,2G,2G,2G,2|G,,2F,2F,2F,2|!
+[V:1]g>^fg>a g>=fe>d|c2c2 c>Bc>d|e2e2 d>cd>e|1c2c2c>de>f:||2c2z2z2||!
+[V:2]C,2G,2G,2G,2|C,2G,2G,2G,2|E,2G,2D,2G,2|1E,2G,2E,2G,2:||G,2 z2z2||!
+[V:1]B2|c>Bc>d e3c|c>Bd>B G2A>B|c>Bc>d e>de>c|c>Bd>BG2z2|!
+[V:2]z2|G,z G,z G,z G,z|G,2G,2G,4|G,z G,z G,z G,z|G,2G,2G,4|!
+[V:1]g>fe>f g>ab>c'|g>fe>f g>ab>c'|g3e d>cd>e|c2c'2c2|]
+[V:2]E,G,E,G, C,G,E,G,|C,G,E,G, C,G,E,G,|C,G,E,G, G,,G,D,G,|C,G,E,G,C,2|]

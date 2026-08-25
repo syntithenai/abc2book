@@ -1,0 +1,25 @@
+X:1
+T:Sei nicht böse. Walzer  G (wz07055) AB
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.165  (wz07055) orig. G
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:AB
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+[P:A] ("G"BcB) | (A2G) | ("D7"d2F) | F3 | (cdc) | (B2A) | ("G"e2d) | B3 | (d^cd) | (!>!a2g) | 
+("D7"g2f) | f3 | (cBc) | (f2e) | ("G"e2d) | !>!d2z | (BcB) | (A2G) | ("D7"d2F) | !>!F3 | 
+("D7"cdc) | (B2A) | ("G"e2d) | B3 | (B^AB) | (g2f) | ("C"f2e) | e3 | "A7"eee | f>ff | 
+(g3 | g2)z || [P:B]"G"g3 | f3 | e3 | d3 | ("D7"f3 | f)(ed) | (F3 | F2)(A/c/) | g3 | 
+f3 | e3 | d3 | ("G"e3 | e) (dB) | (G3 | G/)B/ c/d/ e/f/ | g3 | f3 | e3 | "G+"^d3 | 
+("Am"f3 | f)e>e | (a3 | a)g>e | ("G"g3 | g)(Bc) | ("D7"d2^d) | (e2f) | ("G"g3 | g2)z |] 
+W:
+%W:Parts: AB
+%W:
+%W:Anmerkung H.C.: 
+% wz07055
+% June 15, 2018

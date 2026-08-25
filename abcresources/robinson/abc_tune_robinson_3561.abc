@@ -1,0 +1,11 @@
+X:111
+T:Marsch/Schottisch CGF (st04927)
+M:2/4
+L:1/16
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"c2E2 G2Gc | "G7"B2D2 F2FB | d2D2 G2Bd | "C"c2E2 G2Gc | c2E2 G2Gc | "G7"B2D2 F2FB | d2D2 G2Bd | "C"c2c2 c2z2 :: [K:G]
+"D7"D2c2 D3A | "G"D2B2 GFG2 | "D7"D2A2 FEF2 | "G"D2B2 GFG2 | "D7"D2c2 D3A | "G"D2B2 GFG2 | "D7"D2A2 GFEF | "G"G2G2 G2"_>Teil A"z2 :: [K:F] 
+"F"C4DEFG | A4F2A"_ ="d | "C7"c4"_g"G2"_b"B"_ d ="d | "F"c4A4 | C4DEFG | A4F2Ad | "C7"c4 cBGA | "F"F2F2 F2z2 :: [K:C] 
+"G7"G2^FG AG=FD | "C"C2EG cBc2 | "G7"d2dc B2G2 | "C"e2ed c2E"_ ="F | "G7"G2^FG AG=F"_ ="D | "C"C2EG cBc2 | "G7"d2dc BGAB | "C"c2c2 "_>Teil C"c2z2 :| 
+W: P: ABACDC

@@ -1,0 +1,21 @@
+X:218
+T:Schottisch  CF (st06912)  ABCDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.246 (st06912) orig. C,F
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"Gc c/B/c | "Dm"BAA2 | ("G7"G/A/).B/.c/ dB | ("C"c/d/).e/.f/ g2 | Gc c/B/c | "Dm"BAA2 | ("G7"G/A/).B/.c/ dB | "C"ce cz :| 
+[P:B] |: "C"Gc/e/ Gc/e/ | G/c/e/G/c2 | "Dm"Ad/f/ Ad/f/ | A/d/f/A/d2 | "G7"B/d/g B/d/g | "C"c/e/g/e/c'2 | "Dm"A/d/f/a/ "G7"G/B/d/g/ | "C"ce cz :| [K:F] 
+[P:C] |: "F"fc a>g | fAc2 | "C7"ec g/f/e | "F"fc a>g | fc a>g | fAc2 | "C7"ec g/f/e | "F"ff f"_Fine"z :| [K:C] 
+[P:D] |: "C"c3G/c/ | e2 e/C/E/G/ | c/E/G/c/ e/G/c/e/ | "G7"gG/G/ GG | Gf f/e/d | "C"Ge e/d/c | "G7"Gd d/c/B | "C7"c_b "_>Teil C"ag |]
+W:Parts: ABCDC
+W:Anmerkung H.C.: Binningen, Schaub 35, s.V. 1159
+% st06912
+% April 9, 2017

@@ -1,0 +1,34 @@
+X:3
+T:Huisbärg-Juiz  Bb  ABCD
+T:Hansruedi Niederberger  (* 30.9.1948)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] F2 | f3e/d/c2 | B3dF2 | f2dc Bd | c3AF2 | f2edc2 | B4F2 | 
+f3e/d/c2 | B3dF2 | f2dc Bd | c3AF2 | f2edc2 | B6 || 
+L:1/4
+M:3/4
+[P:B]  c>B A/c/ | F>cf | d>Bd | F>df | c2A | F>cf | d2c | B3 | 
+c>B A/c/ | F>cf | d>Bd | F>df | c2A | F>ec | (B3 | B2)z ||  
+M:3/4
+[P:C] F | f>e/d//  c | B>dF | f d/c/ B/d/ | c>AF | fe/d/c | B2 || 
+M:3/4
+[P:D]  F/F/ | Ffd | B>GF | BFB | A3 | Ffe | A>GF | AFc | 
+B3 | Ffd | B>GF | BFB | G3 | Ffd | c2F | cFd | B2F/F/ | 
+Ffd | B>GF | BFB | A3 | Ffe | A>GF | AFc | B3 | Ffd | 
+B>GF | BFB | G3 | Ffd | c2F | cFd | B3 | cFf | B3 |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:Dem Jodlerklub Alpnach zum 50-jährigen Jubiläum gewidmet - 1994
+W:
+W:notiert Edi Gasser. Angaben: Hr Niederberger
+W:UJV-Naturjodelsammlung: Code-Nr: 18-02
+W:http://www.naturjodler.ch/code 18.htm  (with AUDIO)
+%May 15, 2018

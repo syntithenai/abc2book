@@ -1,0 +1,22 @@
+X: 53
+T:Gollochys Farewel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 1
+K:Bb major
+%%staves {1 2}
+B<G !trill!F>E !trill!D>C B,>d | !trill!e<c !trill!f>d c/c/c c2 | \
+(c/B/)(_A/G/) (A/G/)(F/E/) D>CB,>d | e<cf>d B/B/B B2 :|
+B>fd>f B>fd>f | e>gd>f c/c/c c2 | \
+B>fd>f B>fd>f | e<g!trill!f>d B/B/B !trill!B2 |
+B>fd>f B>fd>f | e>gd>f c/c/c cg/a/ | \
+bgaf   gefd   | e<c!trill!f>d B/B/B !trill!B2 |]
+V:2 clef=bass octave=-2
+L:1/4
+BBBB | c'bb/g/f/e/ | dbBd | efBB :| \
+bBbB | [cc'][Bb]a/c'/f/e/ | dbBd | efBB | BBBB | cBff | gfed | efBB |]

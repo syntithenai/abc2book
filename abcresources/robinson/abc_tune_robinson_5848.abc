@@ -1,0 +1,31 @@
+X:1
+T:dr Breitäfälder  Bb  ABAC
+T:Sepp Vogler  (* 23.4.1958)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F>F E/F/A/c/ | f>g fe | d>B Bd | F>f dB | c>B AF | 
+f>f dc | (B4 | B2)z2 | F>F E/F/A/c/ | f>g fe | 
+d>B Bd | F>f dB | c>B AF | f>f dc | (B4 | B2)z2 || 
+M:2/4
+[P:B] c>B AF | e>d cf | d>B Bd | F>f dB | c>B AF | 
+f>f dc | (B4 | B2)z2 | c>B AF | e>d cf | 
+d>B Bd | F>f dB | c>B AF | f>f dc | (B4 | B2)z2 || 
+M:3/8
+[P:C] d|BFd | BFe | ACG | F>F A/c/ | f>g f | 
+e>d c | B>c d | !breath!F2d | BFd | BFe | 
+ACG | F>F A/c/ | f>g f | edc | (B3 | B2) |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:gewidmet dem Jodlerklub "Bärgsee" Lungern zum 25jährigen Jubiläum 1997
+W:notiert Edi Gasser, nach Angaben von Heinz Willisegger
+W:UJV-Naturjodelsammlung: Code-Nr: 26-01
+W:http://www.naturjodler.ch/code 26.htm  (with AUDIO)
+%May 27, 2018

@@ -1,0 +1,25 @@
+X: 108
+T:Lochrynach, a  Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:38 - 3
+K:G major
+%%staves {1 2}
+V:1
+G2 (Bd c)>!wedge!AFD | G2 (Bd) c2 (cf | g)>!wedge!dBd ecA(c | B)>!wedge!GAF G2 G,2 :|
+g2 (fg/a/) gdBG | g2 (fg/a/) g2 b2 | g(dB)!wedge!d ecA(c | B)!wedge!GAF G2 G,2 |
+g2 (fg/a/) gdBG | g2 (fg/a/) g2 b2 | (gdB)!wedge!d ceAc | (Bc/d/) (D>F) G2 G,2 |]
+V:2 clef=bass octave=-2
+L:1/4
+ggfd | ggc'a | bgc'a | d'dgG :| \
+gdgg | gdgg | gBcA | dDGG | \
+gdgg | gdgg | gBcA | dEGG |]
+%%vskip .15cm
+%%begintext
+This good Old Reel is inserted at the particular request of the Duke of Gordon
+%%endtext

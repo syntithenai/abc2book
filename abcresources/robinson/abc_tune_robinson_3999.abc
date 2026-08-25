@@ -1,0 +1,17 @@
+X:57
+T:Mazurka  CF (mz08946)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.23 (mz08946) orig. C,F-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"eg ^fg ec | "G7"e>dd2d2 | df ef dg | "C"f>ee2e2 | eg ^fg ec | "G"e>dg2g2 | "D7"^fe dc' ba |1 "G"g2zg ^f=f :|2 
+"G"g2g2z2 |: "C"e>d e>fg2 | "F"f>e f>ga2 | "G7"ag bg d'2 | "C"ag c'ge'2 | e>d e>fg2 | "F"f>e f>ga2 | "C"ge ce "G7"dg | 
+"C"c2c2z2 :: [K:F] "F"f2 {/b}a>^g a>b | a2f2f2 | ag fe dc | "C7"a2g2g2 | .e2{/a}g>^f g>a | g2e3e | gf ed ce | 
+"F"g2f2f2 | f2 {/b}a>^g a>b | a2f2f2 | ag fe dc | "Bb"^cdd2d2 | "G7"fd =Bd fg | "F/C"a2c2c2 | "C7"c^c d2e2 | "F"f2f2z2 :: [K:C] 
+"C"ge cg ec | "G7"edf2f2 | fd Bf dB | "C"dce2e2 | ge cg ec | "G7"ed a2a2 | cB g2g2 |1 "C"dcg2g2 :|2 "C"c2c2z2 |] 
+% mz08946

@@ -1,0 +1,22 @@
+X:101
+T:Mazurka GDC (mz07365)  ABACA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.309 (mz07365) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] ("G"(3ddd) .d2.g2 | "D7".g2.f2.f2 | "C".f2.e2.e2 | "G".e2.d2.d2 | ((3ggg).b2.d'2 | "C".d'2.e2.e2 | ("D7"(3ddd).f2.a2 | "G".b2.g2.g2 | 
+((3ddd) .d2.g2 | "D7".g2.f2.f2 | "C".f2.e2.e2 | "G".e2.d2.d2 | "D7"d'2 c'>b c'>d' | "G".c'2b>^a b2 | "D7".b2a^g a>b | "G".g2!>!g2"_Fine"z2 :| [K:D] 
+[P:B] |: "A7".g2g2 f>e | "D"d>b a2a2 | ("A7"ac')c'2 (ba) | ("D"ad')d'2af | "A7".g2g2 f>e | "D"d>b a2a2 | ("A7"ac') (c'b) .g.e | "D".d2d2"_>Teil A"z2 :| [K:C] 
+[P:C] "C"Tg3c eg | "G7"z2(F/G/)B/d/ g2 | !>!b3a da | "C"z2(E/G/)c/e/g2 | e3c' ge | "Dm"d>b .a2!>!a2 | "G7"B>b .a2!>!a2 | "C"g>e .c2!>!c2 | 
+Tg3c eg | "G7"z2(F/G/)B/d/ g2 | !>!b3a da | "C"z2(E/G/)c/e/g2 | e3c' ge | "Dm"d>b .a2!>!a2 | ("G7"Bb)a2 fB | "C".c2!>!c2"_>Teil A"z2 |]  
+W:
+W:Anmerkung H.C.: Var. Arisdorf 7. Var. Bader, 525/27 19, Seltisberg 33  Oberiberg  St. Stefan, s.V. 525
+%% mz07365
+% July 9, 2017

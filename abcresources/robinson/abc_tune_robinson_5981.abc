@@ -1,0 +1,18 @@
+X:1
+T:Kreuzpolka  CF (kp07666)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.31  (kp07666) orig. C,F
+S: Basel II. Tänze aus Augst. S.6-42.
+S:Überliefert durch Erwin Baumgartner (*1878) und Hans Tschudin (*1886)
+%%MIDI program 21
+R:Kreuzpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"e2 d/e/f/e/ | "G7".d2!>!g2 | g^f/g/ a>g | "C".g2!>!c'2 | e>e f>e | "G7"edd2 |1 d>d e>d | "C"dcc2 :|2 g/a/g f/e/d |  
+"C"cc/c/ cz |: [K:F]  "C7"c2dc | e2e2 | c2dc | "F"f2f2 | ag/a/ b>a | "C7"agg2 |1 gf/g/ a>g | "F"gff2 :|2 
+"F"c>f "C7"e>g | "F"ff fz [K:C] |: "G7"g2 a/g/f/d/ | B2B2 | g2 b/a/g/e/ | "C"c2c2 | g^f/g/ a>g | "G7"gBB2 |1 A>G GG | 
+"C"ecc2 :|2 a>g e>d | "C"cc cz |: [K:F] "F"c2Ac | a2a2 | a>g g>f | "C7"fee2 | c2Bc | b2b2 | b>a a>g | 
+"F"gff2 | c2Ac | a2a2 | a>g g>f | "C7"fee2 | cB/c/ cB/c/ | b2b2 | {/a}bc b/a/g/a/ | "F"ff/f/ fz :| 
+% kp07666 (Heft 270/TN 61)
+% Dec 10, 2017

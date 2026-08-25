@@ -1,0 +1,18 @@
+X: 208
+T: Walzer FBb (wz08848)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.363 (wz08848) orig. F,Bb-Dur
+S: Tänze aus Büren an der Aare (Bern) S.353ff
+%%partsbox
+%%MIDI program 21
+P:ABCDEAB   % the orig. has only parts: ABCD
+R:Walzer
+O:Switzerland
+M:3/4
+L:1/4
+K:F major
+[P:A] c| "F"czA | Azc | "C7"c>BB | BzB | czG | ezd | "F"d>cc | czc | c2f | a2c' | "C7"b3 | 
+gzf | ecg | ea>g | "F"f>ff | fze/f/ ||[P:B] "C"g2 c/d/ | e2 f/e/ | "Dm"e2d | Azd/c/ | "G7"=Bgg | g2 ^c/d/ | "C"egg | 
+g2g/a/ | "C7"b2e/f/ | g2a/g/ | "F"f2a | azg/f/ | "C7"ec'c' | ebb | a/a/ag | "F"fz [P:C] =e/f/ || [K:Bb] "F7"e2d | c2d | 
+e>ee | ezz || [P:D] "Bb"d^cd | "F7"f>ec | "Bb"B3 | f2z | "Eb"g^fg | b>ag | "Bb"f3 | d2z | "F7"ede | 
+g>fe | "Bb"d2f | b2z | "F"a>gf | "C7"g>f=e | "F7"fcA | +>+e3 || [P:E] "Bb"dfb | f3 | "Cm"egc' | g3 | 
+"F7"fzA | A2e/g/ | "Bb"fzd | d2z | dfb | f3 | "C7"=egb | =e3 | "Bb/F"fzd | "F7"e2A | "Bb"B>bb | b"_> Teil A,B"zz |]

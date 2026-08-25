@@ -1,0 +1,21 @@
+X:1
+T:Chinesen-Walzer  CF  (wz07613) 
+T: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.127  (wz07613) orig. C,F
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox)
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] ("C"c/B/ d/c/ B/c/) | "F"A2f | "C"e3 | edc | "G7"d3 | dcB | "C"c3 | G3 | c/B/ d/c/ B/c/ | 
+"F"A2f | "C"e3 | edc | "G7"d3 | dcB | ("C"c3 | c)zz  :: [P:B] ("C"cE).G | c3 | (eE).G | 
+e3 | "G7"f2(g/f/) | "C"e2(f/e/) | "G7"d2(e/d/) | "C"c(B/A/)G | (cE).G | c3 | (eG).c | e3 | "G"f2(g/f/ ) | 
+"C"e2(f/e/) | ("G7"d2B) | "C"czz :: [P:C] [K:F] ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2G) | (d2E) | ("F"A2c) | 
+"Bb"B(dc) | ("F"A2c) | ("Bb"B2d) | ("F"A2c) | zdc | ("C7"e2G) | (d2E) | "F"F>AA | Azz :| 
+W:
+W:Anmerkung H.C.: Var. Böckten, Höfler-Musig, Walliser, Oberdorf, s.V. 362
+% wz07613
+% May 18, 2018

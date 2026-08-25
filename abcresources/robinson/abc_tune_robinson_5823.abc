@@ -1,0 +1,27 @@
+X:45
+T:Langmattli-Juiz  C-Dur
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABC
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:C major
+[P:A] E | ecd | e2f | e3 | ded | c3 | E3 | ecd | 
+e2f | e3 | ded | !fermata! !breath!c2E | ecd | e2f | e3 | 
+ded | c3 | E3 | ecd | e2f | e3 | ded | !fermata!c2 ||
+[P:B]  cdc | B2c | d3 | ded | c2d | 
+e3 | cdc | B2c | d3 | ded | !fermata!c2z ||  
+[P:C] E/E/ | ee>c | ee>c | d>^cd | e2E | ee>c | ee>c | 
+d/f/ed | c2E | ecd | e2f | e3 | ded | c3 |] 
+W:
+W:Reihenfolge: A-B-C
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-22
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 23, 2018

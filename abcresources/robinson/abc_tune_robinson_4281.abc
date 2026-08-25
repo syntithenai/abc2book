@@ -1,0 +1,15 @@
+X: 50
+T: Guggisberger Mazurka CGF (mz05425)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.289 (mz05425) orig. C,G,F-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+%%partsbox
+%%MIDI program 21
+P:ABAC
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:C major
+[P:A] "C"e>c G2e2 | "D7"d2A2A2 | "G7"B>c d2g2 | "C"^f>ag2g2 | e>cG2e2 | "Dm/F"d2d3c | "G7"B>a g>f e>d | "C"c2c2z2 :: [P:B] [K:G]
+"G"Bd d2de | "D7"dcc2c2 | edf2f2 | "G"edg2g2 | Bdd2df | "C"=fee2e2 | "D7"edf2f2 | "G"g2g2":> Teil A"z2 :| [P:C] [K:F] 
+"F"afc3f | "C7"ecg3f | ec eg ce | "F"fc fac2 | afc3f |  "C7"ecg3f | ec eg ce | "F"f2f2z2 |]

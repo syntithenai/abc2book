@@ -1,0 +1,37 @@
+X:15
+T:Spannörtler (Natur-Juiz)  Bb
+T:Anni Wallimann  (23.8.1928-31.2.2014)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:C
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] Ff | d2BG F>D FB | d2Bd f2ed | cF Fe cF Ff | d2BG !fermata! F2Ff | 
+d2BG F>D FB | d2Bdf2ed | cF Ff cf dc | !fermata! B4 ||
+M:3/4
+[P:B] F>F | Edc2d>c | BD Ff df | c>E Ff cf | d>c !fermata! B2F>F | Edc2d>c | 
+BD Ff Bd | c>E Ff dc | B4F>F | Edc2d>c | BD Ff df | 
+c>E Ff cf | d>c!fermata! B2F>F | Edc2d>c | BD Ff Bd | c>E Ff dc | B4 ||
+M:4/4
+[P:C] !fermata! f!fermata! d |B>B BF DB, FB | A>A AFE2ec | A>A AF EC Fc | B>B BF DF fd | 
+B>B BF DB, FB | A>A AFE2ec | A>A AF EF Ac | B6z/ !fermata! f!fermata! d 
+B>B BF DB, FB | A>A AFE2ec | A>A AF EC Fc | B>B BF DF fd | 
+B>B BF DB, FB | A>A AFE2ec | A>A AF EF eA | B6 || 
+M:3/4
+[P:D] F2 | f3=e gf | d3f cB | A3e AG | F6 | A3e AG | F3E Fc | B3d BG | F4FF | 
+f3=e gf | d3f cB | A3e AG | F6 | f3eF2 | f2edc2 | (B6 | B2)z2 ||
+M:3/4
+[P:E]
+FF | ff f=e gf | dd df cB | AA Ae AG | F6 | AA Ae AG | 
+F3E Fc | BB Bd BG | F4FF | ff f=e gf | 
+dd df cB | AA Ae AG | F6 | f3eF2 | f3e dc | (B6 | B2)z2 |]
+W:
+W: notiert Edi Gasser. Angaben: Anni Wallimann
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 06-08
+W:http://www.naturjodler.ch/code 06.htm  (with AUDIO)
+%May 2, 2018

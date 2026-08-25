@@ -22,8 +22,11 @@ const COLLECTION_FILE_PATHS = [
   'abcresources/misc/abc_tune_misc_',
   'abcresources/norbeck/abc_tune_norbeck_',
   'abcresources/folkinfo/abc_tune_folkinfo_',
+  'abcresources/jc/abc_tune_jc_',
+  'abcresources/jc_regional/abc_tune_jc_regional_',
+  'abcresources/robinson/abc_tune_robinson_',
 ]
-const COLLECTION_FILE_EXTENSIONS = ['.txt', '.abc', '.abc', '.abc', '.abc', '.abc']
+const COLLECTION_FILE_EXTENSIONS = ['.txt', '.abc', '.abc', '.abc', '.abc', '.abc', '.abc', '.abc', '.abc']
 
 let cachedTextSearchIndex = null
 let indexLoadPromise = null

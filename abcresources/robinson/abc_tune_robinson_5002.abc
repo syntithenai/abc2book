@@ -1,0 +1,21 @@
+X:90
+T:La Navarre (Kontratanz) D (kt02307)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.353 (kt02307) orig. D
+S: Kontratänze, Ftan (1773-1778, 8. Jan. 1952). S.350-357.
+S:Überliefert durch Martin Peider Schmid von Grüneck
+O:Switzerland
+%%MIDI program 21
+R:Kontratanz
+M:2/4
+L:1/8
+K:D major
+"D"d>D ((3DFD) | "A7"E>E ((3EGE) | "D"FF/d/ "A7"cc/e/ | "D"dA FD | d>D ((3DFD) | "A7"E>E ((3EGE)  | "D"Fd "A7"ce | "D"d2d2 || 
+a2 fd | "G"g2 "D"ff/a/ | "A7"gg/b/ Bc | "D"d/c/d/e/ dd | a2 fd | "G"g2 "D"ff/a/ | "A7"gg/b/ Bc | "D"d3F || 
+"D"F/G/F/E/ DF | F/G/F/E/ Dd | "A7"Ag ec | "D"d/c/d/e/ dF | F/G/F/E/ DF | F/G/F/E/ Dd | "A7"Ag ec | "D"d3z || 
+ "D"f2 e/f/e/d/ | "A7"c2 AA/B/ | Ag ec | "D"d/c/d/e/ dd | f2 e/f/e/d/ | "A7"c2 AA/B/ | Ag ec | "D"d2d2 || 
+"D"fd dA | "Em"B/A/B/A/ !>!B2 | "A7"ge ec | "D"d/c/d/c/ !>!d2 | AF ED | !>!"Em"B3c/d/ | "A7"AG FE | "D"D2D2 |] 
+W:
+W:"Diese (Kontra-)Tänze gehören zum Repertoire der um 1765 in Frankreich beliebten Tänze 
+W:und wurden vom Autor wahrscheinlich während seiner Militärzeit in Frankreich aufgeschrieben." Hrsg. S.350
+% kt02307  
+% Nov 17, 2016

@@ -1,0 +1,45 @@
+X: 163
+T:Dandaleith, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:56 - 2
+K:F major
+%%staves {1 2}
+V:1
+c | \
+(A<d)(!trill!d>c) A<FF>(A | c)>!wedge!d !trill!c<A {A}G2 (Gc) | \
+(A<d)(!trill!d>c) A<FF<(e | f)>!wedge!g a<c A2 A ::
+G | \
+F<f-f>!wedge!g (fg/a/) (!trill!a>g) | f<d !trill!c>A {A}G2 (G>A) | \
+F<f-f>!wedge!g (fg/a/) (a>g) | f<cd>f A2 A :|
+d | \
+c<AA>d c<AA>d | c<AA>F {A}G2 (Gd) | \
+c<AA>d c<AA>a | fcdf !trill!A2 (A>d) |
+c<AA>d c<AA>d | c<AA>F {A}G2 (G>A) | \
+F>G A<d c<AA>a | fcdf !trill!A2 A |]
+g | \
+f>ga>g f<dd<f | c<A!trill!A>F {F}G2 (GA) | \
+f>ga>f f<dd<f | c<Af>g a2 (ag) |
+f>ga>g f<dd<f | c<A!trill!A>F {F}G2 (G>A) | \
+F>G A<d c<AA>a | fcdf !trill!A2 A |:
+G | \
+F>G A<f c<AA<f | c<A!trill!A>F {F}G2 (G>A) | \
+F>G A<f c<AA<a | fcdf !trill!A2 A :|
+f/g/ | \
+a>fg>e f>c d<f | c<AA>F {F}G2 Gf/g/ | \
+a>fg>e f>c d<f | c<Af>g {fg}a2 af/g/ |
+a>fg>e f>c d<f | c<A!trill!A>F {F}G2 (GA) | \
+F>G A<d c<AA>a | f>c d<f !trill!A2 A |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | f[fb][fa]f | ffcc | f[fb][fa]f | fcFF/ :| \
+z/ | ffff | ffcc | ffff | ffFF/ :| \
+z/ | [fa][fb][fa][fb] | [fa]fcc | [fa][fb][fa][fb] | [fa][fb][fa]f | [fa][fb][fa][fb] | [fa]fcc | ffff | [fa][fb][fa][fa]/ |] \
+z/ | f[fa][fb][fb] |afcc | f[fa][fb][fb] | ffff | f[fa][fb][fb] | fac'c | ffff | fFFF/ |: \
+z/ | ffff | ffcc | ffff | [fa][fb][fa][fa]/ :| \
+z/ | f[eb][fa]b | afcc | fb[fa][fb] | ffff | fbab | afcc | ffff | ffFF/ |]

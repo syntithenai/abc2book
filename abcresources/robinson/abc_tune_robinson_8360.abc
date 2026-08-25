@@ -1,0 +1,28 @@
+X: 40
+T:Madam Frederick
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:15 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slow when not danced"
+c  | \
+(A,>B,)(C>D) (~E>F)E<(C | A,)>CE<C E<A-A>c | \
+(A,>B,)(C>D) ~E>FE<C | B,>B (d/c/)(B/A/) G<B-B>c |
+(A,>B,)(C>D) ~E>FE<C | (A,>C)E<C E<A-A>c | \
+ecAE Fdfe | dcBA GB-B ||
+c | \
+A<A {AB}c>A e>Ac>A | [A,E]>Ac>A f/e/d/c/ Bc | \
+A<A {AB}c>A eAcA | ~F>A (F/E/)(D/C/) B,B-Bc |
+A<Ac>A e>Ac>A | [A,E]>Ac>A f/e/d/c/ Bc | \
+A>cA<E F.AF<D | E>DC>B, A,A-A |]
+V:2 clef=bass  octave=-2
+L:1/4
+z/ | AAAA | AAAA | AAcA | ddee | AAAA | AAAA | Acd>c | B/c/d/^d/ ee/ || \
+z/ | aaaa | aa[eb][eb] | aaaa | d'c'[eb][eb] | aaaa | aa[eb][eb] | acdd | eeAA/ |]

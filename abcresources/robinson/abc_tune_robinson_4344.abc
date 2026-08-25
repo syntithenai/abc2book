@@ -1,0 +1,15 @@
+X: 107
+T: Mazurka DA (mz05827)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.120 (mz05827) orig. D,A-Dur
+S: Berner Oberländer Tänze (Bern)
+%%partsbox
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+P:ABCBA
+K:D major
+[P:A] "D"Aa fA df | "A7"Aa gA ce | "D"Aa fA df | "A7"Aa gA c2 | "D"Aa fA df | "A7"Aa gA ce | Aa gA Bc | "D"d2d2z2 :| [K:A]
+[P:B] "A"e2ce fe | "E7"e2deg2 | "A"e2ce fe | "E7"e2de b2 | "A"e2ce fe | "E7"e2deg2 | e2 de fg | "A"a2a2z2 || [K:D] 
+[P:C] "D"a2 fA df | "A7"Af eA ce | a2 gA ce | "D"Ag fA d2 | a2 fA df | "A7"Af eA ce | a2 gA Bc | "D"d2"_> Teil B,A"d2z2 |]

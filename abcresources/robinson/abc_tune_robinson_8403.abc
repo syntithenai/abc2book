@@ -1,0 +1,27 @@
+X:44
+T:the Duchess of Richmond
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:18 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+f | \
+(ed)cA BF ~B2 | dfga bfdB | {d}e2 d=B cG ~"\="c2 | cdef gedc |
+(Bc/d/) BF BF B2 | Bcde fbdB | Egfe dfdB | FBAc [DB]2 [DB] & D2F2x3 |]
+f | \
+bBaB gBfB | dfga bfdB | c(f=ef) d(fef) & A2 x2 B2 x2 | dbag f=edc |
+d<B (c/B/A/B/) F<B (c/B/A/B/) | GBFB EBDB | Egfe dfdB | FBAc [DB]2 [DB] & D2 E2 x3 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[B,B] [B,B] [B,B] [B,B] | [B,B] [B,B] [B,B] [B,B] | [Cc] [Dd] [Ee] [Ee] | [Cc] [Cc] [Cc] [Ff] | \
+[B,B] [B,B] [B,B] [B,B] | [B,B] [B,B] [B,B] [B,B] | [Ee] [Ee] [Bb] [Bb] | [Ff] [Ff] [Bb] [Bb]/ |] \
+z/ | \
+[Bg] [Bf] [Be] [Bd] | [Bb] [Bb] [Bb] [Bb] | [Bb] [Ff] [Bb] [Ff] | [Bb] [Bb] [Aa] [Ff] | \
+[fbd'] [fbd'] [dfb] [dfb] | [eb] [eb] [cb] [Bb] | [Ee] [Ee] [Bb] [Bb] | [Ff] [F,F] [Bb] [Bb]/ |]

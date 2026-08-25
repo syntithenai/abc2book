@@ -1,0 +1,31 @@
+X:3
+T:Brunnemad-Juiz  Bb  AABCD
+T:Ruedi Rymann (31.1.1933-10.9.2008)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:AABCD
+M:2/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B | B3D | F3B, | D2B,2 | D2F2 | f4 | dg fB | A3E | F3E | 
+(C4 | C3)z | A3C | F3C | E2F2 | f4 | eg fA | !fermata!F2z ||
+M:2/4
+[P:B]  G2GG | g2fe | F2FF | f2dB | AcF2 | AcF2 | Bd GD | F4 | 
+G2GG | g2fe | F2FF | f2dB | AcF2 | Ac Fd | (B4 | B2)z2 || 
+[P:C] B,D DG | GF Ff | d3F | GF Ff | d3F | GF Ff | f3e | c4 | 
+A,C CG | GF Ff | e3F | GF Ff | e3F | GF Ff | d3c | B4 | 
+B,D DG | GF Ff | d3F | GF Ff | d3F | GF Ff | 
+f3e | c4 | A,C CG | GF Ff | .eF Ac | f3e | d2c2 | B4 || 
+[P:D]   "_*"G2GG | g2fe | F2FF | f2dB | A/A/A/c/ F/F/F/B/ | 
+A/A/A/c/ F/F/F/A/ | B/B/B/d/ G/G/G/D/ | F4 | G2GG | g2fe | F2FF | 
+f2dB | A/A/A/c/ F/F/F/B/ | A/A/A/c/ F/F/F/d/ | B4 | c2d2 | (B4 | B2)z2 |] 
+W:
+W:Reihenfolge:AA-B-C-D
+W: * Teil D.  T=70
+W:UJV-Naturjodelsammlung: Code-Nr: 05-02
+W:http://www.naturjodler.ch/code 05.htm  (with AUDIO)
+%April 29, 2018

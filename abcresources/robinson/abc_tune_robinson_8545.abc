@@ -1,0 +1,24 @@
+X: 77
+T:Belhelvie House, a Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:28 - 2
+K:C minor
+%%staves {1 2}
+V:1
+"^Slow"
+C | \
+C3/2c/cG c/c/c {d}e2 | d3/2c/Bd f/e/d/c/ Bd | \
+C3/2c/cG c/c/c {d}e2 | {e}d3/2c/Bd c2 [1C :| [2c |]
+d | \
+{d}e3 g e/e/e e2 | {e}d3/2c/Bd f/e/d/c/ Bd | {d}e3 g e/e/e (ge) | dBfd c2 C2 |
+{d}e3 g e/e/e e2 | {e}d3/2c/Bd f/e/d/c/ Bd | {d}e3 g dBfd |ecd=B c2 C |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | cccc | bbbb  | cccc | ggc [1c/:| [2c/ :| \
+z/ | eeee | BBBB | eeee | ggcc | eeee | BBBB | eeBB | cGcc/ |]

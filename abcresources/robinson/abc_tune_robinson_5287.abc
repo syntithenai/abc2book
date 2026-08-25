@@ -1,0 +1,19 @@
+X:54
+T:Flick und Flock (Mazurka) CGF (mz06527) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.192 (mz06527) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen'. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21 
+%%partsbox
+P:ABAC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] ("C"eg)c4 | ("G7"Bd)G4 | (Ge).d2.d2 | ("C"Gd).c2.c2 | (eg)c4 | ("G7"Bd)G4 | Ge dG de | "C".c2.c2z2  :| [P:B] [K:G] 
+|: ("G"BA) .G.AB2 | (BA) .G.AB2 | ("C"cG) (cG) (eG) | "G"d4z2 | ("Am"ce)A2A2 | ("G"Bd) G2G2 | ("D7"Ac) F2F2 | "G"G2G2"_>Teil A"z2 :| [P:C] [K:F]
+|: ."F"c2f3c | ("Gm"Be)d4 | "C7".B2e3B | ("F"Ad)c4 | .A2d3A | ("C7"cB)E3e | (cB)E3e |  ("F"dc)A4 | 
+c2f3c | ("Gm"Be)d4 | "C7".B2e3B | ("F"Ad)c4 | "Bb"GB GB ed | ("F"cd)c2A2 | "C7"(.B.c)B2G2 | "F".F2!>!f2z2 :|
+% mz06527
+% Jan 19, 2017

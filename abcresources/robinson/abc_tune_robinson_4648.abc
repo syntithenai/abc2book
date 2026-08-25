@@ -1,0 +1,21 @@
+X:72
+T: Immer lustig (nach G. Linder)  BbFEb (st06023)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.305 (st06023) orig. Bb,F,Eb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:Bb major
+"Bb"ff {/f}bb | {/b}"F7"aa {/a}"Eb"gg | {/g}"F7"ff {/f}cc | "tr""Bb"dB {/c}B/A/B | ff {/f}bb | {/b}"F7"aa {/a}"Eb"gg | {/g}"F7"fc/d/ f/e/d/c/ | 
+"Bb"BB/B/ Bz :| [K:F] "C7"c=B/c/ de | "F"f/e/f/g/a2 |  "C7"c'/b/g c'/b/g |  "F"a/g/f/e/ "tr"dc | "C7"c=B/c/ de | "F"f/e/f/g/a2 | 
+"C7"c'/b/g c'/b/a/g/ | "F"ff ff/f/ |: [K:Bb] {/f}"F7"aa a/g/f/e/ | "Bb"ggf2 | "Eb"gg "F7"g/f/e/c/ | "Bb"dB {/c}B/A/B | {/f}"F7"aa a/g/f/e/ | "Bb"ggf2 | 
+"F7"c/f/=e/f/ _eA |1 "Bb"Bd Bf/f/ :|2 "Bb"Bd BB || [K:Eb] "Eb"ee/g/ e/B/e/g/ | bb/e'/ bg | "Ab"aa/c'/ e/a/c'/e'/ | "Eb"b3g | "Ab"aa/c'/ "Bb7"a/c'/f/a/ | 
+"Eb"gg/b/ g/b/e/g/ | "Bb7"ff/b/ ff/b/ | "Eb"gg/f/ eg | "Ab"aa/c'/ "Bb7"a/c'/f/a/ | "Eb"gg/b/ g/b/e/g/ | "Bb7"ff/b/ ff/b/ | "Eb"eg ez |]
+W:
+W:Anmerkung H.C.: 1 Bandure Schottisch, Züri [Zürich] Oberland
+W:
+W: Immer lustig (always fun/funny)
+% st06023

@@ -1,0 +1,17 @@
+X:155
+T: Schottisch  CF (st09119)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.96 (st09119) orig. C,F
+S: \"Uberliefert durch Josef B\"abi, Alpnach, 1880
+%%MIDI program 21
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"G2Ee d2c2 | "F"A2Ff e2d2 | "G7"cBB2 Baa2 | "C"a2ga g^fg2 | G2Ee d2c2 | "F"A2Ff e2d2 | "G7"cBB2 agfd | "C"c2e2 c2z2 :| 
+"C"ggg2"F"a4 | "C"g2f2!>!e4 | "G7"d2cB G2B2 | "C"cdef g2g2 | ggg2"F"a4 | "C"g2f2!>!e4 | "G7"d2cB G2B2 | "C"c2c2 c2z2 |: [K:F] 
+"C7"cBB4e2 | efe2c4 | cBB4g2 | "F"a2f2 c2A2 | "C7"cBB4e2 | efe2c4 | cBB2 a3g | "F"f2f2 f2z2 :| [K:C] 
+"Dm"f2e2 d2^cd | d2^ced4 | "A7"^dee2 A2a2 | "Dm"eff2d4 | "C"e2d2 c2Bd | c2Bd c4 | "G7"^cdd2 G2g2 | "C"c4"_>Teil C"z4 |] 
+W:Parts: ABCD-C
+% st09119

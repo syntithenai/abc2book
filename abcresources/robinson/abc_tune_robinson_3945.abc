@@ -1,0 +1,20 @@
+X:10
+T: Der luschtig Appenzeller (Walzer)  CG (wz09004)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.49 (wz09004) orig. G,C-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+d | "G"b3 | bag | ("D7"a3 | a)zd | (a3 | a)gf | ("G"g3 | g)zd | b3 | bag | "C"e3 | ec'a | 
+"G"g2b | "D7"d'2f | ("G"g3 | g)zd/g/ || "D7"g3 | f2c/e/ | "G"e3 | d2d/b/ | "D7"b3 | a2d/a/ | "G""_*"a3 | g2d/g/ | 
+"D7"g3 | f2c/e/ | "G"e3 | d2d/b/ | b3 | "D7"b2a | "G"g3 | gzz |] [K:C] "C"geg | a>a!>!g | ze>e | "G7"f>f!>!B | 
+zg>g | a>a!>!g | zf>f | "C"e>ec | geg | c'zb | c'z^c' | "Dm"d'2z | a2z | "G7"g^ga | bed | "C"c3 | czz |] 
+W:
+W: * Anmerkung Hrsg.: Titel HC; der lustig Appenzeller, Teil B, Takt 7: ergänzt
+W: luschtig (Swissgerman for lustig - funny)
+% wz09004
+% Aug 1st, 2016

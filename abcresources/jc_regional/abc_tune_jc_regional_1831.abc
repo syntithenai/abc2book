@@ -1,0 +1,13 @@
+X: 221
+T: Medax Tashginag
+O: Armenia
+S: Deborah Jones, VIFD Book
+M: 4/4
+L: 1/8
+Q: 1/4=120
+K: Dm
+%%MIDI gchord f2fff2f2f2f2f4
+%%MIDI program 41
+%%MIDI bassprog 32
+"Dm" Dc =Bc A2 d2| A3 G AG F2    |Gc =Bc A2 D2    | A3G AG F2     |
+"Gm" GA FG EF G2 | "Dm" D3C FE D2|"Gm" GA FG EF G2| "Dm" D3C FE D2|

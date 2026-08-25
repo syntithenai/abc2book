@@ -1,0 +1,16 @@
+X:15
+T:Ländler C (LD03083)
+B:Hanny Christen. Bd.3 Appenzell. S.26 (LD03083) orig. C-Dur
+%%MIDI program 21
+O:Switzerland
+R:Ländler
+M:3/4
+L:1/8
+K:C major
+G2 |: "G"GA Bc de | f2 d2 d2 | G2 B2  B2 | "C"cG ec GE | \
+     "G7"GA Bc de | e2 d2 d2 | G2 B2 d2 | "C"[Ec]2 z2 G2 :| 
+  "G7"G2 Bd f2 | "C"ec Bc GE | "G7"D2 B2 B2 | "C"cG ec GE | \
+  "G7"G2 Bd f2 | "C"ec Bc GE | "G7"D2 B2 B2 |1 "C"[Ec]2 z2 G2 :|2 "C"[Ec]2 z G AB || 
+|:"C"c3 G EG | c3 G ce | "D7"d2 dB cA | "G7"G2 z2 GB |  d3 e dB | G2 g2 f2 | "C"e2 ef "G7"de |1 "C"c2 z G AB :|2 "C"c2 z2 c2 ||  
+  "G7"Bd g3 f | "C"fe de c2 | "G7"GA Bc dB | "C"cB cd ec | \
+  "G7"Bd g3 f | "C"fe de c2 | "G7"GA Bc dB | "C"c2 c2 z2 |]

@@ -1,0 +1,25 @@
+X:5
+T: dr Heiwfuederer  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+C:
+%%partsbox
+M:2/4
+%Q:1/4=110
+R:Naturjuiz
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A]  F>F | BF | d/c/B | G>E | cG | e2 | 
+F>F | AF | e/d/c | B>A | Bc | !fermata!d2 | F>F |  
+BF | d/c/B | G>E | cG | e2 | F>F | AF | e/d/c | !fermata!B2 || 
+[P:B] 
+e>G | cG | e/d/c | d>F | BF | d/c/B | A>F | 
+AF | e/d/c | B>A | Bc | !fermata!d2 | e>G | cG | e/d/c | 
+d>F | BF | d/c/B | A>F | AF | e/d/c | !fermata!B2 |] 
+W: Parts: A-B-A-B
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-03
+W:http://www.naturjodler.ch/tradition-1.htm  (with AUDIO)
+%April 20, 2018

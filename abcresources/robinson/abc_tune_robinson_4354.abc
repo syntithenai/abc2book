@@ -1,0 +1,17 @@
+X: 116
+T: Monferine Vaudoise GDC (mf05967)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.217 (mf05967) orig. G,D,C-Dur
+S: Tänze aus Saanen (Bern) s. "Hanneli-Suite" by Evelyne Brunner
+% (http://www.gymseefeld.ch/fileadmin/gym/weg/maturaarbeiten/09/MA_Evelyn_Brunner.pdf)
+%%partsbox
+R:Monferrina
+O:Switzerland
+M:6/8
+L:1/8
+P:ABACADE
+K:G major
+[P:A] "G"B3B3 | BAB d2B | "D7"A2Bc2d | "G"B3G2z | B3B3 | BAB d2B | "D7"ABc def | "G"(g3 "_fine"g)zd ||[P:B]  "D7"cBc A2e |  
+"G"d^cd B2d | "D7"cBc A2e | "G"d3 Bzd | "D7"cBc A2e | "G"d^cd B2d | "D7"cBc def | "G"(g3g2)"_> Teil A"z ||[P:C]  [K:D]  
+|: "D"A3f3 | "A7"fed c2B | "D"A3f3 | "A7"fed c2B | "D"ABc def | a2f "B7"agf | "Em"b2za3 | "A7".g2e gfe | "D".d2F"A7" GFE | 
+"D"(D3D2"_> Teil A")z :|[P:D] [K:C] "C"G2cB2c | "G7"d2e"C"c2z | c3"Dm"d3 | "G7"g3G2z | "C"G2cB2c | "G7"d2e"C"c2z | "G7"g3G3 | "C"(c3c2)"_d.c."z :| 
+[P:E][K:G] "G"B3B3 | BAB d2B | "D7"A2Bc2d | "G"B3G2z | B3B3 | BAB d2B | "D7"ABc def | "G"(g3 "_fine"g)zz |]

@@ -1,0 +1,25 @@
+X:1
+T:Hermann, freu di. Walzer  CF (wz07070) ABCDABC
+T: Basel II. Tänze aus Böckten. S.146-181.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.170  ( wz07070) orig. C,F
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCDABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"cde | (d2c) | G3 | c3 | cde | (d2c) | "Dm"A3 | d3 | def | (e2d) | "G7"a3 | 
+g3 | gef | "Dm"A2"G7"B | "C"c>cc | czz :: [P:B] ("C"ce).g | c'3 | "G7"b>ff | b>ff | (Bd).f |  a3 | 
+"C"g>ee | g>ee | "Dm"f3 | ("G7"e2d) | ("C"d2c) | e3 | ("Dm"e2d) | ("G7"a2g) | "C"c>cc | czz :| [K:F] 
+|: [P:C] ("F"f2A) | ("C7"B2c) | "Bb"d3 | "F"c3 | ("C7"bc>)d | c3 | ("F"ac>)d | c3 | (f2A) | ("C7"B2c) | "Bb"d3 | "F"c3 | 
+"C7"bc>d | (c2e) | "F"f>ff | fz"_Fine"z :: "Am"c3 | "E7"=B3 | "Am"A>AA | Azz | "E7"=B3 | "Am"A3 | 
+("E7"e3 | e)zz | ("F"f2A) | "C7"B2c | "Bb"d3 | "F"c3 | ("C7"bc>)d | c2e | "F"f>ff | f"_>Teil A"zz :| 
+W:
+%W:Parts: ABCD-ABC
+%W:
+%W:Anmerkung H.C.: 
+% wz07070
+% June 18, 2018

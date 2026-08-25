@@ -1,0 +1,18 @@
+X:1
+T:Alpenk\"onig (Walzer) GC (wz05149)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.382 (wz05149) orig. G,C-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+d [P:A] |: "G"b2f | "C"age | "G"d2B | g2B | "D7"e2d | AcB |1 "G"G F/G/ A/B/ |  "D7"c/d/ e/f/ g/a/ :|2 "G"G>gg | gzd ||  
+[P:B]  "G"d>b a/g/ | "D7"gff | f>e d/c/ | "G"cBB | G>g f/e/ | "C"ecc | "D7"eFF | "G"Gzz || [K:C] 
+[P:C] |: "C"^F/G/ c/e/g | B/c/ e/g/c' | "G7"a>g ^f/d/ | "C"^f>e c/G/ | ^F/G/ c/e/g | B/c/ e/g/c' | "G7"a>g f/d/ | "C"czz :| 
+[P:D] [K:G] "D7"dd/d/d | "G"d>ed | "D7"^c/d/ e/=c/ f/d/ | "G"g>ab | "D7"dd/d/d | "G"d>ed | "D7"^c/d/ e/=c/ f/d/ | "G"gzz |] 
+% June 5, 2016
+W: cf. "Volksmusik aus Liechten" (Hoerprobe)
+W: https://www.jpc.de/jpcng/poprock/detail/-/art/Various-Artists-Volksmusik-Aus-Liechten/hnum/4650733

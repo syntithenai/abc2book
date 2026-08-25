@@ -1,0 +1,22 @@
+X:170
+T:Polka FCBb (pk06858) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.225 (pk06858) orig. F,C,Bb
+T: Aus dem Repertoire der Dorfmusik Benken. S.222-236
+T:Überliefert durch Johannes Grass (*1871)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:4/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] ("F"Ac).f2 (Ac) .f2 | ("Gm"e2d2)  {/d}d^c d2 | ("C7"EG) .d2 (EG).c2 | ("F"B2A2) A^GA2 | (Ac).f2 (Ac) .f2 | ("Gm"e2d2)  {/d}d^c d2 | 
+("C7"EG) .d2 (EG).c2 | "F"F2FEF2 z2 || [P:B] [K:C] "G7"G2(Bd)f2B2 | "C"c2(ce)g2e2 | "G7"d>^c d>e f2d2 | "C"c>B c>d e2c2 | "G7"G2Bd f2B2 | 
+"C"c2ceg2e2 | "G7"d>^c d>e f2d2 | "C"c2cc cc c"_>Teil A"z |: [P:C] [K:Bb] "Bb"F2 (=EG)F2B2 | ("Cm"A2G2)G4 | ("F7"=EF) (^FG) A2G2 | 
+"Bb"F2d2B4 | F2 (=EG)F2B2 | "Eb"A2G2G4 |1 ("F"=EF) (AG) ("C7"EF) (AG) | "F"F2FF F2 z2 :|2 "F7"=EF AG EF GA | "Bb"B2B2B2z2 || [P:D] [K:F] 
+"F"AAA2d2c2 | "Gm"BBB2e2d2 | "C7"ccc2a2g2 | "F"f2a2c4 | AAA2d2c2 | "Gm"BBB2e2d2 | "C7"ccc2a2g2 | "F"f2fff2"_Fine"z2 |] 
+W:
+W:Anmerkung H.C.: 22 Titterten, Lavel, Holle Musig, Bader  s.V. 101
+% pk06858
+% March 12, 2017 (Vollmond)

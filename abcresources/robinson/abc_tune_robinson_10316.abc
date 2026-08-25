@@ -1,0 +1,23 @@
+X:1
+T:Count F...?'s March. JBa.01
+M:C|
+L:1/4
+Q:1/2=100
+S:Joseph Barnes MS,Carlisle,1762.
+R:March
+O:England
+A:North-West - Carlisle
+N:1 - grace note shown as a crochet
+Z:vmp.C.Graebe.
+B:Village Music project, Barnes, Joseph
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/barnes_j.abc
+K:G major
+"_sh = shake.  See pages 1 - 11"\
+B/c/ | d2e2 | d/c/B/c/ dg | G2A2 | B/A/G/F/ Gd |!
+e/d/c/e/ eg | d/c/B/c/dg |c2 "sh"B>c | "_NB1  sh"{B}"sh"A3 :|!
+|:f/g/ | a2d2 | ^c2 d f/g/ |a2d2 |^c/d/e/c/ AA |!
+d (d/4e/4f/) e (e/4f/4g/) |\
+f (f/4g/4a/) g (g/4a/4b/) | ad{f}e d/"_Cnat in ms""2"^c/ | {c}d3g |!
+e/d/c/d/  eg | d/c/B/c/ dg | c2"sh"B2 | A/G/F/E/ DD |!
+G (G/4A/4B/) A (A/4B/4c/) | B (B/4c/4d/) c (c/4d/4e/) |\
+dG"1"{B}A G/F/ | "1"{F}G3 |]

@@ -1,0 +1,25 @@
+X:51
+T:Lord John Russell
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:21 - 3
+K:Bb major
+%%staves {1 2}
+V:1
+f | \
+(ed)(cA) BFBd | GBFD C2 Cf | (ed)(cA) BFBd | GBFD !trill!B,2 B, :|
+E | \
+(DE/F/) B,F DFB,F | BFdB ~c2 (cd) | (DE/F/) (B,F) DFEG | FBAc ~B2 (Bd) |
+(DE/F/) (B,F) DFB,F | BFdB ~c2 (ce) | dfeg fBdB | [EA]FGA !trill![DB]2 [DB] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Bdb][Beb][Bdb][Bdb] | [Beb][Bdb][Fcf][Fcf] | [Bdb][Beb][Bdb][Bdb] | [Beb][Bdb][Bdf][Bdf]/ :| \
+z/ | \
+[B,B][B,B][B,B][B,B] | [B,B][B,B][Ff][Ff] | [B,B][B,B][B,B][Gg]/[Ee]/ | [Ff][Ff][B,B][B,B] | \
+[B,B][B,B][B,B][B,B] | [Dd][B,B][Ff][Aa] | [_A_a][Gg]/[Ee]/[Dd][B,B] | [Ff][Ff][B,B][B,B]/ |]

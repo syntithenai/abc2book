@@ -1,0 +1,20 @@
+X:97
+T:Landjäger-Marsch FBb (mr02060)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.295 (mr02060) orig. F,Bb
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+R:Marsch
+M:2/4
+L:1/8
+K:F major
+"F"f>cc2 | f>cc2 | fc AF | "C7".c2cf [| "F"d2cf | d2cf | "C7"e>b bb | b2cf | d2cf | 
+d2ce | "F"f>a aa | a2cf | d2cf | d2cf |  "C"e>g gg | g2 ag | "G7"f/f/f ag | "C"e/e/e gf | 
+"G7"ed"C".c2 |: "C7"b2a>g | ga/g/ ^fg | "F"a2 g>f | fa gf | "C7"e/c'/c' d/b/b | c/a/a B/g/g | "F"caf2 | 
+zc/c/ cc | "C7"b2 a>g | ga/g/ ^fg | "F"a2 g>f | f2z2 | "Bb"ff/f/ ff | "F"fc fa |  "C7".c'2!>!e2 |1 "F"fc/c/ cc :|2 
+"F"ff/f/ f2 || [K:Bb] "Bb"F2 B>d | fb ag | ("F7"fa) (fa) | e2z2 | F2 A>c | fb ag | ("Bb"fb) (fb) | d2z2 | 
+F2 B>d | fb ag | ("F7"fa) (fa) | e2z2 | F2Ac | fa gf | "Bb".b2 f>d | BB Bz |] 
+W:Anmerkung Hrsg.: Vernutlich fehlt im Teil A ein Takt.
+W: Ist der letzte Takt vielleicht halb so schnell gespielt worden?
+% mr02060 (H 073/Tn 60)

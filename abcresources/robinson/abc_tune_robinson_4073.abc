@@ -1,0 +1,18 @@
+X:125
+T: Polka  FBb (ABAC) (pk09238)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Engelberg (1949). S.109-177. S.143 (pk09238) orig. F,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"Acc2 cff2 | "C7"fee2 eBG2 | EGB2 Bdd2 | "F"dcc2 cAF2 | "C7"c'ee2 "F"c'ff2 | "C7"c'ee2 "F"c'ff2 | "C7"EFGA Bcde | "F"f2a2 f2z2 :| 
+[P:B] |: "Bb"f2gf e2d2 | "F"d2c2 a3b | "C7"a2g2 {/a}gfga | "F"g2f2 {/g}fef2 | "Bb"f2gf e2d2 | "F"d2c2 a3b | "C7"a2g2 {/a}gfga | "F"f2f2 f2"_>Teil A"z2 :|  [K:Bb] 
+[P:C] |: "Bb"defg f2b2 | "F7"b2a^g a2f2 | d'2c'2 b2a2 | "Bb"c'bag !>!f4 | defg f2b2 | "F7"b2a^g a2f2 | d'2c'2 baga | "Bb"b2b2 b2z2 :| 
+% W:ABAC
+% pk09238

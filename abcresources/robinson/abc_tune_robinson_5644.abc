@@ -1,0 +1,32 @@
+X:15
+T: Nachtbuebe-Juiz  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+%Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] 
+F>E |  c2F>F | eFdc | B2F>F | dFcB | 
+A2F>F | eFdc | (B4 | B)zF>E | c2F>F | eFdc | 
+B2F>F | dFcB | A2F>F | e"rit."Fdc | (B4 | B)z ||
+[M:2/4] [L:1/8] 
+[P:B]  FF | Ff dc | BD FB | Ac FA | E2 FF | Ff ed | 
+cE Fc | Bd FB | D2  FF | Ff  dc | BD FB | 
+Ac FA | E2FF |  Ff eF |   "rit."d2 c2 | (B4 |B2) || 
+M:3/4
+L:1/4
+[P:C] F/F/ | f>e d/f/ | edc | B>GF | dcB | A>GF | 
+edc | B>GF | !fermata!d2F/F/ | f>e d/f/ | edc | 
+B>GF | dcB | A>GF | edA/c/ | (B3 | B)z |]
+W: Reihenfolge: A-2xB-C
+W:
+W: Dem "Nachtbuebe-Juiz" sagte man früher auch "Alpfreude-Juiz".
+W: 
+W: UJV-Naturjodelsammlung: Code-Nr: 00-18
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 22, 2018

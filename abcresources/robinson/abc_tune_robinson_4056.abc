@@ -1,0 +1,16 @@
+X:109
+T: Polka  CF (pk09085)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Das Repertoire der B\"abi-Musig, Alpnach. S.62-108. S.80 (pk09085) orig. C,F
+S: \"Uberliefert durch Josef B\"abi, Alpnach, 1880
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"e2e2 {/f}e^def | g2c2 {/d}cBce | "Dm"d2Ac "G7"B2G2 | "C"cGAB c^cd^d | e2e2 {/f}e^def |  "F"g2A2A4 | "G7"e2Ge d2Gd | 
+"C"c2c2 c2z2 :| "C"e4e4 | e2e2 c'ba2 | "G7"d4d4 | d2d2 bag2 | "C"g2G2 G3G |"G7"g2G2 G3G | "C"g2G2 g2G2 | "G7"g2^FG AB"_>Teil A"cd || [K:F] 
+|: [L:1/8] "F"cf ff | "Gm"e/g/Bd2 | "C7"b/a/g B/e/g | "F"b/a/fc2 | cf ff | "Gm"e/g/Bd2 | "C7"b/a/g B/e/g | "F"ff fz :| 
+W: Parts: AB-AC
+% pk09085

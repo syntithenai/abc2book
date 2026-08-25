@@ -1,0 +1,24 @@
+X:1
+T:Pariser Walzer.  CF  (wz07867)
+T: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Hanny Christen. Bd.V  Basel II, Jura. S. 206  (wz07867) orig. C,F
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABCD
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] {/f}"C"e3 | c2e | gz^f | g2z | g3 | e2g | c'zb | c'2 e/g/ | "G7"c'bb | d2 f/g/ | "C"agg | 
+c2e | "G7"gff | agB | "C"c>cc | czz |: [P:B] "C"g2e | c'2e | "G7"gfa | d2z | f2d | b2f | 
+"C"fea | g2z | g2e | c'2g | "F"a2f | c'ba | "C"g2e | "G7"f2B | "C"ceg |1 c'zz :|2 c'zf/g/ || [K:F] 
+[P:C] "F"a2f | "Bb"f2d | "F"c2A | Acf | "C7"e2c | ceg | "F"a2f | c'2f/g/ | a2f | "Bb"f2d | "F"c2A | 
+Acf | "C"e2c | "G7"=B2d | "C"c>cc | czc || [P:D]  "C7"ee/e/e | e2c | "F"ff/f/f | f2c | "C7"gg/g/g | g2c | 
+"F"aa/a/a | a2a | "Bb"bag | d2b | "F"agf | c2a | "C7"gce | gag | "F"f>ff | f2z |] 
+W:
+%W:Parts: ABCD
+W:Anmerkung H.C.: 18. April 1915
+%W:Anmerkung Hrsg,:
+% wz07867
+% Aug 26, 2018

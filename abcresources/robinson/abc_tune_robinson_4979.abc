@@ -1,0 +1,18 @@
+X:70
+T:Immergrün Polka FC (pk02029b)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.278 (pk02029b) orig. F,C
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABCAB
+R:Polka
+M:2/4
+L:1/16
+K:F major
+AB [P:A] |: "F"c2Ac d3A | "C7"B2BA G2c2 | c2cb e3c | "F"c2ca f2AB | c2A2 d3A | "C7"B2BA G2c2 | 
+c2cb e2de |1 "F"f2a2 f2AB :|2 "F"f2a2 f2cA [P:B] |: "C7"B2ce B2cB | "F"A2cf A2c2 | "C7"dc=Bc g2c2 | 
+"F"dc=Bc a2c2 | "C7"B2ce B2cB | "F"A2cf A2c2 | "C7"dc=Bc b2e2 |1 "F"f2ag f2cA :|2 "F"f2ag f2"_Fine"z2 |] [K:C]
+[P:C] |: "C"e2gg ^d2ee | B2cc G3F | E2G2 "A7"A3G | "Dm"G2F2F4 | f2aa d2ff | "G7"B2dd A3G | G2B2 d2e2 | "C"d2c2 c2"_>Teil A"z2 :| 
+% pk02029b

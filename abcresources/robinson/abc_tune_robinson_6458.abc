@@ -1,0 +1,24 @@
+X:2
+T:Walzer  FC 7- (wz07931)
+S:Hanny Christen. Bd.V  Basel II, Jura. S.239  (wz07931) orig. C,G
+S:Basel II. "Tänze aus Titterten". S.230-249.
+S:Überliefert durch Karl Miesch.
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+"F".F!>!F2 | .A!>!A2 | cAF | cAF | "C7"CzC/2C/2 | Czz [P:A] |: "F"FEF | .AC2 | FEF | Ac2 | 
+"C7"c=Bc | .e!>!G2 | BAB |1 "F"dA/2c/2F :|2 "F"FzG/2G/2 |: [P:B] [K:Cmaj] "G7"Gzf | ezB | "C"dzc | ezG | "G7"EzD | 
+BzA | "C"GzC | E2G/2G/2 | "G7"G2f | e2B | "C"d2c | e2G | "G7"E2D | G2B | ("C"c3 |1 
+c )zG/2G/2 :|2 c)zc |: [P:C] [K:Fmaj] "F"dzc | FzA | "C7"czB | Ezc | ezd | GzB | "F"fzc | 
+Azc | d2c | F2A | "C7"c2B | E2c | e2d | B2E | "F"F3 |1 Czc :|2 Fzz |] 
+W:
+W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% wz07931
+% Jul 16,, 2019

@@ -1,0 +1,23 @@
+X:1
+T:Verlobungs-Polka  FCBb  (pk07617) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.128  (pk07617) orig. F,C,Bb
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"cc AB | c4 | A/c/f A/c/f | "Bb"ddB2 | dd Bc | d4 | "C7"e>d cB | "F"dcA2 | 
+cc AB | c4 | A/c/f A/c/f | "Bb"d4 | dc (B/e/).d | "F"dc A>B | "C7"AG DE | "F"FA Fz :|  [K:C]
+[P:B] |: "C"G>G AG | fe e>f | "G7"ed d>e | "C"dcc2 | "G7"G>G AG | "C"fe e>f | "G7"ed A>B | "C"ce  cz :| [K:F]
+[P:C] |: "F"cA cA | "Bb"dd/c/ BB | "C7"BG BG | "F"ff/c/ AA | cA cA | "Bb"dd/c/ BB | "C7"e>d cB | "F"AF Fz :| [K:Bb]
+[P:D] "Bb"F3B | "F7"A3E | A3G | ("Bb"Fd)B2 | D/F/B AG | "F7"E4 | E/F/A GF | "Bb"D4 | 
+F3B | "F7"A3E | A3G | "Bb"F4 | "Eb"B>G EG | "Bb"B>F DG | "F7"FF/F/ FA | "Bb"Bd Bz :| 
+W:
+%W:Parts:
+%W:Anmerkung H.C.: 
+% pk07617 ('Welcome in the adults' world')
+% May 7, 2018

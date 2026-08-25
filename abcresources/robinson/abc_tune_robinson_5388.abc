@@ -1,0 +1,20 @@
+X:145
+T:Polka CF (pk06938) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.253 (pk06938) orig. C,F
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G/ [P:A] |: "C"Gc "G7"Bd | "C"cag2 | "G7".a.ag2 | .a.ag2 | "C"Gc "G7"Bd | "C"cag2 | "G7".a.a g>B |1 "C"cc cz/G/ :|2 "C"cc cz || 
+[P:B] "Am"AA/A/ Ac | ee/e/ ec | "E7"ed c>B | "Am"A/B/c/B/ A2 | "G"GG/G/ GB | dd/d/ dB | "D7"dc B>A | "G7".G2!>!"_>Teil A"G2 || [K:F]  
+[P:C] |: "F"A>A cf | A>A cf | "C7"e>e ed | Be dB | B>B ce | B>B ce | "F"f>f fd | cf cA | 
+A>A cf | A>A cf | "C"e>e ec | Ge cG | "G7"d>d A=B | "C"c>e ee | "G7"c>=B Bd | "C7"ce cz :| 
+[P:D] |: "Bb"fd dd/f/ | "F"ccA2 | "C7"ce/e/ ed | "F"cf/f/ af | "Bb"fd dd/f/ | "F"ccA2 | "C7"ce/e/ e[Bg] "F"[Af][Af] [Af]"_Fine"z :| 
+% pk06938
+% April 22, 2017

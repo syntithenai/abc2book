@@ -1,0 +1,12 @@
+X:132
+T:Mazurka CG (mz05153)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"G>E {/E}A3G | "G7"G>F {/F}B2B2 | G>F {F}A3G | "C"GE c2c2 | G2 ed cB | "F"A2dc BA | "G7"f>G B>D F>B | "C"c2c2z2 :: [K:G]
+"D7"D2 F>A c2 | "G"e>d B>FG2 | "D7"F>A, C>F A>F | "G"G>A, D>GB2 | "D7"E>e c>D F>A | "G"G>d B>D G>B | "D7"A>A, C>F A>B | "G"G2G2z2 | [K:C]
+|: "C"E>E F2G2 | .B2!>!G4 | e>e d2c2 | "G7".f2!>!B4 | D>D E2F2 | .G2 !>!F4 | f>fe2d2 | "C"dcG4 | 
+E>EF2G2 | .A2!>!G4 | e>ed2c2 | "F".f2!>!A4 | f>f e2d2 | "C"d>cG2c2 | "G7"c>B e2d2 | "C"c2c2z2 |] 
+% mz05153

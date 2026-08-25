@@ -1,0 +1,20 @@
+X: 23
+T:Mrs Forbes' Reel -- Aberdeen
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:8 - 3
+K:Bb major
+%%staves { 1 2 }
+V:1
+{a}b2 (fd) egce | dfBd cAFA | {a}b2 (fd) egce | dBFA B2 B,2 ::
+(AB)(FB) FB ~d2 | (Ac)Fc Fc ~e2 | (df)Bf dfbB | !trill!cAFA ~B2 B,2 |
+(AB)(FB) FB ~d2 | (Ac)Fc Fc ~e2 | (df)Bf dfbB | !trill!cAFA ~B2 B,2 :|
+V:2 clef=bass octave=-2
+L:1/4
+Bdec | dBfF | Bdec | fFBB :|
+BBdB ffaf | bBdB | fFBB | BBdB | ffaf | bBdB | fFBB |]

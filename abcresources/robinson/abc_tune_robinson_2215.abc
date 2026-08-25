@@ -1,0 +1,24 @@
+X:3025
+T:Tinker's Yellow Pony* (reel) % nf<bb
+B:"Northern Fiddler" 106.1 (SD) ("untitled reel")
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:Variant of "Yellow Tinker" (BB)
+L:1/8
+M:C
+R:Reel
+Q:360
+K:G major
+P:A
+G|:DG (3GGG DE=FC|DG (3GGG AdcA|DG (3GGG DE^FG|1 A=FF2 AdcA:|2 A=FF2 ABc2||
+P:B
+!segno! dg (3GGG dG^cd|dgg2 gdc2|dG (3GGG dGBd|cA=FA c2Bc|
+dg (3GGG dGA^c|dgg2 ^fdce|g2de ^fgaf|gbag =fdcA||
+P:C
+B2BG BdB2|BdBG c2Bc|d2BG BGBd|cA^FA c2cA|
+B2BG BdB2|BdBG c2Bc|d^cde =f2fd|c=FF2 AdcA||
+P:D
+G2GE =FDFD|G2 (3ABc =fdcA|G2GE =F2FG|A=FF2 AdcA|
+DGG2 DE=FC|DGG2 AdcA|DGG2 DE=FG|A=F (3FEF ABc2||
+P:E
+G2GE =FDB,D|GA=fg ^fdcA|G2GE =F2FG|A=F (3FEF AdcA|
+G2GE =FDB,D|GA=fg ^fdcA|G2GE =F2FG|A=F (3FEF ABc2 "_DS"||

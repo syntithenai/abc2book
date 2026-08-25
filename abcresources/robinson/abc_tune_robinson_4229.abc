@@ -1,0 +1,15 @@
+X:2
+T: Allewander (Schottisch) CG (AL08821)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.393 (AL08821) orig. C,G-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%MIDI program 21
+%%partsbox
+P:ABCA
+R:Alewander
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+GG [P:A] |: "C"G2e2 f2e2 | "G7"e2d^c d2GG | G2d2 e2d2 | "C"d2cB c2GG | G2e2 f2e2 | "G7"e2d^c d2GG | G2d2 e2d2 |1 "C"c4z2GG :|2 
+"C"c4z4 [P:B] |: [K:G] [L:1/4]  "G"dd | d{/c'}b | "D7"d{/b}a | "G"d{/a}g |  dd | d{/c'}b | "D7"d{/b}a/f/ |1 "G"gz :|2 "G"gz/c//c// || [K:C] [L:1/8]
+[P:C] |: "C"cd ee/e/ | ef gg/g/ | "G7"gf dg/g/ |  "C"ge cc/c/ | cd ee/e/ | ef gg/g/ | "G7"gf de |1 "C"c2zc/c/ :|2 "C"c2"_> Teil A"z2 |]

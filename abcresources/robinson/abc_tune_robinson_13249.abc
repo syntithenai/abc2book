@@ -1,0 +1,27 @@
+X:98
+T:Prince Wm of Glosters March.2voices. JJo.098
+S:J.Jones MS,1801,N.Shrops.
+N:"G.T" written in small capitals just after "March".
+N:Bar24 in V1 has "d4z4" with the 8 quavers superimposed.
+N:I have therefore transferred the d4 to V2 (making a chord)
+N:in order to achieve the overall sound which seems to be intended.NeilB
+A:Shropshire, N
+Z:Neil Brookes 2006
+M:4/4
+L:1/8
+Q:1/4=140
+B:Village Music project, Jones, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/jonesj.abc
+K:C major
+[V:1]"Monstero"e4dcde|c2c2d2d2|e4dcde|c4c'3b/a/|!
+[V:2]G4FEFG|E2E2F2F2|G4FEFG|E4a3g/f/|!
+[V:1]g2c2a3a/g/|e2c2c'3b/a/|g2"Pia"c2a3g/f/|"^Fte"e2c2g2g2|!
+[V:2]e2c2f3e/d/|c2E2a3g/f/|e2E2f3e/d/|c2E2e2e2|!
+[V:1]f2f2edef|"dol"d4f2a2|b2g2a2^f2|g2d2g2a2|!
+[V:2]d2d2cBcd|B4B2c2|d2B2c2A2|B2G2B2c2|!
+[V:1]b2g2a2^f2|"Supr"g4c'2d'2|e'2c'2d'2b2|c'2g2c'2d'2|!
+[V:2]d2B2c2A2|B4e2f2|g2e2f2d2|e2c2e2f2|!
+[V:1]e'2c'2d'2b2|"^Ftmo"c'4g2g2|=f4edef|dcBc defd|!
+[V:2]g2e2f2d2|e4e2e2|d4cBcd|"see notes"[d4B4]z4|!
+[V:1]e4dcde|c2c2d2d2|e4dcde|c2c'>c'c'2c'2|c'4z4|]
+[V:2]G4cBcd|E2E2F2F2|G4FEFG|E2e>ee2e2|e4z4|]

@@ -1,0 +1,34 @@
+X:24
+T:Angiam Waltz,The.? BF13.023
+M:3/8
+L:1/16
+Q:3/8=50
+S:MS13,Browne family,c1825,Lake District
+R:Waltz
+O:England
+A:North-West - Lake District
+N:The pause is very clearly and definitely written over the E.  In all
+N:duplets and triplets the number is written in the slur.  After the
+N:last
+N:double bar there is the regular 'end of tune' sign  The following
+N:three
+N:bars are in a different hand.  No final bar line is given, but the
+N:program insists on putting one in. Cherri.G.
+N:I think the  number two's should be read as ordinary triplets,
+N:occupying the space of two semi-quavers.As to the pause over the E, I
+N:think it's a blot! CGP.
+Z:vmp.Cherri Graebe.
+B:Village Music project, Browne13
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/browne13.abc
+K:G major
+(Bd)|(g2f2) (ce)|He2d2 (Bd)|(d2c2) (Ac)|(e2d2) (Bd)|\
+g2f2 (ce)|(e2d2) (Bd)|d2c2 AF|G4:|!
+|:(Bd)|"^NB"((3cec) c2e2|(e2d2) (Bd)|((3cdc) A2c2|\
+(e2d2) (Bd)|(g2f2) ce|(e2d2) Bd|(e2c2) (AF)|G4:|!
+|:d2|((3ded) (b2a2)|((3gag) d2B2|((3cdc) A2e2|((3gbg) d2B2|\
+((3ded) (b2a2)|((3gag) "_dB in ms"(d2B2)|!
+((3cdc) A2f2|g4::d2|c2A2f2|"gb in ms"(g2b2) ((3ded)|\
+((3cdc) A2f2|!
+g2b2 d2|((3ded) (b2a2)|((3gag) d2B2|((3cdc) A2f2|g4:|!
+| "_Extra Bit, see note"E2(GB) E2(Ac)|B2Bd A4 (ce)|E2(GB)E4Ac e2d2 BGA4|]
+W:See NOTES in abc.CGP

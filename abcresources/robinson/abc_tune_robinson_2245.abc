@@ -1,0 +1,28 @@
+X:3052
+T:Toss the Feathers (reel) % nf<bb
+B:"Northern Fiddler" 168.2 (F&MB)
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:Note that source shows twelve measures in second part. I have
+I:added a version where the second part consists of four bars plus
+I:two four-bar endings - in other words, same amount of measures
+I:arranged a little differently. (BB)
+L:1/8
+M:C
+R:Reel
+Q:360
+K:E minor
+P:A
+D|!segno! EBB2 EBEB|EeBA FADF|EBB2 EBEB|eAge dBAF|
+(3EEE BE (3EEE BE|EeBA FADF|(3EEE BE (3EEE BE|eage edBd||
+P:B
+Bdef gfge|fede feef|gebe gebe|fede fbef|
+gb (3bbb fa (3aaa|efge dBAF|gfed efge|fede feef||
+gebe gebe|fede feef|gb (3bbb fa (3aaa|efge dBAF "_DS"|]
+%
+P:version with amended second part
+!segno! EBB2 EBEB|EeBA FADF|EBB2 EBEB|eAge dBAF|
+(3EEE BE (3EEE BE|EeBA FADF|(3EEE BE (3EEE BE|eage edBd||
+P:B
+Bdef gfge|fede feef|gebe gebe|fede fbef|
+[1 gb (3bbb fa (3aaa|efge dBAF|gfed efge|fede feef:|
+[2 gebe gebe|fede feef|gb (3bbb fa (3aaa|efge dBAF "_DS"|]

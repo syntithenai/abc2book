@@ -1,0 +1,33 @@
+X:78
+T:the Earl of Angus and Arran
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+O:Scotland
+R:Slow Strathspey
+Z:Clark Bernst
+%%Page:33 - 2
+K:Eb major
+B, [| \
+[G,E]<[G,E] [B,FB]2 {A}G>F E>G & x4B,4 | A<D F>E D<B, C>D & C2C2A,2A,2 | \
+[G,E]<[G,E] "\="~[B,FB]2 {A}G>F E>G & x4B,4 | A<C F>D [G,E]2 [G,E]>B, & C2A,2x4 |
+[G,E]<[G,E] "\="~[B,FB]2 {A}G>F E>G & x4B,4 | A<D F>E D<B, C>D & C2C2A,2A,2 | \
+[G,E]<[G,E] [B,FB]2 {A}G>F E>G & x4B,4 | A<C F>D [G,E]2 [G,E] & C2A,2x3 ||
+B |\
+G<B E>B G<B E>d | e<E G>E D<F F>A | \
+G<B E>B GB E>g | [Af]>e [Ad]>c "\="~[DB]2 [EB]G |
+A<c F>A G>B E>G & F2B,2B,2B,2 | ~F>G A>G FEDB, & C4 A,2A,2 | \
+[B,E]>G [B,F]<A [EG]<B [EA]>c | B<e d>f e2 e & G2G2G2G |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ |\
+[Ee][Dd][Ee][Ee] | [A,A][=A,=A][B,B][B,B] | \
+[Ee][Dd][Ee][Ee] | [A,A][B,B][Ee][Ee] |\
+[Ee][Dd][Ee][Ee] | [A,A][=A,=A][B,B][B,B] | \
+[Ee][Dd][Ee][Ee] | [A,A][B,B][Ee][Ee]/ ||\
+z/ |\
+[egb][egb][egb][egb] | [egb][egb][Bfb][Bfb] |\
+[egb][egb][egb][egb] | [Ff][Ff][B,B][_D_d] | \
+[Cc][=D=d][Ee][G,G] | [A,A][A,][B,B][B,] |\
+[Ee][Dd][_D_d][Cc]/>[A,A]/ | [B,B][B,B][Ee][Ee]/ |]

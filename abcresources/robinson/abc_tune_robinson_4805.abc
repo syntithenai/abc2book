@@ -1,0 +1,17 @@
+X:212
+T: Schottisch  CGF (st05986)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.287 (st05986) orig. C,G,F-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+"C"EGce g3e | "G7"f2f2 B3g | b2b2 f3b |  "C"c'2c'2!>!e4 | EGce g3e | "G7"f2f2 B3g | b2b2 bafd | "C"c2e2 c2z2 :: [K:G]
+"D7"dedc A2c2 | "G"B2B2G4 | "D7"FGAB cdef | "G"gfgab4 | "D7"dedc A2c2 | "G"B2B2G4 | "D7"FGAB c2f2 |1 "G"g2g2 g2z2 :|2  
+"G"g2=f2 e2"_>Teil A"d2 |: [K:F] [L:1/8] "F"a3f/f/ | f3e/e/ | "Bb"d3c/=B/ | "F"c3d/c/ | "C7"B>c bb |1 e3c | "F"A>c aa | Pfc Ac :|2 
+"F"aA/c/f2 |  "C7"gB/c/ e>e | "F"ff fb/a/ || "Gm"g>d dd | d3a/g/ | "F"f>c cc | c3g/f/ | "C7"e2b2 | a2g2 | "F"f>f d'd' | 
+c'3b/a/ | "Gm"g>d dd | d2ag | "F"f>c cc | c2gf | "Bb"d/d/d b/b/b | "F"a/a/a cf | "C7"g/g/g ce | "F"ff f"_Fine"z |] 
+W: Parts: ABACD

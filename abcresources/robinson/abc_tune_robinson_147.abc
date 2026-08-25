@@ -1,0 +1,31 @@
+X:25
+T:Villagers,The,3parts. JNu.24
+M:6/8
+L:1/8
+Q:3/8=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Jig
+O:England
+A:Lancashire, E
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:Bb major
+[V:1] |: d2d e2e | fdB cAF | B2B cBc | ded c3 |
+[V:2] |: B,DF B,DF | DFB AGA | DFB AGA | BcBA3 |
+[V:3] |: B,,2B,, B,,2B,, | B,,2B,, F,2F, | B,,2B,, F,2F, | B,2B, F,3 |
+%
+[V:1] d2d e2e | fdB cAF | B2B c2d | ecA B3 :|
+[V:2] B2Bc2c | dBGF3 | DFF EFG | F2ED3 :|
+[V:3] B,,2B,, C,2C, | B,,2B,, F,2F, | B,,2B,, E,2E, | F,2F, B,,3 :|
+%
+[V:1] |: d2f fgf | b2f fgf | d2d def | fed c3 |
+[V:2] |: B,DF B,DF | B,DF B,DF | B2B Bcd | dcBA2F |
+[V:3] |: B,,2B,, B,,2B,, | .B,,2z B,,2z | B,,2B,, B,,2B,, | F,2F, F,3 |
+%
+[V:1] d2f fgf | b2f fgf | Bcd dcB | cBc B3 :|
+[V:2] B,DF B,DF | B,DF D3 | def fed | F2ED3 :|
+[V:3] B,,2B,, B,,2B,, | B,,D,F, B,,3 | .B,,2z B,,2z | F,2F, B,,3 :|

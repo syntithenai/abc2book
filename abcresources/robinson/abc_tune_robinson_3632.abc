@@ -1,0 +1,13 @@
+X:176
+T:Polka GC (pk05062)
+M:2/4
+L:1/16
+O:Switzerland
+K:G transpose=3 %%MIDI gchordon
+"G"D2GF GAB2 | "D7"BAc2 cBAG | FGA2 DEF2 | "G"G2BA GFED | D2GF GAB2 | "Am"BAc2 cBAG | "D7"FGA2 DEF2 | "G"G2G2 G2z2 :: 
+"G"G3B d2g2 | "C"e3d cBAG | "D7"F2^cd F2cd | "G"BcBA G2D2 | G3B d2g2 | "C"e3d cBAG | "D7"F2^cd F2cd | "G"G2B2 G2z2 :: [K:C] 
+"C"G2EG c2Gc | e2e2 edc2 | "G7"c2B2 BAB2 | "C"d2c2 cBc2 | G2EG c2Gc | e2e2 edc2 | "G7"G2Bd g3B |1 "C"c2c2 c2z2 :|2 "C"c2c2 c2z2 || 
+"Am"cB !>!A4e2 | "G"e2d2 dcB2 | "D7"d2c2 cBA2 | "G"c2B2 BAG2 | "Am"cB !>!A4e2 | "G"e2d2 dcB2 | "D7"d2c2 cBA2 | "G"G^FGA G=F"_>Teil C"EF |] 
+W: Parts: ABCDC
+% pk05062
+% June16, 2016

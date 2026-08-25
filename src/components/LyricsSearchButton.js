@@ -22,6 +22,7 @@ import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 import { pickUltimateGuitarPasteCandidate } from '../chordSearchSites'
+import { hasSingableLyricText } from '../lyricsQualityUtils'
 import { offerAddTuneAutoEnrichChordPaste } from '../addTuneAutoEnrich'
 
 export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
@@ -192,14 +193,26 @@ export default function LyricsSearchButton({
     }
   }
 
+  function chordCandidateHasSingableLyrics(candidate) {
+    return hasSingableLyricText(
+      (candidate && (candidate.lyricLines || candidate.sheetLines || candidate.lyricText)) || ''
+    )
+  }
+
   function presentChordSearchResults(candidates) {
     const list = Array.isArray(candidates) ? candidates : []
+    const withLyrics = list.filter(chordCandidateHasSingableLyrics)
+    // Prefer-chords is for lyrics+chords. Accompaniment-only ABC (FolkTuneFinder
+    // chord grids with no sung words) should not stop the lyrics fallback.
+    if (!withLyrics.length) {
+      chordsMissedQuietly(chordsLookup.activeJob)
+      return
+    }
     const key = targetKeyForFieldSearch(tuneId, candidateId)
-    if (key && list.length) setFieldSearchResults(key, 'chords', list)
-    if (!list.length) return
+    if (key && withLyrics.length) setFieldSearchResults(key, 'chords', withLyrics)
     // Always let the user pick — including when lyrics are empty — and keep
     // alternatives on the search caret.
-    openChordPicker(list)
+    openChordPicker(withLyrics)
   }
 
   const lookup = useFieldLookupSearchJob({

@@ -1,0 +1,27 @@
+X:5
+T:Lady Coventry's Minuet with Variations. JJo.005
+S:J.Jones MS,1801,N.Shrops.
+N:The 2 sections (first in 3/4, second "gigo" in 6/8)
+N:look like a single piece, but Gigo may be a separate tune
+N:albeit one of little merit on its own.
+A:Shropshire, N
+Z:Neil Brookes 2006
+M:3/4
+L:1/8
+Q:3/4=50
+B:Village Music project, Jones, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/jonesj.abc
+K:G major
+G2G>G (3GAB|{B}A4G2|B2B>B (3Bcd|{d}c4B2|
+d4g>e|{e}d4g>e|eddccB|B2A4:|!
+|:(3ded d2c2|TB3cd2|(3ded ddcc|TB3cd2|
+g2f2e2|d2Tf2g2|(3edc B2A2|G6:|!
+|:(3GBd (3gGG (3GAB|{B}A4G2|(3Bdg (3bBB (3Bcd|{d}c4B2|
+(3dBc (3def (3gfe|(3dBc (3def (3gfe|(3edb (3dca (3cBg|B2A4::!
+(3ded (3dBd (3cAc|(3BAG (3Bcd d2|(3gag (3fgf (3efe|
+(3dBc (3def (3gbd|(3edc B2TA2:|!
+K:D
+M:6/8
+Q:3/8=80
+|:"Gigo" d>ed dAd|e>fe eAe|f>gf fga|^g3a3:|!
+|:a>ba Ta2g|g>ag Tg2f|f>gfTf2e|e>feTe2d|ded dAd|d3d3:|

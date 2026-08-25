@@ -1,0 +1,14 @@
+X: 3
+T: Allewander 1880  CF (AL05618)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.63 (AL05618) orig. C,F-Dur
+S: Tänze aus Beateberg (Bern)
+R:Alewander
+%%MIDI program 21
+O:Switzerland
+M:2/4
+L:1/8
+K:C major
+g |: "C"^fg ag | eg cg | "G7"dg Bg | "C"eg cg | ^fg ag | ee' d'c' | "G7"ba fd |1 "C"c2zg :|2 "C"c2zd ||  
+|: "D7"^cd e^f | "G"gd bd | "D7"ad d'c' | "G7"ba gf | "C"eg ag | gc' ea | "G7"gf dg |1 "C"c2zd :|2 "C"c2zc || [K:F] 
+"F"cf gf | "C7"Tfe c'2 | "Bb"ed b2 | "F"dca2 | a>c a>f | "C7"fee2 | b>c b>e | "F"gff2 | 
+cf gf | "C7"Tfe c'2 | "Bb"ed b2 | "F"dc a2 | a>c a>b | "Gm/Bb"ag d'>c' | "C7"c'b de | "F"ff fz |]

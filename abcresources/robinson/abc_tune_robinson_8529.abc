@@ -1,0 +1,20 @@
+X: 91
+T:Mrs Glennie's Reel -- of Maybank
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:33 - 2
+K:D major
+%%staves {1 2}
+V:1
+D2- DF FDdF | E2- Ee ^GEe(g | f)!wedge!dec dBAF | GBAG D/D/D D2 :| \
+abaf dfa(f | g)!wedge!ebe gebe | abaf dfa(f | g)!wedge!eaf d/d/d d2 | \
+abaf dfa(f | g)ebe gebe | dfeg fbec | d>B!trill!A>F D/D/D D2 |]
+V:2 clef=bass octave=-2
+L:1/4
+dddd | eeee |defd | gadd :| \
+dddd | eeee | dddf | gadd | dddd | eeee | dAdf | gadd |]

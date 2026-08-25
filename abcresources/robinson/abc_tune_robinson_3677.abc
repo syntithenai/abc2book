@@ -1,0 +1,15 @@
+X:217
+T: Schottisch FCBb (st05158)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.385 (st05158) orig. F,C,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:2/4
+L:1/16
+R:Schottische
+O:Switzerland
+K:F major
+cc |: "F"c2Ac f2A2 | "Bb"c2B2 BAB2 | "C7"G2AB Bcde | "F"g2f2 fef2 | c2Ac f2A2 | "Bb"c2B2 BAB2 | "C7"G2AB Bcde |1 "F"f2f2 f2cc :|2 
+"F"f2f2 f2gg |: [K:C] "G7"g3d f3B | "C".c2 !>!e4 dc | "G7".B2 !>!f4 dc |  "C"cege c'2e2 | "G7"g3d f3B |"C".c2 !>!e4 dc | "G7"Bdfa g3B |1 "C"c2e2 c2gg :|2 
+"C"c2e2 c2z2 |: [K:F] "C7"g^fga b2b2 | "F"fefg a2a2 | "C7"a2g2 bag2 | "F"g2f2 agf2 | "C7"g^fga b2b2 | "F"fefg a2a2 | "C7"a2g2 bag2 | 
+"F"f2f2 f2z2:: [K:Bb] "Bb"!>!b4 ((3b2a2g2) | !>!f4 ((3f2e2d2) | "F7"f2e2 edc2 | "Bb"g2f2 fed2 | "Eb"!>!b4 ((3b2a2g2) | "Bb"!>!f4 ((3f2e2d2) | "F7"f2e2 edc2 | "Bb"B2df b2z2 :| 
+%June 9, 2016

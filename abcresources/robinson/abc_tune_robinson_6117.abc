@@ -1,0 +1,18 @@
+X:1
+T: Frohsinn-Polka GD (pk07249) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.103  (pk07249) orig. G,D
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+"G".d2efg4 | Bcded4 | B2G2 "E7"e2d2 | "Am"d2cBc4 | .e2fga4 | "D7"A^ABc "G".d2gf |  "D7"feed dcBA1   |1 
+"G"G2G2 G2z2 :|2 "G"G2G2 G2AA   |: [K:D] "A7"gfe^d e2AA | "D"fedc d2AA | "A7"A2g2 e2AA | "D"d2d'2 a2AA |  "A7"gfe^d e2AA | 
+"D"fedc d2AA | "A7"A2ce bage |1 "D"d2f2 d2AA :|2 "D"d2f2 d2dg |: [K:G] "D7"f2ff f2ce | "G"d2dd  d2ab | "D7"c'2f2 a2bc' | 
+"G7"d'2g2 b2dg | "D7"f2ff f2ce | "G"d2dd d2ab | "D7"c'2f2 ad'f2 |1 "G"g2g2 g2dg :|2 "G"g2g2 g2z2 |] 
+W:
+% pk07249 
+% March 15, 2018 Petraji

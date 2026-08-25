@@ -1,0 +1,26 @@
+X:7
+T: Stockalper-Jodeli  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:2/4
+%Q:1/4=110
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "nicht zu schnell"  B, DF | G3D | F2d2 | B2F2 | dF Gd | F2ec | (A4 | !breath!A) C EF | G3E | 
+F2e2 | A2F2 | eF Ge | F2dc | (B4 | !breath!B) B, DF | G3D | F2d2 | B2F2 | dF Gd | 
+F2ec | (A4 | !breath!A) C EF | G3E | F2e2 | A2F2 | "rit."fe dc | !fermata!B4 ||
+[P:B] "urchig, etwas schneller"  D EF | G2e2 | c2G2 | eG Ge | F2d2 | B2F2 | dF Gd | F2 ec | 
+A2F2 | eF Ge | F2dc | (B4 | !breath!B) D EF | G2e2 | c2G2 | 
+eG Ge | F2d2 | B2F2 | dF Gd | F2ec | A2F2 | "rit."fe dc | !fermata!B4 ||
+[P:C] "übermütig" DF Bd | f3B | d3F | BD FB | Ae FA | E4 | EF Ac | f3A | 
+e3F | AF FA | Bd FB | D4 | DF Bd | f3B | d3F | 
+BD FB | Ae FA | E4 | EF Ac | f3A | e3F | "rit."fe cA | !fermata!(B4 | B2)z2 |] 
+W: Reihenfolge: A-B-A-C
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-14
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 22, 2018

@@ -1,0 +1,17 @@
+X: 39
+T: Fideli Schwyzerbuebe FCBb (st05960)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.181 (st05960)  orig. F,C,Bb-Dur
+S: Tänze aus Saanen (Bern) S.170ff
+%%partsbox
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+P:ABAC
+K:F major
+c'b[P:A] |: "F"a2f2 c2A2 | "C7"Pc2B2 B2gf | e2c'2 c'2ag | "F"f2c'2 c'2ag | f2c2 A2F2 | "C7"Pc2B2 B2gf | e2c2 a3g |1 
+"F"f2a2 f2c'b :|2 "F"f2a2 f2z2 [P:B] |: [K:C] "G7"g4 gagf | "C"egc'e g4 | "G7"fed^c d2g2 | "C"edcB c4 | "G7"g4 gagf | "C"egc'e g4 | 
+"G7"fedc B2g2 |1 "C"c2e2 c2z2 :|2 "C"c2e2 "C7"c2"_> Teil A"c'_b [P:C] |: [K:Bb] "Bb"d2f2 =efgf | b6a2 | "F7"a3g agag | c6d2 | 
+e2fe d2e2 | a6g2 | "Bb"g3f gfgf | d6B2 | d2f2 =efge | "Bb7"d'6c'2 | "Eb"c'3b c'bc'b | g6b2 | 
+"F7"Pa2e2 Pa2e2 | "Bb"Pg2d2 Pg2d2 | "F7"e2f2 g2a2 | "Bb"b2c'2 d'4 | "F7"Pa2e2 Pa2e2 | "Bb"Pg2d2 Pg2d2 | "F7"e2f2 g2a2 |1 "Bb"b2df B2z2 :|2 "Bb"b2f2 b2z2 |]

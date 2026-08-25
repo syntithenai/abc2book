@@ -1,0 +1,18 @@
+X: 36
+T: Ersiger Walzer CF (wz05444)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.259 (wz05444) orig. C,F-Dur
+S: Tänze aus Guggisberg, Schüpfen und Plaffeien (Bern) S.257ff
+R:Walzer
+O:Switzerland
+M:3/4
+L:1/4
+K:C major
+"C"G3 | {/A}G^FG | (c3 | c3) | G3 | {/A}GFE | "G7"(F3 | F3) | F3 | {/G}FEF | (d3 | d3) | 
+F3 | {/G}FED | "C"(E3 | E3) | G3 | {/A}G^FG | (e3 | e3) | e3 | {/f}edc | "F"(A3 | A3) | 
+A3 | "G7"B3 | "C"cG>A | G^FG | "D7"e2d | "G7"G2B | "C"c>cc | czz || "C"Gec | A2G | (G3 | 
+G3) | Gec | A2G | "G7"(G3 | G3) | G3 | G/A/ B/c/ d/e/ | f3 | B3 | G3 | G/A/ B/c/ d/^d/ | 
+"C"e3 | c3 | Gec | A2G  | (G3 | G3) | Gec | A2G | "G7"(G3 | G3) | d3 | dBG | 
+"C"e3 | ecG | "G7"f2d | G2B | "C"c>cc | czz || [K:F] "F"zA>A | A2C | zA>A | "C7"B3 | zB>B | 
+"F"A2C | "C7"zB>B | "F"A3 | zA>A | A2C | zA>A | "Bb"B3 | d3 | "C7"c3 | B/B/BE | "F"Fzz |] 
+%%partsbox
+%%MIDI program 21

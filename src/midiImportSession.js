@@ -41,7 +41,7 @@ export function defaultVoiceFilters() {
     retriggerMergeMs: 0,
     allowChords: true,
     quantize: true,
-    quantStrength: 0.7,
+    quantStrength: 1,
     rhythmDetail: 'standard',
     keySnap: false,
   };
@@ -145,16 +145,19 @@ export async function createMidiImportSession(options) {
   });
 
   const firstSelected = (voices.find(function(v) { return v.enabled; }) || voices[0] || null);
+  const sharedTempo = fileMeta.tempoBpm || parsed.tempoBpm || 120;
   return {
     fileName: opts.fileName || 'import.mid',
     sourceUrl: opts.sourceUrl || '',
     midiBytes: midiBytes,
     profile: profile,
-    fileMeta: fileMeta,
+    fileMeta: Object.assign({}, fileMeta, {
+      ticksPerBeat: fileMeta.ticksPerBeat || parsed.ticksPerBeat || 480,
+    }),
     voices: voices,
     selectedVoiceId: firstSelected ? firstSelected.id : null,
     sharedGrid: {
-      tempoBpm: fileMeta.tempoBpm || 120,
+      tempoBpm: sharedTempo,
       timeSignature: fileMeta.defaultMeter || '4/4',
       estimatedKey: (profile && profile.estimated_key) || 'C',
     },
@@ -301,7 +304,7 @@ export function buildImportOptionsFromSession(session) {
     drumTrackIds: drumTrackIds,
     includeDrums: drumTrackIds.length > 0,
     quantSlotsPerBeat: snapSlots,
-    quantStrength: firstFilters.quantStrength != null ? firstFilters.quantStrength : 0.7,
+    quantStrength: firstFilters.quantStrength != null ? firstFilters.quantStrength : 1,
     rhythmDetail: rhythmDetail,
     noteLength: noteLengthFromSlotsPerBeat(snapSlots),
     tempoBpm: sharedGrid.tempoBpm || 120,

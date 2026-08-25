@@ -1,0 +1,28 @@
+X: 38
+T:the Marquis of Huntly's Farewell
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:14 - 1
+K:A major
+%%staves {1 2}
+V:1
+"^Slow when not danced"
+A  | \
+A,3 C E/E/E (~EF/G/) | A>B {AB}cB {B}A2 (Ac) | \
+A,3 C E/E/E (Ec) | B>c d/c/B/A/ {A}F2 (FA) |
+A,3 C E/E/E (~EF/G/) | A>B {AB}cB {B}A2 (Ac) | \
+d3 f eccA | B>c (d/c/)(B/A/) {E}F2 F ||
+f | \
+(f/e/)d/c/ ac bc a2 | (f/e/)d/c/ ac (fe)dc | \
+fb-b!wedge!f (b/a/)g/f/ b2 | fb-bf (ag)(fa) |
+(f/e/)d/c/ ac bc a2 | (f/e/)d/c/ ac (fe)dc | \
+d/e/f/g/ a/g/f/e/ f/e/d/c/ d/c/B/A/ | !trill!B>c d/c/B/A/ {E}F2 F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | AAAA | Aeaa | AAcA | GAdd | AAce | aeA=g | fdcA | GAdd/ || \
+z/ | aaaa | ac' d'/c'/b/^a/ | bBbB | B^de=d | Aaaa | Aa d'/c'/b/a/ | dd'c'a | gadd/ |]

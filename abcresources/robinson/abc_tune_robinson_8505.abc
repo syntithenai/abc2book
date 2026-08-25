@@ -1,0 +1,27 @@
+X: 143
+T:Duchess of Gordon's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:11 - 1
+K:D major
+%%staves {1 2}
+V:1
+F | \
+D3/2F/ D/A3/2 F/D3/2A/F3/2 | D3/2F/ D/F3/2 [A,E]2 E/F3/2 | \
+D3/2F/ D/A3/2 F/D3/2A/F3/2 | d3/2e/ f/d3/2 !trill!F2- F/A3/2 |
+D3/2F/ D/A3/2 F/D3/2A/F3/2 | D3/2F/ D/F3/2 E2 E/F3/2 | \
+D3/2F/ D/A3/2 F/D3/2A/F3/2 | d3/2e/ f/d3/2 F3 |]
+A | \
+d3/2e/ f/d3/2 e/B3/2d/A3/2 | !trill!B3/2c/ d/f3/2 !trill!e2 e/f3/2 | \
+d3/2e/ f/d3/2 e/B3/2d/A3/2 | G/B3/2F/A3/2 !trill!E2- E/e3/2 |
+d3/2e/ f/d3/2 e/B3/2d/A3/2 | !trill!B3/2c/ d/f3/2 !trill!e2- e/f3/2 | \
+d3/2e/ f/d3/2 e/B3/2d/A3/2 | G/B3/2F/A3/2 !trill!E3 |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | ddaA | dddd | dddd | dddd | ddAa | dddd | dddd/ |] \
+z/ | ddgf | gbaA | fdgf | gdaa | fdgf | gbaA | fdgf | gfe3/ |]

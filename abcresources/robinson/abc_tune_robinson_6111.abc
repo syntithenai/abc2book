@@ -1,0 +1,22 @@
+X:1
+T: Polka FCBbEb (pk07604)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.93  (pk07604) orig. F,C,Bb,Eb
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:F major
+[P:A] "F"FGAB c2dc | f2c2 cBA2 | "C7"A2G2 BAG2 | "F"G2F2 AGF2 | FGAB c2dc | f2c2 cBA2 | 
+"C7"A2G2 BAG2 | "F"F2A2 F2z2  :| [P:B] [K:C] "C"G4A2G2 | E2Gc e4 | "G7"e2d2 dcB2 | "C"d2c2 "F"edcA | "C"G4A2G2 | 
+E2Gc e4 | "G7"e2d2 GAB2 | "C"c4"_>Teil A"c4 |: [P:C] [K:Bb] [L:1/8] "Bb".F.d c>B | ("F7"BA)!>!c2 | .F.e d>c | 
+("Bb"cB)!>!d2 | .F.f "G7"e>d | ("Cm"dc)!>!g2 | "F7"a>g f/e/d/c/ | "Bb"BB Bz :: [P:D] [K:Eb] "Eb"G2 A>G | "Bb7"GF c2 | 
+cBd2 | "Eb"cBe2 | GB A>G | "Bb"GF B2 | "F7"dc FG/=A/ |1 "Bb"B2B2 :|2 "Bb"Bd Bz |] 
+W:
+W:Anmerkung H.C.: Büechli (=Büchlein, little book) Daniel Heid Arisdorf
+% pk07604
+% Feb 25, 2018

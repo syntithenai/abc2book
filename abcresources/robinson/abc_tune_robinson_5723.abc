@@ -1,0 +1,33 @@
+X:7
+T:Flüeh-Juiz. 1980  Bb  ABA*CC
+T:Edi Schrackmann  (4.11.1930-8.7.1998)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "frisch, fröhlich"  !mf!F2 | "_crescendo"  (3BdF (3BdF (3Bde | fd/c/ B2 g>f | eF cF d>c | BD/G/ !breath!F2F2 | 
+"_cresc."  (3BdF (3BdF (3Bde | fd/c/ B2 g>f | eF cF d>c | !fermata!"_*" !breath!B4  F2 | "_cresc."  (3BdF (3BdF (3Bde | fd/c/ B2 g>f | 
+eF cF d>c | BD/G/ !breath!F2F2 | "_cresc."  (3BdF (3BdF (3Bde | fd/c/ B2 g>f | eF cF d>c | !fermata!B4 ||
+L:1/8
+M:3/4
+[P:B] "gemütlicher" F2 | f3F =EF | e>d cF =EF | f>F e>F dc | BD/B/ F2F2 | f3F =EF | 
+e>d cF =EF | f>F e>F dc | !fermata! !breath!B4F2 | f3F =EF | e>d cF =EF | 
+f>F e>F  dc | BD/B/ F2F2 | f3F =EF | e>d cF =EF | f>F e>F dc | !fermata!B4 || 
+L:1/8
+M:3/4
+[P:C] "frohes Walzertempo" F2 | dF DF Bd | g4f2 | eF EF Ad | c4F2 | eF Adc2 | EF Adc2 | "rit." BF DF dB | c4F2 | 
+dF DF Bd | g4f2 | eF EF Ad | c4F2 | eF Adc2 | EF Adc2 | B2Ff dc | !fermata! !breath!B4F2 | 
+dF DF Bd | g4f2 | eF EF Ad | c4F2 | eF Adc2 | EF Adc2 | "rit."BF DF dB | !fernata! !breath!c4F2 | 
+dF DF Bd | g4f2 | eF EF Ad | c4F2 | eF Adc2 | EF Adc2 | B2Ff dc | !fermata!B4 |]
+W:
+W:Reihenfolge: A-B-A (bis*)-C
+W:
+W:Edi Schrackmann, bearbeitet: Edi Gasser
+W:UJV-Naturjodelsammlung: Code-Nr: 10-04
+W:http://www.naturjodler.ch/code 10.htm  (with AUDIO)
+%May 6, 2018

@@ -18,6 +18,17 @@
       }
     },
     {
+      "id": "stable-audio-3-medium",
+      "family": "stable_audio",
+      "path": "/audio-cpp/models/stable-audio-3-medium",
+      "task": "gen",
+      "mode": "offline",
+      "lazy": true,
+      "session_options": {
+        "stable_audio.mem_saver": "true"
+      }
+    },
+    {
       "id": "ace-step-cover",
       "family": "ace_step",
       "path": "/audio-cpp/models/Ace-Step1.5",

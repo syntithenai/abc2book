@@ -1,0 +1,30 @@
+X:21
+T:Rory O'More,3parts. JNu.19
+M:6/8
+L:1/8
+Q:3/8=90
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Jig
+O:England
+A:Lancashire, E
+N:At the end there is AL SEGNO, and the Segno is right at the beginning,
+N:which potentially gives 12 bars. Compare with other versions to arrive
+N:at your own solution.CGP
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:A major
+[V:1] |: a/f/ | ecA cAA | ecA A2a/f/ | ecA A>GA | cBB B2a/f/ |
+[V:2] |: z | cAE AEE | cAEE2E | cAEE2E | GGGG2F |
+[V:3] |: z | A,A,A, A,2A, | A,A,A, A,2A, | A,B,A, G,F,E, | E,2E,E,2A,, |
+%
+[V:1] ecA cAA | G/A/B/c/d/e/ fed | efe efg | aec A2 :|
+[V:2] E3ECC | E2E dcB | c2ce2d | cccc2 :|
+[V:3] A,,2A,,A,,2A,, | A,,2A,,D,2D, | E,E,E, F,E,E, | G,E,C,A,,2 :|
+%
+[V:1] a |: agf ecA | dcB A2G | FGA Bcd | fee "NB"e2a :|
+[V:2] c |: fed cAE | BAGE2E | DEE EAB | dccc2z :|
+[V:3] z |: A,,3A,,3 | D,3A,,3 | A,,A,,A,,A,,2A,, | A,,2A,,A,,2z :|

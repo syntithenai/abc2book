@@ -1,0 +1,33 @@
+X:1
+T: Aelggi-Juiz  Bb (trad.)
+T:Dirigenten-Notiz, Edi Gasser. 
+C:Unterwalden (CH)
+%%partsbox
+M:4/4
+%Q:1/4=110
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "feierlich"B,>CDF | BdcB | A>EF e/c/ | A4 | 
+C>DEF | Aed F/c/ | B2d>c | B3z | B,>CDF | BdcB | 
+A>EF e/c/ | A4 | C>DEF | Aed F/c/ | (B4 | B3)z || 
+M:2/4
+[P:B] "bewegter"FE/F/ | c2 | e>d | ce | dF/c/ | B2 | d>c | Bd | cB | 
+A2 | F>C | Fe | dF/c/ | !fermata!B2 | FE/F/ | c2 | e>d | ce | 
+dF/c/ | B2 | d>c | Bd | cB | A2 | F>C | Fe | dF/c/ | !fermata!B2 || 
+M:3/4
+[P:C] B,/D/ | F>D F/d/ | B>A G/D/ | F>E F/d/ | c2F/F/ | f>e d/f/ | 
+c2F/F/ | f>e d/c/ | B2B,/D/ | F>D F/d/ | B>A G/D/ | 
+F>E F/d/ | c2F/F/ | f>e d/f/ | edc | (B3 | B)zz |] 
+W: Parts: A-B-2xC
+W:
+W:Die aus den Sachslerbergen stammende, zweiteilige Urmelodie wurde 
+W: vom Jodler Josef Della Torre dem Jodlerklub Sarnen anvertraut.
+W:Der dritte Teil stammt von Julius Stockmann. Am Eidgenössischen Jodlerfest 1949
+W:  in Bern wurde der Juiz in dieser Form erstmals der Öffentlichkeit vorgestellt.
+W:
+W: UJV-Naturjodelsammlung: Code-Nr: 00-11
+W:http://www.naturjodler.ch/tradition-2.htm  (with AUDIO)
+%April 21, 2018

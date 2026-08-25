@@ -1,0 +1,31 @@
+X: 47
+T:Glenfiddich Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:18 - 1
+K:A major
+%%staves {1 2}
+V:1
+c  | \
+[A,EA]2 (!trill!c>A) e>Ac>A | E>A!trill!c>A B2 (B>c) | \
+A/A/A (c>A) e>A!trill!c>A | F>d!trill!c>B A2 A :|
+f/g/ | \
+a>ef>d ecAf | a>ffb ~g2 ef/g/ | \
+a/g/f/e/ f>d e>c!trill!B>A | F>d!trill!c>B A2 A :|
+c | \
+A>E(!trill!F>E) A>E(!trill!F>E) | D>FC>E "\="~B,2 B,2 | \
+A>E(!trill!F>E) A>E(!trill!F>E) | F>d(!trill!c>B) A2 A :|
+d | \
+c>d e<c a<ce<c | f<de<c ~B2 (Bd) | \
+c>d e<c f<de<c | (F>d)!trill!c>B A2 A :|
+V:2 clef=bass octave=-2
+L:1/4
+z/ | Aaaa | aAee | Aaaa | deAA/ :| \
+z/ | AdAA | Adee | AdcA | deAA/ :| \
+z/ | AAAA | BAEE | AAAA | deAA/ :| \
+z/ | Aaaa | d'aee | aAdc | deAA/ :|

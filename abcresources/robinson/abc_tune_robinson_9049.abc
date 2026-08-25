@@ -1,0 +1,14 @@
+X:1
+T:Gammelvänster
+M:9/8
+O:Sweden
+Q:140
+R:Polska
+Z:Paul Sherwood
+K:A major
+%%MIDI program 1
+%%MIDI beatstring fffpppmmm
+|:e2d c2B A2c | ece fdf e3 | e2A d2c B2A | GBe ^dcd e3 |
+efg a3 e2 c| df2 e3-e3 | e2A  dBd  c2A |  GA2 A3-A3 :||:
+a3 a2g a2b | age f3 fed |e2 e fed cBA |GBe ^dcd e3|
+fga e3 A3 | fga e3 A2 d| ece dBd cBA |1 GBe ^dcd efg :|2 GA2 A3-A3 ||

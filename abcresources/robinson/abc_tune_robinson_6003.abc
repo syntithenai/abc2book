@@ -1,0 +1,24 @@
+X:1
+T:Alti Musig (Marsch)  CF (mr08073) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.124f  (mr08073) orig. C,F
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"c2e>e | gec2 | c2e>e | "G7"d3z | A2B>A | Gag2 | f/e/d/c/ BA/B/ | "C"c2z2 | 
+[P:B] |: "C".G(E/F/) .G(E/F/) | Gec2 | .G(E/F/) .G(E/F/) | Gec2 | "G7".f!>!f2e | d/^c/d/e/ d=c | .B!>!B2A | "C"G/A/G/F/E2 | 
+.G(E/F/) .G(E/F/) | Gec2 | .G(E/F/) .G(E/F/) | Gge2 | "D7"dd/d/ de/^f/ | "G"g^f/e/d2 | "D7"^F/G/A/B/ cF |1 "G"GG Gz :|2 
+"G"GG GG |:  [P:C] "G7"B>c d>e | fd BG | "C"c>B c>e | "G7"dd G>G | B>c d>e | fd BG | "C"c/B/c/d/ ec | "G7"g2 z2 :| 
+[P:D] |: ("F"A4 | A)A B>A | ("C"G4 | G)G A>G | ("G7"FD)B2 | (BA) GF | ("C"E4 | E)E FG | ("F"A4 | A)A B>A | 
+"C"G4 | GG A>G | "G7"FG/G/ Gf | !>!"C"e2!>!c2 | "G7"B/c/d/e/ !>!fB |1 "C"cc cz :|2 "C"c2C2 || [P:E] [K:F] [L:1/4] "F"F2 | (AF) | "C7"G2 |
+(BG)  | ("F"Ac) | (BA)|"C7"G2| !>!G(G/A/) | "Bb"Bd | dd | "F"c2|!>!Ac | "G7"c=B | AG | 
+("C7"c2 | "F7"c/)F/ G/A/ |"Bb"Bd|dd|"F"c2|!>!Ac|"C7"B"G7"=B|"C7"_B>G|"F"F>F|Fz |]
+W:
+W:Anmerkung H.C.: Eintritt der Preussen in Paris
+% mr08073
+% May 20, 2018

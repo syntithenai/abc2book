@@ -1,0 +1,27 @@
+X:116
+T:French Quadrille. CJF.116
+R:Quadrille
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:In the stave at end is "C J Fox 1829". The asterisked
+N:notes in the MS were one note of a4. I have introduced
+N:first-time and second-time bars to allow the tune to play
+N:correctly.- PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:2/4
+L:1/16
+Q:1/4=100
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:D major
+.d4" f".f4|.a4z2aa|d'2ad' f'2d'2|a4z2"p"d'2|\
+.c'2" cres:".b2.a2.g2|f2ff f2b2|!
+.a2.g2.f2.e2|d2dd d2e2|f2e2f2^g2|\
+abc'd' d'2a2|.b4.g4|1"*"a8:|2"*"a6|!
+|:A2|d2dd d2f2|d2dd d2f2|d2f2d2f2|agfg e2A2|\
+d2dd d2f2|a2d'2 d'2c'b|abag egec|d2f2d2:|!
+K:D
+|:e2|c'4c'd'bc'|a6c'2|b2b2b2c'2|bagf fgab|\
+c'4c'd'bc'|a4a2ga|fd'c'b agfg|" D Capo"(b4a4):|

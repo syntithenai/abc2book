@@ -1,0 +1,28 @@
+X:318
+T:Paidin O'Rafferty
+R:jig
+S:J\"orgen Fischer
+H:Willie Clancy's version
+H:Different version in D, see #62
+H:Different version in A, see #273
+H:Different version in G, see #490
+Z:id:hn-jig-318
+M:6/8
+K:G
+BDD EDD | cBA GED | BDD EDD | ~G3 GED |
+BDD EDD | cBA GED | B/^c/dB =cBA | GAG GED ||
+GBB G3 | GBB cBA | GBB GAA | GAG GED |
+GBB GAA | GAB cBA | B/^c/dB =cBA | GAG GED ||
+dBd efg | ded dBG | dBd efg | ~G3 GED |
+dBd efg | ded def | gfe dBG | ~A3 GED ||
+JB2G ~A2G | JB2G AGE | JB2G AGE | ~G3 GED |
+BGG AGG | BGG AGG | BdB cBA | GAG GED ||
+P:variations
+BDD EDE | cBA GED | BDD EDE | GAG GED | 
+BDD EDE | cBA GED | B/c/dB cBA | GAG GED ||
+GBB FAA | GAB cBA | GBB FAA | GAG GED | 
+GBB FAA | GAB cBA | B/c/dB cBA | GAG GED ||
+dB/c/d efg | ded dBG | dBd efg | GAG GED | 
+dB/c/d efg | ded dBG | gfe dBG | A2G GED || 
+B2G A2G | B2G AGE | B2G A2G | GAG GED | 
+BGG AGG | BGG AGE | B/c/dB cBA | GAG GED ||

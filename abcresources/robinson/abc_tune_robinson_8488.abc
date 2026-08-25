@@ -1,0 +1,22 @@
+X: 127
+T:Miss Wilhelmina McDowal's Reel -- of Arndilly
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:44 - 4
+K:C major
+%%staves {1 2}
+V:1
+e/f/ | \
+gcac gcac | g<ce<c {Bc}d2 de/f/ | gcac gcec | BGAB ~[G,Ec]2c :|
+G | \
+~c2 (GE) cGEc | GcEc d2 {Bc}(de) | ~c2 (GE) cagf | e<cd<B ~c2 (cG) |
+~c2 (GE) cGEc | GcEc d2 {Bc}(de) | cedf egfa | e<cd>B [G,Ec]2 c |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | c'c'c'c' | c'c'gg | c'c'c'c' | ggcc/ :| \
+z/ | cccc | ccgg | ccff | ggcc | cccc | ccgg | cgc'f | ggcc/  |]

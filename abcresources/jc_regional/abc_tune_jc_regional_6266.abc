@@ -1,0 +1,16 @@
+X: 1
+T: Furuboms polska	[Am]
+O: trad
+Z: John Chambers <jc@trillian.mit.edu>
+R: polska
+M: 3/4
+L: 1/8
+K: Am	% and C
+"^A"\
+|: "Am"A2 A>B c>d | e4 c2 | "E7"B2 B>d c>B | "Am"B2 A>E C>E \
+|  "Am"A2 A>B c>d | e4 c2 | "E7"B2 B>d c>B | "E7"B2 "Am"A4 :|
+"^B"\
+|: "G7"g2  g>a g>f | "C"f2 e4 | "G7"G2 G>B d>B | "C"c2 c>d e>f \
+|  "G7"g2  g>a g>f | "C"f2 e4 | "G7"G2 G>B d>B | "C"c2 c4 :|
+S:https://trillian.mit.edu/~jc/music/abc/Sweden/hambo/FurubomsP.abc
+

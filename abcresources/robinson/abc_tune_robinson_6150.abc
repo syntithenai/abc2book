@@ -1,0 +1,25 @@
+X:1
+T:Schön-Gretchen-Polka  GC (pk07066) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.169  (pk07066) orig. G,C
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABCD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A]  b/b/ |: "G"bd de | e>d .d(d/b/) | "D7"a>c .c(c/a/) | "G"g>B Bb/b/ | bd de | e>d db | "D"af "A7"ge |1 "D"df db/b/ :|2 "D7"df dd/g/ ||  
+[P:B] "G"bb/b/ bb/b/ | b>a gd | "C"ee e/f/g/e/ | "G"dd dB/d/ | "D7"cf f>f | cc cA/c/ | "G"Be e>e | BB B(d/g/) | 
+bb/b/ bb/b/ | b>a gd | "C"ee e/f/g/e/ | "G"dd dB/d/ | db b>b | "Am"ba ee | "D7"ff f/g/a/f/ | "G"gg gG || [K:C] 
+[P:C] !>!"C"e2 .a.g | !>!"G7"f2.B.d | ff b>a | "C"gg eg | c'/c'/c' ba | "G7"bbf2 | bbf2 | "C"aae2 | !>!e2.a.g | 
+!>!"G7"f2.B.d | ff b>a | "C"gg eg | c'/c'/c' ge | "Dm"dda2 | "C".gg/e/ "G7"ff/B/ | "C"ce cz  [P:D] [L:1/16] |: ("C"ea)(ae)g4 | ("G7"ea)(ae) g4 | 
+.b2!>!b4.g2 | ("C"ag).e.c G2G2 | (ea)(ae) g2g2 | ("G7"fb)(bf) | g2g2 | (g^f)(ga) | g2B2 |1 "C"c2GG  "G7"G2G2 :|2 "C"c2e2 c2z2 |]
+W:
+%W:Parts: ABCD
+%W:Anmerkung H.C.:
+%W:Anmerkung Hrsg,: 
+% pk07066
+% July 11, 2018

@@ -1,0 +1,25 @@
+X:5
+T:Lady Beatrice Hamilton
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:2 - 2
+K:F major
+%%staves {1 2}
+V:1
+FAcA fAcA | FAcA (dc)(BA) | FAcA fAcA | Ggbg (!trill!fe)(dc) :: \
+Ffef dfcf |
+                  cfaf (dc)(BA) |1 \
+Gg^fg    dgBg   | dgbg (!trill!fe)(dc) :|2 \
+[Fd]BBd [Fc]AAc | Ggbg (!trill!fe)(dc) |]
+V:2 clef=bass octave=-2
+L:1/4
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Ff] [Ff]  | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Gg] [cc'] [cb] :: \
+[Ff] [fa] [fb] [fa] | x3 d'/c'/  & [fa] [fa] [fa] f |1 \
+[bd'] [bd'] [gbd'] [gbd'] | [gbd'] [gbd'] [gbc'] [gbc'] :|2\
+[Bb] [Bb] [Ff] [Ff] | [Bb] [Gg] [cc'] [cc'] |]

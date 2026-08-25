@@ -56,7 +56,7 @@ export function hasTuneLinks(tune, hasLinks) {
   return tuneHasLinkContent(tune, hasLinks)
 }
 
-function collectFieldWarnings(tune) {
+export function collectFieldWarnings(tune) {
   const warnings = []
   if (!tune) return warnings
   const tempo = tune.tempo

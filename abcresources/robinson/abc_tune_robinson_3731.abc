@@ -1,0 +1,11 @@
+X:266
+T:Winterthurer Schottisch CGF (st05005)
+M:2/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"g>e "G7"f>g | "C"ec c/2B/2c | e>c "G7"d>e | "C"cG G/2^F/2G | g>e "G7"f>g | "C"ec c/2B/2c | "G7"e>d d/2f/2e/2d/2 | "C"cc cz :| [K:G] 
+"G"B>d B>"_ ="d | "D7"cA c2 | A>c A>c | "G"B/2g/2d/2B/2 G2 | B>d B>d | "D7"cA c2 | ff/2f/2 g/2f/2e/2f/2 | "G"g>G g>"_>Teil A"G || [K:F] 
+|: "F"c/2d/2c af | c/2d/2c !>!A2 | "C7"c/2d/2c !>!B2 | "F"c/2d/2c !>!A2 | c/2d/2c af | "C7"c/2d/2c !>!A2 | c/2d/2c B>c |1 "F"Af fz :|2 "F"Af f((3G/2A/2=B/2) || [K:C] 
+"C"c/2c/2c "G7"B/2B/2B | "C"ccz2 | e/2e/2e "C0"^d/2d/2d | "C"eez2 | g/2g/2g "F"a/2a/2a | "G7"b>a g/2f/2e/2d/2 | "C"c/2d/2c c/2d/2c | c/2d/2c c/2"_>Teil C"d/2c |] 
+W:P: ABACDC

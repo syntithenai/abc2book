@@ -1,0 +1,20 @@
+X:107
+T:Polkamazurka FCBb (mz06909)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.244 (mz06909) orig. F,C,Bb
+T: Aus dem Repertoire der "Bottmiger Musig". S.237-254
+T:Überliefert durch Emil Schweighauser (cl, tp), Bottmingen
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:F major
+"F"a>aa2g2 | f2c4 | ("C7"dc) e>ee2 | ("F"dc) f>ff2 | a>a a2g2 | f2c4 | ("C7"dc) c>b a>g | "F"f2f2z2 :|  [K:C] 
+"C"g>gg2f2 | e>a g3e | "G7"f>G B>df2 | "C"e>G c>eg2 | "G7"g>gg2  f2 |  "C"e>ag3e | ("Dm"ag) (fd) (BG) | "C"c2c2z2 || [K:F] 
+"F"c>a .a.c "C7".B.g | ("F"fA)c4 | ("C7"c>b)b3c | "F"c>aa4 | (c>a) .a.c "C7".B.g | ("F"fA) c3f | "Gm"d>gb2"C7"e2 | "F"f2f2z2 || [K:Bb] 
+"Bb"de =ef g>f | "F7"f2 e>cA2 | g2f>ec2 | "Bb"c'2b>fd2 | de =ef g>f | "F"f2=e>dc2 | "C7"c2b>a g>a | "F"f2f2z2 | 
+|: ("F7"gA) (Ag)g2 | "Bb"fB Bff2 | "F7"e>d e>dc2 |  "Bb"f>=e f>_ed2 | ("F7"gA) (Ag)g2 | ("Bb"fB) (Bb)b2 | "F7"a>g f>e d>c | "Bb"B2b2z2 :| 
+W:
+W:"Deine Meinung als Unbeteiligter zum Thema Intelligenz?"
+%% mz06909
+% April 7, 2017

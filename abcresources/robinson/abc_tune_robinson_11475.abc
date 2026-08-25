@@ -1,0 +1,21 @@
+X:47
+T:Gavot.2voices. BC.47
+M:C
+L:1/8
+Q:1/4=100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Gavotte
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+B:Village Music project, Cooke, Benjamin
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/cooke_b.abc
+K:D major
+[V:1]A2 d2|(dc)(BA) d2 e2|f2 (ed) g2 (gf)|(fe)(fd) c2 d2|e4||!
+[V:2]A2 F2|A2 G2 F2 A2|d2 c2 B2 A2|G2 F2 E2 D2|A4||!
+%
+[V:1]a2 g2|(fg)(ef) (ga)(fg)|(ef)(de) (fg)(ef)|(de)(cd) e2 de|!
+[V:2]c2 A2|d2 c2 B2 d2|c2 B2 A2 F2|B2 A2 G2 E2|!
+%
+[V:1]c2 (BA) a2 g>f|g4 g2 f>e|f4 g2 fe|dcde e3 d|d4|]
+[V:2]A2 G2 F2 B2|e4 A2 A2|d4 B2 G2|A2 FG A2 A2|D4|]

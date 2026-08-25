@@ -1,0 +1,27 @@
+X:1
+T:Tirolienne  AED (tr07857) ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.199  (tr07857) orig. A,E,D
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABAC
+R:Tirolienne
+M:3/4
+L:1/8
+O:Switzerland
+K:A major
+(3cea [P:A] |: "E7"g>Bd2 (3Bdf | "A"e>Ac2 (3EAc | "E7"c>Bd2 (3egb | "A"b>ac'2 (3cea |
+ "E7"g>Bd2 (3Bdf | "A"e>Ac2 (3EAc | \
+"E7"c>B (3dcB (3egb |1 "A"a2A2 (3cea :|2
+ "A"a2A2 (3Beg [P:B] [K:E]  |: "B7"b>b b>a g>f | "E"g>eB2 (3Beg | "B7"b>ac'2 (3Adf |
+ "E"a>gb2 (3Beg | \
+"B7"b>b b>a g>f | "E"g>eB2 (3Beg | "B7"g>fa2 (3Bdf |1
+"E"e4 (3Beg :|2 "E"e4 "_>Teil A"(3cea || [K:D] (3Adf [P:C] |: "A4"a^g =gf ed | \
+"D"df A2 (3FAd | "A7"B>eG2 (3EGB | 
+"D"AdF2 (3Adf | "A7"a^g =gf ed | "D"dfA2 (3FAd | (3"A7"ceg (3c'ba (3gfe |1 "D"d2D2 (3Adf :|2 "D"d2D2z2 |] 
+W:
+%W:Parts: ABAC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% tr07857
+% Aug 10, 2018

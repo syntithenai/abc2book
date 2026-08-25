@@ -1,0 +1,15 @@
+X: 90
+T: Ländler-Walzer FBb (LD05383)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.245 (LD05383) orig. F,Bb-Dur
+S: "Plötsch Musig" Guggisberg (Bern) S.186ff
+%%MIDI program 21
+R:Ländler  % Walzer
+O:Switzerland
+M:3/4
+L:1/8
+K:F major
+c'c' |: "F".c'2.a2.f2 | d3cc2 | (Ac f)(A cf) | "C7"e3cB2 | .c'2.b2.e2 | d3cc2 | (Bc e)(B ce) | "F"f(A cf)a2 | .c'2.a2.f2 | 
+d3cc2 | (Ac f)(A cf) | "C7"e(G ce)g2 | .c'2.b2e2 | d3cc2 | (dc =Bc de) |1 "F"f2z2c'c' :|2 "F"f2z2a2 |: [L:1/4] "F"ac'2 | "C7"(c'=b_b) |  
+"F"a3 | a (b/a/) (g/f/) | "C7"(e3 | e)(f/e/) (d/e/) | "F"(f3 | f) (A/c/ f/a/) | c'3 | "C7"(c'=b_b) | "F"(a3 | a)(b/a/) (g/f/) | "C7"(e3 | 
+e) (f/e/) (d/e/) | "F".f.c.a |1 f (A/c/ f/a/) :|2 f (f/g/) (f/g/) |: [K:Bb] "Bb"(f2b) | z (f/g/) (f/g/) | "F7"(f2a) | z (f/g/) (f/g/) | (f2e) | (ed>c) | 
+"Bb"(c2B) | z (f/g/) (f/g/) | (f2b) | z (f/g/) (f/g/) | "F7"(f2a) | z(f/g/) (f/g/) | f2e | e+>+d>c | "Bb"B>bb |1 b (f/g/) (f/g/) :|2 bzz |]

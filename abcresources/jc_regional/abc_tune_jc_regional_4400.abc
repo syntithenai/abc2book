@@ -1,0 +1,16 @@
+X: 62
+T: Dilam Bazan
+C: Moshiko Halevy 1986
+S: From recording, Dance with Moshiko, MIH-8
+O: Israel
+F: http://www.youtube.com/watch?v=4hgaj0o37es
+M: 6/8
+L: 1/8
+Q:1/4=180
+K: Am
+%%MIDI drum dd 41 41 60 60
+%%MIDI drumon
+d3 d3   |dcd cB2|c3 c3  |cBc BA2|G3c3 |cBc BA2|G3 A3  |A6    |
+A3 e3   |ede dc2|d3 d3  |dcd cB2|G3c3 |cBc BA2|G3 GAG |A6    |
+a3 a3   |aga gf2|efg agf|gfe f3 |g3 g3|gfg fe2|def gfe|fed e3|
+ede dc2 |dcd dB2|cBc BA2|GAB d3 |G3c3 |cBc BA2|G3 A3  |A6    |

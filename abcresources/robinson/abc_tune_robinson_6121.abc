@@ -1,0 +1,18 @@
+X:1
+T: Leichter Sinn (Polka) GC (pk07258)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.108  (pk07258) orig. C,G
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] "G"cBB2 | "Am"edc2 | "D7"A/B/c/d/ fe | "G"dBG2 | cBB2 | "Am"edc2 | "D7"A/B/c/d/ ef | "G"gg gz :| [P:B] "A7"a/^g/a  =g/f/g | 
+"D"f/g/f dd | "D7"f/a/c' f'e' | f/a/c' "G"e'd' | "A7"a/^g/a  =g/f/g | "D"f/g/f dd | "A7"g/a/^c' f'e' | "D"d'd' d'"_>Teil A"z || [K:C] 
+[P:C] |: "C"ge e/d/c | "G7"Ba a/g/f | .f.f .B.B | "C".e.e .e.e | ge e/d/c | "G7"Ba a/g/f | fB dG | "C"ce cz :| 
+% pk07258 
+% April 15, 2018

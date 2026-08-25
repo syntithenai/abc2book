@@ -1,0 +1,27 @@
+X:407
+T:Grand March...2voices RH.407
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="2nd"
+M:2/4
+L:1/16
+Q:1/4=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:C major
+[V:1] g3f e2d2|c6 d2|fedc agfe|e4 d2ef|
+[V:2] e3d c2B2|c6 B2|c2z2 fedc|c4 B2cd|
+%
+[V:1] g3g gfed|c6 d2|efgf e2d2|1 c2c>c c4:|2 c2c>c c2||
+[V:2] e3e edcB|c2e>c G2B2|cdec c2B2|1 c2E>E E4:|2 c2E>E E2||
+%
+[V:1]|:G2|d3d defg|f3e e2e2|e3e agfe|e4 def^f|
+[V:2]|:G2|B4 Bcde|d3c c2c2|c3c fedc|c4 Bcd^d|
+%
+[V:1] g3g gfed|c6 d2|efgf e2d2|1 c2c>c c2:|2 c2c>c c4|]
+[V:2] e3e edcB|c2D>F G2B2|cdec c2B2|1 c2E>E E2:|2 d2E>E E4|]
+W:Grand March as Performed at the Theatre Royal Drury Lane.

@@ -1,0 +1,24 @@
+X:1
+T:Niedlicher Fuss. Mazurka  CF ( mz07020) ABCDA
+T:Hanny Christen. Bd.V  Basel II, Jura. S.149  (mz07020) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+P:ABCDA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"c>de4 | g>ec4 | c>de2e2 | "G7"f>ed4 | d>ef4 | f>dB4 | d>ef2f2 | "C"g>fe4 | 
+e>fg4 | g>fe4 | "C7"e>fg2g2 | "F"f>ga4 | "Dm"d>ef4 | "C"e>fg4 | "G7"g>gg2B2 |  "C"c2c2z2 :| [K:F]
+[P:B] |: "F"c>c c2f2 | "Gm"e4d2 | "C7"c>cc2b2 | "F"a4f2 | "C7"g>gg2f2 | e4d2 | c>cd2e2 | "F"f2f2z2 :| [K:C]
+[P:C] |: "C"g2fe de | "G7"f2B2B2 | a2gf ef | "C"g2c2c2 | "Dm"A2AA df | "C"e4 c>e | "G7"d>c B>c d>B | "C"c2c2z2 :| [K:F]
+[P:D] |: [L:1/4] "F"a2g | f2f | "C7"g2a | b2b | g2f | e2e | "F"f2a | "C7"c'=b_b | 
+"F"a2g | f2f | "C7"g2a | b2b | "Bb"d2b | ("F"a2f) | "C7"g/>g/ ge | "F"f"_>Teil A"fz :| 
+W:
+%W:Parts: ABCDA
+W:Anmerkung H.C.: Rünenberg, Lausen
+% mz07020
+% June 28, 2018

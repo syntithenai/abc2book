@@ -1,0 +1,16 @@
+X: 139
+T: Polka CGF (pk05341)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.226 (pk05341) orig. C,G,F-Dur
+S: "Plötsch Musig" Guggisberg (Bern) S.186ff
+%%partsbox
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+P:ABACD
+K:C major
+[P:A] "G7"{/e}f2G2 ^FGAB | "C"cBce a2g2 | "G7"g2d2 g2d2 | "C"e2ec G2G2 | "G7"{/e}f2G2 ^FGAB | "C"cBce a2g2 | "G7"b2d2 a2B2 | "C"c2e2 c2z2 ::[P:B] [K:G]
+"G"ed^cd bgdB | "C"f2e2 +>+e4 | "D7"d2f2 fecA | "G"G2e2 edBG | ed^cd bgdB | "C"f2e2 e4 | "D7"eff2 f2a2 | "G"g2b2 g2"_> Teil A"z2 :| [P:C][K:F]
+|: "F"(c4c)ABc | "Bb"(d4d)Bcd | "C7"e2ed cbcb | "F"f2fd caca | (c4c)ABc | "Bb"(d4d)Bcd | "C7"e2ed cbcb | 
+"F"f2a2 f2z2 ::[P:D] "Gm/Bb"bgdb a2g2 |  "F"g2f2c4 | "C7"cee2 cgg2 | "F"cff2 cfa2 | "Gm/Bb"bgdb a2ga | "F"g2f2 c4 | "C7"cdef gabe | "F"f2a2 f2z2 :|

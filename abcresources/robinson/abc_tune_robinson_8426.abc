@@ -1,0 +1,28 @@
+X:42
+T:the Marchioness of Normanby
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:6/8
+O:Scotland
+R:Jig
+Z:Clark Bernst + Richard Robinson
+%%Page:17 - 1
+K:Bb major
+%%staves {1 2}
+V:1
+f |: \
+(df)!wedge!d B3 | (df)!wedge!d B3 | GAB cde | dcB AGF | \
+(df)!wedge!d B3 | (df)!wedge!d B3 | efg gab | ag=e f3 :|
+F2 F FGA | Bcd e2 c | B2B Bcd | ede    g2 f | \
+E2 g g2b | D2f f2 b | dcB FGA | [DB]3 [DB]2 d |
+F2 F FGA | Bcd e2 c | B2B Bcd | ede    g2 f | \
+b2 B fga | b2B g2 f | d2B FGA | [DB]3 [DB]3 |]
+V:2 clef=bass octave=-2
+z |: \
+Bfb Bfb | Bfb Bfb | [E]2[Dd] [Cc]2[Aa] | [Bb]2[Dd] [Ff]3 | \
+Bfb Bfb | Bfb Bfb | egb egb | cgb [fa]3 :| \
+f3 f2e' | d'c'b a2e' & f3 f3 | d'2d' d'c'b & f3f3 | [gb]2[gb] [eb]2[db] | \
+egb egb | Bfb Bfb | fbd' fc'e' | Bfb B2z | \
+f3 f2e' | d'c'b a2e' & f3f2x | d'2d' d'c'b & f3f3 | [gb]2[gb] [eb]2[db] | \
+Bfb Bfb | Bfb dfb | fbd' fc'e' | Bdf b3 |]

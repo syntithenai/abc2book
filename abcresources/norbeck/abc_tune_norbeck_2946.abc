@@ -1,0 +1,38 @@
+X:2
+T:Varbishka Ratchenitsa
+R:rachenitsa
+H:Originally in C, but Kornog transposed it for the simple system flute.
+O:Bulgaria
+Z:id:hn-rachenitsa-2
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:D
+|: g2z2 g2f | fdff fed | eeez eez | dAde ffd | gdag g2f | fdff fed | eeez eez | dAdA d3 :|
+!segno!|: d2ff fed | gggd ggf | fdff fed | eeeA ez2 | d2ff fed | gggd ggf | fdff fed | eeeA e3 !fine! :|
+|: g2z2 g2f | fdff fed | eeeA eeA | dAde ffd | gdag g2f | fdff fed | eeeA eeA | dAdA d3 :|
+|: d2ff fed | gggd g2f | fdff fed | eeeA eeA | d2ff fed | gggd ggf | fdff fed | eeeA e3 :|
+|: e2bb bag | aaad agf | a2gf efd | eeee a2b | e2bb bag | aaad agf | a2gf efd | eeeB e3 :|
+|: aagf efd | eeee a2b | aagf efd | eeee dcB | aagf efd | eeee a2b | aagf efd | eeeB e3 :|
+K:Dphr ^f
+=B=cd_e fga | agf_e fAd | fggf f_e_b | agf_e dd=c | d_ef2 fag | f_ed2 fga | agff f_ed | d=c=BA d3 |
+=B=cd_e fga | agf_e fAd | fagf f_e_b | agf_e dd=c | _b=c'c'b bag | gff_e fga | agff f_ed | d=c=BA d3 ||
+K:Cmix ^f
+|: ^fggg _bag | g=c_ba g=fe | ^fga2 g_ba | g=fee gG=c | ^fggg _bag | g=c_ba g=fe | ^fga2 g_ba | g=fee =c3 :|
+K:Dphr ^f
+|: =c2dd dgf | fAdg gf_e | fffA =cgf | fd_ed daA | =c2dd dgf | fAdg gf_e | fffA =cgf | fd_ed d3 :| 
+P:Kornog version
+K:D
+|: g2z2 g2f | fdff fed | eeeA eeA | dAde ffd | ggag g2f | fdff fed | eeeA eeA | dAdA d3 :|
+!segno!|: d2f2 fed | ~g3d g2e | fdff fed | eeeA eee | d2f2 fed | ~g3d g2e | fdff fed | eeeA e3 !fine! :|
+|: g2z2 g2f | fdff fed | eeeA eeA | dAde ffd | ggag g2f | fdff fed | eeeA eeA | dAdA d3 :| 
+|: d2f2 fed | ~g3d g2e | fdff fed | eeeA eee | d2f2 fed | ~g3d g2e | fdff fed | eeeA e3 :| 
+|: e2bb bag | ~a3d agf | a2g2 efd | ~e3e abb | e2bb bag | ~a3d agf | a2gg efd | ~e3B e3 :|
+|: aagf efd | ~e3e a2b | aagf efd | ~e3e dcB | aagf efd | ~e3e a2b | aagf efd | ~e3B e3 :|
+K:Dphr ^f
+|: =B=cd_e fga | agf_e ffe | fgaf agf | agf_e ddA |1 d_efg fag | f_ed2 fga | agff f_ee |
+  d=cBA d3 :|2 b=c'c'b bag | gff_e fga | agff f_ee | d=c=BA d3 || 
+K:Cmix ^f
+|: ^fg~g2 _bag | g=c_ba gge | ^fga2 gaa | ggee g=ce | ^fg~g2 _bag | g=c_ba gge | ^fga2 gaa | ggee =c3 :|
+K:Dphr ^f
+|: =cdd2 fgf | fdfg gfd | ~f3d =cgf | fd_ed d3 | =cdd2 fgf | fdfg gfd | ~f3d =cgf | fd_ed d3 :|

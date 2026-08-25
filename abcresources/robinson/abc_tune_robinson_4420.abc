@@ -1,0 +1,16 @@
+X: 176
+T: Schottisch FCBb (st08854)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.366 (st08854) orig. F,C,Bb-Dur
+S: Tänze aus Büren an der Aare (Bern) S.353ff
+%%partsbox
+%%MIDI program 21
+P:ABACD
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:F major
+[P:A] "F"aa gg | fc c/d/c | "Bb"dd "C7"ee | "F"fc' c'>b | aa gg | fc c/d/c | "Bb"dd/f/ "C7"ee/g/ | "F"fa fz ::[P:B] [K:C]
+"C"e^d/e/ "G7"fe/f/ | "C"g^f/g/ e'e' | "G7"gf/g/ d'd' | "C"ge/g/ c'c' |  e^d/e/ "G7"fe/f/ | "C"g^f/g/ e'e' | "G7"gf/g/ d'd' | "C"c'c' "_> Teil A"c'z :| 
+[P:C] |: [K:Bb] "Bb"fd g>f | "F7"f2e2 | ec f>e | "Bb"e2d2 | fd b>a | "Eb"ag fe | "Bb"df d>f | B2b2 :|
+[P:D] |: "Bb"d3g/f/ | "Eb"ee ec'/b/ | "F7"aa ga | "Bb"bb ff | d3 g/f/ | "Eb"ee ec'/b/ | "F7"aa g>a | "Bb"bb bz :|

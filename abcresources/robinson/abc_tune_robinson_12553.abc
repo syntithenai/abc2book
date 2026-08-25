@@ -1,0 +1,27 @@
+X:442
+T:Rondeau,Opera of the Zauberflote.2voices RH.443
+T:Magic Flute,Rondeau. RH.443
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:I have removed a final D2 from the primo.
+N:I also replaced the starting z2 of the
+N:secundo with an A2 taken from the end. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:2/4
+L:1/16
+Q:1/4=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:G major
+[V:1] D2|G2G2 A2A2|BcBA G2AB|c2c2 B2B2|A4 z2D2|G2G2 A2A2|A^GAB c2c2|B2d2 AGAB|G2gf (ec)(ce)|
+[V:2] A2|G2G2 F2F2|GAGF G2FG|A2A2 G2G2|F2d2 D2z2|D2D2 E2E2|FEFG A2A2|G2G2 F2D2|G2B2 c2c2|
+%
+[V:1] (dB)(Bd) cAAc|B2gf e2e2|d2d2 c2c2|BcdB efge|dcBd efge|d^c=cB ABcd|
+[V:2] B2G2 A2D2|G2B2 (cG)(Gc)|B2B2 A2A2|GABG c2c2|BAGB c2c2|BAGB cdec|
+%
+[V:1] B2zd efge|d2zd efge|d2zd efge|decd BcAB|G2g2 G2g2|g4 z2|]
+[V:2] B2A2 G2D2|BAGB cdec|BAGB cdec|B2A2 G2F2|G4 B2B2|B4 z2|]

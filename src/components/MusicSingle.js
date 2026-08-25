@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect, useRef, useCallback} from 'react'
 import {Link , useParams , useNavigate, useLocation, useSearchParams} from 'react-router-dom'
 import { Alert, Button, Dropdown } from 'react-bootstrap'
 import Abc from './Abc'
@@ -99,6 +99,12 @@ import PlayalongRecordConfigModal from './PlayalongRecordConfigModal'
 import PlayalongIncompleteTakeModal from './PlayalongIncompleteTakeModal'
 import { shouldShowPlayalongRecordButton } from '../playalongTakes'
 import { loadPlayalongSettings, savePlayalongSettings } from '../playalongSettings'
+import {
+  advanceBulkPlayalongSession,
+  applyPlayalongTempoMultiplier,
+  getBulkPlayalongSession,
+  isBulkPlayalongCurrentTune,
+} from '../bulkPlayalongSession'
 
 function museScoreManualCandidates(manualCandidates) {
   return filterActionableNotationManualCandidates(manualCandidates).filter(function(item) {
@@ -349,6 +355,26 @@ export default function MusicSingle(props) {
     const [playalongSettings, setPlayalongSettings] = useState(function() {
       return loadPlayalongSettings()
     })
+    const bulkPlayalongAutoStartRef = useRef('')
+
+    const handleBulkPlayalongSessionComplete = useCallback(function() {
+      if (!tune || !tune.id || !isBulkPlayalongCurrentTune(tune.id)) return
+      const result = advanceBulkPlayalongSession()
+      if (result.done) {
+        toast.success(
+          'Play along complete — recorded ' + (result.completed || 0) + ' tune' +
+          (result.completed === 1 ? '' : 's') + '.'
+        )
+        return
+      }
+      const nextTune = props.tunes && props.tunes[result.nextTuneId]
+      const name = nextTune && nextTune.name ? nextTune.name : 'next tune'
+      toast.info(
+        'Play along ' + result.progress.current + '/' + result.progress.total + ': ' + name
+      )
+      navigate('/tunes/' + encodeURIComponent(result.nextTuneId))
+    }, [tune, props.tunes, navigate])
+
     const playalong = usePlayalongRecordSession({
       tune: tune,
       tunebook: props.tunebook,
@@ -357,6 +383,7 @@ export default function MusicSingle(props) {
       setViewMode: props.setViewMode,
       setTune: setTune,
       playbackGain: playalongSettings.playbackGain,
+      onSessionComplete: handleBulkPlayalongSessionComplete,
     })
 
     const [playalongTempoDialogOpen, setPlayalongTempoDialogOpen] = useState(false)
@@ -423,6 +450,55 @@ export default function MusicSingle(props) {
       const bpm = parseFloat(props.tunebook.abcTools.getTempo(tune))
       setPlayalongTempoBpm(Number.isFinite(bpm) && bpm > 0 ? bpm : 120)
     }, [tune && tune.id, props.tunebook])
+
+    useEffect(function() {
+      bulkPlayalongAutoStartRef.current = ''
+    }, [tune && tune.id])
+
+    useEffect(function() {
+      if (!tune || !tune.id) return undefined
+      const session = getBulkPlayalongSession()
+      if (!session || !isBulkPlayalongCurrentTune(tune.id)) return undefined
+
+      const startKey = String(tune.id) + ':' + String(session.startedAt || '')
+      if (bulkPlayalongAutoStartRef.current === startKey) return undefined
+
+      const fileOverlayActive = !!findTuneFileMeta(tune, tune.activeFile)
+      if (!shouldShowPlayalongRecordButton(tune, props.tunebook, fileOverlayActive)) {
+        bulkPlayalongAutoStartRef.current = startKey
+        handleBulkPlayalongSessionComplete()
+        return undefined
+      }
+
+      bulkPlayalongAutoStartRef.current = startKey
+      setShowPlayalongPianoRoll(true)
+      if (playalong.openCompare) playalong.openCompare()
+
+      const tempo = applyPlayalongTempoMultiplier(
+        playalongTempoBpm,
+        session.tempoMultiplier
+      )
+      const settings = session.settings || playalongSettings
+
+      const timer = window.setTimeout(function() {
+        if (playalong.start && !playalong.isRecording) {
+          playalong.start(tempo, settings)
+        }
+      }, 400)
+      return function() {
+        window.clearTimeout(timer)
+      }
+    }, [
+      tune,
+      tune && tune.id,
+      props.tunebook,
+      playalongSettings,
+      playalongTempoBpm,
+      playalong.openCompare,
+      playalong.start,
+      playalong.isRecording,
+      handleBulkPlayalongSessionComplete,
+    ])
     
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({

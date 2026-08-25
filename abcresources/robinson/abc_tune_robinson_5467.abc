@@ -1,0 +1,23 @@
+X:217
+T:Rigoletto-Schottisch.  FC (st06619) ABCDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.262 (st06619) orig. F,C
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F".c(c/d/) "C7"cB | "F"AFA2 | .A(A/B/) "C7"AG | "F"FCF2 | "C7"Gc Gc | "F"Adc2 | "E7"e>f ed | "Am".c=BA2 | "C7".c(c/d/) cB | "F"AFA2 | 
+.A(A/B/) "C7"AG |  "F"FCF2 | "C7"G>A BG | "F"ABc2 | "C7"c>c de | "F"ff fz :: [P:B] [K:C] "C"GG G/A/G | GAG2 | EG ce | "G7"fed2 | 
+GG G/A/G | GAB2 | Bc dc | BAG2 | "C"GG G/A/G | GAG2 | EG ce | "F"dcA2 | "G7"fG fG | "C"eG eG | 
+"G7"dG BG | "C"cc cz :: [P:C] [K:F] ("F"A3c) | (dc BA) | (A3c) | "C7"G2z2 | (G3A) | .B(c/B/) AG | ("F"F3G) | A2z2 | 
+(A3B) | (dc BA) | ("Bb"G3B) | d2z2 | "C7"d>d ed | "F"cAc2 | "C7"BG .B(c/d/) | "F"edc2 | "C7"d>d ed | "F"cAc2 | 
+{/^c}"Gm"dG {/A}"C7"BE | "F"FF F"_Fine"z :: [P:D]  "Am"c3 (c/d/) | c3 c/d/ | "E7"ee dd | "Am"c=BA2 | c3 (c/d/) | c3 (c/d/) | "E7"ee dd |  "Am".c2"_>Teil C"!>!"C7"B2 :| 
+W:
+W: Anmerkung H.C.: Cornet in B (=Bb), Zunzgen 10, Ormalingen 7, s.V. 736
+% st06619
+% May 7, 2017

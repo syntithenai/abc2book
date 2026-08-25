@@ -1,0 +1,34 @@
+X:432
+T:Valencienne's Slow March.2voices RH.433
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:I had to add bar 19 of the primo, to get it
+N:to fit the secundo part. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:2/4
+L:1/16
+Q:1/4=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1] d4 e4|f3g a2d2|g2f2 e2d2|cdcB ABcA|
+[V:2] F2d2 c2A2|d3e f2d2|B2A2 G2^G2|A4 A2G2|
+%
+[V:1] d4 e4|f3g a2d'2|d'c'ba c'ba^g|a2a>a a4||
+[V:2] F2d2 c2A2|d2e2 f2d2|A2f2 d2e2|c2c>c c4||
+%
+[V:1] a2f2 a2f2|bagf g2e2|g2e2 g2e2|agfe f2A2|
+[V:2] f2d2 f2d2|gfed e2A2|e2A2 e2A2|fedc d2AG|
+%
+[V:1] .d(dcd) .e(ede)|.f(fef) aad'a|aggf aggf|e2e>e e>AB>c|
+[V:2] F2d2 c2A2|Adcd eede|f2f2 feed|c2c>c c>AGF|
+%
+[V:1] d4 e4|f3g a2d2|g2f2 e2d2|cdcB ABcA|
+[V:2] F2d2 c2A2|d3e f2d2|B2A2 G2^G2|A4 A2G2|
+%
+[V:1] d4 e4|f3g a2d'2|agfe fedc|d2d>d d4:|
+[V:2] F2d2 c2A2|d3e f2d2|fedc AGFE|F2F>F F4:|

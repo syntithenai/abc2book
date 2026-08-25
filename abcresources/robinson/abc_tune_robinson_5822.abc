@@ -1,0 +1,34 @@
+X:42
+T:Winteregg-Juiz. Zusatz  C-Dur
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+M:3/4
+K:C major
+[P:A] E/E/ | e>f e/d/ | cEc | d>^cd | 
+e2E/E/ | e>f e/d/ | cEc | d/f/ ed | c2E/E/ | 
+e>f e/d/ | cEc | d>^cd | e2E/E/ | 
+e>f e/d/ | cEc | d/f/ ed | c2 || 
+M:3/4
+[P:B] c/c/ | B/c/ dd | e/d/ce | f>df | e2c | 
+B/c/ dd | e/d/ce | f>ed | c2c/c/ | 
+B/c/ dd | e/d/ce | f>df | e2c | 
+B/c/ dd | e/d/ce | f>ed | c2 ||
+M:3/4
+[P:C] E/E/ | ee/f/ e/c/ | e e/f/ e/c/ | dd/e/ f/d/ | e2E/E/ | 
+ee/f/ e/c/ | ee/f/ e/c/ | d/f/ed | c2E/E/ | ee/f/ e/c/ | ee/f/ e/c/ | 
+dd/e/ f/d/ | e2E/E/ | ee/f/ e/c/ | ee/f/ e/c/ | d/f/ ed | c2 || 
+[P:D] F/F/ | e>f e/d/ | cEc | d>^cd | e2 E/E/ | 
+e>f e/d/ | cE c/e/ | g/f/ed | c2 |]
+W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-21
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 23, 2018

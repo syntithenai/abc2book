@@ -1,0 +1,14 @@
+X:138
+T: Mazurka CGF (mz05196)
+T:Hanny Christen. Bd.I  Zürich, Schaffhausen, St. Gallen I. S.384 (mz05196) orig. C,G,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"e>cG2e2 | "Dm/F".d2!>!A4 | "G7"B>cd2g2 | f>ag4 | "C"e>cG2e2 | "D7"d2d'3c' | "G7"b>a g>f e>d | "C"c2c'2z2 :|  [K:G] 
+[P:B] |:"G"Bdd2de | "D7"d^c =c2c2 | dcf2f2 | "G"dBg2g2 | Bdd2df | "C"fee2e2 | "D7"daf2f2 | "G"g2g2"_>Teil A"z2 :| [P:C] [K:F] 
+|: "F"afc3f | "C7"ec g3f | ed cg cg | "F"ac fac'2 | af c3f | "C7"ecg3f | ed cg ec' | "F"f2f2z2 :|

@@ -1,0 +1,31 @@
+X:10
+T:Wragg's Duetto the 57th.2voices. RH.011
+R:Air
+S:Rev.R.Harrison's MS,c1815,Cumbria
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+M:6/8
+L:1/8
+Q:3/8=80
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:A major
+[V:1]|:e|.c(ce)A2B|.c(cd) e2d|(c>B).A (ed).c|BBBB2e|
+[V:2]|:z|A2c E(EG)|A2B .c(cB)|A2E .c(BA)|EEEE2z|
+%
+[V:1] c/B/c/d/e/c/A2B|c/B/c/d/e/f/ e>fg|\
+a(c'/a/)(c'/a/) g(b/g/)(b/g/)|aaaa2:|
+[V:2] (A/G/)(A/B/)(c/A/)E2G|A(AB) c>de|\
+cec BdB|cccc2:|
+%
+[V:1]|:c'/e'/|e'3e'd'c'|(g/a/)(b/a/)g/f/e2b/c'/|\
+d'3d'bg|(a/b/)(c'/d'/)e'/c'/a2e|(f>ag/a/) (e>ag/a/)|\
+(d>ag/a/) (c>ag/a/)|
+[V:2]|:(a/b/)|c'3c'az|e(g/f/e/)^d/e2g/a/|b3bge|\
+(c/B/)(A/B/)(e/c/)A2c|.d(df) .c(ce)|.B(Bd) .A(Ac)|
+%
+[V:1] (f/e/)(f/g/)(a/b/) (a/g/a/).f/(e/^d/)|e3-" DC"e2:|\
+b3(g/a/b/a/g/f/)|(e/d/c/)B/A (dcB)|AAAA2|]
+[V:2] (d/c/)(d/e/)f/g/ af^d|e3-" DC"e2:|FfF Eed|\
+c/B/A/G/A BAG|Aaaa2|]

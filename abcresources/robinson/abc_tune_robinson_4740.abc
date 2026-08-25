@@ -1,0 +1,16 @@
+X:155
+T:Oestreicher Marsch (Schottisch)  FBb (st00843)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.194 (st00843) orig. F,Bb-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+ff |:"F"f2aa a2ff | f2c'c' c'2ba |  "C7"g2^f2 g2a2 |  "F"f4 c2ff  | 
+f2aa a2ff | f2c'c' c'2=ba | "G7"g2g2 a2=b2 |1 "C"c'2c'c'c'2 ff :|2 "C"c'2c'c'c'2 ce || 
+|: "C7"g2^fg a2g2 | g2c2 !>!c'4 | "F"a2^ga b2a2 | a2c2c'4 | "Bb"d'2d'd' d'2c'2 | 
+"F"a2f2 fgab | "C7".c'4!>!e4 | "F"f2fff2z2 ::[K:Bb] [L:1/8] "Bb"d'2c'b | "F7"a>ce2 | b2 ag | 
+"Bb"f>Bd2 | d2 fb | d'>f e'd' | "F7"d'3c' |1 "Bb"b2zf :|2 "Bb"b3z |] 
+% st00843

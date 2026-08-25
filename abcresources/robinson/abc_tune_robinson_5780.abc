@@ -1,0 +1,31 @@
+X:11
+T:Fachsbodä-Juiz  Bb  ABA*C
+T:Hansruedi Niederberger  (* 30.9.1948)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABAC
+M:3/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,>D | F2 F | f/=e/cd | B>F B/d/ | fBd | c>F A/c/ | fcd | ("_*"B3 | B/)z/B,>D | 
+F2 F | f/=e/cd | B>F B/d/ | fBd | c>F A/c/ | fcd | (B3 | B) || 
+L:1/8
+M:2/4
+[P:B]   dc| B2DF | B2dc | B2FB | d2fd | c2Fd | c2Fd | B2dB | F2dc | 
+B2DF | B2dc | B2FB | d2fd | c2Ff | d2dc | (B4 | B2) ||
+M:3/4+2/4
+[P:C]  Ff | dFB2dB | AcF2Ff | eFc2ec | BdF2Ff | dFB2dB | 
+Gce2BG | FD FB | d2c2 | (B4 | B)z  Ff | dFB2dB | AcF2Ff | eFc2ec | 
+"_froher Abgesang, ausklingen lassen:"BdF2Ff | dFB2dB | Gce2BG | FD FB | d2c2 | (B4 |B2)z2 ||
+ F2 | !ff! !>!f=e c2d2 | B4d2 |  B4d2 | !p!B6 |] 
+W:
+W:Reihenfolge: A-B-A(bis*)-C
+W:
+%W:notiert Edi Gasser. Angaben: Hr Niederberger
+W:UJV-Naturjodelsammlung: Code-Nr: 18-06
+W:http://www.naturjodler.ch/code 18.htm  (with AUDIO)
+%May 16 2018

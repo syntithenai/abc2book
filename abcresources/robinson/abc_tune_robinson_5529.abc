@@ -1,0 +1,22 @@
+X:273
+T:Ein schöner Traum (Walzer) GDC (wz06367)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.126 (wz06367) orig. G,D,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+("G"B3 | B)A>B | (d3 | d)zz | ("C"e3 | e)c>e | (g3 | g)zz | "D7"fA>c | fze | 
+"G"ezd | zB>A | ("D7"d3 | d)cA | ("G"G3 | G)zz :: [K:D] "D"A (F/A/ d/f/) | d3 | A (F/A/ d/f/) | a3 | 
+"A7"g g/f/ f/g/ | (g/e/) (e/c/) (c/A/) | "D"BAA | BAA | A (F/A/ d/f/) | d3 | !>!A (F/A/ d/f/) | a3 | !>!"Em"g (B/e/) (e/g/) | 
+!>!"D"f (A/d/) (d/f/) | !>!"A7"e (A/c/) (c/e/) | "D"dzz :: [K:G] "G"d3 | B3 | g3 |  (f2e) | "D7"d3 | A2c | "G"BDG | 
+Bdg | "Am"A3 | c3 | (e3 | e)cA | "D7"F3 |1 d2A | "G"BGB | dgb :|2 ("D7"d2F) | 
+"G"[GB]3 | [GB]zz |: [K:C] "C"G>ce | e (d/c/ B/c/) | "Dm"azd | f3 | "G7"Gf>G  | (d2g) | "C"Ge>G | (c2g) | 
+G>c e | e (d/c/ B/c/) | "Dm"azd | f3 | "G7"G/A/ B/c/ d/e/ | f/e/ d/c/ B/A/ | G/B/ dg | "C"czz :| 
+W:
+W:Anmerkung H.C.: St. Stephan/Simmental, Benken 43, Binningen 43, Laupenberg 1.V.410
+% wz06367
+% Dez 7, 2016

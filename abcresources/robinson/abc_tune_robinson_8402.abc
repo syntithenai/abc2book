@@ -1,0 +1,41 @@
+X:43
+T:the Duchess of Gordon
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:3/4
+N:Air? Waltz?  Slowly
+O:Scotland
+R:Air
+Z:Clark Bernst + Richard Robinson
+%%Page:18 - 1
+K:Bb major
+%%staves {1 2}
+V:1 name="Moderato"
+FG/A/ | \
+[DFB]2 [B,FB]2 [B,DB]2 | d3 {edcd}e [FBf]2 & F4x2 | \
+c>d (3fed (3dcB & G2G2F2 | A2 G2 [B,F]{GFEF}[EG]/A/ & [B,E]4 x2 | \
+[B,FB]2 [B,FB]2 [B,DFB]2 | d3 {edcd}e f2 & F4x2 | \
+=e>b ag f>e &B4x2 | g2 f2 f{gfef}g/a/ & B2A2B2 | \
+b2 f2 d2 & B4B2 | g2 e2 c^c &G2G2F2 | \
+d>f ed {d}c>B & F2F2F2 | A2 G2 [B,F]{GFEF}[EG]/A/ & [B,E]4x2 | \
+B2 B,2 [B,D]2 | [Ff]3g/e/ [Fd]2 & x3Ax2 | \
+F>e d2 d3//c//B3//c// & F2F2[EA]2 | [c2F2E2] [DFB]2 |]
+d>e | \
+f2 d2 [Bb]2 & B4x2 | f2 d2 [Bb]2 & B4x2 | gf ed cB & B4F2 | A2 G2 !trill!FG/A/ & [B,E]4B,2 | \
+[DB]2 [DF]2 [DB]2  | d3 {edcd}e f2 & F4[FB]2 | =e>b ag f>e &B4 x2 | [Bg]2 [Af]2 d>!trill!e &x4B2 | \
+f2 (3fdf [Bb]2 & B4x2 | g2 (3geg b2 & B6| c>d e>d (3dcB &G2G2F2 | A2 G2 [B,F]G/A/ & [B,E]4 x2 | \
+B2 B,2 D2 | [Fcf]3g/e/ [Fd]2 & x3 A x2 | \
+F>e [Fd]2 d/>c/B/>c/ x4[EA]2 | \
+[EFc]2 [DFB]2 |]
+V:2 clef=bass octave=-2
+z2 | \
+[B,B]2 [Dd]2 [Ff]2 | b4 x2 & B3c [db]2 | [Ee]2 [Cc]2 [Dd]2 | eEGB [Dd][Cc] | \
+[B,B]2 [Dd]2 [Ff]2 | b4 x2 & B3c [db]2 | x2[gbc']2 [gbc']2 & c6 | fFfe f2 & x4dc | \
+[Bb]2 [db]2 [Bf_a]2 |[eg]2 [cg]2 [fa]2 | [bd']2 [db]2 [db]2 | eEBG [Dd][Cc] | \
+[B,B]2 [B,B]2 [B,B]2 | [A,A]2 [F,F]2 [B,B]2 | [Dd]>[Ee] [Ff]2[Ff]2 | B2b2 |] \
+z2 | \
+Bbfbdb & B6 | Bbfbdb & B6 | Bbfbdb & B6 | eEGB [Dd][Cc] | \
+[B,B]2 [B,B]2 [B,B]2 | [B,B]2 [Cc]2 [Dd]2 | x2 [gbc']2 [gbc']2 & c6 | fFfe f2 & x4dc | \
+{B}[Bb]2 [bd'f']2 z2 | [Ee]2 [be'g']2 x2 | [Ee]>[Dd] [Cc]2 [Dd]2 | eEGB [Dd][Cc] | \
+[B,B]2 [B,B]2 [B,B]2 | [A,A]2 [F,F]2 [B,B]2 | [Dd]>[Ee] [Ff]2 [Ff]2 | B2 b2 |]

@@ -1,0 +1,19 @@
+X:183
+T: Schottisch  FCBb (ABAC) (st09370)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.207 (st09370) orig. F,C,Bb
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"aa "G7"gg | "F"fc c/d/c | "Bb"dd "C7"ee | "F"f>c' "C7"c'>b | "F"aa "C7"gg | "F"fc c/d/c | "Bb"dd/f/ "C7"ee/g/ | "F"fa fz :: [P:B] [K:C] "C"e^d/e/ "G7"fe/f/ | 
+"C"g^f/g/ e'e' | "G7"z^f/g/ d'd' | "C"ze/g/ c'c' | e^d/e/ "G7"fe/f/ | "C"g^f/g/ e'e' | "G7"z^f/g/ d'd' | "C"c'e' c'"_>Teil A"z :| [P:C] [K:Bb] 
+|: "Bb"d3g/f/ | "Eb"ee zc'/b/ | "F7"aa ga | "Bb"bb "F7"ff | "Bb"d3g/f/ | "Eb"ee zc'/b/ | "F7"aa ga | "Bb"bd' bz :| 
+W:Parts: AB-AC
+W:Anmerkung H.C.: Einsiedeln ... Kerns ... Zug ... Schwyz ... Baselbiet
+% st09370 (H 337/TN 3)

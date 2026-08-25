@@ -1,0 +1,23 @@
+X:1
+T:Galopp  FBb  (gL08145)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.218  (gL08145) orig. F,Bb
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+%P:ABC
+R:Gallop
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"FG AB | .c2.d2 | .c2(!>!f2 | f)e .d.c | "C7".B2.G2 | .A2.F2 | .G2 (!>!d2 | d).c .B.G | "F"FG AB | .c2d2 | 
+.c2(!>!f2 | f).e .d.c | "G7".=B2.A2 | .A2.=B2 | "C"cc/c/ cc | c2z2 :: [P:B] "F"Ac/c/ cc | d2c2 | Ac/c/ cc | 
+d2c2 | "C7"eG/G/ GG | d2c2 | B2G2 | "F"A2F2 | Ac/c/ cc | d2c2 | Ac/c/ cc | d2c2 | "C7"eG/G/ GG | 
+ d2c2 | B2G2 | "F"FF Fz :: [K:Bb]  [P:C] "Bb"d3d | "F7"e3e | "Bb"d2.B2 | z(d cd) | "F7"c2A2 | z(c Ac) | 
+"Bb"B2d2 | d2z2 | d3d | "F7"e3e | "Bb"d2B2 | z(d cd) | "F7"c2A2 | z(c Ac) | "Bb".B2.B2 | B2z2 :| 
+W:
+%W:Parts: ABC
+%W:Anmerkung H.C.: 
+%W:Anmerkung Hrsg,:
+% gL08145
+% September 4, 2018

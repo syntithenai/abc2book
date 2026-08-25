@@ -1,0 +1,18 @@
+X:313
+T:Walzer C (wz07465) 
+T:Hanny Christen. Bd.IV  Aargau, Basel I.  S.353 (wz07465) orig. C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+"C"c3 | e3 | "G7"g3 |: ("C"Ge).e | (ec'e)  | ("G7"d.b).b | .b/.d/ .^c/.d/ .e/.d/ | ("D7"c.a).a | a/c/ B/c/ d/c/ | ("G"B.g)g | "G7"G3 | 
+("C"Ge).e | ec'e | ("G7"d.b).b | b/a/ g/^f/ g/e/ | (e.d)d | ("D7"d/^f/) (f/e/) (e/f/) |1 "G"g/g/ g/g/ g | "G7"zGG :|2 "G"g3 | gzz || 
+|: "G7".b.b.a | (G/f/) f2 | "C".a.a.g | (G/e/)e2 | "G7".e.e.d | F/B/ B>A | .A.A.A | "C"E/G/ c/e/ g/c'/ | "G7".b.b.a | (G/f/)f2 | 
+"C".a.a.g | (G/e/) e2 | "G".e.e.d | "D7"(^F/d/)d2 | cBA | "G"Gz"G7"z :: "C"(e3 | e).c.e | "F"az(a | a/).g/ .f/.e/ .d/.c/ | 
+"G7"BAf | B3 | "C"AGe | c2(G/c/) | (e3 | e).c.e | "F"az(a | a/)g/ .f/.e/ .d/.c/ | "G7"BAf | BaB | ("C"c3 | c)zz :| 
+% wz07465
+% Sep 4, 2017 (wissen - Sündenfall - verstehen)

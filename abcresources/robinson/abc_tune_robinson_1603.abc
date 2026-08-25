@@ -1,0 +1,18 @@
+X:169
+T:Le Jupon Rouge. VWMLa.169
+R:Cotillion
+S:Anon. MS, late 18thC, Vaughan Williams Mem. Library
+O:England
+Z:vmp/efdss.Simon Wilson. Reviewed PJH 2008.
+M:6/8
+L:1/8
+Q:3/8=100
+B:Village Music project, Vwml_anon_1
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/Vwml_anon_1.abc
+A:Yorkshire
+K:D major
+A|A2d FED|"^drone on A"[A,2-E2][A,-E] [A,2-E2][A,F]|\
+G2F EDE|D3A,DF|A2d FED|\
+"^drone on A"[A,2-E2][A,-E] [A,2-E2][A,F]|G2F EDE|D3- D2:|
+A|Adf fed|ecA A2A|Aeg gfe|afd d2A|\
+B2B gec|daf d2A|B2B g2f|!D.C.!(f3 e2)|]

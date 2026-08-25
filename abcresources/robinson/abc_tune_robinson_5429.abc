@@ -1,0 +1,18 @@
+X:182
+T:Urgemütlich (Polka) GDC (pk06362)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.121 (pk06362) orig. G,D,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+Bc |: ("G"^cdg).B (cdg).B |  "D7"=c2a2 a3g | (gfA).c (gfa).c | ("G"ed).^c.d .d2(B=c) | (^cdg).B (cdg).B |  
+"D7"=c2a2 a3g | fed^c ed=cA |1 "G"G2B2 G2Bc :|2 "G"G2B2 G2FG |: [K:D]  "D".A.A.A.A fced | ("Em"cB^AB) e3d | "A7"c2c2 c3B | 
+"D"B2A2 F2FG | .A.A.A.A fced | ("Em"cB^AB) a3g | ("D/A"fe).d2 ("A7"ed).c2 |1 "D"d2f2 d2FG :|2 "D"d2f2 d2B2 |: [K:G] "D7".d2.c2 B2A2  | 
+"G".e2!>!d4.B2 | ("D7"Bd)c2 (FA)f2 | "G"G2g2 d2B2 | "D7"d2c2 B2A2 | ("G"e2d2) f3e | "D7".d.e.c.d .B.c.A.B |1 "G"G2B2 G2B2 :|2 "G"G2B2 G2(gf) |: [K:C] "C"g6 (e^d) | 
+e6dc | ("G7"B2.a2) (B2.a2) | "C"agec .G2(g^f) | g6 (e^d) | e6dc | "G7"B2(a2 a)gde |1 "C"c2e2 c2g^f :|2 "C"c2e2 c2z2 |] 
+% pk06362 (Heft 218/TN 29)
+% Dez 7, 2016

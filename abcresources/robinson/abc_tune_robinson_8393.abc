@@ -1,0 +1,42 @@
+X:79
+T:Sir Charles Forbes of New & Edinglassie
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+N:Very Slow with feeling
+O:Scotland
+R:Air
+Z:Clark Bernst
+%%Page:34 - 1
+K:Ab major
+C  | \
+("tr"F>G) (A>B) (A/G/)(F/E/) (c/B/)(A/G/) & C2B,2B,2x2 | \
+("tr"F>G) A>B {CE}cA, c(B/A/) & (C>=E)F_E/D/ (CE)x2 | \
+Ge {d}e(^d/c/) (B/A/)G/F/ (E>G) | \
+(B/A/)G/F/ [CA]/[B,G]/[A,F]/[G,=E]/  {E}[A,F]2 [A,F]C & C2 x6 |
+("tr"F>G) (A>B) (A/G/)(F/E/) ([Ec]/B/)(A/G/) & C2 B,2 B,2 x2 | \
+("tr"F>G) A>B {CE}cA, c(B/A/) & (C>=E) F_E/D/ (CE)x2 | \
+Ge {=d}e(d/c/) (B/A/)G/F/ (E>G) | \
+B/A/G/F/ [CA]/[B,G]/[A,F]/[G,=E]/ {E}[A,F]2 F & C2 x4x ||
+c |\
+(f>~g) (a>f) geeg | (f>~g) (a>f) (a/g/)f/=e/ (fg) | \
+(f>g) (a~b) geeg | (f>e) c[B=e] [Af]2 [Af]c | \
+(f>~g) (a>f) geeg | ([Af]a)([cg]b) ([Aa]f)g~[B=d] | \
+{EB}(e/d/)c/B/ [Be][FB] GEEG | F/G/A/B/ [=Ec]C {E}[FA,]2 [A,F] & C2 x4x |]
+V:2 clef=bass octave=-2
+z |\
+[Ff]2 [=D=d]2 [Ee]2 [Gg]2 | [Aa][Gg][Ff][Ee] [Ae]2 ag/f/ | \
+e2 ga [Gg]2 [Ee]2 | FG/A/ cC F/A/c/f/ Fz |\
+[Ff]2 [=D=d]2 [Ee]2 [Gg]2 | [Aa][Gg][Ff][Ee] [Ae]2 ag/f/ | \
+e2 [eg]a [Gg]2 [Ee]2 | G,A,/B,/ cC z/F/A/c/ [Ff] ||\
+z |\
+[L:1/16]\
+f[ac'][ac'][ac'] =d[fb][fb][fb] e[gb][gb][gb] e[gb][gb][gb] & f4=d4e4e4 | \
+a2g2 f2z2 z2[bc']2 [ac']2z2 & x8c4x4 | \
+f[ac'][ac'][ac'] =d[fb][fb][fb] e[gb][gb][gb] e[gb][gb][gb] & f4=d4e4e4 | \
+[Aa]4 [cc']4 fFAc f4 | \
+f[ac'][ac'][ac'] =d[fb][fb][fb] e[gb][gb][gb] e[gb][gb][gb] & f4=d4e4e4 | \
+a2f2 =e2c2 f2a2 g2ba & c4 c4 x8 | \
+[gb]2a2 [fg]2=d2 [Ee]4 [Gg]4 | \
+agf_d [Cc]4 zFAc [Ff]2 |]

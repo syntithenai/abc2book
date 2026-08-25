@@ -1,0 +1,28 @@
+X:13
+T:Mrs Charles Stewart, Pettyvaich
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:4/4
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:5 - 2
+K:F major
+%%staves {1 2}
+V:1
+A/B/ | \
+cFdF cFAF | EG-G.A B2 (Bd) | cFdF cFAF | ECDE F2 F :|
+e | \
+fcAf cfAf | cfAf g2 (~"\="ga) | fcAf cfcA | BG EG F2 (Fe) |
+fcAf cfAf | defa g2 gf | (a/g/f) (g/f/e) fc[Ba]3/g/ | fdcA F2 F |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[fac'] [fbd'] [fac'] [fac'] | [cgc'] [cgc'] [cgc'] [cgc'] | \
+[fac'] [fbd'] [fac'] [fac'] | [cgb] [cgb] [fac'] [fac']/ :| \
+z/ | \
+[Ff] [Ff] [Fcf] [Fcf] | [Fcf] [Fcf] [cgc'] [cgc'] | \
+[Fcf] [Fcf] [Fcf] [Fcf] | [cgc'] [cgc'] [Fcf] [Fcf]  | \
+[Fcf] [Fcf] [Fcf] [Fcf]  | [Bb] [Aa] [cc'] [cc'] | \
+[fac'] [gbc'] [fac'] [cc'] | [Ff] [Ff] [Ff] [Ff]/ |]

@@ -1,0 +1,31 @@
+X:211
+T:Miss Denison's Waltz. CJF.211
+R:Waltz
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:There is a note beneath the stave. "D.C. & Finish
+N:with Second part." - PJH.
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:3/8
+L:1/16
+Q:3/8=50
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:G major
+"p"(Bc)|.d2(dg) Bc|.d2(dg) (Bc)|(d2g2b2)|a4(de)|!
+.f2(fa) (de)|.f2(fa) (df)|g2(gb)(fa)|g4:|!
+|:" f"(fg)|.a2(af)(df)|.a2(af)(df)|.g2(gb)(ac')|b4(^de)|!
+"p".f2(f^d)(Bd)|.f2(f^d)(Bd)|.e2(eg)(f^d)|e4(Bc)|!
+" cres:".d2(dg)(Bc)|.d2(dg) (Bc)|(d2g2b2)|a4(de)|\
+.f2(fa) (de)|.f2(fa) (df)|.g2(gb)(fa)|g4h||!
+" Dol."(g2|\
+d4)(g2|B4)e2|.A2(e2d2)|(c2{dc}B2)(g2|d4)(g2|\
+B4)e2|.A2(e2d2)|G4:||!
+" f"g2|f>ga>fd>f|\
+(g/f/g/a/ g/f/e/d/ c/B/A/G/)|f>ga>fd>f|g2G2 g2|!\
+f>ga>fd>f|(g/f/g/a/ g/f/e/d/ c/B/A/G/)|f>ga>fd>f|!
+" Dol."g4(g2|d4){f}(g2|B4){^d}e2|\
+.A2(e2d2)|(c2{dc}B2) (g2|d4){f}(g2|B4){^d}e2|.A2(e2d2)|G4|]
+W:"D.C. & Finish with Second part."

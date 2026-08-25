@@ -1,0 +1,13 @@
+X: 4
+T: Allewander CF (AL08822)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.392 (AL08822) orig. C,F-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%MIDI program 21
+R:Alewander
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+G4 |: "C"c4 dcBc | e2G2 c2e2 | "G7"d2^c2 d2c2 | a2g2 a2g2 | "C"c4 dcBc | e2G2 c2e2 | "G"d2g2 "D7"^f2a2 | "G"g4G4 :| 
+|: "C"e2G2 "G7"d2B2 | "C"c2G2 A2G2 | "G7"F2D2 G2B2 | "C"cBcd edef | e2G2 "G7"d2B2 | "C"c2G2 A2G2 | "G7"F2D2 G2B2 |1 "C"c4G4 :|2 "C"c4c4 || [K:F]
+|: "F"+>+a4 gfed | +>+c4 dcAF | "C7"E2G2 c2G2 | "F"d2c2 d2c2 | +>+a4 gfed | +>+c4 dcAF | "C7"E2G2 c2e2 |1 "F"f4c4 :|2 "F"f4z4 |]

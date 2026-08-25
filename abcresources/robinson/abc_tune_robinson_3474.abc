@@ -1,0 +1,20 @@
+X:32
+T: Flotte Galopp CGF (GL05160)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.385 (GL05160) orig. C,G,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:2/4
+L:1/8
+R:Gallop
+O:Switzerland
+K:C major
+"C"e>e e>e | efg2 | c>c c>c | cde2 | "G7"f>f f>f | fga2 | def2 | "C"age2 :| [K:G]
+"D7"d/d/d d/d/d | "G"bbg2 | "D7"f/f/f ed | "G"b/b/b ag | "D7"d/d/d d/d/d | "G"bbg2 | "D7"f/f/f ed | "G"g2"G7"=f2 || [K:C]  
+"C"eG eG | "G7"Ba a/g/f | Ba a/g/f | "C"eg g/f/e | eG eG | "G7"Ba a/g/f | db a/g/B | "C"cc cz || [K:F] 
+|: "F"A2c2 | f3e | "Gm"e2d2 | g3f | "C7"f2e2 | c'2b2 | "F"af Ad | c4 | A2c2 | f3e | "Gm"e2d2 | g3f | 
+"C7"f2e2 | c'3b | "F"ac "C7"g>e | "F"ff fz :| "F"c'2a2 | "Bb"f2d2 | "F"c2A2 | zc ea | "C"g2 e>g | c'2e>g | "G7"ag fd | "C"c2 f>f || 
+|: "C7"e2b2 | b2e>e | "F"f2a2 | a2f>f |1 "C7"e2c'2 | c'2b2 | "F"ba ga | f2f>f :|2 "Bb"d2 a>a | "F"c2 b>b | "C7"c'b  de | "F"f2z2 || [K:C] 
+|: "C"gg a>g | ee f>e | "G7"dd ed | "C"ceG2 | gg a>g | ee f>e | "G7"dd e>d |  "C"c2z2 :| 
+W:
+W: Anmerkung H.C.: Lebenslust Galopp
+%June 11, 2016

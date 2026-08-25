@@ -1,0 +1,19 @@
+X:205
+T:Immer schneidig (Schottisch) GC (st06398) ABAC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.139 (st06398) orig. G,C
+T: Basel - Repertoire der 'Holzmusig Allschwil'. S.118-139
+T:Überliefert durch Wihelm Lötscher-Schätzle (*1878, Uhrmacher)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+GG [P:A] |: "G"G2D2 G2B2 | "D7"d2FF F2F2 | d2FF F2F2 | "G"d2GG G2GG | G2D2 G2B2 | "D"B2AA A2A2 | "A7"a2g2 f2e2 |1 "D7"d2d2 d2GG :|2 
+"D7"d2d2 d2z2 [P:B] |: "G"BcdcB4 | gabag4 | "D7".F2.A2 .c2.e2 | !>!"G"d4 !>!B4 | BcdcB4 | gaba !>!g4 | "D7".d2.f2 .d2.F2 |1 "G"g2g2 g2z2 :|2  
+"G"g2g2 g2G"_>Teil A"G [P:C] [K:C] |: "C"gg.g2 gg.g2 | "G7"f2G2 B2d2 | aa.a2 aa.a2 | "C"g2c2 e2g2 | ccc2 ccc2 | "G7"B2B2B4 | "F"A2A2A4 | "C"ggg2.g4 | 
+gg.g2 gg.g2 | "G7"f2G2 B2d2 | aa.a2 aa.a2 | "C"g2c2 e2g2 | cc.c2 cc.c2 | "F"b2a2.a4 | "G7"g2Bd gfed |1 "C"c2c2 c2z2 :|2 "C"c2c2 "_Fine"c2GG |] 
+% st06398
+% Dez 9, 2016

@@ -1,0 +1,17 @@
+X:160
+T: Polka  CF (pk00833)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.189 (pk00833) orig. C,F-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:C major
+"C"cde2 "F"fga2 | "C"g2e2c'4 | "G7"bag2 fed2 | "C"cde2G4 | cde2 "F"fga2 | "C"g2e2c'4 | 
+"G"bag2 "D7"^fga2 | "G"g2b2g2z2 :: "C"egg2 gfe2 | "F"faa2 agf2 | "G7"dbb2 bag2 | "C"aggc'e4 | 
+egg2 gfe2 | "F"faa2 agf2 | "G7"dbb2 bafd | "C"c2e2c2z2 :: [K:F] "F"agf2 "Bb"fed2 | "F"c2A2 c4 | 
+"C7"bag2 g^fg2 | "F"agf2c4 | a2gf "Bb"f2ed | "F"c2A2 c4 | "C7"bag2 gfe2 | "F"f2a2f2z2 :| 
+"Dm"fed2 fed2 | "A7"a2e2 {/f}ede2 | "Dm"fed^c dfed | "A7"^c2e2A4 | "Dm"fed2 fed2 | "A7"a2e2 {/f}e^de2 | 
+"Dm"fed^c dfed | "A"a6ba | "Gm/Bb"agg2 gbag | "F/C"gff2 fagf |  "C7"fee2 c2G2 |  
+"F"gff2 c2a2 | "Gm/Bb"agg2 gbag | "F/C"gff2 fagf | "C7"fee2 c'2g2 | "F"[f6f'6] z2 |]

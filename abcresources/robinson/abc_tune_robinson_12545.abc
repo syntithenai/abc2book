@@ -1,0 +1,29 @@
+X:434
+T:Queen's March,The. 2voices RH.435
+R:March
+S:Rev.R.Harrison's MS,c1815,Cumbria
+N:I added the (presumably required) repeat
+N:at the end of the second section. 1 also
+N:added the 1st & 2nd time bars. PJH.
+O:England
+A:North-West - Temple Sowerby
+Z:vmp.Simon Wilson. Review PJH, 2008.
+V:1 name="primo"
+V:2 name="secundo"
+M:C
+L:1/8
+Q:2/4=75
+B:Village Music project, Harrison, Rev. R.
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/HARRISON.ABC
+K:D major
+[V:1]|:d'4 a4|f2d>d f2a2|d3d e3e|f2ed c2BA|d'2d'>d' a2a>a|f2d>d f2a2|d2f>d a2g>f|e2e>e e2z2:|
+[V:2]|:d4 A4|F2D>D F2A2|F2A4 c2|d2cB A2GA|d2d>d A2A>A|F2D>D F2A2|F2d>A f2e>d|c2c>c c2z2:|
+%
+[V:1]|:g3e dcBA|f2d2 f2d2|g3e c2BA|a2f2 a2f2|d4 e4|dcBA a3g|f2f>g e2e>f|d2d>d d2z2:|
+[V:2]|:EAGA EAGA|d2F2 A2F2|e3c A2^GA|f2d2 f2d2|F2A2 G2A2|F2A2 F2A2|A2A>B G2G>A|F2F>FF2z2:|
+%
+[V:1]|:d4 f2a2|a6 a/g/f/e/|d2d2 e2e2|f>ef>g e4|d4 f2a2|a6 a/g/f/e/|dcBA B2c2|1 d2d>d d2z2:|2 d2d>d d2z||
+[V:2]|:d4 d2f2|f6 f/e/d/c/|d2F2 A2c2|dcde c4|F4 d2f2|f6 f/e/d/c/|G6 G2|1 F2F>F F2z2:|2 F2F>F F2z||
+%
+[V:1] A|e3c A2A2|a3f e2zA|e2e>e dcBA|a3f d2zA|d4 f2a2|a4 agfe|dcBA B2c2|d2d>d d2z2|]
+[V:2] F|GAGA GAGE|FAdA EAcA|E2E2 A4|FAdA F2z2|F4 d2f2|f4 cBAG|G6 G2|F2F>F F2z2|]

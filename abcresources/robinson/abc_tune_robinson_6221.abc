@@ -1,0 +1,23 @@
+X:1
+T:Schottisch  BbFEbAb  (st08063)  ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.123  (st08063) orig. Bb,F,Eb,Ab
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+"Bb"B2 (B/A/)B/c/ | d2zA/B/ | "F7"ce dc | "Bb".B2.B2 [P:A] |: "Bb"Fd d>D | "F7"Ec c>B | AA AG/A/ | "Bb"GFF2 | Fd d>d | 
+"Eb"eG G>B | ("F7"A/B/)A/G/ F(G/A/) | "Bb"BB Bz :: [K:F] [P:B] "F"ccc2 | (c/B/)A/B/c2 | "C7"B>B AA | "F"GF A/G/F | ccc2 | 
+("Bb"c/B/)A/B/c2 | ("C7"c/B/)A/B/ Gc | "F"F2"_>Teil A".F2 :: [P:C] [K:Eb] "Eb"G2B2 | e3d | cB AG | ("Bb7"B2A2) | F2A2 | f3e | 
+dc BA | "Eb"G>cB2 | G2B2 | e3d | ed cB | ("Ab"d2c2) | c2e2 | "Eb"B3G | "Bb7"GF A>D | "Eb"E2z2 :| [K:Ab] 
+|: "Ab"c2e/c/e/c/ | A2zc/c/ | cc cc | "Eb7"B2z2 | B2d/B/d/B/ | G2zE/E/ | Ee =d_d | !>!"Ab"c2!>!A2 | 
+c2e/c/e/c/ | A2z A/A/ | (Ac) cc | "Fm"cFF2 | F2 (F/G/A/B/) | c3(A/B/) | "Eb7"ce/c/ B>c | "Ab"AA Az :| 
+%W:Parts: ABACD
+%W:Anmerkung H.C.: 
+% st08063
+% May 11, 2018

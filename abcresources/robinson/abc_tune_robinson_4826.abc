@@ -1,0 +1,19 @@
+X:231
+T: Schön Röschen (nach G. Linder) Mazurka  FCBb (mz06029)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.312 (mz06029) orig. F,C,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Mazurka
+O:Switzerland
+M:3/4
+L:1/8
+K:F major
+P"F"a2g2f2 | Pe2d2c2 | ("C7"Bc) .e.g b2 | "F"Ac .f.ac'2 | Pa2g2f2 |  P"C7"e2d2c2 | (Bc) eg c'e |1 "F"f2f2z2 :|2 "F"f2f2ef || [K:C]  
+"C"ga ge ce | g2z2c'>b | "F"c'2 f>a c'>a | "C"a2g2 ef | (ga) ge ce | g2z2a>g | "G7"g2 f>B e>d | "C"c2z2c>c || [K:F] "F"c>d  e2f2 | 
+"C7"g2z2e>e | e>fg2a2 | b2z2ab | a2gc ga | "F"g2fc fg | "C7"f2eG Be | "F"d2c2 ab | "C7"a2 gc ga | "F"g2 fc fg | 
+"C7"f2ec ag | "F"f2f2 d>f || [K:Bb] "Bb"b2ag fe | d4d>f | b2c'b a>b | "F7"a4 a>b | c'2c'>b a>g | f4 c'>b | a4 d'>c' | 
+"Bb"b4 d>f | b2 ag fe | d4 d>f | b2 c'>b a>b | "Eb"g4g>a | b2g>e g>b | "Bb"f2 d>d f>b | "F7"a>g d>f e>c | "Bb"B2B2z2 |] 
+W:
+W: Röschen / Rös'chen / Rös-chen = diminutive of die Rose (the rose)
+% mz06029

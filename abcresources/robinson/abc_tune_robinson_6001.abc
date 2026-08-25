@@ -1,0 +1,21 @@
+X:1
+T: Erinnerung an Magden. Marsch  BbEb (mr07583) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.91  (mr07583) orig. Bb,F,Eb
+S: Basel II. Tänze aus Olsberg. S.85-94.
+S:Überliefert durch Hans Bürgi (Olsberg, 29. März 1942)
+%%MIDI program 21
+R:Marsch
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+"Bb"b>a gf | "Eb"g>f ed | cd e=e | "F7".f2AG/A/ | "Bb".B2z2 | z2f2 |: "Bb"(f3b) | f3d | ("F7"f2e2) | (c2A2) | 
+"Bb"B3A | B2d2 | (F4 | F2) B2 | "Eb"g4 | b2(ag) | "Bb"f3^f | ("F7"ag ec) | "Bb"B2 (c/B/A/B/) | "F7"d3c |
+("Bb"B4 |1 B2f2) :|2 .B2F>F |: "F7"e>d (c2 | c2)d>e | "Bb"g>f (d2 | d2)f>b | "F7"a>g (e2 | e2) e>a | "Bb"g>f (d2 | 
+d2)B>B | "Eb"B>e (g2 | g2)e>g | "Bb"f>d(f2 | f2)B>c | d>F (d2 | "F7"d2) c>f | ("Bb"B4 |1 B2)F>F :|2 B2z2 || [K:Eb] 
+{Bcd}"Eb"e2 B>=B | "Fm"cG AF | "Bb7".B2 !>!de/d/ | "Eb".e>(B c>e) |: ("Eb"g4 | g>)(G B>c) | (B4 | B>)(B e>g)  | ("Bb7"f4 | 
+f>)(A c>B) | ("Eb"G4 | G>)(G c>e) | ("Cm"e4 | e>)(G c>e) | ("G"d4 | d>)(d g>^f) | ("D7"=e4 | e)(=A =e>d) | 
+("G"G4 |1 "Bb7"G>)(B e>f) :|2 "G"G2)"Bb7"B2 |: "Eb"B2 cd | e2de | "Fm"d2c2 | d2AB |"Bb7" d2c2 | d2Ac | "Eb"B2=A2 | 
+B2GA | B2cd | e2de | "Fm"d2c2 | f2cd | "Eb/Bb"e2G2 | B2=AB | "Bb7"c2d2 |1 "Eb".e2GA :|2 "Eb"ee/e/ .e2 :|     
+% mr07583
+% March 10, 2018 ("Let her leave to show that everything's okay")

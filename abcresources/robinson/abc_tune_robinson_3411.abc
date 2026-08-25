@@ -1,0 +1,16 @@
+X:15
+T: Der kleine Postillon (Schottisch) BbF (st00310)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.277 (st00310) orig. Bb,F-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/8
+K:Bb major
+F/B/ [P:A] |: "Bb"dd "F7"cc | "Bb"BB F2 | "F7"cc c/B/A/G/ | "Bb"Fd BF/B/ | dd "F7"cc | 
+"Bb"BBF2 | "F7"cc c/B/A/c/ |1 "Bb"BB BF/B/ :|2 "Bb"BB Bz |: [P:B] [K:F] "C7"cc c/d/c/B/ | "F"AFA2 | 
+"C7"BB/A/ GA/B/ | "F"dcA2 | cd e>f | "Bb"f>e dc | "C7"cB AG | "F"FF F"_>Teil A"z :| [K:Bb]
+[P:C] f>e | "Bb"d2F2 | B2A>G | "F7"A2e2 | G3B | A2e2 | G2F>E | "Bb"D2G2 | 
+ F2z2 | f3d | "Bb7"f3d | "Cm/Eb"e2g2 | "C7"c3B | "F7"A2e2 | d2c2 | "Bb"B2d>f | 
+B3d | f3d | "Bb7"f3d | "Cm/Eb"e2g2 | "C7"c3B | "F7"A2e2 | f2[ea]2 | "Bb"[db][d/b/][d/b/] [db][db] | [d2b2] z2 |]

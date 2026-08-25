@@ -1,0 +1,28 @@
+X:3
+T:Chräje-Tossä-Juiz. 2001  Bb  ABACD
+T:Sepp Lussi. Dirigenten-Notiz: Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABACD
+R:Naturjodel
+M:4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen, älplerisch" F|f>=ecd | B>DFB | c>=BcF | 
+dBcF | f>dcd | B>DFd | cF/e/dc | B3 || 
+[P:B] [M:3/4] "schneller Walzer" c2A | Fec | d2B | F2B | c2A | F2f/e/ | d2c | B3 | 
+c2A | Fec | d2B | FdB | c2F | f>dc | (B3 | B2)z || 
+[P:C] [M:6/8] [L:1/8]  "sanft wiegend" D2F B2c |  d2c B3 | F2f e2d | (c3 c3) | E2FA2B | 
+c2B A3 | F2f d2c | (B3 B3) | D2F B2c |  d2c B3 | 
+F2f e2d | (c3 c3) | e2e d2c | B2D F2d | f2e d2A | (B3 B3) || 
+[P:D] [M:6/8] "etwas schneller" F2d B2f | d3 B3 | F>D F d2B | A2c E3 | F2A c2f | 
+d3 c3 | F2c f2e | (d3 d3) | F>D F d2f | d3B3 | F2dc2d  | 
+(e3 e3) | e2e d2c | B2D F2d | f2e d2A | (B3 B3) |]
+W:
+%W:Reihenfolge: A - B - A - C - D
+W:notiert Edi Gasser. Angaben: Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 56-02
+W:http://www.naturjodler.ch/code 56.htm  (with AUDIO)
+%September 25, 2018

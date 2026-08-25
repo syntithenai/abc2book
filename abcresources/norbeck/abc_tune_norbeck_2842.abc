@@ -1,0 +1,14 @@
+X:1
+T:Fil et Bobine
+R:bourree
+C:Jean Blanchard
+O:France
+Z:id:hn-bourree-1
+M:3/8
+L:1/16
+Q:1/8=190
+K:D
+FG | A2 d2 c2 | A3 GAB | =c2 B2 G2 | ABAGFG |
+A2 d2 c2 | A3 GAB | =c2 B2 G2 | A4 :|
+|: FG | A2 F2 D2 | E3 DEF | G2 F2 D2 | EF G2 FG |
+A2 F2 D2 | E3 DEF |1 G2 F2 D2 | E4 :|2 G2 F2 E2 | D4 ||

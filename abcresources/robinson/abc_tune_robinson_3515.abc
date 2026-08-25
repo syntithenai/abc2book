@@ -1,0 +1,15 @@
+X:69
+T: Jupiter-Galopp FBb (GL05131)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.376 (GL05131) orig. F,Bb-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:2/4
+L:1/16
+R:Gallop
+O:Switzerland
+K:F major
+cB |: "F"A2B2 =B2c2 | a4z2ab | "C7"a2g2 z2ga | "F"g2f2 z2cB | A2B2 =B2c2 | a4z2ab | "C7"a3g d3e |1 "F"f2f2 f2cB :|2 
+"F"f2f2 f2z2 |: "C7"c2ba g2cc | "F"c2ag f2cc | "C7"d2cc e2g2 | "F"d2cc f2a2 | "C7"c2ba g2cc | "F"c2ag f2cc | "C7"e3d c3e |1
+"F"f2f2 f2z2 :|2 "F"f2f2 f2ff || [K:Bb] "Bb"f4 d2b2 | "F7"a4z2g^f | "Eb"g4z2 fe | "Bb"(!>!f4 d2)ff | f4 d2b2 | "F7"b2!>!a4g2 | g2!>!f4e2 | 
+"Bb"e2d2 d2B2 | f4 d2b2 | "F7"a4z2g^f | "Bb"g4z2fe | (!>!f4 d2)ff  | f2dd d2b2 | "Cm/Eb"b2cc c2g2 | "F7"a3g fedc | "Bb"B2b2 b2z2 |] 
+%June 10, 2016

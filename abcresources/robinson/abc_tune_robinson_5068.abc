@@ -1,0 +1,20 @@
+X:150
+T:Polka CGF (pk02234)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.390 (pk02234) orig. C,G,F
+S:Bündner Tänze. S.384-402. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:C major
+[P:A] "C"g2ef g3c' | "G7"b2de fed2 | a2de f3a | "C"g2cd edce | g2ef g3c' | "G7"b2de fed2 | 
+b3a gfed | "C"c2c'2 c'2z2 :| [P:B] [K:G] "G"g2gf g2b2 | "E7"e2e^d e2^g2 | "Am"a2a^g "D7"a2^a2 | "G"b4agfe | 
+d2gf g2b2 | "E7"e2e^d e2^g2 | "Am"a2b2 "D7"c'2f2 | "G".g4!>!"_>Teil A"g4 |: [P:C] [K:F] "F"c2c=B "Dm"c2a2 | "G"g2d2 g3f | 
+"C7"e3d' c'2e2 | "F"g2f2 {/g}fef2 | c2c=B "D7"c2a2 | "Gm"g2d2 g3f | "C7"e2d'c' b2ag | "F"f2f2 f2"_Fine"z2 :| 
+W:
+W:Anmerkung H.C.: Bühler
+% pk02234
+% Dez 3, 2016

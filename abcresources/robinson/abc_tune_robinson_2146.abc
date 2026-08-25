@@ -1,0 +1,42 @@
+X:3151
+T:Gravel Walks to Gran(n)ie (reel)
+B:"Northern Fiddler" 161 (F&MB)
+Z:Andrew Robinson (ABCs: B.Black) Edited. Peter Dunk
+I:The first setting of this tune is per the source, i.e. in A mix.
+I:I've added a second setting in Am (actually A dorian since all F's
+I:are sharp) which is closer to the current popular setting. (BB)
+I:and RR has changed this to A dorian itself
+L:1/8
+M:C
+R:Reel
+Q:360
+K:A dorian
+P:A
+AAeA BAeA|Aaed BAGB|AAeA BAfa|gedc BAGB|
+AAeA BAeA|Aaed BAGB|AAeA BAfa|gedc BAGB||
+P:B
+(3AAA aA gAfA|(3AAA eA BAGB|(3AAA aA gAfa|\
+gedc BAGB|
+(3AAA aA gAfA|(3AAA eA BAGB|ABcd egfa|gedc BAGB:|
+P:C
+cA (3AAA AGAB|cA (3AAA BGBd|cA (3AAA A2fa|fage dBGB|
+cA (3AAA AGAB|cA (3AAA BGBd|cA (3AAA A2eg|fage dBGB||
+P:D
+(3=ccc =gc acgc|(3=ccc =gc BA=GB|(3=ccc =gc acef|=ged=c BA=GB|
+(3=ccc =gc acgc|(3=ccc =gc BA=GB|AB=cd e=gfa|=ged=c BA=GB:|
+%
+P:setting in Am
+K:Am
+P:A
+AAeA BAeA|Aaed BAGB|AAeA BA^fa|gedc BAGB|
+AAeA BAeA|Aaed BAGB|AAeA BA^fa|gedc BAGB||
+P:B
+(3AAA aA gA^fA|(3AAA eA BAGB|(3AAA aA gA^fa|\
+gedc BAGB|
+(3AAA aA gA^fA|(3AAA eA BAGB|ABcd eg^fa|gedc BAGB:|
+P:C
+cA (3AAA A^GAB|cA (3AAA BGBd|cA (3AAA A2^fa|^fage dBGB|
+cA (3AAA A^GAB|cA (3AAA BGBd|cA (3AAA A2eg|^fage dBGB||
+P:D
+(3ccc gc acgc|(3ccc gc BAGB|(3ccc gc ace^f|gedc BAGB|
+(3ccc gc acgc|(3ccc gc BAGB|ABcd eg^fa|gedc BAGB:|

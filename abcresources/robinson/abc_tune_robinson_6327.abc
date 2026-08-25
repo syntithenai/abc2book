@@ -1,0 +1,23 @@
+X:1
+T:Gruss aus der Ferne (Walzer)  FCBb (wz06951)  ABAC
+T: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.117  (wz06951) orig. F,C,Bb
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+[P:A] ("F"AGF) | (c3 | c)dA | c3 | (cBA) | "Bb"d>dd | .d!>!e>d | B2f | "C7"e3 | d3 | 
+("F"c3 | c)FA | "C7"e3 | (BEG) | "F"c3 | (Acf) | "C7"e3 | d3 | ("F"c3 | c)FA | "Bb"B3 | 
+"C7"c3 | ("F"f3 | f)zz :| [P:B]  [K:C] "C"e (^d/e/ f/e/) | "G7"g>dd | f3 | "C"ecc | e (^d/e/ =d/c/) | "G7"f>ee | (dcB) | 
+"C"c>cc | e (^d/e/ f/e/) | "G7"g>dd | f3 | "C"e>cc | Gce | "F"f3 | "G7"g/a/ g/f/ e/d/ | "C"cz"_>Teil A"z || [K:Bb] 
+[P:C]  |: ("Bb"c2B) | (F2B) | "Cm"A2G | (G2e) | "F7"d2c | A2F | "Bb"G2F | d2f | 
+e2d | B2d | "Eb"c2B | B2g | "F7"f2d | e2c | "Bb"Bzz |1 F2B :|2 Bzz |] 
+%W:Parts: ABAC 
+%W:Anmerkung H.C.
+%% wz06951
+% April 19, 2018 ("Dann denkt der Körper er sei zu schwer ...")

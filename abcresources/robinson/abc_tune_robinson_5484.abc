@@ -1,0 +1,22 @@
+X:232
+T:Schottisch CGF (st06867) ABCDED
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.227 (st06867) orig. C,G,F
+T: Aus dem Repertoire der Dorfmusik Benken. S.222-236
+T:Überliefert durch Johannes Grass (*1871)
+%%MIDI program 21
+%%partsbox
+P:ABCDED
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+c/c/ | "C"ce/e/ eg/g/ | g3g/g/ | "G7"g3g/g/ | "C"g/e/c/e/ ge/e/ [| [P:A] "C"e3e/e/ | e3e/e/ | e>d f>e | "G7"d3c/c/ | 
+B>A G>F | f>e d>c | g>f e>d | "C"c2ze/e/ | ec GE | C2ze/e/ | e>d f>e | "G"d3d/d/ | "D7"d>c B>A | "G"e>d c>B  | 
+"D7"BA cA | "G"G2zG/G/ | "G7"dG A>B | "C"dc G>e | "G7"gf e>d | "C"e3g/g/ | "F"fA A>e | "C"eG G>e |  "G7"ed ef | "C"g3g/g/ | 
+"F"fA A>f | "C"eG G>e | "G7"ed f>e | "C"cc cd/d/ || [P:B] [K:G] "G"d>c d>e | dBg2 | ("D7"g/f/).e/.A/ c/d/c | ("G"e/d/).d/.G/ B/c/B | d>^c d>e | 
+dBg2 | ("D7"g/f/).f/.A/ (c/d/).c/.A/ | "G"G2zG/G/ || [P:C] [K:C] "C"Ge "A7"e/f/e | "Dm"ed AA/A/ | Ad "G7"d/e/d | "C"dc GG/G/ | Ge "A7"e/f/e | "Dm"ed AA/A/ | 
+Ad "G7"d/c/B | "C"cc cz || [P:D] [K:F]  "F"A/B/c cc | "Bb"d/e/f"F"c2 | "C7"e/f/g gg | "F"a/g/ff2 | A/B/c cc | "Bb"d/e/f"F"c2 | "C7"e/f/g g/f/e | 
+"F"ff f"_Fine"z |] [P:E] [K:C] "G7"G/A/B B/c/d | "C"c/d/e e/f/g | "G7"f/e/dd2 | "C"e/d/cc2 |  G/A/B B/c/d | c/d/e e/f/g | "G7"f/e/d d/c/B | "C"c2 "G7"c/_B/"_>Teil D"A/B/ || 
+% st06867
+% March 13, 2017

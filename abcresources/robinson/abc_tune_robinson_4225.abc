@@ -1,0 +1,17 @@
+X:2
+T: Hops-Walzer CF  (hp08929)
+B:Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: Tänze aus Kerns. S.6-61. S.20 (hp08929) orig. C,F-Dur
+S: Überliefert durch Josef Püntener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+%%abc-charset utf-8
+O:Switzerland
+R:Hopsa
+M:2/4
+L:1/8
+K:C major
+G |: "C"gG "G7"fG | "C"ec GE | "G7"FD G,B | "C"cG Ce | gG "G7"fG | "C"ec GE | FD G,B |1"C"c2zG :|2 "C"c2 z/G/A/B/ ||
+|: "C"cB cd | ed ef | {a}"G7"g^f {/a}gf | gf ed | "C"cB cd | ed eg | "G7"gf dB |1 "C"c2 z/G/A/B/  :|2 "C"c2zc/_B/ || [K:F] 
+|: "F"Ac {/e}dc | ef cf | "C7"^fg cg | "F"ag/f/ e/d/c/B/ | Ac {/e}dc | ef cf | "C7"^fg be |1 "F"f2zc/B/ :|2 "F"f2z2 |] 
+% hp08929
+% July 28, 2016

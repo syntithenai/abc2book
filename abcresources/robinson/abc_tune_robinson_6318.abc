@@ -1,0 +1,24 @@
+X:1
+T: Elfen-Walzer CG (wz07251) ABCDED
+T: Basel II. Tänze aus Liestal. S.95-112.
+S:Hanny Christen. Bd.V  Basel II, Jura. S.103  (wz07251) orig. C,G
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABCDED
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:C major
+[P:A] "C"Gce | "G7"f2B | "C"cea | g3 | Gce | "G7"f2B | "C"dce | G3 | Gce | "G7"f2B | 
+"C"cea | g3 | "A7"gfe | "Dm"d>ef | "G7"GAB | "C"czz ::  [P:B] "C"G/G/ GA | G/G/ Gc | "F"cBA | "C"G3 | 
+G/G/GA | G/G/Gc | "F"cBA | "G7"G3 | "C"Gce | "G7"f2B | "C"cea | g3 | Gce | "Dm"FAd | 
+"G7"DGB | "C"czz :: [P:C]  "C"cc/c/c | cBA | GFE | "G7"E2D | BB/B/B | BAG | FED | "C"D2C | 
+"C"cc/c/c | "F"cAA | "D7"dd/d/d | "G"dBB | "C"gg/g/g | gfe | "G7"dcB | "C"czz :|   [P:D] "C"e2d | c2G | 
+"Dm"B2A | f2e | "G7"e2d | A2B | "C"d2c | G2c | e2d | c2G | "Dm"B2A  | f2e | "G7"e2d | A2B | 
+"C"cGe | czz |] [P:E] [K:G] "G"Bd/d/d | Bd/d/d | "D7"fdf | "G"gd/d/d | Bd/d/d | Bd/d/d | "D7"fdf | "G"g"_>Teil D"zG || 
+W:
+W:Anmerkung H.C.: Olsberg, Läufelfingen/Ziefen, s.V. 1034
+% wz07251 
+% March 21, 2018

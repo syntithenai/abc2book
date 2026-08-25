@@ -1,0 +1,17 @@
+X:181
+T:Schottisch DG (st02174)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.369 (st02174) orig. D,G
+S:Bündner Tanzmusik. S.367-383. Zusammenstellung von Hanny Christen. 
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABA
+R:Schottische
+M:2/4
+L:1/16
+K:D major
+[P:A] "D"A2AA A2A2 | B2A2A4 | f2gf e2f2 | "A7"g4c4 |  A2AA A2A2 | B2A2A4 | g4c4 | "D"d6"_Fine"z2 :| [P:B] [K:G] 
+"D7"d3c d3c | d6c2 | "G"B3g B3g | d6B2 | "D7"c3f c3f | d6c2 | "G"B3g B3g | d6z2 | 
+"D7"d3c d3c | d6c2 | "G"B3g B3g | d6 ^cd | "C"e3e e2e2 | "D7"f3f e2f2 | "G"g3g g2g2 | g4"_>Teil A"z4 |] 
+% st02174  (H 077/TN 7)
+% Nov 27, 2016

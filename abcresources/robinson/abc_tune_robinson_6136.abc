@@ -1,0 +1,23 @@
+X:1
+T:Heroldstrompeter. Polka  BbFEb  (pk07797) ABACD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.140  (pk07797) orig. Bb,F,Eb
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E. Dalcher
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Polka
+M:2/4
+L:1/8
+O:Switzerland
+K:Bb major
+[P:A] F/F/ |: "F7"FF/F/ FF/F/ | "Bb"Fd d>F | "F7"Fc c>F | "Bb"FBB2 | "F7"FF/F/ FF/F/ | "Bb"Fd d>B | "F7"Af (f/e/)d/c/ |1 
+"Bb"BB BF/F/ :|2 "Bb"BB B"_>Teil A"C/F/ [P:B] |: [K:F] "F"AA AF/A/ | (c2A)z | "C7"GG/G/ Gc | "F"AG FC/F/ | AA/A/ AF/A/ | (c2A)z | 
+"C7"cc/c/ cc/c/ |1 "F"fF FC/F/ :|2 "F7"fF FF/F/ || [P:C] [K:Eb] E/E/ |: "Eb"EE/E/ EB,/E/ | (G2E)G/G/ | GG/G/ GE/G/ | 
+(B2G)B/B/ | BB/B/ BG/B/ | eB GE | "Bb7"FB/B/ BB |1 BA GF :|2 B2zB/B/ [P:D] |: "Eb"B3B/B/ | B3G/B/ | 
+ee/e/ eg | "Bb7"fd BB/B/ | ("Eb"B2G)B/B/ | (e2B)e/g/ | "Bb7"bB/B/ BB |1 "Eb"e2zB/B/ :|2 "Eb"ee/e/ ez |] 
+W:
+W:Parts: ABACD
+%W:Anmerkung H.C.:
+% pk07797
+% June 2, 2018

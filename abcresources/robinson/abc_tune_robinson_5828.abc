@@ -1,0 +1,38 @@
+X:1
+T:Bärgler-Juiz. 1994  A-Dur
+T:Emil Wallimann  (* 24.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:2/4
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] c/B/ | C/>B,/ C/D/ | C A,/C/ | E/C/ c/B/ | A A/c/ | e2 | dc | B>E | e(c | c)B | A2 || 
+w: c/B/ | (A2  | A) A,C | E/C/ ...
+M:3/4
+Q:1/4=52
+[P:B]  A,>G, A,/C/ | EC E/c/ | B2A | G3 | G,>=G, ^G,/B,/ | ED E/B/ | A2c | E3 | 
+A,>G, A,/C/ | EC E/c/ | B2A | G2E | B>A G/E/ | dGB | (A3 | A2)z || 
+M:2/4
+Q:1/4=65
+L:1/8
+[P:C] C>D Ec/B/ | ACE2 | C>D Ec | B4 | GB, E>G | Ee c>B | A4 | C>D Ec/B/ | 
+AC EC | D>E F/D/ d/c/ | B4 "_    Echo" z/ { Fdc B4} |  B,>C D/E/ G/B/ | e>d cB | A4 || 
+M:4/4
+Q:1/4=69
+L:1/8
+[P:D] A,C | EC cB A2CE | DB, BAG2B,E | DB, BA GE dG | A2c2E2 A,C | 
+EC cB A2CE | DB, BAG2B,E | DB, dB GF EB | A6 A,C | 
+EC cB A2CE | DB, BAG2B,E | DB, BA GE dG | A2c2E2 A,C | 
+EC cB A2CE | DB, BAG2B,E | DB, dB GF EB | C>B, CD C4 |] 
+w:      |     |  DB, dB GF EB | a8 ||
+%W:Reihenfolge:
+W:
+W:notiert Edi Gasser. Angaben Emil Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 23-01
+W:http://www.naturjodler.ch/code 23-1.htm  (with *** AUDIO ***)
+%May 24, 2018

@@ -1,0 +1,23 @@
+X: 74
+T:Marquis of Huntly's Reel. a Strathspey
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:6 - 3
+K:G dorian
+%%staves {1 2 }
+(D<G) (!trill!G>F) (D<G) !trill!G2 | F>G A<B !trill!c<AF<A | \
+(D<G) (!trill!G>F) (D<G) !trill!G2 | fc d/c/B/A/ {A}G2 G2 :|
+%
+(!trill!g>a   b)<g  dgbg    | a/g/f/d/ c>d      f<c    a<f | \
+(g>a          b)<g  dgbg    | b/a/g/f/ d>f      g/g/g !trill!g2 |
+(!trill!g>a   b)>g  a>f g>d | f<c      d<f      A<F    c<A | \
+(D<G) (!trill!G>F) (D<G) G2 | fc       d/c/B/A/ {A}G2 !trill!G2 |]
+V:2 clef=bass octave=-2
+L:1/4
+gGdg | fcFf | gGdG | ddgG :| \
+ggGG | ffFF | ggGG | ddgg | gGfg | cBAF | gGdG | dDGG |]

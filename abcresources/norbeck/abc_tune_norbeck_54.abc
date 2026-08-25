@@ -1,127 +1,39 @@
-This file contains 7 rid\'ees (#1 - #7).
-You can find more abc tune files at http://www.norbeck.nu/abc/
-
-These rid\'ees are Breton dance tunes from Brittany/Bretagne.
-
-Last updated 3 May 2017.
-
-(c) Copyright 2017 Henrik Norbeck. This file:
-- May be distributed with restrictions below.
-- May not be used for commercial purposes (such as printing a tune book to sell).
-- This file (or parts of it) may not be made available on a web page for
-  download without permission from me.
-- This copyright notice must be kept, except when e-mailing individual tunes.
-- May be printed on paper for personal use.
-- Questions? E-mail: henrik@norbeck.nu
-
-R:rid\'ee
-M:6/4
+X:34
+T:Hawk of Ballyshannon, The
+T:Seabhac na h\'Eirne
+T:Hawk of Lough Erne, The
+T:Port Athol
+R:air
+C:Ruaidhr\'i Dall \'O Cath\'ain (c. 1570 - 1650 or 1653)
+H:O'Carolan took this melody and made a song called "Miss Moore",
+H:"O'Moore's Fair Daughter" or "Katherine O'Moore". Often played in Dm.
+Z:id:hn-air-34
+M:4/4
 L:1/8
-Z:id:hn-%R-%X
-O:Bretagne
-
-X:1
-T:Rid\'ee
-R:rid\'ee
-H:Also played in Em
-O:Bretagne
-D:Pennou Skolm
-Z:id:hn-ridee-1
-M:6/4
-L:1/8
-Q:1/4=200
-K:Am
-AeeA e2de fedc | BABc dedc (3Bcd cB |
-AeeA e2de fedc | BABc ded2 (3Bcd cB ||
-(3ABA EA Bc (3ABA FA Bc | (3ABA DA Bc dc Bd cB |
-(3ABA EA Bc (3ABA FA Bc | A2 (3cBA Bc dc Bd cB ||
-
-X:2
-T:Rid\'ee
-R:rid\'ee
-O:Bretagne
-D:Kornog: IV
-D:L\'unasa
-Z:id:hn-ridee-2
-M:6/4
-L:1/8
-Q:1/4=200
-K:Am
-AGAB c2 Bc dcAE | AGAB c2 Bc dcA2 :|
-|: e2 Ae eA cABd (3cBA | e2 Ae eA cABc A2 :|
+K:Em
+G>F | E3F G2A2 | B2e2 e2d2 | e>fg2 d2BA | B2de d2BA |
+G2E2 E2DB, | D4 B,2G>F | E3F G2A2 | B2AG A2GB |
+A4 A2A2 | A6 G/A/B | dBde d2Bd | e2f2 g3f |
+edB2 dBA2 | G2ED B4 | G2ED E2D/E/F | E6 :|
+|: GA | B2A2 G2E2 | G2E2 D2B,2 | D2D>B, D2D>B, | D4 B,2D2 |
+G2B/A/G d2Bd | e2de g2e2 | d2BA B2AG | A4 A4 |
+B2d2 B2d2 | G2B2 G2B2 | d2BA B2d2 | e3f g3f |
+edB2 dBA2 | G2ED B4 | G2ED E2D/E/F | E6 :|
 P:variations
-|: AEAB c2 Bc dcAG | AEAB c2 Bc dcA2 :|
-|: e2 Ae-eA cABd cA |1 e2 Ae-eA cABc AA :|2 e2 Ae-eA cABc AE ||
-
-X:3
-T:Rid\'ee
-R:rid\'ee
-H:Also played in Bm
-O:Bretagne
-D:Skeduz: Rag ar Plinn
-Z:id:hn-ridee-3
-M:6/4
-L:1/8
-Q:1/4=200
-K:Em
-EGFE (3BcB G2 AB AG/F/ | EGFE B2 G2 AG A2 :|
-|: (3ABA GA BEG2 BAGF | EA (3AGA BEG2 (3FGF E2 :|
-
-X:4
-T:Rid\'ee
-R:rid\'ee
-H:Also played in Bm
-O:Bretagne
-D:Skeduz: Rag ar Plinn
-Z:id:hn-ridee-4
-M:6/4
-L:1/8
-Q:1/4=200
-K:Em
-EBAG FGA2 GFED | EBAG FGAF (3ABA GF |
-EBAG FGA2 GFED | EBAG FGA2 GFEF ||
-G2FD (3GAG FD EFGB | (3ABA GB AFA2 GFED |
-EGFD G2FD EFGB | (3ABA GB AFA2 GFE2 ||
-
-X:5
-T:Rid\'ee
-R:rid\'ee
-O:Bretagne
-D:Skeduz: Rag ar Plinn
-Z:id:hn-ridee-5
-M:6/4
-L:1/8
-Q:1/4=200
-K:D
-fgaf d2 (3fgf edee | fgaf dcdf ede2 :|
-fgaf d2 (3fgf edcA | Bcdf e2fg fed2 |
-fgaf dcdf edcA | Bcdf e2 (3efg fed2 ||
-
-X:6
-T:Boules Et Guirlandes
-R:rid\'ee
-O:Bretagne
-D:Skolvan: Swing & Tears
-Z:id:hn-ridee-6
-M:6/4
-L:1/8
-Q:1/4=200
-K:Em
-EFGB (3ABA GA BGED | EFGB A2 GA BGE2 :|
-|: c2Ac BA GF EFGB | c2Ac BA GF GB A2 :|
-
-X:7
-T:Rid\'ee
-R:rid\'ee
-O:Bretagne
-D:Skolvan: Swing & Tears
-Z:id:hn-ridee-7
-M:6/4
-L:1/8
-Q:1/4=200
-K:G
-GddB dd ABcd cB | GddB dd ABcd cB |
-GdcB dd ABcd cB | GdcB d2 ABcd cB ||
-G2FG Bc BGFG AF | G2FG BG cdcB GF |
-G2FG Bc BGFG AA | G2FG BG cdcB G2 ||
-
+|: GF | E3F G2A2 | B2e2 e2d2 | efg2 d2BA | Bde2 d2BA |
+G2E2 E2E2 | D>EDB, D2GF | E3F G2A2 | B4 A2G2 |
+AGAB A2A2 | A4 GABd | dBde d2Bd | e3f g4 |
+edB2 dBA2 | AGED B,2B2 | G2ED B,2E2 | E6 :|
+|: GA | B2A2 G2E2 | G2E2 D2B,2 | D2E/D/B, D2E/D/B, | D4 B,2D2 |
+G2B/A/G d2Bd | e2de g2e2 | d2BA B2AG | A4 A4 |
+B2d2 B2d2 | G2B2 G2B2 | d2BA GBd2 | e3f g4 |
+edB2 dBA2 | AGED B,2B2 | G2ED B,2E2 | E6 :|
+P:more variations
+|: GF | E3F G2A2 | B2e2 e2d2 | efg2 d2BA | B2de d2BA |
+G2E2 E4 | DCB,C D2GF | E3F G2A2 | B4 B2AG |
+FGAB A2A2 | A6 B2 | dBde d2Bd | edef g3f |
+edBe dBAB | AGED B,2B2 | AGFE E2D/E/F | E6 :|
+|: GA | B3A G2E2 | G3E D2B,2 | D3E D2B,2 | D4 B,2D2 |
+G2B/A/G d2Bd | e2de g3e | d2BA B2AG | A2A2 A4 |
+B2d2 B2d2 | G2B2 G2B2 | d2BA B2d2 | edef g3f |
+edBe dBAB | AGED B,2B2 | AGFE E2D/E/F | E6 :|

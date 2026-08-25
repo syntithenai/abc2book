@@ -1,0 +1,20 @@
+X:242
+T:Schottisch.  CGF (st07285)  ABACDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.273 (st07285) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"Gg gg | g/c/e/g/ a>g | "G7"aa/g/ fd | "C"gg/e/ cc' | zg gg | g/c/e/g/ a>g | "G7"zd fB | "C"ce cz :: [P:B] [K:G]  [L:1/16] "G"bgdB db.g2 | 
+bgdB db.g2 | bbb2 ggg2 | "D7"aaa2 aaa2 | "G"bgdB db.g2 | bgd'b gb.g2 | ba.g2 "D7"ag.f2 | "G"g2g2 g2"_>Teil A"z2 :: [P:C] [K:F] [L:1/8] 
+"F"A/B/c A/B/c | (d>c) A>F | fe "D7"dc | "Gm"c2B2 | G/A/B G/A/B | (c>B) g>f | {/f}"C7"ed ce | "F"ff f"_Fine"z :|  [P:D] [K:C] [L:1/16]  {/f}"C"e^def a3g | 
+{/d}cBcd e2c2 | "G7".B.c.B2 .A.B.A2 | .G.A.G2 .F.G.F2  | {/f}"C"e^def a2g2 | {/d}cBcd e2c2 | "G7"BAG2 fed2 | "C"cde2 "C7"e"_>Teil C"fg2  |] 
+W:ABA CDC
+% st07285
+% May 23, 2017

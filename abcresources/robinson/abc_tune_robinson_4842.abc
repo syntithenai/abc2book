@@ -1,0 +1,22 @@
+X:246
+T:Waldmärchen-Walzer  CFBb (wz06047)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.316f (wz06047) orig. C,F,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Waltz
+O:Switzerland
+M:3/4
+L:1/4
+K:C major
+Gc | "C"e3 | "F"dcA | ("C"G3 | G)ce | "G7"g3 | dfa | ("C"g3 | g)Gc | 
+e3 | "F"dcA | ("C"G3 | G)ce | "G"d2g | "D7"^fba | "G"g>gg | "G7"z^f/g/ a/b/ | 
+"C".c'!>!e>g | .c'!>!e>g | "G7"b/b/ba | f3 |  .b !>!d>f |  .b !>!d>f | "C"a/a/ag | e^f/g/ a/b/ | 
+.c'!>!e>g | .c'!>!e>g | "C7"d'/d'/d'c' | "F"a3 | "G7"b/b/ba | "C"g/e/ a/g/ f/e/ | "G7"dzg | "C"czz |[ [K:F] 
+"F"C2F | F2A, | (C3 | C)zC | C2D | D2C | ("C7"C3 | B,2)E | G2F | E2D | (B,3 | 
+B,)zF | E2D | E2D | ("F"C3 | C)zz|] "F"c2f | f2A | (c3 | c)zc | "A7"^c2e | a2g | 
+("Dm"f3 | f)e/f/ g/f/ | "C7"e2d | c/e/ gb | "F"a2c | f2a | "Gm"g2b | "C7"a2g | ("F"f3 | f)e/f/ g/"_Fine"a/ || [K:Bb]  
+"Bb"b2d | d2e | "F7"d2c | c2g | f2A | ceg | ("Bb"f3 | f)=e/f/ g/a/ | 
+b2a | "Bb7"c'2b | "Eb"a2g | gab | "Bb"f2d | "F7"d2c | "Bb"B3 | B =e/f/ g/"_>Teil C"a/ |] 
+W: Parts: ABCDC
+W:Waldmärchen (forest fairy tale)

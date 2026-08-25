@@ -1,0 +1,20 @@
+X:31
+T:Hamburger Kreuzpolka CGF (kp06439) ABACDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.153 (kp06439) orig. C,G,F
+T: Basel - Repertoire der 'Dorfmusik Binningen. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABACDC
+R:Kreuzpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"ec (g/a/)g | "G7"fz!>!B2 | fd (b/c'/)b | "C"d'z!>!c'2 | b/d'/c'/g/ eg | "F"^g/b/a/f/ df |1 "Dm"^a/b/=a/f/ "G7"df | "C"^f2gz :|2 
+"Dm"^a/b/=a/f/ "G7"^f/g/=f/d/ | "C"ce cz || [P:B] [K:G] "D7"{/a}d'a (a/^g/)a | "G"{/b}e'z!>!b2 | "D7"(c'/e'/)e' (e'/d'/)d' | "G"^az!>!b2 | "E7"e'b (b/^a/)b | 
+"Am"e'c' (c'/b/)c' | "D7"d'c' ba | "G"gb g"_>Teil A"z || [P:C] [K:F] "F"cd ef | bza2 | "C7"ag fe | "F"gzf2 | gf ed | "Gm"Bdd2 | 
+"C7"Bc de | "F"Acc2 | cd ef | bza2 | "D7"ad ^cd | "Gm"czB2 | "F"cd ef | ("C7"Be).e2 | ce cG/A/ | "_""F"FA F"_Fine"z |] [P:D] [K:C] 
+|: "A7"(a/^g/).a a>e | "Dm"fzd2 | "G7"(g/^f/).g g>d | "C"ezc2 | c>B "C7"cc' | "F"c'>b c'c | "G7"ba g^f | "C"gc/c/ c"_>Teil C"c :| 
+% kp06439
+% Dez 11, 2016

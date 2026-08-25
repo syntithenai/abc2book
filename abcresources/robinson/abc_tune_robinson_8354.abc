@@ -1,0 +1,22 @@
+X: 41
+T:the Fiddich-side Lasses. Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:15 - 3
+K:A major
+%%staves {1 2}
+V:1
+c/d/ | \
+e<A!trill!e>c eA-Ac/d/ | e<A!trill!e>c d=G-Gc/d/ | eAec eAec | B=gdg B=GG :|
+B | \
+Aa g/a/b (a>c)!trill!e>c | Aa g/a/b (=g>d)dB | Aa g/a/b (a>f)=g(e | f)>de=c d=GGB |
+Aa g/a/b (a>c)!trill!e>c | Aa g/a/b (=g>d)dB | Aa g/a/b (a>f)=g(e | f)>de=c d=G G |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | [Aa][Aa][Aa][Aa] | [Aa][Aa][=G=g][Gg] | [Aa][Aa][Aa][Aa] | [=G=g][Gg][Gg][Gg]/ :| \
+z/ | aaaa | aa=gg | aaaa | ^d'=c'=gg | aaaa | aa=gg | aaaa | d'=c'=gg/ |]

@@ -1,0 +1,35 @@
+X:3
+T:Arnigrat-Juiz  Bb  ABAC
+T:Otti Anderhalden (31.12.1937-31.8.2003)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+R:Naturjodel
+M:4/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] FB/d/ |: (f4 | f)dfg | (3fdB (F2 | F)dcB | A>B (c2 | c2) FA/c/ | 
+(f4 | f)efg | (3feA (F2 | F)fdc | B>c (d2 | d2)F B/d/ | 
+(f4 | f)dfg | (3fdB (F2 | F)dcB | (G4 | G)edc | 
+dBFd | cFfd |1 (B4 | B>)zFB/d/ :|2 (B4 | B>)z |]
+L:1/4
+M:4/4
+[P:B] BA/B/ | c>A(F2 | F)edc | d>B(F2 | F)dcB | 
+c>A(F2 | F)edc | (B4 | B)zBA/B/ | c>A(F2 | F)edc | 
+d>B(F2 | F)dcB | c>A(F2 | F)edc | (B4 | B)z ||
+L:1/4
+M:4/4
+[P:C]  Ff |: c>fFf | c>fFf | B>dFd | B>dFf | c>fFf | eFdc | 
+B>cde | f2Ff | c>fFf | c>fFf | c>fFf | B>dFd | 
+B>dFd | c>fFf |1 eFdc | (B4 | B)zFf :|2 eFdc | (B4 | B2) |]
+W:
+%W:Reihenfolge: A - B - A - C
+W:Herzlichst gewidmet dem Jodlerklub Arnigrat, Sachseln
+W:
+W:notiert Edi Gasser. Angaben: Otti Anderhalden
+W:UJV-Naturjodelsammlung: Code-Nr: 47-02
+W:http://www.naturjodler.ch/code 47.htm  (with AUDIO)
+%Juni 12, 2018

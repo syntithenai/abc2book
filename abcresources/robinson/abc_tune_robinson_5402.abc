@@ -1,0 +1,17 @@
+X:159
+T:Polka CGF (pk07360)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.304f (pk07360) orig. C,G,F
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+"C"e2ga gfe2 | "Dm"d2f2 fed2 | "G7"d2fg fed2 | "C"c'2g2 gag2 | e2ga gfe2 | "Dm"d2f2 fed2 | "G7"d2fg f2B2 | "C"c2ed.c4 :: [K:G]
+"G"d2de d2g2 | "D7"f2ed d2a2 | f2fg f2a2 | "G"b2bag4 | d2de d2g2 | "D7"f2ed d2a2 | f2fg f2a2 | "G"g2ba.g4:: [K:C] 
+[L:1/8] "C"ge2d/c/ | "F"fga2 | "G7"Gf f/e/d | "C"Ge e/d/c | ge2d/c/ | "F"fga2 | "G7"Gf/e/ fd | "C"ce/d/.c2 :|  [K:F] 
+"F"a>f A/c/f/a/ | af !>!c2 | "C7"z{bc'}.b .a.g | ^fgc'2 | "F"A>F .A/.c/.f/.a/ | gf!>!c2 | "C7"z(b ce) | "F"fa/g/.f2 |] 
+%%% pk07360
+% July 5, 2017

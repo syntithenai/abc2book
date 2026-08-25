@@ -1,0 +1,35 @@
+X: 86
+T: Haroa Haktana
+C: Nurit Hirsh 1959
+D: Dance Along with Sabras (Tikva-69)
+F: http://www.youtube.com/watch?v=_NGcrq4T7qU
+F: http://www.youtube.com/watch?v=LPq1HSeiQp4
+F: http://www.youtube.com/watch?v=n7ECX4iKDhg
+L:1/16
+O: Israel
+M:2/4
+Q:1/4=120
+S:Adapted from Debra Jones, Vancouver Int. Folk Dance Book
+K:Am
+ fdec            |"Dm" d4-dcBc |d4-dcBc       |"D" d2e2 ^f2g2|\
+^f2e2 "Dm" =fdec | d4-dcBc     | d4 "E7" e2c2 |\
+L:1/8
+M:3/4
+ "Am" BA A4      |
+%%sep 10 10
+L:1/8
+M:2/4
+ "Am" A2 A2      |"D" d2 cd    | "Dm" ed dd   | d>c de       |"Am" cB AG |\
+ A2 "G" c/B/A/B/ |"Am" c4-     |c2 z2         | A2 A2        |"D" d2 cd  |"Dm" ed dd|
+ "G" d2 gf       |"C" e>d ce   |"G" d2 G2     |"Am" A4-      |A2 ee      |\
+ "C" g4-         |g2 e^f       | g2 gg        |"D" ^f2 ed    |"G" g4-    |g2 cd     |
+ "C" eg f/e/d/c/ |"G" d2 GG    |"C" c3 e      |"A7" gf ed    |"Dm" d4-   |d2 ef     |\
+ "Am" d e2 A     |"G" B d2 c/B/|"Am" A4-      |A2 z2         |
+%%sep 10 10
+K:Bm
+ "Bm" B2 B2      |"E" e2 de    |"Em" fe ee    | e>d ef       |"Bm" ~dc BA|\
+ B2 "A" d/c/B/c/ |"Bm" d4-     |d2 z2         | B2 B2        |"E" e2 de  |"Em" fe ee|
+ e2 "A" ag       |"D" f>e df   |"A" e2 A2     |"Bm" B4-      |B2 ff      |\
+ "D" a4-         |a2 f^g       | a2 aa        |"E" ^g2 fe    |"A" a4-    |a2 de     |
+ "D" fa g/f/e/d/ |"A" e2 AA    |"D" d3 f      |"B7" ag fe    |"Em" e4-   |e2 fg     |\
+ "Bm" ef2B       |"A" ce2 d/c/ |"Bm" B4-      |B2 z2         |

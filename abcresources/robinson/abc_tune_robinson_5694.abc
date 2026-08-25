@@ -1,0 +1,33 @@
+X:9
+T:Heech obä (Natur-Juiz)  Bb  AABACCD
+T:Ruedi Rymann (31.1.1933-10.9.2008)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:AABACCD
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "Kadenz" F2 D/F/B/c/ d/e/ !fermata!f2 =e c2f2 | ecd2 |  [M:5/4] B3DF2DF Bd | c3EF2EF Ac | B8z2 || 
+M:2/4
+[P:B] "Polkamässig" B2DF | B2c2 | d2F2 | d2e>d | c2F2 | c2d>c | Bd BG | F4 | 
+B2DF | B2c2 | d2F2 | d2e>d | c2F2 | ce dc | (B4 | B3)z ||  
+M:2/4
+[P:C] "zügiger" FF/F/ | Ff d>c | BD FB | Ac FA | 
+E2FF/F/ | Ff e>d | cE FA | Bd FB | D2 FF/F/ | Ff d>c | 
+BD FB | Ac FA | E2FF/F/ | Ff eF | "langsam"d2c2 | (B4 | B2) ||
+M:4/4
+[P:D] f2 e F d F c F | B2 D>D Fd cB | c2 "rit."F>E Fe dc | 
+w:Heech o-bä, do-bä, do-bä dee!
+B6z2 | f2 e F d F c F | B2 D>D Fd cB | c2 "rit."F>E Fe dc | B6z2 |] 
+w:  | Heech o-bä, do-bä, do-bä dee!
+W:
+W:Reihenfolge: AA-B-A-CC-D
+W:
+W:Lyrics (Swiss German): Heech obä ... - High up, up there, up there, then!
+W:
+W:UJV-Naturjodelsammlung: Code-Nr: 05-05
+W:http://www.naturjodler.ch/code 05.htm  (with AUDIO)
+%April 30, 2018

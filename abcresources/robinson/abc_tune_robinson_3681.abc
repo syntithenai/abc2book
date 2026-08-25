@@ -1,0 +1,13 @@
+X:220
+T: Schottisch GC (st05157)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.383 (st05157) orig. G,C-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+((3d/e/d/) |: "G"BB d>B | "D7"cc d>c | ff c2 | "G"B/c/d/e/ d((3d/e/d/) | BB d>B | "D7"cc d>c | ff e>f |1 "G"gg g((3d/e/d/) :|2 
+"G"gg gd |:  "D7"f>d a>d |  "G"b2 b/a/g/f/ | "D7"e!>!d2f | "G"g/f/g/a/ bd |  "D7"f>d a>d |  "G"b2 b/a/g/f/ | "D7"ed b>a |1 "G"gg gd :|2 
+"G"gg gz [K:C] |:  "C"c>d ec | a3e | "G7"g>f d>c | B4 | de fd | b3a | g>f e>d |1 "C"cag2 :|2 "C"cc' c'z |]  
+%June 9, 2016

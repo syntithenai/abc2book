@@ -1,0 +1,29 @@
+X:9
+T:Müettis-Juiz  Ab  ABCA
+T:Toni Zibung  (30.7.1935-25.1.1998)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCA
+M:3/8
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Ab major
+[P:A] "gemütlich"  E | A>c E/c/ | B>e B/c/ | A>c E | e/c/ E/c/ B/A/ | G>B E | eBc | A>E A/c/ | B2E | 
+A>c E/c/ | B>e B/c/ | A>c E | e/c/ E/c/ B/A/ | G>B E | ecB | (A3 | A)z ||
+L:1/8
+M:3/8
+[P:B] A | G>F E | dFG | A>c E | CAC | D>c B | DcB | A/C/ !fermata! !breath! E A | 
+G>F E | dFG | A>c E | CAC | D>c B | B D/E/ c/B/ | (A3 | A)c ||
+M:3/8
+[P:C] "_lebhaft"  E/E/ | e>d c/B/ | e>d c/B/ | e>c A/c/ | E>f e/c/ | 
+e>D B/G/ | EcB | B>A c/A/ | E2E/E/ | e>d c/B/ | 
+e>D c/B/ | e>c A/c/ | E>f e/c/ | e>d B/G/ | EBe | (A3 | A) |]
+W:
+%W:Reihenfolge: A-B-C-A
+W:notiert Edi Gasser, Angaben: Tony Zibung
+W:UJV-Naturjodelsammlung: Code-Nr: 13-04
+W:http://www.naturjodler.ch/code 13.htm  (with AUDIO)
+%May 8, 2018

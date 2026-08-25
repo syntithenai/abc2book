@@ -1,0 +1,29 @@
+X:3
+T:Nolle-Juiz  Bb  ABAC
+T:Xaver Ambauen  (* 3.2.1925)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:2/4+3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"  !fermata!B,2 !fermata!D2 | !fermata!F2 Bc | d3BF2 | f2d2 g2 | f3e c2  | F2EF dc  | B2D2 | 
+F2Bc | d4 | !fermata!B,2 !fermata!D2 | !fermata!F2 Bc | d3BF2 | f2d2 g2 | f3e c2  | F2EF dc  | B6 ||
+L:1/4
+M:2/4+3/4
+[P:B] "fröhlich, zügig" cE F | fe/d/ c | BD F | fd/c/ B | AE F | fe/d/ c | BD | Fd/c/ | 
+B2 | cE F | fe/d/ c | BD F | fd/c/ B | AE F | fe/d/ c | B3 ||  
+M:3/4
+[P:C] "schnell, lüpfig" eG/G/ G/G/ | eG/e/ d/c/ | dFF | dF/d/ c/B/ | cEF | 
+fe/d/c | BDF | d3 | eG/G/ G/G/ | eG/e/ d/c/ | 
+dFF | dF/d/ c/B/ | cEF | fe/d/c | (B3 | B2)z |] 
+W:
+%W:Reihenfolge: ABAC
+W:notiert Edi Gasser, nach Angabe von  Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 08-02
+W:http://www.naturjodler.ch/code 08.htm  (with AUDIO)
+%May 3, 2018

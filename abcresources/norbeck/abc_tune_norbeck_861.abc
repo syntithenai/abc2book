@@ -1,0 +1,16 @@
+X:521
+T:Bundle and Go
+R:jig
+Z:id:hn-jig-521
+M:6/8
+L:1/8
+K:G
+a | gee edB | ~g3 B2a | gee edB | dBA A2a |
+gee edB | gfg a2b | age edB |1 dBA A2 :|2 dBG ABc ||
+|: d2B d2B | ~g3 age | d2B d2B | dBG ABc |
+d2B d2B | gfg a2b | age edB |1 dBG ABc :|2 dBA A2 ||
+P:variations
+f |: gef edB | gfg Bef | gef edB | dBA agf |
+gee edB | ~g3 abg | age e/f/ge |1 dBA agf :|2 dBA ABc ||
+|: d2B d2B | gfg age | d2B dg/f/e | dBG ABc |
+d2B d2B | ~g3 a2b | age ege |1 dBA ABc :|2 dBA A2 ||

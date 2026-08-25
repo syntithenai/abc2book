@@ -31,6 +31,7 @@ import {
   DEFAULT_RENDER_STYLE,
   getStylePreset,
   listStylePresetOptions,
+  shouldIncludeDrumGuide,
 } from '../practiceTrackStylePresets';
 import {
   TASK_LINKED_COVER,
@@ -38,6 +39,7 @@ import {
   TASK_PRACTICE_TRACK,
   audioGenerationUnavailableMessage,
   defaultPresetForTask,
+  formatAudioGenerationError,
   listAvailableQualityPresets,
   listQualityPresetOptions,
   presetLabel,
@@ -164,7 +166,7 @@ export default function AudioGenerationWizard(props) {
   const [coverLyrics, setCoverLyrics] = useState('');
   const [renderStyle, setRenderStyle] = useState(DEFAULT_RENDER_STYLE);
   const [melodySource, setMelodySource] = useState('notation_midi');
-  const [includeDrumGuide, setIncludeDrumGuide] = useState(true);
+  const [includeDrumGuide, setIncludeDrumGuide] = useState(false);
   const [ackBarEstimate, setAckBarEstimate] = useState(false);
   const [includeChordLayer, setIncludeChordLayer] = useState(false);
   const [pendingGenerate, setPendingGenerate] = useState(false);
@@ -230,7 +232,7 @@ export default function AudioGenerationWizard(props) {
     if (plan) {
       setIncludeChordLayer(false);
       setRenderStyle(plan.renderStyle || DEFAULT_RENDER_STYLE);
-      setIncludeDrumGuide(plan.includeDrumGuide !== false);
+      setIncludeDrumGuide(!!plan.includeDrumGuide);
     }
   }, [plan, taskId, tune]);
 
@@ -348,27 +350,26 @@ export default function AudioGenerationWizard(props) {
         const activePlan = refineTimingFromMelodyDuration(plan, buffer.duration);
 
         let chords = null;
-        if (includeChordLayer && plan.includeChordLayer) {
-          const chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
-          if (chordsPerBar.length) {
-            chords = await renderChordLayerWav(tune, chordsPerBar);
-          }
+        const chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
+        if (chordsPerBar.length) {
+          chords = await renderChordLayerWav(tune, chordsPerBar);
         }
 
-        const stylePreset = getStylePreset(renderStyle);
         const payload = buildPracticeTrackRequestPayload(activePlan, drumGuideOptionsFromTune(tune, activePlan, {
           backingPrompt: renderStyle === 'custom' ? backingPrompt : undefined,
           renderStyle: renderStyle,
           melodySource: melodySource,
-          includeChordLayer: includeChordLayer && !!chords,
-          includeDrumGuide: includeDrumGuide && stylePreset.includeDrumGuideDefault,
+          includeChordLayer: false,
+          includeDrumGuide: includeDrumGuide && shouldIncludeDrumGuide(renderStyle, activePlan),
+          guideAudioConditioning: true,
+          includeStyleMelodyStem: false,
           acknowledgeBarEstimate: activePlan.timing.source !== 'bar-estimate',
           presetId: presetId,
         }));
         const started = await startPracticeTrackGeneration(payload, melody, {
           token: token,
           presetId: presetId,
-          chordsBlob: includeChordLayer ? chords : null,
+          chordsBlob: chords,
           scoreBlob: midiScoreToBlob(midiScore.midiBytes),
         });
         resolverJobId = started.jobId;
@@ -411,7 +412,7 @@ export default function AudioGenerationWizard(props) {
       setShowModal(false);
       if (typeof props.onHide === 'function') props.onHide();
     } catch (err) {
-      setError(err && err.message ? err.message : 'Could not start audio generation.');
+      setError(formatAudioGenerationError(err && err.message ? err.message : 'Could not start audio generation.'));
     } finally {
       setStarting(false);
     }
@@ -664,10 +665,10 @@ export default function AudioGenerationWizard(props) {
           <Form.Check
             type="checkbox"
             className="mb-3"
-            label="Include beat-locked MIDI drum guide (recommended)"
+            label="Use MIDI drums only as a quiet AI timing guide (not mixed into the track)"
             checked={includeDrumGuide}
             onChange={function(e) { setIncludeDrumGuide(e.target.checked); }}
-            disabled={starting}
+            disabled={starting || /waltz|air|hymn|ballad/i.test(String((plan && plan.musical && plan.musical.rhythm) || ''))}
           />
           {renderStyle === 'custom' && (
             <Form.Group className="mb-3">

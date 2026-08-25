@@ -1,0 +1,17 @@
+X:124
+T: Mazurka CF (mz04983)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.308 (mz04983) orig. C,F-Dur
+T: Schaffhauser T\"anze (Hans Stamm, Schleitheim, und Hrch. B\"achtold, Stein am Rhein). S.298-362.
+%%partsbox
+%%MIDI program 21
+P: ABACDE
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"G>c e>a g>c | "G7"e2d>^c d2 | b2f>e  f>a | "C"g2 e>de2 | G>c e>a g>c | "Dm"e2d>^c d2 | "G7"b>d f>a g>B | 
+"C"c2c2z2 :: [P:B] "Am"e2 {/f}e>^d e2 | ec' c'>b a2 | "Dm"a2 {/b}a>^ga2 | "Am"abc'4 | "D7"d2 {/e}d>^cd2 | "G"db b>ag2 |  
+"D7"^f>g a>b c'>f | "G"g2"_> Teil A"g2z2 :: [P:C] [K:F] "F"((3Acf) a>d' c'2 | ((3Acf) a>d' c'2 | "C7"((3c'ba) e>gc2 | "F"((3afc) A>cF2 | 
+((3Acf) a>d' c'2 | ((3Acf) a>d' c'2 | "C7"((3c'ba) e>g c>e | "F"f2f2z2 :| [P:D] "Dm"((3fed) f>ed2 | ((3fed)  a>gf2 | "Bb"f>e d>e f>d | 
+"A"A6 | "C"((3edc) e>dc2 | ((3edc) g>fe2 | "G7"((3G=Bd) f>a g>B | "C"c2c2z2 |: [P:E] "F".c2 ((3c'=bc') d'>a | "C7"c'2 b>ab2 | 
+.c2 ((3bab) c'>g | "F"b2 a>ga2 | .c2 ((3a^ga) b>f | "Gm"a2g>^fg2 | "C7".c2 ((3g^fg) a>g | "F"f2f2z2 :|

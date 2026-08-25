@@ -1,0 +1,21 @@
+X:56
+T:Frühlingskinder (Mazurka)  CF (mz07759) ABCDC
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.377 (mz07759) orig. CF
+T: Alte Seltisberger Musik. S.354-377
+T:Überliefert durch Erwin Schàfer-Spinnler, Liestal, Oktober 1941
+%%MIDI program 21
+%%partsbox
+P:ABCDC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] "C"c>e G2E>c | ("G7"cB)B2B2 | B>dG2F>d | ("C"dc)c2c2 | G>c e>g f>e | "G7".e2d4 | B>d f>a g>f | "C".f2e4 | c>e G2E>c | 
+("G7"cB)B2B2 | B>dG2F>d | ("C"dc)c2c2 | G>c e>g f>e | "Dm"d>aa4 | "G7"B>gg3B | "C".c2c2z2  :: [P:B] "G7"G>G G>B d>f | "C".e2G3e | 
+"G7".d2F3d | "C"c>EG2G2 | "G7"G>G G>B d>f | "C".e2G3e | "G7"d>fa2g>B | "C".c2c2 z2 :: [P:C] [K:F] "F"a2g2f2 | ("C7"eB)e4 | "Bb"f2e2d2 | ("F"cA)c4  | 
+c2B2A2 | ("Gm"Ge) d4 | "C7"d2c2B2 | ("F"Af)c4 | a2g2f2 | ("C7"eB)e4 | "Bb"f2e2d2 | "F"cAc4 | c2B2A2 | "Gm"Ged4 | "C7"c>d c>B A>G | "F".F2f2"_Fine"z2 :| [K:C] 
+[P:D] |: "C"e>e e>cG2 |  e>e e>cG2 | "G7"B>c d>e f>g | "C"a2(g^fg2) | e>e e>cG2 | e>e e>cG2 | "G7"B>c d>e f>B | "C".c2c2"_>Teil C"z2 :| 
+%W:Parts:ABCDC
+% mz07759 (H 274/TN 67)
+% Oct 23, 2017 (Either-Or > Sowohlalsauch)

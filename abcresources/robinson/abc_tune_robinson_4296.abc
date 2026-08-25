@@ -1,0 +1,18 @@
+X: 63
+T: Hasliberger Schottisch CGF (st05787)
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.103 (st05787) orig. G,C,F-Dur
+S: Berner Oberländer Tänze (Bern)
+%%partsbox
+%%MIDI program 21
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+P:ABAC  % unknown problem with Part D
+K:C major
+[P:A] "C"E/G/c/e/ g>e | "G7"ff B>g | bb f>b | "C"c'c' e2 | E/G/c/e/ g>e | "G7"ff B>g | bb b/a/f/d/ | "C"ce cz :| 
+K:G
+[P:B] |: "D7"d/e/d/c/ Ac | "G"BB G2 | "D7"F>A cf | "G"g/f/g/a/ b2 | "D7"d/e/d/c/ Ac | "G"BB G2 | "D7"F>A cf |1 "G"gg gz :|2 "G"g=f"_> Teil A" ed ||  
+K:F
+[P:C] |: "F"a3f/f/ | "Bb"f3 e/e/ | "F"d3 c/=B/ | c3 d/c/ | "C7"Bc bb |1 e3c | "F"Ac aa | Tfc Ac :|2 "F/C"aA/c/ +>+f2 | "C7"gB/c/ ee | "F"ff fb/a/ |] 
+ |: "Gm" g>d dd | d3 a/g/ | "F"f>c cc | c3 g/f/ |1 "C7"e2b2 | a2g2 | "F"f>f d'd' | c'3 "D7"b/a/ :|2 "Bb"d/d/d bb | "F/C"a/a/a cf | "C7"g/g/g ce | "F"ff fz |]

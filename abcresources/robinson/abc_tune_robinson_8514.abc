@@ -1,0 +1,23 @@
+X: 151
+T:Miss Agnes Ross's Reel
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:12 - 2
+K:D major
+%%staves {1 2}
+V:1
+F | \
+DA!trill!FA DA!trill!FA | E=c-cG !trill!E2 (CE) | \
+DA!trill!FA DA!trill!FA | Ed-dA !trill!F2 E :|
+(f | \
+d)fdf dfA(f | =c)def g2 (a/g/f/e/) | d.fdf dfAf | defg a2 (b/a/g/f/) |
+dfdf dfAf | =cdef g2 (a/g/f/e/) | afge fdec | dABG !trill!F2 E |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | dddd | cccc | dddd | aAdd/ :| \
+z/ | dddd | aaaa | dddd | dddd | dddd | aaaa | fedc | aAdd/ |]

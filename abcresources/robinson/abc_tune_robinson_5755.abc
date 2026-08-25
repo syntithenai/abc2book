@@ -1,0 +1,38 @@
+X:9
+T:Fyrabig-Juiz. 1992  A-Dur  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:2/4+3/4
+R:Naturjodel
+Q:1/4=66
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] E| c>d|e>^d|BE/d/ | cB| A>cE | e>c | A/e/ | B>dE | ed/c/B | A2E | 
+c>d|e>^d|BE/d/ | cB| A>cE | e>c | A/e/ | B>dE | ed/c/B | A2 || 
+Q:1/4=80
+L:1/4
+M:4/4
+[P:B] ACAB/A/ | GD/C/B,>E | Ee d/c/ B/G/ | AcE>B | 
+ACAB/A/ | GD/C/B,>E | Ee d/c/ B/G/ | A3z ||  
+Q:1/4=63
+M:4/4
+L:1/8
+[P:C] DE | F2D2 dc BF | E2C2c2cf | e2dc BE cB | 
+A2c2 EC DE | F2D2dc BF | E2C2c2 cf | e2dB ed cB | A6 ||
+Q:1/4=92
+M:4/4
+L:1/4
+[P:D] ACAB/A/ | GD/C/B,>E | Ee d/c/ B/G/ | AcE>B | ACA B/A/ | 
+GD/C/ B,>E | Ee d/c/ B/G/ | A3z | ACA B/A/ | G D/C/ B,>E | Ee d/c/ B/G/ | 
+AcE>B | ACA B/A/ | G D/C/ B,>E | Ee d/c/ B/G/ | A3z |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-05
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018

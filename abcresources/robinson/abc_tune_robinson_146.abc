@@ -1,0 +1,40 @@
+X:24
+T:Persian Dance,The,3parts. JNu.22
+T:Gallopede,aka. JNu.22
+M:2/4
+L:1/8
+Q:1/4=100
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Country Dance
+O:England
+A:Lancashire, E
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:G major
+[V:1] |: d/c/ | BB/c/ AA/B/ | GG GA/B/ | cc/d/ BB/c/ | AA Ad/c/ |
+[V:2] |: B/A/ | GG DD | B,B, B,F/G/ | AA/B/ GG/A/ | FF FB/A/ |
+[V:3] |: z | G,G,, D,D,, | G,,G,,G,,z | A,F, G,G,, | D,D, D,/C,/B,,/A,,/ |
+%
+[V:1] BB/c/ AA/B/ | GG GA/B/ | c/B/A/G/ F/D/E/F/ | GG G :|
+[V:2] GG DD | B,DB,D | C2DC | B,B, B, :|
+[V:3] G,,G, D,D, | G,,B,,D,B,, | C,C, D,D,, | G,,G,, G,, :|
+%
+[V:1] |: d/c/ | Bg/f/ ee/d/ | d/c/B/c/ Ad/c/ | Bg/f/ e/d/c/B/ | AA Ad/c/ |
+[V:2] |: B/A/ | Ge/d/ cc/B/ | B/A/G/A/ FB/A/ | Ge/d/ c/B/A/G/ | FF FB/A/ |
+[V:3] |: G,/G,/ | G,G,/G,/ G,G,/G,/ | D,D,/D,/ D,D,/D,/ | G,G, G,G, | D,D, D,G,/G,/ |
+%
+[V:1] Bg/f/ ee/d/ | d/c/B/c/ Ad/c/ | B/d/c/B/ A/c/B/A/ | GG G :|
+[V:2] Ge/d/ cc/B/ | B/A/G/A/ FB/A/ | G/B/A/G/ F/A/G/F/ | GB, B, :|
+[V:3] G,G,/G,/ G,G,/G,/ | G,G,/G,/ D,D, | G,G,/G,/ D,D,/D,/ | G,/D,/B,,/D,/ G,, :|
+%
+[V:1] |: B/c/ | dd dg | dd dg | dd e/d/c/B/ | cA AB/c/ |
+[V:2] |: G/A/ | BG BG | BG BG | GG c/B/A/G/ | AF/F/ GA |
+[V:3] |: z | G,G, G,z | G,G, G,z | G,G, G,G, | D,D, D,z |
+%
+[V:1] dd dg | dd dg | BG/A/ B/A/G/F/ | GG G :|
+[V:2] BG BG | BG BG | dB/c/ d/c/B/A/ | GD B, :|
+[V:3] G,G,, G,G,, | G,G, G,z | B,,C, D,F,, | G,,G,, G,, :|

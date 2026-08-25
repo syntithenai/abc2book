@@ -1,0 +1,21 @@
+X:255
+T:Walzer  CF (wz00816)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.180 (wz00816) orig. C,F-Dur
+S:Gomser Tänze. S.178-195.Überliefert durch Theodor Franzen, 1870-1958, Fiesch.
+%%MIDI program 21
+R:Waltz
+O:Switzerland
+M:3/4
+L:1/4
+K:C major
+g| "C"e2c | za>g | "G7"f2d | zd>c | B2d | Ge>d | "C"c2E | 
+zg>f | e2c | za>g | "Dm"f2d | zd>c | "G7"B2d | Ge>d | "C"c>cc | 
+czc' || "G7"bag | fed | "C"c2g | e2c | "G7"B2g | f2B | "C"ceg | 
+c'3 | "G7"bag | fed | "C"c2g | e2c | "G7"B2g | f2b | "C"c'>c'c' | 
+c'zA || [K:F] "F"c2e/f/ | "Bb"d2 e/f/ | "F"c2f/a/ | .c'.=b.c' | "C7"d'>d'e | zdc | "F"a>af | 
+zAB | c2e/f/ | "Bb"d2e/f/ | "F"c2f/a/ | .c'.=b.c' | "C7"d'>d'e | zag | "F"f>ff | 
+fzA || "F"c =B/c/ d/c/ | c>af | ag>f | "C7"f2e | c =B/c/ d/c/ | c'>bg | ba>g | 
+"F"g2f | c =B/c/ d/c/ | c>af | "Gm"e2d | gf>d | "F"d2c | "C7"e/e/ ee | "F"f |] 
+% wz00816
+W:
+W: Anmerkung H.C.: Guggisberg/Portmann 19, 1/Var. Sachseln 71

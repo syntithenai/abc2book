@@ -1,0 +1,17 @@
+X:17
+T: Garibaldi-Marsch  GDC (mr08962)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.46 (mr08962) orig. G,D,C-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:March
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+((3d/e/f/) |: "G"gB BB | "D7"dc {/d}c/B/c | f>e f>e | "G"d2 B((3d/e/f/) | gB BB | "D7"dc {/d}c/B/c | f>e df |1 "G"g2z((3d/e/f/)  :|2 
+"G"g2fg || [K:D] "D"ab/a/ fg | a2 dd | "A7"cd/c/ BB | "D"A2 fg | ab/a/ fg | a2 dd | "A7"cB/c/ fe | "D"dd/d/ dd || [K:G]
+|: "G"d2 g>f | e2d2 | B2 e>d | "D7"d2c2 | AA/A/ AB | cA zd |1 f>e f>e | "G"d2B2 :|2 fg/f/ ed | "G"g2zg |: [K:C] "C"e3g | 
+e3g | ef/e/ de | ("G7"g2f)f | d3f | d3f |1 bb aa | "C"g2e2 :|2 bc'/b/ ab | "C"c'2z2 |] 
+W: Anmerkung H.C.: Baselbiet, Aargau, Zermatt
+% mr08962

@@ -1,0 +1,27 @@
+X:23
+T:Miss Georgina B. Stewart, West Park, Elgin
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:9 - 2
+K:F major
+%%staves {1 2}
+V:1
+F2 DF A,FCF | cAFA G/G/G G2 | F2 DF A,FCF | f<dc>A F/F/F F2 |
+F2 DF A,FCF | cAFA G/G/G G2 | F2 DF A,FCF | f<dc>A F/F/F F2 |]
+f2 af fcbg | f2 af ecge  | f2 af g2 bg | afce [Af]/f/f f2 & x2B2x4 |
+f2 af fcbg | f2 af ecf>c | dBfB cAfA | [A,C]F[B,E]G [A,F]/[A,F]/[A,F] [A,F]2 |]
+V:2 clef=bass octave=-2
+L:1/4
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Cc] [Cc] | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Cc] [Ff] [Ff] | \
+[Ff] [Ff] [Ff] [Ff] | [Ff] [Ff] [Cc] [Cc] | \
+[Ff] [Ff] [Ff] [Ff] | [Bb] [Cc] [Ff] [Ff] |] \
+[fac'] [fac'] [cgc'] [cgc'] | [fac'] [fac'] [cgb] [cgb] | \
+[fac'] [fac'] [egc'] [egc'] | [fac'] [fac'] [Ff] [Ff] | \
+[fac'] [fac'] [cgc'] [cgc'] | [fac'] [fac'] [cc'] [Aa] | \
+[Bb] [Dd] [Ff] [Ff] | [Cc] [Cc] [Ff] [Ff] |]

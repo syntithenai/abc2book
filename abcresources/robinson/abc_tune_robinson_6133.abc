@@ -1,0 +1,23 @@
+X:1
+T:Der Liebling (Polka)  GDC  (pk07629) 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.131  (pk07629) orig. G,D,C
+S: Basel II. Tänze aus Wintersingen und Ormalingen. S.122-133.
+S:Überliefert durch Schaffner-Suter, Schaub-Forder & Emil Völlmy-Thommen
+%%MIDI program 21
+%%partsbox
+R:Polka
+M:2/4
+L:1/16
+O:Switzerland
+K:G major
+[P:A] ("G"db).b2 g4 | (Be).e2d4 | (Bc).d.e (fg).a.b | "D7"b2a^ga4 | ("Am"ec').c'2a4 | (cf).f2e4 |  ("D7"AB).c.d (ef).g.a | "G"b2g2d4 | 
+(db).b2 g4 | (Be).e2d4 | (Bc).d.e (fg).a.b | "C"d'2c'b c'4 | "D7"c'4 b3a | "G"a2g2 f2e2 | "D7"d2(fe) (dc).B.A | "G"G2G2 G2z2 :| [K:D] 
+L:1/8
+[P:B] |: "D"ff/f/ ff/f/ | fba2 | dd/d/ dd/d/ | dgf2 | "A7"g2ag | "D"f2gf | "A7"e2fe |1 "D"dA/A/ AA :|2 
+"D"dd/d/ dd || [K:C] [P:C] |: "C"G>c c>e | (e/a/).ag2 | z/e/^d/e/ fe | "G7"ed/^c/d2 | "Dm"A>d d>f | (f/b/).b a2 | 
+"G7"z/d/^c/d/ ed | "C"dc/B/ c2 | G>c c>e | (e/a/).ag2 | "Dm"A>d d>f | (f/b/).ba2 | !>!"G7"a2!>!b2 | 
+"C"c'e (e/^d/).e | "G7"ad (d/^c/).d | "C"gc c/B/c | !>!"G7"a2!>!b2 | "C"c'e (e/^d/).e | "G7"gd/e/ fe/d/ | "C"ce cz |] 
+W:
+W:Anmerkung H.C.: Böckten/Eptingen, Bubendorf, Seltisberg, Olsberg, Obersdorf, s.V. 277
+% pk07629
+% May 9, 2018

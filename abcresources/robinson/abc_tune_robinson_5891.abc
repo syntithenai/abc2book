@@ -1,0 +1,40 @@
+X:3
+T:Stäfeliflueh-Juiz  Bb  ABCD
+T:Michael Wallimann (3.3.1977)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+Q:1/4=80
+R:Naturjodel
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major 
+[P:A] F/B/ | d>edc | B2DF/D/ | B>AcB | A3F | c>Fed | 
+c>BAA/B/ | cFdc | B3F/B/ | d>edc | B2D F/D/ | B>AcB | 
+A3F | c>Fed | c>BAA/B/ | cedc | !fermata!B3 || 
+Q:1/4=55
+L:1/8
+M:6/8
+[P:B] F f d | c3F f e | d3F B d | c>B A F f/d/ c | !fermata!B3 F f d | 
+c>d c F/f/ f e | d>e d F B d | e2 c/B/ "_sehr langsam"A d c | !fermata!B3 || 
+Q:1/4=65
+L:1/4
+M:3/4
+[P:C] F/F/ | d>f  e/d/ | dc F/F/ |  c>e d/c/ |  cd F/F/ |  d>B c/d/  | 
+c2B/c/ | dfd | c2F/F/ | d>f e/d/ | dcF/F/ | c>e d/c/ | 
+cdF/F/ | d>B c/d/ | e2e/e/ | dfd>c  | !fermata!B3 z3 ||  
+Q:1/4=100
+M:3/4
+[P:D] F|F>DF | B>cB | A2C | E2F | F>EF | c>dc | B2D | 
+F2F | F>DF | B>cB | A2C | E2F | F>EF | c>dc | B2F | 
+F>DF | B>cB | ACD | E2F |  F>EF | c>dc | BDG | 
+F2F | F>DF | B>cd | e2d | c2e | d2F | c2d | B2z |] 
+W:
+%W:Reihenfolge: A - B - C - D
+W:notiert Edi Gasser. % Angaben Michael Wallimann
+W:UJV-Naturjodelsammlung: Code-Nr: 39-02
+W:http://www.naturjodler.ch/code 39.htm  (with AUDIO)
+%Juni 8, 2018

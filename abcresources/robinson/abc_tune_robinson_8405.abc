@@ -1,0 +1,35 @@
+X:41
+T:the Earl of Fife
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:16 - 3
+K:Bb major
+%%staves {1 2}
+V:1
+b | \
+f<d-d>!wedge!B     c>de>g         | f<d-d>!wedge!f  g2   (gb)  | \
+f<d-d>!wedge!c    [FB]>c{Bc}dB    | Gc B/A/G/F/    [DB]2 [DB]b |
+f<d-d>!wedge!B     c>de>g         | f<d-d>!wedge!f  g2   (gb)  | \
+[Ff]<d-d>!wedge!c [FB]>c{Bc}[Fd]B | Gc B/A/G/F/     B2 B     & x2 E2 D2 D ||
+d | \
+B>F    G/F/E/D/ F>G Bd & D2-D2D2D2 | f<dB>d   [Ac]2    [Ac]d/c/ | \
+[DB]>F G/F/E/D/ B>c d<b            | f<dc>d   B2       Bd/c/    |
+B>F    G/F/E/D/ F>G Bd & D2D2D4    | f<d[FB]d [Ac]2    ([Fc]e)  | \
+(3def (3gab (3gfe (3dcB            | G>c      A/B/c/A/ B2 B & E2E2D2D |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Bb]  [db]    [fc'] [fac'] | [bd'] [bd'] [be'] [be']   | \
+[bd'] [fb]/e/ [db]  [Bb]   | [Ee]  [Ff]  [Bb]  [Bb]/z/ | \
+[Bb]  [db]    [fc'] [fac'] | [bd'] [bd'] [be'] [be']   | \
+[bd'] [fb]/e/ [db]  [Bb]   | [Ee]  [Ff]  [Bb]  [Bb]/   || \
+z/ | \
+[Bb] [Bb]  [Bb] [Bb]           | [fb]    [fb]    [fc'] [fc']   | \
+[Bb] [_ab] [gb] [fb]/[=eb_d']/ | [fb=d'] [fc'e'] [bd'] [bd]/z/ | \
+[Bb] [Bb]  [Bb] [Bb]           | [fb]    [fb]    [fc'] [Aa]    | \
+[Bb] [eb]  [db] [Bb]           | [Ee]    [Ff]    [Bb]  [Bb]/   |]

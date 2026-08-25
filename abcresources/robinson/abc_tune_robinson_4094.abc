@@ -1,0 +1,20 @@
+X:143
+T:Rheinl\"ander  CGF (ABAC) (RL09387)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus dem Kanton Nidwalden. S.178-219. S.214 (RL09387) orig. C,G,F
+S: \"Uberliefert durch Karl Feierabend und Sepp Linder (*1883)
+P:ABAC
+%%MIDI program 21
+%%partsbox
+R:Reinländer
+M:2/4
+L:1/16
+O:Switzerland
+K:C major
+GG [P:A] |: !>!"C"g4 g2ee | "G7"f2B2d4 | gbb2 gaa2 | "C"gage c2GG | !>!g4 g2ee | "G7"f2B2d4 | 
+gbb2 a2B2 |1 "C"c2e2 c2GG :|2 "C"c2e2 c2Bc [P:B] |: [K:G] "G"dbdb d2d^d | "C"ec'ec' e2e=f | "D7"^fd'd'f "C"ec'c'e | 
+"G"dc'ba g2Bc | dbdb d2d^d | "C"ec'ec' e2e=f | "D7"^fd'd'f ec'ba |1 "G"g2b2 g2Bc :|2 "G"g2b2 g2G"_>Teil A"G ||  
+ [P:C] [K:F] |: [L:1/8] "F"c2 fe | d3A | d3A | "C7"Bfe2 | c2fe | d3B | d3B | 
+"F"Adc2 | c2fe | d3A | d3A | "Gm/Bb"Bag2 | d2ag | "F"f3A | "C7"d3c | "F"Ff fz :|
+W:Parts: AB-AC
+% RL09387

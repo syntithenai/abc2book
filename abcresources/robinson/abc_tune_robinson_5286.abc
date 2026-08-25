@@ -1,0 +1,23 @@
+X:53
+T:Die Sennerin. Mazurka GDC (mz07293) ABACDA
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.277 (mz07293) orig. G,Eb,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+%P:ABACDA
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:G major
+B>c [P:A] |: "G".d2b2 a>g | (T"D7"gf)c'2A>B | .c2!>!f2 f>e | ("G"Ted)B'2 B>c | .d2b2 a>g |1 "D"(Tgf) d'2 f>g | 
+"A7"(Tfe)^c'2e>f | "D7"(Ted) =c'2B>c :|2 "C"(Tfe)e'2e>f | "G".g2b>g "D7"f>a | "G"g2g2"_Fine"z2 [P:B] |: [K:D] "D"(a/d'/)z !>!d'2 (3d'af |  "Em"e>c'b2b2 | 
+"A7"(c/b/)zb2 (3bac | "D"d>fA2A2 | (a/d'/)z d'2 ((3d'a).f | "Em"e>c'b2b2 | "A7"(c/b/)zb2 ((3ba).c |1 "D".d2!>!d2z2 :|2 "D".d2!>!d2 B>"_>Teil A"=c  |] [K:C] [P:C] 
+|: "C"eg e'3(g | d')(gc'3)(g | "G7"c'2) b>^a b>d | f4 fe | df c'3(f | b)f a3 (B | 
+"C"f2)e>^d e>G | c4gf | eg e'3(g | d')(gc'3)(g | "F"b2) a>^g a>f | d'4 dc | "G7"Bd f3(d | "C"e)gc'3(e | 
+"G7"a)(d f)(G e>)d | "C".c2!>!c2z2 :| [P:D] "G7".A2!>!A2  ((3AG).B, | "C".A2!>!A2 ((3AG).C | "E7".B2!>!B2 ((3B^G).E | "Am".c2!>!c2 ((3cA).E | "F"(3d(EF) e3d  | 
+"C"((3dc).EG3^G |  "G7"(3A(B,D).A2G2 | "C"(3A(CE).A2G2 | "F"(3d(EF) !>!e3d | "C"((3dc).E G3^G | "G7"(3A(B,D) B>A F>D | "C".C2c2z2 |] 
+%W: Parts: ABACDA
+%% mz07293
+% May 29, 2017

@@ -1,0 +1,26 @@
+X: 75
+T:Miss MacDowal Grant's Strathspey --  of Arndilly
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:27 - 3
+K:C minor
+%%staves {1 2}
+V:1
+"^Slowly"
+g | \
+G<Gc>d {cd}e2 (eg) | d<bd<f B>c {Bc}d<B | \
+G<Gc>d {cd}e2 (eg) | f>b g/f/e/d/ {=B}c2 c :|
+g/a/ | \
+bcgc bcga | {ga}bgfa dBfd | \
+b<cg<c b<cg>a | {ga}b>gfd {=B}c2 cg/a/ |
+b<cgc b<cg>a | {ga}b>g f<b dBfd | \
+G<Gc>d {cd}e2 eg | f>b g/f/e/d/ {=B}c2 c |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | c'c'c'c' | BBBB | c'c'c'c' | fgcc/ :| \
+z/ | c'c'c'c' | bbbb | c'c'c'c' | ggcc/z/ | c'c'c'c' | bbbb | cccc | fgcc/ |]

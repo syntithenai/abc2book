@@ -1,0 +1,22 @@
+X:10
+T:Quick Step. JMP.010
+M:6/8
+L:1/8
+Q:3/8=110
+S:John Miller MS. Perth, 1799.(for the fife)
+R:March
+O:Scotland
+A:Perth
+N:Key and time signature very faint
+N:But I think I can see an f#.
+N:Maybe its modal
+H:1799
+Z:vmp.C. Graebe
+B:Village Music project, Miller, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/miller.abc
+notC:"13"
+K:G major
+E | ABA A2B | GAG G2 E | ABA ABd | e2d efg |!
+ABA A2 B | GAG G2E | c2 A BdB | A3 A2  :|!
+|:z|g2e ege | d2B BdB | g2ab2a | g2e ege |!
+d2B BdB | c2A AcA | c2A BdB | A3 A2 :|

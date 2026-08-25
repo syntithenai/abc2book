@@ -1,0 +1,35 @@
+X:1
+T:Brisä-Juiz. 1994  A-Dur  ABCCA
+T:Franziska Bircher  (* 1.5.1964)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCCA
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:A major
+[P:A] CD | E3^D FE | A3G BA | c4d2 | e4dc | BE Ee dc | 
+BE Ed cB | AC CA GF | E4CD | E3^D FE | A3G BA | c4de | 
+!fermata!f4ed | cE Ee Ac | BE Ee cB | A3E cB | A4 || 
+M:3/4
+[P:B] c2 | Be ed Bd | ce cAE2 | B z/^A/ B z/A/ B z/d/ | c2A2e2 | 
+Be ed Bd | ce cAE2 | B z/^A/ B z/A/ Bc | A4c2 | 
+Be ed Bd | ce cAE2 | B z/^A/ B z/A/ B z/d/ | c2A2e2 | 
+Be ed Bd | ce cAE2 | B z/^A/ B z/A/ Bc | A4 ||
+M:2/4
+L:1/8
+[P:C] !fermata!C2!fermata!D2 | Ec cE | Ec cE | Ee cd | c2dc | BG Gc | BE Ec/B/ | 
+AC CF | E2CD | Ec cE | Ec cE | Ee cd | c2fe | dF ed | 
+cE dc | B^A B=c | c2fe | dF ed | cE dc | Be cB | (A4 | A2)z2 |] 
+W:
+W:Reihenfolge: A - B - CC - A
+W:
+W:dem Jodlercheerli Brisäblick herzlich gewidmet
+W:
+W:notiert Edi Gasser. Angaben Franziska Bircher
+W:UJV-Naturjodelsammlung: Code-Nr: 24-01
+W:http://www.naturjodler.ch/code 24.htm  (with AUDIO)
+%May 24, 2018

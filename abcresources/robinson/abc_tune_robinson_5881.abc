@@ -1,0 +1,40 @@
+X:12
+T:Fäscht-Jodel.  Bb  ABCD
+T:André von Moos-Müller (7.2.1957)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABCD
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen" D F B | d3F (3edc | (B2!breath!F) D FB | d3F (3edB | c2zE FA | c3F (3fed | 
+(c2A) E FA | c3F (3edc | B2zD FB | d3F (3edc | (B2F) D FB | 
+d3f (3dc_A | G3E GA | B3G (3edc | (B2F) D FB | c3f (3edc | B3 || 
+L:1/8
+M:2/4
+[P:B] "ruhig, freudig" F G F | Fd d>F | Fd d>F | F>B cd | c4 | Fc c>F | Fc c>F | F>A Bc | B4 | F>d d>F | 
+Fd d>F | F>B B_A | G4 | G>e dc | BF F>d | cF dc | B2z2 | F>d d>F | F>d d>F | F>B cd | 
+c4 | Fc c>F | Fc c>F | F>A Bc | B4 | Fd d>F | Fd d>F | F>B B_A | G4 | G>e dc | 
+BF F>d | cF F>c | BF F>_A | G>e dc | BF F>d | c2F2 | c2B2 | A4 ||  
+M:4/4
+L:1/8
+[P:C] "ruhig" F FB | d3F de cd | B3G FD BG | G3B AE A>G | F4zF FB | d3F de cd | 
+B3_A GB Bc | d3F de d>c | B4zF FB | d3F de cd | B3G FD BG | G3B  AE A>G | 
+F4zF FB | d3F de cd | B3_A GB Bc | d3F de d>c  | B4z2 || 
+M:2/4
+L:1/8
+[P:D] "freudig"Fd d>F | Fd d>F | F>B cd | c4 | Fc c>F | Fc c>F | F>A Bc | B4 | 
+Fd d>F | Fd d>F | F>B B_A | G4 | G>e dc | BF F>d | cF F>c | 
+BF F>_A | G>e dc | BF F>d | c2F2 | d2c2 | B4 | e4 | d4 | c4 | B4 | B2z2 |] 
+W:
+%W:Reihenfolge: A - B - C - D
+W:komponiert für's Eidg. Jodlerfest 2008 in Luzern
+W:
+W:notiert Edi Gasser. Angaben André von Moos
+W:UJV-Naturjodelsammlung: Code-Nr: 37-05
+W:http://www.naturjodler.ch/code 37.htm  (with AUDIO)
+%Juni 5, 2018

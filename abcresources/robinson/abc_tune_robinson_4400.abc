@@ -1,0 +1,17 @@
+X: 158
+T: Schlummer-Schottisch BbFEb (st08812)
+T: = "Ach ich bin so müde"
+B:Hanny Christen. Bd.VII. Bern II, Solothurn. S.390 (st08812) orig. Bb,FEb-Dur
+S: Tänze aus dem Kanton Bern (Zusammenfassung) S.375ff
+%%partsbox
+%%MIDI program 21
+P:ABACD
+R:Schottische
+O:Switzerland
+M:2/4
+L:1/8
+K:Bb major
+[P:A] "Bb"dF de | "F7"cF cd | ee/d/ ef | "Bb"dd/c/ B2 | dF de | "F7"cF cd | ed/e/ f/e/d/c/ | "Bb"BB Bz :: [P:B] [K:F] "F"AF/A/ c2 | 
+cA/c/f2 | "C7"e/d/c/B/ dc | e/d/c/B/ dc | "F"AF/A/ c2 | cA/c/ f2 | "C7"e/d/c/B/ A/c/B/G/ | "F"FA F"_> Teil A"z ::[P:C][K:Eb] "Eb"GG GA | 
+B2e2 | "Ab"cc ce | "Eb"B2G2 | "Bb7"ff fe | d>cB2 |1 bb ba | "Eb"g>fe2 :|2 ag/b/ ad/f/ | "Eb"ee ez || 
+[P:D] "Bb7"c>B d>B | "Eb"eB/=A/ Be | "Bb7"dB/=A/ Ba | "Eb"gg/f/ eB | "Bb7"c>B d>B | "Eb"eB/=A/ Bg | "Bb7"a>c d>B | "Eb"ee ez |]

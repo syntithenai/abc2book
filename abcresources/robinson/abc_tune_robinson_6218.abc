@@ -1,0 +1,21 @@
+X:1
+T:Schottisch  FCBb  (st06956)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.117  (st06956) orig. F,C,Bb
+S: Basel II. Tänze aus Bubebdorf. S.113-121.
+S:Überliefert durch Ernst Straumann, 1945
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] C/F/  |: "F"AA AB | =B/c/c CC/F/ | AA AG/F/ | "C7"E/G/C CE/G/ | "Bb"Bd dd | "C7"^c/d/e dd | =Bc ^GA | 
+"F"F2FC/F/ | AA AB | =B/c/c CC/F/ | AA AG/F/ | "C7"E/G/C CE/G/ | "Bb"Bd dd | "C7"^c/d/e dd | G/c/B ze |1 
+"F"ff fC/F/ :|2 "F"ff fz |: [P:B] [K:C] "C"e2e>B | dcG2 | cE/G/ BA | ("G7"G2.F2) | f>e e>d | dGB2 | e>d d>c | 
+"C"cEG2 | e2e>B | dcG2 | cE/G/ BA | ("G7"G2.F2) | "F".f!>!A2.f | "C".e!>!G2.e | "G7"dG/B/ dB | "C"cc c"_>Teil A"z :|  [K:Bb]
+[P:C] |: "Bb"f3d/B/ | F=E/F/ A>G | "F7"F3 c/d/ | e2ze/e/ | ee c>c | cc A>G | "Bb"F2G/A/B/c/ | ddd2 | 
+f3d/B/ | F=E/F/ A>G | "F7"F3c/d/ | e2ze/e/ | "Cm"ec ec/c/ | "Bb"dB dB/B/ | "F7"cA/c/ f>A | "Bb"BB Bz :| 
+% st06956
+% April 29, 2018 ("Der sanfte Rebell")

@@ -1,0 +1,35 @@
+X: 90
+T: Boiereasca
+O: Romanian klezmer
+R: bulgar, sher
+S: Dick Crum, Ron Wixman
+M: 2/4
+L: 1/16
+K: Bm^e
+F2 \
+| "Bm"B3c d3f | e2d2 f4 \
+| efga bagf | gfed edcB \
+| efga bagf | e3d edcB |
+| efbf bagf | e2f2 z2F2 \
+|| "Bm"B3c d3f | e2d2 f4 \
+| efga bagf | gfed edcB |
+| B^ABF dcdB | fefd a4 \
+!coda!\
+| "C7"gfed "F#7"edcB | "Bm"cdB2 z2 \
+:: f2 \
+| "Bm"b3f bagf | bfbf bagf |
+| d'c'ba gfed | e3d edcB \
+| cdBd efdf | agfe "F#7"f4 \
+|| "Bm"b3f bagf | bfbf bagf |
+| d'c'ba gfed | c2d2- d2df \
+| "C7"e3d "F#7"dccB | "Bm"B4 z2 :|[K:Bmix]\
+|: f2 \
+| "B"d8- | d8 \
+| {^e}f8- | f8 |
+| defg agfe | eddc cBf2 \
+| ^efff ffff | bagf ^e2f2 \
+| ^efga bagf |
+| =d'c'ba gfed \
+| "C7"^efgf "F#7"=e3d | "B"^^cdB2 z2 :|\
+!coda!\
+[| "F#7"zf^ef =g^g=a^a | "B"b2z2 "F#7"f2z2 "Bm"HB4 |]

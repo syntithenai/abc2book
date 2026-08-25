@@ -1,0 +1,12 @@
+X:178
+T:Polka-Mazurka CGF (mz05155)
+%%MIDI program 21
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"e>f g2a2 | "G7"g2f2f2 | d>ef2g2 | "C"f2e2e2 | c'>c'd'2c'2 | "G7"c'2b2b2 |1 "F"a>ab2a2 | "C"a2g2g2 :|2 "F"a>gf2"G7"b2 | "C"c'2c'2z2 || [K:G] 
+|: "G"Bd gdb2 | "Am/C"bae2e2 | "D7"df afc'2 | "G"c'bg2g2 | Bd gd b2 | "Am"ae aec'2 | "D7"bc' ba ef |1 "G"ag fed2 :|2 "G"g2g2z2 || [K:F]
+|: "F"ccc2a2 | "Bb"b2d2d2 | "C7"cce2g2 | "F"a2f2f2 | f2g3f | "C7".e2 !>!b4 |1 "Bb"d2e3d | "F".c2!>!a4 :|2 "C7"de a2g2 | "F"f2f2z2 || 
+|: "Bb"fe de fd | "F"d2c2c2 | "C7"Bc e2d2 | "F"d2c2c2 | "Bb"fe de fd | "F"d2c2c2 | "C7"cd ec de | "F"f2f2z2 :| 
+% mz05155

@@ -1,0 +1,25 @@
+X: 128
+T:Mrs Colonel Forbes' Strathspey
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:45 - 1
+K:C major
+%%staves {1 2}
+V:1
+e | \
+c2 (G>E) Dd-d>[BG] | c<G!trill!A>G c2 (ce) | \
+c>G A/G/F/E/ Dd-d>e | C<CE>G c2 c :|
+e | \
+c>ge>g a/g/f/e/ de | c<ge<g c<ge<g | \
+f<ae<g !trill!d>c d<e | (G<c)(c>d) {f}e2 (de) |
+c>ge>g a/g/f/e/ de | c<ge<g c<af<a | \
+g<c'e<g d>c !trill!d<e | (G<c)(c>d) {f}e2 d |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | ccgg | cccc | ccgg | cgcc/ :| \
+z/ | c'c'c'g | c'c'c'c' | d'c'gg | c'gcc | c'c'c'g | c'c'ff | ecgg | c'gcg/ |]

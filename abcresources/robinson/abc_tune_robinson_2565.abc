@@ -1,0 +1,22 @@
+X:4
+T:Bulgarian tune (from Emma)
+M:11/8
+O:Bulgaria
+Z:Richard Robinson <URL:http://www.qualmograph.org.uk/contact.html>
+%%RRGroups:Alistair and Christina
+S:Emma Grut
+K:D major
+D2F2 "tr"F2D FGA2 | ABAG "tr"F2E FGAD | \
+D2F2 "tr"F2D FGA2 | ABAG "tr"F2E FED2 :|
+|:ABB2 "tr"B2A Bcd2 | ABAG "tr"F2E FGAD | \
+ABB2 "tr"B2A Bcd2 | ABAG "tr"F2E FED2 :|
+|:ABAG "tr"F2E FGAD | ABAG "tr"F2E FED2 :|
+K:C
+|_Bcdc BAG c BAG | ^FGA2 G^FG E2EC |\
+^FGGC E2G F2FE | E2_BA G^FG E4|
+_Bcdc BAG c BAG | ^FGA2 G^FG E2EC | \
+^FGGC E2G F2FE | E2 FE E^DE C4||
+|:^FGGC E2G F2FE |E2_BA G^FG E4| \
+^FGGC E2G F2FE |E2FE E^DE C4:|
+|:EFFE E^DE CDEC| EFFE E^DE C2CG,|\
+EFFE E^DE CDEC| EFFE E^DE C2C2 :|

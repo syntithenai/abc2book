@@ -1,0 +1,18 @@
+X:209
+T:Vendetta-Polka FCBb (nach Tommaso Arzalesi)  (pk02115)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.320 (pk02115) orig. F,C,Bb
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Polka
+M:2/4
+L:1/16
+K:F major
+[P:A] {/d}"F"c=Bcd c2f2 | "C7"fee^d "(A7)".e4 | "Gm/Bb"gaba {/a}"C7"gfed | {/e}"F"dc=BcA4 | {/d}c=Bcd c2f2 | {/e}"Gm"d^cde d2gf | 
+"C7"fedc =Bcbe | "F"f2f2 f2z2 :: [P:B]  [K:C] "C"g2ag ^fgec | "G7"B2{/e}f2 {/e}f2A_A | G2{/e}f2 {/e}f2A_A | "C"G2{/^d}e2 {=d}e4 | 
+g2ag ^fgec | "Dm"a2_ba ^gafd | "C"^fgec "G7"e=fdB | "C"c2e2 c2z2 :| [P:C] [K:Bb]  "Bb"f=egf bac'b | d'abg f2bd' | 
+"F7"c'e'ab c'2ac' | "Bb"c'be'd' "F7"c'bag | "Bb"f=egf bac'b | d'abg f2bd' | "F7"c'e'ab c'2ac' | "Bb"bfdf "_Fine"B4 |] 
+% pk02115  
+% Oct 30, 2016

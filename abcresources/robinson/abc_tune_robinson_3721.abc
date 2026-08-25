@@ -1,0 +1,16 @@
+X:257
+T: Walzer GC (pk05108)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.369 (pk05108) orig. G,C-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%partsbox
+%%MIDI program 21
+R:Waltz
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+[P:A] "G"d>cB | "D7"ccA | a>gf | "G"bbg | d>cB | "Am"ccA | "D7"a>gf | "G"gzG/B/ :| 
+[P:B] |: "D7"c/e/d2 | c/e/d2 | c/a/ag | "G"b/g/ d/B/G | "D7"c/e/d2 | c/e/d2 | c/a/af |1 "G"gzz :|2 "G"gze/=f/ || [K:C] 
+[P:C] |: "C"gg/a/g | c/e/ g/G/c | "G7"G/B/ d/G/ B/d/ | "C"a/g/ e/G/c | gg/a/ g/a/ | c/d/ e/g/ c | "G7"G/B/ d/f/ a/B/ |1 "C"cze/f/ :|2 "C"czB/c/ || 
+[P:D] |: "G"dd/e/d | b g/d/B | "C"e c'/a/ "D7"^f/a/ | "G"g"G7"f2 | "C"c/d/ e/f/ g/a/ | c' ^f/g/ e/c/ | "G7"a e/f/ d/B/ | "C"czz :| 
+% May 30, 2016

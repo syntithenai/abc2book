@@ -1,0 +1,25 @@
+X:198
+T:Backfischen (Schottisch) FCBb (st06446) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.157 (st06446) orig. F,C,Bb
+T: Basel - Repertoire der 'Dorfmusik Binningen. S.140-201
+T:Überliefert durch Jakob Lüscher-Müller
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+(A/B/) [P:A] |: ("F"cf) ("C7"eg) | ("F"fa) a>f | ("C7"eg) g>e | ("F"fd) c(A/B/) | (cf) ("C7"eg) | ("F"fa) a>f | ("C7"eg) g>e |1 
+"F"ff f(A/B/) :|2 "F"ff fe/f/ |: [P:B] [K:C] "C"gg c'>g | "Dm"bb a(d/e/) | "G7"ff b>f | "C"aa g(c/d/) | ee a>e | 
+"G7"gg f>e | d>e f/g/a/b/ |1 "C"c'c' c'e/f/ :|2 "C"c'c' c'A/"_>Teil A"_B/ || [P:C] [K:Bb] d |: ("Bb"de) (=ef) |  b3a | 
+"Eb"gf ed | "F7"c3=B | (cd) (ef) | a3g | (f^f) (ge) | "Bb"d2zd | (de) (=ef) | b3a | 
+(c'b) (ab) | "Eb"g2z(c/d/) | eg g/f/e | "Bb"df f/e/d |  "F7"ce c>A | "Bb"BB Bd :: [P:D] "F7"c>d ef | 
+ga bc' | "Bb"d'2b>"_*"g | f2zg | "F7"f>g fc' | f2zg | "Bb"f>g fd' | b2zd | "F7"c>d ef | 
+ga bc' | "Bb"d'2 b>"_*"g | f2z^f | "Cm"g>c' g^f | "Bb"=f>b fd | ("C7"cg) ("F7"f/e/)d/c/ |1 "Bb"BB Bd :|2 "Bb"BB B"_Fine"z |]   
+W:
+W:Anmerkung Hrsg.: Teil D, Takt 3/11 HC:A
+W:Anmerkung H.C.:Seltisberg 55, Glaus, s.V.464
+% st06446
+% Dez 13, 2016

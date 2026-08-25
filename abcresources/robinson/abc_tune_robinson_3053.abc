@@ -1,0 +1,23 @@
+X:30
+T:Smiths Hornpipe. JMP.030
+M:C|
+L:1/8
+Q:1/2=90
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Hornpipe
+O:Scotland
+A:Perth
+N:MS has key as G major.  But then almost everything in the MS is in G
+N:major.
+N:Try it in D major
+H:1799
+Z:vmp.C. Graebe
+B:Village Music project, Miller, John
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/miller.abc
+notC:"32"
+K:D major
+(F/G/A/) |"_Key Gmaj in MS" B2 E2 E2 AG |\
+FGEF D2 de | fdec dBAF | B2 E2E2 :|!
+|: FE | D2 "_d added"d2 d2 d>e | (fe)(dc)  (BA)(GF) | E2 e2 e2 de |\
+(fe)(fd) (Bc)(de) |!
+(fg)(fa) (ef)(ef) | dBAF ABde |fdec dBAF | B2 E2 E2 :|

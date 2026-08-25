@@ -1,0 +1,23 @@
+X:1
+T:Kreuzpolka.  FBb (kp07043) ABC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.159  (kp07043) orig. F,Bb
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Kreutpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] "F"Ac/c/ cf/f/ | .a2!>!f2 | .A.c .f.a | "C7".b2!>!e2 | cg/g/ gf | edc2 | "F"ca/a/ ag | fcA2 | 
+Ac/c/ cf/f/ | .a2!>!f2 | .A.c .f.a | "C7".b2!>!e2 | "C"gg/g/  gc' | .e.a .g.e | "G7"ed .d/.f/.e/.d/ |1 "C7"cc cz :|2 "C"cc cc || 
+[P:B] |: "C7".b.e .e(c/e/) | .b2!>!b2 | "F".a.f .f(c/f/) | .a2!>!a2 | "C7"eg c'/c'/c' | bce2 | "F"fa c'/c'/c' | acf2 | "C7"be .e(c/e/) | 
+.b2!>!b2 | "F"af f(c/f/) | .a2!>!a2 | "C7"eg c'/c'/c' | "F"ac f(f/a/) | "C7"gc (e/d/)(c/e/) |1 "F"ff fz :|2 "F7"ff dd/_e/ || [K:Bb] 
+[P:C] |: "Bb"f(d/e/) fd | .b2 (d/f/)(f/b/) | "F7"c'a/a/ ac | .a2 (c/d/e/f/) | !>!c'2 .a.c | !>!a2 .c.e | !>!"Bb"g2fd | f2 db | fd/e/ fd | 
+.b2(d/f/)(f/b/) | "F7"c'a/a/ ac | .a2 (c/d/)e/f/ | !>!c'2ac | !>!a2ce | !>!"Eb"g2"F7"fa |1 "Bb"bb bd/e/ :|2 "Bb"bb bz |] 
+%W:Parts: ABC
+W:Anmerkung H.C.: "Schällibaum", Wattwil
+% kp07043
+% July 7, 2018

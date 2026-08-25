@@ -1,0 +1,25 @@
+X:1
+T:Die Freuden des Tanzens. Schottisch  CF ( st07014)
+T:Hanny Christen. Bd.V  Basel II, Jura. S.147  ( st07014) orig. C,F
+S: Basel II. Tänze aus Böckten. S.146-181.
+S:Überliefert durch Karl Schaub und Paul Brandenberger
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+"C"c>c cc | ce ca | "G7".g2(ba/b/) | .c'2z2 [P:A] |: "C"cG cG | "G7"BGd2 | d>c B>a | "C"agc2 | cG cG | 
+"G7"BGd2 | fd A>B | "C"cc cz :: [P:B] "G7"Gf Gf | !>!f2(ed) | "C"Ge Ge | !>!e2(dc) | "G7"g2Bd | g3f | "C"fe c>f | 
+"C"e3c | "G7"Gf Gf | !>!f2ed | "C"Ge Ge | e2dc | "F"a2aa/a/ | "C"g2ee | "G7"dd a>b | "C"c'c' c'z :| [K:F] 
+[P:C]  |: "F"c'!>!a2f | "C7"fee2 | b!>!g2e | "F"ffc2 | c(f2e) | "Gm"d3G | "C7"G(e2d) | cb ag | 
+"F"c'!>!a2f | "C7"fee2 | b!>!g2e | "F"ffc2 | c!>!f2A | "Gm"Gdd2 | "C7"c/B/A/B/ d>e | "F"fa fz :| 
+W:
+%W:Parts: ABC
+W:Schottisch nach E. Heggendorn
+W:
+W:Anmerkung H.C.:Waldenburg, E. Heggendorn, Lampenberg, Wynige/Zch., Lausen/Auhst
+% st07014
+% June 22, 2018

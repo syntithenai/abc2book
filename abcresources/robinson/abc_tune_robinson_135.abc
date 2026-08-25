@@ -1,0 +1,52 @@
+X:13
+T:Huntsman's Chorus,3parts. JNu.13
+M:2/4
+L:1/8
+Q:1/2=60
+S:James Nuttall MS,c1830?,Rossendale,East Lancs.
+R:Air
+O:England
+A:Lancashire, E
+N:at + make accent,at X there is a mysterious SIGN..CGP
+Z:vmp.Manchester Morris Men
+V:1
+V:2
+V:3 clef=bass
+B:Village Music project, Nuttall, James
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/nuttall.abc
+K:G major
+[V:1] |: D | G2 G/A/B/c/ | d2BB | .A.d.A.d | B/c/B/A/ GD | G2 G/A/B/c/ | "crs"(dB)B2 | Adfe | d3 :|
+[V:2] |: z | B,D B,D | B,DDG | F2FF | GDB,z | B,D B,D | B,DDG | FFAG | F3 :|
+[V:3] |: z | G,,2G,,2 | G,2G,,2 | D,2D,D, | G,D, G,,z | G,,G, G,,G,, | D,2D,2 | A,2A,,2 | D,3 :|
+%
+[V:1] |: A | B2BB | G2GG | c2cc | A2AA | B2BB | G2GG | c2cc | A2 zD |
+[V:2] |: z | D2DD | E2EE | E2EE | F2FF | D2DD | E2EE | E2EE | F2z2 |
+[V:3] |: z | G,,2G,,G,, | C,2C,C, | A,,2A,,A,, | D,2D,D, | G,,2G,,G,, | C,2C,C, | C,2C,C, | D,2z2 |
+%
+[V:1] B2BB | c2BB | A2 B/A/G/A/ | B2GG | B2 BB | dcBB | B/A/G/A/ BA | G3D |
+[V:2] G2GG | E2GG | F2G/F/E/F/ | GDB,D | G2DD | E2DD | G/F/E/F/ GD | B,3z |
+[V:3] G,,2G,,2 | C,2G,,2 | D,2D,2 | G,2G,,2 | G,,2G,,2 | G,,2G,,2 | C,C, D,D,, | G,,3z |
+%
+[V:1] DD/D/ DD/D/ | DD/D/ DD/D/ | (G2 D)B | G2 DB | d/c/A d/c/A | d/c/A d/c/A | G2 DB | G2 DB |
+[V:2] z4 | z4 | B,DB,D | B,DB,D | A,DA,D | A,DA,D | B,DB,D | B,DB,D |
+[V:3] .D,,2.D,,2 | .D,,2.D,,2 | .G,,2.G,,2 | .G,,2.G,,2 | D,A,,D,A,, | D,A,,D,A,, | .G,,2.G,,2 | .G,,2.G,,2 |
+%
+[V:1] d/c/A d/c/A | d/c/A d/c/A | BG/B/ d2 | BG/B/ d2 | BG/G/ GB | A2-A2 | (G2 D)B | G2 DB |
+[V:2]  A,DA,D | A,DA,D |G2FD/F/ | G2FD/F/ | GD/D/ B,G | F4 | zDDD | zDDD |
+[V:3] .D,2.D,2 | .D,2.D,2 | G,2D,2 | G,2D,2 | D,D,/D,/ D,D, | D,4 | .G,,2z2 | .G,,2z2 |
+%
+[V:1] dc/A/ dc/A/ | dc/A/ dc/A/ | G2 DB | G2 DB | dc/A/ dc/A/ | dc/A/ dc/A/ | BG/B/d2 |
+[V:2] zFzF | zFzF | zDDD | zDDD | zFzF | zFzF | G2FD/F/ |
+[V:3] .D,2.D,2 | .D,2.D,2 | .D,2z2 | .D,2z2 | .D,2.D,2 | .D,2.D,2 | G,2F,D, |
+%
+[V:1] BG/G/ GG | G3"X"d/d/ | dB/B/ Bg/g/ | gd/d/ db/b/ |
+[V:2] GD/D/ B,B, | B,3"x"B/B/ | BG/G/ GB/B/ | BB/B/ Bg/g/ |
+[V:3] G,B,DB, | G,3"X"G,/G,/ | G,G,/G,/ G,G,/G,/ | G,G,/G,/ G,G,/G,/ |
+%
+[V:1] b2 a/g/f/e/ | d2 Bd/d/ | dB/B/ Bg/g/ | gd/d/ db/b/ | b2 a3/4g/4f3/4a/4 |
+[V:2] g2 (f/e/d/c/) | B2GB,/B,/ | B,G,/G,/ G,B,/B,/ | B,B,/B,/ B,G/G/ | G2 F3/4E/4D3/4C/4 |
+[V:3] G,2D,D, | G,3G,/G,/ | G,G,,/G,,/ G,,G,,/G,,/ | G,G,/G,/ G,G,/G,/ | G,2D,D, |
+%
+[V:1] g3/4f/4g3/4^g/4 a3/4f/4d3/4f/4 | g3/4f/4g3/4^g/4 a3/4f/4d3/4f/4 | gg/g/ gb | g3 :|
+[V:2] B,B,3/4B,/4D2 | B,B,3/4B,/4 D2 | B,B,3/4B,/4 B,D | B,3 :|
+[V:3] G,G,3/4G,/4 F,F,3/4F,/4 | G,G,3/4G,/4 D,D,3/4D,/4 | G,,G,,3/4G,,/4 G,,D,, | G,,3 :|

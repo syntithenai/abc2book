@@ -1,0 +1,32 @@
+X:26
+T:Hostatt-Juiz. 1999  Bb ABCD
+T:Sepp Herger  (* 16.1.1962)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+M:2/4
+K:Bb major
+[P:A] FE | D2DE | FD dc | B2Bc | d2fd | c2cB | AB cf | d>e dc | B4 | 
+zD FE | D2DE | FD dc | B2Bc | d2fd | c2 f>e | d2c2 | !fermata!B2z2 || 
+M:2/4
+[P:B] dB d>c | B2D2 | dB f>d | c4 | c>B AB | cff2 | fF/e/ dc | B3z | 
+dB d>c | B2D2 | dB f>d | c4 | c>B AB | cff2 | fF/e/ dc | B3z || 
+[P:C]  FE | D2DE | FD dc | B2Bc | d2fd | c2f>e | d2c2 | (B4 | B2)z2 || 
+M:3/4
+[P:D] D/E/F F/F/F/F/ G/F/F/F/ |  F/F/d B>f c>z | EF F/F/F/F/ G/F/F/F/ | 
+F/F/f c>e d>z | DF F/F/F/F/ G/F/F/F/ | F/F/d B>f c>z | 
+EF F/F/F/F/ G/F/F/F/ | F/F/f f/e/d/c/ B>z | D/E/F F/F/F/F/ G/F/F/F/ | 
+F/F/d B>f c>z | EF F/F/F/F/ G/F/F/F/ | F/F/f c>e d>z | 
+DF F/F/F/F/ G/F/F/F/ | F/F/d B>f c>z | EF F/F/F/F/ G/F/F/F/ | F/F/f f/e/d/c/ B>z |] 
+W:
+%W:Reihenfolge: A-B-C-D
+W:
+W:notiert Edi Gasser, nach Angaben von Sepp
+W:UJV-Naturjodelsammlung: Code-Nr: 22-14
+W:http://www.naturjodler.ch/code 22.htm  (with AUDIO)
+%May 22, 2018

@@ -1,0 +1,15 @@
+X:17
+T: Die Alpen-Fee (Polka) BbFEb (pk00330)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.275 (pk00330) orig. Bb,F,Eb-Dur
+T: Repertoire der <S\"achser Musig> 1880-1900, Weinigen ZH. S.275-296
+%%partsbox
+%%MIDI program 21
+P:ABAC
+M:2/4
+L:1/16
+K:Bb major
+[P:A] "Bb"FBd2 F2d2 | "Eb"e2G2G4 | "F7"Acf2 f3e | "Bb"e2d2d4 | FBd2 F2d2 | "Eb"e2G2G4 | "F7"Acf2 f3e |1 
+"Bb"d2c2B4 :|2 "Bb"d2c2 B2cd |: [P:B] [K:F] "C7"c2ef g2cd | "F"c2fg a2gf | "C7"feBc e2d2 | "F"dcFA d2cd | 
+"C7"c2ef g2cd | "F"c2fg a2gf | "C7"ed^cd A=cBG |1 "F"F2A2 F2cd :|2 "F"F2A2 F2"_>Teil A"z2 |] [P:C] [K:Eb] "Eb"B2G2 B3g | 
+(e4e)BGc | B2G2 B3f | (e4e)edc | "Bb7"d2F2 F3A | (d4d)cB=A | "Eb"B2E2 E3F | (G4"Bb7"G)GA=A | "Eb"B2G2 B3g | 
+("(Cm)"e4e)cGc | "Eb"B2G2 B3g | ("(Cm)"e4e)efe | "Fm"d2A2 "Bb7"c3d | "Eb"f2e2B4 | "Bb7"cB=AB dBgf | "Eb"e2e2 e2z2 |]

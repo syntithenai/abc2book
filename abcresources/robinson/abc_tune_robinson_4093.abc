@@ -1,0 +1,23 @@
+X:142
+T: R\"osslispiel-L\"andler  CFBb (LD08948)
+S: Hanny Christen. Bd.X Unterwalden II. Glarus.
+S: T\"anze aus Kerns. S.6-61. S.24 (LD08948) orig. C,F,Bb-Dur
+S: \"Uberliefert durch Josef P\"untener (1870-1950) und Isidor Bucher
+%%MIDI program 21
+R:Ländler
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+"C"eg c'e gc' | eg c'e gc' | "G7"dg bd gb | "tr"a4g2 | dg bd gb |1 "tr"a4g2 | "C"eg c'c ea | gc eag2 :|2 "tr"a4 gb | 
+"C"c'g ec eg | c'2z2 aa |: [K:F] "C7"ba gf ed | gf ed cB | "F"Ac fa c'2 | z2ff ff | "C7"ec egc'2 | z2b2e2 |1 "F"gf edc2 | 
+z2z2aa :|2 "F"fa cf Ac | F2gg gg |: [K:C] "C"g2ecG2 | Gc eG ce | "G7"fG Bdg2 | z2gg gg |1 g2fBG2 | GB fG Bf | 
+"C"eG ceg2 | z2 gg gg :|2 g2fdB2 | ag Ba gB | ("C"c6 | c2)z2cc |: [K:F] "F"cf ac fa | "C7"bc cbe2 | ce bc eb | 
+"F"ac caf2 | cf ac fa | "C7"bc cbe2 | ce gd' c'e |1 "F"f2z2cc :|2 "F"f2z2ff |: "Bb"df bd fb | "F"cf ac fa | "C7"eg c'e gc' | 
+"F"fa c'f ac' | "Bb"df bd fb | "F"cf ac fa | "C7"ce gc c'e |1 "F"f2z2ff :|2 [K:Bb] "F"fb "Bb"b3f |: "F7"fa afe2 | fa a3f | 
+"Bb"fb bfd2 | fb b3f | "F7"fa afe2 | cd ef ac' |1 "Bb"b2z2ff :|2 "Bb"b2z2cc |: [K:F] "F"cf ac fa | "C7"bc egc'2 | 
+ce bc eb | "F"ac fac'2 | cf ac fa | "C7"bc egc'2 | ce gb ag |1 "F"f2z2cc :|2 "F"f2z2ff |: [K:Bb] "Bb"fd Bf dB | 
+"F7"fe Af eA | fe Af eA | "Bb"fd Bf dB | df bd fb | "Cm"eg c'e gc' | "F7"ac' d'a c'f' |1 "Bb"b2z2ff :|2 "Bb"b2z2z2 |] 
+W:
+W: R\"ossli - dim. of Ross (Swissgerman for das Pferd - the horse), das Spiel (the game)
+% LD08948

@@ -1,0 +1,22 @@
+X:1
+T: Schottisch CGF (st07268)  ABAC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.110  (st07268) orig. C,G,F
+S: Basel II. Tänze aus Liestal. S.95-112.
+S:Überliefert durch Alfred Gisin-Oester und Max Meyer, 1942
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+ g [P:A] |: "C"c'g/e/ cc | "G7"Bd fa | ag/d/ BB | ("C"ce) .g.c' | c'c'/c'/ bc' | "G7"d'd'/d'/ d'g | bb a>a | "C"gg!>!e2 | 
+c'g/e/ cc | "G7"Bd fa | ag/d/ BB | ("C"ce) .g.c' | c'c'/c'/ bc' | "G7"d'd'/d'/ d'g | bd f>d |1 "C"cc cg :|2 
+"C"cc cz [P:B] |: [K:G] "G"d2dg | "C"ee ze | "D7"dd gf | "G"BG !>!D2 | d2dg | "C"ee ze | "D7"df a>f | "G"gg g"_>Teil A"z :|  [K:F] 
+[P:C] |: "F"c2(cd) | .c(c/a/)f2 | c2 cd | .c(c/a/) f2 | "C7"gg ff | cc!>!e2 | gg/f/ ec | "F"ddc2 | 
+c2(cd) | .c(c/a/)f2 | c2 cd | .c(c/a/) f2 | "C7"gg ff | ee!>!d2 |"F" c>a "C7"g>e | "F"ff fz :| 
+%W:Parts: ABAC
+W:Anmerkung H.C.: 27. Aug. 1949 
+% st07268 
+% April 8, 2018 (Question not bound for an answer)

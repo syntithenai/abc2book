@@ -1,0 +1,28 @@
+X:12
+T:Hobiel-Juiz  Bb  ABAC
+T:Xaver Ambauen  (* 3.2.1925)
+T:Dirigenten-Notiz, Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+P:ABAC
+M:3/4
+R:Naturjodel
+L:1/8
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] "getragen"  F>G | FdB2F>G | Ffd2ed | c>F Ff dc | 
+[M:4/4] B>A Bcd2 F>G | [M:3/4] Fd B2F>G | Ffd2ed | c>F Ff dc | B4 ||
+M:4/4
+[P:B] "fröhlich, zügig"  F2dFB2dF | f2edc4 | F2AcF2Ag | f2dFB4 | F2dFB2dF | 
+e2edc4 | F2Ac Ff dc | B6z2 | F2dFB2dF | f2edc4 |
+ F2AcF2Ag | f2dFB4 | F2dFB2dF | e2edc4 | F2Ac Ff dc | B6z2 || 
+M:4/4
+[P:C] "schnell, lüpfig"  F2FdB4 | F2Ffd2ed | c2F2Ff dc | B3cd2B2 | F6z2 | 
+F2FdB4 | F2Ffd2ed | c2F2Ff dc | B6z2 | "breit" c3F Ff dc | B6z2 |] 
+W:
+%W:Reihenfolge: ABAC
+W:notiert Edi Gasser, nach Angabe von  Hans Schmid
+W:UJV-Naturjodelsammlung: Code-Nr: 08-06
+W:http://www.naturjodler.ch/code 08.htm  (with AUDIO)
+%May 4, 2018

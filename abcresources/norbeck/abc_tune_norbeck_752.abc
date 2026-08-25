@@ -1,0 +1,27 @@
+X:412
+T:Mike Flanagan's Jig
+T:Flanagan Brothers' Jig
+R:jig
+S:Dudde & Lotta
+D:Flanagan Brothers
+Z:id:hn-jig-412
+M:6/8
+L:1/8
+K:D
+DFA DFA | GBc dcB | Add cde | fdf ecA |
+DFA DFA | GBc dcB | Add cde |1 fdc d2A :|2 fdc d2e ||
+|: fdd dcd | ecA ABc | ~d3 dcd | eaa age |
+fdd dcd | ecA ABc | dcA GFG |1 Adc d2e :|2 Adc d3 ||
+|: FBc dcB | fBc dcB | cff f2e | fgf edc |
+FBc dcB | fBc dcB | cff fec |1 dBB BAG :|2 dBB B3 ||
+|: ~A3 GAG | FAd fed | cBA gfe | dfe dcB |
+ABA GAG | FAd fed | cBA gfe |1 dfe dcB :|2  dfe d3 ||
+P:variations
+|: DFA DFA | GBc dcB | Add cde | ~f3 ecA |
+DFA DFA | GBc dcB | Add cde |1 fdc d2A :|2 fdc d2e ||
+|: f2d dcd | eAA ABc | ~d3 Bcd | eaa a2g |
+~f3 fed | eAA ABc | dcA GFG |1 Adc d2e :|2 Adc d3 ||
+|: FBc dcB | fBc dcB | ~f3 f2e | fgf edc |
+FBc dcB | fBc dcB | fgf edc |1 dBB BAG :|2 dBB B3 ||
+|: AFA G3 | FAd fed | cBA gfe | dfe dcB |
+~A3 GAG | FAd fed | cBA gfe |1 dfe dcB :|2  dfe d3 ||

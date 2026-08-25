@@ -1,0 +1,40 @@
+X:68
+T:Miss Jane McInnes, Dandaleith
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+R:Strathspey
+Z:Clark Bernst
+%%Page:29 - 1
+O:Scotland
+K:A major
+%%staves {1 2}
+V:1
+c | \
+E<EE>F =G3B                     & C2C2 C4   | \
+[DA]<[FA]A>c  e/d/c/B/ Ac       & x2E2 E4   | \
+[CE]<[CE]E>F (=G2      G)c/d/   & x2C2 C2x2 | \
+[Ee]>c[EGd]>B  c<AAc            & x4 E2C2 |
+[CE]<[CE][CE]>F [C=G]3B             | \
+[DA]<[FA]A>c e/d/c/B/ Ac & x2E2E4 | \
+[CE]<[CE][CE]>F [C(=G]2 G)c/d/ | \
+[EAe]>[EGc]d>B [Ec]<A[CA] ||
+g | \
+a2 (e>g) a/g/f/e/ c<A | B<=gd<g B<(G G)f/^g/ | \
+aegb aecA | fagb a<A A f/g/ |
+aefd cecA | B<=gd<g B<GG>B | \
+cA A/A/A {g}a2 gb | a/g/f/e/ a>e c<A[CA] |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Aa] [Aa] [Aa] [Aa] | [Ff]/[Dd]/ [Cc] [A,A] [A,A] | \
+[Aa] [Aa] [Aa] [Aa] | [Aa]       [Ee] [Aa] [Aa]  | \
+[Aa] [Aa] [Aa] [Aa] | [Ff]/[Dd]/ [Cc] [A,A] [A,A] | \
+[Aa] [Aa] [Aa] [Aa] | [Ee]       [Ee] [Aa] [Aa]/  | \
+L:1/8
+z | \
+[ac']e'[ac']e' [ac']e'[ac']e' | [gb]d'[gb]d'      [gb]d'[gb]d'  | \
+[ac']e'[ac']e' [ac']e'[ac']e' | [ad']f'[bd']e'    [ac']e'[ac']e' | \
+[ac']e'[ad']f' [ae']=g'e'c'   | [gd']{f'}g'[gb]d' [gb]d'[gb][d'e'] | \
+[ac']e'[ac']e' [ac']e'[ad']e' | [ac']e'[ac']e'[ac'e']2[Aa] |]

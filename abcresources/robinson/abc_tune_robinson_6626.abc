@@ -1,0 +1,26 @@
+X: 1
+T:Primrose polka
+C:? Angus Fitchett, arr. B Ruffell
+C:Other sources say Bobby Brown
+O:Scotland
+%%score [1 | 2]
+L:1/16
+M:2/4
+F:http://www.rudemex.co.uk/library/ABC/Primrose%20Polka%20(D).abc 2025-04-06 152954 UT
+K:D
+V:1
+X FG^GA BAGA | f2d2 f2d2 | FG^GA BAGA | E4- E2F2 |
+EFGA BA^GA | e2c2 c2>B2 | ABcB AGFE ||1 F2A2 ^G2=G2 :|2 D2A2 ^G2=G2 ||
+|: F4 FG^GA | f6 e2 | dAFA d2ed | c2B2 B4 ||1 E4 EFGA | c6 B2 |
+ BA^GA BAGA | F2A2 ^G2=G2 :|2 gfef g2e2 | fede f2d2 | A2^GA f2e2 | d4 e4 ||
+|: fedc d2A2 | fedc d2A2 | B^ABc dcdB | A4 F2A2 ||1 B^ABd g2B2 | A^GAd f2A2 |
+^GGGG GEFG | A2[^GB]2 [=Gc]2g2 :|2 B^ABd g2B2 | A^GAd f2d2 | A^GAd f2e2 | d2 z2 d4 |]
+V:2
+X "D" DE=F^F GF=F^F | A2F2 A2F2 | DE=F^F GFED |"A" C2A,2 B,2=C2 | CDEF GF=F^F | c2AB AGFE |
+"A7" FGAG FEDC ||1"D" D2A,2 B,2C2 :|2"D" D2F2"A" =F2E2 ||
+|:"D" D2A,2 D2F2 | A2d2 D2AG | F2D2 F2>G2 |
+"Em" A2^G2 =G2E2 ||1"A" C2A,2 C2E2 | A2^G2 =G2E2 | D^DEF G2E2 |"D" D2C2 B,2>E2 :|2"G" BAGA B2G2 |
+"D" AGFG A2F2 |"A" C2EG A2G2 |"D" F4"A" A,4 ||
+|:"D" AGFE F2D2 | AGFE F2D2 |"G" GFGA BABG |
+"D" F4 D2F2 ||1"G" GFGB d2G2 |"D" F=F^FA d2F2 |"E7" EEEE EB,A,B, |"A" C2D2"A7" E2 z2 :|2
+"G" GFGB d2G2 |"D" F=F^FA d2A2 |"A7" CDEF GABc |"D" dAFA [Dd]4 |]

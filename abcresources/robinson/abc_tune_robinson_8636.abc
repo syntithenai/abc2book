@@ -1,0 +1,28 @@
+X: 148
+T:Mr Hoy -- Gordon Castle
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:3/4
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:51 - 3
+K:F major
+%%staves {1 2}
+V:1
+"^Slow"
+[Af]2 [ca]2 !trill![Bg]2 | [Af]2 ~c4    | d2 [eb]2 [fa]2    | ([eg]f)(ed) c2 | \
+[Af]2 [ca]2 !trill![Bg]2 | [Af]2 c2 f2   | .d.c.B.A.G.F       | {=B}c2 C4 |
+[Af]2 [ca]2 [Bg]2 | [Af]2 ~c4 | d2 [eb]2 [fa]2 | g{a}f{g}e{f}d{e} {=B}c2 | \
+[Af]2 [ca]2 [Bg]2 | [Af]2 !trill!a2 {gab}c'>c | {cd}(e/d/c/B/) [FA]2 [EG]2 | | {E}F6 |]
+!trill!c4 (dc) | c4 f2 | dc {c}[eb]2 [fa]2 | [eg]fed c2 | \
+!trill!c4 (dc) | c4 f2 | .d.c.B.A.G.F | !fermata!C6 |
+!trill!c4 (dc) | c4 f2 |dc  {c}[eb]2 [fa]2 | g{a}f{g}e{f}d{e} {=B}c2 | \
+[Af]2 [ca]2 [B~g]2 | [Af]2 ~a2 {gab}c'>c | {cd}(e/d/c/B/) [FA]2 !trill![EG]2 | {E}[A,F]6 |]
+V:2 clef=bass octave=-2
+L:1/4
+f2c | faf | bgf | c2z | f2c | dAA | B2d | cc/B/A/G/ | \
+F2c | faf | bgf | c c'/b/a/g/ | f2c | d2A | Bcc | fcF || \
+L:1/8
+(egbgeg) | (fac'afa) | (bag2)f2 | c4z2 | (efbgeg) | fac'afa | b2B2=B2 | !fermata!c6 | \
+egbgeg | fac'afa | (bag2)f2 | c2c'bag | f4c2 | d4A2 | b2c2c2 | f2c2F2 |]

@@ -1,0 +1,30 @@
+X:53
+T:Minuet.2voices. BC.53
+M:3/4
+L:1/8
+Q:1/4=120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+B:Village Music project, Cooke, Benjamin
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/cooke_b.abc
+K:D major
+[V:1]A2 AAAA|d4 e2|fgafed|~ e2 dcBA|!
+[V:2]F2 D2 A2|~F4 A2|d2 D2 F2|~A4 A2|!
+%
+[V:1]B2 d4|A2 d2 G2|F/E/D ~E4|{E} D6||!
+[V:2]G2 GGGG|F2 F2 E2|DF A2 A2|{G}F6||!
+%
+[V:1]f2 ffff|~e4 a2|df e2 d2|~c4 d2|!
+[V:2]d2 dddd|~ c4 A2|Bd c2 B2|A4 B2|!
+%
+[V:1]e2 f2 ^g2|a2 e2 d2|c/B/A ~B3 A|A6|!
+[V:2]c2 d2 B2|c2 c2 B2|A2 ~^G3 A|A2 AGFE|!
+%
+[V:1]Ad f2 A2|GB e2 G2|FA d2 F2|E6|!
+[V:2]F2 z2 F2|E2 z2 E2|D2 F2 D2|A2 G2 F2|!
+%
+[V:1]{a}g2 f2 e2|fgafed|g/f/e e3 d|d6|]
+[V:2]e2 d2 c2|de f2 d2|GA ~F3 E|D6|]

@@ -1,0 +1,21 @@
+X:255
+T:Schottisch. GDC (st07424) ABACD
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.335 (st07424) orig. G,D,C
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+%%partsbox
+P:ABACD
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+[P:A] {/B}"G"dd {/B}dd | {/c}"D7"dd {/c}dd | F/A/c/d/ fe | (T"G"ed)d2 | B/c/e/f/ "G7"ag | {/g}"C"fe e/d/c | "D7"A/c/d/f/ ba | 
+(T"G"ag)g2 :: [P:B] [K:D] {/A}"D"aa "G"b/^a/b | ("D"b/a/).f/.d/ Ag | "A7"fe/c/ A/A/c' | "D"ba/f/ da | {/A}aa "G"b/^a/b | 
+("D"b/a/).f/.d/ Ag | "A7"fe e/d/c/e/ | "D"dd d"_>Teil A"z :: [P:C] [K:C] "C"Gc/e/ gg | aag2 | Gc/e/ gg | "F"bba2 |1 
+"G7"GB/d/ gg | aag2 | c'c'b2 | "C"d'd'c'2 :|2 "F"ad/^c/ d/e/f/g/ | (T"C"ag) .c.e | (T"G7"ed) AB | "C"ce cz || 
+[P:D] |: "Dm/F"A/d/f/a/ "G7"ba | (T"C"gc)  .f.e | (T"G7"gB) ed | "C"ag f/e/d/c/ |  "Dm/F"A/d/f/a/ "G7"ba | (T"C"gc) fe | (T"G7"gB) ed |  "C"ce c"_fine"z :| 
+%W:Parts: ABACD
+% st07424 (C) Mülirad-Verlag 2007
+% Aug 19, 2017

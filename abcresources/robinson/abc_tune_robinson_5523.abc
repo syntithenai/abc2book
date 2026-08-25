@@ -1,0 +1,17 @@
+X:268
+T:Varsovienne GC (mz06606)
+T:Hanny Christen. Bd.IV  Aargau, Basel I. S.259 (mz06606) orig. G,C
+T: Repertoire der "Dorfmusig Aesch". S.255-269
+T:Überliefert durch Eduard Häring, Aesch.
+%%MIDI program 21
+R:Varsovienne  % Mazurka
+M:3/4
+L:1/4
+O:Switzerland
+K:G major
+"G" [Bd] [gb] z/[f/a/] | [fa] [eg] z/[c/e/] | "C"[df] [ce] z/ [c/e/]  | [c3e3]  | "D7"(dA)z/B/ | dcz/A/ | "G"[CA] [B,G] z/[B,G]/ | [B3g3] | ([Bd] [gb])z/ [fa]/  | 
+[af] [ge] z/[d/f/] | "C"[df] [ce]z/[c/e/] | [c3e3] | "D7"(d[Ac])z/[d/f/] | [db][ca]z/[A/f/] | "G"[Bg] [B/g/]>[A/f/] [B/g/]>[c/a/] | [BG][BG]z :: "D7"d d/f/ a/c'/ | 
+"G"!>!b2 a/b/ | "D7"c' [ce] [df] | "G"[B2g2] [d/f/][c/e/] | "D7"[Fd] d/f/ a/c'/ | "G"b2 a/b/ | "D7"c' [ce] [df] | "G"[B2g2]z :: [K:C] "C"e/g/ g/a/ b/c'/ | 
+"G7"bff/c'/ | bf f/b/ | "C"[ec'] g g/f/ | e/f/ g/a/ b/c'/ | "G7"bf f/c'/ | bf f/b/ | "C"[ec'][ec']z :| 
+%% mz06606
+% May 2, 2017

@@ -1,0 +1,18 @@
+X:201
+T:Studentenleben (Galopp) CF (GL02022)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.275 (GL02022) orig. C,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+R:Gallop
+M:2/4
+L:1/8
+K:C major
+"C"g2e2 | c3G | A>G Gc | "G7"B>gg2 | g2f2 | B3A | A>f e>d | "C"ca ge | g2e2 | c3G | 
+A2 Gc | "G"B>dd2 | "D7"a>ad2 | "G"b>bd2 | "C"e>g "D7"^f>a | "G7"g2z2 :| "Dm"F2f2 | "G7"e2d2 | "C"d>c c>E | G3c | 
+"G7"c>B B>D | F3A | "C"A>G G>E | G2z2 | "Dm"F2f2 | "G7"e2d2 |  "C"d>c c>E | G2z2 | "F"A>B c>d | "C"e3G | 
+"G7"f3B | "C"cc cz || [K:F] "F"F>A c>a | f3e/f/ | g>f e>f | "C7"e2z2 | G>A B>c | e2z2 | c>b e>g | 
+"F"fa fc | F>A c>a | f3 e/f/ | g>f e>d | "Bb"b2z2 | "C7"cb/b/ "F"ca/a/ | "C7"cg/g/ gc | "F"ff fz |]  
+W:Anmerkung Hrsg.: Takt 31: HC a, bei Teil C fehlt vermutlich ein Takt (15 instead of 16).
+% GL02022 (H 071/Tn 9)

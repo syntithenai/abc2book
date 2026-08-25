@@ -1,0 +1,20 @@
+X: 63
+T:the Marquis of Tweedsdales Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:23 - 2
+K:Eb major
+%%staves {1 2}
+V:1
+!trill!E2 (GB) eBGE | !trill!E2 GB {d}e2 BG | !trill!E2 (GB) eBGE |CFFE {E}!trill!D2 (CB,) :|
+egec dfdB | ceBG {c}!trill!B2 (AG) | egec dfdB | CFFE {E}D2 (CB,) |
+egec dfdB | ceBG {c}!trill!B2 (AG) | [A,A]ccA GBBG | CFFE {E}D2 (CB,) |]
+V:2 clef=bass octave=-2
+L:1/4
+eeee | eeee | eBGE | A=ABB :| \
+e'e'bb | aage | e'e'bg | a=abB | e'e'bb | aege | aagG A=ABB |]

@@ -1,0 +1,15 @@
+X:201
+T: Schottisch CF (st05169)
+T:Hanny Christen. Bd.I Zürich, Schaffhausen, St. Gallen I. S.386 (st05169) orig. C,F-Dur
+T: Aus dem Repertoire von Joh. Heeb, Sax, St. Galler Rheintal, 1952. S.362-393.
+%%MIDI program 21
+M:2/4
+L:1/16
+R:Schottische
+O:Switzerland
+K:C major
+GF |: "C"E2F2 ^F2G2 | e4z2ef | "G7"e2d2 z2de | "C"d2c2 z2GF | E2F2 ^F2G2 | e4z2ef | "G7"e2d2 ABed |1 "C"c2c2 c2GF :|2 
+"C"c2c2 c2z2 |: "G7"G2fe d2GG | "C"G2ed c2GG | "G7"A2GG B2d2 | "C"A2GG c2e2 | "G7"G2fe d2GG | "C"G2ed c4 | "G7"B3A GFED |1 
+"C"C2C2 C2z2 :|2 "C"C2C2 C2cc || [K:F] "F"c4 A2f2 | "C7"e4 z2d^c | "Bb"d4z2cB | "F"c4A4 | c2!>!A4f2 | "C7"f2!>!e4d2 | d2     !>!c4B2 | 
+"F"B2A2 A2F2 | c4A2f2 | "C7"e4z2d^c | "Bb"d4z2cB | "F"c4A4 | c2AA A2f2 | "Gm/Bb"f2GG G2d2 | "C7"e3d cBAG | "F"F2f2 f2z2 |] 
+%June 9, 2016

@@ -1,0 +1,20 @@
+X:56
+T:Glückstage-Polka  FBb (pk06035)
+S:Hanny Christen. Bd.VI  Fribourg, Welschland, Wallis, Bern I. S.313 (pk06035) orig. F,Bb-Dur
+S: Berner Oberland. Tänze aus Brienzwiler und Halisberg. S.278-338
+S: Aus dem Repertoire von Peter Alplanalp und Hans Thöni, 2. Oktober 1949
+%%MIDI program 21
+R:Polka
+O:Switzerland
+M:2/4
+L:1/16
+K:F major
+"F"a2c2 cagf | "Gm"gbd2 !>!d4 | "C7"ebd2 dfed | "F"cdcB AB=Bc | a2c2 cagf | "C"e2e2!>!g4 | "G7"g3g g^ga=b | 
+"C7"c'2c'2 c'2z2 :| "F"acc2 "tr"d3c | acc2 "tr"d3c | Acfa d'c'af | "C7"f2e2e4 | bcc2 "tr"d3c | bcc2 "tr"d3c | 
+cegb agde | "F"fefa !>!c'4 | acc2 d3c |  acc2 d3c |  acc2 d3c | Acfa d'c'af |  "Gm"e2d2d4 | "C7"c2eg b2b2 | 
+"F"a2a2 fef2 | "C7"g2g2 eceg | "F"f2a2 f2z2 || [K:Bb] {ga}"Bb"b4 d3f | "Eb"g2c2 cde=e | "F7"f2A2 AFAc | "Bb"B4z(GFB) ||  
+ddd2 d2e2 | f4z(DFB) | ddd2 d2e2 | "F7"c4z(FAc) | eee2 e2f2 | "Eb"g4z(egb) | "F7"aaa2 g2e2 | "Bb"d4 z(DFB) | 
+ddd2 d2e2 | f4 z(Bdf) | bbb2 b2a2 | ("Eb"g4 g)egb | ("F7"a4 a)g^fg | ("Bb"=f4 f)edf | "F7"dcfe dceA | "Bb"B2d2 B2z2 |] 
+W:
+W: cf. Glückstage (lucky days)
+% pk06035

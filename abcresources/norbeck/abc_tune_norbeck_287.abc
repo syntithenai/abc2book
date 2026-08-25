@@ -1,0 +1,26 @@
+X:110
+T:Pachelbel's Frolics
+T:Pachelbel's Hornpipe
+T:PJ's Pecurious Pachelbel Special
+T:Kohler's Hornpipe
+R:hornpipe
+H:See also #129 in C
+B:Kohlers Repository, originally in C
+Z:id:hn-hornpipe-110
+M:C|
+L:1/8
+K:D
+(3ABc | dcde fefg | ~a3b agfd | BABc dcdB | ABGA ~F3A | 
+GFGA BABc | dcde faba | gfed (3Bcd ef |1 gece d2 :|2 gece d2 || 
+|: a2 | fada fada | eaca eaca | dfBf dfBf | AGAB =cAFA | 
+GFGA BABc | dcde fga2 | gfed (3Bcd ef |1 gece d2 :|2 gece d2 || 
+P:variations
+|: (3ABc | d2dc defg | agab agfd | BABc dedB | ABGA ~F3A | 
+~G3A BABc | dcde faba | gfed (3Bcd ef |1 gedc d2 :|2 gedc d2 || 
+|: fg | ~a2fa dafa | ~a2ea caea | ~f2df Bfdf | A^GAB =cAFD | 
+GFGA BABc | dcde fga2 | gfed (3Bcd ef |1 gedc d2 :|2 gedc d2 || 
+P:original version
+|: (3ABc | dcde defg | a^gab afed | BABc dedB | AFdB AFDF | 
+GFGA BABc | dcde faba | gfed Bdce | fedc d2 :| 
+|: ag | fada fada | eaca eaca | dfBf dfBf | AdFd AdFd | 
+GFGA BABc | dcde faba | gfed Bdce | fedc d2 :|

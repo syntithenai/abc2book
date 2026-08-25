@@ -1,0 +1,18 @@
+X:301
+T:Walzer  FBb  (wz07371)
+T:Hanny Christen. Bd.IV  Aargau, Basel I.  S.311 (wz07371) orig. F,Bb
+T: Repertoire der "Jourdan-Musig", Muttenz.  S.270-353
+T:Überliefert durch Herrn Mesmer, Mai 1941
+%%MIDI program 21
+R:Walzer
+M:3/4
+L:1/4
+O:Switzerland
+K:F major
+("F"aba) | ("Gm"gfd) | !>!"F"c3 | !>!A3 | "C7".c/.d/ ce | azg | "F".f/.g/ fa | d'zc' | (aba) | ("Gm"gfd) | 
+!>!"F"c3 | !>!A3 | "G7"G .A/.=B/ .c/.d/ | "C".e/.f/ gc' | "G7".=b/.a/ .g/.f/ .e/.d/ | "C"czz || "G7".=B/.c/ .d/.e/ .f/.g/ | (!>!a2g) | "C"e/f/ g/a/ b/c'/ | 
+(!>!d'2c') | ("C7"cba) | .g/.^f/ ag | ("F"cag) | .f/.e/ gf | "G7".=B/.c/ .d/.e/ .f/.g/ | (!>!a2g) | "C"e/f/ g/a/ b/c'/ | (!>!d'2c') | 
+!>!"Bb"d!>!e!>!f | (!>!"F"f2a) | "C7".c'/.e/ .a.g | "F"fzz || [K:Bb] ("Bb"dfb) | (c'2b) | "Cm"a^fg | g3 | ("F7"fac') | (g'2f') | 
+(e'c'd') | "Bb"d'3 | (dfb) | (c'2b) | "Cm"gce | "(F7)"(g2a) | "Bb"b>dg | "F7"f>ac' | "Bb"b>bb | bzz |] 
+% wz07371
+% July 15, 2017 Curcuma/Gelbwurz

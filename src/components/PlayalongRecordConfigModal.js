@@ -8,6 +8,11 @@ import {
   clampPlayalongRepeats,
 } from '../playalongSettings'
 import {
+  PLAYALONG_TEMPO_MULTIPLIER_MAX,
+  PLAYALONG_TEMPO_MULTIPLIER_MIN,
+  clampPlayalongTempoMultiplier,
+} from '../bulkPlayalongSession'
+import {
   referenceGainToSliderPercent,
   sliderPercentToReferenceGain,
 } from '../practiceSessionSettings'
@@ -72,6 +77,43 @@ export default function PlayalongRecordConfigModal(props) {
         <Modal.Title>Record play-along</Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        {props.bulkTuneCount > 0 ? (
+          <div
+            className="text-muted"
+            style={{ marginBottom: '0.85rem' }}
+            data-testid="playalong-bulk-summary"
+          >
+            {props.bulkTuneCount} tune{props.bulkTuneCount === 1 ? '' : 's'} selected
+            {props.bulkDurationLabel ? (
+              <>
+                {' · '}
+                {props.bulkDurationLabel} total with {repeats} repeat{repeats === 1 ? '' : 's'}
+              </>
+            ) : null}
+          </div>
+        ) : null}
+        {props.tempoAsMultiplier ? (
+        <div style={{ marginBottom: '0.85rem' }}>
+          <div style={{ fontWeight: 600, marginBottom: '0.35rem' }}>
+            Tempo: {Math.round(clampPlayalongTempoMultiplier(props.tempoMultiplier) * 100)}% of written
+          </div>
+          <Form.Range
+            min={PLAYALONG_TEMPO_MULTIPLIER_MIN * 100}
+            max={PLAYALONG_TEMPO_MULTIPLIER_MAX * 100}
+            step={5}
+            value={Math.round(clampPlayalongTempoMultiplier(props.tempoMultiplier) * 100)}
+            data-testid="playalong-tempo-slider"
+            onChange={function(e) {
+              if (props.onTempoMultiplierChange) {
+                props.onTempoMultiplierChange(parseFloat(e.target.value) / 100)
+              }
+            }}
+          />
+          <div className="text-muted small" style={{ marginTop: '0.35rem' }}>
+            Multiplies each tune&apos;s written tempo (or 100 bpm when unset).
+          </div>
+        </div>
+        ) : (
         <div style={{ marginBottom: '0.85rem' }}>
           <div style={{ fontWeight: 600, marginBottom: '0.35rem' }}>
             Tempo: {Math.round(tempoBpm)} bpm
@@ -87,6 +129,7 @@ export default function PlayalongRecordConfigModal(props) {
             }}
           />
         </div>
+        )}
         <div style={{ marginBottom: '0.85rem' }}>
           <FormLabelWithHelp
             label={'Cutoff: ' + cutoffPercent + '%'}

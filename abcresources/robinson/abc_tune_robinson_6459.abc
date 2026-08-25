@@ -1,0 +1,25 @@
+X:1
+T:Mazurka  CGF (mz07933)
+S:Hanny Christen. Bd.V  Basel II, Jura. S.241  (mz07933) orig. CGF
+S: Basel II. "Tänze aus Titterten". S.230-249.
+S:Überliefert durch Karl Miesch.
+%%MIDI program 21
+%%partsbox
+%P:ABC
+R:Mazurka
+M:3/4
+L:1/8
+O:Switzerland
+K:C major
+[P:A] A G>^F |"G7"G3A G>^F | "C"G3A G>^F | "G7"G3f ed | "C"c3c Bc | "F"d3c BA | "C"A3G ^FG | 
+"G7"B3A GF | "C"E3A G>^F | "G7"G3A G>^F | "C"G3A G>^F | "G7"G3f ed | "C"c3c Bc |  "F"d3c BA | 
+"C"A3G ^FG | "G7"B3A GF | "C"E2E2z2 ||: [K:G] [P:B]  "D7"fg ^ga ^ab | "G"c'2b4 | "D7"b2a4 | "G"a2g4 | 
+"D7"fg ^ga ^ab | "G"c'2b4 | "D7"gf c'b af |1 "G"g2 gA GF :|2 "G"g2g2 z2 || [K:F] [P:C] "F"aA cg fA | .d2c4 | 
+"G7"=Bc de f^f | "C7".a2g4 | d'c' bg ec | .d2c4 | =Bc de fg | "F".^g2 a4 | "C7".b2 Gc gB | 
+"F".d2c4 | "G7"=Bc de f^f | "C".a2g4 | "G7"ag ^fg ag | "C"d'2c'4 | "C7"d'c' b>c ag | "F"f2f2z2 |] 
+W: 
+W:Parts: ABC
+%W:
+%W:Anmerkung Hrsg,:
+% kp07933
+% Okt 8,, 2019

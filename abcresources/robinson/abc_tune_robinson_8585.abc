@@ -1,0 +1,31 @@
+X:26
+T:the Duchess of Bedford's Cairn
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Strathspey
+Z:Clark Bernst + Richard Robinson
+%%Page:10 - 3
+K:F major
+%%staves {1 2}
+V:1
+A/B/ | \
+c>Fd>F (!trill!BA) GA/B/ | c>Fd>F EG- GA/B/ | \
+c>Fd>F c>Ff>d | (!trill!EG)(Gc) A<F F :|
+f/g/ | \
+(a/g/)f/e/ fc {Bc}d2 (cg) | d>fc>f {fg}ag gf/g/ | \
+a/g/f/e/   fc {Bc}d2 (Bd) | (c/f/)e/d/ (c/B/)A/G/ AF Ff/g/ |
+(a/g/)f/e/ fc {Bc}d2 (cg) | d>fc>f {fg}ag gf/g/ | \
+a>fg>e fcaf | f>d c/d/c/A/ AFF |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | \
+[Ff] [Ff] [Cc] [Cc] | [Aa] [Bb] [cc'] [cc'] | \
+[Aa] [Bb] [Aa] [Ff] | [Cc] [Cc] [Ff] [Ff]/ :| \
+z/ | \
+[fac'] [fac'] [fbd'] [fac'] | [fbd'] [fac'] [cc'] [cc'] | \
+[fac'] [fac'] [fbd'] [fbd'] | [fac'] [cc'] [fac'] [fac'] | \
+[fac'] [fac'] [fb]   [fa]   | [fb] [fa]  [cc'] [cc'] | \
+[fac'] [gbc'] [fac'] [fac'] | [Bb] [cc'] [Ff]  [Ff]/ |]

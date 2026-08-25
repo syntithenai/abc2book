@@ -1,0 +1,11 @@
+X:50
+T:Walzer F (wz03234)
+B:Hanny Christen. Bd.3 Appenzell. S.116 (wz03234) orig. F-Dur
+%%MIDI program 21
+O:Switzerland
+R:Walzer
+M:3/4
+L:1/8
+K:F major
+"F"f3 A c2 | "D7"^f3 A d2 | "Gm"g3 B d2 | b3 B g2 | "C7"e3 B c2 | e3 B c2 |1 "F"f3 A c2 | ag fe gf :|2 "F"fA A'3 g | f2 z2 z2 ||
+|: "Bb"Bd f2 d'2 | "C7"c'2 b2 g2 | "F"fg a3 f | c3 A c2 | "C7"eg b3 e | c3 B c2 | "F"fg a3 f |1 c3 A c2 :|2 f2 z2 z2 |]

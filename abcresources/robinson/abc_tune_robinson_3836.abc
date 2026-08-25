@@ -1,0 +1,16 @@
+X: 94
+T: Vreneli-Polka CGF 
+T:Hanny Christen. Bd.IX Uri II, Schwyz, Unterwalden I. S.371 (pk10481) orig. C,G,F-Dur
+M:2/4
+L:1/16
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+"C"g2ea g2c2 | "G7"c2B2 defg | b2b2 a2a2 | "C"gage c4 | c'2bd' c'2e2 | "Dm/F"e2d2 defg | "G7"a2a2 g3B | "C"c2e2 c2 z2 :|  
+K:G
+|: "D7"defg a2d2 | "G"b2d2 gfg2 | "D7"a3g f2e2 | "G"edbg d4 | "D7"d2fg a2d2 | "G"b2g2 "C"agfe | "G"dgbc' "D7"b3a | "G"g2b2 g2 z2 :| 
+K:C
+|: "G7"b3g f2d2 | "C"e2G2 c2Bc | "G7"Bdd2 dff2 | "C"a2g2 g2eg | "G7"b3g f2d2 | "C"e2G2 c2Bc | "G7"Bdfa g2B2 | "C"c2e2 c2 z2 :| 
+K:F
+"F"a3f c2A2 | d2d2 c4 | cdef g2f2 | "C7"f2e2 e4 | b3g e2B2 | d2d2 c4 | cdef g2c'2 | "F"a2fd c4 | 
+a3f c2A2 | d2d2 c4 | cdef g2f2 | "Gm/Bb"e2^c2 d4 | "Bb"B2df a2g2 | "F"A2cf g2f2 | "C7"fedf a3g | "F"f2a2 f2 z2 :|

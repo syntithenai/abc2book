@@ -1,0 +1,19 @@
+X:72
+T:Julia-Mazurka CGF (mz02101)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.313 (mz02101) orig. C,G,F
+S: Graubünden. Gla Genua, Sent. S.299-329. Überliefert vermutlich durch Nott Caviezel
+O:Switzerland
+%%MIDI program 21
+%%partsbox
+P:ABACDAB
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+[P:A] "C"g>^f g2a2 | g>^fg2e2 | "G7"f>ef2g2 | "C"e^d e=dc2 | g>^fg2a2 |  g>^fg2e2 | "G7"fef2g2 | "C"g2e2z2 :| 
+[P:B] [K:G] |: "G"d>^c d2g2 | "D7"f>ef2d2 | c'>b c'2a2 | "G"b>ab2g2 | d>^cd2g2 | "D7"f>ef2d2 | c'>b c'2f2 | "G"g2g2"_>Teil A"z2 :| 
+[P:C] [K:F] "F"a>d' c'3a | "C7"c'b g2g2 | be' d'3e' | "F"d'c'a2a2 | cgf3A | "Gm"Ge d3c | "C7"bg ec BG | "F"F2f2z2 || 
+[P:D]  [K:C] |: "G7"AG gf dB | "C"dc ag ec | "G7"BGf2f2 | "C"cGe2e2 | "G7"BG gf dB | "C"dc ag ec | "G7"BGf2fB | "C"c2c2"_Teil A"z2 :| 
+%W:Parts: ABACDAB
+W:Anmerkung H.C.: Hübner
+% mz02101  (Oct 30, 2016 Happy Birthday)

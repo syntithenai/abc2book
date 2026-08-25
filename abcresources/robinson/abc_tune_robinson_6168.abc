@@ -1,0 +1,25 @@
+X:1
+T:Theresien-Rheinländer  BbEb (RL07795) ABCD
+T:Hanny Christen. Bd.V  Basel II, Jura. S.143  (RL07795) orig. Bb,Eb
+S: Basel II. Aus dem Repertoire der "Sissacher Musig". S.134-145.
+S:Überliefert durch A. Hufschmid und E. Dalcher
+%%MIDI program 21
+%%partsbox
+P:ABCD
+R:Reinländer
+M:2/4
+L:1/16
+O:Switzerland
+K:Bb major
+(FB) [P:A] |:  "Bb"d>^cd>c d3=c | B>AB>A B3d | "F7"c2(cf) c2(cf) | "Bb"d>ed>c B2(FB) | d>^cd>c d2=e2 | "F"f>=ef>e f2AB | 
+(dcA)F ("C7"cB)G=E |1 "F"F2F2 F2(FB) :|2 "F"F2F2 F2FG [P:B] |: "Bb"F6Bc | B6de | "F7"f2c2 c=Bc^c | "Bb"d2B2 B2FG | 
+F6Bc | B6BA | "Eb"G2e2 ("F7"dc)GA |1 "Bb"B2B2 B2FG :|2 "Bb"B2B2 B2E>E  [K:Eb] |: "Eb"E6G>G | G6B>B | B2e2 d2c2 | 
+"Bb7"d6B>B | B6d>d | d6(dc) | B2c2 A2B2 | "Eb"G6E>E | E6G>G | G6B>B | B2e2 d2_d2 | 
+"Ab"c6c>d | "Eb0"e6G>A | "Eb"B6B>c | "Bb7"B2A2 G2F2 |1 "Eb"E2E2 E2E>E :|2 "Eb"E2E2 E2E>E [P:D] |: "Ab"c2c2 c2(ec) | "Eb"B2B2 B2(GB) | 
+"Bb7"A2FG A2c2 | ("Eb"B4G2)(EA) | "Ab"c2c2 c2(ec) | "Eb"B2B2 B2(AG) | ("Bb7"F2c2) BAGF |1 "Eb"E2E2 E2EA :|2 "Eb"E2E2 E2z2 |] 
+W:
+%W:Parts: ABCD
+W:
+W:Anmerkung H.C.: Ormalingen, s.V. 334
+% RL07795
+% June 4, 2018

@@ -1,0 +1,22 @@
+X:1
+T:Schottisch  CGF (st07833)  ABACDC
+T:Hanny Christen. Bd.V  Basel II, Jura. S.187  (st07833) orig. C,G,F
+S: Basel II. "Mundwilermusig", Tenniken. S.183-219.
+S:Überliefert durch Hermann und Johannes Mundwiler und Ernst Otter.
+%%partsbox
+P:ABACDC
+R:Schottische
+M:2/4
+L:1/8
+O:Switzerland
+K:C major
+G | [P:A]  "C"GG/e/ dc | "G7"BB/a/ gf | dd/f/ AB | "C"cc/c'/ ge | GG/e/ dc | "G7"BB/a/ gf | dd/f/ AB | 
+"C"cc cd || [K:G] [P:B] "G"d2b/a/g | "D7"f/g/a/b/ d'c' | f/g/^g/a/ ba | "G"(Tgf) (Ted) | d2b/a/g | "D7"f/g/a/b/ d'c' | f/g/^g/a/ ba | 
+"G"gg/g/ g"_>Teil A"g || [K:F] [P:C]  "F"c/c/c/c/ cd | c2a2 | "C7"a/a/a/a/ ag | "F"a/a/a/a/ gf | c/c/c/c/cd | c2a2 | 
+"C7"a/a/a/a/ ag | "F"ff f"_Fine"z || [P:D] "Dm"de/d/ ^c/d/e/f/ | "A7"a/g/e a/g/e | "Dm"d/^c/d/e/ f/^f/g/^g/ | "A7"a2 za/a/ | aa aa | a2 "_Teil C"c2 |]
+W:
+%W:Parts: ABACDC
+W:Anmerkung H.C.: Waldenburg, Wisen "Chilbi", Reigoldwyl I, Elms/Glarus, Muotathal
+%W:Anmerkung Hrsg,:
+% st07833
+% Aug 30, 2018

@@ -1,0 +1,23 @@
+X: 133
+T:the House of Achluncart, a Reel
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:46 - 3
+K:C major
+%%staves {1 2}
+V:1
+B | \
+{B}c2 !trill!c2 {Bc}ecge | {B}c2 !trill!c2 {Bc}dBGB | \
+{B}c2 c2 {Bc}ecge | (Bd)(dc) BGG :|
+B | \
+{B}c2 (Gc) EcGc | EcGc dD-D.B | {B}c2 (Gc) EcGc | fedc BG-G.B |
+{B}c2 (Gc) EcGc | EcGc dDDf | afge (fe)(dc) | Bcde dBG |]
+V:2 clef=bass octave=-2
+L:1/4
+z/ | c'c'c'c' | c'c'gg | c'c'c'c' | gggg/ :| \
+z/ | cccc | ccdd | cccc | f^fgg | cccc | ccdd | fef^f | ggGG/ |]

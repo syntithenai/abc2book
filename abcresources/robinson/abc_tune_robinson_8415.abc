@@ -1,0 +1,32 @@
+X:47
+T:Lady Forbes of New & Edinglassie
+B:William Marshall Volume 2nd Of A Collection Of Scottish Melodies (1845)
+C:William Marshall
+L:1/8
+M:C
+O:Scotland
+R:Air
+Z:Clark Bernst + Richard Robinson
+%%Page:20 - 1
+K:Bb major
+%%staves {1 2}
+V:1 name="Moderately\nSLOW\nwith\nexpression"
+de | \
+[df]3~[eg] [df][fd'][ec'][db] | agfe {e}d3e &c4x4 | \
+f2 [dfb]2 [dbf-]2 (~[fb]c'/d'/) | (f'3.c') c'2 de |
+[df]3~[eg] ([df]d'c'b) | (agfa) c'3 b | (ba)gf ([ca][Bg])[Af][G=e] | {[Bg]}[Af]4 z2 |]
+f2 | \
+f2 ~gd e3 d | (c/d/e/f/ g).[_DB] ([=DFB]2 [CfA]).F | \
+(BG) ~d2 (cF) ~c2 | ((de/)f/ g/f/)e/d/ [Bd]2 [Ac] z |
+f2 ~gd e3 d | (c/d/e/f/ g).B ([FB]2 [FA])F | \
+(B/F/G/A/ B/c/d/e/) (f/e/d/e/ f/g/a/b/) | {F}[FBd]2 {e}[EAc]>[DB] !fermata![GB]2 |]
+V:2 clef=bass octave=-2
+L:1/4
+z | \
+BbB2 | fg/a/bc' | [bd'][fd'][fd']-[fd']/c'//b// | f'/f/f'/=e'/ f'/_e'/d'/c'/ | \
+[bf']2-[bf']/[bd']/[c'e']/[d'f']/ | [fc'f']3 [gbc'e'] | \
+[ff']ac'C | z//f//c'//=e'// f'z |] \
+z | \
+[bd'f'][=bd'g'][c'e'g']=b | [ac'f']e/=e/ f>e | d>B [Aa]>[Ff] | [Bb]>d f>e' | \
+[bd'] e'/=b/ c'/_b/a/b/ | [ec'][=ec']d'c' &x2f>e | \
+[db][cefa][Bfb]>d | f[Ff]!fermata![B,B] |]

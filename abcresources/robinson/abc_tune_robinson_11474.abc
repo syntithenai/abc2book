@@ -1,0 +1,24 @@
+X:46
+T:German Minuet.2voices. BC.46
+M:3/4
+L:1/4
+Q:1/4=100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+B:Village Music project, Cooke, Benjamin
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/cooke_b.abc
+K:D major
+[V:1]a|a2 g|f/e/ d {ga}b|a2 g|f/e/ d A|!
+[V:2]f|f2 e|d/A/ F {ef}g|f2g|d/A/ F F|!
+%
+[V:1]B g B|A f A|G G F|E2||!
+[V:2]G e G|F d F|E E D|A2||!
+%
+[V:1]A|~ A2 =c|B/A/ G>B|B2 d|c/B/ A a|!
+[V:2]F|F2 A|G/F/ E>G|G2 B|A/G/ F f|!
+%
+[V:1]a g f|e f g|f/e/ d c|d2|]
+[V:2]f e d|c d e|d/A/ G E|F2|]

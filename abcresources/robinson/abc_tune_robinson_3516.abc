@@ -1,0 +1,19 @@
+X:70
+T: Kleine Königin (Polka) CGF (pk00326)
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+"C"e>e ed | cGc2 | ec/e/ ec/f/ | "G7"edd2 | d>d dc | BGB2 | BA/c/ BA/c/ | \
+B2g2 ::
+ "C"GE G>c | "G7"cBB2 | "Dm"FD "G7"F>A | "C"AGG2 | E/F/G/A/ Ge | "Dm"edA2 |1 \
+"G7"cBF2 | "C"AGE2 :|2
+ "F"AB/A/ "G7"Gd | "C"cc cz |: [K:G] "G"Bd GB | "D7"AFd2 | dc c/B/A | \
+"G"cB B/A/G | Bd GB | "D7"AFd2 |
+ dc c/B/A | "G"GG Gz :| [K:C] "C"e>e fe | "Dm"dAd2 | \
+"G7"d>d ed | "C"cGc2 | "F"AA/B/ cA | "C"Gce2 |
+ "Dm"dd/e/ "G7"fB | "C"cc cz || [K:F] "F"Ac d>c | \
+"C7"B3E | GB e>d | "F"c3F | Ac f>A | "Gm"GB d>F | "C7"EG c>E | "F"FF Fz |] 
+% pk00326
+% June 2016

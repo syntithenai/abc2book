@@ -1,0 +1,22 @@
+X:1
+T:Arthur's Seat
+B:William Marshall A Collection Of Strathspey Reels (1781)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+Z:Clark Bernst + Richard Robinson
+%%Page:1 - 3
+K:E major
+%%staves {1 2}
+V:1
+(EGB)(e !trill!gf)eg | fgag f/f/f f2 | (EGB)(e !trill!gf)ed | ecBG E/E/E !trill!E2 ::
+(!trill!cB)(eB) (!trill!cB)(AG) | AcBG F/F/F F2 | (!trill!cB)(eB) (!trill!cB)(AG) | AcBG E/E/E E2 ::
+egBg faBa | ga bg f/f/f f2 | egBg faBa | ga bg e/e/e e2 ::
+(!trill!cB)eB (!trill!cB)AG | AcBG F/F/F F2 | (!trill!cB)eB (!trill!cB)AG | Ac BG E/E/E E2 :|
+V:2 clef=bass octave=-2
+L:1/4
+eeee | bbBB | eeEE | abee ::
+eeee | deBB | egaz/b/ | abee ::
+eEbB | bbBB | eEBB | bBee ::
+aga/g/f/e/ | febB | aga/g/f/e/ | abee :|

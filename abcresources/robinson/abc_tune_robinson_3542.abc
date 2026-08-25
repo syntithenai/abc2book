@@ -1,0 +1,16 @@
+X:93
+T:L\"andler CGF (LD04921)
+M:3/4
+L:1/8
+O:Switzerland
+K:C transpose=3 %%MIDI gchordon
+G,G, |: "C"G,C CE EG | "Dm"cB ADF2 | "G7"dc BDG2 | "C"ed cEG2 | G,C CE EG | "Dm"cB ADF2 | "G7"dc BD GB |1 "C"c2z2G,G, :|2 "C"c2z2ed || 
+|: [K:G]
+"D7"d2DF Ac | "G"BD GB dg | "D7"f2Ad fa | "G"gB dg fe | "D7"d2DF Ac | "G"BD GB dg | "D7"f2Ad fa |1 "G"g2z2ed :|2 "G"g2z2g=f || 
+|: [K:C] 
+"C"eG cG eG | "G7"fB dfG2 | fG BG dG | "C"eG ce gf | eG cG eG | "G7"fB dfG2 | fG BG dG |1 "C"c2z2gf :|2 "C"c2"_fine"z2c_B || 
+|: [K:F] 
+"F"Ac =Bc dc | "Dm"fA df ed | "C7"Tc2E2E2 | Tc2E2E2 | "F""_F,"F"_A,"A CF Ac | fA cf ed | "C7"Tc2E2E2 |1 "F"F2z2cB :|2 "F"F2z2 AG || 
+|: "G7"G2 =Bd GB | "C"G2ce Gc | "G7"G2 =Bd fa | "C"gf ed c=B | "F"Ac =Bc dc | fA cf ed | "C7"c2E2E2 |1 "F"F2z2AG :|2 "F"F2z2z2 |] 
+W: LD04921
+% June 15, 2016

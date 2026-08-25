@@ -1,0 +1,40 @@
+X:11
+T:Geburtstags-Juiz. 1992  Bb  ABCD
+T:Fredy Wallimann (30.8.1952)
+T:Dirigenten-Notiz  Edi Gasser
+C:Unterwalden (CH)
+%%partsbox
+%P:ABCD
+M:4/4
+R:Naturjodel
+Q:1/4=66
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:Bb major
+[P:A] B,/D/ | FG/F/DF/B/ | ddBD/E/ | Fe/d/ Bd | c3C/D/ | 
+EF/E/CA/B/ | ccAc/B/ | AA/G/FE | D3B,/D/ | FG/F/DF/B/ | 
+ddBB/c/ | d>Bdf | e3G | e>efe | d>cBd | cfdc | !fermata!B3 || 
+Q:1/4=138
+L:1/4
+M:3/4
+[P:B] F| d>^cd | BFf | c2B | A2F | f3 | edc | B>cd | 
+F2F | d>^cd | BFf | c2B | A2G | F>ed | cFd | (B3 | B)z || 
+Q:1/4=63
+M:4/4
+L:1/4
+[P:C] F/F/| Gec/B/ A/G/ | FdBD/F/ | Eccd/c/ | 
+B>cdF/F/ | Gec/B/ A/G/ | FdBD/F/ | Ecdc | B3 || 
+Q:1/4=144
+M:3/4
+L:1/4
+[P:D] F| d>^cd | BFf | c2B | A2F | f>cf | edc | B>cd | 
+F2F/F/ | d>^cd | BFf | c2B | A2G | F>ed | cFd | 
+!fermata! !breath! B2F/F/ | d>^cd | BFf | c2B | A2F | f>cf | edc | 
+B>cd | F2F/F/ | d>^cd | BFf | c2B | A2G | F>ed | "rit."cfd | B2 |]
+W:
+%W:Reihenfolge: A-B-C-D
+W:notiert Edi Gasser, nach Angaben von Fredy (Wallimann)
+W:UJV-Naturjodelsammlung: Code-Nr: 17-06
+W:http://www.naturjodler.ch/code 17.htm  (with AUDIO)
+%May 13 2018

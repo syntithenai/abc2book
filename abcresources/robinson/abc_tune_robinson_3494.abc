@@ -1,0 +1,12 @@
+X:50
+T:Galopp  G (GL00533)
+%%MIDI program 21
+M:2/4
+L:1/8
+O:Switzerland
+K:G major
+D |: "G"D>B AG | Fed2 | "D"cc/2D/2 cc/2E/2 | "G"BB/2D/2 BD | D>B AG | Fed2 | 
+"D"cc/2D/2 FA |1 "G"GG GD :|2 "G"GG Gd |: "D7"ed cA | "G"GB d/2d/2d | "D7"FA c/2c/2c | "G"GB d/2d/2d | 
+"D7"ed cA | "G"GB d/2d/2d | "D7"FA d>F |1 "G"GB Gd :|2 "G"GB GG |: "C"ee/2d/2 cA | G2c2 | 
+"G7"B/2B/2B !>!d2 | "C"e/2e/2e !>!c2 | ee/2d/2 cA | G2c2 | "G7"B/2B/2B d>B |1 "C"cc cG :|2 "C"cc cz |] 
+% GL00533

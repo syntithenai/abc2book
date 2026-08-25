@@ -1,0 +1,16 @@
+X:99
+T:Leicht und fein (Mazurka) CF (mz02030a)
+S:Hanny Christen. Bd.II  St. Gallen II, Graubünden, Tessin. S.279 (mz02030a) orig. C,F
+S: Graubünden. Repertoire von Peter Davoli, Davos/Samedan
+S: Überliefert vermutlich durch Joggi Stocker (1889-1956)
+O:Switzerland
+%%MIDI program 21
+R:Mazurka
+M:3/4
+L:1/8
+K:C major
+"C"e3B c>A | G>c E2E2 | G>cc3d | "G7"c2B2B2 | G>ff3B | B>d F2F2 | f>d B>a g>f | "C"eg c2c2 | 
+e3B c>A | G>c E2E2 | c3B d>c | "Dm"B2A2A2 | "G7"f3d B>a | "C"ge ce ga | "G7"g>f e>d c>B | "C"c2c2z2 | 
+|: "G7"B>ff2z2 |  "C"c>gg2z2 | "G7"b>a g>f e>d | "C"c>e a>gg2 | "G7"df fd ba | "C"ge eg gc' | "G7"b>a g>f e>d | "C"c2c2z2 :| [K:F] 
+|: "F"c>A f3e | "Bb"e2 d^cd2 | "C7"B>e d2d2 | "F"c>a f>e f2 | f4e2 | "Bb"g3f e>d | "C7"c>b g>e c>e | "F"f2f2z2 :| 
+% mz02030a

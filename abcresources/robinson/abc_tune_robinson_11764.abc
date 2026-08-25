@@ -1,0 +1,25 @@
+X:138
+T:Reed Waltz,The. CJF.138
+R:Waltz
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+N:This tune will not play quite correctly because the first
+N:two sections do not use lead-notes. There are repeat-mark
+N:dots after the last bar line in the MS. - PJH
+N:B: Kidson Coll.Mitchell Lib.M1805
+B:Village Music project, Fox, Charles
+O:England
+A:Yorkshire, E
+Z:vmp.P J Headford 2000 & 2008
+M:3/8
+L:1/16
+Q:1/8=120
+%%Mirrorred-From:http://www.village-music-project.org.uk/abc/fox_cj.abc
+K:D major
+" f".D2.F2.A2|.d2.f2.a2|d'2a2f2|d4f2|\
+.g2(g2e2)|.f2(f2d2)|(efedcB)|A6:|!
+|:A2c2e2|g4e2|b2g2e2|c4A2|\
+d2f2a2|d'2F2G2|A2A2A2|d4:|!
+|:a2|gafaea|fadafa|gafaea|f2d'2 f2|\
+gafaea|fadafa|g2e2c2|d4:|!
+|:a2|(d'c'b).a.g.f|(ed).c.B(AG)|F2A2d2|(f2e2) a2|\
+(d'c').b.a(gf)|(ed).c.B(AG)|(FB).A.G(FE)|D6:|

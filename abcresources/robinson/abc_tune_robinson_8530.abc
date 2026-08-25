@@ -1,0 +1,20 @@
+X: 98
+T:Mrs Gordon's Reel - Uvie
+B:William Marshall's Scottish Airs, Melodies, Strathspeys, Reels &c (1822)
+C:William Marshall
+L:1/8
+M:C|
+O:Scotland
+R:Reel
+Z:Clark Bernst + Richard Robinson
+%%Page:35 - 2
+K:D major
+%%staves {1 2}
+V:1
+{c}d2 (Ad) BdAd | cdef gecA | {c}d2 (Ad) BdAd | BAGF EDCA, :|
+dDFA fDFA | dDFA dcBA | eE^GB gEGB | eE^GB edce |
+dDFA fDFA | dDFA dcBA | GABc defg | (fa)(Be) dcBA |]
+V:2 clef=bass octave=-2
+L:1/4
+dd[dg][df] | [Aa][Aa][Aa][Aa] | dd[dg][df] | gGAA :| \
+dddd | dddd | eeee | ee^ga | dddd | dddd | ggfd | dgaA |]

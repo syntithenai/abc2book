@@ -1,0 +1,23 @@
+X:1
+T:Kreuzpolka  FCBb (kp06757)  ABAC 
+T:Hanny Christen. Bd.V  Basel II, Jura. S.79  (kp06757) orig. F,C,Bb
+S: Basel II. Tänze aus Arisdorf. S.54-84.
+S:Überliefert durch Traugott Salathe (1941) und Lehrer Weisskopf (1942)
+%%MIDI program 21
+%%partsbox
+P:ABAC
+R:Kreuzpolka
+M:2/4
+L:1/8
+O:Switzerland
+K:F major
+[P:A] ({cde}) "F".f.e .d.c | .A2!>!A2 | .f.e .d.c | "Gm".B2.B2 | gf ed | ("C7"c3A) | (B3G) |  "F"d(c/=B/) cc | .f.e .d.c | 
+.A2!>!A2 | fe dc | "Gm".e2!>!d2 | gf ed | "F"f(c/=B/) !>!c2 |  "C7"c^c de |  "F".f2!>!f2 :: [P:B] [K:C] "C"GA Bc | ("G7"^cd) !>!d2 | AB cd | 
+("C"^de) !>!e2 | "G7"gGd2 | "C"eGc2 | "G7"d>c BA | "C"AGG2 | GA Bc | ("G7"^cd)!>!d2 | AB cd | ("C"^de)!>!e2 | "G7"gGd2 | 
+"C"eGc2 | "G7"Bd (c/B/A/B/) | "C".c2!>!"_>Teil A"c2 :: [P:C] [K:Bb] ("Bb"df) .d.f | "F7".e2!>!e2 | (ce) .c.e | "Bb".d2!>!d2 | dd cB | "F7"Af !>!e>e | 
+Af e>e | "Bb"g^f =f2 | (df) .d.f | "F7".e2!>!e2 | (ce) .c.e | "Bb".d2!>!d2 | dd cB | "F7"Af e>e | cc e>e |  "Bb".d2!>!d2 :| 
+W:
+W:Anmerkung H.C.: Tägerig/Aargau, Eiken/Fricktal, Arisdorf, Binningen, Elm/Glarus
+W:1. Stück der Arisdorfer Musik, ein Giebenacher lehrte sie u. diese Löliger, Pratteln,  s.V. 971
+% kp06757
+% Jan 22, 2018

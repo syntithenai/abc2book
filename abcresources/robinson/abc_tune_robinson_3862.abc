@@ -1,0 +1,13 @@
+X: 117
+T: Schottisch CF
+T:Hanny Christen BdIX Uri II, Schwyz, Unterwalden I S302 (st10906) orig C,F-Dur
+M:2/4
+L:1/4
+I:abc-charset utf-8
+O:Switzerland
+K:C major
+"C"e>c | .e/(c'/ b/a/) | "G7".g/(B/ d/g/) | B2 | .g/(B/ d/g/) | B2 |  "C".g/(c/ e/g/) | c2 | e>c | .e/(c'/ b/a/) | 
+"G7".g/(B/ d/g/) | B2 | .g/(B/ d/g/) | .B .d | "C".c "G7"B | "C"c/c/ c/ z/ :: "C"a>g | [L:1/8] (eg) (cg) | "G7"(Bg) f2 | 
+z .c' .b.a | a3 g | (fg) (dg) | "C"(cg) e2 | z .c' .b.a | a3 g | (eg) (cg) | "G7"(Bg) f z | z .c' .b.a | 
+a3 g | (fg) (Bg) | "C".c2 c'2 | c'c' c'z :: [K:F] [L:1/4] "F"a>b/a// | (gf) | "C7"b>e | .e .e | b2 | (ag) | 
+"F"c'>f | .f.f | a2 | (gf) | "C7"b>g | .g.g | b>e | (b/e/ b/e/) | "F".f "C7"e |  "F"f/f/ f/ z/ :|
