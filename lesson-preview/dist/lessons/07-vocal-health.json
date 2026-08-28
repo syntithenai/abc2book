@@ -1,0 +1,136 @@
+{
+  "id": "07-vocal-health",
+  "title": "07 Vocal Health",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "08-singing/07-vocal-health.md",
+  "sections": [
+    {
+      "id": "vocal-health",
+      "title": "Vocal Health",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 1/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Your voice is irreplaceable equipment — protect it like a fiddler protects their hands."
+        }
+      ]
+    },
+    {
+      "id": "hydration",
+      "title": "Hydration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Water before and during gigs. Alcohol and caffeine dehydrate vocal folds. Steam inhalation helps before singing."
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "title": "Rest",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Avoid shouting over noisy pubs before sets. Schedule vocal rest days after demanding gigs."
+        }
+      ]
+    },
+    {
+      "id": "warm-up-and-cool-down",
+      "title": "Warm-up and cool-down",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Gentle hum descending after performance. Don't go from full belt to silence."
+        }
+      ]
+    },
+    {
+      "id": "warning-signs",
+      "title": "Warning signs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hoarseness >2 weeks, pain, loss of range — see ENT specialist. Nodules from chronic misuse are preventable."
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dry air, smoke, and allergens irritate folds. Humidifier in hotel rooms on tour."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-persistent-hoarseness-over-two-weeks-warrants",
+      "title": "Q1. Persistent hoarseness over two weeks warrants:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Medical evaluation\n- B) Singing louder\n- C) Ignoring it\n- D) Only whispering forever\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-hydration-supports-healthy-vocal-fold-function",
+      "title": "Q2. Hydration supports healthy vocal fold function.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-vocal-cool-down-after-gig",
+      "title": "Q3. Vocal cool-down after gig:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Gentle descending hums\n- B) Immediate maximum-volume singing\n- C) Complete dehydration\n- D) Shouting celebrations\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Persistent hoarseness over two weeks warrants:\n\n- A) Medical evaluation\n- B) Singing louder\n- C) Ignoring it\n- D) Only whispering forever\n\n**Answer:** A\n\n### Q2. Hydration supports healthy vocal fold function.\n\n**Answer:** True\n\n### Q3. Vocal cool-down after gig:\n\n- A) Gentle descending hums\n- B) Immediate maximum-volume singing\n- C) Complete dehydration\n- D) Shouting celebrations\n\n**Answer:** A"
+}

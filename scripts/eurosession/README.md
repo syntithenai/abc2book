@@ -210,6 +210,27 @@ python3 scripts/eurosession/make_abc_review_html.py \
 # open eurosession-work/review_abc.html
 ```
 
+## 4) Import into the abc2book tunebook
+
+The review page assigns each tune a **stable tunebook id** (shown under the title)
+and stores it in browser `localStorage`. Re-importing updates those tunes instead
+of creating duplicates. Do not use **Clear saved data** if you plan to re-import
+into an existing book — that wipes the ids.
+
+1. Open `review_abc.html` in the browser that has your review progress.
+2. Click **Export tunebook import** → saves `eurosession-import.json` (baked ABC,
+   complete flags, crop basenames, and stable ids).
+3. In abc2book: **Add** → **Import Reviewed Images**.
+4. Choose the JSON file, then choose the `eurosession-work/tunes` folder.
+5. Click **Import Reviewed Images**.
+
+Result:
+
+- All tunes land in the `eurosession` book.
+- Incomplete tunes open on the crop snapshot by default.
+- Complete tunes open as ABC notation (crop still attached).
+- Running the import again updates the same ids (ABC + crop refreshed).
+
 Build the local ABC contour index once (for OMR melody matching against FTF /
 Norbeck / JC dumps):
 

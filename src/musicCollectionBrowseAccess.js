@@ -55,6 +55,15 @@ export function getMusicCollectionBrowseAccess(context) {
   };
 }
 
+/** Books page entry: show Browse Library whenever signed in; library page verifies access. */
+export function shouldShowMusicCollectionBrowseEntry(context) {
+  const access = getMusicCollectionBrowseAccess(context);
+  if (access.needsNetwork) return false;
+  return access.canBrowse
+    || !!access.accessToken
+    || access.homeHasCollection;
+}
+
 export function formatMusicCollectionBrowseError(error) {
   if (getOfflineBlock()) return OFFLINE_MESSAGE;
   const message = error && error.message ? String(error.message) : '';

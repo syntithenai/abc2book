@@ -1,0 +1,178 @@
+{
+  "id": "legacy-form-analysis-figured-bass",
+  "title": "Figured Bass and Continuo",
+  "track": "theory",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "theory",
+    "legacy"
+  ],
+  "path": "11-theory-advanced/03-figured-bass.md",
+  "sections": [
+    {
+      "id": "figured-bass-and-continuo-practice",
+      "title": "Figured Bass and Continuo Practice",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory-advanced | **Difficulty:** 5/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Figured bass (thoroughbass) is Baroque shorthand for harmony above a bass line — foundation of 17th–18th century accompaniment."
+        }
+      ]
+    },
+    {
+      "id": "figures",
+      "title": "Figures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Numbers below bass indicate intervals above bass note to play. 5/3 = root position triad. 6 = first inversion. 6/4 = second inversion. 7 = seventh chord. Accidentals alter figures."
+        }
+      ]
+    },
+    {
+      "id": "realisation",
+      "title": "Realisation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Keyboardist improvises chord voicings from figures + bass. Harpsichord, organ, or lute with cello/bassoon on bass line."
+        }
+      ]
+    },
+    {
+      "id": "modern-relevance",
+      "title": "Modern relevance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Understanding figures clarifies Bach harmonic analysis. Jazz chord symbols are distant descendants. Roman numeral analysis partially replaces figures today."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Figured bass 6 below bass indicates:\n\n- A) First inversion triad\n- B) Root position\n- C) Second inversion only\n- D) Silence\n\n**Answer:** A\n\n### Q2. Continuo players realise harmonies from bass + figures.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Figured bass 6 below bass indicates:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "First inversion triad",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: First inversion triad"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Continuo players realise harmonies from bass + figures.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-form-analysis-figured-bass-quiz",
+    "title": "Figured Bass and Continuo quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Figured bass 6 below bass indicates:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "First inversion triad",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: First inversion triad"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Continuo players realise harmonies from bass + figures.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

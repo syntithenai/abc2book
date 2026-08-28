@@ -5,19 +5,9 @@ import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import { resolveFillPlaybackOptions } from './playbackFillSettings'
 import { buildPlaybackSequence } from './playbackFillPattern'
 import { resolveSequencePathMeasureTiming } from './playbackStateLogic'
+import { clearAbcjsSoundsCache } from './abcjsSoundsCache'
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/'
-
-function clearAbcjsSoundsCache() {
-  try {
-    // eslint-disable-next-line global-require, import/no-extraneous-dependencies
-    const cache = require('abcjs/src/synth/sounds-cache')
-    if (!cache || typeof cache !== 'object') return
-    Object.keys(cache).forEach(function(instrument) {
-      delete cache[instrument]
-    })
-  } catch (err) { /* ignore */ }
-}
 
 function renderAbcVisual(abc) {
   if (typeof document === 'undefined') return null

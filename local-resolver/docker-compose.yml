@@ -54,7 +54,8 @@ services:
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - "${MUSIC_COLLECTION_HOST_DIR:-./music-collection}:/music-collection:ro"
-      - ../:/app/www:ro
+      # Outside /app so uvicorn --reload does not scan the full repo/node_modules.
+      - ../:/static/www:ro
       - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}/incoming:/audio-cpp-incoming"
       - snapcast_run:/run/snapcast
     environment:
@@ -64,7 +65,8 @@ services:
       PORT: "8787"
       RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:-peppertrees.syntithenai.com}
       CAST_PUBLIC_URL: ${CAST_PUBLIC_URL:-https://peppertrees.syntithenai.com}
-      STATIC_SITE_DIR: /app/www
+      STATIC_SITE_DIR: /static/www
+      ABC2BOOK_ROOT: /static/www
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources
       MUSIC_COLLECTION_DIR: /music-collection

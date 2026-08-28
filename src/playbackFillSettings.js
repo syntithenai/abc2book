@@ -41,9 +41,13 @@ export const FILL_STYLE_GROUPS = [
       {
         id: FILL_STYLE_BOOM_CHICK,
         label: 'Boom-chick',
-        description: 'Alternating piano bass and mid-register chords (abcjs default).',
-        usesAbcjsChords: true,
-        generator: null,
+        description: 'Alternating piano bass and mid-register chords under the melody.',
+        // Custom fill keeps melody on chordsOff so fast 16ths are not mixed into
+        // the same abcjs piano track as accompaniment (which buried short notes).
+        usesAbcjsChords: false,
+        generator: 'boom-chick',
+        bassProgram: FILL_GM.piano,
+        chordProgram: FILL_GM.piano,
       },
       {
         id: 'bass-only',

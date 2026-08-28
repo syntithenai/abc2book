@@ -4,13 +4,19 @@ import KeySignatureInput from './KeySignatureInput';
 import VoiceFillInput from './VoiceFillInput';
 import { buildDraftFromSheetImageResult } from '../sheetImageImportUtils';
 import { formatSheetImageWarnings } from '../sheetImageFormatUtils';
+import { normalizeSheetFormat, sheetFormatIsTextOnly, sheetFormatLabel } from '../sheetImageFormats';
 
 function buildPreviewState(result, chordText, melodyAbc, meta) {
   if (!result) return null;
   const useMeta = meta || {};
+  const format = normalizeSheetFormat(
+    (result && (result.sheetFormat || result.pageType)) || 'unknown'
+  );
   const merged = Object.assign({}, result, {
     title: useMeta.title,
     artist: useMeta.artist,
+    sheetFormat: format,
+    pageType: format,
     chordSheet: Object.assign({}, result.chordSheet, { text: chordText }),
     melody: melodyAbc
       ? Object.assign({}, result.melody || {}, {
@@ -28,12 +34,15 @@ function buildPreviewState(result, chordText, melodyAbc, meta) {
     return {
       title: useMeta.title || (chordPreview && chordPreview.title) || 'Untitled',
       composer: useMeta.artist || (chordPreview && chordPreview.composer) || '',
-      key: useMeta.key || (chordPreview && chordPreview.key) || '',
+      key: useMeta.key || (chordPreview && chordPreview.key) || (merged.meta && merged.meta.key) || '',
       meter: useMeta.meter || (chordPreview && chordPreview.meter) || '',
-      pageType: merged.pageType,
+      pageType: format,
+      sheetFormat: format,
+      formatLabel: sheetFormatLabel(format),
       barCount: chordPreview ? chordPreview.barCount : 0,
       sectionCount: chordPreview ? chordPreview.sectionCount : 0,
       hasMelody: !!String(melodyAbc || '').trim(),
+      textOnly: sheetFormatIsTextOnly(format),
       warnings: formatSheetImageWarnings(draft.warnings || []),
     };
   } catch (e) {
@@ -145,10 +154,12 @@ export default function SheetImageTranscriptionPanel(props) {
           <strong>{preview.title || 'Untitled'}</strong>
           {preview.composer ? ' — ' + preview.composer : ''}
           <div>
-            {preview.pageType || 'unknown'}
+            {preview.formatLabel || preview.pageType || 'unknown'}
             {preview.key ? ' · ' + preview.key : ''}
             {preview.meter ? ' · ' + preview.meter : ''}
-            {' · '}{preview.barCount} chord bars · {preview.sectionCount} sections
+            {preview.textOnly
+              ? ''
+              : (' · ' + preview.barCount + ' chord bars · ' + preview.sectionCount + ' sections')}
             {preview.hasMelody ? ' · melody detected' : ''}
           </div>
           {preview.warnings && preview.warnings.length > 0 ? (
@@ -159,10 +170,19 @@ export default function SheetImageTranscriptionPanel(props) {
       <Tab.Container activeKey={activeTab} onSelect={props.onActiveTabChange}>
         <Nav variant="tabs">
           <Nav.Item>
-            <Nav.Link eventKey="chords" disabled={!chordText.trim()}>Chords / Lyrics</Nav.Link>
+            <Nav.Link eventKey="chords" disabled={!chordText.trim()}>
+              {normalizeSheetFormat(result.sheetFormat || result.pageType) === 'lyrics_only'
+                ? 'Lyrics'
+                : 'Chords / Lyrics'}
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="melody" disabled={!melodyAbc.trim()}>Melody ABC</Nav.Link>
+            <Nav.Link
+              eventKey="melody"
+              disabled={!melodyAbc.trim() || sheetFormatIsTextOnly(result.sheetFormat || result.pageType)}
+            >
+              Melody ABC
+            </Nav.Link>
           </Nav.Item>
         </Nav>
         <Tab.Content className="pt-3">

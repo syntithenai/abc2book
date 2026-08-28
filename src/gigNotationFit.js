@@ -11,6 +11,8 @@ export const GIG_NOTATION_FIT_SAFETY_PX = 2;
 export const GIG_NOTATION_FRAME_PAD_X = 6;
 export const GIG_NOTATION_FRAME_PAD_TOP = 32;
 export const GIG_NOTATION_FRAME_PAD_BOTTOM = 36;
+/** Tighter bottom margin for fit-height so the score fills to the transport bar. */
+export const GIG_NOTATION_VERTICAL_FIT_PAD_BOTTOM = 8;
 
 const META_SELECTORS = [
   '.abcjs-title',
@@ -691,7 +693,7 @@ export function measureSingleViewPaper(renderEl) {
   const widthRect = widthEl.getBoundingClientRect();
   const topRect = renderEl.getBoundingClientRect();
   const rightPad = 8;
-  const bottomPad = 8;
+  const bottomPad = 0;
   const columnW = Math.max(
     widthEl.clientWidth || 0,
     widthRect.width || 0
@@ -766,13 +768,49 @@ export function expandNotationViewBoxForMeta(svg, dims) {
   };
 }
 
+/**
+ * Fit-height viewBox: staff content + meta overhang + tight vertical padding.
+ */
+export function buildVerticalFitFrame(svg) {
+  const contentBox = getSvgContentBBox(svg);
+  if (!contentBox || !(contentBox.width > 0) || !(contentBox.height > 0)) {
+    return measureFitFrame(svg);
+  }
+  const padX = GIG_NOTATION_FRAME_PAD_X;
+  const padTop = GIG_NOTATION_FRAME_PAD_TOP;
+  const padBottom = GIG_NOTATION_VERTICAL_FIT_PAD_BOTTOM;
+  return {
+    x: contentBox.x - padX,
+    y: contentBox.y - padTop,
+    width: contentBox.width + (padX * 2),
+    height: contentBox.height + padTop + padBottom,
+  };
+}
+
+export function expandNotationViewBoxForVerticalFit(svg, dims) {
+  const fitFrame = buildVerticalFitFrame(svg);
+  if (fitFrame && fitFrame.width > 0 && fitFrame.height > 0) {
+    return fitFrame;
+  }
+  return expandNotationViewBoxForMeta(svg, dims);
+}
+
+/** Dimensions used for staffwidth search and vertical scale (includes frame padding). */
+export function readNotationFitDims(svg) {
+  const frame = buildVerticalFitFrame(svg);
+  if (frame && frame.width > 0 && frame.height > 0) {
+    return { width: frame.width, height: frame.height };
+  }
+  return readNotationSvgDims(svg);
+}
+
 function applyVerticalFitViewBox(svg, frame, options) {
   if (!svg || !frame) return;
   options = options || {};
   svg.setAttribute('viewBox', [frame.x, frame.y, frame.width, frame.height].join(' '));
   svg.removeAttribute('width');
   svg.removeAttribute('height');
-  const alignY = options.topAlign ? 'YMin' : 'YMid';
+  const alignY = options.topAlign === false ? 'YMid' : 'YMin';
   svg.setAttribute('preserveAspectRatio', 'xMid' + alignY + ' meet');
 }
 
@@ -787,14 +825,14 @@ export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
   options = options || {};
   const dims = readNotationSvgDims(svg);
   if (!dims) return null;
-  // Measure meta while native width/height are still present for bbox conversion.
-  const frame = expandNotationViewBoxForMeta(svg, dims) || {
+  // Measure while native width/height are still present for bbox conversion.
+  const frame = expandNotationViewBoxForVerticalFit(svg, dims) || {
     x: 0,
     y: 0,
     width: dims.width,
     height: dims.height,
   };
-  applyVerticalFitViewBox(svg, frame, options);
+  applyVerticalFitViewBox(svg, frame, Object.assign({ topAlign: true }, options));
 
   const paper = paperEl
     ? measureNotationPaper(paperEl, renderEl)

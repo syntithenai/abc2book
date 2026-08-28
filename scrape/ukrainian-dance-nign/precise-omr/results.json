@@ -1,0 +1,44 @@
+[
+  {
+    "i": 1,
+    "abc": "E/2 A B/2 | c/2 B/2 A | A/2 c/2 d/2 | e/2 d/2 c/2 d/2 ^c/2 A/2 B/2 |\nc2 | d/2 d/2 c/2 B/2 | A2 |]",
+    "ok": true,
+    "meter": "",
+    "key": "Am"
+  },
+  {
+    "i": 2,
+    "abc": "A/2 d/2 e/2 | ^f/2 ^f0.125 ^f0.125 e/2 d/2 | d/2 A/2 d/2 A/2 | d2 |\nG/4 B/4 c0.125 d0.125 e0.125 e0.125 e0.125 d/4 c/4 | g ^f0.125 g0.125 a/2 | g2 | e/2 e/2 d/2 c/2 d/2 |\nc2 |]",
+    "ok": true,
+    "meter": "",
+    "key": "C"
+  },
+  {
+    "i": 3,
+    "abc": "d/2 d/2 d/2 | c/2 B/4 c/4 B/2 A/2 | A/2 G/2 A/2 B/2 | c/2 c/2 |\nd/2 d d/2 | c/2 B/2 c/2 B/2 A/2 | A/2 G/2 c/2 B/2 | A2 |",
+    "ok": true,
+    "meter": "",
+    "key": "G"
+  },
+  {
+    "i": 4,
+    "abc": "B,/2 E ^F/2 | G/2 ^F/2 E | E/2 G A/2 | B/2 A/2 G |\nA/2 ^G A/2 E/2 ^F/2 | G G | A/2 ^G A/2 G/2 ^F/2 | E E |",
+    "ok": true,
+    "meter": "",
+    "key": "Em"
+  },
+  {
+    "i": 5,
+    "abc": "E/2 A B/2 | c/2 c/4 c/4 B/2 A/2 | A/2 E/2 A/2 E/2 | A A |\nD/2 G/2 G/2 A/2 | B/4 B/4 B/4 A/2 G/2 | d/4 c/4 d/4 e/4 | d2 |\nB/4 B/4 A/4 G/4 A/2 | G2 |]",
+    "ok": true,
+    "meter": "",
+    "key": "G"
+  },
+  {
+    "i": 6,
+    "abc": "A/2 A/2 A/2 A/2 | G/2 ^F/4 G/4 ^F/2 E/2 | E/2 D/2 E/2 ^F/2 | G G |\nA/2 A A/2 | G/2 ^F/4 G/4 ^F/2 F/2 | E/2 F/2 G/2 ^F/2 | D D |",
+    "ok": true,
+    "meter": "",
+    "key": "D"
+  }
+]

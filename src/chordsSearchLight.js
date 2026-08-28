@@ -76,7 +76,17 @@ export async function searchChordsLight(options) {
 
   emitProgress(opts.onProgress, 'Searching local collection for embedded chords...', 0.05, 'local')
 
-  const textSearchIndex = opts.textSearchIndex || await loadTextSearchIndexFromResource()
+  // Prefer-chords from the lyrics editor should miss fast when the local index
+  // is not already warm (cold load is ~28MB). Dedicated chords search may still
+  // warm-load with a short timeout.
+  const textSearchIndex = opts.textSearchIndex || await loadTextSearchIndexFromResource(null, {
+    skipColdLoad: !!opts.skipColdIndexLoad,
+    timeoutMs: typeof opts.indexTimeoutMs === 'number' ? opts.indexTimeoutMs : 8000,
+  })
+  if (!textSearchIndex || !textSearchIndex.tokens || !Object.keys(textSearchIndex.tokens).length) {
+    throw new Error(CHORDS_LIGHT_ERROR)
+  }
+
   const localSearchRows = searchLocalCollection(title, textSearchIndex)
   const localResults = await searchLocalCollectionChords({
     title: title,

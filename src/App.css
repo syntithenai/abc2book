@@ -4065,6 +4065,15 @@ button.btn-primary {
   min-width: 0;
 }
 
+.playlist-mode-buttons .playlist-mode-btn-check {
+  margin: 0 !important;
+  float: none;
+  pointer-events: none;
+  flex: 0 0 auto;
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
 .playlist-mode-buttons .playlist-mode-btn-label {
   display: inline-block;
   line-height: 1;
@@ -4538,13 +4547,16 @@ button img:after {
 .music-actions-edit-actions-row .tune-download-dropdown,
 .music-actions-edit-actions-row .tune-download-dropdown .dropdown-toggle,
 .music-actions-edit-actions-row .tune-enhance-dropdown,
-.music-actions-edit-actions-row .tune-enhance-dropdown .btn {
+.music-actions-edit-actions-row .tune-enhance-dropdown .btn,
+.music-actions-edit-actions-row .tune-find-similar,
+.music-actions-edit-actions-row .tune-find-similar .btn {
   width: 100%;
   text-align: left;
   justify-content: flex-start;
 }
 
-.music-actions-edit-actions-row .tune-enhance-dropdown {
+.music-actions-edit-actions-row .tune-enhance-dropdown,
+.music-actions-edit-actions-row .tune-find-similar {
   display: block;
 }
 
@@ -4566,7 +4578,9 @@ button img:after {
 .music-actions-edit-actions-row--icons .tune-download-dropdown,
 .music-actions-edit-actions-row--icons .tune-download-dropdown .dropdown-toggle,
 .music-actions-edit-actions-row--icons .tune-enhance-dropdown,
-.music-actions-edit-actions-row--icons .tune-enhance-dropdown .btn {
+.music-actions-edit-actions-row--icons .tune-enhance-dropdown .btn,
+.music-actions-edit-actions-row--icons .tune-find-similar,
+.music-actions-edit-actions-row--icons .tune-find-similar .btn {
   width: 100%;
   min-width: 2.5rem;
   min-height: 2.35rem;
@@ -5336,8 +5350,7 @@ button img:after {
   --lyrics-fit-panel-height: calc(
     100dvh
     - var(--lyrics-fit-chrome-top)
-    - var(--app-playlist-transport-offset, 0px)
-    - 0.75rem
+    - var(--app-playlist-transport-height, var(--app-playlist-transport-offset, 0px))
   );
 }
 
@@ -5345,11 +5358,15 @@ button img:after {
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-structure .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-lyrics-structure .tune-panel-notation {
-  height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
-  max-height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
+  position: sticky;
+  top: var(--lyrics-fit-chrome-top);
+  height: auto;
+  max-height: var(--lyrics-fit-panel-height);
   overflow: hidden;
   min-width: 0;
   max-width: 100%;
+  min-height: 0;
+  box-sizing: border-box;
 }
 
 .music-panels-fit-height .tune-panel-notation.tune-panel-notation--playalong-roll {
@@ -5573,7 +5590,7 @@ button img:after {
 /* Side-by-side fit-height: pin notation and lyrics under the toolbar together. */
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation {
   position: sticky;
-  top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
+  top: var(--lyrics-fit-chrome-top);
   align-self: start;
   overflow-anchor: none;
 }
@@ -5581,10 +5598,10 @@ button img:after {
 /* Side lyrics column stays within viewport when notation is fit-height */
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-lyrics {
   position: sticky;
-  top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc(var(--music-buttons-sticky-height, 3.2em) * var(--chrome-vv-zoom, 1)));
+  top: var(--lyrics-fit-chrome-top);
   align-self: start;
   box-sizing: border-box;
-  max-height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
+  max-height: var(--lyrics-fit-panel-height);
   overflow-y: auto;
   /* Match notation column inset so tops stay aligned after the load scroll. */
   padding-top: 0.7em;
@@ -6142,8 +6159,12 @@ button img:after {
 .music-panels-fit-height.music-layout-notation-lyrics .music-body-notation,
 .music-panels-fit-height.music-layout-notation-chords .music-body-notation,
 .music-panels-fit-height.music-layout-notation-lyrics-chords .music-body-notation {
-  height: calc(100vh - 8rem - var(--app-playlist-transport-offset, 0px));
+  position: sticky;
+  top: var(--lyrics-fit-chrome-top);
+  height: auto;
+  max-height: var(--lyrics-fit-panel-height);
   overflow: hidden;
+  box-sizing: border-box;
 }
 /* Lyrics-only with fit-vertical: lyrics fill remaining viewport below chrome */
 .music-panels-fit-height.music-layout-lyrics-only .music-body-lyrics {
@@ -11204,7 +11225,8 @@ button.abc-transpose-preview {
   width: 100%;
 }
 
-.tune-enhance-dropdown > .btn {
+.tune-enhance-dropdown > .btn,
+.tune-find-similar > .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -12329,6 +12351,78 @@ body.app-has-playlist-transport .links-editor-modal-dialog .modal-body {
 
 .add-from-strip-row > .btn-group {
   margin-left: 0;
+}
+
+.add-tune-title-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.add-tune-title-row .add-tune-title-block {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.add-from-beside-title {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.add-from-beside-title .add-from-dropdown,
+.add-from-beside-title .dropdown {
+  display: flex;
+  height: 100%;
+}
+
+.add-from-beside-title .add-from-dropdown-toggle,
+.add-from-beside-title .add-from-dropdown .dropdown-toggle {
+  height: 100%;
+  min-height: 5.5rem;
+  min-width: 9.5rem;
+  padding: 0.85rem 1.35rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 0.5rem;
+  color: var(--bs-body-color, #212529);
+  box-shadow: none;
+}
+
+.add-from-beside-title .add-from-dropdown-toggle:hover,
+.add-from-beside-title .add-from-dropdown-toggle:focus,
+.add-from-beside-title .add-from-dropdown .dropdown-toggle:hover,
+.add-from-beside-title .add-from-dropdown .dropdown-toggle:focus,
+.add-from-beside-title .add-from-dropdown .dropdown-toggle.show {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.28);
+  color: var(--bs-body-color, #212529);
+}
+
+.add-from-dropdown {
+  flex-shrink: 0;
+}
+
+.add-from-dropdown .dropdown-toggle {
+  white-space: nowrap;
+}
+
+.add-curated-collections-section {
+  border-top: 1px solid var(--app-border-color, #dee2e6);
+  padding-top: 0.85rem;
+}
+
+.add-curated-collections-section .add-curated-collections-panel h5 {
+  font-size: 1rem;
+}
+
+.add-curated-collections-section .books-page-book-card {
+  max-width: 100%;
 }
 
 .collection-match-panel {

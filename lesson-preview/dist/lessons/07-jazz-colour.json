@@ -1,0 +1,103 @@
+{
+  "id": "07-jazz-colour",
+  "title": "07 Jazz Colour",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "03-chords/07-jazz-colour.md",
+  "sections": [
+    {
+      "id": "altered-dominants-and-jazz-colour-chords",
+      "title": "Altered Dominants and Jazz Colour Chords",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 8/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Altered dominants intensify V7 resolution through sharpened or flattened extensions."
+        }
+      ]
+    },
+    {
+      "id": "altered-dominants",
+      "title": "Altered dominants",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "G7(♭9), G7(♯5) heighten tension before C major/minor. The altered scale (super Locrian) matches these tensions."
+        }
+      ]
+    },
+    {
+      "id": "tritone-substitution",
+      "title": "Tritone substitution",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Replace G7 with D♭7 — shared tritone (F and B/C♭) allows similar resolution. Secondary dominants temporarily tonicise other degrees: A7→Dm in C is V7/vi."
+        }
+      ]
+    },
+    {
+      "id": "trad-crossover",
+      "title": "Trad crossover",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Recognise G7♯9 vs plain G7 in fusion settings. When unsure, play 3rd and 7th clearly."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-tritone-sub-for-g7-in-c",
+      "title": "Q1. Tritone sub for G7 in C:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) D♭7\n- B) D7\n- C) B♭7\n- D) A7\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-altered-dominants-modify-5th-andor-9th-of-v7",
+      "title": "Q2. Altered dominants modify 5th and/or 9th of V7.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Tritone sub for G7 in C:\n\n- A) D♭7\n- B) D7\n- C) B♭7\n- D) A7\n\n**Answer:** A\n\n### Q2. Altered dominants modify 5th and/or 9th of V7.\n\n**Answer:** True"
+}

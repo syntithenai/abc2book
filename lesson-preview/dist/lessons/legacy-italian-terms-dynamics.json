@@ -1,0 +1,178 @@
+{
+  "id": "legacy-italian-terms-dynamics",
+  "title": "Dynamic Markings",
+  "track": "italian",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "italian",
+    "legacy"
+  ],
+  "path": "02-italian-terms/02-dynamics.md",
+  "sections": [
+    {
+      "id": "dynamic-markings-from-pianissimo-to-fortissimo",
+      "title": "Dynamic Markings: From Pianissimo to Fortissimo",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** italian-terms | **Difficulty:** 1/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dynamics indicate volume and its changes. Italian abbreviations are universal across classical, folk, and popular notation."
+        }
+      ]
+    },
+    {
+      "id": "static-dynamics",
+      "title": "Static dynamics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**pp** pianissimo — very soft. **p** piano — soft. **mp** mezzo piano — moderately soft. **mf** mezzo forte — moderately loud (common default). **f** forte — loud. **ff** fortissimo — very loud. **fff** — extreme loudness (rare)."
+        }
+      ]
+    },
+    {
+      "id": "changing-dynamics",
+      "title": "Changing dynamics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Crescendo** (cresc. or <) — gradually louder. **Diminuendo/decrescendo** (dim., decresc., or >) — gradually softer. **Sforzando** (sf, sfz) — sudden accent. **Forte-piano** (fp) — loud attack then immediately soft."
+        }
+      ]
+    },
+    {
+      "id": "in-ensemble",
+      "title": "In ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dynamics interact with articulation and tempo. A reel at mf with crisp bowing differs from mp with sustain. Céilí band arrangements use strategic dynamic shifts to mark tune changes and solos."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. mf stands for:\n\n- A) Mezzo forte\n- B) Molto forte\n- C) Mezzo piano\n- D) Minor fortissimo\n\n**Answer:** A\n\n### Q2. Crescendo means gradually louder.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "mf stands for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mezzo forte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Mezzo forte"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Crescendo means gradually louder.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-italian-terms-dynamics-quiz",
+    "title": "Dynamic Markings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "mf stands for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mezzo forte",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Mezzo forte"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Crescendo means gradually louder.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

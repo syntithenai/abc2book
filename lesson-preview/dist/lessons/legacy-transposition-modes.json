@@ -1,0 +1,167 @@
+{
+  "id": "legacy-transposition-modes",
+  "title": "Modal Transposition",
+  "track": "transposition",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "transposition",
+    "legacy"
+  ],
+  "path": "04-transposition/05-modes.md",
+  "sections": [
+    {
+      "id": "modes-and-modal-transposition",
+      "title": "Modes and Modal Transposition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 7/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modal transposition preserves characteristic altered scale degrees, not just letter names."
+        }
+      ]
+    },
+    {
+      "id": "key-signatures",
+      "title": "Key signatures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "D dorian shares C major's signature. G mixolydian shares C major's signature. D major has two sharps — different collection."
+        }
+      ]
+    },
+    {
+      "id": "preserving-colour",
+      "title": "Preserving colour",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Transposing D mixolydian to E mixolydian: keep the flat 7th (D natural in E mixolydian). Dorian keeps major 6th; mixolydian keeps flat 7th."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. D dorian key signature:\n\n- A) C major (none)\n- B) D major (2 sharps)\n- C) F major (1 flat)\n- D) G major (1 sharp)\n\n**Answer:** A\n\n### Q2. Mixolydian lowers the 7th vs major.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "D dorian key signature:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "C major (none)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: C major (none)"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Mixolydian lowers the 7th vs major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-transposition-modes-quiz",
+    "title": "Modal Transposition quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "D dorian key signature:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "C major (none)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: C major (none)"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Mixolydian lowers the 7th vs major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

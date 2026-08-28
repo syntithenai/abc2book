@@ -1,0 +1,1 @@
+import{W as e}from"./index-CYwiAHEw.js";class r extends e{async ping(){return{ok:!1,error:"Not available on web"}}async fetchYoutubeAudio(){throw new Error("Native YouTube fetch is only available in the Android app")}async searchYoutubeVideos(){throw new Error("Native YouTube search is only available in the Android app")}}export{r as TunebookYoutubeWeb};

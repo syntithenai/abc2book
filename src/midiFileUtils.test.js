@@ -49,7 +49,8 @@ describe('midiFileUtils', function() {
   test('createMidiFileEndHandler finishes when little time remains', function() {
     const calls = []
     const player = {
-      isPlaying: function() { return false },
+      isPlaying: function() { return true },
+      pause: function() { calls.push('pause') },
       play: function() { calls.push('play') },
       getSongTimeRemaining: function() { return 0.05 },
       skipToSeconds: function(sec) { calls.push('skip:' + sec) },
@@ -64,6 +65,6 @@ describe('midiFileUtils', function() {
     })
     handler()
     expect(onEnded).toHaveBeenCalled()
-    expect(calls).toEqual(['clear', 'stopNotes', 'skip:0'])
+    expect(calls).toEqual(['clear', 'stopNotes', 'pause'])
   })
 })

@@ -19,6 +19,7 @@ import {
   findStaffWidthForVerticalFit,
   fitSingleViewVertical,
   measureSingleViewPaper,
+  readNotationFitDims,
   readNotationSvgDims,
 } from '../gigNotationFit'
 import { buildTablatureRenderOptions, shouldApplyTabOnlyDisplay, countActiveTabVoices } from '../tablatureConfig.js'
@@ -226,8 +227,12 @@ export default function Abc(props) {
         const footerMeta = footerRoot && typeof footerRoot.querySelector === 'function'
           ? footerRoot.querySelector('.music-single-footer-meta')
           : null
+        const transportBar = typeof document.querySelector === 'function'
+          ? document.querySelector('.now-playing-transport-bar')
+          : null
         if (section) observer.observe(section)
         if (footerMeta) observer.observe(footerMeta)
+        if (transportBar) observer.observe(transportBar)
       }
       return function() {
         cancelAnimationFrame(raf1)
@@ -350,7 +355,7 @@ export default function Abc(props) {
             if (renderPass === 'measure' && shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
               applyTabOnlyNotationDisplay(renderEl, countActiveTabVoices(tabOptions))
             }
-            var dims = readNotationSvgDims(svg)
+            var dims = readNotationFitDims(svg)
             if (!dims || !(dims.width > 0) || !(dims.height > 0)) return null
             return { svg: svg, dims: dims, visual: attempt && attempt.length > 0 ? attempt[0] : null }
           }
@@ -434,7 +439,7 @@ export default function Abc(props) {
                 // start a second createPlayer — that stacks count-ins after reload.
                 && !(props.mediaController && props.mediaController.hasPlayingIntent
                     && props.mediaController.hasPlayingIntent())) {
-                var primeHash = (props.visualTranspose != null ? props.visualTranspose : (tuneObj.transpose || 0)) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + (tuneObj.playbackFillStyle || 'boom-chick') + '-' + (tuneObj.playbackFillLevel != null ? tuneObj.playbackFillLevel : 100) + '-' + abcTools.getTuneHash(tuneObj)
+                var primeHash = (props.visualTranspose != null ? props.visualTranspose : (tuneObj.transpose || 0)) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + (tuneObj.playbackFillStyle || 'boom-chick') + '-' + (tuneObj.playbackFillLevel != null ? tuneObj.playbackFillLevel : 100) + '-tempoFix1-rep1-' + abcTools.getTuneHash(tuneObj)
                 if (primeHash !== audioChangedHash) {
                     setAudioChangedHash(primeHash)
                     const autoPrimeGeneration = getPlaybackGeneration()
@@ -442,15 +447,12 @@ export default function Abc(props) {
                         if (!isPlaybackGenerationCurrent(autoPrimeGeneration)) return
                         var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                         if (!midiBuffer) {
+                            // Background auto-prime failures must not toast — natural end
+                            // and play races cancel primes while intent may still be armed.
                             setReady(false)
                             setStarted(false)
-                            if (props.mediaController && props.mediaController.hasActivePlaybackIntent
-                                && props.mediaController.hasActivePlaybackIntent()) {
-                                if (props.mediaController.setTapToPlay) {
-                                    props.mediaController.setTapToPlay(true)
-                                }
-                            } else if (props.mediaController && props.mediaController.abortPlayingIntent) {
-                                props.mediaController.abortPlayingIntent()
+                            if (props.mediaController && props.mediaController.setIsLoading) {
+                                props.mediaController.setIsLoading(false)
                             }
                             return
                         }
@@ -467,6 +469,9 @@ export default function Abc(props) {
                         setStarted(false)
                         if (props.mediaController && props.mediaController.abortPlayingIntent) {
                             props.mediaController.abortPlayingIntent()
+                        }
+                        if (props.mediaController && props.mediaController.setIsLoading) {
+                            props.mediaController.setIsLoading(false)
                         }
                     })
                 }
@@ -499,7 +504,9 @@ export default function Abc(props) {
             </Modal.Header>
             <Modal.Body>
                 <Button variant="success" onClick={function() {
-                    if (props.mediaController && props.mediaController.resumeAudioContextAndPlay) {
+                    if (props.mediaController && props.mediaController.playFromUserGesture) {
+                        props.mediaController.playFromUserGesture({ fresh: true })
+                    } else if (props.mediaController && props.mediaController.resumeAudioContextAndPlay) {
                         props.mediaController.resumeAudioContextAndPlay()
                     } else {
                         setTapToPlay(false)

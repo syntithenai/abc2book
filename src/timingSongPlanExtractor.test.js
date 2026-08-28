@@ -154,8 +154,8 @@ describe('timingSongPlanExtractor', function() {
     const plan = buildTimingSongPlan(REEL_TUNE, '', {
       visualObj: mockVisual(32000, 4, 120),
     });
-    expect(plan.backingPrompt).toMatch(/full band arrangement/i);
-    expect(plan.backingPrompt).toMatch(/strong audible chord/i);
+    expect(plan.backingPrompt).toMatch(/clear fiddle melody|audible guitar|continuous accompaniment/i);
+    expect(plan.backingPrompt).toMatch(/keep every melody note audible/i);
     expect(plan.guideEngine).toBe('stable_audio');
     expect(plan.backingNegativePrompt).toMatch(/church organ|thin arrangement|no accompaniment/i);
     expect(plan.backingNegativePrompt).not.toMatch(/lead melody/i);
@@ -165,11 +165,17 @@ describe('timingSongPlanExtractor', function() {
     const plan = buildTimingSongPlan(REEL_TUNE, '', {
       visualObj: mockVisual(32000, 4, 120),
     });
+    plan.chordsPerBar = ['D', 'A', 'D', 'A', 'G', 'Em', 'D', 'A'];
+    plan.guideHarmonySource = 'chord_chart';
     const payload = buildPracticeTrackRequestPayload(plan, { renderStyle: 'classical' });
-    expect(payload.backingPrompt).toMatch(/classical chamber|string ensemble/i);
-    expect(payload.backingPrompt).not.toMatch(/session backing only/i);
-    expect(payload.backingNegativePrompt).toMatch(/acoustic guitar|guitar fill|strumming/i);
+    expect(payload.backingPrompt).toMatch(/classical chamber|solo violin|string/i);
+    expect(payload.backingPrompt).toMatch(/sustained|harmony under every bar|continuous accompaniment|no dropout/i);
+    expect(payload.backingPrompt).not.toMatch(/session backing only|rhythm section under/i);
+    expect(payload.backingNegativePrompt).toMatch(/acoustic guitar|guitar fill|strumming|oom.?pah|organ|dropout|ambient wash/i);
     expect(payload.accompanimentMidiProgram).toBe(48);
+    expect(payload.initNoiseLevel).toBeCloseTo(0.22, 2);
+    expect(payload.chordsPerBar.length).toBeGreaterThan(0);
+    expect(payload.guideHarmonySource).toBe('chord_chart');
   });
 
   test('single-strain repeats expand playCount from tune.repeats', function() {

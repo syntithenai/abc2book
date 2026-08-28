@@ -1,0 +1,992 @@
+{
+  "id": "regions-east-poland-08-tunes",
+  "title": "Polish Folk Music — Tunes — Forms, History, and Recordings",
+  "track": "regions",
+  "tier": 4.5,
+  "region": "east-poland",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-east-poland-07-representative-depth"
+  ],
+  "tags": [
+    "east",
+    "poland",
+    "eastern-europe",
+    "tunes",
+    "—"
+  ],
+  "path": "10-regions/eastern-europe/poland/08-tunes.md",
+  "sections": [
+    {
+      "id": "polish-folk-music-tunes-forms-history-and-recordings",
+      "title": "Polish Folk Music — Tunes — Forms, History, and Recordings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Eastern European Folk | **Region:** east-poland | **Tier:** 4.5\n**Prerequisites:** regions-east-poland-07-representative-depth\n**Tags:** east, poland, eastern-europe, tunes, —"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Polish regional tunes\n\nPolish Folk Music belongs to the **Eastern European Folk** curriculum. Warsaw Village Band\n\nThis lesson develops listening precision for **Polish regional tunes** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-hungary",
+      "title": "Compared with Hungary",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hungarian Folk Music** (`regions-east-hungary-08-tunes`) covers the same lesson slot from the anchor perspective. This lesson stresses: **Polish regional tunes**.\n\n| Topic | Hungary anchor | Polish Folk Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | Csárdás standard forms… | Polish regional tunes… |\n\n**Parallel anchor lesson:** `regions-east-hungary-08-tunes`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-08-tunes`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Polish regional tunes\n\nStudy **polish folk music** through listening first. Wikipedia's article on [Music of Poland](https://en.wikipedia.org/wiki/Music_of_Poland) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "tune-studies",
+      "title": "Tune studies",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Representative repertoire includes **Polish regional tunes**. Use the lesson tune panel and **Play all** to compare multiple settings of the same title or form."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Eastern European Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **violin, voice**. Ensemble layer: **accordion, bass**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **mazurka, oberek, polska**. Dance context: **social dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **regional collectors**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Polish regional tunes**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Polish regional tunes\n- Lead instruments: violin, voice\n- Ensemble: accordion, bass\n- Forms: mazurka, oberek, polska\n- Dance: social dance\n- History: regional collectors\n- Scenes: festivals\n- Repertoire: Polish regional tunes\n- Compared with Hungary: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Polish Folk Music is a living tradition with regional accent.\n- Focus: Polish regional tunes.\n- Compared with Hungary: shared heritage, distinct emphasis.\n- Forms: mazurka, oberek, polska.\n- Dance: social dance.\n- Transmission: regional collectors."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nP\no\nl\na\nn\nd\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nP\no\nl\na\nn\nd\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nH\nu\nn\ng\na\nr\ny\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "warsaw-village-band",
+      "type": "artist",
+      "name": "Warsaw Village Band",
+      "summary": "Representative musician or ensemble in east-poland trad",
+      "blurb": "Study Warsaw Village Band for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Warsaw_Village_Band",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "polish-folk-music",
+      "type": "band",
+      "name": "Polish Folk Music",
+      "summary": "Representative musician or ensemble in east-poland trad",
+      "blurb": "Study Polish Folk Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Polish_Folk_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "warsaw-village-band",
+    "polish-folk-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-east-poland-08-tunes-pl1",
+      "entity_id": "warsaw-village-band",
+      "label": "Warsaw Village Band — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Warsaw Village Band"
+    },
+    {
+      "id": "regions-east-poland-08-tunes-pl2",
+      "entity_id": "polish-folk-music",
+      "label": "Polish Folk Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Polish Folk Music"
+    },
+    {
+      "id": "regions-east-poland-08-tunes-pl3",
+      "label": "Polish Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-east-poland-08-tunes-pl4",
+      "label": "Polish Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [
+    {
+      "id": "polish-regional-tunes",
+      "type": "tune",
+      "name": "Polish regional tunes",
+      "form": "mazurka",
+      "reference": "Music of Poland repertoire",
+      "about": "Representative polish folk music listening study.",
+      "playlist": [
+        {
+          "label": "Polish regional tunes — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y"
+        }
+      ]
+    },
+    {
+      "id": "poland-standard-1",
+      "type": "tune",
+      "name": "poland standard 1",
+      "form": "mazurka",
+      "reference": "Music of Poland repertoire",
+      "about": "Representative polish folk music listening study.",
+      "playlist": [
+        {
+          "label": "poland standard 1 — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw"
+        }
+      ]
+    },
+    {
+      "id": "poland-standard-2",
+      "type": "tune",
+      "name": "poland standard 2",
+      "form": "mazurka",
+      "reference": "Music of Poland repertoire",
+      "about": "Representative polish folk music listening study.",
+      "playlist": [
+        {
+          "label": "poland standard 2 — regional recording",
+          "youtube": "https://www.youtube.com/watch?v=8jLOx1hD3_o"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Polish Folk Music rewards comparative study.",
+    "Focus: Polish regional tunes.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: mazurka, oberek, polska.",
+    "Dance: social dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Polish Folk Music is a living tradition with regional accent.",
+    "Compared with Hungary: shared heritage, distinct emphasis.",
+    "Transmission: regional collectors."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Poland",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Poland",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Eastern European Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Poland",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Polish regional tunes",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Poland",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Polish regional tunes\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Polish regional tunes\n\n### Q2. Polish Folk Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Hungary, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) violin, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) violin, voice\n\n### Q5. Ensemble voices include:\n- A) accordion, bass\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) accordion, bass\n\n### Q6. Tune and song forms include:\n- A) mazurka, oberek, polska\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) mazurka, oberek, polska\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) regional collectors\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) regional collectors\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Polish regional tunes\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Polish regional tunes\n\n### Q12. The Compared with Hungary section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Polish regional tunes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": ") Polish regional tunes"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Polish Folk Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Hungary, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "violin, voice",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") violin, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "accordion, bass",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") accordion, bass"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "mazurka, oberek, polska",
+          "correct": true
+        }
+      ],
+      "explain": ") mazurka, oberek, polska"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "regional collectors",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") regional collectors"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Polish regional tunes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") Polish regional tunes"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Hungary section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-east-poland-08-tunes-quiz",
+    "title": "Polish Folk Music — Tunes — Forms, History, and Recordings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Polish regional tunes",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": ") Polish regional tunes"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Polish Folk Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Hungary, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "violin, voice",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") violin, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "accordion, bass",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") accordion, bass"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "mazurka, oberek, polska",
+            "correct": true
+          }
+        ],
+        "explain": ") mazurka, oberek, polska"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "regional collectors",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") regional collectors"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Polish regional tunes",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") Polish regional tunes"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Hungary section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

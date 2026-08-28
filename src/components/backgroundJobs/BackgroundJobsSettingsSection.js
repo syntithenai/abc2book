@@ -19,6 +19,7 @@ import * as stemCreateQueue from '../../stemCreateQueue'
 import { subscribePlaybackRegionScanJobs } from '../../playbackRegionScanJobs'
 import { subscribeMediaAnalysisJobs } from '../../mediaAnalysisJobs'
 import { subscribeFileOcrJobs } from '../../fileOcrJobs'
+import { subscribeBookImportJobs } from '../../bookImportJobStore'
 import { subscribeScratchpadBackgroundJobs } from '../../scratchpadBackgroundJobs'
 import { subscribeBulkCheckSession } from '../../bulkCheckSessionStore'
 import { subscribeBulkCheckRunner } from '../../bulkCheckRunner'
@@ -35,6 +36,7 @@ import { fifoStatusVariant } from './jobQueueUtils'
 import PlaybackScanTabPanel from './PlaybackScanTabPanel'
 import MediaAnalysisTabPanel from './MediaAnalysisTabPanel'
 import FileOcrTabPanel from './FileOcrTabPanel'
+import BookImportJobsTabPanel from './BookImportJobsTabPanel'
 import ScratchpadJobsTabPanel from './ScratchpadJobsTabPanel'
 import BulkCheckTabPanel from './BulkCheckTabPanel'
 import ImportEnrichmentTabPanel from './ImportEnrichmentTabPanel'
@@ -55,6 +57,7 @@ const TAB_CHORD_CLEANUP = 'chord-cleanup'
 const TAB_PLAYBACK_SCANS = 'playback-scans'
 const TAB_MEDIA_ANALYSIS = 'media-analysis'
 const TAB_FILE_OCR = 'file-ocr'
+const TAB_IMPORT_SCANS = 'import-scans'
 const TAB_SCRATCHPAD = 'scratchpad'
 const TAB_BULK_CHECK = 'bulk-check'
 const TAB_IMPORT_ENRICHMENT = 'import-enrichment'
@@ -69,6 +72,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribePlaybackRegionScanJobs(listener),
     subscribeMediaAnalysisJobs(listener),
     subscribeFileOcrJobs(listener),
+    subscribeBookImportJobs(listener),
     subscribeScratchpadBackgroundJobs(listener),
     subscribeBulkCheckSession(listener),
     subscribeBulkCheckRunner(listener),
@@ -290,6 +294,11 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
           <Nav.Item>
             <Nav.Link eventKey={TAB_FILE_OCR}>
               {renderTabTitle('File OCR', tabCounts.fileOcr)}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_IMPORT_SCANS}>
+              {renderTabTitle('Import scans', tabCounts.bookImport)}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -579,6 +588,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
               Reads attached sheet images and chord charts; you choose what to merge when OCR finishes.
             </p>
             <FileOcrTabPanel />
+          </Tab.Pane>
+
+          <Tab.Pane eventKey={TAB_IMPORT_SCANS}>
+            <p className="text-muted settings-background-jobs-tab-note">
+              Splits and OCRs imported sheet scans or PDFs into review sets. Safe to close the wizard while processing continues.
+            </p>
+            <BookImportJobsTabPanel />
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_SCRATCHPAD}>

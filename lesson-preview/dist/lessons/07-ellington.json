@@ -1,0 +1,103 @@
+{
+  "id": "07-ellington",
+  "title": "07 Ellington",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/07-ellington.md",
+  "sections": [
+    {
+      "id": "duke-ellington-band-colour-and-composition",
+      "title": "Duke Ellington: Band Colour and Composition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Edward Kennedy 'Duke' Ellington (1899–1974) led one of history's greatest big bands, composing thousands of works treating each section as a colour palette."
+        }
+      ]
+    },
+    {
+      "id": "masterworks",
+      "title": "Masterworks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "*Mood Indigo*, *Take the A Train*, *Black, Brown and Beige*, *Such Sweet Thunder*. Wrote for specific players — Ben Webster, Johnny Hodges, Cootie Williams."
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "title": "Orchestration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Same chord, different voicing = different room. Céilí bands borrow sectional thinking for accordion vs fiddle vs brass countermelodies."
+        }
+      ]
+    },
+    {
+      "id": "arranging",
+      "title": "Arranging",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Vary texture each turn. Solo space over rich backgrounds. Shout chorus for climax — transferable to festival sets."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-ellington-known-as",
+      "title": "Q1. Ellington known as:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Bandleader and jazz orchestra composer\n- B) Baroque organ specialist only\n- C) Heavy-metal guitarist\n- D) Silent-film projectionist\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-ellington-treated-band-sections-as-distinct-colours",
+      "title": "Q2. Ellington treated band sections as distinct colours.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Ellington known as:\n\n- A) Bandleader and jazz orchestra composer\n- B) Baroque organ specialist only\n- C) Heavy-metal guitarist\n- D) Silent-film projectionist\n\n**Answer:** A\n\n### Q2. Ellington treated band sections as distinct colours.\n\n**Answer:** True"
+}

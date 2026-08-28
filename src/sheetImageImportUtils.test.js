@@ -27,4 +27,24 @@ describe('sheetImageImportUtils', function() {
     expect(Array.isArray(draft.chordDraft.chordSheetAlignment)).toBe(true);
     expect(draft.chordDraft.chordSheetAlignment.length).toBe(2);
   });
+
+  test('buildDraftFromSheetImageResult accepts lyrics_only sheetFormat', function() {
+    const draft = buildDraftFromSheetImageResult({
+      title: 'Amazing Grace',
+      artist: 'Traditional',
+      sheetFormat: 'lyrics_only',
+      pageType: 'lyrics_only',
+      meta: { title: 'Amazing Grace', artist: 'Traditional', sourceFormat: 'lyrics_only' },
+      chordSheet: {
+        format: 'lyrics-only',
+        text: '{title: Amazing Grace}\n\nAmazing grace how sweet the sound',
+        confidence: 0.7,
+      },
+      melody: { abc: 'C D E', key: 'C' },
+      warnings: [],
+    });
+    expect(draft.chordDraft.title).toBe('Amazing Grace');
+    expect(draft.melodyAbc).toBe('');
+    expect(draft.sheetFormat).toBe('lyrics_only');
+  });
 });

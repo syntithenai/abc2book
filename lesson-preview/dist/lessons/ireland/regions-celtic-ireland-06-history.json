@@ -1,0 +1,1240 @@
+{
+  "id": "regions-celtic-ireland-06-history",
+  "title": "History, Revival, and Transmission",
+  "track": "regions",
+  "tier": 6,
+  "region": "ireland",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-ireland-05-dance"
+  ],
+  "tags": [
+    "ireland",
+    "revival",
+    "collectors",
+    "diaspora"
+  ],
+  "path": "10-regions/celtic/ireland/06-history-transmission.md",
+  "sections": [
+    {
+      "id": "history-revival-and-transmission",
+      "title": "History, Revival, and Transmission",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 6 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-ireland-05-dance\n**Tags:** ireland, revival, collectors, diaspora, transmission, fleadh, annals, 78rpm"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Why does one fiddle tune have four names, three keys, and two conflicting stories about who wrote it? Because Irish traditional music survived colonisation, famine, emigration, and language shift through **oral transmission** — and every link in that chain left fingerprints. A hearth version became a dancing master's version; a harper's air became a collector's manuscript; a Sligo fiddler's New York 78 became the \"correct\" way to play the tune back in Ireland.\n\nThis lesson follows the music as far back as the sources allow: medieval annals and hymns, harp patronage and its collapse, travelling fiddlers and pipers, print collectors and police chiefs, diaspora shellac and radio revival, Comhaltas competitions and summer schools, archives and UNESCO — ending with the debate every living tradition faces: **competition clarity versus session swing**, **video access versus regional accent**, **innovation versus source**.\n\nYou have met tune types, instruments, and dance forms in earlier tiers. Here you learn **how the repertoire moved** — and why understanding transmission makes you a better musician, not only a better historian."
+        }
+      ]
+    },
+    {
+      "id": "the-annals-musicians-in-medieval-ireland",
+      "title": "The annals: musicians in medieval Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Long before reels and polkas, Irish annalists recorded musicians as figures of skill and status. Wikipedia's *Music of Ireland* article draws on the **Irish annals** to list native musicians from the High and Late Medieval eras — harpers, **tiompanists** (players of the tiompan), singers, and craftsmen who built instruments. These entries are not session reports; they are obituaries and notices that treat music as high craft tied to churches, courts, and learned families.\n\nA chronological sample (dates as given in the annals):\n\n| Date | Figure | Role |\n|------|--------|------|\n| **921 BC** | Cú Congalta, priest of Lann-Leire | *Tethra* (singer or orator) for voice, personal form and knowledge |\n| **1011** | Connmhach Ua Tomhrair | Priest and chief singer of Cluain-mic-Nois |\n| **1168** | Amhlaeibh Mac Innaighneorach | Chief **ollamh** of Ireland in **harp-playing** |\n| **1226** | **Aed mac Donn Ó Sochlachain** | Erenagh of Cong; eminent for chanting, tuning harps, and making an instrument none had made before; also poetry, engraving, writing |\n| **1269** | Aed Ó Finn | Master of music and minstrelsy |\n| **1329** | Maol Ruanaidh Cam Ó Cearbhaill | **Tiompanist**, murdered in the Braganstown Massacre, County Louth |\n| **1330** | Mael Sechlainn Mac Carmaic | General entertainer |\n| **1343** | Donnchad Clereach Ó Maol Braonáin | Choral canon of Elphin, killed by an arrow |\n| **1357** | Donn Shléibhe Mac Cerbaill | Accomplished musician |\n| **1360** | Gilla na Naem Ó Conmaigh | Music ollamh of Thomond |\n| **1361** | Magraith Ó Fionnachta | Chief musician and tiompanist to the Síol Muireadaigh |\n| **1364** | Bran Ó Brain | Skilful tympanist |\n| **1369** | John Mac Egan, Gilbert Ó Bardan | Accomplished young harpers of Conmaicne |\n| **1469** | Ruaidrí mac Donnchad Ó Dálaigh | \"The most musical-handed harpist in all Ireland\" |\n| **1490** | Diarmait MacCairbre | Harper, executed |\n| **1553** | Tadhg, son of Ruaidhri Ó Comhdhain | Ollamh of Éire and Alba in music |\n| **1561** | Naisse mac Cithruadh | Drowned on Lough Gill |\n| **1589** | Daighre Ó Duibhgeannáin | \"A most affable, musical man\" |\n\nRead the list as evidence of **institutional music** — church singers, court harpers, hereditary learned families — not as a direct pipeline to today's pub session. Still, the thread is continuous: Ireland documented musicians as culturally central long before tourism boards existed.\n\n![Sixteenth-century Irish warpipes player](https://en.wikipedia.org/wiki/Special:FilePath/Rosgall.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "early-poetry-hymns-and-song-roots",
+      "title": "Early poetry, hymns, and song roots",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Medieval and early modern **Irish poetry** often blurred verse and music. Surviving **airs** are scarce before 1700 — Wikipedia's *Irish music collecting* article notes how little composed Irish music from that era survives — but literary texts and later transcriptions preserve a song world that fed the slow-air and sean-nós streams.\n\n**Rop tú mo baile** (*Be Thou My Vision*) — a sixth-century hymn attributed to **Dallán Forgaill** — was published in English in **1905** by **Mary Elizabeth Byrne** and is widely sung today in churches and folk settings. It exemplifies how early Irish sacred verse re-enters modern repertoire through scholarly translation and arrangement.\n\n**The Blackbird of Belfast Lough** (*Int én bec* / *An t-éan beag*) — a medieval Irish lyric — has been translated by poets including **Seamus Heaney**, **Ciaran Carson**, and **Frank O'Connor**, and recorded in modern interpretations (e.g. Pádraigín Ní Uallacháin's *Songs of the Scribe*, choral work by **Anúna**, projects by Caitríona O'Leary). Such pieces connect \"ancient Ireland\" to living performance — not as museum pieces but as material contemporary artists re-voice.\n\nCollectors from the eighteenth century onward gathered Carolan compositions, bardic remnants, and popular airs into print. **John and William Neale's** *A Collection of the Most Celebrated Irish Tunes* (**1724**, Dublin) is the first recorded collection of Irish traditional music; the surviving copy is associated with **Edward Bunting** at Queen's University Belfast. **John Playford's** *The Dancing Master* (mid-seventeenth century) and **Durfey's** *Pills to Purge Melancholy* (late seventeenth century) already carried Irish tunes into British print culture — evidence of cross-channel exchange before the famine diaspora."
+        }
+      ]
+    },
+    {
+      "id": "irish-musicians-abroad-early-medieval-to-early-modern",
+      "title": "Irish musicians abroad — early medieval to early modern",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish musical skill travelled with monks, scholars, and exiles long before the nineteenth-century steamship.\n\n- **Cú Chuimne** (died **747**) spent much of his life in Gaelic Scotland and composed at least one hymn.\n- **Foillan** (seventh century) travelled Britain and France; around **653** he taught **psalmody** to nuns at Nievelle at the request of Saint Gertrude of Brabant.\n- **Tuotilo** (c. **850**–c. **915**), active in Italy and Germany, was noted as musician and composer.\n- **Helias of Cologne** (died **1040**) is held to have introduced **Roman chant** to Cologne.\n- **Aaron Scotus** (died **18 November 1052**) was an acclaimed composer of **Gregorian chant** in Germany.\n- **Donell Dubh Ó Cathail** (c. 1560s–c. 1660) served as musician to **Viscount Buttevant** and, with his uncle **Donell Óge Ó Cathail**, as **harper to Elizabeth I**.\n\nThis pattern — Irish performers valued on European stages — prefigures the Chicago fiddle studio and the Riverdance arena. Diaspora is not only loss; it is also **export of expertise**."
+        }
+      ]
+    },
+    {
+      "id": "harp-patronage-carolan-and-the-belfast-festival",
+      "title": "Harp patronage, Carolan, and the Belfast festival",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Until the seventeenth century, **harpers** were patronised by the aristocracy in Ireland. That Gaelic patronage system collapsed with **Gaelic Ireland** in the eighteenth century; the hereditary harp tradition dwindled toward extinction.\n\n**Turlough Carolan** (1670–1738) is the best-known harper-composer of the transition era. Blind from youth, he travelled Ireland composing **planxties** and other pieces for patrons — over **200 compositions** are known. His music blends native melody with elements of contemporary **baroque** taste; tunes like *Planxty Irwin* and *Carolan's Farewell to Music* entered the folk repertoire and are still played on fiddle, flute, and harp. **John Lee** published a collection of his compositions in **1780**; **Joseph Cooper Walker** included Carolan tunes in *Historical Memoirs of the Irish Bards* (**1786**).\n\nBy **1792**, few traditional harpers remained. The **Belfast Harp Festival** (11–14 July **1792**), organised by Dr. James McDonnell, Robert Bradshaw, and Henry Joy McCracken in the **Assembly Rooms, Belfast**, gathered most of the surviving **cláirseach** players. **Edward Bunting**, aged nineteen, was one of three transcribers who notated their music — a rescue mission at the cliff edge of a tradition. Bunting's collections became foundational for harp revival and for understanding pre-famine repertoire.\n\nOther notable musicians of the eighteenth and nineteenth centuries include **Arthur O'Neill** (fl. **1792**, harper at the Belfast festival), **Patrick Byrne** (c. **1794**–**1863**), a renowned uilleann piper; travelling fiddlers and dancing masters; and songwriters such as **Eoghan Rua Ó Súilleabháin** (1748–1782). The **penal laws** and anglicisation weakened Gaelic institutions, but **dance music and song continued in rural communities** — often beneath the notice of elite chroniclers until collectors arrived.\n\n![Uilleann pipes — UNESCO-recognised craft](https://en.wikipedia.org/wiki/Special:FilePath/UilleannPipes.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "polkas-set-dancing-and-nineteenth-century-dance-imports",
+      "title": "Polkas, set dancing, and nineteenth-century dance imports",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The dance forms you met in Lesson 5 have their own migration history. Wikipedia's *Music of Ireland* notes:\n\n- **Set dancing** may have arrived in the **eighteenth century**, adapting **French quadrille** figures to local taste — the Clare and Galway sets that revivalists reclaimed in the 1980s–90s.\n- The **polka** arrived at the **start of the nineteenth century**, spread by **itinerant dancing masters** and **mercenary soldiers** returning from Europe.\n- Later imports include the **mazurka** and **highlands** (an Irishised Scottish **strathspey**).\n\n**Irish stepdance** was performed at **céilís**, organised competitions, and country houses; the educational system and patriotic organisations supported dancing as cultural identity. **Sean-nós** singing persisted for poetic songs in Irish even as English-language ballads dominated urban popular culture.\n\nFrom **1820 to 1920**, over **4,400,000** Irish people emigrated to the United States alone — planting music in Philadelphia, Chicago, Boston, New York, and beyond. The famine accelerated movement; steamships and railways accelerated communication. Music that had been local became **transatlantic**."
+        }
+      ]
+    },
+    {
+      "id": "collectors-and-print-freezing-and-saving",
+      "title": "Collectors and print: freezing and saving",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Print **standardised** tunes for learners and **froze** variants collectors happened to hear. Major figures:\n\n| Collector | Contribution |\n|-----------|--------------|\n| **Edward Bunting** | Notated Belfast Harp Festival 1792; manuscripts at Queen's University Belfast |\n| **George Petrie** | Nineteenth-century melody collection; systematic antiquarian work |\n| **Francis O'Neill** | *Music of Ireland* (**1903**) and related volumes — thousands of tunes from Chicago |\n| **Brendan Breathnach** | *Ceol Rince na hÉireann* — systematic dance-tune archive feeding ITMA |\n\n**Francis O'Neill** (1848–1936) emigrated from Tralibane, County Cork; became a **Chicago police captain** (and briefly chief); and gathered tunes from immigrant musicians in the city — proof that **diaspora hubs were archives**, not only departure lounges. He made among the **first recordings of Irish music on Edison wax cylinders** and published collections that still define \"standard\" session repertoire. His *Irish Minstrels and Musicians* (1913) documents players such as **Garrett Barry**, the blind piper of Inagh, County Clare — a figure who influenced later pipers including **Willie Clancy**.\n\nWikipedia's *Irish music collecting* traces earlier print: Neale (**1724**), Wright's *Aria di Camera* (**1730**), Burke Thumoth (**1750**), Lee collections from **1774**, and facsimile work by Nicholas Carolan and ITMA in the twentieth century. Every edition is a **snapshot**, not a commandment."
+        }
+      ]
+    },
+    {
+      "id": "diaspora-and-the-78-rpm-loop",
+      "title": "Diaspora and the 78 rpm loop",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Mass emigration created a feedback loop: music left Ireland, was recorded abroad, and **returned** on shellac, radio, cassette, CD, and streaming.\n\n**Michael Coleman** (1891–1945), from Knockgrania near Ballymote, County Sligo, emigrated to New York in **1914**. Between **1921 and 1936** he recorded **eighty commercial 78-rpm records** for labels including Shannon, Vocalion, Columbia, Okeh, New Republic, Pathe, Victor, Brunswick, and Decca — usually with pianists such as Kathleen Brennan or Arthur P. Kenna. Flute players **Tom Morrison** and **Michael Walsh**, and piccolo player Paddy Finlay, accompanied him on some 1920s sides. His **1921** recording of *The Boys of the Lough* became so influential that its setting entered the standard repertoire; in **2015** the U.S. Library of Congress added Coleman's **1922** pairing *The Boys of the Lough* / *The Humors of Ennistymon* to the **National Recording Registry**.\n\nColeman's style — fast, flamboyant Sligo fiddle with fingered rolls and bowed triplets — spread through reissues on British labels and imports to Ireland. His daughter confirmed he could **dance and fiddle simultaneously**; he was performer as well as recording star. He died in New York in **1945**; a monument near Gurteen reads: \"Master of the fiddle. Saviour of Irish traditional music.\"\n\n**James Morrison** (1893–1947), \"The Professor,\" from Riverstown, County Sligo, emigrated in **1915**, won the New York Feis fiddle competition in **1918**, and recorded prolifically in the 1920s–30s alongside Coleman and **Paddy Killoran** (another Sligo fiddler in New York). Morrison's Sligo repertoire — heavily reel-weighted — influenced Irish playing so strongly that, as Seamus MacMathuna observed, local styles fell away in favour of Coleman-Morrison models for decades.\n\n**Paddy Killoran**, **Paddy Sweeney**, and the cross-instrument network of the New York Irish studio scene shaped what many players treat as \"the tune.\" **Ed Reavy** (Pennsylvania) composed over a hundred tunes that re-entered tradition in Ireland and the diaspora. The loop continues: each medium re-imports style.\n\n![Fiddler — Sligo fiddle heartland association](https://en.wikipedia.org/wiki/Special:FilePath/The_fiddler%2C_Strabane_-_geograph.org.uk_-_654143.jpg?width=640)\n\nAfter Coleman's era, Irish trad hit a **lull in the 1940s and 1950s** (except for **céilí bands** keeping dance-hall music alive). Then revivalists reignited concert, radio, and ensemble presentation."
+        }
+      ]
+    },
+    {
+      "id": "revival-ó-riada-ceoltóirí-chualann-and-the-chieftains",
+      "title": "Revival: Ó Riada, Ceoltóirí Chualann, and the Chieftains",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Seán Ó Riada** (1931–1971), born John Reidy in Cork, became the single most influential figure in the mid-twentieth-century revival. As music director at **Radio Éireann** (from 1954) and the **Abbey Theatre** (1955–1962), he programmed traditional music for national audiences. His film scores ***Mise Éire*** (1959) and ***Saoirse?*** (1960) paired orchestra with Irish melody; his mass in Irish is still sung in Gaeltacht churches.\n\nIn **1961** he founded **Ceoltóirí Chualann**, an ensemble that arranged trad for concert presentation without abandoning source material — legitimising stage formats that purists had suspected. His work inspired **Planxty**, **The Bothy Band**, **Clannad**, and later **Altan**, **Dervish**, **Lúnasa**, and others.\n\n**The Chieftains** grew directly from that environment — taking similar repertoire to international concert halls and recording with global collaborators. **The Clancy Brothers and Tommy Makem**, **The Dubliners**, **Ryan's Fancy**, **Sweeney's Men**, and **Tom Lenihan** (folklore collector-performer) fed the **1960s** folk boom. Wikipedia notes a second wave after the lull: trad was not continuous peak popularity but **cyclical renewal**.\n\n![Seán Ó Riada](https://en.wikipedia.org/wiki/Special:FilePath/Seanoriada.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "comhaltas-the-fleadh-and-the-competition-pyramid",
+      "title": "Comhaltas, the Fleadh, and the competition pyramid",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Comhaltas Ceoltóirí Éireann** formed in **1951** to promote Irish music, dance, and language. At its inaugural meeting in **September 1951** it adopted the name **Fleadh Cheoil** (\"music festival\") for a great national event. The **first Fleadh Cheoil** was held in **Mullingar** that year.\n\nThe fleadh's goal was to **establish standards through competition** — controversial from the start, essential to many learners. Today the pyramid runs:\n\n1. **County fleadh** — local winners advance\n2. **Provincial fleadh** — Ulster, Leinster, Munster, Connacht\n3. **All-Ireland Fleadh Cheoil na hÉireann** — hosted annually in a different town (Mullingar, Sligo, Tullamore, Ennis, Wexford, and others across the decades)\n\nAround **20,000 performers** compete in fleadhs each year. Recent All-Ireland festivals have drawn **hundreds of thousands** of visitors — Ennis 2016 estimated **400,000** over nine days with **10,000 musicians**, **6,000** in All-Ireland competitions; Wexford 2024–25 set attendance records near **650,000–800,000**. The fleadh combines adjudicated stages with **parades**, **concerts**, and **street sessions** — the informal music many players prefer.\n\n**Diaspora fleadhs** extend the model. Comhaltas North America runs **Mid-Atlantic** and **Midwest** regional fleadhs as qualifiers for the All-Ireland. **Fleadh na Breataine** (All-Britain fleadh) and **Fleadh Nua** (Ennis) add further layers. Winning a category at a regional fleadh can qualify a competitor for the national stage — linking Chicago, Boston, and Sydney players to Mullingar or Wexford.\n\n![Fleadh Cheoil accordion band](https://en.wikipedia.org/wiki/Special:FilePath/IMG_E9670_Holy_Cross_Accordion_Band_Atticall.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "willie-clancy-summer-school-and-the-festival-ecosystem",
+      "title": "Willie Clancy Summer School and the festival ecosystem",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Scoil Samhraidh Willie Clancy** (Willie Clancy Summer School) in **Miltown Malbay**, County Clare, has run since **1973**, honouring the uilleann piper **Willie Clancy** (1918–1973). Each July thousands attend classes in pipes, fiddle, flute, concertina, dance, and song — daytime tuition, recitals, set dancing, and **all-night sessions**. The school sits in the heart of Clare's tourist-trad corridor; critics worry about overcrowding; devotees call it pilgrimage.\n\nClancy learned from the blind piper **Garrett Barry** (1847–1899), who walked west Clare playing house dances — a direct teacher line from famine-era piping to UNESCO recognition. **Noel Hill**, the concertina master from Lissycasey, listened extensively to Clancy, Paddy Canny, and neighbours who learned at **house dances** — another transmission chain from kitchen to world stage.\n\nOther summer schools — **Scoil Éigse**, **Queen Maeve International Summer School** in Sligo (fiddle, flute, sean-nós), regional camps — repeat the model: concentrated teaching, social dancing, and session culture in one week."
+        }
+      ]
+    },
+    {
+      "id": "itma-na-píobairí-uilleann-and-unesco",
+      "title": "ITMA, Na Píobairí Uilleann, and UNESCO",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **Irish Traditional Music Archive (ITMA)** — *Taisce Cheol Dúchais Éireann* — co-founded in **1987** by **Nicholas Carolan** and **Harry Bradshaw**, is the national reference archive for traditional song, instrumental music, and dance. Built on **Brendan Breathnach's** collections and expanded through donations from RTÉ, libraries, and private collectors, ITMA holds thousands of sound recordings, books, photographs, sheet music, and DVDs. Carolan directed for twenty-eight years; **Grace Toland** succeeded him in 2015. Publications include editions of the **James Goodman** manuscripts and catalogues of **Bunting** holdings.\n\n**Na Píobairí Uilleann** (NPU) promotes uilleann piping, pipe making, and teaching. When **uilleann piping** joined UNESCO's **Representative List of the Intangible Cultural Heritage of Humanity** in **2017** (reference **01264**), the inscription highlighted makers and teachers — not only stage soloists. Piping is bellows-blown, with chanter, drones, and **regulators** for chordal accompaniment; the craft faces ongoing need for apprentices in reed-making and bag-leather work.\n\n![ITMA director Nicholas Carolan lecturing](https://en.wikipedia.org/wiki/Special:FilePath/Nicholas_Carolan-Irish_Traditional_Music_Archive-364-0045-hinnerk-ruemenapf.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "transmission-today-competition-session-and-the-internet",
+      "title": "Transmission today: competition, session, and the internet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modern learners stack tools:\n\n1. **Ear learning** at sessions and from mentors — still the authenticity test many players cite\n2. **Tune books** — O'Neill, Breathnach, contemporary collections\n3. **Online databases** — *The Session*, tune apps, ABC archives\n4. **Video** — instant access to regional style (and risk of **flattening accents** into a generic \"Irish\" template)\n5. **Summer schools** and **Comhaltas classes** — structured technique from childhood\n6. **Competition** — Feiseanna and Fleadh stages rewarding clarity and speed\n\nHealthy tension persists. A fleadh winner may play flawless rolls at a tempo no dancer could follow; a session favourite may refuse competitions yet define taste for a county. **Innovation** — new compositions, fusion bands, orchestral arrangements — sits beside **source tradition**. Living traditions debate openly; that debate is sign of health, not decay.\n\nOral transmission still produces:\n\n- **Title variants** — descriptive names versus place names\n- **Key changes** — whistle D versus accordion B/C fingerings\n- **Part additions** — extra turns in the B part\n- **Rhythmic feel** — Donegal snap versus Clare lilt on the same bar count\n\nCollectors' books and 78s are **snapshots**. You honour them by knowing them; you honour tradition by adding your voice carefully."
+        }
+      ]
+    },
+    {
+      "id": "same-tune-many-versions-a-case-study-mindset",
+      "title": "Same tune, many versions — a case study mindset",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Take *The Boys of the Lough*: Coleman fixed a version in 1921; you may hear it in Sligo roll, Clare lilt, or a beginner's hesitant bowing at a fleadh warm-up. None owns the truth. Transmission is **genealogy**, not **geometry** — branching lines, not one correct point.\n\nWhen you learn a tune, ask: Who did I learn it from? Who did they learn it from? Does my setting match a recording, a book, or a local session? Those questions connect performance to history without requiring you to play like a museum exhibit."
+        }
+      ]
+    },
+    {
+      "id": "penal-laws-language-shift-and-what-survived",
+      "title": "Penal laws, language shift, and what survived",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **penal laws** and broader **anglicisation** weakened Gaelic aristocratic patronage and pushed Irish language use toward western **Gaeltacht** belts — but they did not silence fiddles at crossroads or songs in kitchens. Historians sometimes portray eighteenth- and nineteenth-century Ireland as a binary between dying Gaelic high culture and victorious English modernity; trad musicians live in the messier truth. English-language ballads flourished beside Irish-language sean-nós; harpers gave way to fiddlers and pipers in popular esteem; **great Irish warpipes** remained associated with battle as late as the fifteenth century while **uilleann pipes** (bellows-blown, indoor-friendly) rose for parlour and later pub use.\n\nUnderstanding survival is not nostalgia. It explains why repertoire is **dance-heavy** (community celebration under pressure), why **emigration** features so heavily in song texts, and why **collectors** in Chicago mattered as much as collectors in Dublin."
+        }
+      ]
+    },
+    {
+      "id": "arthur-oneill-patrick-byrne-and-the-nineteenth-century-stage",
+      "title": "Arthur O'Neill, Patrick Byrne, and the nineteenth-century stage",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "At the **1792 Belfast Harp Festival**, **Arthur O'Neill** (fl. 1792) performed among the last generation of inherited harpers. Decades later, **Patrick Byrne** (c. 1794–1863) toured as a renowned **uilleann piper** — proof that piping, not only fiddling, commanded professional respect in the nineteenth century. **Blind pipers** such as Garrett Barry in Clare walked rural circuits playing house dances, teaching pupils who became the teachers of Willie Clancy's generation. The **famine** (1845–1852) devastated population and language maps but did not erase music; it accelerated emigration and compressed rural life into memory carried abroad."
+        }
+      ]
+    },
+    {
+      "id": "from-wax-cylinder-to-streaming-media-generations",
+      "title": "From wax cylinder to streaming: media generations",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Francis O'Neill's **Edison wax cylinders** were among the first Irish trad recordings. Coleman's **78s** dominated the 1920s–30s. **RTÉ** radio and **BBC** field recordings captured regional players in the mid-twentieth century. **Cassettes** spread summer-school lessons in the 1980s; **CDs** and **YouTube** flattened access in the 2000s. Each medium changed **what** spread fastest: Coleman-era discs favoured reel-heavy Sligo fiddle; video favours visible virtuosity; competitions favour clean ornament at high tempo.\n\nMusicians who understand media history choose their influences deliberately rather than absorbing whatever algorithm surfaces."
+        }
+      ]
+    },
+    {
+      "id": "george-petrie-breathnach-and-the-archive-century",
+      "title": "George Petrie, Breathnach, and the archive century",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**George Petrie** (1790–1866) collected melodies when oral tradition still outpaced print; his work fed antiquarian interest in \"ancient Irish airs\" at a time when nationalism sought cultural proof. **Brendan Breathnach** (1912–1985) systematised dance-tune collection in *Ceol Rince na hÉireann*, volumes that became backbone material for ITMA. **Nicholas Carolan**, ITMA's founding director, edited facsimiles of Neale (1724) and championed the **James Goodman** manuscripts from Trinity College Dublin — hundreds of pre-famine melodies.\n\nArchives do not end oral tradition; they **anchor** it. When a dispute arises over whether a tune is \"really\" a slide or a single jig, manuscripts and field recordings offer evidence — not verdicts. Performers still decide."
+        }
+      ]
+    },
+    {
+      "id": "james-morrison-the-professor",
+      "title": "James Morrison: \"The Professor\"",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**James Morrison** (3 May 1893–1947) from Drumfin, Riverstown, County Sligo, was employed by the **Gaelic League** at seventeen to teach Connacht-style step dancing. He emigrated to New York in **1915**, won the New York Feis fiddle in **1918**, and recorded alongside Coleman and Killoran. Morrison taught hundreds of Irish-American students fiddle, flute, banjo, and button accordion — his nickname **\"The Professor\"** reflects pedagogy as much as performance. His recordings imported Sligo repertoire so powerfully that, in many areas, local fiddle styles yielded to Coleman-Morrison models for decades. Listening to Morrison beside Coleman reveals shared Sligo roots and individual differences in bow pressure and reel selection."
+        }
+      ]
+    },
+    {
+      "id": "paddy-killoran-and-the-new-york-studio-network",
+      "title": "Paddy Killoran and the New York studio network",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Paddy Killoran** (1904–1965), another Sligo emigrant, co-led the **Paddy Killoran–Paddy Sweeney Orchestra** and recorded extensively. The **New York Irish studio scene** — pianists, flute players, piccolo accompanists, vaudeville circuits — was a factory for standard repertoire. Tunes entered sets in the **order of famous recordings**; musicians in Ireland copied American imports. The loop was economic as well as artistic: record sales, radio play, and dance-hall bookings rewarded familiar tunes played in recognisable styles."
+        }
+      ]
+    },
+    {
+      "id": "set-dancing-revival-and-quadrille-memory",
+      "title": "Set dancing revival and quadrille memory",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "When set dancing revived in the **1980s–90s**, musicians who could play **polkas** and **slides** suddenly found full dance floors again. That revival reconnected urban Ireland to **quadrille** heritage many had forgotten — not a medieval survival but an eighteenth-century import that never fully died in Clare and Galway. History lessons sometimes ignore dance; for Irish trad, dance history **is** music history."
+        }
+      ]
+    },
+    {
+      "id": "na-píobairí-uilleann-and-craft-transmission",
+      "title": "Na Píobairí Uilleann and craft transmission",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Na Píobairí Uilleann** (NPU), founded in 1968, runs classes, publishes *An Píobaire*, maintains instrument collections, and supports pipe makers. UNESCO's 2017 inscription cited community effort to keep piping viable when cheaper entertainment threatened apprenticeship. Pipe making involves metalwork, wood turning, leather, and reed scraping — years of training. A culture that only celebrates YouTube soloists without makers loses the instrument within a generation."
+        }
+      ]
+    },
+    {
+      "id": "closing-history-as-toolkit",
+      "title": "Closing: history as toolkit",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "You do not play worse for knowing annal dates; you play **richer** when you hear Coleman in a young Sligo fiddler, or Carolan in a harp arrangement, or a quadrille figure behind a set dance. Transmission is the thread tying **921 BC singer** entries to tonight's pub. Lesson 7 moves to fusion scenes and representative depth; carry this lesson's question forward: *How did this music reach me — and what do I pass on?*\n\nIf you teach, programme notes for school concerts gain depth from this history — a reel is not \"just a reel\" but a form that travelled through dancing masters, emigrant ships, and shellac. If you perform, cite your sources in conversation: \"I learned this from a Coleman setting, but our session plays it straighter.\" That honesty is tradition-minded. If you only listen, you still participate: audiences who applaud at the right moment, who buy recordings, who bring children to fleadhs, keep the economy of tradition alive alongside the players on stage."
+        }
+      ]
+    },
+    {
+      "id": "chieftains-planxty-and-the-concert-stage",
+      "title": "Chieftains, Planxty, and the concert stage",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**The Chieftains** translated pub-and-kitchen music to concert halls worldwide — long sets, guest singers, cross-cultural collaborations. **Planxty**, **The Bothy Band**, and **De Dannan** pushed ensemble arrangement toward rock energy while keeping acoustic instruments central. Critics argued about \"arranged\" versus \"raw\" trad; audiences voted with ticket sales. The pipeline from **Ó Riada** to **Ceoltóirí Chualann** to festival headline bands is the twentieth-century story of **legitimacy** — trad as art music worth paying for in a theatre, not only worth hearing over a pint.\n\nThat legitimacy fed **Riverdance** (1994 Eurovision interval act → global tour), which funnelled students into Comhaltas classes even as purists debated spectacle versus source. Lesson 7 picks up fusion and scene history; here, note that **revival** is not one event but stacked waves.\n\n![Anúna choral ensemble](https://en.wikipedia.org/wiki/Special:FilePath/Anuna.jpg?width=640)"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "oneill",
+      "type": "artist",
+      "name": "Francis O'Neill",
+      "summary": "Chicago police chief who collected thousands of Irish tunes",
+      "blurb": "Music of Ireland (1903) preserved repertoire from diaspora musicians.",
+      "years": "1848–1936",
+      "region": "Chicago / Cork",
+      "url": "https://en.wikipedia.org/wiki/Francis_O%27Neill",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Francis_O%27Neill.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "willie-clancy",
+      "type": "organization",
+      "name": "Willie Clancy Summer School",
+      "summary": "Major week-long traditional music school in Miltown Malbay",
+      "blurb": "Since 1973; classes, sessions, and memorial to uilleann piper Willie Clancy.",
+      "url": "https://www.willieclancy.com/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Willie_Clancy_Statue_Miltown_Malbay.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "oneill",
+    "willie-clancy"
+  ],
+  "playlist": [
+    {
+      "id": "78rpm-archive",
+      "entity_id": "oneill",
+      "label": "Early 78 rpm recording",
+      "youtube": "https://www.youtube.com/watch?v=WvQH-jcAAEg",
+      "subtitle": "Francis O'Neill"
+    },
+    {
+      "id": "willie-clancy-week",
+      "entity_id": "willie-clancy",
+      "label": "Willie Clancy week session",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Willie Clancy Summer School"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Collectors and tune books froze oral repertoire at specific moments.",
+    "78 rpm diaspora recordings made Sligo and other styles global defaults.",
+    "Comhaltas and the Fleadh institutionalised competition and teaching.",
+    "Summer schools (Willie Clancy, Scoil Samhraidh Willie Clancy) intensify transmission.",
+    "Archives like ITMA preserve sources for modern research and revival."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "O'Neill's Music of Ireland",
+      "author": "Francis O'Neill",
+      "note": "1850 melodies with commentary"
+    },
+    {
+      "type": "link",
+      "title": "Willie Clancy Summer School",
+      "url": "https://www.willieclancy.com/",
+      "note": "Classes and festival programme"
+    },
+    {
+      "type": "link",
+      "title": "Irish Traditional Music Archive",
+      "url": "https://www.itma.ie/",
+      "note": "Manuscripts and field recordings"
+    },
+    {
+      "type": "book",
+      "title": "A Hidden Order: The Oral History of Irish Traditional Music",
+      "author": "Harry Long",
+      "note": "Transmission and collectors"
+    },
+    {
+      "type": "book",
+      "title": "The Chief: The Life of Francis O'Neill",
+      "author": "Nicholas Carolan",
+      "note": "Chicago police chief and tune collector"
+    },
+    {
+      "type": "link",
+      "title": "ITMA — Petrie collection",
+      "url": "https://www.itma.ie/",
+      "note": "19th-century manuscript sources"
+    },
+    {
+      "type": "link",
+      "title": "Bunting manuscripts",
+      "url": "https://www.itma.ie/digitallibrary/",
+      "note": "Harp festival transcriptions"
+    },
+    {
+      "type": "link",
+      "title": "Willie Clancy Summer School history",
+      "url": "https://www.willieclancy.com/about/",
+      "note": "Miltown Malbay festival origins"
+    },
+    {
+      "type": "link",
+      "title": "Comhaltas founding",
+      "url": "https://comhaltas.ie/about/",
+      "note": "1951 Mullingar meeting"
+    },
+    {
+      "type": "link",
+      "title": "Library of Congress — Irish collections",
+      "url": "https://www.loc.gov/collections/",
+      "note": "Field recordings and 78s"
+    },
+    {
+      "type": "link",
+      "title": "Irish emigration and music",
+      "url": "https://www.itma.ie/",
+      "note": "Diaspora archives and research"
+    }
+  ],
+  "quiz_markdown": "### Q1. Aed mac Donn Ó Sochlachain (d. 1226) is noted in the annals for:\n\n- A) Skills in chanting, harp tuning, and making a novel instrument\n- B) Inventing the bodhrán in Chicago in 1903\n- C) Writing Riverdance in 1994\n- D) Founding Comhaltas in Mullingar\n\n**Answer:** A\n\n### Q2. Turlough Carolan composed over 200 pieces and worked as a harper in the eighteenth century.\n\n**Answer:** True\n\n### Q3. Edward Bunting is associated with:\n\n- A) Notating harpers at the 1792 Belfast Harp Festival\n- B) Designing the first electric guitar\n- C) Winning the 1921 New York Feis fiddle competition\n- D) Founding the Eurovision Song Contest\n\n**Answer:** A\n\n### Q4. The polka arrived in Irish tradition around the start of the nineteenth century through dancing masters and returning soldiers.\n\n**Answer:** True\n\n### Q5. Francis O'Neill is remembered primarily for:\n\n- A) Publishing influential collections of Irish dance music gathered in Chicago\n- B) Composing Wagner's operas\n- C) Banning the fiddle in Ireland\n- D) Inventing sean-nós step dance\n\n**Answer:** A\n\n### Q6. Michael Coleman recorded approximately how many commercial 78-rpm discs between 1921 and 1936?\n\n- A) About eighty\n- B) None — he only played live\n- C) Exactly three\n- D) Over ten thousand\n\n**Answer:** A\n\n### Q7. Comhaltas Ceoltóirí Éireann and the first Fleadh Cheoil both date from:\n\n- A) 1951, with the first fleadh in Mullingar\n- B) 921 BC\n- C) 1792 Belfast only\n- D) 2017 UNESCO session\n\n**Answer:** A\n\n### Q8. Seán Ó Riada is associated with:\n\n- A) Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann\n- B) Medieval tiompan playing only\n- C) Inventing the polka in Munster\n- D) Exclusive use of synthesizers in trad\n\n**Answer:** A\n\n### Q9. The Willie Clancy Summer School in Miltown Malbay, County Clare, began in:\n\n- A) 1973\n- B) 1226\n- C) 1921\n- D) It has never existed\n\n**Answer:** A\n\n### Q10. James Morrison and Paddy Killoran were associated with:\n\n- A) Sligo fiddle style recorded in New York in the 1920s–30s\n- B) Baroque opera in Naples only\n- C) Silent film scoring in Hollywood exclusively\n- D) Rejecting all Irish dance tunes\n\n**Answer:** A\n\n### Q11. The Irish Traditional Music Archive (ITMA) was co-founded in 1987 and preserves:\n\n- A) Recordings, manuscripts, and research materials for traditional music\n- B) Only hip-hop from Dublin\n- C) Patent applications for electric harps only\n- D) Competition scores with no audio\n\n**Answer:** A\n\n### Q12. Uilleann piping was inscribed on UNESCO's Intangible Cultural Heritage list in:\n\n- A) 2017\n- B) 1792\n- C) 921 BC\n- D) Never — piping has no heritage status\n\n**Answer:** A\n\n### Q13. The same Irish tune may appear under different names or keys because:\n\n- A) Oral tradition and regional variation produce multiple living versions\n- B) Copyright law requires annual renaming\n- C) Written tunes cannot change once published\n- D) All players use one global standard version enforced by Comhaltas\n\n**Answer:** A\n\n### Q14. Donell Dubh Ó Cathail served as harper to Elizabeth I.\n\n**Answer:** True\n\n### Q15. After the 1920s–30s recording boom, Irish traditional music experienced no further revival and disappeared.\n\n**Answer:** False — A lull followed, but Ó Riada, Comhaltas, summer schools, and later bands renewed the tradition.\n\n### Q16. County, provincial, and All-Ireland fleadh levels exist partly to:\n\n- A) Structure competition and advance winners toward the national fleadh\n- B) Replace all pub sessions with adjudicated concerts only\n- C) Prohibit diaspora musicians from learning Irish tunes\n- D) Eliminate oral transmission in favour of written exams only\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Aed mac Donn Ó Sochlachain (d. 1226) is noted in the annals for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Skills in chanting, harp tuning, and making a novel instrument",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Skills in chanting, harp tuning, and making a novel instrument"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Turlough Carolan composed over 200 pieces and worked as a harper in the eighteenth century.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Edward Bunting is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Notating harpers at the 1792 Belfast Harp Festival",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Notating harpers at the 1792 Belfast Harp Festival"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "The polka arrived in Irish tradition around the start of the nineteenth century through dancing masters and returning soldiers.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Francis O'Neill is remembered primarily for:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Publishing influential collections of Irish dance music gathered in Chicago",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Publishing influential collections of Irish dance music gathered in Chicago"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Michael Coleman recorded approximately how many commercial 78-rpm discs between 1921 and 1936?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "About eighty",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: About eighty"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comhaltas Ceoltóirí Éireann and the first Fleadh Cheoil both date from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1951, with the first fleadh in Mullingar",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: 1951, with the first fleadh in Mullingar"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Seán Ó Riada is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "The Willie Clancy Summer School in Miltown Malbay, County Clare, began in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1973",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: 1973"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "James Morrison and Paddy Killoran were associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style recorded in New York in the 1920s–30s",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Sligo fiddle style recorded in New York in the 1920s–30s"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "The Irish Traditional Music Archive (ITMA) was co-founded in 1987 and preserves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Recordings, manuscripts, and research materials for traditional music",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Recordings, manuscripts, and research materials for traditional music"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Uilleann piping was inscribed on UNESCO's Intangible Cultural Heritage list in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "2017",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: 2017"
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "The same Irish tune may appear under different names or keys because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oral tradition and regional variation produce multiple living versions",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Oral tradition and regional variation produce multiple living versions"
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Donell Dubh Ó Cathail served as harper to Elizabeth I.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "After the 1920s–30s recording boom, Irish traditional music experienced no further revival and disappeared.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "A lull followed, but Ó Riada, Comhaltas, summer schools, and later bands renewed the tradition."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "County, provincial, and All-Ireland fleadh levels exist partly to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Structure competition and advance winners toward the national fleadh",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Structure competition and advance winners toward the national fleadh"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-ireland-06-history-quiz",
+    "title": "History, Revival, and Transmission quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Aed mac Donn Ó Sochlachain (d. 1226) is noted in the annals for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Skills in chanting, harp tuning, and making a novel instrument",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Skills in chanting, harp tuning, and making a novel instrument"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Turlough Carolan composed over 200 pieces and worked as a harper in the eighteenth century.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Edward Bunting is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Notating harpers at the 1792 Belfast Harp Festival",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Notating harpers at the 1792 Belfast Harp Festival"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "The polka arrived in Irish tradition around the start of the nineteenth century through dancing masters and returning soldiers.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Francis O'Neill is remembered primarily for:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Publishing influential collections of Irish dance music gathered in Chicago",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Publishing influential collections of Irish dance music gathered in Chicago"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Michael Coleman recorded approximately how many commercial 78-rpm discs between 1921 and 1936?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "About eighty",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: About eighty"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Comhaltas Ceoltóirí Éireann and the first Fleadh Cheoil both date from:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "1951, with the first fleadh in Mullingar",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 1951, with the first fleadh in Mullingar"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Seán Ó Riada is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Mid-twentieth-century revival, Radio Éireann, and Ceoltóirí Chualann"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "The Willie Clancy Summer School in Miltown Malbay, County Clare, began in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "1973",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: 1973"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "James Morrison and Paddy Killoran were associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style recorded in New York in the 1920s–30s",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Sligo fiddle style recorded in New York in the 1920s–30s"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "The Irish Traditional Music Archive (ITMA) was co-founded in 1987 and preserves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Recordings, manuscripts, and research materials for traditional music",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Recordings, manuscripts, and research materials for traditional music"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Uilleann piping was inscribed on UNESCO's Intangible Cultural Heritage list in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "2017",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 2017"
+      },
+      {
+        "id": "q13",
+        "type": "mcq",
+        "prompt": "The same Irish tune may appear under different names or keys because:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Oral tradition and regional variation produce multiple living versions",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Oral tradition and regional variation produce multiple living versions"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "Donell Dubh Ó Cathail served as harper to Elizabeth I.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q15",
+        "type": "truefalse",
+        "prompt": "After the 1920s–30s recording boom, Irish traditional music experienced no further revival and disappeared.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "A lull followed, but Ó Riada, Comhaltas, summer schools, and later bands renewed the tradition."
+      },
+      {
+        "id": "q16",
+        "type": "mcq",
+        "prompt": "County, provincial, and All-Ireland fleadh levels exist partly to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Structure competition and advance winners toward the national fleadh",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Structure competition and advance winners toward the national fleadh"
+      }
+    ]
+  }
+}

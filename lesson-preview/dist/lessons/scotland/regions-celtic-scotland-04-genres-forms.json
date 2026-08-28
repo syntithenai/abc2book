@@ -1,0 +1,799 @@
+{
+  "id": "regions-celtic-scotland-04-genres-forms",
+  "title": "Scottish Traditional Music — Tunes, Forms, and Style",
+  "track": "regions",
+  "tier": 4,
+  "region": "scotland",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-celtic-scotland-03-instruments-voices-ii"
+  ],
+  "tags": [
+    "scotland",
+    "celtic",
+    "forms",
+    "style"
+  ],
+  "path": "10-regions/celtic/scotland/04-genres-forms.md",
+  "sections": [
+    {
+      "id": "scottish-traditional-music-tunes-forms-and-style",
+      "title": "Scottish Traditional Music — Tunes, Forms, and Style",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 4 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-scotland-03-instruments-voices-ii\n**Tags:** scotland, strathspey, reel, jig, hornpipe, puirt-a-beul, forms"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dance and listening music in Scotland organise around **metre**, **tempo**, and **physical feel** on the floor. A dancer expecting a **strathspey** will stumble if the band launches a reel. A piper competing at games must distinguish **march**, **strathspey**, and **reel** sets in judging categories. This lesson maps the main forms — with emphasis on **strathspey** as Scotland's signature contribution — and introduces **puirt à beul**, Gaelic mouth music that blurs song and rhythm."
+        }
+      ]
+    },
+    {
+      "id": "reels",
+      "title": "Reels",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Reels** in 4/4 (or 2/2) drive ceilidhs and sessions with steady **ONE-two THREE-four** pulse. *The Mason's Apron*, *Highland Harry*, and countless cross-border tunes share repertoire with Ireland. Scottish reel accent may feel **straighter** than strathspey — bowing and piping articulate even quavers after the snap forms are internalised.\n\nReels chain in sets for dancers: reel–reel–reel or strathspey–reel–reel is a classic ceilidh pattern. Session players trade reels by ear; ornament density varies by region — Shetland precision, North East fire.\n\n![Scottish country dancers](https://en.wikipedia.org/wiki/Special:FilePath/Scottish_country_dancing2.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "strathspeys",
+      "title": "Strathspeys",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **strathspey** is Scotland's defining dance form — 4/4 with a **dotted**, proud pulse and the **Scottish snap** (long-short figure on certain beats). Fiddlers bow it; pipers articulate it; dancers step it in **Scottish country dance** and **Highland** contexts.\n\nTunes like *Moneymusk*, *Captain Horne*, and *The Bonnie Lass of Bon Accord* (Skinner) exemplify the form. Strathspeys feel **slower and more majestic** than reels though metre is also 4/4 — the **rhythmic shape** differs, not the time signature alone.\n\nStrathspey rhythm is the first thing to master when leaving Irish-only reel–jig thinking. Mislabel a strathspey as a hornpipe and your foot-tap will lie."
+        }
+      ]
+    },
+    {
+      "id": "strathspey-on-pipes-and-fiddle",
+      "title": "Strathspey on pipes and fiddle",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Highland pipers compete on strathspey sets; fiddle competitions include strathspey–reel–reel requirements. **Snap bowing** on fiddle emphasises the dotted pulse; pipers use **g gracenotes** and articulation to carve the same shape. Listen to **Scott Skinner** recordings and modern competition pipers side by side."
+        }
+      ]
+    },
+    {
+      "id": "jigs",
+      "title": "Jigs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Jigs** in 6/8 share the **JIG-ged-y JIG-ged-y** two-beat feel familiar from Ireland. Scottish ceilidhs use jigs for dances like **Strip the Willow** (often mixed with reels in medleys). Accent and tune choice may skew Scottish — *The Irish Washerwoman* appears ironically on both sides of the sea — but metre recognition transfers directly from Irish study.\n\n**Pipe jigs** and **fiddle jigs** fill festival programmes; **single jigs** and **double jigs** distinctions matter less in casual ceilidh calling than steady lift."
+        }
+      ]
+    },
+    {
+      "id": "hornpipes",
+      "title": "Hornpipes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hornpipes** in dotted 4/4 carry **bouncy long-short** swing — *Off to California* and sailor-associated tunes cross borders. Scottish players may hornpipe for stage and listening; ceilidh callers less often build full hornpipe sets than reel–jig blocks. **Competition** fiddle includes hornpipes as display pieces.\n\nDistinguish hornpipe **swing** from strathspey **snap** — both use dots, but strathspey pride and hornpipe bounce feel different underfoot."
+        }
+      ]
+    },
+    {
+      "id": "slow-airs",
+      "title": "Slow airs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Slow airs** adapt **Gaelic song** melodies, **piobaireachd** themes, or **lament** tradition for pipes, fiddle, and harp. Free or slow tempo; sparse ornament; no dance function in mixed sets. *Dark Island* and pipe airs from ceòl mòr repertoire appear in folk concerts.\n\nAnnouncing an air between ceilidh reels without warning disrupts the floor — parallel to Irish session etiquette. Airs suit listening rooms, folk clubs, and pipe recitals."
+        }
+      ]
+    },
+    {
+      "id": "puirt-à-beul",
+      "title": "Puirt à beul",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Puirt à beul** (\"tunes from a mouth\") is **Gaelic mouth music** — rhythmic syllables carrying dance pulse when instruments were absent or for house entertainment. Not purely \"wordless\" — some pieces mix lyrics and vocables. **Waulking songs** overlap in work-rhythm function.\n\nRevival bands (**Capercaillie**, **Mouth Music**) arranged puirt for stage; traditional singers preserve **West Highland** and **island** versions. Puirt à Beul connects song, dance, and Gaelic language survival — study it as **rhythm instrument**, not novelty vocal.\n\n![Gaelic culture event](https://en.wikipedia.org/wiki/Special:FilePath/Gaelic_medium_education_sign_in_Portree%2C_Skye.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "piobaireachd-brief-orientation",
+      "title": "Piobaireachd (brief orientation)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Piobaireachd** (ceòl mòr — \"big music\") is classical **Highland bagpipe** repertoire: theme and variations, slow development, competition focus. It is not ceilidh fare, but pipers treat it as artistic peak. Forms lesson mentions it so you recognise the label when games announcers distinguish ceòl mòr from ceòl beag (little music — marches, strathspeys, reels)."
+        }
+      ]
+    },
+    {
+      "id": "set-construction-for-dancers",
+      "title": "Set construction for dancers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ceilidh bands think in **medleys**: strathspey–reel–reel, jig–jig–reel, march for grand entrance. Tempo must **serve dancers** — inexperienced players who race reels lose the hall. Callers announce dances; bands adjust length with repeats."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel lesson: `regions-celtic-ireland-04-genres-forms`. Ireland lacks **strathspey** as a core session form; Scotland lacks **polka** and **slide** strongholds like Sliabh Luachra. Both share **reels**, **jigs**, **hornpipes**, and **slow airs**. Irish **slip jig** (9/8) is rarer in Scottish ceilidh default sets.\n\nDonegal **highlands** import Scottish strathspey family feel — compare recordings from Glencolmcille and Aberdeen. **Puirt à beul** parallels Irish **lilting** (*portaireacht*) — mouth rhythm when pipes or fiddle are elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Strathspey** is Scotland's signature form — dotted snap in 4/4, distinct from straight reels.\n- **Reels** and **jigs** overlap heavily with Irish repertoire but sit in different typical set orders for ceilidh dance.\n- **Hornpipes** use dotted swing; do not confuse with strathspey pride pulse.\n- **Slow airs** serve listening and song melody, not unannounced ceilidh breaks.\n- **Puirt à beul** is Gaelic mouth music with serious dance and language heritage.\n- **Piobaireachd** is classical pipe repertoire separate from ceilidh dance sets."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Francis Collinson** — *The Traditional and National Music of Scotland* (classic form survey).\n- **Roderick Cannon** — piping treatises for piobaireachd and ceòl beag context.\n- **Wikipedia** — [Strathspey (dance)](https://en.wikipedia.org/wiki/Strathspey_(dance)), [Puirt à beul](https://en.wikipedia.org/wiki/Puirt_%C3%A0_beul).\n- **Greentrax** catalogue — regional compilation albums tagged by form."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "strathspey",
+      "type": "form",
+      "name": "Strathspey",
+      "summary": "Scotland's signature dotted dance form in 4/4",
+      "blurb": "Scottish snap long-short pulse on fiddle, pipes, and dance floor — distinct from straight reels.",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Scottish_country_dancing2.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "puirt-a-beul",
+      "type": "tradition",
+      "name": "Puirt à Beul",
+      "summary": "Gaelic mouth music for dance rhythm",
+      "blurb": "Vocal syllables carry pulse when instruments were scarce — serious Gaelic heritage, not novelty.",
+      "url": "https://en.wikipedia.org/wiki/Puirt_%C3%A0_beul",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaelic_medium_education_sign_in_Portree%2C_Skye.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [],
+  "playlist": [
+    {
+      "id": "moneymusk",
+      "entity_id": "strathspey",
+      "label": "Moneymusk strathspey",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Strathspey"
+    },
+    {
+      "id": "puirt-capercaillie",
+      "entity_id": "puirt-a-beul",
+      "label": "Puirt à beul — traditional Gaelic",
+      "youtube": "https://www.youtube.com/watch?v=0kZ6v4W3wXQ",
+      "subtitle": "Puirt à Beul"
+    },
+    {
+      "id": "reel-set",
+      "label": "Scottish reel session set",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": ""
+    },
+    {
+      "id": "piobaireachd-sample",
+      "label": "Piobaireachd excerpt",
+      "youtube": "https://www.youtube.com/watch?v=L0MK7awyLUI",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Strathspey is Scotland's signature form with dotted Scottish snap in 4/4.",
+    "Reels and jigs overlap with Irish repertoire but sit in different ceilidh set orders.",
+    "Hornpipes use dotted swing — distinct from strathspey pride pulse.",
+    "Slow airs serve listening; unannounced airs disrupt ceilidh dance flow.",
+    "Puirt à beul is Gaelic mouth music with dance and language heritage.",
+    "Piobaireachd is classical pipe ceòl mòr separate from ceilidh sets.",
+    "**Strathspey** is Scotland's signature form — dotted snap in 4/4, distinct from straight reels.",
+    "**Reels** and **jigs** overlap heavily with Irish repertoire but sit in different typical set orders for ceilidh dance.",
+    "**Hornpipes** use dotted swing; do not confuse with strathspey pride pulse.",
+    "**Slow airs** serve listening and song melody, not unannounced ceilidh breaks.",
+    "**Puirt à beul** is Gaelic mouth music with serious dance and language heritage.",
+    "**Piobaireachd** is classical pipe repertoire separate from ceilidh dance sets."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "The Traditional and National Music of Scotland",
+      "author": "Francis Collinson",
+      "note": "Classic form survey"
+    },
+    {
+      "type": "link",
+      "title": "Strathspey (dance) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance)",
+      "note": "Rhythm and dance context"
+    },
+    {
+      "type": "link",
+      "title": "Puirt à beul — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Puirt_%C3%A0_beul",
+      "note": "Gaelic mouth music"
+    },
+    {
+      "type": "book",
+      "title": "Dance to the Piper",
+      "author": "George S. Emmerson",
+      "note": "Scottish dance music history"
+    },
+    {
+      "type": "link",
+      "title": "The Session — strathspeys",
+      "url": "https://thesession.org/tunes",
+      "note": "Cross-reference tune types"
+    },
+    {
+      "type": "link",
+      "title": "Piobaireachd Society",
+      "url": "https://www.piobaireachd.co.uk/",
+      "note": "Ceòl mòr scores and history"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "Strathspey (dance)",
+      "url": "https://en.wikipedia.org/wiki/Strathspey_(dance"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    }
+  ],
+  "quiz_markdown": "### Q1. The strathspey is characterised by:\n\n- A) A dotted proud pulse and Scottish snap in 4/4 metre\n- B) 9/8 slip-jig feel exclusively\n- C) Free rhythm with no dance association\n- D) 2/4 polka pulse from Munster\n\n**Answer:** A\n\n### Q2. Puirt à beul is Gaelic mouth music used for dance rhythm and house entertainment.\n\n**Answer:** True\n\n### Q3. A typical ceilidh medley might pair:\n\n- A) Strathspey followed by reels for Scottish country dance\n- B) Only slow airs with no dance tunes\n- C) Strictly hip-hop beats at 140 BPM\n- D) Opera recitative without metre\n\n**Answer:** A\n\n### Q4. Reels in Scottish trad commonly use 4/4 or 2/2 with steady even pulse.\n\n**Answer:** True\n\n### Q5. Piobaireachd is:\n\n- A) Classical Highland bagpipe ceòl mòr with theme and variations\n- B) A type of bodhrán rim shot\n- C) An accordion bass button layout\n- D) A waulking song exclusively in English\n\n**Answer:** A\n\n### Q6. Hornpipes are often played with a dotted bouncy swing distinct from strathspey snap.\n\n**Answer:** True\n\n### Q7. James Scott Skinner composed strathspey repertoire including The Bonnie Lass of Bon Accord.\n\n**Answer:** True\n\n### Q8. Slow airs are appropriate for unannounced insertion in the middle of a ceilidh reel set without warning.\n\n**Answer:** False — airs disrupt dance flow; etiquette parallels Irish session practice.\n\n### Q9. Jigs in Scotland share 6/8 two-beat feel with Irish double jigs.\n\n**Answer:** True\n\n### Q10. Waulking songs overlap with Gaelic work-song tradition related to puirt and cloth-fulling rhythm.\n\n**Answer:** True\n\n### Q11. Moneymusk is cited as an example strathspey tune in Scottish repertoire.\n\n**Answer:** True\n\n### Q12. Compared with Ireland, strathspey is a core Scottish form without Irish equivalent prominence in session culture.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The strathspey is characterised by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "A dotted proud pulse and Scottish snap in 4/4 metre",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A dotted proud pulse and Scottish snap in 4/4 metre"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Puirt à beul is Gaelic mouth music used for dance rhythm and house entertainment.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "A typical ceilidh medley might pair:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strathspey followed by reels for Scottish country dance",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Strathspey followed by reels for Scottish country dance"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Reels in Scottish trad commonly use 4/4 or 2/2 with steady even pulse.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Piobaireachd is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Classical Highland bagpipe ceòl mòr with theme and variations"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Hornpipes are often played with a dotted bouncy swing distinct from strathspey snap.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "James Scott Skinner composed strathspey repertoire including The Bonnie Lass of Bon Accord.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Slow airs are appropriate for unannounced insertion in the middle of a ceilidh reel set without warning.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "airs disrupt dance flow; etiquette parallels Irish session practice."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Jigs in Scotland share 6/8 two-beat feel with Irish double jigs.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Waulking songs overlap with Gaelic work-song tradition related to puirt and cloth-fulling rhythm.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Moneymusk is cited as an example strathspey tune in Scottish repertoire.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, strathspey is a core Scottish form without Irish equivalent prominence in session culture.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-scotland-04-genres-forms-quiz",
+    "title": "Scottish Traditional Music — Tunes, Forms, and Style quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The strathspey is characterised by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "A dotted proud pulse and Scottish snap in 4/4 metre",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A dotted proud pulse and Scottish snap in 4/4 metre"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Puirt à beul is Gaelic mouth music used for dance rhythm and house entertainment.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "A typical ceilidh medley might pair:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Strathspey followed by reels for Scottish country dance",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Strathspey followed by reels for Scottish country dance"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Reels in Scottish trad commonly use 4/4 or 2/2 with steady even pulse.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Piobaireachd is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Classical Highland bagpipe ceòl mòr with theme and variations",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Classical Highland bagpipe ceòl mòr with theme and variations"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Hornpipes are often played with a dotted bouncy swing distinct from strathspey snap.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "James Scott Skinner composed strathspey repertoire including The Bonnie Lass of Bon Accord.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Slow airs are appropriate for unannounced insertion in the middle of a ceilidh reel set without warning.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "airs disrupt dance flow; etiquette parallels Irish session practice."
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Jigs in Scotland share 6/8 two-beat feel with Irish double jigs.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Waulking songs overlap with Gaelic work-song tradition related to puirt and cloth-fulling rhythm.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Moneymusk is cited as an example strathspey tune in Scottish repertoire.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, strathspey is a core Scottish form without Irish equivalent prominence in session culture.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

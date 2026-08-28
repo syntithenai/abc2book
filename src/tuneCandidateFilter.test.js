@@ -95,6 +95,17 @@ describe('tuneCandidateFilter', function() {
     }, {})).toBe(false)
   })
 
+  test('bookIndexNeedsRepair detects partial coverage skew', function() {
+    const tunes = {}
+    const bookIndex = { songs: [] }
+    for (let i = 0; i < 80; i += 1) {
+      const id = 't' + i
+      tunes[id] = makeTune(id, { books: ['songs'] })
+      if (i < 10) bookIndex.songs.push(id)
+    }
+    expect(bookIndexNeedsRepair(tunes, bookIndex)).toBe(true)
+  })
+
   test('intersects tag filters', function() {
     const indexes = {
       bookIndex: {},
@@ -141,5 +152,16 @@ describe('tuneIndexRebuilder', function() {
     })
     expect(built.books.Book1).toEqual(expect.arrayContaining(['a', 'b']))
     expect(built.tags.irish).toEqual(expect.arrayContaining(['a', 'b']))
+  })
+
+  test('rebuildIndexesFromTunes can skip persist', async function() {
+    const { rebuildIndexesFromTunes } = require('./tuneIndexRebuilder')
+    const tuneIndexStore = require('./tuneIndexStore')
+    const spy = jest.spyOn(tuneIndexStore, 'saveAllIndexes').mockResolvedValue(undefined)
+    await rebuildIndexesFromTunes({
+      a: makeTune('a', { books: ['Book1'] }),
+    }, { persist: false })
+    expect(spy).not.toHaveBeenCalled()
+    spy.mockRestore()
   })
 })

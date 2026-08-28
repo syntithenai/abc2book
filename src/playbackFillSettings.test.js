@@ -59,7 +59,8 @@ describe('playbackFillSettings', function() {
 
   test('resolveFillPlaybackOptions maps styles to playback mode', function() {
     expect(resolveFillPlaybackOptions({ playbackFillStyle: FILL_STYLE_OFF }).chordsOff).toBe(true)
-    expect(resolveFillPlaybackOptions({ playbackFillStyle: FILL_STYLE_BOOM_CHICK }).chordsOff).toBe(false)
+    expect(resolveFillPlaybackOptions({ playbackFillStyle: FILL_STYLE_BOOM_CHICK }).chordsOff).toBe(true)
+    expect(resolveFillPlaybackOptions({ playbackFillStyle: FILL_STYLE_BOOM_CHICK }).injectCustomFill).toBe(true)
     expect(resolveFillPlaybackOptions({ playbackFillStyle: 'fingerpick' }).injectCustomFill).toBe(true)
     expect(resolveFillPlaybackOptions({ playbackFillStyle: 'fingerpick' }).chordsOff).toBe(true)
   })

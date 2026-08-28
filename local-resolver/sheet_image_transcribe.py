@@ -21,13 +21,19 @@ from chord_sheet_utils import (
     reconstruct_chords_over_words,
     reconstruct_chord_sheet_details,
 )
+from sheet_image_enhanced_omr import extract_enhanced_melody
+from sheet_image_format import (
+    build_lyrics_only_payload,
+    build_unified_sheet_meta,
+    classify_sheet_format,
+    split_ocr_bands_for_mixed,
+)
 from sheet_image_melody import extract_main_melody_from_musicxml
 from sheet_image_ocr import ensure_paddleocr_available, extract_ocr_boxes
 from sheet_image_omr import ensure_homr_available, transcribe_image_to_musicxml
 from sheet_image_preprocess import preprocess_sheet_image
 from sheet_image_segment import crop_box_for_segment, segment_page_from_ocr_boxes
 from sheet_image_staff_detect import (
-    classify_page_type,
     detect_staff_regions,
     vision_stack_available,
     write_staff_crop,
@@ -57,7 +63,8 @@ STAGE_PROGRESS = {
 def _estimate_total_seconds(has_staff: bool, might_vlm: bool = False) -> int:
     total = 65
     if has_staff:
-        total += 140
+        # Per-staff enhanced OMR can run several homr passes.
+        total += 220
     if might_vlm:
         total += 35
     return total
@@ -134,6 +141,50 @@ def _prepare_image_path(data: bytes, filename: str, work_dir: str) -> str:
     return _preprocess_image(source_path, work_dir)
 
 
+def _chord_sheet_from_boxes(boxes: list[dict[str, Any]]) -> dict[str, Any]:
+    lines = reconstruct_chords_over_words(boxes)
+    line_details = reconstruct_chord_sheet_details(boxes)
+    confidence = estimate_chord_sheet_confidence(lines, boxes)
+    return {
+        "format": "chords-over-words",
+        "text": lines_to_chord_sheet_text(lines),
+        "lines": classify_lyric_chord_lines(lines),
+        "sections": build_sections_from_lines(lines),
+        "confidence": confidence,
+        "warnings": [],
+        "lineDetails": line_details,
+        "_rawLines": lines,
+    }
+
+
+def _empty_chord_sheet() -> dict[str, Any]:
+    return {
+        "format": "chords-over-words",
+        "text": "",
+        "lines": [],
+        "sections": [],
+        "confidence": 0.0,
+        "warnings": [],
+        "lineDetails": [],
+        "_rawLines": [],
+    }
+
+
+def _mixed_chord_sheet_from_bands(
+    above_boxes: list[dict[str, Any]],
+    below_boxes: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Rebuild chords-over-words preferring above-staff chords and below-staff lyrics."""
+    combined = list(above_boxes or []) + list(below_boxes or [])
+    if not combined:
+        return _empty_chord_sheet()
+    sheet = _chord_sheet_from_boxes(combined)
+    # Soften confidence slightly when bands were split (alignment is best-effort).
+    sheet["confidence"] = max(0.0, float(sheet.get("confidence") or 0.0) * 0.95)
+    sheet["format"] = "mixed-bands"
+    return sheet
+
+
 def _extract_chord_sheet(image_path: str) -> dict[str, Any]:
     warnings: list[str] = []
     # Transcription runs in a short-lived vision subprocess; do not skip OCR
@@ -148,25 +199,32 @@ def _extract_chord_sheet(image_path: str) -> dict[str, Any]:
             "warnings": ["paddleocr_unavailable"],
         }
     boxes = extract_ocr_boxes(image_path)
-    lines = reconstruct_chords_over_words(boxes)
-    line_details = reconstruct_chord_sheet_details(boxes)
-    confidence = estimate_chord_sheet_confidence(lines, boxes)
-    return {
-        "format": "chords-over-words",
-        "text": lines_to_chord_sheet_text(lines),
-        "lines": classify_lyric_chord_lines(lines),
-        "sections": build_sections_from_lines(lines),
-        "confidence": confidence,
-        "warnings": warnings,
-        "ocrBoxes": boxes,
-        "lineDetails": line_details,
-        "_rawLines": lines,
-    }
+    sheet = _chord_sheet_from_boxes(boxes)
+    sheet["warnings"] = warnings
+    sheet["ocrBoxes"] = boxes
+    return sheet
 
 
-def _extract_melody(image_path: str, work_dir: str | None = None) -> dict[str, Any] | None:
+def _extract_melody(
+    image_path: str,
+    work_dir: str | None = None,
+    title: str = "",
+) -> dict[str, Any] | None:
+    """Extract melody via enhanced per-staff OMR when possible; else full-crop homr."""
     if not ensure_homr_available():
         return None
+    try:
+        enhanced = extract_enhanced_melody(
+            image_path,
+            work_dir=work_dir,
+            title=title or "",
+        )
+        if enhanced and str(enhanced.get("abc") or "").strip():
+            return enhanced
+    except Exception:
+        # Fall through to classic staff-union crop path.
+        pass
+
     omr_path = image_path
     staff_crop_used = False
     if work_dir:
@@ -179,6 +237,13 @@ def _extract_melody(image_path: str, work_dir: str | None = None) -> dict[str, A
     melody = extract_main_melody_from_musicxml(musicxml)
     melody["source"] = "homr"
     melody["staffCropUsed"] = staff_crop_used
+    melody["enhancedOmr"] = {
+        "mode": "full-crop",
+        "upscaled": False,
+        "bandCount": None,
+        "okSystems": None,
+        "reason": "classic-fallback",
+    }
     return melody
 
 
@@ -239,6 +304,30 @@ def _empty_result_error(warnings: list[str], staff_info: dict[str, Any], omr_ski
     )
 
 
+async def _run_omr_if_needed(
+    image_path: str,
+    work_dir: str,
+    title: str,
+    on_progress: ProgressCallback | None,
+    started_at: float,
+    estimated_total: int,
+    warnings: list[str],
+) -> tuple[dict[str, Any] | None, bool]:
+    """Return (melody, omr_skipped)."""
+    if not ensure_homr_available():
+        warnings.append("omr_unavailable")
+        return None, True
+    try:
+        _emit_progress(on_progress, "omr", "Recognizing melody notation (OMR)...", started_at, estimated_total)
+        melody = _extract_melody(image_path, work_dir=work_dir, title=title)
+        _emit_progress(on_progress, "melody", "Converting melody to ABC...", started_at, estimated_total)
+        return melody, False
+    except Exception as exc:
+        warnings.append("omr_failed")
+        warnings.append(str(exc)[:200])
+        return None, False
+
+
 async def _transcribe_single_image(
     image_path: str,
     work_dir: str,
@@ -246,53 +335,86 @@ async def _transcribe_single_image(
     started_at: float,
     estimated_total: int,
     title_hint: str = "",
+    composer_hint: str = "",
     skip_page_ocr: bool = False,
     ocr_boxes: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     warnings: list[str] = []
     _emit_progress(on_progress, "staff_detect", "Detecting staff notation regions...", started_at, estimated_total)
     staff_info = detect_staff_regions(image_path)
-    if staff_info.get("hasStaff"):
-        estimated_total = _estimate_total_seconds(has_staff=True)
+    _width, height = _image_size(image_path)
 
     if skip_page_ocr and ocr_boxes is not None:
-        from chord_sheet_utils import reconstruct_chords_over_words as _recon
-        from chord_sheet_utils import reconstruct_chord_sheet_details as _details
-
-        lines = _recon(ocr_boxes)
-        line_details = _details(ocr_boxes)
-        chord_sheet = {
-            "format": "chords-over-words",
-            "text": lines_to_chord_sheet_text(lines),
-            "lines": classify_lyric_chord_lines(lines),
-            "sections": build_sections_from_lines(lines),
-            "confidence": estimate_chord_sheet_confidence(lines, ocr_boxes),
-            "warnings": [],
-            "lineDetails": line_details,
-        }
-        raw_lines = lines
-        boxes = ocr_boxes
+        boxes = list(ocr_boxes)
+        chord_sheet = _chord_sheet_from_boxes(boxes)
+        raw_lines = chord_sheet.pop("_rawLines", [])
     else:
         _emit_progress(on_progress, "ocr", "Running OCR for chords and lyrics...", started_at, estimated_total)
         chord_sheet = _extract_chord_sheet(image_path)
         raw_lines = chord_sheet.pop("_rawLines", [])
-        boxes = chord_sheet.pop("ocrBoxes", [])
+        boxes = chord_sheet.pop("ocrBoxes", []) or []
+        for w in chord_sheet.get("warnings") or []:
+            if w not in warnings:
+                warnings.append(w)
 
-    might_vlm = float(chord_sheet.get("confidence") or 0.0) < 0.55
+    format_info = classify_sheet_format(
+        staff_info,
+        boxes,
+        raw_lines,
+        image_height=float(height or 0),
+    )
+    sheet_format = str(format_info.get("sheetFormat") or "unknown")
+    needs_omr = bool(format_info.get("needsOmr"))
+    skip_homr = bool(format_info.get("skipHomr"))
+    ambiguous = bool(format_info.get("ambiguous"))
+
+    if needs_omr or ambiguous:
+        estimated_total = _estimate_total_seconds(has_staff=bool(staff_info.get("hasStaff")))
+
+    # Route-specific chord/lyric payload
+    if sheet_format == "lyrics_only" and not ambiguous:
+        meta_hint = format_info.get("meta") or {}
+        chord_sheet = build_lyrics_only_payload(raw_lines, meta_hint)
+        raw_lines = [
+            str(item.get("text") or "")
+            for item in (chord_sheet.get("lines") or [])
+        ]
+    elif sheet_format == "notation_only" and not ambiguous:
+        signals = format_info.get("signals") or {}
+        if float(signals.get("chordTokenDensity") or 0) < 0.05 and int(signals.get("chordLineCount") or 0) == 0:
+            chord_sheet = _empty_chord_sheet()
+            raw_lines = []
+
+    might_vlm = (
+        sheet_format in {"chord_chart", "lyrics_only", "mixed", "unknown"}
+        and float(chord_sheet.get("confidence") or 0.0) < 0.55
+        and sheet_format != "notation_only"
+    )
     if might_vlm:
         estimated_total = _estimate_total_seconds(bool(staff_info.get("hasStaff")), might_vlm=True)
 
-    fallback = await maybe_apply_vlm_fallback(raw_lines, boxes, float(chord_sheet.get("confidence") or 0.0))
+    fallback = None
+    if might_vlm:
+        fallback = await maybe_apply_vlm_fallback(
+            raw_lines, boxes, float(chord_sheet.get("confidence") or 0.0)
+        )
+
     title = str(title_hint or "")
     artist = ""
     if fallback:
         if fallback.get("lines"):
             _emit_progress(on_progress, "vlm", "Cleaning chord text with research LLM...", started_at, estimated_total)
-            chord_sheet["lines"] = classify_lyric_chord_lines(fallback["lines"])
-            chord_sheet["sections"] = build_sections_from_lines(fallback["lines"])
-            chord_sheet["text"] = fallback.get("text") or lines_to_chord_sheet_text(fallback["lines"])
-            chord_sheet["confidence"] = fallback.get("confidence", chord_sheet.get("confidence"))
-            chord_sheet["source"] = fallback.get("source", "llm_cleanup")
+            if sheet_format == "lyrics_only":
+                chord_sheet = build_lyrics_only_payload(
+                    fallback["lines"],
+                    {"title": fallback.get("title"), "artist": fallback.get("artist")},
+                )
+            else:
+                chord_sheet["lines"] = classify_lyric_chord_lines(fallback["lines"])
+                chord_sheet["sections"] = build_sections_from_lines(fallback["lines"])
+                chord_sheet["text"] = fallback.get("text") or lines_to_chord_sheet_text(fallback["lines"])
+                chord_sheet["confidence"] = fallback.get("confidence", chord_sheet.get("confidence"))
+                chord_sheet["source"] = fallback.get("source", "llm_cleanup")
             raw_lines = fallback["lines"]
             warnings.append("vlm_fallback_applied")
         if not title:
@@ -302,33 +424,79 @@ async def _transcribe_single_image(
     if not title and not artist:
         title, artist = _guess_title_artist(raw_lines)
 
+    band_meta = format_info.get("meta") or {}
+    if not title:
+        title = str(band_meta.get("title") or "")
+    if not artist:
+        artist = str(band_meta.get("artist") or band_meta.get("composer") or "")
+
     melody = None
     omr_skipped = False
-    if staff_info.get("hasStaff"):
-        if ensure_homr_available():
-            try:
-                _emit_progress(on_progress, "omr", "Recognizing melody notation (OMR)...", started_at, estimated_total)
-                melody = _extract_melody(image_path, work_dir=work_dir)
-                _emit_progress(on_progress, "melody", "Converting melody to ABC...", started_at, estimated_total)
-            except Exception as exc:
-                warnings.append("omr_failed")
-                warnings.append(str(exc)[:200])
-        else:
-            omr_skipped = True
-            warnings.append("omr_unavailable")
+    run_omr = needs_omr or (ambiguous and bool(staff_info.get("hasStaff")))
+    if run_omr and not skip_homr:
+        melody, omr_skipped = await _run_omr_if_needed(
+            image_path,
+            work_dir,
+            title,
+            on_progress,
+            started_at,
+            estimated_total,
+            warnings,
+        )
+    elif skip_homr:
+        omr_skipped = False  # intentionally skipped by format route, not unavailable
+        warnings.append("homr_skipped_by_format")
 
-    page_type = classify_page_type(bool(staff_info.get("hasStaff")), raw_lines)
-    if chord_sheet.get("text") and melody:
-        page_type = "mixed"
-    elif melody and not chord_sheet.get("text"):
-        page_type = "notation_only"
-    elif chord_sheet.get("text") and not melody:
-        page_type = "chord_chart"
+    # Mixed: re-split OCR into above/below staff bands after we know staff regions
+    if sheet_format == "mixed" or (ambiguous and melody and chord_sheet.get("text")):
+        bands = split_ocr_bands_for_mixed(boxes, list(staff_info.get("staffRegions") or []))
+        if bands.get("above") or bands.get("below"):
+            mixed_sheet = _mixed_chord_sheet_from_bands(bands.get("above") or [], bands.get("below") or [])
+            if mixed_sheet.get("text"):
+                chord_sheet = mixed_sheet
+                raw_lines = chord_sheet.pop("_rawLines", raw_lines)
+                sheet_format = "mixed"
+
+    # Ambiguous finalize: prefer higher-confidence payload shape
+    if ambiguous and melody and not chord_sheet.get("text"):
+        sheet_format = "notation_only"
+    elif ambiguous and chord_sheet.get("text") and not melody:
+        signals = format_info.get("signals") or {}
+        if int(signals.get("chordLineCount") or 0) == 0 and float(signals.get("chordTokenDensity") or 0) < 0.08:
+            sheet_format = "lyrics_only"
+        else:
+            sheet_format = "chord_chart"
+    elif ambiguous and melody and chord_sheet.get("text"):
+        sheet_format = "mixed"
+
+    meta = build_unified_sheet_meta(
+        title=title,
+        artist=artist,
+        composer=artist or str(band_meta.get("composer") or ""),
+        key=str(
+            (melody or {}).get("key")
+            or band_meta.get("key")
+            or ""
+        ),
+        capo=band_meta.get("capo"),
+        source_format=sheet_format,
+        confidence=float(format_info.get("confidence") or 0.0),
+        ocr_boxes=boxes,
+        image_height=float(height or 0),
+        folder_composer_hint=str(composer_hint or ""),
+    )
+    title = meta.get("title") or title
+    artist = meta.get("artist") or artist or meta.get("composer") or ""
 
     return {
         "title": title,
         "artist": artist,
-        "pageType": page_type,
+        "pageType": sheet_format,
+        "sheetFormat": sheet_format,
+        "formatConfidence": float(format_info.get("confidence") or 0.0),
+        "formatScores": format_info.get("scores") or {},
+        "formatAmbiguous": ambiguous,
+        "meta": meta,
         "chordSheet": {
             "format": chord_sheet.get("format", "chords-over-words"),
             "text": chord_sheet.get("text", ""),
@@ -336,6 +504,7 @@ async def _transcribe_single_image(
             "sections": chord_sheet.get("sections", []),
             "confidence": chord_sheet.get("confidence", 0.0),
             "lineDetails": chord_sheet.get("lineDetails", []),
+            "stanzas": chord_sheet.get("stanzas"),
         },
         "melody": melody,
         "staffDetection": staff_info,
@@ -369,6 +538,7 @@ async def transcribe_sheet_image_bytes(
     data: bytes,
     filename: str = "upload.png",
     on_progress: ProgressCallback | None = None,
+    composer_hint: str = "",
 ) -> dict[str, Any]:
     if not vision_stack_available():
         raise RuntimeError("Sheet image transcription is disabled")
@@ -376,6 +546,7 @@ async def transcribe_sheet_image_bytes(
     started_at = time.monotonic()
     estimated_total = _estimate_total_seconds(has_staff=False)
     _emit_progress(on_progress, "prepare", "Preparing image or PDF page...", started_at, estimated_total)
+    folder_composer = str(composer_hint or "").strip()
 
     with tempfile.TemporaryDirectory(prefix="sheet-image-") as work_dir:
         image_path = _prepare_image_path(data, filename, work_dir)
@@ -406,6 +577,7 @@ async def transcribe_sheet_image_bytes(
                     started_at,
                     estimated_total,
                     title_hint=str(segment.get("title") or ""),
+                    composer_hint=folder_composer,
                     skip_page_ocr=True,
                     ocr_boxes=seg_boxes,
                 )
@@ -429,6 +601,9 @@ async def transcribe_sheet_image_bytes(
                     "title": first.get("title") or "",
                     "artist": first.get("artist") or "",
                     "pageType": first.get("pageType") or "unknown",
+                    "sheetFormat": first.get("sheetFormat") or first.get("pageType") or "unknown",
+                    "formatConfidence": first.get("formatConfidence"),
+                    "meta": first.get("meta") or {},
                     "chordSheet": first.get("chordSheet"),
                     "melody": first.get("melody"),
                     "staffDetection": first.get("staffDetection"),
@@ -457,6 +632,7 @@ async def transcribe_sheet_image_bytes(
             on_progress,
             started_at,
             estimated_total,
+            composer_hint=folder_composer,
             skip_page_ocr=True,
             ocr_boxes=page_boxes,
         )
@@ -490,6 +666,8 @@ async def transcribe_sheet_image_bytes(
             "title": one.get("title"),
             "artist": one.get("artist"),
             "pageType": one.get("pageType"),
+            "sheetFormat": one.get("sheetFormat") or one.get("pageType"),
+            "meta": one.get("meta"),
             "chordSheet": one.get("chordSheet"),
             "melody": one.get("melody"),
             "staffDetection": one.get("staffDetection"),
@@ -506,10 +684,18 @@ def transcribe_sheet_image_sync(
     data: bytes,
     filename: str = "upload.png",
     on_progress: ProgressCallback | None = None,
+    composer_hint: str = "",
 ) -> dict[str, Any]:
     import asyncio
 
-    return asyncio.run(transcribe_sheet_image_bytes(data, filename, on_progress=on_progress))
+    return asyncio.run(
+        transcribe_sheet_image_bytes(
+            data,
+            filename,
+            on_progress=on_progress,
+            composer_hint=composer_hint,
+        )
+    )
 
 
 def run_cli() -> int:
@@ -519,13 +705,24 @@ def run_cli() -> int:
     parser = argparse.ArgumentParser(description="Transcribe a chord sheet / lead sheet image")
     parser.add_argument("image_path")
     parser.add_argument("--json", action="store_true")
+    parser.add_argument(
+        "--composer-hint",
+        default="",
+        help="Folder/composer hint when the image path has no parent folder context",
+    )
     args = parser.parse_args()
     with open(args.image_path, "rb") as handle:
         data = handle.read()
     import asyncio
 
     try:
-        result = asyncio.run(transcribe_sheet_image_bytes(data, os.path.basename(args.image_path)))
+        result = asyncio.run(
+            transcribe_sheet_image_bytes(
+                data,
+                os.path.basename(args.image_path),
+                composer_hint=str(args.composer_hint or "").strip(),
+            )
+        )
     except Exception as exc:
         message = str(exc).strip()[:500] or "Sheet image transcription failed"
         if os.getenv("SHEET_IMAGE_PROGRESS", "").strip().lower() in {"1", "true", "yes"}:

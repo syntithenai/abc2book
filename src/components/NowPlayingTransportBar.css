@@ -368,6 +368,7 @@
 
 body.app-has-playlist-transport {
   --app-playlist-transport-offset: calc(6.75rem + env(safe-area-inset-bottom, 0px));
+  --app-playlist-transport-height: var(--app-playlist-transport-offset);
 }
 
 body.app-has-playlist-transport .App-body {

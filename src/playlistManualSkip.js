@@ -172,6 +172,8 @@ function landQueueItem(deps, result, keepPlaying) {
     started = playQueueItem(mediaController, deps.tunebook, tune, item, {
       fromUserGesture: true,
       playbackTarget: result.playbackTarget,
+      queue: result.queue,
+      preferMidi: !!(result.queue && result.queue.preferMidi),
     })
     if (started) queuePlaylistTrackAnnouncement(tune)
   }
@@ -191,7 +193,10 @@ function landQueueItem(deps, result, keepPlaying) {
   if (shouldFollow && nav && allowFollow && tuneId) {
     if (deps.setCurrentTune) deps.setCurrentTune(tuneId)
     if (keepPlaying || !forceNavigate) {
-      navigateToQueueTune(nav, tuneId, item, deps.tunebook, deps.tunes, result.playbackTarget)
+      navigateToQueueTune(nav, tuneId, item, deps.tunebook, deps.tunes, result.playbackTarget, {
+        queue: liveQueue || nextQueue,
+        preferMidi: !!((liveQueue || nextQueue) && (liveQueue || nextQueue).preferMidi),
+      })
     } else {
       nav('/tunes/' + tuneId)
     }

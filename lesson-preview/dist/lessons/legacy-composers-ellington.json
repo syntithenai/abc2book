@@ -1,0 +1,178 @@
+{
+  "id": "legacy-composers-ellington",
+  "title": "Duke Ellington",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "06-history/07-ellington.md",
+  "sections": [
+    {
+      "id": "duke-ellington-band-colour-and-composition",
+      "title": "Duke Ellington: Band Colour and Composition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Edward Kennedy 'Duke' Ellington (1899–1974) led one of history's greatest big bands, composing thousands of works treating each section as a colour palette."
+        }
+      ]
+    },
+    {
+      "id": "masterworks",
+      "title": "Masterworks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "*Mood Indigo*, *Take the A Train*, *Black, Brown and Beige*, *Such Sweet Thunder*. Wrote for specific players — Ben Webster, Johnny Hodges, Cootie Williams."
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "title": "Orchestration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Same chord, different voicing = different room. Céilí bands borrow sectional thinking for accordion vs fiddle vs brass countermelodies."
+        }
+      ]
+    },
+    {
+      "id": "arranging",
+      "title": "Arranging",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Vary texture each turn. Solo space over rich backgrounds. Shout chorus for climax — transferable to festival sets."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Ellington known as:\n\n- A) Bandleader and jazz orchestra composer\n- B) Baroque organ specialist only\n- C) Heavy-metal guitarist\n- D) Silent-film projectionist\n\n**Answer:** A\n\n### Q2. Ellington treated band sections as distinct colours.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Ellington known as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bandleader and jazz orchestra composer",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Bandleader and jazz orchestra composer"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Ellington treated band sections as distinct colours.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-composers-ellington-quiz",
+    "title": "Duke Ellington quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Ellington known as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Bandleader and jazz orchestra composer",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Bandleader and jazz orchestra composer"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Ellington treated band sections as distinct colours.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

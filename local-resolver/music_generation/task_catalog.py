@@ -10,9 +10,8 @@ TASK_PRACTICE_TRACK = "practice_track"
 TASK_LINKED_COVER = "linked_cover"
 
 DEFAULT_PRESET_BY_TASK = {
-    # Stable Audio init-audio restyles the MIDI guide. AceStep cover preserves
-    # FluidSynth/GM timbre (often organ-like on hymns) and is optional only.
-    TASK_PRACTICE_TRACK: "fast",
+    # Balanced (Medium) is the listening-quality default; Fast for quick drafts.
+    TASK_PRACTICE_TRACK: "balanced",
     TASK_LINKED_COVER: "balanced",
 }
 
@@ -24,7 +23,7 @@ PRESET_SPECS: dict[str, dict[str, dict[str, Any]]] = {
         "fast": {
             "id": "fast",
             "label": "Fast",
-            "description": "Stable Audio 3 Small — MIDI-guided arrangement (recommended)",
+            "description": "Stable Audio 3 Small — quick draft while iterating guide recipes",
             "modelId": "stable-audio-3-small-music",
             "family": "stable_audio",
             "taskRoute": "gen",
@@ -36,7 +35,7 @@ PRESET_SPECS: dict[str, dict[str, dict[str, Any]]] = {
         "balanced": {
             "id": "balanced",
             "label": "Balanced",
-            "description": "Stable Audio 3 Medium — richer bed, auto-chunked for long tunes",
+            "description": "Stable Audio 3 Medium — recommended for listening quality, auto-chunked",
             "modelId": "stable-audio-3-medium",
             "family": "stable_audio",
             "taskRoute": "gen",

@@ -1,0 +1,938 @@
+{
+  "id": "regions-east-hungary-07-representative-depth",
+  "title": "Hungarian Folk Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "east-hungary",
+  "difficulty": 9,
+  "prerequisites": [
+    "regions-east-hungary-06-history"
+  ],
+  "tags": [
+    "east",
+    "hungary",
+    "eastern-europe",
+    "representative",
+    "fusions"
+  ],
+  "path": "10-regions/eastern-europe/hungary/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "hungarian-folk-music-representative-fusions-and-scenes",
+      "title": "Hungarian Folk Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Eastern European Folk | **Region:** east-hungary | **Tier:** 7\n**Prerequisites:** regions-east-hungary-06-history\n**Tags:** east, hungary, eastern-europe, representative, fusions"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "táncház, folk-rock\n\nHungarian Folk Music belongs to the **Eastern European Folk** curriculum. Muzsikás\nBéla Bartók\n\nThis lesson develops listening precision for **táncház, folk-rock** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This anchor unit establishes vocabulary for **Eastern European Folk**. When you later study sibling nations in this block, compare each lesson to this chapter.\n\n**Optional Atlantic-trad link:** `regions-celtic-ireland-07-representative-depth` — useful if you completed the Celtic Ireland unit first."
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "táncház, folk-rock\n\nStudy **hungarian folk music** through listening first. Wikipedia's article on [Music of Hungary](https://en.wikipedia.org/wiki/Music_of_Hungary) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Eastern European Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **violin, voice, shepherd flute**. Ensemble layer: **cimbalom, bass**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **csárdás, verbunkos, asymmetric metre**. Dance context: **couple dance, village circle**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Bartók, Kodály collecting**. Contemporary scenes: **táncház, folk-rock**. Tune repertoire anchor: **Csárdás standard forms**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- táncház, folk-rock\n- Lead instruments: violin, voice, shepherd flute\n- Ensemble: cimbalom, bass\n- Forms: csárdás, verbunkos, asymmetric metre\n- Dance: couple dance, village circle\n- History: Bartók, Kodály collecting\n- Scenes: táncház, folk-rock\n- Repertoire: Csárdás standard forms\n- Compared with Hungary: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Hungarian Folk Music is a living tradition with regional accent.\n- Focus: táncház, folk-rock.\n- Compared with Hungary: shared heritage, distinct emphasis.\n- Forms: csárdás, verbunkos, asymmetric metre.\n- Dance: couple dance, village circle.\n- Transmission: Bartók, Kodály collecting."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nH\nu\nn\ng\na\nr\ny\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nH\nu\nn\ng\na\nr\ny\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nH\nu\nn\ng\na\nr\ny\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "muzsik-s",
+      "type": "artist",
+      "name": "Muzsikás",
+      "summary": "Representative musician or ensemble in east-hungary trad",
+      "blurb": "Study Muzsikás for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Muzsikás",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "b-la-bart-k",
+      "type": "band",
+      "name": "Béla Bartók",
+      "summary": "Representative musician or ensemble in east-hungary trad",
+      "blurb": "Study Béla Bartók for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Béla_Bartók",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "muzsik-s",
+    "b-la-bart-k"
+  ],
+  "playlist": [
+    {
+      "id": "regions-east-hungary-07-representative-depth-pl1",
+      "entity_id": "muzsik-s",
+      "label": "Muzsikás — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Muzsikás"
+    },
+    {
+      "id": "regions-east-hungary-07-representative-depth-pl2",
+      "entity_id": "b-la-bart-k",
+      "label": "Béla Bartók — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Béla Bartók"
+    },
+    {
+      "id": "regions-east-hungary-07-representative-depth-pl3",
+      "label": "Hungarian Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-east-hungary-07-representative-depth-pl4",
+      "label": "Hungarian Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Hungarian Folk Music rewards comparative study.",
+    "Focus: táncház, folk-rock.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: csárdás, verbunkos, asymmetric metre.",
+    "Dance: couple dance, village circle.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Hungarian Folk Music is a living tradition with regional accent.",
+    "Compared with Hungary: shared heritage, distinct emphasis.",
+    "Transmission: Bartók, Kodály collecting."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Hungary",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Eastern European Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "táncház, folk-rock",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Hungary",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) táncház, folk-rock\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) táncház, folk-rock\n\n### Q2. Hungarian Folk Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Hungary, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) violin, voice, shepherd flute\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) violin, voice, shepherd flute\n\n### Q5. Ensemble voices include:\n- A) cimbalom, bass\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) cimbalom, bass\n\n### Q6. Tune and song forms include:\n- A) csárdás, verbunkos, asymmetric metre\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) csárdás, verbunkos, asymmetric metre\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Bartók, Kodály collecting\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Bartók, Kodály collecting\n\n### Q9. Contemporary scenes include:\n- A) táncház, folk-rock\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) táncház, folk-rock\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Csárdás standard forms\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Csárdás standard forms\n\n### Q12. The Compared with Hungary section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "táncház, folk-rock",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") táncház, folk-rock"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Hungarian Folk Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Hungary, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "violin, voice, shepherd flute",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") violin, voice, shepherd flute"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "cimbalom, bass",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": ") cimbalom, bass"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "csárdás, verbunkos, asymmetric metre",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") csárdás, verbunkos, asymmetric metre"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bartók, Kodály collecting",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        }
+      ],
+      "explain": ") Bartók, Kodály collecting"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "táncház, folk-rock",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": ") táncház, folk-rock"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "táncház, folk-rock",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Csárdás standard forms",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "táncház, folk-rock",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") Csárdás standard forms"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Hungary section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "violin, voice, shepherd flute",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "cimbalom, bass",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-east-hungary-07-representative-depth-quiz",
+    "title": "Hungarian Folk Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "táncház, folk-rock",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") táncház, folk-rock"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Hungarian Folk Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Hungary, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "violin, voice, shepherd flute",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") violin, voice, shepherd flute"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "cimbalom, bass",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": ") cimbalom, bass"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "csárdás, verbunkos, asymmetric metre",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") csárdás, verbunkos, asymmetric metre"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Bartók, Kodály collecting",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          }
+        ],
+        "explain": ") Bartók, Kodály collecting"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "táncház, folk-rock",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": ") táncház, folk-rock"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "táncház, folk-rock",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Csárdás standard forms",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "táncház, folk-rock",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") Csárdás standard forms"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Hungary section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "violin, voice, shepherd flute",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "cimbalom, bass",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

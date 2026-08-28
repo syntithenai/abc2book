@@ -97,6 +97,29 @@ function barKey(timing) {
 }
 
 /**
+ * Music-only origin inside TimingCallbacks noteTimings.
+ * When abcjs was built with extraMeasuresAtBeginning, the first positioned glyph
+ * sits after the prep; that millisecond is the true start of audible music.
+ * Using getTimingMusicStartMs() against noteTimings that have no prefix (extras=0)
+ * pushed the cursor exactly one bar ahead.
+ */
+export function musicStartMsFromNoteTimings(noteTimings) {
+  if (!Array.isArray(noteTimings) || noteTimings.length === 0) return 0
+  let sawLeadingUnpositioned = false
+  for (let i = 0; i < noteTimings.length; i++) {
+    const timing = noteTimings[i]
+    if (!timing) continue
+    if (timingHasCursorPosition(timing)) {
+      const ms = timing.milliseconds > 0 ? timing.milliseconds : 0
+      if (sawLeadingUnpositioned && ms > 0) return ms
+      return 0
+    }
+    sawLeadingUnpositioned = true
+  }
+  return 0
+}
+
+/**
  * Map the music-only playback clock onto abcjs noteTiming milliseconds.
  * Prefer 1:1 with the music clock. When noteTimings are clearly longer than the
  * audio buffer (QPM skew), scale so the cursor does not lag a bar/beat behind.
@@ -115,6 +138,40 @@ export function playbackClockToTimingMs(currentTimeSec, lastMomentMs, durationSe
   const holdMs = Math.max(0, last - 1)
   if (mapped <= holdMs) return mapped
   return holdMs
+}
+
+/**
+ * Map unwarped music-buffer seconds onto TimingCallbacks milliseconds.
+ * `musicStartMs` must come from musicStartMsFromNoteTimings (not a separate
+ * count-in estimate) so it matches the noteTimings being drawn.
+ */
+export function musicClockToTimingMs(musicSec, musicStartMs, lastMomentMs, durationSec, options) {
+  const o = options || {}
+  const start = musicStartMs > 0 ? musicStartMs : 0
+  const last = lastMomentMs > 0 ? lastMomentMs : 0
+  const musicSpan = last > start ? (last - start) : last
+  const clockMs = (musicSec > 0 ? musicSec : 0) * 1000
+  const durationMs = (durationSec > 0 ? durationSec : 0) * 1000
+  const tempoFactor = o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1
+
+  let musicMapped = clockMs
+  if (durationMs > 0 && musicSpan > 0) {
+    const ratio = musicSpan / durationMs
+    // Only scale for tempo-warped TimingCallbacks or clearly longer noteTimings.
+    // Scaling when timings are shorter made the cursor race a bar ahead of audio.
+    if (Math.abs(tempoFactor - 1) > 0.01) {
+      musicMapped = clockMs * ratio
+    } else if (ratio > 1.12) {
+      musicMapped = clockMs * ratio
+    }
+  } else if (!(musicSpan > 0) && last > 0) {
+    return playbackClockToTimingMs(musicSec, last, durationSec)
+  }
+
+  const total = start + musicMapped
+  if (!(last > 0)) return total
+  const holdMs = Math.max(0, last - 1)
+  return total <= holdMs ? total : holdMs
 }
 
 /**
@@ -149,77 +206,91 @@ export function barStartTimingsFromNoteTimings(noteTimings) {
 }
 
 /**
- * Beat anchors within each bar (bar downbeat + in-bar beats).
- * Pickup/short bars only get as many beats as their duration allows.
+ * Typical TimingCallbacks bar length (median gap). Pickup bars are shorter; the
+ * median prefers full-bar spacing so 2/4 half-measure skew is still visible.
  */
-export function beatStartTimingsFromNoteTimings(noteTimings, beatsPerMeasure) {
-  const barStarts = barStartTimingsFromNoteTimings(noteTimings)
-  const beats = parseFloat(beatsPerMeasure)
-  if (!(beats > 1) || barStarts.length === 0) return barStarts
-  const out = []
-  for (let i = 0; i < barStarts.length; i++) {
-    const start = barStarts[i]
-    out.push(start)
-    const mpm = start.millisecondsPerMeasure > 0
-      ? start.millisecondsPerMeasure
-      : (barStarts[i + 1]
-        ? (barStarts[i + 1].milliseconds - start.milliseconds)
-        : 0)
-    if (!(mpm > 0)) continue
-    const beatMs = mpm / beats
-    const barEnd = barStarts[i + 1]
-      ? barStarts[i + 1].milliseconds
-      : (start.milliseconds + mpm)
-    const barDur = barEnd - start.milliseconds
-    const beatsInBar = Math.max(1, Math.round(barDur / beatMs))
-    for (let b = 1; b < beatsInBar; b++) {
-      const target = start.milliseconds + b * beatMs
-      if (target >= barEnd - 1) break
-      let found = null
-      for (let j = 0; j < noteTimings.length; j++) {
-        const timing = noteTimings[j]
-        if (!timingHasCursorPosition(timing)) continue
-        if (timing.milliseconds + 0.01 < target) continue
-        if (timing.milliseconds > target + beatMs * 0.5) break
-        found = timing
-        break
-      }
-      if (found) out.push(found)
-    }
+export function typicalTimingBarMs(barStarts) {
+  if (!Array.isArray(barStarts) || barStarts.length === 0) return 0
+  if (barStarts.length === 1) {
+    return barStarts[0].millisecondsPerMeasure > 0
+      ? barStarts[0].millisecondsPerMeasure
+      : 0
   }
-  return out
+  const deltas = []
+  for (let i = 1; i < barStarts.length; i++) {
+    const d = barStarts[i].milliseconds - barStarts[i - 1].milliseconds
+    if (d > 0) deltas.push(d)
+  }
+  if (deltas.length === 0) return 0
+  deltas.sort(function(a, b) { return a - b })
+  return deltas[Math.floor(deltas.length / 2)]
 }
 
 /**
- * Map playback time onto the current beat anchor (not every note, not only the
- * bar downbeat). Bar-only snap sits half a bar behind on beat 2 in 2/4;
- * note-following moves more than once per beat.
+ * Map playback time onto the downbeat of the bar that is currently sounding.
+ * Cursor jumps once per written/audio bar, on the first beat only.
+ *
+ * Index bars from the *audio* timeline (musicSec + audibleMsPerMeasure). Do not
+ * trust noteTimings milliseconds alone: display TimingCallbacks often use a
+ * different QPM than the primed buffer (e.g. abcjs default 180 vs tune tempo
+ * 120), which made barsPerAudio round to 2 and skip a written bar ahead.
+ *
+ * When noteTimings and audio share the same tempo but TimingCallbacks splits
+ * each written bar (classic 2/4 half-measure skew), timing bars are shorter
+ * while lastMoment still matches audio duration — then multiply by barsPerAudio.
  */
 export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs, options) {
   if (!Array.isArray(noteTimings) || noteTimings.length === 0) return null
-  const timeMs = currentTimeMs > 0 ? currentTimeMs : 0
   const opts = options || {}
-  const events = []
-  for (let i = 0; i < noteTimings.length; i++) {
-    if (timingHasCursorPosition(noteTimings[i])) events.push(noteTimings[i])
+  const barStarts = barStartTimingsFromNoteTimings(noteTimings)
+  if (barStarts.length === 0) return null
+
+  const audibleMpm = parseFloat(opts.audibleMsPerMeasure) || 0
+  const musicSec = opts.musicSec
+  const audioDurationSec = parseFloat(opts.audioDurationSec) || 0
+  const lastMomentMs = parseFloat(opts.lastMomentMs) || 0
+  const latencySec = parseFloat(opts.outputLatencySec) || 0
+
+  if (audibleMpm > 0 && musicSec != null && isFinite(musicSec)) {
+    const effectiveSec = Math.max(0, musicSec - Math.max(0, latencySec))
+    const timingBarMs = typicalTimingBarMs(barStarts)
+    let barsPerAudio = 1
+    if (timingBarMs > 0) {
+      const raw = audibleMpm / timingBarMs
+      // Same-tempo subdivision (e.g. 2/4 half-measure): timelines match, bars shorter.
+      // Tempo-skewed display timings: whole timeline is compressed — keep 1:1 index.
+      let sameTempoTimeline = true
+      if (audioDurationSec > 0 && lastMomentMs > 0) {
+        const spanRatio = (lastMomentMs / 1000) / audioDurationSec
+        sameTempoTimeline = spanRatio > 0.85 && spanRatio < 1.15
+      }
+      if (sameTempoTimeline && raw >= 1.4) {
+        barsPerAudio = Math.max(1, Math.round(raw))
+      }
+    }
+    const audioBarIndex = Math.floor(effectiveSec * 1000 / audibleMpm)
+    const barIndex = Math.max(
+      0,
+      Math.min(barStarts.length - 1, audioBarIndex * barsPerAudio)
+    )
+    const downbeat = barStarts[barIndex]
+    return {
+      left: downbeat.left,
+      top: downbeat.top,
+      height: downbeat.height,
+    }
   }
-  if (events.length === 0) return null
-  let current = events[0]
-  for (let i = 0; i < events.length; i++) {
-    if (events[i].milliseconds <= timeMs) current = events[i]
-    else break
-  }
-  const beatsPerMeasure = parseFloat(opts.beatsPerMeasure) || 0
-  const anchors = beatStartTimingsFromNoteTimings(noteTimings, beatsPerMeasure)
-  let anchor = anchors[0] || current
-  for (let i = 0; i < anchors.length; i++) {
-    if (anchors[i].milliseconds <= timeMs) anchor = anchors[i]
+
+  const timeMs = currentTimeMs > 0 ? currentTimeMs : 0
+  let downbeat = barStarts[0]
+  for (let i = 0; i < barStarts.length; i++) {
+    if (barStarts[i].milliseconds <= timeMs) downbeat = barStarts[i]
     else break
   }
   return {
-    left: anchor.left,
-    top: anchor.top,
-    height: anchor.height,
+    left: downbeat.left,
+    top: downbeat.top,
+    height: downbeat.height,
   }
 }
 

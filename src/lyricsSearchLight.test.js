@@ -6,6 +6,7 @@ import { searchLyricsLight } from './lyricsSearchLight'
 import * as localAbcCollectionSearch from './localAbcCollectionSearch'
 import * as recordingArtistsClient from './recordingArtistsClient'
 import * as lyricsOvhClient from './lyricsOvhClient'
+import * as lyricsLrclibClient from './lyricsLrclibClient'
 import * as textSearchIndexUtils from './textSearchIndexUtils'
 
 jest.mock('./localAbcCollectionSearch', function() {
@@ -31,6 +32,13 @@ jest.mock('./lyricsOvhClient', function() {
   return {
     searchLyricsOvhForArtists: jest.fn(function() { return Promise.resolve([]) }),
     fetchLyricsOvh: jest.fn(function() { return Promise.resolve(null) }),
+  }
+})
+
+jest.mock('./lyricsLrclibClient', function() {
+  return {
+    searchLyricsLrclibForArtists: jest.fn(function() { return Promise.resolve([]) }),
+    fetchLyricsLrclib: jest.fn(function() { return Promise.resolve(null) }),
   }
 })
 
@@ -71,6 +79,8 @@ describe('searchLyricsLight', function() {
     localAbcCollectionSearch.searchLocalCollectionLyrics.mockResolvedValue([])
     lyricsOvhClient.searchLyricsOvhForArtists.mockReset()
     lyricsOvhClient.searchLyricsOvhForArtists.mockResolvedValue([])
+    lyricsLrclibClient.searchLyricsLrclibForArtists.mockReset()
+    lyricsLrclibClient.searchLyricsLrclibForArtists.mockResolvedValue([])
     jest.spyOn(textSearchIndexUtils, 'isStrongLocalMatch').mockReturnValue(false)
   })
 
@@ -151,8 +161,29 @@ describe('searchLyricsLight', function() {
     const result = await searchLyricsLight({ title: 'Yesterday', artist: 'The Beatles' })
 
     expect(recordingArtistsClient.discoverRecordingArtists).not.toHaveBeenCalled()
+    expect(lyricsLrclibClient.searchLyricsLrclibForArtists).toHaveBeenCalled()
     expect(result.text).toContain('Yesterday')
     expect(result.source).toBe('lyrics.ovh')
+  })
+
+  test('prefers lrclib over lyrics.ovh when both could answer', async function() {
+    lyricsLrclibClient.searchLyricsLrclibForArtists.mockResolvedValue([{
+      text: "Joseph's face was black as night",
+      lines: ["Joseph's face was black as night"],
+      stanzas: [],
+      title: 'Under African Skies',
+      artist: 'Paul Simon',
+      source: 'lrclib.net',
+      sourceUrl: 'https://lrclib.net/api/search?track_name=Under%20African%20Skies',
+    }])
+
+    const result = await searchLyricsLight({
+      title: 'Under African Skies',
+      artist: 'Paul Simon',
+    })
+
+    expect(result.source).toBe('lrclib.net')
+    expect(lyricsOvhClient.searchLyricsOvhForArtists).not.toHaveBeenCalled()
   })
 
   test('throws when no lyrics are found', async function() {

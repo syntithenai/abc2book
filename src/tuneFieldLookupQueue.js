@@ -66,7 +66,12 @@ export const FIELD_LOOKUP_KINDS = [
 
 export const SIDE_FIELD_SUGGESTION_ORIGIN = 'side-inference'
 
-const MAX_CONCURRENT_JOBS = 3
+/** Keep low: preferChords jobs each run chords then lyrics against the resolver. */
+const MAX_CONCURRENT_JOBS = 2
+/** Abort hung resolver/stream searches so bulk queues cannot jam forever. */
+/** Abort hung resolver/stream searches so bulk queues cannot jam forever.
+ * Prefer-chords UG scrapes may use most of this; leave room for lyrics fallback. */
+const FIELD_LOOKUP_JOB_TIMEOUT_MS = 180000
 
 /** Called when a field-lookup job is applied or dismissed while linked to Import Review. */
 let fieldLookupResolvedHandler = null
@@ -107,6 +112,8 @@ let jobs = []
 let currentJobId = null
 let persistTimer = null
 let restored = false
+let processQueueRunning = false
+const runningJobIds = new Set()
 
 let queueContext = {
   getTune: null,
@@ -379,12 +386,11 @@ export function enqueueLookup(spec) {
   const targetKey = tuneId ? ('tune:' + String(tuneId)) : ('candidate:' + String(candidateId))
   const duplicate = findDuplicateJob(targetKey, spec.kind)
   if (duplicate) {
-    // Already searching — reuse the in-flight job.
+    // Re-queue replaces in-flight work. Reusing hung "running" jobs jammed retries
+    // after bulk enhance (slots stayed full; new start appeared stuck on song 1).
     if (duplicate.status === 'pending' || duplicate.status === 'running') {
-      return duplicate.id
-    }
-    // New Search clears prior suggestions for this kind, then re-enqueues.
-    if (duplicate.status === 'awaiting') {
+      forceReleaseJob(duplicate, 'cancelled', null)
+    } else if (duplicate.status === 'awaiting') {
       dismissFieldLookup(duplicate.id)
     }
   }
@@ -576,20 +582,42 @@ function abortRunningJob(job) {
   if (!job) return
   job.cancelled = true
   if (job.abortController) {
-    job.abortController.abort()
+    try {
+      job.abortController.abort()
+    } catch (e) {
+      // ignore
+    }
+  }
+}
+
+/**
+ * Force a job out of the active set. Abort alone is not enough: some resolver
+ * streams ignore AbortSignal, which left runningJobIds full and jammed retries.
+ */
+function forceReleaseJob(job, status, error) {
+  if (!job) return
+  abortRunningJob(job)
+  runningJobIds.delete(job.id)
+  if (currentJobId === job.id) currentJobId = null
+  job.abortController = null
+  if (status) {
+    job.status = status
+    job.progress = status === 'error' || status === 'cancelled' || status === 'done' ? 100 : job.progress
+  }
+  if (error !== undefined) job.error = error
+  if (status === 'cancelled' || status === 'done' || status === 'error') {
+    job.message = job.message || ''
   }
 }
 
 export function cancelJob(id) {
   const job = jobs.find(function(item) { return item.id === id })
   if (!job) return false
-  if (job.status === 'done' || job.status === 'cancelled') return false
-  abortRunningJob(job)
-  if (job.status === 'pending' || job.status === 'awaiting') {
-    job.status = 'cancelled'
-  }
+  if (job.status === 'done' || job.status === 'cancelled' || job.status === 'error') return false
+  forceReleaseJob(job, 'cancelled', null)
   notify()
   schedulePersist()
+  processQueue()
   return true
 }
 
@@ -597,15 +625,13 @@ export function cancelAllJobs() {
   let changed = false
   jobs.forEach(function(job) {
     if (job.status !== 'pending' && job.status !== 'running' && job.status !== 'awaiting') return
-    abortRunningJob(job)
-    if (job.status === 'pending' || job.status === 'awaiting') {
-      job.status = 'cancelled'
-    }
+    forceReleaseJob(job, 'cancelled', null)
     changed = true
   })
   if (changed) {
     notify()
     schedulePersist()
+    processQueue()
   }
 }
 
@@ -802,6 +828,23 @@ export function dismissFieldLookup(jobId) {
 
 export function start() {
   paused = false
+  const now = Date.now()
+  jobs.forEach(function(job) {
+    if (job.status !== 'running') return
+    const timedOut = !!job.timedOut
+      || (job.startedAt && (now - job.startedAt) > FIELD_LOOKUP_JOB_TIMEOUT_MS)
+    if (job.cancelled || timedOut) {
+      forceReleaseJob(
+        job,
+        timedOut ? 'error' : 'cancelled',
+        timedOut ? (kindLabel(job.kind) + ' timed out') : null
+      )
+    }
+  })
+  Array.from(runningJobIds).forEach(function(id) {
+    const job = jobs.find(function(item) { return item.id === id })
+    if (!job || job.status !== 'running') runningJobIds.delete(id)
+  })
   if (!running) running = true
   processQueue()
   notify()
@@ -978,14 +1021,46 @@ function adoptJobAsChords(job) {
 
 /**
  * Prefer chord sheets (lyrics+chords); fall back to plain lyrics in the same job.
+ * Cap the chords pass so a slow Ultimate Guitar scrape cannot burn the whole
+ * job timeout before lyrics APIs (lrclib / lyrics.ovh) run.
  */
 async function searchLyricsPreferringChords(job, base, searchOptions) {
+  const parentSignal = base.signal
+  const chordsController = typeof AbortController !== 'undefined'
+    ? new AbortController()
+    : null
+  let chordsTimer = null
+  function abortChords() {
+    if (chordsController) {
+      try { chordsController.abort() } catch (e) { /* ignore */ }
+    }
+  }
+  function onParentAbort() { abortChords() }
+
+  if (chordsController && parentSignal) {
+    if (parentSignal.aborted) {
+      const err = new Error('Aborted')
+      err.name = 'AbortError'
+      throw err
+    }
+    parentSignal.addEventListener('abort', onParentAbort)
+  }
+  if (chordsController) {
+    // Match preferRemoteChords client budget — do not abort UG early.
+    chordsTimer = setTimeout(abortChords, 90000)
+  }
+
   try {
     const chordResult = await searchChords(Object.assign({}, base, {
+      signal: chordsController ? chordsController.signal : parentSignal,
       renderChords: searchOptions.renderChords || null,
+      preferRemoteChords: true,
+      skipLocalChords: true,
+      skipColdIndexLoad: true,
+      forceResolver: true,
       onProgress: function(message, progress) {
         if (typeof base.onProgress === 'function') {
-          base.onProgress(message || 'Searching for chords…', progress)
+          base.onProgress(message || 'Searching Ultimate Guitar…', progress)
         }
       },
     }))
@@ -994,12 +1069,25 @@ async function searchLyricsPreferringChords(job, base, searchOptions) {
       return chordResult
     }
   } catch (chordError) {
-    if (chordError && chordError.name === 'AbortError') throw chordError
+    if (job.cancelled) throw chordError
+    // Parent abort from job timeout: still try lyrics via lightweight APIs.
+    if (parentSignal && parentSignal.aborted && !job.timedOut) throw chordError
+    // Chords miss / chords-only timeout: continue to lyrics.
+  } finally {
+    if (chordsTimer) clearTimeout(chordsTimer)
+    if (chordsController && parentSignal) {
+      parentSignal.removeEventListener('abort', onParentAbort)
+    }
   }
   if (typeof base.onProgress === 'function') {
     base.onProgress('Searching for lyrics…', 0.35)
   }
-  return searchLyrics(base)
+  // Chords already tried the resolver (Ultimate Guitar); plain lyrics should
+  // use fast APIs so the lyrics editor cannot jam on another scrape.
+  return searchLyrics(Object.assign({}, base, {
+    skipColdIndexLoad: true,
+    forceLightweight: true,
+  }))
 }
 
 async function runSearch(job, signal) {
@@ -1011,6 +1099,8 @@ async function runSearch(job, signal) {
     signal: signal,
     resolverAvailable: searchOptions.resolverAvailable,
     abcTools: searchOptions.abcTools || null,
+    isCancelled: function() { return !!job.cancelled },
+    wasTimedOut: function() { return !!job.timedOut },
     onProgress: function(message, progress) {
       if (job.cancelled) return
       job.message = message || ''
@@ -1026,11 +1116,22 @@ async function runSearch(job, signal) {
     if (job.options && job.options.preferChords) {
       return searchLyricsPreferringChords(job, base, searchOptions)
     }
-    return searchLyrics(base)
+    return searchLyrics(Object.assign({}, base, {
+      skipColdIndexLoad: !!searchOptions.skipColdIndexLoad,
+      indexTimeoutMs: searchOptions.indexTimeoutMs,
+      forceLightweight: !!searchOptions.forceLightweight,
+    }))
   }
   if (job.kind === 'chords') {
     return searchChords(Object.assign({}, base, {
       renderChords: searchOptions.renderChords || null,
+      skipColdIndexLoad: !!searchOptions.skipColdIndexLoad,
+      indexTimeoutMs: searchOptions.indexTimeoutMs,
+      preferRemoteChords: !!searchOptions.preferRemoteChords || !!searchOptions.skipLocalChords,
+      skipLocalChords: !!searchOptions.skipLocalChords,
+      forceResolver: !!searchOptions.forceResolver,
+      allowLocalChordsFallback: !!searchOptions.allowLocalChordsFallback,
+      resolverTimeoutMs: searchOptions.resolverTimeoutMs,
     }))
   }
   if (job.kind === 'composer') {
@@ -1094,6 +1195,28 @@ async function runSearch(job, signal) {
 
 function hasLiveHandler(job) {
   return liveHandlers.has(liveHandlerKey(targetKeyForJob(job), job.kind))
+}
+
+function shouldSuppressReview(job) {
+  return !!(job && job.options && job.options.suppressReview)
+}
+
+function finishFieldLookupJob(job, options) {
+  const opts = options || {}
+  const applied = !!opts.applied
+  const live = hasLiveHandler(job)
+  job.status = 'done'
+  job.progress = 100
+  job.message = opts.message || ''
+  if (!live) {
+    toastFieldSearchFinished(job.kind, {
+      count: applied ? 1 : 0,
+      applied: applied,
+    })
+  }
+  notifyLive(job)
+  job.candidates = []
+  job.manualCandidates = []
 }
 
 function jobSearchMode(job) {
@@ -1321,13 +1444,14 @@ function settleCompletedJob(job) {
       applied = tryApplyCandidateKeepSuggestions(job, highs[0])
     }
     needsReview = highs.length > 1 || hasLowerConfidenceRemainder(searchCandidates)
-  } else if (fieldEmpty && searchCandidates.length && (!alwaysPick || !live)) {
+  } else if (fieldEmpty && searchCandidates.length && (!alwaysPick || !live || shouldSuppressReview(job))) {
     // Empty field: auto-apply when no live picker will handle it (e.g. Enhance).
     applied = tryApplyCandidateKeepSuggestions(job, searchCandidates[0])
   }
 
   // Empty + auto-applied (or nothing to pick): finish. Cache keeps alternatives.
   const finishWithoutDialog = searchCandidates.length === 0
+    || shouldSuppressReview(job)
     || (fieldEmpty && applied && !needsReview && (!alwaysPick || !live))
 
   if (finishWithoutDialog) {
@@ -1379,13 +1503,50 @@ export function updateFieldLookupOriginalValue(tuneId, kind, value) {
   return true
 }
 
+function makeAbortError(message) {
+  const err = new Error(message || 'Aborted')
+  err.name = 'AbortError'
+  return err
+}
+
+function isSoftMissSearchError(error) {
+  const message = String(error && error.message || '').toLowerCase()
+  return message.indexOf('no lyrics found') >= 0
+    || message.indexOf('no chords found') >= 0
+    || message.indexOf('no chord sheet found') >= 0
+}
+
+async function runSearchWithTimeout(job, signal) {
+  let timer = null
+  timer = setTimeout(function() {
+    job.timedOut = true
+    job.message = 'Taking too long — trying faster sources…'
+    notify()
+    try {
+      if (job.abortController) job.abortController.abort()
+    } catch (e) {
+      // ignore
+    }
+  }, FIELD_LOOKUP_JOB_TIMEOUT_MS)
+  try {
+    // Abort the in-flight request on timeout, but await runSearch so lyrics/chords
+    // clients can fall back to lightweight APIs instead of failing the job.
+    return await runSearch(job, signal)
+  } finally {
+    if (timer) clearTimeout(timer)
+  }
+}
+
 async function runJob(job) {
   if (job.cancelled || job.status === 'awaiting') return
+  if (job.status === 'cancelled' || job.status === 'done' || job.status === 'error') return
 
   job.status = 'running'
   job.progress = 0
   job.message = 'Starting search...'
   job.error = null
+  job.timedOut = false
+  job.startedAt = Date.now()
   currentJobId = job.id
   notify()
   schedulePersist()
@@ -1395,9 +1556,14 @@ async function runJob(job) {
   job.abortController = controller
 
   try {
-    const result = await runSearch(job, controller.signal)
-    if (job.cancelled) {
-      job.status = 'cancelled'
+    const result = await runSearchWithTimeout(job, controller.signal)
+    if (
+      job.cancelled
+      || job.status === 'cancelled'
+      || job.status === 'done'
+      || job.status === 'error'
+    ) {
+      if (job.status !== 'done' && job.status !== 'error') job.status = 'cancelled'
       return
     }
     if (result && result.skipped) {
@@ -1422,6 +1588,11 @@ async function runJob(job) {
       job.manualCandidates = normalized.manualCandidates
       job.musescorePaywalled = normalized.musescorePaywalled === true
       job.candidates = []
+      if (shouldSuppressReview(job)) {
+        job.message = 'Manual import may be required for some sources.'
+        finishFieldLookupJob(job, { applied: false })
+        return
+      }
       job.status = 'awaiting'
       job.progress = 100
       job.message = ''
@@ -1470,9 +1641,38 @@ async function runJob(job) {
     }
     settleCompletedJob(job)
   } catch (e) {
-    if (job.cancelled || isAbortError(e)) {
+    if (job.status === 'cancelled' || job.status === 'done' || job.status === 'error') {
+      return
+    }
+    if (job.cancelled) {
       job.status = 'cancelled'
       job.error = null
+    } else if (isAbortError(e) && job.timedOut) {
+      job.status = 'error'
+      job.error = kindLabel(job.kind) + ' timed out'
+      job.message = ''
+      notifyLive(job)
+      if (!hasLiveHandler(job)) {
+        toast.error(job.error, {
+          toastId: 'field-lookup-error-' + job.id,
+          autoClose: 8000,
+        })
+      }
+    } else if (isAbortError(e)) {
+      job.status = 'cancelled'
+      job.error = null
+    } else if (isSoftMissSearchError(e)) {
+      // Soft miss: finish quietly instead of error toasts that look like a jam.
+      job.status = 'done'
+      job.error = null
+      job.candidates = []
+      job.progress = 100
+      job.message = ''
+      job.notifyEmpty = true
+      if (!hasLiveHandler(job)) {
+        toastFieldSearchFinished(job.kind, { count: 0, applied: false })
+      }
+      notifyLive(job)
     } else {
       job.status = 'error'
       job.error = e && e.message ? e.message : (kindLabel(job.kind) + ' failed')
@@ -1486,22 +1686,22 @@ async function runJob(job) {
     }
   } finally {
     job.abortController = null
+    runningJobIds.delete(job.id)
     if (currentJobId === job.id) currentJobId = null
     notify()
     schedulePersist()
   }
 }
 
-let processQueueRunning = false
-const runningJobIds = new Set()
-
 function canStartJob(job) {
   if (!job || job.status !== 'pending' || job.cancelled) return false
-  // Prefer chords before lyrics for the same target so lyricLines can be reused.
-  if (job.kind === 'lyrics') {
+  // Integrated lyrics+chords enhance runs its own chord pass — never wait on a
+  // separate chords job for the same tune (can deadlock bulk queues).
+  if (job.kind === 'lyrics' && !(job.options && job.options.preferChords)) {
     const targetKey = targetKeyForJob(job)
     const chordsBlocking = jobs.some(function(other) {
       return other.id !== job.id
+        && !other.cancelled
         && targetKeyForJob(other) === targetKey
         && other.kind === 'chords'
         && (other.status === 'pending' || other.status === 'running')
@@ -1511,45 +1711,65 @@ function canStartJob(job) {
   return true
 }
 
+function findNextStartableJob() {
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i]
+    if (!canStartJob(job) || runningJobIds.has(job.id)) continue
+    return job
+  }
+  return null
+}
+
+function hasPendingJobs() {
+  return jobs.some(function(job) {
+    return job.status === 'pending' && !job.cancelled
+  })
+}
+
+/**
+ * Fill free slots without waiting for the whole batch. Previously Promise.all on
+ * a batch meant one hung lyrics/chords search blocked every remaining tune.
+ */
 async function processQueue() {
   if (processQueueRunning || paused) return
   if (isNavigatorOffline()) return
   processQueueRunning = true
   try {
-    while (running && !paused) {
-      const availableSlots = MAX_CONCURRENT_JOBS - runningJobIds.size
-      if (availableSlots <= 0) {
-        await new Promise(function(resolve) { setTimeout(resolve, 40) })
-        continue
+    while (!paused) {
+      while (runningJobIds.size < MAX_CONCURRENT_JOBS && !paused) {
+        if (isNavigatorOffline()) break
+        const next = findNextStartableJob()
+        if (!next) break
+        running = true
+        runningJobIds.add(next.id)
+        runJob(next).finally(function() {
+          runningJobIds.delete(next.id)
+          notify()
+          schedulePersist()
+          processQueue()
+        })
       }
-      const batch = []
-      jobs.forEach(function(job) {
-        if (batch.length >= availableSlots) return
-        if (!canStartJob(job)) return
-        if (runningJobIds.has(job.id)) return
-        batch.push(job)
-      })
-      if (batch.length === 0) {
-        if (runningJobIds.size === 0) {
-          running = false
-          break
-        }
-        await new Promise(function(resolve) { setTimeout(resolve, 40) })
-        continue
+
+      if (runningJobIds.size > 0) {
+        // In-flight work will re-enter processQueue when a slot frees.
+        break
       }
-      await Promise.all(batch.map(async function(job) {
-        runningJobIds.add(job.id)
-        try {
-          await runJob(job)
-        } finally {
-          runningJobIds.delete(job.id)
-        }
-      }))
+
+      if (!hasPendingJobs() || !findNextStartableJob()) {
+        running = false
+        break
+      }
+
+      // Pending but temporarily blocked (e.g. waiting on a sibling chords job).
+      await new Promise(function(resolve) { setTimeout(resolve, 40) })
     }
   } finally {
     processQueueRunning = false
     notify()
     schedulePersist()
+    if (!paused && runningJobIds.size < MAX_CONCURRENT_JOBS && findNextStartableJob()) {
+      processQueue()
+    }
   }
 }
 

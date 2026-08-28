@@ -1,0 +1,521 @@
+{
+  "id": "theory-cadences-advanced",
+  "title": "Cadences — Advanced and Historical",
+  "track": "theory",
+  "tier": "advanced",
+  "region": null,
+  "difficulty": 7,
+  "prerequisites": [
+    "theory-cadences-applied"
+  ],
+  "tags": [
+    "cadences",
+    "baroque",
+    "jazz-turnaround"
+  ],
+  "path": "00-theory/05-harmony/03-cadences-advanced.md",
+  "sections": [
+    {
+      "id": "cadences-advanced-and-historical",
+      "title": "Cadences — Advanced and Historical",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** advanced | **Difficulty:** 7/10\n**Prerequisites:** Cadences — Applied\n**Tags:** cadences, baroque, jazz-turnaround"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical cadence types, **evaded** and **Phrygian** cadences, and jazz **turnarounds** as repeating cadential patterns."
+        }
+      ]
+    },
+    {
+      "id": "phrygian-half-cadence",
+      "title": "Phrygian half cadence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In minor, ♭II–V (bass step down) — Baroque and some art song. Distinct sound from diatonic half cadence."
+        }
+      ]
+    },
+    {
+      "id": "jazz-turnaround",
+      "title": "Jazz turnaround",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I–vi–ii–V–I cycle extends cadential energy — representative of hundreds of standards, not every standard individually."
+        }
+      ]
+    },
+    {
+      "id": "evaded-cadence",
+      "title": "Evaded cadence",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dominant resolves unexpectedly — analysis skill for Romantic repertoire."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Turnaround often uses I–vi–ii–V in jazz.\n\n**Answer:** True\n\n### Q2. Phrygian half uses ♭II–V in minor.\n\n**Answer:** True\n\n### Q3. Advanced cadences appear in classical analysis.\n\n**Answer:** True\n\n### Q4. Evaded cadence surprises the listener.\n\n**Answer:** True\n\n### Q5. Not every historical cadence appears in folk session music.\n\n**Answer:** True\n\n### Q6. Turnaround repeats each chorus.\n\n**Answer:** True\n\n### Q7. Baroque music uses cadential formulas extensively.\n\n**Answer:** True\n\n### Q8. Representative depth means patterns not exhaustive catalogs.\n\n**Answer:** True\n\n### Q9. Cadence study supports form analysis.\n\n**Answer:** True\n\n### Q10. Jazz ii–V–I is applied cadence chain.\n\n**Answer:** True\n\n### Q11. Phrygian half is named for lowered second scale degree.\n\n**Answer:** True\n\n### Q12. Advanced tier completes cadence spiral.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Turnaround often uses I–vi–ii–V in jazz.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Phrygian half uses ♭II–V in minor.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Advanced cadences appear in classical analysis.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Evaded cadence surprises the listener.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Not every historical cadence appears in folk session music.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Turnaround repeats each chorus.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Baroque music uses cadential formulas extensively.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Representative depth means patterns not exhaustive catalogs.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Cadence study supports form analysis.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Jazz ii–V–I is applied cadence chain.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Phrygian half is named for lowered second scale degree.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Advanced tier completes cadence spiral.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-cadences-advanced-quiz",
+    "title": "Cadences — Advanced and Historical quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "truefalse",
+        "prompt": "Turnaround often uses I–vi–ii–V in jazz.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Phrygian half uses ♭II–V in minor.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Advanced cadences appear in classical analysis.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Evaded cadence surprises the listener.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Not every historical cadence appears in folk session music.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Turnaround repeats each chorus.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Baroque music uses cadential formulas extensively.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Representative depth means patterns not exhaustive catalogs.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Cadence study supports form analysis.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Jazz ii–V–I is applied cadence chain.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Phrygian half is named for lowered second scale degree.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Advanced tier completes cadence spiral.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

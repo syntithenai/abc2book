@@ -12,6 +12,7 @@ import useAbcjsParser from '../useAbcjsParser';
 import { transcribeSheetImageFile } from '../sheetImageTranscriptionClient';
 import { buildDraftFromSheetImageResult, createTuneFromSheetImageImport } from '../sheetImageImportUtils';
 import { formatSheetImageWarnings, formatSheetImageProgressMessage } from '../sheetImageFormatUtils';
+import { composerHintFromFile } from '../pdfSheetImportUtils';
 import { parseChordSheetText } from '../chordProFormatUtils';
 
 const ACCEPTED_TYPES = 'image/*,application/pdf,.pdf';
@@ -159,17 +160,19 @@ export default function ImportSheetImageModal(props) {
     setResult(body);
     const nextChordText = body.chordSheet && body.chordSheet.text ? body.chordSheet.text : '';
     const nextMelodyAbc = body.melody && body.melody.abc ? body.melody.abc : '';
-    const nextTitle = body.title || '';
-    const nextArtist = body.artist || '';
-    const nextKey = (body.melody && body.melody.key) || '';
+    const meta = body.meta || {};
+    const nextTitle = body.title || meta.title || '';
+    const nextArtist = body.artist || meta.artist || meta.composer || '';
+    const nextKey = (body.melody && body.melody.key) || meta.key || '';
     const nextMeter = (body.melody && body.melody.meter) || '';
+    const format = body.sheetFormat || body.pageType || 'unknown';
     setChordText(nextChordText);
     setMelodyAbc(nextMelodyAbc);
     setMetaTitle(nextTitle);
     setMetaArtist(nextArtist);
     setMetaKey(nextKey);
     setMetaMeter(nextMeter);
-    setActiveTab(nextChordText ? 'chords' : 'melody');
+    setActiveTab(nextChordText || format === 'lyrics_only' || format === 'chord_chart' ? 'chords' : 'melody');
     buildPreviewFromState(nextChordText, nextMelodyAbc, body, {
       title: nextTitle,
       artist: nextArtist,
@@ -197,6 +200,7 @@ export default function ImportSheetImageModal(props) {
         file: file,
         accessToken: props.token,
         signal: controller.signal,
+        composerHint: composerHintFromFile(file),
         onProgress: setProgressState,
       });
       if (controller.signal.aborted) return;

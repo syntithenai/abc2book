@@ -1564,6 +1564,10 @@ function LinksEditorBody(props) {
                     show
                     hideTrigger
                     onHide={function() { setShowGenerationWizard(false) }}
+                    onGenerationStarted={function() {
+                        setShowGenerationWizard(false);
+                        if (typeof props.handleClose === 'function') props.handleClose();
+                    }}
                     tune={getTuneForOwnedMedia() || tuneForMedia || props.tune}
                     tunebook={props.tunebook}
                     token={props.token}

@@ -1,0 +1,234 @@
+{
+  "id": "legacy-instruments-uilleann-pipes",
+  "title": "Uilleann Pipes",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/05-uilleann-pipes.md",
+  "sections": [
+    {
+      "id": "uilleann-pipes",
+      "title": "Uilleann Pipes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The uilleann pipes (IPA: ˈɪlən) are the characteristic bagpipe of Ireland — softer and more chromatic than Highland pipes. 'Uilleann' is Irish for 'elbow,' referring to bellows pumped by the player's arm."
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "title": "Components",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bellows (elbow-driven, not mouth-blown). Bag stores air. Chanter: conical bore, two octaves, closed end — stopped notes enable staccato. Drones (typically three) and regulators (keyed pipes for chords) optional."
+        }
+      ]
+    },
+    {
+      "id": "chromatic-capability",
+      "title": "Chromatic capability",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Half-holing and cross-fingerings give a chromatic chanter — unlike many mouth-blown pipes limited to mixolydian scale. Concert pitch, usually D."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Developed 18th–19th century from earlier Irish bellows pipes. Revival led by Seamus Ennis, Leo Rowsome. Liam O'Flynn brought pipes to international concert stages."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Uilleann pipes are inflated by:\n\n- A) Elbow bellows\n- B) Mouth blowing only\n- C) Electricity\n- D) Foot pump exclusively\n\n**Answer:** A\n\n### Q2. Uilleann chanter can play staccato due to closed end.\n\n**Answer:** True\n\n### Q3. Regulators on uilleann pipes:\n\n- A) Keyed pipes for harmonic accompaniment\n- B) Volume controls\n- C) Tuning pegs only\n- D) Drum sticks\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Uilleann pipes are inflated by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elbow bellows",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Elbow bellows"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Uilleann chanter can play staccato due to closed end.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Regulators on uilleann pipes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keyed pipes for harmonic accompaniment",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Keyed pipes for harmonic accompaniment"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-uilleann-pipes-quiz",
+    "title": "Uilleann Pipes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Uilleann pipes are inflated by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Elbow bellows",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Elbow bellows"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Uilleann chanter can play staccato due to closed end.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Regulators on uilleann pipes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Keyed pipes for harmonic accompaniment",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Keyed pipes for harmonic accompaniment"
+      }
+    ]
+  }
+}

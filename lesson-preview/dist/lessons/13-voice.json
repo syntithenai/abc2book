@@ -1,0 +1,114 @@
+{
+  "id": "13-voice",
+  "title": "13 Voice",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/13-voice.md",
+  "sections": [
+    {
+      "id": "voice-as-instrument",
+      "title": "Voice as Instrument",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The human voice is the oldest instrument — sung, spoken, and shouted across every culture. Classified as aerophone (lungs provide air; vocal folds vibrate)."
+        }
+      ]
+    },
+    {
+      "id": "registers",
+      "title": "Registers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Chest voice (modal register), head voice, falsetto, whistle register. Passaggio — transition points between registers."
+        }
+      ]
+    },
+    {
+      "id": "voice-types",
+      "title": "Voice types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Soprano, mezzo, alto/contralto, tenor, baritone, bass — choral classification. Folk singing ignores Fach categories; find comfortable range."
+        }
+      ]
+    },
+    {
+      "id": "styles",
+      "title": "Styles",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Opera bel canto. Gospel and blues growl. Sean-nós unaccompanied Irish song. Shape-note hymnody. Throat singing (Tuva, Mongolia)."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hydration, warm-up, rest. Hoarseness lasting >2 weeks warrants medical attention."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-voice-produces-sound-via",
+      "title": "Q1. Voice produces sound via:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Vocal fold vibration\n- B) String plucking\n- C) Reed vibration\n- D) Hammered metal\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-sean-nós-is-unaccompanied-irish-singing-style",
+      "title": "Q2. Sean-nós is unaccompanied Irish singing style.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Voice produces sound via:\n\n- A) Vocal fold vibration\n- B) String plucking\n- C) Reed vibration\n- D) Hammered metal\n\n**Answer:** A\n\n### Q2. Sean-nós is unaccompanied Irish singing style.\n\n**Answer:** True"
+}

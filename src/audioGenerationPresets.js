@@ -18,7 +18,7 @@ export const PRESET_ORDER = ['fast', 'balanced', 'high', 'ace_fidelity'];
 
 export function defaultPresetForTask(taskId) {
   if (taskId === TASK_LINKED_COVER) return 'balanced';
-  return 'fast';
+  return 'balanced';
 }
 
 export function presetLabel(presetId) {

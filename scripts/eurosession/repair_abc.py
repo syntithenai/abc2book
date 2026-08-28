@@ -439,16 +439,53 @@ def fix_decimal_durations(abc: str) -> str:
     )
 
 
-def repair_omr_abc(abc: str, title: str) -> str:
+def repair_omr_abc(
+    abc: str,
+    title: str,
+    *,
+    meter_hint: str | None = None,
+    key_override: str | None = None,
+) -> str:
+    """Normalize OMR ABC headers.
+
+    Title parenthetical seeds K: (e.g. ``(Gm)``). Optional ``meter_hint`` /
+    ``key_override`` come from the offline MSCZ/MXL title index join — never
+    from live MXL inside HOMR.
+    """
     text = fix_decimal_durations(abc or "")
     # Half-length fix: OMR bodies use quarter-as-unit but were labeled L:1/8.
     text = set_header(text, "L", "1/4")
-    hint = parse_title_key(title)
-    if hint:
-        text = set_header(text, "K", abc_key_header(*hint))
-    elif re.search(r"^K:\s*Bb\b", text, re.M):
-        # Drop bogus default Bb when no title hint.
-        text = set_header(text, "K", "C")
+    if key_override:
+        text = set_header(text, "K", key_override)
+    else:
+        hint = parse_title_key(title)
+        if hint:
+            text = set_header(text, "K", abc_key_header(*hint))
+        elif re.search(r"^K:\s*Bb\b", text, re.M):
+            # Drop bogus default Bb when no title hint.
+            text = set_header(text, "K", "C")
+    if meter_hint and re.match(r"^\d+/\d+$", meter_hint.strip()):
+        # Prefer index meter when OMR left M: missing, ?, or default 4/4.
+        cur = None
+        m = re.search(r"^M:\s*(\S+)", text, re.M)
+        if m:
+            cur = m.group(1).strip()
+        if not cur or cur in {"?", "4/4", "none"}:
+            text = set_header(text, "M", meter_hint.strip())
+        elif cur != meter_hint.strip() and meter_hint.strip() in {
+            "2/4",
+            "3/8",
+            "6/8",
+            "9/8",
+            "12/8",
+            "2/2",
+            "3/4",
+            "5/4",
+            "8/8",
+        }:
+            # Odd/compound index meter beats spurious OMR 2/4.
+            if cur in {"2/4", "4/4"}:
+                text = set_header(text, "M", meter_hint.strip())
     return text
 
 

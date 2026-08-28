@@ -1,0 +1,788 @@
+{
+  "id": "regions-celtic-diaspora-04-pan-celtic-festivals",
+  "title": "Pan-Celtic Festivals and Institutions",
+  "track": "regions",
+  "tier": 4,
+  "region": "celtic-diaspora",
+  "difficulty": 6,
+  "prerequisites": [
+    "regions-celtic-diaspora-03-cornwall-man"
+  ],
+  "tags": [
+    "celtic",
+    "diaspora",
+    "festivals",
+    "lorient",
+    "network"
+  ],
+  "path": "10-regions/celtic/diaspora/04-pan-celtic-festivals.md",
+  "sections": [
+    {
+      "id": "pan-celtic-festivals-and-institutions",
+      "title": "Pan-Celtic Festivals and Institutions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Unit:** Diaspora & fringe | **Tier:** 4 | **Difficulty:** 6/10\n**Prerequisites:** regions-celtic-diaspora-03-cornwall-man\n**Tags:** lorient, celtic-connections, festivals, pan-celtic, institutions, diaspora"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Every August, the Breton port of Lorient hosts the Festival Interceltique de Lorient — ten days of stages, parades, dance floors, and market stalls where Irish fiddlers share billing with Galician gaitas, Welsh choirs, Cornish pipers, and Cape Breton step dancers. In January, Glasgow's Celtic Connections fills concert halls and pub sessions during the dark Scottish winter. These events are not neutral showcases. They **manufacture encounter**: musicians meet, tunes swap, careers launch, and audiences learn to hear \"Celtic\" as plural rather than Irish-by-default.\n\nPan-Celtic institutions — festivals, congresses, broadcast specials, touring ensembles — link national scenes without merging them into one style. This lesson explains how that infrastructure works, what it borrows from Irish revival models, where it diverges, and how to listen critically when the festival programme flatten differences for marketing.\n\n![Festival Interceltique de Lorient parade](https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "lorient-the-flagship-interceltique",
+      "title": "Lorient: the flagship Interceltique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Founded in 1971, the Festival Interceltique de Lorient grew from Breton cultural nationalism into the world's largest recurring Celtic gathering. Each year highlights a \"Celtic nation\" as guest of honour — Ireland, Scotland, Wales, Cornwall, Isle of Man, Galicia, Asturias, and diaspora regions rotate. Programming mixes:\n\n- **Concert stages** — from pure trad to fusion supergroups.\n- **Parades and bagad competitions** — Breton pipe bands in spectacular massed formation.\n- **Dance workshops** — fest-noz circles beside Irish set-dance introductions.\n- **Market and craft** — instrument makers, CD stalls, food.\n\nLorient exports **repertoire traffic**. A Breton fiddler hears Cape Breton bowing; an Irish piper meets Asturian gaita; arrangements return home on YouTube. Yet the festival's Breton host culture shapes the default aesthetic: bombard and biniou volume, fest-noz dance as nightly climax, French media framing."
+        }
+      ]
+    },
+    {
+      "id": "celtic-connections-winter-session-city",
+      "title": "Celtic Connections: winter session city",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Celtic Connections began in 1994 as Glasgow's midwinter antidote to festival summer concentration. It emphasises **curated concerts** — themed nights, cross-genre collaborations, political song — alongside a growing fringe of pub sessions. Scottish trad is home turf, but Irish artists feature heavily: shared repertoire, shared language of reels and jigs, diaspora acts from North America.\n\nCompared with Lorient's outdoor mass spectacle, Celtic Connections feels like a **concert hall and club circuit** with session spillover. Both are professionalised — ticketed events, arts council funding, international press — unlike a village kitchen party. That professional layer matters for careers but can distance music from local dance floors if programmers favour stage virtuosity over community form.\n\n![Celtic Connections festival logo event](https://en.wikipedia.org/wiki/Special:FilePath/Celtic_Connections.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "congresses-councils-and-touring-networks",
+      "title": "Congresses, councils, and touring networks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Beyond the two giants, smaller institutions stitch the map:\n\n- **Celtic Congress** and related political-cultural forums — language, autonomy, heritage policy.\n- **Inter-Celtic festivals** in Ireland (e.g. Pan Celtic Festival in Killarney), Wales, and Cornwall — often competition-focused for song and dance.\n- **Touring ensembles** — The Chieftains, Danú, Breton-Irish collaborations — carry festival networks year-round.\n- **Broadcast** — RTÉ, BBC Alba, France 3 Bretagne, TG4 — document festivals and feed home audiences.\n\nIrish institutions like Comhaltas Ceoltóirí Éireann and the Fleadh Cheoil na hÉireann predate many pan-Celtic festivals but now **interface** with them: fleadh winners tour Lorient; Comhaltas branches host visiting Galician pipe bands. Ireland is often the **reference repertoire** foreign delegations learn first — a privilege and a distortion."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland's festival economy is layered:\n\n1. **Community feiseanna and fleadhanna** — competitive, pedagogical, rooted in parishes.\n2. **Summer schools** — Willie Clancy, Scoil Samhraidh Willie Clancy, etc.\n3. **Commercial tours** — Riverdance legacy, arena acts.\n4. **Pub sessions** — non-ticketed, local.\n\nPan-Celtic mega-festivals add a fifth layer: **international branding**. They amplify Irish artists abroad but risk presenting trad as world-music product — polished, abbreviated sets, fusion-heavy closers.\n\n| Layer | Irish anchor | Pan-Celtic festival |\n|-------|--------------|---------------------|\n| Primary goal | Teach, compete, socialise | Showcase nations, sell tickets |\n| Dance context | Céilí, set, feis | Mixed workshops; stage dance |\n| Repertoire depth | Full session sets | Short feature slots |\n| Funding | Community + state arts | Municipal + tourism + arts councils |\n\nIrish musicians benefit enormously from Lorient and Celtic Connections — income, discovery, cross-pollination. They also negotiate **authenticity** questions when a seven-minute stage slot must represent an entire county. Fringe nations face sharper pressure: Cornwall or Mann may field smaller delegations but need equal dignity on the programme.\n\nListeners should attend festivals comparatively: same tune, three nations, note tempo, ornament, and dance invitation. Avoid concluding that the festival's fusion finale defines \"Celtic music.\"\n\n**Parallel Ireland lessons:** `regions-celtic-ireland-01-overview` for fleadh/Comhaltas; `regions-celtic-ireland-07-representative-depth` for fusion and export; comparative lesson 01 for marketing critique."
+        }
+      ]
+    },
+    {
+      "id": "critical-listening-at-festivals",
+      "title": "Critical listening at festivals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Separate **host nation aesthetic** (Breton at Lorient, Scottish at Celtic Connections) from guest sets.\n2. Note which instruments lead — pipes, fiddle, voice — and what dance form the set implies.\n3. Compare a guest Irish set with a home session recording; stage compression changes phrasing.\n4. Follow artists after the festival to their regional scenes — YouTube is not the tradition's only home."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Pan-Celtic festivals link nations without erasing national accents.\n- Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship international stages.\n- Programming mixes concerts, parades, competitions, and workshops — professionalised unlike village sessions.\n- Ireland often serves as reference repertoire for visiting delegations — privilege and distortion both.\n- Institutions (Celtic Congress, national broadcasters, touring bands) extend festival networks year-round.\n- Compared with Ireland: fleadh/feis roots community; mega-festivals brand and export — listen for both."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Festival Interceltique de Lorient official site and archive programmes.\n- Celtic Connections festival history and concert listings.\n- Wikipedia: [Festival Interceltique de Lorient](https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient).\n- Wikipedia: [Celtic Connections](https://en.wikipedia.org/wiki/Celtic_Connections).\n- Simon Keegan-Phipps, scholarship on Breton fest-noz and festival politics — academic framing.\n- RTÉ and TG4 festival documentaries — Irish broadcast perspective."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "festival-interceltique-lorient",
+      "type": "organization",
+      "name": "Festival Interceltique de Lorient",
+      "summary": "World's largest recurring Celtic festival, founded 1971 in Brittany",
+      "blurb": "Ten-day August gathering with parades, concerts, dance workshops, and nation guest-of-honour rotations.",
+      "url": "https://www.festival-interceltique.bzh/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "celtic-connections",
+      "type": "organization",
+      "name": "Celtic Connections",
+      "summary": "Winter folk and roots festival in Glasgow",
+      "blurb": "Founded 1994; concert-hall and session programming with strong Irish and Scottish trad presence.",
+      "url": "https://www.celticconnections.com/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_Connections.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "comhaltas",
+      "type": "organization",
+      "name": "Comhaltas Ceoltóirí Éireann",
+      "summary": "Global Irish traditional music organisation",
+      "blurb": "Interfaces with pan-Celtic festivals through touring winners and visiting branches.",
+      "url": "https://comhaltas.ie/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Comhaltas_Ceolt%C3%B3ir%C3%AD_%C3%89ireann_logo.svg?width=320"
+    },
+    {
+      "id": "fleadh",
+      "type": "organization",
+      "name": "Fleadh Cheoil na hÉireann",
+      "summary": "All-Ireland traditional music competition festival",
+      "blurb": "Comhaltas flagship event; artists often tour to Lorient and Celtic Connections after success.",
+      "url": "https://comhaltas.ie/music/detail/fleadh_cheoil/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Fleadh_Cheoil_na_h%C3%89ireann_2010.jpg?width=320",
+      "playlist_index": 3
+    }
+  ],
+  "entity_order": [
+    "festival-interceltique-lorient",
+    "celtic-connections",
+    "comhaltas",
+    "fleadh"
+  ],
+  "playlist": [
+    {
+      "id": "lorient-parade",
+      "entity_id": "festival-interceltique-lorient",
+      "label": "Lorient festival parade",
+      "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY",
+      "subtitle": "Festival Interceltique de Lorient"
+    },
+    {
+      "id": "lorient-irish-night",
+      "entity_id": "festival-interceltique-lorient",
+      "label": "Irish night at Lorient",
+      "youtube": "https://www.youtube.com/watch?v=1XgcXJzojxM",
+      "subtitle": "Festival Interceltique de Lorient"
+    },
+    {
+      "id": "celtic-connections-opening",
+      "entity_id": "celtic-connections",
+      "label": "Celtic Connections concert excerpt",
+      "youtube": "https://www.youtube.com/watch?v=rfwJgcwE5PY",
+      "subtitle": "Celtic Connections"
+    },
+    {
+      "id": "fleadh-lorient-crossover",
+      "entity_id": "fleadh",
+      "label": "Fleadh winners at international festival",
+      "youtube": "https://www.youtube.com/watch?v=f5Q1zQr3pBk",
+      "subtitle": "Fleadh Cheoil na hÉireann"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Pan-Celtic festivals link nations without merging styles.",
+    "Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship stages.",
+    "Programming is professionalised and ticketed — unlike village sessions.",
+    "Ireland often serves as reference repertoire for visiting delegations.",
+    "Critical listening separates host-nation aesthetic from guest sets.",
+    "Pan-Celtic festivals link nations without erasing national accents.",
+    "Lorient (summer, Brittany) and Celtic Connections (winter, Glasgow) are flagship international stages.",
+    "Programming mixes concerts, parades, competitions, and workshops — professionalised unlike village sessions.",
+    "Ireland often serves as reference repertoire for visiting delegations — privilege and distortion both.",
+    "Institutions (Celtic Congress, national broadcasters, touring bands) extend festival networks year-round.",
+    "Compared with Ireland: fleadh/feis roots community; mega-festivals brand and export — listen for both."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Festival Interceltique de Lorient — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Connections — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celtic_Connections"
+    },
+    {
+      "type": "link",
+      "title": "Pan-Celticism — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pan-Celticism"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Congress",
+      "url": "https://en.wikipedia.org/wiki/Celtic_Congress"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Connections",
+      "url": "https://www.celticconnections.com/",
+      "note": "Glasgow winter festival"
+    },
+    {
+      "type": "link",
+      "title": "Lorient Interceltique",
+      "url": "https://www.festival-interceltique.com/",
+      "note": "Largest pan-Celtic gathering"
+    },
+    {
+      "type": "link",
+      "title": "Hebridean Celtic Festival",
+      "url": "https://www.hebceltfest.com/",
+      "note": "Scottish island festival"
+    },
+    {
+      "type": "link",
+      "title": "National Eisteddfod",
+      "url": "https://eisteddfod.wales/",
+      "note": "Welsh competitive gathering"
+    },
+    {
+      "type": "link",
+      "title": "Festival Interceltique de Lorient",
+      "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient"
+    },
+    {
+      "type": "link",
+      "title": "Celtic Connections",
+      "url": "https://en.wikipedia.org/wiki/Celtic_Connections"
+    }
+  ],
+  "quiz_markdown": "### Q1. The Festival Interceltique de Lorient is held in:\n\n- A) Brittany, France\n- B) Central Australia\n- C) Vienna, Austria exclusively\n- D) The North Pole research base\n\n**Answer:** A\n\n### Q2. Celtic Connections takes place annually in Glasgow during the winter.\n\n**Answer:** True\n\n### Q3. Pan-Celtic festivals primarily aim to:\n\n- A) Showcase multiple Celtic nations while hosting cross-border collaboration\n- B) Merge all repertoires into one uniform style\n- C) Ban dance workshops entirely\n- D) Replace all local sessions worldwide\n\n**Answer:** A\n\n### Q4. Lorient was founded in 1971 and grew from Breton cultural revival contexts.\n\n**Answer:** True\n\n### Q5. Compared with a parish fleadh, mega-festivals often feature:\n\n- A) Shorter stage sets and more professional/ticketed presentation\n- B) Only silent meditation with no instruments\n- C) Mandatory classical opera only\n- D) Complete absence of Irish musicians\n\n**Answer:** A\n\n### Q6. Comhaltas and the Fleadh Cheoil interface with pan-Celtic festival networks.\n\n**Answer:** True\n\n### Q7. The host nation's aesthetic (e.g. Breton at Lorient) shapes default festival atmosphere.\n\n**Answer:** True\n\n### Q8. Pan-Celtic festivals make Irish trad identical to Breton fest-noz practice.\n\n**Answer:** False — encounter does not equal merger.\n\n### Q9. Celtic Congress relates to political and cultural coordination among Celtic nations.\n\n**Answer:** True\n\n### Q10. Critical festival listening should compare stage sets with home-region session or dance recordings.\n\n**Answer:** True\n\n### Q11. Guest-of-honour nation rotations at Lorient have included Ireland, Galicia, and Cornwall among others.\n\n**Answer:** True\n\n### Q12. Best next step:\n\n- A) Watch full sets from multiple nations at one festival programme, noting dance and instrument leads\n- B) Assume the closing fusion act represents all traditions equally\n- C) Skip fringe nation delegations\n- D) Avoid comparing festival audio with local field recordings\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The Festival Interceltique de Lorient is held in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brittany, France",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Brittany, France"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Celtic Connections takes place annually in Glasgow during the winter.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pan-Celtic festivals primarily aim to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shorter stage sets and more professional/ticketed presentation",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brittany, France",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Showcase multiple Celtic nations while hosting cross-border collaboration"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Lorient was founded in 1971 and grew from Breton cultural revival contexts.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Compared with a parish fleadh, mega-festivals often feature:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Shorter stage sets and more professional/ticketed presentation",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Shorter stage sets and more professional/ticketed presentation"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Comhaltas and the Fleadh Cheoil interface with pan-Celtic festival networks.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "The host nation's aesthetic (e.g. Breton at Lorient) shapes default festival atmosphere.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Pan-Celtic festivals make Irish trad identical to Breton fest-noz practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "encounter does not equal merger."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Celtic Congress relates to political and cultural coordination among Celtic nations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Critical festival listening should compare stage sets with home-region session or dance recordings.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Guest-of-honour nation rotations at Lorient have included Ireland, Galicia, and Cornwall among others.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Best next step:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Watch full sets from multiple nations at one festival programme, noting dance and instrument leads"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-diaspora-04-pan-celtic-festivals-quiz",
+    "title": "Pan-Celtic Festivals and Institutions quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The Festival Interceltique de Lorient is held in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brittany, France",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Brittany, France"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Celtic Connections takes place annually in Glasgow during the winter.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Pan-Celtic festivals primarily aim to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Shorter stage sets and more professional/ticketed presentation",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Brittany, France",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Showcase multiple Celtic nations while hosting cross-border collaboration"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Lorient was founded in 1971 and grew from Breton cultural revival contexts.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Compared with a parish fleadh, mega-festivals often feature:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Showcase multiple Celtic nations while hosting cross-border collaboration",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Shorter stage sets and more professional/ticketed presentation",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Shorter stage sets and more professional/ticketed presentation"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Comhaltas and the Fleadh Cheoil interface with pan-Celtic festival networks.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "The host nation's aesthetic (e.g. Breton at Lorient) shapes default festival atmosphere.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Pan-Celtic festivals make Irish trad identical to Breton fest-noz practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "encounter does not equal merger."
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Celtic Congress relates to political and cultural coordination among Celtic nations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Critical festival listening should compare stage sets with home-region session or dance recordings.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Guest-of-honour nation rotations at Lorient have included Ireland, Galicia, and Cornwall among others.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Best next step:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Watch full sets from multiple nations at one festival programme, noting dance and instrument leads",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Watch full sets from multiple nations at one festival programme, noting dance and instrument leads"
+      }
+    ]
+  }
+}

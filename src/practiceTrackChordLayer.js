@@ -103,3 +103,25 @@ export function attachChordsToStrains(strains, chordsPerBar) {
     return Object.assign({}, strain, { chords: chords });
   });
 }
+
+/** Tile chordsPerBar when repeat schedule expands bar count (AABB etc.). */
+export function expandChordsPerBarForPlan(plan) {
+  if (!plan || !plan.timing || !Array.isArray(plan.chordsPerBar) || !plan.chordsPerBar.length) {
+    return plan && plan.chordsPerBar ? plan.chordsPerBar.slice() : [];
+  }
+  const boundaries = plan.timing.barBoundariesSec || [];
+  const barCount = Math.max(0, boundaries.length - 1);
+  const unique = plan.chordsPerBar.slice();
+  // No timing bars yet — keep the chart as authored.
+  if (barCount <= 0) {
+    return unique;
+  }
+  if (barCount <= unique.length) {
+    return unique.slice(0, barCount);
+  }
+  const expanded = [];
+  for (let bar = 0; bar < barCount; bar += 1) {
+    expanded.push(unique[bar % unique.length] || '');
+  }
+  return expanded;
+}

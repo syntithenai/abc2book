@@ -1,0 +1,938 @@
+{
+  "id": "regions-iberian-asturias-07-representative-depth",
+  "title": "Asturian Traditional Music — Representative Fusions and Scenes",
+  "track": "regions",
+  "tier": 7,
+  "region": "iberian-asturias",
+  "difficulty": 9,
+  "prerequisites": [
+    "regions-iberian-asturias-06-history"
+  ],
+  "tags": [
+    "iberian",
+    "asturias",
+    "iberian",
+    "representative",
+    "fusions"
+  ],
+  "path": "10-regions/iberian/asturias/07-representative-depth.md",
+  "sections": [
+    {
+      "id": "asturian-traditional-music-representative-fusions-and-scenes",
+      "title": "Asturian Traditional Music — Representative Fusions and Scenes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Iberian Folk | **Region:** iberian-asturias | **Tier:** 7\n**Prerequisites:** regions-iberian-asturias-06-history\n**Tags:** iberian, asturias, iberian, representative, fusions"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "festivals\n\nAsturian Traditional Music belongs to the **Iberian Folk** curriculum. Hevia\n\nThis lesson develops listening precision for **festivals** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-galicia",
+      "title": "Compared with Galicia",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Galician Traditional Music** (`regions-iberian-galicia-07-representative-depth`) covers the same lesson slot from the anchor perspective. This lesson stresses: **festivals**.\n\n| Topic | Galicia anchor | Asturian Traditional Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | festivals… | festivals… |\n\n**Parallel anchor lesson:** `regions-iberian-galicia-07-representative-depth`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-07-representative-depth`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "festivals\n\nStudy **asturian traditional music** through listening first. Wikipedia's article on [Music of Asturias](https://en.wikipedia.org/wiki/Music_of_Asturias) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Iberian Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **gaita, fiddle**. Ensemble layer: **percussion, band**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **asturian dance tunes**. Dance context: **regional dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Asturian revival**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Asturian repertoire**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- festivals\n- Lead instruments: gaita, fiddle\n- Ensemble: percussion, band\n- Forms: asturian dance tunes\n- Dance: regional dance\n- History: Asturian revival\n- Scenes: festivals\n- Repertoire: Asturian repertoire\n- Compared with Galicia: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Asturian Traditional Music is a living tradition with regional accent.\n- Focus: festivals.\n- Compared with Galicia: shared heritage, distinct emphasis.\n- Forms: asturian dance tunes.\n- Dance: regional dance.\n- Transmission: Asturian revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nA\ns\nt\nu\nr\ni\na\ns\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nA\ns\nt\nu\nr\ni\na\ns\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nG\na\nl\ni\nc\ni\na\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "hevia",
+      "type": "artist",
+      "name": "Hevia",
+      "summary": "Representative musician or ensemble in iberian-asturias trad",
+      "blurb": "Study Hevia for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Hevia",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "asturian-traditional-music",
+      "type": "band",
+      "name": "Asturian Traditional Music",
+      "summary": "Representative musician or ensemble in iberian-asturias trad",
+      "blurb": "Study Asturian Traditional Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Asturian_Traditional_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "hevia",
+    "asturian-traditional-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-iberian-asturias-07-representative-depth-pl1",
+      "entity_id": "hevia",
+      "label": "Hevia — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Hevia"
+    },
+    {
+      "id": "regions-iberian-asturias-07-representative-depth-pl2",
+      "entity_id": "asturian-traditional-music",
+      "label": "Asturian Traditional Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Asturian Traditional Music"
+    },
+    {
+      "id": "regions-iberian-asturias-07-representative-depth-pl3",
+      "label": "Asturian Traditional Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-iberian-asturias-07-representative-depth-pl4",
+      "label": "Asturian Traditional Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Asturian Traditional Music rewards comparative study.",
+    "Focus: festivals.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: asturian dance tunes.",
+    "Dance: regional dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Asturian Traditional Music is a living tradition with regional accent.",
+    "Compared with Galicia: shared heritage, distinct emphasis.",
+    "Transmission: Asturian revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Asturias",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Iberian Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "festivals",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Asturias",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) festivals\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) festivals\n\n### Q2. Asturian Traditional Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Galicia, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) gaita, fiddle\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) gaita, fiddle\n\n### Q5. Ensemble voices include:\n- A) percussion, band\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) percussion, band\n\n### Q6. Tune and song forms include:\n- A) asturian dance tunes\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) asturian dance tunes\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Asturian revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Asturian revival\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Asturian repertoire\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Asturian repertoire\n\n### Q12. The Compared with Galicia section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Asturian Traditional Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Galicia, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "gaita, fiddle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": false
+        }
+      ],
+      "explain": ") gaita, fiddle"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "percussion, band",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        }
+      ],
+      "explain": ") percussion, band"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "gaita, fiddle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "asturian dance tunes",
+          "correct": true
+        }
+      ],
+      "explain": ") asturian dance tunes"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "percussion, band",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "asturian dance tunes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "gaita, fiddle",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "asturian dance tunes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Asturian revival",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "gaita, fiddle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "percussion, band",
+          "correct": false
+        }
+      ],
+      "explain": ") Asturian revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "festivals",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "asturian dance tunes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Asturian revival",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Asturian repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Asturian repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Asturian revival",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Asturian repertoire",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Asturian revival",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") Asturian repertoire"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Galicia section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-iberian-asturias-07-representative-depth-quiz",
+    "title": "Asturian Traditional Music — Representative Fusions and Scenes quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Asturian Traditional Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Galicia, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "gaita, fiddle",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": false
+          }
+        ],
+        "explain": ") gaita, fiddle"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "percussion, band",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          }
+        ],
+        "explain": ") percussion, band"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "gaita, fiddle",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "asturian dance tunes",
+            "correct": true
+          }
+        ],
+        "explain": ") asturian dance tunes"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "percussion, band",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "asturian dance tunes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "gaita, fiddle",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "asturian dance tunes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Asturian revival",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "gaita, fiddle",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "percussion, band",
+            "correct": false
+          }
+        ],
+        "explain": ") Asturian revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "festivals",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "asturian dance tunes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Asturian revival",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Asturian repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Asturian repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Asturian revival",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Asturian repertoire",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Asturian revival",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") Asturian repertoire"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Galicia section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

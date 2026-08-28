@@ -38,7 +38,12 @@ export function clearLocalAbcCollectionIndexCache() {
   indexLoadPromise = null
 }
 
-export async function loadTextSearchIndexFromResource(existingIndex) {
+export function hasCachedTextSearchIndex() {
+  return !!(cachedTextSearchIndex && cachedTextSearchIndex.tokens
+    && Object.keys(cachedTextSearchIndex.tokens).length > 0)
+}
+
+export async function loadTextSearchIndexFromResource(existingIndex, options) {
   if (existingIndex && existingIndex.tokens && Object.keys(existingIndex.tokens).length > 0) {
     cachedTextSearchIndex = existingIndex
     return existingIndex
@@ -46,14 +51,22 @@ export async function loadTextSearchIndexFromResource(existingIndex) {
   if (cachedTextSearchIndex && cachedTextSearchIndex.tokens) {
     return cachedTextSearchIndex
   }
+  const opts = options || {}
+  // Prefer-chords / lyrics search must not block on a cold ~28MB index download.
+  if (opts.skipColdLoad && !hasCachedTextSearchIndex()) {
+    return cachedTextSearchIndex || {}
+  }
+  const timeoutMs = typeof opts.timeoutMs === 'number' ? opts.timeoutMs : 15000
   if (!indexLoadPromise) {
-    indexLoadPromise = axios.get(resourceUrl('textsearch_index.json'))
+    indexLoadPromise = axios.get(resourceUrl('textsearch_index.json'), {
+      timeout: timeoutMs,
+    })
       .then(function(response) {
         cachedTextSearchIndex = response.data || {}
         return cachedTextSearchIndex
       })
       .catch(function() {
-        cachedTextSearchIndex = {}
+        cachedTextSearchIndex = cachedTextSearchIndex || {}
         return cachedTextSearchIndex
       })
       .finally(function() {
@@ -151,8 +164,10 @@ export async function loadAbcTextsFromIndexIds(tuneIds, abcTools) {
     const base = getResourceBase() ? getResourceBase() + '/' : ''
     const url = base + filePath + fileNumber + extension
     promises.push(
-      axios.get(url).then(function(results) {
+      axios.get(url, { timeout: 8000 }).then(function(results) {
         return [tuneNumber, results]
+      }).catch(function() {
+        return [tuneNumber, { data: '' }]
       })
     )
   })
@@ -230,8 +245,10 @@ async function loadTunesFromIndexIds(tuneIds, abcTools) {
     const base = getResourceBase() ? getResourceBase() + '/' : ''
     const url = base + filePath + fileNumber + extension
     promises.push(
-      axios.get(url).then(function(results) {
+      axios.get(url, { timeout: 8000 }).then(function(results) {
         return [tuneNumber, results]
+      }).catch(function() {
+        return [tuneNumber, { data: '' }]
       })
     )
   })

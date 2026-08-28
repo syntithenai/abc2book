@@ -1,6 +1,7 @@
 import {
   ENHANCE_OPTION_GROUPS,
   createEmptyEnhanceSelection,
+  enhanceAccessBlock,
   enhanceGroupOptionIds,
   enhanceOptionUnavailableReason,
   filterEnhanceSelectionByAvailability,
@@ -100,6 +101,23 @@ describe('enhanceOptions', function() {
       resolverAvailable: true,
       features: {},
     })).toBe('Audio analysis is not available')
+  })
+
+  test('needsLogin blocks all enhance options with a clear reason', function() {
+    const context = {
+      resolverAvailable: true,
+      features: { practiceAnalysis: true, whisper: true },
+      needsLogin: true,
+      loginWarning: { message: 'Login to continue', showLoginButton: true },
+    }
+    expect(enhanceAccessBlock(context)).toEqual({
+      kind: 'login',
+      message: 'Login to continue',
+      showLoginButton: true,
+    })
+    expect(isEnhanceOptionAvailable('lookupLyrics', context)).toBe(false)
+    expect(isEnhanceOptionAvailable('artist', context)).toBe(false)
+    expect(enhanceOptionUnavailableReason('lookupLyrics', context)).toBe('Login to continue')
   })
 
   test('filterEnhanceSelectionByAvailability clears unavailable ticks', function() {

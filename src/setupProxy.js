@@ -1,3 +1,6 @@
+const path = require('path');
+const fs = require('fs');
+const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const CLOUD_RESOLVER_TARGET =
@@ -22,6 +25,7 @@ const RESOLVER_PATHS = new Set([
   '/lyrics-alliteration',
   '/search-chords',
   '/search-notation',
+  '/search-similar-melodies',
   '/research-tune-background',
   '/generate-feed-articles',
   '/generate-feed-quizzes',
@@ -39,6 +43,7 @@ const RESOLVER_PATHS = new Set([
   '/abc2xml',
   '/transcribe-sheet-image',
   '/extract-sheet-metadata',
+  '/split-sheet-page',
   '/search-images',
   '/search-bandcamp',
   '/search-internet-archive',
@@ -46,6 +51,23 @@ const RESOLVER_PATHS = new Set([
   '/search-loc-audio',
   '/textsearch_index.json',
 ]);
+
+// Prefer the local checkout over the resolver — MIDI samples must not hang when
+// localhost:8787 is down (failed loads are cached forever by abcjs).
+const LOCAL_STATIC_MOUNTS = [
+  {
+    urlPath: '/midi-js-soundfonts',
+    dir: path.join(__dirname, '..', 'midi-js-soundfonts'),
+  },
+  {
+    urlPath: '/scrape',
+    dir: path.join(__dirname, '..', 'scrape'),
+  },
+  {
+    urlPath: '/abcresources',
+    dir: path.join(__dirname, '..', 'abcresources'),
+  },
+];
 
 const STATIC_RESOURCE_PREFIXES = [
   '/scrape/',
@@ -64,7 +86,19 @@ function isMusicCollectionApiPath(pathname) {
   return false;
 }
 
+function isLocallyServedStaticPath(pathname) {
+  for (let i = 0; i < LOCAL_STATIC_MOUNTS.length; i += 1) {
+    const mount = LOCAL_STATIC_MOUNTS[i];
+    if (!fs.existsSync(mount.dir)) continue;
+    if (pathname === mount.urlPath || pathname.startsWith(mount.urlPath + '/')) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function shouldProxyResolver(pathname) {
+  if (isLocallyServedStaticPath(pathname)) return false;
   if (RESOLVER_PATHS.has(pathname)) return true;
   if (pathname.startsWith('/youtube/')) return true;
   if (pathname.startsWith('/bandcamp/')) return true;
@@ -87,6 +121,14 @@ function shouldProxyResolver(pathname) {
 }
 
 module.exports = function(app) {
+  LOCAL_STATIC_MOUNTS.forEach(function(mount) {
+    if (!fs.existsSync(mount.dir)) return;
+    app.use(mount.urlPath, express.static(mount.dir, {
+      // Missing files (e.g. full MusyngKite) fall through to the resolver proxy.
+      maxAge: '1d',
+    }));
+  });
+
   // Central billing ledger lives on Cloud Run; local resolver has BILLING_ENABLED=false.
   app.use(
     '/billing',

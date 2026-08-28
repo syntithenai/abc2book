@@ -1,0 +1,1 @@
+import{W as a}from"./index-CYwiAHEw.js";class n extends a{async load(){throw new Error("Native media player is only available in the Android app")}async play(){}async pause(){}async seekTo(){}async setPlaybackSpeed(){}async getState(){return{isPlaying:!1,positionMs:0,durationMs:0}}async stop(){}async openBatterySettings(){}}export{n as TunebookMediaWeb};

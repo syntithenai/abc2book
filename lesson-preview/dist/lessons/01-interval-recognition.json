@@ -1,0 +1,125 @@
+{
+  "id": "01-interval-recognition",
+  "title": "01 Interval Recognition",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "12-ear-training/01-interval-recognition.md",
+  "sections": [
+    {
+      "id": "interval-recognition",
+      "title": "Interval Recognition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** ear-training | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Hearing intervals accurately is the foundation of sight-singing, transcription, and harmonising by ear."
+        }
+      ]
+    },
+    {
+      "id": "consonant-intervals",
+      "title": "Consonant intervals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Unison, P4, P5, P8 — stable. Major and minor 3rds and 6ths — sweet. Learn these first."
+        }
+      ]
+    },
+    {
+      "id": "dissonant-intervals",
+      "title": "Dissonant intervals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "m2, M2, m7, M7, tritone — tense. Identify by tension level and melodic direction."
+        }
+      ]
+    },
+    {
+      "id": "reference-songs",
+      "title": "Reference songs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "M2 = *Happy Birthday* first two notes. m3 = *Greensleeves* start. M3 = *When the Saints*. P4 = *Here Comes the Bride*. P5 = *Star Wars* fanfare. M6 = *My Bonnie*. m7 = *Star Trek* opening (partial)."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Use apps (Functional Ear Trainer, Complete Ear Trainer). Sing intervals up and down from any note. Partner testing: one plays, one names."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-minor-third-interval-famous-from",
+      "title": "Q1. Minor third interval famous from:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Greensleeves opening\n- B) Star Wars fanfare\n- C) Here Comes the Bride\n- D) Happy Birthday first two notes\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-perfect-fifth-sounds-stable-and-open",
+      "title": "Q2. Perfect fifth sounds stable and open.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-tritone-spans",
+      "title": "Q3. Tritone spans:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) 6 semitones\n- B) 7 semitones\n- C) 5 semitones\n- D) 12 semitones\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Minor third interval famous from:\n\n- A) Greensleeves opening\n- B) Star Wars fanfare\n- C) Here Comes the Bride\n- D) Happy Birthday first two notes\n\n**Answer:** A\n\n### Q2. Perfect fifth sounds stable and open.\n\n**Answer:** True\n\n### Q3. Tritone spans:\n\n- A) 6 semitones\n- B) 7 semitones\n- C) 5 semitones\n- D) 12 semitones\n\n**Answer:** A"
+}

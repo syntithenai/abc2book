@@ -1224,10 +1224,17 @@ def _partition_discovered_candidates(candidates, manual_candidates):
 
 
 # Cap how many successful sheets we fetch/return in the picker.
-# UG search often finds 10–25 chord versions; keep them all choosable.
+# UG search often finds 10–25 chord versions; keep a small set choosable so
+# interactive Search finishes before the client budget (~40s) aborts.
 MAX_CHORD_SHEETS_PER_ARTIST = max(
     1,
-    int(os.getenv("MAX_CHORD_SHEETS_PER_ARTIST", "25")),
+    int(os.getenv("MAX_CHORD_SHEETS_PER_ARTIST", "5")),
+)
+# Stop after Stage 1 (Ultimate Guitar) once we have this many sheets — do not
+# burn the budget on e-chords / Brave when UG already succeeded.
+UG_EARLY_RETURN_MIN_SHEETS = max(
+    1,
+    int(os.getenv("UG_EARLY_RETURN_MIN_SHEETS", "1")),
 )
 
 
@@ -1333,9 +1340,35 @@ async def _search_chords_for_artist(client, title, artist, on_progress=None, man
         if item.get("url"):
             tried_urls.add(item["url"])
     ug_sheets = await _collect_successful_chord_sheets(
-        client, ug_candidates, title, artist, manual_candidates=manual_candidates
+        client,
+        ug_candidates,
+        title,
+        artist,
+        manual_candidates=manual_candidates,
+        # Fetch a few UG versions for the picker, not dozens — each page can take
+        # up to CHORDS_FETCH_TIMEOUT_SECONDS and was blowing the client budget.
+        limit=min(MAX_CHORD_SHEETS_PER_ARTIST, max(UG_EARLY_RETURN_MIN_SHEETS, 3)),
     )
     _absorb(ug_sheets)
+
+    # Prefer-chords / lyrics editor: return UG hits immediately. Continuing to
+    # Stages 2–3 (and fetching dozens of tab pages) is why the client timed out
+    # even when Ultimate Guitar already had the song.
+    if len(collected) >= UG_EARLY_RETURN_MIN_SHEETS:
+        await _emit_progress(
+            on_progress,
+            "search",
+            "Ultimate Guitar match found",
+            0.9,
+        )
+        if len(collected) == 1:
+            return collected[0]
+        return {
+            "multiple": True,
+            "candidates": [
+                _annotate_chord_candidate(item, title_only=False) for item in collected
+            ],
+        }
 
     # Stage 2: direct slug candidates (e-chords, cifraclub).
     await _emit_progress(

@@ -638,17 +638,21 @@ function App(props) {
   function scheduleTuneReindex(nextTunes) {
     if (!nextTunes) return
     if (indexes.reindexTunesAsync) {
-      indexes.reindexTunesAsync(nextTunes).catch(function(err) {
+      return indexes.reindexTunesAsync(nextTunes).catch(function(err) {
         console.warn('Tune reindex failed', err)
       })
-      return
     }
-    indexes.resetBookIndex()
-    indexes.resetTagIndex()
-    indexes.indexTunes(nextTunes)
+    // Atomic sync fallback — never reset-to-empty then indexTunes mid-flight.
+    if (indexes.reindexTunesSync) {
+      try {
+        indexes.reindexTunesSync(nextTunes)
+      } catch (err) {
+        console.warn('Tune reindex failed', err)
+      }
+    }
   }
 
-  // Heal wiped/empty book indexes so book filters stay usable.
+  // Heal empty or massively skewed book indexes so book filters stay usable.
   const emptyIndexRepairAttemptedRef = useRef(false)
   useEffect(function() {
     if (!tunesHydrated || !indexes.indexesReady) return
@@ -658,7 +662,15 @@ function App(props) {
     }
     if (emptyIndexRepairAttemptedRef.current) return
     emptyIndexRepairAttemptedRef.current = true
-    scheduleTuneReindex(tunes)
+    var repairPromise = indexes.reindexTunesAsync
+      ? indexes.reindexTunesAsync(tunes)
+      : Promise.resolve(indexes.reindexTunesSync ? indexes.reindexTunesSync(tunes) : null)
+    repairPromise.then(function() {
+      toast.info('Book indexes were out of date and were rebuilt.')
+    }).catch(function(err) {
+      console.warn('Tune reindex failed', err)
+      emptyIndexRepairAttemptedRef.current = false
+    })
   }, [tunesHydrated, indexes.indexesReady, tunes, indexes.bookIndex])
    
   function applySourceUrlMergeWithSelections(batch, recordState) {

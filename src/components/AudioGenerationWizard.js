@@ -1,19 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, Button, Form, ListGroup, Modal } from 'react-bootstrap';
 import {
-  buildPracticeTrackRequestPayload,
   buildTimingSongPlan,
-  refineTimingFromMelodyDuration,
-  timingPlanHasBlockingWarnings,
   timingPlanNeedsAcknowledgement,
 } from '../timingSongPlanExtractor';
-import { drumGuideOptionsFromTune } from '../practiceTrackDrumGuide';
-import { renderAbcToAudioBuffer } from '../notationAudioExport';
-import { encodeAudioBufferToWav } from '../encodeAudioBufferToWav';
 import {
   fetchAudioGenerationBackends,
-  startLinkedCoverGeneration,
-  startPracticeTrackGeneration,
 } from '../musicGenerationClient';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import useAbcjsParser from '../useAbcjsParser';
@@ -21,11 +13,9 @@ import { getAudioGenerationAccess, getPracticeTrackGenerateLabel } from '../audi
 import { useCreditAffordance } from '../useCreditAffordance';
 import { normalizeAccessToken, openCreditSettings } from '../resolverCreditAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
-import { extractChordsPerBar, renderChordLayerWav } from '../practiceTrackChordLayer';
 import {
   buildPracticeTrackMidiScore,
   downloadMidiScore,
-  midiScoreToBlob,
 } from '../practiceTrackMidiScore';
 import {
   DEFAULT_RENDER_STYLE,
@@ -39,14 +29,16 @@ import {
   TASK_PRACTICE_TRACK,
   audioGenerationUnavailableMessage,
   defaultPresetForTask,
-  formatAudioGenerationError,
   listAvailableQualityPresets,
   listQualityPresetOptions,
   presetLabel,
   taskLabel,
 } from '../audioGenerationPresets';
-import { enqueueAudioGenerationJob } from '../audioGenerationJobStore';
-import { defaultCoverStylePrompt } from '../audioGenerationActions';
+import {
+  defaultCoverStylePrompt,
+  startAudioGenerationFromWizard,
+  validateAudioGenerationWizard,
+} from '../audioGenerationActions';
 import { getLinkSrcType } from '../checkTuneLinkPlayback';
 import { getActiveResolverAccessToken } from '../mediaResolverHealthStore';
 
@@ -156,7 +148,6 @@ export default function AudioGenerationWizard(props) {
 
   const [showModal, setShowModal] = useState(false);
   const [activeStep, setActiveStep] = useState('task');
-  const [starting, setStarting] = useState(false);
   const [error, setError] = useState('');
   const [taskId, setTaskId] = useState(TASK_PRACTICE_TRACK);
   const [presetId, setPresetId] = useState(defaultPresetForTask(TASK_PRACTICE_TRACK));
@@ -223,7 +214,7 @@ export default function AudioGenerationWizard(props) {
   const stepIndex = steps.findIndex(function(step) { return step.key === activeStep; });
 
   useEffect(function() {
-    if (plan && plan.backingPrompt) {
+    if (plan && plan.backingPrompt && renderStyle === 'custom') {
       setBackingPrompt(plan.backingPrompt);
     }
     if (plan && taskId === TASK_LINKED_COVER) {
@@ -231,10 +222,15 @@ export default function AudioGenerationWizard(props) {
     }
     if (plan) {
       setIncludeChordLayer(false);
-      setRenderStyle(plan.renderStyle || DEFAULT_RENDER_STYLE);
-      setIncludeDrumGuide(!!plan.includeDrumGuide);
     }
-  }, [plan, taskId, tune]);
+  }, [plan, taskId, tune, renderStyle]);
+
+  // Seed drum-guide default from the selected style; do not overwrite user style choice.
+  useEffect(function() {
+    if (!plan) return undefined;
+    setIncludeDrumGuide(shouldIncludeDrumGuide(renderStyle, plan));
+    return undefined;
+  }, [renderStyle, plan]);
 
   useEffect(function() {
     setPresetId(defaultPresetForTask(taskId));
@@ -264,6 +260,8 @@ export default function AudioGenerationWizard(props) {
     setError('');
     setActiveStep('task');
     setAckBarEstimate(false);
+    setRenderStyle(DEFAULT_RENDER_STYLE);
+    setMelodySource('notation_midi');
     loadBackends();
   }, [loadBackends]);
 
@@ -272,11 +270,15 @@ export default function AudioGenerationWizard(props) {
     if (!isControlled) setShowModal(true);
   }, [resetWizard, isControlled]);
 
-  const closeModal = useCallback(function() {
-    if (starting) return;
+  const dismissWizard = useCallback(function() {
     setShowModal(false);
     if (typeof props.onHide === 'function') props.onHide();
-  }, [starting, props.onHide]);
+    if (typeof props.onGenerationStarted === 'function') props.onGenerationStarted();
+  }, [props.onHide, props.onGenerationStarted]);
+
+  const closeModal = useCallback(function() {
+    dismissWizard();
+  }, [dismissWizard]);
 
   const prevShowRef = useRef(false);
   useEffect(function() {
@@ -298,148 +300,69 @@ export default function AudioGenerationWizard(props) {
     if (prev) setActiveStep(prev.key);
   }, [steps, stepIndex]);
 
-  const getTuneContext = useCallback(function(tuneId) {
-    if (!tune || String(tune.id) !== String(tuneId)) return null;
+  const buildGenerationSpec = useCallback(function() {
+    const selectedPreset = presetOptions.find(function(item) { return item.id === presetId; })
+      || { id: presetId, label: presetLabel(presetId) };
+    const linkEntry = playableLinks.find(function(entry) { return entry.index === selectedLinkIndex; });
     return {
+      taskId: taskId,
       tune: tune,
       tunebook: tunebook,
+      token: token,
+      presetId: presetId,
+      presetLabel: selectedPreset.label || presetLabel(presetId),
       onTuneChange: onTuneChange,
       forceRefresh: forceRefresh,
+      plan: plan,
+      abc: abc,
+      melodySource: melodySource,
+      renderStyle: renderStyle,
+      backingPrompt: backingPrompt,
+      includeDrumGuide: includeDrumGuide,
+      ackBarEstimate: ackBarEstimate,
+      selectedLinkIndex: selectedLinkIndex,
+      linkEntry: linkEntry,
+      coverStylePrompt: coverStylePrompt,
+      coverLyrics: coverLyrics,
     };
-  }, [tune, tunebook, onTuneChange, forceRefresh]);
-
-  const startGeneration = useCallback(async function() {
-    if (taskId === TASK_PRACTICE_TRACK) {
-      if (!plan) {
-        setError('Could not build timing plan for this tune.');
-        return;
-      }
-      if (timingPlanHasBlockingWarnings(plan) && !window.confirm(
-        'This tune has notation structure errors. Generate anyway?'
-      )) {
-        return;
-      }
-      if (timingPlanNeedsAcknowledgement(plan) && !ackBarEstimate) {
-        setError('Timing is estimated from bar count. Check the acknowledgement box to continue.');
-        return;
-      }
-    } else if (selectedLinkIndex === null || selectedLinkIndex === undefined) {
-      setError('Select a linked recording.');
-      return;
-    } else if (!coverStylePrompt.trim()) {
-      setError('Enter a style prompt for the cover.');
-      return;
-    }
-
-    setStarting(true);
-    setError('');
-
-    try {
-      let resolverJobId;
-      const selectedPreset = presetOptions.find(function(item) { return item.id === presetId; })
-        || { id: presetId, label: presetLabel(presetId) };
-
-      if (taskId === TASK_PRACTICE_TRACK) {
-        const midiScore = buildPracticeTrackMidiScore(tune, tunebook, plan);
-        const melodyAbc = melodySource === 'notation_midi' ? midiScore.abc : abc;
-        const buffer = await renderAbcToAudioBuffer(melodyAbc, {
-          chordsOff: melodySource !== 'notation_midi',
-          tune: tune,
-        });
-        const melody = encodeAudioBufferToWav(buffer);
-        const activePlan = refineTimingFromMelodyDuration(plan, buffer.duration);
-
-        let chords = null;
-        const chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
-        if (chordsPerBar.length) {
-          chords = await renderChordLayerWav(tune, chordsPerBar);
-        }
-
-        const payload = buildPracticeTrackRequestPayload(activePlan, drumGuideOptionsFromTune(tune, activePlan, {
-          backingPrompt: renderStyle === 'custom' ? backingPrompt : undefined,
-          renderStyle: renderStyle,
-          melodySource: melodySource,
-          includeChordLayer: false,
-          includeDrumGuide: includeDrumGuide && shouldIncludeDrumGuide(renderStyle, activePlan),
-          guideAudioConditioning: true,
-          includeStyleMelodyStem: false,
-          acknowledgeBarEstimate: activePlan.timing.source !== 'bar-estimate',
-          presetId: presetId,
-        }));
-        const started = await startPracticeTrackGeneration(payload, melody, {
-          token: token,
-          presetId: presetId,
-          chordsBlob: chords,
-          scoreBlob: midiScoreToBlob(midiScore.midiBytes),
-        });
-        resolverJobId = started.jobId;
-      } else {
-        const link = playableLinks.find(function(entry) { return entry.index === selectedLinkIndex; });
-        if (!link) throw new Error('Selected link is no longer available');
-        const requestPayload = {
-          taskId: TASK_LINKED_COVER,
-          presetId: presetId,
-          sourceUrl: link.link.link,
-          sourceType: link.srcType,
-          stylePrompt: coverStylePrompt.trim(),
-          lyrics: coverLyrics.trim(),
-          title: link.link.title || tune.name || '',
-          startAt: link.srcType === 'midifile' ? 0 : (parseFloat(link.link.startAt) || 0),
-          endAt: link.srcType === 'midifile' ? 0 : (parseFloat(link.link.endAt) || 0),
-        };
-        const started = await startLinkedCoverGeneration(requestPayload, {
-          token: token,
-          presetId: presetId,
-        });
-        resolverJobId = started.jobId;
-      }
-
-      enqueueAudioGenerationJob({
-        tuneId: tune.id,
-        tuneName: tune.name || '',
-        taskId: taskId,
-        presetId: presetId,
-        presetLabel: selectedPreset.label || presetLabel(presetId),
-        resolverJobId: resolverJobId,
-        accessToken: token,
-        tune: tune,
-        tunebook: tunebook,
-        onTuneChange: onTuneChange,
-        forceRefresh: forceRefresh,
-        getTuneContext: getTuneContext,
-      });
-
-      setShowModal(false);
-      if (typeof props.onHide === 'function') props.onHide();
-    } catch (err) {
-      setError(formatAudioGenerationError(err && err.message ? err.message : 'Could not start audio generation.'));
-    } finally {
-      setStarting(false);
-    }
   }, [
     taskId,
-    plan,
-    ackBarEstimate,
-    selectedLinkIndex,
-    coverStylePrompt,
-    coverLyrics,
+    tune,
+    tunebook,
+    token,
     presetId,
     presetOptions,
+    onTuneChange,
+    forceRefresh,
+    plan,
+    abc,
     melodySource,
     renderStyle,
     backingPrompt,
-    includeChordLayer,
     includeDrumGuide,
-    tune,
-    tunebook,
-    abc,
-    abcjsParser,
-    token,
-    onTuneChange,
-    getTuneContext,
+    ackBarEstimate,
+    selectedLinkIndex,
     playableLinks,
-    props.onHide,
+    coverStylePrompt,
+    coverLyrics,
   ]);
+
+  const startGeneration = useCallback(function() {
+    const spec = buildGenerationSpec();
+    const validationError = validateAudioGenerationWizard(spec);
+    if (validationError === null) {
+      return;
+    }
+    if (validationError) {
+      setError(validationError);
+      return;
+    }
+    setError('');
+    dismissWizard();
+    startAudioGenerationFromWizard(spec).catch(function() {
+      // Errors are surfaced via toast in startAudioGenerationFromWizard.
+    });
+  }, [buildGenerationSpec, dismissWizard]);
 
   useEffect(function() {
     if (!pendingGenerate) return undefined;
@@ -531,7 +454,6 @@ export default function AudioGenerationWizard(props) {
                   variant={taskId === option.id ? 'primary' : 'outline-primary'}
                   className="text-start"
                   onClick={function() { setTaskId(option.id); }}
-                  disabled={starting}
                 >
                   <strong>{option.label}</strong>
                   <div className="small">{option.description}</div>
@@ -582,7 +504,6 @@ export default function AudioGenerationWizard(props) {
                 rows={3}
                 value={coverStylePrompt}
                 onChange={function(e) { setCoverStylePrompt(e.target.value); }}
-                disabled={starting}
                 placeholder="e.g. upbeat jazz trio with brushed drums"
               />
             </Form.Group>
@@ -593,7 +514,6 @@ export default function AudioGenerationWizard(props) {
                 rows={2}
                 value={coverLyrics}
                 onChange={function(e) { setCoverLyrics(e.target.value); }}
-                disabled={starting}
               />
             </Form.Group>
           </>
@@ -631,7 +551,6 @@ export default function AudioGenerationWizard(props) {
               label="I understand timing is estimated from bar count (abcjs render unavailable)."
               checked={ackBarEstimate}
               onChange={function(e) { setAckBarEstimate(e.target.checked); }}
-              disabled={starting}
             />
           )}
           <Form.Group className="mb-3">
@@ -639,7 +558,6 @@ export default function AudioGenerationWizard(props) {
             <Form.Select
               value={renderStyle}
               onChange={function(e) { setRenderStyle(e.target.value); }}
-              disabled={starting}
             >
               {styleOptions.map(function(option) {
                 return (
@@ -656,7 +574,6 @@ export default function AudioGenerationWizard(props) {
             <Form.Select
               value={melodySource}
               onChange={function(e) { setMelodySource(e.target.value); }}
-              disabled={starting}
             >
               <option value="notation_midi">Notation MIDI (default)</option>
               <option value="soundfont">Legacy soundfont (melody only)</option>
@@ -668,7 +585,7 @@ export default function AudioGenerationWizard(props) {
             label="Use MIDI drums only as a quiet AI timing guide (not mixed into the track)"
             checked={includeDrumGuide}
             onChange={function(e) { setIncludeDrumGuide(e.target.checked); }}
-            disabled={starting || /waltz|air|hymn|ballad/i.test(String((plan && plan.musical && plan.musical.rhythm) || ''))}
+            disabled={/waltz|air|hymn|ballad/i.test(String((plan && plan.musical && plan.musical.rhythm) || ''))}
           />
           {renderStyle === 'custom' && (
             <Form.Group className="mb-3">
@@ -678,14 +595,12 @@ export default function AudioGenerationWizard(props) {
                 rows={3}
                 value={backingPrompt}
                 onChange={function(e) { setBackingPrompt(e.target.value); }}
-                disabled={starting}
               />
             </Form.Group>
           )}
           <Button
             variant="outline-secondary"
             size="sm"
-            disabled={starting}
             onClick={handleDownloadScore}
           >
             Download score.mid
@@ -697,7 +612,11 @@ export default function AudioGenerationWizard(props) {
     if (activeStep === 'quality') {
       return (
         <>
-          <p className="text-muted">Choose quality vs speed. Fast is selected by default.</p>
+          <p className="text-muted">
+            Balanced is recommended for listening quality. For tunes longer than about 45s,
+            High (more steps) often holds accompaniment better through the second half.
+            Fast is a quick draft while iterating.
+          </p>
           {providerUnavailableMessage ? (
             <Alert variant="warning">{providerUnavailableMessage}</Alert>
           ) : null}
@@ -709,7 +628,7 @@ export default function AudioGenerationWizard(props) {
                   key={preset.id}
                   variant={presetId === preset.id ? 'primary' : 'outline-primary'}
                   className="text-start"
-                  disabled={starting || unavailable}
+                  disabled={unavailable}
                   onClick={function() { setPresetId(preset.id); }}
                 >
                   <strong>{preset.label || presetLabel(preset.id)}</strong>
@@ -779,7 +698,7 @@ export default function AudioGenerationWizard(props) {
       )}
 
       <Modal show={modalVisible} onHide={closeModal} size="lg">
-        <Modal.Header closeButton={!starting}>
+        <Modal.Header closeButton>
           <Modal.Title>Generate audio</Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -790,7 +709,7 @@ export default function AudioGenerationWizard(props) {
                   key={step.key}
                   size="sm"
                   variant={step.key === activeStep ? 'primary' : 'outline-secondary'}
-                  disabled={index > stepIndex + 1 || starting}
+                  disabled={index > stepIndex + 1}
                   onClick={function() { setActiveStep(step.key); }}
                 >
                   {index + 1}. {step.title}
@@ -802,28 +721,28 @@ export default function AudioGenerationWizard(props) {
           {error ? <Alert variant="danger" className="mt-3">{error}</Alert> : null}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" disabled={starting} onClick={closeModal}>
-            Cancel
+          <Button variant="secondary" onClick={closeModal}>
+            Close
           </Button>
           {stepIndex > 0 ? (
-            <Button variant="outline-secondary" disabled={starting} onClick={goBack}>
+            <Button variant="outline-secondary" onClick={goBack}>
               Back
             </Button>
           ) : null}
           {!onLastStep ? (
-            <Button variant="primary" disabled={starting || !canAdvanceFromStep()} onClick={goNext}>
+            <Button variant="primary" disabled={!canAdvanceFromStep()} onClick={goNext}>
               Next
             </Button>
           ) : (
             <Button
               variant="primary"
-              disabled={starting || !canAdvanceFromStep()}
+              disabled={!canAdvanceFromStep()}
               onClick={handleGenerateClick}
               title={access.loginWarning && (access.needsLogin || access.needsCredit)
                 ? access.loginWarning.message
                 : ''}
             >
-              {starting ? 'Starting…' : getPracticeTrackGenerateLabel(access, { busy: starting })}
+              {getPracticeTrackGenerateLabel(access, { busy: false })}
             </Button>
           )}
         </Modal.Footer>

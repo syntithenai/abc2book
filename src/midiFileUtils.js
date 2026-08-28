@@ -58,7 +58,10 @@ export function createMidiFileEndHandler(options) {
       return
     }
     try {
-      if (player && typeof player.skipToSeconds === 'function') player.skipToSeconds(0)
+      if (player && typeof player.isPlaying === 'function' && player.isPlaying()
+          && typeof player.pause === 'function') {
+        player.pause()
+      }
     } catch (e) { /* ignore */ }
     if (typeof opts.onEnded === 'function') opts.onEnded()
   }

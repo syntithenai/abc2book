@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import {
@@ -58,6 +58,42 @@ export default function NowPlayingTransportBar({
     nowPlayingQueue.items[nowPlayingQueue.currentIndex || 0]
   )
   const [lessonYoutubePlaying, setLessonYoutubePlaying] = useState(isLessonYoutubePlaying)
+  const barRef = useRef(null)
+
+  useEffect(function() {
+    if (typeof document === 'undefined') return undefined
+    if (!showBar) {
+      document.documentElement.style.removeProperty('--app-playlist-transport-height')
+      document.documentElement.style.removeProperty('--app-playlist-transport-offset')
+      return undefined
+    }
+    const el = barRef.current
+    if (!el) return undefined
+
+    function publishTransportHeight() {
+      const rect = el.getBoundingClientRect()
+      const height = Math.ceil(rect.height || el.offsetHeight || 0)
+      if (!(height > 0)) return
+      const px = height + 'px'
+      document.documentElement.style.setProperty('--app-playlist-transport-height', px)
+      // Keep scroll padding and fit-height budgets aligned with the real bar.
+      document.documentElement.style.setProperty('--app-playlist-transport-offset', px)
+    }
+
+    publishTransportHeight()
+    let observer = null
+    if (typeof ResizeObserver !== 'undefined') {
+      observer = new ResizeObserver(publishTransportHeight)
+      observer.observe(el)
+    }
+    window.addEventListener('resize', publishTransportHeight)
+    return function() {
+      if (observer) observer.disconnect()
+      window.removeEventListener('resize', publishTransportHeight)
+      document.documentElement.style.removeProperty('--app-playlist-transport-height')
+      document.documentElement.style.removeProperty('--app-playlist-transport-offset')
+    }
+  }, [showBar, creditWarning, isFullscreen])
 
   useEffect(function() {
     if (!showBar) return undefined
@@ -332,6 +368,7 @@ export default function NowPlayingTransportBar({
 
   return (
     <div
+      ref={barRef}
       className={'now-playing-transport-bar' + (isFullscreen ? ' now-playing-transport-bar--fullscreen' : '')}
       role="toolbar"
       aria-label="Now playing transport"

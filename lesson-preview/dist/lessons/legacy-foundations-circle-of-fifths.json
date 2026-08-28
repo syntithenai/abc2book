@@ -1,0 +1,245 @@
+{
+  "id": "legacy-foundations-circle-of-fifths",
+  "title": "The Circle of Fifths and Key Signatures",
+  "track": "foundations",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "foundations",
+    "legacy"
+  ],
+  "path": "01-foundations/07-circle-of-fifths.md",
+  "sections": [
+    {
+      "id": "the-circle-of-fifths-and-key-signatures",
+      "title": "The Circle of Fifths and Key Signatures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 3/10 | **Time:** ~12 min\n**Prerequisites:** Major Scales, Accidentals\n**Tags:** keys, circle-of-fifths, signatures"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The circle of fifths arranges all 12 major and 12 minor keys in a clock face. Clockwise motion adds sharps; counter-clockwise adds flats. Keys a fifth apart share six of seven scale tones — the smoothest modulations travel by fifths."
+        }
+      ]
+    },
+    {
+      "id": "sharp-keys",
+      "title": "Sharp keys",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "C (0) → G (1♯) → D (2♯) → A (3♯) → E (4♯) → B (5♯) → F♯/G♭ (6♯/6♭). Order of sharps: **F♯ C♯ G♯ D♯ A♯ E♯ B♯** — mnemonic: *Father Charles Goes Down And Ends Battle*. Last sharp + semitone up = major key."
+        }
+      ]
+    },
+    {
+      "id": "flat-keys",
+      "title": "Flat keys",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "C → F (1♭) → B♭ (2♭) → E♭ (3♭) → A♭ (4♭) → D♭ (5♭) → G♭ (6♭). Order of flats reverses sharps: **B♭ E♭ A♭ D♭ G♭ C♭ F♭** — *Battle Ends And Down Goes Charles' Father*. Second-to-last flat names the major key."
+        }
+      ]
+    },
+    {
+      "id": "relative-minors",
+      "title": "Relative minors",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Each major key's relative minor shares its key signature, found a minor third below: A minor ↔ C major, E minor ↔ G major, B minor ↔ D major."
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "In practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "G, D, A, E dominate sharp-side trad repertoire. B♭ and F appear on flute and box. Map tunes onto the circle to predict friendly modulations and prepare accidentals before the downbeat."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Order of sharps in key signatures:\n\n- A) F♯ C♯ G♯ D♯ A♯ E♯ B♯\n- B) G♯ D♯ A♯ E♯ B♯ F♯ C♯\n- C) C♯ G♯ D♯ A♯ E♯ B♯ F♯\n- D) F♯ G♯ A♯ B♯ C♯ D♯ E♯\n\n**Answer:** A\n\n### Q2. How many sharps in D major?\n\n- A) 2 (F♯ and C♯)\n- B) 1\n- C) 3\n- D) None\n\n**Answer:** A\n\n### Q3. E minor is the relative minor of G major.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Order of sharps in key signatures:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "F♯ C♯ G♯ D♯ A♯ E♯ B♯",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: F♯ C♯ G♯ D♯ A♯ E♯ B♯"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "How many sharps in D major?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "2 (F♯ and C♯)",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Brendan Breathnach",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: 2 (F♯ and C♯)"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "E minor is the relative minor of G major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-foundations-circle-of-fifths-quiz",
+    "title": "The Circle of Fifths and Key Signatures quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Order of sharps in key signatures:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "F♯ C♯ G♯ D♯ A♯ E♯ B♯",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: F♯ C♯ G♯ D♯ A♯ E♯ B♯"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "How many sharps in D major?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "2 (F♯ and C♯)",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Brendan Breathnach",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 2 (F♯ and C♯)"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "E minor is the relative minor of G major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

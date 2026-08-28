@@ -2,6 +2,9 @@ import { useRef, useState } from 'react'
 import { Alert, ButtonGroup } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import useAbcjsParser from '../useAbcjsParser'
+import { useFieldLookupResolverAccess } from '../fieldLookupResolverAccess'
+import { resolveResolverAccessToken } from '../resolverAccessToken'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
 import { useFieldLookupSearchJob, buildFieldLookupTargetKey } from '../useFieldLookupSearchJob'
 import {
   applyFieldLookupChoice,
@@ -80,6 +83,11 @@ export default function LyricsSearchButton({
   const preferChords = typeof onChords === 'function'
   const narrow = useIsNarrowViewport()
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
+  const accessToken = resolveResolverAccessToken(token) || getActiveResolverAccessToken() || ''
+  const resolverAccess = useFieldLookupResolverAccess(accessToken)
+  // Hide Search only when logged out / offline. Do not require resolver health —
+  // a temporary "unavailable" probe was hiding Search for logged-in users.
+  const automaticLookup = !resolverAccess.needsLogin && !resolverAccess.needsNetwork
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
@@ -261,14 +269,18 @@ export default function LyricsSearchButton({
         return
       }
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
-      if (job.status === 'done' || job.appliedCandidate) {
+      if (job.appliedCandidate) {
         // Background enhance may auto-apply; mirror into the editor. Live search
         // leaves jobs awaiting so the picker runs instead.
-        if (job.appliedCandidate) {
-          finishChordApply(job.appliedCandidate, null)
-        }
+        finishChordApply(job.appliedCandidate, null)
         return
       }
+      // Quiet empty / soft miss from the queue — continue to plain lyrics.
+      if (job.status === 'done' && (job.notifyEmpty || candidates.length === 0)) {
+        chordsMissedQuietly(job)
+        return
+      }
+      if (job.status === 'done') return
       if (candidates.length === 0) {
         chordsMissedQuietly(job)
         return
@@ -337,7 +349,7 @@ export default function LyricsSearchButton({
   }
 
   function runSearch(mode) {
-    if (!canSearch) return
+    if (!canSearch || !automaticLookup) return
     if (busy) {
       lookup.cancel()
       if (preferChords) chordsLookup.cancel()
@@ -363,9 +375,14 @@ export default function LyricsSearchButton({
       title: title,
       artist: artist || '',
       tuneName: title,
-      accessToken: token,
+      accessToken: accessToken,
       options: buildSearchModeOptions(searchMode),
-      searchOptions: searchOptions,
+      searchOptions: Object.assign({}, searchOptions, {
+        skipColdIndexLoad: true,
+        // After chords miss (or for plain lyrics), prefer lrclib/ovh — do not
+        // hang on a second resolver scrape.
+        forceLightweight: true,
+      }),
     }
     if (preferChords) {
       cancelPriorLookupJobs()
@@ -374,9 +391,17 @@ export default function LyricsSearchButton({
         title: title,
         artist: artist || '',
         tuneName: title,
-        accessToken: token,
+        accessToken: accessToken,
         options: buildSearchModeOptions(searchMode, { updateLyrics: true }),
         searchOptions: Object.assign({}, searchOptions, {
+          // Ultimate Guitar first via resolver; never block on local ABC index.
+          preferRemoteChords: true,
+          skipLocalChords: true,
+          skipColdIndexLoad: true,
+          resolverAvailable: resolverAvailable,
+          forceResolver: !!accessToken || resolverAvailable !== false,
+          // Generous UG budget — prefer chords+words over a fast lyrics-only miss.
+          resolverTimeoutMs: 90000,
           renderChords: function(abc) {
             return abcjsParser.renderChords(abc, true)
           },
@@ -434,29 +459,31 @@ export default function LyricsSearchButton({
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <ButtonGroup className="lyrics-search-button-group">
           <FieldLookupButtonGroup
-            automaticLookup={true}
+            automaticLookup={automaticLookup}
             showExternal={!!(googleUrl && externalLinkIcon)}
             busy={busy}
             disabled={!canSearch || disabled}
             externalUrl={googleUrl}
             externalLinkIcon={externalLinkIcon}
             narrow={narrow}
-            onSearch={requestSearch}
+            onSearch={automaticLookup ? requestSearch : undefined}
             buttonStyle={buttonStyle}
             searchIcon={searchIcon}
             inline={inline}
             progress={progressPercent}
-            resultsCaret={resultsCaret}
+            resultsCaret={automaticLookup ? resultsCaret : null}
           />
         </ButtonGroup>
-        <SearchProgressBar
-          visible={busy}
-          percent={progressPercent}
-          message={progressMessage}
-          defaultMessage={searchingChords
-            ? 'Searching for chords and lyrics...'
-            : 'Searching for lyrics...'}
-        />
+        {automaticLookup ? (
+          <SearchProgressBar
+            visible={busy}
+            percent={progressPercent}
+            message={progressMessage}
+            defaultMessage={searchingChords
+              ? 'Searching for chords and lyrics...'
+              : 'Searching for lyrics...'}
+          />
+        ) : null}
       </div>
     ),
     suggestionsDropdown: null,

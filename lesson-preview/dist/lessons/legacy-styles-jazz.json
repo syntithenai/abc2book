@@ -1,0 +1,178 @@
+{
+  "id": "legacy-styles-jazz",
+  "title": "Jazz Basics",
+  "track": "styles",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "styles",
+    "legacy"
+  ],
+  "path": "07-styles/06-jazz.md",
+  "sections": [
+    {
+      "id": "jazz-basics-swing-standards-and-changes",
+      "title": "Jazz Basics: Swing, Standards, and Changes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Jazz centres on swing feel, improvisation, and chord-progression literacy — grown from blues, ragtime, and brass band traditions."
+        }
+      ]
+    },
+    {
+      "id": "lead-sheets",
+      "title": "Lead sheets",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody + chord symbols; arrangement and soloing improvised. Standards (*Autumn Leaves*, *All the Things You Are*) shared like session tune titles."
+        }
+      ]
+    },
+    {
+      "id": "harmony",
+      "title": "Harmony",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "ii–V–I, tritone substitutions, turnarounds everywhere. Rhythm section: walking bass, offbeat comping, ride cymbal swing."
+        }
+      ]
+    },
+    {
+      "id": "folk-crossover",
+      "title": "Folk crossover",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Jazz voicings on song accompaniment; improvised choruses between tune repeats. Outline roots on strong beats first."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Jazz lead sheet provides:\n\n- A) Melody and chord symbols\n- B) Full orchestral score only\n- C) Lyrics only\n- D) Tab without chords\n\n**Answer:** A\n\n### Q2. ii–V–I creates strong motion to tonic.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Jazz lead sheet provides:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Melody and chord symbols",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Melody and chord symbols"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "ii–V–I creates strong motion to tonic.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-styles-jazz-quiz",
+    "title": "Jazz Basics quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Jazz lead sheet provides:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Melody and chord symbols",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Melody and chord symbols"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "ii–V–I creates strong motion to tonic.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

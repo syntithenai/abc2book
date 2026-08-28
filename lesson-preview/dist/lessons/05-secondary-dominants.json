@@ -1,0 +1,103 @@
+{
+  "id": "05-secondary-dominants",
+  "title": "05 Secondary Dominants",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "05-harmony/05-secondary-dominants.md",
+  "sections": [
+    {
+      "id": "secondary-dominants-and-tonicisation",
+      "title": "Secondary Dominants and Tonicisation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 7/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Secondary dominants temporarily treat a non-tonic chord as a local key centre."
+        }
+      ]
+    },
+    {
+      "id": "labelling",
+      "title": "Labelling",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A7 in C major = V7/vi (resolves to Dm). D7 = V7/V (resolves to G). Accidentals foreign to home key signature signal their presence."
+        }
+      ]
+    },
+    {
+      "id": "in-repertoire",
+      "title": "In repertoire",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "O'Carolan arrangements, ragtime hornpipes, contemporary folk songwriting. V7/vi→vi brightens briefly before returning to I."
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Sudden sharpened note outside key for one bar? Suspect secondary dominant or modal mixture."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-v7vi-in-c-major",
+      "title": "Q1. V7/vi in C major:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) A7\n- B) E7\n- C) G7\n- D) F7\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-secondary-dominants-introduce-foreign-accidentals",
+      "title": "Q2. Secondary dominants introduce foreign accidentals.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. V7/vi in C major:\n\n- A) A7\n- B) E7\n- C) G7\n- D) F7\n\n**Answer:** A\n\n### Q2. Secondary dominants introduce foreign accidentals.\n\n**Answer:** True"
+}

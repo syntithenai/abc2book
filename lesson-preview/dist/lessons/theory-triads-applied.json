@@ -1,0 +1,510 @@
+{
+  "id": "theory-triads-applied",
+  "title": "Triads — Applied",
+  "track": "theory",
+  "tier": "applied",
+  "region": null,
+  "difficulty": 4,
+  "prerequisites": [
+    "theory-triads-intro"
+  ],
+  "tags": [
+    "triads",
+    "inversions",
+    "voice-leading"
+  ],
+  "path": "00-theory/03-chords/01-triads-applied.md",
+  "sections": [
+    {
+      "id": "triads-applied",
+      "title": "Triads — Applied",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** applied | **Difficulty:** 4/10\n**Prerequisites:** Triads — Introduction\n**Tags:** triads, inversions, voice-leading"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Triad **inversions** change bass note while keeping the same pitch classes. Voice-leading connects chords smoothly."
+        }
+      ]
+    },
+    {
+      "id": "inversions",
+      "title": "Inversions",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Root position**: root in bass (C-E-G)\n- **First inversion**: third in bass (E-G-C)\n- **Second inversion**: fifth in bass (G-C-E)\n\nFigured bass: 5/3, 6, 6/4 — advanced tier in figured-bass lesson."
+        }
+      ]
+    },
+    {
+      "id": "voice-leading-basics",
+      "title": "Voice-leading basics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Move voices by step when possible. Avoid parallel perfect fifths and octaves in strict counterpoint; in folk accompaniment, practicality often wins."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. First inversion has the third in the bass.\n\n**Answer:** True\n\n### Q2. Second inversion has the fifth in the bass.\n\n**Answer:** True\n\n### Q3. Root position is most stable.\n\n**Answer:** True\n\n### Q4. Inversions change harmonic function labels in strict theory.\n\n**Answer:** True\n\n### Q5. Voice-leading prefers stepwise motion.\n\n**Answer:** True\n\n### Q6. I–V–I uses root-position triads commonly.\n\n**Answer:** True\n\n### Q7. First inversion smooths bass lines.\n\n**Answer:** True\n\n### Q8. Applied triads support session backup.\n\n**Answer:** True\n\n### Q9. Doubling the third in first inversion is common.\n\n**Answer:** True\n\n### Q10. Cadences use specific inversion patterns.\n\n**Answer:** True\n\n### Q11. Parallel fifths are avoided in strict voice-leading.\n\n**Answer:** True\n\n### Q12. Triad inversions share the same three notes.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "First inversion has the third in the bass.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Second inversion has the fifth in the bass.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Root position is most stable.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Inversions change harmonic function labels in strict theory.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Voice-leading prefers stepwise motion.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "I–V–I uses root-position triads commonly.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "First inversion smooths bass lines.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Applied triads support session backup.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Doubling the third in first inversion is common.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Cadences use specific inversion patterns.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Parallel fifths are avoided in strict voice-leading.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Triad inversions share the same three notes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-triads-applied-quiz",
+    "title": "Triads — Applied quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "truefalse",
+        "prompt": "First inversion has the third in the bass.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Second inversion has the fifth in the bass.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Root position is most stable.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Inversions change harmonic function labels in strict theory.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Voice-leading prefers stepwise motion.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "I–V–I uses root-position triads commonly.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "First inversion smooths bass lines.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Applied triads support session backup.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Doubling the third in first inversion is common.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Cadences use specific inversion patterns.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Parallel fifths are avoided in strict voice-leading.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Triad inversions share the same three notes.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

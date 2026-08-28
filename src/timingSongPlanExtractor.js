@@ -8,7 +8,7 @@ import { beatsPerBarFromMeter } from './notation/beatGrid';
 import { parseTempoBpm } from './tempoRange';
 import { extractAbcjsTiming } from './abcjsTimingExtract';
 import { loopDurationSecFromPlan } from './backingPromptBuilder';
-import { attachChordsToStrains, extractChordsPerBar } from './practiceTrackChordLayer';
+import { attachChordsToStrains, expandChordsPerBarForPlan, extractChordsPerBar } from './practiceTrackChordLayer';
 import { buildDrumGuideConfig } from './practiceTrackDrumGuide';
 import {
   buildStyleBackingPrompt,
@@ -204,8 +204,9 @@ export function buildTimingSongPlan(tune, abc, options) {
   const noteLines = getNoteLines(tune);
   const barCount = totalMelodyBarCount(noteLines);
   let strains = buildStrains(noteLines, tune);
+  let chordsPerBar = [];
   if (abcjsParser) {
-    const chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
+    chordsPerBar = extractChordsPerBar(tune, tunebook, abcjsParser);
     if (chordsPerBar.length) {
       strains = attachChordsToStrains(strains, chordsPerBar);
     }
@@ -292,6 +293,8 @@ export function buildTimingSongPlan(tune, abc, options) {
     includeChordLayer: false,
     includeNotationStem: false,
     loopDurationSec: 0,
+    chordsPerBar: chordsPerBar,
+    guideHarmonySource: chordsPerBar.length ? 'chord_chart' : 'abcjs',
   };
 
   const stylePreset = getStylePreset(DEFAULT_RENDER_STYLE);
@@ -305,7 +308,9 @@ export function buildTimingSongPlan(tune, abc, options) {
   plan.includeDrumGuide = shouldIncludeDrumGuide(DEFAULT_RENDER_STYLE, plan);
   plan.backingPrompt = buildStyleBackingPrompt(plan, DEFAULT_RENDER_STYLE, { guideConditioning: true });
   plan.backingNegativePrompt = buildStyleNegativePrompt(DEFAULT_RENDER_STYLE, { guideConditioning: true });
-  plan.initNoiseLevel = 0.35;
+  plan.initNoiseLevel = stylePreset.initNoiseLevel != null
+    ? stylePreset.initNoiseLevel
+    : 0.22;
   plan.guideEngine = 'stable_audio';
   plan.arrangementGainDb = 0;
   plan.drumGuide = plan.includeDrumGuide
@@ -440,10 +445,21 @@ export function buildPracticeTrackRequestPayload(plan, overrides) {
   const backingPrompt = styleId === 'custom'
     ? customPrompt
     : buildStyleBackingPrompt(plan, styleId, { customPrompt: customPrompt, guideConditioning: guideOn });
+  const stylePreset = getStylePreset(styleId);
+  const styleInitNoise = stylePreset.initNoiseLevel != null
+    ? parseFloat(stylePreset.initNoiseLevel)
+    : NaN;
+  // Style preset noise wins over plan defaults (plan is built for trad_session).
   const initNoiseLevel = o.initNoiseLevel != null
     ? parseFloat(o.initNoiseLevel)
-    : (plan.initNoiseLevel != null ? parseFloat(plan.initNoiseLevel) : 0.35);
+    : (Number.isFinite(styleInitNoise)
+      ? styleInitNoise
+      : (plan.initNoiseLevel != null ? parseFloat(plan.initNoiseLevel) : 0.22));
   const guideEngine = o.guideEngine || plan.guideEngine || 'stable_audio';
+  const expandedChords = expandChordsPerBarForPlan(plan);
+  const guideHarmonySource = o.guideHarmonySource != null
+    ? o.guideHarmonySource
+    : (expandedChords.length ? 'chord_chart' : (plan.guideHarmonySource || 'abcjs'));
   return {
     title: plan.title,
     musical: plan.musical,
@@ -479,7 +495,9 @@ export function buildPracticeTrackRequestPayload(plan, overrides) {
     includeDrumGuide: includeDrumGuide,
     drumGuide: drumGuide,
     guideAudioConditioning: guideOn,
-    initNoiseLevel: Number.isFinite(initNoiseLevel) ? initNoiseLevel : 0.35,
+    initNoiseLevel: Number.isFinite(initNoiseLevel) ? initNoiseLevel : 0.22,
     guideEngine: guideEngine,
+    chordsPerBar: expandedChords,
+    guideHarmonySource: guideHarmonySource,
   };
 }

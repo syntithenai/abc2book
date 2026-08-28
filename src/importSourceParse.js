@@ -21,6 +21,8 @@ import { transcribeSheetImageFile } from './sheetImageTranscriptionClient';
 import { buildDraftFromSheetImageResult, createTuneFromSheetImageImport } from './sheetImageImportUtils';
 import { createImportCandidate } from './importReviewSession';
 import { ensurePlainWordsFromNoteAlignedLyrics, setLyricLines } from './wLinesUtils';
+import { composerHintFromFile } from './pdfSheetImportUtils';
+import { normalizeSheetFormat, sheetFormatIsTextOnly } from './sheetImageFormats';
 
 export function getMidiWizardPendingFromFile(file, sourceUrl) {
   if (!file) return null;
@@ -277,10 +279,12 @@ export async function transcribeSheetImageToResult(file, options) {
   if (opts.resolverAvailable === false) {
     throw new Error(SHEET_IMAGE_RESOLVER_ERROR);
   }
+  const composerHint = String(opts.composerHint || composerHintFromFile(file) || '').trim();
   return transcribeSheetImageFile({
     file: file,
     accessToken: opts.accessToken,
     titleHints: opts.titleHints,
+    composerHint: composerHint,
     onProgress: opts.onProgress,
     signal: opts.signal,
   });
@@ -305,18 +309,23 @@ export function buildSheetDraftFromResult(body, fileName) {
 export async function sheetImageFileToCandidates(file, options) {
   const opts = options || {};
   const body = await transcribeSheetImageToResult(file, opts);
+  const format = normalizeSheetFormat(body && (body.sheetFormat || body.pageType));
   const tune = createTuneFromSheetImageImport({
     result: body,
     tunebook: opts.tunebook,
     abcjsParser: opts.abcjsParser,
     book: opts.book,
     titleOverride: opts.titleOverride,
+    mergeOptions: sheetFormatIsTextOnly(format) ? { melody: false } : undefined,
   });
   const candidate = createImportCandidate({
     tune: tune,
     sourceKind: 'sheetimage',
     skipEnrich: true,
+    sheetFormat: format,
   });
+  candidate.sheetFormat = format;
+  candidate.pageType = format;
   if (file) {
     candidate.pendingFile = {
       name: file.name || 'Sheet image',

@@ -119,6 +119,12 @@ async function persistState() {
 }
 
 function mapSavedJob(item) {
+  const hasResolver = !!item.resolverJobId;
+  let status = item.status === 'running' ? 'pending' : (item.status || 'pending');
+  // Preparing jobs do not survive reload — local MIDI/WAV work was lost.
+  if (!hasResolver && (status === 'pending' || status === 'running')) {
+    status = 'error';
+  }
   return {
     id: item.id,
     tuneId: item.tuneId,
@@ -126,17 +132,21 @@ function mapSavedJob(item) {
     taskId: item.taskId || 'practice_track',
     presetId: item.presetId || 'fast',
     presetLabel: item.presetLabel || 'Fast',
-    resolverJobId: item.resolverJobId,
-    status: item.status === 'running' ? 'pending' : (item.status || 'pending'),
-    stage: item.stage || '',
+    resolverJobId: item.resolverJobId || null,
+    status: status,
+    stage: !hasResolver && status === 'error' ? 'error' : (item.stage || ''),
     progress: typeof item.progress === 'number' ? item.progress : 0,
-    message: item.message || '',
-    error: item.error || null,
+    message: !hasResolver && status === 'error'
+      ? (item.message || 'Interrupted while preparing')
+      : (item.message || ''),
+    error: !hasResolver && status === 'error'
+      ? (item.error || 'Interrupted while preparing — start generation again')
+      : (item.error || null),
     accessToken: item.accessToken || null,
     linkTitle: item.linkTitle || '',
     cancelled: !!item.cancelled,
     startedAt: item.startedAt || null,
-    completedAt: item.completedAt || null,
+    completedAt: item.completedAt || (!hasResolver && status === 'error' ? Date.now() : null),
     tuneLinks: Array.isArray(item.tuneLinks) ? item.tuneLinks : [],
     onTuneChange: null,
     tunebook: null,
@@ -172,6 +182,7 @@ export async function restoreAndResume(getTuneContext) {
 }
 
 export function enqueueAudioGenerationJob(spec) {
+  const hasResolver = !!(spec && spec.resolverJobId);
   const job = {
     id: makeJobId(),
     tuneId: spec.tuneId,
@@ -179,11 +190,11 @@ export function enqueueAudioGenerationJob(spec) {
     taskId: spec.taskId || 'practice_track',
     presetId: spec.presetId || 'fast',
     presetLabel: spec.presetLabel || 'Fast',
-    resolverJobId: spec.resolverJobId,
+    resolverJobId: hasResolver ? spec.resolverJobId : null,
     status: 'pending',
-    stage: 'queued',
+    stage: hasResolver ? 'queued' : 'preparing',
     progress: 0,
-    message: 'Queued',
+    message: hasResolver ? 'Queued' : (spec.message || 'Preparing…'),
     error: null,
     accessToken: spec.accessToken || null,
     linkTitle: spec.linkTitle || linkTitleForTask(spec.taskId, spec.tuneName),
@@ -197,11 +208,55 @@ export function enqueueAudioGenerationJob(spec) {
     forceRefresh: spec.forceRefresh || null,
   };
   jobs.unshift(job);
-  showAudioGenerationStartedToast({ tuneName: job.tuneName });
+  if (spec.showToast !== false) {
+    showAudioGenerationStartedToast({ tuneName: job.tuneName });
+  }
   notify();
   schedulePersist();
-  processQueue(spec.getTuneContext);
+  if (hasResolver) {
+    processQueue(spec.getTuneContext);
+  } else if (typeof spec.getTuneContext === 'function') {
+    lastGetTuneContext = spec.getTuneContext;
+  }
   return job.id;
+}
+
+/** Attach a resolver job id after local prep (MIDI/WAV) finishes and the API accepts the job. */
+export function bindAudioGenerationResolverJob(localJobId, resolverJobId, options) {
+  const opts = options || {};
+  const job = jobs.find(function(item) { return item.id === localJobId; });
+  if (!job || job.cancelled) return false;
+  job.resolverJobId = resolverJobId;
+  job.stage = 'queued';
+  job.message = opts.message || 'Queued';
+  job.status = 'pending';
+  if (opts.accessToken) job.accessToken = opts.accessToken;
+  notify();
+  schedulePersist();
+  processQueue(opts.getTuneContext || lastGetTuneContext);
+  return true;
+}
+
+export function failAudioGenerationJob(localJobId, errorMessage) {
+  const job = jobs.find(function(item) { return item.id === localJobId; });
+  if (!job || job.cancelled) return false;
+  job.status = 'error';
+  job.stage = 'error';
+  job.error = formatAudioGenerationError(errorMessage || 'Could not start audio generation');
+  job.message = job.error;
+  job.completedAt = Date.now();
+  notify();
+  schedulePersist();
+  return true;
+}
+
+export function updateAudioGenerationJobMessage(localJobId, message, stage) {
+  const job = jobs.find(function(item) { return item.id === localJobId; });
+  if (!job || job.cancelled) return false;
+  if (message) job.message = message;
+  if (stage) job.stage = stage;
+  notify();
+  return true;
 }
 
 export function cancelAudioGenerationJob(id) {
@@ -339,7 +394,7 @@ async function processQueue(getTuneContext) {
   try {
     while (true) {
       const next = jobs.find(function(job) {
-        return job.status === 'pending' && !job.cancelled;
+        return job.status === 'pending' && !job.cancelled && job.resolverJobId;
       });
       if (!next) break;
       await processJob(next, getTuneContext);

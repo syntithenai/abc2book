@@ -1,0 +1,938 @@
+{
+  "id": "regions-roots-bluegrass-02-instruments-voices-i",
+  "title": "Bluegrass Instruments — Traditional Voices I",
+  "track": "regions",
+  "tier": 2,
+  "region": "roots-bluegrass",
+  "difficulty": 4,
+  "prerequisites": [
+    "regions-roots-bluegrass-01-overview"
+  ],
+  "tags": [
+    "roots",
+    "bluegrass",
+    "roots",
+    "traditional",
+    "voices"
+  ],
+  "path": "10-regions/north-american-roots/bluegrass/02-instruments-traditional-voices-i.md",
+  "sections": [
+    {
+      "id": "bluegrass-instruments-traditional-voices-i",
+      "title": "Bluegrass Instruments — Traditional Voices I",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** North American Roots | **Region:** roots-bluegrass | **Tier:** 2\n**Prerequisites:** regions-roots-bluegrass-01-overview\n**Tags:** roots, bluegrass, roots, traditional, voices"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "fiddle, mandolin, banjo\n\nBluegrass Music belongs to the **North American Roots** curriculum. Bill Monroe\nEarl Scruggs\n\nThis lesson develops listening precision for **fiddle, mandolin, banjo** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-appalachia",
+      "title": "Compared with Appalachia",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Appalachian Old-Time Music** (`regions-roots-appalachia-02-instruments-voices-i`) covers the same lesson slot from the anchor perspective. This lesson stresses: **fiddle, mandolin, banjo**.\n\n| Topic | Appalachia anchor | Bluegrass Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | fiddle, banjo, voice… | fiddle, mandolin, banjo… |\n\n**Parallel anchor lesson:** `regions-roots-appalachia-02-instruments-voices-i`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-02-instruments-voices-i`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "fiddle, mandolin, banjo\n\nStudy **bluegrass music** through listening first. Wikipedia's article on [Bluegrass music](https://en.wikipedia.org/wiki/Bluegrass_music) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **North American Roots**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **fiddle, mandolin, banjo**. Ensemble layer: **guitar, bass, dobro**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **breakdown, gospel, song**. Dance context: **stage and dance floor**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **Bill Monroe, festival circuit**. Contemporary scenes: **IBMA, jam culture**. Tune repertoire anchor: **Foggy Mountain Breakdown, Raw Hide**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- fiddle, mandolin, banjo\n- Lead instruments: fiddle, mandolin, banjo\n- Ensemble: guitar, bass, dobro\n- Forms: breakdown, gospel, song\n- Dance: stage and dance floor\n- History: Bill Monroe, festival circuit\n- Scenes: IBMA, jam culture\n- Repertoire: Foggy Mountain Breakdown, Raw Hide\n- Compared with Appalachia: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Bluegrass Music is a living tradition with regional accent.\n- Focus: fiddle, mandolin, banjo.\n- Compared with Appalachia: shared heritage, distinct emphasis.\n- Forms: breakdown, gospel, song.\n- Dance: stage and dance floor.\n- Transmission: Bill Monroe, festival circuit."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nB\nl\nu\ne\ng\nr\na\ns\ns\n \nm\nu\ns\ni\nc\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nB\nl\nu\ne\ng\nr\na\ns\ns\n_\nm\nu\ns\ni\nc\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nA\np\np\na\nl\na\nc\nh\ni\na\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "bill-monroe",
+      "type": "artist",
+      "name": "Bill Monroe",
+      "summary": "Representative musician or ensemble in roots-bluegrass trad",
+      "blurb": "Study Bill Monroe for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Monroe",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "earl-scruggs",
+      "type": "band",
+      "name": "Earl Scruggs",
+      "summary": "Representative musician or ensemble in roots-bluegrass trad",
+      "blurb": "Study Earl Scruggs for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Earl_Scruggs",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "bill-monroe",
+    "earl-scruggs"
+  ],
+  "playlist": [
+    {
+      "id": "regions-roots-bluegrass-02-instruments-voices-i-pl1",
+      "entity_id": "bill-monroe",
+      "label": "Bill Monroe — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Bill Monroe"
+    },
+    {
+      "id": "regions-roots-bluegrass-02-instruments-voices-i-pl2",
+      "entity_id": "earl-scruggs",
+      "label": "Earl Scruggs — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Earl Scruggs"
+    },
+    {
+      "id": "regions-roots-bluegrass-02-instruments-voices-i-pl3",
+      "label": "Bluegrass Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-roots-bluegrass-02-instruments-voices-i-pl4",
+      "label": "Bluegrass Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Bluegrass Music rewards comparative study.",
+    "Focus: fiddle, mandolin, banjo.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: breakdown, gospel, song.",
+    "Dance: stage and dance floor.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Bluegrass Music is a living tradition with regional accent.",
+    "Compared with Appalachia: shared heritage, distinct emphasis.",
+    "Transmission: Bill Monroe, festival circuit."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Bluegrass music",
+      "url": "https://en.wikipedia.org/wiki/Bluegrass_music",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "North American Roots",
+      "url": "https://en.wikipedia.org/wiki/Bluegrass_music",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "fiddle, mandolin, banjo",
+      "url": "https://en.wikipedia.org/wiki/Bluegrass_music",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) fiddle, mandolin, banjo\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) fiddle, mandolin, banjo\n\n### Q2. Bluegrass Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Appalachia, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) fiddle, mandolin, banjo\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) fiddle, mandolin, banjo\n\n### Q5. Ensemble voices include:\n- A) guitar, bass, dobro\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) guitar, bass, dobro\n\n### Q6. Tune and song forms include:\n- A) breakdown, gospel, song\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) breakdown, gospel, song\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) Bill Monroe, festival circuit\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) Bill Monroe, festival circuit\n\n### Q9. Contemporary scenes include:\n- A) IBMA, jam culture\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) IBMA, jam culture\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Foggy Mountain Breakdown, Raw Hide\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Foggy Mountain Breakdown, Raw Hide\n\n### Q12. The Compared with Appalachia section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "fiddle, mandolin, banjo",
+          "correct": true
+        }
+      ],
+      "explain": ") fiddle, mandolin, banjo"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Bluegrass Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Appalachia, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "fiddle, mandolin, banjo",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") fiddle, mandolin, banjo"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, bass, dobro",
+          "correct": true
+        }
+      ],
+      "explain": ") guitar, bass, dobro"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "breakdown, gospel, song",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") breakdown, gospel, song"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bill Monroe, festival circuit",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") Bill Monroe, festival circuit"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "IBMA, jam culture",
+          "correct": true
+        }
+      ],
+      "explain": ") IBMA, jam culture"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Foggy Mountain Breakdown, Raw Hide",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") Foggy Mountain Breakdown, Raw Hide"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Appalachia section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-roots-bluegrass-02-instruments-voices-i-quiz",
+    "title": "Bluegrass Instruments — Traditional Voices I quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "fiddle, mandolin, banjo",
+            "correct": true
+          }
+        ],
+        "explain": ") fiddle, mandolin, banjo"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Bluegrass Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Appalachia, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "fiddle, mandolin, banjo",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") fiddle, mandolin, banjo"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, bass, dobro",
+            "correct": true
+          }
+        ],
+        "explain": ") guitar, bass, dobro"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "breakdown, gospel, song",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") breakdown, gospel, song"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Bill Monroe, festival circuit",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") Bill Monroe, festival circuit"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "IBMA, jam culture",
+            "correct": true
+          }
+        ],
+        "explain": ") IBMA, jam culture"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Foggy Mountain Breakdown, Raw Hide",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") Foggy Mountain Breakdown, Raw Hide"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Appalachia section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

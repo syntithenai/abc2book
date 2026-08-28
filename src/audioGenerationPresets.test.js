@@ -12,8 +12,8 @@ import {
 } from './audioGenerationPresets';
 
 describe('audioGenerationPresets', function() {
-  test('default preset is fast for practice track and balanced for linked cover', function() {
-    expect(defaultPresetForTask(TASK_PRACTICE_TRACK)).toBe('fast');
+  test('default preset is balanced for practice track and linked cover', function() {
+    expect(defaultPresetForTask(TASK_PRACTICE_TRACK)).toBe('balanced');
     expect(defaultPresetForTask(TASK_LINKED_COVER)).toBe('balanced');
   });
 

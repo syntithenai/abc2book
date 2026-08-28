@@ -57,30 +57,80 @@ def candidate_id(source: str, abc: str) -> str:
     return f"{safe}-{digest}"
 
 
+# Hosts / labels from mirrored continental archives (prefer over OMR).
+LOCAL_ARCHIVE_MARKERS = (
+    "norbeck",
+    "trillian",
+    "jc regional",
+    "jc_regional",
+    "robinson",
+    "richardrobinson",
+    "folktunefinder",
+    "folkinfo",
+    "local:",
+    "contour:",
+    "misc.local",
+    "jimsroots",
+)
+
+
+def is_omr_source(source: str) -> bool:
+    return str(source or "").lower().startswith("omr")
+
+
+def is_local_archive_source(source: str) -> bool:
+    s = str(source or "").lower()
+    return any(marker in s for marker in LOCAL_ARCHIVE_MARKERS)
+
+
+def abc_header_title(abc: str) -> str:
+    for line in (abc or "").splitlines():
+        if line.upper().startswith("T:"):
+            return line[2:].strip()
+    return ""
+
+
 def score_candidate(title: str, cand: dict) -> float:
     abc = cand.get("abc") or ""
     matched = cand.get("matchedTitle") or cand.get("title") or ""
+    header_t = abc_header_title(abc)
     base = max(
         title_similarity(title, matched),
         title_similarity(TITLE_KEY_HINT_RE.sub("", title), matched),
+        title_similarity(title, header_t) if header_t else 0.0,
         float(cand.get("score") or 0),
     )
+    # Reject scrapes whose body title disagrees with the query (common web-search junk).
+    if header_t and title_similarity(title, header_t) < 0.45 and title_similarity(matched, header_t) < 0.45:
+        base -= 1.2
     chords = chord_count(abc)
-    # Strong preference for inline quote chords.
-    if chords >= 8:
-        base += 0.55
-    elif chords >= 3:
-        base += 0.35
-    elif chords >= 1:
-        base += 0.1
+    src = str(cand.get("source") or "")
+    # OMR last: never let chord boost outweigh a real archive title match.
+    if is_omr_source(src):
+        if chords >= 3:
+            base += 0.08
+        elif chords >= 1:
+            base += 0.03
+        base -= 0.85
+    else:
+        # Prefer published ABC; chords are a bonus on top, not a reason to keep OMR.
+        if chords >= 8:
+            base += 0.45
+        elif chords >= 3:
+            base += 0.28
+        elif chords >= 1:
+            base += 0.08
+        if is_local_archive_source(src):
+            base += 0.35
+        if "thesession" in src.lower():
+            base += 0.12
+        if "abcnotation" in src.lower() or src.startswith("search:"):
+            base += 0.08
     if looks_weak_abc(abc):
         base -= 0.5
-    # Slight preference for non-OMR when quality is similar.
-    src = str(cand.get("source") or "")
-    if src.startswith("omr"):
-        base -= 0.05
-    if "thesession" in src:
-        base += 0.05
+    # Escaped HTML / JS residue from bad scrapes
+    if "{scale:" in abc or "staffwidth" in abc or "\\nT:" in abc[:80]:
+        base -= 1.5
     return base
 
 
@@ -272,7 +322,21 @@ def normalize_candidate(title: str, cand: dict) -> dict | None:
     abc = str(cand.get("abc") or "").strip()
     if not abc or looks_weak_abc(abc):
         return None
+    # Drop broken scrapes (literal \\n, embedded JS)
+    if "{scale:" in abc or "staffwidth" in abc:
+        return None
+    if abc.startswith("X:") and "\\nT:" in abc[:120]:
+        return None
     source = str(cand.get("source") or "unknown")
+    header_t = abc_header_title(abc)
+    if header_t:
+        sim = max(
+            title_similarity(title, header_t),
+            title_similarity(TITLE_KEY_HINT_RE.sub("", title), header_t),
+        )
+        # Web scrapes must actually be the right tune.
+        if source.startswith("search:") and sim < 0.55:
+            return None
     # Align key toward title for non-OMR; repair L/K for OMR.
     if source.startswith("omr"):
         abc = repair_omr_abc(abc, title)
@@ -290,6 +354,8 @@ def normalize_candidate(title: str, cand: dict) -> dict | None:
         "hasChords": has_inline_chords(abc),
     }
     row["rankScore"] = score_candidate(title, row)
+    if row["rankScore"] < 0.15 and not is_omr_source(source):
+        return None
     return row
 
 
@@ -313,11 +379,34 @@ def dedupe_candidates(cands: list[dict]) -> list[dict]:
 
 
 def pick_default(cands: list[dict]) -> dict | None:
+    """Prefer real archive/session ABC; only fall back to OMR when nothing else fits."""
     if not cands:
         return None
-    chorded = [c for c in cands if c.get("hasChords")]
-    pool = chorded or cands
-    return max(pool, key=lambda c: c.get("rankScore", 0))
+    non_omr = [c for c in cands if not is_omr_source(str(c.get("source") or ""))]
+    # Require a real title match — don't swap OMR for a vague "Hannah"/"Polska" hit.
+    strong = [
+        c
+        for c in non_omr
+        if float(c.get("score") or 0) >= 0.72 or float(c.get("rankScore") or 0) >= 1.05
+    ]
+    if strong:
+        # Prefer local archives, then chorded, then rankScore.
+        def key(c: dict):
+            return (
+                1 if is_local_archive_source(str(c.get("source") or "")) else 0,
+                1 if c.get("hasChords") else 0,
+                float(c.get("rankScore") or 0),
+            )
+
+        return max(strong, key=key)
+    if non_omr:
+        chorded = [c for c in non_omr if c.get("hasChords")]
+        pool = chorded or non_omr
+        best = max(pool, key=lambda c: c.get("rankScore", 0))
+        # Weak non-OMR still beats OMR if rank is not terrible.
+        if float(best.get("rankScore") or 0) >= 0.55:
+            return best
+    return max(cands, key=lambda c: c.get("rankScore", 0))
 
 
 def main() -> int:
@@ -386,6 +475,38 @@ def main() -> int:
                 }
             )
 
+        # Always retain prior OMR / stored omrAbc so archive hits don't erase it.
+        prior_omr = next(
+            (
+                c
+                for c in (entry.get("candidates") or [])
+                if is_omr_source(str(c.get("source") or "")) and c.get("abc")
+            ),
+            None,
+        )
+        if prior_omr:
+            cands_raw.append(prior_omr)
+        elif entry.get("omrAbc") and "%% missing abc" not in str(entry.get("omrAbc") or ""):
+            cands_raw.append(
+                {
+                    "source": "omr",
+                    "matchedTitle": title,
+                    "abc": entry.get("omrAbc"),
+                    "url": "",
+                    "score": 0.4,
+                }
+            )
+        elif is_omr_source(str(entry.get("abcSource") or "")) and entry.get("abc"):
+            cands_raw.append(
+                {
+                    "source": "omr",
+                    "matchedTitle": title,
+                    "abc": entry.get("abc"),
+                    "url": "",
+                    "score": 0.4,
+                }
+            )
+
         # The Session settings (broad)
         try:
             cands_raw.extend(collect_session_setting_candidates(title))
@@ -421,7 +542,7 @@ def main() -> int:
             import asyncio as _asyncio
 
             if local_abc_resources_enabled():
-                local_rows = _asyncio.run(collect_local_abc_candidates(title, limit=6))
+                local_rows = _asyncio.run(collect_local_abc_candidates(title, limit=12))
                 for row in local_rows or []:
                     cands_raw.append(
                         {
@@ -432,8 +553,10 @@ def main() -> int:
                             "score": (row.get("matchScore") or 70) / 100.0,
                         }
                     )
+                # Contour only on non-OMR ABC — OMR melody matching is unreliable.
                 current_abc = str(entry.get("abc") or "").strip()
-                if current_abc and "K:" in current_abc:
+                current_src = str(entry.get("abcSource") or "")
+                if current_abc and "K:" in current_abc and not is_omr_source(current_src):
                     for row in search_local_abc_by_contour(current_abc, limit=4) or []:
                         cands_raw.append(
                             {
@@ -467,7 +590,23 @@ def main() -> int:
             row = normalize_candidate(title, raw)
             if row:
                 normalized.append(row)
-        candidates = dedupe_candidates(normalized)[:12]
+        ranked = dedupe_candidates(normalized)
+        candidates = ranked[:12]
+        # Top-12 by chords/score can drop OMR — force-keep every OMR transcript.
+        have_ids = {c["id"] for c in candidates}
+        for c in ranked:
+            if is_omr_source(str(c.get("source") or "")) and c["id"] not in have_ids:
+                candidates.append(c)
+                have_ids.add(c["id"])
+        # Archive/session first; OMR sources last.
+        other = [c for c in candidates if not is_omr_source(str(c.get("source") or ""))]
+        omr_plain = [c for c in candidates if str(c.get("source") or "").lower() == "omr"]
+        omr_rest = [
+            c
+            for c in candidates
+            if is_omr_source(str(c.get("source") or "")) and str(c.get("source") or "").lower() != "omr"
+        ]
+        candidates = other + omr_plain + omr_rest
 
         selected = pick_default(candidates)
         entry["candidates"] = [
@@ -483,6 +622,15 @@ def main() -> int:
             }
             for c in candidates
         ]
+        omr_keep = next((c for c in candidates if str(c.get("source") or "").lower() == "omr"), None)
+        if not omr_keep:
+            omr_keep = next((c for c in candidates if is_omr_source(str(c.get("source") or ""))), None)
+        if omr_keep and omr_keep.get("abc"):
+            entry["omrAbc"] = omr_keep["abc"]
+        elif entry.get("omrAbc"):
+            pass
+        elif is_omr_source(str(entry.get("abcSource") or "")) and entry.get("abc"):
+            entry["omrAbc"] = entry.get("abc")
         if selected:
             entry["selectedCandidateId"] = selected["id"]
             entry["abc"] = ensure_x_header(selected["abc"], i, title)

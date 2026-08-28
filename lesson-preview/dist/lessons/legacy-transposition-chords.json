@@ -1,0 +1,178 @@
+{
+  "id": "legacy-transposition-chords",
+  "title": "Transposing Chord Progressions",
+  "track": "transposition",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "transposition",
+    "legacy"
+  ],
+  "path": "04-transposition/03-chords.md",
+  "sections": [
+    {
+      "id": "transposing-chord-progressions",
+      "title": "Transposing Chord Progressions",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** transposition | **Difficulty:** 4/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Roman numerals and Nashville numbers make chord transposition systematic."
+        }
+      ]
+    },
+    {
+      "id": "by-letter",
+      "title": "By letter",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "G-D-Em-C up a whole step = A-E-F♯m-D. Move every symbol the same distance."
+        }
+      ]
+    },
+    {
+      "id": "nashville-numbers",
+      "title": "Nashville numbers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1-5-6m-4 in D = D-A-Bm-G; in G = G-D-Em-C. Session guitarists call changes by number when singers shift key."
+        }
+      ]
+    },
+    {
+      "id": "non-diatonic-chords",
+      "title": "Non-diatonic chords",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Borrowed ♭VII and secondary dominants transpose with the same interval. Capo: shapes in C with capo 2 sounds in D."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. I-V-vi-IV in C:\n\n- A) C-G-Am-F\n- B) G-C-D-Em\n- C) G-A-Bm-D\n- D) Em-C-G-D\n\n**Answer:** A — and in G: G-D-Em-C.\n\n### Q2. Nashville numbers label by scale degree.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "I-V-vi-IV in C:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "C-G-Am-F",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": "and in G: G-D-Em-C."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Nashville numbers label by scale degree.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-transposition-chords-quiz",
+    "title": "Transposing Chord Progressions quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "I-V-vi-IV in C:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "C-G-Am-F",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "and in G: G-D-Em-C."
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Nashville numbers label by scale degree.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

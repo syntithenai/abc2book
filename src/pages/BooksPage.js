@@ -32,7 +32,7 @@ import { getPlayableTuneIdsForCollection } from '../collectionQueueUtils'
 import { appendTunesToQueue, insertTunesAfterCurrentInQueue } from '../nowPlayingQueue'
 import { useDocumentTitle } from '../pageTitle'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import { getMusicCollectionBrowseAccess } from '../musicCollectionBrowseAccess'
+import { shouldShowMusicCollectionBrowseEntry } from '../musicCollectionBrowseAccess'
 
 const BOOK_SECTION_NAMES = {
   [BOOKS_PAGE_SECTIONS.filters]: 'filters',
@@ -55,14 +55,10 @@ export default function BooksPage(props) {
     const { defaultTab, tunebook } = props
     const navigate = useNavigate()
     const { status: resolverStatus } = useMediaResolverHealth()
-    const libraryBrowseAccess = getMusicCollectionBrowseAccess({
+    const showLibraryBrowseButton = shouldShowMusicCollectionBrowseEntry({
         resolverStatus: resolverStatus,
         accessToken: props.token,
     })
-    const showLibraryBrowseButton = !!(
-        libraryBrowseAccess.canBrowse
-        || (libraryBrowseAccess.accessToken && libraryBrowseAccess.homeHasCollection)
-    )
     useDocumentTitle(defaultTab === 'tags' ? 'Tags' : 'Books')
     const [sectionSearch, setSectionSearch] = useState('')
     const [tagImageIsHidden, setTagImageIsHidden] = useState({})

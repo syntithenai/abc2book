@@ -1,0 +1,178 @@
+{
+  "id": "legacy-music-periods-classical-era",
+  "title": "Classical Era Overview",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "10-music-periods/04-classical-era.md",
+  "sections": [
+    {
+      "id": "classical-era-overview-17501820",
+      "title": "Classical Era Overview (1750–1820)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Classical era: clarity, balance, sonata form. Haydn, Mozart, early Beethoven."
+        }
+      ]
+    },
+    {
+      "id": "ensemble",
+      "title": "Ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "String quartet crystallised as conversation between equals. Symphony orchestra standardised sections."
+        }
+      ]
+    },
+    {
+      "id": "public-concerts",
+      "title": "Public concerts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Music moved from court patronage toward public ticket sales — amateur music-making in homes."
+        }
+      ]
+    },
+    {
+      "id": "piano-replaces-harpsichord",
+      "title": "Piano replaces harpsichord",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dynamic nuance of fortepiano suited Classical expressiveness."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Haydn nicknamed 'Father of the':\n\n- A) Symphony and string quartet\n- B) Blues\n- C) Heavy metal\n- D) Electronic dance music\n\n**Answer:** A\n\n### Q2. Classical music favoured clear phrases and homophony.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Haydn nicknamed 'Father of the':",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Symphony and string quartet",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Symphony and string quartet"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Classical music favoured clear phrases and homophony.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-music-periods-classical-era-quiz",
+    "title": "Classical Era Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Haydn nicknamed 'Father of the':",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Symphony and string quartet",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Symphony and string quartet"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Classical music favoured clear phrases and homophony.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

@@ -21,6 +21,8 @@ export default function TuneFieldLookupQueueModal({
   }, { errors: 0 })
   const currentJob = queue.state.jobs.find(function(job) {
     return job.id === queue.state.currentJobId
+  }) || queue.state.jobs.find(function(job) {
+    return job.status === 'running'
   })
 
   return (

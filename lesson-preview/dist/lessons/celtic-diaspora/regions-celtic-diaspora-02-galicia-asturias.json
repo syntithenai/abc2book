@@ -1,0 +1,810 @@
+{
+  "id": "regions-celtic-diaspora-02-galicia-asturias",
+  "title": "Galicia & Asturias",
+  "track": "regions",
+  "tier": 3,
+  "region": "celtic-diaspora",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-diaspora-01-cape-breton"
+  ],
+  "tags": [
+    "celtic",
+    "diaspora",
+    "galicia",
+    "asturias",
+    "gaita"
+  ],
+  "path": "10-regions/celtic/diaspora/02-galicia-asturias.md",
+  "sections": [
+    {
+      "id": "galicia-asturias",
+      "title": "Galicia & Asturias",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Unit:** Diaspora & fringe | **Tier:** 3 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-diaspora-01-cape-breton\n**Tags:** galicia, asturias, gaita, muiniera, spain, celtic-nations, diaspora"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In the northwest corner of Spain, the **gaita galega** (Galician bagpipe) leads processions, dance floors, and festival stages with a timbre instantly distinct from Irish uilleann pipes or Scottish Highland pipes. Beside it you may hear tambourines, snare drums, hurdy-gurdies, and fiddles playing **muiñeiras** — six-beat dance tunes whose lilt feels cousin to an Irish jig without being interchangeable with one. Galicia and neighbouring Asturias participate actively in pan-Celtic networks: flags at Lorient, collaborations with Irish and Breton musicians, and a modern industry that exports \"Celtic Galicia\" worldwide through groups like Luar na Lubre and pipers such as Carlos Núñez.\n\nYet Galician music is also deeply Iberian. Roman, medieval, and Atlantic fishing cultures shaped repertoire alongside any historical Celtic-language past. Asturias shares pipe and dance traditions with its own regional accent. This lesson treats Galicia and Asturias as **fringe Celtic nations** in the political and festival sense — places that chose affiliation with Ireland, Scotland, Wales, Brittany, Cornwall, and the Isle of Man — while insisting on local dance forms, language (Galician and Asturian), and instrumental craft.\n\n![Galician gaita players](https://en.wikipedia.org/wiki/Special:FilePath/Gaita_galega.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "the-gaita-and-its-ensemble",
+      "title": "The gaita and its ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **gaita galega** uses a conical chanter and one or more drones, often with a snare drum (*tambor*) and bass drum (*bombo*) in ensemble. Unlike the uilleann pipes' regulator chords and seated chamber aesthetic, the Galician gaita projects outdoors: pilgrimages, civic parades, and open-air dances. Chanter ornament includes finger vibrato and rhythmic articulation suited to dance sets.\n\nAsturian pipe traditions parallel Galicia with regional bore and repertoire differences. Both regions maintain schools, pipe makers, and competition circuits. Gaita galega craft is a living trade — not museum display.\n\nEnsemble texture matters. Where an Irish session stacks melody instruments in a pub, a Galician **foliada** or festival set may foreground pipes and percussion with voices joining in choruses. Listen for **call-and-response** song habits that connect to wider Atlantic folk practice."
+        }
+      ]
+    },
+    {
+      "id": "muiñeira-and-dance-repertoire",
+      "title": "Muiñeira and dance repertoire",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **muiñeira** is the signature Galician dance tune — typically in 6/8 with a distinctive rhythmic emphasis that dancers mark with raised arms and structured steps. Musicians also play **jotas**, **alboradas**, **pasodobles**, and **valses** in regional style. Asturias contributes **pasucáis** and **corridos** among its dance music.\n\nComparing metres to Ireland:\n\n| Form | Region | Metre / feel | Dance link |\n|------|--------|--------------|------------|\n| Double jig | Ireland | 6/8, jiggedy pulse | Céilí, set dance |\n| Muiñeira | Galicia | 6/8, regional accent | Couple / group folk dance |\n| Reel | Ireland | 4/4 drive | Session staple |\n| Jota | Galicia / Asturias | 3/4 or hybrid | Regional choreographies |\n\nFamily resemblance does not mean identity. A learner who plays Irish jigs with Galician phrasing — or vice versa — will sound misplaced on the wrong floor.\n\n![Muiñeira dancers in traditional dress](https://en.wikipedia.org/wiki/Special:FilePath/Mu%C3%B1eira_dancers.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "pan-celtic-networks-and-modern-scenes",
+      "title": "Pan-Celtic networks and modern scenes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "From the 1970s onward, Galicia embraced **Celtic identity** as cultural politics and festival strategy. Wikipedia's coverage of Celtic nations lists Galicia and Asturias alongside the \"historic\" six. The Festival Interceltique de Lorient regularly features Galician stages; pipers tour with Irish and Scottish artists; broadcasters document cross-border collaborations.\n\nLuar na Lubre blended harp, pipes, and Atlantic folk rock, influencing a generation. Carlos Núñez became an international ambassador, recording with The Chieftains and Breton musicians. These stars build on — they do not replace — village pipe bands and dance associations.\n\nAsturias maintains its own festivals and language activism. Both regions use music to assert distinctiveness within Spain while claiming Celtic fraternity abroad."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland remains our reference tradition: session-based reel and jig repertoire, uilleann pipes in indoor settings, sean-nós song, Comhaltas infrastructure.\n\nGalicia and Asturias contrast on several axes:\n\n**Social stage.** Irish trad often orbits pub sessions and fleadh competition; Galician music orbits civic festivals, pipe band gatherings, and choreographed folk dance displays as much as informal tune trading.\n\n**Pipe culture.** Uilleann pipes use bellows, regulators, and a seated aesthetic; gaita is outdoor, drone-forward, and ensemble-percussive.\n\n**Tune names and forms.** Muiñeiras are not \"Irish jigs with Spanish titles.\" Learn the dance step that matches the tune.\n\n**Language.** Galician (*galego*) and Asturian connect song texts to regional identity similarly to Irish in the Gaeltacht — but the political history within Spain differs from Ireland's colonial narrative.\n\n**Diaspora links.** Irish emigration built sessions in Buenos Aires, Boston, and Birmingham. Galician emigration built communities in Latin America; music followed ships. Comparative study means hearing **Atlantic** routes, not assuming all diaspora scenes copy Ireland.\n\n**Parallel Ireland lessons:** `regions-celtic-ireland-02-instruments-traditional-voices-i` for uilleann pipes; `regions-celtic-ireland-04-genres-forms` for jig/reel comparison; comparative unit for pan-Celtic marketing critique."
+        }
+      ]
+    },
+    {
+      "id": "study-habits-for-learners",
+      "title": "Study habits for learners",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Watch a muiñeira with dancers visible — foot and arm timing clarify metre.\n2. Compare one gaita track and one uilleann pipe track of similar tempo; note drone and ornament differences.\n3. Attend or stream a pan-Celtic festival set where Galician and Irish musicians alternate — listen for arrangement choices, not only tune names.\n4. Learn one muiñeira by ear before labelling it \"a jig\" in your notebook."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Galicia and Asturias are musically Iberian and politically part of the Celtic nations network — both truths matter.\n- The gaita galega leads outdoor ensemble music distinct from Irish uilleann pipes.\n- Muiñeira is the signature dance tune form; it resembles Irish jigs in metre but not in social or stylistic context.\n- Modern stars (Luar na Lubre, Carlos Núñez) amplify village and festival traditions rather than replacing them.\n- Compared with Ireland: shared 6/8 dance family, different pipe technology, session vs festival stage emphasis.\n- Pan-Celtic festivals connect Galicia to Ireland, Brittany, and Scotland without merging repertoires into one style."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Wikipedia: [Music of Galicia](https://en.wikipedia.org/wiki/Music_of_Galicia) — overview of forms and instruments.\n- Wikipedia: [Gaita galega](https://en.wikipedia.org/wiki/Gaita_galega) — pipe construction and history.\n- Susana Moreno Fernández, studies on Galician folk revival — academic context for Celtic identity politics.\n- Discography: Luar na Lubre, Carlos Núñez, Milladoiro — modern ensemble listening.\n- Festival Interceltique de Lorient programmes — cross-border collaboration examples."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "gaita-galega",
+      "type": "instrument",
+      "name": "Gaita galega",
+      "summary": "Galician bagpipe with chanter and drones, often with percussion ensemble",
+      "blurb": "Leads outdoor dances, parades, and festival stages across Galicia.",
+      "url": "https://en.wikipedia.org/wiki/Gaita_galega",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaita_galega.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "luar-na-lubre",
+      "type": "ensemble",
+      "name": "Luar na Lubre",
+      "summary": "Galician folk ensemble blending traditional and modern sounds",
+      "blurb": "Pioneered international Galician Celtic folk from the 1980s onward.",
+      "url": "https://en.wikipedia.org/wiki/Luar_na_Lubre",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Luar_na_Lubre.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "carlos-nunez",
+      "type": "artist",
+      "name": "Carlos Núñez",
+      "summary": "Galician gaita virtuoso and pan-Celtic collaborator",
+      "blurb": "Links Iberian Celtic networks to Irish and Breton festival circuits.",
+      "url": "https://en.wikipedia.org/wiki/Carlos_N%C3%BA%C3%B1ez",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Gaita.jpg?width=320",
+      "years": "1971–",
+      "region": "Galicia",
+      "playlist_index": 0
+    },
+    {
+      "id": "festival-interceltique-lorient",
+      "type": "organization",
+      "name": "Festival Interceltique de Lorient",
+      "summary": "Major pan-Celtic festival in Brittany",
+      "blurb": "Regularly features Galician and Asturian stages alongside Irish and Breton programming.",
+      "url": "https://en.wikipedia.org/wiki/Festival_Interceltique_de_Lorient",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Festival_Interceltique_de_Lorient_2012.jpg?width=320",
+      "playlist_index": 3
+    }
+  ],
+  "entity_order": [
+    "carlos-nunez",
+    "festival-interceltique-lorient"
+  ],
+  "playlist": [
+    {
+      "id": "carlos-nunez-piper",
+      "entity_id": "carlos-nunez",
+      "label": "Carlos Núñez gaita performance",
+      "youtube": "https://www.youtube.com/watch?v=0nF5K1d6d0Y",
+      "subtitle": "Carlos Núñez"
+    },
+    {
+      "id": "luar-na-lubre-live",
+      "entity_id": "luar-na-lubre",
+      "label": "Luar na Lubre live set",
+      "youtube": "https://www.youtube.com/watch?v=HkZ1dZ7V0xE",
+      "subtitle": "Luar na Lubre"
+    },
+    {
+      "id": "muiniera-dance",
+      "entity_id": "gaita-galega",
+      "label": "Muiñeira with dancers",
+      "youtube": "https://www.youtube.com/watch?v=wqJChP8dQ9E",
+      "subtitle": "Gaita galega"
+    },
+    {
+      "id": "lorient-galicia",
+      "entity_id": "festival-interceltique-lorient",
+      "label": "Galician stage at Lorient",
+      "youtube": "https://www.youtube.com/watch?v=GvHVD2PEGLY",
+      "subtitle": "Festival Interceltique de Lorient"
+    },
+    {
+      "id": "carlos-nunez-gaita",
+      "entity_id": "carlos-nunez",
+      "label": "Carlos Núñez gaita",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Carlos Núñez"
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Galicia and Asturias are Iberian and pan-Celtic — both identities matter.",
+    "Gaita galega leads outdoor ensemble music distinct from uilleann pipes.",
+    "Muiñeira is the signature 6/8 dance form — not an Irish jig by another name.",
+    "Luar na Lubre and Carlos Núñez amplified village and festival traditions.",
+    "Compared with Ireland: shared 6/8 family, different pipe technology and session vs festival stage.",
+    "Galicia and Asturias are musically Iberian and politically part of the Celtic nations network — both truths matter.",
+    "The gaita galega leads outdoor ensemble music distinct from Irish uilleann pipes.",
+    "Muiñeira is the signature dance tune form; it resembles Irish jigs in metre but not in social or stylistic context.",
+    "Modern stars (Luar na Lubre, Carlos Núñez) amplify village and festival traditions rather than replacing them.",
+    "Compared with Ireland: shared 6/8 dance family, different pipe technology, session vs festival stage emphasis.",
+    "Pan-Celtic festivals connect Galicia to Ireland, Brittany, and Scotland without merging repertoires into one style."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Galicia — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Galicia"
+    },
+    {
+      "type": "link",
+      "title": "Gaita galega — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaita_galega"
+    },
+    {
+      "type": "link",
+      "title": "Muiñeira — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira"
+    },
+    {
+      "type": "link",
+      "title": "Music of Asturias — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Asturias"
+    },
+    {
+      "type": "link",
+      "title": "Carlos Núñez official",
+      "url": "https://www.carlosnunez.com/",
+      "note": "Gaita virtuoso"
+    },
+    {
+      "type": "book",
+      "title": "Galician Music",
+      "author": "Henrique Beceiro",
+      "note": "Regional survey"
+    },
+    {
+      "type": "link",
+      "title": "Muiñeira dance",
+      "url": "https://en.wikipedia.org/wiki/Mui%C3%B1eira",
+      "note": "Galician form"
+    },
+    {
+      "type": "link",
+      "title": "Music of Galicia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Galicia"
+    },
+    {
+      "type": "link",
+      "title": "Gaita galega",
+      "url": "https://en.wikipedia.org/wiki/Gaita_galega"
+    }
+  ],
+  "quiz_markdown": "### Q1. The gaita galega is most associated with which region?\n\n- A) Galicia in northwest Spain\n- B) Inner Mongolia\n- C) The Australian Outback exclusively\n- D) Classical Vienna court orchestras\n\n**Answer:** A\n\n### Q2. A muiñeira is typically a dance tune in 6/8 with Galician regional accent.\n\n**Answer:** True\n\n### Q3. Compared with Irish uilleann pipes, the Galician gaita is more often heard in:\n\n- A) Outdoor ensemble settings with drones and percussion\n- B) Silent meditation studios only\n- C) Strictly unaccompanied lute recitals\n- D) Baroque opera pits exclusively\n\n**Answer:** A\n\n### Q4. Galicia participates in pan-Celtic festival networks alongside Ireland, Scotland, Wales, and Brittany.\n\n**Answer:** True\n\n### Q5. Carlos Núñez is known as:\n\n- A) A Galician piper with international collaborations including Irish musicians\n- B) An exclusively hip-hop producer from Dublin\n- C) A Welsh harp competition adjudicator only\n- D) A Manx language textbook author only\n\n**Answer:** A\n\n### Q6. Asturias shares northwestern Spanish pipe and dance traditions with its own regional accent.\n\n**Answer:** True\n\n### Q7. Labelling every 6/8 Celtic tune \"an Irish jig\" is good comparative practice.\n\n**Answer:** False — muiñeiras and jigs require distinct dance and stylistic context.\n\n### Q8. Luar na Lubre contributed to:\n\n- A) Modern Galician folk and Celtic fusion reaching international audiences\n- B) Banning all traditional instruments in Spain\n- C) Replacing all village pipe bands with orchestras\n- D) Eliminating the muiñeira from dance floors\n\n**Answer:** A\n\n### Q9. Galician music is only a copy of Irish session repertoire without local forms.\n\n**Answer:** False — jotas, alboradas, and regional song/dance practices are distinct.\n\n### Q10. Watching dance footage helps clarify muiñeira metre and phrasing.\n\n**Answer:** True\n\n### Q11. The Celtic nations concept includes Galicia in festival and political networking contexts.\n\n**Answer:** True\n\n### Q12. Best next step after this lesson:\n\n- A) Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance\n- B) Avoid all Spanish-language resources\n- C) Assume Galicia and Ireland share identical session etiquette\n- D) Skip pan-Celtic festival listening entirely\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The gaita galega is most associated with which region?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Galicia in northwest Spain",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Galicia in northwest Spain"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "A muiñeira is typically a dance tune in 6/8 with Galician regional accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Irish uilleann pipes, the Galician gaita is more often heard in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Outdoor ensemble settings with drones and percussion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Outdoor ensemble settings with drones and percussion"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Galicia participates in pan-Celtic festival networks alongside Ireland, Scotland, Wales, and Brittany.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Carlos Núñez is known as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A Galician piper with international collaborations including Irish musicians",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: A Galician piper with international collaborations including Irish musicians"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Asturias shares northwestern Spanish pipe and dance traditions with its own regional accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Labelling every 6/8 Celtic tune \"an Irish jig\" is good comparative practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "muiñeiras and jigs require distinct dance and stylistic context."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Luar na Lubre contributed to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Galicia in northwest Spain",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Modern Galician folk and Celtic fusion reaching international audiences",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Modern Galician folk and Celtic fusion reaching international audiences"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Galician music is only a copy of Irish session repertoire without local forms.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "jotas, alboradas, and regional song/dance practices are distinct."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Watching dance footage helps clarify muiñeira metre and phrasing.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "The Celtic nations concept includes Galicia in festival and political networking contexts.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Best next step after this lesson:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-diaspora-02-galicia-asturias-quiz",
+    "title": "Galicia & Asturias quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The gaita galega is most associated with which region?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Galicia in northwest Spain",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Galicia in northwest Spain"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "A muiñeira is typically a dance tune in 6/8 with Galician regional accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Irish uilleann pipes, the Galician gaita is more often heard in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Outdoor ensemble settings with drones and percussion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Outdoor ensemble settings with drones and percussion"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Galicia participates in pan-Celtic festival networks alongside Ireland, Scotland, Wales, and Brittany.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Carlos Núñez is known as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "A Galician piper with international collaborations including Irish musicians",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: A Galician piper with international collaborations including Irish musicians"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Asturias shares northwestern Spanish pipe and dance traditions with its own regional accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Labelling every 6/8 Celtic tune \"an Irish jig\" is good comparative practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "muiñeiras and jigs require distinct dance and stylistic context."
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Luar na Lubre contributed to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Galicia in northwest Spain",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Modern Galician folk and Celtic fusion reaching international audiences",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Modern Galician folk and Celtic fusion reaching international audiences"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Galician music is only a copy of Irish session repertoire without local forms.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "jotas, alboradas, and regional song/dance practices are distinct."
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Watching dance footage helps clarify muiñeira metre and phrasing.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "The Celtic nations concept includes Galicia in festival and political networking contexts.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "Best next step after this lesson:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Compare one gaita track and one uilleann pipe recording, then watch a muiñeira dance"
+      }
+    ]
+  }
+}

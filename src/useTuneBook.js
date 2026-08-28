@@ -16,8 +16,10 @@ import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 import { linkUriString } from './tuneLinkUri'
 import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
-import { filterTunes, GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED } from './tuneListFilter'
+import { filterTunes, GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED, GROUP_BY_PAGE, resolveEffectiveGroupBy } from './tuneListFilter'
+import { sortTunesByBookPage } from './tuneBookPages'
 import { resolveCandidateTuneIds } from './tuneCandidateFilter'
+import { unionIndexKeysWithTuneField } from './tuneIndexIntegrity'
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 import { applyDuplicateBookMerges } from './importDuplicateBooks'
@@ -84,6 +86,7 @@ import {
   persistableTuneWithoutDisplaySettings,
 } from './tuneDisplaySettings'
 import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
+import { getTunePageForBook } from './tuneBookPages'
 import {
   filterStateHasAnyFilters,
   resolveSearchFilterState,
@@ -320,7 +323,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           return
         }
         setCurrentTune(nextTuneId)
-        const target = resolvePlaybackForItem(nextTune, nextItem, tunebookApi)
+        const target = resolvePlaybackForItem(nextTune, nextItem, tunebookApi, {
+          preferMidi: !!(result.queue && result.queue.preferMidi),
+        })
         if (opts.navigate !== false && navigateFn && target && target.type !== 'external') {
           const normalizedTarget = target.type === 'midi'
             ? { type: 'midi' }
@@ -333,7 +338,12 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
             normalizedTarget
           )
         } else {
-          playQueueItem(opts.mediaController, tunebookApi, nextTune, nextItem, { fromUserGesture: true })
+          playQueueItem(opts.mediaController, tunebookApi, nextTune, nextItem, {
+            fromUserGesture: true,
+            queue: result.queue,
+            preferMidi: !!(result.queue && result.queue.preferMidi),
+            playbackTarget: result.playbackTarget,
+          })
         }
       })
       return tuneId
@@ -441,7 +451,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     // Skip stale list cache when live filters were cleared but a snapshot remains —
     // that cache is the empty/default list, not the last search.
     if (!usingSnapshot) {
-      var fromListState = buildOrderedSearchListIds(filtered, grouped, groupBy)
+      var effectiveGroupBy = resolveEffectiveGroupBy(groupBy, live.currentTuneBook)
+      var fromListState = buildOrderedSearchListIds(filtered, grouped, effectiveGroupBy)
       if (fromListState && fromListState.length > 0) return fromListState
     }
 
@@ -456,10 +467,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       starredFilter,
       resolved.albumFilter
     )
-    var resolvedGroupBy = resolved.groupBy
-    useTunes.sort(function(a, b) {
-      return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-    })
+    var resolvedGroupBy = resolveEffectiveGroupBy(resolved.groupBy, resolved.currentTuneBook)
+    if (resolvedGroupBy === GROUP_BY_PAGE) {
+      useTunes = sortTunesByBookPage(useTunes, resolved.currentTuneBook)
+    } else {
+      useTunes.sort(function(a, b) {
+        return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+      })
+    }
     if (!resolvedGroupBy || resolvedGroupBy === GROUP_BY_TUNE_STATUS || resolvedGroupBy === GROUP_BY_TUNE_STATUS_DETAILED) {
       // tuneStatus groups are computed in IndexLayout; without list state, fall back to alpha order.
       return useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
@@ -1956,11 +1971,7 @@ The main difference between the two functions is the additional condition in app
   
   
   function getTuneBookOptions() {
-      var final = {}
-      Object.keys(indexes.bookIndex).forEach(function(tuneBookKey) {
-          final[tuneBookKey] = tuneBookKey
-      })
-      return final
+      return unionIndexKeysWithTuneField(indexes.bookIndex, tunes, 'books')
   }
   
   function getSearchTuneBookOptions(filter) {
@@ -1978,12 +1989,8 @@ The main difference between the two functions is the additional condition in app
   
   
     function getTuneTagOptions() {
-      var final = {}
-      Object.keys(indexes.tagIndex).forEach(function(tuneTagKey) {
-          final[tuneTagKey] = tuneTagKey
-      })
-      return final
-  }
+      return unionIndexKeysWithTuneField(indexes.tagIndex, tunes, 'tags')
+    }
   
   function getSearchTuneTagOptions(filter) {
       var opts = getTuneTagOptions()
@@ -2217,6 +2224,9 @@ The main difference between the two functions is the additional condition in app
                 var key = ''
                 if (groupBy === 'tempoRange') {
                     key = tempoRangeLabel(parseTempoBpm(item.tempo))
+                } else if (groupBy === 'page') {
+                    var pageNum = getTunePageForBook(item, currentTuneBook)
+                    key = pageNum > 0 ? pageNum : ''
                 } else if (Array.isArray(item[groupBy])) {
                     key = item[groupBy].sort().filter(function(a) { return (currentTuneBook && a != currentTuneBook)  }).join(", ")
                 } else {

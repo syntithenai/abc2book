@@ -82,9 +82,13 @@ async function searchChordsAndLyrics(options) {
   };
   try {
     const chordResult = unwrapSearchResult(await searchChords(Object.assign({}, searchOpts, {
+      preferRemoteChords: true,
+      skipLocalChords: true,
+      skipColdIndexLoad: true,
+      forceResolver: resolverAvailable !== false,
       onProgress: function(message, progress) {
         if (typeof onProgress === 'function') {
-          onProgress(message || 'Searching for chords...', progress);
+          onProgress(message || 'Searching Ultimate Guitar…', progress);
         }
       },
     })));
@@ -98,6 +102,7 @@ async function searchChordsAndLyrics(options) {
   } catch (chordError) {
     if (chordError && chordError.name === 'AbortError') throw chordError;
     const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
+      skipColdIndexLoad: true,
       onProgress: function(message, progress) {
         if (typeof onProgress === 'function') {
           onProgress(message || 'Searching for lyrics...', progress);

@@ -53,11 +53,11 @@ def _project_root() -> Path:
     env = str(os.getenv("ABC2BOOK_ROOT", "") or "").strip()
     if env:
         return Path(env).resolve()
-    # local-resolver/ → repo root; docker mounts repo at /app/www
+    # local-resolver/ → repo root; docker mounts repo at /static/www (or legacy /app/www)
     here = Path(__file__).resolve().parent
-    www = Path("/app/www")
-    if www.is_dir() and (www / "abcresources").is_dir():
-        return www
+    for candidate in (Path("/static/www"), Path("/app/www")):
+        if candidate.is_dir() and (candidate / "abcresources").is_dir():
+            return candidate
     return here.parent
 
 

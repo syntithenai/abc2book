@@ -9,6 +9,7 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   sheetImage: false,
   sheetImageOcr: false,
   sheetImageOmr: false,
+  sheetImageSplit: false,
   lightMode: false,
   youtubeAudio: false,
   youtubeEgressRequired: false,
@@ -41,6 +42,7 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   sheetImage: true,
   sheetImageOcr: true,
   sheetImageOmr: true,
+  sheetImageSplit: true,
   lightMode: false,
   youtubeAudio: true,
   youtubeEgressRequired: false,
@@ -79,6 +81,14 @@ export function normalizeResolverFeatures(raw, options) {
     sheetImage: raw.sheetImage === true,
     sheetImageOcr: raw.sheetImageOcr === true,
     sheetImageOmr: raw.sheetImageOmr === true,
+    // Light gateway never splits. Otherwise treat local OCR/OMR as split-capable
+    // (covers older health payloads and re-normalize of cached features that
+    // previously forced sheetImageSplit:false when the key was absent).
+    sheetImageSplit: raw.lightMode === true
+      ? false
+      : (raw.sheetImageSplit === true
+        || raw.sheetImageOcr === true
+        || raw.sheetImageOmr === true),
     lightMode: raw.lightMode === true,
     youtubeAudio: raw.youtubeAudio === true,
     youtubeEgressRequired: raw.youtubeEgressRequired === true,

@@ -125,6 +125,16 @@ def validate_timing_plan(raw: dict | None) -> dict:
             float(os.getenv("PRACTICE_TRACK_INIT_NOISE_LEVEL") or 0.35),
         ),
         "guideEngine": str(raw.get("guideEngine") or "stable_audio"),
+        "chordsPerBar": [
+            str(c)
+            for c in (raw.get("chordsPerBar") or [])
+            if c is not None
+        ],
+        "guideHarmonySource": (
+            str(raw.get("guideHarmonySource")).strip().lower()
+            if raw.get("guideHarmonySource")
+            else None
+        ),
     }
 
 

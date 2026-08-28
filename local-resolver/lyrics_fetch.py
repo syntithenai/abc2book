@@ -1,5 +1,6 @@
 import html
 import re
+import time
 import unicodedata
 from urllib.parse import quote, urlparse
 
@@ -11,6 +12,8 @@ from recording_artists import discover_recording_artists, is_generic_artist
 from chord_sheet_utils import normalize_lyric_blocks
 
 LYRICS_FETCH_TIMEOUT_SECONDS = 20.0
+# Cap page scrapes so a blocked Genius/AZLyrics cascade cannot hang the client.
+LYRICS_SCRAPE_BUDGET_SECONDS = 35.0
 LRCLIB_USER_AGENT = "ABC2BookResolver/1.0 (+https://tunebook.net)"
 
 LYRICS_HOST_SUFFIXES = (
@@ -826,6 +829,7 @@ def _candidate_key(result):
 async def _search_lyrics_for_artist(client, title, artist, on_progress=None):
     attempts = []
     manual_candidates = []
+    scrape_deadline = time.monotonic() + LYRICS_SCRAPE_BUDGET_SECONDS
 
     await _emit_progress(on_progress, "apis", "Trying lyrics APIs...", None)
 
@@ -855,6 +859,8 @@ async def _search_lyrics_for_artist(client, title, artist, on_progress=None):
     except Exception:
         genius_candidates = []
     for candidate in genius_candidates[:3]:
+        if time.monotonic() > scrape_deadline:
+            break
         page_url = candidate.get("url") or ""
         if is_manual_only_host(urlparse(page_url).hostname or ""):
             _append_manual_candidate(
@@ -883,6 +889,8 @@ async def _search_lyrics_for_artist(client, title, artist, on_progress=None):
 
     url_builders = (build_azlyrics_url, build_lyrics_com_url, build_letras_url)
     for builder in url_builders:
+        if time.monotonic() > scrape_deadline:
+            break
         page_url = builder(artist, title)
         if not page_url:
             continue

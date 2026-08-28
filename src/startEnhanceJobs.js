@@ -5,6 +5,7 @@ import { isTuneFieldEmptyForKind } from './fieldLookupApplyUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
 import {
   LOOKUP_FIELD_KIND_BY_OPTION,
+  enhanceAccessBlock,
   filterEnhanceSelectionByAvailability,
   mediaAnalysisSuggestionKindsFromSelection,
   selectedEnhanceOptionIds,
@@ -15,7 +16,9 @@ function availabilityContextFromOptions(options) {
   if (options.availabilityContext) return options.availabilityContext
   if (options.features == null && options.resolverAvailable == null
     && options.canResearchBackground == null && options.canAffordComposer == null
-    && options.hasScannableLinkedMedia == null) {
+    && options.hasScannableLinkedMedia == null
+    && options.needsLogin == null && options.needsNetwork == null
+    && options.loginWarning == null) {
     return null
   }
   return {
@@ -24,6 +27,10 @@ function availabilityContextFromOptions(options) {
     canResearchBackground: options.canResearchBackground,
     canAffordComposer: options.canAffordComposer,
     hasScannableLinkedMedia: options.hasScannableLinkedMedia,
+    needsLogin: options.needsLogin,
+    needsNetwork: options.needsNetwork,
+    needsCredit: options.needsCredit,
+    loginWarning: options.loginWarning || null,
   }
 }
 
@@ -59,13 +66,21 @@ function accessTokenFrom(options) {
   return token.access_token ? token.access_token : token
 }
 
-function enqueueFieldLookup(options, tune, kind, jobOptions) {
+function shouldSuppressFieldLookupReview(options, tuneCount) {
+  if (options && options.backgroundEnhance === true) return true
+  return tuneCount > 1
+}
+
+function enqueueFieldLookup(options, tune, kind, jobOptions, tuneCount) {
   const title = tune && tune.name ? String(tune.name).trim() : ''
   if (!title || !tune || !tune.id) return null
   const fieldLookupQueue = options.fieldLookupQueue
   if (!fieldLookupQueue || typeof fieldLookupQueue.enqueueLookup !== 'function') return null
   const extraOptions = jobOptions && typeof jobOptions === 'object' ? Object.assign({}, jobOptions) : {}
   if (kind === 'links') extraOptions.alwaysPick = true
+  if (shouldSuppressFieldLookupReview(options, tuneCount)) {
+    extraOptions.suppressReview = true
+  }
   return fieldLookupQueue.enqueueLookup({
     tuneId: tune.id,
     kind: kind,
@@ -141,6 +156,12 @@ export function startEnhanceJobs(tunes, selection, options) {
   const opts = options || {}
   const list = Array.isArray(tunes) ? tunes.filter(function(tune) { return !!(tune && tune.id) }) : []
   const availabilityContext = availabilityContextFromOptions(opts)
+  const accessBlock = enhanceAccessBlock(availabilityContext)
+  if (accessBlock) {
+    result.blockedReason = accessBlock.message
+    result.blockedKind = accessBlock.kind
+    return result
+  }
   const filteredSelection = filterEnhanceSelectionByAvailability(selection, availabilityContext)
   const selectedIds = selectedEnhanceOptionIds(filteredSelection)
   if (!list.length || !selectedIds.length) return result
@@ -164,14 +185,20 @@ export function startEnhanceJobs(tunes, selection, options) {
       // Lyrics enhance is one integrated search: prefer chord sheets (lyrics+chords),
       // then fall back to plain lyrics inside the same job.
       if (optionId === 'lookupLyrics') {
-        const id = enqueueFieldLookup(opts, tune, 'lyrics', { preferChords: true })
+        const id = enqueueFieldLookup(opts, tune, 'lyrics', { preferChords: true }, list.length)
         if (id) {
           result.fieldLookups += 1
           result.started += 1
         }
         return
       }
-      const id = enqueueFieldLookup(opts, tune, LOOKUP_FIELD_KIND_BY_OPTION[optionId])
+      const id = enqueueFieldLookup(
+        opts,
+        tune,
+        LOOKUP_FIELD_KIND_BY_OPTION[optionId],
+        undefined,
+        list.length
+      )
       if (id) {
         result.fieldLookups += 1
         result.started += 1
@@ -183,13 +210,19 @@ export function startEnhanceJobs(tunes, selection, options) {
         result.skippedHasLinks += 1
         return
       }
-      const id = enqueueFieldLookup(opts, tune, 'links')
+      const id = enqueueFieldLookup(opts, tune, 'links', undefined, list.length)
       if (id) {
         result.youtube += 1
         result.started += 1
       }
     }
   })
+
+  if ((result.fieldLookups > 0 || result.youtube > 0)
+    && opts.fieldLookupQueue
+    && typeof opts.fieldLookupQueue.start === 'function') {
+    opts.fieldLookupQueue.start()
+  }
 
   if (selected.composer && opts.composerQueue && typeof opts.composerQueue.enqueueTunes === 'function') {
     const canAffordComposer = opts.canAffordComposer !== false
@@ -232,6 +265,9 @@ export function startEnhanceJobs(tunes, selection, options) {
 }
 
 export function enhanceStartToastMessage(result) {
+  if (result && result.blockedReason) {
+    return result.blockedReason
+  }
   if (!result || result.started <= 0) {
     const reasons = []
     if (result && result.skippedNoTitle > 0) reasons.push('selected tunes need a title')

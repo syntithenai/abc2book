@@ -1,0 +1,114 @@
+{
+  "id": "11-reed-winds",
+  "title": "11 Reed Winds",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/11-reed-winds.md",
+  "sections": [
+    {
+      "id": "clarinet-and-saxophone",
+      "title": "Clarinet and Saxophone",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Single-reed woodwinds: reed vibrates against mouthpiece. Despite 'woodwind' name, modern bodies are often plastic or metal."
+        }
+      ]
+    },
+    {
+      "id": "clarinet",
+      "title": "Clarinet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Cylinder bore; cylindrical bore overblows at twelfth. B♭ clarinet most common. Wide dynamic range. Mozart and Brahms clarinet quintets. Klezmer and jazz traditions."
+        }
+      ]
+    },
+    {
+      "id": "saxophone",
+      "title": "Saxophone",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Adolphe Sax, 1840s Belgium. Conical bore overblows at octave. Family from soprano to baritone. Central to jazz — Charlie Parker (alto), John Coltrane (tenor)."
+        }
+      ]
+    },
+    {
+      "id": "double-reeds",
+      "title": "Double reeds",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Oboe and bassoon use two reeds bound together. Distinctive nasal oboe tone; bassoon's wide range in orchestra."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-clarinet-is",
+      "title": "Q1. Clarinet is:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Single-reed woodwind\n- B) Brass instrument\n- C) Bowed string\n- D) Percussion\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-saxophone-invented-by-adolphe-sax",
+      "title": "Q2. Saxophone invented by Adolphe Sax.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-clarinet-overblows-at-the",
+      "title": "Q3. Clarinet overblows at the:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Twelfth\n- B) Octave\n- C) Fifth\n- D) Unison only\n\n**Answer:** A — Cylindrical bore property."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Clarinet is:\n\n- A) Single-reed woodwind\n- B) Brass instrument\n- C) Bowed string\n- D) Percussion\n\n**Answer:** A\n\n### Q2. Saxophone invented by Adolphe Sax.\n\n**Answer:** True\n\n### Q3. Clarinet overblows at the:\n\n- A) Twelfth\n- B) Octave\n- C) Fifth\n- D) Unison only\n\n**Answer:** A — Cylindrical bore property."
+}

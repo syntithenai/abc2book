@@ -1,0 +1,103 @@
+{
+  "id": "09-trad-collectors",
+  "title": "09 Trad Collectors",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/09-trad-collectors.md",
+  "sections": [
+    {
+      "id": "collectors-and-revivals-saving-oral-tradition",
+      "title": "Collectors and Revivals: Saving Oral Tradition",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Field collectors preserved oral-tradition music that might otherwise have been lost, shaping revival taste through what they published."
+        }
+      ]
+    },
+    {
+      "id": "key-figures",
+      "title": "Key figures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Francis O'Neill** (1848–1936): Chicago police chief who published *The Music of Ireland* (1903) and *O'Neill's 1001* — thousands of tunes from Irish-American musicians. **Cecil Sharp** (1859–1924): documented English morris and country dances. **Alan Lomax** (1915–2002): recorded Appalachian ballads, blues, and global folk across decades."
+        }
+      ]
+    },
+    {
+      "id": "critical-reading",
+      "title": "Critical reading",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Collectors shaped versions through selection and harmonisation. Titles drift; keys may not match local practice. Living players remember alternate turns."
+        }
+      ]
+    },
+    {
+      "id": "modern-chain",
+      "title": "Modern chain",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Kitchen player → collector → digital archive → your tune book. Cite sources; stay open to alternate versions."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-francis-oneill-famous-for",
+      "title": "Q1. Francis O'Neill famous for:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Publishing Irish dance tune collections\n- B) Inventing piano forte\n- C) Vienna symphonies\n- D) Founding bebop\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-collectors-preserved-music-passed-primarily-by-ear",
+      "title": "Q2. Collectors preserved music passed primarily by ear.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Francis O'Neill famous for:\n\n- A) Publishing Irish dance tune collections\n- B) Inventing piano forte\n- C) Vienna symphonies\n- D) Founding bebop\n\n**Answer:** A\n\n### Q2. Collectors preserved music passed primarily by ear.\n\n**Answer:** True"
+}

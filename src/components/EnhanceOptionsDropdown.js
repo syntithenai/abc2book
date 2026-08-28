@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import { Button, Form, Modal } from 'react-bootstrap'
+import { Alert, Button, Form, Modal } from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import {
   ENHANCE_OPTION_GROUPS,
   createEmptyEnhanceSelection,
+  enhanceAccessBlock,
   filterEnhanceSelectionByAvailability,
   hasAnyEnhanceSelection,
   isEnhanceOptionAvailable,
@@ -20,6 +21,7 @@ export function EnhanceOptionsMenu({
   onToggleOption,
   onSetGroup,
   onStart,
+  onLogin,
   idPrefix,
   availabilityContext,
   mediaSources,
@@ -27,15 +29,38 @@ export function EnhanceOptionsMenu({
   onMediaLinkIndexChange,
 }) {
   const prefix = idPrefix || 'enhance'
-  const canStart = hasAnyEnhanceSelection(selection, availabilityContext)
+  const accessBlock = enhanceAccessBlock(availabilityContext)
+  const canStart = !accessBlock && hasAnyEnhanceSelection(selection, availabilityContext)
   const sources = Array.isArray(mediaSources) ? mediaSources : []
-  const showMediaSourcePicker = sources.length > 1 && !audioGroupDisabled(availabilityContext)
+  const showMediaSourcePicker = sources.length > 1 && !audioGroupDisabled(availabilityContext) && !accessBlock
 
   return (
     <div
       className="enhance-options-menu"
       data-testid="enhance-options-menu"
     >
+      {accessBlock ? (
+        <Alert
+          variant="warning"
+          className="enhance-options-access-warning"
+          data-testid="enhance-access-warning"
+        >
+          <div>{accessBlock.message}</div>
+          {accessBlock.showLoginButton && typeof onLogin === 'function' ? (
+            <div className="mt-2">
+              <Button
+                type="button"
+                variant="outline-warning"
+                size="sm"
+                data-testid="enhance-login-button"
+                onClick={function() { onLogin() }}
+              >
+                Log in with Google
+              </Button>
+            </div>
+          ) : null}
+        </Alert>
+      ) : null}
       <div className="enhance-options-actions">
         <Button
           type="button"
@@ -43,6 +68,7 @@ export function EnhanceOptionsMenu({
           className="enhance-options-start"
           data-testid="enhance-start"
           disabled={!canStart}
+          title={accessBlock ? accessBlock.message : undefined}
           onClick={function() {
             if (!canStart) return
             onStart()
@@ -52,7 +78,8 @@ export function EnhanceOptionsMenu({
         </Button>
       </div>
       {ENHANCE_OPTION_GROUPS.map(function(group) {
-        const groupUnavailable = group.id === 'audio' && audioGroupDisabled(availabilityContext)
+        const groupUnavailable = !!accessBlock
+          || (group.id === 'audio' && audioGroupDisabled(availabilityContext))
         return (
           <div
             key={group.id}
@@ -86,7 +113,7 @@ export function EnhanceOptionsMenu({
                 </Button>
               </span>
             </div>
-            {group.id === 'audio' && groupUnavailable ? (
+            {group.id === 'audio' && groupUnavailable && !accessBlock ? (
               <div className="enhance-options-group-note" data-testid="enhance-audio-unavailable">
                 No linked media to analyze (MIDI-only links are excluded).
               </div>
@@ -161,6 +188,7 @@ export default function EnhanceOptionsDropdown({
   title,
   onStart,
   onOpen,
+  onLogin,
   availabilityContext,
   mediaSources,
 }) {
@@ -168,7 +196,11 @@ export default function EnhanceOptionsDropdown({
   const [selection, setSelection] = useState(createEmptyEnhanceSelection)
   const [selectedMediaLinkIndex, setSelectedMediaLinkIndex] = useState(null)
   const responsiveModalProps = useResponsiveModalProps()
+  const accessBlock = enhanceAccessBlock(availabilityContext)
   const dialogTitle = title || 'Enhance'
+  const toggleTitle = accessBlock
+    ? accessBlock.message
+    : dialogTitle
   const sources = Array.isArray(mediaSources) ? mediaSources : []
 
   useEffect(function() {
@@ -218,6 +250,7 @@ export default function EnhanceOptionsDropdown({
   }
 
   function handleStart() {
+    if (enhanceAccessBlock(availabilityContext)) return
     const current = filterEnhanceSelectionByAvailability(selection, availabilityContext)
     if (!hasAnyEnhanceSelection(current)) return
     if (typeof onStart === 'function') {
@@ -237,9 +270,10 @@ export default function EnhanceOptionsDropdown({
         className={toggleClassName || ''}
         id={id}
         disabled={!!disabled}
-        aria-label={dialogTitle}
-        title={dialogTitle}
+        aria-label={toggleTitle}
+        title={toggleTitle}
         data-testid="enhance-dropdown-toggle"
+        data-access-blocked={accessBlock ? accessBlock.kind : undefined}
         onClick={handleShow}
       >
         {icons && icons.search ? icons.search : null}
@@ -266,6 +300,7 @@ export default function EnhanceOptionsDropdown({
             onToggleOption={handleToggleOption}
             onSetGroup={handleSetGroup}
             onStart={handleStart}
+            onLogin={onLogin}
             idPrefix={id || 'enhance'}
             availabilityContext={availabilityContext}
             mediaSources={sources}

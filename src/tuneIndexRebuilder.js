@@ -72,14 +72,16 @@ export async function rebuildIndexesFromTunes(tunes, options) {
   }
 
   invalidateIndexCache()
-  await saveAllIndexes({
-    books: built.books,
-    tags: built.tags,
-    genres: built.genres,
-    artists: built.artists,
-    albums: built.albums,
-    tagGroups: built.tagGroups,
-    meta: { revision: Date.now(), builtAt: new Date().toISOString(), tuneCount: total },
-  })
+  if (opts.persist !== false) {
+    await saveAllIndexes({
+      books: built.books,
+      tags: built.tags,
+      genres: built.genres,
+      artists: built.artists,
+      albums: built.albums,
+      tagGroups: built.tagGroups,
+      meta: { revision: Date.now(), builtAt: new Date().toISOString(), tuneCount: total },
+    })
+  }
   return built
 }

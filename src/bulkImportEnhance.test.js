@@ -73,6 +73,10 @@ describe('bulkImportEnhance', function() {
 
     expect(searchChords).toHaveBeenCalled()
     expect(searchLyrics).toHaveBeenCalled()
+    expect(searchChords.mock.calls[0][0]).toEqual(expect.objectContaining({
+      preferRemoteChords: true,
+      skipLocalChords: true,
+    }))
     expect(searchNotation).toHaveBeenCalled()
     expect(commitChordSearchResultToTune).toHaveBeenCalled()
     expect(commitChordSearchResultToTune.mock.calls[0][0].skipSave).toBe(true)

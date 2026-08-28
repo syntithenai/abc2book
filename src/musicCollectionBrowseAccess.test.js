@@ -2,6 +2,7 @@ import {
   formatMusicCollectionBrowseError,
   getMusicCollectionBrowseAccess,
   isMusicCollectionAuthorizationError,
+  shouldShowMusicCollectionBrowseEntry,
 } from './musicCollectionBrowseAccess';
 
 describe('getMusicCollectionBrowseAccess', function() {
@@ -69,6 +70,33 @@ describe('getMusicCollectionBrowseAccess', function() {
     });
     expect(access.canBrowse).toBe(true);
     expect(access.resolverBase).toBe('https://home.example');
+  });
+});
+
+describe('shouldShowMusicCollectionBrowseEntry', function() {
+  test('shows Browse Library when signed in even if home resolver is unreachable', function() {
+    expect(shouldShowMusicCollectionBrowseEntry({
+      accessToken: 'token',
+      resolverStatus: {
+        available: true,
+        candidates: [{
+          reachable: true,
+          available: true,
+          base: 'https://cloud.example',
+          features: { musicCollection: false },
+          musicCollectionAccess: false,
+        }],
+      },
+    })).toBe(true);
+  });
+
+  test('hides Browse Library when offline', function() {
+    const offlineSpy = jest.spyOn(require('./offlineNetwork'), 'getOfflineBlock').mockReturnValue('Offline');
+    expect(shouldShowMusicCollectionBrowseEntry({
+      accessToken: 'token',
+      resolverStatus: { candidates: [] },
+    })).toBe(false);
+    offlineSpy.mockRestore();
   });
 });
 

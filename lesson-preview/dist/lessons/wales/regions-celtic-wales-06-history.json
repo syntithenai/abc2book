@@ -1,0 +1,850 @@
+{
+  "id": "regions-celtic-wales-06-history",
+  "title": "Welsh Traditional Music — History, Revival, and Transmission",
+  "track": "regions",
+  "tier": 6,
+  "region": "wales",
+  "difficulty": 8,
+  "prerequisites": [
+    "regions-celtic-wales-05-dance"
+  ],
+  "tags": [
+    "wales",
+    "celtic",
+    "history",
+    "revival"
+  ],
+  "path": "10-regions/celtic/wales/06-history-transmission.md",
+  "sections": [
+    {
+      "id": "welsh-traditional-music-history-revival-and-transmission",
+      "title": "Welsh Traditional Music — History, Revival, and Transmission",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 6 | **Difficulty:** 8/10\n**Prerequisites:** regions-celtic-wales-05-dance\n**Tags:** wales, chapel, industrial, revival, transmission, collectors, eisteddfod, 1970s"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Why does a Welsh hymn tune fill a rugby stadium while a plygi lives in a village hall? Because Welsh traditional music survived language pressure, industrial upheaval, and emigration through **chapel**, **eisteddfod**, **collectors**, and **revival media** — not through a single pub-session pipeline. This lesson follows transmission from medieval harp law to twentieth-century **folk clubs**, **Sain** recordings, and the **1970s folk revival** that fed Bob Delyn and festival culture (Lesson 7).\n\nYou have met tune types, instruments, and dance. Here you learn **how repertoire moved** — and why chapel harmony and coal-valley migration matter as much as harp manuscripts."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ireland's history lesson (`regions-celtic-ireland-06-history`) traces annals, Carolan, O'Neill's Chicago tune books, Comhaltas 1951, and diaspora 78s. Wales parallels **collector print** and **revival institutions** but emphasises **Nonconformist chapel**, **industrial south** migration, and **eisteddfod** rather than fleadh session culture.\n\n| Transmission channel | Ireland | Wales |\n|---------------------|---------|-------|\n| Sacred music | Monastic hymn, slow air | **Chapel hymnody**, Cymanfa Ganu |\n| Industrial era | Emigration, 78 rpm | **Coal and steel valleys**, choirs |\n| Revival institution | Comhaltas, fleadh | **Eisteddfod**, folk clubs, **Sain** |\n| Key collector | Francis O'Neill | **Nicholas Bennett**, J. Lloyd Williams |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-06-history` — compare oral survival strategies under colonial pressure.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "medieval-harp-and-bardic-law",
+      "title": "Medieval harp and bardic law",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Welsh law codes (e.g. **Hywel Dda** traditions) and poetry treat harpers as **privileged professionals**. The **crwth** and harp served courts and gentry before fiddle democratisation. **Bardic** praise poetry (*cywydd*, *englyn*) linked verse to musical performance — ancestor of **penillion** discipline.\n\nLoss of aristocratic patronage after Tudor conquest and Anglicisation pushed musicians toward **village** and **chapel** contexts — same broad pattern as Irish harp decline, different legal and linguistic details.\n\n![Crwth historical instrument](https://en.wikipedia.org/wiki/Special:FilePath/Crwth.jpg?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "chapel-influence-hymnody-as-national-spine",
+      "title": "Chapel influence: hymnody as national spine",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Eighteenth- and nineteenth-century **Nonconformist revival** (*Cymru yn deffro* — Wales awakes) made **chapel** the centre of Welsh musical education. Congregations sang **hymn tunes** in harmony; **Cymanfa Ganu** festivals gathered thousands. Composers like **William Williams Pantycelyn** (hymn writer) and tune writers **John Hughes** (*Cwm Rhondda*) embedded melody in daily life.\n\nWelsh Nonconformist chapel culture taught:\n\n- **Four-part harmony** literacy in working-class communities\n- **Male voice choirs** in mining valleys — export to diaspora\n- **Bilingual** repertoire — Welsh lyrics, sometimes English gospel hymns\n\nFolk dance did not die in chapel disapproval everywhere — but **Sunday sacred** and **Saturday twmpath** split social time, shaping who played where. Revivalists in the 1970s **reclaimed** Saturday night without abandoning hymn heritage.\n\n**Memorable detail:** *Cwm Rhondda* was sung at **Princess Diana's funeral** (1997) — Welsh hymn tune as global ceremonial music.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "industrial-south-wales-coal-steel-and-migration",
+      "title": "Industrial south Wales: coal, steel, and migration",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Industrial south Wales** — Rhondda, Merthyr, Swansea valleys — concentrated population, **choirs**, and **pub folk** in tight communities. Coal and steel work brought **internal migration** from Welsh-speaking north and west; English became dominant in some valleys while music kept Welsh titles alive.\n\nTransmission paths:\n\n- **Eisteddfod** competitions in mining towns\n- **St David's Day** school concerts\n- **Emigration** to Pennsylvania, Ohio, and Australia — choirs and harp societies abroad\n- **BBC Wales** broadcasting folk and hymn programmes post-1922\n\nIndustrial decline in late twentieth century closed chapels and halls — threatening venues — but also fuelled **folk revival activism** to document survivors.\n\n![Industrial Wales historical context](https://en.wikipedia.org/wiki/Special:FilePath/Blaenavon_Ironworks_-_geograph.org.uk_-_685084.jpg?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "collectors-and-print-tradition",
+      "title": "Collectors and print tradition",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Before recording, **print** fixed tunes:\n\n- **Nicholas Bennett** — *Alawon Fy Ngwlad* (1896) — foundational Welsh tune collection\n- **J. Lloyd Williams** and **Arthur Somerville Velarde** — *Alawon Cymru* and related editions\n- **Maria Jane Williams** — *Ancient National Airs of Gwent and Morgannwg* (1844)\n\nCollectors mediated **oral** village repertoire into **sheet music** for middle-class pianos and eisteddfod competitors — same tension as O'Neill in Chicago: **standard settings** versus living variation.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "the-1970s-folk-revival",
+      "title": "The 1970s folk revival",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **1970s folk revival** in Wales paralleled Irish and Scottish revivals: **folk clubs** multiplied, **Sain** label (founded **1969**) recorded Welsh-language rock and folk, **BBC** folk programmes archived artists. Young musicians learned **trad tunes** and **rock technique** simultaneously — pipeline to bob-delyn (1988 onward).\n\nKey dynamics:\n\n- **Political Welsh language** activism (*Cymdeithas yr Iaith*) linked folk to identity\n- **Festivals** (National Eisteddfod, Cambridge Folk Festival Welsh acts) exported sound\n- **Teachers** standardised twmpath dance and harp pedagogy\n\nCompared with Irish **Comhaltas 1951** foundation, Welsh revival stayed **more fragmented** across clubs, labels, and eisteddfod — no single global body, but National Eisteddfod of Wales prestige anchor.\n\n**Memorable detail:** Sain's first hit (*Y Blew* by **Heather Jones**, 1973) proved Welsh-language pop could sell — folk rode the same infrastructure.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "broadcasting-archives-and-modern-transmission",
+      "title": "Broadcasting, archives, and modern transmission",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**BBC Radio Cymru** (1982) and **BBC Radio Wales** sustain folk playlists. **St Fagans National Museum of History** preserves instruments and field recordings. **Trac Cymru** funds touring and education. **YouTube** and social media now spread twmpath clips — oral tradition with digital speed.\n\nDebates echo Ireland: **competition precision** versus **club swing**; **language policy** versus **bilingual audiences**; **fusion** versus **source**.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "transmission-today-who-carries-the-tune",
+      "title": "Transmission today: who carries the tune?",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Carrier | Role |\n|---------|------|\n| Eisteddfod tutors | Standardise harp, fiddle, song |\n| Folk club organisers | Book acts, host twmpath |\n| Male voice choirs | Hymn repertoire, hwyl |\n| Diaspora societies | St David's Day, choirs abroad |\n| Labels (Sain, Fflach) | Document revival generations |"
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Chapel hymnody** trained Wales in harmony and communal singing — foundation for choirs and hwyl.\n- **Industrial south** concentrated choirs, eisteddfod life, and bilingual tension.\n- **Collectors** like Nicholas Bennett printed oral repertoire for national audience.\n- **1970s revival** linked folk clubs, Sain label, and language activism.\n- Compared with Ireland: chapel over Gaeltacht; eisteddfod over Comhaltas monoculture.\n- Modern transmission mixes eisteddfod teaching, folk clubs, and digital media."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Sally Harper** — *Music in Welsh Culture Before 1650*\n- **Russell Davies** — *Hope and Heartbreak: A Social History of Wales and the Welsh, 1776–1871*\n- **Phyllis Kinney** — *The Harp and the Dragon*\n- Wikipedia — [Music of Wales](https://en.wikipedia.org/wiki/Music_of_Wales), [Sain (record label)](https://en.wikipedia.org/wiki/Sain_(record_label))\n- **St Fagans** — museum archives and instrument collections"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "chapel",
+      "type": "institution",
+      "name": "Welsh Nonconformist chapel",
+      "summary": "Centre of hymnody and choral training",
+      "blurb": "Chapel culture shaped harmony literacy and male voice choirs.",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Wales",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Treorchy_Male_Voice_Choir.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "sain",
+      "type": "organization",
+      "name": "Sain",
+      "summary": "Welsh record label founded 1969",
+      "blurb": "Key infrastructure for 1970s folk revival recordings.",
+      "url": "https://en.wikipedia.org/wiki/Sain_(record_label)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320",
+      "playlist_index": 1
+    },
+    {
+      "id": "eisteddfod",
+      "type": "organization",
+      "name": "National Eisteddfod of Wales",
+      "summary": "Competitive transmission institution",
+      "blurb": "Teaching pipeline for harp, song, and folk performance.",
+      "url": "https://eisteddfod.wales/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Crowndd_beirdd_Ynys_Prydain.jpg?width=320",
+      "playlist_index": 2
+    },
+    {
+      "id": "nicholas-bennett",
+      "type": "person",
+      "name": "Nicholas Bennett",
+      "summary": "Collector of Alawon Fy Ngwlad (1896)",
+      "blurb": "Printed oral repertoire for national audience.",
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Bennett_(historian)",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Welsh_triple_harp.jpg?width=320"
+    }
+  ],
+  "entity_order": [
+    "sain",
+    "eisteddfod"
+  ],
+  "playlist": [
+    {
+      "id": "cwm-rhondda-history",
+      "entity_id": "chapel",
+      "label": "Cwm Rhondda — chapel hymn tradition",
+      "youtube": "https://www.youtube.com/watch?v=hwlbKJECe9U",
+      "subtitle": "Welsh Nonconformist chapel"
+    },
+    {
+      "id": "sain-revival",
+      "entity_id": "sain",
+      "label": "1970s Welsh language pop — Sain era",
+      "youtube": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+      "subtitle": "Sain"
+    },
+    {
+      "id": "eisteddfod-history",
+      "entity_id": "eisteddfod",
+      "label": "National Eisteddfod ceremony",
+      "youtube": "https://www.youtube.com/watch?v=O3LP8q5zq7s",
+      "subtitle": "National Eisteddfod of Wales"
+    },
+    {
+      "id": "industrial-wales-choir",
+      "label": "South Wales male voice choir",
+      "youtube": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Chapel hymnody trained Wales in harmony and communal singing.",
+    "Industrial south concentrated choirs and bilingual musical life.",
+    "Nicholas Bennett's Alawon Fy Ngwlad (1896) printed oral repertoire.",
+    "1970s revival linked folk clubs, Sain label, and language activism.",
+    "Eisteddfod remains major teaching and prestige channel.",
+    "Compared with Ireland: chapel over Gaeltacht; eisteddfod over Comhaltas monoculture.",
+    "**Chapel hymnody** trained Wales in harmony and communal singing — foundation for choirs and hwyl.",
+    "**Industrial south** concentrated choirs, eisteddfod life, and bilingual tension.",
+    "**Collectors** like Nicholas Bennett printed oral repertoire for national audience.",
+    "**1970s revival** linked folk clubs, Sain label, and language activism.",
+    "Modern transmission mixes eisteddfod teaching, folk clubs, and digital media."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "Hope and Heartbreak: A Social History of Wales and the Welsh, 1776–1871",
+      "author": "Russell Davies",
+      "note": "Industrial and social context"
+    },
+    {
+      "type": "book",
+      "title": "The Harp and the Dragon",
+      "author": "Phyllis Kinney",
+      "note": "Harp transmission history"
+    },
+    {
+      "type": "link",
+      "title": "Sain record label — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sain_(record_label)",
+      "note": "Revival recording infrastructure"
+    },
+    {
+      "type": "link",
+      "title": "St Fagans National Museum of History",
+      "url": "https://museum.wales/st-fagans/",
+      "note": "Instrument and field recording archives"
+    },
+    {
+      "type": "book",
+      "title": "Hymns and the Amusement of the People",
+      "author": "Phyllis Kinney",
+      "note": "Chapel influence"
+    },
+    {
+      "type": "link",
+      "title": "Welsh Folk Song Society",
+      "url": "https://www.wfss-wscc.cymru/",
+      "note": "Collecting society"
+    },
+    {
+      "type": "link",
+      "title": "Industrial south Wales song",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Wales",
+      "note": "Labour and chapel history"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "Music of Wales",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Wales"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    }
+  ],
+  "quiz_markdown": "### Q1. Chapel culture in Wales strongly promoted:\n\n- A) Hymn singing and harmonic literacy in communities\n- B) Exclusive ban on all folk dance forever\n- C) Opera in Italian only\n- D) Electronic music exclusively\n\n**Answer:** A\n\n### Q2. Cwm Rhondda was composed by:\n\n- A) John Hughes (1907)\n- B) Michael Coleman in New York\n- C) Turlough Carolan in 1720\n- D) An anonymous Antarctic explorer\n\n**Answer:** A\n\n### Q3. Nicholas Bennett's key collection is:\n\n- A) Alawon Fy Ngwlad (1896)\n- B) Music of Ireland (1903)\n- C) The Dancing Master (1651 only)\n- D) A jazz fake book exclusively\n\n**Answer:** A\n\n### Q4. Industrial south Wales is associated with:\n\n- A) Coal and steel valleys, male voice choirs, and dense communities\n- B) Desert nomad song exclusively\n- C) Highland bagpipe manufacture only\n- D) No musical activity\n\n**Answer:** A\n\n### Q5. The Sain record label was founded in:\n\n- A) 1969\n- B) 1792\n- C) 921 BC\n- D) It is fictional\n\n**Answer:** A\n\n### Q6. The 1970s folk revival in Wales linked folk clubs to Welsh-language identity activism.\n\n**Answer:** True\n\n### Q7. Welsh transmission has no relationship to eisteddfod competitions.\n\n**Answer:** False — eisteddfod remains a major teaching and prestige channel.\n\n### Q8. Collectors mediated oral village tunes into print for wider audiences.\n\n**Answer:** True\n\n### Q9. Chapel and twmpath existed in completely separate worlds with zero musical overlap.\n\n**Answer:** False — communities often participated in both hymn and dance traditions.\n\n### Q10. BBC Radio Cymru helps broadcast Welsh-language music including folk.\n\n**Answer:** True\n\n### Q11. Compared with Ireland, Wales emphasises chapel hymnody more than pub session culture in historical transmission.\n\n**Answer:** True\n\n### Q12. St Fagans National Museum preserves Welsh musical instruments and heritage.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Chapel culture in Wales strongly promoted:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hymn singing and harmonic literacy in communities",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Hymn singing and harmonic literacy in communities"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Cwm Rhondda was composed by:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "John Hughes (1907)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: John Hughes (1907)"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Nicholas Bennett's key collection is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alawon Fy Ngwlad (1896)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Alawon Fy Ngwlad (1896)"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Industrial south Wales is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Coal and steel valleys, male voice choirs, and dense communities",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Coal and steel valleys, male voice choirs, and dense communities"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "The Sain record label was founded in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1969",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: 1969"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "The 1970s folk revival in Wales linked folk clubs to Welsh-language identity activism.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Welsh transmission has no relationship to eisteddfod competitions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "eisteddfod remains a major teaching and prestige channel."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Collectors mediated oral village tunes into print for wider audiences.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Chapel and twmpath existed in completely separate worlds with zero musical overlap.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "communities often participated in both hymn and dance traditions."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "BBC Radio Cymru helps broadcast Welsh-language music including folk.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, Wales emphasises chapel hymnody more than pub session culture in historical transmission.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "St Fagans National Museum preserves Welsh musical instruments and heritage.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-wales-06-history-quiz",
+    "title": "Welsh Traditional Music — History, Revival, and Transmission quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Chapel culture in Wales strongly promoted:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Hymn singing and harmonic literacy in communities",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Hymn singing and harmonic literacy in communities"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Cwm Rhondda was composed by:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "John Hughes (1907)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: John Hughes (1907)"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Nicholas Bennett's key collection is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Alawon Fy Ngwlad (1896)",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Alawon Fy Ngwlad (1896)"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Industrial south Wales is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Coal and steel valleys, male voice choirs, and dense communities",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Coal and steel valleys, male voice choirs, and dense communities"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "The Sain record label was founded in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "1969",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: 1969"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "The 1970s folk revival in Wales linked folk clubs to Welsh-language identity activism.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Welsh transmission has no relationship to eisteddfod competitions.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "eisteddfod remains a major teaching and prestige channel."
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Collectors mediated oral village tunes into print for wider audiences.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Chapel and twmpath existed in completely separate worlds with zero musical overlap.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "communities often participated in both hymn and dance traditions."
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "BBC Radio Cymru helps broadcast Welsh-language music including folk.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Wales emphasises chapel hymnody more than pub session culture in historical transmission.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "St Fagans National Museum preserves Welsh musical instruments and heritage.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

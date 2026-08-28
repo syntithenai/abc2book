@@ -1,0 +1,604 @@
+{
+  "id": "theory-scales-major-advanced",
+  "title": "Major Scales — Advanced",
+  "track": "theory",
+  "tier": "advanced",
+  "region": null,
+  "difficulty": 6,
+  "prerequisites": [
+    "theory-scales-major-applied"
+  ],
+  "tags": [
+    "scales",
+    "modulation",
+    "tetrachords"
+  ],
+  "path": "00-theory/01-foundations/04-major-scales-advanced.md",
+  "sections": [
+    {
+      "id": "major-scales-advanced",
+      "title": "Major Scales — Advanced",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** advanced | **Difficulty:** 6/10 | **Time:** ~35 min\n**Prerequisites:** Major Scales — Applied\n**Tags:** scales, modulation, tetrachords, analysis"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Advanced tier: treat major scales as movable systems — modal mixture, brief tonicisation, and score analysis. You should already fluently build any major scale (applied tier) before this lesson."
+        }
+      ]
+    },
+    {
+      "id": "modal-mixture-and-borrowed-colour",
+      "title": "Modal mixture and borrowed colour",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Major keys sometimes borrow **♭VI, ♭VII, ♭III** from the parallel minor for colour (e.g. in folk and rock). Recognising these as *scale-degree alterations* rather than \"wrong notes\" is an analysis skill built on secure major-scale degree naming."
+        }
+      ]
+    },
+    {
+      "id": "tonicisation-vs-modulation",
+      "title": "Tonicisation vs modulation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Tonicisation**: temporary emphasis of a non-tonic chord (often via secondary dominant — see harmony track).\n\n**Modulation**: established change of tonic. Major scales provide the target collection for the new key. Ear training: follow the pivot chord or sudden new accidental set."
+        }
+      ]
+    },
+    {
+      "id": "scale-networks",
+      "title": "Scale networks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Relative minor shares the same key signature (A minor ↔ C major). Parallel minor shares the same tonic (C minor ↔ C major). Advanced musicians flip between these views when arranging or improvising."
+        }
+      ]
+    },
+    {
+      "id": "representative-depth-not-exhaustive",
+      "title": "Representative depth (not exhaustive)",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Know the **major scale as a system** — not every historical variant (musical modes, maqam, rag) which belong to regional units. This lesson closes the major-scale thread; modes get their own spiral in foundations and in Celtic/Irish regional study."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Parallel minor shares the same tonic as major.\n\n**Answer:** True\n\n### Q2. Relative minor shares the same key signature as its relative major.\n\n**Answer:** True\n\n### Q3. ♭VII in a major key is a borrowed scale degree from parallel minor.\n\n**Answer:** True\n\n### Q4. Tonicisation is temporary emphasis of a non-tonic key area.\n\n**Answer:** True\n\n### Q5. Modulation means a sustained change of tonic.\n\n**Answer:** True\n\n### Q6. C major and A minor are relative keys.\n\n**Answer:** True\n\n### Q7. C major and C minor are parallel keys.\n\n**Answer:** True\n\n### Q8. Secondary dominants belong to a later harmony tier.\n\n**Answer:** True\n\n### Q9. Advanced scale study supports score analysis more than first-time reading.\n\n**Answer:** True\n\n### Q10. Modal mixture adds colour without leaving major entirely.\n\n**Answer:** True\n\n### Q11. Pivot chords can smooth modulation between keys.\n\n**Answer:** True\n\n### Q12. Every world tradition uses WWHWWWH major — False globally, but True as Western major definition.\n\n**Answer:** False\n\n### Q13. Secure degree naming is prerequisite for borrowed-chord analysis.\n\n**Answer:** True\n\n### Q14. Regional units revisit scales in Irish, Arabic, and Indian contexts.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Parallel minor shares the same tonic as major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Relative minor shares the same key signature as its relative major.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "♭VII in a major key is a borrowed scale degree from parallel minor.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Tonicisation is temporary emphasis of a non-tonic key area.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Modulation means a sustained change of tonic.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "C major and A minor are relative keys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "C major and C minor are parallel keys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Secondary dominants belong to a later harmony tier.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Advanced scale study supports score analysis more than first-time reading.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Modal mixture adds colour without leaving major entirely.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Pivot chords can smooth modulation between keys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Every world tradition uses WWHWWWH major — False globally, but True as Western major definition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "Correct answer: False"
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Secure degree naming is prerequisite for borrowed-chord analysis.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Regional units revisit scales in Irish, Arabic, and Indian contexts.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-scales-major-advanced-quiz",
+    "title": "Major Scales — Advanced quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "truefalse",
+        "prompt": "Parallel minor shares the same tonic as major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Relative minor shares the same key signature as its relative major.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "♭VII in a major key is a borrowed scale degree from parallel minor.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Tonicisation is temporary emphasis of a non-tonic key area.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Modulation means a sustained change of tonic.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "C major and A minor are relative keys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "C major and C minor are parallel keys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Secondary dominants belong to a later harmony tier.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Advanced scale study supports score analysis more than first-time reading.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Modal mixture adds colour without leaving major entirely.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Pivot chords can smooth modulation between keys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Every world tradition uses WWHWWWH major — False globally, but True as Western major definition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Correct answer: False"
+      },
+      {
+        "id": "q13",
+        "type": "truefalse",
+        "prompt": "Secure degree naming is prerequisite for borrowed-chord analysis.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "Regional units revisit scales in Irish, Arabic, and Indian contexts.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

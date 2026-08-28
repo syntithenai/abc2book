@@ -1,0 +1,938 @@
+{
+  "id": "regions-french-occitan-01-overview",
+  "title": "Occitan Folk Music — Overview",
+  "track": "regions",
+  "tier": 1,
+  "region": "french-occitan",
+  "difficulty": 3,
+  "prerequisites": [
+    "regions-celtic-ireland-01-overview"
+  ],
+  "tags": [
+    "french",
+    "occitan",
+    "french-acadian",
+    "overview"
+  ],
+  "path": "10-regions/french-acadian/occitan/01-overview.md",
+  "sections": [
+    {
+      "id": "occitan-folk-music-overview",
+      "title": "Occitan Folk Music — Overview",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** French & Acadian Folk | **Region:** french-occitan | **Tier:** 1\n**Prerequisites:** regions-celtic-ireland-01-overview\n**Tags:** french, occitan, french-acadian, overview"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.\n\nOccitan Folk Music belongs to the **French & Acadian Folk** curriculum. Occitan folk ensembles\n\nThis lesson develops listening precision for **Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-quebec",
+      "title": "Compared with Quebec",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Quebecois Traditional Music** (`regions-french-quebec-01-overview`) covers the same lesson slot from the anchor perspective. This lesson stresses: **Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.**.\n\n| Topic | Quebec anchor | Occitan Folk Music (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | Quebecois Traditional Music spans fiddle, voice leading voices, reels, jigs, qua… | Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and… |\n\n**Parallel anchor lesson:** `regions-french-quebec-01-overview`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-01-overview`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.\n\nStudy **occitan folk music** through listening first. Wikipedia's article on [Music of Occitania](https://en.wikipedia.org/wiki/Music_of_Occitania) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **French & Acadian Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **bodega, voice, flute**. Ensemble layer: **accordion, guitar**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **ball, couplet**. Dance context: **farandole, bal**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **southern France revival**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Occitan dance airs**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.\n- Lead instruments: bodega, voice, flute\n- Ensemble: accordion, guitar\n- Forms: ball, couplet\n- Dance: farandole, bal\n- History: southern France revival\n- Scenes: festivals\n- Repertoire: Occitan dance airs\n- Compared with Quebec: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Occitan Folk Music is a living tradition with regional accent.\n- Focus: Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal..\n- Compared with Quebec: shared heritage, distinct emphasis.\n- Forms: ball, couplet.\n- Dance: farandole, bal.\n- Transmission: southern France revival."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nO\nc\nc\ni\nt\na\nn\ni\na\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nO\nc\nc\ni\nt\na\nn\ni\na\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nQ\nu\ne\nb\ne\nc\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "occitan-folk-ensembles",
+      "type": "artist",
+      "name": "Occitan folk ensembles",
+      "summary": "Representative musician or ensemble in french-occitan trad",
+      "blurb": "Study Occitan folk ensembles for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Occitan_folk_ensembles",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "occitan-folk-music",
+      "type": "band",
+      "name": "Occitan Folk Music",
+      "summary": "Representative musician or ensemble in french-occitan trad",
+      "blurb": "Study Occitan Folk Music for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Occitan_Folk_Music",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "occitan-folk-ensembles",
+    "occitan-folk-music"
+  ],
+  "playlist": [
+    {
+      "id": "regions-french-occitan-01-overview-pl1",
+      "entity_id": "occitan-folk-ensembles",
+      "label": "Occitan folk ensembles — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Occitan folk ensembles"
+    },
+    {
+      "id": "regions-french-occitan-01-overview-pl2",
+      "entity_id": "occitan-folk-music",
+      "label": "Occitan Folk Music — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Occitan Folk Music"
+    },
+    {
+      "id": "regions-french-occitan-01-overview-pl3",
+      "label": "Occitan Folk Music — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-french-occitan-01-overview-pl4",
+      "label": "Occitan Folk Music — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Occitan Folk Music rewards comparative study.",
+    "Focus: Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: ball, couplet.",
+    "Dance: farandole, bal.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Occitan Folk Music is a living tradition with regional accent.",
+    "Focus: Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal..",
+    "Compared with Quebec: shared heritage, distinct emphasis.",
+    "Transmission: southern France revival."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Occitania",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "French & Acadian Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "Occitan Folk Music spans bodega, voice, flute leading voices",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Occitania",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.\n\n### Q2. Occitan Folk Music rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Quebec, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) bodega, voice, flute\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) bodega, voice, flute\n\n### Q5. Ensemble voices include:\n- A) accordion, guitar\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) accordion, guitar\n\n### Q6. Tune and song forms include:\n- A) ball, couplet\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) ball, couplet\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) southern France revival\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) southern France revival\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Occitan dance airs\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Occitan dance airs\n\n### Q12. The Compared with Quebec section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.",
+          "correct": true
+        }
+      ],
+      "explain": ") Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Occitan Folk Music rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Quebec, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "bodega, voice, flute",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Elbow bellows strapped to the player",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") bodega, voice, flute"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "D, G, A, and E minor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "accordion, guitar",
+          "correct": true
+        }
+      ],
+      "explain": ") accordion, guitar"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ball, couplet",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": ") ball, couplet"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "southern France revival",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": ") southern France revival"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": true
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "bodega, voice, flute",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": true
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "bodega, voice, flute",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Occitan dance airs",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "True",
+          "correct": false
+        }
+      ],
+      "explain": ") Occitan dance airs"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Quebec section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ball, couplet",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "bodega, voice, flute",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "accordion, guitar",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-french-occitan-01-overview-quiz",
+    "title": "Occitan Folk Music — Overview quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.",
+            "correct": true
+          }
+        ],
+        "explain": ") Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal."
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Occitan Folk Music rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Quebec, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "bodega, voice, flute",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Elbow bellows strapped to the player",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") bodega, voice, flute"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "D, G, A, and E minor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "accordion, guitar",
+            "correct": true
+          }
+        ],
+        "explain": ") accordion, guitar"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "ball, couplet",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": ") ball, couplet"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "southern France revival",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": ") southern France revival"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": true
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Occitan Folk Music spans bodega, voice, flute leading voices, ball, couplet, and farandole, bal.",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "bodega, voice, flute",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": true
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "bodega, voice, flute",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Occitan dance airs",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "True",
+            "correct": false
+          }
+        ],
+        "explain": ") Occitan dance airs"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Quebec section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "ball, couplet",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "bodega, voice, flute",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "accordion, guitar",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

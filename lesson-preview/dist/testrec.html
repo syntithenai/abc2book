@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Capture</title>
+</head>
+<body>
+  <button onclick="startRecording()">Start Recording</button>
+  <button onclick="stopRecording()">Stop Recording</button>
+  <div id="audioOutput"></div>
+
+  <script>
+    let audioChunks = [];
+    let mediaRecorder;
+
+    // Check if getUserMedia is supported
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+      // Request access to the microphone
+      navigator.mediaDevices.getUserMedia({ audio: true })
+        .then(function(stream) {
+          // Create a MediaRecorder instance
+          mediaRecorder = new MediaRecorder(stream);
+
+          // Listen to data available event
+          mediaRecorder.ondataavailable = function(event) {
+            if (event.data.size > 0) {
+              audioChunks.push(event.data);
+            }
+          };
+
+          // Listen to stop event
+          mediaRecorder.onstop = function() {
+			  console.log('stop recprdomg',audioChunks)
+            // Concatenate audio chunks and convert to base64
+            const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+            const reader = new FileReader();
+            reader.onloadend = function() {
+				console.log('stop recprdomg read b',reader.result)
+              const base64data = reader.result.split(',')[1];
+              displayBase64Audio(reader.result);
+            };
+            reader.readAsDataURL(audioBlob);
+          };
+        })
+        .catch(function(error) {
+          console.error('Error accessing microphone:', error);
+        });
+    } else {
+      console.error('getUserMedia is not supported in this browser');
+    }
+
+    function startRecording() {
+      audioChunks = [];
+      mediaRecorder.start();
+    }
+
+    function stopRecording() {
+      mediaRecorder.stop();
+    }
+
+    function displayBase64Audio(base64data) {
+      // Display the base64 audio data
+      const audioOutput = document.getElementById('audioOutput');
+      audioOutput.innerHTML = '<audio controls src="' + base64data + '"></audio>';
+    }
+  </script>
+</body>
+</html>

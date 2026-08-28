@@ -23,6 +23,7 @@ import {
   findStaffWidthForVerticalFit,
   fitSingleViewVertical,
   measureSingleViewPaper,
+  readNotationFitDims,
   readNotationSvgDims,
   buildGigNotationRenderOptions,
 } from '../gigNotationFit'
@@ -164,7 +165,7 @@ export default function PracticeTuneDisplay(props) {
         }))
         const svg = notationRef.current && notationRef.current.querySelector('svg')
         if (!svg) return null
-        const dims = readNotationSvgDims(svg)
+        const dims = readNotationFitDims(svg)
         if (!dims || !(dims.width > 0) || !(dims.height > 0)) return null
         return {
           svg: svg,

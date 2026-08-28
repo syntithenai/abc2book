@@ -1,0 +1,103 @@
+{
+  "id": "04-chopin",
+  "title": "04 Chopin",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "06-history/04-chopin.md",
+  "sections": [
+    {
+      "id": "chopin-piano-colour-and-rubato",
+      "title": "Chopin: Piano Colour and Rubato",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Frédéric Chopin (1810–1849) composed almost exclusively for piano — nocturnes, mazurkas, polonaises, études, ballades, and preludes that redefine touch and colour."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Singing right-hand lines over harmonic left-hand patterns. Revolutionary pedalling. Études address specific technical problems while remaining concert pieces."
+        }
+      ]
+    },
+    {
+      "id": "rubato",
+      "title": "Rubato",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Flexible timing within steady pulse — melody breathes while harmonic framework holds. Parallels oral-tradition phrasing."
+        }
+      ]
+    },
+    {
+      "id": "national-dances",
+      "title": "National dances",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Mazurkas and polonaises embed Polish triple-meter dances in concert music — model for folk-in-classical fusion."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-chopins-primary-instrument",
+      "title": "Q1. Chopin's primary instrument:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Piano\n- B) Bagpipes\n- C) Electric bass\n- D) Synthesizer\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-rubato-flexible-melody-time-within-underlying-pulse",
+      "title": "Q2. Rubato: flexible melody time within underlying pulse.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Chopin's primary instrument:\n\n- A) Piano\n- B) Bagpipes\n- C) Electric bass\n- D) Synthesizer\n\n**Answer:** A\n\n### Q2. Rubato: flexible melody time within underlying pulse.\n\n**Answer:** True"
+}

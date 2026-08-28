@@ -60,6 +60,46 @@ describe('startEnhanceJobs', function() {
     expect(enqueueLookup.mock.calls[0][0].options).toEqual({ preferChords: true })
   })
 
+  test('bulk enhance suppresses field-lookup review and starts the queue once', function() {
+    const enqueueLookup = jest.fn().mockReturnValue('job-1')
+    const start = jest.fn()
+    const tunes = [
+      { id: 't1', name: 'Song One' },
+      { id: 't2', name: 'Song Two' },
+    ]
+    const result = startEnhanceJobs(
+      tunes,
+      selectionWith(['lookupLyrics', 'artist']),
+      {
+        backgroundEnhance: true,
+        fieldLookupQueue: { enqueueLookup: enqueueLookup, start: start },
+      }
+    )
+    expect(result.fieldLookups).toBe(4)
+    expect(enqueueLookup.mock.calls.every(function(call) {
+      return call[0].options && call[0].options.suppressReview === true
+    })).toBe(true)
+    expect(start).toHaveBeenCalledTimes(1)
+  })
+
+  test('blocks when login is required', function() {
+    const enqueueLookup = jest.fn()
+    const result = startEnhanceJobs(
+      [{ id: 't1', name: 'Song' }],
+      selectionWith(['lookupLyrics']),
+      {
+        needsLogin: true,
+        loginWarning: { message: 'Login to continue', showLoginButton: true },
+        fieldLookupQueue: { enqueueLookup: enqueueLookup },
+      }
+    )
+    expect(result.started).toBe(0)
+    expect(result.blockedKind).toBe('login')
+    expect(result.blockedReason).toMatch(/Login/)
+    expect(enqueueLookup).not.toHaveBeenCalled()
+    expect(enhanceStartToastMessage(result)).toMatch(/Login/)
+  })
+
   test('skips YouTube search when links are already present', function() {
     const enqueueLookup = jest.fn()
     const tune = { id: 't1', name: 'Song', links: [{ link: 'https://youtu.be/abc' }] }

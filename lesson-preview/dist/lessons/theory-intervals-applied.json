@@ -1,0 +1,541 @@
+{
+  "id": "theory-intervals-applied",
+  "title": "Intervals — Applied",
+  "track": "theory",
+  "tier": "applied",
+  "region": null,
+  "difficulty": 4,
+  "prerequisites": [
+    "theory-intervals-intro"
+  ],
+  "tags": [
+    "intervals",
+    "harmony",
+    "compound"
+  ],
+  "path": "00-theory/01-foundations/06-intervals-applied.md",
+  "sections": [
+    {
+      "id": "intervals-applied",
+      "title": "Intervals — Applied",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** applied | **Difficulty:** 4/10\n**Prerequisites:** Intervals — Introduction\n**Tags:** intervals, harmony, compound"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Invert intervals, spell them in any key, and recognise compound intervals (beyond the octave) in repertoire."
+        }
+      ]
+    },
+    {
+      "id": "inversion",
+      "title": "Inversion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Invert an interval by moving the lower note up an octave (or lower the upper). **Rule:** simple intervals sum to 9 (third ↔ sixth). Major becomes minor and vice versa; perfect stays perfect."
+        }
+      ]
+    },
+    {
+      "id": "compound-intervals",
+      "title": "Compound intervals",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Ninth = octave + second. Eleventh = octave + fourth. Used in jazz extensions and some folk ornaments — label the simple interval first, then add octave."
+        }
+      ]
+    },
+    {
+      "id": "harmonic-use",
+      "title": "Harmonic use",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Major and minor thirds build triads (next chord tier). Perfect fifths stabilise; tritones create tension resolved in cadences."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Inversion of a major third is:\n\n- A) Minor sixth\n- B) Major sixth\n- C) Perfect fifth\n- D) Minor third\n\n**Answer:** A\n\n### Q2. Simple intervals invert to sum to nine.\n\n**Answer:** True\n\n### Q3. Compound ninth is an octave plus a second.\n\n**Answer:** True\n\n### Q4. Major third plus minor third stack to major triad.\n\n**Answer:** True\n\n### Q5. Tritone is augmented fourth or diminished fifth.\n\n**Answer:** True\n\n### Q6. Spell M3 above G: B.\n\n**Answer:** True\n\n### Q7. Perfect intervals invert to perfect.\n\n**Answer:** True\n\n### Q8. Applied intervals support chord spelling.\n\n**Answer:** True\n\n### Q9. Compound intervals exceed an octave.\n\n**Answer:** True\n\n### Q10. Minor sixth inverts to major third.\n\n**Answer:** True\n\n### Q11. Interval fluency speeds transposition.\n\n**Answer:** True\n\n### Q12. Harmonic series relates to perfect fifth and octave.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Inversion of a major third is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Minor sixth",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Minor sixth"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Simple intervals invert to sum to nine.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Compound ninth is an octave plus a second.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Major third plus minor third stack to major triad.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Tritone is augmented fourth or diminished fifth.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Spell M3 above G: B.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Perfect intervals invert to perfect.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Applied intervals support chord spelling.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Compound intervals exceed an octave.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Minor sixth inverts to major third.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Interval fluency speeds transposition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Harmonic series relates to perfect fifth and octave.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-intervals-applied-quiz",
+    "title": "Intervals — Applied quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Inversion of a major third is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Minor sixth",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Minor sixth"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Simple intervals invert to sum to nine.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "Compound ninth is an octave plus a second.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Major third plus minor third stack to major triad.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Tritone is augmented fourth or diminished fifth.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "Spell M3 above G: B.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Perfect intervals invert to perfect.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Applied intervals support chord spelling.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Compound intervals exceed an octave.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Minor sixth inverts to major third.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Interval fluency speeds transposition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Harmonic series relates to perfect fifth and octave.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

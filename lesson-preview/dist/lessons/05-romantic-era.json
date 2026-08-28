@@ -1,0 +1,103 @@
+{
+  "id": "05-romantic-era",
+  "title": "05 Romantic Era",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "10-music-periods/05-romantic-era.md",
+  "sections": [
+    {
+      "id": "romantic-era-overview-18101900",
+      "title": "Romantic Era Overview (1810–1900)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Romanticism: individual expression, nationalism, expanded orchestra, programme music."
+        }
+      ]
+    },
+    {
+      "id": "composers",
+      "title": "Composers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Chopin, Schumann, Liszt, Brahms, Wagner, Tchaikovsky, Mahler. Symphonies grow to 80+ minutes."
+        }
+      ]
+    },
+    {
+      "id": "nationalism",
+      "title": "Nationalism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Folk melodies in concert works legitimised oral tradition for middle-class audiences."
+        }
+      ]
+    },
+    {
+      "id": "virtuosity",
+      "title": "Virtuosity",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Paganini, Liszt — performer-composers as celebrities. Virtuoso tradition continues in trad festival competition."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-romantic-era-emphasised",
+      "title": "Q1. Romantic era emphasised:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Personal expression and nationalism\n- B) Strict church modes only\n- C) No orchestras\n- D) Unmeasured chant\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-wagner-expanded-opera-with-leitmotifs-and-huge-forces",
+      "title": "Q2. Wagner expanded opera with leitmotifs and huge forces.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Romantic era emphasised:\n\n- A) Personal expression and nationalism\n- B) Strict church modes only\n- C) No orchestras\n- D) Unmeasured chant\n\n**Answer:** A\n\n### Q2. Wagner expanded opera with leitmotifs and huge forces.\n\n**Answer:** True"
+}

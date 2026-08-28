@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Form, Modal } from 'react-bootstrap'
-import { Document, Page, Outline, pdfjs } from 'react-pdf'
+import { Document, Page, Outline } from 'react-pdf'
 import 'react-pdf/dist/Page/TextLayer.css'
 import 'react-pdf/dist/Page/AnnotationLayer.css'
 import { clampFileViewZoom } from './FileZoomControls'
@@ -13,12 +13,7 @@ import {
   computeAlignedNextPage,
   computeAlignedPrevPage,
 } from '../pdfSpreadNavigation'
-
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString()
-
+import '../pdfJsConfig'
 function normalizeIndexFilter(text) {
   return String(text || '').trim().toLowerCase()
 }

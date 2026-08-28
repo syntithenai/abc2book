@@ -144,6 +144,7 @@ export function createQueue(options) {
     followTune: opts.followTune !== undefined ? !!opts.followTune : false,
     autoAdvance: opts.autoAdvance !== false,
     shuffle: !!opts.shuffle,
+    preferMidi: !!opts.preferMidi,
     shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
@@ -348,6 +349,16 @@ export function setShuffle(queue, shuffle) {
     shuffle: true,
     shuffleOrder: buildShuffleOrder(queue.items.length, idx),
   })
+}
+
+/** Prefer ABC MIDI over media links for play / next / prev when enabled. */
+export function setPreferMidi(queue, preferMidi) {
+  if (!queue) return null
+  return Object.assign({}, queue, { preferMidi: !!preferMidi })
+}
+
+export function isPreferMidi(queue) {
+  return !!(queue && queue.preferMidi)
 }
 
 export function clearQueue() {
@@ -638,7 +649,7 @@ export function tuneHasMidiNotes(tune, tunebook) {
   return typeof tunebook.hasNotesOrChords === 'function' && tunebook.hasNotesOrChords(tune)
 }
 
-export function resolvePlaybackForItem(tune, item, tunebook) {
+export function resolvePlaybackForItem(tune, item, tunebook, options) {
   if (!item) return null
   if (isExternalQueueItem(item)) {
     if (item.externalMedia && item.externalMedia.youtubeId) {
@@ -647,14 +658,16 @@ export function resolvePlaybackForItem(tune, item, tunebook) {
     return { type: 'external', externalMedia: item.externalMedia }
   }
   if (!tune || !tunebook) return null
+  const opts = options || {}
+  const forceMidi = !!opts.preferMidi
   const prefer = item.prefer || 'auto'
   const hasNotes = tuneHasMidiNotes(tune, tunebook)
   const hasLinks = tunebook.hasLinks(tune)
 
-  if (item.linkIndex != null && Array.isArray(tune.links) && tune.links[item.linkIndex]) {
+  if (!forceMidi && item.linkIndex != null && Array.isArray(tune.links) && tune.links[item.linkIndex]) {
     return { type: 'media', linkNum: item.linkIndex }
   }
-  if (prefer === 'midi' && hasNotes) return { type: 'midi', linkNum: null }
+  if ((forceMidi || prefer === 'midi') && hasNotes) return { type: 'midi', linkNum: null }
   if (prefer === 'media' && hasLinks) return { type: 'media', linkNum: 0 }
   if (prefer === 'auto' && hasNotes && hasLinks) {
     const firstLink = tune.links[0]

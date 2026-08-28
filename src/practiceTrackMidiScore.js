@@ -44,8 +44,10 @@ export function buildPracticeTrackExportAbc(tune, tunebook) {
  * @param {object} tune
  * @param {object} tunebook
  * @param {object} [plan] - TimingSongPlan for metadata attachment
+ * @param {object} [opts]
+ * @param {boolean} [opts.melodyOnlyForGuide=true] - Omit abcjs chord track (harmony from chord chart)
  */
-export function buildPracticeTrackMidiScore(tune, tunebook, plan) {
+export function buildPracticeTrackMidiScore(tune, tunebook, plan, opts = {}) {
   const abc = buildPracticeTrackExportAbc(tune, tunebook);
   if (!abc || !String(abc).trim()) {
     throw new Error('No notation available for MIDI score');
@@ -56,8 +58,9 @@ export function buildPracticeTrackMidiScore(tune, tunebook, plan) {
 
   const timing = plan && plan.timing ? plan.timing : {};
   const tempo = Math.round(parseFloat(timing.tempoBpm || (tune && tune.tempo)) || 120);
+  const useMelodyOnlyScore = opts.melodyOnlyForGuide !== false;
   const midi = abcjs.synth.getMidiFile(abc, {
-    chordsOff: false,
+    chordsOff: useMelodyOnlyScore,
     midiOutputType: 'binary',
     bpm: tempo,
   });
@@ -87,6 +90,7 @@ export function buildPracticeTrackMidiScore(tune, tunebook, plan) {
         : [],
       strains: strains,
       source: 'notation-midi',
+      melodyOnlyForGuide: useMelodyOnlyScore,
     },
   };
 }

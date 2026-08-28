@@ -1,0 +1,938 @@
+{
+  "id": "regions-latin-southern-cone-03-instruments-voices-ii",
+  "title": "Southern Cone Folk — Ensemble Voices II",
+  "track": "regions",
+  "tier": 3,
+  "region": "latin-southern-cone",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-latin-southern-cone-02-instruments-voices-i"
+  ],
+  "tags": [
+    "latin",
+    "southern-cone",
+    "latin-america",
+    "session",
+    "&"
+  ],
+  "path": "10-regions/latin-america/southern-cone/03-instruments-session-voices-ii.md",
+  "sections": [
+    {
+      "id": "southern-cone-folk-ensemble-voices-ii",
+      "title": "Southern Cone Folk — Ensemble Voices II",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** Latin American Folk | **Region:** latin-southern-cone | **Tier:** 3\n**Prerequisites:** regions-latin-southern-cone-02-instruments-voices-i\n**Tags:** latin, southern-cone, latin-america, session, &"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "bass, percussion\n\nSouthern Cone Folk belongs to the **Latin American Folk** curriculum. Atahualpa Yupanqui\n\nThis lesson develops listening precision for **bass, percussion** — connecting repertoire, instruments, dance, and the institutions that transmit music today.\n\n![Traditional musicians](https://en.wikipedia.org/wiki/Special:FilePath/Fiddle.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-mexico",
+      "title": "Compared with Mexico",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Mexican Folk Music** (`regions-latin-mexico-03-instruments-voices-ii`) covers the same lesson slot from the anchor perspective. This lesson stresses: **bass, percussion**.\n\n| Topic | Mexico anchor | Southern Cone Folk (this lesson) |\n|-------|------------------------------|-------------------------------------|\n| Focus | guitar, vihuela, percussion… | bass, percussion… |\n\n**Parallel anchor lesson:** `regions-latin-mexico-03-instruments-voices-ii`\n**Secondary comparison (Ireland):** `regions-celtic-ireland-03-instruments-voices-ii`"
+        }
+      ]
+    },
+    {
+      "id": "core-material",
+      "title": "Core material",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "bass, percussion\n\nStudy **southern cone folk** through listening first. Wikipedia's article on [Music of Argentina](https://en.wikipedia.org/wiki/Music_of_Argentina) orients geography and history; recordings prove how musicians phrase ornaments, tempo, and ensemble balance in real rooms."
+        }
+      ]
+    },
+    {
+      "id": "regional-accent-and-social-context",
+      "title": "Regional accent and social context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tradition lives in **community practice** — festivals, dances, teaching networks, and archives — not only on concert stages. For **Latin American Folk**, ask who leads (voice, fiddle, pipes, percussion), whether dance drives repertoire, and how revival institutions shaped what you hear on modern recordings."
+        }
+      ]
+    },
+    {
+      "id": "instruments-and-voices-in-this-lesson",
+      "title": "Instruments and voices in this lesson",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lead voices: **guitar, bandoneon, voice**. Ensemble layer: **bass, percussion**. Compare timbre and role with the anchor unit before assuming techniques transfer unchanged."
+        }
+      ]
+    },
+    {
+      "id": "forms-dance-and-rhythm",
+      "title": "Forms, dance, and rhythm",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Named forms include **chacarera, zamba, tango folk roots**. Dance context: **dance**. Metre and foot-tap feel are not decorative — they explain why musicians accent certain beats and phrase repeats."
+        }
+      ]
+    },
+    {
+      "id": "history-transmission-and-today",
+      "title": "History, transmission, and today",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Historical threads: **gaucho tradition**. Contemporary scenes: **festivals**. Tune repertoire anchor: **Zamba forms**. Follow lesson playlists and reading lists for recorded examples."
+        }
+      ]
+    },
+    {
+      "id": "listening-habits",
+      "title": "Listening habits",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1. Queue one field or archive recording and one contemporary ensemble track.\n2. Log metre, lead instrument, ornament, and social context in four columns.\n3. Return to the parallel anchor lesson if comparison feels abstract.\n4. Avoid generic world-music compilations when building ear training."
+        }
+      ]
+    },
+    {
+      "id": "study-facts",
+      "title": "Study facts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- bass, percussion\n- Lead instruments: guitar, bandoneon, voice\n- Ensemble: bass, percussion\n- Forms: chacarera, zamba, tango folk roots\n- Dance: dance\n- History: gaucho tradition\n- Scenes: festivals\n- Repertoire: Zamba forms\n- Compared with Mexico: regional accent and social context differ.\n- Revival movements and media shaped twentieth-century practice.\n- Dance rhythm and tune metre are linked in this tradition."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Southern Cone Folk is a living tradition with regional accent.\n- Focus: bass, percussion.\n- Compared with Mexico: shared heritage, distinct emphasis.\n- Forms: chacarera, zamba, tango folk roots.\n- Dance: dance.\n- Transmission: gaucho tradition."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "-\n \n[\nM\nu\ns\ni\nc\n \no\nf\n \nA\nr\ng\ne\nn\nt\ni\nn\na\n]\n(\nh\nt\nt\np\ns\n:\n/\n/\ne\nn\n.\nw\ni\nk\ni\np\ne\nd\ni\na\n.\no\nr\ng\n/\nw\ni\nk\ni\n/\nM\nu\ns\ni\nc\n_\no\nf\n_\nA\nr\ng\ne\nn\nt\ni\nn\na\n)\n \n—\n \no\nr\ni\ne\nn\nt\na\nt\ni\no\nn\n\n\n-\n \nC\no\nm\np\na\nn\ni\no\nn\n \nl\ni\ns\nt\ne\nn\ni\nn\ng\n:\n \nl\ne\ns\ns\no\nn\n \np\nl\na\ny\nl\ni\ns\nt\n \ni\nn\n \nm\ne\nt\na\nd\na\nt\na\n\n\n-\n \nP\na\nr\na\nl\nl\ne\nl\n \ns\nt\nu\nd\ny\n:\n \nM\ne\nx\ni\nc\no\n \na\nn\nc\nh\no\nr\n \nu\nn\ni\nt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "atahualpa-yupanqui",
+      "type": "artist",
+      "name": "Atahualpa Yupanqui",
+      "summary": "Representative musician or ensemble in latin-southern-cone trad",
+      "blurb": "Study Atahualpa Yupanqui for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Atahualpa_Yupanqui",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "southern-cone-folk",
+      "type": "band",
+      "name": "Southern Cone Folk",
+      "summary": "Representative musician or ensemble in latin-southern-cone trad",
+      "blurb": "Study Southern Cone Folk for regional accent, ornament, and repertoire context.",
+      "url": "https://en.wikipedia.org/wiki/Southern_Cone_Folk",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Musician.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [
+    "atahualpa-yupanqui",
+    "southern-cone-folk"
+  ],
+  "playlist": [
+    {
+      "id": "regions-latin-southern-cone-03-instruments-voices-ii-pl1",
+      "entity_id": "atahualpa-yupanqui",
+      "label": "Atahualpa Yupanqui — performance",
+      "youtube": "https://www.youtube.com/watch?v=1q8n1vL5v5Y",
+      "subtitle": "Atahualpa Yupanqui"
+    },
+    {
+      "id": "regions-latin-southern-cone-03-instruments-voices-ii-pl2",
+      "entity_id": "southern-cone-folk",
+      "label": "Southern Cone Folk — performance",
+      "youtube": "https://www.youtube.com/watch?v=5K6FwA7uAfw",
+      "subtitle": "Southern Cone Folk"
+    },
+    {
+      "id": "regions-latin-southern-cone-03-instruments-voices-ii-pl3",
+      "label": "Southern Cone Folk — field recording 3",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": ""
+    },
+    {
+      "id": "regions-latin-southern-cone-03-instruments-voices-ii-pl4",
+      "label": "Southern Cone Folk — field recording 4",
+      "youtube": "https://www.youtube.com/watch?v=VqrUm7Qn8tc",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Southern Cone Folk rewards comparative study.",
+    "Focus: bass, percussion.",
+    "Listen for regional accent, not generic labels.",
+    "Forms: chacarera, zamba, tango folk roots.",
+    "Dance: dance.",
+    "Archives, festivals, and recordings transmit repertoire.",
+    "Southern Cone Folk is a living tradition with regional accent.",
+    "Compared with Mexico: shared heritage, distinct emphasis.",
+    "Transmission: gaucho tradition."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Music of Argentina",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Argentina",
+      "note": "Regional orientation"
+    },
+    {
+      "type": "link",
+      "title": "Latin American Folk",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Argentina",
+      "note": "Curriculum context"
+    },
+    {
+      "type": "link",
+      "title": "Folk music",
+      "url": "https://en.wikipedia.org/wiki/Folk_music",
+      "note": "Transmission concepts"
+    },
+    {
+      "type": "book",
+      "title": "World Music: A Global Journey",
+      "author": "Andrew Shahriari",
+      "note": "Survey chapter reference"
+    },
+    {
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "url": "https://folkways.si.edu/",
+      "note": "Archive recordings"
+    },
+    {
+      "type": "link",
+      "title": "bass, percussion",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Argentina",
+      "note": "Lesson focus area"
+    }
+  ],
+  "quiz_markdown": "### Q1. The main focus of this lesson is:\n- A) bass, percussion\n- B) Only electronic dance music\n- C) Only opera competitions\n- D) Only music theory exams\n**Answer:** A) bass, percussion\n\n### Q2. Southern Cone Folk rewards listening to regional recordings before generic compilations.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q3. Compared with Mexico, learners should note:\n- A) Identical repertoire everywhere\n- B) Regional accent and social context differ\n- C) No dance connection\n- D) No oral tradition\n**Answer:** B) Regional accent and social context differ\n\n### Q4. Lead instruments discussed include:\n- A) guitar, bandoneon, voice\n- B) Only synthesizers\n- C) Only trumpet concertos\n- D) Only drum machines\n**Answer:** A) guitar, bandoneon, voice\n\n### Q5. Ensemble voices include:\n- A) bass, percussion\n- B) Only solo harp\n- C) Only symphony orchestra\n- D) Only DJ controllers\n**Answer:** A) bass, percussion\n\n### Q6. Tune and song forms include:\n- A) chacarera, zamba, tango folk roots\n- B) Only 4/4 rock\n- C) Only serialism\n- D) Only Gregorian chant\n**Answer:** A) chacarera, zamba, tango folk roots\n\n### Q7. Dance rhythm and tune metre are linked in this tradition.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q8. Historical transmission involves:\n- A) gaucho tradition\n- B) No community memory\n- C) Only printed scores from 1700\n- D) Only streaming algorithms\n**Answer:** A) gaucho tradition\n\n### Q9. Contemporary scenes include:\n- A) festivals\n- B) No living musicians\n- C) Only museum exhibits\n- D) Only silent film\n**Answer:** A) festivals\n\n### Q10. Revival movements and media shaped twentieth-century practice.\n- A) True\n- B) False\n**Answer:** A) True\n\n### Q11. Representative repertoire includes:\n- A) Zamba forms\n- B) No named tunes\n- C) Only one melody worldwide\n- D) Tunes forbidden in archives\n**Answer:** A) Zamba forms\n\n### Q12. The Compared with Mexico section highlights both shared heritage and national accent.\n- A) True\n- B) False\n**Answer:** A) True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "The main focus of this lesson is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "gaucho tradition",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "bass, percussion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "chacarera, zamba, tango folk roots",
+          "correct": false
+        }
+      ],
+      "explain": ") bass, percussion"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Southern Cone Folk rewards listening to regional recordings before generic compilations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zamba forms",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "gaucho tradition",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "festivals",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Mexico, learners should note:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional accent and social context differ",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "festivals",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zamba forms",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") Regional accent and social context differ"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lead instruments discussed include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zamba forms",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "guitar, bandoneon, voice",
+          "correct": true
+        }
+      ],
+      "explain": ") guitar, bandoneon, voice"
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Ensemble voices include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "bass, percussion",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": ") bass, percussion"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Tune and song forms include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "chacarera, zamba, tango folk roots",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": ") chacarera, zamba, tango folk roots"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Historical transmission involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "gaucho tradition",
+          "correct": true
+        }
+      ],
+      "explain": ") gaucho tradition"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Contemporary scenes include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "festivals",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        }
+      ],
+      "explain": ") festivals"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Revival movements and media shaped twentieth-century practice.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Zamba forms",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Representative repertoire includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Zamba forms",
+          "correct": true
+        }
+      ],
+      "explain": ") Zamba forms"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        }
+      ],
+      "explain": ") True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-latin-southern-cone-03-instruments-voices-ii-quiz",
+    "title": "Southern Cone Folk — Ensemble Voices II quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "The main focus of this lesson is:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "gaucho tradition",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "bass, percussion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "chacarera, zamba, tango folk roots",
+            "correct": false
+          }
+        ],
+        "explain": ") bass, percussion"
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "Southern Cone Folk rewards listening to regional recordings before generic compilations.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Zamba forms",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "gaucho tradition",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "festivals",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Mexico, learners should note:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regional accent and social context differ",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "festivals",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Zamba forms",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") Regional accent and social context differ"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Lead instruments discussed include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Zamba forms",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "guitar, bandoneon, voice",
+            "correct": true
+          }
+        ],
+        "explain": ") guitar, bandoneon, voice"
+      },
+      {
+        "id": "q5",
+        "type": "mcq",
+        "prompt": "Ensemble voices include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "bass, percussion",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": ") bass, percussion"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Tune and song forms include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "chacarera, zamba, tango folk roots",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": ") chacarera, zamba, tango folk roots"
+      },
+      {
+        "id": "q7",
+        "type": "mcq",
+        "prompt": "Dance rhythm and tune metre are linked in this tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q8",
+        "type": "mcq",
+        "prompt": "Historical transmission involves:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "gaucho tradition",
+            "correct": true
+          }
+        ],
+        "explain": ") gaucho tradition"
+      },
+      {
+        "id": "q9",
+        "type": "mcq",
+        "prompt": "Contemporary scenes include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "festivals",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          }
+        ],
+        "explain": ") festivals"
+      },
+      {
+        "id": "q10",
+        "type": "mcq",
+        "prompt": "Revival movements and media shaped twentieth-century practice.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Zamba forms",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      },
+      {
+        "id": "q11",
+        "type": "mcq",
+        "prompt": "Representative repertoire includes:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Zamba forms",
+            "correct": true
+          }
+        ],
+        "explain": ") Zamba forms"
+      },
+      {
+        "id": "q12",
+        "type": "mcq",
+        "prompt": "The Compared with Mexico section highlights both shared heritage and national accent.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          }
+        ],
+        "explain": ") True"
+      }
+    ]
+  }
+}

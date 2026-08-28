@@ -275,6 +275,7 @@ export default function IndexSearchForm(props) {
                 <GroupBySelectorModal
                     onChange={function(val) { props.setGroupBy(val)}}
                     value={props.groupBy}
+                    currentTuneBook={props.currentTuneBook}
                     tunebook={props.tunebook}
                     hideSelection={hideSelection}
                 />

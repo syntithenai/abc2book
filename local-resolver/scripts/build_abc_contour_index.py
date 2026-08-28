@@ -5,7 +5,7 @@ Default: FolkTuneFinder + Norbeck + JC collections from textsearch_index.json.
 
   python3 local-resolver/scripts/build_abc_contour_index.py
   python3 local-resolver/scripts/build_abc_contour_index.py --limit 5000
-  docker exec -w /app abc2book-local-resolver python3 /app/www/local-resolver/scripts/build_abc_contour_index.py
+  docker exec -w /app abc2book-local-resolver python3 /static/www/local-resolver/scripts/build_abc_contour_index.py
 """
 
 from __future__ import annotations

@@ -14,6 +14,9 @@ import {
   shouldSkipListRebuildForTuneEdit,
   GROUP_BY_TUNE_STATUS,
   GROUP_BY_TUNE_STATUS_DETAILED,
+  GROUP_BY_PAGE,
+  GROUP_BY_NONE,
+  resolveEffectiveGroupBy,
   shouldScanTuneStatusExtras,
   shouldScanTuneMusicalStatus,
 } from './tuneListFilter'
@@ -281,6 +284,45 @@ describe('tuneListFilter', function() {
     })
     expect(next.a.hasInlineChords).toBe(true)
     expect(next.a.extrasScanned).toBe(true)
+  })
+
+  test('resolveEffectiveGroupBy applies page grouping for active book filters', function() {
+    expect(resolveEffectiveGroupBy('', 'nff book 2009')).toBe(GROUP_BY_PAGE)
+    expect(resolveEffectiveGroupBy(GROUP_BY_PAGE, 'nff book 2009')).toBe(GROUP_BY_PAGE)
+    expect(resolveEffectiveGroupBy(GROUP_BY_NONE, 'nff book 2009')).toBe('')
+    expect(resolveEffectiveGroupBy('tags', 'nff book 2009')).toBe('tags')
+    expect(resolveEffectiveGroupBy('', '')).toBe('')
+  })
+
+  test('runTuneListFilterSync auto-sorts by book page when a book filter is active', function() {
+    const tunes = {
+      a: makeTune('a', 'Alpha', {
+        books: ['nff book 2009'],
+        bookPages: { 'nff book 2009': { page: 1, tuneIndex: 2 } },
+      }),
+      b: makeTune('b', 'Beta', {
+        books: ['nff book 2009'],
+        bookPages: { 'nff book 2009': { page: 1, tuneIndex: 1 } },
+      }),
+    }
+    const result = runTuneListFilterSync({
+      tunes: tunes,
+      filterSearchFn: function() { return true },
+      groupBy: '',
+      tunebook: {
+        groupTunes: function(list, key) {
+          if (key === GROUP_BY_PAGE) {
+            return { 1: [0, 1] }
+          }
+          return {}
+        },
+        hasLyrics: function() { return false },
+        hasLinks: function() { return false },
+      },
+      filterContext: { currentTuneBook: 'nff book 2009' },
+    })
+    expect(result.filtered.map(function(t) { return t.id })).toEqual(['b', 'a'])
+    expect(result.grouped[1]).toEqual([0, 1])
   })
 })
 

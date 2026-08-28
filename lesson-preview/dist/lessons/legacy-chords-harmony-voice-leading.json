@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-voice-leading",
+  "title": "Voice Leading Basics",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "05-harmony/02-voice-leading.md",
+  "sections": [
+    {
+      "id": "voice-leading-basics",
+      "title": "Voice Leading Basics",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** harmony | **Difficulty:** 5/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Voice leading governs how individual parts move from chord to chord in polyphonic texture."
+        }
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "Principles",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Prefer small steps. Retain common tones between chords. Use contrary motion between outer voices (soprano down, bass up)."
+        }
+      ]
+    },
+    {
+      "id": "classical-rules",
+      "title": "Classical rules",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel perfect fifths and octaves between independent voices weaken line independence. In trad, octave doubling of melody is normal; parallel fifths in two harmony instruments can hollow texture."
+        }
+      ]
+    },
+    {
+      "id": "session-application",
+      "title": "Session application",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bass moves by step or fifth when possible. Harmony on strong beats; passing motion on weak beats."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Smooth voice leading prefers:\n\n- A) Small steps and common tones\n- B) Large leaps always\n- C) Parallel octaves always\n- D) Random chord tones\n\n**Answer:** A\n\n### Q2. Contrary motion: one voice rises, another falls.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Smooth voice leading prefers:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Small steps and common tones",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Small steps and common tones"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Contrary motion: one voice rises, another falls.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-voice-leading-quiz",
+    "title": "Voice Leading Basics quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Smooth voice leading prefers:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Small steps and common tones",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Small steps and common tones"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Contrary motion: one voice rises, another falls.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

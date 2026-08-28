@@ -87,11 +87,22 @@ export async function enrichBulkImportTune(tune, options) {
     signal: opts.signal,
   }
 
+  // Same priority as lyrics editor / Enhance: Ultimate Guitar chords first, then plain lyrics.
+  const chordsSearchBase = Object.assign({}, searchBase, {
+    preferRemoteChords: true,
+    skipLocalChords: true,
+    skipColdIndexLoad: true,
+    forceResolver: resolverAvailable !== false,
+    renderChords: abcjsParser && typeof abcjsParser.renderChords === 'function'
+      ? function(abc) { return abcjsParser.renderChords(abc, true) }
+      : null,
+  })
+
   if (artist) {
   if (isTuneFieldEmptyForKind(next, 'chords')) {
     report('chords')
     try {
-      const chordResult = await searchChords(searchBase)
+      const chordResult = await searchChords(chordsSearchBase)
       const chordCandidate = pickFirstSearchCandidate(chordResult)
       if (chordCandidate && tunebook) {
         commitChordSearchResultToTune({
@@ -111,7 +122,9 @@ export async function enrichBulkImportTune(tune, options) {
   if (isTuneFieldEmptyForKind(next, 'lyrics')) {
     report('lyrics')
     try {
-      const lyricResult = await searchLyrics(searchBase)
+      const lyricResult = await searchLyrics(Object.assign({}, searchBase, {
+        skipColdIndexLoad: true,
+      }))
       const lyricCandidate = pickFirstSearchCandidate(lyricResult)
       if (lyricCandidate) {
         applyCandidateToTune(next, 'lyrics', lyricCandidate, tunebook && tunebook.abcTools)

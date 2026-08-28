@@ -1,0 +1,625 @@
+{
+  "id": "theory-scales-major-applied",
+  "title": "Major Scales — Applied",
+  "track": "theory",
+  "tier": "applied",
+  "region": null,
+  "difficulty": 3,
+  "prerequisites": [
+    "theory-scales-major-intro"
+  ],
+  "tags": [
+    "scales",
+    "major",
+    "keys",
+    "circle-of-fifths"
+  ],
+  "path": "00-theory/01-foundations/04-major-scales-applied.md",
+  "sections": [
+    {
+      "id": "major-scales-applied",
+      "title": "Major Scales — Applied",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** theory | **Tier:** applied | **Difficulty:** 3/10 | **Time:** ~30 min\n**Prerequisites:** Major Scales — Introduction\n**Tags:** scales, major, keys, circle-of-fifths"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Applied tier: construct any major scale, read key signatures, and relate scales to practical keys on your instrument. Revisit WWHWWWH from the intro tier — here you use it for transposition and sight-reading."
+        }
+      ]
+    },
+    {
+      "id": "key-signatures-and-the-circle-of-fifths",
+      "title": "Key signatures and the circle of fifths",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Each sharp key adds one sharp in order: **F♯, C♯, G♯, D♯, A♯, E♯, B♯**.\n\nEach flat key adds one flat: **B♭, E♭, A♭, D♭, G♭, C♭, F♭**.\n\nMoving **clockwise** on the circle of fifths raises the key by a fifth (adds a sharp). Counter-clockwise adds a flat."
+        }
+      ]
+    },
+    {
+      "id": "tetrachords",
+      "title": "Tetrachords",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A major scale splits into two **tetrachords** (W-W-H each). Upper tetrachord of C (G-A-B-C) mirrors the lower (C-D-E-F). Splitting scales this way speeds mental transposition: learn the tetrachord shapes, then join them at the tonic."
+        }
+      ]
+    },
+    {
+      "id": "practical-keys",
+      "title": "Practical keys",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Fiddle, whistle, and guitar session repertoire clusters in **G, D, A, C, E** major (and related modes). Drill scales in these keys until fingerings are automatic before adding remote signatures."
+        }
+      ]
+    },
+    {
+      "id": "spiral-link",
+      "title": "Spiral link",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Intervals (next unit) measure the distances you have been counting as whole and half steps. Cadences (later) explain why degree 5 and degree 7 feel like \"going home.\""
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Order of sharps begins:\n\n- A) F♯ C♯ G♯\n- B) B♭ E♭ A♭\n- C) F♯ B♭ E♭\n- D) C♯ G♯ D♯ only\n\n**Answer:** A\n\n### Q2. A tetrachord in major follows W-W-H.\n\n**Answer:** True\n\n### Q3. D major has two sharps: F♯ and C♯.\n\n**Answer:** True\n\n### Q4. Moving clockwise on the circle of fifths generally adds a sharp.\n\n**Answer:** True\n\n### Q5. A major has three sharps.\n\n**Answer:** True\n\n### Q6. F major has one flat: B♭.\n\n**Answer:** True\n\n### Q7. Two identical tetrachords stack to form a major scale.\n\n**Answer:** True\n\n### Q8. E major is a common session key on fiddle.\n\n**Answer:** True\n\n### Q9. Key signature tells which accidentals apply throughout a piece.\n\n**Answer:** True\n\n### Q10. Transposing a melody from G to D raises every note a perfect fifth.\n\n**Answer:** True\n\n### Q11. B♭ major has two flats.\n\n**Answer:** True\n\n### Q12. Applied scale work supports reading lead sheets in multiple keys.\n\n**Answer:** True\n\n### Q13. Lower tetrachord of G major is G-A-B-C.\n\n**Answer:** True\n\n### Q14. Upper tetrachord of G major is D-E-F♯-G.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Order of sharps begins:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "F♯ C♯ G♯",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Francis O'Neill",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: F♯ C♯ G♯"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "A tetrachord in major follows W-W-H.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "D major has two sharps: F♯ and C♯.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Moving clockwise on the circle of fifths generally adds a sharp.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "A major has three sharps.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "F major has one flat: B♭.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Two identical tetrachords stack to form a major scale.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "E major is a common session key on fiddle.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Key signature tells which accidentals apply throughout a piece.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Transposing a melody from G to D raises every note a perfect fifth.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "B♭ major has two flats.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Applied scale work supports reading lead sheets in multiple keys.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Lower tetrachord of G major is G-A-B-C.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Upper tetrachord of G major is D-E-F♯-G.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "theory-scales-major-applied-quiz",
+    "title": "Major Scales — Applied quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Order of sharps begins:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "F♯ C♯ G♯",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Francis O'Neill",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: F♯ C♯ G♯"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "A tetrachord in major follows W-W-H.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "truefalse",
+        "prompt": "D major has two sharps: F♯ and C♯.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Moving clockwise on the circle of fifths generally adds a sharp.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "A major has three sharps.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "F major has one flat: B♭.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Two identical tetrachords stack to form a major scale.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "E major is a common session key on fiddle.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Key signature tells which accidentals apply throughout a piece.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Transposing a melody from G to D raises every note a perfect fifth.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "B♭ major has two flats.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Applied scale work supports reading lead sheets in multiple keys.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q13",
+        "type": "truefalse",
+        "prompt": "Lower tetrachord of G major is G-A-B-C.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q14",
+        "type": "truefalse",
+        "prompt": "Upper tetrachord of G major is D-E-F♯-G.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

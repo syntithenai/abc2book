@@ -2,8 +2,6 @@ import { useLayoutEffect, useRef } from 'react'
 import abcjs from 'abcjs'
 import {
   applyPlaybackCursorAtTime,
-  resolvePlaybackCursorDuration,
-  playbackClockToTimingMs,
   shouldMirrorMidiPlaybackCursor,
 } from './notationPlaybackCursor'
 
@@ -75,35 +73,47 @@ export default function useNotationPlaybackCursor(props) {
     function syncCursor() {
       if (!canSync()) return
       const timingCallbacks = timingCallbacksRef.current
-      if (!timingCallbacks) return
+      if (!timingCallbacks || !timingCallbacks.noteTimings) return
       const root = containerRef && containerRef.current
       const svg = root ? root.querySelector('svg') : null
       if (!svg) return
-      const lastMoment = timingCallbacks.lastMoment
-      const duration = resolvePlaybackCursorDuration({
-        mediaControllerDuration: mediaController.duration,
-      }) || ((lastMoment > 0) ? lastMoment / 1000 : 0)
-      if (!(duration > 0) && !(lastMoment > 0)) return
       const stateSec = mediaController.currentTime
-      const liveSec = (mediaController.getMidiPlaybackSecondsRef
-        && typeof mediaController.getMidiPlaybackSecondsRef.current === 'function')
-        ? mediaController.getMidiPlaybackSecondsRef.current()
-        : stateSec
+      const cursorSec = (mediaController.getMidiCursorSecondsRef
+        && typeof mediaController.getMidiCursorSecondsRef.current === 'function')
+        ? mediaController.getMidiCursorSecondsRef.current()
+        : null
+      const liveSec = (cursorSec != null && cursorSec >= 0 && isFinite(cursorSec))
+        ? cursorSec
+        : ((mediaController.getMidiPlaybackSecondsRef
+          && typeof mediaController.getMidiPlaybackSecondsRef.current === 'function')
+          ? mediaController.getMidiPlaybackSecondsRef.current()
+          : stateSec)
       const playbackSec = (liveSec >= 0 && isFinite(liveSec)) ? liveSec : stateSec
-      const currentTimeMs = playbackClockToTimingMs(
-        playbackSec,
-        lastMoment,
-        duration
-      )
-      const beatsPerMeasure = (visualObj && typeof visualObj.getBeatsPerMeasure === 'function')
-        ? parseFloat(visualObj.getBeatsPerMeasure())
+      if (!(playbackSec >= 0) && !(mediaController.isPlaying)) return
+      let audibleMpm = 0
+      if (mediaController.getAudibleMsPerMeasureRef
+          && typeof mediaController.getAudibleMsPerMeasureRef.current === 'function') {
+        audibleMpm = parseFloat(mediaController.getAudibleMsPerMeasureRef.current()) || 0
+      }
+      if (!(audibleMpm > 0)) {
+        audibleMpm = (visualObj && typeof visualObj.millisecondsPerMeasure === 'function')
+          ? parseFloat(visualObj.millisecondsPerMeasure())
+          : 0
+      }
+      const audioDurationSec = mediaController.duration > 0
+        ? parseFloat(mediaController.duration)
         : 0
       cursorRef.current = applyPlaybackCursorAtTime(
         svg,
         cursorRef.current,
         timingCallbacks.noteTimings,
-        currentTimeMs,
-        { beatsPerMeasure: beatsPerMeasure }
+        playbackSec * 1000,
+        {
+          musicSec: playbackSec,
+          audibleMsPerMeasure: audibleMpm,
+          audioDurationSec: audioDurationSec,
+          lastMomentMs: timingCallbacks.lastMoment,
+        }
       )
     }
 

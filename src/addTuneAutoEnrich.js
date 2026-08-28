@@ -352,7 +352,7 @@ export async function runAddTuneAutoEnrich(options) {
 
   let chordFrac = 0
   let lyricFrac = 0
-  let lastMessage = 'Searching for chords and lyrics...'
+  let lastMessage = 'Searching Ultimate Guitar for chords and lyrics...'
 
   function emitParallelProgress() {
     if (isCancelled()) return
@@ -399,43 +399,9 @@ export async function runAddTuneAutoEnrich(options) {
 
   try {
     if (artist) {
-    const chordPromise = swallowAbort(searchChords({
-      title: title,
-      artist: artist,
-      accessToken: opts.accessToken || '',
-      resolverAvailable: opts.resolverAvailable,
-      signal: signal,
-      abcTools: opts.tunebook.abcTools || null,
-      renderChords: opts.abcjsParser && typeof opts.abcjsParser.renderChords === 'function'
-        ? function(abc) { return opts.abcjsParser.renderChords(abc, true) }
-        : undefined,
-      onProgress: function(message, progress) {
-        if (isCancelled()) return
-        const frac = fractionProgress(progress)
-        if (frac != null) chordFrac = frac
-        if (message) lastMessage = String(message)
-        emitParallelProgress()
-      },
-    }))
-    const lyricPromise = swallowAbort(searchLyrics({
-      title: title,
-      artist: artist,
-      accessToken: opts.accessToken || '',
-      resolverAvailable: opts.resolverAvailable,
-      signal: signal,
-      abcTools: opts.tunebook.abcTools || null,
-      onProgress: function(message, progress) {
-        if (isCancelled()) return
-        const frac = fractionProgress(progress)
-        if (frac != null) lyricFrac = frac
-        if (message) lastMessage = String(message)
-        emitParallelProgress()
-      },
-    }))
-    // Start notation early so instrumental tunes (e.g. The Session) are not
-    // blocked behind long chords/lyrics searches.
-    // Settle immediately so a fast miss cannot become an unhandled rejection
-    // while chords/lyrics are still running.
+    // Prefer Ultimate Guitar chord sheets (lyrics+chords), then plain lyrics —
+    // same order as the lyrics editor and Enhance prefer-chords path.
+    // Start notation early so instrumental tunes are not blocked behind chords/lyrics.
     const notationSettled = searchNotation({
       title: title,
       artist: artist,
@@ -449,7 +415,7 @@ export async function runAddTuneAutoEnrich(options) {
       onProgress: function(message, progress) {
         if (isCancelled()) return
         // Keep early notation progress quiet while chords/lyrics own the bar;
-        // surface it once those parallel searches have finished.
+        // surface it once those searches have finished.
         if (chordFrac < 1 || lyricFrac < 1) return
         const frac = fractionProgress(progress)
         updateState(tuneId, {
@@ -469,10 +435,31 @@ export async function runAddTuneAutoEnrich(options) {
       updateState(tuneId, {
         pending: true,
         progress: clampPercent(Math.max(getAddTuneAutoEnrichState(tuneId).progress, 10)),
-        message: lastMessage || 'Searching for chords...',
+        message: lastMessage || 'Searching Ultimate Guitar…',
         failure: '',
       })
-      const chordResult = await chordPromise
+      const chordResult = await swallowAbort(searchChords({
+        title: title,
+        artist: artist,
+        accessToken: opts.accessToken || '',
+        resolverAvailable: opts.resolverAvailable,
+        signal: signal,
+        preferRemoteChords: true,
+        skipLocalChords: true,
+        skipColdIndexLoad: true,
+        forceResolver: opts.resolverAvailable !== false,
+        abcTools: opts.tunebook.abcTools || null,
+        renderChords: opts.abcjsParser && typeof opts.abcjsParser.renderChords === 'function'
+          ? function(abc) { return opts.abcjsParser.renderChords(abc, true) }
+          : undefined,
+        onProgress: function(message, progress) {
+          if (isCancelled()) return
+          const frac = fractionProgress(progress)
+          if (frac != null) chordFrac = frac
+          if (message) lastMessage = String(message)
+          emitParallelProgress()
+        },
+      }))
       if (isCancelled()) return false
       chordFrac = 1
       emitParallelProgress()
@@ -511,44 +498,64 @@ export async function runAddTuneAutoEnrich(options) {
 
     if (isCancelled()) return false
 
-    try {
-      updateState(tuneId, {
-        pending: true,
-        progress: clampPercent(Math.max(getAddTuneAutoEnrichState(tuneId).progress, 45)),
-        message: lastMessage || 'Searching for lyrics...',
-        failure: '',
-      })
-      const lyricCandidate = pickFirstSearchCandidate(await lyricPromise)
-      if (isCancelled()) return false
-      lyricFrac = 1
-      emitParallelProgress()
-      if (lyricCandidate && isTuneFieldEmptyForKind(tune, 'lyrics')) {
+    if (!lyricApplied && isTuneFieldEmptyForKind(tune, 'lyrics')) {
+      try {
         updateState(tuneId, {
           pending: true,
-          progress: clampPercent(Math.max(getAddTuneAutoEnrichState(tuneId).progress, 68)),
-          message: 'Applying lyrics...',
+          progress: clampPercent(Math.max(getAddTuneAutoEnrichState(tuneId).progress, 45)),
+          message: lastMessage || 'Searching for lyrics...',
           failure: '',
         })
-        lyricApplied = saveAppliedCandidate(
-          tune,
-          'lyrics',
-          lyricCandidate,
-          opts.tunebook,
-          opts.forceRefresh
-        ) || lyricApplied
-        if (lyricApplied) {
+        const lyricCandidate = pickFirstSearchCandidate(await swallowAbort(searchLyrics({
+          title: title,
+          artist: artist,
+          accessToken: opts.accessToken || '',
+          resolverAvailable: opts.resolverAvailable,
+          signal: signal,
+          skipColdIndexLoad: true,
+          abcTools: opts.tunebook.abcTools || null,
+          onProgress: function(message, progress) {
+            if (isCancelled()) return
+            const frac = fractionProgress(progress)
+            if (frac != null) lyricFrac = frac
+            if (message) lastMessage = String(message)
+            emitParallelProgress()
+          },
+        })))
+        if (isCancelled()) return false
+        lyricFrac = 1
+        emitParallelProgress()
+        if (lyricCandidate && isTuneFieldEmptyForKind(tune, 'lyrics')) {
+          updateState(tuneId, {
+            pending: true,
+            progress: clampPercent(Math.max(getAddTuneAutoEnrichState(tuneId).progress, 68)),
+            message: 'Applying lyrics...',
+            failure: '',
+          })
+          lyricApplied = saveAppliedCandidate(
+            tune,
+            'lyrics',
+            lyricCandidate,
+            opts.tunebook,
+            opts.forceRefresh
+          ) || lyricApplied
+          if (lyricApplied) {
+            lyricSource = searchSourceLabel(lyricCandidate, 'lyrics search')
+          }
+          if (!lyricApplied) lyricsSearchFailed = true
+        } else if (lyricCandidate) {
+          lyricApplied = true
           lyricSource = searchSourceLabel(lyricCandidate, 'lyrics search')
+        } else {
+          lyricsSearchFailed = !lyricApplied
         }
-        if (!lyricApplied) lyricsSearchFailed = true
-      } else if (lyricCandidate) {
-        lyricApplied = true
-        lyricSource = searchSourceLabel(lyricCandidate, 'lyrics search')
-      } else {
+      } catch (e) {
+        if (isCancelled()) return false
         lyricsSearchFailed = !lyricApplied
       }
-    } catch (e) {
-      if (isCancelled()) return false
-      lyricsSearchFailed = !lyricApplied
+    } else {
+      lyricFrac = 1
+      emitParallelProgress()
     }
 
     if (isCancelled()) return false

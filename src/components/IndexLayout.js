@@ -46,6 +46,7 @@ import {
   CATALOG_PAGE_SIZE,
   BULK_SELECTION_LIMIT,
   shouldScanTuneStatusExtras,
+  resolveEffectiveGroupBy,
 } from '../tuneListFilter'
 import { isCatalogStorageEnabled } from '../tuneStorageFlags'
 
@@ -81,6 +82,9 @@ function IndexLayout(props) {
     var setSelectedCount = props.setSelectedCount
     var tagCollation = props.tagCollation
     var setTagCollation = props.setTagCollation
+    const effectiveGroupBy = useMemo(function() {
+      return resolveEffectiveGroupBy(props.groupBy, props.currentTuneBook)
+    }, [props.groupBy, props.currentTuneBook])
     var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false)
     var [listPageMeta, setListPageMeta] = useState(null)
     var [mediaSearchResults, setMediaSearchResults] = useState([])
@@ -378,6 +382,7 @@ function IndexLayout(props) {
           : 0
         var filterIdentity = buildListHashKey([
           props.groupBy,
+          effectiveGroupBy,
           props.filter,
           props.currentTuneBook,
           props.tagFilter,
@@ -417,7 +422,7 @@ function IndexLayout(props) {
             setListHash(newHash)
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- listHash comparison prevents redundant filter runs
-    },[props.groupBy, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.albumFilter, props.starredFilter, listHash, props.tunes ? Object.keys(props.tunes).length : 0, props.tunesContentRevision, props.tunesHydrated, props.indexes && props.indexes.indexesReady, props.indexes && props.indexes.bookIndex ? Object.keys(props.indexes.bookIndex).length : 0])
+    },[props.groupBy, effectiveGroupBy, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.albumFilter, props.starredFilter, listHash, props.tunes ? Object.keys(props.tunes).length : 0, props.tunesContentRevision, props.tunesHydrated, props.indexes && props.indexes.indexesReady, props.indexes && props.indexes.bookIndex ? Object.keys(props.indexes.bookIndex).length : 0])
 
     useEffect(function() {
       const displayMode = props.listDisplayMode || 'compact'
@@ -432,11 +437,15 @@ function IndexLayout(props) {
       ensureTuneStatusForVisibleList(filtered)
     }, [props.listDisplayMode, filtered, props.tunebook])
 
-    function listRowsForTunes(tunes) {
+    function listRowsForTunes(tunes, options) {
+      const opts = options || {}
       const list = Array.isArray(tunes) ? tunes : []
       const tuneRows = tuneRowsFromTunes(list, props.filter)
       const query = String(props.filter || '').trim()
-      const includeMedia = query.length >= 3
+      // Media search hits must only be appended once. Grouped views (e.g. page)
+      // call this per group, so those callers pass includeMedia: false and
+      // render groupedMediaListRows after all groups.
+      const includeMedia = opts.includeMedia !== false && query.length >= 3
       return mergeSearchListRows(tuneRows, includeMedia ? mediaSearchResults : [], {
         includeMedia: includeMedia,
       })
@@ -484,7 +493,9 @@ function IndexLayout(props) {
         const indices = grouped[groupKey]
         if (!Array.isArray(indices)) return false
         const groupTunes = indices.map(function(itemKey) { return filtered[itemKey] }).filter(Boolean)
-        return isListSelectionCurtailed(groupTunes)
+        // Count tune rows only — media search results are shared across groups.
+        const tuneRowCount = countTuneSearchRows(listRowsForTunes(groupTunes, { includeMedia: false }))
+        return tuneRowCount > 0 && tuneRowCount >= LIST_PROTECTION_LIMIT
       })
     }
 
@@ -801,13 +812,19 @@ function IndexLayout(props) {
       return listRowsForTunes(filtered)
     }, [filtered, props.filter, mediaSearchResults])
 
+    const groupedMediaListRows = useMemo(function() {
+      const query = String(props.filter || '').trim()
+      if (query.length < 3) return []
+      return mergeSearchListRows([], mediaSearchResults, { includeMedia: true })
+    }, [props.filter, mediaSearchResults])
+
     function getListTuneIds() {
         var selectedIds = Object.keys(selected).filter(function(id) {
             return selected[id]
         })
         return getPlayableTuneIdsFromListRows(filtered, props.tunes, props.tunebook, selectedIds, {
             grouped: grouped,
-            groupBy: props.groupBy,
+            groupBy: effectiveGroupBy,
         })
     }
 
@@ -1004,13 +1021,13 @@ function IndexLayout(props) {
         {!isGroupedListView(grouped) && renderListItems(filtered, visibleListRows)}
         
         {isGroupedListView(grouped) && <div>{ Object.keys(grouped).sort(function(a,b) {
-            return compareSearchGroupKeys(props.groupBy, a, b)
+            return compareSearchGroupKeys(effectiveGroupBy, a, b)
         }).map(function(groupKey,groupNum) {
             return (groupKey && grouped[groupKey].length > 0 && (props.filter.length == 0 ||props.filter.length > 2)) ? <Button style={{marginRight:'0.1em'}} variant='outline-success' onClick={function() {props.tunebook.utils.scrollTo('group-'+groupKey)}} >{groupKey}</Button> : null
         })}</div>}
         
         {isGroupedListView(grouped) && <div>{ Object.keys(grouped).sort(function(a,b) {
-            return compareSearchGroupKeys(props.groupBy, a, b)
+            return compareSearchGroupKeys(effectiveGroupBy, a, b)
         }).map(function(groupKey,groupNum) {
             var filteredGroup = []
             if (Array.isArray(grouped[groupKey])) grouped[groupKey].forEach(function(itemKey) {
@@ -1034,10 +1051,14 @@ function IndexLayout(props) {
             ) : null}
             <Badge style={{float:'right'}} >{filteredGroup.length}</Badge>
             <h3> {groupKey && <Button style={{float:'left'}} variant="outline-secondary" onClick={function() {props.tunebook.utils.scrollTo('topofpage')}} >{props.tunebook.icons.arrowup}</Button>}&nbsp;&nbsp;&nbsp;{groupKey} </h3>
-            {renderListItems(filteredGroup)}
+            {renderListItems(filteredGroup, listRowsForTunes(filteredGroup, { includeMedia: false }))}
             </> : ''
             
         })}</div>}
+
+        {isGroupedListView(grouped) && groupedMediaListRows.length > 0
+          ? renderListItems([], groupedMediaListRows)
+          : null}
        
         
     <ArtistDiscographyBrowseModal

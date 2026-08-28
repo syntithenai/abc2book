@@ -122,5 +122,6 @@ tunebook-android-debug.apk
 src/feedContent/theory/examples.generated.json
 .cursor/debug-*.log
 
-# Static lesson preview build output
-lesson-preview/dist/
+# Generated from pdfjs-dist on postinstall/start/build (see scripts/copy-pdf-worker.js)
+public/pdf.worker.min.js
+

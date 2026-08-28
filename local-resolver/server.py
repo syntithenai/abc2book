@@ -790,6 +790,7 @@ def resolver_features(practice_track_ok=None):
             "sheetImage": bool(_ocr_cloud_configured()),
             "sheetImageOcr": bool(_ocr_cloud_configured()),
             "sheetImageOmr": False,
+            "sheetImageSplit": False,
             "imageSearch": False,
             "playwright": False,
             "oauthBff": oauth_bff_available(),
@@ -829,6 +830,7 @@ def resolver_features(practice_track_ok=None):
         ),
         "sheetImageOcr": bool(features.get("ocr") or _ocr_cloud_configured()),
         "sheetImageOmr": bool(features.get("omr")),
+        "sheetImageSplit": bool(SHEET_IMAGE_ENABLED and features.get("ocr")),
         "imageSearch": image_search_available(),
         "playwright": playwright_ok,
         "oauthBff": oauth_bff_available(),
@@ -3335,7 +3337,7 @@ async def root(request: Request):
             "health": "/health",
             "staticSite": static_site_enabled(),
             "staticSiteRoot": static_site_root() if static_site_enabled() else None,
-            "endpoints": ["/youtube/:videoId/audio", "/bandcamp/audio?url=...", "/search-bandcamp", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-timing", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/generate-practice-track", "/generate-practice-track/:jobId", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
+            "endpoints": ["/youtube/:videoId/audio", "/bandcamp/audio?url=...", "/search-bandcamp", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-timing", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/generate-practice-track", "/generate-practice-track/:jobId", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image", "/split-sheet-page"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(origin),
@@ -6785,6 +6787,7 @@ async def _run_transcribe_sheet_image(
     filename: str,
     on_progress: Callable[[dict[str, Any]], None] | None = None,
     title_hints: list[str] | None = None,
+    composer_hint: str = "",
 ) -> dict:
     def _cli_failure_message(stderr_text: str, stdout_text: str) -> str:
         import json
@@ -6841,8 +6844,12 @@ async def _run_transcribe_sheet_image(
                 if on_progress:
                     env["SHEET_IMAGE_PROGRESS"] = "1"
 
+                cmd = [vision_python, "/app/sheet_image_transcribe.py", image_path, "--json"]
+                hint = str(composer_hint or "").strip()
+                if hint:
+                    cmd.extend(["--composer-hint", hint])
                 proc = subprocess.Popen(
-                    [vision_python, "/app/sheet_image_transcribe.py", image_path, "--json"],
+                    cmd,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
                     text=True,
@@ -6890,7 +6897,12 @@ async def _run_transcribe_sheet_image(
 
         from sheet_image_transcribe import transcribe_sheet_image_sync
 
-        return transcribe_sheet_image_sync(data, filename, on_progress=on_progress)
+        return transcribe_sheet_image_sync(
+            data,
+            filename,
+            on_progress=on_progress,
+            composer_hint=composer_hint,
+        )
 
     async with heavy_job_slot():
         body = await asyncio.to_thread(_run)
@@ -6898,10 +6910,25 @@ async def _run_transcribe_sheet_image(
         hint = str(title_hints[0] or "").strip()
         if hint:
             body["title"] = hint
+    hint_composer = str(composer_hint or "").strip()
+    if hint_composer and isinstance(body, dict):
+        if not str(body.get("artist") or "").strip():
+            body["artist"] = hint_composer
+        meta = body.get("meta") if isinstance(body.get("meta"), dict) else {}
+        if meta is not None:
+            if not str(meta.get("artist") or "").strip():
+                meta["artist"] = hint_composer
+            if not str(meta.get("composer") or "").strip():
+                meta["composer"] = hint_composer
+            body["meta"] = meta
     return body
 
 
-async def stream_transcribe_sheet_image_events(data: bytes, filename: str):
+async def stream_transcribe_sheet_image_events(
+    data: bytes,
+    filename: str,
+    composer_hint: str = "",
+):
     queue: asyncio.Queue = asyncio.Queue()
     loop = asyncio.get_running_loop()
 
@@ -6911,7 +6938,12 @@ async def stream_transcribe_sheet_image_events(data: bytes, filename: str):
 
     async def run() -> None:
         try:
-            body = await _run_transcribe_sheet_image(data, filename, on_progress=on_progress)
+            body = await _run_transcribe_sheet_image(
+                data,
+                filename,
+                on_progress=on_progress,
+                composer_hint=composer_hint,
+            )
             await queue.put({"type": "result", "body": body})
         except Exception as exc:
             await queue.put({
@@ -7027,11 +7059,68 @@ async def extract_sheet_metadata(
         return json_error(500, detail, origin)
 
 
+@app.post("/split-sheet-page")
+async def split_sheet_page(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    page: str | None = Form(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("sheetImage", request, verified)
+        track_resolver_usage("split-sheet-page")
+
+        if file is None:
+            return json_error(400, "Missing image upload", origin)
+
+        image_bytes = await file.read()
+        filename = file.filename or "upload.png"
+        if not image_bytes:
+            return json_error(400, "Image file is empty", origin)
+        if len(image_bytes) > MAX_SHEET_IMAGE_BYTES:
+            return json_error(
+                413,
+                "Image file too large (limit is " + str(MAX_SHEET_IMAGE_BYTES) + " bytes)",
+                origin,
+            )
+
+        from sheet_image_split import sheet_image_split_available, split_sheet_page_sync
+
+        if not sheet_image_split_available():
+            return json_error(
+                501,
+                "Sheet page splitting requires local OCR on the full resolver",
+                origin,
+            )
+
+        page_number = 1
+        try:
+            page_number = max(1, int(page or 1))
+        except (TypeError, ValueError):
+            page_number = 1
+
+        body = await asyncio.to_thread(
+            split_sheet_page_sync,
+            image_bytes,
+            filename,
+            page_number,
+        )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "Sheet page split failed"
+        return json_error(500, detail, origin)
+
+
 @app.post("/transcribe-sheet-image")
 async def transcribe_sheet_image(
     request: Request,
     file: UploadFile | None = File(default=None),
     titleHints: str | None = Form(default=None),
+    composerHint: str | None = Form(default=None),
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
@@ -7060,34 +7149,6 @@ async def transcribe_sheet_image(
             verified,
             local_available=_ocr_local_available(),
         )
-        if provider_cfg and provider_cfg.get("provider") != "local" and provider_cfg.get("apiUrl"):
-            from provider_cloud import ocr_openai_vision
-            from billing_hooks import bill_provider_response
-
-            ocr_op = "sheet_ocr_user" if provider_cfg.get("source") == "user" else "sheet_ocr_host"
-            reservation = _billing_reservation(
-                verified,
-                ocr_op,
-                _provider_billing_params(provider_cfg, image_bytes=len(image_bytes)),
-                provider_cfg=provider_cfg,
-            )
-            try:
-                body = await ocr_openai_vision(image_bytes, filename, provider_cfg)
-                ctx = billing_context()
-                billing_email = _billing_email(verified)
-                if ctx and billing_email:
-                    bill_provider_response(
-                        ctx,
-                        billing_email,
-                        provider_cfg,
-                        usage_type="ocr_vision",
-                        capability="ocr",
-                        request_bytes=len(image_bytes),
-                        response_bytes=len(json.dumps(body)),
-                    )
-            finally:
-                reservation.finalize()
-            return JSONResponse(content=body, headers=cors_headers(origin))
 
         title_hint_list: list[str] | None = None
         if titleHints:
@@ -7097,19 +7158,106 @@ async def transcribe_sheet_image(
                     title_hint_list = [str(h).strip() for h in parsed_hints if str(h).strip()]
             except json.JSONDecodeError:
                 title_hint_list = [titleHints.strip()] if titleHints.strip() else None
+        composer_hint = str(composerHint or "").strip()
 
+        # Always run local staff OMR / Paddle when available. Cloud vision is
+        # chord/lyric (or title) assist only — never replace melody OMR.
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
         if wants_stream:
             async def body():
-                async for line in stream_transcribe_sheet_image_events(image_bytes, filename):
+                async for line in stream_transcribe_sheet_image_events(
+                    image_bytes,
+                    filename,
+                    composer_hint=composer_hint,
+                ):
                     yield line.encode("utf-8")
 
             headers = cors_headers(origin)
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
 
-        body = await _run_transcribe_sheet_image(image_bytes, filename, title_hints=title_hint_list)
+        body = await _run_transcribe_sheet_image(
+            image_bytes,
+            filename,
+            title_hints=title_hint_list,
+            composer_hint=composer_hint,
+        )
+
+        cloud_ocr_usable = (
+            provider_cfg
+            and provider_cfg.get("provider") != "local"
+            and provider_cfg.get("apiUrl")
+        )
+        if cloud_ocr_usable:
+            melody = body.get("melody") if isinstance(body.get("melody"), dict) else {}
+            has_melody = bool(str(melody.get("abc") or "").strip())
+            staff_info = body.get("staffDetection") if isinstance(body.get("staffDetection"), dict) else {}
+            has_staff = bool(staff_info.get("hasStaff"))
+            chord_sheet = body.get("chordSheet") if isinstance(body.get("chordSheet"), dict) else {}
+            chord_conf = float(chord_sheet.get("confidence") or 0.0)
+            page_type = str(body.get("pageType") or "")
+            use_cloud_chords = (not has_melody) and (
+                page_type == "chord_chart" or (not has_staff and chord_conf < 0.55)
+            )
+            need_title = not str(body.get("title") or "").strip()
+            if use_cloud_chords or need_title:
+                from provider_cloud import ocr_openai_vision, ocr_sheet_title_vision
+                from billing_hooks import bill_provider_response
+
+                ocr_op = "sheet_ocr_user" if provider_cfg.get("source") == "user" else "sheet_ocr_host"
+                reservation = _billing_reservation(
+                    verified,
+                    ocr_op,
+                    _provider_billing_params(provider_cfg, image_bytes=len(image_bytes)),
+                    provider_cfg=provider_cfg,
+                )
+                try:
+                    if use_cloud_chords:
+                        cloud = await ocr_openai_vision(image_bytes, filename, provider_cfg)
+                        if isinstance(cloud, dict):
+                            if cloud.get("text") or cloud.get("lines"):
+                                body["chordSheet"] = {
+                                    "format": cloud.get("format", "chords-over-words"),
+                                    "text": cloud.get("text") or "",
+                                    "lines": cloud.get("lines") or [],
+                                    "sections": cloud.get("sections") or [],
+                                    "confidence": cloud.get("confidence", 0.75),
+                                    "lineDetails": cloud.get("lineDetails") or [],
+                                }
+                                warnings = list(body.get("warnings") or [])
+                                warnings.append("cloud_chord_ocr")
+                                body["warnings"] = warnings
+                                if not has_staff:
+                                    body["pageType"] = "chord_chart"
+                            if need_title and cloud.get("title"):
+                                body["title"] = cloud.get("title")
+                            if cloud.get("artist") and not body.get("artist"):
+                                body["artist"] = cloud.get("artist")
+                    elif need_title:
+                        cloud_title = await ocr_sheet_title_vision(image_bytes, filename, provider_cfg)
+                        if isinstance(cloud_title, dict) and cloud_title.get("title"):
+                            body["title"] = cloud_title.get("title")
+                            if cloud_title.get("artist") and not body.get("artist"):
+                                body["artist"] = cloud_title.get("artist")
+                            warnings = list(body.get("warnings") or [])
+                            warnings.append("cloud_title_ocr")
+                            body["warnings"] = warnings
+                    ctx = billing_context()
+                    billing_email = _billing_email(verified)
+                    if ctx and billing_email:
+                        bill_provider_response(
+                            ctx,
+                            billing_email,
+                            provider_cfg,
+                            usage_type="ocr_vision",
+                            capability="ocr",
+                            request_bytes=len(image_bytes),
+                            response_bytes=len(json.dumps(body)),
+                        )
+                finally:
+                    reservation.finalize()
+
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)

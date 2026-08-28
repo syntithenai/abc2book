@@ -64,3 +64,27 @@ export function programOffsetsForSoundFontUrl(soundFontUrl) {
   }
   return ABC_SYNTH_PROGRAM_OFFSETS
 }
+
+/**
+ * Selection-bank playback remaps onto MusyngKite samples; never apply
+ * original-bank attack offsets (they swallow short sixteenth melody notes).
+ * @param {string} soundFontUrl
+ * @param {{ remap?: boolean }} [soundFontPlan]
+ */
+export function programOffsetsForPlaybackPlan(soundFontUrl, soundFontPlan) {
+  if (soundFontPlan && soundFontPlan.remap) {
+    return {}
+  }
+  return programOffsetsForSoundFontUrl(soundFontUrl)
+}
+
+/** abcjs default fadeLength is 200ms — tails overlap on fast 16th runs and mask attacks. */
+export const ABCJS_PLAYBACK_FADE_LENGTH_MS = 0
+export const ABCJS_PLAYBACK_NOTE_END_MS = 0
+
+export function abcjsPlaybackSynthOptions(extra) {
+  return Object.assign({
+    fadeLength: ABCJS_PLAYBACK_FADE_LENGTH_MS,
+    noteEnd: ABCJS_PLAYBACK_NOTE_END_MS,
+  }, extra || {})
+}

@@ -1,4 +1,3 @@
-import { pdfjs } from 'react-pdf';
 import { Document, Page, Outline } from 'react-pdf';
 import 'react-pdf/dist/Page/TextLayer.css';  
 import 'react-pdf/dist/Page/AnnotationLayer.css';
@@ -7,11 +6,7 @@ import {Button, Modal, ListGroup} from 'react-bootstrap'
 import useWindowSize from '../useWindowSize'
 import utilsFunctions from '../utilsFunctions'
 import VoiceFillInput from './VoiceFillInput'
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString(); 
-
+import { pdfjs } from '../pdfJsConfig'
 
 export default function PDFViewer(props) {
 	var windowSize = useWindowSize()

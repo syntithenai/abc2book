@@ -160,20 +160,11 @@ export function resolveCandidateTuneIds(filters, indexes, allTuneIds) {
   return candidates
 }
 
-/**
- * True when tunes carry book membership but the book index has no keys.
- * Used to trigger a one-shot rebuild so book filters stay index-backed.
- */
-export function bookIndexNeedsRepair(tunes, bookIndex) {
-  if (!tunes || typeof tunes !== 'object') return false
-  if (bookIndex && Object.keys(bookIndex).length > 0) return false
-  const list = Array.isArray(tunes) ? tunes : Object.values(tunes)
-  for (let i = 0; i < list.length; i += 1) {
-    const tune = list[i]
-    if (tune && Array.isArray(tune.books) && tune.books.length > 0) return true
-  }
-  return false
-}
+export {
+  bookIndexNeedsRepair,
+  countBookedTunes,
+  countMissingBookIndexMemberships,
+} from './tuneIndexIntegrity'
 
 export function isLargeBookIndex(bookIndex, bookName) {
   if (!bookIndex || !bookName) return false

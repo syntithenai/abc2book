@@ -49,6 +49,13 @@ jest.mock('./AddTuneYouTubePicker', function() {
   }
 })
 
+jest.mock('./AddCuratedCollectionsPanel', function() {
+  const React = require('react')
+  return function AddCuratedCollectionsPanel() {
+    return React.createElement('div', { 'data-testid': 'add-curated-panel' }, 'Curated panel')
+  }
+})
+
 jest.mock('../useMusicBrainzArtistOptions', function() {
   return function useMusicBrainzArtistOptions() { return { options: [], loading: false } }
 })
@@ -105,22 +112,45 @@ describe('AddTuneSimpleForm', function() {
         tunes: {},
         candidateId: 'add-1',
         onChange: jest.fn(),
-        addFromToolbar: React.createElement('div', { 'data-testid': 'fake-add-from' }, 'Add From'),
+        addFromDropdown: React.createElement('div', { 'data-testid': 'fake-add-from' }, 'Add From'),
       }))
     })
     expect(container.querySelector('[data-testid="field-search-button"]').disabled).toBe(false)
     expect(container.querySelector('[data-testid="add-tune-youtube-block"]')).toBeTruthy()
     expect(container.querySelector('.add-tune-books-tags')).toBeTruthy()
     expect(container.querySelector('.add-tune-title-block')).toBeTruthy()
-    expect(container.querySelector('[data-testid="add-from-in-form"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="add-from-beside-title"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="add-from-in-form"]')).toBeNull()
     expect(container.textContent).toContain('Already In Your Library')
     expect(container.querySelector('[data-testid="add-tune-files-block"]')).toBeNull()
     expect(container.querySelector('[data-testid="add-tune-media-block"]')).toBeNull()
     const titleEl = container.querySelector('[data-testid="add-tune-title"]')
     const youtubeEl = container.querySelector('[data-testid="add-tune-youtube-block"]')
-    const addFromEl = container.querySelector('[data-testid="add-from-in-form"]')
+    const addFromEl = container.querySelector('[data-testid="add-from-beside-title"]')
     expect(titleEl.compareDocumentPosition(addFromEl) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
-    expect(addFromEl.compareDocumentPosition(youtubeEl) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(titleEl.compareDocumentPosition(youtubeEl) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+  })
+
+  test('curated collections sit under library matches in the side column', function() {
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: { title: 'Song', artist: '' },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+        tunebook: {
+          icons: { playwhite: 'play' },
+          curatedTuneBooks: {},
+        },
+        setCurrentTuneBook: jest.fn(),
+      }))
+    })
+    const matches = container.querySelector('[data-testid="add-tune-matches"]')
+    const curated = container.querySelector('[data-testid="add-curated-collections"]')
+    expect(matches).toBeTruthy()
+    expect(curated).toBeTruthy()
+    expect(matches.compareDocumentPosition(curated) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(matches.parentElement).toBe(curated.parentElement)
   })
 
   test('shows Files and Audio blocks only when they have values', function() {

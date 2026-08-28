@@ -292,6 +292,47 @@ describe('chordsSearchClient', function() {
       expect(result.chordText).toBe('G C G |')
     })
 
+    test('preferRemoteChords hits resolver first and skips local ABC', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        headers: { get: function() { return 'application/json' } },
+        json: async function() {
+          return {
+            sheetLines: ['Em G D', 'Under African Skies'],
+            source: 'tabs.ultimate-guitar.com',
+            sourceUrl: 'https://tabs.ultimate-guitar.com/tab/paul-simon/under-african-skies-chords-1',
+          }
+        },
+      })
+
+      const result = await searchChords({
+        title: 'Under African Skies',
+        artist: 'Paul Simon',
+        preferRemoteChords: true,
+        skipLocalChords: true,
+        forceResolver: true,
+      })
+
+      expect(mediaProxyClient.fetchViaMediaProxy).toHaveBeenCalled()
+      expect(searchChordsLight).not.toHaveBeenCalled()
+      expect(result.source).toContain('ultimate-guitar')
+    })
+
+    test('preferRemoteChords does not fall through to local on soft miss', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(
+        new Error(CHORDS_LIGHT_ERROR)
+      )
+
+      await expect(searchChords({
+        title: 'Unknown Song',
+        preferRemoteChords: true,
+        skipLocalChords: true,
+        forceResolver: true,
+      })).rejects.toThrow(CHORDS_LIGHT_ERROR)
+
+      expect(searchChordsLight).not.toHaveBeenCalled()
+    })
+
     test('prefers extension HTML for Ultimate Guitar URLs', async function() {
       youtubeExtensionClient.isYoutubeExtensionConnected.mockResolvedValue(true)
       youtubeExtensionClient.fetchPageHtmlViaExtension.mockResolvedValue({

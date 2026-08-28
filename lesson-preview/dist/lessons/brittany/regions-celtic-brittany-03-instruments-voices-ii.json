@@ -1,0 +1,832 @@
+{
+  "id": "regions-celtic-brittany-03-instruments-voices-ii",
+  "title": "Breton Traditional Instruments — Session Voices II",
+  "track": "regions",
+  "tier": 3,
+  "region": "brittany",
+  "difficulty": 5,
+  "prerequisites": [
+    "regions-celtic-brittany-02-instruments-voices-i"
+  ],
+  "tags": [
+    "brittany",
+    "celtic",
+    "instruments",
+    "session"
+  ],
+  "path": "10-regions/celtic/brittany/03-instruments-session-voices-ii.md",
+  "sections": [
+    {
+      "id": "breton-traditional-instruments-session-voices-ii",
+      "title": "Breton Traditional Instruments — Session Voices II",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 3 | **Difficulty:** 5/10\n**Prerequisites:** regions-celtic-brittany-02-instruments-voices-i\n**Tags:** brittany, accordion, guitar, bagad, fest-noz, vannetais"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "This lesson covers **accordion**, **guitar**, and the **bagad** — three voices that shape Breton music beyond the bombard–binou pair. The **Vannetais** fest-noz floor often hears accordion-led **plinn** and **mazurka**; guitar supports **kan ha diskan** and modern fest-noz bands; **bagad** pipe bands train thousands of young musicians in a format with no Irish pub-session equivalent. Together with Lesson 2's winds, fiddle, and harp, you have the instrumental map of peninsula trad and its competition stages.\n\nAccordion and guitar are sometimes dismissed as \"modern additions\" — historically inaccurate. Accordion entered rural Brittany in the nineteenth century and became **structural** to southeast dance culture. Guitar backs fusion concerts and informal **veillées**. Bagad is mid-twentieth century institutional innovation — but it now carries **gavotte suites**, **bombard** sections, and regional identity on par with any ancient pipe form."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish Session Voices II treats bodhrán, guitar, bouzouki, banjo, box accordion, and concertina as pub-session support and occasional lead. Breton accordion often **leads entire fest-noz sets** in the Vannetais; guitar is less central to dance pulse than Irish session backing but vital in **Bro Gozh** urban bands. **Bagad** has no Irish parallel in session culture — closest kin is Scottish pipe band, but Breton format adds **bombard** ranks and **Binou** sections with distinct competition repertoire.\n\n| Voice | Irish session role | Breton fest-noz / bagad role |\n|-------|-------------------|------------------------------|\n| Accordion | Clare/Kerry box drive in sessions | Vannetais plinn/mazurka lead |\n| Guitar | Chord backing, bouzouki patterns | Song sets, fusion bands, fest-noz support |\n| Bagad | Not applicable | Massed pipes, bombards, drums — competitions |\n\n**Parallel Ireland lesson:** `regions-celtic-ireland-03-instruments-voices-ii`."
+        }
+      ]
+    },
+    {
+      "id": "accordion",
+      "title": "Accordion",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The **diatonic accordion** (and related box layouts) drives much **Vannetais** fest-noz repertoire: **plinn**, **mazurka**, and some **gavotte** variants. Bellows direction changes articulation; players phrase for **walking dancers** maintaining steady pulse across long floors."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-cultural-context",
+      "title": "Technique and cultural context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Vannetais accordion style favours **steady 4/4** and **3/4** dance rhythm — less dotted hornpipe swing, less reel acceleration. Ornament includes treble fills and bass pulse patterns that cue dancers' side-steps. Compared with Irish button box, Breton accordion repertoire aligns with **named dance figures** rather than arbitrary tune stacks."
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-role",
+      "title": "Fest-noz role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Accordion-led bands may omit bombard–binou entirely — not a \"incomplete\" trad lineup but a **regional contract**. Dancers from Cornouaille visiting Vannetais halls learn to follow accordion bounce instead of sonerion unison."
+        }
+      ]
+    },
+    {
+      "id": "famous-players-and-associations",
+      "title": "Famous players and associations",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Yves Menez** and southeast fest-noz recordings document accordion-centred nights. Festival programmes at **Auray** and **Golfe du Morbihan** events showcase accordion–fiddle combinations.\n\n![Accordion player](https://en.wikipedia.org/wiki/Special:FilePath/Accordion.png?width=640)\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "guitar",
+      "title": "Guitar",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Guitar in Brittany spans **folk backing**, **fusion** arrangements, and **song** accompaniment for **kan ha diskan**. It is rarely the sole dance-lead at classic northwest fest-noz but anchors **Bro Gozh** urban bands and post-Stivell fusion groups."
+        }
+      ]
+    },
+    {
+      "id": "technique-and-cultural-context",
+      "title": "Technique and cultural context",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Rhythm guitar patterns fit **mazurka** and **gavotte** at moderate tempos; electric guitar enters rock-fusion and fest-noz rock crossover (e.g. **Fest-noz rock** movement echoes). Acoustic guitar supports vocalists in **veillées** where dance pauses for song."
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-and-concert-role",
+      "title": "Fest-noz and concert role",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "In mixed fest-noz bands, guitar fills harmonic space when bombard–binou and fiddle carry melody. On fusion stages, guitar shares lead with harp and voice — different etiquette from village hall.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "bagad",
+      "title": "Bagad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **bagad** is a Breton pipe band: **binou** sections, **bombard** sections, **drums** (including **caisse claire** and **biniou braz** bass pipe in some formats), and competition **suites** combining parade drill with concert pieces. Wikipedia notes bagads arose in the mid-twentieth century as youth ensembles tied to Breton revival and regional rivalry."
+        }
+      ]
+    },
+    {
+      "id": "structure-and-pedagogy",
+      "title": "Structure and pedagogy",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bagads function as **music schools** — children learn pipes and bombards in ranked sections, march in uniform, and compete at **championships** drawing bands from across Brittany and diaspora branches. Repertoire includes **gavottes**, **marches**, and composed **suites** — including arrangements of **Suite Sudarmoricaine** material.\n\nBagad federations organise grades, adjudication, and festival showcases. **Bagad Kemper**, **Bagad Bro Kemperle**, and **Bagad Brieg** are reference names on recordings."
+        }
+      ]
+    },
+    {
+      "id": "compared-with-irish-and-scottish-pipe-bands",
+      "title": "Compared with Irish and Scottish pipe bands",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Scottish pipe bands emphasise Highland pipes and snare drumming; Irish trad has no equivalent massed-youth pipeline in pub sessions. Breton bagad **requires** bombard sections and uses Breton tune forms — not a copy-paste of Scottish drill.\n\n![Bagad performing](https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "fest-noz-versus-competition-stage",
+      "title": "Fest-noz versus competition stage",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bagad concerts thrill festival audiences — **Festival Interceltique de Lorient** features major bagad finals. Village fest-noz may hire bagad subsets or smaller **sonerion** duos instead of full competition sets. Knowing which scale you are hearing prevents wrong expectations about floor figures.\n\n---"
+        }
+      ]
+    },
+    {
+      "id": "ensemble-balance-checklist",
+      "title": "Ensemble balance checklist",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Setting | Typical lead | Support |\n|---------|-------------|---------|\n| Cornouaille fest-noz | Bombard–binou | Fiddle, occasional accordion |\n| Vannetais fest-noz | Accordion | Fiddle, percussion |\n| Kan ha diskan set | Voices | Guitar, harp |\n| Bagad competition | Massed pipes and bombards | Drum corps |\n| Stivell-style fusion | Harp, voice, electric guitar | Bass, drums |"
+        }
+      ]
+    },
+    {
+      "id": "reading-and-listening-list",
+      "title": "Reading and listening list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Bagad Kemper** — championship recordings for massed timbre and suite structure.\n- **Yves Menez** — Vannetais accordion fest-noz repertoire.\n- **Red Cardell** or **Bleizi Ruz** — guitar-forward fest-noz rock crossover (preview Lesson 7).\n- **Fédération des bagadoù** materials — competition categories and grading."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- Accordion leads much Vannetais fest-noz — plinn and mazurka pulse, not secondary \"session backing.\"\n- Guitar supports song, fusion, and mixed fest-noz bands; role varies by region and genre.\n- Bagad is a distinct Breton institution — massed binou, bombard, and drums with youth pedagogy.\n- Bagad competitions and village fest-noz answer different social needs from the same instrument pool.\n- Compared with Ireland: no pub-session bagad equivalent; accordion regional lead differs from Clare session box."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "bagad",
+      "type": "organization",
+      "name": "Bagad",
+      "summary": "Breton pipe-band format with binou, bombard, and percussion sections",
+      "blurb": "Youth pipeline and competition institution distinct from Irish pub sessions.",
+      "url": "https://en.wikipedia.org/wiki/Bagad",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bagad_Brieg.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "bodadeg-ar-sonerion",
+      "type": "organization",
+      "name": "Bodadeg ar Sonerion",
+      "summary": "Publisher and teachers' network for Breton instrumentalists",
+      "blurb": "Connects accordion, bombard, and bagad learners to fest-noz practice.",
+      "url": "https://sonerion.bzh/",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Bombard.jpg?width=320"
+    }
+  ],
+  "entity_order": [
+    "bagad",
+    "bodadeg-ar-sonerion"
+  ],
+  "playlist": [
+    {
+      "id": "bagad-kemper",
+      "entity_id": "bagad",
+      "label": "Bagad Kemper competition set",
+      "youtube": "https://www.youtube.com/watch?v=2pOwRmyiK4s",
+      "subtitle": "Bagad"
+    },
+    {
+      "id": "vannetais-accordion",
+      "label": "Vannetais accordion fest-noz",
+      "youtube": "https://www.youtube.com/watch?v=1_uMYyEBz8s",
+      "subtitle": ""
+    },
+    {
+      "id": "bagad-brieg",
+      "entity_id": "bagad",
+      "label": "Bagad Brieg parade",
+      "youtube": "https://www.youtube.com/watch?v=RGOlgoGrVnE",
+      "subtitle": "Bagad"
+    },
+    {
+      "id": "bagad-drums",
+      "label": "Bagad drum corps",
+      "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Accordion leads much Vannetais fest-noz — plinn and mazurka, not session backing only.",
+    "Guitar supports kan ha diskan, fusion, and mixed fest-noz bands.",
+    "Bagad trains thousands in massed binou, bombard, and drum sections.",
+    "Bagad competition tempi differ from village fest-noz dance stamina.",
+    "Compared with Ireland: no pub-session bagad equivalent exists.",
+    "Accordion leads much Vannetais fest-noz — plinn and mazurka pulse, not secondary \"session backing.\"",
+    "Guitar supports song, fusion, and mixed fest-noz bands; role varies by region and genre.",
+    "Bagad is a distinct Breton institution — massed binou, bombard, and drums with youth pedagogy.",
+    "Bagad competitions and village fest-noz answer different social needs from the same instrument pool.",
+    "Compared with Ireland: no pub-session bagad equivalent; accordion regional lead differs from Clare session box."
+  ],
+  "reading_list": [
+    {
+      "type": "link",
+      "title": "Bagad",
+      "url": "https://en.wikipedia.org/wiki/Bagad",
+      "note": "Pipe-band structure and history"
+    },
+    {
+      "type": "link",
+      "title": "Fédération des bagadoù",
+      "url": "https://www.federationbagadoù.bzh/",
+      "note": "Bagad federation and championships"
+    },
+    {
+      "type": "link",
+      "title": "Bagad Kemper",
+      "url": "https://en.wikipedia.org/wiki/Bagad_Kemper",
+      "note": "Reference bagad from Quimper"
+    },
+    {
+      "type": "link",
+      "title": "Bagad Kemper",
+      "url": "https://en.wikipedia.org/wiki/Bagad",
+      "note": "Championship bagad"
+    },
+    {
+      "type": "link",
+      "title": "Breton accordion masters",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Brittany",
+      "note": "Fest-noz box"
+    },
+    {
+      "type": "book",
+      "title": "Musiques de Bretagne",
+      "author": "Ronan Gorgil",
+      "note": "Ensemble survey"
+    }
+  ],
+  "quiz_markdown": "### Q1. Accordion is especially prominent leading fest-noz in:\n\n- A) Vannetais (southeast Brittany)\n- B) Only urban electronic clubs\n- C) Strictly classical conservatories\n- D) Antarctic research stations\n\n**Answer:** A\n\n### Q2. A bagad includes binou, bombard, and drum sections in competition format.\n\n**Answer:** True\n\n### Q3. Compared with Irish pub sessions, Breton bagad culture:\n\n- A) Provides massed pipe-band training with no direct Irish session parallel\n- B) Is identical to Dublin fiddle sessions\n- C) Bans all percussion\n- D) Requires only harp and voice\n\n**Answer:** A\n\n### Q4. Guitar in Brittany commonly supports:\n\n- A) Kan ha diskan, fusion concerts, and mixed fest-noz bands\n- B) Only opera orchestra parts\n- C) Silent film pianos exclusively\n- D) Highland games alone\n\n**Answer:** A\n\n### Q5. Plinn at a Vannetais fest-noz is often led by accordion rather than bombard–binou.\n\n**Answer:** True\n\n### Q6. Bagad competitions often feature:\n\n- A) Suites combining marches, gavottes, and massed pipe arrangements\n- B) Only solo harp études\n- C) Irish reel sets without dancers\n- D) Electronic dance music only\n\n**Answer:** A\n\n### Q7. Bombard sections are part of bagad ensemble structure.\n\n**Answer:** True\n\n### Q8. Fest-noz rock and fusion bands expanded guitar's role beyond village sonerion lineups.\n\n**Answer:** True\n\n### Q9. Bagad Kemper is an example of a renowned Breton bagad on festival recordings.\n\n**Answer:** True\n\n### Q10. Accordion-led fest-noz is a \"less authentic\" tradition than bombard-only nights.\n\n**Answer:** False — Vannetais accordion lead is a legitimate regional contract, not a degradation.\n\n### Q11. Guitar typically leads every classic northwest fest-noz dance set alone.\n\n**Answer:** False — sonerion or fiddle often lead in northwest; guitar varies by band and region.\n\n### Q12. Bagad federations organise grading and championships for pipe bands across Brittany.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Accordion is especially prominent leading fest-noz in:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Provides massed pipe-band training with no direct Irish session parallel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vannetais (southeast Brittany)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Single-headed Irish frame drum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Vannetais (southeast Brittany)"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "A bagad includes binou, bombard, and drum sections in competition format.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Compared with Irish pub sessions, Breton bagad culture:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Vannetais (southeast Brittany)",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Provides massed pipe-band training with no direct Irish session parallel",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Provides massed pipe-band training with no direct Irish session parallel"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Guitar in Brittany commonly supports:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Provides massed pipe-band training with no direct Irish session parallel",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Kan ha diskan, fusion concerts, and mixed fest-noz bands"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Plinn at a Vannetais fest-noz is often led by accordion rather than bombard–binou.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Bagad competitions often feature:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Suites combining marches, gavottes, and massed pipe arrangements"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Bombard sections are part of bagad ensemble structure.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Fest-noz rock and fusion bands expanded guitar's role beyond village sonerion lineups.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Bagad Kemper is an example of a renowned Breton bagad on festival recordings.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Accordion-led fest-noz is a \"less authentic\" tradition than bombard-only nights.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "Vannetais accordion lead is a legitimate regional contract, not a degradation."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Guitar typically leads every classic northwest fest-noz dance set alone.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "sonerion or fiddle often lead in northwest; guitar varies by band and region."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Bagad federations organise grading and championships for pipe bands across Brittany.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-brittany-03-instruments-voices-ii-quiz",
+    "title": "Breton Traditional Instruments — Session Voices II quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Accordion is especially prominent leading fest-noz in:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Vannetais (southeast Brittany)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Single-headed Irish frame drum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Vannetais (southeast Brittany)"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "A bagad includes binou, bombard, and drum sections in competition format.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Compared with Irish pub sessions, Breton bagad culture:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Vannetais (southeast Brittany)",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Provides massed pipe-band training with no direct Irish session parallel"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Guitar in Brittany commonly supports:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Kan ha diskan, fusion concerts, and mixed fest-noz bands",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Provides massed pipe-band training with no direct Irish session parallel",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Kan ha diskan, fusion concerts, and mixed fest-noz bands"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Plinn at a Vannetais fest-noz is often led by accordion rather than bombard–binou.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "mcq",
+        "prompt": "Bagad competitions often feature:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Suites combining marches, gavottes, and massed pipe arrangements",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Suites combining marches, gavottes, and massed pipe arrangements"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Bombard sections are part of bagad ensemble structure.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Fest-noz rock and fusion bands expanded guitar's role beyond village sonerion lineups.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Bagad Kemper is an example of a renowned Breton bagad on festival recordings.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Accordion-led fest-noz is a \"less authentic\" tradition than bombard-only nights.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "Vannetais accordion lead is a legitimate regional contract, not a degradation."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Guitar typically leads every classic northwest fest-noz dance set alone.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "sonerion or fiddle often lead in northwest; guitar varies by band and region."
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Bagad federations organise grading and championships for pipe bands across Brittany.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

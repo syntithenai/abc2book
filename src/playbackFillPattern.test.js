@@ -6,10 +6,24 @@ import {
   buildChordTimelineFromTune,
   applyPlaybackFillToSequence,
   buildPlaybackSequence,
+  balanceAbcjsPlaybackTrackVolumes,
+  ABCJS_CHORD_TRACK_BASE_SCALE,
+  ABCJS_CHORD_DURATION_SCALE,
+  ABCJS_MELODY_TRACK_BOOST,
+  ABCJS_SHORT_MELODY_BOOST,
   extractChordsPerBarFromTuneNotes,
   inferBarDurationSecFromFlattened,
   FILL_CHANNELS,
+  secondsToWholeNotesFactor,
+  scaleSequenceTrackTimes,
+  barWholeNotesFromMeter,
+  pickupOffsetSecFromVisualObj,
+  soundingTransposeSemitones,
+  extractExpandedChordChangesFromVisualObj,
+  expandChordChangesThroughRepeats,
+  buildVisualChordRepeatTokens,
 } from './playbackFillPattern'
+import abcjs from 'abcjs'
 import { applyRhythmPreset } from './drumPatternPresets'
 import { buildFillRhythmContext } from './fillDrumRhythm'
 
@@ -19,6 +33,93 @@ describe('playbackFillPattern', function() {
     expect(chord.boom).toBe(36)
     expect(chord.boom2).toBe(31)
     expect(chord.chick.length).toBeGreaterThanOrEqual(3)
+  })
+
+  test('interpretChordLabel applies transpose to bass and chick together', function() {
+    const chord = interpretChordLabel('G', -5)
+    expect(chord.boom).toBe(38)
+    expect(chord.chick[0]).toBe(interpretChordLabel('G', 0).chick[0] - 5)
+  })
+
+  test('soundingTransposeSemitones cancels visualTranspose like abcjs', function() {
+    expect(soundingTransposeSemitones(-5, -5)).toBe(0)
+    expect(soundingTransposeSemitones(-5, 0)).toBe(-5)
+    expect(soundingTransposeSemitones(0, -5)).toBe(5)
+  })
+
+  test('expandChordChangesThroughRepeats doubles a simple repeated strain', function() {
+    const tokens = [
+      { type: 'bar', barType: 'bar_left_repeat', startEnding: '', endEnding: false, t: 0 },
+      { type: 'chord', label: 'Gm', t: 0 },
+      { type: 'note', t: 0, d: 0.5 },
+      { type: 'note', t: 0.5, d: 0.5 },
+      { type: 'bar', barType: 'bar_right_repeat', startEnding: '', endEnding: false, t: 1 },
+    ]
+    const expanded = expandChordChangesThroughRepeats(tokens)
+    expect(expanded.musicWhole).toBeCloseTo(2, 5)
+    expect(expanded.changes).toEqual([
+      { label: 'Gm', atWhole: 0 },
+      { label: 'Gm', atWhole: 1 },
+    ])
+  })
+
+  test('expandChordChangesThroughRepeats matches abcjs for :| without |: (Amazone)', function() {
+    const abc = [
+      'X:1',
+      'T:Amazone',
+      'M:6/8',
+      'L:1/4',
+      'K:C',
+      '"Am"ee/2 e/2d/2c/2 | "F"cc/2 c/2d/2e/2 | "Dm"f/2e/2d/2 e/2d/2c/2 | "Em7"dB/2 B/2c/2d/2 |',
+      '"Am"ee/2 e/2d/2c/2 | "F"cc/2 c/2d/2e/2 | "Dm"f/2e/2d/2 e/2d/2c/2 | "Em"B3 :|',
+      '"Am"A"G"B"F"c | "Dm"d3 | "Em"e/2g/2e/2 d/2c/2B/2 | "Am"cA/2 AG/2 |',
+      '"Am"A"G"B"F"c |"Dm"d3 | "Em"e/2g/2e/2 d/2c/2B/2 | "Am"A3 :|',
+    ].join('\n')
+    const visualObj = abcjs.renderAbc('*', abc)[0]
+    const built = buildVisualChordRepeatTokens(visualObj)
+    const rawWhole = built.tokens.filter(function(t) { return t.type === 'note' })
+      .reduce(function(sum, t) { return sum + t.d }, 0)
+    const expanded = extractExpandedChordChangesFromVisualObj(visualObj)
+    // Two 8-bar strains, each repeated once → 4× the written length.
+    expect(rawWhole).toBeGreaterThan(0)
+    expect(expanded.musicWhole).toBeCloseTo(rawWhole * 2, 4)
+    expect(expanded.changes.length).toBeGreaterThan(16)
+    const multiBar = expanded.changes.filter(function(c) {
+      return c.label === 'G' || c.label === 'B' || c.label === 'F'
+    })
+    expect(multiBar.length).toBeGreaterThan(0)
+  })
+
+  test('buildChordTimelineFromTune matches melody when visualTranspose cancels midiTranspose', function() {
+    const pickup = 0.25
+    const voice = [
+      { el_type: 'note', duration: pickup },
+      { el_type: 'note', duration: 0.75, chord: [{ name: 'G' }] },
+    ]
+    const visualObj = {
+      visualTranspose: -5,
+      getMeterFraction: function() { return { num: 3, den: 4 } },
+      getPickupLength: function() { return pickup },
+      millisecondsPerMeasure: function() { return 1800 },
+      lines: [{ staff: [{ voices: [voice] }] }],
+    }
+    const timeline = buildChordTimelineFromTune(
+      { transpose: -5, voices: { v1: { notes: ['D|"G"G2|'] } } },
+      null,
+      null,
+      visualObj,
+      { barDurationSec: 1.8, transpose: -5 }
+    )
+    expect(timeline[0].label).toBe('G')
+    // Net transpose 0 → written G boom (43), not D (38)
+    expect(timeline[0].chord.boom).toBe(43)
+  })
+
+  test('interpretChordLabel keeps accidentals on bass root', function() {
+    const fs = interpretChordLabel('F#m', 0)
+    expect(fs.boom).toBe(42)
+    const bb = interpretChordLabel('Bb', 0)
+    expect(bb.boom).toBe(34)
   })
 
   test('interpretChordLabel handles break synonyms', function() {
@@ -231,6 +332,74 @@ describe('playbackFillPattern', function() {
     expect(timeline[1].label).toBe('F')
   })
 
+  test('buildChordTimelineFromTune offsets bars by anacrusis', function() {
+    const tune = {
+      transpose: 0,
+      voices: { v1: { notes: ['D|"G"G2A|"D7"A2|'] } },
+    }
+    const visualObj = {
+      getMeterFraction: function() { return { num: 3, den: 4 } },
+      getPickupLength: function() { return 0.25 },
+      millisecondsPerMeasure: function() { return 1800 },
+    }
+    const timeline = buildChordTimelineFromTune(tune, null, null, visualObj, {
+      barDurationSec: 1.8,
+    })
+    expect(pickupOffsetSecFromVisualObj(visualObj, 1.8)).toBeCloseTo(0.6)
+    expect(timeline[0].label).toBe('G')
+    expect(timeline[0].startSec).toBeCloseTo(0.6)
+    expect(timeline[1].startSec).toBeCloseTo(2.4)
+  })
+
+  test('buildChordTimelineFromTune follows mid-bar chord changes from visualObj', function() {
+    const pickup = 0.25
+    const voice = [
+      { el_type: 'note', duration: pickup },
+      { el_type: 'note', duration: 0.5, chord: [{ name: 'G' }] },
+      { el_type: 'note', duration: 0.25 },
+      { el_type: 'note', duration: 0.5 },
+      { el_type: 'note', duration: 0.25, chord: [{ name: 'D7' }] },
+      { el_type: 'note', duration: 0.5, chord: [{ name: 'Em' }] },
+      { el_type: 'note', duration: 0.25, chord: [{ name: 'C' }] },
+    ]
+    const visualObj = {
+      getMeterFraction: function() { return { num: 3, den: 4 } },
+      getPickupLength: function() { return pickup },
+      millisecondsPerMeasure: function() { return 1800 },
+      lines: [{ staff: [{ voices: [voice] }] }],
+    }
+    const timeline = buildChordTimelineFromTune(
+      { transpose: 0, voices: { v1: { notes: ['D|"G"G2A|B2"D7"A|"Em"G2"C"E|'] } } },
+      null,
+      null,
+      visualObj,
+      { barDurationSec: 1.8 }
+    )
+    expect(timeline.some(function(e) {
+      return e.label === 'G' && Math.abs(e.activeStartSec - 0.6) < 1e-6 && Math.abs(e.startSec - 0.6) < 1e-6
+    })).toBe(true)
+    const d7 = timeline.find(function(e) { return e.label === 'D7' })
+    expect(d7).toBeTruthy()
+    expect(d7.startSec).toBeCloseTo(2.4, 5)
+    expect(d7.activeStartSec).toBeCloseTo(3.6, 5)
+    const em = timeline.find(function(e) { return e.label === 'Em' })
+    expect(em.activeStartSec).toBeCloseTo(4.2, 5)
+    const c = timeline.find(function(e) { return e.label === 'C' })
+    expect(c.startSec).toBeCloseTo(4.2, 5)
+    expect(c.activeStartSec).toBeCloseTo(5.4, 5)
+
+    const tracks = generatePlaybackFillTracks(
+      timeline.filter(function(e) { return e.label === 'G' || e.label === 'D7' }),
+      'boom-chick',
+      100
+    )
+    const bass = tracks[0].filter(function(ev) { return ev.cmd === 'note' })
+    const d7Bass = bass.filter(function(n) {
+      return n.start >= d7.activeStartSec - 0.01 && n.start < d7.activeEndSec
+    })
+    expect(d7Bass.length).toBe(0)
+  })
+
   test('applyPlaybackFillToSequence injects custom tracks', function() {
     const sequence = {
       tracks: [
@@ -265,6 +434,13 @@ describe('playbackFillPattern', function() {
       voices: { v1: { notes: ['"C"C2|"F"F2|"G"G2|'] } },
     }
     expect(extractChordsPerBarFromTuneNotes(tune)).toEqual(['C', 'F', 'G'])
+  })
+
+  test('extractChordsPerBarFromTuneNotes carries chords across bars without symbols', function() {
+    const tune = {
+      voices: { v1: { notes: ['"G"G2|B2|"D"D2|'] } },
+    }
+    expect(extractChordsPerBarFromTuneNotes(tune)).toEqual(['G', 'G', 'D'])
   })
 
   test('extractChordsPerBarFromTuneNotes skips section marker quoted chords', function() {
@@ -384,5 +560,103 @@ describe('playbackFillPattern', function() {
     expect(calls.length).toBe(1)
     expect(calls[0].chordsOff).toBe(true)
     expect(sequence.tracks.length).toBeGreaterThan(1)
+  })
+
+  test('balanceAbcjsPlaybackTrackVolumes boosts melody and scales chords by fill level', function() {
+    const sequence = {
+      tracks: [
+        [{ cmd: 'note', pitch: 72, volume: 80, start: 0, duration: 0.125 }],
+        [{ cmd: 'note', pitch: 60, volume: 64, start: 0, duration: 0.125 }],
+      ],
+    }
+    balanceAbcjsPlaybackTrackVolumes(sequence, { fillLevel: 100 })
+    expect(sequence.tracks[0][0].volume).toBe(Math.min(127, Math.round(80 * ABCJS_MELODY_TRACK_BOOST)))
+    expect(sequence.tracks[1][0].volume).toBe(Math.round(64 * ABCJS_CHORD_TRACK_BASE_SCALE))
+    expect(sequence.tracks[1][0].duration).toBeCloseTo(0.125 * ABCJS_CHORD_DURATION_SCALE, 5)
+  })
+
+  test('balanceAbcjsPlaybackTrackVolumes boosts short grace notes', function() {
+    const sequence = {
+      tracks: [
+        [{ cmd: 'note', pitch: 69, volume: 80, start: 0, duration: 0.03125 }],
+      ],
+    }
+    balanceAbcjsPlaybackTrackVolumes(sequence, { fillLevel: 100 })
+    expect(sequence.tracks[0][0].volume).toBe(Math.min(127, Math.round(80 * ABCJS_MELODY_TRACK_BOOST * ABCJS_SHORT_MELODY_BOOST)))
+  })
+
+  test('buildPlaybackSequence boom-chick applies fill level to abcjs chord track', function() {
+    const synthObj = {
+      setUpAudio: function() {
+        return {
+          tracks: [
+            [{ cmd: 'note', pitch: 72, volume: 80, start: 0, duration: 0.125 }],
+            [{ cmd: 'note', pitch: 60, volume: 64, start: 0, duration: 0.125 }],
+          ],
+        }
+      },
+    }
+    const sequence = buildPlaybackSequence(synthObj, {
+      fillOptions: {
+        injectCustomFill: false,
+        chordsOff: false,
+        styleDef: { usesAbcjsChords: true },
+        settings: { style: 'boom-chick', level: 50 },
+      },
+    })
+    expect(sequence.tracks[0][0].volume).toBe(Math.min(127, Math.round(80 * ABCJS_MELODY_TRACK_BOOST)))
+    expect(sequence.tracks[1][0].volume).toBe(Math.round(64 * 0.5 * ABCJS_CHORD_TRACK_BASE_SCALE))
+  })
+
+  test('secondsToWholeNotesFactor converts wall-clock fill times for 3/4', function() {
+    // 3/4 at Q=90 → 2000ms/bar; bar = 0.75 whole notes
+    expect(barWholeNotesFromMeter({ num: 3, den: 4 })).toBeCloseTo(0.75)
+    expect(secondsToWholeNotesFactor(2000, { num: 3, den: 4 })).toBeCloseTo(0.375)
+  })
+
+  test('scaleSequenceTrackTimes converts fill seconds into whole notes', function() {
+    const tracks = [[
+      { cmd: 'note', pitch: 60, start: 2, duration: 0.5 },
+    ]]
+    scaleSequenceTrackTimes(tracks, 0.375)
+    expect(tracks[0][0].start).toBeCloseTo(0.75)
+    expect(tracks[0][0].duration).toBeCloseTo(0.1875)
+  })
+
+  test('buildPlaybackSequence custom fill converts seconds to whole notes', function() {
+    const synthObj = {
+      setUpAudio: function() {
+        return {
+          tracks: [
+            [{ cmd: 'program', instrument: 0 }, { cmd: 'note', pitch: 72, start: 0, duration: 0.25 }],
+          ],
+          totalDuration: 1,
+        }
+      },
+      getMeterFraction: function() { return { num: 4, den: 4 } },
+      millisecondsPerMeasure: function() { return 2000 },
+    }
+    const tune = {
+      transpose: 0,
+      voices: { v1: { notes: ['"C"C4|"C"C4|'] } },
+    }
+    const sequence = buildPlaybackSequence(synthObj, {
+      fillOptions: {
+        injectCustomFill: true,
+        settings: { style: 'block', level: 100 },
+      },
+      tune: tune,
+      millisecondsPerMeasure: 2000,
+    })
+    expect(sequence._resolvedBarDurationSec).toBeUndefined()
+    const fillNotes = sequence.tracks.slice(1).reduce(function(acc, track) {
+      return acc.concat(track.filter(function(ev) { return ev.cmd === 'note' }))
+    }, [])
+    expect(fillNotes.length).toBeGreaterThan(0)
+    // Bar is 2s / 1 whole note → factor 0.5; a half-bar stab (~1s) → ~0.5 whole notes
+    fillNotes.forEach(function(n) {
+      expect(n.start).toBeLessThan(3)
+      expect(n.duration).toBeLessThan(1.1)
+    })
   })
 })

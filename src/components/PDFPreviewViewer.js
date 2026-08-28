@@ -1,15 +1,10 @@
-import { pdfjs } from 'react-pdf';
 import { Document, Page, Outline , Thumbnail} from 'react-pdf';
 import 'react-pdf/dist/Page/TextLayer.css';  
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import utilsFunctions from '../utilsFunctions' 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString(); 
-
+import '../pdfJsConfig'
 
 export default function PDFPreviewViewer(props) {
 	var utils = utilsFunctions()

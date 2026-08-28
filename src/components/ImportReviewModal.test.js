@@ -13,10 +13,73 @@ jest.mock('./AddCuratedCollectionsPanel', function() {
   };
 });
 
+jest.mock('./AddFromDropdown', function() {
+  const React = require('react');
+  const { useEffect, useState } = React;
+  return function AddFromDropdown(props) {
+    const [showBulk, setShowBulk] = useState(false);
+    useEffect(function() {
+      if (!props.bulkOpenRequest) return;
+      setShowBulk(true);
+    }, [props.bulkOpenRequest]);
+    return React.createElement(
+      'div',
+      { 'data-testid': 'add-from-dropdown' },
+      React.createElement(
+        'button',
+        { type: 'button', 'data-testid': 'add-from-toggle' },
+        'Add From'
+      ),
+      React.createElement(
+        'button',
+        {
+          type: 'button',
+          'data-testid': 'add-from-bulk',
+          onClick: function() {
+            setShowBulk(true);
+            if (typeof props.onOpenBulk === 'function') props.onOpenBulk();
+          },
+        },
+        'Bulk Import'
+      ),
+      React.createElement(
+        'button',
+        { type: 'button', 'data-testid': 'add-from-reviewed' },
+        'Import Reviewed Images'
+      ),
+      React.createElement(
+        'button',
+        { type: 'button', 'data-testid': 'add-from-import-book' },
+        'Import scans or PDF'
+      ),
+      showBulk
+        ? React.createElement(
+          'div',
+          { 'data-testid': 'add-from-bulk-dialog' },
+          React.createElement('div', { 'data-testid': 'add-bulk-panel' }, 'Bulk panel')
+        )
+        : null
+    );
+  };
+});
+
 jest.mock('./AddBulkImportPanel', function() {
   const React = require('react');
   return function AddBulkImportPanel() {
     return React.createElement('div', { 'data-testid': 'add-bulk-panel' }, 'Bulk panel');
+  };
+});
+
+jest.mock('./ImportBookWizardModal', function() {
+  return function ImportBookWizardModal() {
+    return null
+  }
+})
+
+jest.mock('./ImportReviewedImagesPanel', function() {
+  const React = require('react');
+  return function ImportReviewedImagesPanel() {
+    return React.createElement('div', { 'data-testid': 'import-reviewed-images-panel' }, 'Reviewed images panel');
   };
 });
 
@@ -94,14 +157,24 @@ jest.mock('react-bootstrap', function() {
   };
 
   function Dropdown(props) {
-    return <div className={props.className}>{props.children}</div>;
+    return <div className={props.className} data-testid={props['data-testid']}>{props.children}</div>;
   }
   Dropdown.Toggle = function DropdownToggle(props) {
     return <button type="button" {...props}>{props.children}</button>;
   };
-  Dropdown.Menu = passthrough('div');
+  Dropdown.Menu = function DropdownMenu(props) {
+    const rest = Object.assign({}, props);
+    delete rest.popperConfig;
+    return <div {...rest}>{props.children}</div>;
+  };
   Dropdown.Item = function DropdownItem(props) {
     return <button type="button" {...props}>{props.children}</button>;
+  };
+  Dropdown.Divider = function DropdownDivider() {
+    return <hr />;
+  };
+  Dropdown.ItemText = function DropdownItemText(props) {
+    return <div {...props}>{props.children}</div>;
   };
 
   return {
@@ -228,12 +301,25 @@ jest.mock('./AddTuneSimpleForm', function() {
         >
           Add
         </button>
-        {props.addFromToolbar ? (
-          <div data-testid="add-from-in-form">{props.addFromToolbar}</div>
+        {props.addFromDropdown ? (
+          <div data-testid="add-from-beside-title">{props.addFromDropdown}</div>
         ) : null}
         <div data-testid="add-tune-matches">Already In Your Library</div>
+        <div data-testid="add-curated-collections">Curated Collections</div>
       </div>
     );
+  };
+});
+
+jest.mock('./YouTubeSearchModal', function() {
+  return function YouTubeSearchModal() {
+    return null;
+  };
+});
+
+jest.mock('../reactBootstrapDropdownPatch', function() {
+  return {
+    withDropdownPositionFix: function(config) { return config || {}; },
   };
 });
 
@@ -416,9 +502,12 @@ describe('ImportReviewModal', function() {
     expect(view.container.querySelector('[data-testid="modal"]')).toBeFalsy();
     expect(view.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
     expect(view.container.querySelector('[data-testid="tune-record-form"]')).toBeFalsy();
-    expect(view.container.querySelector('[data-testid="add-from-in-form"]')).toBeTruthy();
-    expect(view.container.textContent).toContain('Add From');
+    expect(view.container.querySelector('[data-testid="add-from-in-form"]')).toBeFalsy();
+    expect(view.container.querySelector('[data-testid="add-from-beside-title"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-from-dropdown"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-from-toggle"]')).toBeTruthy();
     expect(view.container.textContent).toContain('Already In Your Library');
+    expect(view.container.textContent).toContain('Curated Collections');
     expect(view.container.textContent).not.toContain('Enhance');
     expect(view.container.querySelector('[data-testid="add-tunes-cancel"]')).toBeFalsy();
     const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
@@ -452,7 +541,7 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
-  test('blank add session shows Add Form, Curated Collections and Bulk Import in Add From', async function() {
+  test('blank add session shows Add From dropdown without Curated Collections option', async function() {
     const view = renderModal();
     const onSessionChange = jest.fn();
     const session = createImportReviewSession(
@@ -468,29 +557,49 @@ describe('ImportReviewModal', function() {
 
     await view.render(props);
 
-    expect(view.container.querySelector('[data-testid="add-open-bulk"]')).toBeFalsy();
-    const formButton = view.container.querySelector('[data-testid="add-from-form"]');
-    const curatedButton = view.container.querySelector('[data-testid="add-from-curated"]');
+    expect(view.container.querySelector('[data-testid="add-from-dropdown"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-from-curated"]')).toBeFalsy();
+    expect(view.container.querySelector('[data-testid="add-from-form"]')).toBeFalsy();
     const bulkButton = view.container.querySelector('[data-testid="add-from-bulk"]');
-    expect(formButton).toBeTruthy();
-    expect(curatedButton).toBeTruthy();
     expect(bulkButton).toBeTruthy();
-    expect(formButton.textContent).toContain('Add Form');
-    expect(curatedButton.textContent).toContain('Curated Collections');
     expect(bulkButton.textContent).toContain('Bulk Import');
-    expect(view.container.querySelector('[data-testid="add-from-in-form"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-from-reviewed"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-from-import-book"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-curated-collections"]')).toBeTruthy();
 
-    curatedButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-    expect(onSessionChange).toHaveBeenCalled();
-    const curatedSession = onSessionChange.mock.calls[0][0];
-    expect(curatedSession.addPanelMode).toBe('curated');
+    await act(async function() {
+      bulkButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    });
+    expect(view.container.querySelector('[data-testid="add-from-bulk-dialog"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-bulk-panel"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
 
     await view.unmount();
   });
 
-  test('curated and bulk panel modes replace the add form', async function() {
-    const curatedView = renderModal();
+  test('bulk panel mode opens bulk dialog while keeping the add form', async function() {
+    const bulkView = renderModal();
     const onSessionChange = jest.fn();
+    const bulkSession = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs' })],
+      { entryMode: 'add', addPanelMode: 'bulk' }
+    );
+    await bulkView.render(buildProps({
+      session: bulkSession,
+      currentTuneBook: 'songs',
+      onSessionChange: onSessionChange,
+    }));
+    expect(bulkView.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
+    expect(bulkView.container.querySelector('[data-testid="add-from-bulk-dialog"]')).toBeTruthy();
+    expect(bulkView.container.querySelector('[data-testid="add-bulk-panel"]')).toBeTruthy();
+    expect(bulkView.container.querySelector('[data-testid="add-tune-save"]')).toBeTruthy();
+    expect(onSessionChange).toHaveBeenCalled();
+    expect(onSessionChange.mock.calls[0][0].addPanelMode).toBe('form');
+    await bulkView.unmount();
+  });
+
+  test('curated panel mode shows the add form with curated collections section', async function() {
+    const curatedView = renderModal();
     const curatedSession = createImportReviewSession(
       [createBlankAddCandidate({ book: 'songs' })],
       { entryMode: 'add', addPanelMode: 'curated' }
@@ -499,29 +608,12 @@ describe('ImportReviewModal', function() {
       session: curatedSession,
       currentTuneBook: 'songs',
       setCurrentTuneBook: jest.fn(),
-      onSessionChange: onSessionChange,
     }));
-    expect(curatedView.container.querySelector('[data-testid="add-curated-panel"]')).toBeTruthy();
-    expect(curatedView.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeFalsy();
-    expect(curatedView.container.querySelector('[data-testid="add-tune-save"]')).toBeFalsy();
-    const formButton = curatedView.container.querySelector('[data-testid="add-from-form"]');
-    expect(formButton).toBeTruthy();
-    formButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-    expect(onSessionChange.mock.calls[0][0].addPanelMode).toBe('form');
+    expect(curatedView.container.querySelector('[data-testid="add-curated-panel"]')).toBeFalsy();
+    expect(curatedView.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
+    expect(curatedView.container.querySelector('[data-testid="add-curated-collections"]')).toBeTruthy();
+    expect(curatedView.container.querySelector('[data-testid="add-tune-save"]')).toBeTruthy();
     await curatedView.unmount();
-
-    const bulkView = renderModal();
-    const bulkSession = createImportReviewSession(
-      [createBlankAddCandidate({ book: 'songs' })],
-      { entryMode: 'add', addPanelMode: 'bulk' }
-    );
-    await bulkView.render(buildProps({
-      session: bulkSession,
-      currentTuneBook: 'songs',
-    }));
-    expect(bulkView.container.querySelector('[data-testid="add-bulk-panel"]')).toBeTruthy();
-    expect(bulkView.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeFalsy();
-    await bulkView.unmount();
   });
 
   test('inline chordpro import fills Add form fields after session update', async function() {

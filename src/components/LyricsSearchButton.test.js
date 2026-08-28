@@ -24,6 +24,30 @@ jest.mock('../useAbcjsParser', function() {
   }
 })
 
+jest.mock('../fieldLookupResolverAccess', function() {
+  return {
+    useFieldLookupResolverAccess: function() {
+      return {
+        needsLogin: false,
+        needsNetwork: false,
+        automaticLookupFor: function() { return true },
+      }
+    },
+  }
+})
+
+jest.mock('../resolverAccessToken', function() {
+  return {
+    resolveResolverAccessToken: function(token) { return token || '' },
+  }
+})
+
+jest.mock('../mediaResolverHealthStore', function() {
+  return {
+    getActiveResolverAccessToken: function() { return '' },
+  }
+})
+
 jest.mock('../tuneFieldLookupQueue', function() {
   return {
     applyFieldLookupChoice: jest.fn(),

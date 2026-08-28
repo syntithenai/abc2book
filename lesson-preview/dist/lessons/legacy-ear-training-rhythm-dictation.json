@@ -1,0 +1,245 @@
+{
+  "id": "legacy-ear-training-rhythm-dictation",
+  "title": "Rhythm Dictation",
+  "track": "theory",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "theory",
+    "legacy"
+  ],
+  "path": "12-ear-training/03-rhythm-dictation.md",
+  "sections": [
+    {
+      "id": "rhythm-dictation",
+      "title": "Rhythm Dictation",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** ear-training | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Rhythm dictation trains you to notate or reproduce rhythmic patterns heard — essential for learning tunes by ear."
+        }
+      ]
+    },
+    {
+      "id": "subdivision",
+      "title": "Subdivision",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Feel beat first, then subdivide: eighths in 4/4, triplets in 6/8. Tap foot on main beat only."
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "title": "Patterns",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Start with 2-bar patterns: quarter and eighth combinations. Add syncopation. Jig patterns: long-short-short or three equal eighths per beat."
+        }
+      ]
+    },
+    {
+      "id": "notation",
+      "title": "Notation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Use correct beam grouping — eighths beamed per beat in 4/4; in 6/8, beam three eighths per beat."
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Clap back rhythms before writing. Slow recordings to 75% speed. Bodhrán and metronome apps help."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. In 6/8, main beats are felt as:\n\n- A) Two beats per bar (compound duple)\n- B) Six equal beats\n- C) Three quarter-note beats\n- D) One beat only\n\n**Answer:** A\n\n### Q2. Tap foot on main beat when dictating rhythm.\n\n**Answer:** True\n\n### Q3. Syncopation stresses:\n\n- A) Weak beats or offbeats\n- B) Only beat one always\n- C) Silence only\n- D) Every bar line\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "In 6/8, main beats are felt as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Two beats per bar (compound duple)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Weak beats or offbeats",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Two beats per bar (compound duple)"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Tap foot on main beat when dictating rhythm.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Syncopation stresses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sligo fiddle style",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Weak beats or offbeats",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Weak beats or offbeats"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-ear-training-rhythm-dictation-quiz",
+    "title": "Rhythm Dictation quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "In 6/8, main beats are felt as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Two beats per bar (compound duple)",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Weak beats or offbeats",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Two beats per bar (compound duple)"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Tap foot on main beat when dictating rhythm.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Syncopation stresses:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Sligo fiddle style",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Weak beats or offbeats",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Weak beats or offbeats"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+.find-similar-melodies-modal .modal-body {
+  min-height: 8rem;
+}
+
+.find-similar-melodies-loading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #555;
+}
+
+.find-similar-melodies-loading--inline {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.find-similar-melodies-list {
+  max-height: min(60vh, 28rem);
+  overflow: auto;
+}
+
+.find-similar-melodies-row-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 0.75rem;
+}
+
+.find-similar-melodies-title {
+  flex: 1 1 10rem;
+  min-width: 0;
+}
+
+.find-similar-melodies-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.find-similar-melodies-score {
+  font-weight: 600;
+  color: #333;
+}
+
+.find-similar-melodies-source {
+  opacity: 0.9;
+}
+
+.find-similar-melodies-preview {
+  margin-top: 0.45rem;
+  overflow: hidden;
+}

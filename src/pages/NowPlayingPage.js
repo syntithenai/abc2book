@@ -5,6 +5,9 @@ import {
   isQueueActive,
   getQueuePositionLabel,
   getCurrentTuneId,
+  setPreferMidi,
+  isPreferMidi,
+  tuneHasMidiNotes,
 } from '../nowPlayingQueue'
 import { resumePlaylistPlayback, enqueueTuneInQueueAndPlay, toggleTunePlayback } from '../tunePlaybackActions'
 import {
@@ -74,6 +77,10 @@ export default function NowPlayingPage(props) {
     : false
   const [showArtwork, setShowArtwork] = useState(!!showArtworkCandidate)
   const [showPlayRangeModal, setShowPlayRangeModal] = useState(false)
+  const [preferMidiLocal, setPreferMidiLocal] = useState(!!isPreferMidi(nowPlayingQueue))
+  const preferMidiEnabled = queueActive
+    ? isPreferMidi(nowPlayingQueue)
+    : preferMidiLocal
   const playDisabled = useOfflinePlayDisabled(
     mediaController,
     props.tunebook,
@@ -86,6 +93,20 @@ export default function NowPlayingPage(props) {
   useEffect(function() {
     setShowArtwork(!!showArtworkCandidate)
   }, [showArtworkCandidate, activeTuneId, activeLinkIndex])
+
+  useEffect(function() {
+    if (queueActive) {
+      setPreferMidiLocal(isPreferMidi(nowPlayingQueue))
+    }
+  }, [queueActive, nowPlayingQueue && nowPlayingQueue.preferMidi])
+
+  function handlePreferMidiToggle() {
+    const next = !preferMidiEnabled
+    setPreferMidiLocal(next)
+    if (typeof props.setNowPlayingQueue === 'function' && isQueueActive(nowPlayingQueue)) {
+      props.setNowPlayingQueue(setPreferMidi(nowPlayingQueue, next))
+    }
+  }
 
   const handleClose = useCallback(function() {
     if (typeof props.onClose === 'function') {
@@ -131,6 +152,7 @@ export default function NowPlayingPage(props) {
     setNowPlayingQueue: props.setNowPlayingQueue,
     setQueuePlayConfirm: props.setQueuePlayConfirm,
     skipQueueConfirm: true,
+    preferMidi: preferMidiEnabled,
   }
 
   const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
@@ -405,22 +427,54 @@ export default function NowPlayingPage(props) {
                     />
                   ) : null}
                 />
-                {typeof props.onOpenLinksEditor === 'function' ? (
-                  <Button
-                    variant="outline-primary"
-                    size="sm"
-                    className="now-playing-page-media-sources-add"
-                    aria-label="Edit media links"
-                    title="Edit media links"
-                    onClick={function() {
-                      if (playingTune && playingTune.id) {
-                        props.onOpenLinksEditor(playingTune.id)
-                      }
-                    }}
-                  >
-                    {props.tunebook.icons.add}
-                  </Button>
-                ) : null}
+                <div className="now-playing-page-media-sources-actions">
+                  {tuneHasMidiNotes(playingTune, props.tunebook) ? (
+                    <Button
+                      type="button"
+                      variant={preferMidiEnabled ? 'secondary' : 'outline-secondary'}
+                      size="sm"
+                      className="now-playing-page-prefer-midi"
+                      aria-label={preferMidiEnabled ? 'MIDI preferred' : 'Prefer MIDI'}
+                      aria-pressed={preferMidiEnabled}
+                      title={preferMidiEnabled
+                        ? 'Prefer MIDI — play and next/prev use ABC MIDI when available'
+                        : 'Prefer audio — play and next/prev use media links when available'}
+                      data-testid="now-playing-prefer-midi"
+                      onClick={handlePreferMidiToggle}
+                    >
+                      <span className="now-playing-page-prefer-midi-content">
+                        <input
+                          type="checkbox"
+                          className="form-check-input now-playing-page-prefer-midi-check"
+                          checked={preferMidiEnabled}
+                          readOnly
+                          tabIndex={-1}
+                          aria-hidden="true"
+                        />
+                        <span className="now-playing-page-prefer-midi-icon" aria-hidden="true">
+                          {props.tunebook.icons.midi}
+                        </span>
+                        <span className="now-playing-page-prefer-midi-label">MIDI</span>
+                      </span>
+                    </Button>
+                  ) : null}
+                  {typeof props.onOpenLinksEditor === 'function' ? (
+                    <Button
+                      variant="outline-primary"
+                      size="sm"
+                      className="now-playing-page-media-sources-add"
+                      aria-label="Edit media links"
+                      title="Edit media links"
+                      onClick={function() {
+                        if (playingTune && playingTune.id) {
+                          props.onOpenLinksEditor(playingTune.id)
+                        }
+                      }}
+                    >
+                      {props.tunebook.icons.add}
+                    </Button>
+                  ) : null}
+                </div>
               </div>
               {showPlayRangeButton && playRangeLinkIndex != null ? (
                 <LinkPlayRangeModal

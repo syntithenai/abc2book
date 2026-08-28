@@ -93,9 +93,9 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(fast["family"], "stable_audio")
         self.assertAlmostEqual(fast["initNoiseLevel"], 0.35)
 
-    def test_default_practice_track_preset_is_fast(self):
+    def test_default_practice_track_preset_is_balanced(self):
         from music_generation.task_catalog import DEFAULT_PRESET_BY_TASK
-        self.assertEqual(DEFAULT_PRESET_BY_TASK[TASK_PRACTICE_TRACK], "fast")
+        self.assertEqual(DEFAULT_PRESET_BY_TASK[TASK_PRACTICE_TRACK], "balanced")
 
     def test_resolve_ace_fidelity_preset(self):
         ace = resolve_preset(TASK_PRACTICE_TRACK, "ace_fidelity")

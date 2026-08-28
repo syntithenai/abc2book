@@ -21,6 +21,7 @@ export default function TuneEnhanceButton({
   tune,
   tunebook,
   token,
+  login,
   forceRefresh,
   className,
   toggleClassName,
@@ -79,6 +80,10 @@ export default function TuneEnhanceButton({
       canResearchBackground: canResearchBackground,
       canAffordComposer: canAffordComposer,
       hasScannableLinkedMedia: hasScannableLinkedMedia,
+      needsLogin: !!resolverAccess.needsLogin,
+      needsNetwork: !!resolverAccess.needsNetwork,
+      needsCredit: !!resolverAccess.needsCredit,
+      loginWarning: resolverAccess.loginWarning || null,
       fieldLookupQueue: fieldLookupQueue,
       composerQueue: composerQueue,
       backgroundQueue: backgroundQueue,
@@ -103,6 +108,10 @@ export default function TuneEnhanceButton({
     canResearchBackground: canResearchBackground,
     canAffordComposer: canAffordComposer,
     hasScannableLinkedMedia: hasScannableLinkedMedia,
+    needsLogin: !!resolverAccess.needsLogin,
+    needsNetwork: !!resolverAccess.needsNetwork,
+    needsCredit: !!resolverAccess.needsCredit,
+    loginWarning: resolverAccess.loginWarning || null,
   }
 
   return (
@@ -119,6 +128,7 @@ export default function TuneEnhanceButton({
       availabilityContext={availabilityContext}
       mediaSources={mediaSources}
       onOpen={onOpen}
+      onLogin={login}
       onStart={handleStart}
     />
   )

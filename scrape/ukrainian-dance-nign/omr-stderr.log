@@ -1,0 +1,16 @@
+{"type": "progress", "stage": "prepare", "message": "Preparing image or PDF page...", "progress": 0.06, "estimatedTotalSeconds": 65, "elapsedSeconds": 0.0}
+{"type": "progress", "stage": "ocr", "message": "Running OCR for chords and lyrics...", "progress": 0.52, "estimatedTotalSeconds": 65, "elapsedSeconds": 0.2}
+[33mConnectivity check to the model hoster has been skipped because `PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK` is enabled.[0m
+/opt/vision-venv/lib/python3.11/site-packages/paddle/utils/cpp_extension/extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[32mCreating model: ('PP-OCRv5_server_det', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `/opt/vision-cache/official_models/PP-OCRv5_server_det`.[0m
+[32mCreating model: ('en_PP-OCRv5_mobile_rec', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the directory manually: `/opt/vision-cache/official_models/en_PP-OCRv5_mobile_rec`.[0m
+{"type": "progress", "stage": "staff_detect", "message": "Detecting staff notation regions...", "progress": 0.12, "estimatedTotalSeconds": 65, "elapsedSeconds": 8.5}
+{"type": "progress", "stage": "omr", "message": "Recognizing melody notation (OMR)...", "progress": 0.88, "estimatedTotalSeconds": 205, "elapsedSeconds": 8.5}
+{"type": "progress", "stage": "melody", "message": "Converting melody to ABC...", "progress": 0.96, "estimatedTotalSeconds": 205, "elapsedSeconds": 11.8}
+{"type": "progress", "stage": "staff_detect", "message": "Detecting staff notation regions...", "progress": 0.12, "estimatedTotalSeconds": 65, "elapsedSeconds": 11.9}
+{"type": "progress", "stage": "omr", "message": "Recognizing melody notation (OMR)...", "progress": 0.88, "estimatedTotalSeconds": 205, "elapsedSeconds": 11.9}
+{"type": "progress", "stage": "melody", "message": "Converting melody to ABC...", "progress": 0.96, "estimatedTotalSeconds": 205, "elapsedSeconds": 14.9}
+{"type": "progress", "stage": "finalize", "message": "Finishing transcription...", "progress": 0.99, "estimatedTotalSeconds": 65, "elapsedSeconds": 14.9}

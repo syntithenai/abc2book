@@ -1,15 +1,15 @@
 import useUtils from './useUtils'
-import useAbcTools from './useAbcTools'
 import {useState, useRef, useEffect} from 'react'
 import { allAlbums, allArtists, allGenres } from './tuneBibliographicUtils'
 import { isCapacitorNative } from './platformUtils'
 import { yieldToMain } from './tuneListFilter'
-import { rebuildIndexesFromTunes } from './tuneIndexRebuilder'
+import { rebuildIndexesFromTunes, buildIndexesFromTunes } from './tuneIndexRebuilder'
+import { shouldAcceptIndexPersist } from './tuneIndexIntegrity'
 import {
   INDEX_STORE_KEYS,
   loadAllIndexes,
   saveIndexSlice,
-  getCachedIndexes,
+  saveAllIndexes,
   invalidateIndexCache,
 } from './tuneIndexStore'
 
@@ -30,16 +30,32 @@ function indexSnapshotEqual(a, b) {
 function addTuneIdToIndexKey(index, key, tuneId) {
     if (!key || !tuneId) return
     if (Array.isArray(index[key])) {
-        index[key].push(tuneId)
+        if (index[key].indexOf(tuneId) === -1) index[key].push(tuneId)
     } else {
         index[key] = [tuneId]
     }
 }
 
+function removeTuneIdFromIndex(index, tune) {
+    var final = {}
+    if (tune && tune.id) {
+        Object.keys(index || {}).forEach(function(bookName) {
+            var indexVal = index[bookName]
+            if (!Array.isArray(indexVal)) {
+                final[bookName] = indexVal
+                return
+            }
+            final[bookName] = indexVal.filter(function(val) {
+                return val !== tune.id
+            })
+        })
+    }
+    return final
+}
+
 var useIndexes = () => {
         
     var utils = useUtils()
-    var abcTools = useAbcTools()
     var [indexesReady, setIndexesReady] = useState(false)
     var [bookIndex, setBookIndex] = useState(function() {
       if (isCapacitorNative()) return {}
@@ -70,6 +86,8 @@ var useIndexes = () => {
     var lastGenreIndexRef = useRef(genreIndex)
     var lastArtistIndexRef = useRef(artistIndex)
     var lastAlbumIndexRef = useRef(albumIndex)
+    var indexGenerationRef = useRef(0)
+    var reindexInProgressRef = useRef(false)
 
     useEffect(function() {
       let cancelled = false
@@ -91,119 +109,153 @@ var useIndexes = () => {
       return function() { cancelled = true }
     }, [])
 
-    function persistBookIndex(next) {
+    function beginIndexWrite() {
+      return indexGenerationRef.current
+    }
+
+    function canPersistWrite(writeGeneration) {
+      return shouldAcceptIndexPersist({
+        reindexInProgress: reindexInProgressRef.current,
+        writeGeneration: writeGeneration,
+        currentGeneration: indexGenerationRef.current,
+      })
+    }
+
+    function persistBookIndex(next, writeGeneration) {
+        if (!canPersistWrite(writeGeneration)) return false
         setBookIndex(next)
         lastBookIndexRef.current = next
         saveIndexSlice(INDEX_STORE_KEYS.books, next)
+        return true
     }
 
-    function persistTagIndex(next) {
+    function persistTagIndex(next, writeGeneration) {
+        if (!canPersistWrite(writeGeneration)) return false
         setTagIndex(next)
         lastTagIndexRef.current = next
         saveIndexSlice(INDEX_STORE_KEYS.tags, next)
+        return true
     }
 
-    function persistGenreIndex(next) {
+    function persistGenreIndex(next, writeGeneration) {
+        if (!canPersistWrite(writeGeneration)) return false
         setGenreIndex(next)
         lastGenreIndexRef.current = next
         saveIndexSlice(INDEX_STORE_KEYS.genres, next)
+        return true
     }
 
-    function persistArtistIndex(next) {
+    function persistArtistIndex(next, writeGeneration) {
+        if (!canPersistWrite(writeGeneration)) return false
         setArtistIndex(next)
         lastArtistIndexRef.current = next
         saveIndexSlice(INDEX_STORE_KEYS.artists, next)
+        return true
     }
 
-    function persistAlbumIndex(next) {
+    function persistAlbumIndex(next, writeGeneration) {
+        if (!canPersistWrite(writeGeneration)) return false
         setAlbumIndex(next)
         lastAlbumIndexRef.current = next
         saveIndexSlice(INDEX_STORE_KEYS.albums, next)
+        return true
+    }
+
+    function applyTuneToMaps(tune, maps) {
+        maps.books = removeTuneIdFromIndex(maps.books, tune)
+        maps.tags = removeTuneIdFromIndex(maps.tags, tune)
+        maps.genres = removeTuneIdFromIndex(maps.genres, tune)
+        maps.artists = removeTuneIdFromIndex(maps.artists, tune)
+        maps.albums = removeTuneIdFromIndex(maps.albums, tune)
+        if (!tune || !tune.id) return maps
+        if (Array.isArray(tune.books) && tune.books.length > 0) {
+            tune.books.forEach(function(book) {
+                addTuneIdToIndexKey(maps.books, book, tune.id)
+            })
+        }
+        if (Array.isArray(tune.tags) && tune.tags.length > 0) {
+            tune.tags.forEach(function(tag) {
+                addTuneIdToIndexKey(maps.tags, tag, tune.id)
+            })
+        }
+        allGenres(tune).forEach(function(genreName) {
+            addTuneIdToIndexKey(maps.genres, genreName, tune.id)
+        })
+        allArtists(tune).forEach(function(artistName) {
+            addTuneIdToIndexKey(maps.artists, artistName, tune.id)
+        })
+        allAlbums(tune).forEach(function(albumName) {
+            addTuneIdToIndexKey(maps.albums, albumName, tune.id)
+        })
+        return maps
+    }
+
+    function snapshotMaps() {
+        return {
+            books: Object.assign({}, lastBookIndexRef.current || bookIndex),
+            tags: Object.assign({}, lastTagIndexRef.current || tagIndex),
+            genres: Object.assign({}, lastGenreIndexRef.current || genreIndex),
+            artists: Object.assign({}, lastArtistIndexRef.current || artistIndex),
+            albums: Object.assign({}, lastAlbumIndexRef.current || albumIndex),
+        }
+    }
+
+    function persistMapsIfChanged(maps, writeGeneration, previous) {
+        if (!canPersistWrite(writeGeneration)) return
+        if (!indexSnapshotEqual(maps.books, previous.books)) {
+            persistBookIndex(maps.books, writeGeneration)
+        }
+        if (!indexSnapshotEqual(maps.tags, previous.tags)) {
+            persistTagIndex(maps.tags, writeGeneration)
+        }
+        if (!indexSnapshotEqual(maps.genres, previous.genres)) {
+            persistGenreIndex(maps.genres, writeGeneration)
+        }
+        if (!indexSnapshotEqual(maps.artists, previous.artists)) {
+            persistArtistIndex(maps.artists, writeGeneration)
+        }
+        if (!indexSnapshotEqual(maps.albums, previous.albums)) {
+            persistAlbumIndex(maps.albums, writeGeneration)
+        }
     }
     
     function indexTune(tune) {
-        var bookIndexNew = removeTune(tune, Object.assign({}, lastBookIndexRef.current || bookIndex))
-        if (tune && tune.id && Array.isArray(tune.books) && tune.books.length > 0) {
-            tune.books.forEach(function(book) {
-                addTuneIdToIndexKey(bookIndexNew, book, tune.id)
-            })
+        if (reindexInProgressRef.current) return
+        const writeGeneration = beginIndexWrite()
+        const previous = snapshotMaps()
+        const maps = {
+            books: Object.assign({}, previous.books),
+            tags: Object.assign({}, previous.tags),
+            genres: Object.assign({}, previous.genres),
+            artists: Object.assign({}, previous.artists),
+            albums: Object.assign({}, previous.albums),
         }
-        if (!indexSnapshotEqual(bookIndexNew, lastBookIndexRef.current)) {
-            persistBookIndex(bookIndexNew)
-        }
-        
-        var tagIndexNew = removeTune(tune, Object.assign({}, lastTagIndexRef.current || tagIndex))
-        if (tune && tune.id && Array.isArray(tune.tags) && tune.tags.length > 0) {
-            tune.tags.forEach(function(tag) {
-                addTuneIdToIndexKey(tagIndexNew, tag, tune.id)
-            })
-        }
-        if (!indexSnapshotEqual(tagIndexNew, lastTagIndexRef.current)) {
-            persistTagIndex(tagIndexNew)
-        }
-
-        var genreIndexNew = removeTune(tune, Object.assign({}, lastGenreIndexRef.current || genreIndex))
-        if (tune && tune.id) {
-            allGenres(tune).forEach(function(genreName) {
-                addTuneIdToIndexKey(genreIndexNew, genreName, tune.id)
-            })
-        }
-        if (!indexSnapshotEqual(genreIndexNew, lastGenreIndexRef.current)) {
-            persistGenreIndex(genreIndexNew)
-        }
-
-        var artistIndexNew = removeTune(tune, Object.assign({}, lastArtistIndexRef.current || artistIndex))
-        if (tune && tune.id) {
-            allArtists(tune).forEach(function(artistName) {
-                addTuneIdToIndexKey(artistIndexNew, artistName, tune.id)
-            })
-        }
-        if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
-            persistArtistIndex(artistIndexNew)
-        }
-
-        var albumIndexNew = removeTune(tune, Object.assign({}, lastAlbumIndexRef.current || albumIndex))
-        if (tune && tune.id) {
-            allAlbums(tune).forEach(function(albumName) {
-                addTuneIdToIndexKey(albumIndexNew, albumName, tune.id)
-            })
-        }
-        if (!indexSnapshotEqual(albumIndexNew, lastAlbumIndexRef.current)) {
-            persistAlbumIndex(albumIndexNew)
-        }
+        applyTuneToMaps(tune, maps)
+        persistMapsIfChanged(maps, writeGeneration, previous)
     }
     
-    function removeTune(tune, bookIndex) {
-        var final = {}
-        if (tune && tune.id) {
-            Object.keys(bookIndex).forEach(function(bookName) {
-                var indexVal = bookIndex[bookName]
-                final[bookName] = indexVal.filter(function(val) {
-                    return (val === tune.id) ? false : true
-                })
-            })
-        }
-        return final
+    function removeTune(tune, indexMap) {
+        return removeTuneIdFromIndex(indexMap, tune)
     }
     
     function resetBookIndex() {
-        persistBookIndex({})
+        persistBookIndex({}, beginIndexWrite())
     }
     
     function resetTagIndex() {
-        persistTagIndex({})
+        persistTagIndex({}, beginIndexWrite())
     }
 
     function resetGenreIndex() {
-        persistGenreIndex({})
+        persistGenreIndex({}, beginIndexWrite())
     }
 
     function resetArtistIndex() {
-        persistArtistIndex({})
+        persistArtistIndex({}, beginIndexWrite())
     }
 
     function resetAlbumIndex() {
-        persistAlbumIndex({})
+        persistAlbumIndex({}, beginIndexWrite())
     }
     
     function addTagToIndex(tag) {
@@ -223,24 +275,32 @@ var useIndexes = () => {
     }
     
     function removeBookFromIndex(book) {
-        const newBookIndex = Object.assign({}, bookIndex)
+        if (reindexInProgressRef.current) return
+        const writeGeneration = beginIndexWrite()
+        const newBookIndex = Object.assign({}, lastBookIndexRef.current || bookIndex)
         delete newBookIndex[book]
-        lastBookIndexRef.current = newBookIndex
-        setBookIndex(newBookIndex)
-        saveIndexSlice(INDEX_STORE_KEYS.books, newBookIndex)
-    }
-    
-    function indexTunes(tunes) {
-        Object.values(tunes || {}).forEach(function(tune) {
-            indexTune(tune)
-        })
+        persistBookIndex(newBookIndex, writeGeneration)
     }
 
-    async function reindexTunesAsync(tunes) {
-        const built = await rebuildIndexesFromTunes(tunes, {
-            yieldToMain: yieldToMain,
-            chunkSize: isCapacitorNative() ? 75 : 500,
+    /** Apply many tunes in memory, then one persist per index slice. */
+    function indexTunes(tunes) {
+        if (reindexInProgressRef.current) return
+        const writeGeneration = beginIndexWrite()
+        const previous = snapshotMaps()
+        const maps = {
+            books: Object.assign({}, previous.books),
+            tags: Object.assign({}, previous.tags),
+            genres: Object.assign({}, previous.genres),
+            artists: Object.assign({}, previous.artists),
+            albums: Object.assign({}, previous.albums),
+        }
+        Object.values(tunes || {}).forEach(function(tune) {
+            applyTuneToMaps(tune, maps)
         })
+        persistMapsIfChanged(maps, writeGeneration, previous)
+    }
+
+    function applyBuiltIndexes(built) {
         const books = built.books || {}
         const tags = built.tags || {}
         const genres = built.genres || {}
@@ -258,46 +318,111 @@ var useIndexes = () => {
         lastGenreIndexRef.current = genres
         lastArtistIndexRef.current = artists
         lastAlbumIndexRef.current = albums
-        return built
+    }
+
+    /**
+     * Full rebuild: bump generation (invalidate in-flight writes), build in memory,
+     * single saveAllIndexes swap. Never persists an empty intermediate.
+     */
+    async function reindexTunesAsync(tunes) {
+        reindexInProgressRef.current = true
+        indexGenerationRef.current += 1
+        const myGeneration = indexGenerationRef.current
+        try {
+            const built = await rebuildIndexesFromTunes(tunes, {
+                yieldToMain: yieldToMain,
+                chunkSize: isCapacitorNative() ? 75 : 500,
+                persist: false,
+            })
+            if (indexGenerationRef.current !== myGeneration) {
+                return built
+            }
+            applyBuiltIndexes(built)
+            await saveAllIndexes({
+                books: built.books || {},
+                tags: built.tags || {},
+                genres: built.genres || {},
+                artists: built.artists || {},
+                albums: built.albums || {},
+                tagGroups: built.tagGroups || {},
+                meta: {
+                    revision: Date.now(),
+                    builtAt: new Date().toISOString(),
+                    tuneCount: Object.keys(tunes || {}).length,
+                },
+            })
+            return built
+        } finally {
+            if (indexGenerationRef.current === myGeneration) {
+                reindexInProgressRef.current = false
+            }
+        }
+    }
+
+    /** Sync atomic rebuild for callers without async (never reset-to-empty first). */
+    function reindexTunesSync(tunes) {
+        reindexInProgressRef.current = true
+        indexGenerationRef.current += 1
+        const myGeneration = indexGenerationRef.current
+        try {
+            const built = buildIndexesFromTunes(tunes)
+            if (indexGenerationRef.current !== myGeneration) return built
+            applyBuiltIndexes(built)
+            saveAllIndexes({
+                books: built.books || {},
+                tags: built.tags || {},
+                genres: built.genres || {},
+                artists: built.artists || {},
+                albums: built.albums || {},
+                tagGroups: built.tagGroups || {},
+                meta: {
+                    revision: Date.now(),
+                    builtAt: new Date().toISOString(),
+                    tuneCount: Object.keys(tunes || {}).length,
+                },
+            })
+            return built
+        } finally {
+            if (indexGenerationRef.current === myGeneration) {
+                reindexInProgressRef.current = false
+            }
+        }
     }
 
     function unindexTune(tune) {
         if (!tune || !tune.id) return
-
-        var bookIndexNew = removeTune(tune, Object.assign({}, lastBookIndexRef.current || bookIndex))
-        if (!indexSnapshotEqual(bookIndexNew, lastBookIndexRef.current)) {
-            persistBookIndex(bookIndexNew)
+        if (reindexInProgressRef.current) return
+        const writeGeneration = beginIndexWrite()
+        const previous = snapshotMaps()
+        const maps = {
+            books: removeTuneIdFromIndex(previous.books, tune),
+            tags: removeTuneIdFromIndex(previous.tags, tune),
+            genres: removeTuneIdFromIndex(previous.genres, tune),
+            artists: removeTuneIdFromIndex(previous.artists, tune),
+            albums: removeTuneIdFromIndex(previous.albums, tune),
         }
-
-        var tagIndexNew = removeTune(tune, Object.assign({}, lastTagIndexRef.current || tagIndex))
-        if (!indexSnapshotEqual(tagIndexNew, lastTagIndexRef.current)) {
-            persistTagIndex(tagIndexNew)
-        }
-
-        var genreIndexNew = removeTune(tune, Object.assign({}, lastGenreIndexRef.current || genreIndex))
-        if (!indexSnapshotEqual(genreIndexNew, lastGenreIndexRef.current)) {
-            persistGenreIndex(genreIndexNew)
-        }
-
-        var artistIndexNew = removeTune(tune, Object.assign({}, lastArtistIndexRef.current || artistIndex))
-        if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
-            persistArtistIndex(artistIndexNew)
-        }
-
-        var albumIndexNew = removeTune(tune, Object.assign({}, lastAlbumIndexRef.current || albumIndex))
-        if (!indexSnapshotEqual(albumIndexNew, lastAlbumIndexRef.current)) {
-            persistAlbumIndex(albumIndexNew)
-        }
+        persistMapsIfChanged(maps, writeGeneration, previous)
     }
 
     function indexChangedTunes(tunes, tuneIds) {
+        if (reindexInProgressRef.current) return
         if (!Array.isArray(tuneIds) || tuneIds.length === 0) {
             indexTunes(tunes)
             return
         }
+        const writeGeneration = beginIndexWrite()
+        const previous = snapshotMaps()
+        const maps = {
+            books: Object.assign({}, previous.books),
+            tags: Object.assign({}, previous.tags),
+            genres: Object.assign({}, previous.genres),
+            artists: Object.assign({}, previous.artists),
+            albums: Object.assign({}, previous.albums),
+        }
         tuneIds.forEach(function(tuneId) {
-            if (tunes && tunes[tuneId]) indexTune(tunes[tuneId])
+            if (tunes && tunes[tuneId]) applyTuneToMaps(tunes[tuneId], maps)
         })
+        persistMapsIfChanged(maps, writeGeneration, previous)
     }
 
     function getIndexBundle() {
@@ -332,6 +457,7 @@ var useIndexes = () => {
       indexTune,
       indexTunes,
       reindexTunesAsync,
+      reindexTunesSync,
       indexChangedTunes,
       unindexTune,
       resetBookIndex,

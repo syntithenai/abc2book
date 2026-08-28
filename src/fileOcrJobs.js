@@ -68,19 +68,25 @@ function isActiveFileOcrStatus(status) {
 function proposedPatchesFromTranscription(body, tune) {
   const patches = []
   if (!body) return patches
+  const format = String(body.sheetFormat || body.pageType || '').toLowerCase()
+  const textOnly = format === 'chord_chart' || format === 'lyrics_only'
+  const meta = body.meta && typeof body.meta === 'object' ? body.meta : null
   const chordText = body.chordSheet && typeof body.chordSheet.text === 'string'
     ? body.chordSheet.text.trim()
     : ''
-  const melodyAbc = body.melody && typeof body.melody.abc === 'string'
+  const melodyAbc = !textOnly && body.melody && typeof body.melody.abc === 'string'
     ? body.melody.abc.trim()
     : ''
-  const title = typeof body.title === 'string' ? body.title.trim() : ''
-  const artist = typeof body.artist === 'string' ? body.artist.trim() : ''
+  const title = (meta && typeof meta.title === 'string' && meta.title.trim())
+    || (typeof body.title === 'string' ? body.title.trim() : '')
+  const artist = (meta && typeof meta.composer === 'string' && meta.composer.trim())
+    || (meta && typeof meta.artist === 'string' && meta.artist.trim())
+    || (typeof body.artist === 'string' ? body.artist.trim() : '')
 
   if (chordText) {
     patches.push({
       field: 'words',
-      label: 'Lyrics / chord sheet',
+      label: format === 'lyrics_only' ? 'Lyrics' : 'Lyrics / chord sheet',
       oldValue: Array.isArray(tune && tune.words) ? tune.words.join('\n') : '',
       newValue: chordText,
     })

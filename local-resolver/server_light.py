@@ -243,6 +243,7 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
         "sheetImage": True,  # cloud OCR only
         "sheetImageOcr": True,
         "sheetImageOmr": False,
+        "sheetImageSplit": False,
         "imageSearch": False,
         "playwright": False,
         "oauthBff": oauth_bff,
@@ -1041,9 +1042,13 @@ async def search_loc_audio_light(
 async def transcribe_sheet_image_cloud(
     request: Request,
     file: UploadFile | None = File(default=None),
+    composerHint: str | None = Form(default=None),
     authorization: str | None = Header(default=None),
 ):
-    """Cloud OCR only on the light gateway (no local Paddle/homr)."""
+    """Cloud OCR only on the light gateway (no local Paddle/homr).
+
+    Chord/lyrics images are fine here; notation still needs the full resolver for HOMR.
+    """
     origin = request.headers.get("origin")
     try:
         verified = await require_auth(authorization)
@@ -1066,6 +1071,53 @@ async def transcribe_sheet_image_cloud(
         from provider_cloud import ocr_openai_vision
 
         body = await ocr_openai_vision(image_bytes, file.filename or "upload.png", cfg)
+        # Light gateway has no homr — never present chord OCR as melody OMR.
+        if isinstance(body, dict):
+            body["melody"] = None
+            # Shape like full-resolver sheet transcription for clients.
+            text = ""
+            if isinstance(body.get("chordSheet"), dict):
+                text = str(body["chordSheet"].get("text") or "")
+            else:
+                text = str(body.get("text") or "")
+                body["chordSheet"] = {
+                    "format": body.get("format") or "chords-over-words",
+                    "text": text,
+                    "lines": body.get("lines") or [],
+                    "sections": body.get("sections") or [],
+                    "confidence": body.get("confidence") or 0.0,
+                    "lineDetails": [],
+                }
+            sheet_format = str(body.get("sheetFormat") or body.get("pageType") or "chord_chart")
+            body["sheetFormat"] = sheet_format
+            body["pageType"] = sheet_format
+            hint_composer = str(composerHint or "").strip()
+            artist = str(body.get("artist") or "").strip() or hint_composer
+            if artist and not body.get("artist"):
+                body["artist"] = artist
+            body["meta"] = body.get("meta") or {
+                "title": str(body.get("title") or ""),
+                "artist": artist,
+                "composer": artist or hint_composer,
+                "key": "",
+                "capo": None,
+                "sourceFormat": sheet_format,
+                "confidence": float(body.get("confidence") or 0.0),
+            }
+            if hint_composer:
+                meta = body["meta"] if isinstance(body.get("meta"), dict) else {}
+                if not str(meta.get("artist") or "").strip():
+                    meta["artist"] = hint_composer
+                if not str(meta.get("composer") or "").strip():
+                    meta["composer"] = hint_composer
+                body["meta"] = meta
+            warnings = list(body.get("warnings") or [])
+            if "omr_unavailable" not in warnings:
+                warnings.append("omr_unavailable")
+            if "cloud_ocr" not in warnings:
+                warnings.append("cloud_ocr")
+            body["warnings"] = warnings
+            body["backend"] = body.get("backend") or ("provider:" + str(cfg.get("provider") or "cloud"))
         ctx = billing_context()
         billing_email = _billing_email(verified)
         if ctx and billing_email:

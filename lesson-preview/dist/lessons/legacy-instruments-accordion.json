@@ -1,0 +1,234 @@
+{
+  "id": "legacy-instruments-accordion",
+  "title": "Accordion and Concertina",
+  "track": "instruments",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "instruments",
+    "legacy"
+  ],
+  "path": "09-instruments/07-accordion.md",
+  "sections": [
+    {
+      "id": "accordion-and-concertina",
+      "title": "Accordion and Concertina",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Free-reed aerophones: air vibrates metal reeds through bellows pressure. Accordion has keyboard or button right hand + bass buttons left. Concertina is smaller, hexagonal, fully buttoned."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Piano accordion (keyboard RH). Button accordion — chromatic or diatonic systems. Irish button accordion often B/C or C♯/D tuned. Anglo concertina: push/pull different notes per button."
+        }
+      ]
+    },
+    {
+      "id": "in-trad",
+      "title": "In trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Céilí band staple — melody and chord accompaniment. Joe Burke, Sharon Shannon, Máirtín O'Connor represent Irish accordion mastery. Box and button are session synonyms in Ireland."
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "title": "Mechanism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bellows direction changes air flow; valves and reeds produce pitch. Musette tuning (slightly detuned reeds) gives characteristic shimmer in continental styles."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Accordion sound comes from:\n\n- A) Free reeds vibrated by bellows air\n- B) Bowed strings\n- C) Hammered strings\n- D) Lip vibration only\n\n**Answer:** A\n\n### Q2. Anglo concertina has different notes on push vs pull.\n\n**Answer:** True\n\n### Q3. Common Irish accordion tuning pairs include:\n\n- A) B/C and C♯/D\n- B) E-A-D-G guitar tuning\n- C) G-D-A-E violin tuning\n- D) No standard tunings\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Accordion sound comes from:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Free reeds vibrated by bellows air",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Free reeds vibrated by bellows air"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Anglo concertina has different notes on push vs pull.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Common Irish accordion tuning pairs include:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "B/C and C♯/D",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sligo fiddle style",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: B/C and C♯/D"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-instruments-accordion-quiz",
+    "title": "Accordion and Concertina quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Accordion sound comes from:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Free reeds vibrated by bellows air",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Free reeds vibrated by bellows air"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Anglo concertina has different notes on push vs pull.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Common Irish accordion tuning pairs include:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "B/C and C♯/D",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Sligo fiddle style",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: B/C and C♯/D"
+      }
+    ]
+  }
+}

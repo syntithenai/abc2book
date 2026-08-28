@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, Badge, Button, ButtonGroup, ListGroup, Modal, Row } from 'react-bootstrap';
-import { addFromFileAcceptList } from '../importSourceParse';
 import MidiImportDiagnostics from './MidiImportDiagnostics';
 import {
   cancelCurrentCandidate,
@@ -48,14 +47,7 @@ import { addDraftHasLocalAttachments } from '../addFormAttach';
 import { isOwnedMediaLink } from '../linkRecording';
 import TuneRecordForm from './TuneRecordForm';
 import AddTuneSimpleForm from './AddTuneSimpleForm';
-import AddCuratedCollectionsPanel from './AddCuratedCollectionsPanel';
-import AddBulkImportPanel from './AddBulkImportPanel';
-import YouTubeSearchModal from './YouTubeSearchModal';
-import PasteImportModal from './PasteImportModal';
-import ImportUrlModal from './ImportUrlModal';
-import DriveFilePickerModal from './DriveFilePickerModal';
-import SheetImageCameraModal from './SheetImageCameraModal';
-import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal';
+import AddFromDropdown from './AddFromDropdown';
 import useAudioUtils from '../useAudioUtils';
 import useAbcjsParser from '../useAbcjsParser';
 import useGoogleDocument from '../useGoogleDocument';
@@ -64,6 +56,7 @@ import { dismissFieldLookup } from '../tuneFieldLookupQueue';
 import FieldLookupReviewButton from './FieldLookupReviewButton';
 import { summarizeSheetSnapshotCandidates } from '../bulkSheetSnapshotImport';
 import { importedTuneFromCandidate } from '../notationFileImport';
+import { sheetFormatLabel } from '../sheetImageFormats';
 import { pendingSnapshotsFromCandidate, describeSnapshotForCancel, pendingMidiLinkFromCandidate, describePendingMidiLinkForCancel } from '../importReviewSnapshots';
 import { normalizeAbcForImport } from '../abcImportNormalize';
 import { setBulkImportText } from '../addBulkImportTextStore';
@@ -383,8 +376,6 @@ export default function ImportReviewModal(props) {
   const abcjsParser = useAbcjsParser();
   const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
   const { checked: resolverChecked } = useMediaResolverHealth();
-  const fileInputRef = useRef(null);
-  const folderInputRef = useRef(null);
   const recordingStartedAtRef = useRef(0);
   const recordingIntervalRef = useRef(null);
   const suppressFormInitRef = useRef(false);
@@ -392,10 +383,9 @@ export default function ImportReviewModal(props) {
   const formDirtyRef = useRef(false);
   const formValuesRef = useRef({ title: '' });
   const [recordingDuration, setRecordingDuration] = useState(0);
-  const [showSheetCamera, setShowSheetCamera] = useState(false);
-  const [showSheetGooglePhotos, setShowSheetGooglePhotos] = useState(false);
   const [cancelWarningMode, setCancelWarningMode] = useState(null);
   const [showImportAllWarning, setShowImportAllWarning] = useState(false);
+  const [bulkOpenRequest, setBulkOpenRequest] = useState(0);
   const [mergeTargetId, setMergeTargetId] = useState(null);
   const [formValues, setFormValues] = useState(function() { return { title: '' }; });
   const [suggestions, setSuggestions] = useState({});
@@ -758,6 +748,17 @@ export default function ImportReviewModal(props) {
     };
   }, []);
 
+  // /add/bulk and legacy curated panel modes: open bulk dialog; always keep the form.
+  // Must run before any early returns (hooks rules).
+  useEffect(function() {
+    if (!session || !isAddTunesChrome(session)) return;
+    if (session.addPanelMode !== 'bulk') return;
+    setBulkOpenRequest(function(n) { return n + 1; });
+    if (typeof props.onSessionChange !== 'function') return;
+    props.onSessionChange(Object.assign({}, session, { addPanelMode: 'form' }));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [!!session, session && session.addPanelMode]);
+
   if (!session) return null;
 
   if (session.step === 'done') {
@@ -999,9 +1000,6 @@ export default function ImportReviewModal(props) {
     || <span aria-hidden="true">↗</span>;
 
   const addTunesMode = isAddTunesChrome(session);
-  const addPanelMode = addTunesMode && (session.addPanelMode === 'curated' || session.addPanelMode === 'bulk')
-    ? session.addPanelMode
-    : 'form';
 
   function syncSessionForcedBookFromForm(targetSession) {
     if (!targetSession || typeof props.onSessionChange !== 'function') return targetSession;
@@ -1020,12 +1018,12 @@ export default function ImportReviewModal(props) {
       const nextSession = syncSessionForcedBookFromForm(session);
       if (nextSession !== session) props.onSessionChange(nextSession);
     }
-    setAddPanelMode('bulk');
+    setBulkOpenRequest(function(n) { return n + 1; });
   }
 
   function setAddPanelMode(mode) {
     if (!addTunesMode || !session || typeof props.onSessionChange !== 'function') return;
-    const next = mode === 'curated' || mode === 'bulk' ? mode : 'form';
+    const next = mode === 'bulk' ? 'bulk' : 'form';
     let nextSession = Object.assign({}, session, { addPanelMode: next });
     if (next === 'bulk') nextSession = syncSessionForcedBookFromForm(nextSession);
     props.onSessionChange(nextSession);
@@ -1079,203 +1077,59 @@ export default function ImportReviewModal(props) {
     </div>
   ) : null;
 
-  function selectFormPanelMode() {
-    if (!addTunesMode || addPanelMode === 'form') return;
-    if (typeof props.onSessionChange === 'function' && session) {
-      props.onSessionChange(Object.assign({}, session, { addPanelMode: 'form' }));
-    }
-  }
-
   const bulkForcedBook = session && session.forcedBook
     ? session.forcedBook
     : primaryBookFromBookList(formValues.bookList).toLowerCase();
 
-  const addFromToolbar = (
-    <div className="add-from-strip">
-      <div className="add-from-strip-row">
-        <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
-          Add From
-        </Button>
-        {addTunesMode ? (
-          <ButtonGroup size="sm" data-testid="add-panel-mode-group">
-            <Button
-              variant={addPanelMode === 'form' ? 'primary' : 'outline-primary'}
-              data-testid="add-from-form"
-              onClick={function() { setAddPanelMode('form'); }}
-            >
-              Add Form
-            </Button>
-            <Button
-              variant={addPanelMode === 'curated' ? 'primary' : 'outline-primary'}
-              data-testid="add-from-curated"
-              onClick={function() { setAddPanelMode('curated'); }}
-            >
-              Curated Collections
-            </Button>
-            <Button
-              variant={addPanelMode === 'bulk' ? 'primary' : 'outline-primary'}
-              data-testid="add-from-bulk"
-              onClick={function() { setAddPanelMode('bulk'); }}
-            >
-              Bulk Import
-            </Button>
-          </ButtonGroup>
-        ) : null}
-        {addTunesMode ? <span className="add-from-strip-spacer" aria-hidden="true" /> : null}
-        <ButtonGroup size="sm">
-          <Button
-            variant="outline-primary"
-            onClick={function() {
-              selectFormPanelMode();
-              if (fileInputRef.current) fileInputRef.current.click();
-            }}
-          >
-            File
-          </Button>
-          <Button
-            variant="outline-primary"
-            onClick={function() {
-              selectFormPanelMode();
-              if (folderInputRef.current) folderInputRef.current.click();
-            }}
-            title="Import every PDF or image in a folder (composer name can be taken from the folder name)"
-          >
-            Folder
-          </Button>
-          <PasteImportModal
-            onImportText={function(text) {
-              selectFormPanelMode();
-              if (typeof props.onImportText === 'function') props.onImportText(text, buildDraftCandidate());
-            }}
-            onImportFiles={function(files) {
-              selectFormPanelMode();
-              if (typeof props.onImportFiles === 'function') props.onImportFiles(files, buildDraftCandidate());
-            }}
-          />
-          <ImportUrlModal
-            label="URL"
-            tunebook={props.tunebook}
-            abcjsParser={abcjsParser}
-            driveApi={driveApi}
-            accessToken={props.token && props.token.access_token}
-            resolverAvailable={resolverAvailable}
-            onImportSource={function(source) {
-              selectFormPanelMode();
-              if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
-            }}
-          />
-        </ButtonGroup>
-        <ButtonGroup size="sm">
-          {audioUtils.isRecording ? (
-            <>
-              <Button variant="danger" onClick={stopReviewRecording}>Stop</Button>
-              <Button variant="outline-danger" disabled aria-label="Recording duration">{recordingDuration + 1}s</Button>
-            </>
-          ) : (
-            <Button
-              variant="outline-primary"
-              onClick={function() {
-                selectFormPanelMode();
-                startReviewRecording();
-              }}
-            >
-              Record
-            </Button>
-          )}
-          <Button
-            variant="outline-primary"
-            onClick={function() {
-              if (!resolverAvailable) return;
-              selectFormPanelMode();
-              setShowSheetCamera(true);
-            }}
-            disabled={!resolverChecked || !resolverAvailable}
-            title={!resolverAvailable ? 'Camera needs the media resolver' : 'Capture sheet image'}
-          >
-            Camera
-          </Button>
-        </ButtonGroup>
-        <ButtonGroup size="sm">
-          <Button
-            variant="outline-primary"
-            onClick={function() {
-              requireGoogleLogin(function() {
-                selectFormPanelMode();
-                setShowSheetGooglePhotos(true);
-              });
-            }}
-            title="Import photos or videos from Google Photos"
-          >
-            Google Photos
-          </Button>
-          <DriveFilePickerModal
-            label="Drive"
-            title="Import from Google Drive"
-            token={props.token}
-            driveApi={driveApi}
-            login={props.login}
-            requestGoogleScopes={props.requestGoogleScopes}
-            onImportSource={function(source) {
-              selectFormPanelMode();
-              if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
-            }}
-          />
-          <YouTubeSearchModal
-            tunebook={props.tunebook}
-            token={props.token}
-            login={props.login}
-            value={youtubeSearchQuery}
-            onChange={function(link) {
-              selectFormPanelMode();
-              applyYouTubeLinkToForm(link);
-            }}
-            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-            triggerElement={<>YouTube</>}
-          />
-        </ButtonGroup>
-      </div>
-      <input
-        ref={fileInputRef}
-        type="file"
-        multiple
-        accept={addFromFileAcceptList(!!props.resolverAvailable)}
-        style={{ display: 'none' }}
-        onChange={function(event) {
-          const selected = event.target.files ? Array.from(event.target.files) : [];
-          event.target.value = '';
-          if (!selected.length) return;
-          if (selected.length > 1 && typeof props.onImportFiles === 'function') {
-            props.onImportFiles(selected, buildDraftCandidate());
-            return;
-          }
-          if (typeof props.onImportFile === 'function') {
-            props.onImportFile(selected[0], buildDraftCandidate());
-          }
-        }}
-      />
-      <input
-        ref={folderInputRef}
-        type="file"
-        multiple
-        webkitdirectory=""
-        directory=""
-        accept={addFromFileAcceptList(!!props.resolverAvailable)}
-        style={{ display: 'none' }}
-        onChange={function(event) {
-          const selected = event.target.files ? Array.from(event.target.files).filter(function(file) {
-            const name = String(file && file.name || '').toLowerCase();
-            const type = String(file && file.type || '').toLowerCase();
-            return type === 'application/pdf' || /\.(pdf|png|jpe?g|webp|gif)$/i.test(name);
-          }) : [];
-          event.target.value = '';
-          if (!selected.length) return;
-          if (typeof props.onImportFiles === 'function') {
-            props.onImportFiles(selected, buildDraftCandidate());
-          }
-        }}
-      />
-    </div>
-  );
+  const addFromDropdown = addTunesMode ? (
+    <AddFromDropdown
+      tunebook={props.tunebook}
+      tunes={tunes}
+      token={props.token}
+      login={props.login}
+      logout={props.logout}
+      requestGoogleScopes={props.requestGoogleScopes}
+      forceRefresh={props.forceRefresh}
+      currentTuneBook={props.currentTuneBook}
+      setCurrentTuneBook={props.setCurrentTuneBook}
+      forcedBook={bulkForcedBook}
+      searchIndex={props.searchIndex}
+      loadTuneTexts={props.loadTuneTexts}
+      onBulkImportStarted={props.onBulkImportStarted}
+      bulkOpenRequest={bulkOpenRequest}
+      onOpenBulk={function() {
+        if (session) {
+          const nextSession = syncSessionForcedBookFromForm(session);
+          if (nextSession !== session) props.onSessionChange(nextSession);
+        }
+      }}
+      onCloseBulk={function() { setAddPanelMode('form'); }}
+      resolverAvailable={resolverAvailable}
+      resolverChecked={resolverChecked}
+      audioUtils={audioUtils}
+      recordingDuration={recordingDuration}
+      onStartRecording={startReviewRecording}
+      onStopRecording={stopReviewRecording}
+      requireGoogleLogin={requireGoogleLogin}
+      abcjsParser={abcjsParser}
+      driveApi={driveApi}
+      youtubeSearchQuery={youtubeSearchQuery}
+      onYouTubeChange={applyYouTubeLinkToForm}
+      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+      onImportText={function(text) {
+        if (typeof props.onImportText === 'function') props.onImportText(text, buildDraftCandidate());
+      }}
+      onImportFiles={function(files) {
+        if (typeof props.onImportFiles === 'function') props.onImportFiles(files, buildDraftCandidate());
+      }}
+      onImportFile={function(file) {
+        if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+      }}
+      onImportSource={function(source) {
+        if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
+      }}
+    />
+  ) : null;
 
   const pendingSuggestionKeys = Object.keys(suggestions || {}).filter(function(key) {
     return importSuggestionDiffersFromForm(key, suggestions[key], formValues);
@@ -1714,6 +1568,18 @@ export default function ImportReviewModal(props) {
         {activeCandidate && activeCandidate.sourceKind && (
           <div className="text-muted small mt-2">
             Source: {activeCandidate.sourceKind}
+            {(activeCandidate.sheetFormat || activeCandidate.pageType
+              || (activeCandidate.tune && (activeCandidate.tune.sheetFormat || activeCandidate.tune.pageType)))
+              ? (
+                <Badge bg="info" className="ms-2">
+                  {sheetFormatLabel(
+                    activeCandidate.sheetFormat
+                      || activeCandidate.pageType
+                      || (activeCandidate.tune && (activeCandidate.tune.sheetFormat || activeCandidate.tune.pageType))
+                  )}
+                </Badge>
+              )
+              : null}
             {activeCandidate.sheetSnapshotMeta && activeCandidate.sheetSnapshotMeta.titleSource === 'ocr'
               ? <Badge bg="success" className="ms-2">Title from sheet</Badge>
               : null}
@@ -1737,28 +1603,6 @@ export default function ImportReviewModal(props) {
         )}
       </div>
     </Row>
-  ) : addPanelMode === 'curated' ? (
-    <AddCuratedCollectionsPanel
-      tunebook={props.tunebook}
-      setCurrentTuneBook={props.setCurrentTuneBook}
-      currentTuneBook={props.currentTuneBook}
-      forceRefresh={props.forceRefresh}
-    />
-  ) : addPanelMode === 'bulk' ? (
-    <AddBulkImportPanel
-      tunebook={props.tunebook}
-      tunes={tunes}
-      token={props.token}
-      login={props.login}
-      logout={props.logout}
-      requestGoogleScopes={props.requestGoogleScopes}
-      forceRefresh={props.forceRefresh}
-      currentTuneBook={props.currentTuneBook}
-      forcedBook={bulkForcedBook}
-      searchIndex={props.searchIndex}
-      loadTuneTexts={props.loadTuneTexts}
-      onStartedReview={props.onBulkImportStarted}
-    />
   ) : (
     <AddTuneSimpleForm
       values={formValues}
@@ -1773,6 +1617,8 @@ export default function ImportReviewModal(props) {
       token={props.token}
       tuneId={activeCandidate && activeCandidate.tune && activeCandidate.tune.id}
       forceRefresh={props.forceRefresh}
+      setCurrentTuneBook={props.setCurrentTuneBook}
+      currentTuneBook={props.currentTuneBook}
       setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
       onOpenMatch={handleOpenCollectionMatch}
       candidateId={activeCandidate && activeCandidate.id}
@@ -1782,7 +1628,7 @@ export default function ImportReviewModal(props) {
         applyYouTubeLinkToForm(link);
       }}
       onFillBulkDiscography={fillBulkImportLines}
-      addFromToolbar={addFromToolbar}
+      addFromDropdown={addFromDropdown}
     />
   );
 
@@ -1791,21 +1637,15 @@ export default function ImportReviewModal(props) {
     && Array.isArray(session.candidates)
     && session.candidates.length > 1;
   const importRequestCount = session && Array.isArray(session.candidates) ? session.candidates.length : 0;
-  const headerTitle = !addTunesMode
-    ? 'Import review'
-    : addPanelMode === 'curated'
-      ? 'Curated Collections'
-      : addPanelMode === 'bulk'
-        ? 'Bulk import'
-        : 'Add';
+  const headerTitle = !addTunesMode ? 'Import review' : 'Add';
   const primaryActionLabel = addTunesMode ? 'Add' : 'Import';
   const addTuneTitle = String(formValues.title || '').trim();
   const addTuneComposer = String(formValues.artist || '').trim();
   const canAddTune = !!(addTuneTitle && addTuneComposer);
-  const addTuneRequirementHint = addTunesMode && addPanelMode === 'form'
+  const addTuneRequirementHint = addTunesMode
     ? addTuneRequirementMessage(formValues.title, formValues.artist)
     : '';
-  const primaryActionDisabled = addTunesMode && addPanelMode === 'form' ? !canAddTune : false;
+  const primaryActionDisabled = addTunesMode ? !canAddTune : false;
   const pendingMergeFields = mergeFieldLabelsFromSuggestions(suggestions, formValues);
   const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
   const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
@@ -1882,30 +1722,26 @@ export default function ImportReviewModal(props) {
       ) : null}
       {addTunesMode ? (
         <>
-          {addPanelMode === 'form' ? (
-            <>
-              {addTuneRequirementHint ? (
-                <span
-                  className="add-tunes-requirement-hint text-warning small"
-                  data-testid="add-tune-requirement-hint"
-                  role="status"
-                >
-                  {addTuneRequirementHint}
-                </span>
-              ) : null}
-              <Button
-                size="lg"
-                variant={primaryActionDisabled ? 'secondary' : 'success'}
-                disabled={!!primaryActionDisabled}
-                title={addTuneRequirementHint || undefined}
-                data-testid="add-tune-save"
-                className="add-tunes-header-add-btn"
-                onClick={finishCurrentCandidate}
-              >
-                Add
-              </Button>
-            </>
+          {addTuneRequirementHint ? (
+            <span
+              className="add-tunes-requirement-hint text-warning small"
+              data-testid="add-tune-requirement-hint"
+              role="status"
+            >
+              {addTuneRequirementHint}
+            </span>
           ) : null}
+          <Button
+            size="lg"
+            variant={primaryActionDisabled ? 'secondary' : 'success'}
+            disabled={!!primaryActionDisabled}
+            title={addTuneRequirementHint || undefined}
+            data-testid="add-tune-save"
+            className="add-tunes-header-add-btn"
+            onClick={finishCurrentCandidate}
+          >
+            Add
+          </Button>
         </>
       ) : (
         <Button
@@ -1954,42 +1790,6 @@ export default function ImportReviewModal(props) {
     if (!addTunesMode) setCancelWarningMode('all');
   }
 
-  const sheetCaptureModals = (
-    <>
-      <SheetImageCameraModal
-        show={showSheetCamera}
-        onHide={function() { setShowSheetCamera(false); }}
-        onCapture={function(file) {
-          setShowSheetCamera(false);
-          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
-        }}
-      />
-      <SheetImageGooglePhotosModal
-        show={showSheetGooglePhotos}
-        onHide={function() { setShowSheetGooglePhotos(false); }}
-        token={props.token}
-        requestGoogleScopes={props.requestGoogleScopes}
-        onLogin={props.login}
-        allowVideos={true}
-        convertVideosToAudio={true}
-        maxItemCount={20}
-        onSelectFile={function(file) {
-          setShowSheetGooglePhotos(false);
-          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
-        }}
-        onImportFiles={function(files) {
-          setShowSheetGooglePhotos(false);
-          if (typeof props.onImportFiles === 'function') {
-            props.onImportFiles(files, buildDraftCandidate());
-          }
-        }}
-      />
-    </>
-  );
-
-  // Add From lives in the form (above Media link). Curated/bulk panels keep it under the header.
-  const showHeaderAddFrom = addTunesMode && addPanelMode !== 'form';
-
   if (props.embedded) {
     return (
       <div className="import-review-embedded border rounded p-3 mb-3 bg-light">
@@ -2004,13 +1804,9 @@ export default function ImportReviewModal(props) {
           </h5>
           {headerActions}
         </div>
-        {showHeaderAddFrom ? (
-          <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
-        ) : null}
         {panelBody}
         {cancelWarningModal}
         {importAllWarningModal}
-        {sheetCaptureModals}
       </div>
     );
   }
@@ -2035,13 +1831,11 @@ export default function ImportReviewModal(props) {
                 onClick={handleChromeClose}
               />
             </div>
-            {showHeaderAddFrom ? addFromToolbar : null}
           </div>
         </div>
         <div className="add-page-body">{panelBody}</div>
         {cancelWarningModal}
         {importAllWarningModal}
-        {sheetCaptureModals}
       </div>
     );
   }
@@ -2072,7 +1866,6 @@ export default function ImportReviewModal(props) {
       <Modal.Body className="import-review-modal-body">{panelBody}</Modal.Body>
       {cancelWarningModal}
       {importAllWarningModal}
-      {sheetCaptureModals}
     </Modal>
   );
 }

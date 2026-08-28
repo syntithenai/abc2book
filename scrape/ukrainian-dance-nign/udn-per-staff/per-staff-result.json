@@ -1,0 +1,261 @@
+{
+  "bandCount": 6,
+  "bands": [
+    {
+      "top": 217.0,
+      "bottom": 344.0
+    },
+    {
+      "top": 453.0,
+      "bottom": 560.0
+    },
+    {
+      "top": 650.0,
+      "bottom": 765.0
+    },
+    {
+      "top": 848.0,
+      "bottom": 1010.0
+    },
+    {
+      "top": 1102.0,
+      "bottom": 1240.0
+    },
+    {
+      "top": 1302.0,
+      "bottom": 1451.0
+    }
+  ],
+  "systems": [
+    {
+      "index": 1,
+      "top": 199,
+      "bottom": 356,
+      "abc": "E/2 A B/2 | c/2 B/2 A | A/2 c d/2 | e/2 d/2 c |\nd/2 ^c d/2 A/2 B/2 | c2 | d/2 d/2 c/2 B/2 | A2 |",
+      "meter": "",
+      "key": "Am",
+      "ok": true
+    },
+    {
+      "index": 2,
+      "top": 435,
+      "bottom": 572,
+      "abc": "A/2 d e/2 | f/2 f/4 f/4 e/2 d/2 | d/2 A/2 d/2 A/2 | d2 |\nG/2 c/2 c/2 d/2 | e/2 e/4 e/4 d/4 c/4 | g f/4 g/4 f/2 | g2 ^e/4 e/4 d0.125 ^c0.125 d/2 |\nc2 |]",
+      "meter": "",
+      "key": "C",
+      "ok": true
+    },
+    {
+      "index": 3,
+      "top": 632,
+      "bottom": 777,
+      "abc": "d/2 d d/2 | c/4 B0.125 c0.125 B/2 A/2 | A/2 G/2 A/2 B/2 | c c |\nd/2 d d/2 | c/2 B/4 c/4 B/2 A/2 | A/2 G/2 c/2 B/2 | A2 |",
+      "meter": "",
+      "key": "G",
+      "ok": true
+    },
+    {
+      "index": 4,
+      "top": 830,
+      "bottom": 1022,
+      "abc": "B,/2 E ^F/2 | G/4 ^F/4 E | E/2 G/2 A/2 | B/2 A/2 G/2 |\nA/2 ^G A/2 E/2 ^F/2 | G G | A/2 ^G A/2 G/2 ^F/2 | E E |",
+      "meter": "",
+      "key": "Em",
+      "ok": true
+    },
+    {
+      "index": 5,
+      "top": 1084,
+      "bottom": 1252,
+      "abc": "E/2 A/2 B/2 | c/4 c/4 c/4 B/4 A/4 F/4 A/4 E/4 A/4 E/4 | A/2 A/2 | D/2 G/2 G/2 A/2 |\nB/2 B/4 B/4 A/2 G/2 | d c/4 d/4 e/4 | d2 | B/4 B/4 A/4 G/4 A/2 |\nG2 |]",
+      "meter": "",
+      "key": "G",
+      "ok": true
+    },
+    {
+      "index": 6,
+      "top": 1284,
+      "bottom": 1463,
+      "abc": "A/2 A/2 A/2 A/2 | G/2 ^F/4 G/4 ^F/2 E/2 | E/2 D/2 E/2 ^F/2 | G G |\nA/2 A A/2 | G/2 ^F/4 G/4 ^F/2 E/2 | E/2 D/2 G/2 ^F/2 | E E/2 ^F/2 |",
+      "meter": "",
+      "key": "D",
+      "ok": true
+    }
+  ],
+  "stitchedAbc": "X:1\nT:Ukrainian Dance Nign\nM:2/4\nL:1/8\nK:Am\nE/2 A B/2 | c/2 B/2 A | A/2 c d/2 | e/2 d/2 c |\nd/2 ^c d/2 A/2 B/2 | c2 | d/2 d/2 c/2 B/2 | A2 |\nA/2 d e/2 | f/2 f/4 f/4 e/2 d/2 | d/2 A/2 d/2 A/2 | d2 |\nG/2 c/2 c/2 d/2 | e/2 e/4 e/4 d/4 c/4 | g f/4 g/4 f/2 | g2 ^e/4 e/4 d0.125 ^c0.125 d/2 |\nc2 |]\nd/2 d d/2 | c/4 B0.125 c0.125 B/2 A/2 | A/2 G/2 A/2 B/2 | c c |\nd/2 d d/2 | c/2 B/4 c/4 B/2 A/2 | A/2 G/2 c/2 B/2 | A2 |\nB,/2 E ^F/2 | G/4 ^F/4 E | E/2 G/2 A/2 | B/2 A/2 G/2 |\nA/2 ^G A/2 E/2 ^F/2 | G G | A/2 ^G A/2 G/2 ^F/2 | E E |\nE/2 A/2 B/2 | c/4 c/4 c/4 B/4 A/4 F/4 A/4 E/4 A/4 E/4 | A/2 A/2 | D/2 G/2 G/2 A/2 |\nB/2 B/4 B/4 A/2 G/2 | d c/4 d/4 e/4 | d2 | B/4 B/4 A/4 G/4 A/2 |\nG2 |]\nA/2 A/2 A/2 A/2 | G/2 ^F/4 G/4 ^F/2 E/2 | E/2 D/2 E/2 ^F/2 | G G |\nA/2 A A/2 | G/2 ^F/4 G/4 ^F/2 E/2 | E/2 D/2 G/2 ^F/2 | E E/2 ^F/2 |",
+  "staffDetectionRaw": {
+    "hasStaff": true,
+    "staffRegionCount": 21,
+    "staffRegions": [
+      {
+        "top": 217.0,
+        "bottom": 326.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 60.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 310.0,
+        "bottom": 344.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 3.0,
+        "confidence": 0.6
+      },
+      {
+        "top": 453.0,
+        "bottom": 492.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 8.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 469.0,
+        "bottom": 509.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 486.0,
+        "bottom": 526.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 503.0,
+        "bottom": 543.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 520.0,
+        "bottom": 560.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 650.0,
+        "bottom": 692.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 8.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 668.0,
+        "bottom": 710.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 685.0,
+        "bottom": 765.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 38.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 848.0,
+        "bottom": 888.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 864.0,
+        "bottom": 906.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 11.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 881.0,
+        "bottom": 921.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 899.0,
+        "bottom": 939.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 9.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 916.0,
+        "bottom": 957.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 10.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 937.0,
+        "bottom": 972.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 4.0,
+        "confidence": 0.8
+      },
+      {
+        "top": 977.0,
+        "bottom": 1010.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 2.0,
+        "confidence": 0.4
+      },
+      {
+        "top": 1102.0,
+        "bottom": 1223.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 84.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 1206.0,
+        "bottom": 1240.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 3.0,
+        "confidence": 0.6
+      },
+      {
+        "top": 1302.0,
+        "bottom": 1434.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 94.0,
+        "confidence": 1.0
+      },
+      {
+        "top": 1417.0,
+        "bottom": 1451.0,
+        "left": 0.0,
+        "right": 2144.0,
+        "lineCount": 3.0,
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.9047619047619049
+  }
+}

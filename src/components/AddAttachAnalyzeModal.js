@@ -30,7 +30,7 @@ export default function AddAttachAnalyzeModal(props) {
         <p className="text-muted small mb-0">
           {kind === 'media'
             ? 'Skip keeps the recording on the form. Analyze queues audio analysis in the background and closes Add.'
-            : 'Skip keeps the image/PDF on the form. OCR queues transcription in the background and closes Add.'}
+            : 'Skip keeps the image/PDF on the form. Transcribe detects chord charts, lyrics, or notation and queues the matching extractor (OCR and/or OMR).'}
         </p>
       </Modal.Body>
       <Modal.Footer className="d-flex flex-wrap gap-2 justify-content-between">
@@ -60,7 +60,7 @@ export default function AddAttachAnalyzeModal(props) {
               data-testid="add-attach-ocr"
               onClick={props.onOcr}
             >
-              {busy ? 'Starting…' : 'Run OCR'}
+              {busy ? 'Starting…' : 'Transcribe'}
             </Button>
           )}
           <Button variant="secondary" disabled={busy} onClick={props.onCancel}>

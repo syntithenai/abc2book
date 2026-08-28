@@ -6,6 +6,8 @@ import {
   setFollowTune,
   setLoop,
   setShuffle,
+  setPreferMidi,
+  isPreferMidi,
   cycleRepeatMode,
   getRepeatMode,
   buildShuffleOrder,
@@ -170,6 +172,23 @@ describe('nowPlayingQueue', function() {
       type: 'midi',
       linkNum: null,
     })
+  })
+
+  test('resolvePlaybackForItem honors queue preferMidi over media links and linkIndex', function() {
+    const tune = { id: '1', notes: true, links: [{ link: 'http://a' }, { link: 'http://b' }] }
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto', linkIndex: 1 }, tunebook, {
+      preferMidi: true,
+    })).toEqual({
+      type: 'midi',
+      linkNum: null,
+    })
+  })
+
+  test('setPreferMidi toggles queue flag', function() {
+    const queue = createQueue({ tuneIds: ['1'] })
+    expect(isPreferMidi(queue)).toBe(false)
+    expect(isPreferMidi(setPreferMidi(queue, true))).toBe(true)
+    expect(isPreferMidi(setPreferMidi(queue, false))).toBe(false)
   })
 
   test('resolvePlaybackForItem skips midi when ABC has chords but no notes', function() {

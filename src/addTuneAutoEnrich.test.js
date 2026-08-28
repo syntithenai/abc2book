@@ -115,7 +115,12 @@ describe('addTuneAutoEnrich', function() {
     unsubscribe()
 
     expect(commitChordSearchResultToTune).toHaveBeenCalled()
-    expect(searchLyrics).toHaveBeenCalled()
+    expect(searchChords).toHaveBeenCalledWith(expect.objectContaining({
+      preferRemoteChords: true,
+      skipLocalChords: true,
+    }))
+    // Chord sheet already supplied lyrics — skip plain lyrics search.
+    expect(searchLyrics).not.toHaveBeenCalled()
     expect(searchNotation).toHaveBeenCalled()
     expect(applyCandidateToTune).toHaveBeenCalledWith(
       tune,
@@ -740,7 +745,8 @@ describe('addTuneAutoEnrich', function() {
     const state = getAddTuneAutoEnrichState('t11')
     expect(state.needsNotationPaste).toBe(true)
     expect(state.summary).toContain('Chords from ultimate-guitar.com')
-    expect(state.summary).toContain('Lyrics from lyrics.ovh')
+    expect(state.summary).toContain('Lyrics from ultimate-guitar.com')
+    expect(searchLyrics).not.toHaveBeenCalled()
     expect(state.summary).toContain('Not found: notation')
   })
 

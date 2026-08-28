@@ -1,0 +1,234 @@
+{
+  "id": "legacy-italian-terms-tempo",
+  "title": "Italian Tempo Markings",
+  "track": "italian",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "italian",
+    "legacy"
+  ],
+  "path": "02-italian-terms/01-tempo.md",
+  "sections": [
+    {
+      "id": "italian-tempo-markings",
+      "title": "Italian Tempo Markings",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** italian-terms | **Difficulty:** 1/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Italian tempo markings appear on scores worldwide, describing both speed and character. They originated when Italian composers dominated European court music in the 17th–18th centuries."
+        }
+      ]
+    },
+    {
+      "id": "common-tempi",
+      "title": "Common tempi",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Largo** — very slow, broad. **Adagio** — slow, stately. **Andante** — walking pace (~76–108 BPM). **Moderato** — moderate. **Allegretto** — moderately fast, lighter than allegro. **Allegro** — fast and lively (~120–168 BPM). **Vivace** — brisk and spirited. **Presto** — very fast (~168–200 BPM). **Prestissimo** — as fast as possible."
+        }
+      ]
+    },
+    {
+      "id": "modifiers",
+      "title": "Modifiers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Molto** — very. **Poco** — a little. **Meno** — less. **Più** — more. **Non troppo** — not too much. *Allegro ma non troppo* = fast but not excessively so. **Rubato** — flexible tempo within pulse."
+        }
+      ]
+    },
+    {
+      "id": "metronome-marks",
+      "title": "Metronome marks",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Modern scores add exact BPM: ♩ = 120. Italian words remain for character; numbers specify precision. Trad sessions negotiate tempo by ear — the leader's first phrase sets the speed."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Which marking suggests walking pace?\n\n- A) Andante\n- B) Presto\n- C) Allegro\n- D) Vivace\n\n**Answer:** A\n\n### Q2. Presto indicates very fast tempo.\n\n**Answer:** True\n\n### Q3. Rubato means:\n\n- A) Flexible timing within an underlying pulse\n- B) Strict metronomic playing\n- C) Playing only half the notes\n- D) Changing key\n\n**Answer:** A",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which marking suggests walking pace?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Andante",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Andante"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Presto indicates very fast tempo.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Rubato means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Flexible timing within an underlying pulse",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Flexible timing within an underlying pulse"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-italian-terms-tempo-quiz",
+    "title": "Italian Tempo Markings quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Which marking suggests walking pace?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Andante",
+            "correct": true
+          },
+          {
+            "id": "c",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Andante"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Presto indicates very fast tempo.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Rubato means:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Flexible timing within an underlying pulse",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Flexible timing within an underlying pulse"
+      }
+    ]
+  }
+}

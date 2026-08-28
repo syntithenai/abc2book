@@ -17,10 +17,12 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     drumPresetId: null,
     leadMidiProgram: 40,
     accompanimentMidiProgram: 24,
-    backingPromptFocus: 'Irish Scottish trad session accompaniment only, acoustic guitar chords, bodhrán, rhythm section',
+    backingPromptFocus: 'real Irish Scottish trad session recording, acoustic guitar chord backing, bodhrán, warm live session room',
+    arrangementHint: 'restyle the guide into a trad session: clear fiddle melody with audible guitar and rhythm under the chart',
     negativeExtras: ['piano', 'lead melody', 'solo fiddle', 'general midi', 'cheap synthesizer', 'rock drums', 'electronic'],
     includeChordLayerDefault: false,
     includeDrumGuideDefault: true,
+    initNoiseLevel: 0.28,
   },
   old_time: {
     id: 'old_time',
@@ -30,6 +32,7 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     leadMidiProgram: 40,
     accompanimentMidiProgram: 105,
     backingPromptFocus: 'old-time American string band accompaniment only, banjo guitar upright bass, no lead melody',
+    arrangementHint: 'full string-band arrangement, strong audible chord accompaniment under a clear lead melody',
     negativeExtras: ['piano', 'lead melody', 'solo fiddle', 'drum kit', 'electronic', 'orchestra'],
     includeChordLayerDefault: false,
     includeDrumGuideDefault: true,
@@ -42,6 +45,7 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     leadMidiProgram: 25,
     accompanimentMidiProgram: 27,
     backingPromptFocus: 'roots reggae accompaniment only, skank guitar, electric bass, Hammond organ, one drop drums, no lead melody',
+    arrangementHint: 'full reggae band arrangement, strong audible skank and bass under a clear lead melody',
     negativeExtras: ['piano', 'lead melody', 'solo guitar', 'metal', 'orchestra', 'cheap synth'],
     includeChordLayerDefault: false,
     includeDrumGuideDefault: true,
@@ -52,8 +56,12 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
     description: 'Tune on solo violin from notation; AI adds restrained string accompaniment.',
     drumPresetId: 'minimal-hat',
     leadMidiProgram: 40,
+    // Soft string ensemble pads (sustained in the guide — not boom-chick cello).
     accompanimentMidiProgram: 48,
-    backingPromptFocus: 'classical chamber string ensemble, viola cello and double bass harmony, bowed strings only, restrained dynamics',
+    backingPromptFocus:
+      'real recorded bowed string chamber ensemble, expressive solo violin, clear cello bass and viola harmony under every bar, tight ensemble timing, continuous accompaniment through the whole piece',
+    arrangementHint:
+      'restyle the guide into chamber strings: clear solo violin with defined sustained harmony under every bar, no dropout after mid-song, no ambient wash',
     negativeExtras: [
       'piano',
       'lead melody',
@@ -68,9 +76,35 @@ export const PRACTICE_TRACK_STYLE_PRESETS = {
       'synth',
       'vocals',
       'trad session',
+      'church organ',
+      'pipe organ',
+      'Hammond organ',
+      'organ pad',
+      'fuzzy synth',
+      'lo-fi',
+      'distortion',
+      'oom pah',
+      'oompah',
+      'polka bass',
+      'brass band',
+      'tuba',
+      'marching bass',
+      'waltz bass',
+      'boom chick',
+      'solo violin only',
+      'no accompaniment',
+      'thin arrangement',
+      'melody only',
+      'ambient wash',
+      'reverb soup',
+      'dropout',
+      'silence after midway',
+      'sparse second half',
     ],
     includeChordLayerDefault: false,
     includeDrumGuideDefault: false,
+    // Stronger guide lock reduces wash and mid-track pad drift.
+    initNoiseLevel: 0.22,
   },
   custom: {
     id: 'custom',
@@ -158,15 +192,17 @@ export function buildStyleBackingPrompt(plan, styleId, options) {
   if (guideConditioning) {
     const styleFocus = preset.backingPromptFocus
       || 'style-matched accompaniment';
+    const arrangementHint = preset.arrangementHint
+      || 'full band arrangement, strong audible chord accompaniment under a clear lead melody';
     const parts = [
       tempo + ' BPM',
       meter,
-      'full band arrangement',
+      arrangementHint,
       styleFocus,
-      'strong audible chord accompaniment and rhythm section under the melody',
-      'follow guide melody contour and chord changes',
-      're-orchestrate with rich backing, not a solo melody',
-      'do not use church organ, pipe organ, or general midi hymn pads',
+      'restyle guide pitches and chord changes into real recorded instruments, not General MIDI',
+      'follow guide melody contour and chord changes note for note',
+      'keep every melody note audible and in time',
+      'keep accompaniment continuous under every bar through the full length',
       key ? 'key of ' + key : '',
       genres,
       'dry mix, practice track',
@@ -215,6 +251,10 @@ export function buildStyleNegativePrompt(styleId, options) {
     'wrong chords',
     'harmonic drift',
     'oom pah',
+    'oompah',
+    'organ pad',
+    'missing melody notes',
+    'sparse melody',
     'muzak strings',
   ];
   if (!guideConditioning) {

@@ -1,0 +1,103 @@
+{
+  "id": "04-classical-era",
+  "title": "04 Classical Era",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "10-music-periods/04-classical-era.md",
+  "sections": [
+    {
+      "id": "classical-era-overview-17501820",
+      "title": "Classical Era Overview (1750–1820)",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 3/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Classical era: clarity, balance, sonata form. Haydn, Mozart, early Beethoven."
+        }
+      ]
+    },
+    {
+      "id": "ensemble",
+      "title": "Ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "String quartet crystallised as conversation between equals. Symphony orchestra standardised sections."
+        }
+      ]
+    },
+    {
+      "id": "public-concerts",
+      "title": "Public concerts",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Music moved from court patronage toward public ticket sales — amateur music-making in homes."
+        }
+      ]
+    },
+    {
+      "id": "piano-replaces-harpsichord",
+      "title": "Piano replaces harpsichord",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dynamic nuance of fortepiano suited Classical expressiveness."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-haydn-nicknamed-father-of-the",
+      "title": "Q1. Haydn nicknamed 'Father of the':",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Symphony and string quartet\n- B) Blues\n- C) Heavy metal\n- D) Electronic dance music\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-classical-music-favoured-clear-phrases-and-homophony",
+      "title": "Q2. Classical music favoured clear phrases and homophony.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Haydn nicknamed 'Father of the':\n\n- A) Symphony and string quartet\n- B) Blues\n- C) Heavy metal\n- D) Electronic dance music\n\n**Answer:** A\n\n### Q2. Classical music favoured clear phrases and homophony.\n\n**Answer:** True"
+}

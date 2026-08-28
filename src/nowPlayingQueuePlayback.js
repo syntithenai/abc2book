@@ -14,6 +14,8 @@ import {
   setRepeatMode,
   setFollowTune,
   setShuffle,
+  setPreferMidi,
+  isPreferMidi,
 } from './nowPlayingQueue'
 import {
   isQueuePlaybackEngaged,
@@ -38,7 +40,7 @@ function resolveActiveQueue(params) {
   return latest || queue
 }
 
-/** Keep repeat/follow/shuffle prefs from the live queue when persisting a computed next queue. */
+/** Keep repeat/follow/shuffle/preferMidi prefs from the live queue when persisting a computed next queue. */
 function queueWithLatestPlaybackPreferences(nextQueue, getLatestQueue) {
   if (!nextQueue || !getLatestQueue) return nextQueue
   const latest = getLatestQueue()
@@ -49,6 +51,9 @@ function queueWithLatestPlaybackPreferences(nextQueue, getLatestQueue) {
   }
   if (!!latest.shuffle !== !!merged.shuffle) {
     merged = setShuffle(merged, latest.shuffle)
+  }
+  if (!!latest.preferMidi !== !!merged.preferMidi) {
+    merged = setPreferMidi(merged, latest.preferMidi)
   }
   return merged
 }
@@ -81,7 +86,12 @@ export function playQueueItem(mediaController, tunebook, tune, item, options) {
   }
   if (!tunebook || !tune) return false
   const opts = options || {}
-  const target = opts.playbackTarget || resolvePlaybackForItem(tune, item, tunebook)
+  const preferMidi = opts.preferMidi != null
+    ? !!opts.preferMidi
+    : isPreferMidi(opts.queue)
+  const target = opts.playbackTarget || resolvePlaybackForItem(tune, item, tunebook, {
+    preferMidi: preferMidi,
+  })
   if (!target) return false
 
   // Arm kickoff before route/tune commits so MediaPlayerMedia does not replay the
@@ -128,13 +138,22 @@ export function playCurrentQueueItem(mediaController, tunebook, tunes, queue, op
   const tune = tunes && item.tuneId ? tunes[item.tuneId] : null
   if (!tune) return false
   if (!isQueueItemPlayable(tune, item, tunebook)) return false
-  return playQueueItem(mediaController, tunebook, tune, item, options)
+  return playQueueItem(mediaController, tunebook, tune, item, Object.assign({}, options, {
+    queue: queue,
+    preferMidi: isPreferMidi(queue),
+  }))
 }
 
-export function navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, playbackTarget) {
+export function navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, playbackTarget, options) {
   if (!navigate || !tuneId) return
+  const opts = options || {}
   const tune = tunes && tunes[tuneId] ? tunes[tuneId] : null
-  const target = playbackTarget || (tune && item ? resolvePlaybackForItem(tune, item, tunebook) : null)
+  const preferMidi = opts.preferMidi != null
+    ? !!opts.preferMidi
+    : isPreferMidi(opts.queue)
+  const target = playbackTarget || (tune && item
+    ? resolvePlaybackForItem(tune, item, tunebook, { preferMidi: preferMidi })
+    : null)
   const path = target ? buildPlaybackPath(tuneId, target) : '/tunes/' + tuneId
   navigate(path)
 }
@@ -214,7 +233,10 @@ function finishQueueAdvance(params, nextQueue, item, tune, playbackTarget) {
   }
 
   persistQueue(nextQueue)
-  const playOpts = Object.assign({}, playbackOptions || { deferPlaybackEngine: true })
+  const playOpts = Object.assign({}, playbackOptions || { deferPlaybackEngine: true }, {
+    queue: nextQueue,
+    preferMidi: !!(nextQueue && nextQueue.preferMidi),
+  })
   if (playbackTarget) playOpts.playbackTarget = playbackTarget
   const started = playQueueItem(mediaController, tunebook, tune, item, playOpts)
   if (!started) {
@@ -231,7 +253,10 @@ function finishQueueAdvance(params, nextQueue, item, tune, playbackTarget) {
       practiceSessionActive: practiceSessionActive,
     })
   if (shouldFollow) {
-    navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes, playbackTarget)
+    navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes, playbackTarget, {
+      queue: nextQueue,
+      preferMidi: !!(nextQueue && nextQueue.preferMidi),
+    })
   }
   return true
 }
@@ -347,13 +372,19 @@ export function handleQueueAdvanceOnEnded(params) {
     const item = getCurrentItem(restored)
     const tune = item && tunes ? tunes[item.tuneId] : null
     if (tune && mediaController && isQueueItemPlayable(tune, item, tunebook)) {
-      playQueueItem(mediaController, tunebook, tune, item, {})
+      playQueueItem(mediaController, tunebook, tune, item, {
+        queue: restored,
+        preferMidi: !!(restored && restored.preferMidi),
+      })
       if (resolveLiveFollowTune(restored, params.getLatestQueue) && navigate && !shouldSuppressFollowNavigate({
         pathname: location && location.pathname,
         setPlaylist: setPlaylist,
         practiceSessionActive: practiceSessionActive,
       })) {
-        navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes)
+        navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes, null, {
+          queue: restored,
+          preferMidi: !!(restored && restored.preferMidi),
+        })
       }
     } else {
       stopPlaylistPlayback(mediaController)

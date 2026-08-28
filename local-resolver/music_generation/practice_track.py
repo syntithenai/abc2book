@@ -7,10 +7,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+from dataclasses import replace
+
 from midi_drum_guide import build_drum_guide_midi
 from midi_render import midi_render_health, try_render_midi_to_wav
 from midi_score_prepare import (
-    write_accompaniment_stem_midi,
     write_prepared_melody_stem,
     write_style_guide_midi,
 )
@@ -32,6 +33,7 @@ from music_generation.jobs import (
 from music_generation.mix_tracks import (
     STRETCH_BPM_DRIFT_THRESHOLD,
     DURATION_STRETCH_THRESHOLD_SEC,
+    CHUNK_STITCH_FADE_MS,
     fit_audio_to_duration,
     mix_practice_track,
     stitch_audio_sections,
@@ -39,13 +41,19 @@ from music_generation.mix_tracks import (
     tile_backing_loop,
     trim_trailing_silence,
 )
+from music_generation.guide_harmony import (
+    chords_per_bar_from_plan,
+    guide_harmony_source,
+    write_chord_chart_guide_midi,
+    write_harmony_only_midi,
+)
 from music_generation.providers import AudioCppProvider, GenerationSpec, get_audio_generation_provider
 from music_generation.task_catalog import (
     STABLE_AUDIO_MAX_CHUNK_SEC,
     TASK_PRACTICE_TRACK,
     resolve_preset,
 )
-from music_generation.fidelity_validation import validate_practice_track_fidelity
+from music_generation.fidelity_validation import validate_guide_wav, validate_practice_track_fidelity
 from music_generation.timing_contract import (
     effective_target_duration_sec,
     loop_duration_sec,
@@ -78,6 +86,8 @@ def _maybe_conform_backing(
     *,
     bar_boundaries_sec: list[float] | None = None,
     allow_stretch: bool = True,
+    bpm_drift_threshold: float | None = None,
+    duration_stretch_threshold_sec: float | None = None,
 ) -> dict:
     import soundfile as sf
 
@@ -90,10 +100,20 @@ def _maybe_conform_backing(
 
     detected_bpm = _detect_tempo_bpm(backing_path)
     stretch_notes = []
+    drift_limit = (
+        float(bpm_drift_threshold)
+        if bpm_drift_threshold is not None
+        else STRETCH_BPM_DRIFT_THRESHOLD
+    )
+    duration_limit = (
+        float(duration_stretch_threshold_sec)
+        if duration_stretch_threshold_sec is not None
+        else DURATION_STRETCH_THRESHOLD_SEC
+    )
 
     if allow_stretch and detected_bpm > 0 and target_bpm > 0:
         drift = abs(detected_bpm - target_bpm) / target_bpm
-        if drift > STRETCH_BPM_DRIFT_THRESHOLD:
+        if drift > drift_limit:
             rate = detected_bpm / target_bpm
             import librosa
 
@@ -102,7 +122,7 @@ def _maybe_conform_backing(
 
     current_duration = len(audio) / float(sr)
     duration_delta = abs(current_duration - target_duration_sec)
-    if allow_stretch and duration_delta > DURATION_STRETCH_THRESHOLD_SEC:
+    if allow_stretch and duration_delta > duration_limit:
         audio = stretch_to_duration(audio, sr, target_duration_sec)
         stretch_notes.append(
             f"time-stretched length {current_duration:.2f}s -> {target_duration_sec:.2f}s"
@@ -165,75 +185,134 @@ def _render_full_score_guide_wav(
     bar_boundaries_sec: list[float] | None = None,
     lead_program: int = 40,
     accompaniment_program: int = 24,
+    render_style: str = "trad_session",
+    timing_plan: dict | None = None,
 ) -> tuple[Path | None, dict]:
-    """Render melody + chord tracks from score.mid for init-audio conditioning.
+    """Render melody + harmony guide WAV for init-audio conditioning.
 
-    Chord/harmony is emphasized in the guide so the model locks chord changes
-    and still has room to invent a fuller arrangement around a softer lead.
+    Uses chord-chart harmony when chordsPerBar is present (default); falls back
+    to abcjs score.mid accompaniment only when no chart is available.
     """
     import numpy as np
     import soundfile as sf
 
+    plan = timing_plan or {}
+    timing = plan.get("timing") or {}
+    meter = str(timing.get("meter") or (plan.get("musical") or {}).get("meter") or "4/4")
+    tempo_bpm = float(timing.get("tempoBpm") or (plan.get("musical") or {}).get("tempoBpm") or 120)
+    boundaries = bar_boundaries_sec or timing.get("barBoundariesSec") or []
+    bar_count = max(0, len(boundaries) - 1)
+    chords_per_bar = chords_per_bar_from_plan(plan)
+    harmony_source = guide_harmony_source(plan)
+
+    style = str(render_style or "trad_session").lower()
+    chamber = style in ("classical", "chamber")
+    melody_gain = 1.0
+    chord_gain = 0.8
+
     styled_mid = job_melody_rendered_wav(job_id).with_name("score-guide-style.mid")
     rendered = job_melody_rendered_wav(job_id).with_name("score-guide-render.wav")
-    chords_mid = job_melody_rendered_wav(job_id).with_name("score-guide-chords.mid")
-    chords_wav = job_melody_rendered_wav(job_id).with_name("score-guide-chords.wav")
     info: dict = {
         "guideSource": "score_mid_full",
+        "guideHarmonySource": harmony_source,
         "leadMidiProgram": lead_program,
         "accompanimentMidiProgram": accompaniment_program,
+        "renderStyle": style,
+        "chordsPerBarCount": len([c for c in chords_per_bar if c]),
     }
+
+    use_chord_chart = harmony_source == "chord_chart" and chords_per_bar and bar_count > 0
     try:
-        write_style_guide_midi(
-            score_path,
-            styled_mid,
-            lead_program=lead_program,
-            accompaniment_program=accompaniment_program,
-        )
+        if use_chord_chart:
+            write_chord_chart_guide_midi(
+                score_path,
+                styled_mid,
+                chords_per_bar,
+                bar_count=bar_count,
+                meter=meter,
+                tempo_bpm=tempo_bpm,
+                render_style=style,
+                lead_program=lead_program,
+                accompaniment_program=accompaniment_program,
+            )
+            info["guideSource"] = "chord_chart_arranged"
+        else:
+            write_style_guide_midi(
+                score_path,
+                styled_mid,
+                lead_program=lead_program,
+                accompaniment_program=accompaniment_program,
+                sustain_accompaniment=chamber,
+                accompaniment_pad_velocity=80 if chamber else 72,
+            )
+            info["guideSource"] = "score_mid_abcjs"
+            info["sustainAccompaniment"] = chamber
         render_source = styled_mid
     except (RuntimeError, OSError, ValueError):
         render_source = score_path
         info["guideSource"] = "score_mid_unstyled"
 
-    if not try_render_midi_to_wav(render_source, rendered):
-        return None, {"guideSource": "score_render_failed"}
+    # Prefer separate melody/harmony stems so mix gains are real (not metadata-only).
+    mixed_stems = False
+    if use_chord_chart and info.get("guideSource") == "chord_chart_arranged":
+        try:
+            melody_mid = rendered.with_name("score-guide-melody.mid")
+            harmony_mid = rendered.with_name("score-guide-harmony.mid")
+            melody_wav = rendered.with_name("score-guide-melody.wav")
+            harmony_wav = rendered.with_name("score-guide-harmony.wav")
+            write_prepared_melody_stem(score_path, melody_mid, lead_program=lead_program)
+            write_harmony_only_midi(
+                harmony_mid,
+                chords_per_bar,
+                bar_count=bar_count,
+                meter=meter,
+                tempo_bpm=tempo_bpm,
+                render_style=style,
+                accompaniment_program=accompaniment_program,
+            )
+            if try_render_midi_to_wav(melody_mid, melody_wav) and try_render_midi_to_wav(harmony_mid, harmony_wav):
+                mel, mel_sr = sf.read(str(melody_wav), always_2d=False)
+                har, har_sr = sf.read(str(harmony_wav), always_2d=False)
+                if hasattr(mel, "ndim") and mel.ndim > 1:
+                    mel = np.mean(mel, axis=1).astype(np.float32)
+                else:
+                    mel = mel.astype(np.float32)
+                if hasattr(har, "ndim") and har.ndim > 1:
+                    har = np.mean(har, axis=1).astype(np.float32)
+                else:
+                    har = har.astype(np.float32)
+                if har_sr != mel_sr:
+                    import librosa
 
-    audio, sr = sf.read(str(rendered), always_2d=False)
-    if hasattr(audio, "ndim") and audio.ndim > 1:
-        audio = np.mean(audio, axis=1).astype(np.float32)
-    else:
-        audio = audio.astype("float32")
+                    har = librosa.resample(har, orig_sr=har_sr, target_sr=mel_sr)
+                length = max(len(mel), len(har))
+                if len(mel) < length:
+                    mel = np.pad(mel, (0, length - len(mel)))
+                if len(har) < length:
+                    har = np.pad(har, (0, length - len(har)))
+                audio = (mel * melody_gain) + (har * chord_gain)
+                sr = mel_sr
+                mixed_stems = True
+                info["guideStemMix"] = True
+                sf.write(str(rendered), audio, sr)
+        except (RuntimeError, OSError, ValueError, ImportError):
+            mixed_stems = False
 
-    # Overlay a louder accompaniment-only stem so chord changes dominate.
-    try:
-        if write_accompaniment_stem_midi(
-            score_path,
-            chords_mid,
-            accompaniment_program=accompaniment_program,
-        ) and try_render_midi_to_wav(chords_mid, chords_wav):
-            chords, chord_sr = sf.read(str(chords_wav), always_2d=False)
-            if hasattr(chords, "ndim") and chords.ndim > 1:
-                chords = np.mean(chords, axis=1).astype(np.float32)
-            else:
-                chords = chords.astype("float32")
-            if chord_sr != sr:
-                import librosa
+    if not mixed_stems:
+        if not try_render_midi_to_wav(render_source, rendered):
+            return None, {"guideSource": "score_render_failed"}
+        audio, sr = sf.read(str(rendered), always_2d=False)
+        if hasattr(audio, "ndim") and audio.ndim > 1:
+            audio = np.mean(audio, axis=1).astype(np.float32)
+        else:
+            audio = audio.astype("float32")
 
-                chords = librosa.resample(chords, orig_sr=chord_sr, target_sr=sr)
-            length = min(len(audio), len(chords))
-            # Soft lead + strong harmony skeleton for arrangement conditioning.
-            mixed = audio[:length] * 0.55 + chords[:length] * 1.15
-            if len(audio) > length:
-                mixed = np.concatenate([mixed, audio[length:] * 0.55])
-            peak = float(np.max(np.abs(mixed))) if len(mixed) else 0.0
-            if peak > 0.95:
-                mixed = mixed * (0.92 / peak)
-            audio = mixed
-            info["chordHeavyGuide"] = True
-            info["guideMelodyGain"] = 0.55
-            info["guideChordGain"] = 1.15
-    except (RuntimeError, OSError, ValueError):
-        pass
+    peak = float(np.max(np.abs(audio))) if len(audio) else 0.0
+    if peak > 0.95:
+        audio = audio * (0.92 / peak)
+    info["guideMelodyGain"] = melody_gain
+    info["guideChordGain"] = chord_gain
+    info["guideStemMix"] = mixed_stems
 
     if len(audio) / float(sr) < target_duration_sec * 0.95:
         fitted, fit_notes = tile_backing_loop(
@@ -253,6 +332,14 @@ def _render_full_score_guide_wav(
     sf.write(str(guide_path), fitted, sr)
     info["guideFitNotes"] = fit_notes
     info["guideDurationSec"] = target_duration_sec
+
+    guide_quality = validate_guide_wav(
+        guide_path,
+        meter=meter,
+        render_style=style,
+        harmony_source=harmony_source,
+    )
+    info["guideQuality"] = guide_quality
     return guide_path if guide_path.is_file() else None, info
 
 
@@ -294,6 +381,8 @@ def _build_guide_wav(
     include_chord_layer: bool = False,
     lead_program: int = 40,
     accompaniment_program: int = 24,
+    render_style: str = "trad_session",
+    timing_plan: dict | None = None,
 ) -> tuple[Path | None, dict]:
     """Build a conditioning guide for audio.cpp (not mixed into the final track)."""
     import numpy as np
@@ -310,6 +399,8 @@ def _build_guide_wav(
             bar_boundaries_sec=bar_boundaries_sec,
             lead_program=lead_program,
             accompaniment_program=accompaniment_program,
+            render_style=render_style,
+            timing_plan=timing_plan,
         )
     elif melody_path and melody_path.is_file():
         guide_path = job_guide_wav(job_id)
@@ -330,7 +421,7 @@ def _build_guide_wav(
     # Full score.mid already contains chord tracks. Never mix a shorter client
     # chord WAV on top — that previously truncated an ~88s guide to ~18s and
     # AceStep/Stable Audio only heard a fragment of the tune.
-    score_guide = str(guide_info.get("guideSource") or "").startswith("score_mid")
+    score_guide = str(guide_info.get("guideSource") or "").startswith(("score_mid", "chord_chart"))
     if include_chord_layer and chord_path and chord_path.is_file() and not score_guide:
         guide, sr = sf.read(str(base_path), always_2d=False)
         if guide.ndim > 1:
@@ -541,6 +632,100 @@ def _generate_backing_loop(
         loop_path.unlink(missing_ok=True)
 
 
+CHUNK_OVERLAP_BARS = 2
+CHUNK_TAIL_CHECK_SEC = 4.0
+CHUNK_RMS_COLLAPSE_RATIO = 0.55
+
+
+def _bar_overlap_sec(bar_boundaries_sec: list[float], around_sec: float, bars: int = CHUNK_OVERLAP_BARS) -> float:
+    """Seconds spanning `bars` bars ending at/near around_sec."""
+    boundaries = [float(b) for b in (bar_boundaries_sec or []) if float(b) >= 0]
+    if len(boundaries) < 2:
+        return max(1.5, float(bars) * 1.8)
+    # Find boundary index at or before around_sec.
+    end_idx = 0
+    for i, boundary in enumerate(boundaries):
+        if boundary <= around_sec + 0.05:
+            end_idx = i
+    start_idx = max(0, end_idx - max(1, int(bars)))
+    span = float(boundaries[end_idx] - boundaries[start_idx])
+    return max(1.0, span)
+
+
+def _wav_rms(path: Path, *, start_sec: float = 0.0, duration_sec: float | None = None) -> float | None:
+    try:
+        import numpy as np
+        import soundfile as sf
+    except ImportError:
+        return None
+    if not path or not path.is_file():
+        return None
+    try:
+        audio, sr = sf.read(str(path), always_2d=False)
+        if hasattr(audio, "ndim") and audio.ndim > 1:
+            audio = np.mean(audio, axis=1)
+        audio = audio.astype(np.float32)
+        start = max(0, int(round(start_sec * sr)))
+        if duration_sec is not None:
+            end = min(len(audio), start + max(1, int(round(duration_sec * sr))))
+        else:
+            end = len(audio)
+        if end <= start:
+            return None
+        segment = audio[start:end]
+        return float(np.sqrt(np.mean(np.square(segment))))
+    except Exception:
+        return None
+
+
+def _chunk_tail_collapsed(
+    section_path: Path,
+    guide_slice_path: Path | None,
+    *,
+    tail_sec: float = CHUNK_TAIL_CHECK_SEC,
+) -> tuple[bool, dict]:
+    """True when generated chunk tail is much quieter than the matching guide tail."""
+    info: dict = {}
+    if not section_path.is_file():
+        return False, info
+    try:
+        import soundfile as sf
+
+        audio, sr = sf.read(str(section_path), always_2d=False)
+        dur = len(audio) / float(sr) if hasattr(audio, "__len__") else 0.0
+    except Exception:
+        return False, info
+    if dur < tail_sec * 1.5:
+        return False, info
+    out_tail = _wav_rms(section_path, start_sec=max(0.0, dur - tail_sec), duration_sec=tail_sec)
+    info["outputTailRms"] = out_tail
+    if out_tail is None:
+        return False, info
+    guide_tail = None
+    if guide_slice_path and guide_slice_path.is_file():
+        try:
+            import soundfile as sf
+
+            g_audio, g_sr = sf.read(str(guide_slice_path), always_2d=False)
+            g_dur = len(g_audio) / float(g_sr)
+            guide_tail = _wav_rms(
+                guide_slice_path,
+                start_sec=max(0.0, g_dur - tail_sec),
+                duration_sec=tail_sec,
+            )
+        except Exception:
+            guide_tail = None
+    info["guideTailRms"] = guide_tail
+    if guide_tail is not None and guide_tail > 1e-4:
+        ratio = out_tail / guide_tail
+        info["tailRmsRatio"] = ratio
+        return ratio < CHUNK_RMS_COLLAPSE_RATIO, info
+    # No guide: treat near-silence as collapse.
+    collapsed = out_tail < 0.01
+    info["tailNearSilence"] = collapsed
+    return collapsed, info
+
+
 def _duration_chunk_targets(
     total_duration_sec: float,
     bar_boundaries_sec: list[float],
@@ -557,6 +742,7 @@ def _duration_chunk_targets(
             "durationSec": total,
             "startTimeSec": 0.0,
             "endTimeSec": total,
+            "overlapSec": 0.0,
         }]
 
     boundaries = [float(b) for b in (bar_boundaries_sec or []) if float(b) >= 0]
@@ -575,12 +761,17 @@ def _duration_chunk_targets(
                 end = min(total, boundary)
         if end <= start + 1.0:
             end = min(total, start + max_chunk)
+        overlap = 0.0
+        if index > 0:
+            overlap = _bar_overlap_sec(boundaries, start, CHUNK_OVERLAP_BARS)
+            overlap = min(overlap, max(0.0, start - 0.5))
         chunks.append({
             "id": f"chunk-{index}",
             "strainLabel": "",
             "durationSec": max(0.5, end - start),
             "startTimeSec": start,
             "endTimeSec": end,
+            "overlapSec": overlap,
         })
         start = end
         index += 1
@@ -591,6 +782,40 @@ def _duration_chunk_targets(
         prev["endTimeSec"] = last["endTimeSec"]
         prev["durationSec"] = prev["endTimeSec"] - prev["startTimeSec"]
     return chunks
+
+
+def _synthetic_half_sections(
+    target_duration_sec: float,
+    bar_boundaries_sec: list[float],
+) -> list[dict]:
+    """Split a long single-section tune at a mid bar for sectional generation."""
+    total = float(target_duration_sec)
+    boundaries = [float(b) for b in (bar_boundaries_sec or []) if float(b) >= 0]
+    mid = total / 2.0
+    split = mid
+    if len(boundaries) >= 3:
+        # Nearest interior bar boundary to midpoint.
+        candidates = [b for b in boundaries[1:-1]]
+        if candidates:
+            split = min(candidates, key=lambda b: abs(b - mid))
+    if split < 8.0 or total - split < 8.0:
+        return []
+    return [
+        {
+            "id": "half-a",
+            "strainLabel": "A",
+            "durationSec": split,
+            "startTimeSec": 0.0,
+            "endTimeSec": split,
+        },
+        {
+            "id": "half-b",
+            "strainLabel": "B",
+            "durationSec": total - split,
+            "startTimeSec": split,
+            "endTimeSec": total,
+        },
+    ]
 
 
 def _assemble_chunked_backing(
@@ -605,8 +830,8 @@ def _assemble_chunked_backing(
     spec=None,
     use_cover: bool = False,
     strict_guide: bool = False,
-) -> None:
-    """Generate long Stable Audio jobs as sequential guide-locked chunks."""
+) -> dict:
+    """Generate long Stable Audio jobs as overlapping guide-locked chunks."""
     timing = plan["timing"]
     boundaries = timing.get("barBoundariesSec") or []
     chunks = _duration_chunk_targets(target_duration_sec, boundaries)
@@ -614,25 +839,34 @@ def _assemble_chunked_backing(
     section_durations: list[float] = []
     tempo = float(timing.get("tempoBpm") or 120)
     meter = str(timing.get("meter") or "")
+    overlap_used = 0.0
+    chunk_meta: list[dict] = []
 
     for index, chunk in enumerate(chunks):
         section_path = job_section_backing_wav(job_id, index)
         duration = float(chunk["durationSec"])
         start_sec = float(chunk["startTimeSec"])
+        overlap = float(chunk.get("overlapSec") or 0.0)
+        gen_start = max(0.0, start_sec - overlap)
+        gen_duration = max(0.5, (start_sec + duration) - gen_start)
+        if overlap > overlap_used:
+            overlap_used = overlap
+
         section_guide = guide_audio_path
         if guide_audio_path and guide_audio_path.is_file():
             sliced = section_path.with_suffix(".guide.wav")
             section_guide = _slice_guide_wav(
                 guide_audio_path,
-                start_sec,
-                duration,
+                gen_start,
+                gen_duration,
                 sliced,
             ) or guide_audio_path
+
         _generate_guided_segment(
             provider,
             prompt,
             negative_prompt,
-            duration,
+            gen_duration,
             section_path,
             guide_audio_path=section_guide,
             spec=spec,
@@ -640,25 +874,80 @@ def _assemble_chunked_backing(
             tempo_bpm=tempo,
             meter=meter,
         )
+        # Prefer pad/trim over BPM smear on per-chunk restyles.
         _maybe_conform_backing(
             section_path,
-            duration,
+            gen_duration,
             tempo,
             bar_boundaries_sec=boundaries,
             allow_stretch=True,
+            bpm_drift_threshold=0.15,
+            duration_stretch_threshold_sec=2.5,
         )
+
+        meta = {
+            "id": chunk.get("id"),
+            "startTimeSec": start_sec,
+            "durationSec": duration,
+            "overlapSec": overlap,
+            "genStartSec": gen_start,
+            "genDurationSec": gen_duration,
+            "regenerated": False,
+        }
+        collapsed, rms_info = _chunk_tail_collapsed(section_path, section_guide)
+        meta.update(rms_info)
+        if collapsed and spec is not None and not use_cover:
+            # One retry at stronger guide lock.
+            low_noise = max(0.12, float(getattr(spec, "init_noise_level", 0.22)) - 0.08)
+            retry_spec = replace(spec, init_noise_level=low_noise)
+            _generate_guided_segment(
+                provider,
+                prompt,
+                negative_prompt,
+                gen_duration,
+                section_path,
+                guide_audio_path=section_guide,
+                spec=retry_spec,
+                use_cover=use_cover,
+                tempo_bpm=tempo,
+                meter=meter,
+            )
+            _maybe_conform_backing(
+                section_path,
+                gen_duration,
+                tempo,
+                bar_boundaries_sec=boundaries,
+                allow_stretch=True,
+                bpm_drift_threshold=0.15,
+                duration_stretch_threshold_sec=2.5,
+            )
+            meta["regenerated"] = True
+            meta["retryInitNoiseLevel"] = low_noise
+            _, rms_info2 = _chunk_tail_collapsed(section_path, section_guide)
+            meta.update({f"retry_{k}": v for k, v in rms_info2.items()})
+
+        chunk_meta.append(meta)
         section_paths.append(section_path)
         section_durations.append(duration)
 
     import soundfile as sf
 
     probe, sr = sf.read(str(section_paths[0]), always_2d=False)
-    stitch_audio_sections(
+    stitch_info = stitch_audio_sections(
         section_paths,
         section_durations,
         job_backing_wav(job_id),
         sr=sr,
+        fade_ms=CHUNK_STITCH_FADE_MS,
+        overlap_sec=overlap_used,
     )
+    return {
+        "chunkCount": len(chunks),
+        "overlapSec": overlap_used,
+        "fadeMs": CHUNK_STITCH_FADE_MS,
+        "chunks": chunk_meta,
+        "stitch": stitch_info,
+    }
 
 
 def _assemble_sectional_backing(
@@ -672,7 +961,7 @@ def _assemble_sectional_backing(
     spec=None,
     use_cover: bool = False,
     strict_guide: bool = False,
-) -> None:
+) -> dict:
     targets = section_generation_targets(plan)
     if not targets:
         raise ValueError("No sectional targets")
@@ -682,6 +971,7 @@ def _assemble_sectional_backing(
     loop_sec = loop_duration_sec(plan)
     section_paths: list[Path] = []
     section_durations: list[float] = []
+    section_meta: list[dict] = []
 
     for index, target in enumerate(targets):
         section_path = job_section_backing_wav(job_id, index)
@@ -694,8 +984,8 @@ def _assemble_sectional_backing(
             else (min(loop_sec, section_duration) if loop_sec > 0 else section_duration)
         )
         section_guide = guide_audio_path
+        start_sec = float(target.get("startTimeSec") or 0.0)
         if guide_audio_path and guide_audio_path.is_file():
-            start_sec = float(target.get("startTimeSec") or 0.0)
             sliced = section_path.with_suffix(".guide.wav")
             section_guide = _slice_guide_wav(
                 guide_audio_path,
@@ -724,9 +1014,17 @@ def _assemble_sectional_backing(
             float(timing.get("tempoBpm") or 120),
             bar_boundaries_sec=boundaries,
             allow_stretch=True,
+            bpm_drift_threshold=0.15 if strict_guide else STRETCH_BPM_DRIFT_THRESHOLD,
+            duration_stretch_threshold_sec=2.5 if strict_guide else DURATION_STRETCH_THRESHOLD_SEC,
         )
         section_paths.append(section_path)
         section_durations.append(section_duration)
+        section_meta.append({
+            "id": target.get("id") or f"section-{index}",
+            "startTimeSec": start_sec,
+            "durationSec": section_duration,
+            "strainLabel": target.get("strainLabel"),
+        })
 
     repeat_schedule = timing.get("repeatSchedule") or []
     if repeat_schedule:
@@ -760,12 +1058,21 @@ def _assemble_sectional_backing(
         import numpy as np
 
         _ = np.mean(probe, axis=1)
-    stitch_audio_sections(
+    stitch_info = stitch_audio_sections(
         section_paths,
         section_durations,
         job_backing_wav(job_id),
         sr=sr,
+        fade_ms=CHUNK_STITCH_FADE_MS,
     )
+    return {
+        "chunkCount": len(section_meta),
+        "overlapSec": 0.0,
+        "fadeMs": CHUNK_STITCH_FADE_MS,
+        "chunks": section_meta,
+        "stitch": stitch_info,
+        "sectional": True,
+    }
 
 
 def run_practice_track_job(
@@ -788,6 +1095,7 @@ def run_practice_track_job(
 
     lead_program = int(plan.get("leadMidiProgram") or 40)
     accompaniment_program = int(plan.get("accompanimentMidiProgram") or 24)
+    render_style = str(plan.get("renderStyle") or "trad_session")
     # Style melody stem is rendered for AI guide conditioning; it is not mixed
     # into the final track unless includeStyleMelodyStem is explicitly true.
     use_style_melody_stem = bool(plan.get("includeStyleMelodyStem", False)) or bool(
@@ -811,6 +1119,20 @@ def run_practice_track_job(
     provider = get_audio_generation_provider()
     backing_path = job_backing_wav(job_id)
     section_targets = section_generation_targets(plan)
+    render_style_l = str(render_style or "").lower()
+    chamber = render_style_l in ("classical", "chamber")
+    strict_guide = bool(plan.get("guideAudioConditioning", True))
+    # Long chamber tunes without multi-strain sections: split at mid bar so we
+    # prefer musical halves over arbitrary ~28s Stable Audio cuts.
+    if (
+        len(section_targets) <= 1
+        and target_duration > 24.0
+        and chamber
+        and strict_guide
+    ):
+        synthetic = _synthetic_half_sections(target_duration, boundaries)
+        if len(synthetic) > 1:
+            section_targets = synthetic
     use_sections = len(section_targets) > 1 and target_duration > 24.0
 
     # AceStep cover is optional; Stable Audio is the default restyle path.
@@ -818,7 +1140,6 @@ def run_practice_track_job(
     if not guide_engine:
         guide_engine = "ace_step" if spec.family == "ace_step" else "stable_audio"
     use_cover = guide_engine == "ace_step" or spec.family == "ace_step"
-    strict_guide = bool(plan.get("guideAudioConditioning", True))
     # Long Stable Audio one-shots OOM/timeout on Vulkan — chunk them.
     use_sa_chunks = (
         not use_cover
@@ -827,6 +1148,7 @@ def run_practice_track_job(
         and not use_sections
     )
     guide_info: dict = {}
+    chunk_assembly: dict = {}
 
     guide_for_ai = None
     if strict_guide:
@@ -841,12 +1163,26 @@ def run_practice_track_job(
             include_chord_layer=bool(plan.get("includeChordLayer")),
             lead_program=lead_program,
             accompaniment_program=accompaniment_program,
+            render_style=render_style,
+            timing_plan=plan,
         )
 
     if use_sections:
-        _assemble_sectional_backing(
+        # Inject synthetic sections into a shallow plan copy for assembly.
+        section_plan = plan
+        if section_targets and not (plan.get("timing") or {}).get("sections"):
+            section_plan = dict(plan)
+            timing_copy = dict(timing)
+            timing_copy["sections"] = section_targets
+            section_plan["timing"] = timing_copy
+        elif section_targets and len(section_generation_targets(plan)) <= 1:
+            section_plan = dict(plan)
+            timing_copy = dict(timing)
+            timing_copy["sections"] = section_targets
+            section_plan["timing"] = timing_copy
+        chunk_assembly = _assemble_sectional_backing(
             job_id,
-            plan,
+            section_plan,
             provider,
             plan["backingPrompt"],
             negative_prompt,
@@ -854,7 +1190,7 @@ def run_practice_track_job(
             spec=spec,
             use_cover=use_cover,
             strict_guide=strict_guide,
-        )
+        ) or {}
     elif use_sa_chunks:
         write_job_progress(
             job_id,
@@ -864,7 +1200,7 @@ def run_practice_track_job(
                 "message": f"Generating in ~{int(STABLE_AUDIO_MAX_CHUNK_SEC)}s chunks (avoids timeout)",
             },
         )
-        _assemble_chunked_backing(
+        chunk_assembly = _assemble_chunked_backing(
             job_id,
             plan,
             provider,
@@ -875,7 +1211,7 @@ def run_practice_track_job(
             spec=spec,
             use_cover=use_cover,
             strict_guide=strict_guide,
-        )
+        ) or {}
     else:
         _generate_backing_loop(
             provider,
@@ -894,18 +1230,28 @@ def run_practice_track_job(
         )
 
     write_job_progress(job_id, {"stage": "validating", "progress": 60, "message": "Validating timing"})
+    # Soften BPM stretch when guide-locked (avoid smearing pads at seams).
+    soft_lock = bool(strict_guide and guide_for_ai)
     validation = _maybe_conform_backing(
         backing_path,
         target_duration,
         target_bpm,
         bar_boundaries_sec=boundaries,
         allow_stretch=True,
+        bpm_drift_threshold=0.12 if soft_lock else STRETCH_BPM_DRIFT_THRESHOLD,
+        duration_stretch_threshold_sec=2.0 if soft_lock else DURATION_STRETCH_THRESHOLD_SEC,
     )
     validation.update(melody_info)
     validation.update(guide_info)
-    validation["loopDurationSec"] = loop_sec
+    validation["guideHarmonySource"] = guide_info.get("guideHarmonySource")
+    validation["guideQuality"] = guide_info.get("guideQuality")
+    validation["guideSource"] = guide_info.get("guideSource")
     validation["sectional"] = use_sections
     validation["chunked"] = use_sa_chunks
+    validation["chunkAssembly"] = chunk_assembly or None
+    validation["syntheticSections"] = bool(
+        use_sections and section_targets and len(section_generation_targets(plan)) <= 1
+    )
     validation["targetDurationSec"] = target_duration
     validation["onePassDurationSec"] = float(timing["totalDurationSec"])
     validation["renderStyle"] = plan.get("renderStyle")
@@ -955,8 +1301,14 @@ def run_practice_track_job(
         guide_path=guide_for_ai,
         target_bpm=target_bpm,
         bar_boundaries_sec=boundaries,
+        chunk_starts_sec=[
+            float(c.get("startTimeSec") or 0)
+            for c in (chunk_assembly.get("chunks") or [])
+        ] if chunk_assembly else None,
     )
     validation["fidelity"] = fidelity
+    if fidelity.get("midtrackContinuity"):
+        validation["midtrackContinuity"] = fidelity["midtrackContinuity"]
 
     result = {
         "stage": "complete",

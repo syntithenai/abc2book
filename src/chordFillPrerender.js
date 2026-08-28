@@ -2,20 +2,9 @@ import abcjs from 'abcjs';
 import { buildChordFillAbc, chordFillCacheKey } from './chordFillPattern';
 import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundFontConfig';
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap';
+import { clearAbcjsSoundsCache } from './abcjsSoundsCache';
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/';
-
-function clearAbcjsSoundsCache() {
-  try {
-    // Rejected note loads are cached forever; clear so a soundfont retry can succeed.
-    // eslint-disable-next-line global-require, import/no-extraneous-dependencies
-    const cache = require('abcjs/src/synth/sounds-cache');
-    if (!cache || typeof cache !== 'object') return;
-    Object.keys(cache).forEach(function(instrument) {
-      delete cache[instrument];
-    });
-  } catch (err) { /* ignore — cache clear is best-effort */ }
-}
 
 function renderFillVisual(abc) {
   if (typeof document === 'undefined') return null;

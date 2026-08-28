@@ -1,0 +1,174 @@
+.book-import-review-panel {
+  --bir-line: #ced4da;
+  --bir-muted: #6c757d;
+  --bir-zone: rgba(13, 110, 253, 0.28);
+  --bir-zone-border: #0d6efd;
+  --bir-complete: #198754;
+  --bir-surface: #f8f9fa;
+}
+
+.book-import-review-panel .bir-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  padding: 0.5rem 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--bir-line);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+.book-import-review-panel .bir-name-filter {
+  max-width: 16rem;
+  min-width: 10rem;
+  flex: 1 1 10rem;
+}
+
+.book-import-review-panel .bir-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.book-import-review-panel .bir-filter-chips .btn.active {
+  font-weight: 600;
+}
+
+.book-import-review-panel .bir-progress {
+  color: var(--bir-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.book-import-review-panel .bir-body {
+  display: grid;
+  grid-template-columns: minmax(10rem, 14rem) 1fr;
+  gap: 0.75rem 1rem;
+  align-items: start;
+}
+
+.book-import-review-panel .bir-tune-list {
+  max-height: 70vh;
+  overflow: auto;
+  border: 1px solid var(--bir-line);
+  border-radius: 0.375rem;
+}
+
+.book-import-review-panel .bir-tune-list .list-group-item.complete {
+  border-left: 3px solid var(--bir-complete);
+}
+
+.book-import-review-panel .bir-active {
+  min-width: 0;
+}
+
+.book-import-review-panel .bir-title-row .form-control {
+  font-weight: 600;
+}
+
+.book-import-review-panel .bir-stable-id {
+  font-size: 0.75rem;
+  color: var(--bir-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  word-break: break-all;
+}
+
+.book-import-review-panel .bir-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.book-import-review-panel .bir-col {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.book-import-review-panel .bir-col-label {
+  font-size: 0.78rem;
+  color: var(--bir-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.book-import-review-panel .bir-crop-wrap {
+  position: relative;
+  border: 1px solid var(--bir-line);
+  background: #212529;
+  max-height: 70vh;
+  overflow: auto;
+  user-select: none;
+}
+
+.book-import-review-panel .bir-crop-wrap img {
+  width: 100%;
+  display: block;
+  cursor: crosshair;
+}
+
+.book-import-review-panel .bir-crop-wrap.split-mode img {
+  cursor: row-resize;
+}
+
+.book-import-review-panel .bir-zone {
+  position: absolute;
+  border: 2px solid var(--bir-zone-border);
+  background: var(--bir-zone);
+  pointer-events: auto;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.book-import-review-panel .bir-zone-draft {
+  border-style: dashed;
+  background: rgba(13, 110, 253, 0.15);
+  pointer-events: none;
+}
+
+.book-import-review-panel .bir-staff-wrap {
+  max-height: 70vh;
+  overflow: auto;
+  border: 1px solid var(--bir-line);
+  border-radius: 0.375rem;
+  padding: 0.35rem;
+  background: var(--bir-surface);
+}
+
+.book-import-review-panel .bir-abc-textarea {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  min-height: 12rem;
+  max-height: 28vh;
+  resize: vertical;
+}
+
+.book-import-review-panel .bir-candidate-item .badge {
+  font-weight: 500;
+}
+
+.book-import-review-panel .bir-hint {
+  font-size: 0.8rem;
+  color: var(--bir-muted);
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .book-import-review-panel .bir-body {
+    grid-template-columns: 1fr;
+  }
+
+  .book-import-review-panel .bir-tune-list {
+    max-height: 12rem;
+  }
+
+  .book-import-review-panel .bir-cols {
+    grid-template-columns: 1fr;
+  }
+}

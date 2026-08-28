@@ -1,0 +1,178 @@
+{
+  "id": "legacy-styles-classical-style",
+  "title": "Classical Style",
+  "track": "styles",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "styles",
+    "legacy"
+  ],
+  "path": "07-styles/02-classical-style.md",
+  "sections": [
+    {
+      "id": "classical-style-balance-and-sonata-form",
+      "title": "Classical Style: Balance and Sonata Form",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Classical era (c. 1750–1820) values symmetry, homophonic texture, and clearly articulated phrases."
+        }
+      ]
+    },
+    {
+      "id": "texture",
+      "title": "Texture",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody with accompaniment dominates over baroque polyphony. Alberti bass (broken chords) supports singable top lines."
+        }
+      ]
+    },
+    {
+      "id": "sonata-form",
+      "title": "Sonata form",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Exposition (themes in home and dominant keys) → development (fragmentation, modulation) → recapitulation (themes in home key). Large-scale question-answer logic applies to short tunes too."
+        }
+      ]
+    },
+    {
+      "id": "ensemble",
+      "title": "Ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Haydn and Mozart string quartets model conversational listening — metaphor for good session etiquette."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Classical texture often features:\n\n- A) Clear melody with accompaniment\n- B) Unstructured noise\n- C) Only 7/8 meter\n- D) No phrases\n\n**Answer:** A\n\n### Q2. Sonata form: exposition, development, recapitulation.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Classical texture often features:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Clear melody with accompaniment",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Clear melody with accompaniment"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Sonata form: exposition, development, recapitulation.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-styles-classical-style-quiz",
+    "title": "Classical Style quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Classical texture often features:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Clear melody with accompaniment",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Clear melody with accompaniment"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Sonata form: exposition, development, recapitulation.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

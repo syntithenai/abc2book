@@ -792,6 +792,17 @@ export default function TuneRecordForm(props) {
                   const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
                   if (text) setField('lyrics', text);
                 }}
+                onChords={function(result) {
+                  const lines = result && (
+                    Array.isArray(result.lyricLines) && result.lyricLines.length
+                      ? result.lyricLines
+                      : (Array.isArray(result.sheetLines) ? result.sheetLines : null)
+                  );
+                  const text = lines
+                    ? lines.join('\n')
+                    : (result && (result.lyricText || result.text || ''));
+                  if (text) setField('lyrics', String(text));
+                }}
               />
             </>
           )}

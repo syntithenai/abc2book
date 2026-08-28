@@ -2,6 +2,7 @@ import { parseChordSheetText, createTuneFromChordSheet } from './chordProFormatU
 import { finalizeChordSheetToTune, noteLinesHaveRealMelody } from './timedImportFinalizer';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import { getLyricLines, setLyricLines } from './wLinesUtils';
+import { normalizeSheetFormat, sheetFormatIsTextOnly, sheetFormatNeedsMelody } from './sheetImageFormats';
 
 function buildSkeletonAbcFromMetadata(metadata) {
   const lines = [
@@ -16,16 +17,34 @@ function buildSkeletonAbcFromMetadata(metadata) {
   return lines.join('\n');
 }
 
+function metaFromResult(result) {
+  const meta = result && result.meta && typeof result.meta === 'object' ? result.meta : null;
+  return {
+    title: (meta && meta.title) || (result && result.title) || '',
+    artist: (meta && meta.artist) || (result && result.artist) || '',
+    composer: (meta && meta.composer) || (meta && meta.artist) || (result && result.artist) || '',
+    key: (meta && meta.key) || '',
+    capo: meta && meta.capo != null ? meta.capo : null,
+    sourceFormat: (meta && meta.sourceFormat)
+      || (result && (result.sheetFormat || result.pageType))
+      || '',
+  };
+}
+
 export function buildDraftFromSheetImageResult(result, options) {
   const chordText = result && result.chordSheet ? result.chordSheet.text : '';
   const melody = result && result.melody ? result.melody : null;
+  const sheetMeta = metaFromResult(result);
+  const format = normalizeSheetFormat(result && (result.sheetFormat || result.pageType));
   let chordDraft = null;
   if (chordText) {
     chordDraft = parseChordSheetText(chordText, {
-      fallbackTitle: (result && result.title) || (options && options.fallbackTitle) || '',
+      fallbackTitle: sheetMeta.title || (options && options.fallbackTitle) || '',
     });
-    if (result && result.title && !chordDraft.title) chordDraft.title = result.title;
-    if (result && result.artist && !chordDraft.composer) chordDraft.composer = result.artist;
+    if (sheetMeta.title && !chordDraft.title) chordDraft.title = sheetMeta.title;
+    if (sheetMeta.composer && !chordDraft.composer) chordDraft.composer = sheetMeta.composer;
+    if (sheetMeta.key && !chordDraft.key) chordDraft.key = sheetMeta.key;
+    if (sheetMeta.capo != null && !chordDraft.capo) chordDraft.capo = sheetMeta.capo;
   }
   if (chordDraft && result && result.chordSheet && Array.isArray(result.chordSheet.lineDetails) && result.chordSheet.lineDetails.length > 0) {
     chordDraft.chordSheetAlignment = result.chordSheet.lineDetails.slice();
@@ -34,7 +53,8 @@ export function buildDraftFromSheetImageResult(result, options) {
   if (melody && melody.key && chordDraft && !chordDraft.key) chordDraft.key = melody.key;
   return {
     chordDraft: chordDraft,
-    melodyAbc: melody && melody.abc ? melody.abc : '',
+    melodyAbc: (!sheetFormatIsTextOnly(format) && melody && melody.abc) ? melody.abc : '',
+    sheetFormat: format,
     warnings: (result && result.warnings ? result.warnings.slice() : []).concat(
       chordDraft && chordDraft.warnings ? chordDraft.warnings : []
     ),
@@ -60,18 +80,22 @@ export function createTuneFromSheetImageImport(options) {
     throw new Error('Missing dependencies for sheet image import');
   }
 
+  const format = normalizeSheetFormat(result.sheetFormat || result.pageType);
+  const textOnly = sheetFormatIsTextOnly(format);
+  const sheetMeta = metaFromResult(result);
+
   const merge = Object.assign({
     title: true,
     composer: true,
     chordsLyrics: true,
-    melody: true,
+    melody: sheetFormatNeedsMelody(format),
     keyMeter: true,
   }, mergeOptions || {});
 
   const chordText = merge.chordsLyrics
     ? String(chordTextOverride != null ? chordTextOverride : (result.chordSheet && result.chordSheet.text) || '').trim()
     : '';
-  const melodyAbc = merge.melody
+  const melodyAbc = merge.melody && !textOnly
     ? String(melodyAbcOverride != null ? melodyAbcOverride : (result.melody && result.melody.abc) || '').trim()
     : '';
 
@@ -81,13 +105,13 @@ export function createTuneFromSheetImageImport(options) {
 
   const resolvedTitle = titleOverride != null
     ? String(titleOverride).trim()
-    : (result.title || '');
+    : (sheetMeta.title || '');
   const resolvedArtist = artistOverride != null
     ? String(artistOverride).trim()
-    : (result.artist || '');
+    : (sheetMeta.composer || sheetMeta.artist || '');
   const resolvedKey = keyOverride != null
     ? String(keyOverride).trim()
-    : ((result.melody && result.melody.key) || '');
+    : (sheetMeta.key || (result.melody && result.melody.key) || '');
   const resolvedMeter = meterOverride != null
     ? String(meterOverride).trim()
     : ((result.melody && result.melody.meter) || '');
@@ -98,9 +122,9 @@ export function createTuneFromSheetImageImport(options) {
       fallbackTitle: merge.title ? (resolvedTitle || '') : '',
     });
     if (merge.title && resolvedTitle) draft.title = resolvedTitle;
-    else if (merge.title && result.title && !draft.title) draft.title = result.title;
+    else if (merge.title && sheetMeta.title && !draft.title) draft.title = sheetMeta.title;
     if (merge.composer && resolvedArtist) draft.composer = resolvedArtist;
-    else if (merge.composer && result.artist && !draft.composer) draft.composer = result.artist;
+    else if (merge.composer && sheetMeta.composer && !draft.composer) draft.composer = sheetMeta.composer;
   } else {
     draft = {
       title: merge.title ? (resolvedTitle || 'Untitled') : 'Untitled',
@@ -126,6 +150,7 @@ export function createTuneFromSheetImageImport(options) {
   else if (merge.keyMeter && result.melody && result.melody.meter && !draft.meter) draft.meter = result.melody.meter;
   if (merge.keyMeter && resolvedKey) draft.key = resolvedKey;
   else if (merge.keyMeter && result.melody && result.melody.key && !draft.key) draft.key = result.melody.key;
+  if (sheetMeta.capo != null && !draft.capo) draft.capo = sheetMeta.capo;
 
   const skeletonAbc = buildSkeletonAbcFromMetadata({
     title: draft.title,
@@ -148,7 +173,11 @@ export function createTuneFromSheetImageImport(options) {
   tune.meta = Object.assign({}, tune.meta || {}, {
     chordProSource: draft.chordProSource || chordText || '',
     chordSheetAlignment: draft.chordSheetAlignment || null,
+    sheetFormat: format,
+    sourceFormat: sheetMeta.sourceFormat || format,
   });
+  tune.sheetFormat = format;
+  tune.pageType = format;
 
   let mergedAbc = skeletonAbc;
   if (melodyAbc) {

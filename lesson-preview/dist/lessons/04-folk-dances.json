@@ -1,0 +1,103 @@
+{
+  "id": "04-folk-dances",
+  "title": "04 Folk Dances",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/04-folk-dances.md",
+  "sections": [
+    {
+      "id": "reels-jigs-waltzes-and-hornpipes",
+      "title": "Reels, Jigs, Waltzes, and Hornpipes",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 2/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Irish and Scottish session dance types each carry a distinct pulse — matching foot-tap to meter is essential session etiquette."
+        }
+      ]
+    },
+    {
+      "id": "reels",
+      "title": "Reels",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "2/2 or 4/4, steady driving beat. 'ONE-two THREE-four' at moderate-fast tempo. Most common session dance type."
+        }
+      ]
+    },
+    {
+      "id": "jigs",
+      "title": "Jigs",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Double jig: 6/8, two beats per bar of three eighths — 'JIG-ged-y JIG-ged-y'. Single jig and slide: 12/8 variants regionally."
+        }
+      ]
+    },
+    {
+      "id": "waltzes-and-hornpipes",
+      "title": "Waltzes and hornpipes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Waltz: 3/4, strong beat one. Hornpipe: often dotted long-short rhythm, 4/4, slower bouncy feel — regional variation in dotting."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-double-jig-notated-in",
+      "title": "Q1. Double jig notated in:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) 6/8\n- B) 3/4 waltz\n- C) 5/4\n- D) 7/8 only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-reels-use-steady-22-or-44-drive",
+      "title": "Q2. Reels use steady 2/2 or 4/4 drive.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Double jig notated in:\n\n- A) 6/8\n- B) 3/4 waltz\n- C) 5/4\n- D) 7/8 only\n\n**Answer:** A\n\n### Q2. Reels use steady 2/2 or 4/4 drive.\n\n**Answer:** True"
+}

@@ -9,6 +9,7 @@ import {
   appendTuneToQueue,
   createQueue,
   endStopAfterCurrent,
+  setPreferMidi,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
@@ -208,8 +209,9 @@ function beginPlayback(mediaController, tunebook, navigate, location, tune, targ
     }
 }
 
-function requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item) {
-    const target = resolvePlaybackForItem(tune, item, tunebook)
+function requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item, options) {
+    const opts = options || {}
+    const target = resolvePlaybackForItem(tune, item, tunebook, { preferMidi: !!opts.preferMidi })
     if (!target || target.type === 'external') return false
     const normalizedTarget = target.type === 'midi'
         ? { type: 'midi' }
@@ -278,7 +280,12 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
             tuneIds: [tuneId],
             followTune: false,
             repeatMode: 'off',
+            preferMidi: !!ctx.preferMidi,
         })
+    }
+
+    if (ctx.preferMidi && !queue.preferMidi) {
+        queue = setPreferMidi(queue, true)
     }
 
     if (playOnceAndStop) {
@@ -300,16 +307,27 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
         mediaController.preparePlaybackFromUserGesture()
     }
 
+    const preferMidi = !!queue.preferMidi
     if (isTuneListPath(pathname) && !queue.followTune) {
-        playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+        playQueueItem(mediaController, tunebook, tune, item, {
+          fromUserGesture: true,
+          preferMidi: preferMidi,
+          queue: queue,
+        })
         return true
     }
 
-    if (requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item)) {
+    if (requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item, {
+      preferMidi: preferMidi,
+    })) {
         return true
     }
 
-    playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+    playQueueItem(mediaController, tunebook, tune, item, {
+      fromUserGesture: true,
+      preferMidi: preferMidi,
+      queue: queue,
+    })
     return true
 }
 
@@ -443,8 +461,17 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
     }
 
     function tryResumeCurrent() {
+        const navOptsForPrefer = { queue: queue, preferMidi: !!queue.preferMidi }
         if (tuneId && navigate && shouldNavigateWithQueue(queue, navOpts)) {
-            navigateToQueueTune(navigate, tuneId, item, tunebook, tunes)
+            navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, null, navOptsForPrefer)
+        }
+        const preferMidi = !!queue.preferMidi
+        const onMidi = mediaController
+          && mediaController.isMidiPlaybackRoute
+          && mediaController.isMidiPlaybackRoute()
+        // When MIDI preference is on, start MIDI instead of resuming a media route.
+        if (preferMidi && !onMidi) {
+            return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
         }
         if (mediaController && mediaController.canResumePlayback && mediaController.canResumePlayback()) {
             if (mediaController.playFromUserGesture) {
@@ -476,10 +503,14 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
         }
         const nextItem = result.item
         const nextTune = result.tune
+        const preferOpts = { queue: result.queue, preferMidi: !!(result.queue && result.queue.preferMidi) }
         if (navigate && shouldNavigateWithQueue(result.queue, navOpts)) {
-            navigateToQueueTune(navigate, nextItem.tuneId, nextItem, tunebook, tunes)
+            navigateToQueueTune(navigate, nextItem.tuneId, nextItem, tunebook, tunes, result.playbackTarget, preferOpts)
         }
-        playQueueItem(mediaController, tunebook, nextTune, nextItem, { fromUserGesture: true })
+        playQueueItem(mediaController, tunebook, nextTune, nextItem, Object.assign({
+          fromUserGesture: true,
+          playbackTarget: result.playbackTarget,
+        }, preferOpts))
     }
 
     // Always settle on a fully-playable item (skips uncached library links when

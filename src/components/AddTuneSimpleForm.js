@@ -19,6 +19,7 @@ import { fetchArtistDiscography } from '../artistDiscographyClient'
 import { fetchAlbumDiscography } from '../albumDiscographyClient'
 import { formatBulkLine } from '../bulkListFormat'
 import SearchResultPickerModal from './SearchResultPickerModal'
+import AddCuratedCollectionsPanel from './AddCuratedCollectionsPanel'
 
 function uniqueStrings(values) {
   const seen = {}
@@ -328,31 +329,38 @@ export default function AddTuneSimpleForm(props) {
 
   return (
     <div className="add-tune-simple-form" data-testid="add-tune-simple-form">
-      <Form.Group className="mb-3 add-tune-field-block add-tune-title-block">
-        <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
-          <Form.Label className="mb-0">Title</Form.Label>
-          <CapitalizeTitleButton
-            value={values.title || ''}
-            onCapitalize={function(next) { setField('title', next) }}
-          />
-        </div>
-        <InputGroup>
-          <Form.Control
-            value={values.title || ''}
-            autoComplete="off"
-            data-testid="add-tune-title"
-            placeholder="Song title"
-            onChange={function(e) { setField('title', e.target.value) }}
-          />
-          <FieldVoiceFillButton
-            fieldKind="title"
-            token={props.token}
-            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-            onFill={function(text) { setField('title', text) }}
-            data-testid="add-tune-title-mic"
-          />
-        </InputGroup>
-      </Form.Group>
+      <div className="add-tune-title-row mb-3">
+        <Form.Group className="add-tune-field-block add-tune-title-block mb-0">
+          <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
+            <Form.Label className="mb-0">Title</Form.Label>
+            <CapitalizeTitleButton
+              value={values.title || ''}
+              onCapitalize={function(next) { setField('title', next) }}
+            />
+          </div>
+          <InputGroup>
+            <Form.Control
+              value={values.title || ''}
+              autoComplete="off"
+              data-testid="add-tune-title"
+              placeholder="Song title"
+              onChange={function(e) { setField('title', e.target.value) }}
+            />
+            <FieldVoiceFillButton
+              fieldKind="title"
+              token={props.token}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              onFill={function(text) { setField('title', text) }}
+              data-testid="add-tune-title-mic"
+            />
+          </InputGroup>
+        </Form.Group>
+        {props.addFromDropdown ? (
+          <div className="add-from-beside-title" data-testid="add-from-beside-title">
+            {props.addFromDropdown}
+          </div>
+        ) : null}
+      </div>
 
       <Row>
         <Col md={7}>
@@ -635,12 +643,6 @@ export default function AddTuneSimpleForm(props) {
             </div>
           ) : null}
 
-          {props.addFromToolbar ? (
-            <div className="mb-3 add-tune-field-block" data-testid="add-from-in-form">
-              {props.addFromToolbar}
-            </div>
-          ) : null}
-
           <div className="mb-3 add-tune-field-block">
             <AddTuneYouTubePicker
               selected={selectedMediaLink}
@@ -691,6 +693,17 @@ export default function AddTuneSimpleForm(props) {
               </ListGroup>
             )}
           </div>
+
+          {tunebook ? (
+            <div className="mt-3 add-curated-collections-section" data-testid="add-curated-collections">
+              <AddCuratedCollectionsPanel
+                tunebook={tunebook}
+                setCurrentTuneBook={props.setCurrentTuneBook}
+                currentTuneBook={props.currentTuneBook}
+                forceRefresh={props.forceRefresh}
+              />
+            </div>
+          ) : null}
         </Col>
       </Row>
 

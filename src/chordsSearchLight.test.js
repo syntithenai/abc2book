@@ -5,7 +5,7 @@ import * as textSearchIndexUtils from './textSearchIndexUtils'
 jest.mock('./localAbcCollectionSearch', function() {
   return {
     loadTextSearchIndexFromResource: jest.fn(function() {
-      return Promise.resolve({ tokens: {} })
+      return Promise.resolve({ tokens: { test: ['0-1-0'] }, lookups: { '0-1-0': 'Test Reel' } })
     }),
     searchLocalCollection: jest.fn(function() { return [] }),
     searchLocalCollectionChords: jest.fn(function() { return Promise.resolve([]) }),
@@ -14,6 +14,11 @@ jest.mock('./localAbcCollectionSearch', function() {
 
 describe('searchChordsLight', function() {
   beforeEach(function() {
+    localAbcCollectionSearch.loadTextSearchIndexFromResource.mockReset()
+    localAbcCollectionSearch.loadTextSearchIndexFromResource.mockResolvedValue({
+      tokens: { test: ['0-1-0'] },
+      lookups: { '0-1-0': 'Test Reel' },
+    })
     localAbcCollectionSearch.searchLocalCollection.mockReset()
     localAbcCollectionSearch.searchLocalCollection.mockReturnValue([])
     localAbcCollectionSearch.searchLocalCollectionChords.mockReset()
@@ -84,5 +89,20 @@ describe('searchChordsLight', function() {
       abcTools: {},
       renderChords: function() { return '' },
     })).rejects.toThrow(CHORDS_LIGHT_ERROR)
+  })
+
+  test('skipColdIndexLoad misses fast when index loader returns empty', async function() {
+    localAbcCollectionSearch.loadTextSearchIndexFromResource.mockResolvedValue({})
+    await expect(searchChordsLight({
+      title: 'Under African Skies',
+      artist: 'Paul Simon',
+      abcTools: {},
+      renderChords: function() { return '' },
+      skipColdIndexLoad: true,
+    })).rejects.toThrow(CHORDS_LIGHT_ERROR)
+    expect(localAbcCollectionSearch.loadTextSearchIndexFromResource).toHaveBeenCalledWith(
+      null,
+      expect.objectContaining({ skipColdLoad: true })
+    )
   })
 })

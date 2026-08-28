@@ -17,9 +17,29 @@ import { scanTuneMusicalIssueStatus } from './tuneListMusicalStatus'
 import { attachMediaCacheFlags, emptyTuneMediaLinkStatus, scanTuneMediaLinkStatus } from './tuneListMediaStatus'
 
 import { isCapacitorNative } from './platformUtils'
+import { sortTunesByBookPage } from './tuneBookPages'
 
 export const GROUP_BY_TUNE_STATUS = 'tuneStatus'
 export const GROUP_BY_TUNE_STATUS_DETAILED = 'tuneStatusDetailed'
+export const GROUP_BY_PAGE = 'page'
+/** Stored groupBy value when the user explicitly chose "No Grouping". */
+export const GROUP_BY_NONE = 'none'
+
+export function hasActiveBookFilter(book) {
+  return !!(book && String(book).trim())
+}
+
+/**
+ * Apply implicit page grouping when a book filter is active, unless the user
+ * chose another grouping or explicitly opted out with GROUP_BY_NONE.
+ */
+export function resolveEffectiveGroupBy(groupBy, currentTuneBook) {
+  const stored = groupBy != null ? String(groupBy).trim() : ''
+  if (stored === GROUP_BY_NONE) return ''
+  if (stored) return stored
+  if (hasActiveBookFilter(currentTuneBook)) return GROUP_BY_PAGE
+  return ''
+}
 
 export {
   LIST_PROTECTION_LIMIT,
@@ -85,6 +105,13 @@ export function sortTunesByName(tunes) {
   const list = Array.isArray(tunes) ? tunes.slice() : []
   list.sort(compareTuneNames)
   return list
+}
+
+export function sortFilteredTunes(tunes, groupBy, book) {
+  if (groupBy === GROUP_BY_PAGE) {
+    return sortTunesByBookPage(tunes, book)
+  }
+  return sortTunesByName(tunes)
 }
 
 export function filterSearchNoBooks(tune) {
@@ -365,6 +392,11 @@ export async function runTuneListFilterAsync(params) {
 
   if (shouldCancel && shouldCancel()) return null
 
+  const effectiveGroupBy = resolveEffectiveGroupBy(
+    groupBy,
+    filterContext && filterContext.currentTuneBook
+  )
+
   let filtered
   let listPage = null
   const monolithIds = tunes && typeof tunes === 'object' ? Object.keys(tunes) : []
@@ -383,7 +415,7 @@ export async function runTuneListFilterAsync(params) {
       if (tune && filterSearchFn(tune)) catalogTunes.push(tune)
       if (i > 0 && i % 50 === 0) await yieldToMain()
     }
-    filtered = sortTunesByName(catalogTunes)
+    filtered = sortFilteredTunes(catalogTunes, effectiveGroupBy, filterContext && filterContext.currentTuneBook)
     listPage = {
       total: filtered.length,
       offset: 0,
@@ -393,7 +425,11 @@ export async function runTuneListFilterAsync(params) {
   } else {
     const allIds = tunes ? Object.keys(tunes) : []
     const candidateIds = resolveCandidateTuneIds(filterContext, indexes, allIds)
-    filtered = sortTunesByName(filterTunes(tunes, filterSearchFn, candidateIds))
+    filtered = sortFilteredTunes(
+      filterTunes(tunes, filterSearchFn, candidateIds),
+      effectiveGroupBy,
+      filterContext && filterContext.currentTuneBook
+    )
     if (filtered.length > CATALOG_PAGE_SIZE) {
       listPage = {
         total: filtered.length,
@@ -422,7 +458,7 @@ export async function runTuneListFilterAsync(params) {
   })
   if (!statusResult) return null
 
-  const grouped = buildGroupedTunes(filtered, groupBy, tunebook, statusResult.tuneStatus)
+  const grouped = buildGroupedTunes(filtered, effectiveGroupBy, tunebook, statusResult.tuneStatus)
 
   return {
     filtered: filtered,
@@ -445,9 +481,18 @@ export function runTuneListFilterSync(params) {
     includeExtras,
   } = params || {}
 
+  const effectiveGroupBy = resolveEffectiveGroupBy(
+    groupBy,
+    filterContext && filterContext.currentTuneBook
+  )
+
   const allIds = tunes ? Object.keys(tunes) : []
   const candidateIds = resolveCandidateTuneIds(filterContext, indexes, allIds)
-  const filtered = sortTunesByName(filterTunes(tunes, filterSearchFn, candidateIds))
+  const filtered = sortFilteredTunes(
+    filterTunes(tunes, filterSearchFn, candidateIds),
+    effectiveGroupBy,
+    filterContext && filterContext.currentTuneBook
+  )
   const tagCollation = buildTagCollation(filtered)
   const extras = shouldScanTuneStatusExtras({
     groupBy: groupBy,
@@ -471,7 +516,7 @@ export function runTuneListFilterSync(params) {
       if (entry) tuneStatus[tune.id] = entry
     })
   }
-  const grouped = buildGroupedTunes(filtered, groupBy, tunebook, tuneStatus)
+  const grouped = buildGroupedTunes(filtered, effectiveGroupBy, tunebook, tuneStatus)
   return {
     filtered: filtered,
     grouped: grouped,

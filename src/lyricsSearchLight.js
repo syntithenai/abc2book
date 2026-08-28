@@ -3,6 +3,7 @@ import {
   searchLocalCollection,
   searchLocalCollectionLyrics,
 } from './localAbcCollectionSearch'
+import { searchLyricsLrclibForArtists } from './lyricsLrclibClient'
 import { searchLyricsOvhForArtists } from './lyricsOvhClient'
 import { artistsLooselyMatch, scoreTitleArtistMatch } from './notationMatchUtils'
 import { discoverRecordingArtists, isGenericArtist } from './recordingArtistsClient'
@@ -62,6 +63,23 @@ function finalizeLightResult(candidates) {
   })
 }
 
+async function remoteLyricsForArtists(title, artists, opts) {
+  const list = Array.isArray(artists) ? artists : []
+  let remote = await searchLyricsLrclibForArtists({
+    title: title,
+    artists: list,
+    signal: opts.signal,
+    onProgress: opts.onProgress,
+  })
+  if (remote.length) return remote
+  return searchLyricsOvhForArtists({
+    title: title,
+    artists: list,
+    signal: opts.signal,
+    onProgress: opts.onProgress,
+  })
+}
+
 export async function searchLyricsLight(options) {
   const opts = options || {}
   const title = String(opts.title || '').trim()
@@ -73,11 +91,16 @@ export async function searchLyricsLight(options) {
 
   emitProgress(opts.onProgress, 'Starting lyrics search...', 0, 'start')
 
-  const textSearchIndex = opts.textSearchIndex || await loadTextSearchIndexFromResource()
+  const textSearchIndex = opts.textSearchIndex || await loadTextSearchIndexFromResource(null, {
+    skipColdLoad: !!opts.skipColdIndexLoad,
+    timeoutMs: typeof opts.indexTimeoutMs === 'number' ? opts.indexTimeoutMs : 8000,
+  })
   emitProgress(opts.onProgress, 'Searching local collection...', 0.05, 'local')
 
-  const localSearchRows = opts.abcTools ? searchLocalCollection(title, textSearchIndex) : []
-  const localResults = opts.abcTools
+  const localSearchRows = (textSearchIndex && textSearchIndex.tokens)
+    ? (opts.abcTools ? searchLocalCollection(title, textSearchIndex) : [])
+    : []
+  const localResults = (textSearchIndex && textSearchIndex.tokens && opts.abcTools)
     ? await searchLocalCollectionLyrics({
       title: title,
       abcTools: opts.abcTools,
@@ -98,14 +121,8 @@ export async function searchLyricsLight(options) {
   let remoteCandidates = []
 
   if (!isGenericArtist(artist)) {
-    emitProgress(opts.onProgress, 'Checking lyrics.ovh...', 0.15, 'lyrics.ovh')
-    const direct = await searchLyricsOvhForArtists({
-      title: title,
-      artists: [artist],
-      signal: opts.signal,
-      onProgress: opts.onProgress,
-    })
-    remoteCandidates = remoteCandidates.concat(direct)
+    emitProgress(opts.onProgress, 'Checking lyric APIs...', 0.15, 'apis')
+    remoteCandidates = remoteCandidates.concat(await remoteLyricsForArtists(title, [artist], opts))
   }
 
   if (remoteCandidates.length === 0) {
@@ -115,12 +132,7 @@ export async function searchLyricsLight(options) {
       artist: artist,
       signal: opts.signal,
     })
-    remoteCandidates = remoteCandidates.concat(await searchLyricsOvhForArtists({
-      title: title,
-      artists: artists,
-      signal: opts.signal,
-      onProgress: opts.onProgress,
-    }))
+    remoteCandidates = remoteCandidates.concat(await remoteLyricsForArtists(title, artists, opts))
   }
 
   let candidates = sortLyricsCandidates(

@@ -11,9 +11,13 @@ export async function fetchLyricsOvh(artist, title, signal) {
   const url = LYRICS_OVH_BASE + '/' + encodeURIComponent(artistText) + '/' + encodeURIComponent(titleText)
   let response
   try {
-    response = await axios.get(url, { signal: signal, validateStatus: function(status) {
-      return status === 200 || status === 404
-    } })
+    response = await axios.get(url, {
+      signal: signal,
+      timeout: 8000,
+      validateStatus: function(status) {
+        return status === 200 || status === 404
+      },
+    })
   } catch (e) {
     return null
   }

@@ -71,6 +71,30 @@ export function createEmptyEnhanceSelection() {
   return selection
 }
 
+/**
+ * When Enhance must not run (offline / login / credit). Returns null if OK.
+ */
+export function enhanceAccessBlock(context) {
+  if (!context) return null
+  const warning = context.loginWarning || null
+  if (context.needsNetwork) {
+    return {
+      kind: 'network',
+      message: (warning && warning.message) || 'Connect to the internet to use Enhance.',
+      showLoginButton: false,
+    }
+  }
+  if (context.needsLogin) {
+    return {
+      kind: 'login',
+      message: (warning && warning.message)
+        || 'Log in to use Enhance. Shared resolver lookups need a Google account.',
+      showLoginButton: warning ? warning.showLoginButton !== false : true,
+    }
+  }
+  return null
+}
+
 export function enhanceGroupOptionIds(groupId) {
   const group = ENHANCE_OPTION_GROUPS.find(function(entry) {
     return entry.id === groupId
@@ -80,6 +104,7 @@ export function enhanceGroupOptionIds(groupId) {
 
 export function isEnhanceOptionAvailable(optionId, context) {
   const ctx = context || {}
+  if (enhanceAccessBlock(ctx)) return false
   const features = ctx.features || {}
   const resolverAvailable = !!ctx.resolverAvailable
 
@@ -111,6 +136,8 @@ export function isEnhanceOptionAvailable(optionId, context) {
 }
 
 export function enhanceOptionUnavailableReason(optionId, context) {
+  const block = enhanceAccessBlock(context)
+  if (block) return block.message
   if (isEnhanceOptionAvailable(optionId, context)) return ''
   if (isAudioEnhanceOption(optionId) && context && context.hasScannableLinkedMedia === false) {
     return 'No linked media to analyze'

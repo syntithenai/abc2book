@@ -1,0 +1,103 @@
+{
+  "id": "06-twentieth-century",
+  "title": "06 Twentieth Century",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "10-music-periods/06-twentieth-century.md",
+  "sections": [
+    {
+      "id": "20th-century-and-beyond",
+      "title": "20th Century and Beyond",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** music-periods | **Difficulty:** 4/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "20th century shattered and rebuilt musical language — jazz, serialism, minimalism, recording technology, global fusion."
+        }
+      ]
+    },
+    {
+      "id": "movements",
+      "title": "Movements",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Impressionism (Debussy, Ravel). Expressionism (Schoenberg, Webern). Neoclassicism (Stravinsky). Minimalism (Reich, Glass)."
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Technology",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Phonograph (1877), radio, LP, cassette, CD, streaming — each transformed how music spreads. Alan Lomax to Spotify."
+        }
+      ]
+    },
+    {
+      "id": "trad-revival",
+      "title": "Trad revival",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "1960s–70s folk revivals globally. Seán Ó Riada, Bothy Band. Contemporary trad continues evolving with production and fusion."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-schoenberg-pioneered",
+      "title": "Q1. Schoenberg pioneered:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Twelve-tone serialism\n- B) Gregorian chant\n- C) Baroque fugue only\n- D) Tin whistle making\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-recording-technology-transformed-music-distribution",
+      "title": "Q2. Recording technology transformed music distribution.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Schoenberg pioneered:\n\n- A) Twelve-tone serialism\n- B) Gregorian chant\n- C) Baroque fugue only\n- D) Tin whistle making\n\n**Answer:** A\n\n### Q2. Recording technology transformed music distribution.\n\n**Answer:** True"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "07-accordion",
+  "title": "07 Accordion",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/07-accordion.md",
+  "sections": [
+    {
+      "id": "accordion-and-concertina",
+      "title": "Accordion and Concertina",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Free-reed aerophones: air vibrates metal reeds through bellows pressure. Accordion has keyboard or button right hand + bass buttons left. Concertina is smaller, hexagonal, fully buttoned."
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Types",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Piano accordion (keyboard RH). Button accordion — chromatic or diatonic systems. Irish button accordion often B/C or C♯/D tuned. Anglo concertina: push/pull different notes per button."
+        }
+      ]
+    },
+    {
+      "id": "in-trad",
+      "title": "In trad",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Céilí band staple — melody and chord accompaniment. Joe Burke, Sharon Shannon, Máirtín O'Connor represent Irish accordion mastery. Box and button are session synonyms in Ireland."
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "title": "Mechanism",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bellows direction changes air flow; valves and reeds produce pitch. Musette tuning (slightly detuned reeds) gives characteristic shimmer in continental styles."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-accordion-sound-comes-from",
+      "title": "Q1. Accordion sound comes from:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Free reeds vibrated by bellows air\n- B) Bowed strings\n- C) Hammered strings\n- D) Lip vibration only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-anglo-concertina-has-different-notes-on-push-vs-pull",
+      "title": "Q2. Anglo concertina has different notes on push vs pull.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    },
+    {
+      "id": "q3-common-irish-accordion-tuning-pairs-include",
+      "title": "Q3. Common Irish accordion tuning pairs include:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) B/C and C♯/D\n- B) E-A-D-G guitar tuning\n- C) G-D-A-E violin tuning\n- D) No standard tunings\n\n**Answer:** A"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Accordion sound comes from:\n\n- A) Free reeds vibrated by bellows air\n- B) Bowed strings\n- C) Hammered strings\n- D) Lip vibration only\n\n**Answer:** A\n\n### Q2. Anglo concertina has different notes on push vs pull.\n\n**Answer:** True\n\n### Q3. Common Irish accordion tuning pairs include:\n\n- A) B/C and C♯/D\n- B) E-A-D-G guitar tuning\n- C) G-D-A-E violin tuning\n- D) No standard tunings\n\n**Answer:** A"
+}

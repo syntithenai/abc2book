@@ -8,7 +8,14 @@ export default function PasteImportModal(props) {
   const [files, setFiles] = useState([]);
   const [error, setError] = useState('');
   const disabled = !!props.disabled;
+  const hideTrigger = !!props.hideTrigger;
   const canImport = text.trim().length > 0 || files.length > 0;
+
+  useEffect(function() {
+    if (!props.openSignal) return undefined;
+    setShow(true);
+    return undefined;
+  }, [props.openSignal]);
 
   function handleClose() {
     setShow(false);
@@ -68,9 +75,11 @@ export default function PasteImportModal(props) {
 
   return (
     <>
-      <Button variant="outline-primary" disabled={disabled} onClick={function() { setShow(true); }}>
-        {props.label || 'Paste'}
-      </Button>
+      {!hideTrigger ? (
+        <Button variant="outline-primary" disabled={disabled} onClick={function() { setShow(true); }}>
+          {props.label || 'Paste'}
+        </Button>
+      ) : null}
       <Modal show={show} onHide={handleClose} fullscreen backdrop="static">
         <Modal.Header closeButton>
           <Modal.Title>Paste import</Modal.Title>

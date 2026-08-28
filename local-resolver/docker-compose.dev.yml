@@ -95,7 +95,19 @@ services:
       - ./music_collection_registry.json:/app/music_collection_registry.json
       - ./sheet_image_features.py:/app/sheet_image_features.py
       - ./sheet_image_transcribe.py:/app/sheet_image_transcribe.py
+      - ./sheet_image_enhanced_omr.py:/app/sheet_image_enhanced_omr.py
+      - ./sheet_image_structure.py:/app/sheet_image_structure.py
+      - ./sheet_image_format.py:/app/sheet_image_format.py
       - ./sheet_image_metadata.py:/app/sheet_image_metadata.py
+      - ./sheet_image_melody.py:/app/sheet_image_melody.py
+      - ./sheet_image_omr.py:/app/sheet_image_omr.py
+      - ./sheet_image_ocr.py:/app/sheet_image_ocr.py
+      - ./sheet_image_staff_detect.py:/app/sheet_image_staff_detect.py
+      - ./sheet_image_preprocess.py:/app/sheet_image_preprocess.py
+      - ./sheet_image_segment.py:/app/sheet_image_segment.py
+      - ./sheet_image_split.py:/app/sheet_image_split.py
+      - ./sheet_image_vlm.py:/app/sheet_image_vlm.py
+      - ./chord_sheet_utils.py:/app/chord_sheet_utils.py
       - ./provider_cloud.py:/app/provider_cloud.py
       - ./midi_resources.py:/app/midi_resources.py
       - ./midi_fetch.py:/app/midi_fetch.py
@@ -117,7 +129,8 @@ services:
       - ./notation_title_variants.py:/app/notation_title_variants.py
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
-      - ../:/app/www:ro
+      # Mount repo outside /app so uvicorn --reload does not scan node_modules.
+      - ../:/static/www:ro
       - snapcast_run:/run/snapcast
       - ./snapcast_config.py:/app/snapcast_config.py
       - ./snapcast_playback.py:/app/snapcast_playback.py
@@ -134,7 +147,8 @@ services:
       REQUIRE_AUTH: "true"
       RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:-peppertrees.syntithenai.com}
       CAST_PUBLIC_URL: ${CAST_PUBLIC_URL:-https://peppertrees.syntithenai.com}
-      STATIC_SITE_DIR: /app/www
+      STATIC_SITE_DIR: /static/www
+      ABC2BOOK_ROOT: /static/www
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources
       SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
@@ -150,6 +164,10 @@ services:
       - --reload
       - --reload-dir
       - /app
+      - --reload-exclude
+      - '**/__pycache__/**'
+      - --reload-exclude
+      - '**/*.log'
 
   score-convert:
     build:

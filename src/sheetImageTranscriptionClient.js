@@ -6,6 +6,11 @@ function emptySheetImageDetectionMessage(body) {
   const warnings = Array.isArray(body && body.warnings) ? body.warnings : [];
   const hasOmrFailed = warnings.indexOf('omr_failed') >= 0;
   const hasStaff = !!(body && body.staffDetection && body.staffDetection.hasStaff);
+  const format = String((body && (body.sheetFormat || body.pageType)) || '').toLowerCase();
+  const textOnly = format === 'chord_chart' || format === 'lyrics_only';
+  if (textOnly) {
+    return 'No chords or lyrics were detected in the image. Try a clearer photo of a chord chart or lyric sheet.';
+  }
   if (hasOmrFailed || hasStaff) {
     return 'No chords, lyrics, or melody were detected. Staff notation was found but melody recognition failed. Try a clearer photo, or import MusicXML/ABC for notation scores.';
   }
@@ -33,6 +38,19 @@ export function normalizeSheetImageTranscription(body) {
     title: typeof body.title === 'string' ? body.title.trim() : '',
     artist: typeof body.artist === 'string' ? body.artist.trim() : '',
     pageType: typeof body.pageType === 'string' ? body.pageType : 'unknown',
+    sheetFormat: typeof body.sheetFormat === 'string'
+      ? body.sheetFormat
+      : (typeof body.pageType === 'string' ? body.pageType : 'unknown'),
+    formatConfidence: Number(body.formatConfidence) || 0,
+    meta: body.meta && typeof body.meta === 'object' ? {
+      title: typeof body.meta.title === 'string' ? body.meta.title : '',
+      artist: typeof body.meta.artist === 'string' ? body.meta.artist : '',
+      composer: typeof body.meta.composer === 'string' ? body.meta.composer : '',
+      key: typeof body.meta.key === 'string' ? body.meta.key : '',
+      capo: body.meta.capo != null ? body.meta.capo : null,
+      sourceFormat: typeof body.meta.sourceFormat === 'string' ? body.meta.sourceFormat : '',
+      confidence: Number(body.meta.confidence) || 0,
+    } : null,
     chordSheet: {
       format: chordSheet.format || 'chords-over-words',
       text: chordText,
@@ -40,6 +58,7 @@ export function normalizeSheetImageTranscription(body) {
       sections: Array.isArray(chordSheet.sections) ? chordSheet.sections : [],
       confidence: Number(chordSheet.confidence) || 0,
       lineDetails: Array.isArray(chordSheet.lineDetails) ? chordSheet.lineDetails : [],
+      stanzas: Array.isArray(chordSheet.stanzas) ? chordSheet.stanzas : undefined,
     },
     melody: melodyAbc ? {
       abc: melodyAbc,
@@ -178,6 +197,10 @@ export async function transcribeSheetImageFile(options) {
   formData.append('file', file, file.name || 'sheet.png');
   if (Array.isArray(options.titleHints) && options.titleHints.length > 0) {
     formData.append('titleHints', JSON.stringify(options.titleHints));
+  }
+  const composerHint = String(options.composerHint || '').trim();
+  if (composerHint) {
+    formData.append('composerHint', composerHint);
   }
 
   const response = await fetchViaMediaProxy('/transcribe-sheet-image', accessToken, {

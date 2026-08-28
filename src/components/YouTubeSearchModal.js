@@ -55,6 +55,12 @@ function YouTubeSearchModal(props) {
     setFilter(props.value)
   }, [props.value])
 
+  useEffect(function() {
+    if (!props.openSignal) return undefined
+    setShow(true)
+    return undefined
+  }, [props.openSignal])
+
   function runSearch(query) {
     const trimmed = String(query || '').trim()
     if (!trimmed) {
@@ -134,13 +140,15 @@ function YouTubeSearchModal(props) {
 
   return (
     <>
-      {typeof props.renderTrigger === 'function'
-        ? props.renderTrigger({ onClick: handleShow })
-        : (
-          <Button style={{ color: 'black' }} variant="danger" disabled={props.disabled} onClick={handleShow}>
-            {props.triggerElement}
-          </Button>
-        )}
+      {props.hideTrigger
+        ? null
+        : (typeof props.renderTrigger === 'function'
+          ? props.renderTrigger({ onClick: handleShow })
+          : (
+            <Button style={{ color: 'black' }} variant="danger" disabled={props.disabled} onClick={handleShow}>
+              {props.triggerElement}
+            </Button>
+          ))}
 
       <Modal show={show} onHide={handleClose} fullscreen className="media-search-modal">
         <Modal.Header closeButton className="media-search-modal-header">

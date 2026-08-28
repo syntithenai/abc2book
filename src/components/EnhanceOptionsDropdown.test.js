@@ -140,6 +140,33 @@ describe('EnhanceOptionsMenu', function() {
     expect(container.querySelector('#enhance-option-background').disabled).toBe(true)
   })
 
+  test('needsLogin shows warning, login button, and disables options', function() {
+    const onLogin = jest.fn()
+    act(function() {
+      root.render(React.createElement(EnhanceOptionsMenu, {
+        selection: createEmptyEnhanceSelection(),
+        onToggleOption: jest.fn(),
+        onSetGroup: jest.fn(),
+        onStart: jest.fn(),
+        onLogin: onLogin,
+        availabilityContext: {
+          resolverAvailable: true,
+          features: { practiceAnalysis: true, whisper: true },
+          needsLogin: true,
+          loginWarning: { message: 'Login to continue', showLoginButton: true },
+        },
+      }))
+    })
+    expect(container.querySelector('[data-testid="enhance-access-warning"]').textContent)
+      .toContain('Login to continue')
+    expect(container.querySelector('#enhance-option-lookupLyrics').disabled).toBe(true)
+    expect(container.querySelector('[data-testid="enhance-start"]').disabled).toBe(true)
+    act(function() {
+      container.querySelector('[data-testid="enhance-login-button"]').click()
+    })
+    expect(onLogin).toHaveBeenCalled()
+  })
+
   test('group All with availability context only requests available options', function() {
     const onSetGroup = jest.fn()
     act(function() {

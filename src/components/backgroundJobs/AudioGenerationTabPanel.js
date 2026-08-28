@@ -65,7 +65,7 @@ export default function AudioGenerationTabPanel() {
                 </div>
                 <div className="background-jobs-queue-item-meta">
                   <span className={'background-jobs-queue-badge background-jobs-queue-badge-' + statusVariant(job.status)}>
-                    {job.status}
+                    {job.stage === 'preparing' ? 'preparing' : job.status}
                   </span>
                   {active && job.progress > 0 ? (
                     <span className="background-jobs-queue-badge background-jobs-queue-badge-info">

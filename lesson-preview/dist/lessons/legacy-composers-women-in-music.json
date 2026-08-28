@@ -1,0 +1,178 @@
+{
+  "id": "legacy-composers-women-in-music",
+  "title": "Women in Music History",
+  "track": "history",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "history",
+    "legacy"
+  ],
+  "path": "06-history/10-women-in-music.md",
+  "sections": [
+    {
+      "id": "women-in-music-history-composers-and-tradition-bearers",
+      "title": "Women in Music History: Composers and Tradition Bearers",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** history | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Women composed, performed, collected, and carried traditions at every level — often underdocumented in standard histories."
+        }
+      ]
+    },
+    {
+      "id": "composers",
+      "title": "Composers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Hildegard of Bingen** (1098–1179): visionary monophonic works and writings. **Clara Schumann** (1819–1896): leading pianist and composer of songs and chamber music. **Fanny Mendelssohn** (1805–1847): lieder published under brother Felix's name. **Ethel Smyth** (1858–1944): operas and suffragette anthem."
+        }
+      ]
+    },
+    {
+      "id": "tradition-bearers",
+      "title": "Tradition bearers",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Women singers and dancers preserved repertoire in domestic settings while public stages restricted access. Regional archives document women tune-carriers alongside male composers like O'Carolan."
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "title": "Today",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Festivals highlight women pipers, fiddlers, accordionists always present in sessions but rarely featured on album covers. Diverse sources enrich repertoire and ensemble culture."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Clara Schumann known as:\n\n- A) Pianist and composer\n- B) Baroque trumpet maker\n- C) Disc jockey\n- D) Film projectionist\n\n**Answer:** A\n\n### Q2. Women historically carried oral-tradition music in underdocumented roles.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Clara Schumann known as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pianist and composer",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Pianist and composer"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Women historically carried oral-tradition music in underdocumented roles.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-composers-women-in-music-quiz",
+    "title": "Women in Music History quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Clara Schumann known as:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Pianist and composer",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Pianist and composer"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Women historically carried oral-tradition music in underdocumented roles.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

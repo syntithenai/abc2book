@@ -1,6 +1,9 @@
 import {
   GIG_NOTATION_FIT_SAFETY_PX,
   GIG_NOTATION_FRAME_PAD_X,
+  GIG_NOTATION_FRAME_PAD_TOP,
+  GIG_NOTATION_FRAME_PAD_BOTTOM,
+  GIG_NOTATION_VERTICAL_FIT_PAD_BOTTOM,
   NOTATION_FIT_HORIZONTAL,
   NOTATION_FIT_VERTICAL,
   applyCompactScreenNotationMeta,
@@ -151,7 +154,7 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
 
       expect(paper.availW).toBe(420 - 8);
-      expect(paper.availH).toBe(700 - 100 - 8);
+      expect(paper.availH).toBe(700 - 100);
     });
 
     it('stops above the playlist transport bar when it is visible', function() {
@@ -182,7 +185,7 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
       document.body.removeChild(bar);
 
-      expect(paper.availH).toBe(620 - 100 - 8);
+      expect(paper.availH).toBe(620 - 100);
     });
 
     it('stops above the books/tags footer in single view', function() {
@@ -220,7 +223,7 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
       document.body.removeChild(root);
 
-      expect(paper.availH).toBe(640 - 100 - 8);
+      expect(paper.availH).toBe(640 - 100);
     });
 
     it('reserves footer height when the footer is below the viewport', function() {
@@ -258,7 +261,7 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
       document.body.removeChild(root);
 
-      expect(paper.availH).toBe(700 - 100 - 80 - 8);
+      expect(paper.availH).toBe(700 - 100 - 80);
     });
 
     it('ignores an in-viewport footer that is still too close during layout', function() {
@@ -296,7 +299,7 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
       document.body.removeChild(root);
 
-      expect(paper.availH).toBe(700 - 100 - 8);
+      expect(paper.availH).toBe(700 - 100);
     });
   });
 
@@ -367,10 +370,10 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
 
       expect(fit).not.toBeNull();
-      const availH = 700 - 100 - 8;
+      const availH = 700 - 100;
       const targetH = availH - GIG_NOTATION_FIT_SAFETY_PX;
       const frameW = 800 + (GIG_NOTATION_FRAME_PAD_X * 2);
-      const frameH = 200;
+      const frameH = 200 + GIG_NOTATION_FRAME_PAD_TOP + GIG_NOTATION_VERTICAL_FIT_PAD_BOTTOM;
       expect(fit.height).toBeCloseTo(targetH, 5);
       expect(fit.width).toBeCloseTo(frameW * (targetH / frameH), 5);
       expect(fit.overflowX).toBe(true);
@@ -391,7 +394,7 @@ describe('gigNotationFit', function() {
 
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
 
-      const availH = 700 - 100 - 8;
+      const availH = 700 - 100;
       const targetH = availH - GIG_NOTATION_FIT_SAFETY_PX;
       expect(fit.height).toBeCloseTo(targetH, 5);
       expect(fit.fillsHeight).toBe(true);
@@ -430,7 +433,7 @@ describe('gigNotationFit', function() {
       const viewBox = svg.getAttribute('viewBox').split(' ').map(Number);
       expect(viewBox[0]).toBe(-60 - GIG_NOTATION_FRAME_PAD_X);
       expect(viewBox[2]).toBe(520 + (GIG_NOTATION_FRAME_PAD_X * 2));
-      expect(svg.getAttribute('preserveAspectRatio')).toBe('xMidYMid meet');
+      expect(svg.getAttribute('preserveAspectRatio')).toBe('xMidYMin meet');
     });
   });
 

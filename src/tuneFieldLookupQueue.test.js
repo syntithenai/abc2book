@@ -191,7 +191,7 @@ describe('tuneFieldLookupQueue', function() {
     })
   })
 
-  test('enqueueLookup dedupes active jobs per target and kind', function() {
+  test('enqueueLookup replaces in-flight jobs per target and kind', function() {
     const first = tuneFieldLookupQueue.enqueueLookup({
       tuneId: 't1',
       kind: 'lyrics',
@@ -204,7 +204,9 @@ describe('tuneFieldLookupQueue', function() {
       title: 'Song',
       accessToken: 'token',
     })
-    expect(first).toBe(second)
+    expect(second).not.toBe(first)
+    expect(tuneFieldLookupQueue.findJobById(first).status).toBe('cancelled')
+    expect(tuneFieldLookupQueue.findJobById(second).status).toBe('pending')
     expect(tuneFieldLookupQueue.getState().jobs.filter(function(job) {
       return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
     }).length).toBe(1)
@@ -602,6 +604,53 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.status).toBe('done')
     expect(saveTune).toHaveBeenCalled()
     expect(commitChordSearchResultToTune).toHaveBeenCalled()
+  })
+
+  test('suppressReview finishes lyrics jobs without awaiting review', async function() {
+    const tune = { id: 't1', name: 'Song' }
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: jest.fn(),
+    })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: { suppressReview: true },
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(job.status).toBe('done')
+    expect(job.candidates).toEqual([])
+  })
+
+  test('preferChords jobs are not blocked by a separate pending chords job', async function() {
+    searchChords.mockClear()
+    searchLyrics.mockClear()
+    const tune = { id: 't1', name: 'Song' }
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'chords',
+      title: 'Song',
+      accessToken: 'token',
+      options: { suppressReview: true },
+    })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: { preferChords: true, suppressReview: true },
+    })
+    tuneFieldLookupQueue.start()
+    await waitForJob(function(item) {
+      return item.kind === 'lyrics'
+        && (item.status === 'done' || item.status === 'error')
+    })
+    expect(searchChords).toHaveBeenCalled()
   })
 
   test('empty composer auto-applies single result without awaiting', async function() {

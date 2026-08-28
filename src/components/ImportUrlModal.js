@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Alert, Button, Form, Modal } from 'react-bootstrap';
 import {
   candidatesFromImportSource,
@@ -14,6 +14,13 @@ export default function ImportUrlModal(props) {
   const [loadedSource, setLoadedSource] = useState(null);
   const [tuneCount, setTuneCount] = useState(0);
   const disabled = !!props.disabled;
+  const hideTrigger = !!props.hideTrigger;
+
+  useEffect(function() {
+    if (!props.openSignal) return undefined;
+    setShow(true);
+    return undefined;
+  }, [props.openSignal]);
 
   function resetLoaded() {
     setLoadedSource(null);
@@ -95,9 +102,11 @@ export default function ImportUrlModal(props) {
 
   return (
     <>
-      <Button variant="outline-primary" disabled={disabled} onClick={function() { setShow(true); }}>
-        {props.label || 'URL'}
-      </Button>
+      {!hideTrigger ? (
+        <Button variant="outline-primary" disabled={disabled} onClick={function() { setShow(true); }}>
+          {props.label || 'URL'}
+        </Button>
+      ) : null}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Import from URL</Modal.Title>

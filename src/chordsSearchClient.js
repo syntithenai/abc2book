@@ -3,7 +3,7 @@ import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructu
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { buildChordSheetAlignmentFromLines, sheetLinesToEmbeddedLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
 import { linesHaveChordProInlineChords, hasChordLines } from './chordSheetUtils'
-import { searchChordsLight } from './chordsSearchLight'
+import { searchChordsLight, CHORDS_LIGHT_ERROR } from './chordsSearchLight'
 import {
   fetchPageHtmlViaExtension,
   isUltimateGuitarPageUrl,
@@ -11,6 +11,9 @@ import {
 } from './youtubeExtensionClient'
 
 const CHORDS_ACCEPT_HEADER = 'application/x-ndjson, application/json'
+/** Cap UG/resolver scrapes so Search cannot jam forever; keep generous so
+ * slow Ultimate Guitar pages can still return chords+words. */
+const CHORDS_RESOLVER_BUDGET_MS = 90000
 
 function hostFromUrl(url) {
   if (!url) return ''
@@ -222,7 +225,7 @@ async function parseChordsSearchResponse(response) {
   return normalizeChordsSearch(body)
 }
 
-async function parseStreamingChordsSearchResponse(response, onProgress) {
+async function parseStreamingChordsSearchResponse(response, onProgress, signal) {
   if (!response.ok) {
     return parseChordsSearchResponse(response)
   }
@@ -242,7 +245,16 @@ async function parseStreamingChordsSearchResponse(response, onProgress) {
     if (parsed) result = parsed
   }
 
+  function throwIfAborted() {
+    if (!signal || !signal.aborted) return
+    try { reader.cancel() } catch (e) { /* ignore */ }
+    const err = new Error('Aborted')
+    err.name = 'AbortError'
+    throw err
+  }
+
   while (true) {
+    throwIfAborted()
     const chunk = await reader.read()
     if (chunk.done) break
     buffer += decoder.decode(chunk.value, { stream: true })
@@ -263,10 +275,10 @@ async function parseStreamingChordsSearchResponse(response, onProgress) {
   return result
 }
 
-async function parseSearchResponse(response, onProgress) {
+async function parseSearchResponse(response, onProgress, signal) {
   const contentType = response.headers.get('content-type') || ''
   if (contentType.indexOf('application/x-ndjson') >= 0) {
-    return parseStreamingChordsSearchResponse(response, onProgress)
+    return parseStreamingChordsSearchResponse(response, onProgress, signal)
   }
   return parseChordsSearchResponse(response)
 }
@@ -280,6 +292,7 @@ export async function searchChordsViaResolver(options) {
     signal,
     onProgress,
     pageHtml,
+    preferRemoteChords,
   } = options
 
   if (!url && !(title && String(title).trim())) {
@@ -287,7 +300,13 @@ export async function searchChordsViaResolver(options) {
   }
 
   if (typeof onProgress === 'function') {
-    onProgress('Starting chords search...', 0, 'start')
+    onProgress(
+      preferRemoteChords
+        ? 'Searching Ultimate Guitar for chords and lyrics...'
+        : 'Starting chords search...',
+      0,
+      'start'
+    )
   }
 
   let resolvedPageHtml = pageHtml || ''
@@ -336,7 +355,64 @@ export async function searchChordsViaResolver(options) {
     },
   })
 
-  return parseSearchResponse(response, onProgress)
+  return parseSearchResponse(response, onProgress, signal)
+}
+
+/**
+ * Abort hung UG scrapes and convert the timeout into a soft miss so
+ * the lyrics editor can fall back to lrclib (AbortError would cancel the job
+ * without triggering that fallback).
+ */
+async function runChordsSearchWithBudget(opts, budgetMs, runner) {
+  const parentSignal = opts.signal
+  const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
+  let timer = null
+  let timedOut = false
+  const run = typeof runner === 'function' ? runner : searchChordsViaResolver
+
+  function onParentAbort() {
+    if (controller) {
+      try { controller.abort() } catch (e) { /* ignore */ }
+    }
+  }
+
+  if (controller && parentSignal) {
+    if (parentSignal.aborted) {
+      const err = new Error('Aborted')
+      err.name = 'AbortError'
+      throw err
+    }
+    parentSignal.addEventListener('abort', onParentAbort)
+  }
+  if (controller) {
+    timer = setTimeout(function() {
+      timedOut = true
+      if (typeof opts.onProgress === 'function') {
+        opts.onProgress('Ultimate Guitar timed out — trying lyrics…', 0.35, 'timeout')
+      }
+      try { controller.abort() } catch (e) { /* ignore */ }
+    }, budgetMs)
+  }
+
+  try {
+    return await run(Object.assign({}, opts, {
+      signal: controller ? controller.signal : parentSignal,
+    }))
+  } catch (err) {
+    if (timedOut) {
+      throw new Error(CHORDS_LIGHT_ERROR)
+    }
+    throw err
+  } finally {
+    if (timer) clearTimeout(timer)
+    if (controller && parentSignal) {
+      parentSignal.removeEventListener('abort', onParentAbort)
+    }
+  }
+}
+
+function searchChordsViaResolverWithBudget(opts, budgetMs) {
+  return runChordsSearchWithBudget(opts, budgetMs, searchChordsViaResolver)
 }
 
 function shouldUseResolver(options) {
@@ -357,15 +433,87 @@ export async function searchChords(options) {
     return searchChordsViaResolver(opts)
   }
 
-  const useResolver = shouldUseResolver(opts)
+  // Lyrics-editor prefer-chords: Ultimate Guitar (resolver) first. Do not burn time
+  // on the local ABC index before UG — local is a last resort for folk/trad only.
+  const preferRemoteChords = !!(opts.preferRemoteChords || opts.skipLocalChords)
 
-  if (useResolver) {
+  // Prefer TuneBook Helper for UG when connected — hosted cloud IPs are often
+  // blocked; the extension fetches pages from the user's browser session.
+  if (preferRemoteChords && !opts.forceResolverOnly) {
     try {
-      return await searchChordsViaResolver(opts)
-    } catch (err) {
-      if (!isMediaResolverInfrastructureError(err)) throw err
+      if (await isYoutubeExtensionConnected()) {
+        const { searchChordsViaUltimateGuitarExtension } = await import(
+          './ultimateGuitarExtensionSearch'
+        )
+        const budgetMs = typeof opts.resolverTimeoutMs === 'number'
+          ? opts.resolverTimeoutMs
+          : CHORDS_RESOLVER_BUDGET_MS
+        if (budgetMs > 0) {
+          return await runChordsSearchWithBudget(
+            opts,
+            budgetMs,
+            searchChordsViaUltimateGuitarExtension
+          )
+        }
+        return await searchChordsViaUltimateGuitarExtension(opts)
+      }
+    } catch (extErr) {
+      if (extErr && extErr.name === 'AbortError') throw extErr
+      if (typeof opts.onProgress === 'function') {
+        const message = extErr && extErr.message
+          ? String(extErr.message)
+          : 'Helper UG fetch failed'
+        opts.onProgress(
+          'Helper UG fetch missed (' + message + '); trying resolver…',
+          0.12,
+          'extension'
+        )
+      }
+      // Fall through to resolver scrape (works better on local resolvers).
     }
   }
 
-  return searchChordsLight(opts)
+  const useResolver = preferRemoteChords
+    ? (opts.forceResolver || shouldUseResolver(opts) || isMediaProxyConfigured())
+    : shouldUseResolver(opts)
+
+  if (useResolver) {
+    try {
+      const budgetMs = preferRemoteChords
+        ? (typeof opts.resolverTimeoutMs === 'number'
+          ? opts.resolverTimeoutMs
+          : CHORDS_RESOLVER_BUDGET_MS)
+        : 0
+      const resolverOpts = Object.assign({}, opts, {
+        forceResolver: preferRemoteChords || opts.forceResolver,
+        preferRemoteChords: preferRemoteChords,
+      })
+      if (budgetMs > 0) {
+        return await searchChordsViaResolverWithBudget(resolverOpts, budgetMs)
+      }
+      return await searchChordsViaResolver(resolverOpts)
+    } catch (err) {
+      if (!isMediaResolverInfrastructureError(err) && !preferRemoteChords) throw err
+      if (preferRemoteChords && !opts.allowLocalChordsFallback) {
+        // UG/resolver miss or budget timeout: let lyrics-editor fall back.
+        throw err
+      }
+    }
+  }
+
+  if (preferRemoteChords && !opts.allowLocalChordsFallback) {
+    throw new Error(CHORDS_LIGHT_ERROR)
+  }
+
+  return searchChordsLight({
+    title: opts.title,
+    artist: opts.artist,
+    signal: opts.signal,
+    onProgress: opts.onProgress,
+    abcTools: opts.abcTools,
+    renderChords: opts.renderChords,
+    textSearchIndex: opts.textSearchIndex,
+    skipColdIndexLoad: opts.skipColdIndexLoad,
+    indexTimeoutMs: opts.indexTimeoutMs,
+  })
 }

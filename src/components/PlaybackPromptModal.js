@@ -56,7 +56,9 @@ export default function PlaybackPromptModal(props) {
   }
 
   function handlePlayClick() {
-    if (mediaController.resumeAudioContextAndPlay) {
+    if (mediaController.playFromUserGesture) {
+      mediaController.playFromUserGesture({ fresh: true })
+    } else if (mediaController.resumeAudioContextAndPlay) {
       mediaController.resumeAudioContextAndPlay()
     } else {
       mediaController.setTapToPlay(false)

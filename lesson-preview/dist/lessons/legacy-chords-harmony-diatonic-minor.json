@@ -1,0 +1,178 @@
+{
+  "id": "legacy-chords-harmony-diatonic-minor",
+  "title": "Diatonic Harmony in Minor Keys",
+  "track": "chords",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "chords",
+    "legacy"
+  ],
+  "path": "03-chords/05-diatonic-minor.md",
+  "sections": [
+    {
+      "id": "diatonic-harmony-in-minor-keys",
+      "title": "Diatonic Harmony in Minor Keys",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** chords | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Minor-key harmony shifts with natural, harmonic, and melodic minor scales."
+        }
+      ]
+    },
+    {
+      "id": "natural-minor",
+      "title": "Natural minor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "i, ii°, III, iv, v, VI, VII. In Am: Am, Bdim, C, Dm, Em, F, G. v is minor — weaker cadence."
+        }
+      ]
+    },
+    {
+      "id": "harmonic-minor",
+      "title": "Harmonic minor",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Raised 7th makes V major (E major in Am) with strong pull to i. III and VI provide modal pivots."
+        }
+      ]
+    },
+    {
+      "id": "trad-practice",
+      "title": "Trad practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Listen for raised 7th at cadences. Irish minor tunes blend aeolian and dorian without announcing which textbook scale they follow."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. V chord in A harmonic minor:\n\n- A) E major\n- B) E minor\n- C) Em7\n- D) E diminished\n\n**Answer:** A\n\n### Q2. ii is diminished in natural minor.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "V chord in A harmonic minor:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6/8 with a two-beat feel per bar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9/8 slip-jig time",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4/4 reel time with a steady drive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "E major",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: E major"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "ii is diminished in natural minor.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-chords-harmony-diatonic-minor-quiz",
+    "title": "Diatonic Harmony in Minor Keys quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "V chord in A harmonic minor:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "6/8 with a two-beat feel per bar",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "9/8 slip-jig time",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "4/4 reel time with a steady drive",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "E major",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: E major"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "ii is diminished in natural minor.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

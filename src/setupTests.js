@@ -64,5 +64,6 @@ jest.mock('./pdfJsConfig', function() {
         return { promise: Promise.reject(new Error('pdfjs unavailable in tests')) }
       }),
     },
+    resolvePdfWorkerSrc: function() { return '/pdf.worker.min.js' },
   }
 })

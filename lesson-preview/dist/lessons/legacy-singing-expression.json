@@ -1,0 +1,189 @@
+{
+  "id": "legacy-singing-expression",
+  "title": "Expression and Storytelling",
+  "track": "singing",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "singing",
+    "legacy"
+  ],
+  "path": "08-singing/06-expression.md",
+  "sections": [
+    {
+      "id": "expression-and-storytelling",
+      "title": "Expression and Storytelling",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** singing | **Difficulty:** 3/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Expression transforms correct notes into communication — the difference between reciting and telling."
+        }
+      ]
+    },
+    {
+      "id": "dynamics-and-colour",
+      "title": "Dynamics and colour",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Soft verses, louder chorus — or inverse for surprise. Vowel colour shifts mood: bright 'ee' vs dark 'oh'."
+        }
+      ]
+    },
+    {
+      "id": "rubato-in-folk",
+      "title": "Rubato in folk",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Melody breathes within steady pulse — especially ballads and airs. Rhythm section holds tempo while singer flexes."
+        }
+      ]
+    },
+    {
+      "id": "narrative-arc",
+      "title": "Narrative arc",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Know who speaks, what happened, why it matters. First verse sets scene; final verse lands emotional point."
+        }
+      ]
+    },
+    {
+      "id": "variation",
+      "title": "Variation",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Second time through: subtle dynamic or tempo shift, not random ornament. Serve the story."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Rubato in folk ballads:\n\n- A) Flexible melody timing within steady pulse\n- B) Ignoring rhythm entirely\n- C) Speeding up every bar\n- D) Eliminating all dynamics\n\n**Answer:** A\n\n### Q2. Understanding lyric meaning improves natural phrasing.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Rubato in folk ballads:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Donegal highland repertoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sliabh Luachra polkas and slides",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mouth blowing only, like Highland pipes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Flexible melody timing within steady pulse",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Flexible melody timing within steady pulse"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Understanding lyric meaning improves natural phrasing.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "legacy-singing-expression-quiz",
+    "title": "Expression and Storytelling quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "Rubato in folk ballads:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Donegal highland repertoire",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Sliabh Luachra polkas and slides",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Mouth blowing only, like Highland pipes",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Flexible melody timing within steady pulse",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Flexible melody timing within steady pulse"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Understanding lyric meaning improves natural phrasing.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}

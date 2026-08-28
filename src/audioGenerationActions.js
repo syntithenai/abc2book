@@ -3,6 +3,7 @@ import {
   buildTimingSongPlan,
   refineTimingFromMelodyDuration,
   timingPlanHasBlockingWarnings,
+  timingPlanNeedsAcknowledgement,
 } from './timingSongPlanExtractor';
 import { drumGuideOptionsFromTune } from './practiceTrackDrumGuide';
 import { renderAbcToAudioBuffer } from './notationAudioExport';
@@ -17,9 +18,11 @@ import {
   TASK_LINKED_COVER,
   TASK_PRACTICE_TRACK,
   defaultPresetForTask,
+  formatAudioGenerationError,
   presetLabel,
 } from './audioGenerationPresets';
-import { enqueueAudioGenerationJob } from './audioGenerationJobStore';
+import { enqueueAudioGenerationJob, bindAudioGenerationResolverJob, failAudioGenerationJob, updateAudioGenerationJobMessage } from './audioGenerationJobStore';
+import { showAudioGenerationErrorToast } from './audioGenerationToast';
 import { getLinkSrcType } from './checkTuneLinkPlayback';
 import {
   getRecording,
@@ -205,6 +208,183 @@ function getTuneContextFactory(tune, tunebook, onTuneChange, forceRefresh) {
       forceRefresh: forceRefresh,
     };
   };
+}
+
+function withTimeout(promise, ms, message) {
+  return Promise.race([
+    promise,
+    new Promise(function(_resolve, reject) {
+      setTimeout(function() {
+        reject(new Error(message || 'Timed out'));
+      }, ms);
+    }),
+  ]);
+}
+
+/**
+ * Run wizard generation after modals close (survives unmount).
+ * Enqueues a local job immediately so Background Jobs lists it, then prepares
+ * MIDI/WAV and starts the resolver job.
+ */
+export async function runAudioGenerationFromWizard(spec) {
+  const opts = spec || {};
+  const tune = opts.tune;
+  const tunebook = opts.tunebook;
+  const token = opts.token;
+  const taskId = opts.taskId || TASK_PRACTICE_TRACK;
+  const presetId = opts.presetId || defaultPresetForTask(taskId);
+  const presetLabelText = opts.presetLabel || presetLabel(presetId);
+  const onTuneChange = opts.onTuneChange;
+  const forceRefresh = opts.forceRefresh;
+  const getTuneContext = getTuneContextFactory(tune, tunebook, onTuneChange, forceRefresh);
+
+  const localJobId = enqueueAudioGenerationJob({
+    tuneId: tune && tune.id,
+    tuneName: (tune && tune.name) || '',
+    taskId: taskId,
+    presetId: presetId,
+    presetLabel: presetLabelText,
+    accessToken: token,
+    tune: tune,
+    tunebook: tunebook,
+    onTuneChange: onTuneChange,
+    forceRefresh: forceRefresh,
+    getTuneContext: getTuneContext,
+    message: 'Preparing…',
+  });
+
+  try {
+    if (taskId === TASK_PRACTICE_TRACK) {
+      const plan = opts.plan;
+      if (!plan) {
+        throw new Error('Could not build timing plan for this tune.');
+      }
+      const abc = opts.abc || tuneAbcFromContext(tune, tunebook);
+      const melodySource = opts.melodySource || 'notation_midi';
+      const renderStyle = opts.renderStyle || DEFAULT_RENDER_STYLE;
+      const backingPrompt = opts.backingPrompt;
+      const includeDrumGuide = opts.includeDrumGuide;
+
+      updateAudioGenerationJobMessage(localJobId, 'Building MIDI score…', 'preparing');
+      const midiScore = buildPracticeTrackMidiScore(tune, tunebook, plan);
+      const melodyAbc = melodySource === 'notation_midi' ? midiScore.abc : abc;
+      updateAudioGenerationJobMessage(localJobId, 'Rendering melody…', 'preparing');
+      const buffer = await withTimeout(
+        renderAbcToAudioBuffer(melodyAbc, {
+          chordsOff: melodySource !== 'notation_midi',
+          tune: tune,
+        }),
+        120000,
+        'Melody render timed out. Check your network (soundfonts) and try again.'
+      );
+      const melody = encodeAudioBufferToWav(buffer);
+      const activePlan = refineTimingFromMelodyDuration(plan, buffer.duration);
+      const payload = buildPracticeTrackRequestPayload(activePlan, drumGuideOptionsFromTune(tune, activePlan, {
+        backingPrompt: renderStyle === 'custom' ? backingPrompt : undefined,
+        renderStyle: renderStyle,
+        melodySource: melodySource,
+        includeChordLayer: false,
+        includeDrumGuide: includeDrumGuide != null
+          ? !!includeDrumGuide && shouldIncludeDrumGuide(renderStyle, activePlan)
+          : shouldIncludeDrumGuide(renderStyle, activePlan),
+        guideAudioConditioning: true,
+        includeStyleMelodyStem: false,
+        acknowledgeBarEstimate: activePlan.timing.source !== 'bar-estimate',
+        presetId: presetId,
+      }));
+
+      updateAudioGenerationJobMessage(localJobId, 'Starting generation…', 'preparing');
+      const started = await withTimeout(
+        startPracticeTrackGeneration(payload, melody, {
+          token: token,
+          presetId: presetId,
+          scoreBlob: midiScoreToBlob(midiScore.midiBytes),
+        }),
+        60000,
+        'Could not reach the audio generation service. Check the resolver and try again.'
+      );
+      bindAudioGenerationResolverJob(localJobId, started.jobId, {
+        accessToken: token,
+        getTuneContext: getTuneContext,
+      });
+      return started.jobId;
+    }
+
+    const linkEntry = opts.linkEntry;
+    if (!linkEntry || !linkEntry.link) {
+      throw new Error('Selected link is no longer available');
+    }
+    const requestPayload = {
+      taskId: TASK_LINKED_COVER,
+      presetId: presetId,
+      sourceUrl: linkEntry.link.link,
+      sourceType: linkEntry.srcType,
+      stylePrompt: String(opts.coverStylePrompt || '').trim(),
+      lyrics: String(opts.coverLyrics || '').trim(),
+      title: linkEntry.link.title || tune.name || '',
+      startAt: linkEntry.srcType === 'midifile' ? 0 : (parseFloat(linkEntry.link.startAt) || 0),
+      endAt: linkEntry.srcType === 'midifile' ? 0 : (parseFloat(linkEntry.link.endAt) || 0),
+    };
+    updateAudioGenerationJobMessage(localJobId, 'Starting cover…', 'preparing');
+    const started = await withTimeout(
+      startLinkedCoverGeneration(requestPayload, {
+        token: token,
+        presetId: presetId,
+      }),
+      60000,
+      'Could not reach the audio generation service. Check the resolver and try again.'
+    );
+    bindAudioGenerationResolverJob(localJobId, started.jobId, {
+      accessToken: token,
+      getTuneContext: getTuneContext,
+    });
+    return started.jobId;
+  } catch (err) {
+    const message = err && err.message ? err.message : 'Could not start audio generation.';
+    failAudioGenerationJob(localJobId, message);
+    throw err;
+  }
+}
+
+export function validateAudioGenerationWizard(spec) {
+  const opts = spec || {};
+  const taskId = opts.taskId || TASK_PRACTICE_TRACK;
+  if (taskId === TASK_PRACTICE_TRACK) {
+    if (!opts.plan) {
+      return 'Could not build timing plan for this tune.';
+    }
+    if (timingPlanHasBlockingWarnings(opts.plan) && !window.confirm(
+      'This tune has notation structure errors. Generate anyway?'
+    )) {
+      return null;
+    }
+    if (timingPlanNeedsAcknowledgement(opts.plan) && !opts.ackBarEstimate) {
+      return 'Timing is estimated from bar count. Check the acknowledgement box to continue.';
+    }
+    return '';
+  }
+  if (opts.selectedLinkIndex === null || opts.selectedLinkIndex === undefined) {
+    return 'Select a linked recording.';
+  }
+  if (!String(opts.coverStylePrompt || '').trim()) {
+    return 'Enter a style prompt for the cover.';
+  }
+  return '';
+}
+
+export function startAudioGenerationFromWizard(spec) {
+  const validationError = validateAudioGenerationWizard(spec);
+  if (validationError === null) {
+    return Promise.resolve(null);
+  }
+  if (validationError) {
+    return Promise.reject(new Error(validationError));
+  }
+  return runAudioGenerationFromWizard(spec).catch(function(err) {
+    const message = formatAudioGenerationError(err && err.message ? err.message : 'Could not start audio generation.');
+    showAudioGenerationErrorToast(message);
+    throw err;
+  });
 }
 
 export async function enqueuePracticeTrackJob(options) {

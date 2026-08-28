@@ -23,24 +23,228 @@ function getFirstVoiceNoteLines(tune) {
 function primaryChordFromBarText(barText) {
   const re = /"([^"]+)"/g
   let match
-  let last = ''
   while ((match = re.exec(String(barText || ''))) !== null) {
     if (!isSectionMarkerChordName(match[1])) {
-      last = match[1]
+      return match[1]
     }
   }
-  return last
+  return ''
 }
 
+/**
+ * One label per melody bar, carrying the previous chord across bars with no
+ * new symbol. Leading bars before the first chord are omitted.
+ */
 export function extractChordsPerBarFromTuneNotes(tune) {
   const lines = getFirstVoiceNoteLines(tune)
   if (!lines.length) return []
   const bars = []
+  let last = ''
   lines.join('\n').split('|').forEach(function(bar) {
+    if (!String(bar || '').replace(/\s+/g, '')) return
     const chord = primaryChordFromBarText(bar)
-    if (chord) bars.push(chord)
+    if (chord) last = chord
+    if (last) bars.push(last)
   })
   return bars
+}
+
+/**
+ * Chord changes with whole-note positions from the engraved score (includes
+ * mid-bar changes). First staff / first voice only. Does not expand repeats.
+ */
+export function extractChordChangesFromVisualObj(visualObj) {
+  if (!visualObj || !Array.isArray(visualObj.lines)) return []
+  let total = 0
+  const changes = []
+  visualObj.lines.forEach(function(line) {
+    const staffList = line && line.staff
+    if (!Array.isArray(staffList) || !staffList.length) return
+    const voices = staffList[0].voices
+    if (!Array.isArray(voices) || !voices.length) return
+    const voice = voices[0]
+    if (!Array.isArray(voice)) return
+    voice.forEach(function(el) {
+      if (!el) return
+      if (Array.isArray(el.chord)) {
+        el.chord.forEach(function(ch) {
+          const name = ch && ch.name != null ? String(ch.name).trim() : ''
+          if (!name || isSectionMarkerChordName(name)) return
+          changes.push({ label: name, atWhole: total })
+        })
+      }
+      if (el.el_type === 'note' || el.el_type === 'rest') {
+        total += parseFloat(el.duration) || 0
+      }
+    })
+  })
+  return changes
+}
+
+/**
+ * Linear tokens for repeat expansion: bars, chords, and timed notes/rests.
+ */
+export function buildVisualChordRepeatTokens(visualObj) {
+  const tokens = []
+  let cur = 0
+  if (!visualObj || !Array.isArray(visualObj.lines)) {
+    return { tokens: tokens, durationWhole: 0 }
+  }
+  visualObj.lines.forEach(function(line) {
+    const staffList = line && line.staff
+    if (!Array.isArray(staffList) || !staffList.length) return
+    const voices = staffList[0].voices
+    if (!Array.isArray(voices) || !voices.length) return
+    const voice = voices[0]
+    if (!Array.isArray(voice)) return
+    voice.forEach(function(el) {
+      if (!el) return
+      if (el.el_type === 'bar') {
+        tokens.push({
+          type: 'bar',
+          barType: String(el.type || ''),
+          startEnding: el.startEnding != null ? String(el.startEnding) : '',
+          endEnding: !!el.endEnding,
+          t: cur,
+        })
+      }
+      if (Array.isArray(el.chord)) {
+        el.chord.forEach(function(ch) {
+          const name = ch && ch.name != null ? String(ch.name).trim() : ''
+          if (!name || isSectionMarkerChordName(name)) return
+          tokens.push({ type: 'chord', label: name, t: cur })
+        })
+      }
+      if (el.el_type === 'note' || el.el_type === 'rest') {
+        const dur = parseFloat(el.duration) || 0
+        tokens.push({ type: 'note', t: cur, d: dur })
+        cur += dur
+      }
+    })
+  })
+  return { tokens: tokens, durationWhole: cur }
+}
+
+/**
+ * Flatten tokens the same way abcjs abc_midi_sequencer expands repeats/endings.
+ */
+export function flattenVisualTokensThroughRepeats(tokens) {
+  const list = Array.isArray(tokens) ? tokens : []
+  const flat = []
+  let startRepeatPos = null
+  let skipEndingPos = null
+  let i = 0
+  let guard = 0
+  while (i < list.length && guard < 100000) {
+    guard += 1
+    const tok = list[i]
+    i += 1
+    if (!tok) continue
+    if (tok.type === 'bar') {
+      const barType = String(tok.barType || '')
+      const endRepeat = barType.indexOf('right_repeat') >= 0 || barType.indexOf('dbl_repeat') >= 0
+      const startRepeat = barType.indexOf('left_repeat') >= 0 || barType.indexOf('dbl_repeat') >= 0
+        || barType.indexOf('right_repeat') >= 0
+      flat.push({
+        type: 'bar',
+        barType: tok.barType,
+        startEnding: tok.startEnding,
+        endEnding: tok.endEnding,
+      })
+      if (endRepeat) {
+        const s = startRepeatPos != null ? startRepeatPos : 0
+        const e = skipEndingPos != null ? skipEndingPos : flat.length
+        if (e > s) {
+          flat.push.apply(flat, flat.slice(s, e).map(function(t) {
+            if (t.type === 'note') return { type: 'note', d: t.d }
+            if (t.type === 'chord') return { type: 'chord', label: t.label }
+            return {
+              type: 'bar',
+              barType: t.barType,
+              startEnding: t.startEnding,
+              endEnding: t.endEnding,
+            }
+          }))
+        }
+        skipEndingPos = null
+        startRepeatPos = null
+      }
+      if (tok.startEnding === '1') {
+        skipEndingPos = flat.length
+      }
+      if (startRepeat) {
+        startRepeatPos = flat.length
+      }
+      continue
+    }
+    if (tok.type === 'chord') {
+      flat.push({ type: 'chord', label: tok.label })
+      continue
+    }
+    if (tok.type === 'note') {
+      flat.push({ type: 'note', d: tok.d > 0 ? tok.d : 0 })
+    }
+  }
+  return flat
+}
+
+/**
+ * Expand |: :| and 1st/2nd endings so fill covers the same span as setUpAudio.
+ */
+export function expandChordChangesThroughRepeats(tokens) {
+  const flat = flattenVisualTokensThroughRepeats(tokens)
+  const changes = []
+  let expandedTime = 0
+  flat.forEach(function(tok) {
+    if (tok.type === 'chord') {
+      const last = changes.length ? changes[changes.length - 1] : null
+      if (!last || last.label !== tok.label || Math.abs(last.atWhole - expandedTime) > 1e-9) {
+        changes.push({ label: tok.label, atWhole: expandedTime })
+      }
+    }
+    if (tok.type === 'note') {
+      expandedTime += tok.d > 0 ? tok.d : 0
+    }
+  })
+  return { changes: changes, musicWhole: expandedTime }
+}
+
+/**
+ * Chord changes with repeats / endings expanded to match playback length.
+ */
+export function extractExpandedChordChangesFromVisualObj(visualObj) {
+  const built = buildVisualChordRepeatTokens(visualObj)
+  if (!built.tokens.length) {
+    return { changes: extractChordChangesFromVisualObj(visualObj), musicWhole: musicDurationWholeFromVisualObj(visualObj) }
+  }
+  const expanded = expandChordChangesThroughRepeats(built.tokens)
+  if (!expanded.changes.length) {
+    return {
+      changes: extractChordChangesFromVisualObj(visualObj),
+      musicWhole: Math.max(expanded.musicWhole, musicDurationWholeFromVisualObj(visualObj)),
+    }
+  }
+  return expanded
+}
+
+export function musicDurationWholeFromVisualObj(visualObj) {
+  if (!visualObj || !Array.isArray(visualObj.lines)) return 0
+  let total = 0
+  visualObj.lines.forEach(function(line) {
+    const staffList = line && line.staff
+    if (!Array.isArray(staffList) || !staffList.length) return
+    const voices = staffList[0].voices
+    if (!Array.isArray(voices) || !voices.length) return
+    const voice = voices[0]
+    if (!Array.isArray(voice)) return
+    voice.forEach(function(el) {
+      if (!el) return
+      if (el.el_type === 'note' || el.el_type === 'rest') {
+        total += parseFloat(el.duration) || 0
+      }
+    })
+  })
+  return total
 }
 
 const parseChord = chordParserFactory()
@@ -94,6 +298,30 @@ function triadMidisFromLabel(label) {
   return chordNotesToMidis(chordInfo.normalized.notes, 4)
 }
 
+/**
+ * Net pitch shift for accompaniment notes. abcjs setUpAudio does
+ * `midiTranspose - visualTranspose` so displayed (visual) transpose does not
+ * double-shift MIDI; fill bass/chords must use the same net value.
+ */
+export function soundingTransposeSemitones(midiTranspose, visualTranspose) {
+  const midi = Number(midiTranspose)
+  const visual = Number(visualTranspose)
+  const midiT = Number.isFinite(midi) ? midi : 0
+  const visualT = Number.isFinite(visual) ? visual : 0
+  return midiT - visualT
+}
+
+function resolveFillChordTranspose(visualObj, options, tune) {
+  const opts = options || {}
+  const midiT = opts.transpose != null
+    ? opts.transpose
+    : (tune && tune.transpose != null ? tune.transpose : 0)
+  const visualT = visualObj && visualObj.visualTranspose != null
+    ? visualObj.visualTranspose
+    : 0
+  return soundingTransposeSemitones(midiT, visualT)
+}
+
 export function interpretChordLabel(label, transpose) {
   const name = String(label || '').trim()
   if (!name) return null
@@ -106,19 +334,26 @@ export function interpretChordLabel(label, transpose) {
     return null
   }
 
-  const rootName = chordInfo.input.rootNote || chordInfo.normalized.rootNote
-  const rootLetter = String(rootName || '').trim().charAt(0).toUpperCase()
-  let bass = BASS_ROOT_MIDI[rootLetter]
-  if (bass == null) return null
-
   let chordTranspose = parseInt(transpose, 10) || 0
   while (chordTranspose < -8) chordTranspose += 12
   while (chordTranspose > 8) chordTranspose -= 12
+
+  // Use the full root (F#, Bb) — first-letter only maps F#→F and Bb→B.
+  const rootName = chordInfo.normalized.rootNote || chordInfo.input.rootNote
+  let bass = noteNameToMidi(String(rootName || '').trim() + '2')
+  if (bass == null) {
+    const rootLetter = String(rootName || '').trim().charAt(0).toUpperCase()
+    bass = BASS_ROOT_MIDI[rootLetter]
+  }
+  if (bass == null) return null
+  // Match legacy BASS_ROOT_MIDI register (A/B sit near C2, not an octave up).
+  while (bass > 43) bass -= 12
+  while (bass < 33) bass += 12
   bass += chordTranspose
 
   const triad = triadMidisFromLabel(name)
   const chick = triad.length
-    ? triad.map(function(midi) { return midi + 12 })
+    ? triad.map(function(midi) { return midi + 12 + chordTranspose })
     : [bass + 12, bass + 16, bass + 19]
 
   let bass2 = bass - 5
@@ -154,6 +389,25 @@ export function barDurationSecFromVisualObj(visualObj, millisecondsPerMeasure) {
     return visualObj.millisecondsPerMeasure() / 1000
   }
   return 2
+}
+
+/**
+ * Anacrusis length in wall-clock seconds (0 when there is no pickup).
+ * Chord symbols after the opening barline must start after this offset.
+ */
+export function pickupOffsetSecFromVisualObj(visualObj, barDurationSec) {
+  if (!visualObj || typeof visualObj.getPickupLength !== 'function') return 0
+  const pickupWhole = parseFloat(visualObj.getPickupLength()) || 0
+  if (!(pickupWhole > 0)) return 0
+  const meter = typeof visualObj.getMeterFraction === 'function'
+    ? visualObj.getMeterFraction()
+    : null
+  const barWhole = barWholeNotesFromMeter(meter)
+  const barSec = barDurationSec > 0
+    ? barDurationSec
+    : barDurationSecFromVisualObj(visualObj)
+  if (!(barWhole > 0) || !(barSec > 0)) return 0
+  return (pickupWhole / barWhole) * barSec
 }
 
 export function melodyNoteStartsFromFlattened(flattened) {
@@ -353,11 +607,57 @@ export function inferBarDurationSecFromFlattened(flattened, meterKey, options) {
 }
 
 export function resolveBarDurationSec(flattened, visualObj, millisecondsPerMeasure, meterKey, options) {
+  // Prefer the score tempo (wall-clock seconds). abcjs setUpAudio note times are
+  // whole notes, so inferring "seconds" from those starts makes bars look like
+  // 0.5–1s and then CreateSynth plays the tune far too fast.
+  const fromVisual = barDurationSecFromVisualObj(visualObj, millisecondsPerMeasure)
+  if (fromVisual > 0) return fromVisual
   const fromSequence = flattened
     ? inferBarDurationSecFromFlattened(flattened, meterKey, options)
     : null
-  const fromVisual = barDurationSecFromVisualObj(visualObj, millisecondsPerMeasure)
-  return fromSequence > 0 ? fromSequence : fromVisual
+  return fromSequence > 0 ? fromSequence : null
+}
+
+/**
+ * Whole notes in one bar from abcjs meter fraction (num/den).
+ * @param {{num?: number, den?: number}|null} meterFraction
+ */
+export function barWholeNotesFromMeter(meterFraction) {
+  const num = meterFraction ? parseFloat(meterFraction.num) : 0
+  const den = meterFraction ? parseFloat(meterFraction.den) : 0
+  if (!(num > 0) || !(den > 0)) return 1
+  return num / den
+}
+
+/**
+ * Multiply seconds → abcjs whole-note units for CreateSynth sequence tracks.
+ * @param {number} millisecondsPerMeasure wall-clock bar length
+ * @param {{num?: number, den?: number}|null} meterFraction
+ */
+export function secondsToWholeNotesFactor(millisecondsPerMeasure, meterFraction) {
+  const barSec = (parseFloat(millisecondsPerMeasure) || 0) / 1000
+  const barWhole = barWholeNotesFromMeter(meterFraction)
+  if (!(barSec > 0) || !(barWhole > 0)) return 1
+  return barWhole / barSec
+}
+
+/**
+ * Scale note start/duration on tracks (e.g. fill seconds → whole notes).
+ * @param {Array<Array<{cmd?: string, start?: number, duration?: number}>>} tracks
+ * @param {number} factor
+ */
+export function scaleSequenceTrackTimes(tracks, factor) {
+  const scale = parseFloat(factor)
+  if (!(scale > 0) || Math.abs(scale - 1) < 1e-9 || !Array.isArray(tracks)) return tracks
+  tracks.forEach(function(track) {
+    if (!Array.isArray(track)) return
+    track.forEach(function(ev) {
+      if (!ev || ev.cmd !== 'note') return
+      if (typeof ev.start === 'number') ev.start = durationRounded(ev.start * scale)
+      if (typeof ev.duration === 'number') ev.duration = durationRounded(ev.duration * scale)
+    })
+  })
+  return tracks
 }
 
 export function findChordTrackIndex(tracks) {
@@ -433,33 +733,161 @@ export function extractChordTimelineFromSequence(sequence, visualObj, options) {
   return buildChordTimelineFromTune(opts.tune, opts.tunebook, opts.abcjsParser, visualObj, opts)
 }
 
+function pushTimelineSegment(timeline, opts) {
+  timeline.push({
+    startSec: opts.barStartSec,
+    barDurationSec: opts.barDurationSec,
+    meterKey: opts.meterKey,
+    chord: opts.chord,
+    label: opts.label,
+    activeStartSec: opts.activeStartSec,
+    activeEndSec: opts.activeEndSec,
+  })
+}
+
+/**
+ * Expand timed chord changes into per-bar timeline entries. Mid-bar changes
+ * become multiple entries that share a bar origin but different active windows.
+ */
+export function buildTimelineFromChordChanges(changes, visualObj, options) {
+  const opts = options || {}
+  if (!Array.isArray(changes) || !changes.length) return []
+
+  const meterKey = meterKeyFromVisualObj(visualObj)
+  const meter = visualObj && typeof visualObj.getMeterFraction === 'function'
+    ? visualObj.getMeterFraction()
+    : null
+  const barWhole = barWholeNotesFromMeter(meter)
+  const barDurationSec = opts.barDurationSec > 0
+    ? opts.barDurationSec
+    : barDurationSecFromVisualObj(visualObj, opts.millisecondsPerMeasure)
+  if (!(barWhole > 0) || !(barDurationSec > 0)) return []
+
+  const pickupWhole = visualObj && typeof visualObj.getPickupLength === 'function'
+    ? (parseFloat(visualObj.getPickupLength()) || 0)
+    : 0
+  const secPerWhole = barDurationSec / barWhole
+  const transpose = resolveFillChordTranspose(visualObj, opts, opts.tune)
+  const musicWhole = opts.musicWhole > 0
+    ? opts.musicWhole
+    : musicDurationWholeFromVisualObj(visualObj)
+  const endWhole = Math.max(
+    musicWhole,
+    changes[changes.length - 1].atWhole + barWhole * 0.01
+  )
+
+  const timeline = []
+  for (let i = 0; i < changes.length; i += 1) {
+    const label = changes[i].label
+    const chord = interpretChordLabel(label, transpose)
+    if (!chord || chord.break) continue
+
+    const startWhole = changes[i].atWhole
+    const stopWhole = i + 1 < changes.length ? changes[i + 1].atWhole : endWhole
+    if (!(stopWhole > startWhole)) continue
+
+    let cursor = startWhole
+    while (cursor < stopWhole - 1e-9) {
+      const afterPickup = Math.max(0, cursor - pickupWhole)
+      const barIndex = Math.floor(afterPickup / barWhole + 1e-9)
+      const barStartWhole = pickupWhole + barIndex * barWhole
+      const barEndWhole = barStartWhole + barWhole
+      const segEnd = Math.min(stopWhole, barEndWhole)
+      pushTimelineSegment(timeline, {
+        barStartSec: barStartWhole * secPerWhole,
+        barDurationSec: barDurationSec,
+        meterKey: meterKey,
+        chord: chord,
+        label: label,
+        activeStartSec: cursor * secPerWhole,
+        activeEndSec: segEnd * secPerWhole,
+      })
+      cursor = segEnd
+    }
+  }
+  return timeline
+}
+
 export function buildChordTimelineFromTune(tune, tunebook, abcjsParser, visualObj, options) {
   const opts = options || {}
+  const expanded = extractExpandedChordChangesFromVisualObj(visualObj)
+  const timed = expanded.changes && expanded.changes.length
+    ? expanded.changes
+    : extractChordChangesFromVisualObj(visualObj)
+  if (timed.length) {
+    return buildTimelineFromChordChanges(timed, visualObj, Object.assign({}, opts, {
+      tune: tune,
+      musicWhole: expanded.musicWhole > 0 ? expanded.musicWhole : opts.musicWhole,
+    }))
+  }
+
   if (!tune) return []
   const chordsPerBar = abcjsParser
     ? extractChordsPerBar(tune, tunebook, abcjsParser)
     : extractChordsPerBarFromTuneNotes(tune)
   if (!chordsPerBar.length) return []
 
+  const transpose = resolveFillChordTranspose(visualObj, opts, tune)
   const meterKey = meterKeyFromVisualObj(visualObj)
   const barDurationSec = opts.barDurationSec > 0
     ? opts.barDurationSec
     : barDurationSecFromVisualObj(visualObj, opts.millisecondsPerMeasure)
-  const transpose = opts.transpose != null ? opts.transpose : (parseInt(tune.transpose, 10) || 0)
+  const pickupSec = pickupOffsetSecFromVisualObj(visualObj, barDurationSec)
   const timeline = []
 
   chordsPerBar.forEach(function(label, barIndex) {
     const chord = interpretChordLabel(label, transpose)
     if (!chord || chord.break) return
+    const barStart = pickupSec + barIndex * barDurationSec
     timeline.push({
-      startSec: barIndex * barDurationSec,
+      startSec: barStart,
       barDurationSec: barDurationSec,
       meterKey: meterKey,
       chord: chord,
       label: label,
+      activeStartSec: barStart,
+      activeEndSec: barStart + barDurationSec,
     })
   })
   return timeline
+}
+
+function entrySoundStartSec(entry) {
+  if (entry && entry.activeStartSec != null) return entry.activeStartSec
+  return entry ? entry.startSec : 0
+}
+
+function entrySoundEndSec(entry) {
+  if (entry && entry.activeEndSec != null) return entry.activeEndSec
+  if (!entry) return 0
+  return entry.startSec + entry.barDurationSec
+}
+
+function entrySoundDurationSec(entry) {
+  return Math.max(0, entrySoundEndSec(entry) - entrySoundStartSec(entry))
+}
+
+/** Drop or trim note events so mid-bar chord segments only sound in their window. */
+function finalizeEntryEvents(events, entry) {
+  if (!entry || (entry.activeStartSec == null && entry.activeEndSec == null)) {
+    return events
+  }
+  const lo = entrySoundStartSec(entry)
+  const hi = entrySoundEndSec(entry)
+  const out = []
+  ;(events || []).forEach(function(ev) {
+    if (!ev || ev.cmd !== 'note') {
+      out.push(ev)
+      return
+    }
+    if (ev.start < lo - 1e-6 || ev.start >= hi - 1e-6) return
+    let dur = ev.duration
+    if (dur != null && ev.start + dur > hi) {
+      dur = Math.max(0, hi - ev.start)
+    }
+    out.push(dur === ev.duration ? ev : Object.assign({}, ev, { duration: durationRounded(dur) }))
+  })
+  return out
 }
 
 function rhythmSlotsPerBar(meterKey) {
@@ -661,13 +1089,14 @@ function generatePadEvents(entry, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const duration = entry.barDurationSec * 0.98
+  const start = entrySoundStartSec(entry)
+  const duration = entrySoundDurationSec(entry) * 0.98
   const chordVol = scaledVolume(68, level)
   const bassVol = scaledVolume(74, level)
   if (chord.boom != null) {
-    events.push(noteEvent(chord.boom, entry.startSec, duration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+    events.push(noteEvent(chord.boom, start, duration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
   }
-  pushChordNotes(events, chord.chick, entry.startSec, duration, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
+  pushChordNotes(events, chord.chick, start, duration, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
   return events
 }
 
@@ -696,8 +1125,8 @@ function generateArpeggioEvents(entry, styleDef, level) {
   if (chord.boom != null) {
     events.push(noteEvent(
       chord.boom,
-      entry.startSec,
-      entry.barDurationSec * 0.95,
+      entrySoundStartSec(entry),
+      entrySoundDurationSec(entry) * 0.95,
       scaledVolume(64, level),
       styleDef.bassProgram,
       FILL_CHANNELS.bass
@@ -1051,9 +1480,9 @@ function generateHarpCelloEvents(entry, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const duration = entry.barDurationSec * 0.98
+  const duration = entrySoundDurationSec(entry) * 0.98
   if (chord.boom != null) {
-    events.push(noteEvent(chord.boom, entry.startSec, duration, scaledVolume(70, level), styleDef.bassProgram, FILL_CHANNELS.bass))
+    events.push(noteEvent(chord.boom, entrySoundStartSec(entry), duration, scaledVolume(70, level), styleDef.bassProgram, FILL_CHANNELS.bass))
   }
   const slotsPerBar = rhythmSlotsPerBar(entry.meterKey)
   const slotDurationSec = entry.barDurationSec / Math.max(1, slotsPerBar)
@@ -1148,16 +1577,17 @@ function generatePipeDroneEvents(entry, styleDef, level) {
   const events = []
   const chord = entry.chord
   if (!chord || chord.break) return events
-  const duration = entry.barDurationSec * 0.98
+  const start = entrySoundStartSec(entry)
+  const duration = entrySoundDurationSec(entry) * 0.98
   const droneVol = scaledVolume(64, level)
   const bassVol = scaledVolume(72, level)
   const triad = (chord.chick || []).slice(0, 3)
   const dronePitch = triad[1] || triad[0] || (chord.boom != null ? chord.boom + 7 : null)
   if (chord.boom != null) {
-    events.push(noteEvent(chord.boom, entry.startSec, duration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
+    events.push(noteEvent(chord.boom, start, duration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
   }
   if (dronePitch != null) {
-    events.push(noteEvent(dronePitch, entry.startSec, duration, droneVol, styleDef.chordProgram, FILL_CHANNELS.chord))
+    events.push(noteEvent(dronePitch, start, duration, droneVol, styleDef.chordProgram, FILL_CHANNELS.chord))
   }
   return events
 }
@@ -1231,8 +1661,8 @@ function generateBrassHitsEvents(entry, schedule, styleDef, level, rhythmContext
     return events
   }
 
-  const hitStart = entry.startSec
-  const hitDuration = Math.min(entry.barDurationSec * 0.4, 0.6)
+  const hitStart = entrySoundStartSec(entry)
+  const hitDuration = Math.min(entrySoundDurationSec(entry) * 0.4, 0.6)
   pushChordNotes(events, chord.chick, hitStart, hitDuration, chordVol, styleDef.chordProgram, FILL_CHANNELS.chord)
   if (chord.boom != null) {
     events.push(noteEvent(chord.boom, hitStart, hitDuration, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
@@ -1243,54 +1673,78 @@ function generateBrassHitsEvents(entry, schedule, styleDef, level, rhythmContext
 function generateEventsForEntry(entry, styleDef, level, rhythmContext) {
   const generator = styleDef.generator
   const schedule = resolveEntryRhythm(entry, rhythmContext)
+  let events
 
   switch (generator) {
     case 'boom-chick':
     case 'jig-bass':
-      return generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'bass-only':
-      return generateBassOnlyEvents(entry, schedule, styleDef, level)
+      events = generateBassOnlyEvents(entry, schedule, styleDef, level)
+      break
     case 'block':
-      return generateBlockEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateBlockEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'pad':
-      return generatePadEvents(entry, styleDef, level)
+      events = generatePadEvents(entry, styleDef, level)
+      break
     case 'arpeggio':
-      return generateArpeggioEvents(entry, styleDef, level)
+      events = generateArpeggioEvents(entry, styleDef, level)
+      break
     case 'strum':
-      return generateStrumEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateStrumEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'fingerpick':
-      return generateFingerpickEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateFingerpickEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'pizzicato':
-      return generatePizzicatoEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generatePizzicatoEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'orchestra':
-      return generateOrchestraEvents(entry, styleDef, level)
+      events = generateOrchestraEvents(entry, styleDef, level)
+      break
     case 'brass-hits':
-      return generateBrassHitsEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateBrassHitsEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'reel-drive':
-      return generateReelDriveEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateReelDriveEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'waltz-roll':
-      return generateWaltzRollEvents(entry, styleDef, level)
+      events = generateWaltzRollEvents(entry, styleDef, level)
+      break
     case 'hornpipe-lilt':
-      return generateHornpipeLiltEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateHornpipeLiltEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'polka-bounce':
-      return generatePolkaBounceEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generatePolkaBounceEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'slip-jig-roll':
-      return generateSlipJigRollEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateSlipJigRollEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'fiddle-bass':
-      return generateFiddleBassEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateFiddleBassEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'harp-cello':
-      return generateHarpCelloEvents(entry, styleDef, level)
+      events = generateHarpCelloEvents(entry, styleDef, level)
+      break
     case 'brass-strings':
-      return generateBrassStringsEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateBrassStringsEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'guitar-mandolin':
-      return generateGuitarMandolinEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateGuitarMandolinEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
     case 'pipe-drone':
-      return generatePipeDroneEvents(entry, styleDef, level)
+      events = generatePipeDroneEvents(entry, styleDef, level)
+      break
     case 'bodhran-accent':
-      return generateBodhranAccentEvents(entry, schedule, styleDef, level)
+      events = generateBodhranAccentEvents(entry, schedule, styleDef, level)
+      break
     default:
-      return generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext)
+      events = generateBoomChickEvents(entry, schedule, styleDef, level, rhythmContext)
+      break
   }
+  return finalizeEntryEvents(events, entry)
 }
 
 function splitEventsByInstrument(events, bassProgram, chordProgram, accentProgram) {
@@ -1354,11 +1808,16 @@ export function applyPlaybackFillToSequence(sequence, visualObj, options) {
   const fillOptions = opts.fillOptions || {}
   if (!fillOptions.injectCustomFill || !sequence) return sequence
 
+  const msPerMeasure = opts.millisecondsPerMeasure > 0
+    ? opts.millisecondsPerMeasure
+    : (visualObj && typeof visualObj.millisecondsPerMeasure === 'function'
+      ? visualObj.millisecondsPerMeasure()
+      : 0)
   const timeline = extractChordTimelineFromSequence(sequence, visualObj, {
     tune: opts.tune,
     tunebook: opts.tunebook,
     abcjsParser: opts.abcjsParser,
-    millisecondsPerMeasure: opts.millisecondsPerMeasure,
+    millisecondsPerMeasure: msPerMeasure,
     transpose: opts.transpose,
   })
   if (!timeline.length) return removeChordTracks(sequence)
@@ -1371,6 +1830,12 @@ export function applyPlaybackFillToSequence(sequence, visualObj, options) {
     fillOptions.rhythmContext
   )
   if (!fillTracks.length) return stripped
+
+  const meterFraction = visualObj && typeof visualObj.getMeterFraction === 'function'
+    ? visualObj.getMeterFraction()
+    : null
+  const toWhole = secondsToWholeNotesFactor(msPerMeasure, meterFraction)
+  scaleSequenceTrackTimes(fillTracks, toWhole)
 
   return Object.assign({}, stripped, {
     tracks: stripped.tracks.concat(fillTracks),
@@ -1390,6 +1855,52 @@ function setupAudioOptionsForPlayback(opts, chordsOff) {
   return setup
 }
 
+/** Default accompaniment scale at fill level 100 (abcjs boom-chick). */
+export const ABCJS_CHORD_TRACK_BASE_SCALE = 0.52
+/** Chord stab length scale so boom-chick pads do not smear across 16th melody. */
+export const ABCJS_CHORD_DURATION_SCALE = 0.62
+/** Slight melody lift so fast sixteenths stay above boom-chick pads. */
+export const ABCJS_MELODY_TRACK_BOOST = 1.15
+/** Extra lift for grace notes and very short melody events. */
+export const ABCJS_SHORT_MELODY_BOOST = 1.2
+export const ABCJS_SHORT_MELODY_MAX_WHOLE_NOTES = 0.07
+
+/**
+ * Apply fill level to abcjs-generated accompaniment (boom-chick). Custom fill
+ * styles already scale via generatePlaybackFillTracks; abcjs chords did not.
+ * @param {{ tracks?: Array<Array<{cmd?: string, volume?: number}>> }} sequence
+ * @param {{ fillLevel?: number }} [options]
+ */
+export function balanceAbcjsPlaybackTrackVolumes(sequence, options) {
+  const opts = options || {}
+  const fillLevel = opts.fillLevel != null ? opts.fillLevel : 100
+  const levelNorm = Math.max(0, Math.min(1.5, fillLevel / 100))
+  const chordScale = levelNorm * ABCJS_CHORD_TRACK_BASE_SCALE
+  if (!sequence || !Array.isArray(sequence.tracks) || !(chordScale > 0)) {
+    return sequence
+  }
+  sequence.tracks.forEach(function(track, trackIndex) {
+    if (!Array.isArray(track)) return
+    track.forEach(function(ev) {
+      if (ev.cmd !== 'note' || ev.volume == null) return
+      if (trackIndex === 0) {
+        let boost = ABCJS_MELODY_TRACK_BOOST
+        if (ev.duration != null && ev.duration > 0
+            && ev.duration <= ABCJS_SHORT_MELODY_MAX_WHOLE_NOTES) {
+          boost *= ABCJS_SHORT_MELODY_BOOST
+        }
+        ev.volume = Math.min(127, Math.round(ev.volume * boost))
+      } else {
+        ev.volume = Math.max(1, Math.round(ev.volume * chordScale))
+        if (ev.duration != null && ev.duration > 0) {
+          ev.duration = Math.max(0.03125, ev.duration * ABCJS_CHORD_DURATION_SCALE)
+        }
+      }
+    })
+  })
+  return sequence
+}
+
 export function buildPlaybackSequence(synthObj, options) {
   const opts = options || {}
   const fillOptions = opts.fillOptions || {}
@@ -1398,15 +1909,23 @@ export function buildPlaybackSequence(synthObj, options) {
   if (fillOptions.injectCustomFill) {
     const flattened = synthObj.setUpAudio(setupAudioOptionsForPlayback(opts, true))
     const meterKey = meterKeyFromVisualObj(synthObj)
+    const meterFraction = typeof synthObj.getMeterFraction === 'function'
+      ? synthObj.getMeterFraction()
+      : null
     const chordsPerBar = opts.tune
       ? (opts.abcjsParser
         ? extractChordsPerBar(opts.tune, opts.tunebook, opts.abcjsParser)
         : extractChordsPerBarFromTuneNotes(opts.tune))
       : []
+    const msPerMeasure = opts.millisecondsPerMeasure > 0
+      ? opts.millisecondsPerMeasure
+      : (typeof synthObj.millisecondsPerMeasure === 'function'
+        ? synthObj.millisecondsPerMeasure()
+        : 0)
     const barDurationSec = resolveBarDurationSec(
       flattened,
       synthObj,
-      opts.millisecondsPerMeasure,
+      msPerMeasure,
       meterKey,
       { chordBarCount: chordsPerBar.length }
     )
@@ -1425,9 +1944,12 @@ export function buildPlaybackSequence(synthObj, options) {
       fillOptions.rhythmContext
     )
     if (!fillTracks.length) return flattened
+    // Fill generators emit wall-clock seconds; melody setUpAudio uses whole notes.
+    // Convert fill times so CreateSynth's single tempoMultiplier applies to both.
+    const toWhole = secondsToWholeNotesFactor(msPerMeasure > 0 ? msPerMeasure : barDurationSec * 1000, meterFraction)
+    scaleSequenceTrackTimes(fillTracks, toWhole)
     return Object.assign({}, flattened, {
       tracks: flattened.tracks.concat(fillTracks),
-      _resolvedBarDurationSec: barDurationSec,
     })
   }
 
@@ -1436,6 +1958,11 @@ export function buildPlaybackSequence(synthObj, options) {
   )
   if (fillOptions.chordsOff) {
     return removeChordTracks(flattened)
+  }
+  if (fillOptions.styleDef && fillOptions.styleDef.usesAbcjsChords) {
+    balanceAbcjsPlaybackTrackVolumes(flattened, {
+      fillLevel: fillOptions.settings && fillOptions.settings.level,
+    })
   }
   return flattened
 }

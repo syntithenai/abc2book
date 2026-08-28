@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Returning to Tunebook</title>
+  <script>
+    (function () {
+      var query = window.location.search || '';
+      window.location.replace('net.tunebook.app://oauth/callback' + query);
+    })();
+  </script>
+</head>
+<body>
+  <p>Returning to Tunebook…</p>
+</body>
+</html>

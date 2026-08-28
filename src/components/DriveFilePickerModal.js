@@ -175,18 +175,21 @@ export default function DriveFilePickerModal(props) {
   const btnVariant = props.buttonVariant || 'outline-primary'
   const btnSize = props.buttonSize || undefined
   const btnClassName = props.buttonClassName || undefined
+  const hideTrigger = !!props.hideTrigger
 
   return (
     <>
-      <Button
-        variant={btnVariant}
-        size={btnSize}
-        className={btnClassName}
-        disabled={loading || props.disabled}
-        onClick={handleOpen}
-      >
-        {loading ? 'Opening…' : (props.label || 'Drive')}
-      </Button>
+      {!hideTrigger ? (
+        <Button
+          variant={btnVariant}
+          size={btnSize}
+          className={btnClassName}
+          disabled={loading || props.disabled}
+          onClick={handleOpen}
+        >
+          {loading ? 'Opening…' : (props.label || 'Drive')}
+        </Button>
+      ) : null}
       <Modal show={showConsent} onHide={function() {}} backdrop="static" keyboard={false} centered>
         <Modal.Header>
           <Modal.Title>{props.title || 'Choose Google Drive file'}</Modal.Title>

@@ -7,10 +7,17 @@ import {
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { handleLyricsSearchStreamEvent, isLyricsSearchSoftMissMessage, normalizeLyricsSearch } from './lyricsSearchNormalize'
 import { searchLyricsLight } from './lyricsSearchLight'
+import { isAbortError } from './abortUtils'
 
 export { normalizeLyricsSearch, handleLyricsSearchStreamEvent, isLyricsSearchSoftMissMessage } from './lyricsSearchNormalize'
 
 const LYRICS_ACCEPT_HEADER = 'application/x-ndjson, application/json'
+
+function isTimeoutAbortError(err) {
+  if (!isAbortError(err)) return false
+  const message = String(err && err.message || '').toLowerCase()
+  return message.indexOf('timed out') >= 0 || message.indexOf('timeout') >= 0
+}
 
 async function parseLyricsSearchResponse(response) {
   let body = null
@@ -126,9 +133,97 @@ function shouldFallbackFromResolverResult(result) {
   return !(Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0)
 }
 
-function shouldFallbackFromResolverError(err) {
+function shouldFallbackFromResolverError(err, opts) {
+  if (opts && typeof opts.wasTimedOut === 'function' && opts.wasTimedOut()) return true
+  if (isTimeoutAbortError(err)) return true
   return isMediaResolverInfrastructureError(err)
     || isLyricsSearchSoftMissMessage(err && err.message)
+}
+
+function shouldRethrowAbort(err, opts) {
+  if (!isAbortError(err)) return false
+  if (opts && typeof opts.isCancelled === 'function' && opts.isCancelled()) return true
+  if (opts && typeof opts.wasTimedOut === 'function' && opts.wasTimedOut()) return false
+  if (isTimeoutAbortError(err)) return false
+  return true
+}
+
+/** Cap resolver lyrics scrapes so the lyrics editor cannot jam before lrclib/ovh. */
+const LYRICS_RESOLVER_BUDGET_MS = 25000
+
+async function searchLyricsViaResolverWithBudget(opts, budgetMs) {
+  const parentSignal = opts.signal
+  const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
+  let timer = null
+  let timedOut = false
+
+  function onParentAbort() {
+    if (controller) {
+      try { controller.abort() } catch (e) { /* ignore */ }
+    }
+  }
+
+  if (controller && parentSignal) {
+    if (parentSignal.aborted) {
+      const err = new Error('Aborted')
+      err.name = 'AbortError'
+      throw err
+    }
+    parentSignal.addEventListener('abort', onParentAbort)
+  }
+  if (controller) {
+    timer = setTimeout(function() {
+      timedOut = true
+      try { controller.abort() } catch (e) { /* ignore */ }
+    }, budgetMs)
+  }
+
+  try {
+    return await searchLyricsViaResolver(Object.assign({}, opts, {
+      signal: controller ? controller.signal : parentSignal,
+    }))
+  } catch (err) {
+    if (timedOut) {
+      const timeoutErr = new Error('Lyrics search timed out')
+      timeoutErr.name = 'AbortError'
+      throw timeoutErr
+    }
+    throw err
+  } finally {
+    if (timer) clearTimeout(timer)
+    if (controller && parentSignal) {
+      parentSignal.removeEventListener('abort', onParentAbort)
+    }
+  }
+}
+
+async function searchLyricsLightAfterResolver(opts) {
+  if (typeof opts.onProgress === 'function') {
+    opts.onProgress('Trying lightweight lyrics sources…', 0.4, 'fallback')
+  }
+  // Job timeout aborts the parent signal; give light APIs a fresh short window.
+  if (opts.signal && opts.signal.aborted) {
+    const controller = typeof AbortController !== 'undefined' ? new AbortController() : null
+    let timer = null
+    if (controller) {
+      timer = setTimeout(function() {
+        try { controller.abort() } catch (e) { /* ignore */ }
+      }, 25000)
+    }
+    try {
+      return await searchLyricsLight(Object.assign({}, opts, {
+        signal: controller ? controller.signal : undefined,
+        skipColdIndexLoad: opts.skipColdIndexLoad,
+        indexTimeoutMs: opts.indexTimeoutMs,
+      }))
+    } finally {
+      if (timer) clearTimeout(timer)
+    }
+  }
+  return searchLyricsLight(Object.assign({}, opts, {
+    skipColdIndexLoad: opts.skipColdIndexLoad,
+    indexTimeoutMs: opts.indexTimeoutMs,
+  }))
 }
 
 export async function searchLyrics(options) {
@@ -136,23 +231,26 @@ export async function searchLyrics(options) {
 
   if (opts.url) {
     try {
-      const result = await searchLyricsViaResolver(opts)
+      const result = await searchLyricsViaResolverWithBudget(opts, LYRICS_RESOLVER_BUDGET_MS)
       if (!shouldFallbackFromResolverResult(result)) return result
     } catch (err) {
-      if (!shouldFallbackFromResolverError(err)) throw err
+      if (shouldRethrowAbort(err, opts)) throw err
+      if (!shouldFallbackFromResolverError(err, opts)) throw err
     }
-    return searchLyricsLight(opts)
+    return searchLyricsLightAfterResolver(opts)
   }
 
   const useResolver = shouldUseResolver(opts)
 
   if (useResolver) {
     try {
-      const result = await searchLyricsViaResolver(opts)
+      const result = await searchLyricsViaResolverWithBudget(opts, LYRICS_RESOLVER_BUDGET_MS)
       if (!shouldFallbackFromResolverResult(result)) return result
     } catch (err) {
-      if (!shouldFallbackFromResolverError(err)) throw err
+      if (shouldRethrowAbort(err, opts)) throw err
+      if (!shouldFallbackFromResolverError(err, opts)) throw err
     }
+    return searchLyricsLightAfterResolver(opts)
   }
 
   return searchLyricsLight(opts)

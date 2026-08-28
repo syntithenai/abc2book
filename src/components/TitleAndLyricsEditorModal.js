@@ -25,6 +25,7 @@ import TuneArtistsField from './TuneArtistsField'
 import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
 import EditorAddFromToolbar from './EditorAddFromToolbar'
 import useAbcjsParser from '../useAbcjsParser'
+import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 
 function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
   const text = String(textValue || '')
@@ -331,7 +332,33 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           onGenreAccept={acceptSuggestedGenre}
                           token={token}
                           tunebook={tunebook}
+                          resolverAvailable={resolverAvailable}
+                          existingLyrics={lyricsText}
                           onLyrics={function(result) { applyLyricsNow(result.lines) }}
+                          onChords={function(result) {
+                            const committed = commitChordSearchResultToTune({
+                              result: result,
+                              tune: tune,
+                              tunebook: tunebook,
+                              abcjsParser: abcjsParser,
+                              updateLyrics: true,
+                              // Lyrics editor: keep chords in the lyrics field.
+                              skipAbcMerge: true,
+                              historyLabel: 'Search chords and lyrics',
+                            })
+                            if (!committed.ok) {
+                              toast.error(
+                                (committed.error && committed.error.message)
+                                  ? committed.error.message
+                                  : 'Could not apply chord search result'
+                              )
+                              return
+                            }
+                            if (committed.updateLyrics && Array.isArray(committed.lyricLines)) {
+                              applyLyricsNow(committed.lyricLines)
+                            }
+                            toast.success('Chords and lyrics updated from search')
+                          }}
                         />
                         <Button
                           variant="outline-primary"

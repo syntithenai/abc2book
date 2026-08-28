@@ -105,6 +105,26 @@ describe('searchListRows', function() {
     expect(isTuneSearchRow(merged[3])).toBe(true);
   });
 
+  test('mergeSearchListRows can omit media when includeMedia is false', function() {
+    const tuneRows = tuneRowsFromTunes([{ id: 'a', name: 'Alpha' }], 'alp');
+    const merged = mergeSearchListRows(tuneRows, [
+      { id: '1', title: 'Beta', source: 'device-file', uri: 'content://1' },
+    ], { includeMedia: false });
+    expect(merged).toHaveLength(1);
+    expect(isTuneSearchRow(merged[0])).toBe(true);
+  });
+
+  test('media-only merge produces a single Media Sources section', function() {
+    const merged = mergeSearchListRows([], [
+      { id: '1', title: 'Beta', source: 'device-file', uri: 'content://1' },
+      { id: '2', title: 'Gamma', source: 'youtube', link: 'https://youtu.be/x' },
+    ], { includeMedia: true });
+    const headers = merged.filter(isSearchSectionHeaderRow);
+    expect(headers).toHaveLength(1);
+    expect(headers[0].label).toBe('Media Sources');
+    expect(merged.filter(isMediaSearchRow)).toHaveLength(2);
+  });
+
   test('getSearchRowKey distinguishes media and tune rows', function() {
     const tuneKey = getSearchRowKey({ kind: 'tune', tune: { id: 't1' } }, 0);
     const mediaKey = getSearchRowKey({

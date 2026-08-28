@@ -98,6 +98,13 @@ export default function FileOcrReviewModal(props) {
                 <>
                   <div className="mb-2">
                     Suggested changes for <strong>{job.tuneName || 'tune'}</strong> from <em>{job.fileName}</em>
+                    {job.result && job.result.transcription && (job.result.transcription.sheetFormat || job.result.transcription.pageType)
+                      ? (
+                        <span className="text-muted">
+                          {' '}({String(job.result.transcription.sheetFormat || job.result.transcription.pageType)})
+                        </span>
+                      )
+                      : null}
                   </div>
                   {patches.length === 0 ? (
                     <div className="text-muted">No patches.</div>

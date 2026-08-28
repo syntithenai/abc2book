@@ -1,0 +1,103 @@
+{
+  "id": "05-blues",
+  "title": "05 Blues",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "07-styles/05-blues.md",
+  "sections": [
+    {
+      "id": "blues-form-scale-and-expression",
+      "title": "Blues: Form, Scale, and Expression",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** styles | **Difficulty:** 4/10 | **Time:** ~10 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Blues combines repeating harmonic form, a distinctive scale, and microtonal inflection — foundation of jazz, rock, and R&B."
+        }
+      ]
+    },
+    {
+      "id": "twelve-bar-blues",
+      "title": "Twelve-bar blues",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "I–IV–V (often dominant sevenths) over 12 bars with standard turnarounds. Variants: 8-bar, 16-bar regional styles."
+        }
+      ]
+    },
+    {
+      "id": "blues-scale",
+      "title": "Blues scale",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Minor pentatonic plus lowered 3rd, 5th, and 7th — 'blue notes' bent between piano keys. Vocal cry parallel to sean-nós inflection."
+        }
+      ]
+    },
+    {
+      "id": "folk-intersection",
+      "title": "Folk intersection",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Appalachian ballads meet African American song forms. Trad bands add shuffle to hornpipes. Three-chord map for pub jams."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-twelve-bar-blues-uses",
+      "title": "Q1. Twelve-bar blues uses:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) I, IV, V harmonies\n- B) Only minor ii\n- C) One chord throughout\n- D) Diminished chains only\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-blue-notes-involve-flattened-3rd7th-with-pitch-bending",
+      "title": "Q2. Blue notes involve flattened 3rd/7th with pitch bending.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Twelve-bar blues uses:\n\n- A) I, IV, V harmonies\n- B) Only minor ii\n- C) One chord throughout\n- D) Diminished chains only\n\n**Answer:** A\n\n### Q2. Blue notes involve flattened 3rd/7th with pitch bending.\n\n**Answer:** True"
+}

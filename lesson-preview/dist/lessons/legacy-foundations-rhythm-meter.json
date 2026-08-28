@@ -1,0 +1,312 @@
+{
+  "id": "legacy-foundations-rhythm-meter",
+  "title": "Note Durations and Time Signatures",
+  "track": "foundations",
+  "tier": 1,
+  "region": null,
+  "difficulty": 2,
+  "prerequisites": [],
+  "tags": [
+    "foundations",
+    "legacy"
+  ],
+  "path": "01-foundations/02-rhythm-meter.md",
+  "sections": [
+    {
+      "id": "note-durations-and-time-signatures",
+      "title": "Note Durations and Time Signatures",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** foundations | **Difficulty:** 0/10 | **Time:** ~10 min\n**Tags:** rhythm, meter, notation"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Rhythm organises music in time. Note values show how long each pitch lasts relative to the beat; time signatures group beats into measures (bars). Together they create the rhythmic grid dancers feel and musicians count."
+        }
+      ]
+    },
+    {
+      "id": "note-values",
+      "title": "Note values",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "From longest to shortest common values: **whole** (4 beats in 4/4), **half** (2 beats), **quarter** (1 beat), **eighth** (½ beat), **sixteenth** (¼ beat). A dot after a note adds half its value. Ties connect notes across bar lines. In ABC notation, `L:1/8` sets the default unit; `a2` doubles length, `/2` halves it."
+        }
+      ]
+    },
+    {
+      "id": "simple-time-signatures",
+      "title": "Simple time signatures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "The top number counts beats per bar; the bottom shows the beat unit. **4/4** (common time): four quarter-note beats — reels, marches, most songs. **2/4**: two quarter beats — polkas, some hornpipes. **3/4**: three quarter beats — waltzes. **2/2** (cut time): two half-note beats — fast reels feel driven in two."
+        }
+      ]
+    },
+    {
+      "id": "compound-time-signatures",
+      "title": "Compound time signatures",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**6/8**: two beats per bar, each divided into three eighth notes — the jig pulse (\"JIG-ged-y JIG-ged-y\"). **9/8**: three beats, each a triplet — slip jigs. **12/8**: four beats of triplets — blues shuffle, some slow airs. Compound meter groups beats in threes while the top number is divisible by three."
+        }
+      ]
+    },
+    {
+      "id": "syncopation-and-pick-up-notes",
+      "title": "Syncopation and pick-up notes",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Syncopation stresses weak beats or offbeats, creating forward drive in jazz, reggae, and swung hornpipes. Pick-up (anacrusis) notes begin a phrase before the first full bar — common in reels where the melody starts on beat four of the previous imaginary bar."
+        }
+      ]
+    },
+    {
+      "id": "in-practice",
+      "title": "In practice",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Tap your foot to the main beat, not every subdivision. In 6/8, feel two beats; in 4/4, feel four. Matching foot-tap to written meter is the fastest fix for sight-reading confusion."
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. What does 6/8 time most strongly suggest?\n\n- A) Two beats per bar, each divided into three eighth notes\n- B) Six equal stressed beats\n- C) Three quarter-note beats (waltz)\n- D) Four beats with backbeat\n\n**Answer:** A — 6/8 is compound duple: two main beats, each a triplet.\n\n### Q2. In 4/4 time, how many quarter-note beats are in one bar?\n\n- A) 4\n- B) 2\n- C) 3\n- D) 8\n\n**Answer:** A — The top number of simple time signatures gives beats per measure.\n\n### Q3. A dotted quarter note in 4/4 lasts how many beats?\n\n- A) 1.5\n- B) 2\n- C) 0.75\n- D) 3\n\n**Answer:** A — A dot adds half the note's value: 1 + ½ = 1.5 beats.\n\n### Q4. Cut time (2/2) is often used for fast reels.\n\n**Answer:** True — 2/2 emphasises a two-beat feel at brisk tempo.",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What does 6/8 time most strongly suggest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two beats per bar, each divided into three eighth notes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis O'Neill",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "6/8 is compound duple: two main beats, each a triplet."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "In 4/4 time, how many quarter-note beats are in one bar?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brendan Breathnach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mullingar, 1951",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4",
+          "correct": true
+        }
+      ],
+      "explain": "The top number of simple time signatures gives beats per measure."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "A dotted quarter note in 4/4 lasts how many beats?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intangible cultural heritage of humanity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1.5",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Mullingar, 1951",
+          "correct": false
+        }
+      ],
+      "explain": "A dot adds half the note's value: 1 + ½ = 1.5 beats."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Cut time (2/2) is often used for fast reels.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "2/2 emphasises a two-beat feel at brisk tempo."
+    }
+  ],
+  "quiz": {
+    "id": "legacy-foundations-rhythm-meter-quiz",
+    "title": "Note Durations and Time Signatures quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "What does 6/8 time most strongly suggest?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Two beats per bar, each divided into three eighth notes",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Francis O'Neill",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "6/8 is compound duple: two main beats, each a triplet."
+      },
+      {
+        "id": "q2",
+        "type": "mcq",
+        "prompt": "In 4/4 time, how many quarter-note beats are in one bar?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Brendan Breathnach",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Mullingar, 1951",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "4",
+            "correct": true
+          }
+        ],
+        "explain": "The top number of simple time signatures gives beats per measure."
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "A dotted quarter note in 4/4 lasts how many beats?",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Intangible cultural heritage of humanity",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "1.5",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Mullingar, 1951",
+            "correct": false
+          }
+        ],
+        "explain": "A dot adds half the note's value: 1 + ½ = 1.5 beats."
+      },
+      {
+        "id": "q4",
+        "type": "truefalse",
+        "prompt": "Cut time (2/2) is often used for fast reels.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "2/2 emphasises a two-beat feel at brisk tempo."
+      }
+    ]
+  }
+}

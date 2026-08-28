@@ -52,6 +52,10 @@ async function searchChordsAndLyricsForTune(tune, tunebook, token, signal, fixOp
     resolverAvailable: fixOpts && fixOpts.resolverAvailable,
     abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
     renderChords: fixOpts && typeof fixOpts.renderChords === 'function' ? fixOpts.renderChords : null,
+    preferRemoteChords: true,
+    skipLocalChords: true,
+    skipColdIndexLoad: true,
+    forceResolver: !(fixOpts && fixOpts.resolverAvailable === false),
   }
   try {
     const chordResult = unwrapSearchResult(await searchChords(searchOpts))
@@ -63,7 +67,9 @@ async function searchChordsAndLyricsForTune(tune, tunebook, token, signal, fixOp
   } catch (chordError) {
     if (chordError && chordError.name === 'AbortError') throw chordError
     try {
-      const lyricResult = unwrapSearchResult(await searchLyrics(searchOpts))
+      const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
+        skipColdIndexLoad: true,
+      })))
       return {
         chordText: '',
         lyricLines: Array.isArray(lyricResult.lines)

@@ -120,20 +120,92 @@ def _score_metadata(score) -> dict[str, str]:
     return {"key": key_text, "meter": meter_text}
 
 
+def _measure_quarter_lengths(part) -> list[float]:
+    """Sum of note/rest quarterLengths per measure (chord tones counted once)."""
+    out: list[float] = []
+    for measure in getattr(part, "getElementsByClass", lambda *_: [])("Measure"):
+        total = 0.0
+        for element in measure.notesAndRests:
+            ql = float(getattr(element, "quarterLength", 0.0) or 0.0)
+            if ql <= 0:
+                continue
+            total += ql
+        if total > 0.05:
+            out.append(total)
+    return out
+
+
+def _infer_meter_from_bar_lengths(bar_quarters: list[float]) -> str | None:
+    """Guess M: from median bar length in quarter notes (L:1/4 units).
+
+    Examples: 3/8 → 1.5 quarters (three eighths); 6/8 → 3.0; 2/4 → 2.0.
+    """
+    if len(bar_quarters) < 2:
+        return None
+    ordered = sorted(bar_quarters)
+    mid = ordered[len(ordered) // 2]
+    # (target_quarters, meter)
+    candidates = (
+        (0.75, "3/8"),  # rare: three 16ths under wrong scaling
+        (1.0, "2/4"),
+        (1.5, "3/8"),   # three eighths
+        (2.0, "2/4"),
+        (3.0, "6/8"),   # six eighths (also 3/4)
+        (4.0, "4/4"),
+    )
+    best = None
+    best_dist = 1e9
+    for target, meter in candidates:
+        dist = abs(mid - target)
+        if dist < best_dist:
+            best_dist = dist
+            best = meter
+    if best_dist > 0.35:
+        return None
+    # 3.0 quarters: prefer 6/8 for folk jigs over 3/4 when bars look even.
+    if abs(mid - 3.0) <= 0.25:
+        best = "6/8"
+    if abs(mid - 1.5) <= 0.2:
+        best = "3/8"
+    return best
+
+
 def _duration_suffix(quarter_length: float) -> str:
-    if abs(quarter_length - 1.0) < 0.01:
-        return ""
-    if abs(quarter_length - 0.5) < 0.01:
-        return "/2"
-    if abs(quarter_length - 2.0) < 0.01:
-        return "2"
-    if abs(quarter_length - 4.0) < 0.01:
-        return "4"
-    if abs(quarter_length - 0.25) < 0.01:
-        return "/4"
-    if abs(quarter_length - 1.5) < 0.01:
-        return "3/2"
-    return str(round(quarter_length, 3)).rstrip("0").rstrip(".")
+    """ABC duration relative to L:1/4 (unit = one quarter note)."""
+    ql = float(quarter_length or 0.0)
+    # Snap near-miss floating durations from MusicXML/homr before emitting decimals.
+    snap_points = (
+        4.0, 3.0, 2.0, 1.5, 1.0, 0.75, 0.5, 0.375, 0.25, 0.125, 0.0625,
+    )
+    for point in snap_points:
+        if abs(ql - point) <= max(0.02, point * 0.08):
+            ql = point
+            break
+    mapping = {
+        4.0: "4",
+        3.0: "3",
+        2.0: "2",
+        1.5: "3/2",
+        1.0: "",
+        0.75: "3/4",
+        0.5: "/2",
+        0.375: "3/8",
+        0.25: "/4",
+        0.125: "/8",
+        0.0625: "/16",
+    }
+    if ql in mapping:
+        return mapping[ql]
+    # Prefer exact simple fractions over raw decimals (e.g. 0.333 -> avoid "0.333").
+    for denom in (2, 3, 4, 6, 8, 12, 16):
+        numer = round(ql * denom)
+        if numer > 0 and abs(ql - (numer / denom)) < 0.02:
+            if numer == denom:
+                return ""
+            if numer == 1:
+                return f"/{denom}"
+            return f"{numer}/{denom}"
+    return str(round(ql, 3)).rstrip("0").rstrip(".")
 
 
 def _pitch_to_abc(note_element) -> str:
@@ -260,11 +332,26 @@ def extract_main_melody_from_musicxml(musicxml_text: str) -> dict[str, Any]:
     if not abc_body.strip():
         raise ValueError("Melody extraction produced no notes")
 
+    # Token durations use L:1/4 semantics ("" = quarter). Emit matching header
+    # so consumers do not misread eighths as sixteenths.
+    meter = metadata.get("meter") or ""
+    bar_ql = _measure_quarter_lengths(simplified)
+    inferred = _infer_meter_from_bar_lengths(bar_ql)
+    # HOMR often omits time signatures or stamps 4/4; prefer bar-length guess.
+    if inferred and (not meter or meter == "4/4"):
+        if meter == "4/4" and inferred != "4/4":
+            warnings.append(f"meter_inferred:{inferred}_was_{meter}")
+        meter = inferred
+    if not meter:
+        meter = inferred or "2/4"
+    key = metadata.get("key") or "C"
+    abc_with_headers = f"M:{meter}\nL:1/4\nK:{key}\n{abc_body}"
+
     return {
-        "abc": abc_body,
+        "abc": abc_with_headers,
         "musicXml": musicxml_text,
-        "key": metadata.get("key") or "",
-        "meter": metadata.get("meter") or "",
+        "key": key,
+        "meter": meter,
         "warnings": warnings,
         "partName": _part_name(melody_part),
         "confidence": 0.75 if warnings else 0.85,

@@ -1,0 +1,103 @@
+{
+  "id": "02-dynamics",
+  "title": "02 Dynamics",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "02-italian-terms/02-dynamics.md",
+  "sections": [
+    {
+      "id": "dynamic-markings-from-pianissimo-to-fortissimo",
+      "title": "Dynamic Markings: From Pianissimo to Fortissimo",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** italian-terms | **Difficulty:** 1/10 | **Time:** ~8 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dynamics indicate volume and its changes. Italian abbreviations are universal across classical, folk, and popular notation."
+        }
+      ]
+    },
+    {
+      "id": "static-dynamics",
+      "title": "Static dynamics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**pp** pianissimo — very soft. **p** piano — soft. **mp** mezzo piano — moderately soft. **mf** mezzo forte — moderately loud (common default). **f** forte — loud. **ff** fortissimo — very loud. **fff** — extreme loudness (rare)."
+        }
+      ]
+    },
+    {
+      "id": "changing-dynamics",
+      "title": "Changing dynamics",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Crescendo** (cresc. or <) — gradually louder. **Diminuendo/decrescendo** (dim., decresc., or >) — gradually softer. **Sforzando** (sf, sfz) — sudden accent. **Forte-piano** (fp) — loud attack then immediately soft."
+        }
+      ]
+    },
+    {
+      "id": "in-ensemble",
+      "title": "In ensemble",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Dynamics interact with articulation and tempo. A reel at mf with crisp bowing differs from mp with sustain. Céilí band arrangements use strategic dynamic shifts to mark tune changes and solos."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-mf-stands-for",
+      "title": "Q1. mf stands for:",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) Mezzo forte\n- B) Molto forte\n- C) Mezzo piano\n- D) Minor fortissimo\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-crescendo-means-gradually-louder",
+      "title": "Q2. Crescendo means gradually louder.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. mf stands for:\n\n- A) Mezzo forte\n- B) Molto forte\n- C) Mezzo piano\n- D) Minor fortissimo\n\n**Answer:** A\n\n### Q2. Crescendo means gradually louder.\n\n**Answer:** True"
+}

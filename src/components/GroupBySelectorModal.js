@@ -1,12 +1,14 @@
 import {useState} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
-import { GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED } from '../tuneListFilter'
+import { GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED, GROUP_BY_PAGE, GROUP_BY_NONE, resolveEffectiveGroupBy } from '../tuneListFilter'
+import { sortTunesByBookPage } from '../tuneBookPages'
 
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
   const responsiveModalProps = useResponsiveModalProps();
   const options = {
+    page: 'page',
     boost: 'confidence',
     difficulty: 'difficulty',
     key: 'key',
@@ -24,13 +26,14 @@ function GroupBySelectorModal(props) {
   const handleShow = (e) => {
     setShow(true);
   }
+  const effectiveGroupBy = resolveEffectiveGroupBy(props.value, props.currentTuneBook)
   return (
     <>
       <Button className="tune-search-layout-btn" style={{color:'black', fontWeight:'bold'}} onClick={handleShow}>
         {props.tunebook.icons.stack}
         {props.hideSelection
           ? <span className="tune-search-filters-btn-label"> Group by</span>
-          : (props.value && options[props.value] ? ' ' + options[props.value] : '')}
+          : (effectiveGroupBy && options[effectiveGroupBy] ? ' ' + options[effectiveGroupBy] : '')}
       </Button>
 
       <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
@@ -39,10 +42,13 @@ function GroupBySelectorModal(props) {
         </Modal.Header>
         <Modal.Body>
           <ListGroup  style={{clear:'both', width: '100%'}}>
-            <ListGroup.Item  style={{fontSize:'1.5em'}} key={'first'} className='odd'  onClick={function(e) {props.onChange(''); handleClose()}} >No Grouping</ListGroup.Item>
+            <ListGroup.Item  style={{fontSize:'1.5em'}} key={'first'} className='odd'  onClick={function(e) {props.onChange(GROUP_BY_NONE); handleClose()}} >No Grouping</ListGroup.Item>
             <>
             {Object.keys(options).map(function(option,tk) {
-              return <ListGroup.Item  style={{fontSize:'1.5em', border: (props.value && props.value == option) ? '2px solid black' : '' }} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); handleClose()}} > {options[option]} </ListGroup.Item>
+              const selected = option === GROUP_BY_PAGE
+                ? effectiveGroupBy === GROUP_BY_PAGE
+                : props.value === option
+              return <ListGroup.Item  style={{fontSize:'1.5em', border: selected ? '2px solid black' : '' }} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); handleClose()}} > {options[option]} </ListGroup.Item>
             })}
             </>
           </ListGroup>

@@ -34,6 +34,7 @@ export function createImportCandidate(options) {
   const skipEnrich = options.skipEnrich !== undefined
     ? !!options.skipEnrich
     : true;
+  const sheetFormat = String(options.sheetFormat || options.pageType || tune.sheetFormat || tune.pageType || '').trim();
   return {
     id: options.id || 'candidate-' + Date.now() + '-' + Math.random().toString(36).slice(2, 7),
     tune: Object.assign({}, tune),
@@ -48,6 +49,8 @@ export function createImportCandidate(options) {
     skipEnrich: sourceKind === 'sheetimage' ? true : skipEnrich,
     contentHashDuplicate: !!options.contentHashDuplicate,
     imported: false,
+    sheetFormat: sheetFormat,
+    pageType: sheetFormat,
   };
 }
 

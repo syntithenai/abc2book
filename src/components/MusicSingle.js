@@ -9,6 +9,7 @@ import BookMultiSelectorModal from  './BookMultiSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import ShareTunebookModal from './ShareTunebookModal'
 import TuneEnhanceButton from './TuneEnhanceButton'
+import TuneFindSimilarButton from './TuneFindSimilarButton'
 import {useSwipeable} from 'react-swipeable'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import YouTube from 'react-youtube';  
@@ -724,6 +725,18 @@ export default function MusicSingle(props) {
         
         function onEnded(progress, start, stop,seek) {
             if (playalong.handlePlaybackEnded()) return
+            // When this view owns the MIDI engine, finish via mediaController so intent
+            // clears and the primed buffer is kept for replay (pauseAtRegionStart).
+            // Host-owned MIDI ends through NowPlayingHost's onEnded instead.
+            if (ownMidiEngine && props.mediaController && props.mediaController.isMidiPlaybackRoute
+                && props.mediaController.isMidiPlaybackRoute()
+                && props.mediaController.onEnded) {
+                props.mediaController.onEnded()
+                if (props.mediaPlaylist || props.abcPlaylist) {
+                    nextLinkOrTune()
+                }
+                return
+            }
             if (props.mediaPlaylist || props.abcPlaylist) {
                 nextLinkOrTune()
             }
@@ -1016,13 +1029,28 @@ export default function MusicSingle(props) {
                   <div
                     className={'music-actions-edit-actions-row' + (actionIconsOnly ? ' music-actions-edit-actions-row--icons' : '')}
                     role="group"
-                    aria-label="Enhance, share, print, download, delete"
+                    aria-label="Find similar, enhance, share, print, download, delete"
                   >
+                    <span onClick={function(e) { e.stopPropagation() }}>
+                      <TuneFindSimilarButton
+                        tune={tune}
+                        tunebook={props.tunebook}
+                        tunes={props.tunes}
+                        token={props.token}
+                        className="tune-find-similar"
+                        toggleClassName={'music-actions-menu-btn' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
+                        labelClassName="music-actions-menu-btn-label"
+                        toggleLabel=" Find Similar"
+                        hideLabel={actionIconsOnly}
+                        onOpen={function() { setEditMenuShow(false) }}
+                      />
+                    </span>
                     <span onClick={function(e) { e.stopPropagation() }}>
                       <TuneEnhanceButton
                         tune={tune}
                         tunebook={props.tunebook}
                         token={props.token}
+                        login={props.login}
                         forceRefresh={props.forceRefresh}
                         className="tune-enhance-dropdown"
                         toggleClassName={'music-actions-menu-btn' + (actionIconsOnly ? '' : ' music-actions-menu-btn--labeled')}
@@ -1638,8 +1666,28 @@ export default function MusicSingle(props) {
                       />
                     ) : null}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {
+                       // Natural MIDI end must not call pause(): that marked userPaused
+                       // and used to abort/destroy the primed buffer, so replay toasted
+                       // "Could not load notation playback". onEnded → pauseAtRegionStart.
+                       if (props.mediaController && props.mediaController.isMidiPlaybackRoute
+                           && props.mediaController.isMidiPlaybackRoute()) {
+                         if (props.mediaController.setIsPlaying) props.mediaController.setIsPlaying(false)
+                         return
+                       }
+                       if (props.mediaController && props.mediaController.pause) props.mediaController.pause()
+                     }}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {
+                       // Natural MIDI end must not call pause(): that marked userPaused
+                       // and used to abort/destroy the primed buffer, so replay toasted
+                       // "Could not load notation playback". onEnded → pauseAtRegionStart.
+                       if (props.mediaController && props.mediaController.isMidiPlaybackRoute
+                           && props.mediaController.isMidiPlaybackRoute()) {
+                         if (props.mediaController.setIsPlaying) props.mediaController.setIsPlaying(false)
+                         return
+                       }
+                       if (props.mediaController && props.mediaController.pause) props.mediaController.pause()
+                     }}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                    </div>
                     {playalongCanRecord && showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
                       <PlayalongStaffPitchStrips

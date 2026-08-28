@@ -544,6 +544,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/lyrics-alliteration') === 0) return 'lyrics-alliteration';
   if (pathAndQuery.indexOf('/search-chords') === 0) return 'search-chords';
   if (pathAndQuery.indexOf('/search-notation') === 0) return 'search-notation';
+  if (pathAndQuery.indexOf('/search-similar-melodies') === 0) return 'search-similar-melodies';
   if (pathAndQuery.indexOf('/search-music-collection') === 0) return 'search-music-collection';
   if (pathAndQuery.indexOf('/browse-music-collection') === 0) return 'browse-music-collection';
   if (pathAndQuery.indexOf('/music-collection-duplicates') === 0) return 'music-collection-duplicates';
@@ -576,6 +577,8 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/generate-audio') === 0) return 'generate-audio';
   if (pathAndQuery.indexOf('/render-midi') === 0) return 'render-midi';
   if (pathAndQuery.indexOf('/transcribe-sheet-image') === 0) return 'transcribe-sheet-image';
+  if (pathAndQuery.indexOf('/extract-sheet-metadata') === 0) return 'extract-sheet-metadata';
+  if (pathAndQuery.indexOf('/split-sheet-page') === 0) return 'split-sheet-page';
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
   if (pathAndQuery.indexOf('/midi2abc') === 0) return 'midi2abc';
   if (pathAndQuery.indexOf('/midi2xml') === 0) return 'midi2xml';
@@ -891,6 +894,7 @@ const HEAVY_ML_PATH_PREFIXES = [
   '/stems/',
   '/transcribe-sheet-image',
   '/extract-sheet-metadata',
+  '/split-sheet-page',
   '/analyze-media',
   '/detect-chords',
   '/analyze-practice',

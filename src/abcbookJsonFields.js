@@ -7,7 +7,8 @@ const CHUNK_SIZE = 180;
 export const TIMED_JSON_FIELDS = [];
 export const PLAYBACK_JSON_FIELDS = ['playbackAudioFilters'];
 /** Chord-editor stanza labels (override positional lyric assignment). */
-export const EXTRA_JSON_FIELDS = ['chordSectionLabels'];
+/** bookPages: { [bookId]: { page, tuneIndex } } — per-book page order. */
+export const EXTRA_JSON_FIELDS = ['chordSectionLabels', 'bookPages'];
 export const LEGACY_TIMED_JSON_FIELDS = ['timedLyrics', 'timedChords', 'timedMelody'];
 
 export function renderAbcbookJsonField(fieldName, value) {
@@ -29,6 +30,7 @@ export function renderExtraAbcbookJsonFields(tune) {
   EXTRA_JSON_FIELDS.forEach(function(fieldName) {
     const value = tune[fieldName];
     if (value === null || value === undefined || value === '') return;
+    if (typeof value === 'object' && !Array.isArray(value) && Object.keys(value).length === 0) return;
     lines.push.apply(lines, renderAbcbookJsonField(fieldName, value));
   });
   return lines;

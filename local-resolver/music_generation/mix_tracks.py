@@ -11,6 +11,8 @@ STRETCH_BPM_DRIFT_THRESHOLD = 0.07
 DURATION_TRIM_PAD_THRESHOLD_SEC = 0.5
 DURATION_STRETCH_THRESHOLD_SEC = 1.0
 BAR_CROSSFADE_MS = 15.0
+# Longer fades at Stable Audio chunk joins (bar-aligned seams).
+CHUNK_STITCH_FADE_MS = 100.0
 
 
 def _load_mono(path: Path, target_sr: int | None = None) -> tuple[np.ndarray, int]:
@@ -232,21 +234,69 @@ def stitch_audio_sections(
     *,
     sr: int,
     fade_ms: float = BAR_CROSSFADE_MS,
+    overlap_sec: float = 0.0,
 ) -> dict:
+    """Stitch section WAVs with optional generation overlap.
+
+    When overlap_sec > 0, each path after the first is assumed to include an
+    overlap_sec prefix that duplicates the end of the previous section; that
+    prefix is used as the crossfade region (capped by fade_ms).
+    """
     fade_samples = max(1, int(round(fade_ms / 1000.0 * sr)))
+    overlap_samples = max(0, int(round(float(overlap_sec) * sr))) if overlap_sec > 0 else 0
+    if overlap_samples > 0:
+        fade_samples = max(fade_samples, min(overlap_samples, int(round(CHUNK_STITCH_FADE_MS / 1000.0 * sr))))
+
     chunks: list[np.ndarray] = []
-    for path, duration in zip(section_paths, section_durations_sec, strict=False):
+    for index, (path, duration) in enumerate(zip(section_paths, section_durations_sec, strict=False)):
         audio, file_sr = _load_mono(path, target_sr=sr)
-        target_samples = max(1, int(round(float(duration) * sr)))
-        audio = _match_length(audio, target_samples)
+        if index == 0:
+            target_samples = max(1, int(round(float(duration) * sr)))
+            audio = _match_length(audio, target_samples)
+        elif overlap_samples > 0:
+            # Generated with overlap prefix: keep prefix + unique body.
+            unique_samples = max(1, int(round(float(duration) * sr)))
+            need = overlap_samples + unique_samples
+            audio = _match_length(audio, need)
+        else:
+            target_samples = max(1, int(round(float(duration) * sr)))
+            audio = _match_length(audio, target_samples)
         chunks.append(audio)
-    mixed = _crossfade_join(chunks, fade_samples)
+
+    if overlap_samples > 0 and len(chunks) > 1:
+        mixed = chunks[0]
+        for chunk in chunks[1:]:
+            ov = min(overlap_samples, len(mixed), len(chunk))
+            fade = min(fade_samples, ov)
+            if fade <= 0:
+                mixed = np.concatenate([mixed, chunk])
+                continue
+            # Align: previous ends with ov samples that match chunk[:ov]
+            head = mixed[:-ov] if len(mixed) > ov else np.array([], dtype=np.float32)
+            prev_tail = mixed[-ov:]
+            next_head = chunk[:ov]
+            fade_out = np.linspace(1.0, 0.0, fade, dtype=np.float32)
+            fade_in = np.linspace(0.0, 1.0, fade, dtype=np.float32)
+            # Crossfade the last `fade` samples of the overlap region.
+            if ov > fade:
+                blended = np.concatenate([
+                    prev_tail[: ov - fade] * 0.5 + next_head[: ov - fade] * 0.5,
+                    prev_tail[ov - fade :] * fade_out + next_head[ov - fade :] * fade_in,
+                ])
+            else:
+                blended = prev_tail * fade_out + next_head * fade_in
+            mixed = np.concatenate([head, blended, chunk[ov:]])
+    else:
+        mixed = _crossfade_join(chunks, fade_samples)
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     sf.write(str(output_path), mixed, sr)
     return {
         "sampleRate": sr,
         "durationSec": len(mixed) / float(sr),
         "sectionCount": len(chunks),
+        "fadeMs": fade_ms,
+        "overlapSec": float(overlap_sec) if overlap_sec else 0.0,
     }
 
 

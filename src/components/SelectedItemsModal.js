@@ -611,6 +611,7 @@ export default function SelectedItemsModal(props) {
                 selected={props.selected}
                 selectedCount={props.selectedCount}
                 token={props.token}
+                login={props.login}
                 forceRefresh={props.forceRefresh}
               />
               <BulkCheckModal

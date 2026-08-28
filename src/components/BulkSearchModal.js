@@ -21,6 +21,7 @@ export default function BulkSearchModal({
   selected,
   selectedCount,
   token,
+  login,
   forceRefresh,
 }) {
   const icons = tunebook.icons
@@ -74,8 +75,22 @@ export default function BulkSearchModal({
       canResearchBackground: canResearchBackground,
       canAffordComposer: canAffordComposer,
       hasScannableLinkedMedia: hasScannableLinkedMedia,
+      needsLogin: !!resolverAccess.needsLogin,
+      needsNetwork: !!resolverAccess.needsNetwork,
+      needsCredit: !!resolverAccess.needsCredit,
+      loginWarning: resolverAccess.loginWarning || null,
     }
-  }, [resolverAvailable, features, canResearchBackground, canAffordComposer, hasScannableLinkedMedia])
+  }, [
+    resolverAvailable,
+    features,
+    canResearchBackground,
+    canAffordComposer,
+    hasScannableLinkedMedia,
+    resolverAccess.needsLogin,
+    resolverAccess.needsNetwork,
+    resolverAccess.needsCredit,
+    resolverAccess.loginWarning,
+  ])
 
   function selectedTunes() {
     return tunebook.fromSelection(selected)
@@ -96,6 +111,11 @@ export default function BulkSearchModal({
       canResearchBackground: canResearchBackground,
       canAffordComposer: canAffordComposer,
       hasScannableLinkedMedia: hasScannableLinkedMedia,
+      needsLogin: availabilityContext.needsLogin,
+      needsNetwork: availabilityContext.needsNetwork,
+      needsCredit: availabilityContext.needsCredit,
+      loginWarning: availabilityContext.loginWarning,
+      backgroundEnhance: true,
       fieldLookupQueue: fieldLookupQueue,
       composerQueue: composerQueue,
       backgroundQueue: queue,
@@ -124,6 +144,7 @@ export default function BulkSearchModal({
         toggleLabel=" Enhance"
         icons={icons}
         availabilityContext={availabilityContext}
+        onLogin={login}
         title={
           'Enhance '
           + (selectedCount || 0)

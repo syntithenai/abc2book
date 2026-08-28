@@ -1,0 +1,103 @@
+{
+  "id": "09-cello-bass",
+  "title": "09 Cello Bass",
+  "track": "",
+  "tier": "",
+  "region": "",
+  "difficulty": "",
+  "prerequisites": [],
+  "tags": [],
+  "path": "09-instruments/09-cello-bass.md",
+  "sections": [
+    {
+      "id": "cello-and-double-bass",
+      "title": "Cello and Double Bass",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** instruments | **Difficulty:** 2/10 | **Time:** ~12 min"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Lower members of the violin family — essential in classical orchestra and increasingly present in creative trad arrangements."
+        }
+      ]
+    },
+    {
+      "id": "cello",
+      "title": "Cello",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Four strings C-G-D-A. Held between knees (endpin to floor). Rich tenor-bass range. Bach Cello Suites pinnacle of solo repertoire. In trad: accompaniment, drone, rhythmic pulse."
+        }
+      ]
+    },
+    {
+      "id": "double-bass",
+      "title": "Double bass",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "E-A-D-G (often with extension or fifth string). Largest common bowed string. Jazz walking bass lines; orchestral foundation. Irish bass guitar sometimes substitutes in bands."
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Bowing and pizzicato (plucked). Bass provides harmonic root in ensemble — voice-leading considerations apply."
+        }
+      ]
+    },
+    {
+      "id": "quiz-questions",
+      "title": "Quiz Questions",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "q1-cello-tuning-low-to-high",
+      "title": "Q1. Cello tuning (low to high):",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- A) C-G-D-A\n- B) G-D-A-E\n- C) E-A-D-G\n- D) D-A-D-A\n\n**Answer:** A"
+        }
+      ]
+    },
+    {
+      "id": "q2-bach-composed-six-unaccompanied-cello-suites",
+      "title": "Q2. Bach composed six unaccompanied cello suites.",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Answer:** True"
+        }
+      ]
+    }
+  ],
+  "entities": [],
+  "entity_order": [],
+  "playlist": [],
+  "tunes": [],
+  "key_points": [],
+  "reading_list": [],
+  "quiz_markdown": "### Q1. Cello tuning (low to high):\n\n- A) C-G-D-A\n- B) G-D-A-E\n- C) E-A-D-G\n- D) D-A-D-A\n\n**Answer:** A\n\n### Q2. Bach composed six unaccompanied cello suites.\n\n**Answer:** True"
+}

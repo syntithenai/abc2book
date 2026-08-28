@@ -149,6 +149,19 @@ export function PlaylistFollowButton({
   )
 }
 
+function PlaylistModeCheckbox({ checked }) {
+  return (
+    <input
+      type="checkbox"
+      className="form-check-input playlist-mode-btn-check"
+      checked={!!checked}
+      readOnly
+      tabIndex={-1}
+      aria-hidden="true"
+    />
+  )
+}
+
 export default function PlaylistModeButtons({
   nowPlayingQueue,
   setNowPlayingQueue,
@@ -162,6 +175,10 @@ export default function PlaylistModeButtons({
 }) {
   const isLesson = isLessonQueue(nowPlayingQueue)
   const iconSize = size === 'sm' ? 16 : 18
+  const showToggleChecks = !compact
+  const repeatMode = getRepeatMode(nowPlayingQueue)
+  const repeatActive = repeatMode !== 'off'
+  const followActive = !!nowPlayingQueue.followTune
 
   return (
     <ButtonGroup
@@ -184,6 +201,7 @@ export default function PlaylistModeButtons({
           }}
         >
           <span className="playlist-mode-btn-content">
+            {showToggleChecks ? <PlaylistModeCheckbox checked={!!nowPlayingQueue.shuffle} /> : null}
             <PlaylistToggleIcon path={SHUFFLE_ICON_PATH} />
             {compact ? null : <span className="playlist-mode-btn-label">Shuffle</span>}
           </span>
@@ -193,17 +211,18 @@ export default function PlaylistModeButtons({
         <Button
           id="playlist-mode-repeat"
           type="button"
-          variant={getRepeatMode(nowPlayingQueue) !== 'off' ? 'secondary' : 'outline-secondary'}
-          title={REPEAT_MODE_TITLES[getRepeatMode(nowPlayingQueue)]}
-          aria-label={REPEAT_MODE_TITLES[getRepeatMode(nowPlayingQueue)]}
-          aria-pressed={getRepeatMode(nowPlayingQueue) !== 'off'}
+          variant={repeatActive ? 'secondary' : 'outline-secondary'}
+          title={REPEAT_MODE_TITLES[repeatMode]}
+          aria-label={REPEAT_MODE_TITLES[repeatMode]}
+          aria-pressed={repeatActive}
           data-testid={repeatTestId}
           onClick={function() {
             setNowPlayingQueue(cycleRepeatMode(nowPlayingQueue))
           }}
         >
           <span className="playlist-mode-btn-content">
-            <PlaylistRepeatIcon mode={getRepeatMode(nowPlayingQueue)} size={iconSize} />
+            {showToggleChecks ? <PlaylistModeCheckbox checked={repeatActive} /> : null}
+            <PlaylistRepeatIcon mode={repeatMode} size={iconSize} />
             {compact ? null : <span className="playlist-mode-btn-label">Repeat</span>}
           </span>
         </Button>
@@ -212,19 +231,20 @@ export default function PlaylistModeButtons({
         <Button
           id="playlist-mode-follow"
           type="button"
-          variant={nowPlayingQueue.followTune ? 'secondary' : 'outline-secondary'}
-          title={nowPlayingQueue.followTune
+          variant={followActive ? 'secondary' : 'outline-secondary'}
+          title={followActive
             ? 'Following — navigate to each song when it starts'
             : 'Follow off — stay on the current page while the playlist plays'}
-          aria-label={nowPlayingQueue.followTune ? 'Follow on' : 'Follow off'}
-          aria-pressed={!!nowPlayingQueue.followTune}
+          aria-label={followActive ? 'Follow on' : 'Follow off'}
+          aria-pressed={followActive}
           data-testid="playlist-follow-button"
           onClick={function() {
             setNowPlayingQueue(setFollowTune(nowPlayingQueue, !nowPlayingQueue.followTune))
           }}
         >
           <span className="playlist-mode-btn-content">
-            <PlaylistFollowIcon active={!!nowPlayingQueue.followTune} size={iconSize} />
+            {showToggleChecks ? <PlaylistModeCheckbox checked={followActive} /> : null}
+            <PlaylistFollowIcon active={followActive} size={iconSize} />
             {compact ? null : <span className="playlist-mode-btn-label">Follow</span>}
           </span>
         </Button>

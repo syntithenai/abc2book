@@ -1,0 +1,772 @@
+{
+  "id": "regions-celtic-scotland-05-dance",
+  "title": "Scottish Traditional Music — Dance and Rhythm",
+  "track": "regions",
+  "tier": 5,
+  "region": "scotland",
+  "difficulty": 7,
+  "prerequisites": [
+    "regions-celtic-scotland-04-genres-forms"
+  ],
+  "tags": [
+    "scotland",
+    "celtic",
+    "dance",
+    "rhythm"
+  ],
+  "path": "10-regions/celtic/scotland/05-dance.md",
+  "sections": [
+    {
+      "id": "scottish-traditional-music-dance-and-rhythm",
+      "title": "Scottish Traditional Music — Dance and Rhythm",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Track:** regions | **Tier:** 5 | **Difficulty:** 7/10\n**Prerequisites:** regions-celtic-scotland-04-genres-forms\n**Tags:** scotland, ceilidh, highland-dancing, step-dance, pipe-band-drums"
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Overview",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Scottish traditional music exists for **dancing** as much as for listening. A ceilidh band's tempo choices, a piper's strathspey articulation, and a drummer's rim patterns all answer to feet on the floor. This lesson connects **social ceilidh** dances, **Highland dancing** competition, **step dance** traditions, and **pipe-band drumming** — four rhythmic worlds that share repertoire but serve different communities."
+        }
+      ]
+    },
+    {
+      "id": "ceilidh-dancing",
+      "title": "Ceilidh dancing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "A **ceilidh** (*cèilidh*) today usually means a **social dance** with live band and **caller** who teaches or reminds figures. Dances like **Dashing White Sergeant**, **Strip the Willow**, **Gay Gordons**, and [[track:eightsome-reel|Eightsome Reel]] require no prior expertise — the caller walks newcomers through formations while fiddles and accordion drive reels and jigs.\n\nCeilidh culture prizes **inclusion**: weddings, student unions, Burns suppers, and village halls pack the floor. Band tempo must stay **danceable** — racing reels lose beginners mid-figure. Sets often run **strathspey–reel–reel** or jig blocks matching Scottish country dance convention.\n\nCeilidh Dance connects Lowland halls, urban folk scenes, and diaspora St Andrew's nights. The word retains Gaelic roots (*cèilidh* — visit, gathering) even when the programme is English-language and accordion-led.\n\n![Ceilidh dancing in a hall](https://en.wikipedia.org/wiki/Special:FilePath/Ceilidh_dancing.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "musician-responsibilities-at-a-ceilidh",
+      "title": "Musician responsibilities at a ceilidh",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Listen to the caller** — extend repeats when the floor is large; cut when the figure resolves early. **Dynamics** — verse-chorus song breaks differ from instrumental medleys. **Keys** — G, D, and A major dominate; whistle and fiddle players plan accordingly. **Strathspey lift** — dotted pulse must be clear for Scottish country formations; straight reel bowing on a strathspey confuses everyone."
+        }
+      ]
+    },
+    {
+      "id": "highland-dancing",
+      "title": "Highland dancing",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Highland dancing** is a **competitive** and performance tradition — **Sword Dance** (*Gille Chaluim*), **Highland Fling**, **Seann Triubhas**, **Reel of Tulloch** — judged at games and **Highland dancing** championships worldwide. Dancers wear **kilt** and **ghillies**; technique demands precision, elevation, and timing tied to pipe music.\n\nUnlike inclusive ceilidh rows, Highland dancing requires **years of training**. Pipers supply **competition sets** — marches, strathspeys, reels — at prescribed tempos. The visual iconography (swords, kilts, games fields) shapes global \"Scottish music\" imagery as strongly as pipe bands.\n\nHighland Dancing links music to athletics at **Highland games** from Cowal to small village gatherings. Wikipedia notes military and clan associations in historical development; modern sport emphasises athletic artistry.\n\n![Highland dancer with swords](https://en.wikipedia.org/wiki/Special:FilePath/Highland_dancing.jpg?width=640)"
+        }
+      ]
+    },
+    {
+      "id": "step-dance",
+      "title": "Step dance",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Step dance** in Scotland includes **hard-shoe** and **soft-shoe** traditions overlapping Irish sean-nós dance and Cape Breton **stepping**. **Perthshire** and **Shetland** carry step-dance memory; revivalists reconstruct house-party **foot percussion** alongside fiddle.\n\nStep dance may appear informally in folk festivals — a fiddler and dancer trading phrases — rather than in games competition format. Rhythm is **close to the tune** — percussive feet as instrument. Compare Irish sean-nós dance lesson: shared Celtic dance family, distinct national competition structures."
+        }
+      ]
+    },
+    {
+      "id": "pipe-band-drumming",
+      "title": "Pipe band drumming",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "**Pipe bands** pair massed **Great Highland bagpipes** with **snare**, **tenor**, and **bass** drums. **Drummers** play written **scores** with unison rudiments judged at **World Pipe Band Championships** in Glasgow. Snare lines use **rolls**, **flams**, and **drags** aligned to pipe melody; bass and tenor add visual and rhythmic punctuation.\n\nPipe-band drumming is **not** bodhrán backbeat — it is athletic ensemble sport with seasonal peak at games. rspba governs grades and contest rules. Musicians from trad fiddle backgrounds often underestimate drum corps complexity until they sit with a score.\n\nSeasonal rhythm: **summer games** concentrate competition; winter months shift to indoor concerts and pub sessions where drummers may play kit in ceilidh bands instead."
+        }
+      ]
+    },
+    {
+      "id": "rhythm-summary-table",
+      "title": "Rhythm summary table",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "| Context | Pulse driver | Typical forms | Social frame |\n|---------|--------------|---------------|--------------|\n| Ceilidh | Band + caller | Reels, jigs, strathspeys | Inclusive social dance |\n| Highland dancing | Solo piper | Marches, strathspeys, reels | Competition / games |\n| Step dance | Fiddler close | Reels, strathspeys | Informal / revival |\n| Pipe band | Drum corps + pipes | MSR sets, medleys | Graded competition |"
+        }
+      ]
+    },
+    {
+      "id": "compared-with-ireland",
+      "title": "Compared with Ireland",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "Parallel lesson: `regions-celtic-ireland-05-dance`. Irish **céilí** and **set dancing** parallel Scottish **ceilidh** and **country dance** — group formations with live music. Irish **step dance** (Riverdance-era hard shoe) differs from **Highland dancing** competition repertoire though both demand pipe-and-fiddle timing.\n\nIreland lacks **pipe-band drum corps** at Scottish scale. Scottish ceilidh **callers** parallel Irish set-dance **teachers** — human guides essential for floor success. Both traditions warn against **session tempo** ill-suited to dancers' feet."
+        }
+      ]
+    },
+    {
+      "id": "key-points",
+      "title": "Key points",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Ceilidh** dancing is inclusive social dance with caller and band — reels, jigs, and strathspeys at danceable tempo.\n- **Highland dancing** is competitive athletic art tied to games and pipe music sets.\n- **Step dance** preserves percussive foot tradition in revival and informal festival contexts.\n- **Pipe-band drumming** is scored ensemble competition distinct from session bodhrán.\n- Musicians must match **strathspey snap** and **reel lift** to the dance form on the floor.\n- Summer **games season** concentrates pipe-band and Highland dance activity; ceilidhs run year-round."
+        }
+      ]
+    },
+    {
+      "id": "reading-list",
+      "title": "Reading list",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "markdown",
+          "text": "- **Hugh Thurston** — *Scotland's Dances* (formation reference).\n- **Royal Scottish Country Dance Society** — [rscds.org](https://www.rscds.org/) for dance descriptions and music tempo guidance.\n- **Wikipedia** — [Scottish country dance](https://en.wikipedia.org/wiki/Scottish_country_dance), [Highland dance](https://en.wikipedia.org/wiki/Highland_dance).\n- **BBC Scotland** archive programmes on Highland games and ceilidh culture."
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "ceilidh-dance",
+      "type": "tradition",
+      "name": "Ceilidh Dance",
+      "summary": "Inclusive social dance with caller and live band",
+      "blurb": "Strip the Willow, Dashing White Sergeant, and Eightsome Reel pack village halls year-round.",
+      "url": "https://en.wikipedia.org/wiki/C%C3%A8ilidh",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Ceilidh_dancing.jpg?width=320",
+      "playlist_index": 0
+    },
+    {
+      "id": "highland-dancing",
+      "type": "tradition",
+      "name": "Highland Dancing",
+      "summary": "Competitive dance form at Highland games",
+      "blurb": "Sword Dance, Highland Fling, and Seann Triubhas judged to pipe music at games worldwide.",
+      "url": "https://en.wikipedia.org/wiki/Highland_dance",
+      "image": "https://en.wikipedia.org/wiki/Special:FilePath/Highland_dancing.jpg?width=320",
+      "playlist_index": 1
+    }
+  ],
+  "entity_order": [],
+  "playlist": [
+    {
+      "id": "dashing-white-sergeant",
+      "entity_id": "ceilidh-dance",
+      "label": "Dashing White Sergeant ceilidh",
+      "youtube": "https://www.youtube.com/watch?v=GvJ7WMEeR6c",
+      "subtitle": "Ceilidh Dance"
+    },
+    {
+      "id": "highland-fling",
+      "entity_id": "highland-dancing",
+      "label": "Highland Fling competition",
+      "youtube": "https://www.youtube.com/watch?v=2g6F8h8aZ0E",
+      "subtitle": "Highland Dancing"
+    },
+    {
+      "id": "pipe-band-msr",
+      "label": "Pipe band march-strathspey-reel",
+      "youtube": "https://www.youtube.com/watch?v=0nF5mB1JP8s",
+      "subtitle": ""
+    },
+    {
+      "id": "eightsome-reel",
+      "label": "Eightsome Reel",
+      "youtube": "https://www.youtube.com/watch?v=KxVxZP7VqH0",
+      "subtitle": ""
+    }
+  ],
+  "tunes": [],
+  "key_points": [
+    "Ceilidh dancing is inclusive social dance with caller-led figures.",
+    "Highland dancing is competitive athletic art tied to games and pipe sets.",
+    "Step dance preserves percussive foot tradition in revival contexts.",
+    "Pipe-band drumming uses scored corps parts judged in competition.",
+    "Musicians must match strathspey snap and reel lift to the dance form.",
+    "Summer games season concentrates pipe-band and Highland dance activity.",
+    "**Ceilidh** dancing is inclusive social dance with caller and band — reels, jigs, and strathspeys at danceable tempo.",
+    "**Highland dancing** is competitive athletic art tied to games and pipe music sets.",
+    "**Step dance** preserves percussive foot tradition in revival and informal festival contexts.",
+    "**Pipe-band drumming** is scored ensemble competition distinct from session bodhrán.",
+    "Musicians must match **strathspey snap** and **reel lift** to the dance form on the floor.",
+    "Summer **games season** concentrates pipe-band and Highland dance activity; ceilidhs run year-round."
+  ],
+  "reading_list": [
+    {
+      "type": "book",
+      "title": "Scotland's Dances",
+      "author": "Hugh Thurston",
+      "note": "Formation reference"
+    },
+    {
+      "type": "link",
+      "title": "Royal Scottish Country Dance Society",
+      "url": "https://www.rscds.org/",
+      "note": "Dance descriptions and tempo guidance"
+    },
+    {
+      "type": "link",
+      "title": "Highland dance — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Highland_dance",
+      "note": "Competition forms overview"
+    },
+    {
+      "type": "book",
+      "title": "Traditional Dancing in Scotland",
+      "author": "J. F. Flett",
+      "note": "Ceilidh and country dance figures"
+    },
+    {
+      "type": "book",
+      "title": "Scottish Country Dance",
+      "author": "Jean Milligan",
+      "note": "RSCDS foundation text"
+    },
+    {
+      "type": "link",
+      "title": "Highland dancing — SOBHD",
+      "url": "https://www.sobhd.net/",
+      "note": "Competition syllabus"
+    },
+    {
+      "type": "link",
+      "title": "Pipe band drumming",
+      "url": "https://www.rspba.org/",
+      "note": "RSPBA resources"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    },
+    {
+      "type": "link",
+      "title": "rscds.org",
+      "url": "https://www.rscds.org/"
+    },
+    {
+      "type": "link",
+      "title": "Scottish country dance",
+      "url": "https://en.wikipedia.org/wiki/Scottish_country_dance"
+    },
+    {
+      "type": "book",
+      "author": "",
+      "title": ""
+    }
+  ],
+  "quiz_markdown": "### Q1. A ceilidh caller's role is to:\n\n- A) Teach and remind dancers of figures during live music\n- B) Tune pipe drones exclusively\n- C) Adjudicate piobaireachd competitions only\n- D) Operate lighting for rock concerts\n\n**Answer:** A\n\n### Q2. Highland dancing includes competition forms like Sword Dance and Highland Fling performed to pipe music.\n\n**Answer:** True\n\n### Q3. Strip the Willow is associated with:\n\n- A) Ceilidh social dancing with reels or jigs\n- B) Solo piobaireachd recital only\n- C) Opera staging in French\n- D) Silent meditation retreats\n\n**Answer:** A\n\n### Q4. Pipe-band snare drummers typically play:\n\n- A) Written scores with unison rudiments judged in competition\n- B) Improvised jazz solos only with no pipe alignment\n- C) Harp arpeggios exclusively\n- D) Unmeasured free rhythm with no pulse\n\n**Answer:** A\n\n### Q5. Ceilidh bands should prioritise danceable tempo over maximum reel speed for beginners on the floor.\n\n**Answer:** True\n\n### Q6. World Pipe Band Championships are strongly associated with Glasgow and graded pipe-band competition.\n\n**Answer:** True\n\n### Q7. Step dance in Scotland may feature percussive footwork alongside fiddle in informal or revival settings.\n\n**Answer:** True\n\n### Q8. Highland games combine athletics, piping, and Highland dancing on seasonal public stages.\n\n**Answer:** True\n\n### Q9. Strathspey–reel–reel is a cited ceilidh medley pattern in Scottish country dance convention.\n\n**Answer:** True\n\n### Q10. Pipe-band drumming is identical to casual bodhrán backing in a small pub session.\n\n**Answer:** False — pipe-band drumming uses scored corps parts judged in competition.\n\n### Q11. Dashing White Sergeant is named as a ceilidh dance figure in Scottish social tradition.\n\n**Answer:** True\n\n### Q12. Compared with Ireland, Scotland emphasises pipe-band drum corps and Highland dancing competition at games to a unique degree.\n\n**Answer:** True",
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "A ceilidh caller's role is to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly ornamented, often unaccompanied traditional song",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Teach and remind dancers of figures during live music",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Regions where Irish remains a community language",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Teach and remind dancers of figures during live music"
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Highland dancing includes competition forms like Sword Dance and Highland Fling performed to pipe music.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Strip the Willow is associated with:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ceilidh social dancing with reels or jigs",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Group social choreography for multiple dancers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        }
+      ],
+      "explain": "The lesson identifies this as: Ceilidh social dancing with reels or jigs"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pipe-band snare drummers typically play:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tips and heels striking the floor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Four-string tenor banjo with a plectrum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Modal Irish and Celtic accompaniment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Written scores with unison rudiments judged in competition",
+          "correct": true
+        }
+      ],
+      "explain": "The lesson identifies this as: Written scores with unison rudiments judged in competition"
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Ceilidh bands should prioritise danceable tempo over maximum reel speed for beginners on the floor.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "World Pipe Band Championships are strongly associated with Glasgow and graded pipe-band competition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Step dance in Scotland may feature percussive footwork alongside fiddle in informal or revival settings.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Highland games combine athletics, piping, and Highland dancing on seasonal public stages.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Strathspey–reel–reel is a cited ceilidh medley pattern in Scottish country dance convention.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Pipe-band drumming is identical to casual bodhrán backing in a small pub session.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explain": "pipe-band drumming uses scored corps parts judged in competition."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dashing White Sergeant is named as a ceilidh dance figure in Scottish social tradition.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Compared with Ireland, Scotland emphasises pipe-band drum corps and Highland dancing competition at games to a unique degree.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explain": "Correct answer: True"
+    }
+  ],
+  "quiz": {
+    "id": "regions-celtic-scotland-05-dance-quiz",
+    "title": "Scottish Traditional Music — Dance and Rhythm quiz",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq",
+        "prompt": "A ceilidh caller's role is to:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Highly ornamented, often unaccompanied traditional song",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Teach and remind dancers of figures during live music",
+            "correct": true
+          },
+          {
+            "id": "d",
+            "text": "Regions where Irish remains a community language",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Teach and remind dancers of figures during live music"
+      },
+      {
+        "id": "q2",
+        "type": "truefalse",
+        "prompt": "Highland dancing includes competition forms like Sword Dance and Highland Fling performed to pipe music.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q3",
+        "type": "mcq",
+        "prompt": "Strip the Willow is associated with:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ceilidh social dancing with reels or jigs",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "Group social choreography for multiple dancers",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          }
+        ],
+        "explain": "The lesson identifies this as: Ceilidh social dancing with reels or jigs"
+      },
+      {
+        "id": "q4",
+        "type": "mcq",
+        "prompt": "Pipe-band snare drummers typically play:",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tips and heels striking the floor",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "Four-string tenor banjo with a plectrum",
+            "correct": false
+          },
+          {
+            "id": "c",
+            "text": "Modal Irish and Celtic accompaniment",
+            "correct": false
+          },
+          {
+            "id": "d",
+            "text": "Written scores with unison rudiments judged in competition",
+            "correct": true
+          }
+        ],
+        "explain": "The lesson identifies this as: Written scores with unison rudiments judged in competition"
+      },
+      {
+        "id": "q5",
+        "type": "truefalse",
+        "prompt": "Ceilidh bands should prioritise danceable tempo over maximum reel speed for beginners on the floor.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q6",
+        "type": "truefalse",
+        "prompt": "World Pipe Band Championships are strongly associated with Glasgow and graded pipe-band competition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q7",
+        "type": "truefalse",
+        "prompt": "Step dance in Scotland may feature percussive footwork alongside fiddle in informal or revival settings.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q8",
+        "type": "truefalse",
+        "prompt": "Highland games combine athletics, piping, and Highland dancing on seasonal public stages.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q9",
+        "type": "truefalse",
+        "prompt": "Strathspey–reel–reel is a cited ceilidh medley pattern in Scottish country dance convention.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q10",
+        "type": "truefalse",
+        "prompt": "Pipe-band drumming is identical to casual bodhrán backing in a small pub session.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": false
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": true
+          }
+        ],
+        "explain": "pipe-band drumming uses scored corps parts judged in competition."
+      },
+      {
+        "id": "q11",
+        "type": "truefalse",
+        "prompt": "Dashing White Sergeant is named as a ceilidh dance figure in Scottish social tradition.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      },
+      {
+        "id": "q12",
+        "type": "truefalse",
+        "prompt": "Compared with Ireland, Scotland emphasises pipe-band drum corps and Highland dancing competition at games to a unique degree.",
+        "choices": [
+          {
+            "id": "a",
+            "text": "True",
+            "correct": true
+          },
+          {
+            "id": "b",
+            "text": "False",
+            "correct": false
+          }
+        ],
+        "explain": "Correct answer: True"
+      }
+    ]
+  }
+}
