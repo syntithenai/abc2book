@@ -22,4 +22,9 @@ rm -rf "$DEST_BUILD" "$DEST_ROOT"
 mkdir -p "$DEST_BUILD" "$DEST_ROOT"
 cp -a "$YOGAPP/dist/." "$DEST_BUILD/"
 cp -a "$YOGAPP/dist/." "$DEST_ROOT/"
-echo "embed-yogapp: wrote $DEST_BUILD and $DEST_ROOT"
+
+# Multi-voice chunk packs are ~170MB / thousands of files and stall GitHub Pages.
+# Keep monologue .ogg meditations; Android/Capacitor builds still ship full voices.
+rm -rf "$DEST_BUILD/meditations/voices" "$DEST_ROOT/meditations/voices"
+
+echo "embed-yogapp: wrote $DEST_BUILD and $DEST_ROOT (voices omitted for Pages size)"
