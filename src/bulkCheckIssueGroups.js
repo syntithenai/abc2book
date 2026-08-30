@@ -195,6 +195,9 @@ export const FIX_ALL_EXCLUDED_ACTIONS = new Set([
   'analyse',
   'stems',
   'editTuneLinks',
+  // Dangerous for folk ABC / anacrusis: can desync chord fill or strip implied repeats.
+  'padBarWithRests',
+  'removeOrphanRepeatEnd',
 ])
 
 const SEARCH_ACTION_LABELS = {

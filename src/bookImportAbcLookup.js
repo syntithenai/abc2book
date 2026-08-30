@@ -149,6 +149,18 @@ export function buildCandidateList(options) {
       hasChords: chordCount(omrAbc) >= 3,
     })
   }
+  const omrChordsAbc = String(opts.omrChordsAbc || '').trim()
+  if (omrChordsAbc) {
+    const placed = Number(opts.omrChordsStatus && opts.omrChordsStatus.placed) || 0
+    out.push({
+      id: candidateId('omr-chords', omrChordsAbc),
+      source: 'omr-chords',
+      abc: omrChordsAbc,
+      score: Math.min(0.75, 0.55 + 0.01 * Math.min(20, placed)),
+      title: title,
+      hasChords: true,
+    })
+  }
   const session = opts.sessionHit
   if (session && session.abc) {
     out.push({

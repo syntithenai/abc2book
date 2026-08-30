@@ -1,4 +1,4 @@
-import { appendHarmonyVoiceAbc, assembleHarmonyVoiceAbc, finalizeMidiImportAbc, mergeMidiChordSegmentsIntoAbc } from './midiImportFinalize';
+import { appendHarmonyVoiceAbc, assembleHarmonyVoiceAbc, ensureFinalBarline, finalizeMidiImportAbc, mergeMidiChordSegmentsIntoAbc, safeAutofixMidiAbc, stripBlankLinesBeforeMusic } from './midiImportFinalize';
 
 describe('midiImportFinalize', function() {
   test('assembleHarmonyVoiceAbc adds V:2 section', function() {
@@ -61,7 +61,24 @@ describe('midiImportFinalize', function() {
       includeChords: false,
       trackIds: [0, 1, 2, 3],
     });
-    expect(merged).toBe(abc);
+    expect(merged).toContain('C2 |');
+    expect(merged.trimEnd()).toMatch(/C,2 \|\|$/);
     expect(merged).not.toContain('V:3');
+  });
+
+  test('safeAutofixMidiAbc strips blank before music and ends with ||', function() {
+    const abc = 'X:1\nM:4/4\nK:C\n\n\nC2 D2 |';
+    const fixed = safeAutofixMidiAbc(abc);
+    expect(fixed).not.toMatch(/K:C\n\n/);
+    expect(fixed.trimEnd()).toMatch(/\|\|$/);
+  });
+
+  test('ensureFinalBarline upgrades trailing | to ||', function() {
+    expect(ensureFinalBarline('X:1\nK:C\nG2 |').trimEnd()).toMatch(/\|\|$/);
+  });
+
+  test('stripBlankLinesBeforeMusic removes blank gap after headers', function() {
+    const fixed = stripBlankLinesBeforeMusic('X:1\nK:C\n\n\nA B |');
+    expect(fixed).toBe('X:1\nK:C\nA B |\n');
   });
 });

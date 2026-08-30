@@ -1,7 +1,38 @@
 import axios from 'axios'
+import { toast } from 'react-toastify'
 import { parseTitleArtistFromYouTubeLabel } from './youtubeTitleParse'
 import { isAndroidApp } from './platformUtils'
 import { TunebookYoutube, isNativeYoutubeAvailable } from './capacitor/tunebookPlugins'
+
+var YOUTUBE_QUOTA_MESSAGE = 'YouTube search quota exceeded. Try again in 24 hours.'
+var YOUTUBE_QUOTA_TOAST_ID = 'youtube-search-quota-exceeded'
+
+function isYouTubeQuotaError(err) {
+  if (!err) return false
+  var status = err.response && err.response.status
+  var data = err.response && err.response.data
+  var apiErr = data && data.error
+  var reasons = (apiErr && Array.isArray(apiErr.errors) ? apiErr.errors : [])
+    .map(function(e) { return e && e.reason })
+  if (reasons.indexOf('quotaExceeded') >= 0 || reasons.indexOf('dailyLimitExceeded') >= 0) {
+    return true
+  }
+  var msg = String((apiErr && apiErr.message) || err.message || '')
+  if ((status === 403 || status === 429) && /quota/i.test(msg)) {
+    return true
+  }
+  return false
+}
+
+function throwYouTubeQuotaError() {
+  toast.warning(YOUTUBE_QUOTA_MESSAGE, {
+    toastId: YOUTUBE_QUOTA_TOAST_ID,
+    autoClose: 8000,
+  })
+  var error = new Error(YOUTUBE_QUOTA_MESSAGE)
+  error.code = 'YOUTUBE_QUOTA_EXCEEDED'
+  throw error
+}
 
 /**
  * Search YouTube via the Google Data API (same as YouTubeSearchModal).
@@ -48,7 +79,18 @@ export async function searchYouTubeVideos(options) {
     + '&q=' + encodeURIComponent(query)
     + '&key=' + key
 
-  const searchRes = await axios.get(url, { signal: opts.signal })
+  var searchRes
+  try {
+    searchRes = await axios.get(url, { signal: opts.signal })
+  } catch (err) {
+    if (err && err.name === 'AbortError') throw err
+    if (err && err.code === 'ERR_CANCELED') throw err
+    if (isYouTubeQuotaError(err)) {
+      throwYouTubeQuotaError()
+    }
+    throw err
+  }
+
   const items = searchRes && searchRes.data && Array.isArray(searchRes.data.items)
     ? searchRes.data.items
     : []

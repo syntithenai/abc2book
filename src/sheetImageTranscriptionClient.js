@@ -68,6 +68,11 @@ export function normalizeSheetImageTranscription(body) {
       warnings: Array.isArray(melody.warnings) ? melody.warnings : [],
       source: typeof melody.source === 'string' ? melody.source : '',
     } : null,
+    chordOcr: body.chordOcr && typeof body.chordOcr === 'object' ? {
+      abc: typeof body.chordOcr.abc === 'string' ? body.chordOcr.abc.trim() : '',
+      source: typeof body.chordOcr.source === 'string' ? body.chordOcr.source : 'omr-chords',
+      status: body.chordOcr.status && typeof body.chordOcr.status === 'object' ? body.chordOcr.status : {},
+    } : null,
     warnings: Array.isArray(body.warnings) ? body.warnings : [],
     staffDetection: body.staffDetection || null,
   };

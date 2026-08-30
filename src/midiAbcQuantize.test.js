@@ -21,9 +21,11 @@ describe('midiAbcQuantize', function() {
       { slot: 0, durSlots: 2, token: 'C2' },
       { slot: 16, durSlots: 2, token: 'D2' },
     ], { beatsPerBar: 4, slotsPerBeat: 2 });
-    expect(body.split('\n').length).toBeGreaterThanOrEqual(2);
     expect(body).toMatch(/C2/);
     expect(body).toMatch(/D2/);
+    expect(body).toMatch(/\|/);
+    const between = body.slice(body.indexOf('C2'), body.indexOf('D2') + 2);
+    expect(between).toMatch(/\|/);
   });
 
   test('formatNoteEventsToAbcBody ends each measure with a barline', function() {
@@ -37,6 +39,21 @@ describe('midiAbcQuantize', function() {
     expect(body.split('|').length).toBeGreaterThanOrEqual(3);
   });
 
+  test('joinAbcMeasures packs 8 bars per line by default', function() {
+    const parts = [];
+    for (let i = 0; i < 16; i += 1) parts.push('C2');
+    const body = joinAbcMeasures(parts);
+    const lines = body.split('\n');
+    expect(lines.length).toBe(2);
+    expect(lines[0].split('|').filter(Boolean).length).toBe(8);
+    expect(lines[1].split('|').filter(Boolean).length).toBe(8);
+  });
+
+  test('joinAbcMeasures keeps 1 bar per line when barsPerLine is 1', function() {
+    const body = joinAbcMeasures(['C2', 'D2'], { barsPerLine: 1 });
+    expect(body.split('\n').length).toBe(2);
+  });
+
   test('formatNoteEventsToAbcBody clips overlapping notes so bars are not overfilled', function() {
     // Two notes in one 4/4 bar (8 eighth-slots): first would otherwise last whole bar.
     const body = formatNoteEventsToAbcBody([
@@ -45,7 +62,7 @@ describe('midiAbcQuantize', function() {
       { slot: 4, durSlots: 2, token: 'E2' },
       { slot: 6, durSlots: 2, token: 'F2' },
     ], { beatsPerBar: 4, slotsPerBeat: 2, allowChords: false });
-    const firstBar = body.split('\n')[0];
+    const firstBar = body.split('|')[0];
     expect(firstBar).toMatch(/C2/);
     expect(firstBar).toMatch(/D2/);
     expect(firstBar).toMatch(/E2/);

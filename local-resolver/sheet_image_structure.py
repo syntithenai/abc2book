@@ -390,7 +390,28 @@ def detect_structure_cv(image_path: str, bar_count: int) -> list[StructureEvent]
             )
         )
 
-    return _dedupe_events(events)
+    return _cap_cv_repeats(_dedupe_events(events))
+
+
+def _cap_cv_repeats(events: list[StructureEvent]) -> list[StructureEvent]:
+    """Keep at most one start and one end repeat per crop; drop spurious mid double bars."""
+    if not events:
+        return events
+    starts = [e for e in events if e.kind == KIND_START_REPEAT]
+    ends = [e for e in events if e.kind == KIND_END_REPEAT]
+    others = [e for e in events if e.kind not in {KIND_START_REPEAT, KIND_END_REPEAT}]
+    kept: list[StructureEvent] = list(others)
+    if starts:
+        best_start = max(starts, key=lambda e: (e.confidence, -e.measure_index))
+        kept.append(best_start)
+    if ends:
+        best_end = max(ends, key=lambda e: (e.confidence, e.measure_index))
+        kept.append(best_end)
+    # Drop double_bar events sandwiched between outer repeats unless voltas present.
+    has_volta = any(e.kind in {KIND_VOLTA_START, KIND_VOLTA_END} for e in kept)
+    if starts and ends and not has_volta:
+        kept = [e for e in kept if e.kind != KIND_DOUBLE_BAR]
+    return _dedupe_events(kept)
 
 
 def _dedupe_events(events: list[StructureEvent]) -> list[StructureEvent]:
@@ -485,12 +506,16 @@ def merge_structure_events(
 def infer_voltas_for_long_systems(
     system_bar_counts: list[int],
     existing: list[list[StructureEvent]],
+    *,
+    meter: str = "",
 ) -> list[list[StructureEvent]]:
-    """When a system is 10+ bars with start/end repeats but no voltas, assume 1st/2nd endings.
+    """When a system has outer repeats but no voltas, assume 1st/2nd endings.
 
     Folk session pages often encode ``|:`` … ``|1`` … ``:|2`` … ``|]`` as a 10-bar
     system. CV finds the outer repeats but misses ``1.``/``2.`` OCR; without this
     pass structure F1 vs MXL stays low (end_repeat alone at the last bar).
+
+    Threshold is 10 bars by default, 8+ for 3/4 mazurka-style systems.
     """
     out: list[list[StructureEvent]] = []
     for i, n_bars in enumerate(system_bar_counts):
@@ -498,7 +523,8 @@ def infer_voltas_for_long_systems(
         has_volta = any(e.kind in {KIND_VOLTA_START, KIND_VOLTA_END} for e in ev)
         has_start = any(e.kind == KIND_START_REPEAT for e in ev)
         has_end = any(e.kind == KIND_END_REPEAT for e in ev)
-        if n_bars >= 10 and has_start and has_end and not has_volta:
+        min_bars = 8 if meter.strip() == "3/4" else 10
+        if n_bars >= min_bars and has_start and has_end and not has_volta:
             # Drop end_repeat(s) at the final bar; place volta1+end at n-2, volta2 at n-1.
             v1 = max(0, n_bars - 2)
             v2 = max(0, n_bars - 1)
@@ -545,28 +571,92 @@ def infer_voltas_for_long_systems(
     return out
 
 
+def _uniform_section_base(system_bar_counts: list[int]) -> int | None:
+    """Return 8 or 9 when every system is base or base+2 (volta extension)."""
+    if len(system_bar_counts) < 2:
+        return None
+    for base in (8, 9):
+        if all(c == base or c == base + 2 for c in system_bar_counts):
+            return base
+    return None
+
+
+def _system_has_cv_hint(ev: list[StructureEvent]) -> bool:
+    """Weak CV signal: repeat marks or double bars from CV/alt (not pure heuristic)."""
+    return any(
+        e.source in {"cv", "alt"}
+        and e.kind in {KIND_START_REPEAT, KIND_END_REPEAT, KIND_DOUBLE_BAR, KIND_VOLTA_START}
+        for e in ev
+    )
+
+
+def collapse_uniform_eight_bar_repeats(
+    system_bar_counts: list[int],
+    event_lists: list[list[StructureEvent]],
+) -> list[list[StructureEvent]]:
+    """For uniform 8-bar systems, collapse to canonical start@0 / end@7 repeats."""
+    base = _uniform_section_base(system_bar_counts)
+    if base != 8:
+        return event_lists
+    out: list[list[StructureEvent]] = []
+    for i, n_bars in enumerate(system_bar_counts):
+        ev = list(event_lists[i] if i < len(event_lists) else [])
+        if n_bars != 8:
+            out.append(_dedupe_events(ev))
+            continue
+        repeats = [e for e in ev if e.kind in {KIND_START_REPEAT, KIND_END_REPEAT}]
+        if len(repeats) <= 2:
+            out.append(_dedupe_events(ev))
+            continue
+        canonical = [
+            e
+            for e in ev
+            if e.kind not in {KIND_START_REPEAT, KIND_END_REPEAT, KIND_DOUBLE_BAR}
+        ]
+        canonical.append(
+            StructureEvent(
+                measure_index=0,
+                kind=KIND_START_REPEAT,
+                confidence=0.6,
+                source="heuristic",
+            )
+        )
+        canonical.append(
+            StructureEvent(
+                measure_index=7,
+                kind=KIND_END_REPEAT,
+                confidence=0.6,
+                source="heuristic",
+            )
+        )
+        out.append(_dedupe_events(canonical))
+    return out
+
+
 def apply_form_heuristics(
     system_bar_counts: list[int],
     existing: list[list[StructureEvent]],
     *,
     volta_hint: bool = False,
+    require_cv_hint: bool = False,
 ) -> list[list[StructureEvent]]:
-    """Wrap regular 8/10-bar systems as |: … :| when they lack CV repeats.
+    """Wrap regular 8/9-bar systems (±2 for voltas) as |: … :| when they lack CV repeats.
 
-    Applies to 2+ systems (typical 16-bar bourrée = 2×8). Systems that already
-    have a start or end repeat are left alone; empty siblings still get wrapped
-    so one weak CV hit does not blank the rest of the page.
+    Applies to 2+ systems (16-bar 2×8 bourrée or 18-bar 2×9 in 3/8). Systems that
+    already have a start or end repeat are left alone; empty siblings still get wrapped.
     """
-    if len(system_bar_counts) < 2:
+    base = _uniform_section_base(system_bar_counts)
+    if base is None:
         return existing
-    base = 8
-    if not all(c == base or c == base + 2 for c in system_bar_counts):
-        return existing
+    multi_system = len(system_bar_counts) >= 2
     out: list[list[StructureEvent]] = []
     for i, n_bars in enumerate(system_bar_counts):
         ev = list(existing[i] if i < len(existing) else [])
         has_repeat = any(e.kind in {KIND_START_REPEAT, KIND_END_REPEAT} for e in ev)
         if has_repeat or n_bars < base:
+            out.append(_dedupe_events(ev))
+            continue
+        if require_cv_hint and not multi_system and not _system_has_cv_hint(ev):
             out.append(_dedupe_events(ev))
             continue
         ev.append(
@@ -623,6 +713,84 @@ def apply_form_heuristics(
             )
         out.append(_dedupe_events(ev))
     return out
+
+
+def _abc_body_bar_contents(abc: str) -> list[str]:
+    header_lines: list[str] = []
+    body_lines: list[str] = []
+    for ln in (abc or "").splitlines():
+        if (re.match(r"^[A-Za-z]:", ln) or ln.startswith("%")) and not body_lines:
+            continue
+        if ln.strip() or body_lines:
+            body_lines.append(ln)
+    flat = " ".join(body_lines)
+    segments = re.split(r"\|+", flat)
+    bars: list[str] = []
+    for seg in segments:
+        seg = seg.strip()
+        if not seg or seg in {":", "]"}:
+            continue
+        seg = re.sub(r"^:+", "", seg).strip()
+        seg = re.sub(r"[:\]]+$", "", seg).strip()
+        if seg:
+            bars.append(seg)
+    return bars
+
+
+def infer_section_bars(n: int, meter: str = "") -> int | None:
+    """Guess section size for repeat wrapping when CV/heuristics found nothing."""
+    meter = (meter or "").strip()
+    if meter == "3/8" and n == 18:
+        return 9
+    if meter == "3/4" and n == 21:
+        return 8
+    if n == 12:
+        return 4
+    if n == 9:
+        return 3
+    if n >= 16 and n % 8 == 0:
+        return 8
+    if n >= 48 and n % 16 == 0:
+        return 16
+    if n == 46 and n % 16 != 0:
+        # Triple 16-bar sections with short tail — wrap 16-bar blocks only when divisible.
+        return None
+    if n == 15:
+        return None
+    return None
+
+
+def apply_section_repeat_to_abc(abc: str, *, meter: str | None = None, section_bars: int | None = None) -> str:
+    """Wrap N-bar sections as |: … :| when ABC has no repeat marks."""
+    if not abc or "|:" in abc or ":|" in abc or re.search(r"\|\d", abc):
+        return abc
+    header_lines: list[str] = []
+    body_started = False
+    for ln in (abc or "").splitlines():
+        if (re.match(r"^[A-Za-z]:", ln) or ln.startswith("%")) and not body_started:
+            header_lines.append(ln)
+            continue
+        body_started = True
+    bars = _abc_body_bar_contents(abc)
+    n = len(bars)
+    if section_bars is None:
+        meter_m = re.search(r"^M:\s*(\S+)", abc, re.M)
+        m = (meter or (meter_m.group(1) if meter_m else "")).strip()
+        section_bars = infer_section_bars(n, m)
+    if section_bars is None or section_bars < 3 or n < section_bars * 2 or n % section_bars != 0:
+        return abc
+    out_bars: list[str] = []
+    for i, content in enumerate(bars):
+        if i % section_bars == 0:
+            out_bars.append(f"|:{content}|")
+        elif i % section_bars == section_bars - 1:
+            out_bars.append(f"{content}:|")
+        else:
+            out_bars.append(f"{content}|")
+    lines: list[str] = []
+    for i in range(0, n, section_bars):
+        lines.append("".join(out_bars[i : i + section_bars]))
+    return "\n".join(header_lines + lines)
 
 
 def annotate_abc_with_structure(abc: str, events: list[StructureEvent]) -> str:
@@ -711,6 +879,85 @@ def annotate_abc_with_structure(abc: str, events: list[StructureEvent]) -> str:
     if abc.endswith("\n"):
         result += "\n"
     return result
+
+
+def apply_structure_pipeline_to_abc(
+    abc: str,
+    image_path: str,
+    *,
+    meter: str = "",
+    per_staff_event_dicts: list[dict[str, Any]] | None = None,
+    single_system: bool = True,
+) -> tuple[str, list[dict[str, Any]], str]:
+    """CV + heuristics + annotate on one ABC body (full-crop or single system)."""
+    bar_count = count_abc_bars(abc) or max(1, len(_abc_body_bar_contents(abc)))
+    events: list[StructureEvent] = []
+    try:
+        events = detect_structure_on_staff_crop(image_path, bar_count)
+    except Exception:
+        events = []
+
+    if not events and per_staff_event_dicts:
+        for row in per_staff_event_dicts:
+            if not isinstance(row, dict):
+                continue
+            kind = str(row.get("kind") or "")
+            if kind not in {
+                KIND_START_REPEAT,
+                KIND_END_REPEAT,
+                KIND_DOUBLE_BAR,
+                KIND_VOLTA_START,
+                KIND_VOLTA_END,
+            }:
+                continue
+            events.append(
+                StructureEvent(
+                    measure_index=int(row.get("measure_index") or 0),
+                    kind=kind,
+                    number=int(row["number"]) if row.get("number") is not None else None,
+                    confidence=float(row.get("confidence") or 0.4),
+                    x=float(row.get("x") or 0),
+                    source=str(row.get("source") or "heuristic"),
+                )
+            )
+        events = _dedupe_events(events)
+
+    event_lists = [list(events)]
+    bar_counts = [bar_count]
+    volta_hint = any(e.kind == KIND_VOLTA_START for e in events)
+    any_cv_repeat = any(
+        e.kind in {KIND_START_REPEAT, KIND_END_REPEAT} and e.source == "cv" for e in events
+    )
+    structure_source = "cv" if any_cv_repeat else ("heuristic" if events else "none")
+
+    if not any_cv_repeat:
+        event_lists = apply_form_heuristics(
+            bar_counts,
+            event_lists,
+            volta_hint=volta_hint,
+            require_cv_hint=single_system,
+        )
+        if any(event_lists[0]):
+            structure_source = "heuristic"
+
+    event_lists = collapse_uniform_eight_bar_repeats(bar_counts, event_lists)
+    event_lists = infer_voltas_for_long_systems(bar_counts, event_lists, meter=meter)
+    if any(e.source == "heuristic" for e in event_lists[0]):
+        structure_source = "heuristic"
+
+    final_events = event_lists[0]
+    annotated = annotate_abc_with_structure(abc, final_events)
+    if not re.search(r"\|[:1-9]|:?\|", annotated):
+        annotated = apply_section_repeat_to_abc(annotated, meter=meter)
+
+    kind_counts: dict[str, int] = {}
+    out_dicts: list[dict[str, Any]] = []
+    for e in final_events:
+        out_dicts.append(e.to_dict())
+        kind_counts[e.kind] = kind_counts.get(e.kind, 0) + 1
+    if apply_section_repeat_to_abc(abc, meter=meter) != abc and not out_dicts:
+        structure_source = "heuristic"
+    return annotated, out_dicts, structure_source
 
 
 def detect_structure_on_staff_crop(

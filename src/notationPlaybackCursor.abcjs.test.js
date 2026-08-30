@@ -1,6 +1,7 @@
 /**
  * @jest-environment jsdom
  */
+import fs from 'fs'
 import abcjs from 'abcjs'
 import {
   cursorPositionFromNoteTimings,
@@ -63,5 +64,34 @@ describe('cursor vs abcjs anacrusis timings', function() {
     expect(midTune.atEnd).not.toBe(true)
     expect(lastBar.atEnd).not.toBe(true)
     expect(lastBar.left).toEqual(expect.any(Number))
+  })
+
+  test('Misirlou keeps cursor on repeat bar starts despite timing gaps', function() {
+    const abc = fs.readFileSync('/home/stever/Downloads/Misirlou.abc', 'utf8')
+    const host = document.createElement('div')
+    document.body.appendChild(host)
+    const visual = abcjs.renderAbc(host, abc, { add_classes: true, staffwidth: 700 })[0]
+    const audibleMpm = visual.millisecondsPerMeasure()
+    host.remove()
+    const dumped = dumpTune(abc)
+    const audioDurationSec = dumped.lastMoment / 1000
+    const pos = cursorPositionFromNoteTimings(dumped.timings, 9.6 * 1000, {
+      musicSec: 9.6,
+      audibleMsPerMeasure: audibleMpm,
+      audioDurationSec: audioDurationSec,
+      lastMomentMs: dumped.lastMoment,
+    })
+    expect(pos.left).toBe(dumped.rows.find(function(r) {
+      return r.ms === 9600 && r.left != null
+    }).left)
+    const repeatPos = cursorPositionFromNoteTimings(dumped.timings, 38.4 * 1000, {
+      musicSec: 38.4,
+      audibleMsPerMeasure: audibleMpm,
+      audioDurationSec: audioDurationSec,
+      lastMomentMs: dumped.lastMoment,
+    })
+    expect(repeatPos.left).toBe(dumped.rows.find(function(r) {
+      return r.ms === 38400 && r.left != null
+    }).left)
   })
 })

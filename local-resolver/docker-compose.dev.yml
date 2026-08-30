@@ -74,6 +74,7 @@ services:
       - ./europeana.py:/app/europeana.py
       - ./loc_audio.py:/app/loc_audio.py
       - ./music_collection.py:/app/music_collection.py
+      - ./review_projects.py:/app/review_projects.py
       - ./music_collection_transcode.py:/app/music_collection_transcode.py
       - ./music_collection_analytics.py:/app/music_collection_analytics.py
       - ./music_collection_indexer.py:/app/music_collection_indexer.py

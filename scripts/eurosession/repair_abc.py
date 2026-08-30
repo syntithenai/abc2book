@@ -18,6 +18,11 @@ from fractions import Fraction
 from pathlib import Path
 
 # Reuse similarity helpers from omr_and_lookup.
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "local-resolver"))
+from sheet_image_abc_repair import fix_decimal_durations as _fix_decimal_durations  # noqa: E402
+from sheet_image_abc_repair import repair_omr_abc  # noqa: E402
+from sheet_image_structure import apply_section_repeat_to_abc  # noqa: E402
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from omr_and_lookup import (  # noqa: E402
     TITLE_KEY_HINT_RE,
@@ -291,7 +296,7 @@ def convert_session_line_breaks(abc: str) -> str:
             anns.append(m.group(0))
             return f"{_ANN_PREFIX}{len(anns)-1}{_ANN_SUFFIX}"
 
-        protected = re.sub(r"!([A-Za-z][A-Za-z0-9_]*)!", _protect, body)
+        protected = re.sub(r"!([A-Za-z0-9.<>()+/=_-]{1,32})!", _protect, body)
         return bool(re.search(r"!(?![A-Za-z])", protected))
 
     body = "\n".join(ln for ln in text.splitlines() if _is_music_body_line(ln))
@@ -313,7 +318,7 @@ def convert_session_line_breaks(abc: str) -> str:
             anns.append(m.group(0))
             return f"{_ANN_PREFIX}{len(anns)-1}{_ANN_SUFFIX}"
 
-        protected = re.sub(r"!([A-Za-z][A-Za-z0-9_]*)!", _protect, part)
+        protected = re.sub(r"!([A-Za-z0-9.<>()+/=_-]{1,32})!", _protect, part)
         converted = protected.replace("!", "\n")
 
         def _restore(m: re.Match) -> str:
@@ -422,71 +427,19 @@ def apply_transpose_to_abc(abc: str, semitones: int, target_key: tuple[str, str]
 
 def fix_decimal_durations(abc: str) -> str:
     """Convert invalid OMR decimals like G0.75 → G3/4."""
-
-    def to_frac(val: float) -> str:
-        frac = Fraction(val).limit_denominator(16)
-        if frac.denominator == 1:
-            return str(frac.numerator)
-        return f"{frac.numerator}/{frac.denominator}"
-
-    def repl(match: re.Match) -> str:
-        return match.group(1) + to_frac(float(match.group(2)))
-
-    return re.sub(
-        r"((?:\^[A-Ga-g]|_[A-Ga-g]|=?[A-Ga-g]|[zZ])[,']*)(\d+\.\d+)",
-        repl,
-        abc or "",
-    )
+    return _fix_decimal_durations(abc)
 
 
-def repair_omr_abc(
-    abc: str,
-    title: str,
-    *,
-    meter_hint: str | None = None,
-    key_override: str | None = None,
-) -> str:
-    """Normalize OMR ABC headers.
+def apply_section_repeat_heuristic(abc: str, *, section_bars: int | None = None) -> str:
+    """Wrap N-bar sections as |: … :| when ABC has no repeat marks."""
+    meter_m = re.search(r"^M:\s*(\S+)", abc or "", re.M)
+    meter = (meter_m.group(1) if meter_m else "").strip()
+    return apply_section_repeat_to_abc(abc, meter=meter, section_bars=section_bars)
 
-    Title parenthetical seeds K: (e.g. ``(Gm)``). Optional ``meter_hint`` /
-    ``key_override`` come from the offline MSCZ/MXL title index join — never
-    from live MXL inside HOMR.
-    """
-    text = fix_decimal_durations(abc or "")
-    # Half-length fix: OMR bodies use quarter-as-unit but were labeled L:1/8.
-    text = set_header(text, "L", "1/4")
-    if key_override:
-        text = set_header(text, "K", key_override)
-    else:
-        hint = parse_title_key(title)
-        if hint:
-            text = set_header(text, "K", abc_key_header(*hint))
-        elif re.search(r"^K:\s*Bb\b", text, re.M):
-            # Drop bogus default Bb when no title hint.
-            text = set_header(text, "K", "C")
-    if meter_hint and re.match(r"^\d+/\d+$", meter_hint.strip()):
-        # Prefer index meter when OMR left M: missing, ?, or default 4/4.
-        cur = None
-        m = re.search(r"^M:\s*(\S+)", text, re.M)
-        if m:
-            cur = m.group(1).strip()
-        if not cur or cur in {"?", "4/4", "none"}:
-            text = set_header(text, "M", meter_hint.strip())
-        elif cur != meter_hint.strip() and meter_hint.strip() in {
-            "2/4",
-            "3/8",
-            "6/8",
-            "9/8",
-            "12/8",
-            "2/2",
-            "3/4",
-            "5/4",
-            "8/8",
-        }:
-            # Odd/compound index meter beats spurious OMR 2/4.
-            if cur in {"2/4", "4/4"}:
-                text = set_header(text, "M", meter_hint.strip())
-    return text
+
+def apply_eight_bar_repeat_heuristic(abc: str) -> str:
+    """If ABC has no repeats and bar count is 8×N (N≥2), wrap each 8 as |: … :|."""
+    return apply_section_repeat_heuristic(abc, section_bars=8)
 
 
 def query_variants(title: str) -> list[str]:

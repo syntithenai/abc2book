@@ -8,6 +8,10 @@ import {
   setShuffle,
   setPreferMidi,
   isPreferMidi,
+  setMidiPreference,
+  getMidiPreference,
+  normalizeQueuePlaybackModes,
+  MIDI_PREFERENCE,
   cycleRepeatMode,
   getRepeatMode,
   buildShuffleOrder,
@@ -154,6 +158,33 @@ describe('nowPlayingQueue', function() {
     })
   })
 
+  test('createQueue defaults midiPreference to skip', function() {
+    const q = createQueue({ tuneIds: ['a'] })
+    expect(getMidiPreference(q)).toBe(MIDI_PREFERENCE.SKIP)
+    expect(isPreferMidi(q)).toBe(false)
+    expect(q.preferMidi).toBe(undefined)
+  })
+
+  test('normalizeQueuePlaybackModes migrates legacy preferMidi', function() {
+    const preferred = normalizeQueuePlaybackModes({
+      items: [{ tuneId: 'a' }],
+      preferMidi: true,
+    })
+    expect(getMidiPreference(preferred)).toBe(MIDI_PREFERENCE.PREFER)
+    expect(preferred.preferMidi).toBe(undefined)
+
+    const skipped = normalizeQueuePlaybackModes({
+      items: [{ tuneId: 'a' }],
+    })
+    expect(getMidiPreference(skipped)).toBe(MIDI_PREFERENCE.SKIP)
+
+    const allowKept = normalizeQueuePlaybackModes({
+      items: [{ tuneId: 'a' }],
+      midiPreference: MIDI_PREFERENCE.ALLOW,
+    })
+    expect(getMidiPreference(allowKept)).toBe(MIDI_PREFERENCE.ALLOW)
+  })
+
   test('resolvePlaybackForItem prefers midi when first link is a recording', function() {
     const tune = {
       id: '1',
@@ -161,6 +192,12 @@ describe('nowPlayingQueue', function() {
       links: [{ link: 'recording:r1', recordingId: 'r1' }],
     }
     expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto' }, tunebook)).toEqual({
+      type: 'midi',
+      linkNum: null,
+    })
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto' }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.ALLOW,
+    })).toEqual({
       type: 'midi',
       linkNum: null,
     })
@@ -174,8 +211,14 @@ describe('nowPlayingQueue', function() {
     })
   })
 
-  test('resolvePlaybackForItem honors queue preferMidi over media links and linkIndex', function() {
+  test('resolvePlaybackForItem honors prefer midiPreference over media links and linkIndex', function() {
     const tune = { id: '1', notes: true, links: [{ link: 'http://a' }, { link: 'http://b' }] }
+    expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto', linkIndex: 1 }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.PREFER,
+    })).toEqual({
+      type: 'midi',
+      linkNum: null,
+    })
     expect(resolvePlaybackForItem(tune, { tuneId: '1', prefer: 'auto', linkIndex: 1 }, tunebook, {
       preferMidi: true,
     })).toEqual({
@@ -184,11 +227,68 @@ describe('nowPlayingQueue', function() {
     })
   })
 
-  test('setPreferMidi toggles queue flag', function() {
+  test('resolvePlaybackForItem skip never returns midi', function() {
+    const withLinks = { id: '1', notes: true, links: [{ link: 'http://a' }] }
+    expect(resolvePlaybackForItem(withLinks, { tuneId: '1', prefer: 'midi' }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.SKIP,
+    })).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+    expect(resolvePlaybackForItem(withLinks, {
+      tuneId: '1',
+      prefer: 'auto',
+      linkIndex: 0,
+    }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.SKIP,
+    })).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+
+    const recordingFirst = {
+      id: '1',
+      notes: true,
+      links: [{ link: 'recording:r1', recordingId: 'r1' }],
+    }
+    expect(resolvePlaybackForItem(recordingFirst, { tuneId: '1', prefer: 'auto' }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.SKIP,
+    })).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+
+    const midiOnly = { id: '1', notes: true }
+    expect(resolvePlaybackForItem(midiOnly, { tuneId: '1', prefer: 'auto' }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.SKIP,
+    })).toBe(null)
+  })
+
+  test('resolvePlaybackForItem allow keeps media first and midi fallback', function() {
+    const withLinks = { id: '1', notes: true, links: [{ link: 'http://a' }] }
+    expect(resolvePlaybackForItem(withLinks, { tuneId: '1', prefer: 'auto' }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.ALLOW,
+    })).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+    const midiOnly = { id: '1', notes: true }
+    expect(resolvePlaybackForItem(midiOnly, { tuneId: '1', prefer: 'auto' }, tunebook, {
+      midiPreference: MIDI_PREFERENCE.ALLOW,
+    })).toEqual({
+      type: 'midi',
+      linkNum: null,
+    })
+  })
+
+  test('setMidiPreference and setPreferMidi update queue mode', function() {
     const queue = createQueue({ tuneIds: ['1'] })
+    expect(getMidiPreference(queue)).toBe(MIDI_PREFERENCE.SKIP)
     expect(isPreferMidi(queue)).toBe(false)
+    expect(getMidiPreference(setMidiPreference(queue, MIDI_PREFERENCE.ALLOW))).toBe(MIDI_PREFERENCE.ALLOW)
+    expect(isPreferMidi(setMidiPreference(queue, MIDI_PREFERENCE.PREFER))).toBe(true)
     expect(isPreferMidi(setPreferMidi(queue, true))).toBe(true)
-    expect(isPreferMidi(setPreferMidi(queue, false))).toBe(false)
+    expect(getMidiPreference(setPreferMidi(queue, false))).toBe(MIDI_PREFERENCE.SKIP)
   })
 
   test('resolvePlaybackForItem skips midi when ABC has chords but no notes', function() {

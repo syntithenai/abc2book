@@ -49,10 +49,11 @@ import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
 import TuneGenresField from './TuneGenresField'
 import TuneAlbumsField from './TuneAlbumsField'
+import TuneInfoListField from './TuneInfoListField'
 import AlbumsSearchButton from './AlbumsSearchButton'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
-import { allGenres, mergeBibliographicList } from '../tuneBibliographicUtils'
+import { allGenres, forceSplitSlashTitle, mergeBibliographicList, normalizeInfoHeaderList } from '../tuneBibliographicUtils'
 import {
   invalidateChordBlockCache,
   syncChordSectionLabelsFromPrimaryVoice,
@@ -593,6 +594,20 @@ export default function AbcEditor(props) {
                                   saveTune(tune)
                                 }}
                               />
+                              {tune.name && String(tune.name).indexOf('/') >= 0 ? (
+                                <Button
+                                  size="sm"
+                                  variant="outline-secondary"
+                                  title="Split primary title and aliases on /"
+                                  onClick={function() {
+                                    forceSplitSlashTitle(tune)
+                                    tune.id = params.tuneId
+                                    saveTune(tune)
+                                  }}
+                                >
+                                  Split on /
+                                </Button>
+                              ) : null}
                             </div>
                             <VoiceFillInput
                               type="text"
@@ -802,7 +817,7 @@ export default function AbcEditor(props) {
                         <div className="abc-editor-info-books-tags">
                           <div className="abc-editor-info-field-block">
                             <div className="abc-editor-info-label-control-row">
-                              <Form.Label className="mb-0">Book(s)</Form.Label>
+                              <Form.Label className="mb-0">Tunebook(s)</Form.Label>
                               {props.tunebook ? (
                                 <ButtonGroup style={{ backgroundColor: '#3f81e3', borderRadius: '10px' }}>
                                   {primaryBook ? (
@@ -1000,6 +1015,119 @@ export default function AbcEditor(props) {
                           </Form.Group>
                         </Col>
                       </Row>
+                      </div>
+
+                      <div className="abc-editor-info-section">
+                        <div className="abc-editor-info-section-heading">ABC metadata</div>
+                        <Row>
+                          <Col xs={12} md={6}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="origin"
+                                label="Origin"
+                                placeholder="e.g. Ireland"
+                                value={normalizeInfoHeaderList(tune.origin)}
+                                onChange={function(next) {
+                                  tune.origin = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                          <Col xs={12} md={6}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="area"
+                                label="Area"
+                                placeholder="e.g. Munster"
+                                value={normalizeInfoHeaderList(tune.area)}
+                                onChange={function(next) {
+                                  tune.area = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                          <Col xs={12} md={6}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="source"
+                                label="Source"
+                                placeholder="e.g. O'Neill's"
+                                value={normalizeInfoHeaderList(tune.source)}
+                                onChange={function(next) {
+                                  tune.source = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                          <Col xs={12} md={6}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="sourceBooks"
+                                label="Source book(s)"
+                                placeholder="Bibliographic book / collection"
+                                addLabel="Add source book"
+                                value={normalizeInfoHeaderList(tune.sourceBooks)}
+                                onChange={function(next) {
+                                  tune.sourceBooks = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                          <Col xs={12} md={6}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="transcription"
+                                label="Transcription"
+                                placeholder="Who transcribed this"
+                                value={normalizeInfoHeaderList(tune.transcription)}
+                                onChange={function(next) {
+                                  tune.transcription = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                          <Col xs={12} md={6}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="discography"
+                                label="Discography"
+                                placeholder="Notable recordings"
+                                value={normalizeInfoHeaderList(tune.discography)}
+                                onChange={function(next) {
+                                  tune.discography = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                          <Col xs={12}>
+                            <div className="abc-editor-info-field-block">
+                              <TuneInfoListField
+                                controlId="infoNotes"
+                                label="Notes"
+                                placeholder="Performance notes (N:)"
+                                addLabel="Add note"
+                                value={normalizeInfoHeaderList(tune.infoNotes)}
+                                onChange={function(next) {
+                                  tune.infoNotes = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                          </Col>
+                        </Row>
                       </div>
 
                       <div className="abc-editor-info-section abc-editor-info-section-background">

@@ -145,6 +145,38 @@ export async function saveStoredTuneFile(record) {
   return record
 }
 
+/**
+ * Persist an ABC-embedded snapshot (meta with inline `.data`) into local storage
+ * and return meta without `.data`. Preserves file id for round-trip.
+ */
+export async function storeEmbeddedTuneFileFromMeta(tune, meta) {
+  if (!meta || !meta.id || !meta.data) return meta
+  const type = meta.type || 'image/png'
+  const blob = utils.dataURItoBlob(meta.data, type)
+  const existing = await getStoredTuneFile(meta.id)
+  const record = Object.assign({}, existing || {}, {
+    id: meta.id,
+    tuneId: (tune && tune.id) || (existing && existing.tuneId) || '',
+    tuneName: (tune && tune.name) || (existing && existing.tuneName) || '',
+    name: meta.name || (existing && existing.name) || 'File',
+    type: type,
+    data: meta.data,
+    blob: blob,
+    source: meta.source || (existing && existing.source) || 'import',
+    googleId: meta.googleId || (existing && existing.googleId) || null,
+    uploadPending: false,
+    createdTimestamp: (existing && existing.createdTimestamp) || new Date(),
+    updatedTimestamp: new Date(),
+  })
+  await saveStoredTuneFile(record)
+  if (tune && tune.id) {
+    await putBlobCache(tune.id, meta.id, blob)
+  }
+  const next = Object.assign({}, meta)
+  delete next.data
+  return next
+}
+
 export async function deleteStoredTuneFile(fileId, tuneId) {
   if (!fileId) return
   await tuneFilesStore.removeItem(fileId)
@@ -596,6 +628,24 @@ export async function deleteTuneFile(tune, fileId, options) {
     })
   }
   return nextTune
+}
+
+/**
+ * Remove all sheet snapshots (tuneFiles meta + stored blobs) from a tune.
+ */
+export async function clearAllTuneSnapshots(tune, options) {
+  const opts = options || {}
+  let next = tune
+  const files = getTuneFiles(next)
+  for (let i = 0; i < files.length; i += 1) {
+    const meta = files[i]
+    if (!meta || !meta.id) continue
+    next = await deleteTuneFile(next, meta.id, opts)
+  }
+  return Object.assign({}, next, {
+    tuneFiles: [],
+    activeFile: '',
+  })
 }
 
 export function collectTuneFilesForShareScope(tunes, tuneIds) {

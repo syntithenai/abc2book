@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { Button } from 'react-bootstrap'
 import axios from 'axios'
 import { curatedScrapeUrl } from '../resourceBase'
-import { findCuratedImportTitle } from '../curatedImportMatch'
+import { findCuratedImportTitle, findCuratedImportMeta } from '../curatedImportMatch'
 import { useDocumentTitle } from '../pageTitle'
 import {
   registerSyncSourceAfterImport,
@@ -49,6 +49,21 @@ function importScopeOption(routeParams) {
   }
 }
 
+function bucketCount(bucket) {
+  if (!bucket) return 0
+  if (Array.isArray(bucket)) return bucket.length
+  return Object.keys(bucket).length
+}
+
+function importChangeCount(results) {
+  if (!results) return 0
+  return bucketCount(results.inserts)
+    + bucketCount(results.updates)
+    + bucketCount(results.localUpdates)
+    + bucketCount(results.duplicates)
+    + bucketCount(results.deletes)
+}
+
 export default function ImportLinkPage({
   tunebook,
   tunesHydrated,
@@ -66,9 +81,20 @@ export default function ImportLinkPage({
   const [error, setError] = useState('')
   const [finished, setFinished] = useState(false)
   const [clickToStart, setClickToStart] = useState(false)
+  const [merging, setMerging] = useState(false)
+  const [mergeSummary, setMergeSummary] = useState('')
 
   const curatedTitle = useMemo(function() {
     return findCuratedImportTitle(
+      tunebook && tunebook.curatedTuneBooks,
+      params.link,
+      params.bookName,
+      params.tagName
+    )
+  }, [tunebook, params.link, params.bookName, params.tagName])
+
+  const curatedMeta = useMemo(function() {
+    return findCuratedImportMeta(
       tunebook && tunebook.curatedTuneBooks,
       params.link,
       params.bookName,
@@ -97,7 +123,25 @@ export default function ImportLinkPage({
     const sourceUrl = resolveImportSourceUrl(params.link)
     axios.get(sourceUrl, { timeout: IMPORT_SOURCE_TIMEOUT_MS }).then(function(res) {
       if (res.data && looksLikeAbc(res.data)) {
-        var results = tunebook.importAbc(res.data, null, params.tuneId, params.bookName, params.tagName)
+        let results
+        try {
+          results = tunebook.importAbc(
+            res.data,
+            null,
+            params.tuneId,
+            params.bookName,
+            params.tagName,
+            null,
+            {
+              allowDuplicateTitles: !!(curatedMeta && curatedMeta.allowDuplicateTitles),
+            }
+          )
+        } catch (importErr) {
+          console.error(importErr)
+          if (setImportResults) setImportResults(null)
+          setError('Error parsing import source.')
+          return
+        }
         const stampedResults = stampSrcUrlOnImportResults(results, sourceUrl)
         const navPayload = buildNavigationPayload(params, {
           autoplay: autoplay,
@@ -112,6 +156,11 @@ export default function ImportLinkPage({
           setFilter: setFilter,
         }
         if (!tunebook.showImportWarning(stampedResults)) {
+          const changeCount = importChangeCount(stampedResults)
+          setMergeSummary(changeCount > 0
+            ? ('Importing ' + changeCount + ' tune' + (changeCount === 1 ? '' : 's') + ' into your library…')
+            : 'Finishing import…')
+          setMerging(true)
           tunebook.applyMergeData(stampedResults).then(function(mergedTunes) {
             registerSyncSourceAfterImport({
               url: sourceUrl,
@@ -121,6 +170,11 @@ export default function ImportLinkPage({
             })
             navHelpers.tunes = mergedTunes
             handleImportNavigation(navPayload, navHelpers, !!autoplay)
+          }).catch(function(mergeErr) {
+            console.error(mergeErr)
+            if (setImportResults) setImportResults(null)
+            setMerging(false)
+            setError('Error applying import.')
           })
         } else {
           setPendingShareImportSourceRegistration({
@@ -152,8 +206,7 @@ export default function ImportLinkPage({
   }, [tunesHydrated])
 
   // Review UI is owned by ImportWarningDialog; avoid a stray page heading under it.
-  // importAbc also sets app-scoped importResults before local finished flips.
-  if (finished || importResults) return null
+  if (finished) return null
 
   if (clickToStart) {
     return (
@@ -171,7 +224,8 @@ export default function ImportLinkPage({
   return (
     <div className="App-import">
       <h1>{pageHeading}</h1>
-      {(!error) && <>Loading…</>}
+      {merging && mergeSummary ? <>{mergeSummary}</> : null}
+      {(!error && !merging) && <>Loading…</>}
       {(error) && <>{error}</>}
     </div>
   )

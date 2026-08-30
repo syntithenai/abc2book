@@ -3,6 +3,7 @@ import {
   chordStatusIconProps,
   lyricsStatusIconProps,
   mediaStatusIconProps,
+  snapshotStatusIconProps,
 } from './tuneListStatusIcon'
 
 describe('tuneListStatusIcon', function() {
@@ -48,6 +49,14 @@ describe('tuneListStatusIcon', function() {
       label: 'Has lyrics',
     })
     expect(lyricsStatusIconProps({})).toBeNull()
+  })
+
+  test('snapshot icons stay outline-primary', function() {
+    expect(snapshotStatusIconProps({ hasSnapshot: true })).toEqual({
+      variant: 'outline-primary',
+      label: 'Has snapshot',
+    })
+    expect(snapshotStatusIconProps({})).toBeNull()
   })
 
   test('media icon colors source, cache, google, and stems', function() {

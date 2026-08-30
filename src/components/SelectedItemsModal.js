@@ -18,6 +18,7 @@ import FieldVoiceFillButton from './FieldVoiceFillButton'
 import useBulkOperationProgress from '../useBulkOperationProgress'
 import { shouldShowBulkOperationProgress } from '../bulkOperationProgress'
 import MediaCacheQueueModal, { useMediaCacheQueueModal } from './MediaCacheQueueModal'
+import { clearAllTuneSnapshots, getTuneFiles } from '../tuneFiles'
 
 function BulkOpsDualIcon({leading, trailing}) {
   return (
@@ -343,6 +344,81 @@ export default function SelectedItemsModal(props) {
         },
       })
     }
+  }
+
+  function clickClearSnapshots() {
+    const tuneIds = selectedTuneIds()
+    const tunes = selectedTunes()
+    let snapshotCount = 0
+    tunes.forEach(function(tune) {
+      snapshotCount += getTuneFiles(tune).length
+    })
+    if (!snapshotCount) {
+      toast.info('None of the selected tunes have snapshots.')
+      return
+    }
+    if (!window.confirm(
+      'Clear snapshots from ' + props.selectedCount + ' selected tune'
+        + (props.selectedCount === 1 ? '' : 's')
+        + ' (' + snapshotCount + ' image'
+        + (snapshotCount === 1 ? '' : 's')
+        + ')? Stored snapshot files will be deleted. This cannot be undone from the app — keep your original crop files if you may need them again.'
+    )) {
+      return
+    }
+
+    const deferOpts = { deferSave: true }
+    const processOne = function(tuneId) {
+      const live = (typeof props.tunebook.getTunes === 'function'
+        ? props.tunebook.getTunes()
+        : null) || {}
+      const tune = live[tuneId]
+      if (!tune || !getTuneFiles(tune).length) return Promise.resolve()
+      return clearAllTuneSnapshots(tune).then(function(next) {
+        props.tunebook.saveTune(next, false, deferOpts)
+      })
+    }
+
+    const runAll = function() {
+      props.tunebook.beginTunesBatchCommit()
+      let chain = Promise.resolve()
+      tuneIds.forEach(function(id) {
+        chain = chain.then(function() { return processOne(id) })
+      })
+      return chain.then(function() {
+        props.tunebook.commitTunesBatch()
+        toast.success('Cleared snapshots from selected tunes.')
+        handleClose()
+        props.forceRefresh()
+      }).catch(function(err) {
+        try { props.tunebook.commitTunesBatch() } catch (_) {}
+        toast.error('Failed to clear some snapshots: ' + String(err && err.message ? err.message : err))
+        props.forceRefresh()
+      })
+    }
+
+    if (shouldShowBulkOperationProgress(tuneIds.length)) {
+      return bulkProgress.runTunebook({
+        tunebook: props.tunebook,
+        items: tuneIds,
+        title: 'Clearing snapshots',
+        messageForIndex: function(current, total) {
+          return 'Clearing snapshots on tune ' + current + ' of ' + total
+        },
+        processChunk: function(chunk) {
+          let chain = Promise.resolve()
+          chunk.forEach(function(id) {
+            chain = chain.then(function() { return processOne(id) })
+          })
+          return chain
+        },
+      }).then(function() {
+        toast.success('Cleared snapshots from selected tunes.')
+        handleClose()
+        props.forceRefresh()
+      })
+    }
+    return runAll()
   }
 
   function selectedTunes() {
@@ -696,6 +772,13 @@ export default function SelectedItemsModal(props) {
                 onOpenQueue={mediaCacheQueueModal.openQueueModal}
               />
               <BulkOpsButton as={Link} to="/print" variant="primary" icon={icons.printer} label="Print" />
+              <BulkOpsButton
+                variant="outline-warning"
+                icon={icons.camera}
+                label="Clear snapshots"
+                data-testid="bulk-clear-snapshots"
+                onClick={clickClearSnapshots}
+              />
               <BulkOpsButton variant="danger" icon={icons.deletebin} label="Delete" onClick={clickDelete} />
             </div>
           </div>

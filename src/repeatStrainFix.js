@@ -15,12 +15,13 @@ export function hasEmptyBarsBetweenRepeatMarks(flat) {
 
 export function hasOpenRepeatBeforeDoubleBar(flat) {
   let depth = 0;
-  const re = /\|:|:\||::|\|\|/g;
+  // :|: before :| / |: so combined mid-repeat is one token (same as ::).
+  const re = /:\|:|\|:|:\||::|\|\|/g;
   let match;
   while ((match = re.exec(String(flat || ''))) !== null) {
     const token = match[0];
     if (token === '|:') depth += 1;
-    else if (token === ':|' || token === '::') {
+    else if (token === ':|' || token === '::' || token === ':|:') {
       if (depth > 0) depth -= 1;
     } else if (token === '||' && depth > 0) return true;
   }
@@ -59,7 +60,7 @@ function insertRepeatEndsBeforeDoubleBarOnLines(lines) {
   const next = lines.map(function(line) {
     let out = '';
     const source = String(line || '');
-    const re = /\|:|:\||::|\|\|/g;
+    const re = /:\|:|\|:|:\||::|\|\|/g;
     let lastIndex = 0;
     let match;
     while ((match = re.exec(source)) !== null) {
@@ -68,7 +69,7 @@ function insertRepeatEndsBeforeDoubleBarOnLines(lines) {
       if (token === '|:') {
         depth += 1;
         out += token;
-      } else if (token === ':|' || token === '::') {
+      } else if (token === ':|' || token === '::' || token === ':|:') {
         if (depth > 0) depth -= 1;
         out += token;
       } else if (token === '||') {

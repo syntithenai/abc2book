@@ -11,6 +11,10 @@ import {
   buildChordHitSlots,
   roleIsActive,
 } from './fillDrumRhythm'
+import {
+  expandThroughVoltaRepeats,
+  expandVisualObjThroughVoltaRepeats,
+} from './voltaRepeatExpand'
 
 function getFirstVoiceNoteLines(tune) {
   if (!tune || !tune.voices) return []
@@ -83,6 +87,7 @@ export function extractChordChangesFromVisualObj(visualObj) {
 
 /**
  * Linear tokens for repeat expansion: bars, chords, and timed notes/rests.
+ * Merges staff lines (deline / force-merge) so |1,3 and :|2,4 stay one block.
  */
 export function buildVisualChordRepeatTokens(visualObj) {
   const tokens = []
@@ -90,7 +95,29 @@ export function buildVisualChordRepeatTokens(visualObj) {
   if (!visualObj || !Array.isArray(visualObj.lines)) {
     return { tokens: tokens, durationWhole: 0 }
   }
-  visualObj.lines.forEach(function(line) {
+  let baseLines = visualObj.lines
+  if (typeof visualObj.deline === 'function') {
+    try {
+      const delineated = visualObj.deline()
+      if (Array.isArray(delineated) && delineated.length) baseLines = delineated
+    } catch (err) {
+      baseLines = visualObj.lines
+    }
+  }
+  // Same cross-line merge as expandVisualObjThroughVoltaRepeats.
+  if (baseLines.length > 1 && baseLines[0] && Array.isArray(baseLines[0].staff)) {
+    const first = baseLines[0]
+    const mergedVoice = []
+    baseLines.forEach(function(line) {
+      const voice = line && line.staff && line.staff[0]
+        && line.staff[0].voices && line.staff[0].voices[0]
+      if (Array.isArray(voice)) mergedVoice.push.apply(mergedVoice, voice)
+    })
+    baseLines = [Object.assign({}, first, {
+      staff: [Object.assign({}, first.staff[0], { voices: [mergedVoice] })],
+    })]
+  }
+  baseLines.forEach(function(line) {
     const staffList = line && line.staff
     if (!Array.isArray(staffList) || !staffList.length) return
     const voices = staffList[0].voices
@@ -126,73 +153,18 @@ export function buildVisualChordRepeatTokens(visualObj) {
 }
 
 /**
- * Flatten tokens the same way abcjs abc_midi_sequencer expands repeats/endings.
+ * Flatten tokens through |: :| and multi-number voltas (|1,3 / |2,4).
+ * Matches expandVisualObjThroughVoltaRepeats used for melody setUpAudio.
  */
-export function flattenVisualTokensThroughRepeats(tokens) {
-  const list = Array.isArray(tokens) ? tokens : []
-  const flat = []
-  let startRepeatPos = null
-  let skipEndingPos = null
-  let i = 0
-  let guard = 0
-  while (i < list.length && guard < 100000) {
-    guard += 1
-    const tok = list[i]
-    i += 1
-    if (!tok) continue
-    if (tok.type === 'bar') {
-      const barType = String(tok.barType || '')
-      const endRepeat = barType.indexOf('right_repeat') >= 0 || barType.indexOf('dbl_repeat') >= 0
-      const startRepeat = barType.indexOf('left_repeat') >= 0 || barType.indexOf('dbl_repeat') >= 0
-        || barType.indexOf('right_repeat') >= 0
-      flat.push({
-        type: 'bar',
-        barType: tok.barType,
-        startEnding: tok.startEnding,
-        endEnding: tok.endEnding,
-      })
-      if (endRepeat) {
-        const s = startRepeatPos != null ? startRepeatPos : 0
-        const e = skipEndingPos != null ? skipEndingPos : flat.length
-        if (e > s) {
-          flat.push.apply(flat, flat.slice(s, e).map(function(t) {
-            if (t.type === 'note') return { type: 'note', d: t.d }
-            if (t.type === 'chord') return { type: 'chord', label: t.label }
-            return {
-              type: 'bar',
-              barType: t.barType,
-              startEnding: t.startEnding,
-              endEnding: t.endEnding,
-            }
-          }))
-        }
-        skipEndingPos = null
-        startRepeatPos = null
-      }
-      if (tok.startEnding === '1') {
-        skipEndingPos = flat.length
-      }
-      if (startRepeat) {
-        startRepeatPos = flat.length
-      }
-      continue
-    }
-    if (tok.type === 'chord') {
-      flat.push({ type: 'chord', label: tok.label })
-      continue
-    }
-    if (tok.type === 'note') {
-      flat.push({ type: 'note', d: tok.d > 0 ? tok.d : 0 })
-    }
-  }
-  return flat
+export function flattenVisualTokensThroughRepeats(tokens, options) {
+  return expandThroughVoltaRepeats(Array.isArray(tokens) ? tokens : [], options)
 }
 
 /**
- * Expand |: :| and 1st/2nd endings so fill covers the same span as setUpAudio.
+ * Expand |: :| and 1st/2nd (incl. 1,3 / 2,4) endings so fill matches playback.
  */
-export function expandChordChangesThroughRepeats(tokens) {
-  const flat = flattenVisualTokensThroughRepeats(tokens)
+export function expandChordChangesThroughRepeats(tokens, options) {
+  const flat = flattenVisualTokensThroughRepeats(tokens, options)
   const changes = []
   let expandedTime = 0
   flat.forEach(function(tok) {
@@ -217,7 +189,13 @@ export function extractExpandedChordChangesFromVisualObj(visualObj) {
   if (!built.tokens.length) {
     return { changes: extractChordChangesFromVisualObj(visualObj), musicWhole: musicDurationWholeFromVisualObj(visualObj) }
   }
-  const expanded = expandChordChangesThroughRepeats(built.tokens)
+  const pickupWhole = visualObj && typeof visualObj.getPickupLength === 'function'
+    ? (parseFloat(visualObj.getPickupLength()) || 0)
+    : 0
+  const expanded = expandChordChangesThroughRepeats(
+    built.tokens,
+    pickupWhole > 0 ? { pickupWhole: pickupWhole } : undefined
+  )
   if (!expanded.changes.length) {
     return {
       changes: extractChordChangesFromVisualObj(visualObj),
@@ -949,7 +927,7 @@ function resolveEntryRhythm(entry, rhythmContext) {
 }
 
 function slotStartSec(entry, schedule, slotIndex) {
-  return entry.startSec + schedule.slotStartsSec[slotIndex]
+  return entrySoundStartSec(entry) + schedule.slotStartsSec[slotIndex]
 }
 
 function slotDurationSecAt(schedule, slotIndex) {
@@ -1076,7 +1054,7 @@ function generateBlockEvents(entry, schedule, styleDef, level, rhythmContext) {
   const noteLength = beatLength * 0.85
 
   fillBeats.forEach(function(beat) {
-    const beatStart = entry.startSec + beat * beatLength
+    const beatStart = entrySoundStartSec(entry) + beat * beatLength
     if (chord.boom != null && styleDef.bassProgram !== styleDef.chordProgram) {
       events.push(noteEvent(chord.boom, beatStart, noteLength, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
     }
@@ -1115,7 +1093,7 @@ function generateArpeggioEvents(entry, styleDef, level) {
   arp.forEach(function(pitch, index) {
     events.push(noteEvent(
       pitch,
-      entry.startSec + index * beatLength,
+      entrySoundStartSec(entry) + index * beatLength,
       noteLength,
       vol,
       styleDef.chordProgram,
@@ -1205,7 +1183,7 @@ function generateFingerpickEvents(entry, schedule, styleDef, level, rhythmContex
     const pitch = cycle[i % cycle.length]
     events.push(noteEvent(
       pitch,
-      entry.startSec + i * stepDur,
+      entrySoundStartSec(entry) + i * stepDur,
       noteLen,
       vol,
       program,
@@ -1247,7 +1225,7 @@ function generatePizzicatoEvents(entry, schedule, styleDef, level, rhythmContext
   const noteLength = beatLength * 0.15
 
   fillBeats.forEach(function(beat) {
-    const beatStart = entry.startSec + beat * beatLength
+    const beatStart = entrySoundStartSec(entry) + beat * beatLength
     if (chord.boom != null) {
       events.push(noteEvent(
         chord.boom,
@@ -1322,7 +1300,7 @@ function generateWaltzRollEvents(entry, styleDef, level) {
     const pitch = roll[i % roll.length]
     events.push(noteEvent(
       pitch,
-      entry.startSec + i * stepDur,
+      entrySoundStartSec(entry) + i * stepDur,
       noteLen,
       vol,
       styleDef.chordProgram,
@@ -1492,7 +1470,7 @@ function generateHarpCelloEvents(entry, styleDef, level) {
   const noteLen = slotDurationSec * 0.35
   const harpVol = scaledVolume(66, level)
   for (let beat = 0; beat < slotsPerBar; beat += 1) {
-    const beatStart = entry.startSec + beat * slotDurationSec
+    const beatStart = entrySoundStartSec(entry) + beat * slotDurationSec
     roll.forEach(function(pitch, idx) {
       events.push(noteEvent(
         pitch,
@@ -1528,7 +1506,7 @@ function generateBrassStringsEvents(entry, schedule, styleDef, level, rhythmCont
   const stabDur = beatLength * 0.35
   ;[0, 2].forEach(function(beat) {
     if (beat >= beatsPerBar) return
-    const beatStart = entry.startSec + beat * beatLength
+    const beatStart = entrySoundStartSec(entry) + beat * beatLength
     pushChordNotes(events, (chord.chick || []).slice(0, 2), beatStart, stabDur, stabVol, styleDef.accentProgram, FILL_CHANNELS.accent)
   })
   return events
@@ -1562,7 +1540,7 @@ function generateGuitarMandolinEvents(entry, schedule, styleDef, level, rhythmCo
   const stepDur = entry.barDurationSec / Math.max(1, steps)
   const noteLen = stepDur * 0.38
   for (let i = 0; i < steps; i += 1) {
-    const stepStart = entry.startSec + i * stepDur
+    const stepStart = entrySoundStartSec(entry) + i * stepDur
     if (i % 4 === 0 && chord.boom != null) {
       events.push(noteEvent(chord.boom, stepStart, noteLen * 1.2, bassVol, styleDef.bassProgram, FILL_CHANNELS.bass))
     } else if (highTriad.length) {
@@ -1632,7 +1610,7 @@ function generateOrchestraEvents(entry, styleDef, level) {
   arp.forEach(function(pitch, index) {
     events.push(noteEvent(
       pitch,
-      entry.startSec + index * beatLength,
+      entrySoundStartSec(entry) + index * beatLength,
       beatLength * 0.55,
       vol,
       styleDef.accentProgram,
@@ -1906,12 +1884,19 @@ export function buildPlaybackSequence(synthObj, options) {
   const fillOptions = opts.fillOptions || {}
   if (!synthObj || typeof synthObj.setUpAudio !== 'function') return null
 
+  // Unfold multi-number voltas / repeats so abcjs setUpAudio is not asked to
+  // expand |1,3 / |2,4 (it only understands startEnding === '1').
+  const audioObj = expandVisualObjThroughVoltaRepeats(synthObj)
+  if (typeof audioObj.setUpAudio !== 'function' && typeof synthObj.setUpAudio === 'function') {
+    audioObj.setUpAudio = synthObj.setUpAudio.bind(audioObj)
+  }
+
   if (fillOptions.injectCustomFill) {
-    const flattened = synthObj.setUpAudio(setupAudioOptionsForPlayback(opts, true))
-    const meterKey = meterKeyFromVisualObj(synthObj)
-    const meterFraction = typeof synthObj.getMeterFraction === 'function'
-      ? synthObj.getMeterFraction()
-      : null
+    const flattened = audioObj.setUpAudio(setupAudioOptionsForPlayback(opts, true))
+    const meterKey = meterKeyFromVisualObj(audioObj)
+    const meterFraction = typeof audioObj.getMeterFraction === 'function'
+      ? audioObj.getMeterFraction()
+      : (typeof synthObj.getMeterFraction === 'function' ? synthObj.getMeterFraction() : null)
     const chordsPerBar = opts.tune
       ? (opts.abcjsParser
         ? extractChordsPerBar(opts.tune, opts.tunebook, opts.abcjsParser)
@@ -1919,12 +1904,14 @@ export function buildPlaybackSequence(synthObj, options) {
       : []
     const msPerMeasure = opts.millisecondsPerMeasure > 0
       ? opts.millisecondsPerMeasure
-      : (typeof synthObj.millisecondsPerMeasure === 'function'
-        ? synthObj.millisecondsPerMeasure()
-        : 0)
+      : (typeof audioObj.millisecondsPerMeasure === 'function'
+        ? audioObj.millisecondsPerMeasure()
+        : (typeof synthObj.millisecondsPerMeasure === 'function'
+          ? synthObj.millisecondsPerMeasure()
+          : 0))
     const barDurationSec = resolveBarDurationSec(
       flattened,
-      synthObj,
+      audioObj,
       msPerMeasure,
       meterKey,
       { chordBarCount: chordsPerBar.length }
@@ -1933,7 +1920,7 @@ export function buildPlaybackSequence(synthObj, options) {
       opts.tune,
       opts.tunebook,
       opts.abcjsParser,
-      synthObj,
+      audioObj,
       Object.assign({}, opts, { barDurationSec: barDurationSec })
     )
     if (!timeline.length) return flattened
@@ -1953,7 +1940,7 @@ export function buildPlaybackSequence(synthObj, options) {
     })
   }
 
-  const flattened = synthObj.setUpAudio(
+  const flattened = audioObj.setUpAudio(
     setupAudioOptionsForPlayback(opts, fillOptions.chordsOff)
   )
   if (fillOptions.chordsOff) {

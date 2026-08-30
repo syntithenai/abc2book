@@ -37,23 +37,35 @@ OMR_PLUS_SOURCE = "omr+"
 
 
 def load_title_seed_map(join_path: Path) -> dict[str, dict]:
-    """import_title → {seedKey, seedMeter, …} from MSCZ/MXL join (offline)."""
+    """import_title → {seedKey, seedMeter, …} from MSCZ/MXL join (offline).
+
+    When a title is already in eval TUNE_MAP, prefer that K:/M: (pitch-verified).
+    """
     if not join_path.is_file():
         return {}
+    try:
+        from eval_omr_vs_mxl import TUNE_MAP  # noqa: WPS433
+    except Exception:
+        TUNE_MAP = {}
     rows = json.loads(join_path.read_text(encoding="utf-8"))
     out: dict[str, dict] = {}
     for row in rows if isinstance(rows, list) else []:
         title = str(row.get("import_title") or "").strip()
         match = row.get("match") or {}
-        if not title or not match:
+        if not title:
             continue
         seed: dict = {}
-        if match.get("seedKey"):
-            seed["key"] = str(match["seedKey"])
-        if match.get("seedMeter"):
-            seed["meter"] = str(match["seedMeter"])
-        elif match.get("mxlMeter"):
-            seed["meter"] = str(match["mxlMeter"])
+        if title in TUNE_MAP:
+            _m0, _m1, key, meter = TUNE_MAP[title]
+            seed["key"] = key
+            seed["meter"] = meter
+        elif match:
+            if match.get("seedKey"):
+                seed["key"] = str(match["seedKey"])
+            if match.get("seedMeter"):
+                seed["meter"] = str(match["seedMeter"])
+            elif match.get("mxlMeter"):
+                seed["meter"] = str(match["mxlMeter"])
         if seed:
             out[title] = seed
     return out
@@ -420,7 +432,14 @@ def main() -> int:
         enhanced_meta: dict = {}
         if args.skip_omr and entry.get("omrPlusAbc") and not looks_weak_abc(str(entry.get("omrPlusAbc") or "")):
             omr_abc = str(entry["omrPlusAbc"])
-            print(f"  reuse omrPlusAbc ({len(omr_abc)} chars)", flush=True)
+            seed = seed_map.get(title) or {}
+            omr_abc = repair_omr_abc(
+                omr_abc,
+                title,
+                meter_hint=seed.get("meter"),
+                key_override=seed.get("key"),
+            )
+            print(f"  reuse+repair omrPlusAbc ({len(omr_abc)} chars)", flush=True)
             enhanced_meta = {"mode": "reuse"}
         else:
             print("  enhanced OMR...", flush=True)

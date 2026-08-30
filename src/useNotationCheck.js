@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { isPhotoOnlyTune } from './abcPhotoOnly'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
 import { checkTuneLyricsAlignment } from './tuneLyricsAlignmentCheck'
@@ -43,6 +44,18 @@ export function runNotationChecks(tune, options) {
 
   const abcTools = opts.abcTools
   const abcText = opts.abcText || (abcTools ? abcTools.json2abc(tune) : '')
+  if (isPhotoOnlyTune(tune, abcText)) {
+    return {
+      issues: [],
+      abcResult: null,
+      structureResult: null,
+      lyricsResult: null,
+      extendedResult: null,
+      completenessResult: null,
+      completenessIssues: [],
+      metadataIssues: [],
+    }
+  }
   const checkOpts = Object.assign({}, opts, {
     abcText: abcText,
     skipRenderAbc: opts.skipRenderAbc !== false,

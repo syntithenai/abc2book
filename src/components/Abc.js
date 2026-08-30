@@ -550,10 +550,11 @@ export default function Abc(props) {
                 {props.showRepeats && !props.practiceAutoPlay && tune ? <span style={{float:'right'}} >  
                     <RepeatsEditorModal tunebook={props.tunebook} value={tune.repeats} onChange={function(value) {tune.repeats = value; props.tunebook.saveTune(tune)}} playCount={playCount} />
                 </span> : null}
-                {props.link && tune && tune.id ? <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link> : null}
+                {props.link && tune && tune.id ? <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id={props.viewerElementId || 'abc_music_viewer'} className="abc-music-viewer" ref={inputEl} ></div></Link> : null}
                 {!props.link ? (
                   <div
-                    id={props.hideSvg ? undefined : 'abc_music_viewer'}
+                    id={props.hideSvg ? undefined : (props.viewerElementId || 'abc_music_viewer')}
+                    className={props.hideSvg ? undefined : 'abc-music-viewer'}
                     ref={inputEl}
                     aria-hidden={props.hideSvg ? true : undefined}
                     style={props.hideSvg ? {

@@ -23,6 +23,8 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/rebuild-music-collection-index` | Rebuild `music_collection_index.json` from files on disk |
 | GET | `/music-collection/:path` | Stream an audio file from the music collection |
 | GET | `/music-collection-art/:entryId` | Serve embedded album art for a collection entry |
+| GET | `/review-projects` | Admin catalog of Milliner–Koken / oldtime working files (`REVIEW_PROJECTS_DIR`, host default `~/Documents/oldtime sources review`) |
+| GET | `/review-projects/file/{path}` | Serve a file from that review root (admin; path-traversal safe) |
 | POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (compose `llm` / LM Studio fallback by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |

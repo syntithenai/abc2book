@@ -1,4 +1,8 @@
-import { createQueue } from './nowPlayingQueue'
+import { createQueue as createQueueBase, MIDI_PREFERENCE } from './nowPlayingQueue'
+
+function createQueue(opts) {
+  return createQueueBase(Object.assign({ midiPreference: MIDI_PREFERENCE.ALLOW }, opts || {}))
+}
 import {
   enqueueManualPlaylistSkip,
   consumeManualPlaylistSkipStep,

@@ -4,6 +4,7 @@ import {
   isExternalQueueItem,
   isLessonExternalMedia,
   shouldSuppressFollowNavigate,
+  getMidiPreference,
 } from './nowPlayingQueue'
 import {
   playQueueItem,
@@ -173,7 +174,7 @@ function landQueueItem(deps, result, keepPlaying) {
       fromUserGesture: true,
       playbackTarget: result.playbackTarget,
       queue: result.queue,
-      preferMidi: !!(result.queue && result.queue.preferMidi),
+      midiPreference: getMidiPreference(result.queue),
     })
     if (started) queuePlaylistTrackAnnouncement(tune)
   }
@@ -195,7 +196,7 @@ function landQueueItem(deps, result, keepPlaying) {
     if (keepPlaying || !forceNavigate) {
       navigateToQueueTune(nav, tuneId, item, deps.tunebook, deps.tunes, result.playbackTarget, {
         queue: liveQueue || nextQueue,
-        preferMidi: !!((liveQueue || nextQueue) && (liveQueue || nextQueue).preferMidi),
+        midiPreference: getMidiPreference(liveQueue || nextQueue),
       })
     } else {
       nav('/tunes/' + tuneId)

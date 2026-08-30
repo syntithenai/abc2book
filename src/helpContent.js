@@ -197,8 +197,8 @@ export function HelpTuner() {
         <li><strong>String buttons</strong> — one per string, showing the target note. The active string is highlighted; colour shows how close you are (green in tune, amber close, red further off).</li>
         <li><strong>Next string</strong> — move to the next string in the preset.</li>
         <li><strong>Play button</strong> — play or stop a reference tone for the selected string (useful for tuning by ear).</li>
-        <li><strong>Wrong-string warning</strong> — if the pitch clearly matches a different string, a dismissible alert suggests which string you may be on.</li>
-        <li><strong>Auto next</strong> — when enabled, advances to the next string automatically after you hold the note in tune for about 400&nbsp;ms (plays a short chime).</li>
+        <li><strong>Auto next off</strong> — when the pitch clearly matches a different open string, that string button is selected automatically so you can tune without tapping each note.</li>
+        <li><strong>Auto next on</strong> — starts from the lowest string and advances after you hold the note in tune for about 400&nbsp;ms (plays a short chime). If another open string is heard instead, a dismissible warning suggests which string you may be on.</li>
       </ul>
 
       <h4>Chromatic mode</h4>

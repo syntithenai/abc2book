@@ -1,4 +1,4 @@
-import { createQueue } from './nowPlayingQueue'
+import { createQueue as createQueueBase, MIDI_PREFERENCE } from './nowPlayingQueue'
 import {
   isQueueItemPlayable,
   isQueueItemFullyPlayable,
@@ -9,6 +9,10 @@ import {
   isResolverProxiedMediaPlayable,
   stopPlaylistPlayback,
 } from './playlistPlaybackResilience'
+
+function createQueue(opts) {
+  return createQueueBase(Object.assign({ midiPreference: MIDI_PREFERENCE.ALLOW }, opts || {}))
+}
 
 jest.mock('./linkRecording', function() {
   return {
@@ -261,6 +265,21 @@ describe('playlistPlaybackResilience', function() {
     expect(result.tune.id).toBe('midi')
   })
 
+  test('advanceQueueToNextPlayable skips midi-only items under skip midiPreference', async function() {
+    const queue = createQueue({
+      tuneIds: ['midi', 'media'],
+      currentIndex: 0,
+      midiPreference: MIDI_PREFERENCE.SKIP,
+    })
+    const result = await advanceQueueToNextPlayable(queue, tunes, tunebook, {
+      direction: 1,
+      advanceFirst: false,
+    })
+    expect(result.atEnd).toBe(false)
+    expect(result.skipped).toBe(1)
+    expect(result.tune.id).toBe('media')
+  })
+
   test('advanceQueueToNextPlayable returns atEnd when nothing playable', async function() {
     const queue = createQueue({ tuneIds: ['empty'], currentIndex: 0 })
     const result = await advanceQueueToNextPlayable(queue, tunes, tunebook, { direction: 1 })
@@ -427,6 +446,7 @@ describe('playlistPlaybackResilience', function() {
           { tuneId: 'midi' },
         ],
         currentIndex: 0,
+        midiPreference: MIDI_PREFERENCE.ALLOW,
       }
       const result = await advanceQueueToNextPlayable(queue, tunes, tunebook, {
         direction: 1,

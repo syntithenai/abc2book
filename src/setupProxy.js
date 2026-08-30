@@ -49,6 +49,7 @@ const RESOLVER_PATHS = new Set([
   '/search-internet-archive',
   '/search-europeana',
   '/search-loc-audio',
+  '/fetch-score-attachment',
   '/textsearch_index.json',
 ]);
 

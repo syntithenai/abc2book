@@ -28,6 +28,20 @@ describe('scanTuneMusicalIssueStatus', function() {
     expect(status.hasMusicalErrors).toBe(true)
   })
 
+  test('photo-only stubs are not musical errors', function() {
+    const abcTools = {
+      json2abc: function() {
+        return 'X:1\nT:Maltese Dance No. 13\nM:4/4\nK:C\n%% photo only — ABC not transcribed\n'
+      },
+      getMetaValueFromAbc: function() { return '' },
+    }
+    const status = scanTuneMusicalIssueStatus(makeTune([]), { abcTools: abcTools })
+    expect(status).toEqual({
+      hasMusicalErrors: false,
+      hasMusicalWarnings: false,
+    })
+  })
+
   test('missing meter header is a musical warning', function() {
     const abcTools = {
       json2abc: function() { return 'X:1\nT:Tune A\nK:C\nCDEF|' },

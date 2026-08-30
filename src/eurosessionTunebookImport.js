@@ -10,6 +10,13 @@ import {
   deleteStoredTuneFile,
 } from './tuneFiles'
 import { setTuneBookPage } from './tuneBookPages'
+import {
+  ensureAbcbookRepeats,
+  isGenericComposer,
+  stripGenericComposerFromAbc,
+} from './bookImportAbcTransforms'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { isPhotoOnlyAbc } from './abcPhotoOnly'
 
 export const EUROSESSION_IMPORT_BOOK = 'eurosession'
 export const EUROSESSION_CROP_SOURCE = 'eurosession'
@@ -36,10 +43,11 @@ export function parseEurosessionImportPackage(raw) {
     const title = String(t.title || '').trim() || ('Tune ' + (i + 1))
     const crop = String(t.crop || '').trim()
     const abc = String(t.abc || '').trim()
+    const notationOnly = !!(t.notationOnly || t.joinTier === 'mxl_only')
     if (!id) {
       throw new Error('Tune "' + title + '" is missing a stable id — re-export from the review page')
     }
-    if (!crop) {
+    if (!crop && !notationOnly) {
       throw new Error('Tune "' + title + '" is missing crop filename')
     }
     tunes.push({
@@ -51,6 +59,8 @@ export function parseEurosessionImportPackage(raw) {
       crop: crop,
       complete: !!t.complete,
       abc: abc,
+      notationOnly: notationOnly,
+      joinTier: String(t.joinTier || '').trim(),
     })
   }
   if (!tunes.length) throw new Error('eurosession-import.json has no tunes')
@@ -90,6 +100,51 @@ export function findCropFile(cropIndex, cropName) {
 /** Incomplete → crop is default view (activeFile set). */
 export function shouldSetCropActive(complete) {
   return !complete
+}
+
+function importedTuneHasLyrics(imported) {
+  const words = imported && imported.words
+  if (!Array.isArray(words)) return false
+  return words.some(function(w) { return w && String(w).trim() })
+}
+
+function importedTuneHasMelody(imported) {
+  const voices = imported && imported.voices
+  if (!voices || typeof voices !== 'object') return false
+  return Object.keys(voices).some(function(k) {
+    const voice = voices[k]
+    return noteLinesHaveRealMelody(voice && voice.notes)
+  })
+}
+
+function importedTuneHasChords(imported) {
+  const wLines = imported && imported.wLines
+  if (!Array.isArray(wLines) || !wLines.length) return false
+  return wLines.some(function(line) {
+    const text = String(line || '').trim()
+    if (!text) return false
+    return /[A-G][#b]?(\/|[\s]|$)/.test(text)
+  })
+}
+
+/**
+ * Photo-only / empty imports should open on the crop snapshot, not a blank ABC stub.
+ */
+export function shouldDefaultCropSnapshotVisible(entry, imported) {
+  if (!entry || entry.notationOnly || entry.joinTier === 'mxl_only') return false
+  if (String(entry.joinTier || '') === 'photo_only') return true
+  const abc = String(entry.abc || '')
+  if (isPhotoOnlyAbc(abc)) return true
+  if (!importedTuneHasMelody(imported)
+    && !importedTuneHasLyrics(imported)
+    && !importedTuneHasChords(imported)) {
+    return true
+  }
+  return false
+}
+
+export function shouldActivateCropOnImport(entry, imported) {
+  return shouldSetCropActive(entry && entry.complete) || shouldDefaultCropSnapshotVisible(entry, imported)
 }
 
 function ensureBookOnTune(tune, book) {
@@ -140,7 +195,12 @@ export function mergeImportedAbcOntoTune(existing, imported, book) {
   if (existing) {
     if (existing.boost != null) next.boost = existing.boost
     if (existing.starred != null) next.starred = existing.starred
-    if (Array.isArray(existing.links)) next.links = existing.links
+    // Prefer links from the import package when present (e.g. curated YouTube).
+    if (Array.isArray(imported && imported.links) && imported.links.length > 0) {
+      next.links = imported.links
+    } else if (Array.isArray(existing.links)) {
+      next.links = existing.links
+    }
     if (Array.isArray(existing.recordings)) next.recordings = existing.recordings
     if (Array.isArray(existing.tags)) next.tags = existing.tags
     next.tuneFiles = getTuneFiles(existing)
@@ -180,7 +240,10 @@ export async function importBookReviewPackage(options) {
   if (!tunebook || !tunebook.abcTools || typeof tunebook.abcTools.abc2json !== 'function') {
     throw new Error('tunebook is required')
   }
-  if (!cropIndex && !resolveCrop) {
+  const needsCrop = entries.some(function(entry) {
+    return !(entry && (entry.notationOnly || entry.joinTier === 'mxl_only'))
+  })
+  if (needsCrop && !cropIndex && !resolveCrop) {
     throw new Error('Crop images are required')
   }
 
@@ -203,27 +266,34 @@ export async function importBookReviewPackage(options) {
       const title = String(entry.title || '').trim() || ('Tune ' + (i + 1))
       onProgress(i, total, title, 'start')
       try {
+        const notationOnly = !!(entry.notationOnly || entry.joinTier === 'mxl_only')
         let cropFile = null
-        if (resolveCrop) {
-          cropFile = await resolveCrop(entry)
-        }
-        if (!cropFile && cropIndex) {
-          if (typeof cropIndex.get === 'function') {
-            cropFile = findCropFile(cropIndex, entry.crop || entry.cropName || entry.cropBlobKey)
-          } else if (entry.cropBlobKey && cropIndex[entry.cropBlobKey]) {
-            cropFile = cropIndex[entry.cropBlobKey]
-          } else if (entry.crop && cropIndex[entry.crop]) {
-            cropFile = cropIndex[entry.crop]
+        if (!notationOnly) {
+          if (resolveCrop) {
+            cropFile = await resolveCrop(entry)
+          }
+          if (!cropFile && cropIndex) {
+            if (typeof cropIndex.get === 'function') {
+              cropFile = findCropFile(cropIndex, entry.crop || entry.cropName || entry.cropBlobKey)
+            } else if (entry.cropBlobKey && cropIndex[entry.cropBlobKey]) {
+              cropFile = cropIndex[entry.cropBlobKey]
+            } else if (entry.crop && cropIndex[entry.crop]) {
+              cropFile = cropIndex[entry.crop]
+            }
+          }
+          if (!cropFile) {
+            summary.missingCrop.push((entry.crop || entry.cropBlobKey || '?') + ' (' + title + ')')
+            summary.skipped += 1
+            onProgress(i + 1, total, title, 'missing-crop')
+            continue
           }
         }
-        if (!cropFile) {
-          summary.missingCrop.push((entry.crop || entry.cropBlobKey || '?') + ' (' + title + ')')
-          summary.skipped += 1
-          onProgress(i + 1, total, title, 'missing-crop')
-          continue
-        }
 
-        let imported = tunebook.abcTools.abc2json(entry.abc || '')
+        const abcWithRepeats = ensureAbcbookRepeats(
+          stripGenericComposerFromAbc(entry.abc || ''),
+          3,
+        )
+        let imported = tunebook.abcTools.abc2json(abcWithRepeats, { bAsSourceBook: true })
         if (!imported || typeof imported !== 'object') {
           imported = {
             id: entry.id,
@@ -235,6 +305,11 @@ export async function importBookReviewPackage(options) {
         }
         imported.id = entry.id
         imported.name = imported.name || title
+        // Always set composer so re-import clears MuseScore placeholders on existing tunes.
+        imported.composer = isGenericComposer(imported.composer)
+          ? ''
+          : String(imported.composer || '')
+        if (!imported.repeats) imported.repeats = '3'
         imported = ensureBookOnTune(imported, book)
 
         const liveTunes = (typeof tunebook.getTunes === 'function' ? tunebook.getTunes() : null) || tunesMap || {}
@@ -247,7 +322,9 @@ export async function importBookReviewPackage(options) {
         tune = ensureBookOnTune(tune, book)
         tune = setTuneBookPage(tune, book, entry.page, entry.tuneIndex)
 
-        if (isUpdate) {
+        // Only strip prior crops when a replacement crop is being attached.
+        // ABC-only / notation-only updates must keep existing snapshots.
+        if (isUpdate && cropFile) {
           tune = await stripCropsBySource(tune, cropSource)
         }
 
@@ -257,17 +334,19 @@ export async function importBookReviewPackage(options) {
           historyLabel: isUpdate ? (historyLabel + ' update') : historyLabel,
         })
 
-        const fileResult = await createTuneFileFromBlob({
-          tune: tune,
-          blob: cropFile,
-          name: entry.crop || entry.cropName || (cropFile.name) || 'crop.jpg',
-          type: cropFile.type || 'image/jpeg',
-          source: cropSource,
-          setActive: shouldSetCropActive(entry.complete),
-          uploadToDrive: false,
-        })
-        tune = fileResult.tune
-        if (entry.complete) {
+        if (cropFile) {
+          const fileResult = await createTuneFileFromBlob({
+            tune: tune,
+            blob: cropFile,
+            name: entry.crop || entry.cropName || (cropFile.name) || 'crop.jpg',
+            type: cropFile.type || 'image/jpeg',
+            source: cropSource,
+            setActive: shouldActivateCropOnImport(entry, imported),
+            uploadToDrive: false,
+          })
+          tune = fileResult.tune
+        }
+        if ((entry.complete || notationOnly) && !shouldDefaultCropSnapshotVisible(entry, imported)) {
           tune = Object.assign({}, tune, { activeFile: '' })
         }
 

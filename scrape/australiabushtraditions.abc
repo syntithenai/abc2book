@@ -1341,7 +1341,7 @@ L:1/8
 K:D
 |:A|"D"f>afd3"Bm"d>cd|"Em"e>dG"G"B3"A7"A3|"G"B>GB "A7"A3"D"f3|"Bm"f>af"A7"e3-e2A|
 "D"f>af"Bm"d3d>cd"A7"|e>dG"Em"B3"D"A3|"G"B>GB"A7"A3"D"f3|"A7"e>fe"D"d3-d2:|
-|:z|"D"d>cd"A7"e3"D"A3|"A7"e>fg "D"f<af"Bm"d3|"D"f>ef"G"g3"A7"A3|"D"f<af "A7"e3e2A|
+z|:|"D"d>cd"A7"e3"D"A3|"A7"e>fg "D"f<af"Bm"d3|"D"f>ef"G"g3"A7"A3|"D"f<af "A7"e3e2A|
 "D"f>af"Bm"d3d>cd|"A7"e>dG"Em"B3"D"A3|"G"B>GB"A7"A3"D"f3|"A7"e>fe"D"d3-d2:|
 % abcbook-json bookPages 1/1 {"nff book 2013":{"page":1,"tuneIndex":60}}
 % abcbook-link-0 https://austradmusic.au/recordings/Battle_of_the_Somme.mp3
@@ -2678,7 +2678,7 @@ M:4/4
 L:1/8
 K:A
 fe|"Bm"d2B2f2B2|d2f2f2ed|"A"c2A2e2A2|c2e2e2fe|"Bm"d2B2f2B2|d2f2f3g|"D"a2f2 "A"e2c2|"Bm"B4-B2:|
-|:z2|"D"a3fd2f2|ab afd2f2|"A"e4e3f|e2d2B2A2|"D"a2f2d2f2|ab afd2f2|"A"e3fe2d2|"Bm"B4-B2:|
+z2|:|"D"a3fd2f2|ab afd2f2|"A"e4e3f|e2d2B2A2|"D"a2f2d2f2|ab afd2f2|"A"e3fe2d2|"Bm"B4-B2:|
 % abcbook-json bookPages 1/1 {"nff book 2017":{"page":1,"tuneIndex":10},"settlers sessions":{"page":1,"tuneIndex":175}}
 % abcbook-link-0 https://austradmusic.au/recordings/Black_Rock.mp3
 % abcbook-link-title-0 Black Rock - played by Greg O'Leary
@@ -4887,11 +4887,11 @@ F:Dancing_Pennies.mp3 Dancing Pennies - played by Greg O'Leary
 M:3/4
 L:1/8
 K:C
-|:z2|"C"e3dc2|g3fe2|"G7"f4d2|d6|f3ed2|a3gf2|"C"g4e2|e2f2g2|
+z2|:|"C"e3dc2|g3fe2|"G7"f4d2|d6|f3ed2|a3gf2|"C"g4e2|e2f2g2|
 "F"a3fa2|c'3ba2|"C"g6|e4e2|e2d2c2|g3fe2|"G7"d6-|d4:||
 |:g2|"C"g3fe2|e2d2c2|"G7"B2g2g2|"F"A2f2f2|"C"G2e2e2|"G7"A2d2B2|"C"c6-|c4:|
 z2|"C"c3Bcd|e3def|g3fg2|"F"c'2b2a2|"C"g3fe2|"D7"e2d2c2|"G"d6-|"G7"d4ef|
-"C"g2f2e2|e2d2c2|"G7"B2g2g2|"F"A2f2f2|"C"G2e2e2|"G7"A2d2B2|"C"c6-|c4z2||
+"C"g2f2e2|e2d2c2|"G7"B2g2g2|"F"A2f2f2|"C"G2e2e2|"G7"A2d2B2|"C"c6-|c4||
 % abcbook-json bookPages 1/1 {"nff book 2016":{"page":1,"tuneIndex":10},"settlers sessions":{"page":1,"tuneIndex":234}}
 % abcbook-link-0 https://austradmusic.au/recordings/Dancing_Pennies.mp3
 % abcbook-link-title-0 Dancing Pennies - played by Greg O'Leary
@@ -5103,7 +5103,7 @@ L:1/8
 K:Em
 |:B/2A/2|"Em"GE GA|B/2c/2B/2G/2 "D"A>d|"Em"eB B/2A/2G|"D"A/2B/2A/2G/2 FB/2A/2|
 "Em"GE GA|B/2c/2B/2G/2 "D"A>d|"Em"eB B/2A/2G|G/2E/2"D"F/2D/2 "Em"E:|
-|:z|"Em"bb/2g/2 ee/2f/2|"D"a/2f/2d/2f/2 a/2f/2d/2f/2|"Em"bb/2g/2 ee/2f/2|g/2a/2f/2g/2 e/2f/2g/2a/2|
+z|:|"Em"bb/2g/2 ee/2f/2|"D"a/2f/2d/2f/2 a/2f/2d/2f/2|"Em"bb/2g/2 ee/2f/2|g/2a/2f/2g/2 e/2f/2g/2a/2|
 "Em"bb/2g/2 ee/2f/2|"D"a/2f/2d/2f/2 a/2f/2d/2f/2|"Em"b/2g/2e/2d/2 e/2d/2B/2A/2|G/2E/2"D"F/2D/2 "Em"E:|
 % abcbook-json bookPages 1/1 {"nff book 2019":{"page":1,"tuneIndex":10}}
 % abcbook-link-0 https://austradmusic.au/recordings/Dirranbandi.mp3
@@ -16494,7 +16494,7 @@ K:D
 %transposed from C
 A/A/|"D"AF DF |AB AA/A/|AF GF |"Em"G3B/B/|BG EG |Bc BB/B/|Bd cB |"A7"A3A/A/|
 "D"AF DF |AB AA/A/|"Em"BG EB | B3B/B/|BG EB  |"D"AF DF|"A7"GE DC  |"D"DF D:|
-|:z|"D"zd2c |B2Az|FA2F |"A7"G2E2|ze2d |c2Bz|AA2A |"G"B2"A"A2|
+z|:|"D"zd2c |B2Az|FA2F |"A7"G2E2|ze2d |c2Bz|AA2A |"G"B2"A"A2|
 "D"zd2c |B2Az|FA2F |"A7"G2E2|ze2d |c2Bz|AB2 c |"D"d2z:|
 % abcbook-json bookPages 1/1 {"nff book 2018":{"page":1,"tuneIndex":27}}
 % abcbook-link-0 https://austradmusic.au/recordings/Pine_Mt_Lancers_Fig_4.mp3
@@ -18195,7 +18195,7 @@ C/D/|F2F Ffd|cAFG2F|GAcd2g|FAF fed|cAF GAc|AGFD2:|
 |:f|fcf f>af|e>dc dcd|f3/2g/a/b/g2f|f>ga gaf|e>dc def|cAFG2:|
 V:2
 z|d3f2g|d3c2d|A3G3|D3G3|d3A3|B3B,2:|
-|:z|f3d3|A3g3|f2da2d|f2dc2B|A3G3|D3A2:|
+z|:|f3d3|A3g3|f2da2d|f2dc2B|A3G3|D3A2:|
 % abcbook-json bookPages 1/1 {"captain cooks country dances":{"page":1,"tuneIndex":6},"nff book 2020":{"page":1,"tuneIndex":43}}
 % abcbook-link-0 https://austradmusic.au/recordings/Silly_Old_Man.mp3
 % abcbook-link-title-0 Silly Old Man - played by Roland Clarke

@@ -2840,7 +2840,9 @@ a.header-now-playing-label:focus {
 }
 
 .tune-search-panel-fixed {
-  z-index: 1;
+  /* Above list-row chrome (confidence badges use absolute z-index:2) so
+     scores cannot paint over the pinned search bar while scrolling up. */
+  z-index: 1000;
   position: fixed;
   top: 4em;
   background-color: var(--app-brand-muted);
@@ -3768,6 +3770,8 @@ button.btn-primary {
   stroke-width: 3px;
   vector-effect: non-scaling-stroke;
   pointer-events: none;
+  /* scrollIntoView(block:start) lands the active staff line in the upper quarter */
+  scroll-margin-top: 25vh;
 }
 
 #abc_music_viewer svg,
@@ -3785,6 +3789,12 @@ button.btn-primary {
   stroke-width: 3px;
   opacity: 1;
   vector-effect: non-scaling-stroke;
+}
+
+.tune-panel-notation .abcjs-staff,
+.practice-tune-notation-inner .abcjs-staff,
+.gig-mode-notation-render .abcjs-staff {
+  scroll-margin-top: 25vh;
 }
  path {
  transition: opacity 1s;
@@ -5619,6 +5629,68 @@ button img:after {
 
 /* ── Single-view flex layout panels (legacy classes kept for compatibility) ─ */
 
+.music-single-page-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.music-single.music-single--page-stack-item {
+  scroll-margin-top: 4.5rem;
+}
+
+.music-single.music-single-page-tune--active {
+  border-color: var(--bs-primary, #0d6efd) !important;
+  box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.25);
+}
+
+.music-single.music-single-page-tune--inactive {
+  opacity: 0.92;
+}
+
+.music-single-page-tune-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem 0.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 0.25rem;
+}
+
+.music-single-page-tune-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.music-single-page-tune-active-badge {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--bs-primary, #0d6efd);
+  border: 1px solid currentColor;
+  border-radius: 0.25rem;
+  padding: 0.15rem 0.45rem;
+}
+
+.music-single-page-tune-activate-btn {
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.music-single-page-tune-activate-btn:hover {
+  border-color: var(--bs-primary, #0d6efd);
+  color: var(--bs-primary, #0d6efd);
+}
+
 .music-single-panels {
   display: flex;
   flex-direction: row;
@@ -7377,6 +7449,8 @@ button img:after {
 
 .tune-meta-modal-btn {
   position: relative;
+  /* Keep badge z-index local so it cannot compete with fixed/sticky chrome. */
+  isolation: isolate;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -7537,6 +7611,46 @@ button img:after {
 
 .music-single-footer-meta {
   padding: 0.75rem 0.7rem 1rem;
+}
+
+.music-tune-short-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.92em;
+  color: #495057;
+}
+
+.music-tune-short-meta-tag {
+  white-space: nowrap;
+}
+
+.music-tune-short-meta-label {
+  font-weight: 600;
+  color: #6c757d;
+  margin-right: 0.15rem;
+}
+
+.tune-abc-meta-footer {
+  margin: 0 0 0.75rem;
+}
+
+.tune-abc-meta-footer-row {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 8rem) 1fr;
+  gap: 0.35rem 0.75rem;
+  margin: 0.2rem 0;
+}
+
+.tune-abc-meta-footer dt {
+  margin: 0;
+  font-weight: 600;
+  color: #495057;
+}
+
+.tune-abc-meta-footer dd {
+  margin: 0;
 }
 
 .music-single-books-tags {
@@ -9054,7 +9168,7 @@ button.abc-transpose-preview {
   font-weight: 700;
   line-height: 1;
   padding: 0;
-  opacity: 0.55;
+  opacity: 0.35;
 }
 
 .lyric-chord-align-add:hover,

@@ -157,6 +157,17 @@ describe('importAbcClassifier', function() {
     })).toBe(false);
   });
 
+  test('shouldShowAbcBatchSummary is true for single update (existing library)', function() {
+    expect(shouldShowAbcBatchSummary({
+      candidates: [{ mergeStatus: 'exactId', mergeMode: 'direct', mergeTargetId: 't1' }],
+      summary: { updates: 1, inserts: 0 },
+    })).toBe(true);
+    expect(shouldShowAbcBatchSummary({
+      candidates: [{ mergeStatus: 'exactId', warningReason: 'localNewer' }],
+      summary: { localUpdates: 1 },
+    })).toBe(true);
+  });
+
   test('classifyAbcTextForReview uses classifyOnly importAbc', function() {
     let seenOptions = null;
     const tunebook = {

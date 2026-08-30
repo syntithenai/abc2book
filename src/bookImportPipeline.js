@@ -497,6 +497,8 @@ async function enrichTuneWithOmrAndAbc(tune, cropBlob, options) {
     total: opts.progressTotal,
   }
   let omrAbc = ''
+  let omrChordsAbc = ''
+  let omrChordsStatus = null
   let sheetFormat = normalizeSheetFormat(tune.sheetFormat || tune.pageType)
   let chordSheetText = ''
   let meta = null
@@ -531,6 +533,10 @@ async function enrichTuneWithOmrAndAbc(tune, cropBlob, options) {
     omrAbc = transcribed && transcribed.melody && transcribed.melody.abc
       ? String(transcribed.melody.abc).trim()
       : ''
+    if (transcribed && transcribed.chordOcr && transcribed.chordOcr.abc) {
+      omrChordsAbc = String(transcribed.chordOcr.abc).trim()
+      omrChordsStatus = transcribed.chordOcr.status || null
+    }
   } catch (e) {
     omrAbc = ''
   }
@@ -601,6 +607,8 @@ async function enrichTuneWithOmrAndAbc(tune, cropBlob, options) {
   const candidates = buildCandidateList({
     title: title,
     omrAbc: omrAbc,
+    omrChordsAbc: omrChordsAbc,
+    omrChordsStatus: omrChordsStatus,
     sessionHit: sessionHit,
     notationResult: notationResult,
   })

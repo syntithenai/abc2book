@@ -607,6 +607,7 @@ function unreachableHealthResult(base) {
     resolverAccess: false,
     adminAccess: false,
     musicCollectionAccess: false,
+    reviewProjects: false,
     providers: null,
     lightMode: false,
   };
@@ -729,6 +730,9 @@ async function tryHealthAtBase(base, accessToken) {
       musicCollectionSummary: body.musicCollectionSummary && typeof body.musicCollectionSummary === 'object'
         ? body.musicCollectionSummary
         : null,
+      reviewProjects: body.reviewProjects === true,
+      reviewProjectsDir: typeof body.reviewProjectsDir === 'string' ? body.reviewProjectsDir : null,
+      reviewProjectsCount: typeof body.reviewProjectsCount === 'number' ? body.reviewProjectsCount : 0,
       practiceTrackBackend: body.practiceTrackBackend && typeof body.practiceTrackBackend === 'object'
         ? body.practiceTrackBackend
         : null,
@@ -849,6 +853,13 @@ export async function probeMediaResolverCandidates(accessToken) {
     adminAccess: hasAdminAccess(candidates),
     billingAdminAccess: hasBillingAdminAccess(candidates),
     musicCollectionAccess: hasMusicCollectionAccess(candidates),
+    reviewProjects: !!(activeCandidate && activeCandidate.reviewProjects),
+    reviewProjectsDir: activeCandidate && activeCandidate.reviewProjectsDir
+      ? activeCandidate.reviewProjectsDir
+      : null,
+    reviewProjectsCount: activeCandidate && typeof activeCandidate.reviewProjectsCount === 'number'
+      ? activeCandidate.reviewProjectsCount
+      : 0,
     requireAuth: activeCandidate ? !!activeCandidate.requireAuth : false,
     authReason: activeCandidate ? (activeCandidate.authReason || '') : '',
     providers: activeCandidate && activeCandidate.providers

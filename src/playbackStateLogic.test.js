@@ -63,6 +63,9 @@ import {
   notationBeatToAudioSeconds,
   notationBeatToAudioRatio,
   notationMsToAudioRatio,
+  shouldScheduleMidiRepeatRestart,
+  isMidiBufferNearNaturalEnd,
+  shouldIgnoreMidiPlaybackCompletion,
 } from './playbackStateLogic'
 import { rhythmFromPreset, slotsForBeatCount } from './metronomeRhythmPresets'
 import { visual44L18 } from './testFixtures/rhythmTimingFixtures'
@@ -233,6 +236,14 @@ describe('autoplay and tap-to-play', function() {
     })).toBe(true)
     expect(shouldAllowPlaybackEndDespiteGuards({
       pastRegionEnd: true,
+      noActiveOutput: false,
+    })).toBe(false)
+    expect(shouldAllowPlaybackEndDespiteGuards({
+      naturalEndNearFinish: true,
+      noActiveOutput: true,
+    })).toBe(true)
+    expect(shouldAllowPlaybackEndDespiteGuards({
+      naturalEndNearFinish: true,
       noActiveOutput: false,
     })).toBe(false)
   })
@@ -1440,5 +1451,41 @@ describe('resolveMetronomeAlignTarget', function() {
     const target = resolveMetronomeAlignTarget(1.75, 120, rhythm44)
     expect(target.slot).toBe(0)
     expect(target.delaySec).toBeCloseTo(0.25)
+  })
+})
+
+describe('shouldScheduleMidiRepeatRestart', function() {
+  test('schedules remaining tune.repeats passes regardless of playlist auto-advance', function() {
+    expect(shouldScheduleMidiRepeatRestart(3, 0, false)).toBe(true)
+    expect(shouldScheduleMidiRepeatRestart(3, 1, false)).toBe(true)
+    expect(shouldScheduleMidiRepeatRestart(3, 2, false)).toBe(false)
+  })
+
+  test('forceFillOff (play-along) is one pass only', function() {
+    expect(shouldScheduleMidiRepeatRestart(3, 0, true)).toBe(false)
+  })
+})
+
+describe('isMidiBufferNearNaturalEnd', function() {
+  test('unknown duration is not treated as finished', function() {
+    expect(isMidiBufferNearNaturalEnd(0, 0)).toBe(false)
+    expect(isMidiBufferNearNaturalEnd(null, 10)).toBe(false)
+    expect(isMidiBufferNearNaturalEnd(undefined, 10)).toBe(false)
+  })
+
+  test('detects near-end by ratio or remaining seconds', function() {
+    expect(isMidiBufferNearNaturalEnd(10, 9.3)).toBe(true)
+    expect(isMidiBufferNearNaturalEnd(10, 9.7)).toBe(true)
+    expect(isMidiBufferNearNaturalEnd(10, 5)).toBe(false)
+    expect(isMidiBufferNearNaturalEnd(10, 0)).toBe(false)
+  })
+})
+
+describe('shouldIgnoreMidiPlaybackCompletion', function() {
+  test('ignores while playback finished, deferred to native, or guard active', function() {
+    expect(shouldIgnoreMidiPlaybackCompletion({})).toBe(false)
+    expect(shouldIgnoreMidiPlaybackCompletion({ playbackFinished: true })).toBe(true)
+    expect(shouldIgnoreMidiPlaybackCompletion({ deferToNative: true })).toBe(true)
+    expect(shouldIgnoreMidiPlaybackCompletion({ guardActive: true })).toBe(true)
   })
 })

@@ -38,6 +38,18 @@ TITLE_ALIASES: dict[str, str] = {
     "ukrainian dance nign": "ukrainian dance nign",
     "maltese melody #16": "maltese melody #16",
     "parata (maltese sword dance)": "parata",
+    # PDF/import name ≠ MSCZ main title (subtitle or spelling).
+    "moshe emes": "moshe emes",  # matched via MSCZ subtitle on "Nigun"
+    "rue des pres stephane durand": "rue de pres",
+    "chapelloise set": "t smidje",
+}
+
+# Import titles that map to a composite PDF crop but only the first MSCZ span is oracle-backed.
+COMPOSITE_IMPORT_NOTES: dict[str, str] = {
+    "Chapelloise Set": (
+        "PDF page is t'Smidje + Zelda; MSCZ oracle is t Smidje mm501–509 only "
+        "(Zelda is not in the tunebook; Hellebore follows at mm510)."
+    ),
 }
 
 
@@ -79,33 +91,59 @@ def extract_title_spans(mscz: Path) -> list[dict]:
     if staff is None:
         raise RuntimeError("No Staff with measures found in MSCZ")
 
-    starts: list[tuple[int, str]] = []
-    pending: list[str] = []
+    starts: list[tuple[int, str, str | None, str | None]] = []
+    pending: list[dict[str, str | None]] = []
     mnum = 0
     for el in staff:
         if el.tag in {"VBox", "HBox", "TBox", "FBox"}:
             for te in el.findall("Text"):
                 style = (te.findtext("style") or "").lower()
-                if style != "title":
-                    continue
                 tit = _clean_text_el(te.find("text"))
-                if tit:
-                    pending.append(tit)
+                if not tit:
+                    continue
+                if style == "title":
+                    pending.append({"title": tit, "subtitle": None, "composer": None})
+                elif style == "subtitle" and pending:
+                    pending[-1]["subtitle"] = tit
+                elif style == "composer" and pending:
+                    if tit.lower() not in {"composer / arranger", "composer/arranger"}:
+                        pending[-1]["composer"] = tit
         elif el.tag == "Measure":
             mnum += 1
             if pending:
-                for tit in pending:
-                    starts.append((mnum, tit))
+                for block in pending:
+                    starts.append(
+                        (
+                            mnum,
+                            str(block["title"]),
+                            block.get("subtitle"),
+                            block.get("composer"),
+                        )
+                    )
                 pending = []
 
     if mnum < 1:
         raise RuntimeError("Staff has no measures")
 
     out: list[dict] = []
-    for i, (m0, title) in enumerate(starts):
+    for i, (m0, title, subtitle, composer) in enumerate(starts):
         m1 = starts[i + 1][0] - 1 if i + 1 < len(starts) else mnum
-        out.append({"title": title, "m0": m0, "m1": m1, "norm": normalize_title(title)})
+        row = {"title": title, "m0": m0, "m1": m1, "norm": normalize_title(title)}
+        if subtitle:
+            row["subtitle"] = subtitle
+            row["subtitle_norm"] = normalize_title(subtitle)
+        if composer:
+            row["composer"] = composer
+        out.append(row)
     return out
+
+
+def index_entry_for_span(index: list[dict], m0: int, m1: int) -> dict | None:
+    """Return index row whose span exactly matches m0..m1."""
+    for entry in index:
+        if int(entry.get("m0") or -1) == int(m0) and int(entry.get("m1") or -1) == int(m1):
+            return entry
+    return None
 
 
 def best_index_match(
@@ -125,7 +163,15 @@ def best_index_match(
     best_score = 0.0
     for entry in index:
         cand = str(entry.get("norm") or normalize_title(str(entry.get("title") or "")))
+        sub = str(entry.get("subtitle_norm") or normalize_title(str(entry.get("subtitle") or "")))
         score = SequenceMatcher(None, norm, cand).ratio()
+        if sub:
+            if norm == sub:
+                score = max(score, 1.0)
+            else:
+                score = max(score, SequenceMatcher(None, norm, sub).ratio())
+                if len(sub) >= 5 and sub in norm:
+                    score = max(score, 0.95)
         if norm and cand:
             if norm == cand:
                 score = 1.0
@@ -144,6 +190,11 @@ def best_index_match(
                     score = max(score, 0.55 + 0.45 * overlap)
         if alias_target and alias_target in cand:
             score = max(score, 0.95)
+        if alias_target and alias_target == sub:
+            score = max(score, 0.98)
+        # Exact MSCZ main title when alias names a distinct tune (e.g. t smidje).
+        if alias_target and cand == alias_target:
+            score = max(score, 0.98)
         # Latin name inside Greek / bilingual titles, e.g. (Mazemenos).
         latin = re.findall(r"[A-Za-z][A-Za-z '#-]{3,}", str(entry.get("title") or ""))
         for lat in latin:
@@ -159,6 +210,8 @@ def best_index_match(
             best = {
                 "import_title": raw,
                 "mscz_title": entry["title"],
+                "mscz_subtitle": entry.get("subtitle"),
+                "mscz_composer": entry.get("composer"),
                 "m0": entry["m0"],
                 "m1": entry["m1"],
                 "match_score": round(score, 3),
@@ -207,7 +260,24 @@ def preferred_seed_key(title: str, mxl_key: str) -> str:
         "Ab": "Fm",
     }
     low = (title or "").lower()
-    if any(tok in low for tok in ("(am", "(dm", "(em", "(gm", "(cm", "nign", "freylekh", "nigun")):
+    norm = normalize_title(title)
+    # Titles without (Am) that are known minor in this book / folk practice.
+    force_minor = {
+        "amazone",
+        "ukrainian dance nign",
+        "freylekhs",
+        "o cabalo azul",
+        "mazomenos",
+        "menexedes kai zoumpoulia",
+        "lule malesore",
+        "lule malesore my mountain flower",
+    }
+    force = norm in force_minor or any(norm.startswith(f + " ") for f in force_minor)
+    if force or any(
+        tok in low for tok in ("(am", "(dm", "(em", "(gm", "(cm", "nign", "freylekh", "nigun")
+    ):
+        if mxl_key.endswith("m"):
+            return mxl_key
         return rel.get(mxl_key, mxl_key)
     return mxl_key or "C"
 
@@ -244,6 +314,11 @@ def join_import_titles(
                 "import_key": tune.get("key"),
                 "complete": bool(tune.get("complete")),
                 "match": hit,
+                **(
+                    {"composite_note": COMPOSITE_IMPORT_NOTES[title]}
+                    if title in COMPOSITE_IMPORT_NOTES
+                    else {}
+                ),
             }
         )
     return rows
@@ -279,6 +354,8 @@ def main() -> int:
                 "title": s["title"],
                 "m0": s["m0"],
                 "m1": s["m1"],
+                **({"subtitle": s["subtitle"]} if s.get("subtitle") else {}),
+                **({"composer": s["composer"]} if s.get("composer") else {}),
                 **({"mxlKey": s["mxlKey"]} if s.get("mxlKey") else {}),
                 **({"mxlMeter": s["mxlMeter"]} if s.get("mxlMeter") else {}),
             }
@@ -299,6 +376,12 @@ def main() -> int:
         rows = join_import_titles(
             Path(args.import_json), spans, min_score=float(args.min_join_score)
         )
+        overrides_path = Path(args.join_out).parent / "mxl_join_overrides.json"
+        if overrides_path.is_file():
+            from finalize_eurosession import apply_join_overrides  # noqa: WPS433
+
+            rows = apply_join_overrides(rows, overrides_path)
+            print(f"applied join overrides from {overrides_path}", flush=True)
         matched = [r for r in rows if r.get("match")]
         join_path = Path(args.join_out)
         join_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

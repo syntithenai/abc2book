@@ -22,4 +22,20 @@ export default {
   'steve ryan': {group:'Collections', link:'songs.abc', image:'steveryan.jpeg', book: 'songs', tag:"steve ryan"},
   'francesca': {group:'Collections', link:'songs.abc', image:'francesca.jpeg', book: 'songs', tag:"francesca"},
   'songs': {group:'Collections', link:'songs.abc', image:'songs.jpeg', book:'songs'},
+  'australian bush traditions': {group:'Collections', link:'australiabushtraditions.abc', book:'australian bush traditions'},
+  'old time': {
+    group: 'Collections',
+    link: 'oldtimefiddletunes.abc',
+    book: 'old time',
+    image: 'oldtime.jpeg',
+    // Source editions: keep multiple settings of the same title (e.g. Dusty Miller).
+    allowDuplicateTitles: true,
+  },
+  'milliner koken': {
+    group: 'Collections',
+    link: 'millinerkoken.abc',
+    book: 'milliner koken',
+    image: 'millinerkoken.jpeg',
+    allowDuplicateTitles: true,
+  },
 }

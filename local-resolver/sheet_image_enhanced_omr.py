@@ -11,6 +11,7 @@ import tempfile
 from collections import Counter
 from typing import Any
 
+from sheet_image_abc_repair import polish_omr_abc
 from sheet_image_melody import extract_main_melody_from_musicxml
 from sheet_image_omr import ensure_homr_available, transcribe_image_to_musicxml
 from sheet_image_staff_detect import detect_staff_regions, write_staff_crop
@@ -20,6 +21,8 @@ from sheet_image_structure import (
     KIND_VOLTA_START,
     annotate_abc_with_structure,
     apply_form_heuristics,
+    apply_structure_pipeline_to_abc,
+    collapse_uniform_eight_bar_repeats,
     count_abc_bars,
     detect_structure_on_staff_crop,
     infer_voltas_for_long_systems,
@@ -88,6 +91,45 @@ def _system_body_usable(lines: list[str]) -> bool:
     if all(_is_rest_only_line(ln) for ln in lines):
         return False
     return True
+
+
+def _abc_has_repeat_structure(abc: str) -> bool:
+    return bool(abc and ("|:" in abc or ":|" in abc or re.search(r"\|\d", abc)))
+
+
+def _prefer_per_staff_stitch(stitched: dict[str, Any], fallback: dict[str, Any] | None) -> bool:
+    """Keep per-staff ABC when it carries repeat structure full-crop lacks."""
+    if not fallback:
+        return True
+    stitch_abc = str(stitched.get("abc") or "")
+    fb_abc = str(fallback.get("abc") or "")
+    if not stitch_abc.strip():
+        return False
+    stitch_notes = _body_note_count(stitch_abc)
+    fb_notes = _body_note_count(fb_abc)
+    # Never keep a fragment just because it has |: … :|
+    if fb_notes > stitch_notes * 1.2:
+        return False
+    stitch_struct = _abc_has_repeat_structure(stitch_abc)
+    fb_struct = _abc_has_repeat_structure(fb_abc)
+    if stitch_struct and not fb_struct and stitch_notes >= max(12, int(fb_notes * 0.65)):
+        return True
+    if stitch_struct and fb_notes <= stitch_notes * 1.1:
+        return True
+    if fb_notes > stitch_notes * 1.25:
+        return False
+    return stitch_notes >= fb_notes * 0.85
+
+
+def _per_staff_sparse(band_count: int, ok_systems: int) -> bool:
+    """True when too few systems succeeded to trust the stitch."""
+    if band_count == 2:
+        return ok_systems < 2
+    if band_count <= 1:
+        return ok_systems < 1
+    if ok_systems < 2:
+        return True
+    return band_count >= 3 and ok_systems < max(2, band_count // 2)
 
 
 def _strip_mid_final_barline(line: str) -> str:
@@ -267,6 +309,64 @@ def _maybe_upscale(
     return work_path, img, bands, upscaled
 
 
+def _load_image_bands(image_path: str) -> tuple[Any, list[dict[str, Any]]]:
+    """Load BGR image and merged staff bands at native resolution."""
+    if cv2 is None:
+        raise RuntimeError("opencv is required for enhanced OMR")
+    img = cv2.imread(image_path)
+    if img is None:
+        raise ValueError(f"Could not read image: {image_path}")
+    height = img.shape[0]
+    info = detect_staff_regions(image_path)
+    bands = merge_close_bands(list(info.get("staffRegions") or []), gap=max(30, height // 40))
+    return img, bands
+
+
+def _ordered_pad_attempts(band: dict[str, Any]) -> list[tuple[int, int]]:
+    """Vertical padding trials for system crops — short bands need more context."""
+    band_h = float(band.get("bottom") or 0) - float(band.get("top") or 0)
+    if band_h < 70:
+        return [(36, 24), (48, 32), (28, 20), (18, 12), (12, 8)]
+    if band_h < 100:
+        return [(28, 20), (36, 24), (18, 12), (48, 32), (12, 8)]
+    return [(18, 12), (28, 20), (36, 24), (48, 32), (12, 8)]
+
+
+def _transcribe_system_band(
+    img: Any,
+    band: dict[str, Any],
+    *,
+    height: int,
+    width: int,
+    crop_path: str,
+) -> tuple[str, dict[str, Any], list[str], list[Any], int, str, str | None]:
+    """Run HOMR on a staff band, retrying with larger crops when homr fails."""
+    last_error: str | None = None
+    for pad_top, pad_bot in _ordered_pad_attempts(band):
+        top = max(0, int(band["top"]) - pad_top)
+        bot = min(height, int(band["bottom"]) + pad_bot)
+        crop = img[top:bot, 0:width]
+        cv2.imwrite(crop_path, crop)
+        try:
+            musicxml = transcribe_image_to_musicxml(crop_path)
+            melody = extract_main_melody_from_musicxml(musicxml)
+            abc = str(melody.get("abc") or "").strip()
+            lines = strip_abc_headers(abc)
+            if not abc or not _system_body_usable(lines):
+                last_error = "rest-only-or-weak"
+                continue
+            bar_count = count_abc_bars(abc) or max(1, len(re.findall(r"\|+", "\n".join(lines))))
+            structure_events: list[Any] = []
+            try:
+                structure_events = detect_structure_on_staff_crop(crop_path, bar_count)
+            except Exception:
+                structure_events = []
+            return abc, melody, lines, structure_events, bar_count, musicxml, None
+        except Exception as exc:
+            last_error = str(exc)[:200]
+    return "", {}, [], [], 0, "", last_error
+
+
 def _per_staff_stitch(
     img: Any,
     bands: list[dict[str, Any]],
@@ -285,56 +385,47 @@ def _per_staff_stitch(
 
     tmp_ctx = tempfile.TemporaryDirectory(prefix="enh-sys-") if not work_dir else None
     sys_dir = work_dir if work_dir else tmp_ctx.name  # type: ignore[union-attr]
+    if work_dir:
+        os.makedirs(work_dir, exist_ok=True)
     try:
         for i, band in enumerate(bands):
-            pad_top, pad_bot = 18, 12
-            top = max(0, int(band["top"]) - pad_top)
-            bot = min(height, int(band["bottom"]) + pad_bot)
-            crop = img[top:bot, 0:width]
             crop_path = os.path.join(sys_dir, f"enhanced-system-{i + 1:02d}.png")
-            cv2.imwrite(crop_path, crop)
-            try:
-                musicxml = transcribe_image_to_musicxml(crop_path)
-                melody = extract_main_melody_from_musicxml(musicxml)
-                abc = str(melody.get("abc") or "").strip()
-                lines = strip_abc_headers(abc)
-                usable = bool(abc) and _system_body_usable(lines)
-                structure_events: list[Any] = []
-                bar_count = 0
-                if usable:
-                    bar_count = count_abc_bars(abc) or max(1, len(re.findall(r"\|+", "\n".join(lines))))
-                    try:
-                        structure_events = detect_structure_on_staff_crop(crop_path, bar_count)
-                    except Exception:
-                        structure_events = []
-                    if melody.get("meter"):
-                        meters.append(str(melody.get("meter") or ""))
-                    if melody.get("key"):
-                        keys.append(str(melody.get("key") or ""))
-                    kept_raw.append(
-                        {
-                            "abc": abc,
-                            "lines": lines,
-                            "barCount": bar_count,
-                            "events": structure_events,
-                            "cropPath": crop_path,
-                        }
-                    )
-                    if musicxml:
-                        musicxml_parts.append(musicxml)
-                results.append(
+            abc, melody, lines, structure_events, bar_count, musicxml, err = _transcribe_system_band(
+                img,
+                band,
+                height=height,
+                width=width,
+                crop_path=crop_path,
+            )
+            usable = bool(abc)
+            if usable:
+                if melody.get("meter"):
+                    meters.append(str(melody.get("meter") or ""))
+                if melody.get("key"):
+                    keys.append(str(melody.get("key") or ""))
+                kept_raw.append(
                     {
-                        "index": i + 1,
-                        "ok": usable,
-                        "abcLen": len(abc),
-                        "noteCount": _body_note_count("\n".join(lines)),
-                        "barCount": bar_count if usable else None,
-                        "structureEvents": [e.to_dict() for e in structure_events],
-                        "skipped": "rest-only-or-weak" if abc and not usable else None,
+                        "abc": abc,
+                        "lines": lines,
+                        "barCount": bar_count,
+                        "events": structure_events,
+                        "cropPath": crop_path,
                     }
                 )
-            except Exception as exc:
-                results.append({"index": i + 1, "ok": False, "error": str(exc)[:200]})
+            results.append(
+                {
+                    "index": i + 1,
+                    "ok": usable,
+                    "abcLen": len(abc),
+                    "noteCount": _body_note_count("\n".join(lines)) if lines else 0,
+                    "barCount": bar_count if usable else None,
+                    "structureEvents": [e.to_dict() for e in structure_events],
+                    "skipped": err if not usable else None,
+                    **({"error": err} if err and not usable and err != "rest-only-or-weak" else {}),
+                }
+            )
+            if usable and musicxml:
+                musicxml_parts.append(musicxml)
 
         if not kept_raw:
             return {
@@ -368,8 +459,11 @@ def _per_staff_stitch(
                 event_lists = new_lists
                 heuristic_applied = True
 
+        event_lists = collapse_uniform_eight_bar_repeats(bar_counts, event_lists)
+
+        chosen_meter = _choose_meter(meters, len(bands))
         # 10-bar systems with outer repeats but no OCR voltas → 1st/2nd endings.
-        volta_lists = infer_voltas_for_long_systems(bar_counts, event_lists)
+        volta_lists = infer_voltas_for_long_systems(bar_counts, event_lists, meter=chosen_meter)
         if any(volta_lists[i] != event_lists[i] for i in range(len(event_lists))):
             event_lists = volta_lists
             heuristic_applied = True
@@ -397,7 +491,7 @@ def _per_staff_stitch(
         if heuristic_applied and structure_source == "none":
             structure_source = "heuristic"
 
-        out_meter = _choose_meter(meters, len(bands))
+        out_meter = chosen_meter
         out_key = _choose_key(keys, len(bands))
         km_diag = _system_key_meter_divergence(keys, meters)
 
@@ -505,12 +599,21 @@ def _per_staff_stitch(
             tmp_ctx.cleanup()
 
 
-def _full_crop_melody(image_path: str, work_dir: str | None, *, upscaled: bool, reason: str) -> dict[str, Any] | None:
+def _full_crop_melody(
+    image_path: str,
+    work_dir: str | None,
+    *,
+    upscaled: bool,
+    reason: str,
+    title: str = "",
+    omr_path_override: str | None = None,
+    per_staff_structure: list[dict[str, Any]] | None = None,
+) -> dict[str, Any] | None:
     if not ensure_homr_available():
         return None
-    omr_path = image_path
-    staff_crop_used = False
-    if work_dir:
+    omr_path = omr_path_override or image_path
+    staff_crop_used = omr_path != image_path
+    if not staff_crop_used and work_dir:
         staff_info = detect_staff_regions(image_path)
         crop_path = write_staff_crop(image_path, work_dir, staff_info=staff_info)
         if crop_path:
@@ -518,18 +621,91 @@ def _full_crop_melody(image_path: str, work_dir: str | None, *, upscaled: bool, 
             staff_crop_used = True
     musicxml = transcribe_image_to_musicxml(omr_path)
     melody = extract_main_melody_from_musicxml(musicxml)
+    abc = str(melody.get("abc") or "").strip()
+    meter = str(melody.get("meter") or "")
+    if abc:
+        structured_abc, structure_events, structure_source = apply_structure_pipeline_to_abc(
+            abc,
+            omr_path,
+            meter=meter,
+            per_staff_event_dicts=per_staff_structure,
+            single_system=True,
+        )
+        abc = structured_abc
+        melody["abc"] = abc
+        melody["structureEvents"] = structure_events
+        melody["structureSource"] = structure_source
+    abc, repair_warnings = polish_omr_abc(abc, title=title)
+    melody["abc"] = abc
     melody["source"] = "homr"
     melody["staffCropUsed"] = staff_crop_used
     melody["mode"] = "full-crop" if reason == "too-few-systems" else f"full-crop-after-{reason}"
     melody["upscaled"] = upscaled
+    warnings = list(melody.get("warnings") or [])
+    warnings.extend(repair_warnings)
+    melody["warnings"] = list(dict.fromkeys(warnings))
     melody["enhancedOmr"] = {
         "mode": melody["mode"],
         "upscaled": upscaled,
         "bandCount": None,
         "okSystems": None,
         "reason": reason,
+        "structureEvents": melody.get("structureEvents") or [],
+        "structureSource": melody.get("structureSource") or "none",
     }
     return melody
+
+
+def _stitch_structure_events(stitched: dict[str, Any] | None) -> list[dict[str, Any]]:
+    if not stitched:
+        return []
+    events = stitched.get("structureEvents")
+    if isinstance(events, list) and events:
+        return [e for e in events if isinstance(e, dict)]
+    enh = stitched.get("enhancedOmr")
+    if isinstance(enh, dict) and isinstance(enh.get("structureEvents"), list):
+        return [e for e in enh["structureEvents"] if isinstance(e, dict)]
+    return []
+
+
+def _merge_fallback_structure(
+    fallback: dict[str, Any],
+    stitched: dict[str, Any] | None,
+    *,
+    image_path: str,
+    title: str,
+) -> dict[str, Any]:
+    """Re-apply structure using per-staff events when full-crop lacks repeat marks."""
+    if not fallback or not stitched:
+        return fallback
+    fb_abc = str(fallback.get("abc") or "")
+    if _abc_has_repeat_structure(fb_abc):
+        return fallback
+    stitch_events = _stitch_structure_events(stitched)
+    if not stitch_events:
+        return fallback
+    meter = str(fallback.get("meter") or stitched.get("meter") or "")
+    structured, events, source = apply_structure_pipeline_to_abc(
+        fb_abc,
+        image_path,
+        meter=meter,
+        per_staff_event_dicts=stitch_events,
+        single_system=True,
+    )
+    if not _abc_has_repeat_structure(structured):
+        return fallback
+    polished, warnings = polish_omr_abc(structured, title=title)
+    merged = dict(fallback)
+    merged["abc"] = polished
+    merged["structureEvents"] = events
+    merged["structureSource"] = source
+    merged["warnings"] = list(dict.fromkeys(list(merged.get("warnings") or []) + warnings))
+    enh = dict(merged.get("enhancedOmr") or {})
+    enh["structureEvents"] = events
+    enh["structureSource"] = source
+    enh["mergedPerStaffStructure"] = True
+    merged["enhancedOmr"] = enh
+    return merged
 
 
 def extract_enhanced_melody(
@@ -544,17 +720,26 @@ def extract_enhanced_melody(
 ) -> dict[str, Any] | None:
     """Run enhanced OMR and return a melody dict compatible with _extract_melody.
 
-    Falls back to staff-union full-crop when fewer than ``min_systems`` bands are
-    found, or when per-staff stitching yields no body.
+    Per-staff HOMR runs on **native** crops first — upscaling small bourrée pages
+    before per-staff stitch often breaks homr on system crops. Upscaled full-crop
+    is kept as fallback when native per-staff is empty or clearly weaker.
     """
     if not ensure_homr_available():
         return None
     if cv2 is None:
-        return _full_crop_melody(image_path, work_dir, upscaled=False, reason="opencv-unavailable")
+        return _full_crop_melody(image_path, work_dir, upscaled=False, reason="opencv-unavailable", title=title)
 
     cleanup_upscale: str | None = None
     try:
-        work_path, img, bands, upscaled = _maybe_upscale(
+        img_native, bands_native = _load_image_bands(image_path)
+
+        native_stitch: dict[str, Any] | None = None
+        if len(bands_native) >= min_systems:
+            native_stitch = _per_staff_stitch(
+                img_native, bands_native, work_dir, title, upscaled=False
+            )
+
+        work_path, _img_up, _bands_up, upscaled = _maybe_upscale(
             image_path,
             work_dir,
             upscale_h=upscale_h,
@@ -564,45 +749,55 @@ def extract_enhanced_melody(
         if upscaled and not work_dir:
             cleanup_upscale = work_path
 
-        if len(bands) < min_systems:
-            return _full_crop_melody(
-                work_path if upscaled else image_path,
+        def _full_crop(reason: str) -> dict[str, Any] | None:
+            crop_path = work_path if upscaled else image_path
+            stitch_events = _stitch_structure_events(native_stitch)
+            result = _full_crop_melody(
+                crop_path,
                 work_dir,
                 upscaled=upscaled,
-                reason="too-few-systems",
+                reason=reason,
+                title=title,
+                per_staff_structure=stitch_events or None,
             )
+            if result and native_stitch:
+                result = _merge_fallback_structure(
+                    result,
+                    native_stitch,
+                    image_path=crop_path,
+                    title=title,
+                )
+            return result
 
-        stitched = _per_staff_stitch(img, bands, work_dir, title, upscaled)
-        if not stitched or not str(stitched.get("abc") or "").strip():
-            return _full_crop_melody(
-                work_path if upscaled else image_path,
-                work_dir,
-                upscaled=upscaled,
-                reason=str((stitched or {}).get("reason") or "per-staff-empty"),
-            )
+        if len(bands_native) < min_systems:
+            return _full_crop("too-few-systems")
 
-        abc = str(stitched.get("abc") or "")
-        ok_systems = int(stitched.get("okSystems") or 0)
-        band_count = int(stitched.get("bandCount") or len(bands))
-        stitch_notes = _body_note_count(abc)
-        sparse = ok_systems < 2 or (band_count >= 3 and ok_systems < max(2, band_count // 2))
-        if sparse or stitch_notes < 8:
-            fallback = _full_crop_melody(
-                work_path if upscaled else image_path,
-                work_dir,
-                upscaled=upscaled,
-                reason="weak-per-staff",
-            )
-            fb_abc = str((fallback or {}).get("abc") or "")
-            fb_notes = _body_note_count(fb_abc)
-            # Prefer fuller full-crop when per-staff only recovered a fragment.
-            if fallback and fb_abc and (
-                fb_notes > stitch_notes * 1.15
-                or (sparse and fb_notes >= stitch_notes)
-                or (stitch_notes < 8 and fb_notes >= 8)
-            ):
+        if native_stitch and str(native_stitch.get("abc") or "").strip():
+            ok_systems = int(native_stitch.get("okSystems") or 0)
+            band_count = int(native_stitch.get("bandCount") or len(bands_native))
+            stitch_notes = _body_note_count(str(native_stitch.get("abc") or ""))
+            sparse = _per_staff_sparse(band_count, ok_systems)
+            fallback = _full_crop("weak-per-staff-compare")
+            accept_native = not sparse and stitch_notes >= 8
+            if accept_native and fallback and not _prefer_per_staff_stitch(native_stitch, fallback):
                 return fallback
-        return stitched
+            if accept_native:
+                enh = native_stitch.setdefault("enhancedOmr", {})
+                if isinstance(enh, dict):
+                    enh["nativeResolution"] = True
+                polished, warnings = polish_omr_abc(str(native_stitch.get("abc") or ""), title=title)
+                native_stitch["abc"] = polished
+                native_stitch["warnings"] = list(
+                    dict.fromkeys(list(native_stitch.get("warnings") or []) + warnings)
+                )
+                return native_stitch
+            if fallback:
+                fb_notes = _body_note_count(str(fallback.get("abc") or ""))
+                if sparse or stitch_notes < 8 or fb_notes > stitch_notes:
+                    return fallback
+
+        reason = str((native_stitch or {}).get("reason") or "per-staff-empty")
+        return _full_crop(reason)
     finally:
         if cleanup_upscale and os.path.isfile(cleanup_upscale):
             try:

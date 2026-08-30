@@ -5652,7 +5652,7 @@ K:Dmaj
 V:1 
 |:ag|"D" f z df "A" ecAc|"D" d2 A2 F2 dc|"G" BGBG "D" AFDF|"A" A,2 A,2 "D" D2 ag|
 "D" f2 df "A" ecAc|"D" d2 A2 F2 dc|"G" BGBG "D" AFAg|"A" fdec "D" [f2d2]:|
-|:z2|"A" e3 f gfgf| ec A2 [c2a2] [c2a2]| e2 ef "G" gfeg|"A" fdec "D" d2 d2|
+z2|:|"A" e3 f gfgf| ec A2 [c2a2] [c2a2]| e2 ef "G" gfeg|"A" fdec "D" d2 d2|
 "A" e3 f gfgf| ec A2 [c2a2] [c2a2]| c2 [ca][ca] "G" B2 [Bg][Bg]|"A" fdec "D" [f2d2]:|
 % abcbook-tune_id 6298c25d63d51ccf7fa7d382
 

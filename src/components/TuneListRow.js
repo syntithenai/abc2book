@@ -18,6 +18,7 @@ import {
   chordStatusIconProps,
   lyricsStatusIconProps,
   mediaStatusIconProps,
+  snapshotStatusIconProps,
 } from '../tuneListStatusIcon'
 
 function TuneListRow(props) {
@@ -50,6 +51,7 @@ function TuneListRow(props) {
   const chordIcon = chordStatusIconProps(status)
   const lyricsIcon = lyricsStatusIconProps(status)
   const mediaIcon = mediaStatusIconProps(status)
+  const snapshotIcon = snapshotStatusIconProps(status)
 
   const filterChips = showFilterChips ? (
     <TuneListFilterChips
@@ -105,7 +107,7 @@ function TuneListRow(props) {
             <Link
               className={'tune-list-title-link' + (isCompact ? ' tune-list-title-link--compact' : '')}
               to={linkTo}
-              onClick={function() { props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage', 10) }}
+              onClick={function() { props.setCurrentTune(tune.id) }}
             >
               <span className="tune-list-title-text">
                 <span className="tune-list-title-name">{displayTitle}</span>
@@ -147,6 +149,7 @@ function TuneListRow(props) {
                     ) : null}
                   </Button>
                 ) : null}</span>
+                <span>{snapshotIcon ? <Button variant={snapshotIcon.variant} aria-label={snapshotIcon.label} title={snapshotIcon.label}>{props.tunebook.icons.camera}</Button> : null}</span>
               </span>
               <span className="tune-list-boost">
                 <BoostSettingsModal

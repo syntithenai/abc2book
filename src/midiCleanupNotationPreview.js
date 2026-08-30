@@ -12,6 +12,7 @@ import {
   durationSuffix,
   fillSlotGap,
   formatNoteEventsToAbcBody,
+  gridBeatsPerBarFromMeter,
   trimNotesForQuantization,
 } from './midiAbcQuantize';
 
@@ -206,7 +207,9 @@ export function buildCleanupScorePreviewAbc(voices, options) {
   const tempoBpm = opts.tempoBpm || 120;
   const meter = opts.meter || '4/4';
   const key = opts.key || 'C';
-  const beatsPerBar = opts.beatsPerBar || parseInt(String(meter).split('/')[0], 10) || 4;
+  const beatsPerBar = opts.beatsPerBar != null
+    ? opts.beatsPerBar
+    : gridBeatsPerBarFromMeter(meter);
   const slotsPerBeat = opts.slotsPerBeat || 2;
   const noteLength = opts.noteLength || '1/8';
   const quantStrength = opts.quantStrength != null ? opts.quantStrength : 1;
@@ -272,6 +275,7 @@ export function buildCleanupScorePreviewAbc(voices, options) {
       totalBars: totalBars,
       key: voiceKey,
       allowChords: item.allowChords,
+      barsPerLine: voiceEvents.length > 1 ? 1 : 8,
     }));
     const prefix = buildVoicePrefix(item.voice, item.notes);
     return {

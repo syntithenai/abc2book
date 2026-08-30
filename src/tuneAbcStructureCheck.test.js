@@ -53,8 +53,8 @@ describe('tuneAbcStructureCheck', function() {
   test('does not treat double barlines as empty bars', function() {
     const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Strain') + 'C D E F | G A B c || D E F G | A B c d |');
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
-    expect(result).not.toBeNull();
-    expect(result.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(false);
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('empty_bar');
   });
 
   test('pickup || after |: does not create empty_bar or stanza_strain_mismatch', function() {
@@ -156,10 +156,38 @@ describe('tuneAbcStructureCheck', function() {
   });
 
   test('detects unmatched repeat end', function() {
-    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Repeat') + 'C D E F :|');
+    // Leading orphan :| with no music before it is still an error.
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Repeat') + ':| C D E F |');
     const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
     expect(result).not.toBeNull();
     expect(result.issues.some(function(i) { return i.code === 'unmatched_repeat_end'; })).toBe(true);
+  });
+
+  test('implied repeat start (music then :| without |:) is valid', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Implied') + 'C D E F | G A B c :|');
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_end');
+  });
+
+  test('short volta |1 / :|2 does not flag unmatched_repeat_end', function() {
+    const body = '|: C2 D2 E2 F2 | G2 A2 B2 c2 |1 d4 :|2 c4 ||';
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Volta') + body);
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_end');
+  });
+
+  test('multi-ending volta |1,3 / :|2,4 and two implied strains are valid', function() {
+    const body = [
+      'C D E F | G A B c :|',
+      'D E F G | A B c d :|',
+      '|: E F G A |1,3 B c :|2,4 c4 :|',
+    ].join(' ');
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Multi Volta') + body);
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_end');
   });
 
   test('detects ending without repeat', function() {
@@ -245,6 +273,96 @@ describe('tuneAbcStructureCheck', function() {
     expect(codes).not.toContain('section_pickup_should_be_ending');
   });
 
+  test('combined mid-repeat :|: is valid (zwiefacher pattern)', function() {
+    const body = [
+      '|: [M:3/4] AB AG FG | A4 d2 | [M:2/4] c2 e2 | d2 f2 |',
+      '[M:3/4] AB AG FG | A4 d2 | [M:2/4] c2 e2 | d4 :|:',
+      '[M:3/4] B2 gf g2 | A2 fe f2 | [M:2/4] c2 e2 | d2 f2 |',
+      '[M:3/4] B2 gf g2 | A2 fe f2 | [M:2/4] c2 e2 | d4 :|',
+    ].join(' ');
+    const abc = [
+      'X:1',
+      'T:Die Alte Kath',
+      'M:3/4',
+      'L:1/8',
+      'K:D',
+      body,
+    ].join('\n');
+    const tune = tuneFromAbc(abcTools, abc, {
+      key: 'D',
+      meter: '3/4',
+      noteLength: '1/8',
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_end');
+    expect(codes).not.toContain('unmatched_repeat_start');
+    expect(codes).not.toContain('underfull_bar');
+    expect(codes).not.toContain('overfull_bar');
+  });
+
+  test('Stensele-style mid |: after open repeat is treated as :|: with section pickups', function() {
+    // MuseScore/xml2abc often writes G6 |: D2 instead of G6 :|: D2
+    const body = [
+      '|: D2 |"Gm" D2B2 B2AB cBAG |"F" F2A2 A2GA BAGF |"Eb" E2EF G2GA B2AG |',
+      '"D7" ^FGAF"Gm" G2D2 B,CB,A, |"Gm" G,2B2 B2AB cBAG |"F" F2A2 A2GA BAGF |"Eb" E2EF G2GA B2AG |',
+      '"D7" ^FGAF"Gm" G6 |: D2 |"Gm" D2d2 d2^cd e2d2 |"F" D2c2 c2Bc dcBA |',
+      '"Gm" G^FGA BABc d2d2 |"A" (3_d2^c2A2"D" =d6 D2 |"Gm" D2d2 d2^cd e2d2 |"F" D2c2 c2Bc dcBA |',
+      '"Gm" G^FGA BABc d^cde |"D7" d2^F2"Gm" G6 :|',
+    ].join('\n');
+    const abc = [
+      'X:94',
+      'T:Stensele Polska (Gm)',
+      'M:3/4',
+      'L:1/16',
+      'K:Bb',
+      body,
+    ].join('\n');
+    const tune = tuneFromAbc(abcTools, abc, {
+      key: 'Bb',
+      meter: '3/4',
+      noteLength: '1/16',
+    });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_start');
+    expect(codes).not.toContain('underfull_bar');
+    expect(codes).not.toContain('overfull_bar');
+  });
+
+  test(':: final strain without closing :| is tolerated (Parata / MuseScore)', function() {
+    const body = [
+      '|: ce ce | d/e/f/g/ fd | Bd Bd | c/d/e/f/ e z |',
+      'eg eg | a/b/c\'/b/ c\'a | ge fd | c2 z2 ::',
+      'gg gg | c\'/b/a/g/ c\'g | ff/d/ ee/c/ | B/c/d/e/ d z |',
+      'gg gg | c\'/b/a/g/ c\'a | gf ed | c3 z |',
+    ].join('\n');
+    const abc = ['X:1', 'T:Parata', 'M:2/4', 'L:1/8', 'K:C', body].join('\n');
+    const tune = tuneFromAbc(abcTools, abc, { meter: '2/4', key: 'C', noteLength: '1/8' });
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    const codes = result && result.issues ? result.issues.map(function(i) { return i.code }) : [];
+    expect(codes).not.toContain('unmatched_repeat_start');
+  });
+
+  test('does not flag empty_bar for || or | |: strain wraps', function() {
+    const withDouble = tuneFromAbc(abcTools, abcTools.emptyABC('Strain') + 'C D E F | G A B c || D E F G | A B c d |');
+    const r1 = checkTuneAbcStructure(withDouble, { abcTools: abcTools });
+    const c1 = r1 && r1.issues ? r1.issues.map(function(i) { return i.code }) : [];
+    expect(c1).not.toContain('empty_bar');
+
+    const wrap = tuneFromAbc(
+      abcTools,
+      ['X:1', 'T:Wrap', 'M:2/4', 'L:1/4', 'K:G',
+        '|: B A | G F | E D | d z |',
+        '|: B z | e z | B z | g z :|',
+      ].join('\n'),
+      { meter: '2/4', key: 'G', noteLength: '1/4' }
+    );
+    const r2 = checkTuneAbcStructure(wrap, { abcTools: abcTools });
+    const c2 = r2 && r2.issues ? r2.issues.map(function(i) { return i.code }) : [];
+    expect(c2).not.toContain('empty_bar');
+  });
+
   test('Amazing Grace: triplet bar and anacrusis+final are complete', function() {
     const body = [
       'D | "G"G2A/2G/2 | B2"D7"A | "Em"G2"C"E | "G"D2D |',
@@ -287,15 +405,22 @@ describe('tuneAbcStructureFix', function() {
     const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Repeat Gap'), {
       voices: { '1': { notes: ['A2 B2 c2 d2 | e2 f2 g2 a2 :| | |: b2 c\'2 d\'2 e\'2 |]'] } },
     });
-    const before = checkTuneAbcStructure(tune, { abcTools: abcTools });
-    expect(before.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(true);
-
     const fixed = collapseEmptyRepeatBarsInTune(tune);
     expect(fixed).not.toBeNull();
+    const notes = fixed.voices[Object.keys(fixed.voices)[0]].notes.join('\n');
+    // Collapses the empty pipe between :| and |: (may become ::)
+    expect(notes.includes('::') || /:\|\s*\|:/.test(notes)).toBe(true);
+    expect(notes).not.toMatch(/:\|\s*\|\s*\|:/);
     const after = checkTuneAbcStructure(fixed, { abcTools: abcTools });
     const codes = after && after.issues ? after.issues.map(function(i) { return i.code }) : [];
     expect(codes).not.toContain('empty_bar');
     expect(codes).not.toContain('repeat_style_mixed');
+  });
+
+  test('flags a true mid-tune empty measure | |', function() {
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Hole') + 'A2 B2 C2 D2 | | E2 F2 G2 A2 |');
+    const result = checkTuneAbcStructure(tune, { abcTools: abcTools });
+    expect(result && result.issues.some(function(i) { return i.code === 'empty_bar'; })).toBe(true);
   });
 
   test('collapseEmptyRepeatBarsInTune removes empty bar between || and |:', function() {
@@ -582,7 +707,7 @@ describe('tuneBulkCheckReport structure integration', function() {
   const abcTools = useAbcTools();
 
   test('includes structure issues in report', function() {
-    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Broken') + 'C D E F :|');
+    const tune = tuneFromAbc(abcTools, abcTools.emptyABC('Broken') + ':| C D E F |');
     const report = buildTuneCheckReport(tune, { abcTools: abcTools });
     expect(report.structureResult).not.toBeNull();
     expect(report.issues.some(function(i) { return i.code === 'unmatched_repeat_end'; })).toBe(true);

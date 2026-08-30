@@ -1,7 +1,7 @@
 /**
  * Import EuroSession review package (JSON + crop folder) into the tunebook.
  */
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { Alert, Button, Form, ProgressBar } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import {
@@ -25,7 +25,33 @@ export default function ImportReviewedImagesPanel(props) {
   const [error, setError] = useState('')
 
   const cropCount = cropFiles && cropFiles.length ? cropFiles.length : 0
-  const canImport = !!(jsonFile && cropCount > 0 && tunebook && !busy)
+  const [pkgPreview, setPkgPreview] = useState(null)
+
+  useEffect(function() {
+    if (!jsonFile) {
+      setPkgPreview(null)
+      return
+    }
+    let cancelled = false
+    readImportJsonFile(jsonFile).then(function(text) {
+      if (cancelled) return
+      try {
+        setPkgPreview(parseEurosessionImportPackage(text))
+      } catch (_) {
+        setPkgPreview(null)
+      }
+    }).catch(function() {
+      if (!cancelled) setPkgPreview(null)
+    })
+    return function() { cancelled = true }
+  }, [jsonFile])
+
+  const notationOnlyCount = pkgPreview && pkgPreview.tunes
+    ? pkgPreview.tunes.filter(function(t) { return t.notationOnly }).length
+    : 0
+  const photoCount = pkgPreview && pkgPreview.tunes ? pkgPreview.tunes.length - notationOnlyCount : 0
+  const needsCrops = photoCount > 0
+  const canImport = !!(jsonFile && tunebook && !busy && (!needsCrops || cropCount > 0))
 
   async function handleImport() {
     setError('')
@@ -34,7 +60,7 @@ export default function ImportReviewedImagesPanel(props) {
       setError('Choose eurosession-import.json from the review page export.')
       return
     }
-    if (!cropCount) {
+    if (needsCrops && !cropCount) {
       setError('Choose the eurosession-work/tunes folder (or parent work folder with crops).')
       return
     }
@@ -89,6 +115,7 @@ export default function ImportReviewedImagesPanel(props) {
         <p className="text-muted small mb-0">
           Import all EuroSession review tunes into the <strong>eurosession</strong> book.
           Incomplete tunes open on the crop snapshot; complete tunes open as notation.
+          Notation-only tunebook entries (no crop) import ABC without a matching image file.
           Re-running updates the same tunes (stable ids from the review export) instead of duplicating.
         </p>
       </div>
@@ -96,7 +123,7 @@ export default function ImportReviewedImagesPanel(props) {
       <ol className="small text-muted mb-3 ps-3">
         <li>In <code>review_abc.html</code>, click <strong>Export tunebook import</strong>.</li>
         <li>Select that <code>eurosession-import.json</code> below.</li>
-        <li>Select the <code>eurosession-work/tunes</code> folder (crop images).</li>
+        <li>Select the <code>eurosession-work/tunes</code> folder when the export includes photo crops (optional if every tune is notation-only).</li>
         <li>Click <strong>Import Reviewed Images</strong>.</li>
       </ol>
 
@@ -137,6 +164,8 @@ export default function ImportReviewedImagesPanel(props) {
         />
         {cropCount ? (
           <div className="small text-muted mt-1">{cropCount} files selected</div>
+        ) : notationOnlyCount ? (
+          <div className="small text-muted mt-1">Notation-only import — crop folder optional</div>
         ) : null}
       </Form.Group>
 

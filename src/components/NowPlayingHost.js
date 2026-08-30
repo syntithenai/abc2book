@@ -40,6 +40,7 @@ export default function NowPlayingHost(props) {
   const gigModeActive = !!props.gigModeActive
   const [voiceSettingsRevision, setVoiceSettingsRevision] = useState(0)
   const lastMidiRouteTuneIdRef = useRef(null)
+  const lastUrlMidiKickoffKeyRef = useRef(null)
   const mediaControllerRef = useRef(mediaController)
   mediaControllerRef.current = mediaController
 
@@ -160,12 +161,19 @@ export default function NowPlayingHost(props) {
   }, [shouldHost, mediaController, playingTune && playingTune.id])
 
   useEffect(function() {
+    if (!(urlPlayback && urlPlayback.playState === 'playMidi')) {
+      lastUrlMidiKickoffKeyRef.current = null
+    }
+  }, [urlPlayback && urlPlayback.playState])
+
+  useEffect(function() {
     if (!shouldHost || !playbackTarget || playbackTarget.type !== 'midi') return undefined
     if (!playingTune || !tunebook) return undefined
 
     const mc = mediaControllerRef.current
     if (!mc || !mc.applyPlaybackRoute) return undefined
-    if (shouldSkipHostMidiRouteApply(mc)) return undefined
+    const forceMidiFromUrl = !!(urlPlayback && urlPlayback.playState === 'playMidi')
+    if (shouldSkipHostMidiRouteApply(mc, { forceMidiFromUrl: forceMidiFromUrl })) return undefined
 
     const tuneId = playingTune.id
     const tuneChanged = lastMidiRouteTuneIdRef.current !== tuneId
@@ -182,17 +190,37 @@ export default function NowPlayingHost(props) {
       consumed = mc.consumePendingPlayRequest(tuneId, 'playMidi', null)
     }
     const kickoffPending = mc.needsPlaybackKickoff && mc.needsPlaybackKickoff()
-    if (!consumed && (tuneChanged || kickoffPending) && mc.maybeAutostart && !suppressAutostart) {
+    // /playMidi URLs must start generated playback even when nothing was armed yet
+    // (fresh load / deep link). Linked audio uses /playMedia instead.
+    const urlKickoffKey = forceMidiFromUrl ? (String(tuneId) + ':playMidi') : null
+    const urlKickoffPending = !!(urlKickoffKey
+      && lastUrlMidiKickoffKeyRef.current !== urlKickoffKey)
+    if (!consumed && (tuneChanged || kickoffPending || urlKickoffPending)
+        && mc.maybeAutostart && !suppressAutostart) {
       const pendingMidi = mc.pendingMidiPlayRef && mc.pendingMidiPlayRef.current
       const kickoffActive = mc.isMidiKickoffActiveRef && mc.isMidiKickoffActiveRef.current
           && mc.isMidiKickoffActiveRef.current()
-      const armed = mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent()
+      let armed = mc.hasActivePlaybackIntent && mc.hasActivePlaybackIntent()
+      if (!armed && urlKickoffPending && mc.armPlaybackIntent) {
+        mc.armPlaybackIntent({ fresh: true })
+        armed = true
+      }
       if (!pendingMidi && !kickoffActive && armed) {
+        if (urlKickoffKey) {
+          lastUrlMidiKickoffKeyRef.current = urlKickoffKey
+        }
         mc.maybeAutostart('playMidi', 'tune', false)
       }
     }
     return undefined
-  }, [shouldHost, playbackTarget && playbackTarget.type, playingTune && playingTune.id, tunebook, suppressAutostart])
+  }, [
+    shouldHost,
+    playbackTarget && playbackTarget.type,
+    playingTune && playingTune.id,
+    tunebook,
+    suppressAutostart,
+    urlPlayback && urlPlayback.playState,
+  ])
 
 
   if (!shouldHost || !playbackTarget) {
@@ -254,7 +282,8 @@ export default function NowPlayingHost(props) {
           meter={playingTune.meter}
           tablatureSourceTune={playingTune}
           autoPrime={true}
-          autoStart={resumePlaybackOnHost && !suppressAutostart}
+          autoStart={(resumePlaybackOnHost
+            || !!(urlPlayback && urlPlayback.playState === 'playMidi')) && !suppressAutostart}
           editableTempo={false}
           repeat={notationPlaybackRepeat}
           hideSvg={true}

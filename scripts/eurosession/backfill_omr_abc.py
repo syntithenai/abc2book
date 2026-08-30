@@ -19,6 +19,7 @@ from omr_and_lookup import (  # noqa: E402
     ensure_x_header,
     extract_omr_abc,
     looks_weak_abc,
+    polish_extracted_omr,
     post_omr,
 )
 
@@ -107,6 +108,8 @@ def main() -> int:
         t0 = time.time()
         omr = post_omr(args.resolver, crop)
         omr_abc, omr_status = extract_omr_abc(omr)
+        if omr_abc:
+            omr_abc = polish_extracted_omr(omr_abc, title)
         print(f"  OMR {omr_status} in {time.time() - t0:.1f}s ({len(omr_abc)} chars)")
         entry["omrStatus"] = omr_status
         if inject_omr_candidate(entry, omr_abc, title, idx):

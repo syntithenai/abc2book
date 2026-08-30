@@ -14,8 +14,9 @@ import {
   setRepeatMode,
   setFollowTune,
   setShuffle,
-  setPreferMidi,
-  isPreferMidi,
+  setMidiPreference,
+  getMidiPreference,
+  resolveMidiPreferenceOption,
 } from './nowPlayingQueue'
 import {
   isQueuePlaybackEngaged,
@@ -40,7 +41,7 @@ function resolveActiveQueue(params) {
   return latest || queue
 }
 
-/** Keep repeat/follow/shuffle/preferMidi prefs from the live queue when persisting a computed next queue. */
+/** Keep repeat/follow/shuffle/midiPreference prefs from the live queue when persisting a computed next queue. */
 function queueWithLatestPlaybackPreferences(nextQueue, getLatestQueue) {
   if (!nextQueue || !getLatestQueue) return nextQueue
   const latest = getLatestQueue()
@@ -52,8 +53,8 @@ function queueWithLatestPlaybackPreferences(nextQueue, getLatestQueue) {
   if (!!latest.shuffle !== !!merged.shuffle) {
     merged = setShuffle(merged, latest.shuffle)
   }
-  if (!!latest.preferMidi !== !!merged.preferMidi) {
-    merged = setPreferMidi(merged, latest.preferMidi)
+  if (getMidiPreference(latest) !== getMidiPreference(merged)) {
+    merged = setMidiPreference(merged, getMidiPreference(latest))
   }
   return merged
 }
@@ -86,11 +87,9 @@ export function playQueueItem(mediaController, tunebook, tune, item, options) {
   }
   if (!tunebook || !tune) return false
   const opts = options || {}
-  const preferMidi = opts.preferMidi != null
-    ? !!opts.preferMidi
-    : isPreferMidi(opts.queue)
+  const midiPreference = resolveMidiPreferenceOption(opts)
   const target = opts.playbackTarget || resolvePlaybackForItem(tune, item, tunebook, {
-    preferMidi: preferMidi,
+    midiPreference: midiPreference,
   })
   if (!target) return false
 
@@ -137,10 +136,10 @@ export function playCurrentQueueItem(mediaController, tunebook, tunes, queue, op
   if (isExternalQueueItem(item)) return true
   const tune = tunes && item.tuneId ? tunes[item.tuneId] : null
   if (!tune) return false
-  if (!isQueueItemPlayable(tune, item, tunebook)) return false
+  if (!isQueueItemPlayable(tune, item, tunebook, { midiPreference: getMidiPreference(queue) })) return false
   return playQueueItem(mediaController, tunebook, tune, item, Object.assign({}, options, {
     queue: queue,
-    preferMidi: isPreferMidi(queue),
+    midiPreference: getMidiPreference(queue),
   }))
 }
 
@@ -148,11 +147,9 @@ export function navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, pla
   if (!navigate || !tuneId) return
   const opts = options || {}
   const tune = tunes && tunes[tuneId] ? tunes[tuneId] : null
-  const preferMidi = opts.preferMidi != null
-    ? !!opts.preferMidi
-    : isPreferMidi(opts.queue)
+  const midiPreference = resolveMidiPreferenceOption(opts)
   const target = playbackTarget || (tune && item
-    ? resolvePlaybackForItem(tune, item, tunebook, { preferMidi: preferMidi })
+    ? resolvePlaybackForItem(tune, item, tunebook, { midiPreference: midiPreference })
     : null)
   const path = target ? buildPlaybackPath(tuneId, target) : '/tunes/' + tuneId
   navigate(path)
@@ -228,14 +225,16 @@ function finishQueueAdvance(params, nextQueue, item, tune, playbackTarget) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
-  if (!playbackTarget && !isQueueItemPlayable(tune, item, tunebook)) {
+  if (!playbackTarget && !isQueueItemPlayable(tune, item, tunebook, {
+    midiPreference: getMidiPreference(nextQueue),
+  })) {
     return retryQueueAdvanceAfterFailure(Object.assign({}, params, { queue: nextQueue }), 'end')
   }
 
   persistQueue(nextQueue)
   const playOpts = Object.assign({}, playbackOptions || { deferPlaybackEngine: true }, {
     queue: nextQueue,
-    preferMidi: !!(nextQueue && nextQueue.preferMidi),
+    midiPreference: getMidiPreference(nextQueue),
   })
   if (playbackTarget) playOpts.playbackTarget = playbackTarget
   const started = playQueueItem(mediaController, tunebook, tune, item, playOpts)
@@ -255,7 +254,7 @@ function finishQueueAdvance(params, nextQueue, item, tune, playbackTarget) {
   if (shouldFollow) {
     navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes, playbackTarget, {
       queue: nextQueue,
-      preferMidi: !!(nextQueue && nextQueue.preferMidi),
+      midiPreference: getMidiPreference(nextQueue),
     })
   }
   return true
@@ -371,10 +370,12 @@ export function handleQueueAdvanceOnEnded(params) {
     setQueue(queueWithLatestPlaybackPreferences(restored, params.getLatestQueue))
     const item = getCurrentItem(restored)
     const tune = item && tunes ? tunes[item.tuneId] : null
-    if (tune && mediaController && isQueueItemPlayable(tune, item, tunebook)) {
+    if (tune && mediaController && isQueueItemPlayable(tune, item, tunebook, {
+      midiPreference: getMidiPreference(restored),
+    })) {
       playQueueItem(mediaController, tunebook, tune, item, {
         queue: restored,
-        preferMidi: !!(restored && restored.preferMidi),
+        midiPreference: getMidiPreference(restored),
       })
       if (resolveLiveFollowTune(restored, params.getLatestQueue) && navigate && !shouldSuppressFollowNavigate({
         pathname: location && location.pathname,
@@ -383,7 +384,7 @@ export function handleQueueAdvanceOnEnded(params) {
       })) {
         navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes, null, {
           queue: restored,
-          preferMidi: !!(restored && restored.preferMidi),
+          midiPreference: getMidiPreference(restored),
         })
       }
     } else {
@@ -408,7 +409,9 @@ export function handleQueueAdvanceOnEnded(params) {
     if (isExternalQueueItem(item)) {
       return finishQueueAdvance(params, queue, item, null)
     }
-    if (!tune || !tunebook || !isQueueItemPlayable(tune, item, tunebook)) {
+    if (!tune || !tunebook || !isQueueItemPlayable(tune, item, tunebook, {
+      midiPreference: getMidiPreference(queue),
+    })) {
       stopPlaylistPlayback(mediaController)
       if (failCallback) failCallback('end')
       return false

@@ -7,14 +7,16 @@ import { Dropdown, Modal } from 'react-bootstrap'
 import { addFromFileAcceptList } from '../importSourceParse'
 import { withDropdownPositionFix } from '../reactBootstrapDropdownPatch'
 import AddBulkImportPanel from './AddBulkImportPanel'
-import ImportReviewedImagesPanel from './ImportReviewedImagesPanel'
 import ImportBookWizardModal from './ImportBookWizardModal'
+import ReviewProjectsModal from './ReviewProjectsModal'
 import PasteImportModal from './PasteImportModal'
 import ImportUrlModal from './ImportUrlModal'
 import DriveFilePickerModal from './DriveFilePickerModal'
 import YouTubeSearchModal from './YouTubeSearchModal'
 import SheetImageCameraModal from './SheetImageCameraModal'
 import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal'
+import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
+import { reviewProjectsAvailableFromStatus } from '../reviewProjectsClient'
 
 function bumpSignal(setter) {
   setter(function(n) { return (n || 0) + 1 })
@@ -24,9 +26,9 @@ export default function AddFromDropdown(props) {
   const fileInputRef = useRef(null)
   const folderInputRef = useRef(null)
   const [showBulk, setShowBulk] = useState(false)
-  const [showReviewed, setShowReviewed] = useState(false)
   const [showImportBook, setShowImportBook] = useState(false)
   const [importBookReviewSetId, setImportBookReviewSetId] = useState('')
+  const [showReviewProjects, setShowReviewProjects] = useState(false)
   const [showCamera, setShowCamera] = useState(false)
   const [showGooglePhotos, setShowGooglePhotos] = useState(false)
   const [pasteOpenSignal, setPasteOpenSignal] = useState(0)
@@ -38,6 +40,8 @@ export default function AddFromDropdown(props) {
   const resolverChecked = props.resolverChecked !== false
   const isRecording = !!(props.audioUtils && props.audioUtils.isRecording)
   const recordingDuration = props.recordingDuration || 0
+  const showReviewProjectsAdmin = isMusicGenerationAdmin(props.user, props.resolverStatus)
+  const reviewProjectsReady = reviewProjectsAvailableFromStatus(props.resolverStatus)
 
   useEffect(function() {
     function onOpenBookImport(event) {
@@ -89,12 +93,6 @@ export default function AddFromDropdown(props) {
             Bulk Import
           </Dropdown.Item>
           <Dropdown.Item
-            data-testid="add-from-reviewed"
-            onClick={function() { setShowReviewed(true) }}
-          >
-            Import Reviewed Images
-          </Dropdown.Item>
-          <Dropdown.Item
             data-testid="add-from-import-book"
             onClick={function() {
               setImportBookReviewSetId('')
@@ -103,6 +101,25 @@ export default function AddFromDropdown(props) {
           >
             Import scans or PDF
           </Dropdown.Item>
+          {showReviewProjectsAdmin ? (
+            <Dropdown.Item
+              data-testid="add-from-review-projects"
+              disabled={!resolverChecked || !resolverAvailable || !reviewProjectsReady}
+              title={
+                !resolverAvailable
+                  ? 'Needs the local media resolver'
+                  : (!reviewProjectsReady
+                    ? 'Needs Documents review root on the local resolver'
+                    : 'Review Milliner–Koken and Old Time Fiddle imports')
+              }
+              onClick={function() {
+                if (!resolverAvailable || !reviewProjectsReady) return
+                setShowReviewProjects(true)
+              }}
+            >
+              Review Projects
+            </Dropdown.Item>
+          ) : null}
           <Dropdown.Divider />
           <Dropdown.Item
             data-testid="add-from-file"
@@ -268,25 +285,6 @@ export default function AddFromDropdown(props) {
         </Modal.Body>
       </Modal>
 
-      <Modal
-        show={showReviewed}
-        onHide={function() { setShowReviewed(false) }}
-        size="lg"
-        data-testid="add-from-reviewed-dialog"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>Import Reviewed Images</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <ImportReviewedImagesPanel
-            tunebook={props.tunebook}
-            tunes={props.tunes}
-            forceRefresh={props.forceRefresh}
-            setCurrentTuneBook={props.setCurrentTuneBook}
-          />
-        </Modal.Body>
-      </Modal>
-
       <ImportBookWizardModal
         show={showImportBook}
         initialReviewSetId={importBookReviewSetId}
@@ -303,6 +301,17 @@ export default function AddFromDropdown(props) {
         forceRefresh={props.forceRefresh}
         setCurrentTuneBook={props.setCurrentTuneBook}
       />
+
+      {showReviewProjectsAdmin ? (
+        <ReviewProjectsModal
+          show={showReviewProjects}
+          onHide={function() { setShowReviewProjects(false) }}
+          tunebook={props.tunebook}
+          tunes={props.tunes}
+          token={props.token}
+          resolverStatus={props.resolverStatus}
+        />
+      ) : null}
 
       <PasteImportModal
         hideTrigger

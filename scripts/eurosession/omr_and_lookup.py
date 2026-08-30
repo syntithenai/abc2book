@@ -15,6 +15,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "local-resolver"))
+from sheet_image_abc_repair import abc_quality_warnings, looks_weak_abc  # noqa: E402
+
 
 TITLE_KEY_HINT_RE = re.compile(
     r"\s*\(([A-G][#b]?(?:m|maj|min|dim|aug)?(?:\d)?(?:/[A-G][#b]?)?)\)\s*$",
@@ -297,55 +300,28 @@ def extract_omr_abc(omr: dict | None) -> tuple[str, str]:
     return "", "omr_empty"
 
 
-def looks_weak_abc(abc: str) -> bool:
-    if not abc or len(abc) < 20:
-        return True
-    # Count note letters in the body only (after K:) so long titles cannot
-    # rescue rest-only / nearly-empty OMR output.
-    text = abc or ""
-    body = text
-    for line in text.splitlines():
-        if line.startswith("K:"):
-            idx = text.find(line)
-            if idx >= 0:
-                body = text[idx + len(line) :]
-    body_no_chords = re.sub(r'"[^"\n]*"', "", body)
-    notes = len(re.findall(r"[A-Ga-g]", body_no_chords))
-    if notes < 8:
-        return True
-    # Vision-LLM / bad OCR: chord tokens glued into the note stream without quotes.
-    # e.g. ""Am"C""""Dm"Em or bare AmEmBm runs.
-    if re.search(r'"{3,}|^\s*""|(?<=[|: ])""[A-G]|""(?=")', abc):
-        return True
-    if re.search(r'(?<!["A-Ga-g])(?:Am|Em|Dm|Bm|F#m|C#m){2,}', abc):
-        return True
-    # Broken music21/homr duration dumps (0.125) — not valid ABC.
-    if re.search(r"[A-Ga-g](?:,*)(?:\'*)\d+\.\d+", abc):
-        return True
-    return False
+def polish_extracted_omr(
+    abc: str,
+    title: str,
+    *,
+    meter_hint: str | None = None,
+    key_override: str | None = None,
+) -> str:
+    """Post-process raw HOMR ABC: decimals, headers, section-repeat heuristics."""
+    text = (abc or "").strip()
+    if not text:
+        return ""
+    from repair_abc import repair_omr_abc  # noqa: WPS433 — avoid import cycle
+
+    return repair_omr_abc(
+        text,
+        title,
+        meter_hint=meter_hint,
+        key_override=key_override,
+    )
 
 
-def abc_quality_warnings(abc: str, *, expected_meter: str | None = None) -> list[str]:
-    """Cheap heuristics for OMR / vision-guess ABC (never treat as authoritative)."""
-    warnings: list[str] = []
-    text = abc or ""
-    if looks_weak_abc(text):
-        warnings.append("weak_abc")
-    if expected_meter:
-        m = re.search(r"^M:\s*([^\n]+)", text, re.M)
-        got = (m.group(1).strip() if m else "")
-        if got and got != expected_meter.strip():
-            warnings.append(f"meter_mismatch:{got}!={expected_meter.strip()}")
-    # True mangling: empty quotes / triple quotes / "" after barline — not "Am""Dm".
-    if re.search(r'"{3,}|^\s*""|(?<=[|: ])""[A-G]|""(?=")', text):
-        warnings.append("mangled_quote_chords")
-    if re.search(r"[A-Ga-g](?:,*)(?:\'*)\d+\.\d+", text):
-        warnings.append("decimal_durations")
-    note_letters = len(re.findall(r"[A-Ga-g]", text))
-    staff_hints = len(re.findall(r"\|", text))
-    if staff_hints >= 12 and note_letters < staff_hints:
-        warnings.append("sparse_notes_for_barlines")
-    return warnings
+# looks_weak_abc and abc_quality_warnings imported from sheet_image_abc_repair
 
 
 def ensure_x_header(abc: str, index: int, title: str) -> str:
@@ -402,6 +378,8 @@ def main() -> int:
             t0 = time.time()
             omr = post_omr(args.resolver, crop)
             omr_abc, omr_status = extract_omr_abc(omr)
+            if omr_abc:
+                omr_abc = polish_extracted_omr(omr_abc, title)
             print(f"  OMR {omr_status} in {time.time()-t0:.1f}s ({len(omr_abc)} chars)")
 
         prior_abc = str(entry.get("abc") or "").strip()

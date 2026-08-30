@@ -4,6 +4,7 @@ import {
   applyPlaybackCursorAtTime,
   shouldMirrorMidiPlaybackCursor,
 } from './notationPlaybackCursor'
+import { barWholeNotesFromMeter } from './playbackFillPattern'
 
 const CURSOR_SYNC_MS = 50
 
@@ -103,6 +104,19 @@ export default function useNotationPlaybackCursor(props) {
       const audioDurationSec = mediaController.duration > 0
         ? parseFloat(mediaController.duration)
         : 0
+      const soundingMap = mediaController.soundingWrittenMapRef
+        ? mediaController.soundingWrittenMapRef.current
+        : null
+      const barWhole = barWholeNotesFromMeter(
+        visualObj && typeof visualObj.getMeterFraction === 'function'
+          ? visualObj.getMeterFraction()
+          : null
+      )
+      const pickupWhole = soundingMap && soundingMap.pickupWhole != null
+        ? soundingMap.pickupWhole
+        : (visualObj && typeof visualObj.getPickupLength === 'function'
+          ? parseFloat(visualObj.getPickupLength()) || 0
+          : 0)
       cursorRef.current = applyPlaybackCursorAtTime(
         svg,
         cursorRef.current,
@@ -113,6 +127,9 @@ export default function useNotationPlaybackCursor(props) {
           audibleMsPerMeasure: audibleMpm,
           audioDurationSec: audioDurationSec,
           lastMomentMs: timingCallbacks.lastMoment,
+          soundingWrittenMap: soundingMap,
+          barWholeNotes: barWhole,
+          pickupWhole: pickupWhole,
         }
       )
     }

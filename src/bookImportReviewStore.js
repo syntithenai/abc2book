@@ -237,6 +237,7 @@ export function createBlankTuneRecord(options) {
     tuneIndex: Number(opts.tuneIndex) || 1,
     cropBlobKey: opts.cropBlobKey || '',
     cropName: opts.cropName || '',
+    cropRemotePath: String(opts.cropRemotePath || '').trim(),
     key: String(opts.key || '').trim(),
     abc: String(opts.abc || '').trim(),
     complete: !!opts.complete,

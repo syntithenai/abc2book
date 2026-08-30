@@ -3,6 +3,7 @@ import { buildCleanupScorePreviewAbc } from './midiCleanupNotationPreview';
 import {
   applyMidiProfileVoiceNamesToAbc,
 } from './midiImportAbcEnhance';
+import { gridBeatsPerBarFromMeter } from './midiAbcQuantize';
 import {
   buildScoreDirective,
   noteLengthFromRhythmDetail,
@@ -25,7 +26,7 @@ export function buildMidiImportAbcFromSession(session) {
   const grid = Object.assign({}, session.sharedGrid || {}, headerVoice && headerVoice.grid || {});
   const filters = (headerVoice && headerVoice.filters) || defaultVoiceFilters();
   const meter = grid.timeSignature || '4/4';
-  const beatsPerBar = parseInt(String(meter).split('/')[0], 10) || 4;
+  const beatsPerBar = gridBeatsPerBarFromMeter(meter);
   // Snap/grid drives import quantization (same as piano-roll + wizard options).
   const slotsPerBeat = session.previewSnapSlotsPerBeat
     || slotsPerBeatFromRhythmDetail(filters.rhythmDetail || 'standard');
@@ -117,7 +118,7 @@ export function buildMidiImportAbcFromDraft(draft) {
   const tempo = draft.tempoBpm || 120;
   const cleanup = draft.cleanupSkipped ? null : (draft.cleanupOptions || DEFAULT_CLEANUP_OPTIONS);
   const meter = draft.timeSignature || (draft.profile && draft.profile.time_signature) || '4/4';
-  const beatsPerBar = parseInt(String(meter).split('/')[0], 10) || 4;
+  const beatsPerBar = gridBeatsPerBarFromMeter(meter);
   const rhythmDetail = draft.rhythmDetail || 'standard';
   const slotsPerBeat = draft.quantSlotsPerBeat || slotsPerBeatFromRhythmDetail(rhythmDetail);
   const noteLength = draft.noteLength

@@ -215,6 +215,9 @@ export function shouldAllowPlaybackEndDespiteGuards(flags) {
   const f = flags || {}
   if (f.nativeMediaEnded) return true
   if (f.pastRegionEnd && f.noActiveOutput) return true
+  // Full-tune MIDI ends with no trim region — pastRegionEnd stays false but the
+  // synth clock is already at duration with no audible output.
+  if (f.naturalEndNearFinish && f.noActiveOutput) return true
   return false
 }
 
@@ -1018,4 +1021,39 @@ export function resolveMetronomeAlignTarget(musicSeconds, qpm, rhythm) {
   }
   const nextSlot = (slot + 1) % totalSlots
   return { slot: nextSlot, delaySec: Math.max(0.02, delayToNext) }
+}
+
+/**
+ * After one MIDI pass, whether to schedule another repeat before onEnded.
+ * Playlist auto-advance may suppress post-end seek-to-zero only; it must not
+ * skip tune.repeats while more passes remain.
+ */
+export function shouldScheduleMidiRepeatRestart(repeat, playCount, forceFillOff) {
+  const n = parseInt(repeat, 10)
+  if (!(n > 0) || playCount >= n - 1) return false
+  return !forceFillOff
+}
+
+/**
+ * Whether the MIDI buffer playhead is near a natural end. Unknown duration is
+ * not treated as finished — that previously let pitch reconnects look complete.
+ */
+export function isMidiBufferNearNaturalEnd(durationSec, positionSec) {
+  const dur = parseFloat(durationSec)
+  if (!(dur > 0)) return false
+  const pos = parseFloat(positionSec)
+  const safePos = pos >= 0 && isFinite(pos) ? pos : 0
+  return (safePos / dur) >= 0.92 || (dur - safePos) < 0.35
+}
+
+/**
+ * Live pitch/seek guards must suppress completion and deferred end polling so
+ * a SoundTouch glitch cannot restart the tune from 0.
+ */
+export function shouldIgnoreMidiPlaybackCompletion(opts) {
+  const o = opts || {}
+  if (o.playbackFinished) return true
+  if (o.deferToNative) return true
+  if (o.guardActive) return true
+  return false
 }

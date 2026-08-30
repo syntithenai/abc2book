@@ -19,6 +19,7 @@ from midi_analysis import (
 from midi_cleanup import apply_midi_cleanup, cleanup_is_active
 from midi_drum_map import build_drummap_lines, drum_note_to_abc_token
 from midi_note_events import midi_bytes_to_note_events
+from sheet_image_abc_repair import safe_autofix_abc
 
 MAX_MIDI_IMPORT_VOICES = 0  # 0 = no limit
 
@@ -210,6 +211,33 @@ def build_beat_times(duration: float, tempo_bpm: float, beats_per_bar: int = 4) 
     return times
 
 
+def quarters_per_bar_from_meter(meter: str) -> float:
+    """Quarter-note length of one bar. MIDI tempo is always per quarter.
+
+    Cut time 2/2 → 4 quarters; 6/8 → 3; 4/4 → 4. Using only the meter
+    numerator (as beats_per_bar) underfills 2/2 and compound meters.
+    """
+    parts = str(meter or "4/4").strip().split("/")
+    try:
+        numerator = int(parts[0])
+    except (TypeError, ValueError, IndexError):
+        numerator = 4
+    try:
+        denominator = int(parts[1]) if len(parts) > 1 else 4
+    except (TypeError, ValueError):
+        denominator = 4
+    if numerator <= 0:
+        numerator = 4
+    if denominator <= 0:
+        denominator = 4
+    return float(numerator) * (4.0 / float(denominator))
+
+
+def grid_beats_per_bar_from_meter(meter: str) -> int:
+    """Integer quarter-pulses per bar for the note_events quantize grid."""
+    return max(1, int(round(quarters_per_bar_from_meter(meter))))
+
+
 def _trim_notes_for_quantization(
     notes: list[dict[str, Any]],
     margin_sec: float = 1.0,
@@ -301,8 +329,69 @@ def _token_with_duration(token: str, slots: int, slots_per_beat: int) -> str:
     if len(token) >= 2 and token[0] == "!" and token[-1] == "!":
         inner = re.sub(r"\d+$", "", token[1:-1])
         return f"!{inner}{dur}!"
+    if token.startswith("["):
+        close = token.find("]")
+        if close > 0:
+            return token[: close + 1] + dur
     pitch = re.sub(r"\d+$", "", token)
     return pitch + dur
+
+
+def _pitch_body_from_token(token: str) -> str:
+    raw = str(token or "")
+    if len(raw) >= 2 and raw[0] == "!" and raw[-1] == "!":
+        return re.sub(r"\d+$", "", raw[1:-1])
+    if raw.startswith("["):
+        close = raw.find("]")
+        if close > 0:
+            return raw[1:close]
+    return re.sub(r"\d+$", "", raw)
+
+
+_PITCH_SPLIT_RE = re.compile(r"(?=[_^=]*[A-Ga-g])")
+
+
+def _prepare_events_for_abc_body(
+    events: list[tuple[int, int, str]],
+    *,
+    slots_per_beat: int,
+    allow_chords: bool = True,
+) -> list[tuple[int, int, str]]:
+    """Merge same-slot notes into chords and clip overlapping/legato durations."""
+    if not events:
+        return []
+    sorted_events = sorted(events, key=lambda item: (item[0], item[1]))
+    merged: list[tuple[int, int, str]] = []
+    for slot, dur_slots, token in sorted_events:
+        if merged and merged[-1][0] == slot:
+            prev_slot, prev_dur, prev_token = merged[-1]
+            if allow_chords:
+                pitches = [p for p in _PITCH_SPLIT_RE.split(_pitch_body_from_token(prev_token)) if p]
+                next_pitch = _pitch_body_from_token(token)
+                if next_pitch and next_pitch not in pitches:
+                    pitches.append(next_pitch)
+                pitches.sort()
+                chord_dur = max(prev_dur, max(1, dur_slots))
+                chord_token = "[" + "".join(pitches) + "]"
+                merged[-1] = (
+                    prev_slot,
+                    chord_dur,
+                    _token_with_duration(chord_token, chord_dur, slots_per_beat),
+                )
+            elif max(1, dur_slots) >= prev_dur:
+                merged[-1] = (slot, max(1, dur_slots), token)
+            continue
+        merged.append((slot, max(1, dur_slots), token))
+
+    clipped: list[tuple[int, int, str]] = []
+    for index, (slot, dur_slots, token) in enumerate(merged):
+        next_slot = merged[index + 1][0] if index + 1 < len(merged) else None
+        if next_slot is not None and dur_slots > max(1, next_slot - slot):
+            max_dur = max(1, next_slot - slot)
+            clipped.append((slot, max_dur, _token_with_duration(token, max_dur, slots_per_beat)))
+        else:
+            clipped.append((slot, dur_slots, token))
+    return clipped
 
 
 def _split_events_at_bar_boundaries(
@@ -361,13 +450,18 @@ def _quantize_notes_to_events(
     return events
 
 
-def _join_abc_measures(measure_parts: list[str]) -> str:
+def _join_abc_measures(measure_parts: list[str], *, bars_per_line: int = 8) -> str:
     if not measure_parts:
         return ""
-    lines: list[str] = []
+    per_line = max(1, int(bars_per_line or 8))
+    measures: list[str] = []
     for part in measure_parts:
         trimmed = (part or "").strip()
-        lines.append(f"{trimmed} |" if trimmed else "|")
+        measures.append(f"{trimmed} |" if trimmed else "|")
+    lines: list[str] = []
+    for index in range(0, len(measures), per_line):
+        chunk = measures[index : index + per_line]
+        lines.append(" ".join(chunk))
     return "\n".join(lines)
 
 
@@ -377,10 +471,14 @@ def _format_split_events_to_body(
     bar_slots: int,
     slots_per_beat: int,
     total_bars: int | None = None,
+    bars_per_line: int = 8,
 ) -> str:
     if not split_events:
         if total_bars and total_bars > 0:
-            return _join_abc_measures([_rest_token(bar_slots, slots_per_beat) for _ in range(total_bars)])
+            return _join_abc_measures(
+                [_rest_token(bar_slots, slots_per_beat) for _ in range(total_bars)],
+                bars_per_line=bars_per_line,
+            )
         return ""
 
     max_end = max(slot + max(1, dur_slots) for slot, dur_slots, _token in split_events)
@@ -400,8 +498,7 @@ def _format_split_events_to_body(
         else:
             measure_parts.append(_format_within_bar(bar_events, bar * bar_slots, bar_slots, slots_per_beat))
 
-    body = _join_abc_measures(measure_parts)
-    return body
+    return _join_abc_measures(measure_parts, bars_per_line=bars_per_line)
 
 
 def format_notes_to_abc_body(
@@ -413,6 +510,8 @@ def format_notes_to_abc_body(
     key: str = "C",
     is_drum: bool = False,
     total_bars: int | None = None,
+    bars_per_line: int = 8,
+    allow_chords: bool = True,
 ) -> str:
     if not notes or not beat_times:
         return ""
@@ -427,15 +526,24 @@ def format_notes_to_abc_body(
     )
     if not events:
         if total_bars and total_bars > 0:
-            return " | ".join(_rest_token(bar_slots, slots_per_beat) for _ in range(total_bars)) + " |"
+            return _join_abc_measures(
+                [_rest_token(bar_slots, slots_per_beat) for _ in range(total_bars)],
+                bars_per_line=bars_per_line,
+            )
         return ""
 
-    split_events = _split_events_at_bar_boundaries(events, bar_slots, slots_per_beat)
+    prepared = _prepare_events_for_abc_body(
+        events,
+        slots_per_beat=slots_per_beat,
+        allow_chords=allow_chords and not is_drum,
+    )
+    split_events = _split_events_at_bar_boundaries(prepared, bar_slots, slots_per_beat)
     return _format_split_events_to_body(
         split_events,
         bar_slots=bar_slots,
         slots_per_beat=slots_per_beat,
         total_bars=total_bars,
+        bars_per_line=bars_per_line,
     )
 
 
@@ -532,10 +640,11 @@ def build_abc_from_profile(
         drum_ids = [t.index for t in profile.tracks if t.is_drum]
 
     tempo = float(opts.tempo_bpm or profile.tempo_bpm or 120.0)
-    beats_per_bar = profile.beats_per_bar or 4
-    min_bar_duration = beats_per_bar * (60.0 / max(tempo, 1.0))
     key = opts.estimated_key or profile.estimated_key or "C"
     meter = opts.time_signature or profile.time_signature or "4/4"
+    # Quantize bar length in quarter-note pulses (MIDI tempo unit), not meter numerator.
+    beats_per_bar = grid_beats_per_bar_from_meter(meter)
+    min_bar_duration = beats_per_bar * (60.0 / max(tempo, 1.0))
     note_length = opts.note_length or "1/8"
     slots_per_beat = max(1, min(12, int(opts.quant_slots_per_beat or 2)))
 
@@ -587,7 +696,12 @@ def build_abc_from_profile(
                 key=key,
                 is_drum=is_drum,
             )
-            split_events = _split_events_at_bar_boundaries(events, bar_slots, slots_per_beat)
+            prepared_events = _prepare_events_for_abc_body(
+                events,
+                slots_per_beat=slots_per_beat,
+                allow_chords=not is_drum,
+            )
+            split_events = _split_events_at_bar_boundaries(prepared_events, bar_slots, slots_per_beat)
             local_max = max((slot + max(1, dur_slots) for slot, dur_slots, _token in split_events), default=0)
             max_end = max(max_end, local_max)
             voice_event_sets.append((track_id, vid, is_drum, notes, split_events))
@@ -597,6 +711,7 @@ def build_abc_from_profile(
         bar_duration = beats_per_bar * beat_duration
         duration_bars = max(1, int((max_voice_duration + bar_duration - 1e-9) // bar_duration))
         total_bars = max(1, min(total_bars, duration_bars + 2))
+        bars_per_line = 1  # multi-voice: keep 1 bar/line for abcjs reliability
 
         for track_id, vid, is_drum, notes, split_events in voice_event_sets:
             track = _track_by_index(profile, track_id)
@@ -606,6 +721,7 @@ def build_abc_from_profile(
                 bar_slots=bar_slots,
                 slots_per_beat=slots_per_beat,
                 total_bars=total_bars,
+                bars_per_line=bars_per_line,
             )
             if not body:
                 continue
@@ -651,10 +767,12 @@ def build_abc_from_profile(
             body = format_notes_to_abc_body(
                 notes,
                 beat_times,
-                beats_per_bar=profile.beats_per_bar or 4,
+                beats_per_bar=beats_per_bar,
                 slots_per_beat=slots_per_beat,
                 key=estimate_key_from_notes(notes) if notes and not is_drum else key,
                 is_drum=is_drum,
+                bars_per_line=8,
+                allow_chords=not is_drum,
             )
             if body:
                 prefix = []
@@ -710,7 +828,7 @@ def build_abc_from_profile(
             lines.append("[V:" + str(voice["id"]) + "]")
             lines.append(voice["body"])
 
-    abc = "\n".join(lines).strip()
+    abc = safe_autofix_abc("\n".join(lines).strip())
     warnings = ["Note durations were quantized to fit the beat grid"]
     if cleanup_is_active(opts.cleanup_options):
         warnings.append("MIDI cleanup filters were applied before quantization")

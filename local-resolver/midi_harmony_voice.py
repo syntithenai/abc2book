@@ -11,6 +11,7 @@ from midi_to_abc import (
     _duration_suffix,
     _note_events_for_track,
     build_beat_times,
+    grid_beats_per_bar_from_meter,
 )
 
 SIMULTANEOUS_TOL = 0.03
@@ -104,10 +105,12 @@ def build_harmony_voice_abc(
     if not track_ids:
         return {"body": "", "voiceName": "", "trackIds": []}
 
+    meter = profile.time_signature or "4/4"
+    grid_beats = grid_beats_per_bar_from_meter(meter)
     beat_times = build_beat_times(
         profile.duration_seconds or 8.0,
         profile.tempo_bpm or 120.0,
-        profile.beats_per_bar or 4,
+        grid_beats,
     )
     key = profile.estimated_key or "C"
     all_groups: list[dict[str, Any]] = []
@@ -133,7 +136,7 @@ def build_harmony_voice_abc(
     body = format_chord_groups_to_abc_body(
         all_groups,
         beat_times,
-        beats_per_bar=profile.beats_per_bar or 4,
+        beats_per_bar=grid_beats,
         slots_per_beat=2,
         key=key,
     )

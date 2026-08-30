@@ -10,6 +10,40 @@ const ACTIVE_QUEUE_STORAGE_KEY = 'bookstorage_now_playing_queue'
 
 export const REPEAT_MODES = ['off', 'playlist', 'track']
 
+/** Queue MIDI preference for playlist play / next / prev. */
+export const MIDI_PREFERENCE = {
+  SKIP: 'skip',
+  ALLOW: 'allow',
+  PREFER: 'prefer',
+}
+
+export const MIDI_PREFERENCES = [
+  MIDI_PREFERENCE.SKIP,
+  MIDI_PREFERENCE.ALLOW,
+  MIDI_PREFERENCE.PREFER,
+]
+
+export function normalizeMidiPreference(value, legacyPreferMidi) {
+  if (value && MIDI_PREFERENCES.indexOf(value) !== -1) return value
+  if (legacyPreferMidi === true) return MIDI_PREFERENCE.PREFER
+  return MIDI_PREFERENCE.SKIP
+}
+
+export function getMidiPreference(queue) {
+  if (!queue) return MIDI_PREFERENCE.SKIP
+  return normalizeMidiPreference(queue.midiPreference, queue.preferMidi)
+}
+
+/** Resolve midiPreference from playback options (explicit, legacy preferMidi, or queue). */
+export function resolveMidiPreferenceOption(options) {
+  const opts = options || {}
+  if (opts.midiPreference != null) return normalizeMidiPreference(opts.midiPreference)
+  if (opts.preferMidi === true) return MIDI_PREFERENCE.PREFER
+  if (opts.queue) return getMidiPreference(opts.queue)
+  if (opts.preferMidi === false) return MIDI_PREFERENCE.ALLOW
+  return MIDI_PREFERENCE.ALLOW
+}
+
 export function getRepeatMode(queue) {
   if (!queue) return 'off'
   if (queue.repeatMode && REPEAT_MODES.indexOf(queue.repeatMode) !== -1) {
@@ -23,7 +57,11 @@ export function normalizeQueuePlaybackModes(queue) {
   if (!queue) return queue
   const hasExplicitRepeatMode = queue.repeatMode && REPEAT_MODES.indexOf(queue.repeatMode) !== -1
   const repeatMode = hasExplicitRepeatMode ? queue.repeatMode : 'off'
-  return queueWithRepeatMode(queue, repeatMode)
+  const withRepeat = queueWithRepeatMode(queue, repeatMode)
+  const midiPreference = normalizeMidiPreference(withRepeat.midiPreference, withRepeat.preferMidi)
+  const next = Object.assign({}, withRepeat, { midiPreference: midiPreference })
+  delete next.preferMidi
+  return next
 }
 
 export function isRepeatPlaylist(queue) {
@@ -144,7 +182,7 @@ export function createQueue(options) {
     followTune: opts.followTune !== undefined ? !!opts.followTune : false,
     autoAdvance: opts.autoAdvance !== false,
     shuffle: !!opts.shuffle,
-    preferMidi: !!opts.preferMidi,
+    midiPreference: normalizeMidiPreference(opts.midiPreference, opts.preferMidi),
     shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
@@ -351,14 +389,25 @@ export function setShuffle(queue, shuffle) {
   })
 }
 
-/** Prefer ABC MIDI over media links for play / next / prev when enabled. */
-export function setPreferMidi(queue, preferMidi) {
+/** Set playlist MIDI preference: skip | allow | prefer. */
+export function setMidiPreference(queue, midiPreference) {
   if (!queue) return null
-  return Object.assign({}, queue, { preferMidi: !!preferMidi })
+  const mode = normalizeMidiPreference(midiPreference)
+  const next = Object.assign({}, queue, { midiPreference: mode })
+  delete next.preferMidi
+  return next
+}
+
+/** @deprecated Prefer setMidiPreference; true maps to prefer, false to skip. */
+export function setPreferMidi(queue, preferMidi) {
+  return setMidiPreference(
+    queue,
+    preferMidi ? MIDI_PREFERENCE.PREFER : MIDI_PREFERENCE.SKIP
+  )
 }
 
 export function isPreferMidi(queue) {
-  return !!(queue && queue.preferMidi)
+  return getMidiPreference(queue) === MIDI_PREFERENCE.PREFER
 }
 
 export function clearQueue() {
@@ -659,7 +708,9 @@ export function resolvePlaybackForItem(tune, item, tunebook, options) {
   }
   if (!tune || !tunebook) return null
   const opts = options || {}
-  const forceMidi = !!opts.preferMidi
+  const midiPreference = resolveMidiPreferenceOption(opts)
+  const skipMidi = midiPreference === MIDI_PREFERENCE.SKIP
+  const forceMidi = midiPreference === MIDI_PREFERENCE.PREFER
   const prefer = item.prefer || 'auto'
   const hasNotes = tuneHasMidiNotes(tune, tunebook)
   const hasLinks = tunebook.hasLinks(tune)
@@ -667,16 +718,16 @@ export function resolvePlaybackForItem(tune, item, tunebook, options) {
   if (!forceMidi && item.linkIndex != null && Array.isArray(tune.links) && tune.links[item.linkIndex]) {
     return { type: 'media', linkNum: item.linkIndex }
   }
-  if ((forceMidi || prefer === 'midi') && hasNotes) return { type: 'midi', linkNum: null }
+  if (!skipMidi && (forceMidi || prefer === 'midi') && hasNotes) return { type: 'midi', linkNum: null }
   if (prefer === 'media' && hasLinks) return { type: 'media', linkNum: 0 }
-  if (prefer === 'auto' && hasNotes && hasLinks) {
+  if (!skipMidi && prefer === 'auto' && hasNotes && hasLinks) {
     const firstLink = tune.links[0]
     if (isRecordingLink(firstLink)) {
       return { type: 'midi', linkNum: null }
     }
   }
   if (hasLinks) return { type: 'media', linkNum: 0 }
-  if (hasNotes) return { type: 'midi', linkNum: null }
+  if (!skipMidi && hasNotes) return { type: 'midi', linkNum: null }
   return null
 }
 

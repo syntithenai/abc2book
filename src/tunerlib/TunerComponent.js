@@ -69,6 +69,8 @@ const LS_MIC_DEVICE = 'bookstorage_tuner_mic_device'
 const LS_SHOW_ADVANCED = 'bookstorage_tuner_show_advanced'
 const LS_CHECK_HARMONICS = 'bookstorage_tuner_check_harmonics'
 const PITCH_HISTORY_MAX = 600
+/** Hold before switching the active string to a clearly heard open note (Auto next off). */
+const HEARD_STRING_SWITCH_HOLD_MS = 280
 
 const FINE_HELP_BODY = (
   <>
@@ -192,6 +194,7 @@ export default function TunerComponent(props) {
   const autoAdvanceRef = useRef(autoAdvance)
   const nextStringRef = useRef(function() {})
   const stringSelectedAtRef = useRef(Date.now())
+  const heardStringCandidateRef = useRef({ index: -1, since: null })
 
   const preset = useMemo(function() {
     if (isChromaticInstrument(instrument)) return null
@@ -220,7 +223,14 @@ export default function TunerComponent(props) {
   useEffect(function() { dismissedWrongRef.current = dismissedWrong }, [dismissedWrong])
   useEffect(function() { instrumentRef.current = instrument }, [instrument])
   useEffect(function() { fineModeRef.current = fineMode }, [fineMode])
-  useEffect(function() { autoAdvanceRef.current = autoAdvance }, [autoAdvance])
+  useEffect(function() {
+    autoAdvanceRef.current = autoAdvance
+    if (!autoAdvance) {
+      setWrongWarn(null)
+      setDismissedWrong(false)
+      heardStringCandidateRef.current = { index: -1, since: null }
+    }
+  }, [autoAdvance])
   useEffect(function() {
     const bowed = usesBowedTunerStabilization(instrument)
     bowedStabilizationRef.current = bowed
@@ -257,6 +267,7 @@ export default function TunerComponent(props) {
     noteStripRef.current.reset()
     inTuneSinceRef.current = null
     autoAdvancedForRef.current = -1
+    clearHeardStringCandidate()
     if (clearHistory) {
       setPitchHistory([])
       setDisplayCents(null)
@@ -402,6 +413,38 @@ export default function TunerComponent(props) {
     checkInTuneActions(cents, held)
   }
 
+  function clearHeardStringCandidate() {
+    heardStringCandidateRef.current = { index: -1, since: null }
+  }
+
+  /** When Auto next is off, switch the active open-string target to the clearly heard note. */
+  function maybeSelectHeardString(detectedStringIndex) {
+    if (detectedStringIndex < 0 || detectedStringIndex === activeStringRef.current) {
+      clearHeardStringCandidate()
+      return false
+    }
+    const now = Date.now()
+    const cand = heardStringCandidateRef.current
+    if (cand.index !== detectedStringIndex) {
+      heardStringCandidateRef.current = { index: detectedStringIndex, since: now }
+      return false
+    }
+    if (cand.since == null || now - cand.since < HEARD_STRING_SWITCH_HOLD_MS) return false
+
+    clearHeardStringCandidate()
+    if (appRef.current) appRef.current.stopReference()
+    setReferencePlaying(false)
+    activeStringRef.current = detectedStringIndex
+    stringSelectedAtRef.current = now
+    inTuneSinceRef.current = null
+    autoAdvancedForRef.current = -1
+    setActiveStringIndex(detectedStringIndex)
+    setIntonationStep('open')
+    setDismissedWrong(false)
+    setWrongWarn(null)
+    return true
+  }
+
   const onPitchSample = useCallback(function(note) {
     const rawFreq = note.frequency
     const sampleLevel = note.inputLevel != null && Number.isFinite(note.inputLevel)
@@ -418,6 +461,28 @@ export default function TunerComponent(props) {
 
     if (!stab.freq) return
 
+    const stringMode = !isChromaticInstrument(instrumentRef.current) && modeRef.current === 'tune'
+    if (stringMode) {
+      const p = presetRef.current
+      if (p) {
+        const warn = wrongStringWarning(activeStringRef.current, stab.freq, p, a4Ref.current)
+        if (!autoAdvanceRef.current) {
+          setWrongWarn(null)
+          if (warn && !stab.isHeld) {
+            maybeSelectHeardString(warn.detectedStringIndex)
+          } else {
+            clearHeardStringCandidate()
+          }
+        } else if (!dismissedWrongRef.current) {
+          clearHeardStringCandidate()
+          setWrongWarn(warn)
+        }
+      }
+    } else {
+      clearHeardStringCandidate()
+      setWrongWarn(null)
+    }
+
     const label = formatDetectedFrequencyLabel(stab.freq, a4Ref.current)
     const frameCents = computeCentsForFreq(stab.freq)
     stabilizerRef.current.pushCents(frameCents)
@@ -425,16 +490,6 @@ export default function TunerComponent(props) {
     const cents = displayCentsValue != null ? displayCentsValue : frameCents
     applyReading(stab.freq, cents, label, stab.isHeld, !stab.isHeld)
     updateNoteStrip(stab.freq, stab.isHeld)
-
-    if (!isChromaticInstrument(instrumentRef.current) && modeRef.current === 'tune' && !dismissedWrongRef.current) {
-      const p = presetRef.current
-      if (p) {
-        const warn = wrongStringWarning(activeStringRef.current, stab.freq, p, a4Ref.current)
-        setWrongWarn(warn)
-      }
-    } else if (modeRef.current !== 'tune') {
-      setWrongWarn(null)
-    }
   }, [])
 
   const onNoteDetected = useCallback(function() {
@@ -649,6 +704,7 @@ export default function TunerComponent(props) {
     stopReferenceTone()
     setDismissedWrong(false)
     setWrongWarn(null)
+    clearHeardStringCandidate()
     if (!fromAutoAdvance) {
       autoAdvancedForRef.current = -1
     }
@@ -780,7 +836,7 @@ export default function TunerComponent(props) {
                     label="Auto next"
                     checked={autoAdvance}
                     onChange={function(e) { setAutoAdvance(e.target.checked) }}
-                    title="Advance to next string after a stable in-tune reading (about 1.4s on fiddle/violin)"
+                    title="On: advance to next string after a stable in-tune reading. Off: select the string that matches the pitch you are playing."
                   />
 
                   <Form.Check
@@ -887,7 +943,7 @@ export default function TunerComponent(props) {
         </Alert>
       )}
 
-      {wrongWarn && !dismissedWrong && !isChromatic && mode === 'tune' && (
+      {wrongWarn && !dismissedWrong && autoAdvance && !isChromatic && mode === 'tune' && (
         <Alert variant="warning" dismissible onClose={function() { setDismissedWrong(true) }}>
           {wrongWarn.message}
         </Alert>
@@ -925,6 +981,7 @@ export default function TunerComponent(props) {
                 onClick={function() {
                   if (i !== activeStringIndex) stopReferenceTone()
                   autoAdvancedForRef.current = -1
+                  clearHeardStringCandidate()
                   setActiveStringIndex(i)
                   setIntonationStep('open')
                   setDismissedWrong(false)

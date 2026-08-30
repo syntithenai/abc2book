@@ -54,6 +54,19 @@ class LooksWeakAbcTests(unittest.TestCase):
         abc = "X:1\nT:Contradanze Maltessi with castanets\nM:2/4\nL:1/4\nK:C\nz |]"
         self.assertTrue(looks_weak_abc(abc))
 
+    def test_rest_heavy_body(self):
+        abc = (
+            "X:54\nT:Monoorne labajalg\nM:4/4\nL:1/4\nK:Am\n"
+            "e c/2 A/2 c/2 A/2|e c/2 A/2 c/2 A/2|e/2 d/2 B B/2 c/2|B/2 A/2|\n"
+            "|z3|\n|z3|\n|z3|z3|z3|]\n"
+        )
+        self.assertTrue(looks_weak_abc(abc))
+        self.assertIn("weak_abc", abc_quality_warnings(abc))
+
+    def test_sparse_notes_for_many_barlines(self):
+        abc = "X:1\nT:x\nM:2/4\nL:1/4\nK:C\n" + "| z |" * 14 + "]"
+        self.assertTrue(looks_weak_abc(abc))
+
 
 class ChordOverlayTests(unittest.TestCase):
     def test_remap_staff_ordinals(self):

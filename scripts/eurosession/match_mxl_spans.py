@@ -204,14 +204,93 @@ def load_title_index(path: Path) -> list[dict]:
             "title": t["title"],
             "m0": int(t["m0"]),
             "m1": int(t["m1"]),
-            "norm": "",  # filled by best_index_match via normalize
+            "subtitle": t.get("subtitle"),
+            "composer": t.get("composer"),
+            "mxlKey": t.get("mxlKey"),
+            "mxlMeter": t.get("mxlMeter"),
+            "norm": "",
         }
         for t in titles
         if t.get("title") and t.get("m0") is not None
     ]
 
 
-def load_query_tunes(work: Path, import_json: Path | None, *, all_import: bool = False) -> list[dict]:
+def rank_contour_hits(
+    contour: dict,
+    *,
+    midi_by_m: dict[int, list[int]],
+    root: ET.Element,
+    index: list[dict],
+    title: str = "",
+    top: int = 5,
+    min_score: float = 35.0,
+    index_pad: int = 4,
+    min_name_score: float = 0.72,
+) -> list[dict]:
+    """Rank MXL spans by contour similarity; include title-gated and global hits."""
+    from extract_mscz_title_index import best_index_match, index_entry_for_span  # noqa: WPS433
+
+    name_hit = best_index_match(title, index, min_score=0.55) if index and title else None
+    if name_hit and name_hit["match_score"] >= min_name_score:
+        pad = max(0, int(index_pad))
+        lo = max(1, int(name_hit["m0"]) - pad)
+        hi = int(name_hit["m1"]) + pad
+        windows = build_windows(midi_by_m, range_m0=lo, range_m1=hi, step=2, min_bars=6)
+        prefer_span = (int(name_hit["m0"]), int(name_hit["m1"]))
+    else:
+        windows = build_windows(midi_by_m)
+        prefer_span = None
+
+    scored: list[tuple[float, int, int, str]] = []
+    for m0, m1, cont in windows:
+        score = contour_similarity(contour, cont)
+        if score >= min_score:
+            scored.append((score, m0, m1, "contour"))
+    if prefer_span is not None and name_hit:
+        pm0, pm1 = prefer_span
+        cont = window_contour(midi_by_m, pm0, pm1)
+        cscore = contour_similarity(contour, cont) if len(cont["pitches"]) >= 8 else 0.0
+        scored.append((cscore, pm0, pm1, "title-guess"))
+
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    kept: list[tuple[float, int, int, str]] = []
+    for score, m0, m1, src in scored:
+        if any(abs(m0 - k[1]) < 8 and abs(m1 - k[2]) < 8 for k in kept):
+            continue
+        kept.append((score, m0, m1, src))
+        if len(kept) >= top:
+            break
+
+    out: list[dict] = []
+    for score, m0, m1, src in kept:
+        entry = index_entry_for_span(index, m0, m1) if index else None
+        key, meter = mxl_key_meter_at(root, m0)
+        out.append(
+            {
+                "m0": m0,
+                "m1": m1,
+                "contour_score": round(float(score), 1),
+                "gate": src,
+                "mscz_title": (entry or {}).get("title") or (name_hit or {}).get("mscz_title") or "",
+                "mscz_subtitle": (entry or {}).get("subtitle") or (name_hit or {}).get("mscz_subtitle"),
+                "mscz_composer": (entry or {}).get("composer") or (name_hit or {}).get("mscz_composer"),
+                "name_score": (name_hit or {}).get("match_score"),
+                "key": key,
+                "meter": meter,
+            }
+        )
+    return out
+
+
+def load_query_tunes(
+    work: Path,
+    import_json: Path | None,
+    *,
+    all_import: bool = False,
+    unmatched_only: bool = False,
+    join_json: Path | None = None,
+    min_join_score: float = 0.72,
+) -> list[dict]:
     manifest = json.loads((work / "manifest.json").read_text(encoding="utf-8"))
     want: set[str] | None = None
     if import_json and import_json.is_file():
@@ -224,6 +303,17 @@ def load_query_tunes(work: Path, import_json: Path | None, *, all_import: bool =
                 for t in (data.get("tunes") or [])
                 if not t.get("complete")
             }
+    matched_titles: set[str] = set()
+    if unmatched_only and join_json and join_json.is_file():
+        for row in json.loads(join_json.read_text(encoding="utf-8")):
+            m = row.get("match") or {}
+            if (m.get("match_score") or 0) >= min_join_score:
+                matched_titles.add(str(row.get("import_title") or ""))
+        if want is None and import_json and import_json.is_file():
+            data = json.loads(import_json.read_text(encoding="utf-8"))
+            want = {str(t.get("title") or "") for t in (data.get("tunes") or [])}
+        if want is not None:
+            want = {t for t in want if t and t not in matched_titles}
     out = []
     for entry in manifest.get("tunes") or []:
         title = str(entry.get("title") or "")
@@ -262,6 +352,16 @@ def main() -> int:
     parser.add_argument("--top", type=int, default=3)
     parser.add_argument("--min-score", type=float, default=68.0)
     parser.add_argument("--all-import", action="store_true", help="Query all import titles, not only incomplete")
+    parser.add_argument(
+        "--unmatched-only",
+        action="store_true",
+        help="Only titles absent from join JSON at --min-name-score (for manual span expansion)",
+    )
+    parser.add_argument(
+        "--join-json",
+        default="/home/stever/Downloads/eurosession-work/mxl_title_join.json",
+        help="Title join file for --unmatched-only",
+    )
     parser.add_argument("--json-out", default="", help="Optional path to write ranked hits JSON")
     args = parser.parse_args()
 
@@ -277,7 +377,14 @@ def main() -> int:
     global_windows = build_windows(midi_by_m)
     print(f"global contour windows: {len(global_windows)}", flush=True)
 
-    queries = load_query_tunes(Path(args.work), Path(args.import_json), all_import=args.all_import)
+    queries = load_query_tunes(
+        Path(args.work),
+        Path(args.import_json),
+        all_import=args.all_import or args.unmatched_only,
+        unmatched_only=args.unmatched_only,
+        join_json=Path(args.join_json) if args.unmatched_only else None,
+        min_join_score=float(args.min_name_score),
+    )
     print(f"query tunes: {len(queries)}", flush=True)
 
     all_hits: list[dict] = []

@@ -2,11 +2,13 @@ import {
   allAlbums,
   allArtists,
   allTitles,
+  forceSplitSlashTitle,
   mergeBibliographicList,
   normalizeBibliographicFields,
   primaryArtist,
   renderBibliographicComposerLines,
   renderBibliographicTitleLines,
+  splitSlashJoinedTitle,
   tuneMatchesAlbumFilter,
   tuneMatchesArtistFilter,
 } from './tuneBibliographicUtils'
@@ -74,5 +76,50 @@ describe('tuneBibliographicUtils', function() {
     expect(tuneMatchesAlbumFilter(tune, [])).toBe(true)
     expect(tuneMatchesAlbumFilter(tune, ['let it be'])).toBe(true)
     expect(tuneMatchesAlbumFilter(tune, ['Rubber Soul'])).toBe(false)
+  })
+
+  test('splitSlashJoinedTitle accepts common AKA patterns', function() {
+    expect(splitSlashJoinedTitle('Ross Creek/Falls Of Richmond')).toEqual({
+      name: 'Ross Creek',
+      aliases: ['Falls Of Richmond'],
+      split: true,
+    })
+    expect(splitSlashJoinedTitle('Ookpik Waltz / Oot Pik Waltz / Utpick Waltz / Eskimo Waltz')).toEqual({
+      name: 'Ookpik Waltz',
+      aliases: ['Oot Pik Waltz', 'Utpick Waltz', 'Eskimo Waltz'],
+      split: true,
+    })
+    expect(splitSlashJoinedTitle('Baym Rebin In Palestina/At the Rabbi In Palestine').name).toBe(
+      'Baym Rebin In Palestina'
+    )
+  })
+
+  test('splitSlashJoinedTitle refuses corrupted or short unspaced titles', function() {
+    expect(splitSlashJoinedTitle('You/Special')).toBeNull()
+    expect(splitSlashJoinedTitle('DÃ©jÃ /Vu')).toBeNull()
+    expect(splitSlashJoinedTitle('A/B')).toBeNull()
+    expect(splitSlashJoinedTitle('one/two/three/four/five/six')).toBeNull()
+    expect(splitSlashJoinedTitle('foo and/or bar')).toBeNull()
+  })
+
+  test('force split accepts borderline short unspaced titles', function() {
+    expect(splitSlashJoinedTitle('You/Special', { force: true })).toEqual({
+      name: 'You',
+      aliases: ['Special'],
+      split: true,
+    })
+    const tune = forceSplitSlashTitle({ name: 'You/Special', aliases: [] })
+    expect(tune.name).toBe('You')
+    expect(tune.aliases).toEqual(['Special'])
+  })
+
+  test('normalizeBibliographicFields splits slash titles when safe', function() {
+    const tune = normalizeBibliographicFields({
+      name: 'Still House/Cider Mill',
+      aliases: [],
+      artists: [],
+    })
+    expect(tune.name).toBe('Still House')
+    expect(tune.aliases).toEqual(['Cider Mill'])
   })
 })

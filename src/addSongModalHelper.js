@@ -12,6 +12,8 @@ export { canApplyImportInline };
  * When maxCandidates === 1 and N > 1 (editor), redirects to import review with toast.
  * Multi-tune (N > 1) and rich single-tune formats always open Import Review — never
  * stay inline on the slim Add form (only abc / chordsheet / bulk-text can inline).
+ * Existing-library merges (mergeTargetId / exactId) never inline onto Add — they
+ * go to Import Review so the user can choose merge targets / confirm.
  */
 export function processReviewResult(result, importContext, applyImportedTune, startImportReview, toastLib) {
   if (!result || result.action !== 'review') {
@@ -37,9 +39,18 @@ export function processReviewResult(result, importContext, applyImportedTune, st
       };
     }
 
-    if (importContext && importContext.stayOnForm && candidates.length === 1
-      && canApplyImportInline(candidates[0].sourceKind)) {
-      const c = candidates[0];
+    const sole = candidates.length === 1 ? candidates[0] : null;
+    const isExistingLibraryMerge = !!(sole && (
+      sole.mergeTargetId
+      || sole.mergeStatus === 'exactId'
+      || sole.mergeStatus === 'exactHash'
+      || sole.mergeStatus === 'titleMatch'
+    ));
+
+    if (importContext && importContext.stayOnForm && sole
+      && canApplyImportInline(sole.sourceKind)
+      && !isExistingLibraryMerge) {
+      const c = sole;
       if (c && c.tune) {
         const applied = applyImportedTune(c.tune, c);
         if (!applied) {
@@ -67,10 +78,18 @@ export function processReviewResult(result, importContext, applyImportedTune, st
   }
   const classified = classifyImportOutcome(result.candidates || [], importContext || {});
   startImportReview(classified.candidates);
-  // Rich single-tune formats leave the slim Add form for full Import Review chrome.
+  const sole = classified.candidates.length === 1 ? classified.candidates[0] : null;
+  const isExistingLibraryMerge = !!(sole && (
+    sole.mergeTargetId
+    || sole.mergeStatus === 'exactId'
+    || sole.mergeStatus === 'exactHash'
+    || sole.mergeStatus === 'titleMatch'
+  ));
+  // Rich single-tune formats and library merges leave the slim Add form.
   const closeModal = !(importContext && importContext.stayOnForm
     && classified.candidates.length === 1
-    && canApplyImportInline(classified.candidates[0] && classified.candidates[0].sourceKind));
+    && canApplyImportInline(sole && sole.sourceKind)
+    && !isExistingLibraryMerge);
   return {
     handled: true,
     closeModal: closeModal,

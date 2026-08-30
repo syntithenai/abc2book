@@ -22,6 +22,8 @@ from chord_sheet_utils import (
     reconstruct_chord_sheet_details,
 )
 from sheet_image_enhanced_omr import extract_enhanced_melody
+from sheet_image_abc_repair import polish_omr_abc
+from sheet_image_chord_ocr import try_chord_ocr_overlay
 from sheet_image_format import (
     build_lyrics_only_payload,
     build_unified_sheet_meta,
@@ -235,6 +237,10 @@ def _extract_melody(
             staff_crop_used = True
     musicxml = transcribe_image_to_musicxml(omr_path)
     melody = extract_main_melody_from_musicxml(musicxml)
+    abc, warnings = polish_omr_abc(str(melody.get("abc") or ""), title=title or "")
+    melody["abc"] = abc
+    if warnings:
+        melody["warnings"] = list(dict.fromkeys(list(melody.get("warnings") or []) + warnings))
     melody["source"] = "homr"
     melody["staffCropUsed"] = staff_crop_used
     melody["enhancedOmr"] = {
@@ -488,6 +494,26 @@ async def _transcribe_single_image(
     title = meta.get("title") or title
     artist = meta.get("artist") or artist or meta.get("composer") or ""
 
+    chord_ocr = None
+    if melody and str((melody or {}).get("abc") or "").strip():
+        try:
+            chorded_abc, chord_status = try_chord_ocr_overlay(
+                image_path,
+                str(melody.get("abc") or ""),
+                staff_info=staff_info,
+                ocr_boxes=boxes,
+                enhanced_omr=(melody or {}).get("enhancedOmr"),
+            )
+            if chorded_abc:
+                chord_ocr = {
+                    "abc": chorded_abc,
+                    "source": "omr-chords",
+                    "status": chord_status,
+                }
+        except Exception as exc:
+            warnings.append("chord_ocr_failed")
+            warnings.append(str(exc)[:120])
+
     return {
         "title": title,
         "artist": artist,
@@ -507,6 +533,7 @@ async def _transcribe_single_image(
             "stanzas": chord_sheet.get("stanzas"),
         },
         "melody": melody,
+        "chordOcr": chord_ocr,
         "staffDetection": staff_info,
         "warnings": warnings,
         "_omrSkipped": omr_skipped,

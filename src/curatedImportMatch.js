@@ -21,11 +21,19 @@ export function buildCuratedImportPath(bookMeta) {
  * Many curated entries share a scrape file; prefer book/tag matches.
  */
 export function findCuratedImportTitle(curatedTuneBooks, link, bookName, tagName) {
+  const meta = findCuratedImportMeta(curatedTuneBooks, link, bookName, tagName)
+  return meta ? meta.title : null
+}
+
+/**
+ * Resolve curated meta (+ title key) for an import-link route.
+ */
+export function findCuratedImportMeta(curatedTuneBooks, link, bookName, tagName) {
   const books = curatedTuneBooks || {}
   const source = curatedScrapeUrl(link)
   if (!source) return null
 
-  let bestTitle = null
+  let best = null
   let bestScore = -1
   Object.keys(books).forEach(function(title) {
     const meta = books[title]
@@ -43,8 +51,8 @@ export function findCuratedImportTitle(curatedTuneBooks, link, bookName, tagName
     }
     if (score > bestScore) {
       bestScore = score
-      bestTitle = title
+      best = Object.assign({ title: title }, meta)
     }
   })
-  return bestTitle
+  return best
 }

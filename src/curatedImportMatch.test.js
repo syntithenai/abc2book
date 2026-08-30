@@ -1,4 +1,4 @@
-import { buildCuratedImportPath, findCuratedImportTitle } from './curatedImportMatch'
+import { buildCuratedImportPath, findCuratedImportMeta, findCuratedImportTitle } from './curatedImportMatch'
 
 describe('findCuratedImportTitle', function() {
   const curated = {
@@ -9,6 +9,11 @@ describe('findCuratedImportTitle', function() {
       tag: 'begged borrowed and stolen',
     },
     'kids songs': { link: 'kids songs.abc', book: 'kids songs' },
+    'old time': {
+      link: 'oldtimefiddletunes.abc',
+      book: 'old time',
+      allowDuplicateTitles: true,
+    },
   }
 
   test('matches a unique scrape file', function() {
@@ -47,5 +52,42 @@ describe('findCuratedImportTitle', function() {
     })).toBe('/importlink/%2Fscrape%2Fkids%20songs.abc/book/kids%20songs')
 
     expect(buildCuratedImportPath({})).toBe(null)
+  })
+
+  test('buildCuratedImportPath for australian bush traditions', function() {
+    expect(buildCuratedImportPath({
+      link: 'australiabushtraditions.abc',
+      book: 'australian bush traditions',
+    })).toBe(
+      '/importlink/%2Fscrape%2Faustraliabushtraditions.abc/book/australian%20bush%20traditions'
+    )
+  })
+
+  test('findCuratedImportTitle resolves australian bush traditions uniquely', function() {
+    const withAbt = Object.assign({}, curated, {
+      'australian bush traditions': {
+        link: 'australiabushtraditions.abc',
+        book: 'australian bush traditions',
+      },
+    })
+    expect(findCuratedImportTitle(
+      withAbt,
+      'australiabushtraditions.abc',
+      'australian bush traditions',
+      null
+    )).toBe('australian bush traditions')
+    expect(findCuratedImportTitle(
+      withAbt,
+      'australiabushtraditions.abc',
+      null,
+      null
+    )).toBe(null)
+  })
+
+  test('findCuratedImportMeta exposes allowDuplicateTitles for old time', function() {
+    const meta = findCuratedImportMeta(curated, 'oldtimefiddletunes.abc', 'old time', null)
+    expect(meta).toBeTruthy()
+    expect(meta.title).toBe('old time')
+    expect(meta.allowDuplicateTitles).toBe(true)
   })
 })

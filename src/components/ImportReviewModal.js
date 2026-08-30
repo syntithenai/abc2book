@@ -375,7 +375,7 @@ export default function ImportReviewModal(props) {
   const audioUtils = useAudioUtils();
   const abcjsParser = useAbcjsParser();
   const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
-  const { checked: resolverChecked } = useMediaResolverHealth();
+  const { checked: resolverChecked, status: resolverStatus } = useMediaResolverHealth();
   const recordingStartedAtRef = useRef(0);
   const recordingIntervalRef = useRef(null);
   const suppressFormInitRef = useRef(false);
@@ -1086,6 +1086,7 @@ export default function ImportReviewModal(props) {
       tunebook={props.tunebook}
       tunes={tunes}
       token={props.token}
+      user={props.user}
       login={props.login}
       logout={props.logout}
       requestGoogleScopes={props.requestGoogleScopes}
@@ -1106,6 +1107,7 @@ export default function ImportReviewModal(props) {
       onCloseBulk={function() { setAddPanelMode('form'); }}
       resolverAvailable={resolverAvailable}
       resolverChecked={resolverChecked}
+      resolverStatus={resolverStatus}
       audioUtils={audioUtils}
       recordingDuration={recordingDuration}
       onStartRecording={startReviewRecording}

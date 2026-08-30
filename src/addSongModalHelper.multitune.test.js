@@ -39,4 +39,29 @@ describe('processReviewResult multi-tune redirect', function() {
     expect(apply).toHaveBeenCalled();
     expect(startImportReview).not.toHaveBeenCalled();
   });
+
+  test('does not inline when single candidate merges an existing library tune', function() {
+    const apply = jest.fn();
+    const startImportReview = jest.fn();
+    const result = processReviewResult(
+      {
+        action: 'review',
+        candidates: [{
+          tune: { name: 'Chuperlika', id: 't1' },
+          sourceKind: 'abc',
+          mergeTargetId: 't1',
+          mergeStatus: 'exactId',
+          mergeMode: 'direct',
+        }],
+      },
+      { stayOnForm: true, entryPoint: 'add' },
+      apply,
+      startImportReview,
+      { success: jest.fn() }
+    );
+    expect(result.inline).toBe(false);
+    expect(result.closeModal).toBe(true);
+    expect(apply).not.toHaveBeenCalled();
+    expect(startImportReview).toHaveBeenCalled();
+  });
 });

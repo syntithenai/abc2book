@@ -1,3 +1,10 @@
+import {
+  parseVoltaPasses,
+  buildSoundingWrittenMap,
+  soundingSegmentsToBeats,
+} from './voltaRepeatExpand'
+import abcjs from 'abcjs'
+
 function isRightRepeat(token) {
   return token === ':|' || token === ':|:'
 }
@@ -9,6 +16,14 @@ function isLeftRepeat(token) {
 function repeatTimesFromBar(ev) {
   const n = parseInt(ev && ev.repeatTimes, 10)
   return Number.isFinite(n) && n > 1 ? n : 2
+}
+
+function voltaPassesFromEvent(ev) {
+  if (!ev) return null
+  if (Array.isArray(ev.voltaPasses) && ev.voltaPasses.length) return ev.voltaPasses
+  if (ev.volta == null) return null
+  const parsed = parseVoltaPasses(ev.volta)
+  return parsed.length ? parsed : null
 }
 
 /**
@@ -51,8 +66,8 @@ export function playalongMeasuresFromEvents(events) {
     closeMeasure(beat, isRightRepeat(token), repeatTimesFromBar(ev))
     pendingLeftRepeat = isLeftRepeat(token)
     if (ev.volta != null) {
-      const volta = parseInt(ev.volta, 10)
-      pendingVolta = Number.isFinite(volta) && volta > 0 ? volta : pendingVolta
+      const passes = voltaPassesFromEvent(ev)
+      pendingVolta = passes && passes.length ? passes : pendingVolta
     } else if (ev.endEnding || token === '||' || token === '|]') {
       pendingVolta = null
     }
@@ -77,12 +92,45 @@ function playMeasure(out, measure, passIndex, soundingBeat) {
 
 function shouldPlayMeasure(measure, passIndex) {
   if (measure.volta == null) return true
+  if (Array.isArray(measure.volta)) {
+    return measure.volta.indexOf(passIndex) >= 0
+  }
   return measure.volta === passIndex
+}
+
+function maxVoltaPassInMeasures(measures, from, to) {
+  let max = 0
+  for (let i = from; i <= to; i += 1) {
+    const volta = measures[i] && measures[i].volta
+    if (Array.isArray(volta)) {
+      volta.forEach(function(p) { if (p > max) max = p })
+    } else if (typeof volta === 'number' && volta > max) {
+      max = volta
+    }
+  }
+  return max
+}
+
+/**
+ * Beat-unit sounding segments from the shared volta expander (same pickup /
+ * |1,3|/|2,4| rules as MIDI and fill).
+ */
+export function expandPlayalongSoundingSegmentsFromVisualObj(visualObj) {
+  if (!visualObj) return []
+  const map = buildSoundingWrittenMap(visualObj)
+  if (!map.segments || !map.segments.length) return []
+  const beatLen = typeof visualObj.getBeatLength === 'function' && visualObj.getBeatLength() > 0
+    ? visualObj.getBeatLength()
+    : 0.25
+  return soundingSegmentsToBeats(map.segments, beatLen)
 }
 
 /**
  * Expand written measures into sounding-time segments, including :| repeats
- * and 1st/2nd endings. passIndex is 1-based.
+ * and 1st/2nd endings (incl. multi-number |1,3 / |2,4). passIndex is 1-based.
+ *
+ * Prefer expandPlayalongSoundingSegmentsFromVisualObj when a visualObj is
+ * available so playalong matches MIDI pickup-once / volta passes.
  */
 export function expandPlayalongSoundingSegments(events) {
   const measures = playalongMeasuresFromEvents(events)
@@ -114,7 +162,16 @@ export function expandPlayalongSoundingSegments(events) {
     for (let j = i; j < start; j += 1) {
       soundingBeat = playMeasure(out, measures[j], 1, soundingBeat)
     }
-    const times = measures[right].repeatTimes || 2
+    let voltaEnd = right
+    for (let j = right + 1; j < measures.length; j += 1) {
+      if (measures[j].volta == null) break
+      voltaEnd = j
+    }
+    const times = Math.max(
+      measures[right].repeatTimes || 2,
+      maxVoltaPassInMeasures(measures, start, voltaEnd),
+      2
+    )
     for (let pass = 1; pass <= times; pass += 1) {
       for (let j = start; j <= right; j += 1) {
         if (!shouldPlayMeasure(measures[j], pass)) continue
@@ -149,6 +206,49 @@ export function mapSoundingBeatToWritten(segments, soundingBeat) {
       writtenBeat: seg.writtenStart + frac * (seg.writtenEnd - seg.writtenStart),
       passIndex: seg.passIndex || 1,
     }
+  }
+  return null
+}
+
+/**
+ * Minimal ABC for rendering a playalong tune into a visualObj so the shared
+ * volta expander can build sounding segments.
+ */
+export function abcTextFromPlayalongTune(tune) {
+  if (!tune) return ''
+  const meter = (tune && tune.meter) || '4/4'
+  const noteLength = (tune && tune.noteLength) || ''
+  const key = (tune && tune.key) || 'C'
+  let body = ''
+  if (tune.voices) {
+    const keys = Object.keys(tune.voices)
+    const voice = tune.voices[keys[0]]
+    if (voice) {
+      body = Array.isArray(voice.notes) ? voice.notes.join('\n') : String(voice.notes || '')
+    }
+  }
+  if (!String(body).trim()) return ''
+  const lines = ['X:1', 'M:' + meter]
+  if (noteLength) lines.push('L:' + noteLength)
+  lines.push('K:' + key)
+  lines.push(body)
+  return lines.join('\n')
+}
+
+/**
+ * Preferred playalong map: render tune → shared sounding→written map → beats.
+ */
+export function expandPlayalongSoundingSegmentsFromTune(tune) {
+  const abc = abcTextFromPlayalongTune(tune)
+  if (!abc.trim()) return []
+  try {
+    const visualObj = abcjs.renderAbc('*', abc)[0]
+    if (visualObj) {
+      const segs = expandPlayalongSoundingSegmentsFromVisualObj(visualObj)
+      if (segs.length) return segs
+    }
+  } catch (err) {
+    // fall through to event-based expander
   }
   return null
 }

@@ -27,7 +27,7 @@ export const DEFAULT_XML2ABC_OPTIONS = {
 /** xml2abc defaults tuned for MIDI → MusicXML imports. */
 export const MIDI_XML2ABC_OPTIONS = {
   u: 0,
-  b: 4,
+  b: 8,
   n: 0,
   c: 0,
   v: 0,

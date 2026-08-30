@@ -2,6 +2,19 @@
  * Shared ABC quantization helpers for MIDI cleanup/import previews.
  */
 
+/** Quarter-note length of one bar (MIDI tempo unit). 2/2→4, 6/8→3, 4/4→4. */
+export function quartersPerBarFromMeter(meter) {
+  const parts = String(meter || '4/4').split('/');
+  const numerator = parseInt(parts[0], 10) || 4;
+  const denominator = parseInt(parts[1], 10) || 4;
+  return numerator * (4 / Math.max(denominator, 1));
+}
+
+/** Integer quarter-pulses per bar for the note_events quantize grid. */
+export function gridBeatsPerBarFromMeter(meter) {
+  return Math.max(1, Math.round(quartersPerBarFromMeter(meter)));
+}
+
 function durationSuffix(slots, slotsPerBeat) {
   if (slots <= 0) return '';
   if (slots === 1) return '';
@@ -165,13 +178,19 @@ function formatWithinBar(barEvents, barStart, barSlots, slotsPerBeat) {
   return parts.join(' ').trim();
 }
 
-/** One measure per line — abcjs wrap/multi-voice parsing is more reliable this way. */
-export function joinAbcMeasures(measureParts) {
+/** Join measures; melody defaults to 8 bars/line, multi-voice should pass barsPerLine: 1. */
+export function joinAbcMeasures(measureParts, options) {
   if (!measureParts || !measureParts.length) return '';
-  return measureParts.map(function(part) {
+  const barsPerLine = Math.max(1, (options && options.barsPerLine) || 8);
+  const measures = measureParts.map(function(part) {
     const trimmed = String(part || '').trim();
     return trimmed ? trimmed + ' |' : '|';
-  }).join('\n');
+  });
+  const lines = [];
+  for (let i = 0; i < measures.length; i += barsPerLine) {
+    lines.push(measures.slice(i, i + barsPerLine).join(' '));
+  }
+  return lines.join('\n');
 }
 
 export function splitEventsAtBarBoundaries(events, barSlots, slotsPerBeat) {
@@ -200,6 +219,7 @@ export function formatNoteEventsToAbcBody(events, options) {
   const beatsPerBar = opts.beatsPerBar || 4;
   const slotsPerBeat = Math.max(1, opts.slotsPerBeat || 2);
   const barSlots = beatsPerBar * slotsPerBeat;
+  const barsPerLine = opts.barsPerLine != null ? Math.max(1, opts.barsPerLine) : 8;
   const prepared = prepareEventsForAbcBody(events, {
     slotsPerBeat: slotsPerBeat,
     allowChords: opts.allowChords,
@@ -207,7 +227,7 @@ export function formatNoteEventsToAbcBody(events, options) {
   if (!prepared.length) {
     if (opts.totalBars > 0) {
       const empty = Array(opts.totalBars).fill(restToken(barSlots, slotsPerBeat));
-      return joinAbcMeasures(empty);
+      return joinAbcMeasures(empty, { barsPerLine: barsPerLine });
     }
     return '';
   }
@@ -238,7 +258,7 @@ export function formatNoteEventsToAbcBody(events, options) {
     }
   }
 
-  return joinAbcMeasures(measureParts);
+  return joinAbcMeasures(measureParts, { barsPerLine: barsPerLine });
 }
 
 export function fillSlotGap(parts, cursor, targetSlot, barSlots, slotsPerBeat) {

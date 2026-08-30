@@ -8,9 +8,13 @@ import {
   finalizePlayNextQueue,
   startQueueItemIfPlaybackIdle,
 } from './tunePlaybackActions'
-import { createQueue } from './nowPlayingQueue'
+import { createQueue as createQueueBase, MIDI_PREFERENCE } from './nowPlayingQueue'
 import { setVoiceViewSettings } from './abcVoiceViewSettings'
 import { SAMPLE_TUNE_IDS } from './devSeed/sampleTunebookAbc'
+
+function createQueue(opts) {
+  return createQueueBase(Object.assign({ midiPreference: MIDI_PREFERENCE.ALLOW }, opts || {}))
+}
 
 function makeTune(id, overrides) {
   return Object.assign({
@@ -295,6 +299,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     return {
       items: [{ tuneId: currentTuneId }],
       currentIndex: 0,
+      midiPreference: MIDI_PREFERENCE.ALLOW,
     }
   }
 
@@ -360,6 +365,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
         { tuneId: viewed.id },
       ],
       currentIndex: 0,
+      midiPreference: MIDI_PREFERENCE.ALLOW,
     }
 
     startTunePlayback(mediaController, tunebook, jest.fn(), location, {
@@ -439,6 +445,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     const queue = {
       items: [{ tuneId: tune.id }],
       currentIndex: 0,
+      midiPreference: MIDI_PREFERENCE.ALLOW,
     }
 
     startTunePlayback(mediaController, tunebook, navigate, location, {
@@ -474,6 +481,7 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
         { tuneId: viewed.id },
       ],
       currentIndex: 0,
+      midiPreference: MIDI_PREFERENCE.ALLOW,
     }
 
     startTunePlayback(mediaController, tunebook, navigate, location, {

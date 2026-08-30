@@ -33,6 +33,7 @@ import {
   wizardSummary,
 } from '../midiImportWizardState';
 import { buildCleanupScorePreviewAbc } from '../midiCleanupNotationPreview';
+import { gridBeatsPerBarFromMeter } from '../midiAbcQuantize';
 import { buildLocalMidiImportResult } from '../midiImportPreview';
 import { resolveImportAbcFromResponse } from '../midiImportAbcResolve';
 import { finalizeMidiImportAbc } from '../midiImportFinalize';
@@ -78,10 +79,6 @@ function midiArrayBuffer(midiBytes) {
     );
   }
   return midiBytes;
-}
-
-function beatsPerBarFromMeter(meter) {
-  return parseInt(String(meter || '4/4').split('/')[0], 10) || 4;
 }
 
 function trackByIndex(profile, trackId) {
@@ -746,7 +743,7 @@ function CleanupStep(props) {
   const cleanup = draft.cleanupOptions || defaultCleanupOptions();
   const tempo = draft.tempoBpm || (draft.profile && draft.profile.tempo_bpm) || 120;
   const meter = draft.timeSignature || (draft.profile && draft.profile.time_signature) || '4/4';
-  const beatsPerBar = beatsPerBarFromMeter(meter);
+  const beatsPerBar = gridBeatsPerBarFromMeter(meter);
   const slotsPerBeat = draft.quantSlotsPerBeat || slotsPerBeatFromRhythmDetail(draft.rhythmDetail || 'standard');
   const noteLength = draft.noteLength || noteLengthFromRhythmDetail(draft.rhythmDetail || 'standard');
   const quantStrength = draft.quantStrength != null ? draft.quantStrength : 0.7;

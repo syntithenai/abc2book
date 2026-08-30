@@ -25,7 +25,10 @@ const FORM_SCALAR_FIELDS = [
   'repeats', 'composerId', 'abccomments',
 ];
 
-const FORM_LIST_FIELDS = ['bookList', 'tagList'];
+const FORM_LIST_FIELDS = [
+  'bookList', 'tagList',
+  'origin', 'area', 'source', 'sourceBooks', 'transcription', 'discography', 'infoNotes',
+];
 
 const FORM_JSON_FIELDS = [
   'playbackAudioFilters', 'soundFonts', 'timingScaffold', 'meta',
@@ -542,6 +545,13 @@ export function emptyFormValues() {
     noteLength: '',
     bookList: '',
     tagList: '',
+    origin: [],
+    area: [],
+    source: [],
+    sourceBooks: [],
+    transcription: [],
+    discography: [],
+    infoNotes: [],
     links: [],
     srcUrl: '',
     backgroundInfo: '',
@@ -586,6 +596,13 @@ export function tuneToFormValues(tune) {
   values.noteLength = source.noteLength || '';
   values.bookList = Array.isArray(source.books) ? source.books.join(', ') : '';
   values.tagList = Array.isArray(source.tags) ? source.tags.join(', ') : '';
+  values.origin = Array.isArray(source.origin) ? source.origin.slice() : [];
+  values.area = Array.isArray(source.area) ? source.area.slice() : [];
+  values.source = Array.isArray(source.source) ? source.source.slice() : [];
+  values.sourceBooks = Array.isArray(source.sourceBooks) ? source.sourceBooks.slice() : [];
+  values.transcription = Array.isArray(source.transcription) ? source.transcription.slice() : [];
+  values.discography = Array.isArray(source.discography) ? source.discography.slice() : [];
+  values.infoNotes = Array.isArray(source.infoNotes) ? source.infoNotes.slice() : [];
   values.links = Array.isArray(source.links) ? source.links.slice() : [];
   values.srcUrl = source.srcUrl || '';
   values.backgroundInfo = source.backgroundInfo || '';
@@ -637,6 +654,13 @@ export function formValuesToTune(formValues, baseTune) {
   next.key = String(values.keyName || '').trim();
   next.books = parseListField(values.bookList);
   next.tags = parseListField(values.tagList);
+  next.origin = Array.isArray(values.origin) ? values.origin.slice() : [];
+  next.area = Array.isArray(values.area) ? values.area.slice() : [];
+  next.source = Array.isArray(values.source) ? values.source.slice() : [];
+  next.sourceBooks = Array.isArray(values.sourceBooks) ? values.sourceBooks.slice() : [];
+  next.transcription = Array.isArray(values.transcription) ? values.transcription.slice() : [];
+  next.discography = Array.isArray(values.discography) ? values.discography.slice() : [];
+  next.infoNotes = Array.isArray(values.infoNotes) ? values.infoNotes.slice() : [];
   next.links = Array.isArray(values.links) ? values.links.slice() : [];
   next.srcUrl = String(values.srcUrl || '').trim();
   next.backgroundInfo = values.backgroundInfo || '';

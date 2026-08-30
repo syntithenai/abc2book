@@ -15,6 +15,7 @@ import {
   zeroDurationFields,
   isLayoutEventType,
 } from './inlineSignatureTokens';
+import { parseVoltaPasses } from '../voltaRepeatExpand';
 
 let nextEventSeq = 1;
 
@@ -241,8 +242,15 @@ function symbolToEvent(symbol, unitLengthDecimal, ctx) {
       chordSymbols: parseChordSymbols(symbol),
     };
     if (symbol.startEnding != null && String(symbol.startEnding) !== '') {
-      const volta = parseInt(symbol.startEnding, 10)
-      ev.volta = Number.isFinite(volta) && volta > 0 ? volta : symbol.startEnding
+      const raw = String(symbol.startEnding)
+      const passes = parseVoltaPasses(raw)
+      if (passes.length > 1) {
+        ev.volta = raw
+        ev.voltaPasses = passes
+      } else {
+        const volta = passes[0] || parseInt(raw, 10)
+        ev.volta = Number.isFinite(volta) && volta > 0 ? volta : symbol.startEnding
+      }
     }
     if (symbol.endEnding) ev.endEnding = true;
     ctx.advance(ev);

@@ -787,10 +787,14 @@ export function removeOrphanRepeatEndInTune(tune) {
   const noteLines = getNoteLines(tune);
   if (noteLines.length === 0) return null;
   const body = voiceBodyWithLineBreaks(noteLines);
+  // Do not strip when voltas are present — :|2 / |1 are not orphans.
+  if (/\|[0-9]|:\|[0-9]|\[[0-9]/.test(body)) return null;
   const idx = body.indexOf(':|');
   if (idx < 0) return null;
   const before = body.slice(0, idx);
   if (/\|:/.test(before)) return null;
+  // Music before :| is an implied open repeat — leave it alone.
+  if (/[A-Ga-gzZ]/.test(before)) return null;
 
   const nextBody = before.replace(/[ \t]+$/, '') + body.slice(idx + 2).replace(/^[ \t]+/, '');
   if (!nextBody.trim() || nextBody === body) return null;
@@ -1094,7 +1098,12 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
       || codes.indexOf('truncated_repeat') >= 0;
   }
   if (action === 'removeOrphanRepeatEnd') {
-    return codes.indexOf('unmatched_repeat_end') >= 0;
+    if (codes.indexOf('unmatched_repeat_end') < 0) return false;
+    const noteLines = getNoteLines(tune);
+    const flat = flattenMelodyText(noteLines);
+    // Volta short forms and section endings — do not strip "orphan" :|.
+    if (/\|[0-9]|:\|[0-9]|\[[0-9]/.test(flat)) return false;
+    return true;
   }
   if (action === 'fillSparseBars') {
     return codes.indexOf('sparse_melody') >= 0;

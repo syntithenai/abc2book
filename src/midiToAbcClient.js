@@ -95,7 +95,9 @@ export async function importMidiToAbc(midiBytes, fileName, accessToken, options)
     throw new Error(body.error);
   }
 
-  const abc = resolveImportAbcFromResponse(body, fileName, opts);
+  const abcFromResolve = resolveImportAbcFromResponse(body, fileName, opts);
+  // Prefer resolved ABC; if xml2abc/profile rewrite drops output, keep server ABC.
+  const abc = String(abcFromResolve || body.abc || '').trim();
   const mode = body.mode || 'melody';
 
   return {

@@ -118,6 +118,10 @@ lesson plans/wiki_index/wiki.db
 tunebook-android-debug.apk
 *.apk
 
+# Oldtime fiddle scrape working data (caches + enrich packages + media)
+scripts/oldtimefiddletunes/data/
+public/oldtimefiddletunes/
+
 # Theory example generator checkpoint (committed output is examples.js)
 src/feedContent/theory/examples.generated.json
 .cursor/debug-*.log

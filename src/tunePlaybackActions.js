@@ -9,7 +9,10 @@ import {
   appendTuneToQueue,
   createQueue,
   endStopAfterCurrent,
-  setPreferMidi,
+  setMidiPreference,
+  getMidiPreference,
+  isPreferMidi,
+  MIDI_PREFERENCE,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
@@ -211,7 +214,11 @@ function beginPlayback(mediaController, tunebook, navigate, location, tune, targ
 
 function requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item, options) {
     const opts = options || {}
-    const target = resolvePlaybackForItem(tune, item, tunebook, { preferMidi: !!opts.preferMidi })
+    const target = resolvePlaybackForItem(tune, item, tunebook, {
+      midiPreference: opts.midiPreference != null
+        ? opts.midiPreference
+        : (opts.preferMidi ? MIDI_PREFERENCE.PREFER : undefined),
+    })
     if (!target || target.type === 'external') return false
     const normalizedTarget = target.type === 'midi'
         ? { type: 'midi' }
@@ -280,12 +287,17 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
             tuneIds: [tuneId],
             followTune: false,
             repeatMode: 'off',
-            preferMidi: !!ctx.preferMidi,
+            midiPreference: ctx.midiPreference != null
+              ? ctx.midiPreference
+              : (ctx.preferMidi ? MIDI_PREFERENCE.PREFER : MIDI_PREFERENCE.ALLOW),
         })
     }
 
-    if (ctx.preferMidi && !queue.preferMidi) {
-        queue = setPreferMidi(queue, true)
+    const ctxMidiPreference = ctx.midiPreference != null
+      ? ctx.midiPreference
+      : (ctx.preferMidi ? MIDI_PREFERENCE.PREFER : null)
+    if (ctxMidiPreference && getMidiPreference(queue) !== ctxMidiPreference) {
+        queue = setMidiPreference(queue, ctxMidiPreference)
     }
 
     if (playOnceAndStop) {
@@ -307,25 +319,25 @@ export function enqueueTuneInQueueAndPlay(mediaController, tunebook, navigate, l
         mediaController.preparePlaybackFromUserGesture()
     }
 
-    const preferMidi = !!queue.preferMidi
+    const midiPreference = getMidiPreference(queue)
     if (isTuneListPath(pathname) && !queue.followTune) {
         playQueueItem(mediaController, tunebook, tune, item, {
           fromUserGesture: true,
-          preferMidi: preferMidi,
+          midiPreference: midiPreference,
           queue: queue,
         })
         return true
     }
 
     if (requestQueueItemPlayback(mediaController, tunebook, navigate, location, tune, item, {
-      preferMidi: preferMidi,
+      midiPreference: midiPreference,
     })) {
         return true
     }
 
     playQueueItem(mediaController, tunebook, tune, item, {
       fromUserGesture: true,
-      preferMidi: preferMidi,
+      midiPreference: midiPreference,
       queue: queue,
     })
     return true
@@ -461,15 +473,15 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
     }
 
     function tryResumeCurrent() {
-        const navOptsForPrefer = { queue: queue, preferMidi: !!queue.preferMidi }
+        const navOptsForPrefer = { queue: queue, midiPreference: getMidiPreference(queue) }
         if (tuneId && navigate && shouldNavigateWithQueue(queue, navOpts)) {
             navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, null, navOptsForPrefer)
         }
-        const preferMidi = !!queue.preferMidi
+        const preferMidi = isPreferMidi(queue)
         const onMidi = mediaController
           && mediaController.isMidiPlaybackRoute
           && mediaController.isMidiPlaybackRoute()
-        // When MIDI preference is on, start MIDI instead of resuming a media route.
+        // When MIDI preference is Prefer, start MIDI instead of resuming a media route.
         if (preferMidi && !onMidi) {
             return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
         }
@@ -503,7 +515,10 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
         }
         const nextItem = result.item
         const nextTune = result.tune
-        const preferOpts = { queue: result.queue, preferMidi: !!(result.queue && result.queue.preferMidi) }
+        const preferOpts = {
+          queue: result.queue,
+          midiPreference: getMidiPreference(result.queue),
+        }
         if (navigate && shouldNavigateWithQueue(result.queue, navOpts)) {
             navigateToQueueTune(navigate, nextItem.tuneId, nextItem, tunebook, tunes, result.playbackTarget, preferOpts)
         }

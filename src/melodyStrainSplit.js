@@ -52,7 +52,8 @@ export function strainJoinSeparator(prevStrain, nextStrain) {
 export function splitMelodyStrainsWithBarlines(noteLines) {
   const flat = flattenMelodyText(noteLinesForMerge(noteLines));
   if (!flat) return [];
-  const re = /(\|\||::|\|:|:\|)/g;
+  // :|: before :| / |: so combined mid-repeat matches like ::.
+  const re = /(\|\||::|:\|:|\|:|:\|)/g;
   const parts = [];
   let lastIndex = 0;
   let match;
@@ -133,7 +134,7 @@ export function splitMelodyNoteLinesByStrain(noteLines) {
     current.push(text);
     const closesSectionRepeat = /:\|\s*$/.test(text.trim())
       && !isVoltaContinuationAfterRepeatEnd(nextText);
-    if (/\|\||::|\|:/.test(text) || closesSectionRepeat) {
+    if (/\|\||::|:\|:|\|:/.test(text) || closesSectionRepeat) {
       strains.push(current);
       current = [];
     }

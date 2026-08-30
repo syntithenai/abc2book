@@ -314,7 +314,26 @@ class EnhancedOmrHelperTests(unittest.TestCase):
         self.assertEqual(_choose_key(["G", "Am", "Am", "Am", "G", "Am"], 6), "Am")
         self.assertEqual(_choose_key(["G", "G", "G"], 3), "G")
         self.assertEqual(_choose_key(["A minor", "G", "Am", "Am"], 4), "Am")
+        # 2-system bourrée: relative major + minor → prefer minor
+        self.assertEqual(_choose_key(["Bb", "Gm"], 2), "Gm")
 
+    def test_choose_meter_prefers_compound_on_two_systems(self):
+        self.assertEqual(_choose_meter(["4/4", "3/8"], 2), "3/8")
+        self.assertEqual(_choose_meter(["2/4", "6/8"], 2), "6/8")
+
+    def test_per_staff_sparse_two_band_page(self):
+        from sheet_image_enhanced_omr import _per_staff_sparse
+
+        self.assertTrue(_per_staff_sparse(2, 1))
+        self.assertFalse(_per_staff_sparse(2, 2))
+
+    def test_ordered_pad_attempts_prefers_large_for_short_bands(self):
+        from sheet_image_enhanced_omr import _ordered_pad_attempts
+
+        short = _ordered_pad_attempts({"top": 100, "bottom": 145})
+        tall = _ordered_pad_attempts({"top": 100, "bottom": 220})
+        self.assertEqual(short[0], (36, 24))
+        self.assertEqual(tall[0], (18, 12))
     def test_keys_disagree_strongly_ignores_relative(self):
         from sheet_image_enhanced_omr import _keys_disagree_strongly, _normalize_key_token
 

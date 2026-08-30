@@ -2,7 +2,7 @@ import { allArtists } from './tuneBibliographicUtils'
 import { getRecentViewedTuneIds } from './tuneViewHistoryStore'
 
 export const RECENT_TUNES_DEFAULT = 10
-export const RECENT_TUNES_EXPANDED = 60
+export const RECENT_TUNES_EXPANDED = 100
 export const RECENT_ARTISTS_DEFAULT = 20
 const TUNE_VIEW_HISTORY_MAX_FOR_ARTISTS = 100
 
@@ -33,7 +33,7 @@ export function getRecentlyUpdatedTunes(tunes, limit) {
 export function getRecentTunes(tunes, limit) {
   if (!tunes) return []
   const max = typeof limit === 'number' && limit > 0 ? limit : RECENT_TUNES_DEFAULT
-  return getRecentViewedTuneIds(RECENT_TUNES_EXPANDED)
+  return getRecentViewedTuneIds(max)
     .map(function(id) { return tunes[id] })
     .filter(function(tune) { return tune && tune.id })
     .slice(0, max)

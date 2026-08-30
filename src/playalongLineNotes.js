@@ -2,7 +2,7 @@ import abcjs from 'abcjs'
 import { eventsFromVoiceBody } from './notation/voiceEventTiming'
 import { eventMelodicMidiPitch } from './notation/voiceEventModel'
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
-import { expandPlayalongSoundingSegments, mapSoundingBeatToWritten } from './playalongRepeatMap'
+import { expandPlayalongSoundingSegments, expandPlayalongSoundingSegmentsFromTune, mapSoundingBeatToWritten } from './playalongRepeatMap'
 import { foldMidiHarmonicNearExpected } from './practiceAccuracyScorer'
 import {
   effectivePlayalongMusicOffsetSeconds,
@@ -77,6 +77,8 @@ export function playalongEventsFromTune(tune) {
 }
 
 export function playalongSoundingMapFromTune(tune) {
+  const fromVisual = expandPlayalongSoundingSegmentsFromTune(tune)
+  if (fromVisual && fromVisual.length) return fromVisual
   return expandPlayalongSoundingSegments(playalongEventsFromTune(tune))
 }
 

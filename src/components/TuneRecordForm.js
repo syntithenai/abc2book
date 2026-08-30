@@ -13,6 +13,7 @@ import TuneAliasesField from './TuneAliasesField';
 import TuneArtistsField from './TuneArtistsField';
 import TuneGenresField from './TuneGenresField';
 import TuneAlbumsField from './TuneAlbumsField';
+import TuneInfoListField from './TuneInfoListField';
 import AlbumsSearchButton from './AlbumsSearchButton';
 import ComposerSearchButton from './ComposerSearchButton';
 import NotationSearchButton from './NotationSearchButton';
@@ -28,6 +29,7 @@ import VoiceFillInput from './VoiceFillInput';
 import BookSelectorModal from './BookSelectorModal';
 import TagsSelectorModal from './TagsSelectorModal';
 import KeySignatureInput from './KeySignatureInput';
+import { forceSplitSlashTitle, mergeBibliographicList } from '../tuneBibliographicUtils';
 import AbcVoicesNotesEditor, { primaryVoiceNotesText } from './AbcVoicesNotesEditor';
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal';
 import LyricsToolsModal from './LyricsToolsModal';
@@ -36,7 +38,6 @@ import { FormLabelWithHelp } from './FormFieldHelp';
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText';
 import { formValuesToTune, importSuggestionDiffersFromForm } from '../importReviewFieldUtils';
 import { getPlainLyricLines } from '../wLinesUtils';
-import { mergeBibliographicList } from '../tuneBibliographicUtils';
 import {
   buildImportKeyChordSuggestions,
   transposeChordGridText,
@@ -263,7 +264,7 @@ export default function TuneRecordForm(props) {
           <Row>
           <Col md={6}>
             <Form.Group className="mb-0">
-              <FieldLabelRow label="Book(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
+              <FieldLabelRow label="Tunebook(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
               <VoiceFillInput
                 value={values.bookList || ''}
                 placeholder="comma separated"
@@ -298,7 +299,7 @@ export default function TuneRecordForm(props) {
         <Row>
         <Col md={6}>
           <Form.Group className="mb-0">
-            <FieldLabelRow label="Book(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
+            <FieldLabelRow label="Tunebook(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
             <div>
               <ButtonGroup style={{ backgroundColor: '#3f81e3', borderRadius: '10px' }}>
                 {primaryBook ? (
@@ -455,6 +456,23 @@ export default function TuneRecordForm(props) {
               value={values.title}
               onCapitalize={function(next) { setField('title', next); }}
             />
+            {values.title && String(values.title).indexOf('/') >= 0 ? (
+              <Button
+                size="sm"
+                variant="outline-secondary"
+                title="Split primary title and aliases on /"
+                onClick={function() {
+                  const splitTune = forceSplitSlashTitle({
+                    name: values.title,
+                    aliases: Array.isArray(values.aliases) ? values.aliases.slice() : [],
+                  });
+                  setField('title', splitTune.name || values.title);
+                  setField('aliases', Array.isArray(splitTune.aliases) ? splitTune.aliases : values.aliases);
+                }}
+              >
+                Split on /
+              </Button>
+            ) : null}
           </FieldLabelRow>
           <VoiceFillInput
             id="tune-record-title"
@@ -953,6 +971,70 @@ export default function TuneRecordForm(props) {
         tuneFiles={values.tuneFiles}
         pendingSnapshots={props.pendingSnapshots}
       />
+
+      <FormBlock>
+        <div className="mb-2 fw-semibold">ABC metadata</div>
+        <Row>
+          <Col xs={12} md={6}>
+            <TuneInfoListField
+              controlId="origin"
+              label="Origin"
+              value={Array.isArray(values.origin) ? values.origin : []}
+              onChange={function(next) { setField('origin', next); }}
+            />
+          </Col>
+          <Col xs={12} md={6}>
+            <TuneInfoListField
+              controlId="area"
+              label="Area"
+              value={Array.isArray(values.area) ? values.area : []}
+              onChange={function(next) { setField('area', next); }}
+            />
+          </Col>
+          <Col xs={12} md={6}>
+            <TuneInfoListField
+              controlId="source"
+              label="Source"
+              value={Array.isArray(values.source) ? values.source : []}
+              onChange={function(next) { setField('source', next); }}
+            />
+          </Col>
+          <Col xs={12} md={6}>
+            <TuneInfoListField
+              controlId="sourceBooks"
+              label="Source book(s)"
+              addLabel="Add source book"
+              value={Array.isArray(values.sourceBooks) ? values.sourceBooks : []}
+              onChange={function(next) { setField('sourceBooks', next); }}
+            />
+          </Col>
+          <Col xs={12} md={6}>
+            <TuneInfoListField
+              controlId="transcription"
+              label="Transcription"
+              value={Array.isArray(values.transcription) ? values.transcription : []}
+              onChange={function(next) { setField('transcription', next); }}
+            />
+          </Col>
+          <Col xs={12} md={6}>
+            <TuneInfoListField
+              controlId="discography"
+              label="Discography"
+              value={Array.isArray(values.discography) ? values.discography : []}
+              onChange={function(next) { setField('discography', next); }}
+            />
+          </Col>
+          <Col xs={12}>
+            <TuneInfoListField
+              controlId="infoNotes"
+              label="Notes"
+              addLabel="Add note"
+              value={Array.isArray(values.infoNotes) ? values.infoNotes : []}
+              onChange={function(next) { setField('infoNotes', next); }}
+            />
+          </Col>
+        </Row>
+      </FormBlock>
 
       <FormBlock>
         <FieldPreviewEditor

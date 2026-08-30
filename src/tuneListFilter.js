@@ -15,6 +15,8 @@ import { hasLyricEmbeddedChords } from './chordSheetUtils'
 import { getLyricLines } from './wLinesUtils'
 import { scanTuneMusicalIssueStatus } from './tuneListMusicalStatus'
 import { attachMediaCacheFlags, emptyTuneMediaLinkStatus, scanTuneMediaLinkStatus } from './tuneListMediaStatus'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { getTuneFiles } from './tuneFiles'
 
 import { isCapacitorNative } from './platformUtils'
 import { sortTunesByBookPage } from './tuneBookPages'
@@ -128,13 +130,11 @@ function scanTuneNoteStatus(tune) {
   if (tune && tune.voices) {
     Object.values(tune.voices).forEach(function(voice) {
       if (!Array.isArray(voice.notes)) return
+      if (!hasNotes && noteLinesHaveRealMelody(voice.notes)) {
+        hasNotes = true
+      }
       for (var i = 0; i < voice.notes.length; i += 1) {
         if (!voice.notes[i]) continue
-        if (voice.notes[i].replaceAll('z', '').replaceAll('|', '').split('"').filter(function(a, ak) {
-          return (ak % 2 === 0)
-        }).join('').trim().length > 0) {
-          hasNotes = true
-        }
         if (voice.notes[i].indexOf('"') !== -1) {
           hasChords = true
         }
@@ -172,6 +172,7 @@ export function buildTuneStatusGroupKey(status, detailed) {
   if (flags.hasChords) tuneStatusKey.push('chords')
   if (detailed && flags.hasInlineChords) tuneStatusKey.push('inline')
   if (flags.hasLinks) tuneStatusKey.push('media')
+  if (flags.hasSnapshot) tuneStatusKey.push('snapshot')
   if (detailed) {
     if (flags.hasMusicalErrors) tuneStatusKey.push('errors')
     else if (flags.hasMusicalWarnings) tuneStatusKey.push('warnings')
@@ -205,11 +206,13 @@ export function buildTuneStatusEntry(tune, tunebook, options) {
   const media = includeExtras
     ? scanTuneMediaLinkStatus(tune, isYoutubeLink)
     : emptyTuneMediaLinkStatus()
+  const hasSnapshot = getTuneFiles(tune).length > 0
   return {
     hasLyrics: hasLyrics,
     hasNotes: noteStatus.hasNotes,
     hasChords: noteStatus.hasChords,
     hasLinks: hasLinks,
+    hasSnapshot: hasSnapshot,
     hasInlineChords: hasInlineChords,
     hasMusicalErrors: hasMusicalErrors,
     hasMusicalWarnings: hasMusicalWarnings,

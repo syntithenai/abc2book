@@ -69,6 +69,9 @@ var BUCKET_META = {
 
 var BUCKET_ORDER = ['inserts', 'updates', 'localUpdates', 'skippedUpdates', 'deletes', 'duplicates']
 
+/** Avoid rendering thousands of rows when a large curated book is imported for review. */
+var MAX_IMPORT_WARNING_ROWS = 100
+
 function ImportTuneRow(props) {
   var tune = props.tune
   var status = props.status
@@ -285,7 +288,7 @@ export default function ImportWarningDialog(props) {
                 <Tab key={bucketKey} eventKey={bucketKey} title={meta.tabTitle + ' (' + values.length + ')'}>
                   <p className="small text-muted mt-2 mb-2">{meta.intro}</p>
                   <ListGroup>
-                    {values.map(function(tune, index) {
+                    {values.slice(0, MAX_IMPORT_WARNING_ROWS).map(function(tune, index) {
                       return (
                         <ImportTuneRow
                           key={(tune && tune.id) || index}
@@ -298,6 +301,11 @@ export default function ImportWarningDialog(props) {
                       )
                     })}
                   </ListGroup>
+                  {values.length > MAX_IMPORT_WARNING_ROWS ? (
+                    <p className="small text-muted mt-2 mb-0">
+                      …and {values.length - MAX_IMPORT_WARNING_ROWS} more tune{values.length - MAX_IMPORT_WARNING_ROWS === 1 ? '' : 's'} not shown.
+                    </p>
+                  ) : null}
                 </Tab>
               )
             })}

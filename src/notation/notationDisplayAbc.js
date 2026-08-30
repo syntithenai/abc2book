@@ -12,11 +12,15 @@ export function stripNotationDisplayMetadata(abcText) {
     const trimmed = line.trim();
     if (trimmed.startsWith('B:')) return false;
     if (/^H:/i.test(trimmed)) return false;
+    if (/^[OASZD]:/i.test(trimmed)) return false;
+    if (/^N:/i.test(trimmed) && !/^N:\s*AKA:/i.test(trimmed)) return false;
     if (trimmed.startsWith('N: AKA:')) return false;
     if (trimmed.startsWith('% abcbook-tags')) return false;
     if (trimmed.startsWith('%%abcbook-tags')) return false;
     if (trimmed.startsWith('% abcbook-albums')) return false;
     if (trimmed.startsWith('%%abcbook-albums')) return false;
+    if (trimmed.startsWith('% abcbook-source-book')) return false;
+    if (trimmed.startsWith('%%abcbook-source-book')) return false;
     if (trimmed.startsWith('% abcbook-playalong-take-')) return false;
     if (/^C:/i.test(trimmed)) {
       if (seenComposer) return false;

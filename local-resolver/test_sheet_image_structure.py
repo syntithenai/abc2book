@@ -14,10 +14,14 @@ from sheet_image_structure import (
     StructureEvent,
     annotate_abc_with_structure,
     apply_form_heuristics,
+    apply_section_repeat_to_abc,
+    collapse_uniform_eight_bar_repeats,
     count_abc_bars,
     detect_structure_cv,
     detect_structure_on_staff_crop,
     draw_synthetic_staff_with_repeats,
+    infer_section_bars,
+    infer_voltas_for_long_systems,
     merge_structure_events,
 )
 
@@ -80,6 +84,16 @@ class HeuristicTests(unittest.TestCase):
             self.assertIn((KIND_START_REPEAT, 0), kinds)
             self.assertIn((KIND_END_REPEAT, 7), kinds)
 
+    def test_wrap_two_nine_bar_systems(self):
+        """18-bar 3/8 bourrée: 2×9 → start@0/end@8 per system."""
+        counts = [9, 9]
+        out = apply_form_heuristics(counts, [[], []])
+        self.assertEqual(len(out), 2)
+        for sys_e in out:
+            kinds = {(e.kind, e.measure_index) for e in sys_e}
+            self.assertIn((KIND_START_REPEAT, 0), kinds)
+            self.assertIn((KIND_END_REPEAT, 8), kinds)
+
     def test_fills_empty_systems_when_sibling_has_cv(self):
         counts = [8, 8, 8]
         existing = [
@@ -119,6 +133,46 @@ class HeuristicTests(unittest.TestCase):
         self.assertIn((KIND_END_REPEAT, None, 8), kinds1)
         # Short systems unchanged (no voltas).
         self.assertFalse(any(e.kind == KIND_VOLTA_START for e in out[0]))
+
+
+class SectionRepeatTests(unittest.TestCase):
+    def test_twelve_bar_four_section(self):
+        abc = "M:4/4\nK:C\n" + "|".join(["A2"] * 12) + "|\n"
+        out = apply_section_repeat_to_abc(abc)
+        self.assertIn("|:", out)
+        self.assertIn(":|", out)
+
+    def test_infer_section_bars(self):
+        self.assertEqual(infer_section_bars(12, "4/4"), 4)
+        self.assertEqual(infer_section_bars(21, "3/4"), 8)
+        self.assertEqual(infer_section_bars(16, "2/4"), 8)
+
+    def test_single_system_requires_cv_hint(self):
+        counts = [16]
+        existing: list[list[StructureEvent]] = [[]]
+        out = apply_form_heuristics(counts, existing, require_cv_hint=True)
+        self.assertEqual(out[0], [])
+        existing_cv = [[StructureEvent(0, KIND_START_REPEAT, confidence=0.5, source="cv")]]
+        out2 = apply_form_heuristics(counts, existing_cv, require_cv_hint=True)
+        self.assertTrue(any(e.kind == KIND_START_REPEAT for e in out2[0]))
+
+    def test_collapse_overdetected_eight_bar(self):
+        counts = [8, 8]
+        noisy = [
+            [
+                StructureEvent(0, KIND_START_REPEAT, confidence=0.9, source="cv"),
+                StructureEvent(3, KIND_END_REPEAT, confidence=0.5, source="cv"),
+                StructureEvent(7, KIND_END_REPEAT, confidence=0.5, source="cv"),
+            ],
+            [],
+        ]
+        out = collapse_uniform_eight_bar_repeats(counts, noisy)
+        starts = [e for e in out[0] if e.kind == KIND_START_REPEAT]
+        ends = [e for e in out[0] if e.kind == KIND_END_REPEAT]
+        self.assertEqual(len(starts), 1)
+        self.assertEqual(len(ends), 1)
+        self.assertEqual(starts[0].measure_index, 0)
+        self.assertEqual(ends[0].measure_index, 7)
 
 
 class MergeAltTests(unittest.TestCase):

@@ -97,6 +97,8 @@ def import_midi_bytes(
     max_voices: int = 0,
     rhythm_detail: str = "standard",
     quant_strength: float = 0.7,
+    staff_by_voice: list[str] | None = None,
+    import_voices: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """
     Run MIDI import strategies and return the best result.

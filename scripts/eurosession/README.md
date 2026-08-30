@@ -187,9 +187,21 @@ node scripts/eurosession/run_notation_checks.cjs \
   --work "/home/stever/Downloads/eurosession-work"
 ```
 
-Apply the same **safe** structure autofixes as the notation-check Fix buttons
-(session `!` breaks, empty bars, orphan repeats, pad underfull bars with rests,
-final barline, etc.). Skips any fix that would change existing note pitches:
+Report-only check of the final import package (does **not** write `manifest.json`
+or apply fixes). Writes `notation_check_report.json`:
+
+```bash
+node scripts/eurosession/report_notation_checks.cjs \
+  --import "/home/stever/Downloads/eurosession-work/eurosession-import-final.json" \
+  --out "/home/stever/Downloads/eurosession-work/notation_check_report.json"
+```
+
+**Prefer software tolerance + ABC reimport** over bulk structure autofixes.
+If you still run `apply_notation_fixes.cjs`, note that Fix-all in the app no
+longer auto-runs `padBarWithRests` or `removeOrphanRepeatEnd` (they break
+anacrusis/chord fill and implied repeats). Before reimporting cleaned ABC into
+the live tunebook: download a book ABC/JSON backup first; ABC import keeps
+existing crop snapshots (`tuneFiles`).
 
 ```bash
 node scripts/eurosession/apply_notation_fixes.cjs \

@@ -1,6 +1,3 @@
-/**
- * ABC text transforms for Import Book review (rewrite notation, not sidecars).
- */
 import abcjs from 'abcjs'
 
 /**
@@ -101,4 +98,113 @@ export function setAbcMeter(abc, meter) {
 export function readAbcMeter(abc) {
   const m = String(abc || '').match(/^M:\s*(.+)$/m)
   return m ? String(m[1]).trim() : ''
+}
+
+/**
+ * MuseScore score-level default when no real composer was entered.
+ * @param {unknown} value
+ * @returns {boolean}
+ */
+export function isGenericComposer(value) {
+  const s = String(value || '').trim().replace(/\s+/g, ' ')
+  if (!s) return true
+  return /^composer\s*\/\s*arranger$/i.test(s)
+}
+
+/**
+ * Drop C: lines that are MuseScore "Composer / arranger" placeholders.
+ * @param {string} abc
+ * @returns {string}
+ */
+export function stripGenericComposerFromAbc(abc) {
+  const text = String(abc || '')
+  if (!text) return text
+  const lines = text.split('\n')
+  const out = lines.filter(function(line) {
+    const m = /^C:\s*(.*)$/i.exec(line)
+    if (!m) return true
+    return !isGenericComposer(m[1])
+  })
+  return out.join('\n')
+}
+
+/**
+ * Ensure ABC has `% abcbook-repeats N` (playback loop count).
+ * Leaves an existing repeats comment unchanged; defaults to 3 when missing.
+ * @param {string} abc
+ * @param {number|string} [repeats=3]
+ * @returns {string}
+ */
+export function ensureAbcbookRepeats(abc, repeats) {
+  let text = String(abc || '')
+  if (/%\s*abcbook-repeats\s+\S+/i.test(text)) return text
+  const n = parseInt(repeats, 10)
+  const value = Number.isFinite(n) && n > 0 ? String(n) : '3'
+  const line = '% abcbook-repeats ' + value
+  if (/^K:/m.test(text)) {
+    return text.replace(/^(K:.*)$/m, line + '\n$1')
+  }
+  if (text.trim()) return text.replace(/\s*$/, '') + '\n' + line + '\n'
+  return line + '\n'
+}
+
+function isAbcHeaderOrDirectiveLine(line) {
+  const t = String(line || '').trim()
+  if (!t) return true
+  if (t.charAt(0) === '%') return true
+  if (/^[A-Za-z]:/.test(t)) return true
+  if (/^\[V:/.test(t)) return true
+  return false
+}
+
+/**
+ * Re-pack music body measures to N bars per line (melody MIDI/OMR tidy).
+ * Preserves headers / V: / [V:] lines; only rewrites note lines.
+ * @param {string} abc
+ * @param {number} [barsPerLine=8]
+ * @returns {string}
+ */
+export function rewrapAbcBarsPerLine(abc, barsPerLine) {
+  const text = String(abc || '')
+  if (!text.trim()) return text
+  const perLine = Math.max(1, parseInt(barsPerLine, 10) || 8)
+  let measures = null
+  try {
+    if (typeof abcjs.extractMeasures !== 'function') return text
+    const extracted = abcjs.extractMeasures(text)
+    if (extracted && extracted[0] && Array.isArray(extracted[0].measures)) {
+      measures = extracted[0].measures
+    }
+  } catch (e) {
+    return text
+  }
+  if (!measures || !measures.length) return text
+
+  const packed = []
+  for (let i = 0; i < measures.length; i += perLine) {
+    const chunk = measures.slice(i, i + perLine).map(function(m) {
+      return String((m && m.abc) || '').trim()
+    }).filter(Boolean)
+    if (!chunk.length) continue
+    let line = chunk.join(' ')
+    if (!/\|\s*$/.test(line)) line += ' |'
+    packed.push(line)
+  }
+  if (!packed.length) return text
+
+  const lines = text.split('\n')
+  let firstMusic = -1
+  let lastMusic = -1
+  for (let i = 0; i < lines.length; i += 1) {
+    if (!isAbcHeaderOrDirectiveLine(lines[i])) {
+      if (firstMusic < 0) firstMusic = i
+      lastMusic = i
+    }
+  }
+  if (firstMusic < 0) {
+    return text.replace(/\s*$/, '') + '\n' + packed.join('\n') + '\n'
+  }
+  const header = lines.slice(0, firstMusic)
+  const trailer = lines.slice(lastMusic + 1)
+  return header.concat(packed, trailer).join('\n').replace(/\s+$/, '') + '\n'
 }

@@ -36,6 +36,20 @@ describe('getRecentTunes', () => {
     }
     expect(getRecentTunes(tunes, 2).map(function(t) { return t.id })).toEqual(['a', 'b'])
   })
+
+  it('can return up to the expanded books-page limit', () => {
+    const history = {}
+    const tunes = {}
+    for (var i = 0; i < 100; i++) {
+      var id = 't' + i
+      history[id] = { lastViewed: i + 1, viewCount: 1 }
+      tunes[id] = { id: id, name: id }
+    }
+    localStorage.setItem(TUNE_VIEW_HISTORY_STORAGE_KEY, JSON.stringify(history))
+    expect(getRecentTunes(tunes, 100)).toHaveLength(100)
+    expect(getRecentTunes(tunes, 100)[0].id).toBe('t99')
+    expect(getRecentTunes(tunes, 100)[99].id).toBe('t0')
+  })
 })
 
 describe('getRecentlyUpdatedTunes', () => {

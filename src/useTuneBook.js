@@ -40,6 +40,7 @@ import {
   isLessonQueue,
   isExternalQueueItem,
   isLessonExternalMedia,
+  getMidiPreference,
 } from './nowPlayingQueue'
 import {
   playQueueItem,
@@ -85,7 +86,14 @@ import {
   extractAndStoreTuneDisplaySettings,
   persistableTuneWithoutDisplaySettings,
 } from './tuneDisplaySettings'
-import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
+import {
+  buildOrderedSearchListGroups,
+  findSearchListGroupIndex,
+  findExplicitBookPageSiblingIds,
+  filterExplicitBookPageGroups,
+  isExplicitBookPageGroupKey,
+  adjacentSearchListGroupFirstId,
+} from './searchListOrder'
 import { getTunePageForBook } from './tuneBookPages'
 import {
   filterStateHasAnyFilters,
@@ -100,6 +108,7 @@ import {
 import { clearCachedMediaForDeletedTuneIds, clearCachedMediaForRemovedLinkSrcs } from './deletedTuneMediaCleanup'
 import { collectRemovedLinkCacheSrcs } from './mediaCacheDriveBackup'
 import { tunesToJson } from './tuneDownloadActions'
+import { hydrateImportResultsSnapshots } from './abcSnapshotEmbed'
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydrated, deletedTunes, setDeletedTunes, isLoggedIn, ownedMediaUpload, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, albumFilter, setAlbumFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, flushActiveEditor, practiceSessionActiveRef}) => {
   const utils = useUtils()
@@ -324,7 +333,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
         }
         setCurrentTune(nextTuneId)
         const target = resolvePlaybackForItem(nextTune, nextItem, tunebookApi, {
-          preferMidi: !!(result.queue && result.queue.preferMidi),
+          midiPreference: getMidiPreference(result.queue),
         })
         if (opts.navigate !== false && navigateFn && target && target.type !== 'external') {
           const normalizedTarget = target.type === 'midi'
@@ -341,7 +350,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
           playQueueItem(opts.mediaController, tunebookApi, nextTune, nextItem, {
             fromUserGesture: true,
             queue: result.queue,
-            preferMidi: !!(result.queue && result.queue.preferMidi),
+            midiPreference: getMidiPreference(result.queue),
             playbackTarget: result.playbackTarget,
           })
         }
@@ -442,22 +451,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     if (setGroupBy) setGroupBy(snapshot.groupBy || '')
   }
 
-  function buildSearchListOrderedIds() {
-    var live = liveSearchFilterState()
-    var resolved = resolveSearchFilterState(live)
-    var usingSnapshot = filterStateHasAnyFilters(resolved) && !filterStateHasAnyFilters(live)
-
-    // Prefer the list IndexLayout last rendered (includes tuneStatus groups, etc.).
-    // Skip stale list cache when live filters were cleared but a snapshot remains —
-    // that cache is the empty/default list, not the last search.
-    if (!usingSnapshot) {
-      var effectiveGroupBy = resolveEffectiveGroupBy(groupBy, live.currentTuneBook)
-      var fromListState = buildOrderedSearchListIds(filtered, grouped, effectiveGroupBy)
-      if (fromListState && fromListState.length > 0) return fromListState
-    }
-
-    // Off-list (tune/editor), React filters may have been cleared while the last
-    // list search snapshot still exists — same source as Header Tunes restore.
+  function rebuildSearchListOrderedGroups(resolved) {
     var useTunes = fromSearch(
       resolved.filter,
       resolved.currentTuneBook,
@@ -477,20 +471,67 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     }
     if (!resolvedGroupBy || resolvedGroupBy === GROUP_BY_TUNE_STATUS || resolvedGroupBy === GROUP_BY_TUNE_STATUS_DETAILED) {
       // tuneStatus groups are computed in IndexLayout; without list state, fall back to alpha order.
-      return useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
+      var flatIds = useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
+      return flatIds.length > 0 ? [{ key: '', ids: flatIds }] : null
     }
     var rebuiltGroups = groupTunes(useTunes, resolvedGroupBy)
+    return buildOrderedSearchListGroups(useTunes, rebuiltGroups, resolvedGroupBy)
+  }
+
+  function buildSearchListOrderedGroups() {
+    var live = liveSearchFilterState()
+    var resolved = resolveSearchFilterState(live)
+    var usingSnapshot = filterStateHasAnyFilters(resolved) && !filterStateHasAnyFilters(live)
+
+    // Prefer the list IndexLayout last rendered (includes tuneStatus groups, etc.).
+    // Skip stale list cache when live filters were cleared but a snapshot remains —
+    // that cache is the empty/default list, not the last search.
+    if (!usingSnapshot) {
+      var effectiveGroupBy = resolveEffectiveGroupBy(groupBy, live.currentTuneBook)
+      var fromListState = buildOrderedSearchListGroups(filtered, grouped, effectiveGroupBy)
+      if (fromListState && fromListState.length > 0) return fromListState
+    }
+
+    // Off-list (tune/editor), React filters may have been cleared while the last
+    // list search snapshot still exists — same source as Header Tunes restore.
+    return rebuildSearchListOrderedGroups(resolved)
+  }
+
+  function buildSearchListOrderedIds() {
+    var groups = buildSearchListOrderedGroups()
+    if (!groups || groups.length === 0) return null
     var orderedIds = []
-    Object.keys(rebuiltGroups).sort(function(a, b) {
-      return compareSearchGroupKeys(resolvedGroupBy, a, b)
-    }).forEach(function(groupKey) {
-      var indexes = rebuiltGroups[groupKey]
-      if (!Array.isArray(indexes) || indexes.length === 0) return
-      indexes.forEach(function(itemIndex) {
-        if (useTunes[itemIndex] && useTunes[itemIndex].id) orderedIds.push(useTunes[itemIndex].id)
-      })
+    groups.forEach(function(group) {
+      if (!group || !Array.isArray(group.ids)) return
+      group.ids.forEach(function(id) { orderedIds.push(id) })
     })
-    return orderedIds
+    return orderedIds.length > 0 ? orderedIds : null
+  }
+
+  function resolveLiveEffectiveGroupBy() {
+    var live = liveSearchFilterState()
+    var resolved = resolveSearchFilterState(live)
+    var usingSnapshot = filterStateHasAnyFilters(resolved) && !filterStateHasAnyFilters(live)
+    if (usingSnapshot) {
+      return resolveEffectiveGroupBy(resolved.groupBy, resolved.currentTuneBook)
+    }
+    return resolveEffectiveGroupBy(groupBy, live.currentTuneBook)
+  }
+
+  /**
+   * When list is grouped by page and tuneId has an explicit book page, ids of
+   * all tunes on that page (search-list order). Unordered / unpaged tunes and
+   * non-page grouping return only the current id.
+   */
+  function getSearchListPageSiblingIds(tuneId) {
+    if (tuneId == null || tuneId === '') return []
+    if (resolveLiveEffectiveGroupBy() !== GROUP_BY_PAGE) {
+      return [tuneId]
+    }
+    var groups = buildSearchListOrderedGroups()
+    var siblingIds = findExplicitBookPageSiblingIds(groups, tuneId)
+    if (siblingIds && siblingIds.length > 0) return siblingIds
+    return [tuneId]
   }
 
   function isEditorPath(locationPathname) {
@@ -592,6 +633,78 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     // Re-apply last list search into React state when live filters were cleared
     // so later Tunes/back-to-list navigation stays consistent with next/prev.
     restoreSearchFiltersFromSnapshot(resolveSearchFilterState(liveSearchFilterState()))
+
+    var pageGrouped = resolveLiveEffectiveGroupBy() === GROUP_BY_PAGE
+    if (pageGrouped) {
+      var pageGroups = buildSearchListOrderedGroups()
+      var explicitPageGroups = filterExplicitBookPageGroups(pageGroups)
+      var pageGroupIdx = currentSongId
+        ? findSearchListGroupIndex(pageGroups, currentSongId)
+        : -1
+      var currentPageGroup = pageGroupIdx >= 0 && pageGroups ? pageGroups[pageGroupIdx] : null
+      var onExplicitBookPage = !!(currentPageGroup && isExplicitBookPageGroupKey(currentPageGroup.key))
+
+      // Page-step next/prev only for tunes with an explicit book page number.
+      // Unordered (blank page key) fall through to per-tune navigation below.
+      if (onExplicitBookPage && explicitPageGroups.length > 0) {
+        if (direction > 0 && isNavigatorOffline()) {
+          var explicitIdx = findSearchListGroupIndex(explicitPageGroups, currentSongId)
+          var pageProbe = explicitIdx >= 0
+            ? (explicitIdx + 1) % explicitPageGroups.length
+            : 0
+          var offlinePageTries = 0
+          function tryNextOfflinePage() {
+            if (offlinePageTries >= explicitPageGroups.length) {
+              if (failCallback) failCallback('end')
+              return
+            }
+            offlinePageTries += 1
+            var probeGroup = explicitPageGroups[pageProbe]
+            pageProbe = (pageProbe + 1) % explicitPageGroups.length
+            var probeIds = probeGroup && probeGroup.ids ? probeGroup.ids : []
+            var probeTunes = probeIds.map(function(id) { return lookupTune(id) }).filter(Boolean)
+            if (probeTunes.length === 0) {
+              tryNextOfflinePage()
+              return
+            }
+            findNextOfflinePlayableListIndex(
+              probeTunes,
+              -1,
+              1,
+              null,
+              playbackApi(),
+              utils.isYoutubeLink,
+              playbackModeFromPathname(locationPathname)
+            ).then(function(nextListIndex) {
+              if (nextListIndex === -1) {
+                tryNextOfflinePage()
+                return
+              }
+              var nextTune = probeTunes[nextListIndex]
+              maybeAnnounceFootPedalOpening(opts, nextTune)
+              navigateToSearchListTune(
+                nextTune && nextTune.id ? nextTune.id : null,
+                navigateFn,
+                locationPathname,
+                mediaController,
+                startPlayback
+              )
+            })
+          }
+          tryNextOfflinePage()
+          return
+        }
+
+        var nextPageTuneId = adjacentSearchListGroupFirstId(
+          explicitPageGroups,
+          currentSongId,
+          direction
+        )
+        maybeAnnounceFootPedalOpening(opts, nextPageTuneId)
+        navigateToSearchListTune(nextPageTuneId, navigateFn, locationPathname, mediaController, startPlayback)
+        return
+      }
+    }
 
     var orderedIds = buildSearchListOrderedIds()
     if (!orderedIds || orderedIds.length === 0) {
@@ -1439,9 +1552,11 @@ The main difference between the two functions is the additional condition in app
   }
   
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
+    return hydrateImportResultsSnapshots(data).then(function(hydratedData) {
     return new Promise(function(resolve,reject) {
             var beforeSnapshots = {}
-            var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook, deletes, remoteDeleted} = data
+            var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook, deletes, remoteDeleted} = hydratedData
+            data = hydratedData
             Object.keys(updates || {}).forEach(function(id) {
               beforeSnapshots[id] = getPersistedTuneSnapshot(id)
             })
@@ -1688,6 +1803,7 @@ The main difference between the two functions is the additional condition in app
                 resolve(tunes)
             }
         })
+    })
   }
   
   function applyImport(forceDuplicates=false, discardLocalUpdates = false) {
@@ -1803,6 +1919,7 @@ The main difference between the two functions is the additional condition in app
   function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null, limitToTuneIds=null, options) {
       var opts = options && typeof options === 'object' ? options : {}
       var classifyOnly = !!opts.classifyOnly
+      var allowDuplicateTitles = !!opts.allowDuplicateTitles
       var personalFieldPolicy = resolvePersonalFieldPolicy(opts)
       var currentTunesHash = buildTunesHash(tunes) || tunesHash
       var duplicates=[]
@@ -1815,7 +1932,8 @@ The main difference between the two functions is the additional condition in app
       var importedActiveIds = {}
       var tuneStatus = {updates:[],inserts:[],localUpdates:[],skippedUpdates:[],duplicates:[],deletes:[]}
       if (abc) {
-        var intunes = abcTools.abc2Tunebook(abc)
+        var parseOpts = forceBook ? { bAsSourceBook: true } : {}
+        var intunes = abcTools.abc2Tunebook(abc, parseOpts)
         intunes.forEach(function(tune) { 
             
           if (importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName, limitToTuneIds))  {
@@ -1911,7 +2029,7 @@ The main difference between the two functions is the additional condition in app
                     tuneImportTitle(existingTune)
                   )
                 })
-                if (existingImportIds.length > 0 && titleMatchedExisting) {
+                if (existingImportIds.length > 0 && titleMatchedExisting && !allowDuplicateTitles) {
                   duplicates.push(tune)
                   tuneStatus.duplicates.push({
                     hasLyrics:hasLyrics(tune),
@@ -2619,6 +2737,6 @@ The main difference between the two functions is the additional condition in app
         }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, downloadTuneBookJson, resetTuneBook, saveTune, beginTunesBatchCommit, commitTunesBatch, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions, getTuneAlbumOptions, getSearchTuneAlbumOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, downloadTuneBookJson, resetTuneBook, saveTune, beginTunesBatchCommit, commitTunesBatch, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, getSearchListPageSiblingIds: getSearchListPageSiblingIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions, getTuneAlbumOptions, getSearchTuneAlbumOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
 }
 export default useTuneBook

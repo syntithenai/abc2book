@@ -64,6 +64,13 @@ from music_collection import (
     resolve_music_collection_file,
     search_music_collection,
 )
+from review_projects import (
+    guess_review_projects_mime,
+    review_projects_catalog,
+    review_projects_enabled,
+    review_projects_health_fields,
+    resolve_review_projects_file,
+)
 from bandcamp import (
     bandcamp_enabled,
     build_bandcamp_candidate,
@@ -1012,6 +1019,25 @@ async def require_music_collection_access(authorization):
             raise HTTPException(status_code=403, detail="Email not authorized for music collection")
         return verified
     return await maybe_require_auth(authorization)
+
+
+async def require_review_projects_access(authorization):
+    """Admin-only Documents review root (Milliner–Koken / oldtime)."""
+    if not review_projects_enabled():
+        raise HTTPException(status_code=404, detail="Review projects root is not available")
+    token = get_bearer_token(authorization)
+    if not REQUIRE_AUTH and not token:
+        # Local unauthenticated resolver: SPA still gates on admin email.
+        return None
+    if not token:
+        raise HTTPException(status_code=401, detail="Missing Authorization Bearer token")
+    verified = await verify_google_access_token(token)
+    if not verified:
+        raise HTTPException(status_code=401, detail="Invalid or expired Google token")
+    email = (verified.get("email") or "").strip().lower()
+    if not email_allowed(ALLOWED_ADMIN_EMAILS, email):
+        raise HTTPException(status_code=403, detail="Admin access required for review projects")
+    return verified
 
 
 def auth_access_flags(verified):
@@ -3371,6 +3397,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
     body.update(music_collection_health_fields())
+    body.update(review_projects_health_fields())
     try:
         from local_abc_resources import local_abc_health_fields
         body.update(local_abc_health_fields())
@@ -3430,6 +3457,7 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
     body.update(music_collection_health_fields())
+    body.update(review_projects_health_fields())
     try:
         from local_abc_resources import local_abc_health_fields
         body.update(local_abc_health_fields())
@@ -4695,7 +4723,9 @@ async def fetch_score_attachment_endpoint(
             )
         headers = cors_headers(origin)
         headers["Content-Type"] = content_type
-        headers["Content-Disposition"] = 'inline; filename="score.pdf"'
+        lower_type = str(content_type or "").lower()
+        filename = "score.mid" if ("midi" in lower_type or "mid" in lower_type) else "score.pdf"
+        headers["Content-Disposition"] = 'inline; filename="' + filename + '"'
         return Response(content=data, headers=headers)
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -6510,6 +6540,39 @@ async def get_music_collection_art(
         return FileResponse(abs_path, media_type=mime, headers=cors_headers(origin))
     except FileNotFoundError:
         return json_error(404, "Album art not found", origin)
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/review-projects")
+async def get_review_projects_catalog(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_review_projects_access(authorization)
+        return JSONResponse(review_projects_catalog(), headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/review-projects/file/{resource_path:path}")
+async def get_review_projects_file(
+    resource_path: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_review_projects_access(authorization)
+        abs_path = resolve_review_projects_file(resource_path)
+        mime = guess_review_projects_mime(abs_path)
+        return FileResponse(abs_path, media_type=mime, headers=cors_headers(origin))
+    except FileNotFoundError:
+        return json_error(404, "Review projects file not found", origin)
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:

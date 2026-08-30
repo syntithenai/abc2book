@@ -217,30 +217,23 @@ export function buildBatchSummaryFromClassifier(classified) {
 }
 
 /**
- * Whether multi-tune ABC should show the batch summary panel instead of
- * immediately opening per-tune review.
+ * Whether ABC should show the batch summary panel (Apply vs Review) instead of
+ * immediately opening per-tune review or inlining onto the Add form.
+ *
+ * Show for any existing-library work (updates, local-newer, duplicates, deletes,
+ * title matches) — including a single update — so re-importing a fix ABC does
+ * not dump the title into the blank Add form.
+ * Brand-new single inserts stay inline-friendly (return false).
  */
 export function shouldShowAbcBatchSummary(classified) {
   const summary = (classified && classified.summary) || {};
   const candidates = (classified && classified.candidates) || [];
-  const active = (summary.updates || 0)
-    + (summary.inserts || 0)
-    + (summary.localUpdates || 0)
-    + (summary.duplicates || 0)
-    + (summary.deletes || 0)
-    + (summary.libraryMatches || 0);
   if (candidates.length > 1) return true;
-  if (active > 1) return true;
-  // One candidate but mixed with deletes / skipped still benefits from summary
-  // when there is anything beyond a single inline-friendly new tune.
-  if (candidates.length === 1) {
-    const c = candidates[0];
-    if (c && (c.warningReason === 'localNewer' || c.warningReason === 'libraryMatch'
-      || c.contentHashDuplicate || (c.mergeStatus === 'exactId' && c.mergeMode === 'direct'))) {
-      // Single certain update or uncertain: still allow review/inline without batch
-      // unless there are also deletes or multiple bucket types.
-      return (summary.deletes || 0) > 0 || active > 1;
-    }
-  }
+  if ((summary.updates || 0) > 0) return true;
+  if ((summary.localUpdates || 0) > 0) return true;
+  if ((summary.duplicates || 0) > 0) return true;
+  if ((summary.deletes || 0) > 0) return true;
+  if ((summary.libraryMatches || 0) > 0) return true;
+  if ((summary.inserts || 0) > 1) return true;
   return false;
 }

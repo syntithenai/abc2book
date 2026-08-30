@@ -1,12 +1,14 @@
 import { useEffect, useState, useCallback } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
-import { Button } from 'react-bootstrap'
+import { Button, ButtonGroup } from 'react-bootstrap'
 import {
   isQueueActive,
   getQueuePositionLabel,
   getCurrentTuneId,
-  setPreferMidi,
-  isPreferMidi,
+  setMidiPreference,
+  getMidiPreference,
+  MIDI_PREFERENCE,
+  MIDI_PREFERENCES,
   tuneHasMidiNotes,
 } from '../nowPlayingQueue'
 import { resumePlaylistPlayback, enqueueTuneInQueueAndPlay, toggleTunePlayback } from '../tunePlaybackActions'
@@ -33,6 +35,12 @@ import { useDocumentTitle } from '../pageTitle'
 import { useOfflinePlayDisabled } from '../components/MediaPlayerButtons'
 import { OFFLINE_PLAYBACK_MESSAGE } from '../offlineNetwork'
 import './NowPlayingPage.css'
+
+const MIDI_PREFERENCE_TITLES = {
+  skip: 'Skip MIDI — play and next/prev use media links only',
+  allow: 'Allow MIDI — use media when available, MIDI as fallback',
+  prefer: 'Prefer MIDI — play and next/prev use ABC MIDI when available',
+}
 
 export default function NowPlayingPage(props) {
   const navigate = useNavigate()
@@ -77,10 +85,12 @@ export default function NowPlayingPage(props) {
     : false
   const [showArtwork, setShowArtwork] = useState(!!showArtworkCandidate)
   const [showPlayRangeModal, setShowPlayRangeModal] = useState(false)
-  const [preferMidiLocal, setPreferMidiLocal] = useState(!!isPreferMidi(nowPlayingQueue))
-  const preferMidiEnabled = queueActive
-    ? isPreferMidi(nowPlayingQueue)
-    : preferMidiLocal
+  const [midiPreferenceLocal, setMidiPreferenceLocal] = useState(
+    getMidiPreference(nowPlayingQueue)
+  )
+  const midiPreference = queueActive
+    ? getMidiPreference(nowPlayingQueue)
+    : midiPreferenceLocal
   const playDisabled = useOfflinePlayDisabled(
     mediaController,
     props.tunebook,
@@ -96,15 +106,15 @@ export default function NowPlayingPage(props) {
 
   useEffect(function() {
     if (queueActive) {
-      setPreferMidiLocal(isPreferMidi(nowPlayingQueue))
+      setMidiPreferenceLocal(getMidiPreference(nowPlayingQueue))
     }
-  }, [queueActive, nowPlayingQueue && nowPlayingQueue.preferMidi])
+  }, [queueActive, nowPlayingQueue && nowPlayingQueue.midiPreference])
 
-  function handlePreferMidiToggle() {
-    const next = !preferMidiEnabled
-    setPreferMidiLocal(next)
+  function handleMidiPreferenceChange(nextMode) {
+    const next = MIDI_PREFERENCES.indexOf(nextMode) !== -1 ? nextMode : MIDI_PREFERENCE.SKIP
+    setMidiPreferenceLocal(next)
     if (typeof props.setNowPlayingQueue === 'function' && isQueueActive(nowPlayingQueue)) {
-      props.setNowPlayingQueue(setPreferMidi(nowPlayingQueue, next))
+      props.setNowPlayingQueue(setMidiPreference(nowPlayingQueue, next))
     }
   }
 
@@ -152,7 +162,8 @@ export default function NowPlayingPage(props) {
     setNowPlayingQueue: props.setNowPlayingQueue,
     setQueuePlayConfirm: props.setQueuePlayConfirm,
     skipQueueConfirm: true,
-    preferMidi: preferMidiEnabled,
+    preferMidi: midiPreference === MIDI_PREFERENCE.PREFER,
+    midiPreference: midiPreference,
   }
 
   const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
@@ -429,34 +440,52 @@ export default function NowPlayingPage(props) {
                 />
                 <div className="now-playing-page-media-sources-actions">
                   {tuneHasMidiNotes(playingTune, props.tunebook) ? (
-                    <Button
-                      type="button"
-                      variant={preferMidiEnabled ? 'secondary' : 'outline-secondary'}
+                    <ButtonGroup
                       size="sm"
-                      className="now-playing-page-prefer-midi"
-                      aria-label={preferMidiEnabled ? 'MIDI preferred' : 'Prefer MIDI'}
-                      aria-pressed={preferMidiEnabled}
-                      title={preferMidiEnabled
-                        ? 'Prefer MIDI — play and next/prev use ABC MIDI when available'
-                        : 'Prefer audio — play and next/prev use media links when available'}
-                      data-testid="now-playing-prefer-midi"
-                      onClick={handlePreferMidiToggle}
+                      className="now-playing-page-midi-preference-group"
+                      role="group"
+                      aria-label="MIDI preference"
+                      data-testid="now-playing-midi-preference"
                     >
-                      <span className="now-playing-page-prefer-midi-content">
-                        <input
-                          type="checkbox"
-                          className="form-check-input now-playing-page-prefer-midi-check"
-                          checked={preferMidiEnabled}
-                          readOnly
-                          tabIndex={-1}
-                          aria-hidden="true"
-                        />
-                        <span className="now-playing-page-prefer-midi-icon" aria-hidden="true">
-                          {props.tunebook.icons.midi}
+                      <Button
+                        type="button"
+                        variant="outline-secondary"
+                        size="sm"
+                        className="now-playing-page-midi-preference-icon-btn"
+                        tabIndex={-1}
+                        aria-hidden="true"
+                        disabled
+                      >
+                        <span className="now-playing-page-midi-preference-icon-stack">
+                          <span className="now-playing-page-midi-preference-icon">
+                            {props.tunebook.icons.midi}
+                          </span>
+                          <span className="now-playing-page-midi-preference-icon-label">MIDI</span>
                         </span>
-                        <span className="now-playing-page-prefer-midi-label">MIDI</span>
-                      </span>
-                    </Button>
+                      </Button>
+                      {[
+                        { mode: MIDI_PREFERENCE.SKIP, label: 'Skip', testId: 'now-playing-midi-skip' },
+                        { mode: MIDI_PREFERENCE.ALLOW, label: 'Allow', testId: 'now-playing-midi-allow' },
+                        { mode: MIDI_PREFERENCE.PREFER, label: 'Prefer', testId: 'now-playing-midi-prefer' },
+                      ].map(function(option) {
+                        const selected = midiPreference === option.mode
+                        return (
+                          <Button
+                            key={option.mode}
+                            type="button"
+                            variant={selected ? 'secondary' : 'outline-secondary'}
+                            size="sm"
+                            className="now-playing-page-midi-preference-btn"
+                            aria-pressed={selected}
+                            title={MIDI_PREFERENCE_TITLES[option.mode]}
+                            data-testid={option.testId}
+                            onClick={function() { handleMidiPreferenceChange(option.mode) }}
+                          >
+                            {option.label}
+                          </Button>
+                        )
+                      })}
+                    </ButtonGroup>
                   ) : null}
                   {typeof props.onOpenLinksEditor === 'function' ? (
                     <Button

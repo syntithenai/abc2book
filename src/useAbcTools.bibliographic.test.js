@@ -108,6 +108,33 @@ describe('useAbcTools bibliographic fields', function() {
     expect(abcTools.abc2json(exported).lyricsScrollDurationSec).toBe(158);
   });
 
+  test('does not re-emit primary headers like X from tune.meta (avoids blank notation)', function() {
+    const tune = {
+      id: 'x-meta',
+      name: 'Meta X Tune',
+      meter: '6/8',
+      noteLength: '1/8',
+      rhythm: 'Jig',
+      tempo: 100,
+      key: 'D',
+      meta: {
+        X: 8,
+        F: 'recording.mp3 Some title',
+      },
+      voices: {
+        '1': { notes: ['A|"D"BAF DFA|'] },
+      },
+    };
+    const exported = abcTools.json2abc(tune);
+    const xHeaders = exported.split('\n').filter(function(line) {
+      return /^X:/i.test(String(line || '').trim());
+    });
+    expect(xHeaders.length).toBe(1);
+    expect(exported).toContain('BAF DFA');
+    // File URL meta is still allowed as a catch-all header.
+    expect(exported).toMatch(/^F:/m);
+  });
+
   test('does not export tablature settings (device-local); still parses legacy ABC for migration', function() {
     const tune = {
       id: 'tab-test',

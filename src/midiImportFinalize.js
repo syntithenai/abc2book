@@ -1,5 +1,71 @@
 import { buildTimedChordsFromDetection } from './timedChordsModel';
 import { deriveChordSymbols } from './timedAbcDeriver';
+import { rewrapAbcBarsPerLine } from './bookImportAbcTransforms';
+
+function isMusicBodyLine(line) {
+  const text = String(line || '').trim();
+  if (!text || text.charAt(0) === '%') return false;
+  if (/^[A-Za-z]:/.test(text)) return false;
+  return true;
+}
+
+/** Strip blank lines between headers and first music body line (abcjs truncation risk). */
+export function stripBlankLinesBeforeMusic(abc) {
+  const lines = String(abc || '').split('\n');
+  let firstMusic = -1;
+  for (let i = 0; i < lines.length; i += 1) {
+    if (isMusicBodyLine(lines[i])) {
+      firstMusic = i;
+      break;
+    }
+  }
+  if (firstMusic < 0) return String(abc || '');
+  const header = lines.slice(0, firstMusic);
+  const body = lines.slice(firstMusic);
+  while (header.length && !String(header[header.length - 1] || '').trim()) header.pop();
+  while (body.length && !String(body[0] || '').trim()) body.shift();
+  return header.concat(body).join('\n').replace(/\s+$/, '') + '\n';
+}
+
+/** Ensure last music line ends with || (or keep existing final barline forms). */
+export function ensureFinalBarline(abc) {
+  const lines = String(abc || '').split('\n');
+  if (!lines.length) return String(abc || '');
+  let lastMusic = -1;
+  for (let i = lines.length - 1; i >= 0; i -= 1) {
+    if (isMusicBodyLine(lines[i])) {
+      lastMusic = i;
+      break;
+    }
+  }
+  if (lastMusic < 0) return String(abc || '');
+  let line = String(lines[lastMusic] || '').replace(/\s+$/, '');
+  if (/(?:\|\]|\|\|)\s*$/.test(line)) {
+    return lines.join('\n').replace(/\s+$/, '') + '\n';
+  }
+  if (/(?:\|:|:\||::)\s*$/.test(line)) {
+    return lines.join('\n').replace(/\s+$/, '') + '\n';
+  }
+  if (line.endsWith('|')) {
+    lines[lastMusic] = line + '|';
+  } else {
+    lines[lastMusic] = line + '||';
+  }
+  return lines.join('\n').replace(/\s+$/, '') + '\n';
+}
+
+/** Safe MIDI emit polish: blank-line strip + final || (no folk/OMR inventing). */
+export function safeAutofixMidiAbc(abc) {
+  if (!String(abc || '').trim()) return abc || '';
+  let text = stripBlankLinesBeforeMusic(abc || '');
+  // Melody only: recover from 1-bar-per-line / sparse MusicXML emits.
+  if (!/^V:/m.test(text) && !/^\[V:/m.test(text)) {
+    text = rewrapAbcBarsPerLine(text, 8);
+  }
+  text = ensureFinalBarline(text);
+  text = text.replace(/\n{3,}/g, '\n\n');
+  return text.replace(/\s+$/, '') + '\n';
+}
 
 function splitAbcHeadersAndBody(abc) {
   const lines = String(abc || '').split('\n');
@@ -112,5 +178,5 @@ export function finalizeMidiImportAbc(abc, importResult, abcjsParser, options) {
       importResult.harmonyVoiceName
     );
   }
-  return merged;
+  return safeAutofixMidiAbc(merged);
 }

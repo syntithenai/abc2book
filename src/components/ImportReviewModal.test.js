@@ -44,11 +44,6 @@ jest.mock('./AddFromDropdown', function() {
       ),
       React.createElement(
         'button',
-        { type: 'button', 'data-testid': 'add-from-reviewed' },
-        'Import Reviewed Images'
-      ),
-      React.createElement(
-        'button',
         { type: 'button', 'data-testid': 'add-from-import-book' },
         'Import scans or PDF'
       ),
@@ -75,13 +70,6 @@ jest.mock('./ImportBookWizardModal', function() {
     return null
   }
 })
-
-jest.mock('./ImportReviewedImagesPanel', function() {
-  const React = require('react');
-  return function ImportReviewedImagesPanel() {
-    return React.createElement('div', { 'data-testid': 'import-reviewed-images-panel' }, 'Reviewed images panel');
-  };
-});
 
 jest.mock('react-bootstrap', function() {
   const React = require('react');
@@ -563,7 +551,7 @@ describe('ImportReviewModal', function() {
     const bulkButton = view.container.querySelector('[data-testid="add-from-bulk"]');
     expect(bulkButton).toBeTruthy();
     expect(bulkButton.textContent).toContain('Bulk Import');
-    expect(view.container.querySelector('[data-testid="add-from-reviewed"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="add-from-reviewed"]')).toBeFalsy();
     expect(view.container.querySelector('[data-testid="add-from-import-book"]')).toBeTruthy();
     expect(view.container.querySelector('[data-testid="add-curated-collections"]')).toBeTruthy();
 

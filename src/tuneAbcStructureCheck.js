@@ -89,14 +89,17 @@ function eventDurationWithTuplet(ev, tupletState) {
 
 /**
  * Drop the closing underfull when anacrusis + last bar together fill one measure.
- * (Last bar often ends with || so it is not flagged isFinal.)
+ * Uses parsed pickup length and/or section pickups after |: (folk repeats).
  */
-function suppressAnacrusisComplementUnderfull(results, parsedTune, beatLen, beatsPerBar) {
+function suppressAnacrusisComplementUnderfull(results, parsedTune, beatLen, beatsPerBar, sectionPickupBeats) {
   const pickupLen = parsedTune && typeof parsedTune.getPickupLength === 'function'
     ? parsedTune.getPickupLength()
     : 0;
-  if (!(pickupLen > EPSILON) || !beatLen || !beatsPerBar) return results;
-  const pickupBeats = pickupLen / beatLen;
+  let pickupBeats = pickupLen > EPSILON && beatLen ? pickupLen / beatLen : 0;
+  if (sectionPickupBeats > EPSILON) {
+    pickupBeats = Math.max(pickupBeats, sectionPickupBeats);
+  }
+  if (!(pickupBeats > EPSILON) || !beatsPerBar) return results;
 
   const lastUnderfullIdxByVoice = {};
   results.forEach(function(row, idx) {
@@ -117,12 +120,41 @@ function suppressAnacrusisComplementUnderfull(results, parsedTune, beatLen, beat
     }
   });
 
+  // Also drop strain-end underfulls before a later section pickup (multi-strain polskas).
+  results.forEach(function(row, idx) {
+    if (!row || row.type !== 'underfull' || row.isPickup || drop[idx]) return;
+    if (Math.abs((row.barBeats + pickupBeats) - beatsPerBar) <= EPSILON) {
+      drop[idx] = true;
+    }
+  });
+
   return results.filter(function(_row, idx) { return !drop[idx]; });
+}
+
+function beatsPerBarFromMeterEvent(ev, beatLen, fallback) {
+  if (!(beatLen > 0) || !ev) return fallback;
+  let num = null;
+  let den = null;
+  if (Array.isArray(ev.value) && ev.value[0]) {
+    num = parseFloat(ev.value[0].num);
+    den = parseFloat(ev.value[0].den);
+  } else if (ev.num != null && ev.den != null) {
+    num = parseFloat(ev.num);
+    den = parseFloat(ev.den);
+  }
+  if (!(num > 0) || !(den > 0)) return fallback;
+  // Bar length in wholes is num/den; convert to beat units used by note durations.
+  return (num / den) / beatLen;
+}
+
+function isLeftRepeatBar(ev) {
+  const t = String((ev && ev.type) || '');
+  return t.indexOf('left_repeat') >= 0 || t === 'bar_left_repeat';
 }
 
 export function analyzeVoiceBarDurations(parsedTune) {
   if (!parsedTune || typeof parsedTune.getBeatsPerMeasure !== 'function') return [];
-  const beatsPerBar = parsedTune.getBeatsPerMeasure();
+  const headerBeatsPerBar = parsedTune.getBeatsPerMeasure();
   const beatLen = parsedTune.getBeatLength();
   if (!beatLen) return [];
 
@@ -134,27 +166,43 @@ export function analyzeVoiceBarDurations(parsedTune) {
     let barNumber = 1;
     let barBeats = 0;
     let isPickupBar = parsedTune.getPickupLength() > EPSILON;
+    let expectSectionPickup = false;
+    let sectionPickupBeats = 0;
     let tupletState = { multiplier: 1 };
+    let beatsPerBar = headerBeatsPerBar;
 
     events.forEach(function(ev) {
-      if (ev.el_type === 'bar') {
+      if (ev.el_type === 'meter' || ev.el_type === 'timeSignature') {
+        beatsPerBar = beatsPerBarFromMeterEvent(ev, beatLen, beatsPerBar);
+      } else if (ev.el_type === 'bar') {
         if (barBeats > EPSILON) {
-          const capacity = isPickupBar ? parsedTune.getPickupLength() / beatLen : beatsPerBar;
-          const diff = barBeats - capacity;
-          if (Math.abs(diff) > EPSILON) {
-            results.push({
-              voiceKey: voiceKey,
-              barIndex: barNumber,
-              barBeats: barBeats,
-              capacity: capacity,
-              type: diff < 0 ? 'underfull' : 'overfull',
-              isPickup: isPickupBar,
-            });
+          const treatAsPickup = isPickupBar || (
+            expectSectionPickup && barBeats + EPSILON < beatsPerBar
+          );
+          if (treatAsPickup) {
+            if (expectSectionPickup) {
+              sectionPickupBeats = Math.max(sectionPickupBeats, barBeats);
+            }
+            // Known/section pickup — do not flag underfull.
+          } else {
+            const capacity = beatsPerBar;
+            const diff = barBeats - capacity;
+            if (Math.abs(diff) > EPSILON) {
+              results.push({
+                voiceKey: voiceKey,
+                barIndex: barNumber,
+                barBeats: barBeats,
+                capacity: capacity,
+                type: diff < 0 ? 'underfull' : 'overfull',
+                isPickup: false,
+              });
+            }
           }
         }
         barNumber += 1;
         barBeats = 0;
         isPickupBar = false;
+        expectSectionPickup = isLeftRepeatBar(ev);
         tupletState = { multiplier: 1 };
       } else if (ev.duration) {
         const scaled = eventDurationWithTuplet(ev, tupletState);
@@ -164,23 +212,42 @@ export function analyzeVoiceBarDurations(parsedTune) {
     });
 
     if (barBeats > EPSILON) {
-      const capacity = isPickupBar ? parsedTune.getPickupLength() / beatLen : beatsPerBar;
-      const diff = barBeats - capacity;
-      if (Math.abs(diff) > EPSILON) {
-        results.push({
-          voiceKey: voiceKey,
-          barIndex: barNumber,
-          barBeats: barBeats,
-          capacity: capacity,
-          type: diff < 0 ? 'underfull' : 'overfull',
-          isPickup: isPickupBar,
-          isFinal: true,
-        });
+      const treatAsPickup = isPickupBar || (
+        expectSectionPickup && barBeats + EPSILON < beatsPerBar
+      );
+      if (treatAsPickup) {
+        if (expectSectionPickup) {
+          sectionPickupBeats = Math.max(sectionPickupBeats, barBeats);
+        }
+      } else {
+        const capacity = beatsPerBar;
+        const diff = barBeats - capacity;
+        if (Math.abs(diff) > EPSILON) {
+          results.push({
+            voiceKey: voiceKey,
+            barIndex: barNumber,
+            barBeats: barBeats,
+            capacity: capacity,
+            type: diff < 0 ? 'underfull' : 'overfull',
+            isPickup: false,
+            isFinal: true,
+          });
+        }
       }
     }
+
+    results._sectionPickupBeats = Math.max(results._sectionPickupBeats || 0, sectionPickupBeats);
   });
 
-  return suppressAnacrusisComplementUnderfull(results, parsedTune, beatLen, beatsPerBar);
+  const sectionPickupBeats = results._sectionPickupBeats || 0;
+  delete results._sectionPickupBeats;
+  return suppressAnacrusisComplementUnderfull(
+    results,
+    parsedTune,
+    beatLen,
+    headerBeatsPerBar,
+    sectionPickupBeats
+  );
 }
 
 function countBarsInVoiceEvents(events) {
@@ -189,7 +256,12 @@ function countBarsInVoiceEvents(events) {
 }
 
 function findEmptyBarNumbers(flat) {
-  const parts = String(flat || '').split('|');
+  // Mask || so double-barlines are not treated as an empty measure between pipes.
+  // Also collapse `| |:` strain wraps (line ended with |, next began |:) — not empty bars.
+  let text = String(flat || '').replace(/\|\|/g, '\x00DB\x00');
+  text = text.replace(/\|\s*\|:/g, '|:');
+  text = text.replace(/:\|\s*\|:/g, ':|:');
+  const parts = text.split('|');
   const emptyBars = [];
   for (let i = 1; i < parts.length - 1; i += 1) {
     const segment = String(parts[i]);
@@ -264,28 +336,83 @@ function checkRepeatStructure(noteLines) {
   let currentEnding = null;
   let unmatchedEnd = false;
   let hasRepeatMark = false;
+  let lastBoundaryEnd = 0;
 
-  const tokens = flat.match(/\|:|:\||::|\|\||\[[0-9]+\]|\|:\d|\[[0-9]+(?=[^\]])/g) || [];
-  const hasRepeatToken = /\|:|:\||::/.test(flat);
-  tokens.forEach(function(token) {
+  let lastRepeatWasDouble = false;
+
+  // :|: and :|1,3 before :|; |1,3 before |: so voltas / mid-repeats are single tokens.
+  const re = /:\|:|:\|[\d,]+|\|[\d,]+|\|:|:\||::|\|\||\[[0-9]+\]|\[[0-9]+(?=[^\]])/g;
+  const hasRepeatToken = /:\|:|\|:|:\||::/.test(flat);
+  let match;
+  while ((match = re.exec(flat)) !== null) {
+    const token = match[0];
+    const idx = match.index;
+    const sinceLast = flat.slice(lastBoundaryEnd, idx);
+    const hasNotesSince = /[A-Ga-gzZ]/.test(sinceLast);
+
     if (token === '|:') {
       hasRepeatMark = true;
-      repeatDepth += 1;
-    } else if (token === '::') {
+      lastRepeatWasDouble = false;
+      if (repeatDepth > 0 && hasNotesSince) {
+        // Mid-tune |: after an open repeat — treat as :|: (end strain + start next).
+        // Common in MuseScore/xml2abc exports that omit the leading colon (e.g. G6 |: D2).
+        inEnding = false;
+        currentEnding = null;
+        lastRepeatWasDouble = true;
+      } else {
+        repeatDepth += 1;
+      }
+      lastBoundaryEnd = idx + token.length;
+    } else if (token === '::' || token === ':|:') {
       hasRepeatMark = true;
-      if (repeatDepth <= 0) unmatchedEnd = true;
-      // :: is :| |: in one token — close and reopen without changing depth.
-    } else if (token === ':|') {
-      hasRepeatMark = true;
-      if (repeatDepth <= 0) unmatchedEnd = true;
-      else repeatDepth -= 1;
+      lastRepeatWasDouble = true;
+      if (repeatDepth <= 0 && !hasNotesSince) unmatchedEnd = true;
+      // close+reopen — depth unchanged when already open; implied open when notes precede.
+      if (repeatDepth <= 0 && hasNotesSince) {
+        // implied open then reopen — stay at depth 1 effectively via reopen
+        repeatDepth = 1;
+      }
+      lastBoundaryEnd = idx + token.length;
       inEnding = false;
       currentEnding = null;
-    } else if (token === '||') {
-      // Double bar is a strain separator, not a repeat end — open |: needs :| before ||.
-    } else if (/^\[[0-9]+\]$/.test(token) || /^\[[0-9]+$/.test(token)) {
+    } else if (/^:\|[\d,]+$/.test(token)) {
+      // :|2 or :|2,4 — close repeat and enter short volta ending(s).
       hasRepeatMark = true;
-      if (repeatDepth <= 0 && !hasRepeatToken) {
+      lastRepeatWasDouble = false;
+      if (repeatDepth > 0) {
+        repeatDepth -= 1;
+      } else if (!hasNotesSince && !inEnding) {
+        unmatchedEnd = true;
+      }
+      inEnding = true;
+      currentEnding = '[' + token.replace(/^:\|/, '').split(',')[0] + ']';
+      if (!endingBars[currentEnding]) endingBars[currentEnding] = 0;
+      lastBoundaryEnd = idx + token.length;
+    } else if (token === ':|') {
+      hasRepeatMark = true;
+      lastRepeatWasDouble = false;
+      if (repeatDepth > 0) {
+        repeatDepth -= 1;
+        inEnding = false;
+        currentEnding = null;
+      } else if (inEnding) {
+        // Closing a volta ending without a new |: is normal.
+        inEnding = false;
+        currentEnding = null;
+      } else if (hasNotesSince) {
+        // Folk-style implied |: … :| for this strain.
+      } else {
+        unmatchedEnd = true;
+      }
+      lastBoundaryEnd = idx + token.length;
+    } else if (token === '||') {
+      inEnding = false;
+      currentEnding = null;
+      lastBoundaryEnd = idx + token.length;
+    } else if (/^\|[\d,]+$/.test(token)) {
+      hasRepeatMark = true;
+      lastRepeatWasDouble = false;
+      if (repeatDepth <= 0 && !hasRepeatToken && !hasNotesSince) {
         issues.push(issue(
           'ending_without_repeat',
           'First/second ending ' + token + ' without enclosing repeat',
@@ -293,12 +420,25 @@ function checkRepeatStructure(noteLines) {
         ));
       }
       inEnding = true;
-      currentEnding = token;
+      currentEnding = '[' + token.slice(1).split(',')[0] + ']';
       if (!endingBars[currentEnding]) endingBars[currentEnding] = 0;
-    } else if (token === '|' && inEnding && currentEnding) {
-      endingBars[currentEnding] += 1;
+      lastBoundaryEnd = idx + token.length;
+    } else if (/^\[[0-9]+\]$/.test(token) || /^\[[0-9]+$/.test(token)) {
+      hasRepeatMark = true;
+      lastRepeatWasDouble = false;
+      if (repeatDepth <= 0 && !hasRepeatToken && !hasNotesSince) {
+        issues.push(issue(
+          'ending_without_repeat',
+          'First/second ending ' + token + ' without enclosing repeat',
+          'error'
+        ));
+      }
+      inEnding = true;
+      currentEnding = token.indexOf(']') >= 0 ? token : (token + ']');
+      if (!endingBars[currentEnding]) endingBars[currentEnding] = 0;
+      lastBoundaryEnd = idx + token.length;
     }
-  });
+  }
 
   if (repeatDepth > 0) {
     if (hasOpenRepeatBeforeDoubleBar(flat)) {
@@ -310,6 +450,9 @@ function checkRepeatStructure(noteLines) {
         'warning',
         { repeatCount: repeatDepth }
       ));
+    } else if (lastRepeatWasDouble && repeatDepth === 1) {
+      // MuseScore/xml2abc often ends the final :: strain without a closing :|.
+      // Treat EOF as an implied repeat end when the last mid-repeat was :: / :|:.
     } else {
       const message = repeatDepth === 1
         ? 'Repeat start |: has no matching end'
@@ -577,14 +720,16 @@ export function checkTuneAbcStructure(tune, options) {
       ));
     }
     if (underfull.length > 0) {
-      const bar = underfull[0];
-      const label = bar.isPickup ? 'pickup/anacrusis bar' : 'bar ' + bar.barIndex;
-      issues.push(issue(
-        'underfull_bar',
-        label.charAt(0).toUpperCase() + label.slice(1) + ' is incomplete',
-        'warning',
-        { barIndex: bar.barIndex, voiceKey: bar.voiceKey }
-      ));
+      // Skip pickup/anacrusis underfulls — padding rests misaligns chord fill.
+      const bar = underfull.find(function(row) { return !row.isPickup; }) || null;
+      if (bar) {
+        issues.push(issue(
+          'underfull_bar',
+          'Bar ' + bar.barIndex + ' is incomplete',
+          'warning',
+          { barIndex: bar.barIndex, voiceKey: bar.voiceKey }
+        ));
+      }
     }
 
     issues.push.apply(issues, checkVoiceParity(parsedTune, tune));

@@ -24,6 +24,7 @@ import {
   buildVisualChordRepeatTokens,
 } from './playbackFillPattern'
 import abcjs from 'abcjs'
+import { getFillStyleDefinition, resolveFillPlaybackOptions } from './playbackFillSettings'
 import { applyRhythmPreset } from './drumPatternPresets'
 import { buildFillRhythmContext } from './fillDrumRhythm'
 
@@ -45,6 +46,58 @@ describe('playbackFillPattern', function() {
     expect(soundingTransposeSemitones(-5, -5)).toBe(0)
     expect(soundingTransposeSemitones(-5, 0)).toBe(-5)
     expect(soundingTransposeSemitones(0, -5)).toBe(5)
+  })
+
+  test('Josefins Dopvals fill stays aligned when first section repeats', function() {
+    const abc = [
+      'X:1',
+      'T: Josefins Dopvals',
+      'M:3/4',
+      'L:1/4',
+      'Q: 1/4=100',
+      'K:F',
+      'V:1',
+      'z"C7"C \\',
+      '| "F"CFG | AcB | AGF | C2D \\',
+      '| "Bb"B,>B,B, |',
+      '|1,3 "C"DFE | "Gm"D3 | "C7"C3 \\',
+      ':|2,4 "Bb"[DB,]EF | "C7"G3- | G  A B :|',
+      '|: "F"cAc | f2e | "Bb"d3 | "F"c3 | "Gm"Bdc | "Bb"BAG | "C7"A>BA | "C7"GAB |',
+    ].join('\n')
+    const visualObj = abcjs.renderAbc('*', abc)[0]
+    const fillOpts = resolveFillPlaybackOptions({
+      playbackFillStyle: 'block',
+      playbackFillLevel: 100,
+    })
+    const sequence = buildPlaybackSequence(visualObj, {
+      fillOptions: fillOpts,
+      chordsOff: true,
+    })
+    const melodyNotes = sequence.tracks[0].filter(function(ev) { return ev.cmd === 'note' })
+    const fillNotes = sequence.tracks.slice(1).reduce(function(acc, track) {
+      return acc.concat(track.filter(function(ev) { return ev.cmd === 'note' }))
+    }, [])
+
+    // After ending 1 (at 6.5), pass 2 returns to the F body (pickup not replayed).
+    const repeatStartWhole = 6.5
+    const melodyAtRepeat = melodyNotes.filter(function(ev) {
+      return ev.start >= repeatStartWhole - 0.01 && ev.start < repeatStartWhole + 0.5
+    })
+    expect(melodyAtRepeat.length).toBeGreaterThan(0)
+
+    const fillAtRepeat = fillNotes.filter(function(ev) {
+      return ev.start >= repeatStartWhole - 0.01 && ev.start < repeatStartWhole + 0.5
+    })
+    expect(fillAtRepeat.length).toBeGreaterThan(0)
+    fillAtRepeat.forEach(function(ev) {
+      expect(ev.start).toBeGreaterThanOrEqual(repeatStartWhole - 0.01)
+    })
+
+    const expanded = extractExpandedChordChangesFromVisualObj(visualObj)
+    const melodyWhole = melodyNotes.reduce(function(max, ev) {
+      return Math.max(max, ev.start + ev.duration)
+    }, 0)
+    expect(expanded.musicWhole).toBeCloseTo(melodyWhole, 3)
   })
 
   test('expandChordChangesThroughRepeats doubles a simple repeated strain', function() {
@@ -88,6 +141,44 @@ describe('playbackFillPattern', function() {
       return c.label === 'G' || c.label === 'B' || c.label === 'F'
     })
     expect(multiBar.length).toBeGreaterThan(0)
+  })
+
+  test('Dancing Pennies fill stays on melody downbeats with pickup before repeat', function() {
+    const abc = [
+      'X:1',
+      'T:Dancing Pennies',
+      'M:3/4',
+      'L:1/8',
+      'Q:1/4=100',
+      'K:C',
+      'z2|:"C"e3dc2|g3fe2|"G7"f4d2|d6|f3ed2|a3gf2|"C"g4e2|e2f2g2|',
+      '"F"a3fa2|c\'3ba2|"C"g6|e4e2|e2d2c2|g3fe2|"G7"d6-|d4:||',
+      '|:g2|"C"g3fe2|e2d2c2|"G7"B2g2g2|"F"A2f2f2|"C"G2e2e2|"G7"A2d2B2|"C"c6-|c4:||',
+      'z2|"C"c3Bcd|e3def|g3fg2|"F"c\'2b2a2|"C"g3fe2|"D7"e2d2c2|"G"d6-|"G7"d4ef|',
+      '"C"g2f2e2|e2d2c2|"G7"B2g2g2|"F"A2f2f2|"C"G2e2e2|"G7"A2d2B2|"C"c6-|c4||',
+    ].join('\n')
+    const visualObj = abcjs.renderAbc('*', abc)[0]
+    expect(visualObj.getPickupLength()).toBeCloseTo(0.25, 5)
+    const ms = visualObj.millisecondsPerMeasure()
+    const barDur = ms / 1000
+    const timeline = buildChordTimelineFromTune(null, null, null, visualObj, { barDurationSec: barDur })
+    const styleDef = getFillStyleDefinition('guitar-boom-chick')
+    const fillTracks = generatePlaybackFillTracks(timeline, 'guitar-boom-chick', 100)
+    const toWhole = secondsToWholeNotesFactor(ms, visualObj.getMeterFraction())
+    scaleSequenceTrackTimes(fillTracks, toWhole)
+    const bassNotes = fillTracks[0].filter(function(ev) {
+      return ev.cmd === 'note' && ev.instrument === styleDef.bassProgram
+    })
+    const melodyNotes = visualObj.setUpAudio({ chordsOff: true }).tracks[0]
+      .filter(function(ev) { return ev.cmd === 'note' })
+    const endWhole = melodyNotes[melodyNotes.length - 1].start
+    const downbeats = []
+    for (let t = 0.25; t <= endWhole + 1e-6; t += 0.75) downbeats.push(t)
+    let matched = 0
+    downbeats.forEach(function(db) {
+      if (bassNotes.some(function(n) { return Math.abs(n.start - db) < 0.03 })) matched += 1
+    })
+    expect(matched / downbeats.length).toBeGreaterThan(0.85)
   })
 
   test('buildChordTimelineFromTune matches melody when visualTranspose cancels midiTranspose', function() {
@@ -389,7 +480,7 @@ describe('playbackFillPattern', function() {
     expect(c.activeStartSec).toBeCloseTo(5.4, 5)
 
     const tracks = generatePlaybackFillTracks(
-      timeline.filter(function(e) { return e.label === 'G' || e.label === 'D7' }),
+      timeline.filter(function(e) { return e.label === 'D7' }),
       'boom-chick',
       100
     )
@@ -397,7 +488,14 @@ describe('playbackFillPattern', function() {
     const d7Bass = bass.filter(function(n) {
       return n.start >= d7.activeStartSec - 0.01 && n.start < d7.activeEndSec
     })
-    expect(d7Bass.length).toBe(0)
+    expect(d7Bass.length).toBeGreaterThan(0)
+    d7Bass.forEach(function(n) {
+      expect(n.start).toBeGreaterThanOrEqual(d7.activeStartSec - 0.01)
+    })
+    const earlyD7Bass = bass.filter(function(n) {
+      return n.start >= d7.startSec - 0.01 && n.start < d7.activeStartSec - 0.01
+    })
+    expect(earlyD7Bass.length).toBe(0)
   })
 
   test('applyPlaybackFillToSequence injects custom tracks', function() {

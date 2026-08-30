@@ -12,6 +12,7 @@ import { encodeAudioBuffer } from './audioCompressEncode'
 import { renderAbcToAudioBuffer } from './notationAudioExport'
 import { isFeedFeedbackAdmin } from './feedFeedbackUtils'
 import { saveBlobToDevice } from './nativeFileSave'
+import { prepareTunesForAbcExport } from './abcSnapshotEmbed'
 
 export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file (.abc)' },
@@ -312,9 +313,15 @@ export async function executeTuneDownload(formatId, options) {
 
   switch (formatId) {
     case 'abc': {
-      var abc = tunes.length === 1
-        ? abcTools.json2abc(tunes[0]).trim()
-        : abcTools.tunesToAbc(tunes)
+      var exportTunes = await prepareTunesForAbcExport(tunes, {
+        embedSnapshots: !!options.embedSnapshots,
+        token: token,
+        accessToken: token && token.access_token ? token.access_token : token,
+        driveApi: options.driveApi,
+      })
+      var abc = exportTunes.length === 1
+        ? abcTools.json2abc(exportTunes[0]).trim()
+        : abcTools.tunesToAbc(exportTunes)
       utils.download(archiveBaseName + '.abc', abc)
       return
     }

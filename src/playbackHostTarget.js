@@ -1,6 +1,7 @@
 /**
  * Resolve which engine (midi vs media link) the app-level NowPlayingHost should mount.
- * Ref-based route checks take precedence over React state to avoid stale MIDI wins.
+ * Explicit /playMidi|/playMedia URLs beat a stale committed route; ref-based route
+ * still beats lagged React state when the URL does not force an engine.
  */
 import { hasFilteredPlaybackVoices } from './abcVoiceViewSettings'
 
@@ -25,43 +26,44 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
     return 0
   }
 
+  // Deep-link /playMidi must win over a leftover YouTube/media route (restored
+  // queue, prior tune, etc.). /playMedia remains the URL that forces linked audio.
+  if (urlPlayback && urlPlayback.playState === 'playMidi' && hasMusic) {
+    return { type: 'midi' }
+  }
+
+  if (urlPlayback && urlPlayback.playState === 'playMedia' && hasLinks) {
+    // /playMedia URLs can lag behind an explicit MIDI request (navigate not
+    // flushed, or navigation suppressed). Prefer controller MIDI intent so the
+    // host does not flip midi↔media and remount Abc mid-kickoff.
+    const wantsMidiOverStaleMediaUrl = hasMusic && (
+      mediaController.requestedPlayState === 'playMidi'
+      || (
+        mediaController.requestedPlayState !== 'playMedia'
+        && mediaController.playbackRouteMode === 'midi'
+        && (
+          !!mediaController.isLoading
+          || !!(mediaController.pendingMidiPlayRef && mediaController.pendingMidiPlayRef.current)
+          || !!(mediaController.hasActivePlaybackIntent
+            && mediaController.hasActivePlaybackIntent())
+          || !!(mediaController.isMidiPlaybackRoute
+            && mediaController.isMidiPlaybackRoute())
+        )
+      )
+    )
+    if (!wantsMidiOverStaleMediaUrl) {
+      const linkNum = parseInt(urlPlayback.mediaLinkNumber, 10) || 0
+      return { type: 'media', linkNum: linkNum }
+    }
+    return { type: 'midi' }
+  }
+
   // Ref-based route beats stale React state (requestedPlayState / playbackRouteMode).
   if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute() && hasLinks) {
     return { type: 'media', linkNum: resolveActiveMediaLinkNum() }
   }
   if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute() && hasMusic) {
     return { type: 'midi' }
-  }
-
-  if (urlPlayback) {
-    if (urlPlayback.playState === 'playMedia' && hasLinks) {
-      // /playMedia URLs can lag behind an explicit MIDI request (navigate not
-      // flushed, or navigation suppressed). Prefer controller MIDI intent so the
-      // host does not flip midi↔media and remount Abc mid-kickoff.
-      const wantsMidiOverStaleMediaUrl = hasMusic && (
-        mediaController.requestedPlayState === 'playMidi'
-        || (
-          mediaController.requestedPlayState !== 'playMedia'
-          && mediaController.playbackRouteMode === 'midi'
-          && (
-            !!mediaController.isLoading
-            || !!(mediaController.pendingMidiPlayRef && mediaController.pendingMidiPlayRef.current)
-            || !!(mediaController.hasActivePlaybackIntent
-              && mediaController.hasActivePlaybackIntent())
-            || !!(mediaController.isMidiPlaybackRoute
-              && mediaController.isMidiPlaybackRoute())
-          )
-        )
-      )
-      if (!wantsMidiOverStaleMediaUrl) {
-        const linkNum = parseInt(urlPlayback.mediaLinkNumber, 10) || 0
-        return { type: 'media', linkNum: linkNum }
-      }
-      return { type: 'midi' }
-    }
-    if (urlPlayback.playState === 'playMidi' && hasMusic) {
-      return { type: 'midi' }
-    }
   }
 
   if (mediaController.requestedPlayState === 'playMedia' && hasLinks) {
@@ -120,8 +122,11 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
   return null
 }
 
-/** True when the host should avoid forcing a MIDI route (user chose media). */
-export function shouldSkipHostMidiRouteApply(mediaController) {
+/**
+ * True when the host should avoid forcing a MIDI route (user chose media).
+ * options.forceMidiFromUrl: /playMidi deep link must replace a leftover media route.
+ */
+export function shouldSkipHostMidiRouteApply(mediaController, options) {
   if (!mediaController) return true
   if (mediaController.notationMidiOwner) return true
   if (typeof mediaController.isAndroidNativePlaybackStarting === 'function'
@@ -130,6 +135,7 @@ export function shouldSkipHostMidiRouteApply(mediaController) {
   if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) {
     return false
   }
+  if (options && options.forceMidiFromUrl) return false
   if (mediaController.requestedPlayState === 'playMedia') return true
   if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute()) return true
   return false

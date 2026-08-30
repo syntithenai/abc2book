@@ -19,6 +19,7 @@ ALLOWED_ATTACHMENT_HOST_SUFFIXES = (
     "cpdl.org",
     "wikimedia.org",
     "upload.wikimedia.org",
+    "oldtimefiddletunes.net",
 )
 
 
@@ -33,6 +34,16 @@ def is_allowed_score_attachment_url(url):
     except Exception:
         return False
     return any(host == suffix or host.endswith("." + suffix) for suffix in ALLOWED_ATTACHMENT_HOST_SUFFIXES)
+
+
+def _guess_attachment_kind(url, content_type):
+    path = (urlparse(str(url or "")).path or "").lower()
+    ctype = str(content_type or "").lower()
+    if "pdf" in ctype or path.endswith(".pdf"):
+        return "pdf", "application/pdf"
+    if "midi" in ctype or path.endswith(".mid") or path.endswith(".midi"):
+        return "midi", "audio/midi"
+    return "", ""
 
 
 async def fetch_score_attachment_bytes(url):
@@ -52,6 +63,7 @@ async def fetch_score_attachment_bytes(url):
         if len(data) > MAX_SCORE_ATTACHMENT_BYTES:
             raise ValueError("Score attachment exceeds size limit")
         content_type = (response.headers.get("content-type") or "").lower()
-        if "pdf" not in content_type and not url.lower().endswith(".pdf"):
-            raise ValueError("Score attachment is not a PDF")
-        return data, content_type or "application/pdf"
+        kind, fallback_type = _guess_attachment_kind(url, content_type)
+        if not kind:
+            raise ValueError("Score attachment must be a PDF or MIDI file")
+        return data, content_type if content_type and "octet-stream" not in content_type else fallback_type

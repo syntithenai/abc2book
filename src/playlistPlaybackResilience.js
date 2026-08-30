@@ -5,6 +5,8 @@ import {
   resolvePlaybackForItem,
   isExternalQueueItem,
   tuneHasMidiNotes,
+  MIDI_PREFERENCE,
+  resolveMidiPreferenceOption,
 } from './nowPlayingQueue'
 import { isMediaLinkPlaybackCandidate } from './mediaLinkSrcType'
 import {
@@ -35,9 +37,9 @@ import {
   getActiveResolverAccessToken,
 } from './mediaResolverHealthStore'
 
-export function isQueueItemPlayable(tune, item, tunebook) {
+export function isQueueItemPlayable(tune, item, tunebook, options) {
   if (isExternalQueueItem(item)) return true
-  return !!resolvePlaybackForItem(tune, item, tunebook)
+  return !!resolvePlaybackForItem(tune, item, tunebook, options)
 }
 
 function linkLooksLikeOwnedRecording(link) {
@@ -89,11 +91,18 @@ export async function resolveFullyPlayablePlaybackForItem(tune, item, tunebook, 
   const prefer = item && item.prefer ? item.prefer : 'auto'
   const hasNotes = tuneHasMidiNotes(tune, tunebook)
   const firstLink = tune.links && tune.links[0]
-  const preferMidi = (!!opts.preferMidi || prefer === 'midi') && hasNotes
-  const autoMidiBecauseRecording = prefer === 'auto' && !opts.preferMidi && hasNotes && linkLooksLikeOwnedRecording(firstLink)
+  const midiPreference = resolveMidiPreferenceOption(opts)
+  const skipMidi = midiPreference === MIDI_PREFERENCE.SKIP
+  const forceMidi = midiPreference === MIDI_PREFERENCE.PREFER
+  const preferMidi = !skipMidi && (forceMidi || prefer === 'midi') && hasNotes
+  const autoMidiBecauseRecording = !skipMidi
+    && !forceMidi
+    && prefer === 'auto'
+    && hasNotes
+    && linkLooksLikeOwnedRecording(firstLink)
 
   async function midiTargetIfPlayable() {
-    if (!hasNotes) return null
+    if (skipMidi || !hasNotes) return null
     const target = { type: 'midi', linkNum: null }
     if (!isNavigatorOffline()) return target
     const ok = await isTuneOfflinePlayable(
@@ -114,7 +123,7 @@ export async function resolveFullyPlayablePlaybackForItem(tune, item, tunebook, 
   if (candidates.length > 0) {
     const preferred = item && item.linkIndex != null
       ? item.linkIndex
-      : (resolvePlaybackForItem(tune, item, tunebook, { preferMidi: !!opts.preferMidi }) || {}).linkNum
+      : (resolvePlaybackForItem(tune, item, tunebook, { midiPreference: midiPreference }) || {}).linkNum
     const start = typeof preferred === 'number' && preferred >= 0 ? preferred : candidates[0]
     const ordered = []
     if (candidates.indexOf(start) >= 0) ordered.push(start)
@@ -131,7 +140,7 @@ export async function resolveFullyPlayablePlaybackForItem(tune, item, tunebook, 
     return null
   }
 
-  if (prefer === 'media') return null
+  if (prefer === 'media' || skipMidi) return null
   return midiTargetIfPlayable()
 }
 
@@ -329,7 +338,11 @@ export async function advanceQueueToNextPlayable(queue, tunes, tunebook, options
       resolverStatus: opts.resolverStatus,
       resolverHealth: opts.resolverHealth,
       accessToken: opts.accessToken,
-      preferMidi: opts.preferMidi != null ? !!opts.preferMidi : !!workingQueue.preferMidi,
+      midiPreference: resolveMidiPreferenceOption({
+        midiPreference: opts.midiPreference,
+        preferMidi: opts.preferMidi,
+        queue: workingQueue,
+      }),
     }
     const playbackTarget = await resolveFullyPlayablePlaybackForItem(
       tune,

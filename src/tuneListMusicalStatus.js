@@ -1,3 +1,4 @@
+import { isPhotoOnlyTune } from './abcPhotoOnly'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
 
@@ -14,6 +15,7 @@ function considerIssues(result, flags) {
 /**
  * Cheap-enough musical flags for list grouping and icon color.
  * Skips renderAbc, lyrics alignment, extended/info checks, and metadata gaps.
+ * Photo-only stubs (snapshot is the source) are not flagged.
  */
 export function scanTuneMusicalIssueStatus(tune, options) {
   const opts = options || {}
@@ -27,6 +29,13 @@ export function scanTuneMusicalIssueStatus(tune, options) {
     skipRenderAbc: true,
   }
   if (typeof opts.abcText === 'string') checkOpts.abcText = opts.abcText
+  const abcText = typeof checkOpts.abcText === 'string'
+    ? checkOpts.abcText
+    : abcTools.json2abc(tune)
+  if (isPhotoOnlyTune(tune, abcText)) {
+    return { hasMusicalErrors: false, hasMusicalWarnings: false }
+  }
+  if (typeof checkOpts.abcText !== 'string') checkOpts.abcText = abcText
 
   const flags = { hasMusicalErrors: false, hasMusicalWarnings: false }
   considerIssues(checkTuneAbcCorrectness(tune, checkOpts), flags)

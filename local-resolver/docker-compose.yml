@@ -54,6 +54,8 @@ services:
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - "${MUSIC_COLLECTION_HOST_DIR:-./music-collection}:/music-collection:ro"
+      # Admin review projects (Milliner–Koken + oldtimefiddletunes working files).
+      - "${REVIEW_PROJECTS_HOST_DIR:-/home/stever/Documents/oldtime sources review}:/review-projects:ro"
       # Outside /app so uvicorn --reload does not scan the full repo/node_modules.
       - ../:/static/www:ro
       - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}/incoming:/audio-cpp-incoming"
@@ -70,6 +72,7 @@ services:
       SOUNDFONT_DIR: /soundfonts
       MIDI_RESOURCES_DIR: /midi-resources
       MUSIC_COLLECTION_DIR: /music-collection
+      REVIEW_PROJECTS_DIR: /review-projects
       # Always use the in-container index mount; do not pass through host
       # MUSIC_COLLECTION_INDEX_DIR (CLI scripts on the host set that separately).
       MUSIC_COLLECTION_INDEX_DIR: /app/data/music-collection

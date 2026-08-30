@@ -73,6 +73,13 @@ describe('abcImportNormalize', function() {
     expect(convertSessionLineBreaks(input)).toBe(input)
   })
 
+  test('convertSessionLineBreaks preserves !D.S.! and !<(! decorations', function() {
+    const input = miniAbc('"D" D3- DA G_G!D.S.! |]:$"Cm" EDC |')
+    expect(needsSessionLineBreakFix(input)).toBe(false)
+    expect(convertSessionLineBreaks(input)).toBe(input)
+    expect(convertSessionLineBreaks('A2 !<(! B2 !>)! |')).toBe('A2 !<(! B2 !>)! |')
+  })
+
   test('convertSessionLineBreaks handles |! at end of line and |! mid-line', function() {
     const input = 'A2 B2 |!\nC2 D2 |!\nE2 F2 |'
     const out = convertSessionLineBreaks(input)

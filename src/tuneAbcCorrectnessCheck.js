@@ -1,4 +1,5 @@
 import abcjs from 'abcjs';
+import { isPhotoOnlyTune } from './abcPhotoOnly';
 import { abcForAbcjs } from './melodyBarlineNormalize';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
 import { formatTuneDisplayName } from './tuneDisplayName';
@@ -39,6 +40,8 @@ export function checkTuneAbcCorrectness(tune, options) {
   const abcText = typeof opts.abcText === 'string'
     ? opts.abcText
     : abcTools.json2abc(tune);
+  // Crop-only stubs intentionally have no ABC notes.
+  if (isPhotoOnlyTune(tune, abcText)) return null;
   const abcForParse = abcForAbcjs(abcText);
   const noteLines = getNoteLines(tune);
 

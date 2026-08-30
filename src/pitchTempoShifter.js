@@ -31,7 +31,23 @@ export default class PitchTempoShifter {
     this._scheduledConnectTimer = null;
     this._soundtouchStartContextTime = null;
     this._soundtouchHoldOffset = 0;
+    this._soundtouchAwaitingFirstAudio = false;
     this._loggedFirstAudible = false;
+    // Swallow BufferSource/SoundTouch end events across live mode switches so
+    // a reconnect does not look like natural end → seek-to-0 / repeat.
+    this._suppressEndedUntil = 0;
+  }
+
+  _emitEnded() {
+    if (Date.now() < (this._suppressEndedUntil || 0)) return;
+    if (this._onEnded) this._onEnded();
+  }
+
+  _suppressEndedBriefly(ms) {
+    const until = Date.now() + (ms > 0 ? ms : 750);
+    if (until > (this._suppressEndedUntil || 0)) {
+      this._suppressEndedUntil = until;
+    }
   }
 
   setOnPitchOutputReady(callback) {
@@ -52,28 +68,69 @@ export default class PitchTempoShifter {
   getPlaybackRatio() {
     const duration = this.duration;
     if (!duration) return 0;
-    if (this._mode === 'direct') {
-      return clamp(this._getDirectPlaybackSeconds() / duration, 0, 1);
-    }
-    return this.shifter ? this.shifter.percentagePlayed / 100 : 0;
+    return clamp(this.getCurrentTime() / duration, 0, 1);
   }
 
-  /** Seconds into the rendered buffer (score/audio timeline), not wall clock. */
+  /**
+   * Seconds into the rendered buffer on the *audible* music timeline.
+   * SoundTouch timePlayed advances in ScriptProcessor chunks and can stall then
+   * jump (observed 0→2→4.8 freeze→9.5 at tempo 1.8), which made the cursor
+   * hitch on the first line. Drive the music clock from wall × user tempo
+   * (same as direct mode), anchored at connect/seek. When pitch ≠ 0 this also
+   * avoids source-rate skew from internalTempo = tempo/pitchRate.
+   */
   getCurrentTime() {
     if (this._mode === 'direct') {
       return Math.max(0, this._getDirectPlaybackSeconds());
     }
+    return Math.max(0, this._getSoundtouchWallMusicSeconds());
+  }
+
+  /** Wall-clock × tempo from the last connect/seek anchor. */
+  _getSoundtouchWallMusicSeconds() {
     if (this._scheduledConnectTimer && this._soundtouchStartContextTime != null) {
-      if (this.audioContext.currentTime < this._soundtouchStartContextTime) {
+      if (this.audioContext && this.audioContext.currentTime < this._soundtouchStartContextTime) {
         return Math.max(0, this._soundtouchHoldOffset || 0);
       }
+    }
+    // Hold the music clock at the seek/connect offset until SoundTouch reports
+    // real source progress — otherwise wall time races through the opening
+    // while the ScriptProcessor is still warming up (timePlayed stuck at 0).
+    if (this._soundtouchAwaitingFirstAudio) {
+      const played = this.shifter && typeof this.shifter.timePlayed === 'number'
+        ? this.shifter.timePlayed
+        : 0
+      if (played > 0.001 && this.audioContext) {
+        this._soundtouchAwaitingFirstAudio = false
+        this._soundtouchHoldOffset = Math.max(0, this._soundtouchHoldOffset || 0)
+        this._soundtouchStartContextTime = this.audioContext.currentTime
+      } else {
+        return Math.max(0, this._soundtouchHoldOffset || 0)
+      }
+    }
+    if (this._soundtouchStartContextTime != null && this.audioContext
+        && (this._connected || this._scheduledConnectTimer)) {
+      const elapsed = this.audioContext.currentTime - this._soundtouchStartContextTime;
+      if (elapsed >= 0) {
+        const tempo = this._tempo > 0 ? this._tempo : 1;
+        return Math.max(0, (this._soundtouchHoldOffset || 0) + elapsed * tempo);
+      }
+      return Math.max(0, this._soundtouchHoldOffset || 0);
+    }
+    if (this._soundtouchHoldOffset > 0) {
+      return this._soundtouchHoldOffset;
     }
     if (this.shifter && typeof this.shifter.timePlayed === 'number') {
       return Math.max(0, this.shifter.timePlayed);
     }
-    const duration = this.duration;
-    if (!duration) return 0;
-    return Math.max(0, this.getPlaybackRatio() * duration);
+    return 0;
+  }
+
+  _anchorSoundtouchMusicClock() {
+    if (!this.audioContext) return;
+    const musical = this._getSoundtouchWallMusicSeconds();
+    this._soundtouchHoldOffset = Math.max(0, musical);
+    this._soundtouchStartContextTime = this.audioContext.currentTime;
   }
 
   _applySoundTouchSettings() {
@@ -102,6 +159,7 @@ export default class PitchTempoShifter {
     }
 
     if (wasConnected && nextMode !== this._mode) {
+      this._suppressEndedBriefly(750);
       this.disconnect();
       this._mode = nextMode;
       if (this._mode === 'soundtouch') {
@@ -122,6 +180,10 @@ export default class PitchTempoShifter {
           this._signalPitchOutputReady();
         }
       } else if (this.shifter) {
+        // Re-anchor before tempo changes so wall-clock music seconds stay continuous.
+        if (wasConnected && this._mode === 'soundtouch') {
+          this._anchorSoundtouchMusicClock();
+        }
         this._applySoundTouchSettings();
       }
     }
@@ -203,6 +265,9 @@ export default class PitchTempoShifter {
     this.gainNode.connect(this.audioContext.destination)
     this._connected = true
     this._soundtouchStartContextTime = startContextTime
+    // Wall clock must not free-run before SoundTouch consumes source — that
+    // raced the cursor through the first line during processor warmup.
+    this._soundtouchAwaitingFirstAudio = true
     this._loggedFirstAudible = false
     this._startTimeUpdates()
   }
@@ -220,6 +285,7 @@ export default class PitchTempoShifter {
         }
         this.gainNode.connect(this.audioContext.destination);
         this._connected = true;
+        this._soundtouchAwaitingFirstAudio = false
         this._startTimeUpdates();
       } else {
         const ctx = this.audioContext
@@ -234,6 +300,7 @@ export default class PitchTempoShifter {
         if (delayMs > 25) {
           this._clearScheduledConnect()
           this._soundtouchStartContextTime = when
+          this._soundtouchAwaitingFirstAudio = true
           const self = this
           const pollConnect = function() {
             if (self._connected) return
@@ -282,6 +349,7 @@ export default class PitchTempoShifter {
     this._clearScheduledConnect()
     this._soundtouchStartContextTime = null
     this._soundtouchHoldOffset = 0
+    this._soundtouchAwaitingFirstAudio = false
     if (this._connected) {
       this._stopTimeUpdates();
       if (this._mode === 'direct') {
@@ -317,11 +385,12 @@ export default class PitchTempoShifter {
   }
 
   _createSoundTouchShifter(audioBuffer) {
+    const self = this;
     const shifter = new PitchShifter(
       this.audioContext,
       audioBuffer,
       BUFFER_SIZE,
-      this._onEnded || (() => {})
+      function() { self._emitEnded(); }
     );
     shifter.on('play', (detail) => {
       if (this._pitchOutputPending && this._mode === 'soundtouch' && this._connected) {
@@ -379,8 +448,8 @@ export default class PitchTempoShifter {
         self._connected = false
         self._stopTimeUpdates()
       }
-      if (!self._directStopIntent && self._onEnded) {
-        self._onEnded();
+      if (!self._directStopIntent) {
+        self._emitEnded();
       }
     };
     source.start(when, offset);
@@ -408,9 +477,7 @@ export default class PitchTempoShifter {
     this._stopTimeUpdates();
     this._timeUpdateTimer = setInterval(() => {
       if (!this._connected || !this._onTimeUpdate) return;
-      const seconds = this._mode === 'direct'
-        ? this._getDirectPlaybackSeconds()
-        : (this.shifter ? this.shifter.timePlayed : 0);
+      const seconds = this.getCurrentTime();
       const ratio = this.duration > 0 ? seconds / this.duration : 0;
       this._onTimeUpdate(seconds, ratio);
     }, 250);

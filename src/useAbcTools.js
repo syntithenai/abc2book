@@ -13,9 +13,14 @@ import {
   mergeBibliographicList,
   normalizeBibliographicFields,
   normalizeTuneGenres,
+  pushInfoHeaderValue,
+  renderAbcInfoHeaderLines,
   renderBibliographicComposerLines,
   renderBibliographicGenreLines,
   renderBibliographicTitleLines,
+  renderSourceBookCommentLines,
+  salvageBackgroundMetaSeeds,
+  splitSlashJoinedTitle,
 } from './tuneBibliographicUtils'
 import { renderTimedJsonFields, applyAbcbookJsonChunks, collectAbcbookJsonChunk, parseAbcbookJsonLine, LEGACY_TIMED_JSON_FIELDS } from './abcbookJsonFields'
 import { convertSessionLineBreaks } from './abcImportNormalize'
@@ -152,51 +157,51 @@ var useAbcTools = () => {
     }
     
    
-    function pushMeta(meta,key,line) {
+    function pushMeta(meta, key, line) {
         if (!meta) meta = {}
         if (!(meta.hasOwnProperty(key) && Array.isArray(meta[key]))) {
             meta[key] = []
         }
-        meta[key] = line
+        var text = String(line == null ? '' : line).trim()
+        if (text) meta[key].push(text)
         return meta
     }
 
-    var BACKGROUND_META_SEED_KEYS = [
-      { key: 'O', label: 'Origin' },
-      { key: 'S', label: 'Source' },
-      { key: 'Z', label: 'Transcription' },
-      { key: 'D', label: 'Discography' },
-      { key: 'A', label: 'Area' },
-      { key: 'N', label: 'Notes' },
-    ]
-
-    function formatMetaValueForBackground(value) {
-      if (Array.isArray(value)) {
-        return value.map(function(part) {
-          return String(part || '').trim()
-        }).filter(Boolean).join('; ')
-      }
-      return String(value || '').trim()
+    var ABC_LETTER_TO_INFO_FIELD = {
+      O: 'origin',
+      A: 'area',
+      S: 'source',
+      Z: 'transcription',
+      D: 'discography',
+      N: 'infoNotes',
     }
 
-    function foldBibliographicMetaIntoBackground(tune) {
-      if (!tune || !tune.meta || typeof tune.meta !== 'object') return tune
-      var parts = []
-      BACKGROUND_META_SEED_KEYS.forEach(function(entry) {
-        if (!Object.prototype.hasOwnProperty.call(tune.meta, entry.key)) return
-        var text = formatMetaValueForBackground(tune.meta[entry.key])
-        delete tune.meta[entry.key]
-        if (!text) return
-        parts.push('**' + entry.label + ':** ' + text)
-      })
-      if (parts.length === 0) return tune
-      var seed = parts.join('\n')
-      var existing = typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo.trim() : ''
-      tune.backgroundInfo = existing ? (existing + '\n\n' + seed) : seed
-      return tune
+    // Typed info headers are emitted separately; never re-emit from meta catch-all.
+    var TYPED_INFO_META_KEYS = {
+      O: true,
+      A: true,
+      S: true,
+      Z: true,
+      D: true,
+      N: true,
     }
-    
-    
+
+    // Primary headers json2abc already writes before otherHeaders. Re-emitting
+    // X: mid-header makes abcjs treat the rest as a second tune and drop notes.
+    var PRIMARY_EMITTED_META_KEYS = {
+      X: true,
+      T: true,
+      M: true,
+      L: true,
+      R: true,
+      Q: true,
+      K: true,
+      C: true,
+      B: true,
+      H: true,
+      G: true,
+    }
+
     function normalizeGenre(tune) {
         return normalizeTuneGenres(tune)
     }
@@ -216,14 +221,20 @@ var useAbcTools = () => {
     function renderOtherHeaders(tune) {
       if (tune && tune.meta) {
         return Object.keys(tune.meta).map(function(key) {
-          if (key === 'G' || INTERNAL_META_KEYS[key]) return ''
-          // exclude required headers
-          if (Array.isArray(tune.meta[key])) {
-            return tune.meta[key].map(function(metaLine) {
+          if (PRIMARY_EMITTED_META_KEYS[key] || INTERNAL_META_KEYS[key] || TYPED_INFO_META_KEYS[key]) {
+            return ''
+          }
+          var values = tune.meta[key]
+          if (Array.isArray(values)) {
+            return values.map(function(metaLine) {
               if (!isAbcHeaderMetaValue(metaLine)) return ''
-              return key + ": "+metaLine + "\n"
+              return key + ": " + metaLine + "\n"
             }).join("")
-          } else return ""
+          }
+          if (isAbcHeaderMetaValue(values)) {
+            return key + ": " + values + "\n"
+          }
+          return ""
         }).join("")
       } else {
          return "" 
@@ -263,19 +274,23 @@ var useAbcTools = () => {
     }
 
     
-    function abc2json(abc) {
+    function abc2json(abc, options) {
+      var opts = options && typeof options === 'object' ? options : {}
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genres: [], albums: [], noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
+        var tune = {id: null, name: null,books:[], sourceBooks: [], voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genres: [], albums: [], noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[], origin: [], area: [], source: [], transcription: [], discography: [], infoNotes: [], abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
         var currentVoice = '1'
         var pendingMidiPrograms = []
         var seenVoiceHeader = false
         var seenBodyVoiceSelector = false
+        var declaredVoiceKeys = {}
         var links = {}
          var files = {}
          var tuneFiles = {}
          var recordings = {}
          var abcbookJsonChunks = {}
          var hLines = []
+         var pendingBooks = []
+         var hadAbcbookTuneId = false
          abc.split("\n").forEach(function(line) {
             line = String(line || '').trim()
             if (!line) return
@@ -297,13 +312,36 @@ var useAbcTools = () => {
                         tune.wLines.push(line.slice(2).trim())
                         break
                     case "V":
-                        var parts = line.slice(2).trim().split(' ')
-                        if (parts[0]) {
-                            seenVoiceHeader = true
-                            tune.voices[parts[0]] = {meta: parts.slice(1).join(' '), notes:[]}
-                            currentVoice = parts[0]
-                            if (pendingMidiPrograms.length > 0) {
-                                tune.voices[parts[0]].notes.unshift('%%MIDI program ' + pendingMidiPrograms.shift())
+                        {
+                            var voiceParts = line.slice(2).trim().split(/\s+/).filter(Boolean)
+                            if (voiceParts[0]) {
+                                var voiceKey = voiceParts[0]
+                                var voiceMeta = voiceParts.slice(1).join(' ')
+                                // First V:N declares the voice; later bare V:N lines are body
+                                // selectors (xml2abc / multi-staff style) and must not wipe
+                                // clef/nm meta or notes already collected for that voice.
+                                var voiceAlreadyDeclared = Object.prototype.hasOwnProperty.call(
+                                    declaredVoiceKeys,
+                                    voiceKey
+                                )
+                                if (!voiceAlreadyDeclared) {
+                                    declaredVoiceKeys[voiceKey] = true
+                                    tune.voices[voiceKey] = {meta: voiceMeta, notes: []}
+                                    if (pendingMidiPrograms.length > 0) {
+                                        tune.voices[voiceKey].notes.unshift(
+                                            '%%MIDI program ' + pendingMidiPrograms.shift()
+                                        )
+                                    }
+                                } else {
+                                    if (voiceMeta) {
+                                        tune.voices[voiceKey].meta = voiceMeta
+                                    }
+                                    if (!Array.isArray(tune.voices[voiceKey].notes)) {
+                                        tune.voices[voiceKey].notes = []
+                                    }
+                                }
+                                seenVoiceHeader = true
+                                currentVoice = voiceKey
                             }
                         }
                         break
@@ -311,15 +349,20 @@ var useAbcTools = () => {
                         {
                             var titleText = line.slice(2).trim()
                             if (!tune.name) {
-                                tune.name = titleText
+                                var slashSplit = splitSlashJoinedTitle(titleText)
+                                if (slashSplit && slashSplit.split) {
+                                    tune.name = slashSplit.name
+                                    tune.aliases = mergeBibliographicList(tune.aliases, slashSplit.aliases)
+                                } else {
+                                    tune.name = titleText
+                                }
                             } else {
                                 tune.aliases = mergeBibliographicList(tune.aliases, titleText)
                             }
                         }
                         break
                     case "B":
-                        //if (!Array.isArray(tune.books)) tune.books = []
-                        tune.books.push(line.slice(2).trim().toLowerCase())
+                        pendingBooks.push(line.slice(2).trim())
                         break
                     case "M":
                         // only the first one
@@ -374,9 +417,16 @@ var useAbcTools = () => {
                                     }
                                 })
                             } else {
-                                tune.meta = pushMeta(tune.meta, "N", noteBody)
+                                pushInfoHeaderValue(tune, 'infoNotes', noteBody)
                             }
                         }
+                        break
+                    case "O":
+                    case "A":
+                    case "S":
+                    case "Z":
+                    case "D":
+                        pushInfoHeaderValue(tune, ABC_LETTER_TO_INFO_FIELD[key], line.slice(2).trim())
                         break
                     default:
                         tune.meta = pushMeta(tune.meta, key, line.slice(2).trim())
@@ -384,7 +434,10 @@ var useAbcTools = () => {
                 }
             } else if (isDataLine(line)) {
                 if (line.startsWith('% abcbook-tune_id')) {
+                    hadAbcbookTuneId = true
                     tune.id = line.slice(17).trim()
+                } else if (line.startsWith('% abcbook-source-book')) {
+                    pushInfoHeaderValue(tune, 'sourceBooks', abcbookFieldValue(line, '% abcbook-source-book'))
                 } else if (line.startsWith('% abcbook-tune_composer_id')) {
                     tune.composerId = line.slice(26).trim()
                 } else if (line.startsWith('% abcbook-boost')) {
@@ -583,8 +636,13 @@ var useAbcTools = () => {
                         if (parts.length > 1) {
                             var numberParts = parts[1].split(' ')
                             if (numberParts.length > 1) {
-                                if (!files[numberParts[0]]) files[numberParts[0]] = {}
-                                files[numberParts[0]].data = numberParts.slice(1).join(' ')
+                                var fileDataPayload = numberParts.slice(1).join(' ')
+                                if (tuneFiles[numberParts[0]] && tuneFiles[numberParts[0]].id) {
+                                    tuneFiles[numberParts[0]].data = fileDataPayload
+                                } else {
+                                    if (!files[numberParts[0]]) files[numberParts[0]] = {}
+                                    files[numberParts[0]].data = fileDataPayload
+                                }
                             }
                         }
                     }
@@ -756,7 +814,20 @@ var useAbcTools = () => {
         if (hLines.length > 0 && !tune.backgroundInfo) {
           tune.backgroundInfo = hLines.join('\n')
         }
-        foldBibliographicMetaIntoBackground(tune)
+        // App-owned ABC keeps B: as tunebook membership. External imports with
+        // bAsSourceBook (forceBook path) treat B: as bibliographic source books.
+        if (opts.bAsSourceBook && !hadAbcbookTuneId) {
+          pendingBooks.forEach(function(book) {
+            pushInfoHeaderValue(tune, 'sourceBooks', book)
+          })
+          tune.books = []
+        } else {
+          pendingBooks.forEach(function(book) {
+            var bookName = String(book || '').trim().toLowerCase()
+            if (bookName) tune.books.push(bookName)
+          })
+        }
+        salvageBackgroundMetaSeeds(tune)
         normalizeBibliographicFields(tune)
         LEGACY_TIMED_JSON_FIELDS.forEach(function(fieldName) {
           delete tune[fieldName]
@@ -895,6 +966,9 @@ var useAbcTools = () => {
                 if (Array.isArray(file.pdfSegments) && file.pdfSegments.length > 0) {
                     tuneFilesRendered.push("% abcbook-file-pdf-segments-" + k + ' ' + JSON.stringify(file.pdfSegments))
                 }
+                if (file.data) {
+                    tuneFilesRendered.push("% abcbook-file-data-" + k + ' ' + ensureText(file.data, ""))
+                }
             })
         }
         if (tune.activeFile) {
@@ -922,6 +996,10 @@ var useAbcTools = () => {
             //voicesAnd Notes.push('|')
         //}
         var otherHeaders = renderOtherHeaders(tune)
+        var infoHeaderText = renderAbcInfoHeaderLines(tune).join("\n")
+        if (infoHeaderText) infoHeaderText += "\n"
+        var sourceBookComments = renderSourceBookCommentLines(tune).join("\n")
+        if (sourceBookComments) sourceBookComments += "\n"
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + titleHeaderText
                     + composerHeaderText
@@ -931,6 +1009,7 @@ var useAbcTools = () => {
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
                     + ensure(tune.rhythm, "R: "+  ensureText(tune.rhythm) + "\n" )
                     + tempoLine
+                    + infoHeaderText
                     + otherHeaders
                     + (tune.backgroundInfo && typeof tune.backgroundInfo === 'string' && tune.backgroundInfo.trim()
                       ? tune.backgroundInfo.trim().split('\n').map(function(l) { return 'H:' + l }).join('\n') + '\n'
@@ -941,6 +1020,7 @@ var useAbcTools = () => {
                     + (tune.timingScaffold ? '% abcbook-timing-scaffold true\n' : '')
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     + "% abcbook-tune_composer_id " + ensureText(tune.composerId) + "\n" 
+                    + sourceBookComments
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
                     + renderPlayalongTakesAbc(tune)
                     + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
@@ -968,11 +1048,15 @@ var useAbcTools = () => {
                     + "% abcbook-repeats " +  ensureText(tune.repeats,"1") + "\n" 
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')
                     + ((renderTimedJsonFields(tune).length > 0) ? renderTimedJsonFields(tune).join("\n") + "\n" : '')
-                    + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : "\n")) 
+                    // Do not ensureText/trim — that strips the trailing newline and glues
+                    // the next % abcbook-file-* line onto the last abc comment.
+                    + (Array.isArray(tune.abccomments) && tune.abccomments.length > 0
+                      ? tune.abccomments.join("\n") + "\n"
+                      : '')
                     + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     + ((tuneFilesRendered.length > 0) ? tuneFilesRendered.join("\n") + "\n" : '')
-                    + ((recordingsRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
-                    
+                    + ((recordingsRendered.length > 0) ? recordingsRendered.join("\n") + "\n" : '')
+
         
         return finalAbc
       } else {
@@ -1216,7 +1300,7 @@ var useAbcTools = () => {
      * TO JSON
      */
 
-    function abc2Tunebook(abc) {
+    function abc2Tunebook(abc, options) {
       // Deleted-tune tombstones and performance-set sections are appended to the
       // document as comment lines and are parsed separately. Strip them here so
       // they do not get turned into phantom tunes.
@@ -1228,7 +1312,7 @@ var useAbcTools = () => {
       var final = []
       var tuneBook = parts.forEach(function(v,k) {
         if (v && v.trim().length > 0) {
-          final.push(abc2json('X:'+v))
+          final.push(abc2json('X:'+v, options))
         } 
       })
       return final

@@ -116,6 +116,7 @@ import {
   queueOcrFromAddDraft,
   queueMediaAnalysisFromAddDraft,
 } from '../addAttachAnalyzeActions'
+import { hydrateEmbeddedTuneFileSnapshots } from '../abcSnapshotEmbed'
 import {
   getFileOcrReviewUiState,
   hideFileOcrReview,
@@ -913,12 +914,14 @@ export default function ImportReviewBridge(props) {
       merged.id = candidate.mergeTargetId
       mergeTuneCollectionExtras(merged, existing, candidate.tune)
       merged.lastUpdated = Date.now()
-      attachCandidateSourceFiles(merged, candidate, {
-        token: props.token,
-        driveApi: driveApi,
-        uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
-        resolverAvailable: resolverAvailable,
-        accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+      hydrateEmbeddedTuneFileSnapshots(merged).then(function(hydrated) {
+        return attachCandidateSourceFiles(hydrated, candidate, {
+          token: props.token,
+          driveApi: driveApi,
+          uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+          resolverAvailable: resolverAvailable,
+          accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+        })
       }).then(function(withFile) {
         tunebook.saveTune(withFile)
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -935,27 +938,29 @@ export default function ImportReviewBridge(props) {
         if (books.indexOf(book) === -1) books.push(book)
         tune.books = books
       }
-      // saveTune assigns id when missing
-      tunebook.saveTune(tune)
-      const savedId = tune.id
-      const saved = props.tunes && savedId ? (props.tunes[savedId] || tune) : tune
-      attachCandidateSourceFiles(saved, candidate, {
-        token: props.token,
-        driveApi: driveApi,
-        uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
-        resolverAvailable: resolverAvailable,
-        accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
-      }).then(function(withFile) {
-        if (withFile && withFile !== saved) tunebook.saveTune(withFile)
-        if (typeof props.forceRefresh === 'function') props.forceRefresh()
-        if (typeof done === 'function') done(withFile || saved || tune)
+      hydrateEmbeddedTuneFileSnapshots(tune).then(function(hydrated) {
+        // saveTune assigns id when missing
+        tunebook.saveTune(hydrated)
+        const savedId = hydrated.id
+        const saved = props.tunes && savedId ? (props.tunes[savedId] || hydrated) : hydrated
+        return attachCandidateSourceFiles(saved, candidate, {
+          token: props.token,
+          driveApi: driveApi,
+          uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+          resolverAvailable: resolverAvailable,
+          accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+        }).then(function(withFile) {
+          if (withFile && withFile !== saved) tunebook.saveTune(withFile)
+          if (typeof props.forceRefresh === 'function') props.forceRefresh()
+          if (typeof done === 'function') done(withFile || saved || hydrated)
+        })
       })
       fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
         dismissFieldLookup(jobId)
       })
       return
     }
-  }, [props, driveApi])
+  }, [props, driveApi, resolverAvailable])
 
   const finishAllCandidates = useCallback(function(updatedSession, done) {
     const tunebook = props.tunebook
@@ -976,10 +981,12 @@ export default function ImportReviewBridge(props) {
         merged.id = candidate.mergeTargetId
         mergeTuneCollectionExtras(merged, existing, candidate.tune)
         merged.lastUpdated = Date.now()
-        attachCandidateSourceFiles(merged, candidate, {
-          token: props.token,
-          driveApi: driveApi,
-          uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+        hydrateEmbeddedTuneFileSnapshots(merged).then(function(hydrated) {
+          return attachCandidateSourceFiles(hydrated, candidate, {
+            token: props.token,
+            driveApi: driveApi,
+            uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+          })
         }).then(function(withFile) {
           tunebook.saveTune(withFile)
           tunesSnapshot[candidate.mergeTargetId] = withFile
@@ -992,18 +999,20 @@ export default function ImportReviewBridge(props) {
           if (books.indexOf(book) === -1) books.push(book)
           tune.books = books
         }
-        tunebook.saveTune(tune)
-        attachCandidateSourceFiles(tune, candidate, {
-          token: props.token,
-          driveApi: driveApi,
-          uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
-          resolverAvailable: resolverAvailable,
-          accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
-        }).then(function(withFile) {
-          if (withFile && withFile.id) {
-            tunebook.saveTune(withFile)
-            tunesSnapshot[withFile.id] = withFile
-          }
+        hydrateEmbeddedTuneFileSnapshots(tune).then(function(hydrated) {
+          tunebook.saveTune(hydrated)
+          return attachCandidateSourceFiles(hydrated, candidate, {
+            token: props.token,
+            driveApi: driveApi,
+            uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+            resolverAvailable: resolverAvailable,
+            accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+          }).then(function(withFile) {
+            if (withFile && withFile.id) {
+              tunebook.saveTune(withFile)
+              tunesSnapshot[withFile.id] = withFile
+            }
+          })
         })
         if (tune.id) tunesSnapshot[tune.id] = tune
       }
@@ -1015,7 +1024,7 @@ export default function ImportReviewBridge(props) {
 
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
     if (typeof done === 'function') done()
-  }, [props, driveApi])
+  }, [props, driveApi, resolverAvailable])
 
   const handleComplete = useCallback(function(finalSession) {
     clearImportReviewEnrichmentBridge()

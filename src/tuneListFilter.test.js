@@ -88,6 +88,40 @@ describe('tuneListFilter', function() {
     expect(status.hasNotes).toBe(true)
   })
 
+  test('buildTuneStatusEntry ignores rest and bar scaffolds without letter notes', function() {
+    const tunebook = {
+      hasLyrics: function() { return false },
+      hasLinks: function() { return false },
+    }
+    const restOnly = buildTuneStatusEntry(
+      makeTune('a', 'A', { voices: { V: { notes: ['z z z z |', '| | |'] } } }),
+      tunebook
+    )
+    expect(restOnly.hasNotes).toBe(false)
+    expect(restOnly.hasChords).toBe(false)
+
+    const chordRest = buildTuneStatusEntry(
+      makeTune('b', 'B', { voices: { V: { notes: ['| "D" z2 "G" z "A" z |'] } } }),
+      tunebook
+    )
+    expect(chordRest.hasNotes).toBe(false)
+    expect(chordRest.hasChords).toBe(true)
+  })
+
+  test('buildTuneStatusEntry detects snapshot from tuneFiles', function() {
+    const tunebook = {
+      hasLyrics: function() { return false },
+      hasLinks: function() { return false },
+    }
+    const without = buildTuneStatusEntry(makeTune('a', 'A'), tunebook)
+    expect(without.hasSnapshot).toBe(false)
+    const withFile = buildTuneStatusEntry(
+      makeTune('b', 'B', { tuneFiles: [{ id: 'f1', name: 'crop.png', type: 'image/png' }] }),
+      tunebook
+    )
+    expect(withFile.hasSnapshot).toBe(true)
+  })
+
   test('buildTuneStatusEntry handles nested link objects via hasLinks', function() {
     const tunebook = {
       hasLyrics: function() { return false },
@@ -203,11 +237,12 @@ describe('tuneListFilter', function() {
       hasChords: true,
       hasInlineChords: true,
       hasLinks: true,
+      hasSnapshot: true,
       hasMusicalErrors: true,
       hasMusicalWarnings: true,
     }
-    expect(buildTuneStatusGroupKey(status, false)).toBe('lyrics,notes,chords,media')
-    expect(buildTuneStatusGroupKey(status, true)).toBe('lyrics,notes,chords,inline,media,errors')
+    expect(buildTuneStatusGroupKey(status, false)).toBe('lyrics,notes,chords,media,snapshot')
+    expect(buildTuneStatusGroupKey(status, true)).toBe('lyrics,notes,chords,inline,media,snapshot,errors')
   })
 
   test('buildTuneStatusGroupKey prefers errors over warnings', function() {
@@ -220,6 +255,11 @@ describe('tuneListFilter', function() {
       hasNotes: true,
       hasMusicalWarnings: true,
     }, true)).toBe('notes,warnings')
+  })
+
+  test('buildTuneStatusGroupKey includes snapshot for both simple and detailed', function() {
+    expect(buildTuneStatusGroupKey({ hasSnapshot: true }, false)).toBe('snapshot')
+    expect(buildTuneStatusGroupKey({ hasNotes: true, hasSnapshot: true }, true)).toBe('notes,snapshot')
   })
 
   test('buildGroupedTunes uses simple vs detailed tune-status keys', function() {

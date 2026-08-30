@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Alert, Badge, Button, ButtonGroup, Form, ListGroup, ProgressBar, Spinner } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import Abc from './Abc'
+import BookImportStaffWithChords from './BookImportStaffWithChords'
 import NotationIssuesPanel from './NotationIssuesPanel'
 import './BookImportReviewPanel.css'
 import {
@@ -15,6 +16,7 @@ import {
   putReviewBlob,
   deleteReviewBlob,
 } from '../bookImportReviewStore'
+import { fetchReviewProjectsBlob } from '../reviewProjectsClient'
 import {
   deleteTuneFromList,
   planMergeWithNext,
@@ -51,6 +53,12 @@ import {
   importBookReviewPackage,
   BOOK_IMPORT_CROP_SOURCE,
 } from '../eurosessionTunebookImport'
+import { scoreFileToImportCandidate } from '../bookImportReviewScoreUpload'
+import {
+  downloadReviewSetImportJson,
+  mergeImportPackageIntoReviewSet,
+  readReviewSetImportFile,
+} from '../bookImportReviewExport'
 
 const METER_OPTIONS = ['2/4', '3/4', '4/4', '6/8', '9/8', '12/8', '3/8', '2/2', 'C', 'C|']
 const MIN_ZONE = 0.015
@@ -81,6 +89,10 @@ export default function BookImportReviewPanel(props) {
   const tunebook = props.tunebook
   const tunesMap = props.tunes || {}
   const abcTools = tunebook && tunebook.abcTools
+  const accessToken = props.accessToken
+    || (props.token && props.token.access_token)
+    || props.token
+    || ''
   const [reviewSet, setReviewSet] = useState(null)
   const [activeId, setActiveId] = useState('')
   const [cropUrl, setCropUrl] = useState('')
@@ -96,10 +108,16 @@ export default function BookImportReviewPanel(props) {
   const [abcDraft, setAbcDraft] = useState('')
   const [undoStack, setUndoStack] = useState([])
   const [playOn, setPlayOn] = useState(false)
+  const [chordEditOn, setChordEditOn] = useState(true)
   const cropImgRef = useRef(null)
   const cropColRef = useRef(null)
   const staffColRef = useRef(null)
   const abcPersistTimer = useRef(null)
+  const scoreFileRef = useRef(null)
+  const importJsonRef = useRef(null)
+  const [scoreUploadHint, setScoreUploadHint] = useState('')
+  const [scoreUploadAllParts, setScoreUploadAllParts] = useState(false)
+  const [scoreUploadBusy, setScoreUploadBusy] = useState(false)
 
   const loadSet = useCallback(async function() {
     const set = await getReviewSet(setId)
@@ -157,6 +175,22 @@ export default function BookImportReviewPanel(props) {
       if (activeTune.cropBlobKey) {
         blob = await getReviewBlob(activeTune.cropBlobKey)
       }
+      // Lazy-fetch from resolver Documents review root (Milliner–Koken etc.).
+      if (!blob && activeTune.cropRemotePath && accessToken != null) {
+        try {
+          blob = await fetchReviewProjectsBlob(activeTune.cropRemotePath, accessToken)
+          if (blob) {
+            const key = activeTune.cropBlobKey
+              || ('crop-remote-' + activeTune.id + '-' + Date.now())
+            await putReviewBlob(key, blob)
+            if (!activeTune.cropBlobKey) {
+              await patchActive({ cropBlobKey: key })
+            }
+          }
+        } catch (e) {
+          blob = null
+        }
+      }
       // Rehydrate from source PDF + bbox when crop blob is missing (hard-reload recovery).
       if (!blob && activeTune.sourcePdfBlobKey) {
         try {
@@ -189,7 +223,7 @@ export default function BookImportReviewPanel(props) {
       cancelled = true
       if (revoked) URL.revokeObjectURL(revoked)
     }
-  }, [activeTune && activeTune.id, activeTune && activeTune.cropBlobKey, activeTune && activeTune.sourcePdfBlobKey]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [activeTune && activeTune.id, activeTune && activeTune.cropBlobKey, activeTune && activeTune.cropRemotePath, activeTune && activeTune.sourcePdfBlobKey, accessToken]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const candidate = selectedCandidate(activeTune)
   const cropZones = getTuneCropZones(activeTune)
@@ -330,6 +364,34 @@ export default function BookImportReviewPanel(props) {
     persistAbc(prev).catch(function(e) {
       toast.error(e && e.message ? e.message : String(e))
     })
+  }
+
+  async function handleAddScoreFile(file) {
+    if (!file || !activeTune) return
+    setScoreUploadBusy(true)
+    setScoreUploadHint('Converting…')
+    try {
+      const result = await scoreFileToImportCandidate(file, { allParts: scoreUploadAllParts })
+      const candidates = Array.isArray(activeTune.candidates) ? activeTune.candidates.slice() : []
+      const filtered = candidates.filter(function(c) {
+        return c && String(c.source || '') !== result.candidate.source
+      })
+      filtered.push(result.candidate)
+      await patchActive({
+        candidates: filtered,
+        selectedCandidateId: result.candidate.id,
+        abc: result.candidate.abc,
+        abcSource: result.candidate.source,
+        status: 'ready',
+      })
+      setAbcDraft(result.candidate.abc)
+      setScoreUploadHint(result.hint)
+    } catch (e) {
+      setScoreUploadHint('')
+      toast.error(e && e.message ? e.message : String(e))
+    } finally {
+      setScoreUploadBusy(false)
+    }
   }
 
   async function handleSelectCandidate(candidateId) {
@@ -541,10 +603,45 @@ export default function BookImportReviewPanel(props) {
     await patchActive({ cropZones: next.cropZones, badSections: [] })
   }
 
+  function handleExportJson() {
+    if (!reviewSet) return
+    const incomplete = tunes.filter(function(t) { return !t.complete && t.status !== 'ready' })
+    if (incomplete.length && !window.confirm(
+      incomplete.length + ' tune(s) not marked complete. Export anyway?'
+    )) {
+      return
+    }
+    try {
+      downloadReviewSetImportJson(reviewSet)
+      toast.success('Exported import JSON')
+    } catch (e) {
+      toast.error(e && e.message ? e.message : String(e))
+    }
+  }
+
+  async function handleImportJsonFile(file) {
+    if (!file || !reviewSet) return
+    try {
+      const pkg = await readReviewSetImportFile(file)
+      const merged = mergeImportPackageIntoReviewSet(reviewSet, pkg)
+      await updateReviewSet(setId, { tunes: merged.tunes })
+      setReviewSet(merged)
+      toast.success('Merged import JSON into review set')
+    } catch (e) {
+      toast.error(e && e.message ? e.message : String(e))
+    }
+  }
+
   async function handleImport() {
     if (!reviewSet || !tunebook) return
     if (!reviewSet.book) {
       toast.error('Review set is missing a book')
+      return
+    }
+    const incomplete = tunes.filter(function(t) { return !t.complete && t.status !== 'ready' })
+    if (incomplete.length && !window.confirm(
+      incomplete.length + ' tune(s) not marked complete. Import anyway?'
+    )) {
       return
     }
     setImportBusy(true)
@@ -637,7 +734,36 @@ export default function BookImportReviewPanel(props) {
           <strong>{reviewSet.name}</strong>
           <Badge bg="secondary" className="ms-2">{reviewSet.book}</Badge>
         </div>
-        <div className="d-flex gap-2">
+        <div className="d-flex gap-2 flex-wrap">
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            disabled={!tunes.length || busy || importBusy}
+            onClick={handleExportJson}
+          >
+            Export JSON
+          </Button>
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            disabled={busy || importBusy}
+            onClick={function() {
+              if (importJsonRef.current) importJsonRef.current.click()
+            }}
+          >
+            Import JSON
+          </Button>
+          <input
+            ref={importJsonRef}
+            type="file"
+            accept=".json,application/json"
+            className="d-none"
+            onChange={function(e) {
+              const file = e.target.files && e.target.files[0]
+              e.target.value = ''
+              if (file) handleImportJsonFile(file)
+            }}
+          />
           {typeof props.onBack === 'function' ? (
             <Button size="sm" variant="outline-secondary" onClick={props.onBack} disabled={busy || importBusy}>
               Back
@@ -869,22 +995,9 @@ export default function BookImportReviewPanel(props) {
                 </div>
 
                 <div className="bir-col" ref={staffColRef}>
-                  <div className="d-flex align-items-center justify-content-between">
-                    <div className="bir-col-label">
-                      {textOnlyFormat ? sheetFormatLabel(activeFormat) : 'Notation'}
-                    </div>
-                    <ButtonGroup size="sm">
-                      <Button
-                        variant={playOn ? 'danger' : 'outline-primary'}
-                        disabled={!abcText || textOnlyFormat}
-                        onClick={function() { setPlayOn(function(v) { return !v }) }}
-                      >
-                        {playOn ? 'Stop' : 'Play'}
-                      </Button>
-                    </ButtonGroup>
-                  </div>
-                  <div className="bir-staff-wrap">
-                    {textOnlyFormat ? (
+                  {textOnlyFormat ? (
+                    <>
+                      <div className="bir-col-label">{sheetFormatLabel(activeFormat)}</div>
                       <Form.Control
                         as="textarea"
                         className="bir-abc-textarea"
@@ -895,7 +1008,43 @@ export default function BookImportReviewPanel(props) {
                         spellCheck={false}
                         data-testid="book-import-chord-editor"
                       />
-                    ) : abcText ? (
+                    </>
+                  ) : abcText && chordEditOn && !playOn ? (
+                    <BookImportStaffWithChords
+                      abc={abcText}
+                      playOn={playOn}
+                      onPlayToggle={setPlayOn}
+                      onAbcChange={function(next) {
+                        applyAbcTransform(function() { return next })
+                      }}
+                    />
+                  ) : (
+                    <>
+                  <div className="d-flex align-items-center justify-content-between">
+                    <div className="bir-col-label">
+                      {textOnlyFormat ? sheetFormatLabel(activeFormat) : 'Notation'}
+                    </div>
+                    <ButtonGroup size="sm">
+                      {!textOnlyFormat && abcText ? (
+                        <Button
+                          variant={chordEditOn ? 'primary' : 'outline-secondary'}
+                          onClick={function() { setChordEditOn(function(v) { return !v }) }}
+                          title="Edit chord symbols on the staff"
+                        >
+                          Chords
+                        </Button>
+                      ) : null}
+                      <Button
+                        variant={playOn ? 'danger' : 'outline-primary'}
+                        disabled={!abcText || textOnlyFormat}
+                        onClick={function() { setPlayOn(function(v) { return !v }) }}
+                      >
+                        {playOn ? 'Stop' : 'Play'}
+                      </Button>
+                    </ButtonGroup>
+                  </div>
+                  <div className="bir-staff-wrap">
+                    {textOnlyFormat ? null : abcText ? (
                       <Abc
                         key={activeTune.id + '-' + (candidate && candidate.id) + (playOn ? '-play' : '-stop')}
                         abc={abcText}
@@ -911,6 +1060,8 @@ export default function BookImportReviewPanel(props) {
                       <Alert variant="secondary" className="small mb-0">No ABC selected</Alert>
                     )}
                   </div>
+                    </>
+                  )}
                 </div>
 
                 <div className="bir-col">
@@ -923,7 +1074,41 @@ export default function BookImportReviewPanel(props) {
                   ) : (
                     <>
                     <div>
-                    <div className="small text-muted mb-1">Candidates</div>
+                    <div className="d-flex flex-wrap align-items-center gap-2 mb-1">
+                      <div className="small text-muted">Candidates</div>
+                      <Form.Check
+                        type="checkbox"
+                        id="bir-score-all-parts"
+                        className="small mb-0"
+                        label="All parts"
+                        checked={scoreUploadAllParts}
+                        onChange={function(e) { setScoreUploadAllParts(e.target.checked) }}
+                      />
+                      <Button
+                        size="sm"
+                        variant="outline-secondary"
+                        disabled={scoreUploadBusy || !activeTune}
+                        onClick={function() {
+                          if (scoreFileRef.current) scoreFileRef.current.click()
+                        }}
+                      >
+                        Add score…
+                      </Button>
+                      <input
+                        ref={scoreFileRef}
+                        type="file"
+                        accept=".mxl,.xml,.musicxml,.mscz"
+                        className="d-none"
+                        onChange={function(e) {
+                          const file = e.target.files && e.target.files[0]
+                          e.target.value = ''
+                          if (file) handleAddScoreFile(file)
+                        }}
+                      />
+                    </div>
+                    {scoreUploadHint ? (
+                      <p className="bir-hint mb-1">{scoreUploadHint}</p>
+                    ) : null}
                     <ListGroup className="mb-2">
                       {displayCandidates.map(function(c) {
                         const selected = activeTune.selectedCandidateId === c.id

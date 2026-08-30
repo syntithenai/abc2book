@@ -39,4 +39,26 @@ describe('tuneFiles ABC round-trip', function() {
     expect(parsed.tuneFiles[0].pdfPage).toBe(2)
     expect(parsed.activeFile).toBe('fileabc')
   })
+
+  test('json2abc includes file-data when present on tuneFiles', function() {
+    const tools = useAbcTools()
+    const tune = {
+      id: 'tune123',
+      name: 'Test Tune',
+      voices: { '1': { meta: '', notes: ['C'] } },
+      books: [],
+      tempo: 100,
+      boost: 0,
+      tuneFiles: [{
+        id: 'fileabc',
+        name: 'Chart.png',
+        type: 'image/png',
+        source: 'capture',
+        data: 'data:image/png;base64,YWJj',
+      }],
+      activeFile: 'fileabc',
+    }
+    const abc = tools.json2abc(tune)
+    expect(abc).toContain('% abcbook-file-data-0 data:image/png;base64,YWJj')
+  })
 })

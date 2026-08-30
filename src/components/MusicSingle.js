@@ -52,6 +52,7 @@ import { clampGigZoom, getTuneGigZoom } from '../gigDisplaySettings'
 import { setTuneDisplaySettings, applyTuneDisplaySettings } from '../tuneDisplaySettings'
 import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
+import { buildTuneFooterMetaRows, hasTuneFooterMeta } from '../tuneAbcMetaDisplay'
 import LyricsZoomControls from './LyricsZoomControls'
 import FileZoomControls, { clampFileViewZoom } from './FileZoomControls'
 import ChordPitchButton from './ChordPitchButton'
@@ -69,6 +70,7 @@ import StructureCapoControl from './StructureCapoControl'
 import TuneTransposeControl from './TuneTransposeControl'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
+import { tunePageSectionDomId } from '../searchListOrder'
 import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste, cancelAddTuneAutoEnrich } from '../addTuneAutoEnrich'
 import { toast } from 'react-toastify'
 import SearchProgressBar from './SearchProgressBar'
@@ -121,11 +123,17 @@ function truncateEnrichLabel(text, maxLen) {
   return value.slice(0, limit - 1) + '…'
 }
 
-export default function MusicSingle(props) {
+function MusicSingleSection(props) {
     let params = useParams();
     let navigate = useNavigate();
     const location = useLocation();
     const [searchParams] = useSearchParams();
+    const sectionTuneId = props.sectionTuneId != null && props.sectionTuneId !== ''
+      ? props.sectionTuneId
+      : params.tuneId
+    const isActive = props.isActive !== false
+    const pageStackMode = !!props.pageStackMode
+    const pageSiblingIds = Array.isArray(props.pageSiblingIds) ? props.pageSiblingIds : null
     var windowSize = useWindowSize()
     const toolbarRef = useRef(null)
     const lastNotationChordRef = useRef('')
@@ -140,10 +148,12 @@ export default function MusicSingle(props) {
     const [showMedia, setShowMedia] = useState(false)
 
     useEffect(function() {
-      if (params.tuneId) recordTuneView(params.tuneId)
-    }, [params.tuneId])
+      if (isActive && sectionTuneId) recordTuneView(sectionTuneId)
+    }, [isActive, sectionTuneId])
 
-    const [mediaLinkNumber, setMediaLinkNumber] = useState(params.mediaLinkNumber > 0 ? params.mediaLinkNumber : 0)
+    const [mediaLinkNumber, setMediaLinkNumber] = useState(
+      (isActive && params.mediaLinkNumber > 0) ? params.mediaLinkNumber : 0
+    )
     const [mediaLoading, setMediaLoading] = useState(false)
     const [ytMediaPlayer, setYTMediaPlayer] = useState(null)
     const [mediaProgress, setMediaProgress] = useState(0)
@@ -161,10 +171,10 @@ export default function MusicSingle(props) {
     const [fileViewZoom, setFileViewZoom] = useState(1)
     const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0)
     const [autoEnrichPending, setAutoEnrichPending] = useState(function() {
-      return isAddTuneAutoEnrichPending(params.tuneId)
+      return isAddTuneAutoEnrichPending(sectionTuneId)
     })
     const [autoEnrichState, setAutoEnrichState] = useState(function() {
-      return getAddTuneAutoEnrichState(params.tuneId)
+      return getAddTuneAutoEnrichState(sectionTuneId)
     })
     const [showAutoEnrichChordPaste, setShowAutoEnrichChordPaste] = useState(false)
     const [showAutoEnrichNotationPaste, setShowAutoEnrichNotationPaste] = useState(false)
@@ -181,34 +191,35 @@ export default function MusicSingle(props) {
 
     useEffect(function() {
       setDismissMidBlockDoubleBarWarning(false)
-    }, [params.tuneId])
+    }, [sectionTuneId])
 
-    useTuneSnapshotRouteSync(tune, function(next) {
+    useTuneSnapshotRouteSync(isActive ? tune : null, function(next) {
       setTune(next)
       props.tunebook.saveTune(next)
       if (props.forceRefresh) props.forceRefresh()
     })
 
     useEffect(function() {
+        if (!isActive) return undefined
         setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
         return function() {
             setDocumentTitle(DEFAULT_APP_TITLE)
         }
-    }, [tune])
+    }, [isActive, tune])
 
     useEffect(function() {
       function syncPending() {
-        setAutoEnrichPending(isAddTuneAutoEnrichPending(params.tuneId))
-        setAutoEnrichState(getAddTuneAutoEnrichState(params.tuneId))
+        setAutoEnrichPending(isAddTuneAutoEnrichPending(sectionTuneId))
+        setAutoEnrichState(getAddTuneAutoEnrichState(sectionTuneId))
       }
       syncPending()
       return subscribeAddTuneAutoEnrich(syncPending)
-    }, [params.tuneId])
+    }, [sectionTuneId])
 
     useEffect(function() {
       setShowAutoEnrichChordPaste(false)
       setShowAutoEnrichNotationPaste(false)
-    }, [params.tuneId])
+    }, [sectionTuneId])
 
     useEffect(function() {
       const summary = String(autoEnrichState.summary || '').trim()
@@ -216,8 +227,8 @@ export default function MusicSingle(props) {
       if (autoEnrichSummaryShownRef.current === summary) return
       autoEnrichSummaryShownRef.current = summary
       toast.info(summary, { autoClose: 12000 })
-      dismissAddTuneAutoEnrichSummary(params.tuneId)
-    }, [autoEnrichPending, autoEnrichState.summary, params.tuneId])
+      dismissAddTuneAutoEnrichSummary(sectionTuneId)
+    }, [autoEnrichPending, autoEnrichState.summary, sectionTuneId])
 
     async function runCopyToScratchpad(workspaceId) {
         if (!tune || !workspaceId) return
@@ -241,11 +252,11 @@ export default function MusicSingle(props) {
 
     function handleAutoEnrichNotationAbandoned() {
       if (!tune || !props.tunebook) {
-        dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+        dismissAddTuneAutoEnrichNotationPaste(sectionTuneId)
         return
       }
       void abandonAutoEnrichNotationPaste({
-        tuneId: params.tuneId,
+        tuneId: sectionTuneId,
         tune: tune,
         tunebook: props.tunebook,
         accessToken: props.token || '',
@@ -259,7 +270,7 @@ export default function MusicSingle(props) {
           const label = result.source ? ('Notation from ' + result.source) : 'Notation applied'
           toast.info(label, { autoClose: 8000 })
         } else {
-          dismissAddTuneAutoEnrichFailure(params.tuneId)
+          dismissAddTuneAutoEnrichFailure(sectionTuneId)
         }
       })
     }
@@ -284,7 +295,7 @@ export default function MusicSingle(props) {
 
     useEffect(function() {
         let cancelled = false
-        const tuneId = params.tuneId
+        const tuneId = sectionTuneId
         if (!tuneId) {
             setTune(null)
             setTuneLoadState('missing')
@@ -293,10 +304,10 @@ export default function MusicSingle(props) {
 
         const fromProps = props.tunes ? props.tunes[new String(tuneId)] : null
         if (fromProps) {
-            setTune(applyTuneSnapshotFromSearchParams(fromProps, searchParams))
+            setTune(applyTuneSnapshotFromSearchParams(fromProps, isActive ? searchParams : { get: function() { return null } }))
             setTuneLoadState('ready')
             const mc = mediaControllerRef.current
-            if (mc && mc.setTune
+            if (isActive && mc && mc.setTune
               && shouldSyncViewedTuneToMediaController(
                 mc,
                 nowPlayingQueueRef.current,
@@ -312,10 +323,10 @@ export default function MusicSingle(props) {
         getTuneFromRepository(tuneId).then(function(loaded) {
             if (cancelled) return
             if (loaded) {
-                setTune(applyTuneSnapshotFromSearchParams(loaded, searchParams))
+                setTune(applyTuneSnapshotFromSearchParams(loaded, isActive ? searchParams : { get: function() { return null } }))
                 setTuneLoadState('ready')
                 const mc = mediaControllerRef.current
-                if (mc && mc.setTune
+                if (isActive && mc && mc.setTune
                   && shouldSyncViewedTuneToMediaController(
                     mc,
                     nowPlayingQueueRef.current,
@@ -336,22 +347,37 @@ export default function MusicSingle(props) {
         return function() {
             cancelled = true
         }
-    },[params.tuneId, props.tunes, props.mediaController && props.mediaController.playbackSpeed, searchParams])
+    },[sectionTuneId, props.tunes, props.mediaController && props.mediaController.playbackSpeed, searchParams, isActive])
 
     useEffect(function() {
+        if (!isActive || !tune) return undefined
+        const mc = mediaControllerRef.current
+        if (mc && mc.setTune
+          && shouldSyncViewedTuneToMediaController(
+            mc,
+            nowPlayingQueueRef.current,
+            tune.id
+          )) {
+          mc.setTune(tune)
+        }
+        return undefined
+    }, [isActive, tune && tune.id])
+
+    useEffect(function() {
+        if (!isActive) return undefined
         if (tuneLoadState !== 'missing') return undefined
         const mc = mediaControllerRef.current
         const queue = nowPlayingQueueRef.current
         if (!mc || !isQueueActive(queue) || queue.autoAdvance === false) return undefined
         const currentId = getCurrentTuneId(queue)
-        if (!currentId || String(currentId) !== String(params.tuneId)) return undefined
+        if (!currentId || String(currentId) !== String(sectionTuneId)) return undefined
         if (typeof mc.reportPlaybackFailure === 'function') {
             mc.reportPlaybackFailure()
         }
-    }, [tuneLoadState, params.tuneId])
+    }, [isActive, tuneLoadState, sectionTuneId])
     
     //const [abc, setAbc] = useState('')
-    //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
+    //let tune = props.tunes ? props.tunes[new String(sectionTuneId)] : null
     const capoState = useCapoViewState(tune && tune.id, tune && tune.capo)
     const [playalongSettings, setPlayalongSettings] = useState(function() {
       return loadPlayalongSettings()
@@ -559,13 +585,13 @@ export default function MusicSingle(props) {
     
 
     function setupTune() {
-        let tune = props.tunes ? props.tunes[params.tuneId] : null
+        let tune = props.tunes ? props.tunes[sectionTuneId] : null
         if (tune) {
            applyTuneDisplaySettings(tune)
            setFileViewZoom(1)
            if (tune.viewMode) {
                setNotationFitModeState(getTuneNotationFitMode(tune))
-               props.setViewMode(tune.viewMode)
+               if (isActive) props.setViewMode(tune.viewMode)
            } else {
                const hasChordsForDefault = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
                const defaultMode = defaultViewModeForTune(tune, props.tunebook, { hasChords: hasChordsForDefault })
@@ -575,7 +601,7 @@ export default function MusicSingle(props) {
                } else {
                    setNotationFitModeState(getTuneNotationFitMode(tune))
                }
-               props.setViewMode(defaultMode)
+               if (isActive) props.setViewMode(defaultMode)
            }
            //props.tunebook.utils.scrollTo('topofpage')
            //setMediaLinkNumber(params.mediaLinkNumber)
@@ -618,12 +644,12 @@ export default function MusicSingle(props) {
 
     useEffect(function() {
         setupTune()
-    },[params.tuneId,props.tunes])  //, params.mediaLinkNumber, params.playState
+    },[sectionTuneId,props.tunes])  //, params.mediaLinkNumber, params.playState
 
     useEffect(function() {
-        const saved = props.tunes && props.tunes[params.tuneId]
+        const saved = props.tunes && props.tunes[sectionTuneId]
         if (saved) setLyricsZoom(getTuneGigZoom(saved))
-    }, [params.tuneId])
+    }, [sectionTuneId])
 
     useEffect(function() {
         setupTune()
@@ -635,6 +661,30 @@ export default function MusicSingle(props) {
     useEffect(function() {
         setFileViewZoom(1)
     }, [tune && tune.activeFile])
+
+    // Page-stack: scroll this section into view once the clicked tune is ready.
+    // Retries allow sibling Abc panels above to finish laying out.
+    useEffect(function() {
+      if (!pageStackMode || !isActive || !sectionTuneId) return undefined
+      if (tuneLoadState !== 'ready') return undefined
+      const sectionId = tunePageSectionDomId(sectionTuneId)
+      if (!sectionId) return undefined
+      let cancelled = false
+      function scrollToSection() {
+        if (cancelled) return false
+        const el = document.getElementById(sectionId)
+        if (!el || typeof el.scrollIntoView !== 'function') return false
+        el.scrollIntoView({ block: 'start', behavior: 'auto' })
+        return true
+      }
+      const timers = [0, 100, 300, 600, 1000].map(function(ms) {
+        return window.setTimeout(function() { scrollToSection() }, ms)
+      })
+      return function() {
+        cancelled = true
+        timers.forEach(function(id) { window.clearTimeout(id) })
+      }
+    }, [pageStackMode, isActive, sectionTuneId, tuneLoadState])
 
     function getTempo() {
         // use page tempo that has been updated from tune
@@ -648,7 +698,13 @@ export default function MusicSingle(props) {
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
     if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune)) {
         return (
-          <div className="music-single music-single--loading p-3" role="status">
+          <div
+            id={pageStackMode && sectionTuneId ? tunePageSectionDomId(sectionTuneId) : undefined}
+            className={'music-single music-single--loading p-3'
+              + (pageStackMode ? ' music-single--page-stack-item' : '')
+              + (pageStackMode && isActive ? ' music-single-page-tune--active' : '')}
+            role="status"
+          >
             Loading tune…
           </div>
         )
@@ -743,7 +799,7 @@ export default function MusicSingle(props) {
         }
 
         const practiceSessionActive = !!(props.practiceSession && props.practiceSession.sessionOpen)
-        const mountMediaEngine = shouldMusicSingleMountMediaEngine({
+        const mountMediaEngine = isActive && shouldMusicSingleMountMediaEngine({
             viewedTuneId: tune.id,
             queue: props.nowPlayingQueue,
             mediaController: props.mediaController,
@@ -752,7 +808,7 @@ export default function MusicSingle(props) {
             pathname: location.pathname,
             tunes: props.tunes,
         })
-        const ownMidiEngine = shouldMusicSingleOwnMidiEngine(tune.id, props.nowPlayingQueue)
+        const ownMidiEngine = isActive && shouldMusicSingleOwnMidiEngine(tune.id, props.nowPlayingQueue)
                 const playalongOwnsMidi = !!(playalong.isRecording || playalong.midiEngineActive)
                 const notationPlaybackEngine = ownMidiEngine || playalongOwnsMidi
 
@@ -766,7 +822,7 @@ export default function MusicSingle(props) {
                 const hasChords = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
                 const availableFlags = getAvailableDisplayFlags(tune, props.tunebook, {
                   hasChords: hasChords,
-                  hasInfo: !!(tune.backgroundInfo && String(tune.backgroundInfo).trim()),
+                  hasInfo: hasTuneFooterMeta(tune),
                 })
                 const viewFlags = resolveDisplayFlagsForTune(
                   viewModeToDisplayFlags(props.viewMode),
@@ -806,7 +862,10 @@ export default function MusicSingle(props) {
                 const showLyricsUi = lyricsVisible && !fileOverlayActive
                 const showStructureUi = structureVisible && !fileOverlayActive
                 const viewModesEmpty = !fileOverlayActive && isViewModesEmpty(viewFlags, availableFlags)
-                const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL
+                const fitHeightOn = !pageStackMode && notationFitMode === NOTATION_FIT_VERTICAL
+                // Page stack scrolls naturally; vertical fit would clip each mate to a
+                // tiny/wrong viewport slice and hide most of the staff.
+                const abcFitMode = pageStackMode ? null : notationFitMode
                 const syncLyricsStructure = !!layout.syncLyricsStructure
                 // Without notation: fit-height scales lyrics (synced pair or lyrics-only).
                 // Structure always height-fits the viewport (see StructureChordBlock).
@@ -821,6 +880,7 @@ export default function MusicSingle(props) {
                 const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string'
                   ? tune.backgroundInfo.trim()
                   : ''
+                const footerMetaRows = buildTuneFooterMetaRows(tune)
                 const visibleVoiceKeys = getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune))
                 const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
                 const tuneTranspose = Number(tune.transpose) || 0
@@ -931,7 +991,21 @@ export default function MusicSingle(props) {
                 }
 
                 function openPrintPdfLayout() {
-                  navigate('/print', { state: { tuneIds: [tune.id] } })
+                  const ids = pageSiblingIds && pageSiblingIds.length > 0
+                    ? pageSiblingIds
+                    : [tune.id]
+                  navigate('/print', { state: { tuneIds: ids } })
+                }
+
+                function activateThisSection() {
+                  if (!pageStackMode || isActive || !sectionTuneId) return
+                  var playUrl = ''
+                  if (location.pathname && location.pathname.indexOf('/playMidi') !== -1) {
+                    playUrl = '/playMidi'
+                  } else if (location.pathname && location.pathname.indexOf('/playMedia') !== -1) {
+                    playUrl = '/playMedia'
+                  }
+                  navigate('/tunes/' + encodeURIComponent(String(sectionTuneId)) + playUrl)
                 }
 
                 // Capo only changes chord fingering names — notation + MIDI stay on tune.transpose.
@@ -1185,8 +1259,8 @@ export default function MusicSingle(props) {
                     >
                       {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
                         const editorPath = mode.id === 'info'
-                          ? '/editor/' + params.tuneId
-                          : '/editor/' + params.tuneId + '/' + mode.id
+                          ? '/editor/' + sectionTuneId
+                          : '/editor/' + sectionTuneId + '/' + mode.id
                         return (
                           <Dropdown.Item key={mode.id} as={Link} to={editorPath}>
                             {mode.label}
@@ -1229,7 +1303,7 @@ export default function MusicSingle(props) {
                     forceDropdown={true}
                     stopMenuClose={foldControlsIntoMenu || compactNotationControls}
                     notationFitMode={notationFitMode}
-                    onNotationFitModeChange={handleNotationFitModeChange}
+                    onNotationFitModeChange={pageStackMode ? undefined : handleNotationFitModeChange}
                     hideInlineVoiceControls={fileOverlayActive}
                     fileOverlayActive={fileOverlayActive}
                     availableOverride={availableForControls}
@@ -1247,7 +1321,38 @@ export default function MusicSingle(props) {
                 )
 
                 var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
-                return <div className={'music-single' + (fileOverlayActive ? ' music-single--file-overlay' : '')} style={{border:'1px solid black'}} {...handlers} >
+                return <div
+                  id={tunePageSectionDomId(sectionTuneId)}
+                  className={
+                    'music-single'
+                    + (fileOverlayActive ? ' music-single--file-overlay' : '')
+                    + (pageStackMode ? ' music-single--page-stack-item' : '')
+                    + (pageStackMode && isActive ? ' music-single-page-tune--active' : '')
+                    + (pageStackMode && !isActive ? ' music-single-page-tune--inactive' : '')
+                  }
+                  style={{border:'1px solid black'}}
+                  {...handlers}
+                  onClickCapture={pageStackMode && !isActive ? function() { activateThisSection() } : undefined}
+                >
+                        {pageStackMode ? (
+                          <div className="music-single-page-tune-heading" role="status">
+                            <span className="music-single-page-tune-title">{tune.name || 'Untitled'}</span>
+                            {isActive ? (
+                              <span className="music-single-page-tune-active-badge">Active</span>
+                            ) : (
+                              <button
+                                type="button"
+                                className="music-single-page-tune-activate-btn"
+                                onClick={function(e) {
+                                  e.stopPropagation()
+                                  activateThisSection()
+                                }}
+                              >
+                                Make active
+                              </button>
+                            )}
+                          </div>
+                        ) : null}
 			<div ref={toolbarRef} className={toolbarClassName}>
 			  <div className="music-buttons-inner">
 			    <div className="music-buttons-col-left">
@@ -1274,7 +1379,7 @@ export default function MusicSingle(props) {
 			      {zoomControlsElement}
             {playalongControlsElement}
             {!compactToolbar ? chordPitchButtonElement : null}
-            {!pdfSnapshotActive ? (
+            {!pdfSnapshotActive && !pageStackMode ? (
               <LyricsAutoscrollModal
                 tune={tune}
                 tunebook={props.tunebook}
@@ -1308,7 +1413,7 @@ export default function MusicSingle(props) {
               size="sm"
               variant="outline-secondary"
               data-testid="auto-enrich-cancel"
-              onClick={function() { cancelAddTuneAutoEnrich(params.tuneId) }}
+              onClick={function() { cancelAddTuneAutoEnrich(sectionTuneId) }}
             >
               Cancel enhancement
             </Button>
@@ -1321,7 +1426,7 @@ export default function MusicSingle(props) {
           className="m-2 mb-0"
           data-testid="auto-enrich-chord-paste-alert"
           dismissible
-          onClose={function() { dismissAddTuneAutoEnrichChordPaste(params.tuneId) }}
+          onClose={function() { dismissAddTuneAutoEnrichChordPaste(sectionTuneId) }}
         >
           <div>
             {autoEnrichState.message
@@ -1458,7 +1563,7 @@ export default function MusicSingle(props) {
           className="m-2 mb-0"
           data-testid="auto-enrich-failure-alert"
           dismissible
-          onClose={function() { dismissAddTuneAutoEnrichFailure(params.tuneId) }}
+          onClose={function() { dismissAddTuneAutoEnrichFailure(sectionTuneId) }}
         >
           {autoEnrichState.failure}
         </Alert>
@@ -1481,7 +1586,7 @@ export default function MusicSingle(props) {
               size="sm"
               variant="outline-primary"
               as={Link}
-              to={'/editor/' + params.tuneId + '/notationAbc'}
+              to={'/editor/' + sectionTuneId + '/notationAbc'}
               data-testid="mid-block-double-barline-edit"
             >
               Edit ABC
@@ -1493,7 +1598,7 @@ export default function MusicSingle(props) {
         show={showAutoEnrichChordPaste}
         onHide={function() {
           setShowAutoEnrichChordPaste(false)
-          dismissAddTuneAutoEnrichChordPaste(params.tuneId)
+          dismissAddTuneAutoEnrichChordPaste(sectionTuneId)
         }}
         tune={tune || {}}
         forceAbcMerge={false}
@@ -1527,7 +1632,7 @@ export default function MusicSingle(props) {
           setTune(Object.assign({}, tune))
           if (typeof props.forceRefresh === 'function') props.forceRefresh()
           setShowAutoEnrichChordPaste(false)
-          dismissAddTuneAutoEnrichChordPaste(params.tuneId)
+          dismissAddTuneAutoEnrichChordPaste(sectionTuneId)
         }}
       />
       <ScratchpadWorkspacePickerModal
@@ -1583,7 +1688,7 @@ export default function MusicSingle(props) {
           setTune(imported)
           if (typeof props.forceRefresh === 'function') props.forceRefresh()
           setShowAutoEnrichNotationPaste(false)
-          dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+          dismissAddTuneAutoEnrichNotationPaste(sectionTuneId)
         }}
       />
             {(fileManager && Array.isArray(fileManager.filtered) && fileManager.filtered.length > 0 ) && <div style={{textAlign:'center'}} >
@@ -1665,7 +1770,7 @@ export default function MusicSingle(props) {
                         }}
                       />
                     ) : null}
-                   <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
+                   <div id={"abccontainer-" + String(sectionTuneId) + "-" + (autoStart ? "Y":"N") + "-" + (localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
                      {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {
                        // Natural MIDI end must not call pause(): that marked userPaused
                        // and used to abort/destroy the primed buffer, so replay toasted
@@ -1676,7 +1781,7 @@ export default function MusicSingle(props) {
                          return
                        }
                        if (props.mediaController && props.mediaController.pause) props.mediaController.pause()
-                     }}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     }}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={abcFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} viewerElementId={(isActive || !pageStackMode) ? 'abc_music_viewer' : ('abc_music_viewer-' + String(tune.id))} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                      {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {
                        // Natural MIDI end must not call pause(): that marked userPaused
                        // and used to abort/destroy the primed buffer, so replay toasted
@@ -1687,7 +1792,7 @@ export default function MusicSingle(props) {
                          return
                        }
                        if (props.mediaController && props.mediaController.pause) props.mediaController.pause()
-                     }}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
+                     }}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} autoScrollBlock={(playalong.isRecording || (playalong.compareActive && showPlayalongPianoRoll)) ? 'center' : 'nearest'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} practiceReferenceGain={(playalong.isRecording || playalong.compareActive) ? playalong.referenceGain : undefined} forceFillOff={!!(playalong.isRecording || playalong.midiEngineActive)} onPracticeBeat={playalong.isRecording ? playalong.handlePracticeBeat : undefined}  tunes={props.tunes} editableTempo={true} repeat={notationMidiRepeat} tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={abcFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={notationPlaybackEngine} mirrorNotationPlaybackCursor={!notationPlaybackEngine} displayTuneId={tune.id} viewerElementId={(isActive || !pageStackMode) ? 'abc_music_viewer' : ('abc_music_viewer-' + String(tune.id))} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} onClick={handleNotationChordClick} />}
                    </div>
                     {playalongCanRecord && showPlayalongPianoRoll && (playalong.compareActive || playalong.isRecording) ? (
                       <PlayalongStaffPitchStrips
@@ -1844,19 +1949,86 @@ export default function MusicSingle(props) {
                <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook} tune={tune} token={props.token} user={props.user} googleDocumentId={props.googleDocumentId} login={props.login} onEnded={onEnded} />
              )}
 
-             {viewFlags.info && backgroundInfoText ? (
+             {viewFlags.info && (footerMetaRows.length > 0 || backgroundInfoText) ? (
               <div className="music-single-footer-meta">
                 <div className="music-tune-info-section">
-                  <div className="tune-background-info-view">
-                    <MarkdownContent text={backgroundInfoText} />
-                  </div>
+                  {footerMetaRows.length > 0 ? (
+                    <dl className="tune-abc-meta-footer">
+                      {footerMetaRows.map(function(row) {
+                        return (
+                          <div key={row.key} className="tune-abc-meta-footer-row">
+                            <dt>{row.label}</dt>
+                            <dd>{row.value}</dd>
+                          </div>
+                        )
+                      })}
+                    </dl>
+                  ) : null}
+                  {backgroundInfoText ? (
+                    <div className="tune-background-info-view">
+                      <MarkdownContent text={backgroundInfoText} />
+                    </div>
+                  ) : null}
                 </div>
               </div>
              ) : null}
              
-             <div style={{display:'none'}} id="transpose_render"></div>
+             <div style={{display:'none'}} id={isActive ? 'transpose_render' : ('transpose_render-' + String(sectionTuneId))}></div>
         </div>
     }
+}
+
+export default function MusicSingle(props) {
+  const params = useParams()
+  const urlTuneId = params.tuneId
+  const siblingIds = (props.tunebook && typeof props.tunebook.getSearchListPageSiblingIds === 'function' && urlTuneId)
+    ? props.tunebook.getSearchListPageSiblingIds(urlTuneId)
+    : (urlTuneId ? [urlTuneId] : [])
+  const pageStack = Array.isArray(siblingIds) && siblingIds.length > 1
+
+  // Solo single-view: land at top of the page (list used to do this on click).
+  useEffect(function() {
+    if (pageStack || !urlTuneId) return undefined
+    const timer = window.setTimeout(function() {
+      if (props.tunebook && props.tunebook.utils && typeof props.tunebook.utils.scrollTo === 'function') {
+        props.tunebook.utils.scrollTo('topofpage', 10)
+      } else if (typeof window.scrollTo === 'function') {
+        window.scrollTo(0, 0)
+      }
+    }, 50)
+    return function() {
+      window.clearTimeout(timer)
+    }
+  }, [pageStack, urlTuneId])
+
+  if (!pageStack) {
+    return (
+      <MusicSingleSection
+        {...props}
+        sectionTuneId={urlTuneId}
+        isActive={true}
+        pageStackMode={false}
+        pageSiblingIds={null}
+      />
+    )
+  }
+
+  return (
+    <div className="music-single-page-stack">
+      {siblingIds.map(function(id) {
+        return (
+          <MusicSingleSection
+            key={String(id)}
+            {...props}
+            sectionTuneId={id}
+            isActive={String(id) === String(urlTuneId)}
+            pageStackMode={true}
+            pageSiblingIds={siblingIds}
+          />
+        )
+      })}
+    </div>
+  )
 }
 
 //<ImagesManagerModal tunebook={props.tunebook} tune={tune} login={props.login} logout={props.logout} token={props.token}  fileManager={fileManager} />

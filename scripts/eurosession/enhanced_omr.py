@@ -87,8 +87,31 @@ def _staging_dir() -> Path:
     return staging
 
 
+_RESOLVER_SYNC_MODULES = (
+    "sheet_image_abc_repair.py",
+    "sheet_image_structure.py",
+    "sheet_image_enhanced_omr.py",
+)
+
+
+def _sync_resolver_modules(container: str) -> None:
+    """Push host local-resolver modules into the docker worker (dev bind gaps)."""
+    root = Path(__file__).resolve().parents[2] / "local-resolver"
+    for name in _RESOLVER_SYNC_MODULES:
+        host = root / name
+        if not host.is_file():
+            continue
+        subprocess.run(
+            ["docker", "cp", str(host), f"{container}:/app/{name}"],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+
+
 def _run_docker_worker(image_path: Path, title: str, timeout: float = 900.0) -> dict[str, Any]:
     container = os.environ.get("RESOLVER_DOCKER_CONTAINER", "abc2book-local-resolver")
+    _sync_resolver_modules(container)
     staging = _staging_dir()
     staged = staging / f"enh-{image_path.name}"
     shutil.copy2(image_path, staged)
@@ -175,17 +198,21 @@ def enhanced_omr(
     if mode in {"full-crop-fallback", "failed"} or not abc or looks_weak_abc(abc):
         fallback = _full_crop_omr(path, resolver, title)
         fb_abc = str(fallback.get("abc") or "").strip()
-        # Prefer per-staff even if slightly weak when full-crop is also weak/shorter.
-        if fb_abc and (not abc or looks_weak_abc(abc) or len(fb_abc) > len(abc) * 1.3):
-            # If we had a non-empty per-staff that isn't mangled-worse, keep it when longer.
+        stitch_has_struct = bool(re.search(r"\|[:1-9]|:?\|", abc)) if abc else False
+        fb_has_struct = bool(re.search(r"\|[:1-9]|:?\|", fb_abc)) if fb_abc else False
+        if stitch_has_struct and not fb_has_struct and abc and not looks_weak_abc(abc):
+            pass  # keep per-staff with repeats
+        elif fb_abc and (not abc or looks_weak_abc(abc) or len(fb_abc) > len(abc) * 1.3):
             if abc and not looks_weak_abc(abc) and len(abc) >= len(fb_abc):
                 pass
             else:
+                stitch_events = result.get("structureEvents") or []
                 result = {
                     **result,
                     **fallback,
                     "mode": "full-crop" if mode == "full-crop-fallback" else f"full-crop-after-{mode or 'fail'}",
                     "abc": fb_abc,
+                    "structureEvents": stitch_events if stitch_events else fallback.get("structureEvents"),
                 }
                 abc = fb_abc
 

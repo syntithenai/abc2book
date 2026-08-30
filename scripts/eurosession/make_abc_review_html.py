@@ -111,19 +111,126 @@ def ensure_omr_candidate(candidates: list[dict], tune: dict, title: str) -> list
     return order_candidates_omr_last(list(candidates) + [omr_row])
 
 
+def join_tier_for_tune(tune: dict, join_by_key: dict[str, dict]) -> str:
+    if tune.get("joinTier"):
+        return str(tune["joinTier"])
+    if tune.get("notationOnly"):
+        return "mxl_only"
+    page = int(tune.get("page") or 0)
+    ti = int(tune.get("tuneIndex") or 0)
+    key = f"p{page:02d}_t{ti:02d}"
+    row = join_by_key.get(key) or {}
+    match = row.get("match")
+    if not match:
+        return "unmatched"
+    score = float(match.get("match_score") or 0)
+    if score >= 0.72:
+        return "good"
+    if score >= 0.55:
+        return "dubious"
+    return "unmatched"
+
+
+def load_join_by_key(work: Path) -> dict[str, dict]:
+    path = work / "mxl_title_join.json"
+    if not path.is_file():
+        return {}
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    out: dict[str, dict] = {}
+    for row in rows if isinstance(rows, list) else []:
+        key = str(row.get("import_key") or "").strip()
+        if key:
+            out[key] = row
+    return out
+
+
+def build_initial_completed(tunes: list[dict], join_by_key: dict[str, dict]) -> dict[str, bool]:
+    completed: dict[str, bool] = {}
+    for tune in tunes:
+        page = int(tune.get("page") or 0)
+        ti = int(tune.get("tuneIndex") or 0)
+        key = str(tune.get("importKey") or f"p{page:02d}_t{ti:02d}")
+        tier = join_tier_for_tune(tune, join_by_key)
+        if tune.get("complete") is True:
+            completed[key] = True
+        elif tier == "good":
+            completed[key] = True
+        elif tier == "mxl_only":
+            completed[key] = True
+    return completed
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Make EuroSession ABC review HTML")
     parser.add_argument("--work", default="/home/stever/Downloads/eurosession-work")
     parser.add_argument("--out", default="", help="Output HTML path (default: work/review_abc.html)")
+    parser.add_argument(
+        "--book",
+        default="eurosession",
+        help="Tunebook slug stamped on export (B: line). Default: eurosession",
+    )
+    parser.add_argument(
+        "--book-label",
+        default="",
+        help="Human label for the import package (default: title-case of --book)",
+    )
+    parser.add_argument(
+        "--tags",
+        default="",
+        help="Comma-separated %% abcbook-tags values to stamp on export (e.g. 'milliner koken,old time tunes')",
+    )
+    parser.add_argument(
+        "--storage-key",
+        default="",
+        help="localStorage key for review state (default: derived from --book)",
+    )
+    parser.add_argument(
+        "--export-name",
+        default="",
+        help="Download basename for import JSON (default: <book>-import.json)",
+    )
     args = parser.parse_args()
+
+    import_book = str(args.book or "eurosession").strip().lower() or "eurosession"
+    import_book_label = str(args.book_label or "").strip() or import_book.title()
+    import_tags = [
+        part.strip()
+        for part in str(args.tags or "").split(",")
+        if part.strip()
+    ]
+    storage_key = str(args.storage_key or "").strip() or (
+        f"{re.sub(r'[^a-z0-9]+', '-', import_book)}-abc-review-state-v3"
+    )
+    export_name = str(args.export_name or "").strip() or (
+        f"{re.sub(r'[^a-z0-9]+', '-', import_book)}-import.json"
+    )
+    import_config = {
+        "book": import_book,
+        "bookLabel": import_book_label,
+        "tags": import_tags,
+        "storageKey": storage_key,
+        "exportName": export_name,
+    }
 
     work = Path(args.work)
     manifest_path = work / "manifest.json"
     if not manifest_path.exists():
         raise SystemExit(f"missing {manifest_path}")
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    tunes = [t for t in manifest.get("tunes") or [] if t.get("cropPath")]
+    join_by_key = load_join_by_key(work)
+    tunes = [t for t in manifest.get("tunes") or [] if t.get("cropPath") or t.get("notationOnly")]
     tunes = sorted(tunes, key=lambda t: (int(t.get("page") or 0), int(t.get("tuneIndex") or 0)))
+    initial_completed = build_initial_completed(tunes, join_by_key)
+    dubious_path = work / "dubious_joins.json"
+    dubious_count = 0
+    if dubious_path.is_file():
+        dubious_count = len(json.loads(dubious_path.read_text(encoding="utf-8")))
+    else:
+        dubious_count = sum(
+            1
+            for row in join_by_key.values()
+            if row.get("match") and 0.55 <= float(row["match"].get("match_score") or 0) < 0.72
+        )
 
     out_path = Path(args.out) if args.out else work / "review_abc.html"
     resolved = sum(
@@ -190,7 +297,10 @@ def main() -> int:
         if not selected_abc:
             selected_abc = ensure_renderable_abc(str(tune.get("abc") or ""), title)
 
-        crop = Path(tune["cropPath"]).name
+        crop = Path(tune["cropPath"]).name if tune.get("cropPath") else ""
+        join_row = join_by_key.get(f"p{int(tune.get('page') or 0):02d}_t{int(tune.get('tuneIndex') or 0):02d}") or {}
+        match = join_row.get("match") or tune.get("mxlJoin") or {}
+        tier = join_tier_for_tune(tune, join_by_key)
         payload.append(
             {
                 "id": f"t{i:03d}",
@@ -205,18 +315,31 @@ def main() -> int:
                 "selectedCandidateId": selected_id,
                 "candidates": candidates,
                 "chordOcrStatus": tune.get("chordOcrStatus") or {},
+                "joinTier": tier,
+                "manifestComplete": bool(tune.get("complete")),
+                "msczTitle": str(match.get("mscz_title") or ""),
+                "msczSubtitle": str(match.get("mscz_subtitle") or ""),
+                "msczComposer": str(match.get("mscz_composer") or ""),
+                "matchScore": match.get("match_score"),
+                "m0": match.get("m0"),
+                "m1": match.get("m1"),
+                "notationOnly": bool(tune.get("notationOnly")),
             }
         )
 
     payload_json = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
+    initial_completed_json = json.dumps(initial_completed, ensure_ascii=False).replace("<", "\\u003c")
     meters_json = json.dumps(METER_OPTIONS)
+    import_config_json = json.dumps(import_config, ensure_ascii=False).replace("<", "\\u003c")
+    review_title = f"{import_book_label} ABC review"
 
     parts = [
         "<!DOCTYPE html>",
         "<html lang='en'><head>",
         "<meta charset='utf-8'>",
         "<meta name='viewport' content='width=device-width, initial-scale=1'>",
-        "<title>EuroSession ABC review</title>",
+        "<meta name='review-build' content='20260828-chord-overlay-v6'>",
+        f"<title>{review_title}</title>",
         "<script src='https://cdn.jsdelivr.net/npm/abcjs@6.4.4/dist/abcjs-basic.min.js'></script>",
         "<script src='https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js'></script>",
         "<script src='https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js'></script>",
@@ -245,8 +368,9 @@ def main() -> int:
         "nav a{color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.15rem .55rem;font-size:.78rem}",
         "nav a:hover,nav a.has-comment{color:var(--text);border-color:#4a5568}",
         "nav a.has-comment{border-color:#6a5530;color:var(--warn)}",
-        "main{padding:1rem;max-width:1680px;margin:0 auto}",
-        ".tune{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.9rem;margin:0 0 1rem}",
+        "nav a.is-filtered-out{display:none}",
+        "main{padding:1rem 1.25rem;max-width:none;width:100%}",
+        ".tune{display:grid;grid-template-columns:minmax(240px,0.85fr) minmax(360px,1.45fr) minmax(240px,0.85fr);gap:1.25rem;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;margin:0 0 1rem}",
         ".tune.has-comment{border-color:#6a5530;box-shadow:inset 3px 0 0 var(--warn)}",
         ".tune.is-complete{border-color:#355a48;box-shadow:inset 3px 0 0 var(--ok)}",
         ".tune.is-complete.has-comment{box-shadow:inset 3px 0 0 var(--ok), inset 6px 0 0 var(--warn)}",
@@ -284,6 +408,10 @@ def main() -> int:
         ".filter-bar .tally{font-variant-numeric:tabular-nums;opacity:.9}",
         ".filter-bar .pct{color:var(--muted);font-size:.82rem;margin-left:.15rem}",
         ".filter-bar .sep{width:1px;height:1.4rem;background:var(--line);margin:0 .15rem}",
+        ".filter-bar .name-filter{flex:1 1 12rem;min-width:10rem;max-width:22rem;border:1px solid var(--line);"
+        "border-radius:8px;background:#0d0f14;color:var(--text);padding:.35rem .55rem;font:inherit;font-size:.88rem}",
+        ".filter-bar .name-filter::placeholder{color:var(--muted);opacity:.85}",
+        ".filter-bar .showing{color:var(--muted);font-size:.82rem}",
         "@media (max-width:720px){.tune{grid-template-columns:1fr}}",
         ".col-image,.col-notation,.col-abc,.left,.right{min-width:0}",
         ".label{font-size:.78rem;color:var(--muted);margin-bottom:.35rem;display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}",
@@ -293,6 +421,13 @@ def main() -> int:
         ".badge.missing{color:var(--bad);border-color:#6a3a3a}",
         ".badge.warn{color:var(--warn);border-color:#6a5530}",
         ".badge.chords{color:var(--ok);border-color:#3d7a5c;background:#1a2e24}",
+        ".badge.tier-good{color:#c8f0dc;border-color:#3d7a5c;background:#1a2e24}",
+        ".badge.tier-dubious{color:#ffe8c8;border-color:#7a5530;background:#2a2218}",
+        ".badge.tier-unmatched{color:var(--muted);border-color:var(--line)}",
+        ".badge.tier-mxl{color:#d8e8ff;border-color:#3a5378;background:#1a2438}",
+        ".badge.mxl-gt{color:var(--accent);border-color:#3a5378}",
+        ".filter-bar a.dubious-link{color:var(--warn);border:1px solid #6a5530;border-radius:8px;padding:.35rem .65rem;font-size:.86rem;text-decoration:none}",
+        ".filter-bar a.dubious-link:hover{background:#2a2218}",
         "h2{margin:0 0 .55rem;font-size:1.02rem;line-height:1.3}",
         ".crop-wrap{position:relative;background:#0d0f14;border:1px solid var(--line);border-radius:8px;overflow:auto;max-height:70vh;user-select:none}",
         ".crop-wrap img{display:block;width:100%;height:auto;pointer-events:none}",
@@ -314,17 +449,18 @@ def main() -> int:
         ".btn-group .btn-value{min-width:2.4rem;text-align:center;font-variant-numeric:tabular-nums;pointer-events:none;background:#1a1f2a;color:var(--accent);font-weight:600}",
         ".btn-group.overridden{border-color:var(--warn)}",
         ".btn-group.overridden .btn-value{color:var(--warn)}",
-        ".staff{background:#fff;color:#111;border-radius:8px;border:1px solid var(--line);padding:1.1rem .55rem .55rem;overflow:auto;min-height:80px;max-height:70vh;position:relative}",
+        ".staff-viewport{background:#fff;color:#111;border-radius:8px;border:1px solid var(--line);overflow:auto;min-height:80px;max-height:70vh;position:relative}",
+        ".staff{background:#fff;padding:1.1rem .55rem .55rem;overflow:visible;min-height:80px;position:relative}",
         ".staff.abcjs-container{overflow:visible!important}",
         ".staff .abcjs-container{max-width:100%}",
         ".staff .abcjs-note,.staff .abcjs-rest,.staff .abcjs-chord,.staff .abcjs-decoration{cursor:pointer}",
         ".staff .abcjs-highlight{fill:#2a4a72!important;stroke:#2a4a72!important}",
         ".staff.chord-edit-active .abcjs-annotation,.staff.chord-edit-active .abcjs-chord{opacity:0!important}",
-        ".staff-chord-layer{position:absolute;left:0;top:0;right:0;bottom:0;pointer-events:none;z-index:6;overflow:visible;isolation:isolate}",
+        ".staff-chord-layer{position:absolute;left:0;top:0;right:0;bottom:0;pointer-events:none;z-index:6;overflow:visible;isolation:isolate;min-height:100%}",
         ".review-chord{position:absolute;transform:translate(-50%,-100%);font-weight:700;font-size:.82rem;line-height:1.1;color:#111;pointer-events:auto;user-select:none;white-space:nowrap;padding:0 3px;touch-action:none;background:rgba(255,255,255,.92);border:1px solid rgba(0,0,0,.16);border-radius:3px;z-index:4}",
         ".review-chord--draggable{cursor:grab;z-index:5}",
         ".review-chord--draggable:active{cursor:grabbing}",
-        ".review-chord--add{color:#0a58ca;opacity:1;min-width:.95em;height:1.05em;text-align:center;cursor:pointer;background:rgba(232,240,254,.95);border:1px solid #0d6efd;font:inherit;font-weight:700;padding:0 2px;line-height:1.05em;z-index:1}",
+        ".review-chord--add{color:#0a58ca;opacity:.4;min-width:.95em;height:1.05em;text-align:center;cursor:pointer;background:rgba(232,240,254,.45);border:1px solid #0d6efd;font:inherit;font-weight:700;padding:0 2px;line-height:1.05em;z-index:1}",
         ".review-chord--add:hover,.review-chord--add:focus{opacity:1;background:#0d6efd;color:#fff}",
         ".review-chord--source{opacity:.35;z-index:3}",
         ".review-chord--ghost{position:fixed;transform:translate(-50%,-100%);pointer-events:none;z-index:50;opacity:.9;text-shadow:0 1px 2px rgba(255,255,255,.8)}",
@@ -376,16 +512,20 @@ def main() -> int:
         ".opt .sub{color:var(--muted);font-size:.72rem}",
         "</style></head><body>",
         "<header>",
-        "<h1>EuroSession ABC review</h1>",
+        f"<h1>{review_title}</h1>",
         f"<div class='meta'>{len(tunes)} tunes · {resolved} resolved · "
         f"{chorded} with chorded option · {chorded_sel} chorded selected · "
+        f"book <code>{import_book}</code>"
+        + (f" · tags <code>{', '.join(import_tags)}</code>" if import_tags else "")
+        + " · "
+        f"<a href='review_dubious.html'>Dubious joins ({dubious_count})</a> · "
         f"<a href='review.html'>crop review</a> · "
-        f"<a href='#' id='eurosession-abc-link' download='eurosession.abc' "
-        f"title='Download ABC built from current review selections'>eurosession.abc</a></div>",
+        f"<a href='#' id='eurosession-abc-link' download='{export_name.replace('-import.json', '.abc')}' "
+        f"title='Download ABC built from current review selections'>download.abc</a></div>",
         "<div class='toolbar'>",
         "<button type='button' class='primary' id='copy-btn'>Copy comments for Copilot</button>",
         "<button type='button' class='primary' id='export-tunebook-import-btn' "
-        "title='Download eurosession-import.json for abc2book (ABC edits, complete flags, stable tune ids, crop names)'>"
+        f"title='Download {export_name} for abc2book (ABC edits, complete flags, stable tune ids, crop names)'>"
         "Export tunebook import</button>",
         "<label class='chk'><input type='checkbox' id='copy-all'> Include all tunes (not just commented)</label>",
         "<label class='chk'><input type='checkbox' id='prefer-chords' checked> Prefer chorded when picking defaults</label>",
@@ -393,6 +533,8 @@ def main() -> int:
         "<span class='hint' id='comment-count'>0 comments saved</span>",
         "</div>",
         "<div class='filter-bar' id='complete-filter-bar' role='group' aria-label='Filter tunes'>",
+        "<input type='search' id='name-filter' class='name-filter' placeholder='Filter by name…' "
+        "autocomplete='off' spellcheck='false' aria-label='Filter tunes by name'>",
         "<button type='button' id='filter-all' data-filter='all' class='active'>All <span class='tally' id='tally-all'>0</span></button>",
         "<button type='button' id='filter-complete' data-filter='complete'>Complete <span class='tally' id='tally-complete'>0</span></button>",
         "<button type='button' id='filter-incomplete' data-filter='incomplete' class='incomplete'>Incomplete <span class='tally' id='tally-incomplete'>0</span></button>",
@@ -400,8 +542,19 @@ def main() -> int:
         "<button type='button' id='filter-omr' data-filter='omr' class='omr' title='Current selection is OMR / OMR-chords'>OMR <span class='tally' id='tally-omr'>0</span></button>",
         "<button type='button' id='filter-abc' data-filter='abc' class='abc' title='Current selection is archive/session ABC'>ABC <span class='tally' id='tally-abc'>0</span></button>",
         "<span class='pct' id='complete-pct'>0 / 0 complete (0%)</span>",
+        "<span class='showing' id='filter-showing'></span>",
+        f"<a class='dubious-link' href='review_dubious.html'>Dubious joins ({dubious_count})</a>",
         "</div>",
-        "<nav id='toc'></nav>",
+        "<div class='toolbar' id='list-pager' style='margin-top:.45rem;gap:.4rem;align-items:center'>",
+        "<button type='button' id='list-pager-prev' title='Previous page of tunes'>← Prev</button>",
+        "<span class='hint' id='list-pager-info'>0–0 of 0</span>",
+        "<button type='button' id='list-pager-next' title='Next page of tunes'>Next →</button>",
+        "<label class='chk' for='toc-page-select' style='gap:.35rem'>Page "
+        "<select id='toc-page-select' aria-label='Jump to page' "
+        "style='border:1px solid var(--line);border-radius:8px;background:#0d0f14;color:var(--text);"
+        "padding:.3rem .45rem;font:inherit;font-size:.86rem;max-width:12rem'></select></label>",
+        "<span class='hint'>20 tunes per page</span>",
+        "</div>",
         "</header>",
         "<main id='list'></main>",
         "<div class='chord-dialog-backdrop' id='chord-dialog-backdrop' aria-hidden='true'>",
@@ -426,21 +579,29 @@ def main() -> int:
         "<button type='button' id='clear-data-confirm' class='danger'>Clear saved data</button>",
         "</div></div></div>",
         f"<script id='tunes-data' type='application/json'>{payload_json}</script>",
+        f"<script id='initial-completed' type='application/json'>{initial_completed_json}</script>",
         f"<script id='meter-options' type='application/json'>{meters_json}</script>",
+        f"<script id='import-config' type='application/json'>{import_config_json}</script>",
         "<script>",
         r"""
-const STORAGE_KEY = 'eurosession-abc-review-state-v3';
+const IMPORT_CONFIG = JSON.parse(document.getElementById('import-config').textContent || '{}');
+const STORAGE_KEY = IMPORT_CONFIG.storageKey || 'eurosession-abc-review-state-v3';
 const tunes = JSON.parse(document.getElementById('tunes-data').textContent);
+const INITIAL_COMPLETED = JSON.parse(document.getElementById('initial-completed').textContent || '{}');
 const METER_OPTIONS = JSON.parse(document.getElementById('meter-options').textContent);
 const list = document.getElementById('list');
-const toc = document.getElementById('toc');
+const toc = document.getElementById('toc-page-select');
 const copyBtn = document.getElementById('copy-btn');
 const exportTunebookImportBtn = document.getElementById('export-tunebook-import-btn');
 const copyAllChk = document.getElementById('copy-all');
 const preferChordsChk = document.getElementById('prefer-chords');
 const clearDataBtn = document.getElementById('clear-data-btn');
 const commentCountEl = document.getElementById('comment-count');
-const IMPORT_BOOK = 'eurosession';
+const nameFilterEl = document.getElementById('name-filter');
+const IMPORT_BOOK = IMPORT_CONFIG.book || 'eurosession';
+const IMPORT_BOOK_LABEL = IMPORT_CONFIG.bookLabel || 'EuroSession';
+const IMPORT_TAGS = Array.isArray(IMPORT_CONFIG.tags) ? IMPORT_CONFIG.tags : [];
+const IMPORT_EXPORT_NAME = IMPORT_CONFIG.exportName || 'eurosession-import.json';
 
 function emptyState() {
   return {
@@ -455,6 +616,7 @@ function emptyState() {
     tuneIds: {},
     customCandidates: {},
     completeFilter: 'all',
+    nameQuery: '',
     copyAll: false,
     preferChords: true,
   };
@@ -505,6 +667,14 @@ function loadState() {
     const base = emptyState();
     const filter = data.completeFilter;
     const allowedFilters = { all: 1, complete: 1, incomplete: 1, omr: 1, abc: 1 };
+    const completed = data.completed && typeof data.completed === 'object' ? Object.assign({}, data.completed) : {};
+    if (INITIAL_COMPLETED && typeof INITIAL_COMPLETED === 'object') {
+      Object.keys(INITIAL_COMPLETED).forEach(function(k) {
+        if (INITIAL_COMPLETED[k] && !Object.prototype.hasOwnProperty.call(completed, k)) {
+          completed[k] = true;
+        }
+      });
+    }
     return Object.assign(base, data, {
       comments: data.comments && typeof data.comments === 'object' ? data.comments : {},
       selections: data.selections && typeof data.selections === 'object' ? data.selections : {},
@@ -513,10 +683,11 @@ function loadState() {
       badSections: data.badSections && typeof data.badSections === 'object' ? data.badSections : {},
       abcEdits: data.abcEdits && typeof data.abcEdits === 'object' ? data.abcEdits : {},
       abcHistory: data.abcHistory && typeof data.abcHistory === 'object' ? data.abcHistory : {},
-      completed: data.completed && typeof data.completed === 'object' ? data.completed : {},
+      completed: completed,
       tuneIds: data.tuneIds && typeof data.tuneIds === 'object' ? data.tuneIds : {},
       customCandidates: data.customCandidates && typeof data.customCandidates === 'object' ? data.customCandidates : {},
       completeFilter: allowedFilters[filter] ? filter : 'all',
+      nameQuery: typeof data.nameQuery === 'string' ? data.nameQuery : '',
       copyAll: Boolean(data.copyAll),
       preferChords: data.preferChords !== false,
     });
@@ -549,12 +720,46 @@ function sourceBadge(source) {
     label = 'OMR+chords';
   } else if (s === 'omr' || String(s).toLowerCase().startsWith('omr')) {
     cls = 'badge omr';
-  } else if (s.startsWith('thesession') || s.startsWith('search') || s.startsWith('musicxml')) {
+  } else if (s.startsWith('thesession') || s.startsWith('search') || s.startsWith('musicxml') || s.startsWith('mscz:')) {
     cls = 'badge session';
+    if (s.startsWith('mscz:')) label = 'Score';
+    else if (s.startsWith('musicxml')) label = 'MXL';
   } else if (s === 'missing') {
     cls = 'badge missing';
   }
   return `<span class="${cls}">${escapeHtml(label)}</span>`;
+}
+
+function joinTierBadge(t) {
+  const tier = t.joinTier || 'unmatched';
+  const labels = {
+    good: ['tier-good', 'MXL matched'],
+    dubious: ['tier-dubious', 'Review join'],
+    unmatched: ['tier-unmatched', 'OMR only'],
+    mxl_only: ['tier-mxl', 'Tunebook only'],
+  };
+  const row = labels[tier] || labels.unmatched;
+  let extra = '';
+  if (t.msczTitle && tier !== 'unmatched') {
+    extra = ' · ' + escapeHtml(t.msczTitle);
+    if (t.m0 != null && t.m1 != null) extra += ' mm' + t.m0 + '–' + t.m1;
+    if (t.matchScore != null) extra += ' (' + Number(t.matchScore).toFixed(2) + ')';
+  }
+  if (t.msczComposer) extra += ' · ' + escapeHtml(t.msczComposer);
+  else if (t.msczSubtitle) extra += ' · ' + escapeHtml(t.msczSubtitle);
+  return `<span class="badge ${row[0]}" title="Join tier">${row[1]}${extra}</span>`;
+}
+
+function isPhotoTune(t) {
+  return t.joinTier !== 'mxl_only' && !t.notationOnly;
+}
+
+function photoCompleteStats() {
+  const photo = tunes.filter(isPhotoTune);
+  const done = photo.filter(isTuneComplete).length;
+  const total = photo.length;
+  const pct = total ? Math.round((100 * done) / total) : 0;
+  return { done, total, pct };
 }
 
 function mergeCustomCandidates() {
@@ -633,7 +838,53 @@ async function extractMusicXmlFromMxl(arrayBuffer) {
   return musicXml;
 }
 
-function musicXmlTextToAbc(musicXmlText, fileName) {
+/** MXL / MSCZ / plain MusicXML → XML text. MSCZ usually holds .mscx only (no MusicXML). */
+async function extractMusicXmlFromArchive(arrayBuffer, fileName) {
+  const lower = String(fileName || '').toLowerCase();
+  if (lower.endsWith('.xml') || lower.endsWith('.musicxml')) {
+    const text = new TextDecoder('utf-8').decode(arrayBuffer);
+    if (!isMusicXmlText(text)) throw new Error('Input is not valid MusicXML');
+    return text;
+  }
+  if (typeof JSZip === 'undefined') throw new Error('JSZip failed to load');
+  const zip = await JSZip.loadAsync(arrayBuffer);
+  const entries = Object.keys(zip.files).filter(k => !zip.files[k].dir);
+  const scorePaths = entries.filter(p =>
+    /\.(mxl|xml|musicxml)$/i.test(p) && !/^META-INF\//i.test(p)
+  );
+  for (const p of scorePaths) {
+    const entry = zip.files[p];
+    if (p.toLowerCase().endsWith('.mxl')) {
+      const nested = await entry.async('arraybuffer');
+      return extractMusicXmlFromMxl(nested);
+    }
+    const text = await entry.async('text');
+    if (isMusicXmlText(text)) return text;
+  }
+  if (lower.endsWith('.mxl')) {
+    return extractMusicXmlFromMxl(arrayBuffer);
+  }
+  const hasMscx = entries.some(p => p.toLowerCase().endsWith('.mscx'));
+  if (lower.endsWith('.mscz') || hasMscx) {
+    throw new Error(
+      'MSCZ contains MuseScore native (.mscx) only — no embedded MusicXML. '
+      + 'Open in MuseScore → File → Export → MusicXML (compressed .mxl), then add that file here. '
+      + 'Or run: python3 scripts/eurosession/mscz_export_musicxml.py yourfile.mscz'
+    );
+  }
+  throw new Error('Could not find MusicXML inside archive');
+}
+
+function xml2abcOptions(partFilter) {
+  const opts = {
+    u: 0, b: 4, n: 0, c: 0, v: 0, d: 0, m: 1, x: 0, t: 0,
+    v1: 0, noped: 0, stm: 0, p: 'f', s: 0, addstavenum: 0, rehparts: 0, addq: 0, q: 100, mnum: -1,
+  };
+  if (partFilter === '1') opts.p = '1';
+  return opts;
+}
+
+function musicXmlTextToAbc(musicXmlText, fileName, partFilter) {
   const convert = typeof window.vertaal === 'function' ? window.vertaal : null;
   if (!convert) throw new Error('xml2abc failed to load');
   const normalized = String(musicXmlText || '').trim();
@@ -642,29 +893,22 @@ function musicXmlTextToAbc(musicXmlText, fileName) {
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(normalized, 'text/xml');
   if (xmlDoc.querySelector('parsererror')) throw new Error('MusicXML parse failed');
-  const options = {
-    u: 0, b: 4, n: 0, c: 0, v: 0, d: 0, m: 1, x: 0, t: 0,
-    v1: 0, noped: 0, stm: 0, p: 'f', s: 0, addstavenum: 0, rehparts: 0, addq: 0, q: 100, mnum: -1,
-  };
+  const partCount = xmlDoc.getElementsByTagName('score-part').length;
+  const options = xml2abcOptions(partFilter);
   const result = convert(xmlDoc, options);
   let abcText = result && result[0] ? String(result[0]) : '';
   if (!abcText.trim()) throw new Error('MusicXML conversion produced no ABC output');
   const title = titleFromFileName(fileName);
   abcText = abcText.replace(/T:Title\b/g, 'T:' + title);
   abcText = abcText.replace(/Music21 Fragment/g, title).replace(/Music21/g, '');
-  return abcText.trim();
+  const voiceCount = (abcText.match(/^V:\d+/gm) || []).length;
+  return { abc: abcText.trim(), partCount: partCount, voiceCount: voiceCount };
 }
 
-async function musicXmlFileToAbc(file) {
+async function musicXmlFileToAbc(file, partFilter) {
   const name = file && file.name ? file.name : 'score.xml';
-  const lower = name.toLowerCase();
-  let xmlText;
-  if (lower.endsWith('.mxl')) {
-    xmlText = await extractMusicXmlFromMxl(await file.arrayBuffer());
-  } else {
-    xmlText = await file.text();
-  }
-  return musicXmlTextToAbc(xmlText, name);
+  const xmlText = await extractMusicXmlFromArchive(await file.arrayBuffer(), name);
+  return musicXmlTextToAbc(xmlText, name, partFilter);
 }
 
 function optionLabelHtml(t, c, selectedId) {
@@ -718,16 +962,20 @@ function persistCustomCandidate(t, candidate) {
   state.customCandidates[key] = filtered;
 }
 
-async function addMusicXmlSource(t, file, hintEl) {
+async function addMusicXmlSource(t, file, hintEl, allParts) {
   if (!file) return;
   if (hintEl) {
     hintEl.className = 'hint';
     hintEl.textContent = 'Converting…';
   }
   try {
-    const abc = await musicXmlFileToAbc(file);
+    const partFilter = allParts ? 'all' : '1';
+    const converted = await musicXmlFileToAbc(file, partFilter);
+    const abc = converted.abc;
     const fileName = file.name || 'score.xml';
-    const source = 'musicxml:' + fileName;
+    const ext = fileName.split('.').pop().toLowerCase();
+    const kind = ext === 'mscz' ? 'mscz' : 'musicxml';
+    const source = kind + ':' + fileName;
     const chordMatches = abc.match(/"\s*[A-G]/gi);
     const candidate = {
       id: candidateIdFromAbc(source, abc),
@@ -741,7 +989,6 @@ async function addMusicXmlSource(t, file, hintEl) {
       notationIssues: [],
     };
     if (!Array.isArray(t.candidates)) t.candidates = [];
-    // Drop previous custom candidate with same source filename.
     t.candidates = t.candidates.filter(c => String(c && c.source || '') !== source);
     t.candidates.push(candidate);
     persistCustomCandidate(t, candidate);
@@ -755,7 +1002,16 @@ async function addMusicXmlSource(t, file, hintEl) {
     updateCommentUI();
     if (hintEl) {
       hintEl.className = 'hint is-ok';
-      hintEl.textContent = 'Added and selected: ' + fileName;
+      let msg = 'Added and selected: ' + fileName;
+      if (converted.partCount > 1) {
+        msg += allParts
+          ? (' (' + converted.partCount + ' parts)')
+          : (' (part 1 of ' + converted.partCount + ')');
+      }
+      if (converted.voiceCount > 1 && allParts) {
+        msg += ' · ' + converted.voiceCount + ' voices';
+      }
+      hintEl.textContent = msg;
     }
   } catch (err) {
     if (hintEl) {
@@ -1438,10 +1694,40 @@ function buildEurosessionAbc() {
     } else {
       abc = ensureExportXHeader(abc, idx, t.title);
     }
+    abc = ensureAbcbookRepeats(abc, 3);
     const comment = '% page=' + t.page + ' tune=' + t.tuneIndex + ' source=' + source + ' match=' + match;
     blocks.push(comment + '\n' + abc.trim());
   }
   return blocks.join('\n\n') + '\n';
+}
+
+/** Default playback loop count for exported EuroSession tunes. */
+function ensureAbcbookRepeats(abc, repeats) {
+  let text = String(abc || '');
+  if (/%\s*abcbook-repeats\s+\S+/i.test(text)) return text;
+  const n = parseInt(repeats, 10);
+  const value = (Number.isFinite(n) && n > 0) ? String(n) : '3';
+  const line = '% abcbook-repeats ' + value;
+  if (/^K:/m.test(text)) {
+    return text.replace(/^(K:.*)$/m, line + '\n$1');
+  }
+  if (text.trim()) return text.replace(/\s*$/, '') + '\n' + line + '\n';
+  return line + '\n';
+}
+
+/** Inject % abcbook-tags line (replace existing or insert before K:). */
+function ensureAbcbookTags(abc, tags) {
+  const list = (tags || []).map(function(t) { return String(t || '').trim(); }).filter(Boolean);
+  if (!list.length) return String(abc || '');
+  let text = String(abc || '');
+  const line = '% abcbook-tags ' + list.join(',');
+  if (/%\s*abcbook-tags\s+/i.test(text)) {
+    return text.replace(/%\s*abcbook-tags\s+[^\n]*/i, line);
+  }
+  if (/^K:/m.test(text)) {
+    return text.replace(/^(K:.*)$/m, line + '\n$1');
+  }
+  return text.replace(/\s*$/, '') + '\n' + line + '\n';
 }
 
 /** Inject stable tune id + book into ABC for abc2book import/update. */
@@ -1465,6 +1751,8 @@ function prepareAbcForImport(abc, tuneId, book, index, title) {
   } else {
     text = idLine + '\n' + text;
   }
+  text = ensureAbcbookTags(text, IMPORT_TAGS);
+  text = ensureAbcbookRepeats(text, 3);
   return text.trim() + '\n';
 }
 
@@ -1490,14 +1778,17 @@ function buildTunebookImportPackage() {
       title: t.title,
       page: t.page,
       tuneIndex: t.tuneIndex,
-      crop: t.crop,
+      crop: t.crop || '',
       complete: isTuneComplete(t),
       abc: abc,
+      joinTier: t.joinTier || '',
+      notationOnly: !!(t.notationOnly || t.joinTier === 'mxl_only'),
     });
   }
   return {
     book: IMPORT_BOOK,
-    bookLabel: 'EuroSession',
+    bookLabel: IMPORT_BOOK_LABEL,
+    tags: IMPORT_TAGS.slice(),
     exportedAt: new Date().toISOString(),
     storageKey: STORAGE_KEY,
     version: 1,
@@ -1507,6 +1798,14 @@ function buildTunebookImportPackage() {
 
 let tunebookImportBlobUrl = null;
 function downloadTunebookImportPackage() {
+  const photo = photoCompleteStats();
+  if (photo.done < photo.total) {
+    const msg = 'Export blocked: mark all photo tunes complete first (' + photo.done + '/' + photo.total + '). Dubious/unmatched rows still need sign-off.';
+    if (commentCountEl) commentCountEl.textContent = msg;
+    if (!window.confirm(msg + '\n\nExport anyway with current complete flags?')) {
+      return;
+    }
+  }
   const pkg = buildTunebookImportPackage();
   const blob = new Blob([JSON.stringify(pkg, null, 2)], { type: 'application/json;charset=utf-8' });
   if (tunebookImportBlobUrl) {
@@ -1515,13 +1814,13 @@ function downloadTunebookImportPackage() {
   tunebookImportBlobUrl = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = tunebookImportBlobUrl;
-  a.download = 'eurosession-import.json';
+  a.download = IMPORT_EXPORT_NAME;
   document.body.appendChild(a);
   a.click();
   a.remove();
   const done = pkg.tunes.filter(function(t) { return t.complete; }).length;
   if (commentCountEl) {
-    commentCountEl.textContent = 'exported ' + pkg.tunes.length + ' tunes (' + done + ' complete) · ids saved';
+    commentCountEl.textContent = 'exported ' + pkg.tunes.length + ' tunes (' + done + ' complete) · book ' + IMPORT_BOOK + ' · ids saved';
   }
 }
 
@@ -1588,7 +1887,7 @@ function convertSessionLineBreaks(abc) {
   if (!body) return text;
   const protect = (s) => {
     const anns = [];
-    const out = s.replace(/!([A-Za-z][A-Za-z0-9_]*)!/g, (m) => {
+    const out = s.replace(/!([A-Za-z0-9.<>()+\/=_-]{1,32})!/g, (m) => {
       anns.push(m);
       return '\x00ABCANN' + (anns.length - 1) + '\x00';
     });
@@ -2389,26 +2688,36 @@ function syncCompareHeights(t) {
   const article = document.getElementById(t.id);
   const crop = article ? article.querySelector('.crop-wrap') : null;
   const staff = document.getElementById('staff-' + t.id);
+  const viewport = document.getElementById('staff-viewport-' + t.id);
+  const scrollBox = viewport || staff;
   const spacer = document.getElementById('align-' + t.id);
-  if (!crop || !staff) return;
+  if (!crop || !scrollBox) return;
   if (spacer) spacer.style.height = '0px';
   crop.style.height = '';
-  staff.style.height = '';
+  scrollBox.style.height = '';
+  if (staff) staff.style.height = '';
   void crop.offsetHeight;
   // Pad notation column so staff top lines up with crop (image header is taller).
-  if (spacer && window.matchMedia('(min-width: 721px)').matches) {
+  if (spacer && staff && window.matchMedia('(min-width: 721px)').matches) {
     const delta = crop.getBoundingClientRect().top - staff.getBoundingClientRect().top;
     if (delta > 0) spacer.style.height = Math.round(delta) + 'px';
     void crop.offsetHeight;
   }
   const cropH = crop.scrollHeight;
-  const staffH = staff.scrollHeight;
+  const staffH = staff ? staff.scrollHeight : scrollBox.scrollHeight;
   const cap = Math.round(window.innerHeight * 0.7);
   const h = Math.min(Math.max(cropH, staffH, 80), cap);
   crop.style.height = h + 'px';
-  staff.style.height = h + 'px';
+  scrollBox.style.height = h + 'px';
   crop.style.overflow = 'auto';
-  staff.style.overflow = 'auto';
+  scrollBox.style.overflow = 'auto';
+  if (staff) {
+    staff.style.height = '';
+    staff.style.overflow = 'visible';
+  }
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() { refreshStaffChordOverlay(t); });
+  });
 }
 
 let compareHeightResizeTimer = null;
@@ -2575,6 +2884,13 @@ function enumerateAbcNotes(abc) {
             i = j;
             continue;
           }
+          // Inline fields [M:2/4], [K:G], [Q:…], etc. — not notes; keep pending chord.
+          if (/^\[[A-Za-z]:/.test(line.slice(i))) {
+            let j = i + 1;
+            while (j < line.length && line[j] !== ']') j += 1;
+            i = Math.min(j + 1, line.length);
+            continue;
+          }
           // Chordal note [CEG]
           let j = i + 1;
           while (j < line.length && line[j] !== ']') j += 1;
@@ -2635,18 +2951,61 @@ function enumerateAbcNotes(abc) {
   return notes;
 }
 
+/** Map an abcjs note selectable to the matching source-ABC note (position-based, multi-voice safe). */
+function sourceNoteForSelectable(sel, prepared, sourceNotes) {
+  const abcelem = sel && sel.absEl && sel.absEl.abcelem;
+  if (!abcelem || abcelem.startChar == null || !sourceNotes.length) return null;
+  let srcStart = abcelem.startChar;
+  let srcEnd = abcelem.endChar != null ? abcelem.endChar : srcStart + 1;
+  if (prepared && typeof prepared.mapRange === 'function') {
+    const mapped = prepared.mapRange(srcStart, srcEnd);
+    srcStart = mapped.start;
+    srcEnd = mapped.end;
+  }
+  for (let i = 0; i < sourceNotes.length; i++) {
+    const n = sourceNotes[i];
+    if (srcStart >= n.noteStart && srcStart < n.noteEnd) return n;
+  }
+  // abcjs often sets startChar on the chord quote ("Am") before the note head.
+  for (let i = 0; i < sourceNotes.length; i++) {
+    const n = sourceNotes[i];
+    if (n.chord && srcStart >= n.chord.start && srcStart < n.noteStart) return n;
+    if (n.noteStart >= srcStart && n.noteStart < srcEnd) return n;
+  }
+  for (let i = 0; i < sourceNotes.length; i++) {
+    const n = sourceNotes[i];
+    if (n.noteStart < srcEnd && n.noteEnd > srcStart) return n;
+  }
+  let best = null;
+  for (let i = 0; i < sourceNotes.length; i++) {
+    const n = sourceNotes[i];
+    if (n.noteStart <= srcStart) best = n;
+    else break;
+  }
+  return best;
+}
+
 function setChordOnNoteIndex(sourceAbc, noteIndex, chordName) {
   const text = String(sourceAbc || '');
   const notes = enumerateAbcNotes(text);
   const note = notes[noteIndex];
   if (!note) return text;
   const next = normalizeChordSymbolName(chordName);
+  // Always insert immediately before the note head so chords land after any
+  // preceding inline fields ([M:…], [K:…], …), not before them.
+  let base = text;
+  let insertAt = note.noteStart;
   if (note.chord) {
-    if (!next) return text.slice(0, note.chord.start) + text.slice(note.chord.end);
-    return text.slice(0, note.chord.start) + '"' + next + '"' + text.slice(note.chord.end);
+    base = text.slice(0, note.chord.start) + text.slice(note.chord.end);
+    const notes2 = enumerateAbcNotes(base);
+    const note2 = notes2[noteIndex];
+    if (!note2) return text;
+    if (!next) return base;
+    insertAt = note2.noteStart;
+  } else if (!next) {
+    return text;
   }
-  if (!next) return text;
-  return text.slice(0, note.noteStart) + '"' + next + '"' + text.slice(note.noteStart);
+  return base.slice(0, insertAt) + '"' + next + '"' + base.slice(insertAt);
 }
 
 function moveChordBetweenNoteIndices(sourceAbc, fromIndex, toIndex) {
@@ -2663,7 +3022,11 @@ function moveChordBetweenNoteIndices(sourceAbc, fromIndex, toIndex) {
   const dest = notes2[toIndex];
   if (!dest) return text; // refuse if re-enumeration failed
   if (dest.chord) {
-    next = next.slice(0, dest.chord.start) + '"' + name + '"' + next.slice(dest.chord.end);
+    next = next.slice(0, dest.chord.start) + next.slice(dest.chord.end);
+    const notes3 = enumerateAbcNotes(next);
+    const dest3 = notes3[toIndex];
+    if (!dest3) return text;
+    next = next.slice(0, dest3.noteStart) + '"' + name + '"' + next.slice(dest3.noteStart);
   } else {
     next = next.slice(0, dest.noteStart) + '"' + name + '"' + next.slice(dest.noteStart);
   }
@@ -2742,18 +3105,10 @@ function openChordDialog(ctx) {
 function saveChordDialog() {
   if (!chordDialogCtx) return;
   const input = document.getElementById('chord-dialog-input');
-  const displayName = normalizeChordSymbolName(input && input.value);
+  // Store exactly what was typed — chords match the written ABC / crop key,
+  // not a sounding-pitch conversion from the staff transpose control.
+  const name = normalizeChordSymbolName(input && input.value);
   const ctx = chordDialogCtx;
-  // Prefer live transpose from the tune (override), not a stale dialog snapshot.
-  const semis = (ctx.tune && typeof getTranspose === 'function')
-    ? getTranspose(ctx.tune)
-    : (Number(ctx.chordTranspose) || 0);
-  const keyBody = parseAbcKeyBody((ctx.abcTa && ctx.abcTa.value) || '');
-  const sourcePreferFlats = keyBodyPrefersFlats(keyBody);
-  // Dialog is in sounding pitch; ABC stores concert pitch.
-  const name = semis
-    ? transposeChordSymbol(displayName, -semis, sourcePreferFlats)
-    : displayName;
   const live = ctx.abcTa.value || '';
   const next = setChordOnNoteIndex(live, ctx.noteIndex, name);
   closeChordDialog();
@@ -2796,6 +3151,17 @@ function noteSelectableList(visual) {
     out.push(sel);
   }
   return out;
+}
+
+/**
+ * Chord symbol from abcjs's engraved note.
+ * When visualTranspose is set, abcjs has ALREADY transposed this name to sounding pitch —
+ * do not transpose it again for the overlay.
+ */
+function chordNameFromAbcelem(sel) {
+  const abcelem = sel && sel.absEl && sel.absEl.abcelem;
+  if (!abcelem || !abcelem.chord || !abcelem.chord.length) return '';
+  return normalizeChordSymbolName(abcelem.chord[0].name || '');
 }
 
 function clearChordDragListeners() {
@@ -2854,10 +3220,10 @@ function chordRowYByNote(noteInfos, staffTopByLine) {
 }
 
 /** Top of the engraved staff lines per abcjs line id (l0, l1, …). */
-function staffTopYByLine(target, staffRect) {
+function staffTopYByLine(engraveRoot, engraveRect) {
   const map = {};
-  if (!target || !staffRect) return map;
-  const nodes = target.querySelectorAll('.abcjs-staff');
+  if (!engraveRoot || !engraveRect) return map;
+  const nodes = engraveRoot.querySelectorAll('.abcjs-staff');
   for (let i = 0; i < nodes.length; i++) {
     const el = nodes[i];
     const cls = (el.className && el.className.baseVal != null)
@@ -2868,7 +3234,7 @@ function staffTopYByLine(target, staffRect) {
     const r = el.getBoundingClientRect();
     if (!(r.width || r.height)) continue;
     const key = 'l' + m[1];
-    const top = r.top - staffRect.top + target.scrollTop;
+    const top = r.top - engraveRect.top;
     if (map[key] == null || top < map[key]) map[key] = top;
   }
   return map;
@@ -2890,6 +3256,51 @@ function clearStaffChordOverlay(target) {
   }
   target.querySelectorAll('.staff-chord-layer').forEach(function(el) { el.remove(); });
   target.classList.remove('chord-edit-active');
+}
+
+function refreshStaffChordOverlay(t) {
+  const target = document.getElementById('staff-' + t.id);
+  if (!target || !target._abcVisual || !target._renderGen) return;
+  const abcTa = document.getElementById('abc-' + t.id);
+  const abc = target._chordSourceAbc || getDisplayAbc(t);
+  queueStaffChordOverlay(t, target, target._abcVisual, abc, abcTa, target._renderGen);
+}
+
+function computeStaffRenderWidth(t) {
+  const viewport = document.getElementById('staff-viewport-' + t.id);
+  if (viewport && viewport.clientWidth > 0) {
+    return Math.max(320, viewport.clientWidth - 12);
+  }
+  const article = document.getElementById(t.id);
+  const col = article && article.querySelector('.col-notation');
+  if (col && col.clientWidth > 0) {
+    return Math.max(320, col.clientWidth - 12);
+  }
+  return Math.max(320, Math.round(window.innerWidth * 0.38));
+}
+
+function wireStaffViewportObserver(t, viewport, target) {
+  if (!viewport || !target || typeof ResizeObserver === 'undefined') return;
+  if (viewport._staffResizeObserver) {
+    viewport._staffResizeObserver.disconnect();
+    viewport._staffResizeObserver = null;
+  }
+  let debounce = null;
+  viewport._staffResizeObserver = new ResizeObserver(function() {
+    if (debounce) clearTimeout(debounce);
+    debounce = setTimeout(function() {
+      debounce = null;
+      const w = computeStaffRenderWidth(t);
+      const prev = target._lastStaffWidth || 0;
+      if (Math.abs(w - prev) > 14) {
+        target._lastStaffWidth = w;
+        renderStaff(t);
+      } else {
+        refreshStaffChordOverlay(t);
+      }
+    }, 80);
+  });
+  viewport._staffResizeObserver.observe(viewport);
 }
 
 function queueStaffChordOverlay(t, target, visual, sourceAbc, abcTa, gen) {
@@ -2961,19 +3372,11 @@ function setupChordOverlay(t, target, visual, sourceAbc, abcTa) {
 
   const sels = noteSelectableList(visual);
   const sourceNotes = enumerateAbcNotes(liveSource);
+  const prepared = target._abcPrepared || null;
   if (!sels.length || !sourceNotes.length) {
     target.querySelectorAll('.staff-chord-layer').forEach(function(el) { el.remove(); });
     target.classList.remove('chord-edit-active');
     return false;
-  }
-
-  // Align by min length so a small engraver/source mismatch still shows controls.
-  const n = Math.min(sels.length, sourceNotes.length);
-  if (sels.length !== sourceNotes.length) {
-    const hint = document.getElementById('abc-hint-' + t.id);
-    if (hint) {
-      hint.textContent = 'Chord overlay partial (svg ' + sels.length + ' vs abc ' + sourceNotes.length + ')';
-    }
   }
 
   target.querySelectorAll('.staff-chord-layer').forEach(function(el) { el.remove(); });
@@ -2982,11 +3385,12 @@ function setupChordOverlay(t, target, visual, sourceAbc, abcTa) {
   layer.className = 'staff-chord-layer';
   target.appendChild(layer);
 
-  const staffRect = target.getBoundingClientRect();
+  const engraveRect = target.getBoundingClientRect();
   const noteInfos = [];
   let layoutReady = true;
+  let matched = 0;
 
-  for (let index = 0; index < n; index++) {
+  for (let index = 0; index < sels.length; index++) {
     const sel = sels[index];
     const svgEl = sel.svgEl;
     if (!svgEl) continue;
@@ -2995,31 +3399,54 @@ function setupChordOverlay(t, target, visual, sourceAbc, abcTa) {
       layoutReady = false;
       continue;
     }
-    // Keep X centred on the full note (stem+head); Y from the notehead only.
+    const src = sourceNoteForSelectable(sel, prepared, sourceNotes);
+    // Prefer written pitch from source ABC. abcjs visualTranspose rewrites
+    // abcelem chord names — only use that as a fallback, converted back.
+    const writtenChordName = (src && src.chord && src.chord.name)
+      ? normalizeChordSymbolName(src.chord.name)
+      : '';
+    const abcelemChordName = chordNameFromAbcelem(sel);
+    if (!src && !writtenChordName && !abcelemChordName) {
+      layoutReady = false;
+      continue;
+    }
+    matched += 1;
+    // Coordinates relative to the engraving root (scrolls with notation, not the viewport).
     const fullR = svgEl.getBoundingClientRect();
     const x = (fullR.width || fullR.height
       ? fullR.left + fullR.width / 2
-      : headR.left + headR.width / 2) - staffRect.left + target.scrollLeft;
-    const noteTop = headR.top - staffRect.top + target.scrollTop;
+      : headR.left + headR.width / 2) - engraveRect.left;
+    const noteTop = headR.top - engraveRect.top;
     const noteMidY = noteTop + headR.height / 2;
-    if (index > 0 && noteInfos.length && Math.abs(x - noteInfos[noteInfos.length - 1].x) < 0.5
+    if (noteInfos.length && Math.abs(x - noteInfos[noteInfos.length - 1].x) < 0.5
         && Math.abs(noteMidY - noteInfos[noteInfos.length - 1].noteMidY) < 0.5) {
       layoutReady = false;
     }
-    const src = sourceNotes[index];
-    const chordName = (src && src.chord && src.chord.name) ? src.chord.name : '';
-    const displayChordName = chordName
-      ? transposeChordSymbol(chordName, chordTx.semis, chordTx.preferFlats)
-      : '';
+    // Overlay + dialog are WYSIWYG with the ABC text (crop / written key).
+    // Do not transpose labels to sounding pitch — that made typed chords look "changed".
+    let chordName = writtenChordName;
+    if (!chordName && abcelemChordName) {
+      chordName = chordTx.semis
+        ? transposeChordSymbol(abcelemChordName, -chordTx.semis, chordTx.sourcePreferFlats)
+        : abcelemChordName;
+    }
     noteInfos.push({
-      noteIndex: index,
+      noteIndex: src ? src.index : -1,
       x: x,
       noteTop: noteTop,
       noteMidY: noteMidY,
       systemKey: noteSystemKey(sel, noteTop),
       chordName: chordName,
-      displayChordName: displayChordName,
+      displayChordName: chordName,
     });
+  }
+
+  if (matched < sels.length) {
+    const hint = document.getElementById('abc-hint-' + t.id);
+    if (hint && !hasAbcEdit(t)) {
+      hint.textContent = 'live preview · chords mapped ' + matched + '/' + sels.length + ' notes';
+    }
+    layoutReady = false;
   }
 
   if (!noteInfos.length) {
@@ -3028,10 +3455,8 @@ function setupChordOverlay(t, target, visual, sourceAbc, abcTa) {
     return false;
   }
 
-  // Only hide native abcjs chords once our overlay is actually populated.
-  target.classList.add('chord-edit-active');
   layer.dataset.layoutReady = layoutReady ? '1' : '0';
-  const staffTopByLine = staffTopYByLine(target, staffRect);
+  const staffTopByLine = staffTopYByLine(target, engraveRect);
   const rowYs = chordRowYByNote(noteInfos, staffTopByLine);
   const hits = [];
   const addButtons = [];
@@ -3197,6 +3622,9 @@ function setupChordOverlay(t, target, visual, sourceAbc, abcTa) {
   // Plus buttons first, chord labels last — chords must paint on top when positions overlap.
   addButtons.forEach(function(btn) { layer.appendChild(btn); });
   chordLabels.forEach(function(label) { layer.appendChild(label); });
+  // Hide native abcjs chord glyphs only when our overlay actually shows chord labels.
+  if (chordLabels.length > 0) target.classList.add('chord-edit-active');
+  else target.classList.remove('chord-edit-active');
   return layoutReady;
 }
 
@@ -3530,13 +3958,15 @@ function renderStaff(t, opts) {
     if (visualTranspose) {
       renderText = rewriteAbcKeyForVisualTranspose(prepared.text);
     }
+    const staffWidth = computeStaffRenderWidth(t);
+    target._lastStaffWidth = staffWidth;
     const optsRender = {
       // Match Music Single: honour ABC source newlines (no abcjs wrap reflow).
       responsive: 'resize',
       add_classes: true,
       paddingleft: 0,
       paddingright: 0,
-      staffwidth: 640,
+      staffwidth: staffWidth,
       clickListener: function(abcelem) {
         if (!abcTa || !abcelem || abcelem.startChar == null) return;
         const prep = target._abcPrepared || prepared;
@@ -3582,6 +4012,8 @@ function renderStaff(t, opts) {
     target._abcVisual = visual;
     target._chordSourceAbc = abc;
     queueStaffChordOverlay(t, target, visual, abc, abcTa, renderGen);
+    const viewport = document.getElementById('staff-viewport-' + t.id);
+    wireStaffViewportObserver(t, viewport, target);
     const warnings = (visual && visual[0] && visual[0].warnings) || [];
     if (warnings.length && /Unknown decoration/.test(String(warnings[0]))) {
       const note = document.createElement('div');
@@ -3619,7 +4051,16 @@ function completeStats() {
   };
 }
 
+function tuneMatchesNameQuery(t) {
+  const q = String(state.nameQuery || '').trim().toLowerCase();
+  if (!q) return true;
+  const title = String((t && t.title) || '').toLowerCase();
+  const id = String((t && t.id) || '').toLowerCase();
+  return title.indexOf(q) >= 0 || id.indexOf(q) >= 0;
+}
+
 function tuneMatchesListFilter(t) {
+  if (!tuneMatchesNameQuery(t)) return false;
   const mode = state.completeFilter || 'all';
   if (mode === 'complete') return isTuneComplete(t);
   if (mode === 'incomplete') return !isTuneComplete(t);
@@ -3633,10 +4074,17 @@ function applyCompleteFilter() {
   document.querySelectorAll('#complete-filter-bar [data-filter]').forEach(function(btn) {
     btn.classList.toggle('active', btn.getAttribute('data-filter') === mode);
   });
-
+  // Large books: remount only the current pager window instead of toggling 1000+ nodes.
+  if (typeof rebuildTuneList === 'function') {
+    listOffset = 0;
+    rebuildTuneList();
+    return;
+  }
   const visibleByPage = {};
+  let visibleCount = 0;
   for (const t of tunes) {
     const show = tuneMatchesListFilter(t);
+    if (show) visibleCount += 1;
     const article = document.getElementById(t.id);
     if (article) article.classList.toggle('is-filtered-out', !show);
     if (show) visibleByPage[t.page] = true;
@@ -3645,6 +4093,14 @@ function applyCompleteFilter() {
     const page = parseInt(head.getAttribute('data-page'), 10);
     head.classList.toggle('is-filtered-out', !visibleByPage[page]);
   });
+  document.querySelectorAll('#toc-page-select option[data-page]').forEach(function(opt) {
+    const page = parseInt(opt.getAttribute('data-page'), 10);
+    opt.disabled = !visibleByPage[page];
+  });
+  const showingEl = document.getElementById('filter-showing');
+  if (showingEl) {
+    showingEl.textContent = visibleCount < tunes.length ? ' · showing ' + visibleCount : '';
+  }
   requestAnimationFrame(syncAllCompareHeights);
 }
 
@@ -3672,7 +4128,15 @@ function updateCompleteUI() {
     const label = document.getElementById('done-label-' + t.id);
     if (label) label.classList.toggle('is-on', done);
   }
-  applyCompleteFilter();
+  // Paginated list remounts via filter buttons / name box — do not rebuild here
+  // (would reset the pager on every comment keystroke).
+  if (typeof rebuildTuneList !== 'function') {
+    applyCompleteFilter();
+  } else {
+    document.querySelectorAll('#complete-filter-bar [data-filter]').forEach(function(btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-filter') === (state.completeFilter || 'all'));
+    });
+  }
   refreshEurosessionAbcLink();
 }
 
@@ -3704,8 +4168,8 @@ function updateCommentUI() {
     if (article) article.classList.toggle('has-comment', unresolved);
     const ta = document.getElementById('c-' + t.id);
     if (ta) ta.classList.toggle('has-text', Boolean(text));
-    const tocLink = toc.querySelector(`a[data-page="${t.page}"]`);
-    if (tocLink) {
+    const tocOpt = toc && toc.querySelector(`option[data-page="${t.page}"]`);
+    if (tocOpt) {
       const pageHas = tunes.some(x => {
         if (x.page !== t.page) return false;
         const k = commentKey(x);
@@ -3717,7 +4181,7 @@ function updateCommentUI() {
           hasAbcEdit(x)
         );
       });
-      tocLink.classList.toggle('has-comment', pageHas);
+      tocOpt.textContent = String(t.page).padStart(2, '0') + (pageHas ? ' · notes' : '');
     }
   }
   const chordedSel = tunes.filter(t => {
@@ -3753,19 +4217,26 @@ function applyPreferChordsDefaults() {
   saveState(state);
 }
 
-const pages = [...new Set(tunes.map(t => t.page))];
-for (const p of pages) {
-  const a = document.createElement('a');
-  a.href = '#p' + String(p).padStart(2,'0');
-  a.textContent = String(p).padStart(2,'0');
-  a.dataset.page = String(p);
-  toc.appendChild(a);
-}
+const LIST_PAGE_SIZE = 20;
+let listOffset = 0;
+const tunesById = Object.fromEntries(tunes.map(function(t) { return [t.id, t]; }));
+const staffObserver = new IntersectionObserver(function(entries) {
+  for (const entry of entries) {
+    if (!entry.isIntersecting) continue;
+    const id = entry.target.dataset.staffTune;
+    const t = tunesById[id];
+    if (!t || t._staffRendered) continue;
+    t._staffRendered = true;
+    try { staffObserver.unobserve(entry.target); } catch (e) { /* ignore */ }
+    renderStaff(t);
+  }
+}, { rootMargin: '160px 0px' });
 
 applyPreferChordsDefaults();
 
+function mountTuneCards(tuneList) {
 let lastPage = null;
-for (const t of tunes) {
+for (const t of tuneList) {
   if (t.page !== lastPage) {
     lastPage = t.page;
     const h = document.createElement('div');
@@ -3787,6 +4258,11 @@ for (const t of tunes) {
 
   const done = isTuneComplete(t);
   const tuneBookId = getTuneId(t);
+  const mxlGt = (t.source || '').startsWith('musicxml');
+  const cropBlock = t.crop
+    ? `<div class="crop-hint">Drag on crop to mark a bad section · right-click a rect to clear it</div>
+      <div class="crop-wrap"><div class="crop-stage" id="crop-stage-${t.id}"><img src="tunes/${escapeHtml(t.crop)}" alt="${escapeHtml(t.title)}" loading="lazy"></div></div>`
+    : `<div class="crop-hint">Notation-only tune (no crop image)</div>`;
   el.innerHTML = `
     <div class="tune-head">
       <label class="complete-chk${done ? ' is-on' : ''}" id="done-label-${t.id}">
@@ -3803,17 +4279,19 @@ for (const t of tunes) {
       </div>
     </div>
     <div class="col-image">
-      <div class="label">crop · tune ${String(t.tuneIndex).padStart(2,'0')} ${sourceBadge(t.source)}</div>
+      <div class="label">crop · tune ${String(t.tuneIndex).padStart(2,'0')} ${sourceBadge(t.source)} ${joinTierBadge(t)}${mxlGt ? ' <span class="badge mxl-gt">MXL ground truth</span>' : ''}</div>
       <h2>${escapeHtml(t.title)}</h2>
       <div class="tune-id" title="Stable tunebook id — kept in this browser so re-import updates instead of duplicating">${escapeHtml(tuneBookId)}</div>
-      <div class="crop-hint">Drag on crop to mark a bad section · right-click a rect to clear it</div>
-      <div class="crop-wrap"><div class="crop-stage" id="crop-stage-${t.id}"><img src="tunes/${escapeHtml(t.crop)}" alt="${escapeHtml(t.title)}" loading="lazy"></div></div>
+      ${cropBlock}
       <div class="options" id="options-${t.id}">
         <div class="options-title">ABC source options (OMR / OMR+chords / OMR+ listed last)</div>
         <div class="options-list" id="options-list-${t.id}">${optionsHtml || '<div class="sub">No alternate sources</div>'}</div>
         <div class="options-add">
-          <button type="button" id="add-mxml-${t.id}" title="Convert a MusicXML / MXL file to ABC and add it as a selectable source">Add MusicXML…</button>
-          <input type="file" id="mxml-file-${t.id}" accept=".xml,.musicxml,.mxl,application/xml,text/xml" hidden>
+          <button type="button" id="add-mxml-${t.id}" title="Add ABC from MusicXML (.mxl/.xml), or pick .mscz if it contains embedded MusicXML">Add score…</button>
+          <label class="chk" title="When unchecked, import every part (piano, bass, drums, etc.) into one score">
+            <input type="checkbox" id="mxml-allparts-${t.id}" checked> All parts
+          </label>
+          <input type="file" id="mxml-file-${t.id}" accept=".xml,.musicxml,.mxl,.mscz,application/xml,text/xml,application/vnd.recordare.musicxml+xml" hidden>
           <span class="hint" id="mxml-hint-${t.id}"></span>
         </div>
       </div>
@@ -3821,7 +4299,9 @@ for (const t of tunes) {
     <div class="col-notation">
       <div class="notation-align-spacer" id="align-${t.id}" aria-hidden="true"></div>
       <div class="label">selected notation</div>
-      <div class="staff" id="staff-${t.id}"></div>
+      <div class="staff-viewport" id="staff-viewport-${t.id}">
+        <div class="staff" id="staff-${t.id}"></div>
+      </div>
     </div>
     <div class="col-abc">
       <div class="label">ABC tools</div>
@@ -3886,13 +4366,15 @@ for (const t of tunes) {
 
   const addMxmlBtn = el.querySelector('#add-mxml-' + t.id);
   const mxmlFile = el.querySelector('#mxml-file-' + t.id);
+  const mxmlAllParts = el.querySelector('#mxml-allparts-' + t.id);
   const mxmlHint = el.querySelector('#mxml-hint-' + t.id);
   if (addMxmlBtn && mxmlFile) {
     addMxmlBtn.addEventListener('click', () => mxmlFile.click());
     mxmlFile.addEventListener('change', async () => {
       const file = mxmlFile.files && mxmlFile.files[0];
       mxmlFile.value = '';
-      await addMusicXmlSource(t, file, mxmlHint);
+      const allParts = !(mxmlAllParts && mxmlAllParts.checked === false);
+      await addMusicXmlSource(t, file, mxmlHint, allParts);
     });
   }
 
@@ -4016,8 +4498,95 @@ for (const t of tunes) {
   el.querySelector('#undo-' + t.id).addEventListener('click', () => undoAbcEdit(t));
   el.querySelector('#redo-' + t.id).addEventListener('click', () => redoAbcEdit(t));
 
-  renderStaff(t);
+  const staffMount = el.querySelector('#staff-' + t.id);
+  if (staffMount) {
+    staffMount.dataset.staffTune = t.id;
+    t._staffRendered = false;
+    staffObserver.observe(staffMount);
+  }
 }
+} // end mountTuneCards
+
+function rebuildTuneList() {
+  list.innerHTML = '';
+  const filtered = tunes.filter(tuneMatchesListFilter);
+  if (listOffset >= filtered.length) {
+    listOffset = Math.max(0, Math.floor(Math.max(filtered.length - 1, 0) / LIST_PAGE_SIZE) * LIST_PAGE_SIZE);
+  }
+  const slice = filtered.slice(listOffset, listOffset + LIST_PAGE_SIZE);
+  mountTuneCards(slice);
+
+  const pagerInfo = document.getElementById('list-pager-info');
+  const start = filtered.length ? (listOffset + 1) : 0;
+  const end = Math.min(listOffset + LIST_PAGE_SIZE, filtered.length);
+  if (pagerInfo) pagerInfo.textContent = start + '–' + end + ' of ' + filtered.length;
+  const prevBtn = document.getElementById('list-pager-prev');
+  const nextBtn = document.getElementById('list-pager-next');
+  if (prevBtn) prevBtn.disabled = listOffset <= 0;
+  if (nextBtn) nextBtn.disabled = (listOffset + LIST_PAGE_SIZE) >= filtered.length;
+
+  const showingEl = document.getElementById('filter-showing');
+  if (showingEl) {
+    showingEl.textContent = filtered.length < tunes.length ? (' · filtered ' + filtered.length) : '';
+  }
+
+  if (toc) {
+    const prev = toc.value;
+    const allPages = [...new Set(filtered.map(function(t) { return t.page; }))].sort(function(a, b) { return a - b; });
+    toc.innerHTML = '';
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = 'Jump to page… (' + allPages.length + ')';
+    toc.appendChild(placeholder);
+    for (const p of allPages) {
+      const opt = document.createElement('option');
+      opt.value = String(p);
+      opt.dataset.page = String(p);
+      opt.textContent = String(p).padStart(2, '0');
+      toc.appendChild(opt);
+    }
+    if (prev && allPages.indexOf(parseInt(prev, 10)) >= 0) toc.value = prev;
+    else toc.value = '';
+  }
+  requestAnimationFrame(syncAllCompareHeights);
+}
+
+(function wireListPager() {
+  const prevBtn = document.getElementById('list-pager-prev');
+  const nextBtn = document.getElementById('list-pager-next');
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function() {
+      listOffset = Math.max(0, listOffset - LIST_PAGE_SIZE);
+      rebuildTuneList();
+      window.scrollTo(0, 0);
+    });
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function() {
+      listOffset = listOffset + LIST_PAGE_SIZE;
+      rebuildTuneList();
+      window.scrollTo(0, 0);
+    });
+  }
+  if (toc) {
+    toc.addEventListener('change', function() {
+      const page = parseInt(toc.value, 10);
+      if (!page) return;
+      const filtered = tunes.filter(tuneMatchesListFilter);
+      const idx = filtered.findIndex(function(t) { return t.page === page; });
+      if (idx < 0) return;
+      listOffset = Math.floor(idx / LIST_PAGE_SIZE) * LIST_PAGE_SIZE;
+      rebuildTuneList();
+      requestAnimationFrame(function() {
+        const el = document.getElementById('p' + String(page).padStart(2, '0'));
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        else window.scrollTo(0, 0);
+      });
+    });
+  }
+})();
+
+rebuildTuneList();
 
 preferChordsChk.addEventListener('change', () => {
   state.preferChords = preferChordsChk.checked;
@@ -4107,6 +4676,15 @@ document.querySelectorAll('#complete-filter-bar [data-filter]').forEach(function
     applyCompleteFilter();
   });
 });
+
+if (nameFilterEl) {
+  nameFilterEl.value = String(state.nameQuery || '');
+  nameFilterEl.addEventListener('input', function() {
+    state.nameQuery = nameFilterEl.value;
+    saveState(state);
+    applyCompleteFilter();
+  });
+}
 
 function buildReport(includeAll) {
   const selectedTunes = includeAll
@@ -4218,7 +4796,23 @@ copyBtn.addEventListener('click', async () => {
 
 window.addEventListener('resize', function() {
   clearTimeout(compareHeightResizeTimer);
-  compareHeightResizeTimer = setTimeout(syncAllCompareHeights, 120);
+  compareHeightResizeTimer = setTimeout(function() {
+    syncAllCompareHeights();
+    for (let i = 0; i < tunes.length; i++) {
+      const t = tunes[i];
+      const article = document.getElementById(t.id);
+      if (!article || article.classList.contains('is-filtered-out')) continue;
+      const target = document.getElementById('staff-' + t.id);
+      if (!target || !target._abcVisual) continue;
+      const w = computeStaffRenderWidth(t);
+      const prev = target._lastStaffWidth || 0;
+      if (Math.abs(w - prev) > 14) {
+        renderStaff(t);
+      } else {
+        refreshStaffChordOverlay(t);
+      }
+    }
+  }, 120);
 });
 
 updateCommentUI();

@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { Alert, Button, Dropdown, Modal, ProgressBar } from 'react-bootstrap'
+import { useEffect, useMemo, useState } from 'react'
+import { Alert, Button, Dropdown, Form, Modal, ProgressBar } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import {
   executeTuneDownload,
@@ -11,6 +11,10 @@ import {
   isTuneDownloadFormatDisabled,
   shouldShowRestrictedTuneDownloads,
 } from '../tuneDownloadActions'
+import {
+  shouldDefaultEmbedSnapshots,
+  tunesHaveSnapshots,
+} from '../abcSnapshotEmbed'
 import useStemDownloadQueue from '../useStemDownloadQueue'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
 import SearchProgressBar from './SearchProgressBar'
@@ -47,8 +51,20 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
   const [busyFormatId, setBusyFormatId] = useState('')
   const [errorMessage, setErrorMessage] = useState('')
   const [downloadProgress, setDownloadProgress] = useState(buildBulkProgressEvent(0, 0, ''))
+  const [showAbcEmbedDialog, setShowAbcEmbedDialog] = useState(false)
+  const [embedSnapshots, setEmbedSnapshots] = useState(false)
 
-  async function runDownload(formatId) {
+  const hasSnapshots = useMemo(function() {
+    return tunesHaveSnapshots(tunes)
+  }, [tunes])
+
+  useEffect(function() {
+    if (showAbcEmbedDialog) {
+      setEmbedSnapshots(shouldDefaultEmbedSnapshots(tunes))
+    }
+  }, [showAbcEmbedDialog, tunes])
+
+  async function runDownload(formatId, downloadOptions) {
     setErrorMessage('')
     setBusyFormatId(formatId)
     setDownloadProgress(buildBulkProgressEvent(0, tunes.length, 'Starting download…'))
@@ -56,7 +72,7 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
       toast.info(getTuneDownloadStartToastMessage(formatId, tunes.length), { autoClose: 3000 })
     }
     try {
-      await executeTuneDownload(formatId, {
+      await executeTuneDownload(formatId, Object.assign({
         tunes: tunes,
         tunebook: tunebook,
         archiveBaseName: archiveBaseName,
@@ -65,7 +81,7 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
         onProgress: function(event) {
           setDownloadProgress(event)
         },
-      })
+      }, downloadOptions || {}))
       if (onComplete) onComplete(formatId)
     } catch (error) {
       const message = error && error.message ? error.message : 'Download failed.'
@@ -77,7 +93,73 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
     }
   }
 
-  return { busyFormatId, errorMessage, downloadProgress, runDownload }
+  function requestDownload(formatId) {
+    if (formatId === 'abc') {
+      setShowAbcEmbedDialog(true)
+      return
+    }
+    runDownload(formatId)
+  }
+
+  async function confirmAbcDownload() {
+    setShowAbcEmbedDialog(false)
+    await runDownload('abc', { embedSnapshots: !!embedSnapshots })
+  }
+
+  const abcEmbedDialog = (
+    <Modal
+      show={showAbcEmbedDialog}
+      onHide={function() { setShowAbcEmbedDialog(false) }}
+      centered
+      data-testid="abc-embed-snapshots-dialog"
+    >
+      <Modal.Header closeButton>
+        <Modal.Title>Download ABC</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p className="mb-3">
+          Export {tunes.length} tune{tunes.length === 1 ? '' : 's'} as ABC notation.
+        </p>
+        <Form.Check
+          type="checkbox"
+          id="abc-embed-snapshots"
+          data-testid="abc-embed-snapshots-checkbox"
+          label="Embed snapshots in the export file"
+          checked={!!embedSnapshots}
+          disabled={!hasSnapshots}
+          onChange={function(e) { setEmbedSnapshots(!!e.target.checked) }}
+        />
+        {!hasSnapshots ? (
+          <div className="text-muted small mt-2">None of the selected tunes have snapshots.</div>
+        ) : (
+          <div className="text-muted small mt-2">
+            Embedded snapshots make a larger file that can restore images when imported on another device.
+          </div>
+        )}
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={function() { setShowAbcEmbedDialog(false) }}>
+          Cancel
+        </Button>
+        <Button
+          variant="success"
+          data-testid="abc-embed-snapshots-confirm"
+          onClick={confirmAbcDownload}
+          disabled={!!busyFormatId}
+        >
+          Download
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  )
+
+  return {
+    busyFormatId,
+    errorMessage,
+    downloadProgress,
+    requestDownload,
+    abcEmbedDialog,
+  }
 }
 
 function buildStemQueueTunebook(tunebook, token) {
@@ -202,7 +284,7 @@ export function TuneDownloadModal({
   }, [user, allowRestrictedFormats])
   const showStemsDownload = isStemsDownloadAvailable()
     && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
-  const { busyFormatId, errorMessage, downloadProgress, runDownload } = useTuneDownloadState(
+  const { busyFormatId, errorMessage, downloadProgress, requestDownload, abcEmbedDialog } = useTuneDownloadState(
     tuneList,
     tunebook,
     archiveBaseName,
@@ -215,42 +297,45 @@ export function TuneDownloadModal({
   )
 
   return (
-    <Modal show={show} onHide={onHide} dialogClassName="tune-download-modal">
-      <Modal.Header closeButton>
-        <Modal.Title>Download</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <p className="tune-download-intro">
-          Choose a format for {tuneList.length} tune{tuneList.length === 1 ? '' : 's'}.
-        </p>
-        {errorMessage ? <Alert variant="danger">{errorMessage}</Alert> : null}
-        <DownloadProgressSection progress={downloadProgress} busy={!!busyFormatId} />
-        <div className="tune-download-options">
-          {downloadFormats.map(function(format) {
-            return (
-              <DownloadOptionButton
-                key={format.id}
-                format={format}
+    <>
+      <Modal show={show} onHide={onHide} dialogClassName="tune-download-modal">
+        <Modal.Header closeButton>
+          <Modal.Title>Download</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p className="tune-download-intro">
+            Choose a format for {tuneList.length} tune{tuneList.length === 1 ? '' : 's'}.
+          </p>
+          {errorMessage ? <Alert variant="danger">{errorMessage}</Alert> : null}
+          <DownloadProgressSection progress={downloadProgress} busy={!!busyFormatId} />
+          <div className="tune-download-options">
+            {downloadFormats.map(function(format) {
+              return (
+                <DownloadOptionButton
+                  key={format.id}
+                  format={format}
+                  icons={icons}
+                  className="tune-download-option-btn"
+                  disabled={formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId}
+                  busy={!!busyFormatId}
+                  onClick={function() { requestDownload(format.id) }}
+                />
+              )
+            })}
+            {showStemsDownload ? (
+              <StemsDownloadSection
+                tunes={tuneList}
+                tunebook={tunebook}
+                token={token}
                 icons={icons}
-                className="tune-download-option-btn"
-                disabled={formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId}
-                busy={!!busyFormatId}
-                onClick={function() { runDownload(format.id) }}
+                layout="modal"
               />
-            )
-          })}
-          {showStemsDownload ? (
-            <StemsDownloadSection
-              tunes={tuneList}
-              tunebook={tunebook}
-              token={token}
-              icons={icons}
-              layout="modal"
-            />
-          ) : null}
-        </div>
-      </Modal.Body>
-    </Modal>
+            ) : null}
+          </div>
+        </Modal.Body>
+      </Modal>
+      {abcEmbedDialog}
+    </>
   )
 }
 
@@ -278,7 +363,7 @@ export default function TuneDownloadDropdown({
   const showStemsDownload = isStemsDownloadAvailable()
     && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const toggleLabelClassName = labelClassName || 'bulk-ops-btn-label'
-  const { busyFormatId, errorMessage, downloadProgress, runDownload } = useTuneDownloadState(
+  const { busyFormatId, errorMessage, downloadProgress, requestDownload, abcEmbedDialog } = useTuneDownloadState(
     tuneList,
     tunebook,
     archiveBaseName,
@@ -288,89 +373,92 @@ export default function TuneDownloadDropdown({
   )
 
   return (
-    <Dropdown className="tune-download-dropdown" as="span">
-      <Dropdown.Toggle
-        variant={buttonVariant || 'success'}
-        className={'bulk-ops-action-btn ' + (buttonClassName || '')}
-        aria-label="Download"
-        title="Download"
-        disabled={!!busyFormatId}
-      >
-        {icons.save}
-        {!hideLabel ? <span className={toggleLabelClassName}> Download</span> : null}
-      </Dropdown.Toggle>
-      <Dropdown.Menu
-        className="tune-download-dropdown-menu"
-        popperConfig={{
-          strategy: 'fixed',
-          modifiers: [
-            {
-              name: 'offset',
-              options: { offset: [0, 8] },
-            },
-            {
-              name: 'centerHorizontally',
-              enabled: true,
-              phase: 'write',
-              fn: function({ state }) {
-                const width = state.rects.popper.width
-                const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : width
-                const x = Math.max(8, (viewportWidth - width) / 2)
-                state.styles.popper.left = x + 'px'
-                state.styles.popper.right = 'auto'
-                state.styles.popper.transform = ''
-                if (state.modifiersData.popperOffsets) {
-                  state.modifiersData.popperOffsets.x = x
-                }
+    <>
+      <Dropdown className="tune-download-dropdown" as="span">
+        <Dropdown.Toggle
+          variant={buttonVariant || 'success'}
+          className={'bulk-ops-action-btn ' + (buttonClassName || '')}
+          aria-label="Download"
+          title="Download"
+          disabled={!!busyFormatId}
+        >
+          {icons.save}
+          {!hideLabel ? <span className={toggleLabelClassName}> Download</span> : null}
+        </Dropdown.Toggle>
+        <Dropdown.Menu
+          className="tune-download-dropdown-menu"
+          popperConfig={{
+            strategy: 'fixed',
+            modifiers: [
+              {
+                name: 'offset',
+                options: { offset: [0, 8] },
               },
-            },
-          ],
-        }}
-      >
-        {errorMessage ? (
-          <Dropdown.ItemText className="text-danger tune-download-dropdown-error">
-            {errorMessage}
-          </Dropdown.ItemText>
-        ) : null}
-        {busyFormatId && downloadProgress.total > 0 ? (
-          <Dropdown.ItemText className="tune-download-dropdown-progress">
-            <DownloadProgressSection progress={downloadProgress} busy={true} />
-          </Dropdown.ItemText>
-        ) : null}
-        <div className="tune-download-dropdown-options">
-          {downloadFormats.map(function(format) {
-            var disabled = formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId
-            return (
-              <Dropdown.Item
-                key={format.id}
-                disabled={disabled}
-                className="tune-download-dropdown-item"
-                onClick={function(e) {
-                  e.preventDefault()
-                  e.stopPropagation()
-                  if (!disabled) runDownload(format.id)
-                }}
-              >
-                <span className="tune-download-dropdown-icon" aria-hidden="true">{icons[format.icon]}</span>
-                <span className="tune-download-dropdown-text">
-                  <span className="tune-download-dropdown-label">{format.label}</span>
-                  <span className="tune-download-dropdown-description">{format.description}</span>
-                </span>
-              </Dropdown.Item>
-            )
-          })}
-          {showStemsDownload ? (
-            <StemsDownloadSection
-              tunes={tuneList}
-              tunebook={tunebook}
-              token={token}
-              icons={icons}
-              layout="dropdown"
-            />
+              {
+                name: 'centerHorizontally',
+                enabled: true,
+                phase: 'write',
+                fn: function({ state }) {
+                  const width = state.rects.popper.width
+                  const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : width
+                  const x = Math.max(8, (viewportWidth - width) / 2)
+                  state.styles.popper.left = x + 'px'
+                  state.styles.popper.right = 'auto'
+                  state.styles.popper.transform = ''
+                  if (state.modifiersData.popperOffsets) {
+                    state.modifiersData.popperOffsets.x = x
+                  }
+                },
+              },
+            ],
+          }}
+        >
+          {errorMessage ? (
+            <Dropdown.ItemText className="text-danger tune-download-dropdown-error">
+              {errorMessage}
+            </Dropdown.ItemText>
           ) : null}
-        </div>
-      </Dropdown.Menu>
-    </Dropdown>
+          {busyFormatId && downloadProgress.total > 0 ? (
+            <Dropdown.ItemText className="tune-download-dropdown-progress">
+              <DownloadProgressSection progress={downloadProgress} busy={true} />
+            </Dropdown.ItemText>
+          ) : null}
+          <div className="tune-download-dropdown-options">
+            {downloadFormats.map(function(format) {
+              var disabled = formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId
+              return (
+                <Dropdown.Item
+                  key={format.id}
+                  disabled={disabled}
+                  className="tune-download-dropdown-item"
+                  onClick={function(e) {
+                    e.preventDefault()
+                    e.stopPropagation()
+                    if (!disabled) requestDownload(format.id)
+                  }}
+                >
+                  <span className="tune-download-dropdown-icon" aria-hidden="true">{icons[format.icon]}</span>
+                  <span className="tune-download-dropdown-text">
+                    <span className="tune-download-dropdown-label">{format.label}</span>
+                    <span className="tune-download-dropdown-description">{format.description}</span>
+                  </span>
+                </Dropdown.Item>
+              )
+            })}
+            {showStemsDownload ? (
+              <StemsDownloadSection
+                tunes={tuneList}
+                tunebook={tunebook}
+                token={token}
+                icons={icons}
+                layout="dropdown"
+              />
+            ) : null}
+          </div>
+        </Dropdown.Menu>
+      </Dropdown>
+      {abcEmbedDialog}
+    </>
   )
 }
 

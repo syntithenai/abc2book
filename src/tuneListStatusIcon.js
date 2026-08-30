@@ -31,6 +31,11 @@ export function lyricsStatusIconProps(status) {
   return { variant: 'outline-primary', label: 'Has lyrics' }
 }
 
+export function snapshotStatusIconProps(status) {
+  if (!status || !status.hasSnapshot) return null
+  return { variant: 'outline-primary', label: 'Has snapshot' }
+}
+
 const MEDIA_SOURCE_LABELS = {
   youtube: 'YouTube',
   midi: 'MIDI file',

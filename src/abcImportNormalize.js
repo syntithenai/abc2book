@@ -2,12 +2,15 @@ const ANNOTATION_PLACEHOLDER_PREFIX = '\x00ABCANN'
 const ANNOTATION_PLACEHOLDER_SUFFIX = '\x00'
 
 /**
- * Temporarily replace ABC 2.1 !annotation! tokens so bare ! line breaks can be converted.
+ * Temporarily replace ABC 2.1 !decoration! / !annotation! tokens so bare !
+ * Session line breaks can be converted. Allows dots/symbols (!D.S.!, !<(!)
+ * but not spaces or barlines, so Session `|! … |!` pairs are not swallowed.
  * @returns {{ text: string, annotations: string[] }}
  */
 export function protectAbcAnnotations(abc) {
   const annotations = []
-  const text = String(abc || '').replace(/!([A-Za-z][A-Za-z0-9_]*)!/g, function(match) {
+  // Decoration only — no spaces/quotes/| so Session bangs stay unpaired.
+  const text = String(abc || '').replace(/!([A-Za-z0-9.<>()+\/=_-]{1,32})!/g, function(match) {
     const index = annotations.length
     annotations.push(match)
     return ANNOTATION_PLACEHOLDER_PREFIX + index + ANNOTATION_PLACEHOLDER_SUFFIX

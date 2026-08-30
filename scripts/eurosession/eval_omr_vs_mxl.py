@@ -18,38 +18,51 @@ import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-# MSCZ title-index spans (inclusive) + pitch soft-check via match_mxl_spans.py.
-# Prefer Am/Dm over relative-major attribute guesses when OMR+/print agree.
+# MSCZ title-index spans (≥0.72 join score); subtitle/alias matches included.
 TUNE_MAP: dict[str, tuple[int, int, str, str]] = {
-    # Plan A anchors + strong set
-    "Ukrainian Dance Nign": (1034, 1085, "Am", "2/4"),
-    "Bourée de Concours (Gm)": (17, 32, "Gm", "2/4"),
-    "Bourrée de Chambérat (G)": (33, 48, "G", "2/4"),
-    "Bourrée du Morvan (G)": (137, 154, "G", "3/8"),
-    "Bourrée du Morvan HCB (G)": (155, 173, "G", "3/8"),
-    "Amazone": (1425, 1440, "Am", "6/8"),
-    "Mazomenos": (1575, 1602, "Dm", "2/4"),
-    # Index + pitch soft-check (≥0.45 pc or prior map)
-    "Bourrée d'Aurore Sand (Dm)": (1, 16, "Dm", "2/4"),
-    "Bourrée Carrée de la Châtre/Le Ruban Bleu (G)": (49, 82, "G", "2/4"),
-    "An Dro St Patrick (Am)": (208, 223, "Am", "2/4"),
-    "An Dro - Esta's - Gweharall - The Wren (Am)": (224, 239, "Am", "4/4"),
-    "An Dro Thème Vannetais (Em)": (192, 207, "Em", "2/4"),
-    "Les Poules Huppées (Am/Dm)": (174, 191, "Am", "3/8"),
-    "Nigun Atik (Dm)": (352, 367, "Dm", "4/4"),
-    "Josefin's dopvals (G) (Am dorian/G)": (856, 897, "Am", "3/4"),
-    "Hannah's Skotshne": (1000, 1033, "Bb", "2/4"),
-    "Mominette or New French Scottische": (1285, 1300, "Bb", "2/2"),
-    "Scottische a Virmoux": (1301, 1316, "G", "2/2"),
-    "O Cabalo Azul": (1372, 1415, "Dm", "6/8"),
-    "Parata (Maltese Sword Dance)": (1559, 1574, "A", "6/8"),
-    "Menexedes kai Zoumpoulia": (1603, 1648, "Dm", "3/4"),
-    "Lule Malesore (My Mountain Flower)": (1649, 1672, "Cm", "8/8"),
-    "Lule Malesore": (1649, 1672, "Cm", "8/8"),
-    # Diagnostics only (name-gated span; OMR pitch still weak) — STRICT_EXCLUDE
-    "Maltese Melody #16": (1541, 1558, "A", "6/8"),
-    "Schottische Urbaine": (1317, 1332, "G", "2/2"),
+    "Bourrée d'Aurore Sand (Dm)": (1, 16, "Dm", "2/4"),  # pc=0.95 st=1.00 mode=per-staff
+    "Bourée de Concours (Gm)": (17, 32, "Gm", "2/4"),  # pc=1.00 st=1.00 mode=per-staff
+    "Bourrée de Chambérat (G)": (33, 48, "G", "2/4"),  # pc=1.00 st=1.00 mode=per-staff
+    "Bourrée Carrée de la Châtre/Le Ruban Bleu (G)": (49, 82, "G", "2/4"),  # pc=0.97 st=0.80 mode=per-staff
+    "Bourrée du Morvan (G)": (137, 154, "G", "3/8"),  # pc=0.99 st=0.67 mode=per-staff
+    "Bourrée du Morvan HCB (G)": (155, 173, "G", "3/8"),  # pc=1.00 st=0.86 mode=per-staff
+    "Les Poules Huppées (Am/Dm)": (174, 191, "Am", "3/8"),  # pc=1.00 st=0.67 mode=full-crop
+    "An Dro Thème Vannetais (Em)": (192, 207, "Em", "2/4"),  # pc=0.59 st=0.50 mode=per-staff
+    "An Dro St Patrick (Am)": (208, 223, "Am", "2/4"),  # pc=1.00 st=0.67 mode=per-staff
+    "An Dro - Esta's - Gweharall - The Wren (Am)": (224, 239, "Am", "4/4"),  # pc=1.00 st=1.00 mode=full-crop-after-weak
+    "Dans Keff": (240, 251, "C", "4/4"),  # pc=1.00 st=0.00 mode=full-crop
+    "Chapelloise Set": (501, 509, "C", "12/8"),  # PDF: t'Smidje+Zelda; oracle t Smidje only
+    "Miserlou (Gm)": (320, 351, "Gm", "4/4"),  # pc=0.96 st=0.33 mode=per-staff
+    "Nigun Atik (Dm)": (352, 367, "Dm", "4/4"),  # pc=1.00 st=0.67 mode=per-staff
+    "Moshe Emes": (368, 386, "Eb", "4/4"),  # MSCZ title Nigun + subtitle; join 1.00
+    "Shiffra Tanzt": (387, 434, "C", "4/4"),  # pc=1.00 st=1.00 mode=full-crop
+    "Slångpolska": (786, 801, "G", "3/4"),  # pc=0.29 st=0.00 mode=full-crop-after-weak
+    "Josefin's dopvals (G) (Am dorian/G)": (856, 897, "Am", "3/4"),  # pc=1.00 st=0.57 mode=per-staff
+    "Hannah's Skotshne": (1000, 1033, "Bb", "2/4"),  # pc=0.99 st=0.40 mode=per-staff
+    "Ukrainian Dance Nign": (1034, 1085, "Am", "2/4"),  # pc=0.99 st=0.83 mode=per-staff
+    "Freylekhs": (1086, 1122, "Am", "2/4"),  # pc=0.98 st=0.44 mode=per-staff
+    "Schottishe Ebroicienne": (1123, 1136, "C", "4/4"),  # pc=0.81 st=0.50 mode=per-staff
+    "Mominette or New French Scottische": (1285, 1300, "Bb", "2/2"),  # pc=1.00 st=0.80 mode=per-staff
+    "Scottische a Virmoux": (1301, 1316, "G", "2/2"),  # pc=1.00 st=0.80 mode=per-staff
+    "Schottische Urbaine": (1317, 1332, "G", "2/2"),  # pc=1.00 st=0.67 mode=per-staff
+    "Rue des Pres Stephane Durand": (1333, 1350, "G", "2/2"),  # MSCZ Rue de Pres; join 0.98
+    "Motorway Mazurka": (1351, 1371, "D", "3/4"),  # pc=1.00 st=0.00 mode=full-crop-after-weak
+    "O Cabalo Azul": (1372, 1415, "Dm", "6/8"),  # pc=0.80 st=0.46 mode=per-staff
+    "Dejól lo pont de Lion": (1416, 1424, "C", "6/8"),  # pc=1.00 st=0.00 mode=full-crop
+    "Amazone": (1425, 1440, "Am", "6/8"),  # pc=1.00 st=1.00 mode=full-crop-after-weak
+    "Lo Pichon Trin (The little train)": (1441, 1455, "G", "3/4"),  # pc=1.00 st=0.00 mode=full-crop
+    "Gammel Reinlender fra Sønndala": (1499, 1514, "C", "2/2"),  # pc=0.98 st=0.67 mode=per-staff
+    "Den Toppede Høne fra Vendsyssel": (1515, 1540, "A", "6/8"),  # pc=1.00 st=0.53 mode=per-staff
+    "Maltese Melody #16": (1541, 1558, "A", "6/8"),  # pc=0.30 st=0.67 mode=per-staff
+    "Parata (Maltese Sword Dance)": (1559, 1574, "A", "6/8"),  # pc=1.00 st=0.86 mode=full-crop
+    "Mazomenos": (1575, 1602, "Dm", "2/4"),  # pc=0.94 st=0.60 mode=per-staff
+    "Menexedes kai Zoumpoulia": (1603, 1648, "Dm", "3/4"),  # pc=0.97 st=0.00 mode=full-crop-after-weak
+    "Lule Malesore (My Mountain Flower)": (1649, 1672, "Cm", "8/8"),  # pc=0.85 st=0.67 mode=per-staff
+    "Lule Malesore": (1649, 1672, "Cm", "8/8"),  # pc=0.78 st=0.00 mode=full-crop
+    "Flitter Dance": (1673, 1688, "G", "4/4"),  # pc=0.97 st=0.00 mode=per-staff
+    "Three Little Boats": (1689, 1704, "D", "6/8"),  # pc=1.00 st=1.00 mode=per-staff
 }
+
 
 # Soft thresholds for --strict on non-UDN / non-strong maps (melody span check).
 # Chord OCR is uneven across crops; UDN/STRONG keep hard chord gates.
@@ -81,6 +94,7 @@ STRICT_STRONG = {
 }
 
 STRICT_STRONG_TITLES = {
+    "Bourrée d'Aurore Sand (Dm)",
     "Bourée de Concours (Gm)",
     "Bourrée de Chambérat (G)",
     "Bourrée du Morvan (G)",
@@ -89,13 +103,15 @@ STRICT_STRONG_TITLES = {
     "Mazomenos",
 }
 
-# Weak OMR / thin-OCR matches kept for span diagnostics but excluded from --strict.
+# Weak OMR maps kept for span diagnostics but excluded from --strict.
 STRICT_EXCLUDE = {
-    "Maltese Melody #16",
-    "Schottische Urbaine",
-    "An Dro Thème Vannetais (Em)",
-    "Les Poules Huppées (Am/Dm)",
-    "Lule Malesore",  # duplicate short title; full title is gated normally
+    "Maltese Melody #16",  # pc≈0.30
+    "Slångpolska",  # pc≈0.29 — wrong crop
+    "An Dro Thème Vannetais (Em)",  # pc≈0.59
+    "Lule Malesore",  # duplicate short title; use full title entry
+    "Moshe Emes",  # span fixed (Nigun mm368); OMR still weak vs lookup ABC
+    "Rue des Pres Stephane Durand",  # span fixed (Rue de Pres); OMR weak
+    "Chapelloise Set",  # composite PDF (t'Smidje+Zelda); oracle is t Smidje only
 }
 
 def load_score(mxl: Path) -> ET.Element:
