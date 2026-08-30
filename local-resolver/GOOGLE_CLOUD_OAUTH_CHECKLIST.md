@@ -96,6 +96,34 @@ This is the list of OAuth scopes your **project is allowed to request**. It is n
 | `drive.file` | Login (sync app-created files) | Non-sensitive |
 | `drive.readonly` | Only when you open **Import from Drive** picker | Sensitive — not at login |
 | Photos picker scope | Only when you use Google Photos import | See Console classification |
+| `drive.appdata` | YogApp (`/yoga/`) Drive app-data sync | Often sensitive — add to Data access |
+
+## YogApp at tunebook.net/yoga (shared login)
+
+YogApp is embedded under `https://tunebook.net/yoga/` and shares the **same Web
+client** + `localStorage` key `tunebook_google_auth_v1` with Tune Book.
+
+Do this once in **this** Cloud project (the one owning Web client
+`927667106833-…`):
+
+1. **Data access**: add `https://www.googleapis.com/auth/drive.appdata` (keep
+   existing Tune Book scopes).
+2. **Origins**: `https://tunebook.net` is enough for the embedded SPA (path is
+   irrelevant). Also keep `http://localhost:5173` for YogApp Vite if you develop
+   there.
+3. **Privacy policy** (optional): `https://tunebook.net/yoga/#/privacy`.
+4. **Android OAuth client** (same project — Capgo requires Web + Android together):
+   - Type: Android
+   - Package: `app.yogapp.practice`
+   - SHA-1 (YogApp debug keystore): `90:9A:B1:B9:0E:66:33:43:7A:B1:A4:A8:BB:7E:70:4F:5D:80:C3:F5`
+   - Client ID (Console only — do **not** put in `.env`):
+     `927667106833-08id74ih0vk81vr8cmrbic6bokliklm7.apps.googleusercontent.com`
+   - App code keeps using the **Web** client as `VITE_GOOGLE_CLIENT_ID` /
+     Capgo `webClientId`.
+5. Retire or ignore the old YogApp-only Web client `905561…`.
+
+YogApp may request `drive.appdata` incrementally if a Tune Book-only session is
+missing that scope.
 
 **Practical rule:** Keep on the consent screen only scopes you actually use. If `drive.readonly` is listed as **Sensitive** and something requests it at login, Google shows the unverified screen even when `drive.file` is approved.
 

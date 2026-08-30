@@ -8,15 +8,12 @@ import { addFromFileAcceptList } from '../importSourceParse'
 import { withDropdownPositionFix } from '../reactBootstrapDropdownPatch'
 import AddBulkImportPanel from './AddBulkImportPanel'
 import ImportBookWizardModal from './ImportBookWizardModal'
-import ReviewProjectsModal from './ReviewProjectsModal'
 import PasteImportModal from './PasteImportModal'
 import ImportUrlModal from './ImportUrlModal'
 import DriveFilePickerModal from './DriveFilePickerModal'
 import YouTubeSearchModal from './YouTubeSearchModal'
 import SheetImageCameraModal from './SheetImageCameraModal'
 import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal'
-import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
-import { reviewProjectsAvailableFromStatus } from '../reviewProjectsClient'
 
 function bumpSignal(setter) {
   setter(function(n) { return (n || 0) + 1 })
@@ -28,7 +25,6 @@ export default function AddFromDropdown(props) {
   const [showBulk, setShowBulk] = useState(false)
   const [showImportBook, setShowImportBook] = useState(false)
   const [importBookReviewSetId, setImportBookReviewSetId] = useState('')
-  const [showReviewProjects, setShowReviewProjects] = useState(false)
   const [showCamera, setShowCamera] = useState(false)
   const [showGooglePhotos, setShowGooglePhotos] = useState(false)
   const [pasteOpenSignal, setPasteOpenSignal] = useState(0)
@@ -40,8 +36,6 @@ export default function AddFromDropdown(props) {
   const resolverChecked = props.resolverChecked !== false
   const isRecording = !!(props.audioUtils && props.audioUtils.isRecording)
   const recordingDuration = props.recordingDuration || 0
-  const showReviewProjectsAdmin = isMusicGenerationAdmin(props.user, props.resolverStatus)
-  const reviewProjectsReady = reviewProjectsAvailableFromStatus(props.resolverStatus)
 
   useEffect(function() {
     function onOpenBookImport(event) {
@@ -101,25 +95,6 @@ export default function AddFromDropdown(props) {
           >
             Import scans or PDF
           </Dropdown.Item>
-          {showReviewProjectsAdmin ? (
-            <Dropdown.Item
-              data-testid="add-from-review-projects"
-              disabled={!resolverChecked || !resolverAvailable || !reviewProjectsReady}
-              title={
-                !resolverAvailable
-                  ? 'Needs the local media resolver'
-                  : (!reviewProjectsReady
-                    ? 'Needs Documents review root on the local resolver'
-                    : 'Review Milliner–Koken and Old Time Fiddle imports')
-              }
-              onClick={function() {
-                if (!resolverAvailable || !reviewProjectsReady) return
-                setShowReviewProjects(true)
-              }}
-            >
-              Review Projects
-            </Dropdown.Item>
-          ) : null}
           <Dropdown.Divider />
           <Dropdown.Item
             data-testid="add-from-file"
@@ -295,23 +270,13 @@ export default function AddFromDropdown(props) {
         tunebook={props.tunebook}
         tunes={props.tunes}
         token={props.token}
+        user={props.user}
         login={props.login}
         logout={props.logout}
         requestGoogleScopes={props.requestGoogleScopes}
         forceRefresh={props.forceRefresh}
         setCurrentTuneBook={props.setCurrentTuneBook}
       />
-
-      {showReviewProjectsAdmin ? (
-        <ReviewProjectsModal
-          show={showReviewProjects}
-          onHide={function() { setShowReviewProjects(false) }}
-          tunebook={props.tunebook}
-          tunes={props.tunes}
-          token={props.token}
-          resolverStatus={props.resolverStatus}
-        />
-      ) : null}
 
       <PasteImportModal
         hideTrigger

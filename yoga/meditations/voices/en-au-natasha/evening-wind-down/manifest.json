@@ -1,0 +1,154 @@
+{
+  "id": "evening-wind-down",
+  "voiceId": "en-au-natasha",
+  "edgeVoice": "en-AU-NatashaNeural",
+  "rate": "-42%",
+  "pitch": "-18Hz",
+  "totalSec": 132,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "This practice is for the end of the day.",
+      "file": "c000.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 1,
+      "text": "Dim the lights if you can.",
+      "file": "c001.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 2,
+      "text": "Lie down or recline with support.",
+      "file": "c002.ogg",
+      "durationSec": 5.232
+    },
+    {
+      "index": 3,
+      "text": "Let the day be finished, even if the mind still lists tasks.",
+      "file": "c003.ogg",
+      "durationSec": 8.136
+    },
+    {
+      "index": 4,
+      "text": "You can set them down for now.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Inhale softly for a count of four.",
+      "file": "c005.ogg",
+      "durationSec": 5.28
+    },
+    {
+      "index": 6,
+      "text": "Exhale for a count of six.",
+      "file": "c006.ogg",
+      "durationSec": 4.584
+    },
+    {
+      "index": 7,
+      "text": "Again. Four in. Six out.",
+      "file": "c007.ogg",
+      "durationSec": 7.992
+    },
+    {
+      "index": 8,
+      "text": "Longer exhales tell the body it is safe to rest.",
+      "file": "c008.ogg",
+      "durationSec": 6.744
+    },
+    {
+      "index": 9,
+      "text": "Scan for leftover tension in the face.",
+      "file": "c009.ogg",
+      "durationSec": 5.712
+    },
+    {
+      "index": 10,
+      "text": "Soften the brow. Soften the jaw.",
+      "file": "c010.ogg",
+      "durationSec": 6.648
+    },
+    {
+      "index": 11,
+      "text": "Drop the shoulders away from the ears.",
+      "file": "c011.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 12,
+      "text": "Imagine the day settling like dust after a breeze.",
+      "file": "c012.ogg",
+      "durationSec": 6.696
+    },
+    {
+      "index": 13,
+      "text": "What happened, happened.",
+      "file": "c013.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 14,
+      "text": "What remains can wait until morning.",
+      "file": "c014.ogg",
+      "durationSec": 5.352
+    },
+    {
+      "index": 15,
+      "text": "Feel the mattress or the floor holding you.",
+      "file": "c015.ogg",
+      "durationSec": 5.808
+    },
+    {
+      "index": 16,
+      "text": "Breath quieter. Body heavier.",
+      "file": "c016.ogg",
+      "durationSec": 6.312
+    },
+    {
+      "index": 17,
+      "text": "If sleep comes, let it.",
+      "file": "c017.ogg",
+      "durationSec": 4.176
+    },
+    {
+      "index": 18,
+      "text": "If not, rest in this softness anyway.",
+      "file": "c018.ogg",
+      "durationSec": 5.952
+    },
+    {
+      "index": 19,
+      "text": "Three more slow breaths.",
+      "file": "c019.ogg",
+      "durationSec": 4.176
+    },
+    {
+      "index": 20,
+      "text": "In. Out.",
+      "file": "c020.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 21,
+      "text": "In. Out.",
+      "file": "c021.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 22,
+      "text": "In. Out.",
+      "file": "c022.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 23,
+      "text": "Good night to the day. Peace to the night.",
+      "file": "c023.ogg",
+      "durationSec": 6.888
+    }
+  ]
+}

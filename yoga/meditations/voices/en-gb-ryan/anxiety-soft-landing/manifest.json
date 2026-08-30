@@ -1,0 +1,154 @@
+{
+  "id": "anxiety-soft-landing",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 138,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "If you feel activated or worried, you are welcome here.",
+      "file": "c000.ogg",
+      "durationSec": 6.864
+    },
+    {
+      "index": 1,
+      "text": "You do not need to feel calm yet.",
+      "file": "c001.ogg",
+      "durationSec": 4.704
+    },
+    {
+      "index": 2,
+      "text": "Just follow along.",
+      "file": "c002.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 3,
+      "text": "Plant both feet on the floor if you can.",
+      "file": "c003.ogg",
+      "durationSec": 5.112
+    },
+    {
+      "index": 4,
+      "text": "Feel the contact. Heels. Balls of the feet. Toes.",
+      "file": "c004.ogg",
+      "durationSec": 11.976
+    },
+    {
+      "index": 5,
+      "text": "Press down gently. Notice the push back from the ground.",
+      "file": "c005.ogg",
+      "durationSec": 8.376
+    },
+    {
+      "index": 6,
+      "text": "Name five things you can see.",
+      "file": "c006.ogg",
+      "durationSec": 4.608
+    },
+    {
+      "index": 7,
+      "text": "Quietly. No rush.",
+      "file": "c007.ogg",
+      "durationSec": 5.76
+    },
+    {
+      "index": 8,
+      "text": "Name four things you can touch.",
+      "file": "c008.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 9,
+      "text": "Clothes. Chair. Air on skin.",
+      "file": "c009.ogg",
+      "durationSec": 8.184
+    },
+    {
+      "index": 10,
+      "text": "Name three sounds, near or far.",
+      "file": "c010.ogg",
+      "durationSec": 5.352
+    },
+    {
+      "index": 11,
+      "text": "Name two scents, or simply notice the air.",
+      "file": "c011.ogg",
+      "durationSec": 6.072
+    },
+    {
+      "index": 12,
+      "text": "Name one taste, or the feeling in the mouth.",
+      "file": "c012.ogg",
+      "durationSec": 6.0
+    },
+    {
+      "index": 13,
+      "text": "You are here. In this body. In this room.",
+      "file": "c013.ogg",
+      "durationSec": 8.856
+    },
+    {
+      "index": 14,
+      "text": "Now breathe in for four.",
+      "file": "c014.ogg",
+      "durationSec": 4.008
+    },
+    {
+      "index": 15,
+      "text": "Hold softly for two.",
+      "file": "c015.ogg",
+      "durationSec": 3.936
+    },
+    {
+      "index": 16,
+      "text": "Out for six.",
+      "file": "c016.ogg",
+      "durationSec": 3.216
+    },
+    {
+      "index": 17,
+      "text": "Again if you like.",
+      "file": "c017.ogg",
+      "durationSec": 3.288
+    },
+    {
+      "index": 18,
+      "text": "Place a hand on the chest or belly.",
+      "file": "c018.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 19,
+      "text": "Feel movement under your hand.",
+      "file": "c019.ogg",
+      "durationSec": 4.536
+    },
+    {
+      "index": 20,
+      "text": "Anxiety may still be present. That is allowed.",
+      "file": "c020.ogg",
+      "durationSec": 8.064
+    },
+    {
+      "index": 21,
+      "text": "You have given the nervous system a softer landing.",
+      "file": "c021.ogg",
+      "durationSec": 5.544
+    },
+    {
+      "index": 22,
+      "text": "Take one more breath.",
+      "file": "c022.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 23,
+      "text": "When ready, open your eyes and continue your day.",
+      "file": "c023.ogg",
+      "durationSec": 6.864
+    }
+  ]
+}

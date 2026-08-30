@@ -1,0 +1,172 @@
+{
+  "id": "loving-kindness",
+  "voiceId": "zh-cn-xiaoxiao",
+  "edgeVoice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-42%",
+  "pitch": "-18Hz",
+  "totalSec": 110,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "坐得舒服。软化脸部。",
+      "file": "c000.ogg",
+      "durationSec": 5.448
+    },
+    {
+      "index": 1,
+      "text": "如果有帮助的话，将手放在心脏上。",
+      "file": "c001.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 2,
+      "text": "我们将提供简单的善意短语。",
+      "file": "c002.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 3,
+      "text": "首先，对自己。",
+      "file": "c003.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 4,
+      "text": "默默地跟着我重复，或者只是听。",
+      "file": "c004.ogg",
+      "durationSec": 5.736
+    },
+    {
+      "index": 5,
+      "text": "愿我平安。",
+      "file": "c005.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 6,
+      "text": "愿我一切安好。",
+      "file": "c006.ogg",
+      "durationSec": 3.216
+    },
+    {
+      "index": 7,
+      "text": "愿我安心。",
+      "file": "c007.ogg",
+      "durationSec": 2.64
+    },
+    {
+      "index": 8,
+      "text": "再慢慢地说一遍。",
+      "file": "c008.ogg",
+      "durationSec": 3.504
+    },
+    {
+      "index": 9,
+      "text": "愿我平安。",
+      "file": "c009.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 10,
+      "text": "愿我一切安好。",
+      "file": "c010.ogg",
+      "durationSec": 3.216
+    },
+    {
+      "index": 11,
+      "text": "愿我安心。",
+      "file": "c011.ogg",
+      "durationSec": 2.64
+    },
+    {
+      "index": 12,
+      "text": "如果感觉很难，那也没关系。留在愿望本身。",
+      "file": "c012.ogg",
+      "durationSec": 8.328
+    },
+    {
+      "index": 13,
+      "text": "现在想想一个容易关心的人。",
+      "file": "c013.ogg",
+      "durationSec": 5.208
+    },
+    {
+      "index": 14,
+      "text": "一个朋友，一只宠物，一个善良的陌生人。",
+      "file": "c014.ogg",
+      "durationSec": 7.272
+    },
+    {
+      "index": 15,
+      "text": "简单地想象一下它们。",
+      "file": "c015.ogg",
+      "durationSec": 3.96
+    },
+    {
+      "index": 16,
+      "text": "愿你平安。",
+      "file": "c016.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 17,
+      "text": "愿你一切安好。",
+      "file": "c017.ogg",
+      "durationSec": 3.24
+    },
+    {
+      "index": 18,
+      "text": "愿你安心。",
+      "file": "c018.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 19,
+      "text": "再来一次。",
+      "file": "c019.ogg",
+      "durationSec": 2.664
+    },
+    {
+      "index": 20,
+      "text": "愿你平安。",
+      "file": "c020.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 21,
+      "text": "愿你一切安好。",
+      "file": "c021.ogg",
+      "durationSec": 3.24
+    },
+    {
+      "index": 22,
+      "text": "愿你安心。",
+      "file": "c022.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 23,
+      "text": "感受任何出现的温暖。或者只是停留在文字中。",
+      "file": "c023.ogg",
+      "durationSec": 8.616
+    },
+    {
+      "index": 24,
+      "text": "回到你自己的呼吸。",
+      "file": "c024.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 25,
+      "text": "感谢自己的练习。",
+      "file": "c025.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 26,
+      "text": "轻轻地睁开眼睛。",
+      "file": "c026.ogg",
+      "durationSec": 3.648
+    }
+  ]
+}

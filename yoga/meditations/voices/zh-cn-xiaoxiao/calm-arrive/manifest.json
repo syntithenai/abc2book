@@ -1,0 +1,136 @@
+{
+  "id": "calm-arrive",
+  "voiceId": "zh-cn-xiaoxiao",
+  "edgeVoice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-42%",
+  "pitch": "-18Hz",
+  "totalSec": 95,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "欢迎。",
+      "file": "c000.ogg",
+      "durationSec": 2.184
+    },
+    {
+      "index": 1,
+      "text": "稍等片刻即可到达。",
+      "file": "c001.ogg",
+      "durationSec": 4.248
+    },
+    {
+      "index": 2,
+      "text": "找一个舒适的座位，或者如果感觉好一点的话就躺下来。",
+      "file": "c002.ogg",
+      "durationSec": 8.784
+    },
+    {
+      "index": 3,
+      "text": "让你的双手休息一下。",
+      "file": "c003.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 4,
+      "text": "让你的眼睛闭上，或者软化你的目光。",
+      "file": "c004.ogg",
+      "durationSec": 6.432
+    },
+    {
+      "index": 5,
+      "text": "请注意，您在这里。",
+      "file": "c005.ogg",
+      "durationSec": 3.984
+    },
+    {
+      "index": 6,
+      "text": "现在没什么可修复的。",
+      "file": "c006.ogg",
+      "durationSec": 3.984
+    },
+    {
+      "index": 7,
+      "text": "没有什么要完成的。",
+      "file": "c007.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 8,
+      "text": "通过鼻子缓慢吸气。",
+      "file": "c008.ogg",
+      "durationSec": 4.032
+    },
+    {
+      "index": 9,
+      "text": "并且呼气时间更长。",
+      "file": "c009.ogg",
+      "durationSec": 4.368
+    },
+    {
+      "index": 10,
+      "text": "再次。轻轻吸气。",
+      "file": "c010.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 11,
+      "text": "轻轻呼气。",
+      "file": "c011.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 12,
+      "text": "感受身体的重量受到支撑。",
+      "file": "c012.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 13,
+      "text": "地板、椅子、地球支撑着你。",
+      "file": "c013.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 14,
+      "text": "如果思绪游离，那也没关系。",
+      "file": "c014.ogg",
+      "durationSec": 5.232
+    },
+    {
+      "index": 15,
+      "text": "只要注意，然后回到这个呼吸。",
+      "file": "c015.ogg",
+      "durationSec": 5.328
+    },
+    {
+      "index": 16,
+      "text": "吸气。到达。",
+      "file": "c016.ogg",
+      "durationSec": 4.272
+    },
+    {
+      "index": 17,
+      "text": "呼气。定居。",
+      "file": "c017.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 18,
+      "text": "又轻松了一口气。",
+      "file": "c018.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 19,
+      "text": "准备好后，睁开眼睛。",
+      "file": "c019.ogg",
+      "durationSec": 4.44
+    },
+    {
+      "index": 20,
+      "text": "随身携带这份安静。",
+      "file": "c020.ogg",
+      "durationSec": 4.008
+    }
+  ]
+}

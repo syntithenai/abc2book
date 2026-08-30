@@ -1,0 +1,148 @@
+{
+  "id": "body-scan",
+  "voiceId": "zh-cn-yunxi",
+  "edgeVoice": "zh-CN-YunxiNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 136,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "我们将轻轻地扫描身体。",
+      "file": "c000.ogg",
+      "durationSec": 4.824
+    },
+    {
+      "index": 1,
+      "text": "轻松地躺下或坐下。",
+      "file": "c001.ogg",
+      "durationSec": 4.536
+    },
+    {
+      "index": 2,
+      "text": "如果感觉安全，请闭上眼睛。",
+      "file": "c002.ogg",
+      "durationSec": 5.904
+    },
+    {
+      "index": 3,
+      "text": "从头顶开始。",
+      "file": "c003.ogg",
+      "durationSec": 3.504
+    },
+    {
+      "index": 4,
+      "text": "注意那里的任何感觉。温暖。凉爽。什么都没有。",
+      "file": "c004.ogg",
+      "durationSec": 11.52
+    },
+    {
+      "index": 5,
+      "text": "不需要改变它。请注意。",
+      "file": "c005.ogg",
+      "durationSec": 5.784
+    },
+    {
+      "index": 6,
+      "text": "轻轻移至额头和眼睛。",
+      "file": "c006.ogg",
+      "durationSec": 4.68
+    },
+    {
+      "index": 7,
+      "text": "让眼睛周围的微小肌肉变软。",
+      "file": "c007.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 8,
+      "text": "感觉下巴。如果可以的话松开。",
+      "file": "c008.ogg",
+      "durationSec": 7.44
+    },
+    {
+      "index": 9,
+      "text": "舌头轻轻地搁着。",
+      "file": "c009.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 10,
+      "text": "肩膀。他们被举起来了吗？让他们下降一点。",
+      "file": "c010.ogg",
+      "durationSec": 8.784
+    },
+    {
+      "index": 11,
+      "text": "手臂沉重。双手张开或柔软。",
+      "file": "c011.ogg",
+      "durationSec": 7.368
+    },
+    {
+      "index": 12,
+      "text": "胸部随着呼吸而起伏。",
+      "file": "c012.ogg",
+      "durationSec": 4.872
+    },
+    {
+      "index": 13,
+      "text": "肚子软了。没有强迫。",
+      "file": "c013.ogg",
+      "durationSec": 5.592
+    },
+    {
+      "index": 14,
+      "text": "臀部和骨盆休息。",
+      "file": "c014.ogg",
+      "durationSec": 4.032
+    },
+    {
+      "index": 15,
+      "text": "大腿。膝盖。小腿。",
+      "file": "c015.ogg",
+      "durationSec": 7.152
+    },
+    {
+      "index": 16,
+      "text": "脚。鞋底接触地板或垫子。",
+      "file": "c016.ogg",
+      "durationSec": 7.176
+    },
+    {
+      "index": 17,
+      "text": "现在将整个身体感觉为一个意识场。",
+      "file": "c017.ogg",
+      "durationSec": 6.936
+    },
+    {
+      "index": 18,
+      "text": "呼吸在其中流动。",
+      "file": "c018.ogg",
+      "durationSec": 3.72
+    },
+    {
+      "index": 19,
+      "text": "如果出现紧张的地方，请在那里呼气。",
+      "file": "c019.ogg",
+      "durationSec": 6.504
+    },
+    {
+      "index": 20,
+      "text": "保持三个安静的呼吸。",
+      "file": "c020.ogg",
+      "durationSec": 4.344
+    },
+    {
+      "index": 21,
+      "text": "准备好后，扭动手指和脚趾。",
+      "file": "c021.ogg",
+      "durationSec": 5.928
+    },
+    {
+      "index": 22,
+      "text": "睁开你的眼睛。轻轻归来。",
+      "file": "c022.ogg",
+      "durationSec": 6.288
+    }
+  ]
+}

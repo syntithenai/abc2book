@@ -15,6 +15,7 @@ import {
   deleteReviewSet,
   filterBookImportFiles,
   isAllowedBookImportFile,
+  getReviewSet,
 } from '../bookImportReviewStore'
 import {
   enqueueBookImportJobForSet,
@@ -27,6 +28,14 @@ import {
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useGoogleDocument from '../useGoogleDocument'
 import useAbcjsParser from '../useAbcjsParser'
+import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
+import {
+  fetchReviewProjectsCatalog,
+  findReviewProject,
+  reviewProjectsAvailableFromStatus,
+} from '../reviewProjectsClient'
+import { ensureMillinerReviewSet } from '../reviewProjectsMilliner'
+import { ensureOldtimeReviewSet } from '../reviewProjectsOldtime'
 
 const STEPS = {
   HOME: 'home',
@@ -40,15 +49,21 @@ export default function ImportBookWizardModal(props) {
   const show = !!props.show
   const onHide = props.onHide || function() {}
   const tunebook = props.tunebook
-  const { available: resolverAvailable, features } = useMediaResolverHealth()
+  const { available: resolverAvailable, features, status: resolverStatus } = useMediaResolverHealth()
   const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh)
   const abcjsParser = useAbcjsParser()
+  const accessToken = props.token && props.token.access_token ? props.token.access_token : props.token
+  const showDocsProjects = isMusicGenerationAdmin(props.user, resolverStatus)
+  const docsProjectsReady = reviewProjectsAvailableFromStatus(resolverStatus)
 
   const [step, setStep] = useState(STEPS.HOME)
   const [sets, setSets] = useState([])
   const [recoverableCount, setRecoverableCount] = useState(0)
   const [loadingSets, setLoadingSets] = useState(false)
   const [activeSetId, setActiveSetId] = useState('')
+  const [initialStatusFilter, setInitialStatusFilter] = useState('')
+  const [docsCatalog, setDocsCatalog] = useState(null)
+  const [docsBusy, setDocsBusy] = useState(false)
   const [createName, setCreateName] = useState('')
   const [createBook, setCreateBook] = useState('')
   const [appendMode, setAppendMode] = useState(false)
@@ -120,6 +135,8 @@ export default function ImportBookWizardModal(props) {
     setShowPhotos(false)
     setShowCamera(false)
     setActiveJobId('')
+    setInitialStatusFilter('')
+    setDocsCatalog(null)
     if (openSetId) {
       setActiveSetId(openSetId)
       setStep(STEPS.REVIEW)
@@ -129,6 +146,17 @@ export default function ImportBookWizardModal(props) {
     }
     refreshSets()
   }, [show, props.initialReviewSetId])
+
+  useEffect(function() {
+    if (!show || step !== STEPS.HOME || !showDocsProjects || !docsProjectsReady) return undefined
+    let cancelled = false
+    fetchReviewProjectsCatalog(accessToken).then(function(cat) {
+      if (!cancelled) setDocsCatalog(cat)
+    }).catch(function() {
+      if (!cancelled) setDocsCatalog(null)
+    })
+    return function() { cancelled = true }
+  }, [show, step, showDocsProjects, docsProjectsReady, accessToken])
 
   useEffect(function() {
     if (!show || !activeJobId) return undefined
@@ -208,9 +236,43 @@ export default function ImportBookWizardModal(props) {
     }
   }
 
-  function handleOpenSet(id) {
+  function handleOpenSet(id, filterHint) {
     setActiveSetId(id)
+    setInitialStatusFilter(filterHint || '')
     setStep(STEPS.REVIEW)
+  }
+
+  async function openDocumentsProject(projectId) {
+    if (!docsProjectsReady) {
+      setError('Local resolver Documents review root is not available')
+      return
+    }
+    setDocsBusy(true)
+    setError('')
+    try {
+      const cat = docsCatalog || await fetchReviewProjectsCatalog(accessToken)
+      setDocsCatalog(cat)
+      const project = findReviewProject(cat, projectId)
+      if (!project) throw new Error('Project not found on resolver')
+      let set
+      if (projectId === 'milliner-koken') {
+        set = await ensureMillinerReviewSet(project, accessToken)
+      } else if (projectId === 'oldtimefiddletunes') {
+        set = await ensureOldtimeReviewSet(project, accessToken)
+      } else {
+        throw new Error('Unknown documents project')
+      }
+      await refreshSets()
+      const full = await getReviewSet(set.id)
+      const filterHint = (full && full.defaultStatusFilter) || 'incomplete'
+      toast.success('Loaded ' + ((full && full.tunes) || []).length + ' tunes')
+      handleOpenSet(set.id, filterHint)
+    } catch (e) {
+      setError(e && e.message ? e.message : String(e))
+      toast.error(e && e.message ? e.message : String(e))
+    } finally {
+      setDocsBusy(false)
+    }
   }
 
   function handleAppendToSet(id) {
@@ -336,6 +398,85 @@ export default function ImportBookWizardModal(props) {
                   Create new review set
                 </Button>
               </div>
+
+              {showDocsProjects ? (
+                <div className="mb-4" data-testid="import-book-documents-projects">
+                  <h6>Documents projects</h6>
+                  <p className="small text-muted mb-2">
+                    Milliner–Koken and Old Time Fiddle working files under
+                    {' '}<code>~/Documents/oldtime sources review</code>
+                    {' '}via the local resolver. Opens the same review UI; large sets default to Incomplete.
+                  </p>
+                  {!docsProjectsReady ? (
+                    <Alert variant="warning" className="small py-2">
+                      Connect to a local resolver with the Documents review root mounted to load these.
+                    </Alert>
+                  ) : (
+                    <div className="d-flex flex-column gap-2">
+                      {[{
+                        id: 'milliner-koken',
+                        label: 'Milliner–Koken',
+                        warn: '~1500 tunes — Incomplete filter; crops load lazily. Safe to open and chip away.',
+                        book: 'milliner koken',
+                      }, {
+                        id: 'oldtimefiddletunes',
+                        label: 'Old Time Fiddle',
+                        warn: 'Source MIDI / PDF convert into candidates (proof or full package).',
+                        book: 'old time',
+                      }].map(function(card) {
+                        const loaded = sets.find(function(s) {
+                          return s && (
+                            String(s.book || '').toLowerCase() === card.book
+                            || String(s.name || '').indexOf(card.label) >= 0
+                          )
+                        })
+                        const catalogHit = docsCatalog && findReviewProject(docsCatalog, card.id)
+                        return (
+                          <ListGroup.Item
+                            key={card.id}
+                            as="div"
+                            className="d-flex flex-wrap align-items-center justify-content-between gap-2 border rounded px-3 py-2"
+                          >
+                            <div>
+                              <strong>{card.label}</strong>
+                              <div className="small text-muted">{card.warn}</div>
+                              <div className="small text-muted">
+                                {loaded
+                                  ? ('Loaded locally: ' + (loaded.tuneCount || 0) + ' tunes')
+                                  : (catalogHit ? 'Available on resolver (not loaded yet)' : 'Checking catalog…')}
+                              </div>
+                            </div>
+                            <div className="d-flex flex-wrap gap-1">
+                              {loaded ? (
+                                <Button
+                                  size="sm"
+                                  variant="primary"
+                                  disabled={docsBusy}
+                                  onClick={function() {
+                                    handleOpenSet(loaded.id, 'incomplete')
+                                  }}
+                                >
+                                  Open
+                                </Button>
+                              ) : null}
+                              <Button
+                                size="sm"
+                                variant={loaded ? 'outline-primary' : 'primary'}
+                                disabled={docsBusy || !docsProjectsReady}
+                                data-testid={'import-book-docs-' + card.id}
+                                onClick={function() { openDocumentsProject(card.id) }}
+                              >
+                                {docsBusy ? 'Loading…' : (loaded ? 'Reload from Documents' : 'Load from Documents')}
+                              </Button>
+                            </div>
+                          </ListGroup.Item>
+                        )
+                      })}
+                    </div>
+                  )}
+                </div>
+              ) : null}
+
               <h6>Existing review sets</h6>
               {loadingSets ? (
                 <Spinner animation="border" size="sm" />
@@ -577,11 +718,16 @@ export default function ImportBookWizardModal(props) {
               tunebook={tunebook}
               tunes={props.tunes}
               token={props.token}
-              accessToken={props.token && props.token.access_token ? props.token.access_token : props.token}
+              accessToken={accessToken}
               resolverAvailable={resolverAvailable}
               forceRefresh={props.forceRefresh}
               setCurrentTuneBook={props.setCurrentTuneBook}
-              onBack={function() { setStep(STEPS.HOME); refreshSets() }}
+              initialStatusFilter={initialStatusFilter}
+              onBack={function() {
+                setStep(STEPS.HOME)
+                setInitialStatusFilter('')
+                refreshSets()
+              }}
               onImported={function() {
                 if (typeof props.onImported === 'function') props.onImported()
               }}

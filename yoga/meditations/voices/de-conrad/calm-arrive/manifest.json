@@ -1,0 +1,136 @@
+{
+  "id": "calm-arrive",
+  "voiceId": "de-conrad",
+  "edgeVoice": "de-DE-ConradNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 118,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Willkommen.",
+      "file": "c000.ogg",
+      "durationSec": 2.976
+    },
+    {
+      "index": 1,
+      "text": "Nehmen Sie sich einen Moment Zeit, um anzukommen.",
+      "file": "c001.ogg",
+      "durationSec": 6.528
+    },
+    {
+      "index": 2,
+      "text": "Suchen Sie sich einen bequemen Sitz oder legen Sie sich hin, wenn sich das besser anfühlt.",
+      "file": "c002.ogg",
+      "durationSec": 9.48
+    },
+    {
+      "index": 3,
+      "text": "Lassen Sie Ihre Hände ruhen.",
+      "file": "c003.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 4,
+      "text": "Lassen Sie Ihre Augen schließen oder richten Sie Ihren Blick sanfter aus.",
+      "file": "c004.ogg",
+      "durationSec": 7.632
+    },
+    {
+      "index": 5,
+      "text": "Beachten Sie, dass Sie hier sind.",
+      "file": "c005.ogg",
+      "durationSec": 4.584
+    },
+    {
+      "index": 6,
+      "text": "Im Moment gibt es nichts zu reparieren.",
+      "file": "c006.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 7,
+      "text": "Nichts zu vervollständigen.",
+      "file": "c007.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 8,
+      "text": "Atmen Sie langsam durch die Nase ein.",
+      "file": "c008.ogg",
+      "durationSec": 5.112
+    },
+    {
+      "index": 9,
+      "text": "Und ein längeres Ausatmen.",
+      "file": "c009.ogg",
+      "durationSec": 4.632
+    },
+    {
+      "index": 10,
+      "text": "Wieder. Sanft einatmen.",
+      "file": "c010.ogg",
+      "durationSec": 6.096
+    },
+    {
+      "index": 11,
+      "text": "Sanftes Ausatmen.",
+      "file": "c011.ogg",
+      "durationSec": 3.984
+    },
+    {
+      "index": 12,
+      "text": "Spüren Sie, wie das Gewicht Ihres Körpers gestützt wird.",
+      "file": "c012.ogg",
+      "durationSec": 6.744
+    },
+    {
+      "index": 13,
+      "text": "Der Boden, der Stuhl, die Erde halten dich.",
+      "file": "c013.ogg",
+      "durationSec": 6.312
+    },
+    {
+      "index": 14,
+      "text": "Wenn die Gedanken abschweifen, ist das in Ordnung.",
+      "file": "c014.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 15,
+      "text": "Nehmen Sie es einfach wahr und kehren Sie zu diesem Atemzug zurück.",
+      "file": "c015.ogg",
+      "durationSec": 7.752
+    },
+    {
+      "index": 16,
+      "text": "Einatmen. Ankommen.",
+      "file": "c016.ogg",
+      "durationSec": 5.712
+    },
+    {
+      "index": 17,
+      "text": "Ausatmen. Siedeln.",
+      "file": "c017.ogg",
+      "durationSec": 5.52
+    },
+    {
+      "index": 18,
+      "text": "Noch ein leichter Atemzug.",
+      "file": "c018.ogg",
+      "durationSec": 4.176
+    },
+    {
+      "index": 19,
+      "text": "Wenn Sie bereit sind, öffnen Sie Ihre Augen.",
+      "file": "c019.ogg",
+      "durationSec": 6.024
+    },
+    {
+      "index": 20,
+      "text": "Tragen Sie diese Stille bei sich.",
+      "file": "c020.ogg",
+      "durationSec": 4.632
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "meadow-breeze-5",
+  "voiceId": "zh-cn-yunxi",
+  "edgeVoice": "zh-CN-YunxiNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 330,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "欢迎。",
+      "file": "c000.ogg",
+      "durationSec": 2.688
+    },
+    {
+      "index": 1,
+      "text": "找一个舒适的座位，或者如果感觉好一点的话就躺下来。",
+      "file": "c001.ogg",
+      "durationSec": 8.736
+    },
+    {
+      "index": 2,
+      "text": "让你的双手休息一下。",
+      "file": "c002.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 3,
+      "text": "让你的眼睛闭上，或者软化你的目光。",
+      "file": "c003.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 4,
+      "text": "注意你所承受的身体重量。",
+      "file": "c004.ogg",
+      "durationSec": 5.256
+    },
+    {
+      "index": 5,
+      "text": "通过鼻子缓慢吸气。",
+      "file": "c005.ogg",
+      "durationSec": 4.632
+    },
+    {
+      "index": 6,
+      "text": "并且呼气时间更长、更轻松。",
+      "file": "c006.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 7,
+      "text": "再次。轻轻吸气。",
+      "file": "c007.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 8,
+      "text": "轻轻呼气。",
+      "file": "c008.ogg",
+      "durationSec": 3.408
+    },
+    {
+      "index": 9,
+      "text": "如果思绪游离，那也没关系。回到呼吸。",
+      "file": "c009.ogg",
+      "durationSec": 7.968
+    },
+    {
+      "index": 10,
+      "text": "想象一下清晨时分一片宽阔的山草甸。",
+      "file": "c010.ogg",
+      "durationSec": 6.768
+    },
+    {
+      "index": 11,
+      "text": "高高的草丛在轻松的波浪中摇曳。",
+      "file": "c011.ogg",
+      "durationSec": 6.288
+    },
+    {
+      "index": 12,
+      "text": "阳光温暖而不刺眼。",
+      "file": "c012.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 13,
+      "text": "感觉它在你的头顶上，温柔而稳定。",
+      "file": "c013.ogg",
+      "durationSec": 6.672
+    },
+    {
+      "index": 14,
+      "text": "一阵清新的微风穿过草地，拂过你的脸。",
+      "file": "c014.ogg",
+      "durationSec": 7.416
+    },
+    {
+      "index": 15,
+      "text": "闻起来有野花和晒干的泥土的味道。",
+      "file": "c015.ogg",
+      "durationSec": 6.552
+    },
+    {
+      "index": 16,
+      "text": "你慢慢地走着，指尖拂过种子的头。",
+      "file": "c016.ogg",
+      "durationSec": 6.24
+    },
+    {
+      "index": 17,
+      "text": "软痒痒的。声音柔和。",
+      "file": "c017.ogg",
+      "durationSec": 5.856
+    },
+    {
+      "index": 18,
+      "text": "蝴蝶又翩翩起舞，又安定下来，不慌不忙。",
+      "file": "c018.ogg",
+      "durationSec": 7.896
+    },
+    {
+      "index": 19,
+      "text": "你在草地上找了个地方躺了下来。",
+      "file": "c019.ogg",
+      "durationSec": 5.928
+    },
+    {
+      "index": 20,
+      "text": "地球容纳了你的整个长度。",
+      "file": "c020.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 21,
+      "text": "温暖在你的前面。凉爽的土壤阴影在你身边。",
+      "file": "c021.ogg",
+      "durationSec": 8.04
+    },
+    {
+      "index": 22,
+      "text": "微风来去如友好的潮水。",
+      "file": "c022.ogg",
+      "durationSec": 5.664
+    },
+    {
+      "index": 23,
+      "text": "吸入新鲜感。呼气到开阔的天空。",
+      "file": "c023.ogg",
+      "durationSec": 7.272
+    },
+    {
+      "index": 24,
+      "text": "一朵云片刻划过太阳。",
+      "file": "c024.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 25,
+      "text": "凉爽。然后温暖又回到你的脸上。",
+      "file": "c025.ogg",
+      "durationSec": 7.272
+    },
+    {
+      "index": 26,
+      "text": "请注意安静的感觉有多大。",
+      "file": "c026.ogg",
+      "durationSec": 5.856
+    },
+    {
+      "index": 27,
+      "text": "在这个广阔的领域里，任何忧虑都显得多么渺小。",
+      "file": "c027.ogg",
+      "durationSec": 8.808
+    },
+    {
+      "index": 28,
+      "text": "你的手放在草地上。小茎温柔地按压。",
+      "file": "c028.ogg",
+      "durationSec": 7.632
+    },
+    {
+      "index": 29,
+      "text": "闭上眼睛，享受阳光的温暖。",
+      "file": "c029.ogg",
+      "durationSec": 6.024
+    },
+    {
+      "index": 30,
+      "text": "保持草地柔软地压在你的手臂上。",
+      "file": "c030.ogg",
+      "durationSec": 5.928
+    },
+    {
+      "index": 31,
+      "text": "你可以一直这样。",
+      "file": "c031.ogg",
+      "durationSec": 3.792
+    },
+    {
+      "index": 32,
+      "text": "让草地让你再呼吸几个周期。",
+      "file": "c032.ogg",
+      "durationSec": 5.352
+    },
+    {
+      "index": 33,
+      "text": "将你的注意力从温暖的头顶上转移开",
+      "file": "c033.ogg",
+      "durationSec": 6.288
+    },
+    {
+      "index": 34,
+      "text": "穿过柔软的脸庞，柔软的喉咙，",
+      "file": "c034.ogg",
+      "durationSec": 6.336
+    },
+    {
+      "index": 35,
+      "text": "进入在开阔的天空下轻松升起的箱子。",
+      "file": "c035.ogg",
+      "durationSec": 6.84
+    },
+    {
+      "index": 36,
+      "text": "微风吹过你的手腕内侧。",
+      "file": "c036.ogg",
+      "durationSec": 4.464
+    },
+    {
+      "index": 37,
+      "text": "酷。活。友好的。",
+      "file": "c037.ogg",
+      "durationSec": 6.768
+    },
+    {
+      "index": 38,
+      "text": "在某个地方，蜜蜂的工作并不紧迫。",
+      "file": "c038.ogg",
+      "durationSec": 6.624
+    },
+    {
+      "index": 39,
+      "text": "他们的嗡嗡声是另一种安静。",
+      "file": "c039.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 40,
+      "text": "一直呆到感觉温暖和清新就像一块布料一样。",
+      "file": "c040.ogg",
+      "durationSec": 7.632
+    },
+    {
+      "index": 41,
+      "text": "现在独自在呼吸中休息一会儿。",
+      "file": "c041.ogg",
+      "durationSec": 5.256
+    },
+    {
+      "index": 42,
+      "text": "慢慢吸气。",
+      "file": "c042.ogg",
+      "durationSec": 3.216
+    },
+    {
+      "index": 43,
+      "text": "慢慢呼气。",
+      "file": "c043.ogg",
+      "durationSec": 3.24
+    },
+    {
+      "index": 44,
+      "text": "吸气。",
+      "file": "c044.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 45,
+      "text": "呼气。",
+      "file": "c045.ogg",
+      "durationSec": 2.88
+    },
+    {
+      "index": 46,
+      "text": "身体哪里温暖，哪里就感觉温暖。",
+      "file": "c046.ogg",
+      "durationSec": 6.264
+    },
+    {
+      "index": 47,
+      "text": "空气凉爽的地方都会感到凉爽。",
+      "file": "c047.ogg",
+      "durationSec": 5.664
+    },
+    {
+      "index": 48,
+      "text": "吸气。",
+      "file": "c048.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 49,
+      "text": "呼气。",
+      "file": "c049.ogg",
+      "durationSec": 2.88
+    },
+    {
+      "index": 50,
+      "text": "无处可去。没什么可修复的。",
+      "file": "c050.ogg",
+      "durationSec": 6.672
+    },
+    {
+      "index": 51,
+      "text": "吸气。",
+      "file": "c051.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 52,
+      "text": "呼气。",
+      "file": "c052.ogg",
+      "durationSec": 2.88
+    },
+    {
+      "index": 53,
+      "text": "在这里休息一下，安静地呼吸几口气。",
+      "file": "c053.ogg",
+      "durationSec": 6.72
+    },
+    {
+      "index": 54,
+      "text": "要知道你可以随时回到这个地方。",
+      "file": "c054.ogg",
+      "durationSec": 6.312
+    },
+    {
+      "index": 55,
+      "text": "当你准备好后，加深呼吸。",
+      "file": "c055.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 56,
+      "text": "摆动手指和脚趾。",
+      "file": "c056.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 57,
+      "text": "轻轻地睁开眼睛。",
+      "file": "c057.ogg",
+      "durationSec": 3.936
+    },
+    {
+      "index": 58,
+      "text": "随身携带一点这种平静。",
+      "file": "c058.ogg",
+      "durationSec": 4.488
+    }
+  ]
+}

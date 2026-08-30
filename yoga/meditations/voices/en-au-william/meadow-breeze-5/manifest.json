@@ -1,0 +1,364 @@
+{
+  "id": "meadow-breeze-5",
+  "voiceId": "en-au-william",
+  "edgeVoice": "en-AU-WilliamMultilingualNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 265,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 1.824
+    },
+    {
+      "index": 1,
+      "text": "Take a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 6.048
+    },
+    {
+      "index": 2,
+      "text": "Let your hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.0
+    },
+    {
+      "index": 3,
+      "text": "Allow your eyes to close, or soften your gaze.",
+      "file": "c003.ogg",
+      "durationSec": 5.688
+    },
+    {
+      "index": 4,
+      "text": "Notice the weight of your body being held.",
+      "file": "c004.ogg",
+      "durationSec": 4.392
+    },
+    {
+      "index": 5,
+      "text": "Take a slow breath in through the nose.",
+      "file": "c005.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 6,
+      "text": "And a longer, easier breath out.",
+      "file": "c006.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 7,
+      "text": "Again. Soft inhale.",
+      "file": "c007.ogg",
+      "durationSec": 4.104
+    },
+    {
+      "index": 8,
+      "text": "Gentle exhale.",
+      "file": "c008.ogg",
+      "durationSec": 2.544
+    },
+    {
+      "index": 9,
+      "text": "If thoughts wander, that is fine. Return to the breath.",
+      "file": "c009.ogg",
+      "durationSec": 6.72
+    },
+    {
+      "index": 10,
+      "text": "Imagine a wide mountain meadow in late morning.",
+      "file": "c010.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 11,
+      "text": "Tall grasses sway in easy waves.",
+      "file": "c011.ogg",
+      "durationSec": 4.632
+    },
+    {
+      "index": 12,
+      "text": "The sun is warm without being sharp.",
+      "file": "c012.ogg",
+      "durationSec": 4.248
+    },
+    {
+      "index": 13,
+      "text": "Feel it on the crown of your head, kind and steady.",
+      "file": "c013.ogg",
+      "durationSec": 6.216
+    },
+    {
+      "index": 14,
+      "text": "A fresh breeze moves through the grass and finds your face.",
+      "file": "c014.ogg",
+      "durationSec": 5.808
+    },
+    {
+      "index": 15,
+      "text": "It smells of wildflowers and sun-dried earth.",
+      "file": "c015.ogg",
+      "durationSec": 5.16
+    },
+    {
+      "index": 16,
+      "text": "You walk slowly, fingertips brushing seed heads.",
+      "file": "c016.ogg",
+      "durationSec": 5.952
+    },
+    {
+      "index": 17,
+      "text": "Soft tickle. Soft sound.",
+      "file": "c017.ogg",
+      "durationSec": 4.608
+    },
+    {
+      "index": 18,
+      "text": "Butterflies lift and settle again, unhurried.",
+      "file": "c018.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 19,
+      "text": "You find a place to lie back in the grass.",
+      "file": "c019.ogg",
+      "durationSec": 4.608
+    },
+    {
+      "index": 20,
+      "text": "The earth holds your whole length.",
+      "file": "c020.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 21,
+      "text": "Warmth along your front. Cool soil-shadow at your sides.",
+      "file": "c021.ogg",
+      "durationSec": 7.032
+    },
+    {
+      "index": 22,
+      "text": "The breeze comes and goes like a friendly tide.",
+      "file": "c022.ogg",
+      "durationSec": 5.064
+    },
+    {
+      "index": 23,
+      "text": "Inhale freshness. Exhale into the open sky.",
+      "file": "c023.ogg",
+      "durationSec": 6.6
+    },
+    {
+      "index": 24,
+      "text": "A cloud slides across the sun for a moment.",
+      "file": "c024.ogg",
+      "durationSec": 4.848
+    },
+    {
+      "index": 25,
+      "text": "Coolness. Then warmth returns to your face.",
+      "file": "c025.ogg",
+      "durationSec": 5.904
+    },
+    {
+      "index": 26,
+      "text": "Notice how large the quiet feels.",
+      "file": "c026.ogg",
+      "durationSec": 4.368
+    },
+    {
+      "index": 27,
+      "text": "How small any worry seems in this wide field.",
+      "file": "c027.ogg",
+      "durationSec": 5.592
+    },
+    {
+      "index": 28,
+      "text": "Your hands rest in the grass. Tiny stems press kindly.",
+      "file": "c028.ogg",
+      "durationSec": 7.44
+    },
+    {
+      "index": 29,
+      "text": "Stay with the warmth of the sun on your closed eyes.",
+      "file": "c029.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 30,
+      "text": "Stay with the soft press of grass against your arms.",
+      "file": "c030.ogg",
+      "durationSec": 5.496
+    },
+    {
+      "index": 31,
+      "text": "You are allowed to be this still.",
+      "file": "c031.ogg",
+      "durationSec": 3.84
+    },
+    {
+      "index": 32,
+      "text": "Let the meadow breathe you for a few more cycles.",
+      "file": "c032.ogg",
+      "durationSec": 5.088
+    },
+    {
+      "index": 33,
+      "text": "Roll your attention from the warm crown of the head",
+      "file": "c033.ogg",
+      "durationSec": 5.16
+    },
+    {
+      "index": 34,
+      "text": "down through a soft face, a soft throat,",
+      "file": "c034.ogg",
+      "durationSec": 4.728
+    },
+    {
+      "index": 35,
+      "text": "into a chest that rises easily under open sky.",
+      "file": "c035.ogg",
+      "durationSec": 6.024
+    },
+    {
+      "index": 36,
+      "text": "The breeze finds the inside of your wrists.",
+      "file": "c036.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 37,
+      "text": "Cool. Alive. Friendly.",
+      "file": "c037.ogg",
+      "durationSec": 5.208
+    },
+    {
+      "index": 38,
+      "text": "Somewhere bees work without urgency.",
+      "file": "c038.ogg",
+      "durationSec": 4.368
+    },
+    {
+      "index": 39,
+      "text": "Their hum is another kind of quiet.",
+      "file": "c039.ogg",
+      "durationSec": 4.128
+    },
+    {
+      "index": 40,
+      "text": "Stay until warmth and freshness feel like one fabric.",
+      "file": "c040.ogg",
+      "durationSec": 5.928
+    },
+    {
+      "index": 41,
+      "text": "Now rest in the breath alone for a little while.",
+      "file": "c041.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 42,
+      "text": "Inhale slowly.",
+      "file": "c042.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 43,
+      "text": "Exhale slowly.",
+      "file": "c043.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 44,
+      "text": "Inhale.",
+      "file": "c044.ogg",
+      "durationSec": 1.872
+    },
+    {
+      "index": 45,
+      "text": "Exhale.",
+      "file": "c045.ogg",
+      "durationSec": 1.896
+    },
+    {
+      "index": 46,
+      "text": "Feel warmth wherever the body is warm.",
+      "file": "c046.ogg",
+      "durationSec": 4.536
+    },
+    {
+      "index": 47,
+      "text": "Feel coolness wherever the air is cool.",
+      "file": "c047.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 48,
+      "text": "Inhale.",
+      "file": "c048.ogg",
+      "durationSec": 1.872
+    },
+    {
+      "index": 49,
+      "text": "Exhale.",
+      "file": "c049.ogg",
+      "durationSec": 1.896
+    },
+    {
+      "index": 50,
+      "text": "Nowhere to go. Nothing to fix.",
+      "file": "c050.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 51,
+      "text": "Inhale.",
+      "file": "c051.ogg",
+      "durationSec": 1.872
+    },
+    {
+      "index": 52,
+      "text": "Exhale.",
+      "file": "c052.ogg",
+      "durationSec": 1.896
+    },
+    {
+      "index": 53,
+      "text": "Rest here for a few quiet breaths.",
+      "file": "c053.ogg",
+      "durationSec": 3.96
+    },
+    {
+      "index": 54,
+      "text": "Know that you can return to this place anytime.",
+      "file": "c054.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 55,
+      "text": "When you are ready, deepen the breath.",
+      "file": "c055.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 56,
+      "text": "Wiggle fingers and toes.",
+      "file": "c056.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 57,
+      "text": "Open your eyes softly.",
+      "file": "c057.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 58,
+      "text": "Carry a little of this peace with you.",
+      "file": "c058.ogg",
+      "durationSec": 3.984
+    }
+  ]
+}

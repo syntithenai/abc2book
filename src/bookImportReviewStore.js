@@ -261,6 +261,13 @@ export function createBlankTuneRecord(options) {
     sourcePdfPage: opts.sourcePdfPage != null ? Number(opts.sourcePdfPage) : null,
     sourcePdfBlobKey: String(opts.sourcePdfBlobKey || '').trim(),
     rasterScale: Number(opts.rasterScale) || 0,
+    slug: String(opts.slug || '').trim(),
+    midiUrl: String(opts.midiUrl || '').trim(),
+    pdfUrl: String(opts.pdfUrl || '').trim(),
+    midiRemotePath: String(opts.midiRemotePath || '').trim(),
+    pdfRemotePath: String(opts.pdfRemotePath || '').trim(),
+    convertPrefer: String(opts.convertPrefer || '').trim(),
+    section: String(opts.section || '').trim(),
   }
 }
 

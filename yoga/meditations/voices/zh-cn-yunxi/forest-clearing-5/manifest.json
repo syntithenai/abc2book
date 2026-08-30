@@ -1,0 +1,364 @@
+{
+  "id": "forest-clearing-5",
+  "voiceId": "zh-cn-yunxi",
+  "edgeVoice": "zh-CN-YunxiNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 344,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "欢迎。",
+      "file": "c000.ogg",
+      "durationSec": 2.688
+    },
+    {
+      "index": 1,
+      "text": "找一个舒适的座位，或者如果感觉好一点的话就躺下来。",
+      "file": "c001.ogg",
+      "durationSec": 8.736
+    },
+    {
+      "index": 2,
+      "text": "让你的双手休息一下。",
+      "file": "c002.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 3,
+      "text": "让你的眼睛闭上，或者软化你的目光。",
+      "file": "c003.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 4,
+      "text": "注意你所承受的身体重量。",
+      "file": "c004.ogg",
+      "durationSec": 5.256
+    },
+    {
+      "index": 5,
+      "text": "通过鼻子缓慢吸气。",
+      "file": "c005.ogg",
+      "durationSec": 4.632
+    },
+    {
+      "index": 6,
+      "text": "并且呼气时间更长、更轻松。",
+      "file": "c006.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 7,
+      "text": "再次。轻轻吸气。",
+      "file": "c007.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 8,
+      "text": "轻轻呼气。",
+      "file": "c008.ogg",
+      "durationSec": 3.408
+    },
+    {
+      "index": 9,
+      "text": "如果思绪游离，那也没关系。回到呼吸。",
+      "file": "c009.ogg",
+      "durationSec": 7.968
+    },
+    {
+      "index": 10,
+      "text": "现在，想象一下柔软的落叶下的一条小路。",
+      "file": "c010.ogg",
+      "durationSec": 7.176
+    },
+    {
+      "index": 11,
+      "text": "你不慌不忙地走进一片安静的森林。",
+      "file": "c011.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 12,
+      "text": "Dappled light moves across your forearms.",
+      "file": "c012.ogg",
+      "durationSec": 6.12
+    },
+    {
+      "index": 13,
+      "text": "无论阳光照射到哪里，肌肤都会感受到温柔的温暖。",
+      "file": "c013.ogg",
+      "durationSec": 8.064
+    },
+    {
+      "index": 14,
+      "text": "微风拂过树林间，一股清凉的气息扑面而来。",
+      "file": "c014.ogg",
+      "durationSec": 7.632
+    },
+    {
+      "index": 15,
+      "text": "闻到绿色的泥土、树皮和干净的矿物质湿气的味道。",
+      "file": "c015.ogg",
+      "durationSec": 9.264
+    },
+    {
+      "index": 16,
+      "text": "The path opens into a small clearing.",
+      "file": "c016.ogg",
+      "durationSec": 5.472
+    },
+    {
+      "index": 17,
+      "text": "苔藓垫着一根倒下的木头。你坐下。",
+      "file": "c017.ogg",
+      "durationSec": 7.128
+    },
+    {
+      "index": 18,
+      "text": "中心的阳光池如静谧的金色。",
+      "file": "c018.ogg",
+      "durationSec": 5.52
+    },
+    {
+      "index": 19,
+      "text": "感受你脸上的温暖，缓慢而友善。",
+      "file": "c019.ogg",
+      "durationSec": 7.416
+    },
+    {
+      "index": 20,
+      "text": "微风拂过你的头发，凉爽你的太阳穴。",
+      "file": "c020.ogg",
+      "durationSec": 6.552
+    },
+    {
+      "index": 21,
+      "text": "鸟鸣声从远处传来，然后又渐渐消失。",
+      "file": "c021.ogg",
+      "durationSec": 7.728
+    },
+    {
+      "index": 22,
+      "text": "你的呼吸与树叶的寂静相匹配。",
+      "file": "c022.ogg",
+      "durationSec": 5.832
+    },
+    {
+      "index": 23,
+      "text": "吸入新鲜感。呼出残留的匆忙。",
+      "file": "c023.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 24,
+      "text": "Notice how safe the ground feels under you.",
+      "file": "c024.ogg",
+      "durationSec": 6.072
+    },
+    {
+      "index": 25,
+      "text": "How wide the sky seems above the canopy.",
+      "file": "c025.ogg",
+      "durationSec": 5.904
+    },
+    {
+      "index": 26,
+      "text": "一只甲虫不紧不慢地穿过阳光照射下的树皮。",
+      "file": "c026.ogg",
+      "durationSec": 7.824
+    },
+    {
+      "index": 27,
+      "text": "You have nowhere to be but here.",
+      "file": "c027.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 28,
+      "text": "Warmth pools again on your closed eyelids.",
+      "file": "c028.ogg",
+      "durationSec": 6.096
+    },
+    {
+      "index": 29,
+      "text": "凉爽的空气像仁慈的手一样从你的衣领下滑过。",
+      "file": "c029.ogg",
+      "durationSec": 8.16
+    },
+    {
+      "index": 30,
+      "text": "保持脸颊上的温暖。",
+      "file": "c030.ogg",
+      "durationSec": 4.272
+    },
+    {
+      "index": 31,
+      "text": "呼气时，让凉爽的空气留在嘴唇上。",
+      "file": "c031.ogg",
+      "durationSec": 6.792
+    },
+    {
+      "index": 32,
+      "text": "This clearing asks nothing. It simply holds you.",
+      "file": "c032.ogg",
+      "durationSec": 8.064
+    },
+    {
+      "index": 33,
+      "text": "Let one more breath travel all the way to the belly.",
+      "file": "c033.ogg",
+      "durationSec": 6.336
+    },
+    {
+      "index": 34,
+      "text": "然后再次离开，柔软如树叶。",
+      "file": "c034.ogg",
+      "durationSec": 6.432
+    },
+    {
+      "index": 35,
+      "text": "Wander your attention slowly around the clearing’s edge.",
+      "file": "c035.ogg",
+      "durationSec": 6.864
+    },
+    {
+      "index": 36,
+      "text": "蕨类。阴影。树桩底部的浅色蘑菇。",
+      "file": "c036.ogg",
+      "durationSec": 8.76
+    },
+    {
+      "index": 37,
+      "text": "一切都那么生动，因为你不着急。",
+      "file": "c037.ogg",
+      "durationSec": 5.832
+    },
+    {
+      "index": 38,
+      "text": "再次感受到阳光落在膝盖上的温暖。",
+      "file": "c038.ogg",
+      "durationSec": 6.36
+    },
+    {
+      "index": 39,
+      "text": "感受微风掠过喉咙的凉爽。",
+      "file": "c039.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 40,
+      "text": "你可以在这里呆一下午。现在，几个呼吸就足够了。",
+      "file": "c040.ogg",
+      "durationSec": 8.832
+    },
+    {
+      "index": 41,
+      "text": "现在独自在呼吸中休息一会儿。",
+      "file": "c041.ogg",
+      "durationSec": 5.256
+    },
+    {
+      "index": 42,
+      "text": "慢慢吸气。",
+      "file": "c042.ogg",
+      "durationSec": 3.216
+    },
+    {
+      "index": 43,
+      "text": "慢慢呼气。",
+      "file": "c043.ogg",
+      "durationSec": 3.24
+    },
+    {
+      "index": 44,
+      "text": "吸入。",
+      "file": "c044.ogg",
+      "durationSec": 2.736
+    },
+    {
+      "index": 45,
+      "text": "呼气。",
+      "file": "c045.ogg",
+      "durationSec": 2.88
+    },
+    {
+      "index": 46,
+      "text": "身体哪里温暖，哪里就感觉温暖。",
+      "file": "c046.ogg",
+      "durationSec": 6.264
+    },
+    {
+      "index": 47,
+      "text": "空气凉爽的地方都会感到凉爽。",
+      "file": "c047.ogg",
+      "durationSec": 5.664
+    },
+    {
+      "index": 48,
+      "text": "吸气。",
+      "file": "c048.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 49,
+      "text": "呼气。",
+      "file": "c049.ogg",
+      "durationSec": 2.88
+    },
+    {
+      "index": 50,
+      "text": "无处可去。没什么可修复的。",
+      "file": "c050.ogg",
+      "durationSec": 6.672
+    },
+    {
+      "index": 51,
+      "text": "吸气。",
+      "file": "c051.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 52,
+      "text": "呼气。",
+      "file": "c052.ogg",
+      "durationSec": 2.88
+    },
+    {
+      "index": 53,
+      "text": "在这里休息一下，安静地呼吸几口气。",
+      "file": "c053.ogg",
+      "durationSec": 6.72
+    },
+    {
+      "index": 54,
+      "text": "要知道你可以随时回到这个地方。",
+      "file": "c054.ogg",
+      "durationSec": 6.312
+    },
+    {
+      "index": 55,
+      "text": "当你准备好后，加深呼吸。",
+      "file": "c055.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 56,
+      "text": "摆动手指和脚趾。",
+      "file": "c056.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 57,
+      "text": "轻轻地睁开眼睛。",
+      "file": "c057.ogg",
+      "durationSec": 3.936
+    },
+    {
+      "index": 58,
+      "text": "随身携带一点这种平静。",
+      "file": "c058.ogg",
+      "durationSec": 4.488
+    }
+  ]
+}

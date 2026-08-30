@@ -147,12 +147,85 @@ export function planMergeWithNext(tunes, tuneId) {
     .filter(function(t) { return Number(t.page) === page })
     .sort(function(a, b) { return (Number(a.tuneIndex) || 0) - (Number(b.tuneIndex) || 0) })
   pageTunes.forEach(function(t, i) {
-    t.tuneIndex = i + 1
+    const nextIndex = i + 1
+    if (Number(t.tuneIndex) !== nextIndex) {
+      const idx = replaced.findIndex(function(x) { return x === t })
+      if (idx >= 0) replaced[idx] = Object.assign({}, t, { tuneIndex: nextIndex })
+    }
   })
   return {
     tunes: replaced,
-    mergeTarget: merged,
+    mergeTarget: Object.assign({}, merged, {
+      tuneIndex: Number(
+        (replaced.find(function(t) { return t && t.id === merged.id }) || merged).tuneIndex
+      ) || merged.tuneIndex,
+    }),
     removed: next,
+    needsReprocess: true,
+  }
+}
+
+/**
+ * Merge tune with the previous tune on the same page (by tuneIndex).
+ * @returns {{ tunes: object[], mergeTarget: object, removed: object, needsReprocess: true } | null}
+ */
+export function planMergeWithPrevious(tunes, tuneId) {
+  const list = Array.isArray(tunes) ? tunes.slice() : []
+  const index = list.findIndex(function(t) { return t && String(t.id) === String(tuneId) })
+  if (index < 0) return null
+  const current = list[index]
+  const page = Number(current.page) || 1
+  const prevIndex = list.findIndex(function(t) {
+    return t
+      && String(t.id) !== String(tuneId)
+      && Number(t.page) === page
+      && Number(t.tuneIndex) === Number(current.tuneIndex) - 1
+  })
+  if (prevIndex < 0) return null
+  // Merge previous (top) with current (bottom): plan from previous id.
+  return planMergeWithNext(list, list[prevIndex].id)
+}
+
+/**
+ * Merge N consecutive same-page tunes (ordered by tuneIndex). First id is keep target.
+ * @param {object[]} tunes
+ * @param {string[]} tuneIds
+ * @returns {{ tunes: object[], mergeTarget: object, removed: object[], needsReprocess: true } | null}
+ */
+export function planMergeTunes(tunes, tuneIds) {
+  const ids = (Array.isArray(tuneIds) ? tuneIds : []).map(String).filter(Boolean)
+  if (ids.length < 2) return null
+  let working = Array.isArray(tunes) ? tunes.slice() : []
+  const byId = {}
+  working.forEach(function(t) { if (t && t.id) byId[String(t.id)] = t })
+  const selected = ids.map(function(id) { return byId[id] }).filter(Boolean)
+  if (selected.length < 2) return null
+  selected.sort(function(a, b) {
+    return (Number(a.tuneIndex) || 0) - (Number(b.tuneIndex) || 0)
+  })
+  const page = Number(selected[0].page) || 1
+  if (selected.some(function(t) { return Number(t.page) !== page })) return null
+  // Verify consecutive tuneIndex
+  for (let i = 1; i < selected.length; i += 1) {
+    if (Number(selected[i].tuneIndex) !== Number(selected[i - 1].tuneIndex) + 1) {
+      return null
+    }
+  }
+  const removed = []
+  let mergeTarget = null
+  let keepId = String(selected[0].id)
+  for (let i = 0; i < selected.length - 1; i += 1) {
+    const plan = planMergeWithNext(working, keepId)
+    if (!plan) return null
+    working = plan.tunes
+    mergeTarget = plan.mergeTarget
+    removed.push(plan.removed)
+    keepId = String(plan.mergeTarget.id)
+  }
+  return {
+    tunes: working,
+    mergeTarget: mergeTarget,
+    removed: removed,
     needsReprocess: true,
   }
 }

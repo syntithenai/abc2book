@@ -61,5 +61,7 @@ export async function ensureMillinerReviewSet(project, accessToken) {
   return updateReviewSet(set.id, {
     tunes: tunes,
     status: 'review',
+    documentsProjectId: 'milliner-koken',
+    defaultStatusFilter: 'incomplete',
   })
 }

@@ -1,0 +1,172 @@
+{
+  "id": "loving-kindness",
+  "voiceId": "en-au-william",
+  "edgeVoice": "en-AU-WilliamMultilingualNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 102,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Sit comfortably. Soften the face.",
+      "file": "c000.ogg",
+      "durationSec": 5.448
+    },
+    {
+      "index": 1,
+      "text": "Place a hand on the heart if that helps.",
+      "file": "c001.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 2,
+      "text": "We will offer simple phrases of kindness.",
+      "file": "c002.ogg",
+      "durationSec": 4.872
+    },
+    {
+      "index": 3,
+      "text": "First, toward yourself.",
+      "file": "c003.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 4,
+      "text": "Silently repeat after me, or just listen.",
+      "file": "c004.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 5,
+      "text": "May I be safe.",
+      "file": "c005.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 6,
+      "text": "May I be well.",
+      "file": "c006.ogg",
+      "durationSec": 2.712
+    },
+    {
+      "index": 7,
+      "text": "May I be at ease.",
+      "file": "c007.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 8,
+      "text": "Say them again, slowly.",
+      "file": "c008.ogg",
+      "durationSec": 3.936
+    },
+    {
+      "index": 9,
+      "text": "May I be safe.",
+      "file": "c009.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 10,
+      "text": "May I be well.",
+      "file": "c010.ogg",
+      "durationSec": 2.712
+    },
+    {
+      "index": 11,
+      "text": "May I be at ease.",
+      "file": "c011.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 12,
+      "text": "If that feels hard, that is okay. Stay with the wish itself.",
+      "file": "c012.ogg",
+      "durationSec": 7.728
+    },
+    {
+      "index": 13,
+      "text": "Now bring to mind someone who is easy to care about.",
+      "file": "c013.ogg",
+      "durationSec": 5.472
+    },
+    {
+      "index": 14,
+      "text": "A friend, a pet, a kind stranger.",
+      "file": "c014.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 15,
+      "text": "Picture them briefly.",
+      "file": "c015.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 16,
+      "text": "May you be safe.",
+      "file": "c016.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 17,
+      "text": "May you be well.",
+      "file": "c017.ogg",
+      "durationSec": 2.664
+    },
+    {
+      "index": 18,
+      "text": "May you be at ease.",
+      "file": "c018.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 19,
+      "text": "Once more.",
+      "file": "c019.ogg",
+      "durationSec": 2.184
+    },
+    {
+      "index": 20,
+      "text": "May you be safe.",
+      "file": "c020.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 21,
+      "text": "May you be well.",
+      "file": "c021.ogg",
+      "durationSec": 2.664
+    },
+    {
+      "index": 22,
+      "text": "May you be at ease.",
+      "file": "c022.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 23,
+      "text": "Feel any warmth that arises. Or simply rest in the words.",
+      "file": "c023.ogg",
+      "durationSec": 7.584
+    },
+    {
+      "index": 24,
+      "text": "Return to your own breath.",
+      "file": "c024.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 25,
+      "text": "Thank yourself for practicing.",
+      "file": "c025.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 26,
+      "text": "Gently open your eyes.",
+      "file": "c026.ogg",
+      "durationSec": 3.24
+    }
+  ]
+}

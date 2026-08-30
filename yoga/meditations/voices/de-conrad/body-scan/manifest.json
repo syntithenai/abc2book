@@ -1,0 +1,148 @@
+{
+  "id": "body-scan",
+  "voiceId": "de-conrad",
+  "edgeVoice": "de-DE-ConradNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 153,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Wir werden den Körper sanft scannen.",
+      "file": "c000.ogg",
+      "durationSec": 5.088
+    },
+    {
+      "index": 1,
+      "text": "Legen Sie sich entspannt hin oder sitzen Sie.",
+      "file": "c001.ogg",
+      "durationSec": 5.592
+    },
+    {
+      "index": 2,
+      "text": "Schließen Sie die Augen, wenn sich das sicher anfühlt.",
+      "file": "c002.ogg",
+      "durationSec": 6.24
+    },
+    {
+      "index": 3,
+      "text": "Begin at the crown of the head.",
+      "file": "c003.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 4,
+      "text": "Nehmen Sie dort jede Empfindung wahr. Wärme. Kühle. Gar nichts.",
+      "file": "c004.ogg",
+      "durationSec": 12.576
+    },
+    {
+      "index": 5,
+      "text": "Keine Notwendigkeit, es zu ändern. Merke es einfach.",
+      "file": "c005.ogg",
+      "durationSec": 9.216
+    },
+    {
+      "index": 6,
+      "text": "Bewegen Sie sich sanft zur Stirn und zu den Augen.",
+      "file": "c006.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 7,
+      "text": "Lassen Sie die winzigen Muskeln um die Augen weicher werden.",
+      "file": "c007.ogg",
+      "durationSec": 6.576
+    },
+    {
+      "index": 8,
+      "text": "Spüre den Kiefer. Entspannen Sie sich, wenn Sie können.",
+      "file": "c008.ogg",
+      "durationSec": 8.52
+    },
+    {
+      "index": 9,
+      "text": "Die Zunge ruht leicht.",
+      "file": "c009.ogg",
+      "durationSec": 3.6
+    },
+    {
+      "index": 10,
+      "text": "Schultern. Sind sie angehoben? Lassen Sie sie etwas fallen.",
+      "file": "c010.ogg",
+      "durationSec": 10.512
+    },
+    {
+      "index": 11,
+      "text": "Arme schwer. Hände offen oder weich.",
+      "file": "c011.ogg",
+      "durationSec": 6.744
+    },
+    {
+      "index": 12,
+      "text": "Der Brustkorb hebt und senkt sich mit dem Atem.",
+      "file": "c012.ogg",
+      "durationSec": 5.952
+    },
+    {
+      "index": 13,
+      "text": "Bauch weich. Kein Zwang.",
+      "file": "c013.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 14,
+      "text": "Hips and pelvis resting.",
+      "file": "c014.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 15,
+      "text": "Schenkel. Knie. Unterschenkel.",
+      "file": "c015.ogg",
+      "durationSec": 7.752
+    },
+    {
+      "index": 16,
+      "text": "Füße. Sohlen berühren den Boden oder die Matte.",
+      "file": "c016.ogg",
+      "durationSec": 7.92
+    },
+    {
+      "index": 17,
+      "text": "Spüren Sie nun den gesamten Körper als ein Bewusstseinsfeld.",
+      "file": "c017.ogg",
+      "durationSec": 7.296
+    },
+    {
+      "index": 18,
+      "text": "Breath moving through it.",
+      "file": "c018.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 19,
+      "text": "If a tense spot appears, send a kind exhale there.",
+      "file": "c019.ogg",
+      "durationSec": 6.288
+    },
+    {
+      "index": 20,
+      "text": "Stay for three quiet breaths.",
+      "file": "c020.ogg",
+      "durationSec": 4.44
+    },
+    {
+      "index": 21,
+      "text": "Wenn Sie bereit sind, bewegen Sie Ihre Finger und Zehen.",
+      "file": "c021.ogg",
+      "durationSec": 7.032
+    },
+    {
+      "index": 22,
+      "text": "Öffne deine Augen. Kehren Sie vorsichtig zurück.",
+      "file": "c022.ogg",
+      "durationSec": 7.656
+    }
+  ]
+}

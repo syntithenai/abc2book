@@ -1,0 +1,148 @@
+{
+  "id": "breath-awareness",
+  "voiceId": "en-gb-sonia",
+  "edgeVoice": "en-GB-SoniaNeural",
+  "rate": "-42%",
+  "pitch": "-18Hz",
+  "totalSec": 107,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Settle into a steady posture.",
+      "file": "c000.ogg",
+      "durationSec": 4.2
+    },
+    {
+      "index": 1,
+      "text": "Spine tall but not rigid.",
+      "file": "c001.ogg",
+      "durationSec": 4.104
+    },
+    {
+      "index": 2,
+      "text": "Bring attention to the breath as it already is.",
+      "file": "c002.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 3,
+      "text": "Do not change it yet. Just watch.",
+      "file": "c003.ogg",
+      "durationSec": 5.568
+    },
+    {
+      "index": 4,
+      "text": "Feel the coolness of the inhale at the nostrils.",
+      "file": "c004.ogg",
+      "durationSec": 5.64
+    },
+    {
+      "index": 5,
+      "text": "Feel the warmth of the exhale.",
+      "file": "c005.ogg",
+      "durationSec": 4.08
+    },
+    {
+      "index": 6,
+      "text": "Or notice the rise and fall of the belly.",
+      "file": "c006.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 7,
+      "text": "Choose one place to rest your attention.",
+      "file": "c007.ogg",
+      "durationSec": 4.704
+    },
+    {
+      "index": 8,
+      "text": "When the mind wanders, kindly return.",
+      "file": "c008.ogg",
+      "durationSec": 5.16
+    },
+    {
+      "index": 9,
+      "text": "No judgment. Just return.",
+      "file": "c009.ogg",
+      "durationSec": 5.04
+    },
+    {
+      "index": 10,
+      "text": "Now, if it feels easy, count soft cycles.",
+      "file": "c010.ogg",
+      "durationSec": 6.432
+    },
+    {
+      "index": 11,
+      "text": "Inhale. One.",
+      "file": "c011.ogg",
+      "durationSec": 3.456
+    },
+    {
+      "index": 12,
+      "text": "Exhale. One.",
+      "file": "c012.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 13,
+      "text": "Inhale. Two.",
+      "file": "c013.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 14,
+      "text": "Exhale. Two.",
+      "file": "c014.ogg",
+      "durationSec": 3.408
+    },
+    {
+      "index": 15,
+      "text": "Continue up to five, then begin again at one.",
+      "file": "c015.ogg",
+      "durationSec": 6.024
+    },
+    {
+      "index": 16,
+      "text": "If you lose the count, start over with kindness.",
+      "file": "c016.ogg",
+      "durationSec": 5.952
+    },
+    {
+      "index": 17,
+      "text": "The returning is the practice.",
+      "file": "c017.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 18,
+      "text": "Let the breath be natural. No strain.",
+      "file": "c018.ogg",
+      "durationSec": 5.712
+    },
+    {
+      "index": 19,
+      "text": "A few more cycles in silence.",
+      "file": "c019.ogg",
+      "durationSec": 4.416
+    },
+    {
+      "index": 20,
+      "text": "Release the counting.",
+      "file": "c020.ogg",
+      "durationSec": 2.856
+    },
+    {
+      "index": 21,
+      "text": "Rest in open awareness for a moment.",
+      "file": "c021.ogg",
+      "durationSec": 4.68
+    },
+    {
+      "index": 22,
+      "text": "When ready, open your eyes.",
+      "file": "c022.ogg",
+      "durationSec": 4.104
+    }
+  ]
+}

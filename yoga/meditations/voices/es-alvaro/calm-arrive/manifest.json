@@ -1,0 +1,136 @@
+{
+  "id": "calm-arrive",
+  "voiceId": "es-alvaro",
+  "edgeVoice": "es-ES-AlvaroNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 107,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Bienvenido.",
+      "file": "c000.ogg",
+      "durationSec": 3.048
+    },
+    {
+      "index": 1,
+      "text": "Tómate un momento para llegar.",
+      "file": "c001.ogg",
+      "durationSec": 4.464
+    },
+    {
+      "index": 2,
+      "text": "Busque un asiento cómodo o acuéstese si se siente mejor.",
+      "file": "c002.ogg",
+      "durationSec": 7.032
+    },
+    {
+      "index": 3,
+      "text": "Deja que tus manos descansen.",
+      "file": "c003.ogg",
+      "durationSec": 4.728
+    },
+    {
+      "index": 4,
+      "text": "Deja que tus ojos se cierren o suaviza tu mirada.",
+      "file": "c004.ogg",
+      "durationSec": 6.336
+    },
+    {
+      "index": 5,
+      "text": "Fíjate que estás aquí.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "No hay nada que arreglar ahora.",
+      "file": "c006.ogg",
+      "durationSec": 4.368
+    },
+    {
+      "index": 7,
+      "text": "Nada que completar.",
+      "file": "c007.ogg",
+      "durationSec": 3.624
+    },
+    {
+      "index": 8,
+      "text": "Respire lentamente por la nariz.",
+      "file": "c008.ogg",
+      "durationSec": 4.872
+    },
+    {
+      "index": 9,
+      "text": "Y una exhalación más larga.",
+      "file": "c009.ogg",
+      "durationSec": 4.656
+    },
+    {
+      "index": 10,
+      "text": "De nuevo. Inhala suavemente.",
+      "file": "c010.ogg",
+      "durationSec": 6.648
+    },
+    {
+      "index": 11,
+      "text": "Exhala suavemente.",
+      "file": "c011.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 12,
+      "text": "Siente el peso de tu cuerpo apoyado.",
+      "file": "c012.ogg",
+      "durationSec": 5.208
+    },
+    {
+      "index": 13,
+      "text": "El suelo, la silla, la tierra que te sostiene.",
+      "file": "c013.ogg",
+      "durationSec": 6.672
+    },
+    {
+      "index": 14,
+      "text": "Si los pensamientos divagan, está bien.",
+      "file": "c014.ogg",
+      "durationSec": 5.736
+    },
+    {
+      "index": 15,
+      "text": "Simplemente observa y regresa a esta respiración.",
+      "file": "c015.ogg",
+      "durationSec": 6.624
+    },
+    {
+      "index": 16,
+      "text": "Inhalar. Llegar.",
+      "file": "c016.ogg",
+      "durationSec": 5.208
+    },
+    {
+      "index": 17,
+      "text": "Exhalar. Asentarse.",
+      "file": "c017.ogg",
+      "durationSec": 5.808
+    },
+    {
+      "index": 18,
+      "text": "Un respiro más tranquilo.",
+      "file": "c018.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 19,
+      "text": "Cuando estés listo, abre los ojos.",
+      "file": "c019.ogg",
+      "durationSec": 5.52
+    },
+    {
+      "index": 20,
+      "text": "Lleva este silencio contigo.",
+      "file": "c020.ogg",
+      "durationSec": 4.512
+    }
+  ]
+}

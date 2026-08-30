@@ -20,6 +20,8 @@ import { fetchReviewProjectsBlob } from '../reviewProjectsClient'
 import {
   deleteTuneFromList,
   planMergeWithNext,
+  planMergeWithPrevious,
+  planMergeTunes,
   planSplitTune,
   mergeCropBlobs,
   splitCropBlob,
@@ -29,7 +31,15 @@ import {
   buildZonesOnlyBlob,
   rehydrateCropBlobFromPdf,
 } from '../bookImportCropOps'
+import { applyCropPrep } from '../bookImportCropPrep'
 import { reprocessReviewTune } from '../bookImportPipeline'
+import {
+  convertMidiForTune,
+  omrPdfForTune,
+  convertSourceForTune,
+  tuneHasMidiSource,
+  tuneHasPdfSource,
+} from '../oldtimeEnrichActions'
 import {
   sortCandidatesForDisplay,
   pickPreferChordedCandidate,
@@ -103,7 +113,13 @@ export default function BookImportReviewPanel(props) {
   const [dragStart, setDragStart] = useState(null)
   const [dragCurrent, setDragCurrent] = useState(null)
   const [nameQuery, setNameQuery] = useState('')
-  const [statusFilter, setStatusFilter] = useState('all')
+  const [statusFilter, setStatusFilter] = useState(function() {
+    return String(props.initialStatusFilter || '').trim() || 'all'
+  })
+  const [selectedTuneIds, setSelectedTuneIds] = useState([])
+  const [splitGuideY, setSplitGuideY] = useState(null)
+  const [prepContrast, setPrepContrast] = useState(1)
+  const [prepBrightness, setPrepBrightness] = useState(0)
   const [preferChords, setPreferChords] = useState(true)
   const [abcDraft, setAbcDraft] = useState('')
   const [undoStack, setUndoStack] = useState([])
@@ -118,6 +134,11 @@ export default function BookImportReviewPanel(props) {
   const [scoreUploadHint, setScoreUploadHint] = useState('')
   const [scoreUploadAllParts, setScoreUploadAllParts] = useState(false)
   const [scoreUploadBusy, setScoreUploadBusy] = useState(false)
+
+  useEffect(function() {
+    const hint = String(props.initialStatusFilter || '').trim()
+    if (hint) setStatusFilter(hint)
+  }, [props.initialStatusFilter, setId])
 
   const loadSet = useCallback(async function() {
     const set = await getReviewSet(setId)
@@ -427,6 +448,26 @@ export default function BookImportReviewPanel(props) {
     }
   }
 
+  async function resolveCropBlob(tune) {
+    if (!tune) return null
+    if (tune.cropBlobKey) {
+      const blob = await getReviewBlob(tune.cropBlobKey)
+      if (blob) return blob
+    }
+    if (tune.cropRemotePath) {
+      const blob = await fetchReviewProjectsBlob(tune.cropRemotePath, accessToken)
+      if (blob) {
+        const key = tune.cropBlobKey || ('crop-remote-' + tune.id + '-' + Date.now())
+        await putReviewBlob(key, blob)
+        if (!tune.cropBlobKey) {
+          await updateTuneInReviewSet(setId, tune.id, { cropBlobKey: key })
+        }
+        return blob
+      }
+    }
+    return null
+  }
+
   async function handleTitleBlur(event) {
     const title = String(event.target.value || '').trim()
     if (!activeTune || title === activeTune.title) return
@@ -456,28 +497,96 @@ export default function BookImportReviewPanel(props) {
     if (!activeTune) return
     const plan = planMergeWithNext(tunes, activeTune.id)
     if (!plan) {
-      toast.info('No next tune on this page to merge')
+      toast.info('No next tune on this page to join')
       return
     }
+    await applyMergePlan(plan, activeTune, plan.removed)
+  }
+
+  async function handleMergePrevious() {
+    if (!activeTune) return
+    const plan = planMergeWithPrevious(tunes, activeTune.id)
+    if (!plan) {
+      toast.info('No previous tune on this page to join')
+      return
+    }
+    const top = tunes.find(function(t) { return t && t.id === plan.mergeTarget.id })
+    await applyMergePlan(plan, top || plan.mergeTarget, plan.removed)
+  }
+
+  async function applyMergePlan(plan, topTune, bottomTune) {
     setBusy(true)
     try {
-      const blobA = await getReviewBlob(activeTune.cropBlobKey)
-      const blobB = await getReviewBlob(plan.removed.cropBlobKey)
+      const blobA = await resolveCropBlob(topTune)
+      const blobB = await resolveCropBlob(bottomTune)
+      if (!blobA || !blobB) throw new Error('Could not load crop images to join')
       const mergedBlob = await mergeCropBlobs(blobA, blobB)
       const newKey = 'crop-merge-' + setId + '-' + Date.now()
       await putReviewBlob(newKey, mergedBlob)
-      if (plan.removed.cropBlobKey) await deleteReviewBlob(plan.removed.cropBlobKey)
+      if (bottomTune.cropBlobKey) await deleteReviewBlob(bottomTune.cropBlobKey)
       plan.mergeTarget.cropBlobKey = newKey
+      plan.mergeTarget.cropRemotePath = ''
       await updateReviewSet(setId, { tunes: plan.tunes.map(function(t) {
         return t.id === plan.mergeTarget.id ? plan.mergeTarget : t
       }) })
       await reprocessReviewTune(setId, plan.mergeTarget.id, {
-        accessToken: props.accessToken,
+        accessToken: accessToken,
         resolverAvailable: props.resolverAvailable,
         abcTools: abcTools,
       })
       await loadSet()
-      toast.success('Merged crops')
+      setActiveId(plan.mergeTarget.id)
+      setSelectedTuneIds([])
+      toast.success('Joined crops and re-ran OMR')
+    } catch (e) {
+      toast.error(e && e.message ? e.message : String(e))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function handleJoinSelection() {
+    if (selectedTuneIds.length < 2) {
+      toast.info('Select two or more consecutive same-page tunes to join')
+      return
+    }
+    const plan = planMergeTunes(tunes, selectedTuneIds)
+    if (!plan) {
+      toast.warn('Selection must be consecutive tunes on the same page')
+      return
+    }
+    setBusy(true)
+    try {
+      const ordered = selectedTuneIds
+        .map(function(id) { return tunes.find(function(t) { return t && String(t.id) === String(id) }) })
+        .filter(Boolean)
+        .sort(function(a, b) { return (Number(a.tuneIndex) || 0) - (Number(b.tuneIndex) || 0) })
+      let mergedBlob = await resolveCropBlob(ordered[0])
+      if (!mergedBlob) throw new Error('Could not load first crop')
+      for (let i = 1; i < ordered.length; i += 1) {
+        const nextBlob = await resolveCropBlob(ordered[i])
+        if (!nextBlob) throw new Error('Could not load crop for ' + (ordered[i].title || ordered[i].id))
+        mergedBlob = await mergeCropBlobs(mergedBlob, nextBlob)
+        if (ordered[i].cropBlobKey) await deleteReviewBlob(ordered[i].cropBlobKey)
+      }
+      const newKey = 'crop-merge-multi-' + setId + '-' + Date.now()
+      await putReviewBlob(newKey, mergedBlob)
+      plan.mergeTarget.cropBlobKey = newKey
+      plan.mergeTarget.cropRemotePath = ''
+      await updateReviewSet(setId, {
+        tunes: plan.tunes.map(function(t) {
+          return t.id === plan.mergeTarget.id ? plan.mergeTarget : t
+        }),
+      })
+      await reprocessReviewTune(setId, plan.mergeTarget.id, {
+        accessToken: accessToken,
+        resolverAvailable: props.resolverAvailable,
+        abcTools: abcTools,
+      })
+      await loadSet()
+      setActiveId(plan.mergeTarget.id)
+      setSelectedTuneIds([])
+      toast.success('Joined ' + ordered.length + ' crops and re-ran OMR')
     } catch (e) {
       toast.error(e && e.message ? e.message : String(e))
     } finally {
@@ -491,8 +600,10 @@ export default function BookImportReviewPanel(props) {
     const ratio = (clientY - rect.top) / Math.max(1, rect.height)
     setBusy(true)
     setSplitMode(false)
+    setSplitGuideY(null)
     try {
-      const blob = await getReviewBlob(activeTune.cropBlobKey)
+      const blob = await resolveCropBlob(activeTune)
+      if (!blob) throw new Error('No crop image to split')
       const split = await splitCropBlob(blob, ratio, { normalized: true })
       const plan = planSplitTune(tunes, activeTune.id, {})
       if (!plan) return
@@ -502,7 +613,9 @@ export default function BookImportReviewPanel(props) {
       await putReviewBlob(bottomKey, split.bottomBlob)
       if (activeTune.cropBlobKey) await deleteReviewBlob(activeTune.cropBlobKey)
       plan.topTune.cropBlobKey = topKey
+      plan.topTune.cropRemotePath = ''
       plan.bottomTune.cropBlobKey = bottomKey
+      plan.bottomTune.cropRemotePath = ''
       const nextTunes = plan.tunes.map(function(t) {
         if (t.id === plan.topTune.id) return plan.topTune
         if (t.id === plan.bottomTune.id) return plan.bottomTune
@@ -510,17 +623,78 @@ export default function BookImportReviewPanel(props) {
       })
       await updateReviewSet(setId, { tunes: nextTunes })
       await reprocessReviewTune(setId, plan.topTune.id, {
-        accessToken: props.accessToken,
+        accessToken: accessToken,
         resolverAvailable: props.resolverAvailable,
         abcTools: abcTools,
       })
       await reprocessReviewTune(setId, plan.bottomTune.id, {
-        accessToken: props.accessToken,
+        accessToken: accessToken,
         resolverAvailable: props.resolverAvailable,
         abcTools: abcTools,
       })
       await loadSet()
-      toast.success('Split crop')
+      toast.success('Split at ' + Math.round(ratio * 100) + '% and re-ran OMR')
+    } catch (e) {
+      toast.error(e && e.message ? e.message : String(e))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function handleReOmr() {
+    if (!activeTune) return
+    setBusy(true)
+    try {
+      await resolveCropBlob(activeTune)
+      await reprocessReviewTune(setId, activeTune.id, {
+        accessToken: accessToken,
+        resolverAvailable: props.resolverAvailable,
+        abcTools: abcTools,
+      })
+      await loadSet()
+      toast.success('Re-ran OMR on crop')
+    } catch (e) {
+      toast.error(e && e.message ? e.message : String(e))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function handleApplyCropPrep(extraOps) {
+    if (!activeTune) return
+    setBusy(true)
+    try {
+      const blob = await resolveCropBlob(activeTune)
+      if (!blob) throw new Error('No crop image to prep')
+      const next = await applyCropPrep(blob, Object.assign({
+        contrast: prepContrast,
+        brightness: prepBrightness,
+      }, extraOps || {}))
+      const key = 'crop-prep-' + activeTune.id + '-' + Date.now()
+      await putReviewBlob(key, next)
+      if (activeTune.cropBlobKey && activeTune.cropBlobKey !== key) {
+        await deleteReviewBlob(activeTune.cropBlobKey)
+      }
+      await patchActive({ cropBlobKey: key, cropRemotePath: '' })
+      await loadSet()
+      toast.success('Crop updated — use Re-OMR when ready')
+    } catch (e) {
+      toast.error(e && e.message ? e.message : String(e))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function runSourceConvert(label, fn) {
+    if (!activeTune) return
+    setBusy(true)
+    try {
+      const patch = await fn(activeTune)
+      await patchActive(Object.assign({}, patch, {
+        status: patch.status || 'has_candidates',
+        complete: false,
+      }))
+      toast.success(label + ' added as candidate')
     } catch (e) {
       toast.error(e && e.message ? e.message : String(e))
     } finally {
@@ -532,10 +706,11 @@ export default function BookImportReviewPanel(props) {
     if (!activeTune || !cropZones.length) return
     setBusy(true)
     try {
-      const cropBlob = await getReviewBlob(activeTune.cropBlobKey)
+      const cropBlob = await resolveCropBlob(activeTune)
+      if (!cropBlob) throw new Error('No crop image')
       const zonesBlob = await buildZonesOnlyBlob(cropBlob, cropZones)
       await reprocessReviewTune(setId, activeTune.id, {
-        accessToken: props.accessToken,
+        accessToken: accessToken,
         resolverAvailable: props.resolverAvailable,
         abcTools: abcTools,
         omrBlob: zonesBlob,
@@ -834,20 +1009,52 @@ export default function BookImportReviewPanel(props) {
           <ListGroup variant="flush">
             {visibleTunes.map(function(tune) {
               const active = activeTune && activeTune.id === tune.id
+              const selected = selectedTuneIds.indexOf(String(tune.id)) >= 0
               return (
                 <ListGroup.Item
                   key={tune.id}
                   action
                   active={active}
-                  onClick={function() { setActiveId(tune.id) }}
-                  className={'py-2' + (tune.complete ? ' complete' : '')}
+                  onClick={function(e) {
+                    if (e.metaKey || e.ctrlKey || e.shiftKey) {
+                      setSelectedTuneIds(function(ids) {
+                        const sid = String(tune.id)
+                        if (ids.indexOf(sid) >= 0) return ids.filter(function(x) { return x !== sid })
+                        return ids.concat([sid])
+                      })
+                      return
+                    }
+                    setActiveId(tune.id)
+                  }}
+                  className={'py-2' + (tune.complete ? ' complete' : '') + (selected ? ' bir-tune-selected' : '')}
                 >
-                  <div className="small text-muted">p{tune.page}.{tune.tuneIndex}</div>
-                  <div>{tune.title}</div>
-                  {tune.complete ? <Badge bg="success">complete</Badge> : null}
-                  {(tune.notationIssues || []).some(function(i) { return i.severity === 'error' }) ? (
-                    <Badge bg="danger" className="ms-1">issues</Badge>
-                  ) : null}
+                  <div className="d-flex align-items-start gap-2">
+                    <Form.Check
+                      type="checkbox"
+                      className="mt-1"
+                      checked={selected}
+                      onChange={function(e) {
+                        e.stopPropagation()
+                        const sid = String(tune.id)
+                        setSelectedTuneIds(function(ids) {
+                          if (e.target.checked) return ids.indexOf(sid) >= 0 ? ids : ids.concat([sid])
+                          return ids.filter(function(x) { return x !== sid })
+                        })
+                      }}
+                      onClick={function(e) { e.stopPropagation() }}
+                      aria-label={'Select ' + (tune.title || tune.id)}
+                    />
+                    <div className="min-w-0 flex-grow-1">
+                      <div className="small text-muted">p{tune.page}.{tune.tuneIndex}</div>
+                      <div>{tune.title}</div>
+                      {tune.complete ? <Badge bg="success">complete</Badge> : null}
+                      {(tune.notationIssues || []).some(function(i) { return i.severity === 'error' }) ? (
+                        <Badge bg="danger" className="ms-1">issues</Badge>
+                      ) : null}
+                      {tuneHasMidiSource(tune) ? <Badge bg="info" className="ms-1">MIDI</Badge> : null}
+                      {tuneHasPdfSource(tune) ? <Badge bg="dark" className="ms-1">PDF</Badge> : null}
+                    </div>
+                  </div>
                 </ListGroup.Item>
               )
             })}
@@ -880,17 +1087,48 @@ export default function BookImportReviewPanel(props) {
                   disabled={busy}
                   onClick={handleMergeNext}
                   title={activeTune && activeTune.suggestedMergeWithNext
-                    ? 'Suggested: this crop may continue on the next page'
-                    : 'Merge with the next tune'}
+                    ? 'Suggested: join with the next crop and re-OMR'
+                    : 'Join with the next tune on this page'}
+                  data-testid="book-import-join-up"
                 >
-                  {activeTune && activeTune.suggestedMergeWithNext ? 'Merge next (suggested)' : 'Merge next'}
+                  {activeTune && activeTune.suggestedMergeWithNext ? 'Join up (suggested)' : 'Join up'}
+                </Button>
+                <Button
+                  variant="outline-secondary"
+                  disabled={busy}
+                  onClick={handleMergePrevious}
+                  title="Join with the previous tune on this page"
+                >
+                  Join previous
+                </Button>
+                <Button
+                  variant="outline-secondary"
+                  disabled={busy || selectedTuneIds.length < 2}
+                  onClick={handleJoinSelection}
+                  title="Join selected consecutive same-page tunes"
+                  data-testid="book-import-join-selection"
+                >
+                  Join selection ({selectedTuneIds.length})
                 </Button>
                 <Button
                   variant={splitMode ? 'warning' : 'outline-secondary'}
                   disabled={busy}
-                  onClick={function() { setSplitMode(function(v) { return !v }) }}
+                  onClick={function() {
+                    setSplitMode(function(v) { return !v })
+                    setSplitGuideY(null)
+                  }}
+                  data-testid="book-import-split-at-y"
                 >
-                  Split at Y
+                  {splitMode ? 'Click crop to split…' : 'Split at Y'}
+                </Button>
+                <Button
+                  variant="outline-primary"
+                  disabled={busy}
+                  onClick={handleReOmr}
+                  data-testid="book-import-re-omr"
+                  title="Re-run OMR on the current crop"
+                >
+                  Re-OMR
                 </Button>
                 <Button
                   variant="primary"
@@ -899,18 +1137,61 @@ export default function BookImportReviewPanel(props) {
                   data-testid="book-import-regenerate"
                   title={cropZones.length ? 'OMR only selected crop zones' : 'Draw at least one crop zone first'}
                 >
-                  Regenerate
+                  Regenerate zones
                 </Button>
                 <Button variant="outline-danger" disabled={busy} onClick={handleDeleteTune}>Delete</Button>
               </ButtonGroup>
 
+              {(tuneHasMidiSource(activeTune) || tuneHasPdfSource(activeTune)) ? (
+                <ButtonGroup size="sm" className="mb-2 flex-wrap">
+                  {tuneHasMidiSource(activeTune) ? (
+                    <Button
+                      variant="outline-info"
+                      disabled={busy}
+                      data-testid="book-import-from-midi"
+                      onClick={function() {
+                        runSourceConvert('MIDI', function(t) {
+                          return convertMidiForTune(t, accessToken)
+                        })
+                      }}
+                    >
+                      From MIDI
+                    </Button>
+                  ) : null}
+                  {tuneHasPdfSource(activeTune) ? (
+                    <Button
+                      variant="outline-dark"
+                      disabled={busy}
+                      onClick={function() {
+                        runSourceConvert('OMR PDF', function(t) {
+                          return omrPdfForTune(t, accessToken, { forceSelect: true })
+                        })
+                      }}
+                    >
+                      OMR PDF
+                    </Button>
+                  ) : null}
+                  <Button
+                    variant="outline-primary"
+                    disabled={busy}
+                    onClick={function() {
+                      runSourceConvert('Convert source', function(t) {
+                        return convertSourceForTune(t, accessToken)
+                      })
+                    }}
+                  >
+                    Convert source
+                  </Button>
+                </ButtonGroup>
+              ) : null}
+
               {activeTune && activeTune.suggestedMergeWithNext ? (
                 <Alert variant="warning" className="py-2 small d-flex align-items-center justify-content-between flex-wrap gap-2">
-                  <span>This crop may continue on the next page. Accept merge to stitch and re-transcribe.</span>
+                  <span>This crop may continue on the next page. Accept join to stitch and re-transcribe.</span>
                   <Form.Check
                     type="checkbox"
                     id={'bir-accept-merge-' + activeTune.id}
-                    label="Accept suggested merge"
+                    label="Accept suggested join"
                     disabled={busy}
                     onChange={function(e) {
                       if (e.target.checked) {
@@ -925,9 +1206,43 @@ export default function BookImportReviewPanel(props) {
 
               <p className="bir-hint mb-2">
                 {splitMode
-                  ? 'Click on the crop image where the split should be.'
-                  : 'Drag zones to regenerate · Regenerate sends only selected regions'}
+                  ? 'Move over the crop to preview the split line, then click to cut, join, and re-OMR both halves.'
+                  : 'Drag zones → Regenerate zones · checkbox-select consecutive tunes → Join selection · Prep crop then Re-OMR'}
               </p>
+
+              <div className="bir-prep-bar mb-2 d-flex flex-wrap align-items-center gap-2" data-testid="book-import-crop-prep">
+                <span className="small text-muted">Prep crop</span>
+                <Button size="sm" variant="outline-secondary" disabled={busy} onClick={function() { handleApplyCropPrep({ rotateDeg: -90 }) }}>↺ 90°</Button>
+                <Button size="sm" variant="outline-secondary" disabled={busy} onClick={function() { handleApplyCropPrep({ rotateDeg: 90 }) }}>↻ 90°</Button>
+                <Button size="sm" variant="outline-secondary" disabled={busy} onClick={function() { handleApplyCropPrep({ flipH: true }) }}>Flip H</Button>
+                <Button size="sm" variant="outline-secondary" disabled={busy} onClick={function() { handleApplyCropPrep({ trimPct: 0.04 }) }}>Trim 4%</Button>
+                <Form.Label className="small mb-0">Contrast</Form.Label>
+                <Form.Range
+                  style={{ width: '6rem' }}
+                  min={0.6}
+                  max={1.8}
+                  step={0.05}
+                  value={prepContrast}
+                  onChange={function(e) { setPrepContrast(Number(e.target.value)) }}
+                />
+                <Form.Label className="small mb-0">Bright</Form.Label>
+                <Form.Range
+                  style={{ width: '6rem' }}
+                  min={-0.3}
+                  max={0.3}
+                  step={0.02}
+                  value={prepBrightness}
+                  onChange={function(e) { setPrepBrightness(Number(e.target.value)) }}
+                />
+                <Button
+                  size="sm"
+                  variant="outline-primary"
+                  disabled={busy}
+                  onClick={function() { handleApplyCropPrep({}) }}
+                >
+                  Apply levels
+                </Button>
+              </div>
 
               <div className="bir-cols">
                 <div className="bir-col" ref={cropColRef}>
@@ -939,6 +1254,13 @@ export default function BookImportReviewPanel(props) {
                         setDragStart(null)
                         setDragCurrent(null)
                       }
+                      if (splitMode) setSplitGuideY(null)
+                    }}
+                    onMouseMove={function(event) {
+                      if (!splitMode || !cropImgRef.current) return
+                      const rect = cropImgRef.current.getBoundingClientRect()
+                      const y = event.clientY - rect.top
+                      setSplitGuideY(Math.max(0, Math.min(rect.height, y)))
                     }}
                   >
                     {cropUrl ? (
@@ -989,6 +1311,13 @@ export default function BookImportReviewPanel(props) {
                           width: draftZone.width + '%',
                           height: draftZone.height + '%',
                         }}
+                      />
+                    ) : null}
+                    {splitMode && splitGuideY != null ? (
+                      <div
+                        className="bir-split-guide"
+                        style={{ top: splitGuideY + 'px' }}
+                        data-testid="book-import-split-guide"
                       />
                     ) : null}
                   </div>

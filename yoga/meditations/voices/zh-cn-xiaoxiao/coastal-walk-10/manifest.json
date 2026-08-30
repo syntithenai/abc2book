@@ -1,0 +1,616 @@
+{
+  "id": "coastal-walk-10",
+  "voiceId": "zh-cn-xiaoxiao",
+  "edgeVoice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-42%",
+  "pitch": "-18Hz",
+  "totalSec": 556,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "欢迎。",
+      "file": "c000.ogg",
+      "durationSec": 2.184
+    },
+    {
+      "index": 1,
+      "text": "找到一种对你没有任何要求的姿势。",
+      "file": "c001.ogg",
+      "durationSec": 5.832
+    },
+    {
+      "index": 2,
+      "text": "坐下或躺下，根据需要提供任何支撑。",
+      "file": "c002.ogg",
+      "durationSec": 6.528
+    },
+    {
+      "index": 3,
+      "text": "让双手张开或柔软。",
+      "file": "c003.ogg",
+      "durationSec": 4.248
+    },
+    {
+      "index": 4,
+      "text": "让你的眼睛闭上，或者保持柔和的凝视。",
+      "file": "c004.ogg",
+      "durationSec": 6.864
+    },
+    {
+      "index": 5,
+      "text": "感受身体与地面接触的地方。",
+      "file": "c005.ogg",
+      "durationSec": 5.28
+    },
+    {
+      "index": 6,
+      "text": "脚跟、坐骨、后脑勺或脊柱的长度。",
+      "file": "c006.ogg",
+      "durationSec": 7.08
+    },
+    {
+      "index": 7,
+      "text": "现在没什么可以坚持的。",
+      "file": "c007.ogg",
+      "durationSec": 4.176
+    },
+    {
+      "index": 8,
+      "text": "通过鼻子缓慢吸气。",
+      "file": "c008.ogg",
+      "durationSec": 4.032
+    },
+    {
+      "index": 9,
+      "text": "感受空气的凉爽到来。",
+      "file": "c009.ogg",
+      "durationSec": 4.176
+    },
+    {
+      "index": 10,
+      "text": "并且呼气时间长一点。",
+      "file": "c010.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 11,
+      "text": "感受呼气离开的温暖。",
+      "file": "c011.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 12,
+      "text": "再次。轻轻吸气。",
+      "file": "c012.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 13,
+      "text": "不紧不慢地呼气。",
+      "file": "c013.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 14,
+      "text": "让肩膀下降一点。",
+      "file": "c014.ogg",
+      "durationSec": 3.72
+    },
+    {
+      "index": 15,
+      "text": "让下巴松开。",
+      "file": "c015.ogg",
+      "durationSec": 3.096
+    },
+    {
+      "index": 16,
+      "text": "让肚子变软。",
+      "file": "c016.ogg",
+      "durationSec": 3.024
+    },
+    {
+      "index": 17,
+      "text": "保持三个安静的呼吸，就像它们本来的样子一样。",
+      "file": "c017.ogg",
+      "durationSec": 7.512
+    },
+    {
+      "index": 18,
+      "text": "吸气。到达。",
+      "file": "c018.ogg",
+      "durationSec": 4.272
+    },
+    {
+      "index": 19,
+      "text": "呼气。定居。",
+      "file": "c019.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 20,
+      "text": "如果心走神，请善意地注意它，然后回到呼吸上。",
+      "file": "c020.ogg",
+      "durationSec": 8.112
+    },
+    {
+      "index": 21,
+      "text": "欣赏沿着低矮悬崖的沿海小路。",
+      "file": "c021.ogg",
+      "durationSec": 5.64
+    },
+    {
+      "index": 22,
+      "text": "下面的海洋在长而稳定的翻滚中呼吸。",
+      "file": "c022.ogg",
+      "durationSec": 6.672
+    },
+    {
+      "index": 23,
+      "text": "阳光温暖你的头顶和鼻梁。",
+      "file": "c023.ogg",
+      "durationSec": 5.016
+    },
+    {
+      "index": 24,
+      "text": "咸咸的微风吹过你的眼睑，带来明亮的清新。",
+      "file": "c024.ogg",
+      "durationSec": 7.56
+    },
+    {
+      "index": 25,
+      "text": "闻大海的味道——矿物质、干净、清醒。",
+      "file": "c025.ogg",
+      "durationSec": 7.08
+    },
+    {
+      "index": 26,
+      "text": "你慢慢地走。草在风中向内陆倾斜。",
+      "file": "c026.ogg",
+      "durationSec": 7.44
+    },
+    {
+      "index": 27,
+      "text": "一侧脸颊感受阳光，另一侧脸颊感受凉爽空气。",
+      "file": "c027.ogg",
+      "durationSec": 8.664
+    },
+    {
+      "index": 28,
+      "text": "这种反差本身就是一种平静。",
+      "file": "c028.ogg",
+      "durationSec": 5.448
+    },
+    {
+      "index": 29,
+      "text": "一段木楼梯通向一个隐藏的海滩。",
+      "file": "c029.ogg",
+      "durationSec": 5.904
+    },
+    {
+      "index": 30,
+      "text": "每一步都是确定的。你的手放在一根饱经风霜的栏杆上。",
+      "file": "c030.ogg",
+      "durationSec": 9.624
+    },
+    {
+      "index": 31,
+      "text": "手掌下温暖的木头。",
+      "file": "c031.ogg",
+      "durationSec": 4.032
+    },
+    {
+      "index": 32,
+      "text": "在底部，沙子像柔软的“是”一样包裹着您的双脚。",
+      "file": "c032.ogg",
+      "durationSec": 7.872
+    },
+    {
+      "index": 33,
+      "text": "走到波浪书写的地方并擦除白线。",
+      "file": "c033.ogg",
+      "durationSec": 6.0
+    },
+    {
+      "index": 34,
+      "text": "清凉的水流过你的脚踝。",
+      "file": "c034.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 35,
+      "text": "当您退后一步时，海岸更高处的温暖沙子正在等待着您。",
+      "file": "c035.ogg",
+      "durationSec": 9.24
+    },
+    {
+      "index": 36,
+      "text": "坐下。将双手挖入被太阳晒热的谷物中。",
+      "file": "c036.ogg",
+      "durationSec": 7.896
+    },
+    {
+      "index": 37,
+      "text": "感受脚下凉爽潮湿的沙子带来的干燥温暖。",
+      "file": "c037.ogg",
+      "durationSec": 7.416
+    },
+    {
+      "index": 38,
+      "text": "观看光线在开阔的水面上破碎。",
+      "file": "c038.ogg",
+      "durationSec": 5.976
+    },
+    {
+      "index": 39,
+      "text": "呼吸清新的微风。",
+      "file": "c039.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 40,
+      "text": "呼出肋骨中仍然存在的紧绷感。",
+      "file": "c040.ogg",
+      "durationSec": 5.784
+    },
+    {
+      "index": 41,
+      "text": "海鸥一旦哭泣，就会成为寂静的一部分。",
+      "file": "c041.ogg",
+      "durationSec": 6.72
+    },
+    {
+      "index": 42,
+      "text": "躺回去。闭上你的眼睛。",
+      "file": "c042.ogg",
+      "durationSec": 5.424
+    },
+    {
+      "index": 43,
+      "text": "温暖掠过你的胸前。凉爽的地球阴影在你身边。",
+      "file": "c043.ogg",
+      "durationSec": 8.568
+    },
+    {
+      "index": 44,
+      "text": "潮水的节奏引导你的心走向轻松。",
+      "file": "c044.ogg",
+      "durationSec": 6.0
+    },
+    {
+      "index": 45,
+      "text": "你在最好的方面是渺小的——被某种巨大而善良的东西所支撑。",
+      "file": "c045.ogg",
+      "durationSec": 9.744
+    },
+    {
+      "index": 46,
+      "text": "闭上眼睛，享受阳光的温暖。",
+      "file": "c046.ogg",
+      "durationSec": 5.496
+    },
+    {
+      "index": 47,
+      "text": "当风吹时，保持喷雾在皮肤上的清凉之吻。",
+      "file": "c047.ogg",
+      "durationSec": 7.656
+    },
+    {
+      "index": 48,
+      "text": "和平不在别处。是这岸，这呼吸，这身体。",
+      "file": "c048.ogg",
+      "durationSec": 8.808
+    },
+    {
+      "index": 49,
+      "text": "把你的脚后跟深深地扎进温暖的沙子里。",
+      "file": "c049.ogg",
+      "durationSec": 6.888
+    },
+    {
+      "index": 50,
+      "text": "感受地球如何在稳定的支持下做出回应。",
+      "file": "c050.ogg",
+      "durationSec": 7.176
+    },
+    {
+      "index": 51,
+      "text": "将咸味的清新气息吸入肺底。",
+      "file": "c051.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 52,
+      "text": "呼出任何准备迎接冲击的东西。",
+      "file": "c052.ogg",
+      "durationSec": 5.736
+    },
+    {
+      "index": 53,
+      "text": "这里没有影响。只有海浪到来之后才到来。",
+      "file": "c053.ogg",
+      "durationSec": 7.56
+    },
+    {
+      "index": 54,
+      "text": "让五次呼吸遵循同样的病人节奏。",
+      "file": "c054.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 55,
+      "text": "然后在阳光照在皮肤上的余辉中休息。",
+      "file": "c055.ogg",
+      "durationSec": 6.432
+    },
+    {
+      "index": 56,
+      "text": "起身并沿着水线走一小段距离。",
+      "file": "c056.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 57,
+      "text": "左脚又冷又湿。右脚温暖干燥。然后切换。",
+      "file": "c057.ogg",
+      "durationSec": 9.384
+    },
+    {
+      "index": 58,
+      "text": "身体将对比视为舒适，而不是冲突。",
+      "file": "c058.ogg",
+      "durationSec": 6.696
+    },
+    {
+      "index": 59,
+      "text": "拿起一块被光加热的光滑石头。",
+      "file": "c059.ogg",
+      "durationSec": 5.448
+    },
+    {
+      "index": 60,
+      "text": "感受手掌中的热量。它的密度。很安静。",
+      "file": "c060.ogg",
+      "durationSec": 8.496
+    },
+    {
+      "index": 61,
+      "text": "带着感谢把它放下——不需要保留它。",
+      "file": "c061.ogg",
+      "durationSec": 5.904
+    },
+    {
+      "index": 62,
+      "text": "保守是向内的。",
+      "file": "c062.ogg",
+      "durationSec": 3.36
+    },
+    {
+      "index": 63,
+      "text": "越过海浪，看到更平静的颜色。",
+      "file": "c063.ogg",
+      "durationSec": 5.472
+    },
+    {
+      "index": 64,
+      "text": "呼吸，就好像你能尝到蓝色的味道。",
+      "file": "c064.ogg",
+      "durationSec": 6.072
+    },
+    {
+      "index": 65,
+      "text": "清新的微风。温暖的脸颊。软软的肚子。",
+      "file": "c065.ogg",
+      "durationSec": 8.664
+    },
+    {
+      "index": 66,
+      "text": "让下一次吸气成为练习中最深的一次。",
+      "file": "c066.ogg",
+      "durationSec": 6.624
+    },
+    {
+      "index": 67,
+      "text": "让呼气变空，不要用力。",
+      "file": "c067.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 68,
+      "text": "海湾、悬崖、回家的路——一切都在毫无压力地等待着。",
+      "file": "c068.ogg",
+      "durationSec": 9.288
+    },
+    {
+      "index": 69,
+      "text": "现在让故事休息一下，继续感受吧。",
+      "file": "c069.ogg",
+      "durationSec": 6.0
+    },
+    {
+      "index": 70,
+      "text": "呼吸这个地方的新鲜感。",
+      "file": "c070.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 71,
+      "text": "呼气，感受它的温暖和安静。",
+      "file": "c071.ogg",
+      "durationSec": 5.424
+    },
+    {
+      "index": 72,
+      "text": "吸气。",
+      "file": "c072.ogg",
+      "durationSec": 2.304
+    },
+    {
+      "index": 73,
+      "text": "呼气。",
+      "file": "c073.ogg",
+      "durationSec": 2.232
+    },
+    {
+      "index": 74,
+      "text": "再次。轻轻吸气。",
+      "file": "c074.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 75,
+      "text": "长长地呼气。",
+      "file": "c075.ogg",
+      "durationSec": 3.024
+    },
+    {
+      "index": 76,
+      "text": "感受这个想象世界的地面所支撑的身体。",
+      "file": "c076.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 77,
+      "text": "吸气。",
+      "file": "c077.ogg",
+      "durationSec": 2.304
+    },
+    {
+      "index": 78,
+      "text": "呼气。",
+      "file": "c078.ogg",
+      "durationSec": 2.232
+    },
+    {
+      "index": 79,
+      "text": "如果思绪游离，请回到皮肤上的温暖。",
+      "file": "c079.ogg",
+      "durationSec": 6.48
+    },
+    {
+      "index": 80,
+      "text": "或者冷却鼻子里的空气。",
+      "file": "c080.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 81,
+      "text": "吸气。",
+      "file": "c081.ogg",
+      "durationSec": 2.304
+    },
+    {
+      "index": 82,
+      "text": "呼气。",
+      "file": "c082.ogg",
+      "durationSec": 2.232
+    },
+    {
+      "index": 83,
+      "text": "吸气。",
+      "file": "c083.ogg",
+      "durationSec": 2.304
+    },
+    {
+      "index": 84,
+      "text": "呼气。",
+      "file": "c084.ogg",
+      "durationSec": 2.232
+    },
+    {
+      "index": 85,
+      "text": "留下来。软化。继续。",
+      "file": "c085.ogg",
+      "durationSec": 6.408
+    },
+    {
+      "index": 86,
+      "text": "吸气。",
+      "file": "c086.ogg",
+      "durationSec": 2.304
+    },
+    {
+      "index": 87,
+      "text": "呼气。",
+      "file": "c087.ogg",
+      "durationSec": 2.232
+    },
+    {
+      "index": 88,
+      "text": "又一个简单的循环。",
+      "file": "c088.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 89,
+      "text": "吸入。",
+      "file": "c089.ogg",
+      "durationSec": 2.184
+    },
+    {
+      "index": 90,
+      "text": "呼气。",
+      "file": "c090.ogg",
+      "durationSec": 2.232
+    },
+    {
+      "index": 91,
+      "text": "在这种感觉中再停留几个呼吸。",
+      "file": "c091.ogg",
+      "durationSec": 5.592
+    },
+    {
+      "index": 92,
+      "text": "温暖。柔软度。足够了。",
+      "file": "c092.ogg",
+      "durationSec": 6.768
+    },
+    {
+      "index": 93,
+      "text": "当你需要的时候你可以回到这个地方。",
+      "file": "c093.ogg",
+      "durationSec": 5.88
+    },
+    {
+      "index": 94,
+      "text": "它存在于你的注意力中，而不仅仅是想象中。",
+      "file": "c094.ogg",
+      "durationSec": 7.464
+    },
+    {
+      "index": 95,
+      "text": "开始加深呼吸。",
+      "file": "c095.ogg",
+      "durationSec": 3.456
+    },
+    {
+      "index": 96,
+      "text": "再次感受你周围的房间。",
+      "file": "c096.ogg",
+      "durationSec": 4.368
+    },
+    {
+      "index": 97,
+      "text": "动动手指。软化脚趾。",
+      "file": "c097.ogg",
+      "durationSec": 5.544
+    },
+    {
+      "index": 98,
+      "text": "准备好后，睁开眼睛。",
+      "file": "c098.ogg",
+      "durationSec": 4.44
+    },
+    {
+      "index": 99,
+      "text": "再轻松地吸一口气。",
+      "file": "c099.ogg",
+      "durationSec": 3.96
+    },
+    {
+      "index": 100,
+      "text": "将这种平静带入接下来发生的一切。",
+      "file": "c100.ogg",
+      "durationSec": 6.24
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 /**
- * Source-only MIDI/OMR convert for oldtime enrich review (no library/internet search).
+ * Source-only MIDI/OMR convert for oldtime / Documents review (no library search).
  * Prefer MIDI when present; otherwise OMR the PDF.
+ * Supports remote http(s) URLs and Documents review-root paths.
  */
 import { candidateId, chordCount } from './bookImportAbcLookup'
 import { fetchViaMediaProxy } from './mediaProxyClient'
+import { fetchReviewProjectsBlob } from './reviewProjectsClient'
 import { importMidiWithWizardDefaults } from './midiImportAuto'
 import { transcribeSheetImageFile } from './sheetImageTranscriptionClient'
 import { safeAutofixMidiAbc } from './midiImportFinalize'
@@ -53,6 +55,43 @@ export async function fetchRemoteBytes(url, accessToken, filenameHint) {
   return { bytes: bytes, name: name, contentType: contentType }
 }
 
+async function loadMidiBytes(tune, accessToken) {
+  const remote = String(tune && tune.midiRemotePath || '').trim()
+  if (remote) {
+    const blob = await fetchReviewProjectsBlob(remote, accessToken)
+    const buf = await blob.arrayBuffer()
+    return {
+      bytes: new Uint8Array(buf),
+      name: (tune.slug || 'tune') + '.mid',
+      contentType: 'audio/midi',
+      sourceLabel: remote,
+    }
+  }
+  const url = String(tune && tune.midiUrl || '').trim()
+  if (!url) throw new Error('No MIDI source for this tune')
+  const fetched = await fetchRemoteBytes(url, accessToken, (tune.slug || 'tune') + '.mid')
+  return Object.assign({}, fetched, { sourceLabel: url })
+}
+
+async function loadPdfFile(tune, accessToken) {
+  const remote = String(tune && tune.pdfRemotePath || '').trim()
+  if (remote) {
+    const blob = await fetchReviewProjectsBlob(remote, accessToken)
+    const name = (tune.slug || 'tune') + '.pdf'
+    return {
+      file: new File([blob], name, { type: 'application/pdf' }),
+      sourceLabel: remote,
+    }
+  }
+  const url = String(tune && tune.pdfUrl || '').trim()
+  if (!url) throw new Error('No PDF source for this tune')
+  const fetched = await fetchRemoteBytes(url, accessToken, (tune.slug || 'tune') + '.pdf')
+  return {
+    file: new File([fetched.bytes], fetched.name, { type: 'application/pdf' }),
+    sourceLabel: url,
+  }
+}
+
 function applyTuneTitle(abc, title) {
   let next = String(abc || '')
   const t = String(title || '').trim()
@@ -65,10 +104,16 @@ function applyTuneTitle(abc, title) {
   return next
 }
 
+export function tuneHasMidiSource(tune) {
+  return !!(tune && (tune.midiRemotePath || tune.midiUrl))
+}
+
+export function tuneHasPdfSource(tune) {
+  return !!(tune && (tune.pdfRemotePath || tune.pdfUrl))
+}
+
 export async function convertMidiForTune(tune, accessToken) {
-  const url = String(tune && tune.midiUrl || '').trim()
-  if (!url) throw new Error('No MIDI URL for this tune')
-  const fetched = await fetchRemoteBytes(url, accessToken, (tune.slug || 'tune') + '.mid')
+  const fetched = await loadMidiBytes(tune, accessToken)
   const imported = await importMidiWithWizardDefaults(
     fetched.bytes,
     fetched.name,
@@ -94,7 +139,7 @@ export async function convertMidiForTune(tune, accessToken) {
     abc: abc,
     score: 0.9,
     title: tune.title || '',
-    url: url,
+    url: fetched.sourceLabel || '',
     hasChords: chordCount(abc) >= 3,
   }
   return {
@@ -113,12 +158,9 @@ export async function convertMidiForTune(tune, accessToken) {
  */
 export async function omrPdfForTune(tune, accessToken, options) {
   const opts = options || {}
-  const url = String(tune && tune.pdfUrl || '').trim()
-  if (!url) throw new Error('No PDF URL for this tune')
-  const fetched = await fetchRemoteBytes(url, accessToken, (tune.slug || 'tune') + '.pdf')
-  const file = new File([fetched.bytes], fetched.name, { type: 'application/pdf' })
+  const loaded = await loadPdfFile(tune, accessToken)
   const result = await transcribeSheetImageFile({
-    file: file,
+    file: loaded.file,
     accessToken: accessToken,
     titleHints: tune.title ? [tune.title] : [],
   })
@@ -136,7 +178,7 @@ export async function omrPdfForTune(tune, accessToken, options) {
     abc: abc,
     score: 0.85,
     title: tune.title || '',
-    url: url,
+    url: loaded.sourceLabel || '',
     hasChords: chordCount(abc) >= 3,
   }
   const candidates = mergeCandidates(tune.candidates, [cand])
@@ -168,14 +210,14 @@ export async function omrPdfForTune(tune, accessToken, options) {
  */
 export async function convertSourceForTune(tune, accessToken) {
   const preferOmr = String(tune && tune.convertPrefer || '').toLowerCase() === 'omr'
-  if (!preferOmr && tune && tune.midiUrl) {
+  if (!preferOmr && tuneHasMidiSource(tune)) {
     return convertMidiForTune(tune, accessToken)
   }
-  if (tune && tune.pdfUrl) {
+  if (tuneHasPdfSource(tune)) {
     return omrPdfForTune(tune, accessToken, { forceSelect: true })
   }
-  if (tune && tune.midiUrl) {
+  if (tuneHasMidiSource(tune)) {
     return convertMidiForTune(tune, accessToken)
   }
-  throw new Error('No MIDI or PDF source URL for this tune')
+  throw new Error('No MIDI or PDF source for this tune')
 }

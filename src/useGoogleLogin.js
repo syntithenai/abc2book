@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { useState, useRef, useEffect, useCallback } from 'react'
-import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
+import { GOOGLE_IDENTITY_SCOPES, GOOGLE_LOGIN_SCOPES } from './googleIdentityScopes'
 import {
   AUTH_MODE_PROBE_WAIT_MS,
   LOGIN_AUTH_WAIT_MS,
@@ -43,6 +43,12 @@ import {
   setTryRefreshAccessTokenHandler,
   tryRefreshAccessToken as registryTryRefresh,
 } from './googleLoginRefreshRegistry'
+import {
+  clearSharedGoogleAuth,
+  readSharedGoogleAuth,
+  sharedAuthFromTokenResponse,
+  writeSharedGoogleAuth,
+} from './sharedGoogleAuth'
 
 var gsiInitialized = false
 var gsiRenderedButtonIds = {}
@@ -51,9 +57,20 @@ export { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 
 export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   const [user, setUser] = useState(function() {
-    return localStorage.getItem('google_login_user') ? readStoredLoginProfile() : null
+    if (localStorage.getItem('google_login_user')) return readStoredLoginProfile()
+    var shared = readSharedGoogleAuth()
+    return shared && shared.user ? shared.user : null
   })
-  const [accessToken, setAccessToken] = useState(null)
+  const [accessToken, setAccessToken] = useState(function() {
+    var shared = readSharedGoogleAuth()
+    if (!shared) return null
+    return {
+      access_token: shared.accessToken,
+      expires_at: shared.expiresAt,
+      expires_in: Math.max(1, Math.floor((shared.expiresAt - Date.now()) / 1000)),
+      scope: (shared.scopes || []).join(' '),
+    }
+  })
   const [authMode, setAuthMode] = useState('pending')
   const [authBase, setAuthBase] = useState('')
 
@@ -293,6 +310,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   }
 
   function logout() {
+    clearSharedGoogleAuth()
     var controller = activeControllerRef.current || ensureTokenController()
     return Promise.resolve(controller.logout())
   }
@@ -552,6 +570,25 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
 
   useEffect(function() {
     if (!accessToken) return
+    var profile = readStoredLoginProfile()
+    var shared = sharedAuthFromTokenResponse(
+      accessToken,
+      profile,
+      Array.isArray(scopes) && scopes.length ? scopes : GOOGLE_LOGIN_SCOPES,
+    )
+    if (shared) writeSharedGoogleAuth(shared)
+    if (shared && shared.user && shared.user.email && !localStorage.getItem('google_login_user')) {
+      try {
+        localStorage.setItem('google_login_user', shared.user.email || '1')
+        localStorage.setItem('google_login_profile', JSON.stringify({
+          email: shared.user.email,
+          name: shared.user.name || shared.user.email,
+          picture: shared.user.picture || '',
+          family_name: '',
+          given_name: '',
+        }))
+      } catch (e) {}
+    }
     loadCurrentUser(accessToken).then(function(loadedUser) {
       if (loadedUser && loadedUser.email) {
         setUser(loadedUser)
@@ -563,9 +600,17 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
             name: loadedUser.name || loadedUser.email,
             picture: loadedUser.picture || '',
           }))
+          var again = sharedAuthFromTokenResponse(
+            accessToken,
+            loadedUser,
+            Array.isArray(scopes) && scopes.length ? scopes : GOOGLE_LOGIN_SCOPES,
+          )
+          if (again) writeSharedGoogleAuth(again)
         } catch (e) {}
       }
     })
+  // scopes from hook props; avoid re-running on every profile setUser
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [accessToken])
 
   return {
