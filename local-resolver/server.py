@@ -6579,6 +6579,39 @@ async def get_review_projects_file(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.post("/admin/github/publish-book")
+async def admin_github_publish_book(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    """Admin-only: commit a book ABC into scrape/ on the configured GitHub repo."""
+    origin = request.headers.get("origin")
+    from github_publish import GitHubPublishError, publish_scrape_file
+
+    try:
+        await require_review_projects_access(authorization)
+        payload = await request.json()
+        if not isinstance(payload, dict):
+            raise HTTPException(status_code=400, detail="Expected JSON object")
+        filename = str(payload.get("filename") or "").strip()
+        book = str(payload.get("book") or "").strip()
+        if not filename and book:
+            filename = book + ".abc"
+        result = publish_scrape_file(
+            filename=filename,
+            content=str(payload.get("abc") or ""),
+            message=str(payload.get("message") or ""),
+            book=book or None,
+        )
+        return JSONResponse(result, headers=cors_headers(origin))
+    except GitHubPublishError as exc:
+        return json_error(exc.status_code, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        return json_error(500, str(exc), origin)
+
+
 @app.post("/midi2xml")
 async def midi2xml(
     request: Request,

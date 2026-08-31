@@ -282,6 +282,39 @@ var useIndexes = () => {
         persistBookIndex(newBookIndex, writeGeneration)
     }
 
+    function removeTagFromIndex(tag) {
+        if (reindexInProgressRef.current) return
+        const writeGeneration = beginIndexWrite()
+        const newTagIndex = Object.assign({}, lastTagIndexRef.current || tagIndex)
+        delete newTagIndex[tag]
+        persistTagIndex(newTagIndex, writeGeneration)
+    }
+
+    /**
+     * Drop tag index keys that have zero tune ids (and optionally keys with
+     * empty arrays). Does not modify tune.tags.
+     * @returns {{ removed: string[], kept: number }}
+     */
+    function pruneEmptyTagsFromIndex() {
+        if (reindexInProgressRef.current) {
+            return { removed: [], kept: 0 }
+        }
+        const writeGeneration = beginIndexWrite()
+        const prev = lastTagIndexRef.current || tagIndex || {}
+        const next = {}
+        const removed = []
+        Object.keys(prev).forEach(function(tag) {
+            const ids = prev[tag]
+            if (Array.isArray(ids) && ids.length > 0) {
+                next[tag] = ids
+            } else {
+                removed.push(tag)
+            }
+        })
+        persistTagIndex(next, writeGeneration)
+        return { removed: removed, kept: Object.keys(next).length }
+    }
+
     /** Apply many tunes in memory, then one persist per index slice. */
     function indexTunes(tunes) {
         if (reindexInProgressRef.current) return
@@ -464,6 +497,8 @@ var useIndexes = () => {
       bookIndex,
       addBookToIndex,
       removeBookFromIndex,
+      removeTagFromIndex,
+      pruneEmptyTagsFromIndex,
       removeTune,
       addTagToIndex,
       resetTagIndex,

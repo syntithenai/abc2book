@@ -26,7 +26,7 @@ function GroupBySelectorModal(props) {
   const handleShow = (e) => {
     setShow(true);
   }
-  const effectiveGroupBy = resolveEffectiveGroupBy(props.value, props.currentTuneBook)
+  const effectiveGroupBy = resolveEffectiveGroupBy(props.value, props.currentTuneBook, props.tagFilter)
   return (
     <>
       <Button className="tune-search-layout-btn" style={{color:'black', fontWeight:'bold'}} onClick={handleShow}>

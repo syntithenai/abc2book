@@ -65,12 +65,12 @@ function ImportCollectionModal(props) {
     setCurrentTuneBook(collection)
     if (tunebook.curatedTuneBooks[collection]) {
       const meta = tunebook.curatedTuneBooks[collection]
-      if (meta.link) {
-        const importPath = buildCuratedImportPath(meta)
-        if (importPath) navigate(importPath)
+      const importPath = buildCuratedImportPath(meta, collection)
+      if (importPath) {
+        navigate(importPath)
       } else if (meta.googleDocumentId) {
         navigate("/importdoc/"+meta.googleDocumentId)
-      } 
+      }
     }
     
     //var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)

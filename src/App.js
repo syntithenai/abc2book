@@ -33,6 +33,7 @@ import ScratchpadPage from './pages/ScratchpadPage'
 import ScratchpadItemPage from './pages/ScratchpadItemPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
+import ImportCuratedPage from './pages/ImportCuratedPage'
 import MidiImportPage from './pages/MidiImportPage'
 import MidiImportNavigateRegistrar from './components/MidiImportNavigateRegistrar'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
@@ -1776,6 +1777,17 @@ function App(props) {
                       element={<AudioAnalysisSharedReportPage token={token} login={login} logout={logout} />}
                     />
                     
+                    <Route  path={`importcurated`} >
+                      <Route path={`:title`} element={<ImportCuratedPage tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/play`} element={<ImportCuratedPage autoplay={true} tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/book/:bookName`} element={<ImportCuratedPage tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/book/:bookName/play`} element={<ImportCuratedPage autoplay={true} tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/book/:bookName/tag/:tagName`} element={<ImportCuratedPage tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/book/:bookName/tag/:tagName/play`} element={<ImportCuratedPage autoplay={true} tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/tag/:tagName`} element={<ImportCuratedPage tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                      <Route path={`:title/tag/:tagName/play`} element={<ImportCuratedPage autoplay={true} tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
+                    </Route>
+
                     <Route  path={`importlink`} >
                       <Route  path={`:link`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes} setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter} setFilter={setFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                        <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter} setFilter={setFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />

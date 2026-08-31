@@ -334,6 +334,13 @@ describe('tuneListFilter', function() {
     expect(resolveEffectiveGroupBy('', '')).toBe('')
   })
 
+  test('resolveEffectiveGroupBy applies page grouping for a single tag filter', function() {
+    expect(resolveEffectiveGroupBy('', '', ['kameruka bush dance'])).toBe(GROUP_BY_PAGE)
+    expect(resolveEffectiveGroupBy('', '', ['a', 'b'])).toBe('')
+    expect(resolveEffectiveGroupBy(GROUP_BY_NONE, '', ['kameruka bush dance'])).toBe('')
+    expect(resolveEffectiveGroupBy('', 'celtic', ['kameruka bush dance'])).toBe(GROUP_BY_PAGE)
+  })
+
   test('runTuneListFilterSync auto-sorts by book page when a book filter is active', function() {
     const tunes = {
       a: makeTune('a', 'Alpha', {

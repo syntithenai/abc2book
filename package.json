@@ -81,6 +81,7 @@
     "package:youtube-helper": "node scripts/packageYoutubeHelperExtension.js",
     "build": "node scripts/copy-pdf-worker.js && npm run package:youtube-helper && craco build && bash scripts/embed-yogapp.sh && rm -rf ./static/ && cp -r ./build/* ./ && cp ./manifest.template.json ./manifest.json && node hackSw.js ",
     "embed:yogapp": "bash scripts/embed-yogapp.sh",
+    "publish:everything": "bash scripts/publish-everything.sh",
     "build:web": "node scripts/copy-pdf-worker.js && npm run package:youtube-helper && craco build",
     "build:android": "npm run build:web && npx cap sync android",
     "android:apk": "bash scripts/build-android-apk.sh",

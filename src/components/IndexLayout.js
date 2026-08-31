@@ -83,8 +83,8 @@ function IndexLayout(props) {
     var tagCollation = props.tagCollation
     var setTagCollation = props.setTagCollation
     const effectiveGroupBy = useMemo(function() {
-      return resolveEffectiveGroupBy(props.groupBy, props.currentTuneBook)
-    }, [props.groupBy, props.currentTuneBook])
+      return resolveEffectiveGroupBy(props.groupBy, props.currentTuneBook, props.tagFilter)
+    }, [props.groupBy, props.currentTuneBook, props.tagFilter])
     var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false)
     var [listPageMeta, setListPageMeta] = useState(null)
     var [mediaSearchResults, setMediaSearchResults] = useState([])

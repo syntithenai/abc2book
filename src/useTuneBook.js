@@ -18,6 +18,7 @@ import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
 import { filterTunes, GROUP_BY_TUNE_STATUS, GROUP_BY_TUNE_STATUS_DETAILED, GROUP_BY_PAGE, resolveEffectiveGroupBy } from './tuneListFilter'
 import { sortTunesByBookPage } from './tuneBookPages'
+import { resolvePageKey } from './bookTaxonomyMigrate.js'
 import { resolveCandidateTuneIds } from './tuneCandidateFilter'
 import { unionIndexKeysWithTuneField } from './tuneIndexIntegrity'
 import { PLAYLIST_MAX_ITEMS } from './tuneScaleConstants'
@@ -461,9 +462,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
       starredFilter,
       resolved.albumFilter
     )
-    var resolvedGroupBy = resolveEffectiveGroupBy(resolved.groupBy, resolved.currentTuneBook)
+    var resolvedGroupBy = resolveEffectiveGroupBy(
+      resolved.groupBy,
+      resolved.currentTuneBook,
+      resolved.tagFilter
+    )
     if (resolvedGroupBy === GROUP_BY_PAGE) {
-      useTunes = sortTunesByBookPage(useTunes, resolved.currentTuneBook)
+      useTunes = sortTunesByBookPage(
+        useTunes,
+        resolvePageKey(resolved.currentTuneBook, resolved.tagFilter) || resolved.currentTuneBook
+      )
     } else {
       useTunes.sort(function(a, b) {
         return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
@@ -487,7 +495,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     // Skip stale list cache when live filters were cleared but a snapshot remains —
     // that cache is the empty/default list, not the last search.
     if (!usingSnapshot) {
-      var effectiveGroupBy = resolveEffectiveGroupBy(groupBy, live.currentTuneBook)
+      var effectiveGroupBy = resolveEffectiveGroupBy(groupBy, live.currentTuneBook, live.tagFilter)
       var fromListState = buildOrderedSearchListGroups(filtered, grouped, effectiveGroupBy)
       if (fromListState && fromListState.length > 0) return fromListState
     }
@@ -513,9 +521,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, tunesHydra
     var resolved = resolveSearchFilterState(live)
     var usingSnapshot = filterStateHasAnyFilters(resolved) && !filterStateHasAnyFilters(live)
     if (usingSnapshot) {
-      return resolveEffectiveGroupBy(resolved.groupBy, resolved.currentTuneBook)
+      return resolveEffectiveGroupBy(resolved.groupBy, resolved.currentTuneBook, resolved.tagFilter)
     }
-    return resolveEffectiveGroupBy(groupBy, live.currentTuneBook)
+    return resolveEffectiveGroupBy(groupBy, live.currentTuneBook, live.tagFilter)
   }
 
   /**
@@ -2343,7 +2351,10 @@ The main difference between the two functions is the additional condition in app
                 if (groupBy === 'tempoRange') {
                     key = tempoRangeLabel(parseTempoBpm(item.tempo))
                 } else if (groupBy === 'page') {
-                    var pageNum = getTunePageForBook(item, currentTuneBook)
+                    var pageNum = getTunePageForBook(
+                      item,
+                      resolvePageKey(currentTuneBook, tagFilter) || currentTuneBook
+                    )
                     key = pageNum > 0 ? pageNum : ''
                 } else if (Array.isArray(item[groupBy])) {
                     key = item[groupBy].sort().filter(function(a) { return (currentTuneBook && a != currentTuneBook)  }).join(", ")

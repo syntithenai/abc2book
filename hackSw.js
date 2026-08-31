@@ -1,9 +1,7 @@
 var fs = require('fs')
 var sw = fs.readFileSync(__dirname + '/sw.js', 'utf8')
-//console.log(typeof sw, sw)
-//requiring path and fs modules
 const path = require('path');
-//joining path of directory 
+
 var notes = [
 'A0.mp3',
 'A1.mp3',
@@ -101,6 +99,7 @@ var mainFiles = [
 'apple-touch-icon.png',
 'tunebook-icon.svg',
 'tunebook-icon-header.svg',
+'tunebook-icon-launcher.svg',
 'manifest.json',
 'home-appicon.png',
 'home-small.png',
@@ -114,41 +113,80 @@ var mainFiles = [
 'textsearch_index.json',
 'close.png',
 'arrow-up.png',
+'spinner.svg',
+'spinner.gif',
+'beer.png',
+'playlist-follow-icon.png',
+'opensource.svg',
+'notation-key-signature.png',
+'notation-time-signature.png',
 // Helper libraries loaded directly by index.html. They are pulled in with
 // async/defer so a fresh offline install would otherwise miss them, breaking
 // the tuner/pitch detection (aubio), MP3 export (lame) and QR codes (qrcode).
 'aubio.js',
 'lame.min.js',
 'qrcode.js',
+// Workers / worklets referenced by absolute public URLs (not webpack-bundled).
+'pdf.worker.min.js',
+'mp3encodingworker.js',
+'practiceAubioPitchWorker.js',
+'practice-capture-processor.js',
 ]
 
+// Small static asset trees needed for core UI / playalong offline.
+var assetDirs = [
+  'icons',
+  'drums',
+  'helpimages',
+  'book_images',
+  'feed_images',
+]
 
+function shouldPrecacheStaticFile(file) {
+  // Source maps and license sidecars bloat the install (~50MB+) and are unused offline.
+  if (file.endsWith('.map')) return false
+  if (file.endsWith('.LICENSE.txt')) return false
+  return true
+}
+
+function listFilesRecursive(absDir, urlPrefix, out) {
+  var entries
+  try {
+    entries = fs.readdirSync(absDir, { withFileTypes: true })
+  } catch (e) {
+    return
+  }
+  entries.forEach(function (entry) {
+    var abs = path.join(absDir, entry.name)
+    var rel = urlPrefix + '/' + entry.name
+    if (entry.isDirectory()) {
+      listFilesRecursive(abs, rel, out)
+    } else if (entry.isFile()) {
+      out.push(rel)
+    }
+  })
+}
 
 var cache = []
-    
+
 function getCacheFiles(callback) {
-    //console.log('load dyn',cache)
     fs.readdir(path.join(__dirname, 'static','js'), function (err, files) {
         if (err) {
             return console.log('Unable to scan directory: ' + err);
-        } 
-        //listing all files using forEach
+        }
         files.forEach(function (file) {
-            // Do whatever you want to do with the file
-            //console.log(file); 
-            cache.push('static/js/'+file)
+            if (shouldPrecacheStaticFile(file)) {
+              cache.push('static/js/'+file)
+            }
         });
-        //console.log('load dyn',cache)
         fs.readdir(path.join(__dirname, 'static','css'), function (err, files) {
             if (err) {
                 return console.log('Unable to scan directory: ' + err);
-            } 
-            //console.log('load dyndd',files)
-            //listing all files using forEach
+            }
             files.forEach(function (file) {
-                // Do whatever you want to do with the file
-                //console.log('F',file); 
-                cache.push('static/css/'+file)
+                if (shouldPrecacheStaticFile(file)) {
+                  cache.push('static/css/'+file)
+                }
             });
             notes.forEach(function(file) {cache.push('midi-js-soundfonts/abcjs/acoustic_grand_piano-mp3/'+file)})
             var selectionInstruments = [
@@ -172,7 +210,9 @@ function getCacheFiles(callback) {
                 cache.push('midi-js-soundfonts/selection/MusyngKite/' + instrument + '-mp3.js')
             })
             mainFiles.forEach(function(file) {cache.push(file)})
-            //console.log('load dyn',cache)
+            assetDirs.forEach(function (dir) {
+              listFilesRecursive(path.join(__dirname, dir), dir, cache)
+            })
             callback(cache)
         });
 
@@ -189,14 +229,7 @@ if (parts.length === 2) {
         + filePaths.map(function(file) { return "'" + file + "'" }).join(", ")
         + "]"
 
-        // plus dynamic from static folder
-        
-        
         fs.writeFileSync(__dirname + '/sw.js', parts.join(marker))
-        console.log('written latest files to service worker',filePaths, parts[0])
+        console.log('written latest files to service worker', filePaths.length, 'entries')
     })
 }
-
-
-
-

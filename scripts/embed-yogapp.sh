@@ -23,8 +23,16 @@ mkdir -p "$DEST_BUILD" "$DEST_ROOT"
 cp -a "$YOGAPP/dist/." "$DEST_BUILD/"
 cp -a "$YOGAPP/dist/." "$DEST_ROOT/"
 
-# Multi-voice chunk packs are ~170MB / thousands of files and stall GitHub Pages.
-# Keep monologue .ogg meditations; Android/Capacitor builds still ship full voices.
-rm -rf "$DEST_BUILD/meditations/voices" "$DEST_ROOT/meditations/voices"
+# build:web already keeps only en-gb-ryan; strip any leftover non-English voices.
+KEEP=en-gb-ryan
+for dest in "$DEST_BUILD" "$DEST_ROOT"; do
+  if [[ -d "$dest/meditations/voices" ]]; then
+    find "$dest/meditations/voices" -mindepth 1 -maxdepth 1 -type d ! -name "$KEEP" -exec rm -rf {} +
+  fi
+  if [[ -d "$dest/cues" ]]; then
+    find "$dest/cues" -mindepth 1 -maxdepth 1 -type d ! -name "$KEEP" -exec rm -rf {} +
+  fi
+  rm -f "$dest/meditations"/*.ogg 2>/dev/null || true
+done
 
-echo "embed-yogapp: wrote $DEST_BUILD and $DEST_ROOT (voices omitted for Pages size)"
+echo "embed-yogapp: wrote $DEST_BUILD and $DEST_ROOT (English $KEEP voice + cues embedded)"

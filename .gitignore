@@ -1,6 +1,7 @@
 scripts/brooke-marshal-output/
 
 .eurosession-tmp/
+scrape/.taxonomy-backup-*/
 
 abcresources/empty/
 abcresources/_incoming/

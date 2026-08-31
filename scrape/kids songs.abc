@@ -1,10 +1,53 @@
+%abc-2.1
+% abcbook-book kids songs
+
+X: 101
+T: Penny on the Water
+C:Trad.
+M:4/4
+L:1/8
+R: Hornpipe
+Q: 1/4=150
+B: kids songs
+B: songs
+% abcbook-tags © free,traditional songs
+K:G
+V:1 
+(3DEF|"G"G2G2 G2G2|"D7"FGAF "G"G3A|B2B2 "Em"B2B2|"D7"ABcA "G"B4|
+"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"GABc d4|
+"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"G2G2 G2|]
+W: One, two, three, four, five, six, seven,
+W: All good children go to heaven.
+W: Penny on the water, tuppence on the sea,
+W: Thruppence on the roundabout, and round go we.
+W: Penny on the water, tuppence on the sea,
+W: Thruppence on the roundabout, and round go we.
+% abcbook-tune_id 63e4c84a414596f3a40de41d
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=0Lstj1h_FIU
+% abcbook-link-title-0 Penny on the Water
+% abcbook-link-start-at-0 5
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1677419050696
+% abcbook-src-url https://tunebook.net/scrape/kids%20songs.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
 
 X: 0
 T: Happy Birthday to You
-B: kids songs
 M:3/4
 L:1/8
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 A>A | B2 A2 d2 | c4 A>A | B2 A2 e2 | d4 A>A | a2 f2 d2 | (c2 B2) g>g |f2 d2 e2 | d6 |
@@ -12,7 +55,6 @@ A>A | B2 A2 d2 | c4 A>A | B2 A2 e2 | d4 A>A | a2 f2 d2 | (c2 B2) g>g |f2 d2 e2 |
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -20,13 +62,13 @@ A>A | B2 A2 d2 | c4 A>A | B2 A2 e2 | d4 A>A | a2 f2 d2 | (c2 B2) g>g |f2 d2 e2 |
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 1
 T: Five Little Ducks
-B: kids songs
 M:4/4
 L:1/4
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:C
 V:1 
 "C"GC/C/cB | "F"A/A/A"C"G2| GC/C/FE|"G"EDD2|
@@ -59,7 +101,6 @@ W: And then no more little ducks came back
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -67,13 +108,13 @@ W: And then no more little ducks came back
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 2
 T: She'll Be Coming Around The Mountain
-B: kids songs
 M:4/4
 L:1/4
 Q: 1/4=130
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 AB |"D"dd dd|"D"BA FA|"D"d4-|"D"d2 de|"D"ff ff|"D"aa fd|"E7"e4-|
@@ -101,7 +142,6 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -109,14 +149,14 @@ W:
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 3
 T: This Old Man
-B: kids songs
 M:2/4
 L:1/16
 R: polka
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:A
 V:1 
  "A"e2c2 e4   | e2c2 e4 |  "D"f2e2 d2c2 |  "E7"B2c2    d2cd  |
@@ -187,7 +227,6 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -206,9 +245,10 @@ W:
 
 X: 4
 T: I'm a Little Teapot
-B: kids songs
 M:4/4
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:C
 V:1 
 "C"CD   EF    G2c2 | "F"A2 c2   "C"G4 | "F"F2  FG "C"E2E2 | "G"D2 DE "C"C4 |
@@ -225,7 +265,6 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -233,12 +272,12 @@ W:
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 5
 T: Incy Wincy Spider
-B: kids songs
 M:4/4
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:C
 V:1 
 "C"cc cd  e2ee |"G"dc   de    "C"c4| "C"e2 ef  g2 g2 |   "G" fe    fg  "C"e2 e2 | 
@@ -255,7 +294,6 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 0
 % abcbook-tuning 
@@ -263,13 +301,13 @@ W:
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 6
 T: Oranges and Lemons
-B: kids songs
 M:4/4
 L:1/8
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 A2 | "A"d2e2 afed | "G"e3d "A7"B3A | "D"d3f afed | "A7"e3f "D"d2 :: \
@@ -280,7 +318,6 @@ ga | "G"b6 fg | "D"a6 fe | "D"d3f afed | "G"e3d "A7"B3A | \
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -299,11 +336,12 @@ ga | "G"b6 fg | "D"a6 fe | "D"d3f afed | "G"e3d "A7"B3A | \
 
 X: 7
 T: Yanky Doodle
-B: kids songs
 M:4/4
 L:1/8
 R: Air
 Q: 1/4=140
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:E
 V:1 
 eefg egfB|eefge2dB|eefg agfe|dBcde2e2|
@@ -413,7 +451,6 @@ W: Chorus
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 0
 % abcbook-tuning 
@@ -432,10 +469,11 @@ W: Chorus
 
 X: 8
 T: Twinkle Twinkle Little Star
-B: kids songs
 M:4/4
 L:1/4
 Q: 1/4=100
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:C
 V:1 
 "C"CCGG| "F"AA"C"G2 | "F"FF "C"EE | "G"DD "C"C2 | 
@@ -479,7 +517,6 @@ W: How I wonder what you are!
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -487,17 +524,14 @@ W: How I wonder what you are!
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 9
 T: old king cole
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b56423606beb31cb421d
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -505,17 +539,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 10
 T: london bridge is falling down
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564ed1e55cf312be466
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -523,17 +557,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 11
 T: mary had a little lamb
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564f66a9cd13064a9a6
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -541,17 +575,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 12
 T: pop goes the weasel
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b56499c619a57185bd14
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -559,17 +593,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 13
 T: farmer in the dell
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564b8a4a9745affb447
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -577,17 +611,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 14
 T: how much is that doggy in the window
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564eafac6d2903685ef
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -595,17 +629,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 15
 T: the ants go marching
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b5640d811aa2a5d3f4dd
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -613,17 +647,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 16
 T: head and shoulders knees and toes
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b5642c4d12498192fe5f
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -631,17 +665,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 17
 T: the muffin man on drury lane
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564464bb127bcbd426d
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -649,17 +683,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 18
 T: baa baa black sheep
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b5643027a77ea88cafc1
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -667,17 +701,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 19
 T: if you're happy and you know it
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564a65dec4c60a80e27
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -685,17 +719,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 20
 T: row row row your boat
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b5648b9b9094c292655f
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -703,17 +737,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 21
 T: bingo was his name o
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b564ba16270de5484c5f
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -721,17 +755,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 22
 T: old mcdonald had a farm
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b565e2ea5c810eb30138
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -739,17 +773,17 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 23
 T: the wheels on the bus
-B: kids songs
 Q: 1/4=100
 V:1 
 % abcbook-tune_id 62a8b565a6f33f8c2148a9ab
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -757,15 +791,18 @@ V:1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: kids songs
+% abcbook-tags % abcbook-tablature
 
 X: 24
 T: Oats and Beans and Barley Grow
 C:Trad.
-B: kids songs
 M:6/8
 L:1/8
 R: Jig
 Q: 3/8=140
+B: kids songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 "D"d2 d "G"B2 G|"C"c2 "D"e d3|"D"d2 d "G"B2 G|"C"c2 e "D"d2 d|
@@ -814,45 +851,9 @@ W:
 % abcbook-link-title-0 Oats, Peas, Beans, and Barley Grow | Learning Songs | Little Fox | Animated Songs for Kids
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
 % abcbook-lastupdated 1676949929991
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 25
-T: Penny on the Water
-C:Trad.
-B: kids songs
-B: traditional songs
-M:4/4
-L:1/8
-R: Hornpipe
-Q: 1/4=150
-K:G
-V:1 
-(3DEF|"G"G2G2 G2G2|"D7"FGAF "G"G3A|B2B2 "Em"B2B2|"D7"ABcA "G"B4|
-"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"GABc d4|
-"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"G2G2 G2|]
-W: One, two, three, four, five, six, seven,
-W: All good children go to heaven.
-W: Penny on the water, tuppence on the sea,
-W: Thruppence on the roundabout, and round go we.
-W: Penny on the water, tuppence on the sea,
-W: Thruppence on the roundabout, and round go we.
-% abcbook-tune_id 63e4c84a414596f3a40de41d
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=0Lstj1h_FIU
-% abcbook-link-title-0 Penny on the Water
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free,traditional songs
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676950111835
 % abcbook-soundfonts 
 % abcbook-repeats 1

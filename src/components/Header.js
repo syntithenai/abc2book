@@ -480,35 +480,50 @@ export default function Header(props) {
                     <Dropdown.Item as="div">
                         <Link to="/metronome" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                {props.tunebook.icons.metronome} Rhythm
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.metronome}
+                                    <span>Rhythm</span>
+                                </span>
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
                         <Link to="/tuner" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                {props.tunebook.icons.tuner} Tuner
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.tuner}
+                                    <span>Tuner</span>
+                                </span>
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
                         <Link to="/chords" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                {props.tunebook.icons.guitar} Chords
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.guitar}
+                                    <span>Chords</span>
+                                </span>
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
                         <Link to="/piano" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                {props.tunebook.icons.piano} Keyboard
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.piano}
+                                    <span>Keyboard</span>
+                                </span>
                             </Button>
                         </Link>
                     </Dropdown.Item>
                     <Dropdown.Item as="div">
-                        <a href="/yoga/" onClick={function() { setNavMenuOpen(false) }}>
+                        <a href="https://tunebook.net/yoga/" onClick={function() { setNavMenuOpen(false) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                Yoga
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.yoga}
+                                    <span>Yoga</span>
+                                </span>
                             </Button>
                         </a>
                     </Dropdown.Item>
@@ -516,7 +531,10 @@ export default function Header(props) {
                         <Dropdown.Item as="div">
                             <Link to="/lyrics" onClick={function() { setNavMenuOpen(false) }}>
                                 <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                    {props.tunebook.icons.words} Lyrics
+                                    <span className="header-dropdown-btn-label">
+                                        {props.tunebook.icons.words}
+                                        <span>Lyrics</span>
+                                    </span>
                                 </Button>
                             </Link>
                         </Dropdown.Item>

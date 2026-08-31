@@ -1,0 +1,136 @@
+{
+  "id": "calm-arrive",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 101,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take a moment to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 4.08
+    },
+    {
+      "index": 2,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c002.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 3,
+      "text": "Let your hands rest.",
+      "file": "c003.ogg",
+      "durationSec": 3.768
+    },
+    {
+      "index": 4,
+      "text": "Allow your eyes to close, or soften your gaze.",
+      "file": "c004.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 5,
+      "text": "Notice that you are here.",
+      "file": "c005.ogg",
+      "durationSec": 3.984
+    },
+    {
+      "index": 6,
+      "text": "Nothing to fix right now.",
+      "file": "c006.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 7,
+      "text": "Nothing to complete.",
+      "file": "c007.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 8,
+      "text": "Take a slow breath in through the nose.",
+      "file": "c008.ogg",
+      "durationSec": 5.232
+    },
+    {
+      "index": 9,
+      "text": "And a longer breath out.",
+      "file": "c009.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 10,
+      "text": "Again. Soft inhale.",
+      "file": "c010.ogg",
+      "durationSec": 5.88
+    },
+    {
+      "index": 11,
+      "text": "Gentle exhale.",
+      "file": "c011.ogg",
+      "durationSec": 3.456
+    },
+    {
+      "index": 12,
+      "text": "Feel the weight of your body supported.",
+      "file": "c012.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 13,
+      "text": "The floor, the chair, the earth holding you.",
+      "file": "c013.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 14,
+      "text": "If thoughts wander, that is fine.",
+      "file": "c014.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 15,
+      "text": "Simply notice, and return to this breath.",
+      "file": "c015.ogg",
+      "durationSec": 6.144
+    },
+    {
+      "index": 16,
+      "text": "Inhale. Arrive.",
+      "file": "c016.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 17,
+      "text": "Exhale. Settle.",
+      "file": "c017.ogg",
+      "durationSec": 5.352
+    },
+    {
+      "index": 18,
+      "text": "One more easy breath.",
+      "file": "c018.ogg",
+      "durationSec": 4.08
+    },
+    {
+      "index": 19,
+      "text": "When you are ready, open your eyes.",
+      "file": "c019.ogg",
+      "durationSec": 5.52
+    },
+    {
+      "index": 20,
+      "text": "Carry this quiet with you.",
+      "file": "c020.ogg",
+      "durationSec": 4.08
+    }
+  ]
+}

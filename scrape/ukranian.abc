@@ -1,0 +1,1295 @@
+%abc-2.1
+% abcbook-book ukranian
+
+X: 306
+T: Andrews Viazanka
+C:Andrew Kordas
+M:4/4
+L:1/4
+Q: 1/4=100
+B: ukranian
+% abcbook-tags andrew kordas,steve ryan,© free,world music,bega session
+K:Am
+V:1 
+"Am"AedB|cBAG|Ac"G"dg|"Am"e/>e/e/f/e2|
+"Dm"fedf|"Am"edce|"F"g/f/e/d/"G"cB|"Am"A4||
+"G"G2g>f|"C"edcB|"G"Gg g/f/e/d/|"C"e/>e/e/f/e2|
+"Dm"fedf|"Am"edce|"G"g/f/e/d/cB|"Am"A4||
+W: 
+% abcbook-tune_id 63914357d618ce78e0cfcc6e
+% abcbook-tune_composer_id 
+% abcbook-boost 15
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1702420276074
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 5
+
+X: 308
+T: Ride On Cossacks
+M:4/4
+Q: 1/4=100
+B: ukranian
+% abcbook-tags andrew kordas,steve ryan,© free,world music,bega session
+K:Am
+V:1 
+"Am"A2AAA2A2|e2eed2c2|"G"g2ggg2f2|"C"e2fed2c2|
+"Am"A2AAA2A2|e2eed2c2|"Em"e2efedcb,|"Am"A2AAA4|
+"F"f2ff f2d2|"Gm"g2ggg2_b2|"F"a2aaa2_b2|"Am"a3_b agfe|
+"Dm"f3e d2f2|"C"e3dc2e2|"Dm"d2f2e2d2|"Am"A8|
+"F"a2aa a2f2|"Gm"g2ggg2_b2|"F"a2aaa2_b2|"Am"a3_b agfe|
+"Dm"f3e d2f2|"C"e3dc2e2|"Dm"d2f2e2d2|"Am"A8|
+W: 
+% abcbook-tune_id 6391436b01cc65ceb180d695
+% abcbook-tune_composer_id 
+% abcbook-boost 15
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695869137569
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 3
+
+X: 311
+T: Andrews Hopak
+C:Andrew Kordas
+M:4/4
+L:1/8
+Q: 1/4=100
+B: ukranian
+% abcbook-tags andrew kordas,steve ryan,© free,world music,bega session
+K:G
+V:1 
+"D"DDEF "G"G2 G2|"D"DDEF "G"G2 B2|
+"Am"cccA "G"BBBG|"D"AAGF "G"GAB2|
+"Am"cccA "G"BBBG|"D"AAGF "G"G2 G2||
+W: 
+% abcbook-tune_id 639147fdf06c595075aa7f6d
+% abcbook-tune_composer_id 
+% abcbook-boost 15
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1702420262914
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 5
+
+X: 527
+T: Shche Ne Vmerla Ukrayiny (Ukrainian National Anthem )
+C:Mykhaylo Verbytsky (1815-1870)
+M:4/4
+L:1/8
+R: March
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G
+V:1 
+"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E3F G2A2|
+"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E4 E2z2||
+"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2G2"D"A2A2|"G"B4 B2z2|
+"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2B2"B"F2B2|"Em"E3F "G"GABc||
+"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2G2 "D"A2A2|"G"B3A "Em"GABc|
+"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2B2 "B7"F2B2|"Em"e4 e4|]
+W: The glory and freedom of Ukraine has not yet perished
+W: Luck will still smile on us brother Ukrainians.
+W: 
+W: Our enemies will die, as the dew does in the sunshine,
+W: and we, too, brothers, we'll live happily in our land.
+W: 
+W: We'll not spare either our souls or bodies to get freedom
+W: and we'll prove that we brothers are of Kozak kin.
+W: 
+W: 
+W: 
+% abcbook-tune_id 6502d4bbf81fa95ee08e33f5
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684801947
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 528
+T: Ukrainskyj Tanietz  (Ukrainian Dance)
+M:2/4
+L:1/16
+Q: 1/4=132
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Gm
+V:1 
+"Gm"Hg8 \
+"A"\
+|:"Gm"b2b2 "D7"a3[a^f] | "Gm"g2g2 "D7"^f2fd | "Gm"b2b2 "D7"a3[a^f] | "Gm"g2g2 "D7"^f2fd \
+| "Gm"g2-g2 fedc | "Gm"d2B2 A2G2 | "D7"(3^FGAd2 D2=EF | "Gm"G8 |
+| "Gm"b>ab>g "D7"a2a^f | "Gm"g2g2 "D7"^f2fd |"Gm"b>ab>g "D7"a2a^f | "Gm"g2g2 "D7"^f2fd \
+| "Gm"g2g2 fedc | "Gm"d2B2 A2G2 | "D7"^F/G/Ad2 D2=EF | "Gm"G8 |]
+"B"\
+|:"Bb"f4 "F"edec | "Bb"d2d2  "F"c2c2 | "Bb"d2de "F"c2c2 | "Bb"d2d2 "F"edec \
+| "Bb"f4 "F"edec | "Bb"d2d^f "F"e2e2 | "Bb"d2d2 "D7"^f2fa |1 "Gm"g4 g4 :|2 "Gm"g6 d2 ||
+"C"\
+|:"Gm"G2B2 d2^c2 | d8- dcBA | "Gm"G2B2 d2^c2 | "Gm"d8- dcBA \
+| "Gm"G2B2 d2^c2 | d2-d2 "Cm"c2-c2 | "Gm"B2{A}cB "D7"AGAB |1 "Gm"G6 D2 :|2 "Gm"G8 "fine"y2||
+"D"\
+|:"D"A3^F D2D2 | "Gm"G^FGA BABG | "D"A3^F D2D2 | "Gm"G^FGA B2-B2 \
+| "D"A3^F D2D2 | "Cm"G2E2 D2C2 | "Gm"BABc "D7"d2^F2 |1 "Gm"G8 :|2 "Gm"G6 d2 ||
+"E"\
+|:"Gm"g2gb "D7"a2ac' | "Gm"b2bg "D7"a2a2 | "Gm"gdgb "D7"adac' \
+| "Gm"b4 "D7"a4 | "Gm"gdgb "D7"adac' | "Gm"b2bg "D7"a2ag | "D7"^f2f2 d2=ef | "Gm"g8 :|
+"D"\
+| "D"A3^F D2D2 | "Gm"G^FGA BABG | "D"A3^F D2D2 | "Gm"G^FGA B4 \
+| "D"A3^F D2D2 | "Cm"G2E2 D2C2 | "Gm"BABc "D7"d2^F2 | "Gm"G6 d2 "_to A"[|]|]
+% abcbook-tune_id 6502d4e11ded931e3c0c845f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684649267
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 529
+T: Arkan
+M:4/4
+L:1/8
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Dm
+V:1 
+|: "Dm"a2a2 ^gfed | a2a2 ^gfed | dAde f2"A7"e2 | "Dm"dAde f2"A7"e2 | "Dm"dAde f2"A7"a2 | ^gfef "Dm"d2z :|
+% abcbook-tune_id 6502d4fb0f217761f8318a48
+% abcbook-tune_composer_id 
+% abcbook-boost 10
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695788372736
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 530
+T: Ukrainian Polka
+M:2/4
+L:1/16
+R: polka
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Em
+V:1 
+[| "Em"B2 e4 f2 | g2g2 "B7"f4 \
+| "Em"e8 | "G"b2 b4 b2 \
+| "D7"a2b2 c'4 | "G"b8 ||
+|: "Em"b2b2 "Am"a4 | "Em"(3g2a2b2 "B7"f4 \
+| "Am"a2g2 f2e2 | "B7"f2^d2 B4 \
+| "Em"B2e4 f2 | "B7"g2f2 a4 \
+| "Em"e8 :|
+|: "A"a2 c'4 a2 | "E"g2 b4 g2 \
+| "B7"agfe dBcd |1,3 "E"e2ga b4 :|2,4 "E"e2g2 e4 :|
+% abcbook-tune_id 6502d510fb29623f8ed860ee
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684861284
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 531
+T: Ukrainian Waltz
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Am
+V:1 
+"A"\
+|: "Am"A4 E2 | c3 B A2 | e3 e e2 | Te2 dc BA \
+|  "E7"E2 ^G2 B2 | d2 c2 B2 | "Am"A^G AB cd | ea ed cB |
+|  "Am"A4 B2 | c3 B A2 | e3 e e2 | Te2 dc BA \
+|  "E7"B2 f2 e2 | d2 c2 B2 | "Am"A4 E2 | A6 :|
+"B"\
+|: "E7"E2 ^G2 B2 | E2 ^G2 B2 | "Am"A3 B cB | A2 B2 c2 \
+|  "E7"B3 c d2 | B2 c2 d2 | Tf2 e2 d2 | "Am"e6 |
+|  "Dm"d3 e fe | df e2 d2 | "Am"TcB cd ed | ce d2 c2 \
+|  "E7"B2 f2 e2 | d2 c2 B2 | "Am"A4 E2 | A6 :|
+"C"\
+|:  "C"G6 | {B}c2 d2 f2 | e3 d Tc2 | G6 \
+|  "G7"fe dc BA | G2 A2 G2 | G4 F2 | "C"E6 |
+|   "C"G6 | {B}c2 d2 f2 | e3 d Tc2 | G6 \
+|  "G7"fe dc BA | G2 A2 B2 | "C"c2 G2 E2 | C6 :|
+% abcbook-tune_id 6502d52ba6be548a545f361c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684892962
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 532
+T: Ukrainian Tune
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Fmaj
+V:1 
+g_g =ga|b2 g2|fg fe|d2 a2|
+AB AG|A2 =B_d|d4|d4|
+|:AB AG|Af ef|d2 _d2|_dc d2|
+a2 e2|g2 fe|f2 dc|de fd|
+AB AG|Af ef|d2 _d2|_dc d2|
+a2 e2|g2 fe|d2 f2|d4:|
+|:g3a|b2 b2|a2 f2|e2 d2|
+eA _de|ag e_d|d_d =de|f2 ef|
+g3a|b2 b2|a2 f2|e2 d2|
+eA _de|ag fe|d2 f2|d4:|
+|:c2 dc|BA Bc|d2 c2|c3c|
+dc =Bc|bc =Bc|dc Bc|ac Bc|
+c2 dc|BA Bc|d2 c2|c4|
+c2 dc|Bc de|fd cA|F4:|
+g3a|b2 b2|a2 f2|e2 d2|
+e2 _de|ag fe|d4|d'4|
+% abcbook-tune_id 6502d711e2180be06809cd7d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684958265
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 533
+T: Waltz from Levkivka
+M:3/4
+L:1/4
+R: Waltz
+Q: 1/4=110
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:E minor
+V:1 
+B |: \
+g2 f | e c A | B3-|B3 | B ^d f | \
+a g f | e3- | e z B | g2 e | \
+e c A | B3- | B A G | F2 A | \
+G2 F | E3-|E z2 :|
+|: D3 | G3 | B3- | B A G | \
+F3 | F G F | E3 | B,3 | \
+E3 | G3 | B3-| B A G | \
+F2 A | G2 F | E3 | E z2 :|
+% abcbook-tune_id 6502dc4f329e97a6115ed8cd
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=MUYtRWI5q5I
+% abcbook-link-title-0 Ben Learns Mandolin Episode 45 - Valse de Levkivka
+% abcbook-link-start-at-0 44
+% abcbook-boost 9
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1703500576149
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 534
+T: Venherka
+M:2/4
+L:1/16
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:E major
+V:1 
+E2E2 EFGA | B2B2B2 z2 | e2G2 BAGG | A2F2 F4 |\
+B,CDE FGAB | c2c2c2 z2 | B2A2 GGAF | E2E2E2 z2 |:
+e3d cBAG | F2F2F2 z2 | f3e dcBA | G2G2G2 z2 | \
+B,CDE FGAB | c2c2c2 z2 | B2A2 GGAF | E2E2E2 z2 :|
+% abcbook-tune_id 6502dc4fedc34088133b141d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 535
+T: Viys'kova
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G major
+V:1 
+bb/2b/2 ba | g3 d | dd/2d/2 ed | c3 A | \
+aa/2a/2 ag | ff/2f/2 fe | d/2c/2d ba | gdg z :|
+|: db/2a/2 gd | dc c/2B/2c | \
+ca/2g/2 fe | dc d/2c/2d | \
+db/2a/2 gd | dc c/2B/2c | ca/2g/2 fd | gbgz :|
+% abcbook-tune_id 6502dc4f7fde33cc9891e30b
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 536
+T: Avstriys'ka
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G major
+V:1 
+d2B2 | BG G/2F/2G | cA A/2^G/2A | BG G/2F/2G | \
+d2B2 | BG G/2F/2G | F/2G/2A/2B/2 cA | GBGz ::
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 |\
+cAAB | c3 c | cB/2c/2 dA | cB B/2A/2G |
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 | \
+cAAc | c3 c | cd/2c/2 BA | GDGz :|
+% abcbook-tune_id 6502dc4fa0e1f618cd92d811
+% abcbook-tune_composer_id 
+% abcbook-boost 9
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695788707967
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 537
+T: Varvarka
+M:2/4
+L:1/16
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D mixolydian
+V:1 
+{Bc^c}d2d2 d4 | {Bc^c}d2d2 d3c | \
+B2BG ABcA | G4 z4 :|\
+|: {DEF}GFGA B2B2 | A2A2 ABAG | \
+F2FD EFGE | D4 z4 :|
+% abcbook-tune_id 6502dc4f95ea535b358658ba
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 538
+T: Uvyvanets'
+M:2/4
+L:1/8
+Q: 1/4=140
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:C# minor
+V:1 
+ccGG | c c2 G | cc^Bd | c2 =B2 |:\
+ AAFF | G G2 E | FFED | C2 C2 :|
+c3/2B/4A/4 GA/2B/2 |  c3/2B/4A/4 GA/2B/2 |\
+c3/2B/4A/4 GA/2B/2 | c2{BA}G2 |: \
+F3/2E/4D/4 CD/2E/2 |  F3/2E/4D/4 CD/2E/2 | \
+F_AGF | c2c2 :|
+% abcbook-tune_id 6502dc4f87cb4404c6176c64
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 539
+T: Soloveyko
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G major
+V:1 
+gBgB | BAAc | eddF | AGGG | \
+gBgB | BAAc | eddF | G2G2 ::
+d/2^c/2d/2c/2 d/2c/2d/2c/2 | ec c/2B/2A | \
+FA c/2B/2A | GGBG | \
+d/2^c/2d/2c/2 d/2c/2d/2c/2 | ec c/2B/2A | \
+FA c/2B/2A | G z G z :|
+% abcbook-tune_id 6502dc4f0e57ae9e2563be27
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 540
+T: Poltavs'kiy
+M:2/4
+L:1/16
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D minor
+V:1 
+a2 z2 f4 | egfe d2d2 | a2a2f2a2 | egfe d4 :: \
+^c2a2A2c2 | egfe d2d2 | ^c2a2A2a2 | egfe d4 :|
+% abcbook-tune_id 6502dc4f4e4d1559f7b47f83
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 541
+T: Rezvost'
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:C major
+V:1 
+affd | cAAc | _BGGd | cAAc | \
+affd | cAAc | ddee | fffz ::
+eegg | g/2g/2g/2g/2 ge | \
+g/2g/2g/2g/2 ge | g/2g/2g/2g/2 ge | \
+eegg | g/2g/2g/2g/2 ge | g/2g/2g/2g/2 gB | cecz :|
+% abcbook-tune_id 6502dc4f1c579a4678017e08
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 542
+T: Shevchyk
+M:2/4
+L:1/8
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G major
+V:1 
+B d d d | B d d d | A B c c | B2 G2 |:\
+B A G F | E D D2 | D c B A | G2 G z :|
+% abcbook-tune_id 6502dc4f497362399a3392be
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 543
+T: Polka Koketka
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:C major
+V:1 
+ea^ga | efed | ee c2 | dcBA | \
+ea^ga | efed | eec'b | a2a2 ::
+geae | gggB | BBdd | feee | \
+geae | gggB | BBdd | c2c2 :|
+B2e2^d2e2 | c2(cB) (AB)(cA) | \
+B2B2 BAGF | A2.G2.F2.E2 | \
+B2e2^d2e2 | .c2(cB) (AB)c2 | \
+(BA)(Bc) g2f2 | e4 e2 z2 :|
+(d2^c)d  .g2(B2   | d2)c2 (cB)(AG) | \
+(FG)(AB) (cB)(ce) | e2d2 dcB2 | \
+(d^c)d2  .g2(B2   | d2)c2 (cB)(AG) | \
+(FGAB) (cdef) | g4 g4 |]
+W: W:H. Tantsyur
+% abcbook-tune_id 6502dc4f1365e12ff1056786
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1736196766698
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 544
+T: Po Dorozi Zhuk, Zhuk, Po Dorozi Chorniy
+M:2/4
+L:1/8
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D mixolydian
+V:1 
+D D D F | A2 D2 | B B B B | A2 F2 |: \
+G G G G | F F F F | E E E E | D2 D2 :|
+% abcbook-tune_id 6502dc4f92b7e72a93e3201e
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 545
+T: Pishla Maty Na Selo
+M:4/4
+L:1/8
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:F major
+V:1 
+c2 (dc) (BA) (BG) | F2 A2 C4 | \
+F2 F2 G2 G2 | A2 F2 d2 d2 |\
+c2 c2 (BA) (BG) | F2 A2 C2 C2 | \
+F2 A2 (GA) (BG) | F2 F2 F2 F2 |
+|: d2 d d | d e f d | c2 c c | c2 f2 |\
+B B B B | B c d B | A A G G | F2 F2 :|
+% abcbook-tune_id 6502dc4f4c30d6ebbd4754b9
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 546
+T: Oy Pid Vyshneyu
+M:2/4
+L:1/8
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Bb major
+V:1 
+[Bd] [Bd] [A2c2] | [G2B2] [^F2A2] | \
+[Bd] [Bd] [A2c2] | [G2B2] [^F2A2] | \
+[Ac] [Ac] [Ac] [Ac] | [Bd] [Bd] [Bd] [Bd] | \
+[Ac] [GB] [^F2A2] | [GB] [GB] [G2B2] |]
+% abcbook-tune_id 6502dc4fa9f6b21febc430ec
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 547
+T: Perepilka
+M:2/4
+L:1/8
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G major
+V:1 
+[GBd] [GBd] [G2c2e2] | [G4B4d3] c/2B/2 | \
+[Ac] [Ac] [G2B2] | [FA] [FA] G2 | \
+G2 [FA] [FA] | [G2B2] [Ec] [Fc] |\
+[GB] [GB] [F2A2] | G2 D2 | \
+G2 [FA] [FA] | [G2B3/2]e/2 [EAc] [Ac] | \
+[GB] [GB] [F2A2] | G2 G z |]
+% abcbook-tune_id 6502dc4f43233fbcf105a703
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 548
+T: Pishla B Na Muzyky
+M:2/4
+L:1/8
+Q: 1/4=120
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:F major
+V:1 
+A2  G2  | A F B B | A c (B/A/) G | A F B2 | \
+c B A G | A F B B | c B A G | A F B2 | \
+c2  G2  | A F B B |
+A2 (c>B) | (A/2G/2) F B B | \
+A A (c>B) | A F B2 | A (A/2c/2) G2 | F F F2 |: \
+(f3c) | (f3B) | A (A/c/) G2 | F F F2 :|
+% abcbook-tune_id 6502dc4f30a05c69d304239c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 549
+T: Oy Na Hori Monastyr
+M:C
+L:1/8
+Q: 1/4=70
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D dorian
+V:1 
+A A G B A A d z | A A ^G B A2 d z | \
+F F E E D D ^C2 | F F E E D2 D z |]
+% abcbook-tune_id 6502dc4f5f56bceb215df385
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 550
+T: Opryshky
+M:2/4
+L:1/16
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D minor
+V:1 
+{c'}d'4 (ba)(ag) | (^fg) g4 g2 | \
+{c'}d'4 (ba)(ag) | {^g}a4 e3d | \
+{^c}d2A2 {c}d2A2 | {^c}[D2d2] [D4d4] [D2d2] | \
+(fe)(ed) A2A2 | {^c}[D4d4] [D4d4] ::
+(^cd)(e^f) (gf)(gf) | (ga)g^f (gf)g2 | \
+(ga)g^f (gf)g^g | a4 a4 | \
+{^c}[D2d2]A2 {c}[D2d2]A2 |  {^c}[D2d2] [D4d4] [D2d2] | \
+(fe)(ed) A2A2 | {^c}[D4d4] [D4d4] :|
+% abcbook-tune_id 6502dc4f6f7de6188d19c7be
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 551
+T: Od Kyyeva Do Luben
+M:2/4
+L:1/8
+Q: 1/4=140
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:A major
+V:1 
+A c c c | B d c2 | A c c c | B d c2 |\
+(B>A) G F | E (F/2G/2) A c | \
+B (B/2A/2) G F | E G A2 | \
+B (B/2A/2) G F | E G A2 |]
+% abcbook-tune_id 6502dc4f932575511027186f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 552
+T: Koval'
+M:2/4
+L:1/8
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:B major
+V:1 
+{de}ff/2f/2 ff | {f}gf (e/2d/2c/2B/2) | AF ~d2 \
+|1 Bc d/2c/2d/2e/2 :|2 [FB][F/2B/2][F/2B/2] [FB]z:|\
+{de}ff/2f/2 ff | {f}gf (e/2d/2c/2B/2) |
+AF ~d2 \
+|1 Bc d/2c/2d/2e/2 :|2 [FB][F/2B/2][F/2B/2] [FB]z:| \
+|: "tap"z [.F.c]  "tap"z [.F.c] |\
+"tap"z [.F.c]  "tap"z [.F.c] \
+|1 ce d/2e/2d/2c/2 | [FB][F/2B/2][F/2B/2] [FB] z \
+:|2 f2 a2 | bb/2b/2 b z |]
+% abcbook-tune_id 6502dc4fe034a9d4f99ce792
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 553
+T: Kucheryava Kateryna
+M:2/4
+L:1/16
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G major
+V:1 
+(GA) (Bc) d2 d2 | (ed) e2 d2 g2 | \
+(cB) c2 (BA) B2 | (AG) G2 G2 G2 :|
+|: B2 B2 (AG) A2 | (BA) B2 c2 c2 | \
+(BA) B2 (AG) A2 |1 G2 g2 (gf) g2 :|2 G2 G2 G2 G2 |]
+% abcbook-tune_id 6502dc4f03619231b988cf5c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 554
+T: Metelytsya
+M:2/2
+L:1/16
+Q: 1/2=74
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G minor
+V:1 
+d2d2B2d2 cBAc GABc | d2d2B2d2 cBAB GABG | \
+^F2F2D2d2 cBAB GABA | ^F2F2D2d2 cBAB G z2 z|]
+% abcbook-tune_id 6502dc4ffcada029984b9681
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1700011476123
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 555
+T: Korol'
+M:4/4
+L:1/8
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D dorian
+V:1 
+[E2c2][GB][FA] [E4G4] | \
+[Ec] [Ec] [E2c2] [F2d2] [F2G2] | \
+[E2c2][GB][FA] [E4G4] | [E2c2][Fd][Ec] [D4G2]AF | \
+[CE] [DF] [E2G2] [E3c2]G [^FA] | \
+G2 G z ||
+(e3d/2c/2) d2 (ed) | A2 (ce) d4 | \
+[c3e3][B/2d/2][A/2c/2] [B2d2] [ce][Bd] | \
+A2 (ce) d4 :|\
+|: e3d/2c/2 d2 (ed) | A2 (ce) d4 | \
+d d ^c A | e e e ^c | d d ^c A | \
+e e e ^c | d d (^c>A) | A ^c d2 |]
+% abcbook-tune_id 6502dc4fb3c6d2266c7e8601
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 556
+T: Kolomiyka from Podilia
+M:2/4
+L:1/8
+Q: 1/4=200
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:A minor
+V:1 
+eeee | dddd | \
+deee | d2 d2{cBA} | \
+cccB | AAAB |
+cccB | A2A2 | 	\
+cccB | AAAB |  \
+cccB | A2 A2 ::
+%
+aaaa  | ag^fe | \
+ag^fe | e2e2  | \
+dddd  | dcBA  | \
+cc B/2A/2B | A2A2 |
+dddd | dcBA | \
+cc B/2A/2B | A2A2 ::\
+%
+Ee d/2c/2B/2A/2 | ccBA | \
+Ee d/2c/2B/2A/2 | (c>B) A2 |
+Ee d/2c/2B/2A/2 | ccBA | \
+E^GBG | A2A2 :|
+% abcbook-tune_id 6502dc4f078aff0bdb0dd231
+% abcbook-tune_composer_id 
+% abcbook-boost 9
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695789263779
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 557
+T: Kolomiyka
+M:2/4
+L:1/8
+Q: 1/4=140
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:G minor
+V:1 
+G A B A | B A B A | G A B A | B G2 z | \
+G A B A | B A B A | B d D D | G G2 z |]
+ga {c'}ba | {c'}ba {c'}ba \
+|1 ga {c'}ba | b a2 z \
+:|2 b{^c'}d' dd | {^f}g g2 z |]
+% abcbook-tune_id 6502dc4fa00ef17aa7df00d1
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=opfhcgniBDQ
+% abcbook-link-title-0 Kolomeika
+% abcbook-link-1 https://www.youtube.com/watch?v=YcAwYWevy10
+% abcbook-link-title-1 Costel van Dein &amp; July Mell - Kolomiyka
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1703500690323
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 558
+T: Pishla Maty Na Selo
+M:4/4
+L:1/8
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:F major
+V:1 
+c2 (dc) (BA) (BG) | F2 A2 C4 | \
+F2 F2 G2 G2 | A2 F2 d2 d2 |\
+c2 c2 (BA) (BG) | F2 A2 C2 C2 | \
+F2 A2 (GA) (BG) | F2 F2 F2 F2 |
+|: d2 d d | d e f d | c2 c c | c2 f2 |\
+B B B B | B c d B | A A G G | F2 F2 :|
+% abcbook-tune_id 6502dc4f2eb94503c8982963
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 559
+T: Kabardynka
+M:2/4
+L:1/8
+Q: 1/4=240
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D minor
+V:1 
+A A2 B | c2 BA | G2 c2 | G G2 A | B2 AG | A2 F2 :: \
+D D2 F | A2 GF | E2 A2 | E E2 F | G2 FE | F2 D2 :|
+% abcbook-tune_id 6502dc4f056d033e5ff1fcb9
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 560
+T: Kamaryns'kiy
+M:2/4
+L:1/16
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:D major
+V:1 
+a3f g2b2 | f2a2 gfed | cABc defg | a3f g2b2 | \
+f2a2 gfed | cABc d2 z2 |]
+% abcbook-tune_id 6502dc4fbedb3c1aaa155d7c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 561
+T: Hramofon
+M:2/4
+L:1/16
+R: Polka
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:C lydian
+V:1 
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | B2G2 GFG2 | \
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | G2B2G2 z2 ::
+A4A4 | AGFG A4 | A2G2 GFG2 | B2A2 AGA2 | \
+A4 A4 | AGFG A4 | A2G2F2E2 | D2 z2 D2 z2 :|
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | B2G2 GFG2 | \
+D2B2 BAG2 | FGAB c4 | B2A2 AGA2 | G2F2E2D2 |:
+G4 E2C2 | A4 F2D2 | B2B2 B^AB2 | c2c2 cBc2 | \
+G4 E2C2 | A4 F2D2 | GAG2 FGAB | c2 z2 c2 z2 :|
+% abcbook-tune_id 6502dc4ff019c68f3ac3dbd9
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 562
+T: Divchyno Moya, Pereyaslavko
+M:4/4
+L:1/8
+Q: 1/4=120
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:E phrygian
+V:1 
+[c2e2] c2 c [ce] [c2e2g2] | \
+[Bd] [ce] [Bd][Ac] [GB]A G2 :| \
+|: [Ace][Bd] [Ac] [E^GB] A [AB] [Ac] [Ac] | \
+[EB] [EB] ^G2 E2 E2 :|
+% abcbook-tune_id 6502dc4f5babac59b55c9c90
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 563
+T: Chumak
+M:2/4
+L:1/8
+Q: 1/4=144
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:F# minor
+V:1 
+dfff | f(g/2f/2) ed | \
+cd B2 | [EB][c/2e/2][c/2e/2] [ce][ce] | \
+[ce]fed | [A2c2] A2 |:
+BcdB | (cdcB ABAG) \
+|1 Ff/2f/2 ff :|2 [F2c2] [F2c2] |] \
+F{GABcdefg}a c2 | f2 z2 |]
+% abcbook-tune_id 6502dc4f96b9e600a3e288cc
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 564
+T: Chabans'koho Kozachka
+M:2/4
+L:1/8
+Q: 1/4=120
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:A minor
+V:1 
+cd ec | fd ec | cd ec | g/2f/2e/2d/2 c2 :: \
+ba bg | c'a bg | fg bg | c'a g2 ::
+cdec | fdec | cdec \
+|1 g/2f/2e/2d/2 c2 :|2 g/2f/2e/2d/2 cd | \
+ecdB | e/2d/2c/2B/2 AA | ecdB | e/2d/2c/2B/2 A2 |
+^GGEG | ABcA | ^GGEG | A2A2 | \
+^GGEG | AB d/2c/2B/2A/2 | ^GGEG | A2A2 |]
+% abcbook-tune_id 6502dc4f5c15a328b3993452
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 565
+T: Bile Krylo
+M:2/4
+L:1/16
+Q: 1/4=72
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:C# minor
+V:1 
+E3F GB | FEFG EDCB, | E3F GB | FEFG E2 z2 ::
+C2F>D E3D |  C2F>DE3D | C2FD E3E | DFED C2 z2 :|
+% abcbook-tune_id 6502dc4f5dc8021364fc2a55
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 566
+T: Berehom, Berehom, Berezhynoyu
+M:6/8
+L:1/8
+Q: 3/8=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:A mixolydian
+V:1 
+A A F A A F | G G G F E z |: \
+D D D D G E | F D D D A, z :|
+A A A F d z | A F G F E z |: \
+D D D D (GE) | _F D D D A, z :|
+% abcbook-tune_id 6502dc4f35bcba8923368fae
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 567
+T: Bandura Waltz
+C:trad. Ukraine
+M:3/4
+L:1/4
+R: waltz
+Q: 1/4=100
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Dm
+V:1 
+"^A"[|\
+"A7"A^ce | A^ce | "Dm"d3 | f3 | "A7"efg | g{ag}fe | "Dm"d3- | dzc/B/ ||
+"A7"A^ce | A^ce | "Dm"d3 | f3 | "A7"efg | g{ag}fg | "Dm"a3- | "D7"azB/A/ |]
+"^B"[|\
+"Gm"GAB | dcB | "Dm"A3- | AGF | "A7"EFG | G{AG}FG | "Dm"A3- | "D7"Az B/A/ ||
+"Gm"GAB | dcB | "Dm"A3- | AGF | "A7"EFG | G{AG}FE | "Dm"D3- | Dz2 |]
+% abcbook-tune_id 6502ddf8b42818f974da099d
+% abcbook-tune_composer_id 
+% abcbook-boost 8
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695786659024
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 568
+T: Katushka, aka Ukranian Love Song
+C:Trad
+M:2/4
+L:1/8
+R: reel
+Q: 1/4=130
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Am
+V:1 
+|:"Am" .AA2 B|c2 A3/2A/|\
+Ac BA|"E7"B^GE2|!
+"E7".BB2c|d2 B3/2B/|\
+Bd cB|"Am"A2- A2:|!
+"Am".e2.a2|"G".g2.a2|\
+"Dm"zf ed|"Am"e2A2|!
+"Dm"zd2B|"Am"c2A3/2A/|\
+"E7"Bd cB|"Am"A2- A2:|!
+% abcbook-tune_id 6502ddf89e01402431b69bfe
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686712886
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 569
+T: Ukranian Waltz
+M:3/4
+Q: 1/4=145
+B: ukranian
+% abcbook-tags % abcbook-tablature
+K:Dm
+V:1 
+z2zA,_A,=A,|:"Dm"A3F ED|^C2D4|"Gm"E3D ^CB,|A,2 B,4|"A7"A,3B, ^CD|E3G FE|
+"Dm"D3E FG|A3 A,_A,=A,|"Dm"A3F ED|^C2D4|"Gm"E3D ^CB,|A,2 B,4|"A7"A,3B, ^CD|E3G FE|
+"Dm"D3A, FE|1D3 A,_A,=A,:|2D3 !fine!A,_B,=B,||:"F"C3 A AG|G3F FE|"F"E3D DC|C6|
+"Gm"A,2_B,2B,2|E3D DC|"F"C3A, _B,D|C3A, _B,=B,|"F"C3 A AG|G3F FE|"F"E3D DC|
+C3G ^GA|"Gm"_B3 A GF|"C"E3 A ^G=G|"F"F3A ^G=G|1F3 A, _B,=B,:|2F3 !D.S.!A, _A,=A,|]
+% abcbook-tune_id 6502ddf8448d8d46702b8e7d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686712886
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1

@@ -174,7 +174,8 @@ var icons = {
     'stopwatch': <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-hidden="true"><title>Stopwatch</title><path fill="none" d="M0 0h24v24H0z"/><rect x="10.25" y="1.25" width="3.5" height="2.25" rx="0.45" fill="currentColor"/><path fill="currentColor" fillRule="evenodd" d="M12 4.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5zM5.25 13a6.75 6.75 0 1 1 13.5 0 6.75 6.75 0 0 1-13.5 0z"/><rect x="11.35" y="6.6" width="1.3" height="2.1" rx="0.3" fill="currentColor"/><rect x="11.35" y="17.3" width="1.3" height="2.1" rx="0.3" fill="currentColor"/><rect x="6.6" y="12.35" width="2.1" height="1.3" rx="0.3" fill="currentColor"/><rect x="15.3" y="12.35" width="2.1" height="1.3" rx="0.3" fill="currentColor"/><path fill="currentColor" d="M12.2 13.15l3.9-3.05a.65.65 0 0 1 .9.15l.2.28a.65.65 0 0 1-.15.9L12.7 14.7a.9.9 0 1 1-1.2-1.35l.7-.2z"/><circle cx="12" cy="13" r="1.1" fill="currentColor"/></svg>,
     'practice': <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style={{float: 'left', marginTop: '0.15em'}}><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm0 2a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm-1 2.5V12l4.25 2.45.75-1.3L13 11.15V7.5h-2z"/></svg>,
     'theory': <img src="/icons/theory.png" alt="Theory" width="24" height="24" className="icon-bitmap" style={{display: 'block'}} />,
-    'metronome': <svg version="1.1" style={{float: 'left', marginTop: "0.3em"}} id="Layer_1" x="0px" y="0px" height="24px" width="24px" viewBox="0 0 512 512">
+    'yoga': <img src="/icons/yoga.svg" alt="" width="24" height="24" />,
+    'metronome': <svg version="1.1" id="Layer_1" x="0px" y="0px" height="24px" width="24px" viewBox="0 0 512 512">
           <g>
             <g>
               <g>

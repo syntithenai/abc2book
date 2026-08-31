@@ -1,4 +1,9 @@
-import { buildCuratedImportPath, findCuratedImportMeta, findCuratedImportTitle } from './curatedImportMatch'
+import {
+  buildCuratedImportPath,
+  findCuratedImportMeta,
+  findCuratedImportTitle,
+  resolveCuratedScrapeLinks,
+} from './curatedImportMatch'
 
 describe('findCuratedImportTitle', function() {
   const curated = {
@@ -54,34 +59,23 @@ describe('findCuratedImportTitle', function() {
     expect(buildCuratedImportPath({})).toBe(null)
   })
 
-  test('buildCuratedImportPath for australian bush traditions', function() {
+  test('buildCuratedImportPath uses catalog route for multi-file and all', function() {
+    expect(buildCuratedImportPath({ all: true, image: 'tunes.jpeg' }, 'import all'))
+      .toBe('/importcurated/import%20all')
     expect(buildCuratedImportPath({
-      link: 'australiabushtraditions.abc',
-      book: 'australian bush traditions',
-    })).toBe(
-      '/importlink/%2Fscrape%2Faustraliabushtraditions.abc/book/australian%20bush%20traditions'
-    )
+      all: true,
+      tag: 'steve ryan',
+    }, 'steve ryan')).toBe('/importcurated/steve%20ryan/tag/steve%20ryan')
+    expect(resolveCuratedScrapeLinks({ all: true }).length).toBeGreaterThan(5)
   })
 
-  test('findCuratedImportTitle resolves australian bush traditions uniquely', function() {
-    const withAbt = Object.assign({}, curated, {
-      'australian bush traditions': {
-        link: 'australiabushtraditions.abc',
-        book: 'australian bush traditions',
-      },
-    })
-    expect(findCuratedImportTitle(
-      withAbt,
-      'australiabushtraditions.abc',
-      'australian bush traditions',
-      null
-    )).toBe('australian bush traditions')
-    expect(findCuratedImportTitle(
-      withAbt,
-      'australiabushtraditions.abc',
-      null,
-      null
-    )).toBe(null)
+  test('buildCuratedImportPath for australian bush dance', function() {
+    expect(buildCuratedImportPath({
+      link: 'australian bush dance.abc',
+      book: 'australian bush dance',
+    })).toBe(
+      '/importlink/%2Fscrape%2Faustralian%20bush%20dance.abc/book/australian%20bush%20dance'
+    )
   })
 
   test('findCuratedImportMeta exposes allowDuplicateTitles for old time', function() {

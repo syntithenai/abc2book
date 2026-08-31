@@ -20,6 +20,7 @@ import { getTuneFiles } from './tuneFiles'
 
 import { isCapacitorNative } from './platformUtils'
 import { sortTunesByBookPage } from './tuneBookPages'
+import { resolvePageKey } from './bookTaxonomyMigrate.js'
 
 export const GROUP_BY_TUNE_STATUS = 'tuneStatus'
 export const GROUP_BY_TUNE_STATUS_DETAILED = 'tuneStatusDetailed'
@@ -31,15 +32,19 @@ export function hasActiveBookFilter(book) {
   return !!(book && String(book).trim())
 }
 
+export function hasActivePageKey(currentTuneBook, tagFilter) {
+  return !!resolvePageKey(currentTuneBook, tagFilter)
+}
+
 /**
- * Apply implicit page grouping when a book filter is active, unless the user
- * chose another grouping or explicitly opted out with GROUP_BY_NONE.
+ * Apply implicit page grouping when a book filter or a single tag filter is
+ * active, unless the user chose another grouping or opted out with GROUP_BY_NONE.
  */
-export function resolveEffectiveGroupBy(groupBy, currentTuneBook) {
+export function resolveEffectiveGroupBy(groupBy, currentTuneBook, tagFilter) {
   const stored = groupBy != null ? String(groupBy).trim() : ''
   if (stored === GROUP_BY_NONE) return ''
   if (stored) return stored
-  if (hasActiveBookFilter(currentTuneBook)) return GROUP_BY_PAGE
+  if (hasActivePageKey(currentTuneBook, tagFilter)) return GROUP_BY_PAGE
   return ''
 }
 
@@ -109,9 +114,10 @@ export function sortTunesByName(tunes) {
   return list
 }
 
-export function sortFilteredTunes(tunes, groupBy, book) {
+export function sortFilteredTunes(tunes, groupBy, book, tagFilter) {
   if (groupBy === GROUP_BY_PAGE) {
-    return sortTunesByBookPage(tunes, book)
+    const pageKey = resolvePageKey(book, tagFilter) || book
+    return sortTunesByBookPage(tunes, pageKey)
   }
   return sortTunesByName(tunes)
 }
@@ -397,7 +403,8 @@ export async function runTuneListFilterAsync(params) {
 
   const effectiveGroupBy = resolveEffectiveGroupBy(
     groupBy,
-    filterContext && filterContext.currentTuneBook
+    filterContext && filterContext.currentTuneBook,
+    filterContext && filterContext.tagFilter
   )
 
   let filtered
@@ -418,7 +425,12 @@ export async function runTuneListFilterAsync(params) {
       if (tune && filterSearchFn(tune)) catalogTunes.push(tune)
       if (i > 0 && i % 50 === 0) await yieldToMain()
     }
-    filtered = sortFilteredTunes(catalogTunes, effectiveGroupBy, filterContext && filterContext.currentTuneBook)
+    filtered = sortFilteredTunes(
+      catalogTunes,
+      effectiveGroupBy,
+      filterContext && filterContext.currentTuneBook,
+      filterContext && filterContext.tagFilter
+    )
     listPage = {
       total: filtered.length,
       offset: 0,
@@ -431,7 +443,8 @@ export async function runTuneListFilterAsync(params) {
     filtered = sortFilteredTunes(
       filterTunes(tunes, filterSearchFn, candidateIds),
       effectiveGroupBy,
-      filterContext && filterContext.currentTuneBook
+      filterContext && filterContext.currentTuneBook,
+      filterContext && filterContext.tagFilter
     )
     if (filtered.length > CATALOG_PAGE_SIZE) {
       listPage = {
@@ -486,7 +499,8 @@ export function runTuneListFilterSync(params) {
 
   const effectiveGroupBy = resolveEffectiveGroupBy(
     groupBy,
-    filterContext && filterContext.currentTuneBook
+    filterContext && filterContext.currentTuneBook,
+    filterContext && filterContext.tagFilter
   )
 
   const allIds = tunes ? Object.keys(tunes) : []
@@ -494,7 +508,8 @@ export function runTuneListFilterSync(params) {
   const filtered = sortFilteredTunes(
     filterTunes(tunes, filterSearchFn, candidateIds),
     effectiveGroupBy,
-    filterContext && filterContext.currentTuneBook
+    filterContext && filterContext.currentTuneBook,
+    filterContext && filterContext.tagFilter
   )
   const tagCollation = buildTagCollation(filtered)
   const extras = shouldScanTuneStatusExtras({

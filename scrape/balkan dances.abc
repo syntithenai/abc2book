@@ -1,0 +1,314 @@
+%abc-2.1
+% abcbook-book balkan dances
+
+X: 202
+T: Nifty's Freylekhs
+C:Naftule Brandwein
+M:2/4
+L:1/8
+R: freylach
+Q: 1/4=100
+B: balkan dances
+% abcbook-tags klezmer,ralph cullen,© free
+K:Dphrygian
+V:1 
+zA,2 \
+|  "D"D2        zD | "Cm"E2 zE |  "D"^F2 zA | "Cm"G^F ED \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED EG |  "D"^F4    | (3AG^F "Cm"(3EDC |
+| "D"D2        zD | "Cm"E2 zE |  "D"^F2 zA | "Cm"G^F ED \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED CE |  "D"D4-    | D :|
+|: z3 \
+| "Gm"zd dd | dd dd | "Cm"cd ed | cB AG \
+|  "D"{^G=B}A2 ^F2 | "Cm"GF GB |  "D"A4- | A4 |
+| "Gm"zd dd | dd dd | "Cm"cd ed | cB AG \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED CE |  "D"D4-  | D  :|
+|: "D7"DGA \
+| "Gm"B4- | BB AG | "D7"A4 | zD^FG \
+| A4 | zD B/A/G/^F/ | "Gm"G4 | "D7"zDGA |
+| "Gm"B3 D | (3BAG (3^FED | "Cm"C4 | c3 c \
+| cA/c/ (3BAG | "D"(3^FGA "Cm"(3GFE |1 "D"D4- | D :|2 "D"(3DE^F "Cm"(3EDC | "D"D ||
+% abcbook-tune_id 634540698905240d28572436
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=F21h4a6X-Z0
+% abcbook-link-title-0 Naftule Brandwein - Nifty&#39;s freilach
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677145676835
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 3
+
+X: 203
+T: Der Gasn Nigun
+M:3/8
+L:1/16
+R: horra
+Q: 3/8=60
+B: balkan dances
+% abcbook-tags klezmer,ralph cullen,© free
+K:Em
+V:1 
+|: zG2 \
+| "Am"GA3 A2 | TA4 G2 | "Em"GE- E4- | E2z2 G2 \
+| "Am"GA3 A2 | "D7"TA3G BA | "G"G3D BD | G2z2 D2 |
+| "Gm"D3G FG | A3_B ^cd | "A"e3=f ed | T^c3_B AG \
+| "Em"G3F "Am"AF | "Em"G3E "Dm"(3=FED | "Em"E3e BG | E2z :|
+|: B,EG \
+| "Em"B6- | B3B (3d^cB | ^A^c B4- | B3E GB \
+| "Em"d3^c (3dcB | d3^c (3dcB | ^A^c B4- | B3 B,EG |
+| "Em"B3^A (3BAG | B3^A (3BAG | F=A G4- | G3 B,EF \
+| "Em"G3F (3GFE | G3F (3GFE | ^DF E4- | E2z :|
+% abcbook-tune_id 63454088759720748e6a8688
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=g7Dg-CVbS9I
+% abcbook-link-title-0 Der Gasn Nigun Classic Klezmer Trio
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1674122969695
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 3
+
+X: 230
+T: Frailoch
+C:Lunasa
+M:4/4
+L:1/8
+Q: 1/4=100
+B: celtic
+B: balkan dances
+% abcbook-tags klezmer,steve ryan,© free,celtic tunes,steve celtic tunes
+K:G
+V:1 
+ "Em"BEGA BcBG | "Am7"A2 AG AB G2 | "Em"GBdB GBdB | "Am7"A2 AG AB G2 |"Am"GAAG "D"GFF=F | 
+ "Em"E4 EDEF | "Am7"G AAG "D"GFF=F |1 "Em"E6 z2 :|2 "Em"E6 GB ||:"Em"e6 dc | B6 AB |
+ eBeB e2 dc | B6 AB | e6 d2 | "D"f6ed x6 | "Em"eBeB e2 dc | "Em" B6 BA |"C"GABc BcBc |
+ BcBc B2A2 |"Am"AEEA AEEA | AGAB A2 GF |"B7" GAAG GFF=F | "Em"E4 EDEF |
+ "C"GAAG "D"GFF=F |1 "Em"E6 GB3/2 :|2 "Em"E6 z2 ||
+% abcbook-tune_id 629f3e70344f948c4e2f1742
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=MySmjmuU5Rs
+% abcbook-link-title-0 Iúil - Lúnasa
+% abcbook-boost 1
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677242727906
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 3
+
+X: 314
+T: Naftule Brandwein - Nifty's freilach
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 63ca494cc3741997a37c44a0
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=F21h4a6X-Z0
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1674560796260
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+B: balkan dances
+% abcbook-tags klezmer,ralph cullen,© free
+
+X: 315
+T: Der Gasn Nigun
+M:3/8
+L:1/16
+R: horra
+Q: 3/8=100
+B: balkan dances
+% abcbook-tags klezmer,ralph cullen,© free
+K:Dm
+V:1 
+%Q: 3/8=60
+%%MIDI gchord fcc
+|: zF2 \
+| "Gm"FG3 G2 | TG4 F2 | "Dm"FD- D4- | D2z2 F2 \
+| "Gm"FG3 G2 | "C7"TG3F AG | "F"F3C AC | F2z2 C2 
+| "Fm"C3F EF | G3_A =Bc | "G"d3_e dc | T=B3_A GF \
+| "Dm"F3E "Gm"GE | "Dm"F3D "Cm"(3_EDC | "Dm"D3d AF | D2z :|
+|: A,DF \
+| "Dm"A6- | A3A (3c=BA | ^G=B A4- | A3D FA \
+| "Dm"c3=B (3cBA | c3=B (3cBA | ^G=B A4- | A3 A,DF 
+| "Dm"A3^G (3AGF | A3^G (3AGF | E=G F4- | F3 A,DE \
+| "Dm"F3E (3FED | F3E (3FED | ^CE D4- | D2z :|
+% abcbook-tune_id 63cb07b07001a5f5e4b4e23e
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=g7Dg-CVbS9I
+% abcbook-link-title-0 Der Gasn Nigun Classic Klezmer Trio
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677102376470
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 318
+T: Nifty's freylekhs
+C:Naftule Brandwein
+M:2/4
+L:1/8
+R: freylach
+Q: 1/4=100
+B: balkan dances
+% abcbook-tags klezmer,ralph cullen,© free
+K:Dphrygian
+V:1 
+zA,2 \
+|  "D"D2        zD | "Cm"E2 zE |  "D"^F2 zA | "Cm"G^F ED \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED EG |  "D"^F4    | (3AG^F "Cm"(3EDC 
+| "D"D2        zD | "Cm"E2 zE |  "D"^F2 zA | "Cm"G^F ED \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED CE |  "D"D4-    | D :|
+|: z3 \
+| "Gm"zd dd | dd dd | "Cm"cd ed | cB AG \
+|  "D"{^G=B}A2 ^F2 | "Cm"GF GB |  "D"A4- | A4 
+| "Gm"zd dd | dd dd | "Cm"cd ed | cB AG \
+|  "D"{^G=B}A2 ^F2 | "Cm"ED CE |  "D"D4-  | D  :|
+|: "D7"DGA \
+| "Gm"B4- | BB AG | "D7"A4 | zD^FG \
+| A4 | zD B/A/G/^F/ | "Gm"G4 | "D7"zDGA 
+| "Gm"B3 D | (3BAG (3^FED | "Cm"C4 | c3 c \
+| cA/c/ (3BAG | "D"(3^FGA "Cm"(3GFE |1 "D"D4- | D :|2 "D"(3DE^F "Cm"(3EDC | "D"D :|
+% abcbook-tune_id 63cb07b051f92a0aeaa4e516
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677284703949
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 395
+T: Anniversary Waltz
+M:3/4
+L:1/4
+R: waltz
+Q: 1/4=100
+B: balkan dances
+B: celtic
+% abcbook-tags klezmer,good tune book,© free,world music
+K:C
+V:1 
+|: "E7"E3- |E ^G A | B3- | B ^G E | "Am"c3- | c B A | e3- | "A7"e3 
+| "Dm"f3- | f e d | "Am"e3- | e d c | "E7"B3- | B c B | "Am"A3- | A3 :|
+|: {ABcdefg}"F"[af] [af]>[af] | [af] [af]>[af] | "C"[af] [ge]>[^f^d] | [g3e3] \
+| "Dm"[fd] [fd]>[fd] | [fd] [fd]>[fd] | "Am"[fd] [ec]>[^dB] | [e3c3] 
+| "E7"[dB] [dB]>[dB] | [dB] [dB]>[dB] | "Am"[dB] [cA]>[B^G] | [A2E2] [ac] \
+| "Dm"[fd] [dA] [BF] | "E7"[c2E2] [B^G] | "Am"[A3A3]- | [A3A3] :|
+% abcbook-tune_id 63cb07b0ba66c78e152e4a3c
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=qLudjlpIFrc
+% abcbook-link-title-0 Eric Dimson - Anniversary Waltz (HD)
+% abcbook-boost 2
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677667716506
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 971
+T: Yigdal
+C:Traditional
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 69f7d2e0d91721397fb54a8a
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=Y742YuFXW4Q
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1777849311679
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+B: balkan dances
+% abcbook-tags yiddish,jewish,sephardic
+
+X: 972
+T: Zuqaq
+C:Emillio Villalba
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 69f7e93b8dfe2dcecfe315e7
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=WyWmoUsCHL4
+% abcbook-link-start-at-0 2740
+% abcbook-link-end-at-0 2950
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1777854861296
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+B: balkan dances
+% abcbook-tags yiddish,jewish
+
+X: 1087
+T: Ma Nishtana
+C:Trad. Song.
+M:4/4
+L:1/4
+R: Air
+Q: 1/4=140
+B: songs
+B: balkan dances
+% abcbook-tags klezmer
+K:F
+V:1 
+"Dm"F D/D/ D D|F D/D/ D A|("F"c B) "Gm"G B|"Dm"A3 A|("F"c B) "Gm"G B|"Dm"A3 D/D/|
+"Dm"F D/D/ D2|F D/D/ D A|("F"c B) "Gm"G B|"Dm"A3 A|("F"c B) "Gm"G B|"Dm"A3 F|
+"Dm"A A/A/ "C"G E|"Dm"F D/D/ D F|"A"A A/A/ "C"G E|"Dm"F D/D/ D (F|"A"E) A, (^C E)|"Dm"D4|]
+W: Ma nishtana haleilah hazeh mikol haleilot? Mikol haleilot?
+W: Shebechol haleilot anu ochlin chametz umatzah, chametz umatzah.
+W: Haleilah hazeh, haleilah hazeh. Haleilah hazeh, haleilah hazeh - kulo matzah.
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84a5568914e40b4aae6
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1676943301531
+% abcbook-src-url https://tunebook.net/scrape/songs.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1

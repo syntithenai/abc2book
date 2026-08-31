@@ -1,11 +1,15 @@
+%abc-2.1
+% abcbook-book christmas songs
 
-X: 0
+X: 98
 T: Drinking White Wine In The Sun
 C:Tim Minchin
-B: christmas songs
-B: songs
 M:6/8
 Q: 3/8=100
+B: christmas songs
+B: songs
+% abcbook-tags steve ryan,test,steve set
+K:F
 V:1 
 "F"zzzzzz|"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|
 "Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
@@ -269,23 +273,223 @@ W: It's sentimental, I know
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=fCNvZqpa-7Q
 % abcbook-link-title-0 White Wine In The Sun by Tim Minchin
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags steve ryan
+% abcbook-boost 3
+% abcbook-difficulty 1
 % abcbook-tablature 
+% abcbook-capo 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675080683528
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1677506600700
+% abcbook-src-url https://tunebook.net/scrape/christmas%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
+X: 99
+T: Silent Night
+M:3/4
+L:1/8
+Q: 1/4=100
+B: christmas songs
+B: songs
+% abcbook-tags robert kingston,© free,% abcbook-tablature
+K:D
+V:1 
+"D"A3BA2|F6|A3BA2|F6|"A"e4e2|"A7"c6|"D"d4d2|A6|"G"B4B2|d3cB2|"D"A3BA2|F6|
+"G"B4B2|d3cB2|"D"A3BA2|F6|"A"e4e2|g3ec2|"D"d6|f6|d3AF2|"A"A3GE2|"D"D6|D4 z2 |
+W: Silent night, holy night!
+W: All is calm, all is bright.
+W: Round yon Virgin, Mother and Child.
+W: Holy infant so tender and mild,
+W: Sleep in heavenly peace,
+W: Sleep in heavenly peace
+W: 
+W: Silent night, holy night!
+W: Shepherds quake at the sight.
+W: Glories stream from heaven afar
+W: Heavenly hosts sing Alleluia,
+W: Christ the Savior is born!
+W: Christ the Savior is born
+W: 
+W: 
+W: Silent night, holy night!
+W: Son of God love's pure light.
+W: Radiant beams from Thy holy face
+W: With dawn of redeeming grace,
+W: Jesus Lord, at Thy birth
+W: Jesus Lord, at Thy birth
+% abcbook-tune_id 627df8e519e83fe44988cc84
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=sme8N2pzRx8
+% abcbook-link-title-0 Pentatonix - Silent Night (Live) (Official Video)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1678347806948
+% abcbook-src-url https://tunebook.net/scrape/christmas%20songs.abc
+% abcbook-soundfonts 
+% abcbook-repeats 3
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords
+
+X: 100
+T: Fairytale of New York
+M:4/4
+Q: 1/4=100
+V:1 
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zz"D"zz"A"zzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"Asus"zzzz"D"zzzz||
+"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
+"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
+"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
+"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
+"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
+"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
+"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
+"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zz"D"zz"A"zzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"Asus"zzzz"D"zzzz||
+"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
+W: [A] It was Christmas [D] Eve babe, in the [G] drunk tank
+W: An old man [D] said to me, won't [G] see a-[A]nother one [A7]
+W: And then he [D] sang a song, the Rare Old [G] Mountain Dew
+W: I turned my [D] face away and [G] dreamed a-[A]bout [D] you [A]
+W: Got on a [D] lucky one, came in eight-[G]een to one
+W: I've got a [D] feeling this year's for [A] me and you [A7]
+W: So happy [D] Christmas, I love you [G] baby
+W: I can see a [D] better time when [G] all our [Asus4] dreams come [D] true
+W: [G] / [D] [G] / [A] [D] /
+W: [D] [G]/[D] [A]/[D] [G]/[A] [D]
+W: 
+W: They've got [D] cars big as [A] bars, they've got [Bm] rivers of [G] gold
+W: But the [D] wind goes right through you, it's no place for the [A] old
+W: When you [D] first took my [Bm] hand on a [D] cold Christmas [G] Eve
+W: You [D] promised me Broadway was [A] waiting for [D] me
+W: You were [D] handsome, you were pretty, Queen of New York [A] City
+W: When the [D] band finished [G] playing they [A] howled out for [D] more
+W: Si-[D]natra was swinging, all the drunks they were [A] singing
+W: We [D] kissed on the [G] corner then [A] danced through the [D] night
+W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
+W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
+W: 
+W: They've got [D] cars big as [A] bars, they've got [Bm] rivers of [G] gold
+W: But the [D] wind goes right through you, it’s no place for the [A] old
+W: When you [D] first took my [Bm] hand on a [D] cold Christmas [G] Eve
+W: You [D] promised me Broadway was [A] waiting for [D] me
+W: 
+W: You're a [D] bum, you're a punk, you're an old slut on [A] junk
+W: Lying [D] there almost [G] dead on a [A] drip in that [D] bed
+W: You [D] scumbag, you maggot, you cheap lousy [A] faggot
+W: Happy [D] Christmas your [G] arse, I pray [A] God it's our [D] last
+W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
+W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
+W: 
+W: It was Christmas [D] Eve babe, in the [G]drunk tank [G]
+W: An old man [D] said to me, won't see a-[A]nother one [A7]
+W: 
+W: I [A] could have [D] been someone, well so could [G] anyone
+W: You took my [D] dreams from me when I first [A] found you [A7]
+W: I kept them [D] with me babe, I put them [G] with my own
+W: Can't make it [D] all alone, I've built my [G] dreams a-[A]round [D] you
+W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
+W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
+W: 
+W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
+W: And the [D] bells were [G] ringing [A] out for Christmas [D] day [G] [D]
+W: 
+W: ===========================================
+W: 
+W: It was Christmas Eve, babe, in the drunk tank
+W: An old man said to me, "Won't see another one"
+W: And then he sang a song, 'The Rare Old Mountain Dew'
+W: I turned my face away and dreamed about you
+W: 
+W: Got on a lucky one, came in eighteen-to-one
+W: I've got a feeling this year's for me and you
+W: So, Happy Christmas, I love you, baby
+W: I can see a better time when all our dreams come true
+W: 
+W: They've got cars big as bars, they've got rivers of gold
+W: But the wind goes right through you, it's no place for the old
+W: When you first took my hand on a cold Christmas Eve
+W: You promised me Broadway was waiting for me
+W: 
+W: You were handsome, you were pretty, queen of New York City
+W: When the band finished playing, they howled out for more
+W: Sinatra was swinging, all the drunks, they were singing
+W: We kissed on a corner, then danced through the night
+W: 
+W: The boys of the NYPD choir
+W: Were singing, "Galway Bay"
+W: And the bells were ringing out
+W: For Christmas Day
+W: 
+W: You're a bum, you're a punk, you're an old slut on junk
+W: Lying there almost dead on a drip in that bed
+W: You scumbag, you maggot, you cheap, lousy faggot
+W: Happy Christmas, your arse, I pray God it's our last
+W: 
+W: The boys of the NYPD choir
+W: Still singing, "Galway Bay"
+W: And the bells are ringing out
+W: For Christmas Day
+W: 
+W: "I could have been someone" Well, so could anyone
+W: You took my dreams from me when I first found you
+W: I kept them with me, babe, I put them with my own
+W: Can't make it all alone, I've built my dreams around you
+W: 
+W: The boys of the NYPD choir
+W: Still singing, "Galway Bay"
+W: And the bells are ringing out
+W: For Christmas Day
+% abcbook-tune_id 6344381b37bc47c68bf3345b
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=j9jbdgZidu8
+% abcbook-link-title-0 The Pogues -  Fairytale Of New York (Official Video)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1678362408432
+% abcbook-src-url https://tunebook.net/scrape/christmas%20songs.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+B: christmas songs
+B: songs
+% abcbook-tags robert kingston,% abcbook-tablature
 
 X: 1
 T: Jingle Bells
-B: christmas songs
 M:2/4
 L:1/8
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:A
 V:1 
 "A"Ec BA | E3 E/-E/ | Ec BA | "D"F4 | "Bm"Fd cB |"E7"G3 e | fe dB |"A"c4 ||
@@ -334,7 +538,6 @@ W: In one horse open sleigh!
 % abcbook-link-title-0 Jingle Bells
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose -2
 % abcbook-tuning 
@@ -349,66 +552,14 @@ W: In one horse open sleigh!
 % Time_signature 2/4
 % Has_accompaniment_chords Has chords
 
-X: 2
-T: Silent Night
-B: christmas songs
-M:3/4
-L:1/8
-Q: 1/4=100
-K:D
-V:1 
-"D"A3BA2|F6|A3BA2|F6|"A"e4e2|"A7"c6|"D"d4d2|A6|"G"B4B2|d3cB2|"D"A3BA2|F6|
-"G"B4B2|d3cB2|"D"A3BA2|F6|"A"e4e2|g3ec2|"D"d6|f6|d3AF2|"A"A3GE2|"D"D6|D4 z2 |
-W: Silent night, holy night!
-W: All is calm, all is bright.
-W: Round yon Virgin, Mother and Child.
-W: Holy infant so tender and mild,
-W: Sleep in heavenly peace,
-W: Sleep in heavenly peace
-W: 
-W: Silent night, holy night!
-W: Shepherds quake at the sight.
-W: Glories stream from heaven afar
-W: Heavenly hosts sing Alleluia,
-W: Christ the Savior is born!
-W: Christ the Savior is born
-W: 
-W: 
-W: Silent night, holy night!
-W: Son of God love's pure light.
-W: Radiant beams from Thy holy face
-W: With dawn of redeeming grace,
-W: Jesus Lord, at Thy birth
-W: Jesus Lord, at Thy birth
-% abcbook-tune_id 627df8e519e83fe44988cc84
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=sme8N2pzRx8
-% abcbook-link-title-0 Pentatonix - Silent Night (Live) (Official Video)
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags 
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1670928707580
-% abcbook-soundfonts 
-% abcbook-repeats 3
-% Titles One title
-% Transcriptions Only 1 transcription
-% Movement Has lots of stepwise movement
-% Movement Has some stepwise movement
-% Mode major
-% Key D
-% Time_signature 3/4
-% Has_accompaniment_chords No chords
-
 X: 3
 T: Away in a Manger
-B: christmas songs
 M:3/4
 L:1/4
 R: Air
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 d | "G"d>c B | B A G | "C"G F E | "G"D2 D | "D"D>E D |
@@ -434,7 +585,6 @@ W: And take us to heaven, to live with Thee there
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -442,13 +592,13 @@ W: And take us to heaven, to live with Thee there
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
-
 X: 4
 T: Deck the Halls
-B: christmas songs
 M:4/4
 L:1/4
 Q: 1/4=140
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 "D"A>G F E | "Bm"D E F D | "A7"E/2F/2G/2E/2 "D"F>E | D "A7"C "D"D2 |
@@ -488,7 +638,6 @@ W: Fa la la la la, la la la la.
 % abcbook-link-title-0 Pentatonix - Deck The Halls (Official Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 3
 % abcbook-tuning 
@@ -508,10 +657,11 @@ W: Fa la la la la, la la la la.
 
 X: 5
 T: We Three Kings
-B: christmas songs
 M:6/8
 L:1/8
 Q: 3/8=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:Em
 V:1 
 | "Em"B2A G2E | "B7"FGF "Em"E3 | B2A G2E | "B7"FGF "Em"E3 \
@@ -560,7 +710,6 @@ W: We three kings, we three kings
 % abcbook-link-title-0 We Three Kings - Clamavi De Profundis
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -579,11 +728,12 @@ W: We three kings, we three kings
 
 X: 6
 T: The Little Drummer Boy
-B: christmas songs
 M:4/4
 L:1/8
 R: reel
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:F
 V:1 
 "F"F6G2|A4 A2A2|"Bb"BAB2 "F"A4-|A8|
@@ -619,7 +769,6 @@ W: Me and my drum
 % abcbook-link-title-0 [Official Video] Little Drummer Boy - Pentatonix
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -638,10 +787,11 @@ W: Me and my drum
 
 X: 7
 T: Hark The Herald Angels Sing
-B: christmas songs
 M:4/4
 L:1/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 "G"D G G>F | G B "D"(B A) |"G" d d d>c | "D"B A "G"B2 |
@@ -687,7 +837,6 @@ W: "Glory to the newborn King!"
 % abcbook-link-title-0 Hark the Herald (Sing Out Loud) | The Spirituals Choir (Official Music Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -704,10 +853,11 @@ W: "Glory to the newborn King!"
 
 X: 8
 T: Joy to the World
-B: christmas songs
 M:2/4
 L:1/8
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 | "D"d2 "(G)"c>B | "D"A3 "(Em)"G | "D"F2 "A7"E2 | "D"D3 A | "G"B3 B | "A7"c3 c | "D"d4 - | d3 d | "D"dc BA | A>G Fd || 
@@ -758,7 +908,6 @@ W: And Heaven, and Heaven, and nature sing
 % abcbook-link-title-0 Pentatonix - Joy to the World (Official Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -775,10 +924,11 @@ W: And Heaven, and Heaven, and nature sing
 
 X: 9
 T: O Come, All Ye Faithful (G)
-B: christmas songs
 M:4/4
 L:1/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 "G"G \
@@ -825,7 +975,6 @@ W:
 % abcbook-link-title-0 O Come, All Ye Faithful
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -843,10 +992,11 @@ W:
 
 X: 10
 T: The 12 Days of Christmas
-B: christmas songs
 M:4/4
 L:1/8
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:F
 V:1 
  CC| "F"C2 FF F2 EF| "C"GA BG "F"A4|
@@ -973,7 +1123,6 @@ W: A partridge in a pear tree
 % abcbook-link-title-0 Pentatonix - 12 Days Of Christmas (Official Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -991,10 +1140,11 @@ W: A partridge in a pear tree
 
 X: 11
 T: We Wish You A Merry Christmas
-B: christmas songs
 M:3/4
 L:1/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 D | "G"G G/A/ G/F/ | "C"E E E | "A7"A A/B/ A/G/ | "D"F D D | "B7"B B/c/ B/A/ | "Em"G E E/E/ | "C"E A "D7"F | "G"G2 ||
@@ -1039,7 +1189,6 @@ W: We wish you a merry Christmas and a happy new year
 % abcbook-link-title-0 We Wish You A Merry Christmas (Live At The Helix In Dubli...
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1057,7 +1206,6 @@ W: We wish you a merry Christmas and a happy new year
 X: 12
 T: Have Yourself a Merry Little Christmas
 C:Hugh Martin and Ralph Blane
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1090,7 +1238,6 @@ W: And have yourself A merry little Christmas now.
 % abcbook-link-title-0 Have Yourself A Merry Little Christmas
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1098,10 +1245,11 @@ W: And have yourself A merry little Christmas now.
 % abcbook-soundfonts 
 % abcbook-repeats 2
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 13
 T: Frosty the Snowman
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1150,7 +1298,6 @@ W: But he waved goodbye, sayin' "Don't cry, I'll be back again some day."
 % abcbook-link-title-0 Ella Fitzgerald - Frosty The Snowman (Official Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1158,11 +1305,12 @@ W: But he waved goodbye, sayin' "Don't cry, I'll be back again some day."
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 14
 T: Rudolph The Red Nosed Reindeer
 C:Gene Autrey
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1207,7 +1355,6 @@ W: you'll go down in history!
 % abcbook-link-title-0 Gene Autry - Rudolph the Red-Nosed Reindeer (Audio)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1215,11 +1362,12 @@ W: you'll go down in history!
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 15
 T: I Saw Mommy Kissing Santa Claus
 C:Jimmy Boyd
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1267,7 +1415,6 @@ W: Ooh-ooh-ooh-ooh-ooh
 % abcbook-link-title-0 Jimmy Boyd - I Saw Mommy Kissing Santa Claus 1952
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1275,10 +1422,11 @@ W: Ooh-ooh-ooh-ooh-ooh
 % abcbook-soundfonts 
 % abcbook-repeats 2
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 16
 T: Santa Claus Is Coming To Town
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1358,7 +1506,6 @@ W: Santa Claus is coming to town
 % abcbook-link-title-0 Michael Bublé - Santa Claus Is Coming To Town [Official HD]
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1366,12 +1513,15 @@ W: Santa Claus is coming to town
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 17
 T: The First Noel
-B: christmas songs
 M:3/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 F/2E/2 | ("D"D>E) "Bm"F/2G/2 | "A"A2 "A9"B/2c/2 | ("D"d c) "G"B | "D"A2
@@ -1420,7 +1570,6 @@ W: And with his blood mankind hath bought
 % abcbook-link-title-0 Pentatonix - The First Noel (Official Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1428,13 +1577,13 @@ W: And with his blood mankind hath bought
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 18
 T: Carol Of The Birds
 C:John Wheeler and William James
-B: christmas songs
 M:4/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:C
 V:1 
 W: Out on the plains the brolgas are dancing
@@ -1478,7 +1627,6 @@ W: Orana! Orana! Orana to Christmas Day.
 % abcbook-link-title-0 Carol of the Birds : Australian Christmas Carol sung by Bucko &amp; Champs
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1486,12 +1634,12 @@ W: Orana! Orana! Orana to Christmas Day.
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 19
 T: Angels We Have Heard On High
-B: christmas songs
 M:4/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 "G"B2 B2 B2 d2 |  d2>c2 B4 |  B2 A2 B2 d2 | "D" B2>A2 "G" G4 |"G" B2 B2 B2 d2 |  d2>c2 B4 |  B2 A2 B2 d2 |  "D" B2>A2 "G"G4 |
@@ -1522,7 +1670,6 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1530,11 +1677,11 @@ W:
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
-
 X: 20
 T: I Saw Three Ships
-B: christmas songs
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 D|"G"G2G "D"A2B|"G"d2B "Am"A2c|"G"B2G G2B|"D" A2F D2D|
@@ -1582,7 +1729,6 @@ W: On Christmas Day in the morning
 % abcbook-link-title-0 I Saw Three Ships
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1590,10 +1736,8 @@ W: On Christmas Day in the morning
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
 X: 21
 T: Good King Wencelas
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1657,7 +1801,6 @@ W: Shall himself find cheering.]
 % abcbook-link-title-0 Irish Rovers - Good King Wenceslas
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1665,13 +1808,16 @@ W: Shall himself find cheering.]
 % abcbook-soundfonts 
 % abcbook-repeats 5
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 22
 T: All Through The Night
 C:Edward Jones
-B: christmas songs
 M:4/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:F
 V:1 
 "F"F6/2 E "Bb"D2 F2 | "Gm"G2 F2 "C"E2 C2|  "Bb"D4 "C"E6/2 E|  "F"F8|"F"F6/2 E "Bb"D2 F2 | "Gm"G2 F2 "C"E2 C2|"Bb"D4 "C"E6/2 E| "F"F8||
@@ -1733,7 +1879,6 @@ W: Home through the night
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1741,11 +1886,11 @@ W: Home through the night
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
-
 X: 23
 T: Ding Dong Merrily On High
-B: christmas songs
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:G
 V:1 
 |: "G"G2 G2 "Am"AG FE |  "D"D6 D2 |  "C"E2G2 "D7"G2F2 |  "G"G4 G4 :|
@@ -1775,7 +1920,6 @@ W: Gloria, hosannah in excelsis!
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1783,140 +1927,9 @@ W: Gloria, hosannah in excelsis!
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
-
-X: 24
-T: Fairytale of New York
-B: christmas songs
-M:4/4
-Q: 1/4=100
-V:1 
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zz"D"zz"A"zzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"Asus"zzzz"D"zzzz||
-"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
-"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
-"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
-"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
-"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
-"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
-"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
-"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zz"D"zz"A"zzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"Asus"zzzz"D"zzzz||
-"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
-W: [A] It was Christmas [D] Eve babe, in the [G] drunk tank
-W: An old man [D] said to me, won't [G] see a-[A]nother one [A7]
-W: And then he [D] sang a song, the Rare Old [G] Mountain Dew
-W: I turned my [D] face away and [G] dreamed a-[A]bout [D] you [A]
-W: Got on a [D] lucky one, came in eight-[G]een to one
-W: I've got a [D] feeling this year's for [A] me and you [A7]
-W: So happy [D] Christmas, I love you [G] baby
-W: I can see a [D] better time when [G] all our [Asus4] dreams come [D] true
-W: [G] / [D] [G] / [A] [D] /
-W: [D] [G]/[D] [A]/[D] [G]/[A] [D]
-W: 
-W: They've got [D] cars big as [A] bars, they've got [Bm] rivers of [G] gold
-W: But the [D] wind goes right through you, it's no place for the [A] old
-W: When you [D] first took my [Bm] hand on a [D] cold Christmas [G] Eve
-W: You [D] promised me Broadway was [A] waiting for [D] me
-W: You were [D] handsome, you were pretty, Queen of New York [A] City
-W: When the [D] band finished [G] playing they [A] howled out for [D] more
-W: Si-[D]natra was swinging, all the drunks they were [A] singing
-W: We [D] kissed on the [G] corner then [A] danced through the [D] night
-W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
-W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
-W: 
-W: They've got [D] cars big as [A] bars, they've got [Bm] rivers of [G] gold
-W: But the [D] wind goes right through you, it’s no place for the [A] old
-W: When you [D] first took my [Bm] hand on a [D] cold Christmas [G] Eve
-W: You [D] promised me Broadway was [A] waiting for [D] me
-W: 
-W: You're a [D] bum, you're a punk, you're an old slut on [A] junk
-W: Lying [D] there almost [G] dead on a [A] drip in that [D] bed
-W: You [D] scumbag, you maggot, you cheap lousy [A] faggot
-W: Happy [D] Christmas your [G] arse, I pray [A] God it's our [D] last
-W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
-W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
-W: 
-W: It was Christmas [D] Eve babe, in the [G]drunk tank [G]
-W: An old man [D] said to me, won't see a-[A]nother one [A7]
-W: 
-W: I [A] could have [D] been someone, well so could [G] anyone
-W: You took my [D] dreams from me when I first [A] found you [A7]
-W: I kept them [D] with me babe, I put them [G] with my own
-W: Can't make it [D] all alone, I've built my [G] dreams a-[A]round [D] you
-W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
-W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
-W: 
-W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
-W: And the [D] bells were [G] ringing [A] out for Christmas [D] day [G] [D]
-W: 
-W: ===========================================
-W: 
-W: It was Christmas Eve, babe, in the drunk tank
-W: An old man said to me, "Won't see another one"
-W: And then he sang a song, 'The Rare Old Mountain Dew'
-W: I turned my face away and dreamed about you
-W: 
-W: Got on a lucky one, came in eighteen-to-one
-W: I've got a feeling this year's for me and you
-W: So, Happy Christmas, I love you, baby
-W: I can see a better time when all our dreams come true
-W: 
-W: They've got cars big as bars, they've got rivers of gold
-W: But the wind goes right through you, it's no place for the old
-W: When you first took my hand on a cold Christmas Eve
-W: You promised me Broadway was waiting for me
-W: 
-W: You were handsome, you were pretty, queen of New York City
-W: When the band finished playing, they howled out for more
-W: Sinatra was swinging, all the drunks, they were singing
-W: We kissed on a corner, then danced through the night
-W: 
-W: The boys of the NYPD choir
-W: Were singing, "Galway Bay"
-W: And the bells were ringing out
-W: For Christmas Day
-W: 
-W: You're a bum, you're a punk, you're an old slut on junk
-W: Lying there almost dead on a drip in that bed
-W: You scumbag, you maggot, you cheap, lousy faggot
-W: Happy Christmas, your arse, I pray God it's our last
-W: 
-W: The boys of the NYPD choir
-W: Still singing, "Galway Bay"
-W: And the bells are ringing out
-W: For Christmas Day
-W: 
-W: "I could have been someone" Well, so could anyone
-W: You took my dreams from me when I first found you
-W: I kept them with me, babe, I put them with my own
-W: Can't make it all alone, I've built my dreams around you
-W: 
-W: The boys of the NYPD choir
-W: Still singing, "Galway Bay"
-W: And the bells are ringing out
-W: For Christmas Day
-% abcbook-tune_id 6344381b37bc47c68bf3345b
-% abcbook-tune_composer_id 
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags 
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1671694146310
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
 X: 25
 T: Happy Christmas (War Is Over)
 C:John Lennon
-B: christmas songs
 M:4/4
 Q: 1/4=100
 V:1 
@@ -1977,7 +1990,6 @@ W: Happy Christmas (Happy Christmas)
 % abcbook-link-title-0 Happy Xmas (War Is Over)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1985,13 +1997,16 @@ W: Happy Christmas (Happy Christmas)
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 
 X: 26
 T: While Shepherds Watch Their Flocks By Night
-B: christmas songs
 M:4/4
 L:1/4
 Q: 1/4=130
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:F
 V:1 
 F|"F"A>AGF|"Bb"BB"F"AF|Acc=B|"C"c3A|"Bb"d>cBA|GFEA|"F"GF"C"FE|"F"F3||
@@ -2027,7 +2042,6 @@ W: Begin and never cease.”
 % abcbook-link-title-0 King&#39;s College Cambridge 2011   #9 While Shepherd&#39;s watched their flocks by  night
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 2
 % abcbook-tuning 
@@ -2036,12 +2050,12 @@ W: Begin and never cease.”
 % abcbook-repeats 1
 %%MIDI transpose                                      2
 
-
 X: 27
 T: Unto Us A Child Is Born
-B: christmas songs
 M:3/4
 Q: 1/4=100
+B: christmas songs
+% abcbook-tags % abcbook-tablature
 K:D
 V:1 
 z2 z A AG |  "D"F4 F2|  "D7"(F2G2) A2|  "G"G6- | G4 Bd |"A7"c4 c2 |  "Em"B4 c2 |"D"B2 A4- | "D7"A4 AA |
@@ -2080,7 +2094,6 @@ W: My praise will never cease.
 % abcbook-link-title-0 Handel&#39;s Messiah: For Unto us a Child is Born, Tabernacle Choir
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 

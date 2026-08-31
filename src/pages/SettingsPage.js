@@ -28,6 +28,7 @@ import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
 import CleanupSettingsSection from '../components/CleanupSettingsSection'
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
+import BookTaxonomySettingsSection from '../components/BookTaxonomySettingsSection'
 import { isMusicCollectionSettingsAvailable } from '../musicCollectionAdminClient'
 import { isBillingAdminAvailable } from '../creditAdminClient'
 import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
@@ -700,12 +701,22 @@ export default function SettingsPage(props) {
               </Nav.Item>
             </Nav>
             {libraryTab === LIBRARY_TAB_LIBRARY ? (
-              <LibraryScaleSettingsSection
-                tunes={tunes}
-                indexes={props.indexes}
-                tunesContentRevision={props.tunesContentRevision}
-                forceRefresh={props.forceRefresh}
-              />
+              <>
+                <LibraryScaleSettingsSection
+                  tunes={tunes}
+                  indexes={props.indexes}
+                  tunesContentRevision={props.tunesContentRevision}
+                  forceRefresh={props.forceRefresh}
+                />
+                <BookTaxonomySettingsSection
+                  tunes={tunes}
+                  tunebook={tunebook}
+                  indexes={props.indexes}
+                  token={token}
+                  user={props.user}
+                  forceRefresh={props.forceRefresh}
+                />
+              </>
             ) : null}
             {libraryTab === TAB_BACKUP ? (
               <BackupSettingsSection

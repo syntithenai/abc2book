@@ -36,9 +36,9 @@ export default function ImportCollectionsAccordion(props) {
     var flat = props.flat === true
 
     function renderBookButton(bookTitle, bookMeta, imageKey) {
-        if (bookMeta.link) {
-            const importPath = buildCuratedImportPath(bookMeta)
-            const playPath = importPath + (bookMeta.book ? "/play" : "")
+        const importPath = buildCuratedImportPath(bookMeta, bookTitle)
+        if (importPath) {
+            const playPath = importPath + '/play'
             return <div key={bookTitle} className="books-page-book-card" role="group">
                 <Link to={importPath} className="books-page-collection-card-link" style={{textDecoration:'none'}}>
                     <Button variant="primary" className="books-page-collection-card-main" onClick={function() {props.setCurrentTuneBook(bookTitle)}}>

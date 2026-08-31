@@ -1303,6 +1303,13 @@ a.header-now-playing-label:focus {
   filter: brightness(0) invert(1);
 }
 
+.header-nav-menu .header-dropdown-btn img:not(.icon-bitmap) {
+  width: 1.2em;
+  height: 1.2em;
+  flex-shrink: 0;
+  vertical-align: -0.12em;
+}
+
 @media (max-width: 768px) {
   .header-nav-menu {
     inset: 3.5em 0.4em auto 0.4em !important;
@@ -1471,7 +1478,7 @@ a.header-now-playing-label:focus {
 }
 
 .header-dropdown-section-tools {
-  grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr));
+  grid-template-columns: repeat(3, minmax(5.5rem, 1fr));
 }
 
 .header-dropdown-section a {
@@ -1589,9 +1596,11 @@ a.header-now-playing-label:focus {
   gap: 0.35em;
 }
 
-.header-dropdown-btn-label svg {
+.header-dropdown-btn-label svg,
+.header-dropdown-btn-label img {
   float: none;
   margin-top: 0;
+  flex-shrink: 0;
 }
 
 .header-auth-btn {

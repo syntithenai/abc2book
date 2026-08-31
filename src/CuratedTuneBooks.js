@@ -1,41 +1,79 @@
 /**
- * Used to generate list of curated collections when importing tunes
+ * Curated import catalog aligned with bookTaxonomy target books.
+ * Multi-file / cross-book tag cards use `all: true` or `links: [...]`.
  */
-export default {
-  'all the tunes': {group:'Collections', link:'tunes.abc', image:'tunes.jpeg', book:'tunes'},
-  "traditional songs": {group:'Collections', link:'traditional songs.abc', image:'traditionalsongs.jpeg', book:'traditional songs'},
-  'christmas songs': {group:'Collections',link:'christmas songs.abc' ,image:'christmassongs.jpeg', book:'christmas songs'},
-  'kids songs': {group:'Collections',link:'kids songs.abc',  image:'kidssongs.jpeg', book:'kids songs'},
-  'canberra pickers and fiddlers': {group:'Collections', link:'tunes.abc', image:'canberrapickersandfiddlers.jpeg', book:"tunes", tag:"canberra pickers and fiddlers"},
-  'jims roots and blues': {group:'Collections',link:'jims roots.abc', image:'jimsrootsandblues.jpeg'},
-  'begged borrowed and stolen': {group:'Collections', link:'tunes.abc', image:'beggedborrowedandstolen.jpeg', book:'tunes', tag:"begged borrowed and stolen"},
-  'kameruka choir': {group:'Collections', link:'songs.abc', image:'kamerukachoir.jpeg', book: 'songs', tag:"kameruka choir"},
-  'kameruka bush dance': {group:'Collections', image:'kamerukabushdance.jpeg' , book: 'tunes', link:'tunes.abc', tag:"kameruka bush dance"},
-  'sean kenan irish music': {group:'Collections', link:'tunes.abc', image:'seankenanirishmusic.jpeg', book: 'tunes', tag:"sean kenan book"},
-  'good tune book': {group:'Collections', link:'tunes.abc', image:'goodtunebook.jpeg', book: 'tunes', tag:"good tune book"},
-  'velma mckeachie': {group:'Collections', link:'songs.abc', image:'velmamckeachie.jpeg', book: 'songs', tag:"velma mckeachie"},
-  'brooke marshall': {group:'Collections', link:'songs.abc', image:'brookemarshall.jpeg', book: 'songs', tag:"brooke marshall"},
-  'charlotte lyngbye': {group:'Collections', link:'songs.abc', image:'charlottelyngbye.jpeg', book: 'songs', tag:"charlotte lyngbye originals"},
-  'mandira': {group:'Collections', link:'songs.abc', image:'mandira.jpeg', book: 'songs', tag:"mandira"},
-  'max campbell': {group:'Collections', link:'songs.abc', image:'maxcampbell.jpeg', book: 'songs', tag: 'max campbell'},
-  'robert kingston': {group:'Collections', link:'songs.abc', image:'robertkingston.jpeg', book: 'songs', tag:"robert kingston"},
-  'steve ryan': {group:'Collections', link:'songs.abc', image:'steveryan.jpeg', book: 'songs', tag:"steve ryan"},
-  'francesca': {group:'Collections', link:'songs.abc', image:'francesca.jpeg', book: 'songs', tag:"francesca"},
-  'songs': {group:'Collections', link:'songs.abc', image:'songs.jpeg', book:'songs'},
-  'australian bush traditions': {group:'Collections', link:'australiabushtraditions.abc', book:'australian bush traditions'},
-  'old time': {
+import { BOOK_COVER_IMAGES, BOOK_SCRAPE_FILES, PUBLISHABLE_SCRAPE_FILES } from './bookTaxonomy.js'
+
+function bookEntry(book, extras) {
+  const file = BOOK_SCRAPE_FILES[book]
+  const image = BOOK_COVER_IMAGES[book]
+  return Object.assign({
     group: 'Collections',
-    link: 'oldtimefiddletunes.abc',
-    book: 'old time',
-    image: 'oldtime.jpeg',
-    // Source editions: keep multiple settings of the same title (e.g. Dusty Miller).
-    allowDuplicateTitles: true,
-  },
-  'milliner koken': {
-    group: 'Collections',
-    link: 'millinerkoken.abc',
-    book: 'milliner koken',
-    image: 'millinerkoken.jpeg',
-    allowDuplicateTitles: true,
-  },
+    link: file,
+    book: book,
+    image: image,
+  }, extras || {})
 }
+
+function tagAcrossBooks(tag, image, extras) {
+  return Object.assign({
+    group: 'Collections',
+    all: true,
+    tag: tag,
+    image: image,
+    useCatalogRoute: true,
+  }, extras || {})
+}
+
+function tagInBook(book, tag, image, extras) {
+  return Object.assign({
+    group: 'Collections',
+    link: BOOK_SCRAPE_FILES[book],
+    book: book,
+    tag: tag,
+    image: image,
+  }, extras || {})
+}
+
+export default {
+  'import all': {
+    group: 'Collections',
+    all: true,
+    image: 'tunes.jpeg',
+    useCatalogRoute: true,
+  },
+
+  tunes: bookEntry('tunes'),
+  songs: bookEntry('songs'),
+  'christmas songs': bookEntry('christmas songs'),
+  'kids songs': bookEntry('kids songs'),
+  celtic: bookEntry('celtic'),
+  'old time american': bookEntry('old time american'),
+  'australian bush dance': bookEntry('australian bush dance'),
+  eurosession: bookEntry('eurosession'),
+  'balkan dances': bookEntry('balkan dances'),
+  ukranian: bookEntry('ukranian'),
+
+  // Tag subsets (often single-book)
+  'kameruka bush dance': tagInBook('australian bush dance', 'kameruka bush dance', 'kamerukabushdance.jpeg'),
+  'sean kenan irish music': tagInBook('celtic', 'sean kenan book', 'seankenanirishmusic.jpeg'),
+  'begged borrowed and stolen': tagInBook('celtic', 'begged borrowed and stolen', 'beggedborrowedandstolen.jpeg'),
+  'good tune book': tagInBook('celtic', 'good tune book', 'goodtunebook.jpeg'),
+  'canberra pickers and fiddlers': tagInBook('old time american', 'canberra pickers and fiddlers', 'canberrapickersandfiddlers.jpeg'),
+  'brisbane old time session': tagInBook('old time american', 'brisbane old time session', 'brisbaneoldtimesession.jpeg'),
+  'traditional songs': tagAcrossBooks('traditional songs', 'traditionalsongs.jpeg'),
+  'jims roots and blues': tagAcrossBooks('jims roots and blues', 'jimsrootsandblues.jpeg'),
+  'kameruka choir': tagAcrossBooks('kameruka choir', 'kamerukachoir.jpeg'),
+
+  // Person / contributor tags — span books
+  'velma mckeachie': tagAcrossBooks('velma mckeachie', 'velmamckeachie.jpeg'),
+  'brooke marshall': tagAcrossBooks('brooke marshall', 'brookemarshall.jpeg'),
+  'charlotte lyngbye': tagAcrossBooks('charlotte lyngbye originals', 'charlottelyngbye.jpeg'),
+  mandira: tagAcrossBooks('mandira', 'mandira.jpeg'),
+  'max campbell': tagAcrossBooks('max campbell', 'maxcampbell.jpeg'),
+  'robert kingston': tagAcrossBooks('robert kingston', 'robertkingston.jpeg'),
+  'steve ryan': tagAcrossBooks('steve ryan', 'steveryan.jpeg'),
+  francesca: tagAcrossBooks('francesca', 'francesca.jpeg'),
+}
+
+export { PUBLISHABLE_SCRAPE_FILES }

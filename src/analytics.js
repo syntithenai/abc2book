@@ -31,6 +31,7 @@ const STATIC_ROUTE_SEGMENTS = new Set([
   'importaudio',
   'importdoc',
   'importlink',
+  'importcurated',
   'playMidi',
   'playMedia',
   'book',
