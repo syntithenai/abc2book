@@ -98,6 +98,17 @@ This is the list of OAuth scopes your **project is allowed to request**. It is n
 | Photos picker scope | Only when you use Google Photos import | See Console classification |
 | `drive.file` | YogApp (`/yoga/`) sync JSON in a Drive **YogApp** folder | Non-sensitive — same as Tunebook login |
 
+**If Yoga still shows “Google hasn’t verified this app” after switching to
+`drive.file`:** GIS defaults to `include_granted_scopes=true`, which re-attaches
+old grants such as `drive.appdata` / `drive.readonly`. YogApp now sets
+`include_granted_scopes: false`. Also:
+
+1. Google Auth Platform → **Data access**: remove unused sensitive scopes
+   (`drive.appdata`, and `drive.readonly` if you do not need Import-from-Drive
+   verification pending).
+2. Revoke the app at [Google Account → Third-party access](https://myaccount.google.com/permissions),
+   then sign in again (hard refresh `/yoga/`).
+
 ## YogApp at tunebook.net/yoga (shared login)
 
 YogApp is embedded under `https://tunebook.net/yoga/` and shares the **same Web
