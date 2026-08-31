@@ -15,10 +15,10 @@ import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions'
 import { isOwnedMediaLink } from '../linkRecording'
 import { isPdfTuneFileType } from '../tuneFiles'
 import { removeAddDraftTuneFile } from '../addFormAttach'
-import { fetchArtistDiscography } from '../artistDiscographyClient'
 import { fetchAlbumDiscography } from '../albumDiscographyClient'
 import { formatBulkLine } from '../bulkListFormat'
 import SearchResultPickerModal from './SearchResultPickerModal'
+import ArtistDiscographyImportModal from './ArtistDiscographyImportModal'
 import AddCuratedCollectionsPanel from './AddCuratedCollectionsPanel'
 
 function uniqueStrings(values) {
@@ -61,14 +61,13 @@ export default function AddTuneSimpleForm(props) {
   const [artistSuggestOptions, setArtistSuggestOptions] = useState([])
   const [youtubeSearchQuery, setYoutubeSearchQuery] = useState('')
   const [youtubeSearchNonce, setYoutubeSearchNonce] = useState(0)
-  const [discographyBusy, setDiscographyBusy] = useState(false)
-  const [discographyProgress, setDiscographyProgress] = useState('')
+  const [showDiscographyImport, setShowDiscographyImport] = useState(false)
   const [albumDiscographyBusy, setAlbumDiscographyBusy] = useState(false)
   const [albumDiscographyProgress, setAlbumDiscographyProgress] = useState('')
   const [albumPickerCandidates, setAlbumPickerCandidates] = useState([])
   const [showAlbumPicker, setShowAlbumPicker] = useState(false)
   const [album, setAlbum] = useState('')
-  const discographyAbortRef = useRef(null)
+  const albumDiscographyAbortRef = useRef(null)
 
   const matches = useMemo(function() {
     return findCollectionMatches({
@@ -185,42 +184,19 @@ export default function AddTuneSimpleForm(props) {
     }
   }
 
-  async function handleDiscography() {
-    if (!artist || discographyBusy) return
-    if (discographyAbortRef.current) {
-      discographyAbortRef.current.abort()
+  function handleDiscography() {
+    if (!artist || albumDiscographyBusy) return
+    setShowDiscographyImport(true)
+  }
+
+  function handleDiscographyImportLines(lines) {
+    if (!lines || !lines.length) {
+      toast.info('No songs selected from discography.')
+      return
     }
-    const controller = new AbortController()
-    discographyAbortRef.current = controller
-    setDiscographyBusy(true)
-    setDiscographyProgress('Looking up artist…')
-    try {
-      const result = await fetchArtistDiscography(artist, {
-        signal: controller.signal,
-        onProgress: function(message) {
-          setDiscographyProgress(String(message || '').trim())
-        },
-      })
-      const artistLabel = String(result.artistName || artist).trim()
-      const lines = (result.titles || []).map(function(songTitle) {
-        return formatBulkLine({ title: songTitle, artist: artistLabel })
-      })
-      if (!lines.length) {
-        toast.info('No songs found in that artist discography.')
-        return
-      }
-      fillBulkImportLines(lines)
-      toast.success('Loaded ' + lines.length + ' song' + (lines.length === 1 ? '' : 's') + ' into bulk import.')
-    } catch (e) {
-      if (e && e.name === 'AbortError') return
-      toast.error((e && e.message) || 'Could not look up discography.')
-    } finally {
-      if (discographyAbortRef.current === controller) {
-        discographyAbortRef.current = null
-      }
-      setDiscographyBusy(false)
-      setDiscographyProgress('')
-    }
+    fillBulkImportLines(lines)
+    setShowDiscographyImport(false)
+    toast.success('Loaded ' + lines.length + ' song' + (lines.length === 1 ? '' : 's') + ' into bulk import.')
   }
 
   function applyAlbumTrackLines(result) {
@@ -267,12 +243,12 @@ export default function AddTuneSimpleForm(props) {
   }
 
   async function handleAlbumDiscography() {
-    if (!albumName || albumDiscographyBusy || discographyBusy) return
-    if (discographyAbortRef.current) {
-      discographyAbortRef.current.abort()
+    if (!albumName || albumDiscographyBusy || showDiscographyImport) return
+    if (albumDiscographyAbortRef.current) {
+      albumDiscographyAbortRef.current.abort()
     }
     const controller = new AbortController()
-    discographyAbortRef.current = controller
+    albumDiscographyAbortRef.current = controller
     setAlbumDiscographyBusy(true)
     setAlbumDiscographyProgress('Looking up album…')
     setShowAlbumPicker(false)
@@ -294,8 +270,8 @@ export default function AddTuneSimpleForm(props) {
       if (e && e.name === 'AbortError') return
       toast.error((e && e.message) || 'Could not look up album tracks.')
     } finally {
-      if (discographyAbortRef.current === controller) {
-        discographyAbortRef.current = null
+      if (albumDiscographyAbortRef.current === controller) {
+        albumDiscographyAbortRef.current = null
       }
       setAlbumDiscographyBusy(false)
       setAlbumDiscographyProgress('')
@@ -306,11 +282,11 @@ export default function AddTuneSimpleForm(props) {
     if (!item || !item.candidate) return
     setShowAlbumPicker(false)
     setAlbumPickerCandidates([])
-    if (discographyAbortRef.current) {
-      discographyAbortRef.current.abort()
+    if (albumDiscographyAbortRef.current) {
+      albumDiscographyAbortRef.current.abort()
     }
     const controller = new AbortController()
-    discographyAbortRef.current = controller
+    albumDiscographyAbortRef.current = controller
     setAlbumDiscographyBusy(true)
     setAlbumDiscographyProgress('Loading album tracks…')
     try {
@@ -319,8 +295,8 @@ export default function AddTuneSimpleForm(props) {
       if (e && e.name === 'AbortError') return
       toast.error((e && e.message) || 'Could not look up album tracks.')
     } finally {
-      if (discographyAbortRef.current === controller) {
-        discographyAbortRef.current = null
+      if (albumDiscographyAbortRef.current === controller) {
+        albumDiscographyAbortRef.current = null
       }
       setAlbumDiscographyBusy(false)
       setAlbumDiscographyProgress('')
@@ -371,25 +347,13 @@ export default function AddTuneSimpleForm(props) {
               <Button
                 variant="outline-primary"
                 size="sm"
-                disabled={!artist || discographyBusy || albumDiscographyBusy}
+                disabled={!artist || albumDiscographyBusy}
                 data-testid="add-tune-discography"
-                title={discographyBusy ? (discographyProgress || 'Looking up discography…') : 'Load this artist\'s discography into bulk import'}
+                title="Browse this artist's albums and import songs into bulk import"
                 onClick={handleDiscography}
               >
-                {discographyBusy ? (
-                  <Spinner animation="border" size="sm" className="me-1" aria-hidden="true" />
-                ) : null}
                 Discography
               </Button>
-              {discographyBusy && discographyProgress ? (
-                <span
-                  className="small text-muted text-end"
-                  data-testid="add-tune-discography-progress"
-                  role="status"
-                >
-                  {discographyProgress}
-                </span>
-              ) : null}
             </div>
             </div>
             <ComposerSearchButton
@@ -465,7 +429,7 @@ export default function AddTuneSimpleForm(props) {
                 <Button
                   variant="outline-primary"
                   size="sm"
-                  disabled={!albumName || albumDiscographyBusy || discographyBusy}
+                  disabled={!albumName || albumDiscographyBusy || showDiscographyImport}
                   data-testid="add-tune-album-discography"
                   title={
                     albumDiscographyBusy
@@ -718,6 +682,13 @@ export default function AddTuneSimpleForm(props) {
           setShowAlbumPicker(false)
           setAlbumPickerCandidates([])
         }}
+      />
+      <ArtistDiscographyImportModal
+        show={showDiscographyImport}
+        artist={artist}
+        tunes={tunes}
+        onHide={function() { setShowDiscographyImport(false) }}
+        onImportLines={handleDiscographyImportLines}
       />
     </div>
   )

@@ -4,12 +4,17 @@ import './reactBootstrapDropdownPatch';
 import './index.css';
 import './breakpoints.css';
 import { installYoutubeDetachedPlayerErrorHandlers } from './youtubePlayerErrors';
+import { installUnhandledNetworkErrorHandlers } from './networkRequestErrors';
+import { toast } from 'react-toastify';
 import { applyColorScheme, getColorScheme } from './colorSchemeSettings';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 applyColorScheme(getColorScheme());
 installYoutubeDetachedPlayerErrorHandlers();
+installUnhandledNetworkErrorHandlers(function(message) {
+  toast.error(message);
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

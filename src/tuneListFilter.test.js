@@ -327,29 +327,31 @@ describe('tuneListFilter', function() {
   })
 
   test('resolveEffectiveGroupBy applies page grouping for active book filters', function() {
-    expect(resolveEffectiveGroupBy('', 'nff book 2009')).toBe(GROUP_BY_PAGE)
-    expect(resolveEffectiveGroupBy(GROUP_BY_PAGE, 'nff book 2009')).toBe(GROUP_BY_PAGE)
-    expect(resolveEffectiveGroupBy(GROUP_BY_NONE, 'nff book 2009')).toBe('')
-    expect(resolveEffectiveGroupBy('tags', 'nff book 2009')).toBe('tags')
+    expect(resolveEffectiveGroupBy('', 'eurosession')).toBe(GROUP_BY_PAGE)
+    expect(resolveEffectiveGroupBy(GROUP_BY_PAGE, 'eurosession')).toBe(GROUP_BY_PAGE)
+    expect(resolveEffectiveGroupBy(GROUP_BY_NONE, 'eurosession')).toBe('')
+    expect(resolveEffectiveGroupBy('tags', 'eurosession')).toBe('tags')
     expect(resolveEffectiveGroupBy('', '')).toBe('')
   })
 
   test('resolveEffectiveGroupBy applies page grouping for a single tag filter', function() {
+    expect(resolveEffectiveGroupBy('', '', ['nff book 2009'])).toBe(GROUP_BY_PAGE)
     expect(resolveEffectiveGroupBy('', '', ['kameruka bush dance'])).toBe(GROUP_BY_PAGE)
     expect(resolveEffectiveGroupBy('', '', ['a', 'b'])).toBe('')
-    expect(resolveEffectiveGroupBy(GROUP_BY_NONE, '', ['kameruka bush dance'])).toBe('')
+    expect(resolveEffectiveGroupBy(GROUP_BY_NONE, '', ['nff book 2009'])).toBe('')
+    expect(resolveEffectiveGroupBy(GROUP_BY_PAGE, '', ['nff book 2009'])).toBe(GROUP_BY_PAGE)
     expect(resolveEffectiveGroupBy('', 'celtic', ['kameruka bush dance'])).toBe(GROUP_BY_PAGE)
   })
 
   test('runTuneListFilterSync auto-sorts by book page when a book filter is active', function() {
     const tunes = {
       a: makeTune('a', 'Alpha', {
-        books: ['nff book 2009'],
-        bookPages: { 'nff book 2009': { page: 1, tuneIndex: 2 } },
+        books: ['eurosession'],
+        bookPages: { eurosession: { page: 2, tuneIndex: 1 } },
       }),
       b: makeTune('b', 'Beta', {
-        books: ['nff book 2009'],
-        bookPages: { 'nff book 2009': { page: 1, tuneIndex: 1 } },
+        books: ['eurosession'],
+        bookPages: { eurosession: { page: 1, tuneIndex: 1 } },
       }),
     }
     const result = runTuneListFilterSync({
@@ -359,17 +361,54 @@ describe('tuneListFilter', function() {
       tunebook: {
         groupTunes: function(list, key) {
           if (key === GROUP_BY_PAGE) {
-            return { 1: [0, 1] }
+            return { 1: [0], 2: [1] }
           }
           return {}
         },
         hasLyrics: function() { return false },
         hasLinks: function() { return false },
       },
-      filterContext: { currentTuneBook: 'nff book 2009' },
+      filterContext: { currentTuneBook: 'eurosession' },
     })
     expect(result.filtered.map(function(t) { return t.id })).toEqual(['b', 'a'])
-    expect(result.grouped[1]).toEqual([0, 1])
+    expect(result.grouped[1]).toEqual([0])
+    expect(result.grouped[2]).toEqual([1])
+  })
+
+  test('runTuneListFilterSync groups NFF tag filters by real PDF page', function() {
+    const tunes = {
+      a: makeTune('a', 'Alpha', {
+        tags: ['nff book 2009'],
+        bookPages: { 'nff book 2009': { page: 5, tuneIndex: 2 } },
+      }),
+      b: makeTune('b', 'Beta', {
+        tags: ['nff book 2009'],
+        bookPages: { 'nff book 2009': { page: 4, tuneIndex: 1 } },
+      }),
+      c: makeTune('c', 'Gamma', {
+        tags: ['nff book 2009'],
+        bookPages: { 'nff book 2009': { page: 5, tuneIndex: 1 } },
+      }),
+    }
+    const result = runTuneListFilterSync({
+      tunes: tunes,
+      filterSearchFn: function() { return true },
+      groupBy: '',
+      tunebook: {
+        groupTunes: function(list, key) {
+          if (key === GROUP_BY_PAGE) {
+            return { 4: [0], 5: [1, 2] }
+          }
+          return {}
+        },
+        hasLyrics: function() { return false },
+        hasLinks: function() { return false },
+      },
+      filterContext: { currentTuneBook: '', tagFilter: ['nff book 2009'] },
+    })
+    expect(result.filtered.map(function(t) { return t.id })).toEqual(['b', 'c', 'a'])
+    expect(result.grouped[4]).toEqual([0])
+    expect(result.grouped[5]).toEqual([1, 2])
   })
 })
 

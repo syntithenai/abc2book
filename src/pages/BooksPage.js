@@ -26,6 +26,7 @@ import { createQueue } from '../nowPlayingQueue'
 import { toast } from 'react-toastify'
 import { isMobilePlatform } from '../platformUtils'
 import StarToggleButton from '../components/StarToggleButton'
+import TagStarToggleButton from '../components/TagStarToggleButton'
 import TuneListPlaybackButtons from '../components/TuneListPlaybackButtons'
 import PlayWithQueueDropdown from '../components/PlayWithQueueDropdown'
 import { getPlayableTuneIdsForCollection } from '../collectionQueueUtils'
@@ -33,6 +34,7 @@ import { appendTunesToQueue, insertTunesAfterCurrentInQueue } from '../nowPlayin
 import { useDocumentTitle } from '../pageTitle'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { shouldShowMusicCollectionBrowseEntry } from '../musicCollectionBrowseAccess'
+import { getStarredTags } from '../starredTagsStore'
 
 const BOOK_SECTION_NAMES = {
   [BOOKS_PAGE_SECTIONS.filters]: 'filters',
@@ -69,6 +71,7 @@ export default function BooksPage(props) {
     const [showMoreRecent, setShowMoreRecent] = useState(false)
     const [showMoreStarred, setShowMoreStarred] = useState(false)
     const [showMoreArtists, setShowMoreArtists] = useState(false)
+    const [starredTagsList, setStarredTagsList] = useState(function() { return getStarredTags() })
     const sectionSearchRef = useRef(null)
 
     useEffect(function() {
@@ -171,11 +174,49 @@ export default function BooksPage(props) {
         .filter(function(tune) {
             return matchesSectionSearch(tune && tune.name ? tune.name : '', sectionSearch)
         })
-    const starredTunes = showMoreStarred
-        ? starredTunesExpanded
-        : starredTunesExpanded.slice(0, RECENT_TUNES_DEFAULT)
-    const canToggleStarred = starredTunesExpanded.length > RECENT_TUNES_DEFAULT
-    const starredCount = getStarredTunes(props.tunes).length
+    const starredTagsExpanded = starredTagsList
+        .filter(function(tag) {
+            return matchesSectionSearch(tag, sectionSearch)
+        })
+    const starredItemsExpanded = starredTagsExpanded.map(function(tag) {
+        return { type: 'tag', tag: tag }
+    }).concat(starredTunesExpanded.map(function(tune) {
+        return { type: 'tune', tune: tune }
+    }))
+    const starredItems = showMoreStarred
+        ? starredItemsExpanded
+        : starredItemsExpanded.slice(0, RECENT_TUNES_DEFAULT)
+    const canToggleStarred = starredItemsExpanded.length > RECENT_TUNES_DEFAULT
+    const starredCount = getStarredTunes(props.tunes).length + starredTagsList.length
+
+    function handleTagStarChange() {
+        setStarredTagsList(getStarredTags())
+    }
+
+    function renderStarredTagButton(tag) {
+        return (
+            <div key={'tag:' + tag} className="books-page-song-link books-page-starred-tag-link" role="group">
+                <TagStarToggleButton
+                    className="books-page-song-star-btn"
+                    tunebook={props.tunebook}
+                    tag={tag}
+                    refreshKey={starredTagsList.join('\0')}
+                    onChange={handleTagStarChange}
+                />
+                <Button
+                    variant="info"
+                    className="books-page-recent-btn books-page-starred-tag-btn"
+                    onClick={function() {
+                        applyTagFilter(tag)
+                        navigate('/tunes')
+                    }}
+                >
+                    {String(tag).toLowerCase()}
+                </Button>
+                {renderCollectionPlayControl('', [tag], null, null, function() { applyTagFilter(tag) }, 'info', 'compact')}
+            </div>
+        )
+    }
 
     function renderSongLinkButton(tune) {
         return (
@@ -215,9 +256,14 @@ export default function BooksPage(props) {
         )
     }
 
-    function renderCollectionPlayControl(book, tags, genres, artists, applyFilterFn) {
+    function renderCollectionPlayControl(book, tags, genres, artists, applyFilterFn, playVariant, dropdownVariant) {
         const filter = { book: book, tags: tags, genres: genres, artists: artists }
         const tuneIds = getPlayableTuneIdsForCollection(props.tunebook, props.tunes, filter)
+        const resolvedPlayVariant = playVariant || 'primary'
+        const playIcon = resolvedPlayVariant === 'info'
+            ? props.tunebook.icons.play
+            : props.tunebook.icons.playwhite
+        const resolvedDropdownVariant = dropdownVariant || 'collection-side'
 
         function handleAddToQueue(event) {
             event.preventDefault()
@@ -235,9 +281,10 @@ export default function BooksPage(props) {
 
         return (
             <PlayWithQueueDropdown
-                variant="collection-side"
-                playVariant="primary"
-                playIcon={props.tunebook.icons.playwhite}
+                variant={resolvedDropdownVariant}
+                playVariant={resolvedPlayVariant}
+                playIcon={playIcon}
+                className={resolvedDropdownVariant === 'compact' ? 'books-page-song-play' : undefined}
                 onPlay={function(e) {
                     e.preventDefault()
                     e.stopPropagation()
@@ -399,7 +446,7 @@ export default function BooksPage(props) {
                     />
                 </InputGroup>
 
-                <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section">
+                <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section books-page-section--tight">
                     <div className="books-page-section-title-row">
                         <h3 className="books-page-section-title">Filters</h3>
                         {showLibraryBrowseButton ? (
@@ -433,15 +480,13 @@ export default function BooksPage(props) {
                     />
                 </section>
 
-                <section id={BOOKS_PAGE_SECTIONS.recent} className="books-page-section">
+                <section id={BOOKS_PAGE_SECTIONS.recent} className="books-page-section books-page-section--tight">
                     <h3 className="books-page-section-title">Recent</h3>
                     {recentTunes.length > 0 ? (
-                        <>
-                            <div className="books-page-recent-list">
-                                {recentTunes.map(function(tune) {
-                                    return renderSongLinkButton(tune)
-                                })}
-                            </div>
+                        <div className="books-page-recent-list">
+                            {recentTunes.map(function(tune) {
+                                return renderSongLinkButton(tune)
+                            })}
                             {canToggleRecent ? (
                                 <Button
                                     variant="outline-secondary"
@@ -452,7 +497,7 @@ export default function BooksPage(props) {
                                     {showMoreRecent ? 'show less' : 'show more'}
                                 </Button>
                             ) : null}
-                        </>
+                        </div>
                     ) : (
                         <p className="books-page-recent-empty">
                             {sectionSearch.trim()
@@ -462,15 +507,14 @@ export default function BooksPage(props) {
                     )}
                 </section>
 
-                <section id={BOOKS_PAGE_SECTIONS.starred} className="books-page-section">
+                <section id={BOOKS_PAGE_SECTIONS.starred} className="books-page-section books-page-section--tight">
                     <h3 className="books-page-section-title">Starred</h3>
-                    {starredTunes.length > 0 ? (
-                        <>
-                            <div className="books-page-recent-list">
-                                {starredTunes.map(function(tune) {
-                                    return renderSongLinkButton(tune)
-                                })}
-                            </div>
+                    {starredItems.length > 0 ? (
+                        <div className="books-page-recent-list">
+                            {starredItems.map(function(item) {
+                                if (item.type === 'tag') return renderStarredTagButton(item.tag)
+                                return renderSongLinkButton(item.tune)
+                            })}
                             {canToggleStarred ? (
                                 <Button
                                     variant="outline-secondary"
@@ -481,12 +525,12 @@ export default function BooksPage(props) {
                                     {showMoreStarred ? 'show less' : 'show more'}
                                 </Button>
                             ) : null}
-                        </>
+                        </div>
                     ) : (
                         <p className="books-page-recent-empty">
                             {sectionSearch.trim()
-                                ? 'No matching starred tunes.'
-                                : 'Star a tune to see it here.'}
+                                ? 'No matching starred items.'
+                                : 'Star a tune or tag to see it here.'}
                         </p>
                     )}
                 </section>
@@ -518,11 +562,18 @@ export default function BooksPage(props) {
                         {tagOptions.map(function(option, ok) {
                             if (matchesSectionSearch(option, sectionSearch)) {
                                 return <div key={ok} className="books-page-tag-card" role="group">
-                                    <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyTagFilter(option); navigate('/tunes')}}>
+                                    <TagStarToggleButton
+                                        className="books-page-collection-card-side books-page-tag-star-btn"
+                                        tunebook={props.tunebook}
+                                        tag={option}
+                                        refreshKey={starredTagsList.join('\0')}
+                                        onChange={handleTagStarChange}
+                                    />
+                                    <Button className="books-page-collection-card-main" variant="info" onClick={function(e) {applyTagFilter(option); navigate('/tunes')}}>
                                         <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
                                         {!tagImageIsHidden[ok] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideTagImage(ok)}} alt="" />}
                                     </Button>
-                                    {renderCollectionPlayControl('', [option], null, null, function() { applyTagFilter(option) })}
+                                    {renderCollectionPlayControl('', [option], null, null, function() { applyTagFilter(option) }, 'info')}
                                 </div>
                             }
                             return null
@@ -551,18 +602,16 @@ export default function BooksPage(props) {
                 <section id={BOOKS_PAGE_SECTIONS.artists} className="books-page-section">
                     <h3 className="books-page-section-title">Artists</h3>
                     {artistsShown.length > 0 ? (
-                        <>
-                            <div className="books-page-grid">
-                                {artistsShown.map(function(option) {
-                                    return <div key={option} className="books-page-tag-card" role="group">
-                                        <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyArtistFilter(option); navigate('/tunes')}}>
-                                            <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
-                                            {!artistImageIsHidden[option] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideArtistImage(option)}} alt="" />}
-                                        </Button>
-                                        {renderCollectionPlayControl('', [], [], [option], function() { applyArtistFilter(option) })}
-                                    </div>
-                                })}
-                            </div>
+                        <div className="books-page-grid">
+                            {artistsShown.map(function(option) {
+                                return <div key={option} className="books-page-tag-card" role="group">
+                                    <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyArtistFilter(option); navigate('/tunes')}}>
+                                        <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
+                                        {!artistImageIsHidden[option] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideArtistImage(option)}} alt="" />}
+                                    </Button>
+                                    {renderCollectionPlayControl('', [], [], [option], function() { applyArtistFilter(option) })}
+                                </div>
+                            })}
                             {canToggleArtists ? (
                                 <Button
                                     variant="outline-secondary"
@@ -573,7 +622,7 @@ export default function BooksPage(props) {
                                     {showMoreArtists ? 'show less' : 'show more'}
                                 </Button>
                             ) : null}
-                        </>
+                        </div>
                     ) : (
                         <p className="books-page-recent-empty">
                             {sectionSearch.trim()

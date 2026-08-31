@@ -4,145 +4,151 @@
   "edgeVoice": "en-GB-RyanNeural",
   "rate": "-42%",
   "pitch": "-12Hz",
-  "totalSec": 124,
+  "totalSec": 86,
   "chunks": [
     {
       "index": 0,
       "text": "Settle into a steady posture.",
       "file": "c000.ogg",
-      "durationSec": 4.656
+      "durationSec": 3.409
     },
     {
       "index": 1,
       "text": "Spine tall but not rigid.",
       "file": "c001.ogg",
-      "durationSec": 4.368
+      "durationSec": 3.058
     },
     {
       "index": 2,
       "text": "Bring attention to the breath as it already is.",
       "file": "c002.ogg",
-      "durationSec": 5.592
+      "durationSec": 4.803
     },
     {
       "index": 3,
       "text": "Do not change it yet. Just watch.",
       "file": "c003.ogg",
-      "durationSec": 6.552
+      "durationSec": 4.219
     },
     {
       "index": 4,
       "text": "Feel the coolness of the inhale at the nostrils.",
       "file": "c004.ogg",
-      "durationSec": 5.832
+      "durationSec": 4.917
     },
     {
       "index": 5,
       "text": "Feel the warmth of the exhale.",
       "file": "c005.ogg",
-      "durationSec": 4.536
+      "durationSec": 3.474
     },
     {
       "index": 6,
       "text": "Or notice the rise and fall of the belly.",
       "file": "c006.ogg",
-      "durationSec": 5.136
+      "durationSec": 4.163
     },
     {
       "index": 7,
       "text": "Choose one place to rest your attention.",
       "file": "c007.ogg",
-      "durationSec": 5.184
+      "durationSec": 4.103
     },
     {
       "index": 8,
       "text": "When the mind wanders, kindly return.",
       "file": "c008.ogg",
-      "durationSec": 5.64
+      "durationSec": 4.223
     },
     {
       "index": 9,
       "text": "No judgment. Just return.",
       "file": "c009.ogg",
-      "durationSec": 6.192
+      "durationSec": 3.411
     },
     {
       "index": 10,
       "text": "Now, if it feels easy, count soft cycles.",
       "file": "c010.ogg",
-      "durationSec": 7.08
+      "durationSec": 5.268
     },
     {
       "index": 11,
       "text": "Inhale. One.",
       "file": "c011.ogg",
-      "durationSec": 5.136
+      "durationSec": 2.426
     },
     {
       "index": 12,
       "text": "Exhale. One.",
       "file": "c012.ogg",
-      "durationSec": 5.088
+      "durationSec": 2.714
     },
     {
       "index": 13,
       "text": "Inhale. Two.",
       "file": "c013.ogg",
-      "durationSec": 5.16
+      "durationSec": 2.246
     },
     {
       "index": 14,
       "text": "Exhale. Two.",
       "file": "c014.ogg",
-      "durationSec": 5.112
+      "durationSec": 2.298
     },
     {
       "index": 15,
       "text": "Continue up to five, then begin again at one.",
       "file": "c015.ogg",
-      "durationSec": 6.048
+      "durationSec": 5.38
     },
     {
       "index": 16,
       "text": "If you lose the count, start over with kindness.",
       "file": "c016.ogg",
-      "durationSec": 6.24
+      "durationSec": 5.097
     },
     {
       "index": 17,
       "text": "The returning is the practice.",
       "file": "c017.ogg",
-      "durationSec": 4.368
+      "durationSec": 3.179
     },
     {
       "index": 18,
       "text": "Let the breath be natural. No strain.",
       "file": "c018.ogg",
-      "durationSec": 7.152
+      "durationSec": 4.57
     },
     {
       "index": 19,
       "text": "A few more cycles in silence.",
       "file": "c019.ogg",
-      "durationSec": 4.896
+      "durationSec": 3.644
     },
     {
       "index": 20,
       "text": "Release the counting.",
       "file": "c020.ogg",
-      "durationSec": 3.6
+      "durationSec": 2.421
     },
     {
       "index": 21,
       "text": "Rest in open awareness for a moment.",
       "file": "c021.ogg",
-      "durationSec": 5.016
+      "durationSec": 3.821
     },
     {
       "index": 22,
       "text": "When ready, open your eyes.",
       "file": "c022.ogg",
-      "durationSec": 5.136
+      "durationSec": 3.296
     }
-  ]
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
 }

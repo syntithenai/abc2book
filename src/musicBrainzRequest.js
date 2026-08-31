@@ -23,6 +23,61 @@ function isRetryableMusicBrainzStatus(status) {
   return status === 429 || status === 503 || status === 502 || status === 504
 }
 
+/**
+ * Convert axios / HTTP failures into short user-facing Error objects.
+ * Never leaves "Request failed with status code NNN" as the primary message.
+ */
+export function toFriendlyMusicBrainzError(error) {
+  if (!error) {
+    const err = new Error('MusicBrainz request failed. Try again.')
+    err.code = 'HTTP_ERROR'
+    return err
+  }
+  if (error.name === 'AbortError') return error
+  if (error.code === 'MUSICBRAINZ_BUSY' || error.code === 'HTTP_ERROR' || error.code === 'NETWORK_ERROR') {
+    return error
+  }
+
+  const status = error.response && error.response.status
+  if (isRetryableMusicBrainzStatus(status)) {
+    const busy = new Error('MusicBrainz is busy — wait a moment and try again.')
+    busy.code = 'MUSICBRAINZ_BUSY'
+    busy.status = status
+    busy.cause = error
+    return busy
+  }
+  if (status) {
+    const err = new Error('MusicBrainz returned an error (' + status + '). Try again.')
+    err.code = 'HTTP_ERROR'
+    err.status = status
+    err.cause = error
+    return err
+  }
+  if (error.code === 'ERR_NETWORK' || error.message === 'Network Error') {
+    const err = new Error('Network error — check your connection and try again.')
+    err.code = 'NETWORK_ERROR'
+    err.cause = error
+    return err
+  }
+  const rawMessage = String(error.message || '')
+  if (/^Request failed with status code \d+$/i.test(rawMessage)) {
+    const err = new Error('MusicBrainz request failed. Try again.')
+    err.code = 'HTTP_ERROR'
+    err.cause = error
+    return err
+  }
+  if (rawMessage) {
+    const err = new Error(rawMessage)
+    err.code = error.code || 'HTTP_ERROR'
+    err.cause = error
+    return err
+  }
+  const err = new Error('MusicBrainz request failed. Try again.')
+  err.code = 'HTTP_ERROR'
+  err.cause = error
+  return err
+}
+
 export function musicBrainzRequestConfig(signal) {
   // Browsers refuse to set User-Agent (forbidden header). MusicBrainz sees the
   // browser's default UA; MUSICBRAINZ_USER_AGENT is kept for server-side use.
@@ -66,19 +121,14 @@ export async function musicBrainzGet(path, options) {
         })
         return response
       } catch (error) {
+        if (error && error.name === 'AbortError') throw error
         const status = error && error.response && error.response.status
         if (isRetryableMusicBrainzStatus(status) && attempt < MUSICBRAINZ_MAX_RETRIES) {
           attempt += 1
           await delay(effectiveMinGapMs() * attempt)
           continue
         }
-        if (isRetryableMusicBrainzStatus(status)) {
-          const busy = new Error('MusicBrainz is busy — wait a moment and try again.')
-          busy.code = 'MUSICBRAINZ_BUSY'
-          busy.cause = error
-          throw busy
-        }
-        throw error
+        throw toFriendlyMusicBrainzError(error)
       }
     }
   })

@@ -545,6 +545,9 @@ export default function NowPlayingPage(props) {
             elevatedPlaylistModal={true}
             token={props.token}
             login={props.login}
+            googleDocumentId={props.googleDocumentId}
+            syncDocument={props.syncDocument}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
           />
         </div>
       ) : null}

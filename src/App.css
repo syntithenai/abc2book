@@ -2215,6 +2215,27 @@ a.header-now-playing-label:focus {
   scroll-margin-top: calc(var(--chrome-header-offset, calc(3.7em + 1px + env(safe-area-inset-top, 0px))) + calc((3.25rem + 0.5em) * var(--chrome-vv-zoom, 1)));
 }
 
+/* Filters / Recent / Starred: denser stacking so books appear sooner */
+.books-page-section--tight {
+  margin-top: 0.55em;
+  padding-top: 0.1em;
+}
+
+.books-page-section--tight .books-page-section-title {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-size: 1.15rem;
+}
+
+.books-page-section--tight .books-page-section-title-row {
+  margin-bottom: 0.25rem;
+}
+
+.books-page-section--tight .books-page-recent-empty,
+.books-page-section--tight .books-page-saved-filters-empty {
+  margin-bottom: 0.25em;
+}
+
 .books-page-section-title {
   margin-bottom: 0.75em;
 }
@@ -2223,6 +2244,7 @@ a.header-now-playing-label:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35em;
+  align-items: stretch;
 }
 
 .books-page-saved-filters-list {
@@ -2242,7 +2264,15 @@ a.header-now-playing-label:focus {
 }
 
 .books-page-recent-toggle {
-  margin-top: 0.5em;
+  margin-top: 0;
+  align-self: stretch;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.books-page-grid .books-page-recent-toggle {
+  align-self: center;
 }
 
 .tune-list-item--now-playing {
@@ -2527,6 +2557,104 @@ a.header-now-playing-label:focus {
   align-self: center;
 }
 
+/* Match tune-list tag chips (variant=info); black label/icon on light cyan */
+.books-page-tag-card > .btn-info.books-page-collection-card-main,
+.books-page-tag-card > .play-with-queue-dropdown > .btn-info,
+.books-page-tag-card > .play-with-queue-dropdown-anchor .btn-info {
+  color: #000;
+}
+
+.books-page-tag-card > .play-with-queue-dropdown .btn-info.play-with-queue-dropdown-toggle,
+.books-page-tag-card > .play-with-queue-dropdown-anchor .btn-info.play-with-queue-dropdown-toggle {
+  border-left-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Tags section: denser chips than books/genres/artists cards */
+#books-page-tags .books-page-grid {
+  gap: 0.75em 0.85em;
+}
+
+#books-page-tags .books-page-tag-card > .btn,
+#books-page-tags .books-page-tag-card > .play-with-queue-dropdown > .btn,
+#books-page-tags .books-page-tag-card > .play-with-queue-dropdown-anchor .play-with-queue-dropdown > .btn {
+  height: 2.25rem;
+}
+
+#books-page-tags .books-page-collection-card-main {
+  font-size: 0.95em;
+  font-weight: 600;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+}
+
+#books-page-tags .books-page-collection-card-side {
+  min-width: 2.25rem;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+
+#books-page-tags .books-page-collection-card-side svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  max-width: 1.15rem;
+  max-height: 1.15rem;
+}
+
+#books-page-tags .books-page-collection-card-cover {
+  max-height: 2.25rem;
+  max-width: 2.25rem;
+}
+
+#books-page-tags .books-page-tag-star-btn {
+  min-width: 2.25rem;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.books-page-starred-tag-link {
+  background-color: var(--bs-info);
+}
+
+.books-page-starred-tag-link > .books-page-starred-tag-btn {
+  border-radius: 0;
+  color: #000;
+}
+
+.books-page-starred-tag-link > .btn + .books-page-starred-tag-btn,
+.books-page-starred-tag-link > .books-page-starred-tag-btn + .play-with-queue-dropdown .play-with-queue-dropdown-play,
+.books-page-starred-tag-link > .books-page-starred-tag-btn + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.books-page-starred-tag-link .play-with-queue-dropdown .btn,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn:hover,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn:focus,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn:active {
+  background-color: var(--bs-info);
+  border-color: var(--bs-info);
+  color: #000;
+}
+
+.books-page-starred-tag-link .play-with-queue-dropdown .btn:hover,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn:focus,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn:active {
+  filter: brightness(0.95);
+}
+
+.books-page-starred-tag-link .play-with-queue-dropdown .play-with-queue-dropdown-toggle {
+  border-left-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.books-page-starred-tag-link .play-with-queue-dropdown .btn-warning,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn-warning:hover,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn-warning:focus,
+.books-page-starred-tag-link .play-with-queue-dropdown .btn-warning:active {
+  background-color: var(--bs-warning);
+  border-color: var(--bs-warning);
+  color: #000;
+  filter: none;
+}
+
 .books-page-collection-card-side {
   min-width: 3.25rem;
   padding-left: 0.85rem;
@@ -2575,7 +2703,8 @@ a.header-now-playing-label:focus {
 .books-page-book-card > .books-page-collection-card-link + .btn,
 .books-page-book-card > .books-page-collection-card-link + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play,
 .books-page-tag-card > .btn + .btn,
-.books-page-tag-card > .btn + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play {
+.books-page-tag-card > .btn + .play-with-queue-dropdown-anchor .play-with-queue-dropdown-play,
+.books-page-tag-card > .btn + .play-with-queue-dropdown.play-with-queue-dropdown-play-only {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -2910,6 +3039,61 @@ a.header-now-playing-label:focus {
   height: var(--tune-search-control-height) !important;
   min-height: var(--tune-search-control-height) !important;
   box-sizing: border-box;
+}
+
+.now-playing-queue-filter-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.now-playing-queue-filter-row .now-playing-queue-filter-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.now-playing-queue-share-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+
+.now-playing-queue-share-btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+.share-playlist-trigger-btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog.share-playlist-modal {
+    width: 66vw;
+    max-width: min(66vw, 42rem);
+    margin: 1.5rem auto;
+  }
+
+  .modal-dialog.share-playlist-modal .modal-content {
+    max-height: 66vh;
+  }
+
+  .modal-dialog.share-playlist-modal .modal-body {
+    overflow-y: auto;
+  }
+}
+
+.share-playlist-modal-body {
+  padding-top: 0.75rem;
 }
 
 .voice-fill-input-wrap {

@@ -4,361 +4,367 @@
   "edgeVoice": "en-GB-RyanNeural",
   "rate": "-42%",
   "pitch": "-12Hz",
-  "totalSec": 328,
+  "totalSec": 255,
   "chunks": [
     {
       "index": 0,
       "text": "Welcome.",
       "file": "c000.ogg",
-      "durationSec": 2.76
+      "durationSec": 1.496
     },
     {
       "index": 1,
       "text": "Take a comfortable seat, or lie down if that feels better.",
       "file": "c001.ogg",
-      "durationSec": 6.96
+      "durationSec": 5.847
     },
     {
       "index": 2,
       "text": "Let your hands rest.",
       "file": "c002.ogg",
-      "durationSec": 3.768
+      "durationSec": 2.661
     },
     {
       "index": 3,
       "text": "Allow your eyes to close, or soften your gaze.",
       "file": "c003.ogg",
-      "durationSec": 6.456
+      "durationSec": 5.448
     },
     {
       "index": 4,
       "text": "Notice the weight of your body being held.",
       "file": "c004.ogg",
-      "durationSec": 5.424
+      "durationSec": 4.287
     },
     {
       "index": 5,
       "text": "Take a slow breath in through the nose.",
       "file": "c005.ogg",
-      "durationSec": 5.232
+      "durationSec": 3.989
     },
     {
       "index": 6,
       "text": "And a longer, easier breath out.",
       "file": "c006.ogg",
-      "durationSec": 5.28
+      "durationSec": 3.527
     },
     {
       "index": 7,
       "text": "Again. Soft inhale.",
       "file": "c007.ogg",
-      "durationSec": 5.88
+      "durationSec": 3.059
     },
     {
       "index": 8,
       "text": "Gentle exhale.",
       "file": "c008.ogg",
-      "durationSec": 3.456
+      "durationSec": 2.134
     },
     {
       "index": 9,
       "text": "If thoughts wander, that is fine. Return to the breath.",
       "file": "c009.ogg",
-      "durationSec": 8.496
+      "durationSec": 6.715
     },
     {
       "index": 10,
       "text": "Now, imagine a path beneath soft leaf litter.",
       "file": "c010.ogg",
-      "durationSec": 6.432
+      "durationSec": 5.037
     },
     {
       "index": 11,
       "text": "You walk without hurry into a quiet forest.",
       "file": "c011.ogg",
-      "durationSec": 5.808
+      "durationSec": 4.806
     },
     {
       "index": 12,
       "text": "Dappled light moves across your forearms.",
       "file": "c012.ogg",
-      "durationSec": 5.568
+      "durationSec": 4.511
     },
     {
       "index": 13,
       "text": "Feel the gentle warmth of the sun wherever it finds skin.",
       "file": "c013.ogg",
-      "durationSec": 6.984
+      "durationSec": 6.377
     },
     {
       "index": 14,
       "text": "A cool freshness rides the breeze between the trees.",
       "file": "c014.ogg",
-      "durationSec": 6.408
+      "durationSec": 6.022
     },
     {
       "index": 15,
       "text": "Smell green earth, bark, and a clean mineral dampness.",
       "file": "c015.ogg",
-      "durationSec": 7.392
+      "durationSec": 6.54
     },
     {
       "index": 16,
       "text": "The path opens into a small clearing.",
       "file": "c016.ogg",
-      "durationSec": 5.472
+      "durationSec": 4.338
     },
     {
       "index": 17,
       "text": "Moss cushions a fallen log. You sit.",
       "file": "c017.ogg",
-      "durationSec": 6.936
+      "durationSec": 4.687
     },
     {
       "index": 18,
       "text": "Sunlight pools in the center like quiet gold.",
       "file": "c018.ogg",
-      "durationSec": 6.144
+      "durationSec": 5.206
     },
     {
       "index": 19,
       "text": "Feel that warmth on your face, slow and kind.",
       "file": "c019.ogg",
-      "durationSec": 6.48
+      "durationSec": 5.564
     },
     {
       "index": 20,
       "text": "A breeze touches your hair and cools your temples.",
       "file": "c020.ogg",
-      "durationSec": 6.312
+      "durationSec": 5.446
     },
     {
       "index": 21,
       "text": "Birdsong arrives from far away, then fades.",
       "file": "c021.ogg",
-      "durationSec": 6.648
+      "durationSec": 4.915
     },
     {
       "index": 22,
       "text": "Your breath matches the hush of the leaves.",
       "file": "c022.ogg",
-      "durationSec": 5.16
+      "durationSec": 4.286
     },
     {
       "index": 23,
       "text": "Inhale the freshness. Exhale any leftover haste.",
       "file": "c023.ogg",
-      "durationSec": 8.28
+      "durationSec": 6.025
     },
     {
       "index": 24,
       "text": "Notice how safe the ground feels under you.",
       "file": "c024.ogg",
-      "durationSec": 5.784
+      "durationSec": 4.511
     },
     {
       "index": 25,
       "text": "How wide the sky seems above the canopy.",
       "file": "c025.ogg",
-      "durationSec": 5.664
+      "durationSec": 4.745
     },
     {
       "index": 26,
       "text": "A beetle crosses a sunlit patch of bark, unhurried.",
       "file": "c026.ogg",
-      "durationSec": 6.672
+      "durationSec": 6.197
     },
     {
       "index": 27,
       "text": "You have nowhere to be but here.",
       "file": "c027.ogg",
-      "durationSec": 4.32
+      "durationSec": 3.41
     },
     {
       "index": 28,
       "text": "Warmth pools again on your closed eyelids.",
       "file": "c028.ogg",
-      "durationSec": 5.664
+      "durationSec": 4.519
     },
     {
       "index": 29,
       "text": "Cool air slips under your collar like a kind hand.",
       "file": "c029.ogg",
-      "durationSec": 5.976
+      "durationSec": 5.675
     },
     {
       "index": 30,
       "text": "Stay with the warmth on your cheeks.",
       "file": "c030.ogg",
-      "durationSec": 5.016
+      "durationSec": 3.588
     },
     {
       "index": 31,
       "text": "Stay with the cool air on your lips as you breathe out.",
       "file": "c031.ogg",
-      "durationSec": 6.096
+      "durationSec": 5.729
     },
     {
       "index": 32,
       "text": "This clearing asks nothing. It simply holds you.",
       "file": "c032.ogg",
-      "durationSec": 7.896
+      "durationSec": 5.723
     },
     {
       "index": 33,
       "text": "Let one more breath travel all the way to the belly.",
       "file": "c033.ogg",
-      "durationSec": 5.688
+      "durationSec": 5.265
     },
     {
       "index": 34,
       "text": "And leave again, soft as the leaves.",
       "file": "c034.ogg",
-      "durationSec": 5.184
+      "durationSec": 4.286
     },
     {
       "index": 35,
       "text": "Wander your attention slowly around the clearing’s edge.",
       "file": "c035.ogg",
-      "durationSec": 6.408
+      "durationSec": 5.966
     },
     {
       "index": 36,
       "text": "Fern. Shadow. A pale mushroom at the base of a stump.",
       "file": "c036.ogg",
-      "durationSec": 10.008
+      "durationSec": 6.143
     },
     {
       "index": 37,
       "text": "Everything is vivid because you are not rushing.",
       "file": "c037.ogg",
-      "durationSec": 5.352
+      "durationSec": 4.395
     },
     {
       "index": 38,
       "text": "Feel sun-warmth again where it lands on the knee.",
       "file": "c038.ogg",
-      "durationSec": 6.0
+      "durationSec": 5.499
     },
     {
       "index": 39,
       "text": "Feel breeze-coolness where it slips across the throat.",
       "file": "c039.ogg",
-      "durationSec": 6.192
+      "durationSec": 5.848
     },
     {
       "index": 40,
       "text": "You could stay here all afternoon. For now, a few breaths are enough.",
       "file": "c040.ogg",
-      "durationSec": 10.128
+      "durationSec": 7.068
     },
     {
       "index": 41,
       "text": "Now rest in the breath alone for a little while.",
       "file": "c041.ogg",
-      "durationSec": 5.784
+      "durationSec": 4.52
     },
     {
       "index": 42,
       "text": "Inhale slowly.",
       "file": "c042.ogg",
-      "durationSec": 3.432
+      "durationSec": 2.247
     },
     {
       "index": 43,
       "text": "Exhale slowly.",
       "file": "c043.ogg",
-      "durationSec": 3.432
+      "durationSec": 2.359
     },
     {
       "index": 44,
       "text": "Inhale.",
       "file": "c044.ogg",
-      "durationSec": 2.904
+      "durationSec": 1.491
     },
     {
       "index": 45,
       "text": "Exhale.",
       "file": "c045.ogg",
-      "durationSec": 2.856
+      "durationSec": 1.5
     },
     {
       "index": 46,
       "text": "Feel warmth wherever the body is warm.",
       "file": "c046.ogg",
-      "durationSec": 5.544
+      "durationSec": 4.396
     },
     {
       "index": 47,
       "text": "Feel coolness wherever the air is cool.",
       "file": "c047.ogg",
-      "durationSec": 5.592
+      "durationSec": 4.341
     },
     {
       "index": 48,
       "text": "Inhale.",
       "file": "c048.ogg",
-      "durationSec": 2.904
+      "durationSec": 1.608
     },
     {
       "index": 49,
       "text": "Exhale.",
       "file": "c049.ogg",
-      "durationSec": 2.856
+      "durationSec": 1.616
     },
     {
       "index": 50,
       "text": "Nowhere to go. Nothing to fix.",
       "file": "c050.ogg",
-      "durationSec": 6.6
+      "durationSec": 4.395
     },
     {
       "index": 51,
       "text": "Inhale.",
       "file": "c051.ogg",
-      "durationSec": 2.904
+      "durationSec": 1.437
     },
     {
       "index": 52,
       "text": "Exhale.",
       "file": "c052.ogg",
-      "durationSec": 2.856
+      "durationSec": 1.554
     },
     {
       "index": 53,
       "text": "Rest here for a few quiet breaths.",
       "file": "c053.ogg",
-      "durationSec": 5.016
+      "durationSec": 3.99
     },
     {
       "index": 54,
       "text": "Know that you can return to this place anytime.",
       "file": "c054.ogg",
-      "durationSec": 5.592
+      "durationSec": 4.918
     },
     {
       "index": 55,
       "text": "When you are ready, deepen the breath.",
       "file": "c055.ogg",
-      "durationSec": 5.064
+      "durationSec": 3.824
     },
     {
       "index": 56,
       "text": "Wiggle fingers and toes.",
       "file": "c056.ogg",
-      "durationSec": 4.296
+      "durationSec": 3.013
     },
     {
       "index": 57,
       "text": "Open your eyes softly.",
       "file": "c057.ogg",
-      "durationSec": 3.912
+      "durationSec": 2.885
     },
     {
       "index": 58,
       "text": "Carry a little of this peace with you.",
       "file": "c058.ogg",
-      "durationSec": 4.56
+      "durationSec": 3.756
     }
-  ]
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
 }

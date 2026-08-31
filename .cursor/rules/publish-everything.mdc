@@ -1,11 +1,11 @@
 ---
-description: When the user says publish everything (or similar), run the publish-everything script.
+description: When the user says publish/deploy everything (or similar), run the publish-everything script.
 alwaysApply: true
 ---
 
 # Publish everything
 
-If the user asks to **publish everything**, **publish all**, or redeploy Tune Book + YogApp together:
+If the user asks to **publish everything**, **publish all**, **deploy all**, **deploy everything**, or redeploy Tune Book + YogApp / Synthesized Yoga together:
 
 1. Run from the abc2book repo root (do **not** invent a parallel deploy path):
 
@@ -17,10 +17,11 @@ Optional flags the user may want:
 
 - `--dry-run` — print steps only
 - `--no-android` — web/Pages only
-- `--no-push` / `--no-commit` — build without publishing
+- `--no-locale-audio` — skip packing/uploading YogApp language packs
+- `--no-push` / `--no-commit` — build without publishing (also skips locale-audio upload)
 - `--install` — also `adb install` both APKs
 - `--wait-pages` — poll GitHub Pages after push
 
 Script: `scripts/publish-everything.sh`
 
-It builds YogApp Android, Tune Book Android, Tune Book web (embeds `/yoga/`), commits, and pushes **yogapp** then **abc2book** so https://tunebook.net/ and https://tunebook.net/yoga/ update.
+It builds Synthesized Yoga (yogapp) Android, Tune Book Android, Tune Book web (embeds `/yoga/`), **packs and uploads YogApp locale audio zips** to the `audio-v1` GitHub Release (`npm run publish:locale-audio` in yogapp), commits, and pushes **yogapp** then **abc2book** so https://tunebook.net/ and https://tunebook.net/yoga/ update (non-English / extra-English voice packs download via the peppertrees CORS proxy).

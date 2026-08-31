@@ -33,6 +33,7 @@ import ScratchpadPage from './pages/ScratchpadPage'
 import ScratchpadItemPage from './pages/ScratchpadItemPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
+import ImportPlaylistPublicPage from './pages/ImportPlaylistPublicPage'
 import ImportCuratedPage from './pages/ImportCuratedPage'
 import MidiImportPage from './pages/MidiImportPage'
 import MidiImportNavigateRegistrar from './components/MidiImportNavigateRegistrar'
@@ -188,6 +189,7 @@ import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
 import {ToastContainer, toast}  from 'react-toastify'
+import AppErrorBoundary from './components/AppErrorBoundary'
 import AppEmbedFrameBootstrap from './components/AppEmbedFrameBootstrap'
 import { isEmbeddedAppFrame } from './embedFrameUtils'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
@@ -443,6 +445,9 @@ function AppQueueLayer(props) {
             viewedTuneId={viewedTuneId}
             login={props.login}
             token={props.token}
+            googleDocumentId={props.googleDocumentId}
+            syncDocument={props.syncDocument}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             onClose={function() {
               if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(false)
             }}
@@ -1626,6 +1631,7 @@ function App(props) {
                   practiceSession: practiceSession,
                   setPlaylist: setPlaylist,
                   notationHelpActive: notationHelpActive,
+                  syncDocument: function() { return updateSheet(0) },
                 }}
                 queueProps={{
                   nowPlayingQueue: nowPlayingQueue,
@@ -1643,6 +1649,8 @@ function App(props) {
                   forceRefresh: forceRefresh,
                   user: user,
                   googleDocumentId: googleDocumentId,
+                  syncDocument: function() { return updateSheet(0) },
+                  setBlockKeyboardShortcuts: setBlockKeyboardShortcuts,
                 }}
               />
               <AppOptionalChrome>
@@ -1658,6 +1666,7 @@ function App(props) {
                 ) : null}
               </AppOptionalChrome>
               <div className="App-body">
+                   <AppErrorBoundary>
                    <Routes>
                     <Route  path={``}   element={<BooksPage mediaController={mediaController}  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} setCurrentTune={setCurrentTune}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} setQueuePlayConfirm={setQueuePlayConfirm} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token} user={user} login={login} requestGoogleScopes={requestGoogleScopes} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} filter={filter} tagFilter={tagFilter} setTagFilter={setTagFilter} setGenreFilter={setGenreFilter} setArtistFilter={setArtistFilter} setAlbumFilter={setAlbumFilter} setFilter={setFilter} setGroupBy={setGroupBy} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />}  />
                     
@@ -1788,6 +1797,10 @@ function App(props) {
                       <Route path={`:title/tag/:tagName/play`} element={<ImportCuratedPage autoplay={true} tunesHydrated={tunesHydrated} tunebook={tunebook} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} setNavigateAfterImport={setNavigateAfterImport} setImportResults={setImportResults} />} />
                     </Route>
 
+                    <Route path={`importplaylist`}>
+                      <Route path={`:payload`} element={<ImportPlaylistPublicPage tunebook={tunebook} tunes={tunes} tunesHydrated={tunesHydrated} setNowPlayingQueue={setNowPlayingQueue} />} />
+                    </Route>
+
                     <Route  path={`importlink`} >
                       <Route  path={`:link`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes} setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter} setFilter={setFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                        <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunesHydrated={tunesHydrated} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  setTagFilter={setTagFilter} setFilter={setFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
@@ -1810,6 +1823,7 @@ function App(props) {
                     <Route path={'blank'} element={<BlankPage mediaController={mediaController} />} />
                     
                   </Routes>
+                   </AppErrorBoundary>
               </div>
               </RemoteOutputProvider>
               </PlaybackRegionScanProvider>

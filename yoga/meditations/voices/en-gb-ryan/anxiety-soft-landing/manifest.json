@@ -4,151 +4,157 @@
   "edgeVoice": "en-GB-RyanNeural",
   "rate": "-42%",
   "pitch": "-12Hz",
-  "totalSec": 138,
+  "totalSec": 97,
   "chunks": [
     {
       "index": 0,
       "text": "If you feel activated or worried, you are welcome here.",
       "file": "c000.ogg",
-      "durationSec": 6.864
+      "durationSec": 5.788
     },
     {
       "index": 1,
       "text": "You do not need to feel calm yet.",
       "file": "c001.ogg",
-      "durationSec": 4.704
+      "durationSec": 3.644
     },
     {
       "index": 2,
       "text": "Just follow along.",
       "file": "c002.ogg",
-      "durationSec": 3.528
+      "durationSec": 2.312
     },
     {
       "index": 3,
       "text": "Plant both feet on the floor if you can.",
       "file": "c003.ogg",
-      "durationSec": 5.112
+      "durationSec": 4.219
     },
     {
       "index": 4,
       "text": "Feel the contact. Heels. Balls of the feet. Toes.",
       "file": "c004.ogg",
-      "durationSec": 11.976
+      "durationSec": 6.425
     },
     {
       "index": 5,
       "text": "Press down gently. Notice the push back from the ground.",
       "file": "c005.ogg",
-      "durationSec": 8.376
+      "durationSec": 6.257
     },
     {
       "index": 6,
       "text": "Name five things you can see.",
       "file": "c006.ogg",
-      "durationSec": 4.608
+      "durationSec": 3.11
     },
     {
       "index": 7,
       "text": "Quietly. No rush.",
       "file": "c007.ogg",
-      "durationSec": 5.76
+      "durationSec": 2.885
     },
     {
       "index": 8,
       "text": "Name four things you can touch.",
       "file": "c008.ogg",
-      "durationSec": 4.488
+      "durationSec": 3.359
     },
     {
       "index": 9,
       "text": "Clothes. Chair. Air on skin.",
       "file": "c009.ogg",
-      "durationSec": 8.184
+      "durationSec": 4.636
     },
     {
       "index": 10,
       "text": "Name three sounds, near or far.",
       "file": "c010.ogg",
-      "durationSec": 5.352
+      "durationSec": 4.108
     },
     {
       "index": 11,
       "text": "Name two scents, or simply notice the air.",
       "file": "c011.ogg",
-      "durationSec": 6.072
+      "durationSec": 4.745
     },
     {
       "index": 12,
       "text": "Name one taste, or the feeling in the mouth.",
       "file": "c012.ogg",
-      "durationSec": 6.0
+      "durationSec": 4.637
     },
     {
       "index": 13,
       "text": "You are here. In this body. In this room.",
       "file": "c013.ogg",
-      "durationSec": 8.856
+      "durationSec": 5.15
     },
     {
       "index": 14,
       "text": "Now breathe in for four.",
       "file": "c014.ogg",
-      "durationSec": 4.008
+      "durationSec": 2.778
     },
     {
       "index": 15,
       "text": "Hold softly for two.",
       "file": "c015.ogg",
-      "durationSec": 3.936
+      "durationSec": 2.762
     },
     {
       "index": 16,
       "text": "Out for six.",
       "file": "c016.ogg",
-      "durationSec": 3.216
+      "durationSec": 1.838
     },
     {
       "index": 17,
       "text": "Again if you like.",
       "file": "c017.ogg",
-      "durationSec": 3.288
+      "durationSec": 2.414
     },
     {
       "index": 18,
       "text": "Place a hand on the chest or belly.",
       "file": "c018.ogg",
-      "durationSec": 4.752
+      "durationSec": 3.76
     },
     {
       "index": 19,
       "text": "Feel movement under your hand.",
       "file": "c019.ogg",
-      "durationSec": 4.536
+      "durationSec": 3.407
     },
     {
       "index": 20,
       "text": "Anxiety may still be present. That is allowed.",
       "file": "c020.ogg",
-      "durationSec": 8.064
+      "durationSec": 5.447
     },
     {
       "index": 21,
       "text": "You have given the nervous system a softer landing.",
       "file": "c021.ogg",
-      "durationSec": 5.544
+      "durationSec": 5.096
     },
     {
       "index": 22,
       "text": "Take one more breath.",
       "file": "c022.ogg",
-      "durationSec": 3.816
+      "durationSec": 2.595
     },
     {
       "index": 23,
       "text": "When ready, open your eyes and continue your day.",
       "file": "c023.ogg",
-      "durationSec": 6.864
+      "durationSec": 5.331
     }
-  ]
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
 }

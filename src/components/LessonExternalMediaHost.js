@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import YouTube from 'react-youtube'
+import SafeYouTube from './SafeYouTube'
 import {
   isQueueActive,
   getCurrentItem,
@@ -84,7 +84,7 @@ export default function LessonExternalMediaHost(props) {
 
   return (
     <div className="lesson-external-media-host" aria-hidden="true">
-      <YouTube
+      <SafeYouTube
         key={videoKey}
         videoId={external.youtubeId}
         opts={lessonYoutubeOpts()}

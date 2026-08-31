@@ -60,15 +60,32 @@ jest.mock('../useMusicBrainzArtistOptions', function() {
   return function useMusicBrainzArtistOptions() { return { options: [], loading: false } }
 })
 
-jest.mock('../artistDiscographyClient', function() {
-  return {
-    fetchArtistDiscography: jest.fn(),
-  }
-})
-
 jest.mock('../albumDiscographyClient', function() {
   return {
     fetchAlbumDiscography: jest.fn(),
+  }
+})
+
+jest.mock('./ArtistDiscographyImportModal', function() {
+  const React = require('react')
+  return function ArtistDiscographyImportModal(props) {
+    if (!props.show) return null
+    return React.createElement('div', { 'data-testid': 'artist-discography-import-modal' },
+      React.createElement('button', {
+        type: 'button',
+        'data-testid': 'mock-import-lines',
+        onClick: function() {
+          if (typeof props.onImportLines === 'function') {
+            props.onImportLines(['Yesterday by The Beatles', 'Let It Be by The Beatles'])
+          }
+        },
+      }, 'Import'),
+      React.createElement('button', {
+        type: 'button',
+        'data-testid': 'mock-import-hide',
+        onClick: props.onHide,
+      }, 'Close')
+    )
   }
 })
 
@@ -82,7 +99,6 @@ jest.mock('react-toastify', function() {
   }
 })
 
-const { fetchArtistDiscography } = require('../artistDiscographyClient')
 const { fetchAlbumDiscography } = require('../albumDiscographyClient')
 const { toast } = require('react-toastify')
 
@@ -94,10 +110,10 @@ describe('AddTuneSimpleForm', function() {
     container = document.createElement('div')
     document.body.appendChild(container)
     root = createRoot(container)
-    fetchArtistDiscography.mockReset()
     toast.success.mockReset()
     toast.info.mockReset()
     toast.error.mockReset()
+    fetchAlbumDiscography.mockReset()
   })
 
   afterEach(function() {
@@ -207,11 +223,7 @@ describe('AddTuneSimpleForm', function() {
     expect(container.querySelector('[data-testid="add-tune-discography"]').disabled).toBe(true)
   })
 
-  test('discography lookup shows spinner and fills bulk import', async function() {
-    let resolveLookup
-    fetchArtistDiscography.mockReturnValue(new Promise(function(resolve) {
-      resolveLookup = resolve
-    }))
+  test('discography button opens import modal and fills bulk import', async function() {
     const onFillBulkDiscography = jest.fn()
 
     act(function() {
@@ -230,15 +242,10 @@ describe('AddTuneSimpleForm', function() {
     await act(async function() {
       button.click()
     })
-    expect(container.querySelector('[data-testid="add-tune-discography-progress"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="artist-discography-import-modal"]')).toBeTruthy()
 
     await act(async function() {
-      resolveLookup({
-        artistName: 'The Beatles',
-        artistMbid: 'mbid-1',
-        titles: ['Yesterday', 'Let It Be'],
-      })
-      await Promise.resolve()
+      container.querySelector('[data-testid="mock-import-lines"]').click()
     })
 
     expect(onFillBulkDiscography).toHaveBeenCalledWith([
@@ -246,7 +253,7 @@ describe('AddTuneSimpleForm', function() {
       'Let It Be by The Beatles',
     ])
     expect(toast.success).toHaveBeenCalled()
-    expect(button.querySelector('.spinner-border')).toBeNull()
+    expect(container.querySelector('[data-testid="artist-discography-import-modal"]')).toBeNull()
   })
 
   test('album load tracks button loads tracks into bulk import', async function() {

@@ -3,6 +3,7 @@ import { Button, ListGroup } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { resolveMediaLinkPlaybackButton, mediaLinkPlaybackIcon } from '../mediaLinkPlaybackButton'
 import VoiceFillInput from './VoiceFillInput'
+import SharePlaylistModal from './SharePlaylistModal'
 import {
   getCurrentTuneId,
   setQueueIndex,
@@ -10,6 +11,7 @@ import {
   removeQueueItem,
   getQueueItemLabel,
   isExternalQueueItem,
+  isLessonQueue,
 } from '../nowPlayingQueue'
 import { navigateToQueueTune, playQueueItem } from '../nowPlayingQueuePlayback'
 import { playLessonYoutube } from '../lessonYoutubePlayer'
@@ -137,19 +139,40 @@ export default function NowPlayingQueueManager(props) {
 
   return (
     <div>
-      <VoiceFillInput
-        layout="wrap"
-        className="mb-2"
-        inputClassName="form-control"
-        useFormControl={false}
-        type="text"
-        value={filter}
-        onChange={function(e) { setFilter(e.target.value) }}
-        placeholder="Filter playlist"
-        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-        token={props.token}
-        fieldKind="search"
-      />
+      <div className="now-playing-queue-filter-row mb-2">
+        <VoiceFillInput
+          layout="wrap"
+          className="now-playing-queue-filter-input"
+          inputClassName="form-control"
+          useFormControl={false}
+          type="text"
+          value={filter}
+          onChange={function(e) { setFilter(e.target.value) }}
+          placeholder="Filter playlist"
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+          token={props.token}
+          fieldKind="search"
+        />
+        {!isLessonQueue(queue) && (props.googleDocumentId || props.token || props.login) ? (
+          <SharePlaylistModal
+            tunebook={props.tunebook}
+            token={props.token}
+            login={props.login}
+            googleDocumentId={props.googleDocumentId}
+            tunes={tunes}
+            saveTune={props.tunebook && props.tunebook.saveTune}
+            syncDocument={props.syncDocument}
+            nowPlayingQueue={queue}
+            setNowPlayingQueue={props.setNowPlayingQueue}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            dialogZIndex={props.dialogZIndex || 1300}
+            tiny={true}
+            variant="outline-info"
+            buttonSize="sm"
+            buttonClassName="now-playing-queue-share-btn"
+          />
+        ) : null}
+      </div>
       <ListGroup style={{ clear: 'both', width: '100%', backgroundColor: 'white' }}>
         {queue.items.map(function(item, index) {
           const tune = item && item.tuneId ? tunes[item.tuneId] : null

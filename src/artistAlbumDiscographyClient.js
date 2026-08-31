@@ -5,7 +5,8 @@ import { musicBrainzGet } from './musicBrainzRequest'
 
 const PAGE_SIZE = 100
 const PAGE_DELAY_MS = 1000
-const MAX_ALBUMS = 80
+/** Cap on release-groups retained (large catalogs like Dolly Parton). */
+const MAX_ALBUMS = 300
 
 function delay(ms) {
   return new Promise(function(resolve) {
@@ -43,6 +44,38 @@ function summarizeReleaseGroup(releaseGroup) {
     secondaryTypes: releaseGroup['secondary-types'] || [],
     artistName: releaseGroupArtistName(releaseGroup),
   }
+}
+
+/**
+ * Map a release-group to a UI type chip category.
+ */
+export function albumTypeCategory(album) {
+  const secondary = Array.isArray(album && album.secondaryTypes) ? album.secondaryTypes : []
+  const primary = String(album && album.primaryType || '').trim()
+  for (let i = 0; i < secondary.length; i += 1) {
+    if (String(secondary[i] || '').toLowerCase() === 'compilation') return 'Compilation'
+  }
+  if (primary === 'Compilation') return 'Compilation'
+  if (primary === 'Album') return 'Album'
+  if (primary === 'EP') return 'EP'
+  if (primary === 'Single') return 'Single'
+  return 'Other'
+}
+
+/**
+ * Filter albums by selected type categories. Empty/null categories → all albums.
+ */
+export function filterAlbumsByTypeCategories(albums, categories) {
+  const list = Array.isArray(albums) ? albums : []
+  if (!Array.isArray(categories) || !categories.length) return list.slice()
+  const allowed = {}
+  categories.forEach(function(cat) {
+    const key = String(cat || '').trim()
+    if (key) allowed[key] = true
+  })
+  return list.filter(function(album) {
+    return !!allowed[albumTypeCategory(album)]
+  })
 }
 
 async function fetchReleaseGroupPage(artistMbid, offset, signal) {

@@ -96,11 +96,11 @@ This is the list of OAuth scopes your **project is allowed to request**. It is n
 | `drive.file` | Login (sync app-created files) | Non-sensitive |
 | `drive.readonly` | Only when you open **Import from Drive** picker | Sensitive — not at login |
 | Photos picker scope | Only when you use Google Photos import | See Console classification |
-| `drive.file` | YogApp (`/yoga/`) sync JSON in a Drive **YogApp** folder | Non-sensitive — same as Tunebook login |
+| `drive.file` | Synthesized Yoga (`/yoga/`) sync JSON in a Drive **YogApp** folder | Non-sensitive — same as Tunebook login |
 
 **If Yoga still shows “Google hasn’t verified this app” after switching to
 `drive.file`:** GIS defaults to `include_granted_scopes=true`, which re-attaches
-old grants such as `drive.appdata` / `drive.readonly`. YogApp now sets
+old grants such as `drive.appdata` / `drive.readonly`. Synthesized Yoga now sets
 `include_granted_scopes: false`. Also:
 
 1. Google Auth Platform → **Data access**: remove unused sensitive scopes
@@ -109,32 +109,35 @@ old grants such as `drive.appdata` / `drive.readonly`. YogApp now sets
 2. Revoke the app at [Google Account → Third-party access](https://myaccount.google.com/permissions),
    then sign in again (hard refresh `/yoga/`).
 
-## YogApp at tunebook.net/yoga (shared login)
+## Synthesized Yoga at tunebook.net/yoga (shared login)
 
-YogApp is embedded under `https://tunebook.net/yoga/` and shares the **same Web
+Synthesized Yoga (formerly YogApp) is embedded under `https://tunebook.net/yoga/` and shares the **same Web
 client** + `localStorage` key `tunebook_google_auth_v1` with Tune Book.
 
 Do this once in **this** Cloud project (the one owning Web client
 `927667106833-…`):
 
 1. **Data access**: ensure `https://www.googleapis.com/auth/drive.file` is
-   listed (YogApp no longer needs `drive.appdata`).
+   listed (Synthesized Yoga no longer needs `drive.appdata`).
 2. **Origins**: `https://tunebook.net` is enough for the embedded SPA (path is
-   irrelevant). Also keep `http://localhost:5173` for YogApp Vite if you develop
-   there.
+   irrelevant). For Synthesized Yoga Vite, register **both** hosts (Google treats them as
+   different origins — `127.0.0.1` alone causes
+   `origin_mismatch` / “doesn’t comply with Google’s OAuth 2.0 policy”):
+   - `http://localhost:5173`
+   - `http://127.0.0.1:5173`
 3. **Privacy policy** (optional): `https://tunebook.net/yoga/#/privacy`.
 4. **Android OAuth client** (same project — Capgo requires Web + Android together):
    - Type: Android
    - Package: `app.yogapp.practice`
-   - SHA-1 (YogApp debug keystore): `90:9A:B1:B9:0E:66:33:43:7A:B1:A4:A8:BB:7E:70:4F:5D:80:C3:F5`
+   - SHA-1 (Synthesized Yoga debug keystore): `90:9A:B1:B9:0E:66:33:43:7A:B1:A4:A8:BB:7E:70:4F:5D:80:C3:F5`
    - Client ID (Console only — do **not** put in `.env`):
      `927667106833-08id74ih0vk81vr8cmrbic6bokliklm7.apps.googleusercontent.com`
    - App code keeps using the **Web** client as `VITE_GOOGLE_CLIENT_ID` /
      Capgo `webClientId`.
 5. Retire or ignore the old YogApp-only Web client `905561…`.
 
-YogApp uses the same `drive.file` scope as Tune Book, so a Tunebook session on
-tunebook.net can usually satisfy YogApp without an extra Drive consent.
+Synthesized Yoga uses the same `drive.file` scope as Tune Book, so a Tunebook session on
+tunebook.net can usually satisfy Synthesized Yoga without an extra Drive consent.
 
 **Practical rule:** Keep on the consent screen only scopes you actually use. If `drive.readonly` is listed as **Sensitive** and something requests it at login, Google shows the unverified screen even when `drive.file` is approved.
 

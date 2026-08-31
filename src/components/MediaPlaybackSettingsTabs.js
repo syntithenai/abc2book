@@ -28,6 +28,9 @@ export default function MediaPlaybackSettingsTabs({
   elevatedPlaylistModal,
   token = null,
   login = null,
+  googleDocumentId = null,
+  syncDocument = null,
+  setBlockKeyboardShortcuts = null,
 }) {
   const showPlaylistTab = isQueueActive(nowPlayingQueue)
     && Array.isArray(nowPlayingQueue.items)
@@ -199,6 +202,11 @@ export default function MediaPlaybackSettingsTabs({
                 dialogZIndex={elevatedPlaylistModal ? 1300 : undefined}
                 startPlaybackOnOpen={elevatedPlaylistModal}
                 mediaController={mediaController}
+                token={token}
+                login={login}
+                googleDocumentId={googleDocumentId}
+                syncDocument={syncDocument}
+                setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
               />
               <NowPlayingQueueManager
                 tunebook={tunebook}
@@ -208,6 +216,11 @@ export default function MediaPlaybackSettingsTabs({
                 mediaController={mediaController}
                 handleClose={onPlaylistCleared}
                 token={token}
+                login={login}
+                googleDocumentId={googleDocumentId}
+                syncDocument={syncDocument}
+                setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+                dialogZIndex={elevatedPlaylistModal ? 1300 : undefined}
               />
             </div>
           </Tab>

@@ -226,7 +226,7 @@ describe('gigNotationFit', function() {
       expect(paper.availH).toBe(640 - 100);
     });
 
-    it('reserves footer height when the footer is below the viewport', function() {
+    it('does not reserve below-fold footer height so fit-height can fill the viewport', function() {
       const root = document.createElement('div');
       root.className = 'music-single';
       const column = document.createElement('div');
@@ -261,7 +261,7 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
       document.body.removeChild(root);
 
-      expect(paper.availH).toBe(700 - 100 - 80);
+      expect(paper.availH).toBe(700 - 100);
     });
 
     it('ignores an in-viewport footer that is still too close during layout', function() {

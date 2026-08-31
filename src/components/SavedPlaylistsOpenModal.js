@@ -3,7 +3,7 @@ import { Button, ListGroup, Modal } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { createQueue, clampTuneIds } from '../nowPlayingQueue'
-import ShareTunebookModal from './ShareTunebookModal'
+import SharePlaylistModal from './SharePlaylistModal'
 import VoiceFillInput from './VoiceFillInput'
 import { savePerformanceSet } from '../performanceSetStore'
 import {
@@ -54,6 +54,7 @@ export default function SavedPlaylistsOpenModal({
   dialogZIndex,
   startPlaybackOnOpen,
   mediaController,
+  syncDocument,
 }) {
   const navigate = useNavigate()
   const [playlists, setPlaylists] = useState([])
@@ -272,21 +273,25 @@ export default function SavedPlaylistsOpenModal({
                     >
                       <BulkOpsDualIcon leading={icons.start} trailing={icons.setlist} />
                     </Button>
-                    {googleDocumentId && token ? (
+                    {googleDocumentId || login ? (
                       <span onClick={function(e) { e.stopPropagation() }}>
-                        <ShareTunebookModal
+                        <SharePlaylistModal
                           tunebook={tunebook}
                           token={token}
                           login={login}
                           googleDocumentId={googleDocumentId}
-                          shareKind="playlist"
                           playlistId={playlist.id}
                           playlistName={playlist.name}
                           tunes={tunes}
                           saveTune={tunebook && tunebook.saveTune}
+                          syncDocument={syncDocument}
+                          setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+                          dialogZIndex={dialogZIndex || 1300}
                           tiny={true}
                           variant="outline-info"
                           buttonSize="sm"
+                          stopPropagation={true}
+                          onSaved={function() { refresh() }}
                         />
                       </span>
                     ) : null}

@@ -3479,6 +3479,46 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
 
 
+@app.get("/yogapp-locale-audio/{name}")
+async def yogapp_locale_audio(name: str, request: Request):
+    """Public CORS proxy for YogApp locale audio zips (GitHub Releases have none).
+
+    No auth — allowlisted filenames only, streamed from the public Release.
+    """
+    origin = request.headers.get("origin")
+    allowed = {
+        "en-extra.zip",
+        "zh-CN.zip",
+        "es.zip",
+        "de.zip",
+        "fr.zip",
+        "hi.zip",
+        "ja.zip",
+        "ar.zip",
+        "ru.zip",
+    }
+    if name not in allowed:
+        return json_error(404, "Unknown YogApp audio pack", origin)
+    release_base = os.getenv(
+        "YOGAPP_AUDIO_RELEASE_BASE",
+        "https://github.com/syntithenai/yogapp/releases/download/audio-v1",
+    ).rstrip("/")
+    target = f"{release_base}/{name}"
+    try:
+        response = await stream_upstream(
+            target,
+            request,
+            billing_email="",
+            billing_path="yogapp-locale-audio",
+        )
+        response.headers.update(cors_headers(origin))
+        # Cacheable — packs are versioned by release tag / filename.
+        response.headers["Cache-Control"] = "public, max-age=86400"
+        return response
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.get("/proxy-audio")
 async def proxy_audio(
     request: Request,

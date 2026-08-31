@@ -39,6 +39,9 @@ export function hasActivePageKey(currentTuneBook, tagFilter) {
 /**
  * Apply implicit page grouping when a book filter or a single tag filter is
  * active, unless the user chose another grouping or opted out with GROUP_BY_NONE.
+ *
+ * Single-tag filters (e.g. NFF year books) use that tag's bookPages key so
+ * real PDF page headers work after scrape-nff-book-pages.py.
  */
 export function resolveEffectiveGroupBy(groupBy, currentTuneBook, tagFilter) {
   const stored = groupBy != null ? String(groupBy).trim() : ''

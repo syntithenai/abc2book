@@ -16,6 +16,11 @@ export default function PlaylistToolbar({
   dialogZIndex,
   startPlaybackOnOpen,
   mediaController,
+  token,
+  login,
+  googleDocumentId,
+  syncDocument,
+  setBlockKeyboardShortcuts,
 }) {
   const [showOpen, setShowOpen] = useState(false)
   const isLesson = isLessonQueue(nowPlayingQueue)
@@ -97,6 +102,11 @@ export default function PlaylistToolbar({
         dialogZIndex={dialogZIndex}
         startPlaybackOnOpen={startPlaybackOnOpen}
         mediaController={mediaController}
+        token={token}
+        login={login}
+        googleDocumentId={googleDocumentId}
+        syncDocument={syncDocument}
+        setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
       />
     </>
   )

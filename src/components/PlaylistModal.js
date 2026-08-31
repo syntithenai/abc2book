@@ -16,6 +16,11 @@ export default function PlaylistModal({
   hideTrigger,
   show: controlledShow,
   onShowChange,
+  token,
+  login,
+  googleDocumentId,
+  syncDocument,
+  setBlockKeyboardShortcuts,
 }) {
   const [internalShow, setInternalShow] = useState(false)
   const show = controlledShow !== undefined ? controlledShow : internalShow
@@ -80,6 +85,11 @@ export default function PlaylistModal({
             setNowPlayingQueue={setNowPlayingQueue}
             tunes={tunes}
             onCleared={handleClose}
+            token={token}
+            login={login}
+            googleDocumentId={googleDocumentId}
+            syncDocument={syncDocument}
+            setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
           />
           <NowPlayingQueueManager
             handleClose={handleClose}
@@ -87,6 +97,11 @@ export default function PlaylistModal({
             nowPlayingQueue={nowPlayingQueue}
             setNowPlayingQueue={setNowPlayingQueue}
             tunes={tunes}
+            token={token}
+            login={login}
+            googleDocumentId={googleDocumentId}
+            syncDocument={syncDocument}
+            setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
           />
         </Modal.Body>
       </Modal>

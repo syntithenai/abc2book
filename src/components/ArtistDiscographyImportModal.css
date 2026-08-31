@@ -1,0 +1,72 @@
+.artist-discography-import-modal__loading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.artist-discography-import-modal__album {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 0;
+}
+
+.artist-discography-import-modal__album-toggle {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.25rem;
+}
+
+.artist-discography-import-modal__album-toggle:hover {
+  text-decoration: underline;
+}
+
+.artist-discography-import-modal__chevron {
+  display: inline-block;
+  width: 1rem;
+  color: rgba(0, 0, 0, 0.55);
+  transition: transform 0.15s ease;
+  transform: rotate(0deg);
+  flex: 0 0 auto;
+}
+
+.artist-discography-import-modal__chevron.is-expanded {
+  transform: rotate(90deg);
+}
+
+.artist-discography-import-modal__tracks {
+  padding-left: 1.75rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.35rem;
+}
+
+.artist-discography-import-modal__track {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.artist-discography-import-modal__track.is-in-library {
+  background: rgba(25, 135, 84, 0.08);
+  border-radius: 4px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.artist-discography-import-modal__track.is-filter-match,
+.artist-discography-import-modal__album-toggle .is-filter-match {
+  background: rgba(255, 193, 7, 0.18);
+  border-radius: 4px;
+}
+
+.artist-discography-import-modal__track-title {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.artist-discography-import-modal__track-number {
+  display: inline-block;
+  width: 1.75rem;
+  color: rgba(0, 0, 0, 0.55);
+}

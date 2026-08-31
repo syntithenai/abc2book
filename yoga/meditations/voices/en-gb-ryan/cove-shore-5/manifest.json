@@ -4,349 +4,355 @@
   "edgeVoice": "en-GB-RyanNeural",
   "rate": "-42%",
   "pitch": "-12Hz",
-  "totalSec": 329,
+  "totalSec": 244,
   "chunks": [
     {
       "index": 0,
       "text": "Welcome.",
       "file": "c000.ogg",
-      "durationSec": 2.76
+      "durationSec": 1.501
     },
     {
       "index": 1,
       "text": "Take a comfortable seat, or lie down if that feels better.",
       "file": "c001.ogg",
-      "durationSec": 6.96
+      "durationSec": 6.079
     },
     {
       "index": 2,
       "text": "Let your hands rest.",
       "file": "c002.ogg",
-      "durationSec": 3.768
+      "durationSec": 2.546
     },
     {
       "index": 3,
       "text": "Allow your eyes to close, or soften your gaze.",
       "file": "c003.ogg",
-      "durationSec": 6.456
+      "durationSec": 5.27
     },
     {
       "index": 4,
       "text": "Notice the weight of your body being held.",
       "file": "c004.ogg",
-      "durationSec": 5.424
+      "durationSec": 4.291
     },
     {
       "index": 5,
       "text": "Take a slow breath in through the nose.",
       "file": "c005.ogg",
-      "durationSec": 5.232
+      "durationSec": 3.873
     },
     {
       "index": 6,
       "text": "And a longer, easier breath out.",
       "file": "c006.ogg",
-      "durationSec": 5.28
+      "durationSec": 3.532
     },
     {
       "index": 7,
       "text": "Again. Soft inhale.",
       "file": "c007.ogg",
-      "durationSec": 5.88
+      "durationSec": 3.076
     },
     {
       "index": 8,
       "text": "Gentle exhale.",
       "file": "c008.ogg",
-      "durationSec": 3.456
+      "durationSec": 2.244
     },
     {
       "index": 9,
       "text": "If thoughts wander, that is fine. Return to the breath.",
       "file": "c009.ogg",
-      "durationSec": 8.496
+      "durationSec": 6.368
     },
     {
       "index": 10,
       "text": "See yourself arriving at a sheltered cove.",
       "file": "c010.ogg",
-      "durationSec": 5.688
+      "durationSec": 4.397
     },
     {
       "index": 11,
       "text": "Cliffs curve around soft pale sand.",
       "file": "c011.ogg",
-      "durationSec": 5.256
+      "durationSec": 4.68
     },
     {
       "index": 12,
       "text": "The sea moves in low, patient waves.",
       "file": "c012.ogg",
-      "durationSec": 5.736
+      "durationSec": 4.517
     },
     {
       "index": 13,
       "text": "A mild sun warms the tops of your shoulders.",
       "file": "c013.ogg",
-      "durationSec": 5.808
+      "durationSec": 4.92
     },
     {
       "index": 14,
       "text": "A salty breeze cools your lips and eyelids.",
       "file": "c014.ogg",
-      "durationSec": 5.616
+      "durationSec": 4.751
     },
     {
       "index": 15,
       "text": "Feel the freshness of that air filling your chest.",
       "file": "c015.ogg",
-      "durationSec": 5.664
+      "durationSec": 5.094
     },
     {
       "index": 16,
       "text": "Walk to the waterline. Wet sand hugs your feet.",
       "file": "c016.ogg",
-      "durationSec": 7.824
+      "durationSec": 5.672
     },
     {
       "index": 17,
       "text": "Cool foam touches your ankles and slips away.",
       "file": "c017.ogg",
-      "durationSec": 6.12
+      "durationSec": 5.146
     },
     {
       "index": 18,
       "text": "The rhythm is simple. Arrive. Soften. Leave.",
       "file": "c018.ogg",
-      "durationSec": 11.304
+      "durationSec": 5.793
     },
     {
       "index": 19,
       "text": "Sit where dry sand is warm beneath you.",
       "file": "c019.ogg",
-      "durationSec": 5.472
+      "durationSec": 4.686
     },
     {
       "index": 20,
       "text": "Lean back on your hands. Feel the grainy heat.",
       "file": "c020.ogg",
-      "durationSec": 7.944
+      "durationSec": 5.496
     },
     {
       "index": 21,
       "text": "Listen to the hush and rush of the cove.",
       "file": "c021.ogg",
-      "durationSec": 5.184
+      "durationSec": 4.172
     },
     {
       "index": 22,
       "text": "Smell salt, sun, and clean stone.",
       "file": "c022.ogg",
-      "durationSec": 6.168
+      "durationSec": 4.57
     },
     {
       "index": 23,
       "text": "Warmth on your skin. Coolness in every inhale.",
       "file": "c023.ogg",
-      "durationSec": 7.896
+      "durationSec": 5.913
     },
     {
       "index": 24,
       "text": "Far out, light sparkles like quiet laughter.",
       "file": "c024.ogg",
-      "durationSec": 6.312
+      "durationSec": 5.27
     },
     {
       "index": 25,
       "text": "You do not need to chase it. It is already here.",
       "file": "c025.ogg",
-      "durationSec": 7.824
+      "durationSec": 5.153
     },
     {
       "index": 26,
       "text": "A wave reaches farther, cools your toes, then retreats.",
       "file": "c026.ogg",
-      "durationSec": 7.92
+      "durationSec": 6.258
     },
     {
       "index": 27,
       "text": "Warm sand reclaims your feet.",
       "file": "c027.ogg",
-      "durationSec": 4.848
+      "durationSec": 3.706
     },
     {
       "index": 28,
       "text": "Let your breath move with the waves — slow in, longer out.",
       "file": "c028.ogg",
-      "durationSec": 7.8
+      "durationSec": 6.722
     },
     {
       "index": 29,
       "text": "Peace is the cove itself. You are inside it.",
       "file": "c029.ogg",
-      "durationSec": 7.512
+      "durationSec": 5.04
     },
     {
       "index": 30,
       "text": "Rest your attention on the warmth between your shoulder blades.",
       "file": "c030.ogg",
-      "durationSec": 7.008
+      "durationSec": 5.734
     },
     {
       "index": 31,
       "text": "And on the fresh salt air at the tip of the nose.",
       "file": "c031.ogg",
-      "durationSec": 6.024
+      "durationSec": 5.152
     },
     {
       "index": 32,
       "text": "Trace the cliff line with soft imagination.",
       "file": "c032.ogg",
-      "durationSec": 5.712
+      "durationSec": 4.455
     },
     {
       "index": 33,
       "text": "Stone warmed by day. Shadow cool in the folds.",
       "file": "c033.ogg",
-      "durationSec": 8.088
+      "durationSec": 6.081
     },
     {
       "index": 34,
       "text": "A tide pool nearby holds a tiny clear world.",
       "file": "c034.ogg",
-      "durationSec": 6.48
+      "durationSec": 5.677
     },
     {
       "index": 35,
       "text": "You do not need to lean in. Knowing it is there is enough.",
       "file": "c035.ogg",
-      "durationSec": 8.232
+      "durationSec": 6.422
     },
     {
       "index": 36,
       "text": "Another wave. Cool ankles. Warm sand. Soft breath.",
       "file": "c036.ogg",
-      "durationSec": 12.504
+      "durationSec": 7.19
     },
     {
       "index": 37,
       "text": "The cove keeps offering the same simple kindness.",
       "file": "c037.ogg",
-      "durationSec": 6.0
+      "durationSec": 5.328
     },
     {
       "index": 38,
       "text": "Receive it once more before you leave.",
       "file": "c038.ogg",
-      "durationSec": 5.184
+      "durationSec": 4.171
     },
     {
       "index": 39,
       "text": "Now rest in the breath alone for a little while.",
       "file": "c039.ogg",
-      "durationSec": 5.784
+      "durationSec": 4.459
     },
     {
       "index": 40,
       "text": "Inhale slowly.",
       "file": "c040.ogg",
-      "durationSec": 3.432
+      "durationSec": 2.368
     },
     {
       "index": 41,
       "text": "Exhale slowly.",
       "file": "c041.ogg",
-      "durationSec": 3.432
+      "durationSec": 2.36
     },
     {
       "index": 42,
       "text": "Inhale.",
       "file": "c042.ogg",
-      "durationSec": 2.904
+      "durationSec": 1.495
     },
     {
       "index": 43,
       "text": "Exhale.",
       "file": "c043.ogg",
-      "durationSec": 2.856
+      "durationSec": 1.323
     },
     {
       "index": 44,
       "text": "Feel warmth wherever the body is warm.",
       "file": "c044.ogg",
-      "durationSec": 5.544
+      "durationSec": 4.226
     },
     {
       "index": 45,
       "text": "Feel coolness wherever the air is cool.",
       "file": "c045.ogg",
-      "durationSec": 5.592
+      "durationSec": 4.334
     },
     {
       "index": 46,
       "text": "Inhale.",
       "file": "c046.ogg",
-      "durationSec": 2.904
+      "durationSec": 1.55
     },
     {
       "index": 47,
       "text": "Exhale.",
       "file": "c047.ogg",
-      "durationSec": 2.856
+      "durationSec": 1.553
     },
     {
       "index": 48,
       "text": "Nowhere to go. Nothing to fix.",
       "file": "c048.ogg",
-      "durationSec": 6.6
+      "durationSec": 4.222
     },
     {
       "index": 49,
       "text": "Inhale.",
       "file": "c049.ogg",
-      "durationSec": 2.904
+      "durationSec": 1.552
     },
     {
       "index": 50,
       "text": "Exhale.",
       "file": "c050.ogg",
-      "durationSec": 2.856
+      "durationSec": 1.494
     },
     {
       "index": 51,
       "text": "Rest here for a few quiet breaths.",
       "file": "c051.ogg",
-      "durationSec": 5.016
+      "durationSec": 4.051
     },
     {
       "index": 52,
       "text": "Know that you can return to this place anytime.",
       "file": "c052.ogg",
-      "durationSec": 5.592
+      "durationSec": 4.978
     },
     {
       "index": 53,
       "text": "When you are ready, deepen the breath.",
       "file": "c053.ogg",
-      "durationSec": 5.064
+      "durationSec": 3.872
     },
     {
       "index": 54,
       "text": "Wiggle fingers and toes.",
       "file": "c054.ogg",
-      "durationSec": 4.296
+      "durationSec": 2.894
     },
     {
       "index": 55,
       "text": "Open your eyes softly.",
       "file": "c055.ogg",
-      "durationSec": 3.912
+      "durationSec": 2.773
     },
     {
       "index": 56,
       "text": "Carry a little of this peace with you.",
       "file": "c056.ogg",
-      "durationSec": 4.56
+      "durationSec": 3.703
     }
-  ]
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
 }

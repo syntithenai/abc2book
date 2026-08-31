@@ -7,6 +7,7 @@
 #   bash scripts/publish-everything.sh
 #   bash scripts/publish-everything.sh --dry-run
 #   bash scripts/publish-everything.sh --no-android
+#   bash scripts/publish-everything.sh --no-locale-audio
 #   bash scripts/publish-everything.sh --no-push
 #   bash scripts/publish-everything.sh --install   # also adb-install debug APKs
 #
@@ -15,6 +16,7 @@
 #   JAVA_HOME_TB   JDK for Tune Book Capacitor 6 (default: .tools/jdk-17 or JAVA_HOME)
 #   JAVA_HOME_YOGA JDK for YogApp Capacitor 8 (default: ~/.local/opt/jdk-21 or JAVA_HOME)
 #   ANDROID_HOME   Android SDK (default: .tools/android-sdk or ~/Android/Sdk)
+#   AUDIO_RELEASE_TAG  YogApp locale-audio release tag (default: audio-v1)
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -22,6 +24,7 @@ YOGAPP="${YOGAPP_DIR:-$ROOT/../yogapp}"
 
 DRY_RUN=0
 DO_ANDROID=1
+DO_LOCALE_AUDIO=1
 DO_PUSH=1
 DO_COMMIT=1
 DO_INSTALL=0
@@ -36,19 +39,21 @@ Usage (from abc2book):
   bash scripts/publish-everything.sh [options]
 
 Options:
-  --dry-run       Print commands only
-  --no-android    Skip both Android APK builds
-  --no-commit     Build only (implies --no-push)
-  --no-push       Commit locally but do not git push
-  --install       adb install -r both debug/release APKs
-  --wait-pages    After push, poll GitHub Pages until built
-  -h, --help      Show this help
+  --dry-run            Print commands only
+  --no-android         Skip both Android APK builds
+  --no-locale-audio    Skip packing/uploading YogApp locale audio release zips
+  --no-commit          Build only (implies --no-push; also skips locale-audio upload)
+  --no-push            Commit locally but do not git push (also skips locale-audio upload)
+  --install            adb install -r both debug/release APKs
+  --wait-pages         After push, poll GitHub Pages until built
+  -h, --help           Show this help
 
 Env:
-  YOGAPP_DIR       Sibling YogApp checkout (default: ../yogapp)
-  JAVA_HOME_TB     JDK 17 for Tune Book (default: .tools/jdk-17)
-  JAVA_HOME_YOGA   JDK 21 for YogApp (default: ~/.local/opt/jdk-21)
-  ANDROID_HOME     Android SDK
+  YOGAPP_DIR           Sibling YogApp checkout (default: ../yogapp)
+  JAVA_HOME_TB         JDK 17 for Tune Book (default: .tools/jdk-17)
+  JAVA_HOME_YOGA       JDK 21 for YogApp (default: ~/.local/opt/jdk-21)
+  ANDROID_HOME         Android SDK
+  AUDIO_RELEASE_TAG    Locale audio GitHub Release tag (default: audio-v1)
 EOF
   exit "${1:-0}"
 }
@@ -58,6 +63,7 @@ while [[ $# -gt 0 ]]; do
     -h|--help) usage 0 ;;
     --dry-run) DRY_RUN=1 ;;
     --no-android) DO_ANDROID=0 ;;
+    --no-locale-audio) DO_LOCALE_AUDIO=0 ;;
     --no-push) DO_PUSH=0 ;;
     --no-commit) DO_COMMIT=0; DO_PUSH=0 ;;
     --install) DO_INSTALL=1 ;;
@@ -163,10 +169,11 @@ commit_repo() {
     git add -A
     git reset HEAD -- \
       .env .env.local .env.*.local \
+      .env.elevenlabs \
       android/keystore.properties \
+      dist-audio \
       2>/dev/null || true
-    # Locale audio zips are published via `npm run pack:locale-audio` + gh release,
-    # not as part of this commit helper’s required path.
+    # Locale audio zips ship via GitHub Release (publish:locale-audio), not git.
     if git diff --cached --quiet; then
       log "$(basename "$repo"): nothing staged after excluding secrets"
       return 0
@@ -187,7 +194,7 @@ push_repo() {
 
 # --- builds -----------------------------------------------------------------
 
-log "1/4 YogApp Android (Capacitor base ./)"
+log "1/5 YogApp Android (Capacitor base ./)"
 if [[ "$DO_ANDROID" -eq 1 ]]; then
   (
     export JAVA_HOME="$JAVA_YOGA"
@@ -203,7 +210,7 @@ else
   log "skip YogApp Android (--no-android)"
 fi
 
-log "2/4 Tune Book Android (latest web → Capacitor)"
+log "2/5 Tune Book Android (latest web → Capacitor)"
 if [[ "$DO_ANDROID" -eq 1 ]]; then
   (
     export JAVA_HOME="$JAVA_TB"
@@ -215,7 +222,7 @@ else
   log "skip Tune Book Android (--no-android)"
 fi
 
-log "3/4 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
+log "3/5 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
 # Full abc2book build runs embed-yogapp.sh (build:web) then copies to repo root.
 (
   cd "$ROOT"
@@ -242,9 +249,29 @@ if [[ "$DO_INSTALL" -eq 1 && "$DO_ANDROID" -eq 1 ]]; then
   fi
 fi
 
+# --- locale audio release ---------------------------------------------------
+
+log "4/5 YogApp locale audio packs → GitHub Release ${AUDIO_RELEASE_TAG:-audio-v1}"
+if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
+  (
+    cd "$YOGAPP"
+    if [[ "$DRY_RUN" -eq 1 ]]; then
+      run bash scripts/publish-locale-audio.sh --dry-run
+    else
+      [[ -x scripts/publish-locale-audio.sh || -f scripts/publish-locale-audio.sh ]] \
+        || die "missing $YOGAPP/scripts/publish-locale-audio.sh"
+      run bash scripts/publish-locale-audio.sh
+    fi
+  )
+elif [[ "$DO_LOCALE_AUDIO" -eq 0 ]]; then
+  log "skip locale audio (--no-locale-audio)"
+else
+  log "skip locale audio upload (--no-push / --no-commit)"
+fi
+
 # --- git / Pages ------------------------------------------------------------
 
-log "4/4 Commit + push (tunebook.net via GitHub Pages)"
+log "5/5 Commit + push (tunebook.net via GitHub Pages)"
 assert_no_absolute_symlinks "$ROOT"
 assert_no_absolute_symlinks "$YOGAPP"
 
@@ -291,7 +318,11 @@ echo "  YogApp repo:    $YOGAPP"
 echo "  Tune Book repo: $ROOT"
 echo "  Site:           https://tunebook.net/"
 echo "  Yoga:           https://tunebook.net/yoga/"
-echo "  Locale audio:   npm run pack:locale-audio && gh release upload audio-v1 … (from yogapp)"
+if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
+  echo "  Locale audio:   https://github.com/syntithenai/yogapp/releases/tag/${AUDIO_RELEASE_TAG:-audio-v1}"
+else
+  echo "  Locale audio:   skipped"
+fi
 if [[ "$DO_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
   echo "  YogApp APK:     $YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
   if [[ -f "$ROOT/android/app/build/outputs/apk/release/app-release.apk" ]]; then

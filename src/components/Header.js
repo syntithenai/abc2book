@@ -522,7 +522,7 @@ export default function Header(props) {
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.yoga}
-                                    <span>Yoga</span>
+                                    <span>Synthesized Yoga</span>
                                 </span>
                             </Button>
                         </a>
@@ -688,6 +688,8 @@ export default function Header(props) {
             token={props.token}
             login={props.login}
             googleDocumentId={props.googleDocumentId}
+            syncDocument={props.syncDocument}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         />
         <AccountModal
             show={showAccount}

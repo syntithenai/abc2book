@@ -636,30 +636,6 @@ export function measureElementViewportHeightBudget(el, padBottom) {
   return Math.max(40, Math.floor(bottom - top - pad));
 }
 
-/**
- * Height of the books/tags/info footer below notation in single view. Fit-height
- * must stop above this block so it stays in the scrollable page flow.
- */
-export function measureSingleViewFooterReserve(renderEl) {
-  if (!renderEl || typeof renderEl.closest !== 'function') return 0;
-  const root = renderEl.closest('.music-single, .tune-single-view-dialog-content');
-  if (!root || typeof root.querySelector !== 'function') return 0;
-  const footer = root.querySelector('.music-single-footer-meta');
-  if (!footer) return 0;
-  if (typeof window === 'undefined' || typeof window.getComputedStyle !== 'function') {
-    const fallback = footer.offsetHeight || 0;
-    return fallback > 0 ? Math.ceil(fallback) : 0;
-  }
-  const style = window.getComputedStyle(footer);
-  if (style.display === 'none' || style.visibility === 'hidden') return 0;
-  const rect = footer.getBoundingClientRect();
-  const height = rect.height || footer.offsetHeight || 0;
-  if (!(height > 0)) return 0;
-  const marginTop = parseFloat(style.marginTop) || 0;
-  const marginBottom = parseFloat(style.marginBottom) || 0;
-  return Math.ceil(height + marginTop + marginBottom);
-}
-
 function measureSingleViewFooterTopLimit(renderEl) {
   if (!renderEl || typeof renderEl.closest !== 'function') return null;
   const root = renderEl.closest('.music-single, .tune-single-view-dialog-content');
@@ -679,8 +655,10 @@ function measureSingleViewFooterTopLimit(renderEl) {
  * Width prefers the viewer element (inside column padding) so the scaled SVG
  * does not overflow and left-align-clip the title. Falls back to the notation
  * column when the viewer has not laid out yet. Height is from the score top to
- * the bottom of the viewport (above the playlist transport bar and any
- * books/tags footer when shown).
+ * the bottom of the viewport (above the playlist transport bar). When an Info
+ * footer is already visible in the viewport with a settled gap, height stops
+ * above it; below-fold footers are not reserved so fit-height can fill the
+ * screen and meta stays scrollable.
  */
 export function measureSingleViewPaper(renderEl) {
   if (!renderEl) return { availW: 100, availH: 100 };
@@ -707,7 +685,6 @@ export function measureSingleViewPaper(renderEl) {
   const availW = Math.max(100, Math.floor(baseW - rightPad));
   const viewportBottom = measureViewportBottomLimit();
   const footerTopLimit = measureSingleViewFooterTopLimit(renderEl);
-  const footerReserve = measureSingleViewFooterReserve(renderEl);
   const footerInViewport = footerTopLimit != null && footerTopLimit < viewportBottom;
   let bottomLimit = viewportBottom;
   if (footerTopLimit != null && footerTopLimit > topRect.top + 80 && footerInViewport) {
@@ -715,8 +692,6 @@ export function measureSingleViewPaper(renderEl) {
     if (footerGap >= SINGLE_VIEW_MIN_FOOTER_GAP_PX) {
       bottomLimit = footerTopLimit;
     }
-  } else if (footerReserve > 0 && !footerInViewport) {
-    bottomLimit = Math.max(topRect.top + 100, viewportBottom - footerReserve);
   }
   const availH = Math.max(
     100,
