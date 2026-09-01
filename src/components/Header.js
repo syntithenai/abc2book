@@ -522,7 +522,7 @@ export default function Header(props) {
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.yoga}
-                                    <span>Synthesized Yoga</span>
+                                    <span>Yoga</span>
                                 </span>
                             </Button>
                         </a>
