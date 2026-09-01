@@ -13,10 +13,10 @@
     },
     
     {
-      "source" : "**/*.@(jpg|jpeg|gif|png)",
+      "source" : "**/*.@(zip)",
       "headers" : [{
         "key" : "Cache-Control",
-        "value" : "max-age=7200"
+        "value" : "public, max-age=31536000, immutable"
       }]
     },
     {

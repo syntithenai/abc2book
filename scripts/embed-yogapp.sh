@@ -35,4 +35,6 @@ for dest in "$DEST_BUILD" "$DEST_ROOT"; do
   rm -f "$dest/meditations"/*.ogg 2>/dev/null || true
 done
 
-echo "embed-yogapp: wrote $DEST_BUILD and $DEST_ROOT (English $KEEP voice + cues embedded)"
+bash "$YOGAPP/scripts/copy-audio-packs-embed.sh" "$DEST_BUILD" "$DEST_ROOT"
+
+echo "embed-yogapp: wrote $DEST_BUILD and $DEST_ROOT (English $KEEP voice + cues + audio-packs/v1)"

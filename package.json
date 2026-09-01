@@ -151,8 +151,7 @@
   "jest": {
     "moduleNameMapper": {
       "^canvas$": "<rootDir>/src/__mocks__/canvas.js",
-      "^youtube-player$": "<rootDir>/src/youtubePlayerSafeFactory.js",
-      "^youtube-player-original$": "<rootDir>/node_modules/youtube-player/dist/index.js"
+      "^youtube-player$": "<rootDir>/src/youtubePlayerSafeFactory.js"
     }
   },
   "browserslist": {

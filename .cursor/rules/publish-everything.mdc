@@ -16,7 +16,8 @@ npm run publish:everything
 Optional flags the user may want:
 
 - `--dry-run` — print steps only
-- `--no-android` — web/Pages only
+- `--force` — rebuild/redeploy everything (ignore change detection)
+- `--no-android` — skip Android APK builds
 - `--no-locale-audio` — skip packing/uploading YogApp language packs
 - `--no-resolver` — skip Cloud Run light resolver deploy
 - `--no-push` / `--no-commit` — build without publishing (also skips locale-audio upload and hosted resolver deploy)
@@ -26,6 +27,8 @@ Optional flags the user may want:
 
 Script: `scripts/publish-everything.sh`
 
-It builds Synthesized Yoga (yogapp) Android, Tune Book Android, Tune Book web (embeds `/yoga/`), **deploys the hosted Cloud Run light resolver** (`local-resolver/deploy-cloud-light.sh` → `tunebook-resolver-light`), **packs and uploads YogApp locale audio zips** to the `audio-v1` GitHub Release (`npm run publish:locale-audio` in yogapp), commits, and pushes **yogapp** then **abc2book** so https://tunebook.net/ and https://tunebook.net/yoga/ update (non-English / extra-English voice packs download via the peppertrees CORS proxy).
+**Change-aware by default:** skips YogApp/Tune Book Android, web/Pages, and Cloud Run resolver when the relevant source paths are clean and already match upstream. Locale audio **packs/uploads only zips whose contents changed** (SHA-256 vs the `audio-v1` release; source-tree digests reuse local zips). Use `--force` for a full rebuild/republish.
+
+It can build Synthesized Yoga (yogapp) Android, Tune Book Android, Tune Book web (embeds `/yoga/`), deploy the hosted Cloud Run light resolver (`local-resolver/deploy-cloud-light.sh` → `tunebook-resolver-light`), publish YogApp locale audio to the `audio-v1` GitHub Release, commit, and push **yogapp** then **abc2book** so https://tunebook.net/ and https://tunebook.net/yoga/ update (non-English / extra-English voice packs download from `https://tunebook.net/yoga/audio-packs/v1/`; GitHub Release `audio-v1` is an optional backup).
 
 If an Android phone is plugged in (adb `device`), it also **re-syncs the just-built web into both Capacitor APKs**, `adb install -r` Synthesized Yoga + Tune Book, and best-effort clears WebView cache so the on-phone web UI matches the publish. Peppertrees (home Docker) and the score-convert sidecar are not redeployed by this script.

@@ -12,6 +12,7 @@
 #   bash scripts/publish-everything.sh --no-push
 #   bash scripts/publish-everything.sh --install      # require adb device
 #   bash scripts/publish-everything.sh --no-install   # skip even if phone plugged in
+#   bash scripts/publish-everything.sh --force        # rebuild/redeploy everything
 #
 # Env:
 #   YOGAPP_DIR   Sibling YogApp checkout (default: ../yogapp)
@@ -35,11 +36,16 @@ DO_COMMIT=1
 # auto = install when an adb device is connected; always = require device; never = skip
 DO_INSTALL=auto
 WAIT_PAGES=0
+FORCE_ALL=0
 
 usage() {
   cat <<'EOF'
 publish-everything — rebuild Tune Book + YogApp (web + Android), deploy hosted
 resolver, and push for tunebook.net
+
+Skips expensive steps when sources are unchanged vs upstream (and working tree
+is clean for those paths). Locale audio packs/uploads only changed zips.
+Use --force to rebuild and republish everything.
 
 Usage (from abc2book):
   npm run publish:everything
@@ -47,6 +53,7 @@ Usage (from abc2book):
 
 Options:
   --dry-run            Print commands only
+  --force              Rebuild/redeploy all targets (ignore change detection)
   --no-android         Skip both Android APK builds
   --no-locale-audio    Skip packing/uploading YogApp locale audio release zips
   --no-resolver        Skip Cloud Run light resolver deploy
@@ -72,6 +79,7 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     -h|--help) usage 0 ;;
     --dry-run) DRY_RUN=1 ;;
+    --force) FORCE_ALL=1 ;;
     --no-android) DO_ANDROID=0 ;;
     --no-locale-audio) DO_LOCALE_AUDIO=0 ;;
     --no-resolver) DO_RESOLVER=0 ;;
@@ -123,12 +131,6 @@ ANDROID_HOME_RESOLVED="$(resolve_android_home)"
 JAVA_TB="$(resolve_java "${JAVA_HOME_TB:-$ROOT/.tools/jdk-17}")"
 JAVA_YOGA="$(resolve_java "${JAVA_HOME_YOGA:-$HOME/.local/opt/jdk-21}")"
 
-if [[ "$DO_ANDROID" -eq 1 ]]; then
-  [[ -n "$ANDROID_HOME_RESOLVED" ]] || die "ANDROID_HOME not found"
-  [[ -n "$JAVA_TB" ]] || die "Tune Book JDK not found (need 17; set JAVA_HOME_TB)"
-  [[ -n "$JAVA_YOGA" ]] || die "YogApp JDK not found (need 21; set JAVA_HOME_YOGA)"
-fi
-
 export ANDROID_HOME="$ANDROID_HOME_RESOLVED"
 export PATH="${ANDROID_HOME:+$ANDROID_HOME/platform-tools:}$PATH"
 
@@ -140,6 +142,21 @@ run() {
   else
     "$@"
   fi
+}
+
+# True if paths are dirty or differ from upstream...HEAD (no upstream ⇒ true).
+paths_need_publish() {
+  local repo="$1"
+  shift
+  [[ $# -gt 0 ]] || return 0
+  if git -C "$repo" status --porcelain -- "$@" 2>/dev/null | grep -q .; then
+    return 0
+  fi
+  local upstream
+  if ! upstream="$(git -C "$repo" rev-parse --abbrev-ref '@{upstream}' 2>/dev/null)"; then
+    return 0
+  fi
+  git -C "$repo" diff --name-only "$upstream"...HEAD -- "$@" 2>/dev/null | grep -q .
 }
 
 list_adb_devices() {
@@ -290,46 +307,9 @@ push_repo() {
   )
 }
 
-# --- builds -----------------------------------------------------------------
+# --- change detection -------------------------------------------------------
 
-log "1/6 YogApp Android (Capacitor base ./)"
-if [[ "$DO_ANDROID" -eq 1 ]]; then
-  (
-    export JAVA_HOME="$JAVA_YOGA"
-    export PATH="$JAVA_HOME/bin:$PATH"
-    cd "$YOGAPP"
-    run npm run cap:sync
-    run bash -c 'cd android && ./gradlew assembleDebug'
-  )
-  YOGA_APK="$YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
-  [[ "$DRY_RUN" -eq 1 || -f "$YOGA_APK" ]] || die "missing $YOGA_APK"
-  log "YogApp APK: $YOGA_APK"
-else
-  log "skip YogApp Android (--no-android)"
-fi
-
-log "2/6 Tune Book Android (latest web → Capacitor)"
-if [[ "$DO_ANDROID" -eq 1 ]]; then
-  (
-    export JAVA_HOME="$JAVA_TB"
-    export PATH="$JAVA_HOME/bin:$PATH"
-    cd "$ROOT"
-    run npm run android:apk
-  )
-else
-  log "skip Tune Book Android (--no-android)"
-fi
-
-log "3/6 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
-# Full abc2book build runs embed-yogapp.sh (build:web) then copies to repo root.
-(
-  cd "$ROOT"
-  run npm run build
-)
-[[ "$DRY_RUN" -eq 1 || -f "$ROOT/yoga/index.html" ]] || die "missing $ROOT/yoga/index.html after build"
-[[ "$DRY_RUN" -eq 1 || -f "$ROOT/index.html" ]] || die "missing $ROOT/index.html after build"
-
-# Phone install: default auto when an adb device is present (Capacitor web lives in the APK).
+# Decide phone install early — it forces Android + web rebuilds.
 DO_PHONE_INSTALL=0
 if [[ "$DO_ANDROID" -eq 1 ]]; then
   case "$DO_INSTALL" in
@@ -357,6 +337,124 @@ if [[ "$DO_ANDROID" -eq 1 ]]; then
   esac
 fi
 
+NEED_YOGAPP_ANDROID=0
+NEED_TB_ANDROID=0
+NEED_WEB=0
+NEED_RESOLVER=0
+
+if [[ "$FORCE_ALL" -eq 1 ]]; then
+  log "change detection off (--force)"
+  NEED_YOGAPP_ANDROID=1
+  NEED_TB_ANDROID=1
+  NEED_WEB=1
+  NEED_RESOLVER=1
+else
+  if paths_need_publish "$YOGAPP" \
+    src public package.json package-lock.json capacitor.config.ts \
+    android index.html vite.config.ts tsconfig.json tsconfig.app.json; then
+    NEED_YOGAPP_ANDROID=1
+    NEED_WEB=1
+  fi
+  if paths_need_publish "$ROOT" \
+    src public package.json package-lock.json craco.config.js capacitor.config.ts \
+    android scripts/embed-yogapp.sh scripts/build-android-apk.sh \
+    scripts/copy-pdf-worker.js scripts/packageYoutubeHelperExtension.js \
+    hackSw.js manifest.template.json; then
+    NEED_TB_ANDROID=1
+    NEED_WEB=1
+  fi
+  # Pages embed always rebuilds yogapp web when YogApp sources change.
+  if paths_need_publish "$YOGAPP" \
+    src public package.json package-lock.json index.html vite.config.ts \
+    scripts/build-web.sh; then
+    NEED_WEB=1
+  fi
+  if paths_need_publish "$ROOT" local-resolver \
+    ':!local-resolver/.venv-light' \
+    ':!local-resolver/data' \
+    ':!local-resolver/.env' \
+    ':!local-resolver/**/__pycache__' \
+    ':!local-resolver/**/*.pyc'; then
+    NEED_RESOLVER=1
+  fi
+fi
+
+if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
+  NEED_YOGAPP_ANDROID=1
+  NEED_TB_ANDROID=1
+  NEED_WEB=1
+fi
+
+if [[ "$DO_ANDROID" -eq 0 ]]; then
+  NEED_YOGAPP_ANDROID=0
+  NEED_TB_ANDROID=0
+fi
+if [[ "$DO_RESOLVER" -eq 0 ]]; then
+  NEED_RESOLVER=0
+fi
+
+log "Change plan: yogapp-android=$NEED_YOGAPP_ANDROID tb-android=$NEED_TB_ANDROID web=$NEED_WEB resolver=$NEED_RESOLVER phone=$DO_PHONE_INSTALL locale-audio=$DO_LOCALE_AUDIO (smart)"
+
+# JDK only required when we actually build Android.
+if [[ "$NEED_YOGAPP_ANDROID" -eq 1 || "$NEED_TB_ANDROID" -eq 1 || "$DO_PHONE_INSTALL" -eq 1 ]]; then
+  [[ -n "$ANDROID_HOME_RESOLVED" ]] || die "ANDROID_HOME not found"
+  if [[ "$NEED_TB_ANDROID" -eq 1 || "$DO_PHONE_INSTALL" -eq 1 ]]; then
+    [[ -n "$JAVA_TB" ]] || die "Tune Book JDK not found (need 17; set JAVA_HOME_TB)"
+  fi
+  if [[ "$NEED_YOGAPP_ANDROID" -eq 1 || "$DO_PHONE_INSTALL" -eq 1 ]]; then
+    [[ -n "$JAVA_YOGA" ]] || die "YogApp JDK not found (need 21; set JAVA_HOME_YOGA)"
+  fi
+fi
+
+# --- builds -----------------------------------------------------------------
+
+log "1/6 YogApp Android (Capacitor base ./)"
+if [[ "$NEED_YOGAPP_ANDROID" -eq 1 ]]; then
+  (
+    export JAVA_HOME="$JAVA_YOGA"
+    export PATH="$JAVA_HOME/bin:$PATH"
+    cd "$YOGAPP"
+    run npm run cap:sync
+    run bash -c 'cd android && ./gradlew assembleDebug'
+  )
+  YOGA_APK="$YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
+  [[ "$DRY_RUN" -eq 1 || -f "$YOGA_APK" ]] || die "missing $YOGA_APK"
+  log "YogApp APK: $YOGA_APK"
+elif [[ "$DO_ANDROID" -eq 0 ]]; then
+  log "skip YogApp Android (--no-android)"
+else
+  log "skip YogApp Android (unchanged)"
+fi
+
+log "2/6 Tune Book Android (latest web → Capacitor)"
+if [[ "$NEED_TB_ANDROID" -eq 1 ]]; then
+  (
+    export JAVA_HOME="$JAVA_TB"
+    export PATH="$JAVA_HOME/bin:$PATH"
+    cd "$ROOT"
+    run npm run android:apk
+  )
+elif [[ "$DO_ANDROID" -eq 0 ]]; then
+  log "skip Tune Book Android (--no-android)"
+else
+  log "skip Tune Book Android (unchanged)"
+fi
+
+log "3/6 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
+if [[ "$NEED_WEB" -eq 1 ]]; then
+  (
+    cd "$ROOT"
+    run npm run build
+  )
+  [[ "$DRY_RUN" -eq 1 || -f "$ROOT/yoga/index.html" ]] || die "missing $ROOT/yoga/index.html after build"
+  [[ "$DRY_RUN" -eq 1 || -f "$ROOT/index.html" ]] || die "missing $ROOT/index.html after build"
+else
+  log "skip web build (unchanged)"
+  if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
+    die "internal: phone install requires web build"
+  fi
+fi
+
 if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
   install_android_apps_on_phone
 fi
@@ -364,7 +462,7 @@ fi
 # --- hosted Cloud Run resolver ----------------------------------------------
 
 log "4/6 Hosted Cloud Run resolver (tunebook-resolver-light)"
-if [[ "$DO_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
+if [[ "$NEED_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
   [[ -d "$RESOLVER" ]] || die "missing $RESOLVER"
   [[ -f "$RESOLVER/deploy-cloud-light.sh" ]] || die "missing $RESOLVER/deploy-cloud-light.sh"
   ENV_FILE="${CLOUD_RUN_ENV_FILE:-$RESOLVER/deploy/cloud-run-env.yaml}"
@@ -381,8 +479,10 @@ if [[ "$DO_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
   fi
 elif [[ "$DO_RESOLVER" -eq 0 ]]; then
   log "skip hosted resolver (--no-resolver)"
-else
+elif [[ "$DO_PUSH" -eq 0 ]]; then
   log "skip hosted resolver deploy (--no-push / --no-commit)"
+else
+  log "skip hosted resolver (local-resolver unchanged)"
 fi
 
 # --- locale audio release ---------------------------------------------------
@@ -392,11 +492,19 @@ if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
   (
     cd "$YOGAPP"
     if [[ "$DRY_RUN" -eq 1 ]]; then
-      run bash scripts/publish-locale-audio.sh --dry-run
+      if [[ "$FORCE_ALL" -eq 1 ]]; then
+        run bash scripts/publish-locale-audio.sh --dry-run --force
+      else
+        run bash scripts/publish-locale-audio.sh --dry-run
+      fi
     else
       [[ -x scripts/publish-locale-audio.sh || -f scripts/publish-locale-audio.sh ]] \
         || die "missing $YOGAPP/scripts/publish-locale-audio.sh"
-      run bash scripts/publish-locale-audio.sh
+      if [[ "$FORCE_ALL" -eq 1 ]]; then
+        run bash scripts/publish-locale-audio.sh --force
+      else
+        run bash scripts/publish-locale-audio.sh
+      fi
     fi
   )
 elif [[ "$DO_LOCALE_AUDIO" -eq 0 ]]; then
@@ -422,8 +530,22 @@ if [[ "$DO_COMMIT" -eq 1 ]]; then
 fi
 
 if [[ "$DO_PUSH" -eq 1 ]]; then
-  push_repo "$YOGAPP"
-  push_repo "$ROOT"
+  # Skip push when already up to date with upstream and clean.
+  push_if_needed() {
+    local repo="$1"
+    local branch upstream
+    branch="$(git -C "$repo" rev-parse --abbrev-ref HEAD)"
+    if upstream="$(git -C "$repo" rev-parse --abbrev-ref '@{upstream}' 2>/dev/null)"; then
+      if ! git_dirty "$repo" \
+        && [[ "$(git -C "$repo" rev-parse HEAD)" == "$(git -C "$repo" rev-parse "$upstream")" ]]; then
+        log "$(basename "$repo"): already pushed ($upstream) — skip"
+        return 0
+      fi
+    fi
+    push_repo "$repo"
+  }
+  push_if_needed "$YOGAPP"
+  push_if_needed "$ROOT"
 else
   log "skip push (--no-push / --no-commit)"
 fi
@@ -454,13 +576,13 @@ echo "  YogApp repo:    $YOGAPP"
 echo "  Tune Book repo: $ROOT"
 echo "  Site:           https://tunebook.net/"
 echo "  Yoga:           https://tunebook.net/yoga/"
-if [[ "$DO_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
+if [[ "$NEED_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
   echo "  Hosted resolver: Cloud Run tunebook-resolver-light (via local-resolver/deploy-cloud-light.sh)"
 else
   echo "  Hosted resolver: skipped"
 fi
 if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
-  echo "  Locale audio:   https://github.com/syntithenai/yogapp/releases/tag/${AUDIO_RELEASE_TAG:-audio-v1}"
+  echo "  Locale audio:   https://tunebook.net/yoga/audio-packs/v1/ (+ GitHub Release ${AUDIO_RELEASE_TAG:-audio-v1} backup)"
 else
   echo "  Locale audio:   skipped"
 fi
@@ -469,8 +591,10 @@ if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
 else
   echo "  Phone install:  skipped"
 fi
-if [[ "$DO_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
+if [[ "$NEED_YOGAPP_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
   echo "  YogApp APK:     $YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
+fi
+if [[ "$NEED_TB_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
   if [[ -f "$ROOT/android/app/build/outputs/apk/release/app-release.apk" ]]; then
     echo "  Tune Book APK:  $ROOT/android/app/build/outputs/apk/release/app-release.apk"
   else

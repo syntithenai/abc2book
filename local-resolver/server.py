@@ -3488,6 +3488,9 @@ async def yogapp_locale_audio(name: str, request: Request):
     origin = request.headers.get("origin")
     allowed = {
         "en-extra.zip",
+        "en-gb-sonia.zip",
+        "en-au-william.zip",
+        "en-au-natasha.zip",
         "zh-CN.zip",
         "es.zip",
         "de.zip",

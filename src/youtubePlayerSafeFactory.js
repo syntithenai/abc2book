@@ -5,11 +5,11 @@
  * destroy-then-recreate races. youtube-player treats null as an object
  * (typeof null === 'object') and crashes on `null.playVideo`.
  *
- * Webpack/Jest alias `youtube-player` → this module, and
- * `youtube-player-original` → the real package entry.
+ * Webpack/Jest alias exact `youtube-player` → this module. The real package
+ * is loaded via subpath so ModuleScopePlugin still allows node_modules.
  */
 
-const originalModule = require('youtube-player-original')
+const originalModule = require('youtube-player/dist/index.js')
 const originalFactory = typeof originalModule === 'function'
   ? originalModule
   : originalModule.default

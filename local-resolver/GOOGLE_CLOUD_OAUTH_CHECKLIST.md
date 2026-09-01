@@ -97,10 +97,21 @@ This is the list of OAuth scopes your **project is allowed to request**. It is n
 | `drive.readonly` | Only when you open **Import from Drive** picker | Sensitive — not at login |
 | Photos picker scope | Only when you use Google Photos import | See Console classification |
 | `drive.file` | Synthesized Yoga (`/yoga/`) sync JSON in a Drive **YogApp** folder | Non-sensitive — same as Tunebook login |
+| `youtube.readonly` | Synthesized Yoga only when user taps **Connect YouTube playlists** for BGM | **Sensitive** — must be listed under Data access; Production users need scope verification or Testing + Test users |
+
+**YouTube playlist BGM (Synthesized Yoga):** Google’s OAuth popup shows **“Something went wrong”** if `youtube.readonly` is not on **Data access**, or YouTube Data API v3 is disabled. Add:
+
+1. **APIs & Services → Library** → enable **YouTube Data API v3** (same project as the browser API key).
+2. **Google Auth Platform → Data access** → Add scope →
+   `https://www.googleapis.com/auth/youtube.readonly` → Save.
+3. If **Audience** is **Testing**, add your Google account under **Test users**.
+4. Hard-refresh `/yoga/`, open Settings → Music → **Connect YouTube playlists**, approve the extra consent.
+
+Yoga requests this scope **incrementally** (YouTube only, with prior Drive grants kept). It is **not** part of normal login.
 
 **If Yoga still shows “Google hasn’t verified this app” after switching to
 `drive.file`:** GIS defaults to `include_granted_scopes=true`, which re-attaches
-old grants such as `drive.appdata` / `drive.readonly`. Synthesized Yoga now sets
+old grants such as `drive.appdata` / `drive.readonly`. Synthesized Yoga login sets
 `include_granted_scopes: false`. Also:
 
 1. Google Auth Platform → **Data access**: remove unused sensitive scopes
