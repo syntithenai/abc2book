@@ -25,6 +25,7 @@ import {
   getPlaylistTuneIdAtIndex,
 } from '../gigRouteUtils';
 import { useDocumentTitle, buildSetsPageTitle } from '../pageTitle';
+import { todayKey } from '../calendarDay';
 import './SetsPage.css';
 
 function BulkOpsDualIcon({ leading, trailing }) {
@@ -39,7 +40,7 @@ function BulkOpsDualIcon({ leading, trailing }) {
 function emptySet() {
   return {
     name: 'New set',
-    date: new Date().toISOString().slice(0, 10),
+    date: todayKey(),
     notes: '',
     items: [],
   };

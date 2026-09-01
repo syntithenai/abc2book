@@ -8,6 +8,7 @@ import {
   tombstoneAndClearPracticeLists,
   clearUserData,
   flushPendingClearUserData,
+  clearCompanionStoresLocally,
 } from './clearUserData'
 import {
   readPlaylistsMap,
@@ -74,6 +75,7 @@ jest.mock('./scratchpadStore', function() {
     deleteScratchpadItem: jest.fn(),
     deleteWorkspace: jest.fn(),
     ensureDefaultWorkspace: jest.fn(),
+    clearScratchpadTombstones: jest.fn(),
   }
 })
 
@@ -135,6 +137,16 @@ describe('tombstoneAndClear companions', function() {
     expect(Object.keys(readPracticeListsMap())).toEqual([])
     expect(readDeletedPracticeLists().l1).toBeTruthy()
   })
+
+  test('clearCompanionStoresLocally empties maps without tombstones', function() {
+    writePlaylistsMap({
+      p1: { name: 'Session', items: [{ tuneId: 't1' }], updatedAt: 1 },
+    })
+    writeDeletedPlaylists({ old: { name: 'Old', deletedAt: 1 } })
+    clearCompanionStoresLocally()
+    expect(Object.keys(readPlaylistsMap())).toEqual([])
+    expect(Object.keys(readDeletedPlaylists())).toEqual([])
+  })
 })
 
 describe('clearUserData', function() {
@@ -161,6 +173,7 @@ describe('clearUserData', function() {
     })
     expect(deleteAll).toHaveBeenCalledWith({
       keepTombstonesForDriveWipe: true,
+      localOnly: false,
       skipOnlineSave: true,
     })
     expect(updateSheet).toHaveBeenCalledWith(0, { forceShrinkUpload: true })
@@ -195,6 +208,33 @@ describe('clearUserData', function() {
     expect(updateSheet).not.toHaveBeenCalled()
     expect(result.pendingDriveClear).toBe(true)
     expect(hasPendingClearUserData()).toBe(true)
+  })
+
+  test('localOnly clears locally without pending flag or Drive wipe', async function() {
+    const deleteAll = jest.fn()
+    const updateSheet = jest.fn()
+    writePlaylistsMap({
+      p1: { name: 'Session', items: [{ tuneId: 't1' }], updatedAt: 1 },
+    })
+    const result = await clearUserData({
+      tunebook: { deleteAll: deleteAll, utils: {} },
+      token: { access_token: 'tok' },
+      driveApi: { deleteDocument: jest.fn() },
+      updateSheet: updateSheet,
+      isLoggedIn: true,
+      localOnly: true,
+    })
+    expect(deleteAll).toHaveBeenCalledWith({
+      keepTombstonesForDriveWipe: false,
+      localOnly: true,
+      skipOnlineSave: true,
+    })
+    expect(updateSheet).not.toHaveBeenCalled()
+    expect(result.localOnly).toBe(true)
+    expect(result.driveCleared).toBe(false)
+    expect(hasPendingClearUserData()).toBe(false)
+    expect(Object.keys(readPlaylistsMap())).toEqual([])
+    expect(Object.keys(readDeletedPlaylists())).toEqual([])
   })
 })
 

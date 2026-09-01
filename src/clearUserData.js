@@ -48,6 +48,7 @@ import {
   flushScratchpadDriveDeletes,
 } from './scratchpadDriveDeletes'
 import { syncScratchpadWithDrive } from './scratchpadCloudSync'
+import { clearScratchpadTombstones } from './scratchpadStore'
 
 export const PENDING_CLEAR_USER_DATA_KEY = 'bookstorage_pending_clear_user_data'
 
@@ -125,6 +126,19 @@ export function tombstoneAndClearPracticeLists() {
   })
   writePracticeListsMap({})
   writeDeletedPracticeLists(deleted)
+  notifyPracticeListsChanged()
+}
+
+/** Empty companion stores locally without tombstones (Drive copy unchanged). */
+export function clearCompanionStoresLocally() {
+  writePlaylistsMap({})
+  writeDeletedPlaylists({})
+  notifyPlaylistsChanged()
+  writePerformanceSetsMap({})
+  writeDeletedPerformanceSets({})
+  notifyPerformanceSetsChanged()
+  writePracticeListsMap({})
+  writeDeletedPracticeLists({})
   notifyPracticeListsChanged()
 }
 
@@ -305,9 +319,11 @@ export async function flushPendingClearUserData(options) {
  * @param {object} [options.driveApi]
  * @param {function} [options.flushTunesPersistence]
  * @param {boolean} [options.isLoggedIn]
+ * @param {boolean} [options.localOnly] — clear this browser only; leave Google Drive unchanged
  */
 export async function clearUserData(options) {
   const opts = options || {}
+  const localOnly = !!opts.localOnly
   const tunebook = opts.tunebook
   const token = opts.token
   const driveApi = opts.driveApi
@@ -317,31 +333,47 @@ export async function clearUserData(options) {
   const online = !isNavigatorOffline()
   const canDriveNow = isLoggedIn && online && token && token.access_token
 
-  // Mark pending first so wipe-recovery cannot re-pull Drive while we clear.
-  setPendingClearUserData(opts.storage)
+  if (!localOnly) {
+    // Mark pending first so wipe-recovery cannot re-pull Drive while we clear.
+    setPendingClearUserData(opts.storage)
 
-  // Always tombstone synced companions so the next Drive upload blanks those sections.
-  tombstoneAndClearPlaylists()
-  tombstoneAndClearPerformanceSets()
-  tombstoneAndClearPracticeLists()
+    // Tombstone synced companions so the next Drive upload blanks those sections.
+    tombstoneAndClearPlaylists()
+    tombstoneAndClearPerformanceSets()
+    tombstoneAndClearPracticeLists()
+  } else {
+    clearCompanionStoresLocally()
+  }
+
   try {
     writeSyncSources([])
   } catch (e) { /* ignore */ }
 
-  const queued = await enqueueOwnedMediaDeletes()
+  const queued = localOnly ? null : await enqueueOwnedMediaDeletes()
   clearScratchpadLocally()
+  if (localOnly) {
+    clearScratchpadTombstones()
+  }
   await clearLocalMediaStores(tunebook && tunebook.utils)
 
   if (tunebook && typeof tunebook.deleteAll === 'function') {
-    // Keep tombstones even when logged out so the next login can blank Drive.
     await Promise.resolve(tunebook.deleteAll({
-      keepTombstonesForDriveWipe: true,
+      keepTombstonesForDriveWipe: !localOnly,
+      localOnly: localOnly,
       skipOnlineSave: true,
     }))
   }
 
   if (typeof opts.flushTunesPersistence === 'function') {
     opts.flushTunesPersistence()
+  }
+
+  if (localOnly) {
+    return {
+      localCleared: true,
+      driveCleared: false,
+      localOnly: true,
+    }
   }
 
   if (canDriveNow && typeof opts.updateSheet === 'function') {

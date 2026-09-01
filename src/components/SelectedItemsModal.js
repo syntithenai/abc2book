@@ -8,6 +8,7 @@ import BulkOperationProgressModal from './BulkOperationProgressModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import AddTunesToListModal from './AddTunesToListModal'
 import {appendTunesToPerformanceSet, savePerformanceSet} from '../performanceSetStore'
+import { todayKey } from '../calendarDay'
 import {appendTunesToPracticeList, savePracticeList} from '../practiceListStore'
 import { PRACTICE_LISTS_ENABLED } from '../practiceModeEnabled'
 import {appendTunesToPlaylist, savePlaylistFromQueue} from '../savedPlaylistsStore'
@@ -471,7 +472,7 @@ export default function SelectedItemsModal(props) {
     name = String(name).trim() || defaultName
     var saved = savePerformanceSet({
       name: name,
-      date: new Date().toISOString().slice(0, 10),
+      date: todayKey(),
       notes: '',
       items: tuneIds.map(function(tuneId) {
         return { type: 'tune', tuneId: tuneId }

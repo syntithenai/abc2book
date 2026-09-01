@@ -2251,15 +2251,16 @@ The main difference between the two functions is the additional condition in app
   function deleteAll(options) {
     var opts = options || {}
     var keepTombstonesForDriveWipe = !!opts.keepTombstonesForDriveWipe
+    var localOnly = !!opts.localOnly
     var skipOnlineSave = !!opts.skipOnlineSave
     var allTuneIds = Object.keys(tunes || {})
     if (setDeletedTunes) {
-      if (isLoggedIn || keepTombstonesForDriveWipe) {
+      if ((isLoggedIn || keepTombstonesForDriveWipe) && !localOnly) {
         // logged in (or clear-my-data): propagate the purge via tombstones
         setDeletedTunes(mergeDeletedTuneMaps(deletedTunes, tombstoneAllTunes(tunes)))
       } else {
-        // logged out: local reset only. Clear tombstones so re-login re-pulls
-        // a clean copy from Google Drive instead of suppressing inserts.
+        // logged out or local-only: clear tombstones so re-login / re-sync re-pulls
+        // from Google Drive instead of suppressing inserts.
         setDeletedTunes({})
       }
     }

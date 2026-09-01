@@ -6,6 +6,7 @@ import { createQueue, clampTuneIds } from '../nowPlayingQueue'
 import SharePlaylistModal from './SharePlaylistModal'
 import VoiceFillInput from './VoiceFillInput'
 import { savePerformanceSet } from '../performanceSetStore'
+import { todayKey } from '../calendarDay'
 import {
   listSavedPlaylists,
   getSavedPlaylist,
@@ -131,7 +132,7 @@ export default function SavedPlaylistsOpenModal({
     if (name === null) return
     const created = savePerformanceSet({
       name: String(name).trim() || defaultName,
-      date: new Date().toISOString().slice(0, 10),
+      date: todayKey(),
       notes: '',
       items: tuneIds.map(function(tuneId) {
         return { type: 'tune', tuneId: tuneId }

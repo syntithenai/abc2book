@@ -423,7 +423,8 @@ export default function SettingsPage(props) {
     await runMergeCheckNow()
   }
 
-  async function handleConfirmClearMyData() {
+  async function handleConfirmClearMyData(scope) {
+    const localOnly = scope === 'device'
     setClearMyDataBusy(true)
     try {
       const result = await clearUserData({
@@ -433,9 +434,12 @@ export default function SettingsPage(props) {
         updateSheet: props.updateSheet,
         flushTunesPersistence: props.flushTunesPersistence,
         isLoggedIn: !!(token && token.access_token),
+        localOnly: localOnly,
       })
       setShowClearMyData(false)
-      if (result && result.pendingDriveClear) {
+      if (result && result.localOnly) {
+        toast.success('Local data cleared on this device. Your Google Drive copy is unchanged.')
+      } else if (result && result.pendingDriveClear) {
         toast.success('Local data cleared. Google Drive will be wiped the next time you are signed in online.')
       } else {
         toast.success('Your data has been cleared.')

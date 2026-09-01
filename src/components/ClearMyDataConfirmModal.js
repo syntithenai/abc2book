@@ -6,6 +6,11 @@ export default function ClearMyDataConfirmModal(props) {
   const signedIn = !!props.signedIn
   const online = props.online !== false
 
+  function handleConfirm(scope) {
+    if (busy || !props.onConfirm) return
+    props.onConfirm(scope)
+  }
+
   return (
     <Modal show={show} onHide={function() { if (!busy && props.onCancel) props.onCancel() }} backdrop="static">
       <Modal.Header closeButton={!busy}>
@@ -13,36 +18,42 @@ export default function ClearMyDataConfirmModal(props) {
       </Modal.Header>
       <Modal.Body>
         <p>
-          This permanently deletes your songbook, playlists, sets, practice lists, scratchpad,
-          and media stored in this app
-          {signedIn ? ' and on your Google Drive' : ''}.
+          Choose whether to delete your songbook, playlists, sets, practice lists, scratchpad,
+          and media from this browser only, or everywhere including Google Drive
+          {signedIn ? '' : ' the next time you sign in'}.
         </p>
         <p>
-          <strong>This cannot be undone.</strong> Deleted data is gone for good
-          {signedIn ? ' on this device and every device that syncs with this Google account' : ''}.
+          <strong>Clear on this device only</strong> removes local copies but leaves your Google
+          Drive songbook unchanged. Your data will sync back the next time you sign in with the
+          same account — useful on a shared computer.
         </p>
-        {!signedIn ? (
-          <p className="app-text-muted" style={{ marginBottom: 0 }}>
-            You are not signed in. Local data will be cleared now. Any Google Drive copy will be
-            blanked or deleted the next time you sign in online.
-          </p>
-        ) : !online ? (
-          <p className="app-text-muted" style={{ marginBottom: 0 }}>
-            You are offline. Local data will be cleared now. Google Drive will be blanked or deleted
-            the next time this client is online and signed in.
-          </p>
-        ) : (
-          <p className="app-text-muted" style={{ marginBottom: 0 }}>
-            Your Google Drive songbook will be blanked and owned media files will be deleted now.
-          </p>
-        )}
+        <p>
+          <strong>Clear everywhere</strong> permanently deletes your data
+          {signedIn && online
+            ? ' on this device and in Google Drive now'
+            : signedIn
+              ? ' on this device now and in Google Drive when you are back online'
+              : ' on this device now and in Google Drive the next time you sign in online'}.
+          <strong> This cannot be undone.</strong>
+        </p>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" disabled={busy} onClick={props.onCancel}>
           Cancel
         </Button>
-        <Button variant="danger" disabled={busy} onClick={props.onConfirm}>
-          {busy ? 'Clearing…' : 'Clear all my data'}
+        <Button
+          variant="outline-danger"
+          disabled={busy}
+          onClick={function() { handleConfirm('device') }}
+        >
+          {busy ? 'Clearing…' : 'Clear on this device only'}
+        </Button>
+        <Button
+          variant="danger"
+          disabled={busy}
+          onClick={function() { handleConfirm('everywhere') }}
+        >
+          {busy ? 'Clearing…' : 'Clear everywhere'}
         </Button>
       </Modal.Footer>
     </Modal>

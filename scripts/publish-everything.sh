@@ -260,6 +260,7 @@ assert_no_absolute_symlinks() {
     -not -path '*/.git/*' \
     -not -path '*/node_modules/*' \
     -not -path '*/.venv/*' \
+    -not -path '*/.venv-light/*' \
     -not -path '*/android/.gradle/*' \
     -not -path '*/.tools/*' \
     -print0 2>/dev/null)

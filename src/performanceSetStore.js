@@ -1,4 +1,5 @@
 import { createSetTombstone } from './performanceSetSync';
+import { todayKey } from './calendarDay';
 
 const STORAGE_KEY = 'bookstorage_performance_sets';
 const DELETED_STORAGE_KEY = 'bookstorage_deleted_performance_sets';
@@ -190,7 +191,7 @@ export function duplicatePerformanceSet(setId) {
   const copy = Object.assign({}, existing, {
     id: undefined,
     name: (existing.name || 'Set') + ' copy',
-    date: new Date().toISOString().slice(0, 10),
+    date: todayKey(),
   });
   return savePerformanceSet(copy);
 }
