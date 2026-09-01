@@ -27,6 +27,7 @@ import MediaPlaybackSettingsTabs from '../components/MediaPlaybackSettingsTabs'
 import MediaSourcePlaybackButtons from '../components/MediaSourcePlaybackButtons'
 import LinkPlayRangeModal from '../components/LinkPlayRangeModal'
 import PlayRangeButtonGroup from '../components/PlayRangeButtonGroup'
+import SleepTimerModal from '../components/SleepTimerModal'
 import { resolveLoopEditorLinkIndex } from '../mediaPlaybackUtils'
 import { getActiveMediaSourceId } from '../mediaSourceMenuAccess'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
@@ -34,6 +35,12 @@ import { isAndroidApp } from '../platformUtils'
 import { useDocumentTitle } from '../pageTitle'
 import { useOfflinePlayDisabled } from '../components/MediaPlayerButtons'
 import { OFFLINE_PLAYBACK_MESSAGE } from '../offlineNetwork'
+import {
+  cancelPlaybackSleepTimer,
+  formatSleepTimerCountdown,
+  getPlaybackSleepTimerState,
+  subscribePlaybackSleepTimer,
+} from '../playbackSleepTimer'
 import './NowPlayingPage.css'
 
 const MIDI_PREFERENCE_TITLES = {
@@ -85,6 +92,8 @@ export default function NowPlayingPage(props) {
     : false
   const [showArtwork, setShowArtwork] = useState(!!showArtworkCandidate)
   const [showPlayRangeModal, setShowPlayRangeModal] = useState(false)
+  const [showSleepTimerModal, setShowSleepTimerModal] = useState(false)
+  const [sleepTimerState, setSleepTimerState] = useState(getPlaybackSleepTimerState)
   const [midiPreferenceLocal, setMidiPreferenceLocal] = useState(
     getMidiPreference(nowPlayingQueue)
   )
@@ -144,17 +153,21 @@ export default function NowPlayingPage(props) {
   ])
 
   useEffect(function() {
+    return subscribePlaybackSleepTimer(setSleepTimerState)
+  }, [])
+
+  useEffect(function() {
     if (props.blockKeyboardShortcuts) return undefined
     function onKeyDown(event) {
       if (event.key === 'Escape') {
-        if (showPlayRangeModal) return
+        if (showPlayRangeModal || showSleepTimerModal) return
         event.preventDefault()
         handleClose()
       }
     }
     window.addEventListener('keydown', onKeyDown)
     return function() { window.removeEventListener('keydown', onKeyDown) }
-  }, [props.blockKeyboardShortcuts, handleClose, showPlayRangeModal])
+  }, [props.blockKeyboardShortcuts, handleClose, showPlayRangeModal, showSleepTimerModal])
 
   const queueContext = {
     tunes: props.tunes,
@@ -285,6 +298,34 @@ export default function NowPlayingPage(props) {
   return (
     <div className="now-playing-page">
       <div className="now-playing-page-header">
+        <div className="now-playing-page-header-leading">
+          <Button
+            variant="link"
+            className={'now-playing-page-sleep-timer-btn' + (sleepTimerState.active ? ' now-playing-page-sleep-timer-btn--active' : '')}
+            aria-label="Sleep timer"
+            title="Sleep timer"
+            data-testid="now-playing-sleep-timer-button"
+            onClick={function() { setShowSleepTimerModal(true) }}
+          >
+            {props.tunebook.icons.time || props.tunebook.icons.timer}
+          </Button>
+          {sleepTimerState.active ? (
+            <div className="now-playing-page-sleep-timer-active" data-testid="now-playing-sleep-timer-countdown">
+              <span className="now-playing-page-sleep-timer-countdown" aria-live="polite">
+                {formatSleepTimerCountdown(sleepTimerState.remainingMs)}
+              </span>
+              <Button
+                variant="outline-secondary"
+                size="sm"
+                className="now-playing-page-sleep-timer-cancel"
+                data-testid="now-playing-sleep-timer-cancel"
+                onClick={function() { cancelPlaybackSleepTimer() }}
+              >
+                Cancel
+              </Button>
+            </div>
+          ) : null}
+        </div>
         <Button
           variant="link"
           className="now-playing-page-close"
@@ -295,6 +336,13 @@ export default function NowPlayingPage(props) {
           {props.tunebook.icons.close}
         </Button>
       </div>
+
+      <SleepTimerModal
+        show={showSleepTimerModal}
+        onHide={function() { setShowSleepTimerModal(false) }}
+        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+        dialogZIndex={1300}
+      />
 
       <div className="now-playing-page-body">
         <div

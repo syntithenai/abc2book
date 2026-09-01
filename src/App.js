@@ -34,6 +34,7 @@ import ScratchpadItemPage from './pages/ScratchpadItemPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
 import ImportPlaylistPublicPage from './pages/ImportPlaylistPublicPage'
+import ImportSetPublicPage from './pages/ImportSetPublicPage'
 import ImportCuratedPage from './pages/ImportCuratedPage'
 import MidiImportPage from './pages/MidiImportPage'
 import MidiImportNavigateRegistrar from './components/MidiImportNavigateRegistrar'
@@ -80,16 +81,25 @@ import NowPlayingPage from './pages/NowPlayingPage'
 import QueuePlayConfirmModal from './components/QueuePlayConfirmModal'
 import DriveUploadShrinkConfirmModal from './components/DriveUploadShrinkConfirmModal'
 import {
+  hasPendingClearUserData,
+  flushPendingClearUserData,
+} from './clearUserData'
+import {
   readLastDriveUploadSnapshot,
   writeLastDriveUploadSnapshot,
   isLastDriveUploadAbcEcho,
+  isLocalLibraryWipeVsLastUpload,
 } from './driveUploadShrinkGuard'
 import LinksEditorModal from './components/LinksEditorModal'
 import { getViewedTuneIdFromPath, shouldShowPlaylistTransportBar } from './playbackNavigationUtils'
 import { isQueueActive, suspendQueue, resumeQueue, startPreviewOnce, getCurrentItem, getCurrentTuneId, isExternalQueueItem, isLessonExternalMedia } from './nowPlayingQueue'
 import { isGigPlaylistActive } from './gigRouteUtils'
 import { handleQueueAdvanceOnEnded, playCurrentQueueItem, playQueueItem, navigateToQueueTune } from './nowPlayingQueuePlayback'
-import { setStandaloneMediaPlaybackEndedHandler } from './standaloneMediaPlayback'
+import { setStandaloneMediaPlaybackEndedHandler, pauseStandaloneMediaPlayback } from './standaloneMediaPlayback'
+import { pauseLessonYoutube } from './lessonYoutubePlayer'
+import {
+  setPlaybackSleepTimerStopHandler,
+} from './playbackSleepTimer'
 import useTuneBookMediaController from './useTuneBookMediaController'
 import usePracticeSession from './usePracticeSession'
 import usePracticeRouteSync from './usePracticeRouteSync'
@@ -164,7 +174,8 @@ import {
 import {
   mergePracticeListsFromTuneBookAbc,
 } from './practiceListSyncClient'
-import { PERFORMANCE_SETS_DRIVE_SOURCE_KEY, PLAYLISTS_DRIVE_SOURCE_KEY } from './incomingMergePrefs'
+import { PERFORMANCE_SETS_DRIVE_SOURCE_KEY, PLAYLISTS_DRIVE_SOURCE_KEY, DRIVE_TUNEBOOK_SOURCE_KEY, setSourceMergePref } from './incomingMergePrefs'
+import { clearSourceMergeDismissalsForSource } from './sourceMergeDismissals'
 import { normalizeSourceUrlKey } from './sourceUrlSync'
 import PerformanceSetMergeHost from './components/PerformanceSetMergeHost'
 import PlaylistMergeHost from './components/PlaylistMergeHost'
@@ -349,6 +360,20 @@ function AppQueueLayer(props) {
     else if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(true)
     navigate('/books', { replace: true })
   }, [location.pathname, navigate, setNowPlayingExpanded, openNowPlaying])
+
+  useEffect(function() {
+    const mediaController = props.mediaController
+    setPlaybackSleepTimerStopHandler(function() {
+      pauseLessonYoutube()
+      pauseStandaloneMediaPlayback().catch(function() {})
+      if (mediaController && typeof mediaController.pause === 'function') {
+        mediaController.pause()
+      }
+    })
+    return function() {
+      setPlaybackSleepTimerStopHandler(null)
+    }
+  }, [props.mediaController])
 
   function handleQueueConfirmPlayThisTune() {
     const request = props.queuePlayConfirm
@@ -536,6 +561,12 @@ function App(props) {
   const filesDocumentManager = useGoogleDocument(token, logout)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
   const {tunes, setTunes, setTunesInner, tunesContentRevision, tunesHydrated, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, albumFilter, setAlbumFilter, starredFilter, setStarredFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
+  const googleDocumentIdRef = useRef(googleDocumentId)
+  const tokenRef = useRef(token)
+  const filesDocumentManagerRef = useRef(filesDocumentManager)
+  googleDocumentIdRef.current = googleDocumentId
+  tokenRef.current = token
+  filesDocumentManagerRef.current = filesDocumentManager
   useAppFreshLoad()
   useServiceWorker()
   
@@ -771,7 +802,10 @@ function App(props) {
 
   function applyMergeChanges(changes) {
     var {filesToLoad, filesToSave, inserts, updates, deletes, localUpdates, localInserts, fullSheet} = changes
-    var localCount = Object.keys(tunesRef.current || tunes || {}).length
+    // Always copy — in-place mutation + setTunes(sameRef) makes React skip render.
+    var baseTunes = tunesRef.current || tunes || {}
+    var nextTunes = Object.assign({}, baseTunes)
+    var localCount = Object.keys(nextTunes).length
     var safeDeletes = deletes || {}
     if (isMassDeleteBatch(Object.keys(safeDeletes).length, localCount)) {
       // Keep local tunes; mass remote deletes are treated as a wiped Drive head.
@@ -779,20 +813,20 @@ function App(props) {
     }
     var remoteDeleted = sanitizeRemoteDeletedAgainstLocalTunes(
       parseDeletedTunesFromAbc(fullSheet || ''),
-      tunes
+      nextTunes
     )
-    Object.keys(updates || {}).map(function(u)  {
-      if (updates[u] && updates[u][1].id) {
-        tunes[updates[u][1].id] = updates[u][1]
+    Object.keys(updates || {}).forEach(function(u)  {
+      if (updates[u] && updates[u][1] && updates[u][1].id) {
+        nextTunes[updates[u][1].id] = updates[u][1]
       }
     })
     Object.values(inserts || {}).forEach(function(tune) {
-      if (tune && tune.id) tunes[tune.id] = tune
+      if (tune && tune.id) nextTunes[tune.id] = tune
     })
     Object.keys(safeDeletes).forEach(function(tuneId) {
-      if (tunes[tuneId]) {
-        indexes.removeTune(tunes[tuneId], indexes.bookIndex)
-        delete tunes[tuneId]
+      if (nextTunes[tuneId]) {
+        indexes.removeTune(nextTunes[tuneId], indexes.bookIndex)
+        delete nextTunes[tuneId]
       }
     })
     var nextDeleted = mergeDeletedTuneMaps(deletedTunes, remoteDeleted)
@@ -812,13 +846,13 @@ function App(props) {
       delete nextDeleted[tuneId]
     })
     // Restored local tunes must not stay tombstoned.
-    Object.keys(tunes || {}).forEach(function(tuneId) {
+    Object.keys(nextTunes || {}).forEach(function(tuneId) {
       delete nextDeleted[tuneId]
     })
     setDeletedTunes(nextDeleted)
     var deletedTuneIds = Object.keys(safeDeletes)
     Object.keys(remoteDeleted || {}).forEach(function(tuneId) {
-      if (!tunes[tuneId] && deletedTuneIds.indexOf(tuneId) === -1) {
+      if (!nextTunes[tuneId] && deletedTuneIds.indexOf(tuneId) === -1) {
         deletedTuneIds.push(tuneId)
       }
     })
@@ -826,18 +860,27 @@ function App(props) {
       pruneDeletedTunesFromPlaylists(deletedTuneIds, nowPlayingQueue, setNowPlayingQueue)
     }
     
-    if ((localInserts && Object.keys(localInserts).length > 0) || (localUpdates && Object.keys(localUpdates).length > 0) || (Object.keys(safeDeletes).length > 0)|| (filesToLoad && Object.keys(filesToLoad).length > 0) || (filesToSave && Object.keys(filesToSave).length > 0)) {
-      setTunes(tunes)
-      updateSheet(0)
-    }
-    if ((localInserts && Object.keys(localInserts).length > 0) || (localUpdates && Object.keys(localUpdates).length > 0) || (Object.keys(safeDeletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
-      setTunes(tunes)
-      tunesRef.current = tunes
+    var hasRemoteInserts = !!(inserts && Object.keys(inserts).length > 0)
+    var hasRemoteUpdates = !!(updates && Object.keys(updates).length > 0)
+    var hasLocalPush = !!(
+      (localInserts && Object.keys(localInserts).length > 0)
+      || (localUpdates && Object.keys(localUpdates).length > 0)
+      || (Object.keys(safeDeletes).length > 0)
+      || (filesToLoad && Object.keys(filesToLoad).length > 0)
+      || (filesToSave && Object.keys(filesToSave).length > 0)
+    )
+    if (hasLocalPush || hasRemoteInserts || hasRemoteUpdates) {
+      setTunes(nextTunes)
+      tunesRef.current = nextTunes
       flushTunesPersistence()
       buildTunesHash()
-      scheduleTuneReindex(tunes)
+      scheduleTuneReindex(nextTunes)
       driveMergeEpochRef.current += 1
       setSheetUpdateResults(null)
+      forceRefresh()
+    }
+    if (hasLocalPush) {
+      updateSheet(0)
     }
     offerPerformanceSetMerge(fullSheet, {
       sourceLabel: 'Google Drive set lists',
@@ -856,12 +899,14 @@ function App(props) {
       }
     })
     offerPracticeListMerge(fullSheet)
+    return nextTunes
   }
   
    /** 
    * import songs to a tunebook from an abc file 
    */
-  function mergeTuneBook(tunebookText) {
+  function mergeTuneBook(tunebookText, options) {
+      var mergeOpts = options || {}
       return new Promise(function(resolve,reject) {
           beginDriveMergeCheckingToast()
           flushTunesPersistence()
@@ -872,22 +917,36 @@ function App(props) {
             utils.loadLocalforageObject('bookstorage_tunes'),
             utils.loadLocalforageObject('bookstorage_deleted_tunes'),
           ]).then(async function(results) {
-              var localTunes = results[0] || {}
-              if (tunesHydratedRef.current && tunesRef.current && Object.keys(tunesRef.current).length > 0) {
-                localTunes = tunesRef.current
-              }
+              var idbTunes = results[0] || {}
+              var localTunes = idbTunes
               var localDeleted = results[1] || {}
               var remoteDeleted = parseDeletedTunesFromAbc(tunebookText)
               var lastUpload = readLastDriveUploadSnapshot() || {}
+              if (tunesHydratedRef.current && tunesRef.current) {
+                if (Object.keys(tunesRef.current).length > 0) {
+                  localTunes = tunesRef.current
+                } else if (mergeOpts.forceRecoverFromWipe || isLocalLibraryWipeVsLastUpload({}, lastUpload)) {
+                  // UI already shows an empty book after hydrate — recover from
+                  // that empty view even if IndexedDB still has a leftover copy.
+                  localTunes = {}
+                }
+              }
+              if (mergeOpts.forceRecoverFromWipe) {
+                localTunes = (tunesHydratedRef.current && tunesRef.current) ? (tunesRef.current || {}) : localTunes
+              }
+              var recoverFromWipe = !!mergeOpts.forceRecoverFromWipe || isLocalLibraryWipeVsLastUpload(localTunes, lastUpload)
+              // Mass wipe recovery must not be blocked by stale local tombstones.
+              var compareDeleted = recoverFromWipe ? {} : localDeleted
               var compared
               if (tunebookText && Object.keys(localTunes).length > 500) {
                 const sharded = parseSyncManifest(tunebookText)
                 compared = await compareTuneBooksStreaming({
                   localTunes: localTunes,
-                  localDeleted: localDeleted,
+                  localDeleted: compareDeleted,
                   remoteDeleted: remoteDeleted,
                   lastUpdatedById: lastUpload.lastUpdatedById,
                   lastDeletedAtById: lastUpload.deletedAtById,
+                  recoverFromWipe: recoverFromWipe,
                   remoteTuneIterator: function(onTune) {
                     if (sharded) {
                       return new Promise(function(resolve) {
@@ -916,16 +975,18 @@ function App(props) {
                 }
                 compared = compareTuneBooks({
                   localTunes: localTunes,
-                  localDeleted: localDeleted,
+                  localDeleted: compareDeleted,
                   remoteTunes: remoteTunes,
                   remoteDeleted: remoteDeleted,
                   lastUpdatedById: lastUpload.lastUpdatedById,
                   lastDeletedAtById: lastUpload.deletedAtById,
+                  recoverFromWipe: recoverFromWipe,
                 })
               }
               var ret = Object.assign({}, compared, {
                 fullSheet: tunebookText,
                 remoteDeleted: remoteDeleted,
+                wipeRecovery: recoverFromWipe,
               })
               endDriveMergeCheckingToast()
               resolve(ret)
@@ -938,28 +999,77 @@ function App(props) {
   
   function overrideTuneBook(fullSheet) {
     pauseSheetUpdates.current = true
-    var tunes = {}
+    var nextTunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
-        if (tune && tune.id) tunes[tune.id] = tune
+        if (tune && tune.id) nextTunes[tune.id] = tune
     })
     var remoteDeleted = parseDeletedTunesFromAbc(fullSheet)
     setDeletedTunes(remoteDeleted)
     replacePerformanceSetsFromTuneBookAbc(fullSheet)
-    setTunes(tunes)
-    writeLastDriveUploadSnapshot(tunes)
+    setTunes(nextTunes)
+    tunesRef.current = nextTunes
+    // Persist immediately so the following Drive upload reads the restored book
+    // from IndexedDB instead of the wiped copy.
+    flushTunesPersistence()
+    writeLastDriveUploadSnapshot(nextTunes)
     updateSheet(0, { forceShrinkUpload: true }).then(function() {
       pauseSheetUpdates.current = false
     }) 
     // update indexes....
     buildTunesHash()
-    scheduleTuneReindex(tunes)
+    scheduleTuneReindex(nextTunes)
     setSheetUpdateResults(null)
     forceRefresh()
+    return nextTunes
+  }
+
+  function restoreSongbookFromDriveAfterWipe(opts) {
+    var restoreOpts = opts || {}
+    var silent = !!restoreOpts.silent
+    if (typeof pullSongbookFromDriveRef.current === 'function') {
+      if (driveWipeRestoreInFlightRef.current) return
+      driveWipeRestoreInFlightRef.current = true
+      Promise.resolve(pullSongbookFromDriveRef.current()).then(function() {
+        driveWipeRestoreInFlightRef.current = false
+      }).catch(function() {
+        driveWipeRestoreInFlightRef.current = false
+      })
+      return
+    }
+    var docId = googleDocumentIdRef.current
+    var tok = tokenRef.current
+    var driveApi = filesDocumentManagerRef.current
+    if (!docId || !tok || !tok.access_token || !driveApi || typeof driveApi.getDocument !== 'function') {
+      if (!silent) {
+        toast.warning('Sign in and use Settings → Backup to restore from Google Drive.')
+      }
+      return
+    }
+    if (driveWipeRestoreInFlightRef.current) return
+    driveWipeRestoreInFlightRef.current = true
+    driveApi.getDocument(docId).then(function(fullSheet) {
+      driveWipeRestoreInFlightRef.current = false
+      if (!fullSheet) {
+        if (!silent) toast.error('Could not load your Google Drive songbook.')
+        return
+      }
+      // Wipe recovery: replace local from Drive (new object → React re-renders).
+      overrideTuneBook(fullSheet)
+    }).catch(function(err) {
+      driveWipeRestoreInFlightRef.current = false
+      if (!silent) toast.error((err && err.message) || 'Could not load your Google Drive songbook.')
+    })
+  }
+
+  function quietlyPullMissingTunesFromDrive() {
+    restoreSongbookFromDriveAfterWipe({ silent: true })
   }
   
 
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
+  var driveWipeRestoreInFlightRef = useRef(false)
+  var pullSongbookFromDriveRef = useRef(null)
   var pollingInterval = process.env.NODE_ENV === "development" ? 5000 : 6000 //16000
   const [driveShrinkWarning, setDriveShrinkWarning] = useState(null)
   const driveShrinkResolverRef = useRef(null)
@@ -972,7 +1082,7 @@ function App(props) {
       setDriveShrinkWarning(warning)
     })
   }, [])
-  var {updateSheet} = useGoogleSheet({
+  var {updateSheet, pullSongbookFromDrive} = useGoogleSheet({
     token,
     logout,
     refresh,
@@ -984,6 +1094,7 @@ function App(props) {
     googleDocumentId,
     onUploadShrinkWarning: requestDriveShrinkConfirmation,
   })
+  pullSongbookFromDriveRef.current = pullSongbookFromDrive
 
   useEffect(function() {
     if (!tunesHydrated) return
@@ -992,6 +1103,41 @@ function App(props) {
       writeLastDriveUploadSnapshot(tunes)
     }
   }, [tunesHydrated, tunes])
+
+  const wipeRestoreOfferedRef = useRef(false)
+  useEffect(function() {
+    if (!tunesHydrated || wipeRestoreOfferedRef.current) return
+    if (hasPendingClearUserData()) return
+    if (!googleDocumentId || !token || !token.access_token) return
+    var snap = readLastDriveUploadSnapshot()
+    if (!isLocalLibraryWipeVsLastUpload(tunes, snap)) return
+    wipeRestoreOfferedRef.current = true
+    quietlyPullMissingTunesFromDrive()
+  }, [tunesHydrated, tunes, googleDocumentId, token])
+
+  const pendingClearFlushRef = useRef(false)
+  useEffect(function() {
+    if (!tunesHydrated) return
+    if (!token || !token.access_token) return
+    if (!googleDocumentId) return
+    if (isNavigatorOffline()) return
+    if (!hasPendingClearUserData()) return
+    if (pendingClearFlushRef.current) return
+    pendingClearFlushRef.current = true
+    flushPendingClearUserData({
+      token: token,
+      driveApi: filesDocumentManager,
+      updateSheet: updateSheet,
+      flushTunesPersistence: flushTunesPersistence,
+    }).then(function(result) {
+      pendingClearFlushRef.current = false
+      if (result && result.cleared) {
+        wipeRestoreOfferedRef.current = true
+      }
+    }).catch(function() {
+      pendingClearFlushRef.current = false
+    })
+  }, [tunesHydrated, token, googleDocumentId, filesDocumentManager, updateSheet, flushTunesPersistence])
   
   	var syncWorker = useSyncWorker(token, logout, tuneBookName)
   
@@ -1195,29 +1341,46 @@ function App(props) {
   
   
   function onMerge(fullSheet) {
-    if (!isLastDriveUploadAbcEcho(fullSheet)) {
-    //var trialResults = 
+    // Skip unchanged Drive ABC after our own upload — unless local looks wiped
+    // vs that upload (recovery must still compare and pull inserts).
+    var lastUpload = readLastDriveUploadSnapshot()
+    var localForWipeCheck = (tunesHydratedRef.current && tunesRef.current) ? tunesRef.current : {}
+    var needsWipeRecovery = isLocalLibraryWipeVsLastUpload(localForWipeCheck, lastUpload)
+    var mergeDone = Promise.resolve()
+    if (needsWipeRecovery || !isLastDriveUploadAbcEcho(fullSheet)) {
     var epochAtStart = driveMergeEpochRef.current
-    mergeTuneBook(fullSheet).then(function(trialResults) {
+    mergeDone = mergeTuneBook(fullSheet, needsWipeRecovery ? { forceRecoverFromWipe: true } : undefined).then(function(trialResults) {
         // User already applied/dismissed while this compare was running.
-        if (epochAtStart !== driveMergeEpochRef.current) return
-        // warning if items are being deleted
+        if (epochAtStart !== driveMergeEpochRef.current) {
+          return { tunes: tunesRef.current || {} }
+        }
         if (trialResults) {
-			var needsWarning = Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0
-			if (needsWarning) {
+			var insertCount = Object.keys(trialResults.inserts || {}).length
+			var updateCount = Object.keys(trialResults.updates || {}).length
+			var deleteCount = Object.keys(trialResults.deletes || {}).length
+			var localOnly = Object.keys(trialResults.localUpdates || {}).length > 0 || Object.keys(trialResults.localInserts || {}).length > 0
+			var appliedTunes = null
+			// Insert-only remote changes: merge silently (no toast).
+			if (insertCount > 0 && updateCount === 0 && deleteCount === 0) {
+			  appliedTunes = applyMergeChanges(trialResults)
+			} else if (needsWipeRecovery && insertCount === 0 && updateCount === 0 && deleteCount === 0) {
+			  // Compare still empty after wipe — replace local from Drive head.
+			  appliedTunes = overrideTuneBook(fullSheet)
+			} else if (updateCount > 0 || deleteCount > 0) {
 			  setSheetUpdateResults(trialResults)
 			  tunebook.utils.scrollTo('topofpage')
 			  forceRefresh()
-			} else if (Object.keys(trialResults.localUpdates).length > 0 || Object.keys(trialResults.localInserts).length > 0) {
+			} else if (localOnly) {
 			  // Local changes (edits newer than Drive, or new local-only tunes) are saved silently without warning.
-			  applyMergeChanges(trialResults)
+			  appliedTunes = applyMergeChanges(trialResults)
 			} else {
 			  setSheetUpdateResults(trialResults)
-			  //utils.scrollTo('topofpage')
-			  //applyMergeChanges(trialResults)
-			  //forceRefresh()
 			}
+			return { tunes: appliedTunes || tunesRef.current || {} }
 		}
+        return { tunes: tunesRef.current || {} }
+    }).catch(function() {
+      return { tunes: tunesRef.current || {} }
     })
     offerPerformanceSetMerge(fullSheet, {
       sourceLabel: 'Google Drive set lists',
@@ -1267,21 +1430,27 @@ function App(props) {
         }
       }).catch(function() {})
     }
+    return mergeDone
   }
+
+  const onMergeRef = useRef(onMerge)
+  onMergeRef.current = onMerge
 
   useEffect(function() {
     registerMergeCheckHandler('drive', async function() {
-      if (!googleDocumentId || !token || !token.access_token) return;
+      var docId = googleDocumentIdRef.current
+      var tok = tokenRef.current
+      var driveApi = filesDocumentManagerRef.current
+      if (!docId || !tok || !tok.access_token || !driveApi) return;
       const fullSheet = await new Promise(function(resolve, reject) {
-        filesDocumentManager.getDocument(googleDocumentId).then(resolve).catch(reject);
+        driveApi.getDocument(docId).then(resolve).catch(reject);
       });
-      onMerge(fullSheet);
+      if (typeof onMergeRef.current === 'function') onMergeRef.current(fullSheet);
     });
     return function() {
       unregisterMergeCheckHandler('drive');
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps -- onMerge stable enough for manual check registration
-  }, [googleDocumentId, token, filesDocumentManager]);
+  }, []);
   
   
     
@@ -1503,6 +1672,8 @@ function App(props) {
                 var resolve = driveShrinkResolverRef.current
                 driveShrinkResolverRef.current = null
                 setDriveShrinkWarning(null)
+                wipeRestoreOfferedRef.current = true
+                // resolve(false) → useGoogleSheet onShrinkUploadCancelled pulls from Drive.
                 if (typeof resolve === 'function') resolve(false)
               }}
               onConfirm={function() {
@@ -1682,7 +1853,7 @@ function App(props) {
                     <Route  path={`quizzes/:lessonId`} element={<QuizzesPage tunebook={tunebook} user={user} />} />
                     <Route  path={`scratchpad`} element={<ScratchpadPage tunebook={tunebook} tunes={tunes} token={token} login={login} driveApi={filesDocumentManager} requestGoogleScopes={requestGoogleScopes} scratchpadSync={scratchpadSync} />} />
                     <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} user={user} login={login} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} requestGoogleScopes={requestGoogleScopes} scratchpadSync={scratchpadSync} />} />
-                    <Route  path={`settings/*`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} driveApi={filesDocumentManager} />}  />
+                    <Route  path={`settings/*`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} logout={logout} refresh={refresh} requestGoogleScopes={requestGoogleScopes} authMode={authMode} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} indexes={indexes} tunesContentRevision={tunesContentRevision} currentTuneBook={currentTuneBook} driveApi={filesDocumentManager} updateSheet={updateSheet} flushTunesPersistence={flushTunesPersistence} />}  />
                     <Route path={`collection-curator`} element={<CollectionCuratorPage token={token} tunebook={tunebook} />} />
                     <Route path={`snapcast`} element={isRemoteOutputUiEnabled()
                       ? <SnapcastPage mediaController={mediaController} tunebook={tunebook} nowPlayingQueue={nowPlayingQueue} tunes={tunes} />
@@ -1799,6 +1970,10 @@ function App(props) {
 
                     <Route path={`importplaylist`}>
                       <Route path={`:payload`} element={<ImportPlaylistPublicPage tunebook={tunebook} tunes={tunes} tunesHydrated={tunesHydrated} setNowPlayingQueue={setNowPlayingQueue} />} />
+                    </Route>
+
+                    <Route path={`importset`}>
+                      <Route path={`:payload`} element={<ImportSetPublicPage tunebook={tunebook} tunes={tunes} tunesHydrated={tunesHydrated} />} />
                     </Route>
 
                     <Route  path={`importlink`} >

@@ -41,7 +41,7 @@ def publish_scrape_file(
             "GITHUB_TOKEN (or GITHUB_PUBLISH_TOKEN) is not configured on the resolver",
             status_code=503,
         )
-    safe_name = os.path.basename(str(filename || "").strip())
+    safe_name = os.path.basename(str(filename or "").strip())
     if not safe_name.endswith(".abc") or "/" in safe_name or "\\" in safe_name:
         raise GitHubPublishError("filename must be a bare .abc scrape name")
     body = str(content or "")

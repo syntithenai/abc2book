@@ -1265,8 +1265,20 @@ a.header-now-playing-label:focus {
 }
 
 .header-nav-dropdown-btn.dropdown-toggle::after {
-  margin-left: 0;
-  vertical-align: middle;
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+  margin: 0 !important;
+}
+
+.header-nav-dropdown-caret {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 0.7rem solid transparent;
+  border-right: 0.7rem solid transparent;
+  border-top: 0.85rem solid currentColor;
+  flex-shrink: 0;
 }
 
 .header-nav-menu {
@@ -1459,17 +1471,15 @@ a.header-now-playing-label:focus {
 .header-dropdown-section-account .header-dropdown-item-login .header-dropdown-btn,
 .header-dropdown-section-account .header-dropdown-item-login .header-auth-btn {
   width: auto;
-  min-width: 2.4em;
-  max-width: 2.75em;
-  max-height: 2.75em;
-  aspect-ratio: 1;
-  padding: 0.2em;
+  min-width: 0;
+  padding-left: 0.65em;
+  padding-right: 0.65em;
   align-self: stretch;
 }
 
 .header-dropdown-section-account .header-dropdown-item-login .header-auth-profile-img {
-  width: 100%;
-  height: 100%;
+  width: 1.75em;
+  height: 1.75em;
 }
 
 .header-dropdown-section-account a {
@@ -1537,9 +1547,6 @@ a.header-now-playing-label:focus {
   .header-dropdown-section-account .header-dropdown-item-login .header-dropdown-btn,
   .header-dropdown-section-account .header-dropdown-item-login .header-auth-btn {
     width: auto;
-    max-width: 2.5em;
-    max-height: 2.5em;
-    min-width: 2.25em;
   }
 }
 
@@ -1606,9 +1613,8 @@ a.header-now-playing-label:focus {
 .header-auth-btn {
   margin-left: 0;
   height: 100%;
-  min-width: 0;
-  aspect-ratio: 1;
-  padding: 0.15em;
+  min-width: 3em;
+  padding: 0 0.55em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1627,13 +1633,13 @@ a.header-now-playing-label:focus {
 }
 
 .header-auth-btn-profile {
-  padding: 2px;
+  padding: 0.2em 0.45em;
 }
 
 .header-auth-profile-img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 1.75em;
+  height: 1.75em;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -3077,23 +3083,32 @@ a.header-now-playing-label:focus {
 }
 
 @media (min-width: 768px) {
-  .modal-dialog.share-playlist-modal {
+  .modal-dialog.share-playlist-modal,
+  .modal-dialog.share-dialog-modal {
     width: 66vw;
     max-width: min(66vw, 42rem);
     margin: 1.5rem auto;
   }
 
-  .modal-dialog.share-playlist-modal .modal-content {
+  .modal-dialog.share-playlist-modal .modal-content,
+  .modal-dialog.share-dialog-modal .modal-content {
     max-height: 66vh;
   }
 
-  .modal-dialog.share-playlist-modal .modal-body {
+  .modal-dialog.share-playlist-modal .modal-body,
+  .modal-dialog.share-dialog-modal .modal-body {
     overflow-y: auto;
   }
 }
 
-.share-playlist-modal-body {
+.share-playlist-modal-body,
+.share-dialog-modal-body {
   padding-top: 0.75rem;
+}
+
+/* Owned-media warning/progress sits above share dialogs (z-index ~1300). */
+.share-owned-media-backdrop-elevated {
+  z-index: 1315 !important;
 }
 
 .voice-fill-input-wrap {

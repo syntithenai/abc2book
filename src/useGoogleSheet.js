@@ -35,6 +35,8 @@ import {
   buildDriveUploadShrinkWarning,
   createDrivePollPauseController,
   hashDriveAbc,
+  isDismissedDriveUploadShrink,
+  rememberDismissedDriveUploadShrink,
   readLastDriveUploadSnapshot,
   writeLastDriveUploadSnapshot,
 } from './driveUploadShrinkGuard'
@@ -59,6 +61,7 @@ export default function useGoogleSheet(props) {
     setGoogleDocumentId,
     googleDocumentId,
     onUploadShrinkWarning,
+    onShrinkUploadCancelled,
   } = props
   var tuneBookName="ABC Tune Book"
 
@@ -69,6 +72,7 @@ export default function useGoogleSheet(props) {
   var updateSheetTimer = useRef(null)
   var onMergeRef = useRef(onMerge)
   var onUploadShrinkWarningRef = useRef(onUploadShrinkWarning)
+  var onShrinkUploadCancelledRef = useRef(onShrinkUploadCancelled)
   var tunesRef = useRef(tunes)
   var docsRef = useRef(null)
   var pollPauseControllerRef = useRef(null)
@@ -84,6 +88,10 @@ export default function useGoogleSheet(props) {
   useEffect(function() {
     onUploadShrinkWarningRef.current = onUploadShrinkWarning
   }, [onUploadShrinkWarning])
+
+  useEffect(function() {
+    onShrinkUploadCancelledRef.current = onShrinkUploadCancelled
+  }, [onShrinkUploadCancelled])
 
   useEffect(function() {
     tunesRef.current = tunes
@@ -164,10 +172,28 @@ export default function useGoogleSheet(props) {
     })
   }
   
+  function notifyShrinkCancelled(warning) {
+    // Backup pull if user cancels after a pre-sync still left local small.
+    pullSongbookFromDrive()
+  }
+
+  function pullSongbookFromDrive() {
+    if (isNavigatorOffline()) return Promise.resolve()
+    if (!googleSheetId.current || !docsRef.current || typeof docsRef.current.getDocument !== 'function') {
+      return Promise.resolve()
+    }
+    return docsRef.current.getDocument(googleSheetId.current).then(function(fullSheet) {
+      if (fullSheet && typeof onMergeRef.current === 'function') {
+        return onMergeRef.current(fullSheet)
+      }
+    }).catch(function() {})
+  }
+  
   // save current tunes database online
   function updateSheet(delay=3000, options) {
     const opts = options || {}
     const forceShrinkUpload = !!opts.forceShrinkUpload
+    const afterPreShrinkSync = !!opts.afterPreShrinkSync
     return new Promise(function(resolve,reject) {
       if (isNavigatorOffline()) {
         resolve()
@@ -198,29 +224,82 @@ export default function useGoogleSheet(props) {
                 })
                 utils.saveLocalforageObject('bookstorage_tunes', stripped)
               }
-              var warning = forceShrinkUpload
-                ? null
-                : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), nowTunes)
-              if (warning && typeof onUploadShrinkWarningRef.current === 'function') {
-                return Promise.resolve(onUploadShrinkWarningRef.current(warning)).then(function(confirmed) {
-                  if (!confirmed) {
-                    pollPause.resumeNow()
-                    markDriveSongbookSyncCancelled()
-                    resolve({ cancelled: true, warning: warning })
-                    return
-                  }
-                  return runSongbookUpload(nowTunes, deletedTunes).then(function() {
-                    resolve({ uploaded: true })
-                  })
-                }).catch(function() {
+
+              function finishUploadOrWarn(uploadTunes, uploadDeleted) {
+                var warning = forceShrinkUpload
+                  ? null
+                  : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), uploadTunes)
+                if (warning && isDismissedDriveUploadShrink(warning)) {
                   pollPause.resumeNow()
                   markDriveSongbookSyncCancelled()
-                  resolve({ cancelled: true })
+                  notifyShrinkCancelled(warning)
+                  resolve({ cancelled: true, warning: warning, suppressed: true })
+                  return
+                }
+                if (warning && typeof onUploadShrinkWarningRef.current === 'function') {
+                  return Promise.resolve(onUploadShrinkWarningRef.current(warning)).then(function(confirmed) {
+                    if (!confirmed) {
+                      rememberDismissedDriveUploadShrink(warning)
+                      pollPause.resumeNow()
+                      markDriveSongbookSyncCancelled()
+                      notifyShrinkCancelled(warning)
+                      resolve({ cancelled: true, warning: warning })
+                      return
+                    }
+                    return runSongbookUpload(uploadTunes, uploadDeleted).then(function() {
+                      resolve({ uploaded: true })
+                    })
+                  }).catch(function() {
+                    rememberDismissedDriveUploadShrink(warning)
+                    pollPause.resumeNow()
+                    markDriveSongbookSyncCancelled()
+                    notifyShrinkCancelled(warning)
+                    resolve({ cancelled: true })
+                  })
+                }
+                return runSongbookUpload(uploadTunes, uploadDeleted).then(function() {
+                  resolve({ uploaded: true })
                 })
               }
-              return runSongbookUpload(nowTunes, deletedTunes).then(function() {
-                resolve({ uploaded: true })
-              })
+
+              var pendingWarning = forceShrinkUpload
+                ? null
+                : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), nowTunes)
+
+              // Before warning about wiping Drive, pull online songbook and heal local.
+              if (pendingWarning && !afterPreShrinkSync) {
+                return pullSongbookFromDrive().then(function(mergeResult) {
+                  var healedMemory = (mergeResult && mergeResult.tunes) || tunesRef.current || {}
+                  if (Object.keys(healedMemory).length > 0) {
+                    tunesRef.current = healedMemory
+                  }
+                  if (Object.keys(healedMemory).length > Object.keys(nowTunes).length) {
+                    nowTunes = healedMemory
+                    var strippedHeal = {}
+                    Object.keys(nowTunes).forEach(function(id) {
+                      if (nowTunes[id]) strippedHeal[id] = persistableTuneWithoutDisplaySettings(nowTunes[id])
+                    })
+                    utils.saveLocalforageObject('bookstorage_tunes', strippedHeal)
+                  }
+                  var stillWarn = forceShrinkUpload
+                    ? null
+                    : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), nowTunes)
+                  if (!stillWarn) {
+                    // Synced back from Drive — nothing dangerous to upload.
+                    pollPause.resumeNow()
+                    markDriveSongbookSyncCancelled()
+                    resolve({ healed: true, cancelled: true })
+                    return
+                  }
+                  return utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(afterDeleted) {
+                    return finishUploadOrWarn(nowTunes, afterDeleted || deletedTunes)
+                  })
+                }).catch(function() {
+                  return finishUploadOrWarn(nowTunes, deletedTunes)
+                })
+              }
+
+              return finishUploadOrWarn(nowTunes, deletedTunes)
             })
         },delay)
       } else {
@@ -318,6 +397,6 @@ export default function useGoogleSheet(props) {
     
     
     
-    return {  updateSheet}
+    return { updateSheet, pullSongbookFromDrive }
         
 }

@@ -18,10 +18,14 @@ Optional flags the user may want:
 - `--dry-run` — print steps only
 - `--no-android` — web/Pages only
 - `--no-locale-audio` — skip packing/uploading YogApp language packs
-- `--no-push` / `--no-commit` — build without publishing (also skips locale-audio upload)
-- `--install` — also `adb install` both APKs
+- `--no-resolver` — skip Cloud Run light resolver deploy
+- `--no-push` / `--no-commit` — build without publishing (also skips locale-audio upload and hosted resolver deploy)
+- `--install` — require a plugged-in phone (fail if none); default is auto-install when adb sees a device
+- `--no-install` — skip phone install even if a device is connected
 - `--wait-pages` — poll GitHub Pages after push
 
 Script: `scripts/publish-everything.sh`
 
-It builds Synthesized Yoga (yogapp) Android, Tune Book Android, Tune Book web (embeds `/yoga/`), **packs and uploads YogApp locale audio zips** to the `audio-v1` GitHub Release (`npm run publish:locale-audio` in yogapp), commits, and pushes **yogapp** then **abc2book** so https://tunebook.net/ and https://tunebook.net/yoga/ update (non-English / extra-English voice packs download via the peppertrees CORS proxy).
+It builds Synthesized Yoga (yogapp) Android, Tune Book Android, Tune Book web (embeds `/yoga/`), **deploys the hosted Cloud Run light resolver** (`local-resolver/deploy-cloud-light.sh` → `tunebook-resolver-light`), **packs and uploads YogApp locale audio zips** to the `audio-v1` GitHub Release (`npm run publish:locale-audio` in yogapp), commits, and pushes **yogapp** then **abc2book** so https://tunebook.net/ and https://tunebook.net/yoga/ update (non-English / extra-English voice packs download via the peppertrees CORS proxy).
+
+If an Android phone is plugged in (adb `device`), it also **re-syncs the just-built web into both Capacitor APKs**, `adb install -r` Synthesized Yoga + Tune Book, and best-effort clears WebView cache so the on-phone web UI matches the publish. Peppertrees (home Docker) and the score-convert sidecar are not redeployed by this script.

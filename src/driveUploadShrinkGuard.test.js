@@ -4,14 +4,18 @@ import {
   DRIVE_UPLOAD_ECHO_PAUSE_MS,
   hashDriveAbc,
   isLastDriveUploadAbcEcho,
+  isLocalLibraryWipeVsLastUpload,
+  countMissingFromLastUpload,
   readLastDriveUploadSnapshot,
   writeLastDriveUploadSnapshot,
   shouldConfirmDriveUploadShrink,
+  resetDismissedDriveUploadShrinkForTests,
 } from './driveUploadShrinkGuard'
 
 describe('driveUploadShrinkGuard', function() {
   beforeEach(function() {
     localStorage.clear()
+    resetDismissedDriveUploadShrinkForTests()
   })
 
   test('write and read snapshot round trip', function() {
@@ -113,5 +117,36 @@ describe('driveUploadShrinkGuard', function() {
 
   test('no warning without prior snapshot', function() {
     expect(buildDriveUploadShrinkWarning(null, { a: { id: 'a' } })).toBeNull()
+  })
+
+  test('detects local wipe vs last upload snapshot', function() {
+    const ids = []
+    const lastUpdatedById = {}
+    for (let i = 0; i < 100; i += 1) {
+      const id = 't' + i
+      ids.push(id)
+      lastUpdatedById[id] = 1000 + i
+    }
+    const snap = { count: 100, ids: ids, lastUpdatedById: lastUpdatedById }
+    expect(countMissingFromLastUpload({}, snap)).toBe(100)
+    expect(isLocalLibraryWipeVsLastUpload({}, snap)).toBe(true)
+    expect(isLocalLibraryWipeVsLastUpload({ t0: { id: 't0' } }, snap)).toBe(true)
+    const almostFull = {}
+    for (let i = 0; i < 95; i += 1) almostFull['t' + i] = { id: 't' + i }
+    expect(isLocalLibraryWipeVsLastUpload(almostFull, snap)).toBe(false)
+  })
+
+  test('dismissed shrink warning suppresses re-prompt for same shrink', function() {
+    const {
+      isDismissedDriveUploadShrink,
+      rememberDismissedDriveUploadShrink,
+    } = require('./driveUploadShrinkGuard')
+    const warning = { previousCount: 200, nextCount: 0, removedCount: 200 }
+    expect(isDismissedDriveUploadShrink(warning)).toBe(false)
+    rememberDismissedDriveUploadShrink(warning)
+    expect(isDismissedDriveUploadShrink(warning)).toBe(true)
+    expect(isDismissedDriveUploadShrink({ previousCount: 200, nextCount: 1, removedCount: 199 })).toBe(false)
+    writeLastDriveUploadSnapshot({ a: { id: 'a', name: 'A' } })
+    expect(isDismissedDriveUploadShrink(warning)).toBe(false)
   })
 })

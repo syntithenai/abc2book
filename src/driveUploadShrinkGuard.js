@@ -145,6 +145,7 @@ export function writeLastDriveUploadSnapshot(tunes, extras) {
   } catch (e) {
     // ignore quota / private mode
   }
+  clearDismissedDriveUploadShrink()
   return snapshot
 }
 
@@ -185,4 +186,64 @@ export function buildDriveUploadShrinkWarning(previousSnapshot, nextTunes) {
 
 export function shouldConfirmDriveUploadShrink(previousSnapshot, nextTunes) {
   return !!buildDriveUploadShrinkWarning(previousSnapshot, nextTunes)
+}
+
+/** Session-only: user cancelled uploading this massively-shrunk local book. */
+let dismissedShrinkKey = null
+
+function shrinkWarningKey(warning) {
+  if (!warning) return null
+  return String(warning.previousCount) + '>' + String(warning.nextCount) + ':' + String(warning.removedCount)
+}
+
+export function rememberDismissedDriveUploadShrink(warning) {
+  dismissedShrinkKey = shrinkWarningKey(warning)
+  return dismissedShrinkKey
+}
+
+export function clearDismissedDriveUploadShrink() {
+  dismissedShrinkKey = null
+}
+
+export function isDismissedDriveUploadShrink(warning) {
+  const key = shrinkWarningKey(warning)
+  return !!(key && dismissedShrinkKey && key === dismissedShrinkKey)
+}
+
+export function resetDismissedDriveUploadShrinkForTests() {
+  dismissedShrinkKey = null
+}
+
+/**
+ * Count tunes present in the last successful Drive upload snapshot but missing
+ * from the current local map (memory or IndexedDB).
+ */
+export function countMissingFromLastUpload(localTunes, previousSnapshot) {
+  const snap = previousSnapshot || null
+  if (!snap) return 0
+  const ids = Array.isArray(snap.ids) && snap.ids.length > 0
+    ? snap.ids
+    : Object.keys(snap.lastUpdatedById || {})
+  const local = localTunes || {}
+  let missing = 0
+  ids.forEach(function(id) {
+    if (!local[String(id)]) missing += 1
+  })
+  return missing
+}
+
+/**
+ * True when local looks accidentally wiped vs the last Drive upload we made
+ * from this browser (mass-missing tunes). Used to re-offer Drive inserts
+ * instead of treating those tunes as intentional local deletes / upload echoes.
+ */
+export function isLocalLibraryWipeVsLastUpload(localTunes, previousSnapshot) {
+  const snap = previousSnapshot || null
+  if (!snap) return false
+  const ids = Array.isArray(snap.ids) && snap.ids.length > 0
+    ? snap.ids
+    : Object.keys(snap.lastUpdatedById || {})
+  const baseCount = typeof snap.count === 'number' ? snap.count : ids.length
+  if (baseCount <= 0) return false
+  return isMassDeleteBatch(countMissingFromLastUpload(localTunes, snap), baseCount)
 }

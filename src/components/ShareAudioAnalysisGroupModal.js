@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Alert, Button, Modal, ProgressBar, Spinner } from 'react-bootstrap'
-import { QRCodeSVG } from 'qrcode.react'
 import { prepareAudioAnalysisGroupShare } from '../audioAnalysisShare'
 import {
   audioAnalysisProgressPercent,
@@ -8,6 +7,7 @@ import {
   shareGroupEmailSubject
 } from '../audioAnalysisShareUtils'
 import { icons } from '../Icons'
+import ShareQrCode from './ShareQrCode'
 
 const SHARE_UPLOAD_NOTICE =
   'Sharing uploads every recording set in this group and its note audio to Google Drive so recipients can import the whole group. This can take a moment. Continue?'
@@ -137,14 +137,8 @@ export default function ShareAudioAnalysisGroupModal(props) {
           {link ? (
             <>
               <div className="mb-3 d-flex justify-content-center">
-                <QRCodeSVG value={link} size={220} level="M" includeMargin />
+                <ShareQrCode value={link} size={220} />
               </div>
-              <p className="small text-break">{link}</p>
-              <p className="small text-muted">
-                Recipients import all sets into a group named{' '}
-                <strong>{groupLabel || 'Ungrouped'}</strong>.
-                If audio is not public yet, they may be prompted to sign in with Google.
-              </p>
               <div className="d-flex flex-wrap gap-2 justify-content-center">
                 {copyText ? (
                   <Button variant="info" onClick={function() { copyText(link) }}>Copy Link</Button>

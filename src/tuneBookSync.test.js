@@ -168,6 +168,25 @@ describe('tuneBookSync', function() {
     expect(Object.keys(result.inserts)).toEqual([])
   })
 
+  test('mass local wipe recovery re-offers own-upload echoes as inserts', function() {
+    const lastUpdatedById = {}
+    const remoteTunes = {}
+    for (let i = 0; i < 60; i += 1) {
+      const id = 't' + i
+      lastUpdatedById[id] = 500
+      remoteTunes[id] = { id: id, name: 'Tune ' + i, lastUpdated: 500, voices: { '1': { notes: ['C'] } } }
+    }
+    const result = compareTuneBooks({
+      localTunes: {},
+      localDeleted: {},
+      remoteTunes: remoteTunes,
+      remoteDeleted: {},
+      lastUpdatedById: lastUpdatedById,
+      recoverFromWipe: true,
+    })
+    expect(Object.keys(result.inserts).length).toBe(60)
+  })
+
   test('own-upload tombstone echo is not an incoming delete', function() {
     const result = compareTuneBooks({
       localTunes: {

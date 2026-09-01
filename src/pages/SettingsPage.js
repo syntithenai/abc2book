@@ -19,11 +19,13 @@ import {
 } from '../mediaProxyConfig'
 import { describeResolverAuthReason } from '../mediaProxyClient'
 import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork'
+import { clearUserData } from '../clearUserData'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import FormFieldHelp from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
+import ClearMyDataConfirmModal from '../components/ClearMyDataConfirmModal'
 import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
 import CleanupSettingsSection from '../components/CleanupSettingsSection'
@@ -187,6 +189,8 @@ export default function SettingsPage(props) {
   const showDuplicatesTab = isMusicGenerationAdmin(props.user)
   const showCleanupTab = isMusicGenerationAdmin(props.user)
   const showBillingAdminTab = checked && isBillingAdminAvailable(resolverStatus, props.user)
+  const [showClearMyData, setShowClearMyData] = useState(false)
+  const [clearMyDataBusy, setClearMyDataBusy] = useState(false)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
 
   useEffect(function() {
@@ -419,6 +423,32 @@ export default function SettingsPage(props) {
     await runMergeCheckNow()
   }
 
+  async function handleConfirmClearMyData() {
+    setClearMyDataBusy(true)
+    try {
+      const result = await clearUserData({
+        tunebook: tunebook,
+        token: token,
+        driveApi: props.driveApi,
+        updateSheet: props.updateSheet,
+        flushTunesPersistence: props.flushTunesPersistence,
+        isLoggedIn: !!(token && token.access_token),
+      })
+      setShowClearMyData(false)
+      if (result && result.pendingDriveClear) {
+        toast.success('Local data cleared. Google Drive will be wiped the next time you are signed in online.')
+      } else {
+        toast.success('Your data has been cleared.')
+      }
+      navigate('/books')
+    } catch (e) {
+      console.log('clear my data failed', e)
+      toast.error((e && e.message) || 'Could not clear data.')
+    } finally {
+      setClearMyDataBusy(false)
+    }
+  }
+
   useEffect(function() {
     if (!pendingMergeCheckAfterLoginRef.current) return
     if (!props.token || !props.token.access_token) return
@@ -472,7 +502,23 @@ export default function SettingsPage(props) {
   <div className="App-settings">
     <div className="App-settings-toolbar">
       <h1 style={{ margin: 0, flex: '1 1 auto' }}>Settings</h1>
+      <Button
+        variant="outline-danger"
+        onClick={function() { setShowClearMyData(true) }}
+        title="Permanently delete your songbook and related data"
+      >
+        Clear my data
+      </Button>
     </div>
+
+    <ClearMyDataConfirmModal
+      show={showClearMyData}
+      busy={clearMyDataBusy}
+      signedIn={!!(token && token.access_token)}
+      online={!isNavigatorOffline()}
+      onCancel={function() { if (!clearMyDataBusy) setShowClearMyData(false) }}
+      onConfirm={handleConfirmClearMyData}
+    />
 
     <Nav variant="tabs" className="App-settings-tabs">
       <Nav.Item>

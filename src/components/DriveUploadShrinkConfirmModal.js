@@ -47,8 +47,8 @@ export default function DriveUploadShrinkConfirmModal(props) {
           </>
         ) : null}
         <p className="app-text-muted" style={{ marginTop: '1rem', marginBottom: 0 }}>
-          If you meant to delete these, confirm the upload. If this looks accidental, cancel and
-          restore from Settings → Backup first.
+          If you meant to delete these, confirm the upload. If this looks accidental, cancel.
+          (The app already tried syncing from Google Drive before showing this warning.)
         </p>
       </Modal.Body>
       <Modal.Footer>

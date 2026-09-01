@@ -56,4 +56,23 @@ describe('tuneBookSyncStreaming', function() {
     expect(Object.keys(result.updates)).toEqual([])
     expect(Object.keys(result.inserts)).toEqual([])
   })
+
+  test('mass wipe recovery re-offers own-upload echoes as inserts', async function() {
+    const lastUpdatedById = {}
+    const result = await compareTuneBooksStreaming({
+      localTunes: {},
+      localDeleted: {},
+      remoteDeleted: {},
+      lastUpdatedById: lastUpdatedById,
+      recoverFromWipe: true,
+      remoteTuneIterator: async function(onTune) {
+        for (let i = 0; i < 60; i += 1) {
+          const id = 't' + i
+          lastUpdatedById[id] = 500
+          onTune(makeTune(id, 500))
+        }
+      },
+    })
+    expect(Object.keys(result.inserts).length).toBe(60)
+  })
 })

@@ -35,17 +35,20 @@ export default function IncomingMergeHost(props) {
   const buildDriveBatch = useCallback(function(results) {
     if (!results) return null;
     const sourceKey = googleDocumentId || DRIVE_TUNEBOOK_SOURCE_KEY;
+    const wipeRecovery = !!results.wipeRecovery;
     const records = buildDriveMergeRecords(results, {
       sourceKey: sourceKey,
       getTuneImportHash: getTuneImportHash(tunebook),
+      skipDismissals: wipeRecovery,
     });
     return {
       kind: 'drive',
       sourceKey: sourceKey,
-      sourceLabel: 'Google Drive tunebook',
+      sourceLabel: wipeRecovery ? 'Google Drive songbook (restore)' : 'Google Drive tunebook',
       summary: summarizeMergeRecords(records),
       records: records,
       sheetUpdateResults: results,
+      wipeRecovery: wipeRecovery,
     };
   }, [googleDocumentId, tunebook]);
 
@@ -104,11 +107,11 @@ export default function IncomingMergeHost(props) {
     }
 
     const pref = getSourceMergePref(batch.sourceKey);
-    if (pref === 'alwaysReject') {
+    if (pref === 'alwaysReject' && !batch.wipeRecovery) {
       if (typeof onClear === 'function') onClear();
       return;
     }
-    if (pref === 'alwaysAccept') {
+    if (pref === 'alwaysAccept' && !batch.wipeRecovery) {
       handledResultsRef.current = sheetUpdateResults;
       applyMergeDismissalState(batch.sourceKey, batch, null, getTuneImportHash(tunebook));
       if (typeof onApplyDriveMerge === 'function') {
@@ -122,8 +125,13 @@ export default function IncomingMergeHost(props) {
 
     if (!toastShownRef.current) {
       toastShownRef.current = true;
+      const wipeRecovery = !!batch.wipeRecovery;
       showIncomingMergeToast({
-        message: 'Google Drive updates available (' + batch.summary + ').',
+        message: wipeRecovery
+          ? ('Restore missing tunes from Google Drive (' + batch.summary + ').')
+          : ('Google Drive updates available (' + batch.summary + ').'),
+        acceptLabel: wipeRecovery ? 'Restore' : 'Accept',
+        mergeLabel: wipeRecovery ? 'Review' : 'Merge',
         onAccept: function() {
           applyDriveBatch(null, { acceptAllFromSource: false });
         },

@@ -103,7 +103,6 @@ export default function SharePlaylistModal({
   const [busy, setBusy] = useState(false)
   const [audioSummary, setAudioSummary] = useState('')
   const [audioWarnings, setAudioWarnings] = useState([])
-  const [pendingOpen, setPendingOpen] = useState(false)
   const [publicShareWarning, setPublicShareWarning] = useState('')
   const [mediaPlayabilityWarning, setMediaPlayabilityWarning] = useState('')
   const [canChooseShareVariant, setCanChooseShareVariant] = useState(false)
@@ -120,14 +119,10 @@ export default function SharePlaylistModal({
   const icons = tunebook && tunebook.icons ? tunebook.icons : {}
   const fromQueue = !!(nowPlayingQueue && Array.isArray(nowPlayingQueue.items) && nowPlayingQueue.items.length > 0)
   const isLesson = fromQueue && isLessonQueue(nowPlayingQueue)
-
-  useEffect(function() {
-    if (token && pendingOpen) {
-      setPendingOpen(false)
-      openNameStep()
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [token, pendingOpen])
+  const existingPlaylistId = initialPlaylistId
+    || (fromQueue && nowPlayingQueue.savedPlaylistId)
+    || null
+  const isExistingPlaylist = !!existingPlaylistId
 
   useEffect(function() {
     if (!token || !pendingGoogleShareRef.current) return
@@ -136,15 +131,13 @@ export default function SharePlaylistModal({
     if (!googleDocumentId) {
       setBusy(false)
       setPhase('name')
-      setNameError('Connect a Google tunebook to share with Drive media.')
       return
     }
-    const syncPromise = typeof syncDocument === 'function'
-      ? Promise.resolve(syncDocument())
-      : Promise.resolve()
-    syncPromise.catch(function() { /* still attempt share */ }).then(function() {
-      prepareShare(pending.id, pending.name)
-    })
+    // Kick sync in the background — never block the share link on it.
+    if (typeof syncDocument === 'function') {
+      try { Promise.resolve(syncDocument()).catch(function() {}) } catch (e) { /* ignore */ }
+    }
+    prepareShare(pending.id, pending.name)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token, googleDocumentId])
 
@@ -181,10 +174,10 @@ export default function SharePlaylistModal({
     return analyzePlaylistShareMediaPlayability(playlistLike || {}, tunes)
   }
 
-  function mediaWarningFor(playlistLike, shareMode) {
+  function mediaWarningFor(playlistLike) {
     const media = analyzeMedia(playlistLike)
     if (media.ok) return ''
-    return buildPlaylistShareMediaWarning(media.issues, { shareMode: shareMode || 'generic' })
+    return buildPlaylistShareMediaWarning(media.issues)
   }
 
   function applyShareAnalyses(playlistLike, preferredVariant) {
@@ -200,26 +193,27 @@ export default function SharePlaylistModal({
     setPublicShareWarning(published.ok ? '' : published.warning)
     setCanChooseShareVariant(offersChoice)
     setShareVariant(nextVariant)
-    setMediaPlayabilityWarning(mediaWarningFor(
-      playlistLike,
-      nextVariant === 'google' ? 'google' : 'public'
-    ))
+    setMediaPlayabilityWarning(mediaWarningFor(playlistLike))
     return { published: published, media: media, offersChoice: offersChoice, shareVariant: nextVariant }
   }
 
   function openNameStep() {
-    const defaultName = (initialPlaylistName
+    const existing = existingPlaylistId ? getSavedPlaylist(existingPlaylistId) : null
+    const defaultName = (
+      (existing && existing.name)
+      || initialPlaylistName
       || (nowPlayingQueue && nowPlayingQueue.name)
-      || '').trim()
+      || ''
+    ).trim()
     setName(defaultName)
     setNameError('')
-    setActivePlaylistId(initialPlaylistId || (nowPlayingQueue && nowPlayingQueue.savedPlaylistId) || null)
+    setActivePlaylistId(existingPlaylistId || null)
     setActivePlaylistName(defaultName)
     setLink('')
     setIsPublicShare(false)
     const source = fromQueue
       ? nowPlayingQueue
-      : (initialPlaylistId ? getSavedPlaylist(initialPlaylistId) : null)
+      : (existingPlaylistId ? (existing || getSavedPlaylist(existingPlaylistId)) : null)
     applyShareAnalyses(source, null)
     setPhase('name')
     setShow(true)
@@ -231,10 +225,7 @@ export default function SharePlaylistModal({
       ? nowPlayingQueue
       : (initialPlaylistId ? getSavedPlaylist(initialPlaylistId) : (activePlaylistId ? getSavedPlaylist(activePlaylistId) : null))
     const playlistLike = source || { name: name, items: [] }
-    setMediaPlayabilityWarning(mediaWarningFor(
-      playlistLike,
-      nextVariant === 'google' ? 'google' : 'public'
-    ))
+    setMediaPlayabilityWarning(mediaWarningFor(playlistLike))
   }
 
   function handleTriggerClick(event) {
@@ -243,16 +234,6 @@ export default function SharePlaylistModal({
       event.stopPropagation()
     }
     if (isNavigatorOffline()) return
-    const source = fromQueue
-      ? nowPlayingQueue
-      : (initialPlaylistId ? getSavedPlaylist(initialPlaylistId) : null)
-    const analysis = analyzeCurrent(source)
-    if (!analysis.ok && !token) {
-      setPendingOpen(true)
-      if (login) login()
-      return
-    }
-    if (!analysis.ok && token && !googleDocumentId) return
     openNameStep()
   }
 
@@ -290,6 +271,9 @@ export default function SharePlaylistModal({
     setMediaEvents([])
     setMediaProgress({})
     if (work.hasWork) {
+      // Keep options visible under the elevated media confirm dialog.
+      setBusy(false)
+      setPhase('name')
       setMediaModalPhase('warning')
       return
     }
@@ -356,14 +340,15 @@ export default function SharePlaylistModal({
     setLink(theLink)
     setIsPublicShare(true)
     setPublicShareWarning('')
-    setMediaPlayabilityWarning(mediaWarningFor(playlistLike, 'public'))
+    setMediaPlayabilityWarning(mediaWarningFor(playlistLike))
     setBusy(false)
     setPhase('ready')
   }
 
   function finishShareLink(playlistId, playlistName) {
     setBusy(true)
-    docs.addPermission(googleDocumentId, { type: 'anyone', role: 'reader' }).finally(function() {
+    setPhase('working')
+    const finish = function() {
       const theLink = buildShareImportLink({
         googleDocumentId: googleDocumentId,
         shareKind: 'playlist',
@@ -374,26 +359,42 @@ export default function SharePlaylistModal({
       setLink(theLink)
       setIsPublicShare(false)
       const playlistLike = getSavedPlaylist(playlistId) || { id: playlistId, name: playlistName }
-      setMediaPlayabilityWarning(mediaWarningFor(playlistLike, 'google'))
+      setMediaPlayabilityWarning(mediaWarningFor(playlistLike))
       setBusy(false)
       setPhase('ready')
-    })
+    }
+    const add = docs && docs.addPermission
+      ? docs.addPermission(googleDocumentId, { type: 'anyone', role: 'reader' })
+      : Promise.resolve()
+    Promise.resolve(add).catch(function() { /* still share */ }).then(finish)
   }
 
   function prepareShare(playlistId, playlistName) {
-    if (isNavigatorOffline() || !googleDocumentId || !token) return
+    if (isNavigatorOffline() || !googleDocumentId || !token) {
+      setBusy(false)
+      setPhase('name')
+      return
+    }
     setActivePlaylistId(playlistId)
     setActivePlaylistName(playlistName)
     sharePlaylistIdRef.current = playlistId
 
+    function failPermissions() {
+      setBusy(false)
+      setPhase('name')
+      setNameError('Could not check Google sharing permissions.')
+    }
+
     function runAudioShareThenDocShare() {
       setBusy(true)
+      setPhase('working')
       beginOwnedMediaShare(playlistId, function afterOwnedMedia() {
         if (localStorage.getItem(PUBLIC_CONFIRM_KEY)) {
           finishShareLink(playlistId, playlistName)
           return
         }
         setBusy(true)
+        setPhase('working')
         docs.listPermissions(googleDocumentId).then(function(permissionsRes) {
           if (isAnyoneReadable(permissionsRes)) {
             localStorage.setItem(PUBLIC_CONFIRM_KEY, 'true')
@@ -401,10 +402,13 @@ export default function SharePlaylistModal({
             return
           }
           setBusy(false)
+          setPhase('name')
           confirmAndShareTunebookDoc(function() {
+            setBusy(true)
+            setPhase('working')
             finishShareLink(playlistId, playlistName)
           })
-        })
+        }).catch(failPermissions)
       })
     }
 
@@ -414,6 +418,7 @@ export default function SharePlaylistModal({
     }
 
     setBusy(true)
+    setPhase('working')
     docs.listPermissions(googleDocumentId).then(function(permissionsRes) {
       if (isAnyoneReadable(permissionsRes)) {
         localStorage.setItem(PUBLIC_CONFIRM_KEY, 'true')
@@ -422,36 +427,55 @@ export default function SharePlaylistModal({
         return
       }
       setBusy(false)
+      setPhase('name')
       confirmAndShareTunebookDoc(runAudioShareThenDocShare)
-    })
+    }).catch(failPermissions)
   }
 
   function beginGoogleSharePath(saved) {
-    if (!token) {
+    if (!token || !googleDocumentId) {
       pendingGoogleShareRef.current = { id: saved.id, name: saved.name }
       setBusy(false)
       setPhase('name')
-      if (login) login()
+      setShareVariant('google')
       return
     }
-    if (!googleDocumentId) {
-      setBusy(false)
-      setPhase('name')
-      setNameError('Connect a Google tunebook to share with Drive media.')
-      return
+    if (typeof syncDocument === 'function') {
+      try { Promise.resolve(syncDocument()).catch(function() {}) } catch (e) { /* ignore */ }
     }
-    const syncPromise = typeof syncDocument === 'function'
-      ? Promise.resolve(syncDocument())
-      : Promise.resolve()
-    syncPromise.catch(function() { /* still attempt share */ }).then(function() {
-      prepareShare(saved.id, saved.name)
-    })
+    prepareShare(saved.id, saved.name)
   }
 
-  function saveNamedPlaylist(trimmedName) {
+  function resolvePlaylistForShare(trimmedName) {
+    // Existing saved playlist: share in place (optional in-place rename only if name edited).
+    if (isExistingPlaylist && !fromQueue) {
+      const existing = getSavedPlaylist(existingPlaylistId)
+      if (!existing) return null
+      const nextName = (trimmedName || existing.name || '').trim() || existing.name
+      if (nextName && nextName !== existing.name) {
+        return savePlaylist(Object.assign({}, existing, { name: nextName }), { id: existing.id })
+      }
+      return existing
+    }
+
+    // Queue already tied to a saved playlist: update that record in place (not a duplicate).
+    if (fromQueue && existingPlaylistId) {
+      const saved = savePlaylistFromQueue(nowPlayingQueue, {
+        id: existingPlaylistId,
+        name: (trimmedName || nowPlayingQueue.name || '').trim() || 'Playlist',
+      })
+      if (saved && typeof setNowPlayingQueue === 'function') {
+        setNowPlayingQueue(Object.assign({}, nowPlayingQueue, {
+          name: saved.name,
+          savedPlaylistId: saved.id,
+        }))
+      }
+      return saved
+    }
+
+    // Unsaved queue / new playlist: create once with the provided name.
     if (fromQueue) {
       const saved = savePlaylistFromQueue(nowPlayingQueue, {
-        id: nowPlayingQueue.savedPlaylistId || initialPlaylistId,
         name: trimmedName,
       })
       if (!saved) return null
@@ -473,7 +497,7 @@ export default function SharePlaylistModal({
   function handleSubmitName(event) {
     if (event) event.preventDefault()
     const trimmed = String(name || '').trim()
-    if (!trimmed) {
+    if (!isExistingPlaylist && !trimmed) {
       setNameError('A playlist name is required.')
       return
     }
@@ -481,14 +505,15 @@ export default function SharePlaylistModal({
     setBusy(true)
     setPhase('working')
 
-    const saved = saveNamedPlaylist(trimmed)
+    const saved = resolvePlaylistForShare(trimmed)
     if (!saved) {
       setBusy(false)
       setPhase('name')
-      setNameError('Could not save playlist.')
+      setNameError(isExistingPlaylist ? 'Playlist not found.' : 'Could not save playlist.')
       return
     }
-    if (typeof onSaved === 'function') onSaved(saved)
+    if (typeof onSaved === 'function' && !isExistingPlaylist) onSaved(saved)
+    else if (typeof onSaved === 'function' && fromQueue) onSaved(saved)
 
     const result = applyShareAnalyses(saved, shareVariant)
     const usePublic = result.published.ok && (
@@ -496,12 +521,11 @@ export default function SharePlaylistModal({
     )
 
     if (usePublic) {
-      const syncPromise = typeof syncDocument === 'function'
-        ? Promise.resolve(syncDocument())
-        : Promise.resolve()
-      syncPromise.catch(function() { /* still share publicly */ }).then(function() {
-        finishPublicShareLink(saved.name, result.published, saved)
-      })
+      // Do not block the share link on tunebook sync — that can hang indefinitely.
+      if (typeof syncDocument === 'function') {
+        try { Promise.resolve(syncDocument()).catch(function() {}) } catch (e) { /* ignore */ }
+      }
+      finishPublicShareLink(saved.name, result.published, saved)
       return
     }
 
@@ -525,14 +549,12 @@ export default function SharePlaylistModal({
   const emailHref = link
     ? 'mailto:?subject=' + encodeURIComponent(shareEmailSubject('playlist', context))
       + '&body=' + encodeURIComponent(
-        (isPublicShare
-          ? 'Import this shared playlist (no login required):\n\n'
-          : 'Import this shared tunebook playlist:\n\n')
-        + link
+        (isPublicShare ? 'Import (no login):\n\n' : 'Import shared playlist:\n\n') + link
       )
     : null
 
   const triggerDisabled = busy || isNavigatorOffline()
+  const needsLoginForGoogle = (shareVariant === 'google' || !canChooseShareVariant) && (!token || !googleDocumentId)
 
   return (
     <>
@@ -557,6 +579,7 @@ export default function SharePlaylistModal({
         workSummary={mediaWorkSummary}
         progress={mediaProgress}
         events={mediaEvents}
+        dialogZIndex={dialogZIndex ? dialogZIndex + 20 : 1320}
         onConfirm={handleMediaWarningConfirm}
         onCancel={mediaModalPhase === 'warning' ? handleMediaWarningCancel : null}
       />
@@ -566,7 +589,7 @@ export default function SharePlaylistModal({
         onHide={handleClose}
         size="lg"
         fullscreen="md-down"
-        dialogClassName="share-playlist-modal"
+        dialogClassName="share-dialog-modal"
         backdrop="static"
         keyboard={false}
         style={dialogZIndex ? { zIndex: dialogZIndex } : undefined}
@@ -577,12 +600,14 @@ export default function SharePlaylistModal({
           <Modal.Title>
             {phase === 'ready'
               ? shareModalTitle('playlist', context)
-              : 'Share playlist'}
+              : (activePlaylistName || name
+                ? 'Share — ' + (activePlaylistName || name)
+                : 'Share playlist')}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body
           className={phase === 'ready'
-            ? 'd-flex flex-column align-items-center text-center share-playlist-modal-body'
+            ? 'd-flex flex-column align-items-center text-center share-dialog-modal-body'
             : undefined}
         >
           {phase === 'name' ? (
@@ -590,11 +615,6 @@ export default function SharePlaylistModal({
               {publicShareWarning ? (
                 <Alert variant="warning" className="text-start" data-testid="playlist-public-share-warning">
                   {publicShareWarning}
-                </Alert>
-              ) : canChooseShareVariant ? (
-                <Alert variant="info" className="text-start" data-testid="playlist-share-variant-hint">
-                  All tunes are available from published collections. Choose a one-shot public link
-                  (no login) or a Google share so recipients sign in and stay synced to your tunebook playlist updates.
                 </Alert>
               ) : null}
               {mediaPlayabilityWarning ? (
@@ -604,14 +624,14 @@ export default function SharePlaylistModal({
               ) : null}
               {canChooseShareVariant ? (
                 <Form.Group className="mb-3" controlId="share-playlist-variant" data-testid="playlist-share-variant">
-                  <Form.Label>Share link type</Form.Label>
+                  <Form.Label>Link type</Form.Label>
                   <div>
                     <Form.Check
                       type="radio"
                       name="share-playlist-variant"
                       id="share-playlist-variant-google"
                       data-testid="playlist-share-variant-google"
-                      label="Google share — recipients sign in and keep receiving updates from your shared tunebook; library / Drive / recording media can be uploaded"
+                      label="Google — sign-in, stays synced"
                       checked={shareVariant === 'google'}
                       onChange={function() { handleShareVariantChange('google') }}
                       className="mb-2 text-start"
@@ -621,7 +641,7 @@ export default function SharePlaylistModal({
                       name="share-playlist-variant"
                       id="share-playlist-variant-public"
                       data-testid="playlist-share-variant-public"
-                      label="Public scrape link — no login; one-time import (not synced to later changes); private library / Drive media will not play"
+                      label="Public — no login, one-time copy"
                       checked={shareVariant === 'public'}
                       onChange={function() { handleShareVariantChange('public') }}
                       className="text-start"
@@ -629,33 +649,53 @@ export default function SharePlaylistModal({
                   </div>
                 </Form.Group>
               ) : null}
-              <Form.Group className="mb-3" controlId="share-playlist-name">
-                <Form.Label>Playlist name</Form.Label>
-                <VoiceFillInput
-                  value={name}
-                  onChange={function(e) {
-                    setName(e.target.value)
-                    if (nameError) setNameError('')
-                  }}
-                  placeholder="Name this playlist"
-                  aria-label="Playlist name"
-                  data-testid="share-playlist-name-input"
-                  fieldKind="search"
-                  token={token}
-                  setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
-                  autoFocus
-                />
-                {nameError ? (
-                  <Form.Text className="text-danger">{nameError}</Form.Text>
-                ) : (
-                  <Form.Text className="text-muted">
-                    Required. The playlist is saved before sharing.
-                  </Form.Text>
-                )}
-              </Form.Group>
+              {needsLoginForGoogle ? (
+                <Alert variant="warning" className="text-start" data-testid="playlist-share-login-required">
+                  Sign in required
+                  <div className="mt-2">
+                    <Button type="button" variant="info" size="sm" onClick={function() {
+                      if (login) login()
+                    }}>
+                      Login
+                    </Button>
+                  </div>
+                </Alert>
+              ) : null}
+              {!isExistingPlaylist ? (
+                <Form.Group className="mb-3" controlId="share-playlist-name">
+                  <Form.Label>Playlist name</Form.Label>
+                  <VoiceFillInput
+                    value={name}
+                    onChange={function(e) {
+                      setName(e.target.value)
+                      if (nameError) setNameError('')
+                    }}
+                    placeholder="Name this playlist"
+                    aria-label="Playlist name"
+                    data-testid="share-playlist-name-input"
+                    fieldKind="search"
+                    token={token}
+                    setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+                    autoFocus
+                  />
+                  {nameError ? (
+                    <Form.Text className="text-danger">{nameError}</Form.Text>
+                  ) : null}
+                </Form.Group>
+              ) : nameError ? (
+                <Alert variant="danger" className="text-start">{nameError}</Alert>
+              ) : null}
               <div className="d-flex gap-2 justify-content-end">
                 <Button type="button" variant="secondary" onClick={handleClose}>Cancel</Button>
-                <Button type="submit" variant="info" disabled={busy || !String(name || '').trim()}>
+                <Button
+                  type="submit"
+                  variant="info"
+                  disabled={
+                    busy
+                    || (!isExistingPlaylist && !String(name || '').trim())
+                    || (needsLoginForGoogle && shareVariant !== 'public')
+                  }
+                >
                   {icons.share} Share
                 </Button>
               </div>
@@ -663,14 +703,14 @@ export default function SharePlaylistModal({
           ) : null}
 
           {phase === 'working' ? (
-            <p className="mb-0 text-center">Saving and preparing share link…</p>
+            <p className="mb-0 text-center">Preparing share link…</p>
           ) : null}
 
           {phase === 'ready' && link ? (
             <>
               {isPublicShare ? (
                 <Alert variant="success" className="w-100 mb-3 text-start">
-                  Public scrape share: recipients import once from published collections (no login, not synced to later changes).
+                  Public link — one-time import
                 </Alert>
               ) : publicShareWarning ? (
                 <Alert variant="warning" className="w-100 mb-3 text-start" data-testid="playlist-public-share-warning-ready">
@@ -678,7 +718,7 @@ export default function SharePlaylistModal({
                 </Alert>
               ) : (
                 <Alert variant="info" className="w-100 mb-3 text-start" data-testid="playlist-google-share-ready">
-                  Google share: recipients sign in to import from your shared tunebook and stay synced to later changes. Attached media is playable only if it was uploaded and shared publicly.
+                  Google link — stays synced
                 </Alert>
               )}
               {mediaPlayabilityWarning ? (
@@ -691,7 +731,7 @@ export default function SharePlaylistModal({
               ) : null}
               {audioWarnings.length > 0 ? (
                 <Alert variant="warning" className="w-100 mb-3 text-start">
-                  <div>Some audio files could not be uploaded to Google Drive and will not play for others:</div>
+                  <div>Couldn’t upload:</div>
                   <ul className="mb-0 mt-2">
                     {audioWarnings.map(function(warning, idx) {
                       return <li key={idx}>{warning}</li>
@@ -713,7 +753,6 @@ export default function SharePlaylistModal({
                   <a href={emailHref} className="btn btn-outline-primary">Share by Email</a>
                 ) : null}
               </div>
-              <p className="text-muted small mt-3 mb-0">Keep this open so others can scan the QR code.</p>
             </>
           ) : null}
         </Modal.Body>

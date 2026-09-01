@@ -8,8 +8,10 @@
 #   bash scripts/publish-everything.sh --dry-run
 #   bash scripts/publish-everything.sh --no-android
 #   bash scripts/publish-everything.sh --no-locale-audio
+#   bash scripts/publish-everything.sh --no-resolver
 #   bash scripts/publish-everything.sh --no-push
-#   bash scripts/publish-everything.sh --install   # also adb-install debug APKs
+#   bash scripts/publish-everything.sh --install      # require adb device
+#   bash scripts/publish-everything.sh --no-install   # skip even if phone plugged in
 #
 # Env:
 #   YOGAPP_DIR   Sibling YogApp checkout (default: ../yogapp)
@@ -17,22 +19,27 @@
 #   JAVA_HOME_YOGA JDK for YogApp Capacitor 8 (default: ~/.local/opt/jdk-21 or JAVA_HOME)
 #   ANDROID_HOME   Android SDK (default: .tools/android-sdk or ~/Android/Sdk)
 #   AUDIO_RELEASE_TAG  YogApp locale-audio release tag (default: audio-v1)
+#   CLOUD_RUN_ENV_FILE  Override Cloud Run env yaml for light resolver deploy
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 YOGAPP="${YOGAPP_DIR:-$ROOT/../yogapp}"
+RESOLVER="$ROOT/local-resolver"
 
 DRY_RUN=0
 DO_ANDROID=1
 DO_LOCALE_AUDIO=1
+DO_RESOLVER=1
 DO_PUSH=1
 DO_COMMIT=1
-DO_INSTALL=0
+# auto = install when an adb device is connected; always = require device; never = skip
+DO_INSTALL=auto
 WAIT_PAGES=0
 
 usage() {
   cat <<'EOF'
-publish-everything — rebuild Tune Book + YogApp (web + Android) and push for tunebook.net
+publish-everything — rebuild Tune Book + YogApp (web + Android), deploy hosted
+resolver, and push for tunebook.net
 
 Usage (from abc2book):
   npm run publish:everything
@@ -42,9 +49,11 @@ Options:
   --dry-run            Print commands only
   --no-android         Skip both Android APK builds
   --no-locale-audio    Skip packing/uploading YogApp locale audio release zips
-  --no-commit          Build only (implies --no-push; also skips locale-audio upload)
-  --no-push            Commit locally but do not git push (also skips locale-audio upload)
-  --install            adb install -r both debug/release APKs
+  --no-resolver        Skip Cloud Run light resolver deploy
+  --no-commit          Build only (implies --no-push; also skips locale-audio + resolver)
+  --no-push            Commit locally but do not git push (also skips locale-audio + resolver)
+  --install            Require a plugged-in phone; fail if none (default: install when present)
+  --no-install         Never adb-install, even if a phone is plugged in
   --wait-pages         After push, poll GitHub Pages until built
   -h, --help           Show this help
 
@@ -54,6 +63,7 @@ Env:
   JAVA_HOME_YOGA       JDK 21 for YogApp (default: ~/.local/opt/jdk-21)
   ANDROID_HOME         Android SDK
   AUDIO_RELEASE_TAG    Locale audio GitHub Release tag (default: audio-v1)
+  CLOUD_RUN_ENV_FILE   Cloud Run env yaml (default: local-resolver/deploy/cloud-run-env.yaml)
 EOF
   exit "${1:-0}"
 }
@@ -64,9 +74,11 @@ while [[ $# -gt 0 ]]; do
     --dry-run) DRY_RUN=1 ;;
     --no-android) DO_ANDROID=0 ;;
     --no-locale-audio) DO_LOCALE_AUDIO=0 ;;
+    --no-resolver) DO_RESOLVER=0 ;;
     --no-push) DO_PUSH=0 ;;
     --no-commit) DO_COMMIT=0; DO_PUSH=0 ;;
-    --install) DO_INSTALL=1 ;;
+    --install) DO_INSTALL=always ;;
+    --no-install) DO_INSTALL=never ;;
     --wait-pages) WAIT_PAGES=1 ;;
     *)
       echo "Unknown option: $1" >&2
@@ -128,6 +140,92 @@ run() {
   else
     "$@"
   fi
+}
+
+list_adb_devices() {
+  command -v adb >/dev/null 2>&1 || return 0
+  adb devices 2>/dev/null | awk '/\tdevice$/ { print $1 }'
+}
+
+adb_has_device() {
+  local devices
+  devices="$(list_adb_devices)"
+  [[ -n "$devices" ]]
+}
+
+install_apk_on_devices() {
+  local apk="$1"
+  local serial
+  local any=0
+  [[ -f "$apk" || "$DRY_RUN" -eq 1 ]] || die "missing APK: $apk"
+  while IFS= read -r serial; do
+    [[ -n "$serial" ]] || continue
+    any=1
+    log "adb install -r on $serial ← $(basename "$apk")"
+    run adb -s "$serial" install -r "$apk"
+  done < <(list_adb_devices)
+  if [[ "$any" -eq 0 ]]; then
+    if [[ "$DRY_RUN" -eq 1 ]]; then
+      echo "[dry-run] adb install -r $apk  # (no device connected right now)"
+    else
+      die "no adb device connected to install $(basename "$apk")"
+    fi
+  fi
+}
+
+refresh_app_webview_on_devices() {
+  local serial pkg
+  while IFS= read -r serial; do
+    [[ -n "$serial" ]] || continue
+    for pkg in net.tunebook.app app.yogapp.practice; do
+      run adb -s "$serial" shell am force-stop "$pkg" || true
+      # Debug builds: drop WebView/HTTP cache so the new Capacitor assets win.
+      if [[ "$DRY_RUN" -eq 1 ]]; then
+        echo "[dry-run] adb -s $serial shell run-as $pkg clear webview cache"
+      else
+        adb -s "$serial" shell "run-as $pkg sh -c 'rm -rf cache/* code_cache/* app_webview/* 2>/dev/null; true'" >/dev/null 2>&1 || true
+      fi
+    done
+  done < <(list_adb_devices)
+}
+
+# Re-bundle the web just built for Pages into both APKs, then adb install.
+install_android_apps_on_phone() {
+  log "Refreshing Capacitor web assets into APKs (phone must match this publish)"
+  (
+    export JAVA_HOME="$JAVA_YOGA"
+    export PATH="$JAVA_HOME/bin:$PATH"
+    cd "$YOGAPP"
+    run npx cap sync android
+    run bash -c 'cd android && ./gradlew assembleDebug'
+  )
+  (
+    export JAVA_HOME="$JAVA_TB"
+    export PATH="$JAVA_HOME/bin:$PATH"
+    cd "$ROOT"
+    # ./build is from the Pages build above; sync without another craco build.
+    run npx cap sync android
+    if [[ -f "$ROOT/android/keystore.properties" ]]; then
+      run bash -c 'cd android && ./gradlew assembleRelease'
+    else
+      run bash -c 'cd android && ./gradlew assembleDebug'
+    fi
+  )
+
+  local yoga_apk="$YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
+  local tb_apk_debug="$ROOT/android/app/build/outputs/apk/debug/app-debug.apk"
+  local tb_apk_release="$ROOT/android/app/build/outputs/apk/release/app-release.apk"
+  local tb_apk
+  if [[ -f "$tb_apk_release" ]]; then
+    tb_apk="$tb_apk_release"
+  else
+    tb_apk="$tb_apk_debug"
+  fi
+
+  install_apk_on_devices "$yoga_apk"
+  install_apk_on_devices "$tb_apk"
+  refresh_app_webview_on_devices
+  log "Phone apps installed (Synthesized Yoga + Tune Book); WebView cache cleared when possible"
 }
 
 # Refuse absolute symlinks that break GitHub Pages (tar --dereference / Jekyll).
@@ -194,7 +292,7 @@ push_repo() {
 
 # --- builds -----------------------------------------------------------------
 
-log "1/5 YogApp Android (Capacitor base ./)"
+log "1/6 YogApp Android (Capacitor base ./)"
 if [[ "$DO_ANDROID" -eq 1 ]]; then
   (
     export JAVA_HOME="$JAVA_YOGA"
@@ -210,7 +308,7 @@ else
   log "skip YogApp Android (--no-android)"
 fi
 
-log "2/5 Tune Book Android (latest web → Capacitor)"
+log "2/6 Tune Book Android (latest web → Capacitor)"
 if [[ "$DO_ANDROID" -eq 1 ]]; then
   (
     export JAVA_HOME="$JAVA_TB"
@@ -222,7 +320,7 @@ else
   log "skip Tune Book Android (--no-android)"
 fi
 
-log "3/5 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
+log "3/6 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
 # Full abc2book build runs embed-yogapp.sh (build:web) then copies to repo root.
 (
   cd "$ROOT"
@@ -231,27 +329,65 @@ log "3/5 Web builds — YogApp /yoga/ embed + Tune Book GitHub Pages tree"
 [[ "$DRY_RUN" -eq 1 || -f "$ROOT/yoga/index.html" ]] || die "missing $ROOT/yoga/index.html after build"
 [[ "$DRY_RUN" -eq 1 || -f "$ROOT/index.html" ]] || die "missing $ROOT/index.html after build"
 
-if [[ "$DO_INSTALL" -eq 1 && "$DO_ANDROID" -eq 1 ]]; then
-  log "Installing debug APKs on connected device(s)"
+# Phone install: default auto when an adb device is present (Capacitor web lives in the APK).
+DO_PHONE_INSTALL=0
+if [[ "$DO_ANDROID" -eq 1 ]]; then
+  case "$DO_INSTALL" in
+    always)
+      DO_PHONE_INSTALL=1
+      if [[ "$DRY_RUN" -eq 0 ]]; then
+        command -v adb >/dev/null || die "adb not on PATH (needed for --install)"
+        adb_has_device || die "no adb device connected (--install requires a phone)"
+      fi
+      ;;
+    never)
+      log "skip phone install (--no-install)"
+      ;;
+    auto)
+      if adb_has_device; then
+        DO_PHONE_INSTALL=1
+        log "adb device detected — will install Yoga + Tune Book with latest web"
+      else
+        log "skip phone install (no adb device; use --install to require one)"
+      fi
+      ;;
+    *)
+      die "invalid DO_INSTALL=$DO_INSTALL"
+      ;;
+  esac
+fi
+
+if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
+  install_android_apps_on_phone
+fi
+
+# --- hosted Cloud Run resolver ----------------------------------------------
+
+log "4/6 Hosted Cloud Run resolver (tunebook-resolver-light)"
+if [[ "$DO_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
+  [[ -d "$RESOLVER" ]] || die "missing $RESOLVER"
+  [[ -f "$RESOLVER/deploy-cloud-light.sh" ]] || die "missing $RESOLVER/deploy-cloud-light.sh"
+  ENV_FILE="${CLOUD_RUN_ENV_FILE:-$RESOLVER/deploy/cloud-run-env.yaml}"
   if [[ "$DRY_RUN" -eq 1 ]]; then
-    echo "[dry-run] adb install -r yogapp + tunebook debug APKs"
+    echo "[dry-run] would require gcloud + $ENV_FILE"
+    run bash "$RESOLVER/deploy-cloud-light.sh"
   else
-    command -v adb >/dev/null || die "adb not on PATH"
-    adb devices | grep -q $'\tdevice$' || die "no adb device connected"
-    adb install -r "$YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
-    TB_APK_DEBUG="$ROOT/android/app/build/outputs/apk/debug/app-debug.apk"
-    TB_APK_RELEASE="$ROOT/android/app/build/outputs/apk/release/app-release.apk"
-    if [[ -f "$TB_APK_RELEASE" ]]; then
-      adb install -r "$TB_APK_RELEASE"
-    else
-      adb install -r "$TB_APK_DEBUG"
-    fi
+    command -v gcloud >/dev/null || die "gcloud not on PATH (needed to deploy hosted resolver)"
+    [[ -f "$ENV_FILE" ]] || die "missing $ENV_FILE (copy from cloud-run-env.example.yaml)"
+    (
+      cd "$RESOLVER"
+      bash ./deploy-cloud-light.sh
+    )
   fi
+elif [[ "$DO_RESOLVER" -eq 0 ]]; then
+  log "skip hosted resolver (--no-resolver)"
+else
+  log "skip hosted resolver deploy (--no-push / --no-commit)"
 fi
 
 # --- locale audio release ---------------------------------------------------
 
-log "4/5 YogApp locale audio packs → GitHub Release ${AUDIO_RELEASE_TAG:-audio-v1}"
+log "5/6 YogApp locale audio packs → GitHub Release ${AUDIO_RELEASE_TAG:-audio-v1}"
 if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
   (
     cd "$YOGAPP"
@@ -271,7 +407,7 @@ fi
 
 # --- git / Pages ------------------------------------------------------------
 
-log "5/5 Commit + push (tunebook.net via GitHub Pages)"
+log "6/6 Commit + push (tunebook.net via GitHub Pages)"
 assert_no_absolute_symlinks "$ROOT"
 assert_no_absolute_symlinks "$YOGAPP"
 
@@ -318,10 +454,20 @@ echo "  YogApp repo:    $YOGAPP"
 echo "  Tune Book repo: $ROOT"
 echo "  Site:           https://tunebook.net/"
 echo "  Yoga:           https://tunebook.net/yoga/"
+if [[ "$DO_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
+  echo "  Hosted resolver: Cloud Run tunebook-resolver-light (via local-resolver/deploy-cloud-light.sh)"
+else
+  echo "  Hosted resolver: skipped"
+fi
 if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
   echo "  Locale audio:   https://github.com/syntithenai/yogapp/releases/tag/${AUDIO_RELEASE_TAG:-audio-v1}"
 else
   echo "  Locale audio:   skipped"
+fi
+if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
+  echo "  Phone install:  Yoga + Tune Book (web assets re-synced into APKs)"
+else
+  echo "  Phone install:  skipped"
 fi
 if [[ "$DO_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
   echo "  YogApp APK:     $YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"

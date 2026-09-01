@@ -63,7 +63,7 @@ export function showIncomingMergeToast(options) {
             onClick={acceptBindings.onClick}
             onPointerUp={acceptBindings.onPointerUp}
           >
-            Accept
+            {opts.acceptLabel || 'Accept'}
           </button>
           <button
             type="button"
@@ -72,7 +72,7 @@ export function showIncomingMergeToast(options) {
             onClick={mergeBindings.onClick}
             onPointerUp={mergeBindings.onPointerUp}
           >
-            Merge
+            {opts.mergeLabel || 'Merge'}
           </button>
         </div>
       );

@@ -17,6 +17,8 @@ export default function ShareOwnedMediaProgressModal(props) {
   const total = Number(progress.total) || 0
   const percent = total > 0 ? Math.round((current / total) * 100) : (phase === 'working' ? 5 : 0)
   const message = progress.message || 'Preparing audio for sharing…'
+  const modalStyle = props.dialogZIndex ? { zIndex: props.dialogZIndex } : undefined
+  const backdropClassName = props.dialogZIndex ? 'share-owned-media-backdrop-elevated' : undefined
 
   if (phase === 'warning') {
     const uploadCount = work.needsUpload || 0
@@ -28,6 +30,8 @@ export default function ShareOwnedMediaProgressModal(props) {
         backdrop="static"
         keyboard={false}
         centered
+        style={modalStyle}
+        backdropClassName={backdropClassName}
         data-testid="share-owned-media-warning-modal"
       >
         <Modal.Header closeButton={!!props.onCancel}>
@@ -93,6 +97,8 @@ export default function ShareOwnedMediaProgressModal(props) {
       backdrop="static"
       keyboard={false}
       centered
+      style={modalStyle}
+      backdropClassName={backdropClassName}
       data-testid="share-owned-media-progress-modal"
     >
       <Modal.Header>

@@ -87,6 +87,7 @@ export function compareTuneBooks({
   remoteDeleted,
   lastUpdatedById,
   lastDeletedAtById,
+  recoverFromWipe,
 }) {
   const inserts = {}
   const updates = {}
@@ -99,6 +100,7 @@ export function compareTuneBooks({
   const uploadedUpdated = lastUpdatedById || {}
   const uploadedDeleted = lastDeletedAtById || {}
   const remoteActiveIds = {}
+  const offerEchoInserts = !!recoverFromWipe
 
   Object.values(remoteTunes || {}).forEach(function(remoteTune) {
     if (!remoteTune || !remoteTune.id) return
@@ -136,7 +138,7 @@ export function compareTuneBooks({
       } else if (remoteTuneAt < localTuneAt) {
         if (hasFieldDiff) localUpdates[id] = [remoteTune, localTune]
       }
-    } else if (!(uploadedTuneAt > 0 && remoteTuneAt <= uploadedTuneAt)) {
+    } else if (offerEchoInserts || !(uploadedTuneAt > 0 && remoteTuneAt <= uploadedTuneAt)) {
       inserts[id] = remoteTune
     }
   })

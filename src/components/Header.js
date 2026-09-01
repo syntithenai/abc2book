@@ -635,7 +635,9 @@ export default function Header(props) {
                         className="header-nav-btn header-nav-dropdown-btn"
                         style={headerDropdownBtnStyle}
                         aria-label="Main menu"
-                    />
+                    >
+                        <span className="header-nav-dropdown-caret" aria-hidden="true" />
+                    </Dropdown.Toggle>
                     {renderNavMenu()}
                 </Dropdown>
             </ButtonGroup>

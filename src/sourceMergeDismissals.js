@@ -83,3 +83,13 @@ export function dismissEntireMergeBatch(sourceKey, batch, getTuneImportHash) {
     recordSourceMergeDismissal(sourceKey, record.id, record.incomingTune, getTuneImportHash);
   });
 }
+
+/** Drop all per-tune dismissals for a source (e.g. wipe recovery). */
+export function clearSourceMergeDismissalsForSource(sourceKey) {
+  const key = String(sourceKey || '');
+  if (!key) return;
+  const all = readSourceMergeDismissals();
+  if (!all[key]) return;
+  delete all[key];
+  writeSourceMergeDismissals(all);
+}

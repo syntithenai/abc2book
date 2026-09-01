@@ -2248,11 +2248,14 @@ The main difference between the two functions is the additional condition in app
     forceRefresh()
   }
   
-  function deleteAll() {
+  function deleteAll(options) {
+    var opts = options || {}
+    var keepTombstonesForDriveWipe = !!opts.keepTombstonesForDriveWipe
+    var skipOnlineSave = !!opts.skipOnlineSave
     var allTuneIds = Object.keys(tunes || {})
     if (setDeletedTunes) {
-      if (isLoggedIn) {
-        // logged in: propagate the purge to other devices via tombstones
+      if (isLoggedIn || keepTombstonesForDriveWipe) {
+        // logged in (or clear-my-data): propagate the purge via tombstones
         setDeletedTunes(mergeDeletedTuneMaps(deletedTunes, tombstoneAllTunes(tunes)))
       } else {
         // logged out: local reset only. Clear tombstones so re-login re-pulls
@@ -2264,7 +2267,17 @@ The main difference between the two functions is the additional condition in app
     removeDeletedTunesFromPlaylists(allTuneIds)
     if (setNowPlayingQueue) setNowPlayingQueue(null)
     setTunes({})
-    resetTuneBook()
+    if (skipOnlineSave) {
+      pauseSheetUpdates.current = true
+      indexes.resetBookIndex()
+      indexes.resetTagIndex()
+      if (indexes.resetGenreIndex) indexes.resetGenreIndex()
+      if (indexes.resetArtistIndex) indexes.resetArtistIndex()
+      if (indexes.resetAlbumIndex) indexes.resetAlbumIndex()
+      buildTunesHash()
+    } else {
+      resetTuneBook()
+    }
     setCurrentTuneBook(null)
   }
   

@@ -30,7 +30,8 @@ function classifyRemoteTune(
   buckets,
   remoteActiveIds,
   uploadedUpdated,
-  uploadedDeleted
+  uploadedDeleted,
+  recoverFromWipe
 ) {
   if (!remoteTune || !remoteTune.id) return
   const id = remoteTune.id
@@ -67,7 +68,7 @@ function classifyRemoteTune(
     } else if (remoteTuneAt < localTuneAt) {
       if (hasFieldDiff) buckets.localUpdates[id] = [remoteTune, localTune]
     }
-  } else if (!(uploadedTuneAt > 0 && remoteTuneAt <= uploadedTuneAt)) {
+  } else if (recoverFromWipe || !(uploadedTuneAt > 0 && remoteTuneAt <= uploadedTuneAt)) {
     buckets.inserts[id] = remoteTune
   }
 }
@@ -111,6 +112,7 @@ export async function compareTuneBooksStreaming({
   remoteTuneIterator,
   lastUpdatedById,
   lastDeletedAtById,
+  recoverFromWipe,
 }) {
   const buckets = emptyBuckets()
   const remoteActiveIds = {}
@@ -118,6 +120,7 @@ export async function compareTuneBooksStreaming({
   const remoteDel = remoteDeleted || {}
   const uploadedUpdated = lastUpdatedById || {}
   const uploadedDeleted = lastDeletedAtById || {}
+  const offerEchoInserts = !!recoverFromWipe
 
   if (typeof remoteTuneIterator === 'function') {
     await remoteTuneIterator(function(remoteTune) {
@@ -129,7 +132,8 @@ export async function compareTuneBooksStreaming({
         buckets,
         remoteActiveIds,
         uploadedUpdated,
-        uploadedDeleted
+        uploadedDeleted,
+        offerEchoInserts
       )
     })
   }

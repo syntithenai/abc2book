@@ -43,7 +43,7 @@ export default class ShareQrCode extends Component {
           className={fallbackClassName || 'text-muted small mb-0 px-3'}
           data-testid="share-qr-too-long"
         >
-          This link is too long for a QR code. Copy or email the link instead.
+          Too long for QR — use Copy Link
         </p>
       )
     }

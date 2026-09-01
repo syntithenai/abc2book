@@ -3,3 +3,4 @@ secrets/youtube-cookies.txt
 data/
 *.sqlite
 soundfonts/
+.venv-light/

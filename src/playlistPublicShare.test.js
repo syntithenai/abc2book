@@ -68,7 +68,7 @@ describe('playlistPublicShare', function() {
     expect(analysis.refs).toHaveLength(1)
     expect(analysis.missing).toHaveLength(1)
     expect(analysis.missing[0].name).toBe('Private')
-    expect(analysis.warning).toMatch(/cannot use a public scrape-only share link/i)
+    expect(analysis.warning).toMatch(/Needs Google share/i)
   })
 
   test('analyzePlaylistPublishedShare succeeds when all published', function() {
@@ -183,7 +183,11 @@ describe('playlistPublicShare', function() {
     expect(buildPlaylistPublishedShareWarning([
       { name: 'Alpha' },
       { name: 'Beta' },
-    ], 4)).toMatch(/Alpha, Beta/)
+    ])).toMatch(/Needs Google share/)
+    expect(buildPlaylistPublishedShareWarning([
+      { name: 'Alpha' },
+      { name: 'Beta' },
+    ])).toMatch(/Alpha, Beta/)
   })
 
   test('classifyPlaylistMediaLinkSource flags library, recordings, and Drive', function() {
@@ -195,11 +199,11 @@ describe('playlistPublicShare', function() {
     })).toBe(null)
     expect(classifyPlaylistMediaLinkSource({
       link: 'http://localhost:8787/music-collection/foo.mp3',
-    })).toEqual({ kind: 'library', label: 'your music library' })
+    })).toEqual({ kind: 'library', label: 'library' })
     expect(classifyPlaylistMediaLinkSource({
       link: 'abcbook-recording:rec1',
       recordingId: 'rec1',
-    })).toEqual({ kind: 'owned-recording', label: 'your recordings' })
+    })).toEqual({ kind: 'owned-recording', label: 'recordings' })
     expect(classifyPlaylistMediaLinkSource({
       link: 'https://drive.google.com/file/d/xyz/view',
     })).toEqual({ kind: 'google-drive', label: 'Google Drive' })
@@ -243,10 +247,10 @@ describe('playlistPublicShare', function() {
       'google-drive',
       'library',
     ])
-    expect(buildPlaylistShareMediaWarning(analysis.issues, { shareMode: 'public' }))
-      .toMatch(/public scrape share will not be able to play/i)
-    expect(buildPlaylistShareMediaWarning(analysis.issues, { shareMode: 'google' }))
-      .toMatch(/uploaded to Google Drive and shared publicly/i)
+    expect(buildPlaylistShareMediaWarning(analysis.issues))
+      .toMatch(/won’t play for others/i)
+    expect(buildPlaylistShareMediaWarning(analysis.issues))
+      .toMatch(/Library Tune/)
   })
 
   test('analyzePlaylistShareMediaPlayability ignores public-only media', function() {

@@ -22,8 +22,43 @@ if [[ ! -f "$ENV_FILE" ]]; then
   exit 1
 fi
 
-echo "Pre-deploy billing tests ..."
-python -m unittest test_light_billing_packaging test_billing -v
+# Pre-deploy tests need light gateway deps (fastapi/httpx/stripe/…).
+resolve_light_python() {
+  local candidate
+  for candidate in \
+    "${RESOLVER_PYTHON:-}" \
+    "$ROOT/.venv-light/bin/python" \
+    "$ROOT/../.venv/bin/python" \
+    "$(command -v python3 || true)" \
+    "$(command -v python || true)"; do
+    [[ -n "$candidate" && -x "$candidate" ]] || continue
+    if "$candidate" -c "import fastapi, httpx, stripe" >/dev/null 2>&1; then
+      echo "$candidate"
+      return 0
+    fi
+  done
+  return 1
+}
+
+ensure_light_python() {
+  local py
+  if py="$(resolve_light_python)"; then
+    echo "$py"
+    return 0
+  fi
+  echo "Light Python deps missing — creating $ROOT/.venv-light from requirements-light.txt ..." >&2
+  python3 -m venv "$ROOT/.venv-light"
+  "$ROOT/.venv-light/bin/pip" install -q -r "$ROOT/requirements-light.txt"
+  if ! "$ROOT/.venv-light/bin/python" -c "import fastapi, httpx, stripe" >/dev/null 2>&1; then
+    echo "Failed to install light resolver deps into .venv-light" >&2
+    exit 1
+  fi
+  echo "$ROOT/.venv-light/bin/python"
+}
+
+LIGHT_PYTHON="$(ensure_light_python)"
+echo "Pre-deploy billing tests ($LIGHT_PYTHON) ..."
+"$LIGHT_PYTHON" -m unittest test_light_billing_packaging test_billing -v
 
 CLOUD_RUN_SECRETS="\
 GOOGLE_CLIENT_ID=google-client-id:latest,\

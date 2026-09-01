@@ -688,6 +688,12 @@ body {
 }
 
 .App-header .header-nav-buttons .header-nav-dropdown-btn.dropdown-toggle::after {
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+}
+
+.App-header .header-nav-buttons .header-nav-dropdown-btn .header-nav-dropdown-caret {
   border-top-color: var(--app-header-nav-btn-color);
   opacity: 1;
 }

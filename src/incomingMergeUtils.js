@@ -93,12 +93,13 @@ export function buildDriveMergeRecords(sheetUpdateResults, options) {
   const opts = options || {};
   const sourceKey = opts.sourceKey || '';
   const getTuneImportHash = opts.getTuneImportHash;
+  const skipDismissals = !!opts.skipDismissals;
   const records = [];
   if (!sheetUpdateResults) return records;
 
   Object.values(sheetUpdateResults.inserts || {}).forEach(function(tune) {
     if (!tune || !tune.id) return;
-    if (sourceKey && isSourceMergeDismissed(sourceKey, tune.id, tune, getTuneImportHash)) return;
+    if (!skipDismissals && sourceKey && isSourceMergeDismissed(sourceKey, tune.id, tune, getTuneImportHash)) return;
     records.push({
       id: tune.id,
       kind: 'insert',
@@ -111,7 +112,7 @@ export function buildDriveMergeRecords(sheetUpdateResults, options) {
   Object.keys(sheetUpdateResults.updates || {}).forEach(function(id) {
     const pair = sheetUpdateResults.updates[id];
     if (!pair || !pair[1]) return;
-    if (sourceKey && isSourceMergeDismissed(sourceKey, id, pair[1], getTuneImportHash)) return;
+    if (!skipDismissals && sourceKey && isSourceMergeDismissed(sourceKey, id, pair[1], getTuneImportHash)) return;
     if (!tunePairHasDifferingImportFields(pair[0], pair[1])) return;
     records.push({
       id: id,
@@ -124,7 +125,7 @@ export function buildDriveMergeRecords(sheetUpdateResults, options) {
 
   Object.values(sheetUpdateResults.deletes || {}).forEach(function(tune) {
     if (!tune || !tune.id) return;
-    if (sourceKey && isSourceMergeDismissed(sourceKey, tune.id, tune, getTuneImportHash)) return;
+    if (!skipDismissals && sourceKey && isSourceMergeDismissed(sourceKey, tune.id, tune, getTuneImportHash)) return;
     records.push({
       id: tune.id,
       kind: 'delete',
