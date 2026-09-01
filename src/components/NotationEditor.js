@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button, ButtonGroup } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import Abc from './Abc';
 import AbcTransposeDropdown from './AbcTransposeDropdown';
@@ -41,6 +41,8 @@ import {
   isCoarsePointerEvent,
   STAFF_LONG_PRESS_MS,
 } from '../notation/staffGestureFlags';
+import { isMobilePlatform } from '../platformUtils';
+import { useIsNarrowViewport } from '../useMediaQuery';
 import { abcElemStartMs } from '../notation/notationPlayback';
 import { serializeVoiceEventsViaParser } from '../notation/abcVoiceSerializer';
 import {
@@ -487,6 +489,13 @@ export default function NotationEditor(props) {
     return init;
   });
   const [focusedAbcVoiceKey, setFocusedAbcVoiceKey] = useState(null);
+  const [abcMobilePane, setAbcMobilePane] = useState(function() {
+    try {
+      const stored = localStorage.getItem('notationAbcMobilePane');
+      if (stored === 'preview' || stored === 'both' || stored === 'text') return stored;
+    } catch (err) { /* ignore */ }
+    return 'text';
+  });
   const [displayedVoiceIndices, setDisplayedVoiceIndices] = useState(function() {
     return activeVoiceIndicesFromTune(props.tune, props.voiceNames || []);
   });
@@ -499,6 +508,8 @@ export default function NotationEditor(props) {
       return 0.55;
     }
   });
+  const isNarrowViewport = useIsNarrowViewport();
+  const compactAbcLayout = isMobilePlatform() || isNarrowViewport;
   const splitDragRef = useRef(null);
   const commitDebounce = useRef(null);
   const abcSaveDebounce = useRef(null);
@@ -513,6 +524,7 @@ export default function NotationEditor(props) {
   const abcDraftsRef = useRef({});
   const abcEditingRef = useRef(false);
   const prevViewRef = useRef(session.view);
+  const pendingAbcCaretRef = useRef(null);
 
   useEffect(function() {
     activeVoiceKeyRef.current = props.voiceKey;
@@ -1602,15 +1614,21 @@ export default function NotationEditor(props) {
     if (voiceIdxInTune >= 0 && voiceIdxInTune !== props.voiceIndex) {
       handleVoiceSelect(voiceIdxInTune);
     }
-    const textareaEl = textareaRefs.current[voiceKey];
-    if (!textareaEl) return;
-    const text = textareaEl.value || '';
-    const pos = Math.max(0, Math.min(mapped.offset, text.length));
+    pendingAbcCaretRef.current = { voiceKey: voiceKey, offset: mapped.offset };
+    // On compact layout in preview-only mode, switch to text so caret focus can land.
+    if (compactAbcLayout && abcMobilePane === 'preview') {
+      setAbcMobilePaneAndPersist('text');
+    }
     window.setTimeout(function() {
-      const el = textareaRefs.current[voiceKey];
+      const pending = pendingAbcCaretRef.current;
+      if (!pending) return;
+      const el = textareaRefs.current[pending.voiceKey];
       if (!el) return;
+      const text = el.value || '';
+      const pos = Math.max(0, Math.min(pending.offset, text.length));
       el.focus();
       el.setSelectionRange(pos, pos);
+      pendingAbcCaretRef.current = null;
     }, 0);
   }
 
@@ -2938,6 +2956,72 @@ export default function NotationEditor(props) {
   const isPianoRollVisible = isPianoRollView || isSplitView;
   const isAbcView = session.view === EDITOR_VIEWS.ABC;
   const isChordsView = session.view === EDITOR_VIEWS.CHORDS;
+  const abcEditVoiceKey = useMemo(function() {
+    if (!displayedVoiceKeys.length) return null;
+    if (displayedVoiceKeys.indexOf(props.voiceKey) >= 0) return props.voiceKey;
+    return displayedVoiceKeys[0];
+  }, [displayedVoiceKeys, props.voiceKey]);
+  const showAbcTextPane = !compactAbcLayout || abcMobilePane === 'text' || abcMobilePane === 'both';
+  const showAbcPreviewPane = !compactAbcLayout || abcMobilePane === 'preview' || abcMobilePane === 'both';
+
+  useEffect(function() {
+    if (!showAbcTextPane) return undefined;
+    const pending = pendingAbcCaretRef.current;
+    if (!pending) return undefined;
+    const id = window.setTimeout(function() {
+      const still = pendingAbcCaretRef.current;
+      if (!still) return;
+      const el = textareaRefs.current[still.voiceKey];
+      if (!el) return;
+      const text = el.value || '';
+      const pos = Math.max(0, Math.min(still.offset, text.length));
+      el.focus();
+      el.setSelectionRange(pos, pos);
+      pendingAbcCaretRef.current = null;
+    }, 0);
+    return function() { window.clearTimeout(id); };
+  }, [showAbcTextPane, abcEditVoiceKey, abcMobilePane]);
+
+  function setAbcMobilePaneAndPersist(next) {
+    setAbcMobilePane(next);
+    try {
+      localStorage.setItem('notationAbcMobilePane', next);
+    } catch (err) { /* ignore */ }
+  }
+
+  function renderAbcNotesTextarea(vk, options) {
+    const focused = !!(options && options.focused);
+    return (
+      <div key={'abc-draft-wrap-' + vk} className="notation-abc-textarea-wrap">
+        {compactAbcLayout ? null : (
+          <div className="notation-abc-textarea-label fw-semibold small text-muted">
+            {voiceDisplayLabel(props.tune, vk)}
+          </div>
+        )}
+        <AbcNotesTextarea
+          key={'abc-draft-' + vk}
+          textareaRef={function(el) { textareaRefs.current[vk] = el; }}
+          value={abcDrafts[vk] != null ? abcDrafts[vk] : voiceNotesForKey(vk)}
+          className={focused || focusedAbcVoiceKey === vk ? 'notation-abc-textarea--focused' : ''}
+          rows={5}
+          data-testid="notation-abc-textarea"
+          aria-label={'ABC notes for ' + voiceDisplayLabel(props.tune, vk)}
+          onFocus={function() {
+            setFocusedAbcVoiceKey(vk);
+            const idx = voiceNames.indexOf(vk);
+            if (idx >= 0 && idx !== props.voiceIndex) handleVoiceSelect(idx);
+          }}
+          onBlur={function() {
+            setFocusedAbcVoiceKey(function(prev) { return prev === vk ? null : prev; });
+          }}
+          onChange={function(e) { handleAbcTextChange(vk, e.target.value); }}
+          onSelect={function() { syncAbcCaretFromTextarea(vk); }}
+          onKeyUp={function() { syncAbcCaretFromTextarea(vk); }}
+          onClick={function() { syncAbcCaretFromTextarea(vk); }}
+        />
+      </div>
+    );
+  }
 
   const resolvePlaybackContext = useCallback(function() {
     const s = sessionRef.current;
@@ -3445,6 +3529,35 @@ export default function NotationEditor(props) {
                   onTransposePreviewChange={setTransposePreview}
                 />
               ) : null}
+              {isAbcView && compactAbcLayout ? (
+                <ButtonGroup
+                  size="sm"
+                  className="notation-abc-pane-toggle"
+                  aria-label="ABC editor pane"
+                >
+                  <Button
+                    variant={abcMobilePane === 'text' ? 'primary' : 'outline-secondary'}
+                    aria-pressed={abcMobilePane === 'text'}
+                    onClick={function() { setAbcMobilePaneAndPersist('text'); }}
+                  >
+                    Text
+                  </Button>
+                  <Button
+                    variant={abcMobilePane === 'preview' ? 'primary' : 'outline-secondary'}
+                    aria-pressed={abcMobilePane === 'preview'}
+                    onClick={function() { setAbcMobilePaneAndPersist('preview'); }}
+                  >
+                    Preview
+                  </Button>
+                  <Button
+                    variant={abcMobilePane === 'both' ? 'primary' : 'outline-secondary'}
+                    aria-pressed={abcMobilePane === 'both'}
+                    onClick={function() { setAbcMobilePaneAndPersist('both'); }}
+                  >
+                    Both
+                  </Button>
+                </ButtonGroup>
+              ) : null}
             </>
           ) : null}
           {props.historyControls ? (
@@ -3700,67 +3813,88 @@ export default function NotationEditor(props) {
           />
         </div>
       ) : session.view === EDITOR_VIEWS.ABC ? (
-        <div className="notation-abc-view">
+        <div
+          className={
+            'notation-abc-view'
+            + (compactAbcLayout ? ' notation-abc-view--compact' : '')
+            + (compactAbcLayout ? ' notation-abc-view--' + abcMobilePane : '')
+          }
+        >
           <Row className="notation-abc-split g-2">
-            <Col md={4} xs={12} className="notation-abc-text-col">
-              <div className="notation-abc-textareas">
-                {displayedVoiceKeys.length === 0 ? (
-                  <div className="notation-abc-textarea-empty text-muted small">
-                    Select one or more voices to edit.
-                  </div>
-                ) : displayedVoiceKeys.map(function(vk) {
-                  return (
-                    <div key={'abc-draft-wrap-' + vk} className="notation-abc-textarea-wrap">
-                      <div className="notation-abc-textarea-label fw-semibold small text-muted">
-                        {voiceDisplayLabel(props.tune, vk)}
-                      </div>
-                      <AbcNotesTextarea
-                        key={'abc-draft-' + vk}
-                        textareaRef={function(el) { textareaRefs.current[vk] = el; }}
-                        value={abcDrafts[vk] != null ? abcDrafts[vk] : voiceNotesForKey(vk)}
-                        className={focusedAbcVoiceKey === vk ? 'notation-abc-textarea--focused' : ''}
-                        rows={5}
-                        data-testid="notation-abc-textarea"
-                        aria-label={'ABC notes for ' + voiceDisplayLabel(props.tune, vk)}
-                        onFocus={function() {
-                          setFocusedAbcVoiceKey(vk);
-                          const idx = voiceNames.indexOf(vk);
-                          if (idx >= 0 && idx !== props.voiceIndex) handleVoiceSelect(idx);
-                        }}
-                        onBlur={function() {
-                          setFocusedAbcVoiceKey(function(prev) { return prev === vk ? null : prev; });
-                        }}
-                        onChange={function(e) { handleAbcTextChange(vk, e.target.value); }}
-                        onSelect={function() { syncAbcCaretFromTextarea(vk); }}
-                        onKeyUp={function() { syncAbcCaretFromTextarea(vk); }}
-                        onClick={function() { syncAbcCaretFromTextarea(vk); }}
-                      />
+            {showAbcTextPane ? (
+              <Col
+                md={showAbcPreviewPane && !compactAbcLayout ? 4 : 12}
+                xs={12}
+                className="notation-abc-text-col"
+              >
+                {compactAbcLayout && displayedVoiceKeys.length > 1 ? (
+                  <ButtonGroup
+                    size="sm"
+                    className="notation-abc-voice-pills mb-2 flex-wrap"
+                    aria-label="Edit voice"
+                  >
+                    {displayedVoiceKeys.map(function(vk) {
+                      const idx = voiceNames.indexOf(vk);
+                      const active = vk === abcEditVoiceKey;
+                      return (
+                        <Button
+                          key={'abc-voice-pill-' + vk}
+                          variant={active ? 'primary' : 'outline-secondary'}
+                          aria-pressed={active}
+                          onClick={function() {
+                            if (idx >= 0) handleVoiceSelect(idx);
+                            setFocusedAbcVoiceKey(vk);
+                          }}
+                        >
+                          {voiceDisplayLabel(props.tune, vk)}
+                        </Button>
+                      );
+                    })}
+                  </ButtonGroup>
+                ) : null}
+                <div className="notation-abc-textareas">
+                  {displayedVoiceKeys.length === 0 ? (
+                    <div className="notation-abc-textarea-empty text-muted small">
+                      Select one or more voices to edit.
                     </div>
-                  );
-                })}
-              </div>
-            </Col>
-            <Col md={8} xs={12} className="notation-abc-preview-col">
-              <div className="notation-abc-preview" key={'abc-preview-' + displayedVoiceKeys.join('-')} data-testid="notation-abc-preview">
-                <Abc
-                  showRepeats={false}
-                  hidePlayer={true}
-                  suppressPlaybackSeek={true}
-                  playbackEngine={false}
-                  tunebook={props.tunebook}
-                  abc={abcPreviewAbc}
-                  visualTranspose={abcPreviewVisualTranspose}
-                  onWarnings={props.onWarnings}
-                  meter={tuneMeta.meter}
-                  onClick={handleAbcPreviewClick}
-                  disableTablature={true}
-                />
-              </div>
-            </Col>
+                  ) : compactAbcLayout ? (
+                    abcEditVoiceKey ? renderAbcNotesTextarea(abcEditVoiceKey, { focused: true }) : null
+                  ) : (
+                    displayedVoiceKeys.map(function(vk) {
+                      return renderAbcNotesTextarea(vk);
+                    })
+                  )}
+                </div>
+              </Col>
+            ) : null}
+            {showAbcPreviewPane ? (
+              <Col
+                md={showAbcTextPane && !compactAbcLayout ? 8 : 12}
+                xs={12}
+                className="notation-abc-preview-col"
+              >
+                <div className="notation-abc-preview" key={'abc-preview-' + displayedVoiceKeys.join('-')} data-testid="notation-abc-preview">
+                  <Abc
+                    showRepeats={false}
+                    hidePlayer={true}
+                    suppressPlaybackSeek={true}
+                    playbackEngine={false}
+                    tunebook={props.tunebook}
+                    abc={abcPreviewAbc}
+                    visualTranspose={abcPreviewVisualTranspose}
+                    onWarnings={props.onWarnings}
+                    meter={tuneMeta.meter}
+                    onClick={handleAbcPreviewClick}
+                    disableTablature={true}
+                  />
+                </div>
+              </Col>
+            ) : null}
           </Row>
           <p className="notation-abc-hint text-muted small">
-            Edit ABC note text for each selected voice. Check voice boxes to show them in the preview.
-            Line breaks (Enter) split the music across rows in the preview.
+            {compactAbcLayout
+              ? 'Edit ABC for the selected voice. Use Text / Preview to switch panes. Line breaks (Enter) split the music across rows.'
+              : 'Edit ABC note text for each selected voice. Check voice boxes to show them in the preview. Line breaks (Enter) split the music across rows in the preview.'}
           </p>
         </div>
       ) : null}

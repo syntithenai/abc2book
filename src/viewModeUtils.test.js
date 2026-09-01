@@ -16,7 +16,12 @@ import {
   isNotationEditorView,
   normalizeEditorViewMode,
   notationViewToEditorViewMode,
+  editorViewModeToNotationView,
   getEditorViewModeLabel,
+  getSingleViewEditModes,
+  resolveEditorViewForPlatform,
+  editorPathForEditMode,
+  getEditorMenuHighlightMode,
   EDITOR_VIEW_MODES,
   SINGLE_VIEW_EDIT_MODES,
 } from './viewModeUtils';
@@ -387,5 +392,42 @@ describe('SINGLE_VIEW_EDIT_MODES', function() {
     expect(SINGLE_VIEW_EDIT_MODES.map(function(mode) { return mode.id; })).toEqual([
       'info', 'music', 'pianoRoll', 'lyrics', 'chords', 'notationAbc',
     ]);
+  });
+
+  it('omits ABC on mobile while keeping Music', function() {
+    expect(getSingleViewEditModes({ mobile: true }).map(function(mode) { return mode.id; })).toEqual([
+      'info', 'music', 'pianoRoll', 'lyrics', 'chords',
+    ]);
+    expect(getSingleViewEditModes().map(function(mode) { return mode.id; })).toEqual([
+      'info', 'music', 'pianoRoll', 'lyrics', 'chords', 'notationAbc',
+    ]);
+  });
+});
+
+describe('mobile Music → ABC mapping', function() {
+  it('resolves Music to notationAbc on mobile only', function() {
+    expect(resolveEditorViewForPlatform('music', true)).toBe('notationAbc');
+    expect(resolveEditorViewForPlatform('music', false)).toBe('music');
+    expect(resolveEditorViewForPlatform('lyrics', true)).toBe('lyrics');
+    expect(resolveEditorViewForPlatform('notationAbc', true)).toBe('notationAbc');
+  });
+
+  it('builds Music edit paths to notationAbc on mobile', function() {
+    expect(editorPathForEditMode('music', 't1', true)).toBe('/editor/t1/notationAbc');
+    expect(editorPathForEditMode('music', 't1', false)).toBe('/editor/t1/music');
+    expect(editorPathForEditMode('info', 't1', true)).toBe('/editor/t1');
+  });
+
+  it('highlights Music when viewing ABC on mobile', function() {
+    expect(getEditorMenuHighlightMode('notationAbc', true)).toBe('music');
+    expect(getEditorMenuHighlightMode('notationAbc', false)).toBe('notationAbc');
+    expect(getEditorViewModeLabel('notationAbc', { mobile: true })).toBe('Music');
+    expect(getEditorViewModeLabel('notationAbc')).toBe('ABC Notes');
+  });
+
+  it('maps Music to abc notation view on mobile', function() {
+    expect(editorViewModeToNotationView('music', { mobile: true })).toBe('abc');
+    expect(editorViewModeToNotationView('music')).toBe('staff');
+    expect(editorViewModeToNotationView('notationAbc', { mobile: true })).toBe('abc');
   });
 });

@@ -199,13 +199,14 @@ import './theme.css';
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
-import {ToastContainer, toast}  from 'react-toastify'
+import {ToastContainer, toast, Slide}  from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import AppErrorBoundary from './components/AppErrorBoundary'
 import AppEmbedFrameBootstrap from './components/AppEmbedFrameBootstrap'
 import { isEmbeddedAppFrame } from './embedFrameUtils'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 import { initChromeZoomGuard } from './chromeZoomGuard'
-import { isAndroidApp } from './platformUtils'
+import { isAndroidApp, isCapacitorNative } from './platformUtils'
 import { staggerNativeStartup } from './deferNativeStartup'
 
 function YouTubeGetID(url){
@@ -1617,7 +1618,18 @@ function App(props) {
   return (
 
     <div id="topofpage" className="App" >
-        <ToastContainer autoClose={2000} style={{ zIndex: 1000001 }} />
+        <ToastContainer
+          position={(isCapacitorNative() || isMobile) ? 'top-center' : 'bottom-right'}
+          autoClose={2500}
+          theme="colored"
+          newestOnTop
+          closeOnClick
+          draggable
+          pauseOnFocusLoss={false}
+          limit={3}
+          transition={Slide}
+          style={{ zIndex: 1000001 }}
+        />
           <input type='hidden' name="refreshHash" value={refreshHash} />
           <TunesProvider tunes={tunes} tunesContentRevision={tunesContentRevision}>
           <Router >

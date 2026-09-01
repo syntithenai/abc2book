@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
 import {
-  SINGLE_VIEW_EDIT_MODES,
+  getSingleViewEditModes,
+  getEditorMenuHighlightMode,
   normalizeEditorViewMode,
   getEditorViewModeLabel,
   viewModeToDisplayFlags,
@@ -18,6 +19,7 @@ import {
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
 import useAbcjsParser from '../useAbcjsParser';
 import { useIsNarrowViewport } from '../useMediaQuery';
+import { isMobilePlatform } from '../platformUtils';
 import DisplayModeControls from './DisplayModeControls';
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 
@@ -236,14 +238,17 @@ function DisplayModeToolbar(props) {
 
 function EditorViewModeToolbar(props) {
   const { currentMode, tunebook, onSelect, className } = props;
+  const mobile = isMobilePlatform();
+  const modes = getSingleViewEditModes({ mobile: mobile });
+  const highlightMode = getEditorMenuHighlightMode(currentMode, mobile);
 
   return (
     <ButtonGroup
       className={'editor-view-mode-toolbar' + (className ? ' ' + className : '')}
       aria-label="Editor view"
     >
-      {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
-        const active = currentMode === mode.id;
+      {modes.map(function(mode) {
+        const active = highlightMode === mode.id;
         const icon = renderEditorModeIcon(mode.id, tunebook);
         return (
           <Button
@@ -267,8 +272,11 @@ function EditorViewModeToolbar(props) {
 function EditorEditModeDropdown(props) {
   const { currentMode, tunebook, onSelect, className } = props;
   const [show, setShow] = useState(false);
-  const label = getEditorViewModeLabel(currentMode);
-  const currentIcon = renderEditorModeIcon(currentMode, tunebook);
+  const mobile = isMobilePlatform();
+  const modes = getSingleViewEditModes({ mobile: mobile });
+  const highlightMode = getEditorMenuHighlightMode(currentMode, mobile);
+  const label = getEditorViewModeLabel(currentMode, { mobile: mobile });
+  const currentIcon = renderEditorModeIcon(highlightMode, tunebook);
 
   return (
     <Dropdown
@@ -309,9 +317,9 @@ function EditorEditModeDropdown(props) {
           ],
         }}
       >
-        {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
+        {modes.map(function(mode) {
           const icon = renderEditorModeIcon(mode.id, tunebook);
-          const active = currentMode === mode.id;
+          const active = highlightMode === mode.id;
           return (
             <Dropdown.Item
               key={mode.id}

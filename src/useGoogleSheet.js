@@ -48,6 +48,14 @@ import {
   markDriveSongbookSyncRunning,
   markDriveSongbookSyncSuccess,
 } from './driveSongbookSyncStatus'
+import {
+  parseDriveFilesListResponse,
+  pickBestTuneBookFile,
+  readStoredSongbookDocId,
+  writeStoredSongbookDocId,
+  clearStoredSongbookDocId,
+} from './driveSongbookLookup'
+import { toast } from 'react-toastify'
     
 export default function useGoogleSheet(props) {
   const {
@@ -313,69 +321,150 @@ export default function useGoogleSheet(props) {
 		if (isNavigatorOffline()) return
 		if (!token || !token.access_token) return
 		if (googleSheetId.current) return
+		if (!tokenHasDriveAccess(token)) return
+
+		function bindAndMerge(fileId) {
+			var id = normalizeDriveFileId(fileId)
+			if (!id || !docsRef.current) return
+			googleSheetId.current = id
+			setGoogleDocumentId(id)
+			writeStoredSongbookDocId(id)
+			docsRef.current.getDocument(id).then(function(fullSheet) {
+				if (fullSheet && typeof onMergeRef.current === 'function') {
+					onMergeRef.current(fullSheet)
+				}
+			})
+		}
+
+		function createNewSongbook(useToken) {
+			docsRef.current.findTuneBookFolderInDrive().then(function(folderId) {
+				if (!folderId) return
+				utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
+					var localTunes = tunesRef.current || {}
+					var localCount = Object.keys(localTunes).length
+					var initialAbc = appendTuneBookSyncSectionsToAbc(
+						abcTools.tunesToAbc(localTunes, deletedTunes || {}),
+						readPerformanceSetsMap(),
+						readDeletedPerformanceSets(),
+						readPlaylistsMap(),
+						readDeletedPlaylists(),
+						readPracticeListsMap(),
+						readDeletedPracticeLists()
+					)
+					if (localCount === 0) {
+						toast.info('Creating a new Google Drive songbook on this device. If your tunes are already on another device, open Settings → Sources → Check for updates, or remove extra “ABC Tune Book” files in Drive.')
+					}
+					docsRef.current.createDocument(
+						tuneBookName,
+						initialAbc,
+						'application/vnd.google-apps.document',
+						'Document for ' + tuneBookName + ' data',
+						folderId
+					).then(function(newId) {
+						var fileId = normalizeDriveFileId(newId)
+						if (!fileId) return
+						bindAndMerge(fileId)
+					})
+				})
+			})
+		}
 
 		function runSearch(useToken) {
 			if (!useToken) return
-			var xhr = new XMLHttpRequest();
-			xhr.onload = function (res) {
-				if (res.target.responseText) {
-					var response = JSON.parse(res.target.responseText)
-					var found = false
-					if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
-						if (Array.isArray(response.files)) {
-							response.files.forEach(function(file) {
-								if (file && file.name === tuneBookName) {
-									found = file.id
-								}
-							})
-						}
-					}
-					if (found) {
-						googleSheetId.current = found
-						setGoogleDocumentId(found)
-						docsRef.current.getDocument(found).then(function(fullSheet) {
-							if (typeof onMergeRef.current === 'function') {
-								onMergeRef.current(fullSheet)
-							}
-						})
-					} else {
-						docsRef.current.findTuneBookFolderInDrive().then(function(folderId) {
-							if (folderId) {
-								utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
-								var initialAbc = appendTuneBookSyncSectionsToAbc(
-	                abcTools.tunesToAbc(tunesRef.current, deletedTunes || {}),
-	                readPerformanceSetsMap(),
-	                readDeletedPerformanceSets(),
-	                readPlaylistsMap(),
-	                readDeletedPlaylists(),
-	                readPracticeListsMap(),
-	                readDeletedPracticeLists()
-	              )
-								docsRef.current.createDocument(tuneBookName, initialAbc, 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
-									var fileId = normalizeDriveFileId(newId)
-									if (!fileId) return
-									googleSheetId.current = fileId
-									setGoogleDocumentId(fileId)
-									docsRef.current.getDocument(fileId).then(function(fullSheet) {
-										if (typeof onMergeRef.current === 'function') {
-											onMergeRef.current(fullSheet)
-										}
-									})
-								})
-								})
-							}
-						})
-					}
+			var xhr = new XMLHttpRequest()
+			xhr.onload = function() {
+				var response = null
+				try {
+					response = xhr.responseText ? JSON.parse(xhr.responseText) : null
+				} catch (e) {
+					toast.warning('Could not read your Google Drive songbook list. Sync will retry when you are online.')
+					return
 				}
-			};
-			var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"' and mimeType != 'application/vnd.google-apps.folder' and trashed = false")
-			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
-			xhr.setRequestHeader('Authorization', 'Bearer ' + useToken);
-			xhr.send();
+				var parsed = parseDriveFilesListResponse(response, xhr.status)
+				if (!parsed.ok) {
+					toast.warning('Could not find your songbook in Google Drive: ' + (parsed.error || 'unknown error'))
+					return
+				}
+				var best = pickBestTuneBookFile(parsed.files, tuneBookName)
+				if (best && best.id) {
+					bindAndMerge(best.id)
+					return
+				}
+				createNewSongbook(useToken)
+			}
+			xhr.onerror = function() {
+				toast.warning('Could not reach Google Drive to sync your songbook.')
+			}
+			var filter = '?q=' + encodeURIComponent(
+				"name='" + tuneBookName + "' and mimeType != 'application/vnd.google-apps.folder' and trashed = false"
+			) + '&fields=files(id,name,size,modifiedTime,mimeType)&orderBy=modifiedTime desc&pageSize=25'
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter + '&nocache=' + String(parseInt(Math.random() * 1000000000)))
+			xhr.setRequestHeader('Authorization', 'Bearer ' + useToken)
+			xhr.send()
 		}
 
-		if (!tokenHasDriveAccess(token)) return
-		runSearch(token.access_token)
+		function tryStoredThenSearch(useToken) {
+			var storedId = readStoredSongbookDocId()
+			if (!storedId || !docsRef.current || typeof docsRef.current.getDocumentMeta !== 'function') {
+				runSearch(useToken)
+				return
+			}
+			docsRef.current.getDocumentMeta(storedId).then(function(meta) {
+				if (!meta || !meta.id) {
+					clearStoredSongbookDocId()
+					runSearch(useToken)
+					return
+				}
+				// If the remembered file looks empty/tiny, still search — a prior
+				// Android bug could have bound this device to a stub while the
+				// full songbook exists under the same name.
+				var size = meta.size != null ? Number(meta.size) : NaN
+				var looksTiny = !Number.isFinite(size) || size < 2048
+				if (!looksTiny) {
+					bindAndMerge(meta.id || storedId)
+					return
+				}
+				var xhr = new XMLHttpRequest()
+				xhr.onload = function() {
+					var response = null
+					try {
+						response = xhr.responseText ? JSON.parse(xhr.responseText) : null
+					} catch (e) {
+						bindAndMerge(meta.id || storedId)
+						return
+					}
+					var parsed = parseDriveFilesListResponse(response, xhr.status)
+					if (!parsed.ok) {
+						bindAndMerge(meta.id || storedId)
+						return
+					}
+					var best = pickBestTuneBookFile(parsed.files, tuneBookName)
+					if (best && best.id && best.id !== (meta.id || storedId)) {
+						var bestSize = best.size != null ? Number(best.size) : -1
+						if (Number.isFinite(bestSize) && bestSize > (Number.isFinite(size) ? size : 0)) {
+							bindAndMerge(best.id)
+							toast.success('Connected to your full Google Drive songbook')
+							return
+						}
+					}
+					bindAndMerge(meta.id || storedId)
+				}
+				xhr.onerror = function() {
+					bindAndMerge(meta.id || storedId)
+				}
+				var filter = '?q=' + encodeURIComponent(
+					"name='" + tuneBookName + "' and mimeType != 'application/vnd.google-apps.folder' and trashed = false"
+				) + '&fields=files(id,name,size,modifiedTime,mimeType)&orderBy=modifiedTime desc&pageSize=25'
+				xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter + '&nocache=' + String(parseInt(Math.random() * 1000000000)))
+				xhr.setRequestHeader('Authorization', 'Bearer ' + useToken)
+				xhr.send()
+			}).catch(function() {
+				clearStoredSongbookDocId()
+				runSearch(useToken)
+			})
+		}
+
+		tryStoredThenSearch(token.access_token)
 	}, [token, setGoogleDocumentId, abcTools, tuneBookName, utils])
 
   useEffect(function() {

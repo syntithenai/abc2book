@@ -10,7 +10,7 @@ import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
 import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
-import { isNotationEditorView, normalizeEditorViewMode } from '../viewModeUtils'
+import { isNotationEditorView, normalizeEditorViewMode, resolveEditorViewForPlatform } from '../viewModeUtils'
 import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
 import { showBackgroundJobsContinuingNotice } from '../backgroundReviewToast'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
@@ -36,8 +36,10 @@ export default function MusicEditor(props) {
     const urlView = params.view ? normalizeEditorViewMode(params.view) : 'info'
     var [editorViewMode, setEditorViewMode] = useState(
       notationOnly
-        ? (props.initialView || 'music')
-        : (embedded ? (props.initialView || 'info') : urlView)
+        ? resolveEditorViewForPlatform(props.initialView || 'music', props.isMobile)
+        : (embedded
+          ? resolveEditorViewForPlatform(props.initialView || 'info', props.isMobile)
+          : resolveEditorViewForPlatform(urlView, props.isMobile))
     )
     const [repoTune, setRepoTune] = useState(null)
     const [tuneLoadState, setTuneLoadState] = useState('idle')
@@ -135,16 +137,16 @@ export default function MusicEditor(props) {
     useEffect(function() {
         if (embedded) return
         const nextView = params.view ? normalizeEditorViewMode(params.view) : 'info'
-        setEditorViewMode(nextView)
-    }, [embedded, params.tuneId, params.view])
+        setEditorViewMode(resolveEditorViewForPlatform(nextView, props.isMobile))
+    }, [embedded, params.tuneId, params.view, props.isMobile])
 
     useEffect(function() {
         if (!embedded || !props.initialView) return
-        setEditorViewMode(normalizeEditorViewMode(props.initialView))
-    }, [embedded, props.initialView, resolvedTuneId])
+        setEditorViewMode(resolveEditorViewForPlatform(props.initialView, props.isMobile))
+    }, [embedded, props.initialView, resolvedTuneId, props.isMobile])
 
     function handleEditorViewChange(nextView) {
-        const normalized = normalizeEditorViewMode(nextView)
+        const normalized = resolveEditorViewForPlatform(normalizeEditorViewMode(nextView), props.isMobile)
         if (normalized !== editorViewMode && !confirmLeaveChordRecord()) {
             return
         }
@@ -170,6 +172,14 @@ export default function MusicEditor(props) {
             navigate('/editor/' + encodeURIComponent(tuneId), { replace: true })
         }
     }, [embedded, tuneId, params.view, navigate])
+
+    // On mobile, Music opens ABC text editor instead of staff notation
+    useEffect(function() {
+        if (embedded || !tuneId || !props.isMobile) return
+        if (params.view && normalizeEditorViewMode(params.view) === 'music') {
+            navigate('/editor/' + encodeURIComponent(tuneId) + '/notationAbc', { replace: true })
+        }
+    }, [embedded, tuneId, params.view, props.isMobile, navigate])
 
     const handleUndo = useCallback(function() {
         if (!tuneId) return

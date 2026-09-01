@@ -213,6 +213,8 @@ install_android_apps_on_phone() {
     export JAVA_HOME="$JAVA_YOGA"
     export PATH="$JAVA_HOME/bin:$PATH"
     cd "$YOGAPP"
+    # Must rebuild with VITE_BASE=./ — dist may still be /yoga/ from build:web above.
+    run bash scripts/build-android-release.sh
     run npx cap sync android
     run bash -c 'cd android && ./gradlew assembleDebug'
   )

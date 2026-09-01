@@ -781,6 +781,20 @@
 .notation-abc-view {
   min-height: 0;
 }
+.notation-abc-view--compact.notation-abc-view--text .notation-abc-text-col,
+.notation-abc-view--compact.notation-abc-view--both .notation-abc-text-col {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1 1 auto;
+}
+.notation-abc-voice-pills {
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.notation-abc-pane-toggle {
+  flex: 0 0 auto;
+}
 
 .notation-chords-view {
   min-height: 0;
@@ -797,7 +811,54 @@
   flex: 1 1 auto;
   min-height: 0;
   height: calc(100vh - 9.5rem);
+  height: calc(100dvh - var(--music-editor-chrome-offset, 9.5rem));
   overflow-y: auto;
+}
+.notation-abc-view--compact.notation-abc-view--text .notation-abc-textareas {
+  height: calc(100dvh - var(--music-editor-chrome-offset, 9.5rem) - 5.5rem);
+  max-height: none;
+  overflow: hidden;
+}
+.notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea-shell {
+  flex: 1 1 auto;
+  min-height: 12rem;
+  position: relative;
+  height: 100%;
+}
+.notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea,
+.notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea--focused {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto !important;
+  min-height: 0 !important;
+  resize: none;
+}
+.notation-abc-view--compact.notation-abc-view--preview .notation-abc-preview {
+  height: calc(100dvh - var(--music-editor-chrome-offset, 9.5rem) - 5.5rem);
+  min-height: 12rem;
+}
+.notation-abc-view--compact.notation-abc-view--both .notation-abc-textareas {
+  height: auto;
+  max-height: 45dvh;
+  overflow-y: auto;
+}
+.notation-abc-view--compact.notation-abc-view--both .notation-abc-textarea,
+.notation-abc-view--compact.notation-abc-view--both .notation-abc-textarea--focused {
+  height: calc(1.4em * 10 + 1rem);
+  min-height: calc(1.4em * 10 + 1rem);
+  resize: none;
+}
+.notation-abc-view--compact.notation-abc-view--both .notation-abc-preview {
+  height: auto;
+  min-height: 12rem;
+  max-height: 45dvh;
 }
 .notation-abc-textarea-wrap {
   display: flex;
@@ -999,6 +1060,7 @@
   width: 100%;
   min-height: 20rem;
   height: calc(100vh - 9.5rem);
+  height: calc(100dvh - var(--music-editor-chrome-offset, 9.5rem));
   overflow: auto;
 }
 .notation-abc-hint {
@@ -1007,7 +1069,6 @@
 @media (max-width: 767.98px) {
   .notation-abc-textareas {
     height: auto;
-    max-height: none;
   }
   .notation-abc-textarea-wrap {
     flex: 0 0 auto;
@@ -1015,15 +1076,35 @@
   .notation-abc-textarea {
     height: calc(1.4em * 8 + 1rem);
     min-height: calc(1.4em * 8 + 1rem);
-    resize: both;
+    resize: none;
   }
   .notation-abc-preview {
     width: 100%;
     height: auto;
     min-height: 12rem;
   }
-}
-.notation-split-view {
+  /* Compact text mode fills remaining viewport (overrides generic mobile height). */
+  .notation-abc-view--compact.notation-abc-view--text .notation-abc-textareas {
+    height: calc(100dvh - var(--music-editor-chrome-offset, 9.5rem) - 5.5rem);
+    overflow: hidden;
+  }
+  .notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea-shell {
+    height: 100%;
+    min-height: 12rem;
+  }
+  .notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea,
+  .notation-abc-view--compact.notation-abc-view--text .notation-abc-textarea--focused {
+    position: absolute;
+    inset: 0;
+    height: auto !important;
+    min-height: 0 !important;
+    resize: none;
+  }
+  .notation-abc-view--compact.notation-abc-view--preview .notation-abc-preview {
+    height: calc(100dvh - var(--music-editor-chrome-offset, 9.5rem) - 5.5rem);
+    min-height: 12rem;
+  }
+}.notation-split-view {
   display: flex;
   flex-direction: column;
   min-height: 28rem;

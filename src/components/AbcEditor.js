@@ -346,7 +346,7 @@ export default function AbcEditor(props) {
         onIssueCountsChange={setNotationIssueCounts}
         onAbcClick={onAbcClick}
         forceRefresh={props.forceRefresh}
-        controlledView={editorViewModeToNotationView(editorViewMode)}
+        controlledView={editorViewModeToNotationView(editorViewMode, { mobile: !!props.isMobile })}
         hideViewSelector={true}
         suppressInlineViewSelector={props.suppressInlineViewSelector}
         onEditorViewChange={props.onEditorViewModeChange}

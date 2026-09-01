@@ -40,7 +40,8 @@ import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFi
 import { prepareTuneViewNotationAbc } from '../notation/notationDisplayAbc'
 import { buildUniqueChordsMap, isSectionMarkerChordName } from '../chordSheetUtils'
 import { resolveTunesListPath } from '../searchFilterParams'
-import { SINGLE_VIEW_EDIT_MODES,
+import { getSingleViewEditModes,
+  editorPathForEditMode,
   viewModeToDisplayFlags,
   resolveDisplayFlagsForTune,
   defaultViewModeForTune,
@@ -1257,10 +1258,8 @@ function MusicSingleSection(props) {
                       className="music-actions-edit-submenu-menu"
                       popperConfig={{ strategy: 'fixed' }}
                     >
-                      {SINGLE_VIEW_EDIT_MODES.map(function(mode) {
-                        const editorPath = mode.id === 'info'
-                          ? '/editor/' + sectionTuneId
-                          : '/editor/' + sectionTuneId + '/' + mode.id
+                      {getSingleViewEditModes({ mobile: isMobilePlatform() }).map(function(mode) {
+                        const editorPath = editorPathForEditMode(mode.id, sectionTuneId, isMobilePlatform())
                         return (
                           <Dropdown.Item key={mode.id} as={Link} to={editorPath}>
                             {mode.label}

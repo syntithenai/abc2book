@@ -44,6 +44,15 @@ async function runAdvancedTests(page, ctx) {
   await runScenario(results, 'P3: ABC view textarea and preview', async function() {
     await gotoAbcView(page)
     await page.waitForSelector('[data-testid="notation-abc-textarea"]', { timeout: 15000 })
+    // Compact/mobile layout defaults to Text-only; reveal preview when the toggle is present.
+    const previewVisible = await page.$('[data-testid="notation-abc-preview"]')
+    if (!previewVisible) {
+      const bothBtn = await page.$('.notation-abc-pane-toggle button:nth-child(3)')
+      if (bothBtn) {
+        await bothBtn.click()
+        await sleep(200)
+      }
+    }
     await page.waitForSelector('[data-testid="notation-abc-preview"]', { timeout: 15000 })
     const before = await page.$eval('[data-testid="notation-abc-textarea"]', function(el) { return el.value })
     await page.focus('[data-testid="notation-abc-textarea"]')

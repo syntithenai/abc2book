@@ -437,6 +437,47 @@ export const SINGLE_VIEW_EDIT_MODES = [
   { id: 'notationAbc', label: 'ABC' },
 ];
 
+/**
+ * Edit-tune menu / editor header modes. On mobile, Music opens the ABC text
+ * editor (staff notation is not offered) and the separate ABC entry is omitted.
+ */
+export function getSingleViewEditModes(options) {
+  const mobile = !!(options && options.mobile);
+  if (!mobile) return SINGLE_VIEW_EDIT_MODES.slice();
+  return SINGLE_VIEW_EDIT_MODES.filter(function(mode) {
+    return mode.id !== 'notationAbc';
+  });
+}
+
+/**
+ * On mobile, Music maps to the ABC notation editor instead of staff.
+ */
+export function resolveEditorViewForPlatform(mode, isMobile) {
+  const normalized = normalizeEditorViewMode(mode);
+  if (isMobile && normalized === 'music') return 'notationAbc';
+  return normalized;
+}
+
+/**
+ * Build /editor/:id[/view] path for an edit-mode menu entry.
+ */
+export function editorPathForEditMode(modeId, tuneId, isMobile) {
+  const id = String(tuneId || '');
+  const resolved = resolveEditorViewForPlatform(modeId, isMobile);
+  if (resolved === 'info') return '/editor/' + id;
+  return '/editor/' + id + '/' + resolved;
+}
+
+/**
+ * Mode id used for highlighting Music vs ABC in the editor chrome.
+ * On mobile, notationAbc is presented as Music.
+ */
+export function getEditorMenuHighlightMode(mode, isMobile) {
+  const normalized = normalizeEditorViewMode(mode);
+  if (isMobile && normalized === 'notationAbc') return 'music';
+  return normalized;
+}
+
 /** Editor URL segments that are Music subviews (not primary header tabs). */
 export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc'];
 
@@ -529,17 +570,21 @@ export function isEditorNotationPath(pathname) {
 }
 
 /** Music uses staff notation; ABC Notes is voice ABC text with notation preview. */
-export function editorViewModeToNotationView(mode) {
+export function editorViewModeToNotationView(mode, options) {
   const normalized = normalizeEditorViewMode(mode);
+  const mobile = !!(options && options.mobile);
   if (normalized === 'pianoRoll') return 'pianoRoll';
   if (normalized === 'chords') return 'chords';
-  if (normalized === 'music') return 'staff';
+  // On mobile, Music opens ABC text instead of staff.
+  if (normalized === 'music') return mobile ? 'abc' : 'staff';
   if (normalized === 'notationAbc') return 'abc';
-  return 'staff';
+  return mobile ? 'abc' : 'staff';
 }
 
-export function getEditorViewModeLabel(mode) {
+export function getEditorViewModeLabel(mode, options) {
   var normalized = normalizeEditorViewMode(mode);
+  var mobile = !!(options && options.mobile);
+  if (mobile && normalized === 'notationAbc') return 'Music';
   var entry = EDITOR_VIEW_MODES.find(function(item) { return item.id === normalized; });
   if (entry) return entry.label;
   // Handle music subviews which are not in EDITOR_VIEW_MODES
