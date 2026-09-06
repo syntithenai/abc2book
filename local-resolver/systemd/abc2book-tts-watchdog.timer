@@ -1,0 +1,12 @@
+[Unit]
+Description=Run abc2book TTS health watchdog every minute
+
+[Timer]
+OnBootSec=45s
+OnUnitActiveSec=1min
+AccuracySec=15s
+Persistent=true
+Unit=abc2book-tts-watchdog.service
+
+[Install]
+WantedBy=timers.target

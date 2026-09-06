@@ -1,0 +1,17 @@
+[Unit]
+Description=abc2book TTS stack (Kokoro + Piper + gateway)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=%h/projects/abc2book/local-resolver
+ExecStart=%h/projects/abc2book/local-resolver/scripts/tts-up.sh
+# Best-effort stop; containers also use restart: always.
+ExecStop=/bin/bash -c 'cd %h/projects/abc2book/local-resolver && docker compose --profile tts --profile tts-gpu --profile tts-cpu stop tts-gateway tts-gpu tts-cpu || true'
+TimeoutStartSec=600
+Nice=5
+
+[Install]
+WantedBy=default.target

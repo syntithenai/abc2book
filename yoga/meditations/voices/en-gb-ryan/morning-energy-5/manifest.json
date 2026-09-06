@@ -1,0 +1,430 @@
+{
+  "id": "morning-energy-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 250,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Good morning.",
+      "file": "c000.ogg",
+      "durationSec": 1.671
+    },
+    {
+      "index": 1,
+      "text": "Welcome to a short practice to meet the day.",
+      "file": "c001.ogg",
+      "durationSec": 4.398
+    },
+    {
+      "index": 2,
+      "text": "Sit tall, or stand if that feels better.",
+      "file": "c002.ogg",
+      "durationSec": 4.395
+    },
+    {
+      "index": 3,
+      "text": "Let your eyes soften, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.217
+    },
+    {
+      "index": 4,
+      "text": "Feel your feet on the floor.",
+      "file": "c004.ogg",
+      "durationSec": 3.057
+    },
+    {
+      "index": 5,
+      "text": "Take a slow breath in through the nose.",
+      "file": "c005.ogg",
+      "durationSec": 4.053
+    },
+    {
+      "index": 6,
+      "text": "And a fuller breath out through the mouth.",
+      "file": "c006.ogg",
+      "durationSec": 3.823
+    },
+    {
+      "index": 7,
+      "text": "Again. Soft inhale.",
+      "file": "c007.ogg",
+      "durationSec": 3.117
+    },
+    {
+      "index": 8,
+      "text": "Complete exhale.",
+      "file": "c008.ogg",
+      "durationSec": 2.303
+    },
+    {
+      "index": 9,
+      "text": "One more. Fill the chest.",
+      "file": "c009.ogg",
+      "durationSec": 2.945
+    },
+    {
+      "index": 10,
+      "text": "Empty completely.",
+      "file": "c010.ogg",
+      "durationSec": 2.25
+    },
+    {
+      "index": 11,
+      "text": "[pause:4]",
+      "file": "c011.ogg",
+      "durationSec": 4.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "Look ahead to the day without gripping it.",
+      "file": "c012.ogg",
+      "durationSec": 3.877
+    },
+    {
+      "index": 13,
+      "text": "You do not need the whole map yet.",
+      "file": "c013.ogg",
+      "durationSec": 3.591
+    },
+    {
+      "index": 14,
+      "text": "Just the next honest step.",
+      "file": "c014.ogg",
+      "durationSec": 3.056
+    },
+    {
+      "index": 15,
+      "text": "[pause:5]",
+      "file": "c015.ogg",
+      "durationSec": 5.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Breathe in for four.",
+      "file": "c016.ogg",
+      "durationSec": 2.478
+    },
+    {
+      "index": 17,
+      "text": "Two. Three. Four.",
+      "file": "c017.ogg",
+      "durationSec": 2.49
+    },
+    {
+      "index": 18,
+      "text": "Breathe out for four.",
+      "file": "c018.ogg",
+      "durationSec": 2.546
+    },
+    {
+      "index": 19,
+      "text": "Two. Three. Four.",
+      "file": "c019.ogg",
+      "durationSec": 2.595
+    },
+    {
+      "index": 20,
+      "text": "Again, at your own pace.",
+      "file": "c020.ogg",
+      "durationSec": 2.947
+    },
+    {
+      "index": 21,
+      "text": "[pause:6]",
+      "file": "c021.ogg",
+      "durationSec": 6.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Feel warmth in the hands.",
+      "file": "c022.ogg",
+      "durationSec": 3.062
+    },
+    {
+      "index": 23,
+      "text": "Feel readiness in the legs.",
+      "file": "c023.ogg",
+      "durationSec": 3.12
+    },
+    {
+      "index": 24,
+      "text": "[pause:4]",
+      "file": "c024.ogg",
+      "durationSec": 4.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Roll the shoulders up, back, and down.",
+      "file": "c025.ogg",
+      "durationSec": 4.341
+    },
+    {
+      "index": 26,
+      "text": "Unclench the jaw.",
+      "file": "c026.ogg",
+      "durationSec": 2.421
+    },
+    {
+      "index": 27,
+      "text": "Soften the belly.",
+      "file": "c027.ogg",
+      "durationSec": 2.134
+    },
+    {
+      "index": 28,
+      "text": "Notice any leftover sleep in the body.",
+      "file": "c028.ogg",
+      "durationSec": 4.222
+    },
+    {
+      "index": 29,
+      "text": "No need to push it away.",
+      "file": "c029.ogg",
+      "durationSec": 2.715
+    },
+    {
+      "index": 30,
+      "text": "Breathe into the sides of the ribs.",
+      "file": "c030.ogg",
+      "durationSec": 3.704
+    },
+    {
+      "index": 31,
+      "text": "And let them narrow on the exhale.",
+      "file": "c031.ogg",
+      "durationSec": 3.761
+    },
+    {
+      "index": 32,
+      "text": "[pause:5]",
+      "file": "c032.ogg",
+      "durationSec": 5.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "Now bring a little brightness to the breath.",
+      "file": "c033.ogg",
+      "durationSec": 3.941
+    },
+    {
+      "index": 34,
+      "text": "Inhale as if you are waking from the inside.",
+      "file": "c034.ogg",
+      "durationSec": 4.636
+    },
+    {
+      "index": 35,
+      "text": "Exhale anything heavy from yesterday.",
+      "file": "c035.ogg",
+      "durationSec": 4.222
+    },
+    {
+      "index": 36,
+      "text": "Inhale possibility.",
+      "file": "c036.ogg",
+      "durationSec": 2.726
+    },
+    {
+      "index": 37,
+      "text": "Exhale effort that is not needed yet.",
+      "file": "c037.ogg",
+      "durationSec": 4.288
+    },
+    {
+      "index": 38,
+      "text": "[pause:4]",
+      "file": "c038.ogg",
+      "durationSec": 4.0,
+      "silence": true
+    },
+    {
+      "index": 39,
+      "text": "Place a hand on the heart, or rest both hands in the lap.",
+      "file": "c039.ogg",
+      "durationSec": 6.307
+    },
+    {
+      "index": 40,
+      "text": "Silently, or just listening, try these phrases.",
+      "file": "c040.ogg",
+      "durationSec": 5.26
+    },
+    {
+      "index": 41,
+      "text": "I am here.",
+      "file": "c041.ogg",
+      "durationSec": 1.735
+    },
+    {
+      "index": 42,
+      "text": "I begin again.",
+      "file": "c042.ogg",
+      "durationSec": 2.134
+    },
+    {
+      "index": 43,
+      "text": "I have enough for this morning.",
+      "file": "c043.ogg",
+      "durationSec": 2.775
+    },
+    {
+      "index": 44,
+      "text": "[pause:4]",
+      "file": "c044.ogg",
+      "durationSec": 4.0,
+      "silence": true
+    },
+    {
+      "index": 45,
+      "text": "I move with steadiness.",
+      "file": "c045.ogg",
+      "durationSec": 2.831
+    },
+    {
+      "index": 46,
+      "text": "I meet what comes with a clear mind.",
+      "file": "c046.ogg",
+      "durationSec": 3.992
+    },
+    {
+      "index": 47,
+      "text": "I am allowed to take up space today.",
+      "file": "c047.ogg",
+      "durationSec": 3.759
+    },
+    {
+      "index": 48,
+      "text": "[pause:5]",
+      "file": "c048.ogg",
+      "durationSec": 5.0,
+      "silence": true
+    },
+    {
+      "index": 49,
+      "text": "I choose one clear intention for today.",
+      "file": "c049.ogg",
+      "durationSec": 4.513
+    },
+    {
+      "index": 50,
+      "text": "It can be simple.",
+      "file": "c050.ogg",
+      "durationSec": 2.137
+    },
+    {
+      "index": 51,
+      "text": "Kindness. Focus. Patience. Energy.",
+      "file": "c051.ogg",
+      "durationSec": 4.689
+    },
+    {
+      "index": 52,
+      "text": "Hold that word for a breath.",
+      "file": "c052.ogg",
+      "durationSec": 3.008
+    },
+    {
+      "index": 53,
+      "text": "[pause:6]",
+      "file": "c053.ogg",
+      "durationSec": 6.0,
+      "silence": true
+    },
+    {
+      "index": 54,
+      "text": "See yourself moving through the morning with that quality.",
+      "file": "c054.ogg",
+      "durationSec": 5.214
+    },
+    {
+      "index": 55,
+      "text": "[pause:5]",
+      "file": "c055.ogg",
+      "durationSec": 5.0,
+      "silence": true
+    },
+    {
+      "index": 56,
+      "text": "[pause:5]",
+      "file": "c056.ogg",
+      "durationSec": 5.0,
+      "silence": true
+    },
+    {
+      "index": 57,
+      "text": "Stretch the fingers wide, then soft.",
+      "file": "c057.ogg",
+      "durationSec": 4.452
+    },
+    {
+      "index": 58,
+      "text": "Lift the corners of the mouth just a little, if it feels true.",
+      "file": "c058.ogg",
+      "durationSec": 6.028
+    },
+    {
+      "index": 59,
+      "text": "[pause:3]",
+      "file": "c059.ogg",
+      "durationSec": 3.0,
+      "silence": true
+    },
+    {
+      "index": 60,
+      "text": "Feel the spine lengthen on the next inhale.",
+      "file": "c060.ogg",
+      "durationSec": 4.802
+    },
+    {
+      "index": 61,
+      "text": "Feel the shoulders settle on the exhale.",
+      "file": "c061.ogg",
+      "durationSec": 4.459
+    },
+    {
+      "index": 62,
+      "text": "One more bright breath in.",
+      "file": "c062.ogg",
+      "durationSec": 2.95
+    },
+    {
+      "index": 63,
+      "text": "And a long, easy breath out.",
+      "file": "c063.ogg",
+      "durationSec": 3.06
+    },
+    {
+      "index": 64,
+      "text": "Wiggle the fingers.",
+      "file": "c064.ogg",
+      "durationSec": 2.361
+    },
+    {
+      "index": 65,
+      "text": "When you are ready, open the eyes.",
+      "file": "c065.ogg",
+      "durationSec": 3.705
+    },
+    {
+      "index": 66,
+      "text": "Carry this quiet energy into your day.",
+      "file": "c066.ogg",
+      "durationSec": 4.4
+    }
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
+}

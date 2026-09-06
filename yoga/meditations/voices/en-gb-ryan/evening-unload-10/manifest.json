@@ -1,0 +1,251 @@
+{
+  "id": "evening-unload-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 621,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:26]",
+      "file": "c007.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:26]",
+      "file": "c009.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:33]",
+      "file": "c012.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Let the day be finished for now.",
+      "file": "c013.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 14,
+      "text": "What happened, happened.",
+      "file": "c014.ogg",
+      "durationSec": 4.008
+    },
+    {
+      "index": 15,
+      "text": "What remains can wait until morning.",
+      "file": "c015.ogg",
+      "durationSec": 5.136
+    },
+    {
+      "index": 16,
+      "text": "[pause:33]",
+      "file": "c016.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "On the exhale, imagine placing tasks on a shelf.",
+      "file": "c017.ogg",
+      "durationSec": 7.224
+    },
+    {
+      "index": 18,
+      "text": "One by one. No drama. Just set down.",
+      "file": "c018.ogg",
+      "durationSec": 9.432
+    },
+    {
+      "index": 19,
+      "text": "[pause:53]",
+      "file": "c019.ogg",
+      "durationSec": 53.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Inhale four. Exhale six.",
+      "file": "c020.ogg",
+      "durationSec": 6.504
+    },
+    {
+      "index": 21,
+      "text": "[pause:33]",
+      "file": "c021.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Soften the face.",
+      "file": "c022.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 23,
+      "text": "Drop the shoulders.",
+      "file": "c023.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 24,
+      "text": "Heavy arms. Heavy legs.",
+      "file": "c024.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 25,
+      "text": "[pause:40]",
+      "file": "c025.ogg",
+      "durationSec": 40.0,
+      "silence": true
+    },
+    {
+      "index": 26,
+      "text": "If the mind lists again, nod to it, and return to the shelf.",
+      "file": "c026.ogg",
+      "durationSec": 7.656
+    },
+    {
+      "index": 27,
+      "text": "[pause:53]",
+      "file": "c027.ogg",
+      "durationSec": 53.0,
+      "silence": true
+    },
+    {
+      "index": 28,
+      "text": "Feel the mattress or chair holding you.",
+      "file": "c028.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 29,
+      "text": "[pause:66]",
+      "file": "c029.ogg",
+      "durationSec": 66.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Breath quieter. Body heavier.",
+      "file": "c030.ogg",
+      "durationSec": 6.36
+    },
+    {
+      "index": 31,
+      "text": "[pause:90]",
+      "file": "c031.ogg",
+      "durationSec": 90.0,
+      "silence": true
+    },
+    {
+      "index": 32,
+      "text": "[pause:40]",
+      "file": "c032.ogg",
+      "durationSec": 40.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "Begin to deepen the breath.",
+      "file": "c033.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 34,
+      "text": "Feel the room again.",
+      "file": "c034.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 35,
+      "text": "Wiggle fingers and toes.",
+      "file": "c035.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 36,
+      "text": "When ready, open the eyes.",
+      "file": "c036.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 37,
+      "text": "Move slowly into what comes next.",
+      "file": "c037.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

@@ -1,0 +1,264 @@
+{
+  "id": "heart-space-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 616,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:25]",
+      "file": "c007.ogg",
+      "durationSec": 25.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:25]",
+      "file": "c009.ogg",
+      "durationSec": 25.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:31]",
+      "file": "c012.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Bring attention to the center of the chest.",
+      "file": "c013.ogg",
+      "durationSec": 5.04
+    },
+    {
+      "index": 14,
+      "text": "Not forcing feeling. Just locating the space.",
+      "file": "c014.ogg",
+      "durationSec": 7.992
+    },
+    {
+      "index": 15,
+      "text": "[pause:31]",
+      "file": "c015.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Breathe as if the inhale enters through the heart.",
+      "file": "c016.ogg",
+      "durationSec": 5.76
+    },
+    {
+      "index": 17,
+      "text": "As if the exhale softens the heart from inside.",
+      "file": "c017.ogg",
+      "durationSec": 5.928
+    },
+    {
+      "index": 18,
+      "text": "[pause:37]",
+      "file": "c018.ogg",
+      "durationSec": 37.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "If emotion arises, let it move like weather.",
+      "file": "c019.ogg",
+      "durationSec": 6.24
+    },
+    {
+      "index": 20,
+      "text": "[pause:37]",
+      "file": "c020.ogg",
+      "durationSec": 37.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Silently: may my heart be at ease.",
+      "file": "c021.ogg",
+      "durationSec": 5.808
+    },
+    {
+      "index": 22,
+      "text": "[pause:31]",
+      "file": "c022.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "May I be patient with my own timing.",
+      "file": "c023.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 24,
+      "text": "[pause:31]",
+      "file": "c024.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Bring to mind someone easy to care about.",
+      "file": "c025.ogg",
+      "durationSec": 5.592
+    },
+    {
+      "index": 26,
+      "text": "Wish them ease.",
+      "file": "c026.ogg",
+      "durationSec": 3.36
+    },
+    {
+      "index": 27,
+      "text": "May you be at ease.",
+      "file": "c027.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 28,
+      "text": "[pause:37]",
+      "file": "c028.ogg",
+      "durationSec": 37.0,
+      "silence": true
+    },
+    {
+      "index": 29,
+      "text": "Return to your own heart space.",
+      "file": "c029.ogg",
+      "durationSec": 4.8
+    },
+    {
+      "index": 30,
+      "text": "Warm. Spacious. Human.",
+      "file": "c030.ogg",
+      "durationSec": 7.92
+    },
+    {
+      "index": 31,
+      "text": "[pause:75]",
+      "file": "c031.ogg",
+      "durationSec": 75.0,
+      "silence": true
+    },
+    {
+      "index": 32,
+      "text": "Rest here.",
+      "file": "c032.ogg",
+      "durationSec": 2.928
+    },
+    {
+      "index": 33,
+      "text": "[pause:90]",
+      "file": "c033.ogg",
+      "durationSec": 90.0,
+      "silence": true
+    },
+    {
+      "index": 34,
+      "text": "[pause:37]",
+      "file": "c034.ogg",
+      "durationSec": 37.0,
+      "silence": true
+    },
+    {
+      "index": 35,
+      "text": "Begin to deepen the breath.",
+      "file": "c035.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 36,
+      "text": "Feel the room again.",
+      "file": "c036.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 37,
+      "text": "Wiggle fingers and toes.",
+      "file": "c037.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 38,
+      "text": "When ready, open the eyes.",
+      "file": "c038.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 39,
+      "text": "Move slowly into what comes next.",
+      "file": "c039.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

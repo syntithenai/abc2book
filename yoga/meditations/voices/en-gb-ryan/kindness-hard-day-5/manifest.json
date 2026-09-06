@@ -1,0 +1,180 @@
+{
+  "id": "kindness-hard-day-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 300,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "You do not need to pretend it was easy.",
+      "file": "c006.ogg",
+      "durationSec": 5.016
+    },
+    {
+      "index": 7,
+      "text": "Let the truth of tiredness be allowed.",
+      "file": "c007.ogg",
+      "durationSec": 5.112
+    },
+    {
+      "index": 8,
+      "text": "[pause:31]",
+      "file": "c008.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "Breathe in care.",
+      "file": "c009.ogg",
+      "durationSec": 3.264
+    },
+    {
+      "index": 10,
+      "text": "Breathe out the demand to be fine.",
+      "file": "c010.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 11,
+      "text": "[pause:31]",
+      "file": "c011.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "May I be gentle with myself tonight.",
+      "file": "c012.ogg",
+      "durationSec": 5.328
+    },
+    {
+      "index": 13,
+      "text": "May I rest as I am.",
+      "file": "c013.ogg",
+      "durationSec": 3.96
+    },
+    {
+      "index": 14,
+      "text": "[pause:31]",
+      "file": "c014.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "May tomorrow ask only what I can give.",
+      "file": "c015.ogg",
+      "durationSec": 5.232
+    },
+    {
+      "index": 16,
+      "text": "[pause:31]",
+      "file": "c016.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "Feel the body supported.",
+      "file": "c017.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 18,
+      "text": "Nothing more required in this minute.",
+      "file": "c018.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 19,
+      "text": "[pause:45]",
+      "file": "c019.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Hand on heart, if it helps.",
+      "file": "c020.ogg",
+      "durationSec": 4.776
+    },
+    {
+      "index": 21,
+      "text": "You made it through.",
+      "file": "c021.ogg",
+      "durationSec": 3.288
+    },
+    {
+      "index": 22,
+      "text": "[pause:38]",
+      "file": "c022.ogg",
+      "durationSec": 38.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Take one more easy breath.",
+      "file": "c023.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 24,
+      "text": "Wiggle the fingers.",
+      "file": "c024.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 25,
+      "text": "When you are ready, open the eyes.",
+      "file": "c025.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 26,
+      "text": "Carry a little of this with you.",
+      "file": "c026.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

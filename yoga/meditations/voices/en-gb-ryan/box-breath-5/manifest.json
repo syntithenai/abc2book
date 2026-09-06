@@ -1,0 +1,247 @@
+{
+  "id": "box-breath-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 360,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "We will breathe in a simple box.",
+      "file": "c006.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 7,
+      "text": "In for four. Hold for four. Out for four. Hold for four.",
+      "file": "c007.ogg",
+      "durationSec": 12.048
+    },
+    {
+      "index": 8,
+      "text": "Stay gentle. Never strain.",
+      "file": "c008.ogg",
+      "durationSec": 6.312
+    },
+    {
+      "index": 9,
+      "text": "[pause:20]",
+      "file": "c009.ogg",
+      "durationSec": 20.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Inhale. Two. Three. Four.",
+      "file": "c010.ogg",
+      "durationSec": 9.936
+    },
+    {
+      "index": 11,
+      "text": "Hold. Two. Three. Four.",
+      "file": "c011.ogg",
+      "durationSec": 9.672
+    },
+    {
+      "index": 12,
+      "text": "Exhale. Two. Three. Four.",
+      "file": "c012.ogg",
+      "durationSec": 9.888
+    },
+    {
+      "index": 13,
+      "text": "Hold. Two. Three. Four.",
+      "file": "c013.ogg",
+      "durationSec": 9.672
+    },
+    {
+      "index": 14,
+      "text": "[pause:20]",
+      "file": "c014.ogg",
+      "durationSec": 20.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "Again. Inhale.",
+      "file": "c015.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 16,
+      "text": "Hold.",
+      "file": "c016.ogg",
+      "durationSec": 2.64
+    },
+    {
+      "index": 17,
+      "text": "Exhale.",
+      "file": "c017.ogg",
+      "durationSec": 2.856
+    },
+    {
+      "index": 18,
+      "text": "Hold.",
+      "file": "c018.ogg",
+      "durationSec": 2.64
+    },
+    {
+      "index": 19,
+      "text": "[pause:26]",
+      "file": "c019.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Continue at your own count for a few rounds.",
+      "file": "c020.ogg",
+      "durationSec": 5.88
+    },
+    {
+      "index": 21,
+      "text": "If four is too long, use three.",
+      "file": "c021.ogg",
+      "durationSec": 5.304
+    },
+    {
+      "index": 22,
+      "text": "[pause:45]",
+      "file": "c022.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "One more full box.",
+      "file": "c023.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 24,
+      "text": "Inhale.",
+      "file": "c024.ogg",
+      "durationSec": 2.904
+    },
+    {
+      "index": 25,
+      "text": "Hold.",
+      "file": "c025.ogg",
+      "durationSec": 2.64
+    },
+    {
+      "index": 26,
+      "text": "Exhale.",
+      "file": "c026.ogg",
+      "durationSec": 2.856
+    },
+    {
+      "index": 27,
+      "text": "Hold.",
+      "file": "c027.ogg",
+      "durationSec": 2.64
+    },
+    {
+      "index": 28,
+      "text": "[pause:26]",
+      "file": "c028.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 29,
+      "text": "Return to natural breath.",
+      "file": "c029.ogg",
+      "durationSec": 4.416
+    },
+    {
+      "index": 30,
+      "text": "Notice the quiet that follows.",
+      "file": "c030.ogg",
+      "durationSec": 4.608
+    },
+    {
+      "index": 31,
+      "text": "[pause:33]",
+      "file": "c031.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 32,
+      "text": "Rest here.",
+      "file": "c032.ogg",
+      "durationSec": 2.928
+    },
+    {
+      "index": 33,
+      "text": "[pause:33]",
+      "file": "c033.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 34,
+      "text": "Take one more easy breath.",
+      "file": "c034.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 35,
+      "text": "Wiggle the fingers.",
+      "file": "c035.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 36,
+      "text": "When you are ready, open the eyes.",
+      "file": "c036.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 37,
+      "text": "Carry a little of this with you.",
+      "file": "c037.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

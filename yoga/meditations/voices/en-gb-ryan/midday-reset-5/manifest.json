@@ -1,0 +1,198 @@
+{
+  "id": "midday-reset-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 315,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "Let the morning end here, even if the day continues.",
+      "file": "c006.ogg",
+      "durationSec": 6.816
+    },
+    {
+      "index": 7,
+      "text": "Drop the shoulders.",
+      "file": "c007.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 8,
+      "text": "Unclench the jaw.",
+      "file": "c008.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 9,
+      "text": "[pause:30]",
+      "file": "c009.ogg",
+      "durationSec": 30.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Inhale through the nose.",
+      "file": "c010.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 11,
+      "text": "Exhale through the mouth, as if fogging a window.",
+      "file": "c011.ogg",
+      "durationSec": 6.264
+    },
+    {
+      "index": 12,
+      "text": "Again.",
+      "file": "c012.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 13,
+      "text": "[pause:30]",
+      "file": "c013.ogg",
+      "durationSec": 30.0,
+      "silence": true
+    },
+    {
+      "index": 14,
+      "text": "Imagine setting down whatever you were carrying.",
+      "file": "c014.ogg",
+      "durationSec": 5.688
+    },
+    {
+      "index": 15,
+      "text": "It can wait on the table beside you.",
+      "file": "c015.ogg",
+      "durationSec": 4.8
+    },
+    {
+      "index": 16,
+      "text": "[pause:37]",
+      "file": "c016.ogg",
+      "durationSec": 37.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "Feel the spine tall.",
+      "file": "c017.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 18,
+      "text": "Feel the belly soft.",
+      "file": "c018.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 19,
+      "text": "[pause:30]",
+      "file": "c019.ogg",
+      "durationSec": 30.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Ask quietly: what matters in the next hour?",
+      "file": "c020.ogg",
+      "durationSec": 6.12
+    },
+    {
+      "index": 21,
+      "text": "One clear next step is enough.",
+      "file": "c021.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 22,
+      "text": "[pause:44]",
+      "file": "c022.ogg",
+      "durationSec": 44.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Breathe that simplicity in.",
+      "file": "c023.ogg",
+      "durationSec": 4.128
+    },
+    {
+      "index": 24,
+      "text": "Breathe effort out.",
+      "file": "c024.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 25,
+      "text": "[pause:37]",
+      "file": "c025.ogg",
+      "durationSec": 37.0,
+      "silence": true
+    },
+    {
+      "index": 26,
+      "text": "Take one more easy breath.",
+      "file": "c026.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 27,
+      "text": "Wiggle the fingers.",
+      "file": "c027.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 28,
+      "text": "When you are ready, open the eyes.",
+      "file": "c028.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 29,
+      "text": "Carry a little of this with you.",
+      "file": "c029.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

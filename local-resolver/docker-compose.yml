@@ -213,8 +213,8 @@ services:
 
   # Text-to-speech stack (profile `tts` = gateway). Backends:
   #   profile `tts-gpu` — Kokoro (AMD ROCm or Strix Halo CPU image via tts-up.sh)
-  #   profile `tts-cpu` — Piper fallback (only when Kokoro is not used)
-  #   ./scripts/tts-up.sh
+  #   profile `tts-cpu` — Piper fallback (kept running with Kokoro)
+  #   ./scripts/tts-up.sh  (+ optional ./scripts/install-tts-systemd.sh)
   tts-cpu:
     build:
       context: ./tts
@@ -238,7 +238,7 @@ services:
       timeout: 10s
       retries: 5
       start_period: 120s
-    restart: unless-stopped
+    restart: always
 
   # Kokoro runs as appuser (uid 1000). Named volumes are root-owned on first
   # create, which breaks uv cache init and leaves tts-gpu in a restart loop.
@@ -300,7 +300,7 @@ services:
       timeout: 10s
       retries: 8
       start_period: 600s
-    restart: unless-stopped
+    restart: always
 
   tts-gateway:
     build:
@@ -321,16 +321,17 @@ services:
       TTS_FALLBACK_PROBE_PATH: /info
       TTS_GATEWAY_HEALTH_TTL_SECONDS: ${TTS_GATEWAY_HEALTH_TTL_SECONDS:-15}
     healthcheck:
+      # /live = process up; /health stays readiness (503 until a backend is up)
       test:
         [
           "CMD-SHELL",
-          "curl -fsS --max-time 5 http://127.0.0.1:8789/health || exit 1",
+          "curl -fsS --max-time 5 http://127.0.0.1:8789/live || exit 1",
         ]
       interval: 30s
       timeout: 10s
       retries: 5
       start_period: 30s
-    restart: unless-stopped
+    restart: always
 
   # Optional HTTPS reverse proxy. Enable with:
   #   docker compose --profile https up --build

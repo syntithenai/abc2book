@@ -178,8 +178,8 @@ Optional TTS for future screen-free practice announcements (not wired into the S
 | Service | Port | Role |
 |---------|------|------|
 | `tts-gateway` (`abc2book-tts-gateway`) | `8789` | Routes to Kokoro when healthy, else Piper |
-| `tts-gpu` (`abc2book-tts-gpu`) | internal `:8880` | Kokoro-82M on AMD ROCm (`profile tts-gpu`) |
-| `tts-cpu` (`abc2book-tts-cpu`) | internal `:5000` | Piper CPU fallback (`profile tts-cpu`; skipped when Kokoro runs) |
+| `tts-gpu` (`abc2book-tts-gpu`) | internal `:8880` | Kokoro-82M (ROCm or CPU image on Strix Halo) |
+| `tts-cpu` (`abc2book-tts-cpu`) | internal `:5000` | Piper CPU fallback (kept running alongside Kokoro) |
 
 **Start (auto-detects AMD GPU):**
 
@@ -189,12 +189,18 @@ chmod +x scripts/tts-up.sh
 ./scripts/tts-up.sh
 ```
 
-`tts-up.sh` adds the `tts-gpu` profile when `/dev/kfd` and `/dev/dri` exist; otherwise only Piper + gateway start. With Kokoro, Piper (`tts-cpu`) is not started. On AMD hosts it starts the gateway, then Kokoro (`tts-gpu`). Set `TTS_SKIP_GPU=1` to use Piper only. You can also run manually:
+`tts-up.sh` starts the **gateway + Kokoro + Piper together** when `/dev/kfd` and `/dev/dri` exist (gateway prefers Kokoro, falls back to Piper). Set `TTS_SKIP_GPU=1` for Piper only. To keep the stack always up across stops/reboots:
 
 ```bash
-docker compose --profile tts --profile tts-cpu up -d --build           # Piper only
-docker compose --profile tts --profile tts-gpu up -d --build           # Kokoro (no Piper)
-docker compose --profile tts --profile tts-gpu --profile tts-cpu up -d # Kokoro + Piper fallback
+chmod +x scripts/install-tts-systemd.sh
+./scripts/install-tts-systemd.sh   # user systemd unit + 1-minute health watchdog
+```
+
+Manual compose:
+
+```bash
+docker compose --profile tts --profile tts-cpu up -d --build                      # Piper only
+docker compose --profile tts --profile tts-gpu --profile tts-cpu up -d --build    # Kokoro + Piper
 ```
 
 **Smoke test:**

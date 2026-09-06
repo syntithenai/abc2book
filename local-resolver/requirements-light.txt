@@ -6,3 +6,4 @@ music21>=9,<10
 cryptography>=42,<45
 google-cloud-firestore>=2.16,<3
 stripe>=11.0.0
+ddgs>=9.14.0

@@ -1,0 +1,265 @@
+{
+  "id": "sound-listening-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 622,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:23]",
+      "file": "c007.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:23]",
+      "file": "c009.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:29]",
+      "file": "c012.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Open the ears.",
+      "file": "c013.ogg",
+      "durationSec": 3.408
+    },
+    {
+      "index": 14,
+      "text": "Notice the nearest sound.",
+      "file": "c014.ogg",
+      "durationSec": 4.344
+    },
+    {
+      "index": 15,
+      "text": "[pause:29]",
+      "file": "c015.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Notice the farthest sound you can hear.",
+      "file": "c016.ogg",
+      "durationSec": 5.088
+    },
+    {
+      "index": 17,
+      "text": "[pause:29]",
+      "file": "c017.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 18,
+      "text": "Notice silence between sounds.",
+      "file": "c018.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 19,
+      "text": "[pause:35]",
+      "file": "c019.ogg",
+      "durationSec": 35.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Sounds arise and pass. You do not need to name them.",
+      "file": "c020.ogg",
+      "durationSec": 8.376
+    },
+    {
+      "index": 21,
+      "text": "Hearing hears.",
+      "file": "c021.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 22,
+      "text": "[pause:47]",
+      "file": "c022.ogg",
+      "durationSec": 47.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "When the mind wanders, return to listening.",
+      "file": "c023.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 24,
+      "text": "[pause:35]",
+      "file": "c024.ogg",
+      "durationSec": 35.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Include the sound of your own breath.",
+      "file": "c025.ogg",
+      "durationSec": 4.848
+    },
+    {
+      "index": 26,
+      "text": "[pause:35]",
+      "file": "c026.ogg",
+      "durationSec": 35.0,
+      "silence": true
+    },
+    {
+      "index": 27,
+      "text": "Rest in the whole soundscape.",
+      "file": "c027.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 28,
+      "text": "A living field of vibration.",
+      "file": "c028.ogg",
+      "durationSec": 4.416
+    },
+    {
+      "index": 29,
+      "text": "[pause:90]",
+      "file": "c029.ogg",
+      "durationSec": 90.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Nothing to solve in the listening.",
+      "file": "c030.ogg",
+      "durationSec": 4.272
+    },
+    {
+      "index": 31,
+      "text": "[pause:70]",
+      "file": "c031.ogg",
+      "durationSec": 70.0,
+      "silence": true
+    },
+    {
+      "index": 32,
+      "text": "[pause:35]",
+      "file": "c032.ogg",
+      "durationSec": 35.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "Begin to deepen the breath.",
+      "file": "c033.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 34,
+      "text": "Rest here.",
+      "file": "c034.ogg",
+      "durationSec": 2.928
+    },
+    {
+      "index": 35,
+      "text": "[pause:27]",
+      "file": "c035.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 36,
+      "text": "Feel the room again.",
+      "file": "c036.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 37,
+      "text": "Wiggle fingers and toes.",
+      "file": "c037.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 38,
+      "text": "When ready, open the eyes.",
+      "file": "c038.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 39,
+      "text": "Move slowly into what comes next.",
+      "file": "c039.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

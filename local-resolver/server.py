@@ -136,6 +136,7 @@ app = FastAPI()
 
 from allowlists import (
     email_allowed,
+    load_admin_contact_email,
     load_allowed_admin_emails,
     load_music_collection_emails,
     load_resolver_access_emails,
@@ -197,6 +198,7 @@ FEATURE_CAPABILITY = {
 RESOLVER_ACCESS_EMAILS = load_resolver_access_emails()
 MUSIC_COLLECTION_EMAILS = load_music_collection_emails()
 ALLOWED_ADMIN_EMAILS = load_allowed_admin_emails()
+ADMIN_CONTACT_EMAIL = load_admin_contact_email(ALLOWED_ADMIN_EMAILS)
 ALLOWED_ORIGINS = [
     origin.strip()
     for origin in os.getenv("ALLOWED_ORIGINS", "").split(",")
@@ -327,7 +329,7 @@ def cors_headers(origin):
 
     return {
         "Access-Control-Allow-Origin": allow_origin,
-        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": (
             "Authorization, Content-Type, Range, X-Abc-Auth-Session, "
             "X-Tunebook-Ytdlp-Proxy, X-Tunebook-Scrape-Proxy, "
@@ -959,6 +961,8 @@ async def verify_google_access_token(access_token):
         access = _resolver_host_access(email)
         return {
             "email": email,
+            "name": (user.get("name") or "").strip(),
+            "picture": (user.get("picture") or "").strip(),
             **access,
         }
 
@@ -1151,6 +1155,60 @@ try:
         verify_google_access_token=verify_google_access_token,
         cors_headers=cors_headers,
         get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
+    )
+except Exception:
+    pass
+
+
+async def require_google_user(authorization):
+    """Google Bearer without billing credit — for /yoga community routes."""
+    token = get_bearer_token(authorization)
+    if not token:
+        if not REQUIRE_AUTH:
+            return {"email": "local@dev.yoga", "name": "Local Dev"}
+        raise HTTPException(status_code=401, detail="Missing Authorization Bearer token")
+    verified = await verify_google_access_token(token)
+    if not verified:
+        raise HTTPException(status_code=401, detail="Invalid or expired Google token")
+    email = (verified.get("email") or "").strip().lower()
+    if not resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, REQUIRE_AUTH):
+        raise HTTPException(status_code=403, detail="Email not authorized for this resolver")
+    return verified
+
+
+async def optional_google_user(authorization):
+    if not authorization and not REQUIRE_AUTH:
+        return None
+    if not authorization:
+        return None
+    try:
+        return await require_google_user(authorization)
+    except HTTPException:
+        return None
+
+
+try:
+    from yoga_community_routes import register_yoga_community_routes
+
+    register_yoga_community_routes(
+        app,
+        require_google_user=require_google_user,
+        optional_google_user=optional_google_user,
+        cors_headers=cors_headers,
+        get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
+    )
+except Exception:
+    pass
+
+
+try:
+    from ai_art_subscribe_routes import register_ai_art_subscribe_routes
+
+    register_ai_art_subscribe_routes(
+        app,
+        get_bearer_token=get_bearer_token,
+        verify_google_access_token=verify_google_access_token,
+        cors_headers=cors_headers,
     )
 except Exception:
     pass
@@ -2976,78 +3034,54 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
             except Exception as exc:
                 timing["error"] = _analysis_error_message(exc)
 
-            lyrics_task = asyncio.create_task(
-                _transcribe_from_wav_path(
-                    audio_paths.get("lyrics") or wav_path,
-                    request,
-                    require_text=False,
-                    whisper_options=processing,
-                )
-            )
-            chords_task = asyncio.create_task(
-                detect_chords_from_path(
-                    audio_paths.get("chords") or wav_path,
-                    request,
-                    timing=timing if isinstance(timing, dict) and not timing.get("error") else None,
-                    processing=processing,
-                )
-            )
-            melody_task = asyncio.create_task(
-                detect_melody_from_path(
-                    audio_paths.get("melody") or wav_path,
-                    request,
-                    timing,
-                    melody_processing,
-                )
-            )
-            task_meta = {
-                lyrics_task: ("lyrics", "Transcribing lyrics", 40),
-                chords_task: ("chords", "Detecting chords", 65),
-                melody_task: ("melody", "Extracting melody", 85),
-            }
-            pending = set(task_meta.keys())
-            results_by_task = {}
-
-            async def wait_for_parallel_tasks():
-                while pending:
-                    done, still_pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
-                    pending.clear()
-                    pending.update(still_pending)
-                    for task in done:
-                        stage, label, progress = task_meta[task]
-                        await report(stage, label + "...", progress)
-                        exc = task.exception()
-                        if exc is not None:
-                            results_by_task[task] = exc
-                        else:
-                            results_by_task[task] = task.result()
-                        await report(stage, label + " complete", min(progress + 8, 92))
-
-            await asyncio.wait_for(wait_for_parallel_tasks(), timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS)
-
-            results = [results_by_task.get(lyrics_task), results_by_task.get(chords_task), results_by_task.get(melody_task)]
-
             lyrics = _empty_analysis_part("lyrics")
             chords = _empty_analysis_part("chords")
             melody = _empty_analysis_part("melody")
 
-            if isinstance(results[0], Exception):
-                lyrics["error"] = _analysis_error_message(results[0])
-            else:
-                lyrics = results[0]
-                lyrics["error"] = ""
+            # Sequential stages so Whisper GGML + Demucs/CREPE + BTC do not
+            # peak RAM together under one heavy_job_slot.
+            async def run_analysis_stages():
+                nonlocal lyrics, chords, melody
+                try:
+                    await report("lyrics", "Transcribing lyrics...", 40)
+                    lyrics = await _transcribe_from_wav_path(
+                        audio_paths.get("lyrics") or wav_path,
+                        request,
+                        require_text=False,
+                        whisper_options=processing,
+                    )
+                    lyrics["error"] = ""
+                    await report("lyrics", "Transcribing lyrics complete", 48)
+                except Exception as exc:
+                    lyrics["error"] = _analysis_error_message(exc)
 
-            if isinstance(results[1], Exception):
-                chords["error"] = _analysis_error_message(results[1])
-            else:
-                chords = results[1]
-                chords["error"] = ""
+                try:
+                    await report("chords", "Detecting chords...", 65)
+                    chords = await detect_chords_from_path(
+                        audio_paths.get("chords") or wav_path,
+                        request,
+                        timing=timing if isinstance(timing, dict) and not timing.get("error") else None,
+                        processing=processing,
+                    )
+                    chords["error"] = ""
+                    await report("chords", "Detecting chords complete", 73)
+                except Exception as exc:
+                    chords["error"] = _analysis_error_message(exc)
 
-            if isinstance(results[2], Exception):
-                melody["error"] = _analysis_error_message(results[2])
-            else:
-                melody = results[2]
-                melody["error"] = ""
+                try:
+                    await report("melody", "Extracting melody...", 85)
+                    melody = await detect_melody_from_path(
+                        audio_paths.get("melody") or wav_path,
+                        request,
+                        timing,
+                        melody_processing,
+                    )
+                    melody["error"] = ""
+                    await report("melody", "Extracting melody complete", 92)
+                except Exception as exc:
+                    melody["error"] = _analysis_error_message(exc)
+
+            await asyncio.wait_for(run_analysis_stages(), timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS)
 
             shared_beat_times = timing.get("beatTimes") if isinstance(timing, dict) else None
             if shared_beat_times and isinstance(chords, dict):
@@ -3393,6 +3427,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
         "oauthBff": oauth_bff,
         "features": resolver_features(practice_track_ok),
         "practiceTrackBackend": practice_track_backend,
+        "adminContactEmail": ADMIN_CONTACT_EMAIL,
     }
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())
@@ -3453,6 +3488,7 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
         "features": features,
         "oauthBff": bool(features.get("oauthBff")),
         "staticSite": static_site_enabled(),
+        "adminContactEmail": ADMIN_CONTACT_EMAIL,
     }
     body.update(soundfont_health_fields())
     body.update(midi_resources_health_fields())

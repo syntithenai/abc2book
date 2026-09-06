@@ -23,6 +23,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response
 
 from allowlists import (
     email_allowed,
+    load_admin_contact_email,
     load_allowed_admin_emails,
     load_resolver_access_emails,
     resolver_access_allowed,
@@ -58,6 +59,7 @@ app = FastAPI(title="tunebook-resolver-light")
 
 RESOLVER_ACCESS_EMAILS = load_resolver_access_emails()
 ALLOWED_ADMIN_EMAILS = load_allowed_admin_emails()
+ADMIN_CONTACT_EMAIL = load_admin_contact_email(ALLOWED_ADMIN_EMAILS)
 ALLOWED_ORIGINS = [
     o.strip()
     for o in os.getenv("ALLOWED_ORIGINS", "").split(",")
@@ -84,7 +86,7 @@ def oauth_bff_available() -> bool:
 
 def cors_headers(origin: str | None) -> dict[str, str]:
     headers = {
-        "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+        "Access-Control-Allow-Methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
         "Access-Control-Allow-Headers": (
             "Authorization,Content-Type,X-Abc-Auth-Session,"
             "X-Tunebook-Provider-llm,X-Tunebook-Provider-whisper,"
@@ -293,6 +295,8 @@ async def _health_body(authorization: str | None) -> dict:
         "resolverAccess": False,
         "musicCollectionAccess": False,
         "adminAccess": False,
+        # Public support mailto — available without auth so teachers can contact.
+        "adminContactEmail": ADMIN_CONTACT_EMAIL,
     }
     if REQUIRE_AUTH:
         if not token:
@@ -311,6 +315,8 @@ async def _health_body(authorization: str | None) -> dict:
                 verified = _apply_billing_access(verified)
                 email = _billing_email(verified)
                 body["resolverAccess"] = bool(verified.get("resolverAccess"))
+                # Always report admin from allowlist when token verifies,
+                # even if resolverAccess / billing denies authorized.
                 body["adminAccess"] = email_allowed(ALLOWED_ADMIN_EMAILS, email)
                 body.update(billing_health_fields(email))
                 if not verified.get("resolverAccess"):
@@ -332,6 +338,12 @@ async def _health_body(authorization: str | None) -> dict:
         body["resolverAccess"] = True
         body["embeddedCreds"] = True
         body.update(billing_health_fields(None))
+        # REQUIRE_AUTH off: still evaluate admin when a valid bearer is present.
+        if token:
+            verified = await verify_google_access_token(token)
+            if verified:
+                email = _billing_email(verified)
+                body["adminAccess"] = email_allowed(ALLOWED_ADMIN_EMAILS, email)
 
     flags = auth_flags(verified if body.get("authorized") else None)
     if not REQUIRE_AUTH:
@@ -350,6 +362,43 @@ register_billing_routes(
     app,
     get_bearer_token=get_bearer_token,
     verify_google_access_token=verify_google_access_token,
+    cors_headers=cors_headers,
+    get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
+)
+
+
+async def require_google_user(authorization: str | None) -> dict:
+    """Google Bearer check without billing credit (yoga community routes)."""
+    token = get_bearer_token(authorization)
+    if not token:
+        raise HTTPException(status_code=401, detail="Missing Authorization Bearer token")
+    verified = await verify_google_access_token(token)
+    if not verified:
+        raise HTTPException(status_code=401, detail="Invalid or expired Google token")
+    email = _billing_email(verified)
+    if not resolver_access_allowed(email, RESOLVER_ACCESS_EMAILS, REQUIRE_AUTH):
+        raise HTTPException(status_code=403, detail="Email not authorized for this resolver")
+    return verified
+
+
+async def optional_google_user(authorization: str | None) -> dict | None:
+    if not authorization:
+        return None
+    token = get_bearer_token(authorization)
+    if not token:
+        return None
+    try:
+        return await require_google_user(authorization)
+    except HTTPException:
+        return None
+
+
+from yoga_community_routes import register_yoga_community_routes
+
+register_yoga_community_routes(
+    app,
+    require_google_user=require_google_user,
+    optional_google_user=optional_google_user,
     cors_headers=cors_headers,
     get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
 )

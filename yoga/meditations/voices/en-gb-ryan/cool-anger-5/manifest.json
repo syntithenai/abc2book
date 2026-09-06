@@ -1,0 +1,168 @@
+{
+  "id": "cool-anger-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 295,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "If anger or irritation is present, you are welcome here.",
+      "file": "c001.ogg",
+      "durationSec": 7.008
+    },
+    {
+      "index": 2,
+      "text": "You do not need to make it disappear.",
+      "file": "c002.ogg",
+      "durationSec": 4.8
+    },
+    {
+      "index": 3,
+      "text": "Just give it more room.",
+      "file": "c003.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 4,
+      "text": "Feel the feet.",
+      "file": "c004.ogg",
+      "durationSec": 3.264
+    },
+    {
+      "index": 5,
+      "text": "[pause:25]",
+      "file": "c005.ogg",
+      "durationSec": 25.0,
+      "silence": true
+    },
+    {
+      "index": 6,
+      "text": "Inhale for four.",
+      "file": "c006.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 7,
+      "text": "Exhale for six or eight.",
+      "file": "c007.ogg",
+      "durationSec": 4.224
+    },
+    {
+      "index": 8,
+      "text": "Longer out-breaths cool the system.",
+      "file": "c008.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 9,
+      "text": "[pause:33]",
+      "file": "c009.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Again.",
+      "file": "c010.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 11,
+      "text": "[pause:33]",
+      "file": "c011.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "Name the heat without feeding the story.",
+      "file": "c012.ogg",
+      "durationSec": 4.776
+    },
+    {
+      "index": 13,
+      "text": "Heat in the chest. Tight jaw. Fast mind.",
+      "file": "c013.ogg",
+      "durationSec": 9.408
+    },
+    {
+      "index": 14,
+      "text": "[pause:41]",
+      "file": "c014.ogg",
+      "durationSec": 41.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "Soften the hands.",
+      "file": "c015.ogg",
+      "durationSec": 3.576
+    },
+    {
+      "index": 16,
+      "text": "Drop the shoulders.",
+      "file": "c016.ogg",
+      "durationSec": 3.432
+    },
+    {
+      "index": 17,
+      "text": "[pause:33]",
+      "file": "c017.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 18,
+      "text": "You can respond later from a clearer place.",
+      "file": "c018.ogg",
+      "durationSec": 5.736
+    },
+    {
+      "index": 19,
+      "text": "For now, breathe.",
+      "file": "c019.ogg",
+      "durationSec": 4.008
+    },
+    {
+      "index": 20,
+      "text": "[pause:45]",
+      "file": "c020.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Take one more easy breath.",
+      "file": "c021.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 22,
+      "text": "Wiggle the fingers.",
+      "file": "c022.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 23,
+      "text": "When you are ready, open the eyes.",
+      "file": "c023.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 24,
+      "text": "Carry a little of this with you.",
+      "file": "c024.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

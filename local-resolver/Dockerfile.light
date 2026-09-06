@@ -36,6 +36,10 @@ COPY billing_hooks.py /app/billing_hooks.py
 COPY billing_routes.py /app/billing_routes.py
 COPY score_convert_client.py /app/score_convert_client.py
 COPY score_convert_midi.py /app/score_convert_midi.py
+COPY yoga_community_store.py /app/yoga_community_store.py
+COPY yoga_community_routes.py /app/yoga_community_routes.py
+COPY blog_content_assessment.py /app/blog_content_assessment.py
+COPY teacher_lookup_research.py /app/teacher_lookup_research.py
 
 ENV RESOLVER_LIGHT_MODE=true
 ENV REQUIRE_AUTH=true

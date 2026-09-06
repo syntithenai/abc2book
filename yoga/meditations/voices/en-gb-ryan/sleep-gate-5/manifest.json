@@ -1,0 +1,157 @@
+{
+  "id": "sleep-gate-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 300,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "This practice is for the edge of sleep.",
+      "file": "c000.ogg",
+      "durationSec": 4.8
+    },
+    {
+      "index": 1,
+      "text": "Dim the lights. Lie down.",
+      "file": "c001.ogg",
+      "durationSec": 5.976
+    },
+    {
+      "index": 2,
+      "text": "Nothing left to finish in this moment.",
+      "file": "c002.ogg",
+      "durationSec": 4.8
+    },
+    {
+      "index": 3,
+      "text": "[pause:24]",
+      "file": "c003.ogg",
+      "durationSec": 24.0,
+      "silence": true
+    },
+    {
+      "index": 4,
+      "text": "Inhale softly.",
+      "file": "c004.ogg",
+      "durationSec": 3.408
+    },
+    {
+      "index": 5,
+      "text": "Exhale longer.",
+      "file": "c005.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 6,
+      "text": "[pause:24]",
+      "file": "c006.ogg",
+      "durationSec": 24.0,
+      "silence": true
+    },
+    {
+      "index": 7,
+      "text": "Release the forehead.",
+      "file": "c007.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 8,
+      "text": "Release the eyes.",
+      "file": "c008.ogg",
+      "durationSec": 3.6
+    },
+    {
+      "index": 9,
+      "text": "Release the jaw.",
+      "file": "c009.ogg",
+      "durationSec": 3.408
+    },
+    {
+      "index": 10,
+      "text": "[pause:29]",
+      "file": "c010.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 11,
+      "text": "Heavy arms. Heavy legs.",
+      "file": "c011.ogg",
+      "durationSec": 6.168
+    },
+    {
+      "index": 12,
+      "text": "[pause:29]",
+      "file": "c012.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "If thoughts visit, let them drift past like night cars.",
+      "file": "c013.ogg",
+      "durationSec": 7.056
+    },
+    {
+      "index": 14,
+      "text": "You stay with the breath.",
+      "file": "c014.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 15,
+      "text": "[pause:45]",
+      "file": "c015.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Body sinking.",
+      "file": "c016.ogg",
+      "durationSec": 3.288
+    },
+    {
+      "index": 17,
+      "text": "Breath quiet.",
+      "file": "c017.ogg",
+      "durationSec": 3.288
+    },
+    {
+      "index": 18,
+      "text": "[pause:45]",
+      "file": "c018.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "If sleep comes, let it.",
+      "file": "c019.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 20,
+      "text": "If not, rest anyway.",
+      "file": "c020.ogg",
+      "durationSec": 4.416
+    },
+    {
+      "index": 21,
+      "text": "[pause:35]",
+      "file": "c021.ogg",
+      "durationSec": 35.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Good night to the day.",
+      "file": "c022.ogg",
+      "durationSec": 3.48
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

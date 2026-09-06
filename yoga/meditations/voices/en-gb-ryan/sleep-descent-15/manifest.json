@@ -1,0 +1,283 @@
+{
+  "id": "sleep-descent-15",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 926,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome to a practice for sleep.",
+      "file": "c000.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 1,
+      "text": "Lie down. Make the dark your friend.",
+      "file": "c001.ogg",
+      "durationSec": 6.888
+    },
+    {
+      "index": 2,
+      "text": "You may fall asleep before the end. That is success.",
+      "file": "c002.ogg",
+      "durationSec": 8.4
+    },
+    {
+      "index": 3,
+      "text": "[pause:22]",
+      "file": "c003.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 4,
+      "text": "Slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 5,
+      "text": "Longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 6,
+      "text": "[pause:22]",
+      "file": "c006.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 7,
+      "text": "Release the forehead.",
+      "file": "c007.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 8,
+      "text": "[pause:18]",
+      "file": "c008.ogg",
+      "durationSec": 18.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "Release the eyes.",
+      "file": "c009.ogg",
+      "durationSec": 3.6
+    },
+    {
+      "index": 10,
+      "text": "[pause:18]",
+      "file": "c010.ogg",
+      "durationSec": 18.0,
+      "silence": true
+    },
+    {
+      "index": 11,
+      "text": "Release the jaw and tongue.",
+      "file": "c011.ogg",
+      "durationSec": 4.248
+    },
+    {
+      "index": 12,
+      "text": "[pause:22]",
+      "file": "c012.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Shoulders melt.",
+      "file": "c013.ogg",
+      "durationSec": 3.36
+    },
+    {
+      "index": 14,
+      "text": "[pause:22]",
+      "file": "c014.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "Arms heavy. Hands open.",
+      "file": "c015.ogg",
+      "durationSec": 5.832
+    },
+    {
+      "index": 16,
+      "text": "[pause:22]",
+      "file": "c016.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "Chest soft. Belly soft.",
+      "file": "c017.ogg",
+      "durationSec": 6.048
+    },
+    {
+      "index": 18,
+      "text": "[pause:22]",
+      "file": "c018.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "Hips heavy.",
+      "file": "c019.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 20,
+      "text": "[pause:22]",
+      "file": "c020.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Legs heavy. Feet heavy.",
+      "file": "c021.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 22,
+      "text": "[pause:27]",
+      "file": "c022.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "The whole body sinking into the bed.",
+      "file": "c023.ogg",
+      "durationSec": 4.848
+    },
+    {
+      "index": 24,
+      "text": "[pause:36]",
+      "file": "c024.ogg",
+      "durationSec": 36.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Thoughts like distant traffic.",
+      "file": "c025.ogg",
+      "durationSec": 4.272
+    },
+    {
+      "index": 26,
+      "text": "You do not follow them.",
+      "file": "c026.ogg",
+      "durationSec": 3.672
+    },
+    {
+      "index": 27,
+      "text": "[pause:45]",
+      "file": "c027.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 28,
+      "text": "Breath quieter.",
+      "file": "c028.ogg",
+      "durationSec": 3.36
+    },
+    {
+      "index": 29,
+      "text": "[pause:45]",
+      "file": "c029.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Darker. Softer. Slower.",
+      "file": "c030.ogg",
+      "durationSec": 7.512
+    },
+    {
+      "index": 31,
+      "text": "[pause:67]",
+      "file": "c031.ogg",
+      "durationSec": 67.0,
+      "silence": true
+    },
+    {
+      "index": 32,
+      "text": "Nothing to finish.",
+      "file": "c032.ogg",
+      "durationSec": 3.456
+    },
+    {
+      "index": 33,
+      "text": "[pause:54]",
+      "file": "c033.ogg",
+      "durationSec": 54.0,
+      "silence": true
+    },
+    {
+      "index": 34,
+      "text": "Safe to rest.",
+      "file": "c034.ogg",
+      "durationSec": 3.24
+    },
+    {
+      "index": 35,
+      "text": "[pause:89]",
+      "file": "c035.ogg",
+      "durationSec": 89.0,
+      "silence": true
+    },
+    {
+      "index": 36,
+      "text": "Safe to sleep.",
+      "file": "c036.ogg",
+      "durationSec": 3.264
+    },
+    {
+      "index": 37,
+      "text": "[pause:112]",
+      "file": "c037.ogg",
+      "durationSec": 112.0,
+      "silence": true
+    },
+    {
+      "index": 38,
+      "text": "If you are still awake, keep resting in the exhale.",
+      "file": "c038.ogg",
+      "durationSec": 6.264
+    },
+    {
+      "index": 39,
+      "text": "[pause:89]",
+      "file": "c039.ogg",
+      "durationSec": 89.0,
+      "silence": true
+    },
+    {
+      "index": 40,
+      "text": "Good night.",
+      "file": "c040.ogg",
+      "durationSec": 2.832
+    },
+    {
+      "index": 41,
+      "text": "[pause:67]",
+      "file": "c041.ogg",
+      "durationSec": 67.0,
+      "silence": true
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

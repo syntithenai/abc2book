@@ -200,8 +200,14 @@ def create_app() -> FastAPI:
             )
         return rows
 
+    @app.get("/live")
+    async def live() -> JSONResponse:
+        """Liveness: gateway process is up (Docker healthcheck)."""
+        return JSONResponse({"ok": True, "service": service_name})
+
     @app.get("/health")
     async def health() -> JSONResponse:
+        """Readiness: at least one TTS backend is reachable."""
         client: httpx.AsyncClient = app.state.client
         rows = await backend_status(client)
         preferred = next((row for row in rows if row["preferred"] and row["ok"]), None)

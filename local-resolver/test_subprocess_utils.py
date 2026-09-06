@@ -9,9 +9,11 @@ import subprocess_utils
 class SubprocessUtilsTests(unittest.TestCase):
     def test_heavy_job_slot_is_reentrant(self):
         async def run():
-            async with subprocess_utils.heavy_job_slot():
+            with patch("gpu_prep.ensure_gpu_headroom", new_callable=AsyncMock) as mock_prep:
+                mock_prep.return_value = {"skipped": "test"}
                 async with subprocess_utils.heavy_job_slot():
-                    return subprocess_utils._heavy_job_depth.get()
+                    async with subprocess_utils.heavy_job_slot():
+                        return subprocess_utils._heavy_job_depth.get()
 
         depth = asyncio.run(run())
         self.assertEqual(depth, 1)

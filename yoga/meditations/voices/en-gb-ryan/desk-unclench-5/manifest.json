@@ -1,0 +1,175 @@
+{
+  "id": "desk-unclench-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 314,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Stay seated. This is for the middle of work.",
+      "file": "c001.ogg",
+      "durationSec": 7.296
+    },
+    {
+      "index": 2,
+      "text": "Unhook the gaze from the screen for a moment.",
+      "file": "c002.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 3,
+      "text": "Look farther away, if you can.",
+      "file": "c003.ogg",
+      "durationSec": 4.824
+    },
+    {
+      "index": 4,
+      "text": "[pause:28]",
+      "file": "c004.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 5,
+      "text": "Roll the shoulders up, back, and down.",
+      "file": "c005.ogg",
+      "durationSec": 5.784
+    },
+    {
+      "index": 6,
+      "text": "Twice more.",
+      "file": "c006.ogg",
+      "durationSec": 3.048
+    },
+    {
+      "index": 7,
+      "text": "[pause:38]",
+      "file": "c007.ogg",
+      "durationSec": 38.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Open and close the hands.",
+      "file": "c008.ogg",
+      "durationSec": 4.344
+    },
+    {
+      "index": 9,
+      "text": "Shake them lightly.",
+      "file": "c009.ogg",
+      "durationSec": 3.336
+    },
+    {
+      "index": 10,
+      "text": "[pause:28]",
+      "file": "c010.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 11,
+      "text": "Soften the brow.",
+      "file": "c011.ogg",
+      "durationSec": 3.312
+    },
+    {
+      "index": 12,
+      "text": "Unclench the jaw. Let the tongue rest.",
+      "file": "c012.ogg",
+      "durationSec": 6.912
+    },
+    {
+      "index": 13,
+      "text": "[pause:38]",
+      "file": "c013.ogg",
+      "durationSec": 38.0,
+      "silence": true
+    },
+    {
+      "index": 14,
+      "text": "Inhale into the sides of the ribs.",
+      "file": "c014.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 15,
+      "text": "Exhale and let the chest settle.",
+      "file": "c015.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 16,
+      "text": "[pause:38]",
+      "file": "c016.ogg",
+      "durationSec": 38.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "Blink slowly three times.",
+      "file": "c017.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 18,
+      "text": "[pause:28]",
+      "file": "c018.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "One more full breath.",
+      "file": "c019.ogg",
+      "durationSec": 3.84
+    },
+    {
+      "index": 20,
+      "text": "Return when ready, a little less braced.",
+      "file": "c020.ogg",
+      "durationSec": 5.64
+    },
+    {
+      "index": 21,
+      "text": "[pause:28]",
+      "file": "c021.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Take one more easy breath.",
+      "file": "c022.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 23,
+      "text": "Wiggle the fingers.",
+      "file": "c023.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 24,
+      "text": "When you are ready, open the eyes.",
+      "file": "c024.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 25,
+      "text": "Carry ease back to the next task.",
+      "file": "c025.ogg",
+      "durationSec": 4.896
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

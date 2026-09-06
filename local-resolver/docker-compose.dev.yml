@@ -64,6 +64,8 @@ services:
       - ./billing_reservation.py:/app/billing_reservation.py
       - ./billing_routes.py:/app/billing_routes.py
       - ./billing_stripe.py:/app/billing_stripe.py
+      - ./ai_art_subscribe_store.py:/app/ai_art_subscribe_store.py
+      - ./ai_art_subscribe_routes.py:/app/ai_art_subscribe_routes.py
       - ./stem_separation.py:/app/stem_separation.py
       - ./separate_stems.py:/app/separate_stems.py
       - ./eval_transcription.py:/app/eval_transcription.py

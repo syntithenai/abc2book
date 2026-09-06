@@ -1,0 +1,251 @@
+{
+  "id": "forgiveness-soft-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 619,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:27]",
+      "file": "c007.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:27]",
+      "file": "c009.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:34]",
+      "file": "c012.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Forgiveness here means releasing your own clenched fist.",
+      "file": "c013.ogg",
+      "durationSec": 6.504
+    },
+    {
+      "index": 14,
+      "text": "Not pretending harm did not matter.",
+      "file": "c014.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 15,
+      "text": "[pause:34]",
+      "file": "c015.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Start with something small you hold against yourself.",
+      "file": "c016.ogg",
+      "durationSec": 6.216
+    },
+    {
+      "index": 17,
+      "text": "A mistake. A shortcoming.",
+      "file": "c017.ogg",
+      "durationSec": 5.928
+    },
+    {
+      "index": 18,
+      "text": "[pause:34]",
+      "file": "c018.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "Silently: I forgive myself for being human.",
+      "file": "c019.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 20,
+      "text": "I release what I no longer need to carry.",
+      "file": "c020.ogg",
+      "durationSec": 5.136
+    },
+    {
+      "index": 21,
+      "text": "[pause:54]",
+      "file": "c021.ogg",
+      "durationSec": 54.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "If it feels right, bring to mind a mild difficulty with another.",
+      "file": "c022.ogg",
+      "durationSec": 7.152
+    },
+    {
+      "index": 23,
+      "text": "Not the hardest story. A lighter one.",
+      "file": "c023.ogg",
+      "durationSec": 6.768
+    },
+    {
+      "index": 24,
+      "text": "[pause:34]",
+      "file": "c024.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "I release what I can.",
+      "file": "c025.ogg",
+      "durationSec": 3.768
+    },
+    {
+      "index": 26,
+      "text": "I keep my boundaries. I put down extra weight.",
+      "file": "c026.ogg",
+      "durationSec": 8.04
+    },
+    {
+      "index": 27,
+      "text": "[pause:54]",
+      "file": "c027.ogg",
+      "durationSec": 54.0,
+      "silence": true
+    },
+    {
+      "index": 28,
+      "text": "Breathe into the places that clenched.",
+      "file": "c028.ogg",
+      "durationSec": 4.776
+    },
+    {
+      "index": 29,
+      "text": "[pause:68]",
+      "file": "c029.ogg",
+      "durationSec": 68.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Rest in the space that opens when the fist softens.",
+      "file": "c030.ogg",
+      "durationSec": 6.192
+    },
+    {
+      "index": 31,
+      "text": "[pause:81]",
+      "file": "c031.ogg",
+      "durationSec": 81.0,
+      "silence": true
+    },
+    {
+      "index": 32,
+      "text": "[pause:41]",
+      "file": "c032.ogg",
+      "durationSec": 41.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "Begin to deepen the breath.",
+      "file": "c033.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 34,
+      "text": "Feel the room again.",
+      "file": "c034.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 35,
+      "text": "Wiggle fingers and toes.",
+      "file": "c035.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 36,
+      "text": "When ready, open the eyes.",
+      "file": "c036.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 37,
+      "text": "Move slowly into what comes next.",
+      "file": "c037.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

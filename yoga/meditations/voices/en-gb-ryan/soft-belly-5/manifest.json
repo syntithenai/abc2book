@@ -1,0 +1,212 @@
+{
+  "id": "soft-belly-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 320,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "Rest a hand on the lower belly if you like.",
+      "file": "c006.ogg",
+      "durationSec": 5.304
+    },
+    {
+      "index": 7,
+      "text": "Notice if the belly is holding.",
+      "file": "c007.ogg",
+      "durationSec": 4.464
+    },
+    {
+      "index": 8,
+      "text": "[pause:20]",
+      "file": "c008.ogg",
+      "durationSec": 20.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "On the next inhale, allow the belly to expand.",
+      "file": "c009.ogg",
+      "durationSec": 6.384
+    },
+    {
+      "index": 10,
+      "text": "On the exhale, let it fall without squeezing.",
+      "file": "c010.ogg",
+      "durationSec": 6.216
+    },
+    {
+      "index": 11,
+      "text": "[pause:20]",
+      "file": "c011.ogg",
+      "durationSec": 20.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "Again. Soft belly in.",
+      "file": "c012.ogg",
+      "durationSec": 5.616
+    },
+    {
+      "index": 13,
+      "text": "Soft belly out.",
+      "file": "c013.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 14,
+      "text": "[pause:25]",
+      "file": "c014.ogg",
+      "durationSec": 25.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "If the mind argues, let the body lead.",
+      "file": "c015.ogg",
+      "durationSec": 5.592
+    },
+    {
+      "index": 16,
+      "text": "Expansion. Release.",
+      "file": "c016.ogg",
+      "durationSec": 5.736
+    },
+    {
+      "index": 17,
+      "text": "[pause:29]",
+      "file": "c017.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 18,
+      "text": "Shoulders drop.",
+      "file": "c018.ogg",
+      "durationSec": 3.24
+    },
+    {
+      "index": 19,
+      "text": "Jaw soft.",
+      "file": "c019.ogg",
+      "durationSec": 3.096
+    },
+    {
+      "index": 20,
+      "text": "Belly free.",
+      "file": "c020.ogg",
+      "durationSec": 3.12
+    },
+    {
+      "index": 21,
+      "text": "[pause:25]",
+      "file": "c021.ogg",
+      "durationSec": 25.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Stay with ten quiet soft-belly breaths.",
+      "file": "c022.ogg",
+      "durationSec": 5.808
+    },
+    {
+      "index": 23,
+      "text": "[pause:45]",
+      "file": "c023.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 24,
+      "text": "Notice any ease that arrived.",
+      "file": "c024.ogg",
+      "durationSec": 4.704
+    },
+    {
+      "index": 25,
+      "text": "[pause:20]",
+      "file": "c025.ogg",
+      "durationSec": 20.0,
+      "silence": true
+    },
+    {
+      "index": 26,
+      "text": "Rest here.",
+      "file": "c026.ogg",
+      "durationSec": 2.928
+    },
+    {
+      "index": 27,
+      "text": "[pause:27]",
+      "file": "c027.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 28,
+      "text": "Take one more easy breath.",
+      "file": "c028.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 29,
+      "text": "Wiggle the fingers.",
+      "file": "c029.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 30,
+      "text": "When you are ready, open the eyes.",
+      "file": "c030.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 31,
+      "text": "Carry a little of this with you.",
+      "file": "c031.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

@@ -1,0 +1,200 @@
+{
+  "id": "confidence-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 314,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "Feel the sit bones, or the feet.",
+      "file": "c006.ogg",
+      "durationSec": 5.232
+    },
+    {
+      "index": 7,
+      "text": "A steady base beneath you.",
+      "file": "c007.ogg",
+      "durationSec": 4.104
+    },
+    {
+      "index": 8,
+      "text": "[pause:22]",
+      "file": "c008.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "Lengthen the spine without hardening.",
+      "file": "c009.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 10,
+      "text": "Soft face. Soft belly. Strong center.",
+      "file": "c010.ogg",
+      "durationSec": 9.12
+    },
+    {
+      "index": 11,
+      "text": "[pause:22]",
+      "file": "c011.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "Silently try these phrases, or just listen.",
+      "file": "c012.ogg",
+      "durationSec": 6.264
+    },
+    {
+      "index": 13,
+      "text": "I can meet what is mine to meet.",
+      "file": "c013.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 14,
+      "text": "[pause:22]",
+      "file": "c014.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "I do not need to rush my becoming.",
+      "file": "c015.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 16,
+      "text": "[pause:22]",
+      "file": "c016.ogg",
+      "durationSec": 22.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "I trust my next honest step.",
+      "file": "c017.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 18,
+      "text": "[pause:28]",
+      "file": "c018.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "Breathe confidence as warmth in the chest, not as armor.",
+      "file": "c019.ogg",
+      "durationSec": 6.96
+    },
+    {
+      "index": 20,
+      "text": "[pause:28]",
+      "file": "c020.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "See yourself handling one ordinary challenge with steadiness.",
+      "file": "c021.ogg",
+      "durationSec": 7.032
+    },
+    {
+      "index": 22,
+      "text": "[pause:33]",
+      "file": "c022.ogg",
+      "durationSec": 33.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Return to the breath.",
+      "file": "c023.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 24,
+      "text": "Steady. Enough.",
+      "file": "c024.ogg",
+      "durationSec": 5.088
+    },
+    {
+      "index": 25,
+      "text": "[pause:28]",
+      "file": "c025.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 26,
+      "text": "Take one more easy breath.",
+      "file": "c026.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 27,
+      "text": "Wiggle the fingers.",
+      "file": "c027.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 28,
+      "text": "When you are ready, open the eyes.",
+      "file": "c028.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 29,
+      "text": "Carry a little of this with you.",
+      "file": "c029.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

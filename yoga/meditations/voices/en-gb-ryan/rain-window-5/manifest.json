@@ -1,0 +1,174 @@
+{
+  "id": "rain-window-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 312,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "Imagine sitting by a window on a quiet rainy day.",
+      "file": "c006.ogg",
+      "durationSec": 6.696
+    },
+    {
+      "index": 7,
+      "text": "Glass cool. World soft outside.",
+      "file": "c007.ogg",
+      "durationSec": 7.032
+    },
+    {
+      "index": 8,
+      "text": "[pause:30]",
+      "file": "c008.ogg",
+      "durationSec": 30.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "Hear the rain without needing a story.",
+      "file": "c009.ogg",
+      "durationSec": 4.8
+    },
+    {
+      "index": 10,
+      "text": "Small taps. Occasional heavier falls.",
+      "file": "c010.ogg",
+      "durationSec": 7.56
+    },
+    {
+      "index": 11,
+      "text": "[pause:36]",
+      "file": "c011.ogg",
+      "durationSec": 36.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "Smell clean damp air.",
+      "file": "c012.ogg",
+      "durationSec": 3.936
+    },
+    {
+      "index": 13,
+      "text": "See grey light, gentle and unhurried.",
+      "file": "c013.ogg",
+      "durationSec": 5.808
+    },
+    {
+      "index": 14,
+      "text": "[pause:30]",
+      "file": "c014.ogg",
+      "durationSec": 30.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "There is nowhere to go in the rain.",
+      "file": "c015.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 16,
+      "text": "Permission to pause.",
+      "file": "c016.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 17,
+      "text": "[pause:36]",
+      "file": "c017.ogg",
+      "durationSec": 36.0,
+      "silence": true
+    },
+    {
+      "index": 18,
+      "text": "Breathe with the rhythm of water on the glass.",
+      "file": "c018.ogg",
+      "durationSec": 5.52
+    },
+    {
+      "index": 19,
+      "text": "[pause:45]",
+      "file": "c019.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Let the nervous system take the cue: soften.",
+      "file": "c020.ogg",
+      "durationSec": 5.976
+    },
+    {
+      "index": 21,
+      "text": "[pause:36]",
+      "file": "c021.ogg",
+      "durationSec": 36.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Take one more easy breath.",
+      "file": "c022.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 23,
+      "text": "Wiggle the fingers.",
+      "file": "c023.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 24,
+      "text": "When you are ready, open the eyes.",
+      "file": "c024.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 25,
+      "text": "Carry a little of this with you.",
+      "file": "c025.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

@@ -1,0 +1,1 @@
+var e=new Set,t=[],n=0;function r(){for(let n of e)n(t)}function i(n){return e.add(n),n(t),()=>e.delete(n)}function a(e){t=t.filter(t=>t.id!==e),r()}function o(e,i){let o=`toast-${++n}`,s={id:o,message:e,title:i?.title,durationMs:i?.durationMs??4800,action:i?.action};return t=[...t,s].slice(-2),r(),window.setTimeout(()=>a(o),s.durationMs),o}export{o as n,i as r,a as t};

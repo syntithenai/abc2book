@@ -1,0 +1,185 @@
+{
+  "id": "self-compassion-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 305,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "Place a hand on the heart, or rest both hands in the lap.",
+      "file": "c006.ogg",
+      "durationSec": 7.008
+    },
+    {
+      "index": 7,
+      "text": "Notice how you are, without fixing it.",
+      "file": "c007.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 8,
+      "text": "[pause:31]",
+      "file": "c008.ogg",
+      "durationSec": 31.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "If there is struggle, acknowledge it.",
+      "file": "c009.ogg",
+      "durationSec": 5.04
+    },
+    {
+      "index": 10,
+      "text": "This is a moment of difficulty.",
+      "file": "c010.ogg",
+      "durationSec": 4.344
+    },
+    {
+      "index": 11,
+      "text": "Difficulty is part of being human.",
+      "file": "c011.ogg",
+      "durationSec": 5.208
+    },
+    {
+      "index": 12,
+      "text": "[pause:39]",
+      "file": "c012.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Offer yourself kindness the way you would offer it to a friend.",
+      "file": "c013.ogg",
+      "durationSec": 6.624
+    },
+    {
+      "index": 14,
+      "text": "May I be kind to myself.",
+      "file": "c014.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 15,
+      "text": "May I give myself the compassion I need.",
+      "file": "c015.ogg",
+      "durationSec": 5.472
+    },
+    {
+      "index": 16,
+      "text": "[pause:39]",
+      "file": "c016.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 17,
+      "text": "Again, slowly.",
+      "file": "c017.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 18,
+      "text": "May I be kind to myself.",
+      "file": "c018.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 19,
+      "text": "May I give myself the compassion I need.",
+      "file": "c019.ogg",
+      "durationSec": 5.472
+    },
+    {
+      "index": 20,
+      "text": "[pause:45]",
+      "file": "c020.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Breathe into the hand on the heart, if it is there.",
+      "file": "c021.ogg",
+      "durationSec": 6.024
+    },
+    {
+      "index": 22,
+      "text": "[pause:39]",
+      "file": "c022.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "You do not have to earn this softness.",
+      "file": "c023.ogg",
+      "durationSec": 4.68
+    },
+    {
+      "index": 24,
+      "text": "Take one more easy breath.",
+      "file": "c024.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 25,
+      "text": "Wiggle the fingers.",
+      "file": "c025.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 26,
+      "text": "When you are ready, open the eyes.",
+      "file": "c026.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 27,
+      "text": "Carry a little of this with you.",
+      "file": "c027.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

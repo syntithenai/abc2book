@@ -1,0 +1,225 @@
+{
+  "id": "focus-clarity-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 326,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Find a comfortable seat, or lie down if that feels better.",
+      "file": "c001.ogg",
+      "durationSec": 7.104
+    },
+    {
+      "index": 2,
+      "text": "Let the hands rest.",
+      "file": "c002.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 3,
+      "text": "Soften the eyes, or close them.",
+      "file": "c003.ogg",
+      "durationSec": 4.896
+    },
+    {
+      "index": 4,
+      "text": "Take a slow breath in.",
+      "file": "c004.ogg",
+      "durationSec": 3.744
+    },
+    {
+      "index": 5,
+      "text": "And a longer breath out.",
+      "file": "c005.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 6,
+      "text": "Choose one anchor. The breath at the nostrils, or the rise of the belly.",
+      "file": "c006.ogg",
+      "durationSec": 9.432
+    },
+    {
+      "index": 7,
+      "text": "Rest attention there.",
+      "file": "c007.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 8,
+      "text": "[pause:23]",
+      "file": "c008.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 9,
+      "text": "When the mind wanders, notice where it went.",
+      "file": "c009.ogg",
+      "durationSec": 5.88
+    },
+    {
+      "index": 10,
+      "text": "Then return. Kindly. Cleanly.",
+      "file": "c010.ogg",
+      "durationSec": 8.136
+    },
+    {
+      "index": 11,
+      "text": "[pause:29]",
+      "file": "c011.ogg",
+      "durationSec": 29.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "The returning is the training.",
+      "file": "c012.ogg",
+      "durationSec": 4.104
+    },
+    {
+      "index": 13,
+      "text": "Inhale. Stay.",
+      "file": "c013.ogg",
+      "durationSec": 5.424
+    },
+    {
+      "index": 14,
+      "text": "Exhale. Stay.",
+      "file": "c014.ogg",
+      "durationSec": 5.4
+    },
+    {
+      "index": 15,
+      "text": "[pause:34]",
+      "file": "c015.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "If helpful, count breaths up to five, then begin again.",
+      "file": "c016.ogg",
+      "durationSec": 7.464
+    },
+    {
+      "index": 17,
+      "text": "One.",
+      "file": "c017.ogg",
+      "durationSec": 2.376
+    },
+    {
+      "index": 18,
+      "text": "[pause:17]",
+      "file": "c018.ogg",
+      "durationSec": 17.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "Two.",
+      "file": "c019.ogg",
+      "durationSec": 2.4
+    },
+    {
+      "index": 20,
+      "text": "[pause:17]",
+      "file": "c020.ogg",
+      "durationSec": 17.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Three.",
+      "file": "c021.ogg",
+      "durationSec": 2.592
+    },
+    {
+      "index": 22,
+      "text": "[pause:17]",
+      "file": "c022.ogg",
+      "durationSec": 17.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Four.",
+      "file": "c023.ogg",
+      "durationSec": 2.496
+    },
+    {
+      "index": 24,
+      "text": "[pause:17]",
+      "file": "c024.ogg",
+      "durationSec": 17.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Five.",
+      "file": "c025.ogg",
+      "durationSec": 2.784
+    },
+    {
+      "index": 26,
+      "text": "[pause:23]",
+      "file": "c026.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 27,
+      "text": "Release the count.",
+      "file": "c027.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 28,
+      "text": "Rest in clear, open attention for a moment.",
+      "file": "c028.ogg",
+      "durationSec": 6.192
+    },
+    {
+      "index": 29,
+      "text": "[pause:34]",
+      "file": "c029.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Take one more easy breath.",
+      "file": "c030.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 31,
+      "text": "Wiggle the fingers.",
+      "file": "c031.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 32,
+      "text": "When you are ready, open the eyes.",
+      "file": "c032.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 33,
+      "text": "Carry a little of this with you.",
+      "file": "c033.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

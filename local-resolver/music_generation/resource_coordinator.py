@@ -56,6 +56,12 @@ def check_not_blocked_by_audio_generation() -> None:
 async def audio_generation_exclusive():
     global _audio_generation_active
     check_not_blocked_by_audio_generation()
+    try:
+        from gpu_prep import ensure_gpu_headroom
+
+        await ensure_gpu_headroom()
+    except Exception as exc:
+        raise AudioGenerationInProgress(f"GPU prep failed: {exc}") from exc
     async with _audio_generation_lock:
         _audio_generation_active += 1
         touch_audio_generation_activity()

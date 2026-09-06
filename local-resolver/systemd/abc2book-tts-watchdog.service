@@ -1,0 +1,8 @@
+[Unit]
+Description=Watchdog: ensure abc2book TTS gateway has a healthy backend
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/projects/abc2book/local-resolver/scripts/ensure-tts.sh
+Nice=10

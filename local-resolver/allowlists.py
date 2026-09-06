@@ -43,6 +43,20 @@ def load_allowed_admin_emails() -> set[str]:
     return parse_email_allowlist(os.getenv("ALLOWED_ADMIN_EMAILS", ""))
 
 
+def load_admin_contact_email(admin_allowlist: set[str] | None = None) -> str:
+    """Public mailto / support address reported on GET /health as adminContactEmail.
+
+    ADMIN_CONTACT_EMAIL wins when set; else the first ALLOWED_ADMIN_EMAILS entry
+    (excluding the ALL token). Empty when neither is configured.
+    """
+    raw = (os.getenv("ADMIN_CONTACT_EMAIL") or "").strip().lower()
+    if raw and "@" in raw:
+        return raw
+    allow = admin_allowlist if admin_allowlist is not None else load_allowed_admin_emails()
+    candidates = sorted(e for e in allow if e != ALL_TOKEN and "@" in e)
+    return candidates[0] if candidates else ""
+
+
 def load_music_collection_emails() -> set[str]:
     return parse_email_allowlist(os.getenv("MUSIC_COLLECTION_EMAILS", ""))
 

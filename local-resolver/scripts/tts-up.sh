@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Start the TTS stack, enabling the Kokoro GPU service when AMD ROCm devices exist.
+# Start the TTS stack: gateway + Kokoro primary + Piper fallback (always both).
+# Keeps speech available if either backend dies; systemd watchdog re-runs this.
+# Rebuild images only when TTS_BUILD=1 (watchdog uses start without rebuild).
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -21,6 +23,8 @@ read_env_var TTS_KOKORO_USE_GPU
 read_env_var TTS_KOKORO_DEVICE
 read_env_var HSA_OVERRIDE_GFX_VERSION
 read_env_var HSA_ENABLE_SDMA
+read_env_var TTS_PUBLISH_PORT
+read_env_var TTS_BUILD
 
 is_strix_halo_gfx1151() {
   if ! command -v rocminfo >/dev/null; then
@@ -46,53 +50,42 @@ resolve_kokoro_image() {
   fi
 }
 
-stop_piper_if_running() {
-  if docker ps -q --filter name=^abc2book-tts-cpu$ | grep -q .; then
-    echo "Stopping Piper (tts-cpu); Kokoro is the active backend."
-    docker compose --profile tts-cpu stop tts-cpu 2>/dev/null || docker stop abc2book-tts-cpu 2>/dev/null || true
-  fi
-}
-
 GPU_WANTED=false
 if [[ -e /dev/kfd && -e /dev/dri ]]; then
   if [[ "${TTS_SKIP_GPU:-}" == "1" || "${TTS_SKIP_GPU:-}" == "true" ]]; then
-    echo "TTS_SKIP_GPU set; starting Piper CPU TTS only (skipping Kokoro)"
+    echo "TTS_SKIP_GPU set; starting Piper + gateway only (skipping Kokoro)"
   else
     GPU_WANTED=true
     resolve_kokoro_image
-    echo "AMD GPU devices detected; will start Kokoro (tts-gpu), not Piper"
+    echo "AMD GPU devices detected; starting Kokoro primary + Piper fallback"
   fi
 else
-  echo "No /dev/kfd or /dev/dri; starting Piper CPU TTS only"
+  echo "No /dev/kfd or /dev/dri; starting Piper + gateway only"
+fi
+
+BUILD_ARGS=()
+if [[ "${TTS_BUILD:-}" == "1" || "${TTS_BUILD:-}" == "true" ]]; then
+  BUILD_ARGS+=(--build)
 fi
 
 if [[ "$GPU_WANTED" == true ]]; then
-  echo "Starting TTS gateway..."
-  docker compose --profile tts up -d --build "$@"
-else
-  echo "Starting Piper CPU + gateway..."
-  docker compose --profile tts --profile tts-cpu up -d --build "$@"
-fi
-
-if [[ "$GPU_WANTED" != true ]]; then
-  echo "TTS stack up (Piper CPU on :${TTS_PUBLISH_PORT:-8789})"
-  exit 0
-fi
-
-KOKORO_IMAGE="${TTS_KOKORO_IMAGE:-$KOKORO_ROCM_IMAGE_DEFAULT}"
-if ! docker image inspect "$KOKORO_IMAGE" >/dev/null 2>&1; then
-  echo ""
-  echo "To use Piper CPU only instead: TTS_SKIP_GPU=1 ./scripts/tts-up.sh"
-  echo ""
-  if ! "$(dirname "$0")/tts-pull-gpu.sh"; then
-    echo "WARNING: Could not pull Kokoro image; starting Piper fallback." >&2
-    docker compose --profile tts-cpu up -d --build
-    echo "TTS stack up (Piper CPU on :${TTS_PUBLISH_PORT:-8789})" >&2
-    exit 1
+  KOKORO_IMAGE="${TTS_KOKORO_IMAGE:-$KOKORO_ROCM_IMAGE_DEFAULT}"
+  if ! docker image inspect "$KOKORO_IMAGE" >/dev/null 2>&1; then
+    echo ""
+    echo "To use Piper only: TTS_SKIP_GPU=1 ./scripts/tts-up.sh"
+    echo ""
+    if ! "$(dirname "$0")/tts-pull-gpu.sh"; then
+      echo "WARNING: Could not pull Kokoro image; starting Piper + gateway only." >&2
+      docker compose --profile tts --profile tts-cpu up -d "${BUILD_ARGS[@]}" tts-gateway tts-cpu
+      echo "TTS stack up (Piper on :${TTS_PUBLISH_PORT:-8789})" >&2
+      exit 1
+    fi
   fi
+  # Explicit service list avoids baking unrelated compose services (resolver/llm).
+  docker compose --profile tts --profile tts-gpu --profile tts-cpu up -d "${BUILD_ARGS[@]}" \
+    tts-gateway tts-gpu-init tts-gpu tts-cpu
+  echo "TTS stack up (Kokoro primary + Piper fallback on :${TTS_PUBLISH_PORT:-8789})"
+else
+  docker compose --profile tts --profile tts-cpu up -d "${BUILD_ARGS[@]}" tts-gateway tts-cpu
+  echo "TTS stack up (Piper on :${TTS_PUBLISH_PORT:-8789})"
 fi
-
-echo "Starting Kokoro service ($KOKORO_IMAGE)..."
-docker compose --profile tts-gpu up -d
-stop_piper_if_running
-echo "TTS stack up (Kokoro on :${TTS_PUBLISH_PORT:-8789}; Piper not started)"

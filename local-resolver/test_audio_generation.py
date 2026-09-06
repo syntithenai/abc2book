@@ -189,9 +189,14 @@ class AudioCppStagingTests(unittest.TestCase):
 
 class ResourceCoordinatorTests(unittest.IsolatedAsyncioTestCase):
     async def test_exclusive_lock_blocks_check(self):
-        async with audio_generation_exclusive():
-            with self.assertRaises(AudioGenerationInProgress):
-                check_not_blocked_by_audio_generation()
+        with mock.patch(
+            "gpu_prep.ensure_gpu_headroom",
+            new_callable=mock.AsyncMock,
+        ) as mock_prep:
+            mock_prep.return_value = {"skipped": "test"}
+            async with audio_generation_exclusive():
+                with self.assertRaises(AudioGenerationInProgress):
+                    check_not_blocked_by_audio_generation()
 
     def test_idle_status_tracks_activity(self):
         touch_audio_generation_activity()

@@ -1,0 +1,238 @@
+{
+  "id": "mountain-still-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 617,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:28]",
+      "file": "c007.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:28]",
+      "file": "c009.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:36]",
+      "file": "c012.ogg",
+      "durationSec": 36.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Imagine yourself as a mountain.",
+      "file": "c013.ogg",
+      "durationSec": 4.56
+    },
+    {
+      "index": 14,
+      "text": "Base wide. Peak quiet. Vast patience.",
+      "file": "c014.ogg",
+      "durationSec": 9.696
+    },
+    {
+      "index": 15,
+      "text": "[pause:43]",
+      "file": "c015.ogg",
+      "durationSec": 43.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Weather moves across the mountain.",
+      "file": "c016.ogg",
+      "durationSec": 4.536
+    },
+    {
+      "index": 17,
+      "text": "Sun. Wind. Cloud. Storm.",
+      "file": "c017.ogg",
+      "durationSec": 8.688
+    },
+    {
+      "index": 18,
+      "text": "The mountain remains.",
+      "file": "c018.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 19,
+      "text": "[pause:57]",
+      "file": "c019.ogg",
+      "durationSec": 57.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Thoughts and moods are weather.",
+      "file": "c020.ogg",
+      "durationSec": 4.248
+    },
+    {
+      "index": 21,
+      "text": "You are the mountain.",
+      "file": "c021.ogg",
+      "durationSec": 3.264
+    },
+    {
+      "index": 22,
+      "text": "[pause:57]",
+      "file": "c022.ogg",
+      "durationSec": 57.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Feel the base of your body rooted.",
+      "file": "c023.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 24,
+      "text": "Feel height in the spine without strain.",
+      "file": "c024.ogg",
+      "durationSec": 5.232
+    },
+    {
+      "index": 25,
+      "text": "[pause:43]",
+      "file": "c025.ogg",
+      "durationSec": 43.0,
+      "silence": true
+    },
+    {
+      "index": 26,
+      "text": "Breathe as sky around the mountain.",
+      "file": "c026.ogg",
+      "durationSec": 4.824
+    },
+    {
+      "index": 27,
+      "text": "[pause:71]",
+      "file": "c027.ogg",
+      "durationSec": 71.0,
+      "silence": true
+    },
+    {
+      "index": 28,
+      "text": "Steady. Unhurried. Enough.",
+      "file": "c028.ogg",
+      "durationSec": 7.8
+    },
+    {
+      "index": 29,
+      "text": "[pause:90]",
+      "file": "c029.ogg",
+      "durationSec": 90.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "[pause:43]",
+      "file": "c030.ogg",
+      "durationSec": 43.0,
+      "silence": true
+    },
+    {
+      "index": 31,
+      "text": "Begin to deepen the breath.",
+      "file": "c031.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 32,
+      "text": "Feel the room again.",
+      "file": "c032.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 33,
+      "text": "Wiggle fingers and toes.",
+      "file": "c033.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 34,
+      "text": "When ready, open the eyes.",
+      "file": "c034.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 35,
+      "text": "Move slowly into what comes next.",
+      "file": "c035.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

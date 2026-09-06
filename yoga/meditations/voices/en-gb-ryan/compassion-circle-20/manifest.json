@@ -1,0 +1,416 @@
+{
+  "id": "compassion-circle-20",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 1230,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:27]",
+      "file": "c007.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:27]",
+      "file": "c009.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:34]",
+      "file": "c012.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "We will offer kindness in a widening circle.",
+      "file": "c013.ogg",
+      "durationSec": 5.688
+    },
+    {
+      "index": 14,
+      "text": "Phrases are invitations, not commands.",
+      "file": "c014.ogg",
+      "durationSec": 6.48
+    },
+    {
+      "index": 15,
+      "text": "[pause:34]",
+      "file": "c015.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Toward yourself.",
+      "file": "c016.ogg",
+      "durationSec": 3.576
+    },
+    {
+      "index": 17,
+      "text": "May I be safe.",
+      "file": "c017.ogg",
+      "durationSec": 3.456
+    },
+    {
+      "index": 18,
+      "text": "[pause:27]",
+      "file": "c018.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "May I be well.",
+      "file": "c019.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 20,
+      "text": "[pause:27]",
+      "file": "c020.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "May I live with ease.",
+      "file": "c021.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 22,
+      "text": "[pause:41]",
+      "file": "c022.ogg",
+      "durationSec": 41.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Again, slowly.",
+      "file": "c023.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 24,
+      "text": "May I be safe.",
+      "file": "c024.ogg",
+      "durationSec": 3.456
+    },
+    {
+      "index": 25,
+      "text": "May I be well.",
+      "file": "c025.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 26,
+      "text": "May I live with ease.",
+      "file": "c026.ogg",
+      "durationSec": 3.816
+    },
+    {
+      "index": 27,
+      "text": "[pause:69]",
+      "file": "c027.ogg",
+      "durationSec": 69.0,
+      "silence": true
+    },
+    {
+      "index": 28,
+      "text": "Bring to mind a friend or someone easy to care about.",
+      "file": "c028.ogg",
+      "durationSec": 6.456
+    },
+    {
+      "index": 29,
+      "text": "May you be safe.",
+      "file": "c029.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 30,
+      "text": "[pause:27]",
+      "file": "c030.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 31,
+      "text": "May you be well.",
+      "file": "c031.ogg",
+      "durationSec": 3.36
+    },
+    {
+      "index": 32,
+      "text": "[pause:27]",
+      "file": "c032.ogg",
+      "durationSec": 27.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "May you live with ease.",
+      "file": "c033.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 34,
+      "text": "[pause:69]",
+      "file": "c034.ogg",
+      "durationSec": 69.0,
+      "silence": true
+    },
+    {
+      "index": 35,
+      "text": "Bring to mind a neutral person. Someone you barely know.",
+      "file": "c035.ogg",
+      "durationSec": 8.352
+    },
+    {
+      "index": 36,
+      "text": "May you be safe.",
+      "file": "c036.ogg",
+      "durationSec": 3.48
+    },
+    {
+      "index": 37,
+      "text": "May you be well.",
+      "file": "c037.ogg",
+      "durationSec": 3.36
+    },
+    {
+      "index": 38,
+      "text": "May you live with ease.",
+      "file": "c038.ogg",
+      "durationSec": 3.912
+    },
+    {
+      "index": 39,
+      "text": "[pause:69]",
+      "file": "c039.ogg",
+      "durationSec": 69.0,
+      "silence": true
+    },
+    {
+      "index": 40,
+      "text": "If it feels possible, include someone difficult, lightly.",
+      "file": "c040.ogg",
+      "durationSec": 7.416
+    },
+    {
+      "index": 41,
+      "text": "Or return to yourself if that is wiser today.",
+      "file": "c041.ogg",
+      "durationSec": 5.952
+    },
+    {
+      "index": 42,
+      "text": "May you be free from suffering.",
+      "file": "c042.ogg",
+      "durationSec": 4.584
+    },
+    {
+      "index": 43,
+      "text": "[pause:55]",
+      "file": "c043.ogg",
+      "durationSec": 55.0,
+      "silence": true
+    },
+    {
+      "index": 44,
+      "text": "Widen to all beings, near and far.",
+      "file": "c044.ogg",
+      "durationSec": 5.688
+    },
+    {
+      "index": 45,
+      "text": "May all beings be safe.",
+      "file": "c045.ogg",
+      "durationSec": 4.152
+    },
+    {
+      "index": 46,
+      "text": "[pause:34]",
+      "file": "c046.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 47,
+      "text": "May all beings be well.",
+      "file": "c047.ogg",
+      "durationSec": 4.08
+    },
+    {
+      "index": 48,
+      "text": "[pause:34]",
+      "file": "c048.ogg",
+      "durationSec": 34.0,
+      "silence": true
+    },
+    {
+      "index": 49,
+      "text": "May all beings live with ease.",
+      "file": "c049.ogg",
+      "durationSec": 4.632
+    },
+    {
+      "index": 50,
+      "text": "[pause:82]",
+      "file": "c050.ogg",
+      "durationSec": 82.0,
+      "silence": true
+    },
+    {
+      "index": 51,
+      "text": "Return to your own body and breath.",
+      "file": "c051.ogg",
+      "durationSec": 5.04
+    },
+    {
+      "index": 52,
+      "text": "Rest in the afterglow of the phrases.",
+      "file": "c052.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 53,
+      "text": "[pause:150]",
+      "file": "c053.ogg",
+      "durationSec": 150.0,
+      "silence": true
+    },
+    {
+      "index": 54,
+      "text": "Nothing to force. Softness is enough.",
+      "file": "c054.ogg",
+      "durationSec": 7.2
+    },
+    {
+      "index": 55,
+      "text": "[pause:137]",
+      "file": "c055.ogg",
+      "durationSec": 137.0,
+      "silence": true
+    },
+    {
+      "index": 56,
+      "text": "[pause:41]",
+      "file": "c056.ogg",
+      "durationSec": 41.0,
+      "silence": true
+    },
+    {
+      "index": 57,
+      "text": "Begin to deepen the breath.",
+      "file": "c057.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 58,
+      "text": "Rest here.",
+      "file": "c058.ogg",
+      "durationSec": 2.928
+    },
+    {
+      "index": 59,
+      "text": "[pause:26]",
+      "file": "c059.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 60,
+      "text": "Feel the room again.",
+      "file": "c060.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 61,
+      "text": "Wiggle fingers and toes.",
+      "file": "c061.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 62,
+      "text": "When ready, open the eyes.",
+      "file": "c062.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 63,
+      "text": "Move slowly into what comes next.",
+      "file": "c063.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

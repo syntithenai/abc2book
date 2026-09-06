@@ -1,0 +1,175 @@
+{
+  "id": "senses-grounding-5",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 319,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "If you feel scattered or activated, this practice can help.",
+      "file": "c001.ogg",
+      "durationSec": 7.248
+    },
+    {
+      "index": 2,
+      "text": "Keep the eyes open for now, if that feels safer.",
+      "file": "c002.ogg",
+      "durationSec": 6.216
+    },
+    {
+      "index": 3,
+      "text": "Plant both feet on the floor.",
+      "file": "c003.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 4,
+      "text": "[pause:17]",
+      "file": "c004.ogg",
+      "durationSec": 17.0,
+      "silence": true
+    },
+    {
+      "index": 5,
+      "text": "Name five things you can see.",
+      "file": "c005.ogg",
+      "durationSec": 4.608
+    },
+    {
+      "index": 6,
+      "text": "Quietly. Take your time.",
+      "file": "c006.ogg",
+      "durationSec": 6.096
+    },
+    {
+      "index": 7,
+      "text": "[pause:45]",
+      "file": "c007.ogg",
+      "durationSec": 45.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Name four things you can feel or touch.",
+      "file": "c008.ogg",
+      "durationSec": 5.328
+    },
+    {
+      "index": 9,
+      "text": "Clothes. Chair. Air on skin. Feet on floor.",
+      "file": "c009.ogg",
+      "durationSec": 11.472
+    },
+    {
+      "index": 10,
+      "text": "[pause:39]",
+      "file": "c010.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 11,
+      "text": "Name three sounds.",
+      "file": "c011.ogg",
+      "durationSec": 3.936
+    },
+    {
+      "index": 12,
+      "text": "Near or far. Soft or clear.",
+      "file": "c012.ogg",
+      "durationSec": 6.384
+    },
+    {
+      "index": 13,
+      "text": "[pause:39]",
+      "file": "c013.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 14,
+      "text": "Name two scents, or simply notice the quality of the air.",
+      "file": "c014.ogg",
+      "durationSec": 7.224
+    },
+    {
+      "index": 15,
+      "text": "[pause:28]",
+      "file": "c015.ogg",
+      "durationSec": 28.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Name one taste, or the feeling inside the mouth.",
+      "file": "c016.ogg",
+      "durationSec": 6.648
+    },
+    {
+      "index": 17,
+      "text": "[pause:23]",
+      "file": "c017.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 18,
+      "text": "You are here. In this body. In this room.",
+      "file": "c018.ogg",
+      "durationSec": 8.856
+    },
+    {
+      "index": 19,
+      "text": "Breathe in for four.",
+      "file": "c019.ogg",
+      "durationSec": 3.504
+    },
+    {
+      "index": 20,
+      "text": "Out for six.",
+      "file": "c020.ogg",
+      "durationSec": 3.216
+    },
+    {
+      "index": 21,
+      "text": "[pause:23]",
+      "file": "c021.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 22,
+      "text": "Take one more easy breath.",
+      "file": "c022.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 23,
+      "text": "Wiggle the fingers.",
+      "file": "c023.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 24,
+      "text": "When you are ready, open the eyes.",
+      "file": "c024.ogg",
+      "durationSec": 5.184
+    },
+    {
+      "index": 25,
+      "text": "Carry a little of this with you.",
+      "file": "c025.ogg",
+      "durationSec": 4.104
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

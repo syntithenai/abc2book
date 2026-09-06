@@ -1,0 +1,291 @@
+{
+  "id": "focus-steady-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 622,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:21]",
+      "file": "c007.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:21]",
+      "file": "c009.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:26]",
+      "file": "c012.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Choose the breath at the nostrils as your point.",
+      "file": "c013.ogg",
+      "durationSec": 5.568
+    },
+    {
+      "index": 14,
+      "text": "Stay with the feeling of air.",
+      "file": "c014.ogg",
+      "durationSec": 4.08
+    },
+    {
+      "index": 15,
+      "text": "[pause:26]",
+      "file": "c015.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "Count each exhale from one to ten.",
+      "file": "c016.ogg",
+      "durationSec": 4.968
+    },
+    {
+      "index": 17,
+      "text": "If you lose the count, begin again at one without blame.",
+      "file": "c017.ogg",
+      "durationSec": 6.816
+    },
+    {
+      "index": 18,
+      "text": "[pause:21]",
+      "file": "c018.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "One.",
+      "file": "c019.ogg",
+      "durationSec": 2.376
+    },
+    {
+      "index": 20,
+      "text": "[pause:21]",
+      "file": "c020.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Two.",
+      "file": "c021.ogg",
+      "durationSec": 2.4
+    },
+    {
+      "index": 22,
+      "text": "[pause:21]",
+      "file": "c022.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Three.",
+      "file": "c023.ogg",
+      "durationSec": 2.592
+    },
+    {
+      "index": 24,
+      "text": "[pause:21]",
+      "file": "c024.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Four.",
+      "file": "c025.ogg",
+      "durationSec": 2.496
+    },
+    {
+      "index": 26,
+      "text": "[pause:21]",
+      "file": "c026.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 27,
+      "text": "Five.",
+      "file": "c027.ogg",
+      "durationSec": 2.784
+    },
+    {
+      "index": 28,
+      "text": "[pause:21]",
+      "file": "c028.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 29,
+      "text": "Continue silently to ten, then start at one.",
+      "file": "c029.ogg",
+      "durationSec": 6.408
+    },
+    {
+      "index": 30,
+      "text": "[pause:90]",
+      "file": "c030.ogg",
+      "durationSec": 90.0,
+      "silence": true
+    },
+    {
+      "index": 31,
+      "text": "Release the counting.",
+      "file": "c031.ogg",
+      "durationSec": 3.6
+    },
+    {
+      "index": 32,
+      "text": "Rest in bare attention on the breath.",
+      "file": "c032.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 33,
+      "text": "[pause:79]",
+      "file": "c033.ogg",
+      "durationSec": 79.0,
+      "silence": true
+    },
+    {
+      "index": 34,
+      "text": "Clarity without hardness.",
+      "file": "c034.ogg",
+      "durationSec": 4.32
+    },
+    {
+      "index": 35,
+      "text": "[pause:42]",
+      "file": "c035.ogg",
+      "durationSec": 42.0,
+      "silence": true
+    },
+    {
+      "index": 36,
+      "text": "[pause:32]",
+      "file": "c036.ogg",
+      "durationSec": 32.0,
+      "silence": true
+    },
+    {
+      "index": 37,
+      "text": "Begin to deepen the breath.",
+      "file": "c037.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 38,
+      "text": "Rest here.",
+      "file": "c038.ogg",
+      "durationSec": 2.928
+    },
+    {
+      "index": 39,
+      "text": "[pause:44]",
+      "file": "c039.ogg",
+      "durationSec": 44.0,
+      "silence": true
+    },
+    {
+      "index": 40,
+      "text": "Feel the room again.",
+      "file": "c040.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 41,
+      "text": "Wiggle fingers and toes.",
+      "file": "c041.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 42,
+      "text": "When ready, open the eyes.",
+      "file": "c042.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 43,
+      "text": "Move slowly into what comes next.",
+      "file": "c043.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

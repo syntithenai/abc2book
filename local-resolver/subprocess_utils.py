@@ -9,7 +9,7 @@ from contextlib import asynccontextmanager
 SUBPROCESS_KILL_GRACE_SECONDS = float(os.getenv("SUBPROCESS_KILL_GRACE_SECONDS", "5"))
 MAX_CONCURRENT_HEAVY_JOBS = max(
     1,
-    int(os.getenv("MAX_CONCURRENT_HEAVY_JOBS", os.getenv("MAX_CONCURRENT_ML_JOBS", "2"))),
+    int(os.getenv("MAX_CONCURRENT_HEAVY_JOBS", os.getenv("MAX_CONCURRENT_ML_JOBS", "1"))),
 )
 HEAVY_JOB_QUEUE_TIMEOUT_SECONDS = float(os.getenv("HEAVY_JOB_QUEUE_TIMEOUT_SECONDS", "120"))
 
@@ -79,6 +79,14 @@ async def heavy_job_slot(timeout_seconds=None):
         check_not_blocked_by_audio_generation()
     except AudioGenerationInProgress as exc:
         raise HeavyJobQueueFull(str(exc)) from exc
+
+    # Stop Qwen / free Comfy before taking a heavy slot (outer acquire only).
+    try:
+        from gpu_prep import ensure_gpu_headroom
+
+        await ensure_gpu_headroom()
+    except Exception as exc:
+        raise HeavyJobQueueFull(f"GPU prep failed: {exc}") from exc
 
     wait_s = HEAVY_JOB_QUEUE_TIMEOUT_SECONDS if timeout_seconds is None else float(timeout_seconds)
     sem = _get_heavy_job_semaphore()

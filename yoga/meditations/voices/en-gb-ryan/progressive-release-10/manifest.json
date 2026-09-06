@@ -1,0 +1,481 @@
+{
+  "id": "progressive-release-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 635,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 1.496
+    },
+    {
+      "index": 1,
+      "text": "This practice uses gentle tension and release.",
+      "file": "c001.ogg",
+      "durationSec": 5.449
+    },
+    {
+      "index": 2,
+      "text": "Lie down if you can, or sit with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.64
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 3.877
+    },
+    {
+      "index": 4,
+      "text": "Nothing to force. Stay in a comfortable range.",
+      "file": "c004.ogg",
+      "durationSec": 5.206
+    },
+    {
+      "index": 5,
+      "text": "Take a slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 2.713
+    },
+    {
+      "index": 6,
+      "text": "And a longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 2.597
+    },
+    {
+      "index": 7,
+      "text": "[pause:19]",
+      "file": "c007.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Bring attention to both feet.",
+      "file": "c008.ogg",
+      "durationSec": 3.242
+    },
+    {
+      "index": 9,
+      "text": "Curl the toes and tighten the feet.",
+      "file": "c009.ogg",
+      "durationSec": 3.873
+    },
+    {
+      "index": 10,
+      "text": "Hold.",
+      "file": "c010.ogg",
+      "durationSec": 1.144
+    },
+    {
+      "index": 11,
+      "text": "[pause:19]",
+      "file": "c011.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 12,
+      "text": "Release.",
+      "file": "c012.ogg",
+      "durationSec": 1.437
+    },
+    {
+      "index": 13,
+      "text": "Feel the difference.",
+      "file": "c013.ogg",
+      "durationSec": 2.367
+    },
+    {
+      "index": 14,
+      "text": "[pause:21]",
+      "file": "c014.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 15,
+      "text": "Tighten the calves.",
+      "file": "c015.ogg",
+      "durationSec": 2.363
+    },
+    {
+      "index": 16,
+      "text": "Hold.",
+      "file": "c016.ogg",
+      "durationSec": 1.267
+    },
+    {
+      "index": 17,
+      "text": "[pause:19]",
+      "file": "c017.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 18,
+      "text": "Release.",
+      "file": "c018.ogg",
+      "durationSec": 1.431
+    },
+    {
+      "index": 19,
+      "text": "Let the lower legs grow heavy.",
+      "file": "c019.ogg",
+      "durationSec": 3.18
+    },
+    {
+      "index": 20,
+      "text": "[pause:21]",
+      "file": "c020.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "Tighten the thighs.",
+      "file": "c021.ogg",
+      "durationSec": 2.476
+    },
+    {
+      "index": 22,
+      "text": "Hold.",
+      "file": "c022.ogg",
+      "durationSec": 1.321
+    },
+    {
+      "index": 23,
+      "text": "[pause:19]",
+      "file": "c023.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 24,
+      "text": "Release.",
+      "file": "c024.ogg",
+      "durationSec": 1.317
+    },
+    {
+      "index": 25,
+      "text": "Soft legs. Soft hips.",
+      "file": "c025.ogg",
+      "durationSec": 2.831
+    },
+    {
+      "index": 26,
+      "text": "[pause:21]",
+      "file": "c026.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 27,
+      "text": "Gently draw the belly in.",
+      "file": "c027.ogg",
+      "durationSec": 3.075
+    },
+    {
+      "index": 28,
+      "text": "Hold without strain.",
+      "file": "c028.ogg",
+      "durationSec": 2.6
+    },
+    {
+      "index": 29,
+      "text": "[pause:19]",
+      "file": "c029.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Release.",
+      "file": "c030.ogg",
+      "durationSec": 1.553
+    },
+    {
+      "index": 31,
+      "text": "Let the belly move freely with breath.",
+      "file": "c031.ogg",
+      "durationSec": 4.107
+    },
+    {
+      "index": 32,
+      "text": "[pause:21]",
+      "file": "c032.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "Make soft fists. Tighten the hands and forearms.",
+      "file": "c033.ogg",
+      "durationSec": 5.79
+    },
+    {
+      "index": 34,
+      "text": "Hold.",
+      "file": "c034.ogg",
+      "durationSec": 1.089
+    },
+    {
+      "index": 35,
+      "text": "[pause:19]",
+      "file": "c035.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 36,
+      "text": "Release.",
+      "file": "c036.ogg",
+      "durationSec": 1.498
+    },
+    {
+      "index": 37,
+      "text": "Fingers open. Arms heavy.",
+      "file": "c037.ogg",
+      "durationSec": 3.644
+    },
+    {
+      "index": 38,
+      "text": "[pause:21]",
+      "file": "c038.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 39,
+      "text": "Shrug the shoulders up toward the ears.",
+      "file": "c039.ogg",
+      "durationSec": 4.225
+    },
+    {
+      "index": 40,
+      "text": "Hold.",
+      "file": "c040.ogg",
+      "durationSec": 1.314
+    },
+    {
+      "index": 41,
+      "text": "[pause:19]",
+      "file": "c041.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 42,
+      "text": "Drop them.",
+      "file": "c042.ogg",
+      "durationSec": 1.494
+    },
+    {
+      "index": 43,
+      "text": "Feel space across the upper back.",
+      "file": "c043.ogg",
+      "durationSec": 3.755
+    },
+    {
+      "index": 44,
+      "text": "[pause:21]",
+      "file": "c044.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 45,
+      "text": "Gently scrunch the face. Eyes, brow, jaw.",
+      "file": "c045.ogg",
+      "durationSec": 5.799
+    },
+    {
+      "index": 46,
+      "text": "Hold.",
+      "file": "c046.ogg",
+      "durationSec": 1.146
+    },
+    {
+      "index": 47,
+      "text": "[pause:19]",
+      "file": "c047.ogg",
+      "durationSec": 19.0,
+      "silence": true
+    },
+    {
+      "index": 48,
+      "text": "Release.",
+      "file": "c048.ogg",
+      "durationSec": 1.452
+    },
+    {
+      "index": 49,
+      "text": "Forehead smooth. Jaw soft. Tongue resting.",
+      "file": "c049.ogg",
+      "durationSec": 5.792
+    },
+    {
+      "index": 50,
+      "text": "[pause:23]",
+      "file": "c050.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 51,
+      "text": "Now tense the whole body lightly, as one.",
+      "file": "c051.ogg",
+      "durationSec": 4.867
+    },
+    {
+      "index": 52,
+      "text": "Hold for a breath.",
+      "file": "c052.ogg",
+      "durationSec": 2.251
+    },
+    {
+      "index": 53,
+      "text": "[pause:35]",
+      "file": "c053.ogg",
+      "durationSec": 35.0,
+      "silence": true
+    },
+    {
+      "index": 54,
+      "text": "Let everything go.",
+      "file": "c054.ogg",
+      "durationSec": 2.189
+    },
+    {
+      "index": 55,
+      "text": "[pause:8]",
+      "file": "c055.ogg",
+      "durationSec": 8.0,
+      "silence": true
+    },
+    {
+      "index": 56,
+      "text": "Once more, a lighter whole-body squeeze.",
+      "file": "c056.ogg",
+      "durationSec": 4.518
+    },
+    {
+      "index": 57,
+      "text": "Hold briefly.",
+      "file": "c057.ogg",
+      "durationSec": 1.899
+    },
+    {
+      "index": 58,
+      "text": "[pause:5]",
+      "file": "c058.ogg",
+      "durationSec": 5.0,
+      "silence": true
+    },
+    {
+      "index": 59,
+      "text": "And release completely.",
+      "file": "c059.ogg",
+      "durationSec": 2.482
+    },
+    {
+      "index": 60,
+      "text": "Heavier now. Softer now.",
+      "file": "c060.ogg",
+      "durationSec": 3.41
+    },
+    {
+      "index": 61,
+      "text": "Feel the body settle into the surface beneath you.",
+      "file": "c061.ogg",
+      "durationSec": 5.264
+    },
+    {
+      "index": 62,
+      "text": "[pause:39]",
+      "file": "c062.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 63,
+      "text": "Rest here.",
+      "file": "c063.ogg",
+      "durationSec": 1.499
+    },
+    {
+      "index": 64,
+      "text": "Breath quiet. Body soft.",
+      "file": "c064.ogg",
+      "durationSec": 3.697
+    },
+    {
+      "index": 65,
+      "text": "If thoughts return, that is fine.",
+      "file": "c065.ogg",
+      "durationSec": 4.107
+    },
+    {
+      "index": 66,
+      "text": "Return to the feeling of release.",
+      "file": "c066.ogg",
+      "durationSec": 3.581
+    },
+    {
+      "index": 67,
+      "text": "[pause:50]",
+      "file": "c067.ogg",
+      "durationSec": 50.0,
+      "silence": true
+    },
+    {
+      "index": 68,
+      "text": "Stay soft.",
+      "file": "c068.ogg",
+      "durationSec": 1.9
+    },
+    {
+      "index": 69,
+      "text": "[pause:40]",
+      "file": "c069.ogg",
+      "durationSec": 40.0,
+      "silence": true
+    },
+    {
+      "index": 70,
+      "text": "Wiggle fingers and toes.",
+      "file": "c070.ogg",
+      "durationSec": 3.063
+    },
+    {
+      "index": 71,
+      "text": "Take one more easy breath.",
+      "file": "c071.ogg",
+      "durationSec": 3.066
+    },
+    {
+      "index": 72,
+      "text": "When ready, open the eyes.",
+      "file": "c072.ogg",
+      "durationSec": 3.293
+    },
+    {
+      "index": 73,
+      "text": "Carry this softness with you.",
+      "file": "c073.ogg",
+      "durationSec": 3.056
+    }
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
+}

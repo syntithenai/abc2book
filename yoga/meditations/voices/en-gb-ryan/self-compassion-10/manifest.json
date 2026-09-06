@@ -1,0 +1,264 @@
+{
+  "id": "self-compassion-10",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 618,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome.",
+      "file": "c000.ogg",
+      "durationSec": 2.76
+    },
+    {
+      "index": 1,
+      "text": "Take time to arrive.",
+      "file": "c001.ogg",
+      "durationSec": 3.888
+    },
+    {
+      "index": 2,
+      "text": "Sit or lie down with support.",
+      "file": "c002.ogg",
+      "durationSec": 4.512
+    },
+    {
+      "index": 3,
+      "text": "Close the eyes if that feels safe.",
+      "file": "c003.ogg",
+      "durationSec": 4.752
+    },
+    {
+      "index": 4,
+      "text": "Feel contact with the ground.",
+      "file": "c004.ogg",
+      "durationSec": 4.488
+    },
+    {
+      "index": 5,
+      "text": "Slow breath in.",
+      "file": "c005.ogg",
+      "durationSec": 3.384
+    },
+    {
+      "index": 6,
+      "text": "Longer breath out.",
+      "file": "c006.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 7,
+      "text": "[pause:26]",
+      "file": "c007.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 8,
+      "text": "Again.",
+      "file": "c008.ogg",
+      "durationSec": 2.616
+    },
+    {
+      "index": 9,
+      "text": "[pause:26]",
+      "file": "c009.ogg",
+      "durationSec": 26.0,
+      "silence": true
+    },
+    {
+      "index": 10,
+      "text": "Let the shoulders drop.",
+      "file": "c010.ogg",
+      "durationSec": 3.696
+    },
+    {
+      "index": 11,
+      "text": "Let the belly soften.",
+      "file": "c011.ogg",
+      "durationSec": 3.552
+    },
+    {
+      "index": 12,
+      "text": "[pause:32]",
+      "file": "c012.ogg",
+      "durationSec": 32.0,
+      "silence": true
+    },
+    {
+      "index": 13,
+      "text": "Hand on heart, if that helps.",
+      "file": "c013.ogg",
+      "durationSec": 4.872
+    },
+    {
+      "index": 14,
+      "text": "Notice your state without judgment.",
+      "file": "c014.ogg",
+      "durationSec": 4.848
+    },
+    {
+      "index": 15,
+      "text": "[pause:32]",
+      "file": "c015.ogg",
+      "durationSec": 32.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "This is a moment of suffering, or of ordinary human strain.",
+      "file": "c016.ogg",
+      "durationSec": 7.296
+    },
+    {
+      "index": 17,
+      "text": "Others feel this too.",
+      "file": "c017.ogg",
+      "durationSec": 3.648
+    },
+    {
+      "index": 18,
+      "text": "[pause:39]",
+      "file": "c018.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 19,
+      "text": "May I be kind to myself in this moment.",
+      "file": "c019.ogg",
+      "durationSec": 5.376
+    },
+    {
+      "index": 20,
+      "text": "[pause:32]",
+      "file": "c020.ogg",
+      "durationSec": 32.0,
+      "silence": true
+    },
+    {
+      "index": 21,
+      "text": "May I accept myself as I am.",
+      "file": "c021.ogg",
+      "durationSec": 4.944
+    },
+    {
+      "index": 22,
+      "text": "[pause:32]",
+      "file": "c022.ogg",
+      "durationSec": 32.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "May I give myself the compassion I need.",
+      "file": "c023.ogg",
+      "durationSec": 5.472
+    },
+    {
+      "index": 24,
+      "text": "[pause:39]",
+      "file": "c024.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 25,
+      "text": "Repeat the phrases that land. Leave the ones that do not.",
+      "file": "c025.ogg",
+      "durationSec": 8.448
+    },
+    {
+      "index": 26,
+      "text": "[pause:52]",
+      "file": "c026.ogg",
+      "durationSec": 52.0,
+      "silence": true
+    },
+    {
+      "index": 27,
+      "text": "Imagine speaking to yourself as a wise friend would.",
+      "file": "c027.ogg",
+      "durationSec": 6.216
+    },
+    {
+      "index": 28,
+      "text": "What tone would they use?",
+      "file": "c028.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 29,
+      "text": "Offer yourself that tone now.",
+      "file": "c029.ogg",
+      "durationSec": 4.2
+    },
+    {
+      "index": 30,
+      "text": "[pause:65]",
+      "file": "c030.ogg",
+      "durationSec": 65.0,
+      "silence": true
+    },
+    {
+      "index": 31,
+      "text": "Breathe kindness in.",
+      "file": "c031.ogg",
+      "durationSec": 3.576
+    },
+    {
+      "index": 32,
+      "text": "Breathe harshness out.",
+      "file": "c032.ogg",
+      "durationSec": 3.792
+    },
+    {
+      "index": 33,
+      "text": "[pause:78]",
+      "file": "c033.ogg",
+      "durationSec": 78.0,
+      "silence": true
+    },
+    {
+      "index": 34,
+      "text": "[pause:39]",
+      "file": "c034.ogg",
+      "durationSec": 39.0,
+      "silence": true
+    },
+    {
+      "index": 35,
+      "text": "Begin to deepen the breath.",
+      "file": "c035.ogg",
+      "durationSec": 4.056
+    },
+    {
+      "index": 36,
+      "text": "Feel the room again.",
+      "file": "c036.ogg",
+      "durationSec": 3.528
+    },
+    {
+      "index": 37,
+      "text": "Wiggle fingers and toes.",
+      "file": "c037.ogg",
+      "durationSec": 4.296
+    },
+    {
+      "index": 38,
+      "text": "When ready, open the eyes.",
+      "file": "c038.ogg",
+      "durationSec": 4.92
+    },
+    {
+      "index": 39,
+      "text": "Move slowly into what comes next.",
+      "file": "c039.ogg",
+      "durationSec": 5.184
+    }
+  ],
+  "engine": "edge",
+  "note": "edge-tts bake for practice pack; optional elevenlabs re-bake later"
+}

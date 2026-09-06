@@ -1,0 +1,645 @@
+{
+  "id": "deep-rest-20",
+  "voiceId": "en-gb-ryan",
+  "edgeVoice": "en-GB-RyanNeural",
+  "rate": "-42%",
+  "pitch": "-12Hz",
+  "totalSec": 1337,
+  "chunks": [
+    {
+      "index": 0,
+      "text": "Welcome to a practice of deep rest.",
+      "file": "c000.ogg",
+      "durationSec": 4.166
+    },
+    {
+      "index": 1,
+      "text": "Lie on your back if you can.",
+      "file": "c001.ogg",
+      "durationSec": 3.011
+    },
+    {
+      "index": 2,
+      "text": "Support the head and knees if that helps.",
+      "file": "c002.ogg",
+      "durationSec": 4.22
+    },
+    {
+      "index": 3,
+      "text": "Let the arms rest by your sides, palms soft.",
+      "file": "c003.ogg",
+      "durationSec": 5.326
+    },
+    {
+      "index": 4,
+      "text": "Close the eyes.",
+      "file": "c004.ogg",
+      "durationSec": 2.131
+    },
+    {
+      "index": 5,
+      "text": "There is nowhere else to be.",
+      "file": "c005.ogg",
+      "durationSec": 2.83
+    },
+    {
+      "index": 6,
+      "text": "[pause:23]",
+      "file": "c006.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 7,
+      "text": "Feel the points of contact with the floor or bed.",
+      "file": "c007.ogg",
+      "durationSec": 5.083
+    },
+    {
+      "index": 8,
+      "text": "Heels. Hips. Shoulder blades. Head.",
+      "file": "c008.ogg",
+      "durationSec": 4.46
+    },
+    {
+      "index": 9,
+      "text": "Allow the body to be held.",
+      "file": "c009.ogg",
+      "durationSec": 3.011
+    },
+    {
+      "index": 10,
+      "text": "[pause:23]",
+      "file": "c010.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 11,
+      "text": "Notice the natural breath.",
+      "file": "c011.ogg",
+      "durationSec": 2.944
+    },
+    {
+      "index": 12,
+      "text": "No need to change it.",
+      "file": "c012.ogg",
+      "durationSec": 2.366
+    },
+    {
+      "index": 13,
+      "text": "Inhale arrives.",
+      "file": "c013.ogg",
+      "durationSec": 2.195
+    },
+    {
+      "index": 14,
+      "text": "Exhale leaves.",
+      "file": "c014.ogg",
+      "durationSec": 2.195
+    },
+    {
+      "index": 15,
+      "text": "[pause:25]",
+      "file": "c015.ogg",
+      "durationSec": 25.0,
+      "silence": true
+    },
+    {
+      "index": 16,
+      "text": "If the mind is busy, that is allowed.",
+      "file": "c016.ogg",
+      "durationSec": 4.169
+    },
+    {
+      "index": 17,
+      "text": "You can rest anyway.",
+      "file": "c017.ogg",
+      "durationSec": 2.54
+    },
+    {
+      "index": 18,
+      "text": "Simply keep returning to sensation.",
+      "file": "c018.ogg",
+      "durationSec": 4.052
+    },
+    {
+      "index": 19,
+      "text": "[pause:23]",
+      "file": "c019.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 20,
+      "text": "Bring awareness to the right foot.",
+      "file": "c020.ogg",
+      "durationSec": 3.404
+    },
+    {
+      "index": 21,
+      "text": "Toes. Sole. Heel.",
+      "file": "c021.ogg",
+      "durationSec": 3.234
+    },
+    {
+      "index": 22,
+      "text": "[pause:21]",
+      "file": "c022.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 23,
+      "text": "Right lower leg.",
+      "file": "c023.ogg",
+      "durationSec": 2.134
+    },
+    {
+      "index": 24,
+      "text": "Knee.",
+      "file": "c024.ogg",
+      "durationSec": 1.201
+    },
+    {
+      "index": 25,
+      "text": "Thigh.",
+      "file": "c025.ogg",
+      "durationSec": 1.145
+    },
+    {
+      "index": 26,
+      "text": "[pause:21]",
+      "file": "c026.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 27,
+      "text": "Right hip.",
+      "file": "c027.ogg",
+      "durationSec": 1.615
+    },
+    {
+      "index": 28,
+      "text": "Whole right leg, heavy and quiet.",
+      "file": "c028.ogg",
+      "durationSec": 4.106
+    },
+    {
+      "index": 29,
+      "text": "[pause:23]",
+      "file": "c029.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 30,
+      "text": "Left foot.",
+      "file": "c030.ogg",
+      "durationSec": 1.67
+    },
+    {
+      "index": 31,
+      "text": "Toes. Sole. Heel.",
+      "file": "c031.ogg",
+      "durationSec": 2.941
+    },
+    {
+      "index": 32,
+      "text": "[pause:21]",
+      "file": "c032.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 33,
+      "text": "Left lower leg.",
+      "file": "c033.ogg",
+      "durationSec": 2.013
+    },
+    {
+      "index": 34,
+      "text": "Knee.",
+      "file": "c034.ogg",
+      "durationSec": 1.268
+    },
+    {
+      "index": 35,
+      "text": "Thigh.",
+      "file": "c035.ogg",
+      "durationSec": 1.15
+    },
+    {
+      "index": 36,
+      "text": "[pause:21]",
+      "file": "c036.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 37,
+      "text": "Left hip.",
+      "file": "c037.ogg",
+      "durationSec": 1.611
+    },
+    {
+      "index": 38,
+      "text": "Whole left leg, heavy and quiet.",
+      "file": "c038.ogg",
+      "durationSec": 3.989
+    },
+    {
+      "index": 39,
+      "text": "[pause:23]",
+      "file": "c039.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 40,
+      "text": "Pelvis and low belly.",
+      "file": "c040.ogg",
+      "durationSec": 2.658
+    },
+    {
+      "index": 41,
+      "text": "Soft.",
+      "file": "c041.ogg",
+      "durationSec": 1.32
+    },
+    {
+      "index": 42,
+      "text": "[pause:21]",
+      "file": "c042.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 43,
+      "text": "Chest rising and falling.",
+      "file": "c043.ogg",
+      "durationSec": 2.993
+    },
+    {
+      "index": 44,
+      "text": "Heart space open and easy.",
+      "file": "c044.ogg",
+      "durationSec": 3.351
+    },
+    {
+      "index": 45,
+      "text": "[pause:23]",
+      "file": "c045.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 46,
+      "text": "Right hand.",
+      "file": "c046.ogg",
+      "durationSec": 1.78
+    },
+    {
+      "index": 47,
+      "text": "Fingers. Palm. Wrist.",
+      "file": "c047.ogg",
+      "durationSec": 3.108
+    },
+    {
+      "index": 48,
+      "text": "[pause:14]",
+      "file": "c048.ogg",
+      "durationSec": 14.0,
+      "silence": true
+    },
+    {
+      "index": 49,
+      "text": "Right arm. Elbow. Shoulder.",
+      "file": "c049.ogg",
+      "durationSec": 3.822
+    },
+    {
+      "index": 50,
+      "text": "[pause:21]",
+      "file": "c050.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 51,
+      "text": "Left hand.",
+      "file": "c051.ogg",
+      "durationSec": 1.797
+    },
+    {
+      "index": 52,
+      "text": "Fingers. Palm. Wrist.",
+      "file": "c052.ogg",
+      "durationSec": 3.076
+    },
+    {
+      "index": 53,
+      "text": "[pause:14]",
+      "file": "c053.ogg",
+      "durationSec": 14.0,
+      "silence": true
+    },
+    {
+      "index": 54,
+      "text": "Left arm. Elbow. Shoulder.",
+      "file": "c054.ogg",
+      "durationSec": 3.592
+    },
+    {
+      "index": 55,
+      "text": "[pause:23]",
+      "file": "c055.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 56,
+      "text": "Throat soft.",
+      "file": "c056.ogg",
+      "durationSec": 1.78
+    },
+    {
+      "index": 57,
+      "text": "Jaw unclenched.",
+      "file": "c057.ogg",
+      "durationSec": 2.422
+    },
+    {
+      "index": 58,
+      "text": "Tongue resting.",
+      "file": "c058.ogg",
+      "durationSec": 2.147
+    },
+    {
+      "index": 59,
+      "text": "[pause:21]",
+      "file": "c059.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 60,
+      "text": "Eyes resting in their sockets.",
+      "file": "c060.ogg",
+      "durationSec": 3.288
+    },
+    {
+      "index": 61,
+      "text": "Forehead smooth.",
+      "file": "c061.ogg",
+      "durationSec": 2.245
+    },
+    {
+      "index": 62,
+      "text": "Scalp and crown of the head.",
+      "file": "c062.ogg",
+      "durationSec": 3.115
+    },
+    {
+      "index": 63,
+      "text": "[pause:23]",
+      "file": "c063.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 64,
+      "text": "Sense the whole body as one field of stillness.",
+      "file": "c064.ogg",
+      "durationSec": 5.096
+    },
+    {
+      "index": 65,
+      "text": "Breath moving through it like a quiet tide.",
+      "file": "c065.ogg",
+      "durationSec": 4.457
+    },
+    {
+      "index": 66,
+      "text": "[pause:62]",
+      "file": "c066.ogg",
+      "durationSec": 62.0,
+      "silence": true
+    },
+    {
+      "index": 67,
+      "text": "Stay with the whole body.",
+      "file": "c067.ogg",
+      "durationSec": 2.425
+    },
+    {
+      "index": 68,
+      "text": "[pause:105]",
+      "file": "c068.ogg",
+      "durationSec": 105.0,
+      "silence": true
+    },
+    {
+      "index": 69,
+      "text": "Soft. Spacious. Still.",
+      "file": "c069.ogg",
+      "durationSec": 3.59
+    },
+    {
+      "index": 70,
+      "text": "[pause:55]",
+      "file": "c070.ogg",
+      "durationSec": 55.0,
+      "silence": true
+    },
+    {
+      "index": 71,
+      "text": "If a thought appears, let it pass like a cloud.",
+      "file": "c071.ogg",
+      "durationSec": 5.092
+    },
+    {
+      "index": 72,
+      "text": "[pause:50]",
+      "file": "c072.ogg",
+      "durationSec": 50.0,
+      "silence": true
+    },
+    {
+      "index": 73,
+      "text": "Return to the feeling of being held.",
+      "file": "c073.ogg",
+      "durationSec": 3.94
+    },
+    {
+      "index": 74,
+      "text": "[pause:55]",
+      "file": "c074.ogg",
+      "durationSec": 55.0,
+      "silence": true
+    },
+    {
+      "index": 75,
+      "text": "Rest here.",
+      "file": "c075.ogg",
+      "durationSec": 1.55
+    },
+    {
+      "index": 76,
+      "text": "Nothing to solve.",
+      "file": "c076.ogg",
+      "durationSec": 2.245
+    },
+    {
+      "index": 77,
+      "text": "Nothing to complete.",
+      "file": "c077.ogg",
+      "durationSec": 2.364
+    },
+    {
+      "index": 78,
+      "text": "[pause:110]",
+      "file": "c078.ogg",
+      "durationSec": 110.0,
+      "silence": true
+    },
+    {
+      "index": 79,
+      "text": "If you drift, that is fine.",
+      "file": "c079.ogg",
+      "durationSec": 3.294
+    },
+    {
+      "index": 80,
+      "text": "If you stay aware, that is fine too.",
+      "file": "c080.ogg",
+      "durationSec": 4.511
+    },
+    {
+      "index": 81,
+      "text": "Both are rest.",
+      "file": "c081.ogg",
+      "durationSec": 2.129
+    },
+    {
+      "index": 82,
+      "text": "[pause:130]",
+      "file": "c082.ogg",
+      "durationSec": 130.0,
+      "silence": true
+    },
+    {
+      "index": 83,
+      "text": "Rest.",
+      "file": "c083.ogg",
+      "durationSec": 1.386
+    },
+    {
+      "index": 84,
+      "text": "[pause:115]",
+      "file": "c084.ogg",
+      "durationSec": 115.0,
+      "silence": true
+    },
+    {
+      "index": 85,
+      "text": "Begin to notice the breath again.",
+      "file": "c085.ogg",
+      "durationSec": 3.412
+    },
+    {
+      "index": 86,
+      "text": "A little more vivid now.",
+      "file": "c086.ogg",
+      "durationSec": 2.716
+    },
+    {
+      "index": 87,
+      "text": "[pause:23]",
+      "file": "c087.ogg",
+      "durationSec": 23.0,
+      "silence": true
+    },
+    {
+      "index": 88,
+      "text": "Feel the room around you.",
+      "file": "c088.ogg",
+      "durationSec": 2.777
+    },
+    {
+      "index": 89,
+      "text": "Sounds near and far.",
+      "file": "c089.ogg",
+      "durationSec": 2.245
+    },
+    {
+      "index": 90,
+      "text": "[pause:21]",
+      "file": "c090.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 91,
+      "text": "Wiggle the fingers.",
+      "file": "c091.ogg",
+      "durationSec": 2.313
+    },
+    {
+      "index": 92,
+      "text": "Wiggle the toes.",
+      "file": "c092.ogg",
+      "durationSec": 2.197
+    },
+    {
+      "index": 93,
+      "text": "Roll the wrists and ankles if you like.",
+      "file": "c093.ogg",
+      "durationSec": 3.99
+    },
+    {
+      "index": 94,
+      "text": "[pause:21]",
+      "file": "c094.ogg",
+      "durationSec": 21.0,
+      "silence": true
+    },
+    {
+      "index": 95,
+      "text": "Take a deeper breath in.",
+      "file": "c095.ogg",
+      "durationSec": 2.713
+    },
+    {
+      "index": 96,
+      "text": "And a long sigh out.",
+      "file": "c096.ogg",
+      "durationSec": 2.713
+    },
+    {
+      "index": 97,
+      "text": "When you are ready, open the eyes.",
+      "file": "c097.ogg",
+      "durationSec": 3.637
+    },
+    {
+      "index": 98,
+      "text": "Return slowly.",
+      "file": "c098.ogg",
+      "durationSec": 2.304
+    },
+    {
+      "index": 99,
+      "text": "Carry a little of this quiet with you.",
+      "file": "c099.ogg",
+      "durationSec": 3.934
+    }
+  ],
+  "engine": "elevenlabs",
+  "elevenVoice": "JBFqnCBsd6RMkjVDRZzb",
+  "elevenLabel": "George",
+  "elevenSpeed": 0.7,
+  "atempo": 0.8,
+  "eqDb": 0.0
+}
