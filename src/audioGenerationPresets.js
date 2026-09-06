@@ -54,6 +54,9 @@ export function formatAudioGenerationError(message) {
   if (raw.indexOf('audio.cpp HTTP 500') === 0) {
     return formatAudioGenerationError(raw.replace(/^audio\.cpp HTTP 500:\s*/, ''));
   }
+  if (/heavy job queue busy|audio generation in progress|gpu prep failed|gpu_busy/i.test(raw)) {
+    return 'GPU is busy with another job. Wait for it to finish, then try again.';
+  }
   return raw;
 }
 

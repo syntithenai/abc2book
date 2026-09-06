@@ -7,13 +7,12 @@ import android.app.PendingIntent
 import android.app.Service
 import android.content.Context
 import android.content.Intent
-import android.media.AudioAttributes as PlatformAudioAttributes
-import android.media.AudioFocusRequest
-import android.media.AudioManager
 import android.net.Uri
 import android.os.Binder
 import android.os.Build
+import android.os.Handler
 import android.os.IBinder
+import android.os.Looper
 import android.os.PowerManager
 import androidx.core.app.NotificationCompat
 import androidx.media3.common.AudioAttributes
@@ -83,14 +82,13 @@ class TunebookMediaService : Service(), Player.Listener {
     private var currentTitle = "Tunebook"
     private var currentArtist = ""
     private var wakeLock: PowerManager.WakeLock? = null
-    private var audioManager: AudioManager? = null
-    private var audioFocusRequest: AudioFocusRequest? = null
-    private var hasAudioFocus = false
     private var wantsPlayback = false
     private var lastUri: String? = null
     private var lastPositionMs: Long = 0L
     private var pendingLoadAutoplay = false
     private var pendingLoadCompletion: LoadCompletionListener? = null
+    private val mainHandler = Handler(Looper.getMainLooper())
+    private var loadTimeoutRunnable: Runnable? = null
 
     interface MediaEventListener {
         fun onStateChange(isPlaying: Boolean, positionMs: Long, durationMs: Long, hasMedia: Boolean)
@@ -103,7 +101,6 @@ class TunebookMediaService : Service(), Player.Listener {
     override fun onCreate() {
         super.onCreate()
         runningInstance = this
-        audioManager = getSystemService(Context.AUDIO_SERVICE) as AudioManager
         createNotificationChannel()
         wantsPlayback = persistedWantsPlayback
         lastUri = persistedLastUri
@@ -141,6 +138,7 @@ class TunebookMediaService : Service(), Player.Listener {
     ) {
         ensurePlayer()
         pendingLoadCompletion?.onLoadFailed("Superseded by new load")
+        clearLoadTimeout()
         pendingLoadCompletion = completion
         pendingLoadAutoplay = autoplay
         currentTitle = title ?: "Tunebook"
@@ -208,7 +206,8 @@ class TunebookMediaService : Service(), Player.Listener {
             exo.seekTo(positionMs)
         }
         if (autoplay) {
-            requestAudioFocus()
+            wantsPlayback = true
+            persistedWantsPlayback = true
             acquireWakeLock()
             exo.playWhenReady = true
             exo.play()
@@ -219,16 +218,35 @@ class TunebookMediaService : Service(), Player.Listener {
         if (completion != null && exo.playbackState == Player.STATE_READY) {
             completePendingLoad(exo)
         }
+        if (completion != null) {
+            scheduleLoadTimeout()
+        }
         emitState()
+    }
+
+    private fun scheduleLoadTimeout() {
+        clearLoadTimeout()
+        val timeout = Runnable {
+            failPendingLoad("Playback load timeout")
+        }
+        loadTimeoutRunnable = timeout
+        mainHandler.postDelayed(timeout, 30000L)
+    }
+
+    private fun clearLoadTimeout() {
+        loadTimeoutRunnable?.let { mainHandler.removeCallbacks(it) }
+        loadTimeoutRunnable = null
     }
 
     private fun completePendingLoad(exo: ExoPlayer) {
         val completion = pendingLoadCompletion ?: return
         if (pendingLoadAutoplay) {
-            if (!exo.isPlaying) return
+            val ready = exo.playbackState == Player.STATE_READY
+            if (!exo.isPlaying && !(exo.playWhenReady && ready)) return
         } else if (exo.playbackState != Player.STATE_READY) {
             return
         }
+        clearLoadTimeout()
         pendingLoadCompletion = null
         android.util.Log.i(
             "TunebookMedia",
@@ -239,6 +257,7 @@ class TunebookMediaService : Service(), Player.Listener {
 
     private fun failPendingLoad(message: String) {
         val completion = pendingLoadCompletion ?: return
+        clearLoadTimeout()
         pendingLoadCompletion = null
         completion.onLoadFailed(message)
     }
@@ -271,7 +290,6 @@ class TunebookMediaService : Service(), Player.Listener {
             return
         }
         if (!wantsPlayback) return
-        requestAudioFocus()
         acquireWakeLock()
         if (!exo.isPlaying && exo.playbackState != Player.STATE_ENDED) {
             exo.playWhenReady = true
@@ -285,7 +303,6 @@ class TunebookMediaService : Service(), Player.Listener {
         ensurePlayer()
         wantsPlayback = true
         persistedWantsPlayback = true
-        requestAudioFocus()
         acquireWakeLock()
         player?.playWhenReady = true
         player?.play()
@@ -299,7 +316,6 @@ class TunebookMediaService : Service(), Player.Listener {
         persistedWantsPlayback = false
         player?.playWhenReady = false
         player?.pause()
-        abandonAudioFocus("pause")
         releaseWakeLock()
         promoteToForeground()
         emitState()
@@ -334,7 +350,6 @@ class TunebookMediaService : Service(), Player.Listener {
         pendingLoadCompletion = null
         player?.stop()
         player?.clearMediaItems()
-        abandonAudioFocus("stop")
         releaseWakeLock()
         stopForeground(STOP_FOREGROUND_REMOVE)
         stopSelf()
@@ -356,53 +371,13 @@ class TunebookMediaService : Service(), Player.Listener {
             .build()
         player = ExoPlayer.Builder(this)
             .setWakeMode(C.WAKE_MODE_LOCAL)
-            .setAudioAttributes(audioAttributes, false)
+            .setAudioAttributes(audioAttributes, true)
             .setHandleAudioBecomingNoisy(true)
             .build()
             .also { exo ->
                 exo.addListener(this)
                 mediaSession = MediaSession.Builder(this, exo).build()
             }
-    }
-
-    private fun requestAudioFocus(): Boolean {
-        val manager = audioManager ?: return false
-        if (hasAudioFocus) return true
-        val granted = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val attrs = PlatformAudioAttributes.Builder()
-                .setUsage(PlatformAudioAttributes.USAGE_MEDIA)
-                .setContentType(PlatformAudioAttributes.CONTENT_TYPE_MUSIC)
-                .build()
-            val request = AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN)
-                .setAudioAttributes(attrs)
-                .setOnAudioFocusChangeListener { /* keep playing in foreground service */ }
-                .build()
-            audioFocusRequest = request
-            manager.requestAudioFocus(request) == AudioManager.AUDIOFOCUS_REQUEST_GRANTED
-        } else {
-            @Suppress("DEPRECATION")
-            manager.requestAudioFocus(
-                null,
-                AudioManager.STREAM_MUSIC,
-                AudioManager.AUDIOFOCUS_GAIN
-            ) == AudioManager.AUDIOFOCUS_REQUEST_GRANTED
-        }
-        hasAudioFocus = granted
-        return granted
-    }
-
-    private fun abandonAudioFocus(reason: String) {
-        android.util.Log.i("TunebookMedia", "DBG abandon focus reason=$reason")
-        val manager = audioManager ?: return
-        if (!hasAudioFocus) return
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            audioFocusRequest?.let { manager.abandonAudioFocusRequest(it) }
-            audioFocusRequest = null
-        } else {
-            @Suppress("DEPRECATION")
-            manager.abandonAudioFocus(null)
-        }
-        hasAudioFocus = false
     }
 
     private fun acquireWakeLock() {
@@ -435,7 +410,6 @@ class TunebookMediaService : Service(), Player.Listener {
             )
             wantsPlayback = false
             persistedWantsPlayback = false
-            abandonAudioFocus("ended")
             releaseWakeLock()
             eventListener?.onEnded()
         } else if (playbackState == Player.STATE_READY) {
@@ -470,7 +444,7 @@ class TunebookMediaService : Service(), Player.Listener {
             else -> "Playback error"
         }
         android.util.Log.e("TunebookMedia", "Player error uri=${lastUri?.take(80)} msg=$message", error)
-        abandonAudioFocus("error")
+        failPendingLoad(message)
         releaseWakeLock()
         eventListener?.onError(message)
     }
@@ -549,7 +523,6 @@ class TunebookMediaService : Service(), Player.Listener {
             runningInstance = null
         }
         pendingLoadCompletion = null
-        abandonAudioFocus("destroy")
         releaseWakeLock()
         mediaSession?.release()
         mediaSession = null

@@ -6,6 +6,8 @@ import { resolveFillPlaybackOptions } from './playbackFillSettings'
 import { buildPlaybackSequence } from './playbackFillPattern'
 import { resolveSequencePathMeasureTiming } from './playbackStateLogic'
 import { clearAbcjsSoundsCache } from './abcjsSoundsCache'
+import { buildPlaybackTimingMap } from './playbackTimingMap'
+import { agentDebugLog } from './playbackDebug'
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/'
 
@@ -89,7 +91,40 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
     const status = primeResult && primeResult.status ? String(primeResult.status) : 'unknown'
     throw new Error('Could not render notation audio (status=' + status + ')')
   }
+  const expectedDurationSec = estimateVisualAudioDurationSec(visualObj)
+  if (expectedDurationSec > 3 && buffer.duration < expectedDurationSec * 0.85) {
+    throw new Error(
+      'Rendered notation audio is too short ('
+      + buffer.duration.toFixed(2) + 's vs expected '
+      + expectedDurationSec.toFixed(2) + 's)'
+    )
+  }
   return buffer
+}
+
+function estimateVisualAudioDurationSec(visualObj) {
+  if (!visualObj) return 0
+  const map = buildPlaybackTimingMap(visualObj)
+  if (map && map.totalMusicSeconds > 0) {
+    return map.totalMusicSeconds
+  }
+  if (typeof visualObj.getTotalTime === 'function') {
+    const ms = parseFloat(visualObj.getTotalTime())
+    if (ms > 0) return ms / 1000
+  }
+  return 0
+}
+
+/**
+ * Expected audible duration (seconds) for ABC notation at written tempo.
+ * Used to reject truncated native prerenders and stale cache files.
+ */
+export function estimateAbcAudioDurationSec(abc, options) {
+  const opts = options || {}
+  if (!abc || !String(abc).trim()) return 0
+  const visualObj = renderAbcVisual(abc)
+  if (!visualObj) return 0
+  return estimateVisualAudioDurationSec(visualObj)
 }
 
 function soundFontCandidates(tune) {
@@ -127,18 +162,44 @@ export async function renderAbcToAudioBuffer(abc, options) {
   const audioContext = new AudioContextClass()
   const candidates = soundFontCandidates(opts.tune)
   let lastError = null
+  const renderStartedAt = Date.now()
+  // #region agent log
+  agentDebugLog('notationAudioExport.js:renderAbcToAudioBuffer', 'start', {
+    candidateCount: candidates.length,
+    firstUrl: candidates[0] && candidates[0].url ? String(candidates[0].url).slice(0, 80) : null,
+    abcLen: String(abc).length,
+  }, 'H-A')
+  // #endregion
   try {
     for (let i = 0; i < candidates.length; i += 1) {
       try {
         if (i > 0) clearAbcjsSoundsCache()
-        return await primeAbcToAudioBuffer(
+        const buffer = await primeAbcToAudioBuffer(
           abc,
           audioContext,
           candidates[i].plan,
           opts
         )
+        // #region agent log
+        agentDebugLog('notationAudioExport.js:renderAbcToAudioBuffer', 'ok', {
+          candidateIndex: i,
+          bank: candidates[i].plan && candidates[i].plan.bank,
+          durationSec: buffer && buffer.duration,
+          elapsedMs: Date.now() - renderStartedAt,
+        }, 'H-A')
+        // #endregion
+        return buffer
       } catch (err) {
         lastError = err
+        // #region agent log
+        agentDebugLog('notationAudioExport.js:renderAbcToAudioBuffer', 'candidate-fail', {
+          candidateIndex: i,
+          bank: candidates[i].plan && candidates[i].plan.bank,
+          url: candidates[i].url ? String(candidates[i].url).slice(0, 80) : null,
+          message: err && err.message ? String(err.message).slice(0, 160) : 'unknown',
+          elapsedMs: Date.now() - renderStartedAt,
+        }, 'H-A')
+        // #endregion
       }
     }
     throw lastError || new Error('Could not render notation audio')

@@ -58,3 +58,11 @@ export function showAudioGenerationCompleteToast(options) {
 export function showAudioGenerationErrorToast(message) {
   toast.error(message);
 }
+
+export function showAudioGenerationWaitingToast(message) {
+  toast.info(message || 'Waiting for GPU…', {
+    autoClose: 5000,
+    hideProgressBar: true,
+    toastId: 'audio-generation-waiting-gpu',
+  });
+}

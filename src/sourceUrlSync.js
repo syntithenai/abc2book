@@ -1,5 +1,6 @@
 import { buildSourceUrlMergeRecords, summarizeMergeRecords } from './incomingMergeUtils';
 import { normalizeSourceUrlKey } from './incomingMergePrefs';
+import { recordSourceSyncBaseline } from './sourceSyncBaseline';
 import { toTuneUpdatedMs } from './tuneBookSync';
 import { applyTuneImportSelections, buildDefaultTuneImportSelections, buildTuneImportFieldRows } from './tuneImportMergeUtils';
 import {
@@ -227,6 +228,7 @@ function stampSourceUrlOnTune(tune, sourceUrl) {
 export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
   const next = Object.assign({}, localTunes || {});
   const sourceUrl = batch && batch.sourceUrl;
+  const sourceKey = batch && batch.sourceKey;
   (batch.records || []).forEach(function(record) {
     const state = recordState && recordState[record.id];
     if (state && state.accept === false) return;
@@ -237,6 +239,9 @@ export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
     if (record.kind === 'insert') {
       const nextTune = stripIncomingPersonalFields(JSON.parse(JSON.stringify(record.incomingTune)));
       next[record.id] = stampSourceUrlOnTune(nextTune, sourceUrl);
+      if (sourceKey) {
+        recordSourceSyncBaseline(sourceKey, record.id, next[record.id], record.incomingTune);
+      }
       return;
     }
     const selections = state && state.fieldSelections
@@ -246,6 +251,9 @@ export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
     preserveLocalPersonalFields(merged, record.localTune);
     merged.lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
     next[record.id] = stampSourceUrlOnTune(merged, sourceUrl);
+    if (sourceKey) {
+      recordSourceSyncBaseline(sourceKey, record.id, next[record.id], record.incomingTune);
+    }
   });
   return next;
 }

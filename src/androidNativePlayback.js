@@ -15,9 +15,10 @@ import {
   openBatteryOptimizationSettings,
   resolveNativePlaybackUri,
   markNativePlayerActive,
+  isBenignNativeLoadError,
 } from './nativeMediaPlayer';
 import { prefersNativeMediaPlayback } from './platformUtils';
-import { renderAbcToAudioBuffer } from './notationAudioExport';
+import { renderAbcToAudioBuffer, estimateAbcAudioDurationSec } from './notationAudioExport';
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
@@ -200,7 +201,13 @@ export async function renderAndPlayAbcNative(abc, options) {
   const opts = options || {};
   const tuneId = opts.tune && opts.tune.id ? opts.tune.id : null;
   const tempo = opts.tempo > 0 ? opts.tempo : 1;
-  const minDurationSec = opts.minDurationSec > 0 ? opts.minDurationSec : 0;
+  let minDurationSec = opts.minDurationSec > 0 ? opts.minDurationSec : 0;
+  if (!(minDurationSec > 0) && abc) {
+    minDurationSec = estimateAbcAudioDurationSec(abc, {
+      tune: opts.tune,
+      tunebook: opts.tunebook,
+    });
+  }
   agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'start', {
     tuneId: tuneId, tempo: tempo, generation: generation, minDurationSec: minDurationSec,
   }, 'H-D');
@@ -284,7 +291,11 @@ export async function renderAndPlayAbcNative(abc, options) {
     agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'error', {
       tuneId: tuneId,
       message: err && err.message ? String(err.message) : 'unknown',
+      benign: isBenignNativeLoadError(err),
     }, 'H-D')
+    if (isBenignNativeLoadError(err)) {
+      return false
+    }
     throw err
   } finally {
     if (isGenerationCurrent(generation)) {
@@ -321,6 +332,17 @@ export async function playAndroidNativeYoutube(src, options) {
       filePath = played.filePath || null;
       fetchVia = played.via || 'native';
       markNativePlayerActive(filePath || played.streamUrl || null);
+      if (opts.play !== false && opts.tempo && opts.tempo !== 1) {
+        await setNativePlayerSpeed(opts.tempo);
+      }
+      // #region agent log
+      agentDebugLog('androidNativePlayback.js:playAndroidNativeYoutube', 'ok', {
+        videoId: videoId,
+        via: fetchVia,
+        hasFile: !!filePath,
+        hasStream: !!(played && played.streamUrl),
+      }, 'H-D')
+      // #endregion
       return {
         ok: true,
         filePath: filePath,
@@ -353,6 +375,13 @@ export async function playAndroidNativeYoutube(src, options) {
       message = 'YouTube audio unavailable';
     }
     logPlaybackDebug('youtube-native-error', { videoId: videoId, message: message });
+    // #region agent log
+    agentDebugLog('androidNativePlayback.js:playAndroidNativeYoutube', 'error', {
+      videoId: videoId,
+      message: message.slice(0, 200),
+      raw: e && e.message ? String(e.message).slice(0, 200) : null,
+    }, 'H-D')
+    // #endregion
     return { ok: false, error: message, videoId: videoId };
   }
 }

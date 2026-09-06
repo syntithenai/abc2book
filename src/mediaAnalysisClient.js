@@ -3,6 +3,19 @@ import { formatDiscoveredChords } from './chordDiscoveryFormatter';
 import { formatMelodyNotes } from './melodyFormatter';
 import { formatKeySignatureShort } from './melodyPitchSpelling';
 import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
+import { formatGpuBusyError, isGpuBusyError, withGpuBusyRetries } from './gpuBusyRetry';
+import { toast } from 'react-toastify';
+
+function notifyGpuWaiting(onProgress) {
+  if (typeof onProgress === 'function') {
+    onProgress('Waiting for GPU…', 0);
+  }
+  toast.info('Waiting for GPU…', {
+    autoClose: 5000,
+    hideProgressBar: true,
+    toastId: 'media-analysis-waiting-gpu',
+  });
+}
 
 export function normalizeMediaAnalysis(body) {
   if (!body || typeof body !== 'object') {
@@ -455,51 +468,65 @@ export async function analyzeMediaFromSource(options) {
     onProgress(source.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...', 0);
   }
 
-  if (source.kind === 'recording') {
-    if (!source.blob) {
-      throw new Error('Recording data is not available');
-    }
-    const formData = new FormData();
-    formData.append('file', source.blob, source.fileName || 'recording.wav');
-    formData.append('sourceName', source.label || source.fileName || 'Recording');
-    formData.append('processing', JSON.stringify(melodyProcessing));
-    const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
-      method: 'POST',
-      body: formData,
+  try {
+    return await withGpuBusyRetries(async function() {
+      if (source.kind === 'recording') {
+        if (!source.blob) {
+          throw new Error('Recording data is not available');
+        }
+        const formData = new FormData();
+        formData.append('file', source.blob, source.fileName || 'recording.wav');
+        formData.append('sourceName', source.label || source.fileName || 'Recording');
+        formData.append('processing', JSON.stringify(melodyProcessing));
+        const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
+          method: 'POST',
+          body: formData,
+          signal: signal,
+          headers: {
+            Accept: ANALYSIS_ACCEPT_HEADER,
+          },
+        });
+        return parseAnalysisResponse(response, onProgress);
+      }
+
+      if (!source.src) {
+        throw new Error('Media source URL is missing');
+      }
+
+      const payload = {
+        sourceUrl: source.src,
+        sourceType: source.srcType || 'audio',
+        sourceName: source.label || '',
+        processing: melodyProcessing,
+      };
+      if (typeof source.startAt === 'number' && source.startAt > 0) {
+        payload.startAt = source.startAt;
+      }
+      if (typeof source.endAt === 'number' && source.endAt > 0) {
+        payload.endAt = source.endAt;
+      }
+
+      const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
+        method: 'POST',
+        body: JSON.stringify(payload),
+        signal: signal,
+        headers: {
+          Accept: ANALYSIS_ACCEPT_HEADER,
+          'Content-Type': 'application/json',
+        },
+      });
+
+      return parseAnalysisResponse(response, onProgress);
+    }, {
       signal: signal,
-      headers: {
-        Accept: ANALYSIS_ACCEPT_HEADER,
+      onWaiting: function() {
+        notifyGpuWaiting(onProgress);
       },
     });
-    return parseAnalysisResponse(response, onProgress);
+  } catch (err) {
+    if (isGpuBusyError(err)) {
+      throw new Error(formatGpuBusyError(err));
+    }
+    throw err;
   }
-
-  if (!source.src) {
-    throw new Error('Media source URL is missing');
-  }
-
-  const payload = {
-    sourceUrl: source.src,
-    sourceType: source.srcType || 'audio',
-    sourceName: source.label || '',
-    processing: melodyProcessing,
-  };
-  if (typeof source.startAt === 'number' && source.startAt > 0) {
-    payload.startAt = source.startAt;
-  }
-  if (typeof source.endAt === 'number' && source.endAt > 0) {
-    payload.endAt = source.endAt;
-  }
-
-  const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
-    method: 'POST',
-    body: JSON.stringify(payload),
-    signal: signal,
-    headers: {
-      Accept: ANALYSIS_ACCEPT_HEADER,
-      'Content-Type': 'application/json',
-    },
-  });
-
-  return parseAnalysisResponse(response, onProgress);
 }

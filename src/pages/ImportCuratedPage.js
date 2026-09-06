@@ -211,6 +211,7 @@ export default function ImportCuratedPage({
             label: curatedTitle || 'Imported collection',
             scopeOption: importScopeOption(routeParams),
             results: combined,
+            tunes: mergedTunes,
           })
           navHelpers.tunes = mergedTunes
           handleImportNavigation(navPayload, navHelpers, !!autoplay)

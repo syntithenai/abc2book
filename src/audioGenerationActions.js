@@ -22,7 +22,7 @@ import {
   presetLabel,
 } from './audioGenerationPresets';
 import { enqueueAudioGenerationJob, bindAudioGenerationResolverJob, failAudioGenerationJob, updateAudioGenerationJobMessage } from './audioGenerationJobStore';
-import { showAudioGenerationErrorToast } from './audioGenerationToast';
+import { showAudioGenerationErrorToast, showAudioGenerationWaitingToast } from './audioGenerationToast';
 import { getLinkSrcType } from './checkTuneLinkPlayback';
 import {
   getRecording,
@@ -299,8 +299,12 @@ export async function runAudioGenerationFromWizard(spec) {
           token: token,
           presetId: presetId,
           scoreBlob: midiScoreToBlob(midiScore.midiBytes),
+          onWaiting: function() {
+            updateAudioGenerationJobMessage(localJobId, 'Waiting for GPU…', 'waiting_gpu');
+            showAudioGenerationWaitingToast('Waiting for GPU…');
+          },
         }),
-        60000,
+        180000,
         'Could not reach the audio generation service. Check the resolver and try again.'
       );
       bindAudioGenerationResolverJob(localJobId, started.jobId, {
@@ -330,8 +334,12 @@ export async function runAudioGenerationFromWizard(spec) {
       startLinkedCoverGeneration(requestPayload, {
         token: token,
         presetId: presetId,
+        onWaiting: function() {
+          updateAudioGenerationJobMessage(localJobId, 'Waiting for GPU…', 'waiting_gpu');
+          showAudioGenerationWaitingToast('Waiting for GPU…');
+        },
       }),
-      60000,
+      180000,
       'Could not reach the audio generation service. Check the resolver and try again.'
     );
     bindAudioGenerationResolverJob(localJobId, started.jobId, {

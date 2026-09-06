@@ -5,12 +5,20 @@ import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { TunebookMedia, isNativeMediaPlayerAvailable } from './capacitor/tunebookPlugins';
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
+import { logPlaybackDebug, agentDebugLog } from './playbackDebug';
 
 let listenerHandles = [];
 let active = false;
 let currentUri = null;
+let loadChain = Promise.resolve();
 
 const NATIVE_LOAD_TIMEOUT_MS = 20000;
+
+export function isBenignNativeLoadError(err) {
+  const msg = err && err.message ? String(err.message) : String(err || '');
+  return msg.indexOf('Superseded by new load') >= 0
+    || msg.indexOf('Stopped') >= 0;
+}
 
 export function isNativePlayerActive() {
   return active;
@@ -66,6 +74,13 @@ function waitForNativeLoadComplete(shouldPlay) {
       if (settled) return
       settled = true
       remove()
+      // #region agent log
+      agentDebugLog('nativeMediaPlayer.js:waitForNativeLoadComplete', 'timeout', {
+        shouldPlay: !!shouldPlay,
+        timeoutMs: NATIVE_LOAD_TIMEOUT_MS,
+        uriTail: currentUri ? String(currentUri).slice(-48) : null,
+      }, 'H-B')
+      // #endregion
       reject(new Error('Native playback load timeout'))
     }, NATIVE_LOAD_TIMEOUT_MS)
     function finish(ok, err) {
@@ -103,37 +118,52 @@ export async function loadNativePlayer(options) {
   if (!isNativeMediaPlayerAvailable()) {
     throw new Error('Native media player is only available in the Android app');
   }
-  const opts = options || {};
-  let uri = opts.uri;
-  if (!uri && opts.blob) {
-    uri = await writeBlobToCacheUri(opts.blob, opts.filename || ('track-' + Date.now() + '.wav'));
-  }
-  if (!uri) {
-    throw new Error('uri or blob is required for native playback');
-  }
-  uri = resolveNativePlaybackUri(uri);
-  currentUri = uri;
-  const shouldPlay = opts.play !== false;
-  try {
-    await TunebookMedia.load({
-      uri: uri,
-      title: opts.title || 'Tunebook',
-      artist: opts.artist || '',
-      positionMs: opts.positionMs || 0,
-      autoplay: shouldPlay,
-      requestHeaders: opts.requestHeaders || undefined,
-    });
-    await waitForNativeLoadComplete(shouldPlay);
-    active = true;
-    if (shouldPlay && opts.tempo && opts.tempo !== 1) {
-      await setNativePlayerSpeed(opts.tempo);
+  const run = async function() {
+    const opts = options || {};
+    let uri = opts.uri;
+    if (!uri && opts.blob) {
+      uri = await writeBlobToCacheUri(opts.blob, opts.filename || ('track-' + Date.now() + '.wav'));
     }
-    return uri;
-  } catch (e) {
-    active = false;
-    currentUri = null;
-    throw e;
-  }
+    if (!uri) {
+      throw new Error('uri or blob is required for native playback');
+    }
+    uri = resolveNativePlaybackUri(uri);
+    currentUri = uri;
+    const shouldPlay = opts.play !== false;
+    try {
+      await TunebookMedia.load({
+        uri: uri,
+        title: opts.title || 'Tunebook',
+        artist: opts.artist || '',
+        positionMs: opts.positionMs || 0,
+        autoplay: shouldPlay,
+        requestHeaders: opts.requestHeaders || undefined,
+      });
+      await waitForNativeLoadComplete(shouldPlay);
+      active = true;
+      if (shouldPlay && opts.tempo && opts.tempo !== 1) {
+        await setNativePlayerSpeed(opts.tempo);
+      }
+      return uri;
+    } catch (e) {
+      if (!isBenignNativeLoadError(e)) {
+        active = false;
+        currentUri = null;
+      }
+      // #region agent log
+      agentDebugLog('nativeMediaPlayer.js:loadNativePlayer', 'error', {
+        message: e && e.message ? String(e.message).slice(0, 160) : 'unknown',
+        benign: isBenignNativeLoadError(e),
+        uriTail: uri ? String(uri).slice(-48) : null,
+      }, 'H-F');
+      // #endregion
+      throw e;
+    }
+  };
+  // Serialize loads so concurrent callers cannot race ExoPlayer into "Superseded".
+  const result = loadChain.then(run, run);
+  loadChain = result.then(function() {}, function() {});
+  return result;
 }
 
 export async function playNativePlayer() {
@@ -168,10 +198,26 @@ export async function getNativePlayerState() {
 }
 
 export async function stopNativePlayer() {
-  if (!isNativeMediaPlayerAvailable()) return;
-  active = false;
-  currentUri = null;
-  await TunebookMedia.stop();
+  if (!isNativeMediaPlayerAvailable()) {
+    active = false;
+    currentUri = null;
+    return;
+  }
+  const run = async function() {
+    // #region agent log
+    agentDebugLog('nativeMediaPlayer.js:stopNativePlayer', 'run', {
+      hadActive: active,
+      uriTail: currentUri ? String(currentUri).slice(-48) : null,
+    }, 'H-G');
+    // #endregion
+    active = false;
+    currentUri = null;
+    await TunebookMedia.stop();
+  };
+  // Keep stop on the same chain as load so a prior stop cannot land after a new load.
+  const result = loadChain.then(run, run);
+  loadChain = result.then(function() {}, function() {});
+  return result;
 }
 
 export function addNativePlayerListener(eventName, handler) {

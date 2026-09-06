@@ -2,11 +2,17 @@
  * Optional playback routing diagnostics (localStorage tunebook_playback_debug=1).
  */
 const AGENT_DEBUG_ENDPOINT = 'http://127.0.0.1:7543/ingest/714bef82-d1cf-4636-9283-79de04198120'
-const AGENT_DEBUG_SESSION = 'eea50f'
+const AGENT_DEBUG_SESSION = '4a62b2'
 const ROUTE_LOG_MAX = 50
+// #region agent log
+const AGENT_DEBUG_FORCE = true
+// #endregion
 
 export function isPlaybackDebugEnabled() {
   if (typeof window === 'undefined') return false
+  // #region agent log
+  if (AGENT_DEBUG_FORCE) return true
+  // #endregion
   try {
     if (window.__tunebookPlaybackDebug) return true
     if (window.__tunebookAgentDebug) return true
@@ -111,10 +117,16 @@ export function agentDebugLog(location, message, data, hypothesisId) {
     data: data || {},
     hypothesisId: hypothesisId || '',
     timestamp: Date.now(),
-    runId: 'midi-debug',
+    runId: 'android-playback',
   }
+  // #region agent log
+  // Single-string console so Capacitor/logcat keeps the full JSON (not [object Object]).
   if (typeof console !== 'undefined' && console.log) {
-    console.log('[DBG-' + AGENT_DEBUG_SESSION + ']', location, message, payload.data)
+    try {
+      console.log('[DBG-' + AGENT_DEBUG_SESSION + '] ' + JSON.stringify(payload))
+    } catch (e) {
+      console.log('[DBG-' + AGENT_DEBUG_SESSION + ']', location, message)
+    }
   }
   fetch(AGENT_DEBUG_ENDPOINT, {
     method: 'POST',
@@ -124,6 +136,7 @@ export function agentDebugLog(location, message, data, hypothesisId) {
     },
     body: JSON.stringify(payload),
   }).catch(function() {})
+  // #endregion
 }
 
 export function logPlaybackDebug(route, detail) {

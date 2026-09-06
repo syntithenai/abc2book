@@ -5,10 +5,16 @@
 import {
   buildFiltersFromImportScope,
   collectTuneIdsFromImportResults,
+  seedSourceSyncBaselinesAfterImport,
   stampSrcUrlOnImportResults,
 } from './syncSourceImportUtils';
+import { getSourceSyncBaseline } from './sourceSyncBaseline';
 
 describe('syncSourceImportUtils', function() {
+  beforeEach(function() {
+    localStorage.clear();
+  });
+
   test('buildFiltersFromImportScope maps scopes', function() {
     expect(buildFiltersFromImportScope({ scope: 'book', bookName: 'Songs' })).toEqual({
       limitToBookName: 'Songs',
@@ -33,5 +39,14 @@ describe('syncSourceImportUtils', function() {
       updates: [{ id: 'b' }],
     });
     expect(ids).toEqual(['a', 'b']);
+  });
+
+  test('seedSourceSyncBaselinesAfterImport seeds baselines for imported tunes', function() {
+    seedSourceSyncBaselinesAfterImport(
+      { url: 'https://example.com/book.abc' },
+      { a: { id: 'a', lastUpdated: 100 } },
+      { inserts: [{ id: 'a' }] }
+    );
+    expect(getSourceSyncBaseline('https://example.com/book.abc', 'a').appliedAt).toBe(100);
   });
 });

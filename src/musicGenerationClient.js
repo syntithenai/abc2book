@@ -1,4 +1,5 @@
 import { fetchViaMediaProxy, normalizeAccessToken } from './mediaProxyClient';
+import { withGpuBusyRetries } from './gpuBusyRetry';
 
 async function parseJsonResponse(response, fallbackMessage) {
   const body = await response.json().catch(function() {
@@ -44,12 +45,18 @@ export const fetchPracticeTrackBackends = fetchAudioGenerationBackends;
 
 export async function startAudioGeneration(formData, options) {
   const opts = options || {};
-  const response = await fetchViaMediaProxy(audioGenerationPath(), opts.token, {
-    method: 'POST',
-    body: formData,
-    headers: { Accept: 'application/json' },
+  return withGpuBusyRetries(async function() {
+    const response = await fetchViaMediaProxy(audioGenerationPath(), opts.token, {
+      method: 'POST',
+      body: formData,
+      headers: { Accept: 'application/json' },
+      signal: opts.signal,
+    });
+    return parseJsonResponse(response, 'Audio generation failed to start');
+  }, {
+    signal: opts.signal,
+    onWaiting: opts.onWaiting,
   });
-  return parseJsonResponse(response, 'Audio generation failed to start');
 }
 
 export async function startPracticeTrackGeneration(payload, melodyBlob, options) {

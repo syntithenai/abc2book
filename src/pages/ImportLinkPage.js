@@ -167,6 +167,7 @@ export default function ImportLinkPage({
               label: curatedTitle || 'Imported collection',
               scopeOption: importScopeOption(params),
               results: stampedResults,
+              tunes: mergedTunes,
             })
             navHelpers.tunes = mergedTunes
             handleImportNavigation(navPayload, navHelpers, !!autoplay)

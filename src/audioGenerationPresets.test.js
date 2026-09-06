@@ -76,4 +76,9 @@ describe('audioGenerationPresets', function() {
     )).toMatch(/stable-audio-3-medium/);
     expect(formatAudioGenerationError('')).toBe('Audio generation failed');
   });
+
+  test('formatAudioGenerationError explains GPU busy queue', function() {
+    expect(formatAudioGenerationError('Heavy job queue busy; try again shortly'))
+      .toMatch(/GPU is busy/);
+  });
 });

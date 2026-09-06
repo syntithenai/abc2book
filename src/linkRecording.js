@@ -795,6 +795,7 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
   } catch (e) {}
 
   const recording = recordingId ? await getRecording(recordingId) : null
+  let localBlobFailed = false
   if (recording) {
     let blobResult = await recordingDataToMp3(recording)
     if (!blobResult || !blobResult.blob) {
@@ -806,16 +807,42 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
       }
       return { blob: blobResult.blob, duration: blobResult.duration, source: 'local' }
     }
+    localBlobFailed = true
   }
 
   const googleId = link.googleId || (recording && recording.googleId)
+  let driveFetchAttempted = false
+  let driveFetchOk = false
   if (googleId && driveApi) {
+    driveFetchAttempted = true
     const remote = await fetchOwnedMediaFromDrive(googleId, accessToken, driveApi, 'audio')
     if (remote && remote.media && remote.media.blob) {
+      driveFetchOk = true
       await putExternalMediaCache(cacheKey, remote.media.blob, remote.media.duration)
       return { blob: remote.media.blob, duration: remote.media.duration, source: remote.source }
     }
   }
+
+  // #region agent log
+  try {
+    const { agentDebugLog } = require('./playbackDebug')
+    agentDebugLog('linkRecording.js:resolveRecordingLinkAudio', 'resolve-miss', {
+      recordingId: recordingId || null,
+      hasRecording: !!recording,
+      localBlobFailed: localBlobFailed,
+      hasDataUri: !!(recording && recording.data),
+      hasMp3Blob: !!(recording && recording.mp3Blob),
+      mediaKind: recording && recording.mediaKind ? recording.mediaKind : null,
+      googleIdPresent: !!googleId,
+      hasAccessToken: !!accessToken,
+      hasDriveApi: !!driveApi,
+      driveFetchAttempted: driveFetchAttempted,
+      driveFetchOk: driveFetchOk,
+      online: typeof navigator !== 'undefined' ? !!navigator.onLine : null,
+      linkKeys: link ? Object.keys(link).slice(0, 20) : [],
+    }, 'H-rec')
+  } catch (e) {}
+  // #endregion
 
   if (googleId && !recording && !accessToken) {
     throw new Error('Recording not shared publicly — sign in and try again, or use MIDI playback.')

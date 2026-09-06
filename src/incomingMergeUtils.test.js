@@ -4,7 +4,10 @@ import {
   isMassDeleteBatch,
   stripMassDeletesFromSheetResults,
   sanitizeRemoteDeletedAgainstLocalTunes,
+  splitSourceUrlMergeRecords,
+  isSourceUrlTuneClash,
 } from './incomingMergeUtils';
+import { recordSourceSyncBaseline } from './sourceSyncBaseline';
 
 describe('incomingMergeUtils source URL merge', function() {
   test('buildSourceUrlMergeRecords skips updates when local tunebook is newer', function() {
@@ -171,6 +174,60 @@ describe('incomingMergeUtils source URL merge', function() {
       { kind: 'insert' },
     ]);
     expect(summary).toBe('1 to add, 1 to update');
+  });
+});
+
+describe('splitSourceUrlMergeRecords', function() {
+  beforeEach(function() {
+    localStorage.clear();
+  });
+
+  test('insert records go to silent bucket', function() {
+    const records = [{ id: 't2', kind: 'insert', incomingTune: { id: 't2', lastUpdated: 100 } }];
+    const split = splitSourceUrlMergeRecords(records, 'source-a');
+    expect(split.silentRecords).toHaveLength(1);
+    expect(split.clashRecords).toHaveLength(0);
+    expect(split.seededIds).toEqual([]);
+  });
+
+  test('incoming newer update without local edit since baseline is silent', function() {
+    recordSourceSyncBaseline('source-a', 't1', { lastUpdated: 100 }, { lastUpdated: 100 });
+    const records = [{
+      id: 't1',
+      kind: 'update',
+      localTune: { id: 't1', lastUpdated: 100 },
+      incomingTune: { id: 't1', lastUpdated: 500 },
+    }];
+    const split = splitSourceUrlMergeRecords(records, 'source-a');
+    expect(split.silentRecords).toHaveLength(1);
+    expect(split.clashRecords).toHaveLength(0);
+  });
+
+  test('incoming newer update after local edit is clash', function() {
+    recordSourceSyncBaseline('source-a', 't1', { lastUpdated: 100 }, { lastUpdated: 100 });
+    const record = {
+      id: 't1',
+      kind: 'update',
+      localTune: { id: 't1', lastUpdated: 200 },
+      incomingTune: { id: 't1', lastUpdated: 500 },
+    };
+    expect(isSourceUrlTuneClash(record, 'source-a')).toBe(true);
+    const split = splitSourceUrlMergeRecords([record], 'source-a');
+    expect(split.clashRecords).toHaveLength(1);
+    expect(split.silentRecords).toHaveLength(0);
+  });
+
+  test('legacy tune without baseline is seeded only on first poll', function() {
+    const records = [{
+      id: 't1',
+      kind: 'update',
+      localTune: { id: 't1', lastUpdated: 100 },
+      incomingTune: { id: 't1', lastUpdated: 500 },
+    }];
+    const split = splitSourceUrlMergeRecords(records, 'source-a');
+    expect(split.silentRecords).toHaveLength(0);
+    expect(split.clashRecords).toHaveLength(0);
+    expect(split.seededIds).toEqual(['t1']);
   });
 });
 

@@ -146,6 +146,7 @@ export default function ImportGoogleDocumentPage({
         scopeOption: scopeOption,
         results: stamped,
         label: 'Shared tunebook',
+        tunes: mergedTunes,
       })
       handleImportNavigation(scopePayload, {
         navigate: navigate,

@@ -823,44 +823,68 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         resolve()
         return
       }
-      function fetchExportFallback() {
-        // Google-native docs don't support alt=media on revisions; use the revision's export link
-        var exportUrl = exportLinks && (exportLinks['text/plain'] || exportLinks['text/csv'])
-        if (!exportUrl) {
-          resolve()
-          return
-        }
-        axios({
+      function fetchRevisionText(url) {
+        return axios({
           method: 'get',
-          url: exportUrl,
+          url: url,
           headers: {'Authorization': 'Bearer '+accessToken},
           responseType: 'text',
           transformResponse: [function(data) { return data }],
         }).then(function(postRes) {
-          resolve(postRes.data)
+          var text = postRes.data
+          if (text && typeof text === 'string' && text.length > 0) return text
+          return null
         }).catch(function(e) {
           if (e && e.response && e.response.status == '401') {
             handleDriveUnauthorized(logout, token)
           }
-          resolve()
+          return null
         })
       }
-      axios({
-        method: 'get',
-        url: 'https://www.googleapis.com/drive/v3/files/'+id+'/revisions/'+revisionId+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
-        headers: {'Authorization': 'Bearer '+accessToken},
-        responseType: 'text',
-        transformResponse: [function(data) { return data }],
-      }).then(function(postRes) {
-        resolve(postRes.data)
-      }).catch(function(e) {
-        if (e && e.response && e.response.status == '401') {
-          handleDriveUnauthorized(logout, token)
+      function fetchExportLinkUrl(links) {
+        var exportUrl = links && (links['text/plain'] || links['text/csv'])
+        if (!exportUrl) return Promise.resolve(null)
+        return fetchRevisionText(exportUrl)
+      }
+      function fetchGoogleDocRevisionExport() {
+        // Drive v3 revision exportLinks are often missing or expire after ~12 hours.
+        // This legacy export URL still works for Google Docs revision history.
+        var url = 'https://docs.google.com/feeds/download/documents/export/Export?id=' + encodeURIComponent(id)
+          + '&revision=' + encodeURIComponent(revisionId) + '&exportFormat=txt'
+        return fetchRevisionText(url)
+      }
+      function fetchDriveV2ExportLink() {
+        return axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/drive/v2/files/' + id + '/revisions/' + revisionId,
+          headers: {'Authorization': 'Bearer '+accessToken},
+        }).then(function(postRes) {
+          return fetchExportLinkUrl(postRes.data && postRes.data.exportLinks)
+        }).catch(function(e) {
+          if (e && e.response && e.response.status == '401') {
+            handleDriveUnauthorized(logout, token)
+          }
+          return null
+        })
+      }
+      function tryNext(fetchers, index) {
+        if (index >= fetchers.length) {
           resolve()
-        } else {
-          fetchExportFallback()
+          return
         }
-      })
+        fetchers[index]().then(function(text) {
+          if (text) resolve(text)
+          else tryNext(fetchers, index + 1)
+        })
+      }
+      var mediaUrl = 'https://www.googleapis.com/drive/v3/files/' + id + '/revisions/' + revisionId
+        + '?alt=media&nocache=' + String(parseInt(Math.random() * 1000000000))
+      tryNext([
+        function() { return fetchRevisionText(mediaUrl) },
+        function() { return fetchExportLinkUrl(exportLinks) },
+        fetchGoogleDocRevisionExport,
+        fetchDriveV2ExportLink,
+      ], 0)
     })
   }
 

@@ -45,7 +45,7 @@ class TunebookMediaPlugin : Plugin(), TunebookMediaService.MediaEventListener {
     }
 
     override fun load() {
-        // Lazy: service is started only on first playback operation.
+        ensureServiceStartedForPlayback()
     }
 
     override fun handleOnDestroy() {

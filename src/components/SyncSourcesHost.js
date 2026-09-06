@@ -1,9 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import IncomingMergeModal from './IncomingMergeModal';
 import { getSourceMergePref, setSourceMergePref } from '../incomingMergePrefs';
+import {
+  splitSourceUrlMergeRecords,
+  summarizeMergeRecords,
+} from '../incomingMergeUtils';
 import { pollRegisteredSourceUpdates, startSourceUrlPolling } from '../sourceUrlSync';
 import { registerMergeCheckHandler, unregisterMergeCheckHandler } from '../mergeCheckTrigger';
-import { dismissMergeToast, showIncomingMergeToast } from '../mergeToast';
 import { backfillSourcesFromTunes } from '../syncSourcesStore';
 import {
   applyMergeDismissalState,
@@ -31,6 +34,13 @@ function filterDismissedRecords(batch, tunebook) {
   });
 }
 
+function buildSubBatch(batch, records) {
+  return Object.assign({}, batch, {
+    records: records,
+    summary: summarizeMergeRecords(records),
+  });
+}
+
 export default function SyncSourcesHost(props) {
   const token = props.token;
   const tunes = props.tunes;
@@ -43,11 +53,10 @@ export default function SyncSourcesHost(props) {
   const [pendingBatch, setPendingBatch] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const queueRef = useRef([]);
-  const showingToastRef = useRef(false);
   const backfilledRef = useRef(false);
 
   const processQueue = useCallback(function() {
-    if (showingToastRef.current || pendingBatch) return;
+    if (pendingBatch) return;
     while (queueRef.current.length > 0) {
       let next = queueRef.current.shift();
       next = filterDismissedRecords(next, tunebook);
@@ -60,25 +69,19 @@ export default function SyncSourcesHost(props) {
         continue;
       }
       if (!next.records || next.records.length === 0) continue;
-      setPendingBatch(next);
-      showingToastRef.current = true;
-      showIncomingMergeToast({
-        message: 'Source updates available for ' + next.sourceLabel + '.',
-        onAccept: function() {
-          showingToastRef.current = false;
-          dismissMergeToast();
-          applyMergeDismissalState(next.sourceKey, next, null, getTuneImportHash(tunebook));
-          if (typeof onApplySourceUrlMerge === 'function') {
-            onApplySourceUrlMerge(next, null);
-          }
-          setPendingBatch(null);
-          setShowModal(false);
-          processQueue();
-        },
-        onMerge: function() {
-          setShowModal(true);
-        },
-      });
+
+      const split = splitSourceUrlMergeRecords(next.records, next.sourceKey);
+      if (split.silentRecords.length > 0) {
+        const silentBatch = buildSubBatch(next, split.silentRecords);
+        applyMergeDismissalState(next.sourceKey, silentBatch, null, getTuneImportHash(tunebook));
+        if (typeof onApplySourceUrlMerge === 'function') {
+          onApplySourceUrlMerge(silentBatch, null);
+        }
+      }
+      if (split.clashRecords.length === 0) continue;
+
+      setPendingBatch(buildSubBatch(next, split.clashRecords));
+      setShowModal(true);
       return;
     }
   }, [pendingBatch, onApplySourceUrlMerge, tunebook]);
@@ -89,8 +92,6 @@ export default function SyncSourcesHost(props) {
       setSourceMergePref(pendingBatch.sourceKey, 'alwaysAccept');
     }
     applyMergeDismissalState(pendingBatch.sourceKey, pendingBatch, recordState, getTuneImportHash(tunebook));
-    // Drop any queued copies of this source so an in-flight poll cannot
-    // immediately re-offer the same merge.
     const appliedKey = pendingBatch.sourceKey;
     queueRef.current = queueRef.current.filter(function(batch) {
       return !batch || batch.sourceKey !== appliedKey;
@@ -98,8 +99,6 @@ export default function SyncSourcesHost(props) {
     onApplySourceUrlMerge(pendingBatch, recordState);
     setPendingBatch(null);
     setShowModal(false);
-    showingToastRef.current = false;
-    dismissMergeToast();
     processQueue();
   }, [pendingBatch, onApplySourceUrlMerge, processQueue, tunebook]);
 
@@ -117,8 +116,6 @@ export default function SyncSourcesHost(props) {
     }
     setPendingBatch(null);
     setShowModal(false);
-    showingToastRef.current = false;
-    dismissMergeToast();
     processQueue();
   }, [pendingBatch, processQueue, tunebook]);
 
@@ -165,7 +162,7 @@ export default function SyncSourcesHost(props) {
       batch={pendingBatch}
       tunebook={tunebook}
       onlyDiffering={true}
-      onClose={function() { setShowModal(false); }}
+      onClose={rejectBatch}
       onApply={applyBatch}
       onReject={rejectBatch}
     />

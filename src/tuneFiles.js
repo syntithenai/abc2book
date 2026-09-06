@@ -107,6 +107,19 @@ export function setActiveTuneFile(tune, fileId) {
   return next
 }
 
+/**
+ * When an active snapshot blob cannot be resolved locally (and has no Drive id),
+ * fall back to ABC notation if the tune has notes/chords. Avoids a blank
+ * "File is not available offline" music view when the chart itself is present.
+ */
+export function shouldFallbackToNotationOnMissingFile(tune, err, hasNotesOrChords) {
+  if (!tune || !tune.activeFile) return false
+  const message = err && err.message ? String(err.message) : ''
+  if (message !== 'File is not available offline') return false
+  if (typeof hasNotesOrChords === 'function') return !!hasNotesOrChords(tune)
+  return false
+}
+
 export function updateTuneFileMeta(tune, fileId, patch) {
   const list = getTuneFiles(tune).slice()
   let found = false

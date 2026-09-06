@@ -1660,11 +1660,46 @@ export function getResolverProxiedPlaybackBlock(resolverStatus, accessToken) {
     ? resolverStatus.creditBalanceCents
     : null;
   const creditRequired = !!resolverStatus.creditRequired;
-  const insufficientFromAuth = (resolverStatus.candidates || []).some(function(candidate) {
+  const insufficientCandidates = (resolverStatus.candidates || []).filter(function(candidate) {
     return candidate.authReason === 'insufficient_credit';
   });
+  const insufficientFromAuth = insufficientCandidates.length > 0;
 
-  if ((creditRequired && balance !== null && balance <= 0) || insufficientFromAuth) {
+  const shouldBlock = (creditRequired && balance !== null && balance <= 0) || insufficientFromAuth;
+  // #region agent log
+  try {
+    const { agentDebugLog } = require('./playbackDebug');
+    agentDebugLog('mediaProxyClient.js:getResolverProxiedPlaybackBlock', 'credit-block-eval', {
+      shouldBlock: shouldBlock,
+      balance: balance,
+      creditRequired: creditRequired,
+      billingEnabled: !!resolverStatus.billingEnabled,
+      creditUnlimited: !!resolverStatus.creditUnlimited,
+      activeBase: resolverStatus.activeBase || null,
+      billingProxyBase: resolverStatus.billingProxyBase || null,
+      balanceGate: !!(creditRequired && balance !== null && balance <= 0),
+      insufficientFromAuth: insufficientFromAuth,
+      insufficientBases: insufficientCandidates.map(function(c) {
+        return {
+          base: c.base,
+          available: !!c.available,
+          reachable: !!c.reachable,
+          balance: typeof c.creditBalanceCents === 'number' ? c.creditBalanceCents : null,
+        };
+      }),
+      candidateAuth: (resolverStatus.candidates || []).map(function(c) {
+        return {
+          base: c.base,
+          authReason: c.authReason || '',
+          available: !!c.available,
+          balance: typeof c.creditBalanceCents === 'number' ? c.creditBalanceCents : null,
+          billingEnabled: !!c.billingEnabled,
+        };
+      }),
+    }, 'H-credit');
+  } catch (e) {}
+  // #endregion
+  if (shouldBlock) {
     return {
       message: 'Your resolver credit balance is empty. Buy credit to play library and streaming links through the hosted resolver.',
     };

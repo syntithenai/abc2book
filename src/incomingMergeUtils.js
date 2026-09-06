@@ -8,6 +8,11 @@ import {
 import { mergeTuneCollectionExtras } from './tuneMergeExtras';
 import { isLocallyDeletedTune, isIncomingTuneNewer, toTuneUpdatedMs } from './tuneBookSync';
 import { isSourceMergeDismissed } from './sourceMergeDismissals';
+import {
+  getSourceSyncBaseline,
+  hasLocalEditSinceSourceApply,
+  seedSourceSyncBaseline,
+} from './sourceSyncBaseline';
 
 /** Absolute count of deletes that counts as a dangerous mass wipe. */
 export const MASS_DELETE_ABSOLUTE_THRESHOLD = 50
@@ -196,6 +201,48 @@ export function buildSourceUrlMergeRecords(localTunes, incomingById, getTuneImpo
     });
   });
   return records;
+}
+
+export function isSourceUrlTuneClash(record, sourceKey) {
+  if (!record || !sourceKey) return false;
+  if (record.kind === 'insert') return false;
+  if (!record.localTune || !record.incomingTune) return false;
+  const baseline = getSourceSyncBaseline(sourceKey, record.id);
+  if (!baseline) return false;
+  return hasLocalEditSinceSourceApply(record.localTune, baseline);
+}
+
+/**
+ * Split source URL merge records into silent auto-apply, clash (needs merge UI),
+ * and legacy tunes that need baseline seeding on first poll.
+ */
+export function splitSourceUrlMergeRecords(records, sourceKey) {
+  const silentRecords = [];
+  const clashRecords = [];
+  const seededIds = [];
+  (records || []).forEach(function(record) {
+    if (!record) return;
+    if (record.kind === 'insert') {
+      silentRecords.push(record);
+      return;
+    }
+    if (!record.localTune) {
+      silentRecords.push(record);
+      return;
+    }
+    const baseline = getSourceSyncBaseline(sourceKey, record.id);
+    if (!baseline) {
+      seedSourceSyncBaseline(sourceKey, record.id, record.localTune);
+      seededIds.push(record.id);
+      return;
+    }
+    if (isSourceUrlTuneClash(record, sourceKey)) {
+      clashRecords.push(record);
+    } else {
+      silentRecords.push(record);
+    }
+  });
+  return { silentRecords: silentRecords, clashRecords: clashRecords, seededIds: seededIds };
 }
 
 export function buildFieldSelectionsForRecord(record, onlyDiffering) {

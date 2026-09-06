@@ -36,6 +36,7 @@ import {
 } from '../reviewProjectsClient'
 import { ensureMillinerReviewSet } from '../reviewProjectsMilliner'
 import { ensureOldtimeReviewSet } from '../reviewProjectsOldtime'
+import { describeResolverAuthReason } from '../mediaProxyClient'
 
 const STEPS = {
   HOME: 'home',
@@ -92,16 +93,34 @@ export default function ImportBookWizardModal(props) {
     return !!(features.sheetImageOcr || features.sheetImageOmr || features.sheetImage)
   }, [features])
 
+  const isLoggedIn = !!(props.token && (props.token.access_token || props.token))
+
+  const resolverAuthHint = useMemo(function() {
+    const reason = resolverStatus && resolverStatus.authReason
+      ? describeResolverAuthReason(resolverStatus.authReason)
+      : ''
+    if (!isLoggedIn && (!resolverAvailable || reason === 'Login required' || reason === 'Login expired or invalid')) {
+      return 'Sign in with Google (menu → Log in) so Tune Book can reach the media resolver. Sheet splitting and Google Drive/Photos also need login.'
+    }
+    if (reason && reason !== 'Login required') {
+      return reason + '. Check Settings → Media resolver or try signing in again.'
+    }
+    return ''
+  }, [isLoggedIn, resolverAvailable, resolverStatus])
+
   const sheetSplitHint = useMemo(function() {
     if (sheetSplitOk) return ''
     if (features && features.lightMode) {
-      return 'You are on the cloud light gateway, which cannot split sheet pages. Point Settings → Media resolver at your full local resolver (with OCR), then refresh. Being logged in is not enough.'
+      return 'You are on the cloud light gateway, which cannot split sheet pages. Point Settings → Media resolver at your full local resolver (with OCR), then refresh. Signing in with Google is not enough for splitting.'
     }
     if (!resolverAvailable) {
-      return 'Media resolver is not reachable. Start the local resolver to split multi-tune pages.'
+      if (!isLoggedIn) {
+        return 'Media resolver is not reachable. Sign in with Google first, then start the local resolver if you need sheet splitting (npm run start:resolver).'
+      }
+      return 'Media resolver is not reachable. Start the local resolver to split multi-tune pages (npm run start:resolver).'
     }
     return 'Sheet page splitting needs local OCR on the full resolver. Check that local-resolver is running with OCR enabled, then refresh health. You can still open existing sets; new imports may treat each page as one tune until split is available.'
-  }, [sheetSplitOk, resolverAvailable, features])
+  }, [sheetSplitOk, resolverAvailable, features, isLoggedIn])
 
   async function refreshSets() {
     setLoadingSets(true)
@@ -374,9 +393,31 @@ export default function ImportBookWizardModal(props) {
           {step === STEPS.HOME ? (
             <div data-testid="import-book-home">
               <p className="text-muted">
-                Open an existing review set, create a new one, or add more source pages to a set.
-                A book is required and forced onto every imported tune.
+                Split <strong>new</strong> sheet photos or PDFs into a review set, then import into a book.
+                A book slug is required and forced onto every tune.
               </p>
+              <Alert variant="light" className="small border mb-3" data-testid="import-book-eurosession-hint">
+                Already finished a review package (e.g. EuroSession with YouTube links)?
+                Use <strong>Add From → File</strong> and choose <code>eurosession-final.abc</code> instead of this wizard.
+              </Alert>
+              {resolverAuthHint ? (
+                <Alert variant="warning" className="small" data-testid="import-book-login-hint">
+                  {resolverAuthHint}
+                  {!isLoggedIn && typeof props.login === 'function' ? (
+                    <>
+                      {' '}
+                      <Button
+                        size="sm"
+                        variant="outline-dark"
+                        className="ms-1 align-baseline"
+                        onClick={function() { props.login() }}
+                      >
+                        Log in with Google
+                      </Button>
+                    </>
+                  ) : null}
+                </Alert>
+              ) : null}
               {recoverableCount > 0 ? (
                 <Alert variant="info" className="small" data-testid="import-book-recoverable-hint">
                   {recoverableCount} review set{recoverableCount === 1 ? '' : 's'} from a previous session
@@ -401,15 +442,19 @@ export default function ImportBookWizardModal(props) {
 
               {showDocsProjects ? (
                 <div className="mb-4" data-testid="import-book-documents-projects">
-                  <h6>Documents projects</h6>
+                  <h6 className="text-muted">Optional — developer scrape imports</h6>
                   <p className="small text-muted mb-2">
-                    Milliner–Koken and Old Time Fiddle working files under
-                    {' '}<code>~/Documents/oldtime sources review</code>
-                    {' '}via the local resolver. Opens the same review UI; large sets default to Incomplete.
+                    <strong>Skip this for EuroSession.</strong> These load Milliner–Koken or Old Time Fiddle
+                    review packages from a folder on your dev machine (
+                    <code>~/Documents/oldtime sources review</code>
+                    ) through a <strong>local</strong> resolver with that folder mounted.
+                    Not stored in Tune Book until you review and import.
                   </p>
                   {!docsProjectsReady ? (
-                    <Alert variant="warning" className="small py-2">
-                      Connect to a local resolver with the Documents review root mounted to load these.
+                    <Alert variant="secondary" className="small py-2">
+                      Not available: start the full local resolver with the Documents review root mounted
+                      (see <code>local-resolver</code> docs). Sign in with Google if Settings shows a login error,
+                      but this feature still needs the local resolver — not the cloud gateway alone.
                     </Alert>
                   ) : (
                     <div className="d-flex flex-column gap-2">
@@ -477,11 +522,15 @@ export default function ImportBookWizardModal(props) {
                 </div>
               ) : null}
 
-              <h6>Existing review sets</h6>
+              <h6>Your review sets (this browser)</h6>
               {loadingSets ? (
                 <Spinner animation="border" size="sm" />
               ) : !sets.length ? (
-                <p className="text-muted small">No review sets yet.</p>
+                <p className="text-muted small mb-0">
+                  No review sets yet. Create one above when you have new sheet scans to split.
+                  Finished packages (e.g. <code>eurosession-import-final.json</code>) are imported via
+                  {' '}<strong>Add From → File</strong> with the matching ABC, not here.
+                </p>
               ) : (
                 <ListGroup>
                   {sets.map(function(set) {
@@ -578,6 +627,24 @@ export default function ImportBookWizardModal(props) {
               <p className="text-muted small">
                 Choose image or PDF files from your device, a folder, camera roll, Google Drive, or Google Photos.
               </p>
+              {resolverAuthHint ? (
+                <Alert variant="warning" className="small" data-testid="import-book-sources-login-hint">
+                  {resolverAuthHint}
+                  {!isLoggedIn && typeof props.login === 'function' ? (
+                    <>
+                      {' '}
+                      <Button size="sm" variant="outline-dark" className="ms-1" onClick={function() { props.login() }}>
+                        Log in with Google
+                      </Button>
+                    </>
+                  ) : null}
+                </Alert>
+              ) : null}
+              {!sheetSplitOk ? (
+                <Alert variant="info" className="small" data-testid="import-book-sources-split-hint">
+                  {sheetSplitHint}
+                </Alert>
+              ) : null}
               <div className="d-flex flex-wrap gap-2 mb-3">
                 <Button
                   variant="outline-primary"

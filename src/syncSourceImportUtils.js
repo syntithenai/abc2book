@@ -1,7 +1,9 @@
 import {
   buildGoogleDocUrl,
   registerSourceFromImport,
+  sourceSyncKey,
 } from './syncSourcesStore';
+import { seedSourceSyncBaseline } from './sourceSyncBaseline';
 
 export function buildFiltersFromImportScope(option) {
   const opts = option || {};
@@ -39,6 +41,15 @@ export function collectTuneIdsFromImportResults(results) {
     Object.values(bucket).forEach(function(tune) { addId(tune && tune.id); });
   });
   return ids;
+}
+
+export function seedSourceSyncBaselinesAfterImport(source, tunesById, results) {
+  const sourceKey = sourceSyncKey(source);
+  if (!sourceKey || !tunesById) return;
+  collectTuneIdsFromImportResults(results).forEach(function(id) {
+    const tune = tunesById[id];
+    if (tune) seedSourceSyncBaseline(sourceKey, id, tune);
+  });
 }
 
 export function stampSrcUrlOnImportResults(results, srcUrl) {
@@ -79,11 +90,15 @@ export function registerSyncSourceAfterImport(options) {
   const filters = opts.filters || buildFiltersFromImportScope(scopeOption);
   const tuneIds = opts.tuneIds || collectTuneIdsFromImportResults(opts.results);
 
-  return registerSourceFromImport({
+  const source = registerSourceFromImport({
     googleDocumentId: googleDocumentId || undefined,
     url: url,
     label: opts.label,
     filters: filters,
     tuneIds: tuneIds,
   });
+  if (source && opts.tunes) {
+    seedSourceSyncBaselinesAfterImport(source, opts.tunes, opts.results);
+  }
+  return source;
 }

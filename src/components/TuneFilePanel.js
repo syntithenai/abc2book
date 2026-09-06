@@ -1,10 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import { toast } from 'react-toastify'
 import {
   findTuneFileMeta,
   isPdfTuneFileType,
   normalizePdfSegments,
   resolveTuneFileBlob,
+  setActiveTuneFile,
+  shouldFallbackToNotationOnMissingFile,
   updateTuneFileMeta,
 } from '../tuneFiles'
 import TuneFilePdfViewer from './TuneFilePdfViewer'
@@ -40,6 +43,7 @@ export default function TuneFilePanel(props) {
   const fileZoom = clampFileViewZoom(zoom)
   const [searchParams] = useSearchParams()
   const restoredPdfRef = useRef('')
+  const notationFallbackRef = useRef('')
 
   const routeFileId = String(searchParams.get('file') || '').trim()
   const routePage = parseInt(searchParams.get('page'), 10)
@@ -105,6 +109,23 @@ export default function TuneFilePanel(props) {
       setLoading(false)
     }).catch(function(err) {
       if (cancelled) return
+      const hasNotesOrChords = tunebook && typeof tunebook.hasNotesOrChords === 'function'
+        ? tunebook.hasNotesOrChords.bind(tunebook)
+        : null
+      const fallbackKey = String(tune && tune.id || '') + ':' + String(meta.id || '')
+      if (
+        onTuneChange
+        && notationFallbackRef.current !== fallbackKey
+        && shouldFallbackToNotationOnMissingFile(tune, err, hasNotesOrChords)
+      ) {
+        notationFallbackRef.current = fallbackKey
+        setLoading(false)
+        setObjectUrl(null)
+        setError('')
+        onTuneChange(setActiveTuneFile(tune, ''))
+        toast.info('Snapshot unavailable — showing notation', { autoClose: 2800 })
+        return
+      }
       setError(err && err.message ? err.message : 'Could not load file')
       setObjectUrl(null)
       setLoading(false)
