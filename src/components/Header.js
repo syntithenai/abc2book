@@ -517,16 +517,6 @@ export default function Header(props) {
                             </Button>
                         </Link>
                     </Dropdown.Item>
-                    <Dropdown.Item as="div">
-                        <a href="https://tunebook.net/yoga/" onClick={function() { setNavMenuOpen(false) }}>
-                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                <span className="header-dropdown-btn-label">
-                                    {props.tunebook.icons.yoga}
-                                    <span>Yoga</span>
-                                </span>
-                            </Button>
-                        </a>
-                    </Dropdown.Item>
                     {resolverAvailable ? (
                         <Dropdown.Item as="div">
                             <Link to="/lyrics" onClick={function() { setNavMenuOpen(false) }}>
