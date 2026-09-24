@@ -3,6 +3,7 @@ import IncomingMergeModal from './IncomingMergeModal';
 import {
   buildDriveMergeRecords,
   summarizeMergeRecords,
+  splitSourceUrlMergeRecords,
 } from '../incomingMergeUtils';
 import {
   DRIVE_TUNEBOOK_SOURCE_KEY,
@@ -19,6 +20,43 @@ function getTuneImportHash(tunebook) {
   return tunebook && tunebook.abcTools && tunebook.abcTools.getTuneImportHash;
 }
 
+function filterSheetResultsToRecords(sheetUpdateResults, records) {
+  if (!sheetUpdateResults || !records || !records.length) {
+    return {
+      inserts: {},
+      updates: {},
+      deletes: {},
+      wipeRecovery: !!(sheetUpdateResults && sheetUpdateResults.wipeRecovery),
+    };
+  }
+  const ids = {};
+  records.forEach(function(record) {
+    if (record && record.id) ids[record.id] = true;
+  });
+  const inserts = {};
+  const updates = {};
+  const deletes = {};
+  Object.keys(sheetUpdateResults.inserts || {}).forEach(function(id) {
+    if (ids[id]) inserts[id] = sheetUpdateResults.inserts[id];
+  });
+  Object.keys(sheetUpdateResults.updates || {}).forEach(function(id) {
+    if (ids[id]) updates[id] = sheetUpdateResults.updates[id];
+  });
+  Object.keys(sheetUpdateResults.deletes || {}).forEach(function(id) {
+    if (ids[id]) deletes[id] = sheetUpdateResults.deletes[id];
+  });
+  return {
+    inserts: inserts,
+    updates: updates,
+    deletes: deletes,
+    fullSheet: sheetUpdateResults.fullSheet,
+    remoteDeleted: sheetUpdateResults.remoteDeleted,
+    wipeRecovery: !!sheetUpdateResults.wipeRecovery,
+    localUpdates: sheetUpdateResults.localUpdates,
+    localInserts: sheetUpdateResults.localInserts,
+  };
+}
+
 export default function IncomingMergeHost(props) {
   const sheetUpdateResults = props.sheetUpdateResults;
   const googleDocumentId = props.googleDocumentId;
@@ -32,11 +70,11 @@ export default function IncomingMergeHost(props) {
   // Ignore sheetUpdateResults that were already applied/rejected until parent clears them.
   const handledResultsRef = useRef(null);
 
-  const buildDriveBatch = useCallback(function(results) {
+  const buildDriveBatch = useCallback(function(results, recordsOverride) {
     if (!results) return null;
     const sourceKey = googleDocumentId || DRIVE_TUNEBOOK_SOURCE_KEY;
     const wipeRecovery = !!results.wipeRecovery;
-    const records = buildDriveMergeRecords(results, {
+    const records = recordsOverride || buildDriveMergeRecords(results, {
       sourceKey: sourceKey,
       getTuneImportHash: getTuneImportHash(tunebook),
       skipDismissals: wipeRecovery,
@@ -118,6 +156,52 @@ export default function IncomingMergeHost(props) {
         onApplyDriveMerge(sheetUpdateResults, null);
       }
       if (typeof onClear === 'function') onClear();
+      return;
+    }
+
+    // Default: auto-apply inserts + non-clash updates; only prompt for clashes/deletes.
+    if (!batch.wipeRecovery) {
+      const split = splitSourceUrlMergeRecords(batch.records, batch.sourceKey);
+      const reviewRecords = (split.clashRecords || []).slice();
+      batch.records.forEach(function(record) {
+        if (record && record.kind === 'delete') {
+          const already = reviewRecords.some(function(r) { return r && r.id === record.id; });
+          if (!already) reviewRecords.push(record);
+        }
+      });
+      const silentOnly = (split.silentRecords || []).filter(function(record) {
+        return record && record.kind !== 'delete';
+      });
+      if (silentOnly.length > 0) {
+        const silentSheet = filterSheetResultsToRecords(sheetUpdateResults, silentOnly);
+        const silentBatch = buildDriveBatch(silentSheet, silentOnly);
+        applyMergeDismissalState(batch.sourceKey, silentBatch, null, getTuneImportHash(tunebook));
+        if (typeof onApplyDriveMerge === 'function') {
+          onApplyDriveMerge(silentSheet, null);
+        }
+      }
+      if (reviewRecords.length === 0) {
+        handledResultsRef.current = sheetUpdateResults;
+        if (typeof onClear === 'function') onClear();
+        return;
+      }
+      const reviewSheet = filterSheetResultsToRecords(sheetUpdateResults, reviewRecords);
+      const reviewBatch = buildDriveBatch(reviewSheet, reviewRecords);
+      setPendingBatch(reviewBatch);
+      if (!toastShownRef.current) {
+        toastShownRef.current = true;
+        showIncomingMergeToast({
+          message: 'Google Drive updates need review (' + reviewBatch.summary + ').',
+          acceptLabel: 'Accept',
+          mergeLabel: 'Merge',
+          onAccept: function() {
+            applyDriveBatch(null, { acceptAllFromSource: false });
+          },
+          onMerge: function() {
+            setShowModal(true);
+          },
+        });
+      }
       return;
     }
 

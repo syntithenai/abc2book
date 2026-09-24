@@ -7,6 +7,7 @@ import android.content.ServiceConnection
 import android.os.IBinder
 import android.os.Handler
 import android.os.Looper
+import android.os.PowerManager
 import com.getcapacitor.JSObject
 import com.getcapacitor.Plugin
 import com.getcapacitor.PluginCall
@@ -287,6 +288,19 @@ class TunebookMediaPlugin : Plugin(), TunebookMediaService.MediaEventListener {
     fun stop(call: PluginCall) {
         awaitService(call) { service ->
             service.stopAndRelease()
+        }
+    }
+
+    @PluginMethod
+    fun getBatteryOptimizationStatus(call: PluginCall) {
+        try {
+            val powerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
+            val ignoring = powerManager.isIgnoringBatteryOptimizations(context.packageName)
+            val result = JSObject()
+            result.put("ignoringOptimizations", ignoring)
+            call.resolve(result)
+        } catch (e: Exception) {
+            call.reject(e.message ?: "Could not read battery optimization status")
         }
     }
 

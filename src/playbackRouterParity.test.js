@@ -49,6 +49,7 @@ describe('playbackRouterParity', function() {
     expect(mapActiveEngineToRouterEngine('snapcast', 'media')).toBe(PLAYBACK_ENGINE_SNAPCAST);
     expect(mapActiveEngineToRouterEngine('cast', 'media')).toBe(PLAYBACK_ENGINE_CAST);
     expect(mapActiveEngineToRouterEngine('nativeMidi', 'midi')).toBe(PLAYBACK_ENGINE_ANDROID_NATIVE);
+    expect(mapActiveEngineToRouterEngine('androidNative', 'media')).toBe(PLAYBACK_ENGINE_ANDROID_NATIVE);
     expect(mapActiveEngineToRouterEngine('midi', 'midi')).toBe(PLAYBACK_ENGINE_NOTATION_MIDI);
     expect(mapActiveEngineToRouterEngine('midifile', 'media')).toBe(PLAYBACK_ENGINE_MIDI_FILE);
     expect(mapActiveEngineToRouterEngine('nativeFiltered', 'media')).toBe(PLAYBACK_ENGINE_ANDROID_NATIVE);

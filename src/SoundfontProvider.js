@@ -59,6 +59,16 @@ class SoundfontProvider extends React.Component {
       this.setState({
         instrument,
       });
+      if (typeof this.props.onLoadSuccess === 'function') {
+        this.props.onLoadSuccess(instrument);
+      }
+    }).catch(err => {
+      this.setState({
+        instrument: null,
+      });
+      if (typeof this.props.onLoadError === 'function') {
+        this.props.onLoadError(err);
+      }
     });
   };
 

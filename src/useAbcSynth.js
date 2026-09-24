@@ -18,6 +18,9 @@ import {
     ensureAbcjsCursorLine,
     updateAbcjsCursorLine,
     applyPlaybackCursorAtTime,
+    cursorPositionFromNoteTimings,
+    findNoteTimingAtTime,
+    barStartTimingsFromNoteTimings,
     scrollPlaybackCursorIntoTopHalf,
     cursorLineHasActivePosition,
 } from './notationPlaybackCursor'
@@ -68,7 +71,6 @@ import {
   isAbcNativePlayInFlight,
   isAndroidNativePlayerActive,
 } from './androidNativePlayback'
-import { agentDebugLog } from './playbackDebug'
 import { preloadCountInCueInstrument, scheduleCountInCueNote, firstWarmupCueMidi, firstPlaybackCueMidiFromVisual } from './countInPitchCue'
 import { playRhythmSlot } from './rhythmSlotPlayback'
 import { getRhythmSwing } from './rhythmGrid'
@@ -627,10 +629,6 @@ export default function useAbcSynth(props) {
         }
         if (gmidiBuffer.current) {
             // Native abcjs buffer cannot be scheduled into the future — it starts now.
-            agentDebugLog('useAbcSynth.js:startMidiAudioOutput', 'web-buffer-start', {
-                bufferDur: gmidiBuffer.current.duration,
-                ratio: ratio,
-            }, 'H-B');
             gmidiBuffer.current.start()
             return {
                 ok: true,
@@ -1296,14 +1294,29 @@ export default function useAbcSynth(props) {
                 try { gtimingCallbacks.current.pause() } catch (e) {}
             }
             // Display-only: no extraMeasures / no audio. Map music-only currentTime
-            // onto the same noteTimings used to draw this SVG. Use score QPM only —
-            // playback-speed must not warp this timeline (currentTime is music seconds).
+            // onto the same noteTimings used to draw this SVG. Prefer QPM derived
+            // from millisecondsPerMeasure so TimingCallbacks match audible bar length
+            // (getBpm can disagree and shift note lookups by ~1 beat).
             const tempo = visual.metaText ? visual.metaText.tempo : null
-            const scoreQpm = (typeof visual.getBpm === 'function' && visual.getBpm(tempo)) || 120
+            let scoreQpm = (typeof visual.getBpm === 'function' && visual.getBpm(tempo)) || 120
+            try {
+                const mpm = typeof visual.millisecondsPerMeasure === 'function'
+                    ? parseFloat(visual.millisecondsPerMeasure())
+                    : 0
+                const meter = typeof visual.getMeterFraction === 'function'
+                    ? visual.getMeterFraction()
+                    : null
+                const beats = meter && meter.num > 0 ? meter.num : 0
+                if (mpm > 0 && beats > 0) {
+                    const fromMpm = beats * 60000 / mpm
+                    if (fromMpm > 0 && isFinite(fromMpm)) scoreQpm = fromMpm
+                }
+            } catch (e) { /* keep getBpm */ }
             const callbacks = new abcjs.TimingCallbacks(visual, {
                 qpm: scoreQpm,
             })
             callbacks.__mirrorVisual = visual
+            callbacks.__mirrorQpm = scoreQpm
             gtimingCallbacks.current = callbacks
             gcursor.current = null
             createCursor()
@@ -1320,17 +1333,57 @@ export default function useAbcSynth(props) {
         const timing = gtimingCallbacks.current
         if (!timing || !timing.noteTimings) return
         const stateSec = mc && mc.currentTime
-        const cursorSec = (mc && mc.getMidiCursorSecondsRef
+        const nativeOwns = !!(mc && (
+          (typeof mc.isAndroidNativeOutputActive === 'function' && mc.isAndroidNativeOutputActive())
+          || (prefersNativeMediaPlayback() && mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()
+            && (isAndroidNativePlayerActive() || isAbcNativePlayInFlight()))
+        ))
+        // While WAV is rendering, keep the staff cursor at 0 — Exo still holds the
+        // paused prior media and would otherwise paint mid-score.
+        const forceStart = !!(prefersNativeMediaPlayback() && isAbcNativePlayInFlight())
+        const cursorSec = (!nativeOwns && !forceStart && mc && mc.getMidiCursorSecondsRef
           && typeof mc.getMidiCursorSecondsRef.current === 'function')
           ? mc.getMidiCursorSecondsRef.current()
           : null
-        const liveSec = (cursorSec != null && cursorSec >= 0 && isFinite(cursorSec))
+        // Prefer live engine clock (currentTimeRef via getPlaybackProgress) over
+        // React state — state can lag a beat behind Exo while the scrubber/poll updates.
+        let liveProgressSec = null
+        if (!forceStart && mc && typeof mc.getPlaybackProgress === 'function') {
+          try {
+            const progress = mc.getPlaybackProgress()
+            if (progress && progress.currentTime >= 0 && isFinite(progress.currentTime)) {
+              liveProgressSec = progress.currentTime
+            }
+          } catch (e) { /* fall through */ }
+        }
+        const liveSec = forceStart
+          ? 0
+          : ((liveProgressSec != null)
+          ? liveProgressSec
+          : ((cursorSec != null && cursorSec >= 0 && isFinite(cursorSec))
           ? cursorSec
-          : ((mc && mc.getMidiPlaybackSecondsRef
+          : ((nativeOwns && stateSec >= 0 && isFinite(stateSec))
+            ? stateSec
+            : ((mc && mc.getMidiPlaybackSecondsRef
             && typeof mc.getMidiPlaybackSecondsRef.current === 'function')
             ? mc.getMidiPlaybackSecondsRef.current()
-            : stateSec)
+            : stateSec))))
         const playbackSec = (liveSec >= 0 && isFinite(liveSec)) ? liveSec : stateSec
+        const meterFrac = gvisualObj.current && typeof gvisualObj.current.getMeterFraction === 'function'
+          ? gvisualObj.current.getMeterFraction()
+          : null
+        const barWholeDbg = barWholeNotesFromMeter(meterFrac)
+        const beatsDbg = meterFrac && meterFrac.num > 0 ? meterFrac.num : 0
+        const beatWholeDbg = (barWholeDbg > 0 && beatsDbg > 0) ? (barWholeDbg / beatsDbg) : 0
+        const pickupWholeDbg = (() => {
+          const map = (mc && mc.soundingWrittenMapRef)
+            ? mc.soundingWrittenMapRef.current
+            : soundingWrittenMapRef.current
+          if (map && map.pickupWhole != null) return map.pickupWhole
+          return gvisualObj.current && typeof gvisualObj.current.getPickupLength === 'function'
+            ? parseFloat(gvisualObj.current.getPickupLength()) || 0
+            : 0
+        })()
         // Prefer the primed audio bar length — display visual QPM often differs
         // from the buffer tempo (abcjs default 180 vs tune.tempo).
         let audibleMpm = 0
@@ -1347,6 +1400,24 @@ export default function useAbcSynth(props) {
         const audioDurationSec = (mc && mc.duration > 0)
           ? parseFloat(mc.duration)
           : 0
+        const cursorOpts = {
+          musicSec: playbackSec,
+          audibleMsPerMeasure: audibleMpm,
+          audioDurationSec: audioDurationSec,
+          lastMomentMs: timing.lastMoment,
+          soundingWrittenMap: (mc && mc.soundingWrittenMapRef)
+            ? mc.soundingWrittenMapRef.current
+            : soundingWrittenMapRef.current,
+          musicStartMs: 0,
+          barWholeNotes: barWholeDbg,
+          pickupWhole: pickupWholeDbg,
+          trackNotePositions: false,
+          // Staff bar jumps were consistently one beat late vs the sounding
+          // downbeat on Android native MIDI — lead by one beat of whole-notes.
+          barCursorPhaseLeadWhole: beatWholeDbg > 0 ? beatWholeDbg : (
+            pickupWholeDbg > 0 ? pickupWholeDbg : 0
+          ),
+        }
         const root = inputEl && inputEl.current
         const svg = root ? root.querySelector('svg') : null
         const cursor = applyPlaybackCursorAtTime(
@@ -1354,30 +1425,7 @@ export default function useAbcSynth(props) {
           gcursor.current,
           timing.noteTimings,
           playbackSec * 1000,
-          {
-            musicSec: playbackSec,
-            audibleMsPerMeasure: audibleMpm,
-            audioDurationSec: audioDurationSec,
-            lastMomentMs: timing.lastMoment,
-            soundingWrittenMap: (mc && mc.soundingWrittenMapRef)
-              ? mc.soundingWrittenMapRef.current
-              : soundingWrittenMapRef.current,
-            musicStartMs: 0,
-            barWholeNotes: barWholeNotesFromMeter(
-              gvisualObj.current && typeof gvisualObj.current.getMeterFraction === 'function'
-                ? gvisualObj.current.getMeterFraction()
-                : null
-            ),
-            pickupWhole: (() => {
-              const map = (mc && mc.soundingWrittenMapRef)
-                ? mc.soundingWrittenMapRef.current
-                : soundingWrittenMapRef.current
-              if (map && map.pickupWhole != null) return map.pickupWhole
-              return gvisualObj.current && typeof gvisualObj.current.getPickupLength === 'function'
-                ? parseFloat(gvisualObj.current.getPickupLength()) || 0
-                : 0
-            })(),
-          }
+          cursorOpts
         )
         if (cursor) setCursor(cursor)
         // Host-owned MIDI has no local TimingCallbacks beat/event scroll — keep the
@@ -1686,6 +1734,15 @@ export default function useAbcSynth(props) {
       * clock free-runs on the written score and races ahead of the beat.
       */
      function getCursorMusicSeconds() {
+        const mc = props.mediaController
+        if (prefersNativeMediaPlayback() && mc
+            && ((typeof mc.isAndroidNativeOutputActive === 'function' && mc.isAndroidNativeOutputActive())
+              || isAndroidNativePlayerActive())) {
+            const nativeSec = typeof mc.currentTime === 'number' ? mc.currentTime : null
+            if (nativeSec != null && nativeSec >= 0 && isFinite(nativeSec)) {
+                return nativeSec
+            }
+        }
         const shifter = pitchShifterRef.current
         const shifterLive = !!(shifter && (
           (typeof shifter.isConnectedOrPending === 'function' && shifter.isConnectedOrPending())
@@ -3227,11 +3284,6 @@ export default function useAbcSynth(props) {
         playbackGenerationRef.current += 1
         latchMidiPrimeCancel(4000)
         const deferNative = shouldDeferSynthStopToNative()
-        agentDebugLog('useAbcSynth.js:stopPlaying', 'called', {
-            deferNative: deferNative,
-            nativeActive: isAndroidNativePlayerActive(),
-            abcInFlight: isAbcNativePlayInFlight(),
-        }, deferNative ? 'H-C' : 'H-B');
         if (deferNative) {
             pauseMidiSynth()
             return

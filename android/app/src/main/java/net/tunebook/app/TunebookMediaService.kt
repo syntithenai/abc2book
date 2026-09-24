@@ -18,7 +18,9 @@ import androidx.core.app.NotificationCompat
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
 import androidx.media3.common.MediaItem
+import androidx.media3.common.MediaMetadata
 import androidx.media3.common.Player
+import androidx.media3.common.ForwardingPlayer
 import androidx.media3.datasource.DefaultHttpDataSource
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.hls.HlsMediaSource
@@ -127,6 +129,17 @@ class TunebookMediaService : Service(), Player.Listener {
         eventListener = listener
     }
 
+    private fun buildPlaybackMediaItem(uri: Uri): MediaItem {
+        val metadata = MediaMetadata.Builder()
+            .setTitle(currentTitle)
+            .setArtist(currentArtist)
+            .build()
+        return MediaItem.Builder()
+            .setUri(uri)
+            .setMediaMetadata(metadata)
+            .build()
+    }
+
     fun load(
         uriString: String,
         title: String?,
@@ -176,10 +189,10 @@ class TunebookMediaService : Service(), Player.Listener {
             dataSourceFactory.setDefaultRequestProperties(playbackHeaders)
             val mediaSource = if (isHlsPlayback(uriString)) {
                 HlsMediaSource.Factory(dataSourceFactory)
-                    .createMediaSource(MediaItem.fromUri(uri))
+                    .createMediaSource(buildPlaybackMediaItem(uri))
             } else {
                 ProgressiveMediaSource.Factory(dataSourceFactory)
-                    .createMediaSource(MediaItem.fromUri(uri))
+                    .createMediaSource(buildPlaybackMediaItem(uri))
             }
             exo.setMediaSource(mediaSource)
         } else if (isRemote && isHlsPlayback(uriString)) {
@@ -192,10 +205,10 @@ class TunebookMediaService : Service(), Player.Listener {
                     )
                 )
             val mediaSource = HlsMediaSource.Factory(dataSourceFactory)
-                .createMediaSource(MediaItem.fromUri(uri))
+                .createMediaSource(buildPlaybackMediaItem(uri))
             exo.setMediaSource(mediaSource)
         } else {
-            exo.setMediaItem(MediaItem.fromUri(uri))
+            exo.setMediaItem(buildPlaybackMediaItem(uri))
         }
         exo.prepare()
         android.util.Log.i(
@@ -376,7 +389,17 @@ class TunebookMediaService : Service(), Player.Listener {
             .build()
             .also { exo ->
                 exo.addListener(this)
-                mediaSession = MediaSession.Builder(this, exo).build()
+                // Keep session metadata on our load() title/artist. HLS/YouTube
+                // streams otherwise overwrite the system mini-player title.
+                val sessionPlayer = object : ForwardingPlayer(exo) {
+                    override fun getMediaMetadata(): MediaMetadata {
+                        return MediaMetadata.Builder()
+                            .setTitle(currentTitle)
+                            .setArtist(currentArtist)
+                            .build()
+                    }
+                }
+                mediaSession = MediaSession.Builder(this, sessionPlayer).build()
             }
     }
 

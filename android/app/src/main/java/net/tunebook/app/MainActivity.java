@@ -9,6 +9,8 @@ public class MainActivity extends BridgeActivity {
         registerPlugin(TunebookYoutubePlugin.class);
         registerPlugin(TunebookMediaPlugin.class);
         registerPlugin(TunebookLocalMediaPlugin.class);
+        registerPlugin(TunebookMediaCachePlugin.class);
+        registerPlugin(TunebookVoiceListenPlugin.class);
         super.onCreate(savedInstanceState);
     }
 

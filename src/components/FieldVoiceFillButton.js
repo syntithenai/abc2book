@@ -3,9 +3,10 @@ import { Button } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import VoiceInputWaveform from './VoiceInputWaveform'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import useVoiceMicRecorder from '../useVoiceMicRecorder'
+import useVoiceCapture from '../useVoiceCapture'
 import { kickoffMicrophoneAccess } from '../microphoneAccess'
 import { submitVoiceCommand } from '../voiceCommandClient'
+import { isAndroidApp } from '../platformUtils'
 import { isTapVoiceInputMode } from '../voiceSettings'
 
 /** Drop trailing sentence punctuation Whisper often appends (e.g. "Hello."). */
@@ -34,6 +35,20 @@ function MicIcon() {
   )
 }
 
+function textFromVoiceResult(fieldKind, result) {
+  let text = ''
+  if (fieldKind === 'composer') {
+    text = result.artist || result.transcript || ''
+  } else if (fieldKind === 'search') {
+    text = result.searchText || result.title || result.transcript || ''
+  } else if (fieldKind === 'transcript') {
+    text = result.transcript || ''
+  } else {
+    text = result.title || result.searchText || result.transcript || ''
+  }
+  return stripTrailingPunctuation(text)
+}
+
 /**
  * Mic button that fills a single form field with the transcript (or
  * title/artist hint from the voice command response).
@@ -46,6 +61,9 @@ export default function FieldVoiceFillButton(props) {
     ? 'composer'
     : (props.fieldKind === 'search' ? 'search' : 'title')
 
+  const whisperAvailable = Boolean(resolverAvailable && features.whisper)
+  const preferNative = isAndroidApp()
+
   useEffect(function() {
     return function() {
       if (abortRef.current) abortRef.current.abort()
@@ -54,6 +72,18 @@ export default function FieldVoiceFillButton(props) {
 
   function setKeyboardBlocked(blocked) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(blocked)
+  }
+
+  function applyFillText(text) {
+    if (!text) {
+      if (!isTapVoiceInputMode()) {
+        toast.info('No speech recognised')
+      }
+      return
+    }
+    if (typeof props.onFill === 'function') {
+      props.onFill(text)
+    }
   }
 
   async function processAudio(blob) {
@@ -73,24 +103,7 @@ export default function FieldVoiceFillButton(props) {
         accessToken: props.token && props.token.access_token,
         signal: controller ? controller.signal : undefined,
       })
-      let text = ''
-      if (fieldKind === 'composer') {
-        text = result.artist || result.transcript || ''
-      } else if (fieldKind === 'search') {
-        text = result.searchText || result.title || result.transcript || ''
-      } else if (fieldKind === 'transcript') {
-        text = result.transcript || ''
-      } else {
-        text = result.title || result.searchText || result.transcript || ''
-      }
-      text = stripTrailingPunctuation(text)
-      if (!text) {
-        if (!isTapVoiceInputMode()) {
-          toast.info('No speech recognised')
-        }
-      } else if (typeof props.onFill === 'function') {
-        props.onFill(text)
-      }
+      applyFillText(textFromVoiceResult(fieldKind, result))
     } catch (error) {
       if (error && error.name === 'AbortError') {
         if (timedOut) {
@@ -107,24 +120,49 @@ export default function FieldVoiceFillButton(props) {
     }
   }
 
+  function processCapture(capture) {
+    if (!capture) return
+    if (capture.kind === 'transcript') {
+      setProcessing(false)
+      applyFillText(stripTrailingPunctuation(capture.transcript))
+      return
+    }
+    if (capture.kind === 'audio') {
+      processAudio(capture.blob)
+    }
+  }
+
   const {
     recordingState,
     analyserNode,
+    inputLevel,
     isTapMode,
+    nativeReady,
+    nativeChecked,
+    usingNativeStt,
     handleTapPointerDown,
     handlePointerDown,
     handlePointerUp,
     handlePointerCancel,
     microphoneErrorMessage,
-  } = useVoiceMicRecorder({
-    enabled: resolverAvailable && features.whisper,
-    onRecordingStopping: function() {
+  } = useVoiceCapture({
+    enabled: preferNative || whisperAvailable,
+    preferNative: preferNative,
+    audioFallbackEnabled: whisperAvailable,
+    onCaptureStopping: function() {
       setProcessing(true)
     },
-    onEmptyRecording: function() {
+    onEmptyCapture: function() {
       setProcessing(false)
     },
-    onAudioReady: processAudio,
+    onCaptureReady: processCapture,
+    onNativeSoftFail: function(reason) {
+      if (whisperAvailable) {
+        toast.info("Couldn't catch that (" + (reason || 'empty') + ") — tap again for server STT")
+      } else if (!isTapVoiceInputMode()) {
+        toast.info('No speech recognised' + (reason ? ' (' + reason + ')' : ''))
+      }
+    },
     onError: function(error) {
       toast.error(microphoneErrorMessage(error))
     },
@@ -136,14 +174,22 @@ export default function FieldVoiceFillButton(props) {
 
   function onMicPointerDown(event) {
     if (isTapMode) {
-      const streamPromise = kickoffMicrophoneAccess()
-      handleTapPointerDown(event, streamPromise)
+      // Do not open getUserMedia while native SpeechRecognizer is active —
+      // WebView mic capture steals the input and recognition fails.
+      if (usingNativeStt) {
+        handleTapPointerDown(event)
+      } else {
+        const streamPromise = kickoffMicrophoneAccess()
+        handleTapPointerDown(event, streamPromise)
+      }
     } else {
       handlePointerDown(event)
     }
   }
 
-  if (!resolverAvailable || !features.whisper) return null
+  const showMic = whisperAvailable
+    || (preferNative && nativeChecked && nativeReady)
+  if (!showMic) return null
 
   const state = processing ? 'processing' : recordingState
   const isRecording = state === 'recording'
@@ -169,7 +215,11 @@ export default function FieldVoiceFillButton(props) {
   return (
     <span className="field-voice-fill-wrap">
       {isTapMode && isRecording ? (
-        <VoiceInputWaveform analyserNode={analyserNode} variant="field" />
+        <VoiceInputWaveform
+          analyserNode={analyserNode}
+          level={inputLevel}
+          variant="field"
+        />
       ) : null}
       <Button
         type="button"

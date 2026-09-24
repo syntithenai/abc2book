@@ -53,6 +53,15 @@ export default class Metronome
         this.rhythm = normalizeRhythmConfig(Object.assign({}, this.rhythm, {
             drumPattern: drumPattern,
         }));
+        // Re-anchor like setTempo so swing/pattern edits apply on the next click
+        // instead of waiting out already-scheduled intervals.
+        if (this.isRunning && this.audioContext) {
+            const now = this.audioContext.currentTime;
+            if (this.nextNoteTime > now + 0.02) {
+                this.nextNoteTime = now + 0.02;
+            }
+            this.notesInQueue = [];
+        }
     }
 
     setTempo(tempo) {

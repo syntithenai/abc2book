@@ -150,6 +150,14 @@ class VoiceCommandTests(unittest.TestCase):
         self.assertTrue(_is_vague_help_answer("Open the help section for the closest topic."))
         self.assertFalse(_is_vague_help_answer("Open a tune, then use Edit."))
 
+    def test_on_device_transcript_parses_like_whisper_output(self):
+        """Android SpeechRecognizer submits transcript form field; same regex path."""
+        intent, confidence = parse_voice_intent_regex("show down by the sally gardens")
+        self.assertEqual(intent["tool"], "SHOW")
+        self.assertEqual(intent["title"], "down by the sally gardens")
+        self.assertGreaterEqual(confidence, 0.9)
+        self.assertEqual(intent.get("parseMethod") or "regex", "regex")
+
 
 if __name__ == "__main__":
     unittest.main()

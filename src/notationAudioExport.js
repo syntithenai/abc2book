@@ -1,5 +1,8 @@
 import abcjs from 'abcjs'
-import { ABC_SYNTH_PROGRAM_OFFSETS } from './abcSynthProgramOffsets'
+import {
+  programOffsetsForPlaybackPlan,
+  abcjsPlaybackSynthOptions,
+} from './abcSynthProgramOffsets'
 import { getPlaybackSoundFontPlan, getSoundFontVolumeMultiplier } from './soundFontConfig'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import { resolveFillPlaybackOptions } from './playbackFillSettings'
@@ -7,7 +10,8 @@ import { buildPlaybackSequence } from './playbackFillPattern'
 import { resolveSequencePathMeasureTiming } from './playbackStateLogic'
 import { clearAbcjsSoundsCache } from './abcjsSoundsCache'
 import { buildPlaybackTimingMap } from './playbackTimingMap'
-import { agentDebugLog } from './playbackDebug'
+import { buildSoundingWrittenMap } from './voltaRepeatExpand'
+import { barWholeNotesFromMeter } from './playbackFillPattern'
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/'
 
@@ -42,17 +46,24 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
 
   const fillPlayback = resolveFillPlaybackOptions(opts.tune, opts.tunebook)
   const synth = new abcjs.synth.CreateSynth()
+  const chordsOff = opts.chordsOff === true ? true : fillPlayback.chordsOff
+  // Match live useAbcSynth: remapped MusyngKite must not use original-bank
+  // programOffsets (per-instrument shifts desync boom-chick fills from melody).
+  const programOffsets = programOffsetsForPlaybackPlan(soundFontPlan.url, soundFontPlan)
   const initOptions = {
     audioContext: audioContext,
     millisecondsPerMeasure: msPerMeasure,
-    options: {
+    options: abcjsPlaybackSynthOptions({
       soundFontUrl: soundFontPlan.url,
       soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
-      chordsOff: opts.chordsOff === true ? true : fillPlayback.chordsOff,
-      programOffsets: ABC_SYNTH_PROGRAM_OFFSETS,
-    },
+      chordsOff: chordsOff,
+      programOffsets: programOffsets,
+    }),
   }
-  const useSequencePath = soundFontPlan.remap || fillPlayback.injectCustomFill
+  // Always use the sequence path like web playback so fills/chords match.
+  const useSequencePath = true
+  let audibleMsPerMeasure = msPerMeasure
+  const soundingWrittenMap = buildSoundingWrittenMap(visualObj)
   if (useSequencePath) {
     const flattened = buildPlaybackSequence(visualObj, {
       fillOptions: fillPlayback,
@@ -69,7 +80,20 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
       initOptions.millisecondsPerMeasure,
       typeof visualObj.getMeterFraction === 'function' ? visualObj.getMeterFraction() : null
     )
+    audibleMsPerMeasure = measureTiming.audibleMsPerMeasure || msPerMeasure
     initOptions.millisecondsPerMeasure = measureTiming.createSynthMsPerMeasure
+    if (soundingWrittenMap && audibleMsPerMeasure > 0) {
+      const barW = barWholeNotesFromMeter(
+        typeof visualObj.getMeterFraction === 'function'
+          ? visualObj.getMeterFraction()
+          : null
+      )
+      if (barW > 0 && soundingWrittenMap.soundingWhole > 0) {
+        soundingWrittenMap.expectedDurationSec =
+          soundingWrittenMap.soundingWhole
+          * (audibleMsPerMeasure / 1000) / barW
+      }
+    }
   } else {
     initOptions.visualObj = visualObj
   }
@@ -91,6 +115,9 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
     const status = primeResult && primeResult.status ? String(primeResult.status) : 'unknown'
     throw new Error('Could not render notation audio (status=' + status + ')')
   }
+  if (soundingWrittenMap && buffer.duration > 0) {
+    soundingWrittenMap.expectedDurationSec = buffer.duration
+  }
   const expectedDurationSec = estimateVisualAudioDurationSec(visualObj)
   if (expectedDurationSec > 3 && buffer.duration < expectedDurationSec * 0.85) {
     throw new Error(
@@ -99,7 +126,11 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
       + expectedDurationSec.toFixed(2) + 's)'
     )
   }
-  return buffer
+  return {
+    buffer: buffer,
+    soundingWrittenMap: soundingWrittenMap,
+    audibleMsPerMeasure: audibleMsPerMeasure,
+  }
 }
 
 function estimateVisualAudioDurationSec(visualObj) {
@@ -163,43 +194,27 @@ export async function renderAbcToAudioBuffer(abc, options) {
   const candidates = soundFontCandidates(opts.tune)
   let lastError = null
   const renderStartedAt = Date.now()
-  // #region agent log
-  agentDebugLog('notationAudioExport.js:renderAbcToAudioBuffer', 'start', {
-    candidateCount: candidates.length,
-    firstUrl: candidates[0] && candidates[0].url ? String(candidates[0].url).slice(0, 80) : null,
-    abcLen: String(abc).length,
-  }, 'H-A')
-  // #endregion
   try {
     for (let i = 0; i < candidates.length; i += 1) {
       try {
         if (i > 0) clearAbcjsSoundsCache()
-        const buffer = await primeAbcToAudioBuffer(
+        const primed = await primeAbcToAudioBuffer(
           abc,
           audioContext,
           candidates[i].plan,
           opts
         )
-        // #region agent log
-        agentDebugLog('notationAudioExport.js:renderAbcToAudioBuffer', 'ok', {
-          candidateIndex: i,
-          bank: candidates[i].plan && candidates[i].plan.bank,
-          durationSec: buffer && buffer.duration,
-          elapsedMs: Date.now() - renderStartedAt,
-        }, 'H-A')
-        // #endregion
+        const buffer = primed && primed.buffer ? primed.buffer : primed
+        if (opts.includeMeta) {
+          return {
+            buffer: buffer,
+            soundingWrittenMap: primed.soundingWrittenMap || null,
+            audibleMsPerMeasure: primed.audibleMsPerMeasure || 0,
+          }
+        }
         return buffer
       } catch (err) {
         lastError = err
-        // #region agent log
-        agentDebugLog('notationAudioExport.js:renderAbcToAudioBuffer', 'candidate-fail', {
-          candidateIndex: i,
-          bank: candidates[i].plan && candidates[i].plan.bank,
-          url: candidates[i].url ? String(candidates[i].url).slice(0, 80) : null,
-          message: err && err.message ? String(err.message).slice(0, 160) : 'unknown',
-          elapsedMs: Date.now() - renderStartedAt,
-        }, 'H-A')
-        // #endregion
       }
     }
     throw lastError || new Error('Could not render notation audio')

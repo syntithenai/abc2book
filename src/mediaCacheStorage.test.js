@@ -12,6 +12,7 @@ jest.mock('react-toastify', function() {
 import { toast } from 'react-toastify'
 import {
   estimateStoredValueBytes,
+  estimateExternalMediaEntryBytes,
   formatBytes,
   getHighestExceededThresholdMb,
   maybeWarnMediaCacheStorage,
@@ -49,6 +50,17 @@ describe('mediaCacheStorage', function() {
     expect(estimateStoredValueBytes(makeBlob(100))).toBe(100)
     expect(estimateStoredValueBytes({ blob: makeBlob(50), duration: 1.2 })).toBe(58)
     expect(estimateStoredValueBytes([makeBlob(10), makeBlob(20)])).toBe(30)
+  })
+
+  test('estimateExternalMediaEntryBytes prefers blob then metadata size', function() {
+    expect(estimateExternalMediaEntryBytes({ blob: makeBlob(200), size: 1 })).toBe(200)
+    expect(
+      estimateExternalMediaEntryBytes({
+        fileName: 'abc',
+        size: 4096,
+        audioFormat: 'audio/mpeg',
+      }),
+    ).toBe(4096)
   })
 
   test('formatBytes uses readable units', function() {

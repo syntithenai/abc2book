@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef, useCallback} from 'react'
 import {Link , useParams , useNavigate, useLocation, useSearchParams} from 'react-router-dom'
-import { Alert, Button, Dropdown } from 'react-bootstrap'
+import { Alert, Button, Dropdown, Spinner } from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
 import StarToggleButton from './StarToggleButton'
@@ -319,6 +319,13 @@ function MusicSingleSection(props) {
             return undefined
         }
 
+        // Pre-hydrate book is empty; wait so we do not flash "could not be found".
+        if (!props.tunesHydrated) {
+            setTune(null)
+            setTuneLoadState('loading')
+            return undefined
+        }
+
         setTune(null)
         setTuneLoadState('loading')
         getTuneFromRepository(tuneId).then(function(loaded) {
@@ -348,7 +355,7 @@ function MusicSingleSection(props) {
         return function() {
             cancelled = true
         }
-    },[sectionTuneId, props.tunes, props.mediaController && props.mediaController.playbackSpeed, searchParams, isActive])
+    },[sectionTuneId, props.tunes, props.tunesHydrated, props.mediaController && props.mediaController.playbackSpeed, searchParams, isActive])
 
     useEffect(function() {
         if (!isActive || !tune) return undefined
@@ -697,7 +704,7 @@ function MusicSingleSection(props) {
     
     
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
-    if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune)) {
+    if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune) || !props.tunesHydrated) {
         return (
           <div
             id={pageStackMode && sectionTuneId ? tunePageSectionDomId(sectionTuneId) : undefined}
@@ -705,7 +712,10 @@ function MusicSingleSection(props) {
               + (pageStackMode ? ' music-single--page-stack-item' : '')
               + (pageStackMode && isActive ? ' music-single-page-tune--active' : '')}
             role="status"
+            aria-busy="true"
+            aria-live="polite"
           >
+            <Spinner animation="border" size="sm" className="me-2" aria-hidden="true" />
             Loading tune…
           </div>
         )

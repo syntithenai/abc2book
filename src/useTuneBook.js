@@ -2579,13 +2579,21 @@ The main difference between the two functions is the additional condition in app
   
   function toAbc(book) {
     var res = tunesForBook(book).map(function(tune, k) {
-      //var newTune = tune
-      if (tune && tune.meta) tune.meta.X = k
-      return abcTools.json2abc(tune)
+      if (!tune) return abcTools.json2abc(tune)
+      // Never mutate stored meta; reject corrupt string/array meta values.
+      var meta = (tune.meta
+        && typeof tune.meta === 'object'
+        && !Array.isArray(tune.meta)
+        && Object.prototype.toString.call(tune.meta) === '[object Object]')
+        ? Object.assign({}, tune.meta)
+        : {}
+      meta.X = k
+      return abcTools.json2abc(Object.assign({}, tune, { meta: meta }))
     }).join("\n")
     return res 
-
   }
+
+
   
   
   function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null, navigateFn, filterGenres = null, filterArtists = null, filterAlbums = null) {

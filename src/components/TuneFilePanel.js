@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { toast } from 'react-toastify'
 import {
   findTuneFileMeta,
   isPdfTuneFileType,
@@ -123,7 +122,6 @@ export default function TuneFilePanel(props) {
         setObjectUrl(null)
         setError('')
         onTuneChange(setActiveTuneFile(tune, ''))
-        toast.info('Snapshot unavailable — showing notation', { autoClose: 2800 })
         return
       }
       setError(err && err.message ? err.message : 'Could not load file')

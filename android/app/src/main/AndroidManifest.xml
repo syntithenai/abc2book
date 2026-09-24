@@ -46,7 +46,26 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"></meta-data>
         </provider>
+
+        <!-- Cross-app mirrored media cache for yoga / synthfit session BGM -->
+        <provider
+            android:name=".MediaCacheProvider"
+            android:authorities="net.tunebook.app.media_cache"
+            android:exported="true"
+            android:grantUriPermissions="true" />
     </application>
+
+    <queries>
+        <package android:name="app.yogapp.practice" />
+        <package android:name="online.synthfit.app" />
+        <package android:name="com.google.android.googlequicksearchbox" />
+        <package android:name="com.google.android.tts" />
+        <package android:name="com.google.android.as" />
+        <!-- Android 11+ package visibility for SpeechRecognizer -->
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
 
     <!-- Permissions -->
 

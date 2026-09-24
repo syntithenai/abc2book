@@ -255,15 +255,19 @@ export function dedupeBarStartsByPosition(barStarts) {
 
 /**
  * Written-score bar index from whole-note position (pickup is bar 0).
+ * The instant the pickup ends is the first full-bar downbeat — that moment
+ * belongs to bar 1 (using <= kept the cursor on the pickup for that beat).
  */
 export function writtenWholeToBarIndex(writtenWhole, barWhole, pickupWhole) {
   if (!(barWhole > 0)) return 0
   const w = Math.max(0, parseFloat(writtenWhole) || 0)
   const pickup = Math.max(0, parseFloat(pickupWhole) || 0)
-  if (w <= pickup + 1e-9) return 0
-  let idx = Math.floor((w - pickup) / barWhole + 1e-9)
-  if (pickup > 0) idx += 1
-  return Math.max(0, idx)
+  if (pickup > 0) {
+    if (w < pickup - 1e-9) return 0
+    let idx = Math.floor((w - pickup) / barWhole + 1e-9)
+    return Math.max(0, idx + 1)
+  }
+  return Math.max(0, Math.floor(w / barWhole + 1e-9))
 }
 
 /**
@@ -321,33 +325,91 @@ export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs, option
         // the audio. Index once-through visual bars instead.
         const uniqueBars = dedupeBarStartsByPosition(barStarts)
         const barsForIndex = uniqueBars.length > 0 ? uniqueBars : barStarts
+        let writtenMs = null
+        let writtenBarIdx = null
+        const musicStartMs = parseFloat(opts.musicStartMs) || 0
+        const msPerWhole = (audibleMpm > 0 && barWhole > 0)
+          ? (audibleMpm / barWhole)
+          : 0
+        // Always derive writtenMs from audible tempo — scaling by TimingCallbacks
+        // lastMoment (often shorter) made the staff cursor lag ~1 beat behind.
+        if (msPerWhole > 0) {
+          writtenMs = musicStartMs + mapped.writtenWhole * msPerWhole
+        } else if (writtenTotal > 0 && lastMomentMs > 0) {
+          const expectedSpan = writtenTotal > 0 && msPerWhole > 0
+            ? writtenTotal * msPerWhole
+            : 0
+          const spanEnd = expectedSpan > 0 ? expectedSpan : lastMomentMs
+          const musicSpanMs = (musicStartMs > 0 && musicStartMs < spanEnd)
+            ? (spanEnd - musicStartMs)
+            : spanEnd
+          writtenMs = musicStartMs
+            + (mapped.writtenWhole / writtenTotal) * musicSpanMs
+        }
+        // Once-per-bar on the audible downbeat (pickup is bar 0).
+        // TimingCallbacks often emits a bar-start every beat (e.g. 600ms) while
+        // audibleMsPerMeasure is a full measure (e.g. 1800ms). Indexing 1:1 then
+        // leaves the staff cursor one beat (or more) behind each downbeat — scale
+        // by barsPerAudio like the non-map path.
+        const typicalBarMs = typicalTimingBarMs(barsForIndex)
+        let barsPerAudio = 1
+        if (typicalBarMs > 0 && audibleMpm > 0) {
+          const raw = audibleMpm / typicalBarMs
+          if (raw >= 1.4) barsPerAudio = Math.max(1, Math.round(raw))
+        }
+        const phaseLeadWhole = parseFloat(opts.barCursorPhaseLeadWhole) || 0
+        let unledBarIdx = null
         if (barWhole > 0 && barsForIndex.length > 0) {
-          const writtenBarIdx = writtenWholeToBarIndex(
+          unledBarIdx = writtenWholeToBarIndex(
             mapped.writtenWhole,
             barWhole,
             pickupWhole
           )
-          const barIndex = Math.max(0, Math.min(barsForIndex.length - 1, writtenBarIdx))
+          writtenBarIdx = writtenWholeToBarIndex(
+            mapped.writtenWhole + phaseLeadWhole,
+            barWhole,
+            pickupWhole
+          )
+          const barIndex = Math.max(
+            0,
+            Math.min(barsForIndex.length - 1, writtenBarIdx * barsPerAudio)
+          )
           downbeat = barsForIndex[barIndex]
-        } else if (writtenTotal > 0 && lastMomentMs > 0) {
-          const musicStartMs = parseFloat(opts.musicStartMs) || 0
-          const msPerWhole = (audibleMpm > 0 && barWhole > 0)
-            ? (audibleMpm / barWhole)
+        } else if (writtenMs != null && barsForIndex.length > 0) {
+          const leadMs = phaseLeadWhole > 0 && msPerWhole > 0
+            ? phaseLeadWhole * msPerWhole
             : 0
-          const expectedSpan = msPerWhole > 0 ? writtenTotal * msPerWhole : 0
-          // Prefer once-through written span when TimingCallbacks lastMoment
-          // includes abcjs-expanded repeats.
-          const spanEnd = (expectedSpan > 0 && lastMomentMs > expectedSpan * 1.25)
-            ? expectedSpan
-            : lastMomentMs
-          const musicSpanMs = (musicStartMs > 0 && musicStartMs < spanEnd)
-            ? (spanEnd - musicStartMs)
-            : spanEnd
-          const writtenMs = musicStartMs
-            + (mapped.writtenWhole / writtenTotal) * musicSpanMs
+          const ledMs = writtenMs + leadMs
+          let bestIdx = 0
+          downbeat = barsForIndex[0]
           for (let i = 0; i < barsForIndex.length; i++) {
-            if (barsForIndex[i].milliseconds <= writtenMs + 1e-6) downbeat = barsForIndex[i]
-            else break
+            if (barsForIndex[i].milliseconds <= ledMs + 1e-6) {
+              if (barsPerAudio <= 1 || (i % barsPerAudio === 0)) {
+                downbeat = barsForIndex[i]
+                bestIdx = i
+              }
+            } else break
+          }
+          writtenBarIdx = barsPerAudio > 1
+            ? Math.floor(bestIdx / barsPerAudio)
+            : bestIdx
+          unledBarIdx = writtenBarIdx
+        }
+        // Optional note-level placement (not used for staff bar cursor).
+        if (opts.trackNotePositions === true && writtenMs != null) {
+          const note = findNoteTimingAtTime(noteTimings, writtenMs)
+          if (note && note.left != null) {
+            return {
+              left: note.left,
+              top: note.top,
+              height: note.height,
+              passIndex: mapped.passIndex || 1,
+              writtenWhole: mapped.writtenWhole,
+              writtenMs: writtenMs,
+              writtenBarIdx: writtenBarIdx,
+              path: 'map-note',
+              soundingWhole: soundingWhole,
+            }
           }
         }
         return {
@@ -356,6 +418,15 @@ export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs, option
           height: downbeat.height,
           passIndex: mapped.passIndex || 1,
           writtenWhole: mapped.writtenWhole,
+          writtenMs: writtenMs,
+          writtenBarIdx: writtenBarIdx,
+          unledBarIdx: unledBarIdx,
+          audioBarIndex: unledBarIdx != null ? unledBarIdx : writtenBarIdx,
+          barsPerAudio: barsPerAudio,
+          typicalBarMs: typicalBarMs,
+          phaseLeadWhole: phaseLeadWhole,
+          path: 'map-bar',
+          soundingWhole: soundingWhole,
         }
       }
     }
@@ -378,16 +449,55 @@ export function cursorPositionFromNoteTimings(noteTimings, currentTimeMs, option
         barsPerAudio = Math.max(1, Math.round(raw))
       }
     }
-    const audioBarIndex = Math.floor(effectiveSec * 1000 / audibleMpm)
+    // Account for anacrusis: uniform audibleMpm steps otherwise lag by ~pickup
+    // (often exactly one beat in 2/4, 3/4, 6/8).
+    const pickupSec = (pickupWhole > 0 && barWhole > 0)
+      ? pickupWhole * (audibleMpm / 1000) / barWhole
+      : 0
+    const phaseLeadWhole = parseFloat(opts.barCursorPhaseLeadWhole) || 0
+    const phaseLeadSec = (phaseLeadWhole > 0 && barWhole > 0)
+      ? phaseLeadWhole * (audibleMpm / 1000) / barWhole
+      : 0
+    const ledSec = effectiveSec + phaseLeadSec
+    let audioBarIndex = 0
+    if (pickupSec > 0) {
+      if (ledSec >= pickupSec - 1e-9) {
+        audioBarIndex = 1 + Math.floor((ledSec - pickupSec) * 1000 / audibleMpm + 1e-9)
+      }
+    } else {
+      audioBarIndex = Math.floor(ledSec * 1000 / audibleMpm + 1e-9)
+    }
     const barIndex = Math.max(
       0,
       Math.min(barStarts.length - 1, audioBarIndex * barsPerAudio)
     )
+    if (opts.trackNotePositions === true) {
+      const note = findNoteTimingAtTime(
+        noteTimings,
+        Math.max(0, effectiveSec * 1000)
+      )
+      if (note && note.left != null) {
+        return {
+          left: note.left,
+          top: note.top,
+          height: note.height,
+          path: 'audio-note',
+          audioBarIndex: audioBarIndex,
+          pickupSec: pickupSec,
+          barsPerAudio: barsPerAudio,
+        }
+      }
+    }
     const downbeat = barStarts[barIndex]
     return {
       left: downbeat.left,
       top: downbeat.top,
       height: downbeat.height,
+      path: 'audio-bar',
+      audioBarIndex: audioBarIndex,
+      pickupSec: pickupSec,
+      barsPerAudio: barsPerAudio,
+      phaseLeadWhole: phaseLeadWhole,
     }
   }
 

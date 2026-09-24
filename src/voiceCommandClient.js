@@ -53,6 +53,7 @@ export async function submitVoiceCommand(options) {
   const {
     blob,
     fileName,
+    transcript,
     books,
     tags,
     mode,
@@ -61,22 +62,32 @@ export async function submitVoiceCommand(options) {
     onProgress,
   } = options;
 
-  if (!blob) {
+  const text = typeof transcript === 'string' ? transcript.trim() : '';
+  const hasAudio = Boolean(blob);
+  const hasTranscript = Boolean(text);
+
+  if (!hasAudio && !hasTranscript) {
     throw new Error('No audio captured');
   }
 
-  if (typeof onProgress === 'function') {
-    onProgress('Uploading audio...');
-  }
-
   const formData = new FormData();
-  formData.append('file', blob, fileName || 'voice-command.webm');
   formData.append('books', JSON.stringify(Array.isArray(books) ? books : []));
   formData.append('tags', JSON.stringify(Array.isArray(tags) ? tags : []));
   formData.append('mode', typeof mode === 'string' ? mode : 'playback');
 
-  if (typeof onProgress === 'function') {
-    onProgress('Processing voice command...');
+  if (hasTranscript && !hasAudio) {
+    if (typeof onProgress === 'function') {
+      onProgress('Processing voice command...');
+    }
+    formData.append('transcript', text);
+  } else {
+    if (typeof onProgress === 'function') {
+      onProgress('Uploading audio...');
+    }
+    formData.append('file', blob, fileName || 'voice-command.webm');
+    if (typeof onProgress === 'function') {
+      onProgress('Processing voice command...');
+    }
   }
 
   const response = await fetchViaMediaProxy('/voice-command', accessToken, {

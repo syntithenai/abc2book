@@ -980,7 +980,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           if (e && e.response && e.response.status == '401') {
 			  handleDriveUnauthorized(logout, token)
 		  }
-          resolve({error: e})
+          reject(e)
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 

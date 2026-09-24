@@ -26,6 +26,7 @@ import {
   EDITOR_SUBDIVISION_HALF_PULSES,
   beatGroupIsOn,
   setDrumBeatSteps,
+  remapDrumPatternGranularity,
 } from '../rhythmGranularity'
 import { isUserDrumPresetId } from '../userDrumPresets'
 import useUserDrumPresets from '../useUserDrumPresets'
@@ -238,7 +239,23 @@ export default function DrumPatternEditor(props) {
 
   function changeSwing(value) {
     if (!drumPattern || !props.onRhythmChange) return
-    commitPatternChange(setDrumSwing(drumPattern, value))
+    const swung = setDrumSwing(drumPattern, value)
+    const pulses = Array.isArray(rhythm.pulsesPerBeat) ? rhythm.pulsesPerBeat : []
+    const needsSubdivision = value > 0 && pulses.length > 0
+      && pulses.every(function(p) { return p <= 1 })
+    if (needsSubdivision) {
+      // Swing only affects off-beat pulses — expand 1-pulse beats to eighths.
+      const beats = Math.max(1, rhythm.beatsPerBar || 4)
+      const eighths = Array.from({ length: beats }, function() { return 2 })
+      const targetRhythm = Object.assign({}, rhythm, { pulsesPerBeat: eighths })
+      const remapped = remapDrumPatternGranularity(swung, rhythm, targetRhythm)
+      props.onRhythmChange(Object.assign({}, targetRhythm, {
+        drumPattern: Object.assign({}, remapped, { swing: swung.swing }),
+        presetId: '',
+      }), { preserveTransport: true })
+      return
+    }
+    commitPatternChange(swung, { preserveTransport: true })
   }
 
   function handleUndo() {

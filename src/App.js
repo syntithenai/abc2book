@@ -474,6 +474,7 @@ function AppQueueLayer(props) {
             googleDocumentId={props.googleDocumentId}
             syncDocument={props.syncDocument}
             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            onOpenNowPlaying={openNowPlaying}
             onClose={function() {
               if (typeof setNowPlayingExpanded === 'function') setNowPlayingExpanded(false)
             }}
@@ -671,6 +672,16 @@ function App(props) {
 
   useEffect(function() {
     scheduleMediaCacheStorageCheck(isAndroidApp() ? 15000 : 1500)
+  }, [])
+
+  // One-shot: migrate IndexedDB blobs → disk-primary (single byte copy on Android).
+  useEffect(function() {
+    if (!isAndroidApp()) return
+    import('./mediaCacheShare').then(function(m) {
+      return m.migrateExternalMediaCacheToDiskPrimaryIfNeeded()
+    }).catch(function(err) {
+      console.warn('media cache disk-primary migration failed', err)
+    })
   }, [])
 
   function scheduleTuneReindex(nextTunes) {
@@ -1925,17 +1936,17 @@ function App(props) {
                         path="check"
                         element={<Navigate to="/tunes" replace />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle   mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} filter={filter} groupBy={groupBy} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} albumFilter={albumFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle   mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes} tunesHydrated={tunesHydrated}  forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} filter={filter} groupBy={groupBy} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} albumFilter={albumFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
-                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} filter={filter} groupBy={groupBy} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} albumFilter={albumFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
+                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes} tunesHydrated={tunesHydrated}  forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} filter={filter} groupBy={groupBy} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} albumFilter={albumFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
-                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} filter={filter} groupBy={groupBy} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} albumFilter={albumFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
+                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes} tunesHydrated={tunesHydrated}  forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} filter={filter} groupBy={groupBy} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} albumFilter={albumFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
                     </Route>  
                     
                     <Route  path={`editor`}     >
-                      <Route  path={`:tuneId`} element={<MusicEditor  logout={logout} token={token} user={user} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
-                        <Route  path={`:tuneId/:view`} element={<MusicEditor  logout={logout} token={token} user={user} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
+                      <Route  path={`:tuneId`} element={<MusicEditor  logout={logout} token={token} user={user} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes} tunesHydrated={tunesHydrated}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
+                        <Route  path={`:tuneId/:view`} element={<MusicEditor  logout={logout} token={token} user={user} login={login} mediaController={mediaController} editHistory={editHistory} tunes={tunes} tunesHydrated={tunesHydrated}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setNowPlayingQueue={setNowPlayingQueue}  searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} onNotationHelpModeChange={setNotationHelpActive} onRegisterActiveEditorFlush={function(fn) { activeEditorFlushRef.current = fn }} />} />
                     </Route>
                     
                     <Route path={`import/midi`} element={

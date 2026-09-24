@@ -12,6 +12,7 @@ import {
   isNativePlayerActive,
   addNativePlayerListener,
   writeBlobToCacheUri,
+  getBatteryOptimizationStatus,
   openBatteryOptimizationSettings,
   resolveNativePlaybackUri,
   markNativePlayerActive,
@@ -23,7 +24,7 @@ import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { fetchYoutubeAudioFilePathViaNative, playYoutubeAudioNative } from './youtubeNativeClient';
-import { logPlaybackDebug, agentDebugLog } from './playbackDebug';
+import { logPlaybackDebug } from './playbackDebug'
 
 let removeListeners = null;
 let callbacks = {
@@ -34,6 +35,9 @@ let callbacks = {
 
 let abcNativePlayGeneration = 0;
 let abcNativePlayInFlight = false;
+// Serialize Exo loads so a superseded render cannot overwrite a newer track's
+ // media/title after cancelAbcNativePlayback bumps the generation.
+let abcNativeLoadChain = Promise.resolve();
 
 export function shouldUseAndroidNativePlayer() {
   return prefersNativeMediaPlayback();
@@ -46,6 +50,24 @@ export function isAbcNativePlayInFlight() {
 export function cancelAbcNativePlayback() {
   abcNativePlayGeneration += 1;
   abcNativePlayInFlight = false;
+}
+
+function enqueueAbcNativeExoLoad(generation, loadFn) {
+  const run = abcNativeLoadChain.then(function() {
+    if (!isGenerationCurrent(generation)) {
+      return false
+    }
+    return Promise.resolve()
+      .then(function() { return loadFn() })
+      .then(function() {
+        if (!isGenerationCurrent(generation)) {
+          return false
+        }
+        return true
+      })
+  })
+  abcNativeLoadChain = run.then(function() {}, function() {})
+  return run
 }
 
 export function ensureAndroidNativeListeners(handlers) {
@@ -125,7 +147,8 @@ export async function playAndroidNativeBlobUrl(blobUrl, options) {
 
 function getAbcNativeCachePath(tuneId, tempo) {
   const tempoKey = Math.round((tempo > 0 ? tempo : 1) * 1000);
-  return 'playback/abc-v2-' + String(tuneId || 'unknown') + '-' + tempoKey + '.wav';
+  // v3: programOffsets aligned with live playback (no original-bank offsets on remap).
+  return 'playback/abc-v3-' + String(tuneId || 'unknown') + '-' + tempoKey + '.wav';
 }
 
 function parseWavDurationSec(arrayBuffer) {
@@ -162,22 +185,11 @@ async function readAbcNativeCacheUri(tuneId, tempo, minDurationSec) {
     const minAccept = minDurationSec > 0 ? Math.min(minDurationSec * 0.85, minDurationSec - 0.25) : 3;
     const floor = minDurationSec > 0 ? Math.max(1, minAccept) : 3;
     if (!(cachedDuration >= floor)) {
-      agentDebugLog('androidNativePlayback.js:readAbcNativeCacheUri', 'cache-reject-duration', {
-        tuneId: tuneId,
-        cachedDurationSec: cachedDuration,
-        minAcceptSec: floor,
-        fileBytes: stat.size,
-      }, 'H-A');
       try {
         await Filesystem.deleteFile({ path: path, directory: Directory.Cache });
       } catch (e) { /* ignore */ }
       return null;
     }
-    agentDebugLog('androidNativePlayback.js:readAbcNativeCacheUri', 'cache-accept', {
-      tuneId: tuneId,
-      cachedDurationSec: cachedDuration,
-      fileBytes: stat.size,
-    }, 'H-A');
     return uri;
   } catch (e) {
     return null;
@@ -208,56 +220,44 @@ export async function renderAndPlayAbcNative(abc, options) {
       tunebook: opts.tunebook,
     });
   }
-  agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'start', {
-    tuneId: tuneId, tempo: tempo, generation: generation, minDurationSec: minDurationSec,
-  }, 'H-D');
   try {
     let playUri = tuneId ? await readAbcNativeCacheUri(tuneId, tempo, minDurationSec) : null;
+    let fromCache = !!playUri;
     if (!isGenerationCurrent(generation)) {
-      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'stale-after-cache', {
-        generation: generation,
-      }, 'H-E');
       return false;
     }
 
     if (playUri) {
       logPlaybackDebug('abc-native-cache-hit', { tuneId: tuneId });
-      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'cache-hit', {
-        tuneId: tuneId, playUri: playUri ? playUri.slice(-40) : null,
-      }, 'H-A');
     } else {
+      fromCache = false;
       logPlaybackDebug('abc-native-render', { tuneId: tuneId });
-      const buffer = await renderAbcToAudioBuffer(abc, {
+      const rendered = await renderAbcToAudioBuffer(abc, {
         tune: opts.tune,
         tunebook: opts.tunebook,
         chordsOff: opts.chordsOff,
+        includeMeta: true,
       });
+      const buffer = rendered && rendered.buffer ? rendered.buffer : rendered;
       if (!isGenerationCurrent(generation)) return false;
       logPlaybackDebug('abc-native-rendered', {
         tuneId: tuneId,
         durationSec: buffer.duration,
       });
+      if (typeof opts.onPlaybackMeta === 'function') {
+        opts.onPlaybackMeta({
+          soundingWrittenMap: rendered.soundingWrittenMap || null,
+          audibleMsPerMeasure: rendered.audibleMsPerMeasure || 0,
+          durationSec: buffer.duration,
+        });
+      }
       const blob = encodeAudioBufferToWav(buffer);
       if (minDurationSec > 0 && buffer.duration < minDurationSec * 0.85) {
-        agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'render-too-short', {
-          tuneId: tuneId,
-          durationSec: buffer.duration,
-          minDurationSec: minDurationSec,
-        }, 'H-A');
         throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
       }
       if (buffer.duration < 1) {
-        agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'render-too-short-absolute', {
-          tuneId: tuneId,
-          durationSec: buffer.duration,
-        }, 'H-A');
         throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
       }
-      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'render-complete', {
-        tuneId: tuneId,
-        durationSec: buffer.duration,
-        blobBytes: blob && blob.size ? blob.size : 0,
-      }, 'H-F');
       if (tuneId) {
         playUri = await writeAbcNativeCache(tuneId, tempo, blob);
       } else {
@@ -266,33 +266,21 @@ export async function renderAndPlayAbcNative(abc, options) {
       if (!isGenerationCurrent(generation)) return false;
     }
 
-    agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'exo-load-start', {
-      tuneId: tuneId, playUri: playUri ? playUri.slice(-40) : null,
-    }, 'H-D');
-    await playAndroidNativeUri(playUri, {
-      title: opts.title,
-      artist: opts.artist,
-      positionSec: opts.positionSec || 0,
-      play: opts.play !== false,
-      tempo: opts.tempo,
+    const loadedOk = await enqueueAbcNativeExoLoad(generation, function() {
+      return playAndroidNativeUri(playUri, {
+        title: opts.title,
+        artist: opts.artist,
+        positionSec: opts.positionSec || 0,
+        play: opts.play !== false,
+        tempo: opts.tempo,
+      });
     });
-    if (!isGenerationCurrent(generation)) {
-      agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'stale-after-load', {
-        generation: generation,
-      }, 'H-E');
+    if (!loadedOk) {
       return false;
     }
     markNativePlayerActive(playUri);
-    agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'exo-load-ok', {
-      tuneId: tuneId,
-    }, 'H-D');
     return true;
   } catch (err) {
-    agentDebugLog('androidNativePlayback.js:renderAndPlayAbcNative', 'error', {
-      tuneId: tuneId,
-      message: err && err.message ? String(err.message) : 'unknown',
-      benign: isBenignNativeLoadError(err),
-    }, 'H-D')
     if (isBenignNativeLoadError(err)) {
       return false
     }
@@ -335,14 +323,6 @@ export async function playAndroidNativeYoutube(src, options) {
       if (opts.play !== false && opts.tempo && opts.tempo !== 1) {
         await setNativePlayerSpeed(opts.tempo);
       }
-      // #region agent log
-      agentDebugLog('androidNativePlayback.js:playAndroidNativeYoutube', 'ok', {
-        videoId: videoId,
-        via: fetchVia,
-        hasFile: !!filePath,
-        hasStream: !!(played && played.streamUrl),
-      }, 'H-D')
-      // #endregion
       return {
         ok: true,
         filePath: filePath,
@@ -375,13 +355,6 @@ export async function playAndroidNativeYoutube(src, options) {
       message = 'YouTube audio unavailable';
     }
     logPlaybackDebug('youtube-native-error', { videoId: videoId, message: message });
-    // #region agent log
-    agentDebugLog('androidNativePlayback.js:playAndroidNativeYoutube', 'error', {
-      videoId: videoId,
-      message: message.slice(0, 200),
-      raw: e && e.message ? String(e.message).slice(0, 200) : null,
-    }, 'H-D')
-    // #endregion
     return { ok: false, error: message, videoId: videoId };
   }
 }
@@ -419,5 +392,5 @@ export function isAndroidNativePlayerActive() {
   return isNativePlayerActive();
 }
 
-export { openBatteryOptimizationSettings };
+export { getBatteryOptimizationStatus, openBatteryOptimizationSettings };
 export { abcMidiUsesAndroidNativePrerender } from './playbackRouter';

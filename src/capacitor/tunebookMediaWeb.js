@@ -13,5 +13,8 @@ export class TunebookMediaWeb extends WebPlugin {
     return { isPlaying: false, positionMs: 0, durationMs: 0 };
   }
   async stop() {}
+  async getBatteryOptimizationStatus() {
+    return { ignoringOptimizations: true };
+  }
   async openBatterySettings() {}
 }

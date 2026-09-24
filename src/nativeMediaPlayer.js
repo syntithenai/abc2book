@@ -5,7 +5,7 @@ import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { TunebookMedia, isNativeMediaPlayerAvailable } from './capacitor/tunebookPlugins';
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
-import { logPlaybackDebug, agentDebugLog } from './playbackDebug';
+import { logPlaybackDebug } from './playbackDebug'
 
 let listenerHandles = [];
 let active = false;
@@ -74,13 +74,6 @@ function waitForNativeLoadComplete(shouldPlay) {
       if (settled) return
       settled = true
       remove()
-      // #region agent log
-      agentDebugLog('nativeMediaPlayer.js:waitForNativeLoadComplete', 'timeout', {
-        shouldPlay: !!shouldPlay,
-        timeoutMs: NATIVE_LOAD_TIMEOUT_MS,
-        uriTail: currentUri ? String(currentUri).slice(-48) : null,
-      }, 'H-B')
-      // #endregion
       reject(new Error('Native playback load timeout'))
     }, NATIVE_LOAD_TIMEOUT_MS)
     function finish(ok, err) {
@@ -150,13 +143,6 @@ export async function loadNativePlayer(options) {
         active = false;
         currentUri = null;
       }
-      // #region agent log
-      agentDebugLog('nativeMediaPlayer.js:loadNativePlayer', 'error', {
-        message: e && e.message ? String(e.message).slice(0, 160) : 'unknown',
-        benign: isBenignNativeLoadError(e),
-        uriTail: uri ? String(uri).slice(-48) : null,
-      }, 'H-F');
-      // #endregion
       throw e;
     }
   };
@@ -204,12 +190,6 @@ export async function stopNativePlayer() {
     return;
   }
   const run = async function() {
-    // #region agent log
-    agentDebugLog('nativeMediaPlayer.js:stopNativePlayer', 'run', {
-      hadActive: active,
-      uriTail: currentUri ? String(currentUri).slice(-48) : null,
-    }, 'H-G');
-    // #endregion
     active = false;
     currentUri = null;
     await TunebookMedia.stop();
@@ -228,6 +208,20 @@ export function addNativePlayerListener(eventName, handler) {
     token.remove();
     listenerHandles = listenerHandles.filter(function(t) { return t !== token; });
   };
+}
+
+export async function getBatteryOptimizationStatus() {
+  if (!isNativeMediaPlayerAvailable()) {
+    return { ignoringOptimizations: true };
+  }
+  try {
+    const result = await TunebookMedia.getBatteryOptimizationStatus();
+    return {
+      ignoringOptimizations: !!(result && result.ignoringOptimizations),
+    };
+  } catch (e) {
+    return { ignoringOptimizations: false };
+  }
 }
 
 export async function openBatteryOptimizationSettings() {

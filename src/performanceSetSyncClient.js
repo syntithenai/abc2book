@@ -36,7 +36,12 @@ export function mergePerformanceSetsFromTuneBookAbc(abcText, options) {
         needsUpload: prepared.hasLocalOnly,
       });
     }
-    if (opts.interactive === false || opts.applySilently) {
+    // Insert-only remote sets: merge silently (same as playlists/tunes).
+    const records = prepared.records || [];
+    const insertOnly = records.length > 0 && records.every(function(record) {
+      return record && record.kind === 'insert';
+    });
+    if (insertOnly || opts.interactive === false || opts.applySilently) {
       return Promise.resolve(applyPerformanceSetMergeAcceptAll(prepared)).then(function(result) {
         return Object.assign({ needsReview: false }, result, {
           added: prepared.compared.inserts ? Object.values(prepared.compared.inserts).map(function(s) { return s.name; }) : [],
@@ -46,6 +51,7 @@ export function mergePerformanceSetsFromTuneBookAbc(abcText, options) {
           }) : [],
           deleted: prepared.compared.deletes ? Object.values(prepared.compared.deletes).map(function(s) { return s.name; }) : [],
           hadIncoming: true,
+          silentInserts: insertOnly,
         });
       });
     }

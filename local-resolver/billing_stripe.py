@@ -133,7 +133,11 @@ def extract_checkout_payment_method(session: Any, stripe_api: Any) -> str:
 
 
 def process_checkout_session_completed(event: Any, stripe_api: Any) -> dict[str, Any]:
-    """Apply credit for a checkout.session.completed Stripe event."""
+    """Apply credit for a checkout.session.completed Stripe event.
+
+    SynthFit subscription entitlements are handled by synth-resolver
+    (GCP synthfit-suite), not this Tune Book resolver.
+    """
     event_data = stripe_object_to_dict(event)
     session = stripe_object_to_dict((event_data.get("data") or {}).get("object"))
     metadata = session.get("metadata") or {}
@@ -146,6 +150,17 @@ def process_checkout_session_completed(event: Any, stripe_api: Any) -> dict[str,
         or ""
     )
     email = str(email).strip().lower()
+    event_id = str(event_data.get("id") or "")
+
+    # Ignore SynthFit checkouts (granted on synth-resolver only).
+    if str(metadata.get("synthfit") or "") in ("1", "true", "yes"):
+        logger.info(
+            "ignoring synthfit checkout on tunebook resolver event_id=%s email=%s",
+            event_id,
+            email,
+        )
+        return {"ok": True, "ignored": True, "reason": "synthfit_moved_to_suite"}
+
     pack_id = str(metadata.get("pack_id") or "").strip()
     pack = _pack_by_id(pack_id) if pack_id else None
     if pack:
@@ -153,7 +168,6 @@ def process_checkout_session_completed(event: Any, stripe_api: Any) -> dict[str,
     else:
         amount_cents = int(metadata.get("amount_cents") or 0)
     # Never use session amount_total: localized card charges (e.g. AUD) are not USD credit.
-    event_id = str(event_data.get("id") or "")
     if not email or amount_cents <= 0 or not event_id:
         logger.warning(
             "checkout.session.completed missing fields email=%r amount_cents=%r event_id=%r session_id=%r",
@@ -229,7 +243,25 @@ def register_stripe_billing_routes(
             body = await request.json()
         except Exception:
             body = {}
-        pack_id = str((body or {}).get("pack_id") or (body or {}).get("packId") or "").strip()
+        body = body if isinstance(body, dict) else {}
+
+        product = str(body.get("product") or "").strip()
+        plan_id = str(body.get("plan_id") or body.get("planId") or "").strip().lower()
+        if product in ("synthfit_trainer", "synthfit_client") or plan_id in (
+            "studio",
+            "unlimited",
+            "premium",
+        ):
+            return JSONResponse(
+                status_code=410,
+                content={
+                    "error": "synthfit_billing_moved",
+                    "detail": "Use synth-resolver on synthfit-suite for SynthFit checkout",
+                },
+                headers=cors_headers(origin),
+            )
+
+        pack_id = str(body.get("pack_id") or body.get("packId") or "").strip()
         pack = _pack_by_id(pack_id)
         if not pack:
             return JSONResponse(
@@ -238,7 +270,7 @@ def register_stripe_billing_routes(
                 headers=cors_headers(origin),
             )
         try:
-            success_url, cancel_url = _resolve_checkout_return_urls(body if isinstance(body, dict) else {})
+            success_url, cancel_url = _resolve_checkout_return_urls(body)
         except ValueError:
             return JSONResponse(
                 status_code=400,
@@ -303,7 +335,7 @@ def register_stripe_billing_routes(
             event_type = str(stripe_object_to_dict(event).get("type") or "")
             if event_type == "checkout.session.completed":
                 result = process_checkout_session_completed(event, stripe)
-                if not result.get("ok") and not result.get("duplicate"):
+                if not result.get("ok") and not result.get("duplicate") and not result.get("ignored"):
                     return JSONResponse(
                         status_code=500,
                         content={"error": result.get("error") or "grant_failed"},

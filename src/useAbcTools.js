@@ -157,9 +157,23 @@ var useAbcTools = () => {
     }
     
    
+    /** Plain object only — rejects null, arrays, and String wrappers / "[object Object]". */
+    function isPlainTuneMeta(meta) {
+        return !!(
+            meta
+            && typeof meta === 'object'
+            && !Array.isArray(meta)
+            && Object.prototype.toString.call(meta) === '[object Object]'
+        )
+    }
+
+    function normalizeTuneMeta(meta) {
+        return isPlainTuneMeta(meta) ? Object.assign({}, meta) : {}
+    }
+
     function pushMeta(meta, key, line) {
-        if (!meta) meta = {}
-        if (!(meta.hasOwnProperty(key) && Array.isArray(meta[key]))) {
+        if (!isPlainTuneMeta(meta)) meta = {}
+        if (!(Object.prototype.hasOwnProperty.call(meta, key) && Array.isArray(meta[key]))) {
             meta[key] = []
         }
         var text = String(line == null ? '' : line).trim()
@@ -1983,9 +1997,12 @@ var useAbcTools = () => {
 
   function tunesToAbc(tunes, deletedTunes) {
     var res = Object.values(tunes).map(function(tune, k) {
-      //var newTune = tune
-      if (tune && tune.meta) tune.meta.X = k
-      return json2abc(tune)
+      if (!tune) return json2abc(tune)
+      // Never mutate stored meta: some libraries have meta as the string
+      // "[object Object]" (or other non-plain values), which throws on .X =.
+      var meta = normalizeTuneMeta(tune.meta)
+      meta.X = k
+      return json2abc(Object.assign({}, tune, { meta: meta }))
     }).join("\n")
     var tombstones = renderDeletedTunesToAbc(deletedTunes)
     if (tombstones) {

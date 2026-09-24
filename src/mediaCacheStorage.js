@@ -57,6 +57,21 @@ export function estimateStoredValueBytes(value) {
   return 0
 }
 
+/**
+ * External media cache entry size: prefer blob.size, then metadata size
+ * (Android disk-primary stores bytes on disk, not in IndexedDB).
+ */
+export function estimateExternalMediaEntryBytes(value) {
+  if (!value) return 0
+  if (value.blob && typeof value.blob.size === 'number') {
+    return value.blob.size || 0
+  }
+  if (typeof value.size === 'number' && value.size > 0) {
+    return value.size
+  }
+  return estimateStoredValueBytes(value)
+}
+
 export function formatBytes(bytes) {
   const n = Number(bytes) || 0
   if (n < 1024) return n + ' B'
@@ -224,6 +239,7 @@ export function filterCacheKeysForTuneIds(keys, tuneIds, tuneIdFromKey) {
 async function collectStoreStats(store, options) {
   const opts = options || {}
   const lockedTuneIds = opts.lockedTuneIds || {}
+  const estimateBytes = opts.estimateBytes || estimateStoredValueBytes
   let bytes = 0
   let entries = 0
   let lockedBytes = 0
@@ -231,7 +247,7 @@ async function collectStoreStats(store, options) {
   const tuneIds = {}
   await store.iterate(function(value, key) {
     entries += 1
-    const entryBytes = estimateStoredValueBytes(value)
+    const entryBytes = estimateBytes(value)
     bytes += entryBytes
     const tuneId = opts.tuneIdFromKey ? opts.tuneIdFromKey(key) : key
     if (tuneId) tuneIds[tuneId] = true
@@ -259,6 +275,7 @@ export async function getExternalMediaCacheStats(options) {
     label: 'File Cache',
     tuneIdFromKey: tuneIdFromExternalMediaCacheKey,
     lockedTuneIds: opts.lockedTuneIds,
+    estimateBytes: estimateExternalMediaEntryBytes,
   })
 }
 
@@ -280,11 +297,12 @@ export async function getMidiCacheStats() {
 
 async function collectTuneCacheSummaries(store, options) {
   const opts = options || {}
+  const estimateBytes = opts.estimateBytes || estimateStoredValueBytes
   const byTune = {}
   await store.iterate(function(value, key) {
     const tuneId = opts.tuneIdFromKey ? opts.tuneIdFromKey(key) : key
     if (!tuneId) return
-    const bytes = estimateStoredValueBytes(value)
+    const bytes = estimateBytes(value)
     const cachedAt = opts.getCachedAt ? opts.getCachedAt(value, key) : 0
     if (!byTune[tuneId]) {
       byTune[tuneId] = {
@@ -306,6 +324,7 @@ async function collectTuneCacheSummaries(store, options) {
 export async function getAudioCacheTuneSummaries() {
   return collectTuneCacheSummaries(externalMediaStore, {
     tuneIdFromKey: tuneIdFromExternalMediaCacheKey,
+    estimateBytes: estimateExternalMediaEntryBytes,
     getCachedAt: function(value) {
       return value && value.cachedAt ? value.cachedAt : 0
     },
@@ -453,8 +472,10 @@ export async function cleanupHalfExternalMediaCache(options) {
     })
   })
   const keysToRemove = selectHalfOldestCacheKeys(entries)
+  const { removeDiskMediaCacheEntry } = await import('./mediaCacheShare')
   for (let i = 0; i < keysToRemove.length; i++) {
     await externalMediaStore.removeItem(keysToRemove[i])
+    await removeDiskMediaCacheEntry(keysToRemove[i])
   }
   scheduleMediaCacheStorageCheck(0)
   return {
@@ -479,8 +500,10 @@ export async function clearExternalMediaCacheForTuneIds(tuneIds, options) {
     ids,
     tuneIdFromExternalMediaCacheKey
   )
+  const { removeDiskMediaCacheEntry } = await import('./mediaCacheShare')
   for (let i = 0; i < keysToRemove.length; i++) {
     await externalMediaStore.removeItem(keysToRemove[i])
+    await removeDiskMediaCacheEntry(keysToRemove[i])
   }
   scheduleMediaCacheStorageCheck(0)
   return { removed: keysToRemove.length }
@@ -502,8 +525,10 @@ export async function clearExternalMediaCacheForTuneIdAndSrcs(tuneId, srcs) {
     if (!srcSet[String(parsed.src || '')]) return
     keysToRemove.push(key)
   })
+  const { removeDiskMediaCacheEntry } = await import('./mediaCacheShare')
   for (let i = 0; i < keysToRemove.length; i++) {
     await externalMediaStore.removeItem(keysToRemove[i])
+    await removeDiskMediaCacheEntry(keysToRemove[i])
   }
   if (keysToRemove.length) scheduleMediaCacheStorageCheck(0)
   return { removed: keysToRemove.length }

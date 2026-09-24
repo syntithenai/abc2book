@@ -7,6 +7,14 @@ import {
 } from './mediaProxyClient';
 import { scheduleMediaCacheStorageCheck, parseExternalMediaCacheKey, tuneIdFromExternalMediaCacheKey } from './mediaCacheStorage';
 import { encodeAudioBufferWithSetting } from './audioCompressEncode';
+import { isAndroidApp } from './platformUtils';
+import {
+  clearDiskMediaCache,
+  diskMediaCacheHasEntry,
+  persistExternalMediaToDisk,
+  readExternalMediaFromDisk,
+  removeDiskMediaCacheEntry,
+} from './mediaCacheShare';
 
 const store = localforage.createInstance({ name: 'externalmediacache' });
 
@@ -14,10 +22,87 @@ export function getExternalMediaCacheKey(tuneId, linkIndex, src) {
   return 'extmedia:' + tuneId + ':' + linkIndex + ':' + src;
 }
 
+/**
+ * Rewrite localforage row as metadata-only (no blob). Used by Android migration.
+ */
+export async function rewriteExternalMediaCacheMetadataOnly(cacheKey, meta) {
+  await store.setItem(cacheKey, {
+    duration: meta.duration || null,
+    audioFormat: meta.audioFormat || null,
+    cachedAt: meta.cachedAt || Date.now(),
+    fileName: meta.fileName || null,
+    size: typeof meta.size === 'number' ? meta.size : 0,
+  });
+}
+
+async function hydrateFromDisk(cacheKey, meta) {
+  const mime = (meta && meta.audioFormat) || 'audio/mpeg';
+  let fileName = meta && meta.fileName;
+  if (!fileName) {
+    const disk = await diskMediaCacheHasEntry(cacheKey);
+    if (!disk.cached) return null;
+  }
+  const blob = await readExternalMediaFromDisk(cacheKey, fileName, mime);
+  if (!blob) return null;
+  // Heal metadata if fileName/size missing.
+  if (!meta.fileName || !meta.size) {
+    try {
+      await rewriteExternalMediaCacheMetadataOnly(cacheKey, {
+        duration: meta.duration,
+        audioFormat: meta.audioFormat || mime,
+        cachedAt: meta.cachedAt || Date.now(),
+        fileName: fileName || meta.fileName,
+        size: meta.size || blob.size || 0,
+      });
+    } catch (e) {
+      /* ignore */
+    }
+  }
+  return {
+    blob: blob,
+    duration: meta.duration || null,
+    audioFormat: meta.audioFormat || mime,
+    cachedAt: meta.cachedAt || null,
+    fileName: fileName || meta.fileName || null,
+    size: meta.size || blob.size || 0,
+  };
+}
+
 export async function getCachedExternalMediaBlob(cacheKey) {
   const cached = await store.getItem(cacheKey);
-  if (cached && cached.blob) {
+  if (!cached) {
+    // Heal: disk index may have the file without localforage metadata.
+    if (isAndroidApp()) {
+      const disk = await diskMediaCacheHasEntry(cacheKey);
+      if (disk.cached) {
+        const mime = disk.mime || 'audio/mpeg';
+        const blob = await readExternalMediaFromDisk(cacheKey, null, mime);
+        if (blob) {
+          await rewriteExternalMediaCacheMetadataOnly(cacheKey, {
+            duration: null,
+            audioFormat: mime,
+            cachedAt: Date.now(),
+            fileName: null,
+            size: blob.size || disk.size || 0,
+          });
+          return {
+            blob: blob,
+            duration: null,
+            audioFormat: mime,
+            cachedAt: Date.now(),
+            size: blob.size || 0,
+          };
+        }
+      }
+    }
+    return null;
+  }
+  if (cached.blob) {
     return cached;
+  }
+  // Android metadata-only row
+  if (isAndroidApp()) {
+    return hydrateFromDisk(cacheKey, cached);
   }
   return null;
 }
@@ -49,6 +134,16 @@ function notifyCachedMediaDriveBackup(cacheKey) {
 
 export async function isExternalMediaCached(tuneId, linkIndex, src) {
   const cacheKey = getExternalMediaCacheKey(tuneId, linkIndex, src);
+  if (isAndroidApp()) {
+    const meta = await store.getItem(cacheKey);
+    if (meta && meta.blob) return true;
+    if (meta && (meta.fileName || meta.size)) {
+      const disk = await diskMediaCacheHasEntry(cacheKey);
+      return !!disk.cached;
+    }
+    const disk = await diskMediaCacheHasEntry(cacheKey);
+    return !!disk.cached;
+  }
   const existing = await getCachedExternalMediaBlob(cacheKey);
   return !!(existing && existing.blob);
 }
@@ -198,12 +293,36 @@ export async function downloadAndCacheExternalMedia(options) {
 }
 
 export async function putExternalMediaCache(cacheKey, blob, duration, audioFormat) {
-  await store.setItem(cacheKey, {
-    duration: duration || null,
-    blob: blob,
-    audioFormat: audioFormat || null,
-    cachedAt: Date.now(),
-  });
+  const mime = audioFormat || (blob && blob.type) || 'audio/mpeg';
+
+  if (isAndroidApp()) {
+    const persisted = await persistExternalMediaToDisk(cacheKey, blob, mime);
+    if (!persisted) {
+      // Fall back to blob storage if disk write fails so caching still works.
+      await store.setItem(cacheKey, {
+        duration: duration || null,
+        blob: blob,
+        audioFormat: mime,
+        cachedAt: Date.now(),
+      });
+    } else {
+      await store.setItem(cacheKey, {
+        duration: duration || null,
+        audioFormat: mime,
+        cachedAt: Date.now(),
+        fileName: persisted.fileName,
+        size: persisted.size || (blob && blob.size) || 0,
+      });
+    }
+  } else {
+    await store.setItem(cacheKey, {
+      duration: duration || null,
+      blob: blob,
+      audioFormat: mime,
+      cachedAt: Date.now(),
+    });
+  }
+
   scheduleMediaCacheStorageCheck();
   notifyCachedMediaDriveBackup(cacheKey);
 }
@@ -211,6 +330,7 @@ export async function putExternalMediaCache(cacheKey, blob, duration, audioForma
 export async function clearExternalMediaCache(lockedTuneIds) {
   if (!lockedTuneIds || Object.keys(lockedTuneIds).length === 0) {
     await store.clear();
+    await clearDiskMediaCache();
   } else {
     const keysToRemove = [];
     await store.iterate(function(_value, key) {
@@ -221,6 +341,7 @@ export async function clearExternalMediaCache(lockedTuneIds) {
     });
     for (let i = 0; i < keysToRemove.length; i++) {
       await store.removeItem(keysToRemove[i]);
+      await removeDiskMediaCacheEntry(keysToRemove[i]);
     }
   }
   scheduleMediaCacheStorageCheck(0);

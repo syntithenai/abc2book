@@ -393,17 +393,6 @@ async def optional_google_user(authorization: str | None) -> dict | None:
         return None
 
 
-from yoga_community_routes import register_yoga_community_routes
-
-register_yoga_community_routes(
-    app,
-    require_google_user=require_google_user,
-    optional_google_user=optional_google_user,
-    cors_headers=cors_headers,
-    get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
-)
-
-
 @app.get("/health")
 async def health(request: Request, authorization: str | None = Header(default=None)):
     return JSONResponse(

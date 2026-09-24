@@ -35,7 +35,12 @@ export function mergePlaylistsFromTuneBookAbc(abcText, options) {
         needsUpload: prepared.hasLocalOnly,
       });
     }
-    if (opts.interactive === false || opts.applySilently) {
+    // Insert-only remote playlists: merge silently (same as tune inserts).
+    const records = prepared.records || [];
+    const insertOnly = records.length > 0 && records.every(function(record) {
+      return record && record.kind === 'insert';
+    });
+    if (insertOnly || opts.interactive === false || opts.applySilently) {
       return Promise.resolve(applyPlaylistMergeAcceptAll(prepared)).then(function(result) {
         return Object.assign({ needsReview: false }, result, {
           added: prepared.compared.inserts ? Object.values(prepared.compared.inserts).map(function(p) { return p.name; }) : [],
@@ -45,6 +50,7 @@ export function mergePlaylistsFromTuneBookAbc(abcText, options) {
           }) : [],
           deleted: prepared.compared.deletes ? Object.values(prepared.compared.deletes).map(function(p) { return p.name; }) : [],
           hadIncoming: true,
+          silentInserts: insertOnly,
         });
       });
     }

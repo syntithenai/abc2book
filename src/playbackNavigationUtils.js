@@ -56,7 +56,9 @@ export function getActivePlaybackTuneId(mediaController, queue) {
       return controllerTuneId
     }
 
-    if (queueTuneId) return queueTuneId
+    if (queueTuneId) {
+      return queueTuneId
+    }
   }
 
   if (controllerTuneId) return controllerTuneId

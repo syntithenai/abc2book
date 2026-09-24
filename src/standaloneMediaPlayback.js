@@ -226,10 +226,16 @@ export async function resumeStandaloneMediaPlayback() {
 
 export async function stopStandaloneMediaPlayback() {
   stopHtmlAudio();
+  // Only tear down ExoPlayer when THIS module started it. Unconditional
+  // stopNativePlayer() raced controller play() (e.g. second MIDI play while
+  // ABC load was finishing) and killed notation audio ~200ms after start.
+  const shouldStopNative = !!(activeCandidate || activePlaying);
   activeCandidate = null;
   activePlaying = false;
   emitStandaloneMediaPlaybackChange();
-  await stopNativePlayer();
+  if (shouldStopNative) {
+    await stopNativePlayer();
+  }
 }
 
 function buildCollectionProxyPath(candidate) {

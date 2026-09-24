@@ -823,26 +823,6 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
     }
   }
 
-  // #region agent log
-  try {
-    const { agentDebugLog } = require('./playbackDebug')
-    agentDebugLog('linkRecording.js:resolveRecordingLinkAudio', 'resolve-miss', {
-      recordingId: recordingId || null,
-      hasRecording: !!recording,
-      localBlobFailed: localBlobFailed,
-      hasDataUri: !!(recording && recording.data),
-      hasMp3Blob: !!(recording && recording.mp3Blob),
-      mediaKind: recording && recording.mediaKind ? recording.mediaKind : null,
-      googleIdPresent: !!googleId,
-      hasAccessToken: !!accessToken,
-      hasDriveApi: !!driveApi,
-      driveFetchAttempted: driveFetchAttempted,
-      driveFetchOk: driveFetchOk,
-      online: typeof navigator !== 'undefined' ? !!navigator.onLine : null,
-      linkKeys: link ? Object.keys(link).slice(0, 20) : [],
-    }, 'H-rec')
-  } catch (e) {}
-  // #endregion
 
   if (googleId && !recording && !accessToken) {
     throw new Error('Recording not shared publicly — sign in and try again, or use MIDI playback.')

@@ -350,6 +350,7 @@ export default class PitchTempoShifter {
     this._soundtouchStartContextTime = null
     this._soundtouchHoldOffset = 0
     this._soundtouchAwaitingFirstAudio = false
+    try { this.gainNode.gain.value = 0 } catch (e) {}
     if (this._connected) {
       this._stopTimeUpdates();
       if (this._mode === 'direct') {

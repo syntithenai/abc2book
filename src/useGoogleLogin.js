@@ -236,10 +236,6 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     // (Android defers the mount-time probe to avoid ANR on cold start).
     probeMediaResolverHealth(null, { force: true })
 
-    if (isAndroidApp()) {
-      toast.info('Opening Google sign-in…', { autoClose: 2500 })
-    }
-
     function runWithController(controller) {
       activeControllerRef.current = controller
       try {
@@ -251,7 +247,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
             else if (err.body.detail) message = String(err.body.detail)
           }
           if (/still loading/i.test(message)) {
-            toast.info('Google sign-in is still loading. Try again in a moment.')
+            // Button/UI already reflects loading — avoid toast noise on Android.
           } else if (/redirect_uri_mismatch|redirect uri mismatch/i.test(message)) {
             toast.error(
               'Google redirect URI mismatch. In Google Cloud Console → OAuth client → '

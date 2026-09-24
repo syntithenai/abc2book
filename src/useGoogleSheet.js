@@ -33,11 +33,14 @@ import {
 } from './practiceListStore'
 import {
   buildDriveUploadShrinkWarning,
+  buildDriveLiveOverwriteWarning,
+  countTunesInDriveAbc,
   createDrivePollPauseController,
   hashDriveAbc,
   isDismissedDriveUploadShrink,
   rememberDismissedDriveUploadShrink,
   readLastDriveUploadSnapshot,
+  shouldPullBeforeDriveUpload,
   writeLastDriveUploadSnapshot,
 } from './driveUploadShrinkGuard'
 import { shouldRefuseTunesPersist } from './tunesPersistenceGuard'
@@ -270,44 +273,114 @@ export default function useGoogleSheet(props) {
                 })
               }
 
+              function applyHealedTunes(healedMemory, baseTunes) {
+                var next = healedMemory || {}
+                if (Object.keys(next).length > 0) {
+                  tunesRef.current = next
+                }
+                if (Object.keys(next).length > Object.keys(baseTunes || {}).length) {
+                  var strippedHeal = {}
+                  Object.keys(next).forEach(function(id) {
+                    if (next[id]) strippedHeal[id] = persistableTuneWithoutDisplaySettings(next[id])
+                  })
+                  utils.saveLocalforageObject('bookstorage_tunes', strippedHeal)
+                  return next
+                }
+                return baseTunes
+              }
+
+              /**
+               * Always consult the live Drive head before pushing. The local
+               * last-upload snapshot alone is not enough: a second device can
+               * have a smaller snapshot and happily overwrite a larger cloud book.
+               */
+              function pullLiveDriveThenUpload(uploadTunes, uploadDeleted) {
+                if (forceShrinkUpload || afterPreShrinkSync) {
+                  return finishUploadOrWarn(uploadTunes, uploadDeleted)
+                }
+                if (!docsRef.current || typeof docsRef.current.getDocument !== 'function' || !googleSheetId.current) {
+                  return finishUploadOrWarn(uploadTunes, uploadDeleted)
+                }
+                return docsRef.current.getDocument(googleSheetId.current).then(function(fullSheet) {
+                  if (!fullSheet) return finishUploadOrWarn(uploadTunes, uploadDeleted)
+                  var remoteCount = countTunesInDriveAbc(fullSheet)
+                  var localCount = Object.keys(uploadTunes || {}).length
+                  if (!shouldPullBeforeDriveUpload(remoteCount, localCount)) {
+                    return finishUploadOrWarn(uploadTunes, uploadDeleted)
+                  }
+                  var mergePromise = typeof onMergeRef.current === 'function'
+                    ? Promise.resolve(onMergeRef.current(fullSheet))
+                    : Promise.resolve(null)
+                  return mergePromise.then(function(mergeResult) {
+                    var healedMemory = (mergeResult && mergeResult.tunes) || tunesRef.current || uploadTunes
+                    var healedTunes = applyHealedTunes(healedMemory, uploadTunes)
+                    return utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(afterDeleted) {
+                      var healedCount = Object.keys(healedTunes || {}).length
+                      var liveWarning = buildDriveLiveOverwriteWarning(remoteCount, healedCount)
+                      if (liveWarning) {
+                        // Still smaller than Drive after pull — do not clobber.
+                        if (typeof onUploadShrinkWarningRef.current === 'function') {
+                          return Promise.resolve(onUploadShrinkWarningRef.current(liveWarning)).then(function(confirmed) {
+                            if (!confirmed) {
+                              rememberDismissedDriveUploadShrink(liveWarning)
+                              pollPause.resumeNow()
+                              markDriveSongbookSyncCancelled()
+                              notifyShrinkCancelled(liveWarning)
+                              resolve({ cancelled: true, warning: liveWarning, liveRemote: true })
+                              return
+                            }
+                            return runSongbookUpload(healedTunes, afterDeleted || uploadDeleted).then(function() {
+                              resolve({ uploaded: true })
+                            })
+                          }).catch(function() {
+                            rememberDismissedDriveUploadShrink(liveWarning)
+                            pollPause.resumeNow()
+                            markDriveSongbookSyncCancelled()
+                            notifyShrinkCancelled(liveWarning)
+                            resolve({ cancelled: true, liveRemote: true })
+                          })
+                        }
+                        pollPause.resumeNow()
+                        markDriveSongbookSyncCancelled()
+                        notifyShrinkCancelled(liveWarning)
+                        resolve({ cancelled: true, warning: liveWarning, liveRemote: true })
+                        return
+                      }
+                      return finishUploadOrWarn(healedTunes, afterDeleted || uploadDeleted)
+                    })
+                  })
+                }).catch(function() {
+                  return finishUploadOrWarn(uploadTunes, uploadDeleted)
+                })
+              }
+
               var pendingWarning = forceShrinkUpload
                 ? null
                 : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), nowTunes)
 
-              // Before warning about wiping Drive, pull online songbook and heal local.
+              // Snapshot-based shrink path (same device looked wiped vs its own last upload).
               if (pendingWarning && !afterPreShrinkSync) {
                 return pullSongbookFromDrive().then(function(mergeResult) {
                   var healedMemory = (mergeResult && mergeResult.tunes) || tunesRef.current || {}
-                  if (Object.keys(healedMemory).length > 0) {
-                    tunesRef.current = healedMemory
-                  }
-                  if (Object.keys(healedMemory).length > Object.keys(nowTunes).length) {
-                    nowTunes = healedMemory
-                    var strippedHeal = {}
-                    Object.keys(nowTunes).forEach(function(id) {
-                      if (nowTunes[id]) strippedHeal[id] = persistableTuneWithoutDisplaySettings(nowTunes[id])
-                    })
-                    utils.saveLocalforageObject('bookstorage_tunes', strippedHeal)
-                  }
+                  nowTunes = applyHealedTunes(healedMemory, nowTunes)
                   var stillWarn = forceShrinkUpload
                     ? null
                     : buildDriveUploadShrinkWarning(readLastDriveUploadSnapshot(), nowTunes)
                   if (!stillWarn) {
-                    // Synced back from Drive — nothing dangerous to upload.
-                    pollPause.resumeNow()
-                    markDriveSongbookSyncCancelled()
-                    resolve({ healed: true, cancelled: true })
-                    return
+                    // Synced back from Drive — still run live check before any push.
+                    return utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(afterDeleted) {
+                      return pullLiveDriveThenUpload(nowTunes, afterDeleted || deletedTunes)
+                    })
                   }
                   return utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(afterDeleted) {
-                    return finishUploadOrWarn(nowTunes, afterDeleted || deletedTunes)
+                    return pullLiveDriveThenUpload(nowTunes, afterDeleted || deletedTunes)
                   })
                 }).catch(function() {
-                  return finishUploadOrWarn(nowTunes, deletedTunes)
+                  return pullLiveDriveThenUpload(nowTunes, deletedTunes)
                 })
               }
 
-              return finishUploadOrWarn(nowTunes, deletedTunes)
+              return pullLiveDriveThenUpload(nowTunes, deletedTunes)
             })
         },delay)
       } else {
@@ -388,6 +461,18 @@ export default function useGoogleSheet(props) {
 				var best = pickBestTuneBookFile(parsed.files, tuneBookName)
 				if (best && best.id) {
 					bindAndMerge(best.id)
+					return
+				}
+				var localCount = Object.keys(tunesRef.current || {}).length
+				// drive.file often cannot see a web-created Doc. Creating an empty
+				// stub here strands the tablet with a second songbook.
+				if (localCount === 0) {
+					toast.warning(
+						'Could not find your ABC Tune Book in Drive from this app. '
+						+ 'Open Settings → Backup / Sources and restore from the existing Google Doc, '
+						+ 'or open that Doc once with this app so Drive can grant access.',
+						{ autoClose: 12000, toastId: 'drive-songbook-missing' }
+					)
 					return
 				}
 				createNewSongbook(useToken)

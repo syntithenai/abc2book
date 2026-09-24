@@ -1,5 +1,5 @@
 import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
-import {Button, ButtonGroup} from 'react-bootstrap'
+import {Button, ButtonGroup, Spinner} from 'react-bootstrap'
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSyncExternalStore, useState} from 'react'
 import AbcEditor from './AbcEditor'
 import NotationSearchButton from './NotationSearchButton'
@@ -75,6 +75,12 @@ export default function MusicEditor(props) {
         setTuneLoadState('missing')
         return undefined
       }
+      // Pre-hydrate book is empty; wait so we do not flash "Tune not found".
+      if (props.tunesHydrated === false) {
+        setRepoTune(null)
+        setTuneLoadState('loading')
+        return undefined
+      }
       const tunesCount = props.tunes ? Object.keys(props.tunes).length : 0
       setTuneLoadState('loading')
       getTuneFromRepository(resolvedTuneId).then(function(loaded) {
@@ -84,8 +90,8 @@ export default function MusicEditor(props) {
           setTuneLoadState('ready')
           return
         }
-        // Empty in-memory book usually means hydration is still running.
-        if (tunesCount === 0) {
+        // Empty in-memory book usually means hydration is still running (no prop passed).
+        if (props.tunesHydrated !== true && tunesCount === 0) {
           setTuneLoadState('loading')
           return
         }
@@ -94,10 +100,11 @@ export default function MusicEditor(props) {
       }).catch(function() {
         if (cancelled) return
         setRepoTune(null)
-        setTuneLoadState(tunesCount === 0 ? 'loading' : 'missing')
+        const stillHydrating = props.tunesHydrated !== true && tunesCount === 0
+        setTuneLoadState(stillHydrating ? 'loading' : 'missing')
       })
       return function() { cancelled = true }
-    }, [embedded, resolvedTuneId, tuneFromProps, props.tunes])
+    }, [embedded, resolvedTuneId, tuneFromProps, props.tunes, props.tunesHydrated])
 
     const tune = tuneFromProps || repoTune
 
@@ -325,8 +332,13 @@ export default function MusicEditor(props) {
       </span>
     )
 
-    if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune)) {
-      return <div className="music-editor p-3" style={{width:'100%'}}>Loading tune…</div>
+    if (tuneLoadState === 'loading' || (tuneLoadState === 'idle' && !tune) || props.tunesHydrated === false) {
+      return (
+        <div className="music-editor p-3" style={{width:'100%'}} role="status" aria-busy="true" aria-live="polite">
+          <Spinner animation="border" size="sm" className="me-2" aria-hidden="true" />
+          Loading tune…
+        </div>
+      )
     }
     if (!tune) {
       return (

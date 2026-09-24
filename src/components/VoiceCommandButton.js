@@ -4,12 +4,13 @@ import SearchResultPickerModal from './SearchResultPickerModal';
 import VoiceHelpAnswerModal from './VoiceHelpAnswerModal';
 import VoiceInputWaveform from './VoiceInputWaveform';
 import useMediaResolverHealth from '../useMediaResolverHealth';
-import useVoiceMicRecorder from '../useVoiceMicRecorder';
+import useVoiceCapture from '../useVoiceCapture';
 import { kickoffMicrophoneAccess } from '../microphoneAccess';
 import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
 import { buildVoiceCatalogs, formatVoiceCommandFeedback } from '../voiceCommandUtils';
 import { primaryArtist } from '../tuneBibliographicUtils';
+import { isAndroidApp } from '../platformUtils';
 import { OFFLINE_MESSAGE, isNavigatorOffline } from '../offlineNetwork';
 
 function MicIcon() {
@@ -35,6 +36,9 @@ export default function VoiceCommandButton(props) {
   const abortRef = useRef(null);
   const disambiguateResolverRef = useRef(null);
 
+  const whisperAvailable = Boolean(resolverAvailable && features.whisper);
+  const preferNative = isAndroidApp();
+
   useEffect(function() {
     return function() {
       if (abortRef.current) abortRef.current.abort();
@@ -53,9 +57,13 @@ export default function VoiceCommandButton(props) {
     }
   }
 
-  async function submitCapturedAudio(blob) {
+  async function runVoiceCommand(submitOptions) {
     if (isNavigatorOffline()) {
       toast.info(OFFLINE_MESSAGE);
+      return;
+    }
+    if (!resolverAvailable) {
+      toast.info('Media resolver is required to run voice commands');
       return;
     }
     if (abortRef.current) abortRef.current.abort();
@@ -72,15 +80,13 @@ export default function VoiceCommandButton(props) {
 
     try {
       const catalogs = buildVoiceCatalogs(props.tunebook);
-      const result = await submitVoiceCommand({
-        blob: blob,
-        fileName: 'voice-command.webm',
+      const result = await submitVoiceCommand(Object.assign({
         books: catalogs.books,
         tags: catalogs.tags,
         mode: props.voiceMode || 'playback',
         accessToken: props.token && props.token.access_token,
         signal: controller.signal,
-      });
+      }, submitOptions));
 
       const speakFeedback = typeof window !== 'undefined'
         && localStorage.getItem('bookstorage_announcesong') === 'true';
@@ -123,8 +129,8 @@ export default function VoiceCommandButton(props) {
     } catch (error) {
       if (error && error.name === 'AbortError') {
         if (timedOut) {
-          toast.error(timedOut
-            ? (isNavigatorOffline() ? OFFLINE_MESSAGE : 'Voice command timed out — check that the media resolver is running')
+          toast.error(isNavigatorOffline()
+            ? OFFLINE_MESSAGE
             : 'Voice command timed out — check that the media resolver is running');
         }
         return;
@@ -138,25 +144,52 @@ export default function VoiceCommandButton(props) {
     }
   }
 
+  function processCapture(capture) {
+    if (!capture) return;
+    if (capture.kind === 'transcript') {
+      runVoiceCommand({ transcript: capture.transcript });
+      return;
+    }
+    if (capture.kind === 'audio' && capture.blob) {
+      runVoiceCommand({
+        blob: capture.blob,
+        fileName: 'voice-command.webm',
+      });
+    }
+  }
+
   const {
     recordingState,
     analyserNode,
+    inputLevel,
     isTapMode,
+    nativeReady,
+    nativeChecked,
+    usingNativeStt,
     handleTapPointerDown,
     handlePointerDown,
     handlePointerUp,
     handlePointerCancel,
     microphoneErrorMessage,
-  } = useVoiceMicRecorder({
-    enabled: resolverAvailable && features.whisper,
+  } = useVoiceCapture({
+    enabled: preferNative || whisperAvailable,
+    preferNative: preferNative,
+    audioFallbackEnabled: whisperAvailable,
     onBeforeStart: pausePlaybackForVoice,
-    onRecordingStopping: function() {
+    onCaptureStopping: function() {
       setProcessing(true);
     },
-    onEmptyRecording: function() {
+    onEmptyCapture: function() {
       setProcessing(false);
     },
-    onAudioReady: submitCapturedAudio,
+    onCaptureReady: processCapture,
+    onNativeSoftFail: function(reason) {
+      if (whisperAvailable) {
+        toast.info("Couldn't catch that (" + (reason || 'empty') + ") — tap again for server STT");
+      } else {
+        toast.info('No speech recognised' + (reason ? ' (' + reason + ')' : ''));
+      }
+    },
     onError: function(error) {
       toast.error(microphoneErrorMessage(error));
     },
@@ -168,8 +201,14 @@ export default function VoiceCommandButton(props) {
 
   function onMicPointerDown(event) {
     if (isTapMode) {
-      const streamPromise = kickoffMicrophoneAccess();
-      handleTapPointerDown(event, streamPromise);
+      // Do not open getUserMedia while native SpeechRecognizer is active —
+      // WebView mic capture steals the input and recognition fails.
+      if (usingNativeStt) {
+        handleTapPointerDown(event);
+      } else {
+        const streamPromise = kickoffMicrophoneAccess();
+        handleTapPointerDown(event, streamPromise);
+      }
     } else {
       handlePointerDown(event);
     }
@@ -193,7 +232,12 @@ export default function VoiceCommandButton(props) {
     setPickerItems([]);
   }
 
-  if (!resolverAvailable || !features.whisper) return null;
+  // Intent parse needs the resolver. STT may be on-device (no Whisper) or audio upload.
+  if (!resolverAvailable) return null;
+  if (!whisperAvailable) {
+    if (!preferNative) return null;
+    if (!nativeChecked || !nativeReady) return null;
+  }
 
   const state = processing ? 'processing' : recordingState;
   const isRecording = state === 'recording';
@@ -221,7 +265,11 @@ export default function VoiceCommandButton(props) {
     <>
       <span className="header-voice-wrap">
         {isTapMode && isRecording ? (
-          <VoiceInputWaveform analyserNode={analyserNode} variant="header" />
+          <VoiceInputWaveform
+            analyserNode={analyserNode}
+            level={inputLevel}
+            variant="header"
+          />
         ) : null}
         <button
           type="button"

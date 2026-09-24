@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import { isAndroidApp } from '../platformUtils';
-import { openBatteryOptimizationSettings } from '../androidNativePlayback';
+import {
+  getBatteryOptimizationStatus,
+  openBatteryOptimizationSettings,
+} from '../androidNativePlayback';
 
 const STORAGE_KEY = 'tunebook_android_battery_prompt_dismissed';
 
@@ -15,7 +18,22 @@ export default function AndroidBatteryPrompt() {
     } catch (e) {
       return;
     }
-    setShow(true);
+
+    var cancelled = false;
+    getBatteryOptimizationStatus()
+      .then(function(status) {
+        if (cancelled) return;
+        if (status && status.ignoringOptimizations) return;
+        setShow(true);
+      })
+      .catch(function() {
+        if (cancelled) return;
+        setShow(true);
+      });
+
+    return function() {
+      cancelled = true;
+    };
   }, []);
 
   function dismiss() {

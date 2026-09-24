@@ -16,6 +16,7 @@ import {
   isQueuePlaybackEngaged,
   getViewedTuneIdFromPath,
   resolveNowPlayingDisplayTuneId,
+  getActivePlaybackTuneId,
 } from '../playbackNavigationUtils'
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import PlaybackVolumeSlider from '../components/PlaybackVolumeSlider'
@@ -60,18 +61,25 @@ export default function NowPlayingPage(props) {
   const playbackEngaged = isQueuePlaybackEngaged(mediaController, { queue: nowPlayingQueue })
   const viewedTuneId = props.viewedTuneId || getViewedTuneIdFromPath(returnPath)
   const showViewedFocus = props.nowPlayingFocus === 'viewed' && !!viewedTuneId
-  const activeTuneId = resolveNowPlayingDisplayTuneId({
+  // Sheet/settings can stay on the viewed tune, but the hero title must follow
+  // whatever is actually playing — otherwise next/prev and song-end look stuck.
+  const playbackTuneId = getActivePlaybackTuneId(mediaController, nowPlayingQueue)
+  const sheetTuneId = resolveNowPlayingDisplayTuneId({
     focus: showViewedFocus ? 'viewed' : 'playlist',
     viewedTuneId: viewedTuneId,
     mediaController: mediaController,
     queue: nowPlayingQueue,
   })
+  const activeTuneId = playbackTuneId || sheetTuneId
   const engineTuneId = mediaController && mediaController.tune && mediaController.tune.id
     ? mediaController.tune.id
     : null
   const transportControlsEngine = !!(engineTuneId && activeTuneId && engineTuneId === activeTuneId)
   const showQueueNavigation = queueActive
   const playingTune = activeTuneId && props.tunes ? props.tunes[activeTuneId] : (mediaController && mediaController.tune)
+  const sheetTune = sheetTuneId && props.tunes
+    ? (props.tunes[sheetTuneId] || (mediaController && mediaController.tune && String(mediaController.tune.id) === String(sheetTuneId) ? mediaController.tune : null))
+    : playingTune
   const isEngaged = isQueuePlaybackEngaged(mediaController)
   const showPlaybackProgress = !!(mediaController && playingTune && engineTuneId && (
     transportControlsEngine || (!showViewedFocus && isEngaged)
@@ -180,13 +188,13 @@ export default function NowPlayingPage(props) {
   }
 
   const isYoutubeLink = props.tunebook && props.tunebook.utils && props.tunebook.utils.isYoutubeLink
-  const playRangeLinkIndex = playingTune && mediaController
-    ? resolveLoopEditorLinkIndex(playingTune, mediaController, isYoutubeLink)
+  const playRangeLinkIndex = sheetTune && mediaController
+    ? resolveLoopEditorLinkIndex(sheetTune, mediaController, isYoutubeLink)
     : null
   const playRangeLink = playRangeLinkIndex != null
-    && playingTune
-    && Array.isArray(playingTune.links)
-    ? playingTune.links[playRangeLinkIndex]
+    && sheetTune
+    && Array.isArray(sheetTune.links)
+    ? sheetTune.links[playRangeLinkIndex]
     : null
   const midiSourceSelected = getActiveMediaSourceId(mediaController) === 'midi'
     || getLinkSrcType(playRangeLink, isYoutubeLink) === 'midifile'
@@ -199,8 +207,8 @@ export default function NowPlayingPage(props) {
   }, [showPlayRangeButton, showPlayRangeModal])
 
   function handlePlayRangeLinksUpdated(nextLinks) {
-    if (!playingTune || !props.tunebook || typeof props.tunebook.saveTune !== 'function') return
-    props.tunebook.saveTune(Object.assign({}, playingTune, { links: nextLinks }))
+    if (!sheetTune || !props.tunebook || typeof props.tunebook.saveTune !== 'function') return
+    props.tunebook.saveTune(Object.assign({}, sheetTune, { links: nextLinks }))
   }
 
   function handlePlayPause() {
@@ -263,6 +271,10 @@ export default function NowPlayingPage(props) {
 
   function stepPlaylist(direction) {
     if (!showQueueNavigation) return
+    // Follow the playing track in the hero title after manual skips.
+    if (showViewedFocus && typeof props.onOpenNowPlaying === 'function') {
+      props.onOpenNowPlaying('playlist')
+    }
     const navFromId = getCurrentTuneId(nowPlayingQueue) || activeTuneId
     if (!navFromId) return
     if (direction >= 0) {
@@ -464,12 +476,12 @@ export default function NowPlayingPage(props) {
           ) : null}
         </div>
 
-        {mediaController && playingTune ? (
+        {mediaController && sheetTune ? (
           <>
             <div className="now-playing-page-media-sources">
               <div className="now-playing-page-media-sources-header">
                 <MediaSourcePlaybackButtons
-                  tune={playingTune}
+                  tune={sheetTune}
                   tunebook={props.tunebook}
                   mediaController={mediaController}
                   suppressRouteNavigation
@@ -487,7 +499,7 @@ export default function NowPlayingPage(props) {
                   ) : null}
                 />
                 <div className="now-playing-page-media-sources-actions">
-                  {tuneHasMidiNotes(playingTune, props.tunebook) ? (
+                  {tuneHasMidiNotes(sheetTune, props.tunebook) ? (
                     <ButtonGroup
                       size="sm"
                       className="now-playing-page-midi-preference-group"
@@ -543,8 +555,8 @@ export default function NowPlayingPage(props) {
                       aria-label="Edit media links"
                       title="Edit media links"
                       onClick={function() {
-                        if (playingTune && playingTune.id) {
-                          props.onOpenLinksEditor(playingTune.id)
+                        if (sheetTune && sheetTune.id) {
+                          props.onOpenLinksEditor(sheetTune.id)
                         }
                       }}
                     >
@@ -553,15 +565,15 @@ export default function NowPlayingPage(props) {
                   ) : null}
                 </div>
               </div>
-              {showPlayRangeButton && playRangeLinkIndex != null ? (
+              {showPlayRangeButton && playRangeLinkIndex != null && sheetTune ? (
                 <LinkPlayRangeModal
                   show={showPlayRangeModal}
                   onHide={function() { setShowPlayRangeModal(false) }}
                   link={playRangeLink}
                   linkIndex={playRangeLinkIndex}
-                  links={playingTune.links}
+                  links={sheetTune.links}
                   onLinksUpdated={handlePlayRangeLinksUpdated}
-                  tune={playingTune}
+                  tune={sheetTune}
                   tunebook={props.tunebook}
                   token={props.token}
                   login={props.login}

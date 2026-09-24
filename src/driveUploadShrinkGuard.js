@@ -1,4 +1,5 @@
 import { isMassDeleteBatch } from './incomingMergeUtils'
+import { parseSyncManifest } from './tuneShardSync'
 
 export const LAST_DRIVE_UPLOAD_STORAGE_KEY = 'bookstorage_last_drive_upload'
 export const DRIVE_UPLOAD_ECHO_PAUSE_MS = 10000
@@ -186,6 +187,58 @@ export function buildDriveUploadShrinkWarning(previousSnapshot, nextTunes) {
 
 export function shouldConfirmDriveUploadShrink(previousSnapshot, nextTunes) {
   return !!buildDriveUploadShrinkWarning(previousSnapshot, nextTunes)
+}
+
+/**
+ * Count tunes in a Drive songbook ABC. Prefer shard manifest totals when present
+ * (X: line counts alone miss the point of sharded libraries).
+ */
+export function countTunesInDriveAbc(abcText) {
+  const manifest = parseSyncManifest(abcText)
+  if (manifest && Array.isArray(manifest.shards) && manifest.shards.length > 0) {
+    let total = 0
+    let any = false
+    manifest.shards.forEach(function(shard) {
+      const n = shard && shard.tuneCount != null ? Number(shard.tuneCount) : NaN
+      if (Number.isFinite(n) && n >= 0) {
+        total += n
+        any = true
+      }
+    })
+    if (any) return total
+  }
+  return (String(abcText || '').match(/^X:/gm) || []).length
+}
+
+/**
+ * True when uploading local over the live Drive head would wipe a dangerous
+ * number of remote-only tunes. Unlike buildDriveUploadShrinkWarning, this uses
+ * the actual Drive document — not this device's last-upload snapshot.
+ *
+ * That gap is what let a tablet with a fresh 1150-tune snapshot overwrite a
+ * browser-synced ~3300-tune Drive file: local vs last-local looked fine.
+ */
+export function buildDriveLiveOverwriteWarning(remoteTuneCount, localTuneCount) {
+  const remote = remoteTuneCount > 0 ? remoteTuneCount : 0
+  const local = localTuneCount > 0 ? localTuneCount : 0
+  if (remote <= local) return null
+  const removedCount = remote - local
+  if (!isMassDeleteBatch(removedCount, remote)) return null
+  return {
+    previousCount: remote,
+    nextCount: local,
+    removedCount: removedCount,
+    addedCount: 0,
+    liveRemote: true,
+    sampleNames: [],
+    sampleTruncated: false,
+  }
+}
+
+export function shouldPullBeforeDriveUpload(remoteTuneCount, localTuneCount) {
+  const remote = remoteTuneCount > 0 ? remoteTuneCount : 0
+  const local = localTuneCount > 0 ? localTuneCount : 0
+  return remote > local
 }
 
 /** Session-only: user cancelled uploading this massively-shrunk local book. */

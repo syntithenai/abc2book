@@ -212,8 +212,8 @@ install_android_apps_on_phone() {
   (
     export JAVA_HOME="$JAVA_YOGA"
     export PATH="$JAVA_HOME/bin:$PATH"
-    cd "$YOGAPP"
-    # Must rebuild with VITE_BASE=./ — dist may still be /yoga/ from build:web above.
+    # Yoga lives under apps/yoga in the monorepo (VITE_BASE=./ for Capacitor).
+    cd "$YOGAPP/apps/yoga"
     run bash scripts/build-android-release.sh
     run npx cap sync android
     run bash -c 'cd android && ./gradlew assembleDebug'
@@ -231,7 +231,7 @@ install_android_apps_on_phone() {
     fi
   )
 
-  local yoga_apk="$YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
+  local yoga_apk="$YOGAPP/apps/yoga/android/app/build/outputs/apk/debug/app-debug.apk"
   local tb_apk_debug="$ROOT/android/app/build/outputs/apk/debug/app-debug.apk"
   local tb_apk_release="$ROOT/android/app/build/outputs/apk/release/app-release.apk"
   local tb_apk
@@ -265,6 +265,8 @@ assert_no_absolute_symlinks() {
     -not -path '*/.venv-light/*' \
     -not -path '*/android/.gradle/*' \
     -not -path '*/.tools/*' \
+    -not -path '*/scripts/drafts/*' \
+    -not -path '*/.cursor/*' \
     -print0 2>/dev/null)
   [[ "$bad" -eq 0 ]] || die "remove absolute symlinks before publishing (they break GitHub Pages)"
 }
@@ -418,9 +420,9 @@ if [[ "$NEED_YOGAPP_ANDROID" -eq 1 ]]; then
     export PATH="$JAVA_HOME/bin:$PATH"
     cd "$YOGAPP"
     run npm run cap:sync
-    run bash -c 'cd android && ./gradlew assembleDebug'
+    run bash -c 'cd apps/yoga/android && ./gradlew assembleDebug'
   )
-  YOGA_APK="$YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
+  YOGA_APK="$YOGAPP/apps/yoga/android/app/build/outputs/apk/debug/app-debug.apk"
   [[ "$DRY_RUN" -eq 1 || -f "$YOGA_APK" ]] || die "missing $YOGA_APK"
   log "YogApp APK: $YOGA_APK"
 elif [[ "$DO_ANDROID" -eq 0 ]]; then
@@ -595,7 +597,7 @@ else
   echo "  Phone install:  skipped"
 fi
 if [[ "$NEED_YOGAPP_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
-  echo "  YogApp APK:     $YOGAPP/android/app/build/outputs/apk/debug/app-debug.apk"
+  echo "  YogApp APK:     $YOGAPP/apps/yoga/android/app/build/outputs/apk/debug/app-debug.apk"
 fi
 if [[ "$NEED_TB_ANDROID" -eq 1 && "$DRY_RUN" -eq 0 ]]; then
   if [[ -f "$ROOT/android/app/build/outputs/apk/release/app-release.apk" ]]; then

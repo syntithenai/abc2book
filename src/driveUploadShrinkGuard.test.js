@@ -149,4 +149,32 @@ describe('driveUploadShrinkGuard', function() {
     writeLastDriveUploadSnapshot({ a: { id: 'a', name: 'A' } })
     expect(isDismissedDriveUploadShrink(warning)).toBe(false)
   })
+
+  test('live Drive overwrite warning uses remote head not local snapshot', function() {
+    const {
+      buildDriveLiveOverwriteWarning,
+      shouldPullBeforeDriveUpload,
+      countTunesInDriveAbc,
+    } = require('./driveUploadShrinkGuard')
+    expect(shouldPullBeforeDriveUpload(3309, 1150)).toBe(true)
+    expect(shouldPullBeforeDriveUpload(100, 100)).toBe(false)
+    expect(shouldPullBeforeDriveUpload(100, 120)).toBe(false)
+    expect(buildDriveLiveOverwriteWarning(3309, 1150)).toMatchObject({
+      previousCount: 3309,
+      nextCount: 1150,
+      removedCount: 2159,
+      liveRemote: true,
+    })
+    expect(buildDriveLiveOverwriteWarning(100, 99)).toBeNull()
+    expect(countTunesInDriveAbc('X:1\nT:A\n\nX:2\nT:B\n')).toBe(2)
+    expect(countTunesInDriveAbc(
+      '% abcbook-sync-manifest-begin\n'
+      + JSON.stringify({
+        version: 2,
+        shardCount: 2,
+        shards: [{ name: 'a', tuneCount: 2000 }, { name: 'b', tuneCount: 1309 }],
+      })
+      + '\n% abcbook-sync-manifest-end\n'
+    )).toBe(3309)
+  })
 })

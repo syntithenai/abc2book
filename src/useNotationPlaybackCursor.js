@@ -2,6 +2,7 @@ import { useLayoutEffect, useRef } from 'react'
 import abcjs from 'abcjs'
 import {
   applyPlaybackCursorAtTime,
+  cursorPositionFromNoteTimings,
   shouldMirrorMidiPlaybackCursor,
 } from './notationPlaybackCursor'
 import { barWholeNotesFromMeter } from './playbackFillPattern'
@@ -72,23 +73,29 @@ export default function useNotationPlaybackCursor(props) {
     }
 
     function syncCursor() {
-      if (!canSync()) return
+      if (!canSync()) {
+        return
+      }
       const timingCallbacks = timingCallbacksRef.current
       if (!timingCallbacks || !timingCallbacks.noteTimings) return
       const root = containerRef && containerRef.current
       const svg = root ? root.querySelector('svg') : null
       if (!svg) return
       const stateSec = mediaController.currentTime
-      const cursorSec = (mediaController.getMidiCursorSecondsRef
+      const preferNativeClock = !!(mediaController.isAndroidNativeOutputActive
+        && mediaController.isAndroidNativeOutputActive())
+      const cursorSec = (!preferNativeClock && mediaController.getMidiCursorSecondsRef
         && typeof mediaController.getMidiCursorSecondsRef.current === 'function')
         ? mediaController.getMidiCursorSecondsRef.current()
         : null
       const liveSec = (cursorSec != null && cursorSec >= 0 && isFinite(cursorSec))
         ? cursorSec
-        : ((mediaController.getMidiPlaybackSecondsRef
+        : (preferNativeClock && stateSec >= 0 && isFinite(stateSec)
+          ? stateSec
+          : ((mediaController.getMidiPlaybackSecondsRef
           && typeof mediaController.getMidiPlaybackSecondsRef.current === 'function')
           ? mediaController.getMidiPlaybackSecondsRef.current()
-          : stateSec)
+          : stateSec))
       const playbackSec = (liveSec >= 0 && isFinite(liveSec)) ? liveSec : stateSec
       if (!(playbackSec >= 0) && !(mediaController.isPlaying)) return
       let audibleMpm = 0
@@ -117,20 +124,30 @@ export default function useNotationPlaybackCursor(props) {
         : (visualObj && typeof visualObj.getPickupLength === 'function'
           ? parseFloat(visualObj.getPickupLength()) || 0
           : 0)
+      const meterFrac = visualObj && typeof visualObj.getMeterFraction === 'function'
+        ? visualObj.getMeterFraction()
+        : null
+      const meterBeats = meterFrac && meterFrac.num > 0 ? meterFrac.num : 0
+      const beatWhole = (barWhole > 0 && meterBeats > 0) ? (barWhole / meterBeats) : 0
+      const cursorOpts = {
+        musicSec: playbackSec,
+        audibleMsPerMeasure: audibleMpm,
+        audioDurationSec: audioDurationSec,
+        lastMomentMs: timingCallbacks.lastMoment,
+        soundingWrittenMap: soundingMap,
+        barWholeNotes: barWhole,
+        pickupWhole: pickupWhole,
+        trackNotePositions: false,
+        barCursorPhaseLeadWhole: beatWhole > 0 ? beatWhole : (
+          pickupWhole > 0 ? pickupWhole : 0
+        ),
+      }
       cursorRef.current = applyPlaybackCursorAtTime(
         svg,
         cursorRef.current,
         timingCallbacks.noteTimings,
         playbackSec * 1000,
-        {
-          musicSec: playbackSec,
-          audibleMsPerMeasure: audibleMpm,
-          audioDurationSec: audioDurationSec,
-          lastMomentMs: timingCallbacks.lastMoment,
-          soundingWrittenMap: soundingMap,
-          barWholeNotes: barWhole,
-          pickupWhole: pickupWhole,
-        }
+        cursorOpts
       )
     }
 

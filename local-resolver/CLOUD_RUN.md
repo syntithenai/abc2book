@@ -3,6 +3,8 @@
 Project: **`abc2book`**  
 Image: light gateway only (`Dockerfile.light` + `server_light.py`) — no local Whisper/Demucs/OCR GPU stack.
 
+**Synth suite APIs moved:** Yoga community (`/yoga/*`), SynthFit Stripe entitlements, and suite food barcode lookup now live on **`synth-resolver`** in GCP project `synthfit-suite` (see yogapp `services/synth-resolver/CLOUD_RUN.md`). This light service keeps Tune Book credit billing, OAuth BFF, score-convert, and media proxy for tunebook.net.
+
 **Deployed service URL** (abc2book / australia-southeast1):
 
 `https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app`

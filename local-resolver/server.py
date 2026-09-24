@@ -1188,20 +1188,6 @@ async def optional_google_user(authorization):
 
 
 try:
-    from yoga_community_routes import register_yoga_community_routes
-
-    register_yoga_community_routes(
-        app,
-        require_google_user=require_google_user,
-        optional_google_user=optional_google_user,
-        cors_headers=cors_headers,
-        get_admin_allowlist=lambda: ALLOWED_ADMIN_EMAILS,
-    )
-except Exception:
-    pass
-
-
-try:
     from ai_art_subscribe_routes import register_ai_art_subscribe_routes
 
     register_ai_art_subscribe_routes(
@@ -4156,6 +4142,37 @@ async def detect_playback_region_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+async def _process_voice_command_transcript(transcript, books, tags, request, voice_mode, verified=None):
+    total_started = time.monotonic()
+    text = str(transcript or "").strip()
+    if not text:
+        result = _empty_intent("", "none")
+        result["timing"] = {
+            "transcribeMs": 0,
+            "parseMs": 0,
+            "totalMs": int((time.monotonic() - total_started) * 1000),
+        }
+        return result
+
+    parse_started = time.monotonic()
+    try:
+        llm_cfg = await _resolve_llm_for_request(request, verified, voice=True)
+        with use_billed_llm(verified, llm_cfg):
+            intent = await parse_voice_intent(
+                text, books, tags, voice_mode=voice_mode
+            )
+    except Exception as exc:
+        intent = _empty_intent(text, "llm")
+        intent["error"] = str(exc)[:200]
+    parse_ms = int((time.monotonic() - parse_started) * 1000)
+    intent["timing"] = {
+        "transcribeMs": 0,
+        "parseMs": parse_ms,
+        "totalMs": int((time.monotonic() - total_started) * 1000),
+    }
+    return intent
+
+
 async def _process_voice_command_audio(
     audio_bytes, filename, books, tags, request, voice_mode, verified=None
 ):
@@ -4229,7 +4246,8 @@ async def _process_voice_command_audio(
 @app.post("/voice-command")
 async def voice_command_endpoint(
     request: Request,
-    file: UploadFile = File(...),
+    file: UploadFile | None = File(default=None),
+    transcript: str = Form(default=""),
     books: str = Form(default="[]"),
     tags: str = Form(default="[]"),
     mode: str = Form(default="playback"),
@@ -4238,15 +4256,7 @@ async def voice_command_endpoint(
     origin = request.headers.get("origin")
     try:
         verified = await maybe_require_auth(authorization)
-        await require_resolver_feature("whisper", request, verified)
         track_resolver_usage("voice-command")
-
-        audio_bytes = await file.read()
-        if not audio_bytes:
-            return json_error(400, "Missing audio file", origin)
-
-        if len(audio_bytes) > MAX_STREAM_BYTES:
-            return json_error(413, "Media file too large", origin)
 
         try:
             book_list = parse_catalog_json(books, "books")
@@ -4257,6 +4267,31 @@ async def voice_command_endpoint(
         voice_mode = (mode or "playback").strip().lower() or "playback"
         if voice_mode not in {"playback", "help"}:
             voice_mode = "playback"
+
+        transcript_text = str(transcript or "").strip()
+        if transcript_text:
+            # On-device / client STT: parse only (no Whisper).
+            body = await _process_voice_command_transcript(
+                transcript_text,
+                book_list,
+                tag_list,
+                request,
+                voice_mode,
+                verified=verified,
+            )
+            return JSONResponse(content=body, headers=cors_headers(origin))
+
+        await require_resolver_feature("whisper", request, verified)
+
+        if file is None:
+            return json_error(400, "Missing audio file or transcript", origin)
+
+        audio_bytes = await file.read()
+        if not audio_bytes:
+            return json_error(400, "Missing audio file", origin)
+
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
 
         filename = file.filename or "voice-command.webm"
         whisper_cfg = await resolve_request_provider(

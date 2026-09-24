@@ -49,7 +49,7 @@ export function mapActiveEngineToRouterEngine(activeEngine, routeMode) {
   const engine = activeEngine || 'none';
   if (engine === 'snapcast') return PLAYBACK_ENGINE_SNAPCAST;
   if (engine === 'cast') return PLAYBACK_ENGINE_CAST;
-  if (engine === 'nativeMidi') return PLAYBACK_ENGINE_ANDROID_NATIVE;
+  if (engine === 'nativeMidi' || engine === 'androidNative') return PLAYBACK_ENGINE_ANDROID_NATIVE;
   if (engine === 'midi') return PLAYBACK_ENGINE_NOTATION_MIDI;
   if (engine === 'midifile') return PLAYBACK_ENGINE_MIDI_FILE;
   if (engine === 'nativeFiltered') return PLAYBACK_ENGINE_ANDROID_NATIVE;
