@@ -5105,7 +5105,7 @@ export default function useTuneBookMediaController(props) {
         if (isAndroidNativeOutputActive()) {
             return
         }
-        if (externalMediaRef.current) {
+        if (externalMediaRef.current && (isExternalMediaConnected() || canUseExternalPitchTempo())) {
             if (!isExternalMediaConnected()) {
                 playExternalMedia()
             }
@@ -7400,7 +7400,7 @@ export default function useTuneBookMediaController(props) {
             destroyNativeFilteredPlayback()
         }
 
-        if (externalMediaRef.current && externalLoadedSrcRef.current === currentSrc) {
+        if (wantsExternal && externalMediaRef.current && externalLoadedSrcRef.current === currentSrc) {
             return applyExternalMediaSettings(settings, { resumePlayback: true, forcePlay: playingNow })
         }
 
@@ -7447,7 +7447,12 @@ export default function useTuneBookMediaController(props) {
         } else {
             const resumeAt = getCurrentPlaybackSeconds()
             const playingNow = playingIntentRef.current
-            if (externalMediaRef.current || externalMediaActiveRef.current) {
+            // A prefetched processor that never took over output can stay warm.
+            if (externalMediaRef.current && externalLoadedSrcRef.current !== currentSrc
+                && !isExternalMediaConnected() && !externalMediaActiveRef.current) {
+                destroyExternalMedia()
+            }
+            if (isExternalMediaConnected() || externalMediaActiveRef.current) {
                 destroyExternalMedia()
                 if (playingNow) {
                     playNativeMedia(srcType)
