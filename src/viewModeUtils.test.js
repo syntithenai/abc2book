@@ -26,6 +26,7 @@ import {
   SINGLE_VIEW_EDIT_MODES,
 } from './viewModeUtils';
 import { resolveTuneDisplayLayout } from './tuneDisplayLayout';
+import { noteLinesHaveRealMelody } from './timedImportFinalizer';
 
 describe('viewModeUtils availability', function() {
   const tunebook = {
@@ -214,30 +215,34 @@ describe('viewModeUtils display flags', function() {
     })).toBe('No view modes enabled');
   });
 
+  const contentTunebook = {
+    hasLyrics: function(t) { return !!(t.wLines && t.wLines.length); },
+    hasNotes: function(t) {
+      return !!(t.voices && Object.values(t.voices).some(function(v) {
+        return noteLinesHaveRealMelody(v.notes);
+      }));
+    },
+  };
+
   it('defaults view mode from tune content', function() {
-    const tunebook = {
-      hasLyrics: function(t) { return !!(t.wLines && t.wLines.length); },
-      hasNotes: function(t) {
-        return !!(t.voices && Object.values(t.voices).some(function(v) {
-          return v.notes && v.notes.some(function(n) { return /[A-Ga-g]/.test(n); });
-        }));
-      },
-    };
+    const tunebook = contentTunebook;
     expect(defaultViewModeForTune(
       { voices: { '1': { notes: ['CDEF|'] } }, wLines: [] },
       tunebook,
       { hasChords: false }
     )).toBe('music');
+    // Lyrics + abc chords (no inline lyric chords): structure block + plain lyrics.
     expect(defaultViewModeForTune(
       { voices: {}, wLines: ['Hello'] },
       tunebook,
       { hasChords: true }
-    )).toBe('lyrics,structure,chords,noinfo');
+    )).toBe('chordsBlock');
+    // Rest-only chord scaffold without lyrics: no notation, just the structure block.
     expect(defaultViewModeForTune(
       { voices: { '1': { notes: ['| "D" z2 |'] } }, wLines: [] },
       tunebook,
       { hasChords: true }
-    )).toBe('notation,chords,noinfo');
+    )).toBe('structure,chords,noinfo');
     // Notation + lyrics: structure block stays off by default.
     expect(defaultViewModeForTune(
       { voices: { '1': { notes: ['CDEF|'] } }, wLines: ['Hello'] },
@@ -249,6 +254,30 @@ describe('viewModeUtils display flags', function() {
       tunebook,
       { hasChords: false }
     )).toBe('notation,lyrics,noinfo');
+  });
+
+  it('shows only lyrics (with their chords) when the lyrics carry inline chords and there is no melody', function() {
+    const options = { hasChords: true, hasLyricInlineChords: true };
+    expect(defaultViewModeForTune(
+      { voices: { '1': { notes: ['z4 | z4 |'] } }, wLines: ['[G]Hello [D]world'] },
+      contentTunebook,
+      options
+    )).toBe('chordsInline');
+    // A real melody always shows, with lyrics; the staff already carries the structure.
+    expect(defaultViewModeForTune(
+      { voices: { '1': { notes: ['CDEF|'] } }, wLines: ['[G]Hello [D]world'] },
+      contentTunebook,
+      options
+    )).toBe('notation,lyrics,chords,noinfo');
+  });
+
+  it('does not show notation for rest-only abc padded with directives', function() {
+    const tune = {
+      voices: { '1': { notes: ['%%MIDI program 0', '[P:Verse] "G" z4 | "C" z4 |'] } },
+      wLines: ['Hello world'],
+    };
+    expect(defaultViewModeForTune(tune, contentTunebook, { hasChords: true })).toBe('chordsBlock');
+    expect(defaultViewModeForTune(tune, contentTunebook, { hasChords: false })).toBe('lyricsOnly');
   });
 });
 

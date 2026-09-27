@@ -45,14 +45,28 @@ export function buildTimedLyricsFromMerged(draft) {
   });
 }
 
+/**
+ * Remove ABC that is not a sounding note so letters in directives, fields,
+ * comments, annotations and decorations (e.g. `%%MIDI program`, `[P:Verse]`,
+ * `!fermata!`) are not mistaken for pitches.
+ */
+function stripNonNoteAbc(line) {
+  const text = String(line || '');
+  const trimmed = text.trim();
+  if (!trimmed || trimmed.charAt(0) === '%') return '';
+  if (/^[A-Za-z]:(?!\|)/.test(trimmed)) return '';
+  return text
+    .replace(/%.*$/, '')
+    .replace(/"[^"]*"/g, '')
+    .replace(/![^!]*!/g, '')
+    .replace(/\+[^+]*\+/g, '')
+    .replace(/\[[A-Za-z]:[^\]]*\]/g, '');
+}
+
 export function noteLinesHaveRealMelody(noteLines) {
   if (!Array.isArray(noteLines)) return false;
   return noteLines.some(function(line) {
-    const stripped = String(line || '').replace(/"([^"]*)"/g, '');
-    for (let i = 0; i < stripped.length; i++) {
-      if (/[a-gA-G]/.test(stripped[i])) return true;
-    }
-    return false;
+    return /[a-gA-G]/.test(stripNonNoteAbc(line));
   });
 }
 

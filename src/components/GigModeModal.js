@@ -33,7 +33,7 @@ import {
 } from '../viewModeUtils';
 import { resolveTuneDisplayLayout, isViewModesEmpty, isStructureOnlyLayout } from '../tuneDisplayLayout';
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings';
-import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
+import { tuneHasExplicitChords, tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay';
 import {
   buildAbcWithNoteSpacing,
 } from '../noteSpacingUtils';
@@ -128,7 +128,10 @@ export default function GigModeModal(props) {
       initialMode = normalizeViewMode(currentTune.viewMode);
     } else if (currentTune) {
       const hasChordsForDefault = tuneHasExplicitChords(currentTune, tunebook, abcjsParser);
-      initialMode = defaultViewModeForTune(currentTune, tunebook, { hasChords: hasChordsForDefault });
+      initialMode = defaultViewModeForTune(currentTune, tunebook, {
+        hasChords: hasChordsForDefault,
+        hasLyricInlineChords: tuneHasLyricEmbeddedChords(currentTune),
+      });
     }
     setViewMode(initialMode);
     let wakeLock = null;

@@ -394,10 +394,28 @@ export function resolveViewModeForTune(mode, tune, tunebook, options) {
   return displayFlagsToViewMode(flags);
 }
 
-/** Default view mode heuristics when a tune has no saved viewMode. */
+/**
+ * Default view mode heuristics when a tune has no saved viewMode.
+ *
+ * options.hasChords             lyric-embedded or abc chords exist
+ * options.hasLyricInlineChords  the lyrics themselves carry chords (ChordPro / chords over words)
+ */
 export function defaultViewModeForTune(tune, tunebook, options) {
   const available = getAvailableDisplayFlags(tune, tunebook, options);
   const flags = emptyDisplayFlags();
+  const lyricInlineChords = !!(options && options.hasLyricInlineChords);
+  if (available.lyrics && lyricInlineChords && !available.notation) {
+    // The lyric sheet already places its chords; show just that.
+    flags.lyrics = true;
+    flags.chords = true;
+    return displayFlagsToViewMode(flags);
+  }
+  if (available.lyrics && available.structure && !available.notation) {
+    // Chords only live in the abc: chart them in the structure block, plain lyrics beside.
+    flags.lyrics = true;
+    flags.structure = true;
+    return displayFlagsToViewMode(flags);
+  }
   if (available.notation && !available.lyrics) {
     flags.notation = 'lines';
   } else if (available.lyrics && !available.notation) {

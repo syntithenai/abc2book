@@ -1,5 +1,5 @@
 import { normalizeViewMode, resolveViewModeForTune, defaultViewModeForTune } from './viewModeUtils';
-import { tuneHasExplicitChords } from './timedLyricsChordsDisplay';
+import { tuneHasExplicitChords, tuneHasLyricEmbeddedChords } from './timedLyricsChordsDisplay';
 
 /**
  * Resolve the view mode used when printing a tune.
@@ -8,15 +8,19 @@ import { tuneHasExplicitChords } from './timedLyricsChordsDisplay';
 export function resolvePrintViewMode(tune, globalViewMode, tunebook, abcjsParser) {
   if (!tune) return 'music';
   const hasChords = tuneHasExplicitChords(tune, tunebook, abcjsParser);
+  const defaultOptions = {
+    hasChords: hasChords,
+    hasLyricInlineChords: tuneHasLyricEmbeddedChords(tune),
+  };
   let nextViewMode = globalViewMode || 'music';
   if (tune.viewMode) {
     nextViewMode = normalizeViewMode(tune.viewMode);
   } else {
-    nextViewMode = defaultViewModeForTune(tune, tunebook, { hasChords: hasChords });
+    nextViewMode = defaultViewModeForTune(tune, tunebook, defaultOptions);
   }
   const resolved = resolveViewModeForTune(nextViewMode, tune, tunebook, { hasChords: hasChords });
   if (!resolved || resolved === 'off') {
-    return defaultViewModeForTune(tune, tunebook, { hasChords: hasChords });
+    return defaultViewModeForTune(tune, tunebook, defaultOptions);
   }
   return resolved;
 }

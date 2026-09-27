@@ -25,6 +25,21 @@ describe('timedImportFinalizer', function() {
     expect(noteLinesHaveRealMelody(['| "D" z2 "G" z "A" z |'])).toBe(false);
   });
 
+  test('noteLinesHaveRealMelody ignores directives, fields, comments and decorations', function() {
+    expect(noteLinesHaveRealMelody(['%%MIDI program 0', 'z4 z4 |'])).toBe(false);
+    expect(noteLinesHaveRealMelody(['% verse scaffold', 'z4 |'])).toBe(false);
+    expect(noteLinesHaveRealMelody(['P:Verse', 'z4 |'])).toBe(false);
+    expect(noteLinesHaveRealMelody(['[P:Chorus] "G" z4 | z4 % back to A'])).toBe(false);
+    expect(noteLinesHaveRealMelody(['[K:G] z2 !fermata!z2 +trill+z |'])).toBe(false);
+    expect(noteLinesHaveRealMelody(['x4 | Z2 | y z |'])).toBe(false);
+  });
+
+  test('noteLinesHaveRealMelody still finds notes around stripped markup', function() {
+    expect(noteLinesHaveRealMelody(['%%MIDI program 0', '[K:G] !p!G2 A2 |'])).toBe(true);
+    expect(noteLinesHaveRealMelody(['z2 c2 | % comment'])).toBe(true);
+    expect(noteLinesHaveRealMelody(['B:| z4'])).toBe(true);
+  });
+
   test('clearTransientTimedFields removes timed JSON fields but keeps lyrics', function() {
     const tune = {
       timedLyrics: { lines: [] },

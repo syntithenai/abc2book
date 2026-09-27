@@ -41,19 +41,19 @@ describe('printTuneViewMode', function() {
     expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyricsOnly');
   });
 
-  it('defaults lyric-only sheets with chords to lyrics, structure, and chords', function() {
+  it('defaults lyric sheets with inline chords to lyrics with those chords only', function() {
     const tune = {
       wLines: ['Am   G', 'Lyrics here'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyrics,structure,chords,noinfo');
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('chordsInline');
   });
 
-  it('defaults chord-symbol-only abc with rests to lyrics, structure, and chords', function() {
+  it('defaults chord-symbol-only abc with rests to structure and plain lyrics', function() {
     const tune = {
       voices: { v: { notes: ['| "D" z2 "G" z "A" z |', '|z4 z4 z4 z4|'] } },
       wLines: ['Well I have been free as a bird'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyrics,structure,chords,noinfo');
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('chordsBlock');
   });
 
   it('defaults notation+lyrics without chords to notation+lyrics composite', function() {

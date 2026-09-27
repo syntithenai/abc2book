@@ -28,6 +28,7 @@ import {
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
 import useMediaResolverHealth from '../useMediaResolverHealth';
+import usePublishedElementHeight from '../usePublishedElementHeight';
 import { resolveTunesListPath } from '../searchFilterParams';
 import {
   getImportReviewSessionRevision,
@@ -51,6 +52,12 @@ export default function Header(props) {
     //var params = useParams() // empty  ???
     var parts = location.pathname.split("/")
     var params = {tuneId: parts.length >= 3 ? parts[2] : null}
+    const headerRef = useRef(null)
+    usePublishedElementHeight(headerRef, {
+      varName: '--chrome-header-offset',
+      host: function() { return document.documentElement },
+      edge: 'bottom',
+    })
     const [userImageError, setUserImageError] = useState(false)
     const [showAccount, setShowAccount] = useState(false)
     const [showPlaylists, setShowPlaylists] = useState(false)
@@ -582,7 +589,7 @@ export default function Header(props) {
     }
 
     if (location.pathname.startsWith('/print')) return null
-    return <header className="App-header" style={{fontSize:'1.2em'}} >
+    return <header ref={headerRef} className="App-header" style={{fontSize:'1.2em'}} >
         <span className="header-left">
             <ButtonGroup className="header-nav-buttons">
                 <Button

@@ -90,12 +90,11 @@ describe('chromeZoomGuard', function() {
     expect(CHROME_ZOOM_GUARD_SELECTORS).toHaveLength(10)
   })
 
-  it('updates scale variables from visualViewport pinch zoom', function() {
+  it('ignores visualViewport pinch scale', function() {
     visualViewport.scale = 1.5
     resetZoomBaseline()
-    expect(updateChromeViewportScale()).toBe(1.5)
-    expect(document.documentElement.style.getPropertyValue(CHROME_VV_SCALE_VAR)).toBe('1.5')
-    expect(document.documentElement.style.getPropertyValue(CHROME_VV_ZOOM_VAR)).toBe(String(1 / 1.5))
+    expect(updateChromeViewportScale()).toBe(1)
+    expect(document.documentElement.style.getPropertyValue(CHROME_VV_SCALE_VAR)).toBe('1')
   })
 
   it('detects desktop browser zoom via devicePixelRatio', function() {
@@ -110,14 +109,40 @@ describe('chromeZoomGuard', function() {
     expect(document.documentElement.style.getPropertyValue(CHROME_VV_ZOOM_VAR)).toBe(String(1 / 1.5))
   })
 
-  it('detects desktop browser zoom via innerWidth when DPR is unchanged', function() {
+  it('does not treat a narrower window (e.g. docked devtools) as zoom', function() {
     resetZoomBaseline()
     setWindowMetrics({
       devicePixelRatio: 1,
       innerWidth: 800,
       outerWidth: 1280,
     })
-    expect(readPageZoomScale()).toBe(1.5)
+    expect(readPageZoomScale()).toBe(1)
+  })
+
+  it('keeps the baseline when the window is resized while zoomed', function() {
+    initChromeZoomGuard()
+    setWindowMetrics({
+      devicePixelRatio: 2,
+      innerWidth: 600,
+      outerWidth: 1280,
+    })
+    window.dispatchEvent(new Event('resize'))
+    expect(document.documentElement.style.getPropertyValue(CHROME_VV_SCALE_VAR)).toBe('2')
+
+    setWindowMetrics({
+      devicePixelRatio: 2,
+      innerWidth: 400,
+      outerWidth: 900,
+    })
+    window.dispatchEvent(new Event('resize'))
+
+    setWindowMetrics({
+      devicePixelRatio: 1,
+      innerWidth: 900,
+      outerWidth: 900,
+    })
+    window.dispatchEvent(new Event('resize'))
+    expect(document.documentElement.style.getPropertyValue(CHROME_VV_SCALE_VAR)).toBe('1')
   })
 
   it('defaults scale to 1 when no zoom is applied', function() {
@@ -131,19 +156,27 @@ describe('chromeZoomGuard', function() {
     expect(document.documentElement.style.getPropertyValue(CHROME_VV_ZOOM_VAR)).toBe('1')
   })
 
-  it('listens for visualViewport changes during init', function() {
+  it('re-reads browser zoom on visualViewport resize', function() {
     initChromeZoomGuard()
     expect(listeners.resize.length).toBe(1)
     expect(listeners.scroll.length).toBe(0)
 
-    visualViewport.scale = 2
+    setWindowMetrics({
+      devicePixelRatio: 2,
+      innerWidth: 600,
+      outerWidth: 1280,
+    })
     listeners.resize[0]()
     expect(document.documentElement.style.getPropertyValue(CHROME_VV_SCALE_VAR)).toBe('2')
   })
 
   it('teardown removes listeners and clears css variables', function() {
     initChromeZoomGuard()
-    visualViewport.scale = 1.25
+    setWindowMetrics({
+      devicePixelRatio: 1.25,
+      innerWidth: 960,
+      outerWidth: 1280,
+    })
     updateChromeViewportScale()
     teardownChromeZoomGuard()
     expect(listeners.resize.length).toBe(0)
@@ -162,7 +195,7 @@ describe('chromeZoomGuard', function() {
     expect(addSpy).toHaveBeenCalledWith('touchmove', expect.any(Function), { passive: false })
   })
 
-  it('prevents pinch touchmove on chrome targets on mobile', function() {
+  it('prevents two-finger touchmove anywhere on mobile', function() {
     isMobilePlatform.mockReturnValue(true)
     let touchMoveHandler = null
     jest.spyOn(document, 'addEventListener').mockImplementation(function(type, handler, options) {
@@ -173,17 +206,27 @@ describe('chromeZoomGuard', function() {
     initChromeZoomGuard()
     expect(touchMoveHandler).not.toBeNull()
 
-    const header = document.createElement('header')
-    header.className = 'App-header'
-    document.body.appendChild(header)
-
     const preventDefault = jest.fn()
     touchMoveHandler({
       touches: [{}, {}],
-      target: header,
+      target: document.body,
       preventDefault,
     })
     expect(preventDefault).toHaveBeenCalled()
-    document.body.removeChild(header)
+
+    const singleTouchPrevent = jest.fn()
+    touchMoveHandler({
+      touches: [{}],
+      target: document.body,
+      preventDefault: singleTouchPrevent,
+    })
+    expect(singleTouchPrevent).not.toHaveBeenCalled()
+  })
+
+  it('cancels Safari gesture events on every platform', function() {
+    const addSpy = jest.spyOn(document, 'addEventListener')
+    initChromeZoomGuard()
+    expect(addSpy).toHaveBeenCalledWith('gesturestart', expect.any(Function), { passive: false })
+    expect(addSpy).not.toHaveBeenCalledWith('touchmove', expect.any(Function), { passive: false })
   })
 })

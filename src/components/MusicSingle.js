@@ -61,7 +61,7 @@ import TimedLyricsChordsView from './TimedLyricsChordsView'
 import LyricsStructureSyncPanel from './LyricsStructureSyncPanel'
 import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
-import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
+import { tuneHasExplicitChords, tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
 import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue'
 import { shouldSyncViewedTuneToMediaController } from '../playbackNavigationUtils'
@@ -83,6 +83,14 @@ import useTuneSnapshotRouteSync, { applyTuneSnapshotFromSearchParams } from '../
 import { ensurePlainWordsFromNoteAlignedLyrics } from '../wLinesUtils'
 import { isMobilePlatform } from '../platformUtils'
 import useMusicToolbarWidth from '../useMusicToolbarWidth'
+import usePublishedElementHeight from '../usePublishedElementHeight'
+import usePinchZoomSteps from '../usePinchZoomSteps'
+import {
+  PINCH_TARGET_FILE,
+  PINCH_TARGET_LYRICS,
+  PINCH_TARGET_NOTATION_FIT,
+  resolvePinchZoomTarget,
+} from '../pinchZoomTarget'
 import { isMusicToolbarCompact, isMusicToolbarFolded } from '../musicToolbarLayout'
 import { getTune as getTuneFromRepository } from '../tuneRepository'
 import ScratchpadWorkspacePickerModal from './scratchpad/ScratchpadWorkspacePickerModal'
@@ -139,6 +147,10 @@ function MusicSingleSection(props) {
     const toolbarRef = useRef(null)
     const lastNotationChordRef = useRef('')
     const toolbarContainerWidth = useMusicToolbarWidth(toolbarRef)
+    usePublishedElementHeight(toolbarRef, {
+      varName: '--music-buttons-measured-height',
+      host: function(node) { return node.parentElement },
+    })
     const audioPlayer = useRef(); 
     const { available: resolverAvailable } = useMediaResolverHealth()
     
@@ -331,6 +343,7 @@ function MusicSingleSection(props) {
         getTuneFromRepository(tuneId).then(function(loaded) {
             if (cancelled) return
             if (loaded) {
+                setupTuneView(loaded)
                 setTune(applyTuneSnapshotFromSearchParams(loaded, isActive ? searchParams : { get: function() { return null } }))
                 setTuneLoadState('ready')
                 const mc = mediaControllerRef.current
@@ -550,6 +563,52 @@ function MusicSingleSection(props) {
           })
       }
     });  
+    const swipeRef = handlers.ref
+    const [sectionRootEl, setSectionRootEl] = useState(null)
+    const setSectionRoot = useCallback(function(el) {
+      setSectionRootEl(el)
+      swipeRef(el)
+    }, [swipeRef])
+
+    // Refreshed every render with the current view so pinch steps hit the right zoom.
+    const pinchRouteRef = useRef(null)
+    const pinchSessionRef = useRef({ lyricsZoom: null, fitApplied: false })
+    usePinchZoomSteps({
+      target: sectionRootEl,
+      isEligibleTarget: function(target) {
+        return !(target && target.closest && target.closest('.music-buttons, .modal'))
+      },
+      onStep: function(direction) {
+        const route = pinchRouteRef.current
+        if (!route) return
+        const session = pinchSessionRef.current
+        if (route.target === PINCH_TARGET_FILE) {
+          setFileViewZoom(function(z) { return clampFileViewZoom(z + 0.1 * direction) })
+        } else if (route.target === PINCH_TARGET_LYRICS) {
+          if (route.fitHeightOn && !session.fitApplied) {
+            // Fit-height sizes lyrics itself; only pinching out leaves it.
+            if (direction < 0) return
+            route.setNotationFit(NOTATION_FIT_HORIZONTAL)
+            session.fitApplied = true
+          }
+          const base = session.lyricsZoom != null ? session.lyricsZoom : route.lyricsZoom
+          const next = clampGigZoom(base + 0.1 * direction)
+          session.lyricsZoom = next
+          setLyricsZoom(next)
+        } else if (route.target === PINCH_TARGET_NOTATION_FIT) {
+          if (session.fitApplied) return
+          session.fitApplied = true
+          const mode = direction < 0 ? NOTATION_FIT_VERTICAL : NOTATION_FIT_HORIZONTAL
+          if (mode !== route.notationFitMode) route.setNotationFit(mode)
+        }
+      },
+      onEnd: function() {
+        const route = pinchRouteRef.current
+        const session = pinchSessionRef.current
+        if (route && session.lyricsZoom != null) route.persistLyricsZoom(session.lyricsZoom)
+        pinchSessionRef.current = { lyricsZoom: null, fitApplied: false }
+      },
+    })
     
     
     
@@ -593,7 +652,10 @@ function MusicSingleSection(props) {
     
 
     function setupTune() {
-        let tune = props.tunes ? props.tunes[sectionTuneId] : null
+        setupTuneView(props.tunes ? props.tunes[sectionTuneId] : null)
+    }
+
+    function setupTuneView(tune) {
         if (tune) {
            applyTuneDisplaySettings(tune)
            setFileViewZoom(1)
@@ -602,7 +664,10 @@ function MusicSingleSection(props) {
                if (isActive) props.setViewMode(tune.viewMode)
            } else {
                const hasChordsForDefault = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
-               const defaultMode = defaultViewModeForTune(tune, props.tunebook, { hasChords: hasChordsForDefault })
+               const defaultMode = defaultViewModeForTune(tune, props.tunebook, {
+                   hasChords: hasChordsForDefault,
+                   hasLyricInlineChords: tuneHasLyricEmbeddedChords(tune),
+               })
                // Defaulted-to-notation tunes should also default to fit-height.
                if (tune.notationFit !== NOTATION_FIT_VERTICAL && tune.notationFit !== NOTATION_FIT_HORIZONTAL && showsMusicNotation(defaultMode)) {
                    setNotationFitModeState(NOTATION_FIT_VERTICAL)
@@ -970,7 +1035,10 @@ function MusicSingleSection(props) {
                 function handleNotationFitModeChange(mode) {
                   const next = setNotationFitMode(mode)
                   setNotationFitModeState(next)
-                  persistDisplayPatch({ notationFit: next, viewMode: props.viewMode })
+                  // Keep an unchosen default view mode unsaved so later default rules still apply.
+                  persistDisplayPatch(tune.viewMode
+                    ? { notationFit: next, viewMode: props.viewMode }
+                    : { notationFit: next })
                 }
 
                 function handleViewModeChange(val) {
@@ -986,6 +1054,18 @@ function MusicSingleSection(props) {
 
                 function handleFileViewZoomChange(next) {
                   setFileViewZoom(clampFileViewZoom(next))
+                }
+
+                pinchRouteRef.current = {
+                  target: resolvePinchZoomTarget(viewFlags, {
+                    fileOverlayActive: fileOverlayActive,
+                    pdfSnapshotActive: pdfSnapshotActive,
+                  }),
+                  fitHeightOn: fitHeightOn,
+                  notationFitMode: notationFitMode,
+                  lyricsZoom: lyricsZoom,
+                  setNotationFit: handleNotationFitModeChange,
+                  persistLyricsZoom: handleLyricsZoomChange,
                 }
 
                 function fixLinks(tune,index,field,startOrEnd) {
@@ -1341,6 +1421,7 @@ function MusicSingleSection(props) {
                   }
                   style={{border:'1px solid black'}}
                   {...handlers}
+                  ref={setSectionRoot}
                   onClickCapture={pageStackMode && !isActive ? function() { activateThisSection() } : undefined}
                 >
                         {pageStackMode ? (

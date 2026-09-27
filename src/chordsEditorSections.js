@@ -200,12 +200,22 @@ function sectionKeyForIndex(index, type, header) {
   return base + '-' + index
 }
 
+// Blocks built from notation carry lyric labels as lyricSectionType/Header only;
+// keys must match chordBlockMerge or key lookups after reindex silently miss.
+function sectionKeyForSection(index, section) {
+  return sectionKeyForIndex(
+    index,
+    section.type || section.lyricSectionType,
+    section.header || section.lyricSectionHeader
+  )
+}
+
 /** Reassign positional section keys after header/type edits. */
 export function reindexChordsEditorSectionKeys(sections) {
   return (Array.isArray(sections) ? sections : []).map(function(section, index) {
     if (!section) return section
     return Object.assign({}, section, {
-      key: sectionKeyForIndex(index, section.type, section.header),
+      key: sectionKeyForSection(index, section),
       startLine: index,
     })
   })
@@ -734,7 +744,7 @@ export function reorderChordsEditorSections(sections, fromIndex, toIndex) {
   return list.map(function(section, index) {
     if (!section) return section
     return Object.assign({}, section, {
-      key: sectionKeyForIndex(index, section.type, section.header),
+      key: sectionKeyForSection(index, section),
     })
   })
 }
@@ -820,7 +830,7 @@ export function insertChordsEditorSectionAfter(sections, afterKey, name, default
   return list.map(function(section, index) {
     if (!section) return section
     return Object.assign({}, section, {
-      key: sectionKeyForIndex(index, section.type, section.header),
+      key: sectionKeyForSection(index, section),
       startLine: index,
     })
   })
@@ -850,7 +860,7 @@ export function removeChordsEditorSection(sections, sectionKey) {
   return list.map(function(section, i) {
     if (!section) return section
     return Object.assign({}, section, {
-      key: sectionKeyForIndex(i, section.type, section.header),
+      key: sectionKeyForSection(i, section),
       startLine: i,
     })
   })
@@ -1208,7 +1218,7 @@ export function renameChordsEditorSection(sections, sectionKey, newName, lyricLi
     sections: list.map(function(section, i) {
       if (!section) return section
       return Object.assign({}, section, {
-        key: sectionKeyForIndex(i, section.type, section.header),
+        key: sectionKeyForSection(i, section),
         startLine: i,
       })
     }),

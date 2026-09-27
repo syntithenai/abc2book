@@ -8,7 +8,7 @@ import MarkdownContent from './MarkdownContent';
 import useAbcjsParser from '../useAbcjsParser';
 import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
-import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
+import { tuneHasExplicitChords, tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay';
 import {
   viewModeToDisplayFlags,
   resolveDisplayFlagsForTune,
@@ -46,7 +46,10 @@ export function TuneSingleViewContent(props) {
 
   const viewMode = useMemo(function() {
     if (!tune) return 'music';
-    return tune.viewMode || defaultViewModeForTune(tune, tunebook, { hasChords: hasChords });
+    return tune.viewMode || defaultViewModeForTune(tune, tunebook, {
+      hasChords: hasChords,
+      hasLyricInlineChords: tuneHasLyricEmbeddedChords(tune),
+    });
   }, [tune, tunebook, hasChords]);
 
   const viewFlags = useMemo(function() {

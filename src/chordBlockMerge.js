@@ -9,6 +9,7 @@ import {
 } from './lyricBarAlignmentUtils'
 import {
   splitMelodyStrainsWithBarlines,
+  splitMelodyNoteLinesByStrain,
   strainJoinSeparator,
   countFullBarsInMelodyStrain,
   isVoltaContinuationAfterRepeatEnd,
@@ -1421,6 +1422,45 @@ export function chordBlockCacheMatchesMelody(noteLines, cacheBlocks) {
     if (chartBars !== strainBars) return false
   }
   return true
+}
+
+/**
+ * Drop one melody strain from primary-voice note lines (chords editor Delete on
+ * a real melody). Keeps per-line layout when strains end on line boundaries;
+ * otherwise rejoins the remaining strains on one line.
+ * @returns {string[]|null} null when the strain cannot be removed
+ */
+export function removeMelodyStrainFromNoteLines(noteLines, strainIndex) {
+  const lines = Array.isArray(noteLines) ? noteLines : []
+  const melody = noteLinesForMelodyMerge(lines)
+  const strains = splitMelodyStrainsWithBarlines(melody)
+  const idx = Number(strainIndex)
+  if (!Number.isInteger(idx) || idx < 0 || idx >= strains.length || strains.length < 2) {
+    return null
+  }
+  const kept = strains.filter(function(_, i) { return i !== idx })
+
+  const lineGroups = splitMelodyNoteLinesByStrain(melody)
+  if (lineGroups.length === strains.length) {
+    const body = [].concat.apply([], lineGroups.filter(function(_, i) { return i !== idx }))
+    const check = splitMelodyStrainsWithBarlines(body)
+    const sameStrains = check.length === kept.length && check.every(function(s, i) {
+      return s.text === kept[i].text
+        && s.startBarline === kept[i].startBarline
+        && s.endBarline === kept[i].endBarline
+    })
+    if (sameStrains) return mergeNoteLinesWithVoicePrefixes(lines, body)
+  }
+
+  let text = (kept[0].startBarline === '|:' ? '|: ' : '') + kept[0].text
+  for (let i = 1; i < kept.length; i++) {
+    text += strainJoinSeparator(kept[i - 1], kept[i]) + kept[i].text
+  }
+  const end = kept[kept.length - 1].endBarline
+  if (end && !/(\|\||:\||\|\])\s*$/.test(text)) {
+    text += (end === ':|:' || end === '::') ? ' :|' : ' ||'
+  }
+  return mergeNoteLinesWithVoicePrefixes(lines, [text])
 }
 
 /**

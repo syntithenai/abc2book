@@ -56,7 +56,9 @@ import {
   readChordBlockCache,
   reconcileBlocksFromGrid,
   reanchorEditorBlocksToMelody,
+  removeMelodyStrainFromNoteLines,
   splitChordGridAcrossMelodyStrains,
+  splitMelodyStrainsWithBarlines,
   syncChordSectionLabelsFromPrimaryVoice,
   writeChordBlockCache,
   chordNoteLinesFromTune,
@@ -476,6 +478,16 @@ export default function ChordsWizard(props) {
 
   function commitSectionsTransaction(nextSections, options) {
     const opts = options || {}
+    let restorePrimaryNotes = null
+    if (Array.isArray(opts.primaryNotes) && tune && tune.voices) {
+      const voiceKey = resolvePrimaryVoiceKey(tune.voices)
+      const voice = tune.voices[voiceKey]
+      if (voice) {
+        const previousNotes = voice.notes
+        voice.notes = opts.primaryNotes.slice()
+        restorePrimaryNotes = function() { voice.notes = previousNotes }
+      }
+    }
     const currentAbc = currentAbcString()
     const notesBefore = primaryNoteLines()
     const anchoredSections = reanchorEditorBlocksToMelody(notesBefore, nextSections)
@@ -522,6 +534,7 @@ export default function ChordsWizard(props) {
     })
 
     if (!result.ok) {
+      if (restorePrimaryNotes) restorePrimaryNotes()
       const targetKey = warningTargetKeyForFailure(
         nextSections,
         result.error,
@@ -627,11 +640,17 @@ export default function ChordsWizard(props) {
     setNewSectionName('')
   }
 
+  // sectionsWithDrafts reindexes keys, so map a rendered section key by position.
+  function draftedKeyFor(drafted, sectionKey) {
+    const index = sections.findIndex(function(s) { return s && s.key === sectionKey })
+    return index >= 0 && drafted[index] ? drafted[index].key : sectionKey
+  }
+
   function confirmAddSection() {
     if (!addSectionDialog) return
-    const afterKey = addSectionDialog.afterKey
     const name = String(newSectionName || '').trim() || ('Section ' + (sections.length + 1))
     const base = sectionsWithDrafts(sections, sectionDrafts).sections
+    const afterKey = addSectionDialog.afterKey ? draftedKeyFor(base, addSectionDialog.afterKey) : null
     const next = insertChordsEditorSectionAfter(
       base,
       afterKey,
@@ -660,13 +679,40 @@ export default function ChordsWizard(props) {
   function deleteSection(section) {
     if (!section) return
     const title = section.title || 'this section'
-    if (typeof window !== 'undefined' && window.confirm) {
-      if (!window.confirm('Delete section "' + title + '"?')) return
-    }
-    const next = removeChordsEditorSection(
-      sectionsWithDrafts(sections, sectionDrafts).sections,
-      section.key
+    const noteLines = primaryNoteLines()
+    const base = reanchorEditorBlocksToMelody(
+      noteLines,
+      sectionsWithDrafts(sections, sectionDrafts).sections
     )
+    const removedKey = draftedKeyFor(base, section.key)
+    const removed = base.find(function(s) { return s && s.key === removedKey })
+    if (!removed) return
+    let next = removeChordsEditorSection(base, removedKey)
+    // Scaffold saves rebuild notation from the section list; a real melody keeps
+    // every strain, so the deleted section's bars must be cut from the notes or
+    // the section is re-extracted on the next load.
+    let primaryNotes = null
+    const hasRealMelody = noteLinesHaveRealMelody(noteLinesForMelodyMerge(noteLines)) && !tune.timingScaffold
+    if (hasRealMelody && removed && !removed.chartRevisit) {
+      const strainCount = splitMelodyStrainsWithBarlines(noteLines).length
+      if (editableSectionsList(next).length < strainCount) {
+        primaryNotes = removeMelodyStrainFromNoteLines(noteLines, removed.melodyStrainIndex)
+        if (!primaryNotes) {
+          toast.warning('Could not remove this section\'s bars from the notation.')
+          return
+        }
+        next = next.map(function(s) {
+          if (!s || s.melodyStrainIndex == null || s.melodyStrainIndex <= removed.melodyStrainIndex) return s
+          return Object.assign({}, s, { melodyStrainIndex: s.melodyStrainIndex - 1 })
+        })
+      }
+    }
+    if (typeof window !== 'undefined' && window.confirm) {
+      const prompt = primaryNotes
+        ? 'Delete section "' + title + '" and its bars from the notation?'
+        : 'Delete section "' + title + '"?'
+      if (!window.confirm(prompt)) return
+    }
     setSectionDrafts(function(prev) {
       const copy = Object.assign({}, prev)
       delete copy[section.key]
@@ -674,7 +720,7 @@ export default function ChordsWizard(props) {
     })
     saveSectionsTransaction(next, {
       historyLabel: 'Delete chord section',
-      rebuildScaffold: !noteLinesHaveRealMelody(noteLinesForMelodyMerge(primaryNoteLines())) || !!tune.timingScaffold,
+      primaryNotes: primaryNotes,
     })
   }
 
@@ -736,9 +782,10 @@ export default function ChordsWizard(props) {
 
   function handleKeyChange(section, nextKey) {
     if (!section || !nextKey) return
+    const drafted = sectionsWithDrafts(sections, sectionDrafts).sections
     const next = replaceSectionKey(
-      sectionsWithDrafts(sections, sectionDrafts).sections,
-      section.key,
+      drafted,
+      draftedKeyFor(drafted, section.key),
       nextKey
     )
     setSections(next)
@@ -749,9 +796,10 @@ export default function ChordsWizard(props) {
   function handleMeterChange(section, nextMeter) {
     if (!section || !nextMeter) return
     const noteLength = tune.noteLength || '1/8'
+    const drafted = sectionsWithDrafts(sections, sectionDrafts).sections
     const result = replaceSectionMeter(
-      sectionsWithDrafts(sections, sectionDrafts).sections,
-      section.key,
+      drafted,
+      draftedKeyFor(drafted, section.key),
       nextMeter,
       noteLength
     )
@@ -767,9 +815,10 @@ export default function ChordsWizard(props) {
 
   function handleTempoChange(section, nextTempo) {
     if (!section || !(nextTempo > 0)) return
+    const drafted = sectionsWithDrafts(sections, sectionDrafts).sections
     const next = replaceSectionTempo(
-      sectionsWithDrafts(sections, sectionDrafts).sections,
-      section.key,
+      drafted,
+      draftedKeyFor(drafted, section.key),
       nextTempo
     )
     setSections(next)

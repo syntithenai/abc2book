@@ -1,5 +1,5 @@
-import { useEffect } from 'react'
 import { anchorZoomScroll } from './scratchpadWaveformZoom'
+import usePinchZoomSteps from './usePinchZoomSteps'
 
 function isInsideWaveformColumn(target, wrapEl) {
   if (!target || !wrapEl) return false
@@ -17,97 +17,24 @@ export default function useScratchpadWaveformZoom(options) {
   const playlistRef = options.playlistRef
   const onZoom = options.onZoom
 
-  useEffect(function() {
-    const wrapEl = wrapRef && wrapRef.current
-    if (!wrapEl) return undefined
-
-    let pinchStartDist = 0
-    let pinchZoomSteps = 0
-    const pointers = {}
-
-    function emitZoom(direction, clientX) {
+  usePinchZoomSteps({
+    targetRef: wrapRef,
+    wheelMode: 'always',
+    isEligibleTarget: function(target) {
+      return isInsideWaveformColumn(target, wrapRef && wrapRef.current)
+    },
+    onStep: function(direction, point) {
       const ee = eeRef && eeRef.current
       const playlist = playlistRef && playlistRef.current
       const editorEl = editorRef && editorRef.current
       if (!ee || !playlist) return
       const prev = playlist.samplesPerPixel
-      if (direction < 0) ee.emit('zoomin')
+      if (direction > 0) ee.emit('zoomin')
       else ee.emit('zoomout')
-      if (editorEl && typeof clientX === 'number') {
-        anchorZoomScroll(playlist, editorEl, clientX, prev)
+      if (editorEl && point && typeof point.clientX === 'number') {
+        anchorZoomScroll(playlist, editorEl, point.clientX, prev)
       }
       if (onZoom) onZoom()
-    }
-
-    function onWheel(e) {
-      if (!isInsideWaveformColumn(e.target, wrapEl)) return
-      const horizontalDominant = Math.abs(e.deltaX) > Math.abs(e.deltaY)
-      if (horizontalDominant && !e.ctrlKey && !e.metaKey) return
-      e.preventDefault()
-      const delta = e.deltaY !== 0 ? e.deltaY : e.deltaX
-      emitZoom(delta, e.clientX)
-    }
-
-    function pointerDistance(a, b) {
-      const dx = a.x - b.x
-      const dy = a.y - b.y
-      return Math.sqrt(dx * dx + dy * dy)
-    }
-
-    function onPointerDown(e) {
-      if (!isInsideWaveformColumn(e.target, wrapEl)) return
-      if (e.pointerType !== 'touch') return
-      pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
-      const ids = Object.keys(pointers)
-      if (ids.length === 2) {
-        const a = pointers[ids[0]]
-        const b = pointers[ids[1]]
-        pinchStartDist = pointerDistance(a, b)
-        pinchZoomSteps = 0
-      }
-    }
-
-    function onPointerMove(e) {
-      if (!pointers[e.pointerId]) return
-      pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
-      const ids = Object.keys(pointers)
-      if (ids.length !== 2 || pinchStartDist <= 0) return
-      e.preventDefault()
-      const a = pointers[ids[0]]
-      const b = pointers[ids[1]]
-      const dist = pointerDistance(a, b)
-      const ratio = dist / pinchStartDist
-      const steps = Math.round(Math.log(ratio) / Math.log(1.12))
-      while (steps > pinchZoomSteps) {
-        emitZoom(-1, (a.x + b.x) / 2)
-        pinchZoomSteps += 1
-      }
-      while (steps < pinchZoomSteps) {
-        emitZoom(1, (a.x + b.x) / 2)
-        pinchZoomSteps -= 1
-      }
-    }
-
-    function onPointerUp(e) {
-      delete pointers[e.pointerId]
-      if (Object.keys(pointers).length < 2) {
-        pinchStartDist = 0
-        pinchZoomSteps = 0
-      }
-    }
-
-    wrapEl.addEventListener('wheel', onWheel, { passive: false })
-    wrapEl.addEventListener('pointerdown', onPointerDown, { passive: true })
-    wrapEl.addEventListener('pointermove', onPointerMove, { passive: false })
-    wrapEl.addEventListener('pointerup', onPointerUp, { passive: true })
-    wrapEl.addEventListener('pointercancel', onPointerUp, { passive: true })
-
-    return function() {
-      wrapEl.removeEventListener('wheel', onWheel)
-      wrapEl.removeEventListener('pointerdown', onPointerDown)
-      wrapEl.removeEventListener('pointermove', onPointerMove)
-      wrapEl.removeEventListener('pointerup', onPointerUp)
-      wrapEl.removeEventListener('pointercancel', onPointerUp)
-    }
-  }, [wrapRef, editorRef, eeRef, playlistRef, onZoom])
+    },
+  })
 }
