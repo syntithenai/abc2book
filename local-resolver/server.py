@@ -134,6 +134,31 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 
 app = FastAPI()
 
+from local_service_auth import (
+    is_local_service_call,
+    is_local_service_request,
+    local_service_identity,
+    mark_local_service_request,
+    reset_local_service_request,
+)
+
+
+@app.middleware("http")
+async def local_service_auth_middleware(request: Request, call_next):
+    marker = mark_local_service_request(
+        is_local_service_call(
+            request.headers.get("authorization"),
+            request.client.host if request.client else "",
+            request.headers,
+            request.url.path,
+        )
+    )
+    try:
+        return await call_next(request)
+    finally:
+        reset_local_service_request(marker)
+
+
 from allowlists import (
     email_allowed,
     load_admin_contact_email,
@@ -1001,11 +1026,15 @@ async def require_auth(authorization):
 async def maybe_require_auth(authorization):
     if not REQUIRE_AUTH:
         return None
+    if is_local_service_request():
+        return local_service_identity()
     return await require_auth(authorization)
 
 
 async def require_music_collection_access(authorization):
     """Music collection: dedicated list; independent of resolver access."""
+    if is_local_service_request():
+        return local_service_identity()
     token = get_bearer_token(authorization)
     if MUSIC_COLLECTION_EMAILS or REQUIRE_AUTH:
         if not token:
