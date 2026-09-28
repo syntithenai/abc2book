@@ -91,6 +91,7 @@ from europeana import (
 )
 from snapcast_config import snapcast_enabled, snapcast_server_host
 from snapcast_routes import register_snapcast_routes, snapcast_feature_enabled
+from tunebook_sync import register_tunebook_sync_routes
 from cast_routes import cast_feature_enabled, register_cast_routes
 from loc_audio import (
     build_loc_audio_candidate,
@@ -1808,6 +1809,7 @@ register_snapcast_routes(
     resolve_ytdlp_proxy_from_request=resolve_ytdlp_proxy_from_request,
     snapcast_server_host=snapcast_server_host(),
 )
+register_tunebook_sync_routes(app, maybe_require_auth=maybe_require_auth, cors_headers=cors_headers)
 
 register_cast_routes(
     app,

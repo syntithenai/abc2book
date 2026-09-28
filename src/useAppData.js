@@ -7,6 +7,7 @@ import { loadActiveQueue, persistActiveQueue, normalizeQueuePlaybackModes } from
 import { isAndroidApp } from './platformUtils'
 import { readSearchFilterParamsFromHash } from './searchFilterParams'
 import { shouldRefuseTunesPersist } from './tunesPersistenceGuard'
+import { scheduleTunebookVoiceSync } from './tunebookVoiceSync'
 import {
   applyTuneDisplaySettingsToBook,
   persistableTuneWithoutDisplaySettings,
@@ -286,6 +287,7 @@ export default function useAppData() {
       return
     }
     utils.saveLocalforageObject('bookstorage_tunes', bookForPersistence(pendingTunesSaveRef.current))
+    scheduleTunebookVoiceSync(pendingTunesSaveRef.current)
     pendingTunesSaveRef.current = null
   }
 
@@ -330,6 +332,7 @@ export default function useAppData() {
         tunesHydratedRef.current = true
         setTunesHydrated(true)
         forceRefresh()
+        scheduleTunebookVoiceSync(loaded)
       })
       utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(t) {
         setDeletedTunesInner(t || {})

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import logging
 import os
 from typing import Any, Awaitable, Callable
@@ -36,6 +37,25 @@ def snapcast_feature_enabled() -> bool:
     return snapcast_enabled() and ffmpeg_available()
 
 
+async def known_duration(duration: float, input_path: str) -> float:
+    """Client-supplied duration, else ffprobe's (YouTube items arrive without one).
+
+    Clients that auto-advance the queue need a duration to tell a finished track from a paused one.
+    """
+    if duration > 0 or not input_path:
+        return duration
+    try:
+        proc = await asyncio.create_subprocess_exec(
+            "ffprobe", "-v", "error", "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1", input_path,
+            stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.DEVNULL,
+        )
+        stdout, _ = await asyncio.wait_for(proc.communicate(), timeout=10)
+        return max(0.0, float(stdout.decode("utf-8", "ignore").strip() or 0))
+    except Exception:
+        return 0.0
+
+
 async def advance_snapcast_session_queue(
     session_id: str,
     *,
@@ -63,7 +83,7 @@ async def advance_snapcast_session_queue(
         session_id,
         input_path=input_path,
         source=next_item.source,
-        duration=next_item.duration,
+        duration=await known_duration(next_item.duration, input_path),
         title=next_item.title,
         artist=next_item.artist,
         input_is_temp=input_is_temp,
@@ -205,6 +225,7 @@ def register_snapcast_routes(
             duration = float(body.get("duration") or 0)
             if duration <= 0:
                 duration = max(0.0, float(body.get("durationSeconds") or 0))
+            duration = await known_duration(duration, input_path)
             queue = parse_queue_items(body)
             if not queue:
                 queue = [
