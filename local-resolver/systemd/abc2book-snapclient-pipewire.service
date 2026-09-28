@@ -1,0 +1,15 @@
+[Unit]
+Description=Reattach abc2book snapclient container to the host PipeWire socket
+# Started with pipewire.socket (login/boot) and restarted whenever it restarts, which is
+# exactly when the socket file (and so the container's bind mount) is replaced.
+After=pipewire.socket
+PartOf=pipewire.socket
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=%h/projects/abc2book/local-resolver/scripts/ensure-snapclient-pipewire.sh
+TimeoutStartSec=180
+
+[Install]
+WantedBy=pipewire.socket

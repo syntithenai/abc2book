@@ -415,12 +415,28 @@ services:
       - /dev/snd:/dev/snd
     group_add:
       - audio
+    # Optional: play through the host's PipeWire (mixes with other desktop audio and follows the
+    # default output) instead of opening an ALSA card directly. Set in .env:
+    #   SNAPCLIENT_PIPEWIRE_SOCKET=/run/user/1000/pipewire-0
+    #   SNAPCLIENT_EXTRA_ARGS=--player pipewire
+    # The socket is bind-mounted by inode; scripts/install-snapclient-pipewire-systemd.sh installs a
+    # user unit that restarts this container whenever pipewire.socket is recreated.
+    # create_host_path: false stops Docker creating a root-owned directory at the socket path if
+    # the container starts before the user session at boot (the unit starts it afterwards).
+    volumes:
+      - type: bind
+        source: "${SNAPCLIENT_PIPEWIRE_SOCKET:-/dev/null}"
+        target: /run/host-pipewire/pipewire-0
+        bind:
+          create_host_path: false
     environment:
       SNAPCLIENT_ENABLED: "${SNAPCLIENT_ENABLED:-true}"
       SNAPSERVER_HOST: "${SNAPCAST_SERVER_HOST:-snapserver}"
       SNAPSERVER_PORT: "${SNAPCAST_CLIENT_PORT:-1704}"
       SNAPCLIENT_HOSTNAME: "${SNAPCLIENT_HOSTNAME:-resolver-host}"
       SNAPCLIENT_SOUNDCARD: "${SNAPCLIENT_SOUNDCARD:-default}"
+      SNAPCLIENT_EXTRA_ARGS: "${SNAPCLIENT_EXTRA_ARGS:-}"
+      XDG_RUNTIME_DIR: /run/host-pipewire
     restart: unless-stopped
 
   # Stripe PayPal Custom Payment Method adapter (after Stripe approval).

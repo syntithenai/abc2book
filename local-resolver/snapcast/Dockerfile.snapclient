@@ -18,6 +18,8 @@ RUN apt-get update \
   && deb="snapclient_${SNAPCAST_VERSION}-1_${deb_arch}_bookworm_with-pipewire.deb" \
   && curl -fsSL "https://github.com/badaix/snapcast/releases/download/v${SNAPCAST_VERSION}/${deb}" -o "/tmp/${deb}" \
   && apt-get install -y "/tmp/${deb}" \
+  && apt-get install -y --no-install-recommends pipewire-bin \
+  && test -f /usr/share/pipewire/client.conf \
   && rm -rf /var/lib/apt/lists/* "/tmp/${deb}"
 
 COPY snapclient-entrypoint.sh /usr/local/bin/snapclient-entrypoint.sh
