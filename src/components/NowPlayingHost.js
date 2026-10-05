@@ -5,6 +5,7 @@ import {
   isQueueActive,
   isRepeatTrack,
   getCurrentItem,
+  getMidiPreference,
   resolvePlaybackForItem,
 } from '../nowPlayingQueue'
 import {
@@ -119,6 +120,7 @@ export default function NowPlayingHost(props) {
         isQueueActive: isQueueActive,
         resolvePlaybackForItem: resolvePlaybackForItem,
         nowPlayingExpanded: !!props.nowPlayingExpanded,
+        midiPreference: getMidiPreference(queue),
       }
     )
   }, [

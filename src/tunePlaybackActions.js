@@ -478,11 +478,12 @@ export function resumePlaylistPlayback(mediaController, tunebook, navigate, queu
             navigateToQueueTune(navigate, tuneId, item, tunebook, tunes, null, navOptsForPrefer)
         }
         const preferMidi = isPreferMidi(queue)
+        const skipMidi = getMidiPreference(queue) === MIDI_PREFERENCE.SKIP
         const onMidi = mediaController
           && mediaController.isMidiPlaybackRoute
           && mediaController.isMidiPlaybackRoute()
-        // When MIDI preference is Prefer, start MIDI instead of resuming a media route.
-        if (preferMidi && !onMidi) {
+        // Prefer starts MIDI instead of resuming media; Skip starts media instead of resuming MIDI.
+        if ((preferMidi && !onMidi) || (skipMidi && onMidi)) {
             return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
         }
         if (mediaController && mediaController.canResumePlayback && mediaController.canResumePlayback()) {

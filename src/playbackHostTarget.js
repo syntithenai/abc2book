@@ -73,10 +73,15 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
     return { type: 'midi' }
   }
 
+  const midiPreference = h.midiPreference || null
+  const skipMidi = midiPreference === 'skip'
+
   // Queue item only when the active route has not already chosen an engine.
   if (isQueueActiveFn(queue) && currentItem
     && playingTune && currentItem.tuneId === playingTune.id) {
-    return resolvePlaybackForItemFn(playingTune, currentItem, tunebook)
+    return resolvePlaybackForItemFn(playingTune, currentItem, tunebook, {
+      midiPreference: midiPreference || undefined,
+    })
   }
 
   if (hasMusic && hasLinks && hasFilteredPlaybackVoices(playingTune)
@@ -110,12 +115,16 @@ export function resolveHostPlaybackTarget(mediaController, playingTune, tunebook
   }
 
   if (h.nowPlayingExpanded) {
-    if (hasMusic) {
+    const midiFirst = !midiPreference || midiPreference === 'prefer'
+    if (midiFirst && hasMusic) {
       return { type: 'midi' }
     }
     if (hasLinks) {
       const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
       return { type: 'media', linkNum: linkNum }
+    }
+    if (hasMusic && !skipMidi) {
+      return { type: 'midi' }
     }
   }
 

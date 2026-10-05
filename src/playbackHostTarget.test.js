@@ -278,6 +278,68 @@ describe('resolveHostPlaybackTarget', function() {
     )
     expect(target).toEqual({ type: 'midi' })
   })
+
+  test('expanded mini player uses media links when MIDI preference is skip', function() {
+    const target = resolveHostPlaybackTarget(
+      {},
+      tune,
+      tunebook,
+      null,
+      null,
+      null,
+      { nowPlayingExpanded: true, midiPreference: 'skip' }
+    )
+    expect(target).toEqual({ type: 'media', linkNum: 0 })
+  })
+
+  test('expanded mini player does not fall back to midi when skip and no links', function() {
+    const target = resolveHostPlaybackTarget(
+      {},
+      makeTune('no-links'),
+      tunebook,
+      null,
+      null,
+      null,
+      { nowPlayingExpanded: true, midiPreference: 'skip' }
+    )
+    expect(target).toBeNull()
+  })
+
+  test('expanded mini player prefers midi when MIDI preference is prefer', function() {
+    const target = resolveHostPlaybackTarget(
+      {},
+      tune,
+      tunebook,
+      null,
+      null,
+      null,
+      { nowPlayingExpanded: true, midiPreference: 'prefer' }
+    )
+    expect(target).toEqual({ type: 'midi' })
+  })
+
+  test('passes MIDI preference to queue item resolution', function() {
+    const queueItem = { tuneId: tune.id, prefer: 'auto' }
+    const queue = { items: [queueItem], currentIndex: 0 }
+    let seenOptions = null
+    resolveHostPlaybackTarget(
+      {},
+      tune,
+      tunebook,
+      queue,
+      queueItem,
+      null,
+      {
+        isQueueActive: function() { return true },
+        resolvePlaybackForItem: function(t, i, tb, options) {
+          seenOptions = options
+          return { type: 'media', linkNum: 0 }
+        },
+        midiPreference: 'skip',
+      }
+    )
+    expect(seenOptions).toEqual({ midiPreference: 'skip' })
+  })
 })
 
 describe('shouldSkipHostMidiRouteApply', function() {
