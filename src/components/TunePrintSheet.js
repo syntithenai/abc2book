@@ -278,9 +278,7 @@ export default function TunePrintSheet(props) {
     || (lyricsLayout.status === 'ready' && lyricsFitVerified);
   const notationColumnWidth = getPrintNotationColumnWidth(showChordsBlockColumn);
 
-  const useLink = tune && tune.links && tune.links[0] && tune.links[0].link
-    ? tune.links[0].link
-    : '';
+  const useLink = props.qrLink || '';
 
   useEffect(function() {
     if (!useQR || !QRCode || !qrRef.current || !useLink) return;

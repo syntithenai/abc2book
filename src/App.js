@@ -1912,8 +1912,8 @@ function App(props) {
                       <Route  path={`:tuneBook`} element={<CheatSheetPage   tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}   />} />
                     </Route>
                     <Route  path={`print`} >
-                      <Route index element={<PrintPage   tunes={tunes} tunebook={tunebook}  selected={selected} viewMode={viewMode}  />}  />
-                      <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook} selected={selected} selectedCount={selectedCount} viewMode={viewMode}  />} />
+                      <Route index element={<PrintPage   tunes={tunes} tunebook={tunebook}  selected={selected} viewMode={viewMode} googleDocumentId={googleDocumentId}  />}  />
+                      <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook} selected={selected} selectedCount={selectedCount} viewMode={viewMode} googleDocumentId={googleDocumentId}  />} />
                     </Route>
                     <Route  path={`menu`}   element={<MenuPage  tunebook={tunebook}    />}  />
                     <Route  path={`tuner`}   element={<TunerPage  tunebook={tunebook} token={token} login={login} logout={logout}   />}  />

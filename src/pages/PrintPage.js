@@ -9,6 +9,13 @@ import { generateTunesPdf } from '../generateTunesPdf';
 import { useDocumentTitle } from '../pageTitle';
 import SearchProgressBar from '../components/SearchProgressBar';
 import { buildBulkProgressEvent } from '../bulkOperationProgress';
+import {
+  PRINT_QR_TARGET_TUNEBOOK,
+  PRINT_QR_TARGET_YOUTUBE,
+  getSavedPrintQrTarget,
+  printQrLinkForTune,
+  setSavedPrintQrTarget,
+} from '../printQrLink';
 
 function sanitizeFilename(name) {
   const base = String(name || 'tunes').trim() || 'tunes';
@@ -35,6 +42,7 @@ export default function PrintPage(props) {
 
   const [useTunes, setUseTunes] = useState(null);
   const [useQR, setUseQR] = useState(true);
+  const [qrTarget, setQrTarget] = useState(getSavedPrintQrTarget);
   const [hideBackgroundInfo, setHideBackgroundInfo] = useState(true);
   const [show, setShow] = useState(false);
   const [selectedCount, setSelectedCount] = useState(0);
@@ -105,6 +113,25 @@ export default function PrintPage(props) {
     return map;
   }, [useTunes, props.viewMode, props.tunebook, abcjsParser]);
 
+  const qrLinks = useMemo(function() {
+    const map = {};
+    if (!useQR || !useTunes) return map;
+    useTunes.forEach(function(tune) {
+      map[tune.id] = printQrLinkForTune(tune, qrTarget, { googleDocumentId: props.googleDocumentId });
+    });
+    return map;
+  }, [useQR, useTunes, qrTarget, props.googleDocumentId]);
+
+  const qrMissingCount = useMemo(function() {
+    if (!useQR || !useTunes) return 0;
+    return useTunes.filter(function(tune) { return !qrLinks[tune.id]; }).length;
+  }, [useQR, useTunes, qrLinks]);
+
+  function chooseQrTarget(target) {
+    setQrTarget(target);
+    setSavedPrintQrTarget(target);
+  }
+
   const pdfFilename = useMemo(function() {
     return buildPdfFilename(useTunes, params.tuneBook);
   }, [useTunes, params.tuneBook]);
@@ -159,6 +186,42 @@ export default function PrintPage(props) {
                 <Form.Check.Input type="checkbox" checked={!!useQR} onChange={function() { setUseQR(!useQR); }} disabled={generating} />
                 <Form.Check.Label>&nbsp;&nbsp;&nbsp;Add QR code for playable links</Form.Check.Label>
               </Form.Check>
+              {useQR ? (
+                <div className="ms-4 mt-1">
+                  <div className="small text-muted">QR code links to</div>
+                  <Form.Check
+                    inline
+                    type="radio"
+                    name="print-qr-target"
+                    id="print-qr-target-youtube"
+                    label="YouTube video"
+                    checked={qrTarget === PRINT_QR_TARGET_YOUTUBE}
+                    onChange={function() { chooseQrTarget(PRINT_QR_TARGET_YOUTUBE); }}
+                    disabled={generating}
+                  />
+                  <Form.Check
+                    inline
+                    type="radio"
+                    name="print-qr-target"
+                    id="print-qr-target-tunebook"
+                    label="Tune in Tunebook"
+                    checked={qrTarget === PRINT_QR_TARGET_TUNEBOOK}
+                    onChange={function() { chooseQrTarget(PRINT_QR_TARGET_TUNEBOOK); }}
+                    disabled={generating}
+                  />
+                  {qrMissingCount > 0 ? (
+                    <div className="small text-muted">
+                      {qrMissingCount} of {useTunes.length} without a
+                      {qrTarget === PRINT_QR_TARGET_YOUTUBE ? ' YouTube' : ' shareable Tunebook'} link will print with no QR code.
+                    </div>
+                  ) : null}
+                  {qrTarget === PRINT_QR_TARGET_TUNEBOOK && props.googleDocumentId ? (
+                    <div className="small text-muted">
+                      Your own tunes link to your Google tunebook. Share it first so others can open them.
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
               <Form.Check type="checkbox" id="print-hide-background-info" checked={!!hideBackgroundInfo} onChange={function() { setHideBackgroundInfo(!hideBackgroundInfo); }} className="mt-2">
                 <Form.Check.Input type="checkbox" checked={!!hideBackgroundInfo} onChange={function() { setHideBackgroundInfo(!hideBackgroundInfo); }} disabled={generating} />
                 <Form.Check.Label>&nbsp;&nbsp;&nbsp;Hide Background Information</Form.Check.Label>
@@ -207,6 +270,7 @@ export default function PrintPage(props) {
                 tunebook={props.tunebook}
                 viewMode={tuneViewModes[tune.id] || 'music'}
                 useQR={useQR}
+                qrLink={qrLinks[tune.id] || ''}
                 hideBackgroundInfo={hideBackgroundInfo}
                 pageNumber={index + 1}
                 pageCount={useTunes.length}
