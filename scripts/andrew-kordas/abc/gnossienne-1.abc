@@ -1,0 +1,93 @@
+% src-url https://abcnotation.com/tunePage?a=colinhume.com/ABC.txt/0525
+N:Transposed and arranged for Violin, Cello and Piano by Colin Hume, 2023
+L:1/8
+M:2/2
+S:Colin Hume's website,  colinhume.com  - chords can also be printed below the stave.
+Q:1/2=50
+%%staves 1 2 {3 4}
+K:Em
+V:1
+%%MIDI program 41
+%%MIDI control 10 20
+"Em"z2Bd ^c2B2 | {B}^A4 {B}A4 | z2Bd ^c2B2 | {^d}e4 {d}e4 | z2Bd ^c2B2 | {B}^A4 {G}F4 | "Bm"{E}F2 {E}F4-Fz | "Em"{G}F2 {F}E2-E4- | E8 |
+V:2 bass octave=-2
+%%MIDI program 42
+%%MIDI control 10 100
+x8 | x8 | x8 | x8 | x8 | x8 | x8 | x8 | x8 |
+V:3 treble
+!p!z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [D,F,B,]4 [D,F,B,]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 |
+V:4 bass octave=-2
+%%MIDI gchordoff
+!p!E8 | E8 | E8 | E8 | E8 | E8 | B8 | E8 | E8 |
+V:1
+"Em"z8 | z8 | z8 | z8 | z8 | z8 | "Bm"z8 | "Em"z8 | z8 |
+V:2
+z2Bd ^c2B2 | {B}^A4 {B}A4 | z2Bd ^c2B2 | {^d}e4 {d}e4 | z2Bd ^c2B2 | {B}^A4 {G}F4 | {E}F2 {E}F4-Fz | {G}F2 {F}E2-E4- | E8 |
+V:3
+z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [D,F,B,]4 [D,F,B,]2 | z2 [G,B,E]4 [G,B,E]2 | z2 [G,B,E]4 [G,B,E]2 |
+V:4
+E8 | E8 | E8 | E8 | E8 | E8 | B8 | E8 | E8 |
+V:1
+"Am"{G}A4 {G}F4 | {G}A4 {G}F4 | "Em"{G}F2{F}E2-E4- | E8 | "Am"z8 | z8 | "Em"z8 | z8 |
+V:2
+z8 | z8 | z8 | z8 | {g}a4 {g}f4 | {g}a4 {g}f4 | {g}f2{f}e2-e4- | e8 |
+V:3
+z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 |
+V:4
+A,8 | A,8 | E8 | E8 | A,8 | A,8 | E8 | E8 |
+V:1
+"Em"zB^c^d ef^af | e2{f}e2 e4 | {f}e4 {e}^d4 | {c}B4 {B}^A4 | {G}F2 {F}E2- E4- | E8 |
+V:2
+x8 | x8 | x8 | x8 | x8 | x8 |
+V:3
+z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 |
+V:4
+E8 | E8 | E8 | E8 | E8 | E8 |
+V:1
+"Em"z8 | z8 | z8 | z8 | z8 | z8 |
+V:2
+zB^c^d ef^af | e2{f}e2 e4 | {f}e4 {e}^d4 | {c}B4 {B}^A4 | {G}F2 {F}E2- E4- | E8 |
+V:3
+z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 |
+V:4
+E8 | E8 | E8 | E8 | E8 | E8 |
+V:1
+"Am"{G}A4 {G}F4 | {G}A4 {G}F4 | "Em"{G}F2{F}E2-E4- | E8 | "Am"z8 | z8 | "Em"z8 | z8 |
+V:2
+z8 | z8 | z8 | z8 | {g}a4 {g}f4 | {g}a4 {g}f4 | {g}f2{f}e2-e4- | e8 |
+V:3
+z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 |
+V:4
+A,8 | A,8 | E8 | E8 | A,8 | A,8 | E8 | E8 |
+V:1
+"Em"z2Bd ^c2B2 | {B}^A8 | z2Bd ^c2B2 | {^d}e8 | z8 | z8 | z8 | z8 |
+V:2
+z8 | z8 | z8 | z8 | z2Bd ^c2B2 | {B}^A8 | z2Bd ^c2B2 | {^d}e8 |
+V:3
+z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 |
+V:4
+E8 | E8 | E8 | E8 | E8 | E8 | E8 | E8 |
+V:1
+"Am"{G}A4 {G}F4 | {G}A4 {G}F4 | "Em"{G}F2{F}E2-E4- | E8 | "Am"{G}A4 {G}F4 | {G}A4 {G}F4 | "Em"{G}F2{F}E2-E4- | E8 |
+V:2
+{g}a4 {g}f4 | {g}a4 {g}f4 | {g}f2{f}e2-e4- | e8 | {g}a4 {g}f4 | {g}a4 {g}f4 | {g}f2{f}e2-e4- | e8 |
+V:3
+z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 |
+V:4
+A,8 | A,8 | E8 | E8 | A,8 | A,8 | E8 | E8 |
+V:1
+|: "Em"zB^c^d ef^af | e2{f}e2 e4 | {f}e4 {e}^d4 | {c}B4 {B}^A4 | {G}F2 {F}E2- E4- | E8 :|
+V:2
+|: zB^c^d ef^af | e2{f}e2 e4 | {f}e4 {e}^d4 | {c}B4 {B}^A4 | {G}F2 {F}E2- E4- | E8 :|
+V:3
+|: z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 :|
+V:4
+|: E8 | E8 | E8 | E8 | E8 | E8 :|
+V:1
+"Am"{G}A4 {G}F4 | {G}A4 {G}F4 | "Em"{G}F2{F}E2-E4- | E8 | "Am"{G}A4 {G}F4 | {G}A4 {G}F4 | "Em"{G}F2{F}E2-E4- | E8 |]
+V:2
+{g}a4 {g}f4 | {g}a4 {g}f4 | {g}f2{f}e2-e4- | e8 | {g}a4 {g}f4 | {g}a4 {g}f4 | {g}f2{f}e2-e4- | e8 |]
+V:3
+z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]4 [G,B,E]2 | z2 [E,A,C]4 [E,A,C]2 | z2 [E,A,C]4 [E,A,C]2 | z2[G,B,E]4 [G,B,E]2 | z2[G,B,E]6 |]
+V:4
+A,8 | A,8 | E8 | E8 | A,8 | A,8 | E8 | E8 |]

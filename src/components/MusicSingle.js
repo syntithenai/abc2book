@@ -73,6 +73,7 @@ import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
 import { tunePageSectionDomId } from '../searchListOrder'
 import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste, cancelAddTuneAutoEnrich } from '../addTuneAutoEnrich'
+import useAutoEnrichOnOpen from '../useAutoEnrichOnOpen'
 import { toast } from 'react-toastify'
 import SearchProgressBar from './SearchProgressBar'
 import PasteChordSheetModal from './PasteChordSheetModal'
@@ -242,6 +243,18 @@ function MusicSingleSection(props) {
       toast.info(summary, { autoClose: 12000 })
       dismissAddTuneAutoEnrichSummary(sectionTuneId)
     }, [autoEnrichPending, autoEnrichState.summary, sectionTuneId])
+
+    useAutoEnrichOnOpen({
+      enabled: isActive,
+      tune: tune,
+      tunebook: props.tunebook,
+      abcjsParser: abcjsParser,
+      accessToken: props.token && props.token.access_token ? props.token.access_token : '',
+      resolverAvailable: resolverAvailable,
+      searchIndex: props.searchIndex,
+      loadTuneTexts: props.loadTuneTexts,
+      forceRefresh: props.forceRefresh,
+    })
 
     async function runCopyToScratchpad(workspaceId) {
         if (!tune || !workspaceId) return

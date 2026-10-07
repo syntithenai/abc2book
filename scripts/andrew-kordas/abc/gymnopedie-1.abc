@@ -1,0 +1,49 @@
+% src-url https://abcnotation.com/tunePage?a=colinhume.com/ABC.txt/0566
+R:waltz
+M:3/4
+L:1/4
+Q:1/4=70
+S:Colin Hume's website, colinhume.com
+%%MIDI beat 100 95 80
+%%staves 1 {2 3}
+K:D
+V:1
+%%MIDI program 69
+%%MIDI chordprog 48
+%%MIDI gchord c
+%%MIDI chordvol 42
+|: "^Lent et douloureux" "Gmaj7"z3 | "Dmaj7"z3 | "Gmaj7"z3 | "Dmaj7"z3 | "Gmaj7"zfa | "Dmaj7"gfc | "Gmaj7"Bcd | "Dmaj7"A3 |
+V:2 treble
+|: !mp! z[B,DF]2 | z[A,CF]2 | z[B,DF]2 | z[A,CF]2 | z[B,DF]2 | z[A,CF]2 | z[B,DF]2 | z[A,CF]2 |
+V:3 bass octave=-2
+|: !mp! G3 | D3 | G3 | D3 | G3 | D3 | G3 | D3 |
+V:1
+"Gmaj7"F3- | "Dmaj7"F3- | "Gmaj7"F3- | "Dmaj7"F3 | "Gmaj7"zfa | "Dmaj7"gfc | "Gmaj7"Bcd | "Dmaj7"A3 |
+V:2
+z[B,DF]2 | z[A,CF]2 | z[B,DF]2 | z[A,CF]2 | z[B,DF]2 | z[A,CF]2 | z[B,DF]2 | z[A,CF]2 |
+V:3
+G3 | D3 | G3 | D3 | G3 | D3 | G3 | D3 |
+V:1
+"F#m"c3 | "Bm"f3 | "Em"E3- | "Em7"E3- | "Dm"E3 | "Am"AB=c | "Em7/D"edB | d=cB |
+V:2
+z[A,CF]2 | z[B,DF]2 | z[G,B,]2 | z[B,DG]2 | [K:bass] z[=F,A,D]2 | z[A,=CE]2 | z[G,B,E]2 | z[D,G,B,E]2 |
+V:3
+F3 | B,3 | E3 | E3 | D3 | A,3 | D3 | D3 |
+V:1
+"Am/D"d3- | "D7"d2d | "Dm7"e=fg | "Am/D"a=cd | "Em7/D"edB | "Am/D"d3- | "D7"d2d |
+V:2
+z[=C,E,A,D]2 | z[=C,E,A,D]2 | z[A,=C=F]2 | z[A,=CE]2 | z[D,G,B,E]2 | z[=C,E,A,D]2 | z[=C,F,A,D]2 |
+V:3
+D3 | D3 | D3 | D3 | D3 | D3 | D3 |
+V:1
+[1"Em"g3 | "F#m"f3 | "Bm"BAB | "A/E"cde | "F#m7/E"cde | F3 | "Am7"=c3 | "D"d3 :|
+V:2
+[1 [K:treble] z[B,EG]2 | z[A,CF]2 | z[B,DF]2 | z[CEA]2 | z[A,CFA]2 | z[A,D][B,DG] |[=CEA=c]3 |[DFAd]3 :|
+V:3
+[1 E3 | F3 | B,3 | E3 | E3 | EBe | A3 | [DAd]3 :|
+V:1
+[2"Em"g3 | "Dm/E"=f3 | "F/E"B=c=f | "Am/E"ed=c | "F/E"ed=c | =F3 | "Am7"=c3 | "Dm"d3 |]
+V:2
+[2 z[B,EG]2 | z[A,D=FA]2 | z[A,=CF]2 | z[=CEA]2 | z[A,=C=FA]2 | z[A,D][B,DG] |[=CEA=c]3 |[D=FAd]3 |]
+V:3
+[2 E3 | E3 | E3 | E3 | E3 | EBe | [Ag]3 | [DAd]3 |]

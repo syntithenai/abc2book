@@ -459,6 +459,9 @@ var useAbcTools = () => {
                 } else if (line.startsWith('% abcbook-starred')) {
                     var starredVal = abcbookFieldValue(line, '% abcbook-starred')
                     tune.starred = starredVal === 'true' || starredVal === '1'
+                } else if (line.startsWith('% abcbook-auto-enrich')) {
+                    var autoEnrichVal = abcbookFieldValue(line, '% abcbook-auto-enrich')
+                    tune.autoEnrichOnOpen = autoEnrichVal === 'pending' || autoEnrichVal === 'true'
                 } else if (line.startsWith('% abcbook-difficulty')) {
                     tune.difficulty = parseInt(line.slice(21).trim())
                 } else  if (line.startsWith('% abcbook-tablature-voices')) {
@@ -1039,6 +1042,7 @@ var useAbcTools = () => {
                     + renderPlayalongTakesAbc(tune)
                     + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
                     + (tune.starred ? "% abcbook-starred true\n" : '')
+                    + (tune.autoEnrichOnOpen ? "% abcbook-auto-enrich pending\n" : '')
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
                     + "% abcbook-lyrics-scroll-speed " + ensureNumber(tune.lyricsScrollSpeed > 0 ? tune.lyricsScrollSpeed : 1, 1) + "\n"
                     + (tune.lyricsScrollDurationSec > 0

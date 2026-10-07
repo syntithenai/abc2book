@@ -1,0 +1,265 @@
+{
+  "tag": "andrew kordas",
+  "alreadyTagged": [
+    "Foggy Mountain Dew",
+    "La Paloma",
+    "Aarne Tarvaisen's"
+  ],
+  "tagUpdates": [
+    {
+      "title": "Tennessee Waltz"
+    },
+    {
+      "title": "Norwegian Wood"
+    },
+    {
+      "title": "Ashokan Farewell"
+    },
+    {
+      "title": "Scarborough Fair"
+    },
+    {
+      "title": "Pick a Bale of Cotton"
+    },
+    {
+      "title": "Angeline The Baker",
+      "allMatches": true
+    },
+    {
+      "title": "The Halting March"
+    },
+    {
+      "title": "Childgrove"
+    },
+    {
+      "title": "Benton's Dream"
+    },
+    {
+      "title": "The Parting Glass"
+    },
+    {
+      "title": "Arkansas Traveler",
+      "x": "3028"
+    },
+    {
+      "title": "Cotton Eyed Joe"
+    },
+    {
+      "title": "Auld Lang Syne"
+    },
+    {
+      "title": "Redwing"
+    },
+    {
+      "title": "Wayfaring Stranger",
+      "x": "2749"
+    },
+    {
+      "title": "El Condor Pasa"
+    },
+    {
+      "title": "It's Only A Paper Moon"
+    },
+    {
+      "title": "Dancing Cheek To Cheek"
+    },
+    {
+      "title": "Horses Branle (Brawl)"
+    },
+    {
+      "title": "Ross Creek",
+      "x": "216"
+    },
+    {
+      "title": "Gallagher's Frolics",
+      "x": "214"
+    },
+    {
+      "title": "The Drover",
+      "x": "141"
+    },
+    {
+      "title": "the rainbow connection",
+      "x": "3038"
+    },
+    {
+      "title": "Nigun Atik",
+      "x": "3207",
+      "note": "Same dance as Zemer Atik"
+    }
+  ],
+  "newTunes": [
+    {
+      "title": "When the Saints Go Marching In",
+      "composer": "Traditional",
+      "photo": "Saints",
+      "youtube": "https://www.youtube.com/watch?v=2eUzdTF3P2M",
+      "linkTitle": "Louis Armstrong \"When The Saints Go Marching In\" on The Ed Sullivan Show",
+      "abcFile": "abc/when-the-saints.abc"
+    },
+    {
+      "title": "Only a Leaf",
+      "composer": "T.B. Fayme",
+      "photo": "Only a leaf",
+      "notes": "Australian dance waltz, also Parma Waltz / Max's Waltz / Whroo Band Waltz",
+      "youtube": "https://www.youtube.com/watch?v=h9NJ2Via_B8",
+      "linkTitle": "Only A Leaf",
+      "abcFile": "abc/only-a-leaf.abc"
+    },
+    {
+      "title": "Gnossienne No. 1",
+      "composer": "Erik Satie",
+      "photo": "Gnossienne",
+      "youtube": "https://www.youtube.com/watch?v=PErbSeBCjdY",
+      "linkTitle": "Gnossienne No. 1 (Remastered)",
+      "abcFile": "abc/gnossienne-1.abc",
+      "extraTags": [
+        "multipart"
+      ]
+    },
+    {
+      "title": "Je te veux",
+      "composer": "Erik Satie",
+      "photo": "Je te veux",
+      "youtube": "https://www.youtube.com/watch?v=r7w14ZYz2H0",
+      "linkTitle": "Satie: Je te veux (Jessye Norman)"
+    },
+    {
+      "title": "Gymnopédie No. 1",
+      "composer": "Erik Satie",
+      "photo": "Gymnopédie",
+      "youtube": "https://www.youtube.com/watch?v=TL0xzp4zzBE",
+      "linkTitle": "Khatia Buniatishvili, Erik Satie - Erik Satie: Gymnopédie No.1",
+      "abcFile": "abc/gymnopedie-1.abc",
+      "extraTags": [
+        "multipart"
+      ]
+    },
+    {
+      "title": "Spancil Hill",
+      "composer": "Traditional",
+      "photo": "Spancil Hill",
+      "youtube": "https://www.youtube.com/watch?v=_iUEwB4ME3I",
+      "linkTitle": "Christy Moore & Shane MacGowan (The Pogues) Spancil Hill",
+      "abcFile": "abc/spancil-hill.abc"
+    },
+    {
+      "title": "Der Terk in Amerike",
+      "composer": "Traditional",
+      "photo": "Turk in Amerika",
+      "notes": "Klezmer version of the Turkish song Uskudar'a Gider Iken, recorded by Naftule Brandwein in 1924",
+      "youtube": "https://www.youtube.com/watch?v=f9d4EoLO-JA",
+      "linkTitle": "Der terk in Amerike (Naftule Brandwein) - Slepovitch Klezmer Duo",
+      "abcFile": "abc/der-terk-in-amerike.abc"
+    },
+    {
+      "title": "Tumbalalaika",
+      "composer": "Traditional",
+      "photo": "Tum Balalyka",
+      "youtube": "https://www.youtube.com/watch?v=hUptJWEhpoc",
+      "linkTitle": "Tumbalalaika - Baklava Klezmer Soul",
+      "abcFile": "abc/tumbalalaika.abc"
+    },
+    {
+      "title": "Greensleeves",
+      "composer": "Traditional",
+      "photo": "Greensleeves",
+      "youtube": "https://www.youtube.com/watch?v=wARiOb80Zr0",
+      "linkTitle": "Greensleeves (guitar version)",
+      "abcFile": "abc/greensleeves.abc"
+    },
+    {
+      "title": "Boléro",
+      "composer": "Maurice Ravel",
+      "photo": "Bolero",
+      "youtube": "https://www.youtube.com/watch?v=cmNEvSFWftc",
+      "linkTitle": "Ravel - Boléro | Alondra de la Parra | WDR Sinfonieorchester"
+    },
+    {
+      "title": "Kari Ochi (Карі очі)",
+      "composer": "Traditional",
+      "photo": "Kari Ochi",
+      "notes": "Ukrainian song, also Chorni brovy, kari ochi (Black Brows, Brown Eyes)",
+      "youtube": "https://www.youtube.com/watch?v=2kiyHNloTM4",
+      "linkTitle": "Тріо Маренич - Карі очі, чорні брови (оригінальне відео)"
+    },
+    {
+      "title": "Sunrise, Sunset",
+      "composer": "Jerry Bock",
+      "photo": "Sunrise Sunset",
+      "youtube": "https://www.youtube.com/watch?v=DBJeF_Lav2o",
+      "linkTitle": "Sunrise, Sunset (Fiddler On The Roof)"
+    },
+    {
+      "title": "When I'm Sixty-Four",
+      "composer": "The Beatles",
+      "photo": "When I'm 64",
+      "youtube": "https://www.youtube.com/watch?v=HCTunqv1Xt4",
+      "linkTitle": "When I'm Sixty Four (Remastered 2009)"
+    },
+    {
+      "title": "Que Sera, Sera",
+      "composer": "Doris Day",
+      "photo": "Que Sera",
+      "youtube": "https://www.youtube.com/watch?v=xZbKHDPPrrc",
+      "linkTitle": "Doris Day - Que Sera Sera"
+    },
+    {
+      "title": "Hora Hadera",
+      "composer": "Nira and Nitzan Rabinovich",
+      "photo": "Hora Hadera",
+      "notes": "Israeli folk dance (choreography Yankale Levy, 1972)",
+      "youtube": "https://www.youtube.com/watch?v=-GDVGpf2wxM",
+      "linkTitle": "Hora Chadera"
+    },
+    {
+      "title": "Top of the World",
+      "composer": "Carpenters",
+      "photo": "Top of the World",
+      "youtube": "https://www.youtube.com/watch?v=baSUO3zjneA",
+      "linkTitle": "The Carpenters - Top Of The World"
+    },
+    {
+      "title": "The Muppet Show Theme",
+      "composer": "Jim Henson and Sam Pottle",
+      "photo": "Muppets",
+      "youtube": "https://www.youtube.com/watch?v=5zaQgbACc1E",
+      "linkTitle": "Original Theme Song | The Muppet Show | Disney+"
+    },
+    {
+      "title": "Those Were the Days",
+      "composer": "Mary Hopkin",
+      "photo": "Those were the days",
+      "youtube": "https://www.youtube.com/watch?v=kXc5Oe_kj8k",
+      "linkTitle": "Those Were The Days (Remastered)"
+    },
+    {
+      "title": "Le Chant d'Hélium",
+      "composer": "Marie-Jo Thério",
+      "photo": "Chant de l'Hélium",
+      "youtube": "https://www.youtube.com/watch?v=EscBxMXfGYI",
+      "linkTitle": "\"Chant d'hélium\" - Marie-Jo Thério"
+    },
+    {
+      "title": "Steciak's",
+      "composer": "Larry Unger",
+      "photo": "Stecika's (Em)",
+      "key": "Em",
+      "meter": "3/4",
+      "rhythm": "waltz",
+      "notes": "Played in Em per Andrew's list; published as G modal (Larry Unger, Waltz Time)",
+      "youtube": "https://www.youtube.com/watch?v=H75mXO9mLBw",
+      "linkTitle": "Steciak's - Larry Unger and Ginny Snowe"
+    }
+  ],
+  "pending": [
+    "Croatian Polka",
+    "Czech Polka",
+    "Joanne's Dream",
+    "Joyous Empress",
+    "Mossiden",
+    "Sunsets Are Lovely",
+    "Unreadable first entry, right column",
+    "Know That You Are Loved (Andrew's own tune)"
+  ]
+}
