@@ -48,6 +48,7 @@ import IncomingMergeHost from './components/IncomingMergeHost'
 import SyncSourcesHost from './components/SyncSourcesHost'
 import { applySourceUrlMergeBatch } from './sourceUrlSync'
 import { bookIndexNeedsRepair } from './tuneCandidateFilter'
+import { tagIndexNeedsRepair } from './tuneIndexIntegrity'
 import { registerMergeCheckHandler, unregisterMergeCheckHandler, runMergeChecksNow } from './mergeCheckTrigger'
 import { beginDriveMergeCheckingToast, endDriveMergeCheckingToast } from './driveMergeCheckingToast'
 import MidiPlayer from './components/MidiPlayer'
@@ -721,6 +722,17 @@ function App(props) {
       emptyIndexRepairAttemptedRef.current = false
     })
   }, [tunesHydrated, indexes.indexesReady, tunes, indexes.bookIndex])
+
+  // Once per session: tag filters only list tunes found in the tag index, so
+  // rebuild when any tagged tune is missing from it.
+  const tagIndexCheckedRef = useRef(false)
+  useEffect(function() {
+    if (!tunesHydrated || !indexes.indexesReady || tagIndexCheckedRef.current) return
+    tagIndexCheckedRef.current = true
+    if (!tagIndexNeedsRepair(tunes, indexes.tagIndex)) return
+    scheduleTuneReindex(tunes)
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- one-shot check after hydration
+  }, [tunesHydrated, indexes.indexesReady])
    
   function applySourceUrlMergeWithSelections(batch, recordState) {
     if (!batch) return

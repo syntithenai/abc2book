@@ -3,6 +3,8 @@ import {
   countBookedTunes,
   countMissingBookIndexMemberships,
   bookIndexNeedsRepair,
+  countMissingTagIndexMemberships,
+  tagIndexNeedsRepair,
   unionIndexKeysWithTuneField,
 } from './tuneIndexIntegrity'
 
@@ -96,5 +98,18 @@ describe('tuneIndexIntegrity', function() {
     expect(opts.IndexedOnly).toBe('IndexedOnly')
     expect(opts.FromTune).toBe('FromTune')
     expect(opts.Other).toBe('Other')
+  })
+
+  test('tagIndexNeedsRepair flags tagged tunes missing from their tag bucket', function() {
+    const tunes = {
+      a: { id: 'a', tags: ['andrew kordas'] },
+      b: { id: 'b', tags: ['andrew kordas', 'jig'] },
+      c: { id: 'c', tags: [] },
+    }
+    expect(countMissingTagIndexMemberships(tunes, { 'andrew kordas': ['a', 'b'], jig: ['b'] })).toBe(0)
+    expect(tagIndexNeedsRepair(tunes, { 'andrew kordas': ['a', 'b'], jig: ['b'] })).toBe(false)
+    expect(countMissingTagIndexMemberships(tunes, { 'andrew kordas': ['a'], jig: ['b'] })).toBe(1)
+    expect(tagIndexNeedsRepair(tunes, { 'andrew kordas': ['a'] })).toBe(true)
+    expect(tagIndexNeedsRepair({}, {})).toBe(false)
   })
 })

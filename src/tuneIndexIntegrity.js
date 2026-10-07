@@ -64,6 +64,38 @@ export function bookIndexNeedsRepair(tunes, bookIndex) {
 }
 
 /**
+ * How many tunes carry a tag whose tagIndex bucket does not list the tune.
+ */
+export function countMissingTagIndexMemberships(tunes, tagIndex) {
+  if (!tunes || typeof tunes !== 'object') return 0
+  const index = tagIndex || {}
+  const list = Array.isArray(tunes) ? tunes : Object.values(tunes)
+  let missing = 0
+  for (let i = 0; i < list.length; i += 1) {
+    const tune = list[i]
+    if (!tune || tune.id == null || !Array.isArray(tune.tags)) continue
+    for (let t = 0; t < tune.tags.length; t += 1) {
+      const tag = tune.tags[t]
+      if (!tag) continue
+      const bucket = index[tag]
+      if (!Array.isArray(bucket) || bucket.indexOf(tune.id) === -1) {
+        missing += 1
+        break
+      }
+    }
+  }
+  return missing
+}
+
+/**
+ * True when any tagged tune is absent from its tag bucket. Tag filters read
+ * candidates from the index, so a single gap hides that tune from the list.
+ */
+export function tagIndexNeedsRepair(tunes, tagIndex) {
+  return countMissingTagIndexMemberships(tunes, tagIndex) > 0
+}
+
+/**
  * Union index keys with values scanned from tune field arrays (books/tags).
  */
 export function unionIndexKeysWithTuneField(index, tunes, fieldName) {

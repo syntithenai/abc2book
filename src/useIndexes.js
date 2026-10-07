@@ -88,6 +88,15 @@ var useIndexes = () => {
     var lastAlbumIndexRef = useRef(albumIndex)
     var indexGenerationRef = useRef(0)
     var reindexInProgressRef = useRef(false)
+    // Tune index writes that arrive while a full rebuild runs. The rebuild works
+    // from an earlier tunes snapshot, so these are replayed once it finishes.
+    var pendingDuringReindexRef = useRef(null)
+
+    function queuePendingIndexWrite(tune, removed) {
+        if (!tune || !tune.id) return
+        if (!pendingDuringReindexRef.current) pendingDuringReindexRef.current = {}
+        pendingDuringReindexRef.current[tune.id] = { tune: tune, removed: !!removed }
+    }
 
     useEffect(function() {
       let cancelled = false
@@ -219,8 +228,44 @@ var useIndexes = () => {
         }
     }
     
+    function removeTuneFromMaps(tune, maps) {
+        maps.books = removeTuneIdFromIndex(maps.books, tune)
+        maps.tags = removeTuneIdFromIndex(maps.tags, tune)
+        maps.genres = removeTuneIdFromIndex(maps.genres, tune)
+        maps.artists = removeTuneIdFromIndex(maps.artists, tune)
+        maps.albums = removeTuneIdFromIndex(maps.albums, tune)
+        return maps
+    }
+
+    function flushPendingIndexWrites() {
+        const pending = pendingDuringReindexRef.current
+        pendingDuringReindexRef.current = null
+        if (!pending || reindexInProgressRef.current) {
+            if (pending) pendingDuringReindexRef.current = pending
+            return
+        }
+        const writeGeneration = beginIndexWrite()
+        const previous = snapshotMaps()
+        const maps = {
+            books: Object.assign({}, previous.books),
+            tags: Object.assign({}, previous.tags),
+            genres: Object.assign({}, previous.genres),
+            artists: Object.assign({}, previous.artists),
+            albums: Object.assign({}, previous.albums),
+        }
+        Object.keys(pending).forEach(function(id) {
+            const entry = pending[id]
+            if (entry.removed) removeTuneFromMaps(entry.tune, maps)
+            else applyTuneToMaps(entry.tune, maps)
+        })
+        persistMapsIfChanged(maps, writeGeneration, previous)
+    }
+
     function indexTune(tune) {
-        if (reindexInProgressRef.current) return
+        if (reindexInProgressRef.current) {
+            queuePendingIndexWrite(tune, false)
+            return
+        }
         const writeGeneration = beginIndexWrite()
         const previous = snapshotMaps()
         const maps = {
@@ -317,7 +362,10 @@ var useIndexes = () => {
 
     /** Apply many tunes in memory, then one persist per index slice. */
     function indexTunes(tunes) {
-        if (reindexInProgressRef.current) return
+        if (reindexInProgressRef.current) {
+            Object.values(tunes || {}).forEach(function(tune) { queuePendingIndexWrite(tune, false) })
+            return
+        }
         const writeGeneration = beginIndexWrite()
         const previous = snapshotMaps()
         const maps = {
@@ -388,6 +436,7 @@ var useIndexes = () => {
         } finally {
             if (indexGenerationRef.current === myGeneration) {
                 reindexInProgressRef.current = false
+                flushPendingIndexWrites()
             }
         }
     }
@@ -418,13 +467,17 @@ var useIndexes = () => {
         } finally {
             if (indexGenerationRef.current === myGeneration) {
                 reindexInProgressRef.current = false
+                flushPendingIndexWrites()
             }
         }
     }
 
     function unindexTune(tune) {
         if (!tune || !tune.id) return
-        if (reindexInProgressRef.current) return
+        if (reindexInProgressRef.current) {
+            queuePendingIndexWrite(tune, true)
+            return
+        }
         const writeGeneration = beginIndexWrite()
         const previous = snapshotMaps()
         const maps = {
@@ -438,7 +491,16 @@ var useIndexes = () => {
     }
 
     function indexChangedTunes(tunes, tuneIds) {
-        if (reindexInProgressRef.current) return
+        if (reindexInProgressRef.current) {
+            if (!Array.isArray(tuneIds) || tuneIds.length === 0) {
+                indexTunes(tunes)
+            } else {
+                tuneIds.forEach(function(tuneId) {
+                    if (tunes && tunes[tuneId]) queuePendingIndexWrite(tunes[tuneId], false)
+                })
+            }
+            return
+        }
         if (!Array.isArray(tuneIds) || tuneIds.length === 0) {
             indexTunes(tunes)
             return
