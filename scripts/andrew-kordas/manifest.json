@@ -95,7 +95,10 @@
       "photo": "Saints",
       "youtube": "https://www.youtube.com/watch?v=2eUzdTF3P2M",
       "linkTitle": "Louis Armstrong \"When The Saints Go Marching In\" on The Ed Sullivan Show",
-      "abcFile": "abc/when-the-saints.abc"
+      "abcFile": "abc/when-the-saints.abc",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Only a Leaf",
@@ -104,7 +107,10 @@
       "notes": "Australian dance waltz, also Parma Waltz / Max's Waltz / Whroo Band Waltz",
       "youtube": "https://www.youtube.com/watch?v=h9NJ2Via_B8",
       "linkTitle": "Only A Leaf",
-      "abcFile": "abc/only-a-leaf.abc"
+      "abcFile": "abc/only-a-leaf.abc",
+      "books": [
+        "australian bush dance"
+      ]
     },
     {
       "title": "Gnossienne No. 1",
@@ -115,6 +121,9 @@
       "abcFile": "abc/gnossienne-1.abc",
       "extraTags": [
         "multipart"
+      ],
+      "books": [
+        "tunes"
       ]
     },
     {
@@ -122,7 +131,10 @@
       "composer": "Erik Satie",
       "photo": "Je te veux",
       "youtube": "https://www.youtube.com/watch?v=r7w14ZYz2H0",
-      "linkTitle": "Satie: Je te veux (Jessye Norman)"
+      "linkTitle": "Satie: Je te veux (Jessye Norman)",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Gymnopédie No. 1",
@@ -133,6 +145,9 @@
       "abcFile": "abc/gymnopedie-1.abc",
       "extraTags": [
         "multipart"
+      ],
+      "books": [
+        "tunes"
       ]
     },
     {
@@ -141,7 +156,10 @@
       "photo": "Spancil Hill",
       "youtube": "https://www.youtube.com/watch?v=_iUEwB4ME3I",
       "linkTitle": "Christy Moore & Shane MacGowan (The Pogues) Spancil Hill",
-      "abcFile": "abc/spancil-hill.abc"
+      "abcFile": "abc/spancil-hill.abc",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Der Terk in Amerike",
@@ -150,7 +168,10 @@
       "notes": "Klezmer version of the Turkish song Uskudar'a Gider Iken, recorded by Naftule Brandwein in 1924",
       "youtube": "https://www.youtube.com/watch?v=f9d4EoLO-JA",
       "linkTitle": "Der terk in Amerike (Naftule Brandwein) - Slepovitch Klezmer Duo",
-      "abcFile": "abc/der-terk-in-amerike.abc"
+      "abcFile": "abc/der-terk-in-amerike.abc",
+      "books": [
+        "eurosession"
+      ]
     },
     {
       "title": "Tumbalalaika",
@@ -158,7 +179,10 @@
       "photo": "Tum Balalyka",
       "youtube": "https://www.youtube.com/watch?v=hUptJWEhpoc",
       "linkTitle": "Tumbalalaika - Baklava Klezmer Soul",
-      "abcFile": "abc/tumbalalaika.abc"
+      "abcFile": "abc/tumbalalaika.abc",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Greensleeves",
@@ -166,14 +190,20 @@
       "photo": "Greensleeves",
       "youtube": "https://www.youtube.com/watch?v=wARiOb80Zr0",
       "linkTitle": "Greensleeves (guitar version)",
-      "abcFile": "abc/greensleeves.abc"
+      "abcFile": "abc/greensleeves.abc",
+      "books": [
+        "tunes"
+      ]
     },
     {
       "title": "Boléro",
       "composer": "Maurice Ravel",
       "photo": "Bolero",
       "youtube": "https://www.youtube.com/watch?v=cmNEvSFWftc",
-      "linkTitle": "Ravel - Boléro | Alondra de la Parra | WDR Sinfonieorchester"
+      "linkTitle": "Ravel - Boléro | Alondra de la Parra | WDR Sinfonieorchester",
+      "books": [
+        "tunes"
+      ]
     },
     {
       "title": "Kari Ochi (Карі очі)",
@@ -181,28 +211,40 @@
       "photo": "Kari Ochi",
       "notes": "Ukrainian song, also Chorni brovy, kari ochi (Black Brows, Brown Eyes)",
       "youtube": "https://www.youtube.com/watch?v=2kiyHNloTM4",
-      "linkTitle": "Тріо Маренич - Карі очі, чорні брови (оригінальне відео)"
+      "linkTitle": "Тріо Маренич - Карі очі, чорні брови (оригінальне відео)",
+      "books": [
+        "ukranian"
+      ]
     },
     {
       "title": "Sunrise, Sunset",
       "composer": "Jerry Bock",
       "photo": "Sunrise Sunset",
       "youtube": "https://www.youtube.com/watch?v=DBJeF_Lav2o",
-      "linkTitle": "Sunrise, Sunset (Fiddler On The Roof)"
+      "linkTitle": "Sunrise, Sunset (Fiddler On The Roof)",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "When I'm Sixty-Four",
       "composer": "The Beatles",
       "photo": "When I'm 64",
       "youtube": "https://www.youtube.com/watch?v=HCTunqv1Xt4",
-      "linkTitle": "When I'm Sixty Four (Remastered 2009)"
+      "linkTitle": "When I'm Sixty Four (Remastered 2009)",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Que Sera, Sera",
       "composer": "Doris Day",
       "photo": "Que Sera",
       "youtube": "https://www.youtube.com/watch?v=xZbKHDPPrrc",
-      "linkTitle": "Doris Day - Que Sera Sera"
+      "linkTitle": "Doris Day - Que Sera Sera",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Hora Hadera",
@@ -210,35 +252,50 @@
       "photo": "Hora Hadera",
       "notes": "Israeli folk dance (choreography Yankale Levy, 1972)",
       "youtube": "https://www.youtube.com/watch?v=-GDVGpf2wxM",
-      "linkTitle": "Hora Chadera"
+      "linkTitle": "Hora Chadera",
+      "books": [
+        "eurosession"
+      ]
     },
     {
       "title": "Top of the World",
       "composer": "Carpenters",
       "photo": "Top of the World",
       "youtube": "https://www.youtube.com/watch?v=baSUO3zjneA",
-      "linkTitle": "The Carpenters - Top Of The World"
+      "linkTitle": "The Carpenters - Top Of The World",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "The Muppet Show Theme",
       "composer": "Jim Henson and Sam Pottle",
       "photo": "Muppets",
       "youtube": "https://www.youtube.com/watch?v=5zaQgbACc1E",
-      "linkTitle": "Original Theme Song | The Muppet Show | Disney+"
+      "linkTitle": "Original Theme Song | The Muppet Show | Disney+",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Those Were the Days",
       "composer": "Mary Hopkin",
       "photo": "Those were the days",
       "youtube": "https://www.youtube.com/watch?v=kXc5Oe_kj8k",
-      "linkTitle": "Those Were The Days (Remastered)"
+      "linkTitle": "Those Were The Days (Remastered)",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Le Chant d'Hélium",
       "composer": "Marie-Jo Thério",
       "photo": "Chant de l'Hélium",
       "youtube": "https://www.youtube.com/watch?v=EscBxMXfGYI",
-      "linkTitle": "\"Chant d'hélium\" - Marie-Jo Thério"
+      "linkTitle": "\"Chant d'hélium\" - Marie-Jo Thério",
+      "books": [
+        "songs"
+      ]
     },
     {
       "title": "Steciak's",
@@ -249,7 +306,10 @@
       "rhythm": "waltz",
       "notes": "Played in Em per Andrew's list; published as G modal (Larry Unger, Waltz Time)",
       "youtube": "https://www.youtube.com/watch?v=H75mXO9mLBw",
-      "linkTitle": "Steciak's - Larry Unger and Ginny Snowe"
+      "linkTitle": "Steciak's - Larry Unger and Ginny Snowe",
+      "books": [
+        "tunes"
+      ]
     }
   ],
   "pending": [

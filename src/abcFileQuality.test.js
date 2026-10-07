@@ -1,5 +1,6 @@
 /**
  * Runs the in-app Bulk Check plus tunebook import conventions over an ABC file.
+ * B: lines must name books from bookTaxonomy TARGET_BOOKS.
  *
  *   ABC_QUALITY_FILE=path/to/file.abc CI=true npm test -- --watchAll=false src/abcFileQuality.test.js
  *
@@ -8,6 +9,7 @@
 import fs from 'fs';
 import useAbcTools from './useAbcTools';
 import { buildTuneCheckReport } from './tuneBulkCheckReport';
+import { TARGET_BOOKS } from './bookTaxonomy';
 
 const FILE = process.env.ABC_QUALITY_FILE;
 const MAX_VOICES = 4;
@@ -30,7 +32,9 @@ function conventionIssues(tune, abcTools) {
   if (!Array.isArray(tune.tags) || tune.tags.length === 0) issues.push('no tags');
   if (!Array.isArray(tune.links) || !tune.links.some(function(l) { return l && l.link; })) issues.push('no links');
   if (voiceKeys.length > MAX_VOICES) issues.push(voiceKeys.length + ' voices (limit ' + MAX_VOICES + ')');
-  if (Array.isArray(tune.books) && tune.books.length) issues.push('B: sets books ' + JSON.stringify(tune.books));
+  (tune.books || []).forEach(function(book) {
+    if (TARGET_BOOKS.indexOf(book) === -1) issues.push('B: ' + book + ' is not a tunebook book');
+  });
   if (hasNotes) {
     if (!tune.meter) issues.push('notation without M:');
     if (!tune.noteLength) issues.push('notation without L:');

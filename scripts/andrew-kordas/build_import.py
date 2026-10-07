@@ -131,18 +131,21 @@ def read_abc_file(path):
 
 def new_tune_block(x_number, tune, tag, now_ms):
     lines = ['X: %d' % x_number, 'T: ' + tune['title']]
+    book_lines = ['B: ' + book for book in tune.get('books', [])]
     src_url = ''
     if tune.get('abcFile'):
         src_url, headers, body = read_abc_file(HERE / tune['abcFile'])
         alt_titles = [h for h in headers if h.startswith('T:')]
         lines.extend(alt_titles)
         lines.append('C: ' + tune['composer'])
+        lines.extend(book_lines)
         if tune.get('notes'):
             lines.append('N:' + tune['notes'])
         lines.extend(h for h in headers if not h.startswith('T:'))
         lines.extend(body)
     else:
         lines.append('C: ' + tune['composer'])
+        lines.extend(book_lines)
         if tune.get('meter'):
             lines.append('M:' + tune['meter'])
         if tune.get('rhythm'):
@@ -221,6 +224,14 @@ def main():
     print('  with notation: ' + ', '.join(with_notation))
     print('  link only:     ' + ', '.join(without_notation))
     print('Expected %r count after import: %d' % (tag, len(tagged_before) + newly_tagged + len(new_blocks)))
+    publish = {}
+    for block in updates + new_blocks:
+        for line in block.splitlines():
+            if line.startswith('B:'):
+                book = line[2:].strip().lower()
+                publish[book] = publish.get(book, 0) + 1
+    print('Books to publish: ' + ', '.join(
+        '%s (%d)' % (b, n) for b, n in sorted(publish.items(), key=lambda kv: -kv[1])))
     print('Wrote %s' % out_dir)
     return 0
 
