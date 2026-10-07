@@ -151,6 +151,29 @@ describe('addImportDispatch', function() {
     expect(result.candidates.length).toBeGreaterThan(1);
   });
 
+  test('dispatchAddImport says the tunes are up to date when re-importing an applied file', async function() {
+    const tunebook = {
+      abcTools: mockTunebook().abcTools,
+      importAbc: function() {
+        return {
+          inserts: [],
+          updates: [],
+          localUpdates: [],
+          duplicates: [],
+          skippedUpdates: [{ id: 'u1', name: 'One' }, { id: 'u2', name: 'Two' }],
+          deletes: {},
+          tuneStatus: {},
+        };
+      },
+    };
+    const result = await dispatchAddImport(
+      'X:1\nT:One\nK:C\nC\n\nX:2\nT:Two\nK:C\nD',
+      mockContext({ tunebook: tunebook, tunes: {} })
+    );
+    expect(result.action).toBe('error');
+    expect(result.message).toBe('All 2 tunes in that file are already up to date.');
+  });
+
   test('dispatchAddImport routes bulk textarea in bulk mode to review', async function() {
     const result = await dispatchAddImport('My Song by Me', mockContext({ bulkMode: true }));
     expect(result.action).toBe('review');

@@ -22,8 +22,8 @@ export default function AbcImportBatchModal(props) {
       </Modal.Header>
       <Modal.Body>
         <p className="text-muted small mb-3">
-          Matching by tune id where possible. Apply certain updates and new tunes in one step,
-          or review only the items that need a decision (local-newer, duplicates, library title matches).
+          Matching by tune id where possible. Apply certain updates and new tunes in one step
+          (anything needing a decision opens in review), or review every item in the queue.
         </p>
         <ImportBatchSummaryPanel
           summary={summary}

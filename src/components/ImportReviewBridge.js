@@ -102,7 +102,7 @@ import {
 } from '../abcImportBatchStore'
 import {
   applyCertainFromAbcBatch,
-  uncertainCandidatesForReview,
+  reviewCandidatesFromBatch,
 } from '../abcImportBatchActions'
 import AbcImportBatchModal from './AbcImportBatchModal'
 import AddAttachAnalyzeModal from './AddAttachAnalyzeModal'
@@ -745,7 +745,10 @@ export default function ImportReviewBridge(props) {
   const openAbcBatchInReview = useCallback(function(includeDuplicates) {
     const batch = getPendingAbcImportBatch()
     if (!batch) return
-    const candidates = uncertainCandidatesForReview(batch, { includeDuplicates: !!includeDuplicates })
+    const candidates = reviewCandidatesFromBatch(batch, {
+      includeDuplicates: !!includeDuplicates,
+      onlyUncertain: false,
+    })
     clearPendingAbcImportBatch()
     if (!candidates.length) {
       toast.info('Nothing left to review.')
@@ -773,15 +776,20 @@ export default function ImportReviewBridge(props) {
       clearPendingAbcImportBatch()
       if (remaining.length) {
         startReview(remaining, { entryMode: 'import' })
-      } else if (typeof props.forceRefresh === 'function') {
-        props.forceRefresh()
+      } else {
+        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+        // Close the Add form unless the user has typed into its draft.
+        if (parts.length && !sessionWithoutIdleAddDraft(getImportReviewSession())) {
+          clearImportReviewSession()
+          if (location.pathname.indexOf('/add') === 0) navigate('/tunes')
+        }
       }
     }).catch(function(e) {
       toast.error((e && e.message) || 'Could not apply import.')
     }).finally(function() {
       setAbcBatchBusy(false)
     })
-  }, [props.tunebook, props.forceRefresh, startReview])
+  }, [props.tunebook, props.forceRefresh, startReview, location.pathname, navigate])
 
   const cancelAbcBatch = useCallback(function() {
     clearPendingAbcImportBatch()

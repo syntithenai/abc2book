@@ -172,7 +172,10 @@ function reviewAbcText(abcText, ctx) {
       personalFieldPolicy: 'full',
     });
     if (!classified.candidates.length && !(classified.summary && classified.summary.deletes)) {
-      return errorResult('No tunes found in that import.');
+      const upToDate = (classified.summary && classified.summary.skippedUpdates) || 0;
+      return errorResult(upToDate
+        ? 'All ' + upToDate + ' tune' + (upToDate === 1 ? ' in that file is' : 's in that file are') + ' already up to date.'
+        : 'No tunes found in that import.');
     }
     const batchSummary = buildBatchSummaryFromClassifier(classified);
     if (shouldShowAbcBatchSummary(classified)) {
