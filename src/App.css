@@ -2830,6 +2830,7 @@ a.header-now-playing-label:focus {
   height: var(--tune-search-control-height) !important;
   min-height: var(--tune-search-control-height) !important;
   box-sizing: border-box;
+  margin-right: 0.65em;
 }
 
 .tune-search-starred-filter-btn {
@@ -2860,7 +2861,6 @@ a.header-now-playing-label:focus {
   text-decoration: none;
   display: inline-flex;
   align-items: stretch;
-  margin-right: 0.65em;
   height: var(--tune-search-control-height);
 }
 

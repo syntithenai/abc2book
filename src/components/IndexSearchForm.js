@@ -361,6 +361,14 @@ export default function IndexSearchForm(props) {
                                 <span className="tune-search-books-count">{tuneCount}</span>
                             </Button>
                         </Link>
+                        <Button
+                            className="tune-search-clear-all"
+                            variant="danger"
+                            title="Clear all filters"
+                            onClick={clearAllFilters}
+                        >
+                            {props.tunebook.icons.closecircle}
+                        </Button>
                         <span className="tune-search-heading">Search</span>
                         <div className="tune-search-input-wrap">
                             <input
@@ -445,14 +453,6 @@ export default function IndexSearchForm(props) {
                                 {renderListDisplayModeToggle(false)}
                             </span>
                         ) : null}
-                        <Button
-                            className="tune-search-clear-all"
-                            variant="danger"
-                            title="Clear all filters"
-                            onClick={clearAllFilters}
-                        >
-                            {props.tunebook.icons.closecircle}
-                        </Button>
                     </div>
                     {hasActiveSearchFilters ? (
                         <div className="tune-search-filters">
