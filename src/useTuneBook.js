@@ -2656,7 +2656,7 @@ The main difference between the two functions is the additional condition in app
         return startNowPlayingQueue(queue, navigateFn)
     }
     
-    function fillAnyPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists, filterAlbums) {
+    function fillAnyPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists, filterAlbums, startOptions) {
         var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: PLAYLIST_MAX_ITEMS, genreFilter: filterGenres, artistFilter: filterArtists, albumFilter: filterAlbums })
         if (!built.tunes.length) return null
         var queue = createQueue({
@@ -2664,7 +2664,7 @@ The main difference between the two functions is the additional condition in app
           name: built.name,
           source: selected ? 'selection' : 'filter',
         })
-        return startNowPlayingQueue(queue, navigateFn)
+        return startNowPlayingQueue(queue, navigateFn, startOptions)
     }
 
     function clearNowPlayingQueue() {

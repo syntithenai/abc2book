@@ -19,8 +19,6 @@ import {
   scrollBooksPageSection,
 } from '../recentTunes'
 import { trackBookSectionClick } from '../analytics'
-import { resolvePlaybackForItem } from '../nowPlayingQueue'
-import { requestNavigatePlayback } from '../tunePlaybackActions'
 import { generateCurrentPlaylist } from '../generateCurrentPlaylist'
 import { createQueue } from '../nowPlayingQueue'
 import { toast } from 'react-toastify'
@@ -333,53 +331,24 @@ export default function BooksPage(props) {
     }
 
     function playFilteredCollection(book, tags, genres, artists, applyFilterFn) {
-        // 1) Build the queue (no navigate yet — we drive navigation explicitly
-        //    below so we can arm the playback engine first).
         if (typeof applyFilterFn === 'function') applyFilterFn()
+        var mediaController = props.mediaController
+        // startPlayback walks to the first item playable under the queue's MIDI
+        // preference (Skip passes over notation-only tunes), unlocks audio in
+        // this click gesture, then navigates to that tune's play route.
         var tuneId = props.tunebook.fillAnyPlaylist(
             book || '',
             '',
             tags || [],
-            null,
+            mediaController ? navigate : null,
             genres || [],
-            artists || []
+            artists || [],
+            null,
+            mediaController ? { startPlayback: true, mediaController: mediaController } : undefined
         )
-        if (!tuneId) {
+        if (!tuneId || !mediaController) {
             navigate('/tunes')
-            return
         }
-
-        var mediaController = props.mediaController
-        var tune = props.tunes && props.tunes[tuneId]
-        if (!mediaController || !tune) {
-            navigate('/tunes')
-            return
-        }
-
-        // 2) Unlock audio contexts inside the click gesture (required for the very
-        //    first playback; later auto-advances rely on this already being unlocked).
-        if (mediaController.preparePlaybackFromUserGesture) {
-            mediaController.preparePlaybackFromUserGesture()
-        }
-
-        // 3) Arm a pending play request, then navigate so playback starts when
-        //    the play route mounts (same path as books-page per-tune play).
-        var item = { tuneId: tuneId, prefer: 'auto' }
-        var target = resolvePlaybackForItem(tune, item, props.tunebook)
-        if (!target || target.type === 'external') {
-            navigate('/tunes')
-            return
-        }
-        var normalizedTarget = target.type === 'midi'
-            ? { type: 'midi' }
-            : { type: 'media', linkNum: target.linkNum != null ? target.linkNum : 0 }
-        requestNavigatePlayback(
-            mediaController,
-            props.tunebook,
-            navigate,
-            tune,
-            normalizedTarget
-        )
     }
 
     function handleGeneratePlaylist() {
