@@ -492,31 +492,9 @@ fi
 
 # --- locale audio release ---------------------------------------------------
 
-log "5/6 YogApp locale audio packs → GitHub Release ${AUDIO_RELEASE_TAG:-audio-v1}"
-if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
-  (
-    cd "$YOGAPP"
-    if [[ "$DRY_RUN" -eq 1 ]]; then
-      if [[ "$FORCE_ALL" -eq 1 ]]; then
-        run bash scripts/publish-locale-audio.sh --dry-run --force
-      else
-        run bash scripts/publish-locale-audio.sh --dry-run
-      fi
-    else
-      [[ -x scripts/publish-locale-audio.sh || -f scripts/publish-locale-audio.sh ]] \
-        || die "missing $YOGAPP/scripts/publish-locale-audio.sh"
-      if [[ "$FORCE_ALL" -eq 1 ]]; then
-        run bash scripts/publish-locale-audio.sh --force
-      else
-        run bash scripts/publish-locale-audio.sh
-      fi
-    fi
-  )
-elif [[ "$DO_LOCALE_AUDIO" -eq 0 ]]; then
-  log "skip locale audio (--no-locale-audio)"
-else
-  log "skip locale audio upload (--no-push / --no-commit)"
-fi
+# Voice audio packs are published from yogapp (npm run publish:locale-audio)
+# to https://syntithenai.github.io/yogapp-audio/ — not from this repo.
+log "5/6 YogApp voice audio packs: published from yogapp, skipped here"
 
 # --- git / Pages ------------------------------------------------------------
 
@@ -586,11 +564,7 @@ if [[ "$NEED_RESOLVER" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
 else
   echo "  Hosted resolver: skipped"
 fi
-if [[ "$DO_LOCALE_AUDIO" -eq 1 && "$DO_PUSH" -eq 1 ]]; then
-  echo "  Locale audio:   https://tunebook.net/yoga/audio-packs/v1/ (+ GitHub Release ${AUDIO_RELEASE_TAG:-audio-v1} backup)"
-else
-  echo "  Locale audio:   skipped"
-fi
+echo "  Voice audio:    https://syntithenai.github.io/yogapp-audio/v1/ (published from yogapp)"
 if [[ "$DO_PHONE_INSTALL" -eq 1 ]]; then
   echo "  Phone install:  Yoga + Tune Book (web assets re-synced into APKs)"
 else
