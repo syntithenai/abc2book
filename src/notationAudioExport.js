@@ -32,7 +32,7 @@ function renderAbcVisual(abc) {
   }
 }
 
-async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOptions) {
+function buildAbcSynthInit(abc, audioContext, soundFontPlan, synthOptions) {
   const opts = synthOptions || {}
   const visualObj = renderAbcVisual(abc)
   if (!visualObj) {
@@ -100,8 +100,23 @@ async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOpti
   if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0) {
     initOptions.options.midiTranspose = parseInt(visualObj.visualTranspose, 10)
   }
+  return {
+    synth: synth,
+    initOptions: initOptions,
+    visualObj: visualObj,
+    soundingWrittenMap: soundingWrittenMap,
+    audibleMsPerMeasure: audibleMsPerMeasure,
+  }
+}
 
-  await synth.init(initOptions)
+async function primeAbcToAudioBuffer(abc, audioContext, soundFontPlan, synthOptions) {
+  const built = buildAbcSynthInit(abc, audioContext, soundFontPlan, synthOptions)
+  const synth = built.synth
+  const visualObj = built.visualObj
+  const soundingWrittenMap = built.soundingWrittenMap
+  const audibleMsPerMeasure = built.audibleMsPerMeasure
+
+  await synth.init(built.initOptions)
   const primeResult = await synth.prime()
   const buffer = typeof synth.getAudioBuffer === 'function'
     ? synth.getAudioBuffer()
@@ -191,6 +206,9 @@ export async function renderAbcToAudioBuffer(abc, options) {
   }
 
   const audioContext = new AudioContextClass()
+  // CreateSynth.init registers its context as the abcjs global; restore the live
+  // one afterwards so a closed render context is not left behind.
+  const previousAbcjsContext = window.abcjsAudioContext
   const candidates = soundFontCandidates(opts.tune)
   let lastError = null
   const renderStartedAt = Date.now()
@@ -219,10 +237,35 @@ export async function renderAbcToAudioBuffer(abc, options) {
     }
     throw lastError || new Error('Could not render notation audio')
   } finally {
+    if (window.abcjsAudioContext === audioContext) {
+      if (previousAbcjsContext && previousAbcjsContext.state !== 'closed') {
+        window.abcjsAudioContext = previousAbcjsContext
+      } else {
+        delete window.abcjsAudioContext
+      }
+    }
     if (audioContext.state !== 'closed' && typeof audioContext.close === 'function') {
       try {
         await audioContext.close()
       } catch (err) { /* ignore */ }
     }
   }
+}
+
+/**
+ * Load and decode the soundfont samples a tune needs into the shared abcjs
+ * sounds cache, without rendering. Used to warm the next queue tune so its
+ * prime is CPU-only when playback advances (possibly in a hidden tab).
+ * Reuses the registered abcjs AudioContext: init() would otherwise replace it.
+ */
+export async function prewarmAbcSoundSamples(abc, options) {
+  const opts = options || {}
+  if (!abc || !String(abc).trim()) return false
+  if (typeof window === 'undefined' || !abcjs.synth.supportsAudio()) return false
+  const audioContext = window.abcjsAudioContext
+  if (!audioContext || audioContext.state === 'closed') return false
+  const plan = getPlaybackSoundFontPlan({ tune: opts.tune })
+  const built = buildAbcSynthInit(abc, audioContext, plan, opts)
+  await built.synth.init(built.initOptions)
+  return true
 }

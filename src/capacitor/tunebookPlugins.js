@@ -1,5 +1,5 @@
 import { registerPlugin } from '@capacitor/core';
-import { isAndroidApp } from '../platformUtils';
+import { isAndroidApp, isMobileWebHostedAudioEnabled } from '../platformUtils';
 
 export const TunebookYoutube = registerPlugin('TunebookYoutube', {
   web: function() {
@@ -54,8 +54,9 @@ export function isNativeYoutubeAvailable() {
   return isAndroidApp();
 }
 
+/** ExoPlayer in the Android app; the <audio>-backed web plugin for hosted ABC on mobile web. */
 export function isNativeMediaPlayerAvailable() {
-  return isAndroidApp();
+  return isAndroidApp() || isMobileWebHostedAudioEnabled();
 }
 
 export function isNativeLocalMediaAvailable() {

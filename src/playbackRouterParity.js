@@ -78,7 +78,7 @@ export function classifyPlayBranch(snapshot, opts) {
   }
 
   if (s.routeMode === 'midi') {
-    if (s.prefersNative && abcMidiUsesAndroidNativePrerender()) {
+    if ((s.prefersNative || s.prefersHostedAbc) && abcMidiUsesAndroidNativePrerender()) {
       return 'midi-native';
     }
     return 'midi-synth';

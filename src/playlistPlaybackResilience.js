@@ -296,6 +296,25 @@ export function findFirstPlayableQueueIndex(queue, tunes, tunebook) {
 }
 
 /**
+ * Best-effort guess at the next queue tune with notation, for warming its audio
+ * ahead of the advance. Shuffle may pick differently; that only wastes the warm-up.
+ */
+export function peekNextNotationQueueTune(queue, tunes, tunebook) {
+  if (!isQueueActive(queue) || !tunes) return null
+  let working = queue
+  for (let i = 0; i < queue.items.length; i++) {
+    const stepped = advanceQueue(working, 1)
+    if (!stepped || stepped.atEdge || !stepped.queue) return null
+    working = stepped.queue
+    const item = getCurrentItem(working)
+    if (!item || isExternalQueueItem(item) || !item.tuneId) continue
+    const tune = tunes[item.tuneId]
+    if (tune && tuneHasMidiNotes(tune, tunebook)) return tune
+  }
+  return null
+}
+
+/**
  * Walk the queue in the given direction until a playable item is found.
  * When offline, also requires cached/offline-ready media. When online but
  * resolver login blocks library links, skips uncached proxied media.

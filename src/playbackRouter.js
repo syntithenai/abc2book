@@ -3,7 +3,7 @@
  * Returns which engine should handle play for a given context.
  */
 
-import { prefersNativeMediaPlayback } from './platformUtils';
+import { prefersNativeMediaPlayback, prefersHostedAbcPlayback } from './platformUtils';
 import {
   getChromecastOutputEnabled,
   getSnapcastOutputEnabled,
@@ -60,7 +60,7 @@ export function resolvePlaybackRoute(context) {
 
   if (ctx.isMidiPlaybackRoute) {
     return {
-      engine: prefersNativeMediaPlayback()
+      engine: prefersHostedAbcPlayback()
         ? PLAYBACK_ENGINE_ANDROID_NATIVE
         : PLAYBACK_ENGINE_NOTATION_MIDI,
       resolverRequired: false,
@@ -130,9 +130,10 @@ export function resolvePlaybackRoute(context) {
 }
 
 /**
- * Android ABC notation uses on-device WAV pre-render (notationAudioExport) rather than
- * web useAbcSynth or resolver FluidSynth. Keep engines separate until soundfont parity exists.
+ * Android (and mobile web) ABC notation uses WAV pre-render (notationAudioExport)
+ * played by a host media player rather than web useAbcSynth or resolver FluidSynth.
+ * Keep engines separate until soundfont parity exists.
  */
 export function abcMidiUsesAndroidNativePrerender() {
-  return prefersNativeMediaPlayback();
+  return prefersHostedAbcPlayback();
 }

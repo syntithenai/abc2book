@@ -109,7 +109,7 @@ function waitForNativeLoadComplete(shouldPlay) {
 
 export async function loadNativePlayer(options) {
   if (!isNativeMediaPlayerAvailable()) {
-    throw new Error('Native media player is only available in the Android app');
+    throw new Error('Hosted media player is not available on this platform');
   }
   const run = async function() {
     const opts = options || {};
@@ -247,6 +247,8 @@ export function convertNativeFilePath(filePath) {
 /** URI suitable for ExoPlayer in the native plugin (not WebView bridge URLs). */
 export function resolveNativePlaybackUri(uri) {
   if (!uri) return uri;
+  // Mobile web hosted <audio> plays in-memory renders directly.
+  if (uri.startsWith('blob:') || uri.startsWith('data:')) return uri;
   if (uri.startsWith('http://') || uri.startsWith('https://')
     || uri.startsWith('content://') || uri.startsWith('file://')) {
     if (uri.indexOf('/_capacitor_file_/') >= 0) {

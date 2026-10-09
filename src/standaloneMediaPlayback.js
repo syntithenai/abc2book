@@ -132,7 +132,8 @@ export async function syncStandaloneMediaPlaybackState() {
     emitStandaloneMediaPlaybackChange();
     return;
   }
-  if (!isNativePlayerActive()) {
+  // On web the native player (if any) is hosted notation playback, not standalone media.
+  if (!isNativePlayerActive() || !prefersNativeMediaPlayback()) {
     if (activePlaying && activeCandidate) {
       emitStandaloneMediaPlaybackChange();
       return;
@@ -164,7 +165,7 @@ export async function syncStandaloneMediaPlaybackState() {
 export function isStandaloneExternalPlaybackEngaged() {
   if (activeHtmlAudio && !activeHtmlAudio.ended) return true;
   if (!activeCandidate) return false;
-  return activePlaying || isNativePlayerActive();
+  return activePlaying || (prefersNativeMediaPlayback() && isNativePlayerActive());
 }
 
 export function isStandaloneExternalPlaybackActive() {
@@ -203,7 +204,7 @@ export async function pauseStandaloneMediaPlayback() {
     emitStandaloneMediaPlaybackChange();
     return;
   }
-  if (isNativePlayerActive() && activeCandidate) {
+  if (prefersNativeMediaPlayback() && isNativePlayerActive() && activeCandidate) {
     await pauseNativePlayer();
     activePlaying = false;
     emitStandaloneMediaPlaybackChange();
@@ -217,7 +218,7 @@ export async function resumeStandaloneMediaPlayback() {
     emitStandaloneMediaPlaybackChange();
     return;
   }
-  if (isNativePlayerActive() && activeCandidate) {
+  if (prefersNativeMediaPlayback() && isNativePlayerActive() && activeCandidate) {
     await playNativePlayer();
     activePlaying = true;
     emitStandaloneMediaPlaybackChange();
@@ -233,7 +234,7 @@ export async function stopStandaloneMediaPlayback() {
   activeCandidate = null;
   activePlaying = false;
   emitStandaloneMediaPlaybackChange();
-  if (shouldStopNative) {
+  if (shouldStopNative && prefersNativeMediaPlayback()) {
     await stopNativePlayer();
   }
 }
@@ -337,7 +338,9 @@ async function playResolverProxiedCandidate(candidate, options) {
 }
 
 function markStandaloneMediaStarted(candidate) {
-  bindStandaloneNativeListeners();
+  // Web standalone media uses its own <audio>; the web TunebookMedia plugin
+  // belongs to hosted notation playback, whose ended events are not ours.
+  if (prefersNativeMediaPlayback()) bindStandaloneNativeListeners();
   setActiveStandaloneMedia(candidate, true);
 }
 

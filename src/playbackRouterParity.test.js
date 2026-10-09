@@ -1,6 +1,8 @@
 jest.mock('./platformUtils', function() {
+  const prefersNativeMediaPlayback = jest.fn(function() { return false; });
   return {
-    prefersNativeMediaPlayback: jest.fn(function() { return false; }),
+    prefersNativeMediaPlayback: prefersNativeMediaPlayback,
+    prefersHostedAbcPlayback: function() { return prefersNativeMediaPlayback(); },
     isAndroidApp: jest.fn(function() { return false; }),
   };
 });

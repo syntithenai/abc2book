@@ -43,6 +43,38 @@ export function prefersNativeMediaPlayback() {
   return isAndroidApp();
 }
 
+/** localStorage kill switch: set to 'off' to keep mobile web on the Web Audio synth. */
+export const HOSTED_ABC_PLAYBACK_STORAGE_KEY = 'tunebook_hosted_abc_playback';
+
+/** Phone/tablet browser, not the Capacitor app shell. */
+export function isMobileWebBrowser() {
+  return isMobilePlatform() && !isCapacitorNative();
+}
+
+/**
+ * Mobile browsers suspend Web Audio when backgrounded or the screen is off, so
+ * notation is pre-rendered to WAV and played through an <audio> element there.
+ */
+export function isMobileWebHostedAudioEnabled() {
+  if (!isMobileWebBrowser()) return false;
+  try {
+    if (typeof localStorage !== 'undefined'
+      && localStorage.getItem(HOSTED_ABC_PLAYBACK_STORAGE_KEY) === 'off') {
+      return false;
+    }
+  } catch (e) { /* ignore */ }
+  return true;
+}
+
+/**
+ * ABC notation is rendered to WAV and played by a host media player (ExoPlayer
+ * in the Android app, a persistent <audio> element on mobile web) rather than
+ * the live Web Audio synth.
+ */
+export function prefersHostedAbcPlayback() {
+  return isAndroidApp() || isMobileWebHostedAudioEnabled();
+}
+
 /**
  * Google Cast Web Sender SDK (cast_sender.js) only works in desktop Chromium.
  * Capacitor WebView on Android/iOS cannot load the Cast framework.

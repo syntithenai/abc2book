@@ -18,7 +18,8 @@ import {
   markNativePlayerActive,
   isBenignNativeLoadError,
 } from './nativeMediaPlayer';
-import { prefersNativeMediaPlayback } from './platformUtils';
+import { prefersNativeMediaPlayback, prefersHostedAbcPlayback } from './platformUtils';
+import { getWebAbcCacheEntry, putWebAbcCacheBlob, hasWebAbcCacheEntry } from './webHostedAbcCache';
 import { renderAbcToAudioBuffer, estimateAbcAudioDurationSec } from './notationAudioExport';
 import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import { Capacitor } from '@capacitor/core';
@@ -41,6 +42,15 @@ let abcNativeLoadChain = Promise.resolve();
 
 export function shouldUseAndroidNativePlayer() {
   return prefersNativeMediaPlayback();
+}
+
+/** ABC WAV pre-render plays through the host player (ExoPlayer, or <audio> on mobile web). */
+export function shouldUseHostedAbcPlayer() {
+  return prefersHostedAbcPlayback();
+}
+
+function usesWebHostedAbcCache() {
+  return shouldUseHostedAbcPlayer() && !shouldUseAndroidNativePlayer();
 }
 
 export function isAbcNativePlayInFlight() {
@@ -71,7 +81,7 @@ function enqueueAbcNativeExoLoad(generation, loadFn) {
 }
 
 export function ensureAndroidNativeListeners(handlers) {
-  if (!shouldUseAndroidNativePlayer()) return;
+  if (!shouldUseHostedAbcPlayer()) return;
   callbacks = Object.assign({}, callbacks, handlers || {});
   if (removeListeners) return;
   const removes = [];
@@ -118,8 +128,19 @@ export async function playAndroidNativeBlob(blob, options) {
 }
 
 export async function playAndroidNativeUri(uri, options) {
-  if (!shouldUseAndroidNativePlayer()) return false;
   const opts = options || {};
+  if (usesWebHostedAbcCache() && uri && uri.startsWith('blob:')) {
+    await loadNativePlayer({
+      uri: uri,
+      title: opts.title || 'Tunebook',
+      artist: opts.artist || '',
+      positionMs: (opts.positionSec || 0) * 1000,
+      play: opts.play !== false,
+      tempo: opts.tempo,
+    });
+    return true;
+  }
+  if (!shouldUseAndroidNativePlayer()) return false;
   if (uri && uri.startsWith('blob:')) {
     return playAndroidNativeBlobUrl(uri, opts);
   }
@@ -196,8 +217,11 @@ async function readAbcNativeCacheUri(tuneId, tempo, minDurationSec) {
   }
 }
 
-async function writeAbcNativeCache(tuneId, tempo, blob) {
+async function writeAbcNativeCache(tuneId, tempo, blob, meta) {
   const path = getAbcNativeCachePath(tuneId, tempo);
+  if (usesWebHostedAbcCache()) {
+    return putWebAbcCacheBlob(path, blob, meta && meta.durationSec, meta);
+  }
   const filename = path.replace(/^playback\//, '');
   return writeBlobToCacheUri(blob, filename);
 }
@@ -206,13 +230,7 @@ function isGenerationCurrent(generation) {
   return generation === abcNativePlayGeneration;
 }
 
-export async function renderAndPlayAbcNative(abc, options) {
-  if (!shouldUseAndroidNativePlayer()) return false;
-  const generation = ++abcNativePlayGeneration;
-  abcNativePlayInFlight = true;
-  const opts = options || {};
-  const tuneId = opts.tune && opts.tune.id ? opts.tune.id : null;
-  const tempo = opts.tempo > 0 ? opts.tempo : 1;
+function resolveMinDurationSec(abc, opts) {
   let minDurationSec = opts.minDurationSec > 0 ? opts.minDurationSec : 0;
   if (!(minDurationSec > 0) && abc) {
     minDurationSec = estimateAbcAudioDurationSec(abc, {
@@ -220,50 +238,120 @@ export async function renderAndPlayAbcNative(abc, options) {
       tunebook: opts.tunebook,
     });
   }
+  return minDurationSec;
+}
+
+/** Cached play URI (and, on web, the render meta) for a tune at a tempo. */
+async function readHostedAbcCache(tuneId, tempo, minDurationSec) {
+  if (!tuneId) return null;
+  if (usesWebHostedAbcCache()) {
+    const entry = getWebAbcCacheEntry(getAbcNativeCachePath(tuneId, tempo), minDurationSec);
+    return entry ? { uri: entry.url, meta: entry.meta } : null;
+  }
+  const uri = await readAbcNativeCacheUri(tuneId, tempo, minDurationSec);
+  return uri ? { uri: uri, meta: null } : null;
+}
+
+/** Render ABC to WAV and store it in the host cache. Returns { uri, meta }. */
+async function renderAbcToHostedCache(abc, opts, tuneId, tempo, minDurationSec, isCurrent) {
+  logPlaybackDebug('abc-native-render', { tuneId: tuneId });
+  const rendered = await renderAbcToAudioBuffer(abc, {
+    tune: opts.tune,
+    tunebook: opts.tunebook,
+    chordsOff: opts.chordsOff,
+    includeMeta: true,
+  });
+  const buffer = rendered && rendered.buffer ? rendered.buffer : rendered;
+  if (!isCurrent()) return null;
+  logPlaybackDebug('abc-native-rendered', {
+    tuneId: tuneId,
+    durationSec: buffer.duration,
+  });
+  const meta = {
+    soundingWrittenMap: rendered.soundingWrittenMap || null,
+    audibleMsPerMeasure: rendered.audibleMsPerMeasure || 0,
+    durationSec: buffer.duration,
+  };
+  const blob = encodeAudioBufferToWav(buffer);
+  if (minDurationSec > 0 && buffer.duration < minDurationSec * 0.85) {
+    throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
+  }
+  if (buffer.duration < 1) {
+    throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
+  }
+  let uri;
+  if (tuneId) {
+    uri = await writeAbcNativeCache(tuneId, tempo, blob, meta);
+  } else if (usesWebHostedAbcCache()) {
+    uri = putWebAbcCacheBlob('playback/untitled-' + Date.now(), blob, meta.durationSec, meta);
+  } else {
+    uri = await writeBlobToCacheUri(blob, 'playback-' + Date.now() + '.wav');
+  }
+  return { uri: uri, meta: meta };
+}
+
+let prerenderInFlightKey = null;
+
+/**
+ * Render a (next queue) tune into the host cache without playing it, so the
+ * advance can start immediately — rendering from a backgrounded mobile tab is
+ * unreliable. No-op when already cached or another prerender is running.
+ */
+export async function prerenderHostedAbc(abc, options) {
+  if (!shouldUseHostedAbcPlayer()) return false;
+  const opts = options || {};
+  const tuneId = opts.tune && opts.tune.id ? opts.tune.id : null;
+  if (!tuneId || !abc) return false;
+  const tempo = opts.tempo > 0 ? opts.tempo : 1;
+  const key = getAbcNativeCachePath(tuneId, tempo);
+  if (usesWebHostedAbcCache() && hasWebAbcCacheEntry(key)) return true;
+  if (prerenderInFlightKey === key) return false;
+  const minDurationSec = resolveMinDurationSec(abc, opts);
+  const cached = await readHostedAbcCache(tuneId, tempo, minDurationSec);
+  if (cached) return true;
+  prerenderInFlightKey = key;
   try {
-    let playUri = tuneId ? await readAbcNativeCacheUri(tuneId, tempo, minDurationSec) : null;
-    let fromCache = !!playUri;
+    const result = await renderAbcToHostedCache(abc, opts, tuneId, tempo, minDurationSec, function() {
+      return true;
+    });
+    return !!(result && result.uri);
+  } catch (e) {
+    logPlaybackDebug('abc-native-prerender-failed', { tuneId: tuneId, message: e && e.message });
+    return false;
+  } finally {
+    if (prerenderInFlightKey === key) prerenderInFlightKey = null;
+  }
+}
+
+export async function renderAndPlayAbcNative(abc, options) {
+  if (!shouldUseHostedAbcPlayer()) return false;
+  const generation = ++abcNativePlayGeneration;
+  abcNativePlayInFlight = true;
+  const opts = options || {};
+  const tuneId = opts.tune && opts.tune.id ? opts.tune.id : null;
+  const tempo = opts.tempo > 0 ? opts.tempo : 1;
+  const minDurationSec = resolveMinDurationSec(abc, opts);
+  try {
+    const cached = await readHostedAbcCache(tuneId, tempo, minDurationSec);
+    let playUri = cached ? cached.uri : null;
     if (!isGenerationCurrent(generation)) {
       return false;
     }
 
     if (playUri) {
       logPlaybackDebug('abc-native-cache-hit', { tuneId: tuneId });
+      if (cached.meta && typeof opts.onPlaybackMeta === 'function') {
+        opts.onPlaybackMeta(cached.meta);
+      }
     } else {
-      fromCache = false;
-      logPlaybackDebug('abc-native-render', { tuneId: tuneId });
-      const rendered = await renderAbcToAudioBuffer(abc, {
-        tune: opts.tune,
-        tunebook: opts.tunebook,
-        chordsOff: opts.chordsOff,
-        includeMeta: true,
+      const rendered = await renderAbcToHostedCache(abc, opts, tuneId, tempo, minDurationSec, function() {
+        return isGenerationCurrent(generation);
       });
-      const buffer = rendered && rendered.buffer ? rendered.buffer : rendered;
-      if (!isGenerationCurrent(generation)) return false;
-      logPlaybackDebug('abc-native-rendered', {
-        tuneId: tuneId,
-        durationSec: buffer.duration,
-      });
+      if (!rendered || !isGenerationCurrent(generation)) return false;
       if (typeof opts.onPlaybackMeta === 'function') {
-        opts.onPlaybackMeta({
-          soundingWrittenMap: rendered.soundingWrittenMap || null,
-          audibleMsPerMeasure: rendered.audibleMsPerMeasure || 0,
-          durationSec: buffer.duration,
-        });
+        opts.onPlaybackMeta(rendered.meta);
       }
-      const blob = encodeAudioBufferToWav(buffer);
-      if (minDurationSec > 0 && buffer.duration < minDurationSec * 0.85) {
-        throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
-      }
-      if (buffer.duration < 1) {
-        throw new Error('Rendered notation audio is too short (' + buffer.duration.toFixed(2) + 's)');
-      }
-      if (tuneId) {
-        playUri = await writeAbcNativeCache(tuneId, tempo, blob);
-      } else {
-        playUri = await writeBlobToCacheUri(blob, 'playback-' + Date.now() + '.wav');
-      }
-      if (!isGenerationCurrent(generation)) return false;
+      playUri = rendered.uri;
     }
 
     const loadedOk = await enqueueAbcNativeExoLoad(generation, function() {
@@ -366,7 +454,7 @@ export async function playAndroidNativePlayer() {
 }
 
 export async function resumeAndroidNativePlayback() {
-  if (!shouldUseAndroidNativePlayer()) return false;
+  if (!shouldUseHostedAbcPlayer()) return false;
   if (!isNativePlayerActive()) return false;
   const state = await getNativePlayerState();
   if (state.isPlaying) return true;
@@ -383,7 +471,7 @@ export async function seekAndroidNativePlayer(positionSec) {
 }
 
 export async function stopAndroidNativePlayer() {
-  if (!shouldUseAndroidNativePlayer()) return false;
+  if (!shouldUseHostedAbcPlayer()) return false;
   await stopNativePlayer();
   return true;
 }

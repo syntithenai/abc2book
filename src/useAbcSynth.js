@@ -11,6 +11,7 @@ import { programOffsetsForPlaybackPlan, abcjsPlaybackSynthOptions } from './abcS
 import { clearAbcjsSoundsCache, clearRejectedAbcjsSoundsCache } from './abcjsSoundsCache'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import PitchTempoShifter from './pitchTempoShifter'
+import { createHiddenTabPlaybackClock } from './hiddenTabPlaybackClock'
 import { getPlaybackSettings, combinedPitchSemitones } from './pitchTempoUtils'
 import {
     shouldMirrorMidiPlaybackCursor,
@@ -129,6 +130,8 @@ export default function useAbcSynth(props) {
     const isLoading = useRef(null)
     const currentTime = useRef(0)
     const pitchShifterRef = useRef(null)
+    /** { ctxTime, offsetSec } when the plain abcjs buffer (no shifter) is audible. */
+    const nativeBufferClockRef = useRef(null)
     const pitchShifterBufferRef = useRef(null)
     const pitchTempoSettingsRef = useRef({ tempo: 1.0, pitch: 0, fineTune: 0 })
     const playalongOutputLatencyInTimelineRef = useRef({
@@ -423,11 +426,29 @@ export default function useAbcSynth(props) {
         const dur = gmidiBuffer.current && gmidiBuffer.current.duration > 0
             ? gmidiBuffer.current.duration
             : 0
-        const pos = pitchShifterRef.current
-            && typeof pitchShifterRef.current.getCurrentTime === 'function'
-            ? pitchShifterRef.current.getCurrentTime()
-            : (currentTime.current || 0)
-        return isMidiBufferNearNaturalEnd(dur, pos)
+        return isMidiBufferNearNaturalEnd(dur, getAudioClockPositionSec())
+    }
+
+    /** Buffer seconds from the audio clock; currentTime.current goes stale in hidden tabs. */
+    function getAudioClockPositionSec() {
+        const shifter = pitchShifterRef.current
+        if (shifter && typeof shifter.getCurrentTime === 'function') {
+            return shifter.getCurrentTime()
+        }
+        const anchor = nativeBufferClockRef.current
+        const ctx = gaudioContext.current
+        if (anchor && ctx) {
+            return anchor.offsetSec + Math.max(0, ctx.currentTime - anchor.ctxTime)
+        }
+        return currentTime.current || 0
+    }
+
+    function isWebAudioOutputLive() {
+        const shifter = pitchShifterRef.current
+        if (shifter) {
+            return typeof shifter.isConnected === 'function' && shifter.isConnected()
+        }
+        return !!nativeBufferClockRef.current
     }
 
     function finishNaturalPlayback(endRewindOpts) {
@@ -516,6 +537,7 @@ export default function useAbcSynth(props) {
     }
 
     function stopNativeMidiBufferOutput() {
+        nativeBufferClockRef.current = null
         if (!gmidiBuffer.current) return
         try {
             // Prefer pause so the primed buffer stays restartable after natural end.
@@ -630,6 +652,13 @@ export default function useAbcSynth(props) {
         if (gmidiBuffer.current) {
             // Native abcjs buffer cannot be scheduled into the future — it starts now.
             gmidiBuffer.current.start()
+            if (ctx) {
+                const bufDur = gmidiBuffer.current.duration > 0 ? gmidiBuffer.current.duration : 0
+                nativeBufferClockRef.current = {
+                    ctxTime: ctx.currentTime,
+                    offsetSec: Math.max(0, startRatio) * bufDur,
+                }
+            }
             return {
                 ok: true,
                 actualStartAudioTime: ctx ? ctx.currentTime : null,
@@ -639,7 +668,7 @@ export default function useAbcSynth(props) {
     }
 
     function tryResumeSynthAndStart() {
-        if (prefersNativeMediaPlayback()) return false
+        if (hostOwnsAbcOutput()) return false
         if (getForceStop() || playbackFinishedRef.current) return false
         if (isSynthSeekGuardActive()) return false
         if (props.mediaController) {
@@ -919,6 +948,16 @@ export default function useAbcSynth(props) {
         return false
     }
 
+    /**
+     * ExoPlayer (Android app) or the hosted <audio> player (mobile web) plays
+     * notation for the media controller; this synth is then display/cursor only.
+     */
+    function hostOwnsAbcOutput() {
+        if (prefersNativeMediaPlayback()) return true
+        const mc = props.mediaController
+        return !!(mc && typeof mc.hostOwnsMidiOutput === 'function' && mc.hostOwnsMidiOutput())
+    }
+
     function isMidiActivePlaybackRoute() {
         if (!props.mediaController || !props.mediaController.isMidiPlaybackRoute) {
             return true
@@ -1031,7 +1070,7 @@ export default function useAbcSynth(props) {
             } 
 
             if (mc.isPlaying !== isLastPlaying) {
-                const nativeOwnsOutput = prefersNativeMediaPlayback()
+                const nativeOwnsOutput = hostOwnsAbcOutput()
                     && shouldDeferSynthStopToNative()
                 if (!nativeOwnsOutput) {
                     if (mc.isPlaying) {
@@ -1100,7 +1139,7 @@ export default function useAbcSynth(props) {
 
      useEffect(function() {
          if (props.playbackEngine === false) return
-         if (prefersNativeMediaPlayback()) return
+         if (hostOwnsAbcOutput()) return
          if (isSynthSeekGuardActive()) return
          if (!props.mediaController) return
          if (props.mediaController.isMediaPlaybackRoute
@@ -1335,12 +1374,12 @@ export default function useAbcSynth(props) {
         const stateSec = mc && mc.currentTime
         const nativeOwns = !!(mc && (
           (typeof mc.isAndroidNativeOutputActive === 'function' && mc.isAndroidNativeOutputActive())
-          || (prefersNativeMediaPlayback() && mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()
+          || (hostOwnsAbcOutput() && mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()
             && (isAndroidNativePlayerActive() || isAbcNativePlayInFlight()))
         ))
         // While WAV is rendering, keep the staff cursor at 0 — Exo still holds the
         // paused prior media and would otherwise paint mid-score.
-        const forceStart = !!(prefersNativeMediaPlayback() && isAbcNativePlayInFlight())
+        const forceStart = !!(hostOwnsAbcOutput() && isAbcNativePlayInFlight())
         const cursorSec = (!nativeOwns && !forceStart && mc && mc.getMidiCursorSecondsRef
           && typeof mc.getMidiCursorSecondsRef.current === 'function')
           ? mc.getMidiCursorSecondsRef.current()
@@ -1495,6 +1534,69 @@ export default function useAbcSynth(props) {
         mcIsPlaying,
         mcTuneId,
     ])
+
+    // Hidden tabs: finish/repeat/advance from the audio clock, then resync
+    // TimingCallbacks to the audio position when the tab is shown again.
+    const hiddenTabClockHandlersRef = useRef(null)
+    hiddenTabClockHandlersRef.current = {
+        isActive: function() {
+            if (props.mirrorNotationPlaybackCursor) return false
+            if (!(isPlayingRef.current || isMidiPlaybackActive())) return false
+            if (playbackFinishedRef.current || getForceStop()) return false
+            if (shouldDeferSynthStopToNative()) return false
+            return isWebAudioOutputLive()
+        },
+        getDurationSec: function() {
+            if (pitchShifterRef.current && pitchShifterRef.current.duration > 0) {
+                return pitchShifterRef.current.duration
+            }
+            return gmidiBuffer.current && gmidiBuffer.current.duration > 0
+                ? gmidiBuffer.current.duration
+                : 0
+        },
+        getPositionSec: getAudioClockPositionSec,
+        getRate: function() {
+            const shifter = pitchShifterRef.current
+            if (shifter && typeof shifter.getState === 'function') {
+                return shifter.getState().tempo || 1
+            }
+            return 1
+        },
+        onNearEnd: function() {
+            handlePlaybackCompletion()
+        },
+        onVisible: function() {
+            if (!hiddenTabClockHandlersRef.current.isActive()) return
+            const dur = hiddenTabClockHandlersRef.current.getDurationSec()
+            if (!(dur > 0) || !gtimingCallbacks.current) return
+            setTimingProgressFromAudioRatio(getAudioClockPositionSec() / dur)
+            syncEnginePlaybackCursor()
+        },
+    }
+
+    useEffect(function() {
+        if (props.playbackEngine === false) return undefined
+        if (typeof document === 'undefined') return undefined
+        function handlers() {
+            return hiddenTabClockHandlersRef.current
+        }
+        const clock = createHiddenTabPlaybackClock({
+            isActive: function() { return handlers().isActive() },
+            getDurationSec: function() { return handlers().getDurationSec() },
+            getPositionSec: function() { return handlers().getPositionSec() },
+            getRate: function() { return handlers().getRate() },
+            onNearEnd: function() { handlers().onNearEnd() },
+        })
+        function onVisibilityChange() {
+            if (document.hidden) return
+            try { handlers().onVisible() } catch (e) {}
+        }
+        document.addEventListener('visibilitychange', onVisibilityChange)
+        return function() {
+            document.removeEventListener('visibilitychange', onVisibilityChange)
+            clock.dispose()
+        }
+    }, [props.playbackEngine])
      
      function getRhythmController() {
         if (!rhythmController.current) {
@@ -1735,7 +1837,7 @@ export default function useAbcSynth(props) {
       */
      function getCursorMusicSeconds() {
         const mc = props.mediaController
-        if (prefersNativeMediaPlayback() && mc
+        if (hostOwnsAbcOutput() && mc
             && ((typeof mc.isAndroidNativeOutputActive === 'function' && mc.isAndroidNativeOutputActive())
               || isAndroidNativePlayerActive())) {
             const nativeSec = typeof mc.currentTime === 'number' ? mc.currentTime : null
@@ -3102,7 +3204,7 @@ export default function useAbcSynth(props) {
     }
 
     function startPlaying(force = false) {
-        if (prefersNativeMediaPlayback()) {
+        if (hostOwnsAbcOutput()) {
             releaseMidiUiLoading()
             return
         }
@@ -3269,7 +3371,7 @@ export default function useAbcSynth(props) {
     }
 
     function shouldDeferSynthStopToNative() {
-        if (!prefersNativeMediaPlayback() || !props.mediaController) return false
+        if (!hostOwnsAbcOutput() || !props.mediaController) return false
         const mc = props.mediaController
         if (typeof mc.isAndroidNativeOutputActive === 'function' && mc.isAndroidNativeOutputActive()) {
             return true
@@ -3303,7 +3405,7 @@ export default function useAbcSynth(props) {
 
     function stopMidiSynth() {
         stopMetronome()
-        if (prefersNativeMediaPlayback()) {
+        if (hostOwnsAbcOutput()) {
             pauseMidiSynth()
             return
         }
@@ -3334,7 +3436,7 @@ export default function useAbcSynth(props) {
     }
 
     function beginMidiPlayback(options) {
-        if (prefersNativeMediaPlayback()) {
+        if (hostOwnsAbcOutput()) {
             releaseMidiUiLoading()
             return false
         }
@@ -3625,6 +3727,7 @@ export default function useAbcSynth(props) {
         if (props.mediaController) {
           assignMediaControllerRef(props.mediaController, 'soundingWrittenMapRef', null)
         }
+        nativeBufferClockRef.current = null
         try {
           destroyPitchShifter()
           if (gmidiBuffer.current)  gmidiBuffer.current.stop()
@@ -4098,7 +4201,7 @@ export default function useAbcSynth(props) {
   }
     
   function startPrimedTune(force = false) {
-    if (prefersNativeMediaPlayback()) {
+    if (hostOwnsAbcOutput()) {
       return
     }
     var emergencyStop = getForceStop()
