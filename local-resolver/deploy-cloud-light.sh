@@ -89,7 +89,6 @@ gcloud run deploy tunebook-resolver-light \
   --port=8080 \
   --memory=512Mi \
   --cpu=1 \
-  --no-cpu-throttling \
   --timeout=300 \
   --max-instances=3 \
   --env-vars-file="$ENV_FILE" \
