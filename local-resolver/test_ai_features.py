@@ -4,6 +4,7 @@ import unittest
 from unittest.mock import patch
 
 from fastapi import HTTPException
+from fastapi.testclient import TestClient
 
 import ai_features
 import billing
@@ -125,6 +126,38 @@ class ProviderGateTests(unittest.TestCase):
                 llm_runtime.materialize_llm_config(None)
 
 
+class AiRouteGateTests(unittest.TestCase):
+    def test_full_model_routes_return_503(self):
+        with patch.object(server, "AI_FEATURES_ENABLED", False):
+            client = TestClient(server.app)
+            for path in (
+                "/detect-chords",
+                "/detect-timing",
+                "/analyze-media",
+                "/discover-composer",
+                "/discover-genre",
+                "/separate-stems",
+                "/generate-audio",
+            ):
+                response = client.post(path, json={})
+                self.assertEqual(response.status_code, 503, path)
+                self.assertIn("ai_features_disabled", response.text, path)
+
+    def test_light_model_routes_return_503(self):
+        with patch.object(server_light, "AI_FEATURES_ENABLED", False):
+            client = TestClient(server_light.app)
+            cases = (
+                ("/transcribe", None, "whisper"),
+                ("/provider-llm-chat", {"messages": []}, "llm"),
+                ("/transcribe-sheet-image", {}, "sheetImageOcr"),
+                ("/separate-stems", None, "stems"),
+            )
+            for path, body, feature in cases:
+                response = client.post(path, json=body) if body is not None else client.post(path)
+                self.assertEqual(response.status_code, 503, path)
+                self.assertIn("ai_features_disabled:" + feature, response.text, path)
+
+
 class BillingPurchaseGateTests(unittest.TestCase):
     def test_purchases_enabled_defaults_true(self):
         with patch.dict("os.environ", {}, clear=True), patch.object(
@@ -150,6 +183,18 @@ class BillingPurchaseGateTests(unittest.TestCase):
             fields = billing.billing_health_fields(None)
         self.assertFalse(fields["billingEnabled"])
         self.assertFalse(fields["purchasesEnabled"])
+
+    def test_checkout_returns_503_when_purchases_disabled(self):
+        import billing_stripe
+
+        with patch.object(billing, "BILLING_ENABLED", True), patch.object(
+            billing_stripe, "purchases_enabled", return_value=False
+        ):
+            response = TestClient(server_light.app).post(
+                "/billing/create-checkout-session", json={"pack_id": "pack_1"}
+            )
+        self.assertEqual(response.status_code, 503)
+        self.assertIn("purchases_disabled", response.text)
 
 
 if __name__ == "__main__":
