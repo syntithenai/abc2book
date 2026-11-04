@@ -12,7 +12,6 @@ import {
   getScratchpadTranscribeUseLabel,
   getScratchpadTranscribeBackgroundStartMessage,
 } from '../../scratchpadTranscribeAccess'
-import { openCreditSettings } from '../../resolverCreditAccess'
 import { enqueueScratchpadTranscribeJob } from '../../scratchpadBackgroundJobs'
 import ScratchpadWorkspaceDialog from './ScratchpadWorkspaceDialog'
 import { resolveResolverAccessToken } from '../../resolverAccessToken'
@@ -93,10 +92,6 @@ export default function ScratchpadTranscribeModal(props) {
       })
       return
     }
-    if (access && access.needsCredit) {
-      openCreditSettings()
-      return
-    }
     startBackgroundTranscribe()
   }
 
@@ -114,7 +109,7 @@ export default function ScratchpadTranscribeModal(props) {
           <Modal.Title>Transcribe audio</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {access && (access.needsLogin || access.needsCredit) && access.loginWarning ? (
+          {access && access.needsLogin && access.loginWarning ? (
             <Alert variant="warning" className="small">
               {access.loginWarning.message}
             </Alert>

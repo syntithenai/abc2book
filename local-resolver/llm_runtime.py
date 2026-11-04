@@ -12,6 +12,7 @@ from contextlib import contextmanager
 from contextvars import ContextVar
 from typing import Any
 
+from ai_features import AI_FEATURES_ENABLED
 from providers import openai_compat_chat_url
 
 _llm_override: ContextVar[dict | None] = ContextVar("tunebook_llm_override", default=None)
@@ -68,6 +69,8 @@ def voice_env_llm_config() -> dict:
 
 def materialize_llm_config(resolved: dict | None, *, voice: bool = False) -> dict:
     """Turn resolve_provider() output into a concrete OpenAI-compatible endpoint."""
+    if not AI_FEATURES_ENABLED:
+        raise RuntimeError("ai_features_disabled")
     if is_cloud_llm_config(resolved):
         return {
             "provider": _strip(resolved.get("provider")) or "custom",
@@ -80,6 +83,9 @@ def materialize_llm_config(resolved: dict | None, *, voice: bool = False) -> dic
 
 
 def get_active_llm_config(*, voice: bool = False) -> dict:
+    if not AI_FEATURES_ENABLED:
+        # Safety net for callers that bypass resolve_provider().
+        raise RuntimeError("ai_features_disabled")
     override = _llm_override.get()
     if is_cloud_llm_config(override):
         return {

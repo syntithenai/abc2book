@@ -20,6 +20,8 @@ from urllib.parse import urlparse
 
 import httpx
 
+from ai_features import AI_FEATURES_ENABLED
+
 BROWSER_USER_AGENT = (
     "Mozilla/5.0 (compatible; YogAppTeacherLookup/1.0; +https://yogapp.app)"
 )
@@ -142,6 +144,8 @@ def _format_sources_for_prompt(sources: list[dict[str, Any]]) -> str:
 
 def _llm_config() -> dict[str, str]:
     """Prefer Cloud light PROVIDER_LLM_*; fall back to RESEARCH_LLM_*."""
+    if not AI_FEATURES_ENABLED:
+        raise ValueError("ai_features_disabled")
     base = (
         os.getenv("PROVIDER_LLM_BASE_URL")
         or os.getenv("RESEARCH_LLM_BASE_URL")

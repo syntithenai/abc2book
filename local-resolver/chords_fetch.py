@@ -8,6 +8,7 @@ from urllib.parse import parse_qs, quote, unquote, urlparse
 
 import httpx
 
+from ai_features import AI_FEATURES_ENABLED
 from browser_fetch import (
     fetch_html_with_fallback,
     is_manual_only_host,
@@ -435,6 +436,8 @@ def apply_section_label_translations(sheet_lines, mapping):
 
 
 async def translate_cifraclub_section_labels(client, sheet_lines):
+    if not AI_FEATURES_ENABLED:
+        return sheet_lines
     labels = collect_section_labels(sheet_lines)
     labels_to_translate = [
         label for label in labels if NON_ENGLISH_SECTION_LABEL_RE.search(label)

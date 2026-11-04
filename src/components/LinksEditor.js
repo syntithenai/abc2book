@@ -55,7 +55,7 @@ import { createScratchpadItemFromLink, linkCanOpenInScratchpad } from '../scratc
 import { exportMidiLinkToScratchpad } from '../exportMidiLinkToScratchpad'
 import { scratchpadItemPath } from '../scratchpadExportToast'
 import { showResolverLoginToastForAuthError } from '../resolverLoginToast'
-import { getGatedActionLabel, openCreditSettings } from '../resolverCreditAccess'
+import { getGatedActionLabel } from '../resolverCreditAccess'
 import { getMidiExportNotationAccess } from '../midiExportNotationAccess'
 import useMidiFilePlayback from '../useMidiFilePlayback'
 import { resolveMidiLinkPlaybackData } from '../midiLinkResolve'
@@ -454,9 +454,7 @@ function LinksEditorBody(props) {
             return
         }
         if (access.needsCredit || access.cannotAfford) {
-            if (typeof window !== 'undefined') {
-                openCreditSettings()
-            }
+            setWarning('This action is not available for this account.')
             return
         }
         if (opts.onReady) opts.onReady(linkIndex)

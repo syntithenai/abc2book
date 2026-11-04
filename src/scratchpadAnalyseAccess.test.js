@@ -7,6 +7,7 @@ import {
 
 function fullResolverFeatures() {
   return {
+    ai: true,
     sheetImageOcr: true,
     sheetImage: true,
     sheetImageOmr: true,
@@ -17,6 +18,7 @@ function fullResolverFeatures() {
 
 function lightResolverFeatures() {
   return {
+    ai: true,
     sheetImageOcr: true,
     sheetImage: true,
     sheetImageOmr: false,
@@ -59,7 +61,7 @@ describe('scratchpadAnalyseAccess', function() {
           authReason: 'login_required',
         }],
       },
-      features: {},
+      features: { ai: true },
       accessToken: null,
     }, 'image')
     expect(access.showOption).toBe(true)
@@ -81,7 +83,7 @@ describe('scratchpadAnalyseAccess', function() {
           authReason: 'login_required',
         }],
       },
-      features: {},
+      features: { ai: true },
       accessToken: null,
     }, 'audio')
     expect(getScratchpadAnalyseUseLabel(access)).toBe('Login to Analyse')
@@ -124,6 +126,18 @@ describe('scratchpadAnalyseAccess', function() {
       features: fullResolverFeatures(),
     }, 'audio')
     expect(getScratchpadAnalyseChoices(audioAccess).map(function(c) { return c.id })).toEqual(['chords', 'melody', 'lyrics'])
+  })
+
+  test('hides all analyse options when the AI kill switch is off', function() {
+    const access = getScratchpadAnalyseAccess({
+      resolverChecked: true,
+      resolverAvailable: true,
+      features: Object.assign({}, fullResolverFeatures(), { ai: false }),
+    }, 'audio')
+    expect(access.showOption).toBe(false)
+    expect(access.canUse).toBe(false)
+    expect(access.choices).toEqual([])
+    expect(access.unavailableHelperText).toMatch(/disabled/)
   })
 
   test('getScratchpadAnalyseBackgroundStartMessage explains background run and completion toast', function() {

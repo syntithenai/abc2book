@@ -13,7 +13,6 @@ import {
   getScratchpadAnalyseBackgroundStartMessage,
   getScratchpadAnalyseUseLabel,
 } from '../../scratchpadAnalyseAccess'
-import { openCreditSettings } from '../../resolverCreditAccess'
 import { runScratchpadAnalyse } from '../../scratchpadAnalyse'
 import useAbcjsParser from '../../useAbcjsParser'
 import ScratchpadWorkspaceDialog from './ScratchpadWorkspaceDialog'
@@ -112,10 +111,6 @@ export default function ScratchpadAnalyseModal(props) {
       })
       return
     }
-    if (access && access.needsCredit) {
-      openCreditSettings()
-      return
-    }
     startBackgroundAnalysis()
   }
 
@@ -139,7 +134,7 @@ export default function ScratchpadAnalyseModal(props) {
           <Modal.Title>{modalTitle}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {access && (access.needsLogin || access.needsCredit) && access.loginWarning ? (
+          {access && access.needsLogin && access.loginWarning ? (
             <Alert variant="warning" className="small">
               {access.loginWarning.message}
             </Alert>

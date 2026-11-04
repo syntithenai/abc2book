@@ -4,8 +4,6 @@ import FormFieldHelp from './FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { useCreditAffordance } from '../useCreditAffordance'
-import { openCreditSettings } from '../resolverCreditAccess'
-import { formatEstimateCents } from '../creditAffordabilityClient'
 import {
   loadVoiceSettings,
   saveVoiceSettings,
@@ -53,7 +51,7 @@ export default function VoiceSettingsSection(props) {
   function handleSpeakSongTitlesChange(event) {
     const checked = event.target.checked
     if (checked && cannotAffordTts) {
-      openCreditSettings()
+      // Credit purchasing is disabled; the option stays off.
       return
     }
     setSettings(saveVoiceSettings({
@@ -127,13 +125,7 @@ export default function VoiceSettingsSection(props) {
         ) : null}
         {ttsAvailable && cannotAffordTts ? (
           <p className="app-text-muted small">
-            Insufficient prepaid credit for title announcements
-            {ttsAffordance.estimateCents != null
-              ? ' (about ' + formatEstimateCents(ttsAffordance.estimateCents) + ' per announcement)'
-              : ''}.
-            <button type="button" className="btn btn-link btn-sm p-0 align-baseline" onClick={openCreditSettings}>
-              Buy credit
-            </button>
+            Title announcements are not available for this account.
           </p>
         ) : null}
         <Form.Check

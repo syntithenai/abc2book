@@ -518,7 +518,9 @@ Set in `local-resolver/.env`:
 | `RESOLVER_ACCESS_EMAILS` | Who may use this host when auth is on; empty = any signed-in Google user; `ALL` = explicit open |
 | `MUSIC_COLLECTION_EMAILS` | Dedicated allowlist for personal music library streaming |
 | `ALLOWED_ADMIN_EMAILS` | Admin UI (billing panel, feedback) |
-| `BILLING_ENABLED` | Credit metering (default `false` locally; default `true` on Cloud Run via `RESOLVER_LIGHT_MODE`) |
+| `BILLING_ENABLED` | Credit metering (default `false` locally; default `true` on Cloud Run via `RESOLVER_LIGHT_MODE`). Keep `true` for settlement/metering/ledger. |
+| `BILLING_PURCHASES_ENABLED` | Set `false` to disable Stripe checkout only; settlement, metering and the ledger stay live |
+| `AI_FEATURES_ENABLED` | Central kill switch for every model/ML feature (LLM, Whisper, OCR/OMR, stems, TTS, generative audio) |
 | `PROVIDER_LLM_*` / `PROVIDER_WHISPER_*` / `PROVIDER_OCR_*` | Optional host-embedded cloud providers (`_PROVIDER`, `_BASE_URL`, `_API_KEY`, `_MODEL`) |
 | `RESOLVER_LIGHT_MODE` | Slim gateway: no local Whisper/Demucs/OCR (see [CLOUD_RUN.md](CLOUD_RUN.md)) |
 | `YTDLP_PROXY` | Optional host residential proxy for yt-dlp |

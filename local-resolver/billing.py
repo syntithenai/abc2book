@@ -29,6 +29,18 @@ def _billing_enabled_from_env() -> bool:
 
 
 BILLING_ENABLED = _billing_enabled_from_env()
+
+
+def _purchases_enabled_from_env() -> bool:
+    raw = os.getenv("BILLING_PURCHASES_ENABLED", "").strip()
+    if not raw:
+        return True
+    return raw.lower() not in ("0", "false", "no", "off")
+
+
+# Purchase-only kill switch. Keeps settlement, reservations, metering and the
+# ledger live so in-flight Stripe sessions still settle and existing credit works.
+BILLING_PURCHASES_ENABLED = _purchases_enabled_from_env()
 BILLING_STORE = os.getenv("BILLING_STORE", os.getenv("AUTH_SESSION_STORE", "sqlite")).strip().lower()
 BILLING_DB_PATH = os.getenv(
     "BILLING_DB_PATH",
@@ -58,6 +70,10 @@ _firestore_client = None
 
 def billing_enabled() -> bool:
     return BILLING_ENABLED
+
+
+def purchases_enabled() -> bool:
+    return bool(BILLING_ENABLED and BILLING_PURCHASES_ENABLED)
 
 
 def _use_firestore() -> bool:
@@ -966,6 +982,7 @@ def billing_health_fields(email: str | None) -> dict[str, Any]:
     if not billing_enabled():
         return {
             "billingEnabled": False,
+            "purchasesEnabled": False,
             "creditRequired": False,
             "creditBalanceCents": None,
             "creditUnlimited": True,
@@ -976,6 +993,7 @@ def billing_health_fields(email: str | None) -> dict[str, Any]:
     balance_cents = millicents_to_cents(get_balance_millicents(normalized)) if normalized else 0.0
     return {
         "billingEnabled": True,
+        "purchasesEnabled": purchases_enabled(),
         "creditRequired": True,
         "creditBalanceCents": balance_cents,
         "creditUnlimited": False,

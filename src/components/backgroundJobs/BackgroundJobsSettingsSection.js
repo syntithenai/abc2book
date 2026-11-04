@@ -46,6 +46,7 @@ import ChordReadinessCleanupTabPanel from './ChordReadinessCleanupTabPanel'
 import ActiveSearchesTabPanel from './ActiveSearchesTabPanel'
 import DriveSyncTabPanel from './DriveSyncTabPanel'
 import { isMusicGenerationAdmin } from '../../musicGenerationAdmin'
+import { getResolverFeaturesFromStatus, isAiEnabled } from '../../resolverFeatures'
 
 const TAB_RESEARCH = 'research'
 const TAB_COMPOSER_DISCOVERY = 'composer-discovery'
@@ -62,6 +63,26 @@ const TAB_SCRATCHPAD = 'scratchpad'
 const TAB_BULK_CHECK = 'bulk-check'
 const TAB_IMPORT_ENRICHMENT = 'import-enrichment'
 const TAB_ACTIVE_SEARCHES = 'active-searches'
+
+// Tabs backed by model/ML work. When the server AI switch is off they are
+// hidden unless they still hold jobs to view or cancel.
+const AI_JOB_TABS = {
+  [TAB_RESEARCH]: 'research',
+  [TAB_COMPOSER_DISCOVERY]: 'composerDiscovery',
+  [TAB_STEM_CREATE]: 'stemCreate',
+  [TAB_AUDIO_GENERATION]: 'audioGeneration',
+  [TAB_PLAYBACK_SCANS]: 'playbackScans',
+  [TAB_MEDIA_ANALYSIS]: 'mediaAnalysis',
+  [TAB_FILE_OCR]: 'fileOcr',
+  [TAB_SCRATCHPAD]: 'scratchpad',
+  [TAB_IMPORT_ENRICHMENT]: 'importEnrichment',
+}
+
+function aiTabHasJobs(tab, tabCounts) {
+  const key = AI_JOB_TABS[tab]
+  if (!key) return false
+  return (tabCounts && tabCounts[key]) > 0
+}
 
 function subscribeAllBackgroundJobStores(listener) {
   const unsubs = [
@@ -130,7 +151,8 @@ function composerDiscoveryStatusLabel(job) {
   return job.status
 }
 
-export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user, token, driveApi }) {
+export default function BackgroundJobsSettingsSection({ tunes, mediaController, initialJobsTab, user, token, driveApi, resolverStatus }) {
+  const aiEnabled = isAiEnabled(getResolverFeaturesFromStatus(resolverStatus))
   const showAudioGeneration = isMusicGenerationAdmin(user)
   const showChordCleanup = isMusicGenerationAdmin(user)
   const [searchParams, setSearchParams] = useSearchParams()
@@ -198,6 +220,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
     mediaController && mediaController.stemAnalysisProgress,
   ])
 
+  useEffect(function() {
+    if (aiEnabled) return
+    if (AI_JOB_TABS[activeTab] && !aiTabHasJobs(activeTab, tabCounts)) {
+      setActiveTab(getFirstActiveBackgroundJobTab(mediaController) || TAB_MEDIA_CACHE)
+    }
+  }, [aiEnabled, activeTab, tabCounts, mediaController])
+
   const researchErrors = useMemo(function() {
     return researchQueue.state.jobs.some(function(job) { return job.status === 'error' })
   }, [researchQueue.state.jobs])
@@ -237,16 +266,20 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
 
       <Tab.Container activeKey={activeTab} onSelect={selectJobsTab}>
         <Nav variant="tabs" className="settings-background-jobs-tabs">
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_RESEARCH}>
-              {renderTabTitle('Background research', tabCounts.research)}
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_COMPOSER_DISCOVERY}>
-              {renderTabTitle('Artist discovery', tabCounts.composerDiscovery)}
-            </Nav.Link>
-          </Nav.Item>
+          {aiEnabled || aiTabHasJobs(TAB_RESEARCH, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_RESEARCH}>
+                {renderTabTitle('Background research', tabCounts.research)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
+          {aiEnabled || aiTabHasJobs(TAB_COMPOSER_DISCOVERY, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_COMPOSER_DISCOVERY}>
+                {renderTabTitle('Artist discovery', tabCounts.composerDiscovery)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
           <Nav.Item>
             <Nav.Link eventKey={TAB_MEDIA_CACHE}>
               {renderTabTitle('Media cache', tabCounts.mediaCache)}
@@ -257,12 +290,14 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
               {renderTabTitle('Google Drive', tabCounts.googleDrive)}
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_STEM_CREATE}>
-              {renderTabTitle('Stems', tabCounts.stemCreate)}
-            </Nav.Link>
-          </Nav.Item>
-          {showAudioGeneration ? (
+          {aiEnabled || aiTabHasJobs(TAB_STEM_CREATE, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_STEM_CREATE}>
+                {renderTabTitle('Stems', tabCounts.stemCreate)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
+          {showAudioGeneration && (aiEnabled || aiTabHasJobs(TAB_AUDIO_GENERATION, tabCounts)) ? (
             <Nav.Item>
               <Nav.Link eventKey={TAB_AUDIO_GENERATION}>
                 {renderTabTitle('Audio generation', tabCounts.audioGeneration)}
@@ -276,41 +311,51 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController, 
               </Nav.Link>
             </Nav.Item>
           ) : null}
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_PLAYBACK_SCANS}>
-              {renderTabTitle('Playback scans', tabCounts.playbackScans)}
-            </Nav.Link>
-          </Nav.Item>
+          {aiEnabled || aiTabHasJobs(TAB_PLAYBACK_SCANS, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_PLAYBACK_SCANS}>
+                {renderTabTitle('Playback scans', tabCounts.playbackScans)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
           <Nav.Item>
             <Nav.Link eventKey={TAB_BULK_CHECK}>
               {renderTabTitle('Bulk check', tabCounts.bulkCheck)}
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_MEDIA_ANALYSIS}>
-              {renderTabTitle('Media analysis', tabCounts.mediaAnalysis)}
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_FILE_OCR}>
-              {renderTabTitle('File OCR', tabCounts.fileOcr)}
-            </Nav.Link>
-          </Nav.Item>
+          {aiEnabled || aiTabHasJobs(TAB_MEDIA_ANALYSIS, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_MEDIA_ANALYSIS}>
+                {renderTabTitle('Media analysis', tabCounts.mediaAnalysis)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
+          {aiEnabled || aiTabHasJobs(TAB_FILE_OCR, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_FILE_OCR}>
+                {renderTabTitle('File OCR', tabCounts.fileOcr)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
           <Nav.Item>
             <Nav.Link eventKey={TAB_IMPORT_SCANS}>
               {renderTabTitle('Import scans', tabCounts.bookImport)}
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_SCRATCHPAD}>
-              {renderTabTitle('Scratchpad', tabCounts.scratchpad)}
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey={TAB_IMPORT_ENRICHMENT}>
-              {renderTabTitle('Import enrichment', tabCounts.importEnrichment)}
-            </Nav.Link>
-          </Nav.Item>
+          {aiEnabled || aiTabHasJobs(TAB_SCRATCHPAD, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_SCRATCHPAD}>
+                {renderTabTitle('Scratchpad', tabCounts.scratchpad)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
+          {aiEnabled || aiTabHasJobs(TAB_IMPORT_ENRICHMENT, tabCounts) ? (
+            <Nav.Item>
+              <Nav.Link eventKey={TAB_IMPORT_ENRICHMENT}>
+                {renderTabTitle('Import enrichment', tabCounts.importEnrichment)}
+              </Nav.Link>
+            </Nav.Item>
+          ) : null}
           <Nav.Item>
             <Nav.Link eventKey={TAB_ACTIVE_SEARCHES}>
               {renderTabTitle('Active searches', tabCounts.activeSearches)}

@@ -94,13 +94,6 @@ export default function HelpPage(props) {
           </div>
           <div className="help-footer-row">
             <span>Source code on <a href="https://github.com/syntithenai/abc2book">Github</a></span>
-            <span className="help-footer-paypal">
-              <form action="https://www.paypal.com/donate" method="post" target="_new">
-                <input type="hidden" name="hosted_button_id" value="RPP5VCZCWSZL4" />
-                <input type="image" style={{ transform: 'rotate(20deg)', height: '60px', width: '50px' }} src="https://pics.paypal.com/00/s/OGVmNmM4NTQtMGQ0MS00NGVhLWI0NDgtNzMxYWRkMDY5NzIy/file.PNG" border="0" name="submit" title="Buy me a beer!" alt="Buy me a beer!" />
-                <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-            </span>
           </div>
           <a className="help-footer-issues" target="_new" rel="noreferrer" href="https://github.com/syntithenai/abc2book/issues">
             <button type="button">Problems or suggestions ?</button>

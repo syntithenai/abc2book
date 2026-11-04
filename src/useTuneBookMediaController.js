@@ -64,7 +64,6 @@ import {
 } from './resolverLoginToast'
 import { linkedMediaPitchPathAvailableSync } from './linkedMediaPitchPath'
 import { maybeNotifyYoutubeProxyLimitation } from './youtubeProxyLimitationToast'
-import { openCreditSettings } from './resolverCreditAccess'
 import { fetchYoutubeAudioViaNative } from './youtubeNativeClient'
 import useGoogleDocument from './useGoogleDocument'
 import {
@@ -2054,9 +2053,7 @@ export default function useTuneBookMediaController(props) {
         if (!src || !requiresResolverProxiedPlayback(src)) return false
         const block = getResolverProxiedPlaybackBlock(mediaResolverStatus, getGoogleAccessToken())
         if (!block) return false
-        toast.error(block.message, {
-            onClick: openCreditSettings,
-        })
+        toast.error(block.message)
         setIsLoading(false)
         abortPlayingIntent()
         return true

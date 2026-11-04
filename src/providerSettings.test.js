@@ -223,7 +223,7 @@ describe('providerSettings', function() {
       available: true,
       activeBase: 'http://127.0.0.1:8765',
       heavyMlBase: 'http://127.0.0.1:8765',
-      features: { stems: true, practiceAnalysis: true, sheetImageOmr: false, sheetImageOcr: true },
+      features: { ai: true, stems: true, practiceAnalysis: true, sheetImageOmr: false, sheetImageOcr: true },
       demucsModel: 'htdemucs',
       providers: { capabilities: {} },
     }, {
@@ -271,6 +271,7 @@ describe('providerSettings', function() {
       activeBase: 'http://localhost:3000',
       heavyMlBase: 'http://localhost:3000',
       features: {
+        ai: true,
         llm: true,
         whisper: true,
         sheetImageOcr: true,
@@ -298,8 +299,8 @@ describe('providerSettings', function() {
     })
   })
 
-  test('isCapabilityAvailable treats BYO LLM as available without features.llm', function() {
-    expect(isCapabilityAvailable('llm', { llm: false }, {
+  test('isCapabilityAvailable treats BYO LLM as available without features.llm when AI is on', function() {
+    expect(isCapabilityAvailable('llm', { ai: true, llm: false }, {
       llm: [{
         id: '1',
         provider: 'groq',
@@ -319,12 +320,26 @@ describe('providerSettings', function() {
       ocr: [],
       stems: [],
     })).toBe(false)
-    expect(isCapabilityAvailable('llm', { llm: true }, {
+    expect(isCapabilityAvailable('llm', { ai: true, llm: true }, {
       llm: [],
       whisper: [],
       ocr: [],
       stems: [],
     })).toBe(true)
+    expect(isCapabilityAvailable('llm', { llm: false }, {
+      llm: [{
+        id: '1',
+        provider: 'groq',
+        apiUrl: 'https://api.groq.com/openai/v1',
+        apiKey: 'gsk',
+        model: 'llama',
+        active: true,
+        capability: 'llm',
+      }],
+      whisper: [],
+      ocr: [],
+      stems: [],
+    })).toBe(false)
   })
 
   test('isStemsCapabilityAvailable is false when resolver is reachable but not authorized', function() {
@@ -351,6 +366,7 @@ describe('providerSettings', function() {
 
   test('isStemsCapabilityAvailable is true when resolver is available with stems feature', function() {
     expect(isStemsCapabilityAvailable({
+      ai: true,
       stems: true,
       lightMode: false,
     }, {
@@ -389,6 +405,7 @@ describe('providerSettings', function() {
 
   test('isStemsCapabilityAvailable is true on light gateway with BYO stems key', function() {
     expect(isStemsCapabilityAvailable({
+      ai: true,
       stems: true,
       lightMode: true,
     }, {
@@ -414,7 +431,7 @@ describe('providerSettings', function() {
       available: false,
       activeBase: null,
       heavyMlBase: 'https://resolver.example',
-      features: { stems: true },
+      features: { ai: true, stems: true },
       providers: {
         capabilities: {
           stems: { localAvailable: true, active: { source: 'local', model: 'htdemucs' } },
@@ -424,5 +441,34 @@ describe('providerSettings', function() {
     const stems = rows.find(function(r) { return r.id === 'stems' })
     expect(stems.available).toBe(false)
     expect(stems.statusLabel).toBe('Not available')
+  })
+
+  test('AI kill switch blocks BYO provider headers and status rows', function() {
+    const settings = {
+      llm: [{
+        id: '1',
+        provider: 'groq',
+        apiUrl: 'https://api.groq.com/openai/v1',
+        apiKey: 'gsk',
+        model: 'llama',
+        active: true,
+        capability: 'llm',
+      }],
+      whisper: [],
+      ocr: [],
+      stems: [],
+    }
+    expect(getActiveProviderHeaders(settings, { aiEnabled: false })).toEqual({})
+    const rows = buildProviderServiceStatusRows({
+      available: true,
+      activeBase: 'http://localhost:3000',
+      features: { ai: false, llm: true, stems: true },
+    }, settings, { webshareSaved: false, egressRequired: false })
+    const llm = rows.find(function(r) { return r.id === 'llm' })
+    const stems = rows.find(function(r) { return r.id === 'stems' })
+    expect(llm.available).toBe(false)
+    expect(llm.statusLabel).toBe('Disabled by server')
+    expect(stems.available).toBe(false)
+    expect(stems.statusLabel).toBe('Disabled by server')
   })
 })

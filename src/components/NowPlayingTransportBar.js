@@ -18,7 +18,6 @@ import {
 import { playExternalMediaItem, isStandaloneExternalPlaybackActive, isStandaloneExternalPlaybackEngaged, pauseStandaloneMediaPlayback, resumeStandaloneMediaPlayback, subscribeStandaloneMediaPlayback } from '../standaloneMediaPlayback'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { getResolverCreditLowBalanceWarning } from '../mediaProxyClient'
-import { openCreditSettings } from '../resolverCreditAccess'
 import MediaSeekSlider from './MediaSeekSlider'
 import TuneArtwork from './TuneArtwork'
 import PlaylistModeButtons, { PlaylistRepeatButton } from './PlaylistModeButtons'
@@ -376,9 +375,6 @@ export default function NowPlayingTransportBar({
       {creditWarning ? (
         <div className="now-playing-transport-credit-warning">
           <span className="small">{creditWarning.message}</span>
-          <Button variant="link" size="sm" className="p-0 ms-2 align-baseline" onClick={openCreditSettings}>
-            Buy credit
-          </Button>
         </div>
       ) : null}
       <div className="now-playing-transport-main">

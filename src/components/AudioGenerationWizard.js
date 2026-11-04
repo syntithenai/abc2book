@@ -11,7 +11,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import useAbcjsParser from '../useAbcjsParser';
 import { getAudioGenerationAccess, getPracticeTrackGenerateLabel } from '../audioGenerationAccess';
 import { useCreditAffordance } from '../useCreditAffordance';
-import { normalizeAccessToken, openCreditSettings } from '../resolverCreditAccess';
+import { normalizeAccessToken } from '../resolverCreditAccess';
 import { resolveResolverAccessToken } from '../resolverAccessToken';
 import {
   buildPracticeTrackMidiScore,
@@ -401,7 +401,7 @@ export default function AudioGenerationWizard(props) {
       return;
     }
     if (access.needsCredit || access.cannotAfford) {
-      openCreditSettings();
+      setError('Audio generation is not available for this account.');
       return;
     }
     startGeneration();

@@ -28,6 +28,7 @@ from allowlists import (
     load_resolver_access_emails,
     resolver_access_allowed,
 )
+from ai_features import AI_FEATURES_ENABLED
 from provider_cloud import chat_openai_compat, transcribe_openai_compat
 from providers import (
     is_cloud_stems_provider,
@@ -225,6 +226,15 @@ def _billing_reservation(
     )
 
 
+async def require_ai_enabled(feature: str | None = None) -> None:
+    """Reject model/ML routes when the central AI kill switch is off."""
+    if not AI_FEATURES_ENABLED:
+        detail = "ai_features_disabled"
+        if feature:
+            detail = f"{detail}:{feature}"
+        raise HTTPException(status_code=503, detail=detail)
+
+
 def light_features(allow_embedded: bool = False) -> dict[str, Any]:
     host_proxy = bool(os.getenv("YTDLP_PROXY", "").strip())
     require_egress = os.getenv("YTDLP_REQUIRE_USER_PROXY", "true").lower() in ("1", "true", "yes")
@@ -233,17 +243,18 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
         local_available=False,
         allow_embedded=allow_embedded,
     )
-    stems_available = is_cloud_stems_provider(stems_cfg)
+    stems_available = bool(AI_FEATURES_ENABLED and is_cloud_stems_provider(stems_cfg))
     oauth_bff = oauth_bff_available()
     convert_flags = score_convert_features()
     return {
+        "ai": bool(AI_FEATURES_ENABLED),
         "proxy": True,
         "stems": stems_available,
-        "whisper": True,
-        "llm": True,
+        "whisper": bool(AI_FEATURES_ENABLED),
+        "llm": bool(AI_FEATURES_ENABLED),
         "practiceAnalysis": False,
-        "sheetImage": True,  # cloud OCR only
-        "sheetImageOcr": True,
+        "sheetImage": bool(AI_FEATURES_ENABLED),  # cloud OCR only
+        "sheetImageOcr": bool(AI_FEATURES_ENABLED),
         "sheetImageOmr": False,
         "sheetImageSplit": False,
         "imageSearch": False,
@@ -417,6 +428,7 @@ async def transcribe(
 ):
     origin = request.headers.get("origin")
     try:
+        await require_ai_enabled("whisper")
         verified = await require_auth(authorization)
         flags = auth_flags(verified)
         overlay = parse_overlay_header(request.headers.get("x-tunebook-provider-whisper"))
@@ -484,6 +496,7 @@ async def provider_llm_chat(request: Request, authorization: str | None = Header
     """Generic OpenAI-compat chat via user/host LLM provider."""
     origin = request.headers.get("origin")
     try:
+        await require_ai_enabled("llm")
         verified = await require_auth(authorization)
         flags = auth_flags(verified)
         overlay = parse_overlay_header(request.headers.get("x-tunebook-provider-llm"))
@@ -1089,6 +1102,7 @@ async def transcribe_sheet_image_cloud(
     """
     origin = request.headers.get("origin")
     try:
+        await require_ai_enabled("sheetImageOcr")
         verified = await require_auth(authorization)
         flags = auth_flags(verified)
         overlay = parse_overlay_header(request.headers.get("x-tunebook-provider-ocr"))
@@ -1187,6 +1201,7 @@ async def separate_stems_cloud_endpoint(
     """Cloud Demucs via fal.ai / Replicate (BYO or host PROVIDER_STEMS_*)."""
     origin = request.headers.get("origin")
     try:
+        await require_ai_enabled("stems")
         verified = await require_auth(authorization)
         flags = auth_flags(verified)
         overlay = parse_overlay_header(request.headers.get("x-tunebook-provider-stems"))

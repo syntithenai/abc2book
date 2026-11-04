@@ -24,7 +24,7 @@ export async function synthesizeSpeech(text, accessToken) {
       const body = await response.json()
       const insufficient = parseInsufficientCreditBody(body)
       if (insufficient && insufficient.shortfallCents != null) {
-        message = 'Insufficient credit for speech synthesis'
+        message = 'Speech synthesis is not available for this account'
       } else if (body && body.error) {
         message = body.error
       }

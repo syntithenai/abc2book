@@ -10,6 +10,7 @@ from pathlib import Path
 from fastapi import File, Form, Header, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
 
+from ai_features import AI_FEATURES_ENABLED
 from midi_render import midi_render_health, render_midi_bytes_to_wav, try_render_midi_to_wav
 from music_generation.jobs import (
     create_job_id,
@@ -38,6 +39,8 @@ _audio_generation_tasks: dict[str, asyncio.Task] = {}
 
 
 def audio_generation_feature_enabled() -> bool:
+    if not AI_FEATURES_ENABLED:
+        return False
     return os.getenv("PRACTICE_TRACK_ENABLED", "true").strip().lower() in (
         "1",
         "true",

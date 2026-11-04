@@ -16,6 +16,7 @@ COPY requirements-light.txt /app/requirements-light.txt
 RUN pip install --no-cache-dir -r /app/requirements-light.txt
 
 COPY server_light.py /app/server_light.py
+COPY ai_features.py /app/ai_features.py
 COPY allowlists.py /app/allowlists.py
 COPY providers.py /app/providers.py
 COPY provider_cloud.py /app/provider_cloud.py
@@ -39,10 +40,14 @@ COPY score_convert_midi.py /app/score_convert_midi.py
 
 ENV RESOLVER_LIGHT_MODE=true
 ENV REQUIRE_AUTH=true
-ENV WHISPER_ENABLED=true
-ENV LLM_ENABLED=true
+# Central model/ML kill switch. Flip to true only when AI features are wanted.
+ENV AI_FEATURES_ENABLED=false
+# Purchase-only switch: keeps settlement/metering/ledger live.
+ENV BILLING_PURCHASES_ENABLED=false
+ENV WHISPER_ENABLED=false
+ENV LLM_ENABLED=false
 ENV PROXY_ENABLED=true
-ENV STEMS_ENABLED=true
+ENV STEMS_ENABLED=false
 ENV SHEET_IMAGE_ENABLED=false
 ENV YTDLP_REQUIRE_USER_PROXY=true
 ENV PORT=8080

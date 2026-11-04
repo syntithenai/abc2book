@@ -1,6 +1,7 @@
 import { mergeAffordanceIntoAccess, getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
 import { getOfflineBlock } from './offlineNetwork'
+import { isAiEnabled } from './resolverFeatures'
 
 function imageOcrAvailable(resolverAvailable, features) {
   return resolverAvailable && !!(features.sheetImageOcr || features.sheetImage)
@@ -10,8 +11,8 @@ function imageOmrAvailable(resolverAvailable, features) {
   return resolverAvailable && !!features.sheetImageOmr
 }
 
-function audioChordsAvailable(resolverAvailable) {
-  return !!resolverAvailable
+function audioChordsAvailable(resolverAvailable, features) {
+  return !!resolverAvailable && isAiEnabled(features)
 }
 
 function audioMelodyAvailable(resolverAvailable, features) {
@@ -45,7 +46,7 @@ function buildImageChoices(resolverAvailable, features) {
 
 function buildAudioChoices(resolverAvailable, features) {
   const choices = []
-  if (audioChordsAvailable(resolverAvailable)) {
+  if (audioChordsAvailable(resolverAvailable, features)) {
     choices.push({
       id: 'chords',
       label: 'Chords',
@@ -137,11 +138,24 @@ export function getScratchpadAnalyseAccess(context, itemType) {
   const resolverChecked = !!opts.resolverChecked
   const resolverAvailable = !!opts.resolverAvailable
   const features = opts.features || {}
+
+  if (!isAiEnabled(features)) {
+    return {
+      itemType: type,
+      showOption: false,
+      needsLogin: false,
+      needsCredit: false,
+      canUse: false,
+      loginWarning: null,
+      choices: [],
+      unavailableHelperText: 'Audio and image analysis is disabled on this resolver.',
+    }
+  }
   const loginWarning = getOfflineBlock()
     || getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
   const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
   const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
+  const creditBlocked = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
 
   if (!type) {
     return {
@@ -159,16 +173,17 @@ export function getScratchpadAnalyseAccess(context, itemType) {
     ? buildImageChoices(resolverAvailable, features)
     : buildAudioChoices(resolverAvailable, features)
   const hasUsableChoice = usableChoices.some(function(choice) { return choice.canUse })
-  const showOption = resolverChecked && (hasUsableChoice || needsLogin || needsCredit)
+  const showOption = resolverChecked && (hasUsableChoice || needsLogin)
   const baseAccess = {
     itemType: type,
     showOption: showOption,
     needsLogin: needsLogin && showOption,
-    needsCredit: needsCredit && showOption,
+    needsCredit: false,
+    creditBlocked: creditBlocked,
     needsNetwork: needsNetwork,
-    canUse: hasUsableChoice && !needsLogin && !needsCredit,
+    canUse: hasUsableChoice && !needsLogin && !creditBlocked,
     loginWarning: loginWarning,
-    choices: (needsLogin || needsCredit) ? buildLoginPlaceholderChoices(type) : usableChoices,
+    choices: needsLogin ? buildLoginPlaceholderChoices(type) : usableChoices,
     unavailableHelperText: unavailableHelperText(type, features),
   }
   return mergeAffordanceIntoAccess(baseAccess, opts.affordance)

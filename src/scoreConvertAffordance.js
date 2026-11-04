@@ -75,13 +75,8 @@ export function scoreConvertCreditMessage(affordanceState, operationLabel) {
     return 'Checking resolver credit…';
   }
   if (state.blocked) {
-    const shortfall = state.affordance && state.affordance.shortfallCents != null
-      ? formatEstimateCents(state.affordance.shortfallCents)
-      : '';
     return (
-      'Insufficient resolver credit'
-      + (shortfall ? ' (need ' + shortfall + ' more)' : '')
-      + ' for ' + (operationLabel || 'this import') + '. Buy credit in Settings → Billing.'
+      'Hosted ' + (operationLabel || 'import') + ' is not available for this account.'
     );
   }
   if (state.estimateLabel) {

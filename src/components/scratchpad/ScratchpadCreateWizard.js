@@ -16,7 +16,6 @@ import {
   prepareScratchpadCreateFiles,
   scratchpadSourcesForType,
 } from '../../scratchpadCreateImport'
-import { openCreditSettings } from '../../resolverCreditAccess'
 
 function blankImageBlob() {
   const canvas = document.createElement('canvas')
@@ -275,11 +274,6 @@ export default function ScratchpadCreateWizard(props) {
       return
     }
 
-    if (sourceKey === 'credit-import') {
-      openCreditSettings()
-      return
-    }
-
     if (sourceKey === 'drive') {
       setPendingDriveType(type)
       setShowDriveConsent(true)
@@ -369,7 +363,7 @@ export default function ScratchpadCreateWizard(props) {
           const disabled = busy
             || (itemType === 'notation' && src.key === 'import' && !notationImportAccess.canPickFile)
           const importTitle = itemType === 'notation'
-            && (src.key === 'login-import' || src.key === 'credit-import')
+            && src.key === 'login-import'
             && notationImportAccess.loginWarning
             ? notationImportAccess.loginWarning.message
             : undefined

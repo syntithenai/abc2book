@@ -7,6 +7,8 @@ import time
 
 import httpx
 
+from ai_features import AI_FEATURES_ENABLED
+
 _tts_available_cache: bool | None = None
 _tts_checked_at: float = 0.0
 TTS_HEALTH_CACHE_SECONDS = float(os.getenv("TTS_HEALTH_CACHE_SECONDS", "15"))
@@ -22,7 +24,7 @@ TTS_ENABLED = os.getenv("TTS_ENABLED", "true").strip().lower() in (
 
 
 def tts_feature_enabled() -> bool:
-    return bool(TTS_ENABLED and TTS_URL)
+    return bool(AI_FEATURES_ENABLED and TTS_ENABLED and TTS_URL)
 
 
 async def _probe_tts_available() -> bool:

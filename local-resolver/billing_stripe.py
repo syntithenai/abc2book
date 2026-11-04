@@ -12,7 +12,7 @@ from fastapi.responses import JSONResponse
 
 from urllib.parse import urlparse
 
-from billing import billing_enabled, grant_purchase
+from billing import billing_enabled, grant_purchase, purchases_enabled
 from billing_paypal import apply_paypal_cpm_to_checkout_params
 from billing_rates import CREDIT_PACKS
 
@@ -230,6 +230,12 @@ def register_stripe_billing_routes(
             return JSONResponse(
                 status_code=503,
                 content={"error": "billing_disabled"},
+                headers=cors_headers(origin),
+            )
+        if not purchases_enabled():
+            return JSONResponse(
+                status_code=503,
+                content={"error": "purchases_disabled"},
                 headers=cors_headers(origin),
             )
         if not stripe_configured():

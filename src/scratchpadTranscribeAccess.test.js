@@ -9,7 +9,7 @@ describe('scratchpadTranscribeAccess', function() {
     const access = getScratchpadTranscribeAccess({
       resolverChecked: false,
       resolverAvailable: true,
-      features: { whisper: true },
+      features: { ai: true, whisper: true },
     })
     expect(access.showOption).toBe(false)
     expect(getScratchpadTranscribeUseLabel(access)).toBe('')
@@ -38,7 +38,7 @@ describe('scratchpadTranscribeAccess', function() {
           authReason: 'login_required',
         }],
       },
-      features: {},
+      features: { ai: true },
       accessToken: null,
     })
     expect(access.showOption).toBe(true)
@@ -50,7 +50,7 @@ describe('scratchpadTranscribeAccess', function() {
     const access = getScratchpadTranscribeAccess({
       resolverChecked: true,
       resolverAvailable: true,
-      features: { whisper: true },
+      features: { ai: true, whisper: true },
     })
     expect(access.showOption).toBe(true)
     expect(access.canUse).toBe(true)
@@ -70,7 +70,7 @@ describe('scratchpadTranscribeAccess', function() {
     const access = getScratchpadTranscribeAccess({
       resolverChecked: true,
       resolverAvailable: true,
-      features: { whisper: true },
+      features: { ai: true, whisper: true },
       affordance: {
         checked: true,
         affordable: false,
@@ -82,7 +82,23 @@ describe('scratchpadTranscribeAccess', function() {
     expect(access.canUse).toBe(false)
     expect(access.needsCredit).toBe(true)
     expect(access.cannotAfford).toBe(true)
-    expect(getScratchpadTranscribeUseLabel(access)).toBe('Buy Credit to Transcribe')
+    expect(getScratchpadTranscribeUseLabel(access)).toBe('Unavailable: Transcribe')
+  })
+
+  test('hides transcribe and login when the AI kill switch is off', function() {
+    const access = getScratchpadTranscribeAccess({
+      resolverChecked: true,
+      resolverAvailable: true,
+      features: { ai: false, whisper: true },
+      resolverStatus: {
+        available: false,
+        candidates: [{ reachable: true, requireAuth: true, authReason: 'login_required' }],
+      },
+      accessToken: null,
+    })
+    expect(access.showOption).toBe(false)
+    expect(access.canUse).toBe(false)
+    expect(access.needsLogin).toBe(false)
   })
 
   test('getScratchpadTranscribeBackgroundStartMessage explains background run', function() {

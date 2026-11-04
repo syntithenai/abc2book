@@ -23,7 +23,6 @@ import SetsPage from './pages/SetsPage'
 import PracticeListsPage from './pages/PracticeListsPage'
 import { PRACTICE_LISTS_ENABLED, PRACTICE_MODE_ENABLED } from './practiceModeEnabled'
 import PrivacyPage from './pages/PrivacyPage'
-import BillingCheckoutPage from './pages/BillingCheckoutPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import FeedPage from './pages/FeedPage'
@@ -273,11 +272,9 @@ function useIsEmbeddedAppFrame() {
 }
 
 /** Header + queue host; omitted when the app is loaded in an embed iframe (e.g. Lyrics Tools). */
-/** Main shell waits for tunes unless the user landed on Stripe checkout return URLs. */
+/** Main shell waits for the book to hydrate before rendering. */
 function AppTunesGatedShell(props) {
-  const location = useLocation()
-  const billingCheckout = location.pathname === '/billing/success' || location.pathname === '/billing/cancel'
-  if (props.tunes === null && !billingCheckout) return null
+  if (props.tunes === null) return null
   return props.children
 }
 
@@ -1908,8 +1905,9 @@ function App(props) {
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
-                    <Route  path={`billing/success`} element={<BillingCheckoutPage outcome="success" token={token} login={login} />} />
-                    <Route  path={`billing/cancel`} element={<BillingCheckoutPage outcome="cancel" token={token} login={login} />} />
+                    {/* Credit purchasing is disabled; keep legacy return URLs harmless. */}
+                    <Route  path={`billing/success`} element={<Navigate to="/" replace />} />
+                    <Route  path={`billing/cancel`} element={<Navigate to="/" replace />} />
                     <Route  path={`testme`}   element={<MidiPlayer  tunebook={tunebook} />}  />
                     
                     <Route  path={`chords`} >

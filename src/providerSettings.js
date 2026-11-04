@@ -1,5 +1,7 @@
 /** Provider capability presets for Settings → Providers wizard. */
 
+import { isAiEnabled } from './resolverFeatures'
+
 export const PROVIDER_CAPABILITIES = ['llm', 'whisper', 'ocr', 'stems']
 
 /**
@@ -448,10 +450,13 @@ export function getActiveProvider(settings, capability) {
  * True when the SPA can use a capability via BYO key and/or resolver feature.
  */
 export function isCapabilityAvailable(capability, features, settings) {
+  const caps = features || {}
+  // Model features are server-authoritative: localStorage BYO keys must not
+  // re-enable them when the resolver's central switch is off.
+  if (!isAiEnabled(caps)) return false
   const active = getActiveProvider(settings || loadProviderSettings(), capability)
   if (active && active.provider === 'local') return true
   if (active && (active.apiKey || active.apiUrl)) return true
-  const caps = features || {}
   if (capability === 'llm') return !!caps.llm
   if (capability === 'whisper') return !!caps.whisper
   if (capability === 'ocr') return !!(caps.sheetImageOcr || caps.sheetImage)
@@ -461,6 +466,7 @@ export function isCapabilityAvailable(capability, features, settings) {
 
 /** Stems on light gateway need BYO or host-embedded cloud Demucs provider. */
 export function isStemsCapabilityAvailable(features, settings, resolverStatus) {
+  if (!isAiEnabled(features)) return false
   const srcSettings = settings || loadProviderSettings()
   const active = getActiveProvider(srcSettings, 'stems')
   const resolverAvailable = !!(resolverStatus && resolverStatus.available)
@@ -478,8 +484,9 @@ export function isStemsCapabilityAvailable(features, settings, resolverStatus) {
 }
 
 /** Headers to send with media proxy requests for the active provider overlays. */
-export function getActiveProviderHeaders(settings) {
+export function getActiveProviderHeaders(settings, options) {
   const headers = {}
+  if (options && options.aiEnabled === false) return headers
   const src = settings || loadProviderSettings()
   PROVIDER_CAPABILITIES.forEach(function(cap) {
     const active = getActiveProvider(src, cap)
@@ -593,6 +600,7 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
   const heavyBase = (resolverStatus && resolverStatus.heavyMlBase) || activeBase
   const features = (resolverStatus && resolverStatus.features) || {}
   const resolverAvailable = isResolverServiceAvailable(resolverStatus)
+  const aiEnabled = isAiEnabled(features)
   const rows = []
 
   PROVIDER_CAPABILITIES.forEach(function(cap) {
@@ -621,15 +629,20 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
       || (cap === 'stems' && kind === 'local' && resolverStatus && resolverStatus.demucsModel
         ? resolverStatus.demucsModel
         : '')
+    const rowKind = aiEnabled ? kind : 'none'
+    const rowAvailable = aiEnabled && available
+    const using = aiEnabled
+      ? formatUsingLine(kind, model, base)
+      : 'Disabled by server'
     rows.push({
       id: cap,
       service: cap === 'stems' ? 'Stems' : (cap === 'llm' ? 'LLM' : (cap === 'whisper' ? 'Whisper' : 'OCR')),
-      kind: kind,
-      available: available,
-      statusLabel: available ? 'Connected' : 'Not available',
-      statusTone: available ? 'ok' : 'bad',
-      using: formatUsingLine(kind, model, base),
-      detail: formatUsingLine(kind, model, base),
+      kind: rowKind,
+      available: rowAvailable,
+      statusLabel: rowAvailable ? 'Connected' : (aiEnabled ? 'Not available' : 'Disabled by server'),
+      statusTone: rowAvailable ? 'ok' : 'bad',
+      using: using,
+      detail: using,
     })
   })
 

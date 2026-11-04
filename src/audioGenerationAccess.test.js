@@ -9,9 +9,9 @@ describe('getAudioGenerationAccess', function() {
       user: { email: 'other@example.com' },
       resolverChecked: true,
       resolverAvailable: true,
-      features: { practiceTrack: true },
+      features: { ai: true, practiceTrack: true },
       accessToken: 'token',
-      resolverStatus: { available: true, features: { practiceTrack: true } },
+      resolverStatus: { available: true, features: { ai: true, practiceTrack: true } },
     });
     expect(access.showButton).toBe(false);
     expect(access.canGenerate).toBe(false);
@@ -24,9 +24,9 @@ describe('getAudioGenerationAccess', function() {
       user: adminUser,
       resolverChecked: true,
       resolverAvailable: true,
-      features: { practiceTrack: true },
+      features: { ai: true, practiceTrack: true },
       accessToken: 'token',
-      resolverStatus: { available: true, features: { practiceTrack: true } },
+      resolverStatus: { available: true, features: { ai: true, practiceTrack: true } },
     });
     expect(access.showButton).toBe(true);
     expect(access.canGenerate).toBe(true);
@@ -39,7 +39,7 @@ describe('getAudioGenerationAccess', function() {
       user: adminUser,
       resolverChecked: true,
       resolverAvailable: true,
-      features: { practiceTrack: false },
+      features: { ai: true, practiceTrack: false },
       accessToken: 'token',
       resolverStatus: { available: true, authorized: true },
       backends: {
@@ -58,7 +58,7 @@ describe('getAudioGenerationAccess', function() {
       user: adminUser,
       resolverChecked: true,
       resolverAvailable: false,
-      features: { practiceTrack: false },
+      features: { ai: true, practiceTrack: false },
       accessToken: 'token',
       resolverStatus: {
         available: false,
@@ -82,7 +82,7 @@ describe('getAudioGenerationAccess', function() {
       user: adminUser,
       resolverChecked: true,
       resolverAvailable: false,
-      features: { practiceTrack: true },
+      features: { ai: true, practiceTrack: true },
       accessToken: null,
       resolverStatus: {
         available: false,
@@ -92,7 +92,7 @@ describe('getAudioGenerationAccess', function() {
           available: false,
           requireAuth: true,
           authReason: 'login_required',
-          features: { practiceTrack: true },
+          features: { ai: true, practiceTrack: true },
         }],
       },
       backends: {
@@ -113,7 +113,7 @@ describe('getAudioGenerationAccess', function() {
       user: adminUser,
       resolverChecked: true,
       resolverAvailable: false,
-      features: { practiceTrack: true },
+      features: { ai: true, practiceTrack: true },
       accessToken: 'token',
       resolverStatus: {
         available: false,
@@ -123,10 +123,29 @@ describe('getAudioGenerationAccess', function() {
           available: false,
           requireAuth: true,
           authReason: 'login_required',
-          features: { practiceTrack: true },
+          features: { ai: true, practiceTrack: true },
         }],
       },
     });
     expect(access.needsLogin).toBe(false);
+  });
+
+  test('hides admin buttons when the AI kill switch is off', function() {
+    const access = getAudioGenerationAccess({
+      user: adminUser,
+      resolverChecked: true,
+      resolverAvailable: true,
+      features: { ai: false, practiceTrack: true },
+      accessToken: 'token',
+      resolverStatus: { available: true, features: { ai: false, practiceTrack: true } },
+      backends: {
+        ok: true,
+        tasks: [{ taskId: 'linked_cover', presets: [{ id: 'fast', available: true }] }],
+      },
+    });
+    expect(access.showButton).toBe(false);
+    expect(access.canGenerate).toBe(false);
+    expect(access.practiceTrackAvailable).toBe(false);
+    expect(access.linkedCoverAvailable).toBe(false);
   });
 });

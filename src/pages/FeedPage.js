@@ -32,6 +32,7 @@ import { runFeedMusixmatchEnrichment } from '../feedMusixmatchClient'
 import { isNavigatorOffline } from '../offlineNetwork'
 import { planInjectWave, streamSeenMaps } from '../feedInjectUtils'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { getResolverFeaturesFromStatus, isAiEnabled } from '../resolverFeatures'
 import { downloadFeedFeedbackJson, getAllFeedFeedback, clearAllFeedFeedback } from '../feedFeedbackStore'
 import { isFeedFeedbackAdmin } from '../feedFeedbackUtils'
 
@@ -233,6 +234,7 @@ export default function FeedPage(props) {
         } catch (e) {
           // ignore
         }
+        if (!isAiEnabled(getResolverFeaturesFromStatus(resolverStatus))) return undefined
         return runFeedAiGeneration({
           tunes: tunes,
           viewIds: getRecentViewedTuneIds(5),

@@ -88,6 +88,16 @@ function isLikelyLocalResolverBase(base) {
   }
 }
 
+function candidateAiEnabled(base) {
+  const list = lastProbeCandidates || [];
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] && list[i].base === base) {
+      return !!(list[i].features && list[i].features.ai === true);
+    }
+  }
+  return false;
+}
+
 function candidateHasHeavyMl(candidate) {
   const f = candidate && candidate.features;
   if (!f) return false;
@@ -260,6 +270,7 @@ function billingFieldsFromCandidate(candidate) {
   if (!candidate) {
     return {
       billingEnabled: false,
+      purchasesEnabled: false,
       creditRequired: false,
       creditBalanceCents: null,
       creditUnlimited: false,
@@ -267,6 +278,7 @@ function billingFieldsFromCandidate(candidate) {
   }
   return {
     billingEnabled: !!candidate.billingEnabled,
+    purchasesEnabled: candidate.purchasesEnabled === true,
     creditRequired: !!candidate.creditRequired,
     creditBalanceCents: typeof candidate.creditBalanceCents === 'number'
       ? candidate.creditBalanceCents
@@ -707,6 +719,7 @@ async function tryHealthAtBase(base, accessToken) {
       oauthBff: oauthBff,
       embeddedCreds: body.embeddedCreds === true,
       billingEnabled: body.billingEnabled === true,
+      purchasesEnabled: body.purchasesEnabled === true,
       creditRequired: body.creditRequired === true,
       creditBalanceCents: typeof body.creditBalanceCents === 'number' ? body.creditBalanceCents : null,
       creditUnlimited: body.creditUnlimited === true,
@@ -845,6 +858,7 @@ export async function probeMediaResolverCandidates(accessToken) {
       : null,
     embeddedCreds: activeCandidate ? !!activeCandidate.embeddedCreds : false,
     billingEnabled: billingFields.billingEnabled,
+    purchasesEnabled: billingFields.purchasesEnabled,
     creditRequired: billingFields.creditRequired,
     creditBalanceCents: billingFields.creditBalanceCents,
     creditUnlimited: billingFields.creditUnlimited,
@@ -1017,7 +1031,7 @@ function formatCastPlaybackResolverError(error, bases) {
   }
   if (message.indexOf('Media proxy error 402') === 0) {
     throw new Error(
-      'Your resolver credit balance is empty. Buy credit or use your own local resolver for Chromecast.'
+      'Hosted playback is not available for this account. Use your own local resolver for Chromecast.'
     );
   }
   if (castBase) {
@@ -1137,7 +1151,9 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
         const mergedHeaders = Object.assign(
           {},
           buildAuthHeaders(tokenForRequest),
-          getActiveProviderHeaders(loadProviderSettings()),
+          getActiveProviderHeaders(loadProviderSettings(), {
+            aiEnabled: candidateAiEnabled(proxyBase),
+          }),
           pathNeedsYoutubeEgress(pathAndQuery) ? getYoutubeEgressHeaders() : {},
           pathNeedsScrapeProxy(pathAndQuery) ? getScrapeProxyHeaders() : {},
           requestOptions.headers || {}
@@ -1642,7 +1658,7 @@ export function describeResolverAuthReason(authReason) {
   if (authReason === 'email_not_authorized') return 'Google account not authorized';
   if (authReason === 'resolver_access_denied') return 'Resolver access denied for this account';
   if (authReason === 'invalid_token') return 'Login expired or invalid';
-  if (authReason === 'insufficient_credit') return 'Insufficient resolver credit';
+  if (authReason === 'insufficient_credit') return 'Hosted access unavailable for this account';
   return '';
 }
 
@@ -1668,25 +1684,17 @@ export function getResolverProxiedPlaybackBlock(resolverStatus, accessToken) {
   const shouldBlock = (creditRequired && balance !== null && balance <= 0) || insufficientFromAuth;
   if (shouldBlock) {
     return {
-      message: 'Your resolver credit balance is empty. Buy credit to play library and streaming links through the hosted resolver.',
+      message: 'Hosted playback is not available for this account. Use your own local resolver instead.',
     };
   }
   return null;
 }
 
 /**
- * Warn when prepaid credit is running low (< 10¢).
+ * Credit purchasing is disabled, so no low-balance purchase prompt is shown.
  */
-export function getResolverCreditLowBalanceWarning(resolverStatus) {
-  if (!resolverStatus || !resolverStatus.billingEnabled || resolverStatus.creditUnlimited) {
-    return null;
-  }
-  const balance = resolverStatus.creditBalanceCents;
-  if (typeof balance !== 'number' || balance > 10 || balance <= 0) return null;
-  const dollars = (balance / 100).toFixed(2);
-  return {
-    message: 'Low resolver credit ($' + dollars + ' remaining). Buy credit to keep using hosted playback and APIs.',
-  };
+export function getResolverCreditLowBalanceWarning() {
+  return null;
 }
 
 /**
@@ -1744,9 +1752,9 @@ export function getResolverLoginWarning(resolverStatus, accessToken) {
   });
   if (insufficientCredit && hasToken) {
     return {
-      message: 'Your resolver credit balance is empty. Buy credit to use hosted features.',
+      message: 'Hosted features are not available for this account.',
       showLoginButton: false,
-      showBuyCreditButton: true,
+      showBuyCreditButton: false,
     };
   }
   if (notAuthorized) {

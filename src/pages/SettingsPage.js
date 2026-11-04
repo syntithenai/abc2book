@@ -32,11 +32,10 @@ import CleanupSettingsSection from '../components/CleanupSettingsSection'
 import LibraryScaleSettingsSection from '../components/LibraryScaleSettingsSection'
 import BookTaxonomySettingsSection from '../components/BookTaxonomySettingsSection'
 import { isMusicCollectionSettingsAvailable } from '../musicCollectionAdminClient'
-import { isBillingAdminAvailable } from '../creditAdminClient'
 import { isMusicGenerationAdmin } from '../musicGenerationAdmin'
 import MusicCollectionSettingsSection from '../components/MusicCollectionSettingsSection'
-import BillingAdminSettingsSection from '../components/BillingAdminSettingsSection'
 import VoiceSettingsSection from '../components/VoiceSettingsSection'
+import { getResolverFeaturesFromStatus, isAiEnabled } from '../resolverFeatures'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -82,7 +81,6 @@ import {
   LIBRARY_TAB_LIBRARY,
   TAB_BACKGROUND_JOBS,
   TAB_BACKUP,
-  TAB_BILLING_ADMIN,
   TAB_CLEANUP,
   TAB_DUPLICATES,
   TAB_LIBRARY,
@@ -183,12 +181,12 @@ export default function SettingsPage(props) {
   })
   const [driveBackupStatus, setDriveBackupStatus] = useState(getMediaCacheDriveBackupStatus)
   const { status: resolverStatus, checked, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
+  const settingsResolverFeatures = getResolverFeaturesFromStatus(resolverStatus)
   const showMusicCollectionTab = checked
     && isMusicCollectionSettingsAvailable(resolverStatus)
     && isMusicGenerationAdmin(props.user)
   const showDuplicatesTab = isMusicGenerationAdmin(props.user)
   const showCleanupTab = isMusicGenerationAdmin(props.user)
-  const showBillingAdminTab = checked && isBillingAdminAvailable(resolverStatus, props.user)
   const [showClearMyData, setShowClearMyData] = useState(false)
   const [clearMyDataBusy, setClearMyDataBusy] = useState(false)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
@@ -269,26 +267,18 @@ export default function SettingsPage(props) {
   }, [resolverStatus, checked])
 
   useEffect(function() {
+    // Credit purchasing is disabled. Older links may still carry ?credit=…;
+    // drop the params so nothing deep-links into a removed purchase flow.
     const creditFlag = searchParams.get('credit')
     const checkoutFlag = searchParams.get('checkout')
-    if (creditFlag === 'success' || checkoutFlag === 'success') {
-      navigate('/billing/success' + (searchParams.get('session_id')
-        ? ('?session_id=' + encodeURIComponent(searchParams.get('session_id')))
-        : ''), { replace: true })
-      return undefined
-    }
-    if (creditFlag === 'cancel' || checkoutFlag === 'cancel') {
-      navigate('/billing/cancel', { replace: true })
-      return undefined
-    }
-    if (activeTab === TAB_PROVIDERS && creditFlag === '1') {
-      const timerId = setTimeout(function() {
-        window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
-      }, 100)
-      return function() { clearTimeout(timerId) }
-    }
+    if (!creditFlag && !checkoutFlag) return undefined
+    const next = new URLSearchParams(searchParams)
+    next.delete('credit')
+    next.delete('checkout')
+    next.delete('session_id')
+    navigate({ pathname: location.pathname, search: next.toString() ? ('?' + next.toString()) : '' }, { replace: true })
     return undefined
-  }, [activeTab, searchParams, navigate])
+  }, [location.pathname, searchParams, navigate])
 
   function refreshResolverStatus() {
     setResolverMessage('Checking resolvers...')
@@ -466,24 +456,14 @@ export default function SettingsPage(props) {
 
   const compressCommentary = compressAudioCommentary()
   const keptSearch = new URLSearchParams()
-  if (activeTab === TAB_PROVIDERS && searchParams.get('credit') === '1') {
-    keptSearch.set('credit', '1')
-  }
   if (activeTab === TAB_BACKGROUND_JOBS && searchParams.get('jobsTab')) {
     keptSearch.set('jobsTab', searchParams.get('jobsTab'))
   }
-  const billingOutcome = searchParams.get('credit') === 'success'
-    || searchParams.get('credit') === 'cancel'
-    || searchParams.get('checkout') === 'success'
-    || searchParams.get('checkout') === 'cancel'
   const legacyPath = legacySettingsRedirect(splat, searchParams)
   if (legacyPath) {
     return <Navigate to={legacyPath} replace />
   }
   if (!isTopLevelSettingsTab(activeTab)) {
-    return <Navigate to={buildSettingsPath(TAB_BACKGROUND_JOBS)} replace />
-  }
-  if (activeTab === TAB_BILLING_ADMIN && checked && !showBillingAdminTab) {
     return <Navigate to={buildSettingsPath(TAB_BACKGROUND_JOBS)} replace />
   }
   if (activeTab === TAB_LIBRARY && libraryTab === TAB_CLEANUP && !showCleanupTab) {
@@ -492,7 +472,7 @@ export default function SettingsPage(props) {
   if (activeTab === TAB_LIBRARY && libraryTab === TAB_DUPLICATES && !showDuplicatesTab) {
     return <Navigate to={buildSettingsPath(TAB_LIBRARY, LIBRARY_TAB_LIBRARY)} replace />
   }
-  if (!billingOutcome) {
+  {
     const canonicalPath = buildSettingsPath(activeTab, libraryTab, keptSearch)
     const currentPath = '/settings' + (splat ? '/' + splat : '')
     const currentSearch = searchParams.toString()
@@ -545,13 +525,6 @@ export default function SettingsPage(props) {
           Library
         </Nav.Link>
       </Nav.Item>
-      {showBillingAdminTab ? (
-        <Nav.Item>
-          <Nav.Link as={Link} to={buildSettingsPath(TAB_BILLING_ADMIN)} active={activeTab === TAB_BILLING_ADMIN}>
-            Billing admin
-          </Nav.Link>
-        </Nav.Item>
-      ) : null}
     </Nav>
 
     <div className="App-settings-tab-content">
@@ -575,6 +548,7 @@ export default function SettingsPage(props) {
             user={props.user}
             token={token}
             driveApi={props.driveApi}
+            resolverStatus={resolverStatus}
           />
           </>
         ) : null}
@@ -632,7 +606,9 @@ export default function SettingsPage(props) {
               />
             </Form.Group>
           </div>
-          <VoiceSettingsSection accessToken={accessToken} />
+          {isAiEnabled(settingsResolverFeatures) ? (
+            <VoiceSettingsSection accessToken={accessToken} />
+          ) : null}
           <div className="app-surface-panel App-settings-section">
             <h2>Foot pedal / page turn</h2>
             <p className="app-text-muted">
@@ -991,12 +967,6 @@ export default function SettingsPage(props) {
           </>
         ) : null}
 
-        {activeTab === TAB_BILLING_ADMIN && showBillingAdminTab ? (
-          <BillingAdminSettingsSection
-            accessToken={accessToken}
-            billingEnabled={!!(resolverStatus && resolverStatus.billingEnabled)}
-          />
-        ) : null}
     </div>
   </div>
   <MediaCacheTunesModal

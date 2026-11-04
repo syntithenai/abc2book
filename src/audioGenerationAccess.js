@@ -2,6 +2,7 @@ import { getPracticeTrackAccess } from './practiceTrackAccess';
 import { isTaskAvailable } from './audioGenerationPresets';
 import { isMusicGenerationAdmin } from './musicGenerationAdmin';
 import { normalizeAccessToken } from './resolverCreditAccess';
+import { isAiEnabled } from './resolverFeatures';
 
 function hiddenAudioGenerationAccess(base) {
   return Object.assign({}, base, {
@@ -16,6 +17,10 @@ function hiddenAudioGenerationAccess(base) {
 export function getAudioGenerationAccess(context) {
   const opts = context || {};
   const base = getPracticeTrackAccess(opts);
+  if (!isAiEnabled(opts.features)) {
+    // Central AI switch is off: never surface the admin Generate fallback.
+    return hiddenAudioGenerationAccess(base);
+  }
   if (!isMusicGenerationAdmin(opts.user, opts.resolverStatus)) {
     return hiddenAudioGenerationAccess(base);
   }

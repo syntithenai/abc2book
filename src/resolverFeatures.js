@@ -1,4 +1,20 @@
+// Capabilities that depend on a language/vision/audio model anywhere in the stack.
+// Kept in sync with local-resolver/ai_features.py.
+export const AI_FEATURE_KEYS = Object.freeze([
+  'stems',
+  'whisper',
+  'llm',
+  'practiceAnalysis',
+  'sheetImage',
+  'sheetImageOcr',
+  'sheetImageOmr',
+  'sheetImageSplit',
+  'practiceTrack',
+  'tts',
+]);
+
 export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
+  ai: false,
   proxy: false,
   stems: false,
   whisper: false,
@@ -29,20 +45,23 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   tts: false,
 });
 
+// Legacy health bodies (no `features` map) fail closed for AI capabilities:
+// the central kill switch must never be re-enabled by a missing payload field.
 export const ALL_RESOLVER_FEATURES = Object.freeze({
+  ai: false,
   proxy: true,
-  stems: true,
-  whisper: true,
-  llm: true,
-  practiceAnalysis: true,
+  stems: false,
+  whisper: false,
+  llm: false,
+  practiceAnalysis: false,
   // Legacy health bodies without features do not imply OAuth BFF.
   oauthBff: false,
   // Legacy resolvers without soundfont download still serve embedded selection.
   soundfonts: true,
-  sheetImage: true,
-  sheetImageOcr: true,
-  sheetImageOmr: true,
-  sheetImageSplit: true,
+  sheetImage: false,
+  sheetImageOcr: false,
+  sheetImageOmr: false,
+  sheetImageSplit: false,
   lightMode: false,
   youtubeAudio: true,
   youtubeEgressRequired: false,
@@ -51,7 +70,7 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   internetArchive: true,
   europeana: true,
   locAudio: true,
-  practiceTrack: true,
+  practiceTrack: false,
   snapcastControl: false,
   snapcastPlayback: false,
   castPlayback: false,
@@ -62,6 +81,22 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   tts: false,
 });
 
+export function isAiEnabled(features) {
+  return Boolean(features && features.ai === true);
+}
+
+// Force every model-backed capability off unless the server's central switch
+// (`features.ai`) is explicitly on. Deterministic capabilities pass through.
+export function applyAiFeatureGate(features) {
+  const out = Object.assign({}, features);
+  if (!isAiEnabled(out)) {
+    for (let i = 0; i < AI_FEATURE_KEYS.length; i++) {
+      out[AI_FEATURE_KEYS[i]] = false;
+    }
+  }
+  return out;
+}
+
 export function normalizeResolverFeatures(raw, options) {
   const opts = options || {};
   const fallback = opts.fallback === true;
@@ -70,7 +105,8 @@ export function normalizeResolverFeatures(raw, options) {
       ? Object.assign({}, ALL_RESOLVER_FEATURES)
       : Object.assign({}, DEFAULT_RESOLVER_FEATURES);
   }
-  return {
+  return applyAiFeatureGate({
+    ai: raw.ai === true,
     proxy: raw.proxy === true,
     stems: raw.stems === true,
     whisper: raw.whisper === true,
@@ -106,7 +142,7 @@ export function normalizeResolverFeatures(raw, options) {
     midiImport: raw.midiImport === true,
     scoreConvert: raw.scoreConvert === true,
     tts: raw.tts === true,
-  };
+  });
 }
 
 export function parseResolverFeaturesFromHealthBody(body) {

@@ -11,7 +11,9 @@ class HealthEndpointTests(unittest.TestCase):
         self.client = TestClient(server.app)
 
     def test_health_is_lightweight(self):
-        with patch.object(server, "resolver_features") as mock_features, patch.object(
+        with patch.object(
+            server, "resolver_features", return_value={"proxy": True, "ai": True}
+        ) as mock_features, patch.object(
             server, "_refresh_llm_health_if_stale", new_callable=AsyncMock
         ) as mock_refresh:
             response = self.client.get("/health")
@@ -19,8 +21,8 @@ class HealthEndpointTests(unittest.TestCase):
             body = response.json()
             self.assertTrue(body.get("ok"))
             self.assertIn("staticSite", body)
-            self.assertNotIn("features", body)
-            mock_features.assert_not_called()
+            self.assertEqual(body.get("features", {}).get("proxy"), True)
+            mock_features.assert_called_once()
             mock_refresh.assert_not_called()
 
     def test_health_ready_includes_features(self):

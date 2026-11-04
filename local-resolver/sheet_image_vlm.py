@@ -9,6 +9,7 @@ from typing import Any
 
 import httpx
 
+from ai_features import AI_FEATURES_ENABLED
 from chord_sheet_utils import estimate_chord_sheet_confidence, lines_to_chord_sheet_text, reconstruct_chords_over_words
 from chords_fetch import finalize_sheet_lines
 
@@ -20,6 +21,8 @@ VLM_CONFIDENCE_THRESHOLD = float(os.getenv("SHEET_IMAGE_VLM_CONFIDENCE_THRESHOLD
 
 
 def vlm_fallback_enabled() -> bool:
+    if not AI_FEATURES_ENABLED:
+        return False
     return os.getenv("SHEET_IMAGE_VLM_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
 
 

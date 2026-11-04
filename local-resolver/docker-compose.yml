@@ -61,6 +61,10 @@ services:
       - "${AUDIO_CPP_HOST_DIR:-${HOME}/audio.cpp}/incoming:/audio-cpp-incoming"
       - snapcast_run:/run/snapcast
     environment:
+      # Central model/ML kill switch (LLM, Whisper, OCR/OMR, stems, TTS, generative audio).
+      AI_FEATURES_ENABLED: ${AI_FEATURES_ENABLED:-false}
+      # Purchase-only switch: checkout off, settlement/metering/ledger stay live.
+      BILLING_PURCHASES_ENABLED: ${BILLING_PURCHASES_ENABLED:-false}
       # In-compose sidecar; override in .env for a host-managed process instead.
       AUDIO_CPP_URL: ${AUDIO_CPP_URL:-http://audio-cpp:8788}
       AUDIO_CPP_INPUT_DIR: ${AUDIO_CPP_INPUT_DIR:-/audio-cpp-incoming}

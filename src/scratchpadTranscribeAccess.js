@@ -1,9 +1,10 @@
 import { mergeAffordanceIntoAccess, getGatedActionLabel, normalizeAccessToken } from './resolverCreditAccess'
 import { getResolverLoginWarning } from './mediaProxyClient'
 import { getOfflineBlock } from './offlineNetwork'
+import { isAiEnabled } from './resolverFeatures'
 
 function audioTranscribeAvailable(resolverAvailable, features) {
-  return resolverAvailable && !!features.whisper
+  return resolverAvailable && isAiEnabled(features) && !!features.whisper
 }
 
 /**
@@ -14,20 +15,30 @@ export function getScratchpadTranscribeAccess(context) {
   const resolverChecked = !!opts.resolverChecked
   const resolverAvailable = !!opts.resolverAvailable
   const features = opts.features || {}
+  if (!isAiEnabled(features)) {
+    return {
+      showOption: false,
+      needsLogin: false,
+      needsCredit: false,
+      canUse: false,
+      loginWarning: null,
+    }
+  }
   const loginWarning = getOfflineBlock()
     || getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
   const needsNetwork = !!(loginWarning && loginWarning.kind === 'offline')
   const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
+  const creditBlocked = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
   const hasCapability = audioTranscribeAvailable(resolverAvailable, features)
-  const showOption = resolverChecked && (hasCapability || needsLogin || needsCredit)
+  const showOption = resolverChecked && (hasCapability || needsLogin)
 
   const baseAccess = {
     showOption: showOption,
     needsLogin: needsLogin && showOption,
-    needsCredit: needsCredit && showOption,
+    needsCredit: false,
+    creditBlocked: creditBlocked,
     needsNetwork: needsNetwork,
-    canUse: hasCapability && !needsLogin && !needsCredit,
+    canUse: hasCapability && !needsLogin && !creditBlocked,
     loginWarning: loginWarning,
   }
   return mergeAffordanceIntoAccess(baseAccess, opts.affordance)

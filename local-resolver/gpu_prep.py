@@ -10,9 +10,13 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+from ai_features import AI_FEATURES_ENABLED
+
 log = logging.getLogger("gpu_prep")
 
-GPU_PREP_ENABLED = os.getenv("GPU_PREP_ENABLED", "1").lower() not in {"0", "false", "no"}
+GPU_PREP_ENABLED = AI_FEATURES_ENABLED and os.getenv(
+    "GPU_PREP_ENABLED", "1"
+).lower() not in {"0", "false", "no"}
 QWEN_STOP_URL = (
     os.getenv("QWEN_STOP_URL")
     or os.getenv("GPU_QWEN_STOP_URL")

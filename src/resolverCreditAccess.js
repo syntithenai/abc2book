@@ -1,7 +1,6 @@
 /** Shared resolver credit + gating helpers for SPA feature buttons. */
 
 import { toast } from 'react-toastify'
-import { formatEstimateCents } from './creditAffordabilityClient'
 import { getResolverLoginWarning } from './mediaProxyClient'
 import {
   OFFLINE_MESSAGE,
@@ -30,11 +29,10 @@ export function getGatedActionLabel(access, actionLabel) {
   if (!access) return label
   if (access.needsNetwork) return label
   if (access.needsLogin) return 'Login to ' + label
-  if (access.needsCredit) return 'Buy Credit to ' + label
-  if (access.cannotAfford) {
-    const est = formatEstimateCents(access.estimateCents)
-    if (est) return 'Insufficient credit (~' + est + ' needed) — ' + label
-    return 'Insufficient credit — ' + label
+  if (access.needsCredit || access.cannotAfford) {
+    // Credit purchasing is disabled: never prompt to buy. The action is simply
+    // unavailable for this account.
+    return label ? ('Unavailable: ' + label) : 'Unavailable'
   }
   return label
 }
@@ -75,34 +73,29 @@ export function getResolverGatedActionAccess(context, options) {
     ? offlineBlock
     : getResolverLoginWarning(opts.resolverStatus, normalizeAccessToken(opts.accessToken))
   const needsLogin = !needsNetwork && !!(loginWarning && loginWarning.showLoginButton)
-  const needsCredit = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
+  // Outstanding credit is not purchasable and not advertised; treat it as
+  // unavailable rather than routing to a buy-credit prompt.
+  const creditBlocked = !needsNetwork && !!(loginWarning && loginWarning.showBuyCreditButton)
   const hasCapability = resolverAvailable && hasFeature && !needsNetwork
-  const showButton = resolverChecked && (hasCapability || needsLogin || needsCredit)
+  const showButton = resolverChecked && (hasCapability || needsLogin)
 
   return {
     showButton: showButton,
     needsLogin: needsLogin && showButton,
-    needsCredit: needsCredit && showButton,
+    needsCredit: false,
+    creditBlocked: creditBlocked,
     needsNetwork: needsNetwork,
-    canUse: hasCapability && !needsLogin && !needsCredit,
+    canUse: hasCapability && !needsLogin && !creditBlocked,
     loginWarning: loginWarning,
   }
 }
 
+/**
+ * Credit purchasing is disabled. This is intentionally a no-op so older
+ * components cannot deep-link into a removed checkout flow.
+ */
 export function openCreditSettings() {
-  if (typeof window === 'undefined') return
-  const hashPath = '#/settings/providers?credit=1'
-  const hash = String(window.location.hash || '')
-  if (hash.indexOf('#/settings') === 0) {
-    if (hash.indexOf('#/settings/providers') === 0) {
-      window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
-      return
-    }
-    window.location.hash = hashPath
-    window.dispatchEvent(new CustomEvent('tunebook-open-credit-settings'))
-    return
-  }
-  window.location.assign('/' + hashPath)
+  return undefined
 }
 
 export function runResolverGatedAction(access, handlers) {
@@ -123,20 +116,9 @@ export function runResolverGatedAction(access, handlers) {
     }
     return true
   }
-  if (access.needsCredit) {
-    if (typeof opts.buyCredit === 'function') {
-      opts.buyCredit()
-    } else {
-      openCreditSettings()
-    }
-    return true
-  }
-  if (access.cannotAfford) {
-    if (typeof opts.buyCredit === 'function') {
-      opts.buyCredit()
-    } else {
-      openCreditSettings()
-    }
+  if (access.needsCredit || access.cannotAfford || access.creditBlocked) {
+    // No purchase CTA: block silently, or let the caller show a neutral notice.
+    if (typeof opts.onUnavailable === 'function') opts.onUnavailable()
     return true
   }
   if (typeof opts.onReady === 'function') {

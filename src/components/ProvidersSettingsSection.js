@@ -11,7 +11,7 @@ import {
   setUseCloudResolver,
 } from '../mediaProxyConfig'
 import { getResolverLoginWarning } from '../mediaProxyClient'
-import CreditSettingsSection from './CreditSettingsSection'
+import { getResolverFeaturesFromStatus, isAiEnabled } from '../resolverFeatures'
 import {
   PROVIDER_CAPABILITIES,
   applyProviderEdits,
@@ -667,7 +667,15 @@ export default function ProvidersSettingsSection({
     helperOk: !!helperStatus.ok && !isYoutubeHelperDisabled(),
     helperVersion: helperStatus.version || '',
   })
+  const resolverFeatures = getResolverFeaturesFromStatus(resolverStatus)
+  const aiEnabled = isAiEnabled(resolverFeatures)
   const loginWarning = getResolverLoginWarning(resolverStatus, accessToken)
+
+  const AI_TABS = [TAB_LLM, TAB_WHISPER, TAB_OCR, TAB_STEMS]
+  useEffect(function() {
+    if (!aiEnabled && AI_TABS.indexOf(activeTab) >= 0) setActiveTab(TAB_RESOLVER)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [aiEnabled, activeTab])
 
   useEffect(function() {
     let cancelled = false
@@ -746,18 +754,21 @@ export default function ProvidersSettingsSection({
           ) : null}
         </Alert>
       ) : null}
-      <CreditSettingsSection
-        accessToken={accessToken}
-        billingEnabled={!!(resolverStatus && resolverStatus.billingEnabled)}
-      />
       <div className="app-surface-panel App-settings-section App-providers-intro">
         <h2>Providers</h2>
-        <p className="app-text-muted App-providers-intro-text">
-          Configure LLM, Whisper, OCR, and Stems backends with your own API keys. Keys stay in this browser and
-          are sent only to your active media resolver. If no key is set, the resolver from Providers → Resolver
-          (or localhost / peppertrees) is used. Host credentials appear when the resolver embeds operator keys
-          for your account.
-        </p>
+        {aiEnabled ? (
+          <p className="app-text-muted App-providers-intro-text">
+            Configure LLM, Whisper, OCR, and Stems backends with your own API keys. Keys stay in this browser and
+            are sent only to your active media resolver. If no key is set, the resolver from Providers → Resolver
+            (or localhost / peppertrees) is used. Host credentials appear when the resolver embeds operator keys
+            for your account.
+          </p>
+        ) : (
+          <p className="app-text-muted App-providers-intro-text">
+            AI, speech, and audio-model features are disabled on this resolver. Only the resolver and media
+            proxy settings are used.
+          </p>
+        )}
         {resolverStatus && resolverStatus.embeddedCreds ? (
           <p className="app-text-muted App-providers-intro-note">
             This account <strong>can use host credentials</strong> on the active resolver.
@@ -809,18 +820,22 @@ export default function ProvidersSettingsSection({
             <Nav.Item>
               <Nav.Link eventKey={TAB_PROXY}>Proxy</Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey={TAB_LLM}>LLM</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey={TAB_WHISPER}>Whisper</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey={TAB_OCR}>OCR</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey={TAB_STEMS}>Stems</Nav.Link>
-            </Nav.Item>
+            {aiEnabled ? (
+              <>
+                <Nav.Item>
+                  <Nav.Link eventKey={TAB_LLM}>LLM</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey={TAB_WHISPER}>Whisper</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey={TAB_OCR}>OCR</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey={TAB_STEMS}>Stems</Nav.Link>
+                </Nav.Item>
+              </>
+            ) : null}
           </Nav>
           <Tab.Content>
             <Tab.Pane eventKey={TAB_RESOLVER}>
@@ -841,7 +856,7 @@ export default function ProvidersSettingsSection({
                 egressRequired={egressRequired}
               />
             </Tab.Pane>
-            {PROVIDER_CAPABILITIES.map(function(cap) {
+            {aiEnabled ? PROVIDER_CAPABILITIES.map(function(cap) {
               const eventKey = cap === 'llm' ? TAB_LLM
                 : (cap === 'whisper' ? TAB_WHISPER
                   : (cap === 'ocr' ? TAB_OCR : TAB_STEMS))
@@ -861,7 +876,7 @@ export default function ProvidersSettingsSection({
                   />
                 </Tab.Pane>
               )
-            })}
+            }) : null}
           </Tab.Content>
         </Tab.Container>
       </div>

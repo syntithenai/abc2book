@@ -13,6 +13,8 @@ from typing import Any
 
 import httpx
 
+from ai_features import AI_FEATURES_ENABLED
+
 LLM_TIMEOUT_SECONDS = float(os.getenv("BLOG_ASSESS_LLM_TIMEOUT", "45") or "45")
 LLM_MAX_TOKENS = int(os.getenv("BLOG_ASSESS_LLM_MAX_TOKENS", "400") or "400")
 # Soft cap so prompts stay bounded (body is joined paragraphs).
@@ -135,6 +137,9 @@ async def assess_blog_content(
     body: list[str] | str | None,
 ) -> dict[str, Any]:
     """Return {ok, reason, model}. On LLM/config failure, ok=False with a soft reason."""
+    if not AI_FEATURES_ENABLED:
+        # Model-based review is off; do not block publishing on a skipped check.
+        return {"ok": True, "reason": "", "model": "", "skipped": "ai_disabled"}
     try:
         cfg = _llm_config()
     except ValueError:

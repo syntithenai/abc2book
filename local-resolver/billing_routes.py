@@ -21,6 +21,7 @@ from billing import (
     get_balance_millicents,
     list_accounts,
     list_ledger,
+    purchases_enabled,
 )
 from billing_estimates import affordance_payload, catalog_for_api, estimate_operation_millicents
 from billing_rates import CREDIT_PACKS, cents_to_millicents
@@ -76,6 +77,7 @@ def register_billing_routes(
         return JSONResponse(
             {
                 "billingEnabled": True,
+                "purchasesEnabled": purchases_enabled(),
                 "email": email,
                 "balanceCents": get_balance_cents(email),
                 "creditUnlimited": fields.get("creditUnlimited"),

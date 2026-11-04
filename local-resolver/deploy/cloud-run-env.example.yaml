@@ -4,8 +4,10 @@ REQUIRE_AUTH: "true"
 RESOLVER_LIGHT_MODE: "true"
 PROXY_ENABLED: "true"
 YTDLP_REQUIRE_USER_PROXY: "true"
-WHISPER_ENABLED: "true"
-LLM_ENABLED: "true"
+# Central model/ML kill switch (LLM, Whisper, OCR/OMR, stems, TTS, generative audio).
+AI_FEATURES_ENABLED: "false"
+WHISPER_ENABLED: "false"
+LLM_ENABLED: "false"
 ALLOWED_ADMIN_EMAILS: "syntithenai@gmail.com"
 ADMIN_CONTACT_EMAIL: "syntithenai@gmail.com"
 ALLOWED_ORIGINS: "https://tunebook.net,https://www.tunebook.net,http://localhost:3000,http://127.0.0.1:3000,http://localhost:5173,http://127.0.0.1:5173,capacitor://localhost,https://localhost,http://localhost,ionic://localhost"
@@ -23,8 +25,11 @@ AUTH_SESSION_FIRESTORE_PROJECT: "abc2book"
 AUTH_SESSION_FIRESTORE_COLLECTION: "oauth_sessions"
 AUTH_REFRESH_MIN_INTERVAL_SECONDS: "45"
 AUTH_ACCESS_TOKEN_CACHE_SKEW_SECONDS: "60"
-# Billing ledger (central — SPA routes /billing/* here)
+# Billing ledger (central — SPA routes /billing/* here).
+# Keep BILLING_ENABLED=true so settlement, metering and existing credit work;
+# BILLING_PURCHASES_ENABLED=false removes checkout only.
 BILLING_ENABLED: "true"
+BILLING_PURCHASES_ENABLED: "false"
 BILLING_STORE: "firestore"
 BILLING_FIRESTORE_PROJECT: "abc2book"
 BILLING_MARKUP: "2.0"

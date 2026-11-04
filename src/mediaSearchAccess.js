@@ -8,10 +8,6 @@ import { getOfflineBlock } from './offlineNetwork';
 function mediaSearchLoginMessage(baseWarning) {
   if (!baseWarning) return '';
 
-  if (baseWarning.showBuyCreditButton) {
-    return 'Buy resolver credit for access to more media sources.';
-  }
-
   if (baseWarning.showLoginButton) {
     return 'Sign in for access to more media sources.';
   }
@@ -69,7 +65,7 @@ export function getMediaSearchAccess(context) {
     opts.resolverStatus,
     token
   );
-  if (!baseWarning || (!baseWarning.showLoginButton && !baseWarning.showBuyCreditButton)) {
+  if (!baseWarning || !baseWarning.showLoginButton) {
     return {
       loginWarning: null,
       needsLogin: false,
@@ -83,17 +79,6 @@ export function getMediaSearchAccess(context) {
       loginWarning: null,
       needsLogin: false,
       needsCredit: false,
-    };
-  }
-
-  if (baseWarning.showBuyCreditButton) {
-    return {
-      loginWarning: {
-        message: mediaSearchLoginMessage(baseWarning),
-        showBuyCreditButton: true,
-      },
-      needsLogin: false,
-      needsCredit: true,
     };
   }
 

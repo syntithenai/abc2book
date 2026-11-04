@@ -130,8 +130,9 @@ describe('mediaProxyClient', function() {
       }],
     }, 'ya29.token');
     expect(warning).not.toBeNull();
-    expect(warning.showBuyCreditButton).toBe(true);
+    expect(warning.showBuyCreditButton).toBe(false);
     expect(warning.showLoginButton).toBe(false);
+    expect(warning.message).toMatch(/not available/i);
   });
 
   test('isMediaProxyAuthorizationError detects 401 and missing bearer', function() {
@@ -253,17 +254,17 @@ describe('mediaProxyClient', function() {
       candidates: [],
     }, 'ya29.token');
     expect(block).not.toBeNull();
-    expect(block.message).toMatch(/empty/i);
+    expect(block.message).toMatch(/not available/i);
+    expect(block.message).not.toMatch(/buy|credit/i);
   });
 
-  test('getResolverCreditLowBalanceWarning under 10 cents', function() {
+  test('getResolverCreditLowBalanceWarning is suppressed when purchases are disabled', function() {
     const warning = mediaProxyClient.getResolverCreditLowBalanceWarning({
       billingEnabled: true,
       creditBalanceCents: 8,
       creditUnlimited: false,
     });
-    expect(warning).not.toBeNull();
-    expect(warning.message).toMatch(/Low resolver credit/i);
+    expect(warning).toBeNull();
   });
 
   test('resolveCastPlaybackBase prefers direct localhost:8787 over dev-server proxy', function() {

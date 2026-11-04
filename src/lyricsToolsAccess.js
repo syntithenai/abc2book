@@ -124,21 +124,6 @@ export function getLyricsToolsAccess(context) {
     }
   }
 
-  if (baseWarning && baseWarning.showBuyCreditButton) {
-    return {
-      warming: false,
-      ready: false,
-      needsLogin: false,
-      needsCredit: true,
-      loginWarning: {
-        message: 'Buy resolver credit to use lyrics tools.',
-        showBuyCreditButton: true,
-      },
-      unreachable: false,
-      unreachableMessage: '',
-    }
-  }
-
   if (baseWarning && baseWarning.showLoginButton) {
     return {
       warming: false,

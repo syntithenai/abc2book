@@ -179,6 +179,7 @@ from providers import (
     resolve_provider,
 )
 from llm_runtime import materialize_llm_config, use_llm_provider
+from ai_features import AI_FEATURES, AI_FEATURES_ENABLED
 
 try:
     from billing import (
@@ -207,7 +208,7 @@ except ImportError as _billing_import_err:
     should_bill_user = lambda email: False  # type: ignore[assignment]
     record_usage = lambda *args, **kwargs: {"ok": True}  # type: ignore[assignment]
     wrap_streaming_body = lambda body_iter, on_complete: body_iter  # type: ignore[assignment]
-    billing_health_fields = lambda email, **kwargs: {"billingEnabled": False}  # type: ignore[assignment]
+    billing_health_fields = lambda email, **kwargs: {"billingEnabled": False, "purchasesEnabled": False}  # type: ignore[assignment]
     get_balance_millicents = lambda email: 0  # type: ignore[assignment]
     BillingContext = None  # type: ignore[assignment,misc]
     register_billing_routes = lambda *args, **kwargs: None  # type: ignore[assignment]
@@ -310,6 +311,26 @@ WHISPER_ENABLED = os.getenv("WHISPER_ENABLED", "true").strip().lower() not in {"
 LLM_ENABLED = os.getenv("LLM_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
 LLM_HEALTH_CACHE_SECONDS = float(os.getenv("LLM_HEALTH_CACHE_SECONDS", "60"))
 STATIC_SITE_DIR = os.getenv("STATIC_SITE_DIR", "").strip()
+
+
+def ai_enabled() -> bool:
+    """Central model/ML kill switch (AI_FEATURES_ENABLED)."""
+    return bool(AI_FEATURES_ENABLED)
+
+
+def ai_gate(value) -> bool:
+    return bool(AI_FEATURES_ENABLED and value)
+
+
+async def require_ai_enabled(feature: str | None = None) -> None:
+    if not AI_FEATURES_ENABLED:
+        detail = "ai_features_disabled"
+        if feature:
+            detail = f"{detail}:{feature}"
+        raise HTTPException(status_code=503, detail=detail)
+
+
+
 STATIC_SITE_ENABLED = os.getenv("STATIC_SITE_ENABLED", "auto").strip().lower() or "auto"
 _llm_available_cache = False
 _llm_checked_at = 0.0
@@ -642,19 +663,21 @@ async def unhandled_exception_handler(request: Request, exc: Exception):
 @app.on_event("startup")
 async def verify_autochord_runtime():
     autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
-    if not os.path.exists(autochord_python):
+    if AI_FEATURES_ENABLED and not os.path.exists(autochord_python):
         print(f"WARNING: autochord python not found at {autochord_python}")
-    asyncio.create_task(_probe_llm_available())
+    if AI_FEATURES_ENABLED:
+        asyncio.create_task(_probe_llm_available())
     start_soundfont_download_background()
     # Vision import probes are expensive; start them off-thread so /health stays cheap.
-    try:
-        from sheet_image_ocr import warmup_paddleocr_probe
-        from sheet_image_omr import warmup_homr_probe
+    if AI_FEATURES_ENABLED:
+        try:
+            from sheet_image_ocr import warmup_paddleocr_probe
+            from sheet_image_omr import warmup_homr_probe
 
-        warmup_paddleocr_probe()
-        warmup_homr_probe()
-    except Exception as exc:
-        print(f"WARNING: sheet-image warmup skipped: {exc}")
+            warmup_paddleocr_probe()
+            warmup_homr_probe()
+        except Exception as exc:
+            print(f"WARNING: sheet-image warmup skipped: {exc}")
     if snapcast_enabled():
         try:
             from snapcast_playback import get_snapcast_manager
@@ -669,12 +692,16 @@ def _proxy_available():
 
 
 def _stems_available():
+    if not AI_FEATURES_ENABLED:
+        return False
     if RESOLVER_LIGHT_MODE:
         return False
     return STEMS_ENABLED and _proxy_available()
 
 
 def _whisper_local_available():
+    if not AI_FEATURES_ENABLED:
+        return False
     if RESOLVER_LIGHT_MODE:
         return False
     if not WHISPER_ENABLED:
@@ -683,17 +710,23 @@ def _whisper_local_available():
 
 
 def _whisper_cloud_configured():
+    if not AI_FEATURES_ENABLED:
+        return False
     return "whisper" in host_embedded_providers()
 
 
 def _whisper_runtime_available():
     """Whisper on when local binary, host cloud provider, or overlays accepted (WHISPER_ENABLED)."""
+    if not AI_FEATURES_ENABLED:
+        return False
     if _whisper_local_available() or _whisper_cloud_configured():
         return True
     return bool(WHISPER_ENABLED)
 
 
 def _llm_runtime_available():
+    if not AI_FEATURES_ENABLED:
+        return False
     if not LLM_ENABLED and "llm" not in host_embedded_providers():
         return False
     if "llm" in host_embedded_providers():
@@ -704,6 +737,8 @@ def _llm_runtime_available():
 
 
 def _ocr_local_available():
+    if not AI_FEATURES_ENABLED:
+        return False
     if RESOLVER_LIGHT_MODE:
         return False
     try:
@@ -714,10 +749,14 @@ def _ocr_local_available():
 
 
 def _ocr_cloud_configured():
+    if not AI_FEATURES_ENABLED:
+        return False
     return "ocr" in host_embedded_providers()
 
 
 def local_provider_backends():
+    if not AI_FEATURES_ENABLED:
+        return {"llm": False, "whisper": False, "ocr": False, "stems": False}
     return {
         "llm": bool(LLM_ENABLED and _llm_available_cache and not RESOLVER_LIGHT_MODE),
         "whisper": _whisper_local_available(),
@@ -727,6 +766,8 @@ def local_provider_backends():
 
 
 def _practice_analysis_available():
+    if not AI_FEATURES_ENABLED:
+        return False
     autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
     script = os.path.join(os.path.dirname(__file__), "analyze_practice.py")
     return os.path.isfile(autochord_python) and os.path.isfile(script)
@@ -734,7 +775,7 @@ def _practice_analysis_available():
 
 async def _probe_llm_available():
     global _llm_available_cache, _llm_checked_at
-    if not LLM_ENABLED:
+    if not AI_FEATURES_ENABLED or not LLM_ENABLED:
         _llm_available_cache = False
         _llm_checked_at = time.time()
         return False
@@ -817,8 +858,9 @@ def resolver_features(practice_track_ok=None):
         # Slim Cloud Run / light gateway: provider-proxy capabilities only.
         # Stems available via cloud BYO/host keys (fal / Replicate).
         return {
+            "ai": ai_enabled(),
             "proxy": _proxy_available(),
-            "stems": True,
+            "stems": ai_gate(True),
             "whisper": _whisper_runtime_available(),
             "llm": _llm_runtime_available(),
             "practiceAnalysis": False,
@@ -838,12 +880,12 @@ def resolver_features(practice_track_ok=None):
             "internetArchive": internet_archive_enabled() and _proxy_available(),
             "europeana": europeana_enabled() and _proxy_available(),
             "locAudio": loc_audio_enabled() and _proxy_available(),
-            "practiceTrack": practice_track_ok,
+            "practiceTrack": ai_gate(practice_track_ok),
             "snapcastControl": snapcast_enabled(),
             "snapcastPlayback": snapcast_feature_enabled(),
             "castPlayback": cast_feature_enabled(),
             "midiRender": midi_render_ok,
-            "tts": tts_runtime_available(),
+            "tts": ai_gate(tts_runtime_available()),
         }
     features = sheet_image_features()
     playwright_ok = False
@@ -854,18 +896,19 @@ def resolver_features(practice_track_ok=None):
     except Exception:
         playwright_ok = False
     return {
+        "ai": ai_enabled(),
         "proxy": _proxy_available(),
         # STEMS_ENABLED gates the feature; local Demucs and/or cloud BYO/host keys run it.
-        "stems": bool(STEMS_ENABLED),
+        "stems": ai_gate(STEMS_ENABLED),
         "whisper": _whisper_runtime_available(),
         "llm": _llm_runtime_available(),
         "practiceAnalysis": _practice_analysis_available(),
-        "sheetImage": bool(
+        "sheetImage": ai_gate(
             (SHEET_IMAGE_ENABLED and features.get("available")) or _ocr_cloud_configured()
         ),
-        "sheetImageOcr": bool(features.get("ocr") or _ocr_cloud_configured()),
-        "sheetImageOmr": bool(features.get("omr")),
-        "sheetImageSplit": bool(SHEET_IMAGE_ENABLED and features.get("ocr")),
+        "sheetImageOcr": ai_gate(features.get("ocr") or _ocr_cloud_configured()),
+        "sheetImageOmr": ai_gate(features.get("omr")),
+        "sheetImageSplit": ai_gate(SHEET_IMAGE_ENABLED and features.get("ocr")),
         "imageSearch": image_search_available(),
         "playwright": playwright_ok,
         "oauthBff": oauth_bff_available(),
@@ -873,22 +916,31 @@ def resolver_features(practice_track_ok=None):
         "lightMode": False,
         "youtubeAudio": yt_flags["youtubeAudio"],
         "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
-        "chordBackend": os.getenv("CHORD_BACKEND", "auto").strip().lower() or "auto",
+        "chordBackend": (
+            (os.getenv("CHORD_BACKEND", "auto").strip().lower() or "auto")
+            if AI_FEATURES_ENABLED
+            else "unavailable"
+        ),
         "musicCollection": music_collection_enabled(),
         "bandcamp": bandcamp_enabled() and _proxy_available(),
         "internetArchive": internet_archive_enabled() and _proxy_available(),
         "europeana": europeana_enabled() and _proxy_available(),
         "locAudio": loc_audio_enabled() and _proxy_available(),
-        "practiceTrack": practice_track_ok,
+        "practiceTrack": ai_gate(practice_track_ok),
         "snapcastControl": snapcast_enabled(),
         "snapcastPlayback": snapcast_feature_enabled(),
         "castPlayback": cast_feature_enabled(),
         "midiRender": midi_render_ok,
-        "tts": tts_runtime_available(),
+        "tts": ai_gate(tts_runtime_available()),
     }
 
 
 async def require_resolver_feature(feature_name, request=None, verified=None):
+    # Central AI kill switch wins over local, host and BYO providers.
+    if feature_name in AI_FEATURES and not AI_FEATURES_ENABLED:
+        raise HTTPException(
+            status_code=503, detail=f"ai_features_disabled:{feature_name}"
+        )
     # LLM health is cached; startup can race the llm container and leave a
     # stale miss. Re-probe before gating LLM routes (not only /health/ready).
     if feature_name == "llm":
@@ -3733,6 +3785,7 @@ async def detect_timing(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    await require_ai_enabled("detect-timing")
     try:
         await maybe_require_auth(authorization)
         track_resolver_usage('detect-timing')
@@ -3781,6 +3834,7 @@ async def detect_chords(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    await require_ai_enabled("detect-chords")
     try:
         await maybe_require_auth(authorization)
         track_resolver_usage('detect-chords')
@@ -3832,6 +3886,7 @@ async def analyze_media(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    await require_ai_enabled("analyze-media")
     try:
         await maybe_require_auth(authorization)
         track_resolver_usage('analyze-media')
@@ -5142,6 +5197,7 @@ async def discover_composer_endpoint(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    await require_ai_enabled("discover-composer")
     try:
         verified = await maybe_require_auth(authorization)
         track_resolver_usage('discover-composer')
@@ -5245,6 +5301,7 @@ async def discover_genre_endpoint(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    await require_ai_enabled("discover-genre")
     try:
         verified = await maybe_require_auth(authorization)
         track_resolver_usage('discover-genre')
@@ -5592,6 +5649,7 @@ async def separate_stems(
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
+    await require_ai_enabled("separate-stems")
     try:
         verified = await maybe_require_auth(authorization)
         provider_cfg = await resolve_request_provider(
@@ -5786,6 +5844,7 @@ async def generate_audio(
     source: UploadFile | None = File(default=None),
     authorization: str | None = Header(default=None),
 ):
+    await require_ai_enabled("generate-audio")
     verified = await maybe_require_auth(authorization)
     task = (taskId or "practice_track").strip()
     operation = "linked_cover" if task == "linked_cover" else "practice_track"
@@ -5830,6 +5889,7 @@ async def generate_practice_track(
     presetId: str = Form("fast"),
     authorization: str | None = Header(default=None),
 ):
+    await require_ai_enabled("generate-practice-track")
     verified = await maybe_require_auth(authorization)
     reservation = _billing_reservation(verified, "practice_track", {})
 

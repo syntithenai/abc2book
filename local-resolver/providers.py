@@ -14,6 +14,8 @@ import json
 import os
 from typing import Any
 
+from ai_features import AI_FEATURES_ENABLED
+
 
 CAPABILITIES = ("llm", "whisper", "ocr", "stems")
 
@@ -133,6 +135,8 @@ def _env_provider(prefix: str) -> dict | None:
 
 def host_embedded_providers() -> dict[str, dict]:
     """Operator-configured cloud providers from env (no secrets in response)."""
+    if not AI_FEATURES_ENABLED:
+        return {}
     mapping = {
         "llm": "PROVIDER_LLM",
         "whisper": "PROVIDER_WHISPER",
@@ -201,6 +205,9 @@ def resolve_provider(
       4. Local backend for other capabilities
       5. Unavailable
     """
+    if not AI_FEATURES_ENABLED:
+        # Central kill switch: never resolve a BYO self-hosted model either.
+        return None
     normalized_overlay = normalize_provider_set(overlay)
     if normalized_overlay:
         if normalized_overlay.get("provider") == "local":
@@ -267,7 +274,7 @@ def providers_health_payload(
     host = host_embedded_providers()
     caps = {}
     for cap in CAPABILITIES:
-        local_ok = bool(local_backends.get(cap))
+        local_ok = bool(AI_FEATURES_ENABLED and local_backends.get(cap))
         # For anonymous health, advertise whether host *has* embedded (not keys)
         has_host = cap in host
         resolved = resolve_provider(
@@ -283,6 +290,7 @@ def providers_health_payload(
             "active": public_provider_summary(resolved),
         }
     return {
+        "aiEnabled": bool(AI_FEATURES_ENABLED),
         "capabilities": caps,
         "hostEmbeddedConfigured": {cap: (cap in host) for cap in CAPABILITIES},
     }

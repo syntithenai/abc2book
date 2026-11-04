@@ -27,7 +27,6 @@ const TOP_LEVEL_TAB_IDS = {
   [TAB_PERSONALISATION]: true,
   [TAB_PROVIDERS]: true,
   [TAB_LIBRARY]: true,
-  [TAB_BILLING_ADMIN]: true,
 }
 
 const LIBRARY_NESTED_TAB_IDS = {
@@ -112,6 +111,10 @@ export function resolveSettingsLocation(tabParam, libraryTabParam) {
   }
   if (tabParam === TAB_MUSIC_COLLECTION) {
     return { tab: TAB_LIBRARY, libraryTab: TAB_SOURCES }
+  }
+  if (tabParam === TAB_BILLING_ADMIN) {
+    // Billing admin UI is hidden while credit purchasing is disabled.
+    return { tab: TAB_BACKGROUND_JOBS, libraryTab: LIBRARY_TAB_LIBRARY }
   }
   if (tabParam && LIBRARY_NESTED_TAB_IDS[tabParam] && tabParam !== TAB_LIBRARY) {
     return { tab: TAB_LIBRARY, libraryTab: normalizeLibraryTab(tabParam) }

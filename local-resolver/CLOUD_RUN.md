@@ -52,7 +52,9 @@ Install/auth if needed: `gcloud auth login` and `gcloud auth configure-docker ${
 | `GOOGLE_CLIENT_ID` | Same Web client ID as the Tunebook SPA (`REACT_APP_GOOGLE_CLIENT_ID`) |
 | `RESOLVER_ACCESS_EMAILS` | Who may use this host. Omit or leave empty for any signed-in Google user. Comma list or `ALL`. |
 | `ALLOWED_ORIGINS` | Comma-separated SPA origins that may CORS-call the service. Include production + local: `https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000` |
-| `BILLING_ENABLED` | `true` on Cloud Run (default when `RESOLVER_LIGHT_MODE=true` unless overridden) |
+| `BILLING_ENABLED` | `true` on Cloud Run (default when `RESOLVER_LIGHT_MODE=true` unless overridden). Keep `true` for settlement/metering/ledger. |
+| `BILLING_PURCHASES_ENABLED` | `false` disables Stripe checkout only; in-flight sessions still settle via `/billing/webhook`. |
+| `AI_FEATURES_ENABLED` | `false` is the central kill switch for LLM, Whisper, OCR/OMR, stems, TTS and generative audio. Model routes return `503 ai_features_disabled:<feature>`; `/health` reports `features.ai=false`. |
 
 ### Strongly recommended (feature toggles — already defaulted in the image, but set explicitly)
 
@@ -61,8 +63,8 @@ Install/auth if needed: `gcloud auth login` and `gcloud auth configure-docker ${
 | `RESOLVER_LIGHT_MODE` | `true` | Marks light health features |
 | `PROXY_ENABLED` | `true` | Enables `/youtube` feature flag |
 | `YTDLP_REQUIRE_USER_PROXY` | `true` | Refuse YouTube without user Webshare (public product) |
-| `WHISPER_ENABLED` | `true` | Accept Whisper via providers |
-| `LLM_ENABLED` | `true` | Accept LLM via providers |
+| `WHISPER_ENABLED` | `false` | Accept Whisper via providers (requires `AI_FEATURES_ENABLED=true`) |
+| `LLM_ENABLED` | `false` | Accept LLM via providers (requires `AI_FEATURES_ENABLED=true`) |
 
 ### Optional — operator-paid (“host”) API keys
 
@@ -269,8 +271,9 @@ REQUIRE_AUTH: "true"
 RESOLVER_LIGHT_MODE: "true"
 PROXY_ENABLED: "true"
 YTDLP_REQUIRE_USER_PROXY: "true"
-WHISPER_ENABLED: "true"
-LLM_ENABLED: "true"
+AI_FEATURES_ENABLED: "false"
+WHISPER_ENABLED: "false"
+LLM_ENABLED: "false"
 ALLOWED_ORIGINS: "https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000"
 PROVIDER_WHISPER_PROVIDER: "groq"
 PROVIDER_WHISPER_BASE_URL: "https://api.groq.com/openai/v1"
@@ -361,11 +364,13 @@ On this Cloud Run service, `/youtube` needs one of:
 
 ## 6. Typical cloud vs home configuration
 
-**Public Cloud Run (open access + billing):**
+**Public Cloud Run (open access + billing, AI and purchases currently off):**
 
 ```text
 # omit RESOLVER_ACCESS_EMAILS — any signed-in Google user
 BILLING_ENABLED=true
+BILLING_PURCHASES_ENABLED=false
+AI_FEATURES_ENABLED=false
 PROVIDER_LLM_MODEL=openai/gpt-oss-120b
 PROVIDER_OCR_MODEL=qwen/qwen3.6-27b
 PROVIDER_WHISPER_MODEL=whisper-large-v3
