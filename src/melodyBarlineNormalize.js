@@ -3,6 +3,8 @@
  * Pickup || right after |: or :: (no prior | in segment) is a single barline.
  */
 
+import { convertSessionLineBreaks } from './abcImportNormalize';
+
 export function normalizeMelodyBarlines(text) {
   return String(text || '')
     .replace(/\|:([^|]*?)\|\|/g, '|:$1|')
@@ -86,9 +88,15 @@ export function normalizeVoiceNotesText(textOrLines) {
  * Also trims lines and drops blanks so abcjs does not end the tune early.
  * Inserts missing | between consecutive music lines so a wrap without a
  * trailing barline does not merge bars.
+ *
+ * Session / folktune `!` line-break markers are converted to newlines first
+ * (matching import), so abcjs re-flows lines instead of forcing a break. This
+ * also prevents ensureBarlinesAtMusicLineJoins from mangling a trailing `|!`
+ * into `|!|` (a stray barline that adds an extra stave).
  */
 export function normalizeAbcTextForAbcjs(abcText) {
-  const prepared = String(abcText || '').split('\n').map(function(line) {
+  const converted = convertSessionLineBreaks(abcText);
+  const prepared = String(converted || '').split('\n').map(function(line) {
     return String(line || '').trim();
   }).filter(Boolean);
   const withJoins = ensureBarlinesAtMusicLineJoins(prepared);
