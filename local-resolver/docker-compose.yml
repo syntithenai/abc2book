@@ -217,7 +217,7 @@ services:
 
   # Text-to-speech stack (profile `tts` = gateway). Backends:
   #   profile `tts-gpu` — Kokoro (AMD ROCm or Strix Halo CPU image via tts-up.sh)
-  #   profile `tts-cpu` — Piper fallback (kept running with Kokoro)
+  #   profile `tts-cpu` — optional Piper fallback; tts-up.sh does not start it
   #   ./scripts/tts-up.sh  (+ optional ./scripts/install-tts-systemd.sh)
   tts-cpu:
     build:
@@ -318,7 +318,9 @@ services:
       TTS_GATEWAY_LISTEN_HOST: 0.0.0.0
       TTS_GATEWAY_LISTEN_PORT: "8789"
       TTS_PRIMARY_URL: http://tts-gpu:8880
-      TTS_FALLBACK_URL: http://tts-cpu:5000
+      # Piper is off. Set this back to http://tts-cpu:5000 and start the
+      # tts-cpu profile to restore the fallback.
+      TTS_FALLBACK_URL: "off"
       TTS_PRIMARY_KIND: openai
       TTS_FALLBACK_KIND: piper
       TTS_PRIMARY_PROBE_PATH: /health
@@ -362,22 +364,19 @@ services:
       - caddy_config:/config
     restart: unless-stopped
 
-  # Optional Namecheap dynamic DNS updater. Enable with:
-  #   docker compose --profile ddns up -d
-  # (combine with the proxy, e.g. docker compose --profile https --profile ddns up -d)
-  # Keeps NAMECHEAP_DDNS_HOSTS under NAMECHEAP_DDNS_DOMAIN pointed at this
-  # machine's public IPv4. Requires Dynamic DNS enabled on the domain in the
-  # Namecheap dashboard and the Dynamic DNS password set in .env.
+  # Disabled. peppertrees.syntithenai.com is updated by the Pi
+  # (peppertrees user service namecheap-ddns.service). Do not run DDNS on
+  # doomsday/workspace while NordVPN is up — it publishes the VPN exit IP.
   ddns:
     image: curlimages/curl:8.11.1
     container_name: abc2book-resolver-ddns
-    profiles: ["ddns"]
+    profiles: ["ddns-disabled"]
     env_file:
       - .env
     entrypoint: ["/bin/sh", "/usr/local/bin/ddns-namecheap.sh"]
     volumes:
       - ./ddns-namecheap.sh:/usr/local/bin/ddns-namecheap.sh:ro
-    restart: unless-stopped
+    restart: "no"
 
   snapserver:
     build:

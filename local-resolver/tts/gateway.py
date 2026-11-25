@@ -60,17 +60,23 @@ class TtsBackend:
     probe_path: str
 
 
+def _fallback_disabled(url: str) -> bool:
+    return url.strip().lower() in {"", "off", "none", "disabled"}
+
+
 def backends_from_env() -> list[TtsBackend]:
     primary_url = normalize_base_url(os.getenv("TTS_PRIMARY_URL", "http://tts-gpu:8880"))
-    fallback_url = normalize_base_url(os.getenv("TTS_FALLBACK_URL", "http://tts-cpu:5000"))
+    fallback_raw = os.getenv("TTS_FALLBACK_URL", "http://tts-cpu:5000")
     primary_kind = (os.getenv("TTS_PRIMARY_KIND", "openai") or "openai").strip().lower()
-    fallback_kind = (os.getenv("TTS_FALLBACK_KIND", "piper") or "piper").strip().lower()
     primary_probe = os.getenv("TTS_PRIMARY_PROBE_PATH", "/health").strip() or "/health"
+    backends = [TtsBackend("kokoro", primary_kind, primary_url, primary_probe)]
+    if _fallback_disabled(fallback_raw):
+        return backends
+    fallback_url = normalize_base_url(fallback_raw)
+    fallback_kind = (os.getenv("TTS_FALLBACK_KIND", "piper") or "piper").strip().lower()
     fallback_probe = os.getenv("TTS_FALLBACK_PROBE_PATH", "/info").strip() or "/info"
-    return [
-        TtsBackend("kokoro", primary_kind, primary_url, primary_probe),
-        TtsBackend("piper", fallback_kind, fallback_url, fallback_probe),
-    ]
+    backends.append(TtsBackend("piper", fallback_kind, fallback_url, fallback_probe))
+    return backends
 
 
 class BackendSelector:

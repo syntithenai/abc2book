@@ -1,12 +1,37 @@
-# Caddy reverse proxy that terminates TLS for the local resolver so the
-# production HTTPS site can reach it without mixed-content errors.
+# Caddy reverse proxy that terminates TLS for both production sites on this host:
 #
-# Caddy automatically obtains and renews a Let's Encrypt certificate for
-# RESOLVER_DOMAIN, provided ports 80 and 443 are reachable from the internet
-# and RESOLVER_DOMAIN's DNS points at this machine.
+#   peppertrees.syntithenai.com   -> Synth Workspace  (host 172.17.0.1:8080)
+#   {$RESOLVER_DOMAIN}            -> ABC2Book resolver (resolve.syntithenai.com)
+#
+# Caddy automatically obtains and renews a Let's Encrypt certificate for each
+# name, provided ports 80 and 443 are reachable from the internet and DNS
+# points at this machine.
 #
 # Setting ACME_EMAIL is optional but recommended for expiry notices. If set,
 # add `email you@example.com` under a global options block (the first `{ }`).
+
+# Synth Workspace: the web app published by deploy/workspace/compose.yaml.
+# flush_interval -1 disables response buffering so SSE streams immediately;
+# WebSocket upgrades (noVNC, chat) are handled by reverse_proxy automatically.
+peppertrees.syntithenai.com {
+	# Skip already-compressed binaries. Craft WASM is 20–50 MiB; zstd on those
+	# burns CPU and has broken streaming compiles when paired with Range.
+	@compressible not path *.wasm *.part-*
+	encode @compressible zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+	}
+	reverse_proxy host.docker.internal:8080 {
+		header_up Host {host}
+		header_up X-Forwarded-Proto {scheme}
+		flush_interval -1
+		transport http {
+			dial_timeout 10s
+			read_timeout 10m
+			write_timeout 10m
+		}
+	}
+}
 
 {$RESOLVER_DOMAIN} {
 	handle /snapcast/* {
